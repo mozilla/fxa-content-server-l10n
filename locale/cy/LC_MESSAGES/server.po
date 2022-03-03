@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-03 22:07+0000\n"
 "PO-Revision-Date: 2022-01-10 16:06+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,849 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426193839.0\n"
-
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:3024
-msgid "Here's your reminder to sync devices."
-msgstr "Dyma eich atgoffa i gydweddu dyfeisiau."
-
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:3028
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Mae'n cymryd dau i gydweddu. Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
-
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:3025
-msgid "Last reminder to sync devices!"
-msgstr "Nodyn atgoffa olaf i gydweddu dyfeisiau!"
-
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:3031
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
-
-#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
-msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr "Os nad ydych eisoes wedi llwytho %(productName)s i lawr, gadewch i ni ddechrau defnyddio'r holl nodweddion sydd wedi'u cynnwys yn eich tanysgrifiad:"
-
-#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:4 lib/senders/templates/subscriptionAccountReminderSecond.html:4 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:11 lib/senders/templates/subscriptionPaymentExpired.html:4
-#: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
-msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth <a href=\"%(subscriptionSupportUrl)s\">tîm cymorth</a> yma i'ch helpu chi."
-
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionAccountReminderFirst.txt:5
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:5 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:10 lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5 lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7
-#: lib/senders/templates/subscriptionUpgrade.txt:6
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth yma i'ch helpu chi:"
-
-#: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
-msgid "Low recovery codes remaining"
-msgstr "Prinder codau adfer"
-
-#: lib/senders/templates/lowRecoveryCodes.html:2
-msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Rydym wedi sylwi eich bod yn brin o godau adfer. Ystyriwch greu codau newydd er mwyn osgoi cael eich cloi allan o'ch cyfrif."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:2
-msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Rydym wedi sylwi eich bod yn fyr o godau adfer. Ystyriwch greu codau newydd er mwyn osgoi cael eich cloi allan o'ch cyfrif."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:3
-msgid "Generate codes:"
-msgstr "Creu codau:"
-
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1384
-msgid "New sign-in to %(clientName)s"
-msgstr "Mewngofnodi newydd i %(clientName)s"
-
-#: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
-msgid "Password Change Required"
-msgstr "Mae Angen Newid Cyfrinair"
-
-#: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
-msgid ""
-"We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
-"password as a precaution."
-msgstr ""
-"Rydym wedi canfod ymddygiad amheus ar eich cyfrif Firefox. Er mwyn atal mynediad heb awdurdod i'ch Cyfrif Firefox, rydym wedi datgysylltu pob dyfais ar eich cyfrif ac yn gofyn i chi newid eich "
-"cyfrinair fel rhagofal."
-
-#: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
-msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr "Mewngofnodwch i unrhyw ddyfais neu wasanaeth lle rydych chi'n defnyddio'ch cyfrif Firefox a dilynwch y camau a fydd yn cael eu cyflwyno i chi."
-
-#: lib/senders/templates/passwordChangeRequired.html:4
-msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "<b>Pwysig:</b> Dewiswch gyfrinair gwahanol i'r hyn yr oeddech chi'n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost."
-
-#: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5
-msgid "Best,"
-msgstr "Hwyl,"
-
-#: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6
-msgid "The Firefox Accounts team"
-msgstr "Tîm Cyfrif Firefox"
-
-#: lib/senders/templates/passwordChangeRequired.txt:4
-msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "Pwysig: Dewiswch gyfrinair gwahanol i'r hyn yr oeddech chi'n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost."
-
-#: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
-msgid "Password changed successfully"
-msgstr "Mae'r cyfrinair wedi ei newid yn llwyddiannus"
-
-#: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
-msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "Mae eich cyfrinair Cyfrif Firefox wedi ei newid yn llwyddiannus o'r ddyfais ganlynol:"
-
-#: lib/senders/templates/passwordChanged.txt:3
-msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "E-bost awtomatig yw hwn: os nad ydych wedi newid cyfrinair eich Cyfrif Firefox, dylech ei ailosod yn syth yn %(resetLink)s"
-
-#: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
-msgid "Your account password was changed"
-msgstr "Mae cyfrinair eich cyfrif wedi newid"
-
-#: lib/senders/templates/passwordReset.html:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Bydd angen i chi roi eich cyfrinair newydd ar ddyfeisiau eraill i'w cydweddu."
-
-#: lib/senders/templates/passwordReset.txt:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Bydd angen i chi roi eich cyfrinair newydd ar ddyfeisiau eraill i barhau eu cydweddu."
-
-#: lib/senders/templates/passwordReset.txt:3
-msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "Os nad ydych wedi eu newid, cofiwch ailosod eich cyfrinair nawr yn %(resetLink)s"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
-msgid "Your account password was reset with a recovery key"
-msgstr "Cafodd cyfrinair eich cyfrif ei ailosod gydag allwedd adfer"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
-msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "Rydych wedi ailosod eich cyfrinair yn llwyddiannus gan ddefnyddio allwedd adfer o'r ddyfais ganlynol:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
-msgid "You will need to generate a new recovery key."
-msgstr "Bydd angen i chi gynhyrchu allwedd adfer newydd."
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:4
-msgid "Create new recovery key:"
-msgstr "Creu allwedd adfer newydd:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "Am ragor o wybodaeth, ewch i %(supportUrl)s"
-
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1820
-msgid "Account recovery key generated"
-msgstr "Cynhyrchwyd allwedd adfer cyfrif"
-
-#: lib/senders/templates/postAddAccountRecovery.html:2
-msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr "Rydych wedi cynhyrchu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:"
-
-#: lib/senders/templates/postAddAccountRecovery.html:3
-msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr "Os nad chi oedd hwn, <a %(revokeAccountRecoveryLinkAttributes)s>cliciwch yma.</a>"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:2
-msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr "Rydych wedi cynhyrchu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:3
-msgid "If this was not you, revoke key."
-msgstr "Os nad chi oedd hwn, diddymwch yr allwedd."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1582
-msgid "Two-step authentication enabled"
-msgstr "Mae dilysu dau gam wedi ei alluogi"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox o'r ddyfais ganlynol:"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:3
-msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr "Bydd angen codau diogel o'ch ap dilysu bob tro fyddwch yn mewngofnodi."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.txt:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox o'r ddyfais ganlynol. Bydd angen codau diogel o'ch ap dilysu bob tro fyddwch yn mewngofnodi."
-
-#: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
-msgid "New primary email"
-msgstr "Prif e-bost newydd"
-
-#: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
-msgid ""
-"You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
-"confirmations."
-msgstr ""
-"Rydych wedi newid eich prif e-bost i %(email)s. Y cyfeiriad hwn yw eich enw defnyddiwr ar gyfer mewngofnodi i'ch Cyfrif Firefox, yn ogystal â derbyn eich hysbysiadau diogelwch a chadarnhau "
-"mewngofnodion."
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:1
-msgid "Recovery code consumed"
-msgstr "Cod adfer wedi ei ddefnyddio"
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
-msgid "You have successfully consumed a recovery code from the following device:"
-msgstr "Rydych wedi defnyddio cod adfer yn llwyddiannus o'r ddyfais ganlynol:"
-
-#: lib/senders/templates/postConsumeRecoveryCode.txt:1
-msgid "Consumed recovery code"
-msgstr "Cod adfer wedi ei ddefnyddio"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1676
-msgid "New recovery codes generated"
-msgstr "Wedi creu cod adfer newydd"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
-msgid "You have successfully generated new recovery codes from the following device:"
-msgstr "Rydych wedi creu cod adfer newydd yn llwyddiannus o'r ddyfais ganlynol:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1870
-msgid "Account recovery key removed"
-msgstr "Tynnwyd yr allwedd adfer cyfrif"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:2
-msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr "Rydych wedi tynnu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
-msgid "This recovery key can no longer be used to recover your account."
-msgstr "Nid oes modd defnyddio'r allwedd adfer hwn bellach i adfer eich cyfrif."
-
-#: lib/senders/templates/postRemoveAccountRecovery.txt:2
-msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr "Rydych wedi tynnu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:"
-
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1548
-msgid "Secondary email removed"
-msgstr "Tynnwyd yr ail e-bost"
-
-#: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr "Rydych wedi tynnu %(secondaryEmail)s yn llwyddiannus fel ail e-bost o'ch Cyfrif Firefox. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi yn cael eu hanfon i'r cyfeiriad hwn."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
-msgid "Two-step authentication disabled"
-msgstr "Mae dilysu dau gam wedi ei analluogi"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox o'r ddyfais ganlynol:"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
-msgid "Security codes will no longer be required at each sign-in."
-msgstr "Ni fydd angen codau diogel bellach wrth fewngofnodi."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox. Ni fydd angen codau diogel bob tro fyddwch yn mewngofnodi."
-
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Firefox Account verified. You're almost there."
-msgstr "Cyfrif Firefox wedi'i wirio. Rydych chi bron yno."
-
-#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "Next sync between your devices!"
-msgstr "nesaf, cydweddwch eich dyfeisiau!"
-
-#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr "Mae Sync yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ar draws eich holl ddyfeisiau."
-
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1430
-msgid "Set up next device"
-msgstr "Gosod y ddyfais nesaf"
-
-#: lib/senders/templates/postVerify.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Unrhyw gwestiynau? Ewch i %(supportUrl)s"
-
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1476
-msgid "Secondary email added"
-msgstr "Ychwanegwyd ail e-bost"
-
-#: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr "Rydych wedi gwirio %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'ch Cyfrif Firefox. Bydd hysbysiadau diogelwch a chadarnhad mewngofnodi yn cael eu anfon i'r ddau gyfeiriad."
-
-#: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
-msgid "Need to reset your password?"
-msgstr "Angen ailosod eich cyfrinair?"
-
-#: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
-msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr "Cliciwch y botwm o fewn yr awr nesaf i greu cyfrinair newydd. Daeth y cais gan y ddyfais ganlynol:"
-
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1225
-msgid "Create new password"
-msgstr "Creu cyfrinair newydd"
-
-#: lib/senders/templates/sms.installFirefox.txt:1
-msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr "Diolch am ddewis Firefox! Gallwch osod Firefox ar gyfer symudol yma: %(link)s"
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
-#: lib/senders/templates/subscriptionCancellation.txt:1
-msgid "Sorry to see you go"
-msgstr "Mae'n ddrwg gennym eich gweld chi'n gadael"
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
-msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr ""
-"Fe wnaethoch chi ddileu eich Cyfrif Firefox yn ddiweddar. O ganlyniad, rydym wedi diddymu eich tanysgrifiad i %(productName)s. Talwyd eich taliad olaf o $%(invoiceTotal)s ar %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4 lib/senders/templates/subscriptionFailedPaymentsCancellation.html:4
-msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr "Helpwch ni i wella ein gwasanaethau trwy lanw'r <a %(cancellationSurveyLinkAttributes)s>arolwg byr</a> hwn."
-
-#: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:3
-msgid "Please help us improve our services by taking this short survey:"
-msgstr "Helpwch ni i wella ein gwasanaethau trwy lanw'r arolwg byr hwn:"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2993
-msgid "Welcome to %(productName)s"
-msgstr "Croeso i %(productName)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
-msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
-msgstr "Mae'ch taliad yn cael ei brosesu a gall gymryd hyd at bedwar diwrnod gwaithi'w gwblhau. Bydd eich tanysgrifiad yn adnewyddu'n awtomatig bob cyfnod bilio oni bai eich bod yn dewis ei orffen."
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
-msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr "Nesaf, byddwch chi'n creu cyfrinair cyfrif Firefox ac yn llwytho %(productName)s i lawr."
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
-msgid "Invoice number: %(invoiceNumber)s"
-msgstr "Rhif anfoneb: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
-msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Codwyd: $%(invoiceTotal)s ar %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
-msgid "Next invoice: %(nextInvoiceDateOnly)s"
-msgstr "Anfoneb nesaf: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
-msgid "You can't access your subscription yet"
-msgstr "Nid oes modd i chi gael mynediad i'ch tanysgrifiad eto"
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
-msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr "Ychydig ddyddiau yn ôl fe wnaethoch chi greu Cyfrif Firefox ond heb  ei wirio. Rydym yn gobeithio y byddwch chi'n gorffen creu'ch cyfrif, fel y gallwch chi ddefnyddio'ch tanysgrifiad newydd."
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
-msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr "Dewiswch “Creu Cyfrinair” i greu cyfrinair newydd a gorffen gwirio eich cyfrif."
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
-msgid "Create a password:"
-msgstr "Crëwch gyfrinair:"
-
-#: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
-msgid "Welcome to Firefox!"
-msgstr "Croeso i Firefox"
-
-#: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
-msgid ""
-"We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-"which is %(serviceLastActiveDateOnly)s."
-msgstr ""
-"Rydym wedi diddymu eich tanysgrifiad am %(productName)s. Talwyd eich taliad olaf o $%(invoiceTotal)s ar %(invoiceDateOnly)s. Bydd eich gwasanaeth yn parhau tan ddiwedd eich cyfnod bilio cyfredol, "
-"sef %(serviceLastActiveDateOnly)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
-msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr "Rydych wedi symud o %(productNameOld)s i %(productNameNew)s yn llwyddiannus."
-
-#: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-"O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycleOld)s i %(paymentAmountNew)s bob %(productPaymentCycleNew)s. Bryd hynny, byddwch hefyd yn derbyn "
-"credyd am unwaith o %(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycleOld)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
-msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr "Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio %(productNameNew)s, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr."
-
-#: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
-#: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:3
-#: lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
-msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr "Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
-msgid "Your subscription has been cancelled"
-msgstr "Mae eich tanysgrifiad wedi'i ddiddymu"
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr "Rydym wedi diddymu eich tanysgrifiad %(productName)s oherwydd bod sawl ymgais talu wedi methu. I gael mynediad eto, dechreuwch danysgrifiad newydd gyda dull talu wedi'i ddiweddaru."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr "Rydym wedi diddymu eich tanysgrifiad %(productName)s oherwydd bod sawl ymgais talu wedi methu. I gael mynediad eto, dechreuwch danysgrifiad newydd gyda dull talu wedi'i ddiweddaru."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:1
-msgid "Thank you for subscribing to %(productName)s"
-msgstr "Diolch am danysgrifio i %(productName)s!"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:2
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:1
-msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr "Mae'ch taliad yn cael ei brosesu ar hyn o bryd a gall gymryd hyd at bedwar diwrnod busnes i'w gwblhau."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:3
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:2
-msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr "Byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr ar sut i ddechrau defnyddio %(productName)s."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
-msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr "Rhif Anfoneb: <b>%(invoiceNumber)s</b>"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.txt:4
-msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Codwyd $%(invoiceTotal)s ar %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:9 lib/senders/templates/subscriptionSubsequentInvoice.html:6
-msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr "<a href=\"%(invoiceLink)s\">Gweld eich anfoneb</a>."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:10
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:9 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.txt:6
-msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr "Anfoneb Nesaf: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
-msgid "Invoice Number: %(invoiceNumber)s"
-msgstr "Rhif Anfoneb: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:8 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "View Invoice: %(invoiceLink)s"
-msgstr "Gweld yr Anfoneb: %(invoiceLink)s"
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
-msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr "Is-gyfanswm: %(invoiceSubtotal)s"
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
-msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr "Gostyngiad un-tro: -%(invoiceDiscountAmount)s"
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:1
-msgid "Your credit card is about to expire"
-msgstr "Mae eich cerdyn credyd ar fin dod i ben"
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr "Mae'r cerdyn credyd rydych yn ei ddefnyddio i wneud taliadau am %(productName)s ar fin dod i ben."
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
-msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr "Er mwyn atal unrhyw darfu ar eich gwasanaeth, <a href=\"%(updateBillingUrl)s\"> diweddarwch eich manylion talu </a> cyn gynted â phosibl."
-
-#: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:4 lib/senders/templates/subscriptionsPaymentExpired.txt:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:5
-msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr "Er mwyn atal unrhyw darfu ar eich gwasanaeth, diweddarwch eich manylion talu cyn gynted â phosibl."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
-msgid "Sorry, we're having trouble with your payment"
-msgstr "Mae'n ddrwg gennym, rydym yn cael trafferth gyda'ch taliad"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
-msgid "We had a problem with your latest payment for %(productName)s."
-msgstr "Rydym wedi cael anhawster gyda'ch taliad diweddaraf am %(productName)s."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:3
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:3 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:4
-msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr "Efallai bod eich cerdyn credyd wedi dod i ben, neu fod eich dull talu cyfredol yn annilys."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
-msgstr ""
-"Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy <a href=\"%(updateBillingUrl)s\">ddiweddaru eich manylion talu</a>."
-
-#: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
-msgstr ""
-"Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy <a href=\"%(updateBillingUrl)s\">ddiweddaru eich manylion talu</a>."
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
-msgid "Sorry, we’re having trouble with your payment method"
-msgstr "Ymddiheuruadau, rydym yn cael trafferth gyda'ch dull talu"
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr "Rydym wedi canfod anhawster gyda'ch dull talu am %(productName)s."
-
-#: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
-msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr "Diolch am ail-agor eich tanysgrifiad %(productName)s"
-
-#: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
-"choose to cancel."
-msgstr ""
-"Bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd %(invoiceTotal)s ar %(nextInvoiceDateOnly)s. Bydd eich tanysgrifiad yn cael ei adnewyddu pob cyfnod bilio yn awtomatig oni "
-"bai eich bod yn dewis ei ddiddymu."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
-msgid "Your subscription will be renewed soon"
-msgstr "Bydd eich tanysgrifiad yn cael ei adnewyddu'n fuan"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
-msgid "Dear %(productName)s customer,"
-msgstr "Annwyl gwsmer %(productName)s,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
-msgid ""
-"Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
-"%(invoiceTotal)s will be applied to the payment method on your account."
-msgstr ""
-"Mae disgwyl i'ch tanysgrifiad cyfredol adnewyddu'n awtomatig ymhen %(reminderLength)s diwrnod. Bryd hynny, bydd Mozilla yn adnewyddu eich tanysgrifiad %(planIntervalCount)s %(planInterval)s a "
-"chodir tâl o %(invoiceTotal)s ar y dull talu ar eich cyfrif."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:4
-msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr "Gallwch sicrhau bod eich dull talu a manylion eich cyfrif yn gyfredol <a href=\"%(updateBillingUrl)s\">yma</a>."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:5
-msgid ""
-"Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
-"us</a>."
-msgstr ""
-"Diolch am danysgrifio i %(productName)s. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am %(productName)s, <a href=\"%(subscriptionSupportUrl)s"
-"\">cysylltwch â ni</a>."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
-msgid "Sincerely,"
-msgstr "Yn gywir,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
-msgid "The %(productName)s team"
-msgstr "Tîm %(productName)s"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:4
-msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr "Gallwch sicrhau bod eich dull talu a manylion eich cyfrif yn gyfredol yma:"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:5
-msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr ""
-"Diolch am danysgrifio i %(productName)s. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am %(productName)s, <a href=\"%(subscriptionSupportUrl)s"
-"\">cysylltwch â ni</a>."
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:1
-msgid "Thank you for being a subscriber!"
-msgstr "Diolch am fod yn danysgrifiwr!"
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
-msgid "We received your latest payment for %(productName)s."
-msgstr "Rydym wedi derbyn eich taliad diweddaraf am %(productName)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
-msgid "Thank you for upgrading!"
-msgstr "Diolch am uwchraddio!"
-
-#: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
-msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr "Rydych wedi uwchraddio'n llwyddiannus o %(productNameOld)s i %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-"O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycleOld)s i %(paymentAmountNew)s bob %(paymentAmountNew)s. Bryd hynny, byddwn yn codi ffi am unwaith o "
-"%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycleOld)s."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr "Mae'r cerdyn credyd rydych chi'n ei ddefnyddio i wneud taliadau am y tanysgrifiadau canlynol ar fin dod i ben."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
-msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Cwestiynau am eich tanysgrifiad? Mae ein <a href=\"%(subscriptionSupportUrl)s\">tîm cymorth</a> yma i'ch helpu chi."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
-msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr "Cwestiynau am eich tanysgrifiadau? Mae ein tîm cymorth yma i'ch helpu chi:"
-
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr "Rydym wedi canfod anhawster gyda'ch dull talu am y tanysgrifiadau canlynol."
-
-#: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
-msgid "Is this you signing in?"
-msgstr "Ai hwn yw chi'n allgofnodi?"
-
-#: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
-msgid "If yes, here is the authorization code you need:"
-msgstr "Os ie, dyma'r cod awdurdodi sydd ei angen arnoch:"
-
-#: lib/senders/templates/unblockCode.html:3
-msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Os nad, cynorthwywch ni i gadw ymyrwyr draw ac <a %(reportSignInLinkAttributes)s>adrodd arno i ni.</a>"
-
-#: lib/senders/templates/unblockCode.txt:3
-msgid "If no, help us fend off intruders and report it to us."
-msgstr "Os nad, cynorthwywch ni i gadw ymyrwyr draw ac adrodd arno i ni."
-
-#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Croeso i deulu Firefox"
-
-#: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
-msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr "Ychydig ddyddiau yn ôl fe wnaethoch chi greu cyfrif Firefox, ond heb ei gadarnhau."
-
-#: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
-msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr "Cadarnhewch nawr a chael technoleg sy'n ymgyrchu ac yn diogelu eich preifatrwydd, yn rhoi gwybodaeth ymarferol i chi, a'r parch rydych yn ei haeddu."
-
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
-msgid "Confirm email:"
-msgstr "E-bost cadarnhau:"
-
-#: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
-msgid "Still there?"
-msgstr "Dal yna?"
-
-#: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
-msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr "Bron i wythnos yn ôl fe wnaethoch greu Cyfrif Firefox ond heb ei ddilysu. Rydym yn poeni amdanoch chi."
-
-#: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
-msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr "Cadarnhewch y cyfeiriad e-bost hwn i weithredu eich cyfrif a gadewch i ni wybod eich bod chi'n iawn."
-
-#: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "Defnyddiwch gynnyrch teulu Firefox"
-
-#: lib/senders/templates/verify.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Cadarnhewch eich cyfrif a chael y gorau o Firefox ym mhob man rydych chi'n mewngofnodi gan gychwyn yn:"
-
-#: lib/senders/templates/verify.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Cadarnhewch eich cyfrif a chael y gorau o Firefox ym mhob man rydych chi'n mewngofnodi iddo."
-
-#: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
-msgid "For added security, please confirm this sign-in from the following device:"
-msgstr "Er mwy gwell diogelwch, cadarnhewch y mewngofnodi hwn o'r ddyfais ganlynol:"
-
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:914
-msgid "Confirm sign-in"
-msgstr "Cadarnhau eich mewngofnodi"
-
-#: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
-msgid "If yes, here is the verification code:"
-msgstr "Os ydyw, defnyddiwch y cod dilysu hwn:"
-
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 5 minutes."
-msgstr "Daw i ben mewn 5 munud."
-
-#: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
-msgid "Verify primary email"
-msgstr "Dilysu prif e-bost"
-
-#: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
-msgid "A request to perform an account change has been made from the following device:"
-msgstr "Mae cais wedi ei wneud o'r ddyfais ganlynol i newid cyfrif:"
-
-#: lib/senders/templates/verifyPrimary.html:3
-msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Unwaith bydd wedi ei ddilysu, bydd newid cyfrif fel ychwanegu ail e-bost yn bosib o'r ddyfais hon."
-
-#: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
-msgid "Verify email: "
-msgstr "Dilysu e-bost: "
-
-#: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
-msgid "Verify secondary email"
-msgstr "Dilysu'r ail gyfrif"
-
-#: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
-msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Mae cais i ddefnyddio %(email)s fel ail e-bost wedi ei wneud o'r Cyfrif Firefox canlynol:"
-
-#: lib/senders/templates/verifySecondary.html:3
-msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Unwaith iddo gael ei ddilysu, bydd y cyfrif hwn yn cychwyn derbyn hysbysiadau diogelwch a negeseuon cadarnhau."
-
-#: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
-msgid "Use this verification code:"
-msgstr "Defnyddiwch y cod dilysu hwn:"
-
-#: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
-msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Daw i ben mewn 5 munud. Ar ôl ei wirio, bydd y cyfeiriad hwn yn dechrau derbyn hysbysiadau a chadarnhad diogelwch."
-
-#: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
-msgid "Is this you signing up?"
-msgstr "Ai hyn yw chi wedi cofrestru?"
-
-#: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
-msgid "If yes, use this verification code in your registration form:"
-msgstr "Os ydych, defnyddiwch y cod gwirio hwn yn eich ffurflen gofrestru:"
-
-#: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
-msgid "Ready, set, sync"
-msgstr "Un, dau, tri, cydweddu"
-
-#: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
-msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Cadarnhewch eich bod wedi derbyn yr e-bost hwn ac mi wnawn ni eich cynorthwyo i osod a chydweddu Firefox ar eich holl ddyfeisiau gan gychwyn gyda:"
-
-#: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
-msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Unwaith iddo gael ei gadarnhau, byddwn yn eich cynorthwyo i osod a chysylltu Firefox ar o leiaf un ddyfais arall."
-
-#: lib/senders/templates/partials/appBadges.html:1
-msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr "Neu, gosod ar <a %(desktopLinkAttributes)s> dyfais arall </a>."
-
-#: lib/senders/templates/partials/appBadges.html:2
-msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr "Neu, gosod ar <a %(cadLinkAttributes)s> dyfais arall </a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "E-bost awtomatig yw hwn; os nad ydych wedi awdurdodi'r weithred hon, yna <a %(passwordChangeLinkAttributes)s>newidiwch eich cyfrinair</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
-msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "Am wybodaeth bellach, ewch i <a %(supportLinkAttributes)s>Mozilla Support</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
-msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Mae hwn yn e-bost awtomatig; os nad oeddech wedi ychwanegu dyfais newydd i'ch Cyfrif Firefox, dylech newid eich cyfrinair yn syth yn %(passwordChangeLink)s"
-
-#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
-msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu."
-
-#: lib/senders/templates/partials/automatedEmailResetPassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "E-bost awtomatig yw hwn; os nad ydych wedi awdurdodi'r weithred hon, yna <a %(resetLinkAttributes)s>newidiwch eich cyfrinair</a>."
-
-#: lib/senders/templates/partials/changePassword.txt:1
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, newidiwch eich cyfrinair."
-
-#: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
-msgid "IP address: %(ip)s"
-msgstr "Cyfeiriad IP: %(ip)s"
-
-#: lib/senders/templates/partials/manageAccount.txt:1
-msgid "Manage account:"
-msgstr "Rheoli cyfrif:"
-
-#: lib/senders/templates/partials/paymentPlanDetails.html:1
-msgid "Payment details:"
-msgstr "Manylion talu:"
-
-#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
-msgid "PayPal"
-msgstr "PayPal"
-
-#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "Mae cerdyn %(cardType)s yn gorffen ymhen %(lastFour)s"
-
-#: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
-msgid "Mozilla Privacy Policy"
-msgstr "Polisi Preifatrwydd Mozilla"
-
-#: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
-msgid "Firefox Cloud Terms of Service"
-msgstr "Amodau Gwasanaethau Firefox Cloud"
-
-#: lib/senders/templates/layouts/subscription.html:2
-msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox a'ch bod wedi cofrestru ar gyfer %(productName)s"
-
-#: lib/senders/templates/layouts/subscription.html:3
-msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox"
-
-#: lib/senders/templates/layouts/subscription.html:4
-msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox a'ch bod wedi cofrestru i nifer o gynnyrch."
-
-#: lib/senders/templates/layouts/subscription.html:5
-msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr "Rheolwch osodiadau eich cyfrif Firefox trwy ymweld â'ch  <a %(accountSettingsLinkAttributes)s> tudalen cyfrif</a>."
-
-#: lib/senders/templates/layouts/subscription.html:6
-msgid "Terms and cancellation policy"
-msgstr "Polisi telerau a chanslo"
-
-#: lib/senders/templates/layouts/subscription.html:7
-msgid "Reactivate subscription"
-msgstr "Ailgychwyn y tanysgrifiad"
-
-#: lib/senders/templates/layouts/subscription.html:8
-msgid "Cancel subscription"
-msgstr "Canslo tanysgrifiad"
-
-#: lib/senders/templates/layouts/subscription.html:9
-msgid "Cancel subscriptions"
-msgstr "Diddymu tanysgrifiadau"
-
-#: lib/senders/templates/layouts/subscription.html:10
-msgid "Update billing information"
-msgstr "Diweddaru'r manylion bilio"
-
-#: lib/senders/templates/layouts/subscription.html:13
-msgid "Legal"
-msgstr "Cyfreithiol"
-
-#: lib/senders/templates/layouts/subscription.html:14
-msgid "Privacy"
-msgstr "Preifatrwydd"
-
-#: lib/senders/templates/layouts/subscription.txt:2
-msgid "Terms and cancellation policy:"
-msgstr "Polisi telerau a chanslo:"
-
-#: lib/senders/templates/layouts/subscription.txt:3
-msgid "Privacy notice:"
-msgstr "Hysbysiad preifatrwydd:"
-
-#: lib/senders/templates/layouts/subscription.txt:4
-msgid "Cancel subscription:"
-msgstr "Canslo tanysgrifiad:"
-
-#: lib/senders/templates/layouts/subscription.txt:5
-msgid "Cancel subscriptions:"
-msgstr "Diddymu tanysgrifiadau:"
-
-#: lib/senders/templates/layouts/subscription.txt:6
-msgid "Update billing information:"
-msgstr "Diweddaru'r manylion bilio:"
 
 #: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -882,180 +39,224 @@ msgstr "%(stateCode)s, %(country)s (amcan)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (amcan)"
 
-#: lib/senders/email.js:587
-msgid "Finish creating your account"
-msgstr "Gorffen creu eich cyfrif"
-
-#: lib/senders/email.js:588 lib/senders/email.js:725
-msgid "Confirm email"
-msgstr "E-bost cadarnhau"
-
-#: lib/senders/email.js:655
+#: lib/senders/email.js:618
 msgid "Verification code: %(code)s"
 msgstr "Cod dilysu: %(code)s"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:666
 msgid "Reminder: Finish creating your account"
 msgstr "Nodyn atgoffa: Gorffennwch greu eich cyfrif"
 
-#: lib/senders/email.js:707
+#: lib/senders/email.js:668
 msgid "Final reminder: Activate your account"
 msgstr "Nodyn atgoffa terfynol: Gweithredwch eich cyfrif"
 
-#: lib/senders/email.js:758
+#: lib/senders/email.js:686
+msgid "Confirm email"
+msgstr "E-bost cadarnhau"
+
+#: lib/senders/email.js:719
 msgid "Reminder: Finish setting up your account"
 msgstr "Nodyn atgoffa: Gorffennwch greu eich cyfrif"
 
-#: lib/senders/email.js:760
+#: lib/senders/email.js:721
 msgid "Final reminder: Setup your account"
 msgstr "Nodyn atgoffa terfynol: Crëwch eich cyfrif"
 
-#: lib/senders/email.js:802 lib/senders/email.js:2013
+#: lib/senders/email.js:763 lib/senders/email.js:1911
 msgid "Create a password"
 msgstr "Crëwch gyfrinair"
 
-#: lib/senders/email.js:838
+#: lib/senders/email.js:799
 msgid "Account authorization code"
 msgstr "Cod awdurdodi cyfrif"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:870
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Cadarnhau'r mewngofnodi newydd i %(clientName)s"
 
-#: lib/senders/email.js:960
-msgid "Sign-in code for %(serviceName)s"
-msgstr "Cod mewngofnodi ar gyfer %(serviceName)s"
+#: lib/senders/email.js:873
+msgid "Confirm sign-in"
+msgstr "Cadarnhau eich mewngofnodi"
 
-#: lib/senders/email.js:1029
+#: lib/senders/email.js:982
 msgid "Confirm primary email"
 msgstr "Cadarnhau'r prif e-bost"
 
-#: lib/senders/email.js:1030 lib/senders/email.js:1093 lib/senders/email.js:1165
+#: lib/senders/email.js:983 lib/senders/email.js:1044
 msgid "Verify email"
 msgstr "Dilysu'r e-bost"
 
-#: lib/senders/email.js:1092 lib/senders/email.js:1164
+#: lib/senders/email.js:1043
 msgid "Confirm secondary email"
 msgstr "Cadarnhau'r ail e-bost"
 
-#: lib/senders/email.js:1224
+#: lib/senders/email.js:1101
 msgid "Reset your password"
 msgstr "Ailosod eich cyfrinair"
 
-#: lib/senders/email.js:1270 lib/senders/email.js:1341
+#: lib/senders/email.js:1102
+msgid "Create new password"
+msgstr "Creu cyfrinair newydd"
+
+#: lib/senders/email.js:1145 lib/senders/email.js:1214
 msgid "Password updated"
 msgstr "Diweddarwyd y cyfrinair"
 
-#: lib/senders/email.js:1312
+#: lib/senders/email.js:1185
 msgid "Suspicious activity detected"
 msgstr "Gweithgaredd amheus wedi'i ganfod"
 
-#: lib/senders/email.js:1385 lib/senders/email.js:1477 lib/senders/email.js:1513 lib/senders/email.js:1549 lib/senders/email.js:1583 lib/senders/email.js:1630 lib/senders/email.js:1677
-#: lib/senders/email.js:1724 lib/senders/email.js:1821 lib/senders/email.js:1871
+#: lib/senders/email.js:1252
+msgid "New account linked to Firefox"
+msgstr ""
+
+#: lib/senders/email.js:1253 lib/senders/email.js:1304 lib/senders/email.js:1394 lib/senders/email.js:1430 lib/senders/email.js:1466 lib/senders/email.js:1500 lib/senders/email.js:1585
+#: lib/senders/email.js:1630 lib/senders/email.js:1725 lib/senders/email.js:1773
 msgid "Manage account"
 msgstr "Rheoli cyfrif"
 
-#: lib/senders/email.js:1425
+#: lib/senders/email.js:1303
+msgid "New sign-in to %(clientName)s"
+msgstr "Mewngofnodi newydd i %(clientName)s"
+
+#: lib/senders/email.js:1342
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Cyfrif wedi'i wirio. Nesaf, cydweddwch ddyfais arall i orffen y gosod"
 
-#: lib/senders/email.js:1512
+#: lib/senders/email.js:1347
+msgid "Set up next device"
+msgstr "Gosod y ddyfais nesaf"
+
+#: lib/senders/email.js:1393
+msgid "Secondary email added"
+msgstr "Ychwanegwyd ail e-bost"
+
+#: lib/senders/email.js:1429
 msgid "Primary email updated"
 msgstr "Diweddarwyd y prif e-bost"
 
-#: lib/senders/email.js:1629
-msgid "Two-step authentication is off"
-msgstr "Mae dilysu dau gam wedi ei ddiffodd"
+#: lib/senders/email.js:1465
+msgid "Secondary email removed"
+msgstr "Tynnwyd yr ail e-bost"
 
-#: lib/senders/email.js:1723
+#: lib/senders/email.js:1499
+msgid "Two-step authentication enabled"
+msgstr "Mae dilysu dau gam wedi ei alluogi"
+
+#: lib/senders/email.js:1584
+msgid "New recovery codes generated"
+msgstr "Wedi creu cod adfer newydd"
+
+#: lib/senders/email.js:1629
 msgid "Recovery code used"
 msgstr "Cod adfer wedi'i ddefnyddio"
 
-#: lib/senders/email.js:1783
+#: lib/senders/email.js:1687
 msgid "1 recovery code remaining"
 msgstr "1 cod adfer yn weddill"
 
-#: lib/senders/email.js:1785
+#: lib/senders/email.js:1689
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "%(numberRemaining)s cod adfer yn weddill"
 
-#: lib/senders/email.js:1788
+#: lib/senders/email.js:1692
 msgid "Generate codes"
 msgstr "Creu codau"
 
-#: lib/senders/email.js:1920
+#: lib/senders/email.js:1724
+msgid "Account recovery key generated"
+msgstr "Cynhyrchwyd allwedd adfer cyfrif"
+
+#: lib/senders/email.js:1772
+msgid "Account recovery key removed"
+msgstr "Tynnwyd yr allwedd adfer cyfrif"
+
+#: lib/senders/email.js:1820
 msgid "Password updated using recovery key"
 msgstr "Diweddarwyd y cyfrinair gan ddefnyddio'r allwedd adfer"
 
-#: lib/senders/email.js:1921
+#: lib/senders/email.js:1821
 msgid "Create new recovery key"
 msgstr "Creu allwedd adfer newydd"
 
-#: lib/senders/email.js:2016
+#: lib/senders/email.js:1914
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Croeso i %(productName)s: Cyflwynwch eich cyfrinair."
 
-#: lib/senders/email.js:2090
+#: lib/senders/email.js:1988
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Rydych chi wedi uwchraddio i% (productNameNew) s"
 
-#: lib/senders/email.js:2171
+#: lib/senders/email.js:2069
 msgid "You have switched to %(productNameNew)s"
 msgstr "Rydych wedi newid i %(productNameNew)s"
 
-#: lib/senders/email.js:2237
+#: lib/senders/email.js:2135
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Bydd cerdyn credyd %(productName)s yn dod i ben yn fuan"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2149
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Mae cerdyn credyd ar gyfer eich tanysgrifiadau yn dod i ben yn fuan"
 
-#: lib/senders/email.js:2302
+#: lib/senders/email.js:2200
 msgid "Payment information update required for %(productName)s"
 msgstr "Mae angen diweddaru'r manylion talu ar gyfer %(productName)s"
 
-#: lib/senders/email.js:2318
+#: lib/senders/email.js:2216
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Mae angen diweddaru'r manylion talu am danysgrifiadau Mozilla"
 
-#: lib/senders/email.js:2364
+#: lib/senders/email.js:2262
 msgid "%(productName)s payment failed"
 msgstr "Methodd taliad %(productName)s"
 
-#: lib/senders/email.js:2415 lib/senders/email.js:2480 lib/senders/email.js:2541
+#: lib/senders/email.js:2313 lib/senders/email.js:2378 lib/senders/email.js:2439
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Mae eich tanysgrifiad i %(productName)s wedi'i ddiddymu"
 
-#: lib/senders/email.js:2598
+#: lib/senders/email.js:2496
 msgid "%(productName)s subscription reactivated"
 msgstr "Ail-gychwynnwyd tanysgrifiad %(productName)s"
 
-#: lib/senders/email.js:2654
+#: lib/senders/email.js:2552
 msgid "%(productName)s automatic renewal notice"
 msgstr "Hysbysiad adnewyddu awtomatig %(productName)"
 
-#: lib/senders/email.js:2734
+#: lib/senders/email.js:2633 lib/senders/email.js:2733
 msgid "%(productName)s payment received"
 msgstr "Derbyniwyd taliad am %(productName)s"
 
-#: lib/senders/email.js:2826 lib/senders/email.js:2909
+#: lib/senders/email.js:2837 lib/senders/email.js:2922
 msgid "%(productName)s payment confirmed"
 msgstr "Cadarnhawyd taliad am %(productName)s"
 
-#: lib/senders/email.js:2994
-msgid "Download %(productName)s"
-msgstr "Llwythwch %(productName)s i lawr"
-
-#: lib/senders/email.js:3020
+#: lib/senders/email.js:3028
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Eich Nodyn Atgoffa Cyfeillgar: Sut I Gwblhau Gosod Sync"
 
-#: lib/senders/email.js:3021
+#: lib/senders/email.js:3029
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Nodyn Atgoffa Terfynol: Gosod Sync yn ei Gyfanrwydd"
 
-#: lib/senders/email.js:3035
+#: lib/senders/email.js:3032
+msgid "Here's your reminder to sync devices."
+msgstr "Dyma eich atgoffa i gydweddu dyfeisiau."
+
+#: lib/senders/email.js:3033
+msgid "Last reminder to sync devices!"
+msgstr "Nodyn atgoffa olaf i gydweddu dyfeisiau!"
+
+#: lib/senders/email.js:3036
+msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr "Mae'n cymryd dau i gydweddu. Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
+
+#: lib/senders/email.js:3039
+msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr "Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
+
+#: lib/senders/email.js:3043
 msgid "Sync another device"
 msgstr "Cydweddu dyfais arall"
 
@@ -1143,6 +344,607 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Llwytho'r diweddariad diweddaraf i lawr"
+
+#~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+#~ msgstr "Os nad ydych eisoes wedi llwytho %(productName)s i lawr, gadewch i ni ddechrau defnyddio'r holl nodweddion sydd wedi'u cynnwys yn eich tanysgrifiad:"
+
+#~ msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth <a href=\"%(subscriptionSupportUrl)s\">tîm cymorth</a> yma i'ch helpu chi."
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth yma i'ch helpu chi:"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "Prinder codau adfer"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Rydym wedi sylwi eich bod yn brin o godau adfer. Ystyriwch greu codau newydd er mwyn osgoi cael eich cloi allan o'ch cyfrif."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Rydym wedi sylwi eich bod yn fyr o godau adfer. Ystyriwch greu codau newydd er mwyn osgoi cael eich cloi allan o'ch cyfrif."
+
+#~ msgid "Generate codes:"
+#~ msgstr "Creu codau:"
+
+#~ msgid "Password Change Required"
+#~ msgstr "Mae Angen Newid Cyfrinair"
+
+#~ msgid ""
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
+#~ msgstr ""
+#~ "Rydym wedi canfod ymddygiad amheus ar eich cyfrif Firefox. Er mwyn atal mynediad heb awdurdod i'ch Cyfrif Firefox, rydym wedi datgysylltu pob dyfais ar eich cyfrif ac yn gofyn i chi newid eich "
+#~ "cyfrinair fel rhagofal."
+
+#~ msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+#~ msgstr "Mewngofnodwch i unrhyw ddyfais neu wasanaeth lle rydych chi'n defnyddio'ch cyfrif Firefox a dilynwch y camau a fydd yn cael eu cyflwyno i chi."
+
+#~ msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Pwysig:</b> Dewiswch gyfrinair gwahanol i'r hyn yr oeddech chi'n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost."
+
+#~ msgid "Best,"
+#~ msgstr "Hwyl,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Tîm Cyfrif Firefox"
+
+#~ msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Pwysig: Dewiswch gyfrinair gwahanol i'r hyn yr oeddech chi'n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost."
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Mae'r cyfrinair wedi ei newid yn llwyddiannus"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Mae eich cyfrinair Cyfrif Firefox wedi ei newid yn llwyddiannus o'r ddyfais ganlynol:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "E-bost awtomatig yw hwn: os nad ydych wedi newid cyfrinair eich Cyfrif Firefox, dylech ei ailosod yn syth yn %(resetLink)s"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "Mae cyfrinair eich cyfrif wedi newid"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Bydd angen i chi roi eich cyfrinair newydd ar ddyfeisiau eraill i'w cydweddu."
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Bydd angen i chi roi eich cyfrinair newydd ar ddyfeisiau eraill i barhau eu cydweddu."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "Os nad ydych wedi eu newid, cofiwch ailosod eich cyfrinair nawr yn %(resetLink)s"
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "Cafodd cyfrinair eich cyfrif ei ailosod gydag allwedd adfer"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "Rydych wedi ailosod eich cyfrinair yn llwyddiannus gan ddefnyddio allwedd adfer o'r ddyfais ganlynol:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "Bydd angen i chi gynhyrchu allwedd adfer newydd."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "Creu allwedd adfer newydd:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Am ragor o wybodaeth, ewch i %(supportUrl)s"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Rydych wedi cynhyrchu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "Os nad chi oedd hwn, <a %(revokeAccountRecoveryLinkAttributes)s>cliciwch yma.</a>"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Rydych wedi cynhyrchu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "Os nad chi oedd hwn, diddymwch yr allwedd."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox o'r ddyfais ganlynol:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Bydd angen codau diogel o'ch ap dilysu bob tro fyddwch yn mewngofnodi."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox o'r ddyfais ganlynol. Bydd angen codau diogel o'ch ap dilysu bob tro fyddwch yn mewngofnodi."
+
+#~ msgid "New primary email"
+#~ msgstr "Prif e-bost newydd"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "Rydych wedi newid eich prif e-bost i %(email)s. Y cyfeiriad hwn yw eich enw defnyddiwr ar gyfer mewngofnodi i'ch Cyfrif Firefox, yn ogystal â derbyn eich hysbysiadau diogelwch a chadarnhau "
+#~ "mewngofnodion."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "Cod adfer wedi ei ddefnyddio"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "Rydych wedi defnyddio cod adfer yn llwyddiannus o'r ddyfais ganlynol:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "Cod adfer wedi ei ddefnyddio"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "Rydych wedi creu cod adfer newydd yn llwyddiannus o'r ddyfais ganlynol:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Rydych wedi tynnu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "Nid oes modd defnyddio'r allwedd adfer hwn bellach i adfer eich cyfrif."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Rydych wedi tynnu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Rydych wedi tynnu %(secondaryEmail)s yn llwyddiannus fel ail e-bost o'ch Cyfrif Firefox. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi yn cael eu hanfon i'r cyfeiriad hwn."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "Mae dilysu dau gam wedi ei analluogi"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox o'r ddyfais ganlynol:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "Ni fydd angen codau diogel bellach wrth fewngofnodi."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich Cyfrif Firefox. Ni fydd angen codau diogel bob tro fyddwch yn mewngofnodi."
+
+#~ msgid "Firefox Account verified. You're almost there."
+#~ msgstr "Cyfrif Firefox wedi'i wirio. Rydych chi bron yno."
+
+#~ msgid "Next sync between your devices!"
+#~ msgstr "nesaf, cydweddwch eich dyfeisiau!"
+
+#~ msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+#~ msgstr "Mae Sync yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ar draws eich holl ddyfeisiau."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "Unrhyw gwestiynau? Ewch i %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "Rydych wedi gwirio %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'ch Cyfrif Firefox. Bydd hysbysiadau diogelwch a chadarnhad mewngofnodi yn cael eu anfon i'r ddau gyfeiriad."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "Angen ailosod eich cyfrinair?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "Cliciwch y botwm o fewn yr awr nesaf i greu cyfrinair newydd. Daeth y cais gan y ddyfais ganlynol:"
+
+#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+#~ msgstr "Diolch am ddewis Firefox! Gallwch osod Firefox ar gyfer symudol yma: %(link)s"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Mae'n ddrwg gennym eich gweld chi'n gadael"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr ""
+#~ "Fe wnaethoch chi ddileu eich Cyfrif Firefox yn ddiweddar. O ganlyniad, rydym wedi diddymu eich tanysgrifiad i %(productName)s. Talwyd eich taliad olaf o $%(invoiceTotal)s ar %(invoiceDateOnly)s"
+
+#~ msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
+#~ msgstr "Helpwch ni i wella ein gwasanaethau trwy lanw'r <a %(cancellationSurveyLinkAttributes)s>arolwg byr</a> hwn."
+
+#~ msgid "Please help us improve our services by taking this short survey:"
+#~ msgstr "Helpwch ni i wella ein gwasanaethau trwy lanw'r arolwg byr hwn:"
+
+#~ msgid "Welcome to %(productName)s"
+#~ msgstr "Croeso i %(productName)s"
+
+#~ msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "Mae'ch taliad yn cael ei brosesu a gall gymryd hyd at bedwar diwrnod gwaithi'w gwblhau. Bydd eich tanysgrifiad yn adnewyddu'n awtomatig bob cyfnod bilio oni bai eich bod yn dewis ei orffen."
+
+#~ msgid "Next, you'll create a Firefox account password and download %(productName)s."
+#~ msgstr "Nesaf, byddwch chi'n creu cyfrinair cyfrif Firefox ac yn llwytho %(productName)s i lawr."
+
+#~ msgid "Invoice number: %(invoiceNumber)s"
+#~ msgstr "Rhif anfoneb: %(invoiceNumber)s"
+
+#~ msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Codwyd: $%(invoiceTotal)s ar %(invoiceDateOnly)s"
+
+#~ msgid "Next invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Anfoneb nesaf: %(nextInvoiceDateOnly)s"
+
+#~ msgid "You can't access your subscription yet"
+#~ msgstr "Nid oes modd i chi gael mynediad i'ch tanysgrifiad eto"
+
+#~ msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
+#~ msgstr ""
+#~ "Ychydig ddyddiau yn ôl fe wnaethoch chi greu Cyfrif Firefox ond heb  ei wirio. Rydym yn gobeithio y byddwch chi'n gorffen creu'ch cyfrif, fel y gallwch chi ddefnyddio'ch tanysgrifiad newydd."
+
+#~ msgid "Select “Create Password” to set up a new password and finish verifying your account."
+#~ msgstr "Dewiswch “Creu Cyfrinair” i greu cyfrinair newydd a gorffen gwirio eich cyfrif."
+
+#~ msgid "Create a password:"
+#~ msgstr "Crëwch gyfrinair:"
+
+#~ msgid "Welcome to Firefox!"
+#~ msgstr "Croeso i Firefox"
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "Rydym wedi diddymu eich tanysgrifiad am %(productName)s. Talwyd eich taliad olaf o $%(invoiceTotal)s ar %(invoiceDateOnly)s. Bydd eich gwasanaeth yn parhau tan ddiwedd eich cyfnod bilio "
+#~ "cyfredol, sef %(serviceLastActiveDateOnly)s."
+
+#~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Rydych wedi symud o %(productNameOld)s i %(productNameNew)s yn llwyddiannus."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycleOld)s i %(paymentAmountNew)s bob %(productPaymentCycleNew)s. Bryd hynny, byddwch hefyd yn derbyn "
+#~ "credyd am unwaith o %(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycleOld)s."
+
+#~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
+#~ msgstr "Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio %(productNameNew)s, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr."
+
+#~ msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
+#~ msgstr "Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu."
+
+#~ msgid "Your subscription has been cancelled"
+#~ msgstr "Mae eich tanysgrifiad wedi'i ddiddymu"
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
+#~ msgstr "Rydym wedi diddymu eich tanysgrifiad %(productName)s oherwydd bod sawl ymgais talu wedi methu. I gael mynediad eto, dechreuwch danysgrifiad newydd gyda dull talu wedi'i ddiweddaru."
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
+#~ msgstr "Rydym wedi diddymu eich tanysgrifiad %(productName)s oherwydd bod sawl ymgais talu wedi methu. I gael mynediad eto, dechreuwch danysgrifiad newydd gyda dull talu wedi'i ddiweddaru."
+
+#~ msgid "Thank you for subscribing to %(productName)s"
+#~ msgstr "Diolch am danysgrifio i %(productName)s!"
+
+#~ msgid "Your payment is currently processing and may take up to four business days to complete."
+#~ msgstr "Mae'ch taliad yn cael ei brosesu ar hyn o bryd a gall gymryd hyd at bedwar diwrnod busnes i'w gwblhau."
+
+#~ msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
+#~ msgstr "Byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr ar sut i ddechrau defnyddio %(productName)s."
+
+#~ msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
+#~ msgstr "Rhif Anfoneb: <b>%(invoiceNumber)s</b>"
+
+#~ msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Codwyd $%(invoiceTotal)s ar %(invoiceDateOnly)s"
+
+#~ msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
+#~ msgstr "<a href=\"%(invoiceLink)s\">Gweld eich anfoneb</a>."
+
+#~ msgid "Next Invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Anfoneb Nesaf: %(nextInvoiceDateOnly)s"
+
+#~ msgid "Invoice Number: %(invoiceNumber)s"
+#~ msgstr "Rhif Anfoneb: %(invoiceNumber)s"
+
+#~ msgid "View Invoice: %(invoiceLink)s"
+#~ msgstr "Gweld yr Anfoneb: %(invoiceLink)s"
+
+#~ msgid "Subtotal: %(invoiceSubtotal)s"
+#~ msgstr "Is-gyfanswm: %(invoiceSubtotal)s"
+
+#~ msgid "One-time discount: -%(invoiceDiscountAmount)s"
+#~ msgstr "Gostyngiad un-tro: -%(invoiceDiscountAmount)s"
+
+#~ msgid "Your credit card is about to expire"
+#~ msgstr "Mae eich cerdyn credyd ar fin dod i ben"
+
+#~ msgid "The credit card you're using to make payments for %(productName)s is about to expire."
+#~ msgstr "Mae'r cerdyn credyd rydych yn ei ddefnyddio i wneud taliadau am %(productName)s ar fin dod i ben."
+
+#~ msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
+#~ msgstr "Er mwyn atal unrhyw darfu ar eich gwasanaeth, <a href=\"%(updateBillingUrl)s\"> diweddarwch eich manylion talu </a> cyn gynted â phosibl."
+
+#~ msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
+#~ msgstr "Er mwyn atal unrhyw darfu ar eich gwasanaeth, diweddarwch eich manylion talu cyn gynted â phosibl."
+
+#~ msgid "Sorry, we're having trouble with your payment"
+#~ msgstr "Mae'n ddrwg gennym, rydym yn cael trafferth gyda'ch taliad"
+
+#~ msgid "We had a problem with your latest payment for %(productName)s."
+#~ msgstr "Rydym wedi cael anhawster gyda'ch taliad diweddaraf am %(productName)s."
+
+#~ msgid "It may be that your credit card has expired, or your current payment method is out of date."
+#~ msgstr "Efallai bod eich cerdyn credyd wedi dod i ben, neu fod eich dull talu cyfredol yn annilys."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
+#~ msgstr ""
+#~ "Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy <a href=\"%(updateBillingUrl)s\">ddiweddaru eich manylion talu</"
+#~ "a>."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
+#~ msgstr ""
+#~ "Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy <a href=\"%(updateBillingUrl)s\">ddiweddaru eich manylion talu</"
+#~ "a>."
+
+#~ msgid "Sorry, we’re having trouble with your payment method"
+#~ msgstr "Ymddiheuruadau, rydym yn cael trafferth gyda'ch dull talu"
+
+#~ msgid "We have detected a problem with your payment method for %(productName)s."
+#~ msgstr "Rydym wedi canfod anhawster gyda'ch dull talu am %(productName)s."
+
+#~ msgid "Thank you for reactivating your %(productName)s subscription!"
+#~ msgstr "Diolch am ail-agor eich tanysgrifiad %(productName)s"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
+#~ msgstr ""
+#~ "Bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd %(invoiceTotal)s ar %(nextInvoiceDateOnly)s. Bydd eich tanysgrifiad yn cael ei adnewyddu pob cyfnod bilio yn awtomatig "
+#~ "oni bai eich bod yn dewis ei ddiddymu."
+
+#~ msgid "Your subscription will be renewed soon"
+#~ msgstr "Bydd eich tanysgrifiad yn cael ei adnewyddu'n fuan"
+
+#~ msgid "Dear %(productName)s customer,"
+#~ msgstr "Annwyl gwsmer %(productName)s,"
+
+#~ msgid ""
+#~ "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
+#~ "%(invoiceTotal)s will be applied to the payment method on your account."
+#~ msgstr ""
+#~ "Mae disgwyl i'ch tanysgrifiad cyfredol adnewyddu'n awtomatig ymhen %(reminderLength)s diwrnod. Bryd hynny, bydd Mozilla yn adnewyddu eich tanysgrifiad %(planIntervalCount)s %(planInterval)s a "
+#~ "chodir tâl o %(invoiceTotal)s ar y dull talu ar eich cyfrif."
+
+#~ msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
+#~ msgstr "Gallwch sicrhau bod eich dull talu a manylion eich cyfrif yn gyfredol <a href=\"%(updateBillingUrl)s\">yma</a>."
+
+#~ msgid ""
+#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">contact us</a>."
+#~ msgstr ""
+#~ "Diolch am danysgrifio i %(productName)s. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am %(productName)s, <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">cysylltwch â ni</a>."
+
+#~ msgid "Sincerely,"
+#~ msgstr "Yn gywir,"
+
+#~ msgid "The %(productName)s team"
+#~ msgstr "Tîm %(productName)s"
+
+#~ msgid "You can ensure that your payment method and account information are up to date here:"
+#~ msgstr "Gallwch sicrhau bod eich dull talu a manylion eich cyfrif yn gyfredol yma:"
+
+#~ msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
+#~ msgstr ""
+#~ "Diolch am danysgrifio i %(productName)s. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am %(productName)s, <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">cysylltwch â ni</a>."
+
+#~ msgid "Thank you for being a subscriber!"
+#~ msgstr "Diolch am fod yn danysgrifiwr!"
+
+#~ msgid "We received your latest payment for %(productName)s."
+#~ msgstr "Rydym wedi derbyn eich taliad diweddaraf am %(productName)s."
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "Diolch am uwchraddio!"
+
+#~ msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Rydych wedi uwchraddio'n llwyddiannus o %(productNameOld)s i %(productNameNew)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycleOld)s i %(paymentAmountNew)s bob %(paymentAmountNew)s. Bryd hynny, byddwn yn codi ffi am unwaith o "
+#~ "%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycleOld)s."
+
+#~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
+#~ msgstr "Mae'r cerdyn credyd rydych chi'n ei ddefnyddio i wneud taliadau am y tanysgrifiadau canlynol ar fin dod i ben."
+
+#~ msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Cwestiynau am eich tanysgrifiad? Mae ein <a href=\"%(subscriptionSupportUrl)s\">tîm cymorth</a> yma i'ch helpu chi."
+
+#~ msgid "Questions about your subscriptions? Our support team is here to help you:"
+#~ msgstr "Cwestiynau am eich tanysgrifiadau? Mae ein tîm cymorth yma i'ch helpu chi:"
+
+#~ msgid "We have detected a problem with your payment method for the following subscriptions."
+#~ msgstr "Rydym wedi canfod anhawster gyda'ch dull talu am y tanysgrifiadau canlynol."
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "Ai hwn yw chi'n allgofnodi?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Os ie, dyma'r cod awdurdodi sydd ei angen arnoch:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Os nad, cynorthwywch ni i gadw ymyrwyr draw ac <a %(reportSignInLinkAttributes)s>adrodd arno i ni.</a>"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Os nad, cynorthwywch ni i gadw ymyrwyr draw ac adrodd arno i ni."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Croeso i deulu Firefox"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "Ychydig ddyddiau yn ôl fe wnaethoch chi greu cyfrif Firefox, ond heb ei gadarnhau."
+
+#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+#~ msgstr "Cadarnhewch nawr a chael technoleg sy'n ymgyrchu ac yn diogelu eich preifatrwydd, yn rhoi gwybodaeth ymarferol i chi, a'r parch rydych yn ei haeddu."
+
+#~ msgid "Confirm email:"
+#~ msgstr "E-bost cadarnhau:"
+
+#~ msgid "Still there?"
+#~ msgstr "Dal yna?"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "Bron i wythnos yn ôl fe wnaethoch greu Cyfrif Firefox ond heb ei ddilysu. Rydym yn poeni amdanoch chi."
+
+#~ msgid "Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Cadarnhewch y cyfeiriad e-bost hwn i weithredu eich cyfrif a gadewch i ni wybod eich bod chi'n iawn."
+
+#~ msgid "Activate the Firefox family of products"
+#~ msgstr "Defnyddiwch gynnyrch teulu Firefox"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+#~ msgstr "Cadarnhewch eich cyfrif a chael y gorau o Firefox ym mhob man rydych chi'n mewngofnodi gan gychwyn yn:"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+#~ msgstr "Cadarnhewch eich cyfrif a chael y gorau o Firefox ym mhob man rydych chi'n mewngofnodi iddo."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "Er mwy gwell diogelwch, cadarnhewch y mewngofnodi hwn o'r ddyfais ganlynol:"
+
+#~ msgid "If yes, here is the verification code:"
+#~ msgstr "Os ydyw, defnyddiwch y cod dilysu hwn:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "Daw i ben mewn 5 munud."
+
+#~ msgid "Verify primary email"
+#~ msgstr "Dilysu prif e-bost"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "Mae cais wedi ei wneud o'r ddyfais ganlynol i newid cyfrif:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "Unwaith bydd wedi ei ddilysu, bydd newid cyfrif fel ychwanegu ail e-bost yn bosib o'r ddyfais hon."
+
+#~ msgid "Verify email: "
+#~ msgstr "Dilysu e-bost: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "Dilysu'r ail gyfrif"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Mae cais i ddefnyddio %(email)s fel ail e-bost wedi ei wneud o'r Cyfrif Firefox canlynol:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Unwaith iddo gael ei ddilysu, bydd y cyfrif hwn yn cychwyn derbyn hysbysiadau diogelwch a negeseuon cadarnhau."
+
+#~ msgid "Use this verification code:"
+#~ msgstr "Defnyddiwch y cod dilysu hwn:"
+
+#~ msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Daw i ben mewn 5 munud. Ar ôl ei wirio, bydd y cyfeiriad hwn yn dechrau derbyn hysbysiadau a chadarnhad diogelwch."
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "Ai hyn yw chi wedi cofrestru?"
+
+#~ msgid "If yes, use this verification code in your registration form:"
+#~ msgstr "Os ydych, defnyddiwch y cod gwirio hwn yn eich ffurflen gofrestru:"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "Un, dau, tri, cydweddu"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Cadarnhewch eich bod wedi derbyn yr e-bost hwn ac mi wnawn ni eich cynorthwyo i osod a chydweddu Firefox ar eich holl ddyfeisiau gan gychwyn gyda:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "Unwaith iddo gael ei gadarnhau, byddwn yn eich cynorthwyo i osod a chysylltu Firefox ar o leiaf un ddyfais arall."
+
+#~ msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
+#~ msgstr "Neu, gosod ar <a %(desktopLinkAttributes)s> dyfais arall </a>."
+
+#~ msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+#~ msgstr "Neu, gosod ar <a %(cadLinkAttributes)s> dyfais arall </a>."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "E-bost awtomatig yw hwn; os nad ydych wedi awdurdodi'r weithred hon, yna <a %(passwordChangeLinkAttributes)s>newidiwch eich cyfrinair</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Am wybodaeth bellach, ewch i <a %(supportLinkAttributes)s>Mozilla Support</a>."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Mae hwn yn e-bost awtomatig; os nad oeddech wedi ychwanegu dyfais newydd i'ch Cyfrif Firefox, dylech newid eich cyfrinair yn syth yn %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "E-bost awtomatig yw hwn; os nad ydych wedi awdurdodi'r weithred hon, yna <a %(resetLinkAttributes)s>newidiwch eich cyfrinair</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, newidiwch eich cyfrinair."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "Cyfeiriad IP: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "Rheoli cyfrif:"
+
+#~ msgid "Payment details:"
+#~ msgstr "Manylion talu:"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "%(cardType)s card ending in %(lastFour)s"
+#~ msgstr "Mae cerdyn %(cardType)s yn gorffen ymhen %(lastFour)s"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Polisi Preifatrwydd Mozilla"
+
+#~ msgid "Firefox Cloud Terms of Service"
+#~ msgstr "Amodau Gwasanaethau Firefox Cloud"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+#~ msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox a'ch bod wedi cofrestru ar gyfer %(productName)s"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account"
+#~ msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
+#~ msgstr "Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s gyfrif Firefox a'ch bod wedi cofrestru i nifer o gynnyrch."
+
+#~ msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+#~ msgstr "Rheolwch osodiadau eich cyfrif Firefox trwy ymweld â'ch  <a %(accountSettingsLinkAttributes)s> tudalen cyfrif</a>."
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "Polisi telerau a chanslo"
+
+#~ msgid "Reactivate subscription"
+#~ msgstr "Ailgychwyn y tanysgrifiad"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Canslo tanysgrifiad"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "Diddymu tanysgrifiadau"
+
+#~ msgid "Update billing information"
+#~ msgstr "Diweddaru'r manylion bilio"
+
+#~ msgid "Legal"
+#~ msgstr "Cyfreithiol"
+
+#~ msgid "Privacy"
+#~ msgstr "Preifatrwydd"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "Polisi telerau a chanslo:"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "Hysbysiad preifatrwydd:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "Canslo tanysgrifiad:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "Diddymu tanysgrifiadau:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "Diweddaru'r manylion bilio:"
+
+#~ msgid "Finish creating your account"
+#~ msgstr "Gorffen creu eich cyfrif"
+
+#~ msgid "Sign-in code for %(serviceName)s"
+#~ msgstr "Cod mewngofnodi ar gyfer %(serviceName)s"
+
+#~ msgid "Two-step authentication is off"
+#~ msgstr "Mae dilysu dau gam wedi ei ddiffodd"
+
+#~ msgid "Download %(productName)s"
+#~ msgstr "Llwythwch %(productName)s i lawr"
 
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-03 22:07+0000\n"
 "PO-Revision-Date: 2022-01-14 00:02+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,857 +13,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
-
-#: lib/senders/templates/cadReminderFirst.txt:1 lib/senders/email.js:3024
-msgid "Here's your reminder to sync devices."
-msgstr "Υπενθύμιση για συγχρονισμό συσκευών."
-
-#: lib/senders/templates/cadReminderFirst.txt:2 lib/senders/email.js:3028
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
-"Χρειάζονται δύο συσκευές για συγχρονισμό. Ο συγχρονισμός μιας άλλης συσκευής με το Firefox προστατεύει το απόρρητο των σελιδοδεικτών, των κωδικών πρόσβασης και άλλων δεδομένων Firefox όπου κι αν "
-"έχετε το Firefox."
-
-#: lib/senders/templates/cadReminderSecond.txt:1 lib/senders/email.js:3025
-msgid "Last reminder to sync devices!"
-msgstr "Τελευταία υπενθύμιση για συγχρονισμό συσκευών!"
-
-#: lib/senders/templates/cadReminderSecond.txt:2 lib/senders/email.js:3031
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Ο συγχρονισμός μιας άλλης συσκευής με το Firefox προστατεύει το απόρρητο των σελιδοδεικτών, των κωδικών πρόσβασης και άλλων δεδομένων Firefox όπου κι αν έχετε το Firefox."
-
-#: lib/senders/templates/downloadSubscription.html:1 lib/senders/templates/downloadSubscription.txt:1
-msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
-msgstr "Αν δεν έχετε ήδη κάνει λήψη του %(productName)s, ξεκινήσετε να χρησιμοποιείτε όλες τις λειτουργίες της συνδρομής σας:"
-
-#: lib/senders/templates/downloadSubscription.html:2 lib/senders/templates/downloadSubscription.html:3 lib/senders/templates/subscriptionAccountFinishSetup.html:4
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:4 lib/senders/templates/subscriptionAccountReminderSecond.html:4 lib/senders/templates/subscriptionDowngrade.html:6
-#: lib/senders/templates/subscriptionFirstInvoice.html:9 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:11 lib/senders/templates/subscriptionPaymentExpired.html:4
-#: lib/senders/templates/subscriptionPaymentFailed.html:5 lib/senders/templates/subscriptionPaymentProviderCancelled.html:5 lib/senders/templates/subscriptionReactivation.html:3
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:8 lib/senders/templates/subscriptionUpgrade.html:6
-msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Έχετε απορίες σχετικά με τη συνδρομή σας; Η <a href=\"%(subscriptionSupportUrl)s\">ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει."
-
-#: lib/senders/templates/downloadSubscription.txt:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:7 lib/senders/templates/subscriptionAccountReminderFirst.txt:5
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:5 lib/senders/templates/subscriptionDowngrade.txt:5 lib/senders/templates/subscriptionFirstInvoice.txt:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:10 lib/senders/templates/subscriptionPaymentExpired.txt:4 lib/senders/templates/subscriptionPaymentFailed.txt:5
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:5 lib/senders/templates/subscriptionReactivation.txt:3 lib/senders/templates/subscriptionSubsequentInvoice.txt:7
-#: lib/senders/templates/subscriptionUpgrade.txt:6
-msgid "Questions about your subscription? Our support team is here to help you:"
-msgstr "Έχετε απορίες για τη συνδρομή σας; Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει:"
-
-#: lib/senders/templates/lowRecoveryCodes.html:1 lib/senders/templates/lowRecoveryCodes.txt:1
-msgid "Low recovery codes remaining"
-msgstr "Απομένουν λίγοι κωδικοί ανάκτησης"
-
-#: lib/senders/templates/lowRecoveryCodes.html:2
-msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Παρατηρήσαμε ότι σας απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε σκεφτείτε να δημιουργήσετε νέους κωδικούς για να μην κλειδωθείτε έξω από το λογαριασμό σας."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:2
-msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-msgstr "Παρατηρήσαμε ότι σας απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε σκεφτείτε να δημιουργήσετε νέους κωδικούς για να μην κλειδωθείτε έξω από το λογαριασμό σας."
-
-#: lib/senders/templates/lowRecoveryCodes.txt:3
-msgid "Generate codes:"
-msgstr "Δημιουργία κωδικών:"
-
-#: lib/senders/templates/newDeviceLogin.html:1 lib/senders/templates/newDeviceLogin.txt:1 lib/senders/templates/verifyLogin.html:1 lib/senders/templates/verifyLogin.txt:1 lib/senders/email.js:1384
-msgid "New sign-in to %(clientName)s"
-msgstr "Νέα σύνδεση στο %(clientName)s"
-
-#: lib/senders/templates/passwordChangeRequired.html:1 lib/senders/templates/passwordChangeRequired.txt:1
-msgid "Password Change Required"
-msgstr "Απαιτείται αλλαγή κωδικού πρόσβασης"
-
-#: lib/senders/templates/passwordChangeRequired.html:2 lib/senders/templates/passwordChangeRequired.txt:2
-msgid ""
-"We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
-"password as a precaution."
-msgstr ""
-"Εντοπίσαμε ύποπτη συμπεριφορά στο λογαριασμό Firefox σας. Για να αποτρέψουμε τη μη εξουσιοδοτημένη πρόσβαση, αποσυνδέσαμε όλες τις συσκευές του λογαριασμού σας και σας ζητούμε να αλλάξετε τον "
-"κωδικό πρόσβασής σας για προστασία."
-
-#: lib/senders/templates/passwordChangeRequired.html:3 lib/senders/templates/passwordChangeRequired.txt:3
-msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
-msgstr "Συνδεθείτε ξανά σε οποιαδήποτε συσκευή ή υπηρεσία, όπου χρησιμοποιείτε το λογαριασμό Firefox σας και ακολουθήστε τα βήματα που θα σας παρουσιαστούν."
-
-#: lib/senders/templates/passwordChangeRequired.html:4
-msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "<b>Σημαντικό:</b> Επιλέξτε έναν μοναδικό κωδικό πρόσβασης και βεβαιωθείτε ότι είναι διαφορετικός από του λογαριασμού email σας."
-
-#: lib/senders/templates/passwordChangeRequired.html:5 lib/senders/templates/passwordChangeRequired.txt:5
-msgid "Best,"
-msgstr "Σας ευχόμαστε τα καλύτερα,"
-
-#: lib/senders/templates/passwordChangeRequired.html:6 lib/senders/templates/passwordChangeRequired.txt:6
-msgid "The Firefox Accounts team"
-msgstr "Η ομάδα των Λογαριασμών Firefox"
-
-#: lib/senders/templates/passwordChangeRequired.txt:4
-msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
-msgstr "Σημαντικό: Επιλέξτε έναν μοναδικό κωδικό πρόσβασης και βεβαιωθείτε ότι είναι διαφορετικός από του λογαριασμού email σας."
-
-#: lib/senders/templates/passwordChanged.html:1 lib/senders/templates/passwordChanged.txt:1
-msgid "Password changed successfully"
-msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης"
-
-#: lib/senders/templates/passwordChanged.html:2 lib/senders/templates/passwordChanged.txt:2
-msgid "Your Firefox Account password was successfully changed from the following device:"
-msgstr "Ο κωδικός πρόσβασης του λογαριασμού Firefox σας άλλαξε επιτυχώς από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/passwordChanged.txt:3
-msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-msgstr "Αυτό είναι ένα αυτοματοποιημένο email; αν δεν αλλάξατε τον κωδικό πρόσβασης του Λογαριασμού Firefox σας, θα πρέπει να τον επαναφέρετε αμέσως στο %(resetLink)s"
-
-#: lib/senders/templates/passwordReset.html:1 lib/senders/templates/passwordReset.txt:1
-msgid "Your account password was changed"
-msgstr "Ο κωδικός πρόσβασης του λογαριασμού σας άλλαξε"
-
-#: lib/senders/templates/passwordReset.html:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό."
-
-#: lib/senders/templates/passwordReset.txt:2
-msgid "You will need to enter your new password on other devices to resume syncing."
-msgstr "Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό."
-
-#: lib/senders/templates/passwordReset.txt:3
-msgid "If you did not change it, please reset your password now at %(resetLink)s"
-msgstr "Αν δεν τον αλλάξατε εσείς, παρακαλούμε επαναφέρετε τον κωδικό πρόσβασής σας τώρα στο %(resetLink)s."
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:1 lib/senders/templates/passwordResetAccountRecovery.txt:1
-msgid "Your account password was reset with a recovery key"
-msgstr "Έγινε επαναφορά του κωδικού πρόσβασης του λογαριασμού σας με κλειδί ανάκτησης"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:2 lib/senders/templates/passwordResetAccountRecovery.txt:2
-msgid "You have successfully reset your password using a recovery key from the following device:"
-msgstr "Έχετε επαναφέρει επιτυχώς τον κωδικό πρόσβασής σας με ένα κλειδί ανάκτησης από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.html:3 lib/senders/templates/passwordResetAccountRecovery.txt:3
-msgid "You will need to generate a new recovery key."
-msgstr "Θα πρέπει να δημιουργήσετε ένα νέο κλειδί ανάκτησης."
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:4
-msgid "Create new recovery key:"
-msgstr "Δημιουργία νέου κλειδιού ανάκτησης:"
-
-#: lib/senders/templates/passwordResetAccountRecovery.txt:5 lib/senders/templates/postNewRecoveryCodes.txt:3 lib/senders/templates/partials/support.txt:1
-msgid "For more information, please visit %(supportUrl)s"
-msgstr "Για περισσότερες πληροφορίες, παρακαλώ επισκεφθείτε το %(supportUrl)s"
-
-#: lib/senders/templates/postAddAccountRecovery.html:1 lib/senders/templates/postAddAccountRecovery.txt:1 lib/senders/email.js:1820
-msgid "Account recovery key generated"
-msgstr "Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε"
-
-#: lib/senders/templates/postAddAccountRecovery.html:2
-msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-msgstr "Έχετε δημιουργήσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/postAddAccountRecovery.html:3
-msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-msgstr "Αν δεν το κάνατε εσείς, <a %(revokeAccountRecoveryLinkAttributes)s>κάντε κλικ εδώ.</a>"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:2
-msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-msgstr "Έχετε δημιουργήσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/postAddAccountRecovery.txt:3
-msgid "If this was not you, revoke key."
-msgstr "Αν δεν το κάνατε εσείς, ανακαλέστε το κλειδί."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:1 lib/senders/templates/postAddTwoStepAuthentication.txt:1 lib/senders/email.js:1582
-msgid "Two-step authentication enabled"
-msgstr "Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/postAddTwoStepAuthentication.html:3
-msgid "Security codes from your authentication app will now be required at each sign-in."
-msgstr "Θα απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή ταυτοποίησής σας σε κάθε σύνδεση."
-
-#: lib/senders/templates/postAddTwoStepAuthentication.txt:2
-msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-msgstr "Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας. Θα απαιτείται πλέον κωδικός ασφαλείας από την εφαρμογή πιστοποίησής σας σε κάθε σύνδεση."
-
-#: lib/senders/templates/postChangePrimary.html:1 lib/senders/templates/postChangePrimary.txt:1
-msgid "New primary email"
-msgstr "Νέο κύριο email"
-
-#: lib/senders/templates/postChangePrimary.html:2 lib/senders/templates/postChangePrimary.txt:2
-msgid ""
-"You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
-"confirmations."
-msgstr ""
-"Έχετε αλλάξει επιτυχώς το κύριο email σας σε %(email)s. Αυτή η διεύθυνση αποτελεί πλέον το όνομα χρήστη σας για τη σύνδεση στο λογαριασμό Firefox σας, καθώς και για τη λήψη ειδοποιήσεων ασφαλείας "
-"και επιβεβαιώσεις σύνδεσης."
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:1
-msgid "Recovery code consumed"
-msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
-
-#: lib/senders/templates/postConsumeRecoveryCode.html:2 lib/senders/templates/postConsumeRecoveryCode.txt:2
-msgid "You have successfully consumed a recovery code from the following device:"
-msgstr "Έχετε χρησιμοποιήσει επιτυχώς έναν κωδικό ανάκτησης από την εξής συσκευή:"
-
-#: lib/senders/templates/postConsumeRecoveryCode.txt:1
-msgid "Consumed recovery code"
-msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:1 lib/senders/templates/postNewRecoveryCodes.txt:1 lib/senders/email.js:1676
-msgid "New recovery codes generated"
-msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
-
-#: lib/senders/templates/postNewRecoveryCodes.html:2 lib/senders/templates/postNewRecoveryCodes.txt:2
-msgid "You have successfully generated new recovery codes from the following device:"
-msgstr "Έχετε δημιουργήσει επιτυχώς νέους κωδικούς ανάκτησης από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:1 lib/senders/templates/postRemoveAccountRecovery.txt:1 lib/senders/email.js:1870
-msgid "Account recovery key removed"
-msgstr "Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:2
-msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-msgstr "Έχετε αφαιρέσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/postRemoveAccountRecovery.html:3 lib/senders/templates/postRemoveAccountRecovery.txt:3
-msgid "This recovery key can no longer be used to recover your account."
-msgstr "Αυτό το κλειδί ανάκτησης δεν μπορεί να χρησιμοποιηθεί πλέον για ανάκτηση του λογαριασμού σας."
-
-#: lib/senders/templates/postRemoveAccountRecovery.txt:2
-msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-msgstr "Έχετε αφαιρέσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/postRemoveSecondary.html:1 lib/senders/templates/postRemoveSecondary.txt:1 lib/senders/email.js:1548
-msgid "Secondary email removed"
-msgstr "Το δευτερεύον email αφαιρέθηκε"
-
-#: lib/senders/templates/postRemoveSecondary.html:2 lib/senders/templates/postRemoveSecondary.txt:2
-msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-msgstr ""
-"Έχετε αφαιρέσει επιτυχώς το %(secondaryEmail)s από δευτερεύον email από τον λογαριασμό Firefox σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης δεν θα αποστέλλονται πλέον σε αυτήν τη "
-"διεύθυνση."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:1 lib/senders/templates/postRemoveTwoStepAuthentication.txt:1
-msgid "Two-step authentication disabled"
-msgstr "Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-msgstr "Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.html:3
-msgid "Security codes will no longer be required at each sign-in."
-msgstr "Οι κωδικοί ασφαλείας δεν θα ζητούνται πλέον σε κάθε σύνδεση."
-
-#: lib/senders/templates/postRemoveTwoStepAuthentication.txt:2
-msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-msgstr "Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας. Δεν θα απαιτείται πλέον κωδικός ασφαλείας σε κάθε σύνδεση."
-
-#: lib/senders/templates/postVerify.html:1 lib/senders/templates/postVerify.txt:1
-msgid "Firefox Account verified. You're almost there."
-msgstr "Ο λογαριασμός Firefox επαληθεύτηκε. Έχετε σχεδόν τελειώσει."
-
-#: lib/senders/templates/postVerify.html:2 lib/senders/templates/postVerify.txt:2
-msgid "Next sync between your devices!"
-msgstr "Επόμενος συγχρονισμός μεταξύ των συσκευών σας!"
-
-#: lib/senders/templates/postVerify.html:3 lib/senders/templates/postVerify.txt:3
-msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
-msgstr "Ο ιδιωτικός συγχρονισμός διατηρεί ίδιους τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα του Firefox, σε όλες τις συσκευές σας."
-
-#: lib/senders/templates/postVerify.txt:4 lib/senders/email.js:1430
-msgid "Set up next device"
-msgstr "Ρύθμιση επόμενης συσκευής"
-
-#: lib/senders/templates/postVerify.txt:5
-msgid "Have questions? Visit %(supportUrl)s"
-msgstr "Έχετε απορίες; Επισκεφθείτε την %(supportUrl)s"
-
-#: lib/senders/templates/postVerifySecondary.html:1 lib/senders/templates/postVerifySecondary.txt:1 lib/senders/email.js:1476
-msgid "Secondary email added"
-msgstr "Προστέθηκε δευτερεύον email"
-
-#: lib/senders/templates/postVerifySecondary.html:2 lib/senders/templates/postVerifySecondary.txt:2
-msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-msgstr ""
-"Έχετε επαληθεύσει επιτυχώς το %(secondaryEmail)s ως δευτερεύον email για τον λογαριασμό Firefox σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης θα αποστέλλονται πλέον και στις δύο "
-"διευθύνσεις email."
-
-#: lib/senders/templates/recovery.html:1 lib/senders/templates/recovery.txt:1
-msgid "Need to reset your password?"
-msgstr "Πρέπει να επαναφέρετε τον κωδικό πρόσβασής σας;"
-
-#: lib/senders/templates/recovery.html:2 lib/senders/templates/recovery.txt:2
-msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-msgstr "Κάντε κλικ στο κουμπί μέσα στην επόμενη ώρα για να δημιουργήσετε ένα νέο κωδικό πρόσβασης. Το αίτημα ήρθε από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/recovery.txt:3 lib/senders/email.js:1225
-msgid "Create new password"
-msgstr "Δημιουργία νέου κωδικού πρόσβασης"
-
-#: lib/senders/templates/sms.installFirefox.txt:1
-msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-msgstr "Ευχαριστούμε που επιλέξατε το Firefox! Μπορείτε να εγκαταστήσετε το Firefox για κινητή συσκευή εδώ: %(link)s"
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:2 lib/senders/templates/subscriptionAccountDeletion.txt:1 lib/senders/templates/subscriptionCancellation.html:2
-#: lib/senders/templates/subscriptionCancellation.txt:1
-msgid "Sorry to see you go"
-msgstr "Λυπούμαστε που φεύγετε"
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:3 lib/senders/templates/subscriptionAccountDeletion.txt:2
-msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
-msgstr "Διαγράψατε πρόσφατα το λογαριασμό Firefox σας. Συνεπώς, έχουμε ακυρώσει τη συνδρομή σας στο %(productName)s. Η τελευταία πληρωμή των %(invoiceTotal)s έγινε στις %(invoiceDateOnly)s."
-
-#: lib/senders/templates/subscriptionAccountDeletion.html:4 lib/senders/templates/subscriptionCancellation.html:4 lib/senders/templates/subscriptionFailedPaymentsCancellation.html:4
-msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
-msgstr "Βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας λαμβάνοντας συμμετοχή σε αυτή τη <a %(cancellationSurveyLinkAttributes)s>σύντομη έρευνα</a>."
-
-#: lib/senders/templates/subscriptionAccountDeletion.txt:3 lib/senders/templates/subscriptionCancellation.txt:3 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:3
-msgid "Please help us improve our services by taking this short survey:"
-msgstr "Παρακαλούμε βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας, συμμετέχοντας σε αυτή τη σύντομη έρευνα:"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:1 lib/senders/templates/subscriptionAccountFinishSetup.txt:1 lib/senders/email.js:2993
-msgid "Welcome to %(productName)s"
-msgstr "Καλώς ορίσατε στο %(productName)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:2 lib/senders/templates/subscriptionAccountFinishSetup.txt:2
-msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
-msgstr ""
-"Η πληρωμή σας βρίσκεται υπό επεξεργασία και ενδέχεται να χρειαστούν έως και τέσσερις εργάσιμες ημέρες για να ολοκληρωθεί. Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός εάν "
-"επιλέξετε να την ακυρώσετε."
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.html:3 lib/senders/templates/subscriptionAccountFinishSetup.txt:6
-msgid "Next, you'll create a Firefox account password and download %(productName)s."
-msgstr "Έπειτα, θα δημιουργήσετε έναν κωδικό πρόσβασης για τον λογαριασμό Firefox και θα κάνετε λήψη του %(productName)s."
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:3 lib/senders/templates/partials/paymentPlanDetails.html:2
-msgid "Invoice number: %(invoiceNumber)s"
-msgstr "Αριθμός τιμολογίου: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:4 lib/senders/templates/partials/paymentPlanDetails.html:3
-msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Χρέωση: %(invoiceTotal)s στις %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountFinishSetup.txt:5 lib/senders/templates/partials/paymentPlanDetails.html:4
-msgid "Next invoice: %(nextInvoiceDateOnly)s"
-msgstr "Επόμενο τιμολόγιο: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:1 lib/senders/templates/subscriptionAccountReminderFirst.txt:1
-msgid "You can't access your subscription yet"
-msgstr "Δεν έχετε ακόμα πρόσβαση στη συνδρομή σας"
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:2 lib/senders/templates/subscriptionAccountReminderFirst.txt:2 lib/senders/templates/subscriptionAccountReminderSecond.html:2
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:2
-msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-msgstr ""
-"Πριν από λίγες μέρες, δημιουργήσατε έναν λογαριασμό Firefox αλλά δεν τον επαληθεύσατε. Ελπίζουμε να ολοκληρώσετε τη ρύθμιση του λογαριασμού σας, ώστε να μπορέσετε να χρησιμοποιήσετε τη νέα σας "
-"συνδρομή."
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.html:3 lib/senders/templates/subscriptionAccountReminderFirst.txt:3 lib/senders/templates/subscriptionAccountReminderSecond.html:3
-#: lib/senders/templates/subscriptionAccountReminderSecond.txt:3
-msgid "Select “Create Password” to set up a new password and finish verifying your account."
-msgstr "Επιλέξτε «Δημιουργία κωδικού πρόσβασης» για να ορίσετε έναν νέο κωδικό πρόσβασης και να ολοκληρώσετε την επαλήθευση του λογαριασμού σας."
-
-#: lib/senders/templates/subscriptionAccountReminderFirst.txt:4 lib/senders/templates/subscriptionAccountReminderSecond.txt:4
-msgid "Create a password:"
-msgstr "Δημιουργία κωδικού πρόσβασης:"
-
-#: lib/senders/templates/subscriptionAccountReminderSecond.html:1 lib/senders/templates/subscriptionAccountReminderSecond.txt:1
-msgid "Welcome to Firefox!"
-msgstr "Καλώς ορίσατε στο Firefox!"
-
-#: lib/senders/templates/subscriptionCancellation.html:3 lib/senders/templates/subscriptionCancellation.txt:2
-msgid ""
-"We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-"which is %(serviceLastActiveDateOnly)s."
-msgstr ""
-"Έχουμε ακυρώσει τη συνδρομή σας στο %(productName)s. Η τελευταία πληρωμή των %(invoiceTotal)s έγινε στις %(invoiceDateOnly)s. Η υπηρεσία σας θα συνεχίσει μέχρι το τέλος της τρέχουσας περιόδου "
-"χρέωσης, που είναι στις %(serviceLastActiveDateOnly)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:2 lib/senders/templates/subscriptionDowngrade.txt:1
-msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
-msgstr "Έχετε ολοκληρώσει επιτυχώς τη μετάβαση από το %(productNameOld)s στο %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:3 lib/senders/templates/subscriptionDowngrade.txt:2
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-"Ξεκινώντας με τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από %(paymentAmountOld)s ανά %(productPaymentCycleOld)s σε %(paymentAmountNew)s ανά %(productPaymentCycleNew)s. Θα λάβετε επίσης "
-"μια εφάπαξ πίστωση των %(paymentProrated)s λόγω της χαμηλότερης χρέωσης για τον υπολειπόμενο χρόνο: %(productPaymentCycleOld)s."
-
-#: lib/senders/templates/subscriptionDowngrade.html:4 lib/senders/templates/subscriptionDowngrade.txt:3 lib/senders/templates/subscriptionUpgrade.html:4 lib/senders/templates/subscriptionUpgrade.txt:4
-msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
-msgstr "Αν υπάρχει νέο λογισμικό που θα πρέπει να εγκαταστήσετε για να χρησιμοποιήσετε το %(productNameNew)s, θα λάβετε ξεχωριστό email με οδηγίες λήψης."
-
-#: lib/senders/templates/subscriptionDowngrade.html:5 lib/senders/templates/subscriptionDowngrade.txt:4 lib/senders/templates/subscriptionFirstInvoice.html:4
-#: lib/senders/templates/subscriptionFirstInvoice.txt:3 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:3
-#: lib/senders/templates/subscriptionUpgrade.html:5 lib/senders/templates/subscriptionUpgrade.txt:5
-msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
-msgstr "Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:2 lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:1
-msgid "Your subscription has been cancelled"
-msgstr "Η συνδρομή σας ακυρώθηκε"
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.html:3
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
-msgstr "Ακυρώσαμε τη συνδρομή σας στο %(productName)s επειδή απέτυχαν πολλαπλές απόπειρες πληρωμής. Για να αποκτήσετε ξανά πρόσβαση, ξεκινήστε μια νέα συνδρομή με μια ενημερωμένη μέθοδο πληρωμής."
-
-#: lib/senders/templates/subscriptionFailedPaymentsCancellation.txt:2
-msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
-msgstr "Ακυρώσαμε τη συνδρομή σας στο %(productName)s επειδή απέτυχαν πολλαπλές απόπειρες πληρωμής. Για να αποκτήσετε ξανά πρόσβαση, ξεκινήστε μια νέα συνδρομή με μια ενημερωμένη μέθοδο πληρωμής."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:1
-msgid "Thank you for subscribing to %(productName)s"
-msgstr "Ευχαριστούμε για τη συνδρομή σας στο %(productName)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:2 lib/senders/templates/subscriptionFirstInvoice.txt:1 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:2
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:1
-msgid "Your payment is currently processing and may take up to four business days to complete."
-msgstr "Η πληρωμής σας βρίσκεται υπό επεξεργασία και ενδέχεται να χρειαστούν έως και τέσσερις εργάσιμες ημέρες για να ολοκληρωθεί."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:3 lib/senders/templates/subscriptionFirstInvoice.txt:2 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:3
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:2
-msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
-msgstr "Θα λάβετε ένα ξεχωριστό email με οδηγίες λήψης σχετικά με το πώς να αρχίσετε να χρησιμοποιείτε το %(productName)s."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:5 lib/senders/templates/subscriptionSubsequentInvoice.html:3
-msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
-msgstr "Αριθμός τιμολογίου: <b>%(invoiceNumber)s</b>"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:6 lib/senders/templates/subscriptionFirstInvoice.txt:5 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:8
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:7 lib/senders/templates/subscriptionSubsequentInvoice.html:5 lib/senders/templates/subscriptionSubsequentInvoice.txt:4
-msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
-msgstr "Χρεώθηκαν %(invoiceTotal)s στις %(invoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:9 lib/senders/templates/subscriptionSubsequentInvoice.html:6
-msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
-msgstr "<a href=\"%(invoiceLink)s\">Δείτε το τιμολόγιό σας</a>."
-
-#: lib/senders/templates/subscriptionFirstInvoice.html:8 lib/senders/templates/subscriptionFirstInvoice.txt:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.html:10
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:9 lib/senders/templates/subscriptionSubsequentInvoice.html:7 lib/senders/templates/subscriptionSubsequentInvoice.txt:6
-msgid "Next Invoice: %(nextInvoiceDateOnly)s"
-msgstr "Επόμενο τιμολόγιο: %(nextInvoiceDateOnly)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:4 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:4 lib/senders/templates/subscriptionSubsequentInvoice.txt:2
-msgid "Invoice Number: %(invoiceNumber)s"
-msgstr "Αριθμός τιμολογίου: %(invoiceNumber)s"
-
-#: lib/senders/templates/subscriptionFirstInvoice.txt:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:8 lib/senders/templates/subscriptionSubsequentInvoice.txt:5
-msgid "View Invoice: %(invoiceLink)s"
-msgstr "Προβολή τιμολογίου: %(invoiceLink)s"
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:6 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:5
-msgid "Subtotal: %(invoiceSubtotal)s"
-msgstr "Υποσύνολο: %(invoiceSubtotal)s"
-
-#: lib/senders/templates/subscriptionFirstInvoiceDiscount.html:7 lib/senders/templates/subscriptionFirstInvoiceDiscount.txt:6
-msgid "One-time discount: -%(invoiceDiscountAmount)s"
-msgstr "Εφάπαξ έκπτωση: -%(invoiceDiscountAmount)s"
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:1 lib/senders/templates/subscriptionPaymentExpired.txt:1 lib/senders/templates/subscriptionsPaymentExpired.html:1
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:1
-msgid "Your credit card is about to expire"
-msgstr "Η πιστωτική σας κάρτα πρόκειται να λήξει"
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:2 lib/senders/templates/subscriptionPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for %(productName)s is about to expire."
-msgstr "Η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές του %(productName)s πρόκειται να λήξει."
-
-#: lib/senders/templates/subscriptionPaymentExpired.html:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentExpired.html:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:5
-msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
-msgstr "Για να αποτρέψετε τυχόν διακοπές στην υπηρεσία σας, παρακαλούμε <a href=\"%(updateBillingUrl)s\">ενημερώστε τα στοιχεία πληρωμών σας</a> το συντομότερο δυνατό."
-
-#: lib/senders/templates/subscriptionPaymentExpired.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:4 lib/senders/templates/subscriptionsPaymentExpired.txt:4
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:5
-msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
-msgstr "Για να αποτρέψετε τυχόν διακοπές στην υπηρεσία σας, παρακαλούμε ενημερώστε τα στοιχεία πληρωμών σας το συντομότερο δυνατό:"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:1 lib/senders/templates/subscriptionPaymentFailed.txt:1
-msgid "Sorry, we're having trouble with your payment"
-msgstr "Δυστυχώς, αντιμετωπίζουμε πρόβλημα με την πληρωμή σας"
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:2 lib/senders/templates/subscriptionPaymentFailed.txt:2
-msgid "We had a problem with your latest payment for %(productName)s."
-msgstr "Αντιμετωπίζουμε πρόβλημα με την τελευταία σας πληρωμή για το %(productName)s."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:3 lib/senders/templates/subscriptionPaymentFailed.txt:3 lib/senders/templates/subscriptionPaymentProviderCancelled.html:3
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.txt:3 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:4 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:4
-msgid "It may be that your credit card has expired, or your current payment method is out of date."
-msgstr "Η πιστωτική σας κάρτα ενδέχεται να έχει λήξει, ή η τρέχουσα μέθοδος πληρωμής δεν είναι ενημερωμένη."
-
-#: lib/senders/templates/subscriptionPaymentFailed.html:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
-msgstr ""
-"Θα δοκιμάσουμε την πληρωμή σας ξανά τις επόμενες ημέρες, αλλά ίσως χρειαστεί να μας βοηθήσετε να διορθώσουμε το πρόβλημα <a href=\"%(updateBillingUrl)s\">ενημερώνοντας τα στοιχεία πληρωμής σας</a>."
-
-#: lib/senders/templates/subscriptionPaymentFailed.txt:4
-msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
-msgstr "Θα δοκιμάσουμε την πληρωμή σας ξανά τις επόμενες ημέρες, αλλά ίσως χρειαστεί να μας βοηθήσετε να διορθώσουμε το πρόβλημα ενημερώνοντας τα στοιχεία πληρωμής σας:"
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:1 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:1 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:1
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:1
-msgid "Sorry, we’re having trouble with your payment method"
-msgstr "Δυστυχώς, αντιμετωπίζουμε πρόβλημα με τη μέθοδο πληρωμή σας"
-
-#: lib/senders/templates/subscriptionPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for %(productName)s."
-msgstr "Εντοπίσαμε πρόβλημα με τη μέθοδο πληρωμής σας για το %(productName)s."
-
-#: lib/senders/templates/subscriptionReactivation.html:1 lib/senders/templates/subscriptionReactivation.txt:1
-msgid "Thank you for reactivating your %(productName)s subscription!"
-msgstr "Ευχαριστούμε για την εκ νέου ενεργοποίηση της συνδρομής %(productName)s!"
-
-#: lib/senders/templates/subscriptionReactivation.html:2 lib/senders/templates/subscriptionReactivation.txt:2
-msgid ""
-"Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
-"choose to cancel."
-msgstr ""
-"Ο κύκλος χρέωσης και η πληρωμή σας θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι %(invoiceTotal)s στις %(nextInvoiceDateOnly)s. Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, "
-"εκτός αν κάνετε ακύρωση."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:1 lib/senders/templates/subscriptionRenewalReminder.txt:1
-msgid "Your subscription will be renewed soon"
-msgstr "Η συνδρομή σας θα ανανεωθεί σύντομα"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:2 lib/senders/templates/subscriptionRenewalReminder.txt:2
-msgid "Dear %(productName)s customer,"
-msgstr "Αγαπητέ πελάτη του %(productName)s,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:3 lib/senders/templates/subscriptionRenewalReminder.txt:3
-msgid ""
-"Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
-"%(invoiceTotal)s will be applied to the payment method on your account."
-msgstr ""
-"Η τρέχουσα συνδρομή σας έχει ρυθμιστεί ώστε να ανανεωθεί αυτόματα σε %(reminderLength)s ημέρες. Τότε, η Mozilla θα ανανεώσει τη συνδρομή σας %(planIntervalCount)s %(planInterval)s και θα γίνει "
-"χρέωση %(invoiceTotal)s στον τρόπο πληρωμής του λογαριασμού σας."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:4
-msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
-msgstr "Μπορείτε να εξασφαλίσετε ότι η μέθοδος πληρωμής και τα στοιχεία του λογαριασμού σας είναι ενημερωμένα <a href=\"%(updateBillingUrl)s\">εδώ</a>."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:5
-msgid ""
-"Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
-"us</a>."
-msgstr ""
-"Ευχαριστούμε για τη συνδρομή σας στο %(productName)s. Αν έχετε οποιαδήποτε απορία σχετικά με τη συνδρομή σας ή αν χρειάζεστε περισσότερες πληροφορίες σχετικά με το %(productName)s, παρακαλούμε <a "
-"href=\"%(subscriptionSupportUrl)s\">επικοινωνήστε μαζί μας</a>."
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:6 lib/senders/templates/subscriptionRenewalReminder.txt:6
-msgid "Sincerely,"
-msgstr "Με εκτίμηση,"
-
-#: lib/senders/templates/subscriptionRenewalReminder.html:7 lib/senders/templates/subscriptionRenewalReminder.txt:7
-msgid "The %(productName)s team"
-msgstr "Η ομάδα του %(productName)s"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:4
-msgid "You can ensure that your payment method and account information are up to date here:"
-msgstr "Μπορείτε να εξασφαλίσετε ότι η μέθοδος πληρωμής και τα στοιχεία του λογαριασμού σας είναι ενημερωμένα εδώ:"
-
-#: lib/senders/templates/subscriptionRenewalReminder.txt:5
-msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
-msgstr ""
-"Ευχαριστούμε για τη συνδρομή σας στο %(productName)s. Αν έχετε οποιαδήποτε απορία σχετικά με τη συνδρομή σας ή αν χρειάζεστε περισσότερες πληροφορίες σχετικά με το %(productName)s, παρακαλούμε "
-"επικοινωνήστε μαζί μας:"
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:1
-msgid "Thank you for being a subscriber!"
-msgstr "Ευχαριστούμε για τη συνδρομή σας!"
-
-#: lib/senders/templates/subscriptionSubsequentInvoice.html:2 lib/senders/templates/subscriptionSubsequentInvoice.txt:1
-msgid "We received your latest payment for %(productName)s."
-msgstr "Λάβαμε την τελευταία σας πληρωμή για το %(productName)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:1 lib/senders/templates/subscriptionUpgrade.txt:1
-msgid "Thank you for upgrading!"
-msgstr "Ευχαριστούμε για την αναβάθμιση!"
-
-#: lib/senders/templates/subscriptionUpgrade.html:2 lib/senders/templates/subscriptionUpgrade.txt:2
-msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
-msgstr "Κάνατε επιτυχή αναβάθμιση από το %(productNameOld)s στο %(productNameNew)s."
-
-#: lib/senders/templates/subscriptionUpgrade.html:3 lib/senders/templates/subscriptionUpgrade.txt:3
-msgid ""
-"Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-"charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
-msgstr ""
-"Ξεκινώντας από τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από %(paymentAmountOld)s ανά %(productPaymentCycleOld)s σε %(paymentAmountNew)s ανά %(productPaymentCycleNew)s. Θα χρεωθείτε "
-"επίσης %(paymentProrated)s εφάπαξ λόγω της υψηλότερης χρέωσης για τον υπολειπόμενο χρόνο: %(productPaymentCycleOld)s."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:2 lib/senders/templates/subscriptionsPaymentExpired.txt:2
-msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
-msgstr "Πρόκειται να λήξει η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές των εξής συνδρομών."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.html:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.html:6
-msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
-msgstr "Έχετε απορίες σχετικά με τις συνδρομές σας; Η <a href=\"%(subscriptionSupportUrl)s\">ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει."
-
-#: lib/senders/templates/subscriptionsPaymentExpired.txt:5 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:6
-msgid "Questions about your subscriptions? Our support team is here to help you:"
-msgstr "Έχετε απορίες για τις συνδρομές σας; Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει:"
-
-#: lib/senders/templates/subscriptionsPaymentProviderCancelled.html:2 lib/senders/templates/subscriptionsPaymentProviderCancelled.txt:2
-msgid "We have detected a problem with your payment method for the following subscriptions."
-msgstr "Εντοπίσαμε πρόβλημα με τη μέθοδο πληρωμής σας για τις ακόλουθες συνδρομές."
-
-#: lib/senders/templates/unblockCode.html:1 lib/senders/templates/unblockCode.txt:1 lib/senders/templates/verifyLoginCode.html:1 lib/senders/templates/verifyLoginCode.txt:1
-msgid "Is this you signing in?"
-msgstr "Γίνεται σύνδεση;"
-
-#: lib/senders/templates/unblockCode.html:2 lib/senders/templates/unblockCode.txt:2
-msgid "If yes, here is the authorization code you need:"
-msgstr "Αν ναι, ορίστε ο κωδικός εξουσιοδότησης που χρειάζεστε:"
-
-#: lib/senders/templates/unblockCode.html:3
-msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-msgstr "Αν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και <a %(reportSignInLinkAttributes)s>αναφέρετέ το σε εμάς.</a>"
-
-#: lib/senders/templates/unblockCode.txt:3
-msgid "If no, help us fend off intruders and report it to us."
-msgstr "Αν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και αναφέρετέ το σε εμάς."
-
-#: lib/senders/templates/verificationReminderFirst.html:1 lib/senders/templates/verificationReminderFirst.txt:1
-msgid "Welcome to the Firefox family"
-msgstr "Καλώς ορίσατε στην οικογένεια Firefox"
-
-#: lib/senders/templates/verificationReminderFirst.html:2 lib/senders/templates/verificationReminderFirst.txt:2
-msgid "A few days ago you created a Firefox account, but never confirmed it."
-msgstr "Πριν από λίγες ημέρες, δημιουργήσατε ένα λογαριασμό Firefox, αλλά δεν κάνατε ποτέ επιβεβαίωση."
-
-#: lib/senders/templates/verificationReminderFirst.html:3 lib/senders/templates/verificationReminderFirst.txt:3
-msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-msgstr "Κάντε τώρα επιβεβαίωση για να αποκτήστε την τεχνολογία που μάχεται για το απόρρητό σας, σας εξοπλίζει με πρακτικές γνώσεις και σας σέβεται όπως σας αξίζει."
-
-#: lib/senders/templates/verificationReminderFirst.txt:4 lib/senders/templates/verificationReminderSecond.txt:4 lib/senders/templates/verify.txt:3
-msgid "Confirm email:"
-msgstr "Επιβεβαίωση email:"
-
-#: lib/senders/templates/verificationReminderSecond.html:1 lib/senders/templates/verificationReminderSecond.txt:1
-msgid "Still there?"
-msgstr "Ακόμη εκεί;"
-
-#: lib/senders/templates/verificationReminderSecond.html:2 lib/senders/templates/verificationReminderSecond.txt:2
-msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-msgstr "Σχεδόν πριν από μία εβδομάδα, δημιουργήσατε έναν λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς."
-
-#: lib/senders/templates/verificationReminderSecond.html:3 lib/senders/templates/verificationReminderSecond.txt:3
-msgid "Confirm this email address to activate your account and let us know you're okay."
-msgstr "Επιβεβαιώστε αυτήν τη διεύθυνση email για να ενεργοποιήσετε τον λογαριασμό σας και να μας ενημερώσετε ότι είστε εντάξει."
-
-#: lib/senders/templates/verify.html:1 lib/senders/templates/verify.txt:1
-msgid "Activate the Firefox family of products"
-msgstr "Ενεργοποιήστε την οικογένεια των προϊόντων Firefox"
-
-#: lib/senders/templates/verify.html:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-msgstr "Επιβεβαιώστε το λογαριασμό σας και αξιοποιήστε στο έπακρο το Firefox, όπου κι αν συνδεθείτε, ξεκινώντας με:"
-
-#: lib/senders/templates/verify.txt:2
-msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-msgstr "Επιβεβαιώστε τον λογαριασμό σας και αξιοποιήστε στο έπακρο το Firefox, όπου κι αν συνδεθείτε."
-
-#: lib/senders/templates/verifyLogin.html:2 lib/senders/templates/verifyLogin.txt:2
-msgid "For added security, please confirm this sign-in from the following device:"
-msgstr "Για επιπρόσθετη ασφάλεια, παρακαλούμε επιβεβαιώστε αυτή τη σύνδεση από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/verifyLogin.txt:3 lib/senders/email.js:914
-msgid "Confirm sign-in"
-msgstr "Επιβεβαίωση εισόδου"
-
-#: lib/senders/templates/verifyLoginCode.html:2 lib/senders/templates/verifyLoginCode.txt:2
-msgid "If yes, here is the verification code:"
-msgstr "Αν ναι, ορίστε ο κωδικός επαλήθευσης:"
-
-#: lib/senders/templates/verifyLoginCode.html:3 lib/senders/templates/verifyLoginCode.txt:3 lib/senders/templates/verifyShortCode.html:3 lib/senders/templates/verifyShortCode.txt:3
-msgid "It expires in 5 minutes."
-msgstr "Λήγει σε 5 λεπτά."
-
-#: lib/senders/templates/verifyPrimary.html:1 lib/senders/templates/verifyPrimary.txt:1
-msgid "Verify primary email"
-msgstr "Επαλήθευση κύριου email"
-
-#: lib/senders/templates/verifyPrimary.html:2 lib/senders/templates/verifyPrimary.txt:2
-msgid "A request to perform an account change has been made from the following device:"
-msgstr "Έγινε αίτημα για μια αλλαγή στον λογαριασμό από την ακόλουθη συσκευή:"
-
-#: lib/senders/templates/verifyPrimary.html:3
-msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-msgstr "Μόλις γίνει επαλήθευση, οι αλλαγές του λογαριασμού, όπως η προσθήκη δευτερεύοντος email, θα καταστούν δυνατές από αυτήν τη συσκευή."
-
-#: lib/senders/templates/verifyPrimary.txt:3 lib/senders/templates/verifySecondary.txt:3 lib/senders/templates/verifySync.txt:3
-msgid "Verify email: "
-msgstr "Επαλήθευση email: "
-
-#: lib/senders/templates/verifySecondary.html:1 lib/senders/templates/verifySecondary.txt:1 lib/senders/templates/verifySecondaryCode.html:1 lib/senders/templates/verifySecondaryCode.txt:1
-msgid "Verify secondary email"
-msgstr "Επαλήθευση δευτερεύοντος email"
-
-#: lib/senders/templates/verifySecondary.html:2 lib/senders/templates/verifySecondary.txt:2 lib/senders/templates/verifySecondaryCode.html:2 lib/senders/templates/verifySecondaryCode.txt:2
-msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-msgstr "Έχει υποβληθεί ένα αίτημα για τη χρήση του %(email)s ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο λογαριασμό Firefox:"
-
-#: lib/senders/templates/verifySecondary.html:3
-msgid "Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Μόλις επαληθευτεί, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας."
-
-#: lib/senders/templates/verifySecondaryCode.html:3 lib/senders/templates/verifySecondaryCode.txt:3
-msgid "Use this verification code:"
-msgstr "Χρησιμοποιήστε αυτό τον κωδικό επαλήθευσης:"
-
-#: lib/senders/templates/verifySecondaryCode.html:4 lib/senders/templates/verifySecondaryCode.txt:4
-msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
-msgstr "Λήγει σε 5 λεπτά. Μόλις γίνει επαλήθευση, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας."
-
-#: lib/senders/templates/verifyShortCode.html:1 lib/senders/templates/verifyShortCode.txt:1
-msgid "Is this you signing up?"
-msgstr "Κάνετε εσείς εγγραφή;"
-
-#: lib/senders/templates/verifyShortCode.html:2 lib/senders/templates/verifyShortCode.txt:2
-msgid "If yes, use this verification code in your registration form:"
-msgstr "Εάν ναι, χρησιμοποιήστε αυτό τον κωδικό επαλήθευσης στη φόρμα εγγραφής σας:"
-
-#: lib/senders/templates/verifySync.html:1 lib/senders/templates/verifySync.txt:1
-msgid "Ready, set, sync"
-msgstr "Λάβετε θέσεις, έτοιμοι, συγχρονίστε"
-
-#: lib/senders/templates/verifySync.html:2 lib/senders/templates/verifySync.txt:2
-msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-msgstr "Επιβεβαιώστε ότι έχετε λάβει αυτό το email και θα σας βοηθήσουμε να εγκαταστήσετε και να συγχρονίσετε το Firefox σε όλες σας τις συσκευές ξεκινώντας με:"
-
-#: lib/senders/templates/verifySync.html:3 lib/senders/templates/verifySync.txt:4
-msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-msgstr "Μόλις γίνει επιβεβαίωση, θα σας βοηθήσουμε να εγκαταστήσετε και να συνδέσετε το Firefox σε τουλάχιστον μια άλλη συσκευή."
-
-#: lib/senders/templates/partials/appBadges.html:1
-msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
-msgstr "Ή να κάνετε εγκατάσταση σε <a %(desktopLinkAttributes)s>άλλο υπολογιστή</a>."
-
-#: lib/senders/templates/partials/appBadges.html:2
-msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
-msgstr "Ή να κάνετε εγκατάσταση σε <a %(cadLinkAttributes)s>άλλη συσκευή</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-msgstr "Αυτό είναι ένα αυτοματοποιημένο email· αν δεν ζητήσατε αυτή την ενέργεια, <a %(passwordChangeLinkAttributes)s>παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.html:2 lib/senders/templates/partials/automatedEmailNoAction.html:2 lib/senders/templates/partials/automatedEmailResetPassword.html:2
-msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-msgstr "Για περισσότερες πληροφορίες, παρακαλώ επισκεφθείτε την <a %(supportLinkAttributes)s>Υποστήριξη Mozilla</a>."
-
-#: lib/senders/templates/partials/automatedEmailChangePassword.txt:1
-msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-msgstr "Αυτό είναι ένα αυτοματοποιημένο email· αν δεν προσθέσατε μια νέα συσκευή στον λογαριασμό Firefox σας, θα πρέπει να αλλάξετε άμεσα τον κωδικό πρόσβασής σας στο %(passwordChangeLink)s"
-
-#: lib/senders/templates/partials/automatedEmailNoAction.html:1 lib/senders/templates/partials/automatedEmailNoAction.txt:1 lib/senders/templates/layouts/subscription.txt:1
-msgid "This is an automated email; if you received it in error, no action is required."
-msgstr "Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια."
-
-#: lib/senders/templates/partials/automatedEmailResetPassword.html:1
-msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-msgstr "Αυτό είναι ένα αυτοματοποιημένο email· αν δεν πιστοποιήσατε αυτή την ενέργεια, <a %(resetLinkAttributes)s>παρακαλώ επαναφέρετε τον κωδικό πρόσβασής σας</a>."
-
-#: lib/senders/templates/partials/changePassword.txt:1
-msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-msgstr "Αν υποπτεύεστε ότι κάποιος προσπαθεί να αποκτήσει πρόσβαση στον λογαριασμό σας, παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας."
-
-#: lib/senders/templates/partials/location.html:1 lib/senders/templates/partials/location.txt:1
-msgid "IP address: %(ip)s"
-msgstr "Διεύθυνση IP: %(ip)s"
-
-#: lib/senders/templates/partials/manageAccount.txt:1
-msgid "Manage account:"
-msgstr "Διαχείριση λογαριασμού:"
-
-#: lib/senders/templates/partials/paymentPlanDetails.html:1
-msgid "Payment details:"
-msgstr "Λεπτομέρειες πληρωμής:"
-
-#: lib/senders/templates/partials/paymentProvider.html:1 lib/senders/templates/partials/paymentProvider.txt:1
-msgid "PayPal"
-msgstr "PayPal"
-
-#: lib/senders/templates/partials/paymentProvider.html:2 lib/senders/templates/partials/paymentProvider.txt:2
-msgid "%(cardType)s card ending in %(lastFour)s"
-msgstr "Κάρτα %(cardType)s που λήγει σε %(lastFour)s"
-
-#: lib/senders/templates/layouts/fxa.html:2 lib/senders/templates/layouts/fxa.txt:1 lib/senders/templates/layouts/subscription.html:11
-msgid "Mozilla Privacy Policy"
-msgstr "Πολιτική Απορρήτου της Mozilla"
-
-#: lib/senders/templates/layouts/fxa.html:3 lib/senders/templates/layouts/fxa.txt:2 lib/senders/templates/layouts/subscription.html:12
-msgid "Firefox Cloud Terms of Service"
-msgstr "Όροι υπηρεσίας Firefox Cloud"
-
-#: lib/senders/templates/layouts/subscription.html:2
-msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
-msgstr "Λαμβάνετε αυτό το email επειδή το %(email)s διαθέτει λογαριασμό Firefox και έχετε εγγραφεί στο %(productName)s."
-
-#: lib/senders/templates/layouts/subscription.html:3
-msgid "You're receiving this email because %(email)s has a Firefox account"
-msgstr "Λαμβάνετε αυτό το email επειδή το %(email)s διαθέτει λογαριασμό Firefox"
-
-#: lib/senders/templates/layouts/subscription.html:4
-msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
-msgstr "Λαμβάνετε αυτό το email επειδή το %(email)s διαθέτει λογαριασμό Firefox και έχετε εγγραφεί σε πολλαπλά προϊόντα."
-
-#: lib/senders/templates/layouts/subscription.html:5
-msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
-msgstr "Διαχειριστείτε τις ρυθμίσεις λογαριασμού Firefox από τη <a %(accountSettingsLinkAttributes)s>σελίδα λογαριασμού</a> σας."
-
-#: lib/senders/templates/layouts/subscription.html:6
-msgid "Terms and cancellation policy"
-msgstr "Όροι και πολιτική ακύρωσης"
-
-#: lib/senders/templates/layouts/subscription.html:7
-msgid "Reactivate subscription"
-msgstr "Επανενεργοποίηση συνδρομής"
-
-#: lib/senders/templates/layouts/subscription.html:8
-msgid "Cancel subscription"
-msgstr "Ακύρωση συνδρομής"
-
-#: lib/senders/templates/layouts/subscription.html:9
-msgid "Cancel subscriptions"
-msgstr "Ακύρωση συνδρομών"
-
-#: lib/senders/templates/layouts/subscription.html:10
-msgid "Update billing information"
-msgstr "Ενημέρωση στοιχείων χρέωσης"
-
-#: lib/senders/templates/layouts/subscription.html:13
-msgid "Legal"
-msgstr "Νομικά"
-
-#: lib/senders/templates/layouts/subscription.html:14
-msgid "Privacy"
-msgstr "Απόρρητο"
-
-#: lib/senders/templates/layouts/subscription.txt:2
-msgid "Terms and cancellation policy:"
-msgstr "Όροι και πολιτική ακύρωσης:"
-
-#: lib/senders/templates/layouts/subscription.txt:3
-msgid "Privacy notice:"
-msgstr "Σημείωση απορρήτου:"
-
-#: lib/senders/templates/layouts/subscription.txt:4
-msgid "Cancel subscription:"
-msgstr "Ακύρωση συνδρομής:"
-
-#: lib/senders/templates/layouts/subscription.txt:5
-msgid "Cancel subscriptions:"
-msgstr "Ακύρωση συνδρομών:"
-
-#: lib/senders/templates/layouts/subscription.txt:6
-msgid "Update billing information:"
-msgstr "Ενημέρωση στοιχείων χρέωσης:"
 
 #: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
@@ -889,180 +38,226 @@ msgstr "%(stateCode)s, %(country)s (εκτίμηση)"
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (εκτίμηση)"
 
-#: lib/senders/email.js:587
-msgid "Finish creating your account"
-msgstr "Ολοκληρώστε τη δημιουργία του λογαριασμού σας"
-
-#: lib/senders/email.js:588 lib/senders/email.js:725
-msgid "Confirm email"
-msgstr "Επιβεβαίωση email"
-
-#: lib/senders/email.js:655
+#: lib/senders/email.js:618
 msgid "Verification code: %(code)s"
 msgstr "Κωδικός επαλήθευσης: %(code)s"
 
-#: lib/senders/email.js:705
+#: lib/senders/email.js:666
 msgid "Reminder: Finish creating your account"
 msgstr "Υπενθύμιση: Ολοκληρώστε τη δημιουργία του λογαριασμού σας"
 
-#: lib/senders/email.js:707
+#: lib/senders/email.js:668
 msgid "Final reminder: Activate your account"
 msgstr "Τελική υπενθύμιση: Ενεργοποιήστε τον λογαριασμό σας"
 
-#: lib/senders/email.js:758
+#: lib/senders/email.js:686
+msgid "Confirm email"
+msgstr "Επιβεβαίωση email"
+
+#: lib/senders/email.js:719
 msgid "Reminder: Finish setting up your account"
 msgstr "Υπενθύμιση: Ολοκληρώστε τη ρύθμιση του λογαριασμού σας"
 
-#: lib/senders/email.js:760
+#: lib/senders/email.js:721
 msgid "Final reminder: Setup your account"
 msgstr "Τελική υπενθύμιση: Ρυθμίστε τον λογαριασμό σας"
 
-#: lib/senders/email.js:802 lib/senders/email.js:2013
+#: lib/senders/email.js:763 lib/senders/email.js:1911
 msgid "Create a password"
 msgstr "Δημιουργία κωδικού πρόσβασης"
 
-#: lib/senders/email.js:838
+#: lib/senders/email.js:799
 msgid "Account authorization code"
 msgstr "Κωδικός εξουσιοδότησης λογαριασμού"
 
-#: lib/senders/email.js:911
+#: lib/senders/email.js:870
 msgid "Confirm new sign-in to %(clientName)s"
 msgstr "Επιβεβαίωση νέας σύνδεσης στο %(clientName)s"
 
-#: lib/senders/email.js:960
-msgid "Sign-in code for %(serviceName)s"
-msgstr "Κωδικός σύνδεσης για το %(serviceName)s"
+#: lib/senders/email.js:873
+msgid "Confirm sign-in"
+msgstr "Επιβεβαίωση εισόδου"
 
-#: lib/senders/email.js:1029
+#: lib/senders/email.js:982
 msgid "Confirm primary email"
 msgstr "Επιβεβαίωση πρωτεύοντος email"
 
-#: lib/senders/email.js:1030 lib/senders/email.js:1093 lib/senders/email.js:1165
+#: lib/senders/email.js:983 lib/senders/email.js:1044
 msgid "Verify email"
 msgstr "Επαλήθευση email"
 
-#: lib/senders/email.js:1092 lib/senders/email.js:1164
+#: lib/senders/email.js:1043
 msgid "Confirm secondary email"
 msgstr "Επιβεβαίωση δευτερεύοντος email"
 
-#: lib/senders/email.js:1224
+#: lib/senders/email.js:1101
 msgid "Reset your password"
 msgstr "Επαναφορά κωδικού πρόσβασης"
 
-#: lib/senders/email.js:1270 lib/senders/email.js:1341
+#: lib/senders/email.js:1102
+msgid "Create new password"
+msgstr "Δημιουργία νέου κωδικού πρόσβασης"
+
+#: lib/senders/email.js:1145 lib/senders/email.js:1214
 msgid "Password updated"
 msgstr "Ο κωδικός πρόσβασης ενημερώθηκε"
 
-#: lib/senders/email.js:1312
+#: lib/senders/email.js:1185
 msgid "Suspicious activity detected"
 msgstr "Εντοπίστηκε ύποπτη δραστηριότητα"
 
-#: lib/senders/email.js:1385 lib/senders/email.js:1477 lib/senders/email.js:1513 lib/senders/email.js:1549 lib/senders/email.js:1583 lib/senders/email.js:1630 lib/senders/email.js:1677
-#: lib/senders/email.js:1724 lib/senders/email.js:1821 lib/senders/email.js:1871
+#: lib/senders/email.js:1252
+msgid "New account linked to Firefox"
+msgstr ""
+
+#: lib/senders/email.js:1253 lib/senders/email.js:1304 lib/senders/email.js:1394 lib/senders/email.js:1430 lib/senders/email.js:1466 lib/senders/email.js:1500 lib/senders/email.js:1585
+#: lib/senders/email.js:1630 lib/senders/email.js:1725 lib/senders/email.js:1773
 msgid "Manage account"
 msgstr "Διαχείριση λογαριασμού"
 
-#: lib/senders/email.js:1425
+#: lib/senders/email.js:1303
+msgid "New sign-in to %(clientName)s"
+msgstr "Νέα σύνδεση στο %(clientName)s"
+
+#: lib/senders/email.js:1342
 msgid "Account verified. Next, sync another device to finish setup"
 msgstr "Ο λογαριασμός επαληθεύτηκε. Έπειτα, συγχρονίστε μια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση"
 
-#: lib/senders/email.js:1512
+#: lib/senders/email.js:1347
+msgid "Set up next device"
+msgstr "Ρύθμιση επόμενης συσκευής"
+
+#: lib/senders/email.js:1393
+msgid "Secondary email added"
+msgstr "Προστέθηκε δευτερεύον email"
+
+#: lib/senders/email.js:1429
 msgid "Primary email updated"
 msgstr "Το κύριο email ενημερώθηκε"
 
-#: lib/senders/email.js:1629
-msgid "Two-step authentication is off"
-msgstr "Η ταυτοποίηση δύο παραγόντων είναι ανενεργή"
+#: lib/senders/email.js:1465
+msgid "Secondary email removed"
+msgstr "Το δευτερεύον email αφαιρέθηκε"
 
-#: lib/senders/email.js:1723
+#: lib/senders/email.js:1499
+msgid "Two-step authentication enabled"
+msgstr "Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε"
+
+#: lib/senders/email.js:1584
+msgid "New recovery codes generated"
+msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
+
+#: lib/senders/email.js:1629
 msgid "Recovery code used"
 msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
 
-#: lib/senders/email.js:1783
+#: lib/senders/email.js:1687
 msgid "1 recovery code remaining"
 msgstr "Απομένει 1 κωδικός ανάκτησης"
 
-#: lib/senders/email.js:1785
+#: lib/senders/email.js:1689
 msgid "%(numberRemaining)s recovery codes remaining"
 msgstr "Απομένουν %(numberRemaining)s κωδικοί ανάκτησης"
 
-#: lib/senders/email.js:1788
+#: lib/senders/email.js:1692
 msgid "Generate codes"
 msgstr "Δημιουργία κωδικών"
 
-#: lib/senders/email.js:1920
+#: lib/senders/email.js:1724
+msgid "Account recovery key generated"
+msgstr "Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε"
+
+#: lib/senders/email.js:1772
+msgid "Account recovery key removed"
+msgstr "Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε"
+
+#: lib/senders/email.js:1820
 msgid "Password updated using recovery key"
 msgstr "Ο κωδικός πρόσβασης ενημερώθηκε με το κλειδί ανάκτησης"
 
-#: lib/senders/email.js:1921
+#: lib/senders/email.js:1821
 msgid "Create new recovery key"
 msgstr "Δημιουργία νέου κλειδιού ανάκτησης"
 
-#: lib/senders/email.js:2016
+#: lib/senders/email.js:1914
 msgid "Welcome to %(productName)s: Please set your password."
 msgstr "Καλώς ορίσατε στο %(productName)s: Παρακαλούμε ορίστε τον κωδικό πρόσβασής σας."
 
-#: lib/senders/email.js:2090
+#: lib/senders/email.js:1988
 msgid "You have upgraded to %(productNameNew)s"
 msgstr "Έχετε αναβαθμίσει στο %(productNameNew)s"
 
-#: lib/senders/email.js:2171
+#: lib/senders/email.js:2069
 msgid "You have switched to %(productNameNew)s"
 msgstr "Έχετε κάνει εναλλαγή στο %(productNameNew)s"
 
-#: lib/senders/email.js:2237
+#: lib/senders/email.js:2135
 msgid "Credit card for %(productName)s expiring soon"
 msgstr "Η πιστωτική κάρτα για το %(productName)s λήγει σύντομα"
 
-#: lib/senders/email.js:2251
+#: lib/senders/email.js:2149
 msgid "Credit card for your subscriptions is expiring soon"
 msgstr "Η πιστωτική κάρτα για τη συνδρομή σας λήγει σύντομα"
 
-#: lib/senders/email.js:2302
+#: lib/senders/email.js:2200
 msgid "Payment information update required for %(productName)s"
 msgstr "Απαιτείται ενημέρωση των στοιχείων πληρωμής για το %(productName)s"
 
-#: lib/senders/email.js:2318
+#: lib/senders/email.js:2216
 msgid "Payment information update required for Mozilla subscriptions"
 msgstr "Απαιτείται ενημέρωση των στοιχείων πληρωμής για τις συνδρομές Mozilla"
 
-#: lib/senders/email.js:2364
+#: lib/senders/email.js:2262
 msgid "%(productName)s payment failed"
 msgstr "Αποτυχία πληρωμής του %(productName)s"
 
-#: lib/senders/email.js:2415 lib/senders/email.js:2480 lib/senders/email.js:2541
+#: lib/senders/email.js:2313 lib/senders/email.js:2378 lib/senders/email.js:2439
 msgid "Your %(productName)s subscription has been cancelled"
 msgstr "Η συνδρομή σας στο %(productName)s έχει ακυρωθεί"
 
-#: lib/senders/email.js:2598
+#: lib/senders/email.js:2496
 msgid "%(productName)s subscription reactivated"
 msgstr "Η συνδρομή στο %(productName)s επανενεργοποιήθηκε"
 
-#: lib/senders/email.js:2654
+#: lib/senders/email.js:2552
 msgid "%(productName)s automatic renewal notice"
 msgstr "Ειδοποίηση αυτόματης ανανέωσης %(productName)s"
 
-#: lib/senders/email.js:2734
+#: lib/senders/email.js:2633 lib/senders/email.js:2733
 msgid "%(productName)s payment received"
 msgstr "Η πληρωμή για το %(productName)s ελήφθη"
 
-#: lib/senders/email.js:2826 lib/senders/email.js:2909
+#: lib/senders/email.js:2837 lib/senders/email.js:2922
 msgid "%(productName)s payment confirmed"
 msgstr "Η πληρωμή για το %(productName)s επιβεβαιώθηκε"
 
-#: lib/senders/email.js:2994
-msgid "Download %(productName)s"
-msgstr "Λήψη %(productName)s"
-
-#: lib/senders/email.js:3020
+#: lib/senders/email.js:3028
 msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
 msgstr "Φιλική υπενθύμιση: Ολοκλήρωση ρύθμισης συγχρονισμού"
 
-#: lib/senders/email.js:3021
+#: lib/senders/email.js:3029
 msgid "Final Reminder: Complete Sync Setup"
 msgstr "Τελική υπενθύμιση: Ολοκλήρωση ρύθμισης συγχρονισμού"
 
-#: lib/senders/email.js:3035
+#: lib/senders/email.js:3032
+msgid "Here's your reminder to sync devices."
+msgstr "Υπενθύμιση για συγχρονισμό συσκευών."
+
+#: lib/senders/email.js:3033
+msgid "Last reminder to sync devices!"
+msgstr "Τελευταία υπενθύμιση για συγχρονισμό συσκευών!"
+
+#: lib/senders/email.js:3036
+msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr ""
+"Χρειάζονται δύο συσκευές για συγχρονισμό. Ο συγχρονισμός μιας άλλης συσκευής με το Firefox προστατεύει το απόρρητο των σελιδοδεικτών, των κωδικών πρόσβασης και άλλων δεδομένων Firefox όπου κι αν "
+"έχετε το Firefox."
+
+#: lib/senders/email.js:3039
+msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+msgstr "Ο συγχρονισμός μιας άλλης συσκευής με το Firefox προστατεύει το απόρρητο των σελιδοδεικτών, των κωδικών πρόσβασης και άλλων δεδομένων Firefox όπου κι αν έχετε το Firefox."
+
+#: lib/senders/email.js:3043
 msgid "Sync another device"
 msgstr "Συγχρονισμός άλλης συσκευής"
 
@@ -1150,6 +345,610 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Λήψη τελευταίας έκδοσης"
+
+#~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+#~ msgstr "Αν δεν έχετε ήδη κάνει λήψη του %(productName)s, ξεκινήσετε να χρησιμοποιείτε όλες τις λειτουργίες της συνδρομής σας:"
+
+#~ msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Έχετε απορίες σχετικά με τη συνδρομή σας; Η <a href=\"%(subscriptionSupportUrl)s\">ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει."
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Έχετε απορίες για τη συνδρομή σας; Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει:"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "Απομένουν λίγοι κωδικοί ανάκτησης"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Παρατηρήσαμε ότι σας απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε σκεφτείτε να δημιουργήσετε νέους κωδικούς για να μην κλειδωθείτε έξω από το λογαριασμό σας."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Παρατηρήσαμε ότι σας απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε σκεφτείτε να δημιουργήσετε νέους κωδικούς για να μην κλειδωθείτε έξω από το λογαριασμό σας."
+
+#~ msgid "Generate codes:"
+#~ msgstr "Δημιουργία κωδικών:"
+
+#~ msgid "Password Change Required"
+#~ msgstr "Απαιτείται αλλαγή κωδικού πρόσβασης"
+
+#~ msgid ""
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
+#~ msgstr ""
+#~ "Εντοπίσαμε ύποπτη συμπεριφορά στο λογαριασμό Firefox σας. Για να αποτρέψουμε τη μη εξουσιοδοτημένη πρόσβαση, αποσυνδέσαμε όλες τις συσκευές του λογαριασμού σας και σας ζητούμε να αλλάξετε τον "
+#~ "κωδικό πρόσβασής σας για προστασία."
+
+#~ msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+#~ msgstr "Συνδεθείτε ξανά σε οποιαδήποτε συσκευή ή υπηρεσία, όπου χρησιμοποιείτε το λογαριασμό Firefox σας και ακολουθήστε τα βήματα που θα σας παρουσιαστούν."
+
+#~ msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Σημαντικό:</b> Επιλέξτε έναν μοναδικό κωδικό πρόσβασης και βεβαιωθείτε ότι είναι διαφορετικός από του λογαριασμού email σας."
+
+#~ msgid "Best,"
+#~ msgstr "Σας ευχόμαστε τα καλύτερα,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Η ομάδα των Λογαριασμών Firefox"
+
+#~ msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Σημαντικό: Επιλέξτε έναν μοναδικό κωδικό πρόσβασης και βεβαιωθείτε ότι είναι διαφορετικός από του λογαριασμού email σας."
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Ο κωδικός πρόσβασης του λογαριασμού Firefox σας άλλαξε επιτυχώς από την ακόλουθη συσκευή:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Αυτό είναι ένα αυτοματοποιημένο email; αν δεν αλλάξατε τον κωδικό πρόσβασης του Λογαριασμού Firefox σας, θα πρέπει να τον επαναφέρετε αμέσως στο %(resetLink)s"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "Ο κωδικός πρόσβασης του λογαριασμού σας άλλαξε"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό."
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "Αν δεν τον αλλάξατε εσείς, παρακαλούμε επαναφέρετε τον κωδικό πρόσβασής σας τώρα στο %(resetLink)s."
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "Έγινε επαναφορά του κωδικού πρόσβασης του λογαριασμού σας με κλειδί ανάκτησης"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "Έχετε επαναφέρει επιτυχώς τον κωδικό πρόσβασής σας με ένα κλειδί ανάκτησης από την ακόλουθη συσκευή:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "Θα πρέπει να δημιουργήσετε ένα νέο κλειδί ανάκτησης."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "Δημιουργία νέου κλειδιού ανάκτησης:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Για περισσότερες πληροφορίες, παρακαλώ επισκεφθείτε το %(supportUrl)s"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Έχετε δημιουργήσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "Αν δεν το κάνατε εσείς, <a %(revokeAccountRecoveryLinkAttributes)s>κάντε κλικ εδώ.</a>"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Έχετε δημιουργήσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "Αν δεν το κάνατε εσείς, ανακαλέστε το κλειδί."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Θα απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή ταυτοποίησής σας σε κάθε σύνδεση."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας. Θα απαιτείται πλέον κωδικός ασφαλείας από την εφαρμογή πιστοποίησής σας σε κάθε σύνδεση."
+
+#~ msgid "New primary email"
+#~ msgstr "Νέο κύριο email"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "Έχετε αλλάξει επιτυχώς το κύριο email σας σε %(email)s. Αυτή η διεύθυνση αποτελεί πλέον το όνομα χρήστη σας για τη σύνδεση στο λογαριασμό Firefox σας, καθώς και για τη λήψη ειδοποιήσεων "
+#~ "ασφαλείας και επιβεβαιώσεις σύνδεσης."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "Έχετε χρησιμοποιήσει επιτυχώς έναν κωδικό ανάκτησης από την εξής συσκευή:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "Χρησιμοποιήθηκε κωδικός ανάκτησης"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "Έχετε δημιουργήσει επιτυχώς νέους κωδικούς ανάκτησης από την ακόλουθη συσκευή:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Έχετε αφαιρέσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "Αυτό το κλειδί ανάκτησης δεν μπορεί να χρησιμοποιηθεί πλέον για ανάκτηση του λογαριασμού σας."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Έχετε αφαιρέσει επιτυχώς ένα κλειδί ανάκτησης για το λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr ""
+#~ "Έχετε αφαιρέσει επιτυχώς το %(secondaryEmail)s από δευτερεύον email από τον λογαριασμό Firefox σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης δεν θα αποστέλλονται πλέον σε αυτήν τη "
+#~ "διεύθυνση."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας από την ακόλουθη συσκευή:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "Οι κωδικοί ασφαλείας δεν θα ζητούνται πλέον σε κάθε σύνδεση."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον λογαριασμό Firefox σας. Δεν θα απαιτείται πλέον κωδικός ασφαλείας σε κάθε σύνδεση."
+
+#~ msgid "Firefox Account verified. You're almost there."
+#~ msgstr "Ο λογαριασμός Firefox επαληθεύτηκε. Έχετε σχεδόν τελειώσει."
+
+#~ msgid "Next sync between your devices!"
+#~ msgstr "Επόμενος συγχρονισμός μεταξύ των συσκευών σας!"
+
+#~ msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+#~ msgstr "Ο ιδιωτικός συγχρονισμός διατηρεί ίδιους τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα του Firefox, σε όλες τις συσκευές σας."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "Έχετε απορίες; Επισκεφθείτε την %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "Έχετε επαληθεύσει επιτυχώς το %(secondaryEmail)s ως δευτερεύον email για τον λογαριασμό Firefox σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης θα αποστέλλονται πλέον και στις δύο "
+#~ "διευθύνσεις email."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "Πρέπει να επαναφέρετε τον κωδικό πρόσβασής σας;"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "Κάντε κλικ στο κουμπί μέσα στην επόμενη ώρα για να δημιουργήσετε ένα νέο κωδικό πρόσβασης. Το αίτημα ήρθε από την ακόλουθη συσκευή:"
+
+#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+#~ msgstr "Ευχαριστούμε που επιλέξατε το Firefox! Μπορείτε να εγκαταστήσετε το Firefox για κινητή συσκευή εδώ: %(link)s"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Λυπούμαστε που φεύγετε"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Διαγράψατε πρόσφατα το λογαριασμό Firefox σας. Συνεπώς, έχουμε ακυρώσει τη συνδρομή σας στο %(productName)s. Η τελευταία πληρωμή των %(invoiceTotal)s έγινε στις %(invoiceDateOnly)s."
+
+#~ msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
+#~ msgstr "Βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας λαμβάνοντας συμμετοχή σε αυτή τη <a %(cancellationSurveyLinkAttributes)s>σύντομη έρευνα</a>."
+
+#~ msgid "Please help us improve our services by taking this short survey:"
+#~ msgstr "Παρακαλούμε βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας, συμμετέχοντας σε αυτή τη σύντομη έρευνα:"
+
+#~ msgid "Welcome to %(productName)s"
+#~ msgstr "Καλώς ορίσατε στο %(productName)s"
+
+#~ msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "Η πληρωμή σας βρίσκεται υπό επεξεργασία και ενδέχεται να χρειαστούν έως και τέσσερις εργάσιμες ημέρες για να ολοκληρωθεί. Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός "
+#~ "εάν επιλέξετε να την ακυρώσετε."
+
+#~ msgid "Next, you'll create a Firefox account password and download %(productName)s."
+#~ msgstr "Έπειτα, θα δημιουργήσετε έναν κωδικό πρόσβασης για τον λογαριασμό Firefox και θα κάνετε λήψη του %(productName)s."
+
+#~ msgid "Invoice number: %(invoiceNumber)s"
+#~ msgstr "Αριθμός τιμολογίου: %(invoiceNumber)s"
+
+#~ msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Χρέωση: %(invoiceTotal)s στις %(invoiceDateOnly)s"
+
+#~ msgid "Next invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Επόμενο τιμολόγιο: %(nextInvoiceDateOnly)s"
+
+#~ msgid "You can't access your subscription yet"
+#~ msgstr "Δεν έχετε ακόμα πρόσβαση στη συνδρομή σας"
+
+#~ msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
+#~ msgstr ""
+#~ "Πριν από λίγες μέρες, δημιουργήσατε έναν λογαριασμό Firefox αλλά δεν τον επαληθεύσατε. Ελπίζουμε να ολοκληρώσετε τη ρύθμιση του λογαριασμού σας, ώστε να μπορέσετε να χρησιμοποιήσετε τη νέα σας "
+#~ "συνδρομή."
+
+#~ msgid "Select “Create Password” to set up a new password and finish verifying your account."
+#~ msgstr "Επιλέξτε «Δημιουργία κωδικού πρόσβασης» για να ορίσετε έναν νέο κωδικό πρόσβασης και να ολοκληρώσετε την επαλήθευση του λογαριασμού σας."
+
+#~ msgid "Create a password:"
+#~ msgstr "Δημιουργία κωδικού πρόσβασης:"
+
+#~ msgid "Welcome to Firefox!"
+#~ msgstr "Καλώς ορίσατε στο Firefox!"
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "Έχουμε ακυρώσει τη συνδρομή σας στο %(productName)s. Η τελευταία πληρωμή των %(invoiceTotal)s έγινε στις %(invoiceDateOnly)s. Η υπηρεσία σας θα συνεχίσει μέχρι το τέλος της τρέχουσας περιόδου "
+#~ "χρέωσης, που είναι στις %(serviceLastActiveDateOnly)s."
+
+#~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Έχετε ολοκληρώσει επιτυχώς τη μετάβαση από το %(productNameOld)s στο %(productNameNew)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "Ξεκινώντας με τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από %(paymentAmountOld)s ανά %(productPaymentCycleOld)s σε %(paymentAmountNew)s ανά %(productPaymentCycleNew)s. Θα λάβετε επίσης "
+#~ "μια εφάπαξ πίστωση των %(paymentProrated)s λόγω της χαμηλότερης χρέωσης για τον υπολειπόμενο χρόνο: %(productPaymentCycleOld)s."
+
+#~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
+#~ msgstr "Αν υπάρχει νέο λογισμικό που θα πρέπει να εγκαταστήσετε για να χρησιμοποιήσετε το %(productNameNew)s, θα λάβετε ξεχωριστό email με οδηγίες λήψης."
+
+#~ msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
+#~ msgstr "Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση."
+
+#~ msgid "Your subscription has been cancelled"
+#~ msgstr "Η συνδρομή σας ακυρώθηκε"
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
+#~ msgstr "Ακυρώσαμε τη συνδρομή σας στο %(productName)s επειδή απέτυχαν πολλαπλές απόπειρες πληρωμής. Για να αποκτήσετε ξανά πρόσβαση, ξεκινήστε μια νέα συνδρομή με μια ενημερωμένη μέθοδο πληρωμής."
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
+#~ msgstr "Ακυρώσαμε τη συνδρομή σας στο %(productName)s επειδή απέτυχαν πολλαπλές απόπειρες πληρωμής. Για να αποκτήσετε ξανά πρόσβαση, ξεκινήστε μια νέα συνδρομή με μια ενημερωμένη μέθοδο πληρωμής."
+
+#~ msgid "Thank you for subscribing to %(productName)s"
+#~ msgstr "Ευχαριστούμε για τη συνδρομή σας στο %(productName)s"
+
+#~ msgid "Your payment is currently processing and may take up to four business days to complete."
+#~ msgstr "Η πληρωμής σας βρίσκεται υπό επεξεργασία και ενδέχεται να χρειαστούν έως και τέσσερις εργάσιμες ημέρες για να ολοκληρωθεί."
+
+#~ msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
+#~ msgstr "Θα λάβετε ένα ξεχωριστό email με οδηγίες λήψης σχετικά με το πώς να αρχίσετε να χρησιμοποιείτε το %(productName)s."
+
+#~ msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
+#~ msgstr "Αριθμός τιμολογίου: <b>%(invoiceNumber)s</b>"
+
+#~ msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Χρεώθηκαν %(invoiceTotal)s στις %(invoiceDateOnly)s"
+
+#~ msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
+#~ msgstr "<a href=\"%(invoiceLink)s\">Δείτε το τιμολόγιό σας</a>."
+
+#~ msgid "Next Invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Επόμενο τιμολόγιο: %(nextInvoiceDateOnly)s"
+
+#~ msgid "Invoice Number: %(invoiceNumber)s"
+#~ msgstr "Αριθμός τιμολογίου: %(invoiceNumber)s"
+
+#~ msgid "View Invoice: %(invoiceLink)s"
+#~ msgstr "Προβολή τιμολογίου: %(invoiceLink)s"
+
+#~ msgid "Subtotal: %(invoiceSubtotal)s"
+#~ msgstr "Υποσύνολο: %(invoiceSubtotal)s"
+
+#~ msgid "One-time discount: -%(invoiceDiscountAmount)s"
+#~ msgstr "Εφάπαξ έκπτωση: -%(invoiceDiscountAmount)s"
+
+#~ msgid "Your credit card is about to expire"
+#~ msgstr "Η πιστωτική σας κάρτα πρόκειται να λήξει"
+
+#~ msgid "The credit card you're using to make payments for %(productName)s is about to expire."
+#~ msgstr "Η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές του %(productName)s πρόκειται να λήξει."
+
+#~ msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
+#~ msgstr "Για να αποτρέψετε τυχόν διακοπές στην υπηρεσία σας, παρακαλούμε <a href=\"%(updateBillingUrl)s\">ενημερώστε τα στοιχεία πληρωμών σας</a> το συντομότερο δυνατό."
+
+#~ msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
+#~ msgstr "Για να αποτρέψετε τυχόν διακοπές στην υπηρεσία σας, παρακαλούμε ενημερώστε τα στοιχεία πληρωμών σας το συντομότερο δυνατό:"
+
+#~ msgid "Sorry, we're having trouble with your payment"
+#~ msgstr "Δυστυχώς, αντιμετωπίζουμε πρόβλημα με την πληρωμή σας"
+
+#~ msgid "We had a problem with your latest payment for %(productName)s."
+#~ msgstr "Αντιμετωπίζουμε πρόβλημα με την τελευταία σας πληρωμή για το %(productName)s."
+
+#~ msgid "It may be that your credit card has expired, or your current payment method is out of date."
+#~ msgstr "Η πιστωτική σας κάρτα ενδέχεται να έχει λήξει, ή η τρέχουσα μέθοδος πληρωμής δεν είναι ενημερωμένη."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
+#~ msgstr ""
+#~ "Θα δοκιμάσουμε την πληρωμή σας ξανά τις επόμενες ημέρες, αλλά ίσως χρειαστεί να μας βοηθήσετε να διορθώσουμε το πρόβλημα <a href=\"%(updateBillingUrl)s\">ενημερώνοντας τα στοιχεία πληρωμής σας</"
+#~ "a>."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
+#~ msgstr "Θα δοκιμάσουμε την πληρωμή σας ξανά τις επόμενες ημέρες, αλλά ίσως χρειαστεί να μας βοηθήσετε να διορθώσουμε το πρόβλημα ενημερώνοντας τα στοιχεία πληρωμής σας:"
+
+#~ msgid "Sorry, we’re having trouble with your payment method"
+#~ msgstr "Δυστυχώς, αντιμετωπίζουμε πρόβλημα με τη μέθοδο πληρωμή σας"
+
+#~ msgid "We have detected a problem with your payment method for %(productName)s."
+#~ msgstr "Εντοπίσαμε πρόβλημα με τη μέθοδο πληρωμής σας για το %(productName)s."
+
+#~ msgid "Thank you for reactivating your %(productName)s subscription!"
+#~ msgstr "Ευχαριστούμε για την εκ νέου ενεργοποίηση της συνδρομής %(productName)s!"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
+#~ msgstr ""
+#~ "Ο κύκλος χρέωσης και η πληρωμή σας θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι %(invoiceTotal)s στις %(nextInvoiceDateOnly)s. Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο "
+#~ "χρέωσης, εκτός αν κάνετε ακύρωση."
+
+#~ msgid "Your subscription will be renewed soon"
+#~ msgstr "Η συνδρομή σας θα ανανεωθεί σύντομα"
+
+#~ msgid "Dear %(productName)s customer,"
+#~ msgstr "Αγαπητέ πελάτη του %(productName)s,"
+
+#~ msgid ""
+#~ "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
+#~ "%(invoiceTotal)s will be applied to the payment method on your account."
+#~ msgstr ""
+#~ "Η τρέχουσα συνδρομή σας έχει ρυθμιστεί ώστε να ανανεωθεί αυτόματα σε %(reminderLength)s ημέρες. Τότε, η Mozilla θα ανανεώσει τη συνδρομή σας %(planIntervalCount)s %(planInterval)s και θα γίνει "
+#~ "χρέωση %(invoiceTotal)s στον τρόπο πληρωμής του λογαριασμού σας."
+
+#~ msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
+#~ msgstr "Μπορείτε να εξασφαλίσετε ότι η μέθοδος πληρωμής και τα στοιχεία του λογαριασμού σας είναι ενημερωμένα <a href=\"%(updateBillingUrl)s\">εδώ</a>."
+
+#~ msgid ""
+#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">contact us</a>."
+#~ msgstr ""
+#~ "Ευχαριστούμε για τη συνδρομή σας στο %(productName)s. Αν έχετε οποιαδήποτε απορία σχετικά με τη συνδρομή σας ή αν χρειάζεστε περισσότερες πληροφορίες σχετικά με το %(productName)s, παρακαλούμε "
+#~ "<a href=\"%(subscriptionSupportUrl)s\">επικοινωνήστε μαζί μας</a>."
+
+#~ msgid "Sincerely,"
+#~ msgstr "Με εκτίμηση,"
+
+#~ msgid "The %(productName)s team"
+#~ msgstr "Η ομάδα του %(productName)s"
+
+#~ msgid "You can ensure that your payment method and account information are up to date here:"
+#~ msgstr "Μπορείτε να εξασφαλίσετε ότι η μέθοδος πληρωμής και τα στοιχεία του λογαριασμού σας είναι ενημερωμένα εδώ:"
+
+#~ msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
+#~ msgstr ""
+#~ "Ευχαριστούμε για τη συνδρομή σας στο %(productName)s. Αν έχετε οποιαδήποτε απορία σχετικά με τη συνδρομή σας ή αν χρειάζεστε περισσότερες πληροφορίες σχετικά με το %(productName)s, παρακαλούμε "
+#~ "επικοινωνήστε μαζί μας:"
+
+#~ msgid "Thank you for being a subscriber!"
+#~ msgstr "Ευχαριστούμε για τη συνδρομή σας!"
+
+#~ msgid "We received your latest payment for %(productName)s."
+#~ msgstr "Λάβαμε την τελευταία σας πληρωμή για το %(productName)s."
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "Ευχαριστούμε για την αναβάθμιση!"
+
+#~ msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Κάνατε επιτυχή αναβάθμιση από το %(productNameOld)s στο %(productNameNew)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "Ξεκινώντας από τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από %(paymentAmountOld)s ανά %(productPaymentCycleOld)s σε %(paymentAmountNew)s ανά %(productPaymentCycleNew)s. Θα χρεωθείτε "
+#~ "επίσης %(paymentProrated)s εφάπαξ λόγω της υψηλότερης χρέωσης για τον υπολειπόμενο χρόνο: %(productPaymentCycleOld)s."
+
+#~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
+#~ msgstr "Πρόκειται να λήξει η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές των εξής συνδρομών."
+
+#~ msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Έχετε απορίες σχετικά με τις συνδρομές σας; Η <a href=\"%(subscriptionSupportUrl)s\">ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει."
+
+#~ msgid "Questions about your subscriptions? Our support team is here to help you:"
+#~ msgstr "Έχετε απορίες για τις συνδρομές σας; Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει:"
+
+#~ msgid "We have detected a problem with your payment method for the following subscriptions."
+#~ msgstr "Εντοπίσαμε πρόβλημα με τη μέθοδο πληρωμής σας για τις ακόλουθες συνδρομές."
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "Γίνεται σύνδεση;"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Αν ναι, ορίστε ο κωδικός εξουσιοδότησης που χρειάζεστε:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Αν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και <a %(reportSignInLinkAttributes)s>αναφέρετέ το σε εμάς.</a>"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Αν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και αναφέρετέ το σε εμάς."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Καλώς ορίσατε στην οικογένεια Firefox"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "Πριν από λίγες ημέρες, δημιουργήσατε ένα λογαριασμό Firefox, αλλά δεν κάνατε ποτέ επιβεβαίωση."
+
+#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+#~ msgstr "Κάντε τώρα επιβεβαίωση για να αποκτήστε την τεχνολογία που μάχεται για το απόρρητό σας, σας εξοπλίζει με πρακτικές γνώσεις και σας σέβεται όπως σας αξίζει."
+
+#~ msgid "Confirm email:"
+#~ msgstr "Επιβεβαίωση email:"
+
+#~ msgid "Still there?"
+#~ msgstr "Ακόμη εκεί;"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "Σχεδόν πριν από μία εβδομάδα, δημιουργήσατε έναν λογαριασμό Firefox, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς."
+
+#~ msgid "Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Επιβεβαιώστε αυτήν τη διεύθυνση email για να ενεργοποιήσετε τον λογαριασμό σας και να μας ενημερώσετε ότι είστε εντάξει."
+
+#~ msgid "Activate the Firefox family of products"
+#~ msgstr "Ενεργοποιήστε την οικογένεια των προϊόντων Firefox"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+#~ msgstr "Επιβεβαιώστε το λογαριασμό σας και αξιοποιήστε στο έπακρο το Firefox, όπου κι αν συνδεθείτε, ξεκινώντας με:"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+#~ msgstr "Επιβεβαιώστε τον λογαριασμό σας και αξιοποιήστε στο έπακρο το Firefox, όπου κι αν συνδεθείτε."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "Για επιπρόσθετη ασφάλεια, παρακαλούμε επιβεβαιώστε αυτή τη σύνδεση από την ακόλουθη συσκευή:"
+
+#~ msgid "If yes, here is the verification code:"
+#~ msgstr "Αν ναι, ορίστε ο κωδικός επαλήθευσης:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "Λήγει σε 5 λεπτά."
+
+#~ msgid "Verify primary email"
+#~ msgstr "Επαλήθευση κύριου email"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "Έγινε αίτημα για μια αλλαγή στον λογαριασμό από την ακόλουθη συσκευή:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "Μόλις γίνει επαλήθευση, οι αλλαγές του λογαριασμού, όπως η προσθήκη δευτερεύοντος email, θα καταστούν δυνατές από αυτήν τη συσκευή."
+
+#~ msgid "Verify email: "
+#~ msgstr "Επαλήθευση email: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "Επαλήθευση δευτερεύοντος email"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Έχει υποβληθεί ένα αίτημα για τη χρήση του %(email)s ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο λογαριασμό Firefox:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Μόλις επαληθευτεί, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας."
+
+#~ msgid "Use this verification code:"
+#~ msgstr "Χρησιμοποιήστε αυτό τον κωδικό επαλήθευσης:"
+
+#~ msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Λήγει σε 5 λεπτά. Μόλις γίνει επαλήθευση, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας."
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "Κάνετε εσείς εγγραφή;"
+
+#~ msgid "If yes, use this verification code in your registration form:"
+#~ msgstr "Εάν ναι, χρησιμοποιήστε αυτό τον κωδικό επαλήθευσης στη φόρμα εγγραφής σας:"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "Λάβετε θέσεις, έτοιμοι, συγχρονίστε"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Επιβεβαιώστε ότι έχετε λάβει αυτό το email και θα σας βοηθήσουμε να εγκαταστήσετε και να συγχρονίσετε το Firefox σε όλες σας τις συσκευές ξεκινώντας με:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "Μόλις γίνει επιβεβαίωση, θα σας βοηθήσουμε να εγκαταστήσετε και να συνδέσετε το Firefox σε τουλάχιστον μια άλλη συσκευή."
+
+#~ msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
+#~ msgstr "Ή να κάνετε εγκατάσταση σε <a %(desktopLinkAttributes)s>άλλο υπολογιστή</a>."
+
+#~ msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+#~ msgstr "Ή να κάνετε εγκατάσταση σε <a %(cadLinkAttributes)s>άλλη συσκευή</a>."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Αυτό είναι ένα αυτοματοποιημένο email· αν δεν ζητήσατε αυτή την ενέργεια, <a %(passwordChangeLinkAttributes)s>παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Για περισσότερες πληροφορίες, παρακαλώ επισκεφθείτε την <a %(supportLinkAttributes)s>Υποστήριξη Mozilla</a>."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Αυτό είναι ένα αυτοματοποιημένο email· αν δεν προσθέσατε μια νέα συσκευή στον λογαριασμό Firefox σας, θα πρέπει να αλλάξετε άμεσα τον κωδικό πρόσβασής σας στο %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "Αυτό είναι ένα αυτοματοποιημένο email· αν δεν πιστοποιήσατε αυτή την ενέργεια, <a %(resetLinkAttributes)s>παρακαλώ επαναφέρετε τον κωδικό πρόσβασής σας</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Αν υποπτεύεστε ότι κάποιος προσπαθεί να αποκτήσει πρόσβαση στον λογαριασμό σας, παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "Διεύθυνση IP: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "Διαχείριση λογαριασμού:"
+
+#~ msgid "Payment details:"
+#~ msgstr "Λεπτομέρειες πληρωμής:"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "%(cardType)s card ending in %(lastFour)s"
+#~ msgstr "Κάρτα %(cardType)s που λήγει σε %(lastFour)s"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Πολιτική Απορρήτου της Mozilla"
+
+#~ msgid "Firefox Cloud Terms of Service"
+#~ msgstr "Όροι υπηρεσίας Firefox Cloud"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+#~ msgstr "Λαμβάνετε αυτό το email επειδή το %(email)s διαθέτει λογαριασμό Firefox και έχετε εγγραφεί στο %(productName)s."
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account"
+#~ msgstr "Λαμβάνετε αυτό το email επειδή το %(email)s διαθέτει λογαριασμό Firefox"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
+#~ msgstr "Λαμβάνετε αυτό το email επειδή το %(email)s διαθέτει λογαριασμό Firefox και έχετε εγγραφεί σε πολλαπλά προϊόντα."
+
+#~ msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+#~ msgstr "Διαχειριστείτε τις ρυθμίσεις λογαριασμού Firefox από τη <a %(accountSettingsLinkAttributes)s>σελίδα λογαριασμού</a> σας."
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "Όροι και πολιτική ακύρωσης"
+
+#~ msgid "Reactivate subscription"
+#~ msgstr "Επανενεργοποίηση συνδρομής"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Ακύρωση συνδρομής"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "Ακύρωση συνδρομών"
+
+#~ msgid "Update billing information"
+#~ msgstr "Ενημέρωση στοιχείων χρέωσης"
+
+#~ msgid "Legal"
+#~ msgstr "Νομικά"
+
+#~ msgid "Privacy"
+#~ msgstr "Απόρρητο"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "Όροι και πολιτική ακύρωσης:"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "Σημείωση απορρήτου:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "Ακύρωση συνδρομής:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "Ακύρωση συνδρομών:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "Ενημέρωση στοιχείων χρέωσης:"
+
+#~ msgid "Finish creating your account"
+#~ msgstr "Ολοκληρώστε τη δημιουργία του λογαριασμού σας"
+
+#~ msgid "Sign-in code for %(serviceName)s"
+#~ msgstr "Κωδικός σύνδεσης για το %(serviceName)s"
+
+#~ msgid "Two-step authentication is off"
+#~ msgstr "Η ταυτοποίηση δύο παραγόντων είναι ανενεργή"
+
+#~ msgid "Download %(productName)s"
+#~ msgstr "Λήψη %(productName)s"
 
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "

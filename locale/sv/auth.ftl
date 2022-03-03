@@ -25,8 +25,8 @@
 ## Email content
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logotyp">
-fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
-body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkronisera enheter">
+body-devices-image = <img data-l10n-name="devices-image" alt="Enheter">
 fxa-privacy-url = { -brand-mozilla } sekretesspolicy
 fxa-service-url = Användarvillkor för { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logotyp">

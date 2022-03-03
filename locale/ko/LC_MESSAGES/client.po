@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-03 22:07+0000\n"
 "PO-Revision-Date: 2021-08-12 03:44+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "비밀번호를 성공적으로 재설정했습니다. 로그인해 주�
 msgid "Sign in"
 msgstr "Firefox 계정 로그인"
 
-#: .es5/views/index.js:179
+#: .es5/views/index.js:181
 msgid "Account deleted successfully"
 msgstr "계정이 성공적으로 삭제됨"
 
@@ -1855,6 +1855,10 @@ msgstr "복구 키 저장"
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
 msgstr "완료"
+
+#: .es5/templates/partial/account-suggestion.mustache:1
+msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"

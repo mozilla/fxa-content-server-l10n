@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-03 22:07+0000\n"
 "PO-Revision-Date: 2019-10-22 19:22+0000\n"
 "Last-Translator: Sithu Aung <sithu.aung015@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "စကားဝှက်ကို အောင်မြင်စွာ �
 msgid "Sign in"
 msgstr "၀င်ပါ"
 
-#: .es5/views/index.js:179
+#: .es5/views/index.js:181
 msgid "Account deleted successfully"
 msgstr "အကောင့်ဖယ်ရှားခြင်း အောင်မြင်ပါသည်"
 
@@ -1852,6 +1852,10 @@ msgstr ""
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
 msgstr "ပြီးပြီ"
+
+#: .es5/templates/partial/account-suggestion.mustache:1
+msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
