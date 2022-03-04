@@ -23,6 +23,7 @@ alert-bar-close-message = Powěźeńku zacyniś
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Konta Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -209,6 +210,16 @@ input-password-hide = Gronidła schowaś
 input-password-show = Gronidło pokazaś
 input-password-hide-aria = Gronidło na wobrazowce schowaś.
 input-password-show-aria = Gronidło ako lutny tekst pokazaś. Wašo gronidło buźo widobne na wobrazowce.
+
+## Linked Accounts section
+
+la-heading = Zwězane konta
+la-description = Smy awtorizěrowali pśistup k slědujucym kontam.
+la-unlink-button = Zwisk źěliś
+la-unlink-account-button = Zwisk źěliś
+la-unlink-heading = Wót konta tśeśego póbitowarja źěliś
+la-unlink-content = Cośo napšawdu zwisk ze swójim kontom { -brand-google } źěliś? Gaž zwisk ze swójim kontom źěliśo, njewótzjawijośo se awtomatiski wót tych słužbow. Aby to cynił, musyśo se manuelnje wót wótrězka zwězanych słužbow wótzjawiś.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
