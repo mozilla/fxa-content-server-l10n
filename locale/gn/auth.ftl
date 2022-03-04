@@ -200,6 +200,7 @@ postAddAccountRecovery-description = Emoheñói porã mba’eñemi jeguerujeyrã
 postAddAccountRecovery-action = Mba’ete ñangareko
 postAddAccountRecovery-recovery = Nandéiramo, <a data-l10n-name="revokeAccountRecoveryLink">eikutu ko’ápe</a>.
 postAddAccountRecovery-revoke = Nandéiramo, eipe’a mba’eñemi.
+postAddLinkedAccount-action = Eñangareko mba’etére
 postAddTwoStepAuthentication-subject = Ijurujáma mokõi jeku’épe ñemoneĩ
 postAddTwoStepAuthentication-title = Ijurujáma mokõi jeku’épe ñemoneĩ
 postAddTwoStepAuthentication-description-plaintext = Emyandy porã pe ñemoneĩ mokõi jeyguáva ne mba’ete { -product-firefox-account } peguápe. Ko’ág̃a ojejeruréta ayvu rekorosãrã ne tembipuru’i ñemoneĩ emoñepyrũjeývo tembiapo.
@@ -274,10 +275,7 @@ subscriptionAccountFinishSetup-subject = Eg̃uahẽporã { $productName }-pe: Em
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = ¡Eg̃uahẽporã { $productName }-pe!
 subscriptionAccountFinishSetup-content-processing = Pe jehepyme’ẽ oñemboajehína ha ohupytykuaa irundy ára oĩmba hag̃ua. Pe ñemboheraguapy hekopyahúta ijehegui ohasávo pe kuatiañemurã arapa’ũ ndete mba’e nderejokóiramo.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Ko’ág̃a guive, emoheñóita mba’ete Firefox pegua ha emboguejýta { $productName }.
-subscriptionAccountFinishSetup-action = Emoheñói ñe’ẽñemi
+subscriptionAccountFinishSetup-action-2 = Ñañepyrũ
 subscriptionAccountReminderFirst-subject = Mandu’arã: Embohekopyahupa ne mba’ete
 subscriptionAccountReminderFirst-title = Ndereikekuaái gueteri ne ñemboheraguapýpe
 subscriptionAccountReminderFirst-content-info = Nda’areiete emoheñói { -product-firefox-account } hákatu araka’eve nderehechajeýi. Roha’ãrõ embohekóvo ne mba’ete, eipurukuaa hag̃ua ne ñemboheraguapy pyahúpe.
@@ -369,9 +367,6 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Ñemuhague p
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Oĩmba’ỹva: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Ñemboguejy peteĩjeýva: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -523,14 +518,6 @@ verifyPrimary-subject = Emoneĩ ñanduti veve tuichavéva
 verifyPrimary-action = Ñandutiveve hechajey
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Ojehechajeývo, umi mba’ete ambuepyre ojuajukuaáva ñanduti veve mokõihávare ejapóta ko mba’e’oka guive.
-verifySecondary-subject = Emoneĩ ñandutiveve mokõiguáva
-verifySecondary-title = Ehechajey ñanduti veve mokõiháva
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
-verifySecondary-action = Ñandutiveve hechajey
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Ojehechajey vove, ko mba’ete oñepyrũta omog̃uahẽ marandu’i tekorosã ha ñemoneĩ rehegua.
 verifySecondaryCode-subject = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-title = Ehechajey ñanduti veve mokõiháva
 # Variables:
