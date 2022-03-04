@@ -1873,7 +1873,7 @@ msgstr "Hecho"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr "¿Por qué necesito crear una cuenta? <a%(escapedSuggestionAttrs)s>Descúbrelo aquí</a>"
+msgstr "¿Por qué necesito crear una cuenta? <a %(escapedSuggestionAttrs)s>Descúbrelo aquí</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
