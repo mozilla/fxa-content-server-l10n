@@ -199,6 +199,11 @@ postAddAccountRecovery-description = ייצרת בהצלחה מפתח לשחזו
 postAddAccountRecovery-action = ניהול חשבון
 postAddAccountRecovery-recovery = אם לא ביצעת את הפעולה הזאת, נא <a data-l10n-name="revokeAccountRecoveryLink">ללחוץ כאן</a>.
 postAddAccountRecovery-revoke = אם לא ביצעת את הפעולה, כדאי לשלול את המפתח.
+postAddLinkedAccount-subject = חשבון חדש מקושר אל { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = חשבון ה־{ $providerName } קושר אל { -product-firefox-account(case: "the") } שלך
+postAddLinkedAccount-action = ניהול חשבון
 postAddTwoStepAuthentication-subject = אימות דו־שלבי הופעל
 postAddTwoStepAuthentication-title = אימות דו־שלבי הופעל
 postAddTwoStepAuthentication-description-plaintext = הפעלת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך. מעתה יש להשתמש בקודים של האבטחה מיישומון האימות שלך בכל כניסה.
@@ -272,7 +277,7 @@ subscriptionAccountFinishSetup-subject = ברוכים הבאים אל { $product
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = ברוכים הבאים אל { $productName }
-subscriptionAccountFinishSetup-action = יצירת ססמה
+subscriptionAccountFinishSetup-action-2 = תחילת עבודה
 subscriptionAccountReminderFirst-subject = תזכורת: סיום הגדרת החשבון שלך
 subscriptionAccountReminderFirst-title = אין לך עדיין אפשרות לגשת למינוי שלך
 subscriptionAccountReminderFirst-content-info = לפני מספר ימים יצרת { -product-firefox-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.
@@ -363,7 +368,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number = מספר חשבוני�
 subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = מספר חשבונית: { $invoiceNumber }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = הנחה חד פעמית: -{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = הנחה: ‎-{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -436,6 +441,32 @@ subscriptionSubsequentInvoice-content-charged = חיוב של { $invoiceTotal } 
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = החשבונית הבאה: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = התשלום עבור { $productName } התקבל
+subscriptionSubsequentInvoiceDiscount-title = תודה שבחרת להיות מנוי!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = קיבלנו את התשלום האחרון שלך עבור { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = מספר חשבונית: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = מספר חשבונית: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = שינוי תוכנית: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charged = חיוב של { $invoiceTotal } בתאריך { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = החשבונית הבאה: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = הנחה: ‎-{ $invoiceDiscountAmount }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = שידרגת ל־{ $productNameNew }
 subscriptionUpgrade-title = תודה ששידרגת!
@@ -497,14 +528,6 @@ verifyPrimary-subject = אימות כתובת דוא״ל ראשית
 verifyPrimary-action = אימות דוא״ל
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = לאחר האימות, שינויים בחשבון כגון הוספת כתובת דוא״ל משנית יתאפשרו ממכשיר זה.
-verifySecondary-subject = אימות כתובת דוא״ל משנית
-verifySecondary-title = אימות כתובת דוא״ל משנית
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = הוגשה בקשה להשתמש בכתובת { $email } ככתובת דוא״ל משנית מ{ -product-firefox-account(case: "the") } הבא:
-verifySecondary-action = אימות דוא״ל
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = לאחר האימות כל התרעות האבטחה והאישורים יישלחו לכתובת הזו.
 verifySecondaryCode-subject = אימות כתובת דוא״ל משנית
 verifySecondaryCode-title = אימות כתובת דוא״ל משנית
 # Variables:
