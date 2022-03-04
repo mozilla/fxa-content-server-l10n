@@ -23,6 +23,7 @@ alert-bar-close-message = Cau neges
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Cyfrifon Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -207,6 +208,16 @@ input-password-hide = Cuddio cyfrinair
 input-password-show = Dangos cyfrinair
 input-password-hide-aria = Cuddio cyfrinair o'r sgrin.
 input-password-show-aria = Dangos cyfrinair fel testun plaen. Bydd eich cyfrinair i'w weld ar y sgrin.
+
+## Linked Accounts section
+
+la-heading = Cyfrifon Cysylltiedig
+la-description = Rydych wedi awdurdodi mynediad i'r cyfrifon canlynol.
+la-unlink-button = Datgysylltu
+la-unlink-account-button = Datgysylltu
+la-unlink-heading = Datgysylltu o gyfrif trydydd parti
+la-unlink-content = A ydych yn siŵr eich bod am ddatgysylltu eich cyfrif { -brand-google }? Nid yw datgysylltu'ch cyfrif yn eich allgofnodi'n awtomatig o'r gwasanaethau hynny. I wneud hynny bydd angen i chi allgofnodi â llaw o'r adran gwasanaethau Cysylltiedig.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
