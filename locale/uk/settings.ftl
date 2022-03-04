@@ -23,6 +23,7 @@ alert-bar-close-message = Закрити повідомлення
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $case ->
@@ -263,6 +264,14 @@ input-password-hide = Сховати пароль
 input-password-show = Показати пароль
 input-password-hide-aria = Сховати пароль з екрана.
 input-password-show-aria = Показати пароль як звичайний текст. Ваш пароль буде видимим на екрані.
+
+## Linked Accounts section
+
+la-heading = Пов’язані облікові записи
+la-description = Ви авторизували доступ до таких облікових записів.
+la-unlink-button = Відв'язати
+la-unlink-account-button = Відв'язати
+la-unlink-heading = Відв’язати від стороннього облікового запису
 
 ## Modal
 

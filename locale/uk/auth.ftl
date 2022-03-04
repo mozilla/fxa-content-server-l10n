@@ -77,6 +77,8 @@ automated-email =
     Це автоматично надісланий лист; якщо ви отримали його помилково, нічого робити не потрібно.
     Для отримання додаткових відомостей зверніться до <a data-l10n-name="supportLink">підтримки { -brand-mozilla }</a>.
 automated-email-plaintext = Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Це автоматичний лист; якщо ви не дозволяли цю дію, тоді, будь ласка, змініть свій пароль:
 automated-email-reset =
     Це автоматично надісланий лист; якщо ви не авторизували цю дію, <a data-l10n-name="resetLink">скиньте свій пароль</a>.
     Для отримання додаткових відомостей зверніться до <a data-l10n-name="supportLink">підтримки { -brand-mozilla }</a>.
@@ -102,7 +104,7 @@ payment-plan-invoice-number = Номер рахунку: { $invoiceNumber }
 payment-plan-charged = Сплачено: { $invoiceTotal }, { $invoiceDateOnly }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-payment-plan-next-invoice = Наступний рахунок: { $nextInvoiceDateOnly }
+payment-plan-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Спосіб оплати:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -201,6 +203,11 @@ postAddAccountRecovery-description = Ви успішно згенерували 
 postAddAccountRecovery-action = Керування обліковим записом
 postAddAccountRecovery-recovery = Якщо це були не ви, <a data-l10n-name="revokeAccountRecoveryLink">натисніть тут.</a>
 postAddAccountRecovery-revoke = Якщо це були не ви, відхиліть ключ.
+postAddLinkedAccount-subject = Новий обліковий запис, пов’язаний з { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Ваш обліковий запис { $providerName } пов’язано з вашим { -product-firefox-account }
+postAddLinkedAccount-action = Керувати обліковим записом
 postAddTwoStepAuthentication-subject = Двоетапну перевірку увімкнено
 postAddTwoStepAuthentication-title = Двоетапну перевірку увімкнено
 postAddTwoStepAuthentication-description-plaintext = Ви успішно увімкнули двоетапну перевірку в { -product-firefox-account(case: "dat") }. Відтепер за кожного входу необхідно вводити коди безпеки з вашого застосунку автентифікації.
@@ -275,10 +282,8 @@ subscriptionAccountFinishSetup-subject = Вітаємо в { $productName }: Б�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Вітаємо в { $productName }
 subscriptionAccountFinishSetup-content-processing = Ваш платіж обробляється. Це може тривати до чотирьох робочих днів. Ваша передплата автоматично поновлюватиметься після завершення розрахункового періоду, доки ви її не скасуєте.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Далі вам потрібно створити пароль облікового запису Firefox і завантажити { $productName }.
-subscriptionAccountFinishSetup-action = Створити пароль
+subscriptionAccountFinishSetup-content-create-2 = Далі ви створите пароль { -product-firefox-account }, щоб почати використовувати нову передплату.
+subscriptionAccountFinishSetup-action-2 = Розпочати
 subscriptionAccountReminderFirst-subject = Нагадування: Завершіть налаштування свого облікового запису
 subscriptionAccountReminderFirst-title = Ви поки що не можете отримати доступ до своєї передплати
 subscriptionAccountReminderFirst-content-info = Кілька днів тому ви створили { -product-firefox-account }, але не підтвердили його. Ми сподіваємося, що ви завершите його налаштування, щоб мати змогу користуватися своєю передплатою.
@@ -349,7 +354,7 @@ subscriptionFirstInvoice-content-invoice-number-plaintext = Номер раху�
 subscriptionFirstInvoice-content-charge = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoice-content-next-invoice = Наступний рахунок: { $nextInvoiceDateOnly }
+subscriptionFirstInvoice-content-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-subject = Платіж за { $productName } підтверджено
@@ -372,14 +377,14 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Номер �
 subscriptionFirstInvoiceDiscount-content-subtotal = Проміжний підсумок: { $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Одноразова знижка: -{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = Знижка: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoiceDiscount-content-charge = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoiceDiscount-content-next-invoice = Наступний рахунок: { $nextInvoiceDateOnly }
+subscriptionFirstInvoiceDiscount-content-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Незабаром, завершується термін дії кредитної картки для оплати за { $productName }
@@ -459,7 +464,36 @@ subscriptionSubsequentInvoice-content-plan-change = Зміна тарифног�
 subscriptionSubsequentInvoice-content-charged = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoice-content-next-invoice = Наступний рахунок: { $nextInvoiceDateOnly }
+subscriptionSubsequentInvoice-content-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Платіж за { $productName } отримано
+subscriptionSubsequentInvoiceDiscount-title = Ми вдячні вам за передплату!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Ми отримали ваш останній платіж за { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Номер рахунку: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Номер рахунку: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = Зміна тарифного плану: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charged = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = Проміжний підсумок: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = Знижка: -{ $invoiceDiscountAmount }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Ви перейшли на { $productNameNew }
@@ -524,14 +558,6 @@ verifyPrimary-subject = Підтвердьте основну адресу ел�
 verifyPrimary-action = Підтвердьте е-пошту
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Після підтвердження з цього пристрою стануть доступними такі зміни облікового запису, як додавання альтернативної електронної пошти.
-verifySecondary-subject = Підтвердьте альтернативну адресу електронної пошти
-verifySecondary-title = Підтвердьте альтернативну е-пошту
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Запит на використання { $email } альтернативною електронною поштою було зроблено з такого { -product-firefox-account }:
-verifySecondary-action = Підтвердьте е-пошту
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Одразу після підтвердження, на цю адресу почнуть приходити сповіщення безпеки і входу.
 verifySecondaryCode-subject = Підтвердьте альтернативну адресу електронної пошти
 verifySecondaryCode-title = Підтвердьте альтернативну е-пошту
 # Variables:
