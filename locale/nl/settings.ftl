@@ -214,6 +214,7 @@ input-password-show-aria = Wachtwoord als platte tekst tonen. Uw wachtwoord zal 
 ## Linked Accounts section
 
 la-heading = Gekoppelde accounts
+la-description = U hebt toegang tot de volgende accounts geautoriseerd.
 la-unlink-button = Ontkoppelen
 la-unlink-account-button = Ontkoppelen
 la-unlink-heading = Ontkoppelen van externe account
