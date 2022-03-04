@@ -23,6 +23,7 @@ alert-bar-close-message = 關閉訊息
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox Accounts
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -193,6 +194,12 @@ input-password-hide = 隱藏密碼
 input-password-show = 顯示密碼
 input-password-hide-aria = 在畫面上隱藏密碼。
 input-password-show-aria = 用明文顯示密碼在螢幕上。
+
+## Linked Accounts section
+
+la-unlink-button = 解除連結
+la-unlink-account-button = 解除連結
+la-unlink-heading = 解除與第三方帳號的連結
 
 ## Modal
 

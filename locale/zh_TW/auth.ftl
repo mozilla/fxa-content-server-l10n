@@ -73,6 +73,8 @@ automated-email-change = 這是由系統自動發出的郵件，若您並未授�
 automated-email-change-plaintext = 這是由系統自動發出的郵件，若您並未新增裝置到 { -product-firefox-account }，請立即到 { $passwordChangeLink } 更改密碼。
 automated-email = 這是由系統自動發出的郵件，若您意外收到此郵件，可直接忽略並刪除。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
 automated-email-plaintext = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = 這是一封自動發出的郵件。若您並未進行此操作，請立刻修改密碼：
 automated-email-reset = 這是由系統自動發出的郵件，若您並未授權進行此動作，<a data-l10n-name="resetLink">請立即重設密碼</a>。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
@@ -193,6 +195,7 @@ postAddAccountRecovery-description = 您已使用下列裝置，成功產生新�
 postAddAccountRecovery-action = 管理帳號
 postAddAccountRecovery-recovery = 若不是您做的，<a data-l10n-name="revokeAccountRecoveryLink">請點擊此處</a>。
 postAddAccountRecovery-revoke = 若這不是您做的，請註銷該金鑰。
+postAddLinkedAccount-action = 管理帳號
 postAddTwoStepAuthentication-subject = 已開啟兩階段驗證
 postAddTwoStepAuthentication-title = 已開啟兩階段驗證
 postAddTwoStepAuthentication-description-plaintext = 您已成功開啟 { -product-firefox-account } 的兩階段驗證。每次登入時將會要求您輸入驗證程式中的安全碼。
@@ -267,10 +270,7 @@ subscriptionAccountFinishSetup-subject = 歡迎使用 { $productName }：請設�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = 歡迎使用 { $productName }
 subscriptionAccountFinishSetup-content-processing = 正在處理您的付款，可能最多需要 4 個工作天才可完成。除非您主動取消，將在每個帳務週期結束後自動續訂。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = 接下來，您需要註冊 Firefox 帳號密碼，並下載 { $productName }。
-subscriptionAccountFinishSetup-action = 設定密碼
+subscriptionAccountFinishSetup-action-2 = 開始使用
 subscriptionAccountReminderFirst-subject = 提醒：請完成帳號註冊
 subscriptionAccountReminderFirst-title = 您暫時還不能使用您的訂閱項目
 subscriptionAccountReminderFirst-content-info = 幾天前，您註冊了 { -product-firefox-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。
@@ -364,7 +364,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = 請款單號
 subscriptionFirstInvoiceDiscount-content-subtotal = 小計：{ $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = 單次折抵：-{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = 折抵：-{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -452,6 +452,7 @@ subscriptionSubsequentInvoice-content-charged = 已於 { $invoiceDateOnly } 收�
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-title = 感謝您成為訂閱者！
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = 您已升級到 { $productNameNew }
@@ -516,14 +517,6 @@ verifyPrimary-subject = 確認主要電子郵件地址
 verifyPrimary-action = 驗證信箱
 verifyPrimary-action-plaintext = { verifyPrimary-action }：
 verifyPrimary-post-verify = 驗證完成後，即可從此裝置進行新增次要電子郵件地址等帳號變更操作。
-verifySecondary-subject = 確認次要電子郵件地址
-verifySecondary-title = 驗證次要電子郵件地址
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = 有人要求將 { $email } 加入為下列 { -product-firefox-account } 帳號的次要郵件帳號：
-verifySecondary-action = 驗證信箱
-verifySecondary-prompt = { verifySecondary-action }：
-verifySecondary-post-verification = 驗證完成後，此信箱也會收到安全性通知與確認郵件。
 verifySecondaryCode-subject = 確認次要電子郵件地址
 verifySecondaryCode-title = 驗證次要電子郵件地址
 # Variables:
