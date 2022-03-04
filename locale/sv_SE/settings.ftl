@@ -23,6 +23,7 @@ alert-bar-close-message = Stäng meddelande
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox-konton
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -209,6 +210,13 @@ input-password-hide = Dölj lösenord
 input-password-show = Visa lösenord
 input-password-hide-aria = Dölj lösenord från skärmen.
 input-password-show-aria = Visa lösenord som vanlig text. Ditt lösenord kommer att visas på skärmen.
+
+## Linked Accounts section
+
+la-heading = Länkade konton
+la-description = Du har auktoriserad åtkomst till följande konton.
+la-unlink-button = Ta bort länk
+la-unlink-account-button = Ta bort länk
 
 ## Modal
 

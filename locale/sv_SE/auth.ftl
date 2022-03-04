@@ -77,6 +77,8 @@ automated-email =
     Detta är ett automatiskt e-postmeddelande; om du fick det av misstag krävs ingen åtgärd.
     För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det behöver du inte göra något.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Detta är ett automatiskt e-postmeddelande; om du inte godkände den här åtgärden, vänligen ändra ditt lösenord:
 automated-email-reset =
     Detta är ett automatiskt e-postmeddelande; om du inte godkände den här åtgärden <a data-l10n-name="resetLink">vänligen återställ ditt lösenord</a>.
     För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
@@ -200,6 +202,11 @@ postAddAccountRecovery-description = Du har skapat en kontoåterställningsnycke
 postAddAccountRecovery-action = Hantera konto
 postAddAccountRecovery-recovery = Om det inte var du <a data-l10n-name="revokeAccountRecoveryLink">klicka här</a>.
 postAddAccountRecovery-revoke = Om det inte var du, återkalla nyckeln.
+postAddLinkedAccount-subject = Nytt konto länkat till { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Ditt { $providerName }-konto har länkats till ditt { -product-firefox-account }
+postAddLinkedAccount-action = Hantera konto
 postAddTwoStepAuthentication-subject = Tvåstegsautentisering aktiverad
 postAddTwoStepAuthentication-title = Tvåstegsautentisering aktiverad
 postAddTwoStepAuthentication-description-plaintext = Du har framgångsrikt aktiverat tvåstegsautentisering på ditt { -product-firefox-account }. Säkerhetskoder från din autentiseringsapp kommer nu att krävas vid varje inloggning.
@@ -274,10 +281,6 @@ subscriptionAccountFinishSetup-subject = Välkommen till { $productName }: Ange 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Välkommen till { $productName }
 subscriptionAccountFinishSetup-content-processing = Din betalning behandlas och kan ta upp till fyra arbetsdagar att slutföra. Ditt abonnemang förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Därefter skapar du ett lösenord för ett Firefox-konto och laddar ner { $productName }.
-subscriptionAccountFinishSetup-action = Skapa ett lösenord
 subscriptionAccountReminderFirst-subject = Påminnelse: Slutför konfigureringen av ditt konto
 subscriptionAccountReminderFirst-title = Du kan inte komma åt din prenumeration ännu
 subscriptionAccountReminderFirst-content-info = För några dagar sedan skapade du ett { -product-firefox-account } men verifierade det aldrig. Vi hoppas att du slutför konfigureringen av ditt konto så att du kan använda din nya prenumeration.
@@ -369,9 +372,6 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Fakturanumme
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Delsumma: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Engångsrabatt: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -523,14 +523,6 @@ verifyPrimary-subject = Bekräfta primär e-postadress
 verifyPrimary-action = Verifiera e-postadress
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = När du har verifierat, kommer kontoändringar som att lägga till en sekundär e-post att bli möjlig från den här enheten.
-verifySecondary-subject = Bekräfta sekundär e-postadress
-verifySecondary-title = Verifiera sekundär e-post
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = En begäran om att använda { $email } som en sekundär e-postadress har gjorts från följande { -product-firefox-account }:
-verifySecondary-action = Verifiera e-postadress
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = När den är verifierad, kommer att denna adress börja ta emot säkerhetsmeddelanden och bekräftelser.
 verifySecondaryCode-subject = Bekräfta sekundär e-postadress
 verifySecondaryCode-title = Verifiera sekundär e-post
 # Variables:
