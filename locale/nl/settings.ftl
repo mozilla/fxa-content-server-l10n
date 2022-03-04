@@ -23,6 +23,7 @@ alert-bar-close-message = Bericht sluiten
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox-accounts
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -209,6 +210,15 @@ input-password-hide = Wachtwoord verbergen
 input-password-show = Wachtwoord tonen
 input-password-hide-aria = Wachtwoord op scherm verbergen
 input-password-show-aria = Wachtwoord als platte tekst tonen. Uw wachtwoord zal zichtbaar zijn op het scherm.
+
+## Linked Accounts section
+
+la-heading = Gekoppelde accounts
+la-unlink-button = Ontkoppelen
+la-unlink-account-button = Ontkoppelen
+la-unlink-heading = Ontkoppelen van externe account
+la-unlink-content = Weet u zeker dat u uw { -brand-google }-account wilt ontkoppelen? Als u uw account ontkoppelt, wordt u niet automatisch afgemeld bij die services. Om dat te doen, moet u zich handmatig afmelden vanuit de sectie Verbonden services.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
