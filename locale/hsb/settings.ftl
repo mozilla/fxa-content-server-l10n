@@ -218,6 +218,7 @@ la-description = Smy přistup k slědowacym kontam awtorizowali.
 la-unlink-button = Zwisk dźělić
 la-unlink-account-button = Zwisk dźělić
 la-unlink-heading = Wot konta třećeho poskićowarja dźělić
+la-unlink-content = Chceće woprawdźe zwisk ze swojim kontom { -brand-google } dźělić? Hdyž zwisk ze swojim kontom dźěliće, njewotzjewiće so awtomatisce wot tych słužbow. Zo byšće to činił, dyrbiće so manuelnje wot wotrězka zwjazanych słužbow wotzjewić.
 nav-linked-accounts = { la-heading }
 
 ## Modal

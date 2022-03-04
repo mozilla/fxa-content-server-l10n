@@ -283,6 +283,7 @@ subscriptionAccountFinishSetup-subject = Witajće k { $productName }: Nastajće 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Witajće k { $productName }
 subscriptionAccountFinishSetup-content-processing = Waše płaćenje so předźěłuje a móže hač do štyri wšědnych dnjow trać. Waš abonement so w kóždym wotličenskim času awtomatisce podlěša, chibazo wupowědźeće.
+subscriptionAccountFinishSetup-content-create-2 = Jako dalše hesło konta { -product-firefox-account } wutworiće, zo byšće započał swój nowy abonement wužiwać.
 subscriptionAccountFinishSetup-action-2 = Prěnje kroki
 subscriptionAccountReminderFirst-subject = Dopomnjeće: Dokónčće konfigurowanje swojeho konta
 subscriptionAccountReminderFirst-title = Hisće nimaće přistup k swojemu abonementej
