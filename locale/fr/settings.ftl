@@ -23,6 +23,7 @@ alert-bar-close-message = Fermer le message
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $capitalization ->
@@ -203,6 +204,15 @@ input-password-hide = Masquer le mot de passe
 input-password-show = Afficher le mot de passe
 input-password-hide-aria = Masquer le mot de passe de l’écran.
 input-password-show-aria = Afficher le mot de passe sous forme de texte brut. Votre mot de passe sera visible à l’écran.
+
+## Linked Accounts section
+
+la-heading = Comptes liés
+la-description = Vous avez autorisé l’accès aux comptes suivants.
+la-unlink-button = Dissocier
+la-unlink-account-button = Dissocier
+la-unlink-heading = Dissocier du compte tiers
+nav-linked-accounts = { la-heading }
 
 ## Modal
 

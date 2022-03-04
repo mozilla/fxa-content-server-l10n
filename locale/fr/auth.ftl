@@ -366,6 +366,9 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Numéro de f
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Sous-total : { $invoiceSubtotal }
 # Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Remise : -{ $invoiceDiscountAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal } facturés le { $invoiceDateOnly }
@@ -454,6 +457,10 @@ subscriptionSubsequentInvoice-content-charged = { $invoiceTotal } facturés le {
 subscriptionSubsequentInvoice-content-next-invoice = Prochaine facture : { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Paiement pour { $productName } reçu
+subscriptionSubsequentInvoiceDiscount-title = Merci pour votre abonnement !
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoiceDiscount-content-received = Nous avons reçu votre dernier paiement pour { $productName }.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -474,6 +481,9 @@ subscriptionSubsequentInvoiceDiscount-content-next-invoice = Prochaine facture 
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-subtotal = Sous-total : { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = Remise : -{ $invoiceDiscountAmount }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Vous utilisez maintenant { $productNameNew }
