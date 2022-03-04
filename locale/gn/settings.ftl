@@ -23,6 +23,7 @@ alert-bar-close-message = Emboty ñe’ẽmondo
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox Accounts
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -209,6 +210,13 @@ input-password-hide = Emokañy ñe’ẽñemi
 input-password-show = Ehechauka ñe’ẽñemi
 input-password-hide-aria = Emokañy ñe’ẽñemi mba’erechahágui
 input-password-show-aria = Ehechauka ñe’ẽñemi moñe’ẽrãrõ. Pe ñe’ẽñemi ojekuaáta mba’erechahápe.
+
+## Linked Accounts section
+
+la-unlink-button = Pe’aite
+la-unlink-account-button = Pe’aite
+la-unlink-heading = Eipe’aite mbohapyháva mba’etégui
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
