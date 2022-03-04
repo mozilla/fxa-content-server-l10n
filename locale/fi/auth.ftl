@@ -133,6 +133,8 @@ postAddAccountRecovery-title = Tilin palautusavain luotu
 postAddAccountRecovery-action = Hallinnoi tiliä
 postAddAccountRecovery-recovery = Jos se et ollut sinä, <a data-l10n-name="revokeAccountRecoveryLink">napsauta tästä</a>.
 postAddAccountRecovery-revoke = Jos et tehnyt tätä, kumoa avain.
+postAddLinkedAccount-subject = Uusi tili linkitetty { -brand-firefox }iin
+postAddLinkedAccount-action = Hallinnoi tiliä
 postAddTwoStepAuthentication-subject = Kaksivaiheinen todennus otettu käyttöön
 postAddTwoStepAuthentication-title = Kaksivaiheinen todennus otettu käyttöön
 postAddTwoStepAuthentication-action = Hallinnoi tiliä
@@ -184,7 +186,6 @@ payment-details = Maksun tiedot:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Tervetuloa, tämä on { $productName }: Aseta salasanasi.
-subscriptionAccountFinishSetup-action = Luo salasana
 subscriptionAccountReminderFirst-subject = Muistutus: viimeistele tilisi määrittäminen
 subscriptionAccountReminderFirst-title = Et voi käyttää tilaustasi vielä
 subscriptionAccountReminderFirst-content-select = Valitse “Luo salasana” asettaaksesi uuden salasanan ja viimeistelläksesi tilisi.
@@ -226,9 +227,6 @@ subscriptionFirstInvoiceDiscount-content-invoice-number = Laskun numero: <b>{ $i
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Laskun numero: { $invoiceNumber }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Kerta-alennus: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -297,11 +295,6 @@ verifyPrimary-subject = Vahvista ensisijainen sähköpostiosoite
 verifyPrimary-action = Vahvista sähköpostiosoite
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Vahvistamisen jälkeen tiliin tehtävät muutokset, kuten uuden toissijaisen sähköpostin lisääminen, ovat mahdollisia tästä laitteesta.
-verifySecondary-subject = Vahvista toissijainen sähköpostiosoite
-verifySecondary-title = Toissijaisen sähköpostin vahvistaminen
-verifySecondary-action = Vahvista sähköpostiosoite
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Vahvistamisen jälkeen tähän osoitteeseen lähetetään tietoturvailmoituksia ja vahvistuksia.
 verifySecondaryCode-subject = Vahvista toissijainen sähköpostiosoite
 verifySecondaryCode-title = Toissijaisen sähköpostin vahvistaminen
 verifySecondaryCode-prompt = Käytä tätä vahvistuskoodia:

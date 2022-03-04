@@ -23,6 +23,7 @@ alert-bar-close-message = Sulje viesti
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox-tilit
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -185,6 +186,14 @@ input-password-hide = Piilota salasana
 input-password-show = Näytä salasana
 input-password-hide-aria = Piilota salasana näytöltä.
 input-password-show-aria = Näytä salasana raakatekstinä. Salasanasi näkyy näytöllä.
+
+## Linked Accounts section
+
+la-heading = Linkitetyt tilit
+la-description = Olet valtuuttanut pääsyn seuraaville tileille.
+la-unlink-button = Poista linkitys
+la-unlink-account-button = Poista linkitys
+la-unlink-heading = Poista linkitys kolmannen osapuolen tilistä
 
 ## Modal
 
