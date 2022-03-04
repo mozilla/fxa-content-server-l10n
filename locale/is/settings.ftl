@@ -23,6 +23,7 @@ alert-bar-close-message = Loka skilaboðum
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox-reikningar
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -209,6 +210,16 @@ input-password-hide = Fela lykilorð
 input-password-show = Birta lykilorð
 input-password-hide-aria = Fela lykilorð af skjánum.
 input-password-show-aria = Sýna lykilorð sem ósniðinn texta. Lykilorðið þitt verður sýnilegt á skjánum.
+
+## Linked Accounts section
+
+la-heading = Tengdir reikningar
+la-description = Þú hefur heimilað aðgang að eftirfarandi reikningum.
+la-unlink-button = Aftengja
+la-unlink-account-button = Aftengja
+la-unlink-heading = Aftengja frá utanaðkomandi reikningi
+la-unlink-content = Ertu viss um að þú viljir aftengja { -brand-google } reikninginn þinn? Að aftengja reikninginn þinn skráir þig ekki sjálfkrafa út úr þessum þjónustum. Til að gera það þarftu að skrá þig handvirkt út úr hlutanum 'Tengd þjónusta'.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 

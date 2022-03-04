@@ -77,6 +77,8 @@ automated-email =
     Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann fyrir mistök er ekki þörf á neinum aðgerðum.
     Til að sjá frekari upplýsingar, skaltu fara á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
 automated-email-plaintext = Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann óvart sendan, þarftu ekkert að gera.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Þetta er sjálfvirkur tölvupóstur; ef þú leyfðir ekki þessa aðgerð skaltu endilega breyta lykilorðinu þínu:
 automated-email-reset =
     Þetta er sjálfvirkur tölvupóstur; ef þú heimilaðir ekki þessa aðgerð, skaltu <a data-l10n-name="resetLink">endurstilla lykilorðið þitt</a>.
     Til að sjá frekari upplýsingar, geturðu farið á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
@@ -200,6 +202,11 @@ postAddAccountRecovery-description = Þú hefur búið til endurheimtulykil fyri
 postAddAccountRecovery-action = Sýsla með reikning
 postAddAccountRecovery-recovery = Ef þetta varst ekki þú, skaltu <a data-l10n-name="revokeAccountRecoveryLink">smella hér</a>.
 postAddAccountRecovery-revoke = Ef þetta varst ekki þú, skaltu afturkalla lykilinn.
+postAddLinkedAccount-subject = Nýr reikningur tengdur við { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = { $providerName } reikningurinn þinn hefur verið tengdur við { -product-firefox-account }
+postAddLinkedAccount-action = Sýsla með aðgang
 postAddTwoStepAuthentication-subject = Tveggja-þrepa auðkenning virkjuð
 postAddTwoStepAuthentication-title = Tveggja-þrepa auðkenning virkjuð
 postAddTwoStepAuthentication-description-plaintext = Þú hefur virkjað tveggja-þrepa auðkenningu á { -product-firefox-account }. Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu.
@@ -274,10 +281,8 @@ subscriptionAccountFinishSetup-subject = Velkomin í { $productName }: Stilltu l
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkomin í { $productName }
 subscriptionAccountFinishSetup-content-processing = Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni. Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Næst muntu búa til Firefox reikningslykilorð og sækja { $productName }.
-subscriptionAccountFinishSetup-action = Búa til lykilorð
+subscriptionAccountFinishSetup-content-create-2 = Næst muntu búa til { -product-firefox-account } lykilorð til að geta byrjað að nota nýju áskriftina þína.
+subscriptionAccountFinishSetup-action-2 = Komast í gang
 subscriptionAccountReminderFirst-subject = Áminning: Ljúktu við að setja upp reikninginn þinn
 subscriptionAccountReminderFirst-title = Þú hefur ekki ennþá aðgang að áskriftinni þinni
 subscriptionAccountReminderFirst-content-info = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
@@ -371,7 +376,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Reikningur n
 subscriptionFirstInvoiceDiscount-content-subtotal = Samtala: { $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Eins-skiptis afsláttur: -{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = Afsláttur: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -460,6 +465,35 @@ subscriptionSubsequentInvoice-content-charged = Til greiðslu { $invoiceTotal } 
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Næsti reikningur: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Greiðsla fyrir { $productName } móttekin
+subscriptionSubsequentInvoiceDiscount-title = Takk fyrir að vera áskrifandi!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Við fengum síðustu greiðslu þína vegna { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Reikningur númer: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Reikningur númer: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = Breyting á áskriftarleið: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charged = Til greiðslu { $invoiceTotal } þann { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Næsti reikningur: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = Samtals: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = Afsláttur: -{ $invoiceDiscountAmount }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Þú hefur uppfært í { $productNameNew }
 subscriptionUpgrade-title = Takk fyrir að uppfæra!
@@ -523,14 +557,6 @@ verifyPrimary-subject = Staðfestu aðaltölvupóstfang
 verifyPrimary-action = Sannreyna tölvupóstfang
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Þegar staðfesting hefur farið fram, verða mögulegar ýmsar breytingar á borð við að bæta við aukapóstfangi af þessu tæki.
-verifySecondary-subject = Staðfestu aukatölvupóstfang
-verifySecondary-title = Sannreyna aukatölvupóstfang
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Beiðni um að nota { $email } sem aukatölvupóstfang hefur verið gerð úr eftirfarandi { -product-firefox-account }-reikningi:
-verifySecondary-action = Sannreyna tölvupóstfang
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Eftir að tölvupóstfangið hefur verið staðfest, mun það fara að fá öryggistilkynningar og staðfestingar.
 verifySecondaryCode-subject = Staðfestu aukatölvupóstfang
 verifySecondaryCode-title = Sannreyna aukatölvupóstfang
 # Variables:
