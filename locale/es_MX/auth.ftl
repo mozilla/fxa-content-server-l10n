@@ -77,6 +77,8 @@ automated-email =
     Este es un correo automático; si lo recibiste por error, no se requiere ninguna acción.
     Para más información, por favor visita <a data-l10n-name="supportLink">el soporte de { -brand-mozilla }</a>.
 automated-email-plaintext = Este es un correo electrónico automático; si lo recibiste por error, no tienes que hacer nada.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Este es un correo electrónico automatizado; si no autorizaste esta acción, cambia tu contraseña:
 automated-email-reset =
     Este es un correo automático; si no autorizaste esta acción, entonces <a data-l10n-name="resetLink">por favor restablece tu contraseña</a>.
     Para más información, por favor visita <a data-l10n-name="supportLink">el soporte de { -brand-mozilla }</a>.
@@ -200,6 +202,7 @@ postAddAccountRecovery-description = Has generado exitosamente una clave de recu
 postAddAccountRecovery-action = Administrar cuenta
 postAddAccountRecovery-recovery = Si no fuiste tu, <a data-l10n-name="revokeAccountRecoveryLink">haz clic aquí.</a>
 postAddAccountRecovery-revoke = Si no fuiste tú, puedes revocar la llave.
+postAddLinkedAccount-subject = Nueva cuenta vinculada a { -brand-firefox }
 postAddTwoStepAuthentication-subject = Autenticación en dos pasos activada
 postAddTwoStepAuthentication-title = Autenticación en dos pasos activada
 postAddTwoStepAuthentication-description-plaintext = Has activado exitosamente la autenticación en dos pasos en tu { -product-firefox-account }. Los códigos de seguridad de tu aplicación de autenticación ahora serán requeridos en cada conexión.
@@ -274,10 +277,6 @@ subscriptionAccountFinishSetup-subject = Bienvenido a { $productName }: Por favo
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bienvenido a { $productName }
 subscriptionAccountFinishSetup-content-processing = Tu pago se está procesando y puede tardar hasta cuatro días hábiles en completarse. Tu suscripción se renovará automáticamente cada período de facturación a menos que decidas cancelarlo.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = A continuación, será necesario crear una contraseña de la cuenta de Firefox y descargar { $productName }.
-subscriptionAccountFinishSetup-action = Crear una contraseña
 subscriptionAccountReminderFirst-subject = Recordatorio: termina de configurar tu cuenta
 subscriptionAccountReminderFirst-title = Todavía no puedes acceder a tu suscripción
 subscriptionAccountReminderFirst-content-info = Hace unos días creaste una cuenta de { -product-firefox-account } pero nunca la verificaste. Esperamos que termines de configurar tu cuenta para que puedas usar tu nueva suscripción.
@@ -369,9 +368,6 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Número de f
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Descuento único: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -523,14 +519,6 @@ verifyPrimary-subject = Confirmar correo principal
 verifyPrimary-action = Verificar correo
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Una vez verificado este dispositivo, será posible realizar cambios a la cuenta, como agregar un correo electrónico secundario.
-verifySecondary-subject = Confirmar correo secundario
-verifySecondary-title = Verificar correo electrónico secundario
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Una solicitud para usar { $email } como una dirección de correo secundaria ha sido hecha desde la siguiente { -product-firefox-account }:
-verifySecondary-action = Verificar correo
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Una vez verificada, esta dirección comenzará a recibir notificaciones de seguridad y confirmaciones.
 verifySecondaryCode-subject = Confirmar correo secundario
 verifySecondaryCode-title = Verificar correo electrónico secundario
 # Variables:
