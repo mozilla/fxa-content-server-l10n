@@ -77,6 +77,8 @@ automated-email =
     Dit is in automatisearre e-mailberjocht; as jo it ûnrjochtlik ûntfongen hawwe, hoege jo neat te dwaan.
     Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Dit is in automatysk e-mailberjocht; as jo it troch fersin ûntfongen hawwe, hoege jo neat te dwaan.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, wizigje dan jo wachtwurd:
 automated-email-reset =
     Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, <a data-l10n-name="resetLink">inisjalisearje dan jo wachtwurd opnij</a>.
     Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
@@ -200,6 +202,11 @@ postAddAccountRecovery-description = Jo hawwe mei sukses in kaai foar accountwer
 postAddAccountRecovery-action = Account beheare
 postAddAccountRecovery-recovery = As jo dit net dien hawwe, <a data-l10n-name="revokeAccountRecoveryLink">klik dan hjir.</a>
 postAddAccountRecovery-revoke = As jo dit net dien hawwe, lûk dan de kaai yn.
+postAddLinkedAccount-subject = Nije account keppele oan { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Jo { $providerName }-account is keppele oan jo { -product-firefox-account }
+postAddLinkedAccount-action = Account beheare
 postAddTwoStepAuthentication-subject = Twa-staps autentikaasje ynskeakele
 postAddTwoStepAuthentication-title = Twa-staps autentikaasje ynskeakele
 postAddTwoStepAuthentication-description-plaintext = Jo hawwe mei sukses twa-staps autentikaasje op jo { -product-firefox-account } ynskeakele. Fan no ôf binne by elke oanmelding de feilichheidskoaden fan jo autentikaasje-app fereaske.
@@ -274,10 +281,8 @@ subscriptionAccountFinishSetup-subject = Wolkom by { $productName }: stel jo wac
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Wolkom by { $productName }.
 subscriptionAccountFinishSetup-content-processing = Jo betelling wurdt ferwurke en wurdt binnen fjouwer wurkdagen foltôge. Jo abonnemint wurdt elke fakturearingsperioade automatysk ferlinge, útsein jo opsizze.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Hjirnei meitsje jo in Firefox-accountwachtwurd oan en downloade jo { $productName }.
-subscriptionAccountFinishSetup-action = In wachtwurd oanmeitsje
+subscriptionAccountFinishSetup-content-create-2 = Hjirnei meitsje jo in { -product-firefox-account }-wachtwurd oan om jo nije abonnemint brûken te gean.
+subscriptionAccountFinishSetup-action-2 = Begjinne
 subscriptionAccountReminderFirst-subject = Oantinken: foltôgje it ynstellen fan jo account
 subscriptionAccountReminderFirst-title = Jo hawwe noch gjin tagong ta jo abonnemint
 subscriptionAccountReminderFirst-content-info = In pear dagen lyn hawwe jo in { -product-firefox-account } oanmakke, mar dizze nea ferifiearre. Wy hoopje dat jo it ynstellen fan jo account foltôgje, sadat jo jo nije abonnemint brûke kinne.
@@ -371,7 +376,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Faktuernûme
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotaal: { $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Ienmalige koarting: -{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = Koarting: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -460,6 +465,35 @@ subscriptionSubsequentInvoice-content-charged = { $invoiceTotal } yn rekkening b
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Folgjende faktuer: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = De betelling foar { $productName } is ûntfongen
+subscriptionSubsequentInvoiceDiscount-title = Tank dat jo abonnee binne!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Wy hawwe jo lêste betelling foar { $productName } ûntfongen.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Faktuernûmer: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Faktuernûmer: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = Abonnemintswiziging: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charged = { $invoiceTotal } yn rekkening brocht op { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Folgjende faktuer: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = Subtotaal: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = Koarting: -{ $invoiceDiscountAmount }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Jo hawwe opwurdearre nei %(productNameNew)s
 subscriptionUpgrade-title = Tank foar it opwurdearjen!
@@ -523,14 +557,6 @@ verifyPrimary-subject = Primêr e-mailadres befêstigje
 verifyPrimary-action = E-mailadres ferifiearje
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Nei ferifikaasje wurde accountwizigingen lykas it tafoegjen fan in sekundêr e-mailadres mooglik fan dit apparaat ôf.
-verifySecondary-subject = Sekundêr e-mailadres befêstigje
-verifySecondary-title = Sekundêr e-mailadres ferifiearje
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Der is in oanfraach foar it gebrûk fan { $email } as twadde e-mailadres dien fan de folgjende { -product-firefox-account } ôf:
-verifySecondary-action = E-mailadres ferifiearje
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Nei ferifikaasje wurde op dit adres befeiligingsmeldingen en befêstigingen ûntfongen.
 verifySecondaryCode-subject = Sekundêr e-mailadres befêstigje
 verifySecondaryCode-title = Sekundêr e-mailadres ferifiearje
 # Variables:
