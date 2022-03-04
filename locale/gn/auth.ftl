@@ -200,6 +200,10 @@ postAddAccountRecovery-description = Emoheñói porã mba’eñemi jeguerujeyrã
 postAddAccountRecovery-action = Mba’ete ñangareko
 postAddAccountRecovery-recovery = Nandéiramo, <a data-l10n-name="revokeAccountRecoveryLink">eikutu ko’ápe</a>.
 postAddAccountRecovery-revoke = Nandéiramo, eipe’a mba’eñemi.
+postAddLinkedAccount-subject = Mba’ete pyahu oĩva { -brand-firefox } ndive
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Ne mba’ete { $providerName } pegua ojuajúma nde { -product-firefox-account } rehe
 postAddLinkedAccount-action = Eñangareko mba’etére
 postAddTwoStepAuthentication-subject = Ijurujáma mokõi jeku’épe ñemoneĩ
 postAddTwoStepAuthentication-title = Ijurujáma mokõi jeku’épe ñemoneĩ
@@ -275,6 +279,7 @@ subscriptionAccountFinishSetup-subject = Eg̃uahẽporã { $productName }-pe: Em
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = ¡Eg̃uahẽporã { $productName }-pe!
 subscriptionAccountFinishSetup-content-processing = Pe jehepyme’ẽ oñemboajehína ha ohupytykuaa irundy ára oĩmba hag̃ua. Pe ñemboheraguapy hekopyahúta ijehegui ohasávo pe kuatiañemurã arapa’ũ ndete mba’e nderejokóiramo.
+subscriptionAccountFinishSetup-content-create-2 = Eñepyrũjeývo emoheñói ñe’ẽñemi { -product-firefox-account } eipurukuaa hag̃ua ne memboheraguapy.
 subscriptionAccountFinishSetup-action-2 = Ñañepyrũ
 subscriptionAccountReminderFirst-subject = Mandu’arã: Embohekopyahupa ne mba’ete
 subscriptionAccountReminderFirst-title = Ndereikekuaái gueteri ne ñemboheraguapýpe
@@ -460,6 +465,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Ñemuhague oútava: { $next
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoiceDiscount-subject = Jehepyme’ẽ oúva { $productName }-gui
+subscriptionSubsequentInvoiceDiscount-title = ¡Aguyje eñemboheraguapýre!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Og̃uahẽma ne ñehepyme’ẽ paha { $productName } rupi.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoiceDiscount-content-invoice-number = Ñemuhague papapy: <b>{ $invoiceNumber }</b>
