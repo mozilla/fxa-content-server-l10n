@@ -368,6 +368,9 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Ñemuhague p
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Oĩmba’ỹva: { $invoiceSubtotal }
 # Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Tepyguejy: -{ $invoiceDiscountAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoiceDiscount-content-charge = Hepyme’ẽmbyre { $invoiceTotal } { $invoiceDateOnly } rehegua
@@ -454,6 +457,15 @@ subscriptionSubsequentInvoice-content-charged = Hepyme’ẽmbyre { $invoiceTota
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Jehepyme’ẽ oúva { $productName }-gui
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Ñemuhague papapy: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Ñemuhague papapy: { $invoiceNumber }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Embohekopyahúma { $productNameNew }-pe
