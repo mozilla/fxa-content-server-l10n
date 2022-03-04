@@ -195,6 +195,10 @@ postAddAccountRecovery-description = 您已使用下列裝置，成功產生新�
 postAddAccountRecovery-action = 管理帳號
 postAddAccountRecovery-recovery = 若不是您做的，<a data-l10n-name="revokeAccountRecoveryLink">請點擊此處</a>。
 postAddAccountRecovery-revoke = 若這不是您做的，請註銷該金鑰。
+postAddLinkedAccount-subject = 新帳號連結到 { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = 您的 { $providerName } 帳號已連結到 { -product-firefox-account }
 postAddLinkedAccount-action = 管理帳號
 postAddTwoStepAuthentication-subject = 已開啟兩階段驗證
 postAddTwoStepAuthentication-title = 已開啟兩階段驗證
@@ -270,6 +274,7 @@ subscriptionAccountFinishSetup-subject = 歡迎使用 { $productName }：請設�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = 歡迎使用 { $productName }
 subscriptionAccountFinishSetup-content-processing = 正在處理您的付款，可能最多需要 4 個工作天才可完成。除非您主動取消，將在每個帳務週期結束後自動續訂。
+subscriptionAccountFinishSetup-content-create-2 = 接下來，請設定 { -product-firefox-account } 密碼，即可開始使用您新訂閱的項目。
 subscriptionAccountFinishSetup-action-2 = 開始使用
 subscriptionAccountReminderFirst-subject = 提醒：請完成帳號註冊
 subscriptionAccountReminderFirst-title = 您暫時還不能使用您的訂閱項目
