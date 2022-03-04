@@ -208,6 +208,11 @@ input-password-show-aria = Monstrar le contrasigno como texto simple. Tu contras
 ## Linked Accounts section
 
 la-heading = Contos ligate
+la-description = Tu ha autorisate accesso al sequente contos.
+la-unlink-button = Disligar
+la-unlink-account-button = Disligar
+la-unlink-heading = Disligar ab conto de tertie parte
+la-unlink-content = Desira tu vermente disligar tu conto { -brand-google }? Disligante tu conto non tu non te disconnecte automaticamente de ille servicios. Pro facer lo tu debera manualmente clauder le connexion ab le section Servicios connexe.
 nav-linked-accounts = { la-heading }
 
 ## Modal
