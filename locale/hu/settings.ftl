@@ -23,6 +23,7 @@ alert-bar-close-message = Üzenet bezárása
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox-fiókok
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -207,6 +208,16 @@ input-password-hide = Jelszó elrejtése
 input-password-show = Jelszó megjelenítése
 input-password-hide-aria = Jelszó elrejtése a képernyőn.
 input-password-show-aria = Jelszó megjelenítése egyszerű szövegként. A jelszava látható lesz a képernyőn.
+
+## Linked Accounts section
+
+la-heading = Összekapcsolt fiókok
+la-description = A következő fiókokhoz való hozzáférést engedélyezte.
+la-unlink-button = Leválasztás
+la-unlink-account-button = Leválasztás
+la-unlink-heading = Leválasztás egy harmadik féltől származó fiókról
+la-unlink-content = Biztos, hogy leválasztja a { -brand-google }-fiókját? A fiók leválasztásával nem jelentkezik ki automatikusan ezekből a szolgáltatásokból. Ehhez kézileg kell kijelentkeznie a Csatlakoztatott szolgáltatások szakaszban.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
