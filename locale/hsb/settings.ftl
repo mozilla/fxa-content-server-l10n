@@ -23,6 +23,7 @@ alert-bar-close-message = Zdźělenku začinić
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Konta Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -209,6 +210,15 @@ input-password-hide = Hesło schować
 input-password-show = Hesło pokazać
 input-password-hide-aria = Hesło na wobrazowce schować.
 input-password-show-aria = Hesło jako luty tekst pokazać. Waše hesło budźe widźomne na wobrazowce.
+
+## Linked Accounts section
+
+la-heading = Zwjazane konta
+la-description = Smy přistup k slědowacym kontam awtorizowali.
+la-unlink-button = Zwisk dźělić
+la-unlink-account-button = Zwisk dźělić
+la-unlink-heading = Wot konta třećeho poskićowarja dźělić
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
