@@ -23,6 +23,7 @@ alert-bar-close-message = סגירת הודעה
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox Accounts
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -199,6 +200,12 @@ input-password-hide = הסתרת ססמה
 input-password-show = הצגת ססמה
 input-password-hide-aria = הסתרת הססמה מהמסך.
 input-password-show-aria = הצגת הססמה כטקסט רגיל. הססמה שלך תוצג על המסך.
+
+## Linked Accounts section
+
+la-heading = חשבונות מקושרים
+la-description = יש לך גישה מורשית לחשבונות הבאים.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
@@ -422,12 +429,6 @@ profile-picture =
     .header = תמונה
 profile-display-name =
     .header = שם תצוגה
-profile-password =
-    .header = ססמה
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = נוצר ב־{ $date }
 profile-primary-email =
     .header = כתובת דוא״ל ראשית
 
@@ -437,6 +438,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = אבטחה
+security-password =
+    .header = ססמה
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = נוצר ב־{ $date }
 
 ## Switch component
 
