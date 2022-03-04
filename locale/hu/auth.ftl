@@ -77,6 +77,8 @@ automated-email =
     Ez egy automatikus üzenet; ha tévedésből kapta, akkor nincs teendője.
     További információkért keresse fel a { -brand-mozilla } támogatást</a>.
 automated-email-plaintext = Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Ez egy automatikus e-mail, ha nem Ön adott engedélyt erre a műveletre, akkor változtassa meg jelszavát:
 automated-email-reset =
     Ez egy automatikus üzenet; ha nem engedélyezte ezt a műveletet, akkor <a data-l10n-name="resetLink">állítsa vissza a jelszavát</a>.
     További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
@@ -200,6 +202,11 @@ postAddAccountRecovery-description = Sikeresen előállított egy fiók helyreá
 postAddAccountRecovery-action = Fiók kezelése
 postAddAccountRecovery-recovery = Ha ez nem Ön volt, <a data-l10n-name="revokeAccountRecoveryLink">kattintson ide.</a>
 postAddAccountRecovery-revoke = Ha ez nem Ön volt, vonja vissza a kulcsot.
+postAddLinkedAccount-subject = Új fiók összekapcsolva a { -brand-firefox }szal
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = A(z) { $providerName }-fiókja össze lett kapcsolva a { -product-firefox-account }jával
+postAddLinkedAccount-action = Fiók kezelése
 postAddTwoStepAuthentication-subject = Kétlépcsős hitelesítés engedélyezve
 postAddTwoStepAuthentication-title = Kétlépcsős hitelesítés engedélyezve
 postAddTwoStepAuthentication-description-plaintext = Sikeresen engedélyezte a kétlépcsős hitelesítést a { -product-firefox-account }jához. A hitelesítő alkalmazásból származó biztonsági kód minden bejelentkezésnél szükséges lesz.
@@ -274,10 +281,7 @@ subscriptionAccountFinishSetup-subject = Üdvözli a { $productName }: Állítsa
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Üdvözli a { $productName }
 subscriptionAccountFinishSetup-content-processing = Fizetése feldolgozás alatt áll, és a befejezése akár négy munkanapot is igénybe vehet. Az előfizetés automatikusan megújul minden számlázási időszakban, hacsak nem dönt úgy, hogy lemondja.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Ezután létre fog hozni egy jelszót a Firefox-fiókhoz, és letölti a { $productName } terméket.
-subscriptionAccountFinishSetup-action = Jelszó létrehozása
+subscriptionAccountFinishSetup-action-2 = Kezdő lépések
 subscriptionAccountReminderFirst-subject = Emlékeztető: Fejezze be a fiókja beállítását
 subscriptionAccountReminderFirst-title = Még nem férhet hozzá az előfizetéséhez
 subscriptionAccountReminderFirst-content-info = Néhány nappal ezelőtt létrehozott egy { -product-firefox-account }ot, de nem erősítette meg. Reméljük, hogy befejezi fiókja beállítását, hogy használhassa az új előfizetését.
@@ -371,7 +375,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Díjbekérő
 subscriptionFirstInvoiceDiscount-content-subtotal = Részösszeg: { $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Egyszeri kedvezmény: -{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = Kedvezmény: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -460,6 +464,10 @@ subscriptionSubsequentInvoice-content-charged = { $invoiceTotal } levonva ekkor:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Következő számla: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = A(z) { $productName } befizetése megérkezett
+subscriptionSubsequentInvoiceDiscount-title = Köszönjük, hogy előfizető lett!
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Frissített erre: { $productNameNew }
 subscriptionUpgrade-title = Köszönjük, hogy magasabb csomagra frissített!
@@ -523,14 +531,6 @@ verifyPrimary-subject = Elsődleges e-mail cím megerősítése
 verifyPrimary-action = E-mail cím megerősítése
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Amint megerősíti, a fiókváltoztatások, mint a másodlagos e-mail cím hozzáadása, lehetségesek lesznek erről az eszközről.
-verifySecondary-subject = Másodlagos e-mail megerősítése
-verifySecondary-title = Másodlagos e-mail megerősítése
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -product-firefox-account }ból lett küldve:
-verifySecondary-action = E-mail cím megerősítése
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Ha hitelesíti, akkor ez a cím meg fogja kapni a biztonsági értesítéseket és megerősítéseket.
 verifySecondaryCode-subject = Másodlagos e-mail megerősítése
 verifySecondaryCode-title = Másodlagos e-mail megerősítése
 # Variables:
