@@ -66,9 +66,14 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox }-valikko
+bento-menu-firefox-title = { -brand-firefox } on teknologia, joka taistelee yksityisyytesi puolesta.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-firefox-desktop = { -brand-firefox }-selain työpöydälle
+bento-menu-firefox-mobile = { -brand-firefox }-selain mobiililaitteille
 bento-menu-made-by-mozilla = { -brand-mozilla }lta
 
 ## Connect another device promo
@@ -91,6 +96,9 @@ connect-another-app-store-image-2 =
 
 cs-heading = Yhdistetyt palvelut
 cs-description = Kaikki mitä käytät ja mihin olet sisäänkirjautuneena.
+cs-cannot-refresh =
+    Valitettavasti yhdistettyjen palvelujen listauksen
+    päivittämisessä ilmeni ongelma.
 cs-cannot-disconnect = Asiakasta ei löydy, yhteyttä ei voi katkaista
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -146,6 +154,11 @@ datablock-print =
 ## Data collection section
 
 dc-heading = Tietojen keruu ja käyttö
+dc-subheader = Auta parantamaan palvelua { -product-firefox-accounts }
+dc-subheader-content = Salli palvelun { -product-firefox-accounts } lähettää teknistä tietoa ja vuorovaikutustietoa { -brand-mozilla }lle.
+dc-opt-out-success = Poistuminen onnistui. { -product-firefox-accounts } ei lähetä teknistä tai vuorovaikutustietoa { -brand-mozilla }lle.
+dc-opt-in-success = Kiitos! Tämän tiedon jakaminen auttaa parantamaan palvelua { -product-firefox-accounts }.
+dc-opt-in-out-error = Valitettavasti tiedonkeruuasetusten muuttamisen yhteydessä ilmeni ongelma.
 dc-learn-more = Lue lisää
 
 # DropDownAvatarMenu component
@@ -195,6 +208,7 @@ la-description = Olet valtuuttanut pääsyn seuraaville tileille.
 la-unlink-button = Poista linkitys
 la-unlink-account-button = Poista linkitys
 la-unlink-heading = Poista linkitys kolmannen osapuolen tilistä
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
@@ -225,6 +239,10 @@ nav-email-comm = Sähköpostiviestintä
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-error = Palautuskoodien vaihtamisessa ilmeni ongelma.
+tfa-replace-code-success =
+    Uudet koodit on luotu. Talleta nämä kertakäyttöiset
+    koodit turvalliseen paikkaan — tarvitset niitä päästäksesi tilillesi, jos
+    mobiililaitteesi ei ole käytettävissäsi.
 tfa-replace-code-success-alert = Tilin palautuskoodit päivitetty.
 tfa-replace-code-1-2 = Vaihe 1/2
 tfa-replace-code-2-2 = Vaihe 2/2
@@ -294,7 +312,10 @@ delete-account-header =
     .title = Poista tili
 delete-account-step-1-2 = Vaihe 1/2
 delete-account-step-2-2 = Vaihe 2/2
+delete-account-confirm-title-2 = Olet yhdistänyt { -product-firefox-account }si { -brand-mozilla }n tuotteisiin, jotka pitävät sinut tuotteliaana ja turvassa verkossa:
 delete-account-acknowledge = Huomioi, että tilisi poistamalla:
+delete-account-chk-box-1-v2 =
+    .label = Kaikki käytössäsi olevat maksulliset tilaukset perutaan (lukuun ottamatta { product-pocket })
 delete-account-chk-box-2 =
     .label = Saatat menettää { -brand-mozilla }n tuotteisiin tallennetut tiedot ja ominaisuudet
 delete-account-chk-box-3 =
