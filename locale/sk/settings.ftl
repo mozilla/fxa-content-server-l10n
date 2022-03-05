@@ -279,6 +279,12 @@ input-password-show-aria = Zobraziť heslo ako obyčajný text. Vaše heslo bude
 ## Linked Accounts section
 
 la-heading = Prepojené účty
+la-description = Máte autorizovaný prístup k nasledujúcim účtom.
+la-unlink-button = Zrušiť prepojenie
+la-unlink-account-button = Zrušiť prepojenie
+la-unlink-heading = Zrušenie prepojenia s účtom tretej strany
+la-unlink-content = Naozaj chcete odpojiť svoj účet { -brand-google }? Odpojením účtu sa automaticky neodhlásite z týchto služieb. Ak tak chcete urobiť, budete sa musieť manuálne odhlásiť v sekcii Pripojené služby.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 

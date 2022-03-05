@@ -539,6 +539,15 @@ subscriptionSubsequentInvoice-content-charged = Účtované { $invoiceTotal } d�
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Ďalšia faktúra: { $nextInvoiceDateOnly }
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Ďalšia faktúra: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = Medzisúčet: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = Zľava: -{ $invoiceDiscountAmount }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Inovovali ste na { $productNameNew }
 subscriptionUpgrade-title = Ďakujeme, že ste inovovali!
