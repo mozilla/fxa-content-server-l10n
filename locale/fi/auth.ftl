@@ -42,6 +42,8 @@ subplat-explainer-specific = Saat tämän viestin, koska sähköpostiosoitteella
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-firefox-account }.
+subplat-explainer-multiple = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-firefox-account } ja sinulla on useiden tuotteiden tilauksia.
+subplat-manage-account = Hallinnoi { -product-firefox-account } -asetuksia <a data-l10n-name="subplat-account-page">tilisivullasi</a>.
 subplat-terms-policy = Käyttöehdot ja peruutuskäytäntö
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Peru tilaus
@@ -49,8 +51,14 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Aktivoi tilaus uudelleen
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Päivitä laskutustiedot
+subplat-privacy-policy = { -brand-mozilla }n tietosuojakäytäntö
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = { -product-firefox-cloud } -käyttöehdot
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Lakiasiat
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Tietosuoja
+subplat-privacy-website-plaintext = { subplat-privacy }:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Lataa { $productName } { -google-play }sta">
@@ -59,7 +67,20 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Lataa { $produ
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Lataa { $productName } { -app-store }sta">
 another-desktop-device = Tai asenna <a data-l10n-name="anotherDeviceLink">toiselle työpöytälaitteelle</a>.
 another-device = Tai asenna <a data-l10n-name="anotherDeviceLink">toiselle laitteelle</a>.
+automated-email-change =
+    Tämä on automaattinen viesti. Jos et valtuuttanut tätä toimintoa, <a data-l10n-name="passwordChangeLink">vaihda salasanasi</a>.
+    Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }n tuesta</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Tämä on automaattisesti lähtetty viesti. Jos et lisännyt uutta laitetta { -product-firefox-account }isi, vaihda salasanasi välittömästi osoitteessa { $passwordChangeLink }
+automated-email = Tämä on automaattisesti lähetetty viesti. Jos vastaanotit sen virheen seurauksena, sinun ei tarvitse tehdä mitään. Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }n tuesta</a>.
 automated-email-plaintext = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
+automated-email-reset =
+    Tämä on automaattisesti lähetetty viesti. Jos et valtuuttanut tätä toimintoa, <a data-l10n-name="resetLink">vaihda salasanasi</a>.
+    Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }n tuesta</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Jos et vaihtanut sitä, nollaa salasanasi nyt osoitteessa { $resetLink }
 cancellationSurvey = Auta parantamaan palveluitamme <a data-l10n-name="cancellationSurveyUrl")s>vastaamalla kyselyyn</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Auta meitä parantamaan palveluitamme täyttämällä lyhyt kysely:
@@ -68,6 +89,7 @@ change-password-plaintext = Jos epäilet, että joku yrittää murtautua tilille
 #  $ip (Number) - User's IP address
 user-ip = IP-osoite: { $ip }
 manage-account = Hallinnoi tiliä
+manage-account-plaintext = { manage-account }:
 payment-details = Maksun tiedot:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -89,8 +111,23 @@ card-ending-in = { $cardType } päättyen numeroihin { $lastFour }
 subscriptionSupport = Kysymyksiä tilaukseesi liittyen? <a data-l10n-name="subscriptionSupportUrl">Tukitiimimme</a> auttaa sinua.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Kysymyksiä tilaukseesi liittyen? Tukitiimimme auttaa sinua:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Kiitos, että tilasit { $productName }:n. Jos sinulla on kysymyksiä tilaukseen liittyen tai tarvitset lisätietoja { $productName }:stä, <a data-l10n-name="subscriptionSupportUrl">ota yhteys meihin</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Kiitos, että tilasit { $productName }:n. Jos sinulla on kysymyksiä tilaukseen liittyen tai tarvitset lisätietoja { $productName }:stä, ota yhteys meihin:
+subscriptionUpdateBillingEnsure = Voit varmistaa, että maksutapasi ja tilitietosi ovat ajan tasalla <a data-l10n-name="updateBillingUrl">täällä</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Voit varmistaa, että maksutapa- ja tilitiedot ovat ajan tasalla:
+subscriptionUpdateBillingTry = Kokeilemme suorittaa veloituksen uudelleen tulevien päivien aikana, mutta sinun on mahdollisesti autettava meitä korjaamaan ongelma <a data-l10n-name="updateBillingUrl">päivittämällä maksutietosi</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Kokeilemme suorittaa veloituksen uudelleen tulevien päivien aikana, mutta sinun on mahdollisesti autettava meitä korjaamaan ongelma päivittämällä maksutietosi:
+subscriptionUpdatePayment = Estääksesi palvelun käytön häiriintymisen, <a data-l10n-name="updateBillingUrl">päivitä maksutietosi</a> mahdollisimman pian.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Päivitä maksutietosi mahdollisimman pian, jotta palvelusi ei keskeydy:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Lisätietoja on osoitteessa { $supportUrl }
 view-invoice = <a data-l10n-name="invoiceLink">Näytä lasku</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -99,9 +136,20 @@ view-invoice-plaintext = Näytä lasku: { $invoiceLink }
 cadReminderFirst-subject = Ystävällinen muistutus: Kuinka saattaa synkronoinnin asetukset valmiiksi
 cadReminderFirst-action = Synkronoi toinen laite
 cadReminderFirst-title = Tässä muistutus laitteidesi synkronoimiseksi.
+cadReminderFirst-description = Synkronointiin tarvitaan kaksi. Toisen laitteen synkronointi { -brand-firefox }in kanssa pitää kirjanmerkit, salasanat ja muut { -brand-firefox }-tiedot yksityisenä ja samana kaikkialla, missä käytät { -brand-firefox }ia.
 cadReminderSecond-subject = Viimeinen muistutus: Määritä synkronoinnin asetukset valmiiksi
 cadReminderSecond-action = Synkronoi toinen laite
 cadReminderSecond-title = Viimeinen muistutus laitteidesi synkronoimiseksi!
+cadReminderSecond-description = Toisen laitteen synkronointi { -brand-firefox }in kanssa pitää kirjanmerkit, salasanat ja muut { -brand-firefox }-tiedot yksityisenä ja samana kaikkialla, missä käytät { -brand-firefox }ia.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Tervetuloa, käytössäsi on { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Tervetuloa, käytössäsi on { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = Jos et ole vielä ladannut { $productName }:ää, aloitetaan kaikkien tilauksen ominaisuuksien käyttö:
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-link-action = Lataa { $productName }
@@ -109,15 +157,23 @@ downloadSubscription-link-action = Lataa { $productName }
 codes-reminder-title = Palautuskoodit vähissä
 codes-reminder-description = Huomasimme, että palautuskoodisi ovat vähissä. Kannattaa luoda uudet palautuskoodit, jotta sinua ei lukita ulos tililtäsi.
 codes-generate = Luo koodeja
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Luo koodeja
 lowRecoveryCodes-subject =
     { $numberRemaining ->
         [one] 1 palautuskoodi jäljellä
        *[other] { $numberRemaining } palautuskoodia jäljellä
     }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Uusi kirjautuminen: { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = Uusi kirjautuminen: { $clientName }
 newDeviceLogin-action = Hallinnoi tiliä
 passwordChanged-subject = Salasana päivitetty
 passwordChanged-title = Salasanan vaihtaminen onnistui
+passwordChanged-description = { -product-firefox-account }si salasanasi vaihdettiin onnistuneesti seuraavalta laitteelta:
 passwordChangeRequired-subject = Epäilyttävää toimintaa havaittu
 passwordChangeRequired-title = Salasanan vaihto vaaditaan
 passwordChangeRequired-sign-in = Kirjaudu uudelleen sisään millä tahansa laitteella tai mihin tahansa palveluun, jossa käytät { -brand-firefox }-tiliäsi ja seuraa näkyviin ilmestyviä ohjeita.
