@@ -286,6 +286,10 @@ postAddAccountRecovery-action = Spravovať účet
 postAddAccountRecovery-recovery = Ak ste to neboli vy, <a data-l10n-name="revokeAccountRecoveryLink">kliknite sem</a>.
 postAddAccountRecovery-revoke = Ak ste to neboli vy, zrušte platnosť kľúča.
 postAddLinkedAccount-subject = Nový účet prepojený s { -brand-firefox(case: "ins") }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Váš účet { $providerName } bol prepojený s vaším { -product-firefox-account(case: "ins") }
+postAddLinkedAccount-action = Spravovať účet
 postAddTwoStepAuthentication-subject = Dvojstupňové overenie bolo povolené
 postAddTwoStepAuthentication-title = Dvojstupňové overenie bolo povolené
 postAddTwoStepAuthentication-description-plaintext = Úspešne ste povolili dvojstupňové overenie na vašom { -product-firefox-account(case: "loc", capitalization: "lower") }. Pri každom prihlásení bude odteraz nutné zadať bezpečnostný kód z vašej overovacej aplikácie.
@@ -360,6 +364,8 @@ subscriptionAccountFinishSetup-subject = Víta vás { $productName }: nastavte s
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Víta vás { $productName }
 subscriptionAccountFinishSetup-content-processing = Vaša platba sa spracováva a jej dokončenie môže trvať až štyri pracovné dni. Vaše predplatné sa automaticky obnoví každé fakturačné obdobie, pokiaľ sa nerozhodnete ho zrušiť.
+subscriptionAccountFinishSetup-content-create-2 = Potom si vytvoríte heslo pre { -product-firefox-account(case: "acc") }, aby ste mohli začať používať svoje nové predplatné.
+subscriptionAccountFinishSetup-action-2 = Začíname
 subscriptionAccountReminderFirst-subject = Pripomienka: dokončite nastavenie účtu
 subscriptionAccountReminderFirst-title = Zatiaľ nemáte prístup k svojmu predplatnému
 subscriptionAccountReminderFirst-content-info = Pred niekoľkými dňami ste si vytvorili { -product-firefox-account(case: "acc", capitalization: "lower") }, no nikdy ste ho neoverili. Dúfame, že dokončíte nastavenie svojho účtu, aby ste mohli používať svoje nové predplatné.
@@ -452,6 +458,9 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Číslo fakt
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Medzisúčet: { $invoiceSubtotal }
 # Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Zľava: -{ $invoiceDiscountAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoiceDiscount-content-charge = Účtované { $invoiceTotal } dňa { $invoiceDateOnly }
@@ -538,6 +547,26 @@ subscriptionSubsequentInvoice-content-charged = Účtované { $invoiceTotal } d�
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Ďalšia faktúra: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Platba za { $productName } bola prijatá
+subscriptionSubsequentInvoiceDiscount-title = Ďakujeme, že využívate naše predplatné!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Dostali sme vašu poslednú platbu za { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Číslo faktúry: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Číslo faktúry: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = Zmena plánu: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charged = Účtované { $invoiceTotal } dňa { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Ďalšia faktúra: { $nextInvoiceDateOnly }
