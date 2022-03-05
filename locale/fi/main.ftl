@@ -19,6 +19,11 @@ project-brand = Firefox-tilit
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Kauppa
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox-tilit
 
@@ -39,6 +44,8 @@ payment-error-manage-subscription-button = Hallitse tilausta
 country-currency-mismatch = Tämän tilauksen valuutta ei ole voimassa maksun tapahtumamaassa.
 currency-currency-mismatch = Pahoittelut, et voi vaihtaa valuuttojen välillä.
 no-subscription-change = Valitettavasti et voi muuttaa tilaustyyppiäsi.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Olet jo tilannut sovelluskaupan { $mobileAppStore } kautta.
 expired-card-error = Luottokorttisi vaikuttaa vanhentuneen. Kokeile toista korttia.
 insufficient-funds-error = Vaikuttaa siltä, että kortilla ei ole riittävästi varoja. Kokeile toista korttia.
 withdrawal-count-limit-exceeded-error = Vaikuttaa siltä, että tämä tapahtuma ylittää luottorajasi. Kokeile toista korttia.
@@ -63,6 +70,7 @@ settings-subscriptions-title = Tilaukset
 
 terms = Käyttöehdot
 privacy = Tietosuojakäytäntö
+terms-download = Latausehdot
 
 ## Subscription titles
 
@@ -168,10 +176,13 @@ product-plan-change-heading = Tarkista muutos
 sub-change-failed = Tilaustyypin vaihtaminen epäonnistui
 sub-update-payment-title = Maksun tiedot
 sub-update-card-exp = Vanhenee { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy = Tilauksesi vaihtuu välittömästi, ja sinua veloitetaan mukautettu määrä laskutuskautesi loppuun. Sinua veloitetaan täysimääräisesti { $startingDate } alkaen.
 
 ##
 
 sub-change-submit = Vahvista muutos
+sub-change-indicator =
+    .aria-label = muutosilmaisin
 sub-update-current-plan-label = Nykyinen tilaustyyppi
 sub-update-new-plan-label = Uusi tilaustyyppi
 sub-update-total-label = Uusi summa
@@ -246,6 +257,20 @@ pay-update-change-btn = Muuta
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Haluatko jatkaa tuotteen { $name } käyttämistä?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Palvelun { $name } käyttö jatkuu, ja laskutusjakso
+    sekä maksu pysyvät samoina kuin aiemmin. Seuraava veloitus
+    tulee olemaan { $amount } kortilta, joka päättyy { $last }, { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Palvelun { $name } käyttö jatkuu, ja laskutusjakso
+    sekä maksu pysyvät samoina kuin aiemmin. Seuraava veloitus
+    tulee olemaan { $amount } { $endDate }.
 reactivate-confirm-button = Tilaa uudelleen
 
 ##  $date (Date) - Last day of product access
@@ -267,6 +292,9 @@ sub-item-stay-sub = Jatka tilausta
 sub-item-cancel-msg =
     Käyttöoikeutesi tuotteeseen { $name } päättyy
     { $period }, joka on laskutusjakson viimeinen päivä.
+sub-item-cancel-confirm =
+    Peru käyttömahdollisuuteni ja pääsy tietoihini
+    palvelussa { $name } { $period }
 
 ## subscription iap item
 
