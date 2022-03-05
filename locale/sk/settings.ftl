@@ -23,6 +23,7 @@ alert-bar-close-message = Zavrieť správu
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $case ->
@@ -274,6 +275,10 @@ input-password-hide = Skryť heslo
 input-password-show = Zobraziť heslo
 input-password-hide-aria = Skryť heslo z obrazovky.
 input-password-show-aria = Zobraziť heslo ako obyčajný text. Vaše heslo bude viditeľné na obrazovke.
+
+## Linked Accounts section
+
+la-heading = Prepojené účty
 
 ## Modal
 

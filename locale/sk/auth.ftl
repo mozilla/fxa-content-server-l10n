@@ -159,6 +159,8 @@ automated-email =
     Toto je automaticky generovaná správa. Ak ste ju dostali omylom, nevyžaduje sa žiadna akcia.
     Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Toto je automatický e-mail; ak ste túto akciu nevykonali, zmeňte si svoje heslo:
 automated-email-reset =
     Toto je automaticky generovaná správa. Ak ste túto akciu nevykonali, <a data-l10n-name="resetLink">zmeňte si svoje heslo</a>.
     Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
@@ -283,6 +285,7 @@ postAddAccountRecovery-description = Úspešne ste vygenerovali obnovovací kľ�
 postAddAccountRecovery-action = Spravovať účet
 postAddAccountRecovery-recovery = Ak ste to neboli vy, <a data-l10n-name="revokeAccountRecoveryLink">kliknite sem</a>.
 postAddAccountRecovery-revoke = Ak ste to neboli vy, zrušte platnosť kľúča.
+postAddLinkedAccount-subject = Nový účet prepojený s { -brand-firefox(case: "ins") }
 postAddTwoStepAuthentication-subject = Dvojstupňové overenie bolo povolené
 postAddTwoStepAuthentication-title = Dvojstupňové overenie bolo povolené
 postAddTwoStepAuthentication-description-plaintext = Úspešne ste povolili dvojstupňové overenie na vašom { -product-firefox-account(case: "loc", capitalization: "lower") }. Pri každom prihlásení bude odteraz nutné zadať bezpečnostný kód z vašej overovacej aplikácie.
@@ -357,10 +360,6 @@ subscriptionAccountFinishSetup-subject = Víta vás { $productName }: nastavte s
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Víta vás { $productName }
 subscriptionAccountFinishSetup-content-processing = Vaša platba sa spracováva a jej dokončenie môže trvať až štyri pracovné dni. Vaše predplatné sa automaticky obnoví každé fakturačné obdobie, pokiaľ sa nerozhodnete ho zrušiť.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Ďalej si vytvoríte heslo účtu Firefox a stiahnete si { $productName }.
-subscriptionAccountFinishSetup-action = Vytvoriť heslo
 subscriptionAccountReminderFirst-subject = Pripomienka: dokončite nastavenie účtu
 subscriptionAccountReminderFirst-title = Zatiaľ nemáte prístup k svojmu predplatnému
 subscriptionAccountReminderFirst-content-info = Pred niekoľkými dňami ste si vytvorili { -product-firefox-account(case: "acc", capitalization: "lower") }, no nikdy ste ho neoverili. Dúfame, že dokončíte nastavenie svojho účtu, aby ste mohli používať svoje nové predplatné.
@@ -452,9 +451,6 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Číslo fakt
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Medzisúčet: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Jednorazová zľava: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -606,14 +602,6 @@ verifyPrimary-subject = Potvrdenie hlavnej e-mailovej adresy
 verifyPrimary-action = Overiť e-mailovú adresu
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Po overení budú k dispozícii zmeny v účte, napríklad pridanie alternatívnej e-mailovej adresy.
-verifySecondary-subject = Potvrdenie alternatívnej e-mailovej adresy
-verifySecondary-title = Overenie alternatívnej e-mailovej adresy
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho { -product-firefox-account(case: "gen", capitalization: "lower") }:
-verifySecondary-action = Overiť e-mailovú adresu
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Po overení začnete na túto e-mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
 verifySecondaryCode-subject = Potvrdenie alternatívnej e-mailovej adresy
 verifySecondaryCode-title = Overenie alternatívnej e-mailovej adresy
 # Variables:
