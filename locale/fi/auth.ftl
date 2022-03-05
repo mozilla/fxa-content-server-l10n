@@ -35,6 +35,13 @@ subplat-automated-email = Tämä on automaattisesti lähetetty viesti. Jos sait 
 subplat-privacy-notice = Tietosuojakäytäntö
 subplat-privacy-plaintext = Tietosuojaseloste:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-firefox-account } ja olet rekisteröitynyt palveluun { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-firefox-account }.
 subplat-terms-policy = Käyttöehdot ja peruutuskäytäntö
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Peru tilaus

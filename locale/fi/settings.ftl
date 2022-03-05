@@ -350,6 +350,7 @@ display-name-success-alert = Näyttönimi päivitetty.
 recovery-key-cancel-button = Peruuta
 recovery-key-close-button = Sulje
 recovery-key-continue-button = Jatka
+recovery-key-created = Palautusavain on luotu. Talleta avain turvalliseen paikkaan, jonka löydät vaivatta myöhemmin — tarvitset avaimen päästäksesi takaisin tietoihisi, jos unohdat salasanasi.
 recovery-key-enter-password =
     .label = Kirjoita salasana
 recovery-key-page-title =
@@ -417,6 +418,8 @@ tfa-scan-this-code =
 tfa-qa-code-alt =
     Käytä koodi { $secret } määrittääksesi kaksivaiheisen todennuksen
     tuettuihin sovelluksiin.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Etkö voi lukea QR-koodia?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
@@ -492,6 +495,9 @@ rk-content-explain = Palauta tietosi kun unohdat salasanasi.
 rk-content-reset-data = Miksi salasanan nollaaminen nollaa myös tietoni?
 rk-cannot-verify-session-2 = Valitettavasti istunnon vahvistamisessa oli ongelma.
 rk-remove-modal-heading = Poistetaanko palautusavain?
+rk-remove-modal-content =
+    Jos nollaat salasanasi, et voi käyttää palautusavainta
+    saadaksesi tietosi takaisin käyttöösi. Tätä toimintoa ei voi kumota.
 rk-refresh-error = Valitettavasti palautusavaimen päivittämisessä ilmeni ongelma.
 rk-remove-error = Tilisi palautusavainta ei voitu poistaa.
 
