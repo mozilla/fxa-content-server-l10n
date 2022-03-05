@@ -10,6 +10,14 @@ project-brand = Firefox アカウント
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play ストア
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Firefox アカウント
 
@@ -24,6 +32,8 @@ general-error-heading = 一般的なアプリケーションエラー
 basic-error-message = 何か問題が発生しました。また後で試してください。
 payment-error-1 = お支払いの承認中に問題が発生しました。もう一度やり直すか、カード発行会社にお問い合わせください。
 payment-error-2 = お支払いの承認中に問題が発生しました。カード発行会社にお問い合わせください。
+payment-error-3b = 支払い処理中に予期しないエラーが発生しました。再度お試しください。
+payment-error-retry-button = 再度お試しください
 expired-card-error = クレジットカードの有効期限が切れているようです。別のカードを試してください。
 insufficient-funds-error = カードの残高が不足しているようです。別のカードを試してください。
 withdrawal-count-limit-exceeded-error = この取引では、ご利用限度額を超えてしまうようです。別のカードを試してください。
@@ -44,6 +54,7 @@ settings-subscriptions-title = 購読
 
 terms = 利用規約
 privacy = プライバシー通知
+terms-download = 利用規約をダウンロード
 
 ## Subscription titles
 
@@ -85,9 +96,11 @@ payment-cancel-btn = キャンセル
 payment-update-btn = 更新
 payment-pay-btn = 今すぐ払う
 payment-validate-name-error = お名前を入力してください。
+payment-validate-zip-short = 郵便番号が短すぎます
 
 ## subscription redirect
 
+sub-redirect-ready = サブスクリプションの準備ができました
 
 ## fields
 
@@ -95,9 +108,13 @@ default-input-error = この項目は必須です
 
 ## subscription upgrade
 
+sub-change-failed = プラン変更に失敗しました
+sub-update-payment-title = 支払情報
 
 ##
 
+sub-change-submit = 変更を確認
+sub-update-current-plan-label = 現在のプラン
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -131,6 +148,10 @@ reactivate-success-button = 閉じる
 sub-item-missing = 購読の読み込みに問題があります
 sub-item-missing-msg = また後で試してください。
 
+## subscription iap item
+
+sub-iap-item-manage-button = 管理
+
 ## subscription route index
 
 
@@ -140,19 +161,25 @@ sub-item-missing-msg = また後で試してください。
 ## plan-details
 
 
+## coupons
+
+
 ## payment-processing
 
 
 ## payment confirmation
 
+payment-confirmation-thanks-heading = ありがとうございます。
 
 ## payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-heading-account-exists = ありがとうございます。メールを確認してください。
 
 ## $email (string) - The user's email.
 
+payment-confirmation-order-heading = 注文詳細
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -160,3 +187,4 @@ payment-confirmation-download-button = ダウンロードを続行
 
 ## new user email form
 
+manage-pocket-body = 管理するには、<a>ここをクリック</a>してください。
