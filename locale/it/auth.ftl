@@ -285,6 +285,8 @@ subscriptionAccountFinishSetup-subject = Ti diamo il benvenuto in { $productName
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Benvenuto in { $productName }.
 subscriptionAccountFinishSetup-content-processing = Il pagamento è in fase di elaborazione, l’operazione potrebbe richiedere fino a quattro giorni lavorativi. Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
+subscriptionAccountFinishSetup-content-create-2 = Successivamente, dovrai creare una password per l’{ -product-firefox-account } per iniziare a utilizzare il tuo nuovo abbonamento.
+subscriptionAccountFinishSetup-action-2 = Inizia
 subscriptionAccountReminderFirst-subject = Promemoria: completa la configurazione del tuo account
 subscriptionAccountReminderFirst-title = Non puoi ancora accedere al tuo abbonamento
 subscriptionAccountReminderFirst-content-info = Hai creato un { -product-firefox-account } qualche giorno fa ma non l’hai mai confermato. Speriamo che tu finisca di configurare il tuo account, in modo da poter utilizzare il tuo nuovo abbonamento.
