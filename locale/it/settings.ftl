@@ -23,6 +23,7 @@ alert-bar-close-message = Chiudi messaggio
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox Accounts
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -199,6 +200,16 @@ input-password-hide = Nascondi password
 input-password-show = Mostra password
 input-password-hide-aria = Nascondi la password dallo schermo.
 input-password-show-aria = Mostra la password come testo normale (sarà visibile sullo schermo).
+
+## Linked Accounts section
+
+la-heading = Account collegati
+la-description = Hai autorizzato l’accesso ai seguenti account.
+la-unlink-button = Scollega
+la-unlink-account-button = Scollega
+la-unlink-heading = Scollega da account di terze parti
+la-unlink-content = Sei sicuro di voler scollegare il tuo account { -brand-google }? Scollegando il tuo account non verrai disconnesso automaticamente da tali servizi. Per farlo dovrai disconnetterti manualmente dalla sezione Servizi connessi.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
