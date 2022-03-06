@@ -283,6 +283,10 @@ postAddAccountRecovery-description = Pomyślnie utworzono klucz odzyskiwania { -
 postAddAccountRecovery-action = Zarządzaj kontem
 postAddAccountRecovery-recovery = Jeśli to nie Ty, to <a data-l10n-name="revokeAccountRecoveryLink">kliknij tutaj</a>.
 postAddAccountRecovery-revoke = Jeśli to nie Ty, to unieważnij klucz.
+postAddLinkedAccount-subject = Nowe konto powiązane z { -brand-firefox(case: "ins") }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Konto { $providerName } zostało powiązane z { -product-firefox-account(case: "ins", capitalization: "lower") }
 postAddLinkedAccount-action = Zarządzaj kontem
 postAddTwoStepAuthentication-subject = Włączono uwierzytelnianie dwuetapowe
 postAddTwoStepAuthentication-title = Włączono uwierzytelnianie dwuetapowe
