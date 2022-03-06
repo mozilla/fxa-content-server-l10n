@@ -39,6 +39,7 @@ alert-bar-close-message = Zamknij komunikat
         [ins] Firefoksem
         [loc] Firefoksie
     }
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $case ->
@@ -289,6 +290,10 @@ input-password-hide = Ukryj hasło
 input-password-show = Pokaż hasło
 input-password-hide-aria = Ukryj hasło z ekranu.
 input-password-show-aria = Pokaż hasło jako zwykły test. Twoje hasło będzie widoczne na ekranie.
+
+## Linked Accounts section
+
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
