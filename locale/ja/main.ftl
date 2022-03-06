@@ -72,6 +72,7 @@ product-profile-error =
 product-customer-error =
     .title = 顧客読み込みエラー
 product-plan-not-found = プランが見つかりませんでした
+product-no-such-plan = この製品にはご指定のプランがありません。
 
 ## payment legal blurb
 
