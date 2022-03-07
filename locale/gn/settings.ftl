@@ -218,6 +218,7 @@ la-description = Eikekuaa apañuãi’ỹre ko’ã mba’etépe.
 la-unlink-button = Pe’aite
 la-unlink-account-button = Pe’aite
 la-unlink-heading = Eipe’aite mbohapyháva mba’etégui
+la-unlink-content = ¿Eipe’asépa añetehápe ne mba’ete { -brand-google }-gui? Eipe’ávo ne mba’ete ndaha’éi esẽtamava pya’ekuépe umi mba’apurúgui. Ejapo hag̃ua, embotyva’erã tembiapo nde pópe pe mba’apuru jeikepyréva ndive.
 nav-linked-accounts = { la-heading }
 
 ## Modal
