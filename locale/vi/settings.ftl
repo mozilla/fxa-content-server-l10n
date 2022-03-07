@@ -23,6 +23,7 @@ alert-bar-close-message = Đóng thông báo
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Tài khoản Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -207,6 +208,16 @@ input-password-hide = Ẩn mật khẩu
 input-password-show = Hiện mật khẩu
 input-password-hide-aria = Ẩn mật khẩu khỏi màn hình.
 input-password-show-aria = Hiển thị mật khẩu dưới dạng văn bản thuần túy. Mật khẩu của bạn sẽ hiển thị trên màn hình.
+
+## Linked Accounts section
+
+la-heading = Tài khoản được liên kết
+la-description = Bạn có quyền truy cập vào các tài khoản sau.
+la-unlink-button = Hủy liên kết
+la-unlink-account-button = Hủy liên kết
+la-unlink-heading = Hủy liên kết khỏi tài khoản của bên thứ ba
+la-unlink-content = Bạn có chắc chắn muốn hủy liên kết tài khoản { -brand-google } của mình không? Việc hủy liên kết tài khoản của bạn không tự động đăng xuất bạn khỏi các dịch vụ đó. Để làm điều đó, bạn sẽ cần đăng xuất theo cách thủ công từ phần Dịch vụ được kết nối.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 

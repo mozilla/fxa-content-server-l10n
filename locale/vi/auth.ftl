@@ -68,7 +68,7 @@ body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Tải xuống { $pro
 another-desktop-device = Hoặc cài đặt trên <a data-l10n-name="anotherDeviceLink">một thiết bị máy tính để bàn khác</a>.
 another-device = Hoặc cài đặt trên <a data-l10n-name="anotherDeviceLink">một thiết bị khác</a>.
 automated-email-change =
-    Đây là một email tự động; nếu bạn không thực hiện hành động này, <a data-l10n-name="passwordChangeLink">vui lòng thay đổi mật khẩu của bạn</a>.
+    Đây là email tự động; nếu bạn không nhận ra hành động này, <a data-l10n-name="passwordChangeLink">vui lòng thay đổi mật khẩu của bạn</a>.
     Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
@@ -77,8 +77,10 @@ automated-email =
     Đây là một email tự động; nếu bạn nhận được nó do nhầm lẫn, không cần thực hiện hành động nào.
     Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Đây là một email tự động; nếu bạn nhận được nó do lỗi, không cần thực hiện hành động nào.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Đây là email tự động; nếu bạn không nhận ra hành động này, vui lòng thay đổi mật khẩu của bạn:
 automated-email-reset =
-    Đây là một email tự động; nếu bạn không thực hiện hành động này, <a data-l10n-name="resetLink">vui lòng đặt lại mật khẩu của bạn </a>.
+    Đây là một tự động; nếu bạn không nhận ra hành động này, <a data-l10n-name="resetLink">vui lòng đặt lại mật khẩu của bạn </a>.
     Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
@@ -199,6 +201,11 @@ postAddAccountRecovery-description = Bạn đã tạo thành công khóa khôi p
 postAddAccountRecovery-action = Quản lý tài khoản
 postAddAccountRecovery-recovery = Nếu đây không phải là bạn, <a data-l10n-name="revokeAccountRecoveryLink">nhấp vào đây</a>.
 postAddAccountRecovery-revoke = Nếu đây không phải là bạn, hãy thu hồi khóa.
+postAddLinkedAccount-subject = Tài khoản mới được liên kết với { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Tài khoản { $providerName } của bạn đã được liên kết với { -product-firefox-account } của bạn
+postAddLinkedAccount-action = Quản lý tài khoản
 postAddTwoStepAuthentication-subject = Đã bật xác thực hai bước
 postAddTwoStepAuthentication-title = Đã bật xác thực hai bước
 postAddTwoStepAuthentication-description-plaintext = Bạn đã bật thành công xác thực hai bước trên { -product-firefox-account } của mình. Mã bảo mật từ ứng dụng xác thực của bạn hiện sẽ được yêu cầu mỗi lần đăng nhập.
@@ -273,10 +280,8 @@ subscriptionAccountFinishSetup-subject = Chào mừng bạn đến với { $prod
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Chào mừng đến với { $productName }
 subscriptionAccountFinishSetup-content-processing = Thanh toán của bạn đang được xử lý và có thể mất đến bốn ngày làm việc để hoàn tất. Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Tiếp theo, bạn sẽ tạo mật khẩu tài khoản Firefox và tải xuống { $productName }.
-subscriptionAccountFinishSetup-action = Tạo một mật khẩu
+subscriptionAccountFinishSetup-content-create-2 = Tiếp theo, bạn sẽ tạo mật khẩu { -product-firefox-account } để bắt đầu sử dụng thuê bao mới của mình.
+subscriptionAccountFinishSetup-action-2 = Bắt đầu
 subscriptionAccountReminderFirst-subject = Nhắc nhở: Hoàn tất thiết lập tài khoản của bạn
 subscriptionAccountReminderFirst-title = Bạn chưa thể truy cập thuê bao của mình
 subscriptionAccountReminderFirst-content-info = Một vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh tài khoản đó. Chúng tôi hy vọng bạn sẽ hoàn tất việc thiết lập tài khoản của mình để có thể sử dụng thuê bao mới của mình.
@@ -370,7 +375,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Số hóa đ
 subscriptionFirstInvoiceDiscount-content-subtotal = Tổng phụ: { $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Giảm giá một lần: -{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = Giảm giá: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -459,6 +464,35 @@ subscriptionSubsequentInvoice-content-charged = Đã tính phí { $invoiceTotal 
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Hóa đơn tiếp theo: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Đã nhận thanh toán { $productName }
+subscriptionSubsequentInvoiceDiscount-title = Cảm ơn bạn đã là một thuê bao!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Chúng tôi đã nhận được khoản thanh toán mới nhất của bạn cho { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Số hóa đơn: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Số hóa đơn: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = Thay đổi gói: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charged = Đã tính phí { $invoiceTotal } vào { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Hóa đơn tiếp theo: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = Tổng tiền: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = Giảm giá: -{ $invoiceDiscountAmount }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Bạn đã nâng cấp lên { $productNameNew }
 subscriptionUpgrade-title = Cảm ơn bạn đã nâng cấp!
@@ -522,14 +556,6 @@ verifyPrimary-subject = Xác nhận email chính
 verifyPrimary-action = Xác nhận Email
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Sau khi được xác minh, các thay đổi tài khoản như thêm email phụ sẽ có thể thực hiện được từ thiết bị này.
-verifySecondary-subject = Xác nhận email phụ
-verifySecondary-title = Xác nhận email phụ
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Yêu cầu sử dụng { $email } làm địa chỉ email phụ đã được thực hiện từ { -product-firefox-account } sau:
-verifySecondary-action = Xác nhận Email
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Sau khi được xác minh, địa chỉ này sẽ bắt đầu nhận được thông báo bảo mật và xác nhận.
 verifySecondaryCode-subject = Xác nhận email phụ
 verifySecondaryCode-title = Xác nhận email phụ
 # Variables:
