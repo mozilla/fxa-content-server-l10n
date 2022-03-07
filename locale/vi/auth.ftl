@@ -372,7 +372,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number = Số hóa đơn: <b>{ 
 subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Số hóa đơn: { $invoiceNumber }
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoiceDiscount-content-subtotal = Tổng phụ: { $invoiceSubtotal }
+subscriptionFirstInvoiceDiscount-content-subtotal = Tổng tiền: { $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = Giảm giá: -{ $invoiceDiscountAmount }
