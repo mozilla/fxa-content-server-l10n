@@ -77,6 +77,8 @@ automated-email =
     Ceci est un message automatique ; si vous l’avez reçu par erreur, vous n’avez rien à faire.
     Pour davantage d’informations, veuillez consulter <a data-l10n-name="supportLink">l’assistance de { -brand-mozilla }</a>.
 automated-email-plaintext = Ceci est un message automatique ; si vous l’avez reçu par erreur, vous n’avez rien à faire.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Ceci est un message automatique ; si vous n’avez pas autorisé cette action, veuillez changer votre mot de passe.
 automated-email-reset =
     Il s’agit d’un courrier électronique automatisé ; si vous n’avez pas autorisé cette action, <a data-l10n-name="resetLink">veuillez changer de mot de passe</a>.
     Pour plus d’informations, veuillez consulter <a data-l10n-name="supportLink">l’assistance de { -brand-mozilla }</a>.
@@ -200,6 +202,11 @@ postAddAccountRecovery-description = Vous avez réussi à générer une clé de 
 postAddAccountRecovery-action = Gérer le compte
 postAddAccountRecovery-recovery = Si vous n’êtes pas à l’origine de cette demande, <a data-l10n-name="revokeAccountRecoveryLink">cliquez ici</a>.
 postAddAccountRecovery-revoke = Si vous n’êtes pas à l’origine de cette action, révoquez cette clé.
+postAddLinkedAccount-subject = Nouveau compte lié à { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Votre compte { $providerName } a été lié à votre { -product-firefox-account }
+postAddLinkedAccount-action = Gérer le compte
 postAddTwoStepAuthentication-subject = Authentification en deux étapes activée
 postAddTwoStepAuthentication-title = Authentification en deux étapes activée
 postAddTwoStepAuthentication-description-plaintext = Vous avez activé l’authentification en deux étapes pour votre { -product-firefox-account }. Un code de sécurité de votre application d’authentification vous sera désormais demandé à chaque connexion.
@@ -274,6 +281,8 @@ subscriptionAccountFinishSetup-subject = Bienvenue dans { $productName } : veui
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bienvenue sur { $productName }
 subscriptionAccountFinishSetup-content-processing = Votre paiement est en cours de traitement, ce qui peut prendre jusqu’à quatre jours ouvrables. Votre abonnement se renouvellera automatiquement à chaque période de facturation, sauf si vous choisissez de l’annuler.
+subscriptionAccountFinishSetup-content-create-2 = Ensuite, vous allez créer un mot de passe de { -product-firefox-account } pour commencer à utiliser votre nouvel abonnement.
+subscriptionAccountFinishSetup-action-2 = Commencer
 subscriptionAccountReminderFirst-subject = Rappel : terminez la configuration de votre compte
 subscriptionAccountReminderFirst-title = Vous ne pouvez pas encore accéder à votre abonnement
 subscriptionAccountReminderFirst-content-info = Il y a quelques jours, vous avez créé un { -product-firefox-account }, mais ne l’avez jamais vérifié. Nous espérons que vous finirez de configurer votre compte afin que vous puissiez utiliser votre nouvel abonnement.
