@@ -214,6 +214,7 @@ input-password-show-aria = Ehechauka ñe’ẽñemi moñe’ẽrãrõ. Pe ñe’
 ## Linked Accounts section
 
 la-heading = Mba’ete juajupyre
+la-description = Eikekuaa apañuãi’ỹre ko’ã mba’etépe.
 la-unlink-button = Pe’aite
 la-unlink-account-button = Pe’aite
 la-unlink-heading = Eipe’aite mbohapyháva mba’etégui
