@@ -136,7 +136,17 @@ cs-disconnect-sync-opt-not-say = En halua sanoa
 
 cs-disconnect-advice-confirm = Selvä
 cs-disconnect-lost-advice-heading = Yhteys kadonneeseen tai varastettuun laitteeseen on katkaistu
+cs-disconnect-lost-advice-content-2 =
+    Koska laitteesi katosi tai varastettiin,
+    sinun tulisi vaihtaa { -product-firefox-account }si salasana
+    tilin asetuksissa. Sinun kannattaa myös etsiä ohjeita oman
+    laitteen valmistajalta tietojen etäpoistoon liittyen.
 cs-disconnect-suspicious-advice-heading = Yhteys epäilyttävään laitteeseen on katkaistu
+cs-disconnect-suspicious-advice-content =
+    Jos irrotettu laite todellakin on epäilyttävä,
+    sinun tulisi vaihtaa { -product-firefox-account }n salasana
+    tilin asetuksissa. Sinun kannattaa vaihtaa myös muut
+    salasanat, jotka olet tallentanut { -brand-firefox }iin kirjoittamalla osoitepalkkiin about:logins.
 cs-sign-out-button = Kirjaudu ulos
 
 ##
