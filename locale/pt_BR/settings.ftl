@@ -23,6 +23,7 @@ alert-bar-close-message = Fechar mensagem
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Contas Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -193,6 +194,16 @@ input-password-hide = Ocultar senha
 input-password-show = Exibir senha
 input-password-hide-aria = Oculta a senha na tela.
 input-password-show-aria = Exibe a senha como texto legível. Sua senha fica visível na tela.
+
+## Linked Accounts section
+
+la-heading = Contas vinculadas
+la-description = Você autorizou o acesso às seguintes contas.
+la-unlink-button = Desvincular
+la-unlink-account-button = Desvincular
+la-unlink-heading = Desvincular da conta de terceiros
+la-unlink-content = Tem certeza que quer desvincular sua conta do { -brand-google }? Desvincular sua conta não te desconecta automaticamente desses serviços. Para fazer isso, você precisa sair manualmente na seção de serviços conectados.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
