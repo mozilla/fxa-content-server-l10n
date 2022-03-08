@@ -75,6 +75,8 @@ automated-email-change =
 automated-email-change-plaintext = Tämä on automaattisesti lähtetty viesti. Jos et lisännyt uutta laitetta { -product-firefox-account }isi, vaihda salasanasi välittömästi osoitteessa { $passwordChangeLink }
 automated-email = Tämä on automaattisesti lähetetty viesti. Jos vastaanotit sen virheen seurauksena, sinun ei tarvitse tehdä mitään. Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }n tuesta</a>.
 automated-email-plaintext = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Tämä on automaattinen sähköpostiviesti; Jos et valtuuttanut tätä toimintoa, vaihda salasanasi:
 automated-email-reset =
     Tämä on automaattisesti lähetetty viesti. Jos et valtuuttanut tätä toimintoa, <a data-l10n-name="resetLink">vaihda salasanasi</a>.
     Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }n tuesta</a>.
@@ -177,7 +179,7 @@ passwordChanged-description = { -product-firefox-account }si salasanasi vaihdett
 passwordChangeRequired-subject = Epäilyttävää toimintaa havaittu
 passwordChangeRequired-title = Salasanan vaihto vaaditaan
 passwordChangeRequired-suspicious-activity = Havaitsimme epäilyttävää toimintaa { -product-firefox-account }lläsi. Estääksemme { -product-firefox-account }si luvattoman käytön, olemme katkaisseet yhteyden kaikkiin laitteisiisi tilisi osalta. Vaadimme sinua vaihtamaan salasanan varotoimenpiteenä.
-passwordChangeRequired-sign-in = Kirjaudu uudelleen sisään millä tahansa laitteella tai mihin tahansa palveluun, jossa käytät { -brand-firefox }-tiliäsi ja seuraa näkyviin ilmestyviä ohjeita.
+passwordChangeRequired-sign-in = Kirjaudu uudelleen sisään millä tahansa laitteella tai mihin tahansa palveluun, jossa käytät { -product-firefox-account }äsi ja seuraa näkyviin ilmestyviä ohjeita.
 passwordChangeRequired-different-password = <b>Tärkeää:</b> Valitse eri salasana kuin mitä olet aiemmin käyttänyt ja varmistu, ettet käytä samaa salasanaa missään muualla.
 passwordChangeRequired-signoff = Terveisin
 passwordChangeRequired-signoff-name = { -product-firefox-accounts } -tiimi
@@ -316,6 +318,9 @@ subscriptionDowngrade-content-auto-renew = Tilaus uusiutuu automaattisesti joka 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = { $productName } -tilauksesi on peruttu
 subscriptionFailedPaymentsCancellation-title = Tilauksesi on peruttu
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Olemme peruneet { $productName } -tilauksesi, koska useat maksuyritykset epäonnistuivat. Saat käyttöoikeuden uudelleen aloittamalla uuden tilauksen päivitetyllä maksutavalla.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = { $productName } -maksu vahvistettu
@@ -501,7 +506,7 @@ unblockCode-report = Jos et, auta meitä torjumaan tunkeutujia ja <a data-l10n-n
 unblockCode-report-plaintext = Jos et, auta meitä torjumaan tunkeutujia ja ilmoita asiasta meille.
 verificationReminderFirst-subject = Muistutus: viimeistele tilisi luominen
 verificationReminderFirst-title = Tervetuloa { -brand-firefox }-perheeseen
-verificationReminderFirst-description = Loit { -brand-firefox }-tilin muutama päivä sitten, mutta et koskaan vahvistanut sitä.
+verificationReminderFirst-description = Loit { -product-firefox-account }n muutama päivä sitten, mutta et koskaan vahvistanut sitä.
 verificationReminderFirst-sub-description = Vahvista nyt ja saat teknologian, joka taistelee yksityisyyden puolesta ja suojelee sitä, sekä varustaa sinut käytännön tiedoin sekä ansaitsemallasi kunnioituksella.
 confirm-email = Vahvista sähköposti
 confirm-email-plaintext = { confirm-email }:
