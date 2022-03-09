@@ -23,6 +23,7 @@ alert-bar-close-message = 关闭消息
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox 账户
 # “Account” can be localized, “Firefox” must be treated as a brand.
