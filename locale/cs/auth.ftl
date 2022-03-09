@@ -127,19 +127,54 @@
 fxa-privacy-url = Zásady ochrany osobních údajů
 fxa-service-url = Podmínky poskytování služby { -product-firefox-cloud }
 subplat-automated-email = Toto je automaticky zaslaný e-mail – pokud jste si ho nevyžádali, můžete ho ignorovat.
+subplat-privacy-notice = Zásady ochrany osobních údajů
 subplat-privacy-plaintext = Zásady ochrany osobních údajů:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Tuto e-mailovou zprávu vám posíláme, protože e-mailová adresa { $email } má založený { -product-firefox-account(case: "acc", capitalization: "lower") } a jste přihlášení v produktu { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Tuto e-mailovou zprávu vám posíláme, protože { $email } má založený { -product-firefox-account(case: "acc", capitalization: "lower") }.
+subplat-explainer-multiple = Tuto e-mailovou zprávu vám posíláme, protože { $email } má založený { -product-firefox-account(case: "acc", capitalization: "lower") } a máte předplaceno několik produktů.
+subplat-manage-account = Svá nastavení { -product-firefox-account(case: "gen", capitalization: "lower") } můžete spravovat na <a data-l10n-name="subplat-account-page">stránce svého účtu</a>.
 subplat-terms-policy = Podmínky zrušení
 subplat-cancel = Zrušit předplatné
 subplat-reactivate = Obnovit předplatné
 subplat-update-billing = Aktualizovat platební informace
 subplat-privacy-policy = Zásady ochrany osobních údajů
+subplat-cloud-terms = Podmínky poskytování služby { -product-firefox-cloud }
 subplat-legal = Právní informace
 subplat-privacy = Ochrana osobních údajů
+another-desktop-device = Nebo nainstalujte na <a data-l10n-name="anotherDeviceLink">jiný počítač</a>.
+another-device = Nebo nainstalujte na <a data-l10n-name="anotherDeviceLink">jiné zařízení</a>.
+automated-email-change =
+    Toto je automatický e-mail; pokud jste tuto akci neschválili, tak si prosím <a data-l10n-name="passwordChangeLink">změňte heslo</a>.
+    Pro více informací prosím navštivte <a data-l10n-name="supportLink">podporu { -brand-mozilla(case: "gen") }</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Toto je automatický e-mail; pokud jste k { -product-firefox-account(case: "dat", capitalization: "lower") } nepřidali žádné zařízení, okamžitě si změňte heslo na { $passwordChangeLink }
+automated-email =
+    Toto je automatický e-mail; pokud jste jej obdrželi omylem, není vyžadována žádná akce.
+    Pro více informací prosím navštivte <a data-l10n-name="supportLink">podporu { -brand-mozilla(case: "gen") }</a>.
 automated-email-plaintext = Toto je automaticky zaslaný e-mail – pokud jste si ho nevyžádali, můžete ho ignorovat.
+automated-email-reset =
+    Toto je automatický e-mail; pokud jste tuto akci neschválili, tak si prosím <a data-l10n-name="resetLink">obnovte heslo</a>.
+    Pro více informací prosím navštivte <a data-l10n-name="supportLink">podporu { -brand-mozilla(case: "gen") }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Pokud jste své heslo neměnili, okamžitě ho prosím obnovte na adrese { $resetLink }
+cancellationSurvey = Pomozte nám vylepšit naše služby tím, že se zúčastníte tohoto <a data-l10n-name="cancellationSurveyUrl")s>krátkého průzkumu</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Vyplňte prosím krátký formulář a pomozte nám zlepšit naše služby:
 change-password-plaintext = Pokud máte podezření, že se někdo pokouší neoprávněně získat přístup k vašemu účtu, změňte si prosím své heslo.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP adresa: { $ip }
 manage-account = Správa účtu
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Číslo dokladu: { $invoiceNumber }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Máte dotaz ohledně vašeho předplatného? Pomůže vám náš tým podpory:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -253,10 +288,6 @@ verifyPrimary-description = Požadavek na změnu vašeho účtu byl odeslán z t
 verifyPrimary-subject = Ověřit hlavní e-mailovou adresu
 verifyPrimary-action = Ověřit e-mailovou adresu
 verifyPrimary-post-verify = Jakmile bude ověření dokončeno, bude možné z tohoto zařízení měnit některé údaje týkající se vašeho účtu, jako je třeba záložní e-mailová adresa.
-verifySecondary-subject = Ověřit záložní e-mailovou adresu
-verifySecondary-title = Ověřte svou záložní e-mailovou adresu
-verifySecondary-action = Ověřit e-mailovou adresu
-verifySecondary-post-verification = Po ověření budete na tuto e-mailovou adresu dostávat bezpečnostní oznámení a potvrzování přihlášení.
 verifySecondaryCode-subject = Ověřit záložní e-mailovou adresu
 verifySecondaryCode-title = Ověřte svou záložní e-mailovou adresu
 verifySecondaryCode-prompt = Použít ověřovací kód:

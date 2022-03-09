@@ -87,6 +87,8 @@ project-brand =
         [ins] Stripem
     }
     .gender = masculine
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Účet Firefoxu
 
@@ -107,6 +109,8 @@ payment-error-manage-subscription-button = Správa předplatného
 country-currency-mismatch = Měna použitá pro toto předplatné není platná pro zemi spojenou s vaší platbou.
 currency-currency-mismatch = Změna měny bohužel není možná.
 no-subscription-change = Promiňte. Svůj plán předplatného nemůžete změnit.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Předplatné už máte skrze obchod { $mobileAppStore }.
 expired-card-error = Vypadá to, že platnost vaší karty vypršela. Zkuste použít jinou.
 insufficient-funds-error = Vypadá to, že na vaší kartě není dostatek proštředků. Zkuste použít jinou.
 withdrawal-count-limit-exceeded-error = Vypadá to, že je vyčerpán limit vaší karty. Zkuste použít jinou.
@@ -140,6 +144,7 @@ subscription-success-title = Potvrzení předplatného
 subscription-processing-title = Potvrzování předplatného…
 subscription-error-title = Potvrzení předplatného se nezdařilo…
 subscription-noplanchange-title = Tato změna předplatného není podporována
+subscription-iapsubscribed-title = Už předplatné máte
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -398,6 +403,12 @@ sub-item-cancel-msg =
     Po skončení předplaceného období { $period }
     už nebudete mít ke službě { $name } přístup.
 sub-item-cancel-confirm = Zrušit můj přístup a smazat má uložená data ve službě { $name } dne { $period }
+
+## subscription iap item
+
+sub-iap-item-google-purchase = { -brand-name-google }: Nákup v aplikaci
+sub-iap-item-apple-purchase = { -brand-name-apple }: Nákup v aplikaci
+sub-iap-item-manage-button = Spravovat
 account-activated = Váš účet účet je aktivován.
 
 ## subscription route index
@@ -438,6 +449,18 @@ plan-details-header = Podrobnosti produktu
 plan-details-show-button = Zobrazit podrobnosti
 plan-details-hide-button = Skrýt podrobnosti
 plan-details-total-label = Celkem
+plan-details-list-price = Ceník
+
+## coupons
+
+coupon-discount = Sleva
+coupon-discount-applied = Sleva byla uplatněna
+coupon-submit = Použít
+coupon-remove = Odebrat
+coupon-error = Zadaný kód je neplatný nebo jeho platnost vypršela.
+coupon-success = Váš plán se automaticky obnoví za běžnou cenu podle ceníku.
+coupon-enter-code =
+    .placeholder = Vložte kód
 
 ## payment-processing
 
@@ -502,11 +525,9 @@ payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
 
 new-user-sign-in-link = Už máte účet { -brand-name-firefox(case: "gen") }? <a>Přihlaste se</a>
 new-user-step-1 = 1. Vytvořte si účet { -brand-name-firefox(case: "gen") }
-new-user-step-2 = 2. Vyberte způsob platby
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-required-payment-consent = Povinné
 new-user-email =
     .placeholder = foxy@example.com
     .label = Zadejte svou e-mailovou adresu
@@ -519,3 +540,7 @@ new-user-email-validate-confirm = E-mailové adresy se neshodují
 new-user-already-has-account-sign-in = Účet už máte, <a>přihlaste se</a>
 new-user-card-title = Zadejte informace o platební kartě
 new-user-submit = Odebírat
+manage-pocket-title = Hledáte své prémiové předplatné { -brand-name-pocket(case: "gen") }?
+manage-pocket-body = Pro správu <a>klepněte sem</a>.
+payment-method-header = Vyberte způsob platby
+payment-method-required = Povinné
