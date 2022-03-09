@@ -77,6 +77,8 @@ automated-email =
     Quai è in e-mail automatic. Sche ti al has retschavì per sbagl, na stos ti far nagut.
     Per ulteriuras infurmaziuns, per plaschair visitar il <a data-l10n-name="supportLink">support da { -brand-mozilla }</a>.
 automated-email-plaintext = Quai è in e-mail automatic. Sche ti has retschavì per sbagl quest e-mail na stos ti far nagut.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Quai è in e-mail automatic; sche ti n'has betg autorisà questa acziun, mida per plaschair tes pled-clav:
 automated-email-reset =
     Quai è in e-mail automatic. Sche ti n'has betg autorisà questa acziun, <a data-l10n-name="resetLink">reinizialisescha per plaschair tes pled-clav</a>.
     Per ulteriuras infurmaziuns, per plaschair visitar il <a data-l10n-name="supportLink">support da { -brand-mozilla }</a>.
@@ -200,6 +202,11 @@ postAddAccountRecovery-description = Ti has generà cun success ina clav da recu
 postAddAccountRecovery-action = Administrar il conto
 postAddAccountRecovery-recovery = Sche ti n'has betg effectuà questa operaziun, <a data-l10n-name="revokeAccountRecoveryLink">clicca qua</a>.
 postAddAccountRecovery-revoke = Sche ti n’has betg effectuà questa operaziun, revochescha la clav.
+postAddLinkedAccount-subject = Nov conto collià cun { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Tes conto da { $providerName } è vegnì collià cun tes conto da { -product-firefox-account }
+postAddLinkedAccount-action = Administrar il conto
 postAddTwoStepAuthentication-subject = Autentificaziun en dus pass activada
 postAddTwoStepAuthentication-title = Autentificaziun en dus pass activada
 postAddTwoStepAuthentication-description-plaintext = Ti has activà cun success l'autentificaziun en dus pass per tes { -product-firefox-account }. A partir dad ussa è necessari per mintga annunzia in code da segirezza furnì da tia applicaziun d'autentificaziun.
@@ -274,10 +281,8 @@ subscriptionAccountFinishSetup-subject = Bainvegni tar { $productName }: Defines
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bainvegni tar { $productName }
 subscriptionAccountFinishSetup-content-processing = Tes pajament vegn elavurà. Quai po cuzzar enfin quatter dis da lavur. Tes abunament vegn renovà automaticamain suenter mintga perioda da facturaziun sche ti n'al annulleschas betg.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Il proxim pass è la definiziun dad in pled-clav per il conto da Firefox e la telechargiada da { $productName }.
-subscriptionAccountFinishSetup-action = Crear in pled-clav
+subscriptionAccountFinishSetup-content-create-2 = Sco proxim stos ti crear in pled-clav per il { -product-firefox-account } per pudair cumenzar ad utilisar tes nov abunament.
+subscriptionAccountFinishSetup-action-2 = Cumenzar
 subscriptionAccountReminderFirst-subject = Promemoria: Terminescha la configuraziun da tes conto
 subscriptionAccountReminderFirst-title = Ti na pos anc betg acceder a tes abunament
 subscriptionAccountReminderFirst-content-info = Avant in pèr dis has ti creà in { -product-firefox-account } ma n'al has mai verifitgà. Nus sperain che ti fineschias la configuraziun per che ti possias utilisar tes nov abunament.
@@ -371,7 +376,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Numer da qui
 subscriptionFirstInvoiceDiscount-content-subtotal = Summa intermediara: { $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Rabat unic: -{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = Rabat: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -460,6 +465,35 @@ subscriptionSubsequentInvoice-content-charged = Debità { $invoiceTotal } ils { 
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Proxim quint: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Retschavì il pajament per { $productName }
+subscriptionSubsequentInvoiceDiscount-title = Grazia per tes abunament!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Nus avain retschavì tes ultim pajament per { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Numer da quint: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Numer da quint: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = Midada dal plan: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charged = Debità { $invoiceTotal } ils { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Proxim quint: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = Summa intermediara: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = Rabat: -{ $invoiceDiscountAmount }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Ti has midà a { $productNameNew }
 subscriptionUpgrade-title = Grazia per l’upgrade!
@@ -523,14 +557,6 @@ verifyPrimary-subject = Confermar l’adressa dad e-mail principala
 verifyPrimary-action = Verifitgar l’adressa dad e-mail
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Uschespert che quest apparat è verifitgà esi pussaivel da modifitgar il conto (p.ex. agiuntar ina adressa dad e-mail alternativa) cun agid da quest apparat.
-verifySecondary-subject = Confermar l’adressa dad e-mail secundara
-verifySecondary-title = Verifitgar l’adressa dad e-mail alternativa
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Ina dumonda per utilisar { $email } sco adressa dad e-mail alternativa è vegnida fatga da suandant { -product-firefox-account }:
-verifySecondary-action = Verifitgar l’adressa dad e-mail
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Uschè prest che questa adressa è verifitgada retschaiva ella avis da segirezza e confermas.
 verifySecondaryCode-subject = Confermar l’adressa dad e-mail secundara
 verifySecondaryCode-title = Verifitgar l’adressa dad e-mail alternativa
 # Variables:
