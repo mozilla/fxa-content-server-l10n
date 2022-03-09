@@ -42,6 +42,17 @@ alert-bar-close-message = Zavřít zprávu
         [ins] Firefoxem
     }
     .gender = masculine
+-brand-google =
+    { $case ->
+       *[nom] Google
+        [gen] Googlu
+        [dat] Googlu
+        [acc] Google
+        [voc] Google
+        [loc] Googlu
+        [ins] Googlem
+    }
+    .gender = masculine
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $case ->
@@ -133,6 +144,7 @@ product-firefox-monitor =
         [loc] Firefox Monitoru
         [ins] Firefox Monitorem
     }
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -171,6 +183,7 @@ bento-menu-firefox-title = { -brand-firefox } je technologie, která bojuje za v
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Prohlížeč { -brand-firefox } pro počítač
 bento-menu-firefox-mobile = Prohlížeč { -brand-firefox } pro mobily
 bento-menu-made-by-mozilla = Od { -brand-mozilla(case: "gen") }
@@ -298,6 +311,11 @@ input-password-show-aria = Zobrazit heslo v čitelné podobě. Vaše heslo bude 
 
 ## Linked Accounts section
 
+la-heading = Propojené účty
+la-unlink-button = Odpojit
+la-unlink-account-button = Odpojit
+la-unlink-heading = Odpojit od účtu třetí strany
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
@@ -321,6 +339,7 @@ nav-settings = Nastavení
 nav-profile = Profil
 nav-security = Zabezpečení
 nav-connected-services = Propojené služby
+nav-data-collection = Sběr dat a jejich použití
 nav-paid-subs = Předplatné
 nav-email-comm = E-mailová komunikace
 
@@ -502,6 +521,8 @@ tfa-scan-this-code =
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Pro nastavení dvoufázového ověřování v podporovaných aplikacích použijte kód { $secret }.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Nemůžete kód naskenovat?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zadejte tento bezpečnostní kód do své ověřovací aplikace:
@@ -535,6 +556,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Zabezpečení
+security-password =
+    .header = Heslo
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Vytvořeno { $date }
 
 ## Switch component
 
