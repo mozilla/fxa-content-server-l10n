@@ -270,6 +270,7 @@ subscriptionAccountFinishSetup-subject = 欢迎使用 { $productName }：请设�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = 欢迎使用 { $productName }
 subscriptionAccountFinishSetup-content-processing = 正在处理您的付款，最多可能需要 4 个工作日才可完成。除非您主动取消订阅，否则将在每个账单周期结束后自动续订。
+subscriptionAccountFinishSetup-content-create-2 = 接下来，请设置 { -product-firefox-account }密码，以开始使用您新订阅的项目。
 subscriptionAccountFinishSetup-action-2 = 开始使用
 subscriptionAccountReminderFirst-subject = 提醒：请完成账户设置
 subscriptionAccountReminderFirst-title = 您暂时还不能访问订阅的项目
