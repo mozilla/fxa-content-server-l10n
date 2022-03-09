@@ -73,6 +73,8 @@ automated-email-change = 这是一封自动发送的邮件。若您并未授权�
 automated-email-change-plaintext = 这是一封自动发送的邮件。若您并未添加新设备到 { -product-firefox-account }，请立即到 { $passwordChangeLink } 更改密码。
 automated-email = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
 automated-email-plaintext = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = 这是一封自动发送的邮件。若您并未授权此操作，请立即更改密码。
 automated-email-reset = 这是一封自动发送的邮件。若您并未授权进行此操作，<a data-l10n-name="resetLink">请立即重置密码</a>。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
@@ -193,6 +195,7 @@ postAddAccountRecovery-description = 您已使用下列设备，成功生成 { -
 postAddAccountRecovery-action = 管理账号
 postAddAccountRecovery-recovery = 若不是您操作的，<a data-l10n-name="revokeAccountRecoveryLink">请点击此处</a>。
 postAddAccountRecovery-revoke = 若不是您操作的，请吊销该密钥。
+postAddLinkedAccount-action = 管理账户
 postAddTwoStepAuthentication-subject = 已启用两步验证
 postAddTwoStepAuthentication-title = 已启用两步验证
 postAddTwoStepAuthentication-description-plaintext = 您已成功启用 { -product-firefox-account }的两步验证。现在起，每次登录时都会要求您输入身份验证应用上的安全码。
@@ -267,10 +270,7 @@ subscriptionAccountFinishSetup-subject = 欢迎使用 { $productName }：请设�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = 欢迎使用 { $productName }
 subscriptionAccountFinishSetup-content-processing = 正在处理您的付款，最多可能需要 4 个工作日才可完成。除非您主动取消订阅，否则将在每个账单周期结束后自动续订。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = 接下来，您需要创建 Firefox 账户密码并下载 { $productName }。
-subscriptionAccountFinishSetup-action = 创建密码
+subscriptionAccountFinishSetup-action-2 = 开始使用
 subscriptionAccountReminderFirst-subject = 提醒：请完成账户设置
 subscriptionAccountReminderFirst-title = 您暂时还不能访问订阅的项目
 subscriptionAccountReminderFirst-content-info = 您在前几日创建了 { -product-firefox-account }但尚未验证。我们希望您能尽快完成设置，以便使用所订阅的项目。
@@ -364,7 +364,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = 发票号码
 subscriptionFirstInvoiceDiscount-content-subtotal = 小计：{ $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = 一次性折扣：-{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = 折扣：-{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -453,6 +453,35 @@ subscriptionSubsequentInvoice-content-charged = 已于 { $invoiceDateOnly } 收�
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = 已收到 { $productName } 付款
+subscriptionSubsequentInvoiceDiscount-title = 感谢您成为订阅者！
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = 我们已收到您最近为 { $productName } 支付的款项。
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = 发票号码：<b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = 发票号码：{ $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = 方案变更：{ $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charged = 已于 { $invoiceDateOnly } 收取 { $invoiceTotal }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = 小计：{ $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = 折扣：-{ $invoiceDiscountAmount }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = 您已升级至 { $productNameNew }
 subscriptionUpgrade-title = 感谢您的升级订阅！
@@ -516,14 +545,6 @@ verifyPrimary-subject = 确认主邮箱
 verifyPrimary-action = 验证邮箱
 verifyPrimary-action-plaintext = { verifyPrimary-action }：
 verifyPrimary-post-verify = 通过验证后，将可从此设备执行添加备用邮箱等账户更改。
-verifySecondary-subject = 确认备用邮箱地址
-verifySecondary-title = 验证备用邮箱地址
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = 有人请求使用 { $email } 作为下列 { -product-firefox-account }的备用邮箱地址：
-verifySecondary-action = 验证邮箱
-verifySecondary-prompt = { verifySecondary-action }：
-verifySecondary-post-verification = 在验证后，此地址将接受有关的安全通知和确认邮件。
 verifySecondaryCode-subject = 确认备用邮箱地址
 verifySecondaryCode-title = 验证备用邮箱地址
 # Variables:

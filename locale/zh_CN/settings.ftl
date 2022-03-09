@@ -194,6 +194,10 @@ input-password-show = 显示密码
 input-password-hide-aria = 在屏幕上隐藏密码。
 input-password-show-aria = 以纯文本形式显示密码，您的密码将显示在屏幕上。
 
+## Linked Accounts section
+
+nav-linked-accounts = { la-heading }
+
 ## Modal
 
 modal-close-title = 关闭
