@@ -23,6 +23,7 @@ alert-bar-close-message = Κλείσιμο μηνύματος
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $case ->
@@ -243,6 +244,14 @@ input-password-hide = Απόκρυψη κωδικού πρόσβασης
 input-password-show = Εμφάνιση κωδικού πρόσβασης
 input-password-hide-aria = Απόκρυψη κωδικού πρόσβασης από την οθόνη.
 input-password-show-aria = Εμφάνιση κωδικού πρόσβασης ως απλό κείμενο. Θα είναι ορατός στην οθόνη.
+
+## Linked Accounts section
+
+la-heading = Συνδεδεμένοι λογαριασμοί
+la-description = Έχετε παραχωρήσει πρόσβαση στους εξής λογαριασμούς.
+la-unlink-button = Αποσύνδεση
+la-unlink-account-button = Αποσύνδεση
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
