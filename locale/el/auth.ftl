@@ -517,7 +517,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Αλλαγή προ�
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Χρεώθηκαν { $invoiceTotal } στις { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = Χρεώθηκαν { $invoiceTotal } στις { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Επόμενο τιμολόγιο: { $nextInvoiceDateOnly }
@@ -593,6 +593,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Μόλις γίνει επαλήθευση, οι αλλαγές του λογαριασμού, όπως η προσθήκη δευτερεύοντος email, θα καταστούν δυνατές από αυτήν τη συσκευή.
 verifySecondaryCode-subject = Επιβεβαίωση δευτερεύοντος email
 verifySecondaryCode-title = Επαλήθευση δευτερεύοντος email
+verifySecondaryCode-action = Επαλήθευση email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Έχει υποβληθεί ένα αίτημα για τη χρήση του { $email } ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο { -product-firefox-account(case: "acc", capitalization: "lower") }:
