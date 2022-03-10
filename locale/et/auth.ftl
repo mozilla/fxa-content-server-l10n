@@ -50,6 +50,23 @@ subplat-cancel = Tühista tellimus
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Aktiveeri tellimus uuesti
 subplat-reactivate-plaintext = { subplat-reactivate }:
+subplat-update-billing = Värskenda arveldusinfot
+subplat-privacy-policy = { -brand-mozilla } privaatsuspoliitika
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = { -product-firefox-cloud } - teenusetingimused
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-legal = Õiguslik teave
+subplat-legal-plaintext = { subplat-legal }:
+subplat-privacy = Privaatsusest
+subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Laadi { $productName } alla teenusest { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Laadi { $productName } alla teenusest { -app-store }">
+another-desktop-device = Või paigalda <a data-l10n-name="anotherDeviceLink">teisele töölauaseadmele</a>.
+another-device = Või paigalda <a data-l10n-name="anotherDeviceLink">teisele seadmele</a>.
 automated-email-plaintext = See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ole sul vaja midagi teha.
 change-password-plaintext = Kui kahtlustad, et keegi teine püüab sinu kontot kasutada, siis palun vaheta ära parool.
 manage-account = Konto haldamine
