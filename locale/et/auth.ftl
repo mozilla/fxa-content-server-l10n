@@ -153,13 +153,32 @@ downloadSubscription-title = Tere tulemast kasutama teenust { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-content = Kui sa pole veel toodet { $productName } alla laadinud, siis teeme algust kõigi teie tellimusega kaasnevate funktsionaalsuste kasutamisega:
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-link-action = Laadi alla { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Taastamiskoode on vähe alles
 codes-reminder-description = Märkasime, et sul on vähe taastamiskoode alles jäänud. Palun kaalu uute genereerimist, vältimaks enda kontole ligipääsu kaotamist.
 codes-generate = Genereeri koodid
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Genereeri koodid
-newDeviceLogin-action = Konto haldamine
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 taastamiskood veel jäänud
+       *[other] { $numberRemaining } taastamiskoodi veel jäänud
+    }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = { $clientName } - uus sisselogimine
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = { $clientName } - uus sisselogimine
+newDeviceLogin-action = Halda kontot
+passwordChanged-subject = Parool uuendatud
 passwordChanged-title = Parooli muutmine õnnestus
+passwordChanged-description = Sinu teenuse { -product-firefox-account } parool muudeti edukalt järgmisest seadmest:
+passwordChangeRequired-subject = Tuvastati kahtlane tegevus
+passwordChangeRequired-title = Parooli muutmine on vajalik
 passwordChangeRequired-signoff = Parimat soovides,
 passwordReset-title = Sinu konto parooli muudeti
 passwordResetAccountRecovery-title = Sinu konto parool lähtestati taastamisvõtmega
