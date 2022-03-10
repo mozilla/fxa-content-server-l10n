@@ -111,6 +111,8 @@ automated-email =
     Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
     Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
 automated-email-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· εάν δεν εγκρίνατε εσείς αυτήν την ενέργεια, τότε παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας:
 automated-email-reset =
     Αυτό είναι ένα αυτοματοποιημένο email· αν δεν εξουσιοδοτήσατε αυτήν την ενέργεια, τότε <a data-l10n-name="resetLink">παρακαλούμε επαναφέρετε τον κωδικό πρόσβασής σας</a>.
     Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
@@ -234,6 +236,10 @@ postAddAccountRecovery-description = Έχετε δημιουργήσει επι�
 postAddAccountRecovery-action = Διαχείριση λογαριασμού
 postAddAccountRecovery-recovery = Αν δεν το κάνατε εσείς, <a data-l10n-name="revokeAccountRecoveryLink">κάντε κλικ εδώ</a>.
 postAddAccountRecovery-revoke = Αν δεν το κάνατε εσείς, ανακαλέστε το κλειδί.
+postAddLinkedAccount-subject = Συνδέθηκε νέος λογαριασμός με το { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Ο λογαριασμός { $providerName } σας έχει συνδεθεί με τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας
 postAddLinkedAccount-action = Διαχείριση λογαριασμού
 postAddTwoStepAuthentication-subject = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 postAddTwoStepAuthentication-title = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
@@ -309,6 +315,8 @@ subscriptionAccountFinishSetup-subject = Καλώς ορίσατε στο { $pro
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Καλώς ορίσατε στο { $productName }
 subscriptionAccountFinishSetup-content-processing = Η πληρωμή σας βρίσκεται υπό επεξεργασία και ενδέχεται να χρειαστούν έως και τέσσερις εργάσιμες ημέρες για να ολοκληρωθεί. Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός εάν επιλέξετε να την ακυρώσετε.
+subscriptionAccountFinishSetup-content-create-2 = Έπειτα, θα δημιουργήσετε έναν κωδικό πρόσβασης για τον { -product-firefox-account(case: "acc", capitalization: "lower") }, ώστε να ξεκινήσετε τη χρήση της νέας σας συνδρομής.
+subscriptionAccountFinishSetup-action-2 = Έναρξη
 subscriptionAccountReminderFirst-subject = Υπενθύμιση: Ολοκληρώστε τη ρύθμιση του λογαριασμού σας
 subscriptionAccountReminderFirst-title = Δεν έχετε ακόμα πρόσβαση στη συνδρομή σας
 subscriptionAccountReminderFirst-content-info = Πριν από λίγες μέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") } αλλά δεν τον επαληθεύσατε. Ελπίζουμε να ολοκληρώσετε τη ρύθμιση του λογαριασμού σας, ώστε να μπορέσετε να χρησιμοποιήσετε τη νέα σας συνδρομή.
@@ -490,7 +498,13 @@ subscriptionSubsequentInvoice-content-charged = Χρεώθηκαν { $invoiceTot
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Επόμενο τιμολόγιο: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Ελήφθη πληρωμή για το { $productName }
 subscriptionSubsequentInvoiceDiscount-title = Σας ευχαριστούμε για τη συνδρομή σας!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Λάβαμε την τελευταία σας πληρωμή για το { $productName }.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoiceDiscount-content-invoice-number = Αριθμός τιμολογίου: <b>{ $invoiceNumber }</b>
