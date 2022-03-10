@@ -138,6 +138,21 @@ view-invoice = <a data-l10n-name="invoiceLink">Vaata oma arvet</a>.
 view-invoice-plaintext = Vaata arvet: { $invoiceLink }
 cadReminderFirst-subject = Sõbralik meeldetuletus: kuidas sünkroniseerimise seadistamine lõpule viia
 cadReminderFirst-action = Sünkroniseeri teine seade
+cadReminderFirst-title = Siin on sinu meeldetuletus seadmete sünkroniseerimiseks.
+cadReminderFirst-description = Sünkroniseerimiseks on vaja kahte. Teise seadme sünkroniseerimisel { -brand-firefox }iga privaatselt jäävad sinu järjehoidjad, paroolid ja muud { -brand-firefox }i andmed samaks kõikjal, kus kasutad { -brand-firefox }i.
+cadReminderSecond-subject = Viimane meeldetuletus: vii sünkroniseerimise seadistamine lõpule
+cadReminderSecond-action = Sünkroniseeri teine seade
+cadReminderSecond-title = Viimane meeldetuletus seadmete sünkroniseerimiseks!
+cadReminderSecond-description = Teise seadme sünkroniseerimisel { -brand-firefox }iga privaatselt jäävad sinu järjehoidjad, paroolid ja muud { -brand-firefox }i andmed samaks kõikjal, kus kasutad { -brand-firefox }i.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Tere tulemast kasutama teenust { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Tere tulemast kasutama teenust { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-content = Kui sa pole veel toodet { $productName } alla laadinud, siis teeme algust kõigi teie tellimusega kaasnevate funktsionaalsuste kasutamisega:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Taastamiskoode on vähe alles
 codes-reminder-description = Märkasime, et sul on vähe taastamiskoode alles jäänud. Palun kaalu uute genereerimist, vältimaks enda kontole ligipääsu kaotamist.
