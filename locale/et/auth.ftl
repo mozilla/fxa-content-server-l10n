@@ -67,9 +67,40 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Laadi { $produ
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Laadi { $productName } alla teenusest { -app-store }">
 another-desktop-device = Või paigalda <a data-l10n-name="anotherDeviceLink">teisele töölauaseadmele</a>.
 another-device = Või paigalda <a data-l10n-name="anotherDeviceLink">teisele seadmele</a>.
+automated-email-change =
+    Tegemist on automaatselt saadetud kirjaga; kui sa pole seda toimingut lubanud, siis <a data-l10n-name="passwordChangeLink">palun muuda oma parool</a>.
+    Lisateabe saamiseks külasta <a data-l10n-name="supportLink">{ -brand-mozilla } abikeskust</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = See on automaatne teavitus. Kui sa ei lisanud uut seadet teenusesse { -product-firefox-account }, siis peaksid parooli kohe lähtestama aadressil { $passwordChangeLink }
+automated-email =
+    See on automaatne teavitus. Kui sa said selle ekslikult, siis ei pea sa midagi tegema.
+    Lisateabe saamiseks külasta <a data-l10n-name="supportLink">{ -brand-mozilla } abikeskust</a>.
 automated-email-plaintext = See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ole sul vaja midagi teha.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = See on automaatne teavitus. Kui sa ei algatanud seda toimingut, siis palun muuda ära oma parool:
+automated-email-reset =
+    Tegemist on automaatselt saadetud kirjaga; kui sa pole seda toimingut lubanud, siis <a data-l10n-name="resetLink">palun lähtesta oma parool</a>.
+    Lisateabe saamiseks külasta <a data-l10n-name="supportLink">{ -brand-mozilla } abikeskust</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Kui sa seda ei muutnud, siis palun lähtesta oma parool, kasutades { $resetLink }
+cancellationSurvey = Palun aita meil teenust paremaks teha, osaledes selles <a data-l10n-name="cancellationSurveyUrl")s>lühiküsitluses</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Palun aita meil teenust paremaks teha, osaledes järgnevas lühiküsitluses:
 change-password-plaintext = Kui kahtlustad, et keegi teine püüab sinu kontot kasutada, siis palun vaheta ära parool.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-aadress: { $ip }
 manage-account = Konto haldamine
+manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Arve number: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Tasu: { $invoiceTotal } kuupäeval { $invoiceDateOnly }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Taastamiskoode on vähe alles
 codes-reminder-description = Märkasime, et sul on vähe taastamiskoode alles jäänud. Palun kaalu uute genereerimist, vältimaks enda kontole ligipääsu kaotamist.
