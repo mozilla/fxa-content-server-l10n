@@ -541,7 +541,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Plan change: { $paym
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Charged { $invoiceTotal } on { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = Charged { $invoiceTotal } on { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Next Invoice: { $nextInvoiceDateOnly }
@@ -626,6 +626,7 @@ verifyPrimary-post-verify = Once verified, account changes like adding a seconda
 
 verifySecondaryCode-subject = Confirm secondary email
 verifySecondaryCode-title = Verify secondary email
+verifySecondaryCode-action = Verify email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = A request to use { $email } as a secondary email address has been made from the following { -product-firefox-account }:

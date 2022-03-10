@@ -23,6 +23,7 @@ alert-bar-close-message = Stäng meddelande
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox-konton
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -209,6 +210,16 @@ input-password-hide = Dölj lösenord
 input-password-show = Visa lösenord
 input-password-hide-aria = Dölj lösenord från skärmen.
 input-password-show-aria = Visa lösenord som vanlig text. Ditt lösenord kommer att visas på skärmen.
+
+## Linked Accounts section
+
+la-heading = Länkade konton
+la-description = Du har auktoriserad åtkomst till följande konton.
+la-unlink-button = Ta bort länk
+la-unlink-account-button = Ta bort länk
+la-unlink-heading = Ta bort länken från tredje parts konto
+la-unlink-content = Är du säker på att du vill ta bort länken till ditt { -brand-google }-konto? Om du tar bort länken till ditt konto loggas du inte automatiskt ut från dessa tjänster. För att göra det måste du logga ut manuellt från avsnittet Anslutna tjänster.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 

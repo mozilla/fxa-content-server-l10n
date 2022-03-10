@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-03 22:07+0000\n"
-"PO-Revision-Date: 2022-02-08 08:33+0000\n"
+"POT-Creation-Date: 2022-03-10 22:07+0000\n"
+"PO-Revision-Date: 2022-03-04 16:07+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -1882,7 +1882,7 @@ msgstr "Dien"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Wêrom moat ik dit account oanmeitsje? <a %(escapedSuggestionAttrs)s>Lês it hjir</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"

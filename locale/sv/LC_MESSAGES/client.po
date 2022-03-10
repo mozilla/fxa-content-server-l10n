@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-03 22:07+0000\n"
-"PO-Revision-Date: 2022-02-04 01:00+0000\n"
+"POT-Creation-Date: 2022-03-10 22:07+0000\n"
+"PO-Revision-Date: 2022-03-04 21:50+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -1874,7 +1874,7 @@ msgstr "Klar"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Varför måste jag skapa det här kontot? <a %(escapedSuggestionAttrs)s>Ta reda på det här</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"

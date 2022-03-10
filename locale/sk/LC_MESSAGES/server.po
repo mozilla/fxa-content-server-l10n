@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-03 22:07+0000\n"
+"POT-Creation-Date: 2022-03-10 22:07+0000\n"
 "PO-Revision-Date: 2022-03-05 09:04+0000\n"
 "Last-Translator: Vlado Valaštiak <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,250 +15,29 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442482729.0\n"
 
-#: lib/senders/email.js:348
+#: lib/senders/email.js:343
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:374
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:381
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:386
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (odhad)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:391
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (odhad)"
-
-#: lib/senders/email.js:618
-msgid "Verification code: %(code)s"
-msgstr "Overovací kód: %(code)s"
-
-#: lib/senders/email.js:666
-msgid "Reminder: Finish creating your account"
-msgstr "Pripomienka: dokončite vytváranie svojho účtu"
-
-#: lib/senders/email.js:668
-msgid "Final reminder: Activate your account"
-msgstr "Posledná pripomienka: aktivujte svoj účet"
-
-#: lib/senders/email.js:686
-msgid "Confirm email"
-msgstr "Potvrdiť e-mailovú adresu"
-
-#: lib/senders/email.js:719
-msgid "Reminder: Finish setting up your account"
-msgstr "Pripomienka: dokončite nastavenie účtu"
-
-#: lib/senders/email.js:721
-msgid "Final reminder: Setup your account"
-msgstr "Posledná pripomienka: nastavte si účet"
-
-#: lib/senders/email.js:763 lib/senders/email.js:1911
-msgid "Create a password"
-msgstr "Vytvoriť heslo"
-
-#: lib/senders/email.js:799
-msgid "Account authorization code"
-msgstr "Autorizačný kód účtu"
-
-#: lib/senders/email.js:870
-msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Potvrdenie nového prihlásenia k %(clientName)s"
-
-#: lib/senders/email.js:873
-msgid "Confirm sign-in"
-msgstr "Potvrdiť prihlásenie"
-
-#: lib/senders/email.js:982
-msgid "Confirm primary email"
-msgstr "Potvrdiť hlavnú e-mailovú adresu"
-
-#: lib/senders/email.js:983 lib/senders/email.js:1044
-msgid "Verify email"
-msgstr "Overiť e-mailovú adresu"
-
-#: lib/senders/email.js:1043
-msgid "Confirm secondary email"
-msgstr "Potvrdenie alternatívnej e-mailovej adresy"
-
-#: lib/senders/email.js:1101
-msgid "Reset your password"
-msgstr "Obnoviť heslo"
-
-#: lib/senders/email.js:1102
-msgid "Create new password"
-msgstr "Vytvoriť nové heslo"
-
-#: lib/senders/email.js:1145 lib/senders/email.js:1214
-msgid "Password updated"
-msgstr "Heslo bolo aktualizované"
-
-#: lib/senders/email.js:1185
-msgid "Suspicious activity detected"
-msgstr "Bola zistená podozrivá aktivita"
-
-#: lib/senders/email.js:1252
-msgid "New account linked to Firefox"
-msgstr "Nový účet prepojený s Firefoxom"
-
-#: lib/senders/email.js:1253 lib/senders/email.js:1304 lib/senders/email.js:1394 lib/senders/email.js:1430 lib/senders/email.js:1466 lib/senders/email.js:1500 lib/senders/email.js:1585
-#: lib/senders/email.js:1630 lib/senders/email.js:1725 lib/senders/email.js:1773
-msgid "Manage account"
-msgstr "Spravovať účet"
-
-#: lib/senders/email.js:1303
-msgid "New sign-in to %(clientName)s"
-msgstr "Nové prihlásenie k %(clientName)s"
-
-#: lib/senders/email.js:1342
-msgid "Account verified. Next, sync another device to finish setup"
-msgstr "Účet overený. Nastavenie dokončite synchronizáciou iného zariadenia"
-
-#: lib/senders/email.js:1347
-msgid "Set up next device"
-msgstr "Nastavte ďalšie zariadenie"
-
-#: lib/senders/email.js:1393
-msgid "Secondary email added"
-msgstr "Alternatívna e-mailová adresa bola pridaná"
-
-#: lib/senders/email.js:1429
-msgid "Primary email updated"
-msgstr "Hlavná e-mailová adresa bola aktualizovaná"
-
-#: lib/senders/email.js:1465
-msgid "Secondary email removed"
-msgstr "Alternatívna e-mailová adresa bola odstránená"
-
-#: lib/senders/email.js:1499
-msgid "Two-step authentication enabled"
-msgstr "Dvojstupňové overenie bolo povolené"
-
-#: lib/senders/email.js:1584
-msgid "New recovery codes generated"
-msgstr "Boli vygenerované nové obnovovacie kódy"
-
-#: lib/senders/email.js:1629
-msgid "Recovery code used"
-msgstr "Bol použitý obnovovací kód"
-
-#: lib/senders/email.js:1687
-msgid "1 recovery code remaining"
-msgstr "Zostáva vám 1 obnovovací kód"
-
-#: lib/senders/email.js:1689
-msgid "%(numberRemaining)s recovery codes remaining"
-msgstr "Zostávajúce obnovovacie kódy: %(numberRemaining)s"
-
-#: lib/senders/email.js:1692
-msgid "Generate codes"
-msgstr "Vygenerovať kódy"
-
-#: lib/senders/email.js:1724
-msgid "Account recovery key generated"
-msgstr "Obnovovací kľúč k účtu bol vygenerovaný"
-
-#: lib/senders/email.js:1772
-msgid "Account recovery key removed"
-msgstr "Obnovovací kľúč k účtu bol odstránený"
-
-#: lib/senders/email.js:1820
-msgid "Password updated using recovery key"
-msgstr "Heslo bolo obnovené pomocou obnovovacieho kľúča"
-
-#: lib/senders/email.js:1821
-msgid "Create new recovery key"
-msgstr "Vytvoriť nový obnovovací kľúč"
-
-#: lib/senders/email.js:1914
-msgid "Welcome to %(productName)s: Please set your password."
-msgstr "Víta vás %(productName)s: nastavte si heslo."
-
-#: lib/senders/email.js:1988
-msgid "You have upgraded to %(productNameNew)s"
-msgstr "Inovovali ste na %(productNameNew)s"
-
-#: lib/senders/email.js:2069
-msgid "You have switched to %(productNameNew)s"
-msgstr "Úspešne ste prešli na %(productNameNew)s"
-
-#: lib/senders/email.js:2135
-msgid "Credit card for %(productName)s expiring soon"
-msgstr "Platnosť kreditnej karty pre %(productName)s čoskoro vyprší"
-
-#: lib/senders/email.js:2149
-msgid "Credit card for your subscriptions is expiring soon"
-msgstr "Platnosť kreditnej karty pre vaše predplatné čoskoro vyprší"
-
-#: lib/senders/email.js:2200
-msgid "Payment information update required for %(productName)s"
-msgstr "Vyžaduje sa aktualizácia platobných údajov pre %(productName)s"
-
-#: lib/senders/email.js:2216
-msgid "Payment information update required for Mozilla subscriptions"
-msgstr "Vyžaduje sa aktualizácia platobných údajov pre predplatné Mozilly"
-
-#: lib/senders/email.js:2262
-msgid "%(productName)s payment failed"
-msgstr "Platba za %(productName)s zlyhala"
-
-#: lib/senders/email.js:2313 lib/senders/email.js:2378 lib/senders/email.js:2439
-msgid "Your %(productName)s subscription has been cancelled"
-msgstr "Vaše predplatné produktu %(productName)s bolo zrušené"
-
-#: lib/senders/email.js:2496
-msgid "%(productName)s subscription reactivated"
-msgstr "Predplatné pre %(productName)s bolo znova aktivované"
-
-#: lib/senders/email.js:2552
-msgid "%(productName)s automatic renewal notice"
-msgstr "Upozornenie na automatické obnovenie produktu %(productName)s"
-
-#: lib/senders/email.js:2633 lib/senders/email.js:2733
-msgid "%(productName)s payment received"
-msgstr "Platba za %(productName)s bola prijatá"
-
-#: lib/senders/email.js:2837 lib/senders/email.js:2922
-msgid "%(productName)s payment confirmed"
-msgstr "Platba za %(productName)s bola potvrdená"
-
-#: lib/senders/email.js:3028
-msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr "Vaša priateľská pripomienka: ako dokončiť nastavenie synchronizácie"
-
-#: lib/senders/email.js:3029
-msgid "Final Reminder: Complete Sync Setup"
-msgstr "Záverečná pripomienka: dokončite nastavenie synchronizácie"
-
-#: lib/senders/email.js:3032
-msgid "Here's your reminder to sync devices."
-msgstr "Toto je vaša pripomienka na synchronizáciu zariadení."
-
-#: lib/senders/email.js:3033
-msgid "Last reminder to sync devices!"
-msgstr "Posledná pripomienka na synchronizáciu zariadení!"
-
-#: lib/senders/email.js:3036
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Na synchronizáciu sú potrební dvaja. Súkromná synchronizácia iného zariadenia s Firefoxom uchová vaše záložky, heslá a ďalšie údaje Firefoxu rovnaké všade, kde používate Firefox."
-
-#: lib/senders/email.js:3039
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Súkromnou synchronizáciou iného zariadenia s prehliadačom Firefox budú vaše záložky, heslá a ďalšie údaje vo Firefoxe rovnaké všade, kde Firefox používate."
-
-#: lib/senders/email.js:3043
-msgid "Sync another device"
-msgstr "Synchronizovať ďalšie zariadenie"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -338,6 +117,171 @@ msgstr ""
 msgid "Download latest"
 msgstr "Stiahnuť najnovšiu verziu"
 
+#~ msgid "Verification code: %(code)s"
+#~ msgstr "Overovací kód: %(code)s"
+
+#~ msgid "Reminder: Finish creating your account"
+#~ msgstr "Pripomienka: dokončite vytváranie svojho účtu"
+
+#~ msgid "Final reminder: Activate your account"
+#~ msgstr "Posledná pripomienka: aktivujte svoj účet"
+
+#~ msgid "Confirm email"
+#~ msgstr "Potvrdiť e-mailovú adresu"
+
+#~ msgid "Reminder: Finish setting up your account"
+#~ msgstr "Pripomienka: dokončite nastavenie účtu"
+
+#~ msgid "Final reminder: Setup your account"
+#~ msgstr "Posledná pripomienka: nastavte si účet"
+
+#~ msgid "Create a password"
+#~ msgstr "Vytvoriť heslo"
+
+#~ msgid "Account authorization code"
+#~ msgstr "Autorizačný kód účtu"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "Potvrdenie nového prihlásenia k %(clientName)s"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "Potvrdiť prihlásenie"
+
+#~ msgid "Confirm primary email"
+#~ msgstr "Potvrdiť hlavnú e-mailovú adresu"
+
+#~ msgid "Verify email"
+#~ msgstr "Overiť e-mailovú adresu"
+
+#~ msgid "Confirm secondary email"
+#~ msgstr "Potvrdenie alternatívnej e-mailovej adresy"
+
+#~ msgid "Reset your password"
+#~ msgstr "Obnoviť heslo"
+
+#~ msgid "Create new password"
+#~ msgstr "Vytvoriť nové heslo"
+
+#~ msgid "Password updated"
+#~ msgstr "Heslo bolo aktualizované"
+
+#~ msgid "Suspicious activity detected"
+#~ msgstr "Bola zistená podozrivá aktivita"
+
+#~ msgid "New account linked to Firefox"
+#~ msgstr "Nový účet prepojený s Firefoxom"
+
+#~ msgid "Manage account"
+#~ msgstr "Spravovať účet"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "Nové prihlásenie k %(clientName)s"
+
+#~ msgid "Account verified. Next, sync another device to finish setup"
+#~ msgstr "Účet overený. Nastavenie dokončite synchronizáciou iného zariadenia"
+
+#~ msgid "Set up next device"
+#~ msgstr "Nastavte ďalšie zariadenie"
+
+#~ msgid "Secondary email added"
+#~ msgstr "Alternatívna e-mailová adresa bola pridaná"
+
+#~ msgid "Primary email updated"
+#~ msgstr "Hlavná e-mailová adresa bola aktualizovaná"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Alternatívna e-mailová adresa bola odstránená"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "Dvojstupňové overenie bolo povolené"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Boli vygenerované nové obnovovacie kódy"
+
+#~ msgid "Recovery code used"
+#~ msgstr "Bol použitý obnovovací kód"
+
+#~ msgid "1 recovery code remaining"
+#~ msgstr "Zostáva vám 1 obnovovací kód"
+
+#~ msgid "%(numberRemaining)s recovery codes remaining"
+#~ msgstr "Zostávajúce obnovovacie kódy: %(numberRemaining)s"
+
+#~ msgid "Generate codes"
+#~ msgstr "Vygenerovať kódy"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "Obnovovací kľúč k účtu bol vygenerovaný"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "Obnovovací kľúč k účtu bol odstránený"
+
+#~ msgid "Password updated using recovery key"
+#~ msgstr "Heslo bolo obnovené pomocou obnovovacieho kľúča"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "Vytvoriť nový obnovovací kľúč"
+
+#~ msgid "Welcome to %(productName)s: Please set your password."
+#~ msgstr "Víta vás %(productName)s: nastavte si heslo."
+
+#~ msgid "You have upgraded to %(productNameNew)s"
+#~ msgstr "Inovovali ste na %(productNameNew)s"
+
+#~ msgid "You have switched to %(productNameNew)s"
+#~ msgstr "Úspešne ste prešli na %(productNameNew)s"
+
+#~ msgid "Credit card for %(productName)s expiring soon"
+#~ msgstr "Platnosť kreditnej karty pre %(productName)s čoskoro vyprší"
+
+#~ msgid "Credit card for your subscriptions is expiring soon"
+#~ msgstr "Platnosť kreditnej karty pre vaše predplatné čoskoro vyprší"
+
+#~ msgid "Payment information update required for %(productName)s"
+#~ msgstr "Vyžaduje sa aktualizácia platobných údajov pre %(productName)s"
+
+#~ msgid "Payment information update required for Mozilla subscriptions"
+#~ msgstr "Vyžaduje sa aktualizácia platobných údajov pre predplatné Mozilly"
+
+#~ msgid "%(productName)s payment failed"
+#~ msgstr "Platba za %(productName)s zlyhala"
+
+#~ msgid "Your %(productName)s subscription has been cancelled"
+#~ msgstr "Vaše predplatné produktu %(productName)s bolo zrušené"
+
+#~ msgid "%(productName)s subscription reactivated"
+#~ msgstr "Predplatné pre %(productName)s bolo znova aktivované"
+
+#~ msgid "%(productName)s automatic renewal notice"
+#~ msgstr "Upozornenie na automatické obnovenie produktu %(productName)s"
+
+#~ msgid "%(productName)s payment received"
+#~ msgstr "Platba za %(productName)s bola prijatá"
+
+#~ msgid "%(productName)s payment confirmed"
+#~ msgstr "Platba za %(productName)s bola potvrdená"
+
+#~ msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
+#~ msgstr "Vaša priateľská pripomienka: ako dokončiť nastavenie synchronizácie"
+
+#~ msgid "Final Reminder: Complete Sync Setup"
+#~ msgstr "Záverečná pripomienka: dokončite nastavenie synchronizácie"
+
+#~ msgid "Here's your reminder to sync devices."
+#~ msgstr "Toto je vaša pripomienka na synchronizáciu zariadení."
+
+#~ msgid "Last reminder to sync devices!"
+#~ msgstr "Posledná pripomienka na synchronizáciu zariadení!"
+
+#~ msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr "Na synchronizáciu sú potrební dvaja. Súkromná synchronizácia iného zariadenia s Firefoxom uchová vaše záložky, heslá a ďalšie údaje Firefoxu rovnaké všade, kde používate Firefox."
+
+#~ msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr "Súkromnou synchronizáciou iného zariadenia s prehliadačom Firefox budú vaše záložky, heslá a ďalšie údaje vo Firefoxe rovnaké všade, kde Firefox používate."
+
+#~ msgid "Sync another device"
+#~ msgstr "Synchronizovať ďalšie zariadenie"
+
 #~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
 #~ msgstr "Ak ste si ešte nestiahli %(productName)s, poďme začať používať všetky funkcie zahrnuté vo vašom predplatnom:"
 
@@ -363,8 +307,8 @@ msgstr "Stiahnuť najnovšiu verziu"
 #~ msgstr "Vyžaduje sa zmena hesla"
 
 #~ msgid ""
-#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
-#~ "password as a precaution."
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
 #~ msgstr ""
 #~ "Vo vašom účte Firefox sme zistili podozrivé správanie. Aby sme zabránili neoprávnenému prístupu k vášmu účtu Firefox, odpojili sme všetky zariadenia vo vašom účte a vyžadujeme, aby ste si "
 #~ "preventívne zmenili heslo."
@@ -472,7 +416,8 @@ msgstr "Stiahnuť najnovšiu verziu"
 #~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 #~ msgstr "Úspešne ste odstránili obnovovací kľúč pre svoj účet Firefox z nasledujúceho zariadenia:"
 
-#~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Úspešne ste odstránili %(secondaryEmail)s ako alternatívnu e-mailovú adresu z vášho účtu Firefox. Bezpečnostné upozornenia a potvrdenia prihlásenia už nebudú odosielané na túto adresu."
 
 #~ msgid "Two-step authentication disabled"
@@ -499,8 +444,10 @@ msgstr "Stiahnuť najnovšiu verziu"
 #~ msgid "Have questions? Visit %(supportUrl)s"
 #~ msgstr "Máte otázky? Navštívte %(supportUrl)s"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-#~ msgstr "Úspešne ste overili adresu %(secondaryEmail)s ako alternatívnu e-mailovú adresu pre váš účet Firefox. Bezpečnostné upozornenia a potvrdenia prihlásenia budú odteraz odosielané na obe adresy."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "Úspešne ste overili adresu %(secondaryEmail)s ako alternatívnu e-mailovú adresu pre váš účet Firefox. Bezpečnostné upozornenia a potvrdenia prihlásenia budú odteraz odosielané na obe adresy."
 
 #~ msgid "Need to reset your password?"
 #~ msgstr "Potrebujete obnoviť svoje heslo?"
@@ -516,7 +463,8 @@ msgstr "Stiahnuť najnovšiu verziu"
 
 #~ msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
 #~ msgstr ""
-#~ "Nedávno ste odstránili svoj účet Firefox. V dôsledku toho sme zrušili vaše predplatné produktu %(productName)s. Vaša posledná platba vo výške %(invoiceTotal)s bola zaplatená dňa %(invoiceDateOnly)s."
+#~ "Nedávno ste odstránili svoj účet Firefox. V dôsledku toho sme zrušili vaše predplatné produktu %(productName)s. Vaša posledná platba vo výške %(invoiceTotal)s bola zaplatená dňa "
+#~ "%(invoiceDateOnly)s."
 
 #~ msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
 #~ msgstr "Vyplňte, prosím, tento <a %(cancellationSurveyLinkAttributes)s>krátky formulár</a> a pomôžte nám zlepšiť naše služby."
@@ -558,21 +506,21 @@ msgstr "Stiahnuť najnovšiu verziu"
 #~ msgstr "Víta vás Firefox!"
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
-#~ "Zrušili sme vaše predplatné produktu %(productName)s. Vaša posledná platba vo výške %(invoiceTotal)s bola zaplatená dňa %(invoiceDateOnly)s. Vaša služba bude pokračovať až do konca vášho aktuálneho "
-#~ "fakturačného obdobia, čo je %(serviceLastActiveDateOnly)s."
+#~ "Zrušili sme vaše predplatné produktu %(productName)s. Vaša posledná platba vo výške %(invoiceTotal)s bola zaplatená dňa %(invoiceDateOnly)s. Vaša služba bude pokračovať až do konca vášho "
+#~ "aktuálneho fakturačného obdobia, čo je %(serviceLastActiveDateOnly)s."
 
 #~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
 #~ msgstr "Úspešne ste prešli z %(productNameOld)s na %(productNameNew)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-#~ "given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
 #~ msgstr ""
-#~ "Počnúc ďalšou faktúrou sa váš poplatok zmení z %(paymentAmountOld)s za %(productPaymentCycleOld)s na %(paymentAmountNew)s za %(productPaymentCycleNew)s. V tom čase vám bude účtovaný aj jednorazový "
-#~ "poplatok %(paymentProrated)s, ktorý odráža vyšší poplatok za tento %(productPaymentCycleOld)s (pomerná časť)."
+#~ "Počnúc ďalšou faktúrou sa váš poplatok zmení z %(paymentAmountOld)s za %(productPaymentCycleOld)s na %(paymentAmountNew)s za %(productPaymentCycleNew)s. V tom čase vám bude účtovaný aj "
+#~ "jednorazový poplatok %(paymentProrated)s, ktorý odráža vyšší poplatok za tento %(productPaymentCycleOld)s (pomerná časť)."
 
 #~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
 #~ msgstr "Ak je k dispozícii nový softvér potrebný na to, aby ste mohli používať %(productNameNew)s, dostanete samostatný e-mail s pokynmi na stiahnutie."
@@ -659,11 +607,11 @@ msgstr "Stiahnuť najnovšiu verziu"
 #~ msgstr "Ďakujeme za opätovnú aktiváciu predplatného produktu %(productName)s!"
 
 #~ msgid ""
-#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
-#~ "choose to cancel."
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
 #~ msgstr ""
-#~ "Váš fakturačný cyklus a platba zostanú rovnaké. Vaša ďalšia platba bude v sume %(invoiceTotal)s konaná dňa %(nextInvoiceDateOnly)s. Vaše predplatné sa automaticky obnoví každé fakturačné obdobie, "
-#~ "pokiaľ ho nezrušíte."
+#~ "Váš fakturačný cyklus a platba zostanú rovnaké. Vaša ďalšia platba bude v sume %(invoiceTotal)s konaná dňa %(nextInvoiceDateOnly)s. Vaše predplatné sa automaticky obnoví každé fakturačné "
+#~ "obdobie, pokiaľ ho nezrušíte."
 
 #~ msgid "Your subscription will be renewed soon"
 #~ msgstr "Vaše predplatné bude čoskoro obnovené"
@@ -682,11 +630,11 @@ msgstr "Stiahnuť najnovšiu verziu"
 #~ msgstr "Ak sa chcete uistiť, že váš spôsob platby a informácie o účte sú aktuálne, môžete tak urobiť <a href=\"%(updateBillingUrl)s\">tu</a>."
 
 #~ msgid ""
-#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
-#~ "us</a>."
+#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">contact us</a>."
 #~ msgstr ""
-#~ "Ďakujeme, že ste si predplatili %(productName)s. Ak máte akékoľvek otázky týkajúce sa predplatného alebo potrebujete ďalšie informácie o produkte %(productName)s, <a "
-#~ "href=\"%(subscriptionSupportUrl)s\">kontaktujte nás</a>."
+#~ "Ďakujeme, že ste si predplatili %(productName)s. Ak máte akékoľvek otázky týkajúce sa predplatného alebo potrebujete ďalšie informácie o produkte %(productName)s, <a href="
+#~ "\"%(subscriptionSupportUrl)s\">kontaktujte nás</a>."
 
 #~ msgid "Sincerely,"
 #~ msgstr "S pozdravom,"
@@ -713,11 +661,11 @@ msgstr "Stiahnuť najnovšiu verziu"
 #~ msgstr "Úspešne ste inovovali z %(productNameOld)s na %(productNameNew)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-#~ "charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 #~ msgstr ""
-#~ "Počnúc ďalšou faktúrou sa váš poplatok zmení z %(paymentAmountOld)s za %(productPaymentCycleOld)s na %(paymentAmountNew)s za %(productPaymentCycleNew)s. V tom čase vám bude účtovaný aj jednorazový "
-#~ "poplatok %(paymentProrated)s, ktorý odráža vyšší poplatok za tento %(productPaymentCycleOld)s (pomerná časť)."
+#~ "Počnúc ďalšou faktúrou sa váš poplatok zmení z %(paymentAmountOld)s za %(productPaymentCycleOld)s na %(paymentAmountNew)s za %(productPaymentCycleNew)s. V tom čase vám bude účtovaný aj "
+#~ "jednorazový poplatok %(paymentProrated)s, ktorý odráža vyšší poplatok za tento %(productPaymentCycleOld)s (pomerná časť)."
 
 #~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
 #~ msgstr "Platnosť kreditnej karty, ktorú používate na platby za nasledujúce predplatné, čoskoro vyprší."
@@ -948,7 +896,8 @@ msgstr "Stiahnuť najnovšiu verziu"
 #~ msgstr "Najskôr zmeňte heslo vášho účtu Firefox."
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
 #~ msgstr ""
 #~ "Ak máte vo svojom Firefoxe nastavené ukladanie hesiel pre prihlasovanie na webových stránkach, mali by ste si tieto heslá tiež zmeniť. Útočníci k nim už mohli získať prístup, skontrolujte teda "
 #~ "prosím svoje účty."
@@ -1057,8 +1006,8 @@ msgstr "Stiahnuť najnovšiu verziu"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox. Teraz sa môžete prihlásiť k službe Sync aj zo svojich ďalších zariadení, vrátane Firefoxu pre <a href='%(androidUrl)s'>Android</a> "
-#~ "alebo <a href='%(iosUrl)s'>iOS</a>."
+#~ "Úspešne ste pripojili svoje prvé zariadenie k svojmu účtu Firefox. Teraz sa môžete prihlásiť k službe Sync aj zo svojich ďalších zariadení, vrátane Firefoxu pre <a href='%(androidUrl)s'>Android</"
+#~ "a> alebo <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -1212,11 +1161,11 @@ msgstr "Stiahnuť najnovšiu verziu"
 #~ msgstr "Obnoviť heslo"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
-#~ "Pred pár dňami ste si vytvorili účet Firefox, ale zatiaľ ste ho neoverili. Overený účet vám umožní prístup k vašim kartám, záložkám, heslám a histórii na všetkých vašich zariadeniach, ktoré k nemu "
-#~ "pripojíte. Pre aktiváciu jednoducho stačí potvrdiť túto e-mailovú adresu."
+#~ "Pred pár dňami ste si vytvorili účet Firefox, ale zatiaľ ste ho neoverili. Overený účet vám umožní prístup k vašim kartám, záložkám, heslám a histórii na všetkých vašich zariadeniach, ktoré k "
+#~ "nemu pripojíte. Pre aktiváciu jednoducho stačí potvrdiť túto e-mailovú adresu."
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
 #~ msgstr ""
@@ -1240,18 +1189,19 @@ msgstr "Stiahnuť najnovšiu verziu"
 #~ msgid "Verify email for Firefox Accounts"
 #~ msgstr "Overiť e-mailovú adresu pre účet Firefox"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
-#~ "Úspešne ste overili adresu %(secondaryEmail)s ako vašu sekundárnu e-mailovú adresu pre váš účet Firefox Account. Bezpečnostné upozornenia a potvrdenia prihlásenia vám budeme zasielať na obe "
-#~ "e-mailové adresy."
+#~ "Úspešne ste overili adresu %(secondaryEmail)s ako vašu sekundárnu e-mailovú adresu pre váš účet Firefox Account. Bezpečnostné upozornenia a potvrdenia prihlásenia vám budeme zasielať na obe e-"
+#~ "mailové adresy."
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
 #~ msgstr "Tu je požadovaný odkaz na inštaláciu Firefoxu na vaše mobilné zariadenie: %(link)s"
 
 #~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
 #~ msgstr ""
-#~ "Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup niekto"
-#~ " ďalší."
+#~ "Prihlásili ste sa v posledných 60-tich dňoch ku svojmu účtu Firefoxu Account z niektorého z týchto miest? Ak túto aktivitu nespoznávate, môže to znamenať, že k vášmu účtu mohol získať prístup "
+#~ "niekto ďalší."
 
 #~ msgid "Date & Time:"
 #~ msgstr "Dátum a čas:"

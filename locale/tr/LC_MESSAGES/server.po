@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-03 22:07+0000\n"
+"POT-Creation-Date: 2022-03-10 22:07+0000\n"
 "PO-Revision-Date: 2022-01-18 13:37+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,250 +15,29 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1445256872.0\n"
 
-#: lib/senders/email.js:348
+#: lib/senders/email.js:343
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s - %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s - %(uaOS)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:374
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:381
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:386
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (tahmini)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:391
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (tahmini)"
-
-#: lib/senders/email.js:618
-msgid "Verification code: %(code)s"
-msgstr "Doğrulama kodu: %(code)s"
-
-#: lib/senders/email.js:666
-msgid "Reminder: Finish creating your account"
-msgstr "Hatırlatma: Hesabınızı oluşturmayı tamamlayın"
-
-#: lib/senders/email.js:668
-msgid "Final reminder: Activate your account"
-msgstr "Son hatırlatma: Hesabınızı etkinleştirin"
-
-#: lib/senders/email.js:686
-msgid "Confirm email"
-msgstr "E-postanızı doğrulayın"
-
-#: lib/senders/email.js:719
-msgid "Reminder: Finish setting up your account"
-msgstr "Hatırlatma: Hesabınızın kurulumunu tamamlayın"
-
-#: lib/senders/email.js:721
-msgid "Final reminder: Setup your account"
-msgstr "Son hatırlatma: Hesabınızı kurun"
-
-#: lib/senders/email.js:763 lib/senders/email.js:1911
-msgid "Create a password"
-msgstr "Parola oluştur"
-
-#: lib/senders/email.js:799
-msgid "Account authorization code"
-msgstr "Hesap yetkilendirme kodu"
-
-#: lib/senders/email.js:870
-msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Yeni %(clientName)s girişini onaylayın"
-
-#: lib/senders/email.js:873
-msgid "Confirm sign-in"
-msgstr "Girişi onayla"
-
-#: lib/senders/email.js:982
-msgid "Confirm primary email"
-msgstr "Ana e-posta adresini onayla"
-
-#: lib/senders/email.js:983 lib/senders/email.js:1044
-msgid "Verify email"
-msgstr "E-postayı doğrula"
-
-#: lib/senders/email.js:1043
-msgid "Confirm secondary email"
-msgstr "İkinci e-postayı onayla"
-
-#: lib/senders/email.js:1101
-msgid "Reset your password"
-msgstr "Parolanızı sıfırlayın"
-
-#: lib/senders/email.js:1102
-msgid "Create new password"
-msgstr "Yeni parola oluştur"
-
-#: lib/senders/email.js:1145 lib/senders/email.js:1214
-msgid "Password updated"
-msgstr "Parola güncellendi"
-
-#: lib/senders/email.js:1185
-msgid "Suspicious activity detected"
-msgstr "Şüpheli etkinlik algılandı"
-
-#: lib/senders/email.js:1252
-msgid "New account linked to Firefox"
-msgstr ""
-
-#: lib/senders/email.js:1253 lib/senders/email.js:1304 lib/senders/email.js:1394 lib/senders/email.js:1430 lib/senders/email.js:1466 lib/senders/email.js:1500 lib/senders/email.js:1585
-#: lib/senders/email.js:1630 lib/senders/email.js:1725 lib/senders/email.js:1773
-msgid "Manage account"
-msgstr "Hesabı yönet"
-
-#: lib/senders/email.js:1303
-msgid "New sign-in to %(clientName)s"
-msgstr "Yeni %(clientName)s girişi"
-
-#: lib/senders/email.js:1342
-msgid "Account verified. Next, sync another device to finish setup"
-msgstr "Hesap doğrulandı. Şimdi kurulumu tamamlamak için başka bir cihazı eşitleyin"
-
-#: lib/senders/email.js:1347
-msgid "Set up next device"
-msgstr "Sonraki cihazı kur"
-
-#: lib/senders/email.js:1393
-msgid "Secondary email added"
-msgstr "İkinci e-posta eklendi"
-
-#: lib/senders/email.js:1429
-msgid "Primary email updated"
-msgstr "Ana e-posta güncellendi"
-
-#: lib/senders/email.js:1465
-msgid "Secondary email removed"
-msgstr "İkinci e-posta silindi"
-
-#: lib/senders/email.js:1499
-msgid "Two-step authentication enabled"
-msgstr "İki aşamalı kimlik doğrulama etkinleştirildi"
-
-#: lib/senders/email.js:1584
-msgid "New recovery codes generated"
-msgstr "Yeni kurtarma kodları üretildi"
-
-#: lib/senders/email.js:1629
-msgid "Recovery code used"
-msgstr "Kullanılan kurtarma kodu"
-
-#: lib/senders/email.js:1687
-msgid "1 recovery code remaining"
-msgstr "1 kurtarma kodu kaldı"
-
-#: lib/senders/email.js:1689
-msgid "%(numberRemaining)s recovery codes remaining"
-msgstr "%(numberRemaining)s kurtarma kodu kaldı"
-
-#: lib/senders/email.js:1692
-msgid "Generate codes"
-msgstr "Kodları oluştur"
-
-#: lib/senders/email.js:1724
-msgid "Account recovery key generated"
-msgstr "Hesap kurtarma anahtarı oluşturuldu"
-
-#: lib/senders/email.js:1772
-msgid "Account recovery key removed"
-msgstr "Hesap kurtarma anahtarı silindi"
-
-#: lib/senders/email.js:1820
-msgid "Password updated using recovery key"
-msgstr "Kurtarma anahtarı kullanılarak parola güncellendi"
-
-#: lib/senders/email.js:1821
-msgid "Create new recovery key"
-msgstr "Yeni kurtarma anahtarı oluştur"
-
-#: lib/senders/email.js:1914
-msgid "Welcome to %(productName)s: Please set your password."
-msgstr "%(productName)s hizmetine hoş geldiniz: Lütfen parolanızı belirleyin."
-
-#: lib/senders/email.js:1988
-msgid "You have upgraded to %(productNameNew)s"
-msgstr "%(productNameNew)s aboneliğine yükselttiniz"
-
-#: lib/senders/email.js:2069
-msgid "You have switched to %(productNameNew)s"
-msgstr "%(productNameNew)s aboneliğine geçtiniz"
-
-#: lib/senders/email.js:2135
-msgid "Credit card for %(productName)s expiring soon"
-msgstr "%(productName)s için kredi kartının kullanım süresi yakında doluyor"
-
-#: lib/senders/email.js:2149
-msgid "Credit card for your subscriptions is expiring soon"
-msgstr "Abonelikleriniz için kredi kartının kullanım süresi yakında doluyor"
-
-#: lib/senders/email.js:2200
-msgid "Payment information update required for %(productName)s"
-msgstr "%(productName)s için ödeme bilgilerinizi güncellemeniz gerekiyor"
-
-#: lib/senders/email.js:2216
-msgid "Payment information update required for Mozilla subscriptions"
-msgstr "Mozilla abonelikleri için ödeme bilgilerinizi güncellemeniz gerekiyor"
-
-#: lib/senders/email.js:2262
-msgid "%(productName)s payment failed"
-msgstr "%(productName)s ödemesi başarısız oldu"
-
-#: lib/senders/email.js:2313 lib/senders/email.js:2378 lib/senders/email.js:2439
-msgid "Your %(productName)s subscription has been cancelled"
-msgstr "%(productName)s aboneliğiniz iptal edildi"
-
-#: lib/senders/email.js:2496
-msgid "%(productName)s subscription reactivated"
-msgstr "%(productName)s aboneliği yeniden etkinleştirildi"
-
-#: lib/senders/email.js:2552
-msgid "%(productName)s automatic renewal notice"
-msgstr "%(productName)s otomatik yenileme bildirimi"
-
-#: lib/senders/email.js:2633 lib/senders/email.js:2733
-msgid "%(productName)s payment received"
-msgstr "%(productName)s ödemesi alındı"
-
-#: lib/senders/email.js:2837 lib/senders/email.js:2922
-msgid "%(productName)s payment confirmed"
-msgstr "%(productName)s ödemesi onaylandı"
-
-#: lib/senders/email.js:3028
-msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr "Hatırlatma: Sync kurulumunuzu tamamlayın"
-
-#: lib/senders/email.js:3029
-msgid "Final Reminder: Complete Sync Setup"
-msgstr "Son hatırlatma: Sync kurulumunu tamamlayın"
-
-#: lib/senders/email.js:3032
-msgid "Here's your reminder to sync devices."
-msgstr "Cihazları eşitlemenizi hatırlatalım dedik."
-
-#: lib/senders/email.js:3033
-msgid "Last reminder to sync devices!"
-msgstr "Cihazları eşitlemeniz için son hatırlatma!"
-
-#: lib/senders/email.js:3036
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Eşitleme için iki cihazınız olmalı. Başka bir cihazınızı Firefox’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer Firefox verilerinizi Firefox’u kullandığınız her yere taşıyabilirsiniz."
-
-#: lib/senders/email.js:3039
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Başka bir cihazınızı Firefox’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer Firefox verilerinizi Firefox’u kullandığınız her yere taşıyabilirsiniz."
-
-#: lib/senders/email.js:3043
-msgid "Sync another device"
-msgstr "Başka bir cihazı eşitle"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -344,6 +123,169 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Son sürümü indir"
+
+#~ msgid "Verification code: %(code)s"
+#~ msgstr "Doğrulama kodu: %(code)s"
+
+#~ msgid "Reminder: Finish creating your account"
+#~ msgstr "Hatırlatma: Hesabınızı oluşturmayı tamamlayın"
+
+#~ msgid "Final reminder: Activate your account"
+#~ msgstr "Son hatırlatma: Hesabınızı etkinleştirin"
+
+#~ msgid "Confirm email"
+#~ msgstr "E-postanızı doğrulayın"
+
+#~ msgid "Reminder: Finish setting up your account"
+#~ msgstr "Hatırlatma: Hesabınızın kurulumunu tamamlayın"
+
+#~ msgid "Final reminder: Setup your account"
+#~ msgstr "Son hatırlatma: Hesabınızı kurun"
+
+#~ msgid "Create a password"
+#~ msgstr "Parola oluştur"
+
+#~ msgid "Account authorization code"
+#~ msgstr "Hesap yetkilendirme kodu"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "Yeni %(clientName)s girişini onaylayın"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "Girişi onayla"
+
+#~ msgid "Confirm primary email"
+#~ msgstr "Ana e-posta adresini onayla"
+
+#~ msgid "Verify email"
+#~ msgstr "E-postayı doğrula"
+
+#~ msgid "Confirm secondary email"
+#~ msgstr "İkinci e-postayı onayla"
+
+#~ msgid "Reset your password"
+#~ msgstr "Parolanızı sıfırlayın"
+
+#~ msgid "Create new password"
+#~ msgstr "Yeni parola oluştur"
+
+#~ msgid "Password updated"
+#~ msgstr "Parola güncellendi"
+
+#~ msgid "Suspicious activity detected"
+#~ msgstr "Şüpheli etkinlik algılandı"
+
+#~ msgid "Manage account"
+#~ msgstr "Hesabı yönet"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "Yeni %(clientName)s girişi"
+
+#~ msgid "Account verified. Next, sync another device to finish setup"
+#~ msgstr "Hesap doğrulandı. Şimdi kurulumu tamamlamak için başka bir cihazı eşitleyin"
+
+#~ msgid "Set up next device"
+#~ msgstr "Sonraki cihazı kur"
+
+#~ msgid "Secondary email added"
+#~ msgstr "İkinci e-posta eklendi"
+
+#~ msgid "Primary email updated"
+#~ msgstr "Ana e-posta güncellendi"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "İkinci e-posta silindi"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "İki aşamalı kimlik doğrulama etkinleştirildi"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Yeni kurtarma kodları üretildi"
+
+#~ msgid "Recovery code used"
+#~ msgstr "Kullanılan kurtarma kodu"
+
+#~ msgid "1 recovery code remaining"
+#~ msgstr "1 kurtarma kodu kaldı"
+
+#~ msgid "%(numberRemaining)s recovery codes remaining"
+#~ msgstr "%(numberRemaining)s kurtarma kodu kaldı"
+
+#~ msgid "Generate codes"
+#~ msgstr "Kodları oluştur"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "Hesap kurtarma anahtarı oluşturuldu"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "Hesap kurtarma anahtarı silindi"
+
+#~ msgid "Password updated using recovery key"
+#~ msgstr "Kurtarma anahtarı kullanılarak parola güncellendi"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "Yeni kurtarma anahtarı oluştur"
+
+#~ msgid "Welcome to %(productName)s: Please set your password."
+#~ msgstr "%(productName)s hizmetine hoş geldiniz: Lütfen parolanızı belirleyin."
+
+#~ msgid "You have upgraded to %(productNameNew)s"
+#~ msgstr "%(productNameNew)s aboneliğine yükselttiniz"
+
+#~ msgid "You have switched to %(productNameNew)s"
+#~ msgstr "%(productNameNew)s aboneliğine geçtiniz"
+
+#~ msgid "Credit card for %(productName)s expiring soon"
+#~ msgstr "%(productName)s için kredi kartının kullanım süresi yakında doluyor"
+
+#~ msgid "Credit card for your subscriptions is expiring soon"
+#~ msgstr "Abonelikleriniz için kredi kartının kullanım süresi yakında doluyor"
+
+#~ msgid "Payment information update required for %(productName)s"
+#~ msgstr "%(productName)s için ödeme bilgilerinizi güncellemeniz gerekiyor"
+
+#~ msgid "Payment information update required for Mozilla subscriptions"
+#~ msgstr "Mozilla abonelikleri için ödeme bilgilerinizi güncellemeniz gerekiyor"
+
+#~ msgid "%(productName)s payment failed"
+#~ msgstr "%(productName)s ödemesi başarısız oldu"
+
+#~ msgid "Your %(productName)s subscription has been cancelled"
+#~ msgstr "%(productName)s aboneliğiniz iptal edildi"
+
+#~ msgid "%(productName)s subscription reactivated"
+#~ msgstr "%(productName)s aboneliği yeniden etkinleştirildi"
+
+#~ msgid "%(productName)s automatic renewal notice"
+#~ msgstr "%(productName)s otomatik yenileme bildirimi"
+
+#~ msgid "%(productName)s payment received"
+#~ msgstr "%(productName)s ödemesi alındı"
+
+#~ msgid "%(productName)s payment confirmed"
+#~ msgstr "%(productName)s ödemesi onaylandı"
+
+#~ msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
+#~ msgstr "Hatırlatma: Sync kurulumunuzu tamamlayın"
+
+#~ msgid "Final Reminder: Complete Sync Setup"
+#~ msgstr "Son hatırlatma: Sync kurulumunu tamamlayın"
+
+#~ msgid "Here's your reminder to sync devices."
+#~ msgstr "Cihazları eşitlemenizi hatırlatalım dedik."
+
+#~ msgid "Last reminder to sync devices!"
+#~ msgstr "Cihazları eşitlemeniz için son hatırlatma!"
+
+#~ msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr ""
+#~ "Eşitleme için iki cihazınız olmalı. Başka bir cihazınızı Firefox’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer Firefox verilerinizi Firefox’u kullandığınız her yere taşıyabilirsiniz."
+
+#~ msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr "Başka bir cihazınızı Firefox’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer Firefox verilerinizi Firefox’u kullandığınız her yere taşıyabilirsiniz."
+
+#~ msgid "Sync another device"
+#~ msgstr "Başka bir cihazı eşitle"
 
 #~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
 #~ msgstr "%(productName)s uygulamasını henüz indirmediyseniz hemen indirin, aboneliğinize dahil olan tüm özellikleri kullanmaya başlayın:"

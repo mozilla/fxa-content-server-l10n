@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-03 22:07+0000\n"
+"POT-Creation-Date: 2022-03-10 22:07+0000\n"
 "PO-Revision-Date: 2022-03-04 10:38+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,250 +15,29 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426193839.0\n"
 
-#: lib/senders/email.js:348
+#: lib/senders/email.js:343
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s ar %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s ar %(uaOS)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:374
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (amcan)"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:381
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (amcan)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:386
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (amcan)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:391
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (amcan)"
-
-#: lib/senders/email.js:618
-msgid "Verification code: %(code)s"
-msgstr "Cod dilysu: %(code)s"
-
-#: lib/senders/email.js:666
-msgid "Reminder: Finish creating your account"
-msgstr "Nodyn atgoffa: Gorffennwch greu eich cyfrif"
-
-#: lib/senders/email.js:668
-msgid "Final reminder: Activate your account"
-msgstr "Nodyn atgoffa terfynol: Gweithredwch eich cyfrif"
-
-#: lib/senders/email.js:686
-msgid "Confirm email"
-msgstr "E-bost cadarnhau"
-
-#: lib/senders/email.js:719
-msgid "Reminder: Finish setting up your account"
-msgstr "Nodyn atgoffa: Gorffennwch greu eich cyfrif"
-
-#: lib/senders/email.js:721
-msgid "Final reminder: Setup your account"
-msgstr "Nodyn atgoffa terfynol: Crëwch eich cyfrif"
-
-#: lib/senders/email.js:763 lib/senders/email.js:1911
-msgid "Create a password"
-msgstr "Crëwch gyfrinair"
-
-#: lib/senders/email.js:799
-msgid "Account authorization code"
-msgstr "Cod awdurdodi cyfrif"
-
-#: lib/senders/email.js:870
-msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Cadarnhau'r mewngofnodi newydd i %(clientName)s"
-
-#: lib/senders/email.js:873
-msgid "Confirm sign-in"
-msgstr "Cadarnhau eich mewngofnodi"
-
-#: lib/senders/email.js:982
-msgid "Confirm primary email"
-msgstr "Cadarnhau'r prif e-bost"
-
-#: lib/senders/email.js:983 lib/senders/email.js:1044
-msgid "Verify email"
-msgstr "Dilysu'r e-bost"
-
-#: lib/senders/email.js:1043
-msgid "Confirm secondary email"
-msgstr "Cadarnhau'r ail e-bost"
-
-#: lib/senders/email.js:1101
-msgid "Reset your password"
-msgstr "Ailosod eich cyfrinair"
-
-#: lib/senders/email.js:1102
-msgid "Create new password"
-msgstr "Creu cyfrinair newydd"
-
-#: lib/senders/email.js:1145 lib/senders/email.js:1214
-msgid "Password updated"
-msgstr "Diweddarwyd y cyfrinair"
-
-#: lib/senders/email.js:1185
-msgid "Suspicious activity detected"
-msgstr "Gweithgaredd amheus wedi'i ganfod"
-
-#: lib/senders/email.js:1252
-msgid "New account linked to Firefox"
-msgstr "Cyfrif newydd yn gysylltiedig â Firefox"
-
-#: lib/senders/email.js:1253 lib/senders/email.js:1304 lib/senders/email.js:1394 lib/senders/email.js:1430 lib/senders/email.js:1466 lib/senders/email.js:1500 lib/senders/email.js:1585
-#: lib/senders/email.js:1630 lib/senders/email.js:1725 lib/senders/email.js:1773
-msgid "Manage account"
-msgstr "Rheoli cyfrif"
-
-#: lib/senders/email.js:1303
-msgid "New sign-in to %(clientName)s"
-msgstr "Mewngofnodi newydd i %(clientName)s"
-
-#: lib/senders/email.js:1342
-msgid "Account verified. Next, sync another device to finish setup"
-msgstr "Cyfrif wedi'i wirio. Nesaf, cydweddwch ddyfais arall i orffen y gosod"
-
-#: lib/senders/email.js:1347
-msgid "Set up next device"
-msgstr "Gosod y ddyfais nesaf"
-
-#: lib/senders/email.js:1393
-msgid "Secondary email added"
-msgstr "Ychwanegwyd ail e-bost"
-
-#: lib/senders/email.js:1429
-msgid "Primary email updated"
-msgstr "Diweddarwyd y prif e-bost"
-
-#: lib/senders/email.js:1465
-msgid "Secondary email removed"
-msgstr "Tynnwyd yr ail e-bost"
-
-#: lib/senders/email.js:1499
-msgid "Two-step authentication enabled"
-msgstr "Mae dilysu dau gam wedi ei alluogi"
-
-#: lib/senders/email.js:1584
-msgid "New recovery codes generated"
-msgstr "Wedi creu cod adfer newydd"
-
-#: lib/senders/email.js:1629
-msgid "Recovery code used"
-msgstr "Cod adfer wedi'i ddefnyddio"
-
-#: lib/senders/email.js:1687
-msgid "1 recovery code remaining"
-msgstr "1 cod adfer yn weddill"
-
-#: lib/senders/email.js:1689
-msgid "%(numberRemaining)s recovery codes remaining"
-msgstr "%(numberRemaining)s cod adfer yn weddill"
-
-#: lib/senders/email.js:1692
-msgid "Generate codes"
-msgstr "Creu codau"
-
-#: lib/senders/email.js:1724
-msgid "Account recovery key generated"
-msgstr "Cynhyrchwyd allwedd adfer cyfrif"
-
-#: lib/senders/email.js:1772
-msgid "Account recovery key removed"
-msgstr "Tynnwyd yr allwedd adfer cyfrif"
-
-#: lib/senders/email.js:1820
-msgid "Password updated using recovery key"
-msgstr "Diweddarwyd y cyfrinair gan ddefnyddio'r allwedd adfer"
-
-#: lib/senders/email.js:1821
-msgid "Create new recovery key"
-msgstr "Creu allwedd adfer newydd"
-
-#: lib/senders/email.js:1914
-msgid "Welcome to %(productName)s: Please set your password."
-msgstr "Croeso i %(productName)s: Cyflwynwch eich cyfrinair."
-
-#: lib/senders/email.js:1988
-msgid "You have upgraded to %(productNameNew)s"
-msgstr "Rydych chi wedi uwchraddio i% (productNameNew) s"
-
-#: lib/senders/email.js:2069
-msgid "You have switched to %(productNameNew)s"
-msgstr "Rydych wedi newid i %(productNameNew)s"
-
-#: lib/senders/email.js:2135
-msgid "Credit card for %(productName)s expiring soon"
-msgstr "Bydd cerdyn credyd %(productName)s yn dod i ben yn fuan"
-
-#: lib/senders/email.js:2149
-msgid "Credit card for your subscriptions is expiring soon"
-msgstr "Mae cerdyn credyd ar gyfer eich tanysgrifiadau yn dod i ben yn fuan"
-
-#: lib/senders/email.js:2200
-msgid "Payment information update required for %(productName)s"
-msgstr "Mae angen diweddaru'r manylion talu ar gyfer %(productName)s"
-
-#: lib/senders/email.js:2216
-msgid "Payment information update required for Mozilla subscriptions"
-msgstr "Mae angen diweddaru'r manylion talu am danysgrifiadau Mozilla"
-
-#: lib/senders/email.js:2262
-msgid "%(productName)s payment failed"
-msgstr "Methodd taliad %(productName)s"
-
-#: lib/senders/email.js:2313 lib/senders/email.js:2378 lib/senders/email.js:2439
-msgid "Your %(productName)s subscription has been cancelled"
-msgstr "Mae eich tanysgrifiad i %(productName)s wedi'i ddiddymu"
-
-#: lib/senders/email.js:2496
-msgid "%(productName)s subscription reactivated"
-msgstr "Ail-gychwynnwyd tanysgrifiad %(productName)s"
-
-#: lib/senders/email.js:2552
-msgid "%(productName)s automatic renewal notice"
-msgstr "Hysbysiad adnewyddu awtomatig %(productName)"
-
-#: lib/senders/email.js:2633 lib/senders/email.js:2733
-msgid "%(productName)s payment received"
-msgstr "Derbyniwyd taliad am %(productName)s"
-
-#: lib/senders/email.js:2837 lib/senders/email.js:2922
-msgid "%(productName)s payment confirmed"
-msgstr "Cadarnhawyd taliad am %(productName)s"
-
-#: lib/senders/email.js:3028
-msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr "Eich Nodyn Atgoffa Cyfeillgar: Sut I Gwblhau Gosod Sync"
-
-#: lib/senders/email.js:3029
-msgid "Final Reminder: Complete Sync Setup"
-msgstr "Nodyn Atgoffa Terfynol: Gosod Sync yn ei Gyfanrwydd"
-
-#: lib/senders/email.js:3032
-msgid "Here's your reminder to sync devices."
-msgstr "Dyma eich atgoffa i gydweddu dyfeisiau."
-
-#: lib/senders/email.js:3033
-msgid "Last reminder to sync devices!"
-msgstr "Nodyn atgoffa olaf i gydweddu dyfeisiau!"
-
-#: lib/senders/email.js:3036
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Mae'n cymryd dau i gydweddu. Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
-
-#: lib/senders/email.js:3039
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
-
-#: lib/senders/email.js:3043
-msgid "Sync another device"
-msgstr "Cydweddu dyfais arall"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -345,6 +124,172 @@ msgstr ""
 msgid "Download latest"
 msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 
+#~ msgid "Verification code: %(code)s"
+#~ msgstr "Cod dilysu: %(code)s"
+
+#~ msgid "Reminder: Finish creating your account"
+#~ msgstr "Nodyn atgoffa: Gorffennwch greu eich cyfrif"
+
+#~ msgid "Final reminder: Activate your account"
+#~ msgstr "Nodyn atgoffa terfynol: Gweithredwch eich cyfrif"
+
+#~ msgid "Confirm email"
+#~ msgstr "E-bost cadarnhau"
+
+#~ msgid "Reminder: Finish setting up your account"
+#~ msgstr "Nodyn atgoffa: Gorffennwch greu eich cyfrif"
+
+#~ msgid "Final reminder: Setup your account"
+#~ msgstr "Nodyn atgoffa terfynol: Crëwch eich cyfrif"
+
+#~ msgid "Create a password"
+#~ msgstr "Crëwch gyfrinair"
+
+#~ msgid "Account authorization code"
+#~ msgstr "Cod awdurdodi cyfrif"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "Cadarnhau'r mewngofnodi newydd i %(clientName)s"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "Cadarnhau eich mewngofnodi"
+
+#~ msgid "Confirm primary email"
+#~ msgstr "Cadarnhau'r prif e-bost"
+
+#~ msgid "Verify email"
+#~ msgstr "Dilysu'r e-bost"
+
+#~ msgid "Confirm secondary email"
+#~ msgstr "Cadarnhau'r ail e-bost"
+
+#~ msgid "Reset your password"
+#~ msgstr "Ailosod eich cyfrinair"
+
+#~ msgid "Create new password"
+#~ msgstr "Creu cyfrinair newydd"
+
+#~ msgid "Password updated"
+#~ msgstr "Diweddarwyd y cyfrinair"
+
+#~ msgid "Suspicious activity detected"
+#~ msgstr "Gweithgaredd amheus wedi'i ganfod"
+
+#~ msgid "New account linked to Firefox"
+#~ msgstr "Cyfrif newydd yn gysylltiedig â Firefox"
+
+#~ msgid "Manage account"
+#~ msgstr "Rheoli cyfrif"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "Mewngofnodi newydd i %(clientName)s"
+
+#~ msgid "Account verified. Next, sync another device to finish setup"
+#~ msgstr "Cyfrif wedi'i wirio. Nesaf, cydweddwch ddyfais arall i orffen y gosod"
+
+#~ msgid "Set up next device"
+#~ msgstr "Gosod y ddyfais nesaf"
+
+#~ msgid "Secondary email added"
+#~ msgstr "Ychwanegwyd ail e-bost"
+
+#~ msgid "Primary email updated"
+#~ msgstr "Diweddarwyd y prif e-bost"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Tynnwyd yr ail e-bost"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "Mae dilysu dau gam wedi ei alluogi"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Wedi creu cod adfer newydd"
+
+#~ msgid "Recovery code used"
+#~ msgstr "Cod adfer wedi'i ddefnyddio"
+
+#~ msgid "1 recovery code remaining"
+#~ msgstr "1 cod adfer yn weddill"
+
+#~ msgid "%(numberRemaining)s recovery codes remaining"
+#~ msgstr "%(numberRemaining)s cod adfer yn weddill"
+
+#~ msgid "Generate codes"
+#~ msgstr "Creu codau"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "Cynhyrchwyd allwedd adfer cyfrif"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "Tynnwyd yr allwedd adfer cyfrif"
+
+#~ msgid "Password updated using recovery key"
+#~ msgstr "Diweddarwyd y cyfrinair gan ddefnyddio'r allwedd adfer"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "Creu allwedd adfer newydd"
+
+#~ msgid "Welcome to %(productName)s: Please set your password."
+#~ msgstr "Croeso i %(productName)s: Cyflwynwch eich cyfrinair."
+
+#~ msgid "You have upgraded to %(productNameNew)s"
+#~ msgstr "Rydych chi wedi uwchraddio i% (productNameNew) s"
+
+#~ msgid "You have switched to %(productNameNew)s"
+#~ msgstr "Rydych wedi newid i %(productNameNew)s"
+
+#~ msgid "Credit card for %(productName)s expiring soon"
+#~ msgstr "Bydd cerdyn credyd %(productName)s yn dod i ben yn fuan"
+
+#~ msgid "Credit card for your subscriptions is expiring soon"
+#~ msgstr "Mae cerdyn credyd ar gyfer eich tanysgrifiadau yn dod i ben yn fuan"
+
+#~ msgid "Payment information update required for %(productName)s"
+#~ msgstr "Mae angen diweddaru'r manylion talu ar gyfer %(productName)s"
+
+#~ msgid "Payment information update required for Mozilla subscriptions"
+#~ msgstr "Mae angen diweddaru'r manylion talu am danysgrifiadau Mozilla"
+
+#~ msgid "%(productName)s payment failed"
+#~ msgstr "Methodd taliad %(productName)s"
+
+#~ msgid "Your %(productName)s subscription has been cancelled"
+#~ msgstr "Mae eich tanysgrifiad i %(productName)s wedi'i ddiddymu"
+
+#~ msgid "%(productName)s subscription reactivated"
+#~ msgstr "Ail-gychwynnwyd tanysgrifiad %(productName)s"
+
+#~ msgid "%(productName)s automatic renewal notice"
+#~ msgstr "Hysbysiad adnewyddu awtomatig %(productName)"
+
+#~ msgid "%(productName)s payment received"
+#~ msgstr "Derbyniwyd taliad am %(productName)s"
+
+#~ msgid "%(productName)s payment confirmed"
+#~ msgstr "Cadarnhawyd taliad am %(productName)s"
+
+#~ msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
+#~ msgstr "Eich Nodyn Atgoffa Cyfeillgar: Sut I Gwblhau Gosod Sync"
+
+#~ msgid "Final Reminder: Complete Sync Setup"
+#~ msgstr "Nodyn Atgoffa Terfynol: Gosod Sync yn ei Gyfanrwydd"
+
+#~ msgid "Here's your reminder to sync devices."
+#~ msgstr "Dyma eich atgoffa i gydweddu dyfeisiau."
+
+#~ msgid "Last reminder to sync devices!"
+#~ msgstr "Nodyn atgoffa olaf i gydweddu dyfeisiau!"
+
+#~ msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr ""
+#~ "Mae'n cymryd dau i gydweddu. Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
+
+#~ msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr "Mae cydweddu dyfais arall â Firefox yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data Firefox arall yr un peth ym mhobman rydych chi'n defnyddio Firefox."
+
+#~ msgid "Sync another device"
+#~ msgstr "Cydweddu dyfais arall"
+
 #~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
 #~ msgstr "Os nad ydych eisoes wedi llwytho %(productName)s i lawr, gadewch i ni ddechrau defnyddio'r holl nodweddion sydd wedi'u cynnwys yn eich tanysgrifiad:"
 
@@ -370,8 +315,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Mae Angen Newid Cyfrinair"
 
 #~ msgid ""
-#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
-#~ "password as a precaution."
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
 #~ msgstr ""
 #~ "Rydym wedi canfod ymddygiad amheus ar eich cyfrif Firefox. Er mwyn atal mynediad heb awdurdod i'ch Cyfrif Firefox, rydym wedi datgysylltu pob dyfais ar eich cyfrif ac yn gofyn i chi newid eich "
 #~ "cyfrinair fel rhagofal."
@@ -479,7 +424,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 #~ msgstr "Rydych wedi tynnu allwedd adfer ar gyfer eich cyfrif Firefox, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:"
 
-#~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "Rydych wedi tynnu %(secondaryEmail)s yn llwyddiannus fel ail e-bost o'ch Cyfrif Firefox. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi yn cael eu hanfon i'r cyfeiriad hwn."
 
 #~ msgid "Two-step authentication disabled"
@@ -506,7 +452,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgid "Have questions? Visit %(supportUrl)s"
 #~ msgstr "Unrhyw gwestiynau? Ewch i %(supportUrl)s"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "Rydych wedi gwirio %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'ch Cyfrif Firefox. Bydd hysbysiadau diogelwch a chadarnhad mewngofnodi yn cael eu anfon i'r ddau gyfeiriad."
 
 #~ msgid "Need to reset your password?"
@@ -535,7 +482,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Croeso i %(productName)s"
 
 #~ msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
-#~ msgstr "Mae'ch taliad yn cael ei brosesu a gall gymryd hyd at bedwar diwrnod gwaithi'w gwblhau. Bydd eich tanysgrifiad yn adnewyddu'n awtomatig bob cyfnod bilio oni bai eich bod yn dewis ei orffen."
+#~ msgstr ""
+#~ "Mae'ch taliad yn cael ei brosesu a gall gymryd hyd at bedwar diwrnod gwaithi'w gwblhau. Bydd eich tanysgrifiad yn adnewyddu'n awtomatig bob cyfnod bilio oni bai eich bod yn dewis ei orffen."
 
 #~ msgid "Next, you'll create a Firefox account password and download %(productName)s."
 #~ msgstr "Nesaf, byddwch chi'n creu cyfrinair cyfrif Firefox ac yn llwytho %(productName)s i lawr."
@@ -553,7 +501,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Nid oes modd i chi gael mynediad i'ch tanysgrifiad eto"
 
 #~ msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
-#~ msgstr "Ychydig ddyddiau yn ôl fe wnaethoch chi greu Cyfrif Firefox ond heb  ei wirio. Rydym yn gobeithio y byddwch chi'n gorffen creu'ch cyfrif, fel y gallwch chi ddefnyddio'ch tanysgrifiad newydd."
+#~ msgstr ""
+#~ "Ychydig ddyddiau yn ôl fe wnaethoch chi greu Cyfrif Firefox ond heb  ei wirio. Rydym yn gobeithio y byddwch chi'n gorffen creu'ch cyfrif, fel y gallwch chi ddefnyddio'ch tanysgrifiad newydd."
 
 #~ msgid "Select “Create Password” to set up a new password and finish verifying your account."
 #~ msgstr "Dewiswch “Creu Cyfrinair” i greu cyfrinair newydd a gorffen gwirio eich cyfrif."
@@ -565,21 +514,21 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Croeso i Firefox"
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
-#~ "Rydym wedi diddymu eich tanysgrifiad am %(productName)s. Talwyd eich taliad olaf o $%(invoiceTotal)s ar %(invoiceDateOnly)s. Bydd eich gwasanaeth yn parhau tan ddiwedd eich cyfnod bilio cyfredol, "
-#~ "sef %(serviceLastActiveDateOnly)s."
+#~ "Rydym wedi diddymu eich tanysgrifiad am %(productName)s. Talwyd eich taliad olaf o $%(invoiceTotal)s ar %(invoiceDateOnly)s. Bydd eich gwasanaeth yn parhau tan ddiwedd eich cyfnod bilio "
+#~ "cyfredol, sef %(serviceLastActiveDateOnly)s."
 
 #~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
 #~ msgstr "Rydych wedi symud o %(productNameOld)s i %(productNameNew)s yn llwyddiannus."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-#~ "given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
 #~ msgstr ""
-#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycleOld)s i %(paymentAmountNew)s bob %(productPaymentCycleNew)s. Bryd hynny, byddwch hefyd yn derbyn credyd"
-#~ " am unwaith o %(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycleOld)s."
+#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycleOld)s i %(paymentAmountNew)s bob %(productPaymentCycleNew)s. Bryd hynny, byddwch hefyd yn derbyn "
+#~ "credyd am unwaith o %(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycleOld)s."
 
 #~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
 #~ msgstr "Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio %(productNameNew)s, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr."
@@ -652,11 +601,13 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 
 #~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
 #~ msgstr ""
-#~ "Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy <a href=\"%(updateBillingUrl)s\">ddiweddaru eich manylion talu</a>."
+#~ "Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy <a href=\"%(updateBillingUrl)s\">ddiweddaru eich manylion talu</"
+#~ "a>."
 
 #~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
 #~ msgstr ""
-#~ "Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy <a href=\"%(updateBillingUrl)s\">ddiweddaru eich manylion talu</a>."
+#~ "Byddwn yn rhoi cynnig ar eich taliad eto dros yr ychydig ddyddiau nesaf, ond efallai y bydd angen i chi ein helpu i'w drwsio trwy <a href=\"%(updateBillingUrl)s\">ddiweddaru eich manylion talu</"
+#~ "a>."
 
 #~ msgid "Sorry, we’re having trouble with your payment method"
 #~ msgstr "Ymddiheuruadau, rydym yn cael trafferth gyda'ch dull talu"
@@ -668,11 +619,11 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Diolch am ail-agor eich tanysgrifiad %(productName)s"
 
 #~ msgid ""
-#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
-#~ "choose to cancel."
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
 #~ msgstr ""
-#~ "Bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd %(invoiceTotal)s ar %(nextInvoiceDateOnly)s. Bydd eich tanysgrifiad yn cael ei adnewyddu pob cyfnod bilio yn awtomatig oni "
-#~ "bai eich bod yn dewis ei ddiddymu."
+#~ "Bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd %(invoiceTotal)s ar %(nextInvoiceDateOnly)s. Bydd eich tanysgrifiad yn cael ei adnewyddu pob cyfnod bilio yn awtomatig "
+#~ "oni bai eich bod yn dewis ei ddiddymu."
 
 #~ msgid "Your subscription will be renewed soon"
 #~ msgstr "Bydd eich tanysgrifiad yn cael ei adnewyddu'n fuan"
@@ -684,18 +635,18 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
 #~ "%(invoiceTotal)s will be applied to the payment method on your account."
 #~ msgstr ""
-#~ "Mae disgwyl i'ch tanysgrifiad cyfredol adnewyddu'n awtomatig ymhen %(reminderLength)s diwrnod. Bryd hynny, bydd Mozilla yn adnewyddu eich tanysgrifiad %(planIntervalCount)s %(planInterval)s a chodir"
-#~ " tâl o %(invoiceTotal)s ar y dull talu ar eich cyfrif."
+#~ "Mae disgwyl i'ch tanysgrifiad cyfredol adnewyddu'n awtomatig ymhen %(reminderLength)s diwrnod. Bryd hynny, bydd Mozilla yn adnewyddu eich tanysgrifiad %(planIntervalCount)s %(planInterval)s a "
+#~ "chodir tâl o %(invoiceTotal)s ar y dull talu ar eich cyfrif."
 
 #~ msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
 #~ msgstr "Gallwch sicrhau bod eich dull talu a manylion eich cyfrif yn gyfredol <a href=\"%(updateBillingUrl)s\">yma</a>."
 
 #~ msgid ""
-#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
-#~ "us</a>."
+#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">contact us</a>."
 #~ msgstr ""
-#~ "Diolch am danysgrifio i %(productName)s. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am %(productName)s, <a "
-#~ "href=\"%(subscriptionSupportUrl)s\">cysylltwch â ni</a>."
+#~ "Diolch am danysgrifio i %(productName)s. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am %(productName)s, <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">cysylltwch â ni</a>."
 
 #~ msgid "Sincerely,"
 #~ msgstr "Yn gywir,"
@@ -708,8 +659,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 
 #~ msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
 #~ msgstr ""
-#~ "Diolch am danysgrifio i %(productName)s. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am %(productName)s, <a "
-#~ "href=\"%(subscriptionSupportUrl)s\">cysylltwch â ni</a>."
+#~ "Diolch am danysgrifio i %(productName)s. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am %(productName)s, <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">cysylltwch â ni</a>."
 
 #~ msgid "Thank you for being a subscriber!"
 #~ msgstr "Diolch am fod yn danysgrifiwr!"
@@ -724,8 +675,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Rydych wedi uwchraddio'n llwyddiannus o %(productNameOld)s i %(productNameNew)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-#~ "charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 #~ msgstr ""
 #~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycleOld)s i %(paymentAmountNew)s bob %(paymentAmountNew)s. Bryd hynny, byddwn yn codi ffi am unwaith o "
 #~ "%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycleOld)s."
@@ -944,15 +895,15 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 #~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o "
-#~ "$%(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycle)s."
+#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o $"
+#~ "%(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycle)s."
 
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 #~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn cais i dalu am unwaith o "
-#~ "$%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycle)s."
+#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn cais i dalu am unwaith o $"
+#~ "%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycle)s."
 
 #~ msgid "Two-step verification enabled"
 #~ msgstr "Mae dilysu dau gam wedi ei alluogi"
@@ -973,7 +924,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Yn gyntaf, newid cyfrinair eich Cyfrif Firefox."
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
 #~ msgstr ""
 #~ "Yn ail, os yw Firefox yn cadw cyfrineiriau ar gyfer gwefannau, dylech newid y cyfrineiriau hynny hefyd. Efallai fod gan yr ymosodwyr fynediad at y cyfrineiriau hynny hefyd, felly dylech fynd i'r "
 #~ "cyfrifon hynny a chwilio am weithredu amheus."
@@ -1018,8 +970,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd %(invoiceTotal)s i'r cerdyn %(cardType)s sy'n dod i ben yn %(lastFour)s ar %(nextInvoiceDateOnly)s. Bydd eich tanysgrifiad "
-#~ "yn cael ei adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis ei ddiddymu."
+#~ "Bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd %(invoiceTotal)s i'r cerdyn %(cardType)s sy'n dod i ben yn %(lastFour)s ar %(nextInvoiceDateOnly)s. Bydd eich "
+#~ "tanysgrifiad yn cael ei adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis ei ddiddymu."
 
 #~ msgid "Thank you for subscribing to %(productName)s!"
 #~ msgstr "Diolch am danysgrifio i %(productName)s!"
@@ -1029,18 +981,18 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ "Fe wnaethoch chi ddileu eich Cyfrif Firefox yn ddiweddar. O ganlyniad, rydym wedi diddymu eich tanysgrifiad i %(productName)s. Talwyd eich taliad olaf o $%(invoiceTotal)s ar %(invoiceDateOnly)s"
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr ""
-#~ "Rydym wedi diddymu eich tanysgrifiad am %(productName)s. Talwyd eich taliad olaf o $%(invoiceTotal)s ar %(invoiceDateOnly)s. Bydd eich gwasanaeth yn parhau tan ddiwedd eich cyfnod bilio cyfredol, "
-#~ "sef %(serviceLastActiveDateOnly)s."
+#~ "Rydym wedi diddymu eich tanysgrifiad am %(productName)s. Talwyd eich taliad olaf o $%(invoiceTotal)s ar %(invoiceDateOnly)s. Bydd eich gwasanaeth yn parhau tan ddiwedd eich cyfnod bilio "
+#~ "cyfredol, sef %(serviceLastActiveDateOnly)s."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o "
-#~ "$%(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycle)s."
+#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o $"
+#~ "%(paymentProrated)s i adlewyrchu'r tâl is am weddill y %(productPaymentCycle)s."
 
 #~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
 #~ msgstr "Codwyd $%(invoiceTotal)s ar %(invoiceDateOnly)s"
@@ -1049,15 +1001,15 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
 #~ "automatically renew each billing period unless you choose to cancel."
 #~ msgstr ""
-#~ "Bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd %(invoiceTotal)s i'r cerdyn %(cardType)s sy'n dod i ben yn %(lastFour)s ar %(nextInvoiceDateOnly)s. Bydd eich tanysgrifiad "
-#~ "yn cael ei adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis ei ddiddymu."
+#~ "Bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd %(invoiceTotal)s i'r cerdyn %(cardType)s sy'n dod i ben yn %(lastFour)s ar %(nextInvoiceDateOnly)s. Bydd eich "
+#~ "tanysgrifiad yn cael ei adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis ei ddiddymu."
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
 #~ msgstr ""
-#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn cais i dalu am unwaith o "
-#~ "$%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycle)s."
+#~ "O'ch bil nesaf ymlaen, bydd eich taliad yn newid o %(paymentAmountOld)s y %(productPaymentCycle)s i $%(paymentAmountNew)s. Bryd hynny, byddwch hefyd yn derbyn cais i dalu am unwaith o $"
+#~ "%(paymentProrated)s i adlewyrchu'r tâl uwch am weddill y %(productPaymentCycle)s."
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "Rydych wedi eich mewngofnodi ac yn barod i grwydro'n saff a diogel."
@@ -1286,8 +1238,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
 #~ "href='%(iosUrl)s'>iOS</a>."
 #~ msgstr ""
-#~ "Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. Nawr mae modd chi fewngofnodi i Sync o'ch dyfeisiau eraill, gan gynnwys Firefox <a href='%(androidUrl)s'>Android</a> a <a"
-#~ " href='%(iosUrl)s'>iOS</a>."
+#~ "Rydych wedi cysylltu eich dyfais cyntaf yn llwyddiannus i'ch Cyfrif Firefox. Nawr mae modd chi fewngofnodi i Sync o'ch dyfeisiau eraill, gan gynnwys Firefox <a href='%(androidUrl)s'>Android</a> "
+#~ "a <a href='%(iosUrl)s'>iOS</a>."
 
 #~ msgid ""
 #~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
@@ -1459,8 +1411,8 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Ailosod y cyfrinair"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr ""
 #~ "Ychydig ddyddiau'n ôl, roeddech wedi creu Cyfrif Firefox ond heb ei wirio. Mae cyfrif wedi ei wirio'n caniatáu i chi gael mynediad at eich tabiau, nodau tudalen, cyfrineiriau a hanes ar unrhyw "
 #~ "ddyfais sydd wedi cysylltu iddo. Cadarnhewch y cyfeiriad e-bost hwn i wirio eich cyfrif."
@@ -1487,9 +1439,11 @@ msgstr "Llwytho'r diweddariad diweddaraf i lawr"
 #~ msgstr "Dilysu e-byst ar gyfer Cyfrif Firefox"
 
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-#~ msgstr "Rydych wedi tynnu %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'ch Cyfrif Firefox. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi bellach yn cael eu hanfon i'r cyfeiriad hwn."
+#~ msgstr ""
+#~ "Rydych wedi tynnu %(secondaryEmail)s yn llwyddiannus fel ail e-bost i'ch Cyfrif Firefox. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi bellach yn cael eu hanfon i'r cyfeiriad hwn."
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr ""
 #~ "Rydych wedi gwirio %(secondaryEmail)s yn llwyddiannus fel e-bost eilradd i'ch Cyfrif Firefox. Bydd hysbysiadau diogelwch a chadarnhad mewngofnodi nawr yn cael eu hanfon i'r ddau gyfeiriad e-bost."
 
