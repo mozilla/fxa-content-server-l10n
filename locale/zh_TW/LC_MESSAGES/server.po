@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-03 22:07+0000\n"
+"POT-Creation-Date: 2022-03-10 22:07+0000\n"
 "PO-Revision-Date: 2022-03-04 04:22+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,250 +15,29 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444993321.0\n"
 
-#: lib/senders/email.js:348
+#: lib/senders/email.js:343
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaOS)s %(uaOSVersion)s 上的 %(uaBrowser)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaOS)s 上的 %(uaBrowser)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:374
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(country)s %(stateCode)s %(city)s（估計地點）"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:381
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(country)s %(city)s（估計地點）"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:386
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(country)s %(stateCode)s（估計地點）"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:391
 msgid "%(country)s (estimated)"
 msgstr "%(country)s（估計地點）"
-
-#: lib/senders/email.js:618
-msgid "Verification code: %(code)s"
-msgstr "驗證碼：%(code)s"
-
-#: lib/senders/email.js:666
-msgid "Reminder: Finish creating your account"
-msgstr "提醒：請完成帳號註冊"
-
-#: lib/senders/email.js:668
-msgid "Final reminder: Activate your account"
-msgstr "這是最後一次顯示提醒囉：請啟用帳號"
-
-#: lib/senders/email.js:686
-msgid "Confirm email"
-msgstr "確認電子郵件信箱"
-
-#: lib/senders/email.js:719
-msgid "Reminder: Finish setting up your account"
-msgstr "提醒：請完成帳號註冊"
-
-#: lib/senders/email.js:721
-msgid "Final reminder: Setup your account"
-msgstr "這是最後一次提醒囉：註冊帳號"
-
-#: lib/senders/email.js:763 lib/senders/email.js:1911
-msgid "Create a password"
-msgstr "設定密碼"
-
-#: lib/senders/email.js:799
-msgid "Account authorization code"
-msgstr "帳號授權碼"
-
-#: lib/senders/email.js:870
-msgid "Confirm new sign-in to %(clientName)s"
-msgstr "確認新登入到 %(clientName)s"
-
-#: lib/senders/email.js:873
-msgid "Confirm sign-in"
-msgstr "確認登入"
-
-#: lib/senders/email.js:982
-msgid "Confirm primary email"
-msgstr "確認主要電子郵件地址"
-
-#: lib/senders/email.js:983 lib/senders/email.js:1044
-msgid "Verify email"
-msgstr "驗證信箱"
-
-#: lib/senders/email.js:1043
-msgid "Confirm secondary email"
-msgstr "確認次要電子郵件地址"
-
-#: lib/senders/email.js:1101
-msgid "Reset your password"
-msgstr "重設您的密碼"
-
-#: lib/senders/email.js:1102
-msgid "Create new password"
-msgstr "建立新密碼"
-
-#: lib/senders/email.js:1145 lib/senders/email.js:1214
-msgid "Password updated"
-msgstr "密碼已更新"
-
-#: lib/senders/email.js:1185
-msgid "Suspicious activity detected"
-msgstr "偵測到可疑行為"
-
-#: lib/senders/email.js:1252
-msgid "New account linked to Firefox"
-msgstr "新帳號連結到 Firefox"
-
-#: lib/senders/email.js:1253 lib/senders/email.js:1304 lib/senders/email.js:1394 lib/senders/email.js:1430 lib/senders/email.js:1466 lib/senders/email.js:1500 lib/senders/email.js:1585
-#: lib/senders/email.js:1630 lib/senders/email.js:1725 lib/senders/email.js:1773
-msgid "Manage account"
-msgstr "管理帳號"
-
-#: lib/senders/email.js:1303
-msgid "New sign-in to %(clientName)s"
-msgstr "新登入到 %(clientName)s"
-
-#: lib/senders/email.js:1342
-msgid "Account verified. Next, sync another device to finish setup"
-msgstr "帳號驗證完成。接下來請與另一台裝置同步來完成設定過程"
-
-#: lib/senders/email.js:1347
-msgid "Set up next device"
-msgstr "設定下一台裝置"
-
-#: lib/senders/email.js:1393
-msgid "Secondary email added"
-msgstr "已加入次要電子郵件地址"
-
-#: lib/senders/email.js:1429
-msgid "Primary email updated"
-msgstr "已更改主要電子郵件地址"
-
-#: lib/senders/email.js:1465
-msgid "Secondary email removed"
-msgstr "已移除次要電子郵件地址"
-
-#: lib/senders/email.js:1499
-msgid "Two-step authentication enabled"
-msgstr "已開啟兩階段驗證"
-
-#: lib/senders/email.js:1584
-msgid "New recovery codes generated"
-msgstr "已產生新救援碼"
-
-#: lib/senders/email.js:1629
-msgid "Recovery code used"
-msgstr "已使用救援碼"
-
-#: lib/senders/email.js:1687
-msgid "1 recovery code remaining"
-msgstr "剩餘 1 組救援碼"
-
-#: lib/senders/email.js:1689
-msgid "%(numberRemaining)s recovery codes remaining"
-msgstr "剩餘 %(numberRemaining)s 組救援碼"
-
-#: lib/senders/email.js:1692
-msgid "Generate codes"
-msgstr "產生新代碼"
-
-#: lib/senders/email.js:1724
-msgid "Account recovery key generated"
-msgstr "已產生新的救援金鑰"
-
-#: lib/senders/email.js:1772
-msgid "Account recovery key removed"
-msgstr "已刪除救援金鑰"
-
-#: lib/senders/email.js:1820
-msgid "Password updated using recovery key"
-msgstr "已使用救援金鑰更新密碼"
-
-#: lib/senders/email.js:1821
-msgid "Create new recovery key"
-msgstr "產生新的救援金鑰"
-
-#: lib/senders/email.js:1914
-msgid "Welcome to %(productName)s: Please set your password."
-msgstr "歡迎使用 %(productName)s：請設定密碼。"
-
-#: lib/senders/email.js:1988
-msgid "You have upgraded to %(productNameNew)s"
-msgstr "您已升級到 %(productNameNew)s"
-
-#: lib/senders/email.js:2069
-msgid "You have switched to %(productNameNew)s"
-msgstr "您已切換到 %(productNameNew)s"
-
-#: lib/senders/email.js:2135
-msgid "Credit card for %(productName)s expiring soon"
-msgstr "訂購 %(productName)s 所使用的信用卡即將過期"
-
-#: lib/senders/email.js:2149
-msgid "Credit card for your subscriptions is expiring soon"
-msgstr "訂購多項產品所使用的信用卡即將過期"
-
-#: lib/senders/email.js:2200
-msgid "Payment information update required for %(productName)s"
-msgstr "需要更新 %(productName)s 的付款資訊"
-
-#: lib/senders/email.js:2216
-msgid "Payment information update required for Mozilla subscriptions"
-msgstr "需要更新 Mozilla 產品訂閱的付款資訊"
-
-#: lib/senders/email.js:2262
-msgid "%(productName)s payment failed"
-msgstr "%(productName)s 付款失敗"
-
-#: lib/senders/email.js:2313 lib/senders/email.js:2378 lib/senders/email.js:2439
-msgid "Your %(productName)s subscription has been cancelled"
-msgstr "已取消您的 %(productName)s 產品訂閱"
-
-#: lib/senders/email.js:2496
-msgid "%(productName)s subscription reactivated"
-msgstr "已重新開始訂閱 %(productName)s"
-
-#: lib/senders/email.js:2552
-msgid "%(productName)s automatic renewal notice"
-msgstr "%(productName)s 自動續訂通知"
-
-#: lib/senders/email.js:2633 lib/senders/email.js:2733
-msgid "%(productName)s payment received"
-msgstr "已收到 %(productName)s 付款"
-
-#: lib/senders/email.js:2837 lib/senders/email.js:2922
-msgid "%(productName)s payment confirmed"
-msgstr "已確認 %(productName)s 付款"
-
-#: lib/senders/email.js:3028
-msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr "善意提醒：如何完成 Sync 設定"
-
-#: lib/senders/email.js:3029
-msgid "Final Reminder: Complete Sync Setup"
-msgstr "這是最後一次顯示提醒囉：請完成 Sync 設定"
-
-#: lib/senders/email.js:3032
-msgid "Here's your reminder to sync devices."
-msgstr "提醒您要記得同步裝置。"
-
-#: lib/senders/email.js:3033
-msgid "Last reminder to sync devices!"
-msgstr "這是最後一次顯示提醒囉，要記得同步裝置！"
-
-#: lib/senders/email.js:3036
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "要有兩台裝置連結起來才算「同步」。可透過 Sync 安全地在您的每一台 Firefox 之間同步書籤、密碼與其他資料。"
-
-#: lib/senders/email.js:3039
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "可透過 Sync 安全地在您的每一台 Firefox 之間同步書籤、密碼與其他資料。"
-
-#: lib/senders/email.js:3043
-msgid "Sync another device"
-msgstr "同步另一台裝置"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -335,6 +114,171 @@ msgstr "Firefox Accounts 使用了您的 Firefox 版本尚不支援的功能。�
 msgid "Download latest"
 msgstr "下載最新版本"
 
+#~ msgid "Verification code: %(code)s"
+#~ msgstr "驗證碼：%(code)s"
+
+#~ msgid "Reminder: Finish creating your account"
+#~ msgstr "提醒：請完成帳號註冊"
+
+#~ msgid "Final reminder: Activate your account"
+#~ msgstr "這是最後一次顯示提醒囉：請啟用帳號"
+
+#~ msgid "Confirm email"
+#~ msgstr "確認電子郵件信箱"
+
+#~ msgid "Reminder: Finish setting up your account"
+#~ msgstr "提醒：請完成帳號註冊"
+
+#~ msgid "Final reminder: Setup your account"
+#~ msgstr "這是最後一次提醒囉：註冊帳號"
+
+#~ msgid "Create a password"
+#~ msgstr "設定密碼"
+
+#~ msgid "Account authorization code"
+#~ msgstr "帳號授權碼"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "確認新登入到 %(clientName)s"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "確認登入"
+
+#~ msgid "Confirm primary email"
+#~ msgstr "確認主要電子郵件地址"
+
+#~ msgid "Verify email"
+#~ msgstr "驗證信箱"
+
+#~ msgid "Confirm secondary email"
+#~ msgstr "確認次要電子郵件地址"
+
+#~ msgid "Reset your password"
+#~ msgstr "重設您的密碼"
+
+#~ msgid "Create new password"
+#~ msgstr "建立新密碼"
+
+#~ msgid "Password updated"
+#~ msgstr "密碼已更新"
+
+#~ msgid "Suspicious activity detected"
+#~ msgstr "偵測到可疑行為"
+
+#~ msgid "New account linked to Firefox"
+#~ msgstr "新帳號連結到 Firefox"
+
+#~ msgid "Manage account"
+#~ msgstr "管理帳號"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "新登入到 %(clientName)s"
+
+#~ msgid "Account verified. Next, sync another device to finish setup"
+#~ msgstr "帳號驗證完成。接下來請與另一台裝置同步來完成設定過程"
+
+#~ msgid "Set up next device"
+#~ msgstr "設定下一台裝置"
+
+#~ msgid "Secondary email added"
+#~ msgstr "已加入次要電子郵件地址"
+
+#~ msgid "Primary email updated"
+#~ msgstr "已更改主要電子郵件地址"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "已移除次要電子郵件地址"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "已開啟兩階段驗證"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "已產生新救援碼"
+
+#~ msgid "Recovery code used"
+#~ msgstr "已使用救援碼"
+
+#~ msgid "1 recovery code remaining"
+#~ msgstr "剩餘 1 組救援碼"
+
+#~ msgid "%(numberRemaining)s recovery codes remaining"
+#~ msgstr "剩餘 %(numberRemaining)s 組救援碼"
+
+#~ msgid "Generate codes"
+#~ msgstr "產生新代碼"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "已產生新的救援金鑰"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "已刪除救援金鑰"
+
+#~ msgid "Password updated using recovery key"
+#~ msgstr "已使用救援金鑰更新密碼"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "產生新的救援金鑰"
+
+#~ msgid "Welcome to %(productName)s: Please set your password."
+#~ msgstr "歡迎使用 %(productName)s：請設定密碼。"
+
+#~ msgid "You have upgraded to %(productNameNew)s"
+#~ msgstr "您已升級到 %(productNameNew)s"
+
+#~ msgid "You have switched to %(productNameNew)s"
+#~ msgstr "您已切換到 %(productNameNew)s"
+
+#~ msgid "Credit card for %(productName)s expiring soon"
+#~ msgstr "訂購 %(productName)s 所使用的信用卡即將過期"
+
+#~ msgid "Credit card for your subscriptions is expiring soon"
+#~ msgstr "訂購多項產品所使用的信用卡即將過期"
+
+#~ msgid "Payment information update required for %(productName)s"
+#~ msgstr "需要更新 %(productName)s 的付款資訊"
+
+#~ msgid "Payment information update required for Mozilla subscriptions"
+#~ msgstr "需要更新 Mozilla 產品訂閱的付款資訊"
+
+#~ msgid "%(productName)s payment failed"
+#~ msgstr "%(productName)s 付款失敗"
+
+#~ msgid "Your %(productName)s subscription has been cancelled"
+#~ msgstr "已取消您的 %(productName)s 產品訂閱"
+
+#~ msgid "%(productName)s subscription reactivated"
+#~ msgstr "已重新開始訂閱 %(productName)s"
+
+#~ msgid "%(productName)s automatic renewal notice"
+#~ msgstr "%(productName)s 自動續訂通知"
+
+#~ msgid "%(productName)s payment received"
+#~ msgstr "已收到 %(productName)s 付款"
+
+#~ msgid "%(productName)s payment confirmed"
+#~ msgstr "已確認 %(productName)s 付款"
+
+#~ msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
+#~ msgstr "善意提醒：如何完成 Sync 設定"
+
+#~ msgid "Final Reminder: Complete Sync Setup"
+#~ msgstr "這是最後一次顯示提醒囉：請完成 Sync 設定"
+
+#~ msgid "Here's your reminder to sync devices."
+#~ msgstr "提醒您要記得同步裝置。"
+
+#~ msgid "Last reminder to sync devices!"
+#~ msgstr "這是最後一次顯示提醒囉，要記得同步裝置！"
+
+#~ msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr "要有兩台裝置連結起來才算「同步」。可透過 Sync 安全地在您的每一台 Firefox 之間同步書籤、密碼與其他資料。"
+
+#~ msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr "可透過 Sync 安全地在您的每一台 Firefox 之間同步書籤、密碼與其他資料。"
+
+#~ msgid "Sync another device"
+#~ msgstr "同步另一台裝置"
+
 #~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
 #~ msgstr "若您還沒有下載 %(productName)s，快來開始使用訂閱服務當中包含的完整功能："
 
@@ -360,8 +304,8 @@ msgstr "下載最新版本"
 #~ msgstr "需要更改密碼"
 
 #~ msgid ""
-#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change your "
-#~ "password as a precaution."
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
 #~ msgstr "我們偵測到您的 Firefox 帳號有可疑行為。為了防止您的帳號未經授權被使用，我們已解除您的帳號下所有裝置的連結，並且要求您更改密碼。"
 
 #~ msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
@@ -465,7 +409,8 @@ msgstr "下載最新版本"
 #~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
 #~ msgstr "您已使用下列裝置，成功移除 Firefox 帳號救援金鑰："
 
-#~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "您已成功將 %(secondaryEmail)s 從次要 Firefox 帳號刪除。現在起將不會再寄送安全性通知與登入確認信到該信箱。"
 
 #~ msgid "Two-step authentication disabled"
@@ -492,7 +437,8 @@ msgstr "下載最新版本"
 #~ msgid "Have questions? Visit %(supportUrl)s"
 #~ msgstr "有問題嗎？請到 %(supportUrl)s"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "您已成功將 %(secondaryEmail)s 驗證為次要 Firefox 帳號。現在起也會寄送安全性通知與登入確認信到該信箱。"
 
 #~ msgid "Need to reset your password?"
@@ -550,19 +496,19 @@ msgstr "下載最新版本"
 #~ msgstr "歡迎使用 Firefox！"
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr "您的 %(productName)s 訂閱已經取消，最後一次付款日期在 %(invoiceDateOnly)s，金額為 %(invoiceTotal)s。您的服務將持續到目前的帳務週期結束為止，也就是 %(serviceLastActiveDateOnly)s。"
 
 #~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
 #~ msgstr "您已成功從 %(productNameOld)s 切換到 %(productNameNew)s。"
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-#~ "given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
 #~ msgstr ""
-#~ "從下一期開始，我們就會從每 %(productPaymentCycleOld)s 收費 %(paymentAmountOld)s 調整為每 %(productPaymentCycleNew)s 收費 %(paymentAmountNew)s。屆時我們將把剩餘期間 %(productPaymentCycleOld)s 的差額 %(paymentProrated)s "
-#~ "以餘額的方式一次儲值到您的帳號，以反應較低的收費金額。"
+#~ "從下一期開始，我們就會從每 %(productPaymentCycleOld)s 收費 %(paymentAmountOld)s 調整為每 %(productPaymentCycleNew)s 收費 %(paymentAmountNew)s。屆時我們將把剩餘期間 %(productPaymentCycleOld)s 的差"
+#~ "額 %(paymentProrated)s 以餘額的方式一次儲值到您的帳號，以反應較低的收費金額。"
 
 #~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
 #~ msgstr "若需要安裝新軟體才能使用 %(productNameNew)s，我們會將下載方式用另一封電子郵件發送給您。"
@@ -649,8 +595,8 @@ msgstr "下載最新版本"
 #~ msgstr "感謝您重新開始訂閱 %(productName)s！"
 
 #~ msgid ""
-#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless you "
-#~ "choose to cancel."
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
 #~ msgstr "您的帳務週期與付款內容將保持原樣，下次將於 %(nextInvoiceDateOnly)s 收取 %(invoiceTotal)s。在您主動取消之前，將自動持續訂閱。"
 
 #~ msgid "Your subscription will be renewed soon"
@@ -668,8 +614,8 @@ msgstr "下載最新版本"
 #~ msgstr "您可以到<a href=\"%(updateBillingUrl)s\">此處</a>確認付款方式與帳號資訊。"
 
 #~ msgid ""
-#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s\">contact "
-#~ "us</a>."
+#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">contact us</a>."
 #~ msgstr "感謝您訂閱 %(productName)s。若有關於訂閱內容的任何疑問，或需要 %(productName)s 的更多資訊，<a href=\"%(subscriptionSupportUrl)s\">請聯絡我們</a>。"
 
 #~ msgid "Sincerely,"
@@ -697,11 +643,11 @@ msgstr "下載最新版本"
 #~ msgstr "您已成功從 %(productNameOld)s 升級到 %(productNameNew)s。"
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also be "
-#~ "charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
 #~ msgstr ""
-#~ "從下一期開始，我們就會從每 %(productPaymentCycleOld)s 收費 %(paymentAmountOld)s 調整為每 %(productPaymentCycleNew)s 收費 %(paymentAmountNew)s。屆時我們將向您一次補收剩餘期間 %(productPaymentCycleOld)s 的差額 "
-#~ "%(paymentProrated)s，以反應較高的收費金額。"
+#~ "從下一期開始，我們就會從每 %(productPaymentCycleOld)s 收費 %(paymentAmountOld)s 調整為每 %(productPaymentCycleNew)s 收費 %(paymentAmountNew)s。屆時我們將向您一次補收剩餘期間 "
+#~ "%(productPaymentCycleOld)s 的差額 %(paymentProrated)s，以反應較高的收費金額。"
 
 #~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
 #~ msgstr "您用來付款訂購下列項目的信用卡即將過期。"
@@ -916,12 +862,16 @@ msgstr "下載最新版本"
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
 #~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
-#~ msgstr "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 %(paymentAmountOld)s 調整為 %(paymentAmountNew)s。屆時我們將把剩餘期間 %(productPaymentCycle)s 的差額 %(paymentProrated)s 以餘額的方式一次儲值到您的帳號，以反應較低的收費金額。"
+#~ msgstr ""
+#~ "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 %(paymentAmountOld)s 調整為 %(paymentAmountNew)s。屆時我們將把剩餘期間 %(productPaymentCycle)s 的差額 %(paymentProrated)s 以餘額的方式一次"
+#~ "儲值到您的帳號，以反應較低的收費金額。"
 
 #~ msgid ""
 #~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
 #~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
-#~ msgstr "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 %(paymentAmountOld)s 調整為 %(paymentAmountNew)s。屆時我們將向您一次補收剩餘期間 %(productPaymentCycle)s 的差額 %(paymentProrated)s，以反應較高的收費金額。"
+#~ msgstr ""
+#~ "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 %(paymentAmountOld)s 調整為 %(paymentAmountNew)s。屆時我們將向您一次補收剩餘期間 %(productPaymentCycle)s 的差額 %(paymentProrated)s，以反應"
+#~ "較高的收費金額。"
 
 #~ msgid "Two-step verification enabled"
 #~ msgstr "已開啟兩階段驗證"
@@ -942,7 +892,8 @@ msgstr "下載最新版本"
 #~ msgstr "首先，更換 Firefox 帳號的密碼。"
 
 #~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious activity."
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
 #~ msgstr "接下來，若您的 Firefox 帳號當中有儲存網站的登入密碼，攻擊者可能已經取得這些密碼，您應該改掉這些網站的密碼，並檢查這些網站中有沒有可疑的登入紀錄。"
 
 #~ msgid "Learn how to see what passwords Firefox is storing for you."
@@ -993,14 +944,16 @@ msgstr "下載最新版本"
 #~ msgstr "您最近刪除了 Firefox 帳號，因此我們也同步取消了您的 %(productName)s 訂閱。最後一次付款發生於 %(invoiceDateOnly)s，金額為 %(invoiceTotal)s。"
 
 #~ msgid ""
-#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing period, "
-#~ "which is %(serviceLastActiveDateOnly)s."
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
 #~ msgstr "您的 %(productName)s 訂閱已經取消，最後一次付款日期在 %(invoiceDateOnly)s，金額為 $%(invoiceTotal)s。您的服務將持續到目前的記帳週期結束為止，也就是 %(serviceLastActiveDateOnly)s。"
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of "
-#~ "$%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
-#~ msgstr "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 $%(paymentAmountOld)s 調整為 $%(paymentAmountNew)s。屆時我們將把剩餘期間 %(productPaymentCycle)s 的差額 $%(paymentProrated)s 以餘額的方式一次儲值到您的帳號，以反應較低的收費金額。"
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 $%(paymentAmountOld)s 調整為 $%(paymentAmountNew)s。屆時我們將把剩餘期間 %(productPaymentCycle)s 的差額 $%(paymentProrated)s 以餘額的方式一"
+#~ "次儲值到您的帳號，以反應較低的收費金額。"
 
 #~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
 #~ msgstr "已於 %(invoiceDateOnly)s 收取 %(invoiceTotal)s"
@@ -1011,9 +964,11 @@ msgstr "下載最新版本"
 #~ msgstr "您的帳務週期與付款內容將保持不變，下次將於 %(nextInvoiceDateOnly)s，對卡號末四碼為 %(lastFour)s 的 %(cardType)s 卡收取 %(invoiceTotal)s。在您主動取消之前，將自動持續訂閱。"
 
 #~ msgid ""
-#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
-#~ "$%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
-#~ msgstr "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 $%(paymentAmountOld)s 調整為 $%(paymentAmountNew)s。屆時我們將向您一次收取剩餘期間 %(productPaymentCycle)s 的差額 $%(paymentProrated)s，以反應較高的收費金額。"
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "從下一期開始，我們就會從每 %(productPaymentCycle)s 收費 $%(paymentAmountOld)s 調整為 $%(paymentAmountNew)s。屆時我們將向您一次收取剩餘期間 %(productPaymentCycle)s 的差額 $%(paymentProrated)s，以"
+#~ "反應較高的收費金額。"
 
 #~ msgid "You're signed in and ready to start exploring safely and securely."
 #~ msgstr "您已登入，可安全地開始探索。"
@@ -1403,8 +1358,8 @@ msgstr "下載最新版本"
 #~ msgstr "重設密碼"
 
 #~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm this"
-#~ " email address to activate your account."
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
 #~ msgstr "您在幾天前註冊了 Firefox 帳號，但沒有完成驗證。驗證帳號後您將可以在所有連結起來的裝置間開啟分頁、書籤、密碼、瀏覽紀錄等等資料。只要確認此電子郵件地址即可啟用帳號。"
 
 #~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
@@ -1431,7 +1386,8 @@ msgstr "下載最新版本"
 #~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
 #~ msgstr "您已成功移除 Firefox 帳號的次要電子郵件地址 %(secondaryEmail)s。我們不會再寄出安全性通知與登入確認信到該信箱。"
 
-#~ msgid "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
 #~ msgstr "您已成功將 %(secondaryEmail)s 驗證為您的 Firefox 帳號的次要電子郵件地址。安全性通知與登入確認郵件將寄送到您的所有信箱。"
 
 #~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
@@ -1515,7 +1471,9 @@ msgstr "下載最新版本"
 #~ msgid ""
 #~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
 #~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "您上個禮拜註冊了 Firefox 帳號，但沒有完成驗證。您有遇到什麼問題嗎？Windows、Mac、Linux、Android 與 iOS 等系統中都有 Firefox 可供使用。您可以在這些系統同步 Firefox 的密碼、書籤、瀏覽紀錄等資料。只要確認此電子郵件地址即可啟用帳號。"
+#~ msgstr ""
+#~ "您上個禮拜註冊了 Firefox 帳號，但沒有完成驗證。您有遇到什麼問題嗎？Windows、Mac、Linux、Android 與 iOS 等系統中都有 Firefox 可供使用。您可以在這些系統同步 Firefox 的密碼、書籤、瀏覽紀錄等資料。只"
+#~ "要確認此電子郵件地址即可啟用帳號。"
 
 #~ msgid "env"
 #~ msgstr "env"

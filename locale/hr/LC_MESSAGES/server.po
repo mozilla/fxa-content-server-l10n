@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-03 22:07+0000\n"
+"POT-Creation-Date: 2022-03-10 22:07+0000\n"
 "PO-Revision-Date: 2021-07-27 16:40+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,251 +14,29 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
-#: lib/senders/email.js:348
+#: lib/senders/email.js:343
 msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
 msgstr "%(uaBrowser)s na %(uaOS)s %(uaOSVersion)s"
 
-#: lib/senders/email.js:353
+#: lib/senders/email.js:348
 msgid "%(uaBrowser)s on %(uaOS)s"
 msgstr "%(uaBrowser)s na %(uaOS)s"
 
-#: lib/senders/email.js:379
+#: lib/senders/email.js:374
 msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
 msgstr "%(city)s, %(stateCode)s, %(country)s (procijenjeno)"
 
-#: lib/senders/email.js:386
+#: lib/senders/email.js:381
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (procijenjeno)"
 
-#: lib/senders/email.js:391
+#: lib/senders/email.js:386
 msgid "%(stateCode)s, %(country)s (estimated)"
 msgstr "%(stateCode)s, %(country)s (procijenjeno)"
 
-#: lib/senders/email.js:396
+#: lib/senders/email.js:391
 msgid "%(country)s (estimated)"
 msgstr "%(country)s (procijenjeno)"
-
-#: lib/senders/email.js:618
-msgid "Verification code: %(code)s"
-msgstr "Verifikacijski kôd: %(code)s"
-
-#: lib/senders/email.js:666
-msgid "Reminder: Finish creating your account"
-msgstr "Podsjetnik: Dovrši otvaranje tvog računa"
-
-#: lib/senders/email.js:668
-msgid "Final reminder: Activate your account"
-msgstr "Konačni podsjetnik: Aktiviraj svoj račun"
-
-#: lib/senders/email.js:686
-msgid "Confirm email"
-msgstr "Potvrdi adresu e-pošte"
-
-#: lib/senders/email.js:719
-msgid "Reminder: Finish setting up your account"
-msgstr ""
-
-#: lib/senders/email.js:721
-msgid "Final reminder: Setup your account"
-msgstr ""
-
-#: lib/senders/email.js:763 lib/senders/email.js:1911
-msgid "Create a password"
-msgstr ""
-
-#: lib/senders/email.js:799
-msgid "Account authorization code"
-msgstr "Kod za autorizaciju računa"
-
-#: lib/senders/email.js:870
-msgid "Confirm new sign-in to %(clientName)s"
-msgstr "Potvrdi novu prijavu na %(clientName)s"
-
-#: lib/senders/email.js:873
-msgid "Confirm sign-in"
-msgstr "Potvrdi prijavu"
-
-#: lib/senders/email.js:982
-msgid "Confirm primary email"
-msgstr "Potvrdi primarnu e-mail adresu"
-
-#: lib/senders/email.js:983 lib/senders/email.js:1044
-msgid "Verify email"
-msgstr "Potvrdi e-poštu"
-
-#: lib/senders/email.js:1043
-msgid "Confirm secondary email"
-msgstr "Potvrdi sekundarnu e-poštu"
-
-#: lib/senders/email.js:1101
-msgid "Reset your password"
-msgstr "Ponovo postavi svoju lozinku"
-
-#: lib/senders/email.js:1102
-msgid "Create new password"
-msgstr "Stvori novu lozinku"
-
-#: lib/senders/email.js:1145 lib/senders/email.js:1214
-msgid "Password updated"
-msgstr "Lozinka aktualizirana"
-
-#: lib/senders/email.js:1185
-msgid "Suspicious activity detected"
-msgstr "Otkrivena je sumnjiva aktivnost"
-
-#: lib/senders/email.js:1252
-msgid "New account linked to Firefox"
-msgstr ""
-
-#: lib/senders/email.js:1253 lib/senders/email.js:1304 lib/senders/email.js:1394 lib/senders/email.js:1430 lib/senders/email.js:1466 lib/senders/email.js:1500 lib/senders/email.js:1585
-#: lib/senders/email.js:1630 lib/senders/email.js:1725 lib/senders/email.js:1773
-msgid "Manage account"
-msgstr "Upravljanje računom"
-
-#: lib/senders/email.js:1303
-msgid "New sign-in to %(clientName)s"
-msgstr "Nova prijava na %(clientName)s"
-
-#: lib/senders/email.js:1342
-msgid "Account verified. Next, sync another device to finish setup"
-msgstr "Račun je potvrđen. Za dovršavanje postavljanja, sinkroniziraj jedan drugi uređaj"
-
-#: lib/senders/email.js:1347
-msgid "Set up next device"
-msgstr "Postavi sljedeći uređaj"
-
-#: lib/senders/email.js:1393
-msgid "Secondary email added"
-msgstr "Dodana je sekundarna adresa e-pošte"
-
-#: lib/senders/email.js:1429
-msgid "Primary email updated"
-msgstr "Primarna e-mail adresa aktualizirana"
-
-#: lib/senders/email.js:1465
-msgid "Secondary email removed"
-msgstr "Sekundarna adresa e-pošte je uklonjena"
-
-#: lib/senders/email.js:1499
-msgid "Two-step authentication enabled"
-msgstr "Dvofaktorska autentifikacija je omogućena"
-
-#: lib/senders/email.js:1584
-msgid "New recovery codes generated"
-msgstr "Novi kodovi za oporavak su stvoreni"
-
-#: lib/senders/email.js:1629
-msgid "Recovery code used"
-msgstr "Iskorišten kôd za oporavak"
-
-#: lib/senders/email.js:1687
-msgid "1 recovery code remaining"
-msgstr "1 kod za obnovu preostao"
-
-#: lib/senders/email.js:1689
-msgid "%(numberRemaining)s recovery codes remaining"
-msgstr "%(numberRemaining)s koda za obnovu preostalo"
-
-#: lib/senders/email.js:1692
-msgid "Generate codes"
-msgstr "Generiraj kodove"
-
-#: lib/senders/email.js:1724
-msgid "Account recovery key generated"
-msgstr "Stvoren je ključ za oporavak računa"
-
-#: lib/senders/email.js:1772
-msgid "Account recovery key removed"
-msgstr "Ključ za oporavak računa je uklonjen"
-
-#: lib/senders/email.js:1820
-msgid "Password updated using recovery key"
-msgstr "Lozinka je aktualizirana pomoću ključa za obnovu"
-
-#: lib/senders/email.js:1821
-msgid "Create new recovery key"
-msgstr "Stvori novi ključ za obnovu"
-
-#: lib/senders/email.js:1914
-msgid "Welcome to %(productName)s: Please set your password."
-msgstr ""
-
-#: lib/senders/email.js:1988
-msgid "You have upgraded to %(productNameNew)s"
-msgstr "Nadogradio/la si na %(productNameNew)s"
-
-#: lib/senders/email.js:2069
-msgid "You have switched to %(productNameNew)s"
-msgstr "Prebacio/la si se na %(productNameNew)s"
-
-#: lib/senders/email.js:2135
-msgid "Credit card for %(productName)s expiring soon"
-msgstr "Rok kreditne kartice za %(productName)s uskoro istječe"
-
-#: lib/senders/email.js:2149
-msgid "Credit card for your subscriptions is expiring soon"
-msgstr "Rok kreditne kartice za tvoju pretplatu uskoro istječe"
-
-#: lib/senders/email.js:2200
-msgid "Payment information update required for %(productName)s"
-msgstr ""
-
-#: lib/senders/email.js:2216
-msgid "Payment information update required for Mozilla subscriptions"
-msgstr ""
-
-#: lib/senders/email.js:2262
-msgid "%(productName)s payment failed"
-msgstr "Uplata za %(productName)s nije uspjela"
-
-#: lib/senders/email.js:2313 lib/senders/email.js:2378 lib/senders/email.js:2439
-msgid "Your %(productName)s subscription has been cancelled"
-msgstr "Tvoja pretplata na %(productName)s je otkazana"
-
-#: lib/senders/email.js:2496
-msgid "%(productName)s subscription reactivated"
-msgstr "Pretplata na %(productName)s ponovno je aktivirana"
-
-#: lib/senders/email.js:2552
-msgid "%(productName)s automatic renewal notice"
-msgstr ""
-
-#: lib/senders/email.js:2633 lib/senders/email.js:2733
-msgid "%(productName)s payment received"
-msgstr "Uplata za %(productName)s je primljena"
-
-#: lib/senders/email.js:2837 lib/senders/email.js:2922
-msgid "%(productName)s payment confirmed"
-msgstr "Uplata za %(productName)s je potvrđena"
-
-#: lib/senders/email.js:3028
-msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
-msgstr "Tvoj prijateljski podsjetnik: kako dovršiti postavljanje sinkronizacije"
-
-#: lib/senders/email.js:3029
-msgid "Final Reminder: Complete Sync Setup"
-msgstr "Posljednji podsjetnik: dovrši postavljanje sinkronizacije"
-
-#: lib/senders/email.js:3032
-msgid "Here's your reminder to sync devices."
-msgstr "Tvoj podsjetnik za sinkronizaciju uređaja."
-
-#: lib/senders/email.js:3033
-msgid "Last reminder to sync devices!"
-msgstr "Zadnji podsjetnik za sinkronizaciju uređaja!"
-
-#: lib/senders/email.js:3036
-msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr ""
-"Za sinkronizaciju je potrebno dvoje. Sinkronizacija drugog uređaja s Firefoxom privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima svugdje gdje upotrebljavaš Firefox."
-
-#: lib/senders/email.js:3039
-msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
-msgstr "Sinkronizacija drugog uređaja s Firefoxom privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima svugdje gdje upotrebljavaš Firefox."
-
-#: lib/senders/email.js:3043
-msgid "Sync another device"
-msgstr "Sinkroniziraj jedan drugi uređaj"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -342,6 +120,148 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Preuzmi najnoviju"
+
+#~ msgid "Verification code: %(code)s"
+#~ msgstr "Verifikacijski kôd: %(code)s"
+
+#~ msgid "Reminder: Finish creating your account"
+#~ msgstr "Podsjetnik: Dovrši otvaranje tvog računa"
+
+#~ msgid "Final reminder: Activate your account"
+#~ msgstr "Konačni podsjetnik: Aktiviraj svoj račun"
+
+#~ msgid "Confirm email"
+#~ msgstr "Potvrdi adresu e-pošte"
+
+#~ msgid "Account authorization code"
+#~ msgstr "Kod za autorizaciju računa"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "Potvrdi novu prijavu na %(clientName)s"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "Potvrdi prijavu"
+
+#~ msgid "Confirm primary email"
+#~ msgstr "Potvrdi primarnu e-mail adresu"
+
+#~ msgid "Verify email"
+#~ msgstr "Potvrdi e-poštu"
+
+#~ msgid "Confirm secondary email"
+#~ msgstr "Potvrdi sekundarnu e-poštu"
+
+#~ msgid "Reset your password"
+#~ msgstr "Ponovo postavi svoju lozinku"
+
+#~ msgid "Create new password"
+#~ msgstr "Stvori novu lozinku"
+
+#~ msgid "Password updated"
+#~ msgstr "Lozinka aktualizirana"
+
+#~ msgid "Suspicious activity detected"
+#~ msgstr "Otkrivena je sumnjiva aktivnost"
+
+#~ msgid "Manage account"
+#~ msgstr "Upravljanje računom"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "Nova prijava na %(clientName)s"
+
+#~ msgid "Account verified. Next, sync another device to finish setup"
+#~ msgstr "Račun je potvrđen. Za dovršavanje postavljanja, sinkroniziraj jedan drugi uređaj"
+
+#~ msgid "Set up next device"
+#~ msgstr "Postavi sljedeći uređaj"
+
+#~ msgid "Secondary email added"
+#~ msgstr "Dodana je sekundarna adresa e-pošte"
+
+#~ msgid "Primary email updated"
+#~ msgstr "Primarna e-mail adresa aktualizirana"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Sekundarna adresa e-pošte je uklonjena"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "Dvofaktorska autentifikacija je omogućena"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Novi kodovi za oporavak su stvoreni"
+
+#~ msgid "Recovery code used"
+#~ msgstr "Iskorišten kôd za oporavak"
+
+#~ msgid "1 recovery code remaining"
+#~ msgstr "1 kod za obnovu preostao"
+
+#~ msgid "%(numberRemaining)s recovery codes remaining"
+#~ msgstr "%(numberRemaining)s koda za obnovu preostalo"
+
+#~ msgid "Generate codes"
+#~ msgstr "Generiraj kodove"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "Stvoren je ključ za oporavak računa"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "Ključ za oporavak računa je uklonjen"
+
+#~ msgid "Password updated using recovery key"
+#~ msgstr "Lozinka je aktualizirana pomoću ključa za obnovu"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "Stvori novi ključ za obnovu"
+
+#~ msgid "You have upgraded to %(productNameNew)s"
+#~ msgstr "Nadogradio/la si na %(productNameNew)s"
+
+#~ msgid "You have switched to %(productNameNew)s"
+#~ msgstr "Prebacio/la si se na %(productNameNew)s"
+
+#~ msgid "Credit card for %(productName)s expiring soon"
+#~ msgstr "Rok kreditne kartice za %(productName)s uskoro istječe"
+
+#~ msgid "Credit card for your subscriptions is expiring soon"
+#~ msgstr "Rok kreditne kartice za tvoju pretplatu uskoro istječe"
+
+#~ msgid "%(productName)s payment failed"
+#~ msgstr "Uplata za %(productName)s nije uspjela"
+
+#~ msgid "Your %(productName)s subscription has been cancelled"
+#~ msgstr "Tvoja pretplata na %(productName)s je otkazana"
+
+#~ msgid "%(productName)s subscription reactivated"
+#~ msgstr "Pretplata na %(productName)s ponovno je aktivirana"
+
+#~ msgid "%(productName)s payment received"
+#~ msgstr "Uplata za %(productName)s je primljena"
+
+#~ msgid "%(productName)s payment confirmed"
+#~ msgstr "Uplata za %(productName)s je potvrđena"
+
+#~ msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
+#~ msgstr "Tvoj prijateljski podsjetnik: kako dovršiti postavljanje sinkronizacije"
+
+#~ msgid "Final Reminder: Complete Sync Setup"
+#~ msgstr "Posljednji podsjetnik: dovrši postavljanje sinkronizacije"
+
+#~ msgid "Here's your reminder to sync devices."
+#~ msgstr "Tvoj podsjetnik za sinkronizaciju uređaja."
+
+#~ msgid "Last reminder to sync devices!"
+#~ msgstr "Zadnji podsjetnik za sinkronizaciju uređaja!"
+
+#~ msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr ""
+#~ "Za sinkronizaciju je potrebno dvoje. Sinkronizacija drugog uređaja s Firefoxom privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima svugdje gdje upotrebljavaš Firefox."
+
+#~ msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr "Sinkronizacija drugog uređaja s Firefoxom privatno drži tvoje zabilješke, lozinke i ostale Firefoxove podatke jednakima svugdje gdje upotrebljavaš Firefox."
+
+#~ msgid "Sync another device"
+#~ msgstr "Sinkroniziraj jedan drugi uređaj"
 
 #~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
 #~ msgstr "Ako %(productName)s još nije preuzet, krenimo koristiti sve značajke uključene u tvojoj pretplati:"
