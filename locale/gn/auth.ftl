@@ -483,7 +483,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Tembiaporã moambue:
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Hepyme’ẽmbyre { $invoiceTotal } { $invoiceDateOnly }-pe
+subscriptionSubsequentInvoiceDiscount-content-charge = Henyhẽma { $invoiceTotal } pe { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
