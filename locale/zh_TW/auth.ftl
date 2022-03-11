@@ -476,7 +476,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = 方案變更：{ $pa
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = 已於 { $invoiceDateOnly } 收取 { $invoiceTotal }
+subscriptionSubsequentInvoiceDiscount-content-charge = 已於 { $invoiceDateOnly } 收取 { $invoiceTotal }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
@@ -552,6 +552,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }：
 verifyPrimary-post-verify = 驗證完成後，即可從此裝置進行新增次要電子郵件地址等帳號變更操作。
 verifySecondaryCode-subject = 確認次要電子郵件地址
 verifySecondaryCode-title = 驗證次要電子郵件地址
+verifySecondaryCode-action = 驗證信箱
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = 有人要求將 { $email } 加入為下列 { -product-firefox-account } 帳號的次要郵件帳號：
