@@ -481,7 +481,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Tilauksen muutos: { 
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Veloitettu { $invoiceTotal } { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = Veloitettu { $invoiceTotal } { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Seuraava lasku: { $nextInvoiceDateOnly }
@@ -557,6 +557,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Vahvistamisen jälkeen tiliin tehtävät muutokset, kuten uuden toissijaisen sähköpostin lisääminen, ovat mahdollisia tästä laitteesta.
 verifySecondaryCode-subject = Vahvista toissijainen sähköpostiosoite
 verifySecondaryCode-title = Toissijaisen sähköpostin vahvistaminen
+verifySecondaryCode-action = Vahvista sähköpostiosoite
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Pyyntö käyttää osoitetta { $email } toissijaisena sähköpostina on tehty seuraavalta { -product-firefox-account }ltä:
