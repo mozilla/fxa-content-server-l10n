@@ -459,7 +459,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = שינוי תוכנ�
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = חיוב של { $invoiceTotal } בתאריך { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = חיוב של { $invoiceTotal } בתאריך { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = החשבונית הבאה: { $nextInvoiceDateOnly }
@@ -530,6 +530,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = לאחר האימות, שינויים בחשבון כגון הוספת כתובת דוא״ל משנית יתאפשרו ממכשיר זה.
 verifySecondaryCode-subject = אימות כתובת דוא״ל משנית
 verifySecondaryCode-title = אימות כתובת דוא״ל משנית
+verifySecondaryCode-action = אימות דוא״ל
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = הוגשה בקשה להשתמש בכתובת { $email } ככתובת דוא״ל משנית מ{ -product-firefox-account(case: "the") } הבא:
