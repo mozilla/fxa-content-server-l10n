@@ -245,6 +245,13 @@ postRemoveTwoStepAuthentication-action = Konto haldamine
 postRemoveTwoStepAuthentication-not-required = Turvakoode igal sisselogimisel enam ei nõuta.
 postVerify-sub-title = { -product-firefox-account } konto kinnitatud. Oled peaaegu kohal.
 postVerify-title = Järgmisena sünkroniseeri oma seadmed!
+postVerify-description = Sync hoiab sinu järjehoidjad, paroolid ja muud { -brand-firefox }i andmed privaatselt samad kõigis sinu seadmetes.
+postVerify-subject = Konto on kinnitatud, järgmisena sünkroniseeri seadistamise lõpetamiseks teine seade
+postVerify-setup = Seadista järgmine seade
+postVerify-action = Seadista järgmine seade
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Kas sul on küsimusi? Külasta { $supportUrl }
 postVerifySecondary-subject = Lisati teine e-posti aadress
 postVerifySecondary-title = Lisati teine e-posti aadress
 postVerifySecondary-action = Konto haldamine
