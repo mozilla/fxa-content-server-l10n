@@ -482,7 +482,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Thay đổi gói: { 
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Đã tính phí { $invoiceTotal } vào { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = Đã tính phí { $invoiceTotal } vào { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Hóa đơn tiếp theo: { $nextInvoiceDateOnly }
@@ -558,6 +558,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Sau khi được xác minh, các thay đổi tài khoản như thêm email phụ sẽ có thể thực hiện được từ thiết bị này.
 verifySecondaryCode-subject = Xác nhận email phụ
 verifySecondaryCode-title = Xác nhận email phụ
+verifySecondaryCode-action = Xác nhận email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Yêu cầu sử dụng { $email } làm địa chỉ email phụ đã được thực hiện từ { -product-firefox-account } sau:
