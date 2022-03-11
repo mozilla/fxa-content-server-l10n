@@ -483,7 +483,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Abonnementswijziging
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = { $invoiceTotal } in rekening gebracht op { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = { $invoiceTotal } in rekening gebracht op { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Volgende factuur: { $nextInvoiceDateOnly }
@@ -559,6 +559,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Na verificatie worden accountwijzigingen zoals het toevoegen van een secundair e-mailadres mogelijk vanaf dit apparaat.
 verifySecondaryCode-subject = Secundair e-mailadres bevestigen
 verifySecondaryCode-title = Secundair e-mailadres verifiëren
+verifySecondaryCode-action = E-mailadres verifiëren
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Er is een aanvraag voor het gebruik van { $email } als tweede e-mailadres gedaan vanaf de volgende { -product-firefox-account }:
