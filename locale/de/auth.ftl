@@ -483,7 +483,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Planänderung: { $pa
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = { $invoiceTotal } am { $invoiceDateOnly } abgebucht
+subscriptionSubsequentInvoiceDiscount-content-charge = { $invoiceTotal } am { $invoiceDateOnly } abgebucht
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Nächste Rechnung: { $nextInvoiceDateOnly }
@@ -559,6 +559,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Sobald es bestätigt wurde, sind Kontenänderungen wie das Hinzufügen einer Zweit-E-Mail-Adresse von diesem Gerät möglich.
 verifySecondaryCode-subject = Sekundäre E-Mail-Adresse bestätigen
 verifySecondaryCode-title = Zweit-E-Mail-Adresse verifizieren
+verifySecondaryCode-action = E-Mail-Adresse bestätigen
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Von folgendem { -product-firefox-account } erfolgte eine Anfrage, { $email } als Zweit-E-Mail-Adresse zu nutzen:
