@@ -487,7 +487,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Modifica del piano: 
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Addebitato { $invoiceTotal } il { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = Addebitato { $invoiceTotal } il { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Prossima fattura: { $nextInvoiceDateOnly }
@@ -563,6 +563,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Una volta verificata la richiesta, sarà possibile modificare le impostazioni dell’account, per esempio aggiungendo un indirizzo email secondario, direttamente dal dispositivo.
 verifySecondaryCode-subject = Conferma l’indirizzo email secondario
 verifySecondaryCode-title = Verifica l’indirizzo email secondario
+verifySecondaryCode-action = Verifica indirizzo email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Il seguente { -product-firefox-account } richiede di utilizzare { $email } come indirizzo email secondario:
