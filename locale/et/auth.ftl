@@ -181,8 +181,14 @@ passwordChangeRequired-subject = Tuvastati kahtlane tegevus
 passwordChangeRequired-title = Parooli muutmine on vajalik
 passwordChangeRequired-suspicious-activity = Tuvastasime kahtlaste tegevuse sinu teenuses { -product-firefox-account }. Volitamata juurdepääsu vältimiseks sinu teenusele { -product-firefox-account }, oleme kõik sinu konto seadmed lahti ühendanud ja nõuame ettevaatusabinõuna parooli muutmist.
 passwordChangeRequired-sign-in = Logi tagasi igasse seadmesse või teenusesse, kus kasutasid teenust { -product-firefox-account } ning järgi kuvatavaid juhiseid.
+passwordChangeRequired-different-password = <b>Tähtis:</b> vali varem kasutatud paroolist erinev parool ja veendu, et see erineks ka e-posti konto paroolist.
 passwordChangeRequired-signoff = Parimat soovides,
+passwordChangeRequired-signoff-name = { -product-firefox-accounts } tiim
+passwordChangeRequired-different-password-plaintext = Tähtis: vali varem kasutatud paroolist erinev parool ja veendu, et see erineks ka e-posti konto paroolist.
+passwordReset-subject = Parool uuendatud
 passwordReset-title = Sinu konto parooli muudeti
+passwordReset-description = Sünkroniseerimise jätkamiseks pead uue parooli sisestama ka teistel seadmetel.
+passwordResetAccountRecovery-subject = Parool uuendati taastevõtme abil
 passwordResetAccountRecovery-title = Sinu konto parool lähtestati taastamisvõtmega
 passwordResetAccountRecovery-description = Oled järgmises seadmes edukalt parooli taastamisvõtmega lähtestanud:
 passwordResetAccountRecovery-action = Loo uus taastamisvõti
@@ -191,14 +197,28 @@ passwordResetAccountRecovery-regen-required = Uue taastamisvõtme loomine on vaj
 passwordResetAccountRecovery-create-key = Uue taastamisvõtme loomine:
 postAddAccountRecovery-subject = Konto taastamisvõti on loodud
 postAddAccountRecovery-title = Konto taastamisvõti on loodud
+postAddAccountRecovery-description = Kasutades järgnevat seadet, oled edukalt loonud taastevõtme oma { -product-firefox-account } konto jaoks:
 postAddAccountRecovery-action = Konto haldamine
+postAddAccountRecovery-recovery = Kui seda ei teinud sina, siis <a data-l10n-name="revokeAccountRecoveryLink">klõpsa siia</a>.
 postAddAccountRecovery-revoke = Kui see polnud sina, siis tühista võti.
+postAddLinkedAccount-subject = { -brand-firefox }iga seoti uus konto
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Sinu teemuse { $providerName } konto seoti sinu { -product-firefox-account } kontoga
+postAddLinkedAccount-action = Halda kontot
 postAddTwoStepAuthentication-subject = Kaheastmeline autentimine lubati
 postAddTwoStepAuthentication-title = Kaheastmeline autentimine lubati
+postAddTwoStepAuthentication-description-plaintext = Oled edukalt lubanud oma { -product-firefox-account } kontol kaheastmelise autentimise. Koodigeneraatori äpi poolt loodavaid turvakoode on nüüd tarvis igal sisselogimisel.
+postAddTwoStepAuthentication-description = Oled järgnevat seadet kasutades edukalt lubanud oma { -product-firefox-account } konto kaheastmelise autentimise:
 postAddTwoStepAuthentication-action = Konto haldamine
 postAddTwoStepAuthentication-code-required = Koodigeneraatori äpi poolt loodavaid turvakoode on nüüd tarvis igal sisselogimisel.
+postChangePrimary-subject = Peamine e-posti aadress on uuendatud
 postChangePrimary-title = Uus peamine e-posti aadress
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Oled edukalt muutnud oma peamise e-posti aadressi aadressiks { $email }. See aadress on nüüd sinu kasutajanimeks { -product-firefox-account } kontosse sisselogimisel, samuti saabuvad sellele turvateavitused ja sisselogimise kinnitused.
 postChangePrimary-action = Konto haldamine
+postConsumeRecoveryCode-subject = Kasutati taastekoodi
 postConsumeRecoveryCode-title = Taastamise kood ära kasutatud
 postConsumeRecoveryCode-description = Oled järgnevat seadet kasutades edukalt ära kasutanud taastamise koodi:
 postConsumeRecoveryCode-action = Konto haldamine
@@ -208,6 +228,7 @@ postNewRecoveryCodes-description = Oled järgnevat seadet kasutades edukalt loon
 postNewRecoveryCodes-action = Konto haldamine
 postRemoveAccountRecovery-subject = Konto taastamisvõti eemaldati
 postRemoveAccountRecovery-title = Konto taastamisvõti eemaldati
+postRemoveAccountRecovery-description = Kasutades järgnevat seadet oled edukalt eemaldanud taastevõtme oma { -product-firefox-account } kontolt:
 postRemoveAccountRecovery-action = Konto haldamine
 postRemoveAccountRecovery-invalid = Selle taastamisvõtmega sinu kontot enam taastada ei saa.
 postRemoveSecondary-subject = Teine e-posti aadress eemaldati
