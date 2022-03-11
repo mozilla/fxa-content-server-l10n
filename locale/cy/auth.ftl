@@ -487,7 +487,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Newid cynllun: { $pa
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Codwyd { $invoiceTotal }s ar { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = Codwyd { $invoiceTotal } ar { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Yr Anfoneb Nesaf: { $nextInvoiceDateOnly }
@@ -563,6 +563,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Unwaith bydd wedi ei ddilysu, bydd newid cyfrif fel ychwanegu ail e-bost yn bosib o’r ddyfais hon.
 verifySecondaryCode-subject = Cadarnhau’r ail e-bost
 verifySecondaryCode-title = Dilysu’r ail gyfrif
+verifySecondaryCode-action = Dilysu'r e-bost
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Mae cais i ddefnyddio { $email } fel ail e-bost wedi ei wneud o'r { -product-firefox-account } canlynol:
