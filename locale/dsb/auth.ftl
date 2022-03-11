@@ -485,7 +485,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Planowa změna: { $p
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = { $invoiceTotal })s dnja { $invoiceDateOnly } wópisane
+subscriptionSubsequentInvoiceDiscount-content-charge = { $invoiceTotal })s dnja { $invoiceDateOnly } wópisane
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Pśiduca zliceńka: { $nextInvoiceDateOnly }
@@ -561,6 +561,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Gaž su wobkšuśone, su kontowe změny móžne, kaž na pśikład pśidawanje sekundarneje e-mailoweje adrese z toś togo rěda.
 verifySecondaryCode-subject = Sekundarnu e-mailowu adresu wobkšuśiś
 verifySecondaryCode-title = Drugu e-mailowu adresu wobkšuśiś
+verifySecondaryCode-action = E-mailowu adresu wobkšuśiś
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Slědujuce konto { -product-firefox-account } jo pominało, { $email } ako drugu e-mailowu adresu wužywaś:
