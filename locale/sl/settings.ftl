@@ -256,6 +256,8 @@ la-heading = Povezani računi
 la-description = Pooblastili ste dostop do naslednjih računov.
 la-unlink-button = Odklopi
 la-unlink-account-button = Odklopi
+la-unlink-heading = Odklopi od računa tretjega ponudnika
+la-unlink-content = Ali ste prepričani, da želite prekiniti povezavo z { -brand-google } Računom? Odklop računa ne pomeni samodejne odjave iz teh storitev. Odjavite se lahko ročno v odseku Povezane storitve.
 nav-linked-accounts = { la-heading }
 
 ## Modal
