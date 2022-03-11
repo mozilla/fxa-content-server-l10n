@@ -483,7 +483,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Breyting á áskrift
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Til greiðslu { $invoiceTotal } þann { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = Til greiðslu { $invoiceTotal } þann { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Næsti reikningur: { $nextInvoiceDateOnly }
@@ -559,6 +559,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Þegar staðfesting hefur farið fram, verða mögulegar ýmsar breytingar á borð við að bæta við aukapóstfangi af þessu tæki.
 verifySecondaryCode-subject = Staðfestu aukatölvupóstfang
 verifySecondaryCode-title = Sannreyna aukatölvupóstfang
+verifySecondaryCode-action = Sannreyna tölvupóstfang
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Beiðni um að nota { $email } sem aukatölvupóstfang hefur verið gerð úr eftirfarandi { -product-firefox-account }-reikningi:
