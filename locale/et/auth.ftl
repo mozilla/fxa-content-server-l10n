@@ -233,10 +233,18 @@ postRemoveAccountRecovery-action = Konto haldamine
 postRemoveAccountRecovery-invalid = Selle taastamisvõtmega sinu kontot enam taastada ei saa.
 postRemoveSecondary-subject = Teine e-posti aadress eemaldati
 postRemoveSecondary-title = Teine e-posti aadress eemaldati
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Oled edukalt eemaldanud aadressi { $secondaryEmail } kui oma teise e-posti aadressi { -product-firefox-account } kontolt. Turvateavitusi ja sisselogimise kinnitusi sellele aadressile enam ei saadeta.
 postRemoveSecondary-action = Konto haldamine
+postRemoveTwoStepAuthentication-subject-line = Kaheastmeline autentimine on välja lülitatud
 postRemoveTwoStepAuthentication-title = Kaheastmeline autentimine keelati
+postRemoveTwoStepAuthentication-description = Järgnevat seadet kasutades oled edukalt keelanud kaheastmelise autentimise oma { -product-firefox-account } kontol:
+postRemoveTwoStepAuthentication-description-plaintext = Oled edukalt keelanud kaheastmelise autentimise oma { -product-firefox-account } kontol. Turvakoode igal sisselogimisel enam ei nõuta.
 postRemoveTwoStepAuthentication-action = Konto haldamine
 postRemoveTwoStepAuthentication-not-required = Turvakoode igal sisselogimisel enam ei nõuta.
+postVerify-sub-title = { -product-firefox-account } konto kinnitatud. Oled peaaegu kohal.
+postVerify-title = Järgmisena sünkroniseeri oma seadmed!
 postVerifySecondary-subject = Lisati teine e-posti aadress
 postVerifySecondary-title = Lisati teine e-posti aadress
 postVerifySecondary-action = Konto haldamine
