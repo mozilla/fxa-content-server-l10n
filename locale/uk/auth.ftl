@@ -484,7 +484,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Зміна тари�
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
@@ -560,6 +560,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Після підтвердження з цього пристрою стануть доступними такі зміни облікового запису, як додавання альтернативної електронної пошти.
 verifySecondaryCode-subject = Підтвердьте альтернативну адресу електронної пошти
 verifySecondaryCode-title = Підтвердьте альтернативну е-пошту
+verifySecondaryCode-action = Підтвердьте е-пошту
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Запит на використання { $email } альтернативною електронною поштою було зроблено з такого { -product-firefox-account(case: "gen") }:
