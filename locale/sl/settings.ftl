@@ -39,6 +39,16 @@ alert-bar-close-message = Zapri sporočilo
         [mestnik] Firefoxu
         [orodnik] Firefoxom
     }
+-brand-google =
+    =
+    { $sklon ->
+       *[imenovalnik] Google
+        [rodilnik] Googla
+        [dajalnik] Googlu
+        [tozilnik] Google
+        [mestnik] Googlu
+        [orodnik] Googlom
+    }
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $sklon ->
@@ -239,6 +249,14 @@ input-password-hide = Skrij geslo
 input-password-show = Pokaži geslo
 input-password-hide-aria = Skrij geslo z zaslona.
 input-password-show-aria = Prikaži geslo kot navadno besedilo. Vaše geslo bo vidno na zaslonu.
+
+## Linked Accounts section
+
+la-heading = Povezani računi
+la-description = Pooblastili ste dostop do naslednjih računov.
+la-unlink-button = Odklopi
+la-unlink-account-button = Odklopi
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
