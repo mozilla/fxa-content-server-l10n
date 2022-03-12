@@ -483,7 +483,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Csomagmódosítás: 
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = { $invoiceTotal } levonva ekkor: { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = { $invoiceTotal } levonva ekkor: { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Következő díjbekérő: { $nextInvoiceDateOnly }
@@ -559,6 +559,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Amint megerősíti, a fiókváltoztatások, mint a másodlagos e-mail cím hozzáadása, lehetségesek lesznek erről az eszközről.
 verifySecondaryCode-subject = Másodlagos e-mail megerősítése
 verifySecondaryCode-title = Másodlagos e-mail megerősítése
+verifySecondaryCode-action = E-mail-cím megerősítése
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -product-firefox-account }ból lett küldve:
