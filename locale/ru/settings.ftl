@@ -23,6 +23,7 @@ alert-bar-close-message = Закрыть сообщение
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $case ->
@@ -220,6 +221,16 @@ input-password-hide = Скрыть пароль
 input-password-show = Показать пароль
 input-password-hide-aria = Скрыть пароль с экрана.
 input-password-show-aria = Показать пароль в виде обычного текста. Ваш пароль будет виден на экране.
+
+## Linked Accounts section
+
+la-heading = Связанные аккаунты
+la-description = Вы разрешили доступ к следующим аккаунтам.
+la-unlink-button = Отвязать
+la-unlink-account-button = Отвязать
+la-unlink-heading = Отвязать от стороннего аккаунта
+la-unlink-content = Вы уверены, что хотите отвязать свой аккаунт { -brand-google }? Отвязывание аккаунта не приведёт к автоматическому выходу из соответствующих служб. Выход вам нужно будет выполнить вручную в разделе «‎Подключённые службы»‎.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
