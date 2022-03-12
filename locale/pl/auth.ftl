@@ -564,7 +564,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Zmiana planu: { $pay
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Obciążono { $invoiceTotal } w dniu { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = Obciążono { $invoiceTotal } w dniu { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Następna faktura: { $nextInvoiceDateOnly }
@@ -640,6 +640,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Po zweryfikowaniu na tym urządzeniu będzie można wykonywać zmiany na koncie, takie jak dodawanie dodatkowego adresu e-mail.
 verifySecondaryCode-subject = Potwierdź dodatkowy adres e-mail
 verifySecondaryCode-title = Zweryfikuj dodatkowy adres e-mail
+verifySecondaryCode-action = Zweryfikuj adres e-mail
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Z tego { -product-firefox-account(case: "gen", capitalization: "lower") } wysłano prośbę o dodanie { $email } jako dodatkowego adresu e-mail:
