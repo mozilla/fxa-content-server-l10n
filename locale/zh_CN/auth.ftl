@@ -472,7 +472,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = 方案变更：{ $pa
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = 已于 { $invoiceDateOnly } 收取 { $invoiceTotal }
+subscriptionSubsequentInvoiceDiscount-content-charge = 已于 { $invoiceDateOnly } 收取 { $invoiceTotal }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
@@ -548,6 +548,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }：
 verifyPrimary-post-verify = 通过验证后，将可从此设备执行添加备用邮箱等账户更改。
 verifySecondaryCode-subject = 确认备用邮箱地址
 verifySecondaryCode-title = 验证备用邮箱地址
+verifySecondaryCode-action = 验证邮箱
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = 有人请求使用 { $email } 作为下列 { -product-firefox-account }的备用邮箱地址：
