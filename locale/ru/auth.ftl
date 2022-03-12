@@ -246,15 +246,15 @@ postRemoveSecondary-subject = Удалена дополнительная эле
 postRemoveSecondary-title = Удалена дополнительная электронная почта
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Вы успешно удалили дополнительный адрес электронной почты { $secondaryEmail } из своего { -product-firefox-account(case: "singular_genitive") }. Уведомления безопасности и подтверждения входа больше на этот адрес отправляться не будут.
+postRemoveSecondary-description = Вы успешно удалили дополнительный адрес электронной почты { $secondaryEmail } из своего { -product-firefox-account(case: "genitive") }. Уведомления безопасности и подтверждения входа больше не будут отправляться на этот адрес.
 postRemoveSecondary-action = Управление аккаунтом
 postRemoveTwoStepAuthentication-subject-line = Двухэтапная аутентификация отключена
 postRemoveTwoStepAuthentication-title = Двухэтапная аутентификация отключена
-postRemoveTwoStepAuthentication-description = Вы успешно отключили двухэтапную аутентификацию в вашем { -product-firefox-account(case: "singular_prepositional") } со следующего устройства:
-postRemoveTwoStepAuthentication-description-plaintext = Вы успешно отключили двухэтапную аутентификацию в вашем { -product-firefox-account(case: "singular_prepositional") }. Коды безопасности теперь не будут необходимы при каждом входе.
+postRemoveTwoStepAuthentication-description = Вы успешно отключили двухэтапную аутентификацию в своём { -product-firefox-account(case: "prepositional") } со следующего устройства:
+postRemoveTwoStepAuthentication-description-plaintext = Вы успешно отключили двухэтапную аутентификацию в своём { -product-firefox-account(case: "prepositional") }. Теперь не нужно будет вводить код безопасности при каждом входе.
 postRemoveTwoStepAuthentication-action = Управление аккаунтом
 postRemoveTwoStepAuthentication-not-required = Коды безопасности теперь не будут необходимы при каждом входе.
-postVerify-sub-title = { -product-firefox-account(case: "singular_nominative") } подтверждён. Вы почти на месте.
+postVerify-sub-title = { -product-firefox-account(case: "nominative_uppercase") } подтверждён. Всё почти готово.
 postVerify-title = Следующая синхронизация между вашими устройствами!
 postVerify-description = Синхронизация конфиденциальна и обеспечивает единство ваших закладок, паролей и других данных { -brand-firefox } на всех ваших устройствах.
 postVerify-subject = Аккаунт подтверждён. Далее выполните синхронизацию другого устройства, чтобы завершить настройку
@@ -267,7 +267,7 @@ postVerifySecondary-subject = Добавлена дополнительная э
 postVerifySecondary-title = Добавлена дополнительная электронная почта
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Вы успешно подтвердили, что { $secondaryEmail } является дополнительной электронной почтой для вашего { -product-firefox-account(case: "singular_genitive") }. Уведомления безопасности и подтверждения входа теперь будут доставляться на оба адреса электронной почты.
+postVerifySecondary-content = Вы успешно подтвердили дополнительный адрес электронной почты { $secondaryEmail } для своего { -product-firefox-account(case: "genitive") }. Уведомления безопасности и подтверждения входа теперь будут отправляться на оба адреса.
 postVerifySecondary-action = Управление аккаунтом
 recovery-subject = Восстановить ваш пароль
 recovery-title = Нужно сбросить свой пароль?
@@ -281,7 +281,7 @@ subscriptionAccountDeletion-title = Жаль, что вы уходите
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Недавно вы удалили свой { -product-firefox-account }. В результате, мы отменили вашу подписку на { $productName }. Ваш последний платёж в размере { $invoiceTotal } был совершён { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled = Вы недавно удалили свой { -product-firefox-account(case: "accusative") }. В результате, мы отменили вашу подписку на { $productName }. Последний платёж в размере { $invoiceTotal } был совершён { $invoiceDateOnly }.
 # COMMENT ABOUT After the colon,
 payment-details = Детали оплаты:
 # Variables:
@@ -291,15 +291,17 @@ subscriptionAccountFinishSetup-subject = Добро пожаловать в { $p
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Добро пожаловать в { $productName }
 subscriptionAccountFinishSetup-content-processing = Ваш платеж обрабатывается, что может занять до четырех рабочих дней. Ваша подписка будет автоматически продлеваться каждый расчетный период, если вы не решите её отменить.
+subscriptionAccountFinishSetup-content-create-2 = Далее вы создадите пароль для { -product-firefox-account(case: "genitive") }, чтобы начать использовать свою новую подписку.
+subscriptionAccountFinishSetup-action-2 = Приступим
 subscriptionAccountReminderFirst-subject = Напоминание: Завершите настройку вашего аккаунта
 subscriptionAccountReminderFirst-title = Вы пока не можете получить доступ к своей подписке
-subscriptionAccountReminderFirst-content-info = Несколько дней назад вы создали { -product-firefox-account }, но так и не подтвердили его. Мы надеемся, что вы завершите настройку своего аккаунта и сможете использовать новую подписку.
+subscriptionAccountReminderFirst-content-info = Несколько дней назад вы создали { -product-firefox-account(case: "accusative") }, но так и не подтвердили его. Мы надеемся, что вы завершите настройку своего аккаунта, чтобы использовать новую подписку.
 subscriptionAccountReminderFirst-content-select = Выберите «Создать пароль», чтобы установить новый пароль и завершить проверку аккаунта.
 subscriptionAccountReminderFirst-action = Создать пароль
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Последнее напоминание: Настройте ваш аккаунт
 subscriptionAccountReminderSecond-title = Добро пожаловать в { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = Несколько дней назад вы создали { -product-firefox-account }, но так и не подтвердили его. Мы надеемся, что вы завершите настройку своего аккаунта и сможете использовать новую подписку.
+subscriptionAccountReminderSecond-content-info = Несколько дней назад вы создали { -product-firefox-account(case: "accusative") }, но так и не подтвердили его. Мы надеемся, что вы завершите настройку своего аккаунта, чтобы использовать новую подписку.
 subscriptionAccountReminderSecond-content-select = Выберите «Создать пароль», чтобы установить новый пароль и завершить проверку аккаунта.
 subscriptionAccountReminderSecond-action = Создать пароль
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -382,6 +384,9 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Номер �
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Промежуточный итог: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Скидка: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -470,6 +475,35 @@ subscriptionSubsequentInvoice-content-charged = { $invoiceDateOnly } оплач�
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Следующая оплата: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Платёж за { $productName } получен
+subscriptionSubsequentInvoiceDiscount-title = Спасибо за оформление подписки!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Мы получили ваш последний платёж за { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Номер счёта: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Номер счёта: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = Изменение тарифного плана: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charge = Оплачено { $invoiceTotal } { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Следующий платёж: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = Промежуточная сумма: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = Скидка: -{ $invoiceDiscountAmount }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Вы успешно обновились до { $productNameNew }
 subscriptionUpgrade-title = Спасибо за обновление!
@@ -498,14 +532,14 @@ unblockCode-report = Если нет, помогите нам в борьбе с
 unblockCode-report-plaintext = Если нет, помогите нам в борьбе со злоумышленниками и сообщите нам об этом.
 verificationReminderFirst-subject = Напоминание: Завершите создание вашего аккаунта
 verificationReminderFirst-title = Добро пожаловать в семью { -brand-firefox }
-verificationReminderFirst-description = Несколько дней назад вы создали { -product-firefox-account(case: "singular_nominative") } — но так и не подтвердили его.
+verificationReminderFirst-description = Несколько дней назад вы создали { -product-firefox-account(case: "accusative") }, но так и не подтвердили его.
 verificationReminderFirst-sub-description = Подтвердите сейчас — и получите доступ к технологиям, которые защищают вас, сражаются за вашу конфиденциальность, вооружают вас знаниями об этом и, прежде всего, уважают вас.
 confirm-email = Подтвердить электронную почту
 confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Подтвердить электронную почту
 verificationReminderSecond-subject = Последнее напоминание: Активируйте ваш аккаунт
 verificationReminderSecond-title = Всё ещё здесь?
-verificationReminderSecond-description = Почти неделю назад вы создали { -product-firefox-account(case: "singular_nominative") }, но всё ещё не подтвердили его. Мы беспокоимся о вас.
+verificationReminderSecond-description = Почти неделю назад вы создали { -product-firefox-account(case: "accusative") }, но так и не подтвердили его. Мы беспокоимся о вас.
 verificationReminderSecond-sub-description = Подтвердите этот адрес электронной почты, чтобы активировать свой Аккаунт, и дайте нам знать, что вы в порядке.
 verificationReminderSecond-action = Подтвердить электронную почту
 verify-title = Активируйте семейство продуктов { -brand-firefox }
@@ -535,9 +569,10 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = После подтверждения, такие изменения аккаунта как добавление дополнительной электронной почты станут возможны с этого устройства.
 verifySecondaryCode-subject = Подтвердите дополнительную электронную почту
 verifySecondaryCode-title = Подтвердите дополнительную электронную почту
+verifySecondaryCode-action = Подтвердить электронную почту
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Запрос на использование { $email } в качестве дополнительного адреса электронной почты был выполнен со следующего { -product-firefox-account(case: "singular_genitive") }:
+verifySecondaryCode-explainer = Использование { $email } в качестве дополнительного адреса электронной почты было запрошено со следующего { -product-firefox-account(case: "genitive") }:
 verifySecondaryCode-prompt = Используйте этот код подтверждения:
 verifySecondaryCode-expiry-notice = Срок его действия истекает через 5 минут. После подтверждения, на этот адрес станут приходить оповещения безопасности и подтверждения.
 # Variables:
