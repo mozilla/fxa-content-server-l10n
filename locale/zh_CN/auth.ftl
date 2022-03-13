@@ -38,7 +38,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }：
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = 您收到此邮件是因为 { $email } 绑定有 { -product-firefox-account }，且订阅了 { $productName }。
+subplat-explainer-specific = 您收到此邮件是因为 { $email } 注册了 { -product-firefox-account }，且订阅了 { $productName }。
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = 您收到这封邮件，是因为 { $email } 注册了 { -product-firefox-account }。
