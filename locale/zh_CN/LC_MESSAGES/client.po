@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 22:07+0000\n"
-"PO-Revision-Date: 2022-03-13 09:18+0000\n"
+"PO-Revision-Date: 2022-03-13 09:48+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1860,7 +1860,7 @@ msgstr "完成"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "我为何需要创建此账户？<a %(escapedSuggestionAttrs)s>点此了解</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"

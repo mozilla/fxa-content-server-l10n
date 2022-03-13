@@ -95,7 +95,7 @@ connect-another-app-store-image-2 =
 cs-heading = 关联服务
 cs-description = 您正在使用并登录的所有项目。
 cs-cannot-refresh = 很抱歉，刷新关联服务列表时出现问题。
-cs-cannot-disconnect = 找不到客户端，无法解绑
+cs-cannot-disconnect = 找不到客户端，无法断开连接
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -112,7 +112,7 @@ cs-disconnect-sync-heading = 断开同步
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
 cs-disconnect-sync-content = 您的浏览数据将继续保留在您的设备（{ $device }），但它将不再与您的账户同步。
-cs-disconnect-sync-reason = 要解绑此设备的主要原因是什么？
+cs-disconnect-sync-reason = 要断开连接此设备的主要原因是什么？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -127,10 +127,10 @@ cs-disconnect-sync-opt-not-say = 我不想说
 ##
 
 cs-disconnect-advice-confirm = 好的，明白了
-cs-disconnect-lost-advice-heading = 丢失或被盗的设备已解绑
+cs-disconnect-lost-advice-heading = 丢失或被盗的设备已断开连接
 cs-disconnect-lost-advice-content-2 = 鉴于您的设备丢失或被盗，为了确保信息安全，您应在账户设置中更改您的 { -product-firefox-account }密码，并从设备制造商处了解如何远程抹除数据。
-cs-disconnect-suspicious-advice-heading = 可疑设备已解绑
-cs-disconnect-suspicious-advice-content = 若解绑的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改存放在 { -brand-firefox } 的所有网站密码。
+cs-disconnect-suspicious-advice-heading = 可疑设备已断开连接
+cs-disconnect-suspicious-advice-content = 若断开连接的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改存放在 { -brand-firefox } 的所有网站密码。
 cs-sign-out-button = 退出
 
 ##

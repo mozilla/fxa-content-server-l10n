@@ -195,6 +195,10 @@ postAddAccountRecovery-description = 您已使用下列设备，成功生成 { -
 postAddAccountRecovery-action = 管理账号
 postAddAccountRecovery-recovery = 若不是您操作的，<a data-l10n-name="revokeAccountRecoveryLink">请点击此处</a>。
 postAddAccountRecovery-revoke = 若不是您操作的，请吊销该密钥。
+postAddLinkedAccount-subject = 新账号连接到 { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = 您的 { $providerName } 账号已连接至 { -product-firefox-account }
 postAddLinkedAccount-action = 管理账户
 postAddTwoStepAuthentication-subject = 已启用两步验证
 postAddTwoStepAuthentication-title = 已启用两步验证
