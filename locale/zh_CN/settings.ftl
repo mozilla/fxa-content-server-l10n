@@ -79,7 +79,7 @@ bento-menu-made-by-mozilla = { -brand-mozilla } 出品
 ## Connect another device promo
 
 connect-another-fx-mobile = 下载适用于手机或平板电脑的 { -brand-firefox }
-connect-another-find-fx-mobile = 到 { -google-play } 或 { -app-store } 寻找 { -brand-firefox }，或是<br /><linkExternal>将下载链接发送到您的移动设备上。</linkExternal>
+connect-another-find-fx-mobile = 到 { -google-play } 或 { -app-store } 搜索 { -brand-firefox }，或<br /><linkExternal>将下载链接发送至您的移动设备。</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -197,6 +197,11 @@ input-password-show-aria = 以纯文本形式显示密码，您的密码将显�
 
 ## Linked Accounts section
 
+la-heading = 已连接账号
+la-description = 您已授权连接下列账号。
+la-unlink-button = 断开连接
+la-unlink-account-button = 断开连接
+la-unlink-heading = 断开与第三方账号的连接
 nav-linked-accounts = { la-heading }
 
 ## Modal
