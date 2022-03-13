@@ -42,7 +42,7 @@ subplat-explainer-specific = 您收到此邮件是因为 { $email } 绑定有 { 
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = 您收到这封邮件，是因为 { $email } 注册了 { -product-firefox-account }。
-subplat-explainer-multiple = 您收到此邮件是因为 { $email } 绑定有 { -product-firefox-account }，且订阅了多个产品。
+subplat-explainer-multiple = 您收到此邮件是因为 { $email } 注册了 { -product-firefox-account }，且订阅了多个产品。
 subplat-manage-account = 访问<a data-l10n-name="subplat-account-page">账户页面</a>管理 { -product-firefox-account }设置。
 subplat-terms-policy = 条款及取消政策
 subplat-terms-policy-plaintext = { subplat-terms-policy }：
@@ -242,8 +242,8 @@ postVerify-action = 设置下一台设备
 # Variables:
 #  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = 有任何问题？请访问 { $supportUrl }
-postVerifySecondary-subject = 备用邮箱已绑定
-postVerifySecondary-title = 备用邮箱已绑定
+postVerifySecondary-subject = 已绑定备用邮箱
+postVerifySecondary-title = 已绑定备用邮箱
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content = 已成功验证 { $secondaryEmail } 作为您 { -product-firefox-account }的备用邮箱。从现在起，安全通知和登录确认邮件也将发送到该邮箱。
