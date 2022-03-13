@@ -483,7 +483,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Midada dal plan: { $
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Debità { $invoiceTotal } ils { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = Debità { $invoiceTotal } ils { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Proxim quint: { $nextInvoiceDateOnly }
@@ -559,6 +559,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Uschespert che quest apparat è verifitgà esi pussaivel da modifitgar il conto (p.ex. agiuntar ina adressa dad e-mail alternativa) cun agid da quest apparat.
 verifySecondaryCode-subject = Confermar l’adressa dad e-mail secundara
 verifySecondaryCode-title = Verifitgar l’adressa dad e-mail alternativa
+verifySecondaryCode-action = Verifitgar l'adressa dad e-mail
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Ina dumonda per utilisar { $email } sco adressa dad e-mail alternativa è vegnida fatga da suandant { -product-firefox-account }:
