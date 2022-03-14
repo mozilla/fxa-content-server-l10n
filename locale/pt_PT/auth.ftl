@@ -46,6 +46,7 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reativar subscrição
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Atualizar a informação de faturação
+subplat-privacy-policy = Política de privacidade da { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Termos do Serviço { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
