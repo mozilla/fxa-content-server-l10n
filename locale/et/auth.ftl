@@ -280,6 +280,31 @@ subscriptionAccountFinishSetup-subject = Tere tulemast teenusesse { $productName
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Tere tulemast kasutama teenust { $productName }
+subscriptionAccountFinishSetup-content-processing = Sinu makset töödeldakse ja see võib võtta kuni neli tööpäeva. Sinu teenuse tellimus uueneb automaatselt igal arveldusperioodil, kui sa ei otsusta seda tühistada.
+subscriptionAccountFinishSetup-content-create-2 = Järgmisena lood sa oma uue teenuse kasutamiseks { -product-firefox-account } konto parooli.
+subscriptionAccountFinishSetup-action-2 = Tee algust
+subscriptionAccountReminderFirst-subject = Meeldetuletus: vii oma konto seadistamine lõpule
+subscriptionAccountReminderFirst-title = Sa ei saa veel oma teenust kasutada
+subscriptionAccountReminderFirst-content-info = Mõned päevad tagasi lõid sa { -product-firefox-account } konto, aga ei kinnitanud seda. Me loodame, et viid konto seadistamise lõpule, et saaksid oma uut teenust kasutada.
+subscriptionAccountReminderFirst-content-select = Uue parooli loomiseks ja konto kinnitamiseks klõpsa “Määra parool”.
+subscriptionAccountReminderFirst-action = Määra parool
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Viimane meeldetuletus: seadista oma konto
+subscriptionAccountReminderSecond-title = Tere tulemast { -brand-firefox }i!
+subscriptionAccountReminderSecond-content-info = Mõned päevad tagasi lõid sa { -product-firefox-account } konto, aga ei kinnitanud seda. Me loodame, et viid konto seadistamise lõpule, et saaksid oma uut teenust kasutada.
+subscriptionAccountReminderSecond-content-select = Uue parooli loomiseks ja konto kinnitamiseks klõpsa “Määra parool”.
+subscriptionAccountReminderSecond-action = Määra parool
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Teenuse { $productName } tellimus on tühistatud
+subscriptionCancellation-title = Kahju, et lahkud
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Tühistasime sinu teenuse { $productName } tellimuse. Sinu viimane makse summas { $invoiceTotal } teostati { $invoiceDateOnly }. Teenus jätkub kuni praeguse arveldusperioodi lõpuni, milleks on { $serviceLastActiveDateOnly }.
 unblockCode-title = Kas see on sinu sisselogimine?
 unblockCode-prompt = Kui jah, siis siin on vajalik autoriseerimiskood:
 unblockCode-report-plaintext = Kui mitte, siis aita meil sissetungijaid eemal hoida ning teavita meid.
