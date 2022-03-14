@@ -94,6 +94,7 @@ change-password-plaintext = Kui kahtlustad, et keegi teine püüab sinu kontot k
 user-ip = IP-aadress: { $ip }
 manage-account = Konto haldamine
 manage-account-plaintext = { manage-account }:
+payment-details = Makse andmed:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Arve number: { $invoiceNumber }
@@ -254,11 +255,31 @@ postVerify-action = Seadista järgmine seade
 postVerify-support = Kas sul on küsimusi? Külasta { $supportUrl }
 postVerifySecondary-subject = Lisati teine e-posti aadress
 postVerifySecondary-title = Lisati teine e-posti aadress
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = Oled edukalt aadressi { $secondaryEmail } kinnitanud { -product-firefox-account } konto teise e-posti aadressina. Turvateavitusi ja sisselogimise kinnitusi saadetakse edaspidi mõlemale aadressile.
 postVerifySecondary-action = Konto haldamine
 recovery-subject = Lähtesta parool
 recovery-title = Sul on vaja enda parool lähtestada?
 recovery-description = Uue parooli loomiseks klõpsa nupul järgmise tunni jooksul. Selle nõude saatis järgmine seade:
 recovery-action = Uue parooli loomine
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Teenuse { $productName } tellimus on tühistatud
+subscriptionAccountDeletion-title = Kahju, et lahkud
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Kustutasid hiljuti oma { -product-firefox-account } konto. Seoses sellega tühistasime me sinu teenuse { $productName } tellimuse. Viimane makse summas { $invoiceTotal } teostati { $invoiceDateOnly }.
+# COMMENT ABOUT After the colon,
+payment-details = Makse andmed:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Tere tulemast teenusesse { $productName }: palun määra omale parool.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Tere tulemast kasutama teenust { $productName }
 unblockCode-title = Kas see on sinu sisselogimine?
 unblockCode-prompt = Kui jah, siis siin on vajalik autoriseerimiskood:
 unblockCode-report-plaintext = Kui mitte, siis aita meil sissetungijaid eemal hoida ning teavita meid.
