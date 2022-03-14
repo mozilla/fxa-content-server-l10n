@@ -305,6 +305,13 @@ subscriptionCancellation-title = Kahju, et lahkud
 #   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = Tühistasime sinu teenuse { $productName } tellimuse. Sinu viimane makse summas { $invoiceTotal } teostati { $invoiceDateOnly }. Teenus jätkub kuni praeguse arveldusperioodi lõpuni, milleks on { $serviceLastActiveDateOnly }.
+# Variables:
+# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Oled lülitunud tootele { $productNameNew }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Oled edukalt lülitanud tootelt { $productNameOld } tootele { $productNameNew }.
 unblockCode-title = Kas see on sinu sisselogimine?
 unblockCode-prompt = Kui jah, siis siin on vajalik autoriseerimiskood:
 unblockCode-report-plaintext = Kui mitte, siis aita meil sissetungijaid eemal hoida ning teavita meid.
