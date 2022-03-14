@@ -219,6 +219,7 @@ postAddAccountRecovery-description = Uspešno ste ustvarili obnovitveni ključ z
 postAddAccountRecovery-action = Upravljanje računa
 postAddAccountRecovery-recovery = Če to niste bili vi, <a data-l10n-name="revokeAccountRecoveryLink">kliknite tukaj</a>.
 postAddAccountRecovery-revoke = Če to niste bili vi, razveljavite ključ.
+postAddLinkedAccount-action = Upravljanje računa
 postAddTwoStepAuthentication-subject = Overitev v dveh korakih je omogočena
 postAddTwoStepAuthentication-title = Overitev v dveh korakih je omogočena
 postAddTwoStepAuthentication-description-plaintext = Uspešno ste omogočili overitev v dveh korakih za svoj { -product-firefox-account }. Varnostne kode iz vaše aplikacije za overitev bodo odslej zahtevane ob vsaki prijavi.
@@ -292,10 +293,7 @@ subscriptionAccountFinishSetup-subject = Dobrodošli v { $productName }: Nastavi
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Dobrodošli v { $productName }
 subscriptionAccountFinishSetup-content-processing = Vaše plačilo je v obdelavi, ki lahko traja do štiri delovne dni. Vaša naročnina se bo samodejno obnovila vsako obračunsko obdobje, razen če se odločite za preklic.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Nato boste ustvarili geslo za Firefox Račun in prenesli { $productName }.
-subscriptionAccountFinishSetup-action = Ustvarite geslo
+subscriptionAccountFinishSetup-action-2 = Začnite
 subscriptionAccountReminderFirst-subject = Opomnik: Dokončajte nastavljanje računa
 subscriptionAccountReminderFirst-title = Dostop do vaše naročnine še ni možen
 subscriptionAccountReminderFirst-content-info = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Upamo, da boste dokončali nastavitev računa in omogočili uporabo svoje naročnine.
@@ -370,7 +368,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number = Številka računa: <b>
 subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Številka računa: { $invoiceNumber }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Enkratni popust: −{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = Popust: −{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -446,6 +444,32 @@ subscriptionSubsequentInvoice-content-charged = Zaračunano { $invoiceTotal } dn
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Plačilo za { $productName } prejeto
+subscriptionSubsequentInvoiceDiscount-title = Hvala, ker ste naš naročnik!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Prejeli smo vaše zadnje plačilo za { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Številka računa: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Številka računa: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = Sprememba načrta: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charge = Zaračunano { $invoiceTotal } dne { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = Popust: −{ $invoiceDiscountAmount }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Nadgradili ste na { $productNameNew }
 subscriptionUpgrade-title = Hvala za nadgradnjo!
@@ -499,16 +523,9 @@ verifyPrimary-subject = Potrdi glavni e-poštni naslov
 verifyPrimary-action = Potrdi e-poštni naslov
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Potem ko ga potrdite, bodo na tej napravi omogočene tudi spremembe računa, kot je dodajanje pomožnega e-poštnega naslova.
-verifySecondary-subject = Potrdi pomožni e-poštni naslov
-verifySecondary-title = Potrdi pomožni e-poštni naslov
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Poslana je bila zahteva za uporabo { $email } kot pomožni e-poštni naslov naslednjega { -product-firefox-account(sklon: "rodilnik") }:
-verifySecondary-action = Potrdi e-poštni naslov
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Ko naslov potrdite, bo začel prejemati varnostna obvestila in potrditve.
 verifySecondaryCode-subject = Potrdi pomožni e-poštni naslov
 verifySecondaryCode-title = Potrdi pomožni e-poštni naslov
+verifySecondaryCode-action = Potrdi e-poštni naslov
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Poslana je bila zahteva za uporabo { $email } kot pomožni e-poštni naslov naslednjega { -product-firefox-account(sklon: "rodilnik") }:
