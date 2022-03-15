@@ -401,7 +401,25 @@ subscriptionPaymentFailed-content-problem = Meil tekkis probleem toote { $produc
 subscriptionPaymentFailed-content-outdated = Võib juhtuda, et sinu krediitkaart või praegune makseviis on aegunud.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentProviderCancelled-subject = Toote { $productName } makseteabe uuendamine on vajalik
+subscriptionPaymentProviderCancelled-subject = Vaja on uuendada toote { $productName } makseteavet
+subscriptionPaymentProviderCancelled-title = Kahjuks on meil probleeme sinu makseviisiga
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Toote { $productName } makseviisiga tuvastati probleem.
+subscriptionPaymentProviderCancelled-content-reason = Võib juhtuda, et sinu krediitkaart või praegune makseviis on aegunud.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Teenuse { $productName } tellimus aktiveeriti uuesti
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Täname, et aktiveerisid uuesti teenuse { $productName } tellimuse!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Sinu arveldustsükkel ja makse jäävad samaks. Järgmine arve on { $invoiceTotal } kuupäeval { $nextInvoiceDateOnly }. Tellimust uuendatakse automaatselt igal arveldusperioodil, kui sa ei otsusta tühistada.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Teenuse { $productName } automaatse uuendamise teatis
 unblockCode-title = Kas see on sinu sisselogimine?
 unblockCode-prompt = Kui jah, siis siin on vajalik autoriseerimiskood:
 unblockCode-report-plaintext = Kui mitte, siis aita meil sissetungijaid eemal hoida ning teavita meid.
