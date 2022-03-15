@@ -258,10 +258,6 @@ subscriptionAccountFinishSetup-subject = { $productName } hizmetine hoş geldini
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = { $productName } hizmetine hoş geldiniz
 subscriptionAccountFinishSetup-content-processing = Ödemeniz işleme alındı. Tamamlanması 4 iş günü sürebilir. İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenecektir.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Sonra bir Firefox hesabı açacak ve { $productName } yazılımını indireceksiniz.
-subscriptionAccountFinishSetup-action = Parola oluştur
 subscriptionAccountReminderFirst-subject = Hatırlatma: Hesabınızın kurulumunu tamamlayın
 subscriptionAccountReminderFirst-title = Henüz aboneliğinize erişemezsiniz
 subscriptionAccountReminderFirst-content-info = Birkaç gün önce { -product-firefox-account } açtınız ama hesabınızı henüz doğrulamadınız. Yeni aboneliğinizi kullanabilmek için hesabınızın kurulumunu tamamlamanız gerekiyor.
@@ -345,7 +341,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Fatura numar
 subscriptionFirstInvoiceDiscount-content-subtotal = Ara toplam: { $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Tek seferlik indirim: -{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = İndirim: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -424,6 +420,16 @@ subscriptionSubsequentInvoice-content-charged = { $invoiceDateOnly } tarihinde {
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Sonraki fatura: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = { $productName } ödemesi alındı
+subscriptionSubsequentInvoiceDiscount-title = Abone olduğunuz için teşekkür ederiz!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = { $productName } için son ödemenizi aldık.
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = İndirim: -{ $invoiceDiscountAmount }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productNameNew } aboneliğine yükselttiniz
 subscriptionUpgrade-title = Yükseltme yaptığınız için teşekkürler!
@@ -480,14 +486,6 @@ verifyPrimary-subject = Ana e-posta adresini onayla
 verifyPrimary-action = E-postayı doğrula
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Cihaz doğrulandıktan sonra, bu cihazdan ikinci e-posta ekleme gibi hesap değişiklikleri yapmak mümkün olacaktır.
-verifySecondary-subject = İkinci e-postayı onayla
-verifySecondary-title = İkinci e-postayı doğrula
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = { $email } adresini ikinci e-posta adresi olarak kullanmak için aşağıdaki { -product-firefox-account }ndan bir istek yapıldı:
-verifySecondary-action = E-postayı doğrula
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir.
 verifySecondaryCode-subject = İkinci e-postayı onayla
 verifySecondaryCode-title = İkinci e-postayı doğrula
 # Variables:

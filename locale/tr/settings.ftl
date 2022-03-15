@@ -23,6 +23,7 @@ alert-bar-close-message = Mesajı kapat
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox Hesapları
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -199,6 +200,13 @@ input-password-hide = Parolayı gizle
 input-password-show = Parolayı göster
 input-password-hide-aria = Parolayı ekrandan gizle.
 input-password-show-aria = Parolayı düz metin olarak göster. Parolanız ekranda görünecektir.
+
+## Linked Accounts section
+
+la-unlink-button = Bağlantıyı kes
+la-unlink-account-button = Bağlantıyı kes
+la-unlink-heading = Üçüncü taraf hesabıyla bağlantıyı kes
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
