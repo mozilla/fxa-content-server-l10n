@@ -3,13 +3,23 @@ fxa-content-server-l10n
 
 [![CircleCI](https://circleci.com/gh/mozilla/fxa-content-server-l10n/tree/master.svg?style=svg)](https://circleci.com/gh/mozilla/fxa-content-server-l10n/tree/master)
 
-This repo (abbreviated as "L10N" in this README) contains all translated/translatable strings for the fxa-content-server repo (abbreviated as "SOURCE"). It contains an exact copy of the locales/ directory from SOURCE, and nothing else (except for this README).
+This repo (abbreviated as "L10N" in this README) contains all translated/translatable strings for all of the FxA servers (fxa-content-server, fxa-auth-server, etc.).  The FxA repository is abbreviated as "SOURCE" in this document.
 
-The moz-verbatim translation team works with this L10N repo, pushing changes into it any time they like.
+The string localization is managed in [Pontoon](https://pontoon.mozilla.org/projects/firefox-accounts/) and it pushes changes anytime it likes.
 
-On a regular basis, somebody on the SOURCE committers team copies everything from L10N into SOURCE/locale/, reviews the changes, then commits and pushes SOURCE. This makes the new translated strings available to SOURCE users, provides a clean (single-commit) revision history, and prevents non-locale/ changes from leaking from one repo to the other. The SOURCE repo contains a script (scripts/import_locale) to perform this update.
+On a regular basis (currently once a week) a [cron job runs](https://github.com/mozilla/fxa-content-server-l10n/blob/master/.circleci/config.yml) which extracts all the strings from SOURCE and opens a PR to merge them into this repository.  Someone from the localization team will review that PR for any strings that are confusing to localize and, if there aren't any problems, will merge it.  At that point Pontoon sees the changes and strings can be localized from the Pontoon interface.
 
-On a (different) regular basis, a SOURCE committer will update in the other direction. This starts with running the SOURCE repo's grunt "l10n-extract" task, which updates the *.pot files in SOURCE. The committer then copies the *.pot files from SOURCE into a checkout of L10N. Then they run ./scripts/merge_po.sh in L10N, which updates the *.po files in L10N. Then they should commit and push to L10N. That will update the set of translatable strings for the l10n team to work on.
+A new copy of this repository is checked out every time a deploy happens so deployed sites have the latest strings.
+
+## Submitting Translations
+
+Please find your locale on [Pontoon - Firefox Accounts](https://pontoon.mozilla.org/projects/firefox-accounts/).
+Follow the instructions on those sites to submit your translations.
+
+## !! Warning !!
+
+The directions below are super old and may not be relevant anymore.  The tools, like gettext, still matter, but I don't think all the script that exist here are run anymore.  So, beware.
+
 
 ## Dependencies
 
@@ -62,8 +72,3 @@ After that pull request is merged run:
 ```
 
 The script above will generate an email for the l10n mailing list. Read through the instructions in the script output to post to the l10n mailing list.
-
-## Submitting Translations
-
-Please find your locale on [Pontoon - Firefox Accounts](https://pontoon.mozilla.org/projects/firefox-accounts/).
-Follow the instructions on those sites to submit your translations.
