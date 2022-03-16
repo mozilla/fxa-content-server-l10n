@@ -420,6 +420,16 @@ subscriptionReactivation-content = Sinu arveldustsükkel ja makse jäävad samak
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Teenuse { $productName } automaatse uuendamise teatis
+subscriptionRenewalReminder-title = Sinu tellimust uuendatakse peagi
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Lugupeetud teenuse { $productName } klient
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Sinu praegune teenuse tellimus uueneb automaatselt { $reminderLength } päeva pärast. Sel päeval uuendab { -brand-mozilla } { $planIntervalCount } { $planInterval } tellimust ja sinu konto makseviisile rakendatakse tasu { $invoiceTotal }.
 unblockCode-title = Kas see on sinu sisselogimine?
 unblockCode-prompt = Kui jah, siis siin on vajalik autoriseerimiskood:
 unblockCode-report-plaintext = Kui mitte, siis aita meil sissetungijaid eemal hoida ning teavita meid.
