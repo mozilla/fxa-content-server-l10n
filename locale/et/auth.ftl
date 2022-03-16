@@ -518,8 +518,20 @@ unblockCode-prompt = Kui jah, siis siin on vajalik autoriseerimiskood:
 # Variables:
 #  $unblockCode (String) - An alphanumeric code
 unblockCode-prompt-plaintext = Kui jah, siis siin on vajalik autoriseerimiskood: { $unblockCode }
+unblockCode-report = Kui mitte, siis aita meil sissetungijaid tõrjuda ning <a data-l10n-name="reportSignInLink">teavita meid.</a>
 unblockCode-report-plaintext = Kui mitte, siis aita meil sissetungijaid eemal hoida ning teavita meid.
+verificationReminderFirst-subject = Meeldetuletus: vii oma konto loomine lõpule
+verificationReminderFirst-title = Tere tulemast { -brand-firefox }i perekonda
+verificationReminderFirst-description = Mõni päev tagasi lõid sa { -product-firefox-account } konto, aga ei kinnitanud seda.
+verificationReminderFirst-sub-description = Kinnita kohe ja saa osa tehnoloogiast, mis võitleb sinu privaatsuse eest, annab sulle praktilisi teadmisi ning austuse, mida väärid.
+confirm-email = Kinnita e-posti aadress
+confirm-email-plaintext = { confirm-email }:
+verificationReminderFirst-action = Kinnita e-posti aadress
+verificationReminderSecond-subject = Viimane meeldetuletus: aktiveeri oma konto
 verificationReminderSecond-title = Kas oled veel seal?
+verificationReminderSecond-description = Juba peaaegu nädal tagasi lõid sa { -product-firefox-account } konto, aga ei jõudnud selle kinnitamiseni. Me oleme sinu pärast mures.
+verificationReminderSecond-sub-description = Konto aktiveerimiseks ja endast märku andmiseks kinnita see e-posti aadress.
+verificationReminderSecond-action = Kinnita e-posti aadress
 verifyLogin-description = Turvalisuse tõstmiseks kinnita palun sisselogimine järgmises seadmes:
 verifyLogin-action = Kinnita sisselogimine
 verifyLoginCode-title = Kas see on sinu sisselogimine?
