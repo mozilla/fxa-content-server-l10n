@@ -430,6 +430,16 @@ subscriptionRenewalReminder-content-greeting = Lugupeetud teenuse { $productName
 #   $planInterval (String) - The interval of time of the subscription plan, e.g. week
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-current = Sinu praegune teenuse tellimus uueneb automaatselt { $reminderLength } päeva pärast. Sel päeval uuendab { -brand-mozilla } { $planIntervalCount } { $planInterval } tellimust ja sinu konto makseviisile rakendatakse tasu { $invoiceTotal }.
+subscriptionRenewalReminder-content-closing = Lugupidamisega
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Teenuse { $productName } tiim
+subscriptionsPaymentExpired-subject = Sinu tellimusega seotud krediitkaart aegub peagi
+subscriptionsPaymentExpired-title = Sinu krediitkaart hakkab aeguma
+subscriptionsPaymentExpired-content = Järgnevate tellimuste eest tasumiseks kasutatav krediitkaart hakkab aeguma.
+subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } tellimuste jaoks on vajalik makseteabe uuendamine
+subscriptionsPaymentProviderCancelled-title = Kahjuks on meil probleeme sinu makseviisiga
+subscriptionsPaymentProviderCancelled-content-detected = Järgnevate tellimuste makseviisiga tuvastati probleem.
 unblockCode-title = Kas see on sinu sisselogimine?
 unblockCode-prompt = Kui jah, siis siin on vajalik autoriseerimiskood:
 unblockCode-report-plaintext = Kui mitte, siis aita meil sissetungijaid eemal hoida ning teavita meid.
