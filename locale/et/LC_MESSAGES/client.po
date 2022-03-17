@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 22:07+0000\n"
-"PO-Revision-Date: 2022-03-17 06:50+0000\n"
+"PO-Revision-Date: 2022-03-17 06:54+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -716,7 +716,7 @@ msgstr "Eksisid e-posti aadressiga?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
-msgstr ""
+msgstr "Testi uusi Firefoxi tooteid"
 
 #: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
 msgid "Get the latest news about Mozilla and Firefox"
@@ -724,23 +724,23 @@ msgstr "Hangi viimased Mozilla ja Firefoxi uudised"
 
 #: .es5/lib/newsletters.js:33
 msgid "Take action to keep the internet healthy"
-msgstr ""
+msgstr "Võta kasutusele meetmeid interneti tervena hoidmiseks"
 
 #: .es5/lib/newsletters.js:37
 msgid "Be safer and smarter online"
-msgstr ""
+msgstr "Ole võrgus turvaliselt ja targalt"
 
 #: .es5/lib/newsletters.js:44
 msgid "Testing Firefox products"
-msgstr ""
+msgstr "Firefoxi toodete testimine"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "Meetmete kasutusele võtmine, et hoida internet tervena"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Turvalisus ja privaatsus veebis Firefoxi ja Mozillaga"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -796,19 +796,19 @@ msgstr "Puuduv OAuth parameeter: %(param)s"
 
 #: .es5/lib/oauth-errors.js:181
 msgid "User is not signed in"
-msgstr ""
+msgstr "Kasutaja pole sisse logitud"
 
 #: .es5/lib/oauth-errors.js:186
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Teine kasutaja on sisse logitud"
 
 #: .es5/lib/oauth-errors.js:191
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Kinnitamata kasutaja või seanss"
 
 #: .es5/lib/oauth-errors.js:196
 msgid "Invalid id_token_hint"
-msgstr ""
+msgstr "Vigane id_token_hint"
 
 #: .es5/lib/pairing-channel-client-errors.js:44
 msgid "Invalid message from the remote device"
