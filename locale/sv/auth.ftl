@@ -483,7 +483,7 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Planändring: { $pay
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charged = Debiterade { $invoiceTotal } den { $invoiceDateOnly }
+subscriptionSubsequentInvoiceDiscount-content-charge = Debiterade { $invoiceTotal } den { $invoiceDateOnly }
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoiceDiscount-content-next-invoice = Nästa faktura: { $nextInvoiceDateOnly }
@@ -559,6 +559,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = När du har verifierat, kommer kontoändringar som att lägga till en sekundär e-post att bli möjlig från den här enheten.
 verifySecondaryCode-subject = Bekräfta sekundär e-postadress
 verifySecondaryCode-title = Verifiera sekundär e-post
+verifySecondaryCode-action = Verifiera e-postadress
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = En begäran om att använda { $email } som en sekundär e-postadress har gjorts från följande { -product-firefox-account }:

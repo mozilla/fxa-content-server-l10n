@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-17 22:07+0000\n"
 "PO-Revision-Date: 2019-10-22 19:22+0000\n"
 "Last-Translator: Sithu Aung <sithu.aung015@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "စကားဝှက်ကို အောင်မြင်စွာ �
 msgid "Sign in"
 msgstr "၀င်ပါ"
 
-#: .es5/views/index.js:181
+#: .es5/views/index.js:179
 msgid "Account deleted successfully"
 msgstr "အကောင့်ဖယ်ရှားခြင်း အောင်မြင်ပါသည်"
 
@@ -104,7 +104,7 @@ msgstr "ချိတ်ဆက်ထားသည်။"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "မသိရသော အကောင့် <a href=\"/signup\">မှတ်ပုံတင်ပါ</a>"
 
-#: .es5/views/sign_up_password.js:84
+#: .es5/views/sign_up_password.js:86
 msgid "Account no longer exists. Recreate it?"
 msgstr "အကောင့်မရှိတော့ပါ။ ပြန်လည်ဖန်တီးပါမည်လား။"
 
@@ -1951,6 +1951,18 @@ msgstr ""
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
 msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:1
