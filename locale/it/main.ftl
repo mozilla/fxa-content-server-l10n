@@ -52,7 +52,7 @@ card-error = La transazione non può essere elaborata. Verifica i dati della tua
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error-2 = Un errore di sistema ha impedito l’abbonamento a { $productName }. Non è stato applicato alcun addebito sul tuo metodo di pagamento. Riprova.
-newsletter-signup-error = Non sei iscritto alle notifiche via mail relative agli aggiornamenti del prodotto. Puoi riprovare nelle impostazioni del tuo account.
+newsletter-signup-error = Non sei iscritto alle notifiche via mail relative agli aggiornamenti dei prodotti. Puoi riprovare nelle impostazioni del tuo account.
 fxa-post-passwordless-sub-error = La sottoscrizione dell’abbonamento è confermata ma il caricamento della pagina di conferma non è riuscito. Verifica la tua email per configurare il tuo account.
 
 ## settings
