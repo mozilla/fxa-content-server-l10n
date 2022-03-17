@@ -532,10 +532,31 @@ verificationReminderSecond-title = Kas oled veel seal?
 verificationReminderSecond-description = Juba peaaegu nädal tagasi lõid sa { -product-firefox-account } konto, aga ei jõudnud selle kinnitamiseni. Me oleme sinu pärast mures.
 verificationReminderSecond-sub-description = Konto aktiveerimiseks ja endast märku andmiseks kinnita see e-posti aadress.
 verificationReminderSecond-action = Kinnita e-posti aadress
+verify-title = Aktiveeri { -brand-firefox }i tooteperekond
+verify-description-plaintext = Kinnita oma konto, et võtta { -brand-firefox }ist maksimum igal pool, kus sisse logid.
+verify-description = Kinnita oma konto, et võtta { -brand-firefox }ist maksimum igal pool, kus sisse logid. Alustuseks:
+verify-subject = Vii konto loomine lõpule
+verify-action = Kinnita e-posti aadress
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = { $clientName } - uus sisselogimine
 verifyLogin-description = Turvalisuse tõstmiseks kinnita palun sisselogimine järgmises seadmes:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Kinnita uus sisselogimine - { $clientName }
 verifyLogin-action = Kinnita sisselogimine
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Sisselogimiskood teenusele { $serviceName }
 verifyLoginCode-title = Kas see on sinu sisselogimine?
+verifyLoginCode-prompt = Kui jah, siis siin on kinnituskood:
+verifyLoginCode-expiry-notice = See aegub 5 minuti pärast.
 verifyPrimary-title = Kinnita peamine e-posti aadress
 verifyPrimary-description = Nõue konto muutmiseks tehti järgmisest seadmest:
+verifyPrimary-subject = Kinnita peamine e-posti aadress
+verifyPrimary-action = Kinnita e-posti aadress
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Pärast kinnitamist muutuvad sellest seadmest võimalikuks sellised muudatused nagu teise e-posti aadressi lisamine.
+verifySecondaryCode-subject = Kinnita teine e-posti aadress
 verifySecondaryCode-title = Teise e-posti aadressi kinnitamine
+verifySecondaryCode-action = Kinnita e-posti aadress
