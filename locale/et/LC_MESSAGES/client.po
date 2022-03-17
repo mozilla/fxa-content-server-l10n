@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 22:07+0000\n"
-"PO-Revision-Date: 2022-03-17 06:40+0000\n"
+"PO-Revision-Date: 2022-03-17 06:50+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -135,11 +135,11 @@ msgstr "Alusta veebilehitsemist"
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Konto teavitusi saadetakse edaspidi ka aadressile %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Jätka teenusega %(serviceName)s"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
 msgid "Your account has been locked for security reasons"
@@ -179,7 +179,7 @@ msgstr "Ava Restmail"
 
 #: .es5/views/mixins/password-mixin.js:149
 msgid "Hide password"
-msgstr ""
+msgstr "Peida parool"
 
 #: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -223,23 +223,23 @@ msgstr "Konto kinnitamine õnnestus"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "maksed ja arveldamine"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "konto probleemid"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "tehnilised probleemid"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
-msgstr ""
+msgstr "anna tagasisidet / taotle uut funktsionaalsust"
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr ""
+msgstr "pole loetletud"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -251,7 +251,7 @@ msgstr "Ajalugu"
 
 #: .es5/models/sync-engines.js:66
 msgid "Logins and Passwords"
-msgstr ""
+msgstr "Kasutajatunnused ja paroolid"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -259,7 +259,7 @@ msgstr "Lisad"
 
 #: .es5/models/sync-engines.js:74
 msgid "Open Tabs"
-msgstr ""
+msgstr "Avatud kaardid"
 
 #: .es5/models/sync-engines.js:78
 msgid "Preferences"
@@ -271,11 +271,11 @@ msgstr "Aadressid"
 
 #: .es5/models/sync-engines.js:94
 msgid "Credit Cards"
-msgstr ""
+msgstr "Krediitkaardid"
 
 #: .es5/models/reliers/browser.js:88
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
@@ -407,7 +407,7 @@ msgstr "Selle e-posti aadressi kinnitas juba teine kasutaja"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
-msgstr ""
+msgstr "Kinnitamata seanss"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
@@ -415,11 +415,11 @@ msgstr "Teine e-posti aadress peab erinema konto peamisest e-posti aadressist."
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "Oled jõudnud maksimaalselt lubatud teiseste e-posti aadresside arvuni"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "See e-posti aadress on juba sinu kontoga seotud"
 
 #: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
@@ -511,15 +511,15 @@ msgstr "Kehtetu maksevahend tellimuse esitamiseks."
 
 #: .es5/lib/auth-errors.js:280
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "Tellimus on juba tühistatud"
 
 #: .es5/lib/auth-errors.js:284
 msgid "Update was rejected, please try again"
-msgstr ""
+msgstr "Uuendamine lükati tagasi, palun proovi uuesti"
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired verification code"
-msgstr ""
+msgstr "Vigane või aegunud kinnituskood"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -692,15 +692,15 @@ msgstr "Palun sisesta kinnituskood"
 
 #: .es5/lib/auth-errors.js:601
 msgid "Invalid redirect"
-msgstr ""
+msgstr "Vigane ümbersuunamine"
 
 #: .es5/lib/auth-errors.js:613
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr ""
+msgstr "Kirjutasid e-posti aadressi valesti? %(domain)s ei paku e-posti teenust."
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "Pildifaili suurus on üleslaadimiseks liiga suur."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
