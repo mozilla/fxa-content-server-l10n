@@ -560,3 +560,14 @@ verifyPrimary-post-verify = Pärast kinnitamist muutuvad sellest seadmest võima
 verifySecondaryCode-subject = Kinnita teine e-posti aadress
 verifySecondaryCode-title = Teise e-posti aadressi kinnitamine
 verifySecondaryCode-action = Kinnita e-posti aadress
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Aadressi { $email } kasutamiseks teise e-posti aadressina tehti taotlus järgmiselt { -product-firefox-account } kontolt:
+verifySecondaryCode-prompt = Kasuta järgmist kinnituskoodi:
+verifySecondaryCode-expiry-notice = See aegub 5 minuti pärast. Pärast kinnitamist hakkab see aadress saama turvateatisi ja -kinnitusi.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = Kinnituskood: { $code }
+verifyShortCode-title = Kas see oled sina registreerumas?
+verifyShortCode-prompt = Kui jah, siis kasuta registreerimisvormis seda kinnituskoodi:
+verifyShortCode-expiry-notice = See aegub 5 minuti pärast.
