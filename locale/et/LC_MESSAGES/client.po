@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 22:07+0000\n"
-"PO-Revision-Date: 2022-03-17 06:54+0000\n"
+"PO-Revision-Date: 2022-03-18 06:51+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -844,7 +844,7 @@ msgstr "Jätkates nõustud <a id=\"service-tos\" href=\"%(termsUri)s\">Teenuseti
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Abi</a>"
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -940,15 +940,15 @@ msgstr "Rohkem teavet"
 
 #: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:13
 msgid "Choose what to sync:"
-msgstr ""
+msgstr "Sünkroniseeritavate asjade valik:"
 
 #: .es5/templates/choose_what_to_sync.mustache:4
 msgid "Sync selections"
-msgstr ""
+msgstr "Sünkroniseerimise valikud"
 
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
-msgstr ""
+msgstr "Ära sünkroniseeri seda seadet"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
@@ -967,6 +967,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>PEA MEELES:</span> Kui lähtestad selle parooli, siis lähtestatakse ka sinu konto. Võid selle käigus kaotada osa enda isiklikest andmetest (muuhulgas ajaloo, järjehoidjad ja paroolid). See on "
+"nii seepärast, et krüpteerime sinu andmed privaatsuse kaitsmiseks parooli abil. Alles jäävad kõik võimalikud tellimused ja Pocketi andmeid see samuti ei mõjuta."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1041,15 +1043,15 @@ msgstr "Uue parooli loomiseks klõpsa e-postiga aadressile %(email)s saadetud li
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter verification code"
-msgstr ""
+msgstr "Sisesta kinnituskood"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Jätka teenusega <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Palun sisesta kinnituskood, mis saadeti 5 minuti jooksul aadressile %(escapedEmail)s."
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1063,7 +1065,7 @@ msgstr "Kinnita"
 
 #: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Vajad uut koodi? Saada uuesti"
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
@@ -1079,7 +1081,7 @@ msgstr "E-post on kinnitatud"
 
 #: .es5/templates/connect_another_device.mustache:9
 msgid "Complete your set-up"
-msgstr ""
+msgstr "Vii seadistamine lõpule"
 
 #: .es5/templates/connect_another_device.mustache:10
 msgid "Sign in to this Firefox to complete set-up"
@@ -1154,7 +1156,7 @@ msgstr "Jätka"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
-msgstr ""
+msgstr "Salvesta taastekoodid"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
