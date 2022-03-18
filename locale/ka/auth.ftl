@@ -281,6 +281,8 @@ subscriptionAccountFinishSetup-subject = მოგესალმებათ { 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = მოგესალმებათ { $productName }
 subscriptionAccountFinishSetup-content-processing = გადახდა მუშავდება და შეიძლება გასტანოს ოთხ სამუშაო დღემდე. თქვენი გამოწერა თავისით განახლდება თითოეულ სააგარიშო პერიოდში, სანამ არ გააუქმებთ.
+subscriptionAccountFinishSetup-content-create-2 = შემდეგ, შექმნით { -product-firefox-account(case: "gen") } პაროლს, გამოწერით სარგებლობის დასაწყებად.
+subscriptionAccountFinishSetup-action-2 = დაიწყეთ
 subscriptionAccountReminderFirst-subject = შეხსენება: დაასრულეთ ანგარიშის შექმნა
 subscriptionAccountReminderFirst-title = თქვენ ჯერ არ გაქვთ წვდომა თქვენს გამოწერაზე
 subscriptionAccountReminderFirst-content-info = რამდენიმე დღის წინ { -product-firefox-account } შექმენით, მაგრამ ჯერ არ დაგიმოწმებიათ. ვიმედოვნებთ, რომ დაასრულებთ ანგარიშის გამართვას, რომ შეძლოთ ისარგებლოთ ახალი შენაძენით.
@@ -373,6 +375,9 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = ზედნ
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = შუალედური ჯამი: { $invoiceSubtotal }
 # Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = ფასდაკლება: -{ $invoiceDiscountAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoiceDiscount-content-charge = ჩამოიჭრა { $invoiceTotal } თარიღზე { $invoiceDateOnly }
@@ -438,7 +443,7 @@ subscriptionsPaymentProviderCancelled-content-detected = ხარვეზს �
 subscriptionsPaymentProviderCancelled-content-payment = შესაძლოა იმიტომ, რომ თქვენი საკრედიტო ბარათის ვადა ამოიწურა ან გადახდის საშუალებაა ვადაგასული.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoice-subject = { $productName } გადახდა ვერ მოხერხდა
+subscriptionSubsequentInvoice-subject = { $productName } გადახდა მიღებულია
 subscriptionSubsequentInvoice-title = გმადლობთ, რომ ჩვენი გამომწერი ხართ!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -459,6 +464,35 @@ subscriptionSubsequentInvoice-content-charged = ჩამოიჭრა { $invo
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = შემდეგი ზედნადები: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = { $productName } გადახდა მიღებულია
+subscriptionSubsequentInvoiceDiscount-title = გმადლობთ, რომ ჩვენი გამომწერი ხართ!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = მიღებულია თქვენი ბოლო გადახდა პროდუქტისთვის { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = ზედნადების ნომერი: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = ზედნადების ნომერი: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = გეგმის ცვლილება: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charge = ჩამოიჭრა { $invoiceTotal } თარიღზე { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = შემდეგი ზედნადები: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = შუალედური ჯამი: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = ფასდაკლება: -{ $invoiceDiscountAmount }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = განახლების შედეგად მიიღეთ { $productNameNew }
@@ -525,6 +559,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = დამოწმების შემდეგ, ანგარიშის ცვლილების შესაძლებლობები, როგორიცაა დამატებითი ელფოსტის მითითება, ამ მოწყობილობიდან იქნება ხელმისაწვდომი.
 verifySecondaryCode-subject = დამატებითი ელფოსტის დამოწმება
 verifySecondaryCode-title = დამატებითი ელფოსტის დამოწმება
+verifySecondaryCode-action = ელფოსტის დამოწმება
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = მოთხოვნის წყარო, რომ { $email } მიეთითოს დამატებით ელფოსტად, არის შემდეგი { -product-firefox-account }:

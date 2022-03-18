@@ -23,6 +23,7 @@ alert-bar-close-message = შეტყობინების დახურ�
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $case ->
@@ -227,6 +228,16 @@ input-password-hide = პაროლის დამალვა
 input-password-show = პაროლის ჩვენება
 input-password-hide-aria = პაროლის დამალვა ეკრანიდან.
 input-password-show-aria = პაროლის მარტივ ტექსტად ჩვენება. თქვენი პაროლი ეკრანზე ხილული იქნება.
+
+## Linked Accounts section
+
+la-heading = მიბმული ანგარიშები
+la-description = თქვენ ნებადართული გაქვთ წვდომა მოცემულ ანგარიშებზე.
+la-unlink-button = გამოთიშვა
+la-unlink-account-button = გამოთიშვა
+la-unlink-heading = გამოთიშვა გარეშე ანგარიშიდან
+la-unlink-content = ნამდვილად გსურთ გამოთიშოთ თქვენი { -brand-google }-ანგარიში? შედეგად, მაინც დარჩებით შესული აღნიშნულ მომსახურებებზე. საჭირო იქნება თითოეულიდან ცალ-ცალკე გამოსვლა დაკავშირებული მომსახურებების განყოფილებაში.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
