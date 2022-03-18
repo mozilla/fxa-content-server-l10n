@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 22:07+0000\n"
-"PO-Revision-Date: 2022-03-18 06:51+0000\n"
+"PO-Revision-Date: 2022-03-18 07:01+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -1160,7 +1160,7 @@ msgstr "Salvesta taastekoodid"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Salvesta need ühekordselt kasutatavad koodid turvaliselt, et kasutada neid siis, kui mobiilset seadet pole käepärast."
 
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
@@ -1177,19 +1177,19 @@ msgstr "Prindi"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Katkesta seadistamine"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "Kinnita taastekood"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr ""
+msgstr "Seadme kaotamise korral oma kontole ligipääsu taastamiseks sisesta üks oma salvestatud taastekoodidest."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
-msgstr ""
+msgstr "Taastekood"
 
 #: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
@@ -1197,7 +1197,7 @@ msgstr "Kinnita"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "Luba kaheastmeline autentimine"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1205,11 +1205,11 @@ msgstr "Enda konto turvalisemaks muutmiseks võid nõuda mõnest <a %(escapedTot
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Skanni autentimiskood"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
-msgstr ""
+msgstr "Sisesta kood käsitsi"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1221,7 +1221,7 @@ msgstr "Ei saa koodi skaneerida?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Kui see tegevus on lõpule viidud, siis hakkab see genereerima sisestamiseks vajalikke turvakoode."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
