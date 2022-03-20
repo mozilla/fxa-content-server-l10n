@@ -77,6 +77,8 @@ automated-email =
     Este es un correo automático; si lo has recibido por error, no se requiere ninguna acción.
     Para más información, por favor visita <a data-l10n-name="supportLink">la ayuda de { -brand-mozilla }</a>.
 automated-email-plaintext = Este es un correo automático; si lo recibiste por error, no tienes que hacer nada.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Este es un correo electrónico enviado de forma automática; si no has autorizado esta acción, por favor, cambia tu contraseña:
 automated-email-reset =
     Este es un correo automático; si no autorizaste esta acción, entonces <a data-l10n-name="resetLink">por favor cambia tu contraseña</a>.
     Para más información, por favor visita <a data-l10n-name="supportLink">la ayuda de { -brand-mozilla }</a>.
@@ -200,6 +202,11 @@ postAddAccountRecovery-description = Has generado correctamente una clave de rec
 postAddAccountRecovery-action = Administrar cuenta
 postAddAccountRecovery-recovery = Si no eras tú, haz <a data-l10n-name="revokeAccountRecoveryLink">clic aquí.</a>
 postAddAccountRecovery-revoke = Si no eras tú, revoca la clave.
+postAddLinkedAccount-subject = Nueva cuenta vinculada a { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Tu cuenta de { $providerName } ha sido vinculada a tu { -product-firefox-account }
+postAddLinkedAccount-action = Administrar cuenta
 postAddTwoStepAuthentication-subject = Autenticación en dos pasos activada
 postAddTwoStepAuthentication-title = Autenticación en dos pasos activada
 postAddTwoStepAuthentication-description-plaintext = Has activado correctamente la autenticación en dos pasos en tu { -product-firefox-account }. A partir de ahora se solicitarán los códigos de seguridad de tu aplicación de autenticación cada vez que inicies sesión.
@@ -274,10 +281,8 @@ subscriptionAccountFinishSetup-subject = Te damos la bienvenida a { $productName
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bienvenido a { $productName }
 subscriptionAccountFinishSetup-content-processing = Tu pago se está procesando y puede tardar hasta cuatro días hábiles en completarse. Tu suscripción se renovará automáticamente cada período de facturación a menos que decidas cancelarlo.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = A continuación, será necesario crear una contraseña para la cuenta de Firefox y descargar { $productName }.
-subscriptionAccountFinishSetup-action = Crear una contraseña
+subscriptionAccountFinishSetup-content-create-2 = A continuación, crearás una contraseña de { -product-firefox-account } para comenzar a usar tu nueva suscripción.
+subscriptionAccountFinishSetup-action-2 = Comenzar
 subscriptionAccountReminderFirst-subject = Recordatorio: termina de configurar tu cuenta
 subscriptionAccountReminderFirst-title = Todavía no puedes acceder a tu suscripción
 subscriptionAccountReminderFirst-content-info = Hace unos días creaste una { -product-firefox-account } pero nunca la verificaste. Esperamos que termines de configurar tu cuenta para que puedas usar tu nueva suscripción.
@@ -371,7 +376,7 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Número de f
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Descuento único: -{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = Descuento: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -460,6 +465,35 @@ subscriptionSubsequentInvoice-content-charged = Cobrado { $invoiceTotal } el { $
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Próxima factura: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Pago recibido para { $productName }
+subscriptionSubsequentInvoiceDiscount-title = ¡Gracias por suscribirte!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Hemos recibido tu último pago por { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Número de factura: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Número de factura: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = Cambio de plan: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charge = Cobrado { $invoiceTotal } el { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Próxima factura: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = Descuento: -{ $invoiceDiscountAmount }
+# Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Te has actualizado a { $productNameNew }
 subscriptionUpgrade-title = ¡Gracias por la actualización!
@@ -523,16 +557,9 @@ verifyPrimary-subject = Confirmar correo electrónico principal
 verifyPrimary-action = Verificar correo electrónico
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Una vez verificado, podrás hacer cambios en la cuenta desde este dispositivo, como agregar un correo adicional.
-verifySecondary-subject = Confirmar correo electrónico secundario
-verifySecondary-title = Verificar cuenta secundaria
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Se ha registrado una solicitud para utilizar { $email } como cuenta secundaria desde la siguiente { -product-firefox-account }:
-verifySecondary-action = Verificar correo electrónico
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Una vez comprobada, esta cuenta empezará a recibir notificaciones de seguridad y confirmaciones.
 verifySecondaryCode-subject = Confirmar correo electrónico secundario
 verifySecondaryCode-title = Verificar cuenta secundaria
+verifySecondaryCode-action = Verificar correo electrónico
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Se ha registrado una solicitud para utilizar { $email } como cuenta secundaria desde la siguiente { -product-firefox-account }:
