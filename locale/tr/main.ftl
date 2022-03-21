@@ -51,6 +51,9 @@ card-error = İşleminiz gerçekleştirilemedi. Lütfen kredi kartı bilgilerini
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error-2 = Bir sistem hatası nedeniyle { $productName } kaydınız başarısız oldu. Ödeme yönteminizden ücret alınmadı. Lütfen tekrar deneyin.
+newsletter-signup-error = Ürün güncelleme e-postalarına kayıtlı değilsiniz. Hesap ayarlarınızda tekrar deneyebilirsiniz.
+fxa-post-passwordless-sub-error = Abonelik onaylandı, ancak onay sayfası yüklenemedi. Hesabınızı ayarlamak için lütfen e-postanızı kontrol edin.
 
 ## settings
 
