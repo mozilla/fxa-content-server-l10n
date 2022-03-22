@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 22:07+0000\n"
-"PO-Revision-Date: 2022-03-22 07:29+0000\n"
+"PO-Revision-Date: 2022-03-22 07:37+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -1501,7 +1501,7 @@ msgstr "Saada"
 
 #: .es5/templates/sms_send.mustache:11
 msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
+msgstr "SMS &amp; rakenduda võivad andmesidetasud. Nõutav on saaja nõusolek. <a %(escapedLearnMoreAttributes)s>Rohkem teavet</a>"
 
 #: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
 msgid "Why sync multiple devices?"
@@ -1509,27 +1509,27 @@ msgstr "Miks sünkroonida mitut seadet?"
 
 #: .es5/templates/sms_send.mustache:13
 msgid "Not now"
-msgstr ""
+msgstr "Mitte praegu"
 
 #: .es5/templates/sms_sent.mustache:1
 msgid "Check your texts"
-msgstr ""
+msgstr "Kontrolli oma sõnumeid"
 
 #: .es5/templates/sms_sent.mustache:2
 msgid "We've sent you a text message"
-msgstr ""
+msgstr "Saatsime sulle SMSi"
 
 #: .es5/templates/sms_sent.mustache:3
 msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
+msgstr "Link Firefoxi rakendusele saadeti numbrile %(escapedPhoneNumber)s"
 
 #: .es5/templates/sms_sent.mustache:4
 msgid "Wrong number?"
-msgstr ""
+msgstr "Vale number?"
 
 #: .es5/templates/sms_sent.mustache:5
 msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
+msgstr "Kui sa ei saanud SMSi, siis võid proovida ka otsida oma rakenduste poest fraasi “Firefox”."
 
 #: .es5/templates/sms_sent.mustache:6
 msgid "Didn't arrive? Resend"
@@ -1537,7 +1537,7 @@ msgstr "Ei jõudnud kohale? Saada uuesti"
 
 #: .es5/templates/sms_sent.mustache:7
 msgid "Why sign in on another device?"
-msgstr ""
+msgstr "Miks logida sisse teises seadmes?"
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1545,7 +1545,7 @@ msgstr "Firefox Accounts"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Konto avaleht"
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
@@ -1553,51 +1553,51 @@ msgstr "Tellimused"
 
 #: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
 msgid "Contact Us"
-msgstr ""
+msgstr "Võta meiega ühendust"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Mille pärast sa meiega ühendust võtad?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Vali üks"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Millega sa abi vajad?"
 
 #: .es5/templates/support.mustache:12
 msgid "Payment & billing"
-msgstr ""
+msgstr "Maksed ja arveldamine"
 
 #: .es5/templates/support.mustache:13
 msgid "Account issues"
-msgstr ""
+msgstr "Konto probleemid"
 
 #: .es5/templates/support.mustache:14
 msgid "Technical issues"
-msgstr ""
+msgstr "Tehnilised probleemid"
 
 #: .es5/templates/support.mustache:15
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Anna tagasisidet / taotle uut funktsionaalsust"
 
 #: .es5/templates/support.mustache:16
 msgid "Not listed"
-msgstr ""
+msgstr "Pole loetletud"
 
 #: .es5/templates/support.mustache:17
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "Kas vajad abi kindla rakenduse või teenusega? (valikuline)"
 
 #: .es5/templates/support.mustache:19
 msgid "Subject (optional)"
-msgstr ""
+msgstr "Teema (valikuline)"
 
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
-msgstr ""
+msgstr "Probleemi kirjeldus"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -1613,11 +1613,11 @@ msgstr "Sain aru"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Kas soovid selle seadme oma kontoga sünkroniseerida?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Sünkroniseeri see seade"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
@@ -1633,7 +1633,7 @@ msgstr "Sisesta parool"
 
 #: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Ühendus õnnestus"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
