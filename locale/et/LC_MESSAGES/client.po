@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 22:07+0000\n"
-"PO-Revision-Date: 2022-03-22 07:20+0000\n"
+"PO-Revision-Date: 2022-03-22 07:29+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -1386,6 +1386,11 @@ msgid ""
 "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              Jätkates nõustud järgnevaga:<br />\n"
+"              Pocketi <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">teenusetingimustega</a> ja <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">privaatsusreeglitega</a><br />\n"
+"              Firefoxi <a id=\"fxa-tos\" href=\"/legal/terms\">teenusetingimustega</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">privaatsusreeglitega</a>\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1401,7 +1406,7 @@ msgstr "Sisesta 10-kohaline taastamiskood"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr ""
+msgstr "Kas sa oled välja lukustatud?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1430,7 +1435,7 @@ msgstr "Ava oma autentimise äpp ja sisesta selle poolt genereeritud turvakood."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "Kas sul on koodi sisestamisega probleeme?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1446,7 +1451,7 @@ msgstr "Firefoxi konto loomine"
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Change email"
-msgstr ""
+msgstr "Muuda e-posti aadressi"
 
 #: .es5/templates/sign_up_password.mustache:8
 msgid "Repeat password"
@@ -1454,11 +1459,11 @@ msgstr "Korda parooli"
 
 #: .es5/templates/sign_up_password.mustache:9
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Sa vajad seda parooli, et pääseda ligi meie juures salvestatud krüptitud andmetele.<br/>Lähtestamine tähendab andmete, nagu paroolid ja järjehoidjad, potentsiaalset kaotamist."
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Praktilised teadmised tulevad sinu postkasti. Lisateabe saamiseks registreeru:"
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid "Create account"
@@ -1472,14 +1477,19 @@ msgid ""
 "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"              Jätkates nõustud järgnevaga:<br />\n"
+"              Pocketi <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">teenusetingimustega</a> ja <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">privaatsusreeglitega</a><br />\n"
+"              Firefoxi <a id=\"fxa-tos\" href=\"/legal/terms\">teenusetingimustega</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">privaatsusreeglitega</a>\n"
+"            "
 
 #: .es5/templates/sms_send.mustache:5
 msgid "Would you like to sync your phone?"
-msgstr ""
+msgstr "Kas soovid sünkroniseerida oma telefoni?"
 
 #: .es5/templates/sms_send.mustache:8
 msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
+msgstr "Saada SMSiga link Firefoxi telefoni paigaldamiseks."
 
 #: .es5/templates/sms_send.mustache:9
 msgid "Mobile phone number"
