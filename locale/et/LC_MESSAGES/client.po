@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 22:07+0000\n"
-"PO-Revision-Date: 2022-03-23 05:41+0000\n"
+"PO-Revision-Date: 2022-03-23 05:50+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -1772,79 +1772,79 @@ msgstr "Olen praeguseks lõpetanud"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "Sünkroniseeri Firefox seadmete vahel"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "Sünkroniseeri järjehoidjad, ajalugu ja paroolid Firefoxi oma kõigis mobiilsetes seadmetes. See võtab vaid mõne minuti."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "Tee algust"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Teen seda hiljem, saatke mulle meeldetuletus"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "Laadi Firefox alla kaamera äpi abil"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "Firefox paigaldamine ja sünkroniseerimine vähemalt kahte seadmesse kaitseb ka teie andmeid kadumise eest."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "Skannimiseks valmis"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Ühenda oma mobiilne seade</h1><p>kasutades just sinule loodud QR-koodi</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
-msgstr ""
+msgstr "Ava oma seadmes kaameraäpp"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "Suuna kaamera QR-koodile ning puuduta kuvatavat linki"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
-msgstr ""
+msgstr "Paigalda Firefox ja ava see oma seadmes"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
-msgstr ""
+msgstr "Logi sisse oma kontole"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgstr "<span class=\"number\">1</span>Ava oma seadmes kaameraäpp"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "<span class=\"number\">2</span>Suuna kaamera QR-koodile ja puuduta kuvatavat linki"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
+msgstr "<span class=\"number\">3</span>Paigalda Firefox ja ava see oma seadmes"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">4</span>Logi sisse oma kontole"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
-msgstr ""
+msgstr "Kaitse oma andmeid taastevõtmega"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "Sinu sünkroniseeritud andmed võivad sisaldada salvestatud paroole."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "Kuna need andmed on sinu turvalisuse jaoks kriitilised, siis kustutab Firefox need sinu kaitsmiseks parooli lähtestamisel, et takistada teistel inimestel ligipääsu neile andmetele."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
