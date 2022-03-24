@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 22:07+0000\n"
-"PO-Revision-Date: 2022-03-23 05:52+0000\n"
+"PO-Revision-Date: 2022-03-24 05:51+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -1856,11 +1856,11 @@ msgstr "Taastevõtme loomiseks kinnita palun oma konto %(escapedEmail)s parool."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Sisesta oma taastevõti, et kinnitada, et oled selle koopia salvestanud."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
-msgstr ""
+msgstr "Salvesta taastevõti"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -1868,7 +1868,7 @@ msgstr "Valmis"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Miks ma pean selle konto looma? <a %(escapedSuggestionAttrs)s>Vaata teavet siit</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1900,47 +1900,47 @@ msgstr "IP-aadress: %(ipAddress)s"
 
 #: .es5/templates/partial/firefox-family-services.mustache:1
 msgid "One account, many services"
-msgstr ""
+msgstr "Üks konto, palju teenuseid"
 
 #: .es5/templates/partial/firefox-family-services.mustache:2
 msgid "Firefox browser"
-msgstr ""
+msgstr "Firefoxi brauser"
 
 #: .es5/templates/partial/firefox-family-services.mustache:3
 msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr ""
+msgstr "Sünkroniseeri oma järjehoidjad, paroolid ja muu kõigisse seadmetesse."
 
 #: .es5/templates/partial/firefox-family-services.mustache:4
 msgid "Mozilla VPN"
-msgstr ""
+msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
-msgstr ""
+msgstr "VPN interneti privaatsuse usaldusväärselt pioneerilt."
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Save and discover the best stories from across the web."
-msgstr ""
+msgstr "Salvesta ja avasta parimaid lugusid kogu veebist."
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Relay"
-msgstr ""
+msgstr "Firefox Relay"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Sign up for new accounts without handing over your email address."
-msgstr ""
+msgstr "Registreeri uusi kontosid ilma oma e-posti aadressi edastamata."
 
 #: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
-msgstr ""
+msgstr "Vaata kõiki"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
-msgstr ""
+msgstr "Ole kaitstud &mdash; ära kasuta paroole uuesti."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Must not be your email address"
@@ -1952,11 +1952,11 @@ msgstr "Ei tohi kattuda <a %(escapedCommonPasswordLinkAttrs)s>sageli kasutatava 
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Hmm, meil on süsteemiga probleeme. Töötame selle sinu eest parandamise nimel ja palume ebamugavuste pärast vabandust. Palun proovi hiljem uuesti."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "Sinu sõnum saadeti toele"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
