@@ -217,6 +217,7 @@ la-unlink-button = Hủy liên kết
 la-unlink-account-button = Hủy liên kết
 la-unlink-heading = Hủy liên kết khỏi tài khoản của bên thứ ba
 la-unlink-content = Bạn có chắc chắn muốn hủy liên kết tài khoản { -brand-google } của mình không? Việc hủy liên kết tài khoản của bạn không tự động đăng xuất bạn khỏi các dịch vụ đó. Để làm điều đó, bạn sẽ cần đăng xuất theo cách thủ công từ phần Dịch vụ được kết nối.
+la-unlink-content-2 = Bạn có chắc chắn muốn hủy liên kết tài khoản của mình không? Việc hủy liên kết tài khoản của bạn không tự động đăng xuất bạn khỏi các dịch vụ đó. Để làm điều đó, bạn sẽ cần đăng xuất theo cách thủ công từ phần Dịch vụ được kết nối.
 nav-linked-accounts = { la-heading }
 
 ## Modal

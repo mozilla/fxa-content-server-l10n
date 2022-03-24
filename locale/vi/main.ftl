@@ -300,6 +300,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Hủy quyền truy cập của tôi và thông tin đã lưu của tôi trong
     { $name } vào { $period }
+invoice-not-found = Không tìm thấy hóa đơn tiếp theo
+sub-item-no-such-subsequent-invoice = Không tìm thấy hóa đơn tiếp theo cho thuê bao này.
 
 ## subscription iap item
 
@@ -326,6 +328,8 @@ sub-subscription-error =
     .title = Sự cố khi tải thuê bao
 sub-customer-error =
     .title = Sự cố tải thông tin khách hàng
+sub-invoice-error =
+    .title = Sự cố khi tải hóa đơn
 sub-billing-update-success = Thông tin thanh toán của bạn đã được cập nhật thành công
 sub-route-payment-modal-heading = Thông tin thanh toán không hợp lệ
 sub-route-payment-modal-message = Có vẻ như đã xảy ra lỗi với tài khoản { -brand-name-paypal } của bạn, chúng tôi cần bạn thực hiện các bước cần thiết để giải quyết vấn đề thanh toán này.
@@ -360,6 +364,8 @@ coupon-error-expired = Mã bạn đã nhập đã hết hạn.
 coupon-error-limit-reached = Mã bạn đã nhập đã đạt đến giới hạn.
 coupon-error-invalid = Mã bạn đã nhập không hợp lệ.
 coupon-success = Gói của bạn sẽ tự động gia hạn theo giá niêm yết.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Gói của bạn sẽ tự động gia hạn sau { $couponDurationDate } theo giá niêm yết.
 coupon-enter-code =
     .placeholder = Nhập mã
 

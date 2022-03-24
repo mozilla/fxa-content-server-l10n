@@ -151,12 +151,8 @@ downloadSubscription-subject = Chào mừng đến với { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Chào mừng đến với { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = Nếu bạn chưa tải xuống { $productName }, hãy bắt đầu sử dụng tất cả các tính năng có trong thuê bao của bạn:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Tải xuống { $productName }
+downloadSubscription-content-2 = Hãy bắt đầu sử dụng tất cả các tính năng có trong thuê bao của bạn:
+downloadSubscription-link-action-2 = Bắt đầu
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Còn ít mã phục hồi còn lại
 codes-reminder-description = Chúng tôi nhận thấy rằng bạn sắp hết mã khôi phục. Vui lòng xem xét tạo mã mới để tránh bị khóa tài khoản của bạn.
@@ -338,7 +334,7 @@ subscriptionFirstInvoice-title = Cảm ơn bạn đã đăng ký { $productName 
 subscriptionFirstInvoice-content-processing = Thanh toán của bạn hiện đang xử lý và có thể mất tới bốn ngày làm việc để hoàn tất.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = Bạn sẽ nhận được một email riêng với hướng dẫn tải xuống về cách bắt đầu sử dụng { $productName }.
+subscriptionFirstInvoice-content-install-2 = Bạn sẽ nhận được một email riêng về cách bắt đầu sử dụng { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -362,7 +358,7 @@ subscriptionFirstInvoiceDiscount-title = Cảm ơn bạn đã đăng ký { $prod
 subscriptionFirstInvoiceDiscount-content-processing = Thanh toán của bạn hiện đang xử lý và có thể mất tới bốn ngày làm việc để hoàn tất.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = Bạn sẽ nhận được một email riêng với hướng dẫn tải xuống về cách bắt đầu sử dụng { $productName }.
+subscriptionFirstInvoiceDiscount-content-install-2 = Bạn sẽ nhận được một email riêng về cách bắt đầu sử dụng { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
