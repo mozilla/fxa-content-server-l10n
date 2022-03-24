@@ -44,6 +44,9 @@ expired-card-error = Näib, et sinu krediitkaart on aegunud. Proovi teist kaarti
 insufficient-funds-error = Näib, et sinu kaardil pole piisavalt raha. Proovi teist kaarti.
 withdrawal-count-limit-exceeded-error = Näib, et see makse ületab sinu krediidilimiiti. Proovi teist kaarti.
 charge-exceeds-source-limit = Näib, et see makse ületab sinu päevast krediidilimiiti. Proovi teist kaarti.
+instant-payouts-unsupported = Näib, et sinu deebetkaart pole kiirmaksete jaoks seadistatud. Proovi teist deebet- või krediitkaarti.
+duplicate-transaction = Hmm. Näib, et just saadeti identne tehing. Kontrolli oma maksete ajalugu.
+coupon-expired = Näib, et see sooduskood on aegunud.
 
 ##  $productName (String) - The name of the subscribed product.
 
