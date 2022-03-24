@@ -151,12 +151,8 @@ downloadSubscription-subject = Вітаємо в { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Вітаємо в { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = Якщо ви досі не завантажили { $productName }, розпочнімо використовувати всі можливості вашої передплати:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Завантажити { $productName }
+downloadSubscription-content-2 = Почнімо використовувати всі функції, включені у вашу передплату:
+downloadSubscription-link-action-2 = Розпочнімо
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Залишилося мало кодів відновлення
 codes-reminder-description = У вас залишилось мало кодів відновлення. Будь ласка, згенеруйте нові коди, щоб не втратити можливість отримання доступу до свого облікового запису.
@@ -340,7 +336,7 @@ subscriptionFirstInvoice-title = Дякуємо вам за передплату
 subscriptionFirstInvoice-content-processing = Ваш платіж обробляється і його завершення може тривати до чотирьох робочих днів.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = Ви отримаєте окреме повідомлення електронною поштою з інструкціями про початок роботи з { $productName }.
+subscriptionFirstInvoice-content-install-2 = Ви отримаєте окремий електронний лист про те, як почати користуватися { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -364,7 +360,7 @@ subscriptionFirstInvoiceDiscount-title = Дякуємо вам за передп
 subscriptionFirstInvoiceDiscount-content-processing = Ваш платіж обробляється і його завершення може тривати до чотирьох робочих днів.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = Ви отримаєте окреме повідомлення електронною поштою з інструкціями про початок роботи з { $productName }.
+subscriptionFirstInvoiceDiscount-content-install-2 = Ви отримаєте окремий електронний лист про те, як почати користуватися { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
