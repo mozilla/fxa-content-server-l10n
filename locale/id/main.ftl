@@ -143,6 +143,7 @@ payment-confirm = Saya memberi kewenangan kepada Mozilla, pembuat produk Firefox
 payment-cancel-btn = Batal
 payment-update-btn = Perbarui
 payment-pay-btn = Bayar sekarang
+payment-pay-with-paypal-btn = Bayar dengan { -brand-name-paypal }
 payment-validate-name-error = Masukkan nama Anda.
 payment-validate-zip-required = Memerlukan kode pos
 payment-validate-zip-short = Kode pos terlalu pendek
@@ -160,6 +161,8 @@ input-error-is-required = { $label } diperlukan
 
 ## subscription upgrade
 
+product-plan-change-heading = Tinjau perubahan Anda
+sub-update-payment-title = Informasi pembayaran
 sub-update-card-exp = Habis berlaku { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Paket Anda akan berubah segera, dan Anda akan dikenakan biaya
@@ -168,6 +171,7 @@ sub-update-copy =
 
 ##
 
+sub-change-submit = Konfirmasi perubahan
 sub-update-current-plan-label = Paket saat ini
 sub-update-new-plan-label = Paket baru
 sub-update-total-label = Total baru
@@ -271,6 +275,8 @@ sub-item-cancel-msg =
 
 ## subscription iap item
 
+sub-iap-item-manage-button = Kelola
+account-activated = Akun Anda telah diaktifkan, <userEl/>
 
 ## subscription route index
 
