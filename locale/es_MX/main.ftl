@@ -316,6 +316,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Cancelar mi acceso y mi información guardada en
     { $name } el { $period }
+invoice-not-found = Factura posterior no encontrada
+sub-item-no-such-subsequent-invoice = No se encontró la factura posterior para esta suscripción.
 
 ## subscription iap item
 
@@ -342,6 +344,8 @@ sub-subscription-error =
     .title = Problema al cargar las suscripciones
 sub-customer-error =
     .title = Problema al cargar cliente
+sub-invoice-error =
+    .title = Problema al cargar facturas
 sub-billing-update-success = Tus datos de facturación han sido actualizados correctamente
 sub-route-payment-modal-heading = Datos de facturación inválidos
 sub-route-payment-modal-message = Parece haber un error con tu cuenta de { -brand-name-paypal }, necesitamos que tomes las medidas necesarias para resolver este problema de pago.
@@ -376,6 +380,8 @@ coupon-error-expired = El código que ingresaste ha expirado.
 coupon-error-limit-reached = El código que ingresaste ha alcanzado su límite.
 coupon-error-invalid = El código que ingresaste es inválido.
 coupon-success = Tu plan se renovará automáticamente al precio de la lista.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Tu plan se renovará automáticamente después del { $couponDurationDate } al precio de lista.
 coupon-enter-code =
     .placeholder = Ingresar código
 

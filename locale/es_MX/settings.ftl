@@ -219,6 +219,7 @@ la-unlink-button = Desvincular
 la-unlink-account-button = Desvincular
 la-unlink-heading = Desvincular de cuenta de terceros
 la-unlink-content = ¿Seguro que quieres desvincular tu cuenta de { -brand-google }? Desvincular tu cuenta no te desconecta automáticamente de esos servicios. Para hacerlo, deberás cerrar sesión manualmente en la sección de servicios conectados.
+la-unlink-content-2 = ¿Seguro que quieres desvincular tu cuenta? Desvincular tu cuenta no te desconecta automáticamente de esos servicios. Para hacerlo, deberás cerrar sesión manualmente en la sección de servicios conectados.
 nav-linked-accounts = { la-heading }
 
 ## Modal
