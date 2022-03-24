@@ -495,7 +495,7 @@ subscriptionUpgrade-upgrade-info = Sikeresen frissített erről: { $productNameO
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = A következő számlától fogva a levonása megváltozik { $paymentAmountOld }/{ $productPaymentCycle } összegről a következőre: { $paymentAmountNew }/{ $productPaymentCycleNew }. Akkor egy egyszeri { $paymentProrated } értékű levonása lesz, amely a(z) { $productPaymentCycleOld } hátralévő időszakára eső különbözet.
+subscriptionUpgrade-content-charge-info = A következő számlától fogva a levonása megváltozik { $paymentAmountOld }/{ $productPaymentCycleOld } összegről a következőre: { $paymentAmountNew }/{ $productPaymentCycleNew }. Akkor egy egyszeri { $paymentProrated } értékű levonása lesz, amely a(z) { $productPaymentCycleOld } hátralévő időszakára eső különbözet.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Ha új szoftver telepítése szükséges a { $productNameNew } használatához, akkor külön e-mailt fog kapni a letöltési utasításokkal.
