@@ -151,12 +151,6 @@ downloadSubscription-subject = Croeso i { $productName }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Croeso i { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = Os nad ydych eisoes wedi llwytho %(productName)s i lawr, gadewch i ni ddechrau defnyddio'r holl nodweddion sydd wedi'u cynnwys yn eich tanysgrifiad:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Llwythwch { $productName } i lawr
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Prinder codau adfer
 codes-reminder-description = Rydym wedi sylwi eich bod yn brin o godau adfer. Ystyriwch greu codau newydd er mwyn osgoi cael eich cloi allan o’ch cyfrif.
@@ -322,7 +316,7 @@ subscriptionDowngrade-content-switch = Rydych wedi symud o { $productNameOld } i
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge-info = O'ch bil nesaf ymlaen, bydd eich taliad yn newid o { $paymentAmountOld } y { $productPaymentCycleOld } i { $paymentAmountNew } bob { $productPaymentCycleNew }. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o { $paymentProrated } i adlewyrchu'r tâl is am weddill y { $productPaymentCycle }.
+subscriptionDowngrade-content-charge-info = O'ch bil nesaf ymlaen, bydd eich taliad yn newid o { $paymentAmountOld } y { $productPaymentCycleOld } i { $paymentAmountNew } bob { $productPaymentCycleNew }. Bryd hynny, byddwch hefyd yn derbyn credyd am unwaith o { $paymentProrated } i adlewyrchu'r tâl is am weddill y { $productPaymentCycleOld }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio { $productNameNew }, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr.
@@ -341,9 +335,6 @@ subscriptionFirstInvoice-subject = Cadarnhawyd y taliad am { $productName }
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Diolch am danysgrifio i { $productName }
 subscriptionFirstInvoice-content-processing = Mae'ch taliad yn cael ei brosesu ar hyn o bryd a gall gymryd hyd at bedwar diwrnod busnes i'w gwblhau.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = Byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr ar sut i ddechrau defnyddio { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -365,9 +356,6 @@ subscriptionFirstInvoiceDiscount-subject = Cadarnhawyd y taliad am { $productNam
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Diolch am danysgrifio i { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = Mae'ch taliad yn cael ei brosesu ar hyn o bryd a gall gymryd hyd at bedwar diwrnod busnes i'w gwblhau.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = Byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr ar sut i ddechrau defnyddio { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -511,7 +499,7 @@ subscriptionUpgrade-upgrade-info = Rydych wedi symud o { $productNameOld } i { $
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = O'ch bil nesaf ymlaen, bydd eich taliad yn newid o { $paymentAmountOld } y { $productPaymentCycleOld } i { $paymentAmountNew } bob { $productPaymentCycleNew }. Bryd hynny, byddwn yn codi ffi am unwaith o { $paymentProrated } i adlewyrchu'r tâl uwch am weddill y { $productPaymentCycle }.
+subscriptionUpgrade-content-charge-info = O'ch bil nesaf ymlaen, bydd eich taliad yn newid o { $paymentAmountOld } y { $productPaymentCycleOld } i { $paymentAmountNew } bob { $productPaymentCycleNew }. Bryd hynny, byddwn yn codi ffi am unwaith o { $paymentProrated } i adlewyrchu'r tâl uwch am weddill y { $productPaymentCycleOld }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio { $productNameNew }, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr.
