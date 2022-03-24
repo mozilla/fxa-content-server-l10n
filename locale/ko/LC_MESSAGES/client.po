@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-24 22:07+0000\n"
 "PO-Revision-Date: 2021-08-12 03:44+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "비밀번호를 성공적으로 재설정했습니다. 로그인해 주�
 msgid "Sign in"
 msgstr "Firefox 계정 로그인"
 
-#: .es5/views/index.js:181
+#: .es5/views/index.js:179
 msgid "Account deleted successfully"
 msgstr "계정이 성공적으로 삭제됨"
 
@@ -105,7 +105,7 @@ msgstr "연결됨"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "계정을 확인할 수 없습니다. <a href=\"/signup\">가입하기</a>"
 
-#: .es5/views/sign_up_password.js:84
+#: .es5/views/sign_up_password.js:86
 msgid "Account no longer exists. Recreate it?"
 msgstr "계정이 더 이상 존재하지 않습니다. 다시 만드시겠습니까?"
 
@@ -1955,6 +1955,18 @@ msgstr "구독으로 돌아가기"
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "Firefox Sync를 찾고 계신가요? <a %(escapedSyncSuggestionAttrs)s>여기에서 시작하기</a>"
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
+msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"

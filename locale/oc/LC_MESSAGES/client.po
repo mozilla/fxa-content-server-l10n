@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-24 22:07+0000\n"
 "PO-Revision-Date: 2020-03-28 16:57+0000\n"
 "Last-Translator: Quentí <quentinantonin@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr "Senhal reïnicializat. Connectatz-vos per contunhar."
 msgid "Sign in"
 msgstr "Connexion"
 
-#: .es5/views/index.js:181
+#: .es5/views/index.js:179
 msgid "Account deleted successfully"
 msgstr ""
 
@@ -104,7 +104,7 @@ msgstr "Connectat"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Compte desconegut. <a href=\"/signup\">Crear un compte</a>"
 
-#: .es5/views/sign_up_password.js:84
+#: .es5/views/sign_up_password.js:86
 msgid "Account no longer exists. Recreate it?"
 msgstr ""
 
@@ -1951,6 +1951,18 @@ msgstr ""
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
 msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:1

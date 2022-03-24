@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-24 22:07+0000\n"
 "PO-Revision-Date: 2022-03-06 13:34+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -28,7 +28,7 @@ msgstr "Pomyślnie zmieniono hasło. Zaloguj się, aby kontynuować."
 msgid "Sign in"
 msgstr "Zaloguj się"
 
-#: .es5/views/index.js:181
+#: .es5/views/index.js:179
 msgid "Account deleted successfully"
 msgstr "Pomyślnie usunięto konto"
 
@@ -104,7 +104,7 @@ msgstr "Połączono"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Nieznane konto. <a href=\"/signup\">Zarejestruj się</a>"
 
-#: .es5/views/sign_up_password.js:84
+#: .es5/views/sign_up_password.js:86
 msgid "Account no longer exists. Recreate it?"
 msgstr "Konto już nie istnieje. Utworzyć je ponownie?"
 
@@ -1977,6 +1977,18 @@ msgstr "Wróć do subskrypcji"
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "Szukasz usługi Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Załóż konto</a>"
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
+msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"

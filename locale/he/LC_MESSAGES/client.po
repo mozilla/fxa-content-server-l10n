@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-10 22:07+0000\n"
+"POT-Creation-Date: 2022-03-24 22:07+0000\n"
 "PO-Revision-Date: 2022-03-04 00:05+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr "איפוס הססמה הושלם בהצלחה. נא להיכנס לחש�
 msgid "Sign in"
 msgstr "התחברות"
 
-#: .es5/views/index.js:181
+#: .es5/views/index.js:179
 msgid "Account deleted successfully"
 msgstr "החשבון נמחק בהצלחה"
 
@@ -105,7 +105,7 @@ msgstr "מחובר"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "חשבון לא מוכר. <a href=\"/signup\">הרשמה</a>"
 
-#: .es5/views/sign_up_password.js:84
+#: .es5/views/sign_up_password.js:86
 msgid "Account no longer exists. Recreate it?"
 msgstr "החשבון כבר אינו קיים. האם ליצור אותו מחדש?"
 
@@ -1967,6 +1967,18 @@ msgstr "חזרה למינויים"
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
 msgstr "חיפשת את Firefox Sync‏? <a %(escapedSyncSuggestionAttrs)s>ניתן להתחיל כאן</a>"
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
+msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
