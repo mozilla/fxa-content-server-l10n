@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-10 22:07+0000\n"
-"PO-Revision-Date: 2022-01-12 06:04+0000\n"
-"Last-Translator: Fauzan Alfi <fauzan.alfi@gmail.com>\n"
+"PO-Revision-Date: 2022-03-24 16:38+0000\n"
+"Last-Translator: Benny Chandra <bennychandra@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -839,12 +839,8 @@ msgid "Invalid Token"
 msgstr "Token Tidak Valid"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Dengan melanjutkan, Anda menyetujui <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Dengan melanjutkan, Anda menyetujui <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -913,11 +909,10 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Silakan masukan kunci pemulihan sekali pakai yang Anda simpan di tempat aman untuk mendapatkan akses ke Firefox Account Anda."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">CATATAN:</span> Jika Anda mengatur ulang sandi dan tidak mempunyai kunci pemulihan akun tersimpan, beberapa data Anda akan terhapus (termasuk data server tersinkroninasi "
-"seperti riwayat dan markah)."
+"<span class=\"note\">CATATAN:</span> Jika Anda mengatur ulang sandi dan tidak mempunyai kunci pemulihan akun tersimpan, beberapa data Anda akan terhapus (termasuk data server tersinkroninasi seperti"
+" riwayat dan markah)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
@@ -1181,11 +1176,11 @@ msgstr "Cetak"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Batalkan penyiapan"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr ""
+msgstr "Konfirmasi kode pemulihan"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
@@ -1193,7 +1188,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
-msgstr ""
+msgstr "Kode pemulihan"
 
 #: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
@@ -1201,7 +1196,7 @@ msgstr "Konfirmasi"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "Aktifkan autentikasi dua-langkah"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1209,11 +1204,11 @@ msgstr "Tambahkan lapisan keamanan ke akun Anda dengan mewajibkan kode keamanan 
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "Pindai kode autentikasi"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
-msgstr ""
+msgstr "Masukkan kode secara manual"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1233,7 +1228,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr ""
+msgstr "Pindai kode QR saja?"
 
 #: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
@@ -1241,7 +1236,7 @@ msgstr "Kode keamanan"
 
 #: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
-msgstr ""
+msgstr "Siap"
 
 #: .es5/templates/legal.mustache:1
 msgid "Legal"
@@ -1296,7 +1291,7 @@ msgstr "Sukses"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Anda sekarang siap untuk menggunakan <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1403,7 +1398,7 @@ msgstr "Masukkan 10 digit kode pemulihan"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr ""
+msgstr "Apakah Anda terkunci?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
@@ -1432,7 +1427,7 @@ msgstr "Buka aplikasi autentikasi Anda dan masukkan kode keamanan yang disediaka
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr ""
+msgstr "Kesulitan memasukkan kode?"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -2039,15 +2034,15 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgstr "Dapatkan wawasan atas kebocoran data."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
-#~ "encrypt your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>INGAT:</span> Ketika Anda menyetel ulang kata sandi, akun Anda pun akan disetel ulang. Anda mungkin kehilangan beberapa informasi pribadi (termasuk riwayat, markah dan kata sandi). Ini "
 #~ "dikarenakan kami mengenkripsi data Anda dengan kata sandi Anda untuk melindungi privasi."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
+#~ "data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>CATATAN:</span> Ketika Anda menyetel ulang kata sandi, akun Anda pun akan disetel ulang. Anda mungkin kehilangan beberapa informasi pribadi (termasuk riwayat, markah dan kata sandi). Ini "
 #~ "dikarenakan kami mengenkripsi data Anda dengan kata sandi Anda untuk melindungi privasi."
@@ -2347,11 +2342,10 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Langkah 2 dari 2: Simpan Kunci Pemulihan"
 
-#~ msgid ""
-#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
-#~ "<span class=\"note\">CATATAN: </span>Jika Anda lupa sandi Anda, kunci ini dibutuhkan untuk mendapatkan akses ke data Anda. Simpan kunci pemulihan Anda di tempat aman, di mana Anda dapat "
-#~ "menemukannya dengan mudah."
+#~ "<span class=\"note\">CATATAN: </span>Jika Anda lupa sandi Anda, kunci ini dibutuhkan untuk mendapatkan akses ke data Anda. Simpan kunci pemulihan Anda di tempat aman, di mana Anda dapat menemukannya"
+#~ " dengan mudah."
 
 #~ msgid "Done, Recovery key saved"
 #~ msgstr "Selesai, Kunci pemulihan disimpan"
@@ -2383,8 +2377,8 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "Layanan SMS hanya tersedia di negara tertentu. Bisa dikenakan tarif SMS &amp; data. Penerima surel atau SMS yang dimaksudkan harus telah menyetujui. <a %(escapedLearnMoreAttributes)s>Pelajari "
-#~ "lebih lanjut</a>"
+#~ "Layanan SMS hanya tersedia di negara tertentu. Bisa dikenakan tarif SMS &amp; data. Penerima surel atau SMS yang dimaksudkan harus telah menyetujui. <a %(escapedLearnMoreAttributes)s>Pelajari lebih "
+#~ "lanjut</a>"
 
 #~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
 #~ msgstr "Akun sudah ada. <a href=\"/signin\">Masuk</a>"
@@ -2501,8 +2495,7 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgstr "Perangkat ganda"
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-#~ msgstr ""
-#~ "Anda akan mendapatkan informasi lanjutan terkait keamanan akun Anda, pengubahan kebijakan kami, kegunaan akun Anda dan surel awal untuk membantu Anda memanfaatkan Firefox Account sepenuhnya."
+#~ msgstr "Anda akan mendapatkan informasi lanjutan terkait keamanan akun Anda, pengubahan kebijakan kami, kegunaan akun Anda dan surel awal untuk membantu Anda memanfaatkan Firefox Account sepenuhnya."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "Selain itu, Anda dapat berlangganan untuk menerima surel promosi dengan berita terkini tentang Mozilla dan Firefox."
@@ -2514,8 +2507,8 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgstr "Kelola preferensi"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+#~ "lose access to it everywhere."
 #~ msgstr ""
 #~ "Jika Anda menggunakan akun ini untuk aplikasi dan layanan Mozilla seperti AMO, Pocket dan Screenshots Anda perlu masuk dahulu dan hilangkan informasi pribadi yang disimpan. Sekali Anda menghapus "
 #~ "akun Anda di sini Anda bisa kehilangan aksesnya di mana pun."
@@ -2596,9 +2589,7 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgstr "Bagikan berkas raksasa tanpa khawatir dimata-matai."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr ""
-#~ "Bila melanjutkan, Anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Kebijakan Privasi</"
-#~ "a>."
+#~ msgstr "Bila melanjutkan, Anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Kebijakan Privasi</a>."
 
 #~ msgid "Description of Issue"
 #~ msgstr "Deskripsi masalah"
@@ -2735,12 +2726,10 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Reremah dan penyimpanan lokal diperlukan."
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Kebijakan Privasi</"
-#~ "a> untuk layanan awan Firefox."
+#~ "Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Kebijakan Privasi</a> "
+#~ "untuk layanan awan Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Layanan awan Firefox"
@@ -2794,19 +2783,18 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgstr "Mengapa Sync dua (atau lebih) perangkat?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync memungkinkan Anda berbagi markah, riwayat, serta kata sandi yang tersimpan di Firefox dari satu perangkat ke perangkat lainnya. Masuk ke Firefox di ponsel atau tablet dan semua yang telah "
-#~ "Anda simpan di Firefox desktop akan muncul."
+#~ "Sync memungkinkan Anda berbagi markah, riwayat, serta kata sandi yang tersimpan di Firefox dari satu perangkat ke perangkat lainnya. Masuk ke Firefox di ponsel atau tablet dan semua yang telah Anda "
+#~ "simpan di Firefox desktop akan muncul."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
 #~ "Sync tidak dirancang sebagai layanan cadangan permanen - ia hanya berbagi apa yang telah disimpan secara lokal. Jika Anda mengubah ulang kata sandi dan data tidak tersimpan setidaknya di satu "
-#~ "perangkat, Anda dapat kehilangan semua informasi yang terkait dengan kata sandi lama tersebut. Itulah sebabnya Anda perlu untuk memasang Firefox dan menggunakan Sync pada lebih dari satu "
-#~ "perangkat."
+#~ "perangkat, Anda dapat kehilangan semua informasi yang terkait dengan kata sandi lama tersebut. Itulah sebabnya Anda perlu untuk memasang Firefox dan menggunakan Sync pada lebih dari satu perangkat."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2911,18 +2899,18 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgstr "Masuk"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
-#~ msgstr ""
-#~ "<span>PERLU DIINGAT:</span> Jika Anda menyetel ulang sandi Anda, beberapa data Anda akan dihapus (termasuk data peladen tersinkronisasi seperti riwayat dan markah). Itu karena kami mengenkripsi "
-#~ "data Anda dengan sandi Anda untuk melindungi privasi Anda."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
 #~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>CATATAN:</span> Jika Anda menyetel ulang sandi Anda, beberapa data Anda akan dihapus (termasuk data peladen tersinkronisasi seperti riwayat dan markah). Itu karena kami mengenkripsi data "
-#~ "Anda dengan sandi Anda untuk melindungi privasi Anda."
+#~ "<span>PERLU DIINGAT:</span> Jika Anda menyetel ulang sandi Anda, beberapa data Anda akan dihapus (termasuk data peladen tersinkronisasi seperti riwayat dan markah). Itu karena kami mengenkripsi data"
+#~ " Anda dengan sandi Anda untuk melindungi privasi Anda."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
+#~ msgstr ""
+#~ "<span>CATATAN:</span> Jika Anda menyetel ulang sandi Anda, beberapa data Anda akan dihapus (termasuk data peladen tersinkronisasi seperti riwayat dan markah). Itu karena kami mengenkripsi data Anda "
+#~ "dengan sandi Anda untuk melindungi privasi Anda."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Tambahkan lapisan keamanan ke akun Anda dengan mewajibkan kode keamanan dari salah satu <a %(escapedTotpSupportAttributes)s>aplikasi autentikasi berikut.</a>"
@@ -3000,11 +2988,9 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgstr "Memiliki akun dengan alamat surel berbeda? <a href=\"%(signinUri)s\">Masuk</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Terakhir aktif: %(translatedTimeAgo)s"
@@ -3157,8 +3143,7 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgstr "Apakah anda yakin untuk menyetel ulang sandi akun anda?"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr ""
-#~ "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
+#~ msgstr "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
 
 #~ msgid "a day"
 #~ msgstr "satu hari"
@@ -3215,8 +3200,7 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar "
-#~ "sesi."
+#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar sesi."
 
 #~ msgid "1991"
 #~ msgstr "1991"
@@ -3293,12 +3277,10 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Sudah punya akun? Masuk."
 
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Dengan melanjutkan, saya menyetujui <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Kebijakan Privasi</"
-#~ "a> layanan awan Firefox."
+#~ "Dengan melanjutkan, saya menyetujui <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Kebijakan Privasi</a> "
+#~ "layanan awan Firefox."
 
 #~ msgid "missing search parameter: %(itemName)s"
 #~ msgstr "parameter pencarian tidak tersedia: %(itemName)s"
