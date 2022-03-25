@@ -117,7 +117,11 @@ product-no-such-plan = Selle toote puhul sellist plaani pole.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } kasutab maksete turvaliseks töötlemiseks partnereid { -brand-name-stripe } ja { -brand-name-paypal }.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }'i privaatsuspoliitika</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }i privaatsuspoliitika</paypalPrivacyLink>
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }'i privaatsusreeglid</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }i privaatsusreeglid</paypalPrivacyLink>
+payment-legal-copy-paypal = { -brand-name-mozilla } kasutab maksete turvaliseks töötlemiseks { -brand-name-paypal }i.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal }i privaatsusreeglid</paypalPrivacyLink>
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } kasutab maksete turvaliseks töötlemiseks { -brand-name-stripe }'i.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }'i privaatsusreeglid</stripePrivacyLink>
 
 ## payment form
 
