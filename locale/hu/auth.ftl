@@ -111,7 +111,7 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # Variables:
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-card-ending-in = { $cardType } végződésű { $cardType } kártya
+card-ending-in = { $lastFour } végződésű { $cardType } kártya
 subscriptionSupport = Kérdése van az előfizetéséről? A <a data-l10n-name="subscriptionSupportUrl">támogatási csapatunk</a> itt van, hogy segítsen.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Kérdése van az előfizetéséről? A támogatási csapatunk itt van, hogy segítsen:
@@ -339,10 +339,10 @@ subscriptionFirstInvoice-content-install-2 = Külön e-mailt fog kapni a { $prod
 subscriptionFirstInvoice-content-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Számla száma: <b>%(invoiceNumber)s</b>
+subscriptionFirstInvoice-content-invoice-number = Számla száma: <b>{ $invoiceNumber }</b>
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Számla száma: %(invoiceNumber)s
+subscriptionFirstInvoice-content-invoice-number-plaintext = Számla száma: { $invoiceNumber }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
@@ -446,10 +446,10 @@ subscriptionSubsequentInvoice-title = Köszönjük, hogy előfizető lett!
 subscriptionSubsequentInvoice-content-received = Megkaptuk legutóbbi { $productName } befizetését.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number = Számla száma: <b>%(invoiceNumber)s</b>
+subscriptionSubsequentInvoice-content-invoice-number = Számla száma: <b>{ $invoiceNumber }</b>
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number-plaintext = Számla száma: %(invoiceNumber)s
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = Számla száma: { $invoiceNumber }
 # Variables:
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoice-content-plan-change = Csomagmódosítás: { $paymentProrated }
