@@ -151,12 +151,8 @@ downloadSubscription-subject = Boas-vindas ao { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Boas-vindas ao { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = Se você ainda não baixou o { $productName }, vamos apresentar como usar todos os recursos incluídos em sua assinatura:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Baixar o { $productName }
+downloadSubscription-content-2 = Vamos dar uma olhada em todos os recursos incluídos em sua assinatura:
+downloadSubscription-link-action-2 = Introdução
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Restam poucos códigos de recuperação
 codes-reminder-description = Percebemos que você está com poucos códigos de recuperação. Considere gerar novos códigos para evitar que sua conta seja bloqueada.
@@ -337,9 +333,6 @@ subscriptionFirstInvoice-subject = Pagamento do { $productName } confirmado
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Obrigado por assinar o { $productName }
 subscriptionFirstInvoice-content-processing = Seu pagamento está em processamento e pode levar até quatro dias úteis para ser concluído.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = Você receberá um email separado para baixar instruções de como começar a usar o { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -361,9 +354,6 @@ subscriptionFirstInvoiceDiscount-subject = Pagamento do { $productName } confirm
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Obrigado por assinar o { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = Seu pagamento está em processamento e pode levar até quatro dias úteis para ser concluído.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = Você receberá um email separado para baixar instruções de como começar a usar o { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
