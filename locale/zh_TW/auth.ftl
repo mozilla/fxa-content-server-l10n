@@ -145,12 +145,7 @@ downloadSubscription-subject = 歡迎使用 { $productName }。
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = 歡迎使用 { $productName }。
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = 若您還沒有下載 { $productName }，快來開始使用訂閱服務當中包含的完整功能：
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = 下載 { $productName }
+downloadSubscription-link-action-2 = 開始使用
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩餘的救援代碼不足
 codes-reminder-description = 我們發現您的救援碼所剩不多了。請考慮產生一些新的救援碼，以備無法登入時所需。
@@ -332,7 +327,7 @@ subscriptionFirstInvoice-title = 感謝您訂閱 { $productName }
 subscriptionFirstInvoice-content-processing = 正在處理您的款項，最多需要四個工作天才能完成。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = 您會收到另外一封關於如何開始使用 { $productName } 與下載步驟的電子郵件。
+subscriptionFirstInvoice-content-install-2 = 您將另外收到一封有關如何開始使用 { $productName } 的電子郵件。
 subscriptionFirstInvoice-content-auto-renew = 除非您主動取消訂閱，否則將在每個帳單週期開始時自動續約並收費。
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -356,7 +351,7 @@ subscriptionFirstInvoiceDiscount-title = 感謝您訂閱 { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = 正在處理您的款項，最多需要四個工作天才能完成。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = 您會收到另外一封關於如何開始使用 { $productName } 與下載步驟的電子郵件。
+subscriptionFirstInvoiceDiscount-content-install-2 = 您將另外收到一封有關如何開始使用 { $productName } 的電子郵件。
 subscriptionFirstInvoiceDiscount-content-auto-renew = 除非您主動取消訂閱，否則將在每個帳單週期開始時自動續約並收費。
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309

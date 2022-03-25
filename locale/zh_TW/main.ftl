@@ -303,6 +303,8 @@ sub-item-cancel-sub = 取消訂閱
 sub-item-stay-sub = 保持訂閱
 sub-item-cancel-msg = 在帳務週期最後一天（{ $period }）之後，將無法再使用 { $name }。
 sub-item-cancel-confirm = 在 { $period }之後取消我對 { $name } 的使用權限與儲存的所有資訊
+invoice-not-found = 找不到後續請款單
+sub-item-no-such-subsequent-invoice = 找不到此訂閱後續的請款單
 
 ## subscription iap item
 
@@ -326,6 +328,8 @@ sub-subscription-error =
     .title = 載入訂閱資訊時發生問題
 sub-customer-error =
     .title = 載入客戶資料時發生問題
+sub-invoice-error =
+    .title = 載入請款單時發生問題
 sub-billing-update-success = 成功更新帳務資訊！
 sub-route-payment-modal-heading = 帳務資訊無效
 sub-route-payment-modal-message = 您的 { -brand-name-paypal } 帳號似乎發生問題，請採取下列步驟處理付款問題。
@@ -360,6 +364,8 @@ coupon-error-expired = 您輸入的代碼已過期。
 coupon-error-limit-reached = 您輸入的代碼已達使用次數上限。
 coupon-error-invalid = 您輸入的代碼無效。
 coupon-success = 您的訂閱方案將以牌告原價自動續約。
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = 您的方案將在 { $couponDurationDate } 之後依牌價自動續訂。
 coupon-enter-code =
     .placeholder = 輸入折扣碼
 
