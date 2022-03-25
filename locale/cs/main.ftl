@@ -393,6 +393,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Další platba dne { $date }
+sub-expires-on = Datum konce platnosti: { $date }
 
 ##
 
@@ -439,6 +440,8 @@ sub-item-cancel-msg =
     Po skončení předplaceného období { $period }
     už nebudete mít ke službě { $name } přístup.
 sub-item-cancel-confirm = Zrušit můj přístup a smazat má uložená data ve službě { $name } dne { $period }
+invoice-not-found = Následná faktura nebyla nalezena
+sub-item-no-such-subsequent-invoice = Následná faktura pro toto předplatné nebyla nalezena.
 
 ## subscription iap item
 
@@ -465,6 +468,8 @@ sub-subscription-error =
     .title = Předplatné se nepodařilo načíst
 sub-customer-error =
     .title = Informace o zákazníkovi se nepodařilo načíst
+sub-invoice-error =
+    .title = Fakturu se nepodařilo načíst
 sub-billing-update-success = Vaše platební údaje byly úspěšně aktualizovány
 sub-route-payment-modal-heading = Neplatné platební údaje
 sub-route-payment-modal-message = U vašeho účtu { -brand-name-paypal } došlo k chybě. Je potřeba, abyste podnikli nezbytné kroky pro vyřešení problému s touto platbou.
@@ -496,8 +501,11 @@ coupon-remove = Odebrat
 coupon-error = Zadaný kód je neplatný nebo jeho platnost vypršela.
 coupon-error-generic = Při zpracování kódu došlo k chybě. Zkuste to prosím znovu.
 coupon-error-expired = Platnost zadaného kódu vypršela.
+coupon-error-limit-reached = Limit kódu, který jste zadali, už byl vyčerpán.
 coupon-error-invalid = Zadaný kód je neplatný.
 coupon-success = Váš plán se automaticky obnoví za běžnou cenu podle ceníku.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Vaše předplatné se po { $couponDurationDate } automaticky obnoví za běžnou cenu dle ceníku.
 coupon-enter-code =
     .placeholder = Vložte kód
 
