@@ -365,7 +365,7 @@ coupon-error-limit-reached = 您輸入的代碼已達使用次數上限。
 coupon-error-invalid = 您輸入的代碼無效。
 coupon-success = 您的訂閱方案將以牌告原價自動續約。
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-coupon-success-repeating = 您的方案將在 { $couponDurationDate } 之後依牌價自動續訂。
+coupon-success-repeating = 您的方案將在 { $couponDurationDate } 之後依牌告原價自動續訂。
 coupon-enter-code =
     .placeholder = 輸入折扣碼
 

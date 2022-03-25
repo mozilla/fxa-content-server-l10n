@@ -145,6 +145,7 @@ downloadSubscription-subject = 歡迎使用 { $productName }。
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = 歡迎使用 { $productName }。
+downloadSubscription-content-2 = 讓我們開始使用訂閱中包含的各種功能：
 downloadSubscription-link-action-2 = 開始使用
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩餘的救援代碼不足

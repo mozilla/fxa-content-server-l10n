@@ -203,6 +203,7 @@ la-unlink-button = 解除連結
 la-unlink-account-button = 解除連結
 la-unlink-heading = 解除與第三方帳號的連結
 la-unlink-content = 您確定要解除連結 { -brand-google } 帳號嗎？解除連結不會將您自動從該服務登出，若想要登出，請到「已連結的服務」區塊手動登出。
+la-unlink-content-2 = 您確定要解除連結帳號嗎？解除連結不會將您自動從該服務登出，若想要登出，請到「已連結的服務」區塊手動登出。
 nav-linked-accounts = { la-heading }
 
 ## Modal
