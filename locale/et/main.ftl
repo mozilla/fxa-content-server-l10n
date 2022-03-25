@@ -47,22 +47,49 @@ charge-exceeds-source-limit = Näib, et see makse ületab sinu päevast krediidi
 instant-payouts-unsupported = Näib, et sinu deebetkaart pole kiirmaksete jaoks seadistatud. Proovi teist deebet- või krediitkaarti.
 duplicate-transaction = Hmm. Näib, et just saadeti identne tehing. Kontrolli oma maksete ajalugu.
 coupon-expired = Näib, et see sooduskood on aegunud.
+card-error = Sinu tehingut polnud võimalik töödelda. Palun kontrolli oma krediitkaardi teavet ja proovi siis uuesti.
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error-2 = Süsteemivea tõttu ebaõnnestus registreerumine teenusega { $productName }. Sinu makseviisilt pole tasu võetud. Palun proovi uuesti.
+newsletter-signup-error = Sa pole tellinud tooteuuenduste kirju. Sa võid uuesti proovida konto seadete alt.
+fxa-post-passwordless-sub-error = Tellimus kinnitati, aga kinnituslehe laadimine ebaõnnestus. Konto seadistamiseks kontrolli oma e-posti.
 
 ## settings
 
+settings-home = Konto avaleht
+settings-subscriptions-title = Tellimused
 
 ## legal footer
 
+terms = Teenuse tingimused
+privacy = Privaatsusreeglid
+terms-download = Laadi tingimused alla
 
 ## Subscription titles
 
+subscription-create-title = Seadista oma tellimus
+subscription-success-title = Tellimuse kinnitus
+subscription-processing-title = Tellimuse kinnitamine…
+subscription-error-title = Viga tellimuse kinnitamisel…
+subscription-noplanchange-title = Seda liitumisplaani muudatust ei toetata
+subscription-iapsubscribed-title = Juba tellitud
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Teenust { $productName } arveldatakse iga päev
+       *[other] Teenust { $productName } arveldatakse iga { $intervalCount } päeva järel
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Teenust { $productName } arveldatakse iga nädal
+       *[other] Teenust { $productName } arveldatakse iga { $intervalCount } nädala järel
+    }
 
 ## Product route
 
