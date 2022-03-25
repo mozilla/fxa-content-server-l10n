@@ -316,6 +316,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Am { $period } meinen Zugriff beenden und meine in { $name }
     gespeicherten Daten entfernen
+invoice-not-found = Folgerechnung nicht gefunden
+sub-item-no-such-subsequent-invoice = Folgerechnung für dieses Abonnement nicht gefunden.
 
 ## subscription iap item
 
@@ -342,6 +344,8 @@ sub-subscription-error =
     .title = Problem beim Laden der Daueraufträge
 sub-customer-error =
     .title = Problem beim Laden des Kunden
+sub-invoice-error =
+    .title = Problem beim Laden von Rechnungen
 sub-billing-update-success = Ihre Zahlungsinformationen wurden erfolgreich aktualisiert
 sub-route-payment-modal-heading = Ungültige Zahlungsinformationen
 sub-route-payment-modal-message = Es scheint ein Problem mit Ihrem { -brand-name-paypal }-Konto zu bestehen. Sie müssen die erforderlichen Schritte ausführen, um dieses Zahlungsproblem zu beheben.
@@ -376,6 +380,8 @@ coupon-error-expired = Der eingegebene Code ist abgelaufen.
 coupon-error-limit-reached = Der eingegebene Code hat sein Limit erreicht.
 coupon-error-invalid = Der eingegebene Code ist ungültig.
 coupon-success = Ihr Plan verlängert sich automatisch zum Listenpreis.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Ihr Plan verlängert sich automatisch nach { $couponDurationDate } zum Listenpreis.
 coupon-enter-code =
     .placeholder = Code eingeben
 

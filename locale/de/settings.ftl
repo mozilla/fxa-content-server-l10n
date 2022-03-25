@@ -217,6 +217,7 @@ la-unlink-button = Verknüpfung aufheben
 la-unlink-account-button = Verknüpfung aufheben
 la-unlink-heading = Verknüpfung zu Drittanbieterkonto entfernen
 la-unlink-content = Möchten Sie die Verknüpfung Ihres { -brand-google }-Kontos wirklich aufheben? Durch das Aufheben der Verknüpfung Ihres Kontos werden Sie nicht automatisch von diesen Diensten abgemeldet. Dazu müssen Sie sich manuell im Abschnitt „Verbundene Dienste“ abmelden.
+la-unlink-content-2 = Möchten Sie die Verknüpfung Ihres Kontos wirklich aufheben? Durch das Aufheben der Verknüpfung Ihres Kontos werden Sie nicht automatisch von diesen Diensten abgemeldet. Dazu müssen Sie sich manuell im Abschnitt „Verbundene Dienste“ abmelden.
 nav-linked-accounts = { la-heading }
 
 ## Modal
