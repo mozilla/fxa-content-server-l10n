@@ -213,6 +213,7 @@ la-unlink-button = Disligar
 la-unlink-account-button = Disligar
 la-unlink-heading = Disligar ab conto de tertie parte
 la-unlink-content = Desira tu vermente disligar tu conto { -brand-google }? Disligante tu conto non tu non te disconnecte automaticamente de ille servicios. Pro facer lo tu debera manualmente clauder le connexion ab le section Servicios connexe.
+la-unlink-content-2 = Desira tu vermente disligar tu conto? Disligante tu conto non te disconnecte automaticamente de ille servicios. Pro facer lo tu debera manualmente clauder le connexion ab le section Servicios connexe.
 nav-linked-accounts = { la-heading }
 
 ## Modal
