@@ -333,6 +333,9 @@ subscriptionFirstInvoice-subject = Pagamento do { $productName } confirmado
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Obrigado por assinar o { $productName }
 subscriptionFirstInvoice-content-processing = Seu pagamento está em processamento e pode levar até quatro dias úteis para ser concluído.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Você receberá um email separado com instruções de como começar a usar o { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -354,6 +357,9 @@ subscriptionFirstInvoiceDiscount-subject = Pagamento do { $productName } confirm
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Obrigado por assinar o { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = Seu pagamento está em processamento e pode levar até quatro dias úteis para ser concluído.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install-2 = Você receberá um email separado com instruções de como começar a usar o { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
