@@ -151,6 +151,8 @@ downloadSubscription-subject = Üdvözli a { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Üdvözli a { $productName }
+downloadSubscription-content-2 = Kezdjük el használni az előfizetésében szereplő összes szolgáltatást:
+downloadSubscription-link-action-2 = Kezdő lépések
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kevés helyreállító kód maradt
 codes-reminder-description = Észrevettük, hogy kevés helyreállító kódja maradt. Fontolja meg új kódok előállítását, hogy elkerülje azt, hogy kizárja megát a fiókjából.
@@ -331,6 +333,9 @@ subscriptionFirstInvoice-subject = A(z) { $productName } befizetése megerősít
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Köszönjük, hogy feliratkozott a(z) { $productName } szolgáltatásra
 subscriptionFirstInvoice-content-processing = Az ön befizetése feldolgozás alatt áll, ami akár négy munkanapig is tarthat.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Külön e-mailt fog kapni a { $productName } használatának megkezdéséről.
 subscriptionFirstInvoice-content-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -352,6 +357,9 @@ subscriptionFirstInvoiceDiscount-subject = A(z) { $productName } befizetése meg
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Köszönjük, hogy feliratkozott a(z) { $productName } szolgáltatásra
 subscriptionFirstInvoiceDiscount-content-processing = Az Ön befizetése feldolgozás alatt áll, ami akár négy munkanapig is tarthat.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install-2 = Külön e-mailt fog kapni a { $productName } használatának megkezdéséről.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309

@@ -316,6 +316,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     A(z) { $name } szolgáltatás hozzáférésének lemondása,
     és az abban mentett adatok törlése ekkor: { $period }
+invoice-not-found = Későbbi számla nem található
+sub-item-no-such-subsequent-invoice = Későbbi számlák nem találhatók ehhez az előfizetéshez.
 
 ## subscription iap item
 
@@ -342,6 +344,8 @@ sub-subscription-error =
     .title = Probléma az előfizetések betöltésekor
 sub-customer-error =
     .title = Probléma az ügyfél betöltésekor
+sub-invoice-error =
+    .title = Probléma a számlák betöltésekor
 sub-billing-update-success = A számlázási adatai sikeresen frissítettve
 sub-route-payment-modal-heading = Érvénytelen számlázási információk
 sub-route-payment-modal-message = Úgy tűnik, hogy hiba történt a(z) { -brand-name-paypal }-fiókjával kapcsolatban, meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.
@@ -376,6 +380,8 @@ coupon-error-expired = A megadott kód lejárt.
 coupon-error-limit-reached = A megadott kód elérte a korlátját.
 coupon-error-invalid = A megadott kód érvénytelen.
 coupon-success = A csomag automatikusan megújul a listaáron.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = A csomag { $couponDurationDate } után automatikusan megújul listaáron.
 coupon-enter-code =
     .placeholder = Adja meg a kódot
 

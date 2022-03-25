@@ -217,6 +217,7 @@ la-unlink-button = Leválasztás
 la-unlink-account-button = Leválasztás
 la-unlink-heading = Leválasztás egy harmadik féltől származó fiókról
 la-unlink-content = Biztos, hogy leválasztja a { -brand-google }-fiókját? A fiók leválasztásával nem jelentkezik ki automatikusan ezekből a szolgáltatásokból. Ehhez kézileg kell kijelentkeznie a Csatlakoztatott szolgáltatások szakaszban.
+la-unlink-content-2 = Biztos, hogy leválasztja a fiókját? A fiók leválasztásával nem jelentkezik ki automatikusan ezekből a szolgáltatásokból. Ehhez kézileg kell kijelentkeznie a Csatlakoztatott szolgáltatások szakaszban.
 nav-linked-accounts = { la-heading }
 
 ## Modal
