@@ -166,12 +166,7 @@ downloadSubscription-subject = Dobrodošli v { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Dobrodošli v { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = Če še niste prenesli { $productName }, začnimo z uporabo vseh zmogljivosti, ki so vključene v vašo naročnino:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Prenesite { $productName }
+downloadSubscription-link-action-2 = Začnite
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Zmanjkuje vam kod za obnovitev
 codes-reminder-description = Opazili smo, da vam zmanjkuje kod za obnovitev. Ustvarite nove kode, da preprečite izgubo dostopa do svojega računa.
@@ -219,6 +214,7 @@ postAddAccountRecovery-description = Uspešno ste ustvarili obnovitveni ključ z
 postAddAccountRecovery-action = Upravljanje računa
 postAddAccountRecovery-recovery = Če to niste bili vi, <a data-l10n-name="revokeAccountRecoveryLink">kliknite tukaj</a>.
 postAddAccountRecovery-revoke = Če to niste bili vi, razveljavite ključ.
+postAddLinkedAccount-subject = Nov račun je povezan s { -brand-firefox(sklon: "orodnik") }
 postAddLinkedAccount-action = Upravljanje računa
 postAddTwoStepAuthentication-subject = Overitev v dveh korakih je omogočena
 postAddTwoStepAuthentication-title = Overitev v dveh korakih je omogočena
