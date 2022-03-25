@@ -151,6 +151,7 @@ downloadSubscription-subject = ¡Eg̃uahẽporãite { $productName }-pe!
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = ¡Eg̃uahẽporãite { $productName }-pe!
+downloadSubscription-content-2 = Ñañepyrũkatu jaipuru opaite tembiapoite oikéva ne ñemboheraguapýpe:
 downloadSubscription-link-action-2 = Jeguata Ñepyrũ
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Sa’íma opyta ayvu erukuaajeýva
