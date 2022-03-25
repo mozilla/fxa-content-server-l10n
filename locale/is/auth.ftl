@@ -151,12 +151,8 @@ downloadSubscription-subject = Velkomin í { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Velkomin í { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = Ef þú hefur ekki þegar náð í { $productName } skulum við byrja að nota alla eiginleika sem fylgja áskriftinni þinni:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Sækja { $productName }
+downloadSubscription-content-2 = Við skulum byrja á að nota alla eiginleikana sem fylgja áskriftinni þinni:
+downloadSubscription-link-action-2 = Komast í gang
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Fáir endurheimtukóðar eftir
 codes-reminder-description = Við tókum eftir því að þú ert að verða uppiskroppa með endurheimtarkóða. Íhugaðu að búa til nýja kóða til að forðast að læsast úti af reikningnum þínum.
@@ -339,7 +335,7 @@ subscriptionFirstInvoice-title = Takk fyrir að gerast áskrifandi að { $produc
 subscriptionFirstInvoice-content-processing = Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = Þú munt fá sendan sérstakann tölvupóst með leiðbeiningum varðandi niðurhal og hvernig best sé að byrja notkun { $productName }.
+subscriptionFirstInvoice-content-install-2 = Þú færð sérstakan tölvupóst um hvernig eigi að byrja að nota { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -363,7 +359,7 @@ subscriptionFirstInvoiceDiscount-title = Takk fyrir að gerast áskrifandi að {
 subscriptionFirstInvoiceDiscount-content-processing = Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = Þú munt fá sendan sérstakann tölvupóst með leiðbeiningum varðandi niðurhal og hvernig best sé að byrja notkun { $productName }.
+subscriptionFirstInvoiceDiscount-content-install-2 = Þú færð sérstakan tölvupóst um hvernig eigi að byrja að nota { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309

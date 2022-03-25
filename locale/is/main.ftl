@@ -336,6 +336,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Hætta við aðgang minn og vistaðar upplýsingar mínar innan
     { $name } þann { $period }
+invoice-not-found = Næsti greiðsluseðill fannst ekki
+sub-item-no-such-subsequent-invoice = Næsti greiðsluseðill fannst ekki fyrir þessa áskrift.
 
 ## subscription iap item
 
@@ -362,6 +364,8 @@ sub-subscription-error =
     .title = Vandamál við að hlaða inn áskriftum
 sub-customer-error =
     .title = Vandamál við að hlaða inn viðskiptavini
+sub-invoice-error =
+    .title = Vandamál við að hlaða inn greiðsluseðlum
 sub-billing-update-success = Innheimtuupplýsingarnar þínar hafa verið uppfærðar
 sub-route-payment-modal-heading = Ógildar greiðsluupplýsingar
 sub-route-payment-modal-message = Það virðist vera villa varðandi { -brand-name-paypal }-reikninginn þinn, við þurfum að gera nauðsynlegar ráðstafanir til að leysa þetta greiðsluvandamál.
@@ -396,6 +400,8 @@ coupon-error-expired = Kóðinn sem þú settir inn er útrunninn.
 coupon-error-limit-reached = Kóðinn sem þú settir inn hefur náð takmörkum sínum.
 coupon-error-invalid = Kóðinn sem þú settir inn er ógildur.
 coupon-success = Áskriftarleiðin þín mun sjálfkrafa endurnýjast á listaverði.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Áskriftin þín endurnýjast sjálfkrafa eftir { $couponDurationDate } á listaverði.
 coupon-enter-code =
     .placeholder = Settu inn kóða
 

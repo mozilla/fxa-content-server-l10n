@@ -219,6 +219,7 @@ la-unlink-button = Aftengja
 la-unlink-account-button = Aftengja
 la-unlink-heading = Aftengja frá utanaðkomandi reikningi
 la-unlink-content = Ertu viss um að þú viljir aftengja { -brand-google } reikninginn þinn? Að aftengja reikninginn þinn skráir þig ekki sjálfkrafa út úr þessum þjónustum. Til að gera það þarftu að skrá þig handvirkt út úr hlutanum 'Tengd þjónusta'.
+la-unlink-content-2 = Ertu viss um að þú viljir aftengja reikninginn þinn? Að aftengja reikninginn þinn skráir þig ekki sjálfkrafa út úr þessum þjónustum. Til að gera það þarftu að skrá þig handvirkt út úr hlutanum 'Tengd þjónusta'.
 nav-linked-accounts = { la-heading }
 
 ## Modal
