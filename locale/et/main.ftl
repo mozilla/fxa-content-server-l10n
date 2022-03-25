@@ -81,21 +81,43 @@ subscription-iapsubscribed-title = Juba tellitud
 #  $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
-        [one] Teenust { $productName } arveldatakse iga päev
-       *[other] Teenust { $productName } arveldatakse iga { $intervalCount } päeva järel
+        [one] Teenust { $productName } arveldatakse summas { $amount } iga päev
+       *[other] Teenust { $productName } arveldatakse summas { $amount } iga { $intervalCount } päeva järel
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
-        [one] Teenust { $productName } arveldatakse iga nädal
-       *[other] Teenust { $productName } arveldatakse iga { $intervalCount } nädala järel
+        [one] Teenust { $productName } arveldatakse summas { $amount } iga nädal
+       *[other] Teenust { $productName } arveldatakse summas { $amount } iga { $intervalCount } nädala järel
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Teenust { $productName } arveldatakse summaga { $amount } iga kuu
+       *[other] Teenust { $productName } arveldatakse summaga { $amount } iga { $intervalCount } kuu järel
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Teenust { $productName } arveldatakse summas { $amount } iga aasta
+       *[other] Teenust { $productName } arveldatakse summas { $amount } iga { $intervalCount } aasta järel
     }
 
 ## Product route
 
+product-plan-error =
+    .title = Probleem plaanide laadimisel
+product-profile-error =
+    .title = Probleem profiili laadimisel
+product-customer-error =
+    .title = Probleem kliendi laadimisel
+product-plan-not-found = Plaani ei leitud
+product-no-such-plan = Selle toote puhul sellist plaani pole.
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } kasutab maksete turvaliseks töötlemiseks partnereid { -brand-name-stripe } ja { -brand-name-paypal }.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }'i privaatsuspoliitika</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }i privaatsuspoliitika</paypalPrivacyLink>
 
 ## payment form
 
