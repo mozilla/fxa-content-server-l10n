@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-24 22:07+0000\n"
-"PO-Revision-Date: 2022-03-25 12:32+0000\n"
+"PO-Revision-Date: 2022-03-25 12:55+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1973,11 +1973,11 @@ msgstr "térã"
 
 #: .es5/templates/partial/third-party-auth.mustache:2
 msgid "Continue with Google"
-msgstr ""
+msgstr "Eipurumeméke Google"
 
 #: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Apple"
-msgstr ""
+msgstr "Eipurumeméke Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"

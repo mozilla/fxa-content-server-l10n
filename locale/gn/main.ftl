@@ -316,6 +316,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Ehejarei che jeikeha ha che marandu ñongatupyre
     { $name } pegua { $period }-pe
+invoice-not-found = Ndojejuhúi kuatiañemure
+sub-item-no-such-subsequent-invoice = Ndojejuhúi kuatiañemure ko ñemboheraguapýpe g̃uarã.
 
 ## subscription iap item
 
@@ -342,6 +344,8 @@ sub-subscription-error =
     .title = Apañuãi emyanyhẽvo mboheraguapy
 sub-customer-error =
     .title = Apañuãi emyanyhẽvo ñemuhára
+sub-invoice-error =
+    .title = Apañuãi emyanyhẽvo kuatiañemure
 sub-billing-update-success = Marandu ñenuhakuatia rehegua oñembohekopyahúma
 sub-route-payment-modal-heading = Marandu kuatiañemure oiko’ỹva
 sub-route-payment-modal-message = Oĩvaiccha jejavy { -brand-name-paypal } mba’ete ndive, roikotevẽ emboguata mba’éichapa emoĩporãta ko apañuãi jehepyme’ẽ rehegua.
