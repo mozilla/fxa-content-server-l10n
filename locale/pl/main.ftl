@@ -347,6 +347,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Anuluj mój dostęp i moje zachowane informacje
     w { $name } w dniu { $period }
+invoice-not-found = Nie odnaleziono kolejnej faktury
+sub-item-no-such-subsequent-invoice = Nie odnaleziono kolejnej faktury za tę subskrypcję.
 
 ## subscription iap item
 
@@ -373,6 +375,8 @@ sub-subscription-error =
     .title = Problem podczas wczytywania subskrypcji
 sub-customer-error =
     .title = Problem podczas wczytywania klienta
+sub-invoice-error =
+    .title = Problem podczas wczytywania faktur
 sub-billing-update-success = Pomyślnie zaktualizowano dane płatnicze
 sub-route-payment-modal-heading = Nieprawidłowe dane płatnicze
 sub-route-payment-modal-message = Wygląda na to, że wystąpił błąd na Twoim koncie { -brand-name-paypal }. Musisz podjąć niezbędne kroki, aby rozwiązać ten problem z płatnością.
@@ -407,6 +411,8 @@ coupon-error-expired = Wpisany kod wygasł.
 coupon-error-limit-reached = Wpisany kod osiągnął swoje ograniczenie.
 coupon-error-invalid = Wpisany kod jest nieprawidłowy.
 coupon-success = Twój plan będzie automatycznie odnawiany po cenie katalogowej.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Po { $couponDurationDate } Twój plan będzie automatycznie odnawiany po cenie katalogowej.
 coupon-enter-code =
     .placeholder = Wpisz kod
 
