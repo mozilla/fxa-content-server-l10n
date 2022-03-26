@@ -148,12 +148,7 @@ downloadSubscription-subject = ברוכים הבאים אל { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = ברוכים הבאים אל { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = אם עוד לא הורדת את { $productName }, בואו נתחיל להשתמש בכל התכונות הכלולות במינוי שלך:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = הורדת { $productName }
+downloadSubscription-link-action-2 = תחילת עבודה
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = נותרו מעט קודים לשחזור
 codes-reminder-description = שמנו לב שמפתחות השחזור שלך הולכים ואוזלים. נא לשקול לייצר קודים חדשים כדי להימנע מנעילתך מחוץ לחשבון.
@@ -332,9 +327,6 @@ subscriptionFirstInvoice-subject = התשלום עבור { $productName } אומ
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = תודה שנרשמת ל־{ $productName }
 subscriptionFirstInvoice-content-processing = התשלום שלך מעובד כעת ועשוי לארוך עד ארבעה ימי עסקים.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = תתקבל הודעת דוא״ל נפרדת עם הוראות להורדה על כיצד להתחיל להשתמש ב־{ $productName }.
 subscriptionFirstInvoice-content-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -356,9 +348,6 @@ subscriptionFirstInvoiceDiscount-subject = התשלום עבור { $productName 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = תודה שנרשמת ל־{ $productName }
 subscriptionFirstInvoiceDiscount-content-processing = התשלום שלך מעובד כעת ועשוי לארוך עד ארבעה ימי עסקים.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = תתקבל הודעת דוא״ל נפרדת עם הוראות להורדה על כיצד להתחיל להשתמש ב־{ $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
