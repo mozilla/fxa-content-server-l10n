@@ -149,12 +149,8 @@ downloadSubscription-subject = Tervetuloa, käytössäsi on { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Tervetuloa, käytössäsi on { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = Jos et ole vielä ladannut { $productName }:ää, aloitetaan kaikkien tilauksen ominaisuuksien käyttö:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Lataa { $productName }
+downloadSubscription-content-2 = Aloitetaan kaikkien tilauksesi ominaisuuksien käyttö:
+downloadSubscription-link-action-2 = Aloitetaan
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Palautuskoodit vähissä
 codes-reminder-description = Huomasimme, että palautuskoodisi ovat vähissä. Kannattaa luoda uudet palautuskoodit, jotta sinua ei lukita ulos tililtäsi.
@@ -337,7 +333,7 @@ subscriptionFirstInvoice-title = Kiitos, että tilasit { $productName } -palvelu
 subscriptionFirstInvoice-content-processing = Maksuasi käsitellään parhaillaan, ja sen suorittaminen voi kestää jopa neljä arkipäivää.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = Saat erillisen sähköpostiviestin, joka sisältää ohjeet kuinka ladata ja aloittaa { $productName }:n käyttö.
+subscriptionFirstInvoice-content-install-2 = Saat erillisen sähköpostin { $productName } -palvelun käytön aloittamisesta.
 subscriptionFirstInvoice-content-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -361,7 +357,7 @@ subscriptionFirstInvoiceDiscount-title = Kiitos, että tilasit { $productName } 
 subscriptionFirstInvoiceDiscount-content-processing = Maksuasi käsitellään parhaillaan, ja sen suorittaminen voi kestää jopa neljä arkipäivää.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = Saat erillisen sähköpostiviestin, joka sisältää ohjeet kuinka ladata ja käyttää tuotetta { $productName }.
+subscriptionFirstInvoiceDiscount-content-install-2 = Saat erillisen sähköpostin { $productName } -palvelun käytön aloittamisesta.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
