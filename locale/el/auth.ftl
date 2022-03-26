@@ -185,12 +185,6 @@ downloadSubscription-subject = Καλώς ορίσατε στο { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Καλώς ορίσατε στο { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = Αν δεν έχετε ήδη κάνει λήψη του { $productName }, ξεκινήσετε να χρησιμοποιείτε όλες τις λειτουργίες της συνδρομής σας:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Λήψη του { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Απομένουν λίγοι κωδικοί ανάκτησης
 codes-reminder-description = Παρατηρήσαμε ότι σας απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε δημιουργήστε νέους κωδικούς για να μην κλειδωθείτε έξω από τον λογαριασμό σας.
@@ -371,9 +365,6 @@ subscriptionFirstInvoice-subject = Η πληρωμή του { $productName } ε�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Ευχαριστούμε για τη συνδρομή σας στο { $productName }
 subscriptionFirstInvoice-content-processing = Η πληρωμής σας βρίσκεται υπό επεξεργασία και ενδέχεται να χρειαστούν έως και τέσσερις εργάσιμες ημέρες για να ολοκληρωθεί.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = Θα λάβετε ένα ξεχωριστό email με οδηγίες λήψης σχετικά με το πώς να αρχίσετε να χρησιμοποιείτε το { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -395,9 +386,6 @@ subscriptionFirstInvoiceDiscount-subject = Η πληρωμή του { $productNa
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Ευχαριστούμε για τη συνδρομή σας στο { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = Η πληρωμής σας βρίσκεται υπό επεξεργασία και ενδέχεται να χρειαστούν έως και τέσσερις εργάσιμες ημέρες για να ολοκληρωθεί.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = Θα λάβετε ένα ξεχωριστό email με οδηγίες λήψης σχετικά με το πώς να αρχίσετε να χρησιμοποιείτε το { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -541,7 +529,7 @@ subscriptionUpgrade-upgrade-info = Κάνατε επιτυχή αναβάθμι�
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Ξεκινώντας από τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από { $paymentAmountOld } ανά %(productPaymentCycleOld)s σε { $paymentAmountNew } ανά { $productPaymentCycleNew }. Θα χρεωθείτε επίσης { $paymentProrated } εφάπαξ λόγω της υψηλότερης χρέωσης για τον υπολειπόμενο χρόνο: { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info = Ξεκινώντας από τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από { $paymentAmountOld } ανά { $productPaymentCycleOld } σε { $paymentAmountNew } ανά { $productPaymentCycleNew }. Θα χρεωθείτε επίσης { $paymentProrated } εφάπαξ λόγω της υψηλότερης χρέωσης για τον υπολειπόμενο χρόνο: { $productPaymentCycleOld }.
 # Variables:
 # $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Αν υπάρχει νέο λογισμικό που θα πρέπει να εγκαταστήσετε για να χρησιμοποιήσετε το { $productNameNew }, θα λάβετε ξεχωριστό email με οδηγίες λήψης.
