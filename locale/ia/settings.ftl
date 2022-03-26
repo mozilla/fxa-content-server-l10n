@@ -102,7 +102,7 @@ cs-cannot-disconnect = Cliente non trovate, impossibile disconnecter
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Session de { $servicio } claudite.
+cs-logged-out = Session de { $service } claudite.
 cs-refresh-button =
     .title = Actualisar le servicios connectite
 # Link text to a support page on missing or duplicate devices
