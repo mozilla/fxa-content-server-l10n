@@ -380,6 +380,8 @@ coupon-error-expired = El código que ingresaste ha expirado.
 coupon-error-limit-reached = El código que ingresaste ha alcanzado su límite.
 coupon-error-invalid = El código que ingresaste es inválido.
 coupon-success = Su plan se renovará automáticamente al precio de lista.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Tu plan se renovará automáticamente después de { $couponDurationDate } al precio de lista.
 coupon-enter-code =
     .placeholder = Ingresar código
 
