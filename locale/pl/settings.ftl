@@ -299,6 +299,7 @@ la-unlink-button = Odwiąż
 la-unlink-account-button = Odwiąż
 la-unlink-heading = Odwiąż od konta innej firmy
 la-unlink-content = Czy na pewno odwiązać konto { -brand-google }? Nie spowoduje to automatycznego wylogowania z tych usług. Aby to zrobić, musisz ręcznie wylogować się w sekcji „Połączone usługi”.
+la-unlink-content-2 = Czy na pewno odwiązać konto? Nie spowoduje to automatycznego wylogowania z tych usług. Aby to zrobić, musisz ręcznie wylogować się w sekcji „Połączone usługi”.
 nav-linked-accounts = { la-heading }
 
 ## Modal
