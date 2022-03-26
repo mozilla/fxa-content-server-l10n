@@ -316,6 +316,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Ακύρωση πρόσβασης και αποθηκευμένων πληροφοριών στο
     { $name } στις { $period }
+invoice-not-found = Δεν βρέθηκε επόμενο τιμολόγιο
+sub-item-no-such-subsequent-invoice = Δεν βρέθηκε επόμενο τιμολόγιο για αυτήν τη συνδρομή.
 
 ## subscription iap item
 
@@ -378,6 +380,8 @@ coupon-error-expired = Ο κωδικός που καταχωρήσατε έλη�
 coupon-error-limit-reached = Ο κωδικός που καταχωρήσατε έφτασε στο όριο του.
 coupon-error-invalid = Ο κωδικός που καταχωρήσατε δεν είναι έγκυρος.
 coupon-success = Το πρόγραμμά σας θα ανανεωθεί αυτόματα στην τιμή καταλόγου.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Το πρόγραμμά σας θα ανανεωθεί αυτόματα μετά τις { $couponDurationDate } στην τιμή καταλόγου.
 coupon-enter-code =
     .placeholder = Εισαγωγή κωδικού
 
