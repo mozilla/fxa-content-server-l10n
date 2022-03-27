@@ -40,9 +40,16 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Sefsex ajerred
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Ales armad n ujerred
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Aleqqem n telɣut n ufter
+subplat-privacy-policy = Tasertit tabaḍnit n { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Tiwtilin n useqdec n { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Usḍif
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Tabaḍnit
+subplat-privacy-website-plaintext = { subplat-privacy }:
 automated-email-plaintext = Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:
