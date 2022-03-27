@@ -284,6 +284,7 @@ la-unlink-button = Zrušiť prepojenie
 la-unlink-account-button = Zrušiť prepojenie
 la-unlink-heading = Zrušenie prepojenia s účtom tretej strany
 la-unlink-content = Naozaj chcete odpojiť svoj účet { -brand-google }? Odpojením účtu sa automaticky neodhlásite z týchto služieb. Ak tak chcete urobiť, budete sa musieť manuálne odhlásiť v sekcii Pripojené služby.
+la-unlink-content-2 = Naozaj chcete odpojiť svoj účet? Odpojením účtu sa automaticky neodhlásite z týchto služieb. Ak tak chcete urobiť, budete sa musieť manuálne odhlásiť v sekcii Pripojené služby.
 nav-linked-accounts = { la-heading }
 
 ## Modal
