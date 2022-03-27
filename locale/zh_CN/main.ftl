@@ -300,7 +300,7 @@ sub-item-missing-msg = 请稍后再试。
 sub-item-no-such-plan = 该订阅无此类方案。
 sub-item-cancel-sub = 取消订阅
 sub-item-stay-sub = 保持订阅
-sub-item-cancel-msg = 在账单最后一天（{ $date }）之后，将无法继续使用 { $name }。
+sub-item-cancel-msg = 在账单最后一天（{ $period }）之后，将无法继续使用 { $name }。
 sub-item-cancel-confirm = 在 { $period } 之后取消我对 { $name } 的访问权限与保存的所有信息
 
 ## subscription iap item
