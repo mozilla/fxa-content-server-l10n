@@ -117,7 +117,7 @@ cs-disconnect-sync-heading = Ze Sync dźělić
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
 cs-disconnect-sync-content =
     Waše přehladowanske daty na wašim
-    graće ({ $service }) wostanu, ale njebudźe hižo z wašim kontom synchronizować.
+    graće ({ $device }) wostanu, ale njebudźe hižo z wašim kontom synchronizować.
 cs-disconnect-sync-reason =
     Što je hłowna přičina za dźělenje tutoho
     grata?
