@@ -55,6 +55,7 @@ automated-email-plaintext = Wagi d iymayl awurman; ma yella d tuccḍa, ulac aye
 cancellationSurvey-plaintext = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:
 change-password-plaintext = Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, snifel awal inek uffir ma ulac aɣilif.
 manage-account = Sefrek amiḍan
+manage-account-plaintext = { manage-account }:
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tallelt a-tt-a da ad ak-d-efk afus:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
