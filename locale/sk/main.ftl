@@ -355,6 +355,8 @@ sub-item-cancel-sub = Zrušiť predplatné
 sub-item-stay-sub = Ponechať predplatné
 sub-item-cancel-msg = Po { $period }, poslednom dni vášho fakturačného cyklu, už produkt { $name } nebudete môcť používať.
 sub-item-cancel-confirm = Zrušiť môj prístup k produktu { $name } a dáta v ňom uložené ku dňu { $period }
+invoice-not-found = Následná faktúra sa nenašla
+sub-item-no-such-subsequent-invoice = Následná faktúra za toto predplatné sa nenašla.
 
 ## subscription iap item
 
@@ -381,6 +383,8 @@ sub-subscription-error =
     .title = Problém pri načítaní predplatného
 sub-customer-error =
     .title = Problém pri načítaní zákazníka
+sub-invoice-error =
+    .title = Problém s načítaním faktúr
 sub-billing-update-success = Vaše platobné údaje boli úspešne aktualizované
 sub-route-payment-modal-heading = Neplatné fakturačné údaje
 sub-route-payment-modal-message = Zdá sa, že sa vyskytla chyba vo vašom účte { -brand-name-paypal }. Potrebujeme, aby ste podnikli potrebné kroky na vyriešenie tohto problému s platbou.
@@ -415,6 +419,8 @@ coupon-error-expired = Platnosť zadaného kódu vypršala.
 coupon-error-limit-reached = Zadaný kód dosiahol svoj limit.
 coupon-error-invalid = Zadaný kód je neplatný.
 coupon-success = Váš plán sa automaticky obnoví za katalógovú cenu.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Váš plán sa automaticky obnoví po { $couponDurationDate } za katalógovú cenu.
 coupon-enter-code =
     .placeholder = Zadajte kód
 
