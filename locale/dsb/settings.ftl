@@ -219,6 +219,7 @@ la-unlink-button = Zwisk źěliś
 la-unlink-account-button = Zwisk źěliś
 la-unlink-heading = Wót konta tśeśego póbitowarja źěliś
 la-unlink-content = Cośo napšawdu zwisk ze swójim kontom { -brand-google } źěliś? Gaž zwisk ze swójim kontom źěliśo, njewótzjawijośo se awtomatiski wót tych słužbow. Aby to cynił, musyśo se manuelnje wót wótrězka zwězanych słužbow wótzjawiś.
+la-unlink-content-2 = Cośo napšawdu zwisk ze swójim kontom źěliś? Gaž zwisk ze swójim kontom źěliśo, njewótzjawijośo se awtomatiski wót tych słužbow. Aby to cynił, musyśo se manuelnje wót wótrězka zwězanych słužbow wótzjawiś.
 nav-linked-accounts = { la-heading }
 
 ## Modal
