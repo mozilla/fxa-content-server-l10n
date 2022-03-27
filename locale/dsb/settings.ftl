@@ -117,7 +117,7 @@ cs-disconnect-sync-heading = Ze Sync źěliś
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
 cs-disconnect-sync-content =
     Waše pśeglědowańske daty na wašom
-    rěźe ({ $service }) wóstanu, ale njebuźo wěcej z wašym kontom synchronizěrowaś.
+    rěźe ({ $device }) wóstanu, ale njebuźo wěcej z wašym kontom synchronizěrowaś.
 cs-disconnect-sync-reason =
     Co jo głowna pśicyna za źělenje toś togo
     rěda?

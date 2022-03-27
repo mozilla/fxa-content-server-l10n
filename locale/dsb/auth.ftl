@@ -131,7 +131,7 @@ subscriptionUpdatePayment = Aby se pśetergnjenja swójeje słužby wobinuł, <a
 subscriptionUpdatePayment-plaintext = Aby se pśetergnjenja swójeje słužby wobinuł, aktualizěrujśo pšosym swóje płaśeńske informacije tak skóro ako móžno:
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Za dalšne informacije woglědajśo se pšosym k %(supportUrl)s
+support-message = Za dalšne informacije woglědajśo se pšosym k { $supportUrl }
 view-invoice = <a data-l10n-name="invoiceLink">Wašu zliceńku pokazaś</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -151,6 +151,7 @@ downloadSubscription-subject = Witajśo k { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Witajśo k { $productName }
+downloadSubscription-link-action-2 = Prědne kšace
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Mało wótnowjeńskich kodow wušej
 codes-reminder-description = Smy zwěsćili, až mało wótnowjeńskich kodow wužywaśo. Pšosym rozwažujśo, lěc nowe kody napórajośo, aby se wobinuł zastajenja swójogo konta.

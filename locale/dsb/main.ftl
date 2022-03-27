@@ -472,7 +472,7 @@ payment-confirmation-amount-year =
        *[other] { $amount } kužde { $intervalCount } lět
     }
 payment-confirmation-download-button = Dalej k ześěgnjenjeju
-payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last } kóńcy
+payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last4 } kóńcy
 
 ## new user email form
 
