@@ -39,6 +39,9 @@ duplicate-transaction = Hmm. Ittban-d dakken tettwazen tanigawt am tin. Senqed a
 coupon-expired = Ittban-d dakken tangalt n udellel temmut.
 card-error = Tanigawt-ik•im ur tezmir ara ad teddu. Ttxil senqed talɣut n tkarḍa-k•m n usmad tɛawdeḍ tikkelt-nniḍen.
 
+##  $productName (String) - The name of the subscribed product.
+
+
 ## settings
 
 settings-home = Asebter agejdan n umiḍan
@@ -99,11 +102,8 @@ product-no-such-plan = Ulac aɣawas s wanaw-a i ufaris-a.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } isseqdac { -brand-name-stripe } akked { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
-payment-legal-link-stripe-and-paypal-2 = Wali <stripePrivacyLink>{ -brand-name-stripe }tasertit n tbaḍnit n</stripePrivacyLink>{ -brand-name-paypal } akked <paypalPrivacyLink>tsertit tabaḍnit n Paypal</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } isseqdac { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
-payment-legal-link-paypal = Wali <paypalPrivacyLink>{ -brand-name-paypal } tasertit n tbaḍnit</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } isseqdac { -brand-name-stripe } i usesfer aɣelsan n yiselliken.
-payment-legal-link-stripe-2 = Wali <stripePrivacyLink>{ -brand-name-stripe }tasertit tabaḍnit</stripePrivacyLink>.
 
 ## payment form
 
@@ -147,7 +147,7 @@ payment-confirm-with-legal-links-year =
         [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal aseggas </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
        *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n yiseggasen </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
     }
-payment-confirm = Ad sirgeɣ Mozilla, ameskar n yifuras n Firefox,  ad ikkes s tarrayt-iw n uxelleṣ <strong>${ $amount } yal { $intervalCount }</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
+payment-confirm = Ad sirgeɣ Mozilla, ameskar n yifarisen n Firefox,  ad ikkes s tarrayt-iw n uxelleṣ <strong>${ $amount } yal { $interval }</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink>, alamma d asmi ara sfesxeɣ amulteɣ-inu.
 
 ##
 
@@ -179,33 +179,6 @@ sub-update-card-exp = Ad yemmet { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Aɣawas-ik•im ad ibeddel tura kan, tasmekta n tfaturt-ik•im
     ad tmelles i wayen i d-yeggran deg wallus-ik•im n ufetter. Seg { $startingDate } tamekta tummidt ad ternu ɣer tfaturt-ik•im.
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal ass </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
-       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n wussan</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal imalas </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
-       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n yimalasen </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal ayyur</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
-       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n wayyuren</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox }, ad ines s tarrayt-iw n uxelleṣ <strong>{ $amount } yal aseggas</strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d <privacyNoticeLink>tsertit n tbaḍnit </privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
-       *[other] Ad sirgeɣ { -brand-name-mozilla }, ameskar n yifuras { -brand-name-firefox } ad ikkes s tarrayt-iw n uxelleṣ <strong>{ $amount } yal { $intervalCount } n yiseggasen </strong>, akken i yella deg <termsOfServiceLink>tewtilin n useqdec</termsOfServiceLink> d tsertit n tbaḍnit</privacyNoticeLink>, almi sfesxeɣ amulteɣ-iw.
-    }
 
 ##
 
@@ -322,6 +295,9 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Sefsex anekcum-inu d taɣult-inu yettwaskelsen deg
     { $name } deg { $period }
+
+## subscription iap item
+
 account-activated = Amiḍan-inek/inem yermed, <userEl/>
 
 ## subscription route index
@@ -360,6 +336,9 @@ plan-details-show-button = Sken talqayt
 plan-details-hide-button = Ffer talqayt
 plan-details-total-label = Asemday
 
+## coupons
+
+
 ## payment-processing
 
 payment-processing-message = Ttxil-k·m ṛǧu mi ara nsesfer asellek-inek·inem...
@@ -369,11 +348,18 @@ payment-processing-message = Ttxil-k·m ṛǧu mi ara nsesfer asellek-inek·inem
 payment-confirmation-alert = Sit dagi i usider
 payment-confirmation-mobile-alert = Ur tezmireḍ ara ad d-teldiḍ asnas? <a>Sit dagi</a>
 payment-confirmation-thanks-heading = Tanemmirt!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Imayl n usentem yettwazen-ak·am-n ɣer { $email } s telqayt ɣef wamek ara tebduḍ akked { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Talqayt n usuter
 payment-confirmation-invoice-number = Tafaṭurt #{ $invoiceNumber }
 payment-confirmation-billing-heading = Ifetter ɣer
-payment-confirmation-details-heading = Talqayt n usellek
 payment-confirmation-amount = { $amount } s { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -413,4 +399,3 @@ new-user-subscribe-product-updates = Bɣiɣ ad d-remseɣ ileqman n yifarisen seg
 new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nernu amiḍan-ik·im. Urǧin ad t-nsenz i wis kraḍ.
 new-user-email-validate = Imayl-a d arameɣtu
 new-user-email-validate-confirm = Ur mṣadan ara yimaylen-a
-new-user-existing-account-sign-in = Tesɛiḍ yakan amiḍan, <a>Qqen</a>
