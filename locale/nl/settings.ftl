@@ -219,6 +219,7 @@ la-unlink-button = Ontkoppelen
 la-unlink-account-button = Ontkoppelen
 la-unlink-heading = Ontkoppelen van externe account
 la-unlink-content = Weet u zeker dat u uw { -brand-google }-account wilt ontkoppelen? Als u uw account ontkoppelt, wordt u niet automatisch afgemeld bij die services. Om dat te doen, moet u zich handmatig afmelden vanuit de sectie Verbonden services.
+la-unlink-content-2 = Weet u zeker dat u uw account wilt ontkoppelen? Als u uw account ontkoppelt, wordt u niet automatisch afgemeld bij die services. Om dat te doen, moet u zich handmatig afmelden vanuit de sectie Verbonden services.
 nav-linked-accounts = { la-heading }
 
 ## Modal
