@@ -217,6 +217,7 @@ la-unlink-button = Datgysylltu
 la-unlink-account-button = Datgysylltu
 la-unlink-heading = Datgysylltu o gyfrif trydydd parti
 la-unlink-content = A ydych yn siŵr eich bod am ddatgysylltu eich cyfrif { -brand-google }? Nid yw datgysylltu'ch cyfrif yn eich allgofnodi'n awtomatig o'r gwasanaethau hynny. I wneud hynny bydd angen i chi allgofnodi â llaw o'r adran gwasanaethau Cysylltiedig.
+la-unlink-content-2 = A ydych yn siŵr eich bod am ddatgysylltu eich cyfrif? Nid yw datgysylltu'ch cyfrif yn eich allgofnodi'n awtomatig o'r gwasanaethau hynny. I wneud hynny bydd angen i chi allgofnodi â llaw o'r adran gwasanaethau Cysylltiedig.
 nav-linked-accounts = { la-heading }
 
 ## Modal

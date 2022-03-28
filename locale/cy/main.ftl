@@ -380,6 +380,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Diddymwch fy mynediad a'm manylion sydd wedi'u 
     cadw o fewn { $name } ar { $period }
+invoice-not-found = Heb ganfod yr anfoneb ddilynol
+sub-item-no-such-subsequent-invoice = Heb ganfod anfoneb ddilynol y tanysgrifiad hwn.
 
 ## subscription iap item
 
@@ -406,6 +408,8 @@ sub-subscription-error =
     .title = Anhawster llwytho tanysgrifiadau
 sub-customer-error =
     .title = Anhawster llwytho cwsmer
+sub-invoice-error =
+    .title = Anhawster llwytho anfonebau
 sub-billing-update-success = Diweddarwyd eich manylion bilio'n llwyddiannus
 sub-route-payment-modal-heading = Manylion bilio annilys
 sub-route-payment-modal-message = Mae'n ymddangos bod eich cyfrif { -brand-name-paypal } yn wallus, rydym  angen i chi gymryd y camau angenrheidiol i ddatrys y mater talu hwn.
@@ -440,6 +444,8 @@ coupon-error-expired = Mae'r cod a roesoch wedi dod i ben.
 coupon-error-limit-reached = Mae'r cod a roesoch wedi cyrraedd ei derfyn.
 coupon-error-invalid = Mae'r cod a roesoch yn annilys.
 coupon-success = Bydd eich cynllun yn adnewyddu'n awtomatig am y pris ar y rhestr.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Bydd eich cynllun yn adnewyddu'n awtomatig ar ôl { $couponDurationDate } am y pris ar y rhestr.
 coupon-enter-code =
     .placeholder = Rhowch y Cod
 
