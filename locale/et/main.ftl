@@ -125,6 +125,19 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }'i privaa
 
 ## payment form
 
+payment-name =
+    .placeholder = Täisnimi
+    .label = Nimi nii nagu see on kirjas kaardil
+payment-cc =
+    .label = Sinu kaart
+payment-ccn =
+    .label = Kaardi number
+payment-exp =
+    .label = Kehtivus
+payment-cvc =
+    .label = CVC
+payment-zip =
+    .label = Postiindeks
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
