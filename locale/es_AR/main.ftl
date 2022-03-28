@@ -186,7 +186,7 @@ sub-redirect-skip-survey = No gracias, quiero ir al producto.
 ## fields
 
 default-input-error = Este campo es requerido
-input-error-is-required = Se necesita { $etiqueta }
+input-error-is-required = Se necesita { $label }
 
 ## subscription upgrade
 
