@@ -380,6 +380,8 @@ coupon-error-expired = De ingevoerde code is verlopen.
 coupon-error-limit-reached = De ingevoerde code heeft zijn limiet bereikt.
 coupon-error-invalid = De ingevoerde code is ongeldig.
 coupon-success = Uw abonnement wordt automatisch verlengd tegen de normale prijs.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Uw abonnement wordt na { $couponDurationDate } automatisch verlengd tegen de standaardprijs.
 coupon-enter-code =
     .placeholder = Code invoeren
 
