@@ -71,6 +71,8 @@ another-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir cihaza</
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Bu otomatik bir e-postadır. { -product-firefox-account }nıza yeni bir cihaz eklemediyseniz hemen { $passwordChangeLink } adresinden parolanızı değiştirmelisiniz
 automated-email-plaintext = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen parolanızı değiştirin:
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Parolanızı siz değiştirmediyseniz lütfen hemen { $resetLink } adresinden sıfırlayın
@@ -133,12 +135,7 @@ downloadSubscription-subject = { $productName } uygulamasına hoş geldiniz
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName } uygulamasına hoş geldiniz
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = { $productName } uygulamasını henüz indirmediyseniz hemen indirin, aboneliğinize dahil olan tüm özellikleri kullanmaya başlayın:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = { $productName } uygulamasını indir
+downloadSubscription-link-action-2 = Başlayın
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kurtarma kodları azaldı
 codes-reminder-description = Az sayıda kurtarma kodunuzun kaldığını fark ettik. Kodlarınızın bitince hesabınızın kilitlenmemesi için lütfen yeni kodlar oluşturun.
@@ -184,6 +181,11 @@ postAddAccountRecovery-description = Aşağıdaki cihazı kullanarak { -product-
 postAddAccountRecovery-action = Hesabı yönet
 postAddAccountRecovery-recovery = Bu siz değilseniz <a data-l10n-name="revokeAccountRecoveryLink">buraya tıklayın</a>.
 postAddAccountRecovery-revoke = Bu işlemi siz yapmadıysanız anahtarı iptal edin.
+postAddLinkedAccount-subject = { -brand-firefox }’a yeni hesap bağlandı
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = { $providerName } hesabınız { -product-firefox-account }na bağlandı
+postAddLinkedAccount-action = Hesabı yönet
 postAddTwoStepAuthentication-subject = İki aşamalı kimlik doğrulama etkinleştirildi
 postAddTwoStepAuthentication-title = İki aşamalı kimlik doğrulama etkinleştirildi
 postAddTwoStepAuthentication-description-plaintext = { -product-firefox-account }nızda iki aşamalı doğrulamayı başarıyla etkinleştirdiniz. Bundan sonra her girişte kimlik doğrulama uygulamanızın ürettiği güvenlik kodları sorulacaktır.
@@ -258,6 +260,8 @@ subscriptionAccountFinishSetup-subject = { $productName } hizmetine hoş geldini
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = { $productName } hizmetine hoş geldiniz
 subscriptionAccountFinishSetup-content-processing = Ödemeniz işleme alındı. Tamamlanması 4 iş günü sürebilir. İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenecektir.
+subscriptionAccountFinishSetup-content-create-2 = Ardından, yeni aboneliğinizi kullanmaya başlamak için { -product-firefox-account } parolanızı oluşturacaksınız.
+subscriptionAccountFinishSetup-action-2 = Başlayın
 subscriptionAccountReminderFirst-subject = Hatırlatma: Hesabınızın kurulumunu tamamlayın
 subscriptionAccountReminderFirst-title = Henüz aboneliğinize erişemezsiniz
 subscriptionAccountReminderFirst-content-info = Birkaç gün önce { -product-firefox-account } açtınız ama hesabınızı henüz doğrulamadınız. Yeni aboneliğinizi kullanabilmek için hesabınızın kurulumunu tamamlamanız gerekiyor.
@@ -302,9 +306,6 @@ subscriptionFirstInvoice-subject = { $productName } ödemesi onaylandı
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = { $productName } abonesi olduğunuz için teşekkür ederiz
 subscriptionFirstInvoice-content-processing = Ödemeniz işleme alındı. Tamamlanması dört iş günü sürebilir.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = { $productName } ürününü kullanmaya nasıl başlayacağınıza dair indirme talimatlarını içeren ayrı bir e-posta alacaksınız.
 subscriptionFirstInvoice-content-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -326,9 +327,6 @@ subscriptionFirstInvoiceDiscount-subject = { $productName } ödemesi onaylandı
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = { $productName } abonesi olduğunuz için teşekkür ederiz
 subscriptionFirstInvoiceDiscount-content-processing = Ödemeniz işleme alındı. Tamamlanması dört iş günü sürebilir.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = { $productName } ürününü kullanmaya nasıl başlayacağınıza dair indirme talimatlarını içeren ayrı bir e-posta alacaksınız.
 subscriptionFirstInvoiceDiscount-content-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -426,6 +424,25 @@ subscriptionSubsequentInvoiceDiscount-title = Abone olduğunuz için teşekkür 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoiceDiscount-content-received = { $productName } için son ödemenizi aldık.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Fatura numarası: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Fatura numarası: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = Plan değişikliği: { $paymentProrated }
+# Variables:
+# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charge = { $invoiceDateOnly } tarihinde { $invoiceTotal } tahsil edildi
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Sonraki fatura: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = Ara toplam: { $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount = İndirim: -{ $invoiceDiscountAmount }

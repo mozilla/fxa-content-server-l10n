@@ -302,6 +302,8 @@ sub-item-cancel-sub = Aboneliği iptal et
 sub-item-stay-sub = Aboneliğimi sürdür
 sub-item-cancel-msg = Faturanızın son günü olan { $period } tarihinden sonra { $name } ürününü kullanamayacaksınız.
 sub-item-cancel-confirm = { $name } ürününe erişimimi ve kayıtlı bilgilerimi { $period } tarihinde iptal et
+invoice-not-found = Sonraki fatura bulunamadı
+sub-item-no-such-subsequent-invoice = Bu abonelik için sonraki fatura bulunamadı.
 
 ## subscription iap item
 
@@ -328,10 +330,13 @@ sub-subscription-error =
     .title = Abonelikler yüklenirken sorun oluştu
 sub-customer-error =
     .title = Müşteri yüklenirken sorun oluştu
+sub-invoice-error =
+    .title = Faturalar yüklenirken sorun oluştu
 sub-billing-update-success = Fatura bilgileriniz başarıyla güncellendi
 sub-route-payment-modal-heading = Geçersiz fatura bilgileri
 sub-route-payment-modal-message = { -brand-name-paypal } hesabınızda bir sorun var gibi görünüyor. Bu ödeme sorununu çözmek için gerekli adımları atmanız gerekiyor.
 sub-route-missing-billing-agreement-payment-alert = Geçersiz ödeme bilgileri: Hesabınızla ilgili bir sorun var. <div>Yönet</div>
+sub-route-funding-source-payment-alert = Geçersiz ödeme bilgisi: Hesabınızla ilgili bir hata var. Bilgilerinizi güncelledikten sonra bu uyarının temizlenmesi biraz zaman alabilir. <div>Yönet</div>
 pay-update-manage-btn = Yönet
 
 ## subscription create
