@@ -219,6 +219,7 @@ la-unlink-button = Untkeppelje
 la-unlink-account-button = Untkeppelje
 la-unlink-heading = Untkeppelje fan eksterne account
 la-unlink-content = Binne jo wis dat jo jo { -brand-google }-account ûntkeppelje wolle? As jo jo account ûntkeppelje, wurde jo net automatysk ôfmeld by dy tsjinsten. Om dat te dwaan, moatte jo jo hânmjittich ôfmelde fan de seksje Ferbûnen tsjinsten út.
+la-unlink-content-2 = Binne jo wis dat jo jo account ûntkeppelje wolle? As jo jo account ûntkeppelje, wurde jo net automatysk ôfmeld by dy tsjinsten. Om dat te dwaan, moatte jo jo hânmjittich ôfmelde fan de seksje Ferbûnen tsjinsten út.
 nav-linked-accounts = { la-heading }
 
 ## Modal
