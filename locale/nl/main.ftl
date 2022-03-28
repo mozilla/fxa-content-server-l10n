@@ -316,6 +316,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Mijn toegang tot en opgeslagen gegevens in { $name }
     op { $period } opzeggen
+invoice-not-found = Volgende factuur niet gevonden
+sub-item-no-such-subsequent-invoice = Volgende factuur niet gevonden voor dit abonnement.
 
 ## subscription iap item
 
@@ -342,6 +344,8 @@ sub-subscription-error =
     .title = Probleem bij het laden van abonnementen
 sub-customer-error =
     .title = Probleem bij het laden van klant
+sub-invoice-error =
+    .title = Probleem bij het laden van facturen
 sub-billing-update-success = Uw betalingsgegevens zijn met succes bijgewerkt
 sub-route-payment-modal-heading = Ongeldige facturatiegegevens
 sub-route-payment-modal-message = Er lijkt een fout op te treden met uw { -brand-name-paypal }-account, u dient de noodzakelijke stappen te nemen om dit betalingsprobleem op te lossen.
