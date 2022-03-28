@@ -483,7 +483,7 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = Subtotaal: { $invoiceSu
 subscriptionSubsequentInvoiceDiscount-content-discount = Koarting: -{ $invoiceDiscountAmount }
 # Variables:
 # $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-subject = Jo hawwe opwurdearre nei %(productNameNew)s
+subscriptionUpgrade-subject = Jo hawwe opwurdearre nei { $productNameNew }
 subscriptionUpgrade-title = Tank foar it opwurdearjen!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
