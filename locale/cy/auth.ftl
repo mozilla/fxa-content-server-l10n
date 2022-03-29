@@ -38,11 +38,11 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s { -product-firefox-account } a'ch bod wedi cofrestru ar gyfer { $productName }.
+subplat-explainer-specific = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } { -product-firefox-account } a'ch bod wedi cofrestru ar gyfer { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif { -product-firefox-account }x
-subplat-explainer-multiple = Rydych yn derbyn yr e-bost hwn oherwydd bod gan %(email)s { -product-firefox-account } a'ch bod wedi tanysgrifio i nifer o gynnyrch.
+subplat-explainer-multiple = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } { -product-firefox-account } a'ch bod wedi tanysgrifio i nifer o gynnyrch.
 subplat-manage-account = Rheolwch osodiadau eich { -product-firefox-account } trwy ymweld â <a data-l10n-name="subplat-account-page">thudalen eich cyfrif </a>.
 subplat-terms-policy = Polisi telerau a chanslo
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
@@ -91,7 +91,7 @@ cancellationSurvey-plaintext = Helpwch ni i wella ein gwasanaethau trwy lanw’r
 change-password-plaintext = Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, newidiwch eich cyfrinair.
 # Variables:
 #  $ip (Number) - User's IP address
-user-ip = Cyfeiriad IP: %(ip)s
+user-ip = Cyfeiriad IP: { $ip }
 manage-account = Rheoli cyfrif
 manage-account-plaintext = { manage-account }:
 payment-details = Manylion talu:
@@ -329,7 +329,7 @@ subscriptionFailedPaymentsCancellation-subject = Mae eich tanysgrifiad i { $prod
 subscriptionFailedPaymentsCancellation-title = Mae eich tanysgrifiad wedi'i ddiddymu
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFailedPaymentsCancellation-content = Rydym wedi diddymu eich tanysgrifiad %(productName)s oherwydd bod sawl ymgais talu wedi methu. I gael mynediad eto, dechreuwch danysgrifiad newydd gyda dull talu wedi'i ddiweddaru.
+subscriptionFailedPaymentsCancellation-content = Rydym wedi diddymu eich tanysgrifiad { $productName } oherwydd bod sawl ymgais talu wedi methu. I gael mynediad eto, dechreuwch danysgrifiad newydd gyda dull talu wedi'i ddiweddaru.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Cadarnhawyd y taliad am { $productName }
@@ -547,7 +547,7 @@ verifyLogin-subject = Cadarnhewch y mewngofnodi newydd i { $clientName }
 verifyLogin-action = Cadarnhau eich mewngofnodi
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Cod mewngofnodi ar gyfer %(serviceName)s
+verifyLoginCode-subject-line = Cod mewngofnodi ar gyfer { $serviceName }
 verifyLoginCode-title = Ai hwn yw chi’n allgofnodi?
 verifyLoginCode-prompt = Os ydyw, defnyddiwch y cod dilysu hwn:
 verifyLoginCode-expiry-notice = Daw i ben mewn 5 munud.
