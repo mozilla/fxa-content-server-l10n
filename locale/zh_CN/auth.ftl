@@ -145,12 +145,7 @@ downloadSubscription-subject = 欢迎使用 { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = 欢迎使用 { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = 若您还未下载 { $productName }，快来下载并开始使用订阅服务中包含的完整功能：
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = 下载 { $productName }
+downloadSubscription-link-action-2 = 开始使用
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩余的救援码较少
 codes-reminder-description = 我们注意到您的救援码所剩不多了。请考虑生成一些新的救援码，以备无法登录账号时使用。
@@ -330,9 +325,6 @@ subscriptionFirstInvoice-subject = 已确认 { $productName } 付款
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = 感谢您订阅 { $productName }！
 subscriptionFirstInvoice-content-processing = 正在处理您的款项，最多需要四个工作天才能完成。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = 您会收到另外一封关于如何开始使用 { $productName } 与下载步骤的电子邮件。
 subscriptionFirstInvoice-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -354,9 +346,6 @@ subscriptionFirstInvoiceDiscount-subject = 已确认 { $productName } 付款
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = 感谢您订阅 { $productName }！
 subscriptionFirstInvoiceDiscount-content-processing = 正在处理您的款项，最多需要四个工作日完成。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = 您会收到另外一封关于如何开始使用 { $productName } 与下载步骤的电子邮件。
 subscriptionFirstInvoiceDiscount-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
