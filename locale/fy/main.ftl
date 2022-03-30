@@ -316,6 +316,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Myn tagong ta en bewarre gegevens yn { $name }
     op { $period } opsizze
+invoice-not-found = Folgjende faktuer net fûn
+sub-item-no-such-subsequent-invoice = Folgjende faktuer net fûn foar dit abonnemint.
 
 ## subscription iap item
 
@@ -342,6 +344,8 @@ sub-subscription-error =
     .title = Probleem by it laden fan abonneminten
 sub-customer-error =
     .title = Probleem by it laden fan klant
+sub-invoice-error =
+    .title = Probleem by it laden fan faktueren
 sub-billing-update-success = Jo betellingsgegevens binne mei sukses bywurke
 sub-route-payment-modal-heading = Ungjildige fakturaasjegegevens
 sub-route-payment-modal-message = Der liket in flater te barren mei jo { -brand-name-paypal }-account, jo moatte de needsaaklike stappen nimme om dit betellingsprobleem op te lossen.
@@ -376,6 +380,8 @@ coupon-error-expired = De ynfierde koade is ferrûn.
 coupon-error-limit-reached = De ynfierde koade hat syn limyt berikt.
 coupon-error-invalid = De ynfierde koade is ûnjildich.
 coupon-success = Jo abonnemint wurdt automatysk ferlinge tsjin de normale priis.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Jo abonnemint wurdt nei { $couponDurationDate } automatysk ferlinge tsjin de standertpriis.
 coupon-enter-code =
     .placeholder = Koade ynfiere
 

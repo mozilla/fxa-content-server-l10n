@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-24 22:07+0000\n"
+"POT-Creation-Date: 2022-03-30 20:40+0000\n"
 "PO-Revision-Date: 2020-10-20 15:21+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,30 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1444671008.0\n"
-
-#: lib/senders/email.js:343
-msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr "%(uaOS)s %(uaOSVersion)s ਉੱਤੇ %(uaBrowser)s"
-
-#: lib/senders/email.js:348
-msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr "%(uaOS)s ਉੱਤੇ %(uaBrowser)s"
-
-#: lib/senders/email.js:374
-msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr "%(city)s, %(stateCode)s, %(country)s (ਅੰਦਾਜ਼ਨ)"
-
-#: lib/senders/email.js:381
-msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (ਅੰਦਾਜ਼ਨ)"
-
-#: lib/senders/email.js:386
-msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr "%(stateCode)s, %(country)s (ਅੰਦਾਜ਼ਨ)"
-
-#: lib/senders/email.js:391
-msgid "%(country)s (estimated)"
-msgstr "%(country)s (ਅੰਦਾਜ਼ਨ)"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -113,6 +89,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "ਨਵਾਂ ਡਾਊਨਲੋਡ ਕਰੋ"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaOS)s %(uaOSVersion)s ਉੱਤੇ %(uaBrowser)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaOS)s ਉੱਤੇ %(uaBrowser)s"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(stateCode)s, %(country)s (ਅੰਦਾਜ਼ਨ)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(country)s (ਅੰਦਾਜ਼ਨ)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s, %(country)s (ਅੰਦਾਜ਼ਨ)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (ਅੰਦਾਜ਼ਨ)"
 
 #~ msgid "Verification code: %(code)s"
 #~ msgstr "ਤਸਦੀਕੀ ਕੋਡ: %(code)s"

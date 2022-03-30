@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-24 22:07+0000\n"
+"POT-Creation-Date: 2022-03-30 20:40+0000\n"
 "PO-Revision-Date: 2022-03-04 13:09+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,30 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
-
-#: lib/senders/email.js:343
-msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr "%(uaBrowser)s %(uaOS)s %(uaOSVersion)s-pe"
-
-#: lib/senders/email.js:348
-msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr "%(uaBrowser)s %(uaOS)s-pe"
-
-#: lib/senders/email.js:374
-msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr "%(city)s, %(stateCode)s, %(country)s (jehayhupyre)"
-
-#: lib/senders/email.js:381
-msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s, (jehayhupyre)"
-
-#: lib/senders/email.js:386
-msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr "%(stateCode)s, %(country)s (jehayhupyre)"
-
-#: lib/senders/email.js:391
-msgid "%(country)s (estimated)"
-msgstr "%(country)s (jehayhupyre)"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -123,6 +99,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Emboguejy tembiapo ipyahuvéva"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaBrowser)s %(uaOS)s %(uaOSVersion)s-pe"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaBrowser)s %(uaOS)s-pe"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(stateCode)s, %(country)s (jehayhupyre)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(country)s, (jehayhupyre)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s, %(country)s (jehayhupyre)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (jehayhupyre)"
 
 #~ msgid "Verification code: %(code)s"
 #~ msgstr "Ayvu rechajeyrã: %(code)s"

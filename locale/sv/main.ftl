@@ -316,6 +316,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Avbryt min åtkomst och min sparade information för
     { $name } den { $period }
+invoice-not-found = Efterföljande faktura hittades inte
+sub-item-no-such-subsequent-invoice = Efterföljande faktura hittades inte för denna prenumeration.
 
 ## subscription iap item
 
@@ -342,6 +344,8 @@ sub-subscription-error =
     .title = Problem med att ladda prenumerationer
 sub-customer-error =
     .title = Problem med att ladda kund
+sub-invoice-error =
+    .title = Problem med att ladda fakturor
 sub-billing-update-success = Din faktureringsinformation har uppdaterats
 sub-route-payment-modal-heading = Ogiltig faktureringsinformation
 sub-route-payment-modal-message = Det verkar finnas ett fel med ditt { -brand-name-paypal }-konto, du måste vidta nödvändiga steg för att lösa detta betalningsproblem.
@@ -376,6 +380,8 @@ coupon-error-expired = Koden du angav har upphört.
 coupon-error-limit-reached = Koden du angav har nått sin gräns.
 coupon-error-invalid = Koden du angav är ogiltig.
 coupon-success = Din plan förnyas automatiskt till listpriset.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Din plan förnyas automatiskt efter { $couponDurationDate } till listpriset.
 coupon-enter-code =
     .placeholder = Ange kod
 
