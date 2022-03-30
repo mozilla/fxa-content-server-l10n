@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-24 22:07+0000\n"
-"PO-Revision-Date: 2022-03-29 20:20+0000\n"
+"PO-Revision-Date: 2022-03-30 19:53+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1960,7 +1960,7 @@ msgstr "在找 Firefox 同步？<a %(escapedSyncSuggestionAttrs)s>从这里开�
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
-msgstr ""
+msgstr "或"
 
 #: .es5/templates/partial/third-party-auth.mustache:2
 msgid "Continue with Google"
