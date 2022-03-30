@@ -209,6 +209,7 @@ la-unlink-button = Scollega
 la-unlink-account-button = Scollega
 la-unlink-heading = Scollega da account di terze parti
 la-unlink-content = Sei sicuro di voler scollegare il tuo account { -brand-google }? Scollegando il tuo account non verrai disconnesso automaticamente da tali servizi. Per farlo dovrai disconnetterti manualmente dalla sezione Servizi connessi.
+la-unlink-content-2 = Sei sicuro di voler scollegare il tuo account? Scollegando il tuo account non verrai disconnesso automaticamente da tali servizi. Per farlo dovrai disconnetterti manualmente dalla sezione Servizi connessi.
 nav-linked-accounts = { la-heading }
 
 ## Modal

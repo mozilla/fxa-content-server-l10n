@@ -309,6 +309,8 @@ sub-item-cancel-sub = Annulla abbonamento
 sub-item-stay-sub = Resta abbonato
 sub-item-cancel-msg = Non potrai più utilizzare { $name } dopo il { $period }, ultimo giorno del tuo ciclo di fatturazione.
 sub-item-cancel-confirm = Annulla il mio accesso e le mie informazioni salvate in { $name } il { $period }
+invoice-not-found = Fattura successiva non trovata
+sub-item-no-such-subsequent-invoice = Fattura successiva non trovata per questo abbonamento.
 
 ## subscription iap item
 
@@ -335,6 +337,8 @@ sub-subscription-error =
     .title = Errore nel caricamento degli abbonamenti
 sub-customer-error =
     .title = Errore nel caricamento del cliente
+sub-invoice-error =
+    .title = Errore nel caricamento delle fatture
 sub-billing-update-success = I tuoi dati di fatturazione sono stati aggiornati correttamente
 sub-route-payment-modal-heading = Informazioni di fatturazione non valide
 sub-route-payment-modal-message = Sembra che si sia verificato un errore con il tuo account { -brand-name-paypal }, è necessario seguire i passaggi richiesti per risolvere questo problema con il pagamento.
@@ -369,6 +373,8 @@ coupon-error-expired = Il codice inserito è scaduto.
 coupon-error-limit-reached = Il codice inserito ha raggiunto il proprio limite.
 coupon-error-invalid = Il codice inserito non è valido.
 coupon-success = Il tuo piano si rinnoverà automaticamente al prezzo di listino.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Il tuo piano si rinnoverà automaticamente dopo { $couponDurationDate } al prezzo di listino.
 coupon-enter-code =
     .placeholder = Inserisci il codice
 
