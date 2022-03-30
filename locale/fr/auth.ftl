@@ -152,6 +152,7 @@ downloadSubscription-subject = Bienvenue sur { $productName }
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Bienvenue sur { $productName }
 downloadSubscription-content-2 = Commençons à utiliser toutes les fonctionnalités incluses dans votre abonnement :
+downloadSubscription-link-action-2 = Lancez-vous
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Il vous reste peu de codes de récupération
 codes-reminder-description = Nous avons remarqué qu’il vous reste peu de codes de récupération. Vous devriez générer de nouveaux codes pour éviter de perdre l’accès à votre compte.
