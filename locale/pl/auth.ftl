@@ -383,12 +383,12 @@ subscriptionCancellation-title = Przykro nam, że chcesz się z nami pożegnać
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = Anulowaliśmy subskrypcję { $productName }. Ostatnia płatność w wysokości { $invoiceTotal } została opłacona w dniu { $invoiceDateOnly }. Możesz korzystać z usługi do końca bieżącego okresu rozliczeniowego, czyli { $serviceLastActiveDateOnly }.
 # Variables:
-# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-subject = Przełączono na { $productNameNew }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Przełączono na { $productName }
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-switch = Pomyślnie przełączono z { $productNameOld } na { $productNameNew }.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Pomyślnie przełączono z { $productNameOld } na { $productName }.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
@@ -397,8 +397,8 @@ subscriptionDowngrade-content-switch = Pomyślnie przełączono z { $productNam
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionDowngrade-content-charge-info = Zaczynając od następnego rachunku, opłata zostanie zmieniona z { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }. Wtedy też otrzymasz jednorazową sumę { $paymentProrated } na koncie, aby odzwierciedlić niższą opłatę przez pozostały czas tego okresu ({ $productPaymentCycleOld }).
 # Variables:
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-install = Jeśli do korzystania z { $productNameNew } będzie potrzebna instalacja nowego oprogramowania, to otrzymasz oddzielną wiadomość z instrukcjami pobierania.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Jeśli do korzystania z { $productName } będzie potrzebna instalacja nowego oprogramowania, to otrzymasz oddzielną wiadomość z instrukcjami pobierania.
 subscriptionDowngrade-content-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -571,13 +571,13 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = Suma częściowa: { $in
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount = Zniżka: -{ $invoiceDiscountAmount }
 # Variables:
-# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-subject = Przełączono na { $productNameNew }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Przełączono na { $productName }
 subscriptionUpgrade-title = Dziękujemy!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Pomyślnie przełączono z { $productNameOld } na { $productNameNew }.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Pomyślnie przełączono z { $productNameOld } na { $productName }.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
@@ -586,8 +586,8 @@ subscriptionUpgrade-upgrade-info = Pomyślnie przełączono z { $productNameOld
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Zaczynając od następnego rachunku, opłata zostanie zmieniona z { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }. Wtedy też zostanie naliczona jednorazowa opłata w wysokości { $paymentProrated }, aby odzwierciedlić wyższą opłatę przez pozostały czas tego okresu ({ $productPaymentCycleOld }).
 # Variables:
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Jeśli do korzystania z { $productNameNew } będzie potrzebna instalacja nowego oprogramowania, to otrzymasz oddzielną wiadomość z instrukcjami pobierania.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Jeśli do korzystania z { $productName } będzie potrzebna instalacja nowego oprogramowania, to otrzymasz oddzielną wiadomość z instrukcjami pobierania.
 subscriptionUpgrade-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
 unblockCode-subject = Kod upoważnienia konta
 unblockCode-title = Czy to Ty się logujesz?

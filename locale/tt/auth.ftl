@@ -248,12 +248,12 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 subscriptionCancellation-subject = Сезнең { $productName } хезмәтенә язылуыгыз бетерелде
 subscriptionCancellation-title = Китүегез безгә кызганыч
 # Variables:
-# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-subject = { $productNameNew } хезмәтенә күчтегез
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = { $productName } хезмәтенә күчтегез
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-switch = { $productNameOld } продуктыннан { $productNameNew } продуктына күчү уңышлы узды.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = { $productNameOld } продуктыннан { $productName } продуктына күчү уңышлы узды.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Сезнең { $productName } хезмәтенә язылуыгыз туктатылды
@@ -369,13 +369,13 @@ subscriptionSubsequentInvoice-content-charged = { $invoiceDateOnly } көнне 
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Киләсе квитанция: { $nextInvoiceDateOnly }
 # Variables:
-# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-subject = { $productNameNew } продуктына күтәрелү уңышлы узды
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = { $productName } продуктына күтәрелү уңышлы узды
 subscriptionUpgrade-title = Яңартуыгыз өчен рәхмәт!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = { $productNameOld } продуктын { $productNameNew } продуктына яңарту уңышлы узды.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = { $productNameOld } продуктын { $productName } продуктына яңарту уңышлы узды.
 unblockCode-subject = Хисабыгызны авторизацияләү коды
 unblockCode-title = Керүче Сезме?
 unblockCode-prompt = Әйе булса, Сезгә кирәкле авторизация коды менә бу:

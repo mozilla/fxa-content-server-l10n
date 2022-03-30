@@ -302,12 +302,12 @@ subscriptionCancellation-title = Ledsen att se dig sluta
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = Vi har sagt upp din prenumeration på { $productName }. Din sista betalning på { $invoiceTotal } betalades { $invoiceDateOnly }. Din tjänst kommer att fortsätta till slutet av din nuvarande faktureringsperiod, som är { $serviceLastActiveDateOnly }.
 # Variables:
-# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-subject = Du har bytt till { $productNameNew }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Du har bytt till { $productName }
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-switch = Du har bytt från { $productNameOld } till { $productNameNew }.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Du har bytt från { $productNameOld } till { $productName }.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
@@ -316,8 +316,8 @@ subscriptionDowngrade-content-switch = Du har bytt från { $productNameOld } til
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionDowngrade-content-charge-info = Från och med din nästa faktura kommer din debitering att ändras från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }. Då kommer du också att få en engångskredit på { $paymentProrated } för att återspegla den lägre avgiften för resten av denna { $productPaymentCycleOld }.
 # Variables:
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-install = Om det finns ny programvara för dig att installera för att använda { $productNameNew } kommer du att få ett separat e-postmeddelande med nedladdningsinstruktioner.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Om det finns ny programvara för dig att installera för att använda { $productName } kommer du att få ett separat e-postmeddelande med nedladdningsinstruktioner.
 subscriptionDowngrade-content-auto-renew = Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -490,13 +490,13 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = Delsumma: { $invoiceSub
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount = Rabatt: -{ $invoiceDiscountAmount }
 # Variables:
-# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-subject = Du har uppgraderat till { $productNameNew }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Du har uppgraderat till { $productName }
 subscriptionUpgrade-title = Tack för att du har uppgraderat!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Du har uppgraderat från { $productNameOld } till { $productNameNew }.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Du har uppgraderat från { $productNameOld } till { $productName }.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
@@ -505,8 +505,8 @@ subscriptionUpgrade-upgrade-info = Du har uppgraderat från { $productNameOld } 
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Från och med din nästa faktura kommer din debitering att ändras från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }. Då kommer du också att debiteras en engångsavgift på { $paymentProrated } för att återspegla den högre avgiften för återstoden av denna { $productPaymentCycleOld }.
 # Variables:
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Om det finns ny programvara för dig att installera för att använda { $productNameNew } kommer du att få ett separat e-postmeddelande med nedladdningsinstruktioner.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Om det finns ny programvara för dig att installera för att använda { $productName } kommer du att få ett separat e-postmeddelande med nedladdningsinstruktioner.
 subscriptionUpgrade-auto-renew = Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
 unblockCode-subject = Behörighetskod för konto
 unblockCode-title = Är det du som loggar in?

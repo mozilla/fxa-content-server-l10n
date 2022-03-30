@@ -302,12 +302,12 @@ subscriptionCancellation-title = Okkur þykir miður að þú sért á förum
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = Við höfum sagt upp { $productName } áskriftinni þinni. Lokagreiðsla þín að upphæð { $invoiceTotal } var greidd þann { $invoiceDateOnly }. Þjónustan þín mun halda áfram til loka núverandi greiðslutímabils, sem er þann { $serviceLastActiveDateOnly }.
 # Variables:
-# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-subject = Þú hefur skipt yfir í { $productNameNew }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Þú hefur skipt yfir í { $productName }
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-switch = Þér hefur tekist að skipta úr { $productNameOld } yfir í { $productNameNew }.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Þér hefur tekist að skipta úr { $productNameOld } yfir í { $productName }.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
@@ -316,8 +316,8 @@ subscriptionDowngrade-content-switch = Þér hefur tekist að skipta úr { $prod
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionDowngrade-content-charge-info = Frá og með næsta reikningi þínum mun gjaldið þitt breytast úr { $paymentAmountOld } á { $productPaymentCycleOld } í { $paymentAmountNew } á { $productPaymentCycleNew }. Á þeim tímapunkti muntu einnig fá eins-skiptis inneign upp á { $paymentProrated } til að endurspegla lægra gjaldið fyrir það sem eftir er af { $productPaymentCycleOld }.
 # Variables:
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-install = Ef nauðsynlegt er að þú setjir upp nýjan hugbúnað til að geta notað { $productNameNew }, munt þú fá sendan sérstakann tölvupóst með leiðbeiningum varðandi niðurhal.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Ef nauðsynlegt er að þú setjir upp nýjan hugbúnað til að geta notað { $productName }, munt þú fá sendan sérstakann tölvupóst með leiðbeiningum varðandi niðurhal.
 subscriptionDowngrade-content-auto-renew = Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -490,13 +490,13 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = Samtals: { $invoiceSubt
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount = Afsláttur: -{ $invoiceDiscountAmount }
 # Variables:
-# $productNameNew (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-subject = Þú hefur uppfært í { $productNameNew }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Þú hefur uppfært í { $productName }
 subscriptionUpgrade-title = Takk fyrir að uppfæra!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Þér hefur tekist að uppfæra úr { $productNameOld } yfir í { $productNameNew }.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Þér hefur tekist að uppfæra úr { $productNameOld } yfir í { $productName }.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
@@ -505,8 +505,8 @@ subscriptionUpgrade-upgrade-info = Þér hefur tekist að uppfæra úr { $produc
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Frá og með næsta reikningi þínum mun gjaldið þitt breytast úr { $paymentAmountOld } á { $productPaymentCycleOld } í { $paymentAmountNew } á { $productPaymentCycleNew }. Á þeim tímapunkti verður þú einnig krafin/n um { $paymentProrated } eins-skiptis upphæð til að endurspegla hærra gjald fyrir það sem eftir er af þessum { $productPaymentCycleOld }.
 # Variables:
-# $productNameNew (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Ef nauðsynlegt er að þú setjir upp nýjan hugbúnað til að geta notað { $productNameNew }, munt þú fá sendan sérstakann tölvupóst með leiðbeiningum varðandi niðurhal.
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Ef nauðsynlegt er að þú setjir upp nýjan hugbúnað til að geta notað { $productName }, munt þú fá sendan sérstakann tölvupóst með leiðbeiningum varðandi niðurhal.
 subscriptionUpgrade-auto-renew = Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
 unblockCode-subject = Auðkenningarkóði reiknings
 unblockCode-title = Er þetta þú að skrá þig inn?
