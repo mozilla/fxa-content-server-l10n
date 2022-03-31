@@ -213,6 +213,7 @@ la-unlink-button = Dissocier
 la-unlink-account-button = Dissocier
 la-unlink-heading = Dissocier du compte tiers
 la-unlink-content = Voulez-vous vraiment dissocier votre compte { -brand-google } ? La dissociation de votre compte ne vous déconnecte pas automatiquement de ces services. Pour ce faire, vous devrez vous déconnecter manuellement depuis la section Services connectés.
+la-unlink-content-2 = Voulez-vous vraiment dissocier votre compte ? La dissociation de votre compte ne vous déconnecte pas automatiquement de ces services. Pour ce faire, vous devrez vous déconnecter manuellement depuis la section Services connectés.
 nav-linked-accounts = { la-heading }
 
 ## Modal
