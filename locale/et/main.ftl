@@ -323,12 +323,27 @@ sub-item-missing-msg = Palun proovi hiljem uuesti.
 sub-item-no-such-plan = Selle tellimuse jaoks pole sellist plaani.
 sub-item-cancel-sub = Tühista tellimus
 sub-item-stay-sub = Jää teenust tellima
+sub-item-cancel-msg =
+    Pärast { $period } pole sul võimalus enam teenust { $name } kasutada,
+    siis on sinu arveldusperioodi viimane päev.
+sub-item-cancel-confirm = Tühista minu juurepääs ja salvestatud andmed teenusest { $name } kuupäeval { $period }
+invoice-not-found = Hilisemat arvet ei leitud
+sub-item-no-such-subsequent-invoice = Selle tellimuse kohta ei leitud hilisemat arvet.
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: äpisisesed ostud
+sub-iap-item-apple-purchase = { -brand-name-apple }: äpisisesed ostud
+sub-iap-item-manage-button = Halda
+account-activated = Sinu konto on aktiveeritud, <userEl/>
 
 ## subscription route index
 
+sub-route-idx-updating = Arveldusinfo uuendamine…
+sub-route-idx-reactivating = Tellimuse taasaktiveerimine ebaõnnestus
+sub-route-idx-cancel-failed = Tellimuse tühistamine ebaõnnestus
+sub-route-idx-contact = Võta ühendust toega
+sub-route-idx-cancel-msg-title = Meil on kahju sind lahkumas näha
 
 ## subscription create
 
