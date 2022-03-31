@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-24 22:07+0000\n"
+"POT-Creation-Date: 2022-03-31 22:07+0000\n"
 "PO-Revision-Date: 2022-03-04 10:38+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,30 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1426193839.0\n"
-
-#: lib/senders/email.js:343
-msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr "%(uaBrowser)s ar %(uaOS)s %(uaOSVersion)s"
-
-#: lib/senders/email.js:348
-msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr "%(uaBrowser)s ar %(uaOS)s"
-
-#: lib/senders/email.js:374
-msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr "%(city)s, %(stateCode)s, %(country)s (amcan)"
-
-#: lib/senders/email.js:381
-msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (amcan)"
-
-#: lib/senders/email.js:386
-msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr "%(stateCode)s, %(country)s (amcan)"
-
-#: lib/senders/email.js:391
-msgid "%(country)s (estimated)"
-msgstr "%(country)s (amcan)"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -123,6 +99,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Llwytho'r diweddariad diweddaraf i lawr"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaBrowser)s ar %(uaOS)s %(uaOSVersion)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaBrowser)s ar %(uaOS)s"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(stateCode)s, %(country)s (amcan)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(country)s (amcan)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s, %(country)s (amcan)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (amcan)"
 
 #~ msgid "Verification code: %(code)s"
 #~ msgstr "Cod dilysu: %(code)s"

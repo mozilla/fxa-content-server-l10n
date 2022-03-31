@@ -219,6 +219,7 @@ la-unlink-button = Ta bort länk
 la-unlink-account-button = Ta bort länk
 la-unlink-heading = Ta bort länken från tredje parts konto
 la-unlink-content = Är du säker på att du vill ta bort länken till ditt { -brand-google }-konto? Om du tar bort länken till ditt konto loggas du inte automatiskt ut från dessa tjänster. För att göra det måste du logga ut manuellt från avsnittet Anslutna tjänster.
+la-unlink-content-2 = Är du säker på att du vill ta bort länken till ditt konto? Om du tar bort länken till ditt konto loggas du inte automatiskt ut från dessa tjänster. För att göra det måste du logga ut manuellt från avsnittet Anslutna tjänster.
 nav-linked-accounts = { la-heading }
 
 ## Modal

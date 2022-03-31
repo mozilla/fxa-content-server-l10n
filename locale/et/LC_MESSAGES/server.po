@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-24 22:07+0000\n"
+"POT-Creation-Date: 2022-03-31 22:07+0000\n"
 "PO-Revision-Date: 2022-03-24 06:01+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,30 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1448539104.0\n"
-
-#: lib/senders/email.js:343
-msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr "%(uaBrowser)s operatsioonisüsteemil %(uaOS)s %(uaOSVersion)s"
-
-#: lib/senders/email.js:348
-msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr "%(uaBrowser)s operatsioonisüsteemil %(uaOS)s"
-
-#: lib/senders/email.js:374
-msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr "%(city)s, %(stateCode)s, %(country)s (hinnanguline)"
-
-#: lib/senders/email.js:381
-msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (hinnanguline)"
-
-#: lib/senders/email.js:386
-msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr "%(stateCode)s, %(country)s (hinnanguline)"
-
-#: lib/senders/email.js:391
-msgid "%(country)s (estimated)"
-msgstr "%(country)s (hinnanguline)"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -123,6 +99,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Laadi alla uusim versioon"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaBrowser)s operatsioonisüsteemil %(uaOS)s %(uaOSVersion)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaBrowser)s operatsioonisüsteemil %(uaOS)s"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(stateCode)s, %(country)s (hinnanguline)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(country)s (hinnanguline)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s, %(country)s (hinnanguline)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (hinnanguline)"
 
 #~ msgid "Confirm new sign-in to %(clientName)s"
 #~ msgstr "Kinnitan uue sisselogimise seadmes %(clientName)s"
