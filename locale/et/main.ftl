@@ -144,26 +144,26 @@ payment-zip =
 # $intervalCount (Number) - The interval between payments, in days.
 payment-confirm-with-legal-links-day =
     { $intervalCount ->
-        [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>igapäevaselt summa { $amount }, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
-       *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } päeva järel, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
+        [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>igapäevaselt summa { $amount }</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
+       *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } päeva järel</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
     }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
-        [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>iganädalaselt summa { $amount }, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
-       *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } nädala järel, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
+        [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>iganädalaselt summa { $amount }</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
+       *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } nädala järel</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
     }
 #  $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
-        [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>igakuiselt summa { $amount }, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
-       *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } kuu järel, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
+        [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>igakuiselt summa { $amount }</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
+       *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } kuu järel</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
-        [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>iga-aastaselt summa { $amount }, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
-       *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } aasta järel, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
+        [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>iga-aastaselt summa { $amount }</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
+       *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } aasta järel</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
     }
 payment-confirm = Luban Mozillal, Firefoxi toodete loojal, võtta minu makseviisilt <strong>summa { $amount }€ iga { $interval }</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
 
@@ -172,9 +172,15 @@ payment-confirm = Luban Mozillal, Firefoxi toodete loojal, võtta minu makseviis
 payment-cancel-btn = Tühista
 payment-update-btn = Uuenda
 payment-pay-btn = Maksa nüüd
+payment-pay-with-paypal-btn = Maksa teenuse { -brand-name-paypal } vahendusel
+payment-validate-name-error = Palun sisesta oma nimi
+payment-validate-zip-required = Postiindeks on kohustuslik
+payment-validate-zip-short = Postiindeks on liiga lühike
 
 ## subscription redirect
 
+sub-redirect-ready = Sinu tellimus on valmis
+sub-redirect-copy = Palun leia hetk ja räägi meile oma kogemusest.
 
 ## fields
 
