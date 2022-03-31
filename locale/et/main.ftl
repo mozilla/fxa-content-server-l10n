@@ -297,14 +297,29 @@ pay-update-change-btn = Muuda
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Kas soovid jätkata teenuse { $name } kasutamist?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy = Sinu ligipääs teenusele { $name } jätkub ning sinu arveldusperiood ja makse suurus jäävad samaks. Järgmine makse on summas { $amount } kaardile, mis lõpeb numbriga { $last } kuupäeval { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy = Sinu ligipääs teenusele { $name } jätkub ning sinu arveldusperiood ja makse suurus jäävad samaks. Järgmine makse on summas { $amount } kuupäeval { $endDate }.
+reactivate-confirm-button = Telli uuesti
 
 ##  $date (Date) - Last day of product access
 
+reactivate-panel-date = Tühistasid oma tellimuse { $date }.
+reactivate-panel-copy = Kaotad juurdepääsu teenusele { $name } kuupäeval <strong>{ $date }</strong>.
+reactivate-success-copy = Aitäh! Kõik on valmis.
+reactivate-success-button = Sulge
 
 ## subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Probleem tellimuste laadimisel
+sub-item-missing-msg = Palun proovi hiljem uuesti.
 
 ## subscription iap item
 
