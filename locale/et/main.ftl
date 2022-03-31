@@ -361,15 +361,27 @@ sub-billing-update-success = Sinu arveldusinfo on edukalt uuendatud
 sub-route-payment-modal-heading = Vigane arveldusinfo
 sub-route-payment-modal-message = Tundub, et sul on probleem { -brand-name-paypal }i kontoga. Meil on vaja, et teeksid probleemi lahendamiseks vajalikud liigutused.
 sub-route-missing-billing-agreement-payment-alert = Vigane makseinfo; sinu kontol on viga. <div>Halda</div>
+sub-route-funding-source-payment-alert = Vigane makseinfo; sinu kontol on viga. Sel häirel võib võtta aega, et ära kaduda pärast edukat info uuendamist. <div>Halda</div>
+pay-update-manage-btn = Halda
 
 ## subscription create
 
+sub-guarantee = 30-päevane raha tagasi garantii
+pay-with-heading-other = Valige makseviis
+pay-with-heading-card-or = Või maksa kaardiga
+pay-with-heading-card-only = Maksa kaardiga
 
 ## plan-details
 
+plan-details-header = Toote üksikasjad
+plan-details-show-button = Kuva üksikasju
+plan-details-hide-button = Peida üksikasjad
+plan-details-total-label = Kokku
+plan-details-list-price = Hinnakirja hind
 
 ## coupons
 
+coupon-discount = Allahindlus
 
 ## payment-processing
 
