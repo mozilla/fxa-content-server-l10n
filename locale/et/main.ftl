@@ -344,6 +344,21 @@ sub-route-idx-reactivating = Tellimuse taasaktiveerimine ebaõnnestus
 sub-route-idx-cancel-failed = Tellimuse tühistamine ebaõnnestus
 sub-route-idx-contact = Võta ühendust toega
 sub-route-idx-cancel-msg-title = Meil on kahju sind lahkumas näha
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Sinu teenuse { $name } tellimus on tühistatud.
+          <br />
+          Ligipääs teenusele { $name } säilib kuni { $date }.
+sub-route-idx-cancel-aside = Kas sul on küsimusi? Külasta <a>{ -brand-name-mozilla } toe lehte</a>.
+sub-subscription-error =
+    .title = Probleem tellimuste laadimisel
+sub-customer-error =
+    .title = Probleem kliendi laadimisel
+sub-invoice-error =
+    .title = Probleem arvete laadimisel
+sub-billing-update-success = Sinu arveldusinfo on edukalt uuendatud
+sub-route-payment-modal-heading = Vigane arveldusinfo
 
 ## subscription create
 
