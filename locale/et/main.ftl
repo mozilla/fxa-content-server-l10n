@@ -320,6 +320,9 @@ reactivate-success-button = Sulge
 
 sub-item-missing = Probleem tellimuste laadimisel
 sub-item-missing-msg = Palun proovi hiljem uuesti.
+sub-item-no-such-plan = Selle tellimuse jaoks pole sellist plaani.
+sub-item-cancel-sub = Tühista tellimus
+sub-item-stay-sub = Jää teenust tellima
 
 ## subscription iap item
 
