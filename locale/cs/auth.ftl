@@ -124,11 +124,15 @@
 
 ## Email content
 
-fxa-privacy-url = Zásady ochrany osobních údajů
+body-devices-image = <img data-l10n-name="devices-image" alt="Zařízení">
+fxa-privacy-url = { -brand-mozilla } a soukromí
 fxa-service-url = Podmínky poskytování služby { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox(case: "gen") }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla(case: "gen") }">
 subplat-automated-email = Toto je automaticky zaslaný e-mail – pokud jste si ho nevyžádali, můžete ho ignorovat.
 subplat-privacy-notice = Zásady ochrany osobních údajů
 subplat-privacy-plaintext = Zásady ochrany osobních údajů:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -139,13 +143,20 @@ subplat-explainer-reminder-form = Tuto e-mailovou zprávu vám posíláme, proto
 subplat-explainer-multiple = Tuto e-mailovou zprávu vám posíláme, protože { $email } má založený { -product-firefox-account(case: "acc", capitalization: "lower") } a máte předplaceno několik produktů.
 subplat-manage-account = Svá nastavení { -product-firefox-account(case: "gen", capitalization: "lower") } můžete spravovat na <a data-l10n-name="subplat-account-page">stránce svého účtu</a>.
 subplat-terms-policy = Podmínky zrušení
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Zrušit předplatné
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Obnovit předplatné
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Aktualizovat platební informace
-subplat-privacy-policy = Zásady ochrany osobních údajů
+subplat-privacy-policy = { -brand-mozilla } a soukromí
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Podmínky poskytování služby { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Právní informace
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Ochrana osobních údajů
+subplat-privacy-website-plaintext = { subplat-privacy }:
 another-desktop-device = Nebo nainstalujte na <a data-l10n-name="anotherDeviceLink">jiný počítač</a>.
 another-device = Nebo nainstalujte na <a data-l10n-name="anotherDeviceLink">jiné zařízení</a>.
 automated-email-change =
@@ -158,6 +169,8 @@ automated-email =
     Toto je automatický e-mail; pokud jste jej obdrželi omylem, není vyžadována žádná akce.
     Pro více informací prosím navštivte <a data-l10n-name="supportLink">podporu { -brand-mozilla(case: "gen") }</a>.
 automated-email-plaintext = Toto je automaticky zaslaný e-mail – pokud jste si ho nevyžádali, můžete ho ignorovat.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Toto je automatický e-mail; pokud jste tuto akci neprovedli, změňte si své heslo:
 automated-email-reset =
     Toto je automatický e-mail; pokud jste tuto akci neschválili, tak si prosím <a data-l10n-name="resetLink">obnovte heslo</a>.
     Pro více informací prosím navštivte <a data-l10n-name="supportLink">podporu { -brand-mozilla(case: "gen") }</a>.
@@ -172,6 +185,8 @@ change-password-plaintext = Pokud máte podezření, že se někdo pokouší neo
 #  $ip (Number) - User's IP address
 user-ip = IP adresa: { $ip }
 manage-account = Správa účtu
+manage-account-plaintext = { manage-account }:
+payment-details = Detaily platby:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Číslo dokladu: { $invoiceNumber }
@@ -191,19 +206,58 @@ card-ending-in = { $cardType } karta končící na { $lastFour }
 subscriptionSupport = Máte dotaz ohledně vašeho předplatného? Pomůže vám náš <a data-l10n-name="subscriptionSupportUrl">tým podpory</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Máte dotaz ohledně vašeho předplatného? Pomůže vám náš tým podpory:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Děkujeme vám za předplacení produktu { $productName }. Pokud budete mít jakékoliv otázky k vašemu předplatnému nebo budete potřebovat informace o produktu { $productName }, <a data-l10n-name="subscriptionSupportUrl">kontaktujte nás</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Děkujeme vám za předplacení produktu { $productName }. Pokud budete mít jakékoliv otázky k vašemu předplatnému nebo budete potřebovat informace o produktu { $productName }, kontaktujte nás:
+subscriptionUpdateBillingEnsure = Ověřte, že jsou vaše platební údaje a informace o účtu <a data-l10n-name="updateBillingUrl">aktuální</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Ověřte, že jsou vaše platební údaje a informace o účtu aktuální:
+subscriptionUpdateBillingTry = Vaši platbu zkusíme provést znovu za několik dní. Mezitím můžete ověřit, <a data-l10n-name="updateBillingUrl">zda jsou vaše platební údaje aktuální</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Vaši platbu zkusíme provést znovu za několik dní. Mezitím můžete ověřit, zda jsou vaše platební údaje aktuální:
+subscriptionUpdatePayment = Abyste zabránili jakémukoliv přerušení předplatného služeb, <a data-l10n-name="updateBillingUrl">aktualizujte včas své platební údaje</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Abyste zabránili jakémukoliv přerušení předplatného služeb, aktualizujte včas své platební údaje:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Pro více informací prosím navštivte stránku { $supportUrl }
+view-invoice = <a data-l10n-name="invoiceLink">Zobrazit fakturu</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Zobrazit fakturu: { $invoiceLink }
 cadReminderFirst-subject = Přátelsky připomínáme: Jak dokončit nastavení synchronizace
 cadReminderFirst-action = Synchronizovat další zařízení
 cadReminderFirst-title = Připomínáme nastavení synchronizace dalších zařízení.
 cadReminderSecond-subject = Poslední připomenutí: Nezapomeňte si nastavit synchronizaci
 cadReminderSecond-action = Synchronizovat další zařízení
 cadReminderSecond-title = Poslední připomenutí na synchronizaci dalšího zařízení.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Vítá vás { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Vítá vás { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Zbývá malé množství záložních kódů
 codes-reminder-description = Všimli jsme si, že vám zbývá malé množství záložních kódů. Abyste předešli nechtěnému uzamčení vašeho účtu, zvažte prosím vytvoření nových kódů.
 codes-generate = Vygenerovat kódy
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Vygenerovat kódy
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Zbývá jeden záložní kód
+        [few] Zbývají { $numberRemaining } záložní kódy
+       *[other] Zbývá { $numberRemaining } záložních kódů
+    }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Nové přihlášení skrze { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = Nové přihlášení skrze { $clientName }
 newDeviceLogin-action = Správa účtu
 passwordChanged-subject = Heslo změněno
 passwordChanged-title = Heslo bylo úspěšně změněno
@@ -226,7 +280,9 @@ passwordResetAccountRecovery-create-key = Vytvořit nový obnovovací klíč:
 postAddAccountRecovery-subject = Obnovovací klíč k účtu byl vygenerován
 postAddAccountRecovery-title = Obnovovací klíč k účtu byl vygenerován
 postAddAccountRecovery-action = Správa účtu
+postAddAccountRecovery-recovery = Pokud jste to nebyli vy, <a data-l10n-name="revokeAccountRecoveryLink">klikněte zde</a>.
 postAddAccountRecovery-revoke = Pokud jste to nebyli vy, zrušte platnost klíče.
+postAddLinkedAccount-action = Správa účtu
 postAddTwoStepAuthentication-subject = Dvoufázové ověřování je zapnuto
 postAddTwoStepAuthentication-title = Dvoufázové ověřování je zapnuto
 postAddTwoStepAuthentication-action = Správa účtu
@@ -249,14 +305,19 @@ postRemoveAccountRecovery-invalid = Tento obnovovací klíč už není možné p
 postRemoveSecondary-subject = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-action = Správa účtu
+postRemoveTwoStepAuthentication-subject-line = Dvoufázové ověřování je vypnuto
 postRemoveTwoStepAuthentication-title = Dvoufázové ověřování je vypnuto
 postRemoveTwoStepAuthentication-action = Správa účtu
 postRemoveTwoStepAuthentication-not-required = Při přihlášení už nebude třeba zadávat bezpečnostní kódy.
+postVerify-sub-title = { -product-firefox-account } byl ověřen, už je to skoro hotovo.
 postVerify-title = Nyní si nastavte synchronizaci svých zařízení.
 postVerify-description = Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data { -brand-firefox(case: "gen") } na všech vašich zařízení.
 postVerify-subject = Účet byl ověřen. Nyní si nastavte synchronizaci na dalším zařízení
 postVerify-setup = Nastavit další zařízení
 postVerify-action = Nastavit další zařízení
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Máte otázky? Navštivte { $supportUrl }
 postVerifySecondary-subject = Záložní e-mailová adresa byla přidána
 postVerifySecondary-title = Záložní e-mailová adresa byla přidána
 postVerifySecondary-action = Správa účtu
@@ -265,6 +326,18 @@ recovery-title = Potřebujete obnovit své heslo?
 recovery-description = Pro vytvoření nového hesla klepněte během jedné hodiny na tlačítko níže. Požadavek přišel z následujícího zařízení:
 recovery-action = Vytvořit nové heslo
 subscriptionAccountDeletion-title = Je nám líto, že odcházíte
+# COMMENT ABOUT After the colon,
+payment-details = Detaily platby:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Vítá vás { $productName }: Nastavte si prosím heslo.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Vítá vás { $productName }
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Vaše předplatné produktu { $productName } bylo zrušeno
 subscriptionCancellation-title = Je nám líto, že odcházíte
 subscriptionDowngrade-content-auto-renew = Vaše předplatné se bude každé fakturační automaticky obnovovat, dokud ho nezrušíte.
 subscriptionPaymentExpired-title = Platnost vaší platební karty brzy vyprší
@@ -288,7 +361,7 @@ verificationReminderSecond-title = Jste tu ještě?
 verificationReminderSecond-sub-description = Pro aktivaci svého účtu potvrďte tuto e-mailovou adresu. Dáte nám tím vědět, že je vše v pořádku.
 verificationReminderSecond-action = Potvrdit e-mailovou adresu
 verify-title = Aktivujte si celou rodinu produktů { -brand-firefox }
-verify-description-plaintext = Potvrďte svůj účet a využívejte výhody všude, kde se přihlásíte.
+verify-description-plaintext = Potvrďte svůj účet a využívejte výhody { -brand-firefox(case: "gen") } všude, kde se přihlásíte.
 verify-description = Potvrďte svůj účet a využívejte výhody všude, kde se přihlásíte, počínaje:
 verify-subject = Dokončit vytváření účtu
 verify-action = Potvrdit e-mailovou adresu
