@@ -181,33 +181,122 @@ payment-validate-zip-short = Postiindeks on liiga lühike
 
 sub-redirect-ready = Sinu tellimus on valmis
 sub-redirect-copy = Palun leia hetk ja räägi meile oma kogemusest.
+sub-redirect-skip-survey = Ei aitäh, lihtsalt viige mind minu toote juurde.
 
 ## fields
 
+default-input-error = Selle välja täitmine on kohustuslik
+input-error-is-required = Väli { $label } on nõutud
 
 ## subscription upgrade
 
+product-plan-change-heading = Vaata oma muudatus üle
+sub-change-failed = Plaani muutmine ebaõnnestus
+sub-update-payment-title = Makseinfo
+sub-update-card-exp = Aegub { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Sinu plaan muutub kohe ja sult võetakse ülejäänud arveldusperioodi eest
+    korrigeeritud tasu. Alates { $startingDate } võetakse sult kogu summa.
 
 ##
 
+sub-change-submit = Kinnita muudatus
+sub-change-indicator =
+    .aria-label = muutuse indikaator
+sub-update-current-plan-label = Praegune plaan
+sub-update-new-plan-label = Uus plaan
+sub-update-total-label = Uus summa
 
 ## subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } igapäevaselt
+       *[other] { $amount } iga { $intervalCount } päeva järel
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } igapäevaselt
+           *[other] { $amount } iga { $intervalCount } päeva järel
+        }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } iganädalaselt
+       *[other] { $amount } iga { $intervalCount } nädala järel
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } iganädalaselt
+           *[other] { $amount } iga { $intervalCount } nädala järel
+        }
+#  $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } igakuiselt
+       *[other] { $amount } iga { $intervalCount } kuu järel
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } igakuiselt
+           *[other] { $amount } iga { $intervalCount } kuu järel
+        }
+#  $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } iga-aastaselt
+       *[other] { $amount } iga { $intervalCount } aasta järel
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } iga-aastaselt
+           *[other] { $amount } iga { $intervalCount } aasta järel
+        }
 
 ## subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } igapäevaselt
+       *[other] { $amount } iga { $intervalCount } päeva järel
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } iganädalaselt
+       *[other] { $amount } iga { $intervalCount } nädala järel
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } igakuiselt
+       *[other] { $amount } iga { $intervalCount } kuu järel
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } iga-aastaselt
+       *[other] { $amount } iga { $intervalCount } aasta järel
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Järgmine arve luuakse { $date }
+sub-expires-on = Aegub { $date }
 
 ##
 
+pay-update-card-exp = Aegub { $expirationDate }
+pay-update-change-btn = Muuda
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Kas soovid jätkata teenuse { $name } kasutamist?
 
 ##  $date (Date) - Last day of product access
 
