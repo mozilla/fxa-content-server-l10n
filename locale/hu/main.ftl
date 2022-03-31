@@ -165,7 +165,7 @@ payment-confirm-with-legal-links-year =
         [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy évente <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
        *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy { $intervalCount } évente <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
     }
-payment-confirm = Felhatalmazom a Mozillát, a Firefox termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $interval } { $amount } összeggel, a fizetési feltételek szerint, amíg nem törlöm az előfizetést.
+payment-confirm = Felhatalmazom a Mozillát, a Firefox termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $interval } { $amount } összeggel</strong>, a <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
 
 ##
 
