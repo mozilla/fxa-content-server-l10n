@@ -359,6 +359,8 @@ sub-invoice-error =
     .title = Probleem arvete laadimisel
 sub-billing-update-success = Sinu arveldusinfo on edukalt uuendatud
 sub-route-payment-modal-heading = Vigane arveldusinfo
+sub-route-payment-modal-message = Tundub, et sul on probleem { -brand-name-paypal }i kontoga. Meil on vaja, et teeksid probleemi lahendamiseks vajalikud liigutused.
+sub-route-missing-billing-agreement-payment-alert = Vigane makseinfo; sinu kontol on viga. <div>Halda</div>
 
 ## subscription create
 
