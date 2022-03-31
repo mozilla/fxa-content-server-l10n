@@ -155,6 +155,7 @@ downloadSubscription-subject = Benvenuto in { $productName }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Benvenuto in { $productName }.
+downloadSubscription-content-2 = Inizia a utilizzare tutte le funzionalità incluse nel tuo abbonamento:
 downloadSubscription-link-action-2 = Inizia
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Sono rimasti pochi codici di recupero
@@ -336,6 +337,9 @@ subscriptionFirstInvoice-subject = Il pagamento per { $productName } è stato co
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Grazie per aver sottoscritto un abbonamento a { $productName }
 subscriptionFirstInvoice-content-processing = Il pagamento è in fase di elaborazione, l’operazione potrebbe richiedere fino a quattro giorni lavorativi.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Riceverai un’altra email con informazioni su come iniziare a utilizzare { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -357,6 +361,9 @@ subscriptionFirstInvoiceDiscount-subject = Il pagamento per { $productName } è 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Grazie per aver sottoscritto un abbonamento a { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = Il pagamento è in fase di elaborazione, l’operazione potrebbe richiedere fino a quattro giorni lavorativi.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install-2 = Riceverai un’altra email con informazioni su come iniziare a utilizzare { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
