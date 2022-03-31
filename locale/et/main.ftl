@@ -382,17 +382,36 @@ plan-details-list-price = Hinnakirja hind
 ## coupons
 
 coupon-discount = Allahindlus
+coupon-discount-applied = Sooduspreemia rakendatud
+coupon-submit = Rakenda
+coupon-remove = Eemalda
+coupon-error = Sisestatud kood on vigane või aegunud.
+coupon-error-generic = Koodi töötlemisel esines viga. Palun proovi uuesti.
+coupon-error-expired = Sisestatud kood on aegunud.
+coupon-error-limit-reached = Sisestatud koodi limiit on täis.
+coupon-error-invalid = Sisestatud kood on vigane.
+coupon-success = Sinu plaani uuendatakse automaatselt hinnakirja hinnaga.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Sinu plaani uuendatakse automaatselt pärast { $couponDurationDate } hinnakirja hinnaga.
+coupon-enter-code =
+    .placeholder = Sisestage kood
 
 ## payment-processing
 
+payment-processing-message = Palun oota, kuni töötleme sinu makset…
 
 ## payment confirmation
 
+payment-confirmation-alert = Allalaadimiseks klõpsa siia
+payment-confirmation-mobile-alert = Kas äpp ei avanenud? <a>Klõpsa siia</a>
+payment-confirmation-thanks-heading = Täname!
 
 ## payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-subheading = Kinnituskiri saadeti aadressile { $email } ning see sisaldab infot, kuidas teenusega { $product_name } alustada.
+payment-confirmation-thanks-heading-account-exists = Täname, kontrolli nüüd oma e-posti!
 
 ## $email (string) - The user's email.
 
