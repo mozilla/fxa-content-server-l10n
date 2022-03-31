@@ -297,7 +297,7 @@ reactivate-confirm-button = Dauerauftrag erneuern
 ##  $date (Date) - Last day of product access
 
 reactivate-panel-date = Sie haben Ihren Dauerauftrag am { $date } gekündigt.
-reactivate-panel-copy = Sie verlieren am <strong>{ $date }</ strong> den Zugriff auf { $name }.
+reactivate-panel-copy = Sie verlieren am <strong>{ $date }</strong> den Zugriff auf { $name }.
 reactivate-success-copy = Vielen Dank! Sie sind startklar.
 reactivate-success-button = Schließen
 
