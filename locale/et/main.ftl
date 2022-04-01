@@ -469,3 +469,9 @@ new-user-email-validate-confirm = E-posti aadressid ei ühti
 new-user-already-has-account-sign-in = Sul on juba konto olemas. <a>Logi sisse</a>
 new-user-card-title = Sisesta oma kaardi andmed
 new-user-submit = Telli kohe
+manage-pocket-title = Kas otsid oma { -brand-name-pocket }i tasulist tellimust?
+manage-pocket-body = Selle haldamiseks <a>klõpsa siia</a>.
+payment-method-header = Vali maksemeetod
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Nõutud
