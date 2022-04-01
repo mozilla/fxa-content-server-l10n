@@ -105,6 +105,8 @@ cs-cannot-disconnect = Klienti ei leitud, polnud võimalik ühendust katkestada
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out = Välja logitud teenusest { $service }.
+cs-refresh-button =
+    .title = Uuenda ühendatud seadmete nimekirja
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
