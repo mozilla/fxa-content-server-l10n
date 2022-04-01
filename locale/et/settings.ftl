@@ -72,15 +72,39 @@ bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-firefox-desktop = { -brand-firefox }i brauser töölauale
+bento-menu-firefox-mobile = { -brand-firefox }i brauser mobiilile
+bento-menu-made-by-mozilla = Loodud { -brand-mozilla } poolt
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Hangi { -brand-firefox } mobiilile või tahvlile
+connect-another-find-fx-mobile =
+    Leia { -brand-firefox } { -google-play }st ja { -app-store }'ist või 
+    <br /><linkExternal>saada allalaadimise link oma seadmesse</linkExternal>.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Laadi { -brand-firefox } alla { -google-play }st
+connect-another-app-store-image-2 =
+    .title = Laadi { -brand-firefox } alla { -app-store }'ist
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Ühendatud teenused
+cs-description = Kõik, mida kasutad ja kuhu oled sisse loginud.
+cs-cannot-refresh =
+    Vabandust, ühendatud seadmete nimekirja värskendamisel
+    esines probleem.
+cs-cannot-disconnect = Klienti ei leitud, polnud võimalik ühendust katkestada
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out = Välja logitud teenusest { $service }.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
