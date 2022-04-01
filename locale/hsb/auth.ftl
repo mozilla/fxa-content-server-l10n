@@ -22,6 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Pola { -product-firefox-accounts } přizjewić?
+session-verify-send-push-body = Klikńće tu, zo byšće wobkrućił, zo ty to sy
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -133,8 +134,33 @@ subscriptionUpdatePayment-plaintext = Zo byšće přetorhnjenje swojeje słužby
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Za dalše informacije hlejće { $supportUrl }
 # Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } na { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } na { $uaOS }
+# Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP-adresa: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (trochowane)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (trochowane)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (trochowane)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (trochowane)
 view-invoice = <a data-l10n-name="invoiceLink">Wašu zličbowanku pokazać</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -371,6 +397,13 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Mjezysuma: { $invoiceSubtota
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = Rabat: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Jónkróćny rabat: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-měsačny rabat: - { $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -487,6 +520,13 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = Mjezysuma: { $invoiceSu
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount = Rabat: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Jónkróćny rabat: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionSubsequentInvoiceDiscount-content-discount-repeating = { $discountDuration }-měsačny rabat: - { $invoiceDiscountAmount }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Sće na { $productName } zaktualizował

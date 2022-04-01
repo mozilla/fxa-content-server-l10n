@@ -348,6 +348,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     { $period } mój přistup a moje w { $name }
     składowane informacije wotstronić
+invoice-not-found = Naslědna zličbowanka njeje so namakała
+sub-item-no-such-subsequent-invoice = Naslědna zličbowanka njeje so za tutón abonement namakała.
 
 ## subscription iap item
 
@@ -374,6 +376,8 @@ sub-subscription-error =
     .title = Zmylk při čitanju abonementow
 sub-customer-error =
     .title = Zmylk při čitanju kupca
+sub-invoice-error =
+    .title = Problem při čitanju zličbowankow
 sub-billing-update-success = Waše płaćenske informacije su so wuspěšnje zaktualizowali
 sub-route-payment-modal-heading = Njepłaćiwe płaćenske informacije
 sub-route-payment-modal-message = Zda so, zo je zmylk z wašim kontom { -brand-name-paypal }, dyrbimy trěbne kroki přewjesć, zo bychmy tutón płaćenski problem rozrisali.
