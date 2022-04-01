@@ -394,7 +394,7 @@ verify-secondary-email-verify-button = Verificar
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Ingresá el código de verificación que se envió a <strong> dentar de los próximos 5 minutos.
+verify-secondary-email-please-enter-code = Ingresá el código de verificación que se envió a <strong>{ $email }</strong> dentro de los próximos 5 minutos.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
