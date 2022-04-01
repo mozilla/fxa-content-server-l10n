@@ -388,6 +388,15 @@ subscriptionFirstInvoiceDiscount-content-discount = הנחה: ‎-{ $invoiceDisc
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount-one-time = הנחה חד פעמית: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating =
+    { NUMBER($discountDuration) ->
+        [one] הנחה לחודש אחד: -{ $invoiceDiscountAmount }
+        [two] הנחה לחודשיים: -{ $invoiceDiscountAmount }
+       *[other] הנחה ל־{ $discountDuration } חודשים: -{ $invoiceDiscountAmount }
+    }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -485,6 +494,18 @@ subscriptionSubsequentInvoiceDiscount-content-next-invoice = החשבונית ה
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount = הנחה: ‎-{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount-one-time = הנחה חד פעמית: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionSubsequentInvoiceDiscount-content-discount-repeating =
+    { NUMBER($discountDuration) ->
+        [one] הנחה לחודש אחד: -{ $invoiceDiscountAmount }
+        [two] הנחה לחודשיים: -{ $invoiceDiscountAmount }
+       *[other] הנחה ל־{ $discountDuration } חודשים: -{ $invoiceDiscountAmount }
+    }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = שידרגת ל־{ $productName }
