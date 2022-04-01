@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-24 22:07+0000\n"
+"POT-Creation-Date: 2022-03-31 22:07+0000\n"
 "PO-Revision-Date: 2022-03-04 10:50+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,30 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n%10!=1 || n%100==11);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1433939697.0\n"
-
-#: lib/senders/email.js:343
-msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-msgstr "%(uaBrowser)s á %(uaOS)s %(uaOSVersion)s"
-
-#: lib/senders/email.js:348
-msgid "%(uaBrowser)s on %(uaOS)s"
-msgstr "%(uaBrowser)s á %(uaOS)s"
-
-#: lib/senders/email.js:374
-msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-msgstr "%(city)s, %(stateCode)s, %(country)s (áætlað)"
-
-#: lib/senders/email.js:381
-msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (áætlað)"
-
-#: lib/senders/email.js:386
-msgid "%(stateCode)s, %(country)s (estimated)"
-msgstr "%(stateCode)s, %(country)s (áætlað)"
-
-#: lib/senders/email.js:391
-msgid "%(country)s (estimated)"
-msgstr "%(country)s (áætlað)"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 #: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
@@ -123,6 +99,24 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Sækja nýjasta"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaBrowser)s á %(uaOS)s %(uaOSVersion)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaBrowser)s á %(uaOS)s"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(stateCode)s, %(country)s (áætlað)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(country)s (áætlað)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s, %(country)s (áætlað)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (áætlað)"
 
 #~ msgid "Verification code: %(code)s"
 #~ msgstr "Sannvottunarkóði: %(code)s"
