@@ -421,8 +421,8 @@ tfa-cannot-verify-code = Ha surgido un problema al verificar tu código de recup
 tfa-incorrect-recovery-code = Código de recuperación incorrecto.
 tfa-enabled = Autenticación en dos pasos activada
 tfa-scan-this-code =
-    Escanea este código QR usando una de <linkExterior>estas
-    aplicaciones de autenticación</linkexternal>.
+    Escanea este código QR usando una de <linkExternal>estas
+    aplicaciones de autenticación</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -570,7 +570,7 @@ tfa-row-disable-modal-heading = ¿Deshabilitar la autenticación en dos pasos?
 tfa-row-disable-modal-confirm = Deshabilitar
 tfa-row-disable-modal-explain =
     No podrás deshacer esta acción. También
-    tienes la opción de <linkexternal>reemplazar tus códigos de recuperación</linkexternal>.
+    tienes la opción de <linkExternal>reemplazar tus códigos de recuperación</linkExternal>.
 tfa-row-cannot-disable = La autenticación en dos pasos no ha podido ser deshabilitada.
 tfa-row-change-modal-heading = ¿Cambiar códigos de recuperación?
 tfa-row-change-modal-confirm = Cambiar
