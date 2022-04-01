@@ -165,7 +165,7 @@ payment-confirm-with-legal-links-year =
         [one] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } all’anno</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
        *[other] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } ogni { $intervalCount } anni</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
     }
-payment-confirm = Autorizzo Mozilla, l’organizzazione che realizza i prodotti Firefox, ad addebitare il mio metodo di pagamento di <strong>${ $amount } { $interval }</strong>, in base ai termini di pagamento, fino a quando non annullerò il mio abbonamento.
+payment-confirm = Autorizzo Mozilla, l’organizzazione che realizza i prodotti Firefox, ad addebitare con il mio metodo di pagamento <strong>{ $amount } ogni { $interval }</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
 
 ##
 
