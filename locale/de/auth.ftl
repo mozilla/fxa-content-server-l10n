@@ -143,6 +143,22 @@ device-browser-os = { $uaBrowser } auf { $uaOS }
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP-Adresse: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (geschätzt)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (geschätzt)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (geschätzt)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (geschätzt)
 view-invoice = <a data-l10n-name="invoiceLink">Ihre Rechnung anzeigen</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
