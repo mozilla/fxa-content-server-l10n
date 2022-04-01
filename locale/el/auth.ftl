@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -56,7 +53,12 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Λογότυπο { -brand-firefox }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Συγχρονισμός συσκευών">
@@ -123,9 +125,6 @@ cancellationSurvey = Παρακαλούμε βοηθήστε μας να βελ�
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Παρακαλούμε βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας, συμμετέχοντας σε αυτή τη σύντομη έρευνα:
 change-password-plaintext = Αν υποπτεύεστε ότι κάποιος προσπαθεί να αποκτήσει πρόσβαση στον λογαριασμό σας, παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Διεύθυνση IP: { $ip }
 manage-account = Διαχείριση λογαριασμού
 manage-account-plaintext = { manage-account }:
 payment-details = Στοιχεία πληρωμής:
@@ -166,6 +165,25 @@ subscriptionUpdatePayment-plaintext = Για να αποτρέψετε τυχό�
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε το { $supportUrl }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Διεύθυνση IP: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (εκτίμηση)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (εκτίμηση)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (εκτίμηση)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (εκτίμηση)
 view-invoice = <a data-l10n-name="invoiceLink">Δείτε το τιμολόγιό σας</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -407,6 +425,9 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Υποσύνολο: { $invoi
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = Έκπτωση: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Εφάπαξ έκπτωση: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -508,10 +529,10 @@ subscriptionSubsequentInvoiceDiscount-content-invoice-number = Αριθμός τ
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Αριθμός τιμολογίου: { $invoiceNumber }
 # Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-plan-change = Αλλαγή προγράμματος: { $paymentProrated }
 # Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-charge = Χρεώθηκαν { $invoiceTotal } στις { $invoiceDateOnly }
 # Variables:
@@ -523,6 +544,9 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = Υποσύνολο: { $
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount = Έκπτωση: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Εφάπαξ έκπτωση: -{ $invoiceDiscountAmount }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Έχετε αναβαθμίσει στο { $productName }
