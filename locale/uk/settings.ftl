@@ -288,7 +288,7 @@ mvs-enter-verification-code = Введіть код підтвердження
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Введіть код підтвердження, надісланий на <email>{ $email }{ $email } упродовж 5 хвилин.
+mvs-enter-verification-code-desc = Введіть код підтвердження, надісланий на <email>{ $email }</email> упродовж 5 хвилин.
 msv-cancel-button = Скасувати
 msv-submit-button = Підтвердити
 
