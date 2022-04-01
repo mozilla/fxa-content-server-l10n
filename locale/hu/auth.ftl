@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,7 +19,14 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+session-verify-send-push-title = Bejelentkezik a { -product-firefox-accounts }ba?
+session-verify-send-push-body = Kattintson ide, hogy igazolja személyazonosságát
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logó">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Eszközök szinkronizálása">
@@ -89,9 +93,6 @@ cancellationSurvey = Segítsen bennünket szolgáltatásunk fejlesztésében azz
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti az alábbi rövid kérdőívet:
 change-password-plaintext = Ha azt gyanítja, hogy valaki más próbál hozzáférni fiókjához, kérjük változtassa meg jelszavát.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP-cím: { $ip }
 manage-account = Fiók kezelése
 manage-account-plaintext = { manage-account }:
 payment-details = Fizetési részletek:
@@ -132,6 +133,34 @@ subscriptionUpdatePayment-plaintext = A szolgáltatás folytonossága érdekébe
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = További információkért keresse fel a { $supportUrl } oldalt
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } ezen: { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } ezen: { $uaOS }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-cím: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (becsült)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (becsült)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (becsült)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (becsült)
 view-invoice = <a data-l10n-name="invoiceLink">Díjbekérő megtekintése</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -373,6 +402,13 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Részösszeg: { $invoiceSubt
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = Kedvezmény: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Egyszeri kedvezmény: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } hónapos kedvezmény: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -474,10 +510,10 @@ subscriptionSubsequentInvoiceDiscount-content-invoice-number = Díjbekérő szá
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Díjbekérő száma: { $invoiceNumber }
 # Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-plan-change = Csomagmódosítás: { $paymentProrated }
 # Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-charge = { $invoiceTotal } levonva ekkor: { $invoiceDateOnly }
 # Variables:
@@ -489,6 +525,9 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = Részösszeg: { $invoic
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount = Kedvezmény: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Egyszeri kedvezmény: -{ $invoiceDiscountAmount }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Frissített erre: { $productName }
