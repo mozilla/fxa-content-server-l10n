@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,7 +19,14 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+session-verify-send-push-title = 有要登入 { -product-firefox-accounts } 嗎？
+session-verify-send-push-body = 確定是您的話，請點擊此處確認
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } 圖樣">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="同步裝置">
@@ -83,9 +87,6 @@ cancellationSurvey = 請填寫這份<a data-l10n-name="cancellationSurveyUrl")s>
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = 請填寫這份簡短問卷幫助我們改善服務品質：
 change-password-plaintext = 若您覺得有人在嘗試盜用您的帳號，請修改密碼。
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP 地址：{ $ip }
 manage-account = 管理帳號
 manage-account-plaintext = { manage-account }：
 payment-details = 付款詳細資訊：
@@ -126,6 +127,34 @@ subscriptionUpdatePayment-plaintext = 為了避免服務中斷，請及早更新
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = 若需更多資訊，請到 { $supportUrl }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaOS } { $uaOSVersion } 上的 { $uaBrowser }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaOS } 上的 { $uaBrowser }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP 地址：{ $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $country } { $stateCode } { $city }（估計地點）
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $country } { $city }（估計地點）
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $country } { $stateCode }（估計地點）
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country }（估計地點）
 view-invoice = <a data-l10n-name="invoiceLink">檢視您的請款單</a>。
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -366,6 +395,13 @@ subscriptionFirstInvoiceDiscount-content-subtotal = 小計：{ $invoiceSubtotal 
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = 折抵：-{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = 單次折抵：-{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } 個月折抵：-{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -467,10 +503,10 @@ subscriptionSubsequentInvoiceDiscount-content-invoice-number = 請款單號碼�
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = 請款單號碼：{ $invoiceNumber }
 # Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-plan-change = 方案變更：{ $paymentProrated }
 # Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-charge = 已於 { $invoiceDateOnly } 收取 { $invoiceTotal }
 # Variables:
@@ -482,6 +518,13 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = 小計：{ $invoiceSubt
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount = 折抵：-{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount-one-time = 單次折抵：-{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionSubsequentInvoiceDiscount-content-discount-repeating = { $discountDuration } 個月折抵：-{ $invoiceDiscountAmount }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = 您已升級到 { $productName }
