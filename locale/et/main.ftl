@@ -415,9 +415,57 @@ payment-confirmation-thanks-heading-account-exists = Täname, kontrolli nüüd o
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Sa saad kirja aadressile { $email }, mis sisaldab juhiseid konto seadistamiseks ja samuti makseinfot.
+payment-confirmation-order-heading = Tellimuse üksikasjad
+payment-confirmation-invoice-number = Arve nr { $invoiceNumber }
+payment-confirmation-billing-heading = Arve esitati
+payment-confirmation-details-heading-2 = Makseinfo
+payment-confirmation-amount = { $amount } perioodis { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } igapäevaselt
+       *[other] { $amount } iga { $intervalCount } päeva järel
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } iganädalaselt
+       *[other] { $amount } iga { $intervalCount } nädala järel
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } igakuiselt
+       *[other] { $amount } iga { $intervalCount } kuu järel
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } iga-aastaselt
+       *[other] { $amount } iga { $intervalCount } aasta järel
+    }
+payment-confirmation-download-button = Jätka allalaadimisega
+payment-confirmation-cc-card-ending-in = Kaart, mis lõpeb numbritega { $last4 }
 
 ## new user email form
 
+new-user-sign-in-link = Kas sul on juba { -brand-name-firefox }i konto?<a>Logi sisse</a>
+new-user-step-1 = 1. Loo { -brand-name-firefox }i konto
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .label = Sisesta oma e-posti aadress
+new-user-confirm-email =
+    .label = Kinnita oma e-posti aadress
+new-user-subscribe-product-updates = Soovin saada teenuste kohta { -brand-name-firefox }ilt uudiskirju
+new-user-subscribe-product-assurance = Me kasutame sinu e-posti aadressi ainult sinu konto loomiseks. Me ei müü seda kunagi kolmandatele osapooltele.
+new-user-email-validate = E-posti aadress pole korrektne
+new-user-email-validate-confirm = E-posti aadressid ei ühti
+new-user-already-has-account-sign-in = Sul on juba konto olemas. <a>Logi sisse</a>
+new-user-card-title = Sisesta oma kaardi andmed
+new-user-submit = Telli kohe
