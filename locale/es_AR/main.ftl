@@ -337,7 +337,7 @@ sub-route-idx-cancel-msg-title = Lamentamos que te vayas.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
     La suscripción a { $name } ha sido cancelda.
-          <br /><br />
+          <br />
           Se podrá acceder a { $name } hasta el { $date }.
 sub-route-idx-cancel-aside = ¿Tenés preguntas? Visitá <a>{ -brand-name-mozilla } Soporte</a>.
 sub-subscription-error =
