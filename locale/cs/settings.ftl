@@ -262,10 +262,10 @@ datablock-print =
 ## Data collection section
 
 dc-heading = Sběr dat a jejich použití
-dc-subheader = Pomozte zlepšit { -product-firefox-accounts(case: "acc", capitalization: "lower") }
-dc-subheader-content = Povolte { -product-firefox-accounts(case: "dat", capitalization: "lower") } zasílat technická data a data o interakcích { -brand-mozilla(case: "dat") }.
-dc-opt-out-success = Odhlášení bylo úspěšné. { -product-firefox-accounts } nebude { -brand-mozilla(case: "dat") } odesílat technická data ani data o interakcích.
-dc-opt-in-success = Díky! Sdílení těchto dat nám pomáhá se zlepšovat { -product-firefox-accounts(case: "acc", capitalization: "lower") }.
+dc-subheader = Pomozte vylepšit { -product-firefox-accounts(case: "acc", capitalization: "lower") }
+dc-subheader-content = Povolte { -product-firefox-accounts(case: "dat", capitalization: "lower") } zasílat { -brand-mozilla(case: "dat") } technická data a data o interakcích.
+dc-opt-out-success = Sdílení dat bylo úspěšně zrušeno. { -product-firefox-accounts } nebude { -brand-mozilla(case: "dat") } odesílat technická data ani data o interakcích.
+dc-opt-in-success = Díky! Sdílení těchto dat nám pomáhá vylepšovat { -product-firefox-accounts(case: "acc", capitalization: "lower") }.
 dc-opt-in-out-error = Je nám líto, ale při změně předvolby shromažďování dat došlo k problému.
 dc-learn-more = Zjistit více
 
