@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -17,8 +14,19 @@
 -product-firefox-account = Уліковы запіс Firefox
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
+
+## Non-email strings
+
+session-verify-send-push-title = Уваходзіце ў { -product-firefox-accounts }?
+session-verify-send-push-body = Націсніце тут, каб пацвердзіць, што гэта вы
 
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-privacy-url = Палітыка прыватнасці { -brand-mozilla }
 fxa-service-url = Умовы выкарыстання { -product-firefox-cloud }
@@ -86,7 +94,6 @@ postRemoveAccountRecovery-invalid = Гэты ключ аднаўлення бо�
 postRemoveSecondary-subject = Другі адрас эл.пошты выдалены
 postRemoveSecondary-title = Другі адрас эл.пошты выдалены
 postRemoveSecondary-action = Кіраванне ўліковым запісам
-postRemoveTwoStepAuthentication-subject = Двухэтапная аўтарызацыя выключана
 postRemoveTwoStepAuthentication-title = Двухэтапная аўтарызацыя адключана
 postRemoveTwoStepAuthentication-action = Кіраванне ўліковым запісам
 postRemoveTwoStepAuthentication-not-required = Коды бяспекі больш не будуць патрабавацца пры кожным ўваходзе.
@@ -130,10 +137,6 @@ verifyPrimary-description = Запыт на змену ўліковага зап
 verifyPrimary-subject = Пацвердзіце асноўную электронную пошту
 verifyPrimary-action = Пацвердзіць эл.пошту
 verifyPrimary-post-verify = Пасля праверкі з гэтай прылады стануць магчымымі змены ўліковага запісу, такія як даданне другога адрасу электроннай пошты.
-verifySecondary-subject = Пацвердзіце альтэрнатыўную электронную пошту
-verifySecondary-title = Пацвердзіць другі адрас эл.пошты
-verifySecondary-action = Пацвердзіць эл.пошту
-verifySecondary-post-verification = Пасля праверкі, гэты адрас пачне атрымліваць абвесткі бяспекі і пацвярджэнні.
 verifySecondaryCode-subject = Пацвердзіце альтэрнатыўную электронную пошту
 verifySecondaryCode-title = Пацвердзіць другі адрас эл.пошты
 verifySecondaryCode-prompt = Выкарыстайце гэты код пацверджання:
