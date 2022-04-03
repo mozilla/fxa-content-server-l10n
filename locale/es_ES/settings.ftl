@@ -421,8 +421,8 @@ tfa-cannot-verify-code = Ha surgido un problema al verificar tu código de recup
 tfa-incorrect-recovery-code = Código de recuperación incorrecto.
 tfa-enabled = Autenticación en dos pasos activada
 tfa-scan-this-code =
-    Escanea este código QR usando una de <linkExterior>estas
-    aplicaciones de autenticación</linkexternal>.
+    Escanea este código QR usando una de <linkExternal>estas
+    aplicaciones de autenticación</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
