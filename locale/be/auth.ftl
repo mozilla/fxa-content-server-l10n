@@ -28,13 +28,24 @@ session-verify-send-push-body = Націсніце тут, каб пацверд
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Лагатып { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Сінхранізацыя прылад">
+body-devices-image = <img data-l10n-name="devices-image" alt="Прылады">
 fxa-privacy-url = Палітыка прыватнасці { -brand-mozilla }
 fxa-service-url = Умовы выкарыстання { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Лагатып { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Лагатып { -brand-mozilla }">
 subplat-automated-email = Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць.
+subplat-privacy-notice = Паведамленне аб прыватнасці
 subplat-privacy-plaintext = Паведамленне аб прыватнасці:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Умовы і палітыка адмовы ад паслуг
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ануляваць падпіску
+subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Абнавіць плацежную інфармацыю
+subplat-privacy-policy = Палітыка прыватнасці { -brand-mozilla }
 subplat-legal = Прававыя звесткі
 subplat-privacy = Прыватнасць
 automated-email-plaintext = Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць.
