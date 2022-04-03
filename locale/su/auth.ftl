@@ -71,7 +71,19 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Undeur  { $pro
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Undeur { $productName } di { -app-store }">
 another-desktop-device = Atawa pasang dina <a data-l10n-name="anotherDeviceLink">parabot déstop lianna</a>.
 another-device = Atawa pasang dina <a data-l10n-name="anotherDeviceLink">séjén parabot</a>.
+automated-email-change =
+    Ieu surélék otomatis; lamun anjeun teu nyatujuan, mangga <a data-l10n-name="passwordChangeLink">ganti kecap sandi</a>.
+    Pikeun leuwih lengkep, mangga buka <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Ieu surélék otomatis; lamun anjeun teu nambahkeun parabot anyar kana { -product-firefox-account }, anjeun kudu ngaganti kecap sandi sagancangna di { $passwordChangeLink }
+automated-email =
+    Ieu surél otomatis; lamun ieu alatan éror, teu kudu kukumana.
+    Pikeun leuwih lengkep, mangga buka <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
 automated-email-plaintext = Ieu mah surélék otomatis; mun anjeun nampa ieu minangka éror, teu kudu kukumaha.
+automated-email-reset =
+    Ieu surélék otomatis; lamun anjeun teu nyatujuan, mangga <a data-l10n-name="passwordChangeLink">ganti kecap sandi</a>.
+    Pikeun leuwih lengkep, mangga buka <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Nyungkeun kamandangna ku cara ngeusian surpéy pondok ieu:
 change-password-plaintext = Mun sangkaan anjeun batur aya nu nyoba ngaksés ka akun anjeun, geura robah sandi anjeun.
