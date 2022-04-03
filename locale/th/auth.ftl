@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,7 +19,12 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-privacy-url = นโยบายความเป็นส่วนตัวของ { -brand-mozilla }
 fxa-service-url = ข้อกำหนดในการให้บริการของ { -product-firefox-cloud }
@@ -117,7 +119,7 @@ unblockCode-prompt = ถ้าใช่ นี่คือรหัสอนุ�
 unblockCode-report-plaintext = ถ้าไม่ใช่ ช่วยเรากำจัดผู้บุกรุกและรายงานมายังเรา
 verificationReminderFirst-subject = แจ้งเตือน: สร้างบัญชีของคุณให้เสร็จ
 verificationReminderFirst-title = ยินดีต้อนรับเข้าสู่ครอบครัว { -brand-firefox }
-verificationReminderFirst-description = ไม่กี่วันที่ผ่านมาคุณได้สร้างบัญชี { -brand-firefox } แต่ไม่เคยได้ยืนยันบัญชีของคุณ
+verificationReminderFirst-description = ไม่กี่วันที่ผ่านมาคุณได้สร้างบัญชี { -product-firefox-account } แต่ไม่เคยได้ยืนยันบัญชีของคุณ
 verificationReminderFirst-sub-description = ยืนยันตอนนี้เพื่อใช้เทคโนโลยีที่ต่อสู้และปกป้องความเป็นส่วนตัวของคุณ ติดอาวุธให้คุณด้วยความรู้เชิงปฏิบัติและความเคารพที่คุณสมควรได้รับ
 confirm-email = ยืนยันอีเมล
 verificationReminderFirst-action = ยืนยันอีเมล
