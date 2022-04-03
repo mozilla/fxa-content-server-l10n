@@ -81,14 +81,20 @@ automated-email =
     Ieu surél otomatis; lamun ieu alatan éror, teu kudu kukumana.
     Pikeun leuwih lengkep, mangga buka <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
 automated-email-plaintext = Ieu mah surélék otomatis; mun anjeun nampa ieu minangka éror, teu kudu kukumaha.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Ieu surél otomatis; upama anjeun henteu nyatujuan, mangga ganti kecap konci anjeun:
 automated-email-reset =
     Ieu surélék otomatis; lamun anjeun teu nyatujuan, mangga <a data-l10n-name="passwordChangeLink">ganti kecap sandi</a>.
     Pikeun leuwih lengkep, mangga buka <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Lamun anjeun teu rumasa ngarobah, mangga rését kecap sandi anjeun ayeuna di { $resetLink }
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Nyungkeun kamandangna ku cara ngeusian surpéy pondok ieu:
 change-password-plaintext = Mun sangkaan anjeun batur aya nu nyoba ngaksés ka akun anjeun, geura robah sandi anjeun.
 manage-account = Kokolakeun akun
 manage-account-plaintext = { manage-account }:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Patalekan ngeunaan pendaptaran anjeun? Tim pangdeudeul kami siap ngabantu:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
