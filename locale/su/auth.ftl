@@ -16,23 +16,36 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = Toko App
+-google-play = Google Play
 
 ## Non-email strings
 
+session-verify-send-push-title = Asup ka { -product-firefox-accounts }?
+session-verify-send-push-body = Toél di dieu pikeun muguhkeun anjeun
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="logo { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Singkronkeun parabot">
+body-devices-image = <img data-l10n-name="devices-image" alt="Parabot">
 fxa-privacy-url = Kawijakan Salindungan { -brand-mozilla }
 fxa-service-url = Katangtuan Layanan { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="logo { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-automated-email = Ieu mah surélék otomatis; mun anjeun nampa ieu minangka éror, teu kudu kukumaha.
-subplat-privacy-plaintext = Wawar privasi:
+subplat-privacy-notice = Wawar pripasi
+subplat-privacy-plaintext = Wawar pripasi:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Anjeun nampa ieu surélék kusabab { $email } boga { -product-firefox-account } sarta anjeun geus kadaptar pikeun { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Anjeun narima ieu surélék kusabab { $email } boga { -product-firefox-account }.
 subplat-explainer-multiple = Anjeun nampa ieu surélék kusabab { $email } boga { -product-firefox-account } sarta anjeun geus kadaptar kana rupa-rupa produk.
 subplat-manage-account = Atur setélan { -product-firefox-account } anjeun ku sindang ka <a data-l10n-name="subplat-account-page">kaca akun</a> anjeun.
 subplat-terms-policy = Sarat jeung kawijakan bolay
@@ -40,9 +53,22 @@ subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Bolay daptar
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Aktipkeun deui langganan
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Ropéa émbaran tagiheun
+subplat-privacy-policy = Kawijakan Pripasi { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Katangtuan Layanan { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Légal
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Pripasi
+subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Undeur  { $productName } di { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Undeur { $productName } di { -app-store }">
 another-desktop-device = Atawa pasang dina <a data-l10n-name="anotherDeviceLink">parabot déstop lianna</a>.
 another-device = Atawa pasang dina <a data-l10n-name="anotherDeviceLink">séjén parabot</a>.
 automated-email-plaintext = Ieu mah surélék otomatis; mun anjeun nampa ieu minangka éror, teu kudu kukumaha.
@@ -55,6 +81,15 @@ manage-account-plaintext = { manage-account }:
 subscriptionSupport-plaintext = Patalekan ngeunaan pendaptaran anjeun? Tim pangdeudeul kami siap ngabantu:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Ngarah layanan anjeun teu kapegat, mutahirkeun info pembayaran anjeun saénggalna:
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } di { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } di { $uaOS }
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Alamat IP: { $ip }
