@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -17,8 +14,15 @@
 -product-firefox-account = Firefox account
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
+
+## Non-email strings
+
 
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-privacy-url = Kawijakan Salindungan { -brand-mozilla }
 fxa-service-url = Katangtuan Layanan { -product-firefox-cloud }
@@ -29,8 +33,6 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subplat-explainer-specific = Anjeun nampa ieu surélék kusabab { $email } boga { -product-firefox-account } sarta anjeun geus kadaptar pikeun { $productName }.
-# Variables:
-#  $email (String) - A user's primary email address
 subplat-explainer-multiple = Anjeun nampa ieu surélék kusabab { $email } boga { -product-firefox-account } sarta anjeun geus kadaptar kana rupa-rupa produk.
 subplat-manage-account = Atur setélan { -product-firefox-account } anjeun ku sindang ka <a data-l10n-name="subplat-account-page">kaca akun</a> anjeun.
 subplat-terms-policy = Sarat jeung kawijakan bolay
@@ -44,16 +46,18 @@ subplat-privacy = Pripasi
 another-desktop-device = Atawa pasang dina <a data-l10n-name="anotherDeviceLink">parabot déstop lianna</a>.
 another-device = Atawa pasang dina <a data-l10n-name="anotherDeviceLink">séjén parabot</a>.
 automated-email-plaintext = Ieu mah surélék otomatis; mun anjeun nampa ieu minangka éror, teu kudu kukumaha.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Nyungkeun kamandangna ku cara ngeusian surpéy pondok ieu:
 change-password-plaintext = Mun sangkaan anjeun batur aya nu nyoba ngaksés ka akun anjeun, geura robah sandi anjeun.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Alamat IP: { $ip }
 manage-account = Kokolakeun akun
 manage-account-plaintext = { manage-account }:
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Patalekan ngeunaan pendaptaran anjeun? Tim pangdeudeul kami siap ngabantu:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Ngarah layanan anjeun teu kapegat, mutahirkeun info pembayaran anjeun saénggalna:
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Alamat IP: { $ip }
 cadReminderFirst-action = Singkronkeun séjén alat
 cadReminderFirst-title = Ieu panginget pikeun nyingkronkeun paranti anjeun.
 cadReminderSecond-action = Singkronkeun séjén alat
@@ -69,13 +73,6 @@ lowRecoveryCodes-subject =
         [one] Sandi pamulihan kari 1
        *[other] Sandi pamulihan kari { $numberRemaining }
     }
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
-
-##
-
 newDeviceLogin-action = Kokolakeun akun
 passwordChanged-subject = Kecap sandi geus diropéa
 passwordChanged-title = Ngarobah sandi geus hasil
@@ -119,7 +116,6 @@ postRemoveAccountRecovery-invalid = Ieu konci pamulangan teu bisa dipaké deui j
 postRemoveSecondary-subject = Surélék sékunder geus dilaan
 postRemoveSecondary-title = Surélék sékunder geus dilaan
 postRemoveSecondary-action = Kokolakeun akun
-postRemoveTwoStepAuthentication-subject = Péripikasi dua léngkah dipareuman
 postRemoveTwoStepAuthentication-title = Oténtikasi dua léngkah dipareuman
 postRemoveTwoStepAuthentication-action = Kokolakeun akun
 postRemoveTwoStepAuthentication-not-required = Geus teu perlu deui kodeu kaamanan mun arék asup téh.
@@ -133,9 +129,13 @@ recovery-subject = Setél ulang kecap sandi anjeun
 recovery-title = Perlu nyetél ulang sandi anjeun?
 recovery-description = Klik tumbul selang sajam deui pikeun nyieun sandi anyar. Pamundut datang ti parangkat di handap:
 recovery-action = Jieun sandi anyar
+subscriptionAccountDeletion-title = Pileuleuyan
+subscriptionCancellation-title = Pileuleuyan
+subscriptionDowngrade-content-auto-renew = Langganan anjeun bakal otomatis dianyarkeun unggal periode tagihan iwal anjeun milih bedo.
 subscriptionPaymentExpired-title = Kartu kiridit anjeun tos badé kadaluwarsa
 subscriptionsPaymentExpired-subject = Kartu kiridit keur pendaptaran anjeun téréh kadaluwarsa
 subscriptionsPaymentExpired-title = Kartu kiridit anjeun tos badé kadaluwarsa
+subscriptionUpgrade-auto-renew = Langganan anjeun bakal otomatis dianyarkeun unggal periode tagihan iwal anjeun milih bedo.
 unblockCode-subject = Kodeu otorisasi akun
 unblockCode-title = Nu asup téh anjeun lin?
 unblockCode-prompt = Mun enya mah, ieu kodeu otorisasi nu anjeun perlukeun:
@@ -165,19 +165,9 @@ verifyPrimary-description = Pamundut pikeun milampah parobahan akun geus dijieun
 verifyPrimary-subject = Puguhkeun surél utama
 verifyPrimary-action = Pastikeun surél
 verifyPrimary-post-verify = Sanggeus divérifikasi, parobahan akun saperti nambahkeun surélék sékundér bakal mumkin ti ieu parangkat.
-verifySecondary-subject = Puguhkeun surél sekundér
-verifySecondary-title = Vérifikasi surélék sékundér
-verifySecondary-action = Pastikeun surél
-verifySecondary-post-verification = Sanggeus divérifikasi, ieu alamat bakal narima iber sarta konfirmasi kaamanan.
 verifySecondaryCode-subject = Puguhkeun surél sekundér
 verifySecondaryCode-title = Vérifikasi surélék sékundér
 verifySecondaryCode-prompt = Paké sandi péripikasi ieu:
 verifySecondaryCode-expiry-notice = Ieu bakal kadaluwarsa dina 5 menit. Sanggeus dipéripikasi, ieu alamat bakal mimiti narima iber sarta konfirmasi kaamanan.
 verifyShortCode-title = Anu daptar téh bener anjeun?
 verifyShortCode-expiry-notice = Bakal kadaluwarsa dina 5 menit.
-cancellationSurvey-plaintext = Nyungkeun kamandangna ku cara ngeusian surpéy pondok ieu:
-subscriptionAccountDeletion-title = Pileuleuyan
-subscriptionCancellation-title = Pileuleuyan
-subscriptionDowngrade-content-auto-renew = Langganan anjeun bakal otomatis dianyarkeun unggal periode tagihan iwal anjeun milih bedo.
-subscriptionUpgrade-auto-renew = Langganan anjeun bakal otomatis dianyarkeun unggal periode tagihan iwal anjeun milih bedo.
-
