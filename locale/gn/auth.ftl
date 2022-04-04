@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,7 +19,13 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+session-verify-send-push-title = ¿Eñepyrũ tembiapo { -product-firefox-accounts } ndive?
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
@@ -89,9 +92,6 @@ cancellationSurvey = Orepytyvõna romoĩporãvévo mba’epuru ejapóvo ko <a da
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Orepytyvõ romoĩporãvévo ore mba’epururã rojapóvo ko ñeporandu:
 change-password-plaintext = Eimo’ãramo oĩ oikeséva ne mba’etépe, emoambueva’erã ne ñe’ẽñemi.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP kundaharape: { $ip }
 manage-account = Mba’ete ñangareko
 manage-account-plaintext = { manage-account }:
 payment-details = Mba’éicha ehepyme’ẽta:
@@ -132,6 +132,26 @@ subscriptionUpdatePayment-plaintext = Emboykekuaa hag̃ua pe mba’epuru ñekyt�
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Eñemomaranduve hag̃ua, eikeva’rã { $supportUrl }-pe
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } { $uaOS } { $uaOSVersion }-pe
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } { $uaOS }-pe
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP kundaharape: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (hayhupyre)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (hayhupyre)
 view-invoice = <a data-l10n-name="invoiceLink">Ehecha ne ñemuhague</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -474,10 +494,10 @@ subscriptionSubsequentInvoiceDiscount-content-invoice-number = Ñemuhague papapy
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Ñemuhague papapy: { $invoiceNumber }
 # Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-plan-change = Tembiaporã moambue: { $paymentProrated }
 # Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-charge = Henyhẽma { $invoiceTotal } pe { $invoiceDateOnly }
 # Variables:
