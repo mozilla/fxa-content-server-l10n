@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,7 +19,12 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Stemë e { -brand-firefox }-it">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Njëkohësoni pajisje">
@@ -87,9 +89,6 @@ cancellationSurvey = Ju lutemi, ndihmonani të përmirësojmë shërbimet tona d
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ju lutemi, ndihmonani të përmirësojmë shërbimet tona duke plotësuar këtë pyetësor të shkurtër:
 change-password-plaintext = Nëse dyshoni se dikush po rreket të arrijë të hyjë në llogarinë tuaj, ju lutemi, ndërroni fjalëkalimin tuaj.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Adresë IP: { $ip }
 manage-account = Administroni llogarinë
 manage-account-plaintext = { manage-account }:
 payment-details = Hollësi pagese:
@@ -130,6 +129,34 @@ subscriptionUpdatePayment-plaintext = Që të parandalohet çfarëdo ndërprerje
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Për më tepër të dhëna, ju lutemi, vizitoni { $supportUrl }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } në { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } në { $uaOS }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Adresë IP: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (hamendësuar)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (hamendësuar)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (hamendësuar)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (hamendësuar)
 view-invoice = <a data-l10n-name="invoiceLink">Shihni faturën tuaj</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -149,12 +176,7 @@ downloadSubscription-subject = Mirë se vini te { $productName }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Mirë se vini te { $productName }.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = Nëse s’e keni shkarkuar ende { $productName }, le t’ia fillojmë duke përdorur krejt veçoritë e përfshira te pajtimi juaj:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Shkarkoni { $productName }
+downloadSubscription-link-action-2 = Fillojani
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Edhe pak kode rimarrjeje të mbetur
 codes-reminder-description = Vumë re se po ju mbarohen kodet e rimarrjes. Ju lutemi, shihni mundësinë e prodhimit të kodeve të rinj, për të shmangur që të mbeten jashtë llogarisë tuaj.
@@ -200,6 +222,11 @@ postAddAccountRecovery-description = Prodhuat me sukses një kyç rimarrjeje llo
 postAddAccountRecovery-action = Administroni llogarinë
 postAddAccountRecovery-recovery = Nëse s’qetë ju, <a data-l10n-name="revokeAccountRecoveryLink">klikoni këtu</a>.
 postAddAccountRecovery-revoke = Nëse ky s’qetë ju, shfuqizojeni kyçin.
+postAddLinkedAccount-subject = Llogari e re e lidhur me { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Llogaria juaj { $providerName } është lidhura me { -product-firefox-account } tuaj
+postAddLinkedAccount-action = Administroni llogarinë
 postAddTwoStepAuthentication-subject = Mirëfilltësimi dyhapësh u aktivizua
 postAddTwoStepAuthentication-title = Mirëfilltësimi dyhapësh u aktivizua
 postAddTwoStepAuthentication-description-plaintext = Keni aktivizuar me sukses mirëfilltësimin dyhapësh për { -product-firefox-account } tuajën. Tani e tutje, për çdo hyrje do të kërkohet kod sigurie nga aplikacioni juaj i mirëfilltësimeve.
@@ -274,10 +301,7 @@ subscriptionAccountFinishSetup-subject = Mirë se vini në{ $productName }: Ju l
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Mirë se vini te { $productName }.
 subscriptionAccountFinishSetup-content-processing = Pagesa juaj po përpunohet dhe mund të duhen deri në katër ditë pune që të plotësohet. Pajtimi juaj do të rinovohet automatikisht për çdo periudhë faturimi, veç në zgjedhshi ta anuloni.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-content-create = Më pas do të krijoni një fjalëkalim llogarie Firefox-i dhe do të shkarkoni { $productName }.
-subscriptionAccountFinishSetup-action = Krijoni fjalëkalim
+subscriptionAccountFinishSetup-action-2 = Fillojani
 subscriptionAccountReminderFirst-subject = Kujtues: Përfundoni ujdisjen e llogarisë tuaj
 subscriptionAccountReminderFirst-title = S’mund të përdorni ende pajtimin tuaj
 subscriptionAccountReminderFirst-content-info = Ca ditë më parë krijuar një { -product-firefox-account }, por s’bëtë verifikimin e saj. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
@@ -332,9 +356,6 @@ subscriptionFirstInvoice-subject = Pagesa për { $productName } u ripohua
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Faleminderit për pajtimin te { $productName }
 subscriptionFirstInvoice-content-processing = Pagesa juaj po kryhet dhe që të plotësohet, mund të duhen deri në katër ditë biznesi.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = Do të merrni një email veçmas me udhëzime shkarkimi se si të filloni të përdorni { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -356,9 +377,6 @@ subscriptionFirstInvoiceDiscount-subject = Pagesa për { $productName } u ripohu
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Faleminderit për pajtimin te { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = Pagesa juaj po kryhet dhe që të plotësohet, mund të duhen deri në katër ditë biznesi.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = Do të merrni një email veçmas me udhëzime shkarkimi se si të filloni të përdorni { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -369,9 +387,6 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Numër Fatur
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Nënshumë: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-onetime-discount = Zbritje për një herë vetëm: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -523,14 +538,6 @@ verifyPrimary-subject = Ripohoni email parësor
 verifyPrimary-action = Verifikoni email-in
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Pasi të verifikohet, prej kësaj pajisje do të jenë të mundshme ndryshime llogarie, të tillë si shtimi i një email-i dytësor.
-verifySecondary-subject = Ripohoni email dytësor
-verifySecondary-title = Verifikoni email-in dytësor
-# Variables:
-#  $email (String) - A user's unverified secondary email address
-verifySecondary-explainer = Prej llogarisë vijuese { -product-firefox-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
-verifySecondary-action = Verifikoni email-in
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Pas verifikimit, kjo adresë do të fillojë të marrë njoftime sigurie dhe ripohime.
 verifySecondaryCode-subject = Ripohoni email dytësor
 verifySecondaryCode-title = Verifikoni email-in dytësor
 # Variables:

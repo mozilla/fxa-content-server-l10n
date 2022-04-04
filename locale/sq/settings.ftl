@@ -23,6 +23,7 @@ alert-bar-close-message = Mbylle mesazhin
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Llogari Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -205,6 +206,15 @@ input-password-hide = Fshihe fjalëkalimin
 input-password-show = Shfaqe fjalëkalimin
 input-password-hide-aria = Fshihe fjalëkalimin nga ekrani.
 input-password-show-aria = Shfaqe fjalëkalimin si tekst të thjeshtë. Fjalëkalimi juaj do të jetë i dukshëm në ekran.
+
+## Linked Accounts section
+
+la-heading = Llogari të Lidhura
+la-description = Keni autorizuar hyrje te llogaritë vijuese.
+la-unlink-button = Shkëpute
+la-unlink-account-button = Shkëpute
+la-unlink-heading = Shkëpute prej llogarie palësh të treta
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
