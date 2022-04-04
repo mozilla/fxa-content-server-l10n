@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,7 +19,13 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+session-verify-send-push-title = { -product-firefox-accounts } にログインしますか？
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } ロゴ">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="端末の同期">
@@ -60,9 +63,6 @@ another-desktop-device = または <a data-l10n-name="anotherDeviceLink">別の�
 another-device = または <a data-l10n-name="anotherDeviceLink">別の端末</a> にインストールしてください。
 automated-email-plaintext = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。
 change-password-plaintext = もし誰かがあなたのアカウントへアクセスしようとしていると思われる場合は、パスワードを変更してください。
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP アドレス: { $ip }
 manage-account = アカウント管理
 manage-account-plaintext = { manage-account }:
 # Variables:
@@ -84,6 +84,9 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 card-ending-in = 末尾が { $lastFour } の { $cardType } カード
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = サービスの中断を防ぐため、できるだけ早くお支払い情報を更新してください:
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP アドレス: { $ip }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 回復用コードが残り少なくなっています
 codes-reminder-description = あなたの回復用コードは残り少なくなっているようです。アカウントから閉め出されないように新たなコードの生成を検討してください。
@@ -173,10 +176,6 @@ verifyPrimary-description = アカウント変更を実行するリクエスト�
 verifyPrimary-subject = 優先メールアドレス確認
 verifyPrimary-action = メールアドレスの確認
 verifyPrimary-post-verify = 確認が済むと、予備アドレスの追加などのアカウント変更はこの端末から行えるようになります。
-verifySecondary-subject = 予備メールアドレスの確認
-verifySecondary-title = 予備アドレスを確認
-verifySecondary-action = メールアドレスの確認
-verifySecondary-post-verification = 確認が済み次第、このアドレスにセキュリティ通知や確認のメールが送られるようになります。
 verifySecondaryCode-subject = 予備メールアドレスの確認
 verifySecondaryCode-title = 予備アドレスを確認
 verifySecondaryCode-expiry-notice = この確認コードは 5 分で使用期限切れになります。確認が済み次第、このアドレスにセキュリティ通知や確認のメールが送られるようになります。
