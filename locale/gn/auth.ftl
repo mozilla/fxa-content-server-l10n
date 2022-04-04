@@ -152,6 +152,9 @@ location-city-country = { $city }, { $country } (hayhupyre)
 #  $stateCode (String) - User's state
 #  $country (String) - User's country
 location-state-country = { $stateCode }, { $country } (hayhupyre)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (hayhupyre)
 view-invoice = <a data-l10n-name="invoiceLink">Ehecha ne ñemuhague</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
