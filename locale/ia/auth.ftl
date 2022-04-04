@@ -21,6 +21,8 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = Accesso a { -product-firefox-accounts }?
+session-verify-send-push-body = Clicca hic pro verificar que es tu
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -131,6 +133,11 @@ subscriptionUpdatePayment-plaintext = Pro impedir ulle interruption a tu servici
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Pro altere informationes visita { $supportUrl }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } sur { $uaOS } { $uaOSVersion }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
