@@ -107,6 +107,9 @@ cs-cannot-disconnect = Klienti ei leitud, polnud võimalik ühendust katkestada
 cs-logged-out = Välja logitud teenusest { $service }.
 cs-refresh-button =
     .title = Uuenda ühendatud seadmete nimekirja
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Puuduvad või topeltkirjed?
+cs-disconnect-sync-heading = Ühenda Syncist lahti
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
