@@ -110,13 +110,31 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Puuduvad või topeltkirjed?
 cs-disconnect-sync-heading = Ühenda Syncist lahti
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content =
+    Sinu lehitsemise andmed jäävad sinu
+    seadmesse ({ $device }), aga neid ei sünkroniseerita enam sinu kontoga.
+cs-disconnect-sync-reason =
+    Mis on selle seadme lahti ühendamise peamiseks
+    põhjuseks?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Seade on:
+cs-disconnect-sync-opt-suspicious = kahtlane
+cs-disconnect-sync-opt-lost = kadunud või varastatud
+cs-disconnect-sync-opt-old = vana või asendatud
+cs-disconnect-sync-opt-duplicate = korduv
+cs-disconnect-sync-opt-not-say = ei soovi öelda
 
 ##
 
+cs-disconnect-advice-confirm = Olgu, sain aru
 
 ##
 
