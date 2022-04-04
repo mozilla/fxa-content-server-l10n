@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,7 +19,12 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }in logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkronoi laitteet">
@@ -87,9 +89,6 @@ cancellationSurvey = Auta parantamaan palveluitamme <a data-l10n-name="cancellat
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Auta meitä parantamaan palveluitamme täyttämällä lyhyt kysely:
 change-password-plaintext = Jos epäilet, että joku yrittää murtautua tilillesi, vaihda salasanasi.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP-osoite: { $ip }
 manage-account = Hallinnoi tiliä
 manage-account-plaintext = { manage-account }:
 payment-details = Maksun tiedot:
@@ -130,6 +129,9 @@ subscriptionUpdatePayment-plaintext = Päivitä maksutietosi mahdollisimman pian
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Lisätietoja on osoitteessa { $supportUrl }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-osoite: { $ip }
 view-invoice = <a data-l10n-name="invoiceLink">Näytä lasku</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -413,7 +415,7 @@ subscriptionReactivation-title = Kiitos että aktivoit { $productName } -tilauks
 subscriptionReactivation-content = Laskutusjakso ja maksu pysyvät ennallaan. Seuraava maksu, suuruudeltaan { $invoiceTotal }, veloitetaan { $nextInvoiceDateOnly }. Tilauksesi uusitaan automaattisesti jokaisen laskutusjakson päättyessä, ellet päätä peruuttaa tilaustasi.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionRenewalReminder-subject = %(productName)s - automaattisen uusimisen ilmoitus
+subscriptionRenewalReminder-subject = { $productName } - automaattisen uusimisen ilmoitus
 subscriptionRenewalReminder-title = Tilauksesi uusitaan pian
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -472,10 +474,10 @@ subscriptionSubsequentInvoiceDiscount-content-invoice-number = Laskun numero: <b
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Laskun numero: { $invoiceNumber }
 # Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-plan-change = Tilauksen muutos: { $paymentProrated }
 # Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-charge = Veloitettu { $invoiceTotal } { $invoiceDateOnly }
 # Variables:
