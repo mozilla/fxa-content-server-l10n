@@ -308,6 +308,8 @@ sub-item-cancel-msg = Vous ne pourrez plus utiliser { $name } après le { $perio
 sub-item-cancel-confirm =
     Annuler mon accès et mes informations enregistrées dans
     { $name } le { $period }
+invoice-not-found = Facture suivante introuvable
+sub-item-no-such-subsequent-invoice = Facture suivante introuvable pour cet abonnement.
 
 ## subscription iap item
 
@@ -370,6 +372,8 @@ coupon-error-expired = Le code que vous avez saisi a expiré.
 coupon-error-limit-reached = Le code saisi a dépassé sa limite d’utilisation.
 coupon-error-invalid = Le code que vous avez saisi est invalide.
 coupon-success = Votre forfait sera automatiquement renouvelé au prix courant.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Votre forfait sera automatiquement renouvelé au bout de { $couponDurationDate } au prix courant.
 coupon-enter-code =
     .placeholder = Saisissez le code
 

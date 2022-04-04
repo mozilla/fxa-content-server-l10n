@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,7 +19,14 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+session-verify-send-push-title = Connexion aux { -product-firefox-accounts } ?
+session-verify-send-push-body = Cliquez ici pour vérifier qu’il s’agit bien de vous
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo { -brand-firefox }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchroniser les appareils">
@@ -89,9 +93,6 @@ cancellationSurvey = Aidez-nous à améliorer nos services en répondant à <a d
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Aidez-nous à améliorer nos services en répondant à ce court questionnaire :
 change-password-plaintext = Si vous avez des raisons de penser que quelqu’un essaie d’accéder à votre compte, veuillez changer votre mot de passe.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Adresse IP : { $ip }
 manage-account = Gérer le compte
 manage-account-plaintext = { manage-account } :
 payment-details = Détails du paiement :
@@ -132,6 +133,23 @@ subscriptionUpdatePayment-plaintext = Pour éviter toute interruption de votre s
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Pour davantage d’informations, veuillez consulter { $supportUrl }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } sous { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } sous { $uaOS }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Adresse IP : { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (approximatif)
 view-invoice = <a data-l10n-name="invoiceLink">Voir votre facture</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -474,10 +492,10 @@ subscriptionSubsequentInvoiceDiscount-content-invoice-number = Numéro de factur
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Numéro de facture : { $invoiceNumber }
 # Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-plan-change = Changement de forfait : { $paymentProrated }
 # Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-charge = { $invoiceTotal } facturés le { $invoiceDateOnly }
 # Variables:
