@@ -319,6 +319,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Peru käyttömahdollisuuteni ja pääsy tietoihini
     palvelussa { $name } { $period }
+invoice-not-found = Seuraavaa laskua ei löydy
+sub-item-no-such-subsequent-invoice = Seuraavaa laskua ei löydy tälle tilaukselle.
 
 ## subscription iap item
 
@@ -381,6 +383,8 @@ coupon-error-expired = Antamasi koodi on vanhentunut.
 coupon-error-limit-reached = Antamasi koodi on käytetty liian monta kertaa.
 coupon-error-invalid = Antamasi koodi on virheellinen.
 coupon-success = Tilauksesi uusitaan automaattisesti listahintaan.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Tilauksesi uusiutuu automaattisesti { $couponDurationDate } listahinnan mukaisesti.
 coupon-enter-code =
     .placeholder = Kirjoita koodi
 
