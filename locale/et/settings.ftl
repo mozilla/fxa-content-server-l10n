@@ -136,15 +136,35 @@ cs-disconnect-sync-opt-not-say = ei soovi öelda
 
 cs-disconnect-advice-confirm = Olgu, sain aru
 cs-disconnect-lost-advice-heading = Kaotatud või varastatud seade on lahti ühendatud
+cs-disconnect-lost-advice-content-2 =
+    Kuna sinu seade läks kaduma või varastati,
+    siis peaksid oma andmete turvalisuse nimel muutma konto { -product-firefox-account } parooli
+    oma konto sätetes. Samuti peaksid otsima oma seadme tootjalt teavet, mis aitab seadme sisu
+    kaugelt kustutada.
+cs-disconnect-suspicious-advice-heading = Kahtlane seade on lahti ühendatud
+cs-disconnect-suspicious-advice-content =
+    Kui lahti ühendatud seade oli tõepoolest kahtlane,
+    siis peaksid oma andmete turvalisuse nimel muutma konto { -product-firefox-account } parooli
+    oma konto sätetes. Samuti peaksid muutma kõik teised paroolid, mille oled { -brand-firefox }i
+    salvestanud. Seda saab teha sisestades aadressiribale about:logins.
+cs-sign-out-button = Logi välja
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Alla laaditud
+datablock-copy =
+    .message = Kopeeritud
+datablock-print =
+    .message = Prinditud
 
 ## Data collection section
 
+dc-heading = Andmete kogumine ja kasutamine
+dc-subheader = Aita teenust { -product-firefox-accounts } paremaks teha
 
 # DropDownAvatarMenu component
 
