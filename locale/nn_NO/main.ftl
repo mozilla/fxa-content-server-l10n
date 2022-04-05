@@ -133,7 +133,7 @@ payment-confirm-with-legal-links-day =
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar veke</strong>, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
-       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } veke</strong>, i samsvar med termsOfServiceLink>tenestevilkårea</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
+       *[other] Eg autoriserer { -brand-name-mozilla }, utviklar av { -brand-name-firefox }-produkt, til å belaste betalingsmåten min med <strong>{ $amount } kvar { $intervalCount } veke</strong>, i samsvar med <termsOfServiceLink>tenestevilkårea</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, heilt til eg seier opp abonnementet mitt.
     }
 #  $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
