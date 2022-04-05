@@ -135,6 +135,7 @@ cs-disconnect-sync-opt-not-say = ei soovi öelda
 ##
 
 cs-disconnect-advice-confirm = Olgu, sain aru
+cs-disconnect-lost-advice-heading = Kaotatud või varastatud seade on lahti ühendatud
 
 ##
 
