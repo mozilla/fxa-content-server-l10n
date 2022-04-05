@@ -21,6 +21,8 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = Kirjautumassa { -product-firefox-accounts } -palveluun?
+session-verify-send-push-body = Napsauta tätä vahvistaaksesi, että se olet sinä
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -130,8 +132,33 @@ subscriptionUpdatePayment-plaintext = Päivitä maksutietosi mahdollisimman pian
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Lisätietoja on osoitteessa { $supportUrl }
 # Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = Selain { $uaBrowser } käyttöjärjestelmällä { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = Selain { $uaBrowser } käyttöjärjestelmällä { $uaOS }
+# Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP-osoite: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (arvio)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (arvio)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (arvio)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (arvio)
 view-invoice = <a data-l10n-name="invoiceLink">Näytä lasku</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -373,6 +400,9 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Välisumma: { $invoiceSubtot
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = Alennus: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Kerta-alennus: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -489,6 +519,9 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = Välisumma: { $invoiceS
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount = Alennus: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Kerta-alennus: -{ $invoiceDiscountAmount }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Olet päivittänyt tuotteeseen { $productName }
