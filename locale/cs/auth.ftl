@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla =
@@ -122,7 +119,12 @@
     .gender = masculine
 -google-play = Google Play
 
+## Non-email strings
+
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 body-devices-image = <img data-l10n-name="devices-image" alt="Zařízení">
 fxa-privacy-url = { -brand-mozilla } a soukromí
@@ -181,9 +183,6 @@ cancellationSurvey = Pomozte nám vylepšit naše služby tím, že se zúčastn
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Vyplňte prosím krátký formulář a pomozte nám zlepšit naše služby:
 change-password-plaintext = Pokud máte podezření, že se někdo pokouší neoprávněně získat přístup k vašemu účtu, změňte si prosím své heslo.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP adresa: { $ip }
 manage-account = Správa účtu
 manage-account-plaintext = { manage-account }:
 payment-details = Detaily platby:
@@ -223,6 +222,9 @@ subscriptionUpdatePayment-plaintext = Abyste zabránili jakémukoliv přerušen�
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Pro více informací prosím navštivte stránku { $supportUrl }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP adresa: { $ip }
 view-invoice = <a data-l10n-name="invoiceLink">Zobrazit fakturu</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -339,13 +341,15 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Vaše předplatné produktu { $productName } bylo zrušeno
 subscriptionCancellation-title = Je nám líto, že odcházíte
-subscriptionDowngrade-content-auto-renew = Vaše předplatné se bude každé fakturační automaticky obnovovat, dokud ho nezrušíte.
+subscriptionDowngrade-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
+subscriptionFirstInvoice-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
+subscriptionFirstInvoiceDiscount-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 subscriptionPaymentExpired-title = Platnost vaší platební karty brzy vyprší
 subscriptionsPaymentExpired-subject = Platnost platební karty pro úhradu vašich předplatných brzy vyprší
 subscriptionsPaymentExpired-title = Platnost vaší platební karty brzy vyprší
 subscriptionsPaymentExpired-content = Platnost platební karty, kterou hradíte následující předplatné, brzy vyprší.
 subscriptionUpgrade-title = Děkujeme za povýšení vašeho předplatného.
-subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační automaticky obnovovat, dokud ho nezrušíte.
+subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 unblockCode-subject = Autorizační kód účtu
 unblockCode-title = Jste to vy, kdo se přihlašuje?
 unblockCode-prompt = Pokud ano, zde je váš autorizační kód, který potřebujete:
