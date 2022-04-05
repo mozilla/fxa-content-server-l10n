@@ -22,6 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = 是否在登录 { -product-firefox-accounts }？
+session-verify-send-push-body = 若是您本人操作，请点击此处验证
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -353,6 +354,9 @@ subscriptionFirstInvoice-subject = 已确认 { $productName } 付款
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = 感谢您订阅 { $productName }！
 subscriptionFirstInvoice-content-processing = 正在处理您的款项，最多需要四个工作天才能完成。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = 您将收到另一封电子邮件，介绍如何开始使用 { $productName }。
 subscriptionFirstInvoice-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -374,6 +378,9 @@ subscriptionFirstInvoiceDiscount-subject = 已确认 { $productName } 付款
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = 感谢您订阅 { $productName }！
 subscriptionFirstInvoiceDiscount-content-processing = 正在处理您的款项，最多需要四个工作日完成。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install-2 = 您将收到另一封电子邮件，介绍如何开始使用 { $productName }。
 subscriptionFirstInvoiceDiscount-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
