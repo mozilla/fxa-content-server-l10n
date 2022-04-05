@@ -218,9 +218,14 @@ la-description = Sa oled lubanud ligipääsu järgmistele kontodele.
 la-unlink-button = Katkesta ühendus
 la-unlink-account-button = Katkesta ühendus
 la-unlink-heading = Katkesta ühendus kolmanda osapoole kontoga
+la-unlink-content = Kas oled kindel, et soovid katkestada ühenduse { -brand-google }'i kontoga? Konto lahti ühendamine ei logi sind automaatselt nendest teenustest välja. Välja logimiseks pead sa seda tegema ühendatud teenuste sektsioonis käsitsi.
+la-unlink-content-2 = Kas oled kindel, et soovid kontoga ühenduse katkestada? Konto lahti ühendamine ei logi sind automaatselt nendest teenustest välja.Välja logimiseks pead sa seda tegema ühendatud teenuste sektsioonis käsitsi.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
+modal-close-title = Sulge
+modal-cancel-button = Loobu
 
 ## Modal Verify Session
 
