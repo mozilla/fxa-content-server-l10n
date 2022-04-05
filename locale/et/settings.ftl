@@ -165,24 +165,59 @@ datablock-print =
 
 dc-heading = Andmete kogumine ja kasutamine
 dc-subheader = Aita teenust { -product-firefox-accounts } paremaks teha
+dc-subheader-content = Teenusel { -product-firefox-accounts } lubatakse saata tehnilisi ja interaktsiooniandmeid { -brand-mozilla }le.
+dc-opt-out-success = Loobumine õnnestus. Teenus { -product-firefox-accounts } ei saada enam tehnilisi ja interaktsiooniandmeid { -brand-mozilla }le.
+dc-opt-in-success = Täname! Nende andmete jagamine aitab meil teenust { -product-firefox-accounts } paremaks teha.
+dc-opt-in-out-error = Vabandust, kahjuks esines andmete kogumise eelistuste muutmisel probleem.
+dc-learn-more = Rohkem teavet
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Teenuse { -product-firefox-account } menüü
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Sisse logitud kasutajana</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Logi välja
+drop-down-menu-sign-out-error = Vabandust, väljalogimisel esines probleem.
 
 ## Flow Container
 
+flow-container-back = Tagasi
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Taastekoodid
+get-data-trio-download =
+    .title = Laadi alla
+get-data-trio-copy =
+    .title = Kopeeri
+get-data-trio-print =
+    .title = Prindi
 
 # HeaderLockup component
 
+header-menu-open = Sulge menüü
+header-menu-closed = Saidi navigeerimismenüü
+header-back-to-top-link =
+    .title = Tagasi üles
+header-title = Firefoxi konto
+header-help = Abi
 
 ## Input Password
 
+input-password-hide = Peida parool
+input-password-show = Kuva parooli
+input-password-hide-aria = Peida parool ekraanilt.
+input-password-show-aria = Kuva parool lihttekstina. Sinu parool on ekraanil nähtav.
 
 ## Linked Accounts section
 
+la-heading = Lingitud kontod
+la-description = Sa oled lubanud ligipääsu järgmistele kontodele.
+la-unlink-button = Katkesta ühendus
+la-unlink-account-button = Katkesta ühendus
+la-unlink-heading = Katkesta ühendus kolmanda osapoole kontoga
 
 ## Modal
 
