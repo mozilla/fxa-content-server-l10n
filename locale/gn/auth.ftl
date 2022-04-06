@@ -146,6 +146,11 @@ device-browser-os = { $uaBrowser } { $uaOS }-pe
 user-ip = IP kundaharape: { $ip }
 # Variables:
 #  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (hayhupyre)
+# Variables:
+#  $city (String) - User's city
 #  $country (String) - User's country
 location-city-country = { $city }, { $country } (hayhupyre)
 # Variables:
