@@ -322,24 +322,67 @@ delete-account-header =
     .title = Kustuta konto
 delete-account-step-1-2 = Samm 1 2st
 delete-account-step-2-2 = Samm 2 2st
+delete-account-confirm-title-2 = Oled ühendanud oma { -product-firefox-account } konto { -brand-mozilla } teenustega, mis hoiavad sind veebis turvalise ja produktiivsena:
+delete-account-acknowledge = Kinnita, et oma konto kustutamisega:
+delete-account-chk-box-1-v2 =
+    .label = Tühistatakse kõik tasulised tellimused (välja arvatud { product-pocket })
+delete-account-chk-box-2 =
+    .label = Võid kaotada salvestatud andmed ja funktsionaalsuse { -brand-mozilla } teenustes
+delete-account-chk-box-3 =
+    .label = Taasaktiveerimine selle e-posti aadressiga ei pruugi taastada sinu salvestatud andmeid
+delete-account-chk-box-4 =
+    .label = Kõik sinu poolt saidil addons.mozilla.org avalikustatud laiendused ja teemad kustutatakse
+delete-account-continue-button = Jätka
+delete-account-password-input =
+    .label = Sisesta parool
+delete-account-cancel-button = Loobu
+delete-account-delete-button-2 = Kustuta
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Kuvatav nimi
+display-name-input =
+    .label = Sisesta kuvatav nimi
+submit-display-name = Salvesta
+cancel-display-name = Loobu
+display-name-update-error = Kuvatava nime uuendamisel esines probleem.
+display-name-success-alert = Kuvatav nimi on uuendatud.
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Loobu
+recovery-key-close-button = Sulge
+recovery-key-continue-button = Jätka
+recovery-key-created = Sinu taastevõti on loodud. Salvesta see kindlasti turvalisse kohta, kust selle hiljem hõlpsasti leiad — võtit on vaja andmetele juurdepääsu taastamiseks, kui unustad oma parooli.
+recovery-key-enter-password =
+    .label = Sisesta parool
+recovery-key-page-title =
+    .title = Taastevõti
+recovery-key-step-1 = Samm 1 2st
+recovery-key-step-2 = Samm 2 2st
+recovery-key-success-alert = Taastevõti loodud.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Samm 1 2st
+add-secondary-email-error = Selle e-posti aadressi loomisel esines probleem.
+add-secondary-email-page-title =
+    .title = Teine e-posti aadress
+add-secondary-email-enter-address =
+    .label = Sisesta e-posti aadress
+add-secondary-email-cancel-button = Loobu
+add-secondary-email-save-button = Salvesta
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Samm 2 2st
 
 ##
 
