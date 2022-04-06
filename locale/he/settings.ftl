@@ -545,6 +545,14 @@ auth-error-102 = חשבון לא ידוע
 auth-error-103 = ססמה שגויה
 auth-error-105 = קוד אימות שגוי
 auth-error-110 = אסימון לא חוקי
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = ניסית להתחבר יותר מידי פעמים. נא לנסות שוב { $retryAfter }.
 auth-error-138 = הפעלה בלתי מאומתת
 auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך
 auth-error-155 = אסימון TOTP לא נמצא
