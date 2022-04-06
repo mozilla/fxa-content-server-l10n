@@ -245,24 +245,83 @@ nav-profile = Profiil
 nav-security = Turvalisus
 nav-connected-services = Ühendatud teenused
 nav-data-collection = Andmete kogumine ja kasutamine
+nav-paid-subs = Tasulised tellimused
+nav-email-comm = E-kirjavahetus
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = Taastekoodide asendamisel esines probleem.
+tfa-replace-code-success =
+    Uued koodid on loodud. Salvesta need ühekordseks kasutamiseks mõeldud koodid
+    turvalisse kohta — vajad neid oma kontole ligipääsemiseks, kui mobiilne seade
+    pole sinuga.
+tfa-replace-code-success-alert = Konto taastekoodid uuendati.
+tfa-replace-code-1-2 = Samm 1 2st
+tfa-replace-code-2-2 = Samm 2 2st
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Profiilipilt
+avatar-page-add-photo = Lisa foto
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Tee pilt
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Eemalda foto
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Tee uus pilt
+avatar-page-cancel-button = Loobu
+avatar-page-save-button = Salvesta
+avatar-page-saving-button = Salvestamine…
+avatar-page-zoom-out-button =
+    .title = Vähenda
+avatar-page-zoom-in-button =
+    .title = Suurenda
+avatar-page-rotate-button =
+    .title = Pööra
+avatar-page-camera-error = Kaamera kasutamine polnud võimalik
+avatar-page-new-avatar =
+    .alt = uus profiilipilt
+avatar-page-file-upload-error-2 = Profiilipildi üleslaadimisel esines probleem.
+avatar-page-delete-error-2 = Profiilipildi kustutamisel esines probleem.
+avatar-page-image-too-large-error = Pildifaili suurus on üleslaadimiseks liiga suur.
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Parooli muutmine
+pw-change-stay-safe = Säilita turvalisus — ära taaskasuta paroole. Sinu parool:
+pw-change-least-8-chars = Peab olema vähemalt 8 tähemärgi pikkune
+pw-change-not-contain-email = See ei tohi olla sinu e-posti aadress
+pw-change-must-match = Uus parool ja selle kinnitus ühtivad
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-change-common-passwords = Ei tohi ühtida <linkExternal>levinud paroolidega</linkExternal>
+pw-change-cancel-button = Loobu
+pw-change-save-button = Salvesta
+pw-change-forgot-password-link = Unustasid parooli?
+pw-change-current-password =
+    .label = Sisesta praegune parool
+pw-change-new-password =
+    .label = Sisesta uus parool
+pw-change-confirm-password =
+    .label = Kinnita parool
+pw-change-success-alert = Parool uuendatud.
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Kustuta konto
+delete-account-step-1-2 = Samm 1 2st
+delete-account-step-2-2 = Samm 2 2st
 
 ##
 
