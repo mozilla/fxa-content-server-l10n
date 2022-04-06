@@ -229,9 +229,22 @@ modal-cancel-button = Loobu
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Kinnita e-posti aadress
+mvs-enter-verification-code = Sisesta kinnituskood
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Palun sisesta kinnituskood, mis saadeti 5 minuti jooksul aadressile <email>{ $email }</email>.
+msv-cancel-button = Loobu
+msv-submit-button = Kinnita
 
 ## Settings Nav
 
+nav-settings = Sätted
+nav-profile = Profiil
+nav-security = Turvalisus
+nav-connected-services = Ühendatud teenused
+nav-data-collection = Andmete kogumine ja kasutamine
 
 ## Two Step Authentication - replace recovery code
 
