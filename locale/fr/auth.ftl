@@ -150,6 +150,17 @@ user-ip = Adresse IP : { $ip }
 #  $stateCode (String) - User's state
 #  $country (String) - User's country
 location-all = { $city }, { $stateCode }, { $country } (approximatif)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (approximatif)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (approximatif)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (approximatif)
 view-invoice = <a data-l10n-name="invoiceLink">Voir votre facture</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -391,6 +402,9 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Sous-total : { $invoiceSubt
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = Remise : -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Remise unique : -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
