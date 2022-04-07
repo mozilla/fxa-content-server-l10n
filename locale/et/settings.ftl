@@ -429,27 +429,74 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Pole võimalik koodi skannida?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Sisesta see turvakood oma autentimisäppi:
+tfa-enter-totp = Nüüd sisesta autentimisäpis kuvatav turvakood.
+tfa-input-enter-totp =
+    .label = Sisesta turvakood
+tfa-save-these-codes =
+    Salvesta need ühekordselt kasutatavad koodid turvaliselt,
+    et kasutada neid siis, kui mobiilset seadet pole käepärast.
+tfa-enter-code-to-confirm =
+    Palun sisesta nüüd üks oma taastekoodidest, et kinnitada,
+    et oled need salvestanud. Sa vajad neid koode siis, kui oled kaotanud oma
+    seadme ja soovid kontole ligi pääseda.
+tfa-enter-recovery-code =
+    .label = Sisesta taastekood
 
 ##
 
 
 ## Profile section
 
+profile-heading = Profiil
+profile-picture =
+    .header = Pilt
+profile-display-name =
+    .header = Kuvatav nimi
+profile-primary-email =
+    .header = Peamine e-posti aadress
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Turvalisus
+security-password =
+    .header = Parool
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Loodud { $date }
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Lülita välja
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Lülita sisse
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Saatmine…
+switch-is-on = sees
+switch-is-off = väljas
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Lisa
+row-defaults-action-change = Muuda
+row-defaults-action-disable = Keela
+row-defaults-status = Puudub
 
 ## Recovery key sub-section on main Settings page
 
+rk-header = Taastevõti
+rk-enabled = Lubatud
+rk-not-set = Pole määratud
+rk-action-create = Loo
+rk-action-remove = Eemalda
+rk-cannot-refresh = Vabandust, taastevõtme uuendamisel esines probleem.
+rk-key-removed = Konto taastevõti eemaldati
+rk-cannot-remove-key = Konto taastevõtit polnud võimalik eemaldada.
+rk-refresh-key = Uuenda taastevõtit
 
 ## Secondary email sub-section on main Settings page
 
