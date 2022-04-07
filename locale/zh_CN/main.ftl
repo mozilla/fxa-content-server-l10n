@@ -362,6 +362,8 @@ coupon-error-expired = 您输入的折扣码已过期。
 coupon-error-limit-reached = 您输入的折扣码已达使用次数上限。
 coupon-error-invalid = 您输入的折扣码无效。
 coupon-success = 您的方案将自动按标价续订。
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = 您的方案将在 { $couponDurationDate } 之后按标价自动续订。
 coupon-enter-code =
     .placeholder = 输入折扣码
 

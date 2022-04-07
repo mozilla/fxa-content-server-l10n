@@ -174,6 +174,7 @@ downloadSubscription-subject = 欢迎使用 { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = 欢迎使用 { $productName }
+downloadSubscription-content-2 = 准备开始使用包含在您的订阅内的所有功能吧：
 downloadSubscription-link-action-2 = 开始使用
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩余的救援码较少
@@ -393,10 +394,14 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = 发票号码
 subscriptionFirstInvoiceDiscount-content-subtotal = 小计：{ $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount = 折扣：-{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount = 抵扣：-{ $invoiceDiscountAmount }
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount-one-time = 一次性折扣：-{ $invoiceDiscountAmount }
+subscriptionFirstInvoiceDiscount-content-discount-one-time = 一次性抵扣：-{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } 个月抵扣：-{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -512,7 +517,14 @@ subscriptionSubsequentInvoiceDiscount-content-next-invoice = 下次扣款日：{
 subscriptionSubsequentInvoiceDiscount-content-subtotal = 小计：{ $invoiceSubtotal }
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionSubsequentInvoiceDiscount-content-discount = 折扣：-{ $invoiceDiscountAmount }
+subscriptionSubsequentInvoiceDiscount-content-discount = 抵扣：-{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount-one-time = 一次性抵扣：-{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionSubsequentInvoiceDiscount-content-discount-repeating = { $discountDuration } 个月抵扣：-{ $invoiceDiscountAmount }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = 您已升级至 { $productName }
