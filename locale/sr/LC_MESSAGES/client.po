@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2021-06-17 23:19+0000\n"
 "Last-Translator: Ђорђе Васиљевић <djordje.vasiljevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,7 +129,7 @@ msgstr "Ваши синхронизовани подаци су заштићен
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "Ако изгубите приступ свом налогу, моћи ћете да опоравите синхронизоване податке."
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Почните прегледати"
 
@@ -1070,11 +1070,11 @@ msgstr "Потврди"
 msgid "Need another code? Resend"
 msgstr "Треба вам други код? Пошаљи поново"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Повежи други уређај"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Овај Firefox је повезан"
 
@@ -1090,7 +1090,7 @@ msgstr "Завршите постављање"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Пријавите се на овај Firefox да бисте завршили подешавање"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "И даље додајете уређаје?"
@@ -1474,62 +1474,6 @@ msgid ""
 "          "
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr "Желите ли да синхронизујете ваш мобилни телефон?"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "Пошаљите везу за инсталирање Firefox-а на ваш мобилни телефон SMS поруком."
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "Број мобилног телефона"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "Пошаљи"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "Можда ће се примењивати накнаде за SMS и промет података. Потребна је сагласност примаоца. <a %(escapedLearnMoreAttributes)s>Сазнајте више</a>"
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Зашто синхронизовати више уређаја?"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr "Не сада"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "Проверите ваше поруке"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr "Послали смо вам текстуалну поруку"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "Веза ка апликацији Firefox је послана на %(escapedPhoneNumber)s"
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "Погрешан број?"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "Ако нисте примили СМС поруку, можете потражити “Firefox” у вашој продавници апликација."
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Није стигла? Пошаљи поново"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "Зашто се пријавити на другом уређају?"
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox налози"
@@ -1589,6 +1533,14 @@ msgstr "Предмет (опционално)"
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "Опис проблема"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Пошаљи"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Зашто синхронизовати више уређаја?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2037,6 +1989,42 @@ msgstr "Упаривање помоћу апликације"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Да ли сте користили системску камеру? Морате да се упарите у оквиру Firefox апликације."
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "Желите ли да синхронизујете ваш мобилни телефон?"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "Пошаљите везу за инсталирање Firefox-а на ваш мобилни телефон SMS поруком."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Број мобилног телефона"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "Можда ће се примењивати накнаде за SMS и промет података. Потребна је сагласност примаоца. <a %(escapedLearnMoreAttributes)s>Сазнајте више</a>"
+
+#~ msgid "Not now"
+#~ msgstr "Не сада"
+
+#~ msgid "Check your texts"
+#~ msgstr "Проверите ваше поруке"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "Послали смо вам текстуалну поруку"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "Веза ка апликацији Firefox је послана на %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Погрешан број?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "Ако нисте примили СМС поруку, можете потражити “Firefox” у вашој продавници апликација."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Није стигла? Пошаљи поново"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Зашто се пријавити на другом уређају?"
 
 #~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Помоћ</a>"

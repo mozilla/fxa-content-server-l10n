@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2022-04-01 19:48+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,7 +128,7 @@ msgstr "Вашы сінхранізаваныя дадзеныя абароне�
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "Калі вы страціце доступ да свайго ўліковага запісу, вы зможаце аднавіць сінхранізаваныя звесткі."
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Пачаць агляданне"
 
@@ -838,7 +838,9 @@ msgid "Invalid Token"
 msgstr "Нядзейсны токен"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Працягваючы, вы згаджаецеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовамі абслугоўвання</a> і <a id=\"service-pp\" href=\"%(privacyUri)s\">Паведамленнем аб прыватнасці</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -910,7 +912,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Калі ласка, увядзіце аднаразовы ключ аднаўлення, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да ўліковага запісу Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ЗАЎВАГА:</span> Калі вы скінеце пароль і не маеце захаванага ключа аднаўлення ўліковага запісу, некаторыя дадзеныя будуць выдалены (уключаючы сінхранізаваныя праз сервер "
 "звесткі, такія як гісторыя і закладкі)."
@@ -1067,11 +1070,11 @@ msgstr "Пацвердзіць"
 msgid "Need another code? Resend"
 msgstr "Патрэбен іншы код? Выслаць занава"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Злучыць іншую прыладу"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Гэты Firefox злучаны"
 
@@ -1087,7 +1090,7 @@ msgstr "Завяршыце наладу"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Увайдзіце ў гэты Firefox, каб закончыць наладу"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Яшчэ дадаяце прылады?"
@@ -1471,62 +1474,6 @@ msgid ""
 "          "
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr "Хочаце сінхранізавацца са сваім тэлефонам?"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "Адпраўце спасылку па SMS, каб усталяваць Firefox на свой тэлефон."
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "Нумар мабільнага тэлефона"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "Адправіць"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "Могуць прымяняцца тарыфы за SMS і перадачу дадзеных. Згода атрымальніка абавязковая. <a %(escapedLearnMoreAttributes)s>Падрабязней</a>"
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Навошта сінхранізаваць некалькі прылад?"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr "Не зараз"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "Праверце SMS-паведамленні"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr "Мы адправілі вам тэкставае паведамленне"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "Спасылка на праграму Firefox была адпраўлена на %(escapedPhoneNumber)s"
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "Няправільны нумар?"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "Калі вы не атрымліваеце SMS-паведамленне, вы можаце пашукаць у сваёй краме праграм па запыце «Firefox»."
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Не прыйшло? Даслаць яшчэ раз"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "Навошта ўваходзіць на іншай прыладзе?"
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Уліковыя запісы Firefox"
@@ -1586,6 +1533,14 @@ msgstr "Тэма (па жаданні)"
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "Апісанне праблемы"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Адправіць"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Навошта сінхранізаваць некалькі прылад?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2034,6 +1989,42 @@ msgstr "Спарванне з дапамогай праграмы"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Выкарыстоўвалі сістэмную камеру? Вы мусіце спарваць знутры праграмы Firefox."
 
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "Хочаце сінхранізавацца са сваім тэлефонам?"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "Адпраўце спасылку па SMS, каб усталяваць Firefox на свой тэлефон."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Нумар мабільнага тэлефона"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "Могуць прымяняцца тарыфы за SMS і перадачу дадзеных. Згода атрымальніка абавязковая. <a %(escapedLearnMoreAttributes)s>Падрабязней</a>"
+
+#~ msgid "Not now"
+#~ msgstr "Не зараз"
+
+#~ msgid "Check your texts"
+#~ msgstr "Праверце SMS-паведамленні"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "Мы адправілі вам тэкставае паведамленне"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "Спасылка на праграму Firefox была адпраўлена на %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Няправільны нумар?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "Калі вы не атрымліваеце SMS-паведамленне, вы можаце пашукаць у сваёй краме праграм па запыце «Firefox»."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Не прыйшло? Даслаць яшчэ раз"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Навошта ўваходзіць на іншай прыладзе?"
+
 #~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Даведка</a>"
 
@@ -2050,15 +2041,15 @@ msgstr "Выкарыстоўвалі сістэмную камеру? Вы му�
 #~ msgstr "Праяўляйце пільнасць да ўцечак дадзеных."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>ПАМЯТАЙЦЕ:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем "
 #~ "дадзеныя з паролем, каб абараніць вашу прыватнасць."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>ЗАЎВАГА:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем "
 #~ "дадзеныя з паролем, каб абараніць вашу прыватнасць."
@@ -2391,10 +2382,11 @@ msgstr "Выкарыстоўвалі сістэмную камеру? Вы му�
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Крок 2 з 2: Захавайце ключ аднаўлення"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
-#~ "<span class=\"note\">Заўвага: </span>Калі вы забудзеце свой пароль, гэты ключ спатрэбіцца, каб аднавіць доступ к дадзеным. Захоўвайце ключ аднаўлення ў бяспечным месцы, дзе вы лёгка можаце знайсці "
-#~ "яго пазней."
+#~ "<span class=\"note\">Заўвага: </span>Калі вы забудзеце свой пароль, гэты ключ спатрэбіцца, каб аднавіць доступ к дадзеным. Захоўвайце ключ аднаўлення ў бяспечным месцы, дзе вы лёгка можаце "
+#~ "знайсці яго пазней."
 
 #~ msgid "Done, Recovery key saved"
 #~ msgstr "Гатова, ключ аднаўлення захаваны"
@@ -2587,11 +2579,11 @@ msgstr "Выкарыстоўвалі сістэмную камеру? Вы му�
 #~ msgstr "Кіраваць наладамі"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, як вы"
-#~ " выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
+#~ "Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, "
+#~ "як вы выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
 
 #~ msgid "verified"
 #~ msgstr "пацверджана"
@@ -2672,7 +2664,9 @@ msgstr "Выкарыстоўвалі сістэмную камеру? Вы му�
 #~ msgstr "Не ўдалося атрымаць Умовы карыстання платформы падпіскі"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Палітыкай прыватнасці</a>."
+#~ msgstr ""
+#~ "Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Палітыкай прыватнасці</"
+#~ "a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Умовы карыстання платформы падпіскі"

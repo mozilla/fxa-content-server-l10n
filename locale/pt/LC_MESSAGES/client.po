@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2022-01-04 23:19+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,7 +128,7 @@ msgstr "Os seus dados sincronizados estão protegidos"
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "Se perder o acesso à sua conta, poderá restaurar os seus dados sincronizados."
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Começar a navegar"
 
@@ -1070,11 +1070,11 @@ msgstr "Verificar"
 msgid "Need another code? Resend"
 msgstr "Precisa de outro código? Reenviar"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Ligar outro dispositivo"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Este Firefox está ligado"
 
@@ -1090,7 +1090,7 @@ msgstr "Conclua a sua configuração"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Iniciar sessão neste Firefox para completar a configuração"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Ainda a adicionar dispositivos?"
@@ -1486,62 +1486,6 @@ msgstr ""
 "            Os <a id=\"fxa-tos\" href=\"/legal/terms\">termos do serviço</a> e a <a id=\"fxa-pp\" href=\"/legal/privacy\">informação de privacidade</a> do Firefox\n"
 "          "
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr "Gostaria de sincronizar o seu telefone?"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "Envie uma ligação por SMS para instalar o Firefox no seu telefone."
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "Número de telefone móvel"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "Enviar"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "Podem ser aplicados custos de SMS e de dados. É necessário o consentimento do destinatário. <a %(escapedLearnMoreAttributes)s>Saber mais</a>"
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Porquê sincronizar múltiplos dispositivos?"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr "Agora não"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "Verifique as suas mensagens"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr "Enviámos uma mensagem de texto"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "Uma ligação para a aplicação do Firefox foi enviada para %(escapedPhoneNumber)s"
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "Número errado?"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "Se não estiver a receber a mensagem SMS, também pode pesquisar na sua loja de aplicações por “Firefox.”"
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Não chegou? Reenviar"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "Por que iniciar sessão noutro dispositivo?"
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Contas Firefox"
@@ -1601,6 +1545,14 @@ msgstr "Assunto (opcional)"
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "Descrição do problema"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Enviar"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Porquê sincronizar múltiplos dispositivos?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2051,6 +2003,42 @@ msgstr "Emparelhar utilizando uma aplicação"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Utilizou a câmara do sistema? Deve emparelhar de dentro de uma aplicação do Firefox."
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "Gostaria de sincronizar o seu telefone?"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "Envie uma ligação por SMS para instalar o Firefox no seu telefone."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Número de telefone móvel"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "Podem ser aplicados custos de SMS e de dados. É necessário o consentimento do destinatário. <a %(escapedLearnMoreAttributes)s>Saber mais</a>"
+
+#~ msgid "Not now"
+#~ msgstr "Agora não"
+
+#~ msgid "Check your texts"
+#~ msgstr "Verifique as suas mensagens"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "Enviámos uma mensagem de texto"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "Uma ligação para a aplicação do Firefox foi enviada para %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Número errado?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "Se não estiver a receber a mensagem SMS, também pode pesquisar na sua loja de aplicações por “Firefox.”"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Não chegou? Reenviar"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Por que iniciar sessão noutro dispositivo?"
 
 #~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Ajuda</a>"

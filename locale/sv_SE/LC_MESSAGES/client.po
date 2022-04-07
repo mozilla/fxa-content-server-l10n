@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2022-03-25 03:22+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
@@ -129,7 +129,7 @@ msgstr "Dina synkroniseringsdata är skyddade"
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "Om du tappar åtkomst till ditt konto kan du återställa dina synkroniseringsdata."
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Börja surfa"
 
@@ -1073,11 +1073,11 @@ msgstr "Verifiera"
 msgid "Need another code? Resend"
 msgstr "Behöver du en annan kod? Skicka igen"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Anslut en annan enhet"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Firefox är ansluten"
 
@@ -1093,7 +1093,7 @@ msgstr "Slutför din installation"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Logga in till Firefox för att slutföra konfigurationen"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Lägger du fortfarande till enheter?"
@@ -1489,62 +1489,6 @@ msgstr ""
 "            Firefoxs <a id=\"fxa-tos\" href=\"/legal/terms\">användarvillkor</a> och <a id=\"fxa-pp\" href=\"/legal/privacy\">sekretesspolicy</a>\n"
 "          "
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr "Vill du synkronisera din telefon?"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "Skicka en länk via SMS för att installera Firefox på din telefon."
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "Mobiltelefonnummer"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "Skicka"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "SMS &amp; dataavgifter kan tillkomma. Mottagarens samtycke krävs. <a %(escapedLearnMoreAttributes)s>Läs mer</a>"
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Varför synkronisera flera enheter?"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr "Inte nu"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "Kontrollera dina texter"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr "Vi har skickat ett textmeddelande"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "En länk till Firefox-appen skickades till %(escapedPhoneNumber)s"
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "Fel nummer?"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "Om du inte får SMS-meddelandet kan du även söka i appbutiken efter “Firefox”"
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Kom det inte fram? Skicka igen"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "Varför logga in på en annan enhet?"
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox-konton"
@@ -1604,6 +1548,14 @@ msgstr "Ämne (valfritt)"
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "Beskrivning av problem"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Skicka"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Varför synkronisera flera enheter?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2051,6 +2003,42 @@ msgstr "Parning via en app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Vill du använda enhetens kamera? Du måste para ihop den från en Firefox-app."
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "Vill du synkronisera din telefon?"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "Skicka en länk via SMS för att installera Firefox på din telefon."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Mobiltelefonnummer"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "SMS &amp; dataavgifter kan tillkomma. Mottagarens samtycke krävs. <a %(escapedLearnMoreAttributes)s>Läs mer</a>"
+
+#~ msgid "Not now"
+#~ msgstr "Inte nu"
+
+#~ msgid "Check your texts"
+#~ msgstr "Kontrollera dina texter"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "Vi har skickat ett textmeddelande"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "En länk till Firefox-appen skickades till %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Fel nummer?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "Om du inte får SMS-meddelandet kan du även söka i appbutiken efter “Firefox”"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Kom det inte fram? Skicka igen"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Varför logga in på en annan enhet?"
 
 #~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Hjälp</a>"
