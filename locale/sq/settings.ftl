@@ -214,6 +214,8 @@ la-description = Keni autorizuar hyrje te llogaritë vijuese.
 la-unlink-button = Shkëpute
 la-unlink-account-button = Shkëpute
 la-unlink-heading = Shkëpute prej llogarie palësh të treta
+la-unlink-content = Jeni i sigurt se doni të shkëputet llogaria juaj { -brand-google }? Shkëputja e llogarisë tuaj nuk do të thotë nxjerrje juaj automatikisht jashtë llogarive në këto shërbime. Për ta bërë këtë do t’ju duhet të dilni dorazi që nga ndarja Shërbime të Lidhura.
+la-unlink-content-2 = Jeni i sigurt se doni të shkëputet llogaria juaj? Shkëputja e llogarisë tuaj nuk do të thotë nxjerrje juaj automatikisht jashtë llogarive në këto shërbime. Për ta bërë këtë do t’ju duhet të dilni dorazi që nga ndarja shërbime të Lidhura.
 nav-linked-accounts = { la-heading }
 
 ## Modal

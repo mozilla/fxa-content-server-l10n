@@ -21,6 +21,8 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = Të hyhet te { -product-firefox-accounts }?
+session-verify-send-push-body = Klikoni këtu që të verifikoni se jeni ju
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -79,6 +81,8 @@ automated-email =
     Ky është një email i automatizuar; nëse e morët gabimisht, s’lypset dot një veprim.
     Për më tepër informacion, ju lutemi, vizitoni <a data-l10n-name="supportLink">{ -brand-mozilla } Asistencën</a>.
 automated-email-plaintext = Ky është një email i automatizuar; nëse e morët gabimisht, s’ka nevojë të bëni gjë.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Ky është një email i automatizuar; nëse s’e autorizoni këtë veprim, atëherë, ju lutemi, ndryshoni fjalëkalimin tuaj:
 automated-email-reset =
     Ky është një email i automatizuar; nëse nuk e autorizuat ju këtë veprim, atëherë <a data-l10n-name="resetLink">ju lutemi, ndryshoni fjalëkalimin tuaj</a>.
     Për më tepër hollësi, ju lutemi, vizitoni <a data-l10n-name="supportLink">{ -brand-mozilla } Asistencën</a>.
@@ -176,6 +180,7 @@ downloadSubscription-subject = Mirë se vini te { $productName }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Mirë se vini te { $productName }.
+downloadSubscription-content-2 = Le t’ia fillojmë duke përdorur krejt veçoritë e përfshira te pajtimi juaj:
 downloadSubscription-link-action-2 = Fillojani
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Edhe pak kode rimarrjeje të mbetur
@@ -301,6 +306,7 @@ subscriptionAccountFinishSetup-subject = Mirë se vini në{ $productName }: Ju l
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Mirë se vini te { $productName }.
 subscriptionAccountFinishSetup-content-processing = Pagesa juaj po përpunohet dhe mund të duhen deri në katër ditë pune që të plotësohet. Pajtimi juaj do të rinovohet automatikisht për çdo periudhë faturimi, veç në zgjedhshi ta anuloni.
+subscriptionAccountFinishSetup-content-create-2 = Më pas do të krijoni një fjalëkalim { -product-firefox-account }, që të nisni të përdorni pajtimin tuaj.
 subscriptionAccountFinishSetup-action-2 = Fillojani
 subscriptionAccountReminderFirst-subject = Kujtues: Përfundoni ujdisjen e llogarisë tuaj
 subscriptionAccountReminderFirst-title = S’mund të përdorni ende pajtimin tuaj
@@ -356,6 +362,9 @@ subscriptionFirstInvoice-subject = Pagesa për { $productName } u ripohua
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Faleminderit për pajtimin te { $productName }
 subscriptionFirstInvoice-content-processing = Pagesa juaj po kryhet dhe që të plotësohet, mund të duhen deri në katër ditë biznesi.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Do të merrni një email më vete se si të nisni të përdorni { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -377,6 +386,9 @@ subscriptionFirstInvoiceDiscount-subject = Pagesa për { $productName } u ripohu
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Faleminderit për pajtimin te { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = Pagesa juaj po kryhet dhe që të plotësohet, mund të duhen deri në katër ditë biznesi.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install-2 = Do të merrni një email më vete se si të nisni të përdorni { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -387,6 +399,12 @@ subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Numër Fatur
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Nënshumë: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Zbritje: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Zbritje Për Një Herë Vetëm: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -475,6 +493,38 @@ subscriptionSubsequentInvoice-content-charged = U faturuan { $invoiceTotal } më
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Fatura Pasuese: { $nextInvoiceDateOnly }
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = U mor pagesë { $productName }
+subscriptionSubsequentInvoiceDiscount-title = Faleminderit që jeni një pajtimtar!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-content-received = Morëm pagesën tuaj më të re për { $productName }.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = Numër Fature: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Numër Fature: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = Ndryshim plani: { $paymentProrated }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-charge = U faturuan { $invoiceTotal } më { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Fatura Pasuese: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = Nënshumë: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = Zbritje: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Zbritje Për Një Herë Vetëm: -{ $invoiceDiscountAmount }
+# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = E përmirësuat me { $productName }
 subscriptionUpgrade-title = Faleminderit për përmirësimin!
@@ -540,6 +590,7 @@ verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Pasi të verifikohet, prej kësaj pajisje do të jenë të mundshme ndryshime llogarie, të tillë si shtimi i një email-i dytësor.
 verifySecondaryCode-subject = Ripohoni email dytësor
 verifySecondaryCode-title = Verifikoni email-in dytësor
+verifySecondaryCode-action = Verifikoni email-in
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Prej llogarisë vijuese { -product-firefox-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
