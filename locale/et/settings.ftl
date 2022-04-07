@@ -497,9 +497,47 @@ rk-cannot-refresh = Vabandust, taastevõtme uuendamisel esines probleem.
 rk-key-removed = Konto taastevõti eemaldati
 rk-cannot-remove-key = Konto taastevõtit polnud võimalik eemaldada.
 rk-refresh-key = Uuenda taastevõtit
+rk-content-explain = Taasta oma andmed, kui oled oma parooli unustanud.
+rk-content-reset-data = Miks parooli lähtestamine andmed kustutab?
+rk-cannot-verify-session-2 = Vabandust, seansi kinnitamisel esines probleem.
+rk-remove-modal-heading = Kas eemaldada taastevõti?
+rk-remove-modal-content =
+    Juhul, kui lähtestad oma parooli, siis pole sul võimalik oma
+    taastevõtmega oma andmetele ligi pääseda. Seda tegevust ei saa tagasi võtta.
+rk-refresh-error = Vabandust, taastevõtme uuendamisel esines probleem.
+rk-remove-error = Konto taastevõtit polnud võimalik eemaldada.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Teine e-posti aadress
+    .header = Teine e-posti aadress
+se-cannot-refresh-email = Vabandust, selle e-posti aadressi uuendamisel esines probleem.
+se-cannot-resend-code = Vabandust, kinnituskoodi uuesti saatmisel esines probleem.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } on nüüd sinu peamine e-posti aadress.
+se-set-primary-error = Vabandust, peamise e-posti aadressi uuendamisel esines probleem.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } on edukalt kustutatud.
+se-delete-email-error = Vabandust, selle e-posti aadressi kustutamisel esines probleem.
+se-verify-session = Sa pead selle tegevuse tegemiseks oma praeguse seansi kinnitama.
+se-verify-session-error = Vabandust, seansi kinnitamisel esines probleem.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Eemalda e-posti aadress
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Uuenda e-posti aadressi
+se-unverified = kinnitamata
+se-resend-code =
+    Vajalik on kinnitamine. <button>Saada kinnituskood uuesti</button>,
+    kui see pole sinu postkastis rämpsu hulgas.
+# Button to make secondary email the primary
+se-make-primary = Määra peamiseks
+se-default-content = Pääse ligi oma kontole, kui sa ei saa kasutada oma peamist e-posti aadressi.
 
 ##
 
