@@ -202,7 +202,8 @@ la-description = 您已授权连接下列账号。
 la-unlink-button = 断开连接
 la-unlink-account-button = 断开连接
 la-unlink-heading = 断开与第三方账号的连接
-la-unlink-content = 您确定要断开连接 { -brand-google } 账号吗？此操作不会自动将您从这些服务退出。为此，您需要到“关联服务”版块手动退出。
+la-unlink-content = 您确定要断开与 { -brand-google } 账户的连接吗？此操作不会自动将您从这些服务退出。为此，您需要到“关联服务”版块手动退出。
+la-unlink-content-2 = 您确定要断开与账户的连接吗？此操作不会自动将您从这些服务退出。为此，您需要到“关联服务”版块手动退出。
 nav-linked-accounts = { la-heading }
 
 ## Modal
