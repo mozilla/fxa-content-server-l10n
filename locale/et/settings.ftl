@@ -383,12 +383,52 @@ add-secondary-email-save-button = Salvesta
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Samm 2 2st
+verify-secondary-email-error = Kinnituskoodi saatmisel esines probleem.
+verify-secondary-email-page-title =
+    .title = Teine e-posti aadress
+verify-secondary-email-verification-code =
+    .label = Sisesta kinnituskood
+verify-secondary-email-cancel-button = Loobu
+verify-secondary-email-verify-button = Kinnita
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code = Palun sisesta kinnituskood, mis saadeti 5 minuti jooksul aadressile <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert = { $email } edukalt lisatud.
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Kustuta konto
 
 ## Two Step Authentication
 
+tfa-title = Kaheastmeline autentimine
+tfa-step-1-3 = Samm 1 3st
+tfa-step-2-3 = Samm 2 3st
+tfa-step-3-3 = Samm 3 3st
+tfa-button-continue = Jätka
+tfa-button-cancel = Loobu
+tfa-button-finish = Lõpeta
+tfa-incorrect-totp = Vale kaheastmelise autentimise kood
+tfa-cannot-retrieve-code = Sinu koodi hankimisel esines probleem.
+tfa-cannot-verify-code = Taastekoodi kontrollimisel esines probleem.
+tfa-incorrect-recovery-code = Vale taastekood
+tfa-enabled = Kaheastmeline autentimine lubati
+tfa-scan-this-code = Skanni see QR-kood, kasutades <linkExternal>üht neist autentimisäppidest</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
+tfa-qa-code-alt = Toetatud rakendustes kaheastmelise autentimise seadistamiseks kasuta koodi { $secret }.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
+tfa-button-cant-scan-qr = Pole võimalik koodi skannida?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Sisesta see turvakood oma autentimisäppi:
 
 ##
 
