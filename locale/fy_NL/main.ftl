@@ -162,8 +162,8 @@ payment-confirm-with-legal-links-month =
 #  $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
-        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong>jierliks { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } jier { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <termsOfServiceLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betelmetoade mei <strong>jierliks { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
+       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betelmetoade <strong>elke { $intervalCount } jier mei { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
     }
 payment-confirm = Ik machtigje Mozilla, makker fan Firefox-produkten, om myn betellingsmetoade mei <strong>${ $amount } per { $interval }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
 
