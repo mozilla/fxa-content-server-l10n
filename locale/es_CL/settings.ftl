@@ -81,7 +81,7 @@ bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
 connect-another-fx-mobile = Obtener { -brand-firefox } en tu celular o tablet
 connect-another-find-fx-mobile =
     Busca { -brand-firefox } en { -google-play } y { -app-store } o
-    <br /><linkExternal>envía un enlace de descarga a tu dispositivo. /linkExternal>
+    <br /><linkExternal>envía un enlace de descarga a tu dispositivo.</linkExternal>
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -419,8 +419,8 @@ tfa-cannot-verify-code = Hubo un problema al verificar tu código de recuperaci�
 tfa-incorrect-recovery-code = Código de recuperación incorrecto
 tfa-enabled = Autenticación en dos pasos activada
 tfa-scan-this-code =
-    Escanea este código QR usando una de <linkExterior>estas
-    aplicaciones de autenticación</linkexternal>.
+    Escanea este código QR usando una de <linkExternal>estas
+    aplicaciones de autenticación</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
