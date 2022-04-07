@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2019-07-05 13:42+0000\n"
 "Last-Translator: ജോയ്സ് <joicefootball@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,7 +128,7 @@ msgstr ""
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr ""
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "ബ്രൌസിങ് തുടങ്ങാം"
 
@@ -1066,11 +1066,11 @@ msgstr "പരിശോധിക്കുക"
 msgid "Need another code? Resend"
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "മറ്റൊരു ഉപകരണം ബന്ധിപ്പിക്കുക"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "ഈ ഫയർഫോക്സ് ബന്ധിപ്പിച്ചിരിക്കുന്നു"
 
@@ -1086,7 +1086,7 @@ msgstr ""
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "ഫയർ ഫോക്സിലേക്ക് പ്രവേശിച്ച് സജ്ജീകരണങ്ങള്‍ പൂർത്തിയാക്കുക"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "ഇപ്പോഴും ഉപകരണങ്ങൾ ചേർക്കുന്നുണ്ടോ?"
@@ -1470,62 +1470,6 @@ msgid ""
 "          "
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr ""
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr ""
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "മൊബൈൽ ഫോൺ നമ്പർ"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "അയയ്ക്കുക"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr ""
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "എന്തിനാണ് ഒന്നിലധികം ഉപകരണങ്ങളുമായി സമന്വയിപ്പിക്കുന്നത്?"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr ""
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr ""
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr ""
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr ""
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr ""
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr ""
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "ഇനിയും കിട്ടിയില്ലേ? എങ്കില്‍ വീണ്ടും അയയ്ക്കുക"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr ""
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "ഫയർഫോക്സ് അക്കൗണ്ടുകൾ"
@@ -1585,6 +1529,14 @@ msgstr ""
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr ""
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "അയയ്ക്കുക"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "എന്തിനാണ് ഒന്നിലധികം ഉപകരണങ്ങളുമായി സമന്വയിപ്പിക്കുന്നത്?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2032,6 +1984,12 @@ msgstr "ഒരു അപ്ലിക്കേഷൻ ഉപയോഗിച്ച�
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Mobile phone number"
+#~ msgstr "മൊബൈൽ ഫോൺ നമ്പർ"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "ഇനിയും കിട്ടിയില്ലേ? എങ്കില്‍ വീണ്ടും അയയ്ക്കുക"
 
 #~ msgid "Change"
 #~ msgstr "മാറ്റുക"

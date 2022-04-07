@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2021-08-12 03:44+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,7 +129,7 @@ msgstr "사용자의 동기화 데이터는 보호됩니다"
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "계정에 접근할 수 없더라도, 동기화 데이터를 복원할 수 있습니다."
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "탐색 시작"
 
@@ -1069,11 +1069,11 @@ msgstr "검증"
 msgid "Need another code? Resend"
 msgstr "다른 코드가 필요하신가요? 다시 보내기"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "다른 기기 연결"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "이 Firefox는 연결되었습니다"
 
@@ -1089,7 +1089,7 @@ msgstr "설정 완료"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "이 Firefox에 로그인하여 설정을 완료하세요"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "더 추가할 기기가 있으신가요?"
@@ -1473,62 +1473,6 @@ msgid ""
 "          "
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr "휴대전화와 동기화하시겠습니까?"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "SMS로 링크를 전송하여 휴대전화에 Firefox를 설치하세요."
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "핸드폰 번호"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "보내기"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "SMS 및 데이터 요금이 부과될 수 있습니다. 전송에 동의가 필요합니다. <a %(escapedLearnMoreAttributes)s>더 알아보기</a>"
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "왜 여러 개의 기기를 동기화하나요?"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr "나중에"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "텍스트 확인"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr "문자 메시지가 전송되었습니다"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "%(escapedPhoneNumber)s로 Firefox 앱에 접근하기 위한 링크가 전송되었습니다."
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "번호가 잘못되었나요?"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "SMS 메세지를 받지 못했다면 앱 스토어에서 “Firefox”를 검색할 수도 있습니다."
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "도착하지 않았나요? 다시 전송"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "왜 다른 기기에 로그인해야하나요?"
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox 계정"
@@ -1588,6 +1532,14 @@ msgstr "제목(선택 사항)"
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "문제에 대한 설명"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "보내기"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "왜 여러 개의 기기를 동기화하나요?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2035,6 +1987,42 @@ msgstr "앱으로 페어링"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페어링해야 합니다."
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "휴대전화와 동기화하시겠습니까?"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "SMS로 링크를 전송하여 휴대전화에 Firefox를 설치하세요."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "핸드폰 번호"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "SMS 및 데이터 요금이 부과될 수 있습니다. 전송에 동의가 필요합니다. <a %(escapedLearnMoreAttributes)s>더 알아보기</a>"
+
+#~ msgid "Not now"
+#~ msgstr "나중에"
+
+#~ msgid "Check your texts"
+#~ msgstr "텍스트 확인"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "문자 메시지가 전송되었습니다"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "%(escapedPhoneNumber)s로 Firefox 앱에 접근하기 위한 링크가 전송되었습니다."
+
+#~ msgid "Wrong number?"
+#~ msgstr "번호가 잘못되었나요?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "SMS 메세지를 받지 못했다면 앱 스토어에서 “Firefox”를 검색할 수도 있습니다."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "도착하지 않았나요? 다시 전송"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "왜 다른 기기에 로그인해야하나요?"
 
 #~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">도움말</a>"

@@ -234,7 +234,7 @@ mvs-enter-verification-code = Fier jo ferifikaasjekoade yn
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Fier binnen 5 minuten de ferifikaasjekoade yn dy’t nei { $email } ferstjoerd is.
+mvs-enter-verification-code-desc = Fier binnen 5 minuten de ferifikaasjekoade yn dy’t nei <email>{ $email }</email> ferstjoerd is.
 msv-cancel-button = Annulearje
 msv-submit-button = Ferifiearje
 

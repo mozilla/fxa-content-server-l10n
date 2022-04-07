@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2021-09-18 09:25+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,7 +128,7 @@ msgstr "ข้อมูลการซิงค์ของคุณได้ร
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "หากคุณสูญเสียการเข้าถึงบัญชีของคุณ คุณจะสามารถคืนค่าข้อมูลการซิงค์ของคุณได้"
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "เริ่มการเรียกดู"
 
@@ -1067,11 +1067,11 @@ msgstr "ยืนยัน"
 msgid "Need another code? Resend"
 msgstr "ต้องการรหัสอื่นหรือไม่? ส่งใหม่"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "เชื่อมต่ออุปกรณ์อื่น"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Firefox นี้เชื่อมต่อแล้ว"
 
@@ -1087,7 +1087,7 @@ msgstr "ทำการตั้งค่าของคุณให้เสร
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "ลงชื่อเข้าใช้ Firefox นี้เพื่อการติดตั้งที่สมบูรณ์"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "ต้องการเพิ่มอุปกรณ์?"
@@ -1471,62 +1471,6 @@ msgid ""
 "          "
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr "คุณต้องการซิงค์โทรศัพท์ของคุณหรือไม่?"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "ส่งลิงก์ทาง SMS เพื่อติดตั้ง Firefox บนโทรศัพท์ของคุณ"
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "เบอร์โทรศัพท์มือถือ"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "ส่ง"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "อาจมีค่าบริการ SMS และข้อมูลมือถือเพิ่มเติม โดยต้องได้รับความยินยอมจากผู้รับ <a %(escapedLearnMoreAttributes)s>เรียนรู้เพิ่มเติม</a>"
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "ทำไมต้องซิงค์หลายอุปกรณ์?"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr "ไม่ใช่ตอนนี้"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "ตรวจสอบข้อความของคุณ"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr "เราได้ส่งข้อความถึงคุณแล้ว"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "ลิงก์ไปยังแอพ Firefox ได้ถูกส่งไปยัง %(escapedPhoneNumber)s"
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "เลขหมายไม่ถูกต้อง?"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "หากคุณยังไม่ได้รับข้อความ SMS คุณสามารถค้นหา “Firefox” ใน app store ของคุณ"
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "ยังไม่ได้รับ? ส่งใหม่"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "ทำไมถึงควรลงชื่อเข้าใช้บนอุปกรณ์อื่น?"
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "บัญชี Firefox"
@@ -1586,6 +1530,14 @@ msgstr "หัวข้อ (ตัวเลือก)"
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "คำอธิบายของปัญหา"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "ส่ง"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "ทำไมต้องซิงค์หลายอุปกรณ์?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2033,6 +1985,42 @@ msgstr "จับคู่โดยใช้แอป"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "คุณใช้กล้องระบบหรือไม่? คุณต้องจับคู่จากภายในแอพ Firefox"
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "คุณต้องการซิงค์โทรศัพท์ของคุณหรือไม่?"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "ส่งลิงก์ทาง SMS เพื่อติดตั้ง Firefox บนโทรศัพท์ของคุณ"
+
+#~ msgid "Mobile phone number"
+#~ msgstr "เบอร์โทรศัพท์มือถือ"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "อาจมีค่าบริการ SMS และข้อมูลมือถือเพิ่มเติม โดยต้องได้รับความยินยอมจากผู้รับ <a %(escapedLearnMoreAttributes)s>เรียนรู้เพิ่มเติม</a>"
+
+#~ msgid "Not now"
+#~ msgstr "ไม่ใช่ตอนนี้"
+
+#~ msgid "Check your texts"
+#~ msgstr "ตรวจสอบข้อความของคุณ"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "เราได้ส่งข้อความถึงคุณแล้ว"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "ลิงก์ไปยังแอพ Firefox ได้ถูกส่งไปยัง %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "เลขหมายไม่ถูกต้อง?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "หากคุณยังไม่ได้รับข้อความ SMS คุณสามารถค้นหา “Firefox” ใน app store ของคุณ"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "ยังไม่ได้รับ? ส่งใหม่"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "ทำไมถึงควรลงชื่อเข้าใช้บนอุปกรณ์อื่น?"
 
 #~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">ช่วยเหลือ</a>"

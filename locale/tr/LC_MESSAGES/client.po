@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2022-03-28 10:08+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,7 +129,7 @@ msgstr "Eşitlenen verileriniz korunuyor"
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "Hesabınıza ulaşamaz hale gelirseniz eşitlenen verilerinizi kurtarabilirsiniz."
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Gezinmeye başlayın"
 
@@ -1071,11 +1071,11 @@ msgstr "Doğrula"
 msgid "Need another code? Resend"
 msgstr "Başka bir koda mı ihtiyacınız var? Yeniden gönder"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Başka bir cihaz bağla"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Bu Firefox bağlandı"
 
@@ -1091,7 +1091,7 @@ msgstr "Kurulumunuzu tamamlayın"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Kurulumu tamamlamak için Bu Firefox'a giriş yapın"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Hâlâ cihaz mı ekliyorsunuz?"
@@ -1477,62 +1477,6 @@ msgid ""
 "          "
 msgstr ""
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr "Telefonunuzu eşitlemek ister misiniz?"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "Telefonunuza Firefox'u yüklemek için SMS ile link gönderin."
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "Cep telefonu numarası"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "Gönder"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "SMS ve veri ücretleri uygulanabilir. <a %(escapedLearnMoreAttributes)s>Daha fazla bilgi alın</a>"
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Neden birden fazla cihazı eşitlemelisiniz?"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr "Daha sonra"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "Kısa mesajlarınızı kontrol edin"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr "Size kısa mesaj gönderdik"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "Firefox uygulamasının bağlantısını %(escapedPhoneNumber)s numarasına gönderdik"
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "Yanlış numara mı?"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "SMS gelmezse uygulama mağazasında “Firefox”u arayıp yükleyebilirsiniz."
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Gelmedi mi? Yeniden gönder"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "Neden başka bir cihazdan giriş yapmalısınız?"
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox Hesapları"
@@ -1592,6 +1536,14 @@ msgstr "Konu (isteğe bağlı)"
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "Sorunun açıklaması"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Gönder"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Neden birden fazla cihazı eşitlemelisiniz?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2041,6 +1993,42 @@ msgstr "Uygulama kullanarak eşleştir"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sistem kamerasını mı kullandınız? Bir Firefox uygulaması içinden eşleştirme yapmalısınız."
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "Telefonunuzu eşitlemek ister misiniz?"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "Telefonunuza Firefox'u yüklemek için SMS ile link gönderin."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Cep telefonu numarası"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "SMS ve veri ücretleri uygulanabilir. <a %(escapedLearnMoreAttributes)s>Daha fazla bilgi alın</a>"
+
+#~ msgid "Not now"
+#~ msgstr "Daha sonra"
+
+#~ msgid "Check your texts"
+#~ msgstr "Kısa mesajlarınızı kontrol edin"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "Size kısa mesaj gönderdik"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "Firefox uygulamasının bağlantısını %(escapedPhoneNumber)s numarasına gönderdik"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Yanlış numara mı?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "SMS gelmezse uygulama mağazasında “Firefox”u arayıp yükleyebilirsiniz."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Gelmedi mi? Yeniden gönder"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Neden başka bir cihazdan giriş yapmalısınız?"
 
 #~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Yardım</a>"

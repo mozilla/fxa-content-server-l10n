@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2022-03-26 09:04+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,7 +130,7 @@ msgstr "Τα δεδομένα συγχρονισμού σας προστατεύ
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "Αν χάσετε την πρόσβαση στον λογαριασμό σας, θα μπορείτε να επαναφέρετε τα δεδομένα συγχρονισμού σας."
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Έναρξη περιήγησης"
 
@@ -1075,11 +1075,11 @@ msgstr "Επαλήθευση"
 msgid "Need another code? Resend"
 msgstr "Χρειάζεστε άλλο κωδικό; Αποστολή ξανά"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Σύνδεση μιας άλλης συσκευής"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Έγινε σύνδεση αυτού του Firefox"
 
@@ -1095,7 +1095,7 @@ msgstr "Ολοκληρώστε τη ρύθμιση"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Συνδεθείτε σε αυτό το Firefox για ολοκλήρωση ρύθμισης"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Προσθέτετε ακόμη συσκευές;"
@@ -1499,62 +1499,6 @@ msgstr ""
 "            τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση απορρήτου</a> του Firefox\n"
 "          "
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr "Θέλετε να συγχρονίσετε το τηλέφωνό σας;"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "Αποστολή συνδέσμου μέσω SMS για εγκατάσταση του Firefox στο τηλέφωνό σας."
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "Αριθμός κινητού τηλεφώνου"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "Αποστολή"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "Ενδέχεται να ισχύουν χρεώσεις SMS &amp; δεδομένων. Απαιτείται η συγκατάθεση του παραλήπτη. <a %(escapedLearnMoreAttributes)s>Μάθετε περισσότερα</a>"
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Γιατί να συγχρονίσω πολλαπλές συσκευές;"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr "Όχι τώρα"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "Δείτε τα μηνύματά σας"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr "Σας έχουμε στείλει ένα μήνυμα κειμένου"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "Απεστάλη σύνδεσμος για την εφαρμογή Firefox στο %(escapedPhoneNumber)s"
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "Λάθος αριθμός;"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "Αν δεν λάβετε το μήνυμα SMS, μπορείτε επίσης να αναζητήσετε το “Firefox” στο κατάστημα εφαρμογών σας."
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Δεν έφτασε; Εκ νέου αποστολή"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "Γιατί να συνδεθείτε σε μια άλλη συσκευή;"
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Λογαριασμοί Firefox"
@@ -1614,6 +1558,14 @@ msgstr "Θέμα (προαιρετικό)"
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "Περιγραφή ζητήματος"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Αποστολή"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Γιατί να συγχρονίσω πολλαπλές συσκευές;"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2066,6 +2018,42 @@ msgstr "Σύζευξη με εφαρμογή"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Χρησιμοποιήσατε την κάμερα συστήματος; Πρέπει να κάνετε σύζευξη μέσα από την εφαρμογή Firefox."
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "Θέλετε να συγχρονίσετε το τηλέφωνό σας;"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "Αποστολή συνδέσμου μέσω SMS για εγκατάσταση του Firefox στο τηλέφωνό σας."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Αριθμός κινητού τηλεφώνου"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "Ενδέχεται να ισχύουν χρεώσεις SMS &amp; δεδομένων. Απαιτείται η συγκατάθεση του παραλήπτη. <a %(escapedLearnMoreAttributes)s>Μάθετε περισσότερα</a>"
+
+#~ msgid "Not now"
+#~ msgstr "Όχι τώρα"
+
+#~ msgid "Check your texts"
+#~ msgstr "Δείτε τα μηνύματά σας"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "Σας έχουμε στείλει ένα μήνυμα κειμένου"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "Απεστάλη σύνδεσμος για την εφαρμογή Firefox στο %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Λάθος αριθμός;"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "Αν δεν λάβετε το μήνυμα SMS, μπορείτε επίσης να αναζητήσετε το “Firefox” στο κατάστημα εφαρμογών σας."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Δεν έφτασε; Εκ νέου αποστολή"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Γιατί να συνδεθείτε σε μια άλλη συσκευή;"
 
 #~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Βοήθεια</a>"

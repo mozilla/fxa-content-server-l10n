@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2022-03-30 19:53+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,7 +130,7 @@ msgstr "您的数据同步受到保护"
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "若无法登录自己的账户，就无法恢复同步数据。"
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "开始浏览"
 
@@ -1070,11 +1070,11 @@ msgstr "验证"
 msgid "Need another code? Resend"
 msgstr "重发验证码"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "连接其他设备"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "此 Firefox 已连接"
 
@@ -1090,7 +1090,7 @@ msgstr "完成个人设置"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "登录此 Firefox 以完成设置"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "仍要添加设备？"
@@ -1482,62 +1482,6 @@ msgstr ""
 "Pocket 的<a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服务条款</a>及<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">隐私声明</a><br />\n"
 "Firefox 的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>"
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr "要与手机同步吗？"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "通过短信发送链接，在手机上安装 Firefox。"
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "手机号码"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "发送"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "可能会收取短信或流量费用。接收者须事先同意。<a %(escapedLearnMoreAttributes)s>详细了解</a>"
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "为什么是同步多个设备？"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr "暂时不要"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "请查收短信"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr "我们已向您发了一条短信"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "已将 Firefox App 的链接发送到 %(escapedPhoneNumber)s"
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "号码错误？"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "若您未收到短信，也可以到应用商店搜索“Firefox”。"
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "没收到？重新发送"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "为什么要在其他设备登录？"
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox 账户"
@@ -1597,6 +1541,14 @@ msgstr "主题（选填）"
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "问题描述"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "发送"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "为什么是同步多个设备？"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2044,6 +1996,42 @@ msgstr "请使用应用（App）配对"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "您用了系统的“相机”应用？配对必须通过 Firefox 应用（App）完成。"
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "要与手机同步吗？"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "通过短信发送链接，在手机上安装 Firefox。"
+
+#~ msgid "Mobile phone number"
+#~ msgstr "手机号码"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "可能会收取短信或流量费用。接收者须事先同意。<a %(escapedLearnMoreAttributes)s>详细了解</a>"
+
+#~ msgid "Not now"
+#~ msgstr "暂时不要"
+
+#~ msgid "Check your texts"
+#~ msgstr "请查收短信"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "我们已向您发了一条短信"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "已将 Firefox App 的链接发送到 %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "号码错误？"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "若您未收到短信，也可以到应用商店搜索“Firefox”。"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "没收到？重新发送"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "为什么要在其他设备登录？"
 
 #~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">帮助</a>"

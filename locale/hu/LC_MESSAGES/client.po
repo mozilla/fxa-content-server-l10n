@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2022-03-25 09:02+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,7 +130,7 @@ msgstr "A szinkronizálási adatai védettek"
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "Ha elveszíti hozzáférését a fiókjához, akkor vissza fogja tudni állítani a szinkronizálási adatokat."
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Böngészés megkezdése"
 
@@ -1074,11 +1074,11 @@ msgstr "Ellenőrzés"
 msgid "Need another code? Resend"
 msgstr "Egy másik kódra van szüksége? Újraküldés"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Másik eszköz csatlakoztatása"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Ez a Firefox csatlakoztatva van"
 
@@ -1094,7 +1094,7 @@ msgstr "Végezze el a beállítást"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Jelentkezzen be ebbe a Firefoxba a beállítás befejezéséhez"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Még mindig ad hozzá eszközt?"
@@ -1493,62 +1493,6 @@ msgstr ""
 "              A Firefox <a id=\"fxa-tos\" href=\"/legal/terms\">Szolgáltatási feltételeibe</a> és az <a id=\"fxa-pp\" href=\"/legal/privacy\">Adatvédelmi nyilatkozatába</a>\n"
 "            "
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr "Szeretné szinkronizálni a telefonját?"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "Küldjön egy hivatkozást SMS-ben a Firefox telefonra telepítéséhez."
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "Mobiltelefonszám szükséges"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "Küldés"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "SMS és adathasználati költséggel járhat. A címzett hozzájárulása szükséges. <a %(escapedLearnMoreAttributes)s>Tudjon meg többet</a>"
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Miért szinkronizáljon több eszközt?"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr "Most nem"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "Nézze meg az üzeneteit"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr "Szöveges üzenetet küldtünk Önnek"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "Elküldtük a Firefox alkalmazás hivatkozását erre számra: %(escapedPhoneNumber)s"
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "Téves telefonszám?"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "Ha nem kapja meg az SMS-üzenetet, akkor az alkalmazásboltban is megkeresheti a „Firefox” alkalmazást."
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Nem érkezett meg? Újraküldés"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "Miért jelentkezzen be egy másik eszközön?"
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Firefox fiókok"
@@ -1608,6 +1552,14 @@ msgstr "Tárgy (nem kötelező)"
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "A probléma leírása"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Küldés"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Miért szinkronizáljon több eszközt?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2057,6 +2009,42 @@ msgstr "Párosítás egy alkalmazás segítségével"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Használta a rendszerkamerát? Párosítania kell egy Firefox alkalmazásból."
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "Szeretné szinkronizálni a telefonját?"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "Küldjön egy hivatkozást SMS-ben a Firefox telefonra telepítéséhez."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Mobiltelefonszám szükséges"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "SMS és adathasználati költséggel járhat. A címzett hozzájárulása szükséges. <a %(escapedLearnMoreAttributes)s>Tudjon meg többet</a>"
+
+#~ msgid "Not now"
+#~ msgstr "Most nem"
+
+#~ msgid "Check your texts"
+#~ msgstr "Nézze meg az üzeneteit"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "Szöveges üzenetet küldtünk Önnek"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "Elküldtük a Firefox alkalmazás hivatkozását erre számra: %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Téves telefonszám?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "Ha nem kapja meg az SMS-üzenetet, akkor az alkalmazásboltban is megkeresheti a „Firefox” alkalmazást."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Nem érkezett meg? Újraküldés"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Miért jelentkezzen be egy másik eszközön?"
 
 #~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Segítség</a>"

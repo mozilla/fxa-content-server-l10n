@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-31 22:07+0000\n"
+"POT-Creation-Date: 2022-04-07 22:07+0000\n"
 "PO-Revision-Date: 2022-03-24 23:04+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,7 +129,7 @@ msgstr "Ваші синхронізовані дані захищені"
 msgid "If you lose access to your account, you’ll be able to restore your sync data."
 msgstr "Якщо ви втратите доступ до свого облікового запису, ви зможете відновити синхронізовані дані."
 
-#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2 .es5/templates/sms_sent.mustache:8
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
 msgstr "Почати перегляд"
 
@@ -1071,11 +1071,11 @@ msgstr "Підтвердити"
 msgid "Need another code? Resend"
 msgstr "Потрібен інший код? Надіслати повторно"
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/sms_send.mustache:4 .es5/templates/pair/index.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
 msgid "Connect another device"
 msgstr "Під'єднати інший пристрій"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/sms_send.mustache:1 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
 msgstr "Цей Firefox під'єднано"
 
@@ -1091,7 +1091,7 @@ msgstr "Завершіть налаштування"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Увійдіть в Firefox на цьому пристрої для завершення налаштування"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27 .es5/templates/sms_send.mustache:6
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
 #: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Все ще додаєте пристрої?"
@@ -1489,62 +1489,6 @@ msgstr ""
 "            <a id=\"fxa-tos\" href=\"/legal/terms\">Умови надання послуги</a> та <a id=\"fxa-pp\" href=\"/legal/privacy\">Положення про приватність</a> Firefox\n"
 "          "
 
-#: .es5/templates/sms_send.mustache:5
-msgid "Would you like to sync your phone?"
-msgstr "Хочете синхронізувати телефон?"
-
-#: .es5/templates/sms_send.mustache:8
-msgid "Send a link by SMS to install Firefox on your phone."
-msgstr "Надішліть посилання по SMS, щоб встановити Firefox на ваш телефон."
-
-#: .es5/templates/sms_send.mustache:9
-msgid "Mobile phone number"
-msgstr "Номер мобільного телефону"
-
-#: .es5/templates/sms_send.mustache:10 .es5/templates/support.mustache:22
-msgid "Send"
-msgstr "Надіслати"
-
-#: .es5/templates/sms_send.mustache:11
-msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-msgstr "Може стягуватися плата за SMS. Обов'язкова згода одержувача. <a %(escapedLearnMoreAttributes)s>Докладніше</a>"
-
-#: .es5/templates/sms_send.mustache:12 .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Нащо синхронізувати декілька пристроїв?"
-
-#: .es5/templates/sms_send.mustache:13
-msgid "Not now"
-msgstr "Не зараз"
-
-#: .es5/templates/sms_sent.mustache:1
-msgid "Check your texts"
-msgstr "Перевірте свої SMS-повідомлення"
-
-#: .es5/templates/sms_sent.mustache:2
-msgid "We've sent you a text message"
-msgstr "Ми надіслали вам текстове повідомлення"
-
-#: .es5/templates/sms_sent.mustache:3
-msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-msgstr "Посилання на додаток Firefox було надіслано на %(escapedPhoneNumber)s"
-
-#: .es5/templates/sms_sent.mustache:4
-msgid "Wrong number?"
-msgstr "Неправильний номер?"
-
-#: .es5/templates/sms_sent.mustache:5
-msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-msgstr "Якщо ви не отримали SMS-повідомлення, ви можете ввести \"Firefox\" в пошуковому полі свого магазину додатків."
-
-#: .es5/templates/sms_sent.mustache:6
-msgid "Didn't arrive? Resend"
-msgstr "Не прийшов? Надіслати повторно"
-
-#: .es5/templates/sms_sent.mustache:7
-msgid "Why sign in on another device?"
-msgstr "Навіщо входити на іншому пристрої?"
-
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
 msgstr "Облікові записи Firefox"
@@ -1604,6 +1548,14 @@ msgstr "Тема (необов'язково)"
 #: .es5/templates/support.mustache:20
 msgid "Description of issue"
 msgstr "Опис проблеми"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Надіслати"
+
+#: .es5/templates/why_connect_another_device.mustache:1
+msgid "Why sync multiple devices?"
+msgstr "Нащо синхронізувати декілька пристроїв?"
 
 #: .es5/templates/why_connect_another_device.mustache:2
 msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
@@ -2053,6 +2005,42 @@ msgstr "Створення пари з використанням програм
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ви використали системну камеру? Ви повинні створити пару в програмі Firefox."
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "Хочете синхронізувати телефон?"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "Надішліть посилання по SMS, щоб встановити Firefox на ваш телефон."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Номер мобільного телефону"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "Може стягуватися плата за SMS. Обов'язкова згода одержувача. <a %(escapedLearnMoreAttributes)s>Докладніше</a>"
+
+#~ msgid "Not now"
+#~ msgstr "Не зараз"
+
+#~ msgid "Check your texts"
+#~ msgstr "Перевірте свої SMS-повідомлення"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "Ми надіслали вам текстове повідомлення"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "Посилання на додаток Firefox було надіслано на %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Неправильний номер?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "Якщо ви не отримали SMS-повідомлення, ви можете ввести \"Firefox\" в пошуковому полі свого магазину додатків."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Не прийшов? Надіслати повторно"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Навіщо входити на іншому пристрої?"
 
 #~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Допомога</a>"
