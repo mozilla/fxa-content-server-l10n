@@ -538,12 +538,23 @@ se-resend-code =
 # Button to make secondary email the primary
 se-make-primary = Määra peamiseks
 se-default-content = Pääse ligi oma kontole, kui sa ei saa kasutada oma peamist e-posti aadressi.
+se-content-note =
+    Märkus: teist e-posti aadressi pole võimalik kasutada andmete
+    taastamiseks — selleks vajad<a>taastevõtit</a>.
+# Default value for the secondary email
+se-secondary-email-none = Puudub
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Kaheastmeline autentimine
+tfa-row-disabled = Kaheastmeline autentimine on keelatud.
+tfa-row-enabled = Lubatud
+tfa-row-not-set = Pole määratud
+tfa-row-action-add = Lisa
+tfa-row-action-disable = Keela
 
 ## Auth-server based errors that originate from backend service
 
