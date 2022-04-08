@@ -316,6 +316,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Annuller min adgang og kassér mine informationer gemt i
     { $name } den { $period }
+invoice-not-found = Efterfølgende faktura ikke fundet
+sub-item-no-such-subsequent-invoice = Efterfølgende faktura ikke fundet for dette abonnement.
 
 ## subscription iap item
 
@@ -342,6 +344,8 @@ sub-subscription-error =
     .title = Problem med indlæsning af abonnementer
 sub-customer-error =
     .title = Problem med indlæsning af kunde
+sub-invoice-error =
+    .title = Problem med indlæsning af fakturaer
 sub-billing-update-success = Dine faktureringsoplysninger er blevet opdateret
 sub-route-payment-modal-heading = Ugyldige faktureringsoplysninger
 sub-route-payment-modal-message = Der ser ud til at være en fejl med din { -brand-name-paypal }-konto. Du skal udføre de nødvendige ændringer for at løse problemet.
