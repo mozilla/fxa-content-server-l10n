@@ -555,6 +555,41 @@ tfa-row-enabled = Lubatud
 tfa-row-not-set = Pole määratud
 tfa-row-action-add = Lisa
 tfa-row-action-disable = Keela
+tfa-row-button-refresh =
+    .title = Uuenda kaheastmelist autentmist
+tfa-row-cannot-refresh =
+    Vabandust, kaheastmelise autentimise uuendamisel
+    esines probleem.
+tfa-row-content-explain =
+    Takista teiste sisselogimine, nõudes unikaalset koodi, millele
+    ainult sinul on ligipääs.
+tfa-row-cannot-verify-session-2 = Vabandust, seansi kinnitamisel esines probleem.
+tfa-row-disable-modal-heading = Kas keelata kaheastmeline autentimine?
+tfa-row-disable-modal-confirm = Keela
+tfa-row-disable-modal-explain =
+    Seda tegevust ei saa tagasi võtta. Sul on olemas võimalus ka
+    <linkExternal>asendada oma taastekoodid</linkExternal>.
+tfa-row-cannot-disable = Kaheastmelist autentimist polnud võimalik keelata.
+tfa-row-change-modal-heading = Kas muuta taastekoodid?
+tfa-row-change-modal-confirm = Muuda
+tfa-row-change-modal-explain = Seda tegevust ei saa tagasi võtta.
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Tundmatu konto
+auth-error-103 = Vigane parool
+auth-error-105 = Vigane kinnituskood
+auth-error-110 = Vigane turvatõend
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Proovisid liiga palju. Proovi uuesti { $retryAfter }.
+auth-error-138 = Kinnitamata seanss
+auth-error-139 = Teine e-posti aadress peab erinema konto peamisest e-posti aadressist.
+auth-error-155 = TOTP-turvatõendit ei leitud
+auth-error-183 = Vigane või aegunud kinnituskood
+auth-error-1008 = Vana ja uus parool peavad erinema
