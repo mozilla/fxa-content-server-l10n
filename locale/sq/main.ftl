@@ -309,6 +309,8 @@ sub-item-cancel-sub = Anulojeni Pajtimin
 sub-item-stay-sub = Qëndroni i Pajtuar
 sub-item-cancel-msg = Pas { $period }, dita e fundit e ciklit tuaj të faturimit, s’do të jeni në gjendje të përdorni { $name }.
 sub-item-cancel-confirm = Më { $period }, anuloni hyrjen time dhe të dhëna të miat të ruajtura brenda { $name }
+invoice-not-found = S’u gjet fatura pasuese
+sub-item-no-such-subsequent-invoice = S’u gjet fatura pasuese për këtë pajtim.
 
 ## subscription iap item
 
@@ -335,6 +337,8 @@ sub-subscription-error =
     .title = Problem në ngarkim pajtimesh
 sub-customer-error =
     .title = Problem në ngarkim klienti
+sub-invoice-error =
+    .title = Problem në ngarkim faturash
 sub-billing-update-success = Të dhënat tuaja të faturimit u përditësuan me sukses
 sub-route-payment-modal-heading = Të dhëna faturimi të pavlefshme
 sub-route-payment-modal-message = Duket se ka një gabim me llogarinë tuaj { -brand-name-paypal }, duhet të ndërmerrni hapat e nevojshëm për zgjidhjen e këtij problemi me pagesën.
@@ -369,6 +373,8 @@ coupon-error-expired = Kodi që dhatë ka skaduar.
 coupon-error-limit-reached = Kodi që dhatë ka mbërritur në kufirin e vet.
 coupon-error-invalid = Kodi që dhatë është i pavlefshëm.
 coupon-success = Plani juaj do të rinovohet vetvetiu me çmimin e treguar te lista.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Plani juaj do të rinovohet vetvetiu pas { $couponDurationDate } sipas çmimit të rregullt.
 coupon-enter-code =
     .placeholder = Jepni Kod
 
