@@ -439,7 +439,7 @@ tfa-incorrect-recovery-code = აღდგენის არასწორი 
 tfa-enabled = ორბიჯიანი დამოწმება შესვლისას ჩართულია
 tfa-scan-this-code =
     წააკითხეთ ეს QR-კოდი შესვლის <linkExternal>დამოწმების
-    რომელიმე ამ პროგრამას</ linkExternal>.
+    რომელიმე ამ პროგრამას</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation

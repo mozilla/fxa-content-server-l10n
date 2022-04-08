@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,7 +19,12 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-ლოგო">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="დასინქ. მოწყობილობები">
@@ -89,9 +91,6 @@ cancellationSurvey = გთხოვთ, დაგვეხმაროთ მ�
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს მცირე კითხვარი:
 change-password-plaintext = თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშზე წვდომის მოპოვებას ცდილობს, გთხოვთ, შეცვალეთ თქვენი პაროლი.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP-მისამართი: { $ip }
 manage-account = ანგარიშის მართვა
 manage-account-plaintext = { manage-account }:
 payment-details = გადახდის მონაცემები:
@@ -132,6 +131,9 @@ subscriptionUpdatePayment-plaintext = მომსახურების უ�
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = ვრცლად, იხილეთ { $supportUrl }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-მისამართი: { $ip }
 view-invoice = <a data-l10n-name="invoiceLink">იხილეთ თქვენი ზედნადები</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -151,12 +153,6 @@ downloadSubscription-subject = მოგესალმებათ { $productNa
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = მოგესალმებათ { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = თუ ჯერ კიდევ არ ჩამოგიტვირთავთ { $productName }, დაიწყეთ ყველა იმ შესაძლებლობით სარგებლობა, რომელთაც თქვენი გამოწერა შეიცავს:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = ჩამოტვირთეთ { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = აღდგენის კოდები თავდება
 codes-reminder-description = ჩვენ შევამჩნიეთ, რომ აღდგენის კოდები გითავდებათ. გთხოვთ, შექმნათ ახალი კოდები, თქვენს ანგარიშთან წვდომის დაკარგვის თავიდან ასაცილებლად.
@@ -337,9 +333,6 @@ subscriptionFirstInvoice-subject = { $productName } გადახდა და
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = გმადლობთ, რომ გამოიწერეთ { $productName }
 subscriptionFirstInvoice-content-processing = თქვენი გადახდა ამჟამად მუშავდება და შეიძლება გასტანოს ოთხ სამუშაო დღემდე.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = თქვენ მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით, თუ როგორ უნდა გამოიყენოთ { $productName }.
 subscriptionFirstInvoice-content-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -361,9 +354,6 @@ subscriptionFirstInvoiceDiscount-subject = { $productName } გადახდ�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = გმადლობთ, რომ გამოიწერეთ { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = თქვენი გადახდა ამჟამად მუშავდება და შეიძლება გასტანოს ოთხ სამუშაო დღემდე.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = თქვენ მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით, თუ როგორ უნდა გამოიყენოთ { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -423,7 +413,7 @@ subscriptionRenewalReminder-subject = { $productName } გამოწერი�
 subscriptionRenewalReminder-title = თქვენი გამოწერა განახლდება მალე
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionRenewalReminder-content-greeting = %(productName)s პროდუქტის ძვირფასო მომხმარებელო,
+subscriptionRenewalReminder-content-greeting = { $productName } პროდუქტის ძვირფასო მომხმარებელო,
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
@@ -433,7 +423,7 @@ subscriptionRenewalReminder-content-current = თქვენს მიმდი
 subscriptionRenewalReminder-content-closing = პატივისცემით,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionRenewalReminder-content-signature = %(productName)s პროდუქტის გუნდი
+subscriptionRenewalReminder-content-signature = { $productName } პროდუქტის გუნდი
 subscriptionsPaymentExpired-subject = თქვენი გამოწერების საკრედიტო ბარათს ვადა ეწურება
 subscriptionsPaymentExpired-title = თქვენი საკრედიტო ბარათის ვადა იწურება
 subscriptionsPaymentExpired-content = საკრედიტო ბარათის, რომელსაც გადახდებისთვის იყენებთ, ვადა ეწურება.
@@ -478,10 +468,10 @@ subscriptionSubsequentInvoiceDiscount-content-invoice-number = ზედნა�
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = ზედნადების ნომერი: { $invoiceNumber }
 # Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-plan-change = გეგმის ცვლილება: { $paymentProrated }
 # Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-charge = ჩამოიჭრა { $invoiceTotal } თარიღზე { $invoiceDateOnly }
 # Variables:
