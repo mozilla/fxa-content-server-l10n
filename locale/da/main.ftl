@@ -380,6 +380,8 @@ coupon-error-expired = Den angivne kode er udløbet.
 coupon-error-limit-reached = Den angivne kode har nået sin grænse.
 coupon-error-invalid = Den angivne kode er ugyldig.
 coupon-success = Din plan fornys automatisk til listeprisen.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Din plan fornys automatisk til listeprisen efter { $couponDurationDate }.
 coupon-enter-code =
     .placeholder = Indtast kode
 

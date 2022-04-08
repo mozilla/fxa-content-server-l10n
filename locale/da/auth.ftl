@@ -21,6 +21,7 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = Logger du ind på { -product-firefox-accounts }?
 session-verify-send-push-body = Klik her for at bekræfte, at det er dig
 
 ## Email content

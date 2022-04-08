@@ -219,6 +219,7 @@ la-unlink-button = Fjern tilknytning
 la-unlink-account-button = Fjern tilknytning
 la-unlink-heading = Fjern tilknytning til tredjeparts-konto
 la-unlink-content = Er du sikker på, at du vil fjerne din tilknytning til din { -brand-google }-konto? Hvis du fjerner tilknytningen til din konto, logges du ikke automatisk ud af disse tjenester. For at gøre det, skal du manuelt logge ud i afsnittet Forbundne tjenester.
+la-unlink-content-2 = Er du sikker på, at du vil fjerne tilknytningen til din konto? Hvis du fjerner tilknytningen til din konto, logges du ikke automatisk ud af disse tjenester. For at gøre det, skal du manuelt logge ud i afsnittet Forbundne tjenester.
 nav-linked-accounts = { la-heading }
 
 ## Modal
