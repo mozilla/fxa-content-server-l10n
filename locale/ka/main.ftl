@@ -316,6 +316,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     გაუქმდეს წვდომა და მონაცემები, მომსახურებასთან
     { $name } თარიღზე { $period }
+invoice-not-found = შემდგომი ზედნადები ვერ მოიძებნა
+sub-item-no-such-subsequent-invoice = შემდგომი ზედნადები ვერ მოიძებნა ამ გამოწერისთვის.
 
 ## subscription iap item
 
@@ -342,6 +344,8 @@ sub-subscription-error =
     .title = ხარვეზი, გამოწერების ჩატვირთვისას
 sub-customer-error =
     .title = ხარვეზი, მომხმარებლის ჩატვირთვისას
+sub-invoice-error =
+    .title = ხარვეზი, ზედნადებების ჩატვირთვისას
 sub-billing-update-success = თქვენი ანგარიშსწორების მონაცემები წარმატებით განახლდა
 sub-route-payment-modal-heading = ანგარიშსწორების არასწორი მონაცემები
 sub-route-payment-modal-message = როგორც ჩანს, თქვენს { -brand-name-paypal }-ანგარიშთან დაკავშირებით წარმოიშვა შეცდომა. ამ საკითხის მოსაგვარებლად, სათანადო ზომების მიღება დაგვჭირდება.
@@ -376,6 +380,8 @@ coupon-error-expired = თქვენ მიერ შეყვანილი 
 coupon-error-limit-reached = შეყვანილი კოდის გამოყენების რაოდენობა ამოწურულია.
 coupon-error-invalid = თქვენ მიერ შეყვანილი კოდი არამართებულია.
 coupon-success = თქვენი გადახდის გეგმა თავისით განახლდება ფასების ნუსხის მიხედვით.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = თქვენი გეგმა თავისით დაუბრუნდება განსაზღვრულ ტარიფს, თარიღიდან { $couponDurationDate }
 coupon-enter-code =
     .placeholder = შეიყვანეთ კოდი
 
