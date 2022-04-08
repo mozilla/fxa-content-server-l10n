@@ -21,6 +21,7 @@
 
 ## Non-email strings
 
+session-verify-send-push-body = დაწკაპეთ ვინაობის დასამოწმებლად
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
