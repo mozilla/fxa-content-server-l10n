@@ -52,6 +52,8 @@ card-error = 거래를 처리할 수 없습니다. 신용 카드 정보를 확�
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error-2 = 시스템 오류로 { $productName } 가입에 실패했습니다. 귀하의 지불 방식은 청구되지 않았습니다. 다시 시도해 주세요.
+newsletter-signup-error = 제품 업데이트 이메일에 가입되지 않았습니다. 계정 설정에서 다시 시도해 보세요.
+fxa-post-passwordless-sub-error = 구독이 확인되었지만 확인 페이지를 로드하지 못했습니다. 이메일을 확인하여 계정을 설정하세요.
 
 ## settings
 
@@ -62,6 +64,7 @@ settings-subscriptions-title = 구독 정보
 
 terms = 서비스 약관
 privacy = 개인정보처리방침
+terms-download = 약관 다운로드
 
 ## Subscription titles
 
@@ -151,13 +154,14 @@ payment-confirm-with-legal-links-year =
     { $intervalCount ->
        *[other] <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 { -brand-name-firefox } 제품 개발사인 { -brand-name-mozilla }가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } 년 </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
     }
-payment-confirm = <termsOfServiceLink>서비스 약관</termsOfServiceLink>와 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 Firefox 제품 개발사인 Mozilla가 저의 결제 수단으로 <strong> { $amount } / { $intervalCount } </strong>마다 구독을 취소할 때까지 청구하도록 승인합니다.
+payment-confirm = <termsOfServiceLink>서비스 약관</termsOfServiceLink>과 <privacyNoticeLink>개인 정보 보호 정책</privacyNoticeLink>에 따라 Firefox 제품 개발사인 Mozilla가 나의 결제 수단으로 <strong>{ $amount }/{ $interval }</strong>을 구독을 취소할 때까지 청구하도록 승인합니다.
 
 ##
 
 payment-cancel-btn = 취소
 payment-update-btn = 업데이트
 payment-pay-btn = 지금 지불
+payment-pay-with-paypal-btn = { -brand-name-paypal }로 결제
 payment-validate-name-error = 이름을 입력하세요
 payment-validate-zip-required = 우편 번호가 필요합니다
 payment-validate-zip-short = 우편 번호가 너무 짧습니다
@@ -175,6 +179,8 @@ input-error-is-required = { $label }이(가) 필요합니다
 
 ## subscription upgrade
 
+product-plan-change-heading = 변경사항 검토
+sub-change-failed = 플랜 변경 실패
 sub-update-payment-title = 결제 정보
 sub-update-card-exp = 만료일 { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -184,6 +190,7 @@ sub-update-copy =
 
 ##
 
+sub-change-submit = 변경 확인
 sub-update-current-plan-label = 현재 구독 정보
 sub-update-new-plan-label = 신규 구독 정보
 sub-update-total-label = 총
@@ -239,6 +246,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 다음 청구일: { $date }
+sub-expires-on = { $date }에 만료
 
 ##
 
@@ -290,6 +298,9 @@ sub-item-cancel-confirm =
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: 앱 내 구매
+sub-iap-item-apple-purchase = { -brand-name-apple }: 앱 내 구매
+sub-iap-item-manage-button = 관리
 account-activated = 계정이 활성화되었습니다. <userEl/>
 
 ## subscription route index
@@ -311,6 +322,11 @@ sub-subscription-error =
 sub-customer-error =
     .title = 고객 정보 읽기 문제
 sub-billing-update-success = 결제 정보가 성공적으로 업데이트되었습니다.
+sub-route-payment-modal-heading = 유효하지 않은 결제 정보
+sub-route-payment-modal-message = { -brand-name-paypal } 계정에 오류가 있는 것 같습니다. 이 지불 문제를 해결하기 위해 필요 절차를 행해 주셔야 합니다.
+sub-route-missing-billing-agreement-payment-alert = 유효하지 않은 결제 정보입니다. 계정에 오류가 있습니다. <div>관리</div>
+sub-route-funding-source-payment-alert = 유효하지 않은 결제 정보입니다. 계정에 오류가 있습니다. 정보를 성공적으로 업데이트한 후 이 알림이 지워지는 데까지 시간이 걸릴 수 있습니다. <div>관리</div>
+pay-update-manage-btn = 관리
 
 ## subscription create
 
@@ -325,12 +341,25 @@ plan-details-header = 제품 세부 정보
 plan-details-show-button = 상세 정보 보기
 plan-details-hide-button = 상세 내용 숨기기
 plan-details-total-label = 전체
+plan-details-list-price = 정가
 
 ## coupons
 
+coupon-discount = 할인
+coupon-discount-applied = 할인 보상 적용됨
+coupon-submit = 적용
+coupon-remove = 삭제
+coupon-error = 입력한 코드는 유효하지 않거나 만료되었습니다.
+coupon-error-generic = 코드 처리 과정에서 오류가 발생했습니다. 다시 시도해 주세요.
+coupon-error-expired = 입력한 코드가 만료되었습니다.
+coupon-error-invalid = 입력한 코드가 유효하지 않습니다.
+coupon-success = 요금제는 정가로 자동 갱신됩니다.
+coupon-enter-code =
+    .placeholder = 코드 입력
 
 ## payment-processing
 
+payment-processing-message = 결제를 처리하는 동안 잠시 기다려 주세요…
 
 ## payment confirmation
 
@@ -343,12 +372,14 @@ payment-confirmation-thanks-heading = 감사합니다!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = { $product_name }를 시작하는 방법에 대한 자세한 내용이 담긴 확인 메일이 { $email } 주소로 발송되었습니다.
+payment-confirmation-thanks-heading-account-exists = 감사합니다. 지금 메일을 확인해 보세요!
 
 ## $email (string) - The user's email.
 
 payment-confirmation-order-heading = 주문 정보
 payment-confirmation-invoice-number = 영수증 # { $invoiceNumber }
 payment-confirmation-billing-heading = 청구 완료
+payment-confirmation-details-heading-2 = 결제 정보
 payment-confirmation-amount = { $interval } 당 { $amount }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -378,3 +409,23 @@ payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
 
 ## new user email form
 
+new-user-sign-in-link = 이미 { -brand-name-firefox } 계정을 갖고 계신가요? <a>로그인</a>
+new-user-step-1 = { -brand-name-firefox } 계정을 만들어 보세요.
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .label = 이메일 입력
+new-user-confirm-email =
+    .label = 이메일 확인
+new-user-subscribe-product-updates = { -brand-name-firefox }에서 제품 업데이트 소식을 받길 원합니다.
+new-user-subscribe-product-assurance = 이메일은 오직 계정을 만드는 데만 사용됩니다. 절대 제3자에게 판매하지 않습니다.
+new-user-email-validate = 유효하지 않은 이메일
+new-user-email-validate-confirm = 이메일이 맞지 않습니다.
+new-user-already-has-account-sign-in = 이미 계정이 존재합니다. <a>로그인</a>
+new-user-card-title = 카드 정보를 입력하세요.
+new-user-submit = 지금 구독하기
+manage-pocket-title = { -brand-name-pocket } 프리미엄 구독 서비스를 찾으시나요?
+manage-pocket-body = 이를 해결하려면 <a>여기를 클릭</a>하세요.
+payment-method-header = 지불 방법 선택
+payment-method-required = 필수항목
