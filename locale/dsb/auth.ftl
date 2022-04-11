@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,7 +19,12 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="logo { -brand-firefox }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizěrowane rědy">
@@ -89,9 +91,6 @@ cancellationSurvey = Pšosym wobźělśo se na toś tom <a data-l10n-name="cance
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Pšosym wobźělśo se na toś tom krotkem napšašowanju, aby nam pomagał, naše słužby pólěpšyś:
 change-password-plaintext = Jolic měniśo, až něchten wopytujo, pśistup k wašomu kontoju dostaś, změńśo pšosym swójo gronidło.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP-adresa: { $ip }
 manage-account = Konto zastojaś
 manage-account-plaintext = { manage-account }:
 payment-details = Płaśeńske drobnostki:
@@ -132,6 +131,9 @@ subscriptionUpdatePayment-plaintext = Aby se pśetergnjenja swójeje słužby wo
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Za dalšne informacije woglědajśo se pšosym k { $supportUrl }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-adresa: { $ip }
 view-invoice = <a data-l10n-name="invoiceLink">Wašu zliceńku pokazaś</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -200,9 +202,6 @@ postAddAccountRecovery-action = Konto zastojaś
 postAddAccountRecovery-recovery = Jolic wy to njejsćo był, <a data-l10n-name="revokeAccountRecoveryLink">klikniśo how.</a>
 postAddAccountRecovery-revoke = Jolic wy to njejsćo był, wótwołajśo kluc.
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwězane konto
-#  Variables:
-#  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Konto wašogo póbitowarja jo se zwězało z wašym kontom { -product-firefox-account }.
 postAddLinkedAccount-action = Konto zastojaś
 postAddTwoStepAuthentication-subject = Dwójokšacowa awtentifikacija jo se zmóžniła
 postAddTwoStepAuthentication-title = Dwójokšacowa awtentifikacija jo se zmóžniła
@@ -469,10 +468,10 @@ subscriptionSubsequentInvoiceDiscount-content-invoice-number = Numer zliceńki: 
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Numer zliceńki: { $invoiceNumber }
 # Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-plan-change = Planowa změna: { $paymentProrated }
 # Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-charge = { $invoiceTotal })s dnja { $invoiceDateOnly } wópisane
 # Variables:
