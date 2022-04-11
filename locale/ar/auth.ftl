@@ -2,13 +2,27 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = حسابات Firefox
--product-firefox-account = حساب Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = حسابات Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = حساب Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Non-email strings
+
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
 fxa-privacy-url = سياسة موزيلا للخصوصيّة
-fxa-service-url = شروط استخدام { -brand-firefox } السحابية
 subplat-automated-email = هذا بريد إلكتروني الآلي، إذا تلقيته لوجود خطأ فليس مطلوب أي إجراء.
 subplat-privacy-plaintext = تنويه الخصوصية:
 subplat-terms-policy = الشروط وتنويه الإلغاء
@@ -17,6 +31,7 @@ subplat-update-billing = حدّث معلومات الفوترة
 automated-email-plaintext = هذا بريد إلكتروني الآلي، إذا تلقيته لوجود خطأ فليس مطلوب أي إجراء.
 change-password-plaintext = إذا كنت تظن أن شخصا أخر يحاول الوصول إلي حسابك، فرجاءً غير كلمة السرّ الخاصة بك.
 manage-account = أدِر الحساب
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = رموز الاستعادة المتبقية قليلة
 codes-reminder-description = لاحظنا بأن رموز الاستعادة لديك باتت قليلة. من فضلك خُذ بالحسبان أن توليد رموز جديدة يقيك من استحالة الوصول إلى حسابك.
 codes-generate = ولّد الرموز
@@ -31,6 +46,7 @@ passwordResetAccountRecovery-title = صُفِّرت كلمة سر حسابك ب�
 passwordResetAccountRecovery-description = نجح تصفير كلمة السر باستخدام أحد مفاتيح الاستعادة من الجهاز الآتي:
 passwordResetAccountRecovery-action = أنشئ مفتاح استعادة جديد
 passwordResetAccountRecovery-regen-required = سيكون عليك تولّيد مفتاح استعادة جديد.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = أنشئ مفتاح استعادة جديد:
 postAddAccountRecovery-subject = وُلّد مفتاح استعادة الحساب
 postAddAccountRecovery-title = وُلّد مفتاح استعادة الحساب
@@ -90,11 +106,6 @@ verifyPrimary-description = طُلب إجراء تغيير للحساب من ا�
 verifyPrimary-subject = أكّد البريد الإلكتروني الأولي
 verifyPrimary-action = أكّد البريد
 verifyPrimary-post-verify = ما إن تؤكّده ستكون التغييرات على الحساب (مثل إضافة بريد ثانوي) ممكنًا من هذا الجهاز.
-verifySecondary-subject = أكّد البريد الإلكتروني الثانوي
-verifySecondary-title = أكّد البريد الثانوي
-verifySecondary-action = أكّد البريد
-verifySecondary-post-verification = ما إن تؤكّده سيبدأ إرسال التنبيهات الأمنية والتأكيدات إلى هذا العنوان.
 verifySecondaryCode-subject = أكّد البريد الإلكتروني الثانوي
 verifySecondaryCode-title = أكّد البريد الثانوي
 verifyShortCode-expiry-notice = ستنقضي صلاحيته خلال خمس دقائق.
-
