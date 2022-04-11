@@ -302,6 +302,8 @@ sub-item-cancel-sub = 取消订阅
 sub-item-stay-sub = 保持订阅
 sub-item-cancel-msg = 在账单最后一天（{ $period }）之后，将无法继续使用 { $name }。
 sub-item-cancel-confirm = 在 { $period } 之后取消我对 { $name } 的访问权限与保存的所有信息
+invoice-not-found = 找不到后续发票
+sub-item-no-such-subsequent-invoice = 找不到此订阅的后续发票。
 
 ## subscription iap item
 
@@ -328,6 +330,8 @@ sub-subscription-error =
     .title = 加载订阅信息时出现问题
 sub-customer-error =
     .title = 加载客户资料时出现问题
+sub-invoice-error =
+    .title = 加载发票时出现问题
 sub-billing-update-success = 已成功更新账单信息
 sub-route-payment-modal-heading = 账单信息无效
 sub-route-payment-modal-message = 您的 { -brand-name-paypal } 账户似乎出现问题，请按下列必要步骤解决此付款问题。
