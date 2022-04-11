@@ -94,6 +94,8 @@ cancellationSurvey-plaintext = Nyungkeun kamandangna ku cara ngeusian surpéy po
 change-password-plaintext = Mun sangkaan anjeun batur aya nu nyoba ngaksés ka akun anjeun, geura robah sandi anjeun.
 manage-account = Kokolakeun akun
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Cara Mayar:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Patalekan ngeunaan pendaptaran anjeun? Tim pangdeudeul kami siap ngabantu:
