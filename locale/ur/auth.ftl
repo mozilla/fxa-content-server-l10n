@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -20,7 +17,12 @@
 # Other brands
 -brand-paypal = PayPal
 
+## Non-email strings
+
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-privacy-url = { -brand-mozilla } کی رازداری پالیسی
 subplat-automated-email = یہ ایک خودکار ای میل ہے؛ اگر یہ آپ کو کسی نقص میں موصول ہوئی ہے، کو عمل کرنے کی ظرورت نہیں ہے۔
@@ -72,7 +74,6 @@ postRemoveAccountRecovery-action = اکاؤنٹ بندوبست کریں
 postRemoveSecondary-subject = ثانوی ای میل ہٹا دی گئی
 postRemoveSecondary-title = ثانوی ای میل ہٹا دی گئی
 postRemoveSecondary-action = اکاؤنٹ بندوبست کریں
-postRemoveTwoStepAuthentication-subject = دو قدمی توثیق بند ہے
 postRemoveTwoStepAuthentication-title = دو قدمی توثیق غیر فعال ہوگئ
 postRemoveTwoStepAuthentication-action = اکاؤنٹ بندوبست کریں
 postRemoveTwoStepAuthentication-not-required = ہر ایک سائن ان پر سیکیورٹی کوڈز کی ضرورت نہیں ہوگی۔
@@ -90,7 +91,7 @@ subscriptionsPaymentExpired-title = آپ کے کریڈٹ کارڈ کی میعا�
 subscriptionUpgrade-title = اپ گریڈ کرنے کے لیے شکریہ!
 unblockCode-title = کیا یہ آُپ ہیں جو سائن ان کر رہے ہیں؟
 verificationReminderFirst-title = { -brand-firefox } کے خاندان میں خوش آمدید
-verificationReminderFirst-description = کچھ دن پہلے آپ نے { -brand-firefox } اکاؤنٹ بنایا ، لیکن کبھی اس کی تصدیق نہیں ہوئی۔
+verificationReminderFirst-description = کچھ دن پہلے آپ نے { product-firefox-account- } اکاؤنٹ بنایا ، لیکن کبھی اس کی تصدیق نہیں ہوئی۔
 confirm-email = ای میل کی توثیق کریں
 confirm-email-plaintext = :{ confirm-email }
 verificationReminderFirst-action = ای میل کی توثیق کریں
@@ -107,10 +108,6 @@ verifyPrimary-title = بنیادی ای میل کی توثیق کریں
 verifyPrimary-subject = بنیادی ای میل کی تصدیق کریں
 verifyPrimary-action = ای میل کی توثیق کریں
 verifyPrimary-action-plaintext = { verifyPrimary-action } :
-verifySecondary-subject = ثانوی ای میل کی تصدیق کریں
-verifySecondary-title = ثانوی ای میل کی توثیق کریں
-verifySecondary-action = ای میل کی توثیق کریں
-verifySecondary-prompt = { verifySecondary-action } :
 verifySecondaryCode-subject = ثانوی ای میل کی تصدیق کریں
 verifySecondaryCode-title = ثانوی ای میل کی توثیق کریں
 verifyShortCode-title = کیا یہ آپ ہیں جو سائن اپ کر رہے ہیں؟
