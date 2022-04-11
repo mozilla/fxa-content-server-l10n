@@ -448,7 +448,7 @@ sub-item-no-such-subsequent-invoice = Následná faktura pro toto předplatné n
 sub-iap-item-google-purchase = { -brand-name-google }: Nákup v aplikaci
 sub-iap-item-apple-purchase = { -brand-name-apple }: Nákup v aplikaci
 sub-iap-item-manage-button = Spravovat
-account-activated = Váš účet účet je aktivován.
+account-activated = Váš účet účet je aktivován, <userEl/>.
 
 ## subscription route index
 
