@@ -412,6 +412,8 @@ coupon-error-expired = Zapodaty kod je spadnył.
 coupon-error-limit-reached = Zapodaty kod je swój limit docpěł.
 coupon-error-invalid = Zapodaty kod je njepłaćiwy.
 coupon-success = Waš plan so awtomatisce za lisćinowu płaćiznu wobnowja.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Waš plan so po { $couponDurationDate } za lisćinowu płaćiznu awtomatisce podlěši.
 coupon-enter-code =
     .placeholder = Kod zapodać
 
