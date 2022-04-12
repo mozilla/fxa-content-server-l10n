@@ -380,6 +380,8 @@ coupon-error-expired = Pe ayvu emoingéva ndoikovéima.
 coupon-error-limit-reached = Pe ayvu emoingéva og̃uahẽma hu’ãme.
 coupon-error-invalid = Pe ayvu emoingéva ndoikovéima.
 coupon-success = Ne rembiaporã ipyahúta ijehegui tysýi repýpe.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Nde purupy hekopyahúta ijehegui { $couponDurationDate } rire tepy tysyiguávape.
 coupon-enter-code =
     .placeholder = Emoinge ayvu
 
