@@ -2,17 +2,33 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Non-email strings
+
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
 fxa-privacy-url = „Mozillos“ privatumo nuostatai
 fxa-service-url = „{ -product-firefox-cloud }“ paslaugos teikimo nuostatai
 subplat-automated-email = Tai – automatiškai išsiųstas laiškas. Jei jį gavote per klaidą, nieko daryti nereikia.
 automated-email-plaintext = Tai – automatiškai išsiųstas laiškas. Jei jį gavote per klaidą, nieko daryti nereikia.
 change-password-plaintext = Jeigu įtariate, kad kažkas kitas bando gauti prieigą prie jūsų paskyros, patarime pakeisti jos slaptažodį.
 manage-account = Tvarkyti paskyrą
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Liko nedaug atkūrimo kodų
 codes-reminder-description = Pastebėjome, jog jau panaudojote daugumą atkūrimo kodų. Patariame sugeneruoti naujus, kad netyčia neliktumėte negrįžtamai atskirti nuo savo duomenų.
 codes-generate = Generuoti kodus
@@ -25,6 +41,7 @@ passwordResetAccountRecovery-title = Jūsų paskyros slaptažodis atkurtas pasin
 passwordResetAccountRecovery-description = Jūsų slaptažodis sėkmingai atkurtas pasinaudojus atkūrimo raktu ir šiuo įrenginiu:
 passwordResetAccountRecovery-action = Generuoti naują atkūrimo raktą
 passwordResetAccountRecovery-regen-required = Jums reikės susigeneruoti naują atkūrimo raktą.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Generuoti naują atkūrimo raktą:
 postAddAccountRecovery-subject = Paskyros atkūrimo raktas sugeneruotas
 postAddAccountRecovery-title = Paskyros atkūrimo raktas sugeneruotas
@@ -79,9 +96,6 @@ verifyLogin-description = Vardan papildomo saugumo prašome patvirtinti prisijun
 verifyLogin-action = Patvirtinti prisijungimą
 verifyLoginCode-title = Ar tai jūs bandote prisijungti?
 verifyPrimary-title = Patvirtinkite pagrindinį el. paštą
-verifyPrimary-description = Iš žemiau nurodyto įrenginio gauta užklausa atlikti pakeitimą jūsų „{ -brand-firefox }“ paskyroje:
+verifyPrimary-description = Iš žemiau nurodyto įrenginio gauta užklausa atlikti pakeitimą jūsų:
 verifyPrimary-post-verify = Patvirtinus, iš šio įrenginio bus leidžiama atlikti paskyros pakeitimus, tokius, kaip antrino el. pašto pridėjimas.
-verifySecondary-title = Patvirtinkite antrinį el. paštą
-verifySecondary-post-verification = Patvirtinus, šis adresas pradės gauti saugumo pranešimus ir patvirtinimus.
 verifySecondaryCode-title = Patvirtinkite antrinį el. paštą
-
