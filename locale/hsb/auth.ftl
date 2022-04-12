@@ -180,6 +180,7 @@ downloadSubscription-subject = Witajće k { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Witajće k { $productName }
+downloadSubscription-content-2 = Započńće wšě funkcije w swojim abonemenće wužiwać:
 downloadSubscription-link-action-2 = Prěnje kroki
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Mało wobnowjenskich kodow wyše
@@ -363,6 +364,9 @@ subscriptionFirstInvoice-subject = Płaćenje { $productName } wobkrućene
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Wulki dźak, zo sće { $productName } abonował
 subscriptionFirstInvoice-content-processing = Waše płaćenje so tuchwilu předźěłuje a móže do štyrjoch wobchodnych dnjow trać.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Dóstanjeće separatnu mejlku wo tym, kak móžeće započeć { $productName } wužiwać.
 subscriptionFirstInvoice-content-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -384,6 +388,9 @@ subscriptionFirstInvoiceDiscount-subject = Płaćenje { $productName } wobkruće
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Wulki dźak, zo sće { $productName } abonował
 subscriptionFirstInvoiceDiscount-content-processing = Waše płaćenje so tuchwilu předźěłuje a móže do štyrjoch wobchodnych dnjow trać.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install-2 = Dóstanjeće separatnu mejlku wo tym, kak móžeće započeć { $productName } wužiwać.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
