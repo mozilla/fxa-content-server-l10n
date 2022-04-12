@@ -85,7 +85,6 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Obnovi naročnino
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Posodobi podatke za račun
-subplat-privacy-policy = Mozillina politika zasebnosti
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Pogoji uporabe storitev { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
