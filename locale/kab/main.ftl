@@ -347,6 +347,8 @@ sub-invoice-error =
 sub-billing-update-success = Talɣut-ik/im n ufter tettwaleqqem akken iwata
 sub-route-payment-modal-heading = Talɣut n ufter d tarameɣtut
 sub-route-payment-modal-message = Akka d-yettban tella tuccḍa aked umiḍan-ik·im { -brand-name-paypal }, ma ulac uɣilif xdem ayen i ilaqen i ferru n wugur-a n lexlaṣ.
+sub-route-missing-billing-agreement-payment-alert = Talɣut n uxelleṣ d tarameɣtut; tella tuccḍa akked umiḍan-ik·im. <div>Sefrek</div>
+sub-route-funding-source-payment-alert = Talɣut n uxelleṣ d tarameɣtut; tella tuccḍa deg umiḍan-ik·im. Alɣu-a yezmer ad yeṭṭef kra n wakud i wakken ad yekkes seld aleqqem n talɣut-ik·im. <div>Sefrek</div>
 pay-update-manage-btn = Sefrek
 
 ## subscription create
