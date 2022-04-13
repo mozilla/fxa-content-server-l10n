@@ -106,11 +106,25 @@ cadReminderFirst-title = Ha-t-a usmekti-inek/inem i umtawi n yibenkan.
 cadReminderSecond-subject = Asmekti aneggaru: Asebded ummid n umtawa
 cadReminderSecond-action = Mtawi ibenk-nniḍen
 cadReminderSecond-title = Asmekti aneggaru i umtawi n yibenkan!
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Ansuf ɣer { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Ansuf ɣer { $productName }
+downloadSubscription-link-action-2 = Bdu
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Qqiment-d kan kra n tigalin n usellek
 codes-reminder-description = Nwala d akken qqiment-d kan kra ntingalin n usellek. Yessefk ad tsirweḍ tingalin timaynutin akken ur k-yettruḥu ara umiḍan-ik.
 codes-generate = Sirew tingalin
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Sirew tingalin
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Tuqqna tamaynut ɣer { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = Tuqqna tamaynut ɣer { $clientName }
 newDeviceLogin-action = Sefrek amiḍan
 passwordChanged-subject = Awal uffir yettuleqqem
 passwordChanged-title = Awal uffir yettusnifel akken iwata
