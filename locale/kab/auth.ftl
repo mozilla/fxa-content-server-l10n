@@ -39,6 +39,10 @@ subplat-automated-email = Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen 
 subplat-privacy-notice = Tasertit n tbaḍnit
 subplat-privacy-plaintext = Tasertit n tbaḍnit:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Tremseḍ-d imayl-a acku { $email } ɣur-s { -product-firefox-account } daɣen tjerrdeḍ ɣer { $productName }.
 subplat-terms-policy = Tiwtilin akked tsertit n usefsex
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Sefsex ajerred
@@ -60,6 +64,9 @@ cancellationSurvey-plaintext = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni ime�
 change-password-plaintext = Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, snifel awal inek uffir ma ulac aɣilif.
 manage-account = Sefrek amiḍan
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Tarrayin n uxelleṣ:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tallelt a-tt-a da ad ak-d-efk afus:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
