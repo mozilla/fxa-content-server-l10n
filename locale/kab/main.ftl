@@ -52,6 +52,8 @@ card-error = Tanigawt-ik•im ur tezmir ara ad teddu. Ttxil senqed talɣut n tka
 ##  $productName (String) - The name of the subscribed product.
 
 fxa-account-signup-error-2 = Tuccḍa deg unagraw ad d-yeglu s uɣelluy n ujerrid-inek·inem ɣer { $productName }. Askar-ik·im n uxelleṣ ur yettwaεemmer ara. Ttxil-k·m εreḍ tikkelt-nniḍen.
+newsletter-signup-error = Ur tjerrdeḍ ara ɣer yilɣa n uleqqem n ufaris s yimayl. Tzemreḍ ad tεerḍeḍ tikkelt-nniḍen deg yiɣewwaren n umiḍan-ik·im.
+fxa-post-passwordless-sub-error = Amulteɣ yettwasentem, maca asebter n usentem yegguma ad d-yali. Ma ulac aɣilif, senqed imayl-ik·im i usbadu n umiḍan-ik·im.
 
 ## settings
 
@@ -344,6 +346,7 @@ sub-invoice-error =
     .title = Ugur deg usali n tfaṭurin
 sub-billing-update-success = Talɣut-ik/im n ufter tettwaleqqem akken iwata
 sub-route-payment-modal-heading = Talɣut n ufter d tarameɣtut
+sub-route-payment-modal-message = Akka d-yettban tella tuccḍa aked umiḍan-ik·im { -brand-name-paypal }, ma ulac uɣilif xdem ayen i ilaqen i ferru n wugur-a n lexlaṣ.
 pay-update-manage-btn = Sefrek
 
 ## subscription create
