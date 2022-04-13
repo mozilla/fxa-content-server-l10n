@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-07 22:07+0000\n"
-"PO-Revision-Date: 2022-04-13 21:41+0000\n"
+"PO-Revision-Date: 2022-04-13 21:51+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1472,6 +1472,11 @@ msgid ""
 "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Imi ad tkemmleḍ, ad tqebleḍ:<br />\n"
+"            <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tiwtilin n useqdec</a> akedd <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Tsertit n tbaḍnit</a> n Pocket<br />\n"
+"            <a id=\"fxa-tos\" href=\"/legal/terms\">Tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">Tsertit n tbaḍnit</a> n Firefox\n"
+"          "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1810,7 +1815,7 @@ msgstr "Immed"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Ayɣer i sriɣ ad d-snulfuɣ amiḍan-a? <a %(escapedSuggestionAttrs)s>Ugar n talɣut da</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1874,11 +1879,11 @@ msgstr "Firefox Relay"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Sign up for new accounts without handing over your email address."
-msgstr ""
+msgstr "Rnu imiḍanen imaynuten war amuddu n tansa-inek·inem n yimayl."
 
 #: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
-msgstr ""
+msgstr "Wali akk"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -1910,15 +1915,15 @@ msgstr "Tettnadiḍ Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>bdu dagi</a>
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
-msgstr ""
+msgstr "neɣ"
 
 #: .es5/templates/partial/third-party-auth.mustache:2
 msgid "Continue with Google"
-msgstr ""
+msgstr "Kemmel akked Google"
 
 #: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Apple"
-msgstr ""
+msgstr "Kemmel akked Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
