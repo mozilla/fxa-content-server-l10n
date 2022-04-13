@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-07 22:07+0000\n"
-"PO-Revision-Date: 2021-07-29 22:18+0000\n"
+"PO-Revision-Date: 2022-04-13 14:11+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -838,15 +838,12 @@ msgid "Invalid Token"
 msgstr "Ajiṭun mačči d ameɣtu"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Ma tkemleḍ, ad tqebleḍ <a id=\"service-tos\" href=\"%(termsUri)s\">tiwtilin n useqdec</a> akkeda <a id=\"service-pp\" href=\"%(privacyUri)s\">tsertit tabaḍnit</a> n %(serviceName)s (%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"service-tos\" href=\"%(termsUri)s\">tiwtilin n useqdec</a> akkeda <a id=\"service-pp\" href=\"%(privacyUri)s\">tsertit tabaḍnit</a> n %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Tallalt</a>"
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -911,8 +908,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Sekcem tasarutt n tririt ara tesqedceḍ tikkelt kan, i teskelseḍ deg umḍiq aɣelsan akken ad tkecmeḍ ɣer umiḍan-ik/im Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">TAZMILT:</span> Ma twennzeḍ awal uffir-ik/im u ur tesɛiḍ ara tasarutt n tririt ittwakelsen, kra n isefka ad ttwaksen (ula d isefka n uqeddac yemtawin am umezray akked tecraḍ n "
 "isebtar)."
@@ -2040,18 +2036,18 @@ msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Fire
 #~ msgstr "Awi ilɣa ticki tella trewla n yisefka."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
-#~ "encrypt your data with your password to protect your privacy."
-#~ msgstr ""
-#~ "<span>ASMEKT:</span> Ticki tulseḍ awennez n wawal-ik uffir, ad talseḍ awennez n umiḍan-ik. Kra n yisefka udmawanen zemren ad ṛuḥen (ama d amezruy, ticraḍ n yisebtar, akked wawalen uffiren). "
-#~ "Ayagi acku newgelhen isefka-ik s wawal uffir akken ad nemmesten tabaḍnit-ik."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 #~ "your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span>Tamawt:</span> Ticki tulseḍ awennez n wawal-ik uffir, ad talseḍ awennez n umiḍan-ik. Kra n yisefka udmawanen zemren ad ṛuḥen (ama d amezruy, ticraḍ n yisebtar, akked wawalen uffiren). "
-#~ "Ayagi acku newgelhen isefka-ik s wawal uffir akken ad nemmesten tabaḍnit-ik."
+#~ "<span>ASMEKT:</span> Ticki tulseḍ awennez n wawal-ik uffir, ad talseḍ awennez n umiḍan-ik. Kra n yisefka udmawanen zemren ad ṛuḥen (ama d amezruy, ticraḍ n yisebtar, akked wawalen uffiren). Ayagi "
+#~ "acku newgelhen isefka-ik s wawal uffir akken ad nemmesten tabaḍnit-ik."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
+#~ "data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>Tamawt:</span> Ticki tulseḍ awennez n wawal-ik uffir, ad talseḍ awennez n umiḍan-ik. Kra n yisefka udmawanen zemren ad ṛuḥen (ama d amezruy, ticraḍ n yisebtar, akked wawalen uffiren). Ayagi "
+#~ "acku newgelhen isefka-ik s wawal uffir akken ad nemmesten tabaḍnit-ik."
 
 #~ msgid "Change..."
 #~ msgstr "Snifel..."
@@ -2387,8 +2383,7 @@ msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Fire
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Amecwaṛ 2 ɣef 2: Sekles tasarut n tririt"
 
-#~ msgid ""
-#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr "<span class=\"note\">NOTE: </span>Ma tettuḍ awal uffir-ik/im, tasarutt-agi tettwasra akken ad tizmireḍ ad tkecmeḍ ɣer isefka-inek/inem. Sekles tasarutt-ik/im n tririt deg umḍiq ilaqen."
 
 #~ msgid "Done, Recovery key saved"
@@ -2534,8 +2529,7 @@ msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Fire
 #~ msgstr "UR sṛuhuy ara awal-agi uffir. Ma tesriḍ ad s-talseḍ asbadu, yezmer ad k-ruḥen isefka n umtawi."
 
 #~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr ""
-#~ "<span>Ur seqdac ara awal uffir n n yimayl</span>Ma yella albaɛt yessen awal uffir n yimayl-ik, ad yizmir ad isentem tuqqna s umiḍan-ik Firefox ɣef yibenk amaynut sakin ad yekcem ar isefka-ik."
+#~ msgstr "<span>Ur seqdac ara awal uffir n n yimayl</span>Ma yella albaɛt yessen awal uffir n yimayl-ik, ad yizmir ad isentem tuqqna s umiḍan-ik Firefox ɣef yibenk amaynut sakin ad yekcem ar isefka-ik."
 
 #~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>Cfu ɣef wawal-ik uffir</span>Ticki tulseḍ asbadu n wawal-ik uffir, ad ak-ṛuḥen isefka n umtawi ur nelli ara  deg ibenkan-ik."
@@ -2583,11 +2577,11 @@ msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Fire
 #~ msgstr "Sefrek ismenyifen"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+#~ "lose access to it everywhere."
 #~ msgstr ""
-#~ "MA tseqdaceḍ amiḍan-agi i yisnasen d yimezla n Mozilla am AMO, Pocket, Screenshots, yessefk di tazwara ad teqqneḍ sakin ad tekkseḍ meṛṛa talɣut tudmawant yettwaskelsen. Ticki tekkseḍ amiḍan-ik "
-#~ "dagi, yezmer ad ak-iṛuḥ unekcum ar yal amḍiq anida i t-tseqdaceḍ-t."
+#~ "MA tseqdaceḍ amiḍan-agi i yisnasen d yimezla n Mozilla am AMO, Pocket, Screenshots, yessefk di tazwara ad teqqneḍ sakin ad tekkseḍ meṛṛa talɣut tudmawant yettwaskelsen. Ticki tekkseḍ amiḍan-ik dagi,"
+#~ " yezmer ad ak-iṛuḥ unekcum ar yal amḍiq anida i t-tseqdaceḍ-t."
 
 #~ msgid "verified"
 #~ msgstr "ittwasenqeḍ"
@@ -2757,12 +2751,8 @@ msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Fire
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Inagan n tuqqna akked usekles adigan ttwasran."
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "Ma tkemleḍ, ad tqebleḍ <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\"> tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">tsertit tabaḍnit</a> n "
-#~ "imeẓla n usigna Firefox."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\"> tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">tsertit tabaḍnit</a> n imeẓla n usigna Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Imeẓla n usigna n Firefox"
@@ -2816,18 +2806,18 @@ msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Fire
 #~ msgstr "Acuɛe amtawi n sin (neɣ ugar!) n ibenkan?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
+#~ "Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sekles di Firefox ticṛaḍ-ik n isebtar, amazray-ik akken wawalen-ik uffiren, sakin bṭu-ten s useqdec n Sync ɣef ibenkan-ik nniḍen. Qqen s Firefox di tiliɣriyin-ik neɣ tifelwiyin inek n uselkem, "
-#~ "sakin ad twaliḍ akk ayen tsekelsed di Firefox i uselkim."
+#~ "Sekles di Firefox ticṛaḍ-ik n isebtar, amazray-ik akken wawalen-ik uffiren, sakin bṭu-ten s useqdec n Sync ɣef ibenkan-ik nniḍen. Qqen s Firefox di tiliɣriyin-ik neɣ tifelwiyin inek n uselkem, sakin"
+#~ " ad twaliḍ akk ayen tsekelsed di Firefox i uselkim."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync ur yettwafṣel ara akken ad yli d asnas n usekles yezgan, yettaǧa kan beṭṭu n wayen yettwakelsen s wudem adigan. Ma yella tesnifled awal inek uffir udiɣ isefka inek ur ttwakelsen ara ɣaṛwum "
-#~ "ɣef yiwen n yibenk nniḍen, yezmer ad tṛuḥ telɣut icudden ar wawal uffir aqbuṛ. Ɣef aya, ahat tebɣiḍ ad tesbeddeḍ Firefox udiɣ ad tesqedceḍ Sync ɣef ugar n yibenk."
+#~ "Sync ur yettwafṣel ara akken ad yli d asnas n usekles yezgan, yettaǧa kan beṭṭu n wayen yettwakelsen s wudem adigan. Ma yella tesnifled awal inek uffir udiɣ isefka inek ur ttwakelsen ara ɣaṛwum ɣef "
+#~ "yiwen n yibenk nniḍen, yezmer ad tṛuḥ telɣut icudden ar wawal uffir aqbuṛ. Ɣef aya, ahat tebɣiḍ ad tesbeddeḍ Firefox udiɣ ad tesqedceḍ Sync ɣef ugar n yibenk."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -2932,15 +2922,15 @@ msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Fire
 #~ msgstr "Kcem"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>REMEMBER</span> ma twenzeḍ awal uffir, kra  n isefka inek ad ruḥen ( ula d isefka n umtawi akked umazray d ticraḍ n isebtar). aya acku awgelhen n isefka nseqdac-it s wawal-inek uffir akken "
-#~ "ad naḥrez tabaḍbit-ik."
+#~ "<span>REMEMBER</span> ma twenzeḍ awal uffir, kra  n isefka inek ad ruḥen ( ula d isefka n umtawi akked umazray d ticraḍ n isebtar). aya acku awgelhen n isefka nseqdac-it s wawal-inek uffir akken ad "
+#~ "naḥrez tabaḍbit-ik."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
+#~ "protect your privacy."
 #~ msgstr ""
 #~ "<span>NOTE</span> ma twenzeḍ awal uffir, kra  n isefka inek ad ruḥen ( ula d isefka n umtawi akked umazray d ticraḍ n isebtar). aya acku awgelhen n isefka nseqdac-it s wawal-inek uffir akken ad "
 #~ "naḥrez tabaḍbit-ik."
@@ -3055,19 +3045,16 @@ msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Fire
 #~ msgid "Sync preferences"
 #~ msgstr "Ismenyifen n umtawi"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Tettnadiḍ Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Bdu dagi</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "Ɛur-k amiḍan s yimayl nniḍen? <a href=\"%(signinUri)s\">Kcem</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox yella i <a href=\"%(linkWindows)s\">windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> akked <a href=\"%(linkLinux)s"
-#~ "\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
+#~ msgstr "Firefox yella i <a href=\"%(linkWindows)s\">windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> akked <a href=\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Armud aneggaru: %(translatedTimeAgo)s"
