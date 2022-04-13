@@ -46,6 +46,7 @@ subplat-explainer-specific = Tremseḍ-d imayl-a acku { $email } ɣur-s { -produ
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Tremdeḍ-d imayl-a acku { $email } ɣur-s { -product-firefox-account }.
+subplat-explainer-multiple = Teṭṭfeḍ imayl-a acku { $email } ɣur-s { -product-firefox-account } yerna tmuletɣed ɣer waṭas n yifarisen.
 subplat-manage-account = Sefrek iɣewwarengik•im { -product-firefox-account } s tirza ɣer <a data-l10n-name="subplat-account-page">usebter n umiḍan-ik•im</a>.
 subplat-terms-policy = Tiwtilin akked tsertit n usefsex
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
@@ -77,6 +78,13 @@ change-password-plaintext = Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer
 manage-account = Sefrek amiḍan
 manage-account-plaintext = { manage-account }:
 payment-details = Talqayt n uxelleṣ:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Uṭṭun n tfaturt: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Yettwafter: { $invoiceTotal } deg { $invoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Tarrayin n uxelleṣ:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
