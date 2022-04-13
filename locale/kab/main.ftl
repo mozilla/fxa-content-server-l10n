@@ -311,9 +311,14 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Sefsex anekcum-inu d taɣult-inu yettwaskelsen deg
     { $name } deg { $period }
+invoice-not-found = Tafaṭurt-a ulac-itt
+sub-item-no-such-subsequent-invoice = Tafaṭurt-a ulac-itt i umultaɣ-a.
 
 ## subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Tiɣin s usnas
+sub-iap-item-apple-purchase = { -brand-name-apple }: Tiɣin s usnas
+sub-iap-item-manage-button = Sefrek
 account-activated = Amiḍan-inek/inem yermed, <userEl/>
 
 ## subscription route index
@@ -334,6 +339,8 @@ sub-subscription-error =
     .title = Ugur deg usali n yijerriden
 sub-customer-error =
     .title = Ugur deg usali n umsaɣ
+sub-invoice-error =
+    .title = Ugur deg usali n tfaṭurin
 sub-billing-update-success = Talɣut-ik/im n ufter tettwaleqqem akken iwata
 sub-route-payment-modal-heading = Talɣut n ufter d tarameɣtut
 pay-update-manage-btn = Sefrek

@@ -64,6 +64,9 @@ subplat-privacy = Tabaḍnit
 subplat-privacy-website-plaintext = { subplat-privacy }:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Sader { $productName } seg { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Sader { $productName } seg { -app-store }">
 another-desktop-device = Neɣ, sebded ɣef <a data-l10n-name="anotherDeviceLink">yibenk-nniḍen n tnarit</a>.
 another-device = Neɣ, sebded ɣef <a data-l10n-name="anotherDeviceLink">yibenk-nniḍen</a>.
