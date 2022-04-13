@@ -218,6 +218,8 @@ la-description = Tmuddeḍ tisirag i unekcum ɣer yimiḍanen-a.
 la-unlink-button = Sefsex tuqqna
 la-unlink-account-button = Sefsex tuqqna
 la-unlink-heading = Sefsex tuqqna akked umiḍan n wis kraḍ
+la-unlink-content = D tidet tebɣiḍ ad tesfesxeḍ tuqqna n umiḍan-ik·im { -brand-google }? Asefsex n tuqqna n umiḍan-ik·im ur ak·akem-isuffeɣ s wudem awurman seg yimeẓla-nni. I wakken ad tgeḍ aya, ilaq ad teffɣeḍ s ufus seg tefrant n Yimeẓla yeqqnen.
+la-unlink-content-2 = D tidet tebɣiḍ ad tesfesxeḍ tuqqna n umiḍan-ik·im? Asefsex n tuqqna n umiḍan-ik·im ur ak·akem-isuffeɣ s wudem awurman seg yimeẓla-nni. I wakken ad tgeḍ aya, ilaq ad teffɣeḍ s ufus seg tefrant n Yimeẓla yeqqnen.
 nav-linked-accounts = { la-heading }
 
 ## Modal

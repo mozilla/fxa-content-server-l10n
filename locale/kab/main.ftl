@@ -51,6 +51,7 @@ card-error = Tanigawt-ik•im ur tezmir ara ad teddu. Ttxil senqed talɣut n tka
 
 ##  $productName (String) - The name of the subscribed product.
 
+fxa-account-signup-error-2 = Tuccḍa deg unagraw ad d-yeglu s uɣelluy n ujerrid-inek·inem ɣer { $productName }. Askar-ik·im n uxelleṣ ur yettwaεemmer ara. Ttxil-k·m εreḍ tikkelt-nniḍen.
 
 ## settings
 
