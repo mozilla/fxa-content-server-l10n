@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-07 22:07+0000\n"
-"PO-Revision-Date: 2022-04-13 14:11+0000\n"
+"PO-Revision-Date: 2022-04-13 17:10+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -967,6 +967,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>ASMEKT:</span> Ticki tulseḍ awennez n wawal-ik uffir, ad talseḍ awennez n umiḍan-ik. Kra n yisefka udmawanen zemren ad ṛuḥen (ama d amezruy, ticraḍ n yisebtar, akked wawalen uffiren). Ayagi "
+"acku newgelhen isefka-ik s wawal uffir akken ad nemmesten tabaḍnit-ik. Imultaɣen tgiḍ yaka ad ttwaḥerzen, ma d isefka-inek·inem ur tesεiḍ ara ten-yaɣen."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1290,7 +1292,7 @@ msgstr "Yedda"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Twejdeḍ tura i useqdec n <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1325,6 +1327,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>TAZMILT:</span> Ticki tulseḍ awennez n wawal-ik uffir, ad talseḍ awennez n umiḍan-ik. Kra n yisefka udmawanen zemren ad ṛuḥen (ama d amezruy, ticraḍ n yisebtar, akked wawalen uffiren). Ayagi "
+"acku newgelhen isefka-ik s wawal uffir akken ad nemmesten tabaḍnit-ik. Imultaɣen tgiḍ yaka ad ttwaḥerzen, ma d isefka-inek·inem ur tesεiḍ ara ten-yaɣen."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
