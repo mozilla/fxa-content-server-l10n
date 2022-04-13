@@ -368,6 +368,8 @@ plan-details-list-price = Tabdart n leswam
 
 ## coupons
 
+coupon-submit = Snes
+coupon-remove = Kkes
 
 ## payment-processing
 
