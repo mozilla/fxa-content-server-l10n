@@ -10,6 +10,14 @@ project-brand = Imiḍanen Firefox
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Ameɣri
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# the following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Imiḍanen Firefox
 
@@ -30,6 +38,8 @@ payment-error-manage-subscription-button = Sefrek amulteɣ-inu
 country-currency-mismatch = Tadrimt n umulteɣ-a d arameɣtu i tmurt icudden ɣer lexlaṣ-ik·im.
 currency-currency-mismatch = Nesḥassef. Ur tezmireḍ ara ad tnegzeḍ seg yibenk ɣer wayeḍ.
 no-subscription-change = Nesḥassef. Ur tezmireḍ ara ad tbeddleḍ aɣawas n ujerred-inek·inem.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Tmultɣeḍ yakan seg { $mobileAppStore }.
 expired-card-error = Akka i d-yettban, takarḍan-inek/inem n usellek temmut. Ɛreḍ takarḍa-nniḍen.
 insufficient-funds-error = Akka i d-yettban, takarḍa-inek/inem drus n yidrimen i d-mazal deg-s. Ɛreḍ takarḍa-nniḍen.
 withdrawal-count-limit-exceeded-error = Ittban-d dakken tanigawt-a tɛedda i talast n usmad-ik•im. Ɛreḍ s takarḍa-nniḍen.
@@ -51,6 +61,7 @@ settings-subscriptions-title = Ajerred
 
 terms = Tiwtilin n useqdec
 privacy = Tasertit n tbaḍnit
+terms-download = Tiwtilin n usader
 
 ## Subscription titles
 
@@ -59,6 +70,7 @@ subscription-success-title = Asentem n umulteɣ
 subscription-processing-title = Asentem n umulteɣ...
 subscription-error-title = Tuccḍa deg usentem n umulteɣ...
 subscription-noplanchange-title = Asnifel n uɣawas n umulteɣ ur yettusefrak ara
+subscription-iapsubscribed-title = I•Tmulteɣ yakan
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -102,8 +114,11 @@ product-no-such-plan = Ulac aɣawas s wanaw-a i ufaris-a.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } isseqdac { -brand-name-stripe } akked { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } tasertit n tbaḍnit</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } tasertit n tbaḍnit</paypalPrivacyLink>
 payment-legal-copy-paypal = { -brand-name-mozilla } isseqdac { -brand-name-paypal } i usesfer aɣelsan n yiselliken.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } tasertit n tbaḍnit</paypalPrivacyLink>
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } isseqdac { -brand-name-stripe } i usesfer aɣelsan n yiselliken.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } tasertit n tbaḍnit</stripePrivacyLink>
 
 ## payment form
 
@@ -248,6 +263,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Afetter i d-itteddun deg { $date }
+sub-expires-on = Ad yemmet deg { $date }
 
 ##
 

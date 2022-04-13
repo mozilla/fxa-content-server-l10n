@@ -242,6 +242,7 @@ nav-settings = Iɣewwaren
 nav-profile = Amaɣnu
 nav-security = Taɣellist
 nav-connected-services = Imeẓla yeqqnen
+nav-data-collection = Alqaḍ d useqdec n yisefka
 nav-paid-subs = Amulteɣ s lexlaṣ
 nav-email-comm = Taywalt s yimayl
 
@@ -253,6 +254,8 @@ tfa-replace-code-success =
     deg wadeg aɣellsan — ad tent-teḥwiǧeḍ i wakken ad tkecmeḍ ɣer umiḍan-ik·im ma yella ulac
     ibenk-ik·im aziraz.
 tfa-replace-code-success-alert = Tingalin n tririt n umiḍan ttwaleqqmen.
+tfa-replace-code-1-2 = Asurif 1 seg 2
+tfa-replace-code-2-2 = Asurif 2 seg 2
 
 ## Avatar change page
 
@@ -366,6 +369,7 @@ recovery-key-success-alert = Tasarut n tririt tettwarna.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Asurif 1 seg 2
 add-secondary-email-error = Yella-d wugur deg tmerna n yimayl-a.
 add-secondary-email-page-title =
     .title = Imayl wis sin
@@ -376,6 +380,7 @@ add-secondary-email-save-button = Sekles
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Asurif 2 seg 2
 verify-secondary-email-error = Yella-d wugur deg tuzzna n tengalt n usenqed.
 verify-secondary-email-page-title =
     .title = Imayl wis sin
@@ -421,6 +426,8 @@ tfa-scan-this-code =
 tfa-qa-code-alt =
     Seqdec tangalt { $secret } i usbeddi n usesteb s snat n tarrayin deg
     isnasen yettwasefraken.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Ur tezmireḍ ara ad tesmiḍneḍ tangalt?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Sekcem tasarut-a tabaḍnit ɣer usnas-ik·im n usestab:
@@ -456,9 +463,23 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Taɣellist
+security-password =
+    .header = Awal uffir
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Yettwarna { $date }
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Sens
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Rmed
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Tuzna…
+switch-is-on = ɣef
+switch-is-off = insa
 
 ## Sub-section row Defaults
 
@@ -522,6 +543,8 @@ se-default-content = Kcem ɣer umiḍan-ik•im ma ur tezmireḍ ara ad teqqne�
 se-content-note =
     Tamawt: imayl wis sin ur d-yettarra ara talɣut-ik·im — tesriḍ
     <a>tasarut n tririt</a> i waya.
+# Default value for the secondary email
+se-secondary-email-none = Ula yiwen
 
 ##
 
@@ -557,6 +580,7 @@ tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 
 auth-error-102 = Amiḍan arussin
 auth-error-103 = Awal uffir d arameɣtu
+auth-error-105 = Tangalt n usentem d tarameɣtut
 auth-error-110 = Ajuṭun d arameɣtu
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -567,5 +591,7 @@ auth-error-110 = Ajuṭun d arameɣtu
 #                           (for example: "in 15 minutes")
 auth-error-114 = Tɛerḍeḍ aṭas n tikkal. Ttxil-k·m ɛreḍ tikkelt-nniḍen { $retryAfter }.
 auth-error-138 = Ur tettwasenqed ara tɣimit
+auth-error-139 = Imayl wis sin ilaq ad imgarad d imayl inek n umiḍan
 auth-error-155 = Ulac ajiṭun TOTP
+auth-error-183 = Tangalt n usentem mačči d tameɣtut neɣ temmut
 auth-error-1008 = Awal-ik•im uffir amaynut ilaq ad yili akken-nniḍen
