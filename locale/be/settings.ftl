@@ -145,9 +145,15 @@ datablock-print =
 
 dc-heading = Збор і выкарыстанне дадзеных
 dc-subheader = Дапамажыце ўдасканаліць { -product-firefox-accounts }
+dc-learn-more = Падрабязней
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Меню { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Увайшлі як: </signin><user>{ $user }</user>
 drop-down-menu-sign-out = Выйсці
 
 ## Flow Container
@@ -182,6 +188,8 @@ input-password-show-aria = Паказаць пароль як звычайны �
 
 ## Linked Accounts section
 
+la-heading = Звязаныя ўліковыя запісы
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
@@ -212,6 +220,8 @@ nav-email-comm = Зносіны па электроннай пошце
 
 tfa-replace-code-error = Узнікла праблема пры замене вашых кодаў аднаўлення.
 tfa-replace-code-success-alert = Коды аднаўлення ўліковага запісу абноўлены.
+tfa-replace-code-1-2 = Крок 1 з 2
+tfa-replace-code-2-2 = Крок 2 з 2
 
 ## Avatar change page
 
@@ -228,6 +238,7 @@ avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Перазняць фота
 avatar-page-save-button = Захаваць
+avatar-page-saving-button = Захаванне…
 avatar-page-zoom-out-button =
     .title = Паменшыць
 avatar-page-zoom-in-button =
@@ -315,6 +326,7 @@ recovery-key-success-alert = Ключ аднаўлення створаны.
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Крок 1 з 2
 add-secondary-email-page-title =
     .title = Дадатковая пошта
 add-secondary-email-enter-address =
@@ -324,6 +336,7 @@ add-secondary-email-save-button = Захаваць
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Крок 2 з 2
 verify-secondary-email-error = Узнікла праблема пры адпраўцы кода пацвярджэння.
 verify-secondary-email-page-title =
     .title = Дадатковая пошта
@@ -365,6 +378,8 @@ tfa-enabled = Двухэтапная аўтарызацыя ўключана
 tfa-qa-code-alt =
     Скарыстайцеся кодам { $secret } для настаўлення двухэтапнай аўтарызацыі
     ў падтрыманых праграмах.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Не ўдаецца сканаваць кода?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Увядзіце гэты сакрэтны ключ у праграму аўтэнтыфікацыі:
@@ -393,9 +408,23 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Бяспека
+security-password =
+    .header = Пароль
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Створаны { $date }
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Выключыць
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Уключыць
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Высыланне…
+switch-is-on = укл
+switch-is-off = выкл
 
 ## Sub-section row Defaults
 
