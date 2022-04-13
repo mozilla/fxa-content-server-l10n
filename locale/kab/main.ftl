@@ -364,6 +364,7 @@ plan-details-header = Talqayt n ufaris
 plan-details-show-button = Sken talqayt
 plan-details-hide-button = Ffer talqayt
 plan-details-total-label = Asemday
+plan-details-list-price = Tabdart n leswam
 
 ## coupons
 
