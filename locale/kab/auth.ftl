@@ -85,6 +85,9 @@ payment-plan-invoice-number = Uṭṭun n tfaturt: { $invoiceNumber }
 #  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 payment-plan-charged = Yettwafter: { $invoiceTotal } deg { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Tarrayin n uxelleṣ:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -95,6 +98,7 @@ card-ending-in = Takarḍa { $cardType } tettfak s { $lastFour }
 subscriptionSupport = Isteqsiyen ɣer ujerred-ik? <a data-l10n-name="subscriptionSupportUrl">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tallelt a-tt-a da ad ak-d-efk afus:
+subscriptionUpdatePayment = Akken ur tḥebbes ara tenfiwt-ik, ttxil-k·m <a data-l10n-name="updateBillingUrl"> leqqem talɣut n lexlaṣ-ik </a> s lɛejlan.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Akken ur tḥebbes ara tenfiwt-ik, ttxil leqqem talɣut n lexlaṣ-ik s lɛejlan:
 # Variables:
@@ -109,6 +113,30 @@ device-all = { $uaBrowser } ɣef { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } ɣef { $uaOS }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Tansa IP: %(ip)s
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (ahat)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (ahat)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (ahat)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (ahat)
+view-invoice = <a h<a data-l10n-name="invoiceLink">Wali tafaṭurt-ik·im</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Wali tafaṭurt-ik·im: { $invoiceLink }
 cadReminderFirst-subject = Asmekti n yimdukkal: Amek ara tkemmleḍ tawila-k•m n umtawi
 cadReminderFirst-action = Mtawi ibenk-nniḍen
 cadReminderFirst-title = Ha-t-a usmekti-inek/inem i umtawi n yibenkan.
