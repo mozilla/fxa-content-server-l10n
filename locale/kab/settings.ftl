@@ -82,6 +82,12 @@ connect-another-fx-mobile = Awi { -brand-firefox } uziraz akked tfelwit n uselki
 connect-another-find-fx-mobile =
     Af-d { -brand-firefox } deg { -google-play } akked { -app-store } neɣ
     <br /><linkExternal>azen aseɣwen n usadar ɣer yibenk-ik·im.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Sader-d { -brand-firefox } seg { -google-play }
+connect-another-app-store-image-2 =
+    .title = Sader-d { -brand-firefox } seg { -app-store }
 
 ##
 
@@ -157,6 +163,13 @@ datablock-print =
 
 ## Data collection section
 
+dc-heading = Alqaḍ d useqdec n yisefka
+dc-subheader = Allel i usnerni { -product-firefox-accounts }
+dc-subheader-content = Sireg { -product-firefox-accounts } i tuzna n yisefka itiknikanen d umyigew ɣer { -brand-mozilla }.
+dc-opt-out-success = Asensi yedda akken iwata. { -product-firefox-accounts } ur ttaznen ara isefka itiknikanen d umyigew ɣer { -brand-mozilla }.
+dc-opt-in-success = Tanemmirt! Beṭṭu n yisefka-a ad aɣ-ɛawnen deg usnerni n { -product-firefox-accounts }.
+dc-opt-in-out-error = Nesḥassef, yella wugur deg usali n yismenyafen-ik•im n ulqaḍ n yisefka.
+dc-learn-more = Issin ugar
 
 # DropDownAvatarMenu component
 
@@ -200,6 +213,12 @@ input-password-show-aria = Sken awal uffir am uḍris aččuran. Awal-ik·im uff
 
 ## Linked Accounts section
 
+la-heading = Imiḍanen yemcudden
+la-description = Tmuddeḍ tisirag i unekcum ɣer yimiḍanen-a.
+la-unlink-button = Sefsex tuqqna
+la-unlink-account-button = Sefsex tuqqna
+la-unlink-heading = Sefsex tuqqna akked umiḍan n wis kraḍ
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
