@@ -23,6 +23,7 @@ alert-bar-close-message = Mdel izen
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Imiḍanen Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -31,6 +32,7 @@ alert-bar-close-message = Mdel izen
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +71,7 @@ bento-menu-firefox-title = { -brand-firefox } d tatiknulijit yettennaɣen ɣef t
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Iminig { -brand-firefox } i tnarit
 bento-menu-firefox-mobile = Iminig { -brand-firefox } i uziraz
 bento-menu-made-by-mozilla = Texdem-it { -brand-mozilla }
@@ -152,6 +155,9 @@ datablock-copy =
 datablock-print =
     .message = Ittwasiggez
 
+## Data collection section
+
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Umuɣ { -product-firefox-account }
@@ -191,6 +197,9 @@ input-password-hide = Ffer awal uffir
 input-password-show = Sken awal uffir
 input-password-hide-aria = Ffer awal uffir deg ugdil.
 input-password-show-aria = Sken awal uffir am uḍris aččuran. Awal-ik·im uffir ad d-iban ɣef ugdil.
+
+## Linked Accounts section
+
 
 ## Modal
 
@@ -293,8 +302,6 @@ delete-account-step-1-2 = Asurif 1 seg 2
 delete-account-step-2-2 = Asurif 2 seg 2
 delete-account-confirm-title-2 = Teqqneḍ { -product-firefox-account }-inek•inem ɣer { -brand-mozilla } yifarisen ara k•kem-iḥerzen daɣen ara k•kem-yeǧǧen ad tesnerniḍ tiffursa-k•m deg web:
 delete-account-acknowledge = Ttxil ḥṣu dakken ma tekkseḍ amiḍan-ik•im:
-delete-account-chk-box-1 =
-    .label = Kra n umulteɣ s lexlaṣ i tesɛiḍ ad yettwasefsex
 delete-account-chk-box-2 =
     .label = Izmer ad tesruḥeḍ tilɣa yettwaskelsen d tmahilin deg yifuras { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -348,9 +355,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Sefsex
 add-secondary-email-save-button = Sekles
 
-##
-
-
 ## Verify secondary email page
 
 verify-secondary-email-error = Yella-d wugur deg tuzzna n tengalt n usenqed.
@@ -394,6 +398,7 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Seqdec tangalt { $secret } i usbeddi n usesteb s snat n tarrayin deg
     isnasen yettwasefraken.
@@ -423,12 +428,6 @@ profile-picture =
     .header = Tugna
 profile-display-name =
     .header = Isem n uskan
-profile-password =
-    .header = Awal uffir
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Yettwarna deg { $date }
 profile-primary-email =
     .header = Imayl amezwaru
 
@@ -438,6 +437,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Taɣellist
+
+## Switch component
+
 
 ## Sub-section row Defaults
 
@@ -540,8 +542,10 @@ auth-error-110 = Ajuṭun d arameɣtu
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
-#                          by our server based on the accept language in request.
-#                           (for example: "15 minutes")
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
 auth-error-114 = Tɛerḍeḍ aṭas n tikkal. Ttxil-k·m ɛreḍ tikkelt-nniḍen { $retryAfter }.
 auth-error-138 = Ur tettwasenqed ara tɣimit
 auth-error-155 = Ulac ajiṭun TOTP
