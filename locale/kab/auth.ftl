@@ -76,6 +76,7 @@ cancellationSurvey-plaintext = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni ime�
 change-password-plaintext = Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, snifel awal inek uffir ma ulac aɣilif.
 manage-account = Sefrek amiḍan
 manage-account-plaintext = { manage-account }:
+payment-details = Talqayt n uxelleṣ:
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Tarrayin n uxelleṣ:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -148,6 +149,11 @@ postAddAccountRecovery-subject = Tasarutt n tririt n umiḍan tettusirew
 postAddAccountRecovery-title = Tasarutt n tririt n umiḍan tettusirew
 postAddAccountRecovery-action = Sefrek amiḍan
 postAddAccountRecovery-revoke = Ma mačči d kečč/kem i ixedmen aya, ḥwi tasarutt.
+postAddLinkedAccount-subject = Amiḍan amaynut yeqqnen ɣer { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Amiḍan-ik·im { $providerName } yettwaqqen ɣer { -product-firefox-account }-ik·im
+postAddLinkedAccount-action = Sefrek amiḍan
 postAddTwoStepAuthentication-subject = Asesteb s snat n tarrayin yermed
 postAddTwoStepAuthentication-title = Asesteb s snat n tarrayin yermed
 postAddTwoStepAuthentication-action = Sefrek amiḍan
@@ -170,6 +176,7 @@ postRemoveAccountRecovery-invalid = Tasarutt-a n tririt dayen ur tezmir ara ad t
 postRemoveSecondary-subject = Imay wis sin ittwakkes
 postRemoveSecondary-title = Imay wis sin ittwakkes
 postRemoveSecondary-action = Sefrek amiḍan
+postRemoveTwoStepAuthentication-subject-line = Asesteb s snat n tarrayin yensa
 postRemoveTwoStepAuthentication-title = Asesteb s snat n tarrayin yensa
 postRemoveTwoStepAuthentication-action = Sefrek amiḍan
 postRemoveTwoStepAuthentication-not-required = Tingalin n tririt uir zgint laqent yal tuqqna.
@@ -178,6 +185,9 @@ postVerify-description = Amtawi uslig ad iǧǧ ticraḍ-ik•im n yisebtar, awal
 postVerify-subject = Amiḍan yettwasenqed. Syen, mtawi ubenk-nniḍen akken ad yemmed usebded
 postVerify-setup = Sbadu ibenk-nniḍen
 postVerify-action = Sbadu ibenk-nniḍen
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Tesɛiḍ isteqsiyen? Rzu ɣer { $supportUrl }
 postVerifySecondary-subject = Imay wis sin ittwarna
 postVerifySecondary-title = Imay wis sin ittwarna
 postVerifySecondary-action = Sefrek amiḍan
@@ -186,8 +196,34 @@ recovery-title = Tesriḍ tulsa uwennez n wawal uffir inek?
 recovery-description = Sit ɣef tqaffalt akka kra n usrag akken ad ternuḍ awal uffir amaynut. Tuttra tettwag seg ibenk-agi:
 recovery-action = Sekcem awal uffir amaynut
 subscriptionAccountDeletion-title = Neḥzen imi tṛuḥeḍ
+# COMMENT ABOUT After the colon,
+payment-details = Talqayt n uxelleṣ:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Ansuf ɣer { $productName }: Ma ulac aɣlif, sbadu awal-ik·im uffir.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Ansuf ɣer { $productName }
+subscriptionAccountFinishSetup-action-2 = Bdu
+subscriptionAccountReminderFirst-action = Rnu awal uffir
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-title = Ansuf γer { -brand-firefox }!
+subscriptionAccountReminderSecond-action = Rnu awal uffir
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 subscriptionCancellation-title = Neḥzen imi tṛuḥeḍ
 subscriptionDowngrade-content-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Amulteɣ-ik·im ɣer { $productName } yefsex
+subscriptionFailedPaymentsCancellation-title = Amulteɣ-inek·inem yettusefsex
+subscriptionFirstInvoice-content-processing = Lexlaṣ-ik iteddu akka tura daɣen izmer ad yaweḍ arma d kuẓ n wussan yeldin.
+subscriptionFirstInvoice-content-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Uṭṭun n tfaturt: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Uṭṭun n tfaturt: { $invoiceNumber }
 subscriptionPaymentExpired-title = Takarḍa-k n usmad qrib ad temmet
 subscriptionsPaymentExpired-subject = Takarḍa n usmad n yijerriden-ik•im qrib ad temmet
 subscriptionsPaymentExpired-title = Takarḍa-k n usmad qrib ad temmet
