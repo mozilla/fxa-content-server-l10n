@@ -23,6 +23,7 @@ alert-bar-close-message = Закрыць паведамленне
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Уліковыя запісы Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -31,6 +32,7 @@ alert-bar-close-message = Закрыць паведамленне
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -64,9 +66,12 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = Меню прадуктаў { -brand-firefox }
+bento-menu-firefox-title = { -brand-firefox } — тэхналогіі, што змагаюцца за вашу прыватнасць у інтэрнэце.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Браўзер { -brand-firefox } для камп'ютара
 bento-menu-firefox-mobile = Браўзер { -brand-firefox } для мабільных
 bento-menu-made-by-mozilla = Зроблена { -brand-mozilla }
@@ -103,16 +108,19 @@ cs-disconnect-sync-heading = Адключыць сінхранізацыю
 cs-disconnect-sync-content =
     Дадзеныя прагляду застануцца на гэтай
     прыладзе ({ $device }), але не будуць сінхранізавацца з вашым уліковым запісам.
+cs-disconnect-sync-reason =
+    Якая галоўная прычына адлучэння
+    гэтай прылады?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
 cs-disconnect-sync-opt-prefix = Гэтая прылада:
-cs-disconnect-sync-opt-suspicious = Падазроны
+cs-disconnect-sync-opt-suspicious = Падазроная
 cs-disconnect-sync-opt-lost = Згублена або скрадзена
-cs-disconnect-sync-opt-old = Стары або заменены
+cs-disconnect-sync-opt-old = Старая або заменена
 cs-disconnect-sync-opt-duplicate = Дублікат
-cs-disconnect-sync-opt-not-say = Не ўказваць
+cs-disconnect-sync-opt-not-say = Не хачу ўказваць
 
 ##
 
@@ -132,6 +140,11 @@ datablock-copy =
     .message = Скапіявана
 datablock-print =
     .message = Надрукавана
+
+## Data collection section
+
+dc-heading = Збор і выкарыстанне дадзеных
+dc-subheader = Дапамажыце ўдасканаліць { -product-firefox-accounts }
 
 # DropDownAvatarMenu component
 
@@ -166,6 +179,9 @@ input-password-hide = Схаваць пароль
 input-password-show = Паказаць пароль
 input-password-hide-aria = Схаваць пароль з экрана.
 input-password-show-aria = Паказаць пароль як звычайны тэкст. Ваш пароль будзе бачны на экране.
+
+## Linked Accounts section
+
 
 ## Modal
 
@@ -255,8 +271,6 @@ delete-account-header =
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
 delete-account-acknowledge = Калі ласка, пацвердзіце, што пры выдаленні ўліковага запісу:
-delete-account-chk-box-1 =
-    .label = Усе вашы платныя падпіскі будуць ануляваныя
 delete-account-chk-box-2 =
     .label = Вы можаце страціць захаваную інфармацыю і функцыі ў прадуктах { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -308,9 +322,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Скасаваць
 add-secondary-email-save-button = Захаваць
 
-##
-
-
 ## Verify secondary email page
 
 verify-secondary-email-error = Узнікла праблема пры адпраўцы кода пацвярджэння.
@@ -350,6 +361,7 @@ tfa-enabled = Двухэтапная аўтарызацыя ўключана
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Скарыстайцеся кодам { $secret } для настаўлення двухэтапнай аўтарызацыі
     ў падтрыманых праграмах.
@@ -372,12 +384,6 @@ profile-picture =
     .header = Выява
 profile-display-name =
     .header = Бачнае імя
-profile-password =
-    .header = Пароль
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Створаны { $date }
 profile-primary-email =
     .header = Асноўны адрас пошты
 
@@ -387,6 +393,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Бяспека
+
+## Switch component
+
 
 ## Sub-section row Defaults
 
