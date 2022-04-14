@@ -80,8 +80,8 @@ check_folder $L10N_DIR
 
 set -x
 
-(cd $MAILER_DIR && rm -f server.pot && npx grunt l10n-extract)
-cp $MAILER_DIR/server.pot $CONTENT_DIR/locale/templates/LC_MESSAGES/
+#(cd $MAILER_DIR && rm -f server.pot && npx grunt l10n-extract)
+#cp $MAILER_DIR/server.pot $CONTENT_DIR/locale/templates/LC_MESSAGES/
 
 (cd $CONTENT_DIR && npx grunt l10n-extract)
 cp -r $CONTENT_DIR/locale/templates/* $L10N_DIR/locale/templates
