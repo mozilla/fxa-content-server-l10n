@@ -216,6 +216,7 @@ postRemoveTwoStepAuthentication-subject-line = Asesteb s snat n tarrayin yensa
 postRemoveTwoStepAuthentication-title = Asesteb s snat n tarrayin yensa
 postRemoveTwoStepAuthentication-action = Sefrek amiḍan
 postRemoveTwoStepAuthentication-not-required = Tingalin n tririt uir zgint laqent yal tuqqna.
+postVerify-sub-title = { -product-firefox-account } yettwasenqed. Qrib ad tsaliḍ.
 postVerify-title = Amtawi i d-iteddun, gar yibenkan-inek/inem!
 postVerify-description = Amtawi uslig ad iǧǧ ticraḍ-ik•im n yisebtar, awalen uffiren d yisefka-nniḍen n { -brand-firefox } d widak kan ur ttbeddilen ara deg akk ibenkan-ik•im.
 postVerify-subject = Amiḍan yettwasenqed. Syen, mtawi ubenk-nniḍen akken ad yemmed usebded
@@ -226,12 +227,23 @@ postVerify-action = Sbadu ibenk-nniḍen
 postVerify-support = Tesɛiḍ isteqsiyen? Rzu ɣer { $supportUrl }
 postVerifySecondary-subject = Imay wis sin ittwarna
 postVerifySecondary-title = Imay wis sin ittwarna
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = Tesneqdeḍ akken iwata { $secondaryEmail } imayl-ik asnawan i { -product-firefox-account }. Ilɣa n tɣellist akked isentam n tuqqna ad d-ttwaznen ar snat n tansiwin imayl.
 postVerifySecondary-action = Sefrek amiḍan
 recovery-subject = Wennez awal uffir-ik
 recovery-title = Tesriḍ tulsa uwennez n wawal uffir inek?
 recovery-description = Sit ɣef tqaffalt akka kra n usrag akken ad ternuḍ awal uffir amaynut. Tuttra tettwag seg ibenk-agi:
 recovery-action = Sekcem awal uffir amaynut
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Amulteɣ-ik·im ɣer { $productName } yefsex
 subscriptionAccountDeletion-title = Neḥzen imi tṛuḥeḍ
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Tekkseḍ tineggura-a { -product-firefox-account }. Ihi, nsefsex ajerred-ik•im ɣer { $productName }. Lexlaṣ-ik aneggaru n { $invoiceTotal } yettwag deg { $invoiceDateOnly }.
 # COMMENT ABOUT After the colon,
 payment-details = Talqayt n uxelleṣ:
 # Variables:

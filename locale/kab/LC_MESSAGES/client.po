@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-07 22:07+0000\n"
-"PO-Revision-Date: 2022-04-13 21:51+0000\n"
+"PO-Revision-Date: 2022-04-14 00:37+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1047,7 +1047,7 @@ msgstr "Sekcem tangalt n usenqed"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Kemmel ɣer <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1386,6 +1386,10 @@ msgid ""
 "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"Imi ad tkemmleḍ, ad tqebleḍ:<br />\n"
+"            <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tiwtilin n useqdec</a> akedd <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Tsertit n tbaḍnit</a> n Pocket<br />\n"
+"            <a id=\"fxa-tos\" href=\"/legal/terms\">Tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">Tsertit n tbaḍnit</a> n Firefox\n"
+"          "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
