@@ -71,7 +71,16 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Sader { $produ
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Sader { $productName } seg { -app-store }">
 another-desktop-device = Neɣ, sebded ɣef <a data-l10n-name="anotherDeviceLink">yibenk-nniḍen n tnarit</a>.
 another-device = Neɣ, sebded ɣef <a data-l10n-name="anotherDeviceLink">yibenk-nniḍen</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Wagi d izen awurman ; ma yella ur terniḍ ara ibenk amaynut ɣer { -product-firefox-account }, yessefk ad tesnifleḍ awal-ik·im uffir tura kan deg { $passwordChangeLink }
 automated-email-plaintext = Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Wagi d imayl awurman; ma yella ur tessirgeḍ ara tigawt-a, ttxil-k·m beddel awal-ik·im uffir:
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Ma ur tbeddleḍ ara, ma ulac aɣilif ales awennez n wawal uffir inek tura deg { $resetLink }
+cancellationSurvey = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg <a data-l10n-name="cancellationSurveyUrl")s>tefrant-a wezzilen</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:
 change-password-plaintext = Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, snifel awal inek uffir ma ulac aɣilif.
@@ -98,6 +107,8 @@ card-ending-in = Takarḍa { $cardType } tettfak s { $lastFour }
 subscriptionSupport = Isteqsiyen ɣer ujerred-ik? <a data-l10n-name="subscriptionSupportUrl">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tallelt a-tt-a da ad ak-d-efk afus:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Tzemreḍ ad tḍemneḍ tarrayt-ik·im n uxelleḍ d telɣut n umiḍan-ik·im ttwaleqqamen da:
 subscriptionUpdatePayment = Akken ur tḥebbes ara tenfiwt-ik, ttxil-k·m <a data-l10n-name="updateBillingUrl"> leqqem talɣut n lexlaṣ-ik </a> s lɛejlan.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Akken ur tḥebbes ara tenfiwt-ik, ttxil leqqem talɣut n lexlaṣ-ik s lɛejlan:
@@ -140,15 +151,18 @@ view-invoice-plaintext = Wali tafaṭurt-ik·im: { $invoiceLink }
 cadReminderFirst-subject = Asmekti n yimdukkal: Amek ara tkemmleḍ tawila-k•m n umtawi
 cadReminderFirst-action = Mtawi ibenk-nniḍen
 cadReminderFirst-title = Ha-t-a usmekti-inek/inem i umtawi n yibenkan.
+cadReminderFirst-description = Ilaq ad ilin sin i umtawi. Amtawi n yibenk-nniḍen akked { -brand-firefox } ad yeḥrez s wudem awurman ticraḍ n yisebtar, awalen uffiren akked yisefka-nniḍen n { -brand-firefox } deg yal taswiɛt d yal amkan deg ara tesqedceḍ { -brand-firefox }.
 cadReminderSecond-subject = Asmekti aneggaru: Asebded ummid n umtawa
 cadReminderSecond-action = Mtawi ibenk-nniḍen
 cadReminderSecond-title = Asmekti aneggaru i umtawi n yibenkan!
+cadReminderSecond-description = Amtawi n yibenk-nniḍen akked { -brand-firefox } ad yeḥrez s wudem awurman ticraḍ n yisebtar, awalen uffiren akked yisefka-nniḍen n { -brand-firefox } deg yal taswiɛt d yal amkan deg ara tesqedceḍ { -brand-firefox }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Ansuf ɣer { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Ansuf ɣer { $productName }
+downloadSubscription-content-2 = Aha bdu aseqdec n meṛṛa timahilin yeddan deg umulteɣ-inek·inem:
 downloadSubscription-link-action-2 = Bdu
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Qqiment-d kan kra n tigalin n usellek
@@ -156,6 +170,11 @@ codes-reminder-description = Nwala d akken qqiment-d kan kra ntingalin n usellek
 codes-generate = Sirew tingalin
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Sirew tingalin
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] 1 n tangalt n tririt i d-yeqqimen
+       *[other] { $numberRemaining } n tengalt n tririt i d-yeqqimen
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tuqqna tamaynut ɣer { $clientName }
@@ -165,6 +184,7 @@ newDeviceLogin-title = Tuqqna tamaynut ɣer { $clientName }
 newDeviceLogin-action = Sefrek amiḍan
 passwordChanged-subject = Awal uffir yettuleqqem
 passwordChanged-title = Awal uffir yettusnifel akken iwata
+passwordChanged-description = Awal-ik·im uffir n { -product-firefox-account } yettwabeddel akken iwata seg yibenk-a:
 passwordChangeRequired-subject = Armud anida yella ccek yettwaf
 passwordChangeRequired-title = Yettusra ubeddel n wawal uffir
 passwordChangeRequired-sign-in = Ɛawed qqen ɣer yibenk neɣ ɣer umeẓlu seg wanida i tesseqdaceḍ { -product-firefox-account } syen ḍfer imecwaṛen ara ak·am-d-yettunefken.

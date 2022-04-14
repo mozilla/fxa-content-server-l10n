@@ -400,6 +400,7 @@ payment-confirmation-thanks-heading-account-exists = Tanemmirt, senqed tura imay
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Ad tremseḍ imayl ɣer { $email } s yiwellihen ara tesbaduḍ amiḍan-ik·im, akked telɣut n lexlaṣ-ik·im.
 payment-confirmation-order-heading = Talqayt n usuter
 payment-confirmation-invoice-number = Tafaṭurt #{ $invoiceNumber }
 payment-confirmation-billing-heading = Ifetter ɣer
@@ -439,12 +440,18 @@ payment-confirmation-cc-card-ending-in = Takarḍa ad tfakk deg { $last4 }
 
 new-user-sign-in-link = Tesεiḍ yakan amiḍan { -brand-name-firefox }? <a>Qqen</a>
 new-user-step-1 = 1. Rnu amiḍan { -brand-name-firefox }
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .label = Sekcem imayl-ik·im
 new-user-confirm-email =
     .label = Sentem imayl-inek·inem
 new-user-subscribe-product-updates = Bɣiɣ ad d-remseɣ ileqman n yifarisen seg { -brand-name-firefox }
 new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nernu amiḍan-ik·im. Urǧin ad t-nsenz i wis kraḍ.
 new-user-email-validate = Imayl-a d arameɣtu
 new-user-email-validate-confirm = Ur mṣadan ara yimaylen-a
+new-user-already-has-account-sign-in = Tesɛiḍ yakan amiḍan. <a>Qqen</a>
 new-user-card-title = Sekcem talɣut-ik·im n yimayl
 new-user-submit = Multeɣ tura
 manage-pocket-title = Tettnadiḍ amulteɣ-ik·im premium { -brand-name-pocket }?
