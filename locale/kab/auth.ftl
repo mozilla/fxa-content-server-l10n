@@ -291,12 +291,37 @@ subscriptionAccountReminderSecond-subject = Asmekti aneggaru: Sesteb amiḍan-ik
 subscriptionAccountReminderSecond-title = Ansuf γer { -brand-firefox }!
 subscriptionAccountReminderSecond-action = Rnu awal uffir
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Amulteɣ-ik·im ɣer { $productName } yefsex
 subscriptionCancellation-title = Neḥzen imi tṛuḥeḍ
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Nsefsex ajerred-ik·im { $productName }. Axelleṣ-ik·im aneggaru n { $invoiceTotal } yeḍra-d deg { $invoiceDateOnly }. Ameẓlu-ik·im ad ikemmel almi d taggara n twala n ufter, win ara yilin deg { $serviceLastActiveDateOnly }.
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Tuɣaleḍ ɣer { $productName }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Tuɣaleḍ akken iwata seg { $productNameOld } ɣer { $productName }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Ma yella useɣẓan amaynut i tebɣiḍ ad tesbeddeḍ akken ad tesqedceḍ { $productName }, ad ak·akem-id-yaweḍ yimayl iεezlen s yiwellihen ara d-tessadreḍ.
 subscriptionDowngrade-content-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Amulteɣ-ik·im ɣer { $productName } yefsex
 subscriptionFailedPaymentsCancellation-title = Amulteɣ-inek·inem yettusefsex
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Lexlaṣ n { $productName } yettwasentem
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Tanemmirt ɣef ujerred ɣer { $productName }
 subscriptionFirstInvoice-content-processing = Lexlaṣ-ik iteddu akka tura daɣen izmer ad yaweḍ arma d kuẓ n wussan yeldin.
 subscriptionFirstInvoice-content-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
 # Variables:
@@ -305,6 +330,33 @@ subscriptionFirstInvoice-content-invoice-number = Uṭṭun n tfaturt: <b>{ $inv
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number-plaintext = Uṭṭun n tfaturt: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = Yettwafter { $invoiceTotal } deg { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = Lexlaṣ n { $productName } yettwasentem
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Tanemmirt ɣef ujerred ɣer { $productName }
+subscriptionFirstInvoiceDiscount-content-processing = Lexlaṣ-ik iteddu akka tura daɣen izmer ad yaweḍ arma d kuẓ n wussan yeldin.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install-2 = Ad teṭṭfeḍ imayl iεezlen ideg yella wamek ara tebduḍ aseqdec n { $productName }
+subscriptionFirstInvoiceDiscount-content-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = Uṭṭun n tfaturt: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Uṭṭun n tfaturt: { $invoiceNumber }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Asemday-arnaw: { $invoiceSubtotal }
 subscriptionPaymentExpired-title = Takarḍa-k n usmad qrib ad temmet
 subscriptionsPaymentExpired-subject = Takarḍa n usmad n yijerriden-ik•im qrib ad temmet
 subscriptionsPaymentExpired-title = Takarḍa-k n usmad qrib ad temmet
