@@ -207,6 +207,7 @@ postAddAccountRecovery-subject = Tasarutt n tririt n umiḍan tettusirew
 postAddAccountRecovery-title = Tasarutt n tririt n umiḍan tettusirew
 postAddAccountRecovery-description = Tesluleḍ-d akken iwata amiḍan n tririt seg umiḍan-ik·im { -product-firefox-account } s useqdec n yibenk-a:
 postAddAccountRecovery-action = Sefrek amiḍan
+postAddAccountRecovery-recovery = Ma da yella mačči d kečč·kemm, <a data-l10n-name="revokeAccountRecoveryLink">sit da:</a>
 postAddAccountRecovery-revoke = Ma mačči d kečč/kem i ixedmen aya, ḥwi tasarutt.
 postAddLinkedAccount-subject = Amiḍan amaynut yeqqnen ɣer { -brand-firefox }
 #  Variables:
@@ -215,6 +216,8 @@ postAddLinkedAccount-title = Amiḍan-ik·im { $providerName } yettwaqqen ɣer {
 postAddLinkedAccount-action = Sefrek amiḍan
 postAddTwoStepAuthentication-subject = Asesteb s snat n tarrayin yermed
 postAddTwoStepAuthentication-title = Asesteb s snat n tarrayin yermed
+postAddTwoStepAuthentication-description-plaintext = Tremdeḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik·im { -product-firefox-account }. Tingalin n tɣelllist n usnas-ik·im n usesteb ad ak·am-d-ttusutrent deg yal tuqqna.
+postAddTwoStepAuthentication-description = Tremdeḍ akken iwata asesteb s snat tarrayin deg umiḍan-ik·im { -product-firefox-account } seg yibenk-a:
 postAddTwoStepAuthentication-action = Sefrek amiḍan
 postAddTwoStepAuthentication-code-required = Tingalin n tɣellist seg usnas-ik n usesteb ad yili yal tuqqna tamaynut.
 postChangePrimary-subject = Imayl amezwaru ittuleqqem
@@ -230,6 +233,7 @@ postNewRecoveryCodes-description = Tesluleḍ-d akken iwata tingalin n tririt se
 postNewRecoveryCodes-action = Sefrek amiḍan
 postRemoveAccountRecovery-subject = Tasarutt n tririt n umiḍan tettwakkes
 postRemoveAccountRecovery-title = Tasarutt n tririt n umiḍan tettwakkes
+postRemoveAccountRecovery-description = Tekkseḍ akken iwata tasarut n tririt n umiḍan i umiḍan-ik·im { -product-firefox-account } s useqdec n yibenk-a:
 postRemoveAccountRecovery-action = Sefrek amiḍan
 postRemoveAccountRecovery-invalid = Tasarutt-a n tririt dayen ur tezmir ara ad tettwaseqdec akken ad d-terr amiḍan-ik/im.
 postRemoveSecondary-subject = Imay wis sin ittwakkes
@@ -237,6 +241,8 @@ postRemoveSecondary-title = Imay wis sin ittwakkes
 postRemoveSecondary-action = Sefrek amiḍan
 postRemoveTwoStepAuthentication-subject-line = Asesteb s snat n tarrayin yensa
 postRemoveTwoStepAuthentication-title = Asesteb s snat n tarrayin yensa
+postRemoveTwoStepAuthentication-description = Tsenseḍ akken iwata asesteb s snat tarrayin deg umiḍan-ik·im { -product-firefox-account } seg yibenk-a:
+postRemoveTwoStepAuthentication-description-plaintext = Tsenseḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik·im { -product-firefox-account }. Tingalin n tɣelllist ur laqent ara yal tuqqna.
 postRemoveTwoStepAuthentication-action = Sefrek amiḍan
 postRemoveTwoStepAuthentication-not-required = Tingalin n tririt uir zgint laqent yal tuqqna.
 postVerify-sub-title = { -product-firefox-account } yettwasenqed. Qrib ad tsaliḍ.
@@ -275,9 +281,13 @@ subscriptionAccountFinishSetup-subject = Ansuf ɣer { $productName }: Ma ulac a�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Ansuf ɣer { $productName }
+subscriptionAccountFinishSetup-content-create-2 = Sakin, ad ternuḍ awal uffir n { -product-firefox-account } i wakken ad tebduḍ aseqdec n umulteɣ-ik·im amaynut.
 subscriptionAccountFinishSetup-action-2 = Bdu
+subscriptionAccountReminderFirst-subject = Asmekti: Ssali asesteb n umiḍan-ik·im
+subscriptionAccountReminderFirst-title = Mazal ur tezmireḍ ara ad tkecmeḍ ɣer umulteɣ-ik·im
 subscriptionAccountReminderFirst-action = Rnu awal uffir
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Asmekti aneggaru: Sesteb amiḍan-ik·im
 subscriptionAccountReminderSecond-title = Ansuf γer { -brand-firefox }!
 subscriptionAccountReminderSecond-action = Rnu awal uffir
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
