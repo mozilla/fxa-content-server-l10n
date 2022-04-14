@@ -370,6 +370,16 @@ plan-details-list-price = Tabdart n leswam
 
 coupon-submit = Snes
 coupon-remove = Kkes
+coupon-error = Tangalt i teskecmeḍ d tarameɣtut neɣ temmut.
+coupon-error-generic = Tella-d tuccḍa lawan n usesfer n tengalt. Ma ulac aɣilif, εreḍ tikkelt-nniḍen.
+coupon-error-expired = Tangalt i teskecmeḍ temmut.
+coupon-error-limit-reached = Tangalt i teskecmeḍ tewweḍ ɣer talast.
+coupon-error-invalid = Tangalt i teskecmeḍ d tarameɣtut.
+coupon-success = Aɣawas-ik·im ad ttuεawed s wudem awurman ɣer ssuma yellan tura.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Aɣawas-ik·im ad yettuεawed s wudem awuran seld { $couponDurationDate } ɣer ssuma tamirant.
+coupon-enter-code =
+    .placeholder = Sekcem tangalt
 
 ## payment-processing
 
@@ -386,12 +396,14 @@ payment-confirmation-thanks-heading = Tanemmirt!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = Imayl n usentem yettwazen-ak·am-n ɣer { $email } s telqayt ɣef wamek ara tebduḍ akked { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Tanemmirt, senqed tura imayl-ik·im!
 
 ## $email (string) - The user's email.
 
 payment-confirmation-order-heading = Talqayt n usuter
 payment-confirmation-invoice-number = Tafaṭurt #{ $invoiceNumber }
 payment-confirmation-billing-heading = Ifetter ɣer
+payment-confirmation-details-heading-2 = Talɣut n lexlaṣ
 payment-confirmation-amount = { $amount } s { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -425,9 +437,19 @@ payment-confirmation-cc-card-ending-in = Takarḍa ad tfakk deg { $last4 }
 
 ## new user email form
 
+new-user-sign-in-link = Tesεiḍ yakan amiḍan { -brand-name-firefox }? <a>Qqen</a>
+new-user-step-1 = 1. Rnu amiḍan { -brand-name-firefox }
 new-user-confirm-email =
     .label = Sentem imayl-inek·inem
 new-user-subscribe-product-updates = Bɣiɣ ad d-remseɣ ileqman n yifarisen seg { -brand-name-firefox }
 new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nernu amiḍan-ik·im. Urǧin ad t-nsenz i wis kraḍ.
 new-user-email-validate = Imayl-a d arameɣtu
 new-user-email-validate-confirm = Ur mṣadan ara yimaylen-a
+new-user-card-title = Sekcem talɣut-ik·im n yimayl
+new-user-submit = Multeɣ tura
+manage-pocket-title = Tettnadiḍ amulteɣ-ik·im premium { -brand-name-pocket }?
+manage-pocket-body = I usefrek-ines, <a>sit da</a>.
+payment-method-header = Fren tarrayt-ik·im n lexlaṣ
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Yettwasra
