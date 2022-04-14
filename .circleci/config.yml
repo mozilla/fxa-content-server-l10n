@@ -4,7 +4,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:14
+      - image: cimg/node:14
     steps:
       - checkout
       - run:
@@ -35,7 +35,7 @@ jobs:
 
   ci:
     docker:
-      - image: circleci/node:14
+      - image: cimg/node:14
     steps:
       - checkout
       - run: npm install
@@ -59,7 +59,7 @@ workflows:
   send-pr:
     triggers:
       - schedule:
-          cron: "0 23 * * 4" # At 15:00 PDT on Thursday
+          cron: "0 22 * * 4" # At 15:00 PDT on Thursday
           filters:
             branches:
               only: master
