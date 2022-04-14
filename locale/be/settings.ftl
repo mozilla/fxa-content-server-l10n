@@ -189,6 +189,8 @@ input-password-show-aria = Паказаць пароль як звычайны �
 ## Linked Accounts section
 
 la-heading = Звязаныя ўліковыя запісы
+la-unlink-button = Адвязаць
+la-unlink-account-button = Адвязаць
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -213,6 +215,7 @@ nav-settings = Налады
 nav-profile = Профіль
 nav-security = Бяспека
 nav-connected-services = Падключаныя паслугі
+nav-data-collection = Збор і выкарыстанне звестак
 nav-paid-subs = Платныя падпіскі
 nav-email-comm = Зносіны па электроннай пошце
 
@@ -237,6 +240,7 @@ avatar-page-remove-photo = Выдаліць фота
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Перазняць фота
+avatar-page-cancel-button = Адмяніць
 avatar-page-save-button = Захаваць
 avatar-page-saving-button = Захаванне…
 avatar-page-zoom-out-button =
@@ -442,6 +446,7 @@ rk-action-create = Стварыць
 rk-action-remove = Выдаліць
 rk-key-removed = Ключ аднаўлення ўліковага запісу выдалены.
 rk-refresh-key = Абнавіць ключ аднаўлення
+rk-content-explain = Аднавіце сваю інфармацыі, калі забудзеце пароль.
 rk-remove-modal-heading = Выдаліць ключ аднаўлення?
 
 ## Secondary email sub-section on main Settings page
@@ -465,6 +470,8 @@ se-refresh-email =
 se-unverified = не спраўджана
 # Button to make secondary email the primary
 se-make-primary = Зрабіць асноўным
+# Default value for the secondary email
+se-secondary-email-none = Няма
 
 ##
 
@@ -491,6 +498,7 @@ tfa-row-change-modal-explain = Вы не зможаце адмяніць гэт�
 
 auth-error-102 = Невядомы ўліковы запіс
 auth-error-103 = Няправільны пароль
+auth-error-105 = Нядзейсны код пацвярджэння
 auth-error-110 = Нядзейсны токен
 auth-error-138 = Неправераны сеанс
 auth-error-155 = TOTP-токен не знойдзены
