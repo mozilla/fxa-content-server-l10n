@@ -348,6 +348,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     { $period } mój pśistup a móje w { $name }
     skłaźone informacije wótwónoźeś
+invoice-not-found = Naslědna zliceńka njejo se namakała
+sub-item-no-such-subsequent-invoice = Naslědna zliceńka njejo se namakała za toś ten abonement.
 
 ## subscription iap item
 
@@ -374,6 +376,8 @@ sub-subscription-error =
     .title = Zmólka pśi cytanju abonementow
 sub-customer-error =
     .title = Zmólka pśi cytanju kupca
+sub-invoice-error =
+    .title = Problem pśi cytanju zliceńkow
 sub-billing-update-success = Waše płaśeńske informacije su se wuspěšnje zaktualizěrowali
 sub-route-payment-modal-heading = Njepłaśiwe płaśeńske informacije
 sub-route-payment-modal-message = Zda se, až dajo zmólka z wašym kontom { -brand-name-paypal }, musymy trjebne kšace pśewjasć, aby toś ten płaśeński problem rozwězali.
@@ -408,6 +412,8 @@ coupon-error-expired = Zapódany kod jo spadnuł.
 coupon-error-limit-reached = Zapódany kod jo dostał swój limit.
 coupon-error-invalid = Zapódany kod jo njepłaśiwy.
 coupon-success = Waš plan se awtomatiski za lisćinowu płaśiznu wótnowja.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Waš plan se pó { $couponDurationDate } za lisćinowu płaśiznu awtomatiski pódlejšyjo.
 coupon-enter-code =
     .placeholder = Kod zapódaś
 
