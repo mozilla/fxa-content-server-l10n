@@ -61,10 +61,6 @@ case $param in
 esac
 done
 
-#if [[ ! $1 =~ ^[0-9]+$ ]]; then
-    #usage;
-#fi
-
 TRAIN_NUMBER=$1
 
 printf "Checking $MAILER_DIR.. "
@@ -80,9 +76,8 @@ check_folder $L10N_DIR
 
 set -x
 
-#(cd $MAILER_DIR && rm -f server.pot && npx grunt l10n-extract)
-#cp $MAILER_DIR/server.pot $CONTENT_DIR/locale/templates/LC_MESSAGES/
 
+# Gettext extraction
 (cd $CONTENT_DIR && npx grunt l10n-extract)
 cp -r $CONTENT_DIR/locale/templates/* $L10N_DIR/locale/templates
 
@@ -91,6 +86,7 @@ cp -r $CONTENT_DIR/locale/templates/* $L10N_DIR/locale/templates
 msgfilter -i $L10N_DIR/locale/sr/LC_MESSAGES/client.po -o $L10N_DIR/locale/sr_Latn/LC_MESSAGES/client.po recode-sr-latin
 msgfilter -i $L10N_DIR/locale/sr/LC_MESSAGES/server.po -o $L10N_DIR/locale/sr_Latn/LC_MESSAGES/server.po recode-sr-latin
 
+# Fluent extraction
 cp $PAYMENTS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
 cp $SETTINGS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
 cp $MAILER_DIR/public/locales/en/*.ftl $L10N_DIR/locale/templates
