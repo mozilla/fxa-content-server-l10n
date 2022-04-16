@@ -394,7 +394,7 @@ pay-update-manage-btn = Spravovať
 
 ## subscription create
 
-sub-guarantee = 30 dňová záruka vrátenia peňazí
+sub-guarantee = 30-dňová záruka vrátenia peňazí
 pay-with-heading-other = Vyberte spôsob platby
 pay-with-heading-card-or = Alebo zaplaťte kartou
 pay-with-heading-card-only = Zaplatiť kartou
