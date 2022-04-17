@@ -47,7 +47,7 @@ subplat-explainer-specific = 您會收到這封信，是因為 { $email } 註冊
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-firefox-account }。
 subplat-explainer-multiple = 您會收到這封信，是因為 { $email } 註冊了 { -product-firefox-account }，並且訂閱了多套產品。
-subplat-manage-account = 到您的<a data-l10n-name="subplat-account-page">帳號頁面</a>來管理 { -product-firefox-account }設定。
+subplat-manage-account = 可以到您的<a data-l10n-name="subplat-account-page">帳號頁面</a>來管理 { -product-firefox-account }設定。
 subplat-terms-policy = 條款及取消政策
 subplat-terms-policy-plaintext = { subplat-terms-policy }：
 subplat-cancel = 取消訂閱
@@ -469,7 +469,7 @@ subscriptionsPaymentProviderCancelled-content-payment = 可能是您的信用卡
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = 已收到 { $productName } 付款
-subscriptionSubsequentInvoice-title = 感謝您成為訂閱者！
+subscriptionSubsequentInvoice-title = 感謝您訂閱！
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = 我們已收到您最近為 { $productName } 支付的款項。
@@ -492,7 +492,7 @@ subscriptionSubsequentInvoice-content-next-invoice = 下次扣款日：{ $nextIn
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoiceDiscount-subject = 已收到 { $productName } 付款
-subscriptionSubsequentInvoiceDiscount-title = 感謝您成為訂閱者！
+subscriptionSubsequentInvoiceDiscount-title = 感謝您訂閱！
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoiceDiscount-content-received = 我們已收到您最近為 { $productName } 支付的款項。
