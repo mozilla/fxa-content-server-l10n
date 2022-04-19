@@ -87,6 +87,7 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Obnovi naročnino
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Posodobi podatke za račun
+subplat-privacy-policy = Mozillina politika zasebnosti
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms = Pogoji uporabe storitev { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
@@ -148,8 +149,33 @@ subscriptionSupportContact-plaintext = Hvala, ker ste se naročili na { $product
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Za več informacij obiščite { $supportUrl }
 # Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } v sistemu { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } v sistemu { $uaOS }
+# Variables:
 #  $ip (Number) - User's IP address
 user-ip = Naslov IP: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (ocena)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (ocena)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (ocena)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (ocena)
 view-invoice = <a data-l10n-name="invoiceLink">Prikaži račun</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
