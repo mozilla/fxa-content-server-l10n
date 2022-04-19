@@ -53,6 +53,8 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = Se prijavljate v { -product-firefox-accounts(sklon: "tozilnik") }?
+session-verify-send-push-body = Kliknite tukaj za potrditev, da ste to vi
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
