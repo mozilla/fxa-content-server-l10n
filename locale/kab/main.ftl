@@ -70,8 +70,8 @@ terms-download = Tiwtilin n usader
 
 subscription-create-title = Sbadu amulteɣ-ik·im
 subscription-success-title = Asentem n umulteɣ
-subscription-processing-title = Asentem n umulteɣ...
-subscription-error-title = Tuccḍa deg usentem n umulteɣ...
+subscription-processing-title = Asentem n umulteɣ…
+subscription-error-title = Tuccḍa deg usentem n umulteɣ…
 subscription-noplanchange-title = Asnifel n uɣawas n umulteɣ ur yettusefrak ara
 subscription-iapsubscribed-title = I•Tmulteɣ yakan
 
@@ -383,7 +383,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Ttxil-k·m ṛǧu mi ara nsesfer asellek-inek·inem...
+payment-processing-message = Ttxil-k·m ṛǧu mi ara nsesfer asellek-inek·inem…
 
 ## payment confirmation
 
