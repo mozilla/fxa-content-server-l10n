@@ -299,7 +299,7 @@ account-activated = החשבון שלך מופעל, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = בתהליך עדכון פרטי החיוב...
+sub-route-idx-updating = בתהליך עדכון פרטי החיוב…
 sub-route-idx-reactivating = הפעלת המינוי מחדש נכשלה
 sub-route-idx-cancel-failed = ביטול המינוי נכשל
 sub-route-idx-contact = יצירת קשר עם התמיכה
@@ -352,7 +352,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = נא להמתין בעת עיבוד התשלום שלך...
+payment-processing-message = נא להמתין בעת עיבוד התשלום שלך…
 
 ## payment confirmation
 
