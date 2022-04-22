@@ -71,7 +71,7 @@ terms-download = İndirme koşulları
 subscription-create-title = Aboneliğinizi ayarlayın
 subscription-success-title = Abonelik onayı
 subscription-processing-title = Abonelik onaylanıyor…
-subscription-error-title = Abonelik onaylanırken hata oluştu...
+subscription-error-title = Abonelik onaylanırken hata oluştu…
 subscription-noplanchange-title = Bu abonelik planı değişikliği desteklemiyor
 subscription-iapsubscribed-title = Zaten abonesiniz
 
@@ -314,7 +314,7 @@ account-activated = <userEl/>, hesabınız etkinleştirildi
 
 ## subscription route index
 
-sub-route-idx-updating = Fatura bilgileri güncelleniyor...
+sub-route-idx-updating = Fatura bilgileri güncelleniyor…
 sub-route-idx-reactivating = Aboneliği yeniden etkinleştirme başarısız oldu
 sub-route-idx-cancel-failed = Abonelik iptal edilemedi
 sub-route-idx-contact = Destek birimine ulaş
