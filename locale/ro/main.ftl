@@ -48,6 +48,8 @@ privacy = Notificare privind confidențialitatea
 ## Subscription titles
 
 subscription-create-title = Configurează-ți abonamentul
+subscription-processing-title = Se confirmă abonamentul …
+subscription-error-title = Eroare la confirmarea abonamentului …
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -299,7 +301,7 @@ account-activated = Contul tău este activat, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Se actualizează informațiile de facturare...
+sub-route-idx-updating = Se actualizează informațiile de facturare…
 sub-route-idx-reactivating = Reactivarea abonamentului a eșuat
 sub-route-idx-cancel-failed = Anularea abonamentului a eșuat
 sub-route-idx-contact = Contactează serviciul de asistență
@@ -339,6 +341,7 @@ plan-details-total-label = Total
 
 ## payment-processing
 
+payment-processing-message = Vă rugăm să așteptați în timp ce procesăm plata dvs. …
 
 ## payment confirmation
 
