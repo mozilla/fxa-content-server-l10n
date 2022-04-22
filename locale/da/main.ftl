@@ -70,8 +70,8 @@ terms-download = Betingelser for hentning
 
 subscription-create-title = Opsætning af dit abonnement
 subscription-success-title = Bekræftelse af abonnement
-subscription-processing-title = Bekræfter abonnement ...
-subscription-error-title = Der opstod en fejl under bekræftelse af abonnement...
+subscription-processing-title = Bekræfter abonnement …
+subscription-error-title = Der opstod en fejl under bekræftelse af abonnement…
 subscription-noplanchange-title = Denne ændring af abonnementsplan understøttes ikke
 subscription-iapsubscribed-title = Abonnerer allerede
 
@@ -328,7 +328,7 @@ account-activated = <userEl/>, din konto er aktiveret
 
 ## subscription route index
 
-sub-route-idx-updating = Opdaterer faktureringsoplysninger...
+sub-route-idx-updating = Opdaterer faktureringsoplysninger…
 sub-route-idx-reactivating = Genaktivering af abonnement mislykkedes
 sub-route-idx-cancel-failed = Annullering af abonnement mislykkedes
 sub-route-idx-contact = Kontakt support
@@ -387,7 +387,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Vent mens vi behandler din betaling...
+payment-processing-message = Vent mens vi behandler din betaling…
 
 ## payment confirmation
 

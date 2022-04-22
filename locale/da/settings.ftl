@@ -480,7 +480,7 @@ switch-turn-off = Slå fra
 # Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
 switch-turn-on = Slå til
 # Used as "title" attribute when switch has been interacted with and form is submitting
-switch-submitting = Indsender...
+switch-submitting = Indsender…
 switch-is-on = til
 switch-is-off = fra
 
