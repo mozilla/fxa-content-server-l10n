@@ -70,8 +70,8 @@ terms-download = Nerladdningsvillkor
 
 subscription-create-title = Konfigurera din prenumeration
 subscription-success-title = Prenumerationsbekräftelse
-subscription-processing-title = Bekräftar prenumerationen...
-subscription-error-title = Fel vid bekräftelse av prenumeration...
+subscription-processing-title = Bekräftar prenumerationen…
+subscription-error-title = Fel vid bekräftelse av prenumeration…
 subscription-noplanchange-title = Ändringen av prenumerationsplanen stöds inte
 subscription-iapsubscribed-title = Har redan prenumererat
 
@@ -328,7 +328,7 @@ account-activated = Ditt konto är aktiverat, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Uppdaterar faktureringsinformation...
+sub-route-idx-updating = Uppdaterar faktureringsinformation…
 sub-route-idx-reactivating = Återaktivering av prenumerationen misslyckades
 sub-route-idx-cancel-failed = Avbrytande av prenumeration misslyckades
 sub-route-idx-contact = Kontakta supporten
@@ -387,7 +387,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Vänta medan vi behandlar din betalning...
+payment-processing-message = Vänta medan vi behandlar din betalning…
 
 ## payment confirmation
 
