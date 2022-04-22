@@ -360,7 +360,7 @@ account-activated = Wašo konto jo zmóžnjone, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Wótliceńske informacije se aktualizěruju...
+sub-route-idx-updating = Wótliceńske informacije se aktualizěruju…
 sub-route-idx-reactivating = Zasejaktiwěrowanje abonementa jo se mimo kuliło
 sub-route-idx-cancel-failed = Wupowěźenje abonementa jo se mimo kuliło
 sub-route-idx-contact = Pomoc kontaktěrowaś
