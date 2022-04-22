@@ -70,8 +70,8 @@ terms-download = Условия загрузки
 
 subscription-create-title = Настройка вашей подписки
 subscription-success-title = Подтверждение подписки
-subscription-processing-title = Подтверждение подписки...
-subscription-error-title = Ошибка подтверждения подписки...
+subscription-processing-title = Подтверждение подписки…
+subscription-error-title = Ошибка подтверждения подписки…
 subscription-noplanchange-title = Это изменение плана подписки не поддерживается
 subscription-iapsubscribed-title = Уже подписаны
 
@@ -344,7 +344,7 @@ account-activated = Ваш аккаунт активирован, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Обновление платёжной информации...
+sub-route-idx-updating = Обновление платёжной информации…
 sub-route-idx-reactivating = Не удалось повторно активировать подписку
 sub-route-idx-cancel-failed = Не удалось отменить подписку
 sub-route-idx-contact = Связаться с поддержкой
@@ -403,7 +403,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Подождите, пока мы обработаем ваш платеж...
+payment-processing-message = Подождите, пока мы обработаем ваш платеж…
 
 ## payment confirmation
 
