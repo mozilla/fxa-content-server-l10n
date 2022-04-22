@@ -70,8 +70,8 @@ terms-download = Tải xuống các điều khoản
 
 subscription-create-title = Thiết lập thuê bao của bạn
 subscription-success-title = Xác nhận thuê bao
-subscription-processing-title = Đang xác nhận thuê bao...
-subscription-error-title = Lỗi khi xác nhận thuê bao...
+subscription-processing-title = Đang xác nhận thuê bao…
+subscription-error-title = Lỗi khi xác nhận thuê bao…
 subscription-noplanchange-title = Thay đổi gói thuê bao này không được hỗ trợ
 subscription-iapsubscribed-title = Đã đăng ký
 
@@ -312,7 +312,7 @@ account-activated = Tài khoản của bạn đã được kích hoạt, <userEl
 
 ## subscription route index
 
-sub-route-idx-updating = Đang cập nhật thông tin thanh toán...
+sub-route-idx-updating = Đang cập nhật thông tin thanh toán…
 sub-route-idx-reactivating = Không thể kích hoạt lại đăng ký
 sub-route-idx-cancel-failed = Không thể hủy kích hoạt đăng ký
 sub-route-idx-contact = Liên hệ hỗ trợ
@@ -371,7 +371,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Vui lòng đợi trong khi chúng tôi xử lý thanh toán của bạn...
+payment-processing-message = Vui lòng đợi trong khi chúng tôi xử lý thanh toán của bạn…
 
 ## payment confirmation
 
