@@ -70,7 +70,7 @@ terms-download = Download Terms
 
 subscription-create-title = Set up your subscription
 subscription-success-title = Subscription confirmation
-subscription-processing-title = Confirming subscription...
+subscription-processing-title = Confirming subscription…
 subscription-error-title = Error confirming subscription…
 subscription-noplanchange-title = This subscription plan change is not supported
 subscription-iapsubscribed-title = Already subscribed
@@ -328,7 +328,7 @@ account-activated = Your account is activated, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Updating billing information...
+sub-route-idx-updating = Updating billing information…
 sub-route-idx-reactivating = Reactivating subscription failed
 sub-route-idx-cancel-failed = Cancelling subscription failed
 sub-route-idx-contact = Contact Support
