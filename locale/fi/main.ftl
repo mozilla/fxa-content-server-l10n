@@ -76,8 +76,8 @@ terms-download = Latausehdot
 
 subscription-create-title = Määritä tilaus
 subscription-success-title = Tilauksen vahvistus
-subscription-processing-title = Vahvistetaan tilausta...
-subscription-error-title = Virhe tilausta vahvistaessa...
+subscription-processing-title = Vahvistetaan tilausta…
+subscription-error-title = Virhe tilausta vahvistaessa…
 subscription-noplanchange-title = Tämä tilaustyypin vaihtaminen ei ole tuettu
 subscription-iapsubscribed-title = Tilattu jo aiemmin
 
@@ -331,7 +331,7 @@ account-activated = Tilisi on aktivoitu, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Päivitetään laskutustietoja...
+sub-route-idx-updating = Päivitetään laskutustietoja…
 sub-route-idx-reactivating = Tilauksen aktivointi uudelleen epäonnistui
 sub-route-idx-cancel-failed = Tilauksen peruuttaminen epäonnistui
 sub-route-idx-contact = Ota yhteys tukeen
@@ -390,7 +390,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Odota kun käsittelemme maksuasi...
+payment-processing-message = Odota kun käsittelemme maksuasi…
 
 ## payment confirmation
 
