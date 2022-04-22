@@ -190,6 +190,9 @@ input-password-show = Vis passord
 input-password-hide-aria = Gøym passord frå skjermen.
 input-password-show-aria = Vis passord som rein tekst. Passordet ditt vil visast på skjermen.
 
+## Linked Accounts section
+
+
 ## Modal
 
 modal-close-title = Lat att
@@ -392,7 +395,7 @@ switch-turn-off = Slå av
 # Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
 switch-turn-on = Slå på
 # Used as "title" attribute when switch has been interacted with and form is submitting
-switch-submitting = Sender inn...
+switch-submitting = Sender inn…
 switch-is-on = på
 switch-is-off = av
 
