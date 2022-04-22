@@ -29,7 +29,6 @@ payment-error-retry-button = Titojtob'ëx chik
 payment-error-manage-subscription-button = Tinuk'samajïx rutz'ib'axik nub'i'
 country-currency-mismatch = Man okel ta ri rupwaq re tz'ib'anïk b'i'aj re' richin re amaq' atz'ib'an kan richin ri atojik.
 currency-currency-mismatch = Takuyu'. Man yatikïr ta najäl chi kikojol ri pwaqil.
-no-subscription-upgrades = Takuyu'. Man yatikïr ta nak'ëx chuqa' nichup ruwa ri rutz'ib'axik ab'i' wakami. Tanik'oj pa jumej chik.
 expired-card-error = Xa ke xa ri rutajeta' richin kre'ito' xik'o yan ruq'ijul. Tatojtob'ej chik rik'in jun tarjeta'.
 insufficient-funds-error = Xa ke xa ri tajeta' man k'ïy ta rupam. Tatojtob'ej chik rik'in jun tarjeta'.
 withdrawal-count-limit-exceeded-error = Xakexa re tojoj re' xtik'o ruwi' rajil. Tatojtob'ej jun chik tarjeta'.
@@ -38,6 +37,9 @@ instant-payouts-unsupported = Xakexa ri rutarjeta' e'ito' majun runuk'ulem richi
 duplicate-transaction = Hmm. Achi'el chi k'a b'a' titaq jun totoj junam. Tanik'oj ri runatab'al atojik.
 coupon-expired = Achi'el chi re sujel b'itz'ib' xk'is ruq'ijul.
 card-error = Man xb'an ta ri tojïk. Tanik'oj ri retamab'al rutarjeta' kre'ito' chuqa' tatojtob'ej chik.
+
+##  $productName (String) - The name of the subscribed product.
+
 
 ## settings
 
@@ -55,7 +57,6 @@ subscription-create-title = Tiqab'ana' runuk'ulem rutz'ib'axik b'i'aj
 subscription-success-title = Rujikib'axik rutz'ib'axik b'i'aj
 subscription-processing-title = Nijikib'äx rutz'ib'axik b'i'aj
 subscription-error-title = Xsach toq nijikib'äx ri rutz'ib'axik b'i'aj…
-subscription-noupgrade-title = Man yek'ul ta taq jaloj pa ri rutz'ib'axik rub'i'
 
 ##  $productName (String) - The name of the subscribed product.
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
@@ -99,11 +100,8 @@ product-no-such-plan = Majun ajil richin re tikojil.
 ## payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } nrokisaj { -brand-name-stripe } chuqa' { -brand-name-paypal } richin nijikib'äx ri tojïk.
-payment-legal-link-stripe-and-paypal-2 = Titz'et ri <stripePrivacyLink>Runa'ojil richinanem { -brand-name-stripe }</stripePrivacyLink> chuqa' <paypalPrivacyLink>{ -brand-name-paypal }Runa'ojil Richinanem </paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } nrokisaj { -brand-name-paypal } richin nijikib'äx ri tojïk.
-payment-legal-link-paypal = Titz'et ri <paypalPrivacyLink>{ -brand-name-paypal } runa'ojil ichinanem</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } nrokisaj { -brand-name-stripe } richin nijikib'äx ri tojïk.
-payment-legal-link-stripe-2 = Titz'et ri <stripePrivacyLink>Runa'ojil ichinanem { -brand-name-stripe }</stripePrivacyLink>.
 
 ## payment form
 
@@ -171,8 +169,6 @@ input-error-is-required = Najowäx { $label }
 
 ## subscription upgrade
 
-product-plan-upgrade-heading = Tanik'oj ri k'exoj
-sub-update-failed = Xsach ri ruk'exoj ajil
 sub-update-payment-title = Retamab'al tojïk
 sub-update-card-exp = Nik'is ruq'ijul { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
@@ -180,38 +176,8 @@ sub-update-copy =
     pa ruwi' ri k'a nib'an na ruwujil. Ri nitikïr { $startingDate }
     xtik'ul ronojel ri rajil.
 
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-update-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun q'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
-       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } q'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-update-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun wuqq'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
-       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } wuqq'ij</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-update-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun ik'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
-       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } ik'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-update-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun juna'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
-       *[other] Ninya' q'ij chi re { -brand-name-mozilla }, b'anöy { -brand-name-firefox } taq tikojil, nuq'axaj pa rub'eyal nutojik <strong>{ $amount } jujun { $intervalCount } juna'</strong>, achi'el nub'ij ri <termsOfServiceLink>Rub'eyal Samaj</termsOfServiceLink> chuqa' <privacyNoticeLink> ri Ichinan Na'oj</privacyNoticeLink> k'a jampe' ninq'ät ri rutz'ib'axik nub'i'.
-    }
-
 ##
 
-sub-update-submit = Tijikib'äx k'exoj
-sub-update-indicator =
-    .aria-label = Etanel k'exoj
 sub-update-current-plan-label = Ajil wakami
 sub-update-new-plan-label = K'ak'a' ajil
 sub-update-total-label = Ronojel k'ak'a'
@@ -323,11 +289,14 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Tiq'at ri wokem chuqa' ri wetamab'al yakon
     { $name } pa { $period }
+
+## subscription iap item
+
 account-activated = Xtzij ri rub'i' ataqoya'l, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Nik'ex ri retamab'al wujil...
+sub-route-idx-updating = Nik'ex ri retamab'al wujil…
 sub-route-idx-reactivating = Xsach ri rutzijik chik rutz'ib'axik b'i'aj
 sub-route-idx-cancel-failed = Xsach ri ruq'atik rutz'ib'axik b'i'aj
 sub-route-idx-contact = Katzijon pa Tob'äl
@@ -360,6 +329,9 @@ plan-details-show-button = Kek'ut pe ri taq rub'anikil
 plan-details-hide-button = Ke'ewäx ri taq rub'anikil
 plan-details-total-label = Ronojel
 
+## coupons
+
+
 ## payment-processing
 
 payment-processing-message = Tawoyob'ej richin niqasamajij ri atojik…
@@ -369,11 +341,18 @@ payment-processing-message = Tawoyob'ej richin niqasamajij ri atojik…
 payment-confirmation-alert = Tipitz' wawe' richin niqasäx
 payment-confirmation-mobile-alert = ¿La man nijaqatäj ta ri chokoy? <a>Tipitz' Wawe'</a>
 payment-confirmation-thanks-heading = ¡Matyox!
+
+## payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Xtaq jun rutaqoya' jikib'anïk pa { $email } richin rub'eyal natikirisaj rik'in { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Rub'anikil taqoj
 payment-confirmation-invoice-number = Rajilab'al paktura' { $invoiceNumber }
 payment-confirmation-billing-heading = Xb'an pakturar chi re
-payment-confirmation-details-heading = Rub'anikil tojïk
 payment-confirmation-amount = { $amount } chi { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -404,3 +383,6 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = K'a tiqasäx
 payment-confirmation-cc-card-ending-in = K'isb'en pa { $last4 } ri tarjeta'
+
+## new user email form
+
