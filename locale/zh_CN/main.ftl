@@ -70,8 +70,8 @@ terms-download = 下载条款
 
 subscription-create-title = 设置您的订阅
 subscription-success-title = 订阅确认
-subscription-processing-title = 正在确认订阅...
-subscription-error-title = 确认订阅时出现错误...
+subscription-processing-title = 正在确认订阅…
+subscription-error-title = 确认订阅时出现错误…
 subscription-noplanchange-title = 不支持更改此订阅方案
 subscription-iapsubscribed-title = 已经订阅
 
@@ -314,7 +314,7 @@ account-activated = 您的账户已激活，<userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = 正在更新账单信息...
+sub-route-idx-updating = 正在更新账单信息…
 sub-route-idx-reactivating = 重新激活订阅失败
 sub-route-idx-cancel-failed = 订阅取消失败
 sub-route-idx-contact = 联系用户支持
@@ -373,7 +373,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = 请稍候，我们正在处理您的付款...
+payment-processing-message = 请稍候，我们正在处理您的付款…
 
 ## payment confirmation
 
