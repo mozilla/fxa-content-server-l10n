@@ -70,8 +70,8 @@ terms-download = Emboguejy ñemboguatarã
 
 subscription-create-title = Ñemboheraguapy ñemboheko
 subscription-success-title = Ñemboheraguapy ñemoneĩ
-subscription-processing-title = Ñemboheraguapy oñemoneĩhína...
-subscription-error-title = Ojavy oñemoneĩvo ñemboheraguapy...
+subscription-processing-title = Ñemboheraguapy oñemoneĩhína…
+subscription-error-title = Ojavy oñemoneĩvo ñemboheraguapy…
 subscription-noplanchange-title = Ko ñemoambue rape ñemboheraguapygua noñepytyvõi
 subscription-iapsubscribed-title = Eñemboheraguapýma
 
@@ -328,7 +328,7 @@ account-activated = Pe mba’ete hendyhína, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Hekopyahuhína ñemuhakuatia marandu...
+sub-route-idx-updating = Hekopyahuhína ñemuhakuatia marandu…
 sub-route-idx-reactivating = Ojavy pe mboheraguapy myandyjey
 sub-route-idx-cancel-failed = Ojavy pe mboheraguapy jehejarei
 sub-route-idx-contact = Eñe’ẽ pytyvõhándi
@@ -387,7 +387,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Ikatúiko eha’arõ romongu’e aja ne jehepyme’ẽ...
+payment-processing-message = Ikatúiko eha’arõ romongu’e aja ne jehepyme’ẽ…
 
 ## payment confirmation
 
