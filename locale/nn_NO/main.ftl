@@ -351,7 +351,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Vent mens vi behandlar betalinga di...
+payment-processing-message = Vent mens vi behandlar betalinga di…
 
 ## payment confirmation
 
