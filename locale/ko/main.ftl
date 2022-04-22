@@ -71,7 +71,7 @@ terms-download = 약관 다운로드
 subscription-create-title = 구독 설정
 subscription-success-title = 구독 확인
 subscription-processing-title = 구독 확인 중…
-subscription-error-title = 구독 확인 오류...
+subscription-error-title = 구독 확인 오류…
 subscription-noplanchange-title = 해당 구독 일정 변경이 지원되지 않습니다.
 subscription-iapsubscribed-title = 이미 구독 중
 
@@ -305,7 +305,7 @@ account-activated = 계정이 활성화되었습니다. <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = 결제 정보 업데이트중...
+sub-route-idx-updating = 결제 정보 업데이트중…
 sub-route-idx-reactivating = 구독 재활성 실패
 sub-route-idx-cancel-failed = 구독 취소 실패
 sub-route-idx-contact = 연락하기
