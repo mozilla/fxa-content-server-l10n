@@ -318,7 +318,7 @@ account-activated = Tu conto es activate, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Actualisation del informationes de factura...
+sub-route-idx-updating = Actualisation del informationes de factura…
 sub-route-idx-reactivating = Reactivation del subscription fallite
 sub-route-idx-cancel-failed = Cancellation del subscription fallite
 sub-route-idx-contact = Contactar assistentia
@@ -377,7 +377,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Attende durante que nos elabora tu pagamento...
+payment-processing-message = Attende durante que nos elabora tu pagamento…
 
 ## payment confirmation
 
