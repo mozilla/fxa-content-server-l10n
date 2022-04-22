@@ -197,6 +197,9 @@ input-password-show = 비밀번호 표시
 input-password-hide-aria = 화면에서 비밀번호 숨기기
 input-password-show-aria = 비밀번호를 일반 텍스트로 표시합니다. 비밀번호가 화면에 표시됩니다.
 
+## Linked Accounts section
+
+
 ## Modal
 
 modal-close-title = 닫기
@@ -248,7 +251,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = 사진 다시 찍기
 avatar-page-cancel-button = 취소
 avatar-page-save-button = 저장
-avatar-page-saving-button = 저장 중...
+avatar-page-saving-button = 저장 중…
 avatar-page-zoom-out-button =
     .title = 축소
 avatar-page-zoom-in-button =
@@ -299,8 +302,6 @@ delete-account-step-1-2 = 1/2 단계
 delete-account-step-2-2 = 2/2 단계
 delete-account-confirm-title-2 = 웹에서 안전함과 생산성을 유지할 수 있도록 { -product-firefox-account }를 { -brand-mozilla } 제품에 연결했습니다:
 delete-account-acknowledge = 계정 삭제 전 다음 사항에 유의하세요.
-delete-account-chk-box-1 =
-    .label = 모든 유료 구독이 취소됩니다.
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } 제품에 포함된 저장 정보와 기능을 잃을 수 있습니다.
 delete-account-chk-box-3 =
@@ -399,6 +400,7 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     지원되는 어플리케이션에서 2단계 인증을 설정하기 위해 { $secret } 코드를
     사용하세요.
@@ -428,12 +430,6 @@ profile-picture =
     .header = 사진
 profile-display-name =
     .header = 표시 이름
-profile-password =
-    .header = 비밀번호
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = { $date }에 생성됨
 profile-primary-email =
     .header = 기본 메일
 
