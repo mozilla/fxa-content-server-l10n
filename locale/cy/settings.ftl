@@ -479,7 +479,7 @@ switch-turn-off = Diffodd
 # Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
 switch-turn-on = Cychwyn
 # Used as "title" attribute when switch has been interacted with and form is submitting
-switch-submitting = Yn cyflwyno...
+switch-submitting = Yn cyflwyno…
 switch-is-on = ymlaen
 switch-is-off = i ffwrdd
 

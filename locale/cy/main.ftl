@@ -70,8 +70,8 @@ terms-download = Amodau Llwytho i Lawr
 
 subscription-create-title = Gosod eich tanysgrifiad
 subscription-success-title = Cadarnhad o'ch tanysgrifiad
-subscription-processing-title = Yn cadarnhau eich tanysgrifiad...
-subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad...
+subscription-processing-title = Yn cadarnhau eich tanysgrifiad…
+subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad…
 subscription-noplanchange-title = Nid yw newid cynllun tanysgrifio yn cael ei gynnal
 subscription-iapsubscribed-title = Eisoes wedi tanysgrifio
 
@@ -392,7 +392,7 @@ account-activated = Mae eich cyfrif wedi'i agor, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Diweddaru'r manylion bilio...
+sub-route-idx-updating = Diweddaru'r manylion bilio…
 sub-route-idx-reactivating = Methodd ail agor tanysgrifiad
 sub-route-idx-cancel-failed = Methodd diddymu'r tanysgrifiad
 sub-route-idx-contact = Cysylltu â Chefnogaeth
