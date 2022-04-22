@@ -70,8 +70,8 @@ terms-download = Завантажити умови
 
 subscription-create-title = Налаштуйте передплату
 subscription-success-title = Підтвердження передплати
-subscription-processing-title = Підтвердження передплати...
-subscription-error-title = Помилка підтвердження передплати...
+subscription-processing-title = Підтвердження передплати…
+subscription-error-title = Помилка підтвердження передплати…
 subscription-noplanchange-title = Зміна цього тарифного плану не підтримується
 subscription-iapsubscribed-title = Уже передплачено
 
@@ -342,7 +342,7 @@ account-activated = Ваш обліковий запис активовано, <
 
 ## subscription route index
 
-sub-route-idx-updating = Оновлення платіжних даних...
+sub-route-idx-updating = Оновлення платіжних даних…
 sub-route-idx-reactivating = Не вдалося поновити передплату
 sub-route-idx-cancel-failed = Не вдалося скасувати передплату
 sub-route-idx-contact = Звернутися до служби підтримки
@@ -401,7 +401,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Зачекайте, поки ми обробимо ваш платіж...
+payment-processing-message = Зачекайте, поки ми обробимо ваш платіж…
 
 ## payment confirmation
 
