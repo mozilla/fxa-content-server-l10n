@@ -71,7 +71,7 @@ terms-download = Descargar términos
 subscription-create-title = Configurar tu suscripción
 subscription-success-title = Confirmación de suscripción
 subscription-processing-title = Confirmando suscripción…
-subscription-error-title = Error al confirmar la suscripción...
+subscription-error-title = Error al confirmar la suscripción…
 subscription-noplanchange-title = Este cambio del plan de suscripción no está soportado
 subscription-iapsubscribed-title = Ya cuentas con una suscripción
 
@@ -328,7 +328,7 @@ account-activated = Tu cuenta está activada, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Actualizando información de pagos...
+sub-route-idx-updating = Actualizando información de pagos…
 sub-route-idx-reactivating = Fallo la reactivación de la suscripción
 sub-route-idx-cancel-failed = Fallo la cancelación de la suscripción
 sub-route-idx-contact = Contactar al soporte
