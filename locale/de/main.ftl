@@ -70,7 +70,7 @@ terms-download = Nutzungsbedingungen herunterladen
 
 subscription-create-title = Ihr Abonnement einrichten
 subscription-success-title = Abonnementbestätigung
-subscription-processing-title = Abonnement wird bestätigt...
+subscription-processing-title = Abonnement wird bestätigt…
 subscription-error-title = Fehler beim Bestätigen des Abonnements…
 subscription-noplanchange-title = Diese Änderung des Abonnementplans wird nicht unterstützt
 subscription-iapsubscribed-title = Bereits abonniert
@@ -387,7 +387,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Bitte warten Sie, während wir Ihre Zahlung bearbeiten ...
+payment-processing-message = Bitte warten Sie, während wir Ihre Zahlung bearbeiten …
 
 ## payment confirmation
 

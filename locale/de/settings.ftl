@@ -475,7 +475,7 @@ switch-turn-off = Deaktivieren
 # Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
 switch-turn-on = Aktivieren
 # Used as "title" attribute when switch has been interacted with and form is submitting
-switch-submitting = Senden...
+switch-submitting = Senden…
 switch-is-on = An
 switch-is-off = Aus
 
