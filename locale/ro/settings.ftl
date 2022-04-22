@@ -158,6 +158,9 @@ cs-sign-out-button = Deconectează-te
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
 
+## Data collection section
+
+
 # DropDownAvatarMenu component
 
 drop-down-menu-sign-out = Deconectează-te
@@ -189,6 +192,9 @@ header-title = { -product-firefox-accounts(case: "indefinite-article", capitaliz
 input-password-hide = Ascunde parola
 input-password-show = Afișează parola
 input-password-hide-aria = Ascunde parola de pe ecran.
+
+## Linked Accounts section
+
 
 ## Modal
 
@@ -236,7 +242,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = Refă fotografia
 avatar-page-cancel-button = Anulează
 avatar-page-save-button = Salvează
-avatar-page-saving-button = Se salvează...
+avatar-page-saving-button = Se salvează…
 avatar-page-rotate-button =
     .title = Rotește
 avatar-page-camera-error = Nu s-a putut inițializa camera
@@ -282,8 +288,6 @@ delete-account-step-1-2 = Pasul 1 din 2
 delete-account-step-2-2 = Pasul 2 din 2
 delete-account-confirm-title-2 = Ai conectat { -product-firefox-account(case: "definite-article") } la produsele { -brand-mozilla } care îți asigură siguranța și productivitatea pe web:
 delete-account-acknowledge = Te rugăm să iei la cunoștință că prin ștergerea contului:
-delete-account-chk-box-1 =
-    .label = Orice abonamente cu plată pe care le ai vor fi anulate
 delete-account-chk-box-2 =
     .label = Este posibil să pierzi informațiile și funcțiile salvate în cadrul produselor { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -335,9 +339,6 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Anulează
 add-secondary-email-save-button = Salvează
 
-##
-
-
 ## Verify secondary email page
 
 verify-secondary-email-error = A apărut o problemă la trimiterea codului de verificare.
@@ -379,6 +380,7 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Folosește codul { $secret } pentru a configura autentificarea în doi pași
     în aplicațiile suportate.
@@ -401,12 +403,6 @@ profile-picture =
     .header = Fotografie
 profile-display-name =
     .header = Nume afișat
-profile-password =
-    .header = Parolă
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Creată în { $date }
 profile-primary-email =
     .header = E-mail principal
 
@@ -416,6 +412,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Securitate
+
+## Switch component
+
 
 ## Sub-section row Defaults
 
