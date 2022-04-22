@@ -452,7 +452,7 @@ account-activated = Váš účet účet je aktivován, <userEl/>.
 
 ## subscription route index
 
-sub-route-idx-updating = Probíhá aktualizace platebních údajů...
+sub-route-idx-updating = Probíhá aktualizace platebních údajů…
 sub-route-idx-reactivating = Předplatné se nepodařilo obnovit
 sub-route-idx-cancel-failed = Předplatné se nepodařilo zrušit
 sub-route-idx-contact = Kontaktujte podporu
