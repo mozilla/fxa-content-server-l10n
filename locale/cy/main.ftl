@@ -451,7 +451,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Arhoswch tra'n bod ni'n prosesu'ch taliad...
+payment-processing-message = Arhoswch tra'n bod ni'n prosesu'ch taliad…
 
 ## payment confirmation
 
