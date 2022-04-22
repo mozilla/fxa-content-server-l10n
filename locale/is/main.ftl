@@ -70,8 +70,8 @@ terms-download = Sækja skilmála
 
 subscription-create-title = Settu upp áskriftina þína
 subscription-success-title = Staðfesting áskriftar
-subscription-processing-title = Staðfesti áskrift...
-subscription-error-title = Villa við að staðfesta áskrift...
+subscription-processing-title = Staðfesti áskrift…
+subscription-error-title = Villa við að staðfesta áskrift…
 subscription-noplanchange-title = Þessi breyting áskriftarleiða er ekki studd
 subscription-iapsubscribed-title = Nú þegar áskrifandi
 
@@ -407,7 +407,7 @@ coupon-enter-code =
 
 ## payment-processing
 
-payment-processing-message = Hinkraðu við á meðan við meðhöndlum greiðsluna þína...
+payment-processing-message = Hinkraðu við á meðan við meðhöndlum greiðsluna þína…
 
 ## payment confirmation
 
