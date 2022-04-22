@@ -326,7 +326,7 @@ account-activated = Tes conto è activà, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = Actualisar las infurmaziuns per la facturaziun...
+sub-route-idx-updating = Actualisar las infurmaziuns per la facturaziun…
 sub-route-idx-reactivating = Reactivaziun da l'abunament betg reussida
 sub-route-idx-cancel-failed = Annullaziun da l'abunament betg reussida
 sub-route-idx-contact = Contactar l'agid
