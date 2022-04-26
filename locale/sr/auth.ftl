@@ -2,11 +2,26 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox налози
--product-firefox-account = Firefox налог
--product-firefox-cloud = Firefox Cloud
+
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox налози
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox налог
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Non-email strings
+
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
 fxa-privacy-url = { -brand-mozilla } полиса приватности
 fxa-service-url = { -product-firefox-cloud } услови коришћења
 subplat-automated-email = Ово је аутоматска е-пошта; ако сте је грешком примили, ниједна радња није потребна.
@@ -18,10 +33,15 @@ subplat-update-billing = Ажурирајте податке о плаћању
 subplat-legal = Правне информације
 subplat-privacy = Приватност
 automated-email-plaintext = Ово је аутоматска е-пошта; ако сте је грешком примили, ниједна радња није потребна.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Помозите нам да побољшамо наше услуге одговарањем на овај кратак упитник:
 change-password-plaintext = Ако сумњате да неко покушава да приступи вашем налогу, промените лозинку.
 manage-account = Управљајте налогом
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Имате питања о претплати? Наш тим за подршку је ту да вам помогне:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Да бисте избегли било какве прекиде услуге, ажурирајте ваше податке о плаћању што је пре могуће:
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Мали број кодова за опоравак је остао
 codes-reminder-description = Приметили смо да вам је остао мали број кодова за опоравак. Размислите о генерисању нових кодова како бисте избегли губитак приступа вашем налогу.
 codes-generate = Генериши кодове
@@ -39,6 +59,7 @@ passwordResetAccountRecovery-title = Ваша лозинка је ресетов
 passwordResetAccountRecovery-description = Успешно сте ресетовали вашу лозинку користећи кључ за опоравак из следећег уређаја:
 passwordResetAccountRecovery-action = Направите нови кључ за опоравак
 passwordResetAccountRecovery-regen-required = Морате генерисати нови кључ за опоравак.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Направите нови кључ за опоравак:
 postAddAccountRecovery-subject = Кључ за опоравак налога генерисан
 postAddAccountRecovery-title = Кључ за опоравак налога генерисан
@@ -66,7 +87,6 @@ postRemoveAccountRecovery-invalid = Кључ за опоравак не може
 postRemoveSecondary-subject = Уклоњена је секундарна адреса е-поште
 postRemoveSecondary-title = Уклоњена је секундарна адреса е-поште
 postRemoveSecondary-action = Управљајте налогом
-postRemoveTwoStepAuthentication-subject = Аутентификација у два корака онемогућена
 postRemoveTwoStepAuthentication-title = Аутентификација у два корака онемогућена
 postRemoveTwoStepAuthentication-action = Управљајте налогом
 postRemoveTwoStepAuthentication-not-required = Безбедносни кодови из ваше апликације за аутентификацију од сада неће више бити потребни за приступање.
@@ -77,14 +97,20 @@ recovery-subject = Ресетујте лозинку
 recovery-title = Потребно вам је ресетовање лозинке?
 recovery-description = Кликните на дугме у току следећег сата да креирате нову лозинку. Захтев је послат са следећег уређаја:
 recovery-action = Направи нову лозинку
+subscriptionAccountDeletion-title = Тужни смо што одлазите
+subscriptionCancellation-title = Тужни смо што одлазите
+subscriptionDowngrade-content-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
 subscriptionPaymentExpired-title = Ваша кредитна картица ускоро истиче
 subscriptionsPaymentExpired-title = Ваша кредитна картица ускоро истиче
+subscriptionUpgrade-title = Хвала што сте ажурирали!
+subscriptionUpgrade-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
 unblockCode-subject = Код за ауторизацију налога
 unblockCode-title = Да ли сте се ово ви пријавили?
 unblockCode-prompt = Ако јесте, ево ауторизационог кода који вам је потребан:
 unblockCode-report-plaintext = Ако нисте, помозите нам да одбијемо уљеза и пријавите нам то.
 verificationReminderFirst-subject = Опомена: завршите прављење вашег налога
 verificationReminderFirst-title = Добродошли у { -brand-firefox } породицу
+verificationReminderFirst-description = Пре неколико дана сте направили { -product-firefox-account } налог, али га нисте и потврдили.
 verificationReminderFirst-sub-description = Потврдите сада и усвојите технологију која се бори за ваша права, штити вашу приватност и даје вам корисно знање и поштовање које заслужујете.
 confirm-email = Потврдите своју е-пошту
 verificationReminderFirst-action = Потврдите своју е-пошту
@@ -107,22 +133,9 @@ verifyPrimary-description = Захтев за измене налога је п�
 verifyPrimary-subject = Потврдите примарну адресу е-поште
 verifyPrimary-action = Верификујте адресу е-поште
 verifyPrimary-post-verify = Једном када потврдите, измене налога као што је додавање секундарне адресе, ће бити могуће и са овог уређаја.
-verifySecondary-subject = Потврдите секундарну адресу е-поште
-verifySecondary-title = Верификујте секундарну адресу
-verifySecondary-action = Верификујте адресу е-поште
-verifySecondary-post-verification = Једном када је верификујете, адреса ће добијати безбедносна обавештења и потврде о пријавама.
 verifySecondaryCode-subject = Потврдите секундарну адресу е-поште
 verifySecondaryCode-title = Верификујте секундарну адресу
 verifySecondaryCode-prompt = Искористите овај верификациони код:
 verifySecondaryCode-expiry-notice = Истиче за 5 минута. Једном када верификујете, адреса ће добијати безбедносна обавештења и потврде о пријавама.
 verifyShortCode-title = Да ли сте се ово ви пријавили?
 verifyShortCode-expiry-notice = Истиче за 5 минута.
-
-cancellationSurvey-plaintext = Помозите нам да побољшамо наше услуге одговарањем на овај кратак упитник:
-subscriptionAccountDeletion-title = Тужни смо што одлазите
-subscriptionCancellation-title = Тужни смо што одлазите
-subscriptionDowngrade-content-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
-subscriptionUpgrade-title = Хвала што сте ажурирали!
-subscriptionUpgrade-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
-verificationReminderFirst-description = Пре неколико дана сте направили { -brand-firefox } налог, али га нисте и потврдили.
-
