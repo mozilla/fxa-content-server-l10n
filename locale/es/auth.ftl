@@ -2,11 +2,26 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Non-email strings
+
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
 fxa-privacy-url = Política de privacidad de { -brand-mozilla }
 fxa-service-url = Términos de servicio de { -product-firefox-cloud }
 subplat-automated-email = Este es un correo automatizado. Si recibiste este correo por error, no es necesario que hagas nada.
@@ -18,14 +33,19 @@ subplat-update-billing = Actualizar mi información de facturación
 subplat-legal = Legal
 subplat-privacy = Privacidad
 automated-email-plaintext = Este es un correo automatizado. Si recibiste este correo por error, no es necesario que hagas nada.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Por favor, ayúdanos a mejorar nuestros servicios contestando esta breve encuesta:
 change-password-plaintext = Si crees que alguien está intentando acceder a tu cuenta, cambia la contraseña.
 manage-account = Administrar cuenta
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equipo de soporte está aquí para ayudarte:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, actualiza tu información de pago lo antes posible:
 cadReminderFirst-action = Sincronizar otro dispositivo
 cadReminderFirst-title = Aquí está tu recordatorio para sincronizar dispositivos.
 cadReminderSecond-action = Sincronizar otro dispositivo
 cadReminderSecond-title = ¡Último recordatorio para sincronizar dispositivos!
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Quedan pocos códigos de recuperación
 codes-reminder-description = Hemos notado que te quedan pocos códigos de recuperación. Deberías replantearte generar nuevos códigos para evitar perder el acceso a tu cuenta.
 codes-generate = Generar códigos
@@ -44,6 +64,7 @@ passwordResetAccountRecovery-title = La contraseña de tu cuenta se restableció
 passwordResetAccountRecovery-description = Has restablecido correctamente tu contraseña usando una clave de recuperación del siguiente dispositivo:
 passwordResetAccountRecovery-action = Crear nueva clave de recuperación
 passwordResetAccountRecovery-regen-required = Tendrás que generar una nueva clave de recuperación.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Crear nueva clave de recuperación:
 postAddAccountRecovery-subject = Se generó la clave de recuperación de la cuenta
 postAddAccountRecovery-title = Se generó la clave de recuperación de la cuenta
@@ -71,7 +92,6 @@ postRemoveAccountRecovery-invalid = Ya no podrás usar esta clave de recuperaci�
 postRemoveSecondary-subject = Se eliminó el correo secundario
 postRemoveSecondary-title = Se eliminó el correo secundario
 postRemoveSecondary-action = Administrar cuenta
-postRemoveTwoStepAuthentication-subject = La verificación en dos pasos está deshabilitada
 postRemoveTwoStepAuthentication-title = Autenticación en dos pasos desactivada
 postRemoveTwoStepAuthentication-action = Administrar cuenta
 postRemoveTwoStepAuthentication-not-required = Ya no se solicitarán los códigos de seguridad cada vez que inicies sesión.
@@ -83,13 +103,16 @@ recovery-subject = Restablece tu contraseña
 recovery-title = ¿Necesitas restablecer tu contraseña?
 recovery-description = Haz clic en el botón en los próximos 60 minutos para crear una nueva. Esta solicitud la envió el siguiente dispositivo:
 recovery-action = Crear nueva contraseña
+subscriptionAccountDeletion-title = Lamentamos que te vayas
+subscriptionCancellation-title = Lamentamos que te vayas
+subscriptionUpgrade-title = ¡Gracias por la actualización!
 unblockCode-subject = Código de autorización de la cuenta
 unblockCode-title = ¿Eres tú identificándote?
 unblockCode-prompt = Si es así, el código de autorización que necesitas es este:
 unblockCode-report-plaintext = Si no es así, ayúdanos a mantener a raya a los intrusos e infórmanos.
 verificationReminderFirst-subject = Recuerda: Termina de crear tu cuenta
 verificationReminderFirst-title = Te damos la bienvenida a la familia de { -brand-firefox }
-verificationReminderFirst-description = Hace unos días creaste una cuenta { -brand-firefox }, pero no la llegaste a confirmar.
+verificationReminderFirst-description = Hace unos días creaste una { -product-firefox-account }, pero nunca la confirmaste.
 verificationReminderFirst-sub-description = Confírmala ahora y accede a una tecnología que protege y lucha por tu privacidad, te ofrece información útil y el respeto que te mereces.
 confirm-email = Confirmar correo
 verificationReminderFirst-action = Confirmar correo
@@ -112,18 +135,8 @@ verifyPrimary-description = Se ha solicitado un cambio en la cuenta desde el sig
 verifyPrimary-subject = Confirmar correo electrónico principal
 verifyPrimary-action = Verificar correo electrónico
 verifyPrimary-post-verify = Una vez verificado, podrás hacer cambios en la cuenta desde este dispositivo, como agregar un correo adicional.
-verifySecondary-subject = Confirmar cuenta secundaria
-verifySecondary-title = Verificar cuenta secundaria
-verifySecondary-action = Verificar correo electrónico
-verifySecondary-post-verification = Una vez comprobada, esta cuenta empezará a recibir notificaciones de seguridad y confirmaciones.
 verifySecondaryCode-subject = Confirmar cuenta secundaria
 verifySecondaryCode-title = Verificar cuenta secundaria
 verifySecondaryCode-prompt = Usar este código de verificación:
 verifyShortCode-title = ¿Eres tú el que se está registrando?
 verifyShortCode-expiry-notice = Caduca en 5 minutos.
-
-cancellationSurvey-plaintext = Por favor, ayúdanos a mejorar nuestros servicios contestando esta breve encuesta:
-subscriptionAccountDeletion-title = Lamentamos que te vayas
-subscriptionCancellation-title = Lamentamos que te vayas
-subscriptionUpgrade-title = ¡Gracias por la actualización!
-
