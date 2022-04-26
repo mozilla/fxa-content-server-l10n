@@ -2,11 +2,26 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Cunntasan Firefox
--product-firefox-account = cunntas Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Cunntasan Firefox
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = cunntas Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Non-email strings
+
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
 fxa-privacy-url = Poileasaidh prìobhaideachd { -brand-mozilla }
 subplat-automated-email = Seo post-d fèin-obrachail; ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh.
 subplat-cancel = Cuir crìoch air an fho-sgrìobhadh
@@ -15,6 +30,7 @@ subplat-privacy = Prìobhaideachd
 automated-email-plaintext = Seo post-d fèin-obrachail; ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh.
 change-password-plaintext = Ma tha thu dhen bheachd gu bheil cuideigin a’ feuchainn ri briseadh a-steach dhan chunntas agad, atharraich am facal-faire agad.
 manage-account = Stiùirich an cunntas
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Chan eil mòran chòdan aisig air fhàgail agad
 codes-reminder-description = Mhothaich sinn nach eil mòran chòdan aisig air fhàgail agad. Nach gin thu feadhainn gus nach dèid do ghlasadh a-mach às a’ chunntas agad?
 codes-generate = Gin còdan
@@ -28,6 +44,7 @@ passwordResetAccountRecovery-title = Chaidh facal-faire a’ chunntais agad ath-
 passwordResetAccountRecovery-description = Rinn thu ath-shuidheachadh an fhacai-fhaire agad le iuchair aisig on uidheam a leanas:
 passwordResetAccountRecovery-action = Cruthaich iuchair aisig ùr
 passwordResetAccountRecovery-regen-required = Bidh agad ri iuchair aisig ùr a ghintinn.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Cruthaich iuchair aisig ùr:
 postAddAccountRecovery-subject = Chaidh iuchair aiseag a’ chunntais a ghintinn
 postAddAccountRecovery-title = Chaidh iuchair aiseag a’ chunntais a ghintinn
@@ -62,10 +79,12 @@ postVerifySecondary-action = Stiùirich an cunntas
 recovery-title = A bheil agad ris am facal-faire ath-shuidheachadh?
 recovery-description = Briog air a’ phutan am broinn uair a thìde airson facal-faire ùr a chruthachadh. Thàinig an t-iarrtas seo on uidheam a leanas:
 recovery-action = Cruthaich facal-faire ùr
+subscriptionUpgrade-title = Mòran taing airson ùrachadh!
 unblockCode-title = An tusa a tha a’ clàradh a-steach?
 unblockCode-prompt = Mas e, seo an còd ùghdarachaidh a dh’fheumas tu:
 unblockCode-report-plaintext = Mur e, cuidich leinn ’nar strì an aghaidh luchd-foill is cuir aithisg mu dhèidhinn thugainn.
 verificationReminderFirst-title = Fàilte gu teaghlach { -brand-firefox }
+verificationReminderFirst-description = Chruthaich thu cunntas { -product-firefox-account } beagan làithean air ais ach cha do rinn thu a dhearbhadh gu ruige seo.
 verificationReminderFirst-sub-description = Dearbh an-dràsta e ’s faigh cothrom air teicneolas a dhìonas do phrìobhaideachd, a bheir fiosrachadh feumail dhut agus aig a bheil suim is urram dhut.
 confirm-email = Dearbh am post-d
 verificationReminderFirst-action = Dearbh am post-d
@@ -85,14 +104,6 @@ verifyPrimary-description = Chaidh iarrtas airson atharrachadh sa chunntas a dh�
 verifyPrimary-subject = Dearbh am prìomh phost-d
 verifyPrimary-action = Dearbh am post-d
 verifyPrimary-post-verify = Turas a chaidh a dhearbhadh, bidh cothrom agad rudan sa chunntas atharrachadh (mar eisimpleir, a’ cur ris post-d dàrnach) air an uidheam seo.
-verifySecondary-subject = Dearbh am post-d eile
-verifySecondary-title = Dearbh am post-d dàrnach
-verifySecondary-action = Dearbh am post-d
-verifySecondary-post-verification = Turas a chaidh a dhearbhadh, gheibh an seòladh seo brathan tèarainteachd is dearbhaidhean.
 verifySecondaryCode-subject = Dearbh am post-d eile
 verifySecondaryCode-title = Dearbh am post-d dàrnach
 verifyShortCode-title = An tusa a tha a’ clàradh leinn?
-
-subscriptionUpgrade-title = Mòran taing airson ùrachadh!
-verificationReminderFirst-description = Chruthaich thu cunntas { -brand-firefox } beagan làithean air ais ach cha do rinn thu a dhearbhadh gu ruige seo.
-
