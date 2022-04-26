@@ -126,7 +126,7 @@ device-all = { $uaBrowser } ɣef { $uaOS } { $uaOSVersion }
 device-browser-os = { $uaBrowser } ɣef { $uaOS }
 # Variables:
 #  $ip (Number) - User's IP address
-user-ip = Tansa IP: %(ip)s
+user-ip = Tansa IP: { $ip }
 # Variables:
 #  $city (String) - User's city
 #  $stateCode (String) - User's state
@@ -396,7 +396,7 @@ subscriptionReactivation-title = Tanemmirt imi tulseḍ ajerred ɣer { $productN
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionReactivation-content = Allus ufetter-ik•im d uxelleṣ ad qqimen akken. Ssuma-k•m i d-itteddun ad tili d { $invoiceTotal } deg %(nextInvoiceDateOnly)s. Amulteɣ-ik•im ad imuynet s wudem awurman yal tallit n ufetter anagar ma tferneḍ ad tesfesxeḍ.
+subscriptionReactivation-content = Allus ufetter-ik•im d uxelleṣ ad qqimen akken. Ssuma-k•m i d-itteddun ad tili d { $invoiceTotal } deg { $nextInvoiceDateOnly }. Amulteɣ-ik•im ad imuynet s wudem awurman yal tallit n ufetter anagar ma tferneḍ ad tesfesxeḍ.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Alɣu allus awurman n { $productName }
