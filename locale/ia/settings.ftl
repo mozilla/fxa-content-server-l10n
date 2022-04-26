@@ -228,7 +228,7 @@ mvs-enter-verification-code = Insere tu codice de verification
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Insere le codice de verification que es inviate a <e-mail>{ $email }</e-mail> intra 5 minutas.
+mvs-enter-verification-code-desc = Insere le codice de verification que es inviate a <email>{ $email }</email> intra 5 minutas.
 msv-cancel-button = Cancellar
 msv-submit-button = Verificar
 
