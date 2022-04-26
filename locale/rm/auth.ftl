@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,13 +19,18 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo da { -brand-firefox }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronisar ils apparats">
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparats">
 fxa-privacy-url = Directivas per la protecziun da datas da { -brand-mozilla }
-fxa-service-url = Cundiziuns d’utilisaziun dals servetschs da cloud da { -brand-firefox }
+fxa-service-url = Cundiziuns d’utilisaziun dals servetschs da cloud da { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo da { -brand-firefox }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo da { -brand-mozilla }">
 subplat-automated-email = Quai è in e-mail automatic. Sche ti has retschavì per sbagl quest e-mail na stos ti far nagut.
@@ -89,9 +91,6 @@ cancellationSurvey = Ans gida per plaschair da meglierar noss servetschs cun par
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ans gida per plaschair da meglierar noss servetschs cun participar a questa curta enquista:
 change-password-plaintext = Sche ti supponas ch’insatgi emprovia dad acceder a tes conto, mida p.pl. tes pled-clav.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = Adressa IP: { $ip }
 manage-account = Administrar il conto
 manage-account-plaintext = { manage-account }:
 payment-details = Detagls dal pajament:
@@ -132,6 +131,9 @@ subscriptionUpdatePayment-plaintext = Per evitar l’interrupziun da tes servets
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Ulteriuras infurmaziuns chattas ti qua: { $supportUrl }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Adressa IP: { $ip }
 view-invoice = <a data-l10n-name="invoiceLink">Mussar tes quint</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -151,12 +153,6 @@ downloadSubscription-subject = Bainvegni tar { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Bainvegni tar { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-content = Sche ti n'has anc betg telechargià { $productName }, cumenza a duvrar tut las funcziunalitads inclusas en tes abunament:
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Telechargiar { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = I restan paucs codes da recuperaziun
 codes-reminder-description = Nus avain percurschì che ti possedas mo pli paucs codes da recuperaziun. Ti duessas generar novs codes per evitar da perder l’access a tes conto.
@@ -337,9 +333,6 @@ subscriptionFirstInvoice-subject = Pajament per { $productName } confermà
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Grazia per abunar { $productName }
 subscriptionFirstInvoice-content-processing = Tes pajament vegn actualmain elavurà. Quai po durar enfin quatter lavurdis.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install = Ti vegns a retschaiver in e-mail separà cun instrucziuns per telechargiar ed utilisar { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l’annullar.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -361,9 +354,6 @@ subscriptionFirstInvoiceDiscount-subject = Pajament per { $productName } conferm
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Grazia per abunar { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = Tes pajament vegn actualmain elavurà. Quai po durar enfin quatter lavurdis.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install = Ti vegns a retschaiver in e-mail separà cun instrucziuns per telechargiar ed utilisar { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l’annullar.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -478,10 +468,10 @@ subscriptionSubsequentInvoiceDiscount-content-invoice-number = Numer da quint: <
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Numer da quint: { $invoiceNumber }
 # Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-plan-change = Midada dal plan: { $paymentProrated }
 # Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-charge = Debità { $invoiceTotal } ils { $invoiceDateOnly }
 # Variables:

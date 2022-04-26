@@ -432,7 +432,7 @@ payment-confirmation-amount-year =
        *[other] { $amount } mintga { $intervalCount } onns
     }
 payment-confirmation-download-button = Vinavant a la telechargiada
-payment-confirmation-cc-card-ending-in = Carta che chala cun { $last }
+payment-confirmation-cc-card-ending-in = Carta che chala cun { $last4 }
 
 ## new user email form
 
