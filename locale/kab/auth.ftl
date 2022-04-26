@@ -414,6 +414,9 @@ subscriptionsPaymentProviderCancelled-subject = Aleqqem n telɣut n lexlaṣ yet
 subscriptionsPaymentProviderCancelled-title = Suref-aɣ, nesɛa uguren s tarrayt-ik·im n lexlaṣ
 subscriptionsPaymentProviderCancelled-content-detected = Nemlal-d ugur akked tarrayt-ik·im n lexlaṣ i yimultaɣ-a.
 subscriptionsPaymentProviderCancelled-content-payment = Ahat d takarḍa-k n usmad i yemmuten, neɣ tarrayt-ik tamirant n lexlaṣ iɛedda-tt wakud.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Lexlaṣ n { $productName } yettwarmes
 subscriptionSubsequentInvoice-title = Tanemmirt imi telliḍ d ameltaɣ!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -424,6 +427,9 @@ subscriptionSubsequentInvoice-content-invoice-number = Uṭṭun n tfaturt: <b>{
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number-plaintext = Uṭṭun n tfaturt: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Abeddel n uɣawas: { $paymentProrated }
 # Variables:
 # $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
