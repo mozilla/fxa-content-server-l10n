@@ -68,7 +68,7 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } uygulamasını { -google-play }’den indir">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-body-ios-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } uygulamasını { -app-store }’dan indir">
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } uygulamasını { -app-store }’dan indir">
 another-desktop-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir masaüstü cihaza</a> kurun.
 another-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir cihaza</a> kurun.
 # Variables:
