@@ -84,7 +84,7 @@ automated-email-plaintext = Ieu mah surélék otomatis; mun anjeun nampa ieu min
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ieu surél otomatis; upama anjeun henteu nyatujuan, mangga ganti kecap konci anjeun:
 automated-email-reset =
-    Ieu surélék otomatis; lamun anjeun teu nyatujuan, mangga <a data-l10n-name="passwordChangeLink">ganti kecap sandi</a>.
+    Ieu surélék otomatis; lamun anjeun teu nyatujuan, mangga <a data-l10n-name="resetLink">ganti kecap sandi</a>.
     Pikeun leuwih lengkep, mangga buka <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
