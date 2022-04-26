@@ -2,15 +2,31 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-fxa-privacy-url = മോസില്ലയുടെ സ്വകാര്യ വ്യവസ്ഥകള്‍
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Non-email strings
+
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
+fxa-privacy-url = { -brand-mozilla } സ്വകാര്യ വ്യവസ്ഥകള്‍
 subplat-automated-email = ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ്; അബദ്ധവശാലാണ് നിങ്ങൾക്ക് ഈ ഇമെയില്‍ വന്നതെങ്കില്‍ ഒന്നും ചെയ്യണ്ട.
 automated-email-plaintext = ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ്; അബദ്ധവശാലാണ് നിങ്ങൾക്ക് ഈ ഇമെയില്‍ വന്നതെങ്കില്‍ ഒന്നും ചെയ്യണ്ട.
 manage-account = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
+# The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = വീണ്ടെടുക്കൽ കോഡുകൾ കുറവാണ്
 codes-reminder-description = നിങ്ങളുടെ കൈയ്യില്‍ ഇനി വീണ്ടെടുക്കൽ കോഡുകള്‍ കുറവാണെന്ന് തോന്നുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ലോക്ക് ചെയ്യപ്പെടാതിരിക്കാനായി പുതിയ കോഡുകൾ സൃഷ്ടിക്കുന്നത് പരിഗണിക്കുക.
 codes-generate = കോഡുകൾ ജനറേറ്റ് ചെയ്യുക
@@ -21,6 +37,7 @@ passwordChangeRequired-signoff = സ്നേഹപൂര്‍വ്വം,
 passwordReset-title = നിങ്ങളുടെ അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റി
 passwordResetAccountRecovery-action = പുതിയ വീണ്ടെടുക്കൽ കീ സൃഷ്ടിക്കുക
 passwordResetAccountRecovery-regen-required = നിങ്ങൾ ഒരു പുതിയ വീണ്ടെടുക്കൽ കീ സൃഷ്ടിക്കേണ്ടതുണ്ട്.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = പുതിയ വീണ്ടെടുക്കൽ കീ സൃഷ്ടിക്കുക:
 postAddAccountRecovery-subject = അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ സൃഷ്ടിച്ചു
 postAddAccountRecovery-title = അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ സൃഷ്ടിച്ചു
@@ -67,7 +84,4 @@ verifyLogin-description = അധിക സുരക്ഷക്കായി, ദ
 verifyLogin-action = പ്രവേശനം സ്ഥിരീകരിക്കുക
 verifyLoginCode-title = നിങ്ങളാണോ പ്രവേശിക്കുന്നത്?
 verifyPrimary-post-verify = ഒരിക്കൽ പരിശോധിച്ചുറപ്പിച്ചാൽ, ദ്വിതീയ ഇമെയിൽ ചേർക്കുന്നതു പോലെ അക്കൗണ്ട് മാറ്റങ്ങൾ ഈ ഉപകരണത്തിൽ സാധ്യമാകും.
-verifySecondary-title = ദ്വിതീയ ഇമെയിൽ സ്ഥിരീകരിക്കുക
-verifySecondary-post-verification = പരിശോധിച്ചു കഴിഞ്ഞാൽ, ഈ വിലാസം സുരക്ഷാ അറിയിപ്പുകളും സ്ഥിരീകരണങ്ങളും സ്വീകരിച്ചുതുടങ്ങും.
 verifySecondaryCode-title = ദ്വിതീയ ഇമെയിൽ സ്ഥിരീകരിക്കുക
-
