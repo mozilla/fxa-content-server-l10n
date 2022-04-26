@@ -79,7 +79,7 @@ automated-email-change =
 automated-email-change-plaintext = Ez egy automatikus üzenet, ha nem adott új eszközt a { -product-firefox-account }jához, akkor azonnal változtassa meg jelszavát itt: { $passwordChangeLink }
 automated-email =
     Ez egy automatikus üzenet; ha tévedésből kapta, akkor nincs teendője.
-    További információkért keresse fel a { -brand-mozilla } támogatást</a>.
+    További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
 automated-email-plaintext = Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ez egy automatikus e-mail, ha nem Ön adott engedélyt erre a műveletre, akkor változtassa meg jelszavát:
