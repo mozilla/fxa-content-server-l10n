@@ -369,6 +369,8 @@ coupon-discount = Desconto
 coupon-submit = Aplicar
 coupon-remove = Remover
 coupon-error = O código que inseriu é inválido ou expirou.
+coupon-enter-code =
+    .placeholder = Introduzir código
 
 ## payment-processing
 
