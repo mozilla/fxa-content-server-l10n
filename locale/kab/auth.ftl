@@ -437,6 +437,9 @@ subscriptionSubsequentInvoice-content-charged = Yettwafter { $invoiceTotal } deg
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Lexlaṣ n { $productName } yettwarmes
 subscriptionSubsequentInvoiceDiscount-title = Tanemmirt imi telliḍ d ameltaɣ!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -454,6 +457,15 @@ subscriptionSubsequentInvoiceDiscount-content-plan-change = Abeddel n uɣawas: {
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionSubsequentInvoiceDiscount-content-charge = Yettwafter { $invoiceTotal } deg { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoiceDiscount-content-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-subtotal = Asemday-arnaw: { $invoiceSubtotal }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Tuliḍ ɣer { $productName }
 subscriptionUpgrade-title = Tanemmirt ɣef uleqqem!
 subscriptionUpgrade-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
 unblockCode-subject = Tangalt n tsiregt n umiḍan
@@ -465,6 +477,7 @@ verificationReminderFirst-title = Ansuf ɣer twacult { -brand-firefox }
 verificationReminderFirst-description = Kra n wussan aya terniḍ { -product-firefox-account }, d acu mazal ur t-tsentmeḍ ara.
 verificationReminderFirst-sub-description = Sentem amiḍan-ik akken ad taɣeḍ tanumi n tetiknulujit i yettannaɣen ɣef yizerfan-ik, i yemmestanen tudert-ik tabaḍnit, daɣen tettmuddu tamussni akked uqadeṛ i tuklaleḍ.
 confirm-email = Sentem imayl
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Sentem imayl
 verificationReminderSecond-subject = Asmekti aneggaru: Rmed amiḍan-ik
 verificationReminderSecond-title = Aqla-k da?
