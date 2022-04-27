@@ -282,7 +282,7 @@ postVerifySecondary-subject = Adresse de e-mail secundari addite
 postVerifySecondary-title = Adresse de e-mail secundari addite
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Tu ha verificate con successo { $secondaryEmail } como email secundari pro tu { -product-firefox-account }. Notificationes de securitate e confirmationes de authentication ora essera livrate a ambe adresses e-mail.
+postVerifySecondary-content = Tu ha verificate con successo { $secondaryEmail } como email secundari pro tu { -product-firefox-account }. Notificationes de securitate e confirmationes de authentication ora essera livrate a ambe adresses email.
 postVerifySecondary-action = Gerer le conto
 recovery-subject = Reinitialisa tu contrasigno
 recovery-title = Debe tu reinitialisar tu contrasigno?
