@@ -6,7 +6,7 @@
 ### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
--brand-mozilla = Mozilla
+-brand-mozilla = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach.Mozilla
 -brand-firefox = Firefox
 # "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 -product-firefox-accounts = Cyfrifon Firefox

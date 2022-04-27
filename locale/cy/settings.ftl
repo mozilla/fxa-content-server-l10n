@@ -587,7 +587,7 @@ auth-error-110 = Tocyn annilys
 #                          formatting library (momentjs) will automatically add the word `in`
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
-auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach.
+auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach { $retryAfter }.
 auth-error-138 = Sesiwn heb ei gwirio
 auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP
