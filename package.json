@@ -15,7 +15,7 @@
     "url": "https://github.com/mozilla/fxa-content-server-l10n/issues"
   },
   "devDependencies": {
-    "grunt": "^1.0.4",
+    "grunt": "^1.5.2",
     "grunt-l10n-lint": "0.0.3",
     "load-grunt-tasks": "^5.1.0",
     "time-grunt": "^2.0.0"
