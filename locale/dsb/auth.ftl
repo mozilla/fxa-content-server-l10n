@@ -232,7 +232,7 @@ postAddAccountRecovery-revoke = Jolic wy to njejsćo był, wótwołajśo kluc.
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwězane konto
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Konto wašogo póbitowarja jo se zwězało z wašym { -product-firefox-account }.
+postAddLinkedAccount-title = Wašo konto { $providerName } jo se zwězało z wašym { -product-firefox-account }.
 postAddLinkedAccount-action = Konto zastojaś
 postAddTwoStepAuthentication-subject = Dwójokšacowa awtentifikacija jo se zmóžniła
 postAddTwoStepAuthentication-title = Dwójokšacowa awtentifikacija jo se zmóžniła
