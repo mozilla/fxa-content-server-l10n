@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,11 +19,19 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+session-verify-send-push-title = Loggar inn på { -product-firefox-accounts }?
+session-verify-send-push-body = Klikk her for å stadfeste at det er du
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-privacy-url = { -brand-mozilla } personvernpraksis
 fxa-service-url = Brukarvilkår for { -product-firefox-cloud }
 subplat-automated-email = Dette er ei automatisk e-postmelding: Dersom du har motteke denne e-posten ved en feil, treng du ikkje å gjera noko.
+subplat-privacy-notice = Personvernmerknad
 subplat-privacy-plaintext = Personvernmerknad:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Vilkår og avbestillingsreglar
@@ -36,6 +41,7 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reaktiver abonnement
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Oppdater faktureringsinformasjon
+subplat-privacy-policy = { -brand-mozilla }s personvernpraksis
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Juridisk
@@ -46,9 +52,6 @@ automated-email-plaintext = Dette er ei automatisk e-postmelding: Dersom du har 
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjelp oss med å forbetre tenestene våre ved å vere med i denne korte undersøkinga:
 change-password-plaintext = Om du mistenkjer at nokon prøver å få tilgang til kontoen din, må du endre passordet ditt.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP-adresse: { $ip }
 manage-account = Handter kontoen
 manage-account-plaintext = { manage-account }:
 payment-details = Betalningsinformasjon:
@@ -69,6 +72,9 @@ card-ending-in = { $cardType }-kort som sluttar på { $lastFour }
 subscriptionSupport-plaintext = Har du spørsmål om abonnementet ditt? Supportteamet vårt står klar til å hjelpe deg:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Oppdater betalingsinformasjonen din snarast råd for å unngå avbrot i tenesta di:
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-adresse: { $ip }
 cadReminderFirst-subject = Ei vennleg påminning til deg: Slik fullfører du synkroniseringsoppsettet
 cadReminderFirst-action = Synkroniser ei anna eining
 cadReminderFirst-title = Her er påminninga di om å synkronisere einingar.
@@ -81,9 +87,6 @@ downloadSubscription-subject = Velkomen til { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Velkomen til { $productName }
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Last ned { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kun få gjenopprettingskodar att
 codes-reminder-description = Det er få gjenopprettingskodar att. Tenk på å generere nye kodar for å unngå å bli utelåst frå kontoen din.
@@ -172,7 +175,6 @@ subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Vel eit
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkomen til { $productName }
-subscriptionAccountFinishSetup-action = Opprett eit passord
 subscriptionAccountReminderFirst-action = Opprett passord
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Siste påminning: Konfigurer kontoen din
@@ -217,11 +219,6 @@ verifyPrimary-subject = Stadfest primær e-postadresse
 verifyPrimary-action = Verifiser e-postadresse
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = Når denne e-postadressa er stadfesta, vil endringar i kontoen som å leggje til ei sekundær e-postadresse, bli muleg frå denne eininga.
-verifySecondary-subject = Stadfest sekundær e-postadresse
-verifySecondary-title = Verifiser sekundær e-postadresse
-verifySecondary-action = Verifiser e-postadresse
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = Når e-postadressa er stadfesta, vil denne adressa begynneå ta imot tryggingsvarsel og stadfestingar.
 verifySecondaryCode-subject = Stadfest sekundær e-postadresse
 verifySecondaryCode-title = Verifiser sekundær e-postadresse
 verifySecondaryCode-prompt = Bruk denne stadfestingskoden:
