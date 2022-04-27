@@ -2,11 +2,26 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
+
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = Firefox account
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+
+## Non-email strings
+
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
 fxa-privacy-url = { -brand-mozilla } গোপনীয়তা নীতি
 fxa-service-url = { -product-firefox-cloud } ব্যবহারের শর্তাবলী
 subplat-automated-email = এটি একটি স্বয়ংক্রিয় ইমেইল; যদি কোন ত্রুটির কারণে আপনি এটি পেয়ে থাকেন, কিছু করার প্রয়োজন নেই।
@@ -27,6 +42,7 @@ passwordResetAccountRecovery-title = আপনার অ্যাকাউন্
 passwordResetAccountRecovery-description = আপনি নিম্নলিখিত ডিভাইসটি থেকে পুনরুদ্ধার কী ব্যবহার করে সফলভাবে আপনার পাসওয়ার্ডটি পুনরায় সেট করেছেন:
 passwordResetAccountRecovery-action = নতুন পুনরুদ্ধার কী তৈরি করুন
 passwordResetAccountRecovery-regen-required = আপনাকে একটি নতুন পুনরুদ্ধার কী তৈরি করতে হবে।
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = নতুন পুনরুদ্ধার কী তৈরি করুন:
 postAddAccountRecovery-subject = অ্যাকাউন্ট পুনরুদ্ধার কী সৃষ্টি হয়েছে
 postAddAccountRecovery-title = অ্যাকাউন্ট পুনরুদ্ধার কী সৃষ্টি হয়েছে
@@ -64,7 +80,7 @@ unblockCode-title = আপনিই কি সাইন ইন করছেন?
 unblockCode-prompt = যদি হ্যাঁ হয়, তাহলে এখানে অনুমোদন কোড রয়েছে যা আপনার প্রয়োজন:
 unblockCode-report-plaintext = যদি না হয়, অামাদের সাহায্য করুন অবৈধ অনুপ্রবেশকারী ঠেকাতে এবং আমাদের তা রিপোর্ট করুন।
 verificationReminderFirst-title = { -brand-firefox } পরিবারে আপনাকে স্বাগতম
-verificationReminderFirst-description = কিছু দিন আগে আপনি একটি { -brand-firefox } অ্যাকাউন্ট তৈরি করেছেন, তবে এটি কখনও নিশ্চিত করেন নি।
+verificationReminderFirst-description = কিছু দিন আগে আপনি একটি { -product-firefox-account } অ্যাকাউন্ট তৈরি করেছেন, তবে এটি কখনও নিশ্চিত করেন নি।
 confirm-email = ইমেইল নিশ্চিত করুন
 verificationReminderFirst-action = ইমেইল নিশ্চিত করুন
 verificationReminderSecond-title = এখনও এখানে?
@@ -73,8 +89,5 @@ verify-action = ইমেইল নিশ্চিত করুন
 verifyLogin-action = সাইন-ইন নিশ্চিত করুন
 verifyLoginCode-title = আপনিই কি সাইন ইন করছেন?
 verifyPrimary-title = প্রাথমিক মেইল যাচাই করুন
-verifySecondary-title = সেকেন্ডারি ইমেইল ভেরিফাই করুন
-verifySecondary-post-verification = একবার ভেরিফাই হয়ে গেলে, আপনার ঠিকানাটি নিরাপত্তা নোটিফিকেশন এবং নিশ্চিতকরণ বার্তাগুলো পাওয়া শুরু করবে।
 verifySecondaryCode-title = সেকেন্ডারি ইমেইল ভেরিফাই করুন
 verifyShortCode-title = এটি কি আপনি যে সাইন আপ করছেন?
-
