@@ -23,7 +23,7 @@
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-privacy-url = سياسة موزيلا للخصوصيّة
-fxa-service-url = شروط استخدام { product-firefox-cloud- } السحابية
+fxa-service-url = شروط استخدام { -product-firefox-cloud } السحابية
 subplat-automated-email = هذا بريد إلكتروني الآلي، إذا تلقيته لوجود خطأ فليس مطلوب أي إجراء.
 subplat-privacy-plaintext = تنويه الخصوصية:
 subplat-terms-policy = الشروط وتنويه الإلغاء
