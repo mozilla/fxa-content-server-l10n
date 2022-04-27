@@ -124,17 +124,17 @@ payment-confirm-with-legal-links-day =
 #  $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
-       *[other] Saya memberi kewenangan kepada { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya <strong> sebesar { $amount } setiap { $intervalCount } pekan</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
+       *[other] Saya memberi kewenangan kepada { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya sebesar <strong> { $amount } setiap { $intervalCount } pekan</strong>, sesuai dengan <termsOfServiceLink>Ketentuan Layanan</termsOfServiceLink> dan <privacyNoticeLink>Pemberitahuan Privasi</privacyNoticeLink>, hingga saya membatalkan langganan saya.
     }
 #  $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
-       *[other] Saya memberi kewenangan kepada { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya <strong> sebesar { $amount } setiap { $intervalCount } bulan</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
+       *[other] Saya memberikan kewenangan kepada { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya sebesar <strong>{ $amount } setiap { $intervalCount } bulan</strong>, sesuai dengan <termsOfServiceLink>Ketentuan Layanan</termsOfServiceLink> dan <privacyNoticeLink>Pemberitahuan Privasi</privacyNoticeLink>, hingga saya membatalkan langganan saya.
     }
 #  $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
-       *[other] Saya mengotorisasi { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya <strong> sebesar { $amount } setiap { $intervalCount } tahun</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
+       *[other] Saya memberi kewenangan kepada { -brand-name-mozilla }, pembuat produk { -brand-name-firefox }, untuk menagih metode pembayaran saya sebesar <strong>{ $amount } setiap { $intervalCount } tahun</strong>, menurut <termsOfServiceLink>Ketentuan Layanan</termsOfServiceLink> dan <privacyNoticeLink>Pemberitahuan Privasi</privacyNoticeLink>, hingga saya membatalkan langganan saya.
     }
 payment-confirm = Saya memberi kewenangan kepada Mozilla, pembuat produk Firefox, untuk menagih metode pembayaran saya <strong>sebesar ${ $amount } per { $interval }</strong>, sesuai dengan ketentuan pembayaran, hingga saya membatalkan langganan saya.
 
