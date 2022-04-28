@@ -21,7 +21,7 @@
 
 ## Non-email strings
 
-session-verify-send-push-title = Увійти до { -product-firefox-accounts }?
+session-verify-send-push-title = Увійти в { -product-firefox-accounts }?
 session-verify-send-push-body = Натисніть тут, щоб підтвердити, що це ви
 
 ## Email content
@@ -180,7 +180,7 @@ downloadSubscription-subject = Вітаємо в { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Вітаємо в { $productName }
-downloadSubscription-content-2 = Почнімо використовувати всі функції, включені у вашу передплату:
+downloadSubscription-content-2 = Розпочніть користуватися всіма функціями, включеними у вашу передплату:
 downloadSubscription-link-action-2 = Розпочнімо
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Залишилося мало кодів відновлення
@@ -231,7 +231,7 @@ postAddAccountRecovery-revoke = Якщо це були не ви, відхилі
 postAddLinkedAccount-subject = Новий обліковий запис, пов’язаний з { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = Ваш обліковий запис { $providerName } пов’язано з вашим { -product-firefox-account }
+postAddLinkedAccount-title = Ваш обліковий запис { $providerName } пов’язано з вашим { -product-firefox-account(case: "abl") }
 postAddLinkedAccount-action = Керувати обліковим записом
 postAddTwoStepAuthentication-subject = Двоетапну перевірку увімкнено
 postAddTwoStepAuthentication-title = Двоетапну перевірку увімкнено
@@ -307,7 +307,7 @@ subscriptionAccountFinishSetup-subject = Вітаємо в { $productName }: Б�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Вітаємо в { $productName }
 subscriptionAccountFinishSetup-content-processing = Ваш платіж обробляється. Це може тривати до чотирьох робочих днів. Ваша передплата автоматично поновлюватиметься після завершення розрахункового періоду, доки ви її не скасуєте.
-subscriptionAccountFinishSetup-content-create-2 = Далі ви створите пароль { -product-firefox-account }, щоб почати використовувати нову передплату.
+subscriptionAccountFinishSetup-content-create-2 = Далі ви створите пароль { -product-firefox-account(case: "gen") }, щоб почати використовувати нову передплату.
 subscriptionAccountFinishSetup-action-2 = Розпочати
 subscriptionAccountReminderFirst-subject = Нагадування: Завершіть налаштування свого облікового запису
 subscriptionAccountReminderFirst-title = Ви поки що не можете отримати доступ до своєї передплати
@@ -532,7 +532,7 @@ subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Однораз
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionSubsequentInvoiceDiscount-content-discount-repeating = { $discountDuration } місячна знижка: -{ $invoiceDiscountAmount }
+subscriptionSubsequentInvoiceDiscount-content-discount-repeating = { $discountDuration }-місячна знижка: -{ $invoiceDiscountAmount }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Ви перейшли на { $productName }
