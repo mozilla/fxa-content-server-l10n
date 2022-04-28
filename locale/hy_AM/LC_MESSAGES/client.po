@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-21 22:47+0000\n"
+"POT-Creation-Date: 2022-04-28 22:07+0000\n"
 "PO-Revision-Date: 2022-04-27 00:21+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -839,10 +839,12 @@ msgid "Invalid Token"
 msgstr "Անվավեր նշագիր"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Շարունակելով,դուք համաձայն եք <a id=\"service-tos\" href=\"%(termsUri)s\"> Ծառայությունների մատուցման պայմաններին</a>և<a id=\"service-pp\" href=\"%(privacyUri)s\"> Գաղտնիության ծանուցումներին </a> "
-"և%(serviceName)s (%(serviceUri)s)."
+"Շարունակելով,դուք համաձայն եք <a id=\"service-tos\" href=\"%(termsUri)s\"> Ծառայությունների մատուցման պայմաններին</a>և<a id=\"service-pp\" href=\"%(privacyUri)s\"> Գաղտնիության ծանուցումներին </a> և"
+"%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -911,7 +913,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Խնդրում ենք մուտքագրել միանգամյա օգտագործման վերականգնման բանալին, որը դուք պահել եք անվտանգ վայրում՝ ձեր Firefox հաշիվ մուտք գործելու համար։ "
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\"> ՈՒՇԱԴՐՈՒԹՅՈՒՆ․ </span> Եթե դուք վերականգնում եք ձեր գաղտնաբառը և չունեք հաշվի վերականգնման բանալին, ձեր տվյալների որոշ մասը կջնջվի (ներառյալ համաժամեցված սպասարկչի տվյալները, "
 "ինչպիսիք են պատմությունը և էջանիշերը)։ "
@@ -2039,15 +2042,15 @@ msgstr "Օգտագործե՞լ եք համակարգի ֆոտոխցիկը։Դո�
 #~ msgstr "Զգուշացեք տվյալների արտահոսքից։"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span> ՀԻՇՈՒՄ։</span> Կարող եք կորցնել ձեր անձնական տեղեկությունները (ներառյալ պատմությունը, էջանիշերը և գաղտնաբառերը)։Դա այն պատճառով է, որ մենք գաղտնագրում ենք ձեր տվյալները ձեր գացտնաբառով՝ ձեր "
-#~ "գաղտնիությունը պաշտպանելու համար։"
+#~ "<span> ՀԻՇՈՒՄ։</span> Կարող եք կորցնել ձեր անձնական տեղեկությունները (ներառյալ պատմությունը, էջանիշերը և գաղտնաբառերը)։Դա այն պատճառով է, որ մենք գաղտնագրում ենք ձեր տվյալները ձեր գացտնաբառով՝ "
+#~ "ձեր գաղտնիությունը պաշտպանելու համար։"
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>ՆՇՈՒՄ․</span> Երբ դուք կորցնում եք ձեր գաղտնաբառը, դուք նաև կորցնում եք ձեր անձնական էջը (ներառյալ պատմությունը, էջանիշները և գաղտնաբառերը).Երբ մենք գաղտնագրում ենք ձեր տվյալները ձեր "
 #~ "գաղտնաբառով դա նրա համար է որ ձեր գաղտնիությունը պաշտպանենք․"
@@ -2380,10 +2383,11 @@ msgstr "Օգտագործե՞լ եք համակարգի ֆոտոխցիկը։Դո�
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Քայլ 2֊ը 2֊ը՝ պահպանեք վերականգնման ստեղնը"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
-#~ "<span class=\"note\"> ՈՒՇԱԴՐՈՒԹՅՈՒՆ  </span> եթե մոռանում եք ձեր գաղտնաբառը, ապա ձեզ հարկավոր է այս բանալին՝ տվյալների մուտքը վերականգնելու համար։ Վերականգնեք ստեղնը անվտանգ վայրում, որտեղ ավելի ուշ"
-#~ " հեշտությամբ կարող եք գտնել այն։"
+#~ "<span class=\"note\"> ՈՒՇԱԴՐՈՒԹՅՈՒՆ  </span> եթե մոռանում եք ձեր գաղտնաբառը, ապա ձեզ հարկավոր է այս բանալին՝ տվյալների մուտքը վերականգնելու համար։ Վերականգնեք ստեղնը անվտանգ վայրում, որտեղ ավելի "
+#~ "ուշ հեշտությամբ կարող եք գտնել այն։"
 
 #~ msgid "Done, Recovery key saved"
 #~ msgstr "Կատարված է,վերականգնման բանալին պահված է"
@@ -2552,8 +2556,8 @@ msgstr "Օգտագործե՞լ եք համակարգի ֆոտոխցիկը։Դո�
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 #~ msgstr ""
-#~ "Դուք կստանաք հաղորդակցություններ Ձեր հաշվի անվտանգության, մեր քաղաքականության փոփոխություններին, Ձեր հաշվի գործառության և սկզբնական էլ֊փոստերի վերաբերյալ, որոնք կօգնեն Ձեզ ստանալ առավելագույնը Ձեր "
-#~ "Firefox-ի հաշվից։"
+#~ "Դուք կստանաք հաղորդակցություններ Ձեր հաշվի անվտանգության, մեր քաղաքականության փոփոխություններին, Ձեր հաշվի գործառության և սկզբնական էլ֊փոստերի վերաբերյալ, որոնք կօգնեն Ձեզ ստանալ առավելագույնը "
+#~ "Ձեր Firefox-ի հաշվից։"
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "Բացի այդ, դուք կարող եք բաժանորդագրվել վերջին Mozilla-ի և Firefox-ի նորությունների հետ գովազդային էլ. փոստեր ստանալու համար։"
@@ -2565,8 +2569,8 @@ msgstr "Օգտագործե՞լ եք համակարգի ֆոտոխցիկը։Դո�
 #~ msgstr "Նախընտրությունների կառավարում"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
 #~ "Եթե դուք օգտագործում եք այս հաշիվը Mozilla-ի ծրագրերի և ծառայությունների համար, ինչպիսիք են՝ AMO-ն, Pocket-ը և Screenshots-ը Դուք նախ պետք է մուտք գործեք և հեռացնեք բոլոր պահպանած անձնական "
 #~ "տեղեկությունները։ Եթե Դուք այստեղ ջնջեք Ձեր հաշիվը, Դուք կարող եք ամենուր կորցնել դրա մատչումը։"
@@ -2650,7 +2654,9 @@ msgstr "Օգտագործե՞լ եք համակարգի ֆոտոխցիկը։Դո�
 #~ msgstr "Չհաջողվեց ստանալ բաժանորդագրության հարթակի ծառայության պայմանները"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Առաջ անցնելով, Դուք համաձայնում եք <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Ծառայության պայմաններին</a> և <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Գաղտնիության ծանուցմանը</a>։"
+#~ msgstr ""
+#~ "Առաջ անցնելով, Դուք համաձայնում եք <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Ծառայության պայմաններին</a> և <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Գաղտնիության "
+#~ "ծանուցմանը</a>։"
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Բաժանորդագրության հարթակի ծառայության պայմաններ"

@@ -70,8 +70,8 @@ terms-download = Termos da transferência
 
 subscription-create-title = Configurar a sua subscrição.
 subscription-success-title = Confirmação de subscrição
-subscription-processing-title = A confirmar a subscrição...
-subscription-error-title = Erro ao confirmar a subscrição...
+subscription-processing-title = A confirmar a subscrição…
+subscription-error-title = Erro ao confirmar a subscrição…
 subscription-noplanchange-title = Esta alteração do plano de subscrição não é suportada
 subscription-iapsubscribed-title = Já está subscrito
 
@@ -326,7 +326,7 @@ account-activated = A sua conta está ativada, <userEl/>
 
 ## subscription route index
 
-sub-route-idx-updating = A atualizar a informação de pagamento...
+sub-route-idx-updating = A atualizar a informação de pagamento…
 sub-route-idx-reactivating = A reativação da subscrição falhou
 sub-route-idx-cancel-failed = O cancelamento da subscrição falhou
 sub-route-idx-contact = Contatar o Suporte
@@ -369,10 +369,12 @@ coupon-discount = Desconto
 coupon-submit = Aplicar
 coupon-remove = Remover
 coupon-error = O código que inseriu é inválido ou expirou.
+coupon-enter-code =
+    .placeholder = Introduzir código
 
 ## payment-processing
 
-payment-processing-message = Por favor, aguarde enquanto processamos o seu pagamento...
+payment-processing-message = Por favor, aguarde enquanto processamos o seu pagamento…
 
 ## payment confirmation
 
