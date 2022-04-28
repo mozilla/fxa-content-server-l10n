@@ -23,6 +23,7 @@ alert-bar-close-message = Fechar mensagem
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Contas Firefox
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -207,6 +208,15 @@ input-password-show = Mostrar palavra-passe
 input-password-hide-aria = Ocultar a palavra-passe do ecrã
 input-password-show-aria = Mostrar a palavra-passe como texto simples. A sua palavra-passe ficará visível no ecrã.
 
+## Linked Accounts section
+
+la-heading = Contas ligadas
+la-description = Autorizou o acesso às seguintes contas.
+la-unlink-button = Dissociar
+la-unlink-account-button = Dissociar
+la-unlink-heading = Dissociar de uma conta de terceiros
+nav-linked-accounts = { la-heading }
+
 ## Modal
 
 modal-close-title = Fechar
@@ -309,8 +319,6 @@ delete-account-step-1-2 = Passo 1 de 2
 delete-account-step-2-2 = Passo 2 de 2
 delete-account-confirm-title-2 = Associou a sua { -product-firefox-account } aos produtos da { -brand-mozilla } que o mantêm seguro e produtivo na Internet:
 delete-account-acknowledge = Por favor, note que, ao eliminar a sua conta:
-delete-account-chk-box-1 =
-    .label = Quaisquer subscrições pagas que tenha serão canceladas
 delete-account-chk-box-2 =
     .label = Poderá perder informações e funcionalidades guardadas dentro dos produtos da { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -407,9 +415,12 @@ tfa-scan-this-code = Digitalize este código QR utilizando uma das seguintes <li
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Utilize o código { $secret } para configurar a autenticação de dois passos nas 
     aplicações suportadas.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Não consegue digitalizar o código?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Introduza esta chave secreta na sua aplicação de autenticação:
@@ -436,12 +447,6 @@ profile-picture =
     .header = Imagem
 profile-display-name =
     .header = Nome de apresentação
-profile-password =
-    .header = Palavra-passe
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Criado em { $date }
 profile-primary-email =
     .header = E-mail primário
 
@@ -451,6 +456,12 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Segurança
+security-password =
+    .header = Palavra-passe
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Criado em { $date }
 
 ## Switch component
 
