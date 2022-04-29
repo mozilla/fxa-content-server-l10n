@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-28 22:07+0000\n"
-"PO-Revision-Date: 2022-04-29 15:30+0000\n"
+"PO-Revision-Date: 2022-04-29 15:31+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: te\n"
@@ -1872,7 +1872,7 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
-msgstr ""
+msgstr "అన్నింటినీ చూడండి"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
