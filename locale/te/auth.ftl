@@ -23,14 +23,32 @@ session-verify-send-push-body = ఇది మీరేనని నిర్ధ�
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } చిహ్నం">
+body-devices-image = <img data-l10n-name="devices-image" alt="పరికరాలు">
 fxa-privacy-url = { -brand-mozilla } గోప్యతా విధానం
 fxa-service-url = { -product-firefox-cloud } సేవా నిబంధనలు
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } చిహ్నం">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } చిహ్నం">
 subplat-automated-email = ఇది స్వయంచాలక ఈమెయిలు; ఇది మీకు పొరపాటున వచ్చివుంటే, మీరేమీ చేయాల్సినవసరం లేదు.
+subplat-privacy-notice = గోప్యతా నోటీసు
 subplat-privacy-plaintext = గోప్యతా నోటీసు:
+subplat-terms-policy = నియమాలు, రద్దు విధానం
+subplat-cancel = చందాను రద్దుచేయి
+subplat-cloud-terms = { -product-firefox-cloud } సేవా నియమాలు
 subplat-privacy = గోప్యత
 automated-email-plaintext = ఇది స్వయంచాలక ఈమెయిలు; ఇది మీకు పొరపాటున వచ్చివుంటే, మీరేమీ చేయాల్సినవసరం లేదు.
 change-password-plaintext = ఎవరైనా మీ ఖాతాను పొందటం ప్రయత్నిస్తున్నారు అనుమానిస్తున్నారు ఉంటే, దయచేసి మీ పాస్వర్డ్ను మార్చండి.
 manage-account = ఖాతా నిర్వహణ
+payment-details = చెల్లింపు వివరాలు:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = ఇన్వాయిస్ సంఖ్య: { $invoiceNumber }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = చెల్లింపు పద్ధతి:
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = ఐపీ చిరునామా: { $ip }
+downloadSubscription-link-action-2 = మొదలుపెట్టండి
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = తక్కువ పునరుద్ధరణ సంకేతాలు మిగిలి ఉన్నాయి
 codes-reminder-description = మీ పునరుద్ధరణ సంకేతాలు నిండుకోబోతున్నాయని మేం గమనించాం. మీ ఖాతా నుండి బయటికిపంపేయబడటాన్ని తప్పించుకోడానికి దయచేసి కొత్త సంకేతాలను తయారుచేసుకోగలరు.
@@ -78,6 +96,40 @@ postVerifySecondary-title = రెండవ ఈమెయిలు చేర్�
 postVerifySecondary-action = ఖాతా నిర్వహణ
 recovery-title = మీ సంకేతపదాన్ని రీసెట్ చేసుకోవాలా?
 recovery-action = కొత్త సంకేతపదం సృష్టించు
+# COMMENT ABOUT After the colon,
+payment-details = చెల్లింపు వివరాలు:
+subscriptionAccountFinishSetup-action-2 = మొదలుపెట్టండి
+subscriptionAccountReminderSecond-title = { -brand-firefox }కి స్వాగతం!
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = మీ { $productName } చందా రద్దు చేయబడింది
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = ఇన్వాయిస్ సంఖ్య: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = ఇన్వాయిస్ సంఖ్య: { $invoiceNumber }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = ఇన్వాయిస్ సంఖ్య: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = ఇన్వాయిస్ సంఖ్య: { $invoiceNumber }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = { $productName } చెల్లింపు విఫలమైంది
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = ఇన్వాయిస్ సంఖ్య: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = ఇన్వాయిస్ సంఖ్య: { $invoiceNumber }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = ఇన్వాయిస్ సంఖ్య: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = ఇన్వాయిస్ సంఖ్య: { $invoiceNumber }
 unblockCode-title = ప్రవేశిస్తున్నది మీరేనా?
 unblockCode-prompt = అవును అయితే, ఇదే నీకు కావల్సిన అధికారిక కోడ్:
 unblockCode-report-plaintext = ఒకవేళ కాకపోతే, మాకు చొరబాటు తప్పించడానికి సహాయం చేయండి మరియు దాన్ని మాకు నివేదించండి.
