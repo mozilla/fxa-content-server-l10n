@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -18,7 +15,13 @@
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
 
+## Non-email strings
+
+session-verify-send-push-body = ఇది మీరేనని నిర్ధారించడానికి ఇక్కడ నొక్కండి
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-privacy-url = { -brand-mozilla } గోప్యతా విధానం
 fxa-service-url = { -product-firefox-cloud } సేవా నిబంధనలు
@@ -33,13 +36,6 @@ codes-reminder-title = తక్కువ పునరుద్ధరణ సం�
 codes-reminder-description = మీ పునరుద్ధరణ సంకేతాలు నిండుకోబోతున్నాయని మేం గమనించాం. మీ ఖాతా నుండి బయటికిపంపేయబడటాన్ని తప్పించుకోడానికి దయచేసి కొత్త సంకేతాలను తయారుచేసుకోగలరు.
 codes-generate = సంకేతాలను సృష్టించు
 lowRecoveryCodes-action = సంకేతాలను సృష్టించు
-
-## Variables:
-##  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-
-
-##
-
 newDeviceLogin-action = ఖాతా నిర్వహణ
 passwordChanged-title = సంకేతపదం విజయవంతంగా మార్చబడింది
 passwordChangeRequired-signoff = ఉత్తమ
@@ -96,8 +92,6 @@ verifyLoginCode-title = ప్రవేశిస్తున్నది మీ�
 verifyLoginCode-prompt = మీరే అయితే, తనిఖీ సంకేతం ఇదుగోండి:
 verifyLoginCode-expiry-notice = ఇది 5 నిమిషాలలో కాలంచెల్లిపోతుంది.
 verifyPrimary-title = ప్రాథమిక ఇమెయిల్ ని ధృవీకరించండి
-verifySecondary-title = రెండవ ఇ-మెయిలుని ధృవీకరించండి
-verifySecondary-post-verification = ధృవీకరించిన తర్వాత, ఈ చిరునామా భద్రతా నోటిఫికేషన్లు మరియు నిర్ధారణలను స్వీకరించడం ప్రారంభమవుతుంది.
 verifySecondaryCode-title = రెండవ ఇ-మెయిలుని ధృవీకరించండి
 verifySecondaryCode-expiry-notice = ఇది 5 నిమిషాలలో కాలంచెల్లిపోతుంది. తనిఖీ అయిన తర్వాత, భద్రతా గమనింపులను, నిర్ధారణలను ఈ చిరునామా అందుకోవడం మొదలుపెడుతుంది.
 verifyShortCode-title = నమోదవుతున్నది మీరేనా?
