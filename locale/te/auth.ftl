@@ -14,6 +14,9 @@
 -product-firefox-account = Firefox account
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = పేపాల్
+-google-play = గూగుల్ ప్లే
 
 ## Non-email strings
 
@@ -48,6 +51,12 @@ payment-method = చెల్లింపు పద్ధతి:
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = ఐపీ చిరునామా: { $ip }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = { $productName }కి స్వాగతం
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = { $productName }కి స్వాగతం
 downloadSubscription-link-action-2 = మొదలుపెట్టండి
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = తక్కువ పునరుద్ధరణ సంకేతాలు మిగిలి ఉన్నాయి

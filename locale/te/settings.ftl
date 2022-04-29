@@ -204,6 +204,10 @@ security-password =
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-change-modal-confirm = మార్చు
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = గుర్తుతెలియని ఖాతా
+auth-error-103 = సంకేతపదం తప్పు
+auth-error-1008 = మీ కొత్త సంకేతపదం వేరుగా ఉండాలి
