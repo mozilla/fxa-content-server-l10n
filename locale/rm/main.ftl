@@ -316,6 +316,8 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Annullar mes access e stizzar mias infurmaziuns memorisadas en
     { $name } ils { $period }
+invoice-not-found = Betg chattà il proxim quint
+sub-item-no-such-subsequent-invoice = Betg chattà il proxim quint per quest abunament.
 
 ## subscription iap item
 
@@ -342,6 +344,8 @@ sub-subscription-error =
     .title = Problem cun chargiar ils abunaments
 sub-customer-error =
     .title = Problem cun chargiar il client
+sub-invoice-error =
+    .title = Problem cun chargiar quints
 sub-billing-update-success = Actualisà cun success tias infurmaziuns da facturaziun
 sub-route-payment-modal-heading = Infurmaziuns da facturaziun nunvalidas
 sub-route-payment-modal-message = I para da dar ina errur cun tes conto da { -brand-name-paypal }. Ti stos instradar ils pass necessaris per schliar quest problem cun il pajament.
@@ -376,6 +380,8 @@ coupon-error-expired = Il code endatà è scrudà.
 coupon-error-limit-reached = Il code endatà ha cuntanschì sia limita.
 coupon-error-invalid = Il code endatà è nunvalid.
 coupon-success = Tes plan vegn renovà automaticamain cun il pretsch da catalog.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Tes plan vegn renovà automaticamain suenter ils { $couponDurationDate } tenor il pretsch da catalog.
 coupon-enter-code =
     .placeholder = Endatescha il code
 

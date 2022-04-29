@@ -21,6 +21,8 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = Access a { -product-firefox-accounts }?
+session-verify-send-push-body = Cliccar qua per confermar tia identitad
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -132,8 +134,33 @@ subscriptionUpdatePayment-plaintext = Per evitar l’interrupziun da tes servets
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Ulteriuras infurmaziuns chattas ti qua: { $supportUrl }
 # Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } sin { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } sin { $uaOS }
+# Variables:
 #  $ip (Number) - User's IP address
 user-ip = Adressa IP: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (probablamain)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (probablamain)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (probablamain)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (probablamain)
 view-invoice = <a data-l10n-name="invoiceLink">Mussar tes quint</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -153,6 +180,8 @@ downloadSubscription-subject = Bainvegni tar { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Bainvegni tar { $productName }
+downloadSubscription-content-2 = Entschaiva ad utilisar tut las funcziuns inclusas en tes abunament:
+downloadSubscription-link-action-2 = Emprims pass
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = I restan paucs codes da recuperaziun
 codes-reminder-description = Nus avain percurschì che ti possedas mo pli paucs codes da recuperaziun. Ti duessas generar novs codes per evitar da perder l’access a tes conto.
@@ -333,6 +362,9 @@ subscriptionFirstInvoice-subject = Pajament per { $productName } confermà
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Grazia per abunar { $productName }
 subscriptionFirstInvoice-content-processing = Tes pajament vegn actualmain elavurà. Quai po durar enfin quatter lavurdis.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Ti vegns a retschaiver in e-mail separà che declera co utilisar { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l’annullar.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -354,6 +386,9 @@ subscriptionFirstInvoiceDiscount-subject = Pajament per { $productName } conferm
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = Grazia per abunar { $productName }
 subscriptionFirstInvoiceDiscount-content-processing = Tes pajament vegn actualmain elavurà. Quai po durar enfin quatter lavurdis.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install-2 = Ti vegns a retschaiver in e-mail separà che declera co utilisar { $productName }.
 subscriptionFirstInvoiceDiscount-content-auto-renew = Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l’annullar.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -367,6 +402,13 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Summa intermediara: { $invoi
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = Rabat: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Rabat unic: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = Rabat ({ $discountDuration } mais): -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -483,6 +525,13 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = Summa intermediara: { $
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount = Rabat: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Rabat unic: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionSubsequentInvoiceDiscount-content-discount-repeating = Rabat ({ $discountDuration } mais): -{ $invoiceDiscountAmount }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Ti has midà a { $productName }

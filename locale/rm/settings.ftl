@@ -219,6 +219,7 @@ la-unlink-button = Distatgar
 la-unlink-account-button = Distatgar
 la-unlink-heading = Distatgar dal conto da terzas partidas
 la-unlink-content = Vuls ti propi allontanar la colliaziun cun tes conto da { -brand-google }? Cun distatgar na sortas ti betg automaticamain da quests servetschs. Per far quai stos ti sortir manualmain en la secziun «Servetschs connectads».
+la-unlink-content-2 = Vuls ti propi allontanar la colliaziun cun tes conto? Cun distatgar na sortas ti betg automaticamain da quests servetschs. Per far quai stos ti sortir manualmain en la secziun «Servetschs connectads».
 nav-linked-accounts = { la-heading }
 
 ## Modal
