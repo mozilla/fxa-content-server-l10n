@@ -387,7 +387,7 @@ payment-processing-message = Ttxil-k·m ṛǧu mi ara nsesfer asellek-inek·inem
 
 ## payment confirmation
 
-payment-confirmation-alert = Sit dagi i usider
+payment-confirmation-alert = Sit dagi i usader
 payment-confirmation-mobile-alert = Ur tezmireḍ ara ad d-teldiḍ asnas? <a>Sit dagi</a>
 payment-confirmation-thanks-heading = Tanemmirt!
 
