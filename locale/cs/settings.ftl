@@ -194,6 +194,12 @@ connect-another-fx-mobile = Získejte { -brand-firefox(case: "acc") } na mobil n
 connect-another-find-fx-mobile =
     { -brand-firefox(case: "acc") } najdete na { -google-play(case: "loc") } a { -app-store(case: "loc") },
     <br />nebo si <linkExternal>nechte poslat odkaz do svého zařízení</linkExternal>.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Stáhnout { -brand-firefox(case: "acc") } z { -google-play(case: "gen") }
+connect-another-app-store-image-2 =
+    .title = Stáhnout { -brand-firefox(case: "acc") } z { -app-store(case: "gen") }
 
 ##
 
@@ -312,9 +318,12 @@ input-password-show-aria = Zobrazit heslo v čitelné podobě. Vaše heslo bude 
 ## Linked Accounts section
 
 la-heading = Propojené účty
+la-description = Máte autorizovaný přístup k následujícím účtům.
 la-unlink-button = Odpojit
 la-unlink-account-button = Odpojit
 la-unlink-heading = Odpojit od účtu třetí strany
+la-unlink-content = Opravdu chcete odpojit svůj { -brand-google } účet? Jeho odpojení nezpůsobí odhlášení z odpovídajících služeb. Pokud toho chcete dosáhnout, odhlaste se ručně v sekci Propojené služby.
+la-unlink-content-2 = Opravdu chcete odpojit svůj účet? Jeho odpojení nezpůsobí odhlášení z odpovídajících služeb. Pokud toho chcete dosáhnout, odhlaste se ručně v sekci Propojené služby.
 nav-linked-accounts = { la-heading }
 
 ## Modal
