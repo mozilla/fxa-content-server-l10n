@@ -106,6 +106,30 @@
                 [lower] účtem Firefoxu
             }
     }
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud =
+    { $case ->
+       *[nom] Firefox Cloud
+        [gen] Firefox Cloudu
+        [dat] Firefox Cloudu
+        [acc] Firefox Cloud
+        [voc] Firefox Cloude
+        [loc] Firefox Cloudu
+        [ins] Firefox Cloudem
+    }
+    .gender = masculine
+# Other brands
+-brand-paypal =
+    { $case ->
+       *[nom] PayPal
+        [gen] PayPalu
+        [dat] PayPalu
+        [acc] PayPal
+        [voc] PayPale
+        [loc] PayPalu
+        [ins] PayPalem
+    }
+    .gender = masculine
 -app-store =
     { $case ->
        *[nom] App Store
@@ -121,11 +145,15 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = Přihlašujete se k { -product-firefox-accounts(case: "dat", capitalization: "lower") }?
+session-verify-send-push-body = Klepněte zde pro ověření
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="logo { -brand-firefox(case: "gen") }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synchronizovat zařízení">
 body-devices-image = <img data-l10n-name="devices-image" alt="Zařízení">
 fxa-privacy-url = { -brand-mozilla } a soukromí
 fxa-service-url = Podmínky poskytování služby { -product-firefox-cloud }
@@ -159,6 +187,12 @@ subplat-legal = Právní informace
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Ochrana osobních údajů
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Stáhnout aplikaci { $productName } z { -google-play(case: "gen") }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Stáhnout aplikaci { $productName } z { -app-store(case: "gen") }">
 another-desktop-device = Nebo nainstalujte na <a data-l10n-name="anotherDeviceLink">jiný počítač</a>.
 another-device = Nebo nainstalujte na <a data-l10n-name="anotherDeviceLink">jiné zařízení</a>.
 automated-email-change =
@@ -225,6 +259,22 @@ support-message = Pro více informací prosím navštivte stránku { $supportUrl
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP adresa: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (odhad)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (odhad)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (odhad)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (odhad)
 view-invoice = <a data-l10n-name="invoiceLink">Zobrazit fakturu</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
