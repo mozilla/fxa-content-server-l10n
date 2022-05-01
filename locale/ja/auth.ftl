@@ -123,11 +123,49 @@ subscriptionSupportContact-plaintext = { $productName } にご登録いただき
 subscriptionUpdateBillingEnsure = 現在のお支払い方法とアカウント情報は <a data-l10n-name="updateBillingUrl">こちら</a> で確認できます。
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = 現在のお支払い方法とアカウント情報はこちらで確認できます:
+subscriptionUpdateBillingTry = 今後、数日以内にお支払いを再試行しますが、<a data-l10n-name="updateBillingUrl">お支払い情報の更新</a>など、修正にご協力いただく必要があります。
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = 今後、数日以内にお支払いを再試行しますが、お支払い情報の更新など、修正にご協力いただく必要があります:
+subscriptionUpdatePayment = サービスの中断を防ぐため、できるだけ早く <a data-l10n-name="updateBillingUrl">お支払い情報を更新</a> してください。
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = サービスの中断を防ぐため、できるだけ早くお支払い情報を更新してください:
 # Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = 詳しい情報は { $supportUrl } をご覧ください。
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaOS } { $uaOSVersion } 上の { $uaBrowser }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaOS } 上の { $uaBrowser }
+# Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP アドレス: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }、{ $stateCode }、{ $country } (おおよその位置)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $country }、{ $city } (おおよその位置)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }、{ $country } (おおよその位置)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (おおよその位置)
+view-invoice = <a data-l10n-name="invoiceLink">請求書を表示する</a>。
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = 請求書の表示：{ $invoiceLink }
+cadReminderFirst-subject = サービスからのお知らせ: 同期設定を完了する方法
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 回復用コードが残り少なくなっています
 codes-reminder-description = あなたの回復用コードは残り少なくなっているようです。アカウントから閉め出されないように新たなコードの生成を検討してください。
