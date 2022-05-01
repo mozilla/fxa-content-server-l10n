@@ -166,6 +166,19 @@ view-invoice = <a data-l10n-name="invoiceLink">請求書を表示する</a>。
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = 請求書の表示：{ $invoiceLink }
 cadReminderFirst-subject = サービスからのお知らせ: 同期設定を完了する方法
+cadReminderFirst-action = 別の端末を同期する
+cadReminderFirst-title = 端末を同期するためのお知らせです。
+cadReminderFirst-description = 同期するには 2 台以上の端末が必要です。別の端末を { -brand-firefox } で同期すると、ブックマークやパスワード、他の { -brand-firefox } のデータが { -brand-firefox } を使用するあなたのすべての端末で同じに保たれます。
+cadReminderSecond-subject = 最終のお知らせ: 同期のセットアップを完了しましょう
+cadReminderSecond-action = 別の端末を同期する
+cadReminderSecond-title = 端末を同期する最後のお知らせです！
+cadReminderSecond-description = 別の端末を { -brand-firefox } で同期すると、ブックマークやパスワード、他の { -brand-firefox } のデータが { -brand-firefox } を使用するあなたのすべての端末で同じに保たれます。
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = { $productName } へようこそ。
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = { $productName } へようこそ。
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 回復用コードが残り少なくなっています
 codes-reminder-description = あなたの回復用コードは残り少なくなっているようです。アカウントから閉め出されないように新たなコードの生成を検討してください。
@@ -180,6 +193,7 @@ passwordChangeRequired-title = パスワードの変更が必要です
 passwordChangeRequired-sign-in = { -product-firefox-account }を使用している端末またはサービスに再度ログインし、表示される手順に従ってください。
 passwordChangeRequired-different-password = <b>重要:</b> 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。
 passwordChangeRequired-signoff = ご利用ありがとうございます
+passwordChangeRequired-signoff-name = { -product-firefox-accounts } チーム
 passwordChangeRequired-different-password-plaintext = 重要: 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。
 passwordReset-subject = パスワードを更新しました
 passwordReset-title = アカウントのパスワードが変更されました
