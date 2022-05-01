@@ -72,12 +72,26 @@ body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ -app-store } で {
 another-desktop-device = または <a data-l10n-name="anotherDeviceLink">別のデスクトップ端末</a> にインストールしてください。
 another-device = または <a data-l10n-name="anotherDeviceLink">別の端末</a> にインストールしてください。
 automated-email-change =
-    これは自動送信されたメールです。このメールの内容に覚えがない場合は、<a data-l10n-name="passwordChangeLink">パスワードを変更してください</a>。
+    これは自動送信されたメールです。この操作に覚えがない場合は、<a data-l10n-name="passwordChangeLink">パスワードを変更してください</a>。
     詳しい情報は <a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = これは自動送信されたメールです。あなたが { -product-firefox-account }に新しい端末を追加したのではない場合は、{ $passwordChangeLink } で直ちにパスワードを変更してください。
+automated-email =
+    これは自動送信されたメールです。誤ってこのメールを受け取った場合は、何もする必要はありません。
+    詳しい情報は <a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
 automated-email-plaintext = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = これは自動送信されたメールです。この操作に覚えがない場合は、パスワードを変更してください:
+automated-email-reset =
+    これは自動送信されたメールです。この操作に覚えがない場合は、<a data-l10n-name="resetLink">パスワードをリセットしてください</a>。
+    詳しい情報は <a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = 変更した覚えがない場合は、今すぐ { $resetLink } でパスワードをリセットしてください。
+cancellationSurvey = この <a data-l10n-name="cancellationSurveyUrl")s>簡単なアンケート</a> に回答して、サービスの改善にご協力ください。
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = この簡単なアンケートに回答して、サービスの改善にご協力ください。
 change-password-plaintext = もし誰かがあなたのアカウントへアクセスしようとしていると思われる場合は、パスワードを変更してください。
 manage-account = アカウント管理
 manage-account-plaintext = { manage-account }:
@@ -98,6 +112,17 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = 末尾が { $lastFour } の { $cardType } カード
+subscriptionSupport = サブスクリプションについて質問がありますか？ <a data-l10n-name="subscriptionSupportUrl">サポートチーム</a>がお手伝いします。
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupport-plaintext = サブスクリプションについて質問がありますか？ サポートチームがお手伝いします:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = { $productName } にご登録いただきありがとうございます。{ $productName } のサブスクリプションや他の情報についての質問は、<a data-l10n-name="subscriptionSupportUrl">こちらからお問い合わせください</a>。
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = { $productName } にご登録いただきありがとうございます。{ $productName } のサブスクリプションや他の情報についての質問は、こちらからお問い合わせください:
+subscriptionUpdateBillingEnsure = 現在のお支払い方法とアカウント情報は <a data-l10n-name="updateBillingUrl">こちら</a> で確認できます。
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = 現在のお支払い方法とアカウント情報はこちらで確認できます:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = サービスの中断を防ぐため、できるだけ早くお支払い情報を更新してください:
 # Variables:
