@@ -22,6 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = { -product-firefox-accounts } にログインしますか？
+session-verify-send-push-body = ここをクリックしてご自身を認証してください
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
