@@ -39,6 +39,15 @@ subplat-automated-email = これは自動で配信されたメールです。心
 subplat-privacy-notice = 個人情報保護方針
 subplat-privacy-plaintext = プライバシー通知:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = このメールは { $email } の { -product-firefox-account }で { $productName } に登録されたため送信されました。
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = このメールは { $email } の { -product-firefox-account }宛に送信されています。
+subplat-explainer-multiple = このメールは { $email } の { -product-firefox-account }で複数の製品を購読されているため送信されました。
+subplat-manage-account = { -product-firefox-account }の設定はあなたの <a data-l10n-name="subplat-account-page">アカウントのページ</a> で管理できます。
 subplat-terms-policy = 利用規約とキャンセルポリシー
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = 購読を解除
@@ -62,6 +71,12 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ -google-play
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ -app-store } で { $productName } をダウンロード">
 another-desktop-device = または <a data-l10n-name="anotherDeviceLink">別のデスクトップ端末</a> にインストールしてください。
 another-device = または <a data-l10n-name="anotherDeviceLink">別の端末</a> にインストールしてください。
+automated-email-change =
+    これは自動送信されたメールです。このメールの内容に覚えがない場合は、<a data-l10n-name="passwordChangeLink">パスワードを変更してください</a>。
+    詳しい情報は <a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = これは自動送信されたメールです。あなたが { -product-firefox-account }に新しい端末を追加したのではない場合は、{ $passwordChangeLink } で直ちにパスワードを変更してください。
 automated-email-plaintext = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。
 change-password-plaintext = もし誰かがあなたのアカウントへアクセスしようとしていると思われる場合は、パスワードを変更してください。
 manage-account = アカウント管理
