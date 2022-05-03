@@ -34,6 +34,7 @@ payment-error-1 = お支払いの承認中に問題が発生しました。も�
 payment-error-2 = お支払いの承認中に問題が発生しました。カード発行会社にお問い合わせください。
 payment-error-3b = 支払い処理中に予期しないエラーが発生しました。再度お試しください。
 payment-error-retry-button = 再度お試しください
+payment-error-manage-subscription-button = サブスクリプションの管理
 expired-card-error = クレジットカードの有効期限が切れているようです。別のカードを試してください。
 insufficient-funds-error = カードの残高が不足しているようです。別のカードを試してください。
 withdrawal-count-limit-exceeded-error = この取引では、ご利用限度額を超えてしまうようです。別のカードを試してください。

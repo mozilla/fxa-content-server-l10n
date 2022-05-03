@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-28 22:07+0000\n"
-"PO-Revision-Date: 2022-05-03 14:37+0000\n"
+"PO-Revision-Date: 2022-05-03 14:42+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1047,7 +1047,7 @@ msgstr "確認コードを入力してください"
 
 #: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> へ進む"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1292,7 +1292,7 @@ msgstr "成功"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> を使用する準備が整いました"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1326,7 +1326,7 @@ msgstr "このような問題が起きた理由"
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr ""
+msgstr "<span>補足:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと Pocket のデータは影響を受けません。"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1861,23 +1861,23 @@ msgstr ""
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: .es5/templates/partial/firefox-family-services.mustache:7
 msgid "Save and discover the best stories from across the web."
-msgstr ""
+msgstr "ウェブ全体から最高のストーリーを発見して保存しましょう。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:8
 msgid "Firefox Relay"
-msgstr ""
+msgstr "Firefox Relay"
 
 #: .es5/templates/partial/firefox-family-services.mustache:9
 msgid "Sign up for new accounts without handing over your email address."
-msgstr ""
+msgstr "あなたのメールアドレスを使わずに新しいアカウントを登録しましょう。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:10
 msgid "See all"
-msgstr ""
+msgstr "すべて表示"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Stay safe &mdash; don't reuse passwords."
@@ -1909,15 +1909,15 @@ msgstr "Firefox Sync をお探しですか？ <a %(escapedSyncSuggestionAttrs)s>
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
-msgstr ""
+msgstr "または"
 
 #: .es5/templates/partial/third-party-auth.mustache:2
 msgid "Continue with Google"
-msgstr ""
+msgstr "Google で続ける"
 
 #: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Apple"
-msgstr ""
+msgstr "Apple で続ける"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Approve new device <small>for %(email)s</small>"
