@@ -30,7 +30,7 @@ session-verify-send-push-body = Klik di sini untuk memverifikasi identitas Anda
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo { -brand-firefox }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sinkronkan perangkat">
-body-devices-image = <img data-l10n-name="perangkat-gambar" alt="Perangkat">
+body-devices-image = <img data-l10n-name="devices-image" alt="Perangkat">
 fxa-privacy-url = Kebijakan Privasi { -brand-mozilla }
 fxa-service-url = Ketentuan Layanan { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox }">
@@ -69,8 +69,8 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Unduh { $produ
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Unduh { $productName } di { -app-store }">
-another-desktop-device = Atau, pasang di <a data-l10n-name="anotherDevicesLink">perangkat desktop lainnya</a>.
-another-device = Atau, pasang di <a data-l10n-name="anotherDevicesLink">perangkat lain</a>.
+another-desktop-device = Atau, pasang di <a data-l10n-name="anotherDeviceLink">perangkat desktop lainnya</a>.
+another-device = Atau, pasang di <a data-l10n-name="anotherDeviceLink">perangkat lain</a>.
 automated-email-plaintext = Email ini bersifat otomatis; jika menurut Anda email ini salah alamat, tidak ada tindakan yang harus dilakukan.
 change-password-plaintext = Jika Anda mencurigai seseorang berusaha mendapatkan akses ke akun Anda, silakan ubah kata sandi Anda.
 manage-account = Kelola akun
