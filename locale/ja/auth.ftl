@@ -95,6 +95,7 @@ cancellationSurvey-plaintext = この簡単なアンケートに回答して、�
 change-password-plaintext = もし誰かがあなたのアカウントへアクセスしようとしていると思われる場合は、パスワードを変更してください。
 manage-account = アカウント管理
 manage-account-plaintext = { manage-account }:
+payment-details = 支払いの詳細:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = 請求書番号: { $invoiceNumber }
@@ -196,6 +197,7 @@ passwordChanged-title = パスワード変更完了
 passwordChanged-description = あなたの { -product-firefox-account }のパスワードは次の端末から変更されました:
 passwordChangeRequired-subject = 疑わしいアクティビティが検出されました
 passwordChangeRequired-title = パスワードの変更が必要です
+passwordChangeRequired-suspicious-activity = { -product-firefox-account }で疑わしい動作が検出されました。 { -product-firefox-account }への不正アクセスを防ぐため、アカウント上のすべての端末を切断しました。予防措置として、パスワードの変更を求めています。
 passwordChangeRequired-sign-in = { -product-firefox-account }を使用している端末またはサービスに再度ログインし、表示される手順に従ってください。
 passwordChangeRequired-different-password = <b>重要:</b> 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。
 passwordChangeRequired-signoff = ご利用ありがとうございます
@@ -213,8 +215,15 @@ passwordResetAccountRecovery-regen-required = 新しい回復用キーを生成�
 passwordResetAccountRecovery-create-key = 新しい回復用キーを作成:
 postAddAccountRecovery-subject = アカウント回復用キーが生成されました
 postAddAccountRecovery-title = アカウント回復用キーが生成されました
+postAddAccountRecovery-description = 次の端末を使ってあなたの { -product-firefox-account }の回復用キーの生成が完了しました:
 postAddAccountRecovery-action = アカウント管理
+postAddAccountRecovery-recovery = これがあなたではない場合は、<a data-l10n-name="revokeAccountRecoveryLink">こちらをクリックしてください</a>。
 postAddAccountRecovery-revoke = これがあなたではない場合は、キーを無効化してください。
+postAddLinkedAccount-subject = { -brand-firefox } にリンクされた新しいアカウント
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = { $providerName } のアカウントが { -product-firefox-account }にリンクされています
+postAddLinkedAccount-action = アカウント管理
 postAddTwoStepAuthentication-subject = 2 段階認証が有効化されました
 postAddTwoStepAuthentication-title = 2 段階認証が有効化されました
 postAddTwoStepAuthentication-action = アカウント管理
@@ -222,6 +231,7 @@ postAddTwoStepAuthentication-code-required = 今後ログインのたびに認�
 postChangePrimary-subject = 主要アドレスが更新されました
 postChangePrimary-title = 新しい主要アドレス
 postChangePrimary-action = アカウント管理
+postConsumeRecoveryCode-subject = 使用された回復用コード
 postConsumeRecoveryCode-title = 回復用コードが使用されました
 postConsumeRecoveryCode-description = 次の端末から回復用コードの使用が完了しました:
 postConsumeRecoveryCode-action = アカウント管理
@@ -239,6 +249,9 @@ postRemoveSecondary-action = アカウント管理
 postRemoveTwoStepAuthentication-title = 2 段階認証が無効化されました
 postRemoveTwoStepAuthentication-action = アカウント管理
 postRemoveTwoStepAuthentication-not-required = 今後ログインのたびにセキュリティコードを入力する必要はなくなります。
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = ご質問はこちらから: { $supportUrl }
 postVerifySecondary-subject = 予備のメールアドレスが追加されました
 postVerifySecondary-title = 予備のメールアドレスが追加されました
 postVerifySecondary-action = アカウント管理
@@ -246,9 +259,29 @@ recovery-subject = パスワードをリセットしました
 recovery-title = パスワード変更の必要がありますか？
 recovery-description = 1 時間以内にボタンをクリックして新しいパスワードを設定してください。このリクエストは次の端末から行われました:
 recovery-action = 新しいパスワードを設定
+# COMMENT ABOUT After the colon,
+payment-details = 支払いの詳細:
 subscriptionDowngrade-content-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
 subscriptionPaymentExpired-title = クレジットカードの有効期限が近づいています
 subscriptionsPaymentExpired-title = クレジットカードの有効期限が近づいています
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number = 請求書番号: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoice-content-invoice-number-plaintext = 請求書番号: { $invoiceNumber }
+# Variables:
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = プラン変更: { $paymentProrated }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number = 請求書番号: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = 請求書番号: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoiceDiscount-content-plan-change = プラン変更: { $paymentProrated }
 subscriptionUpgrade-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
 unblockCode-subject = アカウントの認証コード
 unblockCode-title = ログインしようとしているのはあなた自身ですか？
