@@ -22,7 +22,6 @@
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-privacy-url = „Mozillos“ privatumo nuostatai
 fxa-service-url = „{ -product-firefox-cloud }“ paslaugos teikimo nuostatai
 subplat-automated-email = Tai – automatiškai išsiųstas laiškas. Jei jį gavote per klaidą, nieko daryti nereikia.
 automated-email-plaintext = Tai – automatiškai išsiųstas laiškas. Jei jį gavote per klaidą, nieko daryti nereikia.
