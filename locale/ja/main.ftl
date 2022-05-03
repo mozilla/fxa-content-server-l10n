@@ -77,9 +77,20 @@ product-no-such-plan = この製品にはご指定のプランがありません
 
 ## payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } は、安全な決済処理のために { -brand-name-stripe }と { -brand-name-paypal } を使用します。
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } プライバシーポリシー</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } プライバシーポリシー</paypalPrivacyLink>
+payment-legal-copy-paypal = { -brand-name-mozilla } は、安全な決済処理のために { -brand-name-paypal } を使用します。
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } プライバシーポリシー</paypalPrivacyLink>
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } は、安全な決済処理のために { -brand-name-stripe } を使用します。
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } プライバシーポリシー</stripePrivacyLink>
 
 ## payment form
 
+payment-name =
+    .placeholder = 氏名
+    .label = カードに記載された氏名をフルネームでご記入ください
+payment-cc =
+    .label = クレジットカード
 payment-ccn =
     .label = カード番号
 payment-exp =
@@ -97,7 +108,9 @@ payment-zip =
 payment-cancel-btn = キャンセル
 payment-update-btn = 更新
 payment-pay-btn = 今すぐ払う
+payment-pay-with-paypal-btn = { -brand-name-paypal } で支払う
 payment-validate-name-error = お名前を入力してください。
+payment-validate-zip-required = 郵便番号は必須です
 payment-validate-zip-short = 郵便番号が短すぎます
 
 ## subscription redirect
@@ -107,11 +120,14 @@ sub-redirect-ready = サブスクリプションの準備ができました
 ## fields
 
 default-input-error = この項目は必須です
+input-error-is-required = { $label } は必須です
 
 ## subscription upgrade
 
+product-plan-change-heading = 変更を確認してください
 sub-change-failed = プラン変更に失敗しました
 sub-update-payment-title = 支払情報
+sub-update-card-exp = 有効期限 { $cardExpMonth }/{ $cardExpYear }
 
 ##
 
