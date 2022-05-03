@@ -179,15 +179,21 @@ downloadSubscription-subject = { $productName } へようこそ。
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName } へようこそ。
+downloadSubscription-content-2 = サブスクリプションに含まれるすべての機能を使いましょう:
+downloadSubscription-link-action-2 = はじめに
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 回復用コードが残り少なくなっています
 codes-reminder-description = あなたの回復用コードは残り少なくなっているようです。アカウントから閉め出されないように新たなコードの生成を検討してください。
 codes-generate = コードを生成
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = コードを生成
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = { $clientName } への新規ログイン
 newDeviceLogin-action = アカウント管理
 passwordChanged-subject = パスワードを更新しました
 passwordChanged-title = パスワード変更完了
+passwordChanged-description = あなたの { -product-firefox-account }のパスワードは次の端末から変更されました:
 passwordChangeRequired-subject = 疑わしいアクティビティが検出されました
 passwordChangeRequired-title = パスワードの変更が必要です
 passwordChangeRequired-sign-in = { -product-firefox-account }を使用している端末またはサービスに再度ログインし、表示される手順に従ってください。
