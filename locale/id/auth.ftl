@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -19,14 +16,38 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
+
+## Non-email strings
+
+session-verify-send-push-title = Masuk ke { -product-firefox-accounts }?
+session-verify-send-push-body = Klik di sini untuk memverifikasi identitas Anda
 
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sinkronkan perangkat">
+body-devices-image = <img data-l10n-name="perangkat-gambar" alt="Perangkat">
 fxa-privacy-url = Kebijakan Privasi { -brand-mozilla }
 fxa-service-url = Ketentuan Layanan { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-automated-email = Email ini bersifat otomatis; jika menurut Anda email ini salah alamat, tidak ada tindakan yang harus dilakukan.
+subplat-privacy-notice = Pemberitahuan privasi
 subplat-privacy-plaintext = Pemberitahuan privasi:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Anda menerima surel ini karena { $email } memiliki { -product-firefox-account } dan Anda mendaftar untuk { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Anda menerima surel ini karena { $email } memiliki { -product-firefox-account }.
+subplat-explainer-multiple = Anda menerima surel ini karena { $email } memiliki { -product-firefox-account } dan Anda telah berlangganan ke banyak produk.
+subplat-manage-account = Kelola pengaturan { -product-firefox-account } Anda dengan mengunjungi <a data-l10n-name="subplat-account-page">laman akun</a>.
 subplat-terms-policy = Ketentuan dan kebijakan pembatalan
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Batal berlangganan
@@ -36,7 +57,20 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Perbarui informasi penagihan
 subplat-privacy-policy = Kebijakan Privasi { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Ketentuan Layanan { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-legal = Legal
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privasi
+subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Unduh { $productName } di { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Unduh { $productName } di { -app-store }">
+another-desktop-device = Atau, pasang di <a data-l10n-name="anotherDevicesLink">perangkat desktop lainnya</a>.
+another-device = Atau, pasang di <a data-l10n-name="anotherDevicesLink">perangkat lain</a>.
 automated-email-plaintext = Email ini bersifat otomatis; jika menurut Anda email ini salah alamat, tidak ada tindakan yang harus dilakukan.
 change-password-plaintext = Jika Anda mencurigai seseorang berusaha mendapatkan akses ke akun Anda, silakan ubah kata sandi Anda.
 manage-account = Kelola akun
@@ -115,7 +149,5 @@ verifyLoginCode-title = Apakah Anda benar-benar sedang masuk?
 verifyPrimary-title = Verifikasi surel utama
 verifyPrimary-description = Permintaan untuk melakukan perubahan akun telah dibuat dari peranti berikut:
 verifyPrimary-post-verify = Sekali diverifikasi, perubahan akun seperti menambahkan surell sekunder akan dimungkinkan dari peranti ini.
-verifySecondary-title = Verifikasi surel sekunder
-verifySecondary-post-verification = Setelah diverifikasi, alamat surel ini akan mulai menerima notifikasi keamanan dan konfirmasi.
 verifySecondaryCode-title = Verifikasi surel sekunder
 verifySecondaryCode-prompt = Gunakan kode verifikasi ini:
