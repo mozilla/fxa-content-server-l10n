@@ -283,6 +283,7 @@ subscriptionSubsequentInvoice-content-next-invoice = 次回の請求日: { $next
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoiceDiscount-subject = { $productName } への支払いを受領しました
+subscriptionSubsequentInvoiceDiscount-title = ご利用いただきありがとうございます！
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoiceDiscount-content-received = { $productName } の最新のお支払いを受領しました。
@@ -318,6 +319,11 @@ subscriptionSubsequentInvoiceDiscount-content-discount-repeating = { $discountDu
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productName } にアップグレードしました
+subscriptionUpgrade-title = アップグレードしていただきありがとうございます！
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = { $productNameOld } から { $productName } へのアップグレードが完了しました。
 subscriptionUpgrade-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
 unblockCode-subject = アカウントの認証コード
 unblockCode-title = ログインしようとしているのはあなた自身ですか？
