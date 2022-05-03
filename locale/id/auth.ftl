@@ -29,8 +29,8 @@ session-verify-send-push-body = Klik di sini untuk memverifikasi identitas Anda
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo { -brand-firefox }">
-fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sinkronkan perangkat">
-body-devices-image = <img data-l10n-name="devices-image" alt="Perangkat">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
+body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = Kebijakan Privasi { -brand-mozilla }
 fxa-service-url = Ketentuan Layanan { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox }">
