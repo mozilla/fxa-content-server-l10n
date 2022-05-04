@@ -30,7 +30,7 @@ session-verify-send-push-body = Klik di sini untuk memverifikasi identitas Anda
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logo { -brand-firefox }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
-body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
+body-devices-image = <img data-l10n-name="devices-image" alt="Perangkat">
 fxa-privacy-url = Kebijakan Privasi { -brand-mozilla }
 fxa-service-url = Ketentuan Layanan { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logo { -brand-firefox }">
@@ -76,6 +76,7 @@ change-password-plaintext = Jika Anda mencurigai seseorang berusaha mendapatkan 
 manage-account = Kelola akun
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Ada pertanyaan tentang langganan Anda? Tim dukungan kami siap membantu Anda:
+view-invoice = <a data-l10n-name="invoiceLink">Lihat faktur Anda</a>.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kode pemulihan tersedia sedikit lagi
 codes-reminder-description = Kami mengetahui bahwa Anda mulai kekurangan kode pemulihan. Silakan segera hasilkan kode baru untuk menghindari terkuncinya akun Anda.
