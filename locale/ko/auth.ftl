@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,8 +19,15 @@
 -app-store = App Store
 -google-play = Google Play
 
-## Email content
+## Non-email strings
 
+session-verify-send-push-title = { -product-firefox-accounts }에 로그인하시겠습니까?
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="동기화 기기">
 fxa-privacy-url = { -brand-mozilla } 개인정보처리방침
 fxa-service-url = { -product-firefox-cloud } 이용약관
 subplat-automated-email = 자동으로 발송된 이메일입니다; 잘못 온 경우, 별도의 조치가 필요하지 않습니다.
@@ -80,9 +84,6 @@ cancellationSurvey = 간단한 <a data-l10n-name="cancellationSurveyUrl")s>설�
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = 이 짧은 설문조사에 참여하셔서 서비스 개선에 도움을 주십시오.
 change-password-plaintext = 만약 누군가가 당신의 계정에 접근 시도를 했다고 의심이 된다면, 비밀번호를 변경해주세요.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP 주소: { $ip }
 manage-account = 계정 관리
 manage-account-plaintext = { manage-account }:
 # Variables:
@@ -122,7 +123,14 @@ subscriptionUpdatePayment-plaintext = 서비스 중단을 방지하려면 가능
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = 자세한 내용은 { $supportUrl } 페이지를 참조하십시오.
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP 주소: { $ip }
 view-invoice = <a data-l10n-name="invoiceLink">청구서를 확인</a>하세요.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = 청구서 보기: { $invoiceLink }
 cadReminderFirst-subject = 알림: 동기화 설정을 완료하는 방법
 cadReminderFirst-action = 다른 기기 동기화
 cadReminderFirst-title = 기기 동기화 알림입니다.
@@ -136,9 +144,6 @@ downloadSubscription-subject = { $productName }에 오신 것을 환영합니다
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName }에 오신 것을 환영합니다.
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = { $productName } 다운로드
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 복구 코드가 얼마 남지 않았습니다
 codes-reminder-description = 복구 코드가 부족한 것을 확인했습니다. 계정이 잠겨 사용 불가능한 상황을 피하기 위해 새 코드 생성을 권장합니다.
@@ -183,6 +188,8 @@ postAddAccountRecovery-description = 다음 기기를 이용해 성공적으로 
 postAddAccountRecovery-action = 계정 관리
 postAddAccountRecovery-recovery = 본인이 아닌 경우, <a data-l10n-name="revokeAccountRecoveryLink">여기를 클릭하세요</a>.
 postAddAccountRecovery-revoke = 본인이 한 행동이 아니라면, 키 발급을 취소하세요.
+postAddLinkedAccount-subject = { -brand-firefox }에 연결된 새 계정
+postAddLinkedAccount-action = 계정 관리
 postAddTwoStepAuthentication-subject = 2단계 인증을 사용합니다
 postAddTwoStepAuthentication-title = 2단계 인증을 사용합니다
 postAddTwoStepAuthentication-action = 계정 관리
@@ -200,10 +207,14 @@ postNewRecoveryCodes-description = 다음 기기에서 새 복구 코드를 성�
 postNewRecoveryCodes-action = 계정 관리
 postRemoveAccountRecovery-subject = 계정 복구 키가 삭제됨
 postRemoveAccountRecovery-title = 계정 복구 키가 삭제됨
+postRemoveAccountRecovery-description = 다음 기기를 이용해 성공적으로 { -product-firefox-account } 계정 복구 키를 삭제하였습니다.
 postRemoveAccountRecovery-action = 계정 관리
 postRemoveAccountRecovery-invalid = 이 복구 키는 더 이상 계정을 복구하는 데 사용할 수 없습니다.
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = 보조 이메일 삭제됨
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = { -product-firefox-account } 계정에서 { $secondaryEmail }을 보조 이메일에서 삭제하였습니다. 보안 알림과 로그인 확인은 더 이상 이 이메일로 전송되지 않습니다.
 postRemoveSecondary-action = 계정 관리
 postRemoveTwoStepAuthentication-title = 2단계 인증을 사용하지 않습니다
 postRemoveTwoStepAuthentication-action = 계정 관리
@@ -214,6 +225,9 @@ postVerify-description = 동기화는 북마크, 비밀번호 및 기타 { -bran
 postVerify-subject = 계정을 확인하였습니다.다른 기기와 동기화하여 설정을 완료하세요.
 postVerify-setup = 다음 기기 설정
 postVerify-action = 다음 기기 설정
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = 질문이 있으십니까? { $supportUrl } 링크를 방문하세요
 postVerifySecondary-subject = 보조 이메일 주소를 추가했습니다
 postVerifySecondary-title = 보조 이메일 주소를 추가했습니다
 postVerifySecondary-action = 계정 관리
@@ -221,6 +235,9 @@ recovery-subject = 비밀번호 재설정
 recovery-title = 비밀번호를 재설정하시겠습니까?
 recovery-description = 새 비밀번호를 만들려면 다음 시간 안에 버튼을 클릭하세요. 요청은 다음 기기에서 온 것입니다:
 recovery-action = 새로운 비밀번호 생성
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = { $productName } 구독이 취소되었습니다.
 subscriptionAccountDeletion-title = 가까운 시일 내에 다시 뵐 수 있기를 희망합니다.
 subscriptionCancellation-title = 가까운 시일 내에 다시 뵐 수 있기를 희망합니다.
 subscriptionDowngrade-content-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
@@ -228,6 +245,9 @@ subscriptionPaymentExpired-title = 신용 카드 만료 예정
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content = { $productName } 결제에 사용하는 신용카드가 곧 만료됩니다.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = { $productName } 결제 실패
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } 구독 재활성화됨
@@ -276,13 +296,9 @@ verifyPrimary-subject = 기본 이메일 확인
 verifyPrimary-action = 이메일 검증
 verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = 검증이 되면 이 기기에서 보조 이메일 추가와 같은 계정 변경이 가능합니다.
-verifySecondary-subject = 보조 이메일 확인
-verifySecondary-title = 보조 이메일 검증
-verifySecondary-action = 이메일 검증
-verifySecondary-prompt = { verifySecondary-action }:
-verifySecondary-post-verification = 검증이 되면 이 주소로 보안 알림 및 확인을 받기 시작합니다.
 verifySecondaryCode-subject = 보조 이메일 확인
 verifySecondaryCode-title = 보조 이메일 검증
+verifySecondaryCode-action = 이메일 인증
 verifySecondaryCode-prompt = 인증 코드 사용:
 verifySecondaryCode-expiry-notice = 5분 후에 만료됩니다. 확인되면 이 주소는 보안 알림 및 확인을 받기 시작합니다.
 # Variables:
