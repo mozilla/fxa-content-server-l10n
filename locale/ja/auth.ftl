@@ -188,6 +188,13 @@ codes-reminder-description = あなたの回復用コードは残り少なくな
 codes-generate = コードを生成
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = コードを生成
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+       *[other] 回復用コードの残り { $numberRemaining }
+    }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = { $clientName } への新規ログイン
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title = { $clientName } への新規ログイン
@@ -226,10 +233,15 @@ postAddLinkedAccount-title = { $providerName } のアカウントが { -product-
 postAddLinkedAccount-action = アカウント管理
 postAddTwoStepAuthentication-subject = 2 段階認証が有効化されました
 postAddTwoStepAuthentication-title = 2 段階認証が有効化されました
+postAddTwoStepAuthentication-description-plaintext = { -product-firefox-account }上の 2 段階認証の有効化が完了しました。今後ログインのたびに認証アプリに表示されるセキュリティコードが必要となります。
+postAddTwoStepAuthentication-description = 次の端末から { -product-firefox-account }上の 2 段階認証の有効化が完了しました:
 postAddTwoStepAuthentication-action = アカウント管理
 postAddTwoStepAuthentication-code-required = 今後ログインのたびに認証アプリに表示されるセキュリティコードが必要となります。
 postChangePrimary-subject = 主要アドレスが更新されました
 postChangePrimary-title = 新しい主要アドレス
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = { $email } への主要アドレス変更が完了しました。このアドレスは今後、{ -product-firefox-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
 postChangePrimary-action = アカウント管理
 postConsumeRecoveryCode-subject = 使用された回復用コード
 postConsumeRecoveryCode-title = 回復用コードが使用されました
@@ -241,10 +253,14 @@ postNewRecoveryCodes-description = 次の端末から新しい回復用コード
 postNewRecoveryCodes-action = アカウント管理
 postRemoveAccountRecovery-subject = アカウント回復用キーが削除されました
 postRemoveAccountRecovery-title = アカウント回復用キーが削除されました
+postRemoveAccountRecovery-description = 次の端末を使ってあなたの { -product-firefox-account }の回復用キーの削除が完了しました:
 postRemoveAccountRecovery-action = アカウント管理
 postRemoveAccountRecovery-invalid = この回復用キーはもはやあなたのアカウントの回復には使用できません。
 postRemoveSecondary-subject = 予備アドレスが削除されました
 postRemoveSecondary-title = 予備アドレスが削除されました
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = { $secondaryEmail } があなたの { -product-firefox-account }の予備アドレスから削除されました。セキュリティ通知やログイン確認は今後このアドレスに送られなくなります。
 postRemoveSecondary-action = アカウント管理
 postRemoveTwoStepAuthentication-title = 2 段階認証が無効化されました
 postRemoveTwoStepAuthentication-action = アカウント管理
