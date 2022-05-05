@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-28 22:07+0000\n"
-"PO-Revision-Date: 2022-05-03 14:42+0000\n"
+"PO-Revision-Date: 2022-05-05 04:02+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1384,6 +1384,10 @@ msgid ""
 "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"続行することにより、以下の規約に同意したものとみなされます:<br />\n"
+"Pocket の <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">サービス利用規約</a> および <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">プライバシー通知</a><br />\n"
+"Firefox の <a id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> および <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a>"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1471,6 +1475,10 @@ msgid ""
 "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"続行することにより、以下の規約に同意したものとみなされます:<br />\n"
+"Pocket の <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">サービス利用規約</a> および <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">プライバシー通知</a><br />\n"
+"Firefox の <a id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> および <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a>"
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1676,7 +1684,7 @@ msgstr "%(email)s を購読"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "クリックされたリンクに文字が不足しています。メールクライアントの表示によってリンクが壊れている可能性があります。"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
@@ -1709,7 +1717,7 @@ msgstr "代わりに SMS を使用する"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "完了しました"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"

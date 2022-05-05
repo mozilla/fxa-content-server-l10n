@@ -291,8 +291,24 @@ recovery-action = 新しいパスワードを設定
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = { $productName } のサブスクリプションがキャンセルされました
 subscriptionAccountDeletion-title = ご利用ありがとうございました
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = 最近、{ -product-firefox-account }が削除されたことにより、{ $productName } のサブスクリプションがキャンセルされました。最後の { $invoiceTotal } の請求は { $invoiceDateOnly } に支払われました。
 # COMMENT ABOUT After the colon,
 payment-details = 支払いの詳細:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = { $productName } へようこそ: パスワードを設定してください。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = { $productName } へようこそ
+subscriptionAccountFinishSetup-content-processing = お支払いは処理中です。完了するまで最大 4 営業日かかる場合があります。キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
+subscriptionAccountFinishSetup-content-create-2 = 次に、{ -product-firefox-account }のパスワードを作成して新しいサブスクリプションの使用を開始します。
+subscriptionAccountFinishSetup-action-2 = はじめましょう
+subscriptionAccountReminderFirst-subject = 通知: アカウントのセットアップを完了してください
+subscriptionAccountReminderFirst-title = サブスクリプションにはまだアクセスできません
 subscriptionDowngrade-content-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
 subscriptionPaymentExpired-title = クレジットカードの有効期限が近づいています
 subscriptionsPaymentExpired-title = クレジットカードの有効期限が近づいています
