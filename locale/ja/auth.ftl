@@ -309,6 +309,27 @@ subscriptionAccountFinishSetup-content-create-2 = 次に、{ -product-firefox-ac
 subscriptionAccountFinishSetup-action-2 = はじめましょう
 subscriptionAccountReminderFirst-subject = 通知: アカウントのセットアップを完了してください
 subscriptionAccountReminderFirst-title = サブスクリプションにはまだアクセスできません
+subscriptionAccountReminderFirst-content-info = 数日前に { -product-firefox-account }を作成されましたが、まだ確認されていません。確認してアカウントのセットアップを完了していただければ、新しいサブスクリプションが使用できるようになります。
+subscriptionAccountReminderFirst-content-select = 「パスワードを作成」を選択して新しいパスワードを設定し、アカウントの確認を完了してください。
+subscriptionAccountReminderFirst-action = パスワードを作成
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = 最終通知: アカウントをセットアップしてください
+subscriptionAccountReminderSecond-title = { -brand-firefox } へようこそ！
+subscriptionAccountReminderSecond-content-info = 数日前に { -product-firefox-account }を作成されましたが、まだ確認されていません。確認してアカウントのセットアップを完了していただければ、新しいサブスクリプションが使用できるようになります。
+subscriptionAccountReminderSecond-content-select = 「パスワードを作成」を選択して新しいパスワードを設定し、アカウントの確認を完了してください。
+subscriptionAccountReminderSecond-action = パスワードを作成
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = { $productName } のサブスクリプションがキャンセルされました
+subscriptionCancellation-title = ご利用ありがとうございました
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = { $productName } に切り替えました
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = { $productNameOld } から { $productName } への切り替えが完了しました。
 subscriptionDowngrade-content-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
 subscriptionPaymentExpired-title = クレジットカードの有効期限が近づいています
 subscriptionsPaymentExpired-title = クレジットカードの有効期限が近づいています
