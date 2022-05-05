@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-28 22:07+0000\n"
-"PO-Revision-Date: 2022-05-05 04:02+0000\n"
+"PO-Revision-Date: 2022-05-05 04:09+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1733,7 +1733,7 @@ msgstr "はじめに"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "後で行うのでメールで通知してください"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
@@ -1749,7 +1749,7 @@ msgstr "スキャンの準備完了"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">モバイル端末に接続します</h1><p>生成された QR コードを読み取ってください</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
@@ -1793,7 +1793,7 @@ msgstr "同期データには、保存したパスワードを含めることが
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr ""
+msgstr "これはあなたの安全のために重要な情報であるため、パスワードがリセットされた時、他人がアクセスできないように Firefox がこの情報を削除してあなたを保護します。"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
@@ -1817,7 +1817,7 @@ msgstr "完了"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "このアカウントを作成する必要があるのはなぜですか？ <a %(escapedSuggestionAttrs)s>こちらをご覧ください</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you?"
@@ -1865,7 +1865,7 @@ msgstr "Mozilla VPN"
 
 #: .es5/templates/partial/firefox-family-services.mustache:5
 msgid "A VPN from the trusted pioneer in internet privacy."
-msgstr ""
+msgstr "インターネットプライバシーの信頼できるパイオニアによる VPN。"
 
 #: .es5/templates/partial/firefox-family-services.mustache:6
 msgid "Pocket"
