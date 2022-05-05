@@ -331,6 +331,10 @@ subscriptionDowngrade-subject = { $productName } に切り替えました
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = { $productNameOld } から { $productName } への切り替えが完了しました。
 subscriptionDowngrade-content-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = { $productName } のサブスクリプションがキャンセルされました
+subscriptionFailedPaymentsCancellation-title = サブスクリプションがキャンセルされました
 subscriptionPaymentExpired-title = クレジットカードの有効期限が近づいています
 subscriptionsPaymentExpired-title = クレジットカードの有効期限が近づいています
 # Variables:
