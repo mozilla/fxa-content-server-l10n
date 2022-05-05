@@ -262,19 +262,35 @@ postRemoveSecondary-title = 予備アドレスが削除されました
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } があなたの { -product-firefox-account }の予備アドレスから削除されました。セキュリティ通知やログイン確認は今後このアドレスに送られなくなります。
 postRemoveSecondary-action = アカウント管理
+postRemoveTwoStepAuthentication-subject-line = 2 段階認証がオフです
 postRemoveTwoStepAuthentication-title = 2 段階認証が無効化されました
+postRemoveTwoStepAuthentication-description = 次の端末から { -product-firefox-account }上の 2 段階認証の無効化が完了しました:
+postRemoveTwoStepAuthentication-description-plaintext = { -product-firefox-account }上の 2 段階認証の無効化が完了しました。今後ログインのたびにセキュリティコードを入力する必要がなくなります。
 postRemoveTwoStepAuthentication-action = アカウント管理
 postRemoveTwoStepAuthentication-not-required = 今後ログインのたびにセキュリティコードを入力する必要はなくなります。
+postVerify-sub-title = { -product-firefox-account }が確認されました。あと少しです。
+postVerify-title = 次に、端末間で同期しましょう！
+postVerify-description = Sync は、同期したすべての端末間でブックマークやパスワード、他の { -brand-firefox } データを保護しながら同じに保ちます。
+postVerify-subject = アカウントが確認されました。次に、別の端末を同期してセットアップを完了してください
+postVerify-setup = 次の端末のセットアップ
+postVerify-action = 次の端末をセットアップする
 # Variables:
 #  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = ご質問はこちらから: { $supportUrl }
 postVerifySecondary-subject = 予備のメールアドレスが追加されました
 postVerifySecondary-title = 予備のメールアドレスが追加されました
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = { $secondaryEmail } があなたの { -product-firefox-account }の予備アドレスとして確認されました。セキュリティ通知やログイン確認は今後両方のメールアドレスに送られます。
 postVerifySecondary-action = アカウント管理
 recovery-subject = パスワードをリセットしました
 recovery-title = パスワード変更の必要がありますか？
 recovery-description = 1 時間以内にボタンをクリックして新しいパスワードを設定してください。このリクエストは次の端末から行われました:
 recovery-action = 新しいパスワードを設定
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = { $productName } のサブスクリプションがキャンセルされました
+subscriptionAccountDeletion-title = ご利用ありがとうございました
 # COMMENT ABOUT After the colon,
 payment-details = 支払いの詳細:
 subscriptionDowngrade-content-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
