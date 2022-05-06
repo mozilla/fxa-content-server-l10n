@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = メッセージを閉じる
 
 ## Firefox and Mozilla Brand
 ##
@@ -22,6 +23,7 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox アカウント
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -30,6 +32,7 @@
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -53,6 +56,8 @@ app-footer-terms-of-service = 利用規約
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = あなたのアバター
 avatar-default-avatar =
     .alt = 既定のアバター
 
@@ -66,6 +71,7 @@ bento-menu-firefox-title = { -brand-firefox } はユーザーのオンライン�
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = デスクトップ向け { -brand-firefox } ブラウザー
 bento-menu-firefox-mobile = モバイル向け { -brand-firefox } ブラウザー
 bento-menu-made-by-mozilla = Made by { -brand-mozilla }
@@ -76,6 +82,12 @@ connect-another-fx-mobile = モバイルまたはタブレット上で { -brand-
 connect-another-find-fx-mobile =
     { -google-play } や { -app-store } で { -brand-firefox } を見つけるか
     <br /><linkExternal>ダウンロードリンクを端末に送信してください。</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = { -google-play } で { -brand-firefox } をダウンロード
+connect-another-app-store-image-2 =
+    .title = { -app-store } で { -brand-firefox } をダウンロード
 
 ##
 
@@ -93,13 +105,30 @@ cs-refresh-button =
     .title = 接続済みサービスをリフレッシュ
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 項目が不足または重複していますか？
+cs-disconnect-sync-heading = Sync から切断
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content = ブラウジングデータは端末 { $device } に残りますが、アカウントと同期されなくなります。
+cs-disconnect-sync-reason = この端末を切断する主な理由は何ですか？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = この端末について:
+cs-disconnect-sync-opt-suspicious = 疑わしい
+cs-disconnect-sync-opt-lost = 紛失または盗難にあった
+cs-disconnect-sync-opt-old = 古いまたは買い替えた
+cs-disconnect-sync-opt-duplicate = 重複している
+cs-disconnect-sync-opt-not-say = 無回答
 
 ##
 
+cs-disconnect-advice-confirm = 了解しました
+cs-disconnect-lost-advice-heading = 紛失または盗難にあった端末を切断しました
+cs-disconnect-suspicious-advice-heading = 疑わしい端末を切断しました
 cs-sign-out-button = ログアウト
 
 ##
@@ -126,6 +155,13 @@ flow-container-back = 戻る
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = 回復用コード
+get-data-trio-download =
+    .title = ダウンロード
+get-data-trio-copy =
+    .title = コピー
+get-data-trio-print =
+    .title = 印刷
 
 # HeaderLockup component
 
@@ -138,13 +174,20 @@ header-help = ヘルプ
 
 ## Input Password
 
+input-password-hide = パスワードを隠す
+input-password-show = パスワードを開示
+
+## Linked Accounts section
+
 
 ## Modal
 
+modal-close-title = 閉じる
 modal-cancel-button = キャンセル
 
 ## Modal Verify Session
 
+mvs-verify-your-email = メールアドレスの確認
 mvs-enter-verification-code = 確認コードを入力してください
 # This string is used to show a notification to the user for them to enter verification code to verify their email.
 # Variables:
@@ -159,6 +202,7 @@ nav-settings = 設定
 nav-profile = プロファイル
 nav-security = セキュリティ
 nav-connected-services = 接続済みサービス
+nav-data-collection = データの収集と使用
 nav-email-comm = メールの設定管理
 
 ## Two Step Authentication - replace recovery code
@@ -180,6 +224,7 @@ avatar-page-remove-photo-button =
 avatar-page-retake-photo = 写真を撮り直す
 avatar-page-cancel-button = キャンセル
 avatar-page-save-button = 保存する
+avatar-page-saving-button = 保存中...
 avatar-page-zoom-out-button =
     .title = ズームアウト
 avatar-page-zoom-in-button =
@@ -215,6 +260,7 @@ pw-change-new-password =
     .label = 新しいパスワードを入力してください
 pw-change-confirm-password =
     .label = 新しいパスワードを再入力してください
+pw-change-success-alert = パスワードを更新しました。
 
 ##
 
@@ -229,6 +275,7 @@ delete-account-continue-button = 続ける
 delete-account-password-input =
     .label = パスワードを入力してください
 delete-account-cancel-button = キャンセル
+delete-account-delete-button-2 = 削除
 
 ##
 
@@ -263,6 +310,7 @@ recovery-key-success-alert = 回復用キーが作成されました。
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = ステップ 1/2
 add-secondary-email-page-title =
     .title = 予備アドレス
 add-secondary-email-enter-address =
@@ -334,9 +382,23 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = セキュリティ
+security-password =
+    .header = パスワード
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = { $date } に作成
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = オフにする
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = オンにする
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = 送信中...
+switch-is-on = オン
+switch-is-off = オフ
 
 ## Sub-section row Defaults
 
@@ -352,15 +414,18 @@ rk-enabled = 有効
 rk-not-set = 未設定
 rk-action-create = 作成
 rk-action-remove = 削除
+rk-cannot-refresh = 申し訳ありませんが、回復用キーのリフレッシュ中に問題が発生しました。
 rk-key-removed = アカウントの回復用キーが削除されました。
 rk-cannot-remove-key = アカウントの回復用キーを削除できませんでした。
 rk-refresh-key = 回復用キーをリフレッシュ
 rk-content-explain = パスワードを忘れたときに、あなたの情報を復元します。
 rk-content-reset-data = パスワードをリセットするとデータがリセットされるのはなぜですか？
+rk-cannot-verify-session-2 = 申し訳ありませんが、セッションの確認中に問題が発生しました。
 rk-remove-modal-heading = 回復用キーを削除しますか？
 rk-remove-modal-content =
     パスワードをリセットした場合、
     回復用キーを使用してあなたのデータにアクセスできなくなります。この操作は元に戻せません。
+rk-refresh-error = 申し訳ありませんが、回復用キーのリフレッシュ中に問題が発生しました。
 rk-remove-error = アカウントの回復用キーを削除できませんでした。
 
 ## Secondary email sub-section on main Settings page

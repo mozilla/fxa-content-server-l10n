@@ -415,7 +415,17 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceDateOnly } に { $in
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = 次回の請求日: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = { $productName } のクレジットカードの有効期限が近づいています
 subscriptionPaymentExpired-title = クレジットカードの有効期限が近づいています
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content = { $productName } の支払いに使用しているクレジットカードの有効期限が近づいています。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = { $productName } への支払いに失敗しました
+subscriptionPaymentFailed-content-outdated = クレジットカードの有効期限が切れているか、現在のお支払い方法が古くなっている可能性があります。
 subscriptionsPaymentExpired-title = クレジットカードの有効期限が近づいています
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
