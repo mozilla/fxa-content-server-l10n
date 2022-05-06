@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox-konton
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Firefox-konton
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Butik
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox-konton
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Stäng modal
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Allmänt applikationsfel
 basic-error-message = Något gick fel. Vänligen försök igen.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Det ser ut som att ditt betalkort inte är instäl
 duplicate-transaction = Hmm. Det verkar som om en identisk transaktion just skickades. Kolla in din betalningshistorik.
 coupon-expired = Det ser ut som att kampanjkoden har gått ut.
 card-error = Din transaktion kunde inte behandlas. Kontrollera din kreditkortsinformation och försök igen.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Ett systemfel orsakade att registreringen för { $productName } misslyckades. Din betalningsmetod har inte debiterats. Var god försök igen.
 newsletter-signup-error = Du har inte registrerat dig för produktuppdateringsmeddelanden. Du kan försöka igen i dina kontoinställningar.
 fxa-post-passwordless-sub-error = Prenumerationen bekräftades, men bekräftelsesidan kunde inte laddas. Kontrollera din e-post för att konfigurera ditt konto.
 
-## settings
+## Settings
 
 settings-home = Startsida för konton
 settings-subscriptions-title = Prenumerationer
 
-## legal footer
+## Legal footer
 
 terms = Användarvillkor
 privacy = Sekretesspolicy
@@ -75,28 +73,28 @@ subscription-error-title = Fel vid bekräftelse av prenumeration…
 subscription-noplanchange-title = Ändringen av prenumerationsplanen stöds inte
 subscription-iapsubscribed-title = Har redan prenumererat
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } faktureras { $amount } dagligen
        *[other] { $productName } faktureras { $amount } var { $intervalCount } dag
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } faktureras { $amount } varje vecka{ $productName }
        *[other] { $productName } faktureras { $amount } var { $intervalCount } vecka
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } faktureras { $amount } varje månad
        *[other] { $productName } faktureras { $amount } var { $intervalCount } månad
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } faktureras { $amount } varje år
@@ -114,7 +112,7 @@ product-customer-error =
 product-plan-not-found = Plan hittades inte
 product-no-such-plan = Ingen sådan plan för denna produkt.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } använder { -brand-name-stripe } och { -brand-name-paypal } för säker betalningshantering.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } sekretesspolicy</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } sekretesspolicy</paypalPrivacyLink>.
@@ -123,7 +121,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } sekretes
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } använder { -brand-name-stripe } för säker betalningshantering.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } sekretesspolicy</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Fullständigt namn
@@ -147,19 +145,19 @@ payment-confirm-with-legal-links-day =
         [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje dag</strong>, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretesspolicy</privacyNoticeLink>, tills jag avbryter min prenumeration.
        *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } dag</strong>, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretesspolicy</privacyNoticeLink>, tills jag avbryter min prenumeration.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje vecka</strong>, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretesspolicy</privacyNoticeLink>, tills jag avbryter min prenumeration.
        *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } vecka</strong>, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretesspolicy</privacyNoticeLink>, tills jag avbryter min prenumeration.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje månad</strong>, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretesspolicy</privacyNoticeLink>, tills jag avbryter min prenumeration.
        *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } månad</strong>, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretesspolicy</privacyNoticeLink>, tills jag avbryter min prenumeration.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje år</strong>, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretesspolicy</privacyNoticeLink>, tills jag avbryter min prenumeration.
@@ -177,18 +175,18 @@ payment-validate-name-error = Ange ditt namn
 payment-validate-zip-required = Postnummer krävs
 payment-validate-zip-short = Postnummer är för kort
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Din prenumeration är klar
 sub-redirect-copy = Ta en stund för att berätta om din upplevelse.
 sub-redirect-skip-survey = Nej tack, ta mig till min produkt.
 
-## fields
+## Fields
 
 default-input-error = Fältet är obligatoriskt
 input-error-is-required = { $label } krävs
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Granska din ändring
 sub-change-failed = Planändring misslyckades
@@ -208,35 +206,35 @@ sub-update-current-plan-label = Nuvarande plan
 sub-update-new-plan-label = Ny plan
 sub-update-total-label = Ny summa
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } dagligen
        *[other] { $amount } var { $intervalCount } dag
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } varje vecka
        *[other] { $amount } var { $intervalCount } vecka
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } varje månad
        *[other] { $amount } var { $intervalCount } månad
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } varje år
        *[other] { $amount } var { $intervalCount } år
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -294,14 +292,14 @@ reactivate-confirm-without-payment-method-copy =
     på { $amount } den { $endDate }.
 reactivate-confirm-button = Prenumerera igen
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Du avbröt ditt prenumeration den { $date }.
 reactivate-panel-copy = Du förlorar åtkomsten till { $name } den <strong>{ $date }</strong>.
 reactivate-success-copy = Tack! Du är klar.
 reactivate-success-button = Stäng
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -319,14 +317,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Efterföljande faktura hittades inte
 sub-item-no-such-subsequent-invoice = Efterföljande faktura hittades inte för denna prenumeration.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Köp i appen
 sub-iap-item-apple-purchase = { -brand-name-apple }: Köp i appen
 sub-iap-item-manage-button = Hantera
 account-activated = Ditt konto är aktiverat, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Uppdaterar faktureringsinformation…
 sub-route-idx-reactivating = Återaktivering av prenumerationen misslyckades
@@ -353,14 +351,14 @@ sub-route-missing-billing-agreement-payment-alert = Ogiltig betalningsinformatio
 sub-route-funding-source-payment-alert = Ogiltig betalningsinformation. Det finns ett problem med ditt konto. Det kan ta en stund att rensa den här varningen efter att du har uppdaterat din information. <div>Hantera</div>
 pay-update-manage-btn = Hantera
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30-dagars återbetalningsgaranti
 pay-with-heading-other = Välj betalningsalternativ
 pay-with-heading-card-or = Eller betala med kort
 pay-with-heading-card-only = Betala med kort
 
-## plan-details
+## Plan details
 
 plan-details-header = Produktinformation
 plan-details-show-button = Visa detaljer
@@ -368,7 +366,7 @@ plan-details-hide-button = Dölj detaljer
 plan-details-total-label = Totalt
 plan-details-list-price = Listpris
 
-## coupons
+## Coupons
 
 coupon-discount = Rabatt
 coupon-discount-applied = Rabattbonus tillämpas
@@ -385,17 +383,17 @@ coupon-success-repeating = Din plan förnyas automatiskt efter { $couponDuration
 coupon-enter-code =
     .placeholder = Ange kod
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Vänta medan vi behandlar din betalning…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Klicka här för att ladda ner
 payment-confirmation-mobile-alert = Öppnades ingen app? <a>Klicka här</a>
 payment-confirmation-thanks-heading = Tack så mycket!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -440,7 +438,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Fortsätt till nedladdning
 payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Har du redan ett { -brand-name-firefox }-konto? <a>Logga in</a>
 new-user-step-1 = 1. Skapa ett { -brand-name-firefox }-konto
@@ -460,7 +458,7 @@ new-user-already-has-account-sign-in = Har du redan ett konto, <a>Logga in</a>
 new-user-card-title = Ange din kortinformation
 new-user-submit = Prenumerera nu
 manage-pocket-title = Letar du efter din premiumprenumeration på { -brand-name-pocket }?
-manage-pocket-body = För att hantera den, <a>klicka här</a>.
+manage-pocket-body-2 = För att hantera det, <linkExternal>klicka här</linkExternal>.
 payment-method-header = Välj din betalningsmetod
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
