@@ -202,8 +202,7 @@ la-description = 您已授權連結下列帳號。
 la-unlink-button = 解除連結
 la-unlink-account-button = 解除連結
 la-unlink-heading = 解除與第三方帳號的連結
-la-unlink-content = 您確定要解除連結 { -brand-google } 帳號嗎？解除連結不會將您自動從該服務登出，若想要登出，請到「已連結的服務」區塊手動登出。
-la-unlink-content-2 = 您確定要解除連結帳號嗎？解除連結不會將您自動從該服務登出，若想要登出，請到「已連結的服務」區塊手動登出。
+la-unlink-content-3 = 您確定要解除連結帳號嗎？解除連結不會將您自動從連結的服務登出，若想要登出，請到「已連結的服務」區塊手動登出。
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -305,8 +304,8 @@ delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
 delete-account-confirm-title-2 = 您已將 { -product-firefox-account } 連結到可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品：
 delete-account-acknowledge = 請確認若刪除帳號：
-delete-account-chk-box-1-v2 =
-    .label = 將取消所有付費訂閱項目（{ product-pocket } 除外）
+delete-account-chk-box-1-v3 =
+    .label = 將取消您所有已付款的訂閱內容
 delete-account-chk-box-2 =
     .label = 您可能會失去 { -brand-mozilla } 產品中儲存的資訊與部分功能
 delete-account-chk-box-3 =
