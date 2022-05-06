@@ -103,6 +103,9 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Prenesite { $p
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Prenesite { $productName } iz trgovine { -app-store }">
 another-desktop-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo namizno napravo</a>.
 another-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo napravo</a>.
+automated-email-change =
+    To je samodejno sporočilo. Če niste sprožili tega dejanja, <a data-l10n-name="passwordChangeLink">spremenite svoje geslo</a>.
+    Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = To sporočilo je bilo poslano samodejno. Če svojemu { -product-firefox-account(sklon: "dajalnik") } niste dodali nove naprave, takoj spremenite geslo na { $passwordChangeLink }
