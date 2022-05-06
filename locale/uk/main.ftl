@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Облікові записи Firefox
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Облікові записи Firefox
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Маркет
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Облікові записи Firefox
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Закрити вікно
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Загальна помилка програми
 basic-error-message = Щось пішло не так. Будь ласка, спробуйте знову пізніше.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Схоже, вашу дебетову картку
 duplicate-transaction = Гм. Схоже, що ідентичний платіж щойно було здійснено. Перевірте історію своїх платежів.
 coupon-expired = Схоже, термін дії промо-коду минув.
 card-error = Ваш платіж не вдалося обробити. Підтвердьте дані своєї кредитної картки та повторіть спробу.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Системна помилка призвела до збою реєстрації в { $productName }. Платіж за вказаним способом оплати не було проведено. Будь ласка, спробуйте знову.
 newsletter-signup-error = Ви не підписалися на сповіщення про оновлення продукту. Ви можете спробувати знову зробити це в налаштуваннях облікового запису.
 fxa-post-passwordless-sub-error = Передплату підтверджено, але не вдалося завантажити сторінку підтвердження. Перевірте свою електронну пошту для завершення налаштування облікового запису.
 
-## settings
+## Settings
 
 settings-home = Головна сторінка облікового запису
 settings-subscriptions-title = Передплати
 
-## legal footer
+## Legal footer
 
 terms = Умовами використання
 privacy = Повідомлення про приватність
@@ -75,31 +73,31 @@ subscription-error-title = Помилка підтвердження перед�
 subscription-noplanchange-title = Зміна цього тарифного плану не підтримується
 subscription-iapsubscribed-title = Уже передплачено
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] Передплата { $productName } розміром { $amount } стягується щодня
         [few] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } дні
        *[many] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } днів
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] Передплата { $productName } розміром { $amount } стягується щотижня
         [few] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } тижні
        *[many] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } тижнів
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] Передплата { $productName } розміром { $amount } стягується щомісяця
         [few] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } місяці
        *[many] Передплата { $productName } розміром { $amount } стягується кожні { $intervalCount } місяців
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] Передплата { $productName } розміром { $amount } стягується щорічно
@@ -118,7 +116,7 @@ product-customer-error =
 product-plan-not-found = Тарифний план не знайдено
 product-no-such-plan = Такого тарифного плану для цього продукту не існує.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } використовує { -brand-name-stripe } і { -brand-name-paypal } для безпечної обробки платежів.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>політика приватності { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>політика приватності { -brand-name-paypal }</paypalPrivacyLink>.
@@ -127,7 +125,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>політика приватн
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } використовує { -brand-name-stripe } для безпечної обробки платежів.
 payment-legal-link-stripe-3 = <stripePrivacyLink>політика приватності { -brand-name-stripe }</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Повне ім’я
@@ -152,21 +150,21 @@ payment-confirm-with-legal-links-day =
         [few] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } дні</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
        *[many] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } днів</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } щотижня</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
         [few] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } тижні</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
        *[many] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } тижнів</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } щомісяця</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
         [few] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } місяці</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
        *[many] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } місяців</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } щороку</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
@@ -185,18 +183,18 @@ payment-validate-name-error = Будь ласка, введіть своє ім�
 payment-validate-zip-required = Поштовий індекс обовʼязковий
 payment-validate-zip-short = Поштовий індекс закороткий
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Вашу передплату налаштовано
 sub-redirect-copy = Будь ласка, знайдіть хвилинку, щоб розповісти про свої враження.
 sub-redirect-skip-survey = Ні, дякую, я хочу перейти до мого продукту.
 
-## fields
+## Fields
 
 default-input-error = Це поле обов'язкове
 input-error-is-required = { $label } обов'язково
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Переглянути свої зміни
 sub-change-failed = Помилка зміни тарифного плану
@@ -216,31 +214,31 @@ sub-update-current-plan-label = Поточний тарифний план
 sub-update-new-plan-label = Новий тарифний план
 sub-update-total-label = Нова сума
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } щодня
         [few] { $amount } кожні { $intervalCount } дні
        *[many] { $amount } кожні { $intervalCount } днів
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } щотижня
         [few] { $amount } кожні { $intervalCount } тижні
        *[many] { $amount } кожні { $intervalCount } тижнів
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } щомісяця
         [few] { $amount } кожні { $intervalCount } місяці
        *[many] { $amount } кожні { $intervalCount } місяців
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } щороку
@@ -248,7 +246,7 @@ plan-price-year =
        *[many] { $amount } кожні { $intervalCount } років
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -310,14 +308,14 @@ reactivate-confirm-without-payment-method-copy =
     { $amount } буде здійснено { $endDate }.
 reactivate-confirm-button = Поновити передплату
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Ви скасували передплату { $date }.
 reactivate-panel-copy = Ви втратите доступ до { $name } <strong>{ $date }</strong>.
 reactivate-success-copy = Дякуємо! Ви все налаштували.
 reactivate-success-button = Закрити
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -333,14 +331,14 @@ sub-item-cancel-confirm = Скасувати мій доступ до { $name } 
 invoice-not-found = Наступний рахунок-фактуру не знайдено
 sub-item-no-such-subsequent-invoice = Наступний рахунок-фактуру для цієї передплати не знайдено.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Покупка в програмі
 sub-iap-item-apple-purchase = { -brand-name-apple }: Покупка в програмі
 sub-iap-item-manage-button = Керувати
 account-activated = Ваш обліковий запис активовано, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Оновлення платіжних даних…
 sub-route-idx-reactivating = Не вдалося поновити передплату
@@ -367,14 +365,14 @@ sub-route-missing-billing-agreement-payment-alert = Недійсні платі�
 sub-route-funding-source-payment-alert = Недійсні платіжні дані; сталася помилка з вашим обліковим записом. Це попередження зникне невдовзі після успішного оновлення даних. <div>Керувати</div>
 pay-update-manage-btn = Керувати
 
-## subscription create
+## Subscription create
 
 sub-guarantee = Гарантоване повернення коштів упродовж 30 днів
 pay-with-heading-other = Вибрати спосіб оплати
 pay-with-heading-card-or = Або сплатити карткою
 pay-with-heading-card-only = Сплатити карткою
 
-## plan-details
+## Plan details
 
 plan-details-header = Докладніше про продукт
 plan-details-show-button = Докладніше
@@ -382,7 +380,7 @@ plan-details-hide-button = Сховати подробиці
 plan-details-total-label = Всього
 plan-details-list-price = Базова ціна
 
-## coupons
+## Coupons
 
 coupon-discount = Знижка
 coupon-discount-applied = Застосована знижка
@@ -399,17 +397,17 @@ coupon-success-repeating = Ваш тарифний план буде автом�
 coupon-enter-code =
     .placeholder = Ввести код
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Зачекайте, поки ми обробимо ваш платіж…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Натисніть тут, щоб завантажити
 payment-confirmation-mobile-alert = Не відкривається програма? <a>Натисніть тут</a>
 payment-confirmation-thanks-heading = Дякуємо!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -458,7 +456,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Продовжити завантаження
 payment-confirmation-cc-card-ending-in = Картка, номер якої закінчується на { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = У вас уже є обліковий запис { -brand-name-firefox }? <a>Увійдіть у нього</a>
 new-user-step-1 = 1. Створіть обліковий запис { -brand-name-firefox }
@@ -478,7 +476,7 @@ new-user-already-has-account-sign-in = У вас вже є обліковий з
 new-user-card-title = Введіть дані своєї картки
 new-user-submit = Передплатити
 manage-pocket-title = Шукаєте свою передплату { -brand-name-pocket } преміум?
-manage-pocket-body = Щоб керувати нею, <a>натисніть тут</a>.
+manage-pocket-body-2 = Щоб керувати ним, <linkExternal>клацніть тут</linkExternal>.
 payment-method-header = Оберіть спосіб оплати
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
