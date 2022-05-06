@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-28 22:07+0000\n"
+"POT-Creation-Date: 2022-05-05 22:07+0000\n"
 "PO-Revision-Date: 2022-03-25 08:20+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -839,10 +839,12 @@ msgid "Invalid Token"
 msgstr "Token nunvalid"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Cun cuntinuar accepteschas ti il <a id=\"service-tos\" href=\"%(termsUri)s\">Contract da licenza</a> e las <a id=\"service-pp\" href=\"%(privacyUri)s\">Infurmaziuns davart la protecziun da datas</a>"
-" da %(serviceName)s (%(serviceUri)s)."
+"Cun cuntinuar accepteschas ti il <a id=\"service-tos\" href=\"%(termsUri)s\">Contract da licenza</a> e las <a id=\"service-pp\" href=\"%(privacyUri)s\">Infurmaziuns davart la protecziun da datas</"
+"a> da %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -911,10 +913,11 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Endatescha per plaschair la clav da recuperaziun a diever unic che ti has tegnì en salv en in lieu segir per puspè obtegnair l'access a tes conto da Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">ATTENZIUN:</span> Sche ti redefineschas tes pled-clav e n'has betg memorisà ina clav da recuperaziun per il conto, vegnan tschertas datas stizzadas (inclus las datas memorisadas"
-" sin il server sco la cronologia ed ils segnapaginas)."
+"<span class=\"note\">ATTENZIUN:</span> Sche ti redefineschas tes pled-clav e n'has betg memorisà ina clav da recuperaziun per il conto, vegnan tschertas datas stizzadas (inclus las datas "
+"memorisadas sin il server sco la cronologia ed ils segnapaginas)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
@@ -1391,7 +1394,8 @@ msgid ""
 msgstr ""
 "\n"
 "              Cun proceder acceptas ti:<br />\n"
-"              Las <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">cundiziuns d'utilisaziun</a> e las<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">remartgas davart la protecziun da datas</a><br /> da Pocket\n"
+"              Las <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">cundiziuns d'utilisaziun</a> e las<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">remartgas davart la "
+"protecziun da datas</a><br /> da Pocket\n"
 "              <a id=\"fxa-tos\" href=\"/legal/terms\">Cundiziuns d'utilisaziun</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\">remartgas davart la protecziun da datas</a> da Firefox\n"
 "            "
 
@@ -1482,7 +1486,8 @@ msgid ""
 msgstr ""
 "\n"
 "            Cun proceder acceptas ti:<br />\n"
-"            Las <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">cundiziuns d'utilisaziun</a> e las <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">remartgas davart la protecziun da datas</a><br /> da Pocket\n"
+"            Las <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">cundiziuns d'utilisaziun</a> e las <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">remartgas davart la "
+"protecziun da datas</a><br /> da Pocket\n"
 "            Las <a id=\"fxa-tos\" href=\"/legal/terms\">cundiziuns d'utilisaziun</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\">remartgas davart la protecziun da datas</a> da Firefox\n"
 "          "
 
@@ -2053,15 +2058,15 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ msgstr "Ti es ussa pront per l'utilisaziun da <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 #~ msgstr ""
-#~ "<span>IMPURTANT:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai "
-#~ "succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads."
+#~ "<span>IMPURTANT:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. "
+#~ "Quai succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 #~ msgstr ""
 #~ "<span>AVIS:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai "
 #~ "succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads."
@@ -2079,15 +2084,15 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ msgstr "Tegna en egl las sperditas da datas."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span>IMPURTANT:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai "
-#~ "succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas."
+#~ "<span>IMPURTANT:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. "
+#~ "Quai succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>AVIS:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai "
 #~ "succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas."
@@ -2427,10 +2432,11 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Pass 2 da 2: memorisar la clav da recuperaziun"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
-#~ "<span class=\"note\">ATTENZIUN: </span>Sche ti emblidas tes pled-clav è questa clav necessaria per puspè obtegnair l'access a tias datas. Memorisescha tia clav da recuperaziun en in lieu segir, nua "
-#~ "che ti la pos chattar a moda simpla pli tard."
+#~ "<span class=\"note\">ATTENZIUN: </span>Sche ti emblidas tes pled-clav è questa clav necessaria per puspè obtegnair l'access a tias datas. Memorisescha tia clav da recuperaziun en in lieu segir, "
+#~ "nua che ti la pos chattar a moda simpla pli tard."
 
 #~ msgid "Done, Recovery key saved"
 #~ msgstr "Finì, memorisà la clav da recuperaziun"
@@ -2583,8 +2589,8 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 #~ msgstr ""
-#~ "Ti retschaivas messadis areguard la segirezza da tes conto, midadas da nossas cundiziuns d'utilisaziun, funcziuns da tes conto e messadis inizials per ta gidar a duvrar en moda optimala tes conto da"
-#~ " Firefox."
+#~ "Ti retschaivas messadis areguard la segirezza da tes conto, midadas da nossas cundiziuns d'utilisaziun, funcziuns da tes conto e messadis inizials per ta gidar a duvrar en moda optimala tes "
+#~ "conto da Firefox."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "En pli pos ti abunar e-mails cun novitads davart Mozilla e Firefox."
@@ -2596,11 +2602,11 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ msgstr "Administrar las preferenzas"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "En cas che ti utiliseschas quest conto per applicaziuns e servetschs da Mozilla sco AMO, Pocket e Screenshots duessas ti sco emprim t'annunziar e stizzar tut las datas persunalas memorisadas. Sche "
-#~ "ti stizzas qua il conto ristgas ti da perder l'access dapertut nua che ti al utiliseschas."
+#~ "En cas che ti utiliseschas quest conto per applicaziuns e servetschs da Mozilla sco AMO, Pocket e Screenshots duessas ti sco emprim t'annunziar e stizzar tut las datas persunalas memorisadas. "
+#~ "Sche ti stizzas qua il conto ristgas ti da perder l'access dapertut nua che ti al utiliseschas."
 
 #~ msgid "verified"
 #~ msgstr "verifitgà"
@@ -2672,8 +2678,8 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
 #~ msgstr ""
-#~ "Cun cuntinuar acceptas ti las <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">cundiziuns d'utilisaziun</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">infurmaziuns davart "
-#~ "la protecziun da datas</a>."
+#~ "Cun cuntinuar acceptas ti las <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">cundiziuns d'utilisaziun</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">infurmaziuns "
+#~ "davart la protecziun da datas</a>."
 
 #~ msgid "Sync these everywhere you sign in:"
 #~ msgstr "Sincronisescha questas datas sin tut ils apparats annunziads:"
@@ -2816,10 +2822,12 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookies e memoria locala èn necessaris."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
-#~ "Cun cuntinuar accepteschas ti il <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Contract da licenza</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Infurmaziuns davart la"
-#~ " protecziun da datas</a> dals servetschs da cloud da Firefox."
+#~ "Cun cuntinuar accepteschas ti il <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Contract da licenza</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Infurmaziuns "
+#~ "davart la protecziun da datas</a> dals servetschs da cloud da Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Servetschs da cloud da Firefox"
@@ -2863,8 +2871,8 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
 #~ msgstr ""
-#~ "Il servetsch dad SMS è mo disponibel per numers da telefon dals Stadis Unids da l'America. Eventualmain vegnan messas a quint taxas per SMS e la transmissiun da datas. Il destinatur da l'e-mail u "
-#~ "SMS sto avair dà ses consentiment. <a %(escapedLearnMoreAttributes)s>Ulteriuras infurmaziuns</a>"
+#~ "Il servetsch dad SMS è mo disponibel per numers da telefon dals Stadis Unids da l'America. Eventualmain vegnan messas a quint taxas per SMS e la transmissiun da datas. Il destinatur da l'e-mail "
+#~ "u SMS sto avair dà ses consentiment. <a %(escapedLearnMoreAttributes)s>Ulteriuras infurmaziuns</a>"
 
 #~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
 #~ msgstr "Tramess la colliaziun da l'applicaziun a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Fatg in sbagl da tippar?</a>"
@@ -2873,11 +2881,11 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ msgstr "Pertge sincronisar dus (u dapli!) apparats?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Memorisescha tes segnapaginas, la cronologia ed ils pleds-clav en Firefox ed als cundivida lura grazia a Sync cun ils auters apparats. T'annunzia cun Firefox sin tes telefon u tablet e tut quai che "
-#~ "ti has memorisà en Firefox sin tes computer vegn a cumparair."
+#~ "Memorisescha tes segnapaginas, la cronologia ed ils pleds-clav en Firefox ed als cundivida lura grazia a Sync cun ils auters apparats. T'annunzia cun Firefox sin tes telefon u tablet e tut quai "
+#~ "che ti has memorisà en Firefox sin tes computer vegn a cumparair."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
@@ -2989,18 +2997,18 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ msgstr "S'annunziar"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "<span>IMPURTANT:</span> Sche ti reinizialiseschas tes pled-clav, vegnan stizzadas tschertas da tias datas (inclus las datas sincronisadas sin il server, p.ex. la cronologia ed ils segnapaginas). Il "
-#~ "motiv è il criptadi da tias datas cun tes pled-clav per proteger tia sfera privata."
+#~ "<span>IMPURTANT:</span> Sche ti reinizialiseschas tes pled-clav, vegnan stizzadas tschertas da tias datas (inclus las datas sincronisadas sin il server, p.ex. la cronologia ed ils segnapaginas). "
+#~ "Il motiv è il criptadi da tias datas cun tes pled-clav per proteger tia sfera privata."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>REMARTGA:</span> Sche ti reinizialiseschas tes pled-clav, vegnan stizzadas tschertas da tias datas (inclus las datas sincronisadas sin il server, p.ex. la cronologia ed ils segnapaginas). Il "
-#~ "motiv è il criptadi da tias datas cun tes pled-clav per proteger tia sfera privata."
+#~ "<span>REMARTGA:</span> Sche ti reinizialiseschas tes pled-clav, vegnan stizzadas tschertas da tias datas (inclus las datas sincronisadas sin il server, p.ex. la cronologia ed ils segnapaginas). "
+#~ "Il motiv è il criptadi da tias datas cun tes pled-clav per proteger tia sfera privata."
 
 #~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
 #~ msgstr "Ina adressa dad e-mail alternativa è ina adressa supplementara per retschaiver communicaziuns da segirezza e per confermar novs apparats che duain vegnir sincronisads"
@@ -3057,9 +3065,11 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ msgstr "Has ti in conto cun ina autra adressa d'e-mail? <a href=\"%(signinUri)s\">T'annunzia</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox è disponibel per <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href=\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox è disponibel per <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
 
 #~ msgid "Delete"
 #~ msgstr "Stizzar"
@@ -3101,7 +3111,8 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ msgstr "Tramess l'e-mail per debloccar"
 
 #~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-#~ msgstr "Per motivs da segirezza è tes conto vegnì bloccà. Per exequir acziuns sin tes conto stos ti verifitgar danovamain tes conto cun cliccar sin la collaziun da verificaziun tramessa a %(email)s"
+#~ msgstr ""
+#~ "Per motivs da segirezza è tes conto vegnì bloccà. Per exequir acziuns sin tes conto stos ti verifitgar danovamain tes conto cun cliccar sin la collaziun da verificaziun tramessa a %(email)s"
 
 #~ msgid "Signup has been disabled"
 #~ msgstr "La registraziun è vegnida deactivada"
@@ -3132,8 +3143,8 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
 #~ msgstr ""
-#~ "Redefinir tes pled-clav vegn a stizzar tias datas da navigar da noss servers. Tut las datas sin tes apparats na vegnan betg midadas. Cumenza il process da redefinir entras endatar tia adressa dad "
-#~ "e-mail sutvart."
+#~ "Redefinir tes pled-clav vegn a stizzar tias datas da navigar da noss servers. Tut las datas sin tes apparats na vegnan betg midadas. Cumenza il process da redefinir entras endatar tia adressa "
+#~ "dad e-mail sutvart."
 
 #~ msgid "a day"
 #~ msgstr "in di"
@@ -3190,8 +3201,8 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
 #~ "sessions."
 #~ msgstr ""
-#~ "Per utilisar in conto da Firefox stos ti activar ils cookies en tes navigatur. Cookies èn pitschnsa parts da datas memorisadas en tes navigatur che porschan funcziunalidad sco reconuscher tai tar "
-#~ "tia proxima visita."
+#~ "Per utilisar in conto da Firefox stos ti activar ils cookies en tes navigatur. Cookies èn pitschnsa parts da datas memorisadas en tes navigatur che porschan funcziunalidad sco reconuscher tai "
+#~ "tar tia proxima visita."
 
 #~ msgid "Firefox is coming soon to iOS!"
 #~ msgstr "Firefox vegn prest per iOS!"
@@ -3331,10 +3342,12 @@ msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Has gia in conto? S'annunzia."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
-#~ "Cun cuntinuar acceptesch jau il <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Contract da licenza</a> las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Directivas per protecziun"
-#~ " da datas</a> dals servetschs da cloud da Firefox."
+#~ "Cun cuntinuar acceptesch jau il <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Contract da licenza</a> las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Directivas per "
+#~ "protecziun da datas</a> dals servetschs da cloud da Firefox."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Abunar novitads e tips davart Firefox"

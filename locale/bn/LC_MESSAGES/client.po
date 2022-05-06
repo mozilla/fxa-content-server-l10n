@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-28 22:07+0000\n"
+"POT-Creation-Date: 2022-05-05 22:07+0000\n"
 "PO-Revision-Date: 2022-05-03 06:46+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -839,8 +839,11 @@ msgid "Invalid Token"
 msgstr "অবৈধ টোকেন"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "এটা দ্বারা, আপনি %(serviceName)s (%(serviceUri)s) এর <a id=\"service-tos\" href=\"%(termsUri)s\">সেবার শর্তাবলী</a> এবং<a id=\"service-pp\" href=\"%(privacyUri)s\">গোপনীয়তা নোটিশ</a> এ সম্মত হবেন।"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"এটা দ্বারা, আপনি %(serviceName)s (%(serviceUri)s) এর <a id=\"service-tos\" href=\"%(termsUri)s\">সেবার শর্তাবলী</a> এবং<a id=\"service-pp\" href=\"%(privacyUri)s\">গোপনীয়তা নোটিশ</a> এ সম্মত হবেন।"
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -909,7 +912,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Firefox Account এর নিয়ন্ত্রণ পুনরায় ফিরে পেতে দয়া করে আপনার এককালীন পুনরুদ্ধার কী টি প্রবেশ করুন যেটি আপনি নিরাপদ জায়্যগায় রেখেছিলেন।"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">নোটঃ</span> যদি আপনি আপনার পাসওয়ার্ড পরিবর্তন করেন এবং কোন পুনরুদ্ধার কী সংরক্ষণ না করেন, আপনার কিছু ডাটা মুছে যাবে (সার্ভারে সিঙ্ক করা ডাটাসহ যেমন ইতিহাস ও বুকমার্ক)।"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -2542,8 +2546,12 @@ msgstr "আপনি কি সিস্টেম ক্যামেরা ব�
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "কুকি এবং লোকাল স্টোরেজ আবশ্যক।"
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "এর দ্বারা, আপনি Firefox ক্লাউড সার্ভিসের <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">সেবার শর্তাবলী</a> এবং <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">গোপনীয়তা নোটিশে</a> একমত হবেন।"
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "এর দ্বারা, আপনি Firefox ক্লাউড সার্ভিসের <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">সেবার শর্তাবলী</a> এবং <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">গোপনীয়তা নোটিশে</a> "
+#~ "একমত হবেন।"
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox ক্লাউড সেবা"
@@ -2586,8 +2594,7 @@ msgstr "আপনি কি সিস্টেম ক্যামেরা ব�
 
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr ""
-#~ "SMS সেবা শুধুমাত্র যুক্তরাষ্ট্রের ফোন নম্বরের জন্যে দেওয়া হয়। SMS &amp; ডাটা রেট প্রযোজ্য হতে পারে। ইমেইল অথবা SMS এর গ্রহীতার সম্মতি থাকতে হবে। <a %(escapedLearnMoreAttributes)s>আরও জানুন</a>"
+#~ msgstr "SMS সেবা শুধুমাত্র যুক্তরাষ্ট্রের ফোন নম্বরের জন্যে দেওয়া হয়। SMS &amp; ডাটা রেট প্রযোজ্য হতে পারে। ইমেইল অথবা SMS এর গ্রহীতার সম্মতি থাকতে হবে। <a %(escapedLearnMoreAttributes)s>আরও জানুন</a>"
 
 #~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
 #~ msgstr "অ্যাপের লিংক %(escapedPhoneNumber)s নম্বরে পাঠানো হয়েছে। <a %(escapedBackLinkAttrs)s>ভুল নম্বর টাইপ করেছেন?</a>"
@@ -2596,18 +2603,18 @@ msgstr "আপনি কি সিস্টেম ক্যামেরা ব�
 #~ msgstr "কেন দুটি (অথাব আরো অনেক!) ডিভাইস সিঙ্ক করবেন?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "সিঙ্ক আপনাকে Firefox সহ কোন ডিভাইসে সংরক্ষিত বুকমার্ক, ইতিহাস এবং পাসওয়ার্ড অন্য ডিভাসে শেয়ার করার ব্যবস্থা করে। ফোন বা ট্যাবলেটে থাকা Firefox এ লগইন করুন, আপনার ডেস্কটপে থাকা Firefox এ সংরক্ষিত "
-#~ "সবকিছু আপনার সামনে উপস্থাপিত হবে।"
+#~ "সিঙ্ক আপনাকে Firefox সহ কোন ডিভাইসে সংরক্ষিত বুকমার্ক, ইতিহাস এবং পাসওয়ার্ড অন্য ডিভাসে শেয়ার করার ব্যবস্থা করে। ফোন বা ট্যাবলেটে থাকা Firefox এ লগইন করুন, আপনার ডেস্কটপে থাকা Firefox এ সংরক্ষিত সবকিছু আপনার "
+#~ "সামনে উপস্থাপিত হবে।"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "সিঙ্ক কোন স্থায়ী ব্যাকআপ ব্যবস্থা নয় – এটি শুধুমাত্র শেয়ার করতে দেয় যা লোকালী সংরক্ষিত রয়েছে। যদি আপনি পাসওয়ার্ড রিসেট করেন এবং আপনার ডাটা অন্তত একটি ডিভাইসে সংরক্ষিত না থাকে, আপনার পুরাতন পাসওয়ার্ড"
-#~ " সংশ্লিষ্ট সকল তথ্য হাড়িয়ে ফেলতে পারেন। এ কারনে আপনি Firefox ইন্সটল করতে চাইবেন এবং একাধিন অন্য ডিভাইসে সিঙ্ক ব্যবহার করবেন।"
+#~ "সিঙ্ক কোন স্থায়ী ব্যাকআপ ব্যবস্থা নয় – এটি শুধুমাত্র শেয়ার করতে দেয় যা লোকালী সংরক্ষিত রয়েছে। যদি আপনি পাসওয়ার্ড রিসেট করেন এবং আপনার ডাটা অন্তত একটি ডিভাইসে সংরক্ষিত না থাকে, আপনার পুরাতন পাসওয়ার্ড সংশ্লিষ্ট "
+#~ "সকল তথ্য হাড়িয়ে ফেলতে পারেন। এ কারনে আপনি Firefox ইন্সটল করতে চাইবেন এবং একাধিন অন্য ডিভাইসে সিঙ্ক ব্যবহার করবেন।"
 
 #~ msgid "Gravatar"
 #~ msgstr "গ্রাভাটার"
@@ -2737,16 +2744,19 @@ msgstr "আপনি কি সিস্টেম ক্যামেরা ব�
 #~ msgid "Sync preferences"
 #~ msgstr "সিঙ্ক পছন্দসমূহ"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "Firefox সিঙ্ক খুঁজছেন? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">এখান থেকে শুরু করুন</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "অন্য ইমেইল দিয়ে অ্যাকাউন্ট আছে? <a href=\"%(signinUri)s\">সাইন ইন করুন</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "<a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> এবং <a href=\"%(linkLinux)s\">Linux</a> এর জন্য Firefox পাবেন।"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "<a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> এবং <a href=\"%(linkLinux)s\">Linux</a> এর জন্য "
+#~ "Firefox পাবেন।"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "সর্বশেষ সক্রিয়: %(translatedTimeAgo)s"
@@ -2966,8 +2976,12 @@ msgstr "আপনি কি সিস্টেম ক্যামেরা ব�
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "ইতিমধ্যেই একটি একাউন্ট আছে? সাইন ইন"
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "অগ্রসর হবার মাধ্যমে আমি ফায়ারফক্স ক্লাউড সেবার <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">সেবা শর্ত</a> এবং <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">গোপনীয়তা নীতিমালায়</a> সম্মতি দিচ্ছি।"
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "অগ্রসর হবার মাধ্যমে আমি ফায়ারফক্স ক্লাউড সেবার <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">সেবা শর্ত</a> এবং <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">গোপনীয়তা নীতিমালায়</"
+#~ "a> সম্মতি দিচ্ছি।"
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "ফায়ারফক্স এর খবর ও টিপস-এ সাবস্ক্রাইভ করুন"
