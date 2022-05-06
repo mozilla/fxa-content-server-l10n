@@ -216,8 +216,7 @@ la-description = Sie haben den Zugriff auf folgende Konten genehmigt.
 la-unlink-button = Verknüpfung aufheben
 la-unlink-account-button = Verknüpfung aufheben
 la-unlink-heading = Verknüpfung zu Drittanbieterkonto entfernen
-la-unlink-content = Möchten Sie die Verknüpfung Ihres { -brand-google }-Kontos wirklich aufheben? Durch das Aufheben der Verknüpfung Ihres Kontos werden Sie nicht automatisch von diesen Diensten abgemeldet. Dazu müssen Sie sich manuell im Abschnitt „Verbundene Dienste“ abmelden.
-la-unlink-content-2 = Möchten Sie die Verknüpfung Ihres Kontos wirklich aufheben? Durch das Aufheben der Verknüpfung Ihres Kontos werden Sie nicht automatisch von diesen Diensten abgemeldet. Dazu müssen Sie sich manuell im Abschnitt „Verbundene Dienste“ abmelden.
+la-unlink-content-3 = Möchten Sie die Verknüpfung Ihres Kontos wirklich aufheben? Durch das Aufheben der Verknüpfung Ihres Kontos werden Sie nicht automatisch von Ihren Verbundenen Diensten abgemeldet. Dazu müssen Sie sich manuell im Abschnitt „Verbundene Dienste“ abmelden.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -324,8 +323,8 @@ delete-account-step-1-2 = Schritt 1 von 2
 delete-account-step-2-2 = Schritt 2 von 2
 delete-account-confirm-title-2 = Sie haben Ihr{ -product-firefox-account } mit { -brand-mozilla }-Produkten verbunden, mit denen Sie im Web sicher und produktiv sind:
 delete-account-acknowledge = Bitte bestätigen Sie, dass durch Löschung Ihres Kontos:
-delete-account-chk-box-1-v2 =
-    .label = Sämtliche bezahlten Abonnements werden gekündigt (ausgenommen { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Alle bezahlten Abonnements, die Sie haben, werden gekündigt
 delete-account-chk-box-2 =
     .label = Sie gespeicherte Daten und Funktionen in { -brand-mozilla }-Produkten verlieren könnten
 delete-account-chk-box-3 =
