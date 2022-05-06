@@ -208,8 +208,7 @@ la-description = Hai autorizzato l’accesso ai seguenti account.
 la-unlink-button = Scollega
 la-unlink-account-button = Scollega
 la-unlink-heading = Scollega da account di terze parti
-la-unlink-content = Sei sicuro di voler scollegare il tuo account { -brand-google }? Scollegando il tuo account non verrai disconnesso automaticamente da tali servizi. Per farlo dovrai disconnetterti manualmente dalla sezione Servizi connessi.
-la-unlink-content-2 = Sei sicuro di voler scollegare il tuo account? Scollegando il tuo account non verrai disconnesso automaticamente da tali servizi. Per farlo dovrai disconnetterti manualmente dalla sezione Servizi connessi.
+la-unlink-content-3 = Sei sicuro di voler scollegare il tuo account? Scollegando il tuo account non verrai disconnesso automaticamente dai servizi attualmente connessi. Per farlo dovrai disconnetterti manualmente dalla sezione Servizi connessi.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -313,8 +312,8 @@ delete-account-step-1-2 = Passaggio 1 di 2
 delete-account-step-2-2 = Passaggio 2 di 2
 delete-account-confirm-title-2 = Hai connesso il tuo { -product-firefox-account } a prodotti { -brand-mozilla } che rendono la tua esperienza web sicura e produttiva:
 delete-account-acknowledge = Cancellando il tuo account riconosci che:
-delete-account-chk-box-1-v2 =
-    .label = Tutti i tuoi abbonamenti a pagamento verranno annullati (tranne { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Eventuali abbonamenti a pagamento saranno annullati
 delete-account-chk-box-2 =
     .label = Potresti perdere alcuni dati e funzionalità che fanno parte dei prodotti { -brand-mozilla }
 delete-account-chk-box-3 =
