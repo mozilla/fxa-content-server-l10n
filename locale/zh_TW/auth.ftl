@@ -83,7 +83,7 @@ automated-email-reset = 這是由系統自動發出的郵件，若您並未授�
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = 若您沒有要求變更，請立即到 { $resetLink } 重設密碼。
-cancellationSurvey = 請填寫這份<a data-l10n-name="cancellationSurveyUrl")s>簡短問卷</a>幫助我們改善服務品質。
+cancellationSurvey = 請填寫這份<a data-l10n-name="cancellationSurveyUrl">簡短問卷</a>幫助我們改善服務品質。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = 請填寫這份簡短問卷幫助我們改善服務品質：
 change-password-plaintext = 若您覺得有人在嘗試盜用您的帳號，請修改密碼。

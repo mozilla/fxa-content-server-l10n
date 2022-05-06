@@ -80,7 +80,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = 비밀번호를 변경하지 않으셨다면 지금 { $resetLink }에서 비밀번호를 재설정하세요.
-cancellationSurvey = 간단한 <a data-l10n-name="cancellationSurveyUrl")s>설문 조사</a>에 참여하여, 서비스 개선에 도움을 주세요.
+cancellationSurvey = 간단한 <a data-l10n-name="cancellationSurveyUrl">설문 조사</a>에 참여하여, 서비스 개선에 도움을 주세요.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = 이 짧은 설문조사에 참여하셔서 서비스 개선에 도움을 주십시오.
 change-password-plaintext = 만약 누군가가 당신의 계정에 접근 시도를 했다고 의심이 된다면, 비밀번호를 변경해주세요.

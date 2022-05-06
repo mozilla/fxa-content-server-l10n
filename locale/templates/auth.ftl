@@ -97,7 +97,7 @@ automated-email-reset = This is an automated email; if you did not authorize thi
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = If you did not change it, please reset your password now at { $resetLink }
 
-cancellationSurvey = Please help us improve our services by taking this <a data-l10n-name="cancellationSurveyUrl")s>short survey</a>.
+cancellationSurvey = Please help us improve our services by taking this <a data-l10n-name="cancellationSurveyUrl">short survey</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Please help us improve our services by taking this short survey:
 

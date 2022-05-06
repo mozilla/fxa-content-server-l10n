@@ -89,7 +89,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = 変更した覚えがない場合は、今すぐ { $resetLink } でパスワードをリセットしてください。
-cancellationSurvey = この <a data-l10n-name="cancellationSurveyUrl")s>簡単なアンケート</a> に回答して、サービスの改善にご協力ください。
+cancellationSurvey = この <a data-l10n-name="cancellationSurveyUrl">簡単なアンケート</a> に回答して、サービスの改善にご協力ください。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = この簡単なアンケートに回答して、サービスの改善にご協力ください。
 change-password-plaintext = もし誰かがあなたのアカウントへアクセスしようとしていると思われる場合は、パスワードを変更してください。
