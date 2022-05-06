@@ -323,6 +323,12 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = { $productName } のサブスクリプションがキャンセルされました
 subscriptionCancellation-title = ご利用ありがとうございました
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = { $productName } のサブスクリプションがキャンセルされました。 { $invoiceTotal } の最後のお支払いは { $invoiceDateOnly } に引き落とされました。サービスは現在の請求期間の終了日 { $serviceLastActiveDateOnly } まで継続されます。
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = { $productName } に切り替えました
