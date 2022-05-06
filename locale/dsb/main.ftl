@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Firefox Accounts
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox Accounts
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Modalnje zacyniś
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Powšykna nałožeńska zmólka
 basic-error-message = Něco jo se mimo kuliło. Pšosym wopytajśo pózdźej hyšći raz.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Zda se, ako njeby waša debitna kórta za płaśen
 duplicate-transaction = Hmm. Zda se, ako by se identiska transakcija rowno pósłała. Pśeglědujśo swóju historiju płaśenjow.
 coupon-expired = Zda se, ako by promokod spadnuł.
 card-error = Waša transakcija njedajo se pśeźěłowaś. Pśeglědujśo pšosym informacije swójeje kreditoweje kórty a wopytajśo hyšći raz.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Systemowa zmólka jo zawinowała, až wašo registrěrowanje za { $productName } njejo raźiło. Waša płaśeńska metoda njejo se wobśěžyła. Wopytajśo pšosym hyšći raz.
 newsletter-signup-error = Njejsćo se registrěrował za mejlki wó produktowych aktualizacijach . Móžośo to w swójich kontowych nastajenjach hyšći raz wopytaś.
 fxa-post-passwordless-sub-error = Abonement jo wobkšuśony, ale wobkšuśeński bok njedajo se zacytaś. Pšosym pśeglědujśo swóje mejlki, aby swójo konto konfigurěrował.
 
-## settings
+## Settings
 
 settings-home = Startowy bok konta
 settings-subscriptions-title = Abonementy
 
-## legal footer
+## Legal footer
 
 terms = Wužywańske wuměnjenja
 privacy = Powěźeńka priwatnosći
@@ -75,10 +73,10 @@ subscription-error-title = Zmólka pśi wobkšuśenju abonementa…
 subscription-noplanchange-title = Toś ta změna abonementowego plana se njepódpěra
 subscription-iapsubscribed-title = Južo aboněrowany
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } se kuždy źeń z { $amount } woblicujo
@@ -86,7 +84,7 @@ day-based-plan-details-amount =
         [few] { $productName } se kužde { $intervalCount } dny z { $amount } woblicujo
        *[other] { $productName } se kužde { $intervalCount } dnjow z { $amount } woblicujo
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } se kuždy tyźeń z { $amount } woblicujo
@@ -94,7 +92,7 @@ week-based-plan-details-amount =
         [few] { $productName } se kužde { $intervalCount } tyźenje z { $amount } woblicujo
        *[other] { $productName } se kužde { $intervalCount } tyźenjow z { $amount } woblicujo
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } se kuždy mjasec z { $amount } woblicujo
@@ -102,7 +100,7 @@ month-based-plan-details-amount =
         [few] { $productName } se kužde { $intervalCount } mjasece z { $amount } woblicujo
        *[other] { $productName } se kužde { $intervalCount } mjasecow z { $amount } woblicujo
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } se kužde lěto z { $amount } woblicujo
@@ -122,7 +120,7 @@ product-customer-error =
 product-plan-not-found = Plan njejo se namakał
 product-no-such-plan = Žeden plan za toś ten produkt.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } { -brand-name-stripe } a { -brand-name-paypal } za wěste pśeźěłowanje płaśenjow wužywa.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>Pšawidła priwatnosći { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>pšawidła priwatnosći { -brand-name-paypal }</paypalPrivacyLink>.
@@ -131,7 +129,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } Pšawid�
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } { -brand-name-stripe } za wěste pśeźěłowanje płaśenjow wužywa.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Pšawidła priwatnosći { -brand-name-stripe }</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Dopołne mě
@@ -157,7 +155,7 @@ payment-confirm-with-legal-links-day =
         [few] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } dny z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
        *[other] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } dnjow z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kuždy tyzeń z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
@@ -165,7 +163,7 @@ payment-confirm-with-legal-links-week =
         [few] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } tyźenje z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
        *[other] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } tyźenjow z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kuždy mjasec z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
@@ -173,7 +171,7 @@ payment-confirm-with-legal-links-month =
         [few] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } mjasece z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
        *[other] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde { $intervalCount } mjasecow z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Awtorizěrujom { -brand-name-mozilla }, zgótowarja produktow { -brand-name-firefox }, pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu <strong>kužde lěto z { $amount }</strong> wobśěžyś, daniž swój abonement njewupowěźejom.
@@ -193,18 +191,18 @@ payment-validate-name-error = Pšosym zapódajśo swójo mě
 payment-validate-zip-required = Postowa licba jo trjebna
 payment-validate-zip-short = Postowa licba jo pśekrotka
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Waš abonement jo gótowy
 sub-redirect-copy = Pšosym bjeŕśo se wokognuśo cas, aby nam swóje nazgónjenja k wěsći dał.
 sub-redirect-skip-survey = Ně, źěkujom se, cu jano k swójomu produktoju.
 
-## fields
+## Fields
 
 default-input-error = Toś to pólo jo trjebne
 input-error-is-required = { $label } jo trjebne
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Pśeglědujśo swóju změnu
 sub-change-failed = Njejo se raźiło, plan změniś
@@ -224,10 +222,10 @@ sub-update-current-plan-label = Aktualny plan
 sub-update-new-plan-label = Nowy plan
 sub-update-total-label = Nowa suma
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } kuždy źeń
@@ -235,7 +233,7 @@ plan-price-day =
         [few] { $amount } kužde { $intervalCount } dny
        *[other] { $amount } kužde { $intervalCount } dnjow
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } kuždy tyźeń
@@ -243,7 +241,7 @@ plan-price-week =
         [few] { $amount } kudźe { $intervalCount } tyźenje
        *[other] { $amount } kužde { $intervalCount } tyźenjow
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } kuždy mjasec
@@ -251,7 +249,7 @@ plan-price-month =
         [few] { $amount } kužde { $intervalCount } mjasece
        *[other] { $amount } kužde { $intervalCount } mjasecow
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } kužde lěto
@@ -260,7 +258,7 @@ plan-price-year =
        *[other] { $amount } kužde { $intervalCount } lět
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -326,14 +324,14 @@ reactivate-confirm-without-payment-method-copy =
     buźo { $endDate } { $amount }.
 reactivate-confirm-button = Abonement wótnowiś
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Sćo wupowěźeł { $date } swój abonement.
 reactivate-panel-copy = Zgubijośo <strong>{ $date }</strong> pśistup k { $name }.
 reactivate-success-copy = Wjeliki źěk! Sćo gótowy za start.
 reactivate-success-button = Zacyniś
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -351,14 +349,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Naslědna zliceńka njejo se namakała
 sub-item-no-such-subsequent-invoice = Naslědna zliceńka njejo se namakała za toś ten abonement.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Kup w nałoženju
 sub-iap-item-apple-purchase = { -brand-name-apple }: Kup w nałoženju
 sub-iap-item-manage-button = Zastojaś
 account-activated = Wašo konto jo zmóžnjone, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Wótliceńske informacije se aktualizěruju…
 sub-route-idx-reactivating = Zasejaktiwěrowanje abonementa jo se mimo kuliło
@@ -385,14 +383,14 @@ sub-route-missing-billing-agreement-payment-alert = Njepłaśiwe płaśeńske in
 sub-route-funding-source-payment-alert = Njepłaśiwe płaśeńske informacije; dajo zmólku z wašym kontom. Toś to warnowanje pitśu casa trjeba, aby se zgubiło, za tym až sćo wuspěšnje zaktualizěrował swóje informacije. <div>Zastojaś</div>
 pay-update-manage-btn = Zastojaś
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30-dnjowna garantija slědkdaśa pjenjez
 pay-with-heading-other = Płaśeńsku móžnosć wubraś
 pay-with-heading-card-or = Abo płaśćo z kórtu
 pay-with-heading-card-only = Z kórtu płaśiś
 
-## plan-details
+## Plan details
 
 plan-details-header = Produktowe drobnostki
 plan-details-show-button = Drobnostki pokazaś
@@ -400,7 +398,7 @@ plan-details-hide-button = Drobnostki schowaś
 plan-details-total-label = Dogromady
 plan-details-list-price = Lisćinowa płaśizna
 
-## coupons
+## Coupons
 
 coupon-discount = Rabat
 coupon-discount-applied = Rabatowa premija jo se nałožyła
@@ -417,17 +415,17 @@ coupon-success-repeating = Waš plan se pó { $couponDurationDate } za lisćinow
 coupon-enter-code =
     .placeholder = Kod zapódaś
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Pšosym cakajśo, mjaztym až wašo płaśenje pśeźěłujomy…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Klikniśo how, aby ześěgnuł
 payment-confirmation-mobile-alert = Nałoženje se njewócynja? <a>Klikniśo how</a>
 payment-confirmation-thanks-heading = Wjeliki źěk!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -480,7 +478,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Dalej k ześěgnjenjeju
 payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last4 } kóńcy
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Maśo južo konto { -brand-name-firefox }? <a>Pśizjawiś</a>
 new-user-step-1 = 1. Załožćo konto { -brand-name-firefox }
@@ -500,7 +498,7 @@ new-user-already-has-account-sign-in = Maśo južo konto. <a>Pśizjawiś</a>
 new-user-card-title = Zapodajśo swóje kórtowe informacije
 new-user-submit = Něnto aboněrowaś
 manage-pocket-title = Pytaśo za premiumowym abonementom { -brand-name-pocket }?
-manage-pocket-body = <a>Klikniśo how</a>, aby zastojał.
+manage-pocket-body-2 = <linkExternal>Klikniśo how</linkExternal>, aby to zastojał.
 payment-method-header = Wubjeŕśo swóju płaśeńsku metodu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }

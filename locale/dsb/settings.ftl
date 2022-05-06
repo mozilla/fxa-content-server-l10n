@@ -218,8 +218,7 @@ la-description = Smy awtorizěrowali pśistup k slědujucym kontam.
 la-unlink-button = Zwisk źěliś
 la-unlink-account-button = Zwisk źěliś
 la-unlink-heading = Wót konta tśeśego póbitowarja źěliś
-la-unlink-content = Cośo napšawdu zwisk ze swójim kontom { -brand-google } źěliś? Gaž zwisk ze swójim kontom źěliśo, njewótzjawijośo se awtomatiski wót tych słužbow. Aby to cynił, musyśo se manuelnje wót wótrězka zwězanych słužbow wótzjawiś.
-la-unlink-content-2 = Cośo napšawdu zwisk ze swójim kontom źěliś? Gaž zwisk ze swójim kontom źěliśo, njewótzjawijośo se awtomatiski wót tych słužbow. Aby to cynił, musyśo se manuelnje wót wótrězka zwězanych słužbow wótzjawiś.
+la-unlink-content-3 = Cośo napšawdu zwisk ze swójim kontom źěliś? Gaž zwisk ze swójim kontom źěliśo, njewótzjawijośo se awtomatiski wót swójich zwězanych słužbow. Aby to cynił, musyśo se manuelnje wót wótrězka zwězanych słužbow wótzjawiś.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -326,8 +325,8 @@ delete-account-step-1-2 = Kšac 1 z 2
 delete-account-step-2-2 = Kšac 2 z 2
 delete-account-confirm-title-2 = Sćo zwězał swójo konto { -product-firefox-account } z produktami { -brand-mozilla }, kótarež was wěsty a produktiwny we webje źaržy:
 delete-account-acknowledge = Pšosym lašujśo swójo konto, aby to wobkšuśił:
-delete-account-chk-box-1-v2 =
-    .label = Někotare z wašych abonementow se anulěruju (mimo { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Wšykne zapłaśone abonementy, kótarež maśo, se wupowěźiju
 delete-account-chk-box-2 =
     .label = Móžośo skłaźone informacije a funkcije produktow { -brand-mozilla } zgubiś
 delete-account-chk-box-3 =
