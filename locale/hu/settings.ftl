@@ -216,8 +216,7 @@ la-description = A következő fiókokhoz való hozzáférést engedélyezte.
 la-unlink-button = Leválasztás
 la-unlink-account-button = Leválasztás
 la-unlink-heading = Leválasztás egy harmadik féltől származó fiókról
-la-unlink-content = Biztos, hogy leválasztja a { -brand-google }-fiókját? A fiók leválasztásával nem jelentkezik ki automatikusan ezekből a szolgáltatásokból. Ehhez kézileg kell kijelentkeznie a Csatlakoztatott szolgáltatások szakaszban.
-la-unlink-content-2 = Biztos, hogy leválasztja a fiókját? A fiók leválasztásával nem jelentkezik ki automatikusan ezekből a szolgáltatásokból. Ehhez kézileg kell kijelentkeznie a Csatlakoztatott szolgáltatások szakaszban.
+la-unlink-content-3 = Biztos, hogy leválasztja a fiókját? A fiók leválasztásával nem jelentkezik ki automatikusan a kapcsolódó szolgáltatásokból. Ehhez kézileg kell kijelentkeznie a Kapcsolódó szolgáltatások szakaszban.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -324,8 +323,8 @@ delete-account-step-1-2 = 1. / 2. lépés
 delete-account-step-2-2 = 2. / 2. lépés
 delete-account-confirm-title-2 = Összekapcsolta a { -product-firefox-account }ját a { -brand-mozilla } termékekkel, így nagyobb biztonságban lehet, és hatékonyabb lehet a weben:
 delete-account-acknowledge = Erősítse meg ezt a fiókja a törlésével:
-delete-account-chk-box-1-v2 =
-    .label = Minden fizetős előfizetését törölni fogjuk (kivéve a { product-pocket }et)
+delete-account-chk-box-1-v3 =
+    .label = Az összes előfizetése lemondásra kerül
 delete-account-chk-box-2 =
     .label = Elveszítheti a { -brand-mozilla } termékekben elmentett információkat és szolgáltatásokat
 delete-account-chk-box-3 =

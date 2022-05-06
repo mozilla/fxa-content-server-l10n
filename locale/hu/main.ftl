@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox-fiókok
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Firefox-fiókok
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Áruház
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox-fiókok
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Felugró ablak bezárása
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Általános alkalmazáshiba
 basic-error-message = Hiba történt, próbálja újra később.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Úgy tűnik, hogy a bankkártyája nincs beállít
 duplicate-transaction = Hmm. Úgy tűnik, hogy egy azonos tranzakció lett elküldve. Ellenőrizze a fizetési előzményeket.
 coupon-expired = Úgy tűnik, hogy a promóciós kód lejárt.
 card-error = A tranzakció nem dolgozható fel. Ellenőrizze a bankkártyaadatait, és próbálja újra.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Rendszerhiba miatt a(z) { $productName } regisztrációja sikertelen volt. A fizetési módja nem lett megterhelve. Próbálja újra.
 newsletter-signup-error = Nem regisztrált a termékhíreket tartalmazó e-mailekre. Megpróbálhatja újra a fiókbeállításokban.
 fxa-post-passwordless-sub-error = Az előfizetés megerősítve, de a megerősítő oldal betöltése nem sikerült. Ellenőrizze az e-mail-címét a fiók beállításához.
 
-## settings
+## Settings
 
 settings-home = Fiók kezdőlapja
 settings-subscriptions-title = Előfizetések
 
-## legal footer
+## Legal footer
 
 terms = A szolgáltatás feltételei
 privacy = Adatvédelmi nyilatkozat
@@ -75,28 +73,28 @@ subscription-error-title = Hiba a feliratkozás megerősítésekor…
 subscription-noplanchange-title = Az előfizetési csomag ezen módosítása nem támogatott
 subscription-iapsubscribed-title = Már előfizető
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName }, naponta { $amount } számlázva
        *[other] { $productName }, { $intervalCount } naponta { $amount } számlázva
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName }, hetente { $amount } számlázva
        *[other] { $productName }, { $intervalCount } hetente { $amount } számlázva
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName }, havonta { $amount } számlázva
        *[other] { $productName }, { $intervalCount } havonta { $amount } számlázva
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName }, évente { $amount } számlázva
@@ -114,7 +112,7 @@ product-customer-error =
 product-plan-not-found = Az előfizetés nem található
 product-no-such-plan = Nincs ilyen előfizetés ehhez a termékhez.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = A { -brand-name-mozilla } a { -brand-name-stripe }-ot és a { -brand-name-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink> &nbsp; <paypalPrivacyLink>A { -brand-name-paypal } adatvédemi irányelvei</paypalPrivacyLink>.
@@ -123,7 +121,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>A { -brand-name-paypal } adatv�
 payment-legal-copy-stripe-2 = A { -brand-name-mozilla } a { -brand-name-stripe }-ot használja a biztonságos fizetésfeldolgozáshoz.
 payment-legal-link-stripe-3 = <stripePrivacyLink>A { -brand-name-stripe } adatvédelmi irányelvei</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Teljes név
@@ -147,19 +145,19 @@ payment-confirm-with-legal-links-day =
         [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy naponta <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
        *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy { $intervalCount } naponta <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy hetente <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
        *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy { $intervalCount } hetente <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy havonta <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
        *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy { $intervalCount } havonta <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy évente <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
@@ -177,18 +175,18 @@ payment-validate-name-error = Adja meg a nevét
 payment-validate-zip-required = Irányítószám szükséges
 payment-validate-zip-short = Az irányítószám túl rövid
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Az előfizetése kész
 sub-redirect-copy = Szánjon rá egy percet, és mondja el nekünk tapasztalatait.
 sub-redirect-skip-survey = Köszönöm, nem, csak vigyen a termékemhez.
 
-## fields
+## Fields
 
 default-input-error = Ez a mező kötelező
 input-error-is-required = { $label } szükséges
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Módosítás áttekintése
 sub-change-failed = Az előfizetés módosítása sikertelen
@@ -208,35 +206,35 @@ sub-update-current-plan-label = Jelenlegi előfizetés
 sub-update-new-plan-label = Új előfizetés
 sub-update-total-label = Új összeg
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } naponta
        *[other] { $amount } { $intervalCount } naponta
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } hetente
        *[other] { $amount } { $intervalCount } hetente
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } havonta
        *[other] { $amount } { $intervalCount } havonta
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } évente
        *[other] { $amount } { $intervalCount } évente
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -294,14 +292,14 @@ reactivate-confirm-without-payment-method-copy =
     terhelése { $amount } lesz, ekkor: { $endDate }.
 reactivate-confirm-button = Előfizetés újra
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Lemondta előfizetését ekkor: { $date }.
 reactivate-panel-copy = El fogja veszíteni a hozzáférését a(z) { $name } termékhez, ekkor: <strong>{ $date }</strong>.
 reactivate-success-copy = Köszönjük! Minden készen állsz.
 reactivate-success-button = Bezárás
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -319,14 +317,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Későbbi számla nem található
 sub-item-no-such-subsequent-invoice = Későbbi számlák nem találhatók ehhez az előfizetéshez.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: alkalmazáson belüli vásárlás
 sub-iap-item-apple-purchase = { -brand-name-apple }: alkalmazáson belüli vásárlás
 sub-iap-item-manage-button = Kezelés
 account-activated = A fiókja aktiválva van, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Számlázási információk frissítése…
 sub-route-idx-reactivating = Az előfizetés újraaktiválása sikertelen
@@ -353,14 +351,14 @@ sub-route-missing-billing-agreement-payment-alert = Érvénytelen fizetési info
 sub-route-funding-source-payment-alert = Érvénytelen fizetési információk; hiba van a fiókjában. Az értesítés törlése eltarthat egy ideig az adatok sikeres frissítése után. <div>Kezelés</div>
 pay-update-manage-btn = Kezelés
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30 napos pénzvisszafizetési garancia
 pay-with-heading-other = Válasszon fizetési lehetőséget
 pay-with-heading-card-or = Vagy fizessen kártyával
 pay-with-heading-card-only = Fizessen kártyával
 
-## plan-details
+## Plan details
 
 plan-details-header = Termék részletei
 plan-details-show-button = Részletek megjelenítése
@@ -368,7 +366,7 @@ plan-details-hide-button = Részletek elrejtése
 plan-details-total-label = Összesen
 plan-details-list-price = Listaár
 
-## coupons
+## Coupons
 
 coupon-discount = Kedvezmény
 coupon-discount-applied = Kedvezményes jutalom alkalmazva
@@ -385,17 +383,17 @@ coupon-success-repeating = A csomag { $couponDurationDate } után automatikusan 
 coupon-enter-code =
     .placeholder = Adja meg a kódot
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Várjon, amíg feldolgozzuk a fizetését…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Kattintson ide a letöltéshez
 payment-confirmation-mobile-alert = Nem nyitotta meg az alkalmazást? <a>Kattintson ide</a>
 payment-confirmation-thanks-heading = Köszönjük!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -440,7 +438,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Tovább a letöltéshez
 payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Már van { -brand-name-firefox }-fiókja? <a>Jelentkezzen be</a>
 new-user-step-1 = 1. Hozzon létre egy { -brand-name-firefox }-fiókot
@@ -460,7 +458,7 @@ new-user-already-has-account-sign-in = Már van felhasználói fiókja. <a>Jelen
 new-user-card-title = Adja meg a kártyaadatait
 new-user-submit = Előfizetés most
 manage-pocket-title = A { -brand-name-pocket } prémium előfizetését keresi?
-manage-pocket-body = A kezeléséhez <a>kattintson ide</a>.
+manage-pocket-body-2 = A kezeléséhez <linkExternal>kattintson ide</linkExternal>.
 payment-method-header = Válassza ki a fizetési módot
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
