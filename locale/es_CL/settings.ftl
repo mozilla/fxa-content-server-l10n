@@ -216,8 +216,7 @@ la-description = Tienes acceso autorizado a las siguientes cuentas.
 la-unlink-button = Desvincular
 la-unlink-account-button = Desvincular
 la-unlink-heading = Desvincular de cuenta de terceros
-la-unlink-content = ¿De verdad quieres desvincular tu cuenta de { -brand-google }? Desvincular tu cuenta no te desconectará automáticamente de esos servicios. Para hacerlo, deberás cerrar sesión manualmente en la sección Servicios conectados.
-la-unlink-content-2 = ¿De verdad quieres desvincular tu cuenta? Desvincular tu cuenta no te desconectará automáticamente de esos servicios. Para hacerlo, deberás cerrar sesión manualmente en la sección Servicios conectados.
+la-unlink-content-3 = ¿De verdad quieres desvincular tu cuenta? Desvincular tu cuenta no te desconectará automáticamente de tus Servicios Conectados. Para hacerlo, deberás cerrar sesión manualmente en la sección Servicios Conectados.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -324,8 +323,8 @@ delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
 delete-account-confirm-title-2 = Has conectado tu { -product-firefox-account } a los productos { -brand-mozilla } lo que te mantiene seguro y productivo en la web:
 delete-account-acknowledge = Por favor, ten en cuenta que al eliminar tu cuenta:
-delete-account-chk-box-1-v2 =
-    .label = Cualquier suscripción de pago que tengas será cancelada (excepto { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Toda suscripción de paga que tengas será cancelada
 delete-account-chk-box-2 =
     .label = Podrías perder tu información guardada y otras funcionalidades dentro de los productos de { -brand-mozilla }
 delete-account-chk-box-3 =
