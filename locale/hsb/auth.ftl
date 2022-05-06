@@ -89,7 +89,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Jeli njejsće jo změnił, stajće prošu nětko swoje hesło na { $resetLink } wróćo
-cancellationSurvey = Prošu wobdźělće so na tutym <a data-l10n-name="cancellationSurveyUrl")s>krótkim naprašowanju</a>, zo byšće nam pomhał, naše słužby polěpšić.
+cancellationSurvey = Prošu wobdźělće so na tutym <a data-l10n-name="cancellationSurveyUrl">krótkim naprašowanju</a>, zo byšće nam pomhał, naše słužby polěpšić.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Prošu wobdźělće so na tutym krótkim naprašowanju, zo byšće nam pomhał, naše słužby polěpšić:
 change-password-plaintext = Jeli měniće, zo něchtó pospytuje, přistup k wašemu kontu dóstać, prošu změńće swoje hesło.

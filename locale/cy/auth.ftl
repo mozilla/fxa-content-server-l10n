@@ -89,7 +89,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Os nad ydych wedi ei newid, cofiwch ailosod eich cyfrinair yn syth yn { $resetLink }
-cancellationSurvey = Helpwch ni i wella ein gwasanaethau trwy lanw'r <a a data-l10n-name="cancellationSurveyUrl")s>arolwg byr</a> hwn.
+cancellationSurvey = Helpwch ni i wella ein gwasanaethau trwy lanw'r <a a data-l10n-name="cancellationSurveyUrl">arolwg byr</a> hwn.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Helpwch ni i wella ein gwasanaethau trwy lanw’r arolwg byr hwn:
 change-password-plaintext = Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, newidiwch eich cyfrinair.

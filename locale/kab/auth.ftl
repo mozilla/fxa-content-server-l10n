@@ -80,7 +80,7 @@ automated-email-not-authorized-plaintext = Wagi d imayl awurman; ma yella ur tes
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Ma ur tbeddleḍ ara, ma ulac aɣilif ales awennez n wawal uffir inek tura deg { $resetLink }
-cancellationSurvey = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg <a data-l10n-name="cancellationSurveyUrl")s>tefrant-a wezzilen</a>.
+cancellationSurvey = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg <a data-l10n-name="cancellationSurveyUrl">tefrant-a wezzilen</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ma ulac aɣilif, mudd-aɣ-d afus ad nesnerni imeẓla-nneɣ s uttekki deg tefrant-a wezzilen:
 change-password-plaintext = Ma tcukeḍ yella win yettawṛaḍen ad yekcem ɣer umiḍan inek, snifel awal inek uffir ma ulac aɣilif.
