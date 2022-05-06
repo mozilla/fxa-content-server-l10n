@@ -96,6 +96,8 @@ connect-another-app-store-image-2 =
 
 cs-heading = 接続済みサービス
 cs-description = ログインして利用中の端末やサービス
+cs-cannot-refresh = 申し訳ありませんが、接続されたサービスのリフレッシュ中に問題が発生しました。
+cs-cannot-disconnect = クライアントが見つからないため、切断できません
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
@@ -136,9 +138,18 @@ cs-sign-out-button = ログアウト
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = ダウンロード済み
+datablock-copy =
+    .message = コピー済み
+datablock-print =
+    .message = 印刷済み
 
 ## Data collection section
 
+dc-heading = データの収集と使用
+dc-subheader = { -product-firefox-accounts } の改善にご協力ください
+dc-learn-more = 詳細情報
 
 # DropDownAvatarMenu component
 
@@ -148,6 +159,7 @@ drop-down-menu-title = { -product-firefox-account } メニュー
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>ログイン済み</signin><user>{ $user }</user>
 drop-down-menu-sign-out = ログアウト
+drop-down-menu-sign-out-error = 申し訳ありませんが、ログアウト中に問題が発生しました。
 
 ## Flow Container
 
