@@ -212,8 +212,7 @@ la-description = Tu ha autorisate accesso al sequente contos.
 la-unlink-button = Disligar
 la-unlink-account-button = Disligar
 la-unlink-heading = Disligar ab conto de tertie parte
-la-unlink-content = Desira tu vermente disligar tu conto { -brand-google }? Disligante tu conto non tu non te disconnecte automaticamente de ille servicios. Pro facer lo tu debera manualmente clauder le connexion ab le section Servicios connexe.
-la-unlink-content-2 = Desira tu vermente disligar tu conto? Disligante tu conto non te disconnecte automaticamente de ille servicios. Pro facer lo tu debera manualmente clauder le connexion ab le section Servicios connexe.
+la-unlink-content-3 = Desira tu vermente disligar tu conto? Disligante tu conto non te disconnecte automaticamente de tu servicios connexe. Pro facer lo tu debera manualmente clauder le connexiones ab le section Servicios connexe.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -320,8 +319,8 @@ delete-account-step-1-2 = Passo 1de 2
 delete-account-step-2-2 = Passo 2 de 2
 delete-account-confirm-title-2 = Tu ha connectite tu { -product-firefox-account } al productos { -brand-mozilla } que te mantene secur e productive sur le web:
 delete-account-acknowledge = Per favor recognosce que per deler tu conto:
-delete-account-chk-box-1-v2 =
-    .label = Tote tu abonamentos a pagamento sera annullate (salvo { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Tote le subscriptiones pagate que tu ha essera cancellate
 delete-account-chk-box-2 =
     .label = Tu pote perder informationes salvate e functionalitates in le productos { -brand-mozilla }
 delete-account-chk-box-3 =
