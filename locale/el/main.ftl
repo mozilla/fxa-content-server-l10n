@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Λογαριασμός Firefox
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Λογαριασμός Firefox
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Λογαριασμός Firefox
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Κλείσιμο διαλόγου
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Γενικό σφάλμα εφαρμογής
 basic-error-message = Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά αργότερα.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Φαίνεται πως η χρεωστική σα
 duplicate-transaction = Φαίνεται πως μόλις απεστάλη μια πανομοιότυπη συναλλαγή. Ελέγξτε το ιστορικό πληρωμών σας.
 coupon-expired = Φαίνεται πως ο κωδικός της προωθητικής ενέργειας έχει λήξει.
 card-error = Δεν ήταν δυνατή η επεξεργασία της συναλλαγής σας. Παρακαλούμε επαληθεύστε τα στοιχεία της πιστωτικής σας κάρτας και δοκιμάστε ξανά.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Ένα σφάλμα συστήματος προκάλεσε την αποτυχία της εγγραφής σας στο { $productName }. Δεν έγινε χρέωση στον τρόπο πληρωμής σας. Παρακαλούμε δοκιμάστε ξανά.
 newsletter-signup-error = Δεν έχετε εγγραφεί για email ενημέρωσης προϊόντων. Μπορείτε να δοκιμάσετε ξανά στις ρυθμίσεις του λογαριασμού σας.
 fxa-post-passwordless-sub-error = Η συνδρομή επιβεβαιώθηκε, αλλά η φόρτωση της σελίδας επιβεβαίωσης απέτυχε. Παρακαλούμε ελέγξτε το email σας για να ρυθμίσετε τον λογαριασμό σας.
 
-## settings
+## Settings
 
 settings-home = Αρχική σελίδα λογαριασμού
 settings-subscriptions-title = Συνδρομές
 
-## legal footer
+## Legal footer
 
 terms = Όροι υπηρεσίας
 privacy = Σημείωση απορρήτου
@@ -75,28 +73,28 @@ subscription-error-title = Σφάλμα επιβεβαίωσης συνδρομ�
 subscription-noplanchange-title = Δεν υποστηρίζεται αυτή η αλλαγή πακέτου συνδρομής
 subscription-iapsubscribed-title = Έχετε ήδη εγγραφεί
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] Χρέωση { $amount } για το { $productName } ημερησίως
        *[other] Χρέωση { $amount } για το { $productName } κάθε { $intervalCount } ημέρες
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] Χρέωση { $amount } για το { $productName } εβδομαδιαία
        *[other] Χρέωση { $amount } για το { $productName } κάθε { $intervalCount } εβδομάδες
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] Χρέωση { $amount } για το { $productName } μηνιαία
        *[other] Χρέωση { $amount } για το { $productName } κάθε { $intervalCount } μήνες
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] Χρέωση { $amount } για το { $productName } ετησίως
@@ -114,7 +112,7 @@ product-customer-error =
 product-plan-not-found = Το πρόγραμμα δεν βρέθηκε
 product-no-such-plan = Δεν υπάρχει τέτοιο πρόγραμμα για αυτό το προϊόν.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = Η { -brand-name-mozilla } χρησιμοποιεί τα { -brand-name-stripe } και { -brand-name-paypal } για ασφαλή επεξεργασία των πληρωμών.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>Πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>πολιτική απορρήτου του { -brand-name-paypal }</paypalPrivacyLink>.
@@ -123,7 +121,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>Πολιτική απορρήτ
 payment-legal-copy-stripe-2 = Η { -brand-name-mozilla } χρησιμοποιεί το { -brand-name-stripe } για ασφαλή επεξεργασία των πληρωμών.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Πολιτική απορρήτου του { -brand-name-stripe }</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Πλήρες όνομα
@@ -147,19 +145,19 @@ payment-confirm-with-legal-links-day =
         [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου <strong>{ $amount } ημερησίως</strong>, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
        *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου <strong>{ $amount } κάθε { $intervalCount } ημέρες</strong>, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου <strong>{ $amount } εβδομαδιαία</strong>, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
        *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου <strong>{ $amount } κάθε { $intervalCount } εβδομάδες</strong>, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου <strong>{ $amount } μηνιαία</strong>, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
        *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου <strong>{ $amount } κάθε { $intervalCount } μήνες</strong>, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου <strong>{ $amount } ετησίως</strong>, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
@@ -177,18 +175,18 @@ payment-validate-name-error = Παρακαλώ εισαγάγετε το όνο�
 payment-validate-zip-required = Απαιτείται ταχυδρομικός κώδικας
 payment-validate-zip-short = Ο ταχυδρομικός κώδικας είναι πολύ μικρός
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Η συνδρομή σας είναι έτοιμη
 sub-redirect-copy = Παρακαλούμε αφιερώστε λίγο χρόνο για να μας πείτε για την εμπειρία σας.
 sub-redirect-skip-survey = Όχι ευχαριστώ, θέλω να μεταβώ στο προϊόν μου.
 
-## fields
+## Fields
 
 default-input-error = Αυτό το πεδίο απαιτείται
 input-error-is-required = Απαιτείται το { $label }
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Ελέγξτε την αλλαγή σας
 sub-change-failed = Η αλλαγή προγράμματος απέτυχε
@@ -208,35 +206,35 @@ sub-update-current-plan-label = Τρέχον πλάνο
 sub-update-new-plan-label = Νέο πλάνο
 sub-update-total-label = Νέο σύνολο
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } ημερησίως
        *[other] { $amount } κάθε { $intervalCount } ημέρες
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } εβδομαδιαία
        *[other] { $amount } κάθε { $intervalCount } εβδομάδες
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } μηνιαία
        *[other] { $amount } κάθε { $intervalCount } μήνες
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } ετησίως
        *[other] { $amount } κάθε { $intervalCount } χρόνια
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -294,14 +292,14 @@ reactivate-confirm-without-payment-method-copy =
     { $amount } στις { $endDate }.
 reactivate-confirm-button = Επανανεγγραφή
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Ακυρώσατε τη συνδρομή σας στις { $date }.
 reactivate-panel-copy = Θα χάσετε την πρόσβαση στο { $name } στις <strong>{ $date }</strong>.
 reactivate-success-copy = Ευχαριστούμε! Όλα είναι έτοιμα.
 reactivate-success-button = Κλείσιμο
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -319,14 +317,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Δεν βρέθηκε επόμενο τιμολόγιο
 sub-item-no-such-subsequent-invoice = Δεν βρέθηκε επόμενο τιμολόγιο για αυτήν τη συνδρομή.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Αγορά εντός εφαρμογής
 sub-iap-item-apple-purchase = { -brand-name-apple }: Αγορά εντός εφαρμογής
 sub-iap-item-manage-button = Διαχείριση
 account-activated = Ο λογαριασμός σας ενεργοποιήθηκε, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Ενημέρωση στοιχείων χρέωσης…
 sub-route-idx-reactivating = Αποτυχία επανενεργοποίησης της συνδρομής
@@ -353,14 +351,14 @@ sub-route-missing-billing-agreement-payment-alert = Μη έγκυρα στοιχ
 sub-route-funding-source-payment-alert = Μη έγκυρα στοιχεία πληρωμής· υπάρχει σφάλμα στον λογαριασμό σας. Αυτή η ειδοποίηση ενδέχεται να χρειαστεί λίγη ώρα για να εξαφανιστεί αφού ενημερώσετε επιτυχώς τα στοιχεία σας. <div>Διαχείριση</div>
 pay-update-manage-btn = Διαχείριση
 
-## subscription create
+## Subscription create
 
 sub-guarantee = Εγγύηση επιστροφής χρημάτων 30 ημερών
 pay-with-heading-other = Επιλέξτε μια μέθοδο πληρωμής
 pay-with-heading-card-or = Ή πληρωμή με κάρτα
 pay-with-heading-card-only = Πληρωμή με κάρτα
 
-## plan-details
+## Plan details
 
 plan-details-header = Λεπτομέρειες προιόντος
 plan-details-show-button = Εμφάνιση λεπτομερειών
@@ -368,7 +366,7 @@ plan-details-hide-button = Απόκρυψη λεπτομερειών
 plan-details-total-label = Σύνολο
 plan-details-list-price = Τιμή καταλόγου
 
-## coupons
+## Coupons
 
 coupon-discount = Έκπτωση
 coupon-discount-applied = Εφαρμόστηκε έκπτωση
@@ -385,17 +383,17 @@ coupon-success-repeating = Το πρόγραμμά σας θα ανανεωθε�
 coupon-enter-code =
     .placeholder = Εισαγωγή κωδικού
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Παρακαλούμε περιμένετε όσο επεξεργαζόμαστε την πληρωμή σας…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Κάντε κλικ εδώ για λήψη
 payment-confirmation-mobile-alert = Δεν άνοιξε η εφαρμογή; <a>Κάντε κλικ εδώ</a>
 payment-confirmation-thanks-heading = Ευχαριστούμε!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -440,7 +438,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Συνέχεια στη λήψη
 payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Έχετε ήδη έναν λογαριασμό { -brand-name-firefox }; <a>Σύνδεση</a>
 new-user-step-1 = 1. Δημιουργήστε έναν λογαριασμό { -brand-name-firefox }
@@ -460,7 +458,7 @@ new-user-already-has-account-sign-in = Έχετε ήδη λογαριασμό. <
 new-user-card-title = Εισαγάγετε τα στοιχεία της κάρτας σας
 new-user-submit = Συνδρομή τώρα
 manage-pocket-title = Ψάχνετε την premium συνδρομή του { -brand-name-pocket } σας;
-manage-pocket-body = Για διαχείριση, <a>κάντε κλικ εδώ</a>.
+manage-pocket-body-2 = Για να τη διαχειριστείτε, <linkExternal>κάντε κλικ εδώ</linkExternal>.
 payment-method-header = Επιλέξτε τη μέθοδο πληρωμής σας
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
