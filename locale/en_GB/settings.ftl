@@ -218,8 +218,7 @@ la-description = You have authorised access to the following accounts.
 la-unlink-button = Unlink
 la-unlink-account-button = Unlink
 la-unlink-heading = Unlink from third party account
-la-unlink-content = Are you sure you want to unlink your { -brand-google } account? Unlinking your account does not automatically sign you out of those services. To do that you will need to manually sign out from the Connected services section.
-la-unlink-content-2 = Are you sure you want to unlink your account? Unlinking your account does not automatically sign you out of those services. To do that you will need to manually sign out from the Connected services section.
+la-unlink-content-3 = Are you sure you want to unlink your account? Unlinking your account does not automatically sign you out of your Connected Services. To do that, you will need to manually sign out from the Connected Services section.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -326,8 +325,8 @@ delete-account-step-1-2 = Step 1 of 2
 delete-account-step-2-2 = Step 2 of 2
 delete-account-confirm-title-2 = You’ve connected your { -product-firefox-account } to { -brand-mozilla } products that keep you secure and productive on the web:
 delete-account-acknowledge = Please acknowledge that by deleting your account:
-delete-account-chk-box-1-v2 =
-    .label = Any paid subscriptions you have will be cancelled (Except { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Any paid subscriptions you have will be cancelled
 delete-account-chk-box-2 =
     .label = You may lose saved information and features within { -brand-mozilla } products
 delete-account-chk-box-3 =
