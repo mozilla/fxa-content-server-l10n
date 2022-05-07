@@ -442,7 +442,7 @@ new-user-already-has-account-sign-in = Zaten bir hesabınız var. <a>Giriş yap�
 new-user-card-title = Kart bilgilerinizi girin
 new-user-submit = Şimdi abone ol
 manage-pocket-title = { -brand-name-pocket } premium aboneliğinizi mi arıyorsunuz?
-manage-pocket-body-2 = Yönetmek için <linkExternal>burayı tıklayın</linkExternal>.
+manage-pocket-body-2 = Yönetmek için <linkExternal>buraya tıklayın</linkExternal>.
 payment-method-header = Ödeme yönteminizi seçin
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
