@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox reikningar
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Firefox reikningar
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox reikningar
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Loka glugga
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Almenn forritsvilla
 basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur síðar.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Svo virðist sem debetkortið þitt sé ekki sett 
 duplicate-transaction = Hmm. Það lítur út fyrir að sams konar færsla hafi þegar verið send. Athugaðu greiðsluferilinn þinn.
 coupon-expired = Það lítur út fyrir að þessi tilboðskóði sé útrunninn.
 card-error = Ekki tókst að vinna úr færslunni þinni. Staðfestu greiðslukortaupplýsingarnar þínar og reyndu aftur.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Kerfisvilla olli því að skráningin þín fyrir { $productName } mistókst. Greiðslumáti þinn hefur ekki verið gjaldfærður. Reyndu aftur.
 newsletter-signup-error = Þú ert ekki skráður fyrir póstum um uppfærslur á hugbúnaði/þjónustum. Þú getur reynt aftur í stillingum reikningsins þíns.
 fxa-post-passwordless-sub-error = Áskriftin er staðfest, en ekki tókst að hlaða inn staðfestingarsíðunni. Athugaðu tölvupóstinn þinn til að setja upp reikninginn þinn.
 
-## settings
+## Settings
 
 settings-home = Forsíða reiknings
 settings-subscriptions-title = Áskriftir
 
-## legal footer
+## Legal footer
 
 terms = Þjónustuskilmálar
 privacy = Meðferð persónuupplýsinga
@@ -75,28 +73,28 @@ subscription-error-title = Villa við að staðfesta áskrift…
 subscription-noplanchange-title = Þessi breyting áskriftarleiða er ekki studd
 subscription-iapsubscribed-title = Nú þegar áskrifandi
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } innheimti { $amount } daglega
        *[other] { $productName } innheimti { $amount } á { $intervalCount } daga fresti
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } innheimti { $amount } vikulega
        *[other] { $productName } innheimti { $amount } á { $intervalCount } vikna fresti
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } innheimti { $amount } mánaðarlega
        *[other] { $productName } innheimti { $amount } á { $intervalCount } mánaða fresti
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } innheimt { $amount } árlega
@@ -114,7 +112,7 @@ product-customer-error =
 product-plan-not-found = Áskriftarleið fannst ekki
 product-no-such-plan = Engin slík áskriftarleið fyrir þennan hugbúnað/þjónustu.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } notar { -brand-name-stripe } og { -brand-name-paypal } fyrir örugga vinnslu greiðslna.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } persónuverndarstefna</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } persónuverndarstefna</paypalPrivacyLink>
@@ -123,7 +121,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } persónu
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } notar { -brand-name-stripe } fyrir örugga vinnslu greiðslna.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } persónuverndarstefna</stripePrivacyLink>
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Fullt nafn
@@ -147,19 +145,19 @@ payment-confirm-with-legal-links-day =
         [one] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } daglega</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
        *[other] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } á { $intervalCount } daga fresti</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } vikulega</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
        *[other] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } á { $intervalCount } vikna fresti</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } mánaðarlega</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
        *[other] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } á { $intervalCount } mánaða fresti</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } árlega</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
@@ -177,18 +175,18 @@ payment-validate-name-error = Settu inn nafnið þitt
 payment-validate-zip-required = Póstnúmer er nauðsynlegt
 payment-validate-zip-short = Póstnúmerið er of stutt
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Áskriftin þín er tilbúin
 sub-redirect-copy = Vinsamlegast gefðu þér smá stund til að segja okkur frá reynslu þinni.
 sub-redirect-skip-survey = Nei takk, förum bara að vörunni minni.
 
-## fields
+## Fields
 
 default-input-error = Þessi reitur er nauðsynlegur
 input-error-is-required = { $label } er nauðsynlegt
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Farðu yfir breytinguna þína
 sub-change-failed = Breyting á áskriftarleið mistókst
@@ -208,10 +206,10 @@ sub-update-current-plan-label = Núverandi áskriftarleið
 sub-update-new-plan-label = Ný áskriftarleið
 sub-update-total-label = Ný heildarupphæð
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } á dag
@@ -222,7 +220,7 @@ plan-price-day =
             [one] { $amount } á dag
            *[other] { $amount } á { $intervalCount } daga fresti
         }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } á viku
@@ -233,7 +231,7 @@ plan-price-week =
             [one] { $amount } á viku
            *[other] { $amount } á { $intervalCount } vikna fresti
         }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } á mánuði
@@ -244,7 +242,7 @@ plan-price-month =
             [one] { $amount } á mánuði
            *[other] { $amount } á { $intervalCount } mánaða fresti
         }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } á ári
@@ -256,7 +254,7 @@ plan-price-year =
            *[other] { $amount } á { $intervalCount } ára fresti
         }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -314,14 +312,14 @@ reactivate-confirm-without-payment-method-copy =
     { $amount } þann { $endDate }.
 reactivate-confirm-button = Gerast áskrifandi aftur
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Þú sagðir upp áskriftinni þinni þann { $date }.
 reactivate-panel-copy = Þú munt missa aðgang að { $name } þann <strong>{ $date }</strong>.
 reactivate-success-copy = Takk! Nú er allt tilbúið.
 reactivate-success-button = Loka
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -339,14 +337,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Næsti greiðsluseðill fannst ekki
 sub-item-no-such-subsequent-invoice = Næsti greiðsluseðill fannst ekki fyrir þessa áskrift.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Innkaup í forriti
 sub-iap-item-apple-purchase = { -brand-name-apple }: Innkaup í forriti
 sub-iap-item-manage-button = Stjórna
 account-activated = Reikningurinn þinn er virkjaður, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Uppfæri greiðsluupplýsingar…
 sub-route-idx-reactivating = Mistókst að endurvirkja áskrift
@@ -373,14 +371,14 @@ sub-route-missing-billing-agreement-payment-alert = Ógildar greiðsluupplýsing
 sub-route-funding-source-payment-alert = Ógildar greiðsluupplýsingar; það er villa varðandi reikninginn þinn. Það getur tekið nokkurn tíma að hreinsa út þessa viðvörun eftir að þú hefur uppfært upplýsingarnar þínar. <div>Sýsla með upplýsingarnar</div>
 pay-update-manage-btn = Stjórna
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30-daga skilafrestur
 pay-with-heading-other = Veldu greiðslumáta
 pay-with-heading-card-or = Eða borga með greiðslukorti
 pay-with-heading-card-only = Borga með greiðslukorti
 
-## plan-details
+## Plan details
 
 plan-details-header = Upplýsingar um vöru
 plan-details-show-button = Sjá nánari upplýsingar
@@ -388,7 +386,7 @@ plan-details-hide-button = Fela ítarupplýsingar
 plan-details-total-label = Samtals
 plan-details-list-price = Listaverð
 
-## coupons
+## Coupons
 
 coupon-discount = Afsláttur
 coupon-discount-applied = Afsláttarbónus virkjaður
@@ -405,17 +403,17 @@ coupon-success-repeating = Áskriftin þín endurnýjast sjálfkrafa eftir { $co
 coupon-enter-code =
     .placeholder = Settu inn kóða
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Hinkraðu við á meðan við meðhöndlum greiðsluna þína…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Smelltu hér til að sækja
 payment-confirmation-mobile-alert = Opnaðist smáforritið ekki? <a>Smelltu hér</a>
 payment-confirmation-thanks-heading = Þakka þér fyrir!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -460,7 +458,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Halda áfram í niðurhal
 payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Ertu nú þegar með { -brand-name-firefox } reikning? <a>Skráðu þig inn</a>
 new-user-step-1 = 1. Búðu til { -brand-name-firefox }-reikning
@@ -479,7 +477,7 @@ new-user-already-has-account-sign-in = Þú ert nú þegar með reikning. <a>Skr
 new-user-card-title = Settu inn kortaupplýsingarnar þínar
 new-user-submit = Gerast áskrifandi núna
 manage-pocket-title = Ertu að leita að { -brand-name-pocket } forgangsáskriftinni þinni?
-manage-pocket-body = Til að sýsla með hana, skaltu <a>smella hér</a>.
+manage-pocket-body-2 = Til að stjórna þessu skaltu <linkExternal>smella hér</linkExternal>.
 payment-method-header = Veldu greiðslumáta þinn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }

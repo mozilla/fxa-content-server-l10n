@@ -218,8 +218,7 @@ la-description = Þú hefur heimilað aðgang að eftirfarandi reikningum.
 la-unlink-button = Aftengja
 la-unlink-account-button = Aftengja
 la-unlink-heading = Aftengja frá utanaðkomandi reikningi
-la-unlink-content = Ertu viss um að þú viljir aftengja { -brand-google } reikninginn þinn? Að aftengja reikninginn þinn skráir þig ekki sjálfkrafa út úr þessum þjónustum. Til að gera það þarftu að skrá þig handvirkt út úr hlutanum 'Tengd þjónusta'.
-la-unlink-content-2 = Ertu viss um að þú viljir aftengja reikninginn þinn? Að aftengja reikninginn þinn skráir þig ekki sjálfkrafa út úr þessum þjónustum. Til að gera það þarftu að skrá þig handvirkt út úr hlutanum 'Tengd þjónusta'.
+la-unlink-content-3 = Ertu viss um að þú viljir aftengja reikninginn þinn? Að aftengja reikninginn þinn skráir þig ekki sjálfkrafa út úr tengdum þjónustum. Til að gera það þarftu að skrá þig handvirkt út úr hlutanum 'Tengd þjónusta'.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -326,8 +325,8 @@ delete-account-step-1-2 = Skref 1 af 2
 delete-account-step-2-2 = Skref 2 af 2
 delete-account-confirm-title-2 = Þú hefur tengt { -product-firefox-account } við { -brand-mozilla } þjónustur sem tryggja öryggi þitt og afköst á vefnum:
 delete-account-acknowledge = Staðfestu að þú sért upplýst/ur um að með því að eyða reikningnum þínum:
-delete-account-chk-box-1-v2 =
-    .label = Öllum greiddum áskriftum sem þú ert með verður sagt upp (nema { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Öllum greiddum áskriftum sem þú ert með verður sagt upp
 delete-account-chk-box-2 =
     .label = Þú gætir glatað vistuðum upplýsingum og eiginleikum í { -brand-mozilla } þjónustum
 delete-account-chk-box-3 =
