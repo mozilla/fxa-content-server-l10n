@@ -208,7 +208,7 @@ la-description = Aşağıdaki hesaplara erişim izni verdiniz.
 la-unlink-button = Bağlantıyı kes
 la-unlink-account-button = Bağlantıyı kes
 la-unlink-heading = Üçüncü taraf hesabıyla bağlantıyı kes
-la-unlink-content = { -brand-google } hesabınızın bağlantısını kesmek istediğinizden emin misiniz? Hesabınızın bağlantısını kesmek bu servislerden otomatik olarak çıkış yapmanızı sağlamaz. Bunu yapmak için Bağlı hizmetler bölümünden manuel olarak çıkış yapmanız gerekecektir.
+la-unlink-content-3 = Hesabınızın bağlantısını kesmek istediğinizden emin misiniz? Hesabınızın bağlantısını kesmeniz bağlı hizmetlerden otomatik olarak çıkış yapmanızı sağlamaz. Bunu yapmak için "Bağlı hizmetler" bölümünden manuel olarak çıkış yapmanız gerekecektir.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -310,8 +310,8 @@ delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
 delete-account-confirm-title-2 = { -product-firefox-account }nızı, internette güvende ve üretken kalmanızı sağlayan { -brand-mozilla } ürünlerine bağladınız:
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
-delete-account-chk-box-1-v2 =
-    .label = Butün ücretli abonelikleriniz iptal edilecektir ({ product-pocket } hariç)
+delete-account-chk-box-1-v3 =
+    .label = Sahip olduğunuz tüm ücretli abonelikler iptal edilecektir
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } ürünlerinde kayıtlı bilgilerinizi ve özellikleri kaybedebilirsiniz
 delete-account-chk-box-3 =

@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox Hesapları
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Firefox Hesapları
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox Hesapları
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Kutuyu kapat
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Genel uygulama hatası
 basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Banka kartınız anında ödeme için ayarlanmamı
 duplicate-transaction = Benzer bir işlem yeni gönderilmiş gibi görünüyor. Ödeme geçmişinizi kontrol edin.
 coupon-expired = Promosyon kodunun süresi dolmuş.
 card-error = İşleminiz gerçekleştirilemedi. Lütfen kredi kartı bilgilerinizi kontrol edip tekrar deneyin.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Bir sistem hatası nedeniyle { $productName } kaydınız başarısız oldu. Ödeme yönteminizden ücret alınmadı. Lütfen tekrar deneyin.
 newsletter-signup-error = Ürün güncelleme e-postalarına kayıtlı değilsiniz. Hesap ayarlarınızda tekrar deneyebilirsiniz.
 fxa-post-passwordless-sub-error = Abonelik onaylandı, ancak onay sayfası yüklenemedi. Hesabınızı ayarlamak için lütfen e-postanızı kontrol edin.
 
-## settings
+## Settings
 
 settings-home = Hesap ana sayfası
 settings-subscriptions-title = Abonelikler
 
-## legal footer
+## Legal footer
 
 terms = Kullanım Koşulları
 privacy = Gizlilik Bildirimi
@@ -75,28 +73,28 @@ subscription-error-title = Abonelik onaylanırken hata oluştu…
 subscription-noplanchange-title = Bu abonelik planı değişikliği desteklemiyor
 subscription-iapsubscribed-title = Zaten abonesiniz
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } her gün { $amount }
        *[other] { $productName } { $intervalCount } günde bir { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } her hafta { $amount }
        *[other] { $productName } { $intervalCount } haftada bir { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } her ay { $amount }
        *[other] { $productName } { $intervalCount } ayda bir { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } her yıl { $amount }
@@ -114,7 +112,7 @@ product-customer-error =
 product-plan-not-found = Plan bulunamadı
 product-no-such-plan = Bu ürün için böyle bir plan yok.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } ve { -brand-name-paypal } kullanır.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkeleri</stripePrivacyLink> ve <paypalPrivacyLink>{ -brand-name-paypal } gizlilik ilkeleri</paypalPrivacyLink>
@@ -123,7 +121,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } gizlilik
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } kullanır.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkeleri</stripePrivacyLink>
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Adınız ve soyadınız
@@ -147,19 +145,19 @@ payment-confirm-with-legal-links-day =
         [one] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>günde { $amount }</strong> ödeme almasını onaylıyorum.
        *[other] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>{ $intervalCount } günde bir { $amount }</strong> ödeme almasını onaylıyorum.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>haftada { $amount }</strong> ödeme almasını onaylıyorum.
        *[other] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>{ $intervalCount } haftada bir { $amount }</strong> ödeme almasını onaylıyorum.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>ayda { $amount }</strong> ödeme almasını onaylıyorum.
        *[other] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>{ $intervalCount } ayda bir { $amount }</strong> ödeme almasını onaylıyorum.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>yılda { $amount }</strong> ödeme almasını onaylıyorum.
@@ -177,18 +175,18 @@ payment-validate-name-error = Lütfen adınızı girin
 payment-validate-zip-required = Posta kodu gerekli
 payment-validate-zip-short = Posta kodu çok kısa
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Aboneliğiniz hazır
 sub-redirect-copy = Bize deneyiminizden bahsetmek ister misiniz?
 sub-redirect-skip-survey = İstemiyorum, beni ürünüme götür.
 
-## fields
+## Fields
 
 default-input-error = Bu alan gereklidir
 input-error-is-required = { $label } gereklidir
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Değişikliğinizi gözden geçirin
 sub-change-failed = Plan değişikliği başarısız oldu
@@ -204,35 +202,35 @@ sub-update-current-plan-label = Geçerli plan
 sub-update-new-plan-label = Yeni plan
 sub-update-total-label = Yeni toplam
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] Günlük { $amount }
        *[other] { $intervalCount } günde bir { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] Haftalık { $amount }
        *[other] { $intervalCount } haftada bir { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] Aylık { $amount }
        *[other] { $intervalCount } ayda bir { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] Yıllık { $amount }
        *[other] { $intervalCount } yılda bir { $amount }
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -284,14 +282,14 @@ reactivate-confirm-copy = { $name } ürününe erişiminiz devam edecek ve fatur
 reactivate-confirm-without-payment-method-copy = { $name } ürününe erişiminiz devam edecek ve faturalandırma döngünüz ve ödemeniz aynı kalacaktır. Bir sonraki ödemeniz { $endDate } tarihinde { $amount } olacaktır.
 reactivate-confirm-button = Yeniden abone ol
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Aboneliğinizi { $date } tarihinde iptal ettiniz.
 reactivate-panel-copy = <strong>{ $date }</strong> tarihinde { $name } ürününe erişiminiz sona erecek.
 reactivate-success-copy = Teşekkürler! Artık hazırsınız.
 reactivate-success-button = Kapat
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -305,14 +303,14 @@ sub-item-cancel-confirm = { $name } ürününe erişimimi ve kayıtlı bilgileri
 invoice-not-found = Sonraki fatura bulunamadı
 sub-item-no-such-subsequent-invoice = Bu abonelik için sonraki fatura bulunamadı.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Uygulama içi satın alma
 sub-iap-item-apple-purchase = { -brand-name-apple }: Uygulama içi satın alma
 sub-iap-item-manage-button = Yönet
 account-activated = <userEl/>, hesabınız etkinleştirildi
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Fatura bilgileri güncelleniyor…
 sub-route-idx-reactivating = Aboneliği yeniden etkinleştirme başarısız oldu
@@ -339,14 +337,14 @@ sub-route-missing-billing-agreement-payment-alert = Geçersiz ödeme bilgileri: 
 sub-route-funding-source-payment-alert = Geçersiz ödeme bilgisi: Hesabınızla ilgili bir hata var. Bilgilerinizi güncelledikten sonra bu uyarının temizlenmesi biraz zaman alabilir. <div>Yönet</div>
 pay-update-manage-btn = Yönet
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30 gün para iade garantisi
 pay-with-heading-other = Ödeme yöntemini seçin
 pay-with-heading-card-or = veya kartla ödeyin
 pay-with-heading-card-only = Kartla öde
 
-## plan-details
+## Plan details
 
 plan-details-header = Ürün ayrıntıları
 plan-details-show-button = Ayrıntıları göster
@@ -354,7 +352,7 @@ plan-details-hide-button = Ayrıntıları gizle
 plan-details-total-label = Toplam
 plan-details-list-price = Liste fiyatı
 
-## coupons
+## Coupons
 
 coupon-discount = İndirim
 coupon-discount-applied = İndirim uygulandı
@@ -369,17 +367,17 @@ coupon-success = Planınız liste fiyatı üzerinden otomatik olarak yenilenecek
 coupon-enter-code =
     .placeholder = Kodu yazın
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Ödemeniz işleme alınıyor. Lütfen bekleyin…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = İndirmek için buraya tıklayın
 payment-confirmation-mobile-alert = Uygulama açılmadı mı? <a>Buraya tıklayın</a>
 payment-confirmation-thanks-heading = Teşekkürler!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -424,7 +422,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = İndirmeye devam et
 payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = { -brand-name-firefox } hesabınız var mı? <a>Giriş yapın</a>
 new-user-step-1 = 1. { -brand-name-firefox } hesabı açın
@@ -444,7 +442,7 @@ new-user-already-has-account-sign-in = Zaten bir hesabınız var. <a>Giriş yap�
 new-user-card-title = Kart bilgilerinizi girin
 new-user-submit = Şimdi abone ol
 manage-pocket-title = { -brand-name-pocket } premium aboneliğinizi mi arıyorsunuz?
-manage-pocket-body = Yönetmek için <a>buraya tıklayın</a>.
+manage-pocket-body-2 = Yönetmek için <linkExternal>burayı tıklayın</linkExternal>.
 payment-method-header = Ödeme yönteminizi seçin
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
