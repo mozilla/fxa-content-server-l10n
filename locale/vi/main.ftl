@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Tài khoản Firefox
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Tài khoản Firefox
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = Cửa hàng { -brand-name-google } Play
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Tài khoản Firefox
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Đóng phương thức
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Lỗi ứng dụng chung
 basic-error-message = Có gì đó không ổn. Vui lòng thử lại sau.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Có vẻ như thẻ ghi nợ của bạn không đ
 duplicate-transaction = Hừm. Có vẻ như một giao dịch giống hệt nhau vừa được gửi. Hãy kiểm tra lịch sử thanh toán của bạn.
 coupon-expired = Có vẻ như mã khuyến mãi đã hết hạn.
 card-error = Không thể xử lý giao dịch của bạn. Vui lòng xác minh thông tin thẻ tín dụng của bạn và thử lại.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Lỗi hệ thống khiến quá trình đăng ký { $productName } của bạn không thành công. Phương thức thanh toán của bạn chưa bị tính phí. Vui lòng thử lại.
 newsletter-signup-error = Bạn chưa đăng ký nhận email cập nhật sản phẩm. Bạn có thể thử lại trong cài đặt tài khoản của mình.
 fxa-post-passwordless-sub-error = Thuê bao đã được xác nhận, nhưng trang xác nhận không tải được. Vui lòng kiểm tra email của bạn để thiết lập tài khoản của bạn.
 
-## settings
+## Settings
 
 settings-home = Trang chủ tài khoản
 settings-subscriptions-title = Thuê bao
 
-## legal footer
+## Legal footer
 
 terms = Điều khoản dịch vụ
 privacy = Chính sách riêng tư
@@ -75,25 +73,25 @@ subscription-error-title = Lỗi khi xác nhận thuê bao…
 subscription-noplanchange-title = Thay đổi gói thuê bao này không được hỗ trợ
 subscription-iapsubscribed-title = Đã đăng ký
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
        *[other] { $productName } đã lập hóa đơn { $amount } mỗi { $intervalCount } ngày
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
        *[other] { $productName } đã lập hóa đơn { $amount } mỗi { $intervalCount } tuần
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
        *[other] { $productName } đã lập hóa đơn { $amount } mỗi { $intervalCount } tháng
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
        *[other] { $productName } đã lập hóa đơn { $amount } mỗi { $intervalCount } năm
@@ -110,7 +108,7 @@ product-customer-error =
 product-plan-not-found = Không tìm thấy lịch
 product-no-such-plan = Không có lịch như vậy cho sản phẩm này.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } sử dụng { -brand-name-stripe } và { -brand-name-paypal } để xử lý thanh toán an toàn.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>Chính sách riêng tư của { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Chính sách riêng tư của { -brand-name-paypal }</paypalPrivacyLink>.
@@ -119,7 +117,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>Chính sách riêng tư của {
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } sử dụng { -brand-name-stripe } để xử lý thanh toán an toàn.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Chính sách riêng tư của { -brand-name-stripe }</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Họ và tên
@@ -142,17 +140,17 @@ payment-confirm-with-legal-links-day =
     { $intervalCount ->
        *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } ngày</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
        *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } tuần</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
        *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } tháng</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
        *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } năm</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
@@ -169,18 +167,18 @@ payment-validate-name-error = Vui lòng nhập tên của bạn
 payment-validate-zip-required = Bắt buộc có mã bưu chính
 payment-validate-zip-short = Mã bưu chính quá ngắn
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Đăng ký của bạn đã sẵn sàng
 sub-redirect-copy = Hãy dành một chút thời gian để cho chúng tôi biết kinh nghiệm của bạn.
 sub-redirect-skip-survey = Không, cảm ơn, chỉ cần đưa tôi đến sản phẩm của tôi.
 
-## fields
+## Fields
 
 default-input-error = Trường này là bắt buộc
 input-error-is-required = { $label } là bắt buộc
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Xem lại thay đổi của bạn
 sub-change-failed = Thay đổi gói không thành công
@@ -200,31 +198,31 @@ sub-update-current-plan-label = Lịch hiện tại
 sub-update-new-plan-label = Lịch mới
 sub-update-total-label = Tổng số mới
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
        *[other] { $amount } mỗi { $intervalCount } ngày
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
        *[other] { $amount } mỗi { $intervalCount } tuần
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
        *[other] { $amount } mỗi { $intervalCount } tháng
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
        *[other] { $amount } mỗi { $intervalCount } năm
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -278,14 +276,14 @@ reactivate-confirm-without-payment-method-copy =
     sẽ là { $amount } vào { $endDate }.
 reactivate-confirm-button = Đăng ký lại
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Bạn đã hủy đăng ký vào { $date }.
 reactivate-panel-copy = Bạn sẽ mất quyền truy cập vào { $name } vào <strong>{ $date }</strong>.
 reactivate-success-copy = Cảm ơn! Bạn đã sẵn sàng.
 reactivate-success-button = Đóng
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -303,14 +301,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Không tìm thấy hóa đơn tiếp theo
 sub-item-no-such-subsequent-invoice = Không tìm thấy hóa đơn tiếp theo cho thuê bao này.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Mua hàng trong ứng dụng
 sub-iap-item-apple-purchase = { -brand-name-apple }: Mua hàng trong ứng dụng
 sub-iap-item-manage-button = Quản lý
 account-activated = Tài khoản của bạn đã được kích hoạt, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Đang cập nhật thông tin thanh toán…
 sub-route-idx-reactivating = Không thể kích hoạt lại đăng ký
@@ -337,14 +335,14 @@ sub-route-missing-billing-agreement-payment-alert = Thông tin thanh toán khôn
 sub-route-funding-source-payment-alert = Thông tin thanh toán không hợp lệ; Có lỗi xảy ra với tài khoản của bạn. Cảnh báo này có thể mất một thời gian để xóa sau khi bạn cập nhật thành công thông tin của mình. <div>Quản lý</div>
 pay-update-manage-btn = Quản lý
 
-## subscription create
+## Subscription create
 
 sub-guarantee = Đảm bảo hoàn tiền trong 30 ngày
 pay-with-heading-other = Chọn tùy chọn thanh toán
 pay-with-heading-card-or = Hoặc thanh toán bằng thẻ
 pay-with-heading-card-only = Thanh toán bằng thẻ
 
-## plan-details
+## Plan details
 
 plan-details-header = Thông tin chi tiết sản phẩm
 plan-details-show-button = Hiện chi tiết
@@ -352,7 +350,7 @@ plan-details-hide-button = Ẩn chi tiết
 plan-details-total-label = Tổng
 plan-details-list-price = Bảng giá
 
-## coupons
+## Coupons
 
 coupon-discount = Giảm giá
 coupon-discount-applied = Đã áp dụng phần thưởng chiết khấu
@@ -369,17 +367,17 @@ coupon-success-repeating = Gói của bạn sẽ tự động gia hạn sau { $c
 coupon-enter-code =
     .placeholder = Nhập mã
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Vui lòng đợi trong khi chúng tôi xử lý thanh toán của bạn…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Nhấp vào đây để tải xuống
 payment-confirmation-mobile-alert = Không thể mở ứng dụng? <a>Nhấp vào đây</a>
 payment-confirmation-thanks-heading = Cảm ơn bạn!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -420,7 +418,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Tiếp tục tải xuống
 payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Đã có tài khoản { -brand-name-firefox }? <a>Đăng nhập</a>
 new-user-step-1 = 1. Tạo tài khoản { -brand-name-firefox }
@@ -440,7 +438,7 @@ new-user-already-has-account-sign-in = Nếu bạn đã có tài khoản, hãy <
 new-user-card-title = Nhập thông tin thẻ của bạn
 new-user-submit = Theo dõi ngay
 manage-pocket-title = Bạn đang tìm cách đăng ký { -brand-name-pocket } premium?
-manage-pocket-body = Để quản lý nó, hãy <a>nhấp vào đây</a>.
+manage-pocket-body-2 = Để quản lý nó, hãy <linkExternal>nhấp vào đây</linkExternal>.
 payment-method-header = Chọn phương thức thanh toán của bạn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }

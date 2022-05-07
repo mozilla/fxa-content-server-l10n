@@ -216,8 +216,7 @@ la-description = Bạn có quyền truy cập vào các tài khoản sau.
 la-unlink-button = Hủy liên kết
 la-unlink-account-button = Hủy liên kết
 la-unlink-heading = Hủy liên kết khỏi tài khoản của bên thứ ba
-la-unlink-content = Bạn có chắc chắn muốn hủy liên kết tài khoản { -brand-google } của mình không? Việc hủy liên kết tài khoản của bạn không tự động đăng xuất bạn khỏi các dịch vụ đó. Để làm điều đó, bạn sẽ cần đăng xuất theo cách thủ công từ phần Dịch vụ được kết nối.
-la-unlink-content-2 = Bạn có chắc chắn muốn hủy liên kết tài khoản của mình không? Việc hủy liên kết tài khoản của bạn không tự động đăng xuất bạn khỏi các dịch vụ đó. Để làm điều đó, bạn sẽ cần đăng xuất theo cách thủ công từ phần Dịch vụ được kết nối.
+la-unlink-content-3 = Bạn có chắc chắn muốn hủy liên kết tài khoản của mình không? Việc hủy liên kết tài khoản của bạn không tự động đăng xuất bạn khỏi dịch vụ được kết nối của bạn. Để làm điều đó, bạn sẽ cần đăng xuất theo cách thủ công từ phần dịch vụ được kết nối.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -324,8 +323,8 @@ delete-account-step-1-2 = Bước 1/2
 delete-account-step-2-2 = Bước 2/2
 delete-account-confirm-title-2 = Bạn đã kết nối { -product-firefox-account } của mình với các sản phẩm { -brand-mozilla } giúp bạn bảo mật và làm việc hiệu quả trên web:
 delete-account-acknowledge = Vui lòng xác nhận nếu bạn thực sự muốn xóa tài khoản của mình:
-delete-account-chk-box-1-v2 =
-    .label = Mọi thuê bao trả phí mà bạn có sẽ bị hủy (Ngoại trừ { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Mọi thuê bao trả phí bạn có sẽ bị hủy
 delete-account-chk-box-2 =
     .label = Bạn có thể sẽ mất thông tin và tính năng đã lưu trong các sản phẩm của { -brand-mozilla }
 delete-account-chk-box-3 =
