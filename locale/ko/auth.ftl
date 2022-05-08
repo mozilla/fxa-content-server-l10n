@@ -243,6 +243,19 @@ recovery-action = 새로운 비밀번호 생성
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = { $productName } 구독이 취소되었습니다.
 subscriptionAccountDeletion-title = 가까운 시일 내에 다시 뵐 수 있기를 희망합니다.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = 최근에 { -product-firefox-account }을 삭제했습니다. 그 결과 귀하의 { $productName } 구독이 취소되었습니다. { $invoiceTotal }의 최종 결제는 { $invoiceDateOnly }에 이루어졌습니다.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = { $productName }에 오신 것을 환영합니다: 비밀번호를 설정해주세요.
+subscriptionAccountFinishSetup-content-processing = 결제가 진행중이며 최대 4 영업일이 소요될 수 있습니다. 구독은 구독을 취소하지 않는 한 매 결제 시기마다 자동으로 갱신됩니다.
+subscriptionAccountFinishSetup-content-create-2 = 다음으로 새로운 구독을 사용하기 위해 { -product-firefox-account }의 비밀번호를 생성해야 합니다.
+subscriptionAccountFinishSetup-action-2 = 시작하기
+subscriptionAccountReminderFirst-subject = 알림: 계정 설정 완료
+subscriptionAccountReminderFirst-title = 아직 구독에 접근할 수 없습니다.
 subscriptionCancellation-title = 가까운 시일 내에 다시 뵐 수 있기를 희망합니다.
 subscriptionDowngrade-content-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
 subscriptionPaymentExpired-title = 신용 카드 만료 예정
