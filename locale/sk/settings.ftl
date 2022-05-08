@@ -283,8 +283,7 @@ la-description = Máte autorizovaný prístup k nasledujúcim účtom.
 la-unlink-button = Zrušiť prepojenie
 la-unlink-account-button = Zrušiť prepojenie
 la-unlink-heading = Zrušenie prepojenia s účtom tretej strany
-la-unlink-content = Naozaj chcete odpojiť svoj účet { -brand-google }? Odpojením účtu sa automaticky neodhlásite z týchto služieb. Ak tak chcete urobiť, budete sa musieť manuálne odhlásiť v sekcii Pripojené služby.
-la-unlink-content-2 = Naozaj chcete odpojiť svoj účet? Odpojením účtu sa automaticky neodhlásite z týchto služieb. Ak tak chcete urobiť, budete sa musieť manuálne odhlásiť v sekcii Pripojené služby.
+la-unlink-content-3 = Naozaj chcete odpojiť svoj účet? Odpojením vášho účtu sa automaticky neodhlásite z pripojených služieb. Ak to chcete urobiť, budete sa musieť manuálne odhlásiť v sekcii Pripojené služby.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -389,8 +388,8 @@ delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
 delete-account-confirm-title-2 = Svoj { -product-firefox-account(capitalization: "lower") } ste pripojili k produktom { -brand-mozilla(case: "gen") }, ktoré vám pomôžu zaistiť vaše bezpečie a produktivitu na webe:
 delete-account-acknowledge = Potvrďte, že odstránením svojho účtu:
-delete-account-chk-box-1-v2 =
-    .label = Všetky predplatné, ktoré máte, budú zrušené (okrem { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Všetky predplatné, ktoré máte, budú zrušené
 delete-account-chk-box-2 =
     .label = môžete prísť o uložené informácie a niektoré funkcie produktov { -brand-mozilla(case: "gen") }
 delete-account-chk-box-3 =
