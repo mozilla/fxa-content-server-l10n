@@ -22,6 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = { -product-firefox-accounts }에 로그인하시겠습니까?
+session-verify-send-push-body = 본인 확인을 위해 여기를 클릭하세요.
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -74,6 +75,8 @@ automated-email =
     자동으로 발송된 이메일입니다. 오류로 이 메일을 수신한 경우 아무런 조치를 취하지 않아도 됩니다.
     자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla }지원 페이지</a>를 참조하십시오.
 automated-email-plaintext = 자동으로 발송된 이메일입니다; 잘못 온 경우, 별도의 조치가 필요하지 않습니다.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = 자동으로 발송된 이메일입니다. 이 작업을 승인하지 않았다면 비밀번호를 변경해 주세요:
 automated-email-reset =
     자동으로 발송된 이메일입니다. 승인하지 않은 작업인 경우 <a data-l10n-name="resetLink">비밀번호를 재설정</a>하십시오.
     자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla }지원 페이지</a>를 참조하십시오.
@@ -216,6 +219,7 @@ postRemoveSecondary-title = 보조 이메일 삭제됨
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { -product-firefox-account } 계정에서 { $secondaryEmail }을 보조 이메일에서 삭제하였습니다. 보안 알림과 로그인 확인은 더 이상 이 이메일로 전송되지 않습니다.
 postRemoveSecondary-action = 계정 관리
+postRemoveTwoStepAuthentication-subject-line = 2단계 인증이 꺼져 있습니다.
 postRemoveTwoStepAuthentication-title = 2단계 인증을 사용하지 않습니다
 postRemoveTwoStepAuthentication-action = 계정 관리
 postRemoveTwoStepAuthentication-not-required = 더이상 로그인할 때마다 보안 코드를 입력하지 않아도 됩니다.
