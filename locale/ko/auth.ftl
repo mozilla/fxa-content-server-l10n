@@ -256,8 +256,39 @@ subscriptionAccountFinishSetup-content-create-2 = 다음으로 새로운 구독�
 subscriptionAccountFinishSetup-action-2 = 시작하기
 subscriptionAccountReminderFirst-subject = 알림: 계정 설정 완료
 subscriptionAccountReminderFirst-title = 아직 구독에 접근할 수 없습니다.
+subscriptionAccountReminderFirst-content-info = 며칠 전에 { -product-firefox-account }을 만들었지만 아직 승인하지 않았습니다. 새로운 구독을 사용하기 위해 계정 생성을 마치시기 바랍니다.
+subscriptionAccountReminderFirst-content-select = 새로운 비밀번호 생성을 위해 "비밀번호 생성"을 클릭하고 계정 승인을 완료하세요.
+subscriptionAccountReminderFirst-action = 비밀번호 생성
+subscriptionAccountReminderSecond-title = { -brand-firefox }에 오신 것을 환영합니다!
+subscriptionAccountReminderSecond-content-info = 며칠 전에 { -product-firefox-account }을 만들었지만 아직 승인하지 않았습니다. 새로운 구독을 사용하기 위해 계정 생성을 마치시기 바랍니다.
+subscriptionAccountReminderSecond-content-select = 새로운 비밀번호 생성을 위해 "비밀번호 생성"을 클릭하고 계정 승인을 완료하세요.
+subscriptionAccountReminderSecond-action = 비밀번호 생성
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = { $productName } 구독이 취소됨
 subscriptionCancellation-title = 가까운 시일 내에 다시 뵐 수 있기를 희망합니다.
 subscriptionDowngrade-content-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = { $productName } 구독이 취소됨
+subscriptionFailedPaymentsCancellation-title = 구독이 취소됨
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = { $productName } 결제 승인
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = { $productName }를 구독해주셔셔 감사합니다.
+subscriptionFirstInvoice-content-processing = 결제가 진행중이며 최대 4 영업일이 소요될 수 있습니다.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = { $productName }를 사용하기 위한 방법을 별도의 이메일로 받게 됩니다.
+subscriptionFirstInvoice-content-auto-renew = 구독은 구독을 취소하지 않는 한 매 결제 시기마다 자동으로 갱신됩니다.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = { $productName } 결제 확인됨
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = { $productName }를 구독해주셔셔 감사합니다.
 subscriptionPaymentExpired-title = 신용 카드 만료 예정
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -265,6 +296,8 @@ subscriptionPaymentExpired-content = { $productName } 결제에 사용하는 신
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 결제 실패
+subscriptionPaymentFailed-title = 죄송합니다, 결제에 문제가 있습니다.
+subscriptionPaymentProviderCancelled-title = 죄송합니다, 결제 수단에 문제가 있습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } 구독 재활성화됨
@@ -274,6 +307,9 @@ subscriptionReactivation-title = { $productName } 구독을 다시 활성화해 
 subscriptionsPaymentExpired-subject = 결제용 신용 카드 만료 예정
 subscriptionsPaymentExpired-title = 신용 카드 만료 예정
 subscriptionsPaymentExpired-content = 다음 구독에 대한 결제에 사용 중인 신용 카드가 곧 만료됩니다.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = { $productName } 결제 수신됨
 subscriptionUpgrade-title = 업그레이드 해주셔서 감사합니다!
 subscriptionUpgrade-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
 unblockCode-subject = 계정 인증 코드
