@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Firefox Accounts
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox Accounts
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Sulge
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Üldine rakenduse viga
 basic-error-message = Midagi läks valesti. Palun proovi hiljem uuesti.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Näib, et sinu deebetkaart pole kiirmaksete jaoks 
 duplicate-transaction = Hmm. Näib, et just saadeti identne tehing. Kontrolli oma maksete ajalugu.
 coupon-expired = Näib, et see sooduskood on aegunud.
 card-error = Sinu tehingut polnud võimalik töödelda. Palun kontrolli oma krediitkaardi teavet ja proovi siis uuesti.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Süsteemivea tõttu ebaõnnestus registreerumine teenusega { $productName }. Sinu makseviisilt pole tasu võetud. Palun proovi uuesti.
 newsletter-signup-error = Sa pole tellinud tooteuuenduste kirju. Sa võid uuesti proovida konto seadete alt.
 fxa-post-passwordless-sub-error = Tellimus kinnitati, aga kinnituslehe laadimine ebaõnnestus. Konto seadistamiseks kontrolli oma e-posti.
 
-## settings
+## Settings
 
 settings-home = Konto avaleht
 settings-subscriptions-title = Tellimused
 
-## legal footer
+## Legal footer
 
 terms = Teenuse tingimused
 privacy = Privaatsusreeglid
@@ -75,28 +73,28 @@ subscription-error-title = Viga tellimuse kinnitamisel…
 subscription-noplanchange-title = Seda liitumisplaani muudatust ei toetata
 subscription-iapsubscribed-title = Juba tellitud
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] Teenust { $productName } arveldatakse summas { $amount } iga päev
        *[other] Teenust { $productName } arveldatakse summas { $amount } iga { $intervalCount } päeva järel
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] Teenust { $productName } arveldatakse summas { $amount } iga nädal
        *[other] Teenust { $productName } arveldatakse summas { $amount } iga { $intervalCount } nädala järel
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] Teenust { $productName } arveldatakse summaga { $amount } iga kuu
        *[other] Teenust { $productName } arveldatakse summaga { $amount } iga { $intervalCount } kuu järel
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] Teenust { $productName } arveldatakse summas { $amount } iga aasta
@@ -114,7 +112,7 @@ product-customer-error =
 product-plan-not-found = Plaani ei leitud
 product-no-such-plan = Selle toote puhul sellist plaani pole.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } kasutab maksete turvaliseks töötlemiseks partnereid { -brand-name-stripe } ja { -brand-name-paypal }.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }'i privaatsusreeglid</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }i privaatsusreeglid</paypalPrivacyLink>
@@ -123,7 +121,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal }i privaat
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } kasutab maksete turvaliseks töötlemiseks { -brand-name-stripe }'i.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }'i privaatsusreeglid</stripePrivacyLink>
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Täisnimi
@@ -147,19 +145,19 @@ payment-confirm-with-legal-links-day =
         [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>igapäevaselt summa { $amount }</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
        *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } päeva järel</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>iganädalaselt summa { $amount }</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
        *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } nädala järel</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>igakuiselt summa { $amount }</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
        *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } kuu järel</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>iga-aastaselt summa { $amount }</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
@@ -177,18 +175,18 @@ payment-validate-name-error = Palun sisesta oma nimi
 payment-validate-zip-required = Postiindeks on kohustuslik
 payment-validate-zip-short = Postiindeks on liiga lühike
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Sinu tellimus on valmis
 sub-redirect-copy = Palun leia hetk ja räägi meile oma kogemusest.
 sub-redirect-skip-survey = Ei aitäh, lihtsalt viige mind minu toote juurde.
 
-## fields
+## Fields
 
 default-input-error = Selle välja täitmine on kohustuslik
 input-error-is-required = Väli { $label } on nõutud
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Vaata oma muudatus üle
 sub-change-failed = Plaani muutmine ebaõnnestus
@@ -207,10 +205,10 @@ sub-update-current-plan-label = Praegune plaan
 sub-update-new-plan-label = Uus plaan
 sub-update-total-label = Uus summa
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } igapäevaselt
@@ -221,7 +219,7 @@ plan-price-day =
             [one] { $amount } igapäevaselt
            *[other] { $amount } iga { $intervalCount } päeva järel
         }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } iganädalaselt
@@ -232,7 +230,7 @@ plan-price-week =
             [one] { $amount } iganädalaselt
            *[other] { $amount } iga { $intervalCount } nädala järel
         }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } igakuiselt
@@ -243,7 +241,7 @@ plan-price-month =
             [one] { $amount } igakuiselt
            *[other] { $amount } iga { $intervalCount } kuu järel
         }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } iga-aastaselt
@@ -255,7 +253,7 @@ plan-price-year =
            *[other] { $amount } iga { $intervalCount } aasta järel
         }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -307,14 +305,14 @@ reactivate-confirm-copy = Sinu ligipääs teenusele { $name } jätkub ning sinu 
 reactivate-confirm-without-payment-method-copy = Sinu ligipääs teenusele { $name } jätkub ning sinu arveldusperiood ja makse suurus jäävad samaks. Järgmine makse on summas { $amount } kuupäeval { $endDate }.
 reactivate-confirm-button = Telli uuesti
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Tühistasid oma tellimuse { $date }.
 reactivate-panel-copy = Kaotad juurdepääsu teenusele { $name } kuupäeval <strong>{ $date }</strong>.
 reactivate-success-copy = Aitäh! Kõik on valmis.
 reactivate-success-button = Sulge
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -330,14 +328,14 @@ sub-item-cancel-confirm = Tühista minu juurepääs ja salvestatud andmed teenus
 invoice-not-found = Hilisemat arvet ei leitud
 sub-item-no-such-subsequent-invoice = Selle tellimuse kohta ei leitud hilisemat arvet.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: äpisisesed ostud
 sub-iap-item-apple-purchase = { -brand-name-apple }: äpisisesed ostud
 sub-iap-item-manage-button = Halda
 account-activated = Sinu konto on aktiveeritud, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Arveldusinfo uuendamine…
 sub-route-idx-reactivating = Tellimuse taasaktiveerimine ebaõnnestus
@@ -364,14 +362,14 @@ sub-route-missing-billing-agreement-payment-alert = Vigane makseinfo; sinu konto
 sub-route-funding-source-payment-alert = Vigane makseinfo; sinu kontol on viga. Sel häirel võib võtta aega, et ära kaduda pärast edukat info uuendamist. <div>Halda</div>
 pay-update-manage-btn = Halda
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30-päevane raha tagasi garantii
 pay-with-heading-other = Valige makseviis
 pay-with-heading-card-or = Või maksa kaardiga
 pay-with-heading-card-only = Maksa kaardiga
 
-## plan-details
+## Plan details
 
 plan-details-header = Toote üksikasjad
 plan-details-show-button = Kuva üksikasju
@@ -379,7 +377,7 @@ plan-details-hide-button = Peida üksikasjad
 plan-details-total-label = Kokku
 plan-details-list-price = Hinnakirja hind
 
-## coupons
+## Coupons
 
 coupon-discount = Allahindlus
 coupon-discount-applied = Sooduspreemia rakendatud
@@ -396,17 +394,17 @@ coupon-success-repeating = Sinu plaani uuendatakse automaatselt pärast { $coupo
 coupon-enter-code =
     .placeholder = Sisestage kood
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Palun oota, kuni töötleme sinu makset…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Allalaadimiseks klõpsa siia
 payment-confirmation-mobile-alert = Kas äpp ei avanenud? <a>Klõpsa siia</a>
 payment-confirmation-thanks-heading = Täname!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -451,7 +449,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Jätka allalaadimisega
 payment-confirmation-cc-card-ending-in = Kaart, mis lõpeb numbritega { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Kas sul on juba { -brand-name-firefox }i konto?<a>Logi sisse</a>
 new-user-step-1 = 1. Loo { -brand-name-firefox }i konto
@@ -470,7 +468,7 @@ new-user-already-has-account-sign-in = Sul on juba konto olemas. <a>Logi sisse</
 new-user-card-title = Sisesta oma kaardi andmed
 new-user-submit = Telli kohe
 manage-pocket-title = Kas otsid oma { -brand-name-pocket }i tasulist tellimust?
-manage-pocket-body = Selle haldamiseks <a>klõpsa siia</a>.
+manage-pocket-body-2 = Selle haldamiseks <linkExternal>klõpsa siia</linkExternal>.
 payment-method-header = Vali maksemeetod
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }

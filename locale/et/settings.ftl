@@ -218,8 +218,7 @@ la-description = Sa oled lubanud ligipääsu järgmistele kontodele.
 la-unlink-button = Katkesta ühendus
 la-unlink-account-button = Katkesta ühendus
 la-unlink-heading = Katkesta ühendus kolmanda osapoole kontoga
-la-unlink-content = Kas oled kindel, et soovid katkestada ühenduse { -brand-google }'i kontoga? Konto lahti ühendamine ei logi sind automaatselt nendest teenustest välja. Välja logimiseks pead sa seda tegema ühendatud teenuste sektsioonis käsitsi.
-la-unlink-content-2 = Kas oled kindel, et soovid kontoga ühenduse katkestada? Konto lahti ühendamine ei logi sind automaatselt nendest teenustest välja.Välja logimiseks pead sa seda tegema ühendatud teenuste sektsioonis käsitsi.
+la-unlink-content-3 = Kas oled kindel, et soovid kontoga ühenduse katkestada? Konto lahti ühendamine ei logi sind automaatselt ühendatud teenustest välja.Välja logimiseks pead sa seda tegema ühendatud teenuste sektsioonis käsitsi.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -324,8 +323,8 @@ delete-account-step-1-2 = Samm 1 2st
 delete-account-step-2-2 = Samm 2 2st
 delete-account-confirm-title-2 = Oled ühendanud oma { -product-firefox-account } konto { -brand-mozilla } teenustega, mis hoiavad sind veebis turvalise ja produktiivsena:
 delete-account-acknowledge = Kinnita, et oma konto kustutamisega:
-delete-account-chk-box-1-v2 =
-    .label = Tühistatakse kõik tasulised tellimused (välja arvatud { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Kõik sinu tasulised tellimused tühistatakse
 delete-account-chk-box-2 =
     .label = Võid kaotada salvestatud andmed ja funktsionaalsuse { -brand-mozilla } teenustes
 delete-account-chk-box-3 =
