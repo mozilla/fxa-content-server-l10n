@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox 账户
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Firefox 账户
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play 商店
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox 账户
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = 关闭对话框
 
-## app error dialog
+## App error dialog
 
 general-error-heading = 一般性程序错误
 basic-error-message = 出问题了，请稍后再试。
@@ -48,19 +48,17 @@ instant-payouts-unsupported = 看来您的借记卡不允许即时付款。请�
 duplicate-transaction = 呃，看起来刚刚发生了相同的交易。请检查您的付款记录。
 coupon-expired = 折扣码似乎已过期。
 card-error = 无法处理您的交易。请检查您的信用卡信息，然后重试。
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = 系统出错，导致 { $productName } 订阅失败。尚未扣费，请继续尝试。
 newsletter-signup-error = 您并未订阅接收产品更新邮件，可到账户设置页面中重试。
 fxa-post-passwordless-sub-error = 订阅已确认，但确认页面加载失败。请查收邮件，继续设置账户。
 
-## settings
+## Settings
 
 settings-home = 账户首页
 settings-subscriptions-title = 订阅
 
-## legal footer
+## Legal footer
 
 terms = 服务条款
 privacy = 隐私声明
@@ -75,28 +73,28 @@ subscription-error-title = 确认订阅时出现错误…
 subscription-noplanchange-title = 不支持更改此订阅方案
 subscription-iapsubscribed-title = 已经订阅
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [1] { $productName } 每天收取 { $amount }
        *[other] { $productName } 每 { $intervalCount } 天收取 { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [1] { $productName } 每周收取 { $amount }
        *[other] { $productName } 每 { $intervalCount } 周收取 { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [1] { $productName } 每个月收取 { $amount }
        *[other] { $productName } 每 { $intervalCount } 个月收取 { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
        *[other] { $productName } 每 { $intervalCount } 年收取 { $amount }
@@ -113,7 +111,7 @@ product-customer-error =
 product-plan-not-found = 找不到方案内容
 product-no-such-plan = 此产品无此方案。
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 和 { -brand-name-paypal } 进行安全支付。
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } 隐私政策</paypalPrivacyLink>。
@@ -122,7 +120,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } 隐私�
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } 使用 { -brand-name-stripe } 进行安全支付。
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } 隐私政策</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = 持卡人姓名
@@ -146,19 +144,19 @@ payment-confirm-with-legal-links-day =
         [one] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每天持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
        *[other] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每 { $intervalCount } 天持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每周持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
        *[other] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每 { $intervalCount } 周持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每月持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
        *[other] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每 { $intervalCount } 个月持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每年持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
@@ -176,18 +174,18 @@ payment-validate-name-error = 请输入您的名字
 payment-validate-zip-required = 须填写邮政编码
 payment-validate-zip-short = 邮政编码太短
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = 您的订阅已就绪
 sub-redirect-copy = 请花点时间告诉我们您的体验如何。
 sub-redirect-skip-survey = 不用了，请带我去看我的产品。
 
-## fields
+## Fields
 
 default-input-error = 此字段必填
 input-error-is-required = { $label } 必填
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = 确认您的更改
 sub-change-failed = 方案更改失败
@@ -204,35 +202,35 @@ sub-update-current-plan-label = 目前方案
 sub-update-new-plan-label = 新方案
 sub-update-total-label = 新方案金额
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] 每天 { $amount }
        *[other] 每 { $intervalCount } 天 { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] 每周 { $amount }
        *[other] 每 { $intervalCount } 周 { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] 每月 { $amount }
        *[other] 每 { $intervalCount } 个月 { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] 每年{ $amount }
        *[other] 每 { $intervalCount } 年 { $amount }
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -284,14 +282,14 @@ reactivate-confirm-copy = 您可继续访问 { $name }，账单周期与付款�
 reactivate-confirm-without-payment-method-copy = 您可继续访问 { $name }，账单周期与付款信息将保持不变。下次将于 { $endDate } 收取 { $amount }。
 reactivate-confirm-button = 重新订阅
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = 您已于 { $date } 取消订阅。
 reactivate-panel-copy = 您将在<strong> { $date } </strong>失去对 { $name } 的访问权限。
 reactivate-success-copy = 处理完成，感谢！
 reactivate-success-button = 关闭
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -305,14 +303,14 @@ sub-item-cancel-confirm = 在 { $period } 之后取消我对 { $name } 的访问
 invoice-not-found = 找不到后续发票
 sub-item-no-such-subsequent-invoice = 找不到此订阅的后续发票。
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }：应用内购买
 sub-iap-item-apple-purchase = { -brand-name-apple }：应用内购买
 sub-iap-item-manage-button = 管理
 account-activated = 您的账户已激活，<userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = 正在更新账单信息…
 sub-route-idx-reactivating = 重新激活订阅失败
@@ -339,14 +337,14 @@ sub-route-missing-billing-agreement-payment-alert = 您的账户出现问题，�
 sub-route-funding-source-payment-alert = 您的账户出现问题，付款信息无效。此提醒将在成功更新信息一段时间后清除。<div>点此管理</div>
 pay-update-manage-btn = 管理
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30 天退款保证
 pay-with-heading-other = 选择付款方式
 pay-with-heading-card-or = 或刷卡支付
 pay-with-heading-card-only = 刷卡支付
 
-## plan-details
+## Plan details
 
 plan-details-header = 产品详细信息
 plan-details-show-button = 显示详细信息
@@ -354,7 +352,7 @@ plan-details-hide-button = 隐藏详细信息
 plan-details-total-label = 总计
 plan-details-list-price = 标价
 
-## coupons
+## Coupons
 
 coupon-discount = 折扣
 coupon-discount-applied = 已使用折扣奖励
@@ -371,17 +369,17 @@ coupon-success-repeating = 您的方案将在 { $couponDurationDate } 之后按�
 coupon-enter-code =
     .placeholder = 输入折扣码
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = 请稍候，我们正在处理您的付款…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = 点此下载
 payment-confirmation-mobile-alert = 应用程序没有打开？ <a>请点击此处</a>
 payment-confirmation-thanks-heading = 感谢您！
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -422,7 +420,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = 前往下载
 payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = 已有 { -brand-name-firefox } 账户？<a>马上登录</a>
 new-user-step-1 = 1. 创建 { -brand-name-firefox } 账户
@@ -442,7 +440,7 @@ new-user-already-has-account-sign-in = 您已有账户，<a>请登录</a>
 new-user-card-title = 输入您的卡片信息
 new-user-submit = 立即订阅
 manage-pocket-title = 在寻找您的 { -brand-name-pocket } Premium 订阅吗？
-manage-pocket-body = 若要管理，<a>请点击此处</a>。
+manage-pocket-body-2 = 请<linkExternal>点击此处</linkExternal>进行管理。
 payment-method-header = 选择付款方式
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }

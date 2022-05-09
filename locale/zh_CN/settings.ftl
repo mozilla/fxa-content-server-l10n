@@ -202,8 +202,7 @@ la-description = 您已授权连接下列账号。
 la-unlink-button = 断开连接
 la-unlink-account-button = 断开连接
 la-unlink-heading = 断开与第三方账号的连接
-la-unlink-content = 您确定要断开与 { -brand-google } 账户的连接吗？此操作不会自动将您从这些服务退出。为此，您需要到“关联服务”版块手动退出。
-la-unlink-content-2 = 您确定要断开与账户的连接吗？此操作不会自动将您从这些服务退出。为此，您需要到“关联服务”版块手动退出。
+la-unlink-content-3 = 您确定要断开与账户的连接吗？此操作不会自动将您从这些服务退出。为此，您需要到“关联服务”版块手动退出。
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -305,8 +304,8 @@ delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
 delete-account-confirm-title-2 = 您已将 { -product-firefox-account }关联至可让您更安全、更高效地畅游网络的 { -brand-mozilla } 产品：
 delete-account-acknowledge = 请确认，若您真要删除账户：
-delete-account-chk-box-1-v2 =
-    .label = 将取消所有付费订阅项目（{ product-pocket } 除外）
+delete-account-chk-box-1-v3 =
+    .label = 将取消您的所有付费订阅内容
 delete-account-chk-box-2 =
     .label = 您可能丢失在 { -brand-mozilla } 产品中保存的信息以及功能
 delete-account-chk-box-3 =
