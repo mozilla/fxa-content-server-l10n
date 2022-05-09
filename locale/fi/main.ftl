@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox-tilit
 -brand-name-mozilla =
@@ -19,7 +19,7 @@ project-brand = Firefox-tilit
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Kauppa
 # App Store here refers to Apple's App Store not the generic app store.
@@ -27,12 +27,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox-tilit
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Sulje valintaikkuna
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Yleinen sovellusvirhe
 basic-error-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
@@ -54,19 +54,17 @@ instant-payouts-unsupported = Vaikuttaa siltä, että debit-kortissasi ei ole ot
 duplicate-transaction = Hmm. Vaikuttaa siltä, että sama tapahtuma lähetettiin juuri. Tarkista maksuhistoriasi.
 coupon-expired = Vaikuttaa siltä, että tarjouskoodi on vanhentunut.
 card-error = Tapahtuman käsittely epäonnistui. Tarkista kortin tiedot ja yritä uudestaan.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Järjestelmävirhe aiheutti { $productName } -rekisteröitymisen epäonnistumisen. Maksutapaasi ei ole veloitettu. Yritä uudelleen.
 newsletter-signup-error = Et ole tilannut tuotepäivityksiin liittyviä sähköposteja. Voit yrittää uudelleen tilisi asetuksista.
 fxa-post-passwordless-sub-error = Tilaus on vahvistettu, mutta vahvistussivun lataaminen epäonnistui. Tarkista sähköpostistasi ohjeet, kuinka määrität tilin valmiiksi.
 
-## settings
+## Settings
 
 settings-home = Tilin koti
 settings-subscriptions-title = Tilaukset
 
-## legal footer
+## Legal footer
 
 terms = Käyttöehdot
 privacy = Tietosuojakäytäntö
@@ -81,28 +79,28 @@ subscription-error-title = Virhe tilausta vahvistaessa…
 subscription-noplanchange-title = Tämä tilaustyypin vaihtaminen ei ole tuettu
 subscription-iapsubscribed-title = Tilattu jo aiemmin
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } laskutetaan { $amount } päivittäin
        *[other] { $productName } laskutetaan { $amount } joka { $intervalCount }. päivä
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } laskutetaan { $amount } viikoittain
        *[other] { $productName } laskutetaan { $amount } joka { $intervalCount }. viikko
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } laskutetaan { $amount } kuukausittain
        *[other] { $productName } laskutetaan { $amount } joka { $intervalCount }. kuukausi
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } laskutetaan { $amount } vuosittain
@@ -120,7 +118,7 @@ product-customer-error =
 product-plan-not-found = Tilaustyyppiä ei löytynyt
 product-no-such-plan = Tälle tuotteelle ei ole olemassa kyseistä tilaustyyppiä.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } käyttää { -brand-name-stripe }a ja { -brand-name-paypal }ia maksujen turvalliseen käsittelyyn.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }n tietosuojakäytäntö</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }in tietosuojakäytäntö</paypalPrivacyLink>.
@@ -129,7 +127,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal }in tietos
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } käyttää { -brand-name-stripe }a maksujen turvalliseen käsittelyyn.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }n tietosuojakäytäntö</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Koko nimi
@@ -153,19 +151,19 @@ payment-confirm-with-legal-links-day =
         [one] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } päivittäin</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
        *[other] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } { $intervalCount } päivän välein</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } viikoittain</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
        *[other] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } { $intervalCount } viikon välein</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } kuukausittain</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
        *[other] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } { $intervalCount } kuukauden välein</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } vuosittain</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
@@ -183,18 +181,18 @@ payment-validate-name-error = Kirjoita nimesi
 payment-validate-zip-required = Postinumero on pakollinen
 payment-validate-zip-short = Postinumero on liian lyhyt
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Tilauksesi on valmis
 sub-redirect-copy = Kerro meille kokemuksestasi.
 sub-redirect-skip-survey = Ei kiitos, vie minut tuotteeni luo.
 
-## fields
+## Fields
 
 default-input-error = Tämä kenttä on pakollinen
 input-error-is-required = { $label } vaaditaan
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Tarkista muutos
 sub-change-failed = Tilaustyypin vaihtaminen epäonnistui
@@ -211,35 +209,35 @@ sub-update-current-plan-label = Nykyinen tilaustyyppi
 sub-update-new-plan-label = Uusi tilaustyyppi
 sub-update-total-label = Uusi summa
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } päivittäin
        *[other] { $amount } joka { $intervalCount }. päivä
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } viikoittain
        *[other] { $amount } joka { $intervalCount }. viikko
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } kuukausittain
        *[other] { $amount } joka { $intervalCount }. kuukausi
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } vuosittain
        *[other] { $amount } joka { $intervalCount }. vuosi
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -297,14 +295,14 @@ reactivate-confirm-without-payment-method-copy =
     tulee olemaan { $amount } { $endDate }.
 reactivate-confirm-button = Tilaa uudelleen
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Peruutit tilauksesi { $date }.
 reactivate-panel-copy = Käyttöoikeutesi palveluun { $name } päättyy <strong>{ $date }</strong>.
 reactivate-success-copy = Kiitos! Kaikki on nyt valmiina.
 reactivate-success-button = Sulje
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -322,14 +320,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Seuraavaa laskua ei löydy
 sub-item-no-such-subsequent-invoice = Seuraavaa laskua ei löydy tälle tilaukselle.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Sovelluksen sisäinen osto
 sub-iap-item-apple-purchase = { -brand-name-apple }: Sovelluksen sisäinen osto
 sub-iap-item-manage-button = Hallitse
 account-activated = Tilisi on aktivoitu, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Päivitetään laskutustietoja…
 sub-route-idx-reactivating = Tilauksen aktivointi uudelleen epäonnistui
@@ -356,14 +354,14 @@ sub-route-missing-billing-agreement-payment-alert = Virheelliset maksutiedot. Ti
 sub-route-funding-source-payment-alert = Virheelliset maksutiedot; tililläsi on virhe. Tämän hälytyksen poistaminen voi kestää jonkin aikaa, kun olet päivittänyt tietosi. <div>Hallinnoi</div>
 pay-update-manage-btn = Hallitse
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30 päivän rahat takaisin -takuu
 pay-with-heading-other = Valitse maksutapa
 pay-with-heading-card-or = Tai maksa kortilla
 pay-with-heading-card-only = Maksa kortilla
 
-## plan-details
+## Plan details
 
 plan-details-header = Tuotteen tiedot
 plan-details-show-button = Näytä tiedot
@@ -371,7 +369,7 @@ plan-details-hide-button = Piilota tiedot
 plan-details-total-label = Yhteensä
 plan-details-list-price = Listahinta
 
-## coupons
+## Coupons
 
 coupon-discount = Alennus
 coupon-discount-applied = Alennuspalkkio sovellettu
@@ -388,17 +386,17 @@ coupon-success-repeating = Tilauksesi uusiutuu automaattisesti { $couponDuration
 coupon-enter-code =
     .placeholder = Kirjoita koodi
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Odota kun käsittelemme maksuasi…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Napsauta tästä ladataksesi
 payment-confirmation-mobile-alert = Eikö sovellus avautunut? <a>Napsauta tästä</a>
 payment-confirmation-thanks-heading = Kiitos!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -443,7 +441,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Jatka lataamiseen
 payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Onko sinulla jo { -brand-name-firefox }-tili? <a>Kirjaudu sisään</a>
 new-user-step-1 = 1. Luo { -brand-name-firefox }-tili
@@ -463,7 +461,7 @@ new-user-already-has-account-sign-in = Sinulla on jo tili. <a>Kirjaudu sisään<
 new-user-card-title = Anna korttisi tiedot
 new-user-submit = Tilaa nyt
 manage-pocket-title = Etsitkö { -brand-name-pocket }in premium-tilaustasi?
-manage-pocket-body = Hallinnoi sitä <a>napsauttamalla tästä</a>.
+manage-pocket-body-2 = Hallinnoi sitä <linkExternal>napsauttamalla tästä</linkExternal>.
 payment-method-header = Valitse maksutapa
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
