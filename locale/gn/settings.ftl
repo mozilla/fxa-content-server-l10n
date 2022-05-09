@@ -218,8 +218,7 @@ la-description = Eikekuaa apañuãi’ỹre ko’ã mba’etépe.
 la-unlink-button = Pe’aite
 la-unlink-account-button = Pe’aite
 la-unlink-heading = Eipe’aite mbohapyháva mba’etégui
-la-unlink-content = ¿Eipe’asépa añetehápe ne mba’ete { -brand-google }-gui? Eipe’ávo ne mba’ete ndaha’éi esẽtamava pya’ekuépe umi mba’epurúgui. Ejapo hag̃ua, embotyva’erã tembiapo nde pópe pe mba’apuru jeikepyréva ndive.
-la-unlink-content-2 = ¿Eipe’asépa añetehápe ne mba’ete? Eipe’ávo ne mba’ete ndaha’éi esẽtakuaámava pya’ekuépe umi mba’epurúgui. Ejapo hag̃ua péicha, embotyraẽva’erã tembiapo nde pópe pe Mba’apuru jeikepyréva ndive.
+la-unlink-content-3 = ¿Eipe’asépa añetehápe ne mba’ete? Eipe’ávo ne mba’ete ndaha’éi esẽtakuaámava pya’ekuépe umi mba’epurúgui. Ejapo hag̃ua upéicha, embotyraẽva’erã tembiapo nde pópe pe Mba’apuru jeikepyréva ndive.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -326,8 +325,8 @@ delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
 delete-account-confirm-title-2 = Embojuju ne { -product-firefox-account } { -brand-mozilla } rehe apopyre nemohekorosã térã nemboha’evéva ñandutípe:
 delete-account-acknowledge = Nemandu’áke emboguetéramo ne mba’ete:
-delete-account-chk-box-1-v2 =
-    .label = Oimeraẽva jehepyme’ẽ mboheraguapy erekóva oñemboykéta (ndaha’éiva { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Umi ñemboheraguapy rehepyme’ẽva’ekue opytareíta
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
 delete-account-chk-box-3 =
