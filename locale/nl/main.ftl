@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Firefox Accounts
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox Accounts
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Modal sluiten
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Algemene toepassingsfout
 basic-error-message = Er is iets misgegaan. Probeer het later opnieuw.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Het lijkt erop dat uw bankpas niet is ingesteld vo
 duplicate-transaction = Hmm. Het lijkt erop dat zojuist een identieke transactie is verzonden. Controleer uw betalingsgeschiedenis.
 coupon-expired = Het lijkt erop dat die promotiecode is verlopen.
 card-error = Uw transactie kon niet worden verwerkt. Controleer uw creditcardgegevens en probeer het opnieuw.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Door een systeemfout is uw registratie bij { $productName } mislukt. Er zijn geen kosten in rekening gebracht bij uw betaalmethode. Probeer het opnieuw.
 newsletter-signup-error = U bent niet ingeschreven voor e-mailberichten over productupdates. U kunt het opnieuw proberen in uw accountinstellingen.
 fxa-post-passwordless-sub-error = Abonnement bevestigd, maar de bevestigingspagina kan niet worden geladen. Controleer uw e-mail om uw account in te stellen.
 
-## settings
+## Settings
 
 settings-home = Account-startpagina
 settings-subscriptions-title = Abonnementen
 
-## legal footer
+## Legal footer
 
 terms = Servicevoorwaarden
 privacy = Privacyverklaring
@@ -75,28 +73,28 @@ subscription-error-title = Fout bij bevestigen abonnement…
 subscription-noplanchange-title = Deze abonnementswijziging wordt niet ondersteund
 subscription-iapsubscribed-title = Al geabonneerd
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } heeft dagelijks { $amount } in rekening gebracht
        *[other] { $productName } heeft elke { $intervalCount } dagen { $amount } in rekening gebracht
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } heeft wekelijks { $amount } in rekening gebracht
        *[other] { $productName } heeft elke { $intervalCount } weken { $amount } in rekening gebracht
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } heeft maandelijks { $amount } in rekening gebracht
        *[other] { $productName } heeft elke { $intervalCount } maanden { $amount } in rekening gebracht
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } heeft jaarlijks { $amount } in rekening gebracht
@@ -114,7 +112,7 @@ product-customer-error =
 product-plan-not-found = Schema niet gevonden
 product-no-such-plan = Een dergelijk schema bestaat niet voor dit product.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } gebruikt { -brand-name-stripe } en { -brand-name-paypal } voor veilig betalingsverkeer.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }-privacybeleid</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }-privacybeleid</paypalPrivacyLink>.
@@ -123,7 +121,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal }-privacyb
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } gebruikt { -brand-name-stripe } voor veilig betalingsverkeer.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }-privacybeleid</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Volledige naam
@@ -147,19 +145,19 @@ payment-confirm-with-legal-links-day =
         [one] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>dagelijks { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
        *[other] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>elke { $intervalCount }{ $intervalCount } dagen { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>wekelijks { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
        *[other] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>elke { $intervalCount } weken { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>maandelijks { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
        *[other] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>elke { $intervalCount } maanden { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode met <strong>jaarlijks { $amount }</strong> te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
@@ -177,18 +175,18 @@ payment-validate-name-error = Voer uw naam in
 payment-validate-zip-required = Postcode is vereist
 payment-validate-zip-short = Postcode is te kort
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Uw abonnement is klaar
 sub-redirect-copy = Neem een ogenblik om ons te vertellen over uw ervaring.
 sub-redirect-skip-survey = Nee bedankt, breng me naar mijn product.
 
-## fields
+## Fields
 
 default-input-error = Dit veld is verplicht
 input-error-is-required = { $label } is verplicht
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Uw wijziging bekijken
 sub-change-failed = Abonnementswijziging mislukt
@@ -208,35 +206,35 @@ sub-update-current-plan-label = Huidig schema
 sub-update-new-plan-label = Nieuw schema
 sub-update-total-label = Nieuw totaalbedrag
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] dagelijks { $amount }
        *[other] elke { $intervalCount } dagen { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] wekelijks { $amount }
        *[other] elke { $intervalCount } weken { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] maandelijks { $amount }
        *[other] elke { $intervalCount } maanden { $amount }
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] jaarlijks { $amount }
        *[other] elke { $intervalCount } jaar { $amount }
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -294,14 +292,14 @@ reactivate-confirm-without-payment-method-copy =
     { $amount } op { $endDate }.
 reactivate-confirm-button = Opnieuw inschrijven
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = U hebt uw abonnement op { $date } opgezegd.
 reactivate-panel-copy = U verliest op <strong>{ $date }</strong> toegang tot { $name }.
 reactivate-success-copy = Bedankt! U bent helemaal klaar.
 reactivate-success-button = Sluiten
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -319,14 +317,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Volgende factuur niet gevonden
 sub-item-no-such-subsequent-invoice = Volgende factuur niet gevonden voor dit abonnement.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: in-app-aankoop
 sub-iap-item-apple-purchase = { -brand-name-apple }: in-app-aankoop
 sub-iap-item-manage-button = Beheren
 account-activated = Uw account is geactiveerd, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Facturatiegegevens bijwerken…
 sub-route-idx-reactivating = Opnieuw activeren van abonnement is mislukt
@@ -353,14 +351,14 @@ sub-route-missing-billing-agreement-payment-alert = Ongeldige betalingsgegevens;
 sub-route-funding-source-payment-alert = Ongeldige betalingsgegevens; er is een fout opgetreden met uw account. Deze waarschuwing verdwijnt mogelijk pas enige tijd nadat u met succes uw gegevens hebt bijgewerkt. <div>Beheren</div>
 pay-update-manage-btn = Beheren
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30-dagen-geldteruggarantie
 pay-with-heading-other = Selecteer betalingsoptie
 pay-with-heading-card-or = Of betaal met kaart
 pay-with-heading-card-only = Betalen met kaart
 
-## plan-details
+## Plan details
 
 plan-details-header = Productdetails
 plan-details-show-button = Details tonen
@@ -368,7 +366,7 @@ plan-details-hide-button = Details verbergen
 plan-details-total-label = Totaal
 plan-details-list-price = Normale prijs
 
-## coupons
+## Coupons
 
 coupon-discount = Korting
 coupon-discount-applied = Kortingsbeloning toegepast
@@ -385,17 +383,17 @@ coupon-success-repeating = Uw abonnement wordt na { $couponDurationDate } automa
 coupon-enter-code =
     .placeholder = Code invoeren
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Een ogenblik terwijl we uw betaling verwerken…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Klik hier om te downloaden
 payment-confirmation-mobile-alert = App niet geopend? <a>Klik hier</a>
 payment-confirmation-thanks-heading = Bedankt!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -440,7 +438,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Doorgaan naar download
 payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Hebt u al een { -brand-name-firefox }-account? <a>Aanmelden</a>
 new-user-step-1 = 1. Maak een { -brand-name-firefox }-account aan
@@ -460,7 +458,7 @@ new-user-already-has-account-sign-in = U hebt al een account. <a>Aanmelden</a>
 new-user-card-title = Voer uw kaartgegevens in
 new-user-submit = Nu abonneren
 manage-pocket-title = Op zoek naar uw abonnement op { -brand-name-pocket } premium?
-manage-pocket-body = <a>Klik hier</a> om het te beheren.
+manage-pocket-body-2 = <linkExternal>Klik hier</linkExternal> om dit te beheren.
 payment-method-header = Kies uw betalingsmethode
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
