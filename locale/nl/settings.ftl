@@ -218,8 +218,7 @@ la-description = U hebt toegang tot de volgende accounts geautoriseerd.
 la-unlink-button = Ontkoppelen
 la-unlink-account-button = Ontkoppelen
 la-unlink-heading = Ontkoppelen van externe account
-la-unlink-content = Weet u zeker dat u uw { -brand-google }-account wilt ontkoppelen? Als u uw account ontkoppelt, wordt u niet automatisch afgemeld bij die services. Om dat te doen, moet u zich handmatig afmelden vanuit de sectie Verbonden services.
-la-unlink-content-2 = Weet u zeker dat u uw account wilt ontkoppelen? Als u uw account ontkoppelt, wordt u niet automatisch afgemeld bij die services. Om dat te doen, moet u zich handmatig afmelden vanuit de sectie Verbonden services.
+la-unlink-content-3 = Weet u zeker dat u uw account wilt ontkoppelen? Als u uw account ontkoppelt, wordt u niet automatisch afgemeld bij uw verbonden services. Om dat te doen, moet u zich handmatig afmelden vanuit de sectie Verbonden services.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -326,8 +325,8 @@ delete-account-step-1-2 = Stap 1 van 2
 delete-account-step-2-2 = Stap 2 van 2
 delete-account-confirm-title-2 = U hebt uw { -product-firefox-account } verbonden met { -brand-mozilla }-producten die u veilig en productief houden op internet:
 delete-account-acknowledge = Bevestig dat door uw account te verwijderen:
-delete-account-chk-box-1-v2 =
-    .label = Al uw betaalde abonnementen worden opgezegd (behalve { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Al uw betaalde abonnementen worden opgezegd
 delete-account-chk-box-2 =
     .label = U opgeslagen informatie en functies in { -brand-mozilla }-producten kunt verliezen
 delete-account-chk-box-3 =
