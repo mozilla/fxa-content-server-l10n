@@ -369,6 +369,7 @@ coupon-submit = Aplicar
 coupon-remove = Remover
 coupon-error = O código que inseriu é inválido ou expirou.
 coupon-error-expired = O código que introduziu expirou.
+coupon-error-limit-reached = O código que introduziu chegou ao seu limite.
 coupon-error-invalid = O código que introduziu é inválido.
 coupon-enter-code =
     .placeholder = Introduzir código
