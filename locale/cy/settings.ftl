@@ -216,8 +216,7 @@ la-description = Rydych wedi awdurdodi mynediad i'r cyfrifon canlynol.
 la-unlink-button = Datgysylltu
 la-unlink-account-button = Datgysylltu
 la-unlink-heading = Datgysylltu o gyfrif trydydd parti
-la-unlink-content = A ydych yn siŵr eich bod am ddatgysylltu eich cyfrif { -brand-google }? Nid yw datgysylltu'ch cyfrif yn eich allgofnodi'n awtomatig o'r gwasanaethau hynny. I wneud hynny bydd angen i chi allgofnodi â llaw o'r adran gwasanaethau Cysylltiedig.
-la-unlink-content-2 = A ydych yn siŵr eich bod am ddatgysylltu eich cyfrif? Nid yw datgysylltu'ch cyfrif yn eich allgofnodi'n awtomatig o'r gwasanaethau hynny. I wneud hynny bydd angen i chi allgofnodi â llaw o'r adran gwasanaethau Cysylltiedig.
+la-unlink-content-3 = Ydych chi'n siŵr eich bod am ddatgysylltu eich cyfrif? Nid yw datgysylltu'ch cyfrif yn eich allgofnodi'n awtomatig o'r gwasanaethau hynny. I wneud hynny bydd angen i chi allgofnodi â llaw o'r adran Gwasanaethau Cysylltiedig.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -324,8 +323,8 @@ delete-account-step-1-2 = Cam 1 o 2
 delete-account-step-2-2 = Cam 2 o 2
 delete-account-confirm-title-2 = Rydych wedi cysylltu'ch { -product-firefox-account } â chynnyrch { -brand-mozilla } sy'n eich cadw'n ddiogel ac yn gynhyrchiol ar y we:
 delete-account-acknowledge = Cydnabyddwch hynny trwy ddileu eich cyfrif:
-delete-account-chk-box-1-v2 =
-    .label = Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu( Ac eithrio { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu
 delete-account-chk-box-2 =
     .label = Efallai y byddwch yn colli manylion a nodweddion sydd wedi'u cadw o fewn cynnyrch { -brand-mozilla }
 delete-account-chk-box-3 =

@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Cyfrifon Firefox
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Cyfrifon Firefox
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Cyfrifon Firefox
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Cau'r moddol
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Gwall rhaglen cyffredinol
 basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Mae'n edrych fel nad yw'ch cerdyn debyd wedi'i oso
 duplicate-transaction = Hmm. Yn edrych fel bod trafodyn tebyg wedi'i anfon. Gwiriwch eich hanes talu.
 coupon-expired = Mae'n edrych fel bod y cod hyrwyddo wedi dod i ben.
 card-error = Nid oedd modd prosesu eich trafodyn. Gwiriwch fanylion eich cerdyn credyd a rhoi cynnig arall arni.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Achosodd gwall system i'ch mewngofnodi i { $productName } fethu. Nid oes taliad wedi ei godi ar eich dull talu. Ceisiwch eto.
 newsletter-signup-error = Nid ydych wedi cofrestru ar gyfer e-byst newyddion am ein cynnyrch. Gallwch geisio eto yn eich gosodiadau cyfrif.
 fxa-post-passwordless-sub-error = Cadarnhawyd eich tanysgrifiad, ond methodd y dudalen gadarnhau â llwytho. Gwiriwch eich e-bost i greu eich cyfrif.
 
-## settings
+## Settings
 
 settings-home = Cartref Cyfrif
 settings-subscriptions-title = Tanysgrifiadau
 
-## legal footer
+## Legal footer
 
 terms = Amodau Gwasanaeth
 privacy = Hysbysiad Preifatrwydd
@@ -75,10 +73,10 @@ subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad…
 subscription-noplanchange-title = Nid yw newid cynllun tanysgrifio yn cael ei gynnal
 subscription-iapsubscribed-title = Eisoes wedi tanysgrifio
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [zero] Mae { $productName } yn cael ei filio { $amount } bob{ $intervalCount } diwrnod
@@ -88,7 +86,7 @@ day-based-plan-details-amount =
         [many] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } niwrnod
        *[other] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } diwrnod
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [zero] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } wythnos
@@ -98,7 +96,7 @@ week-based-plan-details-amount =
         [many] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } wythnos
        *[other] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } wythnos
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [zero] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } mis
@@ -108,7 +106,7 @@ month-based-plan-details-amount =
         [many] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } mis
        *[other] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } mis
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [zero] Mae { $productName } yn cael ei filio { $amount } bob { $intervalCount } blwyddyn
@@ -130,7 +128,7 @@ product-customer-error =
 product-plan-not-found = Heb ganfod y cynllun
 product-no-such-plan = Dim cynllun o'r fath ar gyfer y cynnyrch hwn.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } a { -brand-name-paypal } ar gyfer prosesu taliadau diogel.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>polisi preifatrwydd { -brand-name-stripe }</stripePrivacyLink> a <paypalPrivacyLink>pholisi preifatrwydd { -brand-name-paypal }</paypalPrivacyLink>.
@@ -139,7 +137,7 @@ payment-legal-link-paypal-2 = Gweld polisi preifatrwydd <paypalPrivacyLink> { -b
 payment-legal-copy-stripe-2 = Mae { -brand-name-mozilla } yn defnyddio { -brand-name-stripe } ar gyfer prosesu taliadau diogel.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Polisi preifatrwydd { -brand-name-stripe }</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Enw Llawn
@@ -167,7 +165,7 @@ payment-confirm-with-legal-links-day =
         [many] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } niwrnod</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
        *[other] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } diwrnod</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [zero] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } wythnos</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
@@ -177,7 +175,7 @@ payment-confirm-with-legal-links-week =
         [many] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } wythnos</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
        *[other] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } wythnos</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [zero] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } mis</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
@@ -187,7 +185,7 @@ payment-confirm-with-legal-links-month =
         [many] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } mis</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
        *[other] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } mis</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [zero] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } blwyddyn</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
@@ -209,18 +207,18 @@ payment-validate-name-error = Rhowch eich enw
 payment-validate-zip-required = Mae angen cod post
 payment-validate-zip-short = Mae'r cod post yn rhy fyr
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Mae eich tanysgrifiad yn barod
 sub-redirect-copy = Cymerwch eiliad i ddweud wrthym am eich profiad.
 sub-redirect-skip-survey = Dim diolch, dim ond mynd â mi at fy nghynnyrch.
 
-## fields
+## Fields
 
 default-input-error = Mae angen llanw'r maes hwn
 input-error-is-required = Mae angen { $label }
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Gwiriwch eich newid
 sub-change-failed = Methodd newid y cynllun
@@ -240,10 +238,10 @@ sub-update-current-plan-label = Cynllun cyfredol
 sub-update-new-plan-label = Cynllun newydd
 sub-update-total-label = Cyfanswm newydd
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [zero] { $amount } bob { $intervalCount } ddiwrnod
@@ -253,7 +251,7 @@ plan-price-day =
         [many] { $amount } bob { $intervalCount } niwrnod
        *[other] { $amount } bob { $intervalCount } diwrnod
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [zero] { $amount } bob { $intervalCount } wythnos
@@ -263,7 +261,7 @@ plan-price-week =
         [many] { $amount } bob { $intervalCount } wythnos
        *[other] { $amount } bob { $intervalCount } wythnos
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [zero] { $amount } bob { $intervalCount } mis
@@ -273,7 +271,7 @@ plan-price-month =
         [many] { $amount } bob { $intervalCount } mis
        *[other] { $amount } bob { $intervalCount } mis
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [zero] { $amount } bob { $intervalCount } blynedd
@@ -284,7 +282,7 @@ plan-price-year =
        *[other] { $amount } bob { $intervalCount } blynedd
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -358,14 +356,14 @@ reactivate-confirm-without-payment-method-copy =
      { $amount } ar { $endDate }.
 reactivate-confirm-button = Ail-danysgrifio
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Fe wnaethoch chi ddiddymu'ch tanysgrifiad ar { $date }.
 reactivate-panel-copy = Byddwch yn colli mynediad i { $name } ar <strong>{ $date }</strong>.
 reactivate-success-copy = Diolch! Rydych nawr yn barod.
 reactivate-success-button = Cau
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -383,14 +381,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Heb ganfod yr anfoneb ddilynol
 sub-item-no-such-subsequent-invoice = Heb ganfod anfoneb ddilynol y tanysgrifiad hwn.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Prynu o fewn yr ap
 sub-iap-item-apple-purchase = { -brand-name-apple }: Prynu o fewn yr ap
 sub-iap-item-manage-button = Rheoli
 account-activated = Mae eich cyfrif wedi'i agor, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Diweddaru'r manylion bilio…
 sub-route-idx-reactivating = Methodd ail agor tanysgrifiad
@@ -417,14 +415,14 @@ sub-route-missing-billing-agreement-payment-alert = Manylion talu annilys; mae g
 sub-route-funding-source-payment-alert = Manylion talu annilys; mae gwall gyda'ch cyfrif. Efallai y bydd y rhybudd hwn yn cymryd peth amser i'w glirio ar ôl i chi ddiweddaru'ch manylion yn llwyddiannus. <div> Rheoli </div>
 pay-update-manage-btn = Rheoli
 
-## subscription create
+## Subscription create
 
 sub-guarantee = Gwarant arian-yn-ôl 30 diwrnod
 pay-with-heading-other = Dewiswch yr opsiwn talu
 pay-with-heading-card-or = Neu dalu gyda cherdyn
 pay-with-heading-card-only = Talu gyda cherdyn
 
-## plan-details
+## Plan details
 
 plan-details-header = Manylion cynnyrch
 plan-details-show-button = Dangos manylion
@@ -432,7 +430,7 @@ plan-details-hide-button = Cuddio manylion
 plan-details-total-label = Cyfanswm
 plan-details-list-price = Rhestr Prisiau
 
-## coupons
+## Coupons
 
 coupon-discount = Gostyngiad
 coupon-discount-applied = Gwobr Gostyngiad wedi'i Gynnwys
@@ -449,17 +447,17 @@ coupon-success-repeating = Bydd eich cynllun yn adnewyddu'n awtomatig ar ôl { $
 coupon-enter-code =
     .placeholder = Rhowch y Cod
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Arhoswch tra'n bod ni'n prosesu'ch taliad…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Cliciwch yma i lwytho i lawr
 payment-confirmation-mobile-alert = Heb agor yr ap? <a>Cliciwch Yma</a>
 payment-confirmation-thanks-heading = Diolch yn fawr!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -520,7 +518,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Parhau i lwytho i lawr
 payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Eisoes â chyfrif { -brand-name-firefox }? <a>Mewngofnodi</a>
 new-user-step-1 = Creu cyfrif { -brand-name-firefox }
@@ -540,7 +538,7 @@ new-user-already-has-account-sign-in = Mae gennych gyfrif eisoes. <a>Mewngofnodi
 new-user-card-title = Rhowch fanylion eich cerdyn
 new-user-submit = Tanysgrifiwch Nawr
 manage-pocket-title = Yn chwilio am eich tanysgrifiad premiwm { -brand-name-pocket }?
-manage-pocket-body = I'w reoli, <a>cliciwch yma</a>.
+manage-pocket-body-2 = I'w reoli, <linkExternal>cliciwch yma</linkExternal>.
 payment-method-header = Dewiswch eich dull talu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
