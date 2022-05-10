@@ -3,20 +3,21 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
 document =
     .title = Firefox Accounts
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = ปิดโมดอล
 
-## app error dialog
+## App error dialog
 
 general-error-heading = ข้อผิดพลาดแอปพลิเคชันทั่วไป
 basic-error-message = มีบางอย่างผิดปกติ โปรดลองอีกครั้งในภายหลัง
@@ -32,12 +33,12 @@ duplicate-transaction = อืม ดูเหมือนว่าเพิ่�
 coupon-expired = ดูเหมือนว่ารหัสโปรโมชั่นจะหมดอายุแล้ว
 card-error = ไม่สามารถประมวลผลธุรกรรมของคุณได้ โปรดยืนยันข้อมูลบัตรเครดิตของคุณแล้วลองอีกครั้ง
 
-## settings
+## Settings
 
 settings-home = หน้าแรกบัญชี
 settings-subscriptions-title = การบอกรับ
 
-## legal footer
+## Legal footer
 
 terms = เงื่อนไขการให้บริการ
 privacy = ประกาศความเป็นส่วนตัว
@@ -46,25 +47,25 @@ privacy = ประกาศความเป็นส่วนตัว
 
 subscription-success-title = ยืนยันการบอกรับ
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
        *[other] { $productName } เรียกเก็บเงินจำนวน { $amount } ทุก { $intervalCount } วัน
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
        *[other] { $productName } เรียกเก็บเงินจำนวน { $amount } ทุก { $intervalCount } สัปดาห์
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
        *[other] { $productName } เรียกเก็บเงินจำนวน { $amount } ทุก { $intervalCount } เดือน
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
        *[other] { $productName } เรียกเก็บเงินจำนวน { $amount } ทุก { $intervalCount } ปี
@@ -81,10 +82,10 @@ product-customer-error =
 product-plan-not-found = ไม่พบแผน
 product-no-such-plan = ไม่มีแผนดังกล่าวสำหรับผลิตภัณฑ์นี้
 
-## payment legal blurb
+## Payment legal blurb
 
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = ชื่อเต็ม
@@ -112,60 +113,52 @@ payment-validate-name-error = โปรดป้อนชื่อของค�
 payment-validate-zip-required = ต้องระบุรหัสไปรษณีย์
 payment-validate-zip-short = รหัสไปรษณีย์สั้นเกินไป
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = การบอกรับของคุณพร้อมแล้ว
 sub-redirect-copy = โปรดสละเวลาสักครู่เพื่อบอกเราเกี่ยวกับประสบการณ์ของคุณ
 sub-redirect-skip-survey = ไม่ ขอบคุณ แค่พาฉันไปที่ผลิตภัณฑ์ของฉันก็พอ
 
-## fields
+## Fields
 
 default-input-error = จำเป็นต้องกรอกข้อมูลในช่องนี้
 input-error-is-required = จำเป็นต้องกรอก { $label }
 
-## subscription upgrade
+## Subscription upgrade
 
-product-plan-upgrade-heading = ตรวจสอบการอัปเกรดของคุณ
-sub-update-failed = การอัปเดตแผนล้มเหลว
 sub-update-card-exp = หมดอายุ { $cardExpMonth }/{ $cardExpYear }
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ##
 
-sub-update-submit = ยืนยันการอัปเกรด
-sub-update-indicator =
-    .aria-label = ตัวบ่งชี้การอัปเกรด
 sub-update-current-plan-label = แผนปัจจุบัน
 sub-update-new-plan-label = แผนใหม่
 sub-update-total-label = ยอดรวมใหม่
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
        *[other] { $amount } ทุก { $intervalCount } วัน
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
        *[other] { $amount } ทุก { $intervalCount } สัปดาห์
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
        *[other] { $amount } ทุก { $intervalCount } เดือน
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
        *[other] { $amount } ทุก { $intervalCount } ปี
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -204,45 +197,61 @@ pay-update-change-btn = เปลี่ยน
 reactivate-confirm-dialog-header = ต้องการใช้ { $name } ต่อไปหรือไม่?
 reactivate-confirm-button = บอกรับใหม่
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = คุณยกเลิกการบอกรับของคุณแล้วเมื่อ { $date }
 reactivate-success-button = ปิด
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
 sub-item-missing-msg = โปรดลองอีกครั้งในภายหลัง
 sub-item-cancel-sub = ยกเลิกการบอกรับ
 
-## subscription route index
+## Subscription iap item
 
 
-## subscription create
+## Subscription route index
+
+
+## Subscription create
 
 pay-with-heading-other = เลือกตัวเลือกการชำระเงิน
 pay-with-heading-card-or = หรือชำระด้วยบัตร
 pay-with-heading-card-only = ชำระด้วยบัตร
 
-## plan-details
+## Plan details
 
 plan-details-header = รายละเอียดสินค้า
 plan-details-show-button = แสดงรายละเอียด
 plan-details-hide-button = ซ่อนรายละเอียด
 plan-details-total-label = รวมทั้งหมด
 
-## payment-processing
+## Coupons
 
 
-## payment confirmation
+## Payment processing
+
+
+## Payment confirmation
 
 payment-confirmation-alert = คลิกที่นี่เพื่อดาวน์โหลด
 payment-confirmation-thanks-heading = ขอบคุณ!
+
+## Payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = รายละเอียดการสั่งซื้อ
 payment-confirmation-invoice-number = ใบแจ้งหนี้ #{ $invoiceNumber }
 payment-confirmation-billing-heading = เรียกเก็บเงินถึง
-payment-confirmation-details-heading = รายละเอียดการจ่ายเงิน
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
+
+
+## New user email form
 
