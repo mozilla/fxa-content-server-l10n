@@ -52,6 +52,7 @@ automated-email-plaintext = Гэты электронны ліст створа�
 change-password-plaintext = Калі вы падазраяце, што хтосьці спрабуе атрымаць доступ да вашага ўліковага запісу, калі ласка, змяніце пароль.
 manage-account = Кіраванне ўліковым запісам
 manage-account-plaintext = { manage-account }:
+payment-details = Рэквізіты аплаты:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Нумар рахунка-фактуры: { $invoiceNumber }
@@ -119,6 +120,7 @@ postRemoveAccountRecovery-invalid = Гэты ключ аднаўлення бо�
 postRemoveSecondary-subject = Другі адрас эл.пошты выдалены
 postRemoveSecondary-title = Другі адрас эл.пошты выдалены
 postRemoveSecondary-action = Кіраванне ўліковым запісам
+postRemoveTwoStepAuthentication-subject-line = Двухэтапная аўтарызацыя выключана
 postRemoveTwoStepAuthentication-title = Двухэтапная аўтарызацыя адключана
 postRemoveTwoStepAuthentication-action = Кіраванне ўліковым запісам
 postRemoveTwoStepAuthentication-not-required = Коды бяспекі больш не будуць патрабавацца пры кожным ўваходзе.
@@ -131,6 +133,26 @@ recovery-subject = Скінуць пароль
 recovery-title = Трэба скінуць пароль?
 recovery-description = Націсніце кнопку цягам наступнай гадзіны, каб стварыць новы пароль. Запыт прыйшоў з наступнай прылады:
 recovery-action = Стварыць новы пароль
+# COMMENT ABOUT After the colon,
+payment-details = Рэквізіты аплаты:
+subscriptionAccountReminderFirst-action = Стварыць пароль
+subscriptionAccountReminderSecond-action = Стварыць пароль
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Нумар рахунка-фактуры: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Нумар рахунка-фактуры: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoice-content-charge = Спагнана { $invoiceTotal } { $invoiceDateOnly }
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Наступны рахунак-фактура: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = Аплата { $productName } пацверджана
 subscriptionPaymentExpired-title = Тэрмін дзеяння крэдытнай карты хутка скончыцца
 subscriptionsPaymentExpired-title = Тэрмін дзеяння крэдытнай карты хутка скончыцца
 unblockCode-subject = Код аўтарызацыі ўліковага запісу
