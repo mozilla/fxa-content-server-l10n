@@ -51,6 +51,19 @@ subplat-privacy = Прыватнасць
 automated-email-plaintext = Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць.
 change-password-plaintext = Калі вы падазраяце, што хтосьці спрабуе атрымаць доступ да вашага ўліковага запісу, калі ласка, змяніце пароль.
 manage-account = Кіраванне ўліковым запісам
+manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Нумар рахунка-фактуры: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Спагнана: { $invoiceTotal } { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Наступны рахунак-фактура: { $nextInvoiceDateOnly }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Спосаб аплаты:
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:
 cadReminderFirst-subject = Ваш сяброўскі напамін: Як завяршыць наладжванне сiнхранiзацыi
@@ -83,6 +96,7 @@ postAddAccountRecovery-subject = Ключ аднаўлення ўліковаг�
 postAddAccountRecovery-title = Ключ аднаўлення ўліковага запісу згенераваны
 postAddAccountRecovery-action = Кіраванне ўліковым запісам
 postAddAccountRecovery-revoke = Калі гэта былі не вы, адклікайце ключ.
+postAddLinkedAccount-action = Кіраваць уліковым запісам
 postAddTwoStepAuthentication-subject = Двухэтапная аўтарызацыя ўключана
 postAddTwoStepAuthentication-title = Двухэтапная аўтарызацыя ўключана
 postAddTwoStepAuthentication-action = Кіраванне ўліковым запісам
