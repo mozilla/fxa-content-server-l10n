@@ -212,8 +212,7 @@ la-description = Vous avez autorisé l’accès aux comptes suivants.
 la-unlink-button = Dissocier
 la-unlink-account-button = Dissocier
 la-unlink-heading = Dissocier du compte tiers
-la-unlink-content = Voulez-vous vraiment dissocier votre compte { -brand-google } ? La dissociation de votre compte ne vous déconnecte pas automatiquement de ces services. Pour ce faire, vous devrez vous déconnecter manuellement depuis la section Services connectés.
-la-unlink-content-2 = Voulez-vous vraiment dissocier votre compte ? La dissociation de votre compte ne vous déconnecte pas automatiquement de ces services. Pour ce faire, vous devrez vous déconnecter manuellement depuis la section Services connectés.
+la-unlink-content-3 = Voulez-vous vraiment dissocier votre compte ? La dissociation de votre compte ne vous déconnecte pas automatiquement de vos Services connectés. Pour ce faire, vous devrez vous déconnecter manuellement depuis la section Services connectés.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -318,8 +317,8 @@ delete-account-step-1-2 = Étape 1 sur 2
 delete-account-step-2-2 = Étape 2 sur 2
 delete-account-confirm-title-2 = Votre { -product-firefox-account } est connecté à des produits { -brand-mozilla } qui vous permettent de naviguer de façon sécurisée et d’améliorer votre productivité sur le Web :
 delete-account-acknowledge = En supprimant votre compte, vous reconnaissez que :
-delete-account-chk-box-1-v2 =
-    .label = Tous les abonnements payants que vous détenez seront annulés (sauf { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Tous les abonnements payants dont vous disposez seront résiliés
 delete-account-chk-box-2 =
     .label = Vous risquez de perdre des informations enregistrées et des fonctionnalités dans les produits { -brand-mozilla }
 delete-account-chk-box-3 =
