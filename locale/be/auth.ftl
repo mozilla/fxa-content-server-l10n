@@ -77,11 +77,25 @@ cadReminderSecond-title = Апошнi напамін пра сінхраніза
 codes-reminder-title = Засталося мала кодаў аднаўлення
 codes-reminder-description = Мы заўважылі, што ў вас засталося мала кодаў аднаўлення. Калі ласка, падумайце пра стварэнне новых кодаў, каб пазбегнуць блакавання вашага уліковага запісу.
 codes-generate = Згенераваць коды
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Згенераваць коды
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Застаўся { $numberRemaining } код аднаўлення
+        [few] Засталося { $numberRemaining } коды аднаўлення
+       *[many] Засталося { $numberRemaining } кодаў аднаўлення
+    }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Новы ўваход у { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = Новы ўваход у { $clientName }
 newDeviceLogin-action = Кіраванне ўліковым запісам
 passwordChanged-subject = Пароль абноўлены
 passwordChanged-title = Пароль паспяхова зменены
 passwordChangeRequired-subject = Выяўлена падазроная актыўнасць
+passwordChangeRequired-title = Патрабуецца змена пароля
 passwordChangeRequired-signoff = Усяго найлепшага,
 passwordReset-subject = Пароль абноўлены
 passwordReset-title = Пароль вашага ўліковага запісу быў зменены
