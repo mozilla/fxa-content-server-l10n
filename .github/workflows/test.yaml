@@ -1,0 +1,33 @@
+name: Tests
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+jobs:
+  run-test:
+    # Pontoon creates one commit per locale every 10 minutes, only run on
+    # the latest commit of the batch.
+    concurrency:
+        group: ${{ github.ref }}
+        cancel-in-progress: true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Linux packages
+        run: |
+          sudo apt update
+          sudo apt install gettext graphicsmagick -y
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+      - name: Install global npm packages
+        run: |
+          npm install -g grunt-cli
+      - name: Clone l10n repository
+        uses: actions/checkout@v3
+      - name: Install npm packages
+        run: |
+          npm install
+      - name: Run tests
+        run: |
+          npm test

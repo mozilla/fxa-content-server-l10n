@@ -1,13 +1,13 @@
 fxa-content-server-l10n
 =======================
 
-[![CircleCI](https://circleci.com/gh/mozilla/fxa-content-server-l10n/tree/master.svg?style=svg)](https://circleci.com/gh/mozilla/fxa-content-server-l10n/tree/master)
+[![Tests](https://github.com/mozilla/fxa-content-server-l10n/actions/workflows/test.yaml/badge.svg)](https://github.com/mozilla/fxa-content-server-l10n/actions/workflows/test.yaml)
 
 This repo (abbreviated as "L10N" in this README) contains all translated/translatable strings for all of the FxA servers (fxa-content-server, fxa-auth-server, etc.). The FxA repository is abbreviated as "SOURCE" in this document.
 
 The string localization is managed in [Pontoon](https://pontoon.mozilla.org/projects/firefox-accounts/) and it pushes changes anytime it likes.
 
-On a regular basis (currently once a week) a [cron job runs](https://github.com/mozilla/fxa-content-server-l10n/blob/master/.circleci/config.yml) which extracts all the strings from SOURCE and opens a PR to merge them into this repository. Someone from the localization team will review that PR for any strings that are confusing to localize and, if there aren't any problems, will merge it. At that point Pontoon sees the changes and strings can be localized from the Pontoon interface.
+On a regular basis (currently once a week) a [cron job runs](https://github.com/mozilla/fxa-content-server-l10n/blob/master/.github/workflows/l10n_extract.yaml) to extract all the strings from SOURCE and open a PR to merge them into this repository. Someone from the localization team will review that PR for any strings that are confusing to localize and, if there aren't any problems, will merge it. At that point Pontoon sees the changes and strings can be localized from the Pontoon interface.
 
 A new copy of this repository is checked out every time a deploy happens so deployed sites have the latest strings.
 

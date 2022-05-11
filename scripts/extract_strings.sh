@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # syntax:
-# extract_strings.sh [--mailer-repo ./fxa-auth-server] [--content-repo ./fxa-content-server] [--l10n-repo ./fxa-content-server-l10n] train_number
+# extract_strings.sh [--mailer-repo ./fxa-auth-server] [--content-repo ./fxa-content-server] [--l10n-repo ./fxa-content-server-l10n]
 
 set -e
 
 function usage() {
     echo "syntax:"
-    echo "extract_strings.sh [--mailer-repo ./fxa-auth-server] [--content-repo ./fxa-content-server] [--payments-repo ./fxa-payments-server] [--l10n-repo ./fxa-content-server-l10n] train_number"
+    echo "extract_strings.sh [--mailer-repo ./fxa-auth-server] [--content-repo ./fxa-content-server] [--payments-repo ./fxa-payments-server] [--l10n-repo ./fxa-content-server-l10n]"
     exit 1
 }
 
@@ -61,8 +61,6 @@ case $param in
 esac
 done
 
-TRAIN_NUMBER=$1
-
 printf "Checking $MAILER_DIR.. "
 check_folder $MAILER_DIR
 printf "Checking $CONTENT_DIR.. "
@@ -92,19 +90,7 @@ cp $SETTINGS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
 cp $MAILER_DIR/public/locales/en/*.ftl $L10N_DIR/locale/templates
 
 cd $L10N_DIR
-git checkout -b merge-train-$TRAIN_NUMBER-strings
 ./scripts/merge_po.sh ./locale
 ./scripts/before_prod_deploy.sh --l10n-repo $L10N_DIR
-git add .
-git commit -m "merge strings for train $TRAIN_NUMBER"
 
 set +x
-
-echo
-echo
-echo "Everything seems to be in order. Please check the extraction went okay then you can push the new branch with:"
-echo "cd $L10N_DIR"
-echo "git push <remote> merge-train-$TRAIN_NUMBER-strings"
-echo
-echo "When the strings have been merged, send an email to the l10n list by running:"
-echo "./scripts/email-l10n-dev.sh"
