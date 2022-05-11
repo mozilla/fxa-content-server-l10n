@@ -151,6 +151,8 @@ dc-heading = データの収集と使用
 dc-subheader = { -product-firefox-accounts } の改善にご協力ください
 dc-subheader-content = { -product-firefox-accounts } が技術データと対話データを { -brand-mozilla } へ送信することを許可する
 dc-opt-out-success = オプトアウトが完了しました。{ -product-firefox-accounts } が技術データと対話データを { -brand-mozilla } へ送信しないように設定を変更しました。
+dc-opt-in-success = ご協力ありがとうございます。このデータを共有することで { -product-firefox-accounts }の改善に役立てられます。
+dc-opt-in-out-error = データ収集設定の変更時に問題が発生しました。
 dc-learn-more = 詳細情報
 
 # DropDownAvatarMenu component
@@ -190,9 +192,16 @@ header-help = ヘルプ
 
 input-password-hide = パスワードを隠す
 input-password-show = パスワードを開示
+input-password-hide-aria = 画面上のパスワードを隠す
+input-password-show-aria = パスワードをプレーンテキストで表示する。パスワードが画面に表示されます。
 
 ## Linked Accounts section
 
+la-heading = リンクされたアカウント
+la-description = 次のアカウントへのアクセスを許可しました。
+la-unlink-button = リンク解除
+la-unlink-account-button = リンク解除
+la-unlink-heading = サードパーティのアカウントとのリンクを解除する
 
 ## Modal
 
