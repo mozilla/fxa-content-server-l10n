@@ -426,6 +426,13 @@ subscriptionPaymentExpired-content = { $productName } の支払いに使用し�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } への支払いに失敗しました
 subscriptionPaymentFailed-content-outdated = クレジットカードの有効期限が切れているか、現在のお支払い方法が古くなっている可能性があります。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = { $productName } の支払い情報を更新してください
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = { $productName } の支払い方法に問題が見つかりました。
+subscriptionPaymentProviderCancelled-content-reason = クレジットカードの有効期限が切れているか、現在のお支払い方法が古くなっている可能性があります。
 subscriptionsPaymentExpired-subject = サブスクリプションに使用しているクレジットカードの有効期限が近づいています
 subscriptionsPaymentExpired-title = クレジットカードの有効期限が近づいています
 subscriptionsPaymentExpired-content = 以下のサブスクリプションの支払いに使用しているクレジットカードの有効期限が近づいています。

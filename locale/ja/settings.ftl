@@ -149,6 +149,8 @@ datablock-print =
 
 dc-heading = データの収集と使用
 dc-subheader = { -product-firefox-accounts } の改善にご協力ください
+dc-subheader-content = { -product-firefox-accounts } が技術データと対話データを { -brand-mozilla } へ送信することを許可する
+dc-opt-out-success = オプトアウトが完了しました。{ -product-firefox-accounts } が技術データと対話データを { -brand-mozilla } へ送信しないように設定を変更しました。
 dc-learn-more = 詳細情報
 
 # DropDownAvatarMenu component

@@ -38,6 +38,8 @@ payment-error-manage-subscription-button = サブスクリプションの管理
 country-currency-mismatch = このサブスクリプションの通貨は、お支払いに関連付けられている国では無効です。
 currency-currency-mismatch = 申し訳ございません。通貨の切り替えはできません。
 no-subscription-change = 申し訳ありません。サブスクリプションのプラン変更はできません。
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = すでに { $mobileAppStore } から登録されています。
 expired-card-error = クレジットカードの有効期限が切れているようです。別のカードを試してください。
 insufficient-funds-error = カードの残高が不足しているようです。別のカードを試してください。
 withdrawal-count-limit-exceeded-error = この取引では、ご利用限度額を超えてしまうようです。別のカードを試してください。
@@ -45,6 +47,7 @@ charge-exceeds-source-limit = この取引では、1 日のご利用限度額を
 instant-payouts-unsupported = デビットカードが即時支払いに設定されていないようです。別のデビットカードまたはクレジットカードを試してください。
 duplicate-transaction = まったく同じ取引が送信されたようです。お支払いの履歴を確認してください。
 coupon-expired = プロモーションコードの有効期限が切れているようです。
+card-error = 取引を処理できませんでした。クレジットカード情報を確認して、もう一度お試しください。
 
 ## Settings
 
