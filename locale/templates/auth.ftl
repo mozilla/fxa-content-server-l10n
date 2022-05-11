@@ -342,8 +342,6 @@ subscriptionAccountDeletion-title = Sorry to see you go
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = You recently deleted your { -product-firefox-account }. As a result, we’ve cancelled your { $productName } subscription. Your final payment of { $invoiceTotal } was paid on { $invoiceDateOnly }.
 
-# COMMENT ABOUT After the colon,
-payment-details = Payment details:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Welcome to { $productName }: Please set your password.
