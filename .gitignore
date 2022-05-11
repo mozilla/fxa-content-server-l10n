@@ -1,6 +1,3 @@
+/.idea/
 node_modules
 workspace
-secret-env-plain
-.gh.json
-id_bug_mirror
-/.idea/
