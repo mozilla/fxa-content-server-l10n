@@ -10,7 +10,7 @@ jobs:
       - name: Install Linux packages
         run: |
           sudo apt update
-          sudo apt install gettext graphicsmagick git hub translate-toolkit -y
+          sudo apt install gettext graphicsmagick git hub -y
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
