@@ -218,8 +218,7 @@ la-description = Jo hawwe tagong ta de folgjende accounts autorisearrre.
 la-unlink-button = Untkeppelje
 la-unlink-account-button = Untkeppelje
 la-unlink-heading = Untkeppelje fan eksterne account
-la-unlink-content = Binne jo wis dat jo jo { -brand-google }-account ûntkeppelje wolle? As jo jo account ûntkeppelje, wurde jo net automatysk ôfmeld by dy tsjinsten. Om dat te dwaan, moatte jo jo hânmjittich ôfmelde fan de seksje Ferbûnen tsjinsten út.
-la-unlink-content-2 = Binne jo wis dat jo jo account ûntkeppelje wolle? As jo jo account ûntkeppelje, wurde jo net automatysk ôfmeld by dy tsjinsten. Om dat te dwaan, moatte jo jo hânmjittich ôfmelde fan de seksje Ferbûnen tsjinsten út.
+la-unlink-content-3 = Binne jo wis dat jo jo account ûntkeppelje wolle? As jo jo account ûntkeppelje, wurde jo net automatysk ôfmeld by jo ferbûne tsjinsten. Om dat te dwaan, moatte jo jo hânmjittich ôfmelde fan de seksje Ferbûnen tsjinsten út.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -326,8 +325,8 @@ delete-account-step-1-2 = Stap 1 fan 2
 delete-account-step-2-2 = Stap 2 fan 2
 delete-account-confirm-title-2 = Jo hawwe jo { -product-firefox-account } ferbûn mei { -brand-mozilla }-produkten dy’t jo feilich en produktyf hâlde op ynternet:
 delete-account-acknowledge = Befêstigje dat troch jo account fuort te smiten:
-delete-account-chk-box-1-v2 =
-    .label = Al jo betelle abonneminten wurde opsein (útsein { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Alle betelle abonneminten wurde opsein
 delete-account-chk-box-2 =
     .label = Jo bewarre ynformaasje en funksjes yn { -brand-mozilla }-produkten ferlieze kinne
 delete-account-chk-box-3 =
