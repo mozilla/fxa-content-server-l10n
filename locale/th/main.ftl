@@ -125,6 +125,7 @@ payment-zip =
 payment-cancel-btn = ยกเลิก
 payment-update-btn = อัปเดต
 payment-pay-btn = ชำระเงินตอนนี้
+payment-pay-with-paypal-btn = ชำระเงินด้วย { -brand-name-paypal }
 payment-validate-name-error = โปรดป้อนชื่อของคุณ
 payment-validate-zip-required = ต้องระบุรหัสไปรษณีย์
 payment-validate-zip-short = รหัสไปรษณีย์สั้นเกินไป
@@ -142,6 +143,9 @@ input-error-is-required = จำเป็นต้องกรอก { $label }
 
 ## Subscription upgrade
 
+product-plan-change-heading = ตรวจสอบการเปลี่ยนแปลงของคุณ
+sub-change-failed = การเปลี่ยนแผนล้มเหลว
+sub-update-payment-title = ข้อมูลการชำระเงิน
 sub-update-card-exp = หมดอายุ { $cardExpMonth }/{ $cardExpYear }
 
 ##
