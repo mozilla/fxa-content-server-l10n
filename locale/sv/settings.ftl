@@ -218,8 +218,7 @@ la-description = Du har auktoriserad åtkomst till följande konton.
 la-unlink-button = Ta bort länk
 la-unlink-account-button = Ta bort länk
 la-unlink-heading = Ta bort länken från tredje parts konto
-la-unlink-content = Är du säker på att du vill ta bort länken till ditt { -brand-google }-konto? Om du tar bort länken till ditt konto loggas du inte automatiskt ut från dessa tjänster. För att göra det måste du logga ut manuellt från avsnittet Anslutna tjänster.
-la-unlink-content-2 = Är du säker på att du vill ta bort länken till ditt konto? Om du tar bort länken till ditt konto loggas du inte automatiskt ut från dessa tjänster. För att göra det måste du logga ut manuellt från avsnittet Anslutna tjänster.
+la-unlink-content-3 = Är du säker på att du vill ta bort länken till ditt konto? Om du tar bort länken till ditt konto loggas du inte automatiskt ut från dina anslutna tjänster. För att göra det måste du logga ut manuellt från avsnittet Anslutna tjänster.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -326,8 +325,8 @@ delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
 delete-account-confirm-title-2 = Du har kopplat ditt { -product-firefox-account } till { -brand-mozilla }-produkter som håller dig säker och produktiv på nätet:
 delete-account-acknowledge = Bekräfta följande för att radera ditt konto:
-delete-account-chk-box-1-v2 =
-    .label = Alla betalda prenumerationer du har kommer att avbrytas (förutom { product-pocket })
+delete-account-chk-box-1-v3 =
+    .label = Alla betalda prenumerationer du har kommer att sägas upp
 delete-account-chk-box-2 =
     .label = Du kan förlora sparad information och funktioner i { -brand-mozilla }-produkter
 delete-account-chk-box-3 =
