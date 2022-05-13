@@ -28,8 +28,13 @@ session-verify-send-push-body = Klikk her for å stadfeste at det er du
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-logo">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser einingar">
+body-devices-image = <img data-l10n-name="devices-image" alt="Einingar">
 fxa-privacy-url = { -brand-mozilla } personvernpraksis
 fxa-service-url = Brukarvilkår for { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-logo">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-logo">
 subplat-automated-email = Dette er ei automatisk e-postmelding: Dersom du har motteke denne e-posten ved en feil, treng du ikkje å gjera noko.
 subplat-privacy-notice = Personvernmerknad
 subplat-privacy-plaintext = Personvernmerknad:
@@ -73,6 +78,13 @@ subscriptionSupport-plaintext = Har du spørsmål om abonnementet ditt? Supportt
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Oppdater betalingsinformasjonen din snarast råd for å unngå avbrot i tenesta di:
 # Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = For meir informasjon, gå til { $supportUrl }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } på { $uaOS }
+# Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP-adresse: { $ip }
 cadReminderFirst-subject = Ei vennleg påminning til deg: Slik fullfører du synkroniseringsoppsettet
@@ -87,6 +99,7 @@ downloadSubscription-subject = Velkomen til { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Velkomen til { $productName }
+downloadSubscription-link-action-2 = Kom i gang
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kun få gjenopprettingskodar att
 codes-reminder-description = Det er få gjenopprettingskodar att. Tenk på å generere nye kodar for å unngå å bli utelåst frå kontoen din.
@@ -128,6 +141,7 @@ postAddAccountRecovery-subject = Gjenopprettingsnøkkel for konto generert
 postAddAccountRecovery-title = Gjenopprettingsnøkkel for konto generert
 postAddAccountRecovery-action = Handter kontoen
 postAddAccountRecovery-revoke = Viss dette ikkje var deg, tilbakekall nøkkelen.
+postAddLinkedAccount-action = Handsam kontoen
 postAddTwoStepAuthentication-subject = Tostegs-godkjenning aktivert
 postAddTwoStepAuthentication-title = Tostegs-godkjenning aktivert
 postAddTwoStepAuthentication-action = Handter kontoen
@@ -167,8 +181,6 @@ recovery-title = Treng du å tilbakestille passordet ditt?
 recovery-description = Trykk på knappen innan den neste timen for å lage eit nytt passord. Førespurnaden kom frå følgjande eining:
 recovery-action = Lag nytt passord
 subscriptionAccountDeletion-title = Det er synd at du seier opp abonnementet ditt
-# COMMENT ABOUT After the colon,
-payment-details = Betalningsinformasjon:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Vel eit passord.
