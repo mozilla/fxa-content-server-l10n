@@ -3,45 +3,52 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Уліковыя запісы Firefox
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+-brand-name-paypal = PayPal
+-brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 document =
     .title = Уліковыя запісы Firefox
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Закрыць акно
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Агульная памылка праграмы
 basic-error-message = Нешта пайшло не так. Калі ласка, паспрабуйце зноў пазней.
 payment-error-1 = Хм. Пры аўтарызацыі вашага плацяжу ўзнікла праблема. Паўтарыце спробу або звяжыцеся з эмітэнтам вашай карткі.
 payment-error-2 = Хм. Пры аўтарызацыі вашага плацяжу ўзнікла праблема. Звяжыцеся з эмітэнтам вашай карткі.
+payment-error-3b = Здарылася нечаканая памылка ў часе апрацоўкі вашага плацяжу. Калі ласка, паўтарыце спробу.
+payment-error-retry-button = Паспрабаваць зноў
 expired-card-error = Падобна на тое, што тэрмін дзеяння вашай крэдытнай карты скончыўся. Паспрабуйце іншую картку.
 insufficient-funds-error = Здаецца, на вашай картцы недастаткова сродкаў. Паспрабуйце іншую картку.
 
-## settings
+## Settings
 
 settings-home = Галоўная старонка ўліковага запісу
 settings-subscriptions-title = Падпіскі
 
-## legal footer
+## Legal footer
 
 terms = Умовы абслугоўвання
 privacy = Паведамленне аб прыватнасці
 
-## plan details
+## Subscription titles
 
-product-plan-details-heading = Давайце наладзім вашу падпіску
-product-plan-details-heading = Давайце наладзім вашу падпіску
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ## Product route
@@ -55,11 +62,10 @@ product-customer-error =
 product-plan-not-found = План не знойдзены
 product-no-such-plan = Няма такога плана для гэтага прадукту.
 
-## payment legal blurb
+## Payment legal blurb
 
-payment-legal-copy-stripe-paypal = { -brand-name-mozilla } выкарыстоўвае Stripe і Paypal для бяспечнай апрацоўкі плацяжоў.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Поўнае імя
@@ -87,60 +93,52 @@ payment-validate-name-error = Увядзіце, калі ласка, ваша і
 payment-validate-zip-required = Паштовы індэкс абавязковы
 payment-validate-zip-short = Паштовы індэкс надта кароткі
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Ваша падпіска гатовая
 sub-redirect-copy = Знайдзіце хвілінку, каб расказаць нам пра свой досвед.
 sub-redirect-skip-survey = Не, дзякуй, проста пераключыце мяне на мой прадукт.
 
-## fields
+## Fields
 
 default-input-error = Гэта поле абавязковае
 input-error-is-required = { $label } абавязковае
 
-## subscription upgrade
+## Subscription upgrade
 
-sub-update-title = Плацежная інфармацыя
-sub-update-card-ending = Заканчэнне карты { $last }
 sub-update-card-exp = Тэрмін дзеяння канчаецца { $cardExpMonth }/{ $cardExpYear }
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ##
 
-sub-update-submit = Пацвердзіць абнаўленне
-sub-update-indicator =
-    .aria-label = індыкатар абнаўлення
 sub-update-current-plan-label = Цяперашні план
 sub-update-new-plan-label = Новы план
 sub-update-total-label = Новая сума
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } штодзень
         [few] { $amount } кожныя { $intervalCount } дні
        *[many] { $amount } кожныя { $intervalCount } дзён
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } штотыдзень
         [few] { $amount } кожныя { $intervalCount } тыдні
        *[many] { $amount } кожныя { $intervalCount } тыдняў
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } штомесяц
         [few] { $amount } кожныя { $intervalCount } месяцы
        *[many] { $amount } кожныя { $intervalCount } месяцаў
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } штогод
@@ -148,7 +146,7 @@ plan-price-year =
        *[many] { $amount } кожныя { $intervalCount } гадоў
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -194,12 +192,12 @@ pay-update-change-btn = Змяніць
 
 reactivate-confirm-dialog-header = Хочаце працягваць карыстацца { $name }?
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-success-copy = Дзякуй! Усё гатова.
 reactivate-success-button = Закрыць
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -208,36 +206,51 @@ sub-item-no-such-plan = Няма такога плана для гэтай па�
 sub-item-cancel-sub = Ануляваць падпіску
 sub-item-stay-sub = Пакінуць падпіску
 
-## subscription route index
+## Subscription iap item
+
+
+## Subscription route index
 
 sub-route-idx-contact = Звязацца з падтрымкай
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30-дзённая гарантыя вяртання грошай
 pay-with-heading-other = Абярыце варыянт аплаты
 pay-with-heading-card-or = Або аплаціць картай
 pay-with-heading-card-only = Аплаціць картай
 
-## plan-details
+## Plan details
 
 plan-details-header = Інфармацыя аб прадукце
 plan-details-show-button = Паказаць падрабязнасці
 plan-details-hide-button = Схаваць падрабязнасці
 plan-details-total-label = Усяго
 
-## payment confirmation
+## Coupons
+
+
+## Payment processing
+
+
+## Payment confirmation
 
 payment-confirmation-alert = Націсніце, каб сцягнуць
 payment-confirmation-mobile-alert = Не адкрылася праграма? <a>Націсніце тут</a>
-payment-confirmation-heading = Дзякуй, { $displayName }!
-payment-confirmation-heading-bak = Дзякуй!
-payment-confirmation-subheading = Электронны ліст з пацверджаннем быў адпраўлены на
+
+## Payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Падрабязнасці замовы
 payment-confirmation-billing-heading = Рахунак выстаўлены на
-payment-confirmation-details-heading = Рэквізіты аплаты
 payment-confirmation-amount = { $amount } за { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-payment-confirmation-cc-preview = канчаецца на { $last4 }
+
+## New user email form
+
