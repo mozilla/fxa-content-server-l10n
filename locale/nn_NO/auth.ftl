@@ -99,6 +99,7 @@ downloadSubscription-subject = Velkomen til { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Velkomen til { $productName }
+downloadSubscription-content-2 = La oss kome i gang med å bruke alle funksjonane i abonementet ditt.
 downloadSubscription-link-action-2 = Kom i gang
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kun få gjenopprettingskodar att
