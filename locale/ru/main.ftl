@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Аккаунты Firefox
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Аккаунты Firefox
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Аккаунты Firefox
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Закрыть окно
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Общая ошибка приложения
 basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте позже.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Похоже, ваша дебетовая карт
 duplicate-transaction = Хм. Похоже, что только что была отправлена идентичная транзакция. Проверьте свою историю платежей.
 coupon-expired = Похоже, что срок действия промокода истёк.
 card-error = Ваша транзакция не может быть обработана. Пожалуйста, проверьте данные своей банковской карты и попробуйте ещё раз.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Системная ошибка привела к сбою регистрации в вашем { $productName }. Списание с вашего счёта не произошло. Пожалуйста, попробуйте ещё раз.
 newsletter-signup-error = Вы не подписались на письма с новостями о продукте. Вы можете попробовать ещё раз в настройках своего аккаунта.
 fxa-post-passwordless-sub-error = Подписка подтверждена, но страница подтверждения не загрузилась. Пожалуйста, проверьте свою электронную почту, чтобы создать аккаунт.
 
-## settings
+## Settings
 
 settings-home = Главная страница аккаунта
 settings-subscriptions-title = Подписки
 
-## legal footer
+## Legal footer
 
 terms = Условия службы
 privacy = Уведомление о конфиденциальности
@@ -75,31 +73,31 @@ subscription-error-title = Ошибка подтверждения подпис�
 subscription-noplanchange-title = Это изменение плана подписки не поддерживается
 subscription-iapsubscribed-title = Уже подписаны
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] Подписка на { $productName } стоимостью { $amount } оплачивается каждый { $intervalCount } день
         [few] Подписка на { $productName } стоимостью { $amount } оплачивается каждые { $intervalCount } дня
        *[many] Подписка на { $productName } стоимостью { $amount } оплачивается каждые { $intervalCount } дней
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] Подписка на { $productName } стоимостью { $amount } оплачивается каждую { $intervalCount } неделю
         [few] Подписка на { $productName } стоимостью { $amount } оплачивается каждые { $intervalCount } недели
        *[many] Подписка на { $productName } стоимостью { $amount } оплачивается каждые { $intervalCount } недель
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] Подписка на { $productName } стоимостью { $amount } оплачивается каждый { $intervalCount } месяц
         [few] Подписка на { $productName } стоимостью { $amount } оплачивается каждые { $intervalCount } месяца
        *[many] Подписка на { $productName } стоимостью { $amount } оплачивается каждые { $intervalCount } месяцев
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] Подписка на { $productName } стоимостью { $amount } оплачивается каждый { $intervalCount } год
@@ -118,7 +116,7 @@ product-customer-error =
 product-plan-not-found = План не найден
 product-no-such-plan = Нет такого плана для этого продукта.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } использует { -brand-name-stripe } и { -brand-name-paypal } для безопасной обработки платежей.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>Политика конфиденциальности { -brand-name-stripe }</stripePrivacyLink> и <paypalPrivacyLink>Политика конфиденциальности { -brand-name-paypal }</paypalPrivacyLink>.
@@ -127,7 +125,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>Политика конфиде
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } использует { -brand-name-stripe } для безопасной обработки платежей.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Политика конфиденциальности { -brand-name-stripe }</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Полное имя
@@ -152,21 +150,21 @@ payment-confirm-with-legal-links-day =
         [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } дня</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
        *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } дней</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждую { $intervalCount } неделю</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
         [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } недели</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
        *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } недель</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждый { $intervalCount } месяц</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
         [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } месяца</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
        *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } месяцев</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждый { $intervalCount } год</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
@@ -185,18 +183,18 @@ payment-validate-name-error = Пожалуйста, введите своё им
 payment-validate-zip-required = Требуется указать почтовый индекс
 payment-validate-zip-short = Почтовый индекс слишком короткий
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Ваша подписка готова
 sub-redirect-copy = Пожалуйста, расскажите нам о своем опыте.
 sub-redirect-skip-survey = Нет, спасибо, просто переключите меня на мой продукт.
 
-## fields
+## Fields
 
 default-input-error = Это обязательное поле
 input-error-is-required = { $label } обязательное
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Проверьте свое изменение
 sub-change-failed = Не удалось изменить план
@@ -216,31 +214,31 @@ sub-update-current-plan-label = Текущий план
 sub-update-new-plan-label = Новый план
 sub-update-total-label = Новый итог
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } каждый { $intervalCount } день
         [few] { $amount } каждые { $intervalCount } дня
        *[many] { $amount } каждые { $intervalCount } дней
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } каждую { $intervalCount } неделю
         [few] { $amount } каждые { $intervalCount } недели
        *[many] { $amount } каждые { $intervalCount } недель
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } каждый { $intervalCount } месяц
         [few] { $amount } каждые { $intervalCount } месяца
        *[many] { $amount } каждые { $intervalCount } месяцев
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } каждый { $intervalCount } год
@@ -248,7 +246,7 @@ plan-price-year =
        *[many] { $amount } каждые { $intervalCount } лет
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -310,14 +308,14 @@ reactivate-confirm-without-payment-method-copy =
     { $endDate } и составит { $amount }.
 reactivate-confirm-button = Переоформить подписку
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Вы отменили подписку { $date }.
 reactivate-panel-copy = Вы потеряете доступ к { $name } <strong>{ $date }</strong>.
 reactivate-success-copy = Спасибо! Все готово.
 reactivate-success-button = Закрыть
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -335,14 +333,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Следующий счёт не найден
 sub-item-no-such-subsequent-invoice = Следующий счёт для этой подписки не найден.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Покупка в приложении
 sub-iap-item-apple-purchase = { -brand-name-apple }: Покупка в приложении
 sub-iap-item-manage-button = Управление
 account-activated = Ваш аккаунт активирован, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Обновление платёжной информации…
 sub-route-idx-reactivating = Не удалось повторно активировать подписку
@@ -369,14 +367,14 @@ sub-route-missing-billing-agreement-payment-alert = Некорректная п�
 sub-route-funding-source-payment-alert = Некорректная платежная информация; в вашей учётной записи произошла ошибка. Это предупреждение может отображаться в течение некоторого времени после успешного обновления вами своей информации. <div>Управление</div>
 pay-update-manage-btn = Управление
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30-дневная гарантия возврата денег
 pay-with-heading-other = Выберите способ оплаты
 pay-with-heading-card-or = Или оплатите картой
 pay-with-heading-card-only = Оплатить картой
 
-## plan-details
+## Plan details
 
 plan-details-header = Информация о продукте
 plan-details-show-button = Показать подробности
@@ -384,7 +382,7 @@ plan-details-hide-button = Скрыть подробности
 plan-details-total-label = Всего
 plan-details-list-price = Прейскурант
 
-## coupons
+## Coupons
 
 coupon-discount = Скидка
 coupon-discount-applied = Применено вознаграждение со скидкой
@@ -401,17 +399,17 @@ coupon-success-repeating = Ваш тарифный план будет авто�
 coupon-enter-code =
     .placeholder = Введите код
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Подождите, пока мы обработаем ваш платеж…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Нажмите здесь для загрузки
 payment-confirmation-mobile-alert = Не открылось приложение? <a>Щёлкните здесь</a>
 payment-confirmation-thanks-heading = Спасибо!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -460,7 +458,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Продолжить загрузку
 payment-confirmation-cc-card-ending-in = Номер карты заканчивается на { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = У вас уже есть аккаунт { -brand-name-firefox }? <a>Войти</a>
 new-user-step-1 = 1. Создайте аккаунт { -brand-name-firefox }
@@ -480,7 +478,7 @@ new-user-already-has-account-sign-in = У вас уже есть аккаунт.
 new-user-card-title = Введите данные вашей карты
 new-user-submit = Подписаться
 manage-pocket-title = Ищете премиум-подписку на { -brand-name-pocket }?
-manage-pocket-body = Чтобы управлять им, <a>щелкните здесь</a>.
+manage-pocket-body-2 = Для управления им, <linkExternal>нажмите здесь</linkExternal>.
 payment-method-header = Выберите способ оплаты
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
