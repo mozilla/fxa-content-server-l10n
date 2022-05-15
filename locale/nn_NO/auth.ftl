@@ -187,6 +187,7 @@ subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Vel eit
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Velkomen til { $productName }
+subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-action = Opprett passord
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Siste påminning: Konfigurer kontoen din
