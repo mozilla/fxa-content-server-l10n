@@ -322,8 +322,7 @@ la-description = Máte autorizovaný přístup k následujícím účtům.
 la-unlink-button = Odpojit
 la-unlink-account-button = Odpojit
 la-unlink-heading = Odpojit od účtu třetí strany
-la-unlink-content = Opravdu chcete odpojit svůj { -brand-google } účet? Jeho odpojení nezpůsobí odhlášení z odpovídajících služeb. Pokud toho chcete dosáhnout, odhlaste se ručně v sekci Propojené služby.
-la-unlink-content-2 = Opravdu chcete odpojit svůj účet? Jeho odpojení nezpůsobí odhlášení z odpovídajících služeb. Pokud toho chcete dosáhnout, odhlaste se ručně v sekci Propojené služby.
+la-unlink-content-3 = Opravdu chcete odpojit svůj účet? Jeho odpojení nezpůsobí odhlášení z vašich propojených služeb. Pokud toho chcete dosáhnout, odhlaste se ručně v sekci Propojené služby.
 nav-linked-accounts = { la-heading }
 
 ## Modal
