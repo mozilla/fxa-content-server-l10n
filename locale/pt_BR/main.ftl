@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Contas Firefox
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Contas Firefox
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Contas Firefox
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Fechar modal
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Erro geral na aplicação.
 basic-error-message = Algo deu errado. Tente novamente mais tarde.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Parece que seu cartão de débito não está confi
 duplicate-transaction = Hmm. Parece que uma transação idêntica acabou de ser enviada. Verifique seu histórico de pagamentos.
 coupon-expired = Parece que o código promocional expirou.
 card-error = Não foi possível processar sua transação. Confira as informações do seu cartão de crédito e tente novamente.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Um erro de sistema causou falha na sua assinatura do { $productName }. Não foi feita cobrança na sua forma de pagamento. Tente novamente.
 newsletter-signup-error = Você não se inscreveu para receber emails de novidades do produto. Pode tentar novamente nas configurações da sua conta.
 fxa-post-passwordless-sub-error = Assinatura confirmada, mas houve falha no carregamento da página de confirmação. Verifique seu email para configurar sua conta.
 
-## settings
+## Settings
 
 settings-home = Página inicial da conta
 settings-subscriptions-title = Assinaturas
 
-## legal footer
+## Legal footer
 
 terms = Termos do serviço
 privacy = Aviso de privacidade
@@ -75,28 +73,28 @@ subscription-error-title = Erro ao confirmar assinatura…
 subscription-noplanchange-title = Esta mudança de plano de assinatura não é aceita
 subscription-iapsubscribed-title = Já tem assinatura
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } cobrado { $amount } diariamente
        *[other] { $productName } cobrado { $amount } a cada { $intervalCount } dias
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } cobrado { $amount } semanalmente
        *[other] { $productName } cobrado { $amount } a cada { $intervalCount } semanas
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } cobrado { $amount } mensalmente
        *[other] { $productName } cobrado { $amount } a cada { $intervalCount } meses
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } cobrado { $amount } anualmente
@@ -114,7 +112,7 @@ product-customer-error =
 product-plan-not-found = Plano não encontrado
 product-no-such-plan = Não existe esse plano para este produto.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = A { -brand-name-mozilla } usa o { -brand-name-stripe } e o { -brand-name-paypal } para processamento seguro de pagamentos.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>Política de privacidade do { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Política de privacidade do { -brand-name-paypal }</paypalPrivacyLink>.
@@ -123,7 +121,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>Política de privacidade do { -
 payment-legal-copy-stripe-2 = A { -brand-name-mozilla } usa o { -brand-name-stripe } para processamento seguro de pagamentos.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Política de privacidade do { -brand-name-stripe }</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Nome completo
@@ -147,19 +145,19 @@ payment-confirm-with-legal-links-day =
         [one] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } diariamente</strong>, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
        *[other] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } a cada { $intervalCount } dias</strong>, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } semanalmente</strong>, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
        *[other] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } a cada { $intervalCount } semanas</strong>, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } mensalmente</strong>, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
        *[other] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } a cada { $intervalCount } meses</strong>, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } anualmente</strong>, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
@@ -177,18 +175,18 @@ payment-validate-name-error = Digite seu nome
 payment-validate-zip-required = CEP é obrigatório
 payment-validate-zip-short = O CEP é muito curto
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Sua assinatura está pronta
 sub-redirect-copy = Reserve um momento para nos contar sobre sua experiência.
 sub-redirect-skip-survey = Não, obrigado. Apenas ir ao meu produto.
 
-## fields
+## Fields
 
 default-input-error = Este campo é obrigatório
 input-error-is-required = É necessário { $label }
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Confira sua alteração
 sub-change-failed = Falha na alteração do plano
@@ -205,35 +203,35 @@ sub-update-current-plan-label = Plano atual
 sub-update-new-plan-label = Novo plano
 sub-update-total-label = Novo total
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } diariamente
        *[other] { $amount } a cada { $intervalCount } dias
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } semanalmente
        *[other] { $amount } a cada { $intervalCount } semanas
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } mensalmente
        *[other] { $amount } a cada { $intervalCount } meses
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } anualmente
        *[other] { $amount } a cada { $intervalCount } anos
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -285,14 +283,14 @@ reactivate-confirm-copy = Você continua tendo acesso ao { $name } e seu ciclo d
 reactivate-confirm-without-payment-method-copy = Você continua tendo acesso ao { $name } e seu ciclo de cobrança e pagamento permanece o mesmo. A próxima cobrança será de { $amount } em { $endDate }.
 reactivate-confirm-button = Assinar novamente
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Você cancelou sua assinatura em { $date }.
 reactivate-panel-copy = Você perderá o acesso a { $name } em <strong>{ $date }</strong>.
 reactivate-success-copy = Obrigado! Está todo pronto.
 reactivate-success-button = Fechar
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -308,14 +306,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Próxima fatura não encontrada
 sub-item-no-such-subsequent-invoice = Próxima fatura não encontrada desta assinatura.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Compra no aplicativo
 sub-iap-item-apple-purchase = { -brand-name-apple }: Compra no aplicativo
 sub-iap-item-manage-button = Gerenciar
 account-activated = Sua conta foi ativada, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Atualizando informações de cobrança…
 sub-route-idx-reactivating = Falha na reativação da assinatura
@@ -342,14 +340,14 @@ sub-route-missing-billing-agreement-payment-alert = Informações de pagamento i
 sub-route-funding-source-payment-alert = Informações de pagamento inválidas. Há um erro em sua conta. Este alerta pode demorar algum tempo para sumir após você atualizar suas informações com sucesso. <div>Gerenciar</div>
 pay-update-manage-btn = Gerenciar
 
-## subscription create
+## Subscription create
 
 sub-guarantee = Garantia de devolução do dinheiro em 30 dias
 pay-with-heading-other = Selecione uma opção de pagamento
 pay-with-heading-card-or = Ou pague com cartão
 pay-with-heading-card-only = Pagar com cartão
 
-## plan-details
+## Plan details
 
 plan-details-header = Detalhes do produto
 plan-details-show-button = Mostra detalhes
@@ -357,7 +355,7 @@ plan-details-hide-button = Ocultar detalhes
 plan-details-total-label = Total
 plan-details-list-price = Preço de tabela
 
-## coupons
+## Coupons
 
 coupon-discount = Desconto
 coupon-discount-applied = Recompensa de desconto aplicada
@@ -374,17 +372,17 @@ coupon-success-repeating = Seu plano será renovado automaticamente após { $cou
 coupon-enter-code =
     .placeholder = Digitar código
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Aguarde enquanto processamos seu pagamento…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Clique aqui para baixar
 payment-confirmation-mobile-alert = Não abriu o aplicativo? <a>Clique aqui</a>
 payment-confirmation-thanks-heading = Obrigado!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -429,7 +427,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Continuar para baixar
 payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Já tem uma Conta { -brand-name-firefox }? <a>Entre</a>
 new-user-step-1 = 1. Crie uma conta { -brand-name-firefox }
@@ -449,7 +447,7 @@ new-user-already-has-account-sign-in = Você já tem uma conta. <a>Entre</a>
 new-user-card-title = Digite as informações do seu cartão
 new-user-submit = Assinar agora
 manage-pocket-title = Procurando sua assinatura premium do { -brand-name-pocket }?
-manage-pocket-body = Para gerenciar, <a>clique aqui</a>.
+manage-pocket-body-2 = Para gerenciar, <linkExternal>clique aqui</linkExternal>.
 payment-method-header = Escolha um método de pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
