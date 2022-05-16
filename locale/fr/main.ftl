@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Comptes Firefox
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Comptes Firefox
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Comptes Firefox
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Fermer le dialogue
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Erreur générale de l’application
 basic-error-message = Une erreur est survenue. Merci de réessayer plus tard.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Il semble que votre carte de débit n’est pas co
 duplicate-transaction = Hum. Il semblerait qu’une transaction identique vienne d’être envoyée. Vérifiez votre historique de paiements.
 coupon-expired = Il semble que ce code promotionnel a expiré.
 card-error = La transaction n’a pas pu être traitée. Veuillez vérifier les informations relatives à votre carte de crédit et réessayez.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Une erreur système a entraîné l’échec de votre inscription à { $productName }. Votre mode de paiement n’a pas été débité. Veuillez réessayer.
 newsletter-signup-error = Vous n’avez pas d’abonnement aux notifications par courriel de mise à jour du produit. Vous pouvez réessayer dans les paramètres de votre compte.
 fxa-post-passwordless-sub-error = Votre abonnement est confirmé, mais la page de confirmation n’a pas pu être chargée. Veuillez vérifier votre courrier électronique pour configurer votre compte.
 
-## settings
+## Settings
 
 settings-home = Accueil du compte
 settings-subscriptions-title = Abonnements
 
-## legal footer
+## Legal footer
 
 terms = Conditions d’utilisation
 privacy = Politique de confidentialité
@@ -75,28 +73,28 @@ subscription-error-title = Erreur lors de la confirmation de l’abonnement…
 subscription-noplanchange-title = Ce changement de forfait d’abonnement n’est pas pris en charge
 subscription-iapsubscribed-title = Déjà abonné·e
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } facturé { $amount } par jour
        *[other] { $productName } facturé { $amount } tous les { $intervalCount } jours
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } facturé { $amount } par semaine
        *[other] { $productName } facturé { $amount } toutes les { $intervalCount } semaines
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } facturé { $amount } par mois
        *[other] { $productName } facturé { $amount } tous les { $intervalCount } mois
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } facturé { $amount } par an
@@ -114,7 +112,7 @@ product-customer-error =
 product-plan-not-found = Forfait introuvable
 product-no-such-plan = Aucun forfait de ce type pour ce produit.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilise { -brand-name-stripe } et { -brand-name-paypal } pour le traitement sécurisé des paiements.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>Politique de confidentialité de { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
@@ -123,7 +121,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>Politique de confidentialité d
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilise { -brand-name-stripe } pour le traitement sécurisé des paiements.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Politique de confidentialité de { -brand-name-stripe }</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Nom complet
@@ -147,19 +145,19 @@ payment-confirm-with-legal-links-day =
         [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } par jour</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
        *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } tous les { $intervalCount } jours</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } par semaine</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
        *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } toutes les { $intervalCount } semaines</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } par mois</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
        *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } tous les { $intervalCount } mois</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } par an</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
@@ -177,18 +175,18 @@ payment-validate-name-error = Veuillez saisir votre nom
 payment-validate-zip-required = Un code postal est nécessaire.
 payment-validate-zip-short = Le code postal est trop court
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Votre abonnement est prêt
 sub-redirect-copy = Avez-vous un moment pour nous parler de votre expérience ?
 sub-redirect-skip-survey = Non merci, montrez-moi simplement mon produit.
 
-## fields
+## Fields
 
 default-input-error = Ce champ est requis.
 input-error-is-required = Le champ « { $label } » est nécessaire
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Examinez vos modifications
 sub-change-failed = La modification de votre forfait a échoué
@@ -208,35 +206,35 @@ sub-update-current-plan-label = Forfait actuel
 sub-update-new-plan-label = Nouveau forfait
 sub-update-total-label = Nouveau total
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } chaque jour
        *[other] { $amount } tous les { $intervalCount } jours
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } chaque semaine
        *[other] { $amount } toutes les { $intervalCount } semaines
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } chaque mois
        *[other] { $amount } tous les { $intervalCount } mois
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } chaque année
        *[other] { $amount } tous les { $intervalCount } ans
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -288,14 +286,14 @@ reactivate-confirm-copy = Vous garderez accès à { $name } et votre cycle de fa
 reactivate-confirm-without-payment-method-copy = Vous garderez accès à { $name } et votre cycle de facturation et le paiement resteront les mêmes. Votre prochain paiement sera de { $amount } le { $endDate }.
 reactivate-confirm-button = Se réabonner
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Vous avez annulé votre abonnement le { $date }.
 reactivate-panel-copy = Vous perdrez l’accès à { $name } le <strong>{ $date }</strong>.
 reactivate-success-copy = Merci ! Tout est prêt.
 reactivate-success-button = Fermer
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -311,14 +309,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Facture suivante introuvable
 sub-item-no-such-subsequent-invoice = Facture suivante introuvable pour cet abonnement.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google } : achats via l’application
 sub-iap-item-apple-purchase = { -brand-name-apple } : inclut des achats intégrés
 sub-iap-item-manage-button = Gérer
 account-activated = Votre compte est activé, <userEl />
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Mise à jour des informations de facturation…
 sub-route-idx-reactivating = Échec de la réactivation de l’abonnement
@@ -345,14 +343,14 @@ sub-route-missing-billing-agreement-payment-alert = Informations de paiement inv
 sub-route-funding-source-payment-alert = Informations de paiement invalides ; une erreur s’est produite avec votre compte. Cette alerte peut prendre un certain temps à disparaitre après la mise à jour de vos informations. <div>Gérer</div>
 pay-update-manage-btn = Gérer
 
-## subscription create
+## Subscription create
 
 sub-guarantee = Garantie de remboursement de 30 jours
 pay-with-heading-other = Sélectionnez un moyen de paiement
 pay-with-heading-card-or = Ou payer par carte
 pay-with-heading-card-only = Payer par carte
 
-## plan-details
+## Plan details
 
 plan-details-header = Détails du produit
 plan-details-show-button = Afficher les détails
@@ -360,7 +358,7 @@ plan-details-hide-button = Masquer les détails
 plan-details-total-label = Total
 plan-details-list-price = Liste des prix
 
-## coupons
+## Coupons
 
 coupon-discount = Remise
 coupon-discount-applied = Remise appliquée
@@ -377,17 +375,17 @@ coupon-success-repeating = Votre forfait sera automatiquement renouvelé au bout
 coupon-enter-code =
     .placeholder = Saisissez le code
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Veuillez patienter pendant le traitement de votre paiement…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Cliquez ici pour télécharger
 payment-confirmation-mobile-alert = L’application ne s’est pas ouverte ? <a>Cliquez ici</a>
 payment-confirmation-thanks-heading = Merci !
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -432,7 +430,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Continuer vers le téléchargement
 payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Vous avez déjà un compte { -brand-name-firefox } ? <a>Connectez-vous</a>
 new-user-step-1 = 1. Créez un compte { -brand-name-firefox }
@@ -452,7 +450,7 @@ new-user-already-has-account-sign-in = Vous avez déjà un compte. <a>Connectez-
 new-user-card-title = Saisissez les informations de votre carte
 new-user-submit = S’abonner maintenant
 manage-pocket-title = Vous recherchez votre abonnement premium { -brand-name-pocket } ?
-manage-pocket-body = Pour le gérer, <a>cliquez ici</a>.
+manage-pocket-body-2 = Pour le gérer, <linkExternal>cliquez ici</linkExternal>.
 payment-method-header = Choisissez votre mode de paiement
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
