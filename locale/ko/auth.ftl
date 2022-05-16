@@ -29,6 +29,7 @@ session-verify-send-push-body = 본인 확인을 위해 여기를 클릭하세�
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="동기화 기기">
+body-devices-image = <img data-l10n-name="장치 이미지" alt="장치">
 fxa-privacy-url = { -brand-mozilla } 개인정보처리방침
 fxa-service-url = { -product-firefox-cloud } 이용약관
 subplat-automated-email = 자동으로 발송된 이메일입니다; 잘못 온 경우, 별도의 조치가 필요하지 않습니다.
@@ -137,6 +138,7 @@ view-invoice-plaintext = 청구서 보기: { $invoiceLink }
 cadReminderFirst-subject = 알림: 동기화 설정을 완료하는 방법
 cadReminderFirst-action = 다른 기기 동기화
 cadReminderFirst-title = 기기 동기화 알림입니다.
+cadReminderFirst-description = 동기화하려면 두가지가 필요합니다. { -brand-firefox }와 다른 기기를 동기화하면 비공개로 개인 북마크, 비밀번호 및 기타 { -brand-firefox } 데이터가 { -brand-firefox }를 사용하는 모든 곳에서 동일하게 유지됩니다.
 cadReminderSecond-subject = 알림: 동기화 설정 완료
 cadReminderSecond-action = 다른 기기 동기화
 cadReminderSecond-title = 기기 동기화 마지막 알림!
@@ -192,6 +194,9 @@ postAddAccountRecovery-action = 계정 관리
 postAddAccountRecovery-recovery = 본인이 아닌 경우, <a data-l10n-name="revokeAccountRecoveryLink">여기를 클릭하세요</a>.
 postAddAccountRecovery-revoke = 본인이 한 행동이 아니라면, 키 발급을 취소하세요.
 postAddLinkedAccount-subject = { -brand-firefox }에 연결된 새 계정
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = { $providerName } 계정이 { -product-firefox-account } 계정에 연결되었습니다.
 postAddLinkedAccount-action = 계정 관리
 postAddTwoStepAuthentication-subject = 2단계 인증을 사용합니다
 postAddTwoStepAuthentication-title = 2단계 인증을 사용합니다
@@ -289,6 +294,12 @@ subscriptionFirstInvoiceDiscount-subject = { $productName } 결제 확인됨
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = { $productName }를 구독해주셔셔 감사합니다.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install-2 = { $productName }를 사용하기 위한 방법을 별도의 이메일로 받게 됩니다.
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoiceDiscount-content-invoice-number = 청구서 번호: <b>{ $invoiceNumber }</b>
 subscriptionPaymentExpired-title = 신용 카드 만료 예정
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
