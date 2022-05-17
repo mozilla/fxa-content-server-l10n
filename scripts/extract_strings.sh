@@ -102,11 +102,6 @@ else
     ./scripts/merge_po.sh ./locale
 fi
 
-# Fluent extraction
-cp $PAYMENTS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
-cp $SETTINGS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
-cp $MAILER_DIR/public/locales/en/*.ftl $L10N_DIR/locale/templates
-
 # Some locales must be copied over to a different locale code
 # See details in https://github.com/mozilla/fxa-content-server-l10n/pull/79#issuecomment-149281761
 cp -r $L10N_DIR/locale/sv_SE/* $L10N_DIR/locale/sv
@@ -124,5 +119,16 @@ sed -i'' -e 's/Language: pt_PT/Language: pt/g' "$L10N_DIR/locale/pt/LC_MESSAGES/
 cp -r $L10N_DIR/locale/fy_NL/* $L10N_DIR/locale/fy
 sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/client.po"
 sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/server.po"
+
+# Fluent extraction
+cp $PAYMENTS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
+cp $SETTINGS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
+cp $MAILER_DIR/public/locales/en/*.ftl $L10N_DIR/locale/templates
+
+# Pontoon will read from the "templates" directory but we must copy the FTL files
+# into "en" to ensure users with English will always see good fallback text.
+# We can remove the "templates" directory once we are off of gettext entirely -
+# then, Pontoon will read from the "en" directory.
+cp $L10N_DIR/locale/templates/*.ftl $L10N_DIR/locale/en
 
 set +x
