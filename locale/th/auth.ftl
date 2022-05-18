@@ -21,26 +21,59 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = กำลังเข้าสู่ระบบ { -product-firefox-accounts } อยู่ใช่หรือไม่?
+session-verify-send-push-body = คลิกที่นี่เพื่อตรวจสอบว่าเป็นคุณ
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="โลโก้ { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="ซิงค์อุปกรณ์">
+body-devices-image = <img data-l10n-name="devices-image" alt="อุปกรณ์">
 fxa-privacy-url = นโยบายความเป็นส่วนตัวของ { -brand-mozilla }
 fxa-service-url = ข้อกำหนดในการให้บริการของ { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="โลโก้ { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="โลโก้ { -brand-mozilla }">
 subplat-automated-email = นี้เป็นอีเมลอัตโนมัติ ถ้าคุณได้รับเนื่องจากความผิดพลาด ไม่จำเป็นต้องทำอะไร
 subplat-privacy-notice = ประกาศความเป็นส่วนตัว
 subplat-privacy-plaintext = ประกาศความเป็นส่วนตัว:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = ข้อกำหนดและนโยบายการยกเลิก
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = ยกเลิกการบอกรับ
+subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate = ต่ออายุการบอกรับ
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = อัปเดตข้อมูลการเรียกเก็บเงิน
+subplat-privacy-policy = นโยบายความเป็นส่วนตัวของ { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = ข้อกำหนดในการให้บริการของ { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = ข้อกฎหมาย
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = ความเป็นส่วนตัว
+subplat-privacy-website-plaintext = { subplat-privacy }:
 automated-email-plaintext = นี้เป็นอีเมลอัตโนมัติ ถ้าคุณได้รับเนื่องจากความผิดพลาด ไม่จำเป็นต้องทำอะไร
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = โปรดช่วยเราปรับปรุงบริการของเราโดยทำแบบสำรวจสั้น ๆ นี้:
 change-password-plaintext = หากคุณสงสัยว่าใครพยายามเข้าถึงบัญชีของคุณ โปรดเปลี่ยนรหัสผ่านของคุณ
 manage-account = จัดการบัญชี
+manage-account-plaintext = { manage-account }:
+payment-details = รายละเอียดการชำระเงิน:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = หมายเลขใบแจ้งหนี้: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = วันที่เรียกเก็บเงิน: { $invoiceTotal } เมื่อ { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = ใบแจ้งหนี้ถัดไป: { $nextInvoiceDateOnly }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = วิธีการชำระเงิน:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = มีคำถามเกี่ยวกับการบอกรับของคุณหรือไม่? ทีมสนับสนุนของเราพร้อมช่วยคุณ:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
