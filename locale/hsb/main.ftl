@@ -179,7 +179,6 @@ payment-confirm-with-legal-links-year =
         [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } lěta</strong> poćežić, doniž swój abonement njewupowědźu.
        *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } lět</strong> poćežić, doniž swój abonement njewupowědźu.
     }
-payment-confirm = Awtorizuju Mozilla, zhotowjerja produktow Firefox, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> swoju płaćensku metodu a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> kóžde <strong>{ $interval } z { $amount } $</strong> poćežić, doniž swój abonement njewupowědźu.
 
 ##
 
@@ -495,6 +494,8 @@ new-user-subscribe-product-assurance = Wužiwamy jenož wašu e-mejlowu adresu, 
 new-user-email-validate = E-mejlowa adresa płaćiwa njeje
 new-user-email-validate-confirm = E-mejlowej adresy jenakej njejstej
 new-user-already-has-account-sign-in = Maće hižo konto. <a>Přizjewić</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = E-mejlowa adresa je wopak napisana? { $domain } e-mejlowe adresy njeposkića.
 new-user-card-title = Zapodajće swoje kartowe informacije
 new-user-submit = Nětko abonować
 manage-pocket-title = Pytaće za premiumowym abonementom { -brand-name-pocket }?
