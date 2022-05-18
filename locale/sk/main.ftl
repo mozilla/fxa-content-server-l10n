@@ -181,7 +181,6 @@ payment-confirm-with-legal-links-year =
         [few] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } každé { $intervalCount } roky</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
        *[other] Oprávňujem { -brand-name-mozilla(case: "acc") }, tvorcu produktov { -brand-name-firefox }, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } každých { $intervalCount } rokov</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
     }
-payment-confirm = Oprávňujem Mozillu, tvorcu produktov Firefox, účtovať pomocou môjho spôsobu platby sumu <strong>${ $amount } v intervale { $interval }</strong> v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Zásadami o ochrane osobných údajov </privacyNoticeLink>, kým nezruším svoje predplatné.
 
 ##
 
@@ -497,6 +496,8 @@ new-user-subscribe-product-assurance = Vašu e-mailovú adresu použijeme iba na
 new-user-email-validate = E-mailová adresa nie je platná
 new-user-email-validate-confirm = E-mailové adresy sa nezhodujú
 new-user-already-has-account-sign-in = Už máte účet. <a>Prihláste sa</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Nesprávne zadaný email? Doména { $domain } neponúka e-mailovú službu.
 new-user-card-title = Zadajte informácie o svojej karte
 new-user-submit = Predplatiť
 manage-pocket-title = Hľadáte svoje prémiové predplatné { -brand-name-pocket }?
