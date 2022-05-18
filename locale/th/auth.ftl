@@ -169,11 +169,11 @@ view-invoice-plaintext = ดูใบแจ้งหนี้: { $invoiceLink }
 cadReminderFirst-subject = การแจ้งเตือนที่เป็นมิตรของคุณ: วิธีตั้งค่าการซิงค์ของคุณให้เสร็จสมบูรณ์
 cadReminderFirst-action = ซิงค์กับอุปกรณ์อื่น
 cadReminderFirst-title = นี่คือการแจ้งเตือนการซิงค์อุปกรณ์
-cadReminderFirst-description = การซิงค์ต้องใช้อุปกรณ์อย่างน้อยสองเครื่อง การซิงค์อุปกรณ์อื่นกับ { -brand-firefox } จะช่วยเก็บที่คั่นหน้า รหัสผ่าน และข้อมูลอื่น ๆ ใน { -brand-firefox } ให้เหมือนกันในทุกที่ที่คุณใช้ { -brand-firefox }
+cadReminderFirst-description = การซิงค์ต้องใช้อุปกรณ์อย่างน้อยสองเครื่อง การซิงค์อุปกรณ์อื่นกับ { -brand-firefox } จะช่วยทำให้ที่คั่นหน้า รหัสผ่าน และข้อมูลอื่น ๆ ใน { -brand-firefox } เหมือนกันในทุกที่ที่คุณใช้ { -brand-firefox }
 cadReminderSecond-subject = การแจ้งเตือนครั้งสุดท้าย: ตั้งค่าการซิงค์ให้เสร็จสมบูรณ์
 cadReminderSecond-action = ซิงค์กับอุปกรณ์อื่น
 cadReminderSecond-title = ขอเตือนให้คุณซิงค์อุปกรณ์เป็นครั้งสุดท้าย!
-cadReminderSecond-description = การซิงค์อุปกรณ์อื่นกับ { -brand-firefox } จะช่วยเก็บที่คั่นหน้า รหัสผ่าน และข้อมูลอื่น ๆ ใน { -brand-firefox } ให้เหมือนกันในทุกที่ที่คุณใช้ { -brand-firefox }
+cadReminderSecond-description = การซิงค์อุปกรณ์อื่นกับ { -brand-firefox } จะช่วยทำให้ที่คั่นหน้า รหัสผ่าน และข้อมูลอื่น ๆ ใน { -brand-firefox } เหมือนกันในทุกที่ที่คุณใช้ { -brand-firefox }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = ยินดีต้อนรับสู่ { $productName }
@@ -270,14 +270,38 @@ postRemoveTwoStepAuthentication-action = จัดการบัญชี
 postRemoveTwoStepAuthentication-not-required = รหัสความปลอดภัยจะไม่บังคับใช้ในการลงชื่อเข้าใช้แต่ละครั้งแล้ว
 postVerify-sub-title = { -product-firefox-account } ถูกตรวจสอบแล้ว คุณดำเนินการใกล้จะเสร็จสมบูรณ์แล้ว
 postVerify-title = ถัดไป ซิงค์ระหว่างอุปกรณ์ของคุณ!
+postVerify-description = การซิงค์จะช่วยทำให้ที่คั่นหน้า รหัสผ่าน และข้อมูลอื่น ๆ ใน { -brand-firefox } เหมือนกันในอุปกรณ์ทั้งหมดของคุณ
+postVerify-subject = ตรวจสอบบัญชีแล้ว ถัดไป ซิงค์อุปกรณ์อื่นเพื่อตั้งค่าให้เสร็จ
+postVerify-setup = ตั้งค่าอุปกรณ์เครื่องถัดไป
+postVerify-action = ตั้งค่าอุปกรณ์เครื่องถัดไป
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = มีคำถาม? เยี่ยมชม { $supportUrl }
 postVerifySecondary-subject = เพิ่มอีเมลสำรองแล้ว
 postVerifySecondary-title = เพิ่มอีเมลสำรองแล้ว
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = คุณได้ยืนยัน { $secondaryEmail } เป็นอีเมลสำรองสำหรับ{ -product-firefox-account } ของคุณสำเร็จแล้ว ตอนนี้การแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้าใช้จะส่งไปยังอีเมลทั้งสอง
 postVerifySecondary-action = จัดการบัญชี
 recovery-subject = ตั้งรหัสผ่านใหม่
 recovery-title = ต้องการตั้งรหัสผ่านของคุณใหม่?
 recovery-description = คลิกปุ่มภายในชั่วโมงถัดไปเพื่อสร้างรหัสผ่านใหม่ คำขอมาจากอุปกรณ์ต่อไปนี้:
 recovery-action = สร้างรหัสผ่านใหม่
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = การสมัครสมาชิก { $productName } ของคุณถูกยกเลิกแล้ว
 subscriptionAccountDeletion-title = เสียใจที่เห็นคุณจากไป
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = คุณเพิ่งลบ{ -product-firefox-account } ของคุณ ด้วยเหตุนี้ เราจึงได้ยกเลิกการบอกรับ { $productName } ของคุณ การชำระเงินครั้งสุดท้ายจำนวน { $invoiceTotal } ของคุณได้จ่ายแล้วเมื่อ { $invoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = ยินดีต้อนรับสู่ { $productName }: โปรดตั้งรหัสผ่านของคุณ
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = ยินดีต้อนรับสู่ { $productName }
 subscriptionCancellation-title = เสียใจที่เห็นคุณจากไป
 subscriptionDowngrade-content-auto-renew = การสมัครของคุณจะต่ออายุโดยอัตโนมัติในแต่ละรอบการเรียกเก็บเงิน เว้นแต่คุณเลือกที่จะยกเลิก
 subscriptionPaymentExpired-title = บัตรเครดิตของคุณกำลังจะหมดอายุ
