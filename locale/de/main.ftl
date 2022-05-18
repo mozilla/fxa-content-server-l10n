@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>pro Jahr mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
        *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Jahre mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
     }
-payment-confirm = Ich ermächtige Mozilla, Hersteller von Firefox-Produkten, gemäß den Zahlungsbedingungen meine Zahlungsmethode <strong>alle { $interval } mit { $amount } zu belasten</strong>, bis ich meinen Dauerauftrag kündige.
 
 ##
 
@@ -455,6 +454,8 @@ new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nur, um
 new-user-email-validate = Ihre E-Mail-Adresse ist ungültig.
 new-user-email-validate-confirm = E-Mail-Adressen stimmen nicht überein.
 new-user-already-has-account-sign-in = Sie haben bereits ein Benutzerkonto. <a>Melden Sie sich an</a>.
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = E-Mail-Adresse falsch geschrieben? { $domain } bietet keine E-Mail-Dienste an.
 new-user-card-title = Geben Sie Ihre Kartendaten ein
 new-user-submit = Jetzt abonnieren
 manage-pocket-title = Suchen Sie nach Ihrem { -brand-name-pocket }-Premium-Abonnement?
