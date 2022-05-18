@@ -39,6 +39,15 @@ subplat-automated-email = นี้เป็นอีเมลอัตโนม
 subplat-privacy-notice = ประกาศความเป็นส่วนตัว
 subplat-privacy-plaintext = ประกาศความเป็นส่วนตัว:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = คุณได้รับอีเมลนี้เนื่องจาก { $email } มี{ -product-firefox-account } และคุณได้ลงชื่อเข้าใช้ { $productName }
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = คุณได้รับอีเมลนี้เนื่องจาก { $email } มี{ -product-firefox-account }
+subplat-explainer-multiple = คุณได้รับอีเมลนี้เนื่องจาก { $email } มี{ -product-firefox-account } และคุณได้บอกรับผลิตภัณฑ์หลายอย่าง
+subplat-manage-account = จัดการการตั้งค่า{ -product-firefox-account } ของคุณโดยไปที่<a data-l10n-name="subplat-account-page">หน้าบัญชี</a>ของคุณ
 subplat-terms-policy = ข้อกำหนดและนโยบายการยกเลิก
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = ยกเลิกการบอกรับ
@@ -54,6 +63,20 @@ subplat-legal = ข้อกฎหมาย
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = ความเป็นส่วนตัว
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="ดาวน์โหลด { $productName } บน { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="ดาวน์โหลด { $productName } บน { -app-store }">
+another-desktop-device = หรือติดตั้งบน<a data-l10n-name="anotherDeviceLink">อุปกรณ์เดสก์ท็อปอื่น</a>
+another-device = หรือติดตั้งบน<a data-l10n-name="anotherDeviceLink">อุปกรณ์อื่น</a>
+automated-email-change =
+    นี่เป็นอีเมลอัตโนมัติ; หากคุณไม่อนุญาตให้ดำเนินการนี้ <a data-l10n-name="passwordChangeLink">โปรดเปลี่ยนรหัสผ่านของคุณ</a>
+    สำหรับข้อมูลเพิ่มเติม โปรดไปที่<a data-l10n-name="supportLink">ฝ่ายสนับสนุนของ { -brand-mozilla }</a>
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = นี่เป็นอีเมลอัตโนมัติ; หากคุณไม่ได้เพิ่มอุปกรณ์ใหม่ไปยัง{ -product-firefox-account } ของคุณ คุณควรเปลี่ยนรหัสผ่านของคุณในทันทีที่ { $passwordChangeLink }
 automated-email-plaintext = นี้เป็นอีเมลอัตโนมัติ ถ้าคุณได้รับเนื่องจากความผิดพลาด ไม่จำเป็นต้องทำอะไร
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = โปรดช่วยเราปรับปรุงบริการของเราโดยทำแบบสำรวจสั้น ๆ นี้:
@@ -74,22 +97,77 @@ payment-plan-next-invoice = ใบแจ้งหนี้ถัดไป: { $ne
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = วิธีการชำระเงิน:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = บัตร { $cardType } ที่ลงท้ายด้วย { $lastFour }
+subscriptionSupport = มีคำถามเกี่ยวกับการบอกรับของคุณหรือไม่? <a data-l10n-name="subscriptionSupportUrl">ทีมสนับสนุน</a>ของเราพร้อมช่วยคุณ
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = มีคำถามเกี่ยวกับการบอกรับของคุณหรือไม่? ทีมสนับสนุนของเราพร้อมช่วยคุณ:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = เพื่อป้องกันการหยุดให้บริการของคุณ โปรดอัปเดตข้อมูลการชำระเงินของคุณโดยเร็วที่สุด:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = สำหรับข้อมูลเพิ่มเติม โปรดดูจาก { $supportUrl }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = ที่อยู่ IP: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (โดยประมาณ)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (โดยประมาณ)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (โดยประมาณ)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (โดยประมาณ)
+view-invoice = <a data-l10n-name="invoiceLink">ดูใบแจ้งหนี้ของคุณ</a>
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = ดูใบแจ้งหนี้: { $invoiceLink }
+cadReminderFirst-subject = การแจ้งเตือนที่เป็นมิตรของคุณ: วิธีตั้งค่าการซิงค์ของคุณให้เสร็จสมบูรณ์
 cadReminderFirst-action = ซิงค์กับอุปกรณ์อื่น
 cadReminderFirst-title = นี่คือการแจ้งเตือนการซิงค์อุปกรณ์
+cadReminderSecond-subject = การแจ้งเตือนครั้งสุดท้าย: ตั้งค่าการซิงค์ให้เสร็จสมบูรณ์
 cadReminderSecond-action = ซิงค์กับอุปกรณ์อื่น
+cadReminderSecond-title = ขอเตือนให้คุณซิงค์อุปกรณ์เป็นครั้งสุดท้าย!
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = ยินดีต้อนรับสู่ { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = ยินดีต้อนรับสู่ { $productName }
+downloadSubscription-link-action-2 = เริ่มต้น
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = รหัสการกู้คืนเหลือน้อย
 codes-reminder-description = เราสังเกตว่ารหัสการกู้คืนของคุณเหลือน้อย โปรดพิจารณาสร้างรหัสใหม่เพื่อป้องกันไม่ให้บัญชีของคุณถูกล็อก
 codes-generate = สร้างรหัส
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = สร้างรหัส
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+       *[other] เหลือรหัสกู้คืนอีก { $numberRemaining }
+    }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = มีการลงชื่อเข้าใช้ใหม่ที่ { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = มีการลงชื่อเข้าใช้ใหม่ที่ { $clientName }
 newDeviceLogin-action = จัดการบัญชี
 passwordChanged-subject = รหัสผ่านได้ถูกเปลี่ยนแล้ว
 passwordChanged-title = ได้เปลี่ยนรหัสผ่านสำเร็จแล้ว
+passwordChanged-description = เปลี่ยนรหัสผ่าน { -product-firefox-account } ของคุณบนอุปกรณ์เหล่านี้เรียบร้อย:
 passwordChangeRequired-subject = ตรวจพบกิจกรรมที่น่าสงสัย
+passwordChangeRequired-title = ต้องเปลี่ยนรหัสผ่าน
 passwordChangeRequired-signoff = ขอแสดงความนับถือ
 passwordReset-subject = รหัสผ่านได้ถูกเปลี่ยนแล้ว
 passwordReset-title = รหัสผ่านบัญชีคุณถูกเปลี่ยนแล้ว
