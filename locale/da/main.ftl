@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække <strong>{ $amount } årligt</strong> med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg afbryder mit abonnement.
        *[other] Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække <strong>{ $amount } hver { $intervalCount } år</strong> med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg afbryder mit abonnement.
     }
-payment-confirm = Jeg giver hermed tilladelse til, at Mozilla, udvikler af Firefox-produkter, kan trække <strong>${ $amount } per { $interval }</strong> med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg afbryder mit abonnement.
 
 ##
 
@@ -455,6 +454,8 @@ new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at opre
 new-user-email-validate = Mailadressen er ikke gyldig
 new-user-email-validate-confirm = Mailadresserne matcher ikke
 new-user-already-has-account-sign-in = Du har allerede en konto. <a>Log ind</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Forkert indtastet mailadresse? { $domain } tilbyder ikke mail.
 new-user-card-title = Indtast oplysninger om dit betalingskort
 new-user-submit = Abonner nu
 manage-pocket-title = Leder du efter dit premium-abonnement på { -brand-name-pocket }?
