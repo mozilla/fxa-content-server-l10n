@@ -171,7 +171,6 @@ payment-confirm-with-legal-links-year =
         [few] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } роки</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
        *[many] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } років</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
     }
-payment-confirm = Я дозволяю Mozilla, розробнику продуктів Firefox, стягувати оплату з мого рахунку розміром <strong>${ $amount } на { $interval }</strong>, відповідно до визначених умов оплати, поки я не скасую передплату.
 
 ##
 
@@ -473,6 +472,8 @@ new-user-subscribe-product-assurance = Ми застосовуємо вашу е
 new-user-email-validate = Ваша адреса е-пошти недійсна
 new-user-email-validate-confirm = Адреси е-пошти відрізняються
 new-user-already-has-account-sign-in = У вас вже є обліковий запис. <a>Увійти</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Помилка введення адреси електронної пошти? { $domain } не пропонує електронну пошту.
 new-user-card-title = Введіть дані своєї картки
 new-user-submit = Передплатити
 manage-pocket-title = Шукаєте свою передплату { -brand-name-pocket } преміум?
