@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] I authorise { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } yearly</strong>, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
        *[other] I authorise { -brand-name-mozilla }, maker of { -brand-name-firefox } products, to charge my payment method <strong>{ $amount } every { $intervalCount } years</strong>, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
     }
-payment-confirm = I authorise Mozilla, maker of Firefox products, to charge my payment method <strong>${ $amount } per { $interval }</strong>, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
 
 ##
 
@@ -455,6 +454,8 @@ new-user-subscribe-product-assurance = We only use your email to create your acc
 new-user-email-validate = Email is not valid
 new-user-email-validate-confirm = Emails do not match
 new-user-already-has-account-sign-in = You already have an account. <a>Sign in</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Mistyped email? { $domain } does not offer email.
 new-user-card-title = Enter your card information
 new-user-submit = Subscribe Now
 manage-pocket-title = Looking for your { -brand-name-pocket } premium subscription?
