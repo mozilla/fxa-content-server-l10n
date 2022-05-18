@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } par an</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
        *[other] J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement <strong>{ $amount } tous les { $intervalCount } ans</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
     }
-payment-confirm = J’autorise Mozilla, éditeur des produits Firefox, à prélever via mon moyen de paiement <strong>{ $amount } $ par { $interval }</strong>, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
 
 ##
 
@@ -447,6 +446,8 @@ new-user-subscribe-product-assurance = Nous utilisons votre adresse électroniqu
 new-user-email-validate = L’adresse électronique n’est pas valide
 new-user-email-validate-confirm = Les adresses électroniques ne correspondent pas
 new-user-already-has-account-sign-in = Vous avez déjà un compte. <a>Connectez-vous</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Faute de frappe dans l’adresse e-mail ? { $domain } ne propose pas d’adresses e-mail.
 new-user-card-title = Saisissez les informations de votre carte
 new-user-submit = S’abonner maintenant
 manage-pocket-title = Vous recherchez votre abonnement premium { -brand-name-pocket } ?
