@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } anualmente</strong>, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
        *[other] Autorizo à { -brand-name-mozilla }, fabricante dos produtos { -brand-name-firefox }, cobrar com meu método de pagamento <strong>{ $amount } a cada { $intervalCount } anos</strong>, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
     }
-payment-confirm = Autorizo à Mozilla, fabricante dos produtos Firefox, cobrar com meu método de pagamento <strong>${ $amount } por { $interval }</strong>, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancele minha assinatura.
 
 ##
 
@@ -444,6 +443,8 @@ new-user-subscribe-product-assurance = Só usamos seu email para criar sua conta
 new-user-email-validate = Email inválido
 new-user-email-validate-confirm = Os emails não coincidem
 new-user-already-has-account-sign-in = Você já tem uma conta. <a>Entre</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Email digitado errado? { $domain } não oferece email.
 new-user-card-title = Digite as informações do seu cartão
 new-user-submit = Assinar agora
 manage-pocket-title = Procurando sua assinatura premium do { -brand-name-pocket }?
