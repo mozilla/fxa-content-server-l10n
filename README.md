@@ -1,7 +1,9 @@
-fxa-content-server-l10n
-=======================
+# fxa-content-server-l10n
 
-[![Tests](https://github.com/mozilla/fxa-content-server-l10n/actions/workflows/test.yaml/badge.svg)](https://github.com/mozilla/fxa-content-server-l10n/actions/workflows/test.yaml)
+| Group | Results |
+|----|----|
+| Tests | [![Tests](https://github.com/mozilla/fxa-content-server-l10n/actions/workflows/test.yaml/badge.svg)](https://github.com/mozilla/fxa-content-server-l10n/actions/workflows/test.yaml) |
+| L10n Linters | [![FxA](https://github.com/mozilla-l10n/mozl10n-linter/actions/workflows/fxa.yaml/badge.svg)](https://github.com/mozilla-l10n/mozl10n-linter/actions/workflows/fxa.yaml)<br>[![FxA Gettext](https://github.com/mozilla-l10n/mozl10n-linter/actions/workflows/fxa_gettext.yaml/badge.svg)](https://github.com/mozilla-l10n/mozl10n-linter/actions/workflows/fxa_gettext.yaml) |
 
 This repo (abbreviated as "L10N" in this README) contains all translated/translatable strings for all of the FxA servers (fxa-content-server, fxa-auth-server, etc.). The FxA repository is abbreviated as "SOURCE" in this document.
 
