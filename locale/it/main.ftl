@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } all’anno</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
        *[other] Autorizzo { -brand-name-mozilla }, l’organizzazione che realizza i prodotti { -brand-name-firefox }, ad addebitare con il mio metodo di pagamento <strong>{ $amount } ogni { $intervalCount } anni</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
     }
-payment-confirm = Autorizzo Mozilla, l’organizzazione che realizza i prodotti Firefox, ad addebitare con il mio metodo di pagamento <strong>{ $amount } ogni { $interval }</strong>, in base ai <termsOfServiceLink>termini di servizio</termsOfServiceLink> e all’<privacyNoticeLink>informativa sulla privacy</privacyNoticeLink>, fino a quando non annullerò il mio abbonamento.
 
 ##
 
@@ -448,6 +447,8 @@ new-user-subscribe-product-assurance = Utilizziamo la tua email solo per creare 
 new-user-email-validate = L’email non è valida
 new-user-email-validate-confirm = Gli indirizzi email non corrispondono
 new-user-already-has-account-sign-in = Hai già un account. <a>Accedi</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Hai sbagliato a digitare l’email? %(domain)s non offre un servizio di email.
 new-user-card-title = Inserisci le informazioni relative alla tua carta di credito
 new-user-submit = Abbonati adesso
 manage-pocket-title = Cerchi il tuo abbonamento premium a { -brand-name-pocket }?
