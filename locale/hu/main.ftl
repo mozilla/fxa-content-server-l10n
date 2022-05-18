@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy évente <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
        *[other] Engedélyt adok a { -brand-name-mozilla } (a { -brand-name-firefox } termékek gyártója) számára, hogy { $intervalCount } évente <strong>{ $amount } összeget</strong> vonjon le a számlámról az <termsOfServiceLink>Általános Szerződési Feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően mindaddig, amíg meg nem szüntetem az előfizetésem.
     }
-payment-confirm = Felhatalmazom a Mozillát, a Firefox termékek gyártóját, hogy terhelje meg a számlámat a beállított fizetési módom szerint, <strong>{ $interval } { $amount } összeggel</strong>, a <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
 
 ##
 
@@ -455,6 +454,8 @@ new-user-subscribe-product-assurance = Csak a fiókja létrehozásához használ
 new-user-email-validate = Az e-mail-cím érvénytelen
 new-user-email-validate-confirm = Az e-mail-címek nem egyeznek
 new-user-already-has-account-sign-in = Már van felhasználói fiókja. <a>Jelentkezzen be</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Elírta az e-mail-címet? A(z) { $domain } nem nyújt e-mail szolgáltatást.
 new-user-card-title = Adja meg a kártyaadatait
 new-user-submit = Előfizetés most
 manage-pocket-title = A { -brand-name-pocket } prémium előfizetését keresi?
