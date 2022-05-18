@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox-konti
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Firefox-konti
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox-konti
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Luk modal-vindue
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Generel applikationsfejl
 basic-error-message = Noget gik galt. Prøv igen senere.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = Det ser ud til, at dit betalingskort ikke kan brug
 duplicate-transaction = Hmm. Det ser ud til, at en identisk transaktion lige blev sendt. Kontrollér din betalingshistorik.
 coupon-expired = Det ser ud til, at promo-koden er udløbet.
 card-error = Din transaktion kunne ikke behandles. Kontroller oplysningerne om dit betalingskort og prøv igen.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = På grund af en systemfejl mislykkedes din tilmelding til { $productName }. Du er ikke blevet opkrævet. Prøv igen.
 newsletter-signup-error = Du har ikke tilmeldt dig nyhedsmails om produktopdateringer. Du kan prøve igen i dine kontoindstillinger.
 fxa-post-passwordless-sub-error = Abonnementet er bekræftet, men bekræftelsessiden kunne ikke indlæses. Tjek din mail for at oprette din konto.
 
-## settings
+## Settings
 
 settings-home = Startside for konto
 settings-subscriptions-title = Abonnementer
 
-## legal footer
+## Legal footer
 
 terms = Tjenestevilkår
 privacy = Privatlivspolitik
@@ -75,28 +73,28 @@ subscription-error-title = Der opstod en fejl under bekræftelse af abonnement�
 subscription-noplanchange-title = Denne ændring af abonnementsplan understøttes ikke
 subscription-iapsubscribed-title = Abonnerer allerede
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } faktureres med { $amount } dagligt
        *[other] { $productName } faktureres med { $amount } hver { $intervalCount } dag
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } faktureres med { $amount } ugentligt
        *[other] { $productName } faktureres med { $amount } hver { $intervalCount } uge
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } faktureres med { $amount } hver måned
        *[other] { $productName } faktureres med { $amount } hver { $intervalCount } måned
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } faktureres med { $amount } hvert år
@@ -114,7 +112,7 @@ product-customer-error =
 product-plan-not-found = Plan ikke fundet
 product-no-such-plan = Der findes ingen sådan plan for dette produkt.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } og { -brand-name-paypal } til sikker behandling af betaling.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } privatlivspolitik</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } privatlivspolitik</paypalPrivacyLink>.
@@ -123,7 +121,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } privatli
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } bruger { -brand-name-stripe } til sikker behandling af betaling.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } privatlivspolitik</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Fulde navn
@@ -147,19 +145,19 @@ payment-confirm-with-legal-links-day =
         [one] Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække <strong>{ $amount } dagligt</strong> med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg afbryder mit abonnement.
        *[other] Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække <strong>{ $amount } hver { $intervalCount } dag</strong> med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg afbryder mit abonnement.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække <strong>{ $amount } ugentligt</strong> med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg afbryder mit abonnement.
        *[other] Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække <strong>{ $amount } hver { $intervalCount } uge</strong> med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg afbryder mit abonnement.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække <strong>{ $amount } hver måned</strong> med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg afbryder mit abonnement.
        *[other] Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække <strong>{ $amount } hver { $intervalCount } måned</strong> med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg afbryder mit abonnement.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] Jeg giver hermed tilladelse til, at { -brand-name-mozilla }, udvikler af { -brand-name-firefox }-produkter, kan trække <strong>{ $amount } årligt</strong> med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivspolitikken</privacyNoticeLink>, indtil jeg afbryder mit abonnement.
@@ -177,18 +175,18 @@ payment-validate-name-error = Indtast dit navn
 payment-validate-zip-required = Postnummer er påkrævet
 payment-validate-zip-short = Postnummer er for kort
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Dit abonnement er klar
 sub-redirect-copy = Brug et øjeblik til at fortælle os om din oplevelse.
 sub-redirect-skip-survey = Nej tak, bare vis mig mit produkt.
 
-## fields
+## Fields
 
 default-input-error = Dette felt er påkrævet
 input-error-is-required = { $label } er påkrævet
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = Gennemgå dine ændringer
 sub-change-failed = Ændring af plan mislykkedes
@@ -208,35 +206,35 @@ sub-update-current-plan-label = Nuværende plan
 sub-update-new-plan-label = Ny plan
 sub-update-total-label = Ny total
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } dagligt
        *[other] { $amount } hver { $intervalCount } dag
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } ugentligt
        *[other] { $amount } hver { $intervalCount } uge
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } månedligt
        *[other] { $amount } hver { $intervalCount } måned
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } årligt
        *[other] { $amount } hvert { $intervalCount } år
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -294,14 +292,14 @@ reactivate-confirm-without-payment-method-copy =
     { $amount } og vil blive trukket den { $endDate }.
 reactivate-confirm-button = Abonner igen
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Du annullerede dit abonnement den { $date }.
 reactivate-panel-copy = Du vil miste adgangen til { $name } den <strong>{ $date }</strong>.
 reactivate-success-copy = Tak! Du er klar.
 reactivate-success-button = Luk
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -319,14 +317,14 @@ sub-item-cancel-confirm =
 invoice-not-found = Efterfølgende faktura ikke fundet
 sub-item-no-such-subsequent-invoice = Efterfølgende faktura ikke fundet for dette abonnement.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Køb i appen
 sub-iap-item-apple-purchase = { -brand-name-apple }: Køb i appen
 sub-iap-item-manage-button = Håndter
 account-activated = <userEl/>, din konto er aktiveret
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Opdaterer faktureringsoplysninger…
 sub-route-idx-reactivating = Genaktivering af abonnement mislykkedes
@@ -353,14 +351,14 @@ sub-route-missing-billing-agreement-payment-alert = Ugyldig betalingsinformation
 sub-route-funding-source-payment-alert = Ugyldig betalingsinformation; der er en fejl med din konto. Det kan tage nogen tid, før denne advarsel forsvinder efter du har opdateret dine oplysninger. <div>Håndtér</div>
 pay-update-manage-btn = Håndtér
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30-dages pengene-tilbage-garanti
 pay-with-heading-other = Vælg betalingsalternativ
 pay-with-heading-card-or = Eller betal med kort
 pay-with-heading-card-only = Betal med kort
 
-## plan-details
+## Plan details
 
 plan-details-header = Produktdetaljer
 plan-details-show-button = Vis detaljer
@@ -368,7 +366,7 @@ plan-details-hide-button = Skjul detaljer
 plan-details-total-label = I alt
 plan-details-list-price = Listepris
 
-## coupons
+## Coupons
 
 coupon-discount = Rabat
 coupon-discount-applied = Rabat anvendt
@@ -385,17 +383,17 @@ coupon-success-repeating = Din plan fornys automatisk til listeprisen efter { $c
 coupon-enter-code =
     .placeholder = Indtast kode
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = Vent mens vi behandler din betaling…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Klik her for at hente
 payment-confirmation-mobile-alert = Åbnede appen ikke? <a>Klik her</a>
 payment-confirmation-thanks-heading = Tak!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -440,7 +438,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = Fortsæt til hentning
 payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = Har du allerede en { -brand-name-firefox }-konto? <a>Log ind</a>
 new-user-step-1 = 1. Opret en { -brand-name-firefox }-konto
@@ -460,7 +458,7 @@ new-user-already-has-account-sign-in = Du har allerede en konto. <a>Log ind</a>
 new-user-card-title = Indtast oplysninger om dit betalingskort
 new-user-submit = Abonner nu
 manage-pocket-title = Leder du efter dit premium-abonnement på { -brand-name-pocket }?
-manage-pocket-body = For at håndtere det, <a>klik her</a>.
+manage-pocket-body-2 = <linkExternal>Klik her</linkExternal> for at håndtere det.
 payment-method-header = Vælg din betalingsmetode
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
