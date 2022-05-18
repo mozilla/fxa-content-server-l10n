@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } árlega</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
        *[other] Ég heimila hér með { -brand-name-mozilla }, framleiðanda { -brand-name-firefox } hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>{ $amount } á { $intervalCount } ára fresti</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
     }
-payment-confirm = Ég heimila hér með Mozilla, framleiðanda Firefox-hugbúnaðar, að millifæra af greiðslumátanum mínum <strong>${ $amount } á { $interval }</strong>, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
 
 ##
 
@@ -474,6 +473,8 @@ new-user-subscribe-product-assurance = Við notum aðeins tölvupóstfangið þi
 new-user-email-validate = Tölvupóstfangið er ekki gilt
 new-user-email-validate-confirm = Tölvupóstföngin passa ekki saman
 new-user-already-has-account-sign-in = Þú ert nú þegar með reikning. <a>Skráðu þig inn</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Rangt skrifað tölvupóstfang? { $domain } býður ekki upp á tölvupóstþjónustu.
 new-user-card-title = Settu inn kortaupplýsingarnar þínar
 new-user-submit = Gerast áskrifandi núna
 manage-pocket-title = Ertu að leita að { -brand-name-pocket } forgangsáskriftinni þinni?
