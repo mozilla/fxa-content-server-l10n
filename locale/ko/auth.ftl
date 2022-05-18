@@ -29,7 +29,7 @@ session-verify-send-push-body = 본인 확인을 위해 여기를 클릭하세�
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="동기화 기기">
-body-devices-image = <img data-l10n-name="devices-images" alt="장치">
+body-devices-image = <img data-l10n-name="devices-image" alt="장치">
 fxa-privacy-url = { -brand-mozilla } 개인정보처리방침
 fxa-service-url = { -product-firefox-cloud } 이용약관
 subplat-automated-email = 자동으로 발송된 이메일입니다; 잘못 온 경우, 별도의 조치가 필요하지 않습니다.
