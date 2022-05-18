@@ -370,6 +370,8 @@ new-user-confirm-email =
 new-user-email-validate = E-poštni naslov ni veljaven
 new-user-email-validate-confirm = E-poštna naslova se ne ujemata
 new-user-already-has-account-sign-in = Račun že imate. <a>Prijava</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Ste se zatipkali? { $domain } ne ponuja e-pošte.
 new-user-card-title = Vnesite podatke o kartici
 new-user-submit = Naroči se zdaj
 manage-pocket-body-2 = Za upravljanje <linkExternal>kliknite tukaj</linkExternal>.
