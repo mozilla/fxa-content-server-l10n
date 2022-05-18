@@ -448,7 +448,7 @@ new-user-email-validate = L’email non è valida
 new-user-email-validate-confirm = Gli indirizzi email non corrispondono
 new-user-already-has-account-sign-in = Hai già un account. <a>Accedi</a>
 # $domain (String) - the email domain provided by the user during sign up
-new-user-invalid-email-domain = Hai sbagliato a digitare l’email? %(domain)s non offre un servizio di email.
+new-user-invalid-email-domain = Hai sbagliato a digitare l’email? { $domain } non offre un servizio di email.
 new-user-card-title = Inserisci le informazioni relative alla tua carta di credito
 new-user-submit = Abbonati adesso
 manage-pocket-title = Cerchi il tuo abbonamento premium a { -brand-name-pocket }?
