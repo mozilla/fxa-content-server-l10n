@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου <strong>{ $amount } ετησίως</strong>, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
        *[other] Εξουσιοδοτώ τη { -brand-name-mozilla }, δημιουργό των προϊόντων { -brand-name-firefox }, να χρεώνει τη μέθοδο πληρωμής μου <strong>{ $amount } κάθε { $intervalCount } έτη</strong>, σύμφωνα με τους <termsOfServiceLink>όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
     }
-payment-confirm = Εξουσιοδοτώ τη Mozilla, δημιουργό των προϊόντων Firefox, να χρεώνει τη μέθοδο πληρωμής μου <strong>${ $amount } ανά { $interval }</strong>, σύμφωνα με τους <termsOfServiceLink>Όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>Σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
 
 ##
 
@@ -455,6 +454,8 @@ new-user-subscribe-product-assurance = Χρησιμοποιούμε το email �
 new-user-email-validate = Το email δεν είναι έγκυρο
 new-user-email-validate-confirm = Τα email δεν ταιριάζουν
 new-user-already-has-account-sign-in = Έχετε ήδη λογαριασμό. <a>Σύνδεση</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Εσφαλμένο email; Το { $domain } δεν προσφέρει email.
 new-user-card-title = Εισαγάγετε τα στοιχεία της κάρτας σας
 new-user-submit = Συνδρομή τώρα
 manage-pocket-title = Ψάχνετε την premium συνδρομή του { -brand-name-pocket } σας;
