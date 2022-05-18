@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Firefox Accounts
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = חנות { -brand-name-google } Play
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,10 +21,10 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox Accounts
 
-## general-aria
+## General aria-label
 
 
-## app error dialog
+## App error dialog
 
 general-error-heading = שגיאת יישום כללית
 basic-error-message = משהו השתבש. נא לנסות שוב מאוחר יותר.
@@ -42,17 +42,15 @@ withdrawal-count-limit-exceeded-error = נראה שעסקה זו תחריג או
 charge-exceeds-source-limit = נראה שעסקה זו תחריג אותך מעבר למסגרת האשראי היומית שלך. נא לנסות כרטיס אחר או לנסות שוב תוך 24 שעות.
 instant-payouts-unsupported = נראה כי כרטיס החיוב שלך לא מוגדר לתשלומים מיידיים. נא לנסות כרטיס חיוב או אשראי אחר.
 card-error = לא ניתן היה לעבד את העסקה שלך. נא לאמת את פרטי כרטיס האשראי שלך ולנסות שוב.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = שגיאת מערכת גרמה לכשל בהרשמה שלך ל־{ $productName }. אמצעי התשלום שלך לא חויב. נא לנסות שוב.
 newsletter-signup-error = לא נרשמת להודעות דוא״ל עבור עדכוני מוצר. באפשרותך לנסות שוב בהגדרות החשבון שלך.
 
-## settings
+## Settings
 
 settings-subscriptions-title = מינויים
 
-## legal footer
+## Legal footer
 
 terms = תנאי השירות
 privacy = הצהרת פרטיות
@@ -64,31 +62,31 @@ subscription-create-title = הגדרת המינוי שלך
 subscription-noplanchange-title = שינוי תוכנית המינוי הזה אינו נתמך
 subscription-iapsubscribed-title = כבר רשום כמינוי
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } מחויב ב־{ $amount } כל יום
         [two] { $productName } מחויב ב־{ $amount } כל יומיים
        *[other] { $productName } מחויב ב־{ $amount } כל { $intervalCount } ימים
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } מחויב ב־{ $amount } כל שבוע
         [two] { $productName } מחויב ב־{ $amount } כל שבועיים
        *[other] { $productName } מחויב ב־{ $amount } כל { $intervalCount } שבועות
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } מחויב ב־{ $amount } כל חודש
         [two] { $productName } מחויב ב־{ $amount } כל חודשיים
        *[other] { $productName } מחויב ב־{ $amount } כל { $intervalCount } חודשים
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } מחויב ב־{ $amount } כל שנה
@@ -107,7 +105,7 @@ product-customer-error =
 product-plan-not-found = תוכנית לא נמצאה
 product-no-such-plan = אין תוכנית כזו למוצר הזה.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-stripe } וב־{ -brand-name-paypal } לצורך עיבוד תשלומים מאובטח.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink> ו<paypalPrivacyLink>מדיניות הפרטיות של { -brand-name-paypal }</paypalPrivacyLink>
@@ -116,7 +114,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>מדיניות הפרטיות �
 payment-legal-copy-stripe-2 = ‏{ -brand-name-mozilla } משתמש ב־{ -brand-name-stripe } לצורך עיבוד תשלומים מאובטח.
 payment-legal-link-stripe-3 = <stripePrivacyLink>מדיניות הפרטיות של { -brand-name-stripe }</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = שם מלא
@@ -145,18 +143,18 @@ payment-validate-name-error = נא להכניס את השם שלך
 payment-validate-zip-required = נדרש מיקוד
 payment-validate-zip-short = המיקוד קצר מדי
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = המינוי שלך מוכן
 sub-redirect-copy = נא להקדיש דקה כדי לספר לנו על החוויה שלך.
 sub-redirect-skip-survey = לא תודה, ארצה להגיע למוצר שלי.
 
-## fields
+## Fields
 
 default-input-error = שדה זה נדרש
 input-error-is-required = ‏{ $label } נדרש
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = סקירת השינוי שלך
 sub-change-failed = שינוי התוכנית נכשל
@@ -175,31 +173,31 @@ sub-update-current-plan-label = תוכנית נוכחית
 sub-update-new-plan-label = תוכנית חדשה
 sub-update-total-label = סה״כ חדש
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } כל יום
         [two] { $amount } כל יומיים
        *[other] { $amount } כל { $intervalCount } ימים
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } כל שבוע
         [two] { $amount } כל שבועיים
        *[other] { $amount } כל { $intervalCount } שבועות
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } כל חודש
         [two] { $amount } כל חודשיים
        *[other] { $amount } כל { $intervalCount } חודשים
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } כל שנה
@@ -207,7 +205,7 @@ plan-price-year =
        *[other] { $amount } כל { $intervalCount } שנים
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -267,14 +265,14 @@ reactivate-confirm-without-payment-method-copy =
     { $amount } בתאריך { $endDate }.
 reactivate-confirm-button = חידוש מינוי
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = ביטלת את המינוי שלך בתאריך { $date }.
 reactivate-panel-copy = הגישה שלך ל־{ $name } תאבד בתאריך <strong>{ $date }</strong>.
 reactivate-success-copy = תודה! הכול מוכן.
 reactivate-success-button = סגירה
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -290,14 +288,14 @@ sub-item-cancel-confirm =
     בטלו את הגישה ואת המידע השמור שלי
     בתוך { $name } בתאריך { $period }
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = ‏{ -brand-name-google }: רכישה מתוך היישומון
 sub-iap-item-apple-purchase = ‏{ -brand-name-apple }: רכישה מתוך היישומון
 sub-iap-item-manage-button = ניהול
 account-activated = החשבון שלך מופעל, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = בתהליך עדכון פרטי החיוב…
 sub-route-idx-reactivating = הפעלת המינוי מחדש נכשלה
@@ -324,19 +322,19 @@ sub-route-missing-billing-agreement-payment-alert = פרטי חיוב שגויי
 sub-route-funding-source-payment-alert = פרטי תשלום לא חוקיים; יש שגיאה עם החשבון שלך. ייתכן שהתראה זו תופיע למשך זמן מה לאחר שהמידע שלך יעודכן בהצלחה. <div>ניהול</div>
 pay-update-manage-btn = ניהול
 
-## subscription create
+## Subscription create
 
 sub-guarantee = החזר כספי מובטח תוך 30 יום
 pay-with-heading-card-only = תשלום באמצעות כרטיס
 
-## plan-details
+## Plan details
 
 plan-details-header = פרטי מוצר
 plan-details-show-button = הצגת פרטים
 plan-details-hide-button = הסתרת פרטים
 plan-details-total-label = סה״כ
 
-## coupons
+## Coupons
 
 coupon-discount = הנחה
 coupon-discount-applied = תגמול הנחה הוחל
@@ -350,17 +348,17 @@ coupon-error-invalid = הקוד שהזנת אינו חוקי.
 coupon-enter-code =
     .placeholder = נא להזין קוד
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = נא להמתין בעת עיבוד התשלום שלך…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = נא ללחוץ כאן להורדה
 payment-confirmation-mobile-alert = היישומון לא נפתח? <a>נא ללחוץ כאן</a>
 payment-confirmation-thanks-heading = תודה רבה!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -408,7 +406,7 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = כבר יש לך חשבון { -brand-name-firefox }? <a>כניסה</a>
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -422,8 +420,9 @@ new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל שלך
 new-user-email-validate = כתובת הדוא״ל אינה תקינה
 new-user-email-validate-confirm = כתובות הדוא״ל אינן תואמות
 new-user-already-has-account-sign-in = כבר יש לך חשבון. <a>כניסה</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = האם הייתה לך טעות בהקלדת הדוא״ל? { $domain } לא מציע שירותי דוא״ל.
 new-user-card-title = נא להכניס את פרטי הכרטיס שלך
 new-user-submit = הרשמה כמינוי כעת
 manage-pocket-title = חיפשת את מינוי הפרימיום שלך עבור { -brand-name-pocket }?
-manage-pocket-body = כדי לנהל אותו, <a>יש ללחוץ כאן</a>.
 payment-method-required = נדרש
