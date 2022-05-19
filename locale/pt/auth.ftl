@@ -268,8 +268,6 @@ subscriptionAccountDeletion-title = Temos pena que se vá embora
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Excluiu recentemente a sua { -product-firefox-account }. Como resultado, cancelámos a sua subscrição { $productName }. O seu pagamento final de { $invoiceTotal } foi pago a { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Detalhes de pagamento:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Bem-vindo(a) a { $productName }: Por favor, defina a sua palavra-passe.
@@ -504,6 +502,9 @@ verifyLogin-description = Para segurança adicional, por favor confirme este in�
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = Confirmar novo início de sessão em { $clientName }
 verifyLogin-action = Confirmar novo início de sessão
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Código de início de sessão para { $serviceName }
 verifyLoginCode-title = É mesmo você a iniciar sessão?
 verifyLoginCode-prompt = Se sim, aqui está o código de confirmação:
 verifyLoginCode-expiry-notice = Este expira em 5 minutos.
