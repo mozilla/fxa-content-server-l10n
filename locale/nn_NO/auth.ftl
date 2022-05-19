@@ -115,6 +115,11 @@ location-state-country = { $stateCode }, { $country } (utrekna bruk)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (utrekna bruk)
+view-invoice = <a data-l10n-name="invoiceLink">Sjå fakturaen din</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Sjå faktura: { $invoiceLink }
 cadReminderFirst-subject = Ei vennleg påminning til deg: Slik fullfører du synkroniseringsoppsettet
 cadReminderFirst-action = Synkroniser ei anna eining
 cadReminderFirst-title = Her er påminninga di om å synkronisere einingar.
@@ -202,6 +207,9 @@ postVerify-description = Privat synkronisering held bokmerke, passord og andre {
 postVerify-subject = Kontoen stadfesta. Synkroniser no ei anna eining for å fullføre installasjonen
 postVerify-setup = Konfigurer neste eining
 postVerify-action = Konfigurer neste eining
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Har du spørsmål? Gå til { $supportUrl }
 postVerifySecondary-subject = Sekundær e-post lagt til
 postVerifySecondary-title = Sekundær e-post lagt til
 postVerifySecondary-action = Handter kontoen
