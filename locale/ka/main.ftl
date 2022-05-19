@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox-ანგარიშები
 -brand-name-mozilla = Mozilla
@@ -13,7 +13,7 @@ project-brand = Firefox-ანგარიშები
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# the following are not terms because they are not used directly in messages,
+# The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
@@ -21,12 +21,12 @@ brand-name-apple-app-store = App Store
 document =
     .title = Firefox ანგარიშები
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = ფანჯრის დახურვა
 
-## app error dialog
+## App error dialog
 
 general-error-heading = აპლიკაციის საერთო შეცდომა
 basic-error-message = რაღაც ხარვეზი წარმოიქმნა. გთხოვთ, სცადოთ მოგვიანებით.
@@ -48,19 +48,17 @@ instant-payouts-unsupported = როგორც ჩანს, თქვენ�
 duplicate-transaction = ჰმ. როგორც ჩანს, მსგავსი გადარიცხვა უკვე გაიგზავნა. შეამოწმეთ თქვენი გადახდების ისტორია.
 coupon-expired = როგორც ჩანს, ფასდაკლების კოდი ვადაგასულია.
 card-error = თქვენი გადარიცხვა ვერ სრულდება. გთხოვთ, გადაამოწმოთ საკრედიტო ბარათის მონაცემები და კვლავ სცადოთ.
-
-##  $productName (String) - The name of the subscribed product.
-
+# $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = სისტემის შეცდომის გამო, { $productName } ვერ დამოწმდა. თქვენი გადახდის საშუალებიდან, თანხა არ ჩამოჭრილა. გთხოვთ, კვლავ სცადოთ.
 newsletter-signup-error = თქვენ გაქვთ გამოწერილი პროდუქტის სიახლეები ელფოსტაზე. შეგიძლიათ კვლავ სცადოთ ანგარიშის პარამეტრებიდან.
 fxa-post-passwordless-sub-error = გამოწერა დამოწმებულია, მაგრამ დადასტურების გვერდი ვერ ჩაიტვირთა. გთხოვთ, შეამოწმოთ თქვენი ელფოსტა, ანგარიშის გასამართად.
 
-## settings
+## Settings
 
 settings-home = ანგარიშის მთავარი გვერდი
 settings-subscriptions-title = გამოწერები
 
-## legal footer
+## Legal footer
 
 terms = გამოყენების პირობები
 privacy = პირადულობის განაცხადი
@@ -75,28 +73,28 @@ subscription-error-title = შეცდომა, გამოწერის �
 subscription-noplanchange-title = გამოწერის გეგმის ცვლილება არაა მხარდაჭერილი
 subscription-iapsubscribed-title = უკვე გამოწერილია
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } ანგარიშდება საფასურით { $amount } ყოველდღიურად
        *[other] { $productName } ანგარიშდება საფასურით { $amount } ყოველ { $intervalCount } დღეში
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } ანგარიშდება საფასურით { $amount } ყოველკვირეულად
        *[other] { $productName } ანგარიშდება საფასურით { $amount } ყოველ { $intervalCount } კვირაში
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } ანგარიშდება საფასურით { $amount } ყოველთვიურად
        *[other] { $productName } ანგარიშდება საფასურით { $amount } ყოველ { $intervalCount } თვეში
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } ანგარიშდება საფასურით { $amount } ყოველწლიურად
@@ -114,7 +112,7 @@ product-customer-error =
 product-plan-not-found = გეგმა ვერ მოიძებნა
 product-no-such-plan = ამ პროდუქტისთვის ასეთი გეგმა არ არსებობს.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } იყენებს { -brand-name-stripe }-ს და { -brand-name-paypal }-ს, გადახდების უსაფრთხოდ დასამუშავებლად.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } პირადულობის დებულება</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } პირადულობის დებულება</paypalPrivacyLink>.
@@ -123,7 +121,7 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } პი�
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } იყენებს { -brand-name-stripe }-ს, გადახდების უსაფრთხოდ დასამუშავებლად.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } პირადულობის დებულება</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = სრული სახელი
@@ -147,25 +145,24 @@ payment-confirm-with-legal-links-day =
         [one] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველდღიურად</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
        *[other] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველ { $intervalCount } დღეში</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirm-with-legal-links-week =
     { $intervalCount ->
         [one] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველკვირეულად</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
        *[other] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველ { $intervalCount } კვირაში</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 payment-confirm-with-legal-links-month =
     { $intervalCount ->
         [one] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველთვიურად</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
        *[other] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველ { $intervalCount } თვეში</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 payment-confirm-with-legal-links-year =
     { $intervalCount ->
         [one] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველწლიურად</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
        *[other] ნებას ვრთავ { -brand-name-mozilla }-ს, { -brand-name-firefox }-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველ { $intervalCount } წელიწადში</strong>, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
     }
-payment-confirm = ნებას ვრთავ Mozilla-ს, Firefox-პროდუქტების შემქმნელს, ჩამოჭრას <strong>{ $amount } ყოველი { $interval }</strong> დროის შუალედით, ჩემ მიერ მითითებული გადახდის საშუალებიდან, <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
 
 ##
 
@@ -177,18 +174,18 @@ payment-validate-name-error = გთხოვთ მიუთითოთ თქ
 payment-validate-zip-required = საფოსტო ინდექსი აუცილებელია
 payment-validate-zip-short = საფოსტო ინდექსი ზედმეტად მოკლეა
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = თქვენი გამოწერა მზადაა
 sub-redirect-copy = გთხოვთ, გამონახოთ დრო და მოგვახსენოთ თქვენი შეგრძნებები.
 sub-redirect-skip-survey = არა გმადლობთ, გადამიყვანეთ პროდუქტზე.
 
-## fields
+## Fields
 
 default-input-error = ველის შევსება აუცილებელია
 input-error-is-required = { $label } აუცილებელია
 
-## subscription upgrade
+## Subscription upgrade
 
 product-plan-change-heading = გადახედეთ თქვენს ცვლილებას
 sub-change-failed = გეგმის ცვლილება ვერ მოხერხდა
@@ -208,35 +205,35 @@ sub-update-current-plan-label = მიმდინარე გეგმა
 sub-update-new-plan-label = ახალი გეგმა
 sub-update-total-label = ახალი სულ
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } ყოველდღიურად
        *[other] { $amount } ყოველ { $intervalCount } დღეში
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } ყოველკვირეულად
        *[other] { $amount } ყოველ { $intervalCount } კვირაში
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } ყოველთვიურად
        *[other] { $amount } ყოველ { $intervalCount } თვეში
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } წლიურად
        *[other] { $amount } ყოველ { $intervalCount } წელიწადში
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -294,14 +291,14 @@ reactivate-confirm-without-payment-method-copy =
     { $amount }, თარიღზე { $endDate }.
 reactivate-confirm-button = ხელახლა გამოწერა
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = გამოწერის გაუქმების თარიღია { $date }.
 reactivate-panel-copy = თქვენ ვეღარ შეძლებთ გამოიყენოთ { $name } თარიღიდან <strong>{ $date }</strong>.
 reactivate-success-copy = გმადლობთ! ყველაფერი მზადაა.
 reactivate-success-button = დახურვა
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -319,14 +316,14 @@ sub-item-cancel-confirm =
 invoice-not-found = შემდგომი ზედნადები ვერ მოიძებნა
 sub-item-no-such-subsequent-invoice = შემდგომი ზედნადები ვერ მოიძებნა ამ გამოწერისთვის.
 
-## subscription iap item
+## Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: აპის შიდა შენაძენი
 sub-iap-item-apple-purchase = { -brand-name-apple }: აპის შიდა შენაძენი
 sub-iap-item-manage-button = მართვა
 account-activated = თქვენი ანგარიში ამოქმედებულია, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = ანგარიშსწორების მონაცემების განახლება…
 sub-route-idx-reactivating = გამოწერის კვლავ ამოქმედება ვერ მოხერხდა
@@ -353,14 +350,14 @@ sub-route-missing-billing-agreement-payment-alert = გადახდის ა
 sub-route-funding-source-payment-alert = გადახდის არამართებული მონაცემები; შეცდომა წარმოიშვა თქვენს ანგარიშთან. ეს შეტყობინება შეიძლება რაღაც დროით დარჩეს, მონაცემების განახლების შემდგომაც. <div>მართვა</div>
 pay-update-manage-btn = მართვა
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30-დღიანი ვადით თანხის დასაბრუნებლად
 pay-with-heading-other = აირჩიეთ გადახდის ვარიანტი
 pay-with-heading-card-or = ან გადაიხადეთ ბარათით
 pay-with-heading-card-only = ბარათით გადახდა
 
-## plan-details
+## Plan details
 
 plan-details-header = პროდუქტის შესახებ
 plan-details-show-button = ვრცლად ჩვენება
@@ -368,7 +365,7 @@ plan-details-hide-button = მოკლედ ჩვენება
 plan-details-total-label = სულ
 plan-details-list-price = ფასების ნუსხა
 
-## coupons
+## Coupons
 
 coupon-discount = ფასდაკლება
 coupon-discount-applied = ფასდაკლების ჯილდო ასახულია
@@ -385,17 +382,17 @@ coupon-success-repeating = თქვენი გეგმა თავისი
 coupon-enter-code =
     .placeholder = შეიყვანეთ კოდი
 
-## payment-processing
+## Payment processing
 
 payment-processing-message = გთხოვთ, მოითმინოთ, სანამ თქვენი გადახდა მუშავდება…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = დააწკაპეთ აქ ჩამოსატვირთად
 payment-confirmation-mobile-alert = არ გაიხსნა? <a>დაწკაპეთ აქ</a>
 payment-confirmation-thanks-heading = გმადლობთ!
 
-## payment confirmation details
+## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
@@ -440,7 +437,7 @@ payment-confirmation-amount-year =
 payment-confirmation-download-button = განაგრძეთ ჩამოტვირთვა
 payment-confirmation-cc-card-ending-in = ბარათი დაბოლოებით { $last4 }
 
-## new user email form
+## New user email form
 
 new-user-sign-in-link = უკვე გაქვთ { -brand-name-firefox }-ანგარიში? <a>შედით</a>
 new-user-step-1 = 1. შექმენით { -brand-name-firefox }-ანგარიში
@@ -457,10 +454,12 @@ new-user-subscribe-product-assurance = ჩვენ ვიყენებთ მ
 new-user-email-validate = ელფოსტა არამართებულია
 new-user-email-validate-confirm = ელფოსტა არ დაემთხვა
 new-user-already-has-account-sign-in = უკვე გაქვთ ანგარიში. <a>შესვლა</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = მცდარბეჭდილია ეგ ელფოსტა? { $domain } არ იძლევა მისამართს.
 new-user-card-title = შეიყვანეთ თქვენი ბარათის ინფორმაცია
 new-user-submit = გამოწერა ახლავე
 manage-pocket-title = გსურთ, შეიძინოთ { -brand-name-pocket }-ის რჩეული ვერსია?
-manage-pocket-body = სამართავად <a>დაწკაპეთ აქ</a>.
+manage-pocket-body-2 = მის სამართავად <linkExternal>დაწკაპეთ აქ</linkExternal>
 payment-method-header = შეარჩიეთ გადახდის საშუალება
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
