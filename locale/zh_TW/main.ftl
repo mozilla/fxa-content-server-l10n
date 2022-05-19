@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] 我授權 { -brand-name-firefox } 產品的開發商 { -brand-name-mozilla }，根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式<strong>每年收取 { $amount }</strong>，直到我主動取消訂閱為止。
        *[other] 我授權 { -brand-name-firefox } 產品的開發商 { -brand-name-mozilla }，根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式<strong>每 { $intervalCount } 年收取 { $amount }</strong>，直到我主動取消訂閱為止。
     }
-payment-confirm = 我同意 Firefox 產品的製造商 Mozilla 依照付款條件，<strong>每 { $interval } 持續對我的付款方式收取 { $amount }</strong>，直到我主動取消訂閱為止。
 
 ##
 
@@ -439,6 +438,8 @@ new-user-subscribe-product-assurance = 我們只會使用您的電子郵件地�
 new-user-email-validate = 輸入的電子郵件信箱無效
 new-user-email-validate-confirm = 兩次輸入的電子郵件信箱不相符
 new-user-already-has-account-sign-in = 您已經註冊過帳號，<a>請登入</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = 輸錯信箱帳號了？{ $domain } 不提供郵件服務。
 new-user-card-title = 輸入您的卡片資訊
 new-user-submit = 立刻訂閱
 manage-pocket-title = 在尋找您的 { -brand-name-pocket } Premium 訂閱嗎？
