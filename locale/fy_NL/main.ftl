@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betelmetoade mei <strong>jierliks { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
        *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betelmetoade <strong>elke { $intervalCount } jier mei { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
     }
-payment-confirm = Ik machtigje Mozilla, makker fan Firefox-produkten, om myn betellingsmetoade mei <strong>${ $amount } per { $interval }</strong> te belêsten, oerienkomstich de betellingsbetingsten, oant ik myn abonnemint opsis.
 
 ##
 
@@ -455,6 +454,8 @@ new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich om jo 
 new-user-email-validate = E-mailadres is net jildich
 new-user-email-validate-confirm = E-mailadressen komme net oerien
 new-user-already-has-account-sign-in = Jo hawwe al in account. <a>Oanmelde</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Hawwe jo it e-mailadres ferkeard ynfierd? { $domain } biedt gjin e-mail oan.
 new-user-card-title = Fier jo kaartgegevens yn
 new-user-submit = No abonnearje
 manage-pocket-title = Op syk nei jo abonnemint op { -brand-name-pocket } premium?
