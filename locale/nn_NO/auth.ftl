@@ -48,11 +48,18 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Oppdater faktureringsinformasjon
 subplat-privacy-policy = { -brand-mozilla }s personvernpraksis
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Brukarvilkår for { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Juridisk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Personvern
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Last ned { $productName } i { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Last ned { $productName }  i { -app-store }">
 automated-email-plaintext = Dette er ei automatisk e-postmelding: Dersom du har motteke denne e-posten ved en feil, treng du ikkje å gjera noko.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjelp oss med å forbetre tenestene våre ved å vere med i denne korte undersøkinga:
