@@ -61,4 +61,4 @@ jobs:
           # Create pull request, use the last commit message as title
           hub pull-request --no-edit
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.FXA_GITHUB_TOKEN }}
