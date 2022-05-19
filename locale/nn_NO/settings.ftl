@@ -414,6 +414,7 @@ rk-not-set = Ikkje innstilt
 rk-action-create = Opprett
 rk-action-remove = Fjern
 rk-content-explain = Gjenopprett informasjonen din når du gløymer passordet ditt.
+rk-content-reset-data = Kvifor vert dataa mine tilbakestilte når eg tilbakestiller passordet mitt?
 rk-remove-modal-heading = Fjerne gjenopprettingsnøkkel?
 
 ## Secondary email sub-section on main Settings page
