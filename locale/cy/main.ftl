@@ -195,7 +195,6 @@ payment-confirm-with-legal-links-year =
         [many] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } mlynedd</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
        *[other] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } blynedd</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
     }
-payment-confirm = Rwy'n awdurdodi Mozilla, gwneuthurwr cynnyrch Firefox, i filio fy null talu <strong>${ $amount } bob { $interval }</strong>, yn ôl amodau talu, nes i mi ddiddymu fy nhanysgrifiad.
 
 ##
 
@@ -535,6 +534,8 @@ new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn defny
 new-user-email-validate = Nid yw'r e-bost yn ddilys
 new-user-email-validate-confirm = Nid yw'r e-byst yn cyfateb
 new-user-already-has-account-sign-in = Mae gennych gyfrif eisoes. <a>Mewngofnodi</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Wedi cam deipio'r e-bost? Dyw { $domain } ddim yn cynnig e-bost.
 new-user-card-title = Rhowch fanylion eich cerdyn
 new-user-submit = Tanysgrifiwch Nawr
 manage-pocket-title = Yn chwilio am eich tanysgrifiad premiwm { -brand-name-pocket }?
