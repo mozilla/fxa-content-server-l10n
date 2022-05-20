@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-05 22:07+0000\n"
-"PO-Revision-Date: 2022-05-14 17:36+0000\n"
+"PO-Revision-Date: 2022-05-20 19:38+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1601,11 +1601,11 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Паўторна адправіць картку"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Картка не прыходзіць? Адпраўце электронны ліст замест"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1630,11 +1630,11 @@ msgstr "Выкарыстайце іншую электронную пошту"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "Калі ласка, змяніце пароль"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "каб перайсці да %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
@@ -1651,7 +1651,7 @@ msgstr "Стары пароль"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Паўторна ўвядзіце новы пароль"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
