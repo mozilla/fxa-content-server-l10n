@@ -311,6 +311,16 @@ pw-change-success-alert = Contrasigno actualisate.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Crear contrasigno
+pw-create-success-alert = Contrasigno definite.
+pw-create-error = Desolate, problema durante le definition de tu contrasigno.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -464,6 +474,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Create le { $date }
+security-not-set = Non definite
+security-action-create = Crear
+security-set-password = Defini un contrasigno pro synchronisar e usar certe functionalitates de securitate del conto.
 
 ## Switch component
 
