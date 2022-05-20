@@ -317,6 +317,16 @@ pw-change-success-alert = Gronidło jo se zaktualizěrowało.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Gronidło napóraś
+pw-create-success-alert = Gronidło jo se nastajiło.
+pw-create-error = Bóžko jo nastał problem pśi stajanju wašogo gronidła.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -466,6 +476,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Napórany: { $date }
+security-not-set = Njenastajony
+security-action-create = Napóraś
+security-set-password = Nastajśo gronidło, aby wěste wěstotne funkcije konta synchronizěrował a wužywał.
 
 ## Switch component
 
