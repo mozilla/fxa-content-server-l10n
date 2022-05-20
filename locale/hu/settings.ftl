@@ -480,6 +480,7 @@ security-password =
 security-password-created-date = Létrehozva: { $date }
 security-not-set = Nincs beállítva
 security-action-create = Létrehozás
+security-set-password = Állítson be jelszót a szinkronizáláshoz és bizonyos fiókbiztonsági funkciók használatához.
 
 ## Switch component
 
