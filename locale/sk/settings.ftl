@@ -380,6 +380,16 @@ pw-change-success-alert = Heslo bolo aktualizované.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Vytvorenie hesla
+pw-create-success-alert = Heslo bolo nastavené.
+pw-create-error = Ľutujeme, pri nastavovaní hesla sa vyskytol problém.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -535,6 +545,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Vytvorené { $date }
+security-not-set = Nie je nastavené
+security-action-create = Vytvoriť
+security-set-password = Nastavte si heslo na synchronizáciu a používanie určitých funkcií zabezpečenia účtu.
 
 ## Switch component
 
