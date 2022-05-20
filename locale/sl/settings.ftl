@@ -356,6 +356,16 @@ pw-change-success-alert = Geslo posodobljeno.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Ustvari geslo
+pw-create-success-alert = Geslo je nastavljeno.
+pw-create-error = Oprostite, prišlo je do težave pri nastavljanju gesla.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -509,6 +519,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Ustvarjeno { $date }
+security-not-set = Ni nastavljeno
+security-action-create = Ustvari
+security-set-password = Nastavite geslo za sinhronizacijo in uporabo nekaterih varnostnih možnosti računa.
 
 ## Switch component
 
