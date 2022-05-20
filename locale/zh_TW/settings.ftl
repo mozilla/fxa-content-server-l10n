@@ -296,6 +296,16 @@ pw-change-success-alert = 密碼已更新。
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = 設定密碼
+pw-create-success-alert = 已設定密碼。
+pw-create-error = 很抱歉，設定您的密碼時發生問題。
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -442,6 +452,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = 建立於 { $date }
+security-not-set = 未設定
+security-action-create = 設定
+security-set-password = 設定密碼，方可使用同步功能與其他帳號安全相關功能。
 
 ## Switch component
 
