@@ -315,6 +315,15 @@ pw-change-success-alert = Diweddarwyd y cyfrinair
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Crëwch gyfrinair
+pw-create-success-alert = Wedi gosod y cyfrinair
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
