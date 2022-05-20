@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>iga-aastaselt summa { $amount }</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
        *[other] Luban { -brand-name-mozilla }l, { -brand-name-firefox }i toodete loojal, võtta minu makseviisilt <strong>summa { $amount } iga { $intervalCount } aasta järel</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
     }
-payment-confirm = Luban Mozillal, Firefoxi toodete loojal, võtta minu makseviisilt <strong>summa { $amount }€ iga { $interval }</strong>, vastavalt <termsOfServiceLink>teenusetingimustele</termsOfServiceLink> ja <privacyNoticeLink>privaatsusreeglitele</privacyNoticeLink>, kuni ma tühistan oma tellimuse.
 
 ##
 
@@ -465,6 +464,8 @@ new-user-subscribe-product-assurance = Me kasutame sinu e-posti aadressi ainult 
 new-user-email-validate = E-posti aadress pole korrektne
 new-user-email-validate-confirm = E-posti aadressid ei ühti
 new-user-already-has-account-sign-in = Sul on juba konto olemas. <a>Logi sisse</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Kirjutasid e-posti aadressi valesti? { $domain } ei paku e-posti teenust.
 new-user-card-title = Sisesta oma kaardi andmed
 new-user-submit = Telli kohe
 manage-pocket-title = Kas otsid oma { -brand-name-pocket }i tasulist tellimust?
