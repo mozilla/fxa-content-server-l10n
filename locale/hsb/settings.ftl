@@ -317,6 +317,16 @@ pw-change-success-alert = Hesło je so zaktualizowało.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Hesło wutworić
+pw-create-success-alert = Hesło je so nastajiło.
+pw-create-error = Bohužel je při stajenju wašeho hesła problem nastał.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -468,6 +478,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Wutworjeny: { $date }
+security-not-set = Njenastajeny
+security-action-create = Wutworić
+security-set-password = Nastajće hesło, zo byšće wěste wěstotne funkcije konta synchronizował a wužiwał.
 
 ## Switch component
 
