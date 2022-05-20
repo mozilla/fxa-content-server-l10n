@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Io autorisa { -brand-name-mozilla }, productor de { -brand-name-firefox } productos, cargar a mi methodo de pagamento <strong>{ $amount } annualmente</strong>, in accordo al <termsOfServiceLink>Terminos de Servicio</termsOfServiceLink> e al <privacyNoticeLink>Aviso de confidentialitate</privacyNoticeLink>, usque io cancellara mi subscription.
        *[other] Io autorisa { -brand-name-mozilla }, productor de { -brand-name-firefox } productos, cargar a mi methodo de pagamento <strong>{ $amount } cata { $intervalCount } annos</strong>, in accordo a <termsOfServiceLink>Terminos de Servicio</termsOfServiceLink> e <privacyNoticeLink>Aviso de confidentialitate</privacyNoticeLink>, usque io cancellara mi subscription.
     }
-payment-confirm = Io autorisa Mozilla, productor de productos Firefox, a debitar mi methodo de pagamento <strong>${ $amount } cata { $interval }</strong>, in accordo a <termsOfServiceLink>Terminos de Servicio</termsOfServiceLink> e <privacyNoticeLink>Aviso de confidentialitate</privacyNoticeLink>, usque io cancellara mi subscription.
 
 ##
 
@@ -445,6 +444,8 @@ new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro crear t
 new-user-email-validate = Email non valide
 new-user-email-validate-confirm = Emails discorde
 new-user-already-has-account-sign-in = Tu jam ha un conto. <a>Accede</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Adresse mal scribite? { $domain } non offere servicio e-mail.
 new-user-card-title = Insere informationes de tu carta
 new-user-submit = Abona te ora
 manage-pocket-title = Recerca tu un abonamento premio pro tu { -brand-name-pocket }?
