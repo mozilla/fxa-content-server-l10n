@@ -317,6 +317,16 @@ pw-change-success-alert = Contraseña actualizada.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Crear contraseña
+pw-create-success-alert = Contraseña establecida.
+pw-create-error = Lo siento, hubo un problema al establecer tu contraseña.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
