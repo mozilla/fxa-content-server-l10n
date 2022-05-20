@@ -315,6 +315,16 @@ pw-change-success-alert = Parool uuendatud.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Parooli määramine
+pw-create-success-alert = Parool määratud.
+pw-create-error = Vabandust, parooli määramisel esines probleem.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -466,6 +476,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Loodud { $date }
+security-not-set = Pole määratud
+security-action-create = Loo
+security-set-password = Sünkroniseerimiseks ja teatud konto turvafunktsioonide kasutamiseks määra parool.
 
 ## Switch component
 
