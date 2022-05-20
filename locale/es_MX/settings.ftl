@@ -480,6 +480,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Creada el { $date }
+security-not-set = No establecida
+security-action-create = Crear
+security-set-password = Establece una contraseña para sincronizar y usar ciertas funciones de seguridad de la cuenta.
 
 ## Switch component
 
