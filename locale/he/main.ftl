@@ -23,6 +23,8 @@ document =
 
 ## General aria-label
 
+close-aria =
+    .aria-label = סגירת החלונית
 
 ## App error dialog
 
@@ -45,6 +47,7 @@ card-error = לא ניתן היה לעבד את העסקה שלך. נא לאמת
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = שגיאת מערכת גרמה לכשל בהרשמה שלך ל־{ $productName }. אמצעי התשלום שלך לא חויב. נא לנסות שוב.
 newsletter-signup-error = לא נרשמת להודעות דוא״ל עבור עדכוני מוצר. באפשרותך לנסות שוב בהגדרות החשבון שלך.
+fxa-post-passwordless-sub-error = המינוי אושר, אך טעינת עמוד האישור נכשלה. נא לחפש בתיבת הדוא״ל שלך אם יש הודעה להקמת חשבון.
 
 ## Settings
 
@@ -59,6 +62,7 @@ terms-download = תנאי הורדה
 ## Subscription titles
 
 subscription-create-title = הגדרת המינוי שלך
+subscription-processing-title = המינוי מועבר לאישור…
 subscription-noplanchange-title = שינוי תוכנית המינוי הזה אינו נתמך
 subscription-iapsubscribed-title = כבר רשום כמינוי
 
@@ -325,6 +329,7 @@ pay-update-manage-btn = ניהול
 ## Subscription create
 
 sub-guarantee = החזר כספי מובטח תוך 30 יום
+pay-with-heading-card-or = או לשלם עם כרטיס
 pay-with-heading-card-only = תשלום באמצעות כרטיס
 
 ## Plan details
@@ -345,6 +350,7 @@ coupon-error-generic = אירעה שגיאה בעיבוד הקוד. נא לנס�
 coupon-error-expired = פג תוקף הקוד שהזנת.
 coupon-error-limit-reached = הקוד שהזנת הגיע למגבלה שלו.
 coupon-error-invalid = הקוד שהזנת אינו חוקי.
+coupon-success = התוכנית שלך תתחדש אוטומטית עם המחיר המוצע.
 coupon-enter-code =
     .placeholder = נא להזין קוד
 
@@ -425,4 +431,5 @@ new-user-invalid-email-domain = האם הייתה לך טעות בהקלדת ה�
 new-user-card-title = נא להכניס את פרטי הכרטיס שלך
 new-user-submit = הרשמה כמינוי כעת
 manage-pocket-title = חיפשת את מינוי הפרימיום שלך עבור { -brand-name-pocket }?
+payment-method-header = נא לבחור את שיטת התשלום שלך
 payment-method-required = נדרש

@@ -98,6 +98,7 @@ connect-another-app-store-image-2 =
 ## Connected services section
 
 cs-heading = שירותים מחוברים
+cs-description = כל מה שמשמש אותך והתחברת אליו.
 cs-cannot-refresh = הייתה בעיה ברענון רשימת השירותים המחוברים, עמך הסליחה.
 cs-cannot-disconnect = הלקוח לא נמצא, לא ניתן להתנתק
 # This string is used in a notification message near the top of the page.
