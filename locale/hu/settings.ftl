@@ -315,6 +315,16 @@ pw-change-success-alert = A jelszó frissítve.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Jelszó létrehozása
+pw-create-success-alert = Jelszó megadva.
+pw-create-error = Sajnos probléma merült fel a jelszó megadásakor.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -468,6 +478,8 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Létrehozva: { $date }
+security-not-set = Nincs beállítva
+security-action-create = Létrehozás
 
 ## Switch component
 
