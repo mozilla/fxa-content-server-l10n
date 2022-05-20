@@ -89,14 +89,6 @@ then
 else
     cp -r $CONTENT_DIR/locale/templates/* $L10N_DIR/locale/templates
 
-    # Serbian conversion from Cyrillic to Latin script
-    # See https://github.com/mozilla/zippy/blob/180f746cd84cb3e409c76649e810485acb4512dc/locale/omg_new_l10n.sh#L90
-    # Also see https://bugzilla.mozilla.org/show_bug.cgi?id=1168488
-    msgfilter -i $L10N_DIR/locale/sr/LC_MESSAGES/client.po -o $L10N_DIR/locale/sr_Latn/LC_MESSAGES/client.po recode-sr-latin
-    msgfilter -i $L10N_DIR/locale/sr/LC_MESSAGES/server.po -o $L10N_DIR/locale/sr_Latn/LC_MESSAGES/server.po recode-sr-latin
-    sed -i'' -e 's/Language: sr/Language: sr_Latn/g' "$L10N_DIR/locale/sr_Latn/LC_MESSAGES/client.po"
-    sed -i'' -e 's/Language: sr/Language: sr_Latn/g' "$L10N_DIR/locale/sr_Latn/LC_MESSAGES/server.po"
-
     # Merge updates to all locales
     cd $L10N_DIR
     ./scripts/merge_po.sh ./locale
