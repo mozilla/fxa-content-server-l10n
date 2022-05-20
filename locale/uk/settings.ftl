@@ -371,6 +371,16 @@ pw-change-success-alert = Пароль оновлено.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Створити пароль
+pw-create-success-alert = Пароль встановлено.
+pw-create-error = Перепрошуємо, але при встановленні пароля виникла проблема.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -526,6 +536,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Створено { $date }
+security-not-set = Не встановлено
+security-action-create = Створити
+security-set-password = Встановіть пароль для синхронізації та використання певних функцій безпеки облікового запису.
 
 ## Switch component
 
