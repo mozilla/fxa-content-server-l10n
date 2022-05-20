@@ -317,6 +317,16 @@ pw-change-success-alert = Lykilorð uppfært.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Búa til lykilorð
+pw-create-success-alert = Lykilorð stillt.
+pw-create-error = Því miður kom upp vandamál við að stilla lykilorðið þitt.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -470,6 +480,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Búið til { $date }
+security-not-set = Ekki stillt
+security-action-create = Búa til
+security-set-password = Settu lykilorð til að samstilla og nota ákveðna öryggiseiginleika reikningsins.
 
 ## Switch component
 
