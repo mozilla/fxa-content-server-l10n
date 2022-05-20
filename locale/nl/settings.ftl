@@ -317,6 +317,16 @@ pw-change-success-alert = Wachtwoord bijgewerkt.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Wachtwoord aanmaken
+pw-create-success-alert = Wachtwoord ingesteld.
+pw-create-error = Sorry, er is een probleem opgetreden bij het instellen van uw wachtwoord.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -472,6 +482,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Gemaakt op { $date }
+security-not-set = Niet ingesteld
+security-action-create = Aanmaken
+security-set-password = Stel een wachtwoord in om te synchroniseren en bepaalde accountbeveiligingsfuncties te gebruiken.
 
 ## Switch component
 
