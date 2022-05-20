@@ -298,6 +298,16 @@ pw-change-success-alert = הססמה עודכנה.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = יצירת ססמה
+pw-create-success-alert = הססמה הוגדרה.
+pw-create-error = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -444,6 +454,8 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = נוצר ב־{ $date }
+security-not-set = לא מוגדר
+security-action-create = יצירה
 
 ## Switch component
 
