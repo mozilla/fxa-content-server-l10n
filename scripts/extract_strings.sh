@@ -96,9 +96,13 @@ fi
 
 # Some locales must be copied over to a different locale code
 # See details in https://github.com/mozilla/fxa-content-server-l10n/pull/79#issuecomment-149281761
-cp -r $L10N_DIR/locale/sv_SE/* $L10N_DIR/locale/sv
-sed -i'' -e 's/Language: sv_SE/Language: sv/g' "$L10N_DIR/locale/sv/LC_MESSAGES/client.po"
-sed -i'' -e 's/Language: sv_SE/Language: sv/g' "$L10N_DIR/locale/sv/LC_MESSAGES/server.po"
+cp -r $L10N_DIR/locale/es_ES/* $L10N_DIR/locale/es
+sed -i'' -e 's/Language: es_ES/Language: es/g' "$L10N_DIR/locale/es/LC_MESSAGES/client.po"
+sed -i'' -e 's/Language: es_ES/Language: es/g' "$L10N_DIR/locale/es/LC_MESSAGES/server.po"
+
+cp -r $L10N_DIR/locale/fy_NL/* $L10N_DIR/locale/fy
+sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/client.po"
+sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/server.po"
 
 cp -r $L10N_DIR/locale/hi_IN/* $L10N_DIR/locale/hi
 sed -i'' -e 's/Language: hi_IN/Language: hi/g' "$L10N_DIR/locale/hi/LC_MESSAGES/client.po"
@@ -108,9 +112,10 @@ cp -r $L10N_DIR/locale/pt_PT/* $L10N_DIR/locale/pt
 sed -i'' -e 's/Language: pt_PT/Language: pt/g' "$L10N_DIR/locale/pt/LC_MESSAGES/client.po"
 sed -i'' -e 's/Language: pt_PT/Language: pt/g' "$L10N_DIR/locale/pt/LC_MESSAGES/server.po"
 
-cp -r $L10N_DIR/locale/fy_NL/* $L10N_DIR/locale/fy
-sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/client.po"
-sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/server.po"
+cp -r $L10N_DIR/locale/sv_SE/* $L10N_DIR/locale/sv
+sed -i'' -e 's/Language: sv_SE/Language: sv/g' "$L10N_DIR/locale/sv/LC_MESSAGES/client.po"
+sed -i'' -e 's/Language: sv_SE/Language: sv/g' "$L10N_DIR/locale/sv/LC_MESSAGES/server.po"
+
 
 # Fluent extraction
 cp $PAYMENTS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
