@@ -187,7 +187,6 @@ payment-confirm-with-legal-links-year =
         [few] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } co { $intervalCount } lata</strong> zgodnie z <termsOfServiceLink>regulaminem usługi</termsOfServiceLink> i <privacyNoticeLink>zasadami ochrony prywatności</privacyNoticeLink> oraz za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
        *[many] Upoważniam { -brand-name-mozilla(case: "acc") }, producenta produktów { -brand-name-firefox }, do pobierania opłaty <strong>{ $amount } co { $intervalCount } lat</strong> zgodnie z <termsOfServiceLink>regulaminem usługi</termsOfServiceLink> i <privacyNoticeLink>zasadami ochrony prywatności</privacyNoticeLink> oraz za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
     }
-payment-confirm = Upoważniam Mozillę, producenta produktów Firefox, do pobierania opłaty <strong>{ $amount } USD co { $interval }</strong> zgodnie z warunkami płatności i za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
 
 ##
 
@@ -490,6 +489,8 @@ new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wyłączni
 new-user-email-validate = Adres e-mail jest nieprawidłowy
 new-user-email-validate-confirm = Adresy e-mail się nie zgadzają
 new-user-already-has-account-sign-in = Masz już konto. <a>Zaloguj się</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Błąd w adresie e-mail? { $domain } nie oferuje usług pocztowych.
 new-user-card-title = Podaj informacje o karcie
 new-user-submit = Subskrybuj
 manage-pocket-title = Szukasz swojej subskrypcji premium { -brand-name-pocket }?
