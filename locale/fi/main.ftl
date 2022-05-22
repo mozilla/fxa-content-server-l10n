@@ -169,7 +169,6 @@ payment-confirm-with-legal-links-year =
         [one] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } vuosittain</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
        *[other] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } { $intervalCount } vuoden välein</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
     }
-payment-confirm = Valtuutan Mozillan, Firefox-tuotteiden tekijän, veloittamaan maksutapaani <strong>{ $amount } $ per { $interval }</strong> <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilauksen.
 
 ##
 
@@ -458,6 +457,8 @@ new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi vain t
 new-user-email-validate = Sähköpostiosoite ei ole kelvollinen
 new-user-email-validate-confirm = Sähköpostiosoitteet eivät täsmää
 new-user-already-has-account-sign-in = Sinulla on jo tili. <a>Kirjaudu sisään</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Kirjoititko sähköpostiosoitteen väärin? Verkkotunnus { $domain } ei tarjoa sähköpostipalveluja.
 new-user-card-title = Anna korttisi tiedot
 new-user-submit = Tilaa nyt
 manage-pocket-title = Etsitkö { -brand-name-pocket }in premium-tilaustasi?

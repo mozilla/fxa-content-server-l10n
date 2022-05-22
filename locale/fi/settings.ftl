@@ -218,8 +218,6 @@ la-description = Olet valtuuttanut pääsyn seuraaville tileille.
 la-unlink-button = Poista linkitys
 la-unlink-account-button = Poista linkitys
 la-unlink-heading = Poista linkitys kolmannen osapuolen tilistä
-la-unlink-content = Haluatko varmasti poistaa { -brand-google }-tilisi linkityksen? Tilisi linkityksen poistaminen ei kirjaa sinua automaattisesti ulos näistä palveluista. Tätä varten sinun on kirjauduttava manuaalisesti ulos Yhdistetyt palvelut -osiosta.
-la-unlink-content-2 = Haluatko varmasti poistaa tilisi linkityksen? Tilin linkityksen poistaminen ei kirjaa sinua automaattisesti ulos näistä palveluista. Tätä varten sinun on kirjauduttava manuaalisesti ulos Yhdistetyt palvelut -osiosta.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -314,6 +312,16 @@ pw-change-new-password =
 pw-change-confirm-password =
     .label = Vahvista uusi salasana
 pw-change-success-alert = Salasana päivitetty.
+
+##
+
+
+## Password create page
+
+pw-create-header =
+    .title = Luo salasana
+pw-create-success-alert = Salasana asetettu.
+pw-create-error = Valitettavasti salasanaa asettaessa ilmeni ongelma.
 
 ##
 
@@ -473,6 +481,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Luotu { $date }
+security-not-set = Ei asetettu
+security-action-create = Luo
+security-set-password = Aseta salasana tilin tiettyjen suojausominaisuuksien synkronointia ja käyttöä varten.
 
 ## Switch component
 
