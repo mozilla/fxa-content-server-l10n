@@ -351,6 +351,14 @@ pw-change-success-alert = Ο κωδικός πρόσβασης ενημερώθ�
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Δημιουργία κωδικού πρόσβασης
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -506,6 +514,7 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Δημιουργία: { $date }
+security-action-create = Δημιουργία
 
 ## Switch component
 
