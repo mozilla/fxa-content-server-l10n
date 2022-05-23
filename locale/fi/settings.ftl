@@ -218,6 +218,7 @@ la-description = Olet valtuuttanut pääsyn seuraaville tileille.
 la-unlink-button = Poista linkitys
 la-unlink-account-button = Poista linkitys
 la-unlink-heading = Poista linkitys kolmannen osapuolen tilistä
+la-unlink-content-3 = Haluatko varmasti poistaa tilisi linkityksen? Tilin linkityksen poistaminen ei kirjaa sinua automaattisesti ulos yhdistetyistä palveluista. Tätä varten sinun on kirjauduttava manuaalisesti ulos Yhdistetyt palvelut -osion kautta.
 nav-linked-accounts = { la-heading }
 
 ## Modal
