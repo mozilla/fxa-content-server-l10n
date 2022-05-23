@@ -315,6 +315,16 @@ pw-change-success-alert = Đã cập nhật mật khẩu.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Tạo mật khẩu
+pw-create-success-alert = Đã đặt mật khẩu.
+pw-create-error = Xin lỗi, đã xảy ra sự cố khi đặt mật khẩu của bạn.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -470,6 +480,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Đã tạo { $date }
+security-not-set = Chưa đặt
+security-action-create = Tạo
+security-set-password = Đặt mật khẩu để đồng bộ hóa và sử dụng các tính năng bảo mật tài khoản nhất định.
 
 ## Switch component
 

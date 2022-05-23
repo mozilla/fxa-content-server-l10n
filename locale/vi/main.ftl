@@ -155,7 +155,6 @@ payment-confirm-with-legal-links-year =
     { $intervalCount ->
        *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } năm</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
     }
-payment-confirm = Tôi ủy quyền cho Mozilla, nhà sản xuất các sản phẩm Firefox, tính phí phương thức thanh toán của tôi <strong>${ $amount } mỗi { $interval }</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
 
 ##
 
@@ -435,6 +434,8 @@ new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email của
 new-user-email-validate = Email không hợp lệ
 new-user-email-validate-confirm = Email không khớp
 new-user-already-has-account-sign-in = Nếu bạn đã có tài khoản, hãy <a>đăng nhập</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Bạn đã nhập nhầm email phải không? { $domain } không cung cấp email.
 new-user-card-title = Nhập thông tin thẻ của bạn
 new-user-submit = Theo dõi ngay
 manage-pocket-title = Bạn đang tìm cách đăng ký { -brand-name-pocket } premium?
