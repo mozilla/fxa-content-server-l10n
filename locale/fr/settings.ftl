@@ -309,6 +309,16 @@ pw-change-success-alert = Mot de passe mis à jour.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Créer un mot de passe
+pw-create-success-alert = Mot de passe défini.
+pw-create-error = Un problème est survenu lors de la création de votre mot de passe.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -461,6 +471,7 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Créé le { $date }
+security-action-create = Créer
 
 ## Switch component
 
