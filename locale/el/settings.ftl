@@ -514,6 +514,7 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Δημιουργία: { $date }
+security-not-set = Δεν έχει οριστεί
 security-action-create = Δημιουργία
 
 ## Switch component
