@@ -317,6 +317,16 @@ pw-change-success-alert = Contraseña actualizada.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Crear contraseña
+pw-create-success-alert = Contraseña establecida.
+pw-create-error = Lo sentimos, ha surgido un problema al establecer tu contraseña.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -470,6 +480,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Creado { $date }
+security-not-set = No establecido
+security-action-create = Crear
+security-set-password = Establecer una contraseña para sincronizar y usar ciertas funciones de seguridad de la cuenta.
 
 ## Switch component
 
