@@ -204,8 +204,6 @@ la-description = You have authorized access to the following accounts.
 la-unlink-button = Unlink
 la-unlink-account-button = Unlink
 la-unlink-heading = Unlink from third party account
-la-unlink-content = Are you sure you want to unlink your { -brand-google } account? Unlinking your account does not automatically sign you out of those services. To do that you will need to manually sign out from the Connected services section.
-la-unlink-content-2 = Are you sure you want to unlink your account? Unlinking your account does not automatically sign you out of those services. To do that you will need to manually sign out from the Connected services section.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -295,6 +293,16 @@ pw-change-new-password =
 pw-change-confirm-password =
     .label = Confirm new password
 pw-change-success-alert = Password updated.
+
+##
+
+
+## Password create page
+
+pw-create-header =
+    .title = Create password
+pw-create-success-alert = Password set.
+pw-create-error = Sorry, there was a problem setting your password.
 
 ##
 
@@ -447,6 +455,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Created { $date }
+security-not-set = Not Set
+security-action-create = Create
+security-set-password = Set a password to sync and use certain account security features.
 
 ## Switch component
 
