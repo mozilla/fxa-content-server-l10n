@@ -320,6 +320,7 @@ pw-change-success-alert = Diweddarwyd y cyfrinair
 pw-create-header =
     .title = Crëwch gyfrinair
 pw-create-success-alert = Wedi gosod y cyfrinair
+pw-create-error = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
 
 ##
 
@@ -479,6 +480,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Crëwyd: { $date }
+security-not-set = Heb ei Osod
+security-action-create = Creu
+security-set-password = Gosodwch gyfrinair i gydweddu a defnyddio rhai nodweddion diogelwch cyfrif.
 
 ## Switch component
 
