@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } varje år</strong>, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretesspolicy</privacyNoticeLink>, tills jag avbryter min prenumeration.
        *[other] Jag godkänner { -brand-name-mozilla }, tillverkare av { -brand-name-firefox }-produkter, att debitera min betalningsmetod <strong>{ $amount } var { $intervalCount } år</strong>, enligt <termsOfServiceLink>användarvillkor</termsOfServiceLink> och <privacyNoticeLink>sekretesspolicy</privacyNoticeLink>, tills jag avbryter min prenumeration.
     }
-payment-confirm = Jag godkänner Mozilla, tillverkare av Firefox-produkter, att debitera min betalningsmetod <strong>${ $amount } per{ $interval }</strong>, enligt betalningsvillkor, tills jag avbryter mitt prenumeration.
 
 ##
 
@@ -455,6 +454,8 @@ new-user-subscribe-product-assurance = Vi använder bara din e-postadress för a
 new-user-email-validate = E-postadressen är inte giltig
 new-user-email-validate-confirm = E-postadresserna matchar inte
 new-user-already-has-account-sign-in = Har du redan ett konto, <a>Logga in</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Felskriven e-postadress? { $domain } erbjuder inte e-postadresser.
 new-user-card-title = Ange din kortinformation
 new-user-submit = Prenumerera nu
 manage-pocket-title = Letar du efter din premiumprenumeration på { -brand-name-pocket }?
