@@ -162,7 +162,6 @@ payment-confirm-with-legal-links-year =
         [one] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每年持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
        *[other] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每 { $intervalCount } 年持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
     }
-payment-confirm = 我授权 Firefox 产品的开发商 Mozilla 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每 { $interval } 持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
 
 ##
 
@@ -437,6 +436,8 @@ new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址来�
 new-user-email-validate = 电子邮件地址无效
 new-user-email-validate-confirm = 两次输入的邮箱地址不同
 new-user-already-has-account-sign-in = 您已有账户，<a>请登录</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = 输错邮箱地址了？{ $domain } 不提供邮件服务。
 new-user-card-title = 输入您的卡片信息
 new-user-submit = 立即订阅
 manage-pocket-title = 在寻找您的 { -brand-name-pocket } Premium 订阅吗？

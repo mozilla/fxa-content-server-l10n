@@ -296,6 +296,15 @@ pw-change-success-alert = 密码已更新。
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = 创建密码
+pw-create-success-alert = 密码已设置。
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -442,6 +451,8 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = 创建于 { $date }
+security-not-set = 未设置
+security-action-create = 创建
 
 ## Switch component
 
