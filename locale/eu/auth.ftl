@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -19,8 +16,15 @@
 -product-firefox-cloud = Firefox Cloud
 # Other brands
 -brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
+
+## Non-email strings
+
 
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-privacy-url = { -brand-mozilla }ren pribatutasun politika
 fxa-service-url = { -product-firefox-cloud } Zerbitzuaren baldintzak
@@ -54,11 +58,9 @@ another-device = Edo instalatu <a data-l10n-name="anotherDeviceLink">beste gailu
 automated-email-change-plaintext = Hau mezu automatiko bat da; zure { -product-firefox-account } kontuan gailu berririk gehitu ez baduzu, pasahitza berehala aldatu beharko zenuke { $passwordChangeLink } helbidean
 automated-email-plaintext = Mezu hau automatikoa da; errorez jaso baduzu, ez duzu ekintzarik burutu behar.
 change-password-plaintext = Inor zure kontuan sartzen saiatzen ari dela susmatzen baduzu, mesedez aldatu zure pasahitza.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP helbidea: { $ip }
 manage-account = Kudeatu kontua
 manage-account-plaintext = { manage-account }:
+payment-details = Ordainketaren xehetasunak:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Faktura-zenbakia: { $invoiceNumber }
@@ -71,6 +73,9 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Argibide gehiagorako, bisitatu { $supportUrl }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP helbidea: { $ip }
 view-invoice = <a data-l10n-name="invoiceLink">Ikusi zure faktura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -78,14 +83,19 @@ view-invoice = <a data-l10n-name="invoiceLink">Ikusi zure faktura</a>.
 view-invoice-plaintext = Ikusi faktura: { $invoiceLink }
 cadReminderFirst-action = Sinkronizatu beste gailu bat
 cadReminderSecond-action = Sinkronizatu beste gailu bat
-#  Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-downloadSubscription-link-action = Deskargatu { $productName }
+downloadSubscription-link-action-2 = Hasi erabiltzen
+codes-generate = Sortu gakoak
+lowRecoveryCodes-action = Sortu gakoak
 newDeviceLogin-action = Kudeatu kontua
+passwordChanged-subject = Pasahitza eguneratuta
 passwordChanged-title = Pasahitza ondo aldatu da
 passwordChangeRequired-signoff = Onena,
 passwordReset-subject = Pasahitza eguneratuta
 passwordReset-title = Zure kontuaren pasahitza aldatu egin da
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-create-key = Sortu berreskuratze-gako berria
+postAddAccountRecovery-subject = Kontua berreskuratzeko gakoa sortu da
+postAddAccountRecovery-title = Kontua berreskuratzeko gakoa sortu da
 postAddAccountRecovery-action = Kudeatu kontua
 postAddTwoStepAuthentication-subject = Bi urratseko autentifikazioa gaituta
 postAddTwoStepAuthentication-title = Bi urratseko autentifikazioa gaituta
@@ -107,6 +117,7 @@ recovery-subject = Berrezarri pasahitza
 recovery-title = Pasahitza berrezarri beharra daukazu?
 recovery-description = Hurrengo orduan egin klik botoian pasahitz berria sortzeko. Eskaera ondorengo gailutik etorri da:
 recovery-action = Sortu pasahitz berria
+subscriptionAccountReminderSecond-action = Sortu pasahitza
 unblockCode-subject = Kontuaren baimen-kodea
 unblockCode-title = Zuk hasi duzu saioa?
 unblockCode-prompt = Hala bada, hau da behar duzun baimen-kodea:
@@ -123,8 +134,7 @@ verify-action = Berretsi helbide elektronikoa
 verifyLogin-action = Berretsi saio-hasiera
 verifyLoginCode-title = Zuk hasi duzu saioa?
 verifyLoginCode-prompt = Hala bada, hau da egiaztapen-kodea:
-verifySecondary-title = Egiaztatu helbide elektroniko alternatiboa
-verifySecondary-post-verification = Egiaztatu ondoren, helbide honetan segurtasun-jakinarazpen eta -berrespenak jasoko dira.
 verifySecondaryCode-title = Egiaztatu helbide elektroniko alternatiboa
+verifySecondaryCode-action = Egiaztatu helbide elektronikoa
 verifyShortCode-title = Saioa hasten saiatu zara?
 verifyShortCode-prompt = Hala bada, erabili egiaztapen-kode hau erregistratzeko inprimakian:

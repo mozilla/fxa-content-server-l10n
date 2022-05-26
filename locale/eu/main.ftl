@@ -3,34 +3,37 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefoxeko kontuak
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-name-google = Google
+-brand-name-apple = Apple
+-brand-name-pocket = Pocket
 document =
     .title = Firefoxeko kontuak
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Itxi leiho modala
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Aplikazioaren errore orokorra
 basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
 payment-error-retry-button = Saiatu berriro
 payment-error-manage-subscription-button = Kudeatu nire harpidetza
 
-## settings
+## Settings
 
 settings-home = Kontuaren hasiera-orria
 settings-subscriptions-title = Harpidetzak
 
-## legal footer
+## Legal footer
 
 terms = Zerbitzuaren baldintzak
 privacy = Pribatutasun-oharra
@@ -38,8 +41,8 @@ privacy = Pribatutasun-oharra
 ## Subscription titles
 
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ## Product route
@@ -50,10 +53,10 @@ product-customer-error =
     .title = Arazoa bezeroa kargatzerakoan
 product-plan-not-found = Ez da plana aurkitu
 
-## payment legal blurb
+## Payment legal blurb
 
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Izen osoa
@@ -79,28 +82,25 @@ payment-update-btn = Eguneratu
 payment-pay-btn = Ordaindu orain
 payment-validate-name-error = Idatzi zure izena
 
-## subscription redirect
+## Subscription redirect
 
 
-## fields
+## Fields
 
 default-input-error = Eremu hau beharrezkoa da
 input-error-is-required = { $label } beharrezkoa da
 
-## subscription upgrade
-
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## Subscription upgrade
 
 
 ##
 
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
@@ -114,30 +114,47 @@ input-error-is-required = { $label } beharrezkoa da
 ## $name (String) - The name of the subscribed product.
 
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-success-button = Itxi
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
 
-## subscription route index
+## Subscription iap item
 
 
-## subscription create
+## Subscription route index
 
 
-## plan-details
+## Subscription create
 
 
-## payment-processing
+## Plan details
 
 
-## payment confirmation
+## Coupons
+
+
+## Payment processing
+
+
+## Payment confirmation
+
+
+## Payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+
+## $email (string) - The user's email.
 
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 payment-confirmation-download-button = Jarraitu deskargara
+
+## New user email form
+
