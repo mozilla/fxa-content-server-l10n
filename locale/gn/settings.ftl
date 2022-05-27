@@ -317,6 +317,15 @@ pw-change-success-alert = Ñe’ẽñemi hekopyahupyréva.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Emoheñói ñe’ẽñemi
+pw-create-success-alert = Ñe’ẽñemi moĩmbyre.
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -325,8 +334,6 @@ delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
 delete-account-confirm-title-2 = Embojuju ne { -product-firefox-account } { -brand-mozilla } rehe apopyre nemohekorosã térã nemboha’evéva ñandutípe:
 delete-account-acknowledge = Nemandu’áke emboguetéramo ne mba’ete:
-delete-account-chk-box-1-v3 =
-    .label = Umi ñemboheraguapy rehepyme’ẽva’ekue opytareíta
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
 delete-account-chk-box-3 =

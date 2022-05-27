@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva arýpe</strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
        *[other] Amoneĩ { -brand-name-mozilla }-pe, apopyre mboguatahára { -brand-name-firefox }, ikatu hag̃uáicha ahepyme’ẽ mbeguekatu <strong>{ $amount } peteĩteĩva { $intervalCount } arýpe</strong>, ojogueraháva umi <termsOfServiceLink>Mba’epytyvõrã ñemboguata</termsOfServiceLink> ndive ha pe <privacyNoticeLink>marandu’i ñemigua</privacyNoticeLink>, ohejarei peve che ñemboheraguapy.
     }
-payment-confirm = Amoneĩ Mozilla-pe, omoheñoiha Firefox apopyre, ojapo hag̃ua moambue <strong>{ $amount } peteĩva { $interval }</strong>, he’iháicha ñehepyme’ẽ purureko, ombogue peve che mboheraguapykue.
 
 ##
 
@@ -455,6 +454,8 @@ new-user-subscribe-product-assurance = Roipuru ne ñanduti veve romoheñói hag�
 new-user-email-validate = Ne ñanduti veve ndoikói
 new-user-email-validate-confirm = Ñanduti vevekuéra ndojokupytýi
 new-user-already-has-account-sign-in = Erekóma ne mba’ete. <a>Eñepyrũ tembiapo</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = ¿Ñandutiveve ojehaivai? { $domain } noikuave’ẽi ñanduti veve.
 new-user-card-title = Emoinge marandu kuatia’atã rehegua
 new-user-submit = Eñemboheraguapy Ko’ág̃a
 manage-pocket-title = ¿Eheka ne ñemboheraguapy guasu { -brand-name-pocket } pegua?
