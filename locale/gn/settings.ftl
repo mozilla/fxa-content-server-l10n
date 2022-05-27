@@ -322,6 +322,7 @@ pw-change-success-alert = Ñe’ẽñemi hekopyahupyréva.
 pw-create-header =
     .title = Emoheñói ñe’ẽñemi
 pw-create-success-alert = Ñe’ẽñemi moĩmbyre.
+pw-create-error = Rombyasy, oiko apañuãi emoĩnguévo ne ñe’ẽñemi.
 
 ##
 
@@ -334,6 +335,8 @@ delete-account-step-1-2 = Ku’e 1 2-gui
 delete-account-step-2-2 = Ku’e 2 2-gui
 delete-account-confirm-title-2 = Embojuju ne { -product-firefox-account } { -brand-mozilla } rehe apopyre nemohekorosã térã nemboha’evéva ñandutípe:
 delete-account-acknowledge = Nemandu’áke emboguetéramo ne mba’ete:
+delete-account-chk-box-1-v2 =
+    .label = Oimeraẽva jehepyme’ẽ mboheraguapy erekóva oñemboykéta (ha’e’ỹva { product-pocket })
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
 delete-account-chk-box-3 =
@@ -479,6 +482,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Heñoipyre { $date }
+security-not-set = Heko’ỹva
+security-action-create = Moheñói
+security-set-password = Emoĩ ñe’ẽñemi embojuehe hag̃ua ha eipuru peteĩva mba’ete rekorosã rembiapoite.
 
 ## Switch component
 
