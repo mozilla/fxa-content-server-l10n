@@ -355,6 +355,7 @@ pw-change-success-alert = Ο κωδικός πρόσβασης ενημερώθ�
 
 pw-create-header =
     .title = Δημιουργία κωδικού πρόσβασης
+pw-create-success-alert = Ο κωδικός πρόσβασης ορίστηκε.
 pw-create-error = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας.
 
 ##
@@ -517,6 +518,7 @@ security-password =
 security-password-created-date = Δημιουργία: { $date }
 security-not-set = Δεν έχει οριστεί
 security-action-create = Δημιουργία
+security-set-password = Ορίστε έναν κωδικό πρόσβασης για συγχρονισμό και χρήση συγκεκριμένων λειτουργιών ασφαλείας του λογαριασμού.
 
 ## Switch component
 
