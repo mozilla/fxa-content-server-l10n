@@ -423,14 +423,36 @@ subscriptionPaymentExpired-content = { $productName } の支払いに使用し�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } への支払いに失敗しました
+subscriptionPaymentFailed-title = 申し訳ありませんが、お支払いに問題があります
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = { $productName } の最新のお支払いに問題がありました。
 subscriptionPaymentFailed-content-outdated = クレジットカードの有効期限が切れているか、現在のお支払い方法が古くなっている可能性があります。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = { $productName } の支払い情報を更新してください
+subscriptionPaymentProviderCancelled-title = 申し訳ありませんが、お支払い方法に問題があります。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = { $productName } の支払い方法に問題が見つかりました。
 subscriptionPaymentProviderCancelled-content-reason = クレジットカードの有効期限が切れているか、現在のお支払い方法が古くなっている可能性があります。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = { $productName } のサブスクリプションを再開しました
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = { $productName } のサブスクリプションを再開していただき、ありがとうございます。
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = 請求サイクルとお支払い方法は同じです。次回は { $nextInvoiceDateOnly } に { $invoiceTotal } が請求されます。キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = { $productName } 自動更新のお知らせ
+subscriptionRenewalReminder-title = サブスクリプションはまもなく更新されます
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = 平素より { $productName } をご利用いただき、誠にありがとうございます。
 subscriptionsPaymentExpired-subject = サブスクリプションに使用しているクレジットカードの有効期限が近づいています
 subscriptionsPaymentExpired-title = クレジットカードの有効期限が近づいています
 subscriptionsPaymentExpired-content = 以下のサブスクリプションの支払いに使用しているクレジットカードの有効期限が近づいています。
