@@ -76,6 +76,26 @@ subscription-iapsubscribed-title = サブスクリプション登録済み
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+       *[other] { $productName } は { $intervalCount } 日ごとに { $amount } を請求します
+    }
+# $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+       *[other] { $productName } は { $intervalCount } 週間ごとに { $amount } を請求します
+    }
+# $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+       *[other] { $productName } は { $intervalCount } か月ごとに { $amount } を請求します
+    }
+# $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+       *[other] { $productName } は { $intervalCount } か年ごとに { $amount } を請求します
+    }
 
 ## Product route
 
@@ -115,6 +135,26 @@ payment-zip =
 
 ##  $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirm-with-legal-links-day =
+    { $intervalCount ->
+       *[other] 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-firefox } の開発元である { -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、<strong>{ $intervalCount } 日ごとに { $amount } の金額</strong> を指定の支払い方法で請求することを承認します。
+    }
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirm-with-legal-links-week =
+    { $intervalCount ->
+       *[other] 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-firefox } の開発元である { -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、<strong>{ $intervalCount } 週間ごとに { $amount } の金額</strong> を指定の支払い方法で請求することを承認します。
+    }
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirm-with-legal-links-month =
+    { $intervalCount ->
+       *[other] 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-firefox } の開発元である { -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、<strong>{ $intervalCount } か月ごとに { $amount } の金額</strong> を指定の支払い方法で請求することを承認します。
+    }
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirm-with-legal-links-year =
+    { $intervalCount ->
+       *[other] 私がサブスクリプションをキャンセルするまでの間、{ -brand-name-firefox } の開発元である { -brand-name-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、<strong>{ $intervalCount } か年ごとに { $amount } の金額</strong> を指定の支払い方法で請求することを承認します。
+    }
 
 ##
 
@@ -129,6 +169,8 @@ payment-validate-zip-short = 郵便番号が短すぎます
 ## Subscription redirect
 
 sub-redirect-ready = サブスクリプションの準備ができました
+sub-redirect-copy = あなたの体験について教えていただけますか。
+sub-redirect-skip-survey = いいえ、今すぐに製品ページへ移動してください。
 
 ## Fields
 
@@ -141,19 +183,75 @@ product-plan-change-heading = 変更を確認してください
 sub-change-failed = プラン変更に失敗しました
 sub-update-payment-title = 支払情報
 sub-update-card-exp = 有効期限 { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy = プランはすぐに変更されます。請求サイクルの残りは調整された料金が請求され、{ $startingDate } から全額が請求されます。
 
 ##
 
 sub-change-submit = 変更を確認
+sub-change-indicator =
+    .aria-label = 変更インジケーター
 sub-update-current-plan-label = 現在のプラン
+sub-update-new-plan-label = 変更後のプラン
+sub-update-total-label = 変更後の料金
 
 ## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+       *[other] { $intervalCount } 日ごとに { $amount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } 日ごとに { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+       *[other] { $intervalCount } 週間ごとに { $amount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } 週間ごとに { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+       *[other] { $intervalCount } か月ごとに { $amount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } か月ごとに { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+       *[other] { $intervalCount } か年ごとに { $amount }
+    }
+    .title =
+        { $intervalCount ->
+           *[other] { $intervalCount } か年ごとに { $amount }
+        }
 
 ## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+       *[other] { $intervalCount } 日ごとに { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+       *[other] { $intervalCount } 週間ごとに { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+       *[other] { $intervalCount } か月ごとに { $amount }
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
