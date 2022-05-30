@@ -50,6 +50,8 @@ coupon-expired = プロモーションコードの有効期限が切れている
 card-error = 取引を処理できませんでした。クレジットカード情報を確認して、もう一度お試しください。
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = システムエラーにより { $productName } の登録が失敗しました。指定されたお支払い方法での請求がされていません。もう一度お試しください。
+newsletter-signup-error = 製品の更新通知メールに登録されていません。アカウント設定から再試行できます。
+fxa-post-passwordless-sub-error = サブスクリプションは確認されましたが、確認ページの読み込みに失敗しました。アカウントを設定するためにメールをご確認ください。
 
 ## Settings
 
@@ -64,6 +66,12 @@ terms-download = 利用規約をダウンロード
 
 ## Subscription titles
 
+subscription-create-title = サブスクリプションを設定する
+subscription-success-title = サブスクリプションの確認
+subscription-processing-title = サブスクリプション確認中...
+subscription-error-title = サブスクリプションの確認中にエラーが発生しました...
+subscription-noplanchange-title = このサブスクリプションのプラン変更はサポートされていません
+subscription-iapsubscribed-title = サブスクリプション登録済み
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
