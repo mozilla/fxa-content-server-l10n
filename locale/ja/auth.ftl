@@ -559,16 +559,31 @@ unblockCode-report-plaintext = もし違うなら、侵入者を防ぐため問�
 verificationReminderFirst-subject = 通知: アカウント作成を完了してください
 verificationReminderFirst-title = { -brand-firefox } ファミリーへようこそ
 verificationReminderFirst-description = 数日前に { -product-firefox-account }を作成されましたが、まだ確認が行われていません。
+verificationReminderFirst-sub-description = 今すぐ確認して、プライバシー保護と実践的な知識、ユーザーを尊重する技術を手に入れましょう。
 confirm-email = メールアドレス確認
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = メールアドレス確認
 verificationReminderSecond-subject = 最終通知：アカウントを有効にしてください
 verificationReminderSecond-title = まだお使いになりますか？
+verificationReminderSecond-description = 約 1 週間前に { -product-firefox-account }を作成されましたが、まだアカウントの確認が行われていません。
 verificationReminderSecond-sub-description = このメールアドレスを確認してアカウントを有効にし、問題がないことをお知らせください。
 verificationReminderSecond-action = メールアドレス確認
+verify-title = { -brand-firefox } ファミリーの製品を有効にしてください
+verify-description-plaintext = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。
+verify-description = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:
 verify-subject = アカウント作成を完了してください
 verify-action = メールアドレス確認
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = { $clientName } への新規ログイン
 verifyLogin-description = 念のため、次の端末からのログインを確認してください:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = { $clientName } への新規ログインを確認
 verifyLogin-action = ログインを確認
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = { $serviceName } のログインコード
 verifyLoginCode-title = ログインしようとしているのはあなた自身ですか？
 verifyLoginCode-prompt = はいの場合、この確認コードです:
 verifyLoginCode-expiry-notice = 5 分以内に確認コードを入力してください。
@@ -576,9 +591,19 @@ verifyPrimary-title = 主要アドレスを確認
 verifyPrimary-description = アカウント変更を実行するリクエストが次の端末から行われました:
 verifyPrimary-subject = 優先メールアドレス確認
 verifyPrimary-action = メールアドレスの確認
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = 確認が済むと、予備アドレスの追加などのアカウント変更はこの端末から行えるようになります。
 verifySecondaryCode-subject = 予備メールアドレスの確認
 verifySecondaryCode-title = 予備アドレスを確認
+verifySecondaryCode-action = メールアドレスを確認
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の { -product-firefox-account }から行われました:
+verifySecondaryCode-prompt = この確認コードを使用してください:
 verifySecondaryCode-expiry-notice = この確認コードは 5 分で使用期限切れになります。確認が済み次第、このアドレスにセキュリティ通知や確認のメールが送られるようになります。
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = 確認コード: { $code }
 verifyShortCode-title = これはあなたが登録しようとしているアカウントですか？
+verifyShortCode-prompt = もしそうなら、登録フォームでこの確認コードを使用してください:
 verifyShortCode-expiry-notice = 5 分以内に確認コードを入力してください。

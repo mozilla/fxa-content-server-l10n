@@ -48,6 +48,8 @@ instant-payouts-unsupported = デビットカードが即時支払いに設定�
 duplicate-transaction = まったく同じ取引が送信されたようです。お支払いの履歴を確認してください。
 coupon-expired = プロモーションコードの有効期限が切れているようです。
 card-error = 取引を処理できませんでした。クレジットカード情報を確認して、もう一度お試しください。
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = システムエラーにより { $productName } の登録が失敗しました。指定されたお支払い方法での請求がされていません。もう一度お試しください。
 
 ## Settings
 
