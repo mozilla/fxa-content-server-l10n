@@ -460,10 +460,23 @@ subscriptionRenewalReminder-content-greeting = 平素より { $productName } を
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-current = 現在のサブスクリプションはあと { $reminderLength } 日で自動的に更新されるよう設定されています。更新日に { -brand-mozilla } が { $planIntervalCount } { $planInterval } のサブスクリプションを更新し、{ $invoiceTotal } の料金があなたのアカウントの支払い方法に適用されます。
 subscriptionRenewalReminder-content-closing = 今後とも宜しくお願い致します。
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = { $productName } チームより
 subscriptionsPaymentExpired-subject = サブスクリプションに使用しているクレジットカードの有効期限が近づいています
 subscriptionsPaymentExpired-title = クレジットカードの有効期限が近づいています
 subscriptionsPaymentExpired-content = 以下のサブスクリプションの支払いに使用しているクレジットカードの有効期限が近づいています。
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } のサブスクリプションの支払い情報を更新してください
+subscriptionsPaymentProviderCancelled-title = 申し訳ありませんが、お支払い方法に問題があります
+subscriptionsPaymentProviderCancelled-content-detected = 次のサブスクリプションの支払い方法に問題が見つかりました。
+subscriptionsPaymentProviderCancelled-content-payment = クレジットカードの有効期限が切れているか、現在のお支払い方法が古くなっている可能性があります。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = { $productName } への支払いを受領しました
+subscriptionSubsequentInvoice-title = ご利用いただきありがとうございます！
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = { $productName } の最新のお支払いを受領しました。
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number = 請求書番号: <b>{ $invoiceNumber }</b>
@@ -524,10 +537,24 @@ subscriptionUpgrade-title = アップグレードしていただきありがと�
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = { $productNameOld } から { $productName } へのアップグレードが完了しました。
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info = 次回の請求より、{ $paymentAmountOld } / { $productPaymentCycleOld } から { $paymentAmountNew } / { $productPaymentCycleNew } に変更されます。その際、この { $productPaymentCycleOld } の残りの期間は余剰分を追加で反映させるため 1 度だけ { $paymentProrated } の料金が請求されます。
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = { $productName } の使用に必要な新しいソフトウェアをインストールする場合は、ダウンロード手順が記載された別のメールが届きます。
 subscriptionUpgrade-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
 unblockCode-subject = アカウントの認証コード
 unblockCode-title = ログインしようとしているのはあなた自身ですか？
 unblockCode-prompt = もしそうなら、ここに必要な認証コードがあります:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = もしそうなら、次の認証コードが必要です: { $unblockCode }
+unblockCode-report = もし違うなら、侵入者を防ぐため <a data-l10n-name="reportSignInLink">問題を報告してください</a>。
 unblockCode-report-plaintext = もし違うなら、侵入者を防ぐため問題を報告してください。
 verificationReminderFirst-subject = 通知: アカウント作成を完了してください
 verificationReminderFirst-title = { -brand-firefox } ファミリーへようこそ
