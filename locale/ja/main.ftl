@@ -252,20 +252,39 @@ sub-plan-price-month =
     { $intervalCount ->
        *[other] { $intervalCount } か月ごとに { $amount }
     }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+       *[other] { $intervalCount } か年ごとに { $amount }
+    }
 
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = 次回の請求日: { $date }
+sub-expires-on = 有効期限: { $date }
 
 ##
 
+pay-update-card-exp = 有効期限: { $expirationDate }
+pay-update-change-btn = 変更する
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = { $name } を使い続けますか？
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy = { $name } へのアクセスが維持され、請求サイクルと支払い料金も継続されます。次回の請求は { $endDate } に下 4 桁 { $last } のカードから { $amount } が支払われます。
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy = { $name } へのアクセスが維持され、請求サイクルと支払い料金も継続されます。次回の請求は { $endDate } に { $amount } が支払われます。
+reactivate-confirm-button = サブスクリプションを再開する
 
 ## $date (Date) - Last day of product access
 
-reactivate-panel-date = { $date } に購読をキャンセルしました。
+reactivate-panel-date = { $date } にサブスクリプションをキャンセルしました。
 reactivate-panel-copy = <strong>{ $date }</strong> に { $name } へのアクセスができなくなります。
 reactivate-success-copy = ありがとうございます！ これで準備完了です。
 reactivate-success-button = 閉じる
@@ -274,15 +293,44 @@ reactivate-success-button = 閉じる
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
-sub-item-missing = 購読の読み込みに問題があります
+sub-item-missing = サブスクリプションの読み込みに問題があります
 sub-item-missing-msg = また後で試してください。
+sub-item-no-such-plan = このサブスクリプションにはご指定のプランがありません。
+sub-item-cancel-sub = サブスクリプションをキャンセル
+sub-item-stay-sub = サブスクリプションを継続
+sub-item-cancel-msg = 請求サイクルの最終日 { $period } 以降は { $name } を使用できません。
+sub-item-cancel-confirm = { $period } に { $name } へのアクセスと保存された情報をキャンセルする
+invoice-not-found = 後続の請求書が見つかりませんでした
+sub-item-no-such-subsequent-invoice = このサブスクリプションの後続の請求書が見つかりませんでした
 
 ## Subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: アプリ内課金
+sub-iap-item-apple-purchase = { -brand-name-apple }: アプリ内課金
 sub-iap-item-manage-button = 管理
+account-activated = <userEl/>さんのアカウントが有効になりました
 
 ## Subscription route index
 
+sub-route-idx-updating = 請求情報を更新しています...
+sub-route-idx-reactivating = サブスクリプションの再開に失敗しました
+sub-route-idx-cancel-failed = サブスクリプションのキャンセルに失敗しました
+sub-route-idx-contact = サポートへの問い合わせ
+sub-route-idx-cancel-msg-title = ご利用ありがとうございました
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    { $name } のサブスクリプションがキャンセルされました。<br />
+    { $date } まで { $name } へのアクセスができます。
+sub-route-idx-cancel-aside = ご質問のある方は <a>{ -brand-name-mozilla } サポート</a> をご覧ください。
+sub-subscription-error =
+    .title = サブスクリプション読み込みエラー
+sub-customer-error =
+    .title = 顧客情報読み込みエラー
+sub-invoice-error =
+    .title = 請求書読み込みエラー
+sub-billing-update-success = 請求情報の更新が完了しました
+sub-route-payment-modal-heading = 請求情報が無効です
 
 ## Subscription create
 
