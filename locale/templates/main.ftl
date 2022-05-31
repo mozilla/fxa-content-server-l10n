@@ -4,6 +4,7 @@
 
 ## Branding
 
+project-brand-2 = Firefox Accounts
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
