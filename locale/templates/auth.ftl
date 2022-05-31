@@ -5,6 +5,7 @@
 ### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
+-brand-mozilla1 = Mozilla
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 
