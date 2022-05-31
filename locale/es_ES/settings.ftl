@@ -178,7 +178,6 @@ drop-down-menu-title = menú { -product-firefox-account }
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Conectado como</signin><user>{ $user }</user>
-drop-down-menu-sign-out = Cerrar sesión
 drop-down-menu-sign-out-error = Lo sentimos, ha surgido un problema al cerrar tu sesión.
 
 ## Flow Container
