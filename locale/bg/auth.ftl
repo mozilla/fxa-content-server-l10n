@@ -36,6 +36,9 @@ subplat-privacy = Поверителност
 automated-email-plaintext = Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията.
 change-password-plaintext = Ако подозирате, че някой се опитва да получи достъп до вашата сметка, моля, сменете паролата си.
 manage-account = Управление на сметка
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = Адрес по IP: { $ip }
 codes-generate = Генериране на кодове
 lowRecoveryCodes-action = Генериране на кодове
 newDeviceLogin-action = Управление на сметка
