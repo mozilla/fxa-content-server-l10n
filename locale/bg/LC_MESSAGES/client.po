@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-05 22:07+0000\n"
-"PO-Revision-Date: 2022-06-01 09:20+0000\n"
+"PO-Revision-Date: 2022-06-01 09:27+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -1576,7 +1576,7 @@ msgstr ""
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Затворете тази страница и продължете на другото устройство."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
@@ -1608,7 +1608,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "Добавете допълнителен електронен адрес"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
@@ -1719,7 +1719,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "Въведение"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
@@ -1955,11 +1955,11 @@ msgstr "Сканирайте за свързване на устройство"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr ""
+msgstr "Отворете скенера за код в приложението Firefox и покажете кода, когато сте готови."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Show code"
-msgstr ""
+msgstr "Показване на кода"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"

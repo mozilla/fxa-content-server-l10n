@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = Затваряне на съобщението
 
 ## Firefox and Mozilla Brand
 ##
@@ -22,12 +23,15 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox Accounts
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = сметка на Firefox
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
+product-firefox-monitor = Firefox Monitor
 
 ##
 
@@ -36,6 +40,7 @@ product-mozilla-vpn = Mozilla VPN
 
 ##  Application page title and footer
 
+app-default-title = { -product-firefox-accounts }
 
 ##
 
@@ -48,6 +53,10 @@ product-mozilla-vpn = Mozilla VPN
 
 # BentoMenu component
 
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 
 ## Connect another device promo
 
