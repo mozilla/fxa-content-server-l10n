@@ -141,6 +141,35 @@ subscriptionAccountDeletion-subject = Абонамент за { $productName } �
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Добре дошли при { $productName }: Изберете парола
 subscriptionAccountReminderFirst-subject = Напомняне: Завършете създаването на профила си
+subscriptionAccountReminderSecond-subject = Последно напомняне: Настройте профила си
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Абонамент за { $productName } е спрян
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Превключихте към { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Абонамент за { $productName } е спрян
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Плащане за { $productName } е потвърдено
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-subject = Плащане за { $productName } е потвърдено
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = Кредитна карта за { $productName } изтича скоро
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Неуспешно плащане за { $productName }
+subscriptionsPaymentExpired-subject = Кредитна карта към абонамент изтича скоро
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Получено плащане за { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoiceDiscount-subject = Получено плащане за { $productName }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Надстроихте до { $productName }
@@ -152,6 +181,7 @@ verificationReminderFirst-subject = Напомняне: Завършете съ�
 verificationReminderFirst-title = Добре дошли в семейството на { -brand-firefox }
 verificationReminderSecond-subject = Последно напомняне: Активирайте профила си
 verificationReminderSecond-title = Още ли сте тук?
+verify-subject = Завършете създаването на профила си
 verifyLogin-description = За по-голяма сигурност, моля потвърдете вписване от следното устройството:
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
