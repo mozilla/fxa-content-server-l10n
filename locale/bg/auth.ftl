@@ -28,7 +28,10 @@ session-verify-send-push-body = Щракнете тук, за да потвър�
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
-fxa-privacy-url = Политика за неприкосновеност на личните данни на { -brand-mozilla }
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Логотип на { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронизирани устройства">
+body-devices-image = <img data-l10n-name="devices-image" alt="Устройства">
+fxa-privacy-url = Политика за личните данни на { -brand-mozilla }
 fxa-service-url = Условия за ползване на { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Логотип на { -brand-firefox }">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип на { -brand-mozilla }">
@@ -36,19 +39,38 @@ subplat-automated-email = Това писмо е изпратено автома
 subplat-privacy-notice = Политика за личните данни
 subplat-privacy-plaintext = Политика за лични данни:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Получавате това писмо, защото { $email } е регистриран във { -product-firefox-account } и имате профил в/ъв { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Получавате това писмо, защото { $email } е регистриран във { -product-firefox-account }.
+subplat-explainer-multiple = Получавате това писмо, защото { $email } е регистриран във { -product-firefox-account } и имате абонамент за няколко продукта.
+subplat-manage-account = Управлявайте настройките на { -product-firefox-account }, като посетите <a data-l10n-name="subplat-account-page">профила си</a>.
 subplat-terms-policy = Условия и политика за анулиране
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Прекратяване на абонамент
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Подновяване на абонамент
 subplat-reactivate-plaintext = { subplat-reactivate }:
+subplat-update-billing = Обновяване на платежна информация
 subplat-privacy-policy = Политика за личните данни на { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Условия за ползване на { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Правна информация
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Поверителност
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Изтеглете { $productName } от { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Изтеглете { $productName } от { -app-store }">
+another-desktop-device = Или инсталирайте на <a data-l10n-name="anotherDeviceLink">друго настолно устройство</a>.
+another-device = Или инсталирайте на <a data-l10n-name="anotherDeviceLink">друго устройство</a>.
 automated-email-plaintext = Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията.
 change-password-plaintext = Ако подозирате, че някой се опитва да получи достъп до вашата сметка, моля, сменете паролата си.
 manage-account = Управление на сметка
@@ -56,8 +78,16 @@ manage-account-plaintext = { manage-account }:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Номер на фактурата: { $invoiceNumber }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Следваща фактура: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Начин на плащане:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Карта { $cardType }, завършваща на { $lastFour }
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Адрес по IP: { $ip }
