@@ -57,6 +57,7 @@ bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-firefox-mobile = { -brand-firefox } четец за мобилни устройства
 bento-menu-made-by-mozilla = Направено от { -brand-mozilla }
 
 ## Connect another device promo
@@ -179,6 +180,7 @@ display-name-success-alert = Показваното име е обновено.
 # Recovery key setup page
 
 recovery-key-close-button = Затваряне
+recovery-key-created = Вашият ключ за възстановяване е създаден. Запазете файла на безопасно място, което лесно ще намерите по-късно. Ключът ще ви е необходим за да върнете достъпа до данните си, ако забравите паролата.
 recovery-key-success-alert = Създаден е ключ за възстановяване.
 
 ## Add secondary email page
@@ -240,9 +242,22 @@ rk-not-set = Не е създаден
 rk-action-create = Създаване
 rk-action-remove = Премахване
 rk-key-removed = Ключът за възстановяване на профила е премахнат.
+rk-content-reset-data = Защо нулирането на паролата премахва данните ми?
+rk-remove-modal-heading = Премахване на ключа за възстановяване?
+rk-remove-error = Ключът за възстановяване на профила не е премахнат.
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Допълнителен електронен адрес
+    .header = Допълнителен електронен адрес
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful = { $email } вече е основен електронен адрес.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful = { $email } е премахнат.
 
 ##
 
@@ -253,3 +268,11 @@ tfa-row-action-add = Добавяне
 
 ## Auth-server based errors that originate from backend service
 
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Твърде много опити. Опитайте отново след { $retryAfter }.

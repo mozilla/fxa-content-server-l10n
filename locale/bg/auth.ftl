@@ -14,6 +14,8 @@
 -product-firefox-account = сметка на Firefox
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
 -app-store = App Store
 -google-play = Google Play
 
@@ -25,24 +27,65 @@
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-privacy-url = Политика за неприкосновеност на личните данни на { -brand-mozilla }
+fxa-service-url = Условия за ползване на { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Логотип на { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип на { -brand-mozilla }">
 subplat-automated-email = Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията.
 subplat-privacy-notice = Политика за личните данни
+subplat-privacy-plaintext = Политика за лични данни:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+subplat-terms-policy = Условия и политика за анулиране
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
+subplat-cancel = Прекратяване на абонамент
 subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate = Подновяване на абонамент
+subplat-reactivate-plaintext = { subplat-reactivate }:
+subplat-privacy-policy = Политика за личните данни на { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Правна информация
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Поверителност
+subplat-privacy-website-plaintext = { subplat-privacy }:
 automated-email-plaintext = Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията.
 change-password-plaintext = Ако подозирате, че някой се опитва да получи достъп до вашата сметка, моля, сменете паролата си.
 manage-account = Управление на сметка
+manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Номер на фактурата: { $invoiceNumber }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Начин на плащане:
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Адрес по IP: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (приблизително)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (приблизително)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (приблизително)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (приблизително)
+view-invoice = <a data-l10n-name="invoiceLink">Преглед на фактурата</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Преглед на фактура: { $invoiceLink }
 codes-generate = Генериране на кодове
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Генериране на кодове
 newDeviceLogin-action = Управление на сметка
-passwordChanged-title = Паролата е успешно сменена
+passwordChanged-subject = Паролата е променена
+passwordChanged-title = Паролата е успешно променена
 passwordChangeRequired-signoff = С най-добри пожелания,
 passwordReset-title = Паролата за сметката ви е сменена
 passwordResetAccountRecovery-regen-required = Ще трябва да генерирате нов ключ за възстановяване.
