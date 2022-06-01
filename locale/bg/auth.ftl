@@ -226,6 +226,7 @@ subscriptionAccountFinishSetup-subject = Добре дошли при { $product
 subscriptionAccountFinishSetup-title = Добре дошли при { $productName }
 subscriptionAccountFinishSetup-action-2 = Въведение
 subscriptionAccountReminderFirst-subject = Напомняне: Завършете създаването на профила си
+subscriptionAccountReminderFirst-title = Все още нямате достъп до абонамента
 subscriptionAccountReminderFirst-action = Създаване на парола
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Последно напомняне: Настройте профила си

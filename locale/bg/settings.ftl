@@ -85,6 +85,7 @@ cs-disconnect-sync-opt-prefix = Устройството е:
 
 ## Data collection section
 
+dc-learn-more = Научете повече
 
 # DropDownAvatarMenu component
 
