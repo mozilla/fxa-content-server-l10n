@@ -21,6 +21,8 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = Влизате във { -product-firefox-accounts }?
+session-verify-send-push-body = Щракнете тук, за да потвърдите, че това сте вие
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -80,12 +82,19 @@ view-invoice = <a data-l10n-name="invoiceLink">Преглед на фактур�
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Преглед на фактура: { $invoiceLink }
+cadReminderFirst-subject = Приятелско напомняне: Как да завършите настройката на Sync
+cadReminderSecond-subject = Последно напомняне: Завършете настройката на Sync
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Добре дошли при { $productName }
 codes-generate = Генериране на кодове
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Генериране на кодове
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Остава 1 код за възстановяване
+       *[other] Остават { $numberRemaining } кода за възстановяване
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ново вписване от { $clientName }
@@ -163,7 +172,17 @@ subscriptionPaymentExpired-subject = Кредитна карта за { $product
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Неуспешно плащане за { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Необходимо обновяване на платежна информация за { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Абонамент за { $productName } е подновен
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Известие за автоматично подновяване на { $productName }
 subscriptionsPaymentExpired-subject = Кредитна карта към абонамент изтича скоро
+subscriptionsPaymentProviderCancelled-subject = Необходимо обновяване на платежна информация за { -brand-mozilla }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Получено плащане за { $productName }
