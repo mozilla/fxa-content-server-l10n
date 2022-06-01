@@ -78,6 +78,10 @@ manage-account-plaintext = { manage-account }:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Номер на фактурата: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Таксувано: { $invoiceTotal } на { $invoiceDateOnly }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Следваща фактура: { $nextInvoiceDateOnly }
@@ -88,6 +92,18 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = Карта { $cardType }, завършваща на { $lastFour }
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = За повече информация, посетете { $supportUrl }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } на { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } на { $uaOS }
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = Адрес по IP: { $ip }
@@ -113,10 +129,13 @@ view-invoice = <a data-l10n-name="invoiceLink">Преглед на фактур�
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Преглед на фактура: { $invoiceLink }
 cadReminderFirst-subject = Приятелско напомняне: Как да завършите настройката на Sync
+cadReminderFirst-action = Синхронизиране на друго устройство
 cadReminderSecond-subject = Последно напомняне: Завършете настройката на Sync
+cadReminderSecond-action = Синхронизиране на друго устройство
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Добре дошли при { $productName }
+downloadSubscription-link-action-2 = Въведение
 codes-generate = Генериране на кодове
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Генериране на кодове
@@ -137,50 +156,65 @@ passwordChangeRequired-signoff-name = Екипът на { -product-firefox-accou
 passwordReset-subject = Променена парола
 passwordReset-title = Паролата за сметката ви е сменена
 passwordResetAccountRecovery-subject = Парола е променена с използване на ключ за възстановяване
+passwordResetAccountRecovery-action = Създаване на нов ключ за възстановяване
 passwordResetAccountRecovery-regen-required = Ще трябва да генерирате нов ключ за възстановяване.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Създаване на нов ключ за възстановяване:
 postAddAccountRecovery-subject = Създаден е ключ за възстановяване на профила
 postAddAccountRecovery-title = Генериран ключ за възстановяване на сметката
-postAddAccountRecovery-action = Управление на сметка
+postAddAccountRecovery-action = Управление на профила
 postAddLinkedAccount-subject = Нов профил е свързан с { -brand-firefox }
+postAddLinkedAccount-action = Управление на профила
 postAddTwoStepAuthentication-subject = Двуетапно удостоверяване е включено
 postAddTwoStepAuthentication-title = Двуетапно удостоверяване е включено
-postAddTwoStepAuthentication-action = Управление на сметка
+postAddTwoStepAuthentication-action = Управление на профила
 postChangePrimary-subject = Основен електронен адрес е обновен
 postChangePrimary-title = Нов основен ел. адрес
-postChangePrimary-action = Управление на сметка
+postChangePrimary-action = Управление на профила
 postConsumeRecoveryCode-subject = Използван код за възстановяване
 postConsumeRecoveryCode-title = Кодът за възстановяване е използван
-postConsumeRecoveryCode-action = Управление на сметка
+postConsumeRecoveryCode-action = Управление на профила
 postNewRecoveryCodes-subject = Кодове за възстановяване са подновени
 postNewRecoveryCodes-title = Кодовете за възстановяване са подновени
-postNewRecoveryCodes-action = Управление на сметка
+postNewRecoveryCodes-action = Управление на профила
 postRemoveAccountRecovery-subject = Ключ за възстановяване на профила е премахнат
-postRemoveAccountRecovery-action = Управление на сметка
+postRemoveAccountRecovery-action = Управление на профила
 postRemoveAccountRecovery-invalid = Този ключ за възстановяване вече не може да бъде използван за възстановяване на сметката ви.
 postRemoveSecondary-subject = Допълнителен електронен адрес е премахнат
 postRemoveSecondary-title = Допълнителният ел. адрес е премахнат
-postRemoveSecondary-action = Управление на сметка
+postRemoveSecondary-action = Управление на профила
 postRemoveTwoStepAuthentication-subject-line = Двуетапно удостоверяване е изключено
 postRemoveTwoStepAuthentication-title = Двуетапното удостоверяване е изключено
-postRemoveTwoStepAuthentication-action = Управление на сметка
+postRemoveTwoStepAuthentication-action = Управление на профила
 postVerify-subject = Профилът потвърден. Остава да синхронизирате с друго устройство
+postVerify-action = Настройка на следващото устройство
 postVerifySecondary-subject = Добавен допълнителен електронен адрес
-postVerifySecondary-title = Добавен е допълнителен ел. адрес
-postVerifySecondary-action = Управление на сметка
+postVerifySecondary-title = Добавен допълнителен електронен адрес
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content = Допълнителният електронен адрес { $secondaryEmail } е потвърден успешно за вашия { -product-firefox-account }. Известията по сигурността и потвържденията за вход ще бъдат изпращани и до двата адреса.
+postVerifySecondary-action = Управление на профила
 recovery-subject = Нулиране на парола
-recovery-title = Трябва да анулирате паролата си?
+recovery-title = Трябва да нулирате паролата си?
 recovery-description = Щракнете бутона в рамките на следващия час, да изберете нова парола. Заявката е изпратена от следното устройство:
 recovery-action = Нова парола
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Абонамент за { $productName } е спрян
+subscriptionAccountDeletion-title = Съжаляваме, че си тръгвате
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Добре дошли при { $productName }: Изберете парола
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Добре дошли при { $productName }
+subscriptionAccountFinishSetup-action-2 = Въведение
 subscriptionAccountReminderFirst-subject = Напомняне: Завършете създаването на профила си
+subscriptionAccountReminderFirst-action = Създаване на парола
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Последно напомняне: Настройте профила си
+subscriptionAccountReminderSecond-action = Създаване на парола
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Абонамент за { $productName } е спрян
@@ -228,9 +262,12 @@ unblockCode-prompt = Ако е така, ето кода за упълномощ
 unblockCode-report-plaintext = Ако ли пък не – ни помогнете да отблъснем натрапниците като ни ги докладвате.
 verificationReminderFirst-subject = Напомняне: Завършете създаването на профила си
 verificationReminderFirst-title = Добре дошли в семейството на { -brand-firefox }
+verificationReminderFirst-action = Потвърждаване на адреса
 verificationReminderSecond-subject = Последно напомняне: Активирайте профила си
 verificationReminderSecond-title = Още ли сте тук?
+verificationReminderSecond-action = Потвърждаване на адреса
 verify-subject = Завършете създаването на профила си
+verify-action = Потвърждаване на адреса
 verifyLogin-description = За по-голяма сигурност, моля потвърдете вписване от следното устройството:
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -243,9 +280,12 @@ verifyLoginCode-title = Вие ли се вписахте?
 verifyPrimary-title = Потвърждаване на основен ел. адрес
 verifyPrimary-description = Заявка за промяна на сметката е направена от следното устройство:
 verifyPrimary-subject = Потвърждаване на основен електронен адрес
+verifyPrimary-action = Потвърждаване на адреса
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = След потвърждение промени по сметката като добавяне на допълнителен ел. адрес ще бъдат възможни от устройството.
 verifySecondaryCode-subject = Потвърждаване на допълнителен електронен адрес
 verifySecondaryCode-title = Потвърждаване на допълнителен ел. адрес
+verifySecondaryCode-action = Потвърждаване на адреса
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject = Код за потвърждение: { $code }
