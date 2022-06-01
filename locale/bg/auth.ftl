@@ -2,13 +2,37 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = сметка на Firefox
--product-firefox-cloud = Firefox Cloud
+
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+
+# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-accounts = Firefox accounts
+# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+-product-firefox-account = сметка на Firefox
+# "Firefox Cloud" should be treated as a brand.
+-product-firefox-cloud = Firefox Cloud
+-app-store = App Store
+-google-play = Google Play
+
+## Non-email strings
+
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
 fxa-privacy-url = Политика за неприкосновеност на личните данни на { -brand-mozilla }
 subplat-automated-email = Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията.
+subplat-privacy-notice = Политика за личните данни
+subplat-update-billing-plaintext = { subplat-update-billing }:
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
+subplat-cancel-plaintext = { subplat-cancel }:
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-legal = Правна информация
+subplat-privacy = Поверителност
 automated-email-plaintext = Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията.
 change-password-plaintext = Ако подозирате, че някой се опитва да получи достъп до вашата сметка, моля, сменете паролата си.
 manage-account = Управление на сметка
@@ -19,6 +43,7 @@ passwordChanged-title = Паролата е успешно сменена
 passwordChangeRequired-signoff = С най-добри пожелания,
 passwordReset-title = Паролата за сметката ви е сменена
 passwordResetAccountRecovery-regen-required = Ще трябва да генерирате нов ключ за възстановяване.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Създаване на нов ключ за възстановяване:
 postAddAccountRecovery-subject = Генериран ключ за възстановяване на сметката
 postAddAccountRecovery-title = Генериран ключ за възстановяване на сметката
@@ -58,7 +83,4 @@ verifyLoginCode-title = Вие ли се вписахте?
 verifyPrimary-title = Потвърждаване на основен ел. адрес
 verifyPrimary-description = Заявка за промяна на сметката е направена от следното устройство:
 verifyPrimary-post-verify = След потвърждение промени по сметката като добавяне на допълнителен ел. адрес ще бъдат възможни от устройството.
-verifySecondary-title = Потвърждаване на допълнителен ел. адрес
-verifySecondary-post-verification = След като потвърдите този имейл до него ще бъдат изпращани известия по сигурността и потвърждения за влизане.
 verifySecondaryCode-title = Потвърждаване на допълнителен ел. адрес
-

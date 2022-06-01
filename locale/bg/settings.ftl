@@ -71,6 +71,9 @@ product-mozilla-vpn = Mozilla VPN
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
 
+## Data collection section
+
+
 # DropDownAvatarMenu component
 
 
@@ -84,6 +87,9 @@ product-mozilla-vpn = Mozilla VPN
 
 
 ## Input Password
+
+
+## Linked Accounts section
 
 
 ## Modal
@@ -110,6 +116,12 @@ product-mozilla-vpn = Mozilla VPN
 ##
 
 
+## Password create page
+
+
+##
+
+
 ## Delete account page
 
 
@@ -126,9 +138,6 @@ product-mozilla-vpn = Mozilla VPN
 
 
 ## Add secondary email page
-
-
-##
 
 
 ## Verify secondary email page
@@ -152,6 +161,9 @@ product-mozilla-vpn = Mozilla VPN
 ## Security section of Setting
 
 
+## Switch component
+
+
 ## Sub-section row Defaults
 
 
@@ -166,6 +178,7 @@ product-mozilla-vpn = Mozilla VPN
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-action-add = Добавяне
 
 ## Auth-server based errors that originate from backend service
 
