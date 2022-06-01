@@ -130,12 +130,19 @@ view-invoice = <a data-l10n-name="invoiceLink">Преглед на фактур�
 view-invoice-plaintext = Преглед на фактура: { $invoiceLink }
 cadReminderFirst-subject = Приятелско напомняне: Как да завършите настройката на Sync
 cadReminderFirst-action = Синхронизиране на друго устройство
+cadReminderFirst-title = Напомняне да синхронизирате устройствата си
 cadReminderSecond-subject = Последно напомняне: Завършете настройката на Sync
 cadReminderSecond-action = Синхронизиране на друго устройство
+cadReminderSecond-title = Последно напомняне да синхронизирате устройствата си!
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Добре дошли при { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Добре дошли при { $productName }
 downloadSubscription-link-action-2 = Въведение
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title = Остават малко на брой кодове за възстановяване
 codes-generate = Генериране на кодове
 codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = Генериране на кодове
@@ -147,15 +154,20 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ново вписване от { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = Ново вписване от { $clientName }
 newDeviceLogin-action = Управление на сметка
 passwordChanged-subject = Променена парола
 passwordChanged-title = Паролата е успешно променена
 passwordChangeRequired-subject = Открита подозрителна дейност
+passwordChangeRequired-title = Необходима е промяна на паролата
 passwordChangeRequired-signoff = С най-добри пожелания,
 passwordChangeRequired-signoff-name = Екипът на { -product-firefox-accounts }
 passwordReset-subject = Променена парола
-passwordReset-title = Паролата за сметката ви е сменена
+passwordReset-title = Паролата за профила е сменена
 passwordResetAccountRecovery-subject = Парола е променена с използване на ключ за възстановяване
+passwordResetAccountRecovery-title = Паролата за профила е нулирана с ключ за възстановяване
 passwordResetAccountRecovery-action = Създаване на нов ключ за възстановяване
 passwordResetAccountRecovery-regen-required = Ще трябва да генерирате нов ключ за възстановяване.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
@@ -164,6 +176,9 @@ postAddAccountRecovery-subject = Създаден е ключ за възста�
 postAddAccountRecovery-title = Генериран ключ за възстановяване на сметката
 postAddAccountRecovery-action = Управление на профила
 postAddLinkedAccount-subject = Нов профил е свързан с { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Профилът ви в { $providerName } е свързан с вашия { -product-firefox-account }
 postAddLinkedAccount-action = Управление на профила
 postAddTwoStepAuthentication-subject = Двуетапно удостоверяване е включено
 postAddTwoStepAuthentication-title = Двуетапно удостоверяване е включено
@@ -178,6 +193,7 @@ postNewRecoveryCodes-subject = Кодове за възстановяване с
 postNewRecoveryCodes-title = Кодовете за възстановяване са подновени
 postNewRecoveryCodes-action = Управление на профила
 postRemoveAccountRecovery-subject = Ключ за възстановяване на профила е премахнат
+postRemoveAccountRecovery-title = Ключ за възстановяване на профила е премахнат
 postRemoveAccountRecovery-action = Управление на профила
 postRemoveAccountRecovery-invalid = Този ключ за възстановяване вече не може да бъде използван за възстановяване на сметката ви.
 postRemoveSecondary-subject = Допълнителен електронен адрес е премахнат
@@ -213,26 +229,36 @@ subscriptionAccountReminderFirst-subject = Напомняне: Завършет�
 subscriptionAccountReminderFirst-action = Създаване на парола
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Последно напомняне: Настройте профила си
+subscriptionAccountReminderSecond-title = Добре дошли при { -brand-firefox }!
 subscriptionAccountReminderSecond-action = Създаване на парола
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Абонамент за { $productName } е спрян
+subscriptionCancellation-title = Съжаляваме, че си тръгвате
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Превключихте към { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Абонамент за { $productName } е спрян
+subscriptionFailedPaymentsCancellation-title = Абонаментът ви е спрян
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Плащане за { $productName } е потвърдено
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Благодарим ви, че се абонирахте за { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-subject = Плащане за { $productName } е потвърдено
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Благодарим ви, че се абонирахте за { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject = Кредитна карта за { $productName } изтича скоро
+subscriptionPaymentExpired-title = Банковата ви карта скоро ще загуби валидност
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Неуспешно плащане за { $productName }
@@ -242,20 +268,28 @@ subscriptionPaymentProviderCancelled-subject = Необходимо обновя
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Абонамент за { $productName } е подновен
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Благодарим ви, че подновихте абонамента си за { $productName }
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Известие за автоматично подновяване на { $productName }
+subscriptionRenewalReminder-title = Абонаментът ви скоро ще бъде подновен
 subscriptionsPaymentExpired-subject = Кредитна карта към абонамент изтича скоро
+subscriptionsPaymentExpired-title = Банковата ви карта скоро ще загуби валидност
 subscriptionsPaymentProviderCancelled-subject = Необходимо обновяване на платежна информация за { -brand-mozilla }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Получено плащане за { $productName }
+subscriptionSubsequentInvoice-title = Благодарим ви, че сте абонирани!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoiceDiscount-subject = Получено плащане за { $productName }
+subscriptionSubsequentInvoiceDiscount-title = Благодарим ви, че сте абонирани!
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Надстроихте до { $productName }
+subscriptionUpgrade-title = Благодарим ви, че надградихте!
 unblockCode-subject = Код за упълномощаване на профила
 unblockCode-title = Вие ли се вписахте?
 unblockCode-prompt = Ако е така, ето кода за упълномощаване:
@@ -268,6 +302,9 @@ verificationReminderSecond-title = Още ли сте тук?
 verificationReminderSecond-action = Потвърждаване на адреса
 verify-subject = Завършете създаването на профила си
 verify-action = Потвърждаване на адреса
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Ново вписване от { $clientName }
 verifyLogin-description = За по-голяма сигурност, моля потвърдете вписване от следното устройството:
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -289,3 +326,4 @@ verifySecondaryCode-action = Потвърждаване на адреса
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject = Код за потвърждение: { $code }
+verifyShortCode-title = Вие ли се регистрирахте?
