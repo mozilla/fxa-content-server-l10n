@@ -1,2 +1,2 @@
 # L10n reviewers for string changes
-/locale/templates/ @flodolo @bcolsson
+/locale/templates/ @mozilla/fxa-l10n

@@ -59,6 +59,6 @@ jobs:
           git push -f origin "merge-train-$TRAIN_NUMBER-strings"
 
           # Create pull request, use the last commit message as title
-          hub pull-request --no-edit
+          hub pull-request --no-edit -r mozilla/fxa-l10n
         env:
           GITHUB_TOKEN: ${{ secrets.FXA_GITHUB_TOKEN }}
