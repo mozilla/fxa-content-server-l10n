@@ -239,7 +239,7 @@ reactivate-confirm-button = สมัครสมาชิกใหม่
 
 ## $date (Date) - Last day of product access
 
-reactivate-panel-date = คุณยกเลิกการบอกรับของคุณแล้วเมื่อ { $date }
+reactivate-panel-date = คุณยกเลิกการสมัครสมาชิกของคุณแล้วเมื่อ { $date }
 reactivate-panel-copy = คุณจะไม่สามารถเข้าถึง { $name } ได้อีกใน <strong>{ $date }</strong>
 reactivate-success-copy = ขอบคุณ! คุณดำเนินการเรียบร้อยแล้ว
 reactivate-success-button = ปิด
@@ -248,11 +248,11 @@ reactivate-success-button = ปิด
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
-sub-item-missing = เกิดปัญหาในการโหลดการบอกรับ
+sub-item-missing = เกิดปัญหาในการโหลดการสมัครสมาชิก
 sub-item-missing-msg = โปรดลองอีกครั้งในภายหลัง
-sub-item-no-such-plan = ไม่มีแผนดังกล่าวสำหรับการบอกรับนี้
-sub-item-cancel-sub = ยกเลิกการบอกรับ
-sub-item-stay-sub = บอกรับต่อไป
+sub-item-no-such-plan = ไม่มีแผนดังกล่าวสำหรับการสมัครสมาชิกนี้
+sub-item-cancel-sub = ยกเลิกการสมัครสมาชิก
+sub-item-stay-sub = สมัครสมาชิกต่อไป
 sub-item-cancel-msg =
     คุณจะไม่สามารถใช้ { $name } ได้อีกหลังจาก
     { $period } ซึ่งเป็นวันสุดท้ายของรอบการเรียกเก็บเงินของคุณ
@@ -268,19 +268,19 @@ account-activated = บัญชีของคุณถูกเปิดใช
 ## Subscription route index
 
 sub-route-idx-updating = กำลังอัปเดตข้อมูลการเรียกเก็บเงิน…
-sub-route-idx-reactivating = การต่ออายุการบอกรับล้มเหลว
-sub-route-idx-cancel-failed = การยกเลิกการบอกรับล้มเหลว
+sub-route-idx-reactivating = การต่ออายุการสมัครสมาชิกล้มเหลว
+sub-route-idx-cancel-failed = การยกเลิกการสมัครสมาชิกล้มเหลว
 sub-route-idx-contact = ติดต่อฝ่ายสนับสนุน
 sub-route-idx-cancel-msg-title = เราเสียใจที่เห็นคุณจากไป
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
-    การบอกรับ { $name } ของคุณได้ถูกยกเลิกแล้ว
+    การสมัครสมาชิก { $name } ของคุณได้ถูกยกเลิกแล้ว
           <br />
           คุณจะยังสามารถเข้าถึง { $name } ได้จนถึง { $date }
 sub-route-idx-cancel-aside = มีคำถามใช่หรือไม่? เยี่ยมชม<a>ฝ่ายสนับสนุนของ { -brand-name-mozilla }</a>
 sub-subscription-error =
-    .title = เกิดปัญหาในการโหลดการบอกรับ
+    .title = เกิดปัญหาในการโหลดการสมัครสมาชิก
 sub-customer-error =
     .title = เกิดปัญหาในการโหลดลูกค้า
 sub-billing-update-success = อัปเดตข้อมูลการเรียกเก็บเงินของคุณเรียบร้อยแล้ว

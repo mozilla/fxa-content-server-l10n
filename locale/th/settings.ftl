@@ -138,6 +138,9 @@ datablock-copy =
 datablock-print =
     .message = พิมพ์แล้ว
 
+## Data collection section
+
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = เมนู { -product-firefox-account }
@@ -177,6 +180,9 @@ input-password-hide = ซ่อนรหัสผ่าน
 input-password-show = แสดงรหัสผ่าน
 input-password-hide-aria = ซ่อนรหัสผ่านจากหน้าจอ
 
+## Linked Accounts section
+
+
 ## Modal
 
 modal-close-title = ปิด
@@ -199,7 +205,7 @@ nav-settings = การตั้งค่า
 nav-profile = โปรไฟล์
 nav-security = ความปลอดภัย
 nav-connected-services = บริการที่เชื่อมต่อ
-nav-paid-subs = การบอกรับแบบเสียค่าใช้จ่าย
+nav-paid-subs = การสมัครสมาชิกแบบเสียค่าใช้จ่าย
 nav-email-comm = การติดต่อสื่อสารทางอีเมล
 
 ## Two Step Authentication - replace recovery code
@@ -266,6 +272,12 @@ pw-change-success-alert = รหัสผ่านได้ถูกเปลี
 ##
 
 
+## Password create page
+
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -274,8 +286,6 @@ delete-account-step-1-2 = ขั้นตอนที่ 1 จาก 2
 delete-account-step-2-2 = ขั้นตอนที่ 2 จาก 2
 delete-account-confirm-title-2 = คุณได้เชื่อมต่อ{ -product-firefox-account } ของคุณกับผลิตภัณฑ์ { -brand-mozilla } ที่ช่วยให้คุณปลอดภัยและทำงานได้อย่างมีประสิทธิภาพบนเว็บแล้ว:
 delete-account-acknowledge = โปรดรับทราบว่าการลบบัญชีของคุณ:
-delete-account-chk-box-1 =
-    .label = การบอกรับสมาชิกแบบเสียค่าใช้จ่ายใด ๆ ที่คุณมีจะถูกยกเลิก
 delete-account-chk-box-2 =
     .label = คุณอาจสูญเสียข้อมูลและคุณลักษณะต่าง ๆ ที่บันทึกไว้ภายในผลิตภัณฑ์ของ { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -327,9 +337,6 @@ add-secondary-email-enter-address =
     .label = ป้อนที่อยู่อีเมล
 add-secondary-email-cancel-button = ยกเลิก
 add-secondary-email-save-button = บันทึก
-
-##
-
 
 ## Verify secondary email page
 
@@ -384,12 +391,6 @@ profile-picture =
     .header = รูปภาพ
 profile-display-name =
     .header = ชื่อที่แสดงผล
-profile-password =
-    .header = รหัสผ่าน
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = สร้างเมื่อ { $date }
 profile-primary-email =
     .header = อีเมลหลัก
 
@@ -399,6 +400,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = ความปลอดภัย
+
+## Switch component
+
 
 ## Sub-section row Defaults
 
