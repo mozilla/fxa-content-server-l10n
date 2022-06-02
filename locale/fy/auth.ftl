@@ -72,7 +72,7 @@ body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } dow
 another-desktop-device = Of ynstallearje op <a data-l10n-name="anotherDeviceLink">in oar desktopapparaat</a>.
 another-device = Of ynstallearje op <a data-l10n-name="anotherDeviceLink">in oar apparaat</a>.
 automated-email-change =
-    Dit is in automatisearrred e-mailberjocht; as jo dizze aksje net autorisearre hawwe, <a data-l10n-name="passwordChangeLink">wizigje dan jo wachtwurd</a>.
+    Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, <a data-l10n-name="passwordChangeLink">wizigje dan jo wachtwurd</a>.
     Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
@@ -278,8 +278,8 @@ postVerify-action = It folgjende apparaat ynstelle
 # Variables:
 #  $email (String) - Link to https://accounts.firefox.com/support
 postVerify-support = Hawwe jo fragen? Besykje { $supportUrl }
-postVerifySecondary-subject = Twadde e-mail tafoege
-postVerifySecondary-title = Twadde e-mail tafoege
+postVerifySecondary-subject = Twadde e-mailadres tafoege
+postVerifySecondary-title = Twadde e-mailadres tafoege
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content = Jo hawwe { $secondaryEmail } mei sukses as sekundêr e-mailadres foar jo { -product-firefox-account } ferifearre. Befeiligingsmeldingen en oanmeldingsbefêstigingen wurde no op beide adressen ôflevere.
@@ -297,8 +297,6 @@ subscriptionAccountDeletion-title = Spitich dat jo ôfsette
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Jo hawwe jo { -product-firefox-account } koartlyn fuortsmiten. As gefolch hjirfan hawwe wy jo abonnemint foar { $productName } opsein. Jo lêste betelling fan { $invoiceTotal } is betelle op { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Betellingsgegevens:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Wolkom by { $productName }: stel jo wachtwurd yn.
