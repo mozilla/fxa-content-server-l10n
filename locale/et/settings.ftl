@@ -118,6 +118,7 @@ cs-disconnect-sync-heading = Ühenda Syncist lahti
 cs-disconnect-sync-content-2 =
     Sinu brauseri andmed jäävad seadmesse { $device },
     aga neid ei sünkroniseerita enam sinu kontoga.
+cs-disconnect-sync-reason-2 = Mis on seadme { $device } lahti ühendamise peamiseks põhjuseks?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
