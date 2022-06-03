@@ -121,8 +121,8 @@ cs-disconnect-sync-heading = Se déconnecter de Sync
 # Variables:
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content = Vos données de navigation seront conservées sur cet appareil ({ $device }), mais elles ne seront plus synchronisées avec votre compte.
-cs-disconnect-sync-reason = Quelle est la raison principale de la déconnexion de cet appareil ?
+cs-disconnect-sync-content-2 = Vos données de navigation seront conservées sur { $device }, mais elles ne seront plus synchronisées avec votre compte.
+cs-disconnect-sync-reason-2 = Quelle est la raison principale de la déconnexion de { $device } ?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
