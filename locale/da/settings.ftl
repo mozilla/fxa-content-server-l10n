@@ -115,12 +115,10 @@ cs-disconnect-sync-heading = Afbryd forbindelsen til Sync
 # Variables:
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Dine browsing-data vil stadig blive gemt på din
-    enhed ({ $device }),  men vil ikke længere blive synkroniseret med din konto.
-cs-disconnect-sync-reason =
-    Hvad er hovedårsagen til, at du afbryder forbindelsen til denne
-    enhed?
+cs-disconnect-sync-content-2 =
+    Dine browsing-data vil stadig blive gemt på { $device },
+    men vil ikke længere blive synkroniseret med din konto.
+cs-disconnect-sync-reason-2 = Hvad er hovedårsagen til, at du afbryder forbindelsen til { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -316,6 +314,14 @@ pw-change-success-alert = Adgangskode opdateret.
 ##
 
 
+## Password create page
+
+pw-create-header =
+    .title = Opret adgangskode
+
+##
+
+
 ## Delete account page
 
 delete-account-header =
@@ -471,6 +477,7 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Oprettet { $date }
+security-action-create = Opret
 
 ## Switch component
 
