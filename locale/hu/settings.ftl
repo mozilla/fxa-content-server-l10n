@@ -115,10 +115,10 @@ cs-disconnect-sync-heading = Leválás a Syncről
 # Variables:
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Böngészési adatai megmaradnak ezen az
-    eszközön ({ $device }), de nem szinkronizálódnak a fiókjával.
-cs-disconnect-sync-reason = Mi a fő oka az eszköz leválasztásának?
+cs-disconnect-sync-content-2 =
+    Böngészési adatai megmaradnak a(z) { $device } eszközön,
+    de nem szinkronizálódnak a fiókjával.
+cs-disconnect-sync-reason-2 = Mi a fő oka a(z) { $device } eszköz leválasztásának?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
