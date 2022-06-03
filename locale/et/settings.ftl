@@ -115,12 +115,9 @@ cs-disconnect-sync-heading = Ühenda Syncist lahti
 # Variables:
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Sinu lehitsemise andmed jäävad sinu
-    seadmesse ({ $device }), aga neid ei sünkroniseerita enam sinu kontoga.
-cs-disconnect-sync-reason =
-    Mis on selle seadme lahti ühendamise peamiseks
-    põhjuseks?
+cs-disconnect-sync-content-2 =
+    Sinu brauseri andmed jäävad seadmesse { $device },
+    aga neid ei sünkroniseerita enam sinu kontoga.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
