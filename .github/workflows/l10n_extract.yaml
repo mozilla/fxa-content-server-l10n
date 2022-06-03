@@ -47,18 +47,25 @@ jobs:
             --l10n-repo ../fxa-l10n
       - name: Commit changes and open pull request
         run: |
-          git config --global user.email 'bugmirror@restmail.net'
-          git config --global user.name 'Bug Mirror'
-          # Random release number to avoid collision with old trains or branches
-          TRAIN_NUMBER=$(( $RANDOM + $RANDOM + 1000 ))
-
+          # Only try to commit if there are pending changes
           cd fxa-l10n
-          git checkout -B "merge-train-$TRAIN_NUMBER-strings"
-          git add .
-          git commit -m "Merge strings for train $TRAIN_NUMBER"
-          git push -f origin "merge-train-$TRAIN_NUMBER-strings"
+          if [[ $(git diff --exit-code) || $(git ls-files --other --exclude-standard) ]]
+          then
+            git config --global user.email 'bugmirror@restmail.net'
+            git config --global user.name 'Bug Mirror'
 
-          # Create pull request, use the last commit message as title
-          hub pull-request --no-edit -r mozilla/fxa-l10n
+            # Random release number to avoid collision with old trains or branches
+            TRAIN_NUMBER=$(( $RANDOM + $RANDOM + 1000 ))
+
+            git checkout -B "merge-train-$TRAIN_NUMBER-strings"
+            git add .
+            git commit -m "Merge strings for train $TRAIN_NUMBER"
+            git push -f origin "merge-train-$TRAIN_NUMBER-strings"
+
+            # Create pull request, use the last commit message as title
+            hub pull-request --no-edit -r mozilla/fxa-l10n
+          else
+            echo "No changes found."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.FXA_GITHUB_TOKEN }}
