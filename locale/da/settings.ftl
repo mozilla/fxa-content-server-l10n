@@ -318,6 +318,8 @@ pw-change-success-alert = Adgangskode opdateret.
 
 pw-create-header =
     .title = Opret adgangskode
+pw-create-success-alert = Adgangskode oprettet.
+pw-create-error = Der opstod desværre et problem med at oprette din adgangskode.
 
 ##
 
@@ -477,7 +479,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Oprettet { $date }
+security-not-set = Ikke oprettet
 security-action-create = Opret
+security-set-password = Opret en adgangskode for at synkronisere og bruge visse kontosikkerhedsfunktioner.
 
 ## Switch component
 
