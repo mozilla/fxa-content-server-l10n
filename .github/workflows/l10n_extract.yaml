@@ -10,7 +10,7 @@ jobs:
       - name: Install Linux packages
         run: |
           sudo apt update
-          sudo apt install gettext git hub -y
+          sudo apt install gettext -y
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
@@ -63,7 +63,7 @@ jobs:
             git push -f origin "merge-train-$TRAIN_NUMBER-strings"
 
             # Create pull request, use the last commit message as title
-            hub pull-request --no-edit -r mozilla/fxa-l10n
+            gh pr create --fill --reviewer mozilla/fxa-l10n
           else
             echo "No changes found."
           fi
