@@ -115,10 +115,10 @@ cs-disconnect-sync-heading = Ngắt kết nối khỏi đồng bộ hóa
 # Variables:
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Dữ liệu duyệt web của bạn sẽ vẫn trên thiết bị ({ $device }) của bạn,
-    nhưng nó sẽ không còn đồng bộ với tài khoản của bạn.
-cs-disconnect-sync-reason = Lý do chính để ngắt kết nối thiết bị này?
+cs-disconnect-sync-content-2 =
+    Dữ liệu duyệt web của bạn sẽ vẫn còn trên { $device },
+    nhưng nó sẽ không còn đồng bộ với tài khoản của bạn nữa.
+cs-disconnect-sync-reason-2 = Lý do chính để ngắt kết nối khỏi { $device } là gì?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
