@@ -106,13 +106,6 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 缺失或者项目重复？
 cs-disconnect-sync-heading = 断开同步
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content = 您的浏览数据将继续保留在您的设备（{ $device }），但它将不再与您的账户同步。
-cs-disconnect-sync-reason = 要断开连接此设备的主要原因是什么？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -301,6 +294,7 @@ pw-change-success-alert = 密码已更新。
 pw-create-header =
     .title = 创建密码
 pw-create-success-alert = 密码已设置。
+pw-create-error = 抱歉，设置密码时出现问题。
 
 ##
 
