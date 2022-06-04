@@ -110,17 +110,6 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Iferdisen ttwakksen neɣ d usligen?
 cs-disconnect-sync-heading = Ffeɣ seg Syn
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Isefka-k•m n tunigin ad qqimen ɣef yibenk-ik•im
-    ({ $device }), d acu kan ur ttemtawin ara akked umiḍan-ik•im.
-cs-disconnect-sync-reason =
-    D acu-tt tmentilt tagejdant n tuffɣa seg
-    yibenk-a?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -218,8 +207,6 @@ la-description = Tmuddeḍ tisirag i unekcum ɣer yimiḍanen-a.
 la-unlink-button = Sefsex tuqqna
 la-unlink-account-button = Sefsex tuqqna
 la-unlink-heading = Sefsex tuqqna akked umiḍan n wis kraḍ
-la-unlink-content = D tidet tebɣiḍ ad tesfesxeḍ tuqqna n umiḍan-ik·im { -brand-google }? Asefsex n tuqqna n umiḍan-ik·im ur ak·akem-isuffeɣ s wudem awurman seg yimeẓla-nni. I wakken ad tgeḍ aya, ilaq ad teffɣeḍ s ufus seg tefrant n Yimeẓla yeqqnen.
-la-unlink-content-2 = D tidet tebɣiḍ ad tesfesxeḍ tuqqna n umiḍan-ik·im? Asefsex n tuqqna n umiḍan-ik·im ur ak·akem-isuffeɣ s wudem awurman seg yimeẓla-nni. I wakken ad tgeḍ aya, ilaq ad teffɣeḍ s ufus seg tefrant n Yimeẓla yeqqnen.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -314,6 +301,15 @@ pw-change-new-password =
 pw-change-confirm-password =
     .label = Sentem awal uffir amaynut
 pw-change-success-alert = Awal uffir yettuleqqem.
+
+##
+
+
+## Password create page
+
+pw-create-header =
+    .title = Rnu awal uffir
+pw-create-success-alert = Awal uffir yettusbadun.
 
 ##
 
@@ -473,6 +469,8 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Yettwarna { $date }
+security-not-set = Ur sbaduy ara
+security-action-create = Rnu
 
 ## Switch component
 
