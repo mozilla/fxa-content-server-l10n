@@ -115,12 +115,10 @@ cs-disconnect-sync-heading = Ze Sync źěliś
 # Variables:
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Waše pśeglědowańske daty na wašom
-    rěźe ({ $device }) wóstanu, ale njebuźo wěcej z wašym kontom synchronizěrowaś.
-cs-disconnect-sync-reason =
-    Co jo głowna pśicyna za źělenje toś togo
-    rěda?
+cs-disconnect-sync-content-2 =
+    Waše pśeglědowańske daty na{ $device } wóstanu, 
+    ale njebuźo wěcej z wašym kontom synchronizěrowaś.
+cs-disconnect-sync-reason-2 = Co jo głowna pśicyna za źělenje wót { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
