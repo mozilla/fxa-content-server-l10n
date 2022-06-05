@@ -130,8 +130,9 @@ cs-disconnect-sync-opt-not-say = 無回答
 
 cs-disconnect-advice-confirm = 了解しました
 cs-disconnect-lost-advice-heading = 紛失または盗難にあった端末を切断しました
-cs-disconnect-lost-advice-content-2 = 端末が紛失または盗難にあったときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account } のパスワードを変更してください。端末のメーカーのサポートで、データのリモート消去に関しての情報を確認してください。
+cs-disconnect-lost-advice-content-2 = 端末が紛失または盗難にあったときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。端末のメーカーのサポートで、データのリモート消去に関しての情報を確認してください。
 cs-disconnect-suspicious-advice-heading = 疑わしい端末を切断しました
+cs-disconnect-suspicious-advice-content = 接続を解除した端末に不正使用の疑いがあるときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account }のパスワードを変更してください。アドレスバーに about:logins と入力して、{ -brand-firefox } に保存されたパスワードも変更してください。
 cs-sign-out-button = ログアウト
 
 ##
@@ -203,6 +204,8 @@ la-description = 次のアカウントへのアクセスを許可しました。
 la-unlink-button = リンク解除
 la-unlink-account-button = リンク解除
 la-unlink-heading = サードパーティのアカウントとのリンクを解除する
+la-unlink-content-3 = 本当にアカウントとのリンクを解除しますか？ アカウントとのリンクを解除しても接続済みのサービスはログアウトされません。ログアウトするには、 [接続済みサービス] から手動でログアウトする必要があります。
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
@@ -227,10 +230,16 @@ nav-profile = プロファイル
 nav-security = セキュリティ
 nav-connected-services = 接続済みサービス
 nav-data-collection = データの収集と使用
+nav-paid-subs = 有料サブスクリプション
 nav-email-comm = メールの設定管理
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error = 回復用コードの差し替えに時に問題が発生しました。
+tfa-replace-code-success = 新しいコードが作成されました。これらのワンタイム使用のコードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
+tfa-replace-code-success-alert = アカウントの回復用コードが更新されました。
+tfa-replace-code-1-2 = ステップ 1/2
+tfa-replace-code-2-2 = ステップ 2/2
 
 ## Avatar change page
 
@@ -291,6 +300,10 @@ pw-change-success-alert = パスワードを更新しました。
 
 ## Password create page
 
+pw-create-header =
+    .title = パスワードを作成
+pw-create-success-alert = パスワードを設定しました。
+pw-create-error = 申し訳ありませんが、パスワードの設定中に問題が発生しました。
 
 ##
 
@@ -301,6 +314,16 @@ delete-account-header =
     .title = アカウントを削除
 delete-account-step-1-2 = ステップ 1/2
 delete-account-step-2-2 = ステップ 2/2
+delete-account-confirm-title-2 = あなたの { -product-firefox-account }が、ウェブ上の安全と生産性を保つ { -brand-mozilla } 製品と接続されました:
+delete-account-acknowledge = アカウントを削除する前に、以下の事項をご確認ください:
+delete-account-chk-box-1-v2 =
+    .label = 有料サブスクリプションがあればキャンセルされます ({ product-pocket } を除く)
+delete-account-chk-box-2 =
+    .label = { -brand-mozilla } 製品内に保存された情報と機能が失われる可能性があります
+delete-account-chk-box-3 =
+    .label = このメールアドレスで再び有効化しても、保存された情報が復元できない場合があります
+delete-account-chk-box-4 =
+    .label = addons.mozilla.org に公開されたすべての拡張機能とテーマは削除されます
 delete-account-continue-button = 続ける
 delete-account-password-input =
     .label = パスワードを入力してください
@@ -341,6 +364,7 @@ recovery-key-success-alert = 回復用キーが作成されました。
 ## Add secondary email page
 
 add-secondary-email-step-1 = ステップ 1/2
+add-secondary-email-error = このメールアドレスの設定中に問題が発生しました。
 add-secondary-email-page-title =
     .title = 予備アドレス
 add-secondary-email-enter-address =
@@ -350,6 +374,7 @@ add-secondary-email-save-button = 保存
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = ステップ 2/2
 verify-secondary-email-error = 確認コードの送信に問題がありました。
 verify-secondary-email-page-title =
     .title = 予備アドレス
@@ -381,6 +406,7 @@ tfa-button-continue = 続ける
 tfa-button-cancel = キャンセル
 tfa-button-finish = 完了
 tfa-incorrect-totp = 2 段階認証コードが正しくありません
+tfa-cannot-retrieve-code = コードの取得中に問題が発生しました。
 tfa-cannot-verify-code = 回復用コードの確認に問題がありました。
 tfa-enabled = 2 段階認証が有効化されました
 tfa-scan-this-code =
