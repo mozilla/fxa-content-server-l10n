@@ -197,7 +197,7 @@ cs-disconnect-sync-heading = Rozłącz synchronizację
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
 cs-disconnect-sync-content-2 =
     Dane przeglądania pozostaną na urządzeniu „{ $device }”,
-    ale nie będą więcej synchronizowane z tym kontem.
+    ale nie będzie ono już synchronizowane z tym kontem.
 cs-disconnect-sync-reason-2 = Jaki jest główny powód rozłączenia urządzenia „{ $device }”?
 
 ## The following are the options for selecting a reason for disconnecting the
