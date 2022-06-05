@@ -111,8 +111,8 @@ cs-disconnect-sync-heading = 中斷與 Sync 的連結
 # Variables:
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content = 您的瀏覽資料將保留在原裝置（{ $device }）上，但不再會與帳號同步。
-cs-disconnect-sync-reason = 要取消連結此裝置的主要原因是什麼？
+cs-disconnect-sync-content-2 = 您的瀏覽資料將保留在 { $device } 上，但不再與您的帳號同步。
+cs-disconnect-sync-reason-2 = 要取消連結 { $device } 這台裝置的主要原因是什麼？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
