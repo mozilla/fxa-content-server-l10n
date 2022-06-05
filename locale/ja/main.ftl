@@ -333,32 +333,64 @@ sub-billing-update-success = 請求情報の更新が完了しました
 sub-route-payment-modal-heading = 請求情報が無効です
 sub-route-payment-modal-message = { -brand-name-paypal } のアカウントに問題があるようです。この支払いの問題を解決するために必要な手続きを行ってください。
 sub-route-missing-billing-agreement-payment-alert = 支払い方法が無効です。アカウントに問題があります。<div>管理</div>
+sub-route-funding-source-payment-alert = 支払い方法が無効です。アカウントに問題があります。正しい情報に更新した後、この警告が解除されるまでしばらく時間がかかる場合があります。<div>管理</div>
+pay-update-manage-btn = 管理
 
 ## Subscription create
 
+sub-guarantee = 30 日間の返金保証
+pay-with-heading-other = 支払い方法を選択してください
+pay-with-heading-card-or = もしくはカードで支払います
+pay-with-heading-card-only = カードで支払います
 
 ## Plan details
 
+plan-details-header = 製品の詳細
+plan-details-show-button = 詳細を表示
+plan-details-hide-button = 詳細を隠す
+plan-details-total-label = 合計
+plan-details-list-price = 定価
 
 ## Coupons
 
+coupon-discount = 値引き
+coupon-discount-applied = 適用された割引き
+coupon-submit = 適用
+coupon-remove = 削除
+coupon-error = 入力されたコードが無効、または有効期限切れです。
+coupon-error-generic = コードの処理中にエラーが発生しました。もう一度入力してください。
+coupon-error-expired = 入力されたコードが有効期限切れです。
+coupon-error-limit-reached = 入力されたコードが制限に達しました。
+coupon-error-invalid = 入力されたコードが無効です。
+coupon-success = プラン自動更新時の価格は定価になります。
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = プランは { $couponDurationDate } に自動更新され、価格は定価になります。
+coupon-enter-code =
+    .placeholder = コードを入力
 
 ## Payment processing
 
+payment-processing-message = お支払いが処理されるまでお待ちください...
 
 ## Payment confirmation
 
+payment-confirmation-alert = ここをクリックしてダウンロードしてください
+payment-confirmation-mobile-alert = アプリが開かない場合は、<a>ここをクリックしてください</a>
 payment-confirmation-thanks-heading = ありがとうございます。
 
 ## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-subheading = 確認メールが { $email } に送信されました。このメールには { $product_name } を使い始めるための説明も記載されています。
 payment-confirmation-thanks-heading-account-exists = ありがとうございます。メールを確認してください。
 
 ## $email (string) - The user's email.
 
 payment-confirmation-order-heading = 注文詳細
+payment-confirmation-invoice-number = 請求書番号 { $invoiceNumber }
+payment-confirmation-billing-heading = 請求先
+payment-confirmation-details-heading-2 = 支払い情報
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
