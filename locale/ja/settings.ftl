@@ -408,16 +408,28 @@ tfa-button-finish = 完了
 tfa-incorrect-totp = 2 段階認証コードが正しくありません
 tfa-cannot-retrieve-code = コードの取得中に問題が発生しました。
 tfa-cannot-verify-code = 回復用コードの確認に問題がありました。
+tfa-incorrect-recovery-code = 回復用コードが正しくありません
 tfa-enabled = 2 段階認証が有効化されました
 tfa-scan-this-code =
     この QR コードを読み取って<linkExternal>この
     認証アプリ</linkExternal> を使用してください。
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
+tfa-qa-code-alt = コード { $secret } を使って対応アプリケーション内で 2 段階認証を設定してください。
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = コードをスキャンできませんか？
 # When the user cannot use a QR code.
 tfa-enter-secret-key = この秘密キーを認証アプリに入力してください:
 tfa-enter-totp = 次に、認証アプリからのセキュリティーコードを入力してください。
 tfa-input-enter-totp =
     .label = セキュリティコードを入力
+tfa-save-these-codes = これらのワンタイム使用のコードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
+tfa-enter-code-to-confirm = さっそく回復用コードを入力して、保管されたことを確認しましょう。端末を紛失した時にアカウントへアクセスしたい場合、コードが必要になります。
+tfa-enter-recovery-code =
+    .label = 回復用コードを入力
 
 ##
 
@@ -444,6 +456,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = { $date } に作成
+security-not-set = 未設定
+security-action-create = 作成
+security-set-password = パスワードを設定して同期し、特定のアカウントのセキュリティ機能を使用してください。
 
 ## Switch component
 
@@ -488,6 +503,8 @@ rk-remove-error = アカウントの回復用キーを削除できませんで�
 
 se-heading = 予備アドレス
     .header = 予備アドレス
+se-cannot-refresh-email = メールアドレスのリフレッシュ中に問題が発生しました。
+se-cannot-resend-code = 申し訳ありませんが、確認コードの再送信中に問題が発生しました。
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -497,6 +514,9 @@ se-set-primary-error = 主要アドレスの変更時に問題が発生しまし
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful = { $email } の削除が完了しました。
+se-delete-email-error = 申し訳ありませんが、メールアドレスの削除中に問題が発生しました。
+se-verify-session = この処理を実行するために、現在のセッションを確認する必要があります。
+se-verify-session-error = 申し訳ありませんが、セッションの確認中に問題が発生しました。
 # Button to remove the secondary email
 se-remove-email =
     .title = メールアドレスを削除
