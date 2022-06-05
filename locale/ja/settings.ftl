@@ -113,8 +113,8 @@ cs-disconnect-sync-heading = Sync から切断
 # Variables:
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content = ブラウジングデータは端末 { $device } に残りますが、アカウントと同期されなくなります。
-cs-disconnect-sync-reason = この端末を切断する主な理由は何ですか？
+cs-disconnect-sync-content-2 = ブラウジングデータは { $device } に残りますが、アカウントと同期されなくなります。
+cs-disconnect-sync-reason-2 = { $device } の接続を解除する主な理由は何ですか？
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -130,6 +130,7 @@ cs-disconnect-sync-opt-not-say = 無回答
 
 cs-disconnect-advice-confirm = 了解しました
 cs-disconnect-lost-advice-heading = 紛失または盗難にあった端末を切断しました
+cs-disconnect-lost-advice-content-2 = 端末が紛失または盗難にあったときは、あなたの情報を守るためにアカウント設定で { -product-firefox-account } のパスワードを変更してください。端末のメーカーのサポートで、データのリモート消去に関しての情報を確認してください。
 cs-disconnect-suspicious-advice-heading = 疑わしい端末を切断しました
 cs-sign-out-button = ログアウト
 
@@ -284,6 +285,12 @@ pw-change-new-password =
 pw-change-confirm-password =
     .label = 新しいパスワードを再入力してください
 pw-change-success-alert = パスワードを更新しました。
+
+##
+
+
+## Password create page
+
 
 ##
 

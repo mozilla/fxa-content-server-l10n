@@ -391,10 +391,56 @@ payment-confirmation-order-heading = 注文詳細
 payment-confirmation-invoice-number = 請求書番号 { $invoiceNumber }
 payment-confirmation-billing-heading = 請求先
 payment-confirmation-details-heading-2 = 支払い情報
+payment-confirmation-amount = { $amount } / { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+       *[other] { $intervalCount } 日ごとに { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+       *[other] { $intervalCount } 週間ごとに { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+       *[other] { $intervalCount } か月ごとに { $amount }
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+       *[other] { $intervalCount } か年ごとに { $amount }
+    }
 payment-confirmation-download-button = ダウンロードを続行
+payment-confirmation-cc-card-ending-in = 下 4 桁が { $last4 } のカード
 
 ## New user email form
 
+new-user-sign-in-link = { -brand-name-firefox } アカウントをお持ちの方は <a>ログイン</a> してください
+new-user-step-1 = 1. { -brand-name-firefox } アカウントを作成
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .label = メールアドレスを入力
+new-user-confirm-email =
+    .label = メールアドレスを確認
+new-user-subscribe-product-updates = { -brand-name-firefox } から製品の更新通知を受け取りたい。
+new-user-subscribe-product-assurance = 私たちは、あなたのメールアドレスをアカウント作成にのみ使用し、この個人情報を第三者に販売しません。
+new-user-email-validate = メールアドレスが無効です
+new-user-email-validate-confirm = メールアドレスが一致しません
+new-user-already-has-account-sign-in = すでにアカウントをお持ちのようです。 <a>ログインしてください</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = メールアドレスの入力ミスかも知れません。 { $domain } はメールサービスを提供していません。
+new-user-card-title = カード情報を入力してください
+new-user-submit = サブスクリプションを購入
+manage-pocket-title = { -brand-name-pocket } の有料サブスクリプションをお探しですか？
+manage-pocket-body-2 = 管理するには、 <linkExternal>ここをクリック</linkExternal>してください。
+payment-method-header = お支払い方法を選択してください
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = 必須
