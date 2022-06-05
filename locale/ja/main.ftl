@@ -331,6 +331,8 @@ sub-invoice-error =
     .title = 請求書読み込みエラー
 sub-billing-update-success = 請求情報の更新が完了しました
 sub-route-payment-modal-heading = 請求情報が無効です
+sub-route-payment-modal-message = { -brand-name-paypal } のアカウントに問題があるようです。この支払いの問題を解決するために必要な手続きを行ってください。
+sub-route-missing-billing-agreement-payment-alert = 支払い方法が無効です。アカウントに問題があります。<div>管理</div>
 
 ## Subscription create
 
