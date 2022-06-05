@@ -387,6 +387,7 @@ payment-confirmation-thanks-heading-account-exists = ありがとうございま
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = { $email } にアカウントの設定手順とお支払いの詳細が記載されたメールが届きます。
 payment-confirmation-order-heading = 注文詳細
 payment-confirmation-invoice-number = 請求書番号 { $invoiceNumber }
 payment-confirmation-billing-heading = 請求先

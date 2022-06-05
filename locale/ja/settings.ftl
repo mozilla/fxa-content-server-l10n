@@ -49,7 +49,7 @@ app-default-title = { -product-firefox-accounts }
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla } ロゴ
 app-footer-privacy-notice = ウェブサイトのプライバシー通知
-app-footer-terms-of-service = 利用規約
+app-footer-terms-of-service = サービス利用規約
 
 ##
 
@@ -520,12 +520,19 @@ se-verify-session-error = 申し訳ありませんが、セッションの確認
 # Button to remove the secondary email
 se-remove-email =
     .title = メールアドレスを削除
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = メールアドレス設定をリフレッシュ
+se-unverified = 未確認
+se-resend-code = 確認が必要です。受信トレイまたは迷惑メールフォルダーに見つからない場合は、<button>確認コードを再送</button> してください。
 # Button to make secondary email the primary
 se-make-primary = 主要アドレスに設定
 se-default-content = 主要アドレスでログインできない場合の予備アカウントです。
 se-content-note =
     注記: 予備アドレスは情報を復元しません — 復元させるには、
     <a>回復用キー</a> が必要です。
+# Default value for the secondary email
+se-secondary-email-none = なし
 
 ##
 
@@ -540,7 +547,9 @@ tfa-row-action-add = 追加
 tfa-row-action-disable = 無効化
 tfa-row-button-refresh =
     .title = 2 段階認証をリフレッシュ
+tfa-row-cannot-refresh = 申し訳ありませんが、2 段階認証のリフレッシュ中に問題が発生しました。
 tfa-row-content-explain = あなただけがアクセスできるコードを必須にすることにより、他の誰かがログインするのを防ぎます。
+tfa-row-cannot-verify-session-2 = 申し訳ありませんが、セッションの確認中に問題が発生しました。
 tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-disable-modal-confirm = 無効化
 tfa-row-disable-modal-explain =
@@ -553,7 +562,10 @@ tfa-row-change-modal-explain = この操作は元に戻せません。
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = 不明なアカウント
 auth-error-103 = パスワードが正しくありません
+auth-error-105 = 確認コードが正しくありません
+auth-error-110 = トークンが正しくありません
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. This text is localized
@@ -562,4 +574,8 @@ auth-error-103 = パスワードが正しくありません
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = 何回も試したため中断されました。{ $retryAfter }後に再度試してください。
+auth-error-138 = 未確認のセッション
+auth-error-139 = 予備のメールアドレスはアカウントのアドレスと別でなければなりません
+auth-error-155 = TOTP トークンが見つかりません
+auth-error-183 = 確認コードが正しくないか有効期限切れです
 auth-error-1008 = 新しいパスワードは別のものにしてください
