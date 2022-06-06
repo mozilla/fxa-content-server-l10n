@@ -110,6 +110,14 @@ cs-refresh-button =
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Puuttuuko jokin tai onko jokin kahteen kertaan?
 cs-disconnect-sync-heading = Katkaise yhteys Sync-palveluun
+# This string is used in a modal dialog when the user starts the disconnect from
+# Sync process.
+# Variables:
+#   $device (String) - the name of a device using Firefox Accounts
+#                      (for example: "Firefox Nightly on Google Pixel 4a")
+cs-disconnect-sync-content-2 =
+    Selaustietosi säilyvät laitteella { $device },
+    mutta niitä ei enää synkronoida tilisi kanssa.
 cs-disconnect-sync-reason-2 = Mikä on pääasiallinen syy, jonka vuoksi katkaiset yhteyden laitteeseen { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
