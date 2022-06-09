@@ -115,12 +115,10 @@ cs-disconnect-sync-heading = Ferbining mei Sync ferbrekke
 # Variables:
 #   $device (String) - the name of a device using Firefox Accounts
 #                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Jo navigaasjegegevens bliuwe op jo apparaat ({ $device })
-    bestean, mar der wurdt net mear mei jo account syngronisearre.
-cs-disconnect-sync-reason =
-    Wat is de wichtichste reden foar it ûntkeppeljen
-    fan dit apparaat?
+cs-disconnect-sync-content-2 =
+    Jo navigaasjegegevens bliuwe op { $device } bestean,
+    mar der wurdt net mear mei jo account syngronisearre.
+cs-disconnect-sync-reason-2 = Wat is de wichtichste reden om { $device } te ûntkeppeljen?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
