@@ -102,17 +102,19 @@ cs-cannot-disconnect = クライアントが見つからないため、切断で
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = { $service } からログアウトしました。
+cs-logged-out-2 = { $service } からログアウトしました
 cs-refresh-button =
     .title = 接続済みサービスをリフレッシュ
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 項目が不足または重複していますか？
 cs-disconnect-sync-heading = Sync から切断
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 = ブラウジングデータは { $device } に残りますが、アカウントと同期されなくなります。
 cs-disconnect-sync-reason-2 = { $device } の接続を解除する主な理由は何ですか？
 
@@ -154,7 +156,7 @@ dc-subheader = { -product-firefox-accounts } の改善にご協力ください
 dc-subheader-content = { -product-firefox-accounts } が技術データと対話データを { -brand-mozilla } へ送信することを許可する
 dc-opt-out-success = オプトアウトが完了しました。{ -product-firefox-accounts } が技術データと対話データを { -brand-mozilla } へ送信しないように設定を変更しました。
 dc-opt-in-success = ご協力ありがとうございます。このデータを共有することで { -product-firefox-accounts }の改善に役立てられます。
-dc-opt-in-out-error = データ収集設定の変更時に問題が発生しました。
+dc-opt-in-out-error-2 = データ収集設定の変更時に問題が発生しました
 dc-learn-more = 詳細情報
 
 # DropDownAvatarMenu component
@@ -165,7 +167,7 @@ drop-down-menu-title = { -product-firefox-account } メニュー
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>ログイン済み</signin><user>{ $user }</user>
 drop-down-menu-sign-out = ログアウト
-drop-down-menu-sign-out-error = 申し訳ありませんが、ログアウト中に問題が発生しました。
+drop-down-menu-sign-out-error-2 = 申し訳ありませんが、ログアウト中に問題が発生しました
 
 ## Flow Container
 
@@ -235,9 +237,9 @@ nav-email-comm = メールの設定管理
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = 回復用コードの差し替えに時に問題が発生しました。
+tfa-replace-code-error-2 = 回復用コードの差し替えに時に問題が発生しました
 tfa-replace-code-success = 新しいコードが作成されました。これらのワンタイム使用のコードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
-tfa-replace-code-success-alert = アカウントの回復用コードが更新されました。
+tfa-replace-code-success-alert-2 = アカウントの回復用コードが更新されました
 tfa-replace-code-1-2 = ステップ 1/2
 tfa-replace-code-2-2 = ステップ 2/2
 
@@ -267,9 +269,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = カメラを初期化できませんでした
 avatar-page-new-avatar =
     .alt = 新しいプロファイル写真
-avatar-page-file-upload-error-2 = プロファイル写真のアップロードに問題がありました。
-avatar-page-delete-error-2 = プロファイル写真の削除に問題がありました。
-avatar-page-image-too-large-error = 画像ファイルサイズが大きすぎてアップロードできません。
+avatar-page-file-upload-error-3 = プロファイル写真のアップロードに問題が発生しました
+avatar-page-delete-error-3 = プロファイル写真の削除に問題がありました
+avatar-page-image-too-large-error-2 = 画像ファイルのサイズが大きすぎてアップロードできません
 
 ##
 
@@ -293,7 +295,7 @@ pw-change-new-password =
     .label = 新しいパスワードを入力してください
 pw-change-confirm-password =
     .label = 新しいパスワードを再入力してください
-pw-change-success-alert = パスワードを更新しました。
+pw-change-success-alert-2 = パスワードを更新しました
 
 ##
 
@@ -302,8 +304,7 @@ pw-change-success-alert = パスワードを更新しました。
 
 pw-create-header =
     .title = パスワードを作成
-pw-create-success-alert = パスワードを設定しました。
-pw-create-error = 申し訳ありませんが、パスワードの設定中に問題が発生しました。
+pw-create-success-alert-2 = パスワードを設定しました
 
 ##
 
@@ -341,8 +342,6 @@ display-name-input =
     .label = 表示名を入力してください
 submit-display-name = 保存
 cancel-display-name = キャンセル
-display-name-update-error = 表示名のアップデートに問題がありました。
-display-name-success-alert = 表示名がアップデートされました。
 
 ##
 
@@ -359,12 +358,10 @@ recovery-key-page-title =
     .title = 回復用キー
 recovery-key-step-1 = ステップ 1/2
 recovery-key-step-2 = ステップ 2/2
-recovery-key-success-alert = 回復用キーが作成されました。
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = ステップ 1/2
-add-secondary-email-error = このメールアドレスの設定中に問題が発生しました。
 add-secondary-email-page-title =
     .title = 予備アドレス
 add-secondary-email-enter-address =
@@ -375,7 +372,6 @@ add-secondary-email-save-button = 保存
 ## Verify secondary email page
 
 add-secondary-email-step-2 = ステップ 2/2
-verify-secondary-email-error = 確認コードの送信に問題がありました。
 verify-secondary-email-page-title =
     .title = 予備アドレス
 verify-secondary-email-verification-code =
@@ -386,10 +382,6 @@ verify-secondary-email-verify-button = 確認
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = <strong>{ $email }</strong> 宛に送信された確認コードを 5 分以内に入力してください。
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } の追加が完了しました。
 
 ##
 
@@ -407,7 +399,6 @@ tfa-button-cancel = キャンセル
 tfa-button-finish = 完了
 tfa-incorrect-totp = 2 段階認証コードが正しくありません
 tfa-cannot-retrieve-code = コードの取得中に問題が発生しました。
-tfa-cannot-verify-code = 回復用コードの確認に問題がありました。
 tfa-incorrect-recovery-code = 回復用コードが正しくありません
 tfa-enabled = 2 段階認証が有効化されました
 tfa-scan-this-code =
@@ -486,37 +477,21 @@ rk-not-set = 未設定
 rk-action-create = 作成
 rk-action-remove = 削除
 rk-cannot-refresh = 申し訳ありませんが、回復用キーのリフレッシュ中に問題が発生しました。
-rk-key-removed = アカウントの回復用キーが削除されました。
 rk-cannot-remove-key = アカウントの回復用キーを削除できませんでした。
 rk-refresh-key = 回復用キーをリフレッシュ
 rk-content-explain = パスワードを忘れたときに、あなたの情報を復元します。
 rk-content-reset-data = パスワードをリセットするとデータがリセットされるのはなぜですか？
-rk-cannot-verify-session-2 = 申し訳ありませんが、セッションの確認中に問題が発生しました。
 rk-remove-modal-heading = 回復用キーを削除しますか？
 rk-remove-modal-content =
     パスワードをリセットした場合、
     回復用キーを使用してあなたのデータにアクセスできなくなります。この操作は元に戻せません。
 rk-refresh-error = 申し訳ありませんが、回復用キーのリフレッシュ中に問題が発生しました。
-rk-remove-error = アカウントの回復用キーを削除できませんでした。
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = 予備アドレス
     .header = 予備アドレス
 se-cannot-refresh-email = メールアドレスのリフレッシュ中に問題が発生しました。
-se-cannot-resend-code = 申し訳ありませんが、確認コードの再送信中に問題が発生しました。
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } が主要アドレスになりました。
-se-set-primary-error = 主要アドレスの変更時に問題が発生しました。
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } の削除が完了しました。
-se-delete-email-error = 申し訳ありませんが、メールアドレスの削除中に問題が発生しました。
-se-verify-session = この処理を実行するために、現在のセッションを確認する必要があります。
-se-verify-session-error = 申し訳ありませんが、セッションの確認中に問題が発生しました。
 # Button to remove the secondary email
 se-remove-email =
     .title = メールアドレスを削除
@@ -540,7 +515,6 @@ se-secondary-email-none = なし
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 2 段階認証
-tfa-row-disabled = 2 段階認証が無効化されました。
 tfa-row-enabled = 有効
 tfa-row-not-set = 未設定
 tfa-row-action-add = 追加
@@ -549,13 +523,11 @@ tfa-row-button-refresh =
     .title = 2 段階認証をリフレッシュ
 tfa-row-cannot-refresh = 申し訳ありませんが、2 段階認証のリフレッシュ中に問題が発生しました。
 tfa-row-content-explain = あなただけがアクセスできるコードを必須にすることにより、他の誰かがログインするのを防ぎます。
-tfa-row-cannot-verify-session-2 = 申し訳ありませんが、セッションの確認中に問題が発生しました。
 tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-disable-modal-confirm = 無効化
 tfa-row-disable-modal-explain =
     この操作は元に戻せません。
     <linkExternal>回復用キーを置き換える</linkExternal> オプションもあります。
-tfa-row-cannot-disable = 2 段階認証を無効化できませんでした。
 tfa-row-change-modal-heading = 回復用コードを変更しますか？
 tfa-row-change-modal-confirm = 変更
 tfa-row-change-modal-explain = この操作は元に戻せません。
