@@ -154,6 +154,7 @@ dc-subheader = 幫助我們改善 { -product-firefox-accounts }
 dc-subheader-content = 允許 { -product-firefox-accounts } 傳送技術與互動資料給 { -brand-mozilla }。
 dc-opt-out-success = 成功退出。{ -product-firefox-accounts } 將不再傳送技術或互動資料給 { -brand-mozilla }。
 dc-opt-in-success = 感謝您！分享此資料可協助我們改進 { -product-firefox-accounts }。
+dc-opt-in-out-error-2 = 很抱歉，更改您的資料收集偏好設定時發生問題
 dc-learn-more = 了解更多
 
 # DropDownAvatarMenu component
@@ -164,6 +165,7 @@ drop-down-menu-title = { -product-firefox-account } 選單
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>已登入為</signin><user>{ $user }</user>
 drop-down-menu-sign-out = 登出
+drop-down-menu-sign-out-error-2 = 很抱歉，將您登出時發生問題
 
 ## Flow Container
 
@@ -233,7 +235,9 @@ nav-email-comm = 電子郵件通訊
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error-2 = 取代您的救援碼時發生問題
 tfa-replace-code-success = 已產生新的救援碼，請將這些單次使用代碼保存在安全的地方，當您無法再使用行動裝置時，可以使用救援碼登入帳號。
+tfa-replace-code-success-alert-2 = 已更新帳號救援碼
 tfa-replace-code-1-2 = 第 1 步，共 2 步
 tfa-replace-code-2-2 = 第 2 步，共 2 步
 
@@ -263,6 +267,7 @@ avatar-page-rotate-button =
 avatar-page-camera-error = 無法初始化攝影機
 avatar-page-new-avatar =
     .alt = 新增個人資料照片
+avatar-page-file-upload-error-3 = 更新您的個人資料大頭照時發生問題
 
 ##
 
