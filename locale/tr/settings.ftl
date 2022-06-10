@@ -100,27 +100,18 @@ cs-cannot-refresh =
     Üzgünüz, bağlı hizmetlerin listesi yenilenirken bir
     sorun oluştu.
 cs-cannot-disconnect = İstemci bulunamadı, bağlantı kesilemiyor
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = { $service } oturumu kapatıldı.
 cs-refresh-button =
     .title = Bağlı hizmetleri yenile
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Eksik veya çift kayıtlar mı var?
 cs-disconnect-sync-heading = Sync bağlantısını kes
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Gezinti verileriniz cihazınızda ({ $device })
-    korunacak ama artık hesabınızla eşitlenmeyecek.
-cs-disconnect-sync-reason =
-    Bu cihazın bağlantısının kesilmesinin
-    temel nedeni nedir?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -158,7 +149,6 @@ datablock-print =
 dc-heading = Veri toplanması ve kullanımı
 dc-subheader = { -product-firefox-accounts }nı geliştirmemize yardım edin
 dc-opt-in-success = Teşekkürler! Bu verileri paylaşmanız { -product-firefox-accounts } ürününü geliştirmemize yardımcı oluyor.
-dc-opt-in-out-error = Üzgünüz, veri toplama tercihiniz değiştirilirken bir sorun oluştu.
 dc-learn-more = Daha fazla bilgi al
 
 # DropDownAvatarMenu component
@@ -169,7 +159,6 @@ drop-down-menu-title = { -product-firefox-account } menüsü
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <user>{ $user }</user><signin>olarak giriş yaptınız</signin>
 drop-down-menu-sign-out = Çıkış yap
-drop-down-menu-sign-out-error = Üzgünüz, çıkış yapılırken bir sorun oluştu.
 
 ## Flow Container
 
@@ -239,9 +228,7 @@ nav-email-comm = E-posta iletişimi
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Kurtarma kodlarınız değiştirilirken bir sorun oluştu.
 tfa-replace-code-success = Yeni kodlar oluşturuldu. Bu tek kullanımlık kodları güvenli bir yerde saklayın. Mobil cihazınıza ulaşamassanız hesabınıza erişmek için bunlara ihtiyacınız olacak.
-tfa-replace-code-success-alert = Hesap kurtarma kodları güncellendi.
 tfa-replace-code-1-2 = Adım 1/2
 tfa-replace-code-2-2 = Adım 2/2
 
@@ -271,9 +258,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Kamera başlatılamadı
 avatar-page-new-avatar =
     .alt = yeni profil fotoğrafı
-avatar-page-file-upload-error-2 = Profil fotoğrafınız yüklenirken bir sorun oluştu.
-avatar-page-delete-error-2 = Profil fotoğrafınız silinirken bir sorun oluştu.
-avatar-page-image-too-large-error = Görüntü dosyası boyutu yüklenemeyecek kadar büyük.
 
 ##
 
@@ -297,7 +281,14 @@ pw-change-new-password =
     .label = Yeni parolanızı yazın
 pw-change-confirm-password =
     .label = Yeni parolanızı doğrulayın
-pw-change-success-alert = Parola güncellendi.
+
+##
+
+
+## Password create page
+
+pw-create-header =
+    .title = Parola oluştur
 
 ##
 
@@ -310,8 +301,6 @@ delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
 delete-account-confirm-title-2 = { -product-firefox-account }nızı, internette güvende ve üretken kalmanızı sağlayan { -brand-mozilla } ürünlerine bağladınız:
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
-delete-account-chk-box-1-v3 =
-    .label = Sahip olduğunuz tüm ücretli abonelikler iptal edilecektir
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } ürünlerinde kayıtlı bilgilerinizi ve özellikleri kaybedebilirsiniz
 delete-account-chk-box-3 =
@@ -335,8 +324,6 @@ display-name-input =
     .label = Görünen adı yazın
 submit-display-name = Kaydet
 cancel-display-name = İptal
-display-name-update-error = Görünen adınız güncellenirken bir sorun oluştu.
-display-name-success-alert = Görünen ad güncellendi.
 
 ##
 
@@ -353,12 +340,10 @@ recovery-key-page-title =
     .title = Kurtarma anahtarı
 recovery-key-step-1 = Adım 1/2
 recovery-key-step-2 = Adım 2/2
-recovery-key-success-alert = Kurtarma anahtarı oluşturuldu.
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Adım 1/2
-add-secondary-email-error = Bu e-posta oluşturulurken bir sorun oluştu.
 add-secondary-email-page-title =
     .title = İkinci e-posta
 add-secondary-email-enter-address =
@@ -369,7 +354,6 @@ add-secondary-email-save-button = Kaydet
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Adım 2/2
-verify-secondary-email-error = Doğrulama kodu gönderilirken bir sorun oluştu.
 verify-secondary-email-page-title =
     .title = İkinci e-posta
 verify-secondary-email-verification-code =
@@ -380,10 +364,6 @@ verify-secondary-email-verify-button = Doğrula
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Lütfen <strong>{ $email }</strong> adresine gönderilen doğrulama kodunu 5 dakika içinde girin.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } başarıyla eklendi.
 
 ##
 
@@ -401,7 +381,6 @@ tfa-button-cancel = İptal
 tfa-button-finish = Bitir
 tfa-incorrect-totp = Yanlış iki aşamalı doğrulama kodu
 tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
-tfa-cannot-verify-code = Kurtarma kodunuz doğrulanırken bir sorun oluştu.
 tfa-incorrect-recovery-code = Yanlış kurtarma kodu
 tfa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
 tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkExternal> birini kullanarak bu QR kodunu tarayın.
@@ -448,6 +427,8 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Oluşturma: { $date }
+security-not-set = Ayarlanmamış
+security-action-create = Oluştur
 
 ## Switch component
 
@@ -475,35 +456,19 @@ rk-not-set = Ayarlanmamış
 rk-action-create = Oluştur
 rk-action-remove = Kaldır
 rk-cannot-refresh = Üzgünüz, kurtarma anahtarı yenilenirken bir sorun oluştu.
-rk-key-removed = Hesap kurtarma anahtarı silindi.
 rk-cannot-remove-key = Hesap kurtarma anahtarınız silinemedi.
 rk-refresh-key = Kurtarma anahtarını yenile
 rk-content-explain = Parolanızı unutursanız bilgilerinizi geri yüklemenizi sağlar.
 rk-content-reset-data = Parolamı sıfırlayınca neden verilerim de sıfırlanıyor?
-rk-cannot-verify-session-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu.
 rk-remove-modal-heading = Kurtarma anahtarı kaldırılsın mı?
 rk-remove-modal-content = Parolanızı sıfırlarsanız verilerinize tekrar erişmek için kurtarma anahtarınızı kullanamayacaksınız. Bu işlemi geri alamazsınız.
 rk-refresh-error = Üzgünüz, kurtarma anahtarı yenilenirken bir sorun oluştu.
-rk-remove-error = Hesap kurtarma anahtarınız silinemedi.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = İkinci e-posta
     .header = İkinci e-posta
 se-cannot-refresh-email = Üzgünüz, bu e-posta yenilenirken bir sorun oluştu.
-se-cannot-resend-code = Doğrulama kodu yeniden gönderilirken bir sorun oluştu.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } artık birinci e-postanız.
-se-set-primary-error = Üzgünüz, birinci e-postanız değiştirilirken bir sorun oluştu.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } başarıyla silindi.
-se-delete-email-error = Üzgünüz, bu e-posta silinirken bir sorun oluştu.
-se-verify-session = Bu işlemi gerçekleştirmek için mevcut oturumunuzu doğrulamanız gerekecek.
-se-verify-session-error = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu.
 # Button to remove the secondary email
 se-remove-email =
     .title = E-postayı kaldır
@@ -525,7 +490,6 @@ se-secondary-email-none = Yok
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = İki aşamalı doğrulama
-tfa-row-disabled = İki aşamalı kimlik doğrulama kapatıldı
 tfa-row-enabled = Etkin
 tfa-row-not-set = Ayarlanmamış
 tfa-row-action-add = Ekle
@@ -536,11 +500,9 @@ tfa-row-cannot-refresh =
     Üzgünüz, iki aşamalı doğrulama yenilenirken
     bir sorun oluştu.
 tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod isteyerek başkalarının giriş yapmasını engeller.
-tfa-row-cannot-verify-session-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu.
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
 tfa-row-disable-modal-explain = Bu işlemi geri alamazsınız. İsterseniz <linkExternal>kurtarma kodlarınızı değiştirebilirisiniz</linkExternal>.
-tfa-row-cannot-disable = İki aşamalı doğrulama devre dışı bırakılamadı.
 tfa-row-change-modal-heading = Kurtarma kodları değiştirilsin mi?
 tfa-row-change-modal-confirm = Değiştir
 tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
