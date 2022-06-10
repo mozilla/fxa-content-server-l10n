@@ -486,19 +486,35 @@ rk-not-set = Não definido
 rk-action-create = Criar
 rk-action-remove = Remover
 rk-cannot-refresh = Desculpe, houve um problema ao atualizar a chave de recuperação.
+rk-key-removed-2 = Chave de recuperação da conta removida
 rk-cannot-remove-key = Não foi possível remover a chave de recuperação da sua conta.
 rk-refresh-key = Atualizar chave de recuperação
 rk-content-explain = Restaure suas informações caso esqueça sua senha.
 rk-content-reset-data = Por que redefinir minha senha redefine meus dados?
+rk-cannot-verify-session-3 = Desculpe, houve um problema ao verificar sua sessão
 rk-remove-modal-heading = Remover chave de recuperação?
 rk-remove-modal-content = Caso você redefina sua senha, você não poderá usar sua chave de recuperação para acessar seus dados. Esta ação não pode ser desfeita.
 rk-refresh-error = Desculpe, houve um problema ao atualizar a chave de recuperação.
+rk-remove-error-2 = Não foi possível remover a chave de recuperação da sua conta
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Email secundário
     .header = Email secundário
 se-cannot-refresh-email = Desculpe, houve um problema ao atualizar esse email.
+se-cannot-resend-code-2 = Desculpe, houve um problema ao reenviar o código de verificação
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } agora é seu email principal
+se-set-primary-error-2 = Desculpe, houve um problema ao alterar seu email principal
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } excluído com sucesso
+se-delete-email-error-2 = Desculpe, houve um problema ao excluir este email
+se-verify-session-2 = Você precisa validar a sessão atual para realizar esta ação
+se-verify-session-error-2 = Desculpe, houve um problema ao validar a sessão
 # Button to remove the secondary email
 se-remove-email =
     .title = Remover email
@@ -520,6 +536,7 @@ se-secondary-email-none = Nenhum
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticação em duas etapas
+tfa-row-disabled-2 = Autenticação em duas etapas desativada
 tfa-row-enabled = Ativada
 tfa-row-not-set = Não configurada
 tfa-row-action-add = Adicionar
@@ -528,9 +545,11 @@ tfa-row-button-refresh =
     .title = Atualizar autenticação em duas etapas
 tfa-row-cannot-refresh = Desculpe, houve um problema ao atualizar a autenticação em duas etapas.
 tfa-row-content-explain = Impeça que outras pessoas entrem na sua conta, exigindo um código único ao qual só você tem acesso.
+tfa-row-cannot-verify-session-3 = Desculpe, houve um problema ao validar a sessão
 tfa-row-disable-modal-heading = Desativar autenticação em duas etapas?
 tfa-row-disable-modal-confirm = Desativar
 tfa-row-disable-modal-explain = Esta ação não pode ser desfeita. Você também tem a opção de <linkExternal>substituir seus códigos de recuperação</linkExternal>.
+tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação em duas etapas
 tfa-row-change-modal-heading = Alterar códigos de recuperação?
 tfa-row-change-modal-confirm = Alterar
 tfa-row-change-modal-explain = Você não poderá desfazer esta ação.
