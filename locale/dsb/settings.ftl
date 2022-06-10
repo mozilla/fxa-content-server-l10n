@@ -534,6 +534,9 @@ se-set-primary-error-2 = Bóžko jo pśi změnjanju wašeje primarneje e-mailowe
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } jo se wuspěšnje wulašowała
+se-delete-email-error-2 = Bóžko jo pśi lašowanju toś teje e-mailoweje adrese problem nastał
+se-verify-session-2 = Musyśo swójo aktualne pósejźenje pśeglědowaś, aby toś tu akciju wuwjadł
+se-verify-session-error-2 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mailowu adresu wótwónoźeś
@@ -559,6 +562,7 @@ se-secondary-email-none = Žedna
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dwójokšacowa awtentifikacija
+tfa-row-disabled-2 = Dwójokšacowa awtentifikacija jo se znjemóžniła
 tfa-row-enabled = Zmóžnjony
 tfa-row-not-set = Njepóstajony
 tfa-row-action-add = Pśidaś
@@ -571,11 +575,13 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Pominajśo jadnorazowy kod, ku kótaremuž jano wy maśo pśistup,
     aby zajźował tomu, až se něchten drugi pśizjawja.
+tfa-row-cannot-verify-session-3 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
 tfa-row-disable-modal-explain =
     Njamóžośo toś tu akciju anulěrowaś. Maśo teke
     móžnosć <linkExternal>swój wótnowjeńske kody wuměniś</linkExternal>.
+tfa-row-cannot-disable-2 = Dwójokšacowa awtentifikacija njedajo se znjemóžniś
 tfa-row-change-modal-heading = Wótnowjeńske kody změniś?
 tfa-row-change-modal-confirm = Změniś
 tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
