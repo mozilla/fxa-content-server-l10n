@@ -104,17 +104,19 @@ cs-cannot-disconnect = Biðlaraforrit fannst ekki, get ekki aftengst
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Skráð út af { $service }.
+cs-logged-out-2 = Skráð út af { $service }
 cs-refresh-button =
     .title = Endurnýja tengdar þjónustur
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Atriði sem vantar eða eru tvítekin?
 cs-disconnect-sync-heading = Aftengjast frá Sync-samstillingu
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Vafragögn verða áfram á { $device },
     en munu ekki lengur verða samstillt við reikninginn þinn.
@@ -166,7 +168,7 @@ dc-subheader = Hjálpaðu til við að bæta { -product-firefox-accounts }
 dc-subheader-content = Leyfa { -product-firefox-accounts } að senda tækni- og samskiptagögn til { -brand-mozilla }.
 dc-opt-out-success = Tókst að afþakka. { -product-firefox-accounts } mun ekki senda tækni- eða samskiptagögn til { -brand-mozilla }.
 dc-opt-in-success = Takk! Að deila þessum gögnum hjálpar okkur að bæta { -product-firefox-accounts }.
-dc-opt-in-out-error = Því miður kom upp vandamál við að breyta kjörstillingum þínum varðandi gagnasöfnun.
+dc-opt-in-out-error-2 = Því miður kom upp vandamál við að breyta kjörstillingum þínum varðandi gagnasöfnun
 dc-learn-more = Frekari upplýsingar
 
 # DropDownAvatarMenu component
@@ -177,7 +179,7 @@ drop-down-menu-title = { -product-firefox-account } valmynd
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Skráð inn sem</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Skrá út
-drop-down-menu-sign-out-error = Því miður, upp kom vandamál við að skrá þig út.
+drop-down-menu-sign-out-error-2 = Því miður, upp kom vandamál við að skrá þig út
 
 ## Flow Container
 
@@ -247,12 +249,12 @@ nav-email-comm = Tölvupóstsamskipti
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Vandamál kom upp við að skipta um endurheimtarkóðana þína.
+tfa-replace-code-error-2 = Vandamál kom upp við að skipta um endurheimtarkóðana þína
 tfa-replace-code-success =
     Nýir kóðar hafa verið útbúnir. Geymdu þessa einnota kóða
      á öruggum stað - þú þarft þá til að fá aðgang að reikningnum þínum ef þú ert ekki
     með farsímann þinn við hendina.
-tfa-replace-code-success-alert = Endurheimtukóðar reiknings uppfærðir.
+tfa-replace-code-success-alert-2 = Endurheimtukóðar reiknings uppfærðir
 tfa-replace-code-1-2 = Skref 1 af 2
 tfa-replace-code-2-2 = Skref 2 af 2
 
@@ -282,9 +284,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Ekki tókst að frumstilla myndavélina
 avatar-page-new-avatar =
     .alt = ný auðkennismynd
-avatar-page-file-upload-error-2 = Vandamál kom upp við að senda inn auðkennismyndina þína.
-avatar-page-delete-error-2 = Vandamál kom upp við að eyða auðkennismyndinni þinni.
-avatar-page-image-too-large-error = Stærð myndarinnar er of mikil til að hægt sé að senda hana inn.
+avatar-page-file-upload-error-3 = Vandamál kom upp við að senda inn auðkennismyndina þína
+avatar-page-delete-error-3 = Vandamál kom upp við að eyða auðkennismyndinni þinni
+avatar-page-image-too-large-error-2 = Stærð myndarinnar er of mikil til að hægt sé að senda hana inn
 
 ##
 
@@ -310,7 +312,7 @@ pw-change-new-password =
     .label = Settu inn nýja lykilorðið
 pw-change-confirm-password =
     .label = Staðfestu nýja lykilorðið
-pw-change-success-alert = Lykilorð uppfært.
+pw-change-success-alert-2 = Lykilorð uppfært
 
 ##
 
@@ -319,8 +321,8 @@ pw-change-success-alert = Lykilorð uppfært.
 
 pw-create-header =
     .title = Búa til lykilorð
-pw-create-success-alert = Lykilorð stillt.
-pw-create-error = Því miður kom upp vandamál við að stilla lykilorðið þitt.
+pw-create-success-alert-2 = Lykilorð stillt
+pw-create-error-2 = Því miður kom upp vandamál við að stilla lykilorðið þitt
 
 ##
 
@@ -358,8 +360,8 @@ display-name-input =
     .label = Settu inn birtingarnafn
 submit-display-name = Vista
 cancel-display-name = Hætta við
-display-name-update-error = Vandamál kom upp við að uppfæra birtingarnafnið þitt.
-display-name-success-alert = Birtingarnafn uppfært.
+display-name-update-error-2 = Vandamál kom upp við að uppfæra birtingarnafnið þitt
+display-name-success-alert-2 = Birtingarnafn uppfært
 
 ##
 
@@ -376,12 +378,12 @@ recovery-key-page-title =
     .title = Endurheimtulykill
 recovery-key-step-1 = Skref 1 af 2
 recovery-key-step-2 = Skref 2 af 2
-recovery-key-success-alert = Endurheimtulykill útbúinn.
+recovery-key-success-alert-2 = Endurheimtulykill útbúinn
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Skref 1 af 2
-add-secondary-email-error = Vandamál kom upp við að búa til þennan tölvupóst.
+add-secondary-email-error-2 = Vandamál kom upp við að búa til þennan tölvupóst
 add-secondary-email-page-title =
     .title = Aukatölvupóstfang
 add-secondary-email-enter-address =
@@ -392,7 +394,7 @@ add-secondary-email-save-button = Vista
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Skref 2 af 2
-verify-secondary-email-error = Vandamál kom upp við að senda staðfestingarkóðann.
+verify-secondary-email-error-2 = Vandamál kom upp við að senda staðfestingarkóðann
 verify-secondary-email-page-title =
     .title = Aukatölvupóstfang
 verify-secondary-email-verification-code =
@@ -406,7 +408,7 @@ verify-secondary-email-please-enter-code = Settu inn staðfestingarkóðann sem 
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = Það tókst að bæta við { $email }.
+verify-secondary-email-success-alert-2 = Það tókst að bæta við { $email }
 
 ##
 
@@ -424,7 +426,7 @@ tfa-button-cancel = Hætta við
 tfa-button-finish = Ljúka
 tfa-incorrect-totp = Rangur tveggja-þrepa auðkenningarkóði
 tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
-tfa-cannot-verify-code = Vandamál kom upp við að staðfesta endurheimtukóðann þinn.
+tfa-cannot-verify-code-2 = Vandamál kom upp við að staðfesta endurheimtukóðann þinn
 tfa-incorrect-recovery-code = Rangur endurheimtukóði
 tfa-enabled = Tveggja-þrepa auðkenning virkjuð
 tfa-scan-this-code =
@@ -508,37 +510,37 @@ rk-not-set = Ekki stillt
 rk-action-create = Búa til
 rk-action-remove = Fjarlægja
 rk-cannot-refresh = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
-rk-key-removed = Endurheimtulykill reiknings fjarlægður.
+rk-key-removed-2 = Endurheimtulykill reiknings fjarlægður
 rk-cannot-remove-key = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns.
 rk-refresh-key = Endurlesa endurheimtulykil
 rk-content-explain = Endurheimtu gögnin þín ef þú gleymir lykilorðinu þínu.
 rk-content-reset-data = Af hverju mun endurstilling lykilorðsins endurstilla gögnin mín?
-rk-cannot-verify-session-2 = Því miður, upp kom vandamál við að sannreyna setuna þína.
+rk-cannot-verify-session-3 = Því miður, upp kom vandamál við að sannreyna setuna þína
 rk-remove-modal-heading = Fjarlægja endurheimtulykil?
 rk-remove-modal-content =
     Ef þú endurstillir lykilorðið þitt, munt þú ekki geta
     notað endurheimtulykilinn þinn til að fá aðgang að gögnunum þínum. Þú getur ekki afturkallað þessa aðgerð.
 rk-refresh-error = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
-rk-remove-error = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns.
+rk-remove-error-2 = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Aukatölvupóstfang
     .header = Aukatölvupóstfang
 se-cannot-refresh-email = Því miður kom upp vandamál við að endurlesa þetta tölvupóstfang.
-se-cannot-resend-code = Vandamál kom upp við að endursenda staðfestingarkóðann.
+se-cannot-resend-code-2 = Vandamál kom upp við að endursenda staðfestingarkóðann
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } er núna aðalpóstfangið þitt.
-se-set-primary-error = Því miður kom upp vandamál við að breyta aðaltölvupóstfanginu þínu.
+se-set-primary-successful-2 = { $email } er núna aðalpóstfangið þitt
+se-set-primary-error-2 = Því miður kom upp vandamál við að breyta aðaltölvupóstfanginu þínu
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = Það tókst að eyða { $email }.
-se-delete-email-error = Því miður kom upp vandamál við að eyða þessu tölvupóstfangi.
-se-verify-session = Þú þarft að staðfesta fyrirliggjandi setuna þína til að framkvæma þessa aðgerð.
-se-verify-session-error = Því miður, upp kom vandamál við að sannreyna setuna þína.
+se-delete-email-successful-2 = Það tókst að eyða { $email }
+se-delete-email-error-2 = Því miður kom upp vandamál við að eyða þessu tölvupóstfangi
+se-verify-session-2 = Þú þarft að staðfesta fyrirliggjandi setuna þína til að framkvæma þessa aðgerð
+se-verify-session-error-2 = Því miður, upp kom vandamál við að sannreyna setuna þína
 # Button to remove the secondary email
 se-remove-email =
     .title = Fjarlægja tölvupóstfang
@@ -564,7 +566,7 @@ se-secondary-email-none = Ekkert
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tveggja-þrepa auðkenning
-tfa-row-disabled = Tveggja-þrepa auðkenning óvirk.
+tfa-row-disabled-2 = Tveggja-þrepa auðkenning óvirk
 tfa-row-enabled = Virkjað
 tfa-row-not-set = Ekki stillt
 tfa-row-action-add = Bæta við
@@ -577,13 +579,13 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Komdu í veg fyrir að einhver annar skrái sig inn með því að krefjast
     einstaks kóða sem aðeins þú hefur aðgang að.
-tfa-row-cannot-verify-session-2 = Því miður, upp kom vandamál við að sannreyna setuna þína.
+tfa-row-cannot-verify-session-3 = Því miður, upp kom vandamál við að sannreyna setuna þína
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
 tfa-row-disable-modal-explain =
     Þú munt ekki geta afturkallað þessa aðgerð. Þú hefur
     einnig möguleika á að <linkExternal>skipta um endurheimtukóðana þína</linkExternal>.
-tfa-row-cannot-disable = Ekki var hægt að gera tveggja-þrepa auðkenningu óvirka.
+tfa-row-cannot-disable-2 = Ekki var hægt að gera tveggja-þrepa auðkenningu óvirka
 tfa-row-change-modal-heading = Skipta um endurheimtukóða?
 tfa-row-change-modal-confirm = Breyta
 tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
