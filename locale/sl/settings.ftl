@@ -141,21 +141,18 @@ cs-cannot-refresh =
     Oprostite, prišlo je do težave pri osveževanju seznama povezanih
     storitev.
 cs-cannot-disconnect = Odjemalec ni najden, povezave ni bilo mogoče prekiniti
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = Odjavljeno iz storitve { $service }.
 cs-refresh-button =
     .title = Osveži povezane storitve
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manjkajoči ali podvojeni elementi?
 cs-disconnect-sync-heading = Odklopi od Synca
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Podatki brskanja bodo ostali na napravi { $device },
     vendar se ne bodo več sinhronizirali z vašim računom.
@@ -207,7 +204,6 @@ dc-subheader = Pomagajte izboljšati { -product-firefox-accounts(sklon: "tozilni
 dc-subheader-content = Dovoli { -product-firefox-accounts(sklon: "dajalnik") } pošiljanje tehničnih in interakcijskih podatkov { -brand-mozilla(sklon: "dajalnik") }.
 dc-opt-out-success = Odklonitev uspešna. { -product-firefox-accounts } ne bodo pošiljali { -brand-mozilla(sklon: "dajalnik") } tehničnih ali interakcijskih podatkov.
 dc-opt-in-success = Hvala! Z deljenjem teh podatkov nam pomagate izboljševati { -product-firefox-accounts(sklon: "tozilnik") }.
-dc-opt-in-out-error = Oprostite, pri spreminjanju nastavitve o zbiranju podatkov je prišlo do težave.
 dc-learn-more = Več o tem
 
 # DropDownAvatarMenu component
@@ -218,7 +214,6 @@ drop-down-menu-title = Meni { -product-firefox-account(sklon: "rodilnik") }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Prijavljeni kot</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odjava
-drop-down-menu-sign-out-error = Oprostite, prišlo je do težave pri odjavljanju.
 
 ## Flow Container
 
@@ -288,12 +283,10 @@ nav-email-comm = E-poštno obveščanje
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Pri menjavi kod za obnovitev je prišlo do težave.
 tfa-replace-code-success =
     Ustvarjene so bile nove kode. Te kode za enkratno
     uporabo shranite na varno mesto – potrebovali jih boste za dostop do svojega
     računa, če ne boste imeli mobilne naprave.
-tfa-replace-code-success-alert = Kode za obnovitev računa posodobljene.
 tfa-replace-code-1-2 = Korak 1 od 2
 tfa-replace-code-2-2 = Korak 2 od 2
 
@@ -323,9 +316,7 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Kamere ni bilo mogoče zagnati
 avatar-page-new-avatar =
     .alt = nova slika profila
-avatar-page-file-upload-error-2 = Prišlo je do napake pri nalaganju slike profila.
-avatar-page-delete-error-2 = Prišlo je do napake pri brisanju slike profila.
-avatar-page-image-too-large-error = Datoteka s sliko je prevelika za nalaganje.
+avatar-page-image-too-large-error-2 = Datoteka s sliko je prevelika za nalaganje
 
 ##
 
@@ -351,7 +342,7 @@ pw-change-new-password =
     .label = Vnesite novo geslo
 pw-change-confirm-password =
     .label = Potrdite novo geslo
-pw-change-success-alert = Geslo posodobljeno.
+pw-change-success-alert-2 = Geslo posodobljeno
 
 ##
 
@@ -360,8 +351,8 @@ pw-change-success-alert = Geslo posodobljeno.
 
 pw-create-header =
     .title = Ustvari geslo
-pw-create-success-alert = Geslo je nastavljeno.
-pw-create-error = Oprostite, prišlo je do težave pri nastavljanju gesla.
+pw-create-success-alert-2 = Geslo nastavljeno
+pw-create-error-2 = Oprostite, prišlo je do težave pri nastavljanju gesla
 
 ##
 
@@ -399,8 +390,8 @@ display-name-input =
     .label = Vnesite prikazno ime
 submit-display-name = Shrani
 cancel-display-name = Prekliči
-display-name-update-error = Prišlo je do napake pri spremembi prikaznega imena.
-display-name-success-alert = Prikazno ime posodobljeno.
+display-name-update-error-2 = Prišlo je do napake pri spremembi prikaznega imena
+display-name-success-alert-2 = Prikazno ime posodobljeno
 
 ##
 
@@ -417,12 +408,11 @@ recovery-key-page-title =
     .title = Obnovitveni ključ
 recovery-key-step-1 = Korak 1 od 2
 recovery-key-step-2 = Korak 2 od 2
-recovery-key-success-alert = Obnovitveni ključ ustvarjen.
+recovery-key-success-alert-2 = Obnovitveni ključ ustvarjen
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Korak 1 od 2
-add-secondary-email-error = Pri dodajanju tega e-poštnega naslova je prišlo do napake.
 add-secondary-email-page-title =
     .title = Pomožni e-poštni naslov
 add-secondary-email-enter-address =
@@ -433,7 +423,6 @@ add-secondary-email-save-button = Shrani
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Korak 2 od 2
-verify-secondary-email-error = Prišlo je do napake pri pošiljanju potrditvene kode.
 verify-secondary-email-page-title =
     .title = Pomožni e-poštni naslov
 verify-secondary-email-verification-code =
@@ -444,10 +433,6 @@ verify-secondary-email-verify-button = Potrdi
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = V roku 5 minut vnesite potrditveno kodo, ki je bila poslana na <strong>{ $email }</strong>.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } je uspešno dodan.
 
 ##
 
@@ -465,7 +450,6 @@ tfa-button-cancel = Prekliči
 tfa-button-finish = Končaj
 tfa-incorrect-totp = Nepravilna koda za overitev v dveh korakih
 tfa-cannot-retrieve-code = Prišlo je do napake pri pridobivanju vaše kode.
-tfa-cannot-verify-code = Prišlo je do napake pri preverjanju vaše obnovitvene kode.
 tfa-incorrect-recovery-code = Nepravilna koda za obnovitev
 tfa-enabled = Overitev v dveh korakih je omogočena
 tfa-scan-this-code =
@@ -549,37 +533,21 @@ rk-not-set = Ni nastavljen
 rk-action-create = Ustvari
 rk-action-remove = Odstrani
 rk-cannot-refresh = Oprostite, prišlo je do težave pri osveževanju obnovitvenega ključa.
-rk-key-removed = Obnovitveni ključ za račun odstranjen.
 rk-cannot-remove-key = Ključa za obnovitev računa ni bilo mogoče odstraniti.
 rk-refresh-key = Osveži obnovitveni ključ
 rk-content-explain = Obnovite svoje podatke, če pozabite geslo.
 rk-content-reset-data = Zakaj ponastavitev gesla izbriše moje podatke?
-rk-cannot-verify-session-2 = Oprostite, prišlo je do težave pri preverjanju vaše seje.
 rk-remove-modal-heading = Odstrani obnovitveni ključ?
 rk-remove-modal-content =
     V primeru, da ponastavite geslo, obnovitvenega ključa
     ne boste mogli uporabiti za dostop do podatkov. Tega dejanja ne morete razveljaviti.
 rk-refresh-error = Oprostite, prišlo je do težave pri osveževanju obnovitvenega ključa.
-rk-remove-error = Ključa za obnovitev računa ni bilo mogoče odstraniti.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Pomožni e-poštni naslov
     .header = Pomožni e-poštni naslov
 se-cannot-refresh-email = Oprostite, prišlo je do težave pri osveževanju e-poštnega naslova.
-se-cannot-resend-code = Prišlo je do napake pri ponovnem pošiljanju potrditvene kode.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } je zdaj vaš glavni e-poštni naslov.
-se-set-primary-error = Oprostite, pri spreminjanju glavnega e-poštnega naslova je prišlo do težave.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } je uspešno izbrisan.
-se-delete-email-error = Oprostite, pri brisanju tega sporočila je prišlo do težave.
-se-verify-session = Za izvedbo tega dejanja boste morali potrditi svojo trenutno sejo.
-se-verify-session-error = Oprostite, prišlo je do težave pri preverjanju vaše seje.
 # Button to remove the secondary email
 se-remove-email =
     .title = Odstrani e-poštni naslov
@@ -605,7 +573,6 @@ se-secondary-email-none = Brez
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Overitev v dveh korakih
-tfa-row-disabled = Overitev v dveh korakih je onemogočena.
 tfa-row-enabled = Omogočena
 tfa-row-not-set = Ni nastavljena
 tfa-row-action-add = Dodaj
@@ -618,13 +585,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Preprečite, da bi se v vaš račun prijavil kdo drug, z
     zahtevanjem edinstvene kode, do katere imate dostop samo vi.
-tfa-row-cannot-verify-session-2 = Oprostite, prišlo je do težave pri preverjanju vaše seje.
 tfa-row-disable-modal-heading = Ali želite onemogočiti overitev v dveh korakih?
 tfa-row-disable-modal-confirm = Onemogoči
 tfa-row-disable-modal-explain =
     Tega dejanja ne morete razveljaviti. Imate tudi
     možnost <linkExternal>zemanjave kod za obnovitev</linkExternal>.
-tfa-row-cannot-disable = Overitve v dveh korakih ni bilo mogoče izključiti.
 tfa-row-change-modal-heading = Spremeni obnovitvene kode?
 tfa-row-change-modal-confirm = Spremeni
 tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
