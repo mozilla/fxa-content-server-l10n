@@ -100,17 +100,19 @@ cs-cannot-disconnect = 找不到客戶端，無法取消連線
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = 已登出 { $service }。
+cs-logged-out-2 = 已登出 { $service }
 cs-refresh-button =
     .title = 重新整理已連結的服務
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 少了什麼東西，或有重複項目嗎？
 cs-disconnect-sync-heading = 中斷與 Sync 的連結
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 = 您的瀏覽資料將保留在 { $device } 上，但不再與您的帳號同步。
 cs-disconnect-sync-reason-2 = 要取消連結 { $device } 這台裝置的主要原因是什麼？
 
@@ -152,7 +154,6 @@ dc-subheader = 幫助我們改善 { -product-firefox-accounts }
 dc-subheader-content = 允許 { -product-firefox-accounts } 傳送技術與互動資料給 { -brand-mozilla }。
 dc-opt-out-success = 成功退出。{ -product-firefox-accounts } 將不再傳送技術或互動資料給 { -brand-mozilla }。
 dc-opt-in-success = 感謝您！分享此資料可協助我們改進 { -product-firefox-accounts }。
-dc-opt-in-out-error = 很抱歉，更改您的資料收集偏好設定時發生問題。
 dc-learn-more = 了解更多
 
 # DropDownAvatarMenu component
@@ -163,7 +164,6 @@ drop-down-menu-title = { -product-firefox-account } 選單
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>已登入為</signin><user>{ $user }</user>
 drop-down-menu-sign-out = 登出
-drop-down-menu-sign-out-error = 很抱歉，將您登出時發生問題。
 
 ## Flow Container
 
@@ -233,9 +233,7 @@ nav-email-comm = 電子郵件通訊
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = 取代您的救援碼時發生問題。
 tfa-replace-code-success = 已產生新的救援碼，請將這些單次使用代碼保存在安全的地方，當您無法再使用行動裝置時，可以使用救援碼登入帳號。
-tfa-replace-code-success-alert = 已更新帳號救援碼。
 tfa-replace-code-1-2 = 第 1 步，共 2 步
 tfa-replace-code-2-2 = 第 2 步，共 2 步
 
@@ -265,9 +263,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = 無法初始化攝影機
 avatar-page-new-avatar =
     .alt = 新增個人資料照片
-avatar-page-file-upload-error-2 = 更新您的個人資料大頭照時發生問題。
-avatar-page-delete-error-2 = 刪除您的個人資料大頭照時發生問題。
-avatar-page-image-too-large-error = 圖片檔案太大，無法上傳。
 
 ##
 
@@ -291,7 +286,6 @@ pw-change-new-password =
     .label = 輸入新密碼
 pw-change-confirm-password =
     .label = 確認新密碼
-pw-change-success-alert = 密碼已更新。
 
 ##
 
@@ -300,8 +294,6 @@ pw-change-success-alert = 密碼已更新。
 
 pw-create-header =
     .title = 設定密碼
-pw-create-success-alert = 已設定密碼。
-pw-create-error = 很抱歉，設定您的密碼時發生問題。
 
 ##
 
@@ -339,8 +331,6 @@ display-name-input =
     .label = 輸入顯示名稱
 submit-display-name = 儲存
 cancel-display-name = 取消
-display-name-update-error = 更新您的顯示名稱時發生問題。
-display-name-success-alert = 已更新顯示名稱。
 
 ##
 
@@ -357,12 +347,10 @@ recovery-key-page-title =
     .title = 救援金鑰
 recovery-key-step-1 = 第 1 步，共 2 步
 recovery-key-step-2 = 第 2 步，共 2 步
-recovery-key-success-alert = 已建立救援金鑰。
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = 第 1 步，共 2 步
-add-secondary-email-error = 建立此郵件時發生問題。
 add-secondary-email-page-title =
     .title = 次要電子郵件地址
 add-secondary-email-enter-address =
@@ -373,7 +361,6 @@ add-secondary-email-save-button = 儲存
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 第 2 步，共 2 步
-verify-secondary-email-error = 寄出驗證碼時發生問題。
 verify-secondary-email-page-title =
     .title = 次要電子郵件地址
 verify-secondary-email-verification-code =
@@ -384,10 +371,6 @@ verify-secondary-email-verify-button = 驗證
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = 請於 5 分鐘內輸入發送到 <strong>{ $email }</strong> 的驗證碼。
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = 成功加入 { $email }。
 
 ##
 
@@ -405,7 +388,6 @@ tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 兩階段驗證碼不正確
 tfa-cannot-retrieve-code = 取得您的驗證碼時發生問題。
-tfa-cannot-verify-code = 驗證您的救援金鑰時發生問題。
 tfa-incorrect-recovery-code = 救援金鑰不正確
 tfa-enabled = 已開啟兩階段驗證
 tfa-scan-this-code = 請使用下列任一種<linkExternal>驗證程式</linkExternal>來掃描這組 QR Code。
@@ -482,35 +464,19 @@ rk-not-set = 未設定
 rk-action-create = 建立
 rk-action-remove = 移除
 rk-cannot-refresh = 很抱歉，重新整理救援金鑰時發生問題。
-rk-key-removed = 已刪除帳號救援金鑰。
 rk-cannot-remove-key = 無法刪除您的帳號救援金鑰。
 rk-refresh-key = 重新整理救援金鑰
 rk-content-explain = 當您忘記密碼時恢復資訊。
 rk-content-reset-data = 為什麼重設密碼也會重設我的資料？
-rk-cannot-verify-session-2 = 很抱歉，確認您的連線階段時發生問題。
 rk-remove-modal-heading = 要移除救援金鑰嗎？
 rk-remove-modal-content = 若您重設密碼，就無法再使用救援金鑰來存取資料，也無法恢復此動作。
 rk-refresh-error = 很抱歉，重新整理救援金鑰時發生問題。
-rk-remove-error = 無法刪除您的帳號救援金鑰。
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = 次要電子郵件地址
     .header = 次要電子郵件地址
 se-cannot-refresh-email = 很抱歉，重新整理該電子郵件地址時發生問題。
-se-cannot-resend-code = 很抱歉，重新寄出驗證碼時發生問題。
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = 已將您的主要電子郵件地址更改為 { $email }。
-se-set-primary-error = 很抱歉，更改您的主要電子郵件地址時發生問題。
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = 成功刪除 { $email }。
-se-delete-email-error = 很抱歉，刪除此電子郵件地址時發生問題。
-se-verify-session = 必須要驗證您目前的使用階段，才能進行此操作。
-se-verify-session-error = 很抱歉，確認您的連線階段時發生問題。
 # Button to remove the secondary email
 se-remove-email =
     .title = 移除電子郵件地址
@@ -532,7 +498,6 @@ se-secondary-email-none = 無
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 兩階段驗證
-tfa-row-disabled = 已關閉兩階段驗證。
 tfa-row-enabled = 啟用
 tfa-row-not-set = 未設定
 tfa-row-action-add = 新增
@@ -541,11 +506,9 @@ tfa-row-button-refresh =
     .title = 重新整理兩階段驗證狀態
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
 tfa-row-content-explain = 透過在登入時要求提供一組只有您有權限存取的代碼，防止他人登入您的帳號。
-tfa-row-cannot-verify-session-2 = 很抱歉，確認您的連線階段時發生問題。
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
 tfa-row-disable-modal-explain = 將無法還原此動作。您還可以<linkExternal>換新救援碼</linkExternal>。
-tfa-row-cannot-disable = 無法停用兩階段驗證。
 tfa-row-change-modal-heading = 要更改救援碼嗎？
 tfa-row-change-modal-confirm = 變更
 tfa-row-change-modal-explain = 將無法恢復此動作。
