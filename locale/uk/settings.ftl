@@ -158,17 +158,19 @@ cs-cannot-disconnect = Клієнта не знайдено. Неможливо 
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Виконано вихід з { $service }.
+cs-logged-out-2 = Виконано вихід із { $service }
 cs-refresh-button =
     .title = Оновити під'єднані служби
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Втрачені елементи чи дублікати?
 cs-disconnect-sync-heading = Від'єднатись від синхронізації
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Дані перегляду залишаться на { $device }, але більше
     не будуть синхронізуватися з вашим обліковим записом.
@@ -220,7 +222,7 @@ dc-subheader = Допоможіть вдосконалити { -product-firefox-
 dc-subheader-content = Дозволити { -product-firefox-accounts(case: "dat") } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-out-success = Відмова пройшла успішно. { -product-firefox-accounts } не надсилатимуть технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-in-success = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-firefox-accounts }.
-dc-opt-in-out-error = Перепрошуємо, виникла проблема зі зміною налаштувань збору даних.
+dc-opt-in-out-error-2 = Перепрошуємо, виникла проблема зі зміною параметрів збору даних
 dc-learn-more = Докладніше
 
 # DropDownAvatarMenu component
@@ -231,7 +233,7 @@ drop-down-menu-title = Меню { -product-firefox-account(case: "gen") }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Ви увійшли як</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Вийти
-drop-down-menu-sign-out-error = Перепрошуємо, але при виході виникла проблема.
+drop-down-menu-sign-out-error-2 = Перепрошуємо, але під час виходу виникла проблема
 
 ## Flow Container
 
@@ -301,12 +303,12 @@ nav-email-comm = Зв’язок електронною поштою
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Виникла проблема при заміні ваших кодів відновлення.
+tfa-replace-code-error-2 = Виникла проблема з заміною ваших кодів відновлення
 tfa-replace-code-success =
     Створено нові коди. Збережіть ці одноразові коди
     в надійному місці — вам вони знадобляться для доступу до облікового запису
     при відсутності вашого мобільного пристрою.
-tfa-replace-code-success-alert = Коди відновлення облікового запису оновлено.
+tfa-replace-code-success-alert-2 = Коди відновлення облікового запису оновлені
 tfa-replace-code-1-2 = Крок 1 з 2
 tfa-replace-code-2-2 = Крок 2 з 2
 
@@ -336,9 +338,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Не вдалося ініціалізувати камеру
 avatar-page-new-avatar =
     .alt = нове зображення профілю
-avatar-page-file-upload-error-2 = Виникла проблема при вивантаженні зображення профілю.
-avatar-page-delete-error-2 = Виникла проблема при видаленні зображення профілю.
-avatar-page-image-too-large-error = Розмір файлу зображення завеликий для завантаження.
+avatar-page-file-upload-error-3 = Виникла проблема з вивантаженням зображення профілю
+avatar-page-delete-error-3 = Виникла проблема з видаленням зображення профілю
 
 ##
 
@@ -364,7 +365,6 @@ pw-change-new-password =
     .label = Введіть новий пароль
 pw-change-confirm-password =
     .label = Підтвердьте новий пароль
-pw-change-success-alert = Пароль оновлено.
 
 ##
 
@@ -373,8 +373,6 @@ pw-change-success-alert = Пароль оновлено.
 
 pw-create-header =
     .title = Створити пароль
-pw-create-success-alert = Пароль встановлено.
-pw-create-error = Перепрошуємо, але при встановленні пароля виникла проблема.
 
 ##
 
@@ -412,8 +410,6 @@ display-name-input =
     .label = Введіть ім’я для показу
 submit-display-name = Зберегти
 cancel-display-name = Скасувати
-display-name-update-error = Виникла проблема при оновленні вашого імені.
-display-name-success-alert = Ім’я для показу оновлено.
 
 ##
 
@@ -430,12 +426,10 @@ recovery-key-page-title =
     .title = Ключ відновлення
 recovery-key-step-1 = Крок 1 з 2
 recovery-key-step-2 = Крок 2 з 2
-recovery-key-success-alert = Ключ відновлення створено.
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Крок 1 з 2
-add-secondary-email-error = Виникла проблема при додаванні цієї адреси.
 add-secondary-email-page-title =
     .title = Додаткова адреса електронної пошти
 add-secondary-email-enter-address =
@@ -446,7 +440,6 @@ add-secondary-email-save-button = Зберегти
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Крок 2 з 2
-verify-secondary-email-error = Виникла проблема при надсиланні коду підтвердження.
 verify-secondary-email-page-title =
     .title = Додаткова адреса електронної пошти
 verify-secondary-email-verification-code =
@@ -457,10 +450,6 @@ verify-secondary-email-verify-button = Підтвердити
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Введіть код підтвердження, надісланий на <strong>{ $email }</strong> упродовж 5 хвилин.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } успішно додано.
 
 ##
 
@@ -478,7 +467,6 @@ tfa-button-cancel = Скасувати
 tfa-button-finish = Завершити
 tfa-incorrect-totp = Неправильний код двоетапної перевірки
 tfa-cannot-retrieve-code = Виникла проблема при отриманні вашого коду.
-tfa-cannot-verify-code = Виникла проблема при перевірці вашого коду відновлення.
 tfa-incorrect-recovery-code = Неправильний код відновлення
 tfa-enabled = Двоетапну перевірку увімкнено
 tfa-scan-this-code =
@@ -564,37 +552,21 @@ rk-not-set = Не встановлено
 rk-action-create = Створити
 rk-action-remove = Вилучити
 rk-cannot-refresh = Перепрошуємо, але при оновленні коду відновлення виникла проблема.
-rk-key-removed = Ключ відновлення облікового запису вилучено.
 rk-cannot-remove-key = Не вдається видалити ключ відновлення вашого облікового запису.
 rk-refresh-key = Оновити ключ відновлення
 rk-content-explain = Відновіть інформацію, коли забудете пароль.
 rk-content-reset-data = Чому скидання пароля скидає мої дані?
-rk-cannot-verify-session-2 = Перепрошуємо, але при підтвердженні сеансу виникла проблема.
 rk-remove-modal-heading = Вилучити ключ відновлення?
 rk-remove-modal-content =
     У випадку скидання пароля, ви не зможете використати
     свій ключ відновлення для доступу до збережених даних. Цю дію неможливо скасувати.
 rk-refresh-error = Перепрошуємо, але при оновленні коду відновлення виникла проблема.
-rk-remove-error = Не вдається видалити ключ відновлення вашого облікового запису.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Додаткова адреса е-пошти
     .header = Додаткова адреса е-пошти
 se-cannot-refresh-email = Перепрошуємо, але при оновленні цієї адреси виникла проблема.
-se-cannot-resend-code = Перепрошуємо, але при повторному надсиланні коду підтвердження виникла проблема.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } тепер ваша основна електронна адреса.
-se-set-primary-error = Перепрошуємо, але при зміні основної адреси е-пошти виникла проблема.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } успішно видалено.
-se-delete-email-error = Перепрошуємо, але при видаленні цієї адреси виникла проблема.
-se-verify-session = Щоб виконати цю дію, вам необхідно підтвердити поточний сеанс.
-se-verify-session-error = Перепрошуємо, але при підтвердженні сеансу виникла проблема.
 # Button to remove the secondary email
 se-remove-email =
     .title = Вилучити е-пошту
@@ -620,7 +592,6 @@ se-secondary-email-none = Немає
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двоетапна перевірка
-tfa-row-disabled = Двоетапну перевірку вимкнено.
 tfa-row-enabled = Увімкнено
 tfa-row-not-set = Не встановлено
 tfa-row-action-add = Додати
@@ -633,13 +604,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Запобігайте входу когось іншого, вимагаючи
     унікальний код, який є лише у вас.
-tfa-row-cannot-verify-session-2 = Перепрошуємо, але при підтвердженні сеансу виникла проблема.
 tfa-row-disable-modal-heading = Вимкнути двоетапну перевірку?
 tfa-row-disable-modal-confirm = Вимкнути
 tfa-row-disable-modal-explain =
     Ви не зможете скасувати цю дію. Ви також маєте
     можливість <linkExternal>замінити свої коди відновлення</linkExternal>.
-tfa-row-cannot-disable = Неможливо вимкнути двоетапну перевірку.
 tfa-row-change-modal-heading = Змінити коди відновлення?
 tfa-row-change-modal-confirm = Змінити
 tfa-row-change-modal-explain = Ви не зможете скасувати цю дію.
