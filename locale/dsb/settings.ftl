@@ -104,17 +104,19 @@ cs-cannot-disconnect = Klient njejo sr namakał, zwisk njedajo se źěliś
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Wót { $service } wótzjawjony.
+cs-logged-out-2 = Wót { $service } wótzjawjony
 cs-refresh-button =
     .title = Zwězane słužby aktualizěrowaś
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Felujuce abo dwójne elementy?
 cs-disconnect-sync-heading = Ze Sync źěliś
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Waše pśeglědowańske daty na{ $device } wóstanu, 
     ale njebuźo wěcej z wašym kontom synchronizěrowaś.
@@ -166,7 +168,7 @@ dc-subheader = Pomagajśo { -product-firefox-accounts } pólěpšyś
 dc-subheader-content = { -product-firefox-accounts } dowóliś, aby techniske a interakciske daty na { -brand-mozilla } pósłał.
 dc-opt-out-success = Wótzjawjenje wuspěšne. { -product-firefox-accounts } njebuźo techniske abo interakciske daty na { -brand-mozilla } słaś.
 dc-opt-in-success = Wjeliki źěk! Źělenje toś tych datow nam pomaga, { -product-firefox-accounts } pólěpšyś.
-dc-opt-in-out-error = Bóžko jo pśi změnjanju wašogo nastajenja datoweje zběrki problem nastał.
+dc-opt-in-out-error-2 = Bóžko jo pśi změnjanju wašogo nastajenja datoweje zběrki problem nastał
 dc-learn-more = Dalšne informacije
 
 # DropDownAvatarMenu component
@@ -177,7 +179,7 @@ drop-down-menu-title = Meni { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Pśizjawjony ako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Wótzjawiś
-drop-down-menu-sign-out-error = Bóžko jo pśi wótzjawjanju problem nastał.
+drop-down-menu-sign-out-error-2 = Bóžko jo pśi wótzjawjanju problem nastał
 
 ## Flow Container
 
@@ -247,12 +249,12 @@ nav-email-comm = E-mailowa komunikacija
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Pśi wuměnjanju wašych wótnowjeńskich kodow jo problem nastał.
+tfa-replace-code-error-2 = Pśi wuměnjanju wašych wótnowjeńskich kodow jo problem nastał
 tfa-replace-code-success =
     Nowe kody su s napórali. Składujśo je za jadnorazowe wužywanje
     na wěstem městnje – trjebaśo je za pśistup k swójomu kontoju, jolic njamaśo
     swój mobilny rěd.
-tfa-replace-code-success-alert = Kontowe wótnowjeńske kody su se zaktualizěrowali.
+tfa-replace-code-success-alert-2 = Kontowe wótnowjeńske kody su se zaktualizěrowali
 tfa-replace-code-1-2 = Kšac 1 z 2
 tfa-replace-code-2-2 = Kšac 2 z 2
 
@@ -282,9 +284,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Kamera njedajo se inicializěrowaś
 avatar-page-new-avatar =
     .alt = nowy profilowy wobraz
-avatar-page-file-upload-error-2 = Pśi nagrawanju wašogo profilowego wobraza jo problem nastał.
-avatar-page-delete-error-2 = Pśi lašowanju wašogo profilowego wobraza jo problem nastał.
-avatar-page-image-too-large-error = Wobrazowa dataja jo pśewjelika za nagraśe.
+avatar-page-file-upload-error-3 = Pśi nagrawanju wašogo profilowego wobraza jo problem nastał
+avatar-page-delete-error-3 = Pśi lašowanju wašogo profilowego wobraza jo problem nastał
+avatar-page-image-too-large-error-2 = Wobrazowa dataja jo pśewjelika za nagraśe
 
 ##
 
@@ -310,7 +312,7 @@ pw-change-new-password =
     .label = Nowe gronidło zapódaś
 pw-change-confirm-password =
     .label = Nowe gronidło wobkšuśiś
-pw-change-success-alert = Gronidło jo se zaktualizěrowało.
+pw-change-success-alert-2 = Gronidło jo se zaktualizěrowało
 
 ##
 
@@ -319,8 +321,8 @@ pw-change-success-alert = Gronidło jo se zaktualizěrowało.
 
 pw-create-header =
     .title = Gronidło napóraś
-pw-create-success-alert = Gronidło jo se nastajiło.
-pw-create-error = Bóžko jo nastał problem pśi stajanju wašogo gronidła.
+pw-create-success-alert-2 = Gronidło jo se nastajiło
+pw-create-error-2 = Bóžko jo nastał problem pśi stajanju wašogo gronidła
 
 ##
 
@@ -358,8 +360,8 @@ display-name-input =
     .label = Zapódajśo zwobraznjeńske mě
 submit-display-name = Składowaś
 cancel-display-name = Pśetergnuś
-display-name-update-error = Pśi aktualizěrowanju wašogo zwobraznjeńskego mjenja jo problem nastał.
-display-name-success-alert = Zwobraznjeńske mě zaktualizěrowane.
+display-name-update-error-2 = Pśi aktualizěrowanju wašogo zwobraznjeńskego mjenja jo problem nastał
+display-name-success-alert-2 = Zwobraznjeńske mě zaktualizěrowane
 
 ##
 
@@ -376,12 +378,12 @@ recovery-key-page-title =
     .title = Wótnowjeński kluc
 recovery-key-step-1 = Kšac 1 z 2
 recovery-key-step-2 = Kšac 2 z 2
-recovery-key-success-alert = Wótnowjeński kluc jo se napórał.
+recovery-key-success-alert-2 = Wótnowjeński kluc jo se napórał
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Kšac 1 z 2
-add-secondary-email-error = Pś napóranju toś teje e-mailoweje adrese jo problem nastał.
+add-secondary-email-error-2 = Pś napóranju toś teje e-mailoweje adrese jo problem nastał
 add-secondary-email-page-title =
     .title = Druga e-mailowa adresa
 add-secondary-email-enter-address =
@@ -392,7 +394,7 @@ add-secondary-email-save-button = Składowaś
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Kšac 2 z 2
-verify-secondary-email-error = Pśi słanju wobkšuśeńskego koda jo problem nastał.
+verify-secondary-email-error-2 = Pśi słanju wobkšuśeńskego koda jo problem nastał
 verify-secondary-email-page-title =
     .title = Druga e-mailowa adresa
 verify-secondary-email-verification-code =
@@ -406,7 +408,7 @@ verify-secondary-email-please-enter-code = Pšosym zapódajśo wobkšuśeński k
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } jo se wuspěšnje pśidała.
+verify-secondary-email-success-alert-2 = { $email } jo se wuspěšnje pśidała
 
 ##
 
@@ -424,7 +426,7 @@ tfa-button-cancel = Pśetergnuś
 tfa-button-finish = Dokóńcyś
 tfa-incorrect-totp = Wopacny kod za dwójokšacowu awtentifikaciju
 tfa-cannot-retrieve-code = Pśi wótwołowanju wašogo koda jo problem nastał.
-tfa-cannot-verify-code = Pśi wobkšuśenju wašych wótnowjeńskich kodow jo problem nastał.
+tfa-cannot-verify-code-2 = Pśi wobkšuśenju wašych wótnowjeńskich kodow jo problem nastał
 tfa-incorrect-recovery-code = Wopacny wótnowjeński kod
 tfa-enabled = Dwójokšacowa awtentifikacija jo se zmóžniła
 tfa-scan-this-code = Scannujśo toś ten QR-kod z pomocu jadnogo z <linkExternal>toś tych awtentifikaciskich nałoženjow</linkExternal>.
@@ -504,37 +506,34 @@ rk-not-set = Njepóstajony
 rk-action-create = Napóraś
 rk-action-remove = Wótwónoźeś
 rk-cannot-refresh = Bóžko jo pśi aktualizěrowanju wótnowjeńskego kluca problem nastał
-rk-key-removed = Kontowy wótnowjeński kluc jo se wótwónoźeł.
+rk-key-removed-2 = Kontowy wótnowjeński kluc jo se wótwónoźeł
 rk-cannot-remove-key = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś.
 rk-refresh-key = Wótnowjeński kluc aktualizěrowaś
 rk-content-explain = Wótnowśo swóje informacije, gaž sćo zabył swójo gronidło.
 rk-content-reset-data = Cogodla se móje daty slědk stajaju, gaž swójo gronidło slědk stajam?
-rk-cannot-verify-session-2 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał.
+rk-cannot-verify-session-3 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał
 rk-remove-modal-heading = Wótnowjeński kluc wótwónoźeś?
 rk-remove-modal-content =
     Jolic wašo gronidło slědk stajaśo, njamóžośo swój
     wótnowjeński kluc wužywaś, aby pśistup k swójim datam měł. Njamóžośo toś tu akciju anulěrowaś.
 rk-refresh-error = Bóžko jo pśi aktualizěrowanju wótnowjeńskego kluca problem nastał
-rk-remove-error = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś.
+rk-remove-error-2 = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Druga e-mailowa adresa
     .header = Druga e-mailowa adresa
 se-cannot-refresh-email = Bóžko jo pśi aktualizěrowanju teje e-mailoweje adrese problem nastał.
-se-cannot-resend-code = Bóžko jo pśi wóspjetnem słanju wobkšuśeńskego koda problem nastał.
+se-cannot-resend-code-2 = Bóžko jo pśi wóspjetnem słanju wobkšuśeńskego koda problem nastał
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } jo něnto waša primarna e-mailowa adresa.
-se-set-primary-error = Bóžko jo pśi změnjanju wašeje primarneje e-mailoweje adrese problem nastał.
+se-set-primary-successful-2 = { $email } jo něnto waša primarna e-mailowa adresa
+se-set-primary-error-2 = Bóžko jo pśi změnjanju wašeje primarneje e-mailoweje adrese problem nastał
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } jo se wuspěšnje wulašowała.
-se-delete-email-error = Bóžko jo pśi lašowanju toś teje e-mailoweje adrese problem nastał
-se-verify-session = Musyśo swójo aktualne pósejźenje pśeglědowaś, aby toś tu akciju wuwjadł.
-se-verify-session-error = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał.
+se-delete-email-successful-2 = { $email } jo se wuspěšnje wulašowała
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mailowu adresu wótwónoźeś
@@ -560,7 +559,6 @@ se-secondary-email-none = Žedna
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dwójokšacowa awtentifikacija
-tfa-row-disabled = Dwójokšacowa awtentifikacija jo se znjemóžniła.
 tfa-row-enabled = Zmóžnjony
 tfa-row-not-set = Njepóstajony
 tfa-row-action-add = Pśidaś
@@ -573,13 +571,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Pominajśo jadnorazowy kod, ku kótaremuž jano wy maśo pśistup,
     aby zajźował tomu, až se něchten drugi pśizjawja.
-tfa-row-cannot-verify-session-2 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał.
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
 tfa-row-disable-modal-explain =
     Njamóžośo toś tu akciju anulěrowaś. Maśo teke
     móžnosć <linkExternal>swój wótnowjeńske kody wuměniś</linkExternal>.
-tfa-row-cannot-disable = Dwójokšacowa awtentifikacija njedajo se znjemóžniś.
 tfa-row-change-modal-heading = Wótnowjeńske kody změniś?
 tfa-row-change-modal-confirm = Změniś
 tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
