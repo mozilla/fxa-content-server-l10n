@@ -383,6 +383,7 @@ recovery-key-success-alert-2 = Helyreállítási kulcs létrehozva
 ## Add secondary email page
 
 add-secondary-email-step-1 = 1. / 2. lépés
+add-secondary-email-error-2 = Hiba történt az e-mail létrehozásakor
 add-secondary-email-page-title =
     .title = Másodlagos e-mail
 add-secondary-email-enter-address =
@@ -393,6 +394,7 @@ add-secondary-email-save-button = Mentés
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2. / 2. lépés
+verify-secondary-email-error-2 = Hiba történt az ellenőrzőkód elküldésekor
 verify-secondary-email-page-title =
     .title = Másodlagos e-mail
 verify-secondary-email-verification-code =
@@ -403,6 +405,10 @@ verify-secondary-email-verify-button = Ellenőrzés
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Adja meg 5 percen belül a(z) <strong>{ $email }</strong> címre küldött ellenőrzőkódot.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = A(z) { $email } sikeresen hozzáadva
 
 ##
 
@@ -420,6 +426,7 @@ tfa-button-cancel = Mégse
 tfa-button-finish = Befejezés
 tfa-incorrect-totp = Helytelen kétlépcsős hitelesítési kód
 tfa-cannot-retrieve-code = Hiba történt a kód lekérésekor.
+tfa-cannot-verify-code-2 = Hiba történt a helyreállítási kódok ellenőrzésekor
 tfa-incorrect-recovery-code = Helytelen helyreállítási kód
 tfa-enabled = Kétlépcsős hitelesítés engedélyezve
 tfa-scan-this-code =
@@ -503,21 +510,37 @@ rk-not-set = Nincs beállítva
 rk-action-create = Létrehozás
 rk-action-remove = Eltávolítás
 rk-cannot-refresh = Sajnos probléma merült fel a helyreállítási kulcs frissítésekor.
+rk-key-removed-2 = Fiók-helyreállítási kulcs eltávolítva
 rk-cannot-remove-key = A fiók-helyreállítási kulcsot nem sikerült eltávolítani.
 rk-refresh-key = Helyreállítási kulcs frissítése
 rk-content-explain = Állítsa vissza adatait, ha elfelejtette jelszavát.
 rk-content-reset-data = A jelszó visszaállítása miért törli az adatokat?
+rk-cannot-verify-session-3 = Sajnos probléma merült fel a munkamenet ellenőrzésekor
 rk-remove-modal-heading = Eltávolítja a helyreállítási kulcsot?
 rk-remove-modal-content =
     Ha visszaállítja jelszavát, akkor nem fogja tudni használni
     a helyreállítási kulcsot az adatai eléréséhez. Ezt a műveletet nem lehet visszavonni.
 rk-refresh-error = Sajnos probléma merült fel a helyreállítási kulcs frissítésekor.
+rk-remove-error-2 = A fiók-helyreállítási kulcsot nem sikerült eltávolítani
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Másodlagos e-mail
     .header = Másodlagos e-mail
 se-cannot-refresh-email = Sajnos probléma merült fel az e-mail frissítésekor.
+se-cannot-resend-code-2 = Sajnos probléma merült fel az ellenőrzőkód újraküldésekor
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = A(z) { $email } az elsődleges e-mail-címe
+se-set-primary-error-2 = Sajnos probléma merült fel az elsődleges e-mail-cím megváltoztatásakor
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = A(z) { $email } sikeresen törölve
+se-delete-email-error-2 = Sajnos probléma merült fel az e-mail-cím törlésekor
+se-verify-session-2 = A művelet végrehajtásához ellenőriznie kell a jelenlegi munkamenetet
+se-verify-session-error-2 = Sajnos probléma merült fel a munkamenet ellenőrzésekor
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mail-cím eltávolítása
@@ -543,6 +566,7 @@ se-secondary-email-none = Nincs
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kétlépcsős hitelesítés
+tfa-row-disabled-2 = Kétlépcsős hitelesítés letiltva
 tfa-row-enabled = Engedélyezve
 tfa-row-not-set = Nincs beállítva
 tfa-row-action-add = Hozzáadás
@@ -555,11 +579,13 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Akadályozza meg, hogy valaki más lépjen be, követeljen meg
     egy egyedi kódot, amelyhez csak Ön fér hozzá.
+tfa-row-cannot-verify-session-3 = Sajnos probléma merült fel a munkamenet ellenőrzésekor
 tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
 tfa-row-disable-modal-confirm = Letiltás
 tfa-row-disable-modal-explain =
     Ezt a műveletet nem fogja tudni visszavonni. Arra is van
     lehetősége, hogy <linkExternal>lecserélje a helyreállítási kódjait</linkExternal>.
+tfa-row-cannot-disable-2 = A kétlépcsős hitelesítést nem lehetett letiltani
 tfa-row-change-modal-heading = Megváltoztatja a helyreállítási kódokat?
 tfa-row-change-modal-confirm = Módosítás
 tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
