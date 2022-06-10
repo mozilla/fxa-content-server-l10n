@@ -104,17 +104,19 @@ cs-cannot-disconnect = Klienti ei leitud, polnud võimalik ühendust katkestada
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Välja logitud teenusest { $service }.
+cs-logged-out-2 = Välja logitud teenusest { $service }
 cs-refresh-button =
     .title = Uuenda ühendatud seadmete nimekirja
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Puuduvad või topeltkirjed?
 cs-disconnect-sync-heading = Ühenda Syncist lahti
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Sinu brauseri andmed jäävad seadmesse { $device },
     aga neid ei sünkroniseerita enam sinu kontoga.
@@ -166,7 +168,7 @@ dc-subheader = Aita teenust { -product-firefox-accounts } paremaks teha
 dc-subheader-content = Teenusel { -product-firefox-accounts } lubatakse saata tehnilisi ja interaktsiooniandmeid { -brand-mozilla }le.
 dc-opt-out-success = Loobumine õnnestus. Teenus { -product-firefox-accounts } ei saada enam tehnilisi ja interaktsiooniandmeid { -brand-mozilla }le.
 dc-opt-in-success = Täname! Nende andmete jagamine aitab meil teenust { -product-firefox-accounts } paremaks teha.
-dc-opt-in-out-error = Vabandust, kahjuks esines andmete kogumise eelistuste muutmisel probleem.
+dc-opt-in-out-error-2 = Vabandust, kahjuks esines andmete kogumise eelistuste muutmisel probleem
 dc-learn-more = Rohkem teavet
 
 # DropDownAvatarMenu component
@@ -177,7 +179,7 @@ drop-down-menu-title = Teenuse { -product-firefox-account } menüü
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Sisse logitud kasutajana</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Logi välja
-drop-down-menu-sign-out-error = Vabandust, väljalogimisel esines probleem.
+drop-down-menu-sign-out-error-2 = Vabandust, väljalogimisel esines probleem
 
 ## Flow Container
 
@@ -247,12 +249,12 @@ nav-email-comm = E-kirjavahetus
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Taastekoodide asendamisel esines probleem.
+tfa-replace-code-error-2 = Taastekoodide asendamisel esines probleem
 tfa-replace-code-success =
     Uued koodid on loodud. Salvesta need ühekordseks kasutamiseks mõeldud koodid
     turvalisse kohta — vajad neid oma kontole ligipääsemiseks, kui mobiilne seade
     pole sinuga.
-tfa-replace-code-success-alert = Konto taastekoodid uuendati.
+tfa-replace-code-success-alert-2 = Konto taastekoodid uuendati
 tfa-replace-code-1-2 = Samm 1 2st
 tfa-replace-code-2-2 = Samm 2 2st
 
@@ -282,9 +284,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Kaamera kasutamine polnud võimalik
 avatar-page-new-avatar =
     .alt = uus profiilipilt
-avatar-page-file-upload-error-2 = Profiilipildi üleslaadimisel esines probleem.
-avatar-page-delete-error-2 = Profiilipildi kustutamisel esines probleem.
-avatar-page-image-too-large-error = Pildifaili suurus on üleslaadimiseks liiga suur.
+avatar-page-file-upload-error-3 = Profiilipildi üleslaadimisel esines probleem
+avatar-page-delete-error-3 = Profiilipildi kustutamisel esines probleem
+avatar-page-image-too-large-error-2 = Pildifaili suurus on üleslaadimiseks liiga suur
 
 ##
 
@@ -308,7 +310,7 @@ pw-change-new-password =
     .label = Sisesta uus parool
 pw-change-confirm-password =
     .label = Kinnita parool
-pw-change-success-alert = Parool uuendatud.
+pw-change-success-alert-2 = Parool uuendatud
 
 ##
 
@@ -317,8 +319,8 @@ pw-change-success-alert = Parool uuendatud.
 
 pw-create-header =
     .title = Parooli määramine
-pw-create-success-alert = Parool määratud.
-pw-create-error = Vabandust, parooli määramisel esines probleem.
+pw-create-success-alert-2 = Parool on muudetud
+pw-create-error-2 = Vabandust, parooli määramisel esines probleem
 
 ##
 
@@ -356,8 +358,8 @@ display-name-input =
     .label = Sisesta kuvatav nimi
 submit-display-name = Salvesta
 cancel-display-name = Loobu
-display-name-update-error = Kuvatava nime uuendamisel esines probleem.
-display-name-success-alert = Kuvatav nimi on uuendatud.
+display-name-update-error-2 = Kuvatava nime uuendamisel esines probleem
+display-name-success-alert-2 = Kuvatav nimi on uuendatud
 
 ##
 
@@ -374,12 +376,12 @@ recovery-key-page-title =
     .title = Taastevõti
 recovery-key-step-1 = Samm 1 2st
 recovery-key-step-2 = Samm 2 2st
-recovery-key-success-alert = Taastevõti loodud.
+recovery-key-success-alert-2 = Taastevõti loodud
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Samm 1 2st
-add-secondary-email-error = Selle e-posti aadressi loomisel esines probleem.
+add-secondary-email-error-2 = Selle e-posti aadressi loomisel esines probleem
 add-secondary-email-page-title =
     .title = Teine e-posti aadress
 add-secondary-email-enter-address =
@@ -390,7 +392,7 @@ add-secondary-email-save-button = Salvesta
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Samm 2 2st
-verify-secondary-email-error = Kinnituskoodi saatmisel esines probleem.
+verify-secondary-email-error-2 = Kinnituskoodi saatmisel esines probleem
 verify-secondary-email-page-title =
     .title = Teine e-posti aadress
 verify-secondary-email-verification-code =
@@ -404,7 +406,7 @@ verify-secondary-email-please-enter-code = Palun sisesta kinnituskood, mis saade
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } edukalt lisatud.
+verify-secondary-email-success-alert-2 = { $email } edukalt lisatud
 
 ##
 
@@ -422,7 +424,7 @@ tfa-button-cancel = Loobu
 tfa-button-finish = Lõpeta
 tfa-incorrect-totp = Vale kaheastmelise autentimise kood
 tfa-cannot-retrieve-code = Sinu koodi hankimisel esines probleem.
-tfa-cannot-verify-code = Taastekoodi kontrollimisel esines probleem.
+tfa-cannot-verify-code-2 = Taastekoodi kontrollimisel esines probleem
 tfa-incorrect-recovery-code = Vale taastekood
 tfa-enabled = Kaheastmeline autentimine lubati
 tfa-scan-this-code = Skanni see QR-kood, kasutades <linkExternal>üht neist autentimisäppidest</linkExternal>.
@@ -504,37 +506,37 @@ rk-not-set = Pole määratud
 rk-action-create = Loo
 rk-action-remove = Eemalda
 rk-cannot-refresh = Vabandust, taastevõtme uuendamisel esines probleem.
-rk-key-removed = Konto taastevõti eemaldati
+rk-key-removed-2 = Konto taastamisvõti eemaldati
 rk-cannot-remove-key = Konto taastevõtit polnud võimalik eemaldada.
 rk-refresh-key = Uuenda taastevõtit
 rk-content-explain = Taasta oma andmed, kui oled oma parooli unustanud.
 rk-content-reset-data = Miks parooli lähtestamine andmed kustutab?
-rk-cannot-verify-session-2 = Vabandust, seansi kinnitamisel esines probleem.
+rk-cannot-verify-session-3 = Vabandust, seansi kinnitamisel esines probleem
 rk-remove-modal-heading = Kas eemaldada taastevõti?
 rk-remove-modal-content =
     Juhul, kui lähtestad oma parooli, siis pole sul võimalik oma
     taastevõtmega oma andmetele ligi pääseda. Seda tegevust ei saa tagasi võtta.
 rk-refresh-error = Vabandust, taastevõtme uuendamisel esines probleem.
-rk-remove-error = Konto taastevõtit polnud võimalik eemaldada.
+rk-remove-error-2 = Konto taastevõtit polnud võimalik eemaldada
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Teine e-posti aadress
     .header = Teine e-posti aadress
 se-cannot-refresh-email = Vabandust, selle e-posti aadressi uuendamisel esines probleem.
-se-cannot-resend-code = Vabandust, kinnituskoodi uuesti saatmisel esines probleem.
+se-cannot-resend-code-2 = Vabandust, kinnituskoodi uuesti saatmisel esines probleem
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } on nüüd sinu peamine e-posti aadress.
-se-set-primary-error = Vabandust, peamise e-posti aadressi uuendamisel esines probleem.
+se-set-primary-successful-2 = { $email } on nüüd sinu peamine e-posti aadress
+se-set-primary-error-2 = Vabandust, peamise e-posti aadressi uuendamisel esines probleem
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } on edukalt kustutatud.
-se-delete-email-error = Vabandust, selle e-posti aadressi kustutamisel esines probleem.
-se-verify-session = Sa pead selle tegevuse tegemiseks oma praeguse seansi kinnitama.
-se-verify-session-error = Vabandust, seansi kinnitamisel esines probleem.
+se-delete-email-successful-2 = { $email } on edukalt kustutatud
+se-delete-email-error-2 = Vabandust, selle e-posti aadressi kustutamisel esines probleem
+se-verify-session-2 = Sa pead selle tegevuse tegemiseks oma praeguse seansi kinnitama
+se-verify-session-error-2 = Vabandust, seansi kinnitamisel esines probleem
 # Button to remove the secondary email
 se-remove-email =
     .title = Eemalda e-posti aadress
@@ -560,7 +562,6 @@ se-secondary-email-none = Puudub
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kaheastmeline autentimine
-tfa-row-disabled = Kaheastmeline autentimine on keelatud.
 tfa-row-enabled = Lubatud
 tfa-row-not-set = Pole määratud
 tfa-row-action-add = Lisa
@@ -573,13 +574,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Takista teiste sisselogimine, nõudes unikaalset koodi, millele
     ainult sinul on ligipääs.
-tfa-row-cannot-verify-session-2 = Vabandust, seansi kinnitamisel esines probleem.
 tfa-row-disable-modal-heading = Kas keelata kaheastmeline autentimine?
 tfa-row-disable-modal-confirm = Keela
 tfa-row-disable-modal-explain =
     Seda tegevust ei saa tagasi võtta. Sul on olemas võimalus ka
     <linkExternal>asendada oma taastekoodid</linkExternal>.
-tfa-row-cannot-disable = Kaheastmelist autentimist polnud võimalik keelata.
 tfa-row-change-modal-heading = Kas muuta taastekoodid?
 tfa-row-change-modal-confirm = Muuda
 tfa-row-change-modal-explain = Seda tegevust ei saa tagasi võtta.
