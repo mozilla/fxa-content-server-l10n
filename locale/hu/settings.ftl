@@ -104,17 +104,19 @@ cs-cannot-disconnect = A kliens nem található, a leválasztás sikertelen
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Kijelentkezett innen: { $service }.
+cs-logged-out-2 = Kijelentkezett innen: { $service }
 cs-refresh-button =
     .title = Kapcsolódó szolgáltatások frissítése
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Hiányzó vagy ismétlődő elemek?
 cs-disconnect-sync-heading = Leválás a Syncről
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Böngészési adatai megmaradnak a(z) { $device } eszközön,
     de nem szinkronizálódnak a fiókjával.
@@ -166,7 +168,7 @@ dc-subheader = Segítsen a { -product-firefox-accounts } fejlesztésében
 dc-subheader-content = Engedélyezés, hogy a { -product-firefox-accounts } műszaki és interakciós adatokat küldjön a { -brand-mozilla(ending: "accented") }nak.
 dc-opt-out-success = Sikeres leiratkozás. A { -product-firefox-accounts } nem fog műszaki vagy interakciós adatokat küldeni a { -brand-mozilla(ending: "accented") }nak.
 dc-opt-in-success = Köszönjük! Ezen adatok megosztása segít nekünk a { -product-firefox-accounts } fejlesztésében.
-dc-opt-in-out-error = Sajnos probléma merült fel az adatgyűjtési beállítás megváltoztatásakor.
+dc-opt-in-out-error-2 = Sajnos probléma merült fel az adatgyűjtési beállítás megváltoztatásakor
 dc-learn-more = További tudnivalók
 
 # DropDownAvatarMenu component
@@ -177,7 +179,7 @@ drop-down-menu-title = { -product-firefox-account } menü
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Bejelentkezve mint</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Kijelentkezés
-drop-down-menu-sign-out-error = Sajnos probléma merült fel a kijelentkezésekor.
+drop-down-menu-sign-out-error-2 = Sajnos probléma merült fel a kijelentkezésekor
 
 ## Flow Container
 
@@ -247,12 +249,12 @@ nav-email-comm = E-mail kommunikáció
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Hiba történt a helyreállítási kódok cseréjekor.
+tfa-replace-code-error-2 = Hiba történt a helyreállítási kódok cseréjekor
 tfa-replace-code-success =
     Új kódot lettek létrehozva. Mentse ezeket az egyszer használatos
     kódokat egy biztonságos helyre – szüksége lesz rájuk, ha a mobileszköze
     nélkül kell hozzáférnie a fiókjához.
-tfa-replace-code-success-alert = Fiók-helyreállítási kódok frissítve.
+tfa-replace-code-success-alert-2 = Fiók-helyreállítási kódok frissítve
 tfa-replace-code-1-2 = 1. / 2. lépés
 tfa-replace-code-2-2 = 2. / 2. lépés
 
@@ -282,9 +284,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = A kamera nem készíthető elő
 avatar-page-new-avatar =
     .alt = új profilkép
-avatar-page-file-upload-error-2 = Hiba történt a profilkép feltöltésekor.
-avatar-page-delete-error-2 = Hiba történt a profilkép törlésekor.
-avatar-page-image-too-large-error = A képfájl mérete túl nagy a feltöltéshez.
+avatar-page-file-upload-error-3 = Hiba történt a profilkép feltöltésekor
+avatar-page-delete-error-3 = Hiba történt a profilkép törlésekor
+avatar-page-image-too-large-error-2 = A képfájl mérete túl nagy a feltöltéshez
 
 ##
 
@@ -310,7 +312,7 @@ pw-change-new-password =
     .label = Írja be az új jelszót
 pw-change-confirm-password =
     .label = Erősítse meg az új jelszót
-pw-change-success-alert = A jelszó frissítve.
+pw-change-success-alert-2 = Jelszó frissítve
 
 ##
 
@@ -319,8 +321,8 @@ pw-change-success-alert = A jelszó frissítve.
 
 pw-create-header =
     .title = Jelszó létrehozása
-pw-create-success-alert = Jelszó megadva.
-pw-create-error = Sajnos probléma merült fel a jelszó megadásakor.
+pw-create-success-alert-2 = Jelszó megadva
+pw-create-error-2 = Sajnos probléma merült fel a jelszó megadásakor
 
 ##
 
@@ -358,8 +360,8 @@ display-name-input =
     .label = Írja be a megjelenő nevet
 submit-display-name = Mentés
 cancel-display-name = Mégse
-display-name-update-error = Hiba történt a megjelenő név frissítésekor.
-display-name-success-alert = Megjelenő név frissítve.
+display-name-update-error-2 = Hiba történt a megjelenő név frissítésekor
+display-name-success-alert-2 = A megjelenő név frissítve
 
 ##
 
@@ -376,12 +378,11 @@ recovery-key-page-title =
     .title = Helyreállítási kulcs
 recovery-key-step-1 = 1. / 2. lépés
 recovery-key-step-2 = 2. / 2. lépés
-recovery-key-success-alert = Helyreállítási kulcs létrehozva.
+recovery-key-success-alert-2 = Helyreállítási kulcs létrehozva
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = 1. / 2. lépés
-add-secondary-email-error = Hiba történt az e-mail létrehozásakor.
 add-secondary-email-page-title =
     .title = Másodlagos e-mail
 add-secondary-email-enter-address =
@@ -392,7 +393,6 @@ add-secondary-email-save-button = Mentés
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2. / 2. lépés
-verify-secondary-email-error = Hiba történt az ellenőrzőkód elküldésekor.
 verify-secondary-email-page-title =
     .title = Másodlagos e-mail
 verify-secondary-email-verification-code =
@@ -403,10 +403,6 @@ verify-secondary-email-verify-button = Ellenőrzés
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Adja meg 5 percen belül a(z) <strong>{ $email }</strong> címre küldött ellenőrzőkódot.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = A(z) { $email } sikeresen hozzáadva.
 
 ##
 
@@ -424,7 +420,6 @@ tfa-button-cancel = Mégse
 tfa-button-finish = Befejezés
 tfa-incorrect-totp = Helytelen kétlépcsős hitelesítési kód
 tfa-cannot-retrieve-code = Hiba történt a kód lekérésekor.
-tfa-cannot-verify-code = Hiba történt a helyreállítási kódok ellenőrzésekor.
 tfa-incorrect-recovery-code = Helytelen helyreállítási kód
 tfa-enabled = Kétlépcsős hitelesítés engedélyezve
 tfa-scan-this-code =
@@ -508,37 +503,21 @@ rk-not-set = Nincs beállítva
 rk-action-create = Létrehozás
 rk-action-remove = Eltávolítás
 rk-cannot-refresh = Sajnos probléma merült fel a helyreállítási kulcs frissítésekor.
-rk-key-removed = Fiók-helyreállítási kulcs eltávolítva.
 rk-cannot-remove-key = A fiók-helyreállítási kulcsot nem sikerült eltávolítani.
 rk-refresh-key = Helyreállítási kulcs frissítése
 rk-content-explain = Állítsa vissza adatait, ha elfelejtette jelszavát.
 rk-content-reset-data = A jelszó visszaállítása miért törli az adatokat?
-rk-cannot-verify-session-2 = Sajnos probléma merült fel a munkamenet ellenőrzésekor.
 rk-remove-modal-heading = Eltávolítja a helyreállítási kulcsot?
 rk-remove-modal-content =
     Ha visszaállítja jelszavát, akkor nem fogja tudni használni
     a helyreállítási kulcsot az adatai eléréséhez. Ezt a műveletet nem lehet visszavonni.
 rk-refresh-error = Sajnos probléma merült fel a helyreállítási kulcs frissítésekor.
-rk-remove-error = A fiók-helyreállítási kulcsot nem sikerült eltávolítani.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Másodlagos e-mail
     .header = Másodlagos e-mail
 se-cannot-refresh-email = Sajnos probléma merült fel az e-mail frissítésekor.
-se-cannot-resend-code = Sajnos probléma merült fel az ellenőrzőkód újraküldésékor.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = A(z) { $email } az elsődleges e-mail-címe.
-se-set-primary-error = Sajnos probléma merült fel az elsődleges e-mail-cím megváltoztatásakor.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = A(z) { $email } sikeresen törölve.
-se-delete-email-error = Sajnos probléma merült fel az e-mail-cím törlésekor.
-se-verify-session = A művelet végrehajtásához ellenőriznie kell a jelenlegi munkamenetet.
-se-verify-session-error = Sajnos probléma merült fel a munkamenet ellenőrzésekor.
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mail-cím eltávolítása
@@ -564,7 +543,6 @@ se-secondary-email-none = Nincs
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kétlépcsős hitelesítés
-tfa-row-disabled = Kétlépcsős hitelesítés letiltva.
 tfa-row-enabled = Engedélyezve
 tfa-row-not-set = Nincs beállítva
 tfa-row-action-add = Hozzáadás
@@ -577,13 +555,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Akadályozza meg, hogy valaki más lépjen be, követeljen meg
     egy egyedi kódot, amelyhez csak Ön fér hozzá.
-tfa-row-cannot-verify-session-2 = Sajnos probléma merült fel a munkamenet ellenőrzésekor.
 tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
 tfa-row-disable-modal-confirm = Letiltás
 tfa-row-disable-modal-explain =
     Ezt a műveletet nem fogja tudni visszavonni. Arra is van
     lehetősége, hogy <linkExternal>lecserélje a helyreállítási kódjait</linkExternal>.
-tfa-row-cannot-disable = A kétlépcsős hitelesítést nem lehetett letiltani.
 tfa-row-change-modal-heading = Megváltoztatja a helyreállítási kódokat?
 tfa-row-change-modal-confirm = Módosítás
 tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
