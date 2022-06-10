@@ -104,17 +104,19 @@ cs-cannot-disconnect = Client niet gevonden, verbinding kan niet worden verbroke
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Afgemeld bij { $service }.
+cs-logged-out-2 = Afgemeld bij { $service }
 cs-refresh-button =
     .title = Verbonden services vernieuwen
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Ontbrekende of dubbele items?
 cs-disconnect-sync-heading = Verbinding met Sync verbreken
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Uw navigatiegegevens blijven op { $device } bestaan,
     maar er wordt niet meer met uw account gesynchroniseerd.
@@ -166,7 +168,7 @@ dc-subheader = Help { -product-firefox-accounts } te verbeteren
 dc-subheader-content = { -product-firefox-accounts } toestaan om technische en interactiegegevens naar { -brand-mozilla } te verzenden.
 dc-opt-out-success = Afmelden succesvol. { -product-firefox-accounts } stuurt geen technische of interactiegegevens naar { -brand-mozilla }.
 dc-opt-in-success = Bedankt! Door deze gegevens te delen helpt u ons { -product-firefox-accounts } te verbeteren.
-dc-opt-in-out-error = Sorry, er is een probleem opgetreden bij het wijzigen van uw voorkeur voor gegevensverzameling.
+dc-opt-in-out-error-2 = Sorry, er is een probleem opgetreden bij het wijzigen van uw voorkeur voor gegevensverzameling
 dc-learn-more = Meer info
 
 # DropDownAvatarMenu component
@@ -177,7 +179,7 @@ drop-down-menu-title = { -product-firefox-account }menu
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Aangemeld als </signin><user>{ $user }</user>
 drop-down-menu-sign-out = Afmelden
-drop-down-menu-sign-out-error = Sorry, er is een probleem opgetreden bij het afmelden.
+drop-down-menu-sign-out-error-2 = Sorry, er is een probleem opgetreden bij het afmelden
 
 ## Flow Container
 
@@ -247,12 +249,12 @@ nav-email-comm = E-mailcommunicatie
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Er is een probleem opgetreden bij het vervangen van uw herstelcodes.
+tfa-replace-code-error-2 = Er is een probleem opgetreden bij het vervangen van uw herstelcodes
 tfa-replace-code-success =
     Er zijn nieuwe codes aangemaakt. Bewaar deze codes voor eenmalig gebruik
     op een veilige plek – u hebt ze nodig om toegang te krijgen tot uw account als u uw
     mobiele apparaat niet hebt.
-tfa-replace-code-success-alert = Accountherstelcodes bijgewerkt.
+tfa-replace-code-success-alert-2 = Accountherstelcodes bijgewerkt
 tfa-replace-code-1-2 = Stap 1 van 2
 tfa-replace-code-2-2 = Stap 2 van 2
 
@@ -282,9 +284,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Kon camera niet initialiseren
 avatar-page-new-avatar =
     .alt = nieuwe profielafbeelding
-avatar-page-file-upload-error-2 = Er is een probleem opgetreden bij het uploaden van uw profielafbeelding.
-avatar-page-delete-error-2 = Er is een probleem opgetreden bij het verwijderen van uw profielafbeelding.
-avatar-page-image-too-large-error = De afbeeldingsbestandsgrootte is te groot om te uploaden.
+avatar-page-file-upload-error-3 = Er is een probleem opgetreden bij het uploaden van uw profielafbeelding
+avatar-page-delete-error-3 = Er is een probleem opgetreden bij het verwijderen van uw profielafbeelding
+avatar-page-image-too-large-error-2 = De afbeeldingsbestandsgrootte is te groot om te uploaden
 
 ##
 
@@ -310,7 +312,7 @@ pw-change-new-password =
     .label = Voer nieuw wachtwoord in
 pw-change-confirm-password =
     .label = Bevestig nieuw wachtwoord
-pw-change-success-alert = Wachtwoord bijgewerkt.
+pw-change-success-alert-2 = Wachtwoord bijgewerkt
 
 ##
 
@@ -319,8 +321,8 @@ pw-change-success-alert = Wachtwoord bijgewerkt.
 
 pw-create-header =
     .title = Wachtwoord aanmaken
-pw-create-success-alert = Wachtwoord ingesteld.
-pw-create-error = Sorry, er is een probleem opgetreden bij het instellen van uw wachtwoord.
+pw-create-success-alert-2 = Wachtwoord ingesteld
+pw-create-error-2 = Sorry, er is een probleem opgetreden bij het instellen van uw wachtwoord
 
 ##
 
@@ -358,8 +360,8 @@ display-name-input =
     .label = Voer schermnaam in
 submit-display-name = Opslaan
 cancel-display-name = Annuleren
-display-name-update-error = Er is een probleem opgetreden bij het bijwerken van uw schermnaam.
-display-name-success-alert = Weergavenaam bijgewerkt.
+display-name-update-error-2 = Er is een probleem opgetreden bij het bijwerken van uw schermnaam
+display-name-success-alert-2 = Schermnaam bijgewerkt
 
 ##
 
@@ -376,12 +378,12 @@ recovery-key-page-title =
     .title = Herstelsleutel
 recovery-key-step-1 = Stap 1 van 2
 recovery-key-step-2 = Stap 2 van 2
-recovery-key-success-alert = Herstelsleutel aangemaakt.
+recovery-key-success-alert-2 = Herstelsleutel aangemaakt
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Stap 1 van 2
-add-secondary-email-error = Er is een probleem opgetreden bij het aanmaken van dit e-mailadres.
+add-secondary-email-error-2 = Er is een probleem opgetreden bij het aanmaken van dit e-mailadres
 add-secondary-email-page-title =
     .title = Secundair e-mailadres
 add-secondary-email-enter-address =
@@ -392,7 +394,7 @@ add-secondary-email-save-button = Opslaan
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Stap 2 van 2
-verify-secondary-email-error = Er is een probleem opgetreden bij het verzenden van de verificatiecode.
+verify-secondary-email-error-2 = Er is een probleem opgetreden bij het verzenden van de verificatiecode
 verify-secondary-email-page-title =
     .title = Secundair e-mailadres
 verify-secondary-email-verification-code =
@@ -406,7 +408,7 @@ verify-secondary-email-please-enter-code = Voer binnen 5 minuten de verificatiec
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } met succes toegevoegd.
+verify-secondary-email-success-alert-2 = { $email } met succes toegevoegd
 
 ##
 
@@ -424,7 +426,7 @@ tfa-button-cancel = Annuleren
 tfa-button-finish = Voltooien
 tfa-incorrect-totp = Onjuiste code voor authenticatie in twee stappen
 tfa-cannot-retrieve-code = Er is een probleem opgetreden bij het ophalen van uw code.
-tfa-cannot-verify-code = Er is een probleem opgetreden bij het verifiëren van uw herstelcode.
+tfa-cannot-verify-code-2 = Er is een probleem opgetreden bij het verifiëren van uw herstelcode
 tfa-incorrect-recovery-code = Onjuiste herstelcode
 tfa-enabled = Authenticatie in twee stappen ingeschakeld
 tfa-scan-this-code =
@@ -510,37 +512,37 @@ rk-not-set = Niet ingesteld
 rk-action-create = Aanmaken
 rk-action-remove = Verwijderen
 rk-cannot-refresh = Sorry, er is een probleem opgetreden bij het vernieuwen van de herstelsleutel.
-rk-key-removed = Sleutel voor accountherstel verwijderd.
+rk-key-removed-2 = Sleutel voor accountherstel verwijderd
 rk-cannot-remove-key = Uw sleutel voor accountherstel kon niet worden verwijderd.
 rk-refresh-key = Herstelsleutel vernieuwen
 rk-content-explain = Uw gegevens herstellen wanneer u uw wachtwoord vergeet.
 rk-content-reset-data = Waarom worden mijn gegevens opnieuw ingesteld als ik mijn wachtwoord herinitialiseer?
-rk-cannot-verify-session-2 = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie.
+rk-cannot-verify-session-3 = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie
 rk-remove-modal-heading = Herstelsleutel verwijderen?
 rk-remove-modal-content =
     Als u uw wachtwoord herinitialiseert, kunt u uw
     herstelsleutel niet gebruiken om toegang te krijgen tot uw gegevens. U kunt deze actie niet ongedaan maken.
 rk-refresh-error = Sorry, er is een probleem opgetreden bij het vernieuwen van de herstelsleutel.
-rk-remove-error = Uw sleutel voor accountherstel kon niet worden verwijderd.
+rk-remove-error-2 = Uw sleutel voor accountherstel kon niet worden verwijderd
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Secundair e-mailadres
     .header = Secundair e-mailadres
 se-cannot-refresh-email = Sorry, er is een probleem opgetreden bij het vernieuwen van dat e-mailadres.
-se-cannot-resend-code = Sorry, er is een probleem opgetreden bij het opnieuw verzenden van de verificatiecode.
+se-cannot-resend-code-2 = Sorry, er is een probleem opgetreden bij het opnieuw verzenden van de verificatiecode
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } is nu uw primaire e-mailadres.
-se-set-primary-error = Sorry, er is een probleem opgetreden bij het wijzigen van uw primaire e-mailadres.
+se-set-primary-successful-2 = { $email } is nu uw primaire e-mailadres
+se-set-primary-error-2 = Sorry, er is een probleem opgetreden bij het wijzigen van uw primaire e-mailadres
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } met succes verwijderd.
-se-delete-email-error = Sorry, er is een probleem opgetreden bij het verwijderen van dit e-mailadres.
-se-verify-session = U moet uw huidige sessie verifiëren om deze actie uit te voeren.
-se-verify-session-error = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie.
+se-delete-email-successful-2 = { $email } met succes verwijderd
+se-delete-email-error-2 = Sorry, er is een probleem opgetreden bij het verwijderen van dit e-mailadres
+se-verify-session-2 = U moet uw huidige sessie verifiëren om deze actie uit te voeren
+se-verify-session-error-2 = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mailadres verwijderen
@@ -566,7 +568,7 @@ se-secondary-email-none = Geen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Authenticatie in twee stappen
-tfa-row-disabled = Authenticatie in twee stappen uitgeschakeld.
+tfa-row-disabled-2 = Authenticatie in twee stappen uitgeschakeld
 tfa-row-enabled = Ingeschakeld
 tfa-row-not-set = Niet ingesteld
 tfa-row-action-add = Toevoegen
@@ -579,13 +581,13 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Voorkom dat iemand anders aanmeldt door een
     unieke code waar alleen u toegang toe hebt te vereisen.
-tfa-row-cannot-verify-session-2 = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie.
+tfa-row-cannot-verify-session-3 = Sorry, er is een probleem opgetreden bij het verifiëren van uw sessie
 tfa-row-disable-modal-heading = Authenticatie in twee stappen uitschakelen?
 tfa-row-disable-modal-confirm = Uitschakelen
 tfa-row-disable-modal-explain =
     U kunt deze actie niet ongedaan maken. U hebt ook
     de optie om <linkExternal>uw herstelcodes te vervangen</linkExternal>.
-tfa-row-cannot-disable = Authenticatie in twee stappen kon niet worden uitgeschakeld.
+tfa-row-cannot-disable-2 = Authenticatie in twee stappen kon niet worden uitgeschakeld
 tfa-row-change-modal-heading = Herstelcodes wijzigen?
 tfa-row-change-modal-confirm = Wijzigen
 tfa-row-change-modal-explain = U kunt deze actie niet ongedaan maken.
