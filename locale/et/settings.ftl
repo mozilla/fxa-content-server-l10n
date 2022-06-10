@@ -562,6 +562,7 @@ se-secondary-email-none = Puudub
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kaheastmeline autentimine
+tfa-row-disabled-2 = Kaheastmeline autentimine keelati
 tfa-row-enabled = Lubatud
 tfa-row-not-set = Pole määratud
 tfa-row-action-add = Lisa
@@ -574,11 +575,13 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Takista teiste sisselogimine, nõudes unikaalset koodi, millele
     ainult sinul on ligipääs.
+tfa-row-cannot-verify-session-3 = Vabandust, seansi kinnitamisel esines probleem
 tfa-row-disable-modal-heading = Kas keelata kaheastmeline autentimine?
 tfa-row-disable-modal-confirm = Keela
 tfa-row-disable-modal-explain =
     Seda tegevust ei saa tagasi võtta. Sul on olemas võimalus ka
     <linkExternal>asendada oma taastekoodid</linkExternal>.
+tfa-row-cannot-disable-2 = Kaheastmelist autentimist polnud võimalik keelata
 tfa-row-change-modal-heading = Kas muuta taastekoodid?
 tfa-row-change-modal-confirm = Muuda
 tfa-row-change-modal-explain = Seda tegevust ei saa tagasi võtta.
