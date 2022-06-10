@@ -340,6 +340,7 @@ avatar-page-new-avatar =
     .alt = нове зображення профілю
 avatar-page-file-upload-error-3 = Виникла проблема з вивантаженням зображення профілю
 avatar-page-delete-error-3 = Виникла проблема з видаленням зображення профілю
+avatar-page-image-too-large-error-2 = Розмір файлу зображення завеликий для вивантаження
 
 ##
 
@@ -365,6 +366,7 @@ pw-change-new-password =
     .label = Введіть новий пароль
 pw-change-confirm-password =
     .label = Підтвердьте новий пароль
+pw-change-success-alert-2 = Пароль оновлений
 
 ##
 
@@ -373,6 +375,8 @@ pw-change-confirm-password =
 
 pw-create-header =
     .title = Створити пароль
+pw-create-success-alert-2 = Пароль встановлений
+pw-create-error-2 = Перепрошуємо, але під час встановлення пароля виникла проблема
 
 ##
 
@@ -410,6 +414,8 @@ display-name-input =
     .label = Введіть ім’я для показу
 submit-display-name = Зберегти
 cancel-display-name = Скасувати
+display-name-update-error-2 = Виникла проблема під час оновлення вашого імені.
+display-name-success-alert-2 = Показуване ім’я оновлено
 
 ##
 
@@ -426,10 +432,12 @@ recovery-key-page-title =
     .title = Ключ відновлення
 recovery-key-step-1 = Крок 1 з 2
 recovery-key-step-2 = Крок 2 з 2
+recovery-key-success-alert-2 = Ключ відновлення створений
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Крок 1 з 2
+add-secondary-email-error-2 = Виникла проблема під час додавання цієї адреси.
 add-secondary-email-page-title =
     .title = Додаткова адреса електронної пошти
 add-secondary-email-enter-address =
@@ -440,6 +448,7 @@ add-secondary-email-save-button = Зберегти
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Крок 2 з 2
+verify-secondary-email-error-2 = Виникла проблема під час надсилання коду підтвердження
 verify-secondary-email-page-title =
     .title = Додаткова адреса електронної пошти
 verify-secondary-email-verification-code =
@@ -450,6 +459,10 @@ verify-secondary-email-verify-button = Підтвердити
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Введіть код підтвердження, надісланий на <strong>{ $email }</strong> упродовж 5 хвилин.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } успішно додано
 
 ##
 
@@ -467,6 +480,7 @@ tfa-button-cancel = Скасувати
 tfa-button-finish = Завершити
 tfa-incorrect-totp = Неправильний код двоетапної перевірки
 tfa-cannot-retrieve-code = Виникла проблема при отриманні вашого коду.
+tfa-cannot-verify-code-2 = Виникла проблема під час перевірки вашого коду відновлення
 tfa-incorrect-recovery-code = Неправильний код відновлення
 tfa-enabled = Двоетапну перевірку увімкнено
 tfa-scan-this-code =
@@ -552,21 +566,37 @@ rk-not-set = Не встановлено
 rk-action-create = Створити
 rk-action-remove = Вилучити
 rk-cannot-refresh = Перепрошуємо, але при оновленні коду відновлення виникла проблема.
+rk-key-removed-2 = Ключ відновлення облікового запису вилучено
 rk-cannot-remove-key = Не вдається видалити ключ відновлення вашого облікового запису.
 rk-refresh-key = Оновити ключ відновлення
 rk-content-explain = Відновіть інформацію, коли забудете пароль.
 rk-content-reset-data = Чому скидання пароля скидає мої дані?
+rk-cannot-verify-session-3 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 rk-remove-modal-heading = Вилучити ключ відновлення?
 rk-remove-modal-content =
     У випадку скидання пароля, ви не зможете використати
     свій ключ відновлення для доступу до збережених даних. Цю дію неможливо скасувати.
 rk-refresh-error = Перепрошуємо, але при оновленні коду відновлення виникла проблема.
+rk-remove-error-2 = Не вдалося видалити ключ відновлення облікового запису
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Додаткова адреса е-пошти
     .header = Додаткова адреса е-пошти
 se-cannot-refresh-email = Перепрошуємо, але при оновленні цієї адреси виникла проблема.
+se-cannot-resend-code-2 = Перепрошуємо, але під час повторного надсилання коду підтвердження сталася проблема
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } тепер ваша основна електронна адреса
+se-set-primary-error-2 = Перепрошуємо, але під час зміни основної адреси е-пошти виникла проблема
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } успішно видалено
+se-delete-email-error-2 = Перепрошуємо, але під час видалення цієї адреси виникла проблема
+se-verify-session-2 = Щоб виконати цю дію, вам потрібно підтвердити поточний сеанс
+se-verify-session-error-2 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 # Button to remove the secondary email
 se-remove-email =
     .title = Вилучити е-пошту
@@ -592,6 +622,7 @@ se-secondary-email-none = Немає
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двоетапна перевірка
+tfa-row-disabled-2 = Двоетапна перевірка вимкнена
 tfa-row-enabled = Увімкнено
 tfa-row-not-set = Не встановлено
 tfa-row-action-add = Додати
@@ -604,11 +635,13 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Запобігайте входу когось іншого, вимагаючи
     унікальний код, який є лише у вас.
+tfa-row-cannot-verify-session-3 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 tfa-row-disable-modal-heading = Вимкнути двоетапну перевірку?
 tfa-row-disable-modal-confirm = Вимкнути
 tfa-row-disable-modal-explain =
     Ви не зможете скасувати цю дію. Ви також маєте
     можливість <linkExternal>замінити свої коди відновлення</linkExternal>.
+tfa-row-cannot-disable-2 = Неможливо вимкнути двоетапну перевірку
 tfa-row-change-modal-heading = Змінити коди відновлення?
 tfa-row-change-modal-confirm = Змінити
 tfa-row-change-modal-explain = Ви не зможете скасувати цю дію.
