@@ -236,7 +236,9 @@ nav-email-comm = תקשורת בדוא״ל
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error-2 = הייתה בעיה בהחלפת הקודים שלך לשחזור
 tfa-replace-code-success = נוצרו קודים חדשים. יש לשמור את הקודים האלו המיועדים לשימוש חד פעמי במקום בטוח — יהיה לך צורך בהם כדי לגשת לחשבון שלך במקרה שאין עליך את המכשיר הנייד שלך.
+tfa-replace-code-success-alert-2 = הקודים לשחזור החשבון עודכנו
 tfa-replace-code-1-2 = שלב 1 מתוך 2
 tfa-replace-code-2-2 = שלב 2 מתוך 2
 
@@ -266,6 +268,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = לא ניתן לאתחל את המצלמה
 avatar-page-new-avatar =
     .alt = תמונת פרופיל חדשה
+avatar-page-file-upload-error-3 = הייתה בעיה בהעלאת תמונת הפרופיל שלך
+avatar-page-delete-error-3 = הייתה בעיה במחיקת תמונת הפרופיל שלך
+avatar-page-image-too-large-error-2 = גודל קובץ התמונה גדול מדי להעלאה
 
 ##
 
@@ -289,6 +294,7 @@ pw-change-new-password =
     .label = נא להכניס ססמה חדשה
 pw-change-confirm-password =
     .label = נא לאמת את הססמה החדשה
+pw-change-success-alert-2 = הססמה עודכנה
 
 ##
 
@@ -297,6 +303,8 @@ pw-change-confirm-password =
 
 pw-create-header =
     .title = יצירת ססמה
+pw-create-success-alert-2 = הססמה הוגדרה
+pw-create-error-2 = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
 
 ##
 
@@ -334,6 +342,8 @@ display-name-input =
     .label = נא להכניס שם תצוגה
 submit-display-name = שמירה
 cancel-display-name = ביטול
+display-name-update-error-2 = הייתה בעיה בעדכון שם התצוגה שלך
+display-name-success-alert-2 = שם התצוגה עודכן
 
 ##
 
@@ -350,10 +360,12 @@ recovery-key-page-title =
     .title = מפתח שחזור
 recovery-key-step-1 = שלב 1 מתוך 2
 recovery-key-step-2 = שלב 2 מתוך 2
+recovery-key-success-alert-2 = מפתח שחזור נוצר
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = שלב 1 מתוך 2
+add-secondary-email-error-2 = הייתה בעיה ביצירת דוא״ל זה
 add-secondary-email-page-title =
     .title = כתובת דוא״ל משנית
 add-secondary-email-enter-address =
@@ -364,6 +376,7 @@ add-secondary-email-save-button = שמירה
 ## Verify secondary email page
 
 add-secondary-email-step-2 = שלב 2 מתוך 2
+verify-secondary-email-error-2 = הייתה בעיה בשליחת קוד האימות
 verify-secondary-email-page-title =
     .title = כתובת דוא״ל משנית
 verify-secondary-email-verification-code =
@@ -374,6 +387,10 @@ verify-secondary-email-verify-button = אימות
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = נא להכניס את קוד האימות שנשלח אל <strong>{ $email }</strong> תוך 5 דקות.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = הכתובת { $email } נוספה בהצלחה
 
 ##
 
@@ -391,6 +408,7 @@ tfa-button-cancel = ביטול
 tfa-button-finish = סיום
 tfa-incorrect-totp = קוד אימות דו־שלבי שגוי
 tfa-cannot-retrieve-code = אירעה שגיאה באחזור הקוד שלך.
+tfa-cannot-verify-code-2 = הייתה בעיה באימות הקוד שלך לשחזור
 tfa-incorrect-recovery-code = קוד לשחזור שגוי
 tfa-enabled = אימות דו־שלבי הופעל
 tfa-scan-this-code = יש לסרוק את קוד ה־QR הזה באמצעות אחד <linkExternal>מיישומוני האימות האלו</linkExternal>.
@@ -466,19 +484,35 @@ rk-not-set = לא מוגדר
 rk-action-create = יצירה
 rk-action-remove = הסרה
 rk-cannot-refresh = אירעה שגיאה ברענון מפתח השחזור, עמך הסליחה.
+rk-key-removed-2 = מפתח לשחזור החשבון הוסר
 rk-cannot-remove-key = לא ניתן היה להסיר את מפתח שחזור החשבון שלך.
 rk-refresh-key = רענון מפתח שחזור
 rk-content-explain = שחזור המידע שלך כאשר הססמה שלך נשכחה.
 rk-content-reset-data = מדוע איפוס הססמה שלי מאפסת את הנתונים שלי?
+rk-cannot-verify-session-3 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 rk-remove-modal-heading = להסיר את מפתח השחזור?
 rk-remove-modal-content = במקרה שהססמה שלך תאופס, לא תהיה לך אפשרות להשתמש במפתח השחזור שלך כדי לגשת לנתונים שלך. לא ניתן לבטל פעולה זו.
 rk-refresh-error = הייתה בעיה ברענון מפתח השחזור, עמך הסליחה.
+rk-remove-error-2 = לא ניתן היה להסיר את מפתח שחזור החשבון שלך
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = כתובת דוא״ל משנית
     .header = כתובת דוא״ל משנית
 se-cannot-refresh-email = אירעה שגיאה ברענון דוא״ל זה, עמך הסליחה.
+se-cannot-resend-code-2 = הייתה בעיה בשליחת קוד האימות מחדש, עמך הסליחה
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = ‏{ $email } היא כעת כתובת הדוא״ל הראשית שלך
+se-set-primary-error-2 = הייתה בעיה בשינוי כתובת הדוא״ל הראשית שלך, עמך הסליחה
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = הכתובת { $email } נמחקה בהצלחה
+se-delete-email-error-2 = הייתה בעיה במחיקת דוא״ל זה, עמך הסליחה
+se-verify-session-2 = יהיה עליך לאמת את ההפעלה הנוכחית שלך כדי לבצע פעולה זו
+se-verify-session-error-2 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 # Button to remove the secondary email
 se-remove-email =
     .title = הסרת דוא״ל
@@ -500,6 +534,7 @@ se-secondary-email-none = ללא
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = אימות דו־שלבי
+tfa-row-disabled-2 = אימות דו־שלבי הושבת
 tfa-row-enabled = מופעל
 tfa-row-not-set = לא מוגדר
 tfa-row-action-add = הוספה
@@ -508,9 +543,11 @@ tfa-row-button-refresh =
     .title = רענון אימות דו־שלבי
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
 tfa-row-content-explain = למנוע ממישהו אחר להיכנס באמצעות דרישת קוד ייחודי שרק לך יש גישה אליו.
+tfa-row-cannot-verify-session-3 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
 tfa-row-disable-modal-confirm = השבתה
 tfa-row-disable-modal-explain = לא יהיה ניתן לבטל פעולה זו. יש לך גם את האפשרות <linkExternal>להחליף את הקודים שלך לשחזור</linkExternal>.
+tfa-row-cannot-disable-2 = לא ניתן היה להשבית את האימות הדו־שלבי
 tfa-row-change-modal-heading = לשנות את הקודים לשחזור?
 tfa-row-change-modal-confirm = שינוי
 tfa-row-change-modal-explain = לא יהיה ניתן לבטל פעולה זו.
