@@ -361,6 +361,7 @@ display-name-input =
 submit-display-name = Bewarje
 cancel-display-name = Annulearje
 display-name-update-error-2 = Der is in probleem bard by it bywurkjen fan jo skermnamme
+display-name-success-alert-2 = Skermnamme bywurke
 
 ##
 
@@ -377,10 +378,12 @@ recovery-key-page-title =
     .title = Werstelkaai
 recovery-key-step-1 = Stap 1 fan 2
 recovery-key-step-2 = Stap 2 fan 2
+recovery-key-success-alert-2 = Werstelkaai oanmakke
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Stap 1 fan 2
+add-secondary-email-error-2 = Der is in probleem bard by it oanmeitsjen fan dit e-mailadres
 add-secondary-email-page-title =
     .title = Sekundêr e-mailadres
 add-secondary-email-enter-address =
@@ -391,6 +394,7 @@ add-secondary-email-save-button = Bewarje
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Stap 2 fan 2
+verify-secondary-email-error-2 = Der is in probleem bard by it ferstjoeren fan de ferifikaasjekoade
 verify-secondary-email-page-title =
     .title = Sekundêr e-mailadres
 verify-secondary-email-verification-code =
@@ -401,6 +405,10 @@ verify-secondary-email-verify-button = Ferifiearje
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Fier binnen 5 minuten de ferifikaasjekoade yn dy’t nei <strong>{ $email }</strong> ferstjoerd is.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } mei sukses tafoege
 
 ##
 
@@ -418,6 +426,7 @@ tfa-button-cancel = Annulearje
 tfa-button-finish = Foltôgje
 tfa-incorrect-totp = Unjildige koade foar autentikaasje yn twa stappen
 tfa-cannot-retrieve-code = Der is in probleem bard by it opheljen fan jo koade.
+tfa-cannot-verify-code-2 = Der is in probleem bard by it ferifiearjen fan jo werstelkoade
 tfa-incorrect-recovery-code = Unjildige werstelkoade
 tfa-enabled = Autentikaasje yn twa stappen ynskeakele
 tfa-scan-this-code =
@@ -503,21 +512,37 @@ rk-not-set = Net ynsteld
 rk-action-create = Oanmeitsje
 rk-action-remove = Fuortsmite
 rk-cannot-refresh = Sorry, der is in probleem bard by it fernijen fan de werstelkaai.
+rk-key-removed-2 = Kaai foar accountwerstel fuortsmiten
 rk-cannot-remove-key = Jo kaai foar accountwerstel koe net fuortsmiten wurde.
 rk-refresh-key = Werstelkaai fernije
 rk-content-explain = Jo gegevens werstelle wannear’t jo jo wachtwurd ferjitte.
 rk-content-reset-data = Wêrom wurde myn gegevens opnij ynsteld as ik myn wachtwurd opnij inisjalisearje?
+rk-cannot-verify-session-3 = Sorry, der wie in probleem bard by it ferifiearjen fan jo sesje
 rk-remove-modal-heading = Werstelkaai fuortsmite?
 rk-remove-modal-content =
     As jo jo wachtwurd opnij inisjalisearje, kinne jo jo
     werstelkaai net brûke om tagong te krijen ta jo gegevens. Jo kinne dizze aksje net ûngedien meitsje.
 rk-refresh-error = Sorry, der is in probleem bard by it fernijen fan de werstelkaai.
+rk-remove-error-2 = Jo kaai foar accountwerstel koe net fuortsmiten wurde
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Sekundêr e-mailadres
     .header = Sekundêr e-mailadres
 se-cannot-refresh-email = Sorry, der is in probleem bard by it fernijen fan dat e-mailadres.
+se-cannot-resend-code-2 = Der is in probleem bard by it opnij ferstjoeren fan de ferifikaasjekoade
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } is no jo primêre e-mailadres
+se-set-primary-error-2 = Sorry, der is in probleem bard by it wizigjen fan jo primêre e-mailadres
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } mei sukses fuortsmiten
+se-delete-email-error-2 = Sorry, der is in probleem bard by it fuortsmiten fan dit e-mailadres
+se-verify-session-2 = Jo moatte jo aktuele sesje ferifiearje om dizze aksje út te fieren
+se-verify-session-error-2 = Sorry, der wie in probleem bard by it ferifiearjen fan jo sesje
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mailadres fuortsmite
@@ -543,6 +568,7 @@ se-secondary-email-none = Gjin
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autentikaasje yn twa stappen
+tfa-row-disabled-2 = Twa-staps autentikaasje útskeakele
 tfa-row-enabled = Ynskeakele
 tfa-row-not-set = Net ynsteld
 tfa-row-action-add = Tafoegje
@@ -555,11 +581,13 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Foarkom dat in oar oanmeldt troch in
     unike koade wêr’t allinnich jo tagong ta hawwe te easkjen.
+tfa-row-cannot-verify-session-3 = Sorry, der wie in probleem bard by it ferifiearjen fan jo sesje
 tfa-row-disable-modal-heading = Autentikaasje yn twa stappen útskeakelje?
 tfa-row-disable-modal-confirm = Utskeakelje
 tfa-row-disable-modal-explain =
     Jo kinne dizze aksje net ûngedien meitsje. Jo hawwe ek
     de opsje <linkExternal>jo werstelkoaden te ferfangen</linkExternal>.
+tfa-row-cannot-disable-2 = Autentikaasje yn twa stappen koe net útskeakele wurde
 tfa-row-change-modal-heading = Werstelkoaden wizigje?
 tfa-row-change-modal-confirm = Wizigje
 tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
