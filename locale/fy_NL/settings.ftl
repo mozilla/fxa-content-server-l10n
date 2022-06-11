@@ -104,17 +104,19 @@ cs-cannot-disconnect = Client net fûn, ferbining kin net ferbrutsen wurde
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Ofmeld by { $service }.
+cs-logged-out-2 = Ofmeld by { $service }
 cs-refresh-button =
     .title = Ferbûne tsjinsten fernije
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Untbrekkende of dûbele items?
 cs-disconnect-sync-heading = Ferbining mei Sync ferbrekke
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Jo navigaasjegegevens bliuwe op { $device } bestean,
     mar der wurdt net mear mei jo account syngronisearre.
@@ -166,7 +168,7 @@ dc-subheader = Help { -product-firefox-accounts } te ferbetterjen
 dc-subheader-content = { -product-firefox-accounts } tastean om technyske en ynteraksjegegevens nei { -brand-mozilla } te ferstjoeren.
 dc-opt-out-success = Ofmelden suksesfol. { -product-firefox-accounts } stjoert gjin technyske of ynteraksjegegevens nei { -brand-mozilla }.
 dc-opt-in-success = Tank! Troch dizze gegevens te dielen helpe jo ús { -product-firefox-accounts } te ferbetterjen.
-dc-opt-in-out-error = Sorry, der is in probleem bard by it wizigjen fan jo foarkar foar gegevenssamling.
+dc-opt-in-out-error-2 = Sorry, der is in probleem bard by it wizigjen fan jo foarkar foar gegevenssamling
 dc-learn-more = Mear ynfo
 
 # DropDownAvatarMenu component
@@ -177,7 +179,7 @@ drop-down-menu-title = { -product-firefox-account }menu
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Oanmeld as </signin><user>{ $user }</user>
 drop-down-menu-sign-out = Ofmelde
-drop-down-menu-sign-out-error = Sorry, der is in probleem bard by it ôfmelden.
+drop-down-menu-sign-out-error-2 = Sorry, der is in probleem bard by it ôfmelden
 
 ## Flow Container
 
@@ -247,12 +249,12 @@ nav-email-comm = E-mailkommunikaasje
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Der is in probleem bard by it ferfangen fan jo werstelkoaden.
+tfa-replace-code-error-2 = Der is in probleem bard by it ferfangen fan jo werstelkoaden
 tfa-replace-code-success =
     Der binne nije koaden oanmakke. Bewarje dizze koaden foar ien kear gebrûk
     op in feilich plak – jo hawwe se nedich om tagong te krijen ta jo account as jo jo
     mobile apparaat net hawwe.
-tfa-replace-code-success-alert = Accountwerstel bywurke.
+tfa-replace-code-success-alert-2 = Accountwerstel bywurke
 tfa-replace-code-1-2 = Stap 1 fan 2
 tfa-replace-code-2-2 = Stap 2 fan 2
 
@@ -282,9 +284,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Koe kamera net inisjalisearje
 avatar-page-new-avatar =
     .alt = nije profylôfbylding
-avatar-page-file-upload-error-2 = Der is in probleem bard wylst it opladen fan jo profylôfbylding.
-avatar-page-delete-error-2 = Der is in probleem bard by it fuortsmiten fan jo profylôfbylding.
-avatar-page-image-too-large-error = De ôfbyldingsbestânsgrutte is te grut om op te laden.
+avatar-page-file-upload-error-3 = Der is in probleem bard wylst it opladen fan jo profylôfbylding
+avatar-page-delete-error-3 = Der is in probleem bard by it fuortsmiten fan jo profylôfbylding
+avatar-page-image-too-large-error-2 = De ôfbyldingbestângrutte is te grut om op te laden
 
 ##
 
@@ -310,7 +312,7 @@ pw-change-new-password =
     .label = Fier nij wachtwurd yn
 pw-change-confirm-password =
     .label = Befêstigje nij wachtwurd
-pw-change-success-alert = Wachtwurd bywurke.
+pw-change-success-alert-2 = Wachtwurd bywurke
 
 ##
 
@@ -319,8 +321,8 @@ pw-change-success-alert = Wachtwurd bywurke.
 
 pw-create-header =
     .title = Wachtwurd oanmeitsje
-pw-create-success-alert = Wachtwurd ynsteld.
-pw-create-error = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd.
+pw-create-success-alert-2 = Wachtwurd ynsteld
+pw-create-error-2 = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
 
 ##
 
@@ -358,8 +360,7 @@ display-name-input =
     .label = Fier skermnamme yn
 submit-display-name = Bewarje
 cancel-display-name = Annulearje
-display-name-update-error = Der is in probleem bard by it bywurkjen fan jo skermnamme.
-display-name-success-alert = Werjeftenamme bywurke.
+display-name-update-error-2 = Der is in probleem bard by it bywurkjen fan jo skermnamme
 
 ##
 
@@ -376,12 +377,10 @@ recovery-key-page-title =
     .title = Werstelkaai
 recovery-key-step-1 = Stap 1 fan 2
 recovery-key-step-2 = Stap 2 fan 2
-recovery-key-success-alert = Werstelkaai oanmakke.
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Stap 1 fan 2
-add-secondary-email-error = Der is in probleem bard by it oanmeitsjen fan dit e-mailadres.
 add-secondary-email-page-title =
     .title = Sekundêr e-mailadres
 add-secondary-email-enter-address =
@@ -392,7 +391,6 @@ add-secondary-email-save-button = Bewarje
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Stap 2 fan 2
-verify-secondary-email-error = Der is in probleem bard by it ferstjoeren fan de ferifikaasjekoade.
 verify-secondary-email-page-title =
     .title = Sekundêr e-mailadres
 verify-secondary-email-verification-code =
@@ -403,10 +401,6 @@ verify-secondary-email-verify-button = Ferifiearje
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Fier binnen 5 minuten de ferifikaasjekoade yn dy’t nei <strong>{ $email }</strong> ferstjoerd is.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } mei sukses tafoege.
 
 ##
 
@@ -424,7 +418,6 @@ tfa-button-cancel = Annulearje
 tfa-button-finish = Foltôgje
 tfa-incorrect-totp = Unjildige koade foar autentikaasje yn twa stappen
 tfa-cannot-retrieve-code = Der is in probleem bard by it opheljen fan jo koade.
-tfa-cannot-verify-code = Der is in probleem bard by it ferifiearjen fan jo werstelkoade.
 tfa-incorrect-recovery-code = Unjildige werstelkoade
 tfa-enabled = Autentikaasje yn twa stappen ynskeakele
 tfa-scan-this-code =
@@ -510,37 +503,21 @@ rk-not-set = Net ynsteld
 rk-action-create = Oanmeitsje
 rk-action-remove = Fuortsmite
 rk-cannot-refresh = Sorry, der is in probleem bard by it fernijen fan de werstelkaai.
-rk-key-removed = Kaai foar accountwerstel fuortsmiten.
 rk-cannot-remove-key = Jo kaai foar accountwerstel koe net fuortsmiten wurde.
 rk-refresh-key = Werstelkaai fernije
 rk-content-explain = Jo gegevens werstelle wannear’t jo jo wachtwurd ferjitte.
 rk-content-reset-data = Wêrom wurde myn gegevens opnij ynsteld as ik myn wachtwurd opnij inisjalisearje?
-rk-cannot-verify-session-2 = Sorry, der is in probleem bard by it ferifiearjen fan jo sesje.
 rk-remove-modal-heading = Werstelkaai fuortsmite?
 rk-remove-modal-content =
     As jo jo wachtwurd opnij inisjalisearje, kinne jo jo
     werstelkaai net brûke om tagong te krijen ta jo gegevens. Jo kinne dizze aksje net ûngedien meitsje.
 rk-refresh-error = Sorry, der is in probleem bard by it fernijen fan de werstelkaai.
-rk-remove-error = Jo kaai foar accountwerstel koe net fuortsmiten wurde.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Sekundêr e-mailadres
     .header = Sekundêr e-mailadres
 se-cannot-refresh-email = Sorry, der is in probleem bard by it fernijen fan dat e-mailadres.
-se-cannot-resend-code = Der is in probleem bard by it opnij ferstjoeren fan de ferifikaasjekoade.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } is no jo primêre e-mailadres.
-se-set-primary-error = Sorry, der is in probleem bard by it wizigjen fan jo primêre e-mailadres.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } mei sukses fuortsmiten.
-se-delete-email-error = Sorry, der is in probleem bard by it fuortsmiten fan dit e-mailadres.
-se-verify-session = Jo moatte jo aktuele sesje ferifiearje om dizze aksje út te fieren.
-se-verify-session-error = Sorry, der is in probleem bard by it ferifiearjen fan jo sesje.
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mailadres fuortsmite
@@ -566,7 +543,6 @@ se-secondary-email-none = Gjin
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autentikaasje yn twa stappen
-tfa-row-disabled = Autentikaasje yn twa stappen útskeakele.
 tfa-row-enabled = Ynskeakele
 tfa-row-not-set = Net ynsteld
 tfa-row-action-add = Tafoegje
@@ -579,13 +555,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Foarkom dat in oar oanmeldt troch in
     unike koade wêr’t allinnich jo tagong ta hawwe te easkjen.
-tfa-row-cannot-verify-session-2 = Sorry, der is in probleem bard by it ferifiearjen fan jo sesje.
 tfa-row-disable-modal-heading = Autentikaasje yn twa stappen útskeakelje?
 tfa-row-disable-modal-confirm = Utskeakelje
 tfa-row-disable-modal-explain =
     Jo kinne dizze aksje net ûngedien meitsje. Jo hawwe ek
     de opsje <linkExternal>jo werstelkoaden te ferfangen</linkExternal>.
-tfa-row-cannot-disable = Autentikaasje yn twa stappen koe net útskeakele wurde.
 tfa-row-change-modal-heading = Werstelkoaden wizigje?
 tfa-row-change-modal-confirm = Wizigje
 tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
