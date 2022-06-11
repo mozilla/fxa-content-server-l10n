@@ -104,17 +104,19 @@ cs-cannot-disconnect = Không tìm thấy ứng dụng khách, không ngắt k�
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Đã đăng xuất khỏi { $service }.
+cs-logged-out-2 = Đã đăng xuất khỏi { $service }
 cs-refresh-button =
     .title = Tải lại dịch vụ đã kết nối
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Các mục bị thiếu hoặc trùng lặp?
 cs-disconnect-sync-heading = Ngắt kết nối khỏi đồng bộ hóa
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Dữ liệu duyệt web của bạn sẽ vẫn còn trên { $device },
     nhưng nó sẽ không còn đồng bộ với tài khoản của bạn nữa.
@@ -166,7 +168,7 @@ dc-subheader = Giúp cải thiện { -product-firefox-accounts }
 dc-subheader-content = Cho phép { -product-firefox-accounts } gửi dữ liệu kỹ thuật và tương tác tới { -brand-mozilla }.
 dc-opt-out-success = Đã thoát thành công. { -product-firefox-accounts } sẽ không gửi dữ liệu kỹ thuật hoặc dữ liệu tương tác tới { -brand-mozilla }.
 dc-opt-in-success = Cảm ơn! Dữ liệu được chia sẻ này giúp chúng tôi cải thiện { -product-firefox-accounts }.
-dc-opt-in-out-error = Xin lỗi, đã xảy ra sự cố khi thay đổi tùy chọn thu thập dữ liệu của bạn.
+dc-opt-in-out-error-2 = Xin lỗi, đã xảy ra sự cố khi thay đổi tùy chọn thu thập dữ liệu của bạn
 dc-learn-more = Tìm hiểu thêm
 
 # DropDownAvatarMenu component
@@ -177,7 +179,7 @@ drop-down-menu-title = Menu { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Đã đăng nhập bằng</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Đăng xuất
-drop-down-menu-sign-out-error = Xin lỗi, đã xảy ra sự cố khi đăng xuất cho bạn.
+drop-down-menu-sign-out-error-2 = Xin lỗi, đã xảy ra sự cố khi đăng xuất cho bạn
 
 ## Flow Container
 
@@ -247,12 +249,12 @@ nav-email-comm = Truyền thông email
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Có vấn đề khi thay thế mã khôi phục của bạn.
+tfa-replace-code-error-2 = Đã xảy ra sự cố khi thay thế mã khôi phục của bạn
 tfa-replace-code-success =
     Đã tạo các mã mới. Lưu các mã sử dụng một lần này
     vào nơi an toàn — bạn sẽ cần họ truy cập vào tài khoản của mình nếu bạn không
     có di động của bạn.
-tfa-replace-code-success-alert = Đã cập nhật mã khôi phục tài khoản.
+tfa-replace-code-success-alert-2 = Đã cập nhật mã khôi phục tài khoản
 tfa-replace-code-1-2 = Bước 1/2
 tfa-replace-code-2-2 = Bước 2/2
 
@@ -282,9 +284,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Không thể khởi tạo máy ảnh
 avatar-page-new-avatar =
     .alt = hình hồ sơ mới
-avatar-page-file-upload-error-2 = Đã xảy ra sự cố khi tải lên ảnh hồ sơ của bạn.
-avatar-page-delete-error-2 = Đã xảy ra sự cố khi xóa ảnh hồ sơ của bạn.
-avatar-page-image-too-large-error = Không thể tải lên ảnh có kích thước tập tin quá lớn.
+avatar-page-file-upload-error-3 = Đã xảy ra sự cố khi tải lên ảnh hồ sơ của bạn
+avatar-page-delete-error-3 = Đã xảy ra sự cố khi xóa ảnh hồ sơ của bạn
+avatar-page-image-too-large-error-2 = Không thể tải lên ảnh có kích thước tập tin quá lớn
 
 ##
 
@@ -310,7 +312,7 @@ pw-change-new-password =
     .label = Nhập mật khẩu mới:
 pw-change-confirm-password =
     .label = Xác nhận mật khẩu mới
-pw-change-success-alert = Đã cập nhật mật khẩu.
+pw-change-success-alert-2 = Đã cập nhật mật khẩu
 
 ##
 
@@ -319,8 +321,8 @@ pw-change-success-alert = Đã cập nhật mật khẩu.
 
 pw-create-header =
     .title = Tạo mật khẩu
-pw-create-success-alert = Đã đặt mật khẩu.
-pw-create-error = Xin lỗi, đã xảy ra sự cố khi đặt mật khẩu của bạn.
+pw-create-success-alert-2 = Đã đặt mật khẩu
+pw-create-error-2 = Xin lỗi, đã xảy ra sự cố khi đặt mật khẩu của bạn
 
 ##
 
@@ -358,8 +360,8 @@ display-name-input =
     .label = Nhập tên hiển thị
 submit-display-name = Lưu
 cancel-display-name = Huỷ bỏ
-display-name-update-error = Có vấn đề trong khi cập nhật tên hiển thị của bạn.
-display-name-success-alert = Đã cập nhật tên hiển thị.
+display-name-update-error-2 = Đã xảy ra sự cố trong khi cập nhật tên hiển thị của bạn
+display-name-success-alert-2 = Đã cập nhật tên hiển thị
 
 ##
 
@@ -376,12 +378,12 @@ recovery-key-page-title =
     .title = Khóa khôi phục
 recovery-key-step-1 = Bước 1/2
 recovery-key-step-2 = Bước 2/2
-recovery-key-success-alert = Đã tạo khóa khôi phục.
+recovery-key-success-alert-2 = Đã tạo khóa khôi phục
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Bước 1/2
-add-secondary-email-error = Đã có vấn đề khi tạo email này.
+add-secondary-email-error-2 = Đã xảy ra sự cố khi tạo email này
 add-secondary-email-page-title =
     .title = Email phụ
 add-secondary-email-enter-address =
@@ -392,7 +394,7 @@ add-secondary-email-save-button = Lưu
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Bước 2/2
-verify-secondary-email-error = Đã có vấn đề khi gửi mã xác thực.
+verify-secondary-email-error-2 = Đã xảy ra sự cố khi gửi mã xác thực
 verify-secondary-email-page-title =
     .title = Email phụ
 verify-secondary-email-verification-code =
@@ -406,7 +408,7 @@ verify-secondary-email-please-enter-code = Vui lòng nhập mã xác minh đã �
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = Đã thêm { $email } thành công.
+verify-secondary-email-success-alert-2 = Đã thêm { $email } thành công
 
 ##
 
@@ -424,7 +426,7 @@ tfa-button-cancel = Hủy bỏ
 tfa-button-finish = Hoàn thành
 tfa-incorrect-totp = Mã xác thực hai bước không đúng
 tfa-cannot-retrieve-code = Có vấn đề trong khi nhận mã của bạn.
-tfa-cannot-verify-code = Có vấn đề khi xác thực mã khôi phục của bạn.
+tfa-cannot-verify-code-2 = Đã xảy ra sự cố khi xác thực mã khôi phục của bạn
 tfa-incorrect-recovery-code = Mã khôi phục không đúng
 tfa-enabled = Đã bật xác thực hai bước
 tfa-scan-this-code =
@@ -510,37 +512,37 @@ rk-not-set = Chưa tạo
 rk-action-create = Tạo
 rk-action-remove = Xóa
 rk-cannot-refresh = Xin lỗi, có vấn đề khi làm mới khóa khôi phục.
-rk-key-removed = Đã xóa khóa khôi phục tài khoản.
+rk-key-removed-2 = Đã xóa khóa khôi phục tài khoản
 rk-cannot-remove-key = Không thể xóa khóa khôi phục tài khoản của bạn.
 rk-refresh-key = Tải lại khóa khôi phục
 rk-content-explain = Khôi phục thông tin của bạn khi bạn quên mật khẩu.
 rk-content-reset-data = Tại sao dữ liệu của tôi bị đặt lại khi thay thế mật khẩu của tôi?
-rk-cannot-verify-session-2 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn.
+rk-cannot-verify-session-3 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 rk-remove-modal-heading = Xóa khóa khôi phục?
 rk-remove-modal-content =
     Trong trường hợp bạn đặt lại mật khẩu của mình, bạn sẽ không thể
     sử dụng khóa khôi phục để truy cập dữ liệu của bạn. Bạn không thể hoàn tác hành động này.
 rk-refresh-error = Xin lỗi, có vấn đề khi làm mới khóa khôi phục.
-rk-remove-error = Không thể xóa khóa khôi phục của tài khoản của bạn.
+rk-remove-error-2 = Không thể xóa khóa khôi phục của tài khoản của bạn
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Email phụ
     .header = Email phụ
 se-cannot-refresh-email = Xin lỗi, đã xảy ra sự cố khi làm mới email đó.
-se-cannot-resend-code = Xin lỗi, đã xảy ra sự cố khi gửi lại mã xác minh.
+se-cannot-resend-code-2 = Xin lỗi, đã xảy ra sự cố khi gửi lại mã xác minh
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } hiện là email chính của bạn.
-se-set-primary-error = Xin lỗi, đã có vấn đề khi đang thay đổi email chính của bạn.
+se-set-primary-successful-2 = { $email } hiện là email chính của bạn
+se-set-primary-error-2 = Xin lỗi, đã có sự cố khi đang thay đổi email chính của bạn
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = Đã xóa thành công { $email }.
-se-delete-email-error = Xin lỗi, đã xảy ra sự cố khi xóa email này.
-se-verify-session = Bạn cần xác minh phiên hiện tại của mình để thực hiện hành động này.
-se-verify-session-error = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn.
+se-delete-email-successful-2 = Đã xóa thành công { $email }
+se-delete-email-error-2 = Xin lỗi, đã xảy ra sự cố khi xóa email này
+se-verify-session-2 = Bạn cần xác minh phiên hiện tại của mình để thực hiện hành động này
+se-verify-session-error-2 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 # Button to remove the secondary email
 se-remove-email =
     .title = Xóa email
@@ -566,7 +568,7 @@ se-secondary-email-none = Không có
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Xác thực hai bước
-tfa-row-disabled = Đã tắt xác thực hai bước.
+tfa-row-disabled-2 = Đã tắt xác thực hai bước
 tfa-row-enabled = Đã bật
 tfa-row-not-set = Chưa tạo
 tfa-row-action-add = Thêm
@@ -577,13 +579,13 @@ tfa-row-cannot-refresh = Xin lỗi, đã xảy ra sự cố khi làm mới xác 
 tfa-row-content-explain =
     Ngăn người khác đăng nhập bằng cách yêu cầu
     mã duy nhất chỉ bạn có quyền truy cập.
-tfa-row-cannot-verify-session-2 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn.
+tfa-row-cannot-verify-session-3 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 tfa-row-disable-modal-heading = Tắt xác thực hai bước?
 tfa-row-disable-modal-confirm = Tắt
 tfa-row-disable-modal-explain =
     Bạn sẽ không thể hoàn tác hành động này. Bạn cũng
     có tùy chọn <linkExternal>thay thế mã khôi phục của bạn</linkExternal>.
-tfa-row-cannot-disable = Không thể tắt xác thực hai bước.
+tfa-row-cannot-disable-2 = Không thể tắt xác thực hai bước
 tfa-row-change-modal-heading = Thay đổi mã khôi phục?
 tfa-row-change-modal-confirm = Thay đổi
 tfa-row-change-modal-explain = Bạn sẽ không thể hoàn tác hành động này.
