@@ -138,17 +138,19 @@ cs-cannot-disconnect = Η εφαρμογή πελάτη δεν βρέθηκε, �
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Έγινε αποσύνδεση από το { $service }.
+cs-logged-out-2 = Έγινε αποσύνδεση από το { $service }
 cs-refresh-button =
     .title = Ανανέωση συνδεδεμένων υπηρεσιών
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Απουσία ή διπλή παρουσία στοιχείων;
 cs-disconnect-sync-heading = Αποσύνδεση από το Sync
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Τα δεδομένα περιήγησής σας θα παραμείνουν στο { $device },
     αλλά δεν θα συγχρονίζονται πλέον με τον λογαριασμό σας.
@@ -200,7 +202,6 @@ dc-subheader = Βοηθήστε στη βελτίωση των { -product-firefo
 dc-subheader-content = Να επιτρέπεται στους { -product-firefox-accounts(case: "acc", capitalization: "upper") } η αποστολή τεχνικών δεδομένων και αλληλεπίδρασης στη { -brand-mozilla }.
 dc-opt-out-success = Επιτυχής αποχώρηση. Οι { -product-firefox-accounts(case: "nom", capitalization: "upper") } δεν θα στέλνουν τεχνικά δεδομένα ή δεδομένα αλληλεπίδρασης στη { -brand-mozilla }.
 dc-opt-in-success = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-firefox-accounts(case: "acc", capitalization: "upper") }.
-dc-opt-in-out-error = Δυστυχώς, προέκυψε πρόβλημα κατά την αλλαγή της προτίμησής σας για τη συλλογή δεδομένων.
 dc-learn-more = Μάθετε περισσότερα
 
 # DropDownAvatarMenu component
@@ -211,7 +212,7 @@ drop-down-menu-title = Μενού { -product-firefox-account(case: "gen", capita
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Έγινε σύνδεση ως</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Αποσύνδεση
-drop-down-menu-sign-out-error = Λυπούμαστε, προέκυψε πρόβλημα κατά την αποσύνδεση.
+drop-down-menu-sign-out-error-2 = Λυπούμαστε, προέκυψε πρόβλημα κατά την αποσύνδεση
 
 ## Flow Container
 
@@ -281,12 +282,11 @@ nav-email-comm = Επικοινωνία μέσω email
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Προέκυψε πρόβλημα κατά την αντικατάσταση των κωδικών ανάκτησής σας.
+tfa-replace-code-error-2 = Προέκυψε πρόβλημα κατά την αντικατάσταση των κωδικών ανάκτησής σας
 tfa-replace-code-success =
     Δημιουργήθηκαν νέοι κωδικοί. Αποθηκεύστε αυτούς τους κωδικούς
     μιας χρήσης σε ασφαλές μέρος — όπου θα έχετε πρόσβαση σε περίπτωση που δεν
     έχετε την κινητή συσκευή σας.
-tfa-replace-code-success-alert = Οι κωδικοί ανάκτησης του λογαριασμού ενημερώθηκαν.
 tfa-replace-code-1-2 = Βήμα 1 από 2
 tfa-replace-code-2-2 = Βήμα 2 από 2
 
@@ -316,9 +316,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Αδυναμία εκκίνησης κάμερας
 avatar-page-new-avatar =
     .alt = νέα εικόνα προφίλ
-avatar-page-file-upload-error-2 = Προέκυψε πρόβλημα κατά τη μεταφόρτωση της εικόνας του προφίλ σας.
-avatar-page-delete-error-2 = Προέκυψε πρόβλημα κατά τη διαγραφή της εικόνας του προφίλ σας.
-avatar-page-image-too-large-error = Το μέγεθος της εικόνας είναι πολύ μεγάλο για μεταφόρτωση.
+avatar-page-file-upload-error-3 = Προέκυψε πρόβλημα κατά τη μεταφόρτωση της εικόνας του προφίλ σας
+avatar-page-delete-error-3 = Προέκυψε πρόβλημα κατά τη διαγραφή της εικόνας του προφίλ σας
 
 ##
 
@@ -344,7 +343,7 @@ pw-change-new-password =
     .label = Εισαγωγή νέου κωδικού πρόσβασης
 pw-change-confirm-password =
     .label = Επιβεβαίωση νέου κωδικού πρόσβασης
-pw-change-success-alert = Ο κωδικός πρόσβασης ενημερώθηκε.
+pw-change-success-alert-2 = Ο κωδικός πρόσβασης ενημερώθηκε
 
 ##
 
@@ -353,8 +352,6 @@ pw-change-success-alert = Ο κωδικός πρόσβασης ενημερώθ�
 
 pw-create-header =
     .title = Δημιουργία κωδικού πρόσβασης
-pw-create-success-alert = Ο κωδικός πρόσβασης ορίστηκε.
-pw-create-error = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας.
 
 ##
 
@@ -392,8 +389,6 @@ display-name-input =
     .label = Εισαγάγετε το εμφανιζόμενο όνομα
 submit-display-name = Αποθήκευση
 cancel-display-name = Ακύρωση
-display-name-update-error = Προέκυψε πρόβλημα κατά την ενημέρωση του εμφανιζόμενου ονόματός σας.
-display-name-success-alert = Το εμφανιζόμενο όνομα ενημερώθηκε.
 
 ##
 
@@ -410,12 +405,10 @@ recovery-key-page-title =
     .title = Κλειδί ανάκτησης
 recovery-key-step-1 = Βημα 1 απο 2
 recovery-key-step-2 = Βημα 2 απο 2
-recovery-key-success-alert = Το κλειδί ανάκτησης δημιουργήθηκε.
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Βήμα 1 από 2
-add-secondary-email-error = Παρουσιάστηκε πρόβλημα κατά τη δημιουργία του email.
 add-secondary-email-page-title =
     .title = Δευτερεύον email
 add-secondary-email-enter-address =
@@ -426,7 +419,6 @@ add-secondary-email-save-button = Αποθήκευση
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Βήμα 2 από 2
-verify-secondary-email-error = Προέκυψε πρόβλημα κατά την αποστολή του κωδικού επαλήθευσης.
 verify-secondary-email-page-title =
     .title = Δευτερεύον email
 verify-secondary-email-verification-code =
@@ -437,10 +429,6 @@ verify-secondary-email-verify-button = Επαλήθευση
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Παρακαλώ εισαγάγετε τον κωδικό επιβεβαίωσης που εστάλη στο <strong>{ $email }</strong> εντός 5 λεπτών.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = Το { $email } προστέθηκε επιτυχώς.
 
 ##
 
@@ -458,7 +446,6 @@ tfa-button-cancel = Ακύρωση
 tfa-button-finish = Τέλος
 tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο παραγόντων
 tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λήψη του κωδικού σας.
-tfa-cannot-verify-code = Προέκυψε πρόβλημα κατά την επαλήθευση του κωδικού ανάκτησής σας.
 tfa-incorrect-recovery-code = Εσφαλμένος κωδικός ανάκτησης
 tfa-enabled = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 tfa-scan-this-code =
@@ -544,37 +531,21 @@ rk-not-set = Δεν έχει οριστεί
 rk-action-create = Δημιουργία
 rk-action-remove = Αφαίρεση
 rk-cannot-refresh = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης.
-rk-key-removed = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε.
 rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του κλειδιού ανάκτησης λογαριασμού.
 rk-refresh-key = Ανανέωση κλειδιού ανάκτησης
 rk-content-explain = Ανακτήστε τις πληροφορίες σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 rk-content-reset-data = Γιατί η επαναφορά του κωδικού πρόσβασης διαγράφει τα δεδομένα μου;
-rk-cannot-verify-session-2 = Δυστυχώς, προέκυψε πρόβλημα με την επαλήθευση της σύνδεσής σας.
 rk-remove-modal-heading = Αφαίρεση κλειδιού ανάκτησης;
 rk-remove-modal-content =
     Σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας, δεν θα
     μπορείτε να χρησιμοποιήσετε το κλειδί ανάκτησης για πρόσβαση στα δεδομένα σας. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.
 rk-refresh-error = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης.
-rk-remove-error = Δεν ήταν δυνατή η αφαίρεση του κλειδιού ανάκτησης του λογαριασμού σας.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Δευτερεύον email
     .header = Δευτερεύον email
 se-cannot-refresh-email = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του email.
-se-cannot-resend-code = Δυστυχώς, προέκυψε πρόβλημα κατά την επαναποστολή του κωδικού επαλήθευσης.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = Το { $email } είναι πλέον το κύριο email σας.
-se-set-primary-error = Δυστυχώς, προέκυψε πρόβλημα κατά την αλλαγή του κύριου email σας.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = Το { $email } διαγράφηκε επιτυχώς.
-se-delete-email-error = Λυπούμαστε, προέκυψε ένα πρόβλημα κατά τη διαγραφή αυτού του email.
-se-verify-session = Θα πρέπει να επαληθεύσετε την τρέχουσα σύνδεσή σας για την εκτέλεση αυτή της ενέργειας.
-se-verify-session-error = Λυπούμαστε, προέκυψε ένα πρόβλημα κατά την επαλήθευση της συνεδρίας σας.
 # Button to remove the secondary email
 se-remove-email =
     .title = Αφαίρεση email
@@ -600,7 +571,6 @@ se-secondary-email-none = Κανένα
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Ταυτοποίηση δύο παραγόντων
-tfa-row-disabled = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε.
 tfa-row-enabled = Ενεργή
 tfa-row-not-set = Δεν έχει οριστεί
 tfa-row-action-add = Προσθήκη
@@ -613,13 +583,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Εμποδίστε τη σύνδεση τρίτων στον λογαριασμό σας με έναν
     μοναδικό κωδικό στον οποίο θα έχετε μόνο εσείς πρόσβαση.
-tfa-row-cannot-verify-session-2 = Δυστυχώς, προέκυψε πρόβλημα με την επαλήθευση της σύνδεσής σας.
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο παραγόντων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
 tfa-row-disable-modal-explain =
     Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια. Έχετε επίσης
     την επιλογή <linkExternal>αντικατάστασης των κωδικών ανάκτησής σας</linkExternal>.
-tfa-row-cannot-disable = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο παραγόντων.
 tfa-row-change-modal-heading = Αλλαγή κωδικών ανάκτησης;
 tfa-row-change-modal-confirm = Αλλαγή
 tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια.
