@@ -181,6 +181,8 @@ cs-disconnect-sync-heading = Odpojiť zo služby Sync
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-2 = Údaje vášho prehliadania zostanú aj naďalej na zariadení { $device }, ale nebudú sa synchronizovať s vaším účtom.
+cs-disconnect-sync-reason-2 = Aký je hlavný dôvod odpojenia zariadenia { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -592,6 +594,18 @@ rk-remove-error-2 = Kľúč na obnovenie účtu nebolo možné odstrániť
 se-heading = Alternatívna e-mailová adresa
     .header = Alternatívna e-mailová adresa
 se-cannot-refresh-email = Ľutujeme, ale pri obnovení tohto e-mailu sa vyskytol problém.
+se-cannot-resend-code-2 = Ľutujeme, pri opätovnom odosielaní overovacieho kódu sa vyskytol problém
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = Adresa { $email } je teraz vašou hlavnou e-mailovou adresou
+se-set-primary-error-2 = Ľutujeme, ale pri zmene vašej hlavnej e-mailovej adresy sa vyskytol problém
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = Adresa { $email } bola úspešne odstránená
+se-delete-email-error-2 = Ľutujeme, ale pri odstraňovaní tejto e-mailovej adresy sa vyskytol problém
+se-verify-session-2 = Ak chcete vykonať túto akciu, budete musieť overiť svoju aktuálnu reláciu
 se-verify-session-error-2 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém
 # Button to remove the secondary email
 se-remove-email =
