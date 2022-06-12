@@ -575,6 +575,7 @@ se-secondary-email-none = Κανένα
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Ταυτοποίηση δύο παραγόντων
+tfa-row-disabled-2 = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
 tfa-row-enabled = Ενεργή
 tfa-row-not-set = Δεν έχει οριστεί
 tfa-row-action-add = Προσθήκη
