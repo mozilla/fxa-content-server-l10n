@@ -645,6 +645,7 @@ se-secondary-email-none = Brak
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Uwierzytelnianie dwuetapowe
+tfa-row-disabled-2 = Uwierzytelnianie dwuetapowe jest wyłączone
 tfa-row-enabled = Włączone
 tfa-row-not-set = Nieustawione
 tfa-row-action-add = Dodaj
@@ -655,9 +656,11 @@ tfa-row-cannot-refresh =
     Przepraszamy, wystąpił problem podczas odświeżania
     uwierzytelniania dwuetapowego.
 tfa-row-content-explain = Logowanie do konta wymaga podania unikalnego kodu, do którego tylko Ty masz dostęp, co uniemożliwia innym zalogowanie się.
+tfa-row-cannot-verify-session-3 = Przepraszamy, wystąpił problem podczas weryfikowania sesji
 tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
 tfa-row-disable-modal-explain = Tego działania nie będzie można cofnąć. Można zamiast tego <linkExternal>zastąpić kody odzyskiwania</linkExternal>.
+tfa-row-cannot-disable-2 = Nie można wyłączyć uwierzytelniania dwuetapowego
 tfa-row-change-modal-heading = Zmienić kody odzyskiwania?
 tfa-row-change-modal-confirm = Zmień
 tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
