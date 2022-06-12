@@ -104,17 +104,19 @@ cs-cannot-disconnect = Klienten hittades inte, kunde inte koppla ifrån
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Utloggad från { $service }.
+cs-logged-out-2 = Loggade ut från { $service }
 cs-refresh-button =
     .title = Uppdatera anslutna tjänster
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Saknas nått eller dubbletter?
 cs-disconnect-sync-heading = Koppla från Sync
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Din webbinformation kommer att finnas kvar på { $device },
     men det kommer inte längre att synkroniseras med ditt konto.
@@ -166,7 +168,7 @@ dc-subheader = Hjälp till att förbättra { -product-firefox-accounts }
 dc-subheader-content = Tillåt { -product-firefox-accounts } att skicka teknisk data och användningsdata till { -brand-mozilla }.
 dc-opt-out-success = Lyckad avanmälan. { -product-firefox-accounts } kommer inte att skicka några tekniska data eller interaktionsdata till { -brand-mozilla }.
 dc-opt-in-success = Tack! Att dela denna data hjälper oss att förbättra { -product-firefox-accounts }.
-dc-opt-in-out-error = Tyvärr, det uppstod ett problem med att ändra din inställning för datainsamling.
+dc-opt-in-out-error-2 = Tyvärr, det uppstod ett problem med att ändra din inställning för datainsamling
 dc-learn-more = Läs mer
 
 # DropDownAvatarMenu component
@@ -177,7 +179,7 @@ drop-down-menu-title = { -product-firefox-account }-meny
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Inloggad som</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Logga ut
-drop-down-menu-sign-out-error = Tyvärr, det gick inte att logga ut.
+drop-down-menu-sign-out-error-2 = Tyvärr, det gick inte att logga ut dig
 
 ## Flow Container
 
@@ -247,12 +249,12 @@ nav-email-comm = E-postkommunikation
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Det gick inte att ersätta återställningskoderna.
+tfa-replace-code-error-2 = Det uppstod ett problem med att ersätta dina återställningskoder
 tfa-replace-code-success =
     Nya koder har skapats. Spara dessa engångskoder
     på en säker plats — du behöver dem för att komma åt
     ditt konto om du inte har din mobila enhet.
-tfa-replace-code-success-alert = Koder för kontoåterställning uppdaterade.
+tfa-replace-code-success-alert-2 = Koder för kontoåterställning uppdaterade
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
 
@@ -282,9 +284,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Det gick inte att initiera kameran
 avatar-page-new-avatar =
     .alt = ny profilbild
-avatar-page-file-upload-error-2 = Det gick inte att ladda upp din profilbild.
-avatar-page-delete-error-2 = Det gick inte att ta bort din profilbild.
-avatar-page-image-too-large-error = Bildens filstorlek är för stor för att kunna laddas upp.
+avatar-page-file-upload-error-3 = Det gick inte att ladda upp din profilbild
+avatar-page-delete-error-3 = Det gick inte att ta bort din profilbild
+avatar-page-image-too-large-error-2 = Bildfilens storlek är för stor för att kunna laddas upp
 
 ##
 
@@ -310,7 +312,7 @@ pw-change-new-password =
     .label = Ange nytt lösenord
 pw-change-confirm-password =
     .label = Bekräfta nytt lösenord
-pw-change-success-alert = Lösenord uppdaterat.
+pw-change-success-alert-2 = Lösenord uppdaterat
 
 ##
 
@@ -319,8 +321,8 @@ pw-change-success-alert = Lösenord uppdaterat.
 
 pw-create-header =
     .title = Skapa lösenord
-pw-create-success-alert = Lösenord inställt.
-pw-create-error = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord.
+pw-create-success-alert-2 = Lösenord inställt
+pw-create-error-2 = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord
 
 ##
 
@@ -358,8 +360,8 @@ display-name-input =
     .label = Ange visningsnamn
 submit-display-name = Spara
 cancel-display-name = Avbryt
-display-name-update-error = Det gick inte att uppdatera ditt visningsnamn.
-display-name-success-alert = Visningsnamn uppdaterat.
+display-name-update-error-2 = Det gick inte att uppdatera ditt visningsnamn
+display-name-success-alert-2 = Visningsnamn uppdaterat
 
 ##
 
@@ -376,12 +378,12 @@ recovery-key-page-title =
     .title = Återställningsnyckel
 recovery-key-step-1 = Steg 1 av 2
 recovery-key-step-2 = Steg 2 av 2
-recovery-key-success-alert = Återställningsnyckel skapad.
+recovery-key-success-alert-2 = Återställningsnyckel skapad
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Steg 1 av 2
-add-secondary-email-error = Det gick inte att skapa sekundär e-postadress.
+add-secondary-email-error-2 = Det gick inte att skapa det här e-postmeddelandet
 add-secondary-email-page-title =
     .title = Sekundär e-post
 add-secondary-email-enter-address =
@@ -392,7 +394,7 @@ add-secondary-email-save-button = Spara
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Steg 2 av 2
-verify-secondary-email-error = Det gick inte att skicka verifieringskoden.
+verify-secondary-email-error-2 = Det gick inte att skicka verifieringskoden
 verify-secondary-email-page-title =
     .title = Sekundär e-post
 verify-secondary-email-verification-code =
@@ -406,7 +408,7 @@ verify-secondary-email-please-enter-code = Ange verifieringskoden som skickades 
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } har lagts till.
+verify-secondary-email-success-alert-2 = { $email } har lagts till
 
 ##
 
@@ -424,7 +426,7 @@ tfa-button-cancel = Avbryt
 tfa-button-finish = Slutför
 tfa-incorrect-totp = Felaktig tvåstegsautentiseringskod
 tfa-cannot-retrieve-code = Det gick inte att hämta din kod.
-tfa-cannot-verify-code = Det gick inte att verifiera din återställningskod.
+tfa-cannot-verify-code-2 = Det gick inte att verifiera din återställningskod
 tfa-incorrect-recovery-code = Felaktig återställningskod
 tfa-enabled = Tvåstegsautentisering aktiverad
 tfa-scan-this-code =
@@ -510,37 +512,37 @@ rk-not-set = Inte inställd
 rk-action-create = Skapa
 rk-action-remove = Ta bort
 rk-cannot-refresh = Tyvärr uppstod ett problem med att uppdatera återställningsnyckeln.
-rk-key-removed = Kontoåterställningsnyckel har tagits bort.
+rk-key-removed-2 = Nyckeln för kontoåterställning har tagits bort
 rk-cannot-remove-key = Din kontoåterställningsnyckel kunde inte tas bort.
 rk-refresh-key = Uppdatera återställningsnyckel
 rk-content-explain = Återställ din information när du glömmer lösenordet.
 rk-content-reset-data = Varför återställs mina data när jag återställer mitt lösenord?
-rk-cannot-verify-session-2 = Tyvärr uppstod ett problem med att verifiera din session.
+rk-cannot-verify-session-3 = Tyvärr uppstod ett problem med att verifiera din session
 rk-remove-modal-heading = Ta bort återställningsnyckel?
 rk-remove-modal-content =
     Om du återställer ditt lösenord kan du inte använda din återställningsnyckel
     för att komma åt dina data. Du kan inte ångra den här åtgärden.
 rk-refresh-error = Tyvärr uppstod ett problem med att uppdatera återställningsnyckeln.
-rk-remove-error = Din kontoåterställningsnyckel kunde inte tas bort.
+rk-remove-error-2 = Din kontoåterställningsnyckel kunde inte tas bort
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Sekundär e-post
     .header = Sekundär e-post
 se-cannot-refresh-email = Tyvärr uppstod ett problem med att uppdatera den sekundära e-postadressen.
-se-cannot-resend-code = Tyvärr uppstod ett problem med att skicka verifieringskoden igen.
+se-cannot-resend-code-2 = Tyvärr uppstod ett problem med att skicka verifieringskoden igen
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } är nu din primära e-postadress.
-se-set-primary-error = Tyvärr uppstod ett problem med att ändra din primära e-postadress.
+se-set-primary-successful-2 = { $email } är nu din primära e-postadress
+se-set-primary-error-2 = Tyvärr uppstod ett problem med att ändra din primära e-postadress
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } har tagits bort.
-se-delete-email-error = Det gick inte att ta bort den sekundära e-postadressen.
-se-verify-session = Du måste verifiera din nuvarande session för att utföra den här åtgärden.
-se-verify-session-error = Tyvärr uppstod ett problem med att verifiera din session.
+se-delete-email-successful-2 = { $email } har tagits bort
+se-delete-email-error-2 = Tyvärr, det gick inte att ta bort det här e-postmeddelandet
+se-verify-session-2 = Du måste verifiera din nuvarande session för att utföra den här åtgärden
+se-verify-session-error-2 = Tyvärr uppstod ett problem med att verifiera din session
 # Button to remove the secondary email
 se-remove-email =
     .title = Ta bort e-post
@@ -566,7 +568,7 @@ se-secondary-email-none = Ingen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tvåstegsautentisering
-tfa-row-disabled = Tvåstegsautentisering inaktiverad.
+tfa-row-disabled-2 = Tvåstegsautentisering inaktiverad
 tfa-row-enabled = Aktiverad
 tfa-row-not-set = Inte inställd
 tfa-row-action-add = Lägg till
@@ -579,13 +581,13 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Förhindra att någon annan loggar in genom att kräva en
     unik kod som endast du har tillgång till.
-tfa-row-cannot-verify-session-2 = Tyvärr uppstod ett problem med att verifiera din session.
+tfa-row-cannot-verify-session-3 = Tyvärr uppstod ett problem med att verifiera din session
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
 tfa-row-disable-modal-explain =
     Du kan inte ångra den här åtgärden. Du har också
     möjlighet att <linkExternal>ersätta dina återställningskoder</linkExternal>.
-tfa-row-cannot-disable = Tvåstegsautentisering kunde inte inaktiveras.
+tfa-row-cannot-disable-2 = Tvåstegsautentisering kunde inte inaktiveras
 tfa-row-change-modal-heading = Ändra återställningskoder?
 tfa-row-change-modal-confirm = Ändra
 tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
