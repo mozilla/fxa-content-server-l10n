@@ -282,9 +282,6 @@ payment-confirm-with-legal-links-year =
         [few] <strong>{ $amount } každé { $intervalCount } roky</strong>
        *[other] <strong>{ $amount } každých { $intervalCount } let</strong>
     } v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
-payment-confirm =
-    Souhlasím, aby Mozila jako autor produktů Firefox strhávala skrze mou preferovanou platební metodu částku
-    <strong>{ $amount } dolarů jednou za { $interval }</strong> v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
 
 ##
 
@@ -583,6 +580,8 @@ new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme pouze 
 new-user-email-validate = E-mailová adresa je neplatná
 new-user-email-validate-confirm = E-mailové adresy se neshodují
 new-user-already-has-account-sign-in = Účet už máte, <a>přihlaste se</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Neudělali jste překlep? Doména { $domain } nemá e-maily.
 new-user-card-title = Zadejte informace o platební kartě
 new-user-submit = Odebírat
 manage-pocket-title = Hledáte své prémiové předplatné { -brand-name-pocket(case: "gen") }?
