@@ -212,7 +212,7 @@ drop-down-menu-title = Μενού { -product-firefox-account(case: "gen", capita
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Έγινε σύνδεση ως</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Αποσύνδεση
-drop-down-menu-sign-out-error-2 = Λυπούμαστε, προέκυψε πρόβλημα κατά την αποσύνδεση
+drop-down-menu-sign-out-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την αποσύνδεση
 
 ## Flow Container
 
@@ -429,6 +429,10 @@ verify-secondary-email-verify-button = Επαλήθευση
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Παρακαλώ εισαγάγετε τον κωδικό επιβεβαίωσης που εστάλη στο <strong>{ $email }</strong> εντός 5 λεπτών.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = Το { $email } προστέθηκε επιτυχώς
 
 ##
 
@@ -546,10 +550,12 @@ rk-refresh-error = Δυστυχώς, προέκυψε πρόβλημα κατά 
 se-heading = Δευτερεύον email
     .header = Δευτερεύον email
 se-cannot-refresh-email = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του email.
+se-set-primary-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την αλλαγή του κύριου email σας
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = Το { $email } διαγράφηκε επιτυχώς
+se-delete-email-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά τη διαγραφή αυτού του email
 # Button to remove the secondary email
 se-remove-email =
     .title = Αφαίρεση email
@@ -583,7 +589,7 @@ tfa-row-action-disable = Απενεργοποίηση
 tfa-row-button-refresh =
     .title = Ανανέωση ταυτοποίησης δύο παραγόντων
 tfa-row-cannot-refresh =
-    Λυπούμαστε, προέκυψε πρόβλημα κατά την ανανέωση
+    Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση
     της ταυτοποίησης δύο παραγόντων.
 tfa-row-content-explain =
     Εμποδίστε τη σύνδεση τρίτων στον λογαριασμό σας με έναν
