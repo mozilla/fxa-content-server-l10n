@@ -184,17 +184,19 @@ cs-cannot-disconnect = Nie odnaleziono klienta, nie można rozłączyć
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Wylogowano z usługi { $service }.
+cs-logged-out-2 = Wylogowano z usługi { $service }
 cs-refresh-button =
     .title = Odśwież połączone usługi
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Brak elementu lub jakieś są podwójne?
 cs-disconnect-sync-heading = Rozłącz synchronizację
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Dane przeglądania pozostaną na urządzeniu „{ $device }”,
     ale nie będzie ono już synchronizowane z tym kontem.
@@ -246,7 +248,7 @@ dc-subheader = Pomóż ulepszać { -product-firefox-accounts(case: "acc", capita
 dc-subheader-content = Pozwól { -product-firefox-accounts(case: "dat", capitalization: "lower") } wysyłać dane techniczne i o interakcjach do { -brand-mozilla(case: "gen") }.
 dc-opt-out-success = Pomyślnie zrezygnowano. { -product-firefox-accounts } nie będą wysyłać danych technicznych i o interakcjach do { -brand-mozilla(case: "gen") }.
 dc-opt-in-success = Dzięki! Dzielenie się tymi danymi pomaga nam ulepszać { -product-firefox-accounts(case: "acc", capitalization: "lower") }.
-dc-opt-in-out-error = Przepraszamy, wystąpił problem podczas zmieniania preferencji zbierania danych.
+dc-opt-in-out-error-2 = Przepraszamy, wystąpił problem podczas zmieniania preferencji zbierania danych
 dc-learn-more = Więcej informacji
 
 # DropDownAvatarMenu component
@@ -257,7 +259,7 @@ drop-down-menu-title = Menu { -product-firefox-account(case: "gen", capitalizati
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Zalogowano jako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Wyloguj się
-drop-down-menu-sign-out-error = Przepraszamy, wystąpił problem z wylogowaniem.
+drop-down-menu-sign-out-error-2 = Przepraszamy, wystąpił problem z wylogowaniem
 
 ## Flow Container
 
@@ -327,9 +329,9 @@ nav-email-comm = Ustawienia poczty
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Wystąpił problem podczas zastępowania kodów odzyskiwania.
+tfa-replace-code-error-2 = Wystąpił problem podczas zastępowania kodów odzyskiwania
 tfa-replace-code-success = Utworzono nowe kody. Zachowaj te kody jednorazowego użytku w bezpiecznym miejscu &mdash; będą one potrzebne do uzyskania dostępu do konta, jeśli nie masz swojego telefonu.
-tfa-replace-code-success-alert = Zaktualizowano kody odzyskiwania konta.
+tfa-replace-code-success-alert-2 = Zaktualizowano kody odzyskiwania konta
 tfa-replace-code-1-2 = 1. krok z 2
 tfa-replace-code-2-2 = 2. krok z 2
 
@@ -359,9 +361,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Nie można zainicjować aparatu
 avatar-page-new-avatar =
     .alt = nowe zdjęcie profilowe
-avatar-page-file-upload-error-2 = Wystąpił problem podczas przesyłania zdjęcia profilowego.
-avatar-page-delete-error-2 = Wystąpił problem podczas usuwania zdjęcia profilowego.
-avatar-page-image-too-large-error = Rozmiar pliku obrazu jest za duży, aby można go było wysłać.
+avatar-page-file-upload-error-3 = Wystąpił problem podczas przesyłania zdjęcia profilowego
+avatar-page-delete-error-3 = Wystąpił problem podczas usuwania zdjęcia profilowego
+avatar-page-image-too-large-error-2 = Rozmiar pliku obrazu jest za duży, aby można go było wysłać
 
 ##
 
@@ -387,7 +389,7 @@ pw-change-new-password =
     .label = Wpisz nowe hasło
 pw-change-confirm-password =
     .label = Potwierdź nowe hasło
-pw-change-success-alert = Zaktualizowano hasło.
+pw-change-success-alert-2 = Zaktualizowano hasło
 
 ##
 
@@ -396,8 +398,8 @@ pw-change-success-alert = Zaktualizowano hasło.
 
 pw-create-header =
     .title = Utwórz hasło
-pw-create-success-alert = Ustawiono hasło.
-pw-create-error = Przepraszamy, wystąpił problem z ustawieniem hasła.
+pw-create-success-alert-2 = Ustawiono hasło
+pw-create-error-2 = Przepraszamy, wystąpił problem z ustawieniem hasła
 
 ##
 
@@ -435,8 +437,8 @@ display-name-input =
     .label = Wpisz wyświetlaną nazwę
 submit-display-name = Zachowaj
 cancel-display-name = Anuluj
-display-name-update-error = Wystąpił problem podczas aktualizacji wyświetlanej nazwy.
-display-name-success-alert = Zaktualizowano wyświetlaną nazwę.
+display-name-update-error-2 = Wystąpił problem podczas aktualizacji wyświetlanej nazwy
+display-name-success-alert-2 = Zaktualizowano wyświetlaną nazwę
 
 ##
 
@@ -453,12 +455,12 @@ recovery-key-page-title =
     .title = Klucz odzyskiwania
 recovery-key-step-1 = 1. krok z 2
 recovery-key-step-2 = 2. krok z 2
-recovery-key-success-alert = Utworzono klucz odzyskiwania.
+recovery-key-success-alert-2 = Utworzono klucz odzyskiwania
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = 1. krok z 2
-add-secondary-email-error = Wystąpił problem podczas tworzenia tego adresu e-mail.
+add-secondary-email-error-2 = Wystąpił problem podczas tworzenia tego adresu e-mail
 add-secondary-email-page-title =
     .title = Dodatkowy adres e-mail
 add-secondary-email-enter-address =
@@ -469,7 +471,7 @@ add-secondary-email-save-button = Zachowaj
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2. krok z 2
-verify-secondary-email-error = Wystąpił problem podczas wysyłania kodu weryfikacyjnego.
+verify-secondary-email-error-2 = Wystąpił problem podczas wysyłania kodu weryfikacyjnego
 verify-secondary-email-page-title =
     .title = Dodatkowy adres e-mail
 verify-secondary-email-verification-code =
@@ -483,7 +485,7 @@ verify-secondary-email-please-enter-code = Proszę wpisać kod weryfikacyjny wys
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = Pomyślnie dodano adres { $email }.
+verify-secondary-email-success-alert-2 = Pomyślnie dodano adres { $email }
 
 ##
 
@@ -501,7 +503,7 @@ tfa-button-cancel = Anuluj
 tfa-button-finish = Dokończ
 tfa-incorrect-totp = Niepoprawny kod uwierzytelniania dwuetapowego
 tfa-cannot-retrieve-code = Wystąpił problem podczas uzyskiwania kodu.
-tfa-cannot-verify-code = Wystąpił problem podczas weryfikowania kodu odzyskiwania.
+tfa-cannot-verify-code-2 = Wystąpił problem podczas weryfikowania kodu odzyskiwania
 tfa-incorrect-recovery-code = Niepoprawny kod odzyskiwania
 tfa-enabled = Włączono uwierzytelnianie dwuetapowe
 tfa-scan-this-code =
@@ -587,37 +589,37 @@ rk-not-set = Nieustawiony
 rk-action-create = Utwórz
 rk-action-remove = Usuń
 rk-cannot-refresh = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania.
-rk-key-removed = Usunięto klucz odzyskiwania konta.
+rk-key-removed-2 = Usunięto klucz odzyskiwania konta
 rk-cannot-remove-key = Nie można usunąć klucza odzyskiwania konta.
 rk-refresh-key = Odśwież klucz odzyskiwania
 rk-content-explain = Przywróć swoje dane, gdy zapomnisz hasła.
 rk-content-reset-data = Dlaczego zmiana hasła powoduje usunięcie moich danych?
-rk-cannot-verify-session-2 = Przepraszamy, wystąpił problem podczas weryfikowania sesji.
+rk-cannot-verify-session-3 = Przepraszamy, wystąpił problem podczas weryfikowania sesji
 rk-remove-modal-heading = Usunąć klucz odzyskiwania?
 rk-remove-modal-content =
     W przypadku zmiany hasła nie będzie można użyć klucza odzyskiwania
     do uzyskania dostępu do swoich danych. Tego działania nie można cofnąć.
 rk-refresh-error = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania.
-rk-remove-error = Nie można usunąć klucza odzyskiwania konta.
+rk-remove-error-2 = Nie można usunąć klucza odzyskiwania konta
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Dodatkowy adres e-mail
     .header = Dodatkowy adres e-mail
 se-cannot-refresh-email = Przepraszamy, wystąpił problem podczas odświeżania tego adresu e-mail.
-se-cannot-resend-code = Przepraszamy, wystąpił problem podczas ponownego wysyłania kodu weryfikacyjnego.
+se-cannot-resend-code-2 = Przepraszamy, wystąpił problem podczas ponownego wysyłania kodu weryfikacyjnego
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } jest teraz głównym adresem e-mail.
-se-set-primary-error = Przepraszamy, wystąpił problem podczas zmieniania głównego adresu e-mail.
+se-set-primary-successful-2 = { $email } jest teraz głównym adresem e-mail
+se-set-primary-error-2 = Przepraszamy, wystąpił problem podczas zmieniania głównego adresu e-mail
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = Pomyślnie usunięto adres { $email }.
-se-delete-email-error = Przepraszamy, wystąpił problem podczas usuwania tego adresu e-mail.
-se-verify-session = Musisz zweryfikować obecną sesję, aby wykonać to działanie.
-se-verify-session-error = Przepraszamy, wystąpił problem podczas weryfikowania sesji.
+se-delete-email-successful-2 = Pomyślnie usunięto adres { $email }
+se-delete-email-error-2 = Przepraszamy, wystąpił problem podczas usuwania tego adresu e-mail
+se-verify-session-2 = Musisz zweryfikować obecną sesję, aby wykonać to działanie
+se-verify-session-error-2 = Przepraszamy, wystąpił problem podczas weryfikowania sesji
 # Button to remove the secondary email
 se-remove-email =
     .title = Usuń adres e-mail
@@ -643,7 +645,6 @@ se-secondary-email-none = Brak
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Uwierzytelnianie dwuetapowe
-tfa-row-disabled = Uwierzytelnianie dwuetapowe jest wyłączone.
 tfa-row-enabled = Włączone
 tfa-row-not-set = Nieustawione
 tfa-row-action-add = Dodaj
@@ -654,11 +655,9 @@ tfa-row-cannot-refresh =
     Przepraszamy, wystąpił problem podczas odświeżania
     uwierzytelniania dwuetapowego.
 tfa-row-content-explain = Logowanie do konta wymaga podania unikalnego kodu, do którego tylko Ty masz dostęp, co uniemożliwia innym zalogowanie się.
-tfa-row-cannot-verify-session-2 = Przepraszamy, wystąpił problem podczas weryfikowania sesji.
 tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
 tfa-row-disable-modal-explain = Tego działania nie będzie można cofnąć. Można zamiast tego <linkExternal>zastąpić kody odzyskiwania</linkExternal>.
-tfa-row-cannot-disable = Nie można wyłączyć uwierzytelniania dwuetapowego.
 tfa-row-change-modal-heading = Zmienić kody odzyskiwania?
 tfa-row-change-modal-confirm = Zmień
 tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
