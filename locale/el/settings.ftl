@@ -546,6 +546,10 @@ rk-refresh-error = Δυστυχώς, προέκυψε πρόβλημα κατά 
 se-heading = Δευτερεύον email
     .header = Δευτερεύον email
 se-cannot-refresh-email = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του email.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = Το { $email } διαγράφηκε επιτυχώς
 # Button to remove the secondary email
 se-remove-email =
     .title = Αφαίρεση email
