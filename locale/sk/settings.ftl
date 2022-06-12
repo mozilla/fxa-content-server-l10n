@@ -168,21 +168,19 @@ cs-cannot-disconnect = Klient sa nenašiel, nedá sa odpojiť
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Odhlásené zo služby { $service }.
+cs-logged-out-2 = Odhlásené zo služby { $service }
 cs-refresh-button =
     .title = Obnoviť pripojené služby
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Chýbajúce alebo duplicitné položky?
 cs-disconnect-sync-heading = Odpojiť zo služby Sync
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Vaše údaje o prehliadaní zostanú vo vašom
-    zariadení ({ $device }), ale toto sa už nebude synchronizovať s vaším účtom.
-cs-disconnect-sync-reason = Aký je hlavný dôvod odpojenia tohto zariadenia?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -233,7 +231,7 @@ dc-subheader = Pomôžte nám vylepšiť { -product-firefox-accounts(capitalizat
 dc-subheader-content = Povoliť { -product-firefox-accounts(capitalizaion: "lower", case: "dat") } odosielať technické údaje a údaje o interakcii spoločnosti { -brand-mozilla }.
 dc-opt-out-success = Odhlásenie bolo úspešné. { -product-firefox-accounts } nebude posielať technické údaje ani údaje o interakcii spoločnosti { -brand-mozilla }.
 dc-opt-in-success = Vďaka! Zdieľanie týchto údajov nám pomáha zlepšovať { -product-firefox-accounts(capitalization: "lower", case: "acc") }.
-dc-opt-in-out-error = Ľutujeme, pri zmene predvoľby zhromažďovania údajov sa vyskytol problém.
+dc-opt-in-out-error-2 = Ľutujeme, pri zmene predvoľby zhromažďovania údajov sa vyskytol problém
 dc-learn-more = Ďalšie informácie
 
 # DropDownAvatarMenu component
@@ -244,7 +242,7 @@ drop-down-menu-title = Ponuka { -product-firefox-account(case: "gen", capitaliza
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Prihlásený ako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odhlásiť sa
-drop-down-menu-sign-out-error = Ľutujeme, vyskytol sa problém s odhlásením.
+drop-down-menu-sign-out-error-2 = Ľutujeme, vyskytol sa problém s odhlásením
 
 ## Flow Container
 
@@ -314,12 +312,12 @@ nav-email-comm = E-mailová komunikácia
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Pri výmene vašich kódov na obnovenie účtu sa vyskytol problém.
+tfa-replace-code-error-2 = Pri výmene vašich overovacích kódov sa vyskytol problém
 tfa-replace-code-success =
     Nové kódy boli vytvorené. Uložte si tieto jednorazové kódy
     na bezpečnom mieste. Budete ich potrebovať na prístup do svojho
     účtu v prípade, že nebudete mať svoje mobilné zariadenie.
-tfa-replace-code-success-alert = Kódy na obnovenie účtu boli aktualizované.
+tfa-replace-code-success-alert-2 = Kódy na obnovenie účtu boli aktualizované
 tfa-replace-code-1-2 = Krok 1 z 2
 tfa-replace-code-2-2 = Krok 2 z 2
 
@@ -349,9 +347,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Nepodarilo sa aktivovať fotoaparát
 avatar-page-new-avatar =
     .alt = nová profilová fotografia
-avatar-page-file-upload-error-2 = Pri nahrávaní profilovej fotografie sa vyskytol problém.
-avatar-page-delete-error-2 = Pri odstraňovaní vašej profilovej fotografie sa vyskytol problém.
-avatar-page-image-too-large-error = Nie je možné nahrať obrázok, pretože je príliš veľký.
+avatar-page-file-upload-error-3 = Pri nahrávaní profilovej fotografie sa vyskytol problém
+avatar-page-delete-error-3 = Pri odstraňovaní vašej profilovej fotky sa vyskytol problém
+avatar-page-image-too-large-error-2 = Nie je možné nahrať obrázok, pretože je príliš veľký
 
 ##
 
@@ -375,7 +373,7 @@ pw-change-new-password =
     .label = Zadajte nové heslo
 pw-change-confirm-password =
     .label = Potvrďte nové heslo
-pw-change-success-alert = Heslo bolo aktualizované.
+pw-change-success-alert-2 = Heslo bolo aktualizované
 
 ##
 
@@ -384,8 +382,8 @@ pw-change-success-alert = Heslo bolo aktualizované.
 
 pw-create-header =
     .title = Vytvorenie hesla
-pw-create-success-alert = Heslo bolo nastavené.
-pw-create-error = Ľutujeme, pri nastavovaní hesla sa vyskytol problém.
+pw-create-success-alert-2 = Heslo bolo nastavené
+pw-create-error-2 = Ľutujeme, pri nastavovaní hesla sa vyskytol problém
 
 ##
 
@@ -423,8 +421,8 @@ display-name-input =
     .label = Zadajte zobrazované meno
 submit-display-name = Uložiť
 cancel-display-name = Zrušiť
-display-name-update-error = Pri aktualizácii vášho zobrazovaného mena sa vyskytol problém.
-display-name-success-alert = Zobrazované meno bolo aktualizované.
+display-name-update-error-2 = Pri aktualizácii vášho zobrazovaného mena sa vyskytol problém
+display-name-success-alert-2 = Zobrazované meno aktualizované
 
 ##
 
@@ -441,12 +439,12 @@ recovery-key-page-title =
     .title = Obnovovací kľúč
 recovery-key-step-1 = Krok 1 z 2
 recovery-key-step-2 = Krok 2 z 2
-recovery-key-success-alert = Obnovovací kľúč bol vytvorený.
+recovery-key-success-alert-2 = Obnovovací kľúč bol vytvorený
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Krok 1 z 2
-add-secondary-email-error = Pri vytváraní tohto e-mailu sa vyskytol problém.
+add-secondary-email-error-2 = Pri vytváraní tohto e-mailu sa vyskytol problém
 add-secondary-email-page-title =
     .title = Alternatívna e-mailová adresa
 add-secondary-email-enter-address =
@@ -457,7 +455,7 @@ add-secondary-email-save-button = Uložiť
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Krok 2 z 2
-verify-secondary-email-error = Pri odosielaní overovacieho kódu sa vyskytol problém.
+verify-secondary-email-error-2 = Pri odosielaní overovacieho kódu sa vyskytol problém
 verify-secondary-email-page-title =
     .title = Alternatívna e-mailová adresa
 verify-secondary-email-verification-code =
@@ -471,7 +469,7 @@ verify-secondary-email-please-enter-code = V priebehu 5 minút zadajte overovac�
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = Adresa { $email } bola úspešne pridaná.
+verify-secondary-email-success-alert-2 = Adresa { $email } bola úspešne pridaná
 
 ##
 
@@ -489,7 +487,7 @@ tfa-button-cancel = Zrušiť
 tfa-button-finish = Dokončiť
 tfa-incorrect-totp = Nesprávny kód pre dvojstupňové overenie
 tfa-cannot-retrieve-code = Pri načítaní vášho kódu sa vyskytol problém.
-tfa-cannot-verify-code = Pri overovaní vášho obnovovacieho kódu sa vyskytol problém.
+tfa-cannot-verify-code-2 = Pri overovaní vášho obnovovacieho kódu sa vyskytol problém
 tfa-incorrect-recovery-code = Nesprávny obnovovací kód
 tfa-enabled = Dvojstupňové overenie bolo povolené
 tfa-scan-this-code =
@@ -575,38 +573,26 @@ rk-not-set = Nie je nastavený
 rk-action-create = Vytvoriť
 rk-action-remove = Odstrániť
 rk-cannot-refresh = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
-rk-key-removed = Kľúč na obnovenie účtu bol odstránený.
+rk-key-removed-2 = Obnovovací kľúč k účtu bol odstránený
 rk-cannot-remove-key = Kľúč na obnovenie účtu nebolo možné odstrániť.
 rk-refresh-key = Obnoviť kľúč na obnovenie účtu
 rk-content-explain = Získajte prístup k svojim údajom v prípade, že zabudnete heslo.
 rk-content-reset-data = Prečo dôjde pri obnove hesla k odstráneniu mojich uložených údajov?
-rk-cannot-verify-session-2 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém.
+rk-cannot-verify-session-3 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém
 rk-remove-modal-heading = Odstrániť kľúč na obnovenie účtu?
 rk-remove-modal-content =
     V prípade, že si nastavíte nové heslo, nebudete už môcť
     použiť kľúč na obnovenie účtu na prístup k vašim údajom.
     Túto akciu nie je možné vrátiť späť.
 rk-refresh-error = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
-rk-remove-error = Kľúč na obnovenie účtu nebolo možné odstrániť.
+rk-remove-error-2 = Kľúč na obnovenie účtu nebolo možné odstrániť
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Alternatívna e-mailová adresa
     .header = Alternatívna e-mailová adresa
 se-cannot-refresh-email = Ľutujeme, ale pri obnovení tohto e-mailu sa vyskytol problém.
-se-cannot-resend-code = Ľutujeme, pri opätovnom odosielaní overovacieho kódu sa vyskytol problém.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = Adresa { $email } je teraz vašou hlavnou e-mailovou adresou.
-se-set-primary-error = Ľutujeme, ale pri zmene vašej hlavnej e-mailovej adresy sa vyskytol problém.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = Adresa { $email } bola úspešne odstránená.
-se-delete-email-error = Ľutujeme, ale pri odstraňovaní tejto e-mailovej adresy sa vyskytol problém.
-se-verify-session = Ak chcete vykonať túto akciu, budete musieť overiť svoju aktuálnu reláciu.
-se-verify-session-error = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém.
+se-verify-session-error-2 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém
 # Button to remove the secondary email
 se-remove-email =
     .title = Odstrániť e-mailovú adresu
@@ -632,7 +618,7 @@ se-secondary-email-none = žiadna
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dvojstupňové overenie
-tfa-row-disabled = Dvojstupňové overenie je vypnuté.
+tfa-row-disabled-2 = Dvojstupňové overenie bolo zakázané
 tfa-row-enabled = Povolené
 tfa-row-not-set = Nie je nastavené
 tfa-row-action-add = Pridať
@@ -643,13 +629,13 @@ tfa-row-cannot-refresh = Je nám ľúto, ale pri obnovovaní dvojstupňového ov
 tfa-row-content-explain =
     Zabráňte niekomu inému v prihlásení vyžadovaním
     jedinečného kódu, ku ktorému máte prístup iba vy.
-tfa-row-cannot-verify-session-2 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém.
+tfa-row-cannot-verify-session-3 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém
 tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
 tfa-row-disable-modal-explain =
     Túto akciu nebudete môcť vrátiť späť. Máte tiež
     možnosť <linkExternal>nahradiť svoje obnovovacie kódy</linkExternal>.
-tfa-row-cannot-disable = Dvojstupňové overenie sa nepodarilo zakázať.
+tfa-row-cannot-disable-2 = Dvojstupňové overenie sa nepodarilo zakázať
 tfa-row-change-modal-heading = Zmeniť obnovovacie kódy?
 tfa-row-change-modal-confirm = Zmeniť
 tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
