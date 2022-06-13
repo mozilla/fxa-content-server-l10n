@@ -98,6 +98,11 @@ cs-heading = Servicios connectite
 cs-description = Tote le servicios que tu usa e in le quales tu ha aperite session.
 cs-cannot-refresh = Desolate, occurreva un problema durante le actualisation del lista de servicios connectite.
 cs-cannot-disconnect = Cliente non trovate, impossibile disconnecter
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = Session { $service } claudite.
 cs-refresh-button =
     .title = Actualisar le servicios connectite
 # Link text to a support page on missing or duplicate devices
@@ -157,6 +162,7 @@ dc-subheader = Adjuta a meliorar { -product-firefox-accounts }
 dc-subheader-content = Permitte a { -product-firefox-accounts } de inviar datos technic e de interaction a { -brand-mozilla }.
 dc-opt-out-success = Refusate con successo. { -product-firefox-accounts } non inviara datos technic e de interaction a { -brand-mozilla }.
 dc-opt-in-success = Gratias! Compartir iste datos adjuta nos meliorar { -product-firefox-accounts }.
+dc-opt-in-out-error-2 = Desolate, problema a cambiar tu preferentias de recolta de datos
 dc-learn-more = Pro saper plus
 
 # DropDownAvatarMenu component
@@ -167,6 +173,7 @@ drop-down-menu-title = Menu { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>In session como</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Clauder session
+drop-down-menu-sign-out-error-2 = Desolate, problema durante tu disconnexion
 
 ## Flow Container
 
@@ -236,10 +243,12 @@ nav-email-comm = Communicationes email
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error-2 = Il habeva un problema a replaciar tu codices de recuperation
 tfa-replace-code-success =
     Nove codices ha essite create. Salvar iste codices a 
     uso unic in un loco secur: tu los besoniara pro acceder tu conto si tu non 
     ha tu apparato mobile.
+tfa-replace-code-success-alert-2 = Codices recuperation de conto activate
 tfa-replace-code-1-2 = Passo 1de 2
 tfa-replace-code-2-2 = Passo 2 de 2
 
@@ -270,6 +279,8 @@ avatar-page-camera-error = Impossibile initialisar le camera
 avatar-page-new-avatar =
     .alt = nove imagine del profilo
 avatar-page-file-upload-error-3 = Problema durante le cargamento de tu photo de profilo
+avatar-page-delete-error-3 = Problema durante le deletion de tu photo de profilo
+avatar-page-image-too-large-error-2 = Le dimension del file imagine es trop grande pro esser cargate
 
 ##
 
@@ -295,6 +306,7 @@ pw-change-new-password =
     .label = Insere le nove contrasigno
 pw-change-confirm-password =
     .label = Confirmar nove contrasigno
+pw-change-success-alert-2 = Contrasigno actualisate
 
 ##
 
@@ -303,6 +315,8 @@ pw-change-confirm-password =
 
 pw-create-header =
     .title = Crear contrasigno
+pw-create-success-alert-2 = Definition del contrasigno
+pw-create-error-2 = Desolate, problema durante le definition de tu contrasigno
 
 ##
 
@@ -340,6 +354,8 @@ display-name-input =
     .label = Scribe le nomine a monstrar
 submit-display-name = Salvar
 cancel-display-name = Cancellar
+display-name-update-error-2 = Problema durante le actualisation de tu nomine a monstrar
+display-name-success-alert-2 = Nomine a monstrar actualisate
 
 ##
 
@@ -356,10 +372,12 @@ recovery-key-page-title =
     .title = Clave de recuperation
 recovery-key-step-1 = Passo 1 de 2
 recovery-key-step-2 = Passo 2 de 2
+recovery-key-success-alert-2 = Clave de recuperation create
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Passo 1de 2
+add-secondary-email-error-2 = Problema al creation de iste email
 add-secondary-email-page-title =
     .title = Adresse de e-mail secundari
 add-secondary-email-enter-address =
@@ -370,6 +388,7 @@ add-secondary-email-save-button = Salvar
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Passo 2 de 2
+verify-secondary-email-error-2 = Problema durante le invio del codice de verification
 verify-secondary-email-page-title =
     .title = Adresse de e-mail secundari
 verify-secondary-email-verification-code =
@@ -380,6 +399,10 @@ verify-secondary-email-verify-button = Verificar
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Insere le codice de verification inviate a  <strong>{ $email }</strong> intra 5 minutas.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } addite con successo
 
 ##
 
@@ -397,6 +420,7 @@ tfa-button-cancel = Cancellar
 tfa-button-finish = Finir
 tfa-incorrect-totp = Codice de authentication a duo passos non correcte
 tfa-cannot-retrieve-code = Il ha habite un problema a retrovar tu codice.
+tfa-cannot-verify-code-2 = Il habeva un problema a verificar tu codices de recuperation
 tfa-incorrect-recovery-code = Codice de recuperation non correcte
 tfa-enabled = Authentication a duo-grados activate
 tfa-scan-this-code =
@@ -480,21 +504,37 @@ rk-not-set = Non definite
 rk-action-create = Crear
 rk-action-remove = Remover
 rk-cannot-refresh = Desolate, problema al actualisation le clave de recuperation.
+rk-key-removed-2 = Clave de recuperation del conto removite
 rk-cannot-remove-key = Tu clave de recuperation del conto non pote esser removite.
 rk-refresh-key = Actualisar le clave de recuperation
 rk-content-explain = Restaura tu informationes quando tu oblida tu contrasigno.
 rk-content-reset-data = Proque reinitialisar mi contrasigno elimina mi datos?
+rk-cannot-verify-session-3 = Desolate, problema a verificar tu session
 rk-remove-modal-heading = Remover clave de recuperation?
 rk-remove-modal-content =
     In caso que tu reinitialisa tu contrasigno, tu non potera 
     usar tu clave de recuperation pro acceder tu datos. Tu non pote disfacer iste action.
 rk-refresh-error = Desolate, problema al actualisation del clave de recuperation.
+rk-remove-error-2 = Tu clave de recuperation del conto non pote esser removite
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Adresse de e-mail secundari
     .header = E-mail secundari
 se-cannot-refresh-email = Desolate, problema al actualisation de iste email.
+se-cannot-resend-code-2 = Desolate, problema durante le reinvio del codice de verification
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } es ora tu email primari
+se-set-primary-error-2 = Desolate, problema a cambiar tu email primari
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } delite con successo
+se-delete-email-error-2 = Desolate, problema al deletion de iste email
+se-verify-session-2 = Tu debera verificar tu actual session pro exequer iste action
+se-verify-session-error-2 = Desolate, problema a verificar tu session
 # Button to remove the secondary email
 se-remove-email =
     .title = Remover email
@@ -520,6 +560,7 @@ se-secondary-email-none = Nihil
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Authentication a duo passos
+tfa-row-disabled-2 = Authentication a duo passos disactivate
 tfa-row-enabled = Activate
 tfa-row-not-set = Non definite
 tfa-row-action-add = Adder
@@ -530,11 +571,13 @@ tfa-row-cannot-refresh =
     Desolate, problema al actualisation del authentication
     a duo passos.
 tfa-row-content-explain = Impedi que altere personas accede a tu conto, exigente un codice unic al qual solo tu ha accesso.
+tfa-row-cannot-verify-session-3 = Desolate, problema a verificar tu session
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
 tfa-row-disable-modal-explain =
     Tu non potera disfacer iste action. Tu alsi
     ha le option de <linkExternal>replaciar tu codices de recuperation</linkExternal>.
+tfa-row-cannot-disable-2 = Impossibile disactivar authentication a duo passos
 tfa-row-change-modal-heading = Cambiar codices de recuperation?
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = Tu non potera disfacer iste action.
