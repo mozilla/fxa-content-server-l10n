@@ -359,6 +359,7 @@ display-name-input =
 submit-display-name = Cadw
 cancel-display-name = Diddymu
 display-name-update-error-2 = Bu anhawster wrth ddiweddaru eich enw dangos
+display-name-success-alert-2 = Diweddarwyd yr enw dangos
 
 ##
 
@@ -375,10 +376,12 @@ recovery-key-page-title =
     .title = Allwedd adfer
 recovery-key-step-1 = Cam 1 o 2
 recovery-key-step-2 = Cam 2 o 2
+recovery-key-success-alert-2 = Crëwyd yr allwedd adfer.
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Cam 1 o 2
+add-secondary-email-error-2 = Bu anhawster wrth greu'r e-bost hwn.
 add-secondary-email-page-title =
     .title = Ail e-bost
 add-secondary-email-enter-address =
@@ -389,6 +392,7 @@ add-secondary-email-save-button = Cadw
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Cam 2 o 2
+verify-secondary-email-error-2 = Bu anhawster anfon y cod dilysu.
 verify-secondary-email-page-title =
     .title = Ail e-bost
 verify-secondary-email-verification-code =
@@ -399,6 +403,10 @@ verify-secondary-email-verify-button = Dilysu
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Rhowch y cod dilysu a anfonwyd at <strong>{ $email }</strong> o fewn 5 munud.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = Ychwanegwyd { $email } yn llwyddiannus.
 
 ##
 
@@ -416,6 +424,7 @@ tfa-button-cancel = Diddymu
 tfa-button-finish = Gorffen
 tfa-incorrect-totp = Cod dilysu dau gam annilys
 tfa-cannot-retrieve-code = Bu anhawster wrth adfer eich cod.
+tfa-cannot-verify-code-2 = Bu anhawster wrth wirio'ch cod adfer.
 tfa-incorrect-recovery-code = Cod adfer anghywir
 tfa-enabled = Mae dilysu dau gam wedi ei alluogi
 tfa-scan-this-code =
@@ -501,21 +510,37 @@ rk-not-set = Heb ei Osod
 rk-action-create = Creu
 rk-action-remove = Tynnu
 rk-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer
+rk-key-removed-2 = Tynnwyd yr allwedd adfer cyfrif
 rk-cannot-remove-key = Nid oedd modd dileu allwedd adfer eich cyfrif.
 rk-refresh-key = Adnewyddu'r allwedd adfer
 rk-content-explain = Adfer eich manylion pan fyddwch yn anghofio'ch cyfrinair.
 rk-content-reset-data = Pam mae ailosod fy nghyfrinair yn ailosod fy nata?
+rk-cannot-verify-session-3 = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
 rk-remove-modal-heading = Dileu'r allwedd adfer?
 rk-remove-modal-content =
     Os byddwch yn ailosod eich cyfrinair, ni fydd modd i chi
     defnyddio'ch allwedd adfer i gael mynediad i'ch data. Nid oes modd i chi ddadwneud y weithred hon.
 rk-refresh-error = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer
+rk-remove-error-2 = Nid oedd modd dileu allwedd adfer eich cyfrif.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Ail e-bost
     .header = Ail E-bost
 se-cannot-refresh-email = Ymddiheuriadau, bu anhawster wrth adnewyddu'r e-bost hwnnw.
+se-cannot-resend-code-2 = Ymddiheuriadau, bu anhawster wrth ail anfon y cod dilysu.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } yw eich prif e-bost nawr.
+se-set-primary-error-2 = Ymddiheuriadau, bu anhawster wrth newid eich prif e-bost.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = Dilëwyd { $email } yn llwyddiannus.
+se-delete-email-error-2 = Ymddiheuriadau, bu anhawster wrth ddileu'r e-bost hwn
+se-verify-session-2 = Bydd angen i chi wirio'ch sesiwn gyfredol i gyflawni'r weithred hon.
+se-verify-session-error-2 = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
 # Button to remove the secondary email
 se-remove-email =
     .title = Tynnu e-bost
@@ -539,6 +564,7 @@ se-secondary-email-none = Dim
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dilysu dau gam
+tfa-row-disabled-2 = Mae dilysu dau gam wedi ei analluogi
 tfa-row-enabled = Galluogwyd
 tfa-row-not-set = Heb ei Osod
 tfa-row-action-add = Ychwanegu
@@ -549,11 +575,13 @@ tfa-row-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r dilysu da
 tfa-row-content-explain =
     Atal rhywun arall rhag mewngofnodi trwy fynnu
     cod unigryw dim ond chi sydd â mynediad iddo.
+tfa-row-cannot-verify-session-3 = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
 tfa-row-disable-modal-heading = Analluogi dilysu dau ffactor?
 tfa-row-disable-modal-confirm = Analluogi
 tfa-row-disable-modal-explain =
     Fyddwch chi ddim yn gallu dadwneud y weithred hon.
     Mae gennych hefyd y dewis o <linkExternal>greu codau adfer newydd</linkExternal>.
+tfa-row-cannot-disable-2 = Nid oedd modd analluogi dilysu dau gam.
 tfa-row-change-modal-heading = Newid y codau adfer?
 tfa-row-change-modal-confirm = Newid
 tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
