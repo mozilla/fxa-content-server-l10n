@@ -104,17 +104,19 @@ cs-cannot-disconnect = Klienten blev ikke fundet, kunne ikke afbryde forbindelse
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Logget ud af { $service }.
+cs-logged-out-2 = Logget ud af { $service }
 cs-refresh-button =
     .title = Opdater forbundne tjenester
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manglende eller gentagne elementer?
 cs-disconnect-sync-heading = Afbryd forbindelsen til Sync
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Dine browsing-data vil stadig blive gemt på { $device },
     men vil ikke længere blive synkroniseret med din konto.
@@ -166,7 +168,7 @@ dc-subheader = Hjælp med at forbedre { -product-firefox-accounts }
 dc-subheader-content = Tillad at { -product-firefox-accounts } indsender tekniske data og data om brug til { -brand-mozilla }.
 dc-opt-out-success = Fravalget lykkedes. { -product-firefox-accounts } indsender ikke tekniske data og data om brug til { -brand-mozilla }.
 dc-opt-in-success = Tak! Deling af disse data hjælper os med at forbedre { -product-firefox-accounts }.
-dc-opt-in-out-error = Der opstod desværre et problem med at ændre din indstilling for dataindsamling.
+dc-opt-in-out-error-2 = Der opstod desværre et problem med at ændre din indstilling for dataindsamling
 dc-learn-more = Læs mere
 
 # DropDownAvatarMenu component
@@ -177,7 +179,7 @@ drop-down-menu-title = { -product-firefox-account }-menu
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Logget ind som</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Log ud
-drop-down-menu-sign-out-error = Der opstod desværre et problem med at logge dig ud.
+drop-down-menu-sign-out-error-2 = Der opstod desværre et problem med at logge dig ud
 
 ## Flow Container
 
@@ -247,11 +249,11 @@ nav-email-comm = Mail-kommunikation
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Der opstod et problem med at erstatte dine genoprettelseskoder.
+tfa-replace-code-error-2 = Der opstod et problem med at erstatte dine genoprettelseskoder
 tfa-replace-code-success =
     Nye koder er blevet oprettet. Opbevar disse engangskoder
     et sikkert sted. Du skal bruge dem, hvis mister adgangen til din mobile enhed.
-tfa-replace-code-success-alert = Genoprettelsesnøgler til kontoen blev opdateret.
+tfa-replace-code-success-alert-2 = Genoprettelsesnøgler til kontoen blev opdateret
 tfa-replace-code-1-2 = Trin 1 af 2
 tfa-replace-code-2-2 = Trin 2 af 2
 
@@ -281,9 +283,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Kunne ikke initialisere kamera
 avatar-page-new-avatar =
     .alt = nyt profilbillede
-avatar-page-file-upload-error-2 = Der opstod et problem med at uploade dit profilbillede.
-avatar-page-delete-error-2 = Der opstod et problem med at slette dit profilbillede.
-avatar-page-image-too-large-error = Billedfilen er for stor til at blive uploadet.
+avatar-page-file-upload-error-3 = Der opstod et problem med at uploade dit profilbillede
+avatar-page-delete-error-3 = Der opstod et problem med at slette dit profilbillede
+avatar-page-image-too-large-error-2 = Billedfilen er for stor til at blive uploadet
 
 ##
 
@@ -309,7 +311,7 @@ pw-change-new-password =
     .label = Indtast ny adgangskode
 pw-change-confirm-password =
     .label = Bekræft ny adgangskode
-pw-change-success-alert = Adgangskode opdateret.
+pw-change-success-alert-2 = Adgangskode opdateret
 
 ##
 
@@ -318,8 +320,8 @@ pw-change-success-alert = Adgangskode opdateret.
 
 pw-create-header =
     .title = Opret adgangskode
-pw-create-success-alert = Adgangskode oprettet.
-pw-create-error = Der opstod desværre et problem med at oprette din adgangskode.
+pw-create-success-alert-2 = Adgangskode oprettet
+pw-create-error-2 = Der opstod desværre et problem med at oprette din adgangskode
 
 ##
 
@@ -357,8 +359,8 @@ display-name-input =
     .label = Indtast vist navn
 submit-display-name = Gem
 cancel-display-name = Annuller
-display-name-update-error = Der opstod et problem med at opdatere dit vist navn.
-display-name-success-alert = Vist navn opdateret.
+display-name-update-error-2 = Der opstod et problem med at opdatere dit vist navn
+display-name-success-alert-2 = Vist navn opdateret
 
 ##
 
@@ -375,12 +377,12 @@ recovery-key-page-title =
     .title = Genoprettelsesnøgle
 recovery-key-step-1 = Trin 1 af 2
 recovery-key-step-2 = Trin 2 af 2
-recovery-key-success-alert = Genoprettelsesnøgle oprettet.
+recovery-key-success-alert-2 = Genoprettelsesnøgle oprettet
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Trin 1 af 2
-add-secondary-email-error = Der opstod et problem med at oprette denne mailadresse.
+add-secondary-email-error-2 = Der opstod et problem med at oprette denne mailadresse
 add-secondary-email-page-title =
     .title = Sekundær mailadresse
 add-secondary-email-enter-address =
@@ -391,7 +393,7 @@ add-secondary-email-save-button = Gem
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Trin 2 af 2
-verify-secondary-email-error = Der opstod et problem under afsendelse af bekræftelseskoden.
+verify-secondary-email-error-2 = Der opstod et problem under afsendelse af bekræftelseskoden
 verify-secondary-email-page-title =
     .title = Sekundær mailadresse
 verify-secondary-email-verification-code =
@@ -405,7 +407,7 @@ verify-secondary-email-please-enter-code = Indtast den bekræftelseskode, der bl
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } tilføjet.
+verify-secondary-email-success-alert-2 = { $email } tilføjet
 
 ##
 
@@ -423,7 +425,7 @@ tfa-button-cancel = Annuller
 tfa-button-finish = Afslut
 tfa-incorrect-totp = Forkert kode til totrinsgodkendelse
 tfa-cannot-retrieve-code = Der opstod et problem med at hente din kode.
-tfa-cannot-verify-code = Der opstod et problem med at bekræfte din genoprettelseskode.
+tfa-cannot-verify-code-2 = Der opstod et problem med at bekræfte din genoprettelseskode
 tfa-incorrect-recovery-code = Forkert genoprettelseskode
 tfa-enabled = Totrinsgodkendelse aktiveret
 tfa-scan-this-code =
@@ -509,37 +511,37 @@ rk-not-set = Ikke indstillet
 rk-action-create = Opret
 rk-action-remove = Fjern
 rk-cannot-refresh = Der opstod desværre et problem med at opdatere genoprettelsesnøglen.
-rk-key-removed = Genoprettelsesnøgle til kontoen blev fjernet.
+rk-key-removed-2 = Genoprettelsesnøgle til kontoen blev fjernet
 rk-cannot-remove-key = Genoprettelsesnøglen til din konto kunne ikke fjernes.
 rk-refresh-key = Opdater genoprettelsesnøgle
 rk-content-explain = Gendan dine gemte informationer, når du har glemt din adgangskode.
 rk-content-reset-data = Hvorfor nulstilles mine data, når jeg nulstiller min adgangskode.
-rk-cannot-verify-session-2 = Der opstod desværre et problem med at bekræfte din session.
+rk-cannot-verify-session-3 = Der opstod desværre et problem med at bekræfte din session
 rk-remove-modal-heading = Fjern genoprettelsesnøgle?
 rk-remove-modal-content =
     Hvis du nulstiller din adgangskode, kan du ikke bruge din genoprettelsesnøgle
     til at få adgang til dine data. Du kan ikke fortryde denne handling.
 rk-refresh-error = Der opstod desværre et problem med at opdatere genoprettelsesnøglen.
-rk-remove-error = Genoprettelsesnøglen til din konto kunne ikke fjernes.
+rk-remove-error-2 = Genoprettelsesnøglen til din konto kunne ikke fjernes
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Sekundær mailadresse
     .header = Sekundær mailadresse
 se-cannot-refresh-email = Der opstod desværre et problem med at opdatere mailadressen.
-se-cannot-resend-code = Der opstod desværre et problem med at sende bekræftelseskoden igen.
+se-cannot-resend-code-2 = Der opstod desværre et problem med at sende bekræftelseskoden igen
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } er nu din primære mailadresse.
-se-set-primary-error = Der opstod desværre et problem med at ændre din primære mailadresse.
+se-set-primary-successful-2 = { $email } er nu din primære mailadresse
+se-set-primary-error-2 = Der opstod desværre et problem med at ændre din primære mailadresse
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } blev slettet.
-se-delete-email-error = Der opstod desværre et problem med at slette denne mailadresse.
-se-verify-session = Du skal bekræfte din nuværende session for at udføre denne handling.
-se-verify-session-error = Der opstod desværre et problem med at bekræfte din session.
+se-delete-email-successful-2 = { $email } blev slettet
+se-delete-email-error-2 = Der opstod desværre et problem med at slette denne mailadresse
+se-verify-session-2 = Du skal bekræfte din nuværende session for at udføre denne handling
+se-verify-session-error-2 = Der opstod desværre et problem med at bekræfte din session
 # Button to remove the secondary email
 se-remove-email =
     .title = Fjern mailadresse
@@ -565,7 +567,7 @@ se-secondary-email-none = Ingen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Totrinsgodkendelse
-tfa-row-disabled = Totrinsgodkendelse deaktiveret.
+tfa-row-disabled-2 = Totrinsgodkendelse deaktiveret
 tfa-row-enabled = Aktiveret
 tfa-row-not-set = Ikke indstillet
 tfa-row-action-add = Tilføj
@@ -578,13 +580,13 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Undgå at en anden logger ind ved at kræve en
     unik kode, kun du har adgang til.
-tfa-row-cannot-verify-session-2 = Der opstod desværre et problem med at bekræfte din session.
+tfa-row-cannot-verify-session-3 = Der opstod desværre et problem med at bekræfte din session
 tfa-row-disable-modal-heading = Deaktiver totrinsgodkendelse?
 tfa-row-disable-modal-confirm = Deaktiver
 tfa-row-disable-modal-explain =
     Du kan ikke fortryde denne handling. Du har også
     mulighed for at <linkExternal>erstatte dine genoprettelseskoder</linkExternal>.
-tfa-row-cannot-disable = Totrinsgodkendelse kunne ikke deaktiveres.
+tfa-row-cannot-disable-2 = Totrinsgodkendelse kunne ikke deaktiveres
 tfa-row-change-modal-heading = Skift genoprettelseskoder?
 tfa-row-change-modal-confirm = Skift
 tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
