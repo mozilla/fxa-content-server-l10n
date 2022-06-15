@@ -104,17 +104,19 @@ cs-cannot-disconnect = Asiakasta ei löydy, yhteyttä ei voi katkaista
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Kirjautunut ulos palvelusta { $service }.
+cs-logged-out-2 = Kirjautunut ulos palvelusta { $service }
 cs-refresh-button =
     .title = Päivitä yhdistetyt palvelut
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Puuttuuko jokin tai onko jokin kahteen kertaan?
 cs-disconnect-sync-heading = Katkaise yhteys Sync-palveluun
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 =
     Selaustietosi säilyvät laitteella { $device },
     mutta niitä ei enää synkronoida tilisi kanssa.
@@ -166,7 +168,7 @@ dc-subheader = Auta parantamaan palvelua { -product-firefox-accounts }
 dc-subheader-content = Salli palvelun { -product-firefox-accounts } lähettää teknistä tietoa ja vuorovaikutustietoa { -brand-mozilla }lle.
 dc-opt-out-success = Poistuminen onnistui. { -product-firefox-accounts } ei lähetä teknistä tai vuorovaikutustietoa { -brand-mozilla }lle.
 dc-opt-in-success = Kiitos! Tämän tiedon jakaminen auttaa parantamaan palvelua { -product-firefox-accounts }.
-dc-opt-in-out-error = Valitettavasti tiedonkeruuasetusten muuttamisen yhteydessä ilmeni ongelma.
+dc-opt-in-out-error-2 = Valitettavasti tiedonkeruuasetusten muuttamisen yhteydessä ilmeni ongelma
 dc-learn-more = Lue lisää
 
 # DropDownAvatarMenu component
@@ -177,7 +179,7 @@ drop-down-menu-title = { -product-firefox-account } -valikko
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Kirjautunut sisään käyttäjänä</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Kirjaudu ulos
-drop-down-menu-sign-out-error = Valitettavasti uloskirjautumisen kanssa ilmeni ongelma.
+drop-down-menu-sign-out-error-2 = Valitettavasti uloskirjautumisen kanssa ilmeni ongelma
 
 ## Flow Container
 
@@ -247,12 +249,12 @@ nav-email-comm = Sähköpostiviestintä
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Palautuskoodien vaihtamisessa ilmeni ongelma.
+tfa-replace-code-error-2 = Palautuskoodien vaihtamisessa ilmeni ongelma
 tfa-replace-code-success =
     Uudet koodit on luotu. Talleta nämä kertakäyttöiset
     koodit turvalliseen paikkaan — tarvitset niitä päästäksesi tilillesi, jos
     mobiililaitteesi ei ole käytettävissäsi.
-tfa-replace-code-success-alert = Tilin palautuskoodit päivitetty.
+tfa-replace-code-success-alert-2 = Tilin palautuskoodit päivitetty
 tfa-replace-code-1-2 = Vaihe 1/2
 tfa-replace-code-2-2 = Vaihe 2/2
 
@@ -282,9 +284,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Kameraa ei voitu alustaa
 avatar-page-new-avatar =
     .alt = uusi profiilikuva
-avatar-page-file-upload-error-2 = Profiilikuvan lähettämisessä tapahtui virhe.
-avatar-page-delete-error-2 = Profiilikuvan poistamisessa tapahtui virhe.
-avatar-page-image-too-large-error = Kuvatiedoston koko on liian suuri lähetettäväksi.
+avatar-page-file-upload-error-3 = Profiilikuvan lähettämisessä tapahtui virhe
+avatar-page-delete-error-3 = Profiilikuvan poistamisessa tapahtui virhe
+avatar-page-image-too-large-error-2 = Kuvatiedoston koko on liian suuri lähetettäväksi
 
 ##
 
@@ -310,7 +312,7 @@ pw-change-new-password =
     .label = Kirjoita uusi salasana
 pw-change-confirm-password =
     .label = Vahvista uusi salasana
-pw-change-success-alert = Salasana päivitetty.
+pw-change-success-alert-2 = Salasana päivitetty
 
 ##
 
@@ -319,8 +321,8 @@ pw-change-success-alert = Salasana päivitetty.
 
 pw-create-header =
     .title = Luo salasana
-pw-create-success-alert = Salasana asetettu.
-pw-create-error = Valitettavasti salasanaa asettaessa ilmeni ongelma.
+pw-create-success-alert-2 = Salasana asetettu
+pw-create-error-2 = Valitettavasti salasanaa asettaessa ilmeni ongelma
 
 ##
 
@@ -358,8 +360,8 @@ display-name-input =
     .label = Kirjoita näyttönimi
 submit-display-name = Tallenna
 cancel-display-name = Peruuta
-display-name-update-error = Näyttönimeäsi päivitettäessä tapahtui virhe.
-display-name-success-alert = Näyttönimi päivitetty.
+display-name-update-error-2 = Näyttönimeäsi päivitettäessä tapahtui virhe
+display-name-success-alert-2 = Näyttönimi päivitetty
 
 ##
 
@@ -376,12 +378,12 @@ recovery-key-page-title =
     .title = Palautusavain
 recovery-key-step-1 = Vaihe 1/2
 recovery-key-step-2 = Vaihe 2/2
-recovery-key-success-alert = Palautusavain luotu.
+recovery-key-success-alert-2 = Palautusavain luotu
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Vaihe 1/2
-add-secondary-email-error = Tämän sähköpostin luomisessa ilmeni ongelma.
+add-secondary-email-error-2 = Tämän sähköpostin luomisessa ilmeni ongelma
 add-secondary-email-page-title =
     .title = Toissijainen sähköposti
 add-secondary-email-enter-address =
@@ -392,7 +394,6 @@ add-secondary-email-save-button = Tallenna
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Vaihe 2/2
-verify-secondary-email-error = Vahvistuskoodin lähettämisessä ilmeni ongelma.
 verify-secondary-email-page-title =
     .title = Toissijainen sähköposti
 verify-secondary-email-verification-code =
@@ -406,7 +407,7 @@ verify-secondary-email-please-enter-code = Kirjoita osoitteeseen <strong>{ $emai
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } lisätty.
+verify-secondary-email-success-alert-2 = { $email } lisätty onnistuneesti
 
 ##
 
@@ -424,7 +425,6 @@ tfa-button-cancel = Peruuta
 tfa-button-finish = Viimeistele
 tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
 tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
-tfa-cannot-verify-code = Palautuskoodisi vahvistamisessa ilmeni ongelma.
 tfa-incorrect-recovery-code = Virheellinen palautuskoodi
 tfa-enabled = Kaksivaiheinen todennus käytössä
 tfa-scan-this-code =
@@ -510,37 +510,30 @@ rk-not-set = Ei asetettu
 rk-action-create = Luo
 rk-action-remove = Poista
 rk-cannot-refresh = Palautusavaimen päivittämisessä ilmeni ongelma.
-rk-key-removed = Tilin palautusavain poistettu.
+rk-key-removed-2 = Tilin palautusavain poistettu
 rk-cannot-remove-key = Tilisi palautusavainta ei voitu poistaa.
 rk-refresh-key = Päivitä palautusavain
 rk-content-explain = Palauta tietosi kun unohdat salasanasi.
 rk-content-reset-data = Miksi salasanan nollaaminen nollaa myös tietoni?
-rk-cannot-verify-session-2 = Valitettavasti istunnon vahvistamisessa oli ongelma.
 rk-remove-modal-heading = Poistetaanko palautusavain?
 rk-remove-modal-content =
     Jos nollaat salasanasi, et voi käyttää palautusavainta
     saadaksesi tietosi takaisin käyttöösi. Tätä toimintoa ei voi kumota.
 rk-refresh-error = Valitettavasti palautusavaimen päivittämisessä ilmeni ongelma.
-rk-remove-error = Tilisi palautusavainta ei voitu poistaa.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Toissijainen sähköposti
     .header = Toissijainen sähköposti
 se-cannot-refresh-email = Valitettavasti sähköpostiosoitteen päivittämisessä ilmeni ongelma.
-se-cannot-resend-code = Valitettavasti vahvistuskoodin lähettämisessä uudelleen ilmeni ongelma.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } on nyt ensisijainen sähköpostiosoitteesi.
-se-set-primary-error = Valitettavasti ensisijaisen sähköpostiosoitteesi vaihtamisessa ilmeni ongelma.
+se-set-primary-successful-2 = { $email } on nyt ensisijainen sähköpostiosoitteesi
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } poistettu.
-se-delete-email-error = Valitettavasti tämän sähköpostiosoitteen poistamisessa ilmeni ongelma.
-se-verify-session = Tämän toiminnon suorittamiseksi sinun on vahvistettava nykyinen istuntosi.
-se-verify-session-error = Valitettavasti istunnon vahvistamisessa oli ongelma.
+se-delete-email-successful-2 = { $email } poistettu
 # Button to remove the secondary email
 se-remove-email =
     .title = Poista sähköpostiosoite
@@ -566,7 +559,7 @@ se-secondary-email-none = Ei mitään
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kaksivaiheinen todennus
-tfa-row-disabled = Kaksivaiheinen todennus poistettu käytöstä.
+tfa-row-disabled-2 = Kaksivaiheinen todennus poistettu käytöstä
 tfa-row-enabled = Käytössä
 tfa-row-not-set = Ei asetettu
 tfa-row-action-add = Lisää
@@ -579,13 +572,12 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Estä muita kirjautumasta vaatimalla
     yksilöllinen koodi, jonka vain sinä saat tietää.
-tfa-row-cannot-verify-session-2 = Valitettavasti istunnon vahvistamisessa oli ongelma.
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
 tfa-row-disable-modal-explain =
     Et voi kumota tätä toimintoa. Sinulla on myös
     mahdollisuus <linkExternal>uusia palautuskoodisi</linkExternal>.
-tfa-row-cannot-disable = Kaksivaiheista todennusta ei voitu poistaa käytöstä.
+tfa-row-cannot-disable-2 = Kaksivaiheista todennusta ei voitu poistaa käytöstä
 tfa-row-change-modal-heading = Vaihdetaanko palautusavaimet?
 tfa-row-change-modal-confirm = Vaihda
 tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
