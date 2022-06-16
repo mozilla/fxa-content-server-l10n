@@ -527,14 +527,19 @@ rk-remove-error-2 = Noñemboguekuaái mba’eñemi jeguerujeyrã ne mba’etégu
 se-heading = Ñanduti veve mokõiháva
     .header = Ñanduti veve mokõiháva
 se-cannot-refresh-email = Ore ñyrõ oĩ apañuãi hekopyahúvo pe ñanduti veve.
+se-cannot-resend-code-2 = Ore ñyrõ, oiko apañuãi emondojeykuévo ayvu jehechajeyrã
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email } ha’e ñanduti veve eipuruvéva
+se-set-primary-error-2 = Ore ñyrõ, oĩ apañuãi emoambuévo ñanduti veve eipuruvéva
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } oñembogue hekopete
+se-delete-email-error-2 = Ore ñyrõ, oĩ apañuãi emboguévo ko ñanduti veve
+se-verify-session-2 = Tekotevẽ ehechajey ne rembiapo ag̃agua ejapo mboyve ko jeku’e
+se-verify-session-error-2 = Rombyasy, oiko apañuãiguasu ehechajeývo tembiapo
 # Button to remove the secondary email
 se-remove-email =
     .title = Embogue ñanduti veve
@@ -573,6 +578,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Ani emoneĩ ambue yvypóra omoñepyrũ tembiapo ojerurévo
     ayvu peteĩva ndénte eipurukuaáva.
+tfa-row-cannot-verify-session-3 = Rombyasy, oiko apañuãiguasu ehechajeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
 tfa-row-disable-modal-explain =
