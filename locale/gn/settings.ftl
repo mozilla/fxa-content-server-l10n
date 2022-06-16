@@ -117,6 +117,9 @@ cs-disconnect-sync-heading = Sync-gui ñesẽ
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-2 =
+    Ne kundahára mba’ekuaarã opytáta { $device }-pe,
+    hákatu ndojuehemo’ãvéima nemba’ete ndive.
 cs-disconnect-sync-reason-2 = Mba’érepa remboykese añetehápe { $device }
 
 ## The following are the options for selecting a reason for disconnecting the
@@ -584,6 +587,7 @@ tfa-row-disable-modal-confirm = Pe’a
 tfa-row-disable-modal-explain =
     Nerembojevymo’ãi ko tembiapo. Nde avei
     eguereko poravopyrã <linkExternal>emyengovia nde ayvu guerujeyrã</linkExternal>.
+tfa-row-cannot-disable-2 = Ñemoneĩrigui mokõi jeku’egua ndaikatúi eipe’a
 tfa-row-change-modal-heading = ¿Emoambue ayvu jeguerujeyrã?
 tfa-row-change-modal-confirm = Moambue
 tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
