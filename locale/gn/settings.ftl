@@ -358,6 +358,7 @@ display-name-input =
 submit-display-name = Ñongatu
 cancel-display-name = Heja
 display-name-update-error-2 = Oĩ apañuãi embohekopyahúvo nde réra ehechauka hag̃ua
+display-name-success-alert-2 = Téra ojehecháva hekopyahúma
 
 ##
 
@@ -374,10 +375,12 @@ recovery-key-page-title =
     .title = Mba’eñemi jeguerujey
 recovery-key-step-1 = Ku’e 1 2-gui
 recovery-key-step-2 = Ku’e 2 2-gui
+recovery-key-success-alert-2 = Oñemoheñói mba’eñemi jeguerujeyrã
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Ku’e 1 2-gui
+add-secondary-email-error-2 = Oiko apañuãi emoheñóivo ko ñanduti veve
 add-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
 add-secondary-email-enter-address =
@@ -388,6 +391,7 @@ add-secondary-email-save-button = Ñongatu
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Ku’e 2 2-gui
+verify-secondary-email-error-2 = Oiko apañuãi emondokuévo nde ayvu jehechajeyrã
 verify-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
 verify-secondary-email-verification-code =
@@ -398,6 +402,10 @@ verify-secondary-email-verify-button = Hechajey
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Emoinge pe ayvu jehechajeyrã romondótava <strong>{ $email }</strong>-pe 5 aravo’i oútavape.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } ojuajúma hekoitépe
 
 ##
 
@@ -415,6 +423,7 @@ tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
 tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
 tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
+tfa-cannot-verify-code-2 = Oiko apañuãi ehechajeykuévo nde ayvu jeguerujeyrã
 tfa-incorrect-recovery-code = Ayvu jeguerujeyrã ndoikóiva
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
@@ -500,15 +509,18 @@ rk-not-set = Noñembohekóiva
 rk-action-create = Moheñói
 rk-action-remove = Mboguete
 rk-cannot-refresh = Ore ñyro, oĩ apañuãi hekopyahúvo mba’eñemi jeguerujeyrã.
+rk-key-removed-2 = Oguéma ayvu jeguerujeyrã mba’ete
 rk-cannot-remove-key = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba’etégui.
 rk-refresh-key = Embohekopyahu mba’eñemi jeguerujeyrã
 rk-content-explain = Emboguevijey ne marandu nderesaráirõ ne ñe’ẽñemígui.
 rk-content-reset-data = ¿Mba’ére emoĩporãvo ñe’ẽñemi oĩporãta che mba’ekuaarã?
+rk-cannot-verify-session-3 = Rombyasy, oiko apañuãiguasu ehechajeývo tembiapo
 rk-remove-modal-heading = ¿Embogue mba’eñemi jeguerujeyrã?
 rk-remove-modal-content =
     Emoĩporãsejeýramo ñe’ẽñemi, ndaikatumo’ãi
     eipuru mba’eñemi jeguerujeyrã eike hag̃ua mba’ekuaarãme. Ndaikatúi embojevyjey ko jeku’e.
 rk-refresh-error = Rombyasy, oiko apañuãi embohekopyahúvo mba’eñemi guerujeyrã.
+rk-remove-error-2 = Noñemboguekuaái mba’eñemi jeguerujeyrã ne mba’etégui
 
 ## Secondary email sub-section on main Settings page
 
@@ -540,6 +552,7 @@ se-secondary-email-none = Avave
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Ñemoneĩ mokõi jeku’épe
+tfa-row-disabled-2 = Ojepe’áma ñemoneĩ mokõi jeku’egua
 tfa-row-enabled = Myandypyre
 tfa-row-not-set = Noñembohekóiva
 tfa-row-action-add = Mbojuaju
