@@ -104,23 +104,19 @@ cs-cannot-disconnect = Joguahára ndojejuhúi, ndaikatúi osẽ
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Osẽma { $service }-gui.
+cs-logged-out-2 = Osẽma { $service }-gui.
 cs-refresh-button =
     .title = Embohekopyahu mba’epytyvõrã mbojuajupyre
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ¿Mba’epuru oĩ’ỹva térã ikõiva?
 cs-disconnect-sync-heading = Sync-gui ñesẽ
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Ne kundahára mba’ekuaarã opytáta ne
-    mba’e’okápe, ({ $device }), hákatu noñembojuehevéima ne mba’ete ndive.
-cs-disconnect-sync-reason =
-    ¿Mba’érepa resẽse añetehápe ko
-    mba’e’okágui?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -168,7 +164,6 @@ dc-subheader = Eipytyvõ oiko porãvévo { -product-firefox-accounts }
 dc-subheader-content = Emoneĩ { -product-firefox-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-opt-out-success = Eipe’a hekopete. { -product-firefox-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
 dc-opt-in-success = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-firefox-accounts } oiko porãvévo.
-dc-opt-in-out-error = Ore ñyrõ, oĩ apañuãi emoambuévo pe erohoryvéva marandu ñembyatyha.
 dc-learn-more = Kuaave
 
 # DropDownAvatarMenu component
@@ -179,7 +174,6 @@ drop-down-menu-title = { -product-firefox-account } poravopyrã
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Oikéva</signin><user>{ $user }</user> ramo
 drop-down-menu-sign-out = Ñesẽ
-drop-down-menu-sign-out-error = Rombyasy, oiko apañuãi embotývo ne rembiapo.
 
 ## Flow Container
 
@@ -249,12 +243,10 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Oiko apañuãi emyengoviávo nde ayvu jeguerujeyrã.
 tfa-replace-code-success =
     Oñemoheñói ayvu pyahu. Eñongatu ko’ã ayvu
     peteĩ jeýnte ojepurukuaáva tenda hekorosãvape; eikotevéta eike hag̃ua ne mba’etépe
     ndererekóirõ mba’e’oka oku’éva.
-tfa-replace-code-success-alert = Mba’ete jeguerujey ayvu hekopyahúma.
 tfa-replace-code-1-2 = Ku’e 1 2-gui
 tfa-replace-code-2-2 = Ku’e 2 2-gui
 
@@ -284,9 +276,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Noñemyandykuaái ta’ãnganohẽha
 avatar-page-new-avatar =
     .alt = ta’ãnga pyahu mba’etépe
-avatar-page-file-upload-error-2 = Iñapysẽ apañuãi ehupivo nera’ãnga mba’etépe.
-avatar-page-delete-error-2 = Iñapysẽ apañuãi emboguévo nera’ãnga mba’etépe.
-avatar-page-image-too-large-error = Pe ta’ãnga marandurenda tuichaiterei ehupi hag̃ua.
 
 ##
 
@@ -312,7 +301,6 @@ pw-change-new-password =
     .label = Emoinge ñe’ẽñemi pyahu
 pw-change-confirm-password =
     .label = Emoneĩ ñe’ẽñemi pyahu
-pw-change-success-alert = Ñe’ẽñemi hekopyahupyréva.
 
 ##
 
@@ -321,8 +309,6 @@ pw-change-success-alert = Ñe’ẽñemi hekopyahupyréva.
 
 pw-create-header =
     .title = Emoheñói ñe’ẽñemi
-pw-create-success-alert = Ñe’ẽñemi moĩmbyre.
-pw-create-error = Rombyasy, oiko apañuãi emoĩnguévo ne ñe’ẽñemi.
 
 ##
 
@@ -360,8 +346,6 @@ display-name-input =
     .label = Emoinge téra ehechauka hag̃ua
 submit-display-name = Ñongatu
 cancel-display-name = Heja
-display-name-update-error = Oĩ apañuãi embohekopyahúvo nde réra ehechauka hag̃ua.
-display-name-success-alert = Téra ehechauka hag̃ua hekopyahúva.
 
 ##
 
@@ -378,12 +362,10 @@ recovery-key-page-title =
     .title = Mba’eñemi jeguerujey
 recovery-key-step-1 = Ku’e 1 2-gui
 recovery-key-step-2 = Ku’e 2 2-gui
-recovery-key-success-alert = Oñemoheñói mba’eñemi jeguerujeyrã.
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Ku’e 1 2-gui
-add-secondary-email-error = Oĩ apañuãi emoheñóivo ko ñanduti veve.
 add-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
 add-secondary-email-enter-address =
@@ -394,7 +376,6 @@ add-secondary-email-save-button = Ñongatu
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Ku’e 2 2-gui
-verify-secondary-email-error = Oiko apañuãi emondokuévo ayvu jehechajeyrã.
 verify-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
 verify-secondary-email-verification-code =
@@ -405,10 +386,6 @@ verify-secondary-email-verify-button = Hechajey
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Emoinge pe ayvu jehechajeyrã romondótava <strong>{ $email }</strong>-pe 5 aravo’i oútavape.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } ojuaju hekopete.
 
 ##
 
@@ -426,7 +403,6 @@ tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
 tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
 tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
-tfa-cannot-verify-code = Oiko apañuãi ehechajeykuévo ayvu jeguerujeyrã.
 tfa-incorrect-recovery-code = Ayvu jeguerujeyrã ndoikóiva
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
@@ -512,37 +488,21 @@ rk-not-set = Noñembohekóiva
 rk-action-create = Moheñói
 rk-action-remove = Mboguete
 rk-cannot-refresh = Ore ñyro, oĩ apañuãi hekopyahúvo mba’eñemi jeguerujeyrã.
-rk-key-removed = Oguéma mba’eñemi jeguerujeyrã mba’etégui.
 rk-cannot-remove-key = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba’etégui.
 rk-refresh-key = Embohekopyahu mba’eñemi jeguerujeyrã
 rk-content-explain = Emboguevijey ne marandu nderesaráirõ ne ñe’ẽñemígui.
 rk-content-reset-data = ¿Mba’ére emoĩporãvo ñe’ẽñemi oĩporãta che mba’ekuaarã?
-rk-cannot-verify-session-2 = Cheñyrõ, oiko peteĩ apañuãi ehechajeývo tembiapo.
 rk-remove-modal-heading = ¿Embogue mba’eñemi jeguerujeyrã?
 rk-remove-modal-content =
     Emoĩporãsejeýramo ñe’ẽñemi, ndaikatumo’ãi
     eipuru mba’eñemi jeguerujeyrã eike hag̃ua mba’ekuaarãme. Ndaikatúi embojevyjey ko jeku’e.
 rk-refresh-error = Rombyasy, oiko apañuãi embohekopyahúvo mba’eñemi guerujeyrã.
-rk-remove-error = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba’etégui.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Ñanduti veve mokõiháva
     .header = Ñanduti veve mokõiháva
 se-cannot-refresh-email = Ore ñyrõ oĩ apañuãi hekopyahúvo pe ñanduti veve.
-se-cannot-resend-code = Ore ñyrõ, oiko apañuãi emondojeykuévo pe ayvu jehechajeyrã.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } ko’ág̃a ha’e ne ñanduti veve eipuruvéva.
-se-set-primary-error = Ore ñyrõ, oĩ apañuãi emoambuévo ñanduti veve eipuruvéva.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } oñembogue hekopete.
-se-delete-email-error = Ore ñyrõ oĩ apañuãi emboguévo pe ñanduti veve.
-se-verify-session = Tekotevẽ ehechajey ne rembiapo ag̃agua ejapo hag̃ua ko jeku’e.
-se-verify-session-error = Cheñyrõ, oiko peteĩ apañuãi ehechajeývo tembiapo.
 # Button to remove the secondary email
 se-remove-email =
     .title = Embogue ñanduti veve
@@ -568,7 +528,6 @@ se-secondary-email-none = Avave
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Ñemoneĩ mokõi jeku’épe
-tfa-row-disabled = Ñemoneĩ mokõi jeku’épe jepe’apyre.
 tfa-row-enabled = Myandypyre
 tfa-row-not-set = Noñembohekóiva
 tfa-row-action-add = Mbojuaju
@@ -581,13 +540,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Ani emoneĩ ambue yvypóra omoñepyrũ tembiapo ojerurévo
     ayvu peteĩva ndénte eipurukuaáva.
-tfa-row-cannot-verify-session-2 = Cheñyrõ, oiko peteĩ apañuãi ehechajeývo tembiapo.
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
 tfa-row-disable-modal-explain =
     Nerembojevymo’ãi ko tembiapo. Nde avei
     eguereko poravopyrã <linkExternal>emyengovia nde ayvu guerujeyrã</linkExternal>.
-tfa-row-cannot-disable = Ñemoneĩ mokõi jeku’egua ndaikatúi eipe’ávo.
 tfa-row-change-modal-heading = ¿Emoambue ayvu jeguerujeyrã?
 tfa-row-change-modal-confirm = Moambue
 tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
