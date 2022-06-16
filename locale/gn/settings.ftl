@@ -527,6 +527,14 @@ rk-remove-error-2 = Noñemboguekuaái mba’eñemi jeguerujeyrã ne mba’etégu
 se-heading = Ñanduti veve mokõiháva
     .header = Ñanduti veve mokõiháva
 se-cannot-refresh-email = Ore ñyrõ oĩ apañuãi hekopyahúvo pe ñanduti veve.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } ha’e ñanduti veve eipuruvéva
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } oñembogue hekopete
 # Button to remove the secondary email
 se-remove-email =
     .title = Embogue ñanduti veve
