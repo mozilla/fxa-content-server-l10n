@@ -176,6 +176,7 @@ drop-down-menu-title = { -product-firefox-account } poravopyrã
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Oikéva</signin><user>{ $user }</user> ramo
 drop-down-menu-sign-out = Ñesẽ
+drop-down-menu-sign-out-error-2 = Ore ñyrõ, iñapañuãi embotykuévo ne rembiapo
 
 ## Flow Container
 
@@ -245,10 +246,12 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error-2 = Oiko apañuãi emyengoviávo nde ayvu jeguerujeyrã
 tfa-replace-code-success =
     Oñemoheñói ayvu pyahu. Eñongatu ko’ã ayvu
     peteĩ jeýnte ojepurukuaáva tenda hekorosãvape; eikotevéta eike hag̃ua ne mba’etépe
     ndererekóirõ mba’e’oka oku’éva.
+tfa-replace-code-success-alert-2 = Mba’ete jeguerujey ayvu hekopyahúma
 tfa-replace-code-1-2 = Ku’e 1 2-gui
 tfa-replace-code-2-2 = Ku’e 2 2-gui
 
@@ -278,6 +281,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Noñemyandykuaái ta’ãnganohẽha
 avatar-page-new-avatar =
     .alt = ta’ãnga pyahu mba’etépe
+avatar-page-file-upload-error-3 = Iñapysẽ apañuãi ehupívo nera’ãnga mba’etépe
+avatar-page-delete-error-3 = Iñapysẽ apañuãi emboguévo nera’ãnga mba’etégui
+avatar-page-image-too-large-error-2 = Pe ta’ãnga marandurenda tuicha emyanyhẽ hag̃ua
 
 ##
 
@@ -303,6 +309,7 @@ pw-change-new-password =
     .label = Emoinge ñe’ẽñemi pyahu
 pw-change-confirm-password =
     .label = Emoneĩ ñe’ẽñemi pyahu
+pw-change-success-alert-2 = Ñe’ẽñemi hekopyahúva
 
 ##
 
@@ -311,6 +318,8 @@ pw-change-confirm-password =
 
 pw-create-header =
     .title = Emoheñói ñe’ẽñemi
+pw-create-success-alert-2 = Ñe’ẽñemi moĩmbyre
+pw-create-error-2 = Rombyasy, oiko apañuãi emoĩnguévo ne ñe’ẽñemi
 
 ##
 
@@ -348,6 +357,7 @@ display-name-input =
     .label = Emoinge téra ehechauka hag̃ua
 submit-display-name = Ñongatu
 cancel-display-name = Heja
+display-name-update-error-2 = Oĩ apañuãi embohekopyahúvo nde réra ehechauka hag̃ua
 
 ##
 
