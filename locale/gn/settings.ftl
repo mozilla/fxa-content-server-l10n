@@ -117,6 +117,7 @@ cs-disconnect-sync-heading = Sync-gui ñesẽ
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-reason-2 = Mba’érepa remboykese añetehápe { $device }
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -164,6 +165,7 @@ dc-subheader = Eipytyvõ oiko porãvévo { -product-firefox-accounts }
 dc-subheader-content = Emoneĩ { -product-firefox-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
 dc-opt-out-success = Eipe’a hekopete. { -product-firefox-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
 dc-opt-in-success = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-firefox-accounts } oiko porãvévo.
+dc-opt-in-out-error-2 = Ore ñyrõ, iñapañuãi emoambuévo mba’ekuaarã ñembyaty eguerohoryvéva
 dc-learn-more = Kuaave
 
 # DropDownAvatarMenu component
