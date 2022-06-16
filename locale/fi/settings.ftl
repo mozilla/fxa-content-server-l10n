@@ -394,6 +394,7 @@ add-secondary-email-save-button = Tallenna
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Vaihe 2/2
+verify-secondary-email-error-2 = Vahvistuskoodin lähettämisessä ilmeni ongelma
 verify-secondary-email-page-title =
     .title = Toissijainen sähköposti
 verify-secondary-email-verification-code =
@@ -425,6 +426,7 @@ tfa-button-cancel = Peruuta
 tfa-button-finish = Viimeistele
 tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
 tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
+tfa-cannot-verify-code-2 = Palautuskoodisi vahvistamisessa ilmeni ongelma
 tfa-incorrect-recovery-code = Virheellinen palautuskoodi
 tfa-enabled = Kaksivaiheinen todennus käytössä
 tfa-scan-this-code =
@@ -515,25 +517,32 @@ rk-cannot-remove-key = Tilisi palautusavainta ei voitu poistaa.
 rk-refresh-key = Päivitä palautusavain
 rk-content-explain = Palauta tietosi kun unohdat salasanasi.
 rk-content-reset-data = Miksi salasanan nollaaminen nollaa myös tietoni?
+rk-cannot-verify-session-3 = Valitettavasti istunnon vahvistamisessa oli ongelma
 rk-remove-modal-heading = Poistetaanko palautusavain?
 rk-remove-modal-content =
     Jos nollaat salasanasi, et voi käyttää palautusavainta
     saadaksesi tietosi takaisin käyttöösi. Tätä toimintoa ei voi kumota.
 rk-refresh-error = Valitettavasti palautusavaimen päivittämisessä ilmeni ongelma.
+rk-remove-error-2 = Tilisi palautusavainta ei voitu poistaa
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Toissijainen sähköposti
     .header = Toissijainen sähköposti
 se-cannot-refresh-email = Valitettavasti sähköpostiosoitteen päivittämisessä ilmeni ongelma.
+se-cannot-resend-code-2 = Valitettavasti vahvistuskoodin lähettämisessä uudelleen ilmeni ongelma
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email } on nyt ensisijainen sähköpostiosoitteesi
+se-set-primary-error-2 = Valitettavasti ensisijaisen sähköpostiosoitteesi vaihtamisessa ilmeni ongelma
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } poistettu
+se-delete-email-error-2 = Valitettavasti tämän sähköpostiosoitteen poistamisessa ilmeni ongelma
+se-verify-session-2 = Tämän toiminnon suorittamiseksi sinun on vahvistettava nykyinen istuntosi
+se-verify-session-error-2 = Valitettavasti istunnon vahvistamisessa oli ongelma
 # Button to remove the secondary email
 se-remove-email =
     .title = Poista sähköpostiosoite
@@ -572,6 +581,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Estä muita kirjautumasta vaatimalla
     yksilöllinen koodi, jonka vain sinä saat tietää.
+tfa-row-cannot-verify-session-3 = Valitettavasti istunnon vahvistamisessa oli ongelma
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
 tfa-row-disable-modal-explain =
