@@ -279,12 +279,12 @@ avatar-page-image-too-large-error-2 = גודל קובץ התמונה גדול מ
 
 pw-change-header =
     .title = שינוי ססמה
-pw-change-stay-safe = לשמירה על בטיחותך — אין לעשות שימוש חוזר בססמאות. הססמה שלך:
-pw-change-least-8-chars = צריכה להיות באורך של 8 תווים לפחות
-pw-change-not-contain-email = אסור שתהיה כתובת הדוא״ל שלך
+pw-8-chars = לפחות 8 תווים
+pw-not-email = לא כתובת הדוא״ל שלך
 pw-change-must-match = הססמה החדשה צריכה להיות תואמת לשדה אימות הססמה
+pw-commonly-used = לא ססמה נפוצה
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords = אסור שתהיה חלק <linkExternal>מרשימת הססמאות הנפוצות הזאת</linkExternal>
+pw-tips = שמרו על עצמכם — אל תשתמשו באותה הססמה במקומות שונים. ניתן לעיין בעצות נוספות <linkExternal>ליצירת ססמאות חזקות</linkExternal>.
 pw-change-cancel-button = ביטול
 pw-change-save-button = שמירה
 pw-change-forgot-password-link = שכחת את הססמה?
