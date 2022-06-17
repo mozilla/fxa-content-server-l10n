@@ -360,12 +360,12 @@ avatar-page-image-too-large-error-2 = Nie je možné nahrať obrázok, pretože 
 
 pw-change-header =
     .title = Zmena hesla
-pw-change-stay-safe = Zostaňte v bezpečí - nepoužívajte rovnaké heslá. Vaše heslo:
-pw-change-least-8-chars = musí obsahovať aspoň 8 znakov
-pw-change-not-contain-email = nesmie byť totožné s vašou e-mailovou adresou
+pw-8-chars = Minimálne 8 znakov
+pw-not-email = Nepoužívajte vašu e-mailovú adresu
 pw-change-must-match = nové heslo sa musí zhodovať s potvrdzujúcim
+pw-commonly-used = Nezadávajte bežne používané heslo
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords = nenachádza sa v <linkExternal>zozname bežných hesiel</linkExternal>
+pw-tips = Zostaňte v bezpečí – nepoužívajte heslá znova. Pozrite si ďalšie tipy na <linkExternal>vytvorenie silných hesiel</linkExternal>.
 pw-change-cancel-button = Zrušiť
 pw-change-save-button = Uložiť
 pw-change-forgot-password-link = Zabudli ste heslo?
