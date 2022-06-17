@@ -289,14 +289,12 @@ avatar-page-image-too-large-error-2 = Le dimension del file imagine es trop gran
 
 pw-change-header =
     .title = Cambiar le contrasigno
-pw-change-stay-safe = Sta secur: non reusa contrasignos. Tu contrasigno:
-pw-change-least-8-chars = Debe continer al minus 8 characteres
-pw-change-not-contain-email = Non debe esser tu adresse de e-mail
+pw-8-chars = Al minus 8 characteres
+pw-not-email = Non tu adresse email
 pw-change-must-match = Le nove contrasigno concorda con confirmation
+pw-commonly-used = Non un contrasigno commun
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Illo non debe concordar ulle de iste <linkExternal>lista de contrasignos
-    commun</linkExternal>
+pw-tips = Remane secur, non reusa tu contrasignos. Vide plus de consilios a in <linkExternal>crear contrasignos forte</linkExternal>.
 pw-change-cancel-button = Cancellar
 pw-change-save-button = Salvar
 pw-change-forgot-password-link = Contrasigno oblidate?
