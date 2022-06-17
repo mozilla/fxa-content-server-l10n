@@ -295,14 +295,12 @@ avatar-page-image-too-large-error-2 = Stærð myndarinnar er of mikil til að h�
 
 pw-change-header =
     .title = Breyta lykilorði
-pw-change-stay-safe = Farðu varlega - ekki endurnýta lykilorð. Lykilorð þitt:
-pw-change-least-8-chars = Verður að vera minnst 8 stafir
-pw-change-not-contain-email = Má ekki vera tölvupóstfangið þitt
+pw-8-chars = Að minnsta kosti 8 stafir
+pw-not-email = Ekki tölvupóstfangið þitt
 pw-change-must-match = Nýtt lykilorð passar við staðfestingu
+pw-commonly-used = Ekki algengt lykilorð
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Má ekki vera á þessum <linkExternal>lista yfir algeng
-    lykilorð</linkExternal>
+pw-tips = Vertu öruggur - ekki endurnýta lykilorð. Sjáðu fleiri ráð til að <linkExternal>búa til sterk lykilorð</linkExternal>.
 pw-change-cancel-button = Hætta við
 pw-change-save-button = Vista
 pw-change-forgot-password-link = Gleymt lykilorð?
