@@ -164,6 +164,7 @@ dc-subheader = Aidez à améliorer les { -product-firefox-accounts }
 dc-subheader-content = Autoriser les { -product-firefox-accounts } à envoyer des données techniques et d’interaction à { -brand-mozilla }.
 dc-opt-out-success = Désactivation réussie. Les { -product-firefox-accounts } n’enverront plus de données techniques ou d’interaction à { -brand-mozilla }.
 dc-opt-in-success = Merci ! Le partage de ces données nous aide à améliorer les { -product-firefox-accounts }.
+dc-opt-in-out-error-2 = Un problème est survenu lors de la modification de vos préférences en matière de collecte de données
 dc-learn-more = En savoir plus
 
 # DropDownAvatarMenu component
@@ -174,6 +175,7 @@ drop-down-menu-title = Menu { -product-firefox-account(capitalization: "uppercas
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Connecté·e en tant que</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Déconnexion
+drop-down-menu-sign-out-error-2 = Un problème est survenu lors de votre déconnexion
 
 ## Flow Container
 
@@ -243,10 +245,12 @@ nav-email-comm = Communications électroniques
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error-2 = Un problème est survenu lors du remplacement de vos codes de récupération
 tfa-replace-code-success =
     De nouveaux codes ont été créés. Enregistrez ces codes à usage unique
     en lieu sûr — vous aurez besoin d’eux pour accéder à votre compte si vous ne
     disposez pas de votre appareil mobile.
+tfa-replace-code-success-alert-2 = Codes de récupération du compte mis à jour
 tfa-replace-code-1-2 = Étape 1 sur 2
 tfa-replace-code-2-2 = Étape 2 sur 2
 
@@ -485,19 +489,30 @@ rk-not-set = Non définie
 rk-action-create = Créer
 rk-action-remove = Supprimer
 rk-cannot-refresh = Oups, un problème est survenu lors de l’actualisation de la clé de récupération.
+rk-key-removed-2 = La clé de récupération a été supprimée
 rk-cannot-remove-key = La clé de récupération de votre compte n’a pas pu être supprimée.
 rk-refresh-key = Actualiser la clé de récupération
 rk-content-explain = Restauration de vos informations lorsque vous oubliez votre mot de passe.
 rk-content-reset-data = Pourquoi la réinitialisation de mon mot de passe réinitialise-t-elle aussi mes données ?
+rk-cannot-verify-session-3 = Un problème est survenu lors de la vérification de votre session
 rk-remove-modal-heading = Supprimer la clé de récupération ?
 rk-remove-modal-content = Si vous réinitialisez votre mot de passe, vous ne pourrez plus utiliser votre clé de récupération pour accéder à vos données. Cette action est irréversible.
 rk-refresh-error = Oups, un problème est survenu lors de l’actualisation de la clé de récupération.
+rk-remove-error-2 = La clé de récupération de votre compte n’a pas pu être supprimée
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Adresse électronique secondaire
     .header = Adresse électronique secondaire
 se-cannot-refresh-email = Un problème est survenu lors de l’actualisation de cette adresse.
+se-cannot-resend-code-2 = Un problème est survenu lors de la réexpédition du code de vérification
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = L’adresse { $email } a été supprimée
+se-delete-email-error-2 = Un problème est survenu lors de la suppression de cette adresse
+se-verify-session-2 = Vous devrez vérifier votre session en cours pour effectuer cette action
+se-verify-session-error-2 = Un problème est survenu lors de la vérification de votre session
 # Button to remove the secondary email
 se-remove-email =
     .title = Supprimer l’adresse
@@ -523,6 +538,7 @@ se-secondary-email-none = Aucune
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Authentification en deux étapes
+tfa-row-disabled-2 = Authentification en deux étapes désactivée
 tfa-row-enabled = Activée
 tfa-row-not-set = Non définie
 tfa-row-action-add = Ajouter
@@ -531,11 +547,13 @@ tfa-row-button-refresh =
     .title = Actualiser l’authentification en deux étapes
 tfa-row-cannot-refresh = Un problème est survenu lors de l’actualisation de l’authentification en deux étapes.
 tfa-row-content-explain = Empêche quelqu’un d’autre de se connecter en exigeant un code unique auquel vous seul·e avez accès.
+tfa-row-cannot-verify-session-3 = Un problème est survenu lors de la vérification de votre session
 tfa-row-disable-modal-heading = Désactiver l’authentification en deux étapes ?
 tfa-row-disable-modal-confirm = Désactiver
 tfa-row-disable-modal-explain =
     Vous ne pourrez pas annuler cette action. Vous avez également
     la possibilité de <linkExternal>remplacer vos codes de récupération</linkExternal>.
+tfa-row-cannot-disable-2 = L’authentification en deux étapes n’a pas pu être désactivée
 tfa-row-change-modal-heading = Changer les codes de récupération ?
 tfa-row-change-modal-confirm = Changer
 tfa-row-change-modal-explain = Vous ne pourrez pas annuler cette action.
