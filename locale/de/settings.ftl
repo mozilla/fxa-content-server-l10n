@@ -293,14 +293,10 @@ avatar-page-image-too-large-error-2 = Die Grafikdatei ist zu groß, um hochgelad
 
 pw-change-header =
     .title = Passwort ändern
-pw-change-stay-safe = Schützen Sie sich – verwenden Sie Passwörter nicht wieder. Ihr Passwort:
-pw-change-least-8-chars = Muss mindestens 8 Zeichen lang sein
-pw-change-not-contain-email = Darf nicht Ihre E-Mail-Adresse sein
+pw-8-chars = Mindestens 8 Zeichen
+pw-not-email = Nicht Ihre E-Mail-Adresse
 pw-change-must-match = Neues Passwort stimmt mit Bestätigung überein
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Darf nicht mit dieser <linkExternal>Liste häufiger
-    Passwörter</linkExternal> übereinstimmen
+pw-commonly-used = Kein häufig verwendetes Passwort
 pw-change-cancel-button = Abbrechen
 pw-change-save-button = Speichern
 pw-change-forgot-password-link = Passwort vergessen?
