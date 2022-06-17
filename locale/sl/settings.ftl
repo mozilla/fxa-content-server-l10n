@@ -336,14 +336,8 @@ avatar-page-image-too-large-error-2 = Datoteka s sliko je prevelika za nalaganje
 
 pw-change-header =
     .title = Spremeni geslo
-pw-change-stay-safe = Ostanite varni – ne uporabljajte enakih gesel na več mestih. Vaše geslo:
-pw-change-least-8-chars = mora vsebovati vsaj 8 znakov
-pw-change-not-contain-email = ne sme biti vaš e-poštni naslov
+pw-8-chars = vsaj 8 znakov
 pw-change-must-match = se mora ujemati s potrditvijo
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    ne sme biti na tem <linkExternal>seznamu
-    pogostih gesel</linkExternal>
 pw-change-cancel-button = Prekliči
 pw-change-save-button = Shrani
 pw-change-forgot-password-link = Ste pozabili geslo?
