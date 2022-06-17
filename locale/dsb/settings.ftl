@@ -295,14 +295,12 @@ avatar-page-image-too-large-error-2 = Wobrazowa dataja jo pśewjelika za nagraś
 
 pw-change-header =
     .title = Gronidło změniś
-pw-change-stay-safe = Šćitajśo se – njewužywajśo gronidła znowego. Wašo gronidło:
-pw-change-least-8-chars = Musy nanejmjenjej 8 znamuškow dłujke byś
-pw-change-not-contain-email = Njesmějo waša e-mailowa adresa byś
+pw-8-chars = Nanejmjenjej 8 znamuškow
+pw-not-email = Nic waša e-mailowa adresa
 pw-change-must-match = Nowe gronidło wobkšuśenjeju wótpowědujo
+pw-commonly-used = Nic cesto wužywane gronidło
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Njesmějo toś tej <linkExternal>lisćinje cestych
-    gronidłow</linkExternal> wótpowědowaś
+pw-tips = Wóstańśo wěsty – njewužywajśo gronidła wěcej raz. Glejśo dalšne pokaze aby <linkExternal>mócne gronidła napórał</linkExternal>.
 pw-change-cancel-button = Pśetergnuś
 pw-change-save-button = Składowaś
 pw-change-forgot-password-link = Sćo gronidło zabył?
