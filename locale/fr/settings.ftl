@@ -106,6 +106,11 @@ cs-heading = Services connectés
 cs-description = Tout ce que vous utilisez et auquel vous vous êtes connecté·e.
 cs-cannot-refresh = Désolé, un problème est survenu lors de l’actualisation de la liste des services connectés.
 cs-cannot-disconnect = Client introuvable, impossible de se déconnecter
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = Déconnecté·e de { $service }.
 cs-refresh-button =
     .title = Actualiser les services connectés
 # Link text to a support page on missing or duplicate devices
@@ -271,6 +276,7 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Impossible d’initialiser l’appareil photo
 avatar-page-new-avatar =
     .alt = nouvelle image de profil
+avatar-page-file-upload-error-3 = Un problème est survenu durant l’envoi de votre image de profil
 avatar-page-image-too-large-error-2 = Cette image est trop volumineuse pour être envoyée.
 
 ##
@@ -280,12 +286,7 @@ avatar-page-image-too-large-error-2 = Cette image est trop volumineuse pour êtr
 
 pw-change-header =
     .title = Changement de mot de passe
-pw-change-stay-safe = Restez en sécurité — ne réutilisez pas les mots de passe. Votre mot de passe :
-pw-change-least-8-chars = Doit être long d’au moins 8 caractères
-pw-change-not-contain-email = Doit être différent de votre adresse électronique
 pw-change-must-match = Le nouveau mot de passe correspond à la confirmation
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords = Ne doit pas figurer dans <linkExternal>cette liste de mots de passe trop courants</linkExternal>
 pw-change-cancel-button = Annuler
 pw-change-save-button = Enregistrer
 pw-change-forgot-password-link = Mot de passe oublié ?
