@@ -295,14 +295,12 @@ avatar-page-image-too-large-error-2 = Wobrazowa dataja je přewulka za nahraće
 
 pw-change-header =
     .title = Hesło změnić
-pw-change-stay-safe = Škitajće so – njewužiwajće hesła znowa. Waše hesło:
-pw-change-least-8-chars = Dyrbi znajmjeńša 8 znamješkow dołhe być
-pw-change-not-contain-email = Njesmě waša e-mejlowa adresa być
+pw-8-chars = Znajmjeńša 8 znamješkow
+pw-not-email = Nic waša e-mejlowa adresa
 pw-change-must-match = Nowe hesło wobkrućenju wotpowěduje
+pw-commonly-used = Nic husto wužiwane hesło
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Njesmě tutej <linkExternal>lisćinje hustych
-    hesłow</linkExternal> wotpowědować
+pw-tips = Wostańće wěsty – njewužiwajće hesła wjacekróć. Hlejće dalše pokiwy, zo byšće <linkExternal>sylne hesła wutworił</linkExternal>.
 pw-change-cancel-button = Přetorhnyć
 pw-change-save-button = Składować
 pw-change-forgot-password-link = Sće hesło zabył?
