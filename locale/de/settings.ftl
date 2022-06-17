@@ -297,6 +297,8 @@ pw-8-chars = Mindestens 8 Zeichen
 pw-not-email = Nicht Ihre E-Mail-Adresse
 pw-change-must-match = Neues Passwort stimmt mit Bestätigung überein
 pw-commonly-used = Kein häufig verwendetes Passwort
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Schützen Sie sich – verwenden Sie je ein Passwort pro Website. Hier finden Sie weitere Tipps zum <linkExternal>Erstellen sicherer Passwörter</linkExternal>.
 pw-change-cancel-button = Abbrechen
 pw-change-save-button = Speichern
 pw-change-forgot-password-link = Passwort vergessen?
