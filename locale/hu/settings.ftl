@@ -295,14 +295,12 @@ avatar-page-image-too-large-error-2 = A képfájl mérete túl nagy a feltölté
 
 pw-change-header =
     .title = Jelszó módosítása
-pw-change-stay-safe = Maradjon biztonságban – ne használja újra a jelszavakat. A jelszava:
-pw-change-least-8-chars = Legalább 8 karakter hosszúnak kell lennie
-pw-change-not-contain-email = Nem lehet az e-mail címe
+pw-8-chars = Legalább 8 karakter
+pw-not-email = Nem az Ön e-mail-címe
 pw-change-must-match = Az új jelszó megegyezik a megerősítő szöveggel
+pw-commonly-used = Nem gyakran használt jelszó
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Nem szerepelhez <linkExternal>a gyakori jelszavak
-    között</linkExternal>
+pw-tips = Maradjon biztonságban – ne használja újra a jelszavakat. Nézzen meg további tippeket az <linkExternal>erős jelszavak létrehozásához</linkExternal>.
 pw-change-cancel-button = Mégse
 pw-change-save-button = Mentés
 pw-change-forgot-password-link = Elfelejtette a jelszót?
