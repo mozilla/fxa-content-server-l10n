@@ -550,6 +550,8 @@ se-set-primary-error-2 = Δυστυχώς, προέκυψε πρόβλημα κ�
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = Το { $email } διαγράφηκε επιτυχώς
 se-delete-email-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά τη διαγραφή αυτού του email
+se-verify-session-2 = Θα πρέπει να επαληθεύσετε την τρέχουσα συνεδρία σας για την εκτέλεση αυτής της ενέργειας.
+se-verify-session-error-2 = Δυστυχώς, προέκυψε πρόβλημα με την επαλήθευση της συνεδρίας σας
 # Button to remove the secondary email
 se-remove-email =
     .title = Αφαίρεση email
@@ -588,6 +590,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Εμποδίστε τη σύνδεση τρίτων στον λογαριασμό σας με έναν
     μοναδικό κωδικό στον οποίο θα έχετε μόνο εσείς πρόσβαση.
+tfa-row-cannot-verify-session-3 = Δυστυχώς, προέκυψε πρόβλημα με την επαλήθευση της συνεδρίας σας
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο παραγόντων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
 tfa-row-disable-modal-explain =
