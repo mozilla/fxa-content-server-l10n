@@ -297,6 +297,7 @@ pw-change-header =
     .title = Cambiar contraseña
 pw-8-chars = Al menos 8 carácteres
 pw-change-must-match = La nueva contraseña coincide con la confirmación
+pw-commonly-used = No es una contraseña de uso común
 pw-change-cancel-button = Cancelar
 pw-change-save-button = Guardar
 pw-change-forgot-password-link = ¿Olvidaste tu contraseña?
