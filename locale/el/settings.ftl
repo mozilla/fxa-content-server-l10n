@@ -326,14 +326,8 @@ avatar-page-delete-error-3 = Προέκυψε πρόβλημα κατά τη δ�
 
 pw-change-header =
     .title = Αλλαγή κωδικού πρόσβασης
-pw-change-stay-safe = Προσοχή — μην χρησιμοποιείτε τον ίδιο κωδικό πρόσβασης. Ο κωδικός πρόσβασής σας:
-pw-change-least-8-chars = Πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες
-pw-change-not-contain-email = Δεν πρέπει να είναι η διεύθυνση email σας
+pw-8-chars = Τουλάχιστον 8 χαρακτήρες
 pw-change-must-match = Ο νέος κωδικός πρόσβασης αντιστοιχεί στην επιβεβαίωση
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Δεν πρέπει να συμφωνεί με τη <linkExternal>λίστα κοινών
-    κωδικών πρόσβασης</linkExternal>
 pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
 pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
