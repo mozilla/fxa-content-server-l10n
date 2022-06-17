@@ -296,8 +296,11 @@ avatar-page-image-too-large-error-2 = El tamaño de la imagen es demasiado grand
 pw-change-header =
     .title = Cambiar contraseña
 pw-8-chars = Al menos 8 carácteres
+pw-not-email = No es tu dirección de correo electrónico
 pw-change-must-match = La nueva contraseña coincide con la confirmación
 pw-commonly-used = No es una contraseña de uso común
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Mantente seguro — no reutilices las contraseñas. Vea más consejos para <linkExternal>crear contraseñas seguras</linkExternal>.
 pw-change-cancel-button = Cancelar
 pw-change-save-button = Guardar
 pw-change-forgot-password-link = ¿Olvidaste tu contraseña?
