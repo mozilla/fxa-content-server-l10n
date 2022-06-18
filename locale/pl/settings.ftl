@@ -372,14 +372,12 @@ avatar-page-image-too-large-error-2 = Rozmiar pliku obrazu jest za duży, aby mo
 
 pw-change-header =
     .title = Zmień hasło
-pw-change-stay-safe = Dbaj o bezpieczeństwo &mdash; nie używaj tego samego hasła w kilku miejscach. Twoje hasło:
-pw-change-least-8-chars = Musi mieć co najmniej 8 znaków
-pw-change-not-contain-email = Nie może być Twoim adresem e-mail
+pw-8-chars = Co najmniej 8 znaków
+pw-not-email = Nie może być używanym adresem e-mail
 pw-change-must-match = Nowe hasło zgadza się z potwierdzeniem
+pw-commonly-used = Nie może być często używanym hasłem
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Nie może być na tej
-    <linkExternal>liście popularnych haseł</linkExternal>
+pw-tips = Zachowaj bezpieczeństwo — każdego hasła używaj tylko w jednym miejscu. Przeczytaj o <linkExternal>tworzeniu silnych haseł</linkExternal>.
 pw-change-cancel-button = Anuluj
 pw-change-save-button = Zachowaj
 pw-change-forgot-password-link = Nie pamiętasz hasła?
