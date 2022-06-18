@@ -349,14 +349,12 @@ avatar-page-image-too-large-error-2 = Розмір файлу зображенн
 
 pw-change-header =
     .title = Змінити пароль
-pw-change-stay-safe = Будьте в безпеці — не використовуйте паролі повторно. Ваш пароль:
-pw-change-least-8-chars = Повинно бути не менше 8 символів
-pw-change-not-contain-email = Використайте іншу адресу е-пошти
+pw-8-chars = Принаймні 8 символів
+pw-not-email = Не ваша електронна адреса
 pw-change-must-match = Новий пароль збігається з підтвердженням
+pw-commonly-used = Не часто використовуваний пароль
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Повинен відрізнятися від цього <linkExternal>списку
-    поширених паролів</linkExternal>
+pw-tips = Убезпечте себе — не використовуйте паролі повторно. Перегляньте інші поради щодо <linkExternal>створення надійних паролів</linkExternal>.
 pw-change-cancel-button = Скасувати
 pw-change-save-button = Зберегти
 pw-change-forgot-password-link = Забули пароль?
