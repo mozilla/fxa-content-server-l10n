@@ -372,8 +372,8 @@ avatar-page-image-too-large-error-2 = Rozmiar pliku obrazu jest za duży, aby mo
 
 pw-change-header =
     .title = Zmień hasło
-pw-8-chars = Co najmniej 8 znaków
-pw-not-email = Nie może być używanym adresem e-mail
+pw-8-chars = Musi mieć co najmniej 8 znaków
+pw-not-email = Nie może być Twoim adresem e-mail
 pw-change-must-match = Nowe hasło zgadza się z potwierdzeniem
 pw-commonly-used = Nie może być często używanym hasłem
 # linkExternal is a link to a mozilla.org support article on password strength
