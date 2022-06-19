@@ -290,7 +290,10 @@ avatar-page-image-too-large-error-2 = Cette image est trop volumineuse pour êtr
 
 pw-change-header =
     .title = Changement de mot de passe
+pw-8-chars = Au moins 8 caractères
+pw-not-email = Pas votre adresse e-mail
 pw-change-must-match = Le nouveau mot de passe correspond à la confirmation
+pw-commonly-used = Pas un mot de passe trop commun
 pw-change-cancel-button = Annuler
 pw-change-save-button = Enregistrer
 pw-change-forgot-password-link = Mot de passe oublié ?
@@ -310,6 +313,7 @@ pw-change-success-alert-2 = Mot de passe mis à jour
 pw-create-header =
     .title = Créer un mot de passe
 pw-create-success-alert-2 = Mot de passe défini
+pw-create-error-2 = Un problème est survenu lors de la création de votre mot de passe
 
 ##
 
