@@ -280,12 +280,10 @@ avatar-page-image-too-large-error-2 = 画像ファイルのサイズが大きす
 
 pw-change-header =
     .title = パスワードを変更
-pw-change-stay-safe = 安全のためにパスワードを使い回ししないでください。
-pw-change-least-8-chars = 少なくとも 8 文字以上でなくてはいけません
-pw-change-not-contain-email = メールアドレスと同じにはできません
+pw-8-chars = 最低 8 文字
 pw-change-must-match = 新しいパスワードを再入力して一致させる必要があります
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords = <linkExternal>よくあるパスワード</linkExternal> は使えません
+pw-tips = 安全のため、パスワードを再利用してはいけません。<linkExternal>強力なパスワードを作成する</linkExternal>ためのヒントをご覧ください。
 pw-change-cancel-button = キャンセル
 pw-change-save-button = 保存
 pw-change-forgot-password-link = パスワードを忘れましたか？
