@@ -295,14 +295,12 @@ avatar-page-image-too-large-error-2 = Không thể tải lên ảnh có kích th
 
 pw-change-header =
     .title = Thay đổi mật khẩu
-pw-change-stay-safe = Giữ an toàn — không sử dụng lại mật khẩu. Mật khẩu của bạn:
-pw-change-least-8-chars = Phải có ít nhất 8 ký tự
-pw-change-not-contain-email = Không được là địa chỉ email của bạn
+pw-8-chars = Ít nhất 8 ký tự
+pw-not-email = Không phải địa chỉ email của bạn
 pw-change-must-match = Mật khẩu mới khớp với xác nhận mật khẩu
+pw-commonly-used = Không phải mật khẩu thường được sử dụng
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Không được giống như mật khẩu trong <linkExternal>danh sách 
-    mật khẩu phổ biến</linkExternal> này
+pw-tips = Giữ an toàn — không sử dụng lại mật khẩu. Xem thêm các mẹo để <linkExternal>tạo mật khẩu mạnh</linkExternal>.
 pw-change-cancel-button = Huỷ bỏ
 pw-change-save-button = Lưu
 pw-change-forgot-password-link = Quên mật khẩu?
