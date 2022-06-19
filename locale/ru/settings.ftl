@@ -258,10 +258,12 @@ nav-email-comm = Почтовые рассылки
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error-2 = При замене ваших кодов восстановления возникла проблема
 tfa-replace-code-success =
     Созданы новые коды. Храните эти одноразовые коды
     в безопасном месте — они понадобятся вам для доступа к вашему аккаунту,
     если у вас не будет доступа к мобильному устройству.
+tfa-replace-code-success-alert-2 = Коды восстановления аккаунта обновлены
 tfa-replace-code-1-2 = Шаг 1 из 2
 tfa-replace-code-2-2 = Шаг 2 из 2
 
@@ -291,6 +293,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Не удалось инициализировать камеру
 avatar-page-new-avatar =
     .alt = новое фото профиля
+avatar-page-file-upload-error-3 = При выгрузке фото вашего профиля возникла проблема
+avatar-page-delete-error-3 = При удалении фото вашего профиля возникла проблема
+avatar-page-image-too-large-error-2 = Размер файла изображения слишком велик для загрузки
 
 ##
 
@@ -299,7 +304,12 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Сменить пароль
+pw-8-chars = Не менее 8 символов
+pw-not-email = Не ваш адрес электронной почты
 pw-change-must-match = Новый пароль совпадает с подтверждением
+pw-commonly-used = Не часто используемый пароль
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Будьте в безопасности — не используйте пароли повторно. Ознакомьтесь с дополнительными советами по <linkExternal>созданию надёжных паролей</linkExternal>.
 pw-change-cancel-button = Отмена
 pw-change-save-button = Сохранить
 pw-change-forgot-password-link = Забыли пароль?
@@ -309,12 +319,17 @@ pw-change-new-password =
     .label = Введите новый пароль
 pw-change-confirm-password =
     .label = Подтвердите новый пароль
+pw-change-success-alert-2 = Пароль изменён
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = Создать пароль
+pw-create-success-alert-2 = Пароль установлен
+pw-create-error-2 = К сожалению, при установке вашего пароля возникла проблема
 
 ##
 
@@ -352,6 +367,8 @@ display-name-input =
     .label = Введите отображаемое имя
 submit-display-name = Сохранить
 cancel-display-name = Отмена
+display-name-update-error-2 = При обновлении вашего отображаемого имени возникла проблема
+display-name-success-alert-2 = Отображаемое имя обновлено
 
 ##
 
@@ -368,10 +385,12 @@ recovery-key-page-title =
     .title = Ключ восстановления
 recovery-key-step-1 = Шаг 1 из 2
 recovery-key-step-2 = Шаг 2 из 2
+recovery-key-success-alert-2 = Ключ восстановления создан
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Шаг 1 из 2
+add-secondary-email-error-2 = При добавлении этого адреса электронной почты возникла проблема
 add-secondary-email-page-title =
     .title = Дополнительный адрес электронной почты
 add-secondary-email-enter-address =
@@ -382,6 +401,7 @@ add-secondary-email-save-button = Сохранить
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Шаг 2 из 2
+verify-secondary-email-error-2 = При отправке кода подтверждения возникла проблема
 verify-secondary-email-page-title =
     .title = Дополнительный адрес электронной почты
 verify-secondary-email-verification-code =
@@ -392,6 +412,10 @@ verify-secondary-email-verify-button = Подтвердить
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Пожалуйста, введите код подтверждения, который был отправлен на <strong>{ $email }</strong>, в течение 5 минут.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } успешно добавлен
 
 ##
 
@@ -409,6 +433,7 @@ tfa-button-cancel = Отмена
 tfa-button-finish = Готово
 tfa-incorrect-totp = Неверный код двухэтапной аутентификации
 tfa-cannot-retrieve-code = При запрашивании вашего кода произошла ошибка.
+tfa-cannot-verify-code-2 = При проверке кода восстановления возникла проблема
 tfa-incorrect-recovery-code = Неверный код восстановления
 tfa-enabled = Двухэтапная аутентификация включена
 tfa-scan-this-code =
@@ -464,6 +489,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Создан { $date }
+security-not-set = Не настроена
+security-action-create = Создать
+security-set-password = Установите пароль для синхронизации и использования определенных функций безопасности учётной записи.
 
 ## Switch component
 
@@ -491,21 +519,37 @@ rk-not-set = Не настроен
 rk-action-create = Создать
 rk-action-remove = Удалить
 rk-cannot-refresh = К сожалению, при обновлении ключа восстановления произошла ошибка.
+rk-key-removed-2 = Ключ восстановления аккаунта удалён
 rk-cannot-remove-key = Ключ восстановления вашего аккаунта не может быть удалён.
 rk-refresh-key = Обновить ключ восстановления
 rk-content-explain = Восстановите свою информацию, если вы забудете свой пароль.
 rk-content-reset-data = Почему при сбросе пароля удаляются мои данные?
+rk-cannot-verify-session-3 = К сожалению, при проверке вашей сессии произошла ошибка
 rk-remove-modal-heading = Удалить ключ восстановления?
 rk-remove-modal-content =
     При сбросе вашего пароля, вы не сможете
     воспользоваться ключами восстановления для доступа к вашим данным. Это действие нельзя отменить.
 rk-refresh-error = К сожалению, при обновлении ключа восстановления произошла ошибка.
+rk-remove-error-2 = Ключ восстановления вашего аккаунта не может быть удалён
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Дополнительный адрес электронной почты
     .header = Дополнительный адрес электронной почты
 se-cannot-refresh-email = К сожалению, при обновлении этого адреса электронной почты произошла ошибка.
+se-cannot-resend-code-2 = К сожалению, при повторной отправке кода подтверждения возникла проблема
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } теперь является вашим основным адресом электронной почты
+se-set-primary-error-2 = К сожалению, при изменении вашего основного адреса электронной почты возникла проблема
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } успешно удалён
+se-delete-email-error-2 = К сожалению, при удалении этого адреса электронной почты возникла проблема
+se-verify-session-2 = Вам необходимо подтвердить свою текущую сессию для выполнения этого действия
+se-verify-session-error-2 = К сожалению, при проверке вашей сессии возникла проблема
 # Button to remove the secondary email
 se-remove-email =
     .title = Удалить электронную почту
@@ -529,6 +573,7 @@ se-secondary-email-none = Нет
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двухэтапная аутентификация
+tfa-row-disabled-2 = Двухэтапная аутентификация отключена
 tfa-row-enabled = Включена
 tfa-row-not-set = Не настроена
 tfa-row-action-add = Добавить
@@ -541,11 +586,13 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Запретите вход другим, затребовав 
     уникальный код, доступ к которому есть только у вас.
+tfa-row-cannot-verify-session-3 = К сожалению, при проверке вашей сессии возникла проблема
 tfa-row-disable-modal-heading = Отключить двухэтапную аутентификацию?
 tfa-row-disable-modal-confirm = Отключить
 tfa-row-disable-modal-explain =
     Вы не сможете отменить это действие. У вас также
     есть возможность <linkExternal>заменить свои коды восстановления</linkExternal>.
+tfa-row-cannot-disable-2 = Двухэтапная аутентификация не может быть отключена
 tfa-row-change-modal-heading = Сменить коды восстановления?
 tfa-row-change-modal-confirm = Сменить
 tfa-row-change-modal-explain = Вы не сможете отменить это действие.
