@@ -281,6 +281,7 @@ avatar-page-camera-error = Impossible d’initialiser l’appareil photo
 avatar-page-new-avatar =
     .alt = nouvelle image de profil
 avatar-page-file-upload-error-3 = Un problème est survenu durant l’envoi de votre image de profil
+avatar-page-delete-error-3 = Un problème est survenu lors de la suppression de votre image de profil
 avatar-page-image-too-large-error-2 = Cette image est trop volumineuse pour être envoyée.
 
 ##
