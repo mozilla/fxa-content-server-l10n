@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-05 22:07+0000\n"
-"PO-Revision-Date: 2022-06-19 14:10+0000\n"
+"PO-Revision-Date: 2022-06-19 14:12+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1204,7 +1204,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr ""
+msgstr "ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰੋ"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
@@ -1291,7 +1291,7 @@ msgstr "ਕਾਮਯਾਬ"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "ਹੁਣ ਤੁਸੀਂ <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1476,7 +1476,7 @@ msgstr "ਫਾਇਰਫਾਕਸ ਖਾਤੇ"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "ਖਾਤੇ ਦਾ ਮੁੱਖ ਸਫ਼ਾ"
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
@@ -1488,11 +1488,11 @@ msgstr "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "ਤੁਸੀਂ ਸਾਡੇ ਨਾਲ ਕਿਸ ਬਾਰੇ ਸੰਪਰਕ ਕਰ ਰਹੇ ਹੋ?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "ਇੱਕ ਚੁਣੋ"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
@@ -1580,7 +1580,7 @@ msgstr ""
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Firefox ਲਈ ਨਵਾਂ ਸਾਈਨ-ਇਨ"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
@@ -1592,19 +1592,19 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "ਲਾਗਇਨ ਪੁਸ਼ ਸੂਚਨਾ ਭੇਜੋ"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "ਸਾਡੇ ਵਲੋਂ ਭੇਜੇ ਸਾਈਨ-ਇਨ ਤਸਦੀਕ ਟੈਬ ਲਈ ਆਪਣੇ ਕਨੈਕਟ ਕੀਤੇ ਹੋਏ Firefox ਡਿਵਾਈਸਾਂ ਨੂੰ ਚੈਕ ਕਰੋ।"
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "ਟੈਬ ਮੁੜ-ਭੇਜੋ"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "ਟੈਬ ਹਾਲੇ ਨਹੀ ਆਈ? ਇਸ ਦੀ ਬਜਾਏ ਈਮੇਲ ਭੇਜੋ"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
