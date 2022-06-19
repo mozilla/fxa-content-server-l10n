@@ -115,23 +115,21 @@ cs-cannot-disconnect = Клиент не найден, отключить не �
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Вы вышли из службы { $service }.
+cs-logged-out-2 = Вы вышли из { $service }.
 cs-refresh-button =
     .title = Обновить подключённые службы
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Отсутствующие или повторяющиеся элементы?
 cs-disconnect-sync-heading = Отсоединиться от Синхронизации
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Ваши данные веб-сёрфинга останутся на вашем
-    устройстве ({ $device }), но оно более не будет синхронизироваться с вашим аккаунтом.
-cs-disconnect-sync-reason =
-    Какова главная причина отсоединения этого
-    устройства?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+cs-disconnect-sync-content-2 = Ваши данные веб-сёрфинга останутся на { $device }, но оно больше не будет синхронизироваться с вашим аккаунтом.
+cs-disconnect-sync-reason-2 = Какова главная причина отсоединения { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -179,7 +177,7 @@ dc-subheader = Помогите улучшить { -product-firefox-accounts(cas
 dc-subheader-content = Разрешить { -product-firefox-accounts(case: "plural_dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
 dc-opt-out-success = Отказ подтверждён. { -product-firefox-accounts(case: "plural") } не будет отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
 dc-opt-in-success = Спасибо! Отправка этих данных поможет нам улучшить { -product-firefox-accounts(case: "plural") }.
-dc-opt-in-out-error = К сожалению, при изменении вашей настройки сбора данных возникла проблема.
+dc-opt-in-out-error-2 = К сожалению, при изменении вашей настройки сбора данных возникла проблема
 dc-learn-more = Подробнее
 
 # DropDownAvatarMenu component
@@ -190,7 +188,7 @@ drop-down-menu-title = Меню { -product-firefox-account(case: "singular_genit
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Вы вошли как:</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Выйти
-drop-down-menu-sign-out-error = К сожалению, при выходе возникла проблема.
+drop-down-menu-sign-out-error-2 = К сожалению, при выходе возникла проблема
 
 ## Flow Container
 
@@ -260,12 +258,10 @@ nav-email-comm = Почтовые рассылки
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = При замене ваших кодов восстановления произошла ошибка.
 tfa-replace-code-success =
     Созданы новые коды. Храните эти одноразовые коды
     в безопасном месте — они понадобятся вам для доступа к вашему аккаунту,
     если у вас не будет доступа к мобильному устройству.
-tfa-replace-code-success-alert = Коды восстановления аккаунта обновлены.
 tfa-replace-code-1-2 = Шаг 1 из 2
 tfa-replace-code-2-2 = Шаг 2 из 2
 
@@ -295,9 +291,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Не удалось инициализировать камеру
 avatar-page-new-avatar =
     .alt = новое фото профиля
-avatar-page-file-upload-error-2 = При выгрузке фото вашего профиля произошла ошибка.
-avatar-page-delete-error-2 = При удалении фото вашего профиля произошла ошибка.
-avatar-page-image-too-large-error = Размер файла изображения слишком велик для выгрузки.
 
 ##
 
@@ -306,14 +299,7 @@ avatar-page-image-too-large-error = Размер файла изображени
 
 pw-change-header =
     .title = Сменить пароль
-pw-change-stay-safe = Оставайтесь в безопасности — не используйте пароли повторно. Ваш пароль:
-pw-change-least-8-chars = Должен быть не менее 8 символов
-pw-change-not-contain-email = Не должен содержать вашего адреса электронной почты
 pw-change-must-match = Новый пароль совпадает с подтверждением
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Не должен содержать паролей из <linkExternal>списка
-    популярных</linkExternal>
 pw-change-cancel-button = Отмена
 pw-change-save-button = Сохранить
 pw-change-forgot-password-link = Забыли пароль?
@@ -323,7 +309,12 @@ pw-change-new-password =
     .label = Введите новый пароль
 pw-change-confirm-password =
     .label = Подтвердите новый пароль
-pw-change-success-alert = Пароль обновлён.
+
+##
+
+
+## Password create page
+
 
 ##
 
@@ -361,8 +352,6 @@ display-name-input =
     .label = Введите отображаемое имя
 submit-display-name = Сохранить
 cancel-display-name = Отмена
-display-name-update-error = При обновлении вашего отображаемого имени произошла ошибка.
-display-name-success-alert = Отображаемое имя обновлено.
 
 ##
 
@@ -379,12 +368,10 @@ recovery-key-page-title =
     .title = Ключ восстановления
 recovery-key-step-1 = Шаг 1 из 2
 recovery-key-step-2 = Шаг 2 из 2
-recovery-key-success-alert = Ключ восстановления создан.
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Шаг 1 из 2
-add-secondary-email-error = При добавлении этого адреса электронной почты произошла ошибка.
 add-secondary-email-page-title =
     .title = Дополнительный адрес электронной почты
 add-secondary-email-enter-address =
@@ -395,7 +382,6 @@ add-secondary-email-save-button = Сохранить
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Шаг 2 из 2
-verify-secondary-email-error = При отправке кода подтверждения произошла ошибка.
 verify-secondary-email-page-title =
     .title = Дополнительный адрес электронной почты
 verify-secondary-email-verification-code =
@@ -406,10 +392,6 @@ verify-secondary-email-verify-button = Подтвердить
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Пожалуйста, введите код подтверждения, который был отправлен на <strong>{ $email }</strong>, в течение 5 минут.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } успешно добавлен.
 
 ##
 
@@ -427,7 +409,6 @@ tfa-button-cancel = Отмена
 tfa-button-finish = Готово
 tfa-incorrect-totp = Неверный код двухэтапной аутентификации
 tfa-cannot-retrieve-code = При запрашивании вашего кода произошла ошибка.
-tfa-cannot-verify-code = При проверке кода восстановления произошла ошибка.
 tfa-incorrect-recovery-code = Неверный код восстановления
 tfa-enabled = Двухэтапная аутентификация включена
 tfa-scan-this-code =
@@ -510,37 +491,21 @@ rk-not-set = Не настроен
 rk-action-create = Создать
 rk-action-remove = Удалить
 rk-cannot-refresh = К сожалению, при обновлении ключа восстановления произошла ошибка.
-rk-key-removed = Ключ восстановления аккаунта удалён.
 rk-cannot-remove-key = Ключ восстановления вашего аккаунта не может быть удалён.
 rk-refresh-key = Обновить ключ восстановления
 rk-content-explain = Восстановите свою информацию, если вы забудете свой пароль.
 rk-content-reset-data = Почему при сбросе пароля удаляются мои данные?
-rk-cannot-verify-session-2 = К сожалению, при подтверждении вашей сессии произошла ошибка.
 rk-remove-modal-heading = Удалить ключ восстановления?
 rk-remove-modal-content =
     При сбросе вашего пароля, вы не сможете
     воспользоваться ключами восстановления для доступа к вашим данным. Это действие нельзя отменить.
 rk-refresh-error = К сожалению, при обновлении ключа восстановления произошла ошибка.
-rk-remove-error = Ключ восстановления вашего аккаунта не может быть удалён.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Дополнительный адрес электронной почты
     .header = Дополнительный адрес электронной почты
 se-cannot-refresh-email = К сожалению, при обновлении этого адреса электронной почты произошла ошибка.
-se-cannot-resend-code = К сожалению, при повторной отправке кода подтверждения произошла ошибка.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } теперь является вашим основным адресом электронной почты.
-se-set-primary-error = К сожалению, при изменении вашего основного адреса электронной почты произошла ошибка.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } успешно удалён.
-se-delete-email-error = К сожалению, при удалении этого адреса электронной почты произошла ошибка.
-se-verify-session = Вам необходимо подтвердить свою текущую сессию для выполнения этого действия.
-se-verify-session-error = К сожалению, при подтверждении вашей сессии произошла ошибка.
 # Button to remove the secondary email
 se-remove-email =
     .title = Удалить электронную почту
@@ -564,7 +529,6 @@ se-secondary-email-none = Нет
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двухэтапная аутентификация
-tfa-row-disabled = Двухэтапная аутентификация отключена.
 tfa-row-enabled = Включена
 tfa-row-not-set = Не настроена
 tfa-row-action-add = Добавить
@@ -577,13 +541,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Запретите вход другим, затребовав 
     уникальный код, доступ к которому есть только у вас.
-tfa-row-cannot-verify-session-2 = К сожалению, при подтверждении вашей сессии произошла ошибка.
 tfa-row-disable-modal-heading = Отключить двухэтапную аутентификацию?
 tfa-row-disable-modal-confirm = Отключить
 tfa-row-disable-modal-explain =
     Вы не сможете отменить это действие. У вас также
     есть возможность <linkExternal>заменить свои коды восстановления</linkExternal>.
-tfa-row-cannot-disable = Двухэтапная аутентификация не может быть отключена.
 tfa-row-change-modal-heading = Сменить коды восстановления?
 tfa-row-change-modal-confirm = Сменить
 tfa-row-change-modal-explain = Вы не сможете отменить это действие.

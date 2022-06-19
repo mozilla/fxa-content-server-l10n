@@ -171,7 +171,6 @@ payment-confirm-with-legal-links-year =
         [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } года</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
        *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } лет</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
     }
-payment-confirm = Я разрешаю Mozilla, производителю продуктов Firefox, взимать с моего метода оплаты <strong>{ $amount } за { $interval }</strong> в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
 
 ##
 
@@ -475,6 +474,8 @@ new-user-subscribe-product-assurance = Мы используем вашу эле
 new-user-email-validate = Электронная почта недействительна
 new-user-email-validate-confirm = Адреса электронной почты не совпадают
 new-user-already-has-account-sign-in = У вас уже есть аккаунт. <a>Войдите</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Опечатались? { $domain } не предлагает услуг электронной почты.
 new-user-card-title = Введите данные вашей карты
 new-user-submit = Подписаться
 manage-pocket-title = Ищете премиум-подписку на { -brand-name-pocket }?
