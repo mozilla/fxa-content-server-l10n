@@ -23,6 +23,7 @@ alert-bar-close-message = ਸੁਨੇਹਾ ਬੰਦ ਕਰੋ
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox ਖਾਤੇ
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -31,6 +32,7 @@ alert-bar-close-message = ਸੁਨੇਹਾ ਬੰਦ ਕਰੋ
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +71,7 @@ bento-menu-firefox-title = { -brand-firefox } ਤਕਨੀਕ ਹੈ ਜੋ ਤ�
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } ਡੈਸਕਟਾਪ ਲਈ ਬਰਾਊਜ਼ਰ
 bento-menu-firefox-mobile = { -brand-firefox } ਮੋਬਾਈਲ ਲਈ ਬਰਾਊਜ਼ਰ
 bento-menu-made-by-mozilla = { -brand-mozilla } ਵਲੋਂ ਬਣਾਏ
@@ -77,6 +80,12 @@ bento-menu-made-by-mozilla = { -brand-mozilla } ਵਲੋਂ ਬਣਾਏ
 
 connect-another-fx-mobile = ਮੋਬਾਈਲ ਜਾਂ ਟੈਬਲੇਟ ਲਈ { -brand-firefox } ਲਵੋ
 connect-another-find-fx-mobile = { -google-play } ਅਤੇ { -app-store } ਵਿੱਚ { -brand-firefox } ਲੱਭੋ ਜਾਂ <br /><linkExternal>ਆਪਣੇ ਮੋਬਾਈਲ ਲਈ ਡਾਊਨਲੋਡ ਲਿੰਕ ਭੇਜੋ।</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = { -google-play } ਤੋਂ { -brand-firefox } ਡਾਊਨਲੋਡ ਕਰੋ
+connect-another-app-store-image-2 =
+    .title = { -app-store } ਤੋਂ { -brand-firefox } ਡਾਊਨਲੋਡ ਕਰੋ
 
 ##
 
@@ -91,19 +100,19 @@ cs-cannot-disconnect = ਕਲਾਈਂਟ ਨਹੀਂ ਲੱਭਿਆ, ਡਿ�
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = { $service } ਵਿੱਚੋਂ ਲਾਗ ਆਉਟ ਕੀਤਾ
+cs-logged-out-2 = { $service } ਚੋਂ ਲਾਗ ਆਉਟ ਕੀਤਾ
 cs-refresh-button =
     .title = ਕਨੈਕਟ ਹੋਈਆਂ ਸੇਵਾਵਾਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ਗੁੰਮ ਜਾਂ ਡੁਪਲੀਕੇਟ ਚੀਜ਼ਾਂ ਹਨ?
 cs-disconnect-sync-heading = ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰੋ
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content = ਤੁਹਾਡਾ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲਾ ਡਾਟਾ ਤੁਹਾਡੇ ਡਿਵਾਈਸ ({ $device }) ਉੱਤੇ ਹੀ ਰਹੇਗਾ, ਪਰ ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਸਿੰਕ ਨਹੀਂ ਹੋਵੇਗਾ।
-cs-disconnect-sync-reason = ਇਸ ਡਿਵਾਈਸ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰਨ ਦਾ ਮੁੱਖ ਕਾਰਨ ਕੀ ਸੀ?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -134,6 +143,12 @@ datablock-copy =
 datablock-print =
     .message = ਪਰਿੰਟ ਕੀਤਾ
 
+## Data collection section
+
+dc-heading = ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋਂ
+dc-subheader = { -product-firefox-accounts } ਵਧੀਆ ਬਣਾਉਣ ਲਈ ਮਦਦ
+dc-learn-more = ਹੋਰ ਜਾਣੋ
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } ਮੇਨੂ
@@ -142,7 +157,7 @@ drop-down-menu-title = { -product-firefox-account } ਮੇਨੂ
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <user>{ $user }</user> ਵਜੋਂ <signin>ਸਾਈਨ ਇਨ ਕੀਤਾ</signin>
 drop-down-menu-sign-out = ਸਾਈਨ ਆਉਟ
-drop-down-menu-sign-out-error = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਸਾਈਨ ਆਉਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ।
+drop-down-menu-sign-out-error-2 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਸਾਈਨ ਆਉਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 
 ## Flow Container
 
@@ -174,6 +189,14 @@ input-password-show = ਪਾਸਵਰਡ ਵੇਖਾਓ
 input-password-hide-aria = ਸਕਰੀਨ ਤੋਂ ਪਾਸਵਰਡ ਨੂੰ ਓਹਲੇ ਕਰੋ।
 input-password-show-aria = ਪਾਸਵਰਡ ਨੂੰ ਸਰਲ ਲਿਖਤ ਵਜੋਂ ਵੇਖਾਓ। ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਸਕਰੀਨ ਉੱਤੇ ਦਿਖਾਈ ਦੇਵੇਗਾ।
 
+## Linked Accounts section
+
+la-heading = ਲਿੰਕ ਕੀਤੇ ਖਾਤੇ
+la-unlink-button = ਅਣ-ਲਿੰਕ ਕਰੋ
+la-unlink-account-button = ਅਣ-ਲਿੰਕ ਕਰੋ
+la-unlink-heading = ਤੀਜੀ ਧਿਰ ਦੇ ਖਾਤੇ ਤੋਂ ਅਣ-ਲਿੰਕ ਕਰੋ
+nav-linked-accounts = { la-heading }
+
 ## Modal
 
 modal-close-title = ਬੰਦ ਕਰੋ
@@ -196,13 +219,14 @@ nav-settings = ਸੈਟਿੰਗਾਂ
 nav-profile = ਪਰੋਫਾਇਲ
 nav-security = ਸੁਰੱਖਿਆ
 nav-connected-services = ਕਨੈਕਟ ਹੋਈਆਂ ਸੇਵਾਵਾਂ
+nav-data-collection = ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋਂ
 nav-paid-subs = ਭੁਗਤਾਨ ਕੀਤੀਆਂ ਮੈਂਬਰੀਆਂ
 nav-email-comm = ਈਮੇਲ ਪੱਤਰ-ਵਿਹਾਰ
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = ਤੁਹਾਡੇ ਰਿਕਵਰੀ ਕੋਡਾਂ ਨੂੰ ਤਬਦੀਲ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ।
-tfa-replace-code-success-alert = ਖਾਤਾ ਰਿਕਵਰੀ ਕੋਡਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ ਸੀ।
+tfa-replace-code-1-2 = 2 ਚੋਂ 1 ਪੜਾਅ
+tfa-replace-code-2-2 = 2 ਚੋਂ 2 ਪੜਾਅ
 
 ## Avatar change page
 
@@ -230,9 +254,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = ਕੈਮਰਾ ਚਾਲੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ
 avatar-page-new-avatar =
     .alt = ਨਵੀਂ ਪਰੋਫਾਈਲ ਤਸਵੀਰ
-avatar-page-file-upload-error-2 = ਤੁਹਾਡੀ ਪਰੋਫਾਈਲ ਤਸਵੀਰ ਅੱਪਲੋਡ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ।
-avatar-page-delete-error-2 = ਤੁਹਾਡੀ ਪਰੋਫਾਈਲ ਤਸਵੀਰ ਹਟਾਉਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ।
-avatar-page-image-too-large-error = ਅੱਪਲੋਡ ਕਰਨ ਲਈ ਚਿੱਤਰ ਤਸਵੀਰ ਬਹੁਤ ਵੱਡੀ ਹੈ।
 
 ##
 
@@ -241,12 +262,7 @@ avatar-page-image-too-large-error = ਅੱਪਲੋਡ ਕਰਨ ਲਈ ਚਿ�
 
 pw-change-header =
     .title = ਪਾਸਵਰਡ ਬਦਲੋ
-pw-change-stay-safe = ਸੁਰੱਖਿਅਤ ਰਹੋ — ਆਪਣੇ ਪਾਸਵਰਡ ਮੁੜ ਨਾ ਵਰਤੋਂ। ਤੁਹਾਡਾ ਪਾਸਵਰਡ:
-pw-change-least-8-chars = ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
-pw-change-not-contain-email = ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ
 pw-change-must-match = ਨਵੇਂ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹੋਣ ਦੀ ਤਸਦੀਕ ਕਰੋ
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords = ਇਹ <linkExternal>ਆਮ ਪਾਸਵਰਡ ਦੀ ਸੂਚੀ</linkExternal> ਨਾਲ ਮਿਲਦਾ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ
 pw-change-cancel-button = ਰੱਦ ਕਰੋ
 pw-change-save-button = ਸੰਭਾਲੋ
 pw-change-forgot-password-link = ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
@@ -256,7 +272,16 @@ pw-change-new-password =
     .label = ਨਵਾਂ ਪਾਸਵਰਡ ਦਿਓ
 pw-change-confirm-password =
     .label = ਨਵੇਂ ਪਾਸਵਰਡ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
-pw-change-success-alert = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ।
+pw-change-success-alert-2 = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
+
+##
+
+
+## Password create page
+
+pw-create-header =
+    .title = ਪਾਸਵਰਡ ਬਣਾਓ
+pw-create-success-alert-2 = ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ
 
 ##
 
@@ -284,6 +309,7 @@ display-name-input =
     .label = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ
 submit-display-name = ਸੰਭਾਲੋ
 cancel-display-name = ਰੱਦ ਕਰੋ
+display-name-success-alert-2 = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤਾ
 
 ##
 
@@ -299,7 +325,7 @@ recovery-key-page-title =
     .title = ਬਹਾਲੀ ਕੁੰਜੀ
 recovery-key-step-1 = 2 ਚੋਂ 1 ਪੜਾਅ
 recovery-key-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
-recovery-key-success-alert = ਬਹਾਲੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ।
+recovery-key-success-alert-2 = ਬਹਾਲੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
 
 ## Add secondary email page
 
@@ -311,13 +337,9 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = ਰੱਦ ਕਰੋ
 add-secondary-email-save-button = ਸੰਭਾਲੋ
 
-##
-
-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
-verify-secondary-email-error = ਤਸਦੀਕ ਕੋਡ ਭੇਜਣ ਦੌਰਾਨ ਗੜਬੜ ਹੋਈ।
 verify-secondary-email-page-title =
     .title = ਸੈਕੰਡਰੀ ਈਮੇਲ
 verify-secondary-email-verification-code =
@@ -327,7 +349,7 @@ verify-secondary-email-verify-button = ਤਸਦੀਕ ਕਰੋ
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } ਕਾਮਯਾਬੀ ਨਾਲ ਜੋੜਿਆ ਗਿਆ।
+verify-secondary-email-success-alert-2 = { $email } ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਜੋੜਿਆ
 
 ##
 
@@ -344,6 +366,8 @@ tfa-button-continue = ਜਾਰੀ ਰੱਖੋ
 tfa-button-cancel = ਰੱਦ ਕਰੋ
 tfa-button-finish = ਮੁਕੰਮਲ
 tfa-incorrect-totp = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣਕਿਤਾ ਕੋਡ
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ?
 tfa-input-enter-totp =
     .label = ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ
@@ -360,12 +384,6 @@ profile-picture =
     .header = ਤਸਵੀਰ
 profile-display-name =
     .header = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ
-profile-password =
-    .header = ਪਾਸਵਰਡ
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = { $date } ਨੂੰ ਬਣਾਇਆ
 profile-primary-email =
     .header = ਮੁੱਢਲਾ ਈਮੇਲ
 
@@ -375,6 +393,25 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = ਸੁਰੱਖਿਆ
+security-password =
+    .header = ਪਾਸਵਰਡ
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = { $date } ਨੂੰ ਬਣਾਇਆ
+security-not-set = ਸੈੱਟ ਨਹੀਂ
+security-action-create = ਬਣਾਓ
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = ਬੰਦ ਕਰੋ
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = ਚਾਲੂ ਕਰੋ
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = ਭੇਜਿਆ ਜਾ ਰਿਹਾ ਹੈ…
+switch-is-on = ਚਾਲੂ
+switch-is-off = ਬੰਦ
 
 ## Sub-section row Defaults
 
@@ -390,6 +427,7 @@ rk-enabled = ਸਮਰੱਥ ਹੈ
 rk-not-set = ਸੈੱਟ ਨਹੀਂ
 rk-action-create = ਬਣਾਓ
 rk-action-remove = ਹਟਾਓ
+rk-refresh-key = ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਾਜ਼ਾ ਕਰੋ
 
 ## Secondary email sub-section on main Settings page
 
@@ -398,7 +436,7 @@ se-heading = ਸੈਕੰਡਰੀ ਈਮੇਲ
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } ਕਾਮਯਾਬੀ ਨਾਲ ਹਟਾਇਆ।
+se-delete-email-successful-2 = { $email } ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਹਟਾਇਆ
 # Button to remove the secondary email
 se-remove-email =
     .title = ਈਮੇਲ ਹਟਾਓ
@@ -408,6 +446,8 @@ se-refresh-email =
 se-unverified = ਨਾ-ਤਸਦੀਕ ਕੀਤਾ
 # Button to make secondary email the primary
 se-make-primary = ਮੁੱਢਲਾ ਬਣਾਓ
+# Default value for the secondary email
+se-secondary-email-none = ਕੋਈ ਨਹੀਂ
 
 ##
 
@@ -415,7 +455,7 @@ se-make-primary = ਮੁੱਢਲਾ ਬਣਾਓ
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ
-tfa-row-disabled = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਅਸਮਰੱਥ ਹੈ।
+tfa-row-disabled-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਅਸਮਰੱਥ ਹੈ
 tfa-row-enabled = ਸਮਰੱਥ ਹੈ
 tfa-row-not-set = ਸੈੱਟ ਨਹੀਂ
 tfa-row-action-add = ਜੋੜੋ
@@ -430,6 +470,7 @@ tfa-row-change-modal-confirm = ਬਦਲੋ
 
 auth-error-102 = ਅਣਪਛਾਤਾ ਖਾਤਾ
 auth-error-103 = ਗਲਤ ਪਾਸਵਰਡ
+auth-error-105 = ਗਲਤ ਤਸਦੀਕ ਕੋਡ
 auth-error-110 = ਗਲਤ ਟੋਕਨ
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
