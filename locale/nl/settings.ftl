@@ -295,14 +295,12 @@ avatar-page-image-too-large-error-2 = De afbeeldingsbestandsgrootte is te groot 
 
 pw-change-header =
     .title = Wachtwoord wijzigen
-pw-change-stay-safe = Blijf veilig – gebruik wachtwoorden niet opnieuw. Uw wachtwoord:
-pw-change-least-8-chars = Moet minstens 8 tekens bevatten
-pw-change-not-contain-email = Mag niet uw e-mailadres zijn
+pw-8-chars = Ten minste 8 tekens
+pw-not-email = Niet uw e-mailadres
 pw-change-must-match = Nieuw wachtwoord komt overeen met bevestiging
+pw-commonly-used = Geen veelgebruikt wachtwoord
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Mag niet overeenkomen met deze <linkExternal>lijst met veelgebruikte
-    wachtwoorden</linkExternal>
+pw-tips = Blijf veilig – gebruik wachtwoorden niet opnieuw. Meer tips om <linkExternal>sterke wachtwoorden te maken</linkExternal>.
 pw-change-cancel-button = Annuleren
 pw-change-save-button = Opslaan
 pw-change-forgot-password-link = Wachtwoord vergeten?
