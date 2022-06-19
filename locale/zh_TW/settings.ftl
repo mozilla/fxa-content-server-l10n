@@ -278,12 +278,12 @@ avatar-page-image-too-large-error-2 = 圖片檔案太大，無法上傳
 
 pw-change-header =
     .title = 更改密碼
-pw-change-stay-safe = 確保安全 — 不要重複使用密碼！密碼格式要求：
-pw-change-least-8-chars = 至少要 8 個字元長
-pw-change-not-contain-email = 不能是您的 E-Mail 地址
+pw-8-chars = 至少八個字元長
+pw-not-email = 不可以與您的電子郵件地址相同
 pw-change-must-match = 「新密碼」與「確認新密碼」輸入內容相符
+pw-commonly-used = 不可以是常見的密碼
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords = 不能使用<linkExternal>常見密碼清單</linkExternal>當中的密碼
+pw-tips = 確保安全 — 請勿重複使用密碼。若需有關於建立高安全性密碼的秘訣，<linkExternal>請見此處</linkExternal>。
 pw-change-cancel-button = 取消
 pw-change-save-button = 儲存
 pw-change-forgot-password-link = 忘記密碼？
