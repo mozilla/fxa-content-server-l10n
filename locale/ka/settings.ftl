@@ -197,6 +197,7 @@ drop-down-menu-title = { -product-firefox-account(case: "gen") } მენიუ
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>შემოსული, როგორც</signin><user>{ $user }</user>
 drop-down-menu-sign-out = გამოსვლა
+drop-down-menu-sign-out-error-2 = სამწუხაროდ, ხარვეზი წარმოიშვა გამოსვლისას.
 
 ## Flow Container
 
@@ -266,10 +267,12 @@ nav-email-comm = ელფოსტით კავშირები
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error-2 = ხარვეზი წარმოიშვა, თქვენი აღდგენის გასაღებების ჩანაცვლებისას
 tfa-replace-code-success =
     ახალი გასაღებები შეიქმნა. შეინახეთ ერთჯერადი გამოყენების
     გასაღებები უსაფრთხო ადგილას — გამოგადგებათ ანგარიშთან წვდომისთვის, როცა არ
     გექნებათ მობილური მოწყობილობა.
+tfa-replace-code-success-alert-2 = ანგარიშის აღდგენის გასაღებები განახლებულია
 tfa-replace-code-1-2 = 1-ელი ნაბიჯი 2-იდან
 tfa-replace-code-2-2 = მე-2 ნაბიჯი 2-იდან
 
@@ -299,6 +302,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = კამერის ჩართვა ვერ მოხერხდა
 avatar-page-new-avatar =
     .alt = პროფილის ახალი სურათი
+avatar-page-file-upload-error-3 = ხარვეზი წარმოიშვა პროფილის სურათის განახლებისას
+avatar-page-delete-error-3 = ხარვეზი წარმოიშვა პროფილის სურათის წაშლისას
+avatar-page-image-too-large-error-2 = სურათის ფაილის ზომა ზედმეტად დიდია ატვირთვისთვის
 
 ##
 
@@ -307,6 +313,7 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = პაროლის შეცვლა
+pw-8-chars = სულ მცირე 8 სიმბოლო
 pw-change-must-match = ახალი პაროლი ემთხვევა დასადასტურებელს
 pw-change-cancel-button = გაუქმება
 pw-change-save-button = შენახვა
