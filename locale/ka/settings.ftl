@@ -314,7 +314,11 @@ avatar-page-image-too-large-error-2 = სურათის ფაილის �
 pw-change-header =
     .title = პაროლის შეცვლა
 pw-8-chars = სულ მცირე 8 სიმბოლო
+pw-not-email = თქვენი ელფოსტის გარდა
 pw-change-must-match = ახალი პაროლი ემთხვევა დასადასტურებელს
+pw-commonly-used = ხშირად გამოყენებულის გარდა
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = დაიცავით უსაფრთხოება – ნუ გამოიყენებთ ერთსა და იმავე პაროლებს. ვრცლად იხილეთ რჩევები <linkExternal>ძლიერი პაროლის შესაქმნელად</linkExternal>.
 pw-change-cancel-button = გაუქმება
 pw-change-save-button = შენახვა
 pw-change-forgot-password-link = დაგავიწყდათ პაროლი?
@@ -324,6 +328,7 @@ pw-change-new-password =
     .label = მიუთითეთ ახალი პაროლი
 pw-change-confirm-password =
     .label = დაადასტურეთ პაროლი
+pw-change-success-alert-2 = პაროლი განახლდა
 
 ##
 
