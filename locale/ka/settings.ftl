@@ -118,6 +118,11 @@ cs-cannot-refresh =
     სამწუხაროდ, რაღაც შეცდომა წარმოიშვა სიის განახლებისას დაკავშირებული 
     მომსახურებების.
 cs-cannot-disconnect = კლიენტი ვერ მოიძებნა, გამოთიშვა შეუძლებელია
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = გამოთიშულია { $service }
 cs-refresh-button =
     .title = დაკავშირებული მომსახურებების განახლება
 # Link text to a support page on missing or duplicate devices
@@ -130,6 +135,9 @@ cs-disconnect-sync-heading = გამოთიშვა სინქრონ�
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-2 =
+    მონახულებული გვერდების მონაცემებს შეინარჩუნებს { $device },
+    მაგრამ აღარ დასინქრონდება თქვენს ანგარიშთან.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
