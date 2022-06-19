@@ -374,6 +374,7 @@ recovery-key-success-alert-2 = La clé de récupération a été créée.
 ## Add secondary email page
 
 add-secondary-email-step-1 = Étape 1 sur 2
+add-secondary-email-error-2 = Un problème est survenu lors de la création de cette adresse e-mail
 add-secondary-email-page-title =
     .title = Adresse électronique secondaire
 add-secondary-email-enter-address =
@@ -384,6 +385,7 @@ add-secondary-email-save-button = Enregistrer
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Étape 2 sur 2
+verify-secondary-email-error-2 = Il y a eu un problème lors de l’envoi du code de vérification
 verify-secondary-email-page-title =
     .title = Adresse électronique secondaire
 verify-secondary-email-verification-code =
@@ -394,6 +396,10 @@ verify-secondary-email-verify-button = Vérifier
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Veuillez saisir au cours des 5 prochaines minutes le code de vérification envoyé à <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = L’adresse { $email } a bien été ajoutée
 
 ##
 
@@ -411,6 +417,7 @@ tfa-button-cancel = Annuler
 tfa-button-finish = Terminer
 tfa-incorrect-totp = Code d’authentification en deux étapes incorrect
 tfa-cannot-retrieve-code = Un problème est survenu lors de la récupération de votre code.
+tfa-cannot-verify-code-2 = Un problème est survenu lors de la vérification de votre code de récupération
 tfa-incorrect-recovery-code = Code de récupération incorrect
 tfa-enabled = Authentification en deux étapes activée
 tfa-scan-this-code =
