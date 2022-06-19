@@ -78,7 +78,7 @@ product-profile-error =
 product-customer-error =
     .title = ਗਾਹਕ ਲੋਡ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ
 product-plan-not-found = ਪਲਾਨ ਨਹੀਂ ਲੱਭਿਆ
-product-no-such-plan = ਉਸ ਪਲਾਨ ਲਈ ਕੋਈ ਪਲਾਨ ਨਹੀਂ ਹੈ।
+product-no-such-plan = ਉਸ ਉਤਪਾਦ ਲਈ ਕੋਈ ਪਲਾਨ ਨਹੀਂ ਹੈ।
 
 ## Payment legal blurb
 
@@ -155,26 +155,46 @@ sub-update-payment-title = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 
 ## $date (Date) - Last day of product access
 
+reactivate-success-copy = ਧੰਨਵਾਦ! ਤੁਸੀਂ ਸਭ ਕਰ ਲਿਆ ਹੈ।
+reactivate-success-button = ਬੰਦ ਕਰੋ
 
 ## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = ਮੈਂਬਰੀ ਲੋਡ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ
+sub-item-missing-msg = ਕੁਝ ਦੇਰ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ।
+sub-item-no-such-plan = ਉਸ ਮੈਂਬਰੀ ਲਈ ਕੋਈ ਪਲਾਨ ਨਹੀਂ ਹੈ।
+sub-item-cancel-sub = ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
+sub-item-stay-sub = ਮੈਂਬਰ ਬਣੇ ਰਹੋ
 
 ## Subscription iap item
 
+sub-iap-item-manage-button = ਬੰਦੋਬਸਤ
+account-activated = ਤੁਹਾਡਾ ਖਾਤਾ ਚਾਲੂ ਹੋ ਗਿਆ ਹੈ, <userEl/>
 
 ## Subscription route index
 
+sub-route-idx-updating = ਬਿੱਲ ਸਬੰਧੀ ਜਾਣਕਾਰੀ ਅੱਪਡੇਟ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...
+pay-update-manage-btn = ਬੰਦੋਬਸਤ
 
 ## Subscription create
 
+sub-guarantee = 30-ਦਿਨ ਦੀ ਰਕਮ ਵਾਪਸੀ ਗਾਰੰਟੀ
+pay-with-heading-other = ਭੁਗਤਾਨ ਚੋਣ ਚੁਣੋ
+pay-with-heading-card-or = ਜਾਂ ਕਾਰਡ ਨਾਲ ਭੁਗਤਾਨ ਕਰੋ
+pay-with-heading-card-only = ਕਾਰਡ ਨਾਲ ਭੁਗਤਾਨ
 
 ## Plan details
 
+plan-details-header = ਉਤਪਾਦ ਦੇ ਵੇਰਵੇ
+plan-details-show-button = ਵੇਰਵੇ ਦਿਖਾਓ
+plan-details-hide-button = ਵੇਰਵੇ ਲੁਕਾਓ
+plan-details-total-label = ਕੁੱਲ ਜੋੜ
 
 ## Coupons
 
+coupon-discount = ਰਿਆਇਤ
 
 ## Payment processing
 
