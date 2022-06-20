@@ -295,12 +295,12 @@ avatar-page-image-too-large-error-2 = Pildifaili suurus on üleslaadimiseks liig
 
 pw-change-header =
     .title = Parooli muutmine
-pw-change-stay-safe = Säilita turvalisus — ära taaskasuta paroole. Sinu parool:
-pw-change-least-8-chars = Peab olema vähemalt 8 tähemärgi pikkune
-pw-change-not-contain-email = See ei tohi olla sinu e-posti aadress
+pw-8-chars = Vähemalt 8 tähemärki
+pw-not-email = Pole sinu e-posti aadress
 pw-change-must-match = Uus parool ja selle kinnitus ühtivad
+pw-commonly-used = Pole sageli kasutatav parool
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords = Ei tohi ühtida <linkExternal>levinud paroolidega</linkExternal>
+pw-tips = Ole turvaline — ära taaskasuta paroole. Vaata rohkem näpunäiteid <linkExternal>tugeva parooli loomise kohta</linkExternal>.
 pw-change-cancel-button = Loobu
 pw-change-save-button = Salvesta
 pw-change-forgot-password-link = Unustasid parooli?
