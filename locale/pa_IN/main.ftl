@@ -195,6 +195,11 @@ plan-details-total-label = ਕੁੱਲ ਜੋੜ
 ## Coupons
 
 coupon-discount = ਰਿਆਇਤ
+coupon-discount-applied = ਛੋਟ ਇਨਾਮ ਲਾਗੂ ਕੀਤਾ
+coupon-submit = ਲਾਗੂ ਕਰੋ
+coupon-remove = ਹਟਾਓ
+coupon-enter-code =
+    .placeholder = ਕੋਡ ਦਿਓ
 
 ## Payment processing
 
@@ -206,13 +211,30 @@ coupon-discount = ਰਿਆਇਤ
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-heading-account-exists = ਧੰਨਵਾਦ, ਹੁਣ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-order-heading = ਆਡਰ ਦੇ ਵੇਰਵੇ
+payment-confirmation-details-heading-2 = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+payment-confirmation-download-button = ਡਾਉਨਲੋਡ ਕਰਨਾ ਜਾਰੀ ਰੱਖੋ
+payment-confirmation-cc-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } ਵਾਲਾ ਕਾਰਡ
 
 ## New user email form
 
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .label = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
+new-user-confirm-email =
+    .label = ਆਪਣਾ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
+new-user-card-title = ਆਪਣੇ ਕਾਰਡ ਦੀ ਜਾਣਕਾਰੀ ਦਿਓ
 new-user-submit = ਹੁਣੇ ਮੈਂਬਰ ਬਣੋ
+payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣੋ
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = ਲੋੜੀਂਦਾ

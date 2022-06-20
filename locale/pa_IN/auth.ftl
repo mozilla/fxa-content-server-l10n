@@ -120,16 +120,32 @@ view-invoice = <a data-l10n-name="invoiceLink">ਆਪਣਾ ਇਨਵਾਇਸ �
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = ਇਨਵਾਇਸ ਵੇਖੋ: { $invoiceLink }
+cadReminderFirst-action = ਹੋਰ ਡਿਵਾਈਸ ਸਿੰਕ ਕਰੋ
+cadReminderSecond-action = ਹੋਰ ਡਿਵਾਈਸ ਸਿੰਕ ਕਰੋ
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ
+downloadSubscription-link-action-2 = ਸ਼ੁਰੂ ਕਰੀਏ
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = ਘੱਟ ਰਿਕਵਰੀ ਕੋਡ ਬਾਕੀ ਰਹਿੰਦੇ
 codes-reminder-description = ਅਸੀਂ ਦੇਖਿਆ ਹੈ ਕਿ ਤੁਸੀਂ ਰਿਕਵਰੀ ਕੋਡ ਤੇ ਘੱਟ ਚੱਲ ਰਹੇ ਹੋ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਖਾਤੇ ਵਿੱਚੋਂ ਲੌਕ ਹੋ ਜਾਣ ਤੋਂ ਬਚਣ ਲਈ ਨਵੇਂ ਕੋਡ ਬਣਾਉਣ ’ਤੇ ਵਿਚਾਰ ਕਰੋ।
 codes-generate = ਕੋਡ ਪੈਦਾ ਕਰੋ
+codes-generate-plaintext = { codes-generate }:
 lowRecoveryCodes-action = ਕੋਡ ਪੈਦਾ ਕਰੋ
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = { $clientName } ਲਈ ਨਵਾਂ ਸਾਈਨ ਇਨ
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title = { $clientName } ਲਈ ਨਵਾਂ ਸਾਈਨ ਇਨ
 newDeviceLogin-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 passwordChanged-subject = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
 passwordChanged-title = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ
+passwordChanged-description = ਤੁਹਾਡਾ { -product-firefox-account } ਪਾਸਵਰਡ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ ਗਿਆ:
 passwordChangeRequired-subject = ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਖੋਜੀ ਗਈ ਹੈ
+passwordChangeRequired-title = ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਲੋੜ ਹੈ
 passwordChangeRequired-signoff = ਸਭ ਤੋਂ ਵਧੀਆ,
+passwordChangeRequired-signoff-name = { -product-firefox-accounts } ਟੀਮ
 passwordReset-subject = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
 passwordReset-title = ਤੁਹਾਡੇ ਖਾਤੇ ਦਾ ਪਾਸਵਰਡ ਬਦਲਿਆ ਗਿਆ ਸੀ
 passwordReset-description = ਸਿੰਕ ਕਰਨਾ ਮੁੜ-ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਹੋਰ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਆਪਣਾ ਨਵਾਂ ਪਾਸਵਰਡ ਦੇਣ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।
@@ -144,6 +160,11 @@ postAddAccountRecovery-subject = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
 postAddAccountRecovery-title = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਿਆਰ ਕਰੋ
 postAddAccountRecovery-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postAddAccountRecovery-revoke = ਜੇ ਇਹ ਤੁਸੀਂ ਨਹੀਂ ਸਨ, ਤਾਂ ਕੁੰਜੀ ਰੱਦ ਕਰੋ।
+postAddLinkedAccount-subject = { -brand-firefox } ਨਾਲ ਨਵਾਂ ਖਾਤਾ ਲਿੰਕ ਕੀਤਾ
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = ਤੁਹਾਡਾ { $providerName } ਖਾਤਾ ਤੁਹਾਡੇ { -product-firefox-account } ਨਾਲ ਲਿੰਕ ਕੀਤਾ ਜਾ ਚੁੱਕਾ ਹੈ
+postAddLinkedAccount-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postAddTwoStepAuthentication-subject = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਸਮਰੱਥ ਹੈ
 postAddTwoStepAuthentication-title = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਸਮਰੱਥ ਹੈ
 postAddTwoStepAuthentication-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
@@ -165,10 +186,16 @@ postRemoveAccountRecovery-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰ
 postRemoveSecondary-subject = ਸੈਕੰਡਰੀ ਈਮੇਲ ਹਟਾਈ
 postRemoveSecondary-title = ਸੈਕੰਡਰੀ ਈਮੇਲ ਹਟਾਈ
 postRemoveSecondary-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+postRemoveTwoStepAuthentication-subject-line = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਬੰਦ ਹੈ
 postRemoveTwoStepAuthentication-title = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਅਸਮਰੱਥ ਹੈ
 postRemoveTwoStepAuthentication-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postRemoveTwoStepAuthentication-not-required = ਸੁਰੱਖਿਆ ਕੋਡ ਦੀ ਹੁਣ ਹਰੇਕ ਸਾਈਨ-ਇਨ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਪਵੇਗੀ।
 postVerify-title = ਅੱਗੇ ਆਪਣੇ ਡਿਵਾਈਸਾ੍ਂ ਵਿਚਾਲੇ ਸਿੰਕ ਕਰੋ!
+postVerify-setup = ਅਗਲਾ ਡਿਵਾਈਸ ਸੈਟਅੱਪ ਕਰੋ
+postVerify-action = ਅਗਲਾ ਡਿਵਾਈਸ ਸੈਟਅੱਪ ਕਰੋ
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = ਸਵਾਲ ਹਨ? { $supportUrl } ਵੇਖੋ
 postVerifySecondary-subject = ਸਹਾਇਕ ਈਮੇਲ ਜੋੜਿਆ ਗਿਆ
 postVerifySecondary-title = ਸਹਾਇਕ ਈਮੇਲ ਜੋੜਿਆ ਗਿਆ
 postVerifySecondary-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
@@ -176,13 +203,33 @@ recovery-subject = ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ
 recovery-title = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ?
 recovery-action = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
 subscriptionAccountDeletion-title = ਤੁਹਾਡੇ ਛੱਡਣ ਲਈ ਅਫ਼ਸੋਸ ਹੈ
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = { $productName } ਲਈ ਜੀ ਆਇਆਂ ਨੂੰ: ਆਪਣਾ ਪਾਸਵਰਡ ਸੈੱਟ ਅੱਪ ਕਰੋ।
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ
+subscriptionAccountFinishSetup-action-2 = ਸ਼ੁਰੂ ਕਰੀਏ
+subscriptionAccountReminderFirst-subject = ਸੂਚਨਾ: ਆਪਣਾ ਖਾਤੇ ਦੇ ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੋ
+subscriptionAccountReminderFirst-action = ਪਾਸਵਰਡ ਬਣਾਓ
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-title = { -brand-firefox } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
+subscriptionAccountReminderSecond-action = ਪਾਸਵਰਡ ਬਣਾਓ
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 subscriptionCancellation-title = ਤੁਹਾਡੇ ਛੱਡਣ ਲਈ ਅਫ਼ਸੋਸ ਹੈ
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = { $productName } ਟੀਮ
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionSubsequentInvoiceDiscount-content-discount = ਛੋਟ: -{ $invoiceDiscountAmount }
 unblockCode-subject = ਖਾਤਾ ਪਰਮਾਣਕਿਤਾ ਕੋਡ
 unblockCode-title = ਕੀ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕੀਤਾ ਹੈ?
 unblockCode-prompt = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਤੁਹਾਨੂੰ ਚਾਹੀਦਾ ਹੈ:
 verificationReminderFirst-subject = ਰਿਮਾਈਂਡਰ: ਆਪਣਾ ਖਾਤਾ ਬਣਾਉਣਾ ਪੂਰਾ ਕਰੋ
 verificationReminderFirst-title = { -brand-firefox } ਗਰੁੱਪ ਵਿੱਚ ਜੀ ਆਇਆਂ ਨੂੰ
 confirm-email = ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 verificationReminderSecond-subject = ਆਖਰੀ ਰਿਮਾਈਂਡਰ: ਆਪਣਾ ਖਾਤਾ ਸਰਗਰਮ ਕਰੋ
 verificationReminderSecond-title = ਹਾਲੇ ਵੀ ਮੌਜੂਦ ਹੈ?
@@ -192,7 +239,13 @@ verify-title = { -brand-firefox } ਗਰੁੱਪ ਦੇ ਉਤਪਾਦਾਂ �
 verify-description-plaintext = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰੋ ਅਤੇ ਹਰੇਕ ਥਾਂ ਉੱਤੇ ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ { -brand-firefox } ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਫਾਇਦਾ ਲਵੋ।
 verify-subject = ਆਪਣਾ ਖਾਤਾ ਬਣਾਉਣਾ ਮੁਕੰਮਲ ਕਰੋ
 verify-action = ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = { $clientName } ਲਈ ਨਵਾਂ ਸਾਈਨ ਇਨ
 verifyLogin-description = ਵਧਾਈ ਗਈ ਸੁਰੱਖਿਆ ਲਈ, ਅੱਗੇ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਇਸ ਸਾਇਨ-ਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = { $clientName } ਵਿੱਚ ਨਵੇਂ ਸਾਈਨ ਇਨ ਦੀ ਤਸਦੀਕ
 verifyLogin-action = ਸਾਈਨ ਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 verifyLoginCode-title = ਕੀ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕੀਤਾ ਹੈ?
 verifyLoginCode-prompt = ਜੇ ਹਾਂ ਤਾਂ ਤਸਦੀਕ ਕੋਡ ਇਹ ਹੈ:
@@ -201,9 +254,14 @@ verifyPrimary-title = ਮੁੱਢਲੇ ਈਮੇਲ ਦੀ ਪੁਸ਼ਟੀ ਕ
 verifyPrimary-description = ਅੱਗੇ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਖਾਤੇ ਨੂੰ ਬਦਲਣ ਲਈ ਬੇਨਤੀ ਕੀਤੀ ਜਾ ਚੁੱਕੀ ਹੈ:
 verifyPrimary-subject = ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 verifyPrimary-action = ਈਮੇਲ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
 verifyPrimary-post-verify = ਇੱਕ ਵਾਰ ਤਸਦੀਕ ਹੋਣ ਦੇ ਬਾਅਦ ਇਸ ਡਿਵਾਈਸ ਤੋਂ ਖਾਤਾ ਤਬਦੀਲੀਆਂ ਜਿਵੇਂ ਕਿ ਸੈਕੰਡਰੀ ਈਮੇਲ ਜੋੜਨੇ ਵਾਂਗ ਤਬਦੀਲੀਆਂ ਕਰ ਸਕਦੇ ਹੋ।
 verifySecondaryCode-subject = ਸੈਕੰਡਰੀ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 verifySecondaryCode-title = ਈਮੇਲ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ
+verifySecondaryCode-action = ਈਮੇਲ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 verifySecondaryCode-prompt = ਇਹ ਤਸਦੀਕੀ ਕੋਡ ਵਰਤੋ:
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject = ਤਸਦੀਕੀ ਕੋਡ: { $code }
 verifyShortCode-title = ਕੀ ਤੁਸੀਂ ਸਾਈਨ ਅੱਪ ਕਰ ਰਹੇ ਹੋ?
 verifyShortCode-expiry-notice = ਇਸ ਦੀ ਮਿਆਦ 5 ਮਿੰਟ ਹੈ।
