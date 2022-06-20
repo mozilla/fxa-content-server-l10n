@@ -52,3 +52,4 @@ subscriptionAccountReminderFirst-action = Создади лозинка
 subscriptionAccountReminderSecond-action = Создади лозинка
 confirm-email-plaintext = { confirm-email }:
 verificationReminderSecond-title = Сè уште сте таму?
+verifyPrimary-action-plaintext = { verifyPrimary-action }:
