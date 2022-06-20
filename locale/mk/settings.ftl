@@ -47,12 +47,18 @@ app-footer-terms-of-service = Услови за употреба
 
 ## User's avatar
 
+avatar-default-avatar =
+    .alt = Стандарден аватар
 
 ##
 
 
 # BentoMenu component
 
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 
 ## Connect another device promo
 
@@ -76,6 +82,7 @@ app-footer-terms-of-service = Услови за употреба
 
 ##
 
+cs-sign-out-button = Одјавете се
 
 ##
 
@@ -91,39 +98,59 @@ app-footer-terms-of-service = Услови за употреба
 
 ## Flow Container
 
+flow-container-back = Назад
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-download =
+    .title = Преземи
+get-data-trio-copy =
+    .title = Копирај
+get-data-trio-print =
+    .title = Печати
 
 # HeaderLockup component
 
+header-help = Помош
 
 ## Input Password
 
+input-password-show = Прикажи лозинка
 
 ## Linked Accounts section
 
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
+modal-close-title = Затвори
+modal-cancel-button = Откажи
 
 ## Modal Verify Session
 
+msv-cancel-button = Откажи
 
 ## Settings Nav
 
+nav-security = Безбедност
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-1-2 = Чекор 1 од 2
+tfa-replace-code-2-2 = Чекор 2 од 2
 
 ## Avatar change page
 
+avatar-page-cancel-button = Откажи
+avatar-page-save-button = Зачувај
 
 ##
 
 
 ## Password change page
 
+pw-change-cancel-button = Откажи
+pw-change-save-button = Зачувај
 
 ##
 
@@ -148,18 +175,29 @@ app-footer-terms-of-service = Услови за употреба
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Откажи
+recovery-key-close-button = Затвори
+recovery-key-continue-button = Продолжи
 
 ## Add secondary email page
 
+add-secondary-email-cancel-button = Откажи
+add-secondary-email-save-button = Сними
 
 ## Verify secondary email page
 
+verify-secondary-email-cancel-button = Откажи
 
 ##
 
 
 ## Two Step Authentication
 
+tfa-button-continue = Продолжи
+tfa-button-cancel = Откажи
+tfa-button-finish = Крај
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 
 ##
 
@@ -172,15 +210,20 @@ app-footer-terms-of-service = Услови за употреба
 
 ## Security section of Setting
 
+security-password =
+    .header = Лозинка
 
 ## Switch component
 
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Додај
+row-defaults-action-disable = Оневозможи
 
 ## Recovery key sub-section on main Settings page
 
+rk-action-remove = Отстрани
 
 ## Secondary email sub-section on main Settings page
 
