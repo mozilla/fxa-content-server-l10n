@@ -295,14 +295,12 @@ avatar-page-image-too-large-error-2 = Kuvatiedoston koko on liian suuri lähetet
 
 pw-change-header =
     .title = Vaihda salasana
-pw-change-stay-safe = Pysy turvassa — älä käytä salasanoja uudelleen. Salasanasi:
-pw-change-least-8-chars = Täytyy olla vähintään kahdeksan merkkiä
-pw-change-not-contain-email = Ei saa olla sähköpostiosoitteesi
+pw-8-chars = Vähintään 8 merkkiä
+pw-not-email = Ei sinun sähköpostiosoite
 pw-change-must-match = Uusi salasana vastaa vahvistusta
+pw-commonly-used = Ei yleisesti käytetty salasana
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Ei saa vastata <linkExternal>luetteloa yleisistä 
-    salasanoista</linkExternal>
+pw-tips = Pysy turvassa — älä käytä samoja salasanoja uudelleen. Katso lisää vinkkejä <linkExternal>vahvojen salasanojen luomiseen</linkExternal>.
 pw-change-cancel-button = Peruuta
 pw-change-save-button = Tallenna
 pw-change-forgot-password-link = Unohditko salasanan?
