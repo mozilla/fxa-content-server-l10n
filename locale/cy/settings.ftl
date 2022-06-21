@@ -293,14 +293,12 @@ avatar-page-image-too-large-error-2 = Mae'r ffeil delwedd yn rhy fawr i'w llwyth
 
 pw-change-header =
     .title = Newid Cyfrinair
-pw-change-stay-safe = Cadwch yn ddiogel — peidiwch ag ailddefnyddio cyfrineiriau. Eich cyfrinair:
-pw-change-least-8-chars = Rhaid ei fod o leiaf 8 nod
-pw-change-not-contain-email = Dylai beidio â bod eich cyfeiriad e-bost
+pw-8-chars = O leiaf 8 nod
+pw-not-email = Nid eich cyfeiriad e-bost
 pw-change-must-match = Mae cyfrinair newydd yn cyd-fynd â'r cadarnhad
+pw-commonly-used = Nid cyfrinair sy'n cael ei ddefnyddio'n arferol
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Rhaid iddo beidio â bod yr un peth â'r rhai ar y rhestr hon o <linkExternal>
-    gyfrineiriau cyffredin</linkExternal>
+pw-tips = Cadwch yn ddiogel - peidiwch ag ailddefnyddio cyfrineiriau. Dyma ragor o awgrymiadau i <linkExternal>greu cyfrineiriau cryf</linkExternal>.
 pw-change-cancel-button = Diddymu
 pw-change-save-button = Cadw
 pw-change-forgot-password-link = Wedi anghofio'r cyfrinair?
