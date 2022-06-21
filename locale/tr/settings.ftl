@@ -100,6 +100,11 @@ cs-cannot-refresh =
     Üzgünüz, bağlı hizmetlerin listesi yenilenirken bir
     sorun oluştu.
 cs-cannot-disconnect = İstemci bulunamadı, bağlantı kesilemiyor
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = { $service } oturumu kapatıldı
 cs-refresh-button =
     .title = Bağlı hizmetleri yenile
 # Link text to a support page on missing or duplicate devices
@@ -112,6 +117,10 @@ cs-disconnect-sync-heading = Sync bağlantısını kes
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-2 =
+    Gezinti verileriniz { $device } cihazında kalacak,
+    ancak artık hesabınızla senkronize olmayacak.
+cs-disconnect-sync-reason-2 = { $device } cihazının bağlantısını kesme nedeniniz nedir?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -159,6 +168,7 @@ drop-down-menu-title = { -product-firefox-account } menüsü
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <user>{ $user }</user><signin>olarak giriş yaptınız</signin>
 drop-down-menu-sign-out = Çıkış yap
+drop-down-menu-sign-out-error-2 = Üzgünüz, çıkış yapılırken bir sorun oluştu
 
 ## Flow Container
 
@@ -229,6 +239,7 @@ nav-email-comm = E-posta iletişimi
 ## Two Step Authentication - replace recovery code
 
 tfa-replace-code-success = Yeni kodlar oluşturuldu. Bu tek kullanımlık kodları güvenli bir yerde saklayın. Mobil cihazınıza ulaşamassanız hesabınıza erişmek için bunlara ihtiyacınız olacak.
+tfa-replace-code-success-alert-2 = Hesap kurtarma kodları güncellendi
 tfa-replace-code-1-2 = Adım 1/2
 tfa-replace-code-2-2 = Adım 2/2
 
@@ -258,6 +269,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Kamera başlatılamadı
 avatar-page-new-avatar =
     .alt = yeni profil fotoğrafı
+avatar-page-file-upload-error-3 = Profil fotoğrafınız yüklenirken bir sorun oluştu
+avatar-page-delete-error-3 = Profil fotoğrafınız silinirken bir sorun oluştu
+avatar-page-image-too-large-error-2 = Resim dosyası boyutu yüklenemeyecek kadar büyük
 
 ##
 
@@ -266,12 +280,11 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Parolayı değiştir
-pw-change-stay-safe = Güvenliğinizi korumak için aynı parolayı başka yerlerde kullanmayın. Parolanız:
-pw-change-least-8-chars = En az 8 karakter olmalı
-pw-change-not-contain-email = E-posta adresinizle aynı olmamalı
+pw-8-chars = En az 8 karakter olmalı
+pw-not-email = E-posta adresiniz olmamalı
 pw-change-must-match = Yeni parola eşleşme onayı
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords = <linkExternal>Sık kullanılan parolalar listesiyle</linkExternal> eşleşmemelidir
+pw-tips = Güvende kalın: Aynı parolaları farklı yerlerde kullanmayın. <linkExternal>Güçlü parolalar oluşturmak</linkExternal> için daha fazla ipucu görün.
 pw-change-cancel-button = İptal
 pw-change-save-button = Kaydet
 pw-change-forgot-password-link = Parolanızı unuttunuz mu?
@@ -281,6 +294,7 @@ pw-change-new-password =
     .label = Yeni parolanızı yazın
 pw-change-confirm-password =
     .label = Yeni parolanızı doğrulayın
+pw-change-success-alert-2 = Parola güncellendi
 
 ##
 
@@ -324,6 +338,7 @@ display-name-input =
     .label = Görünen adı yazın
 submit-display-name = Kaydet
 cancel-display-name = İptal
+display-name-success-alert-2 = Görünen ad güncellendi
 
 ##
 
@@ -340,6 +355,7 @@ recovery-key-page-title =
     .title = Kurtarma anahtarı
 recovery-key-step-1 = Adım 1/2
 recovery-key-step-2 = Adım 2/2
+recovery-key-success-alert-2 = Kurtarma anahtarı oluşturuldu
 
 ## Add secondary email page
 
@@ -409,7 +425,7 @@ tfa-enter-recovery-code =
 
 profile-heading = Profil
 profile-picture =
-    .header = Resim
+    .header = Fotoğraf
 profile-display-name =
     .header = Görünen ad
 profile-primary-email =
@@ -456,19 +472,28 @@ rk-not-set = Ayarlanmamış
 rk-action-create = Oluştur
 rk-action-remove = Kaldır
 rk-cannot-refresh = Üzgünüz, kurtarma anahtarı yenilenirken bir sorun oluştu.
+rk-key-removed-2 = Hesap kurtarma anahtarı silindi
 rk-cannot-remove-key = Hesap kurtarma anahtarınız silinemedi.
 rk-refresh-key = Kurtarma anahtarını yenile
 rk-content-explain = Parolanızı unutursanız bilgilerinizi geri yüklemenizi sağlar.
 rk-content-reset-data = Parolamı sıfırlayınca neden verilerim de sıfırlanıyor?
+rk-cannot-verify-session-3 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu
 rk-remove-modal-heading = Kurtarma anahtarı kaldırılsın mı?
 rk-remove-modal-content = Parolanızı sıfırlarsanız verilerinize tekrar erişmek için kurtarma anahtarınızı kullanamayacaksınız. Bu işlemi geri alamazsınız.
 rk-refresh-error = Üzgünüz, kurtarma anahtarı yenilenirken bir sorun oluştu.
+rk-remove-error-2 = Hesap kurtarma anahtarınız kaldırılamadı
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = İkinci e-posta
     .header = İkinci e-posta
 se-cannot-refresh-email = Üzgünüz, bu e-posta yenilenirken bir sorun oluştu.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } başarıyla silindi
+se-delete-email-error-2 = Üzgünüz, bu e-posta silinirken bir sorun oluştu
+se-verify-session-error-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu
 # Button to remove the secondary email
 se-remove-email =
     .title = E-postayı kaldır
@@ -490,6 +515,7 @@ se-secondary-email-none = Yok
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = İki aşamalı doğrulama
+tfa-row-disabled-2 = İki aşamalı kimlik doğrulama kapatıldı
 tfa-row-enabled = Etkin
 tfa-row-not-set = Ayarlanmamış
 tfa-row-action-add = Ekle
@@ -500,6 +526,7 @@ tfa-row-cannot-refresh =
     Üzgünüz, iki aşamalı doğrulama yenilenirken
     bir sorun oluştu.
 tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod isteyerek başkalarının giriş yapmasını engeller.
+tfa-row-cannot-verify-session-3 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
 tfa-row-disable-modal-explain = Bu işlemi geri alamazsınız. İsterseniz <linkExternal>kurtarma kodlarınızı değiştirebilirisiniz</linkExternal>.

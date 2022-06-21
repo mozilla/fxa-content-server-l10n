@@ -341,6 +341,9 @@ subscriptionFirstInvoice-subject = { $productName } ödemesi onaylandı
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = { $productName } abonesi olduğunuz için teşekkür ederiz
 subscriptionFirstInvoice-content-processing = Ödemeniz işleme alındı. Tamamlanması dört iş günü sürebilir.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = { $productName } ürününü kullanmaya nasıl başlayacağınız konusunda ayrı bir e-posta alacaksınız.
 subscriptionFirstInvoice-content-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
