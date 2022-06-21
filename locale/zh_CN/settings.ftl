@@ -100,17 +100,19 @@ cs-cannot-disconnect = 找不到客户端，无法断开连接
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = 已退出 { $service }。
+cs-logged-out-2 = 已退出 { $service }
 cs-refresh-button =
     .title = 刷新关联服务
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 缺失或者项目重复？
 cs-disconnect-sync-heading = 断开同步
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 cs-disconnect-sync-content-2 = 您的浏览数据将继续留在 { $device } 上，但不会再与您的账户同步。
 cs-disconnect-sync-reason-2 = 断开 { $device } 的主要原因是什么？
 
@@ -152,7 +154,7 @@ dc-subheader = 帮助我们改进 { -product-firefox-accounts }
 dc-subheader-content = 允许 { -product-firefox-accounts }向 { -brand-mozilla } 发送技术与交互数据。
 dc-opt-out-success = 成功退出，{ -product-firefox-accounts }将不再向 { -brand-mozilla } 发送技术与交互数据。
 dc-opt-in-success = 感谢！共享此数据可帮助我们改进 { -product-firefox-accounts }。
-dc-opt-in-out-error = 抱歉，更改您的数据收集首选项时出现问题。
+dc-opt-in-out-error-2 = 抱歉，更改您的数据收集首选项时遇到问题
 dc-learn-more = 详细了解
 
 # DropDownAvatarMenu component
@@ -163,7 +165,7 @@ drop-down-menu-title = { -product-firefox-account } 菜单
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>已登录为</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = 退出
-drop-down-menu-sign-out-error = 抱歉，退出登录时出现问题。
+drop-down-menu-sign-out-error-2 = 抱歉，退出登录时出现问题。
 
 ## Flow Container
 
@@ -233,9 +235,9 @@ nav-email-comm = 新闻通讯
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = 更新您的救援码时出现问题。
+tfa-replace-code-error-2 = 更新您的救援码时出现问题
 tfa-replace-code-success = 已生成新的救援码，请将它们保存在安全的地方，当您无法使用移动设备时，可用来访问账户。
-tfa-replace-code-success-alert = 账户救援码已更新。
+tfa-replace-code-success-alert-2 = 账户救援码已更新。
 tfa-replace-code-1-2 = 步骤（1 / 2）
 tfa-replace-code-2-2 = 步骤（2 / 2）
 
@@ -265,9 +267,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = 无法初始化摄像头
 avatar-page-new-avatar =
     .alt = 更换头像
-avatar-page-file-upload-error-2 = 上传您的头像时出现问题。
-avatar-page-delete-error-2 = 删除您的头像时出现问题
-avatar-page-image-too-large-error = 图片太大，无法上传。
+avatar-page-file-upload-error-3 = 上传您的头像时出现问题
+avatar-page-delete-error-3 = 删除您的头像时出现问题
+avatar-page-image-too-large-error-2 = 图片太大，无法上传
 
 ##
 
@@ -276,12 +278,8 @@ avatar-page-image-too-large-error = 图片太大，无法上传。
 
 pw-change-header =
     .title = 更改密码
-pw-change-stay-safe = 保持安全 — 勿重复使用密码。您的密码：
-pw-change-least-8-chars = 至少 8 个字符
-pw-change-not-contain-email = 不能是您的邮箱地址
+pw-8-chars = 至少 8 个字符
 pw-change-must-match = 新密码和确认密码输入需一致
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords = 不能与<linkExternal>常见密码</linkExternal>相同
 pw-change-cancel-button = 取消
 pw-change-save-button = 保存
 pw-change-forgot-password-link = 忘记密码？
@@ -291,7 +289,7 @@ pw-change-new-password =
     .label = 输入新密码
 pw-change-confirm-password =
     .label = 确认新密码
-pw-change-success-alert = 密码已更新。
+pw-change-success-alert-2 = 密码已更新
 
 ##
 
@@ -300,8 +298,8 @@ pw-change-success-alert = 密码已更新。
 
 pw-create-header =
     .title = 创建密码
-pw-create-success-alert = 密码已设置。
-pw-create-error = 抱歉，设置密码时出现问题。
+pw-create-success-alert-2 = 密码已设置
+pw-create-error-2 = 抱歉，设置密码时出现问题
 
 ##
 
@@ -339,8 +337,8 @@ display-name-input =
     .label = 请输入显示名称
 submit-display-name = 保存
 cancel-display-name = 取消
-display-name-update-error = 更新您的显示名称时出现问题。
-display-name-success-alert = 显示名称已更新。
+display-name-update-error-2 = 更新您的显示名称时出现问题
+display-name-success-alert-2 = 显示名称已更新
 
 ##
 
@@ -357,12 +355,11 @@ recovery-key-page-title =
     .title = 救援密钥
 recovery-key-step-1 = 步骤（1 / 2）
 recovery-key-step-2 = 步骤（2 / 2）
-recovery-key-success-alert = 已创建救援密钥。
+recovery-key-success-alert-2 = 已创建救援密钥
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = 步骤（1 / 2）
-add-secondary-email-error = 创建此电子邮件时出现问题。
 add-secondary-email-page-title =
     .title = 备用邮箱地址
 add-secondary-email-enter-address =
@@ -373,7 +370,6 @@ add-secondary-email-save-button = 保存
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 步骤（2 / 2）
-verify-secondary-email-error = 发送验证码时出现问题。
 verify-secondary-email-page-title =
     .title = 备用邮箱地址
 verify-secondary-email-verification-code =
@@ -384,10 +380,6 @@ verify-secondary-email-verify-button = 验证
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = 请在 5 分钟内输入发送到 <strong>{ $email }</strong> 的验证码。
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = 已成功添加 { $email }。
 
 ##
 
@@ -405,7 +397,6 @@ tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 错误的两步验证码
 tfa-cannot-retrieve-code = 检索您的救援码时出现问题。
-tfa-cannot-verify-code = 验证您的救援码时出现问题。
 tfa-incorrect-recovery-code = 错误的救援码
 tfa-enabled = 已启用两步验证
 tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExternal>进行扫码。
@@ -482,35 +473,33 @@ rk-not-set = 未设置
 rk-action-create = 创建
 rk-action-remove = 移除
 rk-cannot-refresh = 抱歉，刷新救援密钥时出现问题。
-rk-key-removed = 已移除账户救援密钥。
 rk-cannot-remove-key = 无法删除您的账户救援密钥。
 rk-refresh-key = 刷新救援密钥
 rk-content-explain = 当您忘记密码时恢复数据。
 rk-content-reset-data = 为什么重置密码时会重置我的数据？
-rk-cannot-verify-session-2 = 抱歉，验证您的会话时出现问题。
+rk-cannot-verify-session-3 = 抱歉，验证您的会话时出现问题
 rk-remove-modal-heading = 要移除救援密钥吗？
 rk-remove-modal-content = 一旦重置密码，就无法再使用救援密钥访问您的数据。此操作不可撤销。
 rk-refresh-error = 抱歉，刷新救援密钥时出现问题。
-rk-remove-error = 无法删除您的账户救援密钥。
+rk-remove-error-2 = 无法删除您的账户救援密钥
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = 备用邮箱
     .header = 备用邮箱
 se-cannot-refresh-email = 抱歉，刷新邮箱地址时出现问题。
-se-cannot-resend-code = 抱歉，重新发送验证码时出现问题。
+se-cannot-resend-code-2 = 抱歉，重新发送验证码时出现问题
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } 现在是您的主邮箱。
-se-set-primary-error = 抱歉，更改您的主邮箱时出现问题。
+se-set-primary-successful-2 = { $email } 现在是您的主邮箱
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } 成功删除。
-se-delete-email-error = 抱歉，删除此邮箱地址时出现问题。
-se-verify-session = 您需要验证当前会话才能执行此操作。
-se-verify-session-error = 抱歉，验证您的会话时出现问题。
+se-delete-email-successful-2 = { $email } 已成功删除
+se-delete-email-error-2 = 抱歉，删除此电子邮件地址时出现问题
+se-verify-session-2 = 您需要验证当前会话才能执行此操作
+se-verify-session-error-2 = 抱歉，验证您的会话时出现问题
 # Button to remove the secondary email
 se-remove-email =
     .title = 移除邮箱地址
@@ -532,7 +521,7 @@ se-secondary-email-none = 无
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 两步验证
-tfa-row-disabled = 已禁用两步验证
+tfa-row-disabled-2 = 已禁用两步验证
 tfa-row-enabled = 已启用
 tfa-row-not-set = 未设置
 tfa-row-action-add = 添加
@@ -541,11 +530,11 @@ tfa-row-button-refresh =
     .title = 刷新两步验证状态
 tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
 tfa-row-content-explain = 登录时需提供只有您有权访问的验证码，防止他人恶意登录。
-tfa-row-cannot-verify-session-2 = 抱歉，验证您的会话时出现问题。
+tfa-row-cannot-verify-session-3 = 抱歉，验证您的会话时出现问题。
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
 tfa-row-disable-modal-explain = 您将无法撤销此操作。您也可选择<linkExternal>更新救援码</linkExternal>。
-tfa-row-cannot-disable = 无法禁用两步验证。
+tfa-row-cannot-disable-2 = 无法禁用两步验证
 tfa-row-change-modal-heading = 要更改救援码吗？
 tfa-row-change-modal-confirm = 更改
 tfa-row-change-modal-explain = 此操作无法撤销。
