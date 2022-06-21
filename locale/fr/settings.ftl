@@ -295,6 +295,8 @@ pw-8-chars = Au moins 8 caractères
 pw-not-email = Pas votre adresse e-mail
 pw-change-must-match = Le nouveau mot de passe correspond à la confirmation
 pw-commonly-used = Pas un mot de passe trop commun
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Protégez-vous — ne réutilisez pas vos mots de passe. Voici plus de conseils pour <linkexternal>créer des mots de passe robustes</linkexternal>.
 pw-change-cancel-button = Annuler
 pw-change-save-button = Enregistrer
 pw-change-forgot-password-link = Mot de passe oublié ?
@@ -518,6 +520,11 @@ se-heading = Adresse électronique secondaire
     .header = Adresse électronique secondaire
 se-cannot-refresh-email = Un problème est survenu lors de l’actualisation de cette adresse.
 se-cannot-resend-code-2 = Un problème est survenu lors de la réexpédition du code de vérification
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } est désormais votre adresse électronique principale
+se-set-primary-error-2 = Un problème est survenu lors de la modification de votre adresse électronique principale
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
