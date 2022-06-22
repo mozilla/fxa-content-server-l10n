@@ -232,6 +232,7 @@ payment-plan-charged = Dne { $invoiceDateOnly } účtováno { $invoiceTotal }
 payment-plan-next-invoice = Další platba: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Platební metoda:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # Variables:
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
@@ -256,6 +257,15 @@ subscriptionUpdatePayment-plaintext = Abyste zabránili jakémukoliv přerušen�
 # Variables:
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = Pro více informací prosím navštivte stránku { $supportUrl }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } na { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } na { $uaOS }
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP adresa: { $ip }
@@ -283,15 +293,18 @@ view-invoice-plaintext = Zobrazit fakturu: { $invoiceLink }
 cadReminderFirst-subject = Přátelsky připomínáme: Jak dokončit nastavení synchronizace
 cadReminderFirst-action = Synchronizovat další zařízení
 cadReminderFirst-title = Připomínáme nastavení synchronizace dalších zařízení.
+cadReminderFirst-description = Pro synchronizaci potřebujete alespoň dvě zařízení. Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data všude tam, kde používáte { -brand-firefox(case: "acc") }.
 cadReminderSecond-subject = Poslední připomenutí: Nezapomeňte si nastavit synchronizaci
 cadReminderSecond-action = Synchronizovat další zařízení
 cadReminderSecond-title = Poslední připomenutí na synchronizaci dalšího zařízení.
+cadReminderSecond-description = Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data na všech zařízeních, kde používáte { -brand-firefox(case: "acc") }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Vítá vás { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Vítá vás { $productName }
+downloadSubscription-link-action-2 = Začít
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Zbývá malé množství záložních kódů
 codes-reminder-description = Všimli jsme si, že vám zbývá malé množství záložních kódů. Abyste předešli nechtěnému uzamčení vašeho účtu, zvažte prosím vytvoření nových kódů.
@@ -313,8 +326,10 @@ newDeviceLogin-title = Nové přihlášení skrze { $clientName }
 newDeviceLogin-action = Správa účtu
 passwordChanged-subject = Heslo změněno
 passwordChanged-title = Heslo bylo úspěšně změněno
+passwordChanged-description = Heslo k vašemu { -product-firefox-account(case: "dat", capitalization: "lower") } bylo úspěšně změněno z následujícího zařízení:
 passwordChangeRequired-subject = Zjištěna podezřelá aktivita
 passwordChangeRequired-title = Vyžadována změna hesla
+passwordChangeRequired-suspicious-activity = Váš { -product-firefox-account(capitalization: "lower") } se začal chovat podezřele. Abychom zabránili neoprávněnému přístupu k vašemu účtu, odpojili jsme od něj všechna vaše zařízení a preventivně vás žádáme o změnu hesla.
 passwordChangeRequired-sign-in = Přihlaste se zpět v každém zařízením nebo službě, kde používáte { -product-firefox-account(case: "acc", capitalization: "lower") }, a postupujte podle pokynů, které se vám zobrazí.
 passwordChangeRequired-different-password = <b>Důležité:</b> Jako nové heslo si nastavte takové, které jste dříve nepoužívali, a které je odlišené od hesla pro přihlašování do vaší e-maiové schránky.
 passwordChangeRequired-signoff = Nejlépe,
@@ -378,8 +393,6 @@ recovery-title = Potřebujete obnovit své heslo?
 recovery-description = Pro vytvoření nového hesla klepněte během jedné hodiny na tlačítko níže. Požadavek přišel z následujícího zařízení:
 recovery-action = Vytvořit nové heslo
 subscriptionAccountDeletion-title = Je nám líto, že odcházíte
-# COMMENT ABOUT After the colon,
-payment-details = Detaily platby:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Vítá vás { $productName }: Nastavte si prosím heslo.
