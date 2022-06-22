@@ -158,6 +158,7 @@ datablock-print =
 dc-heading = Veri toplanması ve kullanımı
 dc-subheader = { -product-firefox-accounts }nı geliştirmemize yardım edin
 dc-opt-in-success = Teşekkürler! Bu verileri paylaşmanız { -product-firefox-accounts } ürününü geliştirmemize yardımcı oluyor.
+dc-opt-in-out-error-2 = Üzgünüz, veri toplama tercihiniz değiştirilirken bir sorun oluştu
 dc-learn-more = Daha fazla bilgi al
 
 # DropDownAvatarMenu component
@@ -238,6 +239,7 @@ nav-email-comm = E-posta iletişimi
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error-2 = Kurtarma kodlarınız değiştirilirken bir sorun oluştu
 tfa-replace-code-success = Yeni kodlar oluşturuldu. Bu tek kullanımlık kodları güvenli bir yerde saklayın. Mobil cihazınıza ulaşamassanız hesabınıza erişmek için bunlara ihtiyacınız olacak.
 tfa-replace-code-success-alert-2 = Hesap kurtarma kodları güncellendi
 tfa-replace-code-1-2 = Adım 1/2
@@ -338,6 +340,7 @@ display-name-input =
     .label = Görünen adı yazın
 submit-display-name = Kaydet
 cancel-display-name = İptal
+display-name-update-error-2 = Görünen adınız güncellenirken bir sorun oluştu
 display-name-success-alert-2 = Görünen ad güncellendi
 
 ##
@@ -360,6 +363,7 @@ recovery-key-success-alert-2 = Kurtarma anahtarı oluşturuldu
 ## Add secondary email page
 
 add-secondary-email-step-1 = Adım 1/2
+add-secondary-email-error-2 = Bu e-posta oluşturulurken bir sorun oluştu
 add-secondary-email-page-title =
     .title = İkinci e-posta
 add-secondary-email-enter-address =
@@ -370,6 +374,7 @@ add-secondary-email-save-button = Kaydet
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Adım 2/2
+verify-secondary-email-error-2 = Doğrulama kodu gönderilirken bir sorun oluştu
 verify-secondary-email-page-title =
     .title = İkinci e-posta
 verify-secondary-email-verification-code =
@@ -380,6 +385,10 @@ verify-secondary-email-verify-button = Doğrula
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Lütfen <strong>{ $email }</strong> adresine gönderilen doğrulama kodunu 5 dakika içinde girin.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } başarıyla eklendi
 
 ##
 
@@ -397,6 +406,7 @@ tfa-button-cancel = İptal
 tfa-button-finish = Bitir
 tfa-incorrect-totp = Yanlış iki aşamalı doğrulama kodu
 tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
+tfa-cannot-verify-code-2 = Kurtarma kodunuz doğrulanırken bir sorun oluştu
 tfa-incorrect-recovery-code = Yanlış kurtarma kodu
 tfa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
 tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkExternal> birini kullanarak bu QR kodunu tarayın.
@@ -488,11 +498,13 @@ rk-remove-error-2 = Hesap kurtarma anahtarınız kaldırılamadı
 se-heading = İkinci e-posta
     .header = İkinci e-posta
 se-cannot-refresh-email = Üzgünüz, bu e-posta yenilenirken bir sorun oluştu.
+se-cannot-resend-code-2 = Doğrulama kodu yeniden gönderilirken bir sorun oluştu
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } başarıyla silindi
 se-delete-email-error-2 = Üzgünüz, bu e-posta silinirken bir sorun oluştu
+se-verify-session-2 = Bu işlemi gerçekleştirmek için mevcut oturumunuzu doğrulamalısınız
 se-verify-session-error-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu
 # Button to remove the secondary email
 se-remove-email =
@@ -530,6 +542,7 @@ tfa-row-cannot-verify-session-3 = Üzgünüz, oturumunuz doğrulanırken bir sor
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
 tfa-row-disable-modal-explain = Bu işlemi geri alamazsınız. İsterseniz <linkExternal>kurtarma kodlarınızı değiştirebilirisiniz</linkExternal>.
+tfa-row-cannot-disable-2 = İki aşamalı doğrulama devre dışı bırakılamadı
 tfa-row-change-modal-heading = Kurtarma kodları değiştirilsin mi?
 tfa-row-change-modal-confirm = Değiştir
 tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.

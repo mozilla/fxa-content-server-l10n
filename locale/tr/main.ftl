@@ -163,7 +163,6 @@ payment-confirm-with-legal-links-year =
         [one] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>yılda { $amount }</strong> ödeme almasını onaylıyorum.
        *[other] { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>{ $intervalCount } yılda bir { $amount }</strong> ödeme almasını onaylıyorum.
     }
-payment-confirm = Firefox ürünlerinin yapımcısı Mozilla'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle <strong>{ $interval } { $amount }</strong> ödeme almasını onaylıyorum.
 
 ##
 
@@ -439,6 +438,8 @@ new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınızı aç
 new-user-email-validate = E-posta geçerli değil
 new-user-email-validate-confirm = E-postalar eşleşmiyor
 new-user-already-has-account-sign-in = Zaten bir hesabınız var. <a>Giriş yapın</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = E-postanızı yanlış mı yazdınız? { $domain } e-posta hizmeti vermiyor.
 new-user-card-title = Kart bilgilerinizi girin
 new-user-submit = Şimdi abone ol
 manage-pocket-title = { -brand-name-pocket } premium aboneliğinizi mi arıyorsunuz?
