@@ -295,14 +295,12 @@ avatar-page-image-too-large-error-2 = El tamaño del archivo de imagen es demasi
 
 pw-change-header =
     .title = Cambiar contraseña
-pw-change-stay-safe = Mantente seguro — no reutilices contraseñas. Tu contraseña:
-pw-change-least-8-chars = Debe tener al menos 8 caracteres
-pw-change-not-contain-email = No debe ser tu dirección de correo electrónico
+pw-8-chars = Al menos 8 caracteres
+pw-not-email = Diferente a tu dirección de correo electrónico
 pw-change-must-match = La nueva contraseña coincide con la confirmación
+pw-commonly-used = No es una contraseña de uso común
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    No debe coincidir con esta <linkExternal>lista de contraseñas
-    comunes</linkExternal>
+pw-tips = Mantente seguro — no reutilices las contraseñas. Descubre más consejos para <linkExternal>crear contraseñas seguras</linkExternal>.
 pw-change-cancel-button = Cancelar
 pw-change-save-button = Guardar
 pw-change-forgot-password-link = ¿Olvidaste tu contraseña?

@@ -295,14 +295,12 @@ avatar-page-image-too-large-error-2 = Bildfilens storlek är för stor för att 
 
 pw-change-header =
     .title = Ändra lösenord
-pw-change-stay-safe = Var försiktig — återanvänd inte lösenord. Ditt lösenord:
-pw-change-least-8-chars = Måste innehålla minst åtta tecken
-pw-change-not-contain-email = Får inte vara din e-postadress
+pw-8-chars = Minst 8 tecken
+pw-not-email = Inte din e-postadress
 pw-change-must-match = Nytt lösenord matchar
+pw-commonly-used = Inte ett vanligt använt lösenord
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Får inte matcha den här <linkExternal>listan med vanliga
-    lösenord</linkExternal>
+pw-tips = Var säker — återanvänd inte lösenord. Se fler tips för att <linkExternal>skapa starka lösenord</linkExternal>.
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Spara
 pw-change-forgot-password-link = Glömt lösenordet?
