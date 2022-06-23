@@ -295,14 +295,12 @@ avatar-page-image-too-large-error-2 = De ôfbyldingbestângrutte is te grut om o
 
 pw-change-header =
     .title = Wachtwurd wizigje
-pw-change-stay-safe = Bliuw feilich – brûk wachtwurden net opnij. Jo wachtwurd:
-pw-change-least-8-chars = Moat op syn minst 8 tekens befetsje
-pw-change-not-contain-email = Mei net jo e-mailadres wêze
+pw-8-chars = Op syn minst 8 karakters
+pw-not-email = Net jo e-mailadres
 pw-change-must-match = Nij wachtwurd komt oerien mei befêstiging
+pw-commonly-used = Net in faaks brûkt wachtwurd
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Mei net oerienkomme mei dizze <linkExternal>list mei faaks brûkte
-    wachtwurden</linkExternal>
+pw-tips = Bliuw feilich — brûk wachtwurden net opnij. Besjoch mear tips om <linkExternal>sterke wachtwurden te meitsjen</linkExternal>.
 pw-change-cancel-button = Annulearje
 pw-change-save-button = Bewarje
 pw-change-forgot-password-link = Wachtwurd ferjitten?
