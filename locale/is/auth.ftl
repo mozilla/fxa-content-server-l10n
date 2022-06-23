@@ -170,10 +170,11 @@ cadReminderFirst-subject = Vinsamleg áminning: Hvernig á að ljúka uppsetning
 cadReminderFirst-action = Samstilla annað tæki
 cadReminderFirst-title = Hér er áminning til þín um að samstilla tæki.
 cadReminderFirst-description = Það þarf tvo til að samstilla. Með því að samstilla annað tæki við { -brand-firefox } heldurðu á öruggan máta bókamerkjunum þínum, lykilorðum og öðrum { -brand-firefox } gögnum eins alls staðar þar sem þú notar { -brand-firefox }.
-cadReminderSecond-subject = Lokaáminning: Ljúktu uppsetningu samstillingar
+cadReminderSecond-subject-2 = Ekki missa af! Ljúkum við uppsetningu samstillingar hjá þér
 cadReminderSecond-action = Samstilla annað tæki
-cadReminderSecond-title = Síðasta áminning um að samstilla tæki!
-cadReminderSecond-description = Með því að samstilla annað tæki við { -brand-firefox } heldurðu á öruggan máta bókamerkjunum þínum, lykilorðum og öðrum { -brand-firefox } gögnum eins alls staðar þar sem þú notar { -brand-firefox }.
+cadReminderSecond-title-2 = Ekki gleyma að samstilla!
+cadReminderSecond-description-sync = Samstilltu bókamerkin og lykilorðin þín, allsstaðar þar sem þú notar { -brand-firefox }.
+cadReminderSecond-description-plus = Auk þess eru gögnin þín alltaf dulrituð. Aðeins þú og tæki sem þú samþykkir geta séð þau.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Velkomin í { $productName }
@@ -297,8 +298,6 @@ subscriptionAccountDeletion-title = Okkur þykir miður að þú sért á förum
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Þú eyddir { -product-firefox-account }-reikningnum þínum nýlega. Fyrir vikið höfum við sagt upp { $productName } áskriftinni þinni. Lokagreiðsla þín upp á { $invoiceTotal } var greidd þann { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Nánar um greiðslu:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkomin í { $productName }: Stilltu lykilorðið þitt.
