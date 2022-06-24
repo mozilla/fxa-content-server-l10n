@@ -170,10 +170,11 @@ cadReminderFirst-subject = Your Friendly Reminder: How To Complete Your Sync Set
 cadReminderFirst-action = Synchronise another device
 cadReminderFirst-title = Here’s your reminder to synchronise devices.
 cadReminderFirst-description = It takes two to synchronise. Synchronising another device with { -brand-firefox } privately keeps your bookmarks, passwords and other { -brand-firefox } data the same everywhere you use { -brand-firefox }.
-cadReminderSecond-subject = Final Reminder: Complete Sync Setup
+cadReminderSecond-subject-2 = Don’t miss out! Let’s finish your Sync setup
 cadReminderSecond-action = Synchronise another device
-cadReminderSecond-title = Last reminder to synchronise devices!
-cadReminderSecond-description = Synchronising another device with { -brand-firefox } privately keeps your bookmarks, passwords and other { -brand-firefox } data the same everywhere you use { -brand-firefox }.
+cadReminderSecond-title-2 = Don’t forget to synchronise!
+cadReminderSecond-description-sync = Synchronise your bookmarks, passwords, open tabs and more — everywhere you use { -brand-firefox }.
+cadReminderSecond-description-plus = Plus, your data is always encrypted. Only you and devices you approve can see it.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Welcome to { $productName }
@@ -297,8 +298,6 @@ subscriptionAccountDeletion-title = Sorry to see you go
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = You recently deleted your { -product-firefox-account }. As a result, we’ve cancelled your { $productName } subscription. Your final payment of { $invoiceTotal } was paid on { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Payment details:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Welcome to { $productName }: Please set your password.
