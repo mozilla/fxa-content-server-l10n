@@ -170,10 +170,11 @@ cadReminderFirst-subject = Barátságos emlékeztető: Hogyan fejezze be a Sync 
 cadReminderFirst-action = Másik eszköz szinkronizálása
 cadReminderFirst-title = Itt az emlékeztető, hogy szinkronizálja az eszközeit.
 cadReminderFirst-description = Két félre van szükség a szinkronizáláshoz. Egy másik { -brand-firefox }ot használó eszközzel való szinkronizálás biztonságban tartja a könyvjelzőket, jelszavakat és egyéb { -brand-firefox }-adatokat mindenütt, ahol a { -brand-firefox }ot használja.
-cadReminderSecond-subject = Végső emlékeztető: Fejezze be a Sync beállítását
+cadReminderSecond-subject-2 = Ne maradjon ki! Fejezze be a szinkronizálás beállítását.
 cadReminderSecond-action = Másik eszköz szinkronizálása
-cadReminderSecond-title = Utolsó emlékeztető az eszközök szinkronizálására!
-cadReminderSecond-description = Egy másik { -brand-firefox }ot használó eszközzel való szinkronizálás biztonságban tartja a könyvjelzőket, jelszavakat és egyéb { -brand-firefox }-adatokat mindenütt, ahol a { -brand-firefox }ot használja.
+cadReminderSecond-title-2 = Ne felejtsen el szinkronizálni!
+cadReminderSecond-description-sync = Szinkronizálja a könyvjelzőket, a jelszavakat és még többet – bárhol is használja a { -brand-firefox }ot.
+cadReminderSecond-description-plus = Ráadásul az adatok mindig titkosítva vannak. Csak Ön és az Ön által jóváhagyott eszközök láthatják.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Üdvözli a { $productName }
@@ -297,8 +298,6 @@ subscriptionAccountDeletion-title = Sajnáljuk, hogy távozik
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Nemrég törölte a { -product-firefox-account }ját. Ezért megszakítottuk a(z) { $productName } előfizetését. Az utolsó { $invoiceTotal } $ értékű befizetése ekkor történt: { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Fizetési részletek:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Üdvözli a { $productName }: Állítsa be a jelszavát.
