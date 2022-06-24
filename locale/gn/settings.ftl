@@ -298,6 +298,7 @@ pw-change-header =
 pw-8-chars = Michĩvéramo 8 tai
 pw-not-email = Iñambue ne ñanduti veve kundaharapégui
 pw-change-must-match = Pe ñe’ẽñemi pyahu ojokupyty ñemoneĩ ndive
+pw-commonly-used = Ndaha’éi ñe’ẽñemi ojepurumeméva
 pw-change-cancel-button = Heja
 pw-change-save-button = Ñongatu
 pw-change-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
