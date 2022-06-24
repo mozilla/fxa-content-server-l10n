@@ -168,10 +168,11 @@ cadReminderFirst-subject = Ystävällinen muistutus: Kuinka saattaa synkronoinni
 cadReminderFirst-action = Synkronoi toinen laite
 cadReminderFirst-title = Tässä muistutus laitteidesi synkronoimiseksi.
 cadReminderFirst-description = Synkronointiin tarvitaan kaksi. Toisen laitteen synkronointi { -brand-firefox }in kanssa pitää kirjanmerkit, salasanat ja muut { -brand-firefox }-tiedot yksityisenä ja samana kaikkialla, missä käytät { -brand-firefox }ia.
-cadReminderSecond-subject = Viimeinen muistutus: Määritä synkronoinnin asetukset valmiiksi
+cadReminderSecond-subject-2 = Viimeistellään synkronoinnin määritys
 cadReminderSecond-action = Synkronoi toinen laite
-cadReminderSecond-title = Viimeinen muistutus laitteidesi synkronoimiseksi!
-cadReminderSecond-description = Toisen laitteen synkronointi { -brand-firefox }in kanssa pitää kirjanmerkit, salasanat ja muut { -brand-firefox }-tiedot yksityisenä ja samana kaikkialla, missä käytät { -brand-firefox }ia.
+cadReminderSecond-title-2 = Älä unohda synkronoida!
+cadReminderSecond-description-sync = Synkronoi kirjanmerkit, salasanat, avoimet välilehdet ja paljon muuta — missä tahansa käytät { -brand-firefox }ia.
+cadReminderSecond-description-plus = Lisäksi tietosi ovat aina salattuja. Vain sinä ja hyväksymäsi laitteet näkevät tietosi.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Tervetuloa, käytössäsi on { $productName }
@@ -295,8 +296,6 @@ subscriptionAccountDeletion-title = Ikävä nähdä sinun lähtevän
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Poistit äskettäin { -product-firefox-account }si. Sen seurauksena olemme peruneet { $productName } -tilauksen. Viimeisin maksu, jonka summa on { $invoiceTotal }, veloitettiin { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Maksun tiedot:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Tervetuloa, tämä on { $productName }: Aseta salasanasi.
