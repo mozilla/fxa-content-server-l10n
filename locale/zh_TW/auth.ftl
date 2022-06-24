@@ -164,10 +164,11 @@ cadReminderFirst-subject = 善意提醒：如何完成 Sync 設定
 cadReminderFirst-action = 同步另一台裝置
 cadReminderFirst-title = 提醒您要記得同步裝置。
 cadReminderFirst-description = 要有兩台裝置連結起來才算「同步」。可透過 Sync 安全地在您的每一台 { -brand-firefox } 裝置間同步書籤、密碼與其他資料。
-cadReminderSecond-subject = 這是最後一次顯示提醒囉：請完成 Sync 設定
+cadReminderSecond-subject-2 = 別錯過！一起完成同步功能設定吧！
 cadReminderSecond-action = 同步另一台裝置
-cadReminderSecond-title = 這是最後一次顯示提醒囉，要記得同步裝置！
-cadReminderSecond-description = 可透過 Sync 安全地在您的每一台 { -brand-firefox } 裝置間同步書籤、密碼與其他資料。
+cadReminderSecond-title-2 = 別忘了同步功能！
+cadReminderSecond-description-sync = 在任何使用 { -brand-firefox } 的地方同步書籤、密碼、開啟的分頁與更多資料。
+cadReminderSecond-description-plus = 此外，您的資料將隨時加密，只有您跟您同意過的裝置才可看到這些資料。
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = 歡迎使用 { $productName }。
@@ -290,8 +291,6 @@ subscriptionAccountDeletion-title = 很遺憾看見您離開
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = 您最近刪除了 { -product-firefox-account }，因此我們也同步取消了您的 { $productName } 訂閱。最後一次付款發生於 { $invoiceDateOnly }，金額為 { $invoiceTotal }。
-# COMMENT ABOUT After the colon,
-payment-details = 付款詳細資訊：
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = 歡迎使用 { $productName }：請設定密碼。
