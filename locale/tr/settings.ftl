@@ -502,6 +502,11 @@ se-cannot-resend-code-2 = Doğrulama kodu yeniden gönderilirken bir sorun oluş
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } artık birinci e-postanız
+se-set-primary-error-2 = Üzgünüz, birinci e-postanız değiştirilirken bir sorun oluştu
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } başarıyla silindi
 se-delete-email-error-2 = Üzgünüz, bu e-posta silinirken bir sorun oluştu
 se-verify-session-2 = Bu işlemi gerçekleştirmek için mevcut oturumunuzu doğrulamalısınız
