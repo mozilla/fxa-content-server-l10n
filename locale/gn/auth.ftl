@@ -170,10 +170,8 @@ cadReminderFirst-subject = Ne mandu’arã angirũva: mmba’éicha emoĩmbáta 
 cadReminderFirst-action = Embojuehe ambue mba’e’oka
 cadReminderFirst-title = Ápe oĩ mandu’arã embojuehe hag̃ua mba’e’oka.
 cadReminderFirst-description = Eikotevẽ mokõi embojuehe hag̃ua. Embojuehe ambue mba’e’oka { -brand-firefox } ndive tekoñemíme oreko nde rechaukaha, ñe’ẽñemi ha ambue mba’ekuaarã { -brand-firefox } peteĩcha tenda eipuruhápe { -brand-firefox }.
-cadReminderSecond-subject = Mandu’arã ipaháva: Embojuehepa Sync
+cadReminderSecond-subject-2 = ¡Ani rejavy! Ñambohekopántema ne ñembojuehe
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
-cadReminderSecond-title = ¡Mandu’arã ipaháva embojuehe hag̃ua mba’e’oka!
-cadReminderSecond-description = Embojuehévo ambue mba’e’oka nde { -brand-firefox } ndive tekoñemíme oguereko nde rechaukaha ha ambuéva mba’ekuaarã { -brand-firefox } pegua peteĩchaite tenda eipuruhápe.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = ¡Eg̃uahẽporãite { $productName }-pe!
@@ -297,8 +295,6 @@ subscriptionAccountDeletion-title = Ambyasy eho haguére
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Embogueramoite nde { -product-firefox-account }. Péva rupi, romboykéma ne ñemoheraguapy { $productName }. Ñe ñehepyme’ẽ ipaháva { $invoiceTotal } pegua oñehepyme’ẽvo { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Mba’éicha ehepyme’ẽta:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Eg̃uahẽporã { $productName }-pe: Emboheko ne ñe’ẽñemi.
