@@ -170,10 +170,11 @@ cadReminderFirst-subject = Freundliche Erinnerung: So schließen Sie Ihre Sync-E
 cadReminderFirst-action = Weiteres Gerät synchronisieren
 cadReminderFirst-title = Erinnerung: Synchronisieren Sie Ihre Geräte.
 cadReminderFirst-description = Die Synchronisierung braucht zwei Geräte. Durch die private Synchronisierung eines anderen Geräts mit { -brand-firefox } bleiben Ihre Lesezeichen, Passwörter und anderen { -brand-firefox }-Daten überall dort, wo Sie { -brand-firefox } verwenden, gleich.
-cadReminderSecond-subject = Letzte Erinnerung: Schließen Sie die Synchronisierungs-Einrichtung ab
+cadReminderSecond-subject-2 = Nicht vergessen! Schließen Sie Ihre Sync-Einrichtung ab.
 cadReminderSecond-action = Weiteres Gerät synchronisieren
-cadReminderSecond-title = Letzte Erinnerung: Synchronisieren Sie Ihre Geräte!
-cadReminderSecond-description = Durch die private Synchronisierung eines anderen Geräts mit { -brand-firefox } bleiben Ihre Lesezeichen, Passwörter und anderen { -brand-firefox }-Daten überall dort, wo Sie { -brand-firefox } verwenden, gleich.
+cadReminderSecond-title-2 = Synchronisierung nicht vergessen!
+cadReminderSecond-description-sync = Synchronisieren Sie Ihre Lesezeichen, Passwörter, geöffneten Tabs und mehr – überall dort, wo Sie { -brand-firefox } verwenden.
+cadReminderSecond-description-plus = Außerdem sind Ihre Daten immer verschlüsselt. Nur Sie selbst und von Ihnen freigegebene Geräte können darauf zugreifen.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Willkommen bei { $productName }.
@@ -297,8 +298,6 @@ subscriptionAccountDeletion-title = Schade, dass Sie gehen
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Sie haben kürzlich Ihren { -product-firefox-account } gelöscht. Aus diesem Grund haben wir Ihr Abonnement für { $productName } storniert. Ihre letzte Zahlung von { $invoiceTotal } wurde am { $invoiceDateOnly } bezahlt.
-# COMMENT ABOUT After the colon,
-payment-details = Zahlungsdetails:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Willkommen bei { $productName }: Bitte legen Sie Ihr Passwort fest.
