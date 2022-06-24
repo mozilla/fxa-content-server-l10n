@@ -170,10 +170,11 @@ cadReminderFirst-subject = En vänlig påminnelse: Så slutför du din konfigura
 cadReminderFirst-action = Synkronisera en annan enhet
 cadReminderFirst-title = Här är din påminnelse om att synkronisera enheter.
 cadReminderFirst-description = Synkronisering kräver två enheter. Genom att privat synkronisera en annan enhet med { -brand-firefox } förblir dina bokmärken, lösenord och andra { -brand-firefox }-data desamma var du än använder { -brand-firefox }.
-cadReminderSecond-subject = Sista påminnelse: Slutför konfiguration av Sync
+cadReminderSecond-subject-2 = Missa inte! Låt oss avsluta din synkroniseringskonfiguration
 cadReminderSecond-action = Synkronisera en annan enhet
-cadReminderSecond-title = Sista påminnelse om att synkronisera enheter!
-cadReminderSecond-description = Genom att privat synkronisera en annan enhet med { -brand-firefox } förblir dina bokmärken, lösenord och andra { -brand-firefox }-data desamma var du än använder { -brand-firefox }.
+cadReminderSecond-title-2 = Glöm inte att synkronisera!
+cadReminderSecond-description-sync = Synkronisera dina bokmärken, lösenord, öppna flikar och mer — överallt där du använder { -brand-firefox }.
+cadReminderSecond-description-plus = Dessutom är din data alltid krypterad. Endast du och enheter du godkänner kan se det.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Välkommen till { $productName }
@@ -297,8 +298,6 @@ subscriptionAccountDeletion-title = Ledsen att se dig sluta
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Du tog nyligen bort ditt { -product-firefox-account }. Som ett resultat av detta har vi avslutat din prenumeration på { $productName }. Din sista betalning på { $invoiceTotal } betalades { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Betalningsinformation:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Välkommen till { $productName }: Ange ditt lösenord.
