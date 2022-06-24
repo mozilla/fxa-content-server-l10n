@@ -170,8 +170,11 @@ cadReminderFirst-subject = Wašo pśijaśelne dopomnjeśe: Kak móžośo konfigu
 cadReminderFirst-action = Drugi rěd synchronizěrowaś
 cadReminderFirst-title = How jo wašo dopomnjeśe na sychronizoěrwanje rědow.
 cadReminderFirst-description = Za synchronizěrowanje stej dwa trěbnej. Priwatna synchronizacija drugego rěda z { -brand-firefox } waše cytańske znamjenja, gronidła a druge daty { -brand-firefox } jadnake źaržy, źožkuli { -brand-firefox } wužywaśo.
+cadReminderSecond-subject-2 = Njewuwostajśo nic! Dajśo nam konfiguraciju wašeje snychronizacije dokóńcyś
 cadReminderSecond-action = Drugi rěd synchronizěrowaś
 cadReminderSecond-title-2 = Njezabydniśo synchronizěrowaś!
+cadReminderSecond-description-sync = Synchronizěrujśo swóje cytańske znamjenja, gronidła, wócynjone rejtariki a wěcej – wšuźi, źož { -brand-firefox } wužywaśo.
+cadReminderSecond-description-plus = Mimo togo se waše daty pśece koděruju. Jano wy a rědy, kótarež dowólujośo, mógu je wiźeś.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Witajśo k { $productName }
