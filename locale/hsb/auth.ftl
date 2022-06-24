@@ -170,10 +170,10 @@ cadReminderFirst-subject = Waše přećelne dopomnjeće: Kak móžeće konfigura
 cadReminderFirst-action = Druhi grat synchronizować
 cadReminderFirst-title = Tu je waše dopomnjeće na synchronizowanje gratow.
 cadReminderFirst-description = Za synchronizowanje stej dwaj trěbnej. Priwatna synchronizacija druheho grata z{ -brand-firefox } waše zapołožki, hesła a druhe daty { -brand-firefox } jenake dźerži, hdźežkuli { -brand-firefox } wužiwaće.
-cadReminderSecond-subject = Poslednje dopomnjeće: Dokónčće konfiguracije synchronizacije
 cadReminderSecond-action = Druhi grat synchronizować
-cadReminderSecond-title = Poslednje dopomnjeće na synchronizowanje gratow!
-cadReminderSecond-description = Priwatna synchronizacija druheho grata z{ -brand-firefox } waše zapołožki, hesła a druhe daty { -brand-firefox } jenake dźerži, hdźežkuli { -brand-firefox } wužiwaće.
+cadReminderSecond-title-2 = Njezabudźće synchronizować!
+cadReminderSecond-description-sync = Synchronizujće swoje zapołožki, hesła, wočinjene rajtarki a wjace – wšudźe, hdźež { -brand-firefox } wužiwaće.
+cadReminderSecond-description-plus = Nimo toho so waše daty přeco zaklučuja. Jenož wy a graty, kotrež dowoleće, móža je widźeć.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Witajće k { $productName }
@@ -299,8 +299,6 @@ subscriptionAccountDeletion-title = Škoda, zo woteńdźeće
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Sće njedawno swoje konto { -product-firefox-account } zhašał. Tohodla smy waš abonement { $productName } wotskazali. Waše kónčne płaćenje { $invoiceTotal } je so dnja { $invoiceDateOnly } zapłaćiło.
-# COMMENT ABOUT After the colon,
-payment-details = Płaćenske podrobnosće:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Witajće k { $productName }: Nastajće prošu swoje hesło.
