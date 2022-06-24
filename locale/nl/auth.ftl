@@ -170,10 +170,11 @@ cadReminderFirst-subject = Een vriendelijke herinnering: instellen van uw Sync v
 cadReminderFirst-action = Nog een apparaat synchroniseren
 cadReminderFirst-title = Dit is uw herinnering om apparaten te synchroniseren.
 cadReminderFirst-description = Er zijn er twee nodig om te synchroniseren. Als u een ander apparaat privé met { -brand-firefox } synchroniseert, blijven uw bladwijzers, wachtwoorden en andere { -brand-firefox }-gegevens overal waar u { -brand-firefox } gebruikt hetzelfde.
-cadReminderSecond-subject = Laatste herinnering: instellen van Sync voltooien
+cadReminderSecond-subject-2 = Mis het niet! Laten we uw synchronisatieconfiguratie voltooien
 cadReminderSecond-action = Nog een apparaat synchroniseren
-cadReminderSecond-title = Laatste herinnering om apparaten te synchroniseren!
-cadReminderSecond-description = Als u een ander apparaat privé met { -brand-firefox } synchroniseert, blijven uw bladwijzers, wachtwoorden en andere { -brand-firefox }-gegevens overal waar u { -brand-firefox } gebruikt hetzelfde.
+cadReminderSecond-title-2 = Vergeet niet te synchroniseren!
+cadReminderSecond-description-sync = Synchroniseer uw bladwijzers, wachtwoorden, open tabbladen en meer – overal waar u { -brand-firefox } gebruikt.
+cadReminderSecond-description-plus = Bovendien zijn uw gegevens altijd versleuteld. Alleen u en apparaten die u goedkeurt kunnen deze zien.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Welkom bij { $productName }.
@@ -297,8 +298,6 @@ subscriptionAccountDeletion-title = Jammer dat u vertrekt
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = U heeft onlangs uw { -product-firefox-account } verwijderd. Als gevolg hiervan hebben we uw { $productName }-abonnement opgezegd. Uw laatste betaling van { $invoiceTotal } is betaald op { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Betalingsgegevens:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Welkom bij { $productName }: stel uw wachtwoord in.
