@@ -71,12 +71,21 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } uygulamasını { -app-store }’dan indir">
 another-desktop-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir masaüstü cihaza</a> kurun.
 another-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir cihaza</a> kurun.
+automated-email-change =
+    Bu otomatik bir e-postadır. Bu eylemi siz onaylamadıysanız <a data-l10n-name="passwordChangeLink">lütfen parolanızı değiştirin</a>.
+    Daha fazla bilgi için lütfen <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Bu otomatik bir e-postadır. { -product-firefox-account }nıza yeni bir cihaz eklemediyseniz hemen { $passwordChangeLink } adresinden parolanızı değiştirmelisiniz
+automated-email =
+    Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi bir işlem yapmanız gerekmez.
+    Daha fazla bilgi için lütfen <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
 automated-email-plaintext = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen parolanızı değiştirin:
+automated-email-reset =
+    Bu otomatik bir e-postadır. Bu işlemi siz onaylamadıysanız <a data-l10n-name="resetLink">lütfen parolanızı sıfırlayın</a>.
+    Daha fazla bilgi için lütfen <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Parolanızı siz değiştirmediyseniz lütfen hemen { $resetLink } adresinden sıfırlayın
@@ -161,10 +170,7 @@ cadReminderFirst-subject = Hatırlatma: Sync kurulumunuzu tamamlayın
 cadReminderFirst-action = Başka bir cihazı eşitle
 cadReminderFirst-title = Cihazları eşitlemenizi hatırlatalım dedik.
 cadReminderFirst-description = Eşitleme için iki cihazınız olmalı. Başka bir cihazınızı { -brand-firefox }’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer { -brand-firefox } verilerinizi { -brand-firefox }’u kullandığınız her yere taşıyabilirsiniz.
-cadReminderSecond-subject = Son hatırlatma: Sync kurulumunu tamamlayın
 cadReminderSecond-action = Başka bir cihazı eşitle
-cadReminderSecond-title = Cihazları eşitlemeniz için son hatırlatma!
-cadReminderSecond-description = Başka bir cihazınızı { -brand-firefox }’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer { -brand-firefox } verilerinizi { -brand-firefox }’u kullandığınız her yere taşıyabilirsiniz.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = { $productName } uygulamasına hoş geldiniz
@@ -334,6 +340,9 @@ subscriptionDowngrade-content-auto-renew = İptal etmediğiniz sürece aboneliğ
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = { $productName } aboneliğiniz iptal edildi
 subscriptionFailedPaymentsCancellation-title = Aboneliğiniz iptal edildi
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Birden çok ödeme denemesi başarısız olduğu için { $productName } aboneliğinizi iptal ettik. Yeniden buna erişim elde etmek için güncel bir ödeme yöntemiyle yeni bir abonelik başlatın.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = { $productName } ödemesi onaylandı
@@ -365,6 +374,9 @@ subscriptionFirstInvoiceDiscount-subject = { $productName } ödemesi onaylandı
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-title = { $productName } abonesi olduğunuz için teşekkür ederiz
 subscriptionFirstInvoiceDiscount-content-processing = Ödemeniz işleme alındı. Tamamlanması dört iş günü sürebilir.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-content-install-2 = { $productName } ürününü kullanmayla ilgili ayrı bir e-posta alacaksınız.
 subscriptionFirstInvoiceDiscount-content-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
