@@ -170,6 +170,7 @@ cadReminderFirst-subject = Waše přećelne dopomnjeće: Kak móžeće konfigura
 cadReminderFirst-action = Druhi grat synchronizować
 cadReminderFirst-title = Tu je waše dopomnjeće na synchronizowanje gratow.
 cadReminderFirst-description = Za synchronizowanje stej dwaj trěbnej. Priwatna synchronizacija druheho grata z{ -brand-firefox } waše zapołožki, hesła a druhe daty { -brand-firefox } jenake dźerži, hdźežkuli { -brand-firefox } wužiwaće.
+cadReminderSecond-subject-2 = Njewuwostajejće ničo! Dajće nam konfiguraciju wašeje snychronizacije dokónčić
 cadReminderSecond-action = Druhi grat synchronizować
 cadReminderSecond-title-2 = Njezabudźće synchronizować!
 cadReminderSecond-description-sync = Synchronizujće swoje zapołožki, hesła, wočinjene rajtarki a wjace – wšudźe, hdźež { -brand-firefox } wužiwaće.
