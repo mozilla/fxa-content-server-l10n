@@ -170,10 +170,8 @@ cadReminderFirst-subject = Wašo pśijaśelne dopomnjeśe: Kak móžośo konfigu
 cadReminderFirst-action = Drugi rěd synchronizěrowaś
 cadReminderFirst-title = How jo wašo dopomnjeśe na sychronizoěrwanje rědow.
 cadReminderFirst-description = Za synchronizěrowanje stej dwa trěbnej. Priwatna synchronizacija drugego rěda z { -brand-firefox } waše cytańske znamjenja, gronidła a druge daty { -brand-firefox } jadnake źaržy, źožkuli { -brand-firefox } wužywaśo.
-cadReminderSecond-subject = Slědne dopomnjeśe: Dokóńcćo konfiguracije synchronizacije
 cadReminderSecond-action = Drugi rěd synchronizěrowaś
-cadReminderSecond-title = Slědne dopomnjeśe na synchronizěrowanje rědow!
-cadReminderSecond-description = Priwatna synchronizacija drugego rěda z { -brand-firefox } waše cytańske znamjenja, gronidła a druge daty { -brand-firefox } jadnake źaržy, źožkuli { -brand-firefox } wužywaśo.
+cadReminderSecond-title-2 = Njezabydniśo synchronizěrowaś!
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Witajśo k { $productName }
@@ -299,8 +297,6 @@ subscriptionAccountDeletion-title = Škóda, až wótejźośo
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Sćo njedawno wukašował swójo konto { -product-firefox-account }. Togodla smy wótskazali waš abonement { $productName }. Wašo kóńcne płaśenje { $invoiceTotal } jo se zapłaśiło dnja { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Płaśeńske drobnostki:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Witajśo k { $productName }: Nastajśo pšosym swójo gronidło.
