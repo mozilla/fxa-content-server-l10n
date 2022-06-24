@@ -170,10 +170,11 @@ cadReminderFirst-subject = Ваше нагадування: Як заверши�
 cadReminderFirst-action = Синхронізувати інший пристрій
 cadReminderFirst-title = Це ваше нагадування для синхронізації пристроїв.
 cadReminderFirst-description = Для синхронізації необхідно два пристрої. Синхронізація іншого пристрою з { -brand-firefox } приватно зберігає ваші закладки, паролі та інші дані { -brand-firefox }, щоб вони були однаковими всюди, де ви використовуєте { -brand-firefox }.
-cadReminderSecond-subject = Останнє нагадування: Завершіть налаштування синхронізації
+cadReminderSecond-subject-2 = Не пропустіть! Завершімо налаштування синхронізації
 cadReminderSecond-action = Синхронізувати інший пристрій
-cadReminderSecond-title = Останнє нагадування про синхронізацію пристроїв!
-cadReminderSecond-description = Синхронізація іншого пристрою з { -brand-firefox } приватно зберігає ваші закладки, паролі та інші дані { -brand-firefox }, щоб вони були однаковими всюди, де ви використовуєте { -brand-firefox }.
+cadReminderSecond-title-2 = Не забудьте про синхронізацію!
+cadReminderSecond-description-sync = Синхронізуйте свої закладки, паролі, відкриті вкладки тощо — скрізь, де ви користуєтеся { -brand-firefox }.
+cadReminderSecond-description-plus = Крім того, ваші дані завжди зашифровані. Їх можете бачити лише ви та схвалені вами пристрої.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Вітаємо в { $productName }
@@ -298,8 +299,6 @@ subscriptionAccountDeletion-title = Шкода, що ви йдете
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Ви нещодавно видалили свій { -product-firefox-account }. Як наслідок, ми скасували вашу передплату { $productName }. Ваш останній рахунок на суму { $invoiceTotal } був сплачений { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Подробиці платежу:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Вітаємо в { $productName }: Будь ласка, встановіть пароль.
