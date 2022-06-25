@@ -380,6 +380,10 @@ verify-secondary-email-verify-button = 验证
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = 请在 5 分钟内输入发送到 <strong>{ $email }</strong> 的验证码。
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } 成功添加
 
 ##
 
@@ -397,6 +401,7 @@ tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 错误的两步验证码
 tfa-cannot-retrieve-code = 检索您的救援码时出现问题。
+tfa-cannot-verify-code-2 = 验证您的救援码时出现问题
 tfa-incorrect-recovery-code = 错误的救援码
 tfa-enabled = 已启用两步验证
 tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExternal>进行扫码。
@@ -473,6 +478,7 @@ rk-not-set = 未设置
 rk-action-create = 创建
 rk-action-remove = 移除
 rk-cannot-refresh = 抱歉，刷新救援密钥时出现问题。
+rk-key-removed-2 = 已移除账户救援密钥
 rk-cannot-remove-key = 无法删除您的账户救援密钥。
 rk-refresh-key = 刷新救援密钥
 rk-content-explain = 当您忘记密码时恢复数据。
@@ -493,6 +499,7 @@ se-cannot-resend-code-2 = 抱歉，重新发送验证码时出现问题
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email } 现在是您的主邮箱
+se-set-primary-error-2 = 抱歉，更改您的主邮箱时出现问题
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
