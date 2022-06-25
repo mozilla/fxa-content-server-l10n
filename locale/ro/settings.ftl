@@ -119,23 +119,18 @@ cs-description = Tot ce folosești și în care ești autentificat.
 cs-cannot-refresh =
     Ne pare rău, a apărut o problemă la actualizarea listei de servicii
     conectate.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = Deconectat din { $service }.
 cs-refresh-button =
     .title = Reîmprospătează serviciile conectate
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Obiecte lipsă sau duplicate?
 cs-disconnect-sync-heading = Deconectare de la Sync
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content = Datele tale de navigare vor rămâne pe dispozitiv ({ $device }), însă nu se vor mai sincroniza cu contul tău.
-cs-disconnect-sync-reason = Care este principalul motiv pentru deconectarea acestui dispozitiv?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -160,11 +155,11 @@ cs-sign-out-button = Deconectează-te
 
 ## Data collection section
 
+dc-heading = Colectarea și utilizarea datelor
 
 # DropDownAvatarMenu component
 
 drop-down-menu-sign-out = Deconectează-te
-drop-down-menu-sign-out-error = Ne pare rău, a apărut o problemă la deconectare.
 
 ## Flow Container
 
@@ -218,13 +213,15 @@ nav-settings = Setări
 nav-profile = Profil
 nav-security = Securitate
 nav-connected-services = Servicii conectate
+nav-data-collection = Colectarea și utilizarea datelor
 nav-paid-subs = Abonamente cu plată
 nav-email-comm = Comunicări prin e-mail
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = A apărut o problemă la înlocuirea codurilor de recuperare.
-tfa-replace-code-success-alert = Codurile de recuperare a contului au fost actualizate.
+tfa-replace-code-success-alert-2 = Codurile de recuperare a contului au fost actualizate
+tfa-replace-code-1-2 = Pasul 1 din 2
+tfa-replace-code-2-2 = Pasul 2 din 2
 
 ## Avatar change page
 
@@ -248,8 +245,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Nu s-a putut inițializa camera
 avatar-page-new-avatar =
     .alt = poză de profil nouă
-avatar-page-file-upload-error-2 = A apărut o problemă la încărcarea fotografiei de profil.
-avatar-page-delete-error-2 = A apărut o problemă la ștergerea fotografiei de profil.
 
 ##
 
@@ -258,14 +253,7 @@ avatar-page-delete-error-2 = A apărut o problemă la ștergerea fotografiei de 
 
 pw-change-header =
     .title = Schimbă parola
-pw-change-stay-safe = Rămâi în siguranță - nu refolosi parolele. Parola ta:
-pw-change-least-8-chars = Trebuie să aibă cel puțin 8 caractere
-pw-change-not-contain-email = Trebuie să nu fie adresa ta de e-mail
 pw-change-must-match = Noua parolă să se potrivească cu confirmarea
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Nu trebuie să corespundă acestei <linkExternal>liste de parole
-    obișnuite</linkExternal>
 pw-change-cancel-button = Anulează
 pw-change-save-button = Salvează
 pw-change-forgot-password-link = Ți-ai uitat parola?
@@ -275,7 +263,12 @@ pw-change-new-password =
     .label = Introdu parola nouă
 pw-change-confirm-password =
     .label = Confirmă noua parolă
-pw-change-success-alert = Parolă actualizată.
+
+##
+
+
+## Password create page
+
 
 ##
 
@@ -311,8 +304,6 @@ display-name-input =
     .label = Introdu numele afișat
 submit-display-name = Salvează
 cancel-display-name = Anulează
-display-name-update-error = A apărut o problemă la actualizarea numelui tău afișat.
-display-name-success-alert = Numele afișat actualizat.
 
 ##
 
@@ -327,11 +318,10 @@ recovery-key-page-title =
     .title = Cheie de recuperare
 recovery-key-step-1 = Pasul 1 din 2
 recovery-key-step-2 = Pasul 2 din 2
-recovery-key-success-alert = Cheie de recuperare creată.
 
 ## Add secondary email page
 
-add-secondary-email-error = A apărut o problemă la crearea acestui e-mail.
+add-secondary-email-step-1 = Pasul 1 din 2
 add-secondary-email-page-title =
     .title = E-mail secundar
 add-secondary-email-enter-address =
@@ -341,7 +331,7 @@ add-secondary-email-save-button = Salvează
 
 ## Verify secondary email page
 
-verify-secondary-email-error = A apărut o problemă la trimiterea codului de verificare.
+add-secondary-email-step-2 = Pasul 2 din 2
 verify-secondary-email-page-title =
     .title = E-mail secundar
 verify-secondary-email-verification-code =
@@ -352,10 +342,6 @@ verify-secondary-email-verify-button = Verifică
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Te rugăm să introduci, în termen de 5 minute, codul de verificare trimis către <strong>{ $email }</strong>.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } a fost adăugat cu succes.
 
 ##
 
@@ -372,7 +358,9 @@ tfa-button-continue = Continuă
 tfa-button-cancel = Anulează
 tfa-button-finish = Finalizează
 tfa-incorrect-totp = Cod de autentificare în doi pași incorect
-tfa-cannot-verify-code = A apărut o problemă la verificarea codului de recuperare.
+tfa-cannot-retrieve-code = A apărut o problemă la recuperarea codului.
+tfa-cannot-verify-code-2 = A apărut o problemă la verificarea codului de recuperare
+tfa-incorrect-recovery-code = Cod de recuperare incorect
 tfa-enabled = Autentificare în doi pași activată
 tfa-scan-this-code =
     Scanează acest cod QR folosind unul dintre <linkExternal>aceste
@@ -412,6 +400,10 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Securitate
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Creată în { $date }
 
 ## Switch component
 
@@ -433,7 +425,6 @@ rk-cannot-refresh = Ne pare rău, a apărut o problemă la reîmprospătarea che
 rk-refresh-key = Reîmprospătează cheia de recuperare
 rk-content-explain = Restaurează-ți informațiile când uiți parola.
 rk-content-reset-data = De ce resetarea parolei îmi resetează datele?
-rk-cannot-verify-session-2 = Ne pare rău, a apărut o problemă la verificarea sesiunii.
 rk-refresh-error = Ne pare rău, a apărut o problemă la reîmprospătarea cheii de recuperare.
 
 ## Secondary email sub-section on main Settings page
@@ -441,18 +432,6 @@ rk-refresh-error = Ne pare rău, a apărut o problemă la reîmprospătarea chei
 se-heading = E-mail secundar
     .header = E-mail secundar
 se-cannot-refresh-email = Ne pare rău, a apărut o problemă la reîmprospătarea acestui e-mail.
-se-cannot-resend-code = Ne pare rău, a apărut o problemă la retrimiterea codului de verificare.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } este acum e-mailul tău principal.
-se-set-primary-error = Ne pare rău, a apărut o problemă la modificarea e-mailului principal.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } a fost șters cu succes.
-se-verify-session = Va trebui să îți verifici sesiunea actuală pentru a efectua această acțiune.
-se-verify-session-error = Ne pare rău, a apărut o problemă la verificarea sesiunii.
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Reîmprospătează e-mailul
@@ -465,6 +444,8 @@ se-default-content = Accesează contul dacă nu te poți autentifica în e-mailu
 se-content-note =
     Notă: un e-mail secundar nu îți va restabili informațiile - vei
     avea nevoie de o <a>cheie de recuperare</a> pentru asta.
+# Default value for the secondary email
+se-secondary-email-none = Niciunul
 
 ##
 
@@ -472,7 +453,6 @@ se-content-note =
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autentificare în doi pași
-tfa-row-disabled = Autentificare în doi pași dezactivată.
 tfa-row-not-set = Nu este setată
 tfa-row-action-add = Adaugă
 tfa-row-action-disable = Dezactivează
@@ -484,13 +464,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Împiedică pe altcineva să se autentifice solicitând un
     cod unic la care numai tu ai acces.
-tfa-row-cannot-verify-session-2 = Ne pare rău, a apărut o problemă la verificarea sesiunii.
 tfa-row-disable-modal-heading = Dezactivezi autentificarea în doi pași?
 tfa-row-disable-modal-confirm = Dezactivează
 tfa-row-disable-modal-explain =
     Nu vei putea anula această acțiune. Ai şi
     opțiunea <linkExternal>să înlocuiești codurile de recuperare</linkExternal>.
-tfa-row-cannot-disable = Autentificarea în doi pași nu a putut fi dezactivată.
 tfa-row-change-modal-heading = Schimbi codurile de recuperare?
 tfa-row-change-modal-confirm = Modifică
 tfa-row-change-modal-explain = Nu vei putea anula această acțiune.
