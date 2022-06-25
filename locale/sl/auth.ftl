@@ -196,16 +196,18 @@ cadReminderFirst-subject = Prijazen opomnik: Kako dokončati nastavitev sinhroni
 cadReminderFirst-action = Sinhroniziraj drugo napravo
 cadReminderFirst-title = Pošiljamo vam opomnik za sinhronizacijo naprav.
 cadReminderFirst-description = Za sinhronizacijo sta potrebna dva. Sinhronizacija druge naprave s { -brand-firefox(sklon: "orodnik") } vam omogoča zasebno usklajevanje zaznamkov, gesel in drugih podatkov, kjerkoli uporabljate { -brand-firefox }.
-cadReminderSecond-subject = Zadnji opomnik: dokončajte nastavitev sinhronizacije
+cadReminderSecond-subject-2 = Ne zamudite dogajanja! Končajmo nastavitev sinhronizacije
 cadReminderSecond-action = Sinhroniziraj drugo napravo
-cadReminderSecond-title = Zadnji opomnik za sinhronizacijo naprav!
-cadReminderSecond-description = Sinhronizacija druge naprave s { -brand-firefox(sklon: "orodnik") } vam omogoča zasebno usklajevanje zaznamkov, gesel in drugih podatkov, kjerkoli uporabljate { -brand-firefox }.
+cadReminderSecond-title-2 = Ne pozabite na sinhronizacijo!
+cadReminderSecond-description-sync = Sinhronizirajte svoje zaznamke, gesla in ostale podatke – povsod, kjer uporabljate { -brand-firefox }.
+cadReminderSecond-description-plus = Poleg tega so vaši podatki vedno šifrirani. Vidite jih lahko samo vi in naprave, ki jih odobrite.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Dobrodošli v { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Dobrodošli v { $productName }
+downloadSubscription-content-2 = Začnimo uporabljati vse funkcije, vključene v vašo naročnino:
 downloadSubscription-link-action-2 = Začnite
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Zmanjkuje vam kod za obnovitev
@@ -323,8 +325,6 @@ subscriptionAccountDeletion-title = Žal nam je, ker odhajate
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Pred kratkim ste izbrisali svoj { -product-firefox-account }. Zaradi tega smo preklicali vašo naročnino za { $productName }. Vaše zadnje plačilo { $invoiceTotal } je bilo nakazano { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Podatki o plačilu:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Dobrodošli v { $productName }: Nastavite si geslo.
@@ -332,6 +332,7 @@ subscriptionAccountFinishSetup-subject = Dobrodošli v { $productName }: Nastavi
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Dobrodošli v { $productName }
 subscriptionAccountFinishSetup-content-processing = Vaše plačilo je v obdelavi, ki lahko traja do štiri delovne dni. Vaša naročnina se bo samodejno obnovila vsako obračunsko obdobje, razen če se odločite za preklic.
+subscriptionAccountFinishSetup-content-create-2 = Nato boste ustvarili geslo za { -product-firefox-account }, s katerim boste začeli uporabljati svojo novo naročnino.
 subscriptionAccountFinishSetup-action-2 = Začnite
 subscriptionAccountReminderFirst-subject = Opomnik: Dokončajte nastavljanje računa
 subscriptionAccountReminderFirst-title = Dostop do vaše naročnine še ni možen
@@ -594,4 +595,5 @@ verifySecondaryCode-expiry-notice = Poteče čez 5 minut. Ko naslov potrdite, bo
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject = Koda za potrditev: { $code }
 verifyShortCode-title = Se prijavljate vi?
+verifyShortCode-prompt = Če je odgovor pritrdilen, v obrazcu za registracijo uporabite to potrditveno kodo:
 verifyShortCode-expiry-notice = Poteče čez 5 minut.

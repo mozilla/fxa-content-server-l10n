@@ -36,6 +36,7 @@ document =
 
 general-error-heading = Splošna napaka aplikacije
 basic-error-message = Prišlo je do napake. Poskusite znova pozneje.
+payment-error-3b = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
 payment-error-retry-button = Poskusi znova
 payment-error-manage-subscription-button = Upravljaj z naročnino
 country-currency-mismatch = Valuta te naročnine ni veljavna za državo, povezano z vašim plačilom.
@@ -47,8 +48,11 @@ insufficient-funds-error = Videti je, da na vaši kartici ni dovolj sredstev. Po
 withdrawal-count-limit-exceeded-error = Videti je, da bo ta transakcija presegla vaš kreditni limit. Poskusite z drugo kartico.
 charge-exceeds-source-limit = Videti je, da bo ta transakcija presegla vaš dnevni kreditni limit. Poskusite z drugo kartico ali čez 24 ur.
 instant-payouts-unsupported = Videti je, da vaša debetna kartica ni nastavljena za takojšnja plačila. Poskusite z drugo debetno ali kreditno kartico.
+duplicate-transaction = Hmm. Videti je, da je bila identična transakcija pravkar opravljena. Preverite zgodovino plačil.
 coupon-expired = Videti je, da je promocijska koda potekla.
 card-error = Vaše transakcije ni bilo mogoče obdelati. Preverite podatke o svoji kreditni kartici in poskusite znova.
+newsletter-signup-error = Niste naročeni na e-poštna obvestila o posodobitvah izdelkov. Poskusite lahko znova v nastavitvah računa.
+fxa-post-passwordless-sub-error = Naročnina je potrjena, vendar se stran za potrditev ni naložila. Preverite svojo e-pošto in nastavite račun.
 
 ## Settings
 
@@ -305,6 +309,7 @@ payment-processing-message = Počakajte, da obdelamo vaše plačilo …
 ## Payment confirmation
 
 payment-confirmation-alert = Kliknite tukaj za prenos
+payment-confirmation-mobile-alert = Se aplikacija ni odprla? <a>Kliknite tukaj</a>
 payment-confirmation-thanks-heading = Hvala!
 
 ## Payment confirmation details
