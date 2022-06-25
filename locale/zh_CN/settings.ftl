@@ -279,7 +279,11 @@ avatar-page-image-too-large-error-2 = 图片太大，无法上传
 pw-change-header =
     .title = 更改密码
 pw-8-chars = 至少 8 个字符
+pw-not-email = 不可以与邮箱地址相同
 pw-change-must-match = 新密码和确认密码输入需一致
+pw-commonly-used = 不可以是常见密码
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = 安全无小事，杜绝复用密码。更多创建高强度密码的小技巧，详见<linkExternal>此处</linkExternal>。
 pw-change-cancel-button = 取消
 pw-change-save-button = 保存
 pw-change-forgot-password-link = 忘记密码？
@@ -360,6 +364,7 @@ recovery-key-success-alert-2 = 已创建救援密钥
 ## Add secondary email page
 
 add-secondary-email-step-1 = 步骤（1 / 2）
+add-secondary-email-error-2 = 创建此邮件时出现问题
 add-secondary-email-page-title =
     .title = 备用邮箱地址
 add-secondary-email-enter-address =
@@ -370,6 +375,7 @@ add-secondary-email-save-button = 保存
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 步骤（2 / 2）
+verify-secondary-email-error-2 = 发送验证码时出现问题
 verify-secondary-email-page-title =
     .title = 备用邮箱地址
 verify-secondary-email-verification-code =
