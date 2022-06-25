@@ -316,9 +316,12 @@ payment-confirmation-thanks-heading = Hvala!
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-subheading = Na { $email } je bilo poslano potrditveno e-poštno sporočilo s podrobnimi navodili, kako začeti uporabljati { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Hvala, sedaj preverite svojo e-pošto!
 
 ## $email (string) - The user's email.
 
+payment-confirmation-thanks-subheading-account-exists = Na { $email } boste prejeli e-pošto z navodili za nastavitev računa in s podatki o plačilu.
 payment-confirmation-order-heading = Podrobnosti naročila
 payment-confirmation-invoice-number = Račun št. { $invoiceNumber }
 payment-confirmation-details-heading-2 = Podatki o plačilu
@@ -372,6 +375,8 @@ new-user-email =
     .label = Vnesite e-poštni naslov
 new-user-confirm-email =
     .label = Potrdite e-poštni naslov
+new-user-subscribe-product-updates = Želim prejemati { -brand-name-firefox }ove novice o izdelkih
+new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo za ustvarjanje vašega računa. Nikoli ga ne bomo prodali nikomur drugemu.
 new-user-email-validate = E-poštni naslov ni veljaven
 new-user-email-validate-confirm = E-poštna naslova se ne ujemata
 new-user-already-has-account-sign-in = Račun že imate. <a>Prijava</a>
