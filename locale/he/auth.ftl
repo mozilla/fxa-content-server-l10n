@@ -173,10 +173,10 @@ cadReminderFirst-subject = התזכורת הידידותית שלך: איך לה
 cadReminderFirst-action = סנכרון מכשיר נוסף
 cadReminderFirst-title = להלן התזכורת שלך לסנכרון מכשירים.
 cadReminderFirst-description = צריך שניים לסינכרון. סנכרון של מכשיר נוסף עם { -brand-firefox } שומר באופן פרטי שהסימניות, הססמאות ושאר הנתונים האחרים שלך ב־{ -brand-firefox } ישארו זהים בכל מקום בו יוצא לך להשתמש ב־{ -brand-firefox }.
-cadReminderSecond-subject = תזכורת אחרונה: נא להשלים את ההגדרה של Sync
 cadReminderSecond-action = סנכרון מכשיר נוסף
-cadReminderSecond-title = תזכורת אחרונה לסנכרון מכשירים!
-cadReminderSecond-description = סנכרון של מכשיר נוסף עם { -brand-firefox } שומר באופן פרטי שהסימניות, הססמאות ושאר הנתונים האחרים שלך ב־{ -brand-firefox } ישארו זהים בכל מקום בו יוצא לך להשתמש ב־{ -brand-firefox }.
+cadReminderSecond-title-2 = לא לשכוח לסנכרן!
+cadReminderSecond-description-sync = סנכרון הסימניות, הססמאות, לשוניות פתוחות ועוד — בכל מקום בו יש לך את { -brand-firefox }.
+cadReminderSecond-description-plus = בנוסף, הנתונים שלך תמיד מוצפנים וניתנים לצפייה רק על ידך ועל ידי המכשירים שאישרת.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = ברוכים הבאים אל { $productName }
