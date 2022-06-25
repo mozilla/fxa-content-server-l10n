@@ -23,6 +23,7 @@ alert-bar-close-message = Închide mesajul
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts =
     { $case ->
@@ -156,6 +157,10 @@ cs-sign-out-button = Deconectează-te
 ## Data collection section
 
 dc-heading = Colectarea și utilizarea datelor
+dc-subheader = Ajută la îmbunătățirea { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }
+dc-opt-out-success = Dezactivare realizată cu succes. { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") } nu va trimite date tehnice sau de interacțiune către { -brand-mozilla }.
+dc-opt-in-success = Îți mulțumim! Partajarea acestor date ne ajutp să îmbunătățim { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }.
+dc-learn-more = Află mai multe
 
 # DropDownAvatarMenu component
 
