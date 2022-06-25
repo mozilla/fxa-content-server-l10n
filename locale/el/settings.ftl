@@ -399,10 +399,12 @@ recovery-key-page-title =
     .title = Κλειδί ανάκτησης
 recovery-key-step-1 = Βημα 1 απο 2
 recovery-key-step-2 = Βημα 2 απο 2
+recovery-key-success-alert-2 = Το κλειδί ανάκτησης δημιουργήθηκε
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Βήμα 1 από 2
+add-secondary-email-error-2 = Προέκυψε πρόβλημα κατά τη δημιουργία αυτού του email
 add-secondary-email-page-title =
     .title = Δευτερεύον email
 add-secondary-email-enter-address =
@@ -413,6 +415,7 @@ add-secondary-email-save-button = Αποθήκευση
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Βήμα 2 από 2
+verify-secondary-email-error-2 = Προέκυψε πρόβλημα κατά την αποστολή του κωδικού επαλήθευσης
 verify-secondary-email-page-title =
     .title = Δευτερεύον email
 verify-secondary-email-verification-code =
@@ -444,6 +447,7 @@ tfa-button-cancel = Ακύρωση
 tfa-button-finish = Τέλος
 tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο παραγόντων
 tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λήψη του κωδικού σας.
+tfa-cannot-verify-code-2 = Προέκυψε πρόβλημα κατά την επαλήθευση του κωδικού ανάκτησής σας
 tfa-incorrect-recovery-code = Εσφαλμένος κωδικός ανάκτησης
 tfa-enabled = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 tfa-scan-this-code =
@@ -544,6 +548,10 @@ rk-refresh-error = Δυστυχώς, προέκυψε πρόβλημα κατά 
 se-heading = Δευτερεύον email
     .header = Δευτερεύον email
 se-cannot-refresh-email = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του email.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = Το { $email } είναι πλέον το κύριο email σας
 se-set-primary-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την αλλαγή του κύριου email σας
 # This string is used in a notification message near the top of the page.
 # Variables:
