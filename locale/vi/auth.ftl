@@ -170,10 +170,11 @@ cadReminderFirst-subject = Lời nhắc thân thiện cho bạn: Cách hoàn t�
 cadReminderFirst-action = Đồng bộ hóa thiết bị khác
 cadReminderFirst-title = Đây là lời nhắc cho bạn để đồng bộ hóa thiết bị.
 cadReminderFirst-description = Cần hai thiết bị để đồng bộ hóa. Đồng bộ hóa thiết bị khác với { -brand-firefox } giữ cho dấu trang, mật khẩu và dữ liệu { -brand-firefox } khác của bạn giống nhau ở mọi nơi bạn sử dụng { -brand-firefox }.
-cadReminderSecond-subject = Lời nhắc cuối cùng: Hoàn tất thiết lập đồng bộ hóa
+cadReminderSecond-subject-2 = Đừng bỏ lỡ! Hãy hoàn tất thiết lập đồng bộ hóa của bạn
 cadReminderSecond-action = Đồng bộ hóa thiết bị khác
-cadReminderSecond-title = Lời nhắc cuối cùng để đồng bộ hóa thiết bị!
-cadReminderSecond-description = Đồng bộ hóa thiết bị khác với { -brand-firefox } giữ cho dấu trang, mật khẩu và dữ liệu { -brand-firefox } khác của bạn giống nhau ở mọi nơi bạn sử dụng { -brand-firefox }.
+cadReminderSecond-title-2 = Đừng quên đồng bộ hóa!
+cadReminderSecond-description-sync = Đồng bộ hóa dấu trang, mật khẩu, thẻ đang mở và hơn thế nữa — ở mọi nơi bạn sử dụng { -brand-firefox }.
+cadReminderSecond-description-plus = Ngoài ra, dữ liệu của bạn luôn được mã hóa. Chỉ bạn và các thiết bị bạn phê duyệt mới có thể nhìn thấy nó.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Chào mừng đến với { $productName }
@@ -296,8 +297,6 @@ subscriptionAccountDeletion-title = Rất tiếc vì bạn chuẩn bị ra đi
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Gần đây bạn đã xóa { -product-firefox-account }. Do đó, chúng tôi đã hủy thuê bao { $productName } của bạn. Khoản thanh toán cuối cùng { $invoiceTotal } của bạn đã được thực hiện vào { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Chi tiết thanh toán:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Chào mừng bạn đến với { $productName }: Vui lòng đặt mật khẩu của bạn.
