@@ -250,10 +250,11 @@ cadReminderFirst-subject = Przyjacielskie przypomnienie: jak dokończyć konfigu
 cadReminderFirst-action = Synchronizuj inne urządzenie
 cadReminderFirst-title = Przypomnienie o synchronizacji urządzeń.
 cadReminderFirst-description = Do synchronizacji trzeba dwojga. Prywatna synchronizacja innego urządzenia z { -brand-firefox(case: "ins") } spowoduje, że zakładki, hasła i inne dane { -brand-firefox(case: "gen") } będą takie same wszędzie, gdzie go używasz.
-cadReminderSecond-subject = Ostatnie przypomnienie: dokończ konfigurację synchronizacji
+cadReminderSecond-subject-2 = Nie przegap! Dokończmy konfigurację synchronizacji
 cadReminderSecond-action = Synchronizuj inne urządzenie
-cadReminderSecond-title = Ostatnie przypomnienie o synchronizacji urządzeń!
-cadReminderSecond-description = Prywatna synchronizacja innego urządzenia z { -brand-firefox(case: "ins") } spowoduje, że zakładki, hasła i inne dane { -brand-firefox(case: "gen") } będą takie same wszędzie, gdzie go używasz.
+cadReminderSecond-title-2 = Nie zapomnij zsynchronizować!
+cadReminderSecond-description-sync = Synchronizuj zakładki, hasła, otwarte karty i nie tylko — wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
+cadReminderSecond-description-plus = Dodatkowo Twoje dane są zawsze zaszyfrowane. Wyłącznie Ty i zatwierdzone przez Ciebie urządzenia mogą je widzieć.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Witamy w { $productName }
@@ -378,8 +379,6 @@ subscriptionAccountDeletion-title = Przykro nam, że chcesz się z nami pożegn
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Niedawno usunięto { -product-firefox-account(case: "acc", capitalization: "lower") }. Z tego powodu anulowaliśmy subskrypcję { $productName }. Ostatnia płatność w wysokości { $invoiceTotal } została opłacona w dniu { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Informacje o płatności:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Witamy w { $productName }: prosimy ustawić swoje hasło.
