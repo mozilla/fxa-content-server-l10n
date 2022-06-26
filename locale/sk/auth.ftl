@@ -252,6 +252,7 @@ cadReminderFirst-subject = Vaša priateľská pripomienka: ako dokončiť nastav
 cadReminderFirst-action = Synchronizovať ďalšie zariadenie
 cadReminderFirst-title = Toto je vaša pripomienka na synchronizáciu zariadení.
 cadReminderFirst-description = Na synchronizáciu sú potrební dvaja. Súkromnou synchronizáciou iného zariadenia s prehliadačom { -brand-firefox } budú vaše záložky, heslá a ďalšie údaje vo { -brand-firefox(case: "loc") } rovnaké všade, kde { -brand-firefox } používate.
+cadReminderSecond-subject-2 = Nič nepremeškajte! Poďme dokončiť nastavenie synchronizácie
 cadReminderSecond-action = Synchronizovať ďalšie zariadenie
 cadReminderSecond-title-2 = Nezabudnite na synchronizáciu!
 cadReminderSecond-description-sync = Synchronizujte svoje záložky, heslá, otvorené karty a ďalšie — všade, kde používate prehliadač { -brand-firefox }.
