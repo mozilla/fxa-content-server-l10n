@@ -322,6 +322,10 @@ subscriptionPaymentProviderCancelled-subject = { $productName }에 대한 결제
 subscriptionPaymentProviderCancelled-title = 죄송합니다, 결제 수단에 문제가 있습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = { $productName }에 대한 결제 방법에 문제가 있습니다.
+subscriptionPaymentProviderCancelled-content-reason = 신용 카드가 만료되었거나 현재 결제 방법이 오래되었을 수 있습니다.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } 구독 재활성화됨
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

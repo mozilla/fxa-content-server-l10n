@@ -79,6 +79,10 @@ connect-another-fx-mobile = 모바일이나 태블릿에서 { -brand-firefox } �
 connect-another-find-fx-mobile =
     { -google-play }나 { -app-store }에서 { -brand-firefox }를 찾거나
     <br /><linkExternal>내 기기로 다운로드 링크를 보냅니다</linkExternal>.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = { -google-play }에서 { -brand-firefox } 다운로드
 
 ##
 
@@ -89,25 +93,18 @@ cs-heading = 연결된 서비스
 cs-description = 사용하고 있거나 로그인 한 모든것입니다.
 cs-cannot-refresh = 죄송합니다. 연결된 서비스 목록은 다시 불러오는데 문제가 발생하였습니다.
 cs-cannot-disconnect = 클라이언트를 찾지 못해 연결할 수 없음
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = { $service }에서 로그아웃 합니다.
 cs-refresh-button =
     .title = 연결된 서비스 새로 고침
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 없거나 중복된 항목이 있나요?
 cs-disconnect-sync-heading = Sync 연결 끊기
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    브라우징 데이터가 기기({ $device })에 계속 남지만
-    계정과 동기화되지 않습니다.
-cs-disconnect-sync-reason = 이 장치의 연결을 끊는 주요한 이유는 무엇인가요?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -165,7 +162,6 @@ drop-down-menu-title = { -product-firefox-account } 메뉴
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <user>{ $user }</user> <signin>로그인 됨</signin>
 drop-down-menu-sign-out = 로그아웃
-drop-down-menu-sign-out-error = 로그아웃 중 문제가 발생했습니다.
 
 ## Flow Container
 
@@ -228,12 +224,10 @@ nav-email-comm = 이메일 커뮤니케이션
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = 복원 코드를 대체하는 데 문제가 발생했습니다.
 tfa-replace-code-success =
     새 코드가 생성됐습니다. 한번 만 사용할 수 있으니
     안전한 곳에 저장하세요. — 모바일 기기 없이 계정에
     접근하려면 이 코드가 필요합니다.
-tfa-replace-code-success-alert = 계정 복구 코드가 업데이트되었습니다.
 
 ## Avatar change page
 
@@ -261,9 +255,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = 카메라를 초기화할 수 없습니다.
 avatar-page-new-avatar =
     .alt = 새 프로필 사진
-avatar-page-file-upload-error-2 = 프로필 사진을 업로드하는 데 문제가 발생했습니다.
-avatar-page-delete-error-2 = 프로필 사진을 삭제하는 데 문제가 발생했습니다.
-avatar-page-image-too-large-error = 이미지 파일이 너무 커서 업로드할 수 없습니다.
 
 ##
 
@@ -272,14 +263,7 @@ avatar-page-image-too-large-error = 이미지 파일이 너무 커서 업로드�
 
 pw-change-header =
     .title = 암호 변경
-pw-change-stay-safe = 안전하게 보호하세요 — 암호를 재사용하지 마세요. 비밀번호:
-pw-change-least-8-chars = 최소 8글자 이상이어야 합니다
-pw-change-not-contain-email = 이메일 주소가 아니어야 합니다
 pw-change-must-match = 새 비밀번호가 확인과 일치합니다.
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    <linkExternal>흔한 비밀번호 목록</linkExternal>과
-    일치하지 않아야 합니다.
 pw-change-cancel-button = 취소
 pw-change-save-button = 저장
 pw-change-forgot-password-link = 비밀번호를 잊으셨나요?
@@ -289,7 +273,12 @@ pw-change-new-password =
     .label = 새 비밀번호 입력
 pw-change-confirm-password =
     .label = 새 비밀번호 확인
-pw-change-success-alert = 비밀번호 수정 완료
+
+##
+
+
+## Password create page
+
 
 ##
 
@@ -325,8 +314,6 @@ display-name-input =
     .label = 표시 이름 입력
 submit-display-name = 저장
 cancel-display-name = 취소
-display-name-update-error = 표시 이름을 업데이트하는 데 문제가 발생했습니다.
-display-name-success-alert = 표시 이름이 업데이트 되었습니다.
 
 ##
 
@@ -343,12 +330,10 @@ recovery-key-page-title =
     .title = 복구 키
 recovery-key-step-1 = 1/2 단계
 recovery-key-step-2 = 2/2 단계
-recovery-key-success-alert = 복구 키가 생성되었습니다.
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = 2단계 중 1단계
-add-secondary-email-error = 이메일을 생성하는 데 문제가 발생했습니다.
 add-secondary-email-page-title =
     .title = 보조 이메일
 add-secondary-email-enter-address =
@@ -359,7 +344,6 @@ add-secondary-email-save-button = 저장
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2단계 중 2단계
-verify-secondary-email-error = 인증 코드를 보내는 데 문제가 발생했습니다.
 verify-secondary-email-page-title =
     .title = 보조 이메일
 verify-secondary-email-verification-code =
@@ -370,10 +354,6 @@ verify-secondary-email-verify-button = 확인
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = <strong>{ $email }</strong>로 발송된 인증 코드를 5분 안에 입력하세요.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email }이 성공적으로 추가되었습니다.
 
 ##
 
@@ -391,7 +371,6 @@ tfa-button-cancel = 취소
 tfa-button-finish = 완료
 tfa-incorrect-totp = 잘못된 2단계 인증 코드
 tfa-cannot-retrieve-code = 코드를 복원하는 데 문제가 발생했습니다.
-tfa-cannot-verify-code = 복원 코드를 확인하는 중 문제가 발생했습니다.
 tfa-incorrect-recovery-code = 잘못된 복원 코드
 tfa-enabled = 2단계 인증 활성화됨
 tfa-scan-this-code =
@@ -466,37 +445,21 @@ rk-not-set = 설정되지 않음
 rk-action-create = 생성
 rk-action-remove = 제거
 rk-cannot-refresh = 죄송합니다. 복구 키를 새로고침 중에 문제가 발생했습니다.
-rk-key-removed = 계정 복구 키가 삭제되었습니다.
 rk-cannot-remove-key = 계정 복구 키를 제거할 수 없습니다.
 rk-refresh-key = 복구 키 새로고침
 rk-content-explain = 비밀번호를 잊어버린 경우 정보를 복원하십시오.
 rk-content-reset-data = 비밀번호 재설정시 데이터가 재설정되는 이유는 무엇입니까?
-rk-cannot-verify-session-2 = 세션을 확인하는 중 오류가 발생했습니다.
 rk-remove-modal-heading = 복구 키를 제거하시겠습니까?
 rk-remove-modal-content =
     비밀번호를 재설정하면
     복구 키로 데이터에 접근하는 것이 불가능해집니다. 이 작업은 취소할 수 없습니다.
 rk-refresh-error = 죄송합니다. 복구 키를 새로고침 중에 문제가 발생했습니다.
-rk-remove-error = 계정 복구 키를 제거할 수 없습니다.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = 보조 메일
     .header = 보조 메일
 se-cannot-refresh-email = 이메일을 새로고침하는 중에 문제가 발생했습니다.
-se-cannot-resend-code = 확인 코드를 재전송하는 중에 문제가 발생했습니다.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email }이 이제 기본 이메일입니다.
-se-set-primary-error = 죄송합니다. 기본 메일을 변경하는 중에 문제가 발생했습니다.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } 메일이 성공적으로 삭제되었습니다.
-se-delete-email-error = 죄송합니다. 이메일을 삭제하는 중에 문제가 발생했습니다.
-se-verify-session = 이 작업을 수행하려면 현재 세션을 확인해야 합니다.
-se-verify-session-error = 죄송합니다. 세션을 확인하는 중에 문제가 발생했습니다.
 # Button to remove the secondary email
 se-remove-email =
     .title = 이메일 삭제
@@ -520,7 +483,6 @@ se-content-note =
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 2단계 인증
-tfa-row-disabled = 2단계 인증이 비활성화되었습니다.
 tfa-row-enabled = 활성화됨
 tfa-row-not-set = 설정 안됨
 tfa-row-action-add = 추가
@@ -533,13 +495,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     당신만이 접근할 수 있는 고유 코드를 필요로 하여
     다른 사람이 로그인하는 것을 방지합니다.
-tfa-row-cannot-verify-session-2 = 죄송합니다. 세션을 확인하는 중에 문제가 발생했습니다.
 tfa-row-disable-modal-heading = 2단계 인증을 비활성화하시겠습니까?
 tfa-row-disable-modal-confirm = 비활성화
 tfa-row-disable-modal-explain =
     이 작업은 되돌릴 수 없습니다.
     <linkExternal>복구 코드를 바꾸는</linkExternal> 옵션도 있습니다.
-tfa-row-cannot-disable = 2단계 인증을 비활성화할 수 없습니다.
 tfa-row-change-modal-heading = 복구 코드를 변경하시겠습니까?
 tfa-row-change-modal-confirm = 변경
 tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
