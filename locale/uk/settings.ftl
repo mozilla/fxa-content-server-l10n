@@ -52,6 +52,11 @@ alert-bar-close-message = Закрити повідомлення
                *[upper] Обліковими записами Firefox
                 [lower] обліковими записами Firefox
             }
+        [loc]
+            { $capitalization ->
+               *[upper] Облікових записах Firefox
+                [lower] облікових записах Firefox
+            }
     }
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
@@ -69,8 +74,8 @@ alert-bar-close-message = Закрити повідомлення
             }
         [dat]
             { $capitalization ->
-               *[upper] Обліковому записі Firefox
-                [lower] обліковому записі Firefox
+               *[upper] Обліковому запису Firefox
+                [lower] обліковому запису Firefox
             }
         [acc]
             { $capitalization ->
@@ -81,6 +86,11 @@ alert-bar-close-message = Закрити повідомлення
             { $capitalization ->
                *[upper] Обліковим записом Firefox
                 [lower] обліковим записом Firefox
+            }
+        [loc]
+            { $capitalization ->
+               *[upper] Обліковому записі Firefox
+                [lower] обліковому записі Firefox
             }
     }
 product-mozilla-vpn = Mozilla VPN
