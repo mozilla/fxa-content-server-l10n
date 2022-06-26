@@ -256,19 +256,19 @@ postNewRecoveryCodes-description = Ви успішно згенерували н
 postNewRecoveryCodes-action = Керування обліковим записом
 postRemoveAccountRecovery-subject = Ключ відновлення облікового запису вилучено
 postRemoveAccountRecovery-title = Ключ відновлення облікового запису вилучено
-postRemoveAccountRecovery-description = Ви успішно вилучили ключ відновлення свого { -product-firefox-account(case: "gen") } за допомогою цього пристрою:
+postRemoveAccountRecovery-description = Ви успішно вилучили ключ відновлення свого { -product-firefox-account(case: "gen", capitalization: "lower") } з використанням такого пристрою:
 postRemoveAccountRecovery-action = Керування обліковим записом
 postRemoveAccountRecovery-invalid = Цей ключ більше не можна використати для відновлення вашого облікового запису.
 postRemoveSecondary-subject = Альтернативну електронну пошту видалено
 postRemoveSecondary-title = Альтернативну електронну пошту видалено
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = Ви успішно вилучили додаткову адресу { $secondaryEmail } зі свого { -product-firefox-account(case: "gen") }. Сповіщення безпеки та підтвердження входу більше не будуть надсилатися на цю адресу.
+postRemoveSecondary-description = Ви успішно вилучили додаткову адресу { $secondaryEmail } зі свого { -product-firefox-account(case: "gen", capitalization: "lower") }. Сповіщення безпеки та підтвердження входу більше не  надсилатимуться на цю адресу.
 postRemoveSecondary-action = Керування обліковим записом
 postRemoveTwoStepAuthentication-subject-line = Двоетапну перевірку вимкнено
 postRemoveTwoStepAuthentication-title = Двоетапну перевірку вимкнено
-postRemoveTwoStepAuthentication-description = Ви успішно вимкнули двоетапну перевірку в { -product-firefox-account(case: "dat") } з такого пристрою:
-postRemoveTwoStepAuthentication-description-plaintext = Ви успішно вимкнули двоетапну перевірку { -product-firefox-account(case: "gen") }. Відтепер більше не потрібно вводити коди безпеки за кожного входу.
+postRemoveTwoStepAuthentication-description = Ви успішно вимкнули двоетапну перевірку в { -product-firefox-account(case: "loc", capitalization: "lower") } з такого пристрою:
+postRemoveTwoStepAuthentication-description-plaintext = Ви успішно вимкнули двоетапну перевірку в { -product-firefox-account(case: "loc", capitalization: "lower") }. Відтепер більше не потрібно вводити коди безпеки за кожного входу.
 postRemoveTwoStepAuthentication-action = Керування обліковим записом
 postRemoveTwoStepAuthentication-not-required = Тепер коди безпеки більше не будуть вимагатися при кожному вході.
 postVerify-sub-title = { -product-firefox-account } підтверджено. Майже все готово.
@@ -284,7 +284,7 @@ postVerifySecondary-subject = Альтернативну електронну п
 postVerifySecondary-title = Альтернативну електронну пошту додано
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Ви успішно підтвердили додаткову адресу { $secondaryEmail } для свого { -product-firefox-account(case: "gen") }. Сповіщення безпеки та підтвердження входу тепер будуть надсилатися на обидві адреси.
+postVerifySecondary-content = Ви успішно підтвердили додаткову адресу { $secondaryEmail } для свого { -product-firefox-account(case: "gen", capitalization: "lower") }. Сповіщення безпеки та підтвердження входу тепер надсилатимуться на обидві адреси.
 postVerifySecondary-action = Керування обліковим записом
 recovery-subject = Відновити свій пароль
 recovery-title = Необхідно скинути пароль?
@@ -298,7 +298,7 @@ subscriptionAccountDeletion-title = Шкода, що ви йдете
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Ви нещодавно видалили свій { -product-firefox-account }. Як наслідок, ми скасували вашу передплату { $productName }. Ваш останній рахунок на суму { $invoiceTotal } був сплачений { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled = Ви нещодавно видалили свій { -product-firefox-account(case: "nom", capitalization: "lower") }, тому ми скасували вашу передплату { $productName }. Ваш останній рахунок на суму { $invoiceTotal } був сплачений { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Вітаємо в { $productName }: Будь ласка, встановіть пароль.
@@ -306,17 +306,17 @@ subscriptionAccountFinishSetup-subject = Вітаємо в { $productName }: Б�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Вітаємо в { $productName }
 subscriptionAccountFinishSetup-content-processing = Ваш платіж обробляється. Це може тривати до чотирьох робочих днів. Ваша передплата автоматично поновлюватиметься після завершення розрахункового періоду, доки ви її не скасуєте.
-subscriptionAccountFinishSetup-content-create-2 = Далі ви створите пароль { -product-firefox-account(case: "gen") }, щоб почати використовувати нову передплату.
+subscriptionAccountFinishSetup-content-create-2 = Далі ви створите пароль { -product-firefox-account(case: "gen", capitalization: "lower") }, щоб почати використовувати нову передплату.
 subscriptionAccountFinishSetup-action-2 = Розпочати
 subscriptionAccountReminderFirst-subject = Нагадування: Завершіть налаштування свого облікового запису
 subscriptionAccountReminderFirst-title = Ви поки що не можете отримати доступ до своєї передплати
-subscriptionAccountReminderFirst-content-info = Кілька днів тому ви створили { -product-firefox-account }, але не підтвердили його. Ми сподіваємося, що ви завершите його налаштування, щоб мати змогу користуватися своєю передплатою.
+subscriptionAccountReminderFirst-content-info = Кілька днів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але не підтвердили його. Ми сподіваємося, що ви завершите налаштування, щоб мати змогу користуватися своєю передплатою.
 subscriptionAccountReminderFirst-content-select = Виберіть “Створити пароль” для встановлення нового пароля та завершення налаштування свого облікового запису.
 subscriptionAccountReminderFirst-action = Створити пароль
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Останнє нагадування: Налаштуйте свій обліковий запис
 subscriptionAccountReminderSecond-title = Вітаємо у { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = Кілька днів тому ви створили { -product-firefox-account }, але не підтвердили його. Ми сподіваємося, що ви завершите його налаштування, щоб мати змогу користуватися своєю передплатою.
+subscriptionAccountReminderSecond-content-info = Кілька днів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але не підтвердили його. Ми сподіваємося, що ви завершите налаштування, щоб мати змогу користуватися своєю передплатою.
 subscriptionAccountReminderSecond-content-select = Виберіть “Створити пароль” для встановлення нового пароля та завершення налаштування свого облікового запису.
 subscriptionAccountReminderSecond-action = Створити пароль
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -561,14 +561,14 @@ unblockCode-report = Якщо ні, допоможіть нам не допус�
 unblockCode-report-plaintext = Якщо ні, допоможіть нам не допустити зловмисників і повідомте про це нас.
 verificationReminderFirst-subject = Нагадування: Завершіть створення свого облікового запису
 verificationReminderFirst-title = Ласкаво просимо до сімейства { -brand-firefox }
-verificationReminderFirst-description = Кілька днів тому ви створили { -product-firefox-account }, але досі його не підтвердили.
+verificationReminderFirst-description = Кілька днів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але досі його не підтвердили.
 verificationReminderFirst-sub-description = Підтвердьте зараз і отримайте доступ до технології, що відстоює та захищає вашу приватність, надає практичні знання, і поважає вас.
 confirm-email = Підтвердьте електронну пошту
 confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Підтвердьте електронну пошту
 verificationReminderSecond-subject = Остаточне нагадування: Активуйте свій обліковий запис
 verificationReminderSecond-title = Досі тут?
-verificationReminderSecond-description = Майже тиждень тому ви створили { -product-firefox-account }, але не підтвердили його. Ми хвилюємося за вас.
+verificationReminderSecond-description = Майже тиждень тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але не підтвердили його. Ми хвилюємося за вас.
 verificationReminderSecond-sub-description = Підтвердьте цю адресу електронної пошти, щоб активувати обліковий запис і дати нам знати, що все гаразд.
 verificationReminderSecond-action = Підтвердьте електронну пошту
 verify-title = Активуйте сімейство продуктів { -brand-firefox }
@@ -601,7 +601,7 @@ verifySecondaryCode-title = Підтвердьте альтернативну е
 verifySecondaryCode-action = Підтвердьте е-пошту
 # Variables:
 #  $email (string) A user's unverified secondary email address
-verifySecondaryCode-explainer = Запит на використання { $email } альтернативною електронною поштою було зроблено з такого { -product-firefox-account(case: "gen") }:
+verifySecondaryCode-explainer = Запит на використання { $email } альтернативною адресою електронної пошти було зроблено з такого { -product-firefox-account(case: "gen", capitalization: "lower") }:
 verifySecondaryCode-prompt = Використати цей код підтвердження:
 verifySecondaryCode-expiry-notice = Термін його дії спливає через 5 хвилин. Одразу після підтвердження, на цю адресу надсилатимуться сповіщення про безпеку та підтвердження входів.
 # Variables:

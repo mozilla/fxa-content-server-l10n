@@ -202,15 +202,16 @@ cs-disconnect-advice-confirm = Гаразд, зрозуміло
 cs-disconnect-lost-advice-heading = Втрачений або викрадений пристрій від'єднано
 cs-disconnect-lost-advice-content-2 =
     Оскільки ваш пристрій було втрачено або викрадено, щоб
-    захистити свої дані, вам варто змінити пароль { -product-firefox-account(case: "gen") }
-    у його налаштуваннях. Ви також повинні глянути поради
+    захистити свої дані, вам варто змінити пароль { -product-firefox-account(case: "gen", capitalization: "lower") }
+    у його налаштуваннях. Вам також треба переглянути поради
     виробника пристрою щодо віддаленого стирання даних.
 cs-disconnect-suspicious-advice-heading = Підозрілий пристрій від'єднано
 cs-disconnect-suspicious-advice-content =
     Якщо від'єднаний пристрій справді підозрілий,
-    щоб зберегти свою інформацію в безпеці, вам слід змінити пароль { -product-firefox-account(case: "gen") }
-    у його налаштуваннях. Вам також варто змінити будь-які інші паролі,
-    які ви зберегли в { -brand-firefox }, ввівши в адресному рядку фразу about:logins.
+    вам варто змінити пароль { -product-firefox-account(case: "gen", capitalization: "lower") }
+    у його налаштуваннях, щоб зберегти свою інформацію в безпеці.
+    Вам також треба змінити будь-які інші паролі,
+    збережені вами у { -brand-firefox }, ввівши в адресному рядку фразу about:logins.
 cs-sign-out-button = Вийти
 
 ##
@@ -228,16 +229,16 @@ datablock-print =
 ## Data collection section
 
 dc-heading = Збір та використання даних
-dc-subheader = Допоможіть вдосконалити { -product-firefox-accounts }
-dc-subheader-content = Дозволити { -product-firefox-accounts(case: "dat") } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
+dc-subheader = Допоможіть вдосконалити { -product-firefox-accounts(case: "nom", capitalization: "lower") }
+dc-subheader-content = Дозволити { -product-firefox-accounts(case: "dat", capitalization: "lower") } надсилати технічні дані та інформацію про взаємодію до { -brand-mozilla }.
 dc-opt-out-success = Відмова пройшла успішно. { -product-firefox-accounts } не надсилатимуть технічні дані та інформацію про взаємодію до { -brand-mozilla }.
-dc-opt-in-success = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-firefox-accounts }.
+dc-opt-in-success = Дякуємо! Надсилання цих даних допомагає нам вдосконалювати { -product-firefox-accounts(case: "nom", capitalization: "lower") }.
 dc-opt-in-out-error-2 = Перепрошуємо, виникла проблема зі зміною параметрів збору даних
 dc-learn-more = Докладніше
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title = Меню { -product-firefox-account(case: "gen") }
+drop-down-menu-title = Меню { -product-firefox-account(case: "gen", capitalization: "lower") }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
@@ -395,7 +396,7 @@ delete-account-header =
     .title = Видалити обліковий запис
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
-delete-account-confirm-title-2 = Ви під'єднали свій { -product-firefox-account } до продуктів { -brand-mozilla }, які забезпечують для вас захист і продуктивність в Мережі:
+delete-account-confirm-title-2 = Ви під'єднали свій { -product-firefox-account(case: "nom", capitalization: "lower") } до продуктів { -brand-mozilla }, які забезпечують для вас захист і продуктивність в інтернеті:
 delete-account-acknowledge = Будь ласка, підтвердьте, що при видаленні свого облікового запису:
 delete-account-chk-box-1-v2 =
     .label = Усі ваші передплати буде скасовано (окрім { product-pocket })
