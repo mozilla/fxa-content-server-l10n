@@ -252,10 +252,10 @@ cadReminderFirst-subject = Vaša priateľská pripomienka: ako dokončiť nastav
 cadReminderFirst-action = Synchronizovať ďalšie zariadenie
 cadReminderFirst-title = Toto je vaša pripomienka na synchronizáciu zariadení.
 cadReminderFirst-description = Na synchronizáciu sú potrební dvaja. Súkromnou synchronizáciou iného zariadenia s prehliadačom { -brand-firefox } budú vaše záložky, heslá a ďalšie údaje vo { -brand-firefox(case: "loc") } rovnaké všade, kde { -brand-firefox } používate.
-cadReminderSecond-subject = Záverečná pripomienka: dokončite nastavenie synchronizácie
 cadReminderSecond-action = Synchronizovať ďalšie zariadenie
-cadReminderSecond-title = Posledná pripomienka na synchronizáciu zariadení!
-cadReminderSecond-description = Súkromnou synchronizáciou iného zariadenia s prehliadačom { -brand-firefox } budú vaše záložky, heslá a ďalšie údaje vo { -brand-firefox(case: "loc") } rovnaké všade, kde { -brand-firefox } používate.
+cadReminderSecond-title-2 = Nezabudnite na synchronizáciu!
+cadReminderSecond-description-sync = Synchronizujte svoje záložky, heslá, otvorené karty a ďalšie — všade, kde používate prehliadač { -brand-firefox }.
+cadReminderSecond-description-plus = Navyše, vaše dáta sú vždy šifrované. Vidíte ich iba vy a zariadenia, ktoré schválite.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Víta vás { $productName }
@@ -380,8 +380,6 @@ subscriptionAccountDeletion-title = Mrzí nás, že odchádzate
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Nedávno ste odstránili svoj { -product-firefox-account(case: "acc", capitalization: "lower") }. V dôsledku toho sme zrušili vaše predplatné produktu { $productName }. Vaša posledná platba vo výške { $invoiceTotal } bola zaplatená dňa { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Platobné údaje:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Víta vás { $productName }: nastavte si heslo.
