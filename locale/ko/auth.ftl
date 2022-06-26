@@ -28,6 +28,7 @@ session-verify-send-push-body = 본인 확인을 위해 여기를 클릭하세�
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } 로고">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="동기화 기기">
 body-devices-image = <img data-l10n-name="devices-image" alt="장치">
 fxa-privacy-url = { -brand-mozilla } 개인정보처리방침
@@ -90,6 +91,7 @@ cancellationSurvey-plaintext = 이 짧은 설문조사에 참여하셔서 서비
 change-password-plaintext = 만약 누군가가 당신의 계정에 접근 시도를 했다고 의심이 된다면, 비밀번호를 변경해주세요.
 manage-account = 계정 관리
 manage-account-plaintext = { manage-account }:
+payment-details = 지불 상세 사항:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = 청구서 번호: { $invoiceNumber }
@@ -139,10 +141,7 @@ cadReminderFirst-subject = 알림: 동기화 설정을 완료하는 방법
 cadReminderFirst-action = 다른 기기 동기화
 cadReminderFirst-title = 기기 동기화 알림입니다.
 cadReminderFirst-description = 동기화하려면 두가지가 필요합니다. { -brand-firefox }와 다른 기기를 동기화하면 비공개로 개인 북마크, 비밀번호 및 기타 { -brand-firefox } 데이터가 { -brand-firefox }를 사용하는 모든 곳에서 동일하게 유지됩니다.
-cadReminderSecond-subject = 알림: 동기화 설정 완료
 cadReminderSecond-action = 다른 기기 동기화
-cadReminderSecond-title = 기기 동기화 마지막 알림!
-cadReminderSecond-description = 다른 기기와 { -brand-firefox }를 동기화 하면 비공개로 개인 북마크, 비밀번호 및 기타 { -brand-firefox } 데이터가 { -brand-firefox }를 사용하는 모든 곳에서 동일하게 유지됩니다.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = { $productName }에 오신 것을 환영합니다.
@@ -200,6 +199,8 @@ postAddLinkedAccount-title = { $providerName } 계정이 { -product-firefox-acco
 postAddLinkedAccount-action = 계정 관리
 postAddTwoStepAuthentication-subject = 2단계 인증을 사용합니다
 postAddTwoStepAuthentication-title = 2단계 인증을 사용합니다
+postAddTwoStepAuthentication-description-plaintext = { -product-firefox-account } 계정의 2단계 인증을 성공적으로 활성화했습니다. 로그인할 때마다 인증 앱의 보안 코드가 필요합니다.
+postAddTwoStepAuthentication-description = 다음 기기에서 { -product-firefox-account } 계정의 2단계 인증을 성공적으로 활성화했습니다:
 postAddTwoStepAuthentication-action = 계정 관리
 postAddTwoStepAuthentication-code-required = 이제 로그인할 때 인증 앱의 보안 코드가 필요합니다.
 postChangePrimary-subject = 기본 이메일 수정 완료
@@ -226,6 +227,7 @@ postRemoveSecondary-description = { -product-firefox-account } 계정에서 { $s
 postRemoveSecondary-action = 계정 관리
 postRemoveTwoStepAuthentication-subject-line = 2단계 인증이 꺼져 있습니다.
 postRemoveTwoStepAuthentication-title = 2단계 인증을 사용하지 않습니다
+postRemoveTwoStepAuthentication-description = 다음 기기에서 { -product-firefox-account } 계정의 2단계 인증을 중지하였습니다:
 postRemoveTwoStepAuthentication-action = 계정 관리
 postRemoveTwoStepAuthentication-not-required = 더이상 로그인할 때마다 보안 코드를 입력하지 않아도 됩니다.
 postVerify-sub-title = { -product-firefox-account } 확인되었습니다. 거의 다 왔습니다.
@@ -300,6 +302,9 @@ subscriptionFirstInvoiceDiscount-content-install-2 = { $productName }를 사용�
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoiceDiscount-content-invoice-number = 청구서 번호: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject = { $productName } 신용 카드 만료 예정
 subscriptionPaymentExpired-title = 신용 카드 만료 예정
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -308,6 +313,12 @@ subscriptionPaymentExpired-content = { $productName } 결제에 사용하는 신
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 결제 실패
 subscriptionPaymentFailed-title = 죄송합니다, 결제에 문제가 있습니다.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = { $productName }에 대한 최근 결제에 문제가 있습니다.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = { $productName }에 대한 결제 정보 업데이트 필요
 subscriptionPaymentProviderCancelled-title = 죄송합니다, 결제 수단에 문제가 있습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
