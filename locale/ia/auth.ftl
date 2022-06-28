@@ -170,10 +170,11 @@ cadReminderFirst-subject = Tu memento amical: como completar tu installation de 
 cadReminderFirst-action = Synchronisar un altere apparato
 cadReminderFirst-title = Ecce le memento pro synchronisar tu apparatos.
 cadReminderFirst-description = Duo es necessari pro synchronisar. Synchronisar reservatemente un altere apparato con { -brand-firefox } mantene tu marcapaginas, contrasignos e altere { -brand-firefox } datos le mesme ubique tu usa { -brand-firefox }.
-cadReminderSecond-subject = Memento final: installation de Sync complete
+cadReminderSecond-subject-2 = Non perde lo! Que nos fini le installation de tu synchronisation
 cadReminderSecond-action = Synchronisar un altere apparato
-cadReminderSecond-title = Ultime memento pro synchronisar tu apparatos!
-cadReminderSecond-description = Synchronisar reservatemente un altere apparato con { -brand-firefox } mantene tu marcapaginas, contrasignos e altere { -brand-firefox } datos le mesme ubique tu usa { -brand-firefox }.
+cadReminderSecond-title-2 = Non oblidar de synchronisar!
+cadReminderSecond-description-sync = Synchronisa tu marcapaginas, contrasignos, schedas aperte e altero ancora, ubique tu usa { -brand-firefox }.
+cadReminderSecond-description-plus = In ultra, tu datos es sempre cryptate. Solo tu e le apparatos que tu approba pote vider
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Benvenite a { $productName }.
@@ -297,8 +298,6 @@ subscriptionAccountDeletion-title = Nos displace que tu vade
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Tu ha delite recentemente tu conto { -product-firefox-account }. In consequentia, nos ha cancellate tu subscription a { $productName }. Tu pagamento final de { $invoiceTotal } ha essite pagate le { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Detalios del pagamento:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Benvenite in { $productName }: configura tu contrasigno.
