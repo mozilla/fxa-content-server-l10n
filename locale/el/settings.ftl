@@ -383,6 +383,7 @@ display-name-input =
     .label = Εισαγάγετε το εμφανιζόμενο όνομα
 submit-display-name = Αποθήκευση
 cancel-display-name = Ακύρωση
+display-name-update-error-2 = Προέκυψε πρόβλημα κατά την ενημέρωση του εμφανιζόμενου ονόματός σας
 
 ##
 
