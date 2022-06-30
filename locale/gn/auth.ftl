@@ -173,6 +173,8 @@ cadReminderFirst-description = Eikotevẽ mokõi embojuehe hag̃ua. Embojuehe am
 cadReminderSecond-subject-2 = ¡Ani rejavy! Ñambohekopántema ne ñembojuehe
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
 cadReminderSecond-title-2 = ¡Ani nderesarái ñembojuehégui!
+cadReminderSecond-description-sync = Embojoaju ne kundaha, ñe’ẽñemi, vore ojepe’áva ha hetave mba’e — tembipuru’i rupi eipuruhápe { -brand-firefox }.
+cadReminderSecond-description-plus = Avei, ne marandu akóinte oñemboheko. Nde ha umi tembiporu reguerohorýva añoite ikatu rehecha umíva.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = ¡Eg̃uahẽporãite { $productName }-pe!
