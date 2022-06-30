@@ -170,10 +170,11 @@ cadReminderFirst-subject = In freonlik omtinken: ynstellen fan jo Sync foltôgje
 cadReminderFirst-action = Noch in apparaat syngronisearje
 cadReminderFirst-title = Dit is jo omtinken om apparaten te syngronisearjen.
 cadReminderFirst-description = Der binne der twa nedich om te syngronisearjen. As jo in oar apparaat privee mei { -brand-firefox } syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare { -brand-firefox }-gegevens oeral wêr’t jo { -brand-firefox } brûke itselde.
-cadReminderSecond-subject = Lêste omtinken: ynstellen fan Sync foltôgje
+cadReminderSecond-subject-2 = Mis it net! Litte wy jo syngronisaasjekonfiguraasje foltôgje
 cadReminderSecond-action = Noch in apparaat syngronisearje
-cadReminderSecond-title = Lêste omtinken om apparaten te syngronisearjen!
-cadReminderSecond-description = As jo in oar apparaat privee mei { -brand-firefox } syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare { -brand-firefox }-gegevens oeral wêr’t jo { -brand-firefox } brûke itselde.
+cadReminderSecond-title-2 = Ferjit net syngronisearjen!
+cadReminderSecond-description-sync = Syngronisearje jo blêdwizers, wachtwurden, iepen ljepblêden en mear – oeral wêr’t jo { -brand-firefox } brûke.
+cadReminderSecond-description-plus = Boppedat binne jo gegevens altyd fersifere. Allinnich jo en apparaten dy’t jo goedkarre kinne dizze sjen.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Wolkom by { $productName }.
