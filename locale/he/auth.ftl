@@ -417,6 +417,9 @@ subscriptionPaymentExpired-subject-1 = פג תוקף כרטיס האשראי ע�
 subscriptionPaymentExpired-title-1 = פג תוקף כרטיס האשראי שלך, או שהוא יפוג בקרוב
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = פג תוקף כרטיס האשראי המשמש אותך לביצוע תשלומים עבור { $productName }, או שהוא יפוג בקרוב.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = התשלום עבור { $productName } נכשל
 subscriptionPaymentFailed-title = נתקלנו בבעיה עם התשלום שלך, עמך הסליחה
 # Variables:
