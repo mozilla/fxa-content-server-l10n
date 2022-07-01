@@ -417,11 +417,11 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal } am { $invoic
 subscriptionFirstInvoiceDiscount-content-next-invoice = Nächste Rechnung: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Kreditkarte für { $productName } läuft bald ab
-subscriptionPaymentExpired-title = Ihre Kreditkarte läuft bald ab
+subscriptionPaymentExpired-subject-1 = Kreditkarte für { $productName } ist abgelaufen oder läuft bald ab
+subscriptionPaymentExpired-title-1 = Ihre Kreditkarte ist abgelaufen oder läuft bald ab
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Die Kreditkarte, mit der Sie Zahlungen für { $productName } ausführen, läuft bald ab.
+subscriptionPaymentExpired-content-1 = Die Kreditkarte, die Sie für Zahlungen für { $productName } verwenden, ist abgelaufen oder läuft bald ab.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName }-Zahlung fehlgeschlagen
@@ -465,9 +465,9 @@ subscriptionRenewalReminder-content-closing = Mit freundlichen Grüßen
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Das { $productName }-Team
-subscriptionsPaymentExpired-subject = Die Kreditkarte für Ihre Abonnements läuft bald ab
-subscriptionsPaymentExpired-title = Ihre Kreditkarte läuft bald ab
-subscriptionsPaymentExpired-content = Die Kreditkarte, mit der Sie Zahlungen für die folgenden Abonnements ausführen, läuft bald ab.
+subscriptionsPaymentExpired-subject-1 = Die Kreditkarte für Ihre Abonnements ist abgelaufen oder läuft bald ab
+subscriptionsPaymentExpired-title-1 = Ihre Kreditkarte ist abgelaufen oder läuft bald ab
+subscriptionsPaymentExpired-content-1 = Die Kreditkarte, die Sie zum Bezahlen der folgenden Abonnements verwenden, ist abgelaufen oder läuft bald ab.
 subscriptionsPaymentProviderCancelled-subject = Aktualisierung der Zahlungsinformationen für { -brand-mozilla }-Abonnements erforderlich
 subscriptionsPaymentProviderCancelled-title = Entschuldigung, wir haben Probleme mit Ihrer Zahlungsmethode
 subscriptionsPaymentProviderCancelled-content-detected = Wir haben ein Problem mit Ihrer Zahlungsmethode für die folgenden Abonnements festgestellt.
