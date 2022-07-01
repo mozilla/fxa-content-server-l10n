@@ -417,6 +417,13 @@ subscriptionFirstInvoiceDiscount-content-charge = Opkrævet { $invoiceTotal } de
 subscriptionFirstInvoiceDiscount-content-next-invoice = Næste faktura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Betalingskort for { $productName } er udløbet eller udløber snart
+subscriptionPaymentExpired-title-1 = Dit betalingskort er udløbet eller udløber snart
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = Betalingskortet, du bruger til at betale for { $productName }, er udløbet eller udløber snart.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Betaling for{ $productName } mislykkedes
 subscriptionPaymentFailed-title = Vi beklager, men vi har problemer med din betaling
 # Variables:
@@ -459,6 +466,8 @@ subscriptionRenewalReminder-content-closing = Med venlig hilsen
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Holdet bag { $productName }
 subscriptionsPaymentExpired-subject-1 = Betalingskort for dine abonnementer er udløbet eller udløber snart
+subscriptionsPaymentExpired-title-1 = Dit betalingskort er udløbet eller udløber snart
+subscriptionsPaymentExpired-content-1 = Betalingskortet, du bruger til at betale for følgende abonnementer, er udløbet eller udløber snart.
 subscriptionsPaymentProviderCancelled-subject = Du skal opdatere dine betalingsinformationer for { -brand-mozilla }-abonnementer
 subscriptionsPaymentProviderCancelled-title = Vi har desværre problemer med din betalingsmetode
 subscriptionsPaymentProviderCancelled-content-detected = Vi har registreret et problem med din betalingsmetode for følgende abonnementer.

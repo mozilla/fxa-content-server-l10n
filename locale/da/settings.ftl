@@ -294,14 +294,12 @@ avatar-page-image-too-large-error-2 = Billedfilen er for stor til at blive uploa
 
 pw-change-header =
     .title = Skift adgangskode
-pw-change-stay-safe = Beskyt dig selv — genbrug ikke adgangskoder forskellige steder. Din adgangskode:
-pw-change-least-8-chars = Skal indeholde mindst 8 tegn
-pw-change-not-contain-email = Må ikke være din mailadresse
+pw-8-chars = Mindst 8 tegn
+pw-not-email = Ikke din mailadresse
 pw-change-must-match = Ny adgangskode matcher bekræftelsen
+pw-commonly-used = Ikke en almindeligt brugt adgangskode
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Må ikke findes på denne <linkExternal>liste over almindelige
-    adgangskoder</linkExternal>
+pw-tips = Beskyt dig selv — genbrug ikke adgangskoder. Læs mere om, hvordan du <linkExternal>opretter stærke adgangskoder</linkExternal>.
 pw-change-cancel-button = Annuller
 pw-change-save-button = Gem
 pw-change-forgot-password-link = Glemt adgangskode?
