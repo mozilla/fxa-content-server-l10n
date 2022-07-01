@@ -417,11 +417,11 @@ subscriptionFirstInvoiceDiscount-content-charge = Charged { $invoiceTotal } on {
 subscriptionFirstInvoiceDiscount-content-next-invoice = Next Invoice: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Credit card for { $productName } expiring soon
-subscriptionPaymentExpired-title = Your credit card is about to expire
+subscriptionPaymentExpired-subject-1 = Credit card for { $productName } expired or expiring soon
+subscriptionPaymentExpired-title-1 = Your credit card is expired or about to expire
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = The credit card you’re using to make payments for { $productName } is about to expire.
+subscriptionPaymentExpired-content-1 = The credit card you’re using to make payments for { $productName } is expired or about to expire.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } payment failed
@@ -465,9 +465,9 @@ subscriptionRenewalReminder-content-closing = Sincerely,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = The { $productName } team
-subscriptionsPaymentExpired-subject = Credit card for your subscriptions is expiring soon
-subscriptionsPaymentExpired-title = Your credit card is about to expire
-subscriptionsPaymentExpired-content = The credit card you’re using to make payments for the following subscriptions is about to expire.
+subscriptionsPaymentExpired-subject-1 = Credit card for your subscriptions is expired or expiring soon
+subscriptionsPaymentExpired-title-1 = Your credit card is expired or about to expire
+subscriptionsPaymentExpired-content-1 = The credit card you’re using to make payments for the following subscriptions is expired or about to expire.
 subscriptionsPaymentProviderCancelled-subject = Payment information update required for { -brand-mozilla } subscriptions
 subscriptionsPaymentProviderCancelled-title = Sorry, we’re having trouble with your payment method
 subscriptionsPaymentProviderCancelled-content-detected = We have detected a problem with your payment method for the following subscriptions.
