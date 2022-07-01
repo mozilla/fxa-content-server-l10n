@@ -417,11 +417,8 @@ subscriptionFirstInvoiceDiscount-content-charge = Cobrado { $invoiceTotal } em {
 subscriptionFirstInvoiceDiscount-content-next-invoice = Próxima fatura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = O cartão de crédito de { $productName } expira em breve
-subscriptionPaymentExpired-title = A validade do seu cartão de crédito está prestes a expirar
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = A validade do cartão de crédito que você está usando para efetuar pagamentos do { $productName } está prestes a expirar.
+subscriptionPaymentExpired-subject-1 = O cartão de crédito usado no { $productName } expirou ou expira em breve
+subscriptionPaymentExpired-title-1 = A validade do seu cartão de crédito expirou ou está prestes a expirar
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Falha no pagamento do { $productName }
@@ -465,9 +462,6 @@ subscriptionRenewalReminder-content-closing = Atenciosamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A equipe do { $productName }
-subscriptionsPaymentExpired-subject = A validade do cartão de crédito de suas assinaturas expirará em breve
-subscriptionsPaymentExpired-title = A validade do seu cartão de crédito está prestes a expirar
-subscriptionsPaymentExpired-content = A validade do cartão de crédito que você está usando para efetuar pagamentos das assinaturas a seguir está prestes a expirar.
 subscriptionsPaymentProviderCancelled-subject = Necessário atualizar informações de pagamento de assinaturas da { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Desculpe, estamos com problemas com seu método de pagamento
 subscriptionsPaymentProviderCancelled-content-detected = Detectamos um problema com seu método de pagamento das seguintes assinaturas.
