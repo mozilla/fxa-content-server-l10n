@@ -458,6 +458,7 @@ subscriptionRenewalReminder-content-closing = Med venlig hilsen
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Holdet bag { $productName }
+subscriptionsPaymentExpired-subject-1 = Betalingskort for dine abonnementer er udløbet eller udløber snart
 subscriptionsPaymentProviderCancelled-subject = Du skal opdatere dine betalingsinformationer for { -brand-mozilla }-abonnementer
 subscriptionsPaymentProviderCancelled-title = Vi har desværre problemer med din betalingsmetode
 subscriptionsPaymentProviderCancelled-content-detected = Vi har registreret et problem med din betalingsmetode for følgende abonnementer.
