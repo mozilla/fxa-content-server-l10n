@@ -417,11 +417,11 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal } yn rekkening
 subscriptionFirstInvoiceDiscount-content-next-invoice = Folgjende faktuer: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = De creditcard foar { $productName } ferrint ynkoarten
-subscriptionPaymentExpired-title = Jo creditcard ferrint ynkoarten
+subscriptionPaymentExpired-subject-1 = De creditcard foar { $productName } is ferrûn of ferrint ynkoarten
+subscriptionPaymentExpired-title-1 = Jo creditcard is ferrûn of ferrint ynkoarten
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = De creditcard dy’t jo brûke foar betellingen foar { $productName } ferrint ynkoarten.
+subscriptionPaymentExpired-content-1 = De creditcard dy’t jo brûke foar betellingen foar { $productName } is ferrûn of ferrint ynkoarten.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Betelling foar { $productName } mislearre
@@ -465,9 +465,9 @@ subscriptionRenewalReminder-content-closing = Mei heechachting,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = It { $productName }-team
-subscriptionsPaymentExpired-subject = De creditcard foar jo abonneminten ferrint ynkoarten
-subscriptionsPaymentExpired-title = Jo creditcard ferrint ynkoarten
-subscriptionsPaymentExpired-content = De creditcard dy’t jo brûke foar betellingen foar de folgjende abonneminten ferrint ynkoarten.
+subscriptionsPaymentExpired-subject-1 = De creditcard foar jo abonneminten is ferrûn of ferrint ynkoarten
+subscriptionsPaymentExpired-title-1 = Jo creditcard is ferrûn of ferrint ynkoarten
+subscriptionsPaymentExpired-content-1 = De creditcard dy’t jo brûke foar betellingen foar de folgjende abonneminten is ferrûn of ferrint ynkoarten.
 subscriptionsPaymentProviderCancelled-subject = Bywurkjen fan betellingsynformaasje fereaske foar { -brand-mozilla }-abonneminten
 subscriptionsPaymentProviderCancelled-title = Sorry, wy hawwe problemen mei jo betellingsmetoade
 subscriptionsPaymentProviderCancelled-content-detected = Wy hawwe in probleem mei jo betellingsmetoade foar de folgjende abonneminten fêststeld.
