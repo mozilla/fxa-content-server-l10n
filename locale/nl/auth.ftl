@@ -417,11 +417,11 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal } in rekening 
 subscriptionFirstInvoiceDiscount-content-next-invoice = Volgende factuur: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = De creditcard voor { $productName } verloopt binnenkort
-subscriptionPaymentExpired-title = Uw creditcard verloopt binnenkort
+subscriptionPaymentExpired-subject-1 = De creditcard voor { $productName } is verlopen of verloopt binnenkort
+subscriptionPaymentExpired-title-1 = Uw creditcard is verlopen of verloopt binnenkort
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = De creditcard die u gebruikt voor betalingen voor { $productName } verloopt binnenkort.
+subscriptionPaymentExpired-content-1 = De creditcard die u gebruikt voor betalingen voor { $productName } is verlopen of verloopt binnenkort.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = De betaling voor { $productName } is mislukt
@@ -465,9 +465,9 @@ subscriptionRenewalReminder-content-closing = Hoogachtend,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Het { $productName }-team
-subscriptionsPaymentExpired-subject = De creditcard voor uw abonnementen verloopt binnenkort
-subscriptionsPaymentExpired-title = Uw creditcard verloopt binnenkort
-subscriptionsPaymentExpired-content = De creditcard die u gebruikt voor betalingen voor de volgende abonnementen verloopt binnenkort.
+subscriptionsPaymentExpired-subject-1 = De creditcard voor uw abonnementen is verlopen of verloopt binnenkort
+subscriptionsPaymentExpired-title-1 = Uw creditcard is verlopen of verloopt binnenkort
+subscriptionsPaymentExpired-content-1 = De creditcard die u gebruikt voor betalingen voor de volgende abonnementen is verlopen of verloopt binnenkort.
 subscriptionsPaymentProviderCancelled-subject = Bijwerken van betalingsgegevens vereist voor { -brand-mozilla }-abonnementen
 subscriptionsPaymentProviderCancelled-title = Sorry, we hebben problemen met uw betalingsmethode
 subscriptionsPaymentProviderCancelled-content-detected = We hebben een probleem met uw betalingsmethode voor de volgende abonnementen vastgesteld.
