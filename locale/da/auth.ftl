@@ -170,10 +170,11 @@ cadReminderFirst-subject = En venlig påmindelse: Sådan færdiggør du din ops�
 cadReminderFirst-action = Synkroniser en enhed til
 cadReminderFirst-title = Her er din påmindelse om at synkronisere enheder.
 cadReminderFirst-description = Der skal to til at synkronisere. Med privat synkronisering af en anden enhed med { -brand-firefox } forbliver dine bogmærker, adgangskoder og andre Firefox-data de samme overalt, hvor du bruger { -brand-firefox }.
-cadReminderSecond-subject = Sidste påmindelse: Færdiggør opsætning af Sync
+cadReminderSecond-subject-2 = Gå ikke glip af noget! Lad os afslutte opsætningen af synkroniseringen
 cadReminderSecond-action = Synkroniser en enhed til
-cadReminderSecond-title = Sidste påmindelse om at synkronisere enheder!
-cadReminderSecond-description = Med privat synkronisering af en anden enhed med { -brand-firefox } forbliver dine bogmærker, adgangskoder og andre { -brand-firefox }-data de samme overalt, hvor du bruger { -brand-firefox }.
+cadReminderSecond-title-2 = Glem ikke at synkronisere!
+cadReminderSecond-description-sync = Synkroniser dine bogmærker, adgangskoder, åbne faneblade og mere — overalt hvor du bruger { -brand-firefox }.
+cadReminderSecond-description-plus = Derudover er dine data altid krypteret. Kun dig og enheder, du godkender, kan se dem.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Velkommen til { $productName }
@@ -297,8 +298,6 @@ subscriptionAccountDeletion-title = Vi er kede af, at du opsiger dit abonnement
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Du har for nylig slettet din { -product-firefox-account }. Derfor har vi annulleret dit abonnement på { $productName }. Din sidste betaling på { $invoiceTotal } blev betalt den { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Betalingsdetaljer:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Angiv din adgangskode.
@@ -418,13 +417,6 @@ subscriptionFirstInvoiceDiscount-content-charge = Opkrævet { $invoiceTotal } de
 subscriptionFirstInvoiceDiscount-content-next-invoice = Næste faktura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Betalingskort for { $productName } udløber snart
-subscriptionPaymentExpired-title = Dit betalingskort er ved at udløbe
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Betalingskortet, du bruger til at betale for { $productName }, er ved at udløbe.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Betaling for{ $productName } mislykkedes
 subscriptionPaymentFailed-title = Vi beklager, men vi har problemer med din betaling
 # Variables:
@@ -466,9 +458,6 @@ subscriptionRenewalReminder-content-closing = Med venlig hilsen
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Holdet bag { $productName }
-subscriptionsPaymentExpired-subject = Betalingskort for dine abonnementer udløber snart
-subscriptionsPaymentExpired-title = Dit betalingskort er ved at udløbe
-subscriptionsPaymentExpired-content = Betalingskortet, du bruger til at betale for følgende abonnementer, er ved at udløbe.
 subscriptionsPaymentProviderCancelled-subject = Du skal opdatere dine betalingsinformationer for { -brand-mozilla }-abonnementer
 subscriptionsPaymentProviderCancelled-title = Vi har desværre problemer med din betalingsmetode
 subscriptionsPaymentProviderCancelled-content-detected = Vi har registreret et problem med din betalingsmetode for følgende abonnementer.
