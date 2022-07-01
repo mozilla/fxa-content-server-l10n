@@ -170,10 +170,11 @@ cadReminderFirst-subject = Sõbralik meeldetuletus: kuidas sünkroniseerimise se
 cadReminderFirst-action = Sünkroniseeri teine seade
 cadReminderFirst-title = Siin on sinu meeldetuletus seadmete sünkroniseerimiseks.
 cadReminderFirst-description = Sünkroniseerimiseks on vaja kahte. Teise seadme sünkroniseerimisel { -brand-firefox }iga privaatselt jäävad sinu järjehoidjad, paroolid ja muud { -brand-firefox }i andmed samaks kõikjal, kus kasutad { -brand-firefox }i.
-cadReminderSecond-subject = Viimane meeldetuletus: vii sünkroniseerimise seadistamine lõpule
+cadReminderSecond-subject-2 = Ära jää ilma! Lõpetame sünkroniseerimise seadistamise
 cadReminderSecond-action = Sünkroniseeri teine seade
-cadReminderSecond-title = Viimane meeldetuletus seadmete sünkroniseerimiseks!
-cadReminderSecond-description = Teise seadme sünkroniseerimisel { -brand-firefox }iga privaatselt jäävad sinu järjehoidjad, paroolid ja muud { -brand-firefox }i andmed samaks kõikjal, kus kasutad { -brand-firefox }i.
+cadReminderSecond-title-2 = Ära unusta sünkroniseerida!
+cadReminderSecond-description-sync = Sünkroniseeri oma järjehoidjad, paroolid, avatud kaardid ja muud asjad — kõikjale, kust kasutad { -brand-firefox }i.
+cadReminderSecond-description-plus = Lisaks on sinu andmed alati krüptitud. Ainult sina ja sinu heakskiidetud seadmed saavad neid näha.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Tere tulemast kasutama teenust { $productName }
@@ -297,8 +298,6 @@ subscriptionAccountDeletion-title = Kahju, et lahkud
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Kustutasid hiljuti oma { -product-firefox-account } konto. Seoses sellega tühistasime me sinu teenuse { $productName } tellimuse. Viimane makse summas { $invoiceTotal } teostati { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Makse andmed:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Tere tulemast teenusesse { $productName }: palun määra omale parool.
@@ -418,11 +417,11 @@ subscriptionFirstInvoiceDiscount-content-charge = Tasu: { $invoiceTotal } kuupä
 subscriptionFirstInvoiceDiscount-content-next-invoice = Järgmine arve: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Toote { $productName } jaks kasutatav krediitkaart aegub peagi
-subscriptionPaymentExpired-title = Sinu krediitkaart hakkab aeguma
+subscriptionPaymentExpired-subject-1 = Toote { $productName } jaoks kasutatav krediitkaart aegus või aegub peagi
+subscriptionPaymentExpired-title-1 = Sinu krediitkaart aegus või hakkab aeguma
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Toote { $productName } jaoks kasutatav krediitkaart hakkab aeguma.
+subscriptionPaymentExpired-content-1 = Toote { $productName } jaoks kasutatav krediitkaart aegus või hakkab aeguma.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Toote { $productName } makse on ebaõnnestus
@@ -466,9 +465,9 @@ subscriptionRenewalReminder-content-closing = Lugupidamisega
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Teenuse { $productName } tiim
-subscriptionsPaymentExpired-subject = Sinu tellimusega seotud krediitkaart aegub peagi
-subscriptionsPaymentExpired-title = Sinu krediitkaart hakkab aeguma
-subscriptionsPaymentExpired-content = Järgnevate tellimuste eest tasumiseks kasutatav krediitkaart hakkab aeguma.
+subscriptionsPaymentExpired-subject-1 = Sinu tellimusega seotud krediitkaart aegus või aegub peagi
+subscriptionsPaymentExpired-title-1 = Sinu krediitkaart aegus või hakkab aeguma
+subscriptionsPaymentExpired-content-1 = Järgnevate tellimuste eest tasumiseks kasutatav krediitkaart aegus või hakkab aeguma.
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } tellimuste jaoks on vajalik makseteabe uuendamine
 subscriptionsPaymentProviderCancelled-title = Kahjuks on meil probleeme sinu makseviisiga
 subscriptionsPaymentProviderCancelled-content-detected = Järgnevate tellimuste makseviisiga tuvastati probleem.
