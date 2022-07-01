@@ -119,6 +119,8 @@ downloadSubscription-subject = Вітаем у { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Вітаем у { $productName }
+downloadSubscription-content-2 = Давайце пачнём выкарыстоўваць усе функцыі, уключаныя ў вашу падпіску:
+downloadSubscription-link-action-2 = Пачаць
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Засталося мала кодаў аднаўлення
 codes-reminder-description = Мы заўважылі, што ў вас засталося мала кодаў аднаўлення. Калі ласка, падумайце пра стварэнне новых кодаў, каб пазбегнуць блакавання вашага уліковага запісу.
@@ -186,6 +188,11 @@ postRemoveTwoStepAuthentication-action = Кіраванне ўліковым з�
 postRemoveTwoStepAuthentication-not-required = Коды бяспекі больш не будуць патрабавацца пры кожным ўваходзе.
 postVerify-title = Наступная сінхранізацыя паміж вашымі прыладамі!
 postVerify-description = Сінхранізацыя прыватна захоўвае вашыя закладкі, паролі і іншыя дадзеныя { -brand-firefox } аднолькавымі на ўсіх вашых прыладах.
+postVerify-setup = Наладзіць наступную прыладу
+postVerify-action = Наладзіць наступную прыладу
+# Variables:
+#  $email (String) - Link to https://accounts.firefox.com/support
+postVerify-support = Ёсць пытанні? Наведайце { $supportUrl }
 postVerifySecondary-subject = Дададзены другі адрас эл.пошты
 postVerifySecondary-title = Дададзены другі адрас эл.пошты
 postVerifySecondary-action = Кіраванне ўліковым запісам

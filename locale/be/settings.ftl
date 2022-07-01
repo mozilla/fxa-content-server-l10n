@@ -91,27 +91,18 @@ connect-another-find-fx-mobile =
 cs-heading = Падключаныя паслугі
 cs-description = Усё, чым вы карыстаецеся і дзе ўвайшлі.
 cs-cannot-disconnect = Кліент не знойдзены, не ўдалося адключыць
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = Вы выйшлі з { $service }.
 cs-refresh-button =
     .title = Абнавіць падключаныя паслугі
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Адсутнічаюць або дублююцца элементы?
 cs-disconnect-sync-heading = Адключыць сінхранізацыю
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Дадзеныя прагляду застануцца на гэтай
-    прыладзе ({ $device }), але не будуць сінхранізавацца з вашым уліковым запісам.
-cs-disconnect-sync-reason =
-    Якая галоўная прычына адлучэння
-    гэтай прылады?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -222,8 +213,6 @@ nav-email-comm = Зносіны па электроннай пошце
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Узнікла праблема пры замене вашых кодаў аднаўлення.
-tfa-replace-code-success-alert = Коды аднаўлення ўліковага запісу абноўлены.
 tfa-replace-code-1-2 = Крок 1 з 2
 tfa-replace-code-2-2 = Крок 2 з 2
 
@@ -253,7 +242,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Немагчыма ініцыялізаваць камеру
 avatar-page-new-avatar =
     .alt = новая выява профілю
-avatar-page-image-too-large-error = Памер файла выявы занадта вялікі для зацягвання.
 
 ##
 
@@ -262,9 +250,6 @@ avatar-page-image-too-large-error = Памер файла выявы занад�
 
 pw-change-header =
     .title = Змяніць пароль
-pw-change-stay-safe = Заставайцеся ў бяспецы — не выкарыстоўвайце паролі паўторна. Ваш пароль:
-pw-change-least-8-chars = Мусіць быць не менш за 8 сімвалаў
-pw-change-not-contain-email = Не можа быць ваш адрас эл.пошты
 pw-change-must-match = Новы пароль адпавядае пацверджанню
 pw-change-cancel-button = Скасаваць
 pw-change-save-button = Захаваць
@@ -275,7 +260,15 @@ pw-change-new-password =
     .label = Увядзіце новы пароль
 pw-change-confirm-password =
     .label = Пацвердзіце новы пароль
-pw-change-success-alert = Пароль абноўлены.
+pw-change-success-alert-2 = Пароль абноўлены
+
+##
+
+
+## Password create page
+
+pw-create-header =
+    .title = Стварыць пароль
 
 ##
 
@@ -310,8 +303,6 @@ display-name-input =
     .label = Увядзіце бачнае імя
 submit-display-name = Захаваць
 cancel-display-name = Скасаваць
-display-name-update-error = Узнікла праблема з абнаўленнем бачнага імені.
-display-name-success-alert = Бачнае імя абноўлена.
 
 ##
 
@@ -327,7 +318,6 @@ recovery-key-page-title =
     .title = Ключ аднаўлення
 recovery-key-step-1 = Крок 1 з 2
 recovery-key-step-2 = Крок 2 з 2
-recovery-key-success-alert = Ключ аднаўлення створаны.
 
 ## Add secondary email page
 
@@ -342,7 +332,6 @@ add-secondary-email-save-button = Захаваць
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Крок 2 з 2
-verify-secondary-email-error = Узнікла праблема пры адпраўцы кода пацвярджэння.
 verify-secondary-email-page-title =
     .title = Дадатковая пошта
 verify-secondary-email-verification-code =
@@ -353,10 +342,6 @@ verify-secondary-email-verify-button = Пацвердзіць
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Калі ласка, увядзіце код пацвярджэння, адпраўлены на адрас <strong>{ $email }</strong> на працягу 5 хвілін.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } паспяхова дададзены.
 
 ##
 
@@ -419,6 +404,7 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Створаны { $date }
+security-action-create = Стварыць
 
 ## Switch component
 
@@ -445,7 +431,6 @@ rk-enabled = Уключаны
 rk-not-set = Не ўстаноўлены
 rk-action-create = Стварыць
 rk-action-remove = Выдаліць
-rk-key-removed = Ключ аднаўлення ўліковага запісу выдалены.
 rk-refresh-key = Абнавіць ключ аднаўлення
 rk-content-explain = Аднавіце сваю інфармацыі, калі забудзеце пароль.
 rk-remove-modal-heading = Выдаліць ключ аднаўлення?
@@ -454,14 +439,6 @@ rk-remove-modal-heading = Выдаліць ключ аднаўлення?
 
 se-heading = Дадатковая пошта
     .header = Дадатковая пошта
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } цяпер ваш асноўны адрас электроннай пошты.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } паспяхова выдалены.
 # Button to remove the secondary email
 se-remove-email =
     .title = Выдаліць электронную пошту
@@ -480,17 +457,14 @@ se-secondary-email-none = Няма
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двухэтапная аўтарызацыя
-tfa-row-disabled = Двухэтапная аўтарызацыя адключана.
 tfa-row-enabled = Уключана
 tfa-row-not-set = Не ўстаноўлена
 tfa-row-action-add = Дадаць
 tfa-row-action-disable = Адключыць
 tfa-row-button-refresh =
     .title = Абнавіць двухэтапную аўтарызацыю
-tfa-row-cannot-verify-session-2 = На жаль, узнікла праблема з пацвярджэннем сеансу.
 tfa-row-disable-modal-heading = Адключыць двухэтапную аўтарызацыю?
 tfa-row-disable-modal-confirm = Адключыць
-tfa-row-cannot-disable = Немагчыма адключыць двухэтапную аўтэнтыфікацыю.
 tfa-row-change-modal-heading = Змяніць коды аднаўлення?
 tfa-row-change-modal-confirm = Змяніць
 tfa-row-change-modal-explain = Вы не зможаце адмяніць гэта дзеянне.
