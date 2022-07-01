@@ -419,11 +419,11 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal } dnja { $invo
 subscriptionFirstInvoiceDiscount-content-next-invoice = Pśiduca zliceńka: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Kreditowa kórta za { $productName } skóro spadnjo
-subscriptionPaymentExpired-title = Waša kreditowa kórta skóro spadnjo
+subscriptionPaymentExpired-subject-1 = Kreditowa kórta za { $productName } jo spadnuła abo skóro spadnjo
+subscriptionPaymentExpired-title-1 = Waša kreditowa kórta jo spadnuła abo skóro spadnjo
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Kreditowa kórta, z kótarejuž płaśenja za { $productName } pśewjeźośo, skóro spadnjo.
+subscriptionPaymentExpired-content-1 = Kreditowa kórta, z kótarejuž płaśenja za { $productName } pśewjeźośo, jo spadnuła abo skóro spadnjo.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Płaśenje { $productName } njejo se raźiło
@@ -467,9 +467,9 @@ subscriptionRenewalReminder-content-closing = Z pśijaśelnym póstrowom
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Team { $productName }
-subscriptionsPaymentExpired-subject = Kreditowa kórta za swóje abonementy skóro spadnjo
-subscriptionsPaymentExpired-title = Waša kreditowa kórta skóro spadnjo
-subscriptionsPaymentExpired-content = Kreditowa kórta, z kótarejuž płaśenja za slědujuce abonementy pśewjeźośo, skóro spadnjo.
+subscriptionsPaymentExpired-subject-1 = Kreditowa kórta za swóje abonementy jo spadnuła abo skóro spadnjo
+subscriptionsPaymentExpired-title-1 = Waša kreditowa kórta jo spadnuła abo skóro spadnjo
+subscriptionsPaymentExpired-content-1 = Kreditowa kórta, z kótarejuž płaśenja za slědujuce abonementy pśewjeźośo, jo spadnuła abo skóro spadnjo.
 subscriptionsPaymentProviderCancelled-subject = Aktualizěrowanje płaśeńskich informacijow jo za abonementy { -brand-mozilla } trjebne
 subscriptionsPaymentProviderCancelled-title = Bóžko mamy problemy z wašeju płaśeńskeju metodu
 subscriptionsPaymentProviderCancelled-content-detected = Smy měli problem z wašeju nejnowšeju płaśeńskeju metodu za slědujuce abonementy.
