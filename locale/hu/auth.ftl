@@ -417,11 +417,11 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal } levonva ekko
 subscriptionFirstInvoiceDiscount-content-next-invoice = Következő díjbekérő: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = A(z) { $productName } termékhez tartozó bankkártya hamarosan lejár
-subscriptionPaymentExpired-title = A bankkártyája hamarosan lejár
+subscriptionPaymentExpired-subject-1 = A(z) { $productName } termékhez tartozó bankkártya lejárt vagy hamarosan lejár
+subscriptionPaymentExpired-title-1 = A bankkártyája lejárt vagy hamarosan lejár
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = A(z) { $productName } előfizetésének befizetéséhez használt bankkártyája hamarosan lejár.
+subscriptionPaymentExpired-content-1 = A(z) { $productName } előfizetésének befizetéséhez használt bankkártyája lejárt vagy hamarosan lejár.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = A(z) { $productName } befizetése sikertelen
@@ -465,9 +465,9 @@ subscriptionRenewalReminder-content-closing = Üdvözlettel,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A { $productName } csapat
-subscriptionsPaymentExpired-subject = Az előfizetéseihez tartozó bankkártya hamarosan lejár
-subscriptionsPaymentExpired-title = A bankkártyája hamarosan lejár
-subscriptionsPaymentExpired-content = A következő előfizetésekhez használt bankkártyája hamarosan lejár.
+subscriptionsPaymentExpired-subject-1 = Az előfizetéseihez tartozó bankkártya lejárt vagy hamarosan lejár
+subscriptionsPaymentExpired-title-1 = A bankkártyája lejárt vagy hamarosan lejár
+subscriptionsPaymentExpired-content-1 = A következő előfizetésekhez használt bankkártyája lejárt vagy hamarosan lejár.
 subscriptionsPaymentProviderCancelled-subject = A fizetési információk frissítése szükséges a { -brand-mozilla(ending: "accented") }s előfizetéseknél
 subscriptionsPaymentProviderCancelled-title = Sajnáljuk, gondok vannak a fizetési módjával
 subscriptionsPaymentProviderCancelled-content-detected = Problémát észleltünk a következő előfizetésekhez tartozó fizetési módjával kapcsolatban.
