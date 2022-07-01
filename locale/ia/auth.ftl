@@ -415,13 +415,7 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal } facturate le
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Proxime factura: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Le carta de credito pro { $productName } va expirar tosto
-subscriptionPaymentExpired-title = Tu carta de credito va expirar
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Le carta de credito que tu usa pro facer pagamentos pro { $productName } es preste a expirar.
+subscriptionPaymentExpired-title-1 = Tu carta de credito expirava o va expirar
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Pagamento de { $productName } fallite
@@ -465,9 +459,6 @@ subscriptionRenewalReminder-content-closing = Sincermente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Le equipa de { $productName }
-subscriptionsPaymentExpired-subject = Le carta de credito pro tu subscriptiones va expirar tosto
-subscriptionsPaymentExpired-title = Tu carta de credito va expirar
-subscriptionsPaymentExpired-content = Le carta de credito que tu usa pro facer pagamentos pro le sequente subscriptiones es sur le puncto de expirar.
 subscriptionsPaymentProviderCancelled-subject = Actualisation obligatori del informationes de pagamento pro le subscriptiones de { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Desolate, nos ha problemas con tu methodo de pagamento
 subscriptionsPaymentProviderCancelled-content-detected = Nos ha revelate un problemas con tu methodo de pagamento pro le sequente subscriptiones.
