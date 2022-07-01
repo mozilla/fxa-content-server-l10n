@@ -410,11 +410,11 @@ subscriptionFirstInvoiceDiscount-content-charge = 已於 { $invoiceDateOnly } �
 subscriptionFirstInvoiceDiscount-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = 訂購 { $productName } 所使用的信用卡即將過期
-subscriptionPaymentExpired-title = 您的信用卡即將過期
+subscriptionPaymentExpired-subject-1 = 訂購 { $productName } 所使用的信用卡即將過期，或已過期
+subscriptionPaymentExpired-title-1 = 您的信用卡即將過期，或已過期
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = 您用來付款訂購 { $productName } 的信用卡即將過期。
+subscriptionPaymentExpired-content-1 = 您用來付款訂購 { $productName } 的信用卡即將過期，或已過期。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 付款失敗
@@ -458,9 +458,9 @@ subscriptionRenewalReminder-content-closing = 感謝您，
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } 團隊
-subscriptionsPaymentExpired-subject = 訂購多項產品所使用的信用卡即將過期
-subscriptionsPaymentExpired-title = 您的信用卡即將過期
-subscriptionsPaymentExpired-content = 您用來付款訂購下列項目的信用卡即將過期。
+subscriptionsPaymentExpired-subject-1 = 訂購多項產品所使用的信用卡即將過期，，或已過期
+subscriptionsPaymentExpired-title-1 = 您的信用卡即將過期，或已過期
+subscriptionsPaymentExpired-content-1 = 您用來付款訂購下列項目的信用卡即將過期，或已過期。
 subscriptionsPaymentProviderCancelled-subject = 需要更新 { -brand-mozilla } 產品訂閱的付款資訊
 subscriptionsPaymentProviderCancelled-title = 很抱歉，處理付款時遇到問題
 subscriptionsPaymentProviderCancelled-content-detected = 處理您最近對下列訂閱項目的付款時，遇到問題。
