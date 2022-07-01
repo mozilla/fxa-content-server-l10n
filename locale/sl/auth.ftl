@@ -429,13 +429,10 @@ subscriptionFirstInvoiceDiscount-content-charge = Zaračunano { $invoiceTotal } 
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
+subscriptionPaymentExpired-title-1 = Vaši kreditni kartica je ali bo kmalu potekla veljavnost
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Kreditni kartici za { $productName } kmalu poteče veljavnost
-subscriptionPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Kreditni kartici, s katero plačujete { $productName }, bo kmalu potekla veljavnost.
+subscriptionPaymentExpired-content-1 = Kreditni kartici, s katero plačujete { $productName }, je ali bo kmalu potekla veljavnost.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Plačilo za { $productName } neuspešno
@@ -466,9 +463,9 @@ subscriptionRenewalReminder-title = Vaša naročnina bo kmalu obnovljena
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Spoštovani uporabnik { $productName },
 subscriptionRenewalReminder-content-closing = Lep pozdrav,
-subscriptionsPaymentExpired-subject = Kreditni kartici za vaše naročnine kmalu poteče veljavnost
-subscriptionsPaymentExpired-title = Vaša kreditna kartica bo kmalu potekla
-subscriptionsPaymentExpired-content = Kreditni kartici, s katero plačujete naslednje naročnine, bo kmalu potekla veljavnost.
+subscriptionsPaymentExpired-subject-1 = Kreditni kartici za vaše naročnine je ali bo kmalu potekla veljavnost
+subscriptionsPaymentExpired-title-1 = Vaši kreditni kartica je ali bo kmalu potekla veljavnost
+subscriptionsPaymentExpired-content-1 = Kreditni kartici, s katero plačujete naslednje naročnine, je ali bo kmalu potekla veljavnost.
 subscriptionsPaymentProviderCancelled-subject = Potrebna je posodobitev podatkov o plačilu za naročnine { -brand-mozilla(sklon: "rodilnik") }
 subscriptionsPaymentProviderCancelled-title = Žal imamo težave z vašim načinom plačila
 subscriptionsPaymentProviderCancelled-content-detected = Zaznali smo težavo z vašim načinom plačila za naslednje naročnine.
