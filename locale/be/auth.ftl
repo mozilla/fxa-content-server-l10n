@@ -46,9 +46,15 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Абнавіць плацежную інфармацыю
 subplat-privacy-policy = Палітыка прыватнасці { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Прававыя звесткі
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Прыватнасць
+subplat-privacy-website-plaintext = { subplat-privacy }:
 automated-email-plaintext = Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Калі ласка, дапамажыце нам палепшыць нашы паслугі, узяўшы ўдзел у гэтым кароткім апытанні:
 change-password-plaintext = Калі вы падазраяце, што хтосьці спрабуе атрымаць доступ да вашага ўліковага запісу, калі ласка, змяніце пароль.
 manage-account = Кіраванне ўліковым запісам
 manage-account-plaintext = { manage-account }:
@@ -65,14 +71,54 @@ payment-plan-charged = Спагнана: { $invoiceTotal } { $invoiceDateOnly }
 payment-plan-next-invoice = Наступны рахунак-фактура: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Спосаб аплаты:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = Картка { $cardType } заканчваецца на { $lastFour }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:
+# Variables:
+#  $supportUrl (String) - Link to https://accounts.firefox.com/support
+support-message = Каб атрымаць дадатковую інфармацыю, наведайце { $supportUrl }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } на { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } на { $uaOS }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-адрас: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (прыблізна)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (прыблізна)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (прыблізна)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (прыблізна)
 cadReminderFirst-subject = Ваш сяброўскі напамін: Як завяршыць наладжванне сiнхранiзацыi
 cadReminderFirst-action = Сінхранізаваць іншую прыладу
 cadReminderFirst-title = Вось ваш напамін пра сінхранізацыю прылад.
-cadReminderSecond-subject = Апошнi напамін: Завяршыце наладжванне сінхранізацыі
 cadReminderSecond-action = Сінхранізаваць іншую прыладу
-cadReminderSecond-title = Апошнi напамін пра сінхранізацыю прылад!
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Вітаем у { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Вітаем у { $productName }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Засталося мала кодаў аднаўлення
 codes-reminder-description = Мы заўважылі, што ў вас засталося мала кодаў аднаўлення. Калі ласка, падумайце пра стварэнне новых кодаў, каб пазбегнуць блакавання вашага уліковага запісу.
@@ -183,8 +229,6 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Аднаразов�
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Наступны рахунак-фактура: { $nextInvoiceDateOnly }
-subscriptionPaymentExpired-title = Тэрмін дзеяння крэдытнай карты хутка скончыцца
-subscriptionsPaymentExpired-title = Тэрмін дзеяння крэдытнай карты хутка скончыцца
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number = Нумар рахунка-фактуры: <b>{ $invoiceNumber }</b>
