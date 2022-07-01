@@ -503,11 +503,11 @@ subscriptionFirstInvoiceDiscount-content-charge = Obciążono { $invoiceTotal } 
 subscriptionFirstInvoiceDiscount-content-next-invoice = Następna faktura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Karta płatnicza dla { $productName } wkrótce wygaśnie
-subscriptionPaymentExpired-title = Karta płatnicza wkrótce wygaśnie
+subscriptionPaymentExpired-subject-1 = Karta płatnicza dla { $productName } wygasła lub wkrótce wygaśnie
+subscriptionPaymentExpired-title-1 = Karta płatnicza wygasła lub wkrótce wygaśnie
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Karta płatnicza używana do dokonywania płatności za { $productName } niedługo wygaśnie.
+subscriptionPaymentExpired-content-1 = Karta płatnicza używana do dokonywania płatności za { $productName } wygasła lub niedługo wygaśnie.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Płatność za { $productName } się nie powiodła
@@ -551,9 +551,9 @@ subscriptionRenewalReminder-content-closing = Z pozdrowieniami,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Zespół { $productName }
-subscriptionsPaymentExpired-subject = Karta płatnicza dla subskrypcji wkrótce wygaśnie
-subscriptionsPaymentExpired-title = Karta płatnicza wkrótce wygaśnie
-subscriptionsPaymentExpired-content = Karta płatnicza używana do dokonywania płatności za poniższe subskrypcje niedługo wygaśnie.
+subscriptionsPaymentExpired-subject-1 = Karta płatnicza dla subskrypcji wygasła lub wkrótce wygaśnie
+subscriptionsPaymentExpired-title-1 = Karta płatnicza wygasła lub wkrótce wygaśnie
+subscriptionsPaymentExpired-content-1 = Karta płatnicza używana do dokonywania płatności za poniższe subskrypcje wygasła lub niedługo wygaśnie.
 subscriptionsPaymentProviderCancelled-subject = Wymagana jest aktualizacja informacji o płatności za subskrypcje { -brand-mozilla(case: "gen") }
 subscriptionsPaymentProviderCancelled-title = Przepraszamy, mamy problem z wybraną metodą płatności
 subscriptionsPaymentProviderCancelled-content-detected = Wykryliśmy problem z wybraną metodą płatności za poniższe subskrypcje.
