@@ -419,11 +419,7 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal } dnja { $invo
 subscriptionFirstInvoiceDiscount-content-next-invoice = Přichodna zličbowanka: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Kreditna karta za { $productName } bórze spadnje
-subscriptionPaymentExpired-title = Waša kreditna karta bórze spadnje
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Kreditna karta, z kotrejž płaćenja za { $productName } přewjedźeće, bórze spadnje.
+subscriptionPaymentExpired-subject-1 = Kreditna karta za { $productName } je spadnyła abo bórze spadnje
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Płaćenje { $productName } je so nimokuliło
@@ -467,9 +463,6 @@ subscriptionRenewalReminder-content-closing = Z přećelnym postrowom
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Team { $productName }
-subscriptionsPaymentExpired-subject = Kreditna karta za swoje abonementy bórze spadnje
-subscriptionsPaymentExpired-title = Waša kreditna karta bórze spadnje
-subscriptionsPaymentExpired-content = Kreditna karta, z kotrejž płaćenja za slědowace abonementy přewjedźeće, bórze spadnje.
 subscriptionsPaymentProviderCancelled-subject = Aktualizowanje płaćenskich informacijow je za abonementy { -brand-mozilla } trěbne
 subscriptionsPaymentProviderCancelled-title = Bohužel mamy problemy z wašej płaćenskej metodu
 subscriptionsPaymentProviderCancelled-content-detected = Mějachmy problem z wašej płaćenskej metodu za slědowace abonementy.
