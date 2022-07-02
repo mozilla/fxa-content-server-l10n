@@ -418,11 +418,11 @@ subscriptionFirstInvoiceDiscount-content-charge = Сплачено { $invoiceTot
 subscriptionFirstInvoiceDiscount-content-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Незабаром, завершується термін дії кредитної картки для оплати за { $productName }
-subscriptionPaymentExpired-title = Закінчується термін дії вашої кредитної картки
+subscriptionPaymentExpired-subject-1 = Термін дії кредитної картки для { $productName } завершився, або невдовзі завершиться
+subscriptionPaymentExpired-title-1 = Термін дії вашої кредитної картки завершився, або невдовзі завершиться
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Завершується термін дії кредитної картки, з якої здійснюються платежі за користування { $productName }.
+subscriptionPaymentExpired-content-1 = Термін дії кредитної картки, якою ви користуєтеся для платежів за { $productName }, завершився, або невдовзі завершиться
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Не вдалося оплатити { $productName }
@@ -466,9 +466,9 @@ subscriptionRenewalReminder-content-closing = З повагою,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Команда { $productName }
-subscriptionsPaymentExpired-subject = Кредитна картка для ваших передплат незабаром втрачає чинність
-subscriptionsPaymentExpired-title = Закінчується термін дії вашої кредитної картки
-subscriptionsPaymentExpired-content = Кредитна картка, якою ви здійснюєте платежі за цими передплатами, невдовзі втрачає чинність.
+subscriptionsPaymentExpired-subject-1 = Термін дії кредитної картки для ваших передплат завершився, або невдовзі завершиться
+subscriptionsPaymentExpired-title-1 = Термін дії вашої кредитної картки завершився, або невдовзі завершиться
+subscriptionsPaymentExpired-content-1 = Термін дії кредитної картки, якою ви користуєтеся для сплати зазначених передплат, завершився, або невдовзі завершиться.
 subscriptionsPaymentProviderCancelled-subject = Для передплат { -brand-mozilla } необхідно оновити платіжну інформацію
 subscriptionsPaymentProviderCancelled-title = Перепрошуємо, але у нас виникли проблеми з вашим способом оплати
 subscriptionsPaymentProviderCancelled-content-detected = Ми виявили проблему з вашим способом оплати для таких передплат.
