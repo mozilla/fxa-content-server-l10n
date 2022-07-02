@@ -425,11 +425,11 @@ subscriptionFirstInvoiceDiscount-content-charge = Addebitato { $invoiceTotal } i
 subscriptionFirstInvoiceDiscount-content-next-invoice = Prossima fattura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = La carta di credito per { $productName } sta per scadere
-subscriptionPaymentExpired-title = La carta di credito in uso sta per scadere
+subscriptionPaymentExpired-subject-1 = La carta di credito per { $productName } è scaduta o sta per scadere
+subscriptionPaymentExpired-title-1 = La carta di credito in uso è scaduta o sta per scadere
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = La carta di credito in uso per i pagamenti di { $productName } sta per scadere.
+subscriptionPaymentExpired-content-1 = La carta di credito in uso per i pagamenti di { $productName } è scaduta o sta per scadere.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Pagamento per { $productName } non riuscito
@@ -473,9 +473,9 @@ subscriptionRenewalReminder-content-closing = Cordiali saluti,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = il team di { $productName }
-subscriptionsPaymentExpired-subject = La carta di credito collegata ai tuoi abbonamenti sta per scadere
-subscriptionsPaymentExpired-title = La carta di credito in uso sta per scadere
-subscriptionsPaymentExpired-content = La carta di credito in uso per i pagamenti dei seguenti abbonamenti sta per scadere.
+subscriptionsPaymentExpired-subject-1 = La carta di credito collegata ai tuoi abbonamenti è scaduta o sta per scadere
+subscriptionsPaymentExpired-title-1 = La carta di credito in uso è scaduta o sta per scadere
+subscriptionsPaymentExpired-content-1 = La carta di credito in uso per i pagamenti dei seguenti abbonamenti è scaduta o sta per scadere.
 subscriptionsPaymentProviderCancelled-subject = Aggiornamento delle informazioni di pagamento richiesto per gli abbonamenti { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Siamo spiacenti, stiamo riscontrando problemi con il tuo metodo di pagamento
 subscriptionsPaymentProviderCancelled-content-detected = Abbiamo rilevato un problema con il metodo di pagamento scelto per i seguenti abbonamenti.
