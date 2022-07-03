@@ -416,11 +416,11 @@ subscriptionFirstInvoiceDiscount-content-charge = Đã tính phí { $invoiceTota
 subscriptionFirstInvoiceDiscount-content-next-invoice = Hóa đơn tiếp theo: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Thẻ tín dụng cho { $productName } sắp hết hạn
-subscriptionPaymentExpired-title = Thẻ tín dụng của bạn sắp hết hạn
+subscriptionPaymentExpired-subject-1 = Thẻ tín dụng cho { $productName } đã/sắp hết hạn
+subscriptionPaymentExpired-title-1 = Thẻ tín dụng của bạn đã/sắp hết hạn
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Thẻ tín dụng bạn đang sử dụng để thanh toán cho { $productName } sắp hết hạn.
+subscriptionPaymentExpired-content-1 = Thẻ tín dụng bạn đang sử dụng để thanh toán cho { $productName } đã/sắp hết hạn.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Thanh toán { $productName } không thành công
@@ -464,9 +464,9 @@ subscriptionRenewalReminder-content-closing = Trân trọng,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Nhóm { $productName }
-subscriptionsPaymentExpired-subject = Thẻ tín dụng cho thuê bao của bạn sắp hết hạn
-subscriptionsPaymentExpired-title = Thẻ tín dụng của bạn sắp hết hạn
-subscriptionsPaymentExpired-content = Thẻ tín dụng bạn đang sử dụng để thanh toán cho các thuê bao sau sắp hết hạn.
+subscriptionsPaymentExpired-subject-1 = Thẻ tín dụng cho các thuê bao của bạn đã/sắp hết hạn
+subscriptionsPaymentExpired-title-1 = Thẻ tín dụng của bạn đã/sắp hết hạn
+subscriptionsPaymentExpired-content-1 = Thẻ tín dụng bạn đang sử dụng để thanh toán cho các thuê bao sau đã/sắp hết hạn.
 subscriptionsPaymentProviderCancelled-subject = Cần cập nhật thông tin thanh toán cho các thuê bao { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Xin lỗi, chúng tôi đang gặp sự cố với phương thức thanh toán của bạn
 subscriptionsPaymentProviderCancelled-content-detected = Chúng tôi đã phát hiện ra sự cố với phương thức thanh toán của bạn cho các thuê bao sau.
