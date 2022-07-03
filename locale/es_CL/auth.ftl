@@ -417,11 +417,11 @@ subscriptionFirstInvoiceDiscount-content-charge = Se cobró { $invoiceTotal } el
 subscriptionFirstInvoiceDiscount-content-next-invoice = Próxima facturación: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = La tarjeta de crédito para { $productName } vence pronto
-subscriptionPaymentExpired-title = Su tarjeta de crédito está a punto de vencer
+subscriptionPaymentExpired-subject-1 = La tarjeta de crédito para { $productName } vencinda o próxima a vencer
+subscriptionPaymentExpired-title-1 = Su tarjeta de crédito está vencida o próxima vencer
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = La tarjeta de crédito que estás utilizando para realizar pagos para { $productName } está a punto de vencer.
+subscriptionPaymentExpired-content-1 = La tarjeta de crédito que estás utilizando para realizar pagos para { $productName } está vencida o próxima a vencer.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Falló el pago para { $productName }
@@ -465,9 +465,9 @@ subscriptionRenewalReminder-content-closing = Atentamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = El equipo de { $productName }
-subscriptionsPaymentExpired-subject = La tarjeta de crédito para tus suscripciones vence pronto
-subscriptionsPaymentExpired-title = Su tarjeta de crédito está a punto de vencer
-subscriptionsPaymentExpired-content = La tarjeta de crédito que estás utilizando para realizar pagos para la siguiente suscripción está a punto de vencer.
+subscriptionsPaymentExpired-subject-1 = La tarjeta de crédito para tus suscripciones está vencida o próxima a vencer
+subscriptionsPaymentExpired-title-1 = Su tarjeta de crédito está vencida o próxima vencer
+subscriptionsPaymentExpired-content-1 = La tarjeta de crédito que estás utilizando para realizar pagos para la siguiente suscripción está vencida o próxima a vencer.
 subscriptionsPaymentProviderCancelled-subject = Se requiere una actualización de la información de pago para las suscripciones de { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Lo sentimos, estamos teniendo problemas con tu método de pago
 subscriptionsPaymentProviderCancelled-content-detected = Hemos detectado un problema con tu método de pago para las siguientes suscripciones.
