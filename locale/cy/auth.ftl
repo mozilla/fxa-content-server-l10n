@@ -170,10 +170,11 @@ cadReminderFirst-subject = Eich Nodyn Atgoffa Cyfeillgar: Sut I Gwblhau Gosod Sy
 cadReminderFirst-action = Cydweddu dyfais arall
 cadReminderFirst-title = Dyma eich atgoffa i gydweddu dyfeisiau.
 cadReminderFirst-description = Mae'n cymryd dau i gydweddu. Mae cydweddu dyfais arall â { -brand-firefox } yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data { -brand-firefox }arall yr un peth ym mhobman rydych chi'n defnyddio { -brand-firefox }.
-cadReminderSecond-subject = Nodyn Atgoffa Terfynol: Gosod Sync yn ei Gyfanrwydd
+cadReminderSecond-subject-2 = Peidiwch â cholli allan! Gadewch i ni orffen eich gosodiad cydweddu
 cadReminderSecond-action = Cydweddu dyfais arall
-cadReminderSecond-title = Nodyn atgoffa olaf i gydweddu dyfeisiau!
-cadReminderSecond-description = Mae cydweddu dyfais arall â { -brand-firefox } yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data { -brand-firefox }arall yr un peth ym mhobman rydych chi'n defnyddio { -brand-firefox }.
+cadReminderSecond-title-2 = Peidiwch ag anghofio cydweddu!
+cadReminderSecond-description-sync = Cyrchwch a chydweddu eich nodau tudalen, cyfrineiriau, a mwy ym mhob man y byddwch yn defnyddio { -brand-firefox }.
+cadReminderSecond-description-plus = Hefyd, mae eich data bob amser wedi'i amgryptio. Dim ond chi a dyfeisiau rydych chi'n eu cymeradwyo all ei weld.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Croeso i { $productName }.
@@ -301,8 +302,6 @@ subscriptionAccountDeletion-title = Mae’n ddrwg gennym eich gweld chi‘n gada
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Fe wnaethoch chi ddileu eich { -product-firefox-account } yn ddiweddar. O ganlyniad, rydym wedi diddymu eich tanysgrifiad i { $productName }. Talwyd eich taliad olaf o { $invoiceTotal } ar { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Manylion talu:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Croeso i { $productName }: Cyflwynwch eich cyfrinair.
@@ -422,11 +421,8 @@ subscriptionFirstInvoiceDiscount-content-charge = Codwyd { $invoiceTotal }s ar {
 subscriptionFirstInvoiceDiscount-content-next-invoice = Anfoneb Nesaf: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Bydd cerdyn credyd { $productName } yn dod i ben cyn bo hir
-subscriptionPaymentExpired-title = Mae eich cerdyn credyd ar fin dod i ben
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Mae'r cerdyn credyd rydych yn ei ddefnyddio i wneud taliadau am { $productName } ar fin dod i ben.
+subscriptionPaymentExpired-subject-1 = Mae cerdyn credyd { $productName } wedi dod i ben neu'n dod i ben yn fuan
+subscriptionPaymentExpired-title-1 = Mae eich cerdyn credyd wedi dod i ben neu ar fin dod i ben
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Methodd y taliad am { $productName }
@@ -470,9 +466,6 @@ subscriptionRenewalReminder-content-closing = Yn gywir,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tîm { $productName }
-subscriptionsPaymentExpired-subject = Mae cerdyn credyd ar gyfer eich tanysgrifiadau yn dod i ben yn fuan
-subscriptionsPaymentExpired-title = Mae eich cerdyn credyd ar fin dod i ben
-subscriptionsPaymentExpired-content = Mae’r cerdyn credyd rydych chi‘n ei ddefnyddio i wneud taliadau am y tanysgrifiadau canlynol ar fin dod i ben.
 subscriptionsPaymentProviderCancelled-subject = Mae angen diweddaru'r manylion talu am danysgrifiadau { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Ymddiheuruadau, rydym yn cael trafferth gyda'ch dull o dalu
 subscriptionsPaymentProviderCancelled-content-detected = Rydym wedi canfod anhawster gyda'ch dull o dalu am y tanysgrifiadau canlynol.
