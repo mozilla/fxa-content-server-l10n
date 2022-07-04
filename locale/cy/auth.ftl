@@ -425,6 +425,9 @@ subscriptionPaymentExpired-subject-1 = Mae cerdyn credyd { $productName } wedi d
 subscriptionPaymentExpired-title-1 = Mae eich cerdyn credyd wedi dod i ben neu ar fin dod i ben
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = Mae'r cerdyn credyd rydych yn ei ddefnyddio i wneud taliadau am { $productName } wedi dod i ben neu ar fin dod i ben.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Methodd y taliad am { $productName }
 subscriptionPaymentFailed-title = Ymddiheuruadau, rydym yn cael trafferth gyda'ch taliad
 # Variables:
@@ -466,6 +469,9 @@ subscriptionRenewalReminder-content-closing = Yn gywir,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tîm { $productName }
+subscriptionsPaymentExpired-subject-1 = Mae'r cerdyn credyd ar gyfer eich tanysgrifiadau wedi dod i ben neu'n dod i ben yn fuan
+subscriptionsPaymentExpired-title-1 = Mae eich cerdyn credyd wedi dod i ben neu ar fin dod i ben
+subscriptionsPaymentExpired-content-1 = Mae'r cerdyn credyd rydych chi'n ei ddefnyddio i wneud taliadau am y tanysgrifiadau canlynol wedi dod i ben neu ar fin dod i ben.
 subscriptionsPaymentProviderCancelled-subject = Mae angen diweddaru'r manylion talu am danysgrifiadau { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Ymddiheuruadau, rydym yn cael trafferth gyda'ch dull o dalu
 subscriptionsPaymentProviderCancelled-content-detected = Rydym wedi canfod anhawster gyda'ch dull o dalu am y tanysgrifiadau canlynol.
