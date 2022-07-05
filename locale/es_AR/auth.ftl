@@ -467,6 +467,7 @@ subscriptionRenewalReminder-content-closing = Atentamente,
 subscriptionRenewalReminder-content-signature = El equipo de { $productName }
 subscriptionsPaymentExpired-subject-1 = La tarjeta de crédito para tus suscripciones ya venció o vencerá pronto
 subscriptionsPaymentExpired-title-1 = Tu tarjeta de crédito ya venció o está a punto de vencer
+subscriptionsPaymentExpired-content-1 = La tarjeta de crédito que estás usando para realizar los pagos de las siguientes suscripciones ya venció o está a punto de vencer.
 subscriptionsPaymentProviderCancelled-subject = Actualización de la información de pago requerida para las suscripciones de { -brand-mozilla }.
 subscriptionsPaymentProviderCancelled-title = Lo sentimos, tenemos problemas con el método de pago
 subscriptionsPaymentProviderCancelled-content-detected = Detectamos un problema con tu método de pago para las siguientes suscripciones.
