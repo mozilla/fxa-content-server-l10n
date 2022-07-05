@@ -417,11 +417,11 @@ subscriptionFirstInvoiceDiscount-content-charge = Hepyme’ẽmbyre { $invoiceTo
 subscriptionFirstInvoiceDiscount-content-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Nde kuatia’atã ñemurã { $productName } ndokovéitama
-subscriptionPaymentExpired-title = Nde kuatia’atã ñemurã ndokovéitama
+subscriptionPaymentExpired-subject-1 = Nde kuatia’atã ñemurã { $productName } ndoikói tperã ndokovéitama
+subscriptionPaymentExpired-title-1 = Nde kuatia’atã ñemurã ndoikói térã ndoikovéitama
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua { $productName } rupi ndoikovéitama.
+subscriptionPaymentExpired-content-1 = Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua { $productName } rupi ndoikói térã ndoikovéitama.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Jejavy ehepyme’ẽkuévo { $productName }
@@ -465,9 +465,6 @@ subscriptionRenewalReminder-content-closing = Ma’ẽag̃uíme,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } atyguáva
-subscriptionsPaymentExpired-subject = Nde kuatia’atã ñemurã ne mboheraguapýpe g̃uarã ndokovéitama
-subscriptionsPaymentExpired-title = Nde kuatia’atã ñemurã ndokovéitama
-subscriptionsPaymentExpired-content = Pe kuatia’atã ñemurã eipurúva ehepyme’ẽ hag̃ua ko’ã mboheraguapy pegua ndoikovéi potaitéma.
 subscriptionsPaymentProviderCancelled-subject = Marandu tepyme’ẽgua rekopyahu oikotevẽva { -brand-mozilla } mboheraguapýpe g̃uarã.
 subscriptionsPaymentProviderCancelled-title = Rombyasy, roguereko apañuãi ne ñehepyme’ẽ rekópe
 subscriptionsPaymentProviderCancelled-content-detected = Rohechakuaa peteĩ apañuãi ne ñehepyme’ẽ reko rehegua mboheraguapy tenondeve g̃uarãva.
