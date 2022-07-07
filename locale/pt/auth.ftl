@@ -148,10 +148,8 @@ cadReminderFirst-subject = O seu lembrete amigável: como concluir a configuraç
 cadReminderFirst-action = Sincronizar outro dispositivo
 cadReminderFirst-title = Eis o seu lembrete para sincronizar os dispositivos.
 cadReminderFirst-description = São necessários dois para sincronizar. A sincronização com outro dispositivo com o { -brand-firefox } de forma privada mantém os seus marcadores, palavras-passe e outros dados do { -brand-firefox } iguais em todo o lado onde utilize o { -brand-firefox }.
-cadReminderSecond-subject = Lembrete final: concluir a configuração da sincronização
 cadReminderSecond-action = Sincronizar outro dispositivo
-cadReminderSecond-title = Último lembrete para sincronizar os dispositivos!
-cadReminderSecond-description = A sincronização com outro dispositivo com o { -brand-firefox } de forma privada mantém os seus marcadores, palavras-passe e outros dados do { -brand-firefox } iguais em todo o lado onde utilize o { -brand-firefox }.
+cadReminderSecond-title-2 = Não se esqueça de sincronizar!
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Bem-vindo(a) ao { $productName }.
@@ -356,13 +354,6 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Desconto único: -{
 subscriptionFirstInvoiceDiscount-content-next-invoice = Próxima Fatura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Cartão de crédito para { $productName } irá expirar em breve
-subscriptionPaymentExpired-title = O seu cartão de crédito está prestes a expirar
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = O cartão de crédito que está a utilizar para efetuar os pagamentos para { $productName } está a expirar.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = O pagamento de { $productName } falhou
 subscriptionPaymentFailed-title = Desculpe, estamos a ter problemas com o seu pagamento
 # Variables:
@@ -395,9 +386,6 @@ subscriptionRenewalReminder-content-closing = Com os melhores cumprimentos,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A equipa do(a) { $productName }
-subscriptionsPaymentExpired-subject = Cartão de crédito para as suas subscrições expira em breve
-subscriptionsPaymentExpired-title = O seu cartão de crédito está prestes a expirar
-subscriptionsPaymentExpired-content = O cartão de crédito que está a utilizar para efetuar os pagamentos das seguintes subscrições está quase a expirar.
 subscriptionsPaymentProviderCancelled-subject = É necessária uma atualização das informações de pagamento para as subscrições de { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Desculpe, estamos a ter problemas com o seu método de pagamento
 subscriptionsPaymentProviderCancelled-content-detected = Detetámos um problema com o seu método de pagamento para as seguintes subscrições.

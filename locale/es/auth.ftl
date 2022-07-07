@@ -417,11 +417,11 @@ subscriptionFirstInvoiceDiscount-content-charge = Cobrado { $invoiceTotal } el {
 subscriptionFirstInvoiceDiscount-content-next-invoice = Próxima factura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = La tarjeta de crédito para { $productName } caduca pronto
-subscriptionPaymentExpired-title = Tu tarjeta de crédito está a punto de caducar.
+subscriptionPaymentExpired-subject-1 = La tarjeta de crédito para { $productName } está caducada o caduca pronto
+subscriptionPaymentExpired-title-1 = Tu tarjeta de crédito está caducada o a punto de caducar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = La tarjeta de crédito que estás utilizando para realizar pagos por { $productName } está a punto de caducar.
+subscriptionPaymentExpired-content-1 = La tarjeta de crédito que estás utilizando para realizar pagos por { $productName } está caducada o a punto de caducar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Ha fallado el pago de { $productName }
@@ -465,9 +465,9 @@ subscriptionRenewalReminder-content-closing = Atentamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = El equipo de { $productName }
-subscriptionsPaymentExpired-subject = La tarjeta de crédito para tus suscripciones caduca pronto
-subscriptionsPaymentExpired-title = Tu tarjeta de crédito está a punto de caducar.
-subscriptionsPaymentExpired-content = La tarjeta de crédito que estás utilizando para realizar pagos para la siguiente suscripción está a punto de caducar.
+subscriptionsPaymentExpired-subject-1 = La tarjeta de crédito para tus suscripciones está caducada o caduca pronto
+subscriptionsPaymentExpired-title-1 = Tu tarjeta de crédito está caducada o a punto de caducar.
+subscriptionsPaymentExpired-content-1 = La tarjeta de crédito que estás utilizando para realizar pagos para la siguiente suscripción está caducada o a punto de caducar.
 subscriptionsPaymentProviderCancelled-subject = Se requiere actualizar la información de pago para las suscripciones de { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Lo sentimos, estamos teniendo problemas con tu método de pago
 subscriptionsPaymentProviderCancelled-content-detected = Hemos detectado un problema con tu método de pago para las siguientes suscripciones.
