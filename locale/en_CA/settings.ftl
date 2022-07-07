@@ -158,6 +158,7 @@ dc-subheader = Help improve { -product-firefox-accounts }
 dc-subheader-content = Allow { -product-firefox-accounts } to send technical and interaction data to { -brand-mozilla }.
 dc-opt-out-success = Opt out successful. { -product-firefox-accounts } won’t send technical or interaction data to { -brand-mozilla }.
 dc-opt-in-success = Thanks! Sharing this data helps us improve { -product-firefox-accounts }.
+dc-opt-in-out-error-2 = Sorry, there was a problem changing your data collection preference
 dc-learn-more = Learn more
 
 # DropDownAvatarMenu component
@@ -168,6 +169,7 @@ drop-down-menu-title = { -product-firefox-account } menu
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Signed in as</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Sign out
+drop-down-menu-sign-out-error-2 = Sorry, there was a problem signing you out
 
 ## Flow Container
 
@@ -237,7 +239,9 @@ nav-email-comm = Email Communications
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error-2 = There was a problem replacing your recovery codes
 tfa-replace-code-success = New codes have been created. Save these one-time use codes in a safe place — you’ll need them to access your account if you don’t have your mobile device.
+tfa-replace-code-success-alert-2 = Account recovery codes updated
 tfa-replace-code-1-2 = Step 1 of 2
 tfa-replace-code-2-2 = Step 2 of 2
 
@@ -267,6 +271,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Could not initialize camera
 avatar-page-new-avatar =
     .alt = new profile picture
+avatar-page-file-upload-error-3 = There was a problem uploading your profile picture
+avatar-page-delete-error-3 = There was a problem deleting your profile picture
+avatar-page-image-too-large-error-2 = The image file size is too large to be uploaded
 
 ##
 
@@ -275,7 +282,12 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Change password
+pw-8-chars = At least 8 characters
+pw-not-email = Not your email address
 pw-change-must-match = New password matches confirmation
+pw-commonly-used = Not a commonly used password
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Stay safe — don’t reuse passwords. See more tips to <linkExternal>create strong passwords</linkExternal>.
 pw-change-cancel-button = Cancel
 pw-change-save-button = Save
 pw-change-forgot-password-link = Forgot password?
@@ -285,6 +297,7 @@ pw-change-new-password =
     .label = Enter new password
 pw-change-confirm-password =
     .label = Confirm new password
+pw-change-success-alert-2 = Password updated
 
 ##
 
@@ -293,6 +306,8 @@ pw-change-confirm-password =
 
 pw-create-header =
     .title = Create password
+pw-create-success-alert-2 = Password set
+pw-create-error-2 = Sorry, there was a problem setting your password
 
 ##
 
@@ -330,6 +345,8 @@ display-name-input =
     .label = Enter display name
 submit-display-name = Save
 cancel-display-name = Cancel
+display-name-update-error-2 = There was a problem updating your display name
+display-name-success-alert-2 = Display name updated
 
 ##
 
@@ -346,10 +363,12 @@ recovery-key-page-title =
     .title = Recovery key
 recovery-key-step-1 = Step 1 of 2
 recovery-key-step-2 = Step 2 of 2
+recovery-key-success-alert-2 = Recovery key created
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Step 1 of 2
+add-secondary-email-error-2 = There was a problem creating this email
 add-secondary-email-page-title =
     .title = Secondary email
 add-secondary-email-enter-address =
@@ -360,6 +379,7 @@ add-secondary-email-save-button = Save
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Step 2 of 2
+verify-secondary-email-error-2 = There was a problem sending the verification code
 verify-secondary-email-page-title =
     .title = Secondary email
 verify-secondary-email-verification-code =
