@@ -500,11 +500,11 @@ subscriptionFirstInvoiceDiscount-content-charge = Účtované { $invoiceTotal } 
 subscriptionFirstInvoiceDiscount-content-next-invoice = Ďalšia faktúra: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Platnosť kreditnej karty pre { $productName } čoskoro vyprší
-subscriptionPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
+subscriptionPaymentExpired-subject-1 = Platnosť platobnej karty pre platby za { $productName } vypršala alebo čoskoro vyprší
+subscriptionPaymentExpired-title-1 = Platnosť vašej platobnej karty vypršala alebo čoskoro vyprší
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Platnosť kreditnej karty, ktorú používate na platby za { $productName }, čoskoro vyprší.
+subscriptionPaymentExpired-content-1 = Platnosť platobnej karty, ktorú používate na platby za { $productName }, vypršala alebo čoskoro vyprší.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Platba za { $productName } zlyhala
@@ -548,9 +548,9 @@ subscriptionRenewalReminder-content-closing = S pozdravom,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tím { $productName }
-subscriptionsPaymentExpired-subject = Platnosť kreditnej karty pre vaše predplatné čoskoro vyprší
-subscriptionsPaymentExpired-title = Platnosť vašej platobnej karty čoskoro vyprší
-subscriptionsPaymentExpired-content = Platnosť kreditnej karty, ktorú používate na platby za nasledujúce predplatné, čoskoro vyprší.
+subscriptionsPaymentExpired-subject-1 = Platnosť platobnej karty pre vaše odbery vyprší alebo jej platnosť čoskoro vyprší
+subscriptionsPaymentExpired-title-1 = Platnosť vašej platobnej karty vypršala alebo čoskoro vyprší
+subscriptionsPaymentExpired-content-1 = Platnosť platobnej karty, ktorú používate na platby za nasledujúce odbery, vypršala alebo čoskoro vyprší.
 subscriptionsPaymentProviderCancelled-subject = Vyžaduje sa aktualizácia platobných údajov pre predplatné produktov { -brand-mozilla(case: "gen") }
 subscriptionsPaymentProviderCancelled-title = Ospravedlňujeme sa, máme problém so zvoleným spôsobom platby
 subscriptionsPaymentProviderCancelled-content-detected = Pri nasledujúcich predplatných sme zistili problém s vaším spôsobom platby.
