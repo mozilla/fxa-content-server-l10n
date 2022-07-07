@@ -170,10 +170,11 @@ cadReminderFirst-subject = Your Friendly Reminder: How To Complete Your Sync Set
 cadReminderFirst-action = Sync another device
 cadReminderFirst-title = Here’s your reminder to sync devices.
 cadReminderFirst-description = It takes two to sync. Syncing another device with { -brand-firefox } privately keeps your bookmarks, passwords, and other { -brand-firefox } data the same everywhere you use { -brand-firefox }.
-cadReminderSecond-subject = Final Reminder: Complete Sync Setup
+cadReminderSecond-subject-2 = Don’t miss out! Let’s finish your sync setup
 cadReminderSecond-action = Sync another device
-cadReminderSecond-title = Last reminder to sync devices!
-cadReminderSecond-description = Syncing another device with { -brand-firefox } privately keeps your bookmarks, passwords, and other { -brand-firefox } data the same everywhere you use { -brand-firefox }.
+cadReminderSecond-title-2 = Don’t forget to sync!
+cadReminderSecond-description-sync = Sync your bookmarks, passwords, open tabs and more — everywhere you use { -brand-firefox }.
+cadReminderSecond-description-plus = Plus, your data is always encrypted. Only you and devices you approve can see it.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Welcome to { $productName }
@@ -297,8 +298,6 @@ subscriptionAccountDeletion-title = Sorry to see you go
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = You recently deleted your { -product-firefox-account }. As a result, we’ve cancelled your { $productName } subscription. Your final payment of { $invoiceTotal } was paid on { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Payment details:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Welcome to { $productName }: Please set your password.
@@ -416,13 +415,10 @@ subscriptionFirstInvoiceDiscount-content-charge = Charged { $invoiceTotal } on {
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Next Invoice: { $nextInvoiceDateOnly }
+subscriptionPaymentExpired-title-1 = Your credit card is expired or about to expire
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Credit card for { $productName } expiring soon
-subscriptionPaymentExpired-title = Your credit card is about to expire
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = The credit card you’re using to make payments for { $productName } is about to expire.
+subscriptionPaymentExpired-content-1 = The credit card you’re using to make payments for { $productName } is expired or about to expire.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } payment failed
@@ -466,9 +462,9 @@ subscriptionRenewalReminder-content-closing = Sincerely,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = The { $productName } team
-subscriptionsPaymentExpired-subject = Credit card for your subscriptions is expiring soon
-subscriptionsPaymentExpired-title = Your credit card is about to expire
-subscriptionsPaymentExpired-content = The credit card you’re using to make payments for the following subscriptions is about to expire.
+subscriptionsPaymentExpired-subject-1 = Credit card for your subscriptions is expired or expiring soon
+subscriptionsPaymentExpired-title-1 = Your credit card is expired or about to expire
+subscriptionsPaymentExpired-content-1 = The credit card you’re using to make payments for the following subscriptions is expired or about to expire.
 subscriptionsPaymentProviderCancelled-subject = Payment information update required for { -brand-mozilla } subscriptions
 subscriptionsPaymentProviderCancelled-title = Sorry, we’re having trouble with your payment method
 subscriptionsPaymentProviderCancelled-content-detected = We have detected a problem with your payment method for the following subscriptions.

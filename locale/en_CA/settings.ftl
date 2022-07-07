@@ -102,19 +102,23 @@ cs-cannot-disconnect = Client not found, unable to disconnect
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Logged out of { $service }.
+cs-logged-out-2 = Logged out of { $service }
 cs-refresh-button =
     .title = Refresh connected services
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Missing or duplicate items?
 cs-disconnect-sync-heading = Disconnect from Sync
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content = Your browsing data will remain on your device ({ $device }), but it will no longer sync with your account.
-cs-disconnect-sync-reason = What’s the main reason for disconnecting this device?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+cs-disconnect-sync-content-2 =
+    Your browsing data will remain on { $device },
+    but it will no longer sync with your account.
+cs-disconnect-sync-reason-2 = What’s the main reason for disconnecting { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -154,7 +158,6 @@ dc-subheader = Help improve { -product-firefox-accounts }
 dc-subheader-content = Allow { -product-firefox-accounts } to send technical and interaction data to { -brand-mozilla }.
 dc-opt-out-success = Opt out successful. { -product-firefox-accounts } won’t send technical or interaction data to { -brand-mozilla }.
 dc-opt-in-success = Thanks! Sharing this data helps us improve { -product-firefox-accounts }.
-dc-opt-in-out-error = Sorry, there was a problem changing your data collection preference.
 dc-learn-more = Learn more
 
 # DropDownAvatarMenu component
@@ -165,7 +168,6 @@ drop-down-menu-title = { -product-firefox-account } menu
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Signed in as</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Sign out
-drop-down-menu-sign-out-error = Sorry, there was a problem signing you out.
 
 ## Flow Container
 
@@ -235,9 +237,7 @@ nav-email-comm = Email Communications
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = There was a problem replacing your recovery codes.
 tfa-replace-code-success = New codes have been created. Save these one-time use codes in a safe place — you’ll need them to access your account if you don’t have your mobile device.
-tfa-replace-code-success-alert = Account recovery codes updated.
 tfa-replace-code-1-2 = Step 1 of 2
 tfa-replace-code-2-2 = Step 2 of 2
 
@@ -267,9 +267,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Could not initialize camera
 avatar-page-new-avatar =
     .alt = new profile picture
-avatar-page-file-upload-error-2 = There was a problem uploading your profile picture.
-avatar-page-delete-error-2 = There was a problem deleting your profile picture.
-avatar-page-image-too-large-error = The image file size is too large to be uploaded.
 
 ##
 
@@ -278,12 +275,7 @@ avatar-page-image-too-large-error = The image file size is too large to be uploa
 
 pw-change-header =
     .title = Change password
-pw-change-stay-safe = Stay safe — don’t reuse passwords. Your password:
-pw-change-least-8-chars = Must be at least 8 characters
-pw-change-not-contain-email = Must not be your email address
 pw-change-must-match = New password matches confirmation
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords = Must not match this <linkExternal>list of common passwords</linkExternal>
 pw-change-cancel-button = Cancel
 pw-change-save-button = Save
 pw-change-forgot-password-link = Forgot password?
@@ -293,7 +285,6 @@ pw-change-new-password =
     .label = Enter new password
 pw-change-confirm-password =
     .label = Confirm new password
-pw-change-success-alert = Password updated.
 
 ##
 
@@ -302,8 +293,6 @@ pw-change-success-alert = Password updated.
 
 pw-create-header =
     .title = Create password
-pw-create-success-alert = Password set.
-pw-create-error = Sorry, there was a problem setting your password.
 
 ##
 
@@ -341,8 +330,6 @@ display-name-input =
     .label = Enter display name
 submit-display-name = Save
 cancel-display-name = Cancel
-display-name-update-error = There was a problem updating your display name.
-display-name-success-alert = Display name updated.
 
 ##
 
@@ -359,12 +346,10 @@ recovery-key-page-title =
     .title = Recovery key
 recovery-key-step-1 = Step 1 of 2
 recovery-key-step-2 = Step 2 of 2
-recovery-key-success-alert = Recovery key created.
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Step 1 of 2
-add-secondary-email-error = There was a problem creating this email.
 add-secondary-email-page-title =
     .title = Secondary email
 add-secondary-email-enter-address =
@@ -375,7 +360,6 @@ add-secondary-email-save-button = Save
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Step 2 of 2
-verify-secondary-email-error = There was a problem sending the verification code.
 verify-secondary-email-page-title =
     .title = Secondary email
 verify-secondary-email-verification-code =
@@ -386,10 +370,6 @@ verify-secondary-email-verify-button = Verify
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Please enter the verification code that was sent to <strong>{ $email }</strong> within 5 minutes.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } successfully added.
 
 ##
 
@@ -407,7 +387,6 @@ tfa-button-cancel = Cancel
 tfa-button-finish = Finish
 tfa-incorrect-totp = Incorrect two-step authentication code
 tfa-cannot-retrieve-code = There was a problem retrieving your code.
-tfa-cannot-verify-code = There was a problem verifying your recovery code.
 tfa-incorrect-recovery-code = Incorrect recovery code
 tfa-enabled = Two-step authentication enabled
 tfa-scan-this-code = Scan this QR code using one of <linkExternal>these authentication apps</linkExternal>.
@@ -486,35 +465,19 @@ rk-not-set = Not set
 rk-action-create = Create
 rk-action-remove = Remove
 rk-cannot-refresh = Sorry, there was a problem refreshing the recovery key.
-rk-key-removed = Account recovery key removed.
 rk-cannot-remove-key = Your account recovery key could not be removed.
 rk-refresh-key = Refresh recovery key
 rk-content-explain = Restore your information when you forget your password.
 rk-content-reset-data = Why does resetting my password reset my data?
-rk-cannot-verify-session-2 = Sorry, there was a problem verifying your session.
 rk-remove-modal-heading = Remove recovery key?
 rk-remove-modal-content = In the event you reset your password, you won’t be able to use your recovery key to access your data. You can’t undo this action.
 rk-refresh-error = Sorry, there was a problem refreshing the recovery key.
-rk-remove-error = Your account recovery key could not be removed.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Secondary email
     .header = Secondary email
 se-cannot-refresh-email = Sorry, there was a problem refreshing that email.
-se-cannot-resend-code = Sorry, there was a problem re-sending the verification code.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } is now your primary email.
-se-set-primary-error = Sorry, there was a problem changing your primary email.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } successfully deleted.
-se-delete-email-error = Sorry, there was a problem deleting this email.
-se-verify-session = You’ll need to verify your current session to perform this action.
-se-verify-session-error = Sorry, there was a problem verifying your session.
 # Button to remove the secondary email
 se-remove-email =
     .title = Remove email
@@ -538,7 +501,6 @@ se-secondary-email-none = None
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Two-step authentication
-tfa-row-disabled = Two-step authentication disabled.
 tfa-row-enabled = Enabled
 tfa-row-not-set = Not set
 tfa-row-action-add = Add
@@ -547,11 +509,9 @@ tfa-row-button-refresh =
     .title = Refresh two-step authentication
 tfa-row-cannot-refresh = Sorry, there was a problem refreshing two-step authentication.
 tfa-row-content-explain = Prevent someone else from logging in by requiring a unique code only you have access to.
-tfa-row-cannot-verify-session-2 = Sorry, there was a problem verifying your session.
 tfa-row-disable-modal-heading = Disable two-step authentication?
 tfa-row-disable-modal-confirm = Disable
 tfa-row-disable-modal-explain = You won’t be able to undo this action. You also have the option of <linkExternal>replacing your recovery codes</linkExternal>.
-tfa-row-cannot-disable = Two-step authentication could not be disabled.
 tfa-row-change-modal-heading = Change recovery codes?
 tfa-row-change-modal-confirm = Change
 tfa-row-change-modal-explain = You won’t be able to undo this action.
