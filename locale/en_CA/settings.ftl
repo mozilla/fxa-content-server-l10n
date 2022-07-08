@@ -390,6 +390,10 @@ verify-secondary-email-verify-button = Verify
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = Please enter the verification code that was sent to <strong>{ $email }</strong> within 5 minutes.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } successfully added
 
 ##
 
@@ -407,6 +411,7 @@ tfa-button-cancel = Cancel
 tfa-button-finish = Finish
 tfa-incorrect-totp = Incorrect two-step authentication code
 tfa-cannot-retrieve-code = There was a problem retrieving your code.
+tfa-cannot-verify-code-2 = There was a problem verifying your recovery code
 tfa-incorrect-recovery-code = Incorrect recovery code
 tfa-enabled = Two-step authentication enabled
 tfa-scan-this-code = Scan this QR code using one of <linkExternal>these authentication apps</linkExternal>.
@@ -485,19 +490,35 @@ rk-not-set = Not set
 rk-action-create = Create
 rk-action-remove = Remove
 rk-cannot-refresh = Sorry, there was a problem refreshing the recovery key.
+rk-key-removed-2 = Account recovery key removed
 rk-cannot-remove-key = Your account recovery key could not be removed.
 rk-refresh-key = Refresh recovery key
 rk-content-explain = Restore your information when you forget your password.
 rk-content-reset-data = Why does resetting my password reset my data?
+rk-cannot-verify-session-3 = Sorry, there was a problem verifying your session
 rk-remove-modal-heading = Remove recovery key?
 rk-remove-modal-content = In the event you reset your password, you won’t be able to use your recovery key to access your data. You can’t undo this action.
 rk-refresh-error = Sorry, there was a problem refreshing the recovery key.
+rk-remove-error-2 = Your account recovery key could not be removed
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Secondary email
     .header = Secondary email
 se-cannot-refresh-email = Sorry, there was a problem refreshing that email.
+se-cannot-resend-code-2 = Sorry, there was a problem re-sending the verification code
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } is now your primary email
+se-set-primary-error-2 = Sorry, there was a problem changing your primary email
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } successfully deleted
+se-delete-email-error-2 = Sorry, there was a problem deleting this email
+se-verify-session-2 = You’ll need to verify your current session to perform this action
+se-verify-session-error-2 = Sorry, there was a problem verifying your session
 # Button to remove the secondary email
 se-remove-email =
     .title = Remove email
@@ -521,6 +542,7 @@ se-secondary-email-none = None
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Two-step authentication
+tfa-row-disabled-2 = Two-step authentication disabled
 tfa-row-enabled = Enabled
 tfa-row-not-set = Not set
 tfa-row-action-add = Add
@@ -529,9 +551,11 @@ tfa-row-button-refresh =
     .title = Refresh two-step authentication
 tfa-row-cannot-refresh = Sorry, there was a problem refreshing two-step authentication.
 tfa-row-content-explain = Prevent someone else from logging in by requiring a unique code only you have access to.
+tfa-row-cannot-verify-session-3 = Sorry, there was a problem verifying your session
 tfa-row-disable-modal-heading = Disable two-step authentication?
 tfa-row-disable-modal-confirm = Disable
 tfa-row-disable-modal-explain = You won’t be able to undo this action. You also have the option of <linkExternal>replacing your recovery codes</linkExternal>.
+tfa-row-cannot-disable-2 = Two-step authentication could not be disabled
 tfa-row-change-modal-heading = Change recovery codes?
 tfa-row-change-modal-confirm = Change
 tfa-row-change-modal-explain = You won’t be able to undo this action.
