@@ -170,7 +170,9 @@ cadReminderFirst-subject = サービスからのお知らせ: 同期設定を完
 cadReminderFirst-action = 別の端末を同期する
 cadReminderFirst-title = 端末を同期するためのお知らせです。
 cadReminderFirst-description = 同期するには 2 台以上の端末が必要です。別の端末を { -brand-firefox } で同期すると、ブックマークやパスワード、他の { -brand-firefox } のデータが { -brand-firefox } を使用するあなたのすべての端末で同じに保たれます。
+cadReminderSecond-subject-2 = 忘れずに同期の設定を完了しましょう
 cadReminderSecond-action = 別の端末を同期する
+cadReminderSecond-title-2 = データの同期を忘れずに！
 cadReminderSecond-description-sync = { -brand-firefox } をどこでも使えるように、ブックマーク、パスワード、開いたタブなどを同期しましょう。
 cadReminderSecond-description-plus = さらに、データは常に暗号化されています。データを閲覧できるのはあなたが承認した端末だけです。
 #  Variables:
@@ -414,7 +416,11 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceDateOnly } に { $in
 subscriptionFirstInvoiceDiscount-content-next-invoice = 次回の請求日: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = { $productName } のクレジットカードの有効期限が切れているか、近づいています
+subscriptionPaymentExpired-subject-1 = { $productName } のクレジットカードの有効期限が切れているか、まもなく切れます
+subscriptionPaymentExpired-title-1 = クレジットカードの有効期限が切れているか、近づいています
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = { $productName } の支払いに使用しているクレジットカードの有効期限が切れているか、近づいています。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } への支払いに失敗しました
@@ -458,6 +464,9 @@ subscriptionRenewalReminder-content-closing = 今後とも宜しくお願い致�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } チームより
+subscriptionsPaymentExpired-subject-1 = サブスクリプションに使用しているクレジットカードの有効期限が切れているか、近づいています
+subscriptionsPaymentExpired-title-1 = クレジットカードの有効期限が切れているか、近づいています
+subscriptionsPaymentExpired-content-1 = 以下のサブスクリプションの支払いに使用しているクレジットカードの有効期限が切れているか、近づいています。
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } のサブスクリプションの支払い情報を更新してください
 subscriptionsPaymentProviderCancelled-title = 申し訳ありませんが、お支払い方法に問題があります
 subscriptionsPaymentProviderCancelled-content-detected = 次のサブスクリプションの支払い方法に問題が見つかりました。
