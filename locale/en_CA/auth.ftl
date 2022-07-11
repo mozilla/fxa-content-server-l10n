@@ -415,6 +415,9 @@ subscriptionFirstInvoiceDiscount-content-charge = Charged { $invoiceTotal } on {
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Next Invoice: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Credit card for { $productName } expired or expiring soon
 subscriptionPaymentExpired-title-1 = Your credit card is expired or about to expire
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
