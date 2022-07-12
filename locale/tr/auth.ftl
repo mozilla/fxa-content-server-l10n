@@ -170,7 +170,11 @@ cadReminderFirst-subject = Hatırlatma: Sync kurulumunuzu tamamlayın
 cadReminderFirst-action = Başka bir cihazı eşitle
 cadReminderFirst-title = Cihazları eşitlemenizi hatırlatalım dedik.
 cadReminderFirst-description = Eşitleme için iki cihazınız olmalı. Başka bir cihazınızı { -brand-firefox }’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer { -brand-firefox } verilerinizi { -brand-firefox }’u kullandığınız her yere taşıyabilirsiniz.
+cadReminderSecond-subject-2 = Eşitleme kurulumunuzu tamamlayalım
 cadReminderSecond-action = Başka bir cihazı eşitle
+cadReminderSecond-title-2 = Eşitlemeyi unutmayın!
+cadReminderSecond-description-sync = Yer imlerinizi, parolalarınızı ve daha fazlasını { -brand-firefox } kullandığınız her yerde eşitleyin.
+cadReminderSecond-description-plus = Ayrıca verileriniz her zaman şifrelenir. Yalnızca siz ve onayladığınız cihazlar görebilir.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = { $productName } uygulamasına hoş geldiniz
@@ -404,13 +408,7 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceDateOnly } tarihinde
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Sonraki fatura: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = { $productName } için kredi kartının kullanım süresi yakında doluyor
-subscriptionPaymentExpired-title = Kredi kartınızın kullanım süresi dolmak üzere
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = { $productName } için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmak üzere.
+subscriptionPaymentExpired-title-1 = Kredi kartınızın kullanım süresi dolmuş veya dolmak üzere
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } ödemesi başarısız oldu
@@ -444,9 +442,8 @@ subscriptionRenewalReminder-content-closing = Saygılarımızla,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } ekibi
-subscriptionsPaymentExpired-subject = Abonelikleriniz için kredi kartının kullanım süresi yakında doluyor
-subscriptionsPaymentExpired-title = Kredi kartınızın kullanım süresi dolmak üzere
-subscriptionsPaymentExpired-content = Aşağıdaki abonelikler için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmak üzere.
+subscriptionsPaymentExpired-title-1 = Kredi kartınızın kullanım süresi dolmuş veya dolmak üzere
+subscriptionsPaymentExpired-content-1 = Aşağıdaki abonelikler için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmuş veya dolmak üzere.
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } abonelikleri için ödeme bilgilerinizi güncellemeniz gerekiyor
 subscriptionsPaymentProviderCancelled-title = Kusura bakmayın, ödeme yönteminizle ilgili bir sorun yaşıyoruz
 subscriptionsPaymentProviderCancelled-content-detected = Aşağıdaki abonelikler için ödeme yönteminizle ilgili bir sorun tespit ettik.

@@ -285,6 +285,7 @@ pw-change-header =
 pw-8-chars = En az 8 karakter olmalı
 pw-not-email = E-posta adresiniz olmamalı
 pw-change-must-match = Yeni parola eşleşme onayı
+pw-commonly-used = Yaygın olarak kullanılan bir parola değil
 # linkExternal is a link to a mozilla.org support article on password strength
 pw-tips = Güvende kalın: Aynı parolaları farklı yerlerde kullanmayın. <linkExternal>Güçlü parolalar oluşturmak</linkExternal> için daha fazla ipucu görün.
 pw-change-cancel-button = İptal
@@ -305,6 +306,8 @@ pw-change-success-alert-2 = Parola güncellendi
 
 pw-create-header =
     .title = Parola oluştur
+pw-create-success-alert-2 = Parola ayarlandı
+pw-create-error-2 = Üzgünüz, parolanız ayarlanırken bir sorun oluştu
 
 ##
 
@@ -317,6 +320,8 @@ delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
 delete-account-confirm-title-2 = { -product-firefox-account }nızı, internette güvende ve üretken kalmanızı sağlayan { -brand-mozilla } ürünlerine bağladınız:
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
+delete-account-chk-box-1-v2 =
+    .label = Tüm ücretli abonelikleriniz iptal edilecektir ({ product-pocket } hariç)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } ürünlerinde kayıtlı bilgilerinizi ve özellikleri kaybedebilirsiniz
 delete-account-chk-box-3 =
@@ -455,6 +460,7 @@ security-password =
 security-password-created-date = Oluşturma: { $date }
 security-not-set = Ayarlanmamış
 security-action-create = Oluştur
+security-set-password = Eşitleme yapmak ve belirli hesap güvenlik özelliklerini kullanmak için parolanızı belirleyin.
 
 ## Switch component
 
