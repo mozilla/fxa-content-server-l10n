@@ -363,6 +363,8 @@ coupon-error-expired = Girdiğiniz kodun süresi dolmuş.
 coupon-error-limit-reached = Girdiğiniz kodun kullanım limiti doldu.
 coupon-error-invalid = Girdiğiniz kod geçersiz.
 coupon-success = Planınız liste fiyatı üzerinden otomatik olarak yenilenecektir.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Planınız { $couponDurationDate } tarihinden sonra liste fiyatı üzerinden otomatik olarak yenilenecek.
 coupon-enter-code =
     .placeholder = Kodu yazın
 

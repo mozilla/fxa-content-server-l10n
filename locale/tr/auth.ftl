@@ -9,7 +9,7 @@
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-accounts = Firefox Hesapları
+-product-firefox-accounts = Firefox hesapları
 # "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 -product-firefox-account = Firefox hesabı
 # "Firefox Cloud" should be treated as a brand.
