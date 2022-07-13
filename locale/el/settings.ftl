@@ -346,6 +346,7 @@ pw-change-success-alert-2 = Ο κωδικός πρόσβασης ενημερώ�
 
 pw-create-header =
     .title = Δημιουργία κωδικού πρόσβασης
+pw-create-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
 
 ##
 
@@ -384,6 +385,7 @@ display-name-input =
 submit-display-name = Αποθήκευση
 cancel-display-name = Ακύρωση
 display-name-update-error-2 = Προέκυψε πρόβλημα κατά την ενημέρωση του εμφανιζόμενου ονόματός σας
+display-name-success-alert-2 = Το εμφανιζόμενο όνομα ενημερώθηκε
 
 ##
 
@@ -534,21 +536,25 @@ rk-not-set = Δεν έχει οριστεί
 rk-action-create = Δημιουργία
 rk-action-remove = Αφαίρεση
 rk-cannot-refresh = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης.
+rk-key-removed-2 = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε
 rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του κλειδιού ανάκτησης λογαριασμού.
 rk-refresh-key = Ανανέωση κλειδιού ανάκτησης
 rk-content-explain = Ανακτήστε τις πληροφορίες σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 rk-content-reset-data = Γιατί η επαναφορά του κωδικού πρόσβασης διαγράφει τα δεδομένα μου;
+rk-cannot-verify-session-3 = Δυστυχώς, προέκυψε πρόβλημα κατά την επαλήθευση της συνεδρίας σας
 rk-remove-modal-heading = Αφαίρεση κλειδιού ανάκτησης;
 rk-remove-modal-content =
     Σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας, δεν θα
     μπορείτε να χρησιμοποιήσετε το κλειδί ανάκτησης για πρόσβαση στα δεδομένα σας. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.
 rk-refresh-error = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης.
+rk-remove-error-2 = Δεν ήταν δυνατή η αφαίρεση του κλειδιού ανάκτησης του λογαριασμού σας
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Δευτερεύον email
     .header = Δευτερεύον email
 se-cannot-refresh-email = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του email.
+se-cannot-resend-code-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την επαναποστολή του κωδικού επαλήθευσης
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -605,6 +611,7 @@ tfa-row-disable-modal-confirm = Απενεργοποίηση
 tfa-row-disable-modal-explain =
     Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια. Έχετε επίσης
     την επιλογή <linkExternal>αντικατάστασης των κωδικών ανάκτησής σας</linkExternal>.
+tfa-row-cannot-disable-2 = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο παραγόντων
 tfa-row-change-modal-heading = Αλλαγή κωδικών ανάκτησης;
 tfa-row-change-modal-confirm = Αλλαγή
 tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια.
