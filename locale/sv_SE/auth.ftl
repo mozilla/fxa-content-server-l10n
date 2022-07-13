@@ -417,11 +417,11 @@ subscriptionFirstInvoiceDiscount-content-charge = Debiterade { $invoiceTotal } d
 subscriptionFirstInvoiceDiscount-content-next-invoice = Nästa faktura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Kreditkortet för { $productName } upphör snart
-subscriptionPaymentExpired-title = Ditt kreditkort håller på att gå ut
+subscriptionPaymentExpired-subject-1 = Kreditkortet för { $productName } har upphört eller upphör snart
+subscriptionPaymentExpired-title-1 = Ditt kreditkort har gått ut eller håller på att gå ut
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Kreditkortet du använder för att göra betalningar för { $productName } håller på att upphöra.
+subscriptionPaymentExpired-content-1 = Kreditkortet du använder för att göra betalningar för { $productName } har upphört eller håller på att upphöra.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Betalningen av { $productName } misslyckades
@@ -465,9 +465,9 @@ subscriptionRenewalReminder-content-closing = Vänliga hälsningar,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Teamet bakom { $productName }
-subscriptionsPaymentExpired-subject = Kreditkort för dina prenumerationer upphöra att gälla snart
-subscriptionsPaymentExpired-title = Ditt kreditkort håller på att gå ut
-subscriptionsPaymentExpired-content = Kreditkortet du använder för att betala för följande prenumerationer håller på att upphöra att gälla.
+subscriptionsPaymentExpired-subject-1 = Kreditkortet för dina prenumerationer har upphört eller upphör att gälla snart
+subscriptionsPaymentExpired-title-1 = Ditt kreditkort har gått ut eller håller på att gå ut
+subscriptionsPaymentExpired-content-1 = Kreditkortet du använder för att betala för följande prenumerationer har upphört eller håller på att upphöra att gälla.
 subscriptionsPaymentProviderCancelled-subject = Uppdatering av betalningsinformation krävs för prenumerationer på { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Tyvärr har vi problem med din betalning
 subscriptionsPaymentProviderCancelled-content-detected = Vi har upptäckt ett problem med din betalningsmetod för följande prenumerationer.
