@@ -21,7 +21,7 @@ jobs:
       - name: Check for unchanged IDs
         run: |
           diff=$( git diff --name-only ${{ github.event.pull_request.base.sha }} $GITHUB_SHA )
-          files+=$( echo $diff | grep '\.ftl$' )
+          files+="$( echo "$diff" | grep '\.ftl$' || true )"
           for file in $files; do
             file_old=$(printf $file | sed s/.ftl$/old.ftl/)
             file_new=$(printf $file | sed s/.ftl$/new.ftl/)
