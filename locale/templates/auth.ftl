@@ -189,10 +189,13 @@ view-invoice = <a data-l10n-name="invoiceLink">View your invoice</a>.
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = View Invoice: { $invoiceLink }
 
-cadReminderFirst-subject = Your Friendly Reminder: How To Complete Your Sync Setup
+cadReminderFirst-subject-1 = Reminder! Let’s sync { -brand-firefox }
 cadReminderFirst-action = Sync another device
-cadReminderFirst-title = Here’s your reminder to sync devices.
-cadReminderFirst-description = It takes two to sync. Syncing another device with { -brand-firefox } privately keeps your bookmarks, passwords and other { -brand-firefox } data the same everywhere you use { -brand-firefox }.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = It takes two to sync
+cadReminderFirst-description-1 = Take your tabs across all your devices. Get your bookmarks, passwords, and other data everywhere you use { -brand-firefox }. It’s like having magic in your { -brand-firefox } account!
+cadReminderFirst-description-2 = It only takes a sec to sync.
 
 cadReminderSecond-subject-2 = Don’t miss out! Let’s finish your sync setup
 cadReminderSecond-action = Sync another device
