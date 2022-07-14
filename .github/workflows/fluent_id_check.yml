@@ -1,0 +1,38 @@
+name: Check fluent files for changed strings without new ID
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # windows-latest | macos-latest
+    name: Test changed-files
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Get changed .ftl files
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v23.1
+        with:
+          files: |
+            *.ftl
+            **/*.ftl
+          files_ignore: |
+
+      - name: Check for unchanged IDs
+        run: |
+          for file in ${{ steps.changed-files-specific.outputs.all_changed_files }}; do
+            file_old=$(printf $file | sed s/.ftl$/old.ftl/)
+            file_new=$(printf $file | sed s/.ftl$/new.ftl/)
+            git show ${{ github.event.pull_request.base.sha }}:$file > $file_old
+            git show $GITHUB_SHA:$file > $file_new
+            errorArray+=( "$file_old" "$file_new" )
+          done
+          python ./.github/scripts/unchanged-ids/fluent.syntax/parse_messages_terms_to_dict.py ${errorArray[@]}
