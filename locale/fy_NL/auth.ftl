@@ -169,6 +169,8 @@ view-invoice-plaintext = Faktuer besjen: { $invoiceLink }
 cadReminderFirst-subject-1 = Oantinken! Litte wy { -brand-firefox } syngronisearje
 cadReminderFirst-action = Noch in apparaat syngronisearje
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Der binne twa nedich om te syngronisearjen
 cadReminderSecond-subject-2 = Mis it net! Litte wy jo syngronisaasjekonfiguraasje foltôgje
 cadReminderSecond-action = Noch in apparaat syngronisearje
 cadReminderSecond-title-2 = Ferjit net syngronisearjen!
