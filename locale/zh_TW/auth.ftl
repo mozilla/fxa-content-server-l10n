@@ -165,6 +165,7 @@ cadReminderFirst-action = 同步另一台裝置
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }：
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = 需要有兩台裝置才能同步
+cadReminderFirst-description-1 = 讓分頁在所有裝置間同步。隨時隨地在您使用的所有 { -brand-firefox } 之間同步書籤、密碼與其他資料，就像是讓您的 { -brand-firefox } 帳號擁有魔法一樣！
 cadReminderFirst-description-2 = 只需花幾秒鐘，即可進行同步
 cadReminderSecond-subject-2 = 別錯過！一起完成同步功能設定吧！
 cadReminderSecond-action = 同步另一台裝置
