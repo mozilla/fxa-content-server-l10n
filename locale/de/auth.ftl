@@ -166,10 +166,11 @@ view-invoice = <a data-l10n-name="invoiceLink">Ihre Rechnung anzeigen</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Rechnung anzeigen: { $invoiceLink }
-cadReminderFirst-subject = Freundliche Erinnerung: So schließen Sie Ihre Sync-Einrichtung ab
+cadReminderFirst-subject-1 = Erinnerung! Synchronisieren Sie Ihren { -brand-firefox }
 cadReminderFirst-action = Weiteres Gerät synchronisieren
-cadReminderFirst-title = Erinnerung: Synchronisieren Sie Ihre Geräte.
-cadReminderFirst-description = Die Synchronisierung braucht zwei Geräte. Durch die private Synchronisierung eines anderen Geräts mit { -brand-firefox } bleiben Ihre Lesezeichen, Passwörter und anderen { -brand-firefox }-Daten überall dort, wo Sie { -brand-firefox } verwenden, gleich.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Zur Synchronisation gehören immer zwei
 cadReminderSecond-subject-2 = Nicht vergessen! Schließen Sie Ihre Sync-Einrichtung ab.
 cadReminderSecond-action = Weiteres Gerät synchronisieren
 cadReminderSecond-title-2 = Synchronisierung nicht vergessen!
