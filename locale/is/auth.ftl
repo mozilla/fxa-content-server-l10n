@@ -166,10 +166,13 @@ view-invoice = <a data-l10n-name="invoiceLink">Skoðaðu reikninginn þinn</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Skoða reikning: { $invoiceLink }
-cadReminderFirst-subject = Vinsamleg áminning: Hvernig á að ljúka uppsetningu þinni á samstillingu
+cadReminderFirst-subject-1 = Áminning! Við ættum að samstilla { -brand-firefox }
 cadReminderFirst-action = Samstilla annað tæki
-cadReminderFirst-title = Hér er áminning til þín um að samstilla tæki.
-cadReminderFirst-description = Það þarf tvo til að samstilla. Með því að samstilla annað tæki við { -brand-firefox } heldurðu á öruggan máta bókamerkjunum þínum, lykilorðum og öðrum { -brand-firefox } gögnum eins alls staðar þar sem þú notar { -brand-firefox }.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Það þarf tvennt til að samstilla
+cadReminderFirst-description-1 = Taktu með þér flipana á öllum tækjunum þínum. Hafðu bókamerkin þín, lykilorð og önnur gögn hvar sem þú notar { -brand-firefox }. { -brand-firefox } reikningurinn þinn getur gert galdra!
+cadReminderFirst-description-2 = Það tekur aðeins augnablik að samstilla.
 cadReminderSecond-subject-2 = Ekki missa af! Ljúkum við uppsetningu samstillingar hjá þér
 cadReminderSecond-action = Samstilla annað tæki
 cadReminderSecond-title-2 = Ekki gleyma að samstilla!
