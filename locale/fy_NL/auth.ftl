@@ -166,10 +166,9 @@ view-invoice = <a data-l10n-name="invoiceLink">Jo faktuer besjen</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Faktuer besjen: { $invoiceLink }
-cadReminderFirst-subject = In freonlik omtinken: ynstellen fan jo Sync foltôgje
+cadReminderFirst-subject-1 = Oantinken! Litte wy { -brand-firefox } syngronisearje
 cadReminderFirst-action = Noch in apparaat syngronisearje
-cadReminderFirst-title = Dit is jo omtinken om apparaten te syngronisearjen.
-cadReminderFirst-description = Der binne der twa nedich om te syngronisearjen. As jo in oar apparaat privee mei { -brand-firefox } syngronisearje, bliuwe jo blêdwizers, wachtwurden en oare { -brand-firefox }-gegevens oeral wêr’t jo { -brand-firefox } brûke itselde.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-subject-2 = Mis it net! Litte wy jo syngronisaasjekonfiguraasje foltôgje
 cadReminderSecond-action = Noch in apparaat syngronisearje
 cadReminderSecond-title-2 = Ferjit net syngronisearjen!
