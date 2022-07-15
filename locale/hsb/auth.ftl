@@ -166,10 +166,9 @@ view-invoice = <a data-l10n-name="invoiceLink">Wašu zličbowanku pokazać</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Zličbowanku pokazać: { $invoiceLink }
-cadReminderFirst-subject = Waše přećelne dopomnjeće: Kak móžeće konfiguraciju swojeje synchronizacije dokónčić
+cadReminderFirst-subject-1 = Dopomnjeće! Synchronizujće { -brand-firefox }
 cadReminderFirst-action = Druhi grat synchronizować
-cadReminderFirst-title = Tu je waše dopomnjeće na synchronizowanje gratow.
-cadReminderFirst-description = Za synchronizowanje stej dwaj trěbnej. Priwatna synchronizacija druheho grata z{ -brand-firefox } waše zapołožki, hesła a druhe daty { -brand-firefox } jenake dźerži, hdźežkuli { -brand-firefox } wužiwaće.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-subject-2 = Njewuwostajejće ničo! Dajće nam konfiguraciju wašeje snychronizacije dokónčić
 cadReminderSecond-action = Druhi grat synchronizować
 cadReminderSecond-title-2 = Njezabudźće synchronizować!
