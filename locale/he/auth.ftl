@@ -25,6 +25,7 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = מנסה להתחבר ל־{ -product-firefox-accounts }?
 session-verify-send-push-body = לחיצה כאן תאמת את זהותך
 
 ## Email content
@@ -169,10 +170,11 @@ view-invoice = <a data-l10n-name="invoiceLink">הצגת החשבונית שלך<
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = הצגת חשבונית: { $invoiceLink }
-cadReminderFirst-subject = התזכורת הידידותית שלך: איך להשלים את הגדרת ה־Sync שלך
+cadReminderFirst-subject-1 = תזכורת! בואו נסנכרן את { -brand-firefox }
 cadReminderFirst-action = סנכרון מכשיר נוסף
-cadReminderFirst-title = להלן התזכורת שלך לסנכרון מכשירים.
-cadReminderFirst-description = צריך שניים לסינכרון. סנכרון של מכשיר נוסף עם { -brand-firefox } שומר באופן פרטי שהסימניות, הססמאות ושאר הנתונים האחרים שלך ב־{ -brand-firefox } ישארו זהים בכל מקום בו יוצא לך להשתמש ב־{ -brand-firefox }.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+cadReminderFirst-description-2 = לוקח רק שנייה לסנכרן.
+cadReminderSecond-subject-2 = אל תפספסו! בואו נסיים את הגדרת הסנכרון שלך
 cadReminderSecond-action = סנכרון מכשיר נוסף
 cadReminderSecond-title-2 = לא לשכוח לסנכרן!
 cadReminderSecond-description-sync = סנכרון הסימניות, הססמאות, לשוניות פתוחות ועוד — בכל מקום בו יש לך את { -brand-firefox }.
