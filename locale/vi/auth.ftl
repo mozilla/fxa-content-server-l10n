@@ -166,10 +166,13 @@ view-invoice = <a data-l10n-name="invoiceLink">Xem hóa đơn của bạn</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Xem hóa đơn: { $invoiceLink }
-cadReminderFirst-subject = Lời nhắc thân thiện cho bạn: Cách hoàn tất thiết lập đồng bộ hóa của bạn
+cadReminderFirst-subject-1 = Lời nhắc nhở! Hãy đồng bộ hóa { -brand-firefox }
 cadReminderFirst-action = Đồng bộ hóa thiết bị khác
-cadReminderFirst-title = Đây là lời nhắc cho bạn để đồng bộ hóa thiết bị.
-cadReminderFirst-description = Cần hai thiết bị để đồng bộ hóa. Đồng bộ hóa thiết bị khác với { -brand-firefox } giữ cho dấu trang, mật khẩu và dữ liệu { -brand-firefox } khác của bạn giống nhau ở mọi nơi bạn sử dụng { -brand-firefox }.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Hai thiết bị để đồng bộ hóa
+cadReminderFirst-description-1 = Đưa các thẻ của bạn trên tất cả các thiết bị của bạn. Nhận dấu trang, mật khẩu và dữ liệu khác của bạn ở mọi nơi bạn sử dụng { -brand-firefox }. Nó giống như có phép thuật trong tài khoản { -brand-firefox } của bạn!
+cadReminderFirst-description-2 = Chỉ mất một lúc để đồng bộ hóa.
 cadReminderSecond-subject-2 = Đừng bỏ lỡ! Hãy hoàn tất thiết lập đồng bộ hóa của bạn
 cadReminderSecond-action = Đồng bộ hóa thiết bị khác
 cadReminderSecond-title-2 = Đừng quên đồng bộ hóa!
