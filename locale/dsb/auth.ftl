@@ -172,6 +172,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = K synchronizaciji pśecej dwa šłušatej
 cadReminderFirst-description-1 = Wužywajśo swóje rejtariki na wšych wašych rědach. Wzejśo swóje cytańske znamjenja, gronidła a druge daty wšuźi sobu, źož { -brand-firefox } wužywaśo. Jo, ako by była magija we wašom konśe { -brand-firefox }!
+cadReminderFirst-description-2 = Synchronizacija jano jadnu sekundu trajo.
 cadReminderSecond-subject-2 = Njewuwostajśo nic! Dajśo nam konfiguraciju wašeje snychronizacije dokóńcyś
 cadReminderSecond-action = Drugi rěd synchronizěrowaś
 cadReminderSecond-title-2 = Njezabydniśo synchronizěrowaś!
