@@ -169,6 +169,10 @@ view-invoice-plaintext = Zličbowanku pokazać: { $invoiceLink }
 cadReminderFirst-subject-1 = Dopomnjeće! Synchronizujće { -brand-firefox }
 cadReminderFirst-action = Druhi grat synchronizować
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = K synchronizaciji přeco dwaj šłušetej
+cadReminderFirst-description-1 = Wužiwajće swoje rajtarki na wšěch wašich gratach. Wzmiće swoje zapołožki, hesła a druhe daty wšudźe sobu, hdźež { -brand-firefox } wužiwaće. Je, kaž by magija we wašim konće { -brand-firefox } była!
+cadReminderFirst-description-2 = Synchronizacija jenož jednu sekundu traje.
 cadReminderSecond-subject-2 = Njewuwostajejće ničo! Dajće nam konfiguraciju wašeje snychronizacije dokónčić
 cadReminderSecond-action = Druhi grat synchronizować
 cadReminderSecond-title-2 = Njezabudźće synchronizować!
