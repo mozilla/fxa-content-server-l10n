@@ -166,10 +166,12 @@ view-invoice = <a data-l10n-name="invoiceLink">Wašu zliceńku pokazaś</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Zliceńku pokazaś: { $invoiceLink }
-cadReminderFirst-subject = Wašo pśijaśelne dopomnjeśe: Kak móžośo konfiguraciju swójeje synchronizacije dokóńcyś
+cadReminderFirst-subject-1 = Dopomnjeśe! Synchronizěrujśo { -brand-firefox }
 cadReminderFirst-action = Drugi rěd synchronizěrowaś
-cadReminderFirst-title = How jo wašo dopomnjeśe na sychronizoěrwanje rědow.
-cadReminderFirst-description = Za synchronizěrowanje stej dwa trěbnej. Priwatna synchronizacija drugego rěda z { -brand-firefox } waše cytańske znamjenja, gronidła a druge daty { -brand-firefox } jadnake źaržy, źožkuli { -brand-firefox } wužywaśo.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = K synchronizaciji pśecej dwa šłušatej
+cadReminderFirst-description-1 = Wužywajśo swóje rejtariki na wšych wašych rědach. Wzejśo swóje cytańske znamjenja, gronidła a druge daty wšuźi sobu, źož { -brand-firefox } wužywaśo. Jo, ako by była magija we wašom konśe { -brand-firefox }!
 cadReminderSecond-subject-2 = Njewuwostajśo nic! Dajśo nam konfiguraciju wašeje snychronizacije dokóńcyś
 cadReminderSecond-action = Drugi rěd synchronizěrowaś
 cadReminderSecond-title-2 = Njezabydniśo synchronizěrowaś!
