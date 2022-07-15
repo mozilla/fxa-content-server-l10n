@@ -171,6 +171,8 @@ cadReminderFirst-action = Nog een apparaat synchroniseren
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Er zijn er twee nodig om te synchroniseren
+cadReminderFirst-description-1 = Neem uw tabbladen mee naar al uw apparaten. Ontvang uw bladwijzers, wachtwoorden en andere gegevens overal waar u { -brand-firefox } gebruikt. Het is alsof u magie in uw { -brand-firefox }-account hebt!
+cadReminderFirst-description-2 = Het duurt maar even om te synchroniseren.
 cadReminderSecond-subject-2 = Mis het niet! Laten we uw synchronisatieconfiguratie voltooien
 cadReminderSecond-action = Nog een apparaat synchroniseren
 cadReminderSecond-title-2 = Vergeet niet te synchroniseren!
