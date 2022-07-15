@@ -160,10 +160,12 @@ view-invoice = <a data-l10n-name="invoiceLink">檢視您的請款單</a>。
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = 檢視請款單：{ $invoiceLink }
-cadReminderFirst-subject = 善意提醒：如何完成 Sync 設定
+cadReminderFirst-subject-1 = 提醒：讓我們同步 { -brand-firefox }
 cadReminderFirst-action = 同步另一台裝置
-cadReminderFirst-title = 提醒您要記得同步裝置。
-cadReminderFirst-description = 要有兩台裝置連結起來才算「同步」。可透過 Sync 安全地在您的每一台 { -brand-firefox } 裝置間同步書籤、密碼與其他資料。
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }：
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = 需要有兩台裝置才能同步
+cadReminderFirst-description-2 = 只需花幾秒鐘，即可進行同步
 cadReminderSecond-subject-2 = 別錯過！一起完成同步功能設定吧！
 cadReminderSecond-action = 同步另一台裝置
 cadReminderSecond-title-2 = 別忘了同步功能！
