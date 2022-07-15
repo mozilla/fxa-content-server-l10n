@@ -166,10 +166,10 @@ view-invoice = <a data-l10n-name="invoiceLink">Vide tu factura</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Vide factura: { $invoiceLink }
-cadReminderFirst-subject = Tu memento amical: como completar tu installation de Sync
 cadReminderFirst-action = Synchronisar un altere apparato
-cadReminderFirst-title = Ecce le memento pro synchronisar tu apparatos.
-cadReminderFirst-description = Duo es necessari pro synchronisar. Synchronisar reservatemente un altere apparato con { -brand-firefox } mantene tu marcapaginas, contrasignos e altere { -brand-firefox } datos le mesme ubique tu usa { -brand-firefox }.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+cadReminderFirst-description-1 = Mantene tu schedas in tote tu apparatos. Porta tu marcapaginas, contrasignos e altere datos ubicunque tu usa { -brand-firefox }. Como per magia in tu conto { -brand-firefox }!
+cadReminderFirst-description-2 = Basta solo un secunda pro synchronisar.
 cadReminderSecond-subject-2 = Non perde lo! Que nos fini le installation de tu synchronisation
 cadReminderSecond-action = Synchronisar un altere apparato
 cadReminderSecond-title-2 = Non oblidar de synchronisar!
