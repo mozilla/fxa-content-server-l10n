@@ -246,10 +246,13 @@ view-invoice = <a data-l10n-name="invoiceLink">Wyświetl fakturę</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Wyświetl fakturę: { $invoiceLink }
-cadReminderFirst-subject = Przyjacielskie przypomnienie: jak dokończyć konfigurację synchronizacji
+cadReminderFirst-subject-1 = Przypomnienie! Zsynchronizujmy { -brand-firefox(case: "acc") }
 cadReminderFirst-action = Synchronizuj inne urządzenie
-cadReminderFirst-title = Przypomnienie o synchronizacji urządzeń.
-cadReminderFirst-description = Do synchronizacji trzeba dwojga. Prywatna synchronizacja innego urządzenia z { -brand-firefox(case: "ins") } spowoduje, że zakładki, hasła i inne dane { -brand-firefox(case: "gen") } będą takie same wszędzie, gdzie go używasz.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Do synchronizacji trzeba dwojga
+cadReminderFirst-description-1 = Korzystaj ze swoich kart na wszystkich urządzeniach. Miej swoje zakładki, hasła i inne dane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }. To jak magia na Twoim koncie { -brand-firefox(case: "gen") }!
+cadReminderFirst-description-2 = Synchronizacja zajmie tylko chwilkę.
 cadReminderSecond-subject-2 = Nie przegap! Dokończmy konfigurację synchronizacji
 cadReminderSecond-action = Synchronizuj inne urządzenie
 cadReminderSecond-title-2 = Nie zapomnij zsynchronizować!
