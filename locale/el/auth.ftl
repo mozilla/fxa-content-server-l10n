@@ -488,6 +488,7 @@ subscriptionRenewalReminder-content-closing = Με εκτίμηση,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Η ομάδα του { $productName }
+subscriptionsPaymentExpired-content-1 = Η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές των ακόλουθων συνδρομών έχει ή πρόκειται να λήξει.
 subscriptionsPaymentProviderCancelled-subject = Απαιτείται ενημέρωση των στοιχείων πληρωμής για τις συνδρομές { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Δυστυχώς, αντιμετωπίζουμε πρόβλημα με τη μέθοδο πληρωμής σας
 subscriptionsPaymentProviderCancelled-content-detected = Εντοπίσαμε πρόβλημα με τη μέθοδο πληρωμής σας για τις ακόλουθες συνδρομές.
