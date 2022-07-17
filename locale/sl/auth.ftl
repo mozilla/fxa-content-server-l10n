@@ -192,10 +192,12 @@ view-invoice = <a data-l10n-name="invoiceLink">Prikaži račun</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Prikaži račun: { $invoiceLink }
-cadReminderFirst-subject = Prijazen opomnik: Kako dokončati nastavitev sinhronizacije
+cadReminderFirst-subject-1 = Opomnik! Sinhronizirajmo { -brand-firefox }
 cadReminderFirst-action = Sinhroniziraj drugo napravo
-cadReminderFirst-title = Pošiljamo vam opomnik za sinhronizacijo naprav.
-cadReminderFirst-description = Za sinhronizacijo sta potrebna dva. Sinhronizacija druge naprave s { -brand-firefox(sklon: "orodnik") } vam omogoča zasebno usklajevanje zaznamkov, gesel in drugih podatkov, kjerkoli uporabljate { -brand-firefox }.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Za sinhronizacijo sta potrebna dva
+cadReminderFirst-description-2 = Sinhronizacija vzame le sekundo.
 cadReminderSecond-subject-2 = Ne zamudite dogajanja! Končajmo nastavitev sinhronizacije
 cadReminderSecond-action = Sinhroniziraj drugo napravo
 cadReminderSecond-title-2 = Ne pozabite na sinhronizacijo!
