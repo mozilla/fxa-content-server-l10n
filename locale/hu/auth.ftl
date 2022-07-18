@@ -166,10 +166,13 @@ view-invoice = <a data-l10n-name="invoiceLink">Díjbekérő megtekintése</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Díjbekérő megtekintése: { $invoiceLink }
-cadReminderFirst-subject = Barátságos emlékeztető: Hogyan fejezze be a Sync beállítását
+cadReminderFirst-subject-1 = Emlékeztető! Szinkronizálja a { -brand-firefox }ot
 cadReminderFirst-action = Másik eszköz szinkronizálása
-cadReminderFirst-title = Itt az emlékeztető, hogy szinkronizálja az eszközeit.
-cadReminderFirst-description = Két félre van szükség a szinkronizáláshoz. Egy másik { -brand-firefox }ot használó eszközzel való szinkronizálás biztonságban tartja a könyvjelzőket, jelszavakat és egyéb { -brand-firefox }-adatokat mindenütt, ahol a { -brand-firefox }ot használja.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = A szinkronizáláshoz két fél szükséges
+cadReminderFirst-description-1 = Vigye át lapjait az eszközei között. Mindenhol elérheti könyvjelzőit, jelszavait és egyéb adatait, ahol a { -brand-firefox }ot használja. Mintha varázslat lenne a { -brand-firefox }-fiókjában.
+cadReminderFirst-description-2 = A szinkronizálás csak egy pillanat.
 cadReminderSecond-subject-2 = Ne maradjon ki! Fejezze be a szinkronizálás beállítását.
 cadReminderSecond-action = Másik eszköz szinkronizálása
 cadReminderSecond-title-2 = Ne felejtsen el szinkronizálni!
