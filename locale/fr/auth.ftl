@@ -169,6 +169,9 @@ view-invoice-plaintext = Voir la facture : { $invoiceLink }
 cadReminderFirst-subject-1 = Rappel ! Procédons à la synchronisation de { -brand-firefox }
 cadReminderFirst-action = Synchroniser un autre appareil
 cadReminderFirst-action-plaintext = { cadReminderFirst-action } :
+cadReminderFirst-description-1 = Emportez vos onglets sur tous vos appareils. Retrouvez vos marque-pages, vos mots de passe et vos autres données partout où vous utilisez { -brand-firefox }. C’est la magie de votre compte { -brand-firefox } !
+cadReminderFirst-description-2 = Synchroniser ne prend qu’une seconde.
+cadReminderSecond-subject-2 = Ne passez pas à côté ! Terminons la configuration de votre synchronisation
 cadReminderSecond-action = Synchroniser un autre appareil
 cadReminderSecond-title-2 = N’oubliez pas de synchroniser !
 cadReminderSecond-description-sync = Synchronisez vos marque-pages, mots de passe, onglets ouverts et plus encore — partout où vous utilisez { -brand-firefox }.
@@ -415,6 +418,13 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceTotal } facturés le
 subscriptionFirstInvoiceDiscount-content-next-invoice = Prochaine facture : { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = La carte bancaire utilisée pour { $productName } a expiré ou expire bientôt
+subscriptionPaymentExpired-title-1 = Votre carte bancaire est arrivée à expiration ou est sur le point d’y être
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = La carte bancaire que vous utilisez pour effectuer des paiements pour { $productName } est arrivée à expiration ou est sur le point d’y être.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Le paiement pour { $productName } a échoué
 subscriptionPaymentFailed-title = Toutes nos excuses, nous avons rencontré des problèmes avec votre paiement
 # Variables:
@@ -456,6 +466,9 @@ subscriptionRenewalReminder-content-closing = Cordialement,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = L’équipe { $productName }
+subscriptionsPaymentExpired-subject-1 = La carte bancaire pour vos abonnements a expiré ou expire bientôt
+subscriptionsPaymentExpired-title-1 = Votre carte bancaire est arrivée à expiration ou est sur le point d’y être
+subscriptionsPaymentExpired-content-1 = La carte bancaire que vous utilisez pour régler les abonnements suivants est arrivée à expiration ou est sur le point d’y être.
 subscriptionsPaymentProviderCancelled-subject = Mise à jour des informations de paiement requise pour les abonnements { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Toutes nos excuses, nous avons rencontré des problèmes avec votre mode de paiement
 subscriptionsPaymentProviderCancelled-content-detected = Nous avons rencontré un problème avec votre mode de paiement pour les abonnements suivants.
