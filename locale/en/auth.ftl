@@ -53,7 +53,7 @@ subplat-explainer-specific = You’re receiving this email because { $email } ha
 subplat-explainer-reminder-form = You’re receiving this email because { $email } has a { -product-firefox-account }.
 subplat-explainer-multiple = You’re receiving this email because { $email } has a { -product-firefox-account } and you have subscribed to multiple products.
 subplat-manage-account = Manage your { -product-firefox-account } settings by visiting your <a data-l10n-name="subplat-account-page">account page</a>.
-subplat-terms-policy = Terms and cancellation policy
+subplat-terms-policy = Terms and cancellation policy TEST
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancel subscription
 subplat-cancel-plaintext = { subplat-cancel }:
