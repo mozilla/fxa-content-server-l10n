@@ -166,10 +166,13 @@ view-invoice = <a data-l10n-name="invoiceLink">Gweld eich anfoneb</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Gweld yr Anfoneb: { $invoiceLink }
-cadReminderFirst-subject = Eich Nodyn Atgoffa Cyfeillgar: Sut I Gwblhau Gosod Sync
+cadReminderFirst-subject-1 = Beth am gydweddu { -brand-firefox }?
 cadReminderFirst-action = Cydweddu dyfais arall
-cadReminderFirst-title = Dyma eich atgoffa i gydweddu dyfeisiau.
-cadReminderFirst-description = Mae'n cymryd dau i gydweddu. Mae cydweddu dyfais arall â { -brand-firefox } yn breifat yn cadw'ch nodau tudalen, cyfrineiriau a data { -brand-firefox }arall yr un peth ym mhobman rydych chi'n defnyddio { -brand-firefox }.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Mae'n cymryd dau i gydweddu
+cadReminderFirst-description-1 = Ewch â'ch tabiau ar draws eich holl ddyfeisiau. Cael eich nodau tudalen, cyfrineiriau, a data arall ym mhob man rydych yn defnyddio { -brand-firefox }. Mae'n rhan o hudoliaeth eich cyfrif { -brand-firefox }!
+cadReminderFirst-description-2 = Dim ond eiliad y mae'n ei gymryd i gydweddu.
 cadReminderSecond-subject-2 = Peidiwch â cholli allan! Gadewch i ni orffen eich gosodiad cydweddu
 cadReminderSecond-action = Cydweddu dyfais arall
 cadReminderSecond-title-2 = Peidiwch ag anghofio cydweddu!
