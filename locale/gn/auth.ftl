@@ -166,10 +166,11 @@ view-invoice = <a data-l10n-name="invoiceLink">Ehecha ne ñemuhague</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Ehecha ñemuhague: { $invoiceLink }
-cadReminderFirst-subject = Ne mandu’arã angirũva: mmba’éicha emoĩmbáta Sync ñemboheko
 cadReminderFirst-action = Embojuehe ambue mba’e’oka
-cadReminderFirst-title = Ápe oĩ mandu’arã embojuehe hag̃ua mba’e’oka.
-cadReminderFirst-description = Eikotevẽ mokõi embojuehe hag̃ua. Embojuehe ambue mba’e’oka { -brand-firefox } ndive tekoñemíme oreko nde rechaukaha, ñe’ẽñemi ha ambue mba’ekuaarã { -brand-firefox } peteĩcha tenda eipuruhápe { -brand-firefox }.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Tekotevẽ mokõi ojuehe hag̃ua
+cadReminderFirst-description-2 = Mbojuehe ipya’eterei.
 cadReminderSecond-subject-2 = ¡Ani rejavy! Ñambohekopántema ne ñembojuehe
 cadReminderSecond-action = Embojuehe ambue mba’e’oka
 cadReminderSecond-title-2 = ¡Ani nderesarái ñembojuehégui!
