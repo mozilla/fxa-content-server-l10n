@@ -33,6 +33,8 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="�
 body-devices-image = <img data-l10n-name="devices-image" alt="장치">
 fxa-privacy-url = { -brand-mozilla } 개인정보처리방침
 fxa-service-url = { -product-firefox-cloud } 이용약관
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } 로고">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } 로고">
 subplat-automated-email = 자동으로 발송된 이메일입니다; 잘못 온 경우, 별도의 조치가 필요하지 않습니다.
 subplat-privacy-notice = 개인 정보 보호 정책
 subplat-privacy-plaintext = 개인정보처리방침:
@@ -130,17 +132,40 @@ subscriptionUpdatePayment-plaintext = 서비스 중단을 방지하려면 가능
 #  $supportUrl (String) - Link to https://accounts.firefox.com/support
 support-message = 자세한 내용은 { $supportUrl } 페이지를 참조하십시오.
 # Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaOS } { $uaOSVersion }의 { $uaBrowser }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaOS }의 { $uaBrowser }
+# Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP 주소: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (추정)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (추정)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (추정)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (추정)
 view-invoice = <a data-l10n-name="invoiceLink">청구서를 확인</a>하세요.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = 청구서 보기: { $invoiceLink }
-cadReminderFirst-subject = 알림: 동기화 설정을 완료하는 방법
 cadReminderFirst-action = 다른 기기 동기화
-cadReminderFirst-title = 기기 동기화 알림입니다.
-cadReminderFirst-description = 동기화하려면 두가지가 필요합니다. { -brand-firefox }와 다른 기기를 동기화하면 비공개로 개인 북마크, 비밀번호 및 기타 { -brand-firefox } 데이터가 { -brand-firefox }를 사용하는 모든 곳에서 동일하게 유지됩니다.
+cadReminderSecond-subject-2 = 잊지 마세요! 동기화 설정을 완료해야 합니다.
 cadReminderSecond-action = 다른 기기 동기화
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -148,6 +173,7 @@ downloadSubscription-subject = { $productName }에 오신 것을 환영합니다
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName }에 오신 것을 환영합니다.
+downloadSubscription-link-action-2 = 시작하기
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 복구 코드가 얼마 남지 않았습니다
 codes-reminder-description = 복구 코드가 부족한 것을 확인했습니다. 계정이 잠겨 사용 불가능한 상황을 피하기 위해 새 코드 생성을 권장합니다.
@@ -258,6 +284,9 @@ subscriptionAccountDeletion-content-cancelled = 최근에 { -product-firefox-acc
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = { $productName }에 오신 것을 환영합니다: 비밀번호를 설정해주세요.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = { $productName }에 오신 것을 환영합니다.
 subscriptionAccountFinishSetup-content-processing = 결제가 진행중이며 최대 4 영업일이 소요될 수 있습니다. 구독은 구독을 취소하지 않는 한 매 결제 시기마다 자동으로 갱신됩니다.
 subscriptionAccountFinishSetup-content-create-2 = 다음으로 새로운 구독을 사용하기 위해 { -product-firefox-account }의 비밀번호를 생성해야 합니다.
 subscriptionAccountFinishSetup-action-2 = 시작하기
@@ -266,10 +295,12 @@ subscriptionAccountReminderFirst-title = 아직 구독에 접근할 수 없습�
 subscriptionAccountReminderFirst-content-info = 며칠 전에 { -product-firefox-account }을 만들었지만 아직 승인하지 않았습니다. 새로운 구독을 사용하기 위해 계정 생성을 마치시기 바랍니다.
 subscriptionAccountReminderFirst-content-select = 새로운 비밀번호 생성을 위해 "비밀번호 생성"을 클릭하고 계정 승인을 완료하세요.
 subscriptionAccountReminderFirst-action = 비밀번호 생성
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-title = { -brand-firefox }에 오신 것을 환영합니다!
 subscriptionAccountReminderSecond-content-info = 며칠 전에 { -product-firefox-account }을 만들었지만 아직 승인하지 않았습니다. 새로운 구독을 사용하기 위해 계정 생성을 마치시기 바랍니다.
 subscriptionAccountReminderSecond-content-select = 새로운 비밀번호 생성을 위해 "비밀번호 생성"을 클릭하고 계정 승인을 완료하세요.
 subscriptionAccountReminderSecond-action = 비밀번호 생성
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = { $productName } 구독이 취소됨
@@ -304,13 +335,6 @@ subscriptionFirstInvoiceDiscount-content-install-2 = { $productName }를 사용�
 subscriptionFirstInvoiceDiscount-content-invoice-number = 청구서 번호: <b>{ $invoiceNumber }</b>
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = { $productName } 신용 카드 만료 예정
-subscriptionPaymentExpired-title = 신용 카드 만료 예정
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = { $productName } 결제에 사용하는 신용카드가 곧 만료됩니다.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 결제 실패
 subscriptionPaymentFailed-title = 죄송합니다, 결제에 문제가 있습니다.
 # Variables:
@@ -330,9 +354,6 @@ subscriptionReactivation-subject = { $productName } 구독 재활성화됨
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = { $productName } 구독을 다시 활성화해 주셔서 감사합니다!
-subscriptionsPaymentExpired-subject = 결제용 신용 카드 만료 예정
-subscriptionsPaymentExpired-title = 신용 카드 만료 예정
-subscriptionsPaymentExpired-content = 다음 구독에 대한 결제에 사용 중인 신용 카드가 곧 만료됩니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } 결제 수신됨
@@ -341,6 +362,7 @@ subscriptionUpgrade-auto-renew = 취소를 선택하지 않는 한 구독은 각
 unblockCode-subject = 계정 인증 코드
 unblockCode-title = 로그인하신 게 맞나요?
 unblockCode-prompt = 그렇다면 인증 코드를 사용하세요:
+unblockCode-report = 그렇지 않은 경우, 침입자를 차단할 수 있도록 <a data-l10n-name="reportSignInLink">신고</a>바랍니다.
 unblockCode-report-plaintext = 그렇지 않다면 침입자를 방어할 수 있도록 우리에게 알려 주세요.
 verificationReminderFirst-subject = 알림: 계정 생성 완료
 verificationReminderFirst-title = { -brand-firefox }의 가족이 되신 것을 환영합니다
@@ -366,6 +388,9 @@ verifyLogin-description = 추가 보안을 위해, 다음 기기의 이 로그�
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-subject = { $clientName }에 대한 새 로그인 확인
 verifyLogin-action = 로그인 확인
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = { $serviceName }의 로그인 코드
 verifyLoginCode-title = 로그인하신 게 맞나요?
 verifyLoginCode-prompt = 그렇다면 검증 코드는 다음과 같습니다:
 verifyLoginCode-expiry-notice = 5분 후에 만료됩니다.
