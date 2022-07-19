@@ -220,7 +220,7 @@ nav-security = 보안
 nav-connected-services = 연결된 서비스
 nav-data-collection = 데이터 수집 및 사용
 nav-paid-subs = 유료 구독
-nav-email-comm = 이메일 커뮤니케이션
+nav-email-comm = 이메일 설정 관리
 
 ## Two Step Authentication - replace recovery code
 
