@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-20 12:09+0000\n"
+"PO-Revision-Date: 2022-07-20 12:10+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1493,7 +1493,7 @@ msgstr "Digite o código de autorização"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Defina sua senha"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1870,7 +1870,7 @@ msgstr "Quantos anos você tem?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You need to be at least 13 years old to create an account."
-msgstr ""
+msgstr "Você precisa ter pelo menos 13 anos para criar uma conta."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1898,15 +1898,15 @@ msgstr "Endereço IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Requisitos de senha"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Pelo menos 8 caracteres"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Não ser seu endereço de email"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
