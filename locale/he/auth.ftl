@@ -198,6 +198,12 @@ downloadSubscription-content-2 = אפשר להתחיל עם כל היכולות 
 downloadSubscription-link-action-2 = תחילת עבודה
 fraudulentAccountDeletion-subject = { -product-firefox-account(case: "the") } שלך נמחק
 fraudulentAccountDeletion-title = החשבון שלך נמחק
+fraudulentAccountDeletion-content = לאחרונה נוצר { -product-firefox-account(case: "a") }, ומינוי חוייב באמצעות כתובת דוא״ל זו. כפי שאנו עושים בעת פתיחת חשבונות חדשים, ביקשנו שתאשר את החשבון שלך תחילה על־ידי אימות כתובת דוא״ל זו.
+fraudulentAccountDeletion-content-2 = נכון להיום, אנחנו רואים שהחשבון מעולם לא אומת. מכיוון ששלב זה לא הושלם, איננו בטוחים אם המינוי היה מורשה. כתוצאה מכך, { -product-firefox-account(case: "the") } המשוייך לכתובת דוא״ל זו נמחק, המינוי שלך בוטל וכל החיובים הוחזרו.
+fraudulentAccountDeletion-contact = אם יש לך שאלות כלשהן, נא ליצור קשר עם <a data-l10n-name="mozillaSupportUrl">צוות התמיכה</a> שלנו.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = אם יש לך שאלות כלשהן, נא ליצור קשר עם צוות התמיכה שלנו: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = נותרו מעט קודים לשחזור
 codes-reminder-description = שמנו לב שמפתחות השחזור שלך הולכים ואוזלים. נא לשקול לייצר קודים חדשים כדי להימנע מנעילתך מחוץ לחשבון.
