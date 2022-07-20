@@ -82,7 +82,7 @@ set -x
 # was not updated by the l10n-extract script
 OLD_HASHES=$(python $L10N_DIR/scripts/pot_checksum.py $L10N_DIR/locale/templates/)
 (cd $CONTENT_DIR && npx grunt l10n-extract)
-NEW_HASHES=$(python $L10N_DIR/scripts/pot_checksum.py $L10N_DIR/locale/templates/)
+NEW_HASHES=$(python $L10N_DIR/scripts/pot_checksum.py $CONTENT_DIR/locale/templates/)
 if [ "$NEW_HASHES" = "$OLD_HASHES" ];
 then
     echo ".pot files have no updated content"
@@ -90,8 +90,7 @@ else
     cp -r $CONTENT_DIR/locale/templates/* $L10N_DIR/locale/templates
 
     # Merge updates to all locales
-    cd $L10N_DIR
-    ./scripts/merge_po.sh ./locale
+    (cd $L10N_DIR && ./scripts/merge_po.sh ./locale)
 fi
 
 # Some locales must be copied over to a different locale code
