@@ -47,7 +47,11 @@ subplat-explainer-specific = 您會收到這封信，是因為 { $email } 註冊
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-firefox-account }。
 subplat-explainer-multiple = 您會收到這封信，是因為 { $email } 註冊了 { -product-firefox-account }，並且訂閱了多套產品。
+subplat-explainer-was-deleted = 您會收到這封郵件，是因為 { $email } 註冊了 { -product-firefox-account }。
 subplat-manage-account = 可以到您的<a data-l10n-name="subplat-account-page">帳號頁面</a>來管理 { -product-firefox-account }設定。
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = 可到您的帳號頁面來管理 { -product-firefox-account } 設定：{ $accountSettingsUrl }
 subplat-terms-policy = 條款及取消政策
 subplat-terms-policy-plaintext = { subplat-terms-policy }：
 subplat-cancel = 取消訂閱
@@ -75,8 +79,13 @@ automated-email-change = 這是由系統自動發出的郵件，若您並未授�
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = 這是由系統自動發出的郵件，若您並未新增裝置到 { -product-firefox-account }，請立即到 { $passwordChangeLink } 更改密碼。
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email = 這是由系統自動發出的郵件，若您意外收到此郵件，可直接忽略並刪除。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
 automated-email-plaintext = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
+automated-email-support = { automated-email-plaintext } 若需更多資訊，請到 <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } 技術支援站</a>。
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } 若需更多資訊，請造訪 { -brand-mozilla } 技術支援站：{ $mozillaSupportUrl }。
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = 這是一封自動發出的郵件。若您並未進行此操作，請立刻修改密碼：
 automated-email-reset = 這是由系統自動發出的郵件，若您並未授權進行此動作，<a data-l10n-name="resetLink">請立即重設密碼</a>。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
@@ -180,6 +189,8 @@ downloadSubscription-subject = 歡迎使用 { $productName }。
 downloadSubscription-title = 歡迎使用 { $productName }。
 downloadSubscription-content-2 = 讓我們開始使用訂閱中包含的各種功能：
 downloadSubscription-link-action-2 = 開始使用
+fraudulentAccountDeletion-subject = 已刪除您的 { -product-firefox-account }
+fraudulentAccountDeletion-title = 已刪除您的帳號
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩餘的救援代碼不足
 codes-reminder-description = 我們發現您的救援碼所剩不多了。請考慮產生一些新的救援碼，以備無法登入時所需。
