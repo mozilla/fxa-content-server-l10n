@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-05 22:07+0000\n"
+"POT-Creation-Date: 2022-07-20 09:13+0000\n"
 "PO-Revision-Date: 2022-03-26 09:04+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,12 +23,12 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Έγινε επιτυχής επαναφορά του κωδικού πρόσβασης. Συνδεθείτε για να συνεχίσετε."
 
 #. submit button
-#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-#: .es5/templates/sign_in_password.mustache:7
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/templates/sign_in_password.mustache:9
 msgid "Sign in"
 msgstr "Σύνδεση"
 
-#: .es5/views/index.js:179
+#: .es5/views/index.js:176
 msgid "Account deleted successfully"
 msgstr "Ο λογαριασμός διαγράφτηκε επιτυχώς"
 
@@ -571,7 +571,7 @@ msgstr "Δεν ήταν δυνατή η λήψη των όρων υπηρεσί�
 msgid "Your new password must be different"
 msgstr "Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός"
 
-#: .es5/lib/auth-errors.js:348 .es5/templates/partial/password-strength-balloon.mustache:3
+#: .es5/lib/auth-errors.js:348
 msgid "Must be at least 8 characters"
 msgstr "Πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες"
 
@@ -899,13 +899,12 @@ msgstr "Λήψη νέου συνδέσμου"
 msgid "Reset password with recovery key"
 msgstr "Επαναφορά κωδικού πρόσβασης με κλειδί ανάκτησης"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/confirm_signup_code.mustache:4 .es5/templates/force_auth.mustache:2 .es5/templates/index.mustache:4
-#: .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8
-#: .es5/templates/inline_totp_setup.mustache:11 .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:4 .es5/templates/sign_in_recovery_code.mustache:2
-#: .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2
-#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Συνέχεια στην υπηρεσία %(serviceName)s"
 
@@ -945,7 +944,7 @@ msgstr "Πρέπει να πληρείτε ορισμένες ηλικιακές
 msgid "Learn more"
 msgstr "Μάθετε περισσότερα"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:13
+#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync:"
 msgstr "Επιλέξτε τι θα συγχρονίζεται:"
 
@@ -1053,35 +1052,39 @@ msgstr "Κάντε κλικ στο σύνδεσμο που απεστάλη στ
 msgid "Enter verification code"
 msgstr "Εισαγάγετε τον κωδικό επαλήθευσης"
 
-#: .es5/templates/confirm_signup_code.mustache:2 .es5/templates/index.mustache:2 .es5/templates/sign_in_password.mustache:2 .es5/templates/sign_up_password.mustache:2
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Συνέχεια στο <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+#: .es5/templates/confirm_signup_code.mustache:2
+msgid "for your Firefox account"
+msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Παρακαλώ εισαγάγετε τον κωδικό επαλήθευσης που εστάλη στο %(escapedEmail)s εντός 5 λεπτών."
+#: .es5/templates/confirm_signup_code.mustache:3
+msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Εισαγάγετε τον 6-ψήφιο κωδικό"
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Verify"
 msgstr "Επαλήθευση"
 
-#: .es5/templates/confirm_signup_code.mustache:8 .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "Χρειάζεστε άλλο κωδικό; Αποστολή ξανά"
+#: .es5/templates/confirm_signup_code.mustache:6
+msgid "Code expired?"
+msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/pair/index.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:7
+msgid "Email new code."
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
 msgstr "Σύνδεση μιας άλλης συσκευής"
 
-#: .es5/templates/connect_another_device.mustache:2 .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
-msgid "This Firefox is connected"
-msgstr "Έγινε σύνδεση αυτού του Firefox"
+#: .es5/templates/connect_another_device.mustache:2
+msgid "Firefox account connected"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -1095,30 +1098,37 @@ msgstr "Ολοκληρώστε τη ρύθμιση"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Συνδεθείτε σε αυτό το Firefox για ολοκλήρωση ρύθμισης"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:17 .es5/templates/connect_another_device.mustache:27
-#: .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Προσθέτετε ακόμη συσκευές;"
 
-#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:19 .es5/templates/connect_another_device.mustache:29
+#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Συνδεθείτε στο Firefox σε μια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση"
 
-#: .es5/templates/connect_another_device.mustache:21
+#: .es5/templates/connect_another_device.mustache:17
+msgid "Sync Firefox across devices"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:19
+msgid "Sign in everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:20
+msgid "We’re on Android and iOS, too!"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
 msgstr "Προσθέτετε ακόμη συσκευές; Συνδεθείτε στο Firefox από μια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση"
 
-#: .es5/templates/connect_another_device.mustache:23
+#: .es5/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for Android to complete set-up"
 msgstr "Συνδεθείτε στο Firefox για Android για ολοκλήρωση ρύθμισης"
 
-#: .es5/templates/connect_another_device.mustache:25
+#: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
 msgstr "Συνδεθείτε στο Firefox για iOS για ολοκλήρωση ρύθμισης"
-
-#: .es5/templates/connect_another_device.mustache:31
-msgid "Why is more than one device required?"
-msgstr "Γιατί απαιτούνται περισσότερες από μία συσκευές;"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -1134,35 +1144,56 @@ msgstr ""
 msgid "Try again"
 msgstr "Δοκιμάστε ξανά"
 
-#: .es5/templates/force_auth.mustache:4 .es5/templates/sign_in_password.mustache:5 .es5/templates/sign_up_password.mustache:7
+#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+msgid ""
+"\n"
+"          Enter your password <span class=\"description\">for your Firefox account</span>\n"
+"        "
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "Κωδικός πρόσβασης"
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:10 .es5/templates/sign_up_password.mustache:20 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "Αν συνεχίσετε, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">όρους υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">σημείωση απορρήτου</a>."
 
-#: .es5/templates/force_auth.mustache:7 .es5/templates/sign_in_password.mustache:11 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Χρήση διαφορετικού λογαριασμού"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:14
 msgid "Forgot password?"
 msgstr "Ξεχάσατε τον κωδικό πρόσβασής σας;"
 
 #: .es5/templates/index.mustache:1
+msgid "Continue to Firefox accounts"
+msgstr ""
+
+#: .es5/templates/index.mustache:2
+msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/index.mustache:4
 msgid "Enter your email"
 msgstr "Εισαγάγετε το email σας"
 
-#: .es5/templates/index.mustache:5 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+#: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr "Συνέχεια στο <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/index.mustache:8 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
 msgstr "Email"
 
-#: .es5/templates/index.mustache:6 .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7
-#: .es5/templates/sign_in_token_code.mustache:5 .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
-msgid "Continue"
-msgstr "Συνέχεια"
+#: .es5/templates/index.mustache:9
+msgid "Sign up or sign in"
+msgstr ""
+
+#: .es5/templates/index.mustache:11
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1184,6 +1215,12 @@ msgstr "Αντιγραφή"
 #: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "Εκτύπωση"
+
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+msgid "Continue"
+msgstr "Συνέχεια"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
@@ -1292,8 +1329,7 @@ msgstr "Το %(serviceName)s θέλει τις ακόλουθες πληροφο
 msgid "Accept"
 msgstr "Αποδοχή"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/auth_allow.mustache:3
-#: .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -1390,7 +1426,7 @@ msgstr "Αν αυτή είναι μια έγκυρη διεύθυνση email, <
 msgid "No longer own that email? Create a new account"
 msgstr "Δεν είστε πλέον κάτοχος αυτού του email; Δημιουργήστε έναν νέο λογαριασμό"
 
-#: .es5/templates/sign_in_password.mustache:8
+#: .es5/templates/sign_in_password.mustache:10
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
@@ -1438,6 +1474,10 @@ msgstr "Εξουσιοδότηση σύνδεσης"
 msgid "Check your email for the code sent to %(email)s."
 msgstr "Ελέγξτε το email σας για τον κωδικό που απεστάλη στο %(email)s."
 
+#: .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr "Χρειάζεστε άλλο κωδικό; Αποστολή ξανά"
+
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
 msgstr "Εισαγάγετε τον κωδικό ασφαλείας"
@@ -1458,33 +1498,33 @@ msgstr "Ελέγξτε το email σας για τον κωδικό ταυτοπ
 msgid "Enter authorization code"
 msgstr "Εισαγάγετε τον κωδικό ταυτοποίησης"
 
-#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
-msgid "Create a Firefox Account"
-msgstr "Δημιουργία λογαριασμού Firefox"
+#: .es5/templates/sign_up_password.mustache:1
+msgid "Set your password"
+msgstr ""
 
-#: .es5/templates/sign_up_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
 msgstr "Αλλαγή email"
 
-#: .es5/templates/sign_up_password.mustache:8
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Repeat password"
 msgstr "Επανάληψη κωδικού πρόσβασης"
 
-#: .es5/templates/sign_up_password.mustache:9
+#: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 "Χρειάζεστε αυτό τον κωδικό πρόσβασης για πρόσβαση σε κρυπτογραφημένα δεδομένα που αποθηκεύετε σε εμάς.<br/>Επαναφορά, σημαίνει ενδεχομένως απώλεια δεδομένων, όπως κωδικοί πρόσβασης και "
 "σελιδοδείκτες."
 
-#: .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "Πρακτικές γνώσεις έρχονται στα εισερχόμενά σας. Εγγραφείτε για περισσότερα:"
 
-#: .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Δημιουργία λογαριασμού"
 
-#: .es5/templates/sign_up_password.mustache:18
+#: .es5/templates/sign_up_password.mustache:15
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
@@ -1563,24 +1603,6 @@ msgstr "Περιγραφή ζητήματος"
 msgid "Send"
 msgstr "Αποστολή"
 
-#: .es5/templates/why_connect_another_device.mustache:1
-msgid "Why sync multiple devices?"
-msgstr "Γιατί να συγχρονίσω πολλαπλές συσκευές;"
-
-#: .es5/templates/why_connect_another_device.mustache:2
-msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-msgstr "Η υπηρεσία Sync δεν αποτελεί μόνο αντίγραφο ασφαλείας, αλλά έναν ασφαλή τρόπο για τη μεταφορά αποθηκευμένων σελιδοδεικτών, ιστορικού και κωδικών πρόσβασης ανάμεσα στις συσκευές σας."
-
-#: .es5/templates/why_connect_another_device.mustache:3
-msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-msgstr ""
-"Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον "
-"κωδικό πρόσβασής σας."
-
-#: .es5/templates/why_connect_another_device.mustache:4
-msgid "Got it"
-msgstr "Το 'πιασα"
-
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
 msgstr "Θα θέλατε να συγχρονίσετε αυτή τη συσκευή με το λογαριασμό σας;"
@@ -1654,6 +1676,10 @@ msgstr "Δευτερεύον email"
 msgid "Maybe later"
 msgstr "Ίσως αργότερα"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
+msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr "Παρακαλώ εισαγάγετε τον κωδικό επαλήθευσης που εστάλη στο %(escapedEmail)s εντός 5 λεπτών."
+
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
 msgstr "Χρήση διαφορετικού email"
@@ -1689,6 +1715,10 @@ msgstr "Εισαγάγετε ξανά τον νέο κωδικό πρόσβασ�
 msgid "Change password"
 msgstr "Αλλαγή κωδικού πρόσβασης"
 
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+msgid "This Firefox is connected"
+msgstr "Έγινε σύνδεση αυτού του Firefox"
+
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
 msgstr "Εγγραφή για περισσότερα"
@@ -1708,6 +1738,10 @@ msgstr "Εγγραφή στο %(email)s"
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
 msgstr "Ο επιλεγμένος σύνδεσμος δεν περιείχε τους απαραίτητους χαρακτήρες και ίσως αλλοιώθηκε από το πρόγραμμα email σας."
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+msgid "Create a Firefox Account"
+msgstr "Δημιουργία λογαριασμού Firefox"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
@@ -1847,6 +1881,10 @@ msgstr "Γιατί πρέπει να δημιουργήσω αυτόν τον λ
 msgid "How old are you?"
 msgstr "Ποια είναι η ηλικία σας;"
 
+#: .es5/templates/partial/coppa-age-input.mustache:3
+msgid "You need to be at least 13 years old to create an account."
+msgstr ""
+
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
 msgstr "%(family)s σε %(OS)s"
@@ -1871,57 +1909,25 @@ msgstr "Άγνωστη τοποθεσία"
 msgid "IP address: %(ipAddress)s"
 msgstr "Διεύθυνση IP: %(ipAddress)s"
 
-#: .es5/templates/partial/firefox-family-services.mustache:1
-msgid "One account, many services"
-msgstr "Ένας λογαριασμός, πολλές υπηρεσίες"
-
-#: .es5/templates/partial/firefox-family-services.mustache:2
-msgid "Firefox browser"
-msgstr "Πρόγραμμα περιήγησης Firefox"
-
-#: .es5/templates/partial/firefox-family-services.mustache:3
-msgid "Sync your bookmarks, passwords, and more on every device."
-msgstr "Συγχρονισμός σελιδοδεικτών, κωδικών πρόσβασης και άλλων δεδομένων σε κάθε συσκευή."
-
-#: .es5/templates/partial/firefox-family-services.mustache:4
-msgid "Mozilla VPN"
-msgstr "Mozilla VPN"
-
-#: .es5/templates/partial/firefox-family-services.mustache:5
-msgid "A VPN from the trusted pioneer in internet privacy."
-msgstr "Ένα VPN από τους αξιόπιστους πρωτοπόρους στο διαδικτυακό απόρρητο."
-
-#: .es5/templates/partial/firefox-family-services.mustache:6
-msgid "Pocket"
-msgstr "Pocket"
-
-#: .es5/templates/partial/firefox-family-services.mustache:7
-msgid "Save and discover the best stories from across the web."
-msgstr "Αποθηκεύστε και ανακαλύψτε τα καλύτερα άρθρα από όλο το διαδίκτυο."
-
-#: .es5/templates/partial/firefox-family-services.mustache:8
-msgid "Firefox Relay"
-msgstr "Firefox Relay"
-
-#: .es5/templates/partial/firefox-family-services.mustache:9
-msgid "Sign up for new accounts without handing over your email address."
-msgstr "Δημιουργήστε νέους λογαριασμούς χωρίς να δώσετε τη διεύθυνση email σας."
-
-#: .es5/templates/partial/firefox-family-services.mustache:10
-msgid "See all"
-msgstr "Προβολή όλων"
-
 #: .es5/templates/partial/password-strength-balloon.mustache:1
-msgid "Stay safe &mdash; don't reuse passwords."
-msgstr "Μείνετε ασφαλείς &mdash; μην επαναχρησιμοποιείτε κωδικούς πρόσβασης."
+msgid "Password requirements"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:3
+msgid "At least 8 characters"
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
-msgid "Must not be your email address"
-msgstr "Δεν πρέπει να είναι η διεύθυνση email σας"
+msgid "Not your email address"
+msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
-msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-msgstr "Δεν πρέπει να αντιστοιχεί σε αυτή τη <a %(escapedCommonPasswordLinkAttrs)s>λίστα συνηθισμένων κωδικών πρόσβασης</a>"
+msgid "Not a commonly used password"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:11
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1952,22 +1958,45 @@ msgid "Continue with Apple"
 msgstr "Συνέχεια με Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
-msgid "Approve new device <small>for %(email)s</small>"
-msgstr "Έγκριση νέας συσκευής <small>για το %(email)s</small>"
+msgid "Did you just sign in to Firefox?"
+msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:2
-msgid "Approve device"
-msgstr "Έγκριση συσκευής"
+msgid " %(email)s "
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:3
+msgid "location balloon"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:4
+msgid "Yes, approve device"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:5
+msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
+msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
 msgstr "Η συσκευή συνδέθηκε"
 
 #: .es5/templates/pair/auth_complete.mustache:3
-msgid "You are now syncing with:"
-msgstr "Τώρα γίνεται συγχρονισμός με:"
+msgid ""
+"\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"      "
+msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
+msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:5
+msgid "See tabs from synced devices"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
 msgstr "Διαχείριση συσκευών"
 
@@ -1983,17 +2012,25 @@ msgstr "Ανεπιτυχής σύζευξη"
 msgid "The setup process was terminated."
 msgstr "Η διαδικασία ρύθμισης τερματίστηκε."
 
-#: .es5/templates/pair/index.mustache:2
-msgid "Scan to connect another device"
-msgstr "Σάρωση για σύνδεση άλλης συσκευής"
+#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
+msgid "Get Firefox on your phone or tablet"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Open the code scanner on your Firefox app and show code when ready."
-msgstr "Ανοίξτε την εφαρμογή σάρωσης κωδικού στο Firefox σας και εμφανίστε τον κωδικό όταν είστε έτοιμοι."
+msgid "Hold your phone's camera over the code to scan."
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Show code"
-msgstr "Εμφάνιση κωδικού"
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
+msgid "I'm ready to sync devices"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:8
+msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgstr ""
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2018,6 +2055,80 @@ msgstr "Σύζευξη με εφαρμογή"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Χρησιμοποιήσατε την κάμερα συστήματος; Πρέπει να κάνετε σύζευξη μέσα από την εφαρμογή Firefox."
+
+#~ msgid "Why is more than one device required?"
+#~ msgstr "Γιατί απαιτούνται περισσότερες από μία συσκευές;"
+
+#~ msgid "Why sync multiple devices?"
+#~ msgstr "Γιατί να συγχρονίσω πολλαπλές συσκευές;"
+
+#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+#~ msgstr "Η υπηρεσία Sync δεν αποτελεί μόνο αντίγραφο ασφαλείας, αλλά έναν ασφαλή τρόπο για τη μεταφορά αποθηκευμένων σελιδοδεικτών, ιστορικού και κωδικών πρόσβασης ανάμεσα στις συσκευές σας."
+
+#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+#~ msgstr ""
+#~ "Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον "
+#~ "κωδικό πρόσβασής σας."
+
+#~ msgid "Got it"
+#~ msgstr "Το 'πιασα"
+
+#~ msgid "One account, many services"
+#~ msgstr "Ένας λογαριασμός, πολλές υπηρεσίες"
+
+#~ msgid "Firefox browser"
+#~ msgstr "Πρόγραμμα περιήγησης Firefox"
+
+#~ msgid "Sync your bookmarks, passwords, and more on every device."
+#~ msgstr "Συγχρονισμός σελιδοδεικτών, κωδικών πρόσβασης και άλλων δεδομένων σε κάθε συσκευή."
+
+#~ msgid "Mozilla VPN"
+#~ msgstr "Mozilla VPN"
+
+#~ msgid "A VPN from the trusted pioneer in internet privacy."
+#~ msgstr "Ένα VPN από τους αξιόπιστους πρωτοπόρους στο διαδικτυακό απόρρητο."
+
+#~ msgid "Pocket"
+#~ msgstr "Pocket"
+
+#~ msgid "Save and discover the best stories from across the web."
+#~ msgstr "Αποθηκεύστε και ανακαλύψτε τα καλύτερα άρθρα από όλο το διαδίκτυο."
+
+#~ msgid "Firefox Relay"
+#~ msgstr "Firefox Relay"
+
+#~ msgid "Sign up for new accounts without handing over your email address."
+#~ msgstr "Δημιουργήστε νέους λογαριασμούς χωρίς να δώσετε τη διεύθυνση email σας."
+
+#~ msgid "See all"
+#~ msgstr "Προβολή όλων"
+
+#~ msgid "Stay safe &mdash; don't reuse passwords."
+#~ msgstr "Μείνετε ασφαλείς &mdash; μην επαναχρησιμοποιείτε κωδικούς πρόσβασης."
+
+#~ msgid "Must not be your email address"
+#~ msgstr "Δεν πρέπει να είναι η διεύθυνση email σας"
+
+#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
+#~ msgstr "Δεν πρέπει να αντιστοιχεί σε αυτή τη <a %(escapedCommonPasswordLinkAttrs)s>λίστα συνηθισμένων κωδικών πρόσβασης</a>"
+
+#~ msgid "Approve new device <small>for %(email)s</small>"
+#~ msgstr "Έγκριση νέας συσκευής <small>για το %(email)s</small>"
+
+#~ msgid "Approve device"
+#~ msgstr "Έγκριση συσκευής"
+
+#~ msgid "You are now syncing with:"
+#~ msgstr "Τώρα γίνεται συγχρονισμός με:"
+
+#~ msgid "Scan to connect another device"
+#~ msgstr "Σάρωση για σύνδεση άλλης συσκευής"
+
+#~ msgid "Open the code scanner on your Firefox app and show code when ready."
+#~ msgstr "Ανοίξτε την εφαρμογή σάρωσης κωδικού στο Firefox σας και εμφανίστε τον κωδικό όταν είστε έτοιμοι."
+
+#~ msgid "Show code"
+#~ msgstr "Εμφάνιση κωδικού"
 
 #~ msgid "Would you like to sync your phone?"
 #~ msgstr "Θέλετε να συγχρονίσετε το τηλέφωνό σας;"
