@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-20 11:31+0000\n"
+"PO-Revision-Date: 2022-07-20 11:38+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -1161,7 +1161,7 @@ msgstr "ססמתך נשכחה?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "המשך אל Firefox accounts"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -1185,7 +1185,7 @@ msgstr "הרשמה או התחברות"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "חשבון Firefox גם פותח גישה למוצרים נוספים המגנים על הפרטיות, מבית Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1489,7 +1489,7 @@ msgstr "נא להכניס את קוד ההרשאה"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "הגדרת הססמה שלך"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1866,7 +1866,7 @@ msgstr "מהו גילך?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You need to be at least 13 years old to create an account."
-msgstr ""
+msgstr "עליך להיות בגיל 13 לפחות כדי ליצור חשבון."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1894,23 +1894,23 @@ msgstr "כתובת IP: ‏%(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "דרישות ססמה"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "לפחות 8 תווים"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "לא כתובת הדוא״ל שלך"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "לא ססמה נפוצה"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr ""
+msgstr "שמרו על עצמכם &mdash; אל תשתמשו באותה הססמה במקומות שונים. ניתן לעיין בעצות נוספות <a %(escapedCommonPasswordLinkAttrs)s>ליצירת ססמאות חזקות</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1942,19 +1942,19 @@ msgstr "המשך עם Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "האם זה עתה התחברת ל־Firefox?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "בלון מיקום"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "כן, לאשר את המכשיר"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
