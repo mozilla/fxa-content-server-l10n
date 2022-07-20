@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-20 09:35+0000\n"
+"PO-Revision-Date: 2022-07-20 10:12+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -1136,7 +1136,7 @@ msgid ""
 "\n"
 "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
 "        "
-msgstr ""
+msgstr "請輸入您 <span class=\"description\">Firefox 帳號</span>的密碼"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1160,7 +1160,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "在使用 Firefox 的所有地方同步您的密碼、分頁、書籤。"
 
 #: .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1939,7 +1939,7 @@ msgstr "%(email)s"
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "位置氣球"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
@@ -1958,7 +1958,7 @@ msgid ""
 "\n"
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
-msgstr ""
+msgstr "已開始與：<span>%(deviceOS)s 上的 %(deviceFamily)s</span> 同步"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
