@@ -47,7 +47,11 @@ subplat-explainer-specific = Você recebeu este email porque { $email } tem uma 
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Você recebeu este email porque { $email } tem uma { -product-firefox-account }.
 subplat-explainer-multiple = Você recebeu este email porque { $email } tem uma { -product-firefox-account } e você assinou vários produtos.
+subplat-explainer-was-deleted = Você recebeu este email porque { $email } foi registrado em uma { -product-firefox-account }.
 subplat-manage-account = Gerencie as configurações da sua { -product-firefox-account } na <a data-l10n-name="subplat-account-page">página da conta</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Gerencie as configurações da sua { -product-firefox-account } na página da conta: { $accountSettingsUrl }
 subplat-terms-policy = Termos e política de cancelamento
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar assinatura
@@ -77,10 +81,15 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Este é um email automático. Se você não adicionou um novo dispositivo à sua { -product-firefox-account }, deve mudar sua senha imediatamente em { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Este é um email automático. Se você o recebeu por engano, nenhuma ação é necessária.
     Consulte mais informações no <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
 automated-email-plaintext = Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária.
+automated-email-support = { automated-email-plaintext } Consulte mais informações no <a data-l10n-name="mozillaSupportUrl">Suporte { -brand-mozilla }</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Consulte mais informações no Suporte { -brand-mozilla }: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Este é um email automático. Se você não autorizou esta ação, mude sua senha:
 automated-email-reset =
@@ -186,6 +195,9 @@ downloadSubscription-subject = Boas-vindas ao { $productName }
 downloadSubscription-title = Boas-vindas ao { $productName }
 downloadSubscription-content-2 = Vamos dar uma olhada em todos os recursos incluídos em sua assinatura:
 downloadSubscription-link-action-2 = Introdução
+fraudulentAccountDeletion-subject = Sua { -product-firefox-account } foi excluída
+fraudulentAccountDeletion-title = Sua conta foi excluída
+fraudulentAccountDeletion-content = Recentemente foi criada uma { -product-firefox-account } e uma assinatura foi cobrada usando este endereço de email. Como fazemos com todas as contas novas, pedimos que você confirme sua conta primeiro validando este endereço de email.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Restam poucos códigos de recuperação
 codes-reminder-description = Percebemos que você está com poucos códigos de recuperação. Considere gerar novos códigos para evitar que sua conta seja bloqueada.
