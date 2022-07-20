@@ -51,7 +51,7 @@ subplat-explainer-specific = Ricevi questa email perché l’indirizzo { $email 
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Ricevi questa email perché l’indirizzo { $email } è associato a un { -product-firefox-account }.
 subplat-explainer-multiple = Ricevi questa email perché l’indirizzo { $email } è associato a un { -product-firefox-account } e ti sei registrato per più prodotti.
-subplat-explainer-was-deleted = Ricevi questa email perché l’indirizzo { $email } è stato registrato per un { -product-firefox-account }.
+subplat-explainer-was-deleted = Ricevi questo messaggio perché l’indirizzo { $email } è stato utilizzare per registrare un { -product-firefox-account }.
 subplat-manage-account = Gestisci le impostazioni del tuo { -product-firefox-account } visitando la <a data-l10n-name="subplat-account-page">pagina dell’account</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
@@ -184,7 +184,7 @@ cadReminderFirst-action = Sincronizza un altro dispositivo
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Bisogna essere in due per sincronizzarsi
-cadReminderFirst-description-1 = Porta le tue schede su tutti i tuoi dispositivi. Accedi ai tuoi segnalibri, password e altro ancora ovunque utilizzi { -brand-firefox }. È come un tocco di magia nel tuo account { -brand-firefox }!
+cadReminderFirst-description-1 = Porta con te le tue schede su tutti i dispositivi. Accedi ai tuoi segnalibri, password e altro ancora ovunque utilizzi { -brand-firefox }. È come un tocco di magia nel tuo account { -brand-firefox }!
 cadReminderFirst-description-2 = Ci vuole solo un secondo per sincronizzare.
 cadReminderSecond-subject-2 = Non perderti nulla! Completa la configurazione per iniziare a sincronizzare
 cadReminderSecond-action = Sincronizza un altro dispositivo
@@ -201,8 +201,8 @@ downloadSubscription-content-2 = Inizia a utilizzare tutte le funzionalità incl
 downloadSubscription-link-action-2 = Inizia
 fraudulentAccountDeletion-subject = Il tuo { -product-firefox-account } è stato eliminato
 fraudulentAccountDeletion-title = Il tuo account è stato eliminato
-fraudulentAccountDeletion-content = Di recente è stato creato un { -product-firefox-account } ed è stato registrato un abbonamento a pagamento utilizzando questo indirizzo email. Come facciamo per tutti i nuovi account, abbiamo chiesto per prima cosa di confermare il tuo account convalidando questo indirizzo email.
-fraudulentAccountDeletion-content-2 = Al momento ci risulta che l’account non è mai stato confermato. Poiché questo passaggio non è stato completato, non possiamo essere sicuri che si tratti di un abbonamento autorizzato. Di conseguenza, l’{ -product-firefox-account } registrato con questo indirizzo email è stato eliminato e l’abbonamento è stato annullato con il rimborso di tutti gli addebiti.
+fraudulentAccountDeletion-content = Di recente è stato creato un { -product-firefox-account } ed è stato registrato un abbonamento a pagamento utilizzando questo indirizzo email. Come facciamo per tutti i nuovi account, per prima cosa abbiamo chiesto di confermare il tuo account convalidando questo indirizzo email.
+fraudulentAccountDeletion-content-2 = Al momento ci risulta che l’account non è mai stato confermato. Poiché questo passaggio non è stato completato, non possiamo essere sicuri che si tratti di un abbonamento legittimo. Di conseguenza, l’{ -product-firefox-account } registrato con questo indirizzo email è stato eliminato e l’abbonamento è stato annullato con il rimborso di tutti gli addebiti.
 fraudulentAccountDeletion-contact = Sei hai altre domande, contatta il nostro <a data-l10n-name="mozillaSupportUrl">team di supporto</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
