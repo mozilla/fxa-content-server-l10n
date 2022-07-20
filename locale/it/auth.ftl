@@ -90,6 +90,10 @@ automated-email =
     Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore puoi semplicemente ignorarla.
     Per ulteriori informazioni visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 automated-email-plaintext = Questa email è stata inviata da un servizio automatico, se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
+automated-email-support = { automated-email-plaintext } Per ulteriori informazioni, visita il <a data-l10n-name="mozillaSupportUrl">supporto { -brand-mozilla }</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Per ulteriori informazioni, visita il supporto { -brand-mozilla }: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Questo messaggio è stato inviato da un servizio automatico. Se non sei stato tu ad autorizzare questa operazione, modifica la password per proteggere il tuo account.
 automated-email-reset =
@@ -175,7 +179,13 @@ view-invoice = <a data-l10n-name="invoiceLink">Visualizza la tua fattura</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Visualizza fattura: { $invoiceLink }
+cadReminderFirst-subject-1 = Promemoria: è ora di sincronizzare { -brand-firefox }
 cadReminderFirst-action = Sincronizza un altro dispositivo
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Bisogna essere in due per sincronizzarsi
+cadReminderFirst-description-1 = Porta le tue schede su tutti i tuoi dispositivi. Accedi ai tuoi segnalibri, password e altro ancora ovunque utilizzi { -brand-firefox }. È come un tocco di magia nel tuo account { -brand-firefox }!
+cadReminderFirst-description-2 = Ci vuole solo un secondo per sincronizzare.
 cadReminderSecond-subject-2 = Non perderti nulla! Completa la configurazione per iniziare a sincronizzare
 cadReminderSecond-action = Sincronizza un altro dispositivo
 cadReminderSecond-title-2 = Non dimenticarti di sincronizzare!
@@ -189,6 +199,8 @@ downloadSubscription-subject = Benvenuto in { $productName }.
 downloadSubscription-title = Benvenuto in { $productName }.
 downloadSubscription-content-2 = Inizia a utilizzare tutte le funzionalità incluse nel tuo abbonamento:
 downloadSubscription-link-action-2 = Inizia
+fraudulentAccountDeletion-subject = Il tuo { -product-firefox-account } è stato eliminato
+fraudulentAccountDeletion-title = Il tuo account è stato eliminato
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Sono rimasti pochi codici di recupero
 codes-reminder-description = Ti informiamo che ti sono rimasti pochi codici di recupero. Genera dei nuovi codici per evitare di restare tagliato fuori dal tuo account.
