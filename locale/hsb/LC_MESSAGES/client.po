@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-20 18:08+0000\n"
+"PO-Revision-Date: 2022-07-20 18:18+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1872,7 +1872,7 @@ msgstr "Kak stary sće?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You need to be at least 13 years old to create an account."
-msgstr ""
+msgstr "Dyrbiće znajmjeńša 13 lět stary być, zo byšće konto załožił."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1948,19 +1948,19 @@ msgstr "Z Apple pokročować"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "Sće so runje pola Firefox přizjewił?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "stejnišćowy balon"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "Haj, grat schwalić"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
@@ -1976,14 +1976,17 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Synchronizujeće nětko z: <span>%(deviceFamily)s na %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Nětko maće přistup k swojim wočinjenym rajtarkam, hesłam a zapołožkam na wšěch swojich gratach."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Rajtarki ze synchronizowanych gratow pokazać"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -2003,23 +2006,23 @@ msgstr "Instalowanski proces je so skónčił."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
 msgid "Get Firefox on your phone or tablet"
-msgstr ""
+msgstr "Wužiwajće Firefox na swójim šmóratce abo tableće"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Hold your phone's camera over the code to scan."
-msgstr ""
+msgstr "Dźeržće kameru swojeho šmóratka nad kod, zo byšće skenował."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
-msgstr ""
+msgstr "Abo sćelće sej <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">sćehnjenski wotkaz.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I'm ready to sync devices"
-msgstr ""
+msgstr "Sym hotowy, graty synchronizować"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synchronizujće graty za přistup k swojim rajtarkam, hesłam a zapołožkam wšudźe, hdźež Firefox wužiwaće."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
