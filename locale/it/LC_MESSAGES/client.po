@@ -1111,7 +1111,7 @@ msgstr "Accedi con Firefox da qualunque dispositivo."
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
-msgstr ""
+msgstr "Siamo disponibile anche su Android e iOS."
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
