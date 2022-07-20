@@ -47,6 +47,7 @@ subplat-explainer-specific = Og̃uahẽ ko ñanduti veve { $email } eguereko rup
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Og̃uahẽ ndéve ko ñanduti veve { $email } oreko rupi { -product-firefox-account }.
 subplat-explainer-multiple = Og̃uahẽ ko ñanduti veve { $email } eguereko rupi { -product-firefox-account } mba’ete ha eñemboheraguapýre heta apopyrépe.
+subplat-explainer-was-deleted = Og̃uahẽ ndéve ko ñanduti veve { $email } oñemboheraguapy rupi { -product-firefox-account }.
 subplat-manage-account = Eñangareko nde { -product-firefox-account } mba’ete ñemoĩporãre eikévo nde <a data-l10n-name="subplat-account-page">mba’ete kuatiaroguépe</a>.
 subplat-terms-policy = Ñemboguata ha jeheja purureko
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
@@ -77,6 +78,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Kóva ha’e ñandutiveve hekojeheguíva; nerembojoajúi rire mba’e’oka pyahu nde { -product-firefox-account }-pe, emoambue pya’eterei ne ñe’ẽñemi { $passwordChangeLink }pe
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Kóva ha’e ñandutiveve ijeheguíva; og̃uahẽrõ ndéve eipota’ỹre, ehejareínte.
     Eñemomaranduve hag̃ua, ikatúpa eikemi <a data-l10n-name="supportLink">{ -brand-mozilla } oipytyvõva</a>.
@@ -166,6 +168,7 @@ view-invoice = <a data-l10n-name="invoiceLink">Ehecha ne ñemuhague</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Ehecha ñemuhague: { $invoiceLink }
+cadReminderFirst-subject-1 = ¡Mandu’arã! Ñambojuehe { -brand-firefox }
 cadReminderFirst-action = Embojuehe ambue mba’e’oka
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
@@ -184,6 +187,7 @@ downloadSubscription-subject = ¡Eg̃uahẽporãite { $productName }-pe!
 downloadSubscription-title = ¡Eg̃uahẽporãite { $productName }-pe!
 downloadSubscription-content-2 = Ñañepyrũkatu jaipuru opaite tembiapoite oikéva ne ñemboheraguapýpe:
 downloadSubscription-link-action-2 = Jeguata Ñepyrũ
+fraudulentAccountDeletion-subject = Nde { -product-firefox-account } oñemboguéma
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Sa’íma opyta ayvu erukuaajeýva
 codes-reminder-description = Rohechakuaa opytaha ndéve sa’íma ayvu jeguerujeyrã. Ikatúramo emoheñoijey ayvu pyahu emboyke hag̃ua apañuãi eikekuévo ne mba’etépe.
