@@ -2,6 +2,7 @@
 
 import argparse
 import hashlib
+import os
 from pathlib import Path
 
 
@@ -31,7 +32,8 @@ def main():
                 content[:line_number] + content[line_number + 1 :]
             ).encode("utf-8")
             sha256.update(cleaned_content)
-            output.append(f"{str(fp)}:{sha256.hexdigest()}")
+            rel_filename = os.path.relpath(fp.resolve(), start=src_path.resolve())
+            output.append(f"{rel_filename}:{sha256.hexdigest()}")
 
     print("\n".join(output))
 
