@@ -191,6 +191,12 @@ downloadSubscription-content-2 = 讓我們開始使用訂閱中包含的各種�
 downloadSubscription-link-action-2 = 開始使用
 fraudulentAccountDeletion-subject = 已刪除您的 { -product-firefox-account }
 fraudulentAccountDeletion-title = 已刪除您的帳號
+fraudulentAccountDeletion-content = 最近有人使用此電子郵件信箱註冊 { -product-firefox-account } 並付費訂閱。如我們對所有新帳號所要求的，需請您先確認此電子郵件地址。
+fraudulentAccountDeletion-content-2 = 目前此帳號尚未經過確認，無法確認這是不是經過授權的訂閱行為。因此，已刪除使用此電子郵件信箱註冊的 { -product-firefox-account }，並將取消已訂閱的項目並完全退費。
+fraudulentAccountDeletion-contact = 若您有其他問題，請聯絡我們的<a data-l10n-name="mozillaSupportUrl">技術支援團隊</a>。
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = 若您有其他問題，請聯絡我們的技術支援團隊：{ $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩餘的救援代碼不足
 codes-reminder-description = 我們發現您的救援碼所剩不多了。請考慮產生一些新的救援碼，以備無法登入時所需。
