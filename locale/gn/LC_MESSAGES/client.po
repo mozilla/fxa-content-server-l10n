@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-20 11:47+0000\n"
+"PO-Revision-Date: 2022-07-20 11:51+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1069,7 +1069,7 @@ msgstr "Ndoikovéimapa ayvu"
 
 #: .es5/templates/confirm_signup_code.mustache:7
 msgid "Email new code."
-msgstr ""
+msgstr "Emondo ayvu pyahu ñanduti veve rupive."
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -1945,15 +1945,15 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr "%(email)s"
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "tendaite kuaaukaha"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "Hẽe, emboaje mba’e’oka"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
