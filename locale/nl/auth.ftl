@@ -77,6 +77,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Dit is een geautomatiseerd e-mailbericht; als u geen nieuw apparaat aan uw { -product-firefox-account } hebt toegevoegd, dient u onmiddellijk uw wachtwoord te wijzigen op { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Dit is een geautomatiseerd e-mailbericht; als u het ten onrechte hebt ontvangen, hoeft u niets te doen.
     Ga voor meer informatie naar <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
@@ -172,7 +173,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Er zijn er twee nodig om te synchroniseren
 cadReminderFirst-description-1 = Neem uw tabbladen mee naar al uw apparaten. Ontvang uw bladwijzers, wachtwoorden en andere gegevens overal waar u { -brand-firefox } gebruikt. Het is alsof u magie in uw { -brand-firefox }-account hebt!
-cadReminderFirst-description-2 = Het duurt maar even om te synchroniseren.
+cadReminderFirst-description-2 = Synchronisatie duurt maar even.
 cadReminderSecond-subject-2 = Mis het niet! Laten we uw synchronisatieconfiguratie voltooien
 cadReminderSecond-action = Nog een apparaat synchroniseren
 cadReminderSecond-title-2 = Vergeet niet te synchroniseren!
