@@ -198,6 +198,11 @@ downloadSubscription-link-action-2 = Introdução
 fraudulentAccountDeletion-subject = Sua { -product-firefox-account } foi excluída
 fraudulentAccountDeletion-title = Sua conta foi excluída
 fraudulentAccountDeletion-content = Recentemente foi criada uma { -product-firefox-account } e uma assinatura foi cobrada usando este endereço de email. Como fazemos com todas as contas novas, pedimos que você confirme sua conta primeiro validando este endereço de email.
+fraudulentAccountDeletion-content-2 = No momento, vemos que a conta nunca foi confirmada. Como esta etapa não foi concluída, não temos certeza se esta foi uma assinatura autorizada. Como resultado, a { -product-firefox-account } registrada com este endereço de email foi excluído, sua assinatura foi cancelada e todas as cobranças foram reembolsadas.
+fraudulentAccountDeletion-contact = Se você tiver alguma dúvida, entre em contato com nossa <a data-l10n-name="mozillaSupportUrl">equipe de suporte</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Se você tiver alguma dúvida, entre em contato com nossa equipe de suporte: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Restam poucos códigos de recuperação
 codes-reminder-description = Percebemos que você está com poucos códigos de recuperação. Considere gerar novos códigos para evitar que sua conta seja bloqueada.
