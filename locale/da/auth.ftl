@@ -77,6 +77,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Denne mail er sendt automatisk; hvis du ikke tilføjede en ny enhed til din { -product-firefox-account }, bør du ændre din adgangskode med det samme på { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget.
     For mere information, besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
@@ -166,10 +167,7 @@ view-invoice = <a data-l10n-name="invoiceLink">Se din faktura</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Se faktura: { $invoiceLink }
-cadReminderFirst-subject = En venlig påmindelse: Sådan færdiggør du din opsætning af Sync
 cadReminderFirst-action = Synkroniser en enhed til
-cadReminderFirst-title = Her er din påmindelse om at synkronisere enheder.
-cadReminderFirst-description = Der skal to til at synkronisere. Med privat synkronisering af en anden enhed med { -brand-firefox } forbliver dine bogmærker, adgangskoder og andre Firefox-data de samme overalt, hvor du bruger { -brand-firefox }.
 cadReminderSecond-subject-2 = Gå ikke glip af noget! Lad os afslutte opsætningen af synkroniseringen
 cadReminderSecond-action = Synkroniser en enhed til
 cadReminderSecond-title-2 = Glem ikke at synkronisere!
@@ -226,7 +224,7 @@ postAddAccountRecovery-subject = Genoprettelsesnøgle til konto oprettet
 postAddAccountRecovery-title = Genoprettelsesnøgle til konto oprettet
 postAddAccountRecovery-description = Du har oprettet en genoprettelsesnøgle til din { -product-firefox-account } med følgende enhed:
 postAddAccountRecovery-action = Håndter konto
-postAddAccountRecovery-recovery = Hvis det ikke var dig , så <a data-l10n-name="revokeAccountRecoveryLink">klik her.</a>
+postAddAccountRecovery-recovery = Hvis det ikke var dig, så <a data-l10n-name="revokeAccountRecoveryLink">klik her.</a>
 postAddAccountRecovery-revoke = Hvis det ikke var dig, så tilbagekald nøglen.
 postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
 #  Variables:
