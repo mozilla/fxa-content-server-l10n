@@ -47,6 +47,7 @@ subplat-explainer-specific = Jo ûntfange dit berjocht omdat { $email } in { -pr
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Jo ûntfange dit e-mailberjocht omdat { $email } in { -product-firefox-account } hat
 subplat-explainer-multiple = Jo ûntfange dit berjocht omdat { $email } in { -product-firefox-account } hat en jo binne abonnearre op mear produkten.
+subplat-explainer-was-deleted = Jo ûntfange dit e-mailberjocht omdat { $email } registrearre wie foar in { -product-firefox-account }
 subplat-manage-account = Behear jo { -product-firefox-account }-ynstellingen troch nei jo <a data-l10n-name="subplat-account-page">accountside</a> te gean.
 subplat-terms-policy = Betingsten en annulearringsbelied
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
@@ -77,6 +78,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Dit is in automatisearre e-mailberjocht; as jo gjin nij apparaat oan jo { -product-firefox-account } tafoege hawwe, moatte jo daliks jo wachtwurd te wizigjen op { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Dit is in automatisearre e-mailberjocht; as jo it ûnrjochtlik ûntfongen hawwe, hoege jo neat te dwaan.
     Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
