@@ -47,6 +47,7 @@ subplat-explainer-specific = Þú færð þennan tölvupóst vegna þess að { $
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account }.
 subplat-explainer-multiple = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account } og þú ert áskrifandi að ýmsum þjónustum.
+subplat-explainer-was-deleted = Þú færð þennan tölvupóst vegna þess að { $email } var skráð fyrir { -product-firefox-account }.
 subplat-manage-account = Sýslaðu með stillingar { -product-firefox-account } með því að fara á <a data-l10n-name="subplat-account-page">reikningssíðuna þína</a>.
 subplat-terms-policy = Skilmálar og afbókunarreglur
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
@@ -77,6 +78,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Þetta er sjálfvirkur tölvupóstur; ef það varst ekki þú sem bættir nýju tæki á { -product-firefox-account } þinn, ættirðu að endurstilla lykilorðið þitt strax á { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann fyrir mistök er ekki þörf á neinum aðgerðum.
     Til að sjá frekari upplýsingar, skaltu fara á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
@@ -186,6 +188,12 @@ downloadSubscription-subject = Velkomin í { $productName }
 downloadSubscription-title = Velkomin í { $productName }
 downloadSubscription-content-2 = Við skulum byrja á að nota alla eiginleikana sem fylgja áskriftinni þinni:
 downloadSubscription-link-action-2 = Komast í gang
+fraudulentAccountDeletion-subject = { -product-firefox-account } þínum var eytt
+fraudulentAccountDeletion-title = Reikningnum þínum var eytt
+fraudulentAccountDeletion-contact = Ef þú ert með einhverjar spurningar skaltu hafa samband við <a data-l10n-name="mozillaSupportUrl">aðstoðarteymið okkar</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Ef þú ert með einhverjar spurningar skaltu hafa samband við aðstoðarteymið okkar: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Fáir endurheimtukóðar eftir
 codes-reminder-description = Við tókum eftir því að þú ert að verða uppiskroppa með endurheimtarkóða. Íhugaðu að búa til nýja kóða til að forðast að læsast úti af reikningnum þínum.

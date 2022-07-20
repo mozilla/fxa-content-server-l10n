@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-03-25 07:53+0000\n"
+"PO-Revision-Date: 2022-07-20 09:40+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -841,9 +841,7 @@ msgid "Invalid Token"
 msgstr "Ógilt teikn"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Með því að halda áfram samþykkir þú <a id=\"service-tos\" href=\"%(termsUri)s\">þjónustuskilmála</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">persónuverndarstefnu</a> frá %(serviceName)s "
 "(%(serviceUri)s)."
@@ -914,8 +912,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Settu inn eins-skiptis-notkunar endurheimtulykilinn sem þú geymir á vísum stað til að fá aftur aðgang að Firefox-reikningnum þínum."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ATHUGAÐU:</span> Ef þú endurstillir lykilorðið þitt og ert ekki með endurheimtulykil vistaðan á vísum stað, verður sumum gögnum þínum eytt (meðal annars samstillt gögn á "
 "netþjóni á borð við vafurferil og bókamerki)."
@@ -974,9 +971,9 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>MUNDU:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og "
-"lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa "
-"nein áhrif á gögn í  Pocket."
+"<span>MUNDU:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum)."
+" Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á "
+"gögn í  Pocket."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1055,11 +1052,11 @@ msgstr "Settu inn staðfestingarkóða"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "vegna Firefox-reikningsins þíns"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Settu inn staðfestingarkóðann sem sendur var til %(escapedEmail)s innan 5 mínútna."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1073,11 +1070,11 @@ msgstr "Sannreyna"
 
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Code expired?"
-msgstr ""
+msgstr "Útrunninn kóði?"
 
 #: .es5/templates/confirm_signup_code.mustache:7
 msgid "Email new code."
-msgstr ""
+msgstr "Senda nýjan kóða í tölvupósti."
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -1085,7 +1082,7 @@ msgstr "Tengja annað tæki"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "Firefox account connected"
-msgstr ""
+msgstr "Firefox-reikningur tengdur"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -1109,15 +1106,15 @@ msgstr "Skráðu þig inn í Firefox á öðru tæki til að ljúka uppsetningun
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Sync Firefox across devices"
-msgstr ""
+msgstr "Samstilltu Firefox á milli tækja"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
-msgstr ""
+msgstr "Skráðu þig inn alls staðar þar sem þú notar Firefox."
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
-msgstr ""
+msgstr "Við erum líka á Android og iOS!"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1149,6 +1146,9 @@ msgid ""
 "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Settu inn lykilorðið þitt <span class=\"description\">fyrir Firefox-reikninginn þinn</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1168,11 +1168,11 @@ msgstr "Gleymt lykilorð?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "Halda áfram í Firefox-reikninga"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Samstilltu lykilorðin þín, flipa og bókamerki alls staðar þar sem þú notar Firefox."
 
 #: .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1188,11 +1188,11 @@ msgstr "Tölvupóstur"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Nýskráðu þig eða skráðu þig inn"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Firefox-reikningur opnar einnig aðgang að öðrum persónuverndandi hugbúnaði frá Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1373,8 +1373,8 @@ msgid ""
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
 "<span>ATHUGAÐU:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og "
-"lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa "
-"nein áhrif á gögn í  Pocket."
+"lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein"
+" áhrif á gögn í  Pocket."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1434,8 +1434,7 @@ msgid ""
 msgstr ""
 "\n"
 "               Með því að halda áfram samþykkir þú:<br />\n"
-"              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">persónuverndarstefnu</a> Pocket<br /"
-">\n"
+"              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">persónuverndarstefnu</a> Pocket<br />\n"
 "              <a id=\"fxa-tos\" href=\"/legal/terms\">þjónustuskilmála</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">persónuverndarstefnu</a> fyrir Firefox.\n"
 "           "
 
@@ -1498,7 +1497,7 @@ msgstr "Settu inn auðkenningarkóða"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Stilltu lykilorðið þitt"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1530,8 +1529,7 @@ msgid ""
 msgstr ""
 "\n"
 "               Með því að halda áfram samþykkir þú:<br />\n"
-"              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">persónuverndarstefnu</a> Pocket<br /"
-">\n"
+"              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">persónuverndarstefnu</a> Pocket<br />\n"
 "              <a id=\"fxa-tos\" href=\"/legal/terms\">þjónustuskilmála</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">persónuverndarstefnu</a> fyrir Firefox.\n"
 "           "
 
@@ -1878,7 +1876,7 @@ msgstr "Hvaða aldri ertu á?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You need to be at least 13 years old to create an account."
-msgstr ""
+msgstr "Þú þarft að vera að minnsta kosti 13 ára til að búa til reikning."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1906,23 +1904,23 @@ msgstr "IP-vistfang: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Kröfur um lykilorð"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Að minnsta kosti 8 stafir"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Ekki tölvupóstfangið þitt"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Ekki algengt lykilorð"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr ""
+msgstr "Gættu fyllsta öryggis &mdash; alls ekki endurnýta lykilorð. Sjá fleiri ráð til að <a %(escapedCommonPasswordLinkAttrs)s>búa til örugg lykilorð</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1954,23 +1952,23 @@ msgstr "Halda áfram með Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "Varstu að skrá þig inn á Firefox?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "staðsetningarblaðra"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "Já, samþykkja tæki"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
-msgstr ""
+msgstr "Ef þetta varst ekki þú, <a id=\"change-password\">skaltu breyta lykilorðinu þínu</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1982,14 +1980,17 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Þú ert núna að samstilla við: <span>%(deviceFamily)s á %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Nú hefur þú aðgang að opnum flipum, lykilorðum og bókamerkjum á öllum tækjunum þínum."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Sjá flipa frá samstilltum tækjum"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -2009,23 +2010,23 @@ msgstr "Uppsetningarferlinu var hætt."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
 msgid "Get Firefox on your phone or tablet"
-msgstr ""
+msgstr "Fáðu þér Firefox í símann eða spjaldtölvuna"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Hold your phone's camera over the code to scan."
-msgstr ""
+msgstr "Haltu myndavél símans yfir kóðanum til að skanna."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
-msgstr ""
+msgstr "Eða sendu þér <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">niðurhalstengil.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I'm ready to sync devices"
-msgstr ""
+msgstr "Ég er tilbúin/n í að samstilla tæki"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Samstilltu tæki til að fá aðgang að flipum, lykilorðum og bókamerkjum alls staðar sem þú notar Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
