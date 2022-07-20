@@ -47,7 +47,11 @@ subplat-explainer-specific = Azért kapta ezt az e-mailt, mert a(z) { $email } r
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Azért kapta ezt az e-mailt, mert a(z) { $email } { -product-firefox-account }kal rendelkezik
 subplat-explainer-multiple = Azért kapta ezt az e-mailt, mert a(z) { $email } rendelkezik { -product-firefox-account }kal, és több termékre is előfizet.
+subplat-explainer-was-deleted = Azért kapta ezt az e-mailt, mert a(z) { $email } címéhez { -product-firefox-account }ot regisztráltak.
 subplat-manage-account = A { -product-firefox-account }ja beállításait a <a data-l10n-name="subplat-account-page">fiókoldal</a> felkeresésével kezelheti.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Kezelje a { -product-firefox-account }ja beállításait a fiókoldalának felkeresésével: { $accountSettingsUrl }
 subplat-terms-policy = Feltételek és lemondási feltételek
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Előfizetés lemondása
@@ -77,10 +81,15 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Ez egy automatikus üzenet, ha nem adott új eszközt a { -product-firefox-account }jához, akkor azonnal változtassa meg jelszavát itt: { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Ez egy automatikus üzenet; ha tévedésből kapta, akkor nincs teendője.
     További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
 automated-email-plaintext = Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője.
+automated-email-support = { automated-email-plaintext } További információkért keresse fel a <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Támogatást</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } További információkért keresse fel a { -brand-mozilla } Támogatást: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ez egy automatikus e-mail, ha nem Ön adott engedélyt erre a műveletre, akkor változtassa meg jelszavát:
 automated-email-reset =
@@ -186,6 +195,8 @@ downloadSubscription-subject = Üdvözli a { $productName }
 downloadSubscription-title = Üdvözli a { $productName }
 downloadSubscription-content-2 = Kezdjük el használni az előfizetésében szereplő összes szolgáltatást:
 downloadSubscription-link-action-2 = Kezdő lépések
+fraudulentAccountDeletion-subject = A { -product-firefox-account }ja törölve lett
+fraudulentAccountDeletion-title = Fiókját törölték
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kevés helyreállító kód maradt
 codes-reminder-description = Észrevettük, hogy kevés helyreállító kódja maradt. Fontolja meg új kódok előállítását, hogy elkerülje azt, hogy kizárja megát a fiókjából.
