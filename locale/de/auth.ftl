@@ -47,7 +47,11 @@ subplat-explainer-specific = Sie erhalten diese E-Mail, weil { $email } über ei
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Sie erhalten diese E-Mail, weil { $email } ein { -product-firefox-account } hat
 subplat-explainer-multiple = Sie erhalten diese E-Mail, weil { $email } über ein { -product-firefox-account } verfügt und Sie sich für mehrere Produkte angemeldet haben.
+subplat-explainer-was-deleted = Sie erhalten diese E-Mail, weil { $email } für ein { -product-firefox-account } registrriert wurde
 subplat-manage-account = Verwalten Sie Ihre { -product-firefox-account }-Einstellungen, indem Sie Ihre <a data-l10n-name="subplat-account-page">Kontoseite</a> aufrufen.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Verwalten Sie Ihre Einstellungen für { -product-firefox-account }, indem Sie Ihre Kontoseite besuchen: { $accountSettingsUrl }
 subplat-terms-policy = AGB und Widerrufsbelehrung
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonnement kündigen
@@ -77,10 +81,15 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Dies ist eine automatische E-Mail; wenn Sie Ihrem { -product-firefox-account } kein neues Gerät hinzugefügt haben, ändern Sie bitte umgehend Ihr Passwort unter { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Dies ist eine automatisierte E-Mail; wenn Sie sie irrtümlicherweise erhalten haben, müssen sie nichts tun.
     Weitere Informationen finden Sie bei der <a data-l10n-name="supportLink">{ -brand-mozilla }-Hilfe</a>.
 automated-email-plaintext = Dies ist eine automatisierte E-Mail; wenn Sie diese fälschlicherweise erhalten haben, müssen Sie nichts tun.
+automated-email-support = { automated-email-plaintext } Weitere Informationen erhalten Sie bei der <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla }-Hilfe</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Weitere Informationen erhalten Sie bei der { -brand-mozilla }-Hilfe: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Dies ist eine automatisierte E-Mail; wenn Sie diese Aktion nicht autorisiert haben, ändern Sie bitte Ihr Passwort:
 automated-email-reset =
@@ -186,6 +195,14 @@ downloadSubscription-subject = Willkommen bei { $productName }.
 downloadSubscription-title = Willkommen bei { $productName }.
 downloadSubscription-content-2 = Nutzen Sie jetzt alle Funktionen Ihres Abonnements:
 downloadSubscription-link-action-2 = Erste Schritte
+fraudulentAccountDeletion-subject = Ihr { -product-firefox-account } wurde gelöscht
+fraudulentAccountDeletion-title = Ihr Konto wurde gelöscht
+fraudulentAccountDeletion-content = Kürzlich wurde ein { -product-firefox-account } erstellt und ein Abonnement wurde über diese E-Mail-Adresse abgerechnet. Wie bei allen neuen Konten haben wir Sie gebeten, Ihr Konto zu bestätigen, indem Sie zuerst diese E-Mail-Adresse bestätigen.
+fraudulentAccountDeletion-content-2 = Derzeit sehen wir, dass das Konto nie bestätigt wurde. Da dieser Schritt nicht abgeschlossen wurde, sind wir uns nicht sicher, ob es sich um ein autorisiertes Abonnement handelt. Infolgedessen wurde das unter dieser E-Mail-Adresse registrierte { -product-firefox-account } gelöscht und Ihr Abonnement wurde mit Erstattung aller Gebühren gekündigt.
+fraudulentAccountDeletion-contact = Wenden Sie sich bei Fragen bitte an unser <a data-l10n-name="mozillaSupportUrl">Hilfe-Team</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Wenden Sie sich bei Fragen bitte an unser Hilfe-Team: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Nur noch wenige übrige Wiederherstellungscodes
 codes-reminder-description = Wir haben festgestellt, dass Sie nur noch wenige Wiederherstellungscodes besitzen. Überlegen Sie bitte, ob Sie neue Codes erzeugen möchten, um nicht aus Ihrem Konto ausgesperrt zu werden.
