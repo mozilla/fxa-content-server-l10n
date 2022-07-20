@@ -201,6 +201,12 @@ downloadSubscription-content-2 = Inizia a utilizzare tutte le funzionalità incl
 downloadSubscription-link-action-2 = Inizia
 fraudulentAccountDeletion-subject = Il tuo { -product-firefox-account } è stato eliminato
 fraudulentAccountDeletion-title = Il tuo account è stato eliminato
+fraudulentAccountDeletion-content = Di recente è stato creato un { -product-firefox-account } ed è stato registrato un abbonamento a pagamento utilizzando questo indirizzo email. Come facciamo per tutti i nuovi account, abbiamo chiesto per prima cosa di confermare il tuo account convalidando questo indirizzo email.
+fraudulentAccountDeletion-content-2 = Al momento ci risulta che l’account non è mai stato confermato. Poiché questo passaggio non è stato completato, non possiamo essere sicuri che si tratti di un abbonamento autorizzato. Di conseguenza, l’{ -product-firefox-account } registrato con questo indirizzo email è stato eliminato e l’abbonamento è stato annullato con il rimborso di tutti gli addebiti.
+fraudulentAccountDeletion-contact = Sei hai altre domande, contatta il nostro <a data-l10n-name="mozillaSupportUrl">team di supporto</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Sei hai altre domande, contatta il nostro team di supporto: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Sono rimasti pochi codici di recupero
 codes-reminder-description = Ti informiamo che ti sono rimasti pochi codici di recupero. Genera dei nuovi codici per evitare di restare tagliato fuori dal tuo account.
