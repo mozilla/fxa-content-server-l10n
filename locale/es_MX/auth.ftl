@@ -77,6 +77,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Este es un email generado automáticamente; si no has añadido ningún dispositivo nuevo a tu { -product-firefox-account }, deberías cambiar inmediatamente tu contraseña en { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Este es un correo automático; si lo recibiste por error, no se requiere ninguna acción.
     Para más información, por favor visita <a data-l10n-name="supportLink">el soporte de { -brand-mozilla }</a>.
@@ -188,6 +189,8 @@ downloadSubscription-subject = Bienvenido a { $productName }
 downloadSubscription-title = Bienvenido a { $productName }
 downloadSubscription-content-2 = Comencemos usando todas las características incluidas en tu suscripción:
 downloadSubscription-link-action-2 = Comenzar
+fraudulentAccountDeletion-subject = Tu { -product-firefox-account } fue eliminada
+fraudulentAccountDeletion-title = Tu cuenta fue eliminada
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Quedan pocos códigos de recuperación
 codes-reminder-description = Hemos notado que te quedan pocos códigos de recuperación. Deberías replantearte generar nuevos códigos para evitar perder el acceso a tu cuenta.
