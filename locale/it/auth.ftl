@@ -51,7 +51,11 @@ subplat-explainer-specific = Ricevi questa email perché l’indirizzo { $email 
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Ricevi questa email perché l’indirizzo { $email } è associato a un { -product-firefox-account }.
 subplat-explainer-multiple = Ricevi questa email perché l’indirizzo { $email } è associato a un { -product-firefox-account } e ti sei registrato per più prodotti.
+subplat-explainer-was-deleted = Ricevi questa email perché l’indirizzo { $email } è stato registrato per un { -product-firefox-account }.
 subplat-manage-account = Gestisci le impostazioni del tuo { -product-firefox-account } visitando la <a data-l10n-name="subplat-account-page">pagina dell’account</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Gestisci le impostazioni del tuo { -product-firefox-account } visitando questa pagina: { $accountSettingsUrl }
 subplat-terms-policy = Termini e condizioni di annullamento
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Annulla abbonamento
@@ -81,6 +85,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Questa email è stata inviata da un servizio automatico. Se non sei stato tu ad aggiungere un nuovo dispositivo all’{ -product-firefox-account }, cambia subito la password utilizzando il link { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore puoi semplicemente ignorarla.
     Per ulteriori informazioni visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
@@ -170,10 +175,7 @@ view-invoice = <a data-l10n-name="invoiceLink">Visualizza la tua fattura</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Visualizza fattura: { $invoiceLink }
-cadReminderFirst-subject = Sollecito amichevole: come completare la configurazione di Sync
 cadReminderFirst-action = Sincronizza un altro dispositivo
-cadReminderFirst-title = Ecco il tuo promemoria per la sincronizzazione dei dispositivi.
-cadReminderFirst-description = Bisogna essere in due per sincronizzarsi… Sincronizzando un altro dispositivo con { -brand-firefox } potrai ritrovare gli stessi segnalibri, le password e altri dati ovunque usi { -brand-firefox }, senza rinunciare alla riservatezza.
 cadReminderSecond-subject-2 = Non perderti nulla! Completa la configurazione per iniziare a sincronizzare
 cadReminderSecond-action = Sincronizza un altro dispositivo
 cadReminderSecond-title-2 = Non dimenticarti di sincronizzare!
