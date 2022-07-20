@@ -77,6 +77,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Це автоматично надісланий лист. Якщо ви не додавали новий пристрій до свого { -product-firefox-account(case: "gen", capitalization: "lower") }, вам потрібно негайно змінити свій пароль на { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Це автоматично надісланий лист; якщо ви отримали його помилково, нічого робити не потрібно.
     Для отримання додаткових відомостей зверніться до <a data-l10n-name="supportLink">підтримки { -brand-mozilla }</a>.
@@ -210,7 +211,7 @@ passwordChanged-title = Пароль успішно змінено
 passwordChanged-description = Пароль вашого { -product-firefox-account(case: "gen", capitalization: "lower") } був успішно змінений з такого пристрою:
 passwordChangeRequired-subject = Виявлено підозрілу активність
 passwordChangeRequired-title = Необхідно змінити пароль
-passwordChangeRequired-suspicious-activity = Ми помітили підозрілу діяльність у вашому { -product-firefox-account(case: "loc", capitalization: "lower") }. З міркувань безпеки та для запобігання несанкціонованому доступу до { -product-firefox-account(case: "gen", capitalization: "lower") } ми відʼєднали всі пов'язані з ним пристрої та вимагаємо змінити пароль.
+passwordChangeRequired-suspicious-activity = Ми помітили підозрілу діяльність у вашому { -product-firefox-account(case: "loc", capitalization: "lower") }. З міркувань безпеки та для запобігання несанкціонованому доступу до { -product-firefox-account(case: "gen", capitalization: "lower") } ми від'єднали всі пов'язані з ним пристрої та вимагаємо змінити пароль.
 passwordChangeRequired-sign-in = Увійдіть знову на будь-якому пристрої або до служби, де ви користуєтеся своїм { -product-firefox-account(case: "gen", capitalization: "lower") }, і виконайте запропоновані вказівки.
 passwordChangeRequired-different-password = <b>Важливо:</b> Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних.
 passwordChangeRequired-signoff = Всього найкращого,

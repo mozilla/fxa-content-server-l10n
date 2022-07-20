@@ -128,8 +128,8 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>політика приватн
 ## Payment form
 
 payment-name =
-    .placeholder = Повне ім’я
-    .label = Імʼя, зазначене на вашій картці
+    .placeholder = Повне ім'я
+    .label = Ім'я, зазначене на вашій картці
 payment-cc =
     .label = Ваша картка
 payment-ccn =
@@ -179,7 +179,7 @@ payment-update-btn = Оновити
 payment-pay-btn = Сплатити зараз
 payment-pay-with-paypal-btn = Сплатити через { -brand-name-paypal }
 payment-validate-name-error = Будь ласка, введіть своє ім’я
-payment-validate-zip-required = Поштовий індекс обовʼязковий
+payment-validate-zip-required = Поштовий індекс обов'язковий
 payment-validate-zip-short = Поштовий індекс закороткий
 
 ## Subscription redirect
