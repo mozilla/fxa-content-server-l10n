@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-20 11:24+0000\n"
+"PO-Revision-Date: 2022-07-20 11:31+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -1067,7 +1067,7 @@ msgstr "פג תוקף הקוד?"
 
 #: .es5/templates/confirm_signup_code.mustache:7
 msgid "Email new code."
-msgstr ""
+msgstr "שליחת קוד חדש בדוא״ל."
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -1075,7 +1075,7 @@ msgstr "חיבור מכשיר נוסף"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "Firefox account connected"
-msgstr ""
+msgstr "חשבון Firefox מחובר"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -1099,15 +1099,15 @@ msgstr "יש להיכנס ל־Firefox במכשיר נוסף כדי להשלים 
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Sync Firefox across devices"
-msgstr ""
+msgstr "סנכרון Firefox בין מכשירים"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
-msgstr ""
+msgstr "יש להיכנס בכל מקום בו יש לך את Firefox."
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
-msgstr ""
+msgstr "אנחנו גם ב־Android וב־iOS!"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1139,6 +1139,9 @@ msgid ""
 "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          נא להכניס את הססמה שלך<span class=\"description\">עבור חשבון ה־Firefox שלך</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1162,7 +1165,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "סנכרון הססמאות, הלשוניות פתוחות והסימניות שלך בכל מקום בו יש לך את Firefox."
 
 #: .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1178,7 +1181,7 @@ msgstr "דואר אלקטרוני"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "הרשמה או התחברות"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
