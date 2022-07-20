@@ -51,7 +51,11 @@ subplat-explainer-specific = קיבלת הודעת דוא״ל זו מכיוון 
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = קיבלת את הודעת הדוא״ל הזו מכיוון שלכתובת { $email } יש { -product-firefox-account(case: "a") }.
 subplat-explainer-multiple = קיבלת הודעת דוא״ל זו מכיוון שלכתובת { $email } יש { -product-firefox-account(case: "a") } ונרשמת כמינוי למספר מוצרים.
+subplat-explainer-was-deleted = קיבלת את הודעת הדוא״ל הזו מכיוון שהכתובת { $email } נרשמה עבור { -product-firefox-account(case: "a") }.
 subplat-manage-account = ניתן לנהל את הגדרות { -product-firefox-account(case: "the") } על־ידי ביקור ב<a data-l10n-name="subplat-account-page">דף החשבון</a> שלך.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = ניתן לנהל את הגדרות { -product-firefox-account(case: "the") } שלך על־ידי כניסה לדף החשבון שלך:
 subplat-terms-policy = תנאים ומדיניות ביטול
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = ביטול מינוי
@@ -81,10 +85,15 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = זוהי הודעת דוא״ל שנשלחה באופן אוטומטי; אם לא הוספת מכשיר חדש ל{ -product-firefox-account(case: "the") }, עליך לשנות את ססמתך באופן מיידי בכתובת { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     זוהי הודעת דוא״ל אוטומטית; אם קיבלת אותה בטעות, לא נדרשת פעולה מצידך.
     למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
 automated-email-plaintext = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך.
+automated-email-support = { automated-email-plaintext } למידע נוסף, נא לבקר ב־<a data-l10n-name="mozillaSupportUrl">תמיכה של { -brand-mozilla }</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } למידע נוסף, נא לבקר בתמיכה של { -brand-mozilla }: ‏{ $mozillaSupportUrl }
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = זאת הודעה אוטומטית, אם לא אישרת את הפעולה הזאת, נא להחליף את הסיסמה שלך:
 automated-email-reset =
@@ -187,6 +196,8 @@ downloadSubscription-subject = ברוכים הבאים אל { $productName }
 downloadSubscription-title = ברוכים הבאים אל { $productName }
 downloadSubscription-content-2 = אפשר להתחיל עם כל היכולות שכלולות במינוי שלך:
 downloadSubscription-link-action-2 = תחילת עבודה
+fraudulentAccountDeletion-subject = { -product-firefox-account(case: "the") } שלך נמחק
+fraudulentAccountDeletion-title = החשבון שלך נמחק
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = נותרו מעט קודים לשחזור
 codes-reminder-description = שמנו לב שמפתחות השחזור שלך הולכים ואוזלים. נא לשקול לייצר קודים חדשים כדי להימנע מנעילתך מחוץ לחשבון.
