@@ -49,6 +49,9 @@ subplat-explainer-reminder-form = Jo ûntfange dit e-mailberjocht omdat { $email
 subplat-explainer-multiple = Jo ûntfange dit berjocht omdat { $email } in { -product-firefox-account } hat en jo binne abonnearre op mear produkten.
 subplat-explainer-was-deleted = Jo ûntfange dit e-mailberjocht omdat { $email } registrearre wie foar in { -product-firefox-account }
 subplat-manage-account = Behear jo { -product-firefox-account }-ynstellingen troch nei jo <a data-l10n-name="subplat-account-page">accountside</a> te gean.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = { -product-firefox-account }-ynstellingen beheare troch jo accountside te besykjen: { $accountSettingsUrl }
 subplat-terms-policy = Betingsten en annulearringsbelied
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonnemint opsizze
@@ -83,6 +86,10 @@ automated-email =
     Dit is in automatisearre e-mailberjocht; as jo it ûnrjochtlik ûntfongen hawwe, hoege jo neat te dwaan.
     Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Dit is in automatysk e-mailberjocht; as jo it troch fersin ûntfongen hawwe, hoege jo neat te dwaan.
+automated-email-support = { automated-email-plaintext } Mear ynformaasje op <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla }-Stipe</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Mear ynformaasje op { -brand-mozilla }-Stipe: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, wizigje dan jo wachtwurd:
 automated-email-reset =
@@ -188,6 +195,14 @@ downloadSubscription-subject = Wolkom by { $productName }.
 downloadSubscription-title = Wolkom by { $productName }.
 downloadSubscription-content-2 = Litte wy oan de slach gean mei alle funksjes dy’t by jo abonnemint ynbegrepen binne:
 downloadSubscription-link-action-2 = Oan de slach
+fraudulentAccountDeletion-subject = Jo { -product-firefox-account } is fuortsmiten
+fraudulentAccountDeletion-title = Jo account is fuortsmiten
+fraudulentAccountDeletion-content = Koartlyn is der in { -product-firefox-account } oanmakke en in abonnemint mei dit e-mailadres yn rekken brocht. Lykas wy dogge mei alle nije accounts, hawwe wy jo frege om jo account te befêstigjen troch dit e-mailadres earst te falidearjen.
+fraudulentAccountDeletion-content-2 = Op it stuit sjogge wy dat dizze account nea befêstige is. Omdat dizze stap net foltôge is, binne wy net wis oft dit in autorisearre abonnemint is. Dêrtroch is it { -product-firefox-account }, registrearre by dit e-mailadres, fuortsmiten en is jo abonnemint annulearre binne alle kosten werombetelle.
+fraudulentAccountDeletion-contact = As jo fragen hawwe, nim dan kontakt op mei ús <a data-l10n-name="mozillaSupportUrl">stipeteam</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = As jo fragen hawwe, nim dan kontakt op mei ús stipeteam: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Net in protte werstelkoaden restearjend
 codes-reminder-description = Wy hawwe murken dat jo noch net in protte werstelkoaden hawwe. Oerweagje nije koaden te generearjen om te foar te kommen dat jo gjin tagong mear hawwe ta jo account.
