@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-20 10:12+0000\n"
+"PO-Revision-Date: 2022-07-21 02:51+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -1180,7 +1180,7 @@ msgstr "註冊或登入"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "註冊 Firefox 帳號，還能使用 Mozilla 更多與隱私保護相關的產品。"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1899,7 +1899,7 @@ msgstr "不可以是常見的密碼"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr ""
+msgstr "確保安全 &mdash; 請勿重複使用密碼。可在此參考<a %(escapedCommonPasswordLinkAttrs)s>建立強密碼</a>的小秘訣。"
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1962,7 +1962,7 @@ msgstr "已開始與：<span>%(deviceOS)s 上的 %(deviceFamily)s</span> 同步"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "您現在可以在所有裝置使用您開啟的分頁、密碼、書籤資料了。"
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
@@ -2002,7 +2002,7 @@ msgstr "我已經準備好同步裝置"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "同步裝置後，即在使用 Firefox 的所有地方同步您的分頁、密碼與書籤。"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
