@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-21 02:21+0000\n"
+"PO-Revision-Date: 2022-07-21 02:22+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_CL\n"
@@ -1055,7 +1055,7 @@ msgstr "para tu cuenta de Firefox"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Ingresa el código que fue enviado a %(escapedEmail)s dentro de los próximos 5 minutos."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1164,7 +1164,7 @@ msgstr "¿Olvidaste tu contraseña?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "Continuar a cuentas de Firefox"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -2010,7 +2010,7 @@ msgstr "Sostén la cámara de tu teléfono sobre el código para escanearlo."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
-msgstr ""
+msgstr "O envíate un <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">enlace de descarga</a>."
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I'm ready to sync devices"
@@ -2018,7 +2018,7 @@ msgstr "Todo listo para sincronizar dispositivos"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Sincroniza dispositivos para acceder a tus pestañas, contraseñas y marcadores en cualquier lugar donde uses Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
