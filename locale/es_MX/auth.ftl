@@ -86,6 +86,10 @@ automated-email =
     Este es un correo automático; si lo recibiste por error, no se requiere ninguna acción.
     Para más información, por favor visita <a data-l10n-name="supportLink">el soporte de { -brand-mozilla }</a>.
 automated-email-plaintext = Este es un correo electrónico automático; si lo recibiste por error, no tienes que hacer nada.
+automated-email-support = { automated-email-plaintext } Para más información, por favor, visita <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Soporte</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Para más información, por favor, visita { -brand-mozilla } Soporte: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Este es un correo electrónico automatizado; si no autorizaste esta acción, cambia tu contraseña:
 automated-email-reset =
@@ -195,6 +199,12 @@ downloadSubscription-content-2 = Comencemos usando todas las características in
 downloadSubscription-link-action-2 = Comenzar
 fraudulentAccountDeletion-subject = Tu { -product-firefox-account } fue eliminada
 fraudulentAccountDeletion-title = Tu cuenta fue eliminada
+fraudulentAccountDeletion-content = Recientemente, una { -product-firefox-account } fue creada y una suscripción fue cobrada usando esta dirección de correo electrónico. Como lo hacemos con todas las cuentas nuevas, pedimos que confirmes tu cuenta primero validando esta dirección de correo.
+fraudulentAccountDeletion-content-2 = Actualmente, vemos que la cuenta nunca fue confirmada. Dado que este paso no se completó, no estamos seguros de si se trataba de una suscripción autorizada. Como resultado, la { -product-firefox-account } registrada en esta dirección de correo electrónico se eliminó y tu suscripción se canceló con todos los cargos reembolsados.
+fraudulentAccountDeletion-contact = Si tienes preguntas, por favor contacta a nuestro <a data-l10n-name="mozillaSupportUrl">equipo de soporte</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Si tienes preguntas, por favor contacta a nuestro equipo de soporte: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Quedan pocos códigos de recuperación
 codes-reminder-description = Hemos notado que te quedan pocos códigos de recuperación. Deberías replantearte generar nuevos códigos para evitar perder el acceso a tu cuenta.
