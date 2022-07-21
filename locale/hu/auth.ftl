@@ -197,6 +197,10 @@ downloadSubscription-content-2 = Kezdjük el használni az előfizetésében sze
 downloadSubscription-link-action-2 = Kezdő lépések
 fraudulentAccountDeletion-subject = A { -product-firefox-account }ja törölve lett
 fraudulentAccountDeletion-title = Fiókját törölték
+fraudulentAccountDeletion-contact = Ha kérdése van, forduljon <a data-l10n-name="mozillaSupportUrl">támogatási csapatunkhoz</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Ha bármilyen kérdése van, forduljon támogatási csapatunkhoz: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kevés helyreállító kód maradt
 codes-reminder-description = Észrevettük, hogy kevés helyreállító kódja maradt. Fontolja meg új kódok előállítását, hogy elkerülje azt, hogy kizárja megát a fiókjából.
