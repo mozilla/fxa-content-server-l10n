@@ -47,6 +47,7 @@ subplat-explainer-specific = Ви отримали цей лист, тому щ�
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Ви отримали цей лист, тому що { $email } пов'язано з { -product-firefox-account(case: "abl", capitalization: "lower") }.
 subplat-explainer-multiple = Ви отримали цей лист, тому що { $email } пов'язано з { -product-firefox-account(case: "abl", capitalization: "lower") } і ви передплатили декілька продуктів.
+subplat-explainer-was-deleted = Ви отримали цей лист, тому що { $email } зареєстровано для { -product-firefox-account(case: "abl", capitalization: "lower") }.
 subplat-manage-account = Керуйте налаштуваннями { -product-firefox-account(case: "gen", capitalization: "lower") } зі своєї <a data-l10n-name="subplat-account-page">сторінки облікового запису</a>.
 subplat-terms-policy = Умови та політика відмови від послуг
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
@@ -187,6 +188,11 @@ downloadSubscription-subject = Вітаємо в { $productName }
 downloadSubscription-title = Вітаємо в { $productName }
 downloadSubscription-content-2 = Розпочніть користуватися всіма функціями, включеними у вашу передплату:
 downloadSubscription-link-action-2 = Розпочнімо
+fraudulentAccountDeletion-title = Ваш обліковий запис видалено
+fraudulentAccountDeletion-contact = Якщо у вас виникли запитання, зв’яжіться з нашою <a data-l10n-name="mozillaSupportUrl">службою підтримки</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Якщо у вас виникли запитання, зверніться до нашої служби підтримки: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Залишилося мало кодів відновлення
 codes-reminder-description = У вас залишилось мало кодів відновлення. Будь ласка, згенеруйте нові коди, щоб не втратити можливість отримання доступу до свого облікового запису.
