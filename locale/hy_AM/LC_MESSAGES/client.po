@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 09:13+0000\n"
+"POT-Creation-Date: 2022-07-21 22:13+0000\n"
 "PO-Revision-Date: 2022-04-27 00:21+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -936,8 +936,8 @@ msgid "Cannot create account"
 msgstr "Հնարավոր չէ հաշիվ ստեղծել"
 
 #: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Firefox&nbsp; հաշիվ ստեղծելու համար դուք պետք է բավարարեք տարիքային որոշակի պահանջներ։"
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1043,10 +1043,9 @@ msgstr "Ուղարկված էլ․Փոստը վերակայեք"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Հաջորդ ժամվա ընթացքում կտտացրեք %(email)s հասցեին ուղարկված հղմանը՝ նոր գաղտնաբառ ստեղծելու համար։"
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "Մուտքագրեք ստուգման կոդը"
+#: .es5/templates/confirm_signup_code.mustache:1
+msgid "Enter confirmation code"
+msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
@@ -1061,12 +1060,12 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "Մուտքագրեք 6 նիշանոց կոդ"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
 msgstr "Հաստատել"
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Code expired?"
 msgstr ""
 
@@ -1210,8 +1209,8 @@ msgstr "Պատճենել"
 msgid "Print"
 msgstr "Տպել"
 
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_token_code.mustache:5
-#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Շարունակել"
@@ -1231,10 +1230,6 @@ msgstr "Ապահովելու համար, որ դուք կկարողանաք վե
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "Վերականգնման կոդ"
-
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
-msgid "Confirm"
-msgstr "Հաստատել"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1358,7 +1353,7 @@ msgstr "Դուք ստացաք նամակ ձեր հաշիվ մուտք գործե
 msgid "Report activity"
 msgstr "Հաղորդել գործունեության մասին"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Ինչու՞ է սա տեղի ունենում։"
 
@@ -1437,6 +1432,10 @@ msgstr "Խնդրում ենք մուտքագրել վերականգնման կո
 msgid "Enter 10-digit recovery code"
 msgstr "Մուտքագրեք վերականգնման 10 նիշանոց ծածկագիր"
 
+#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+msgid "Verify"
+msgstr "Հաստատել"
+
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
 msgstr "Հաշիվը փակված է։"
@@ -1449,18 +1448,21 @@ msgstr "Շնորհակալություն զգոնության համար"
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "Մեր թիմին ծանուցել են։ Նմանատիպ զեկույցները օգնում են մեզ զերծ մնալ ներխուժումներից։"
 
-#: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-#: .es5/templates/push/send_login.mustache:1
-msgid "Authorize this sign-in"
-msgstr "Լիազորեք այս մուտքը"
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter confirmation"
+msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:3
-msgid "Check your email for the code sent to %(email)s."
-msgstr "Ստուգեք ձեր էլ․փոստը՝ %(email)s հասցեին ուղարկված կոդի համար։"
+msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgstr ""
 
-#: .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "Անհրաժեշտ է մեկ այլ ծածկագիր։ Ուղարկել նորից"
+#: .es5/templates/sign_in_token_code.mustache:7
+msgid "Email new code"
+msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1473,6 +1475,10 @@ msgstr "Բացեք ձեր նույնականացման ծրագիրը և մու�
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr "Մուտքագրման խնդիր կա՞:"
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "Լիազորեք այս մուտքը"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1654,9 +1660,17 @@ msgstr "Երկրորդային էլ֊փոստ"
 msgid "Maybe later"
 msgstr "Ավելի ուշ"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter verification code"
+msgstr "Մուտքագրեք ստուգման կոդը"
+
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Խնդրում ենք մուտքագրել այն հաստատման ծածկագիրը, որը ուղարկվել է %(escapedEmail)s֊ին 5 րոպեի ընթացքում։"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr "Անհրաժեշտ է մեկ այլ ծածկագիր։ Ուղարկել նորից"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
@@ -1858,7 +1872,7 @@ msgid "How old are you?"
 msgstr "Քա՞նի տարեկան եք։"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You need to be at least 13 years old to create an account."
+msgid "You must be over 13 to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -2031,6 +2045,12 @@ msgstr "Զուգավորում օգտագործելով ծածկագիրը"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Օգտագործե՞լ եք համակարգի ֆոտոխցիկը։Դուք պետք է զուգորդվեք  Firefox ծրագրի մեջ։"
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Firefox&nbsp; հաշիվ ստեղծելու համար դուք պետք է բավարարեք տարիքային որոշակի պահանջներ։"
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "Ստուգեք ձեր էլ․փոստը՝ %(email)s հասցեին ուղարկված կոդի համար։"
 
 #~ msgid "Why is more than one device required?"
 #~ msgstr "Ինչու է պահանջվում մեկից ավելի սարք?"
