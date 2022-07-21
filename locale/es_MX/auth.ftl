@@ -47,7 +47,11 @@ subplat-explainer-specific = Estás recibiendo este correo porque { $email } tie
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Estás recibiendo este correo electrónico porque { $email } tiene una { -product-firefox-account }.
 subplat-explainer-multiple = Estás recibiendo este correo porque { $email } tiene una cuenta de { -product-firefox-account } y te has registrado para múltiples productos.
+subplat-explainer-was-deleted = Estás recibiendo este correo porque { $email } fue registrado para una { -product-firefox-account }
 subplat-manage-account = Administra los ajustes de tu cuenta de { -product-firefox-account } visitando tu<a data-l10n-name="subplat-account-page">página de la cuenta</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Administra la configuración de tu { -product-firefox-account } visitando la página de la cuenta: { $accountSettingsUrl }
 subplat-terms-policy = Términos y política de cancelación
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar suscripción
