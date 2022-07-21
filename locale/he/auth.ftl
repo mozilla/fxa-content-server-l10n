@@ -53,9 +53,6 @@ subplat-explainer-reminder-form = קיבלת את הודעת הדוא״ל הזו
 subplat-explainer-multiple = קיבלת הודעת דוא״ל זו מכיוון שלכתובת { $email } יש { -product-firefox-account(case: "a") } ונרשמת כמינוי למספר מוצרים.
 subplat-explainer-was-deleted = קיבלת את הודעת הדוא״ל הזו מכיוון שהכתובת { $email } נרשמה עבור { -product-firefox-account(case: "a") }.
 subplat-manage-account = ניתן לנהל את הגדרות { -product-firefox-account(case: "the") } על־ידי ביקור ב<a data-l10n-name="subplat-account-page">דף החשבון</a> שלך.
-# Variables:
-#  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext = ניתן לנהל את הגדרות { -product-firefox-account(case: "the") } שלך על־ידי כניסה לדף החשבון שלך:
 subplat-terms-policy = תנאים ומדיניות ביטול
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = ביטול מינוי
