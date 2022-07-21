@@ -49,6 +49,9 @@ subplat-explainer-reminder-form = Estás recibiendo este correo porque { $email 
 subplat-explainer-multiple = Estás recibiendo este correo porque { $email } tiene una cuenta de { -product-firefox-account } y te has registrado para múltiples productos.
 subplat-explainer-was-deleted = Estás recibiendo este correo porque { $email } fue registrado para una { -product-firefox-account }
 subplat-manage-account = Gestiona los ajustes de tu cuenta de { -product-firefox-account } visitando nuestra <a data-l10n-name="subplat-account-page">página de la cuenta</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Gestiona tus ajustes de { -product-firefox-account } visitando la página de tu cuenta: { $accountSettingsUrl }
 subplat-terms-policy = Términos y política de cancelación
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar suscripción
@@ -83,6 +86,10 @@ automated-email =
     Este es un correo automático; si lo recibiste por error, no se requiere ninguna acción.
     Para más información, por favor visita <a data-l10n-name="supportLink">el soporte de { -brand-mozilla }</a>.
 automated-email-plaintext = Este es un email automático. Si lo recibiste por error, no necesitas hacer nada.
+automated-email-support = { automated-email-plaintext } Para más información, por favor visita el <a data-l10n-name="mozillaSupportUrl">Soporte de { -brand-mozilla }</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Para más información, visita el Soporte de { -brand-mozilla }: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Este es un correo automático; si no autorizaste esta acción, por favor cambia tu contraseña:
 automated-email-reset =
