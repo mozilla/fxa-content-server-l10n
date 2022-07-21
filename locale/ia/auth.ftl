@@ -47,7 +47,11 @@ subplat-explainer-specific = Tu recipe iste e-mail perque { $email } ha un { -pr
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Tu recipe iste e-mail perque { $email } ha un { -product-firefox-account }.
 subplat-explainer-multiple = Tu recipe iste e-mail perque { $email } ha un { -product-firefox-account } e tu es abonate a plure productos.
+subplat-explainer-was-deleted = Tu recipe iste email perque { $email } es registrate pro un { -product-firefox-account }.
 subplat-manage-account = Gere tu parametros del { -product-firefox-account } visitante tu <a data-l10n-name="subplat-account-page">pagina de conto</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Gere tu parametros de { -product-firefox-account } visitante le pagina de tu conto: { $accountSettingsUrl }
 subplat-terms-policy = Terminos e politica de cancellation
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancellar subscription
@@ -77,10 +81,15 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Isto es un e-mail automatisate; si tu non habeva addite un nove apparato a tu { -product-firefox-account }, tu debe cambiar tu contrasigno immediatemente a { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Isto es un e-mail automatisate; si tu lo ha recipite per error, nulle action es necessari.
     Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
 automated-email-plaintext = Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari.
+automated-email-support = { automated-email-plaintext } Pro altere informationes, visita <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Supporto</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Pro altere informationes, visita { -brand-mozilla } Supporto: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Isto es un e-mail automatisate; si tu non autorisa iste action, alora cambia tu contrasigno:
 automated-email-reset =
@@ -186,6 +195,14 @@ downloadSubscription-subject = Benvenite a { $productName }.
 downloadSubscription-title = Benvenite a { $productName }.
 downloadSubscription-content-2 = Comencia a usar tote le functiones includite in tu abonamento:
 downloadSubscription-link-action-2 = Comenciar
+fraudulentAccountDeletion-subject = Tu { -product-firefox-account } ha essite delite
+fraudulentAccountDeletion-title = Tu conto ha essite delite
+fraudulentAccountDeletion-content = Recentemente, un { -product-firefox-account } ha essite create e un abonamento cargate per iste adresse email. Como nos face con tote le nove contos, nos demanda que tu confirma tu conto per le prime validation de iste adresse email.
+fraudulentAccountDeletion-content-2 = Actualmente, nos vide que le conto jammais ha essite confirmate. Pois que iste passo non ha essite completate, nos non es secur si isto era un abonamento autorisate. In consequentia, le { -product-firefox-account } registrate a iste adresse email ha essite delite e tu abonamento cancellate con tote tu cargas reimbursate.
+fraudulentAccountDeletion-contact = Si tu ha ulle questiones, contacta nostre <a data-l10n-name="mozillaSupportUrl">equipa de assistentia</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Si tu ha ulle questiones, contacta nostre equipa de assistentia: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Pauc codices de recuperation restante
 codes-reminder-description = Nos ha constatate que te resta pauc codices de recuperation. Considera generar nove codices pro evitar perder le accesso a tu conto.

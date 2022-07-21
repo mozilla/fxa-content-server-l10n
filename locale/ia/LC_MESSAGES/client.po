@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-21 10:53+0000\n"
+"PO-Revision-Date: 2022-07-21 12:28+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1142,6 +1142,9 @@ msgid ""
 "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Insere tu contrasigno <span lection=\"description\">pro tu conto Firefox</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1161,11 +1164,11 @@ msgstr "Contrasigno oblidate?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "Continuar al contos Firefox"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synchronisa tu contrasignos, schedas e marcapaginas ubique tu usa Firefox."
 
 #: .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1181,11 +1184,11 @@ msgstr "E-mail"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Inscriber se o acceder"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Un conto Firefox alsi disbloca le accesso a plus productos protegente-confidentialitate de Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1489,7 +1492,7 @@ msgstr "Insere le codice de autorisation"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Defini tu contrasigno"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1868,7 +1871,7 @@ msgstr "Que etate ha tu?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You need to be at least 13 years old to create an account."
-msgstr ""
+msgstr "Tu debe esser al minus de 13 annos pro crear un conto."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1896,23 +1899,23 @@ msgstr "Adresse IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Requisitos del contrasigno"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Al minus 8 characteres"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Non tu adresse email"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Non un contrasigno commun"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr ""
+msgstr "Sta secur &mdash; non re-usar contrasignos. Vide altere consilios pro <a %(escapedCommonPasswordLinkAttrs)s>crear contrasignos forte</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1944,23 +1947,23 @@ msgstr "Continuar con Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "Ha tu justo accedite a Firefox?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "indicator de position"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "Si, approbar apparato"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
-msgstr ""
+msgstr "Si iste non era tu, <a id=\"change-password\">cambia tu contrasigno</a> "
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1972,14 +1975,17 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Tu es ora synchronisante con: <span>%(deviceFamily)s %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Ora tu pote acceder tu schedas aperte, contrasignos, e marcapaginas sur tote tu apparatos."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Vider schedas del apparatos synchronisate"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -1999,23 +2005,23 @@ msgstr "Le procedura de installation ha essite terminate."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
 msgid "Get Firefox on your phone or tablet"
-msgstr ""
+msgstr "Installa Firefox sur tu telephono o tabletta"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Hold your phone's camera over the code to scan."
-msgstr ""
+msgstr "Tene le photo-camera de tu telephono sur le codice a scande."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
-msgstr ""
+msgstr "O, invia a te mesme un <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">ligamine de discargamento.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I'm ready to sync devices"
-msgstr ""
+msgstr "Io es preste a synchronisar apparatos"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synchronisa apparatos pro acceder tu schedas, contrasignos, e marcapaginas ubique tu usa Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
