@@ -83,6 +83,10 @@ automated-email =
     Dit is een geautomatiseerd e-mailbericht; als u het ten onrechte hebt ontvangen, hoeft u niets te doen.
     Ga voor meer informatie naar <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Dit is een geautomatiseerd e-mailbericht; als u het per abuis hebt ontvangen, hoeft u niets te doen.
+automated-email-support = { automated-email-plaintext } Ga voor meer informatie naar <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Ga voor meer informatie naar { -brand-mozilla } Support: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Dit is een geautomatiseerd e-mailbericht; als u deze actie niet hebt geautoriseerd, wijzig dan uw wachtwoord:
 automated-email-reset =
@@ -188,6 +192,14 @@ downloadSubscription-subject = Welkom bij { $productName }.
 downloadSubscription-title = Welkom bij { $productName }
 downloadSubscription-content-2 = Laten we aan de slag gaan met alle functies die bij uw abonnement zijn inbegrepen:
 downloadSubscription-link-action-2 = Aan de slag
+fraudulentAccountDeletion-subject = Uw { -product-firefox-account } is verwijderd
+fraudulentAccountDeletion-title = Uw account is verwijderd
+fraudulentAccountDeletion-content = Onlangs is er een { -product-firefox-account } aangemaakt en is een abonnement in rekening gebracht via dit e-mailadres. Zoals we bij alle nieuwe accounts doen, hebben we u gevraagd uw account te bevestigen door eerst dit e-mailadres te valideren.
+fraudulentAccountDeletion-content-2 = Op dit moment zien we dat de account nooit is bevestigd. Aangezien deze stap niet is voltooid, weten we niet zeker of dit een geautoriseerd abonnement was. Als gevolg hiervan is de { -product-firefox-account } die is geregistreerd op dit e-mailadres verwijderd, is uw abonnement opgezegd en zijn alle kosten terugbetaald.
+fraudulentAccountDeletion-contact = Neem bij vragen contact op met ons <a data-l10n-name="mozillaSupportUrl">ondersteuningsteam</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Neem bij vragen contact op met ons ondersteuningsteam: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Weinig herstelcodes resterend
 codes-reminder-description = We hebben gemerkt dat u nog weinig herstelcodes hebt. Overweeg nieuwe codes te genereren om te voorkomen dat u geen toegang meer hebt tot uw account.
