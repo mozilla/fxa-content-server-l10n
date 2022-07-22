@@ -47,6 +47,7 @@ subplat-explainer-specific = U ontvangt dit bericht omdat { $email } een { -prod
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = U ontvangt dit e-mailbericht omdat { $email } een { -product-firefox-account } heeft.
 subplat-explainer-multiple = U ontvangt dit bericht omdat { $email } een { -product-firefox-account } heeft en u bent geabonneerd op meerdere producten.
+subplat-explainer-was-deleted = U ontvangt dit e-mailbericht omdat { $email } is geregistreerd voor een { -product-firefox-account }.
 subplat-manage-account = Beheer uw { -product-firefox-account }-instellingen door naar uw <a data-l10n-name="subplat-account-page">accountpagina</a> te gaan.
 subplat-terms-policy = Voorwaarden en opzeggingsbeleid
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
