@@ -47,7 +47,11 @@ subplat-explainer-specific = You’re receiving this email because { $email } ha
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = You’re receiving this email because { $email } has a { -product-firefox-account }.
 subplat-explainer-multiple = You’re receiving this email because { $email } has a { -product-firefox-account } and you have subscribed to multiple products.
+subplat-explainer-was-deleted = You’re receiving this email because { $email } was registered for a { -product-firefox-account }.
 subplat-manage-account = Manage your { -product-firefox-account } settings by visiting your <a data-l10n-name="subplat-account-page">account page</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Manage your { -product-firefox-account } settings by visiting your account page: { $accountSettingsUrl }
 subplat-terms-policy = Terms and cancellation policy
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancel subscription
@@ -77,10 +81,15 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = This is an automated email; if you didn’t add a new device to your { -product-firefox-account }, you should change your password immediately at { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     This is an automated email; if you received it in error, no action is required.
     For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = This is an automated email; if you received it in error, no action is required.
+automated-email-support = { automated-email-plaintext } For more information, please visit <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } For more information, please visit { -brand-mozilla } Support: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = This is an automated email; if you did not authorize this action, then please change your password:
 automated-email-reset =
@@ -166,10 +175,13 @@ view-invoice = <a data-l10n-name="invoiceLink">View your invoice</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = View Invoice: { $invoiceLink }
-cadReminderFirst-subject = Your Friendly Reminder: How To Complete Your Sync Setup
+cadReminderFirst-subject-1 = Reminder! Let’s sync { -brand-firefox }
 cadReminderFirst-action = Sync another device
-cadReminderFirst-title = Here’s your reminder to sync devices.
-cadReminderFirst-description = It takes two to sync. Syncing another device with { -brand-firefox } privately keeps your bookmarks, passwords, and other { -brand-firefox } data the same everywhere you use { -brand-firefox }.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = It takes two to sync
+cadReminderFirst-description-1 = Take your tabs across all your devices. Get your bookmarks, passwords, and other data everywhere you use { -brand-firefox }. It’s like having magic in your { -brand-firefox } account!
+cadReminderFirst-description-2 = It only takes a sec to sync.
 cadReminderSecond-subject-2 = Don’t miss out! Let’s finish your sync setup
 cadReminderSecond-action = Sync another device
 cadReminderSecond-title-2 = Don’t forget to sync!
@@ -183,6 +195,14 @@ downloadSubscription-subject = Welcome to { $productName }
 downloadSubscription-title = Welcome to { $productName }
 downloadSubscription-content-2 = Let’s get started using all the features included in your subscription:
 downloadSubscription-link-action-2 = Get Started
+fraudulentAccountDeletion-subject = Your { -product-firefox-account } was deleted
+fraudulentAccountDeletion-title = Your account was deleted
+fraudulentAccountDeletion-content = Recently, a { -product-firefox-account } was created and a subscription was charged using this email address. As we do with all new accounts, we asked that you confirm your account by first validating this email address.
+fraudulentAccountDeletion-content-2 = At present, we see that the account was never confirmed. Since this step was not completed, we are not sure if this was an authorized subscription. As a result, the { -product-firefox-account } registered to this email address was deleted and your subscription was canceled with all charges reimbursed.
+fraudulentAccountDeletion-contact = If you have any questions, please contact our <a data-l10n-name="mozillaSupportUrl">support team</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = If you have any questions, please contact our support team: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Low recovery codes remaining
 codes-reminder-description = We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account.
