@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-22 13:08+0000\n"
+"PO-Revision-Date: 2022-07-22 13:10+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1077,7 +1077,7 @@ msgstr "Embojuaju ambue mba’e’oka"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "Firefox account connected"
-msgstr ""
+msgstr "Firefox mba’ete juajupyre"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -1488,7 +1488,7 @@ msgstr "Emoinge ayvu ñemoneĩva"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Emboaje ne ñe’ẽñemi"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
