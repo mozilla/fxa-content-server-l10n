@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-22 18:40+0000\n"
+"PO-Revision-Date: 2022-07-22 18:49+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -735,11 +735,11 @@ msgstr "Тэсціраванне прадуктаў Firefox"
 
 #: .es5/lib/newsletters.js:52
 msgid "Taking action to keep the internet healthy"
-msgstr ""
+msgstr "Прымаем меры, каб захаваць інтэрнэт здаровым"
 
 #: .es5/lib/newsletters.js:56
 msgid "Safety and privacy online with Firefox and Mozilla"
-msgstr ""
+msgstr "Бяспека і прыватнасць у інтэрнэце з Firefox і Mozilla"
 
 #: .es5/lib/oauth-errors.js:34
 msgid "Unknown client"
@@ -845,7 +845,7 @@ msgstr ""
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Даведка</a>"
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -968,6 +968,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>ПАМЯТАЙЦЕ:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем "
+"дадзеныя з паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя Pocket таксама не будуць закранутыя."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1046,11 +1048,11 @@ msgstr "Увядзіце код пацверджання"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "для вашага ўліковага запісу Firefox"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Увядзіце код, які быў адпраўлены на адрас %(escapedEmail)s на працягу 5 хвілін."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1064,7 +1066,7 @@ msgstr "Пацвердзіць"
 
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Code expired?"
-msgstr ""
+msgstr "Код пратэрмінаваны?"
 
 #: .es5/templates/confirm_signup_code.mustache:7
 msgid "Email new code."
@@ -1100,7 +1102,7 @@ msgstr "Увайдзіце ў Firefox на іншай прыладзе, каб �
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Sync Firefox across devices"
-msgstr ""
+msgstr "Сінхранізацыя Firefox паміж прыладамі"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
