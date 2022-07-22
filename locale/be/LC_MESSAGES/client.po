@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-22 18:49+0000\n"
+"PO-Revision-Date: 2022-07-22 18:58+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -238,7 +238,7 @@ msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr ""
+msgstr "няма ў пераліку"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -1169,7 +1169,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Сінхранізуйце свае паролі, карткі і закладкі ўсюды, дзе вы карыстаецеся Firefox."
 
 #: .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1268,7 +1268,7 @@ msgstr "Пасля завяршэння ён пачне генераваць к�
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Упішыце гэты сакрэтны ключ у праграму аўтэнтыфікацыі."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
@@ -1369,6 +1369,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>ЗАЎВАГА:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем "
+"дадзеныя з паролем, каб абараніць вашу прыватнасць. Вы па-ранейшаму захаваеце любыя падпіскі, дадзеныя Pocket таксама не будуць закранутыя."
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1697,11 +1699,11 @@ msgstr "Гэты Firefox злучаны"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "Падпішыцеся на больш"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "Практычныя веды ў вашай паштовай скрыні."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
