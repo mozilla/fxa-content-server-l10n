@@ -47,7 +47,11 @@ subplat-explainer-specific = Vous recevez ce message car { $email } possède un 
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Vous recevez cet e-mail, car { $email } possède un { -product-firefox-account }.
 subplat-explainer-multiple = Vous recevez ce message car { $email } possède un { -product-firefox-account } et vous avez souscrit plusieurs abonnements.
+subplat-explainer-was-deleted = Vous recevez ce message car l’adresse { $email } est inscrite à un { -product-firefox-account }.
 subplat-manage-account = Gérez votre { -product-firefox-account } en visitant <a data-l10n-name="subplat-account-page">la page de votre compte</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Gérez les paramètres de votre { -product-firefox-account } en vous rendant sur la page de votre compte : { $accountSettingsUrl }
 subplat-terms-policy = Conditions et politique d’annulation
 subplat-terms-policy-plaintext = { subplat-terms-policy } :
 subplat-cancel = Annuler l’abonnement
@@ -77,10 +81,12 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Ceci est un message automatique ; si vous n’avez pas ajouté de nouvel appareil à votre { -product-firefox-account }, vous devriez changer votre mot de passe immédiatement depuis { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Ceci est un message automatique ; si vous l’avez reçu par erreur, vous n’avez rien à faire.
     Pour davantage d’informations, veuillez consulter <a data-l10n-name="supportLink">l’assistance de { -brand-mozilla }</a>.
 automated-email-plaintext = Ceci est un message automatique ; si vous l’avez reçu par erreur, vous n’avez rien à faire.
+automated-email-support = { automated-email-plaintext } Pour davantage d’informations, veuillez consulter <a data-l10n-name="mozillaSupportUrl">l’assistance de { -brand-mozilla }</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ceci est un message automatique ; si vous n’avez pas autorisé cette action, veuillez changer votre mot de passe.
 automated-email-reset =
