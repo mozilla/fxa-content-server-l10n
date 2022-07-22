@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 09:13+0000\n"
+"POT-Creation-Date: 2022-07-22 19:57+0000\n"
 "PO-Revision-Date: 2022-04-29 15:31+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -931,8 +931,8 @@ msgid "Cannot create account"
 msgstr "ఖాతా సృష్టించడం వీలుపడుటలేదు"
 
 #: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "మీరు ఒక ఫైర్ఫాక్స్ &nbsp ఖాతాసృష్టించడానికి నిర్దిష్ట వయస్సు అవసరాలను పూర్తిచేయాలి."
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1038,9 +1038,8 @@ msgstr "రీసెట్ ఇమెయిల్ పంపబడింది"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
+#: .es5/templates/confirm_signup_code.mustache:1
+msgid "Enter confirmation code"
 msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
@@ -1056,12 +1055,12 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "6-అంకెల సంకేతాన్ని ఇవ్వండి"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "ధృవీకరించండి"
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "నిర్ధారించు"
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Code expired?"
 msgstr ""
 
@@ -1205,8 +1204,8 @@ msgstr "కాపీచేయి"
 msgid "Print"
 msgstr "ముద్రించు"
 
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_token_code.mustache:5
-#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "కొనసాగించు"
@@ -1226,10 +1225,6 @@ msgstr ""
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr ""
-
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
-msgid "Confirm"
-msgstr "నిర్ధారించు"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1353,7 +1348,7 @@ msgstr "మీరు మీ ఖాతాకు ప్రాప్యత ప్�
 msgid "Report activity"
 msgstr "క్రియను నివేదించు"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "ఇలా ఎందుకు జరుగుతోంది?"
 
@@ -1432,6 +1427,10 @@ msgstr "అమర్పు సమయంలో మీకు అందించి
 msgid "Enter 10-digit recovery code"
 msgstr "10-అంకెల రికవరీ సంకేతాన్ని ఇవ్వండి"
 
+#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+msgid "Verify"
+msgstr "ధృవీకరించండి"
+
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
 msgstr ""
@@ -1444,17 +1443,20 @@ msgstr "మీ నిఘాకు ధన్యవాదాలు"
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "మా బృందం ప్రకటించబడింది. ఇటువంటి నివేదికలు మాకు చొరబాటును తప్పించడానికి సహాయపడుతాయి."
 
-#: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-#: .es5/templates/push/send_login.mustache:1
-msgid "Authorize this sign-in"
-msgstr "ఇది అధికారిక సైన్-ఇన్"
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter confirmation"
+msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:3
-msgid "Check your email for the code sent to %(email)s."
-msgstr "%(email)s‌కి పంపిన సంకేతం కోసం మీ ఈమెయిలును తనిఖీ చేయండి."
+msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgstr ""
 
-#: .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
+#: .es5/templates/sign_in_token_code.mustache:7
+msgid "Email new code"
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1468,6 +1470,10 @@ msgstr "మీ అధీకరణ అనువర్తనాన్ని తె
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr ""
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "ఇది అధికారిక సైన్-ఇన్"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1647,8 +1653,16 @@ msgstr "రెండవ ఈమెయిలు"
 msgid "Maybe later"
 msgstr "బహుశా తర్వాత"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter verification code"
+msgstr ""
+
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
@@ -1850,7 +1864,7 @@ msgid "How old are you?"
 msgstr "మీ వయస్సు ఎంత?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You need to be at least 13 years old to create an account."
+msgid "You must be over 13 to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -2023,6 +2037,12 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "మీరు ఒక ఫైర్ఫాక్స్ &nbsp ఖాతాసృష్టించడానికి నిర్దిష్ట వయస్సు అవసరాలను పూర్తిచేయాలి."
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "%(email)s‌కి పంపిన సంకేతం కోసం మీ ఈమెయిలును తనిఖీ చేయండి."
 
 #~ msgid "Why is more than one device required?"
 #~ msgstr "ఎందుకు ఒకటి కంటే ఎక్కువ పరికరాలు అవసరం?"
