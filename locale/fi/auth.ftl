@@ -77,6 +77,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Tämä on automaattisesti lähtetty viesti. Jos et lisännyt uutta laitetta { -product-firefox-account }isi, vaihda salasanasi välittömästi osoitteessa { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email = Tämä on automaattisesti lähetetty viesti. Jos vastaanotit sen virheen seurauksena, sinun ei tarvitse tehdä mitään. Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }n tuesta</a>.
 automated-email-plaintext = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
@@ -164,10 +165,7 @@ view-invoice = <a data-l10n-name="invoiceLink">Näytä lasku</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Näytä lasku: { $invoiceLink }
-cadReminderFirst-subject = Ystävällinen muistutus: Kuinka saattaa synkronoinnin asetukset valmiiksi
 cadReminderFirst-action = Synkronoi toinen laite
-cadReminderFirst-title = Tässä muistutus laitteidesi synkronoimiseksi.
-cadReminderFirst-description = Synkronointiin tarvitaan kaksi. Toisen laitteen synkronointi { -brand-firefox }in kanssa pitää kirjanmerkit, salasanat ja muut { -brand-firefox }-tiedot yksityisenä ja samana kaikkialla, missä käytät { -brand-firefox }ia.
 cadReminderSecond-subject-2 = Viimeistellään synkronoinnin määritys
 cadReminderSecond-action = Synkronoi toinen laite
 cadReminderSecond-title-2 = Älä unohda synkronoida!
@@ -181,6 +179,8 @@ downloadSubscription-subject = Tervetuloa, käytössäsi on { $productName }
 downloadSubscription-title = Tervetuloa, käytössäsi on { $productName }
 downloadSubscription-content-2 = Aloitetaan kaikkien tilauksesi ominaisuuksien käyttö:
 downloadSubscription-link-action-2 = Aloitetaan
+fraudulentAccountDeletion-subject = Sinun { -product-firefox-account } poistettiin
+fraudulentAccountDeletion-title = Tilisi poistettiin
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Palautuskoodit vähissä
 codes-reminder-description = Huomasimme, että palautuskoodisi ovat vähissä. Kannattaa luoda uudet palautuskoodit, jotta sinua ei lukita ulos tililtäsi.
