@@ -143,19 +143,13 @@ location-state-country = { $stateCode }, { $country } (ahat)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (ahat)
-view-invoice = <a h<a data-l10n-name="invoiceLink">Wali tafaṭurt-ik·im</a>.
+view-invoice = <a data-l10n-name="invoiceLink">Wali tafaṭurt-ik·im</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Wali tafaṭurt-ik·im: { $invoiceLink }
-cadReminderFirst-subject = Asmekti n yimdukkal: Amek ara tkemmleḍ tawila-k•m n umtawi
 cadReminderFirst-action = Mtawi ibenk-nniḍen
-cadReminderFirst-title = Ha-t-a usmekti-inek/inem i umtawi n yibenkan.
-cadReminderFirst-description = Ilaq ad ilin sin i umtawi. Amtawi n yibenk-nniḍen akked { -brand-firefox } ad yeḥrez s wudem awurman ticraḍ n yisebtar, awalen uffiren akked yisefka-nniḍen n { -brand-firefox } deg yal taswiɛt d yal amkan deg ara tesqedceḍ { -brand-firefox }.
-cadReminderSecond-subject = Asmekti aneggaru: Asebded ummid n umtawa
 cadReminderSecond-action = Mtawi ibenk-nniḍen
-cadReminderSecond-title = Asmekti aneggaru i umtawi n yibenkan!
-cadReminderSecond-description = Amtawi n yibenk-nniḍen akked { -brand-firefox } ad yeḥrez s wudem awurman ticraḍ n yisebtar, awalen uffiren akked yisefka-nniḍen n { -brand-firefox } deg yal taswiɛt d yal amkan deg ara tesqedceḍ { -brand-firefox }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Ansuf ɣer { $productName }
@@ -273,8 +267,6 @@ subscriptionAccountDeletion-title = Neḥzen imi tṛuḥeḍ
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Tekkseḍ tineggura-a { -product-firefox-account }. Ihi, nsefsex ajerred-ik•im ɣer { $productName }. Lexlaṣ-ik aneggaru n { $invoiceTotal } yettwag deg { $invoiceDateOnly }.
-# COMMENT ABOUT After the colon,
-payment-details = Talqayt n uxelleṣ:
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Ansuf ɣer { $productName }: Ma ulac aɣlif, sbadu awal-ik·im uffir.
@@ -369,13 +361,6 @@ subscriptionFirstInvoiceDiscount-content-charge = Yettwafter { $invoiceTotal } d
 subscriptionFirstInvoiceDiscount-content-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Takarḍa n usmad i { $productName } qrib ad temmet
-subscriptionPaymentExpired-title = Takarḍa-k n usmad qrib ad temmet
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Takarḍa n usmad i tesseqdaceḍ akken ad txellṣeḍ { $productName } qrib ad temmet.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Axelleṣ n { $productName } yecceḍ
 subscriptionPaymentFailed-title = Suref-aɣ, nesɛa uguren akked lexlaṣ-ik
 # Variables:
@@ -407,9 +392,6 @@ subscriptionRenewalReminder-content-closing = S tumert,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tarbaεt { $productName }
-subscriptionsPaymentExpired-subject = Takarḍa n usmad n yijerriden-ik•im qrib ad temmet
-subscriptionsPaymentExpired-title = Takarḍa-k n usmad qrib ad temmet
-subscriptionsPaymentExpired-content = Takarḍa n usmad i tesseqdaceḍ i uxelleṣ deg yijerriden-a qrib ad temmet.
 subscriptionsPaymentProviderCancelled-subject = Aleqqem n telɣut n lexlaṣ yettusra i yimultaɣ { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Suref-aɣ, nesɛa uguren s tarrayt-ik·im n lexlaṣ
 subscriptionsPaymentProviderCancelled-content-detected = Nemlal-d ugur akked tarrayt-ik·im n lexlaṣ i yimultaɣ-a.
