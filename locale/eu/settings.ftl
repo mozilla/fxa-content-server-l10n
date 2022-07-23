@@ -31,6 +31,7 @@ alert-bar-close-message = Itxi mezua
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +70,7 @@ bento-menu-firefox-title = Zure lineako pribatutasunaren alde borrokatzen duen t
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Mahaigainerako { -brand-firefox } nabigatzailea
 bento-menu-firefox-mobile = Mugikorrerako { -brand-firefox } nabigatzailea
 bento-menu-made-by-mozilla = { -brand-mozilla }(e)k egina
@@ -89,27 +91,18 @@ cs-heading = Konektatutako zerbitzuak
 cs-description = Erabiltzen ari zaren eta saioa hasita duzun guztia.
 cs-cannot-refresh = Barkatu, arazo bat gertatu da konektatutako zerbitzuen zerrenda berritzean.
 cs-cannot-disconnect = Ez da bezeroa aurkitu, ezin da deskonektatu
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = { $service } zerbitzutik saioa amaituta.
 cs-refresh-button =
     .title = Berritu konektatutako zerbitzuak
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Faltan edo bikoiztuta dauden elementuak?
 cs-disconnect-sync-heading = Deskonektatu sinkronizaziotik
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Zure nabigazio-datuak gailu honetan ({ $device }) mantenduko
-    dira baina hemendik aurrera ez dira zure kontuarekin sinkronizatuko.
-cs-disconnect-sync-reason =
-    Zein da gailu honetatik deskonektatzeko
-    arrazoi nagusia?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -150,6 +143,9 @@ datablock-copy =
 datablock-print =
     .message = Inprimatuta
 
+## Data collection section
+
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = { -product-firefox-account } menua
@@ -158,7 +154,6 @@ drop-down-menu-title = { -product-firefox-account } menua
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <user>{ $user }</user> <signin>gisa saioa hasita</signin>
 drop-down-menu-sign-out = Amaitu saioa
-drop-down-menu-sign-out-error = Barkatu, arazo bat gertatu da zure saioa amaitzean.
 
 ## Flow Container
 
@@ -190,6 +185,9 @@ input-password-show = Erakutsi pasahitza
 input-password-hide-aria = Ezkutatu pasahitza pantailatik.
 input-password-show-aria = Erakutsi pasahitza testu arrunt modura. Zure pasahitza pantailan ikusi ahalko da.
 
+## Linked Accounts section
+
+
 ## Modal
 
 modal-close-title = Itxi
@@ -217,12 +215,12 @@ nav-email-comm = Posta bidezko komunikazioak
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Arazoa egon da zure berreskuratze-kodeak ordezkatzean.
 tfa-replace-code-success =
     Kode berria sortu dira. Gorde erabilera bakarreko kode hauek
     toki seguru batean — zure kontura sartzeko beharko dituzu zure gailu
     mugikorra ez baduzu.
-tfa-replace-code-success-alert = Kontuaren berreskuratze-kodeak eguneratuta.
+tfa-replace-code-1-2 = 2tik 1. urratsa
+tfa-replace-code-2-2 = 2tik 2. urratsa
 
 ## Avatar change page
 
@@ -250,9 +248,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Ezin da kamera hasieratu
 avatar-page-new-avatar =
     .alt = profileko irudi berria
-avatar-page-file-upload-error-2 = Arazoa egon da zure profileko irudia igotzean.
-avatar-page-delete-error-2 = Arazoa egon da zure profileko irudia ezabatzean.
-avatar-page-image-too-large-error = Irudi-fitxategiaren tamaina handiegia da igotzeko.
 
 ##
 
@@ -261,14 +256,8 @@ avatar-page-image-too-large-error = Irudi-fitxategiaren tamaina handiegia da igo
 
 pw-change-header =
     .title = Aldatu pasahitza
-pw-change-stay-safe = Mantendu seguru — ez berrerabili pasahitzak. Zure pasahitza:
-pw-change-least-8-chars = Gutxienez 8 karaktere izan behar ditu
-pw-change-not-contain-email = Ezin du zure helbide elektronikoa izan
+pw-not-email = Ezin da zure helbide elektronikoa izan
 pw-change-must-match = Pasahitz berria berrespenarekin bat dator
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Ezin du <linkExternal>ohiko pasahitzen zerrenda</linkExternal>
-    honetan egon
 pw-change-cancel-button = Utzi
 pw-change-save-button = Gorde
 pw-change-forgot-password-link = Pasahitza ahaztu duzu?
@@ -278,7 +267,12 @@ pw-change-new-password =
     .label = Idatzi pasahitz berria
 pw-change-confirm-password =
     .label = Berretsi pasahitz berria
-pw-change-success-alert = Pasahitza eguneratuta.
+
+##
+
+
+## Password create page
+
 
 ##
 
@@ -291,8 +285,6 @@ delete-account-step-1-2 = 2tik 1. urratsa
 delete-account-step-2-2 = 2tik 2. urratsa
 delete-account-confirm-title-2 = Webean seguru eta produktibo mantentzen zaituzten { -brand-mozilla } produktuetara konektatu duzu zure { -product-firefox-account }:
 delete-account-acknowledge = Mesedez aitor ezazu kontua ezabatzeak ondorengoa eragingo duela:
-delete-account-chk-box-1 =
-    .label = Dauzkazun ordainpeko harpidetzak bertan behera utziko dira
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } produktuetan gordeta duzun informazio eta eginbideak gal litzakezu
 delete-account-chk-box-3 =
@@ -316,8 +308,6 @@ display-name-input =
     .label = Idatzi bistaratzeko izena
 submit-display-name = Gorde
 cancel-display-name = Utzi
-display-name-update-error = Arazoa egon da zure bistaratzeko izena eguneratzean.
-display-name-success-alert = Bistaratzeko izena eguneratua.
 
 ##
 
@@ -334,11 +324,10 @@ recovery-key-page-title =
     .title = Berreskuratze-gakoa
 recovery-key-step-1 = 2tik 1. urratsa
 recovery-key-step-2 = 2tik 2. urratsa
-recovery-key-success-alert = Berreskuratze-gakoa sortuta.
 
 ## Add secondary email page
 
-add-secondary-email-error = Arazo bat egon da mezu elektroniko hau sortzean.
+add-secondary-email-step-1 = 2tik 1. urratsa
 add-secondary-email-page-title =
     .title = Ordezko helbide elektronikoa
 add-secondary-email-enter-address =
@@ -346,12 +335,9 @@ add-secondary-email-enter-address =
 add-secondary-email-cancel-button = Utzi
 add-secondary-email-save-button = Gorde
 
-##
-
-
 ## Verify secondary email page
 
-verify-secondary-email-error = Arazoa egon da egiaztapen-kodea bidaltzean.
+add-secondary-email-step-2 = 2tik 2. urratsa
 verify-secondary-email-page-title =
     .title = Ordezko helbide elektronikoa
 verify-secondary-email-verification-code =
@@ -362,10 +348,6 @@ verify-secondary-email-verify-button = Egiaztatu
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-please-enter-code = 5 minuturen buruan idatzi <strong>{ $email }</strong> helbidera bidalitako egiaztapen-kodea.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } ondo gehituta.
 
 ##
 
@@ -383,7 +365,6 @@ tfa-button-cancel = Utzi
 tfa-button-finish = Amaitu
 tfa-incorrect-totp = Bi urratseko autentifikazio-kode okerra
 tfa-cannot-retrieve-code = Arazoa egon da zure kodea eskuratzen.
-tfa-cannot-verify-code = Arazoa egon da zure berreskuratze-kodea egiaztatzen.
 tfa-incorrect-recovery-code = Berreskuratze-kode okerra
 tfa-enabled = Bi urratseko autentifikazioa gaituta
 tfa-scan-this-code =
@@ -392,6 +373,7 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Erabili { $secret } kodea bi urratseko autentifikazioa konfiguratzeko
     euskarria duten aplikazioetan.
@@ -421,12 +403,6 @@ profile-picture =
     .header = Irudia
 profile-display-name =
     .header = Bistaratzeko izena
-profile-password =
-    .header = Pasahitza
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Sortze-data: { $date }
 profile-primary-email =
     .header = Helbide elektroniko nagusia
 
@@ -436,6 +412,9 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Segurtasuna
+
+## Switch component
+
 
 ## Sub-section row Defaults
 
@@ -452,37 +431,21 @@ rk-not-set = Ezarri gabe
 rk-action-create = Sortu
 rk-action-remove = Kendu
 rk-cannot-refresh = Barkatu, arazoa egon zure berreskuratze-gakoa berritzean.
-rk-key-removed = Kontuaren berreskuratze-gakoa kenduta.
 rk-cannot-remove-key = Ezin izan da zure kontuaren berreskuratze-gakoa kendu.
 rk-refresh-key = Berritu berreskuratze-gakoa
 rk-content-explain = Berrezarri zure informazioa pasahitza ahazten duzunean.
 rk-content-reset-data = Zergatik berrezartzen dira nire datuak pasahitza berrezartzearekin batera?
-rk-cannot-verify-session-2 = Barkatu, arazoa egon da zure saioa egiaztatzean.
 rk-remove-modal-heading = Berreskuratze-gakoa kendu?
 rk-remove-modal-content =
     Pasahitza berrezartzen baduzu, ezingo duzu
     berreskuratze-gakoa erabili zure datuetarako sarbidea izateko. Ezin duzu ekintza hau desegin.
 rk-refresh-error = Barkatu, arazoa egon zure berreskuratze-gakoa berritzean.
-rk-remove-error = Ezin izan da zure kontuaren berreskuratze-gakoa kendu.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Ordezko helbide elektronikoa
     .header = Ordezko helbide elektronikoa
 se-cannot-refresh-email = Barkatu, arazoa egon da helbide elektroniko hori berritzean.
-se-cannot-resend-code = Barkatu, arazoa egon da egiaztapen-kodea berriro bidaltzean.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = Zure helbide elektroniko nagusia da orain { $email }.
-se-set-primary-error = Barkatu, arazoa egon da zure helbide elektroniko nagusia aldatzean.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } ondo ezabatuta.
-se-delete-email-error = Barkatu, arazoa egon da helbide elektroniko hori ezabatzean.
-se-verify-session = Zure uneko saioa egiaztatu beharko duzu ekintza hau burutzeko.
-se-verify-session-error = Barkatu, arazoa egon da zure saioa egiaztatzean.
 # Button to remove the secondary email
 se-remove-email =
     .title = Kendu helbide elektronikoa
@@ -506,7 +469,7 @@ se-content-note =
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Bi urratseko autentifikazioa
-tfa-row-disabled = Bi urratseko autentifikazioa desgaituta.
+tfa-row-disabled-2 = Bi urratseko autentifikazioa desgaituta
 tfa-row-enabled = Gaituta
 tfa-row-not-set = Ezarri gabe
 tfa-row-action-add = Gehitu
@@ -517,13 +480,12 @@ tfa-row-cannot-refresh = Barkatu, arazoa egon da bi urratseko autentifikazioa be
 tfa-row-content-explain =
     Eragotzi beste inor zure kontuan sartzea
     zuk bakarrik eskura dezakezun kode esklusiboa eskatuz.
-tfa-row-cannot-verify-session-2 = Barkatu, arazoa egon da zure saioa egiaztatzean.
 tfa-row-disable-modal-heading = Bi urratseko autentifikazioa desgaitu?
 tfa-row-disable-modal-confirm = Desgaitu
 tfa-row-disable-modal-explain =
     Ezingo duzu ekintza hau desegin. Bestela,
     <linkExternal>zure berreskuratze-kodeak ordezkatzeko</linkExternal> aukera era baduzu.
-tfa-row-cannot-disable = Ezin izan da bi urratseko autentifikazioa desgaitu.
+tfa-row-cannot-disable-2 = Bi urratseko autentifikazioa ezin da desgaitu
 tfa-row-change-modal-heading = Aldatu berreskuratze-kodeak?
 tfa-row-change-modal-confirm = Aldatu
 tfa-row-change-modal-explain = Ezingo duzu ekintza hau desegin.

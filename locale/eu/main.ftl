@@ -125,9 +125,11 @@ reactivate-success-button = Itxi
 
 ## Subscription iap item
 
+sub-iap-item-manage-button = Kudeatu
 
 ## Subscription route index
 
+pay-update-manage-btn = Kudeatu
 
 ## Subscription create
 

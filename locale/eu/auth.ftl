@@ -76,6 +76,22 @@ support-message = Argibide gehiagorako, bisitatu { $supportUrl }
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP helbidea: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (zenbatetsia)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (zenbatetsia)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (zenbatetsia)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (zenbatetsia)
 view-invoice = <a data-l10n-name="invoiceLink">Ikusi zure faktura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
