@@ -47,7 +47,11 @@ subplat-explainer-specific = Dostawaśo toś tu mejlku, dokulaž { $email } ma k
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Dostawaśo toś tu mejlku, dokulaž { $email } ma konto { -product-firefox-account }.
 subplat-explainer-multiple = Dostawaśo toś tu mejlku, dokulaž { $email } ma konto { -product-firefox-account } a sćo aboněrował někotare produkty.
+subplat-explainer-was-deleted = Dostawaśo toś tu mejlku, dokulaž { $email } jo se zregistrěrowała za konto { -product-firefox-account }.
 subplat-manage-account = Woglědajśo se k swójomu <a data-l10n-name="subplat-account-page">kontowem bokoju</a>, aby swóje nastajenja { -product-firefox-account } zastojał.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Woglědajśo se k swójomu kontowemu bokoju, aby swóje nastajenja { -product-firefox-account } zastojał: { $accountSettingsUrl }
 subplat-terms-policy = Wuměnjenja a wótwołańske pšawidła
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Abonement wupowěźeś
@@ -77,10 +81,15 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = To jo awtomatiska mejlka; jolic njejsćo swójomu kontoju { -product-firefox-account } nowy rěd pśidał, změńśo pšosym ned swójo gronidło na { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     To jo awtomatizěrowana mejlka; jolic sćo ju mylnje dostał, njetrjebaśo nic cyniś.
     Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>.
 automated-email-plaintext = To jo awtomatizěrowana mailka; joli sćo ju zamólnje dostał, njetrjebaśo nic cyniś.
+automated-email-support = { automated-email-plaintext } Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="mozillaSupportUrl"> pomocy { -brand-mozilla }</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Za dalšne informacije woglědajśo se pšosym k pomocy { -brand-mozilla }: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = To jo awtomatizěrowana mejlka; jolic njejsćo toś tu akciju awtorizěrował, změńśo pšosym swójo gronidło.
 automated-email-reset =
@@ -186,6 +195,12 @@ downloadSubscription-subject = Witajśo k { $productName }
 downloadSubscription-title = Witajśo k { $productName }
 downloadSubscription-content-2 = Zachopśo wšykne funkcije w swójom abonemenśe wužywaś:
 downloadSubscription-link-action-2 = Prědne kšace
+fraudulentAccountDeletion-subject = Wašo konto { -product-firefox-account } jo se wulašowało
+fraudulentAccountDeletion-title = Wašo konto jo se wulašowało
+fraudulentAccountDeletion-contact = Jolic pšašanja maśo, stajśo se z našym <a data-l10n-name="mozillaSupportUrl">teamom pomocy</a> do zwiska.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Jolic pšašanja maśo, stajśo se pšosym z našym teamom pomocy do zwiska: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Mało wótnowjeńskich kodow wušej
 codes-reminder-description = Smy zwěsćili, až mało wótnowjeńskich kodow wužywaśo. Pšosym rozwažujśo, lěc nowe kody napórajośo, aby se wobinuł zastajenja swójogo konta.
