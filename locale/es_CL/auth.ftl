@@ -197,6 +197,8 @@ downloadSubscription-content-2 = Empecemos a usar todas las funciones incluidas 
 downloadSubscription-link-action-2 = Empezar
 fraudulentAccountDeletion-subject = Tu { -product-firefox-account } fue eliminada
 fraudulentAccountDeletion-title = Tu cuenta fue eliminada
+fraudulentAccountDeletion-content = Recientemente, usando esta dirección de correo se creó una { -product-firefox-account } y cursó un cobro de suscripción. Como hacemos con todas las cuentas nuevas, te pedimos que confirmes tu cuenta validando primero esta dirección de correo electrónico.
+fraudulentAccountDeletion-content-2 = Actualmente, vemos que la cuenta nunca fue confirmada. Dado que este paso no se completó, no estamos seguros de si se trataba de una suscripción autorizada. Como resultado, la { -product-firefox-account } registrada con esta dirección de correo electrónico fue eliminada y tu suscripción cancelada con todos los cargos reembolsados.
 fraudulentAccountDeletion-contact = Si tienes preguntas, por favor contacta a nuestro <a data-l10n-name="mozillaSupportUrl">equipo de soporte</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
