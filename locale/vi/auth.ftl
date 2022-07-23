@@ -47,7 +47,11 @@ subplat-explainer-specific = Bạn nhận được email này vì { $email } có
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Bạn nhận được email này vì { $email } có { -product-firefox-account }.
 subplat-explainer-multiple = Bạn nhận được email này vì { $email } có { -product-firefox-account } và bạn đã đăng ký nhiều sản phẩm.
+subplat-explainer-was-deleted = Bạn nhận được email này vì { $email } đã được đăng ký cho một { -product-firefox-account }.
 subplat-manage-account = Quản lý cài đặt { -product-firefox-account } của bạn bằng cách truy cập <a data-l10n-name="subplat-account-page">trang tài khoản</a> của bạn.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Quản lý cài đặt { -product-firefox-account } của bạn bằng cách truy cập trang tài khoản của bạn: { $accountSettingsUrl }
 subplat-terms-policy = Điều khoản và chính sách hủy bỏ
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Hủy thuê bao
@@ -77,10 +81,15 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Đây là một email tự động; nếu bạn không thêm thiết bị mới vào { -product-firefox-account } của mình, bạn nên thay đổi mật khẩu của mình ngay lập tức tại { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Đây là một email tự động; nếu bạn nhận được nó do nhầm lẫn, không cần thực hiện hành động nào.
     Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Đây là một email tự động; nếu bạn nhận được nó do lỗi, không cần thực hiện hành động nào.
+automated-email-support = { automated-email-plaintext } Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Để biết thêm thông tin, vui lòng truy cập { -brand-mozilla } Support: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Đây là email tự động; nếu bạn không nhận ra hành động này, vui lòng thay đổi mật khẩu của bạn:
 automated-email-reset =
@@ -186,6 +195,14 @@ downloadSubscription-subject = Chào mừng đến với { $productName }
 downloadSubscription-title = Chào mừng đến với { $productName }
 downloadSubscription-content-2 = Hãy bắt đầu sử dụng tất cả các tính năng có trong thuê bao của bạn:
 downloadSubscription-link-action-2 = Bắt đầu
+fraudulentAccountDeletion-subject = { -product-firefox-account } của bạn đã bị xóa
+fraudulentAccountDeletion-title = Tài khoản của bạn đã bị xóa
+fraudulentAccountDeletion-content = Gần đây, một { -product-firefox-account } đã được tạo và một thuê bao đã bị tính phí khi sử dụng địa chỉ email này. Như chúng tôi làm với tất cả các tài khoản mới, chúng tôi yêu cầu bạn xác nhận tài khoản của mình bằng cách xác thực địa chỉ email này trước.
+fraudulentAccountDeletion-content-2 = Hiện tại, chúng tôi thấy rằng tài khoản chưa bao giờ được xác nhận. Vì bước này chưa hoàn thành nên chúng tôi không chắc đây có phải là thuê bao được ủy quyền hay không. Do đó, { -product-firefox-account } đã đăng ký với địa chỉ email này đã bị xóa và thuê bao của bạn bị hủy với tất cả các khoản phí được hoàn lại.
+fraudulentAccountDeletion-contact = Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với<a data-l10n-name="mozillaSupportUrl">nhóm hỗ trợ</a> của chúng tôi.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với nhóm hỗ trợ của chúng tôi: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Còn ít mã phục hồi còn lại
 codes-reminder-description = Chúng tôi nhận thấy rằng bạn sắp hết mã khôi phục. Vui lòng xem xét tạo mã mới để tránh bị khóa tài khoản của bạn.
