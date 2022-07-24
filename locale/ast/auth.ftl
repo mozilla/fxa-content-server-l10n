@@ -9,11 +9,15 @@
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
 # "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
--product-firefox-accounts = Firefox accounts
+-product-firefox-accounts = Cuentes de Firefox
 # "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 -product-firefox-account = Cuenta de Firefox
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Non-email strings
 
@@ -68,8 +72,6 @@ postVerifySecondary-title = Amestóse’l corréu secundariu
 postVerifySecondary-action = Xestionar la cuenta
 recovery-title = ¿Tienes de reaniciar la contraseña?
 recovery-description = Calca’l botón dientro d‘una hora pa crear una contraseña. La solicitú vieno del preséu de darréu:
-subscriptionPaymentExpired-title = La tarxeta de creitu ta a piques de caducar
-subscriptionsPaymentExpired-title = La tarxeta de creitu ta a piques de caducar
 subscriptionUpgrade-title = ¡Gracies por anovar!
 unblockCode-title = ¿Yes tu aniciando sesión?
 unblockCode-prompt = Si ye asina, esti ye’l códigu d‘autorización que precises:
