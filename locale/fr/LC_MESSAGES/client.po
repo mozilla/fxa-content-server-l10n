@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-22 16:35+0000\n"
+"PO-Revision-Date: 2022-07-24 09:31+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -1170,7 +1170,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synchronisez onglets, mots de passe et marque-pages partout où vous utilisez Firefox."
 
 #: .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1186,11 +1186,11 @@ msgstr "Adresse électronique"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "S’inscrire ou se connecter"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Un compte Firefox donne aussi accès à plus de produits de Mozilla qui protègent votre vie privée."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1494,7 +1494,7 @@ msgstr "Saisissez le code d’autorisation"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Définissez votre mot de passe"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
