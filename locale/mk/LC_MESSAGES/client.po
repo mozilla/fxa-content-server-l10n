@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2020-05-30 11:36+0000\n"
+"PO-Revision-Date: 2022-07-24 10:24+0000\n"
 "Last-Translator: Goce Mitevski <goce.mitevski@nicer2.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mk\n"
@@ -30,7 +30,7 @@ msgstr "Најавете се"
 
 #: .es5/views/index.js:176
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Сметката е успешно избришана"
 
 #: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -66,11 +66,11 @@ msgstr "Вашата лозинка беше ресетирана"
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr ""
+msgstr "Завршете го поставувањето со внесување на новата лозинка на другите уреди на Firefox."
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr ""
+msgstr "Сега сте подготвени да направите промени во вашата сметка на Firefox."
 
 #: .es5/views/ready.js:74
 msgid "Primary email verified"
@@ -78,7 +78,7 @@ msgstr "Примарната е-пошта е потврдена"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr ""
+msgstr "Известувањата за сметката сега исто така ќе бидат испратени до %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email verified"
@@ -94,7 +94,7 @@ msgstr "Сега сте подготвени да користите %(serviceNa
 
 #: .es5/views/ready.js:89
 msgid "Account verified"
-msgstr ""
+msgstr "Сметката е потврдена"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -102,11 +102,11 @@ msgstr "Поврзани"
 
 #: .es5/views/reset_password.js:111
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Непозната сметка. <a href=\"/signup\">Регистрирајте се</a>"
 
 #: .es5/views/sign_up_password.js:86
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Сметката повеќе не постои. Создајте нова?"
 
 #: .es5/views/support.js:269 .es5/templates/support.mustache:9
 msgid "Other"
@@ -838,9 +838,7 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:31
@@ -909,8 +907,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9

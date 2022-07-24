@@ -22,6 +22,11 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+-product-firefox-accounts = Сметка за Firefox
+# “Account” can be localized, “Firefox” must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
+-product-firefox-account = Сметка за Firefox
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
@@ -40,6 +45,8 @@ app-default-title = { -product-firefox-accounts }
 #   $title (String) - the name of the current page
 #                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
+app-footer-mozilla-logo-label = Лого на { -brand-mozilla }
+app-footer-privacy-notice = Известување за приватност на веб-страница
 app-footer-terms-of-service = Услови за употреба
 
 ##
@@ -47,6 +54,8 @@ app-footer-terms-of-service = Услови за употреба
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Вашиот аватар
 avatar-default-avatar =
     .alt = Стандарден аватар
 
@@ -55,19 +64,38 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } Мени Бенто
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-firefox-desktop = { -brand-firefox } Прелистувач за работен компјутер
+bento-menu-firefox-mobile = { -brand-firefox } Прелистувач за мобилен телефон
+bento-menu-made-by-mozilla = Направено од { -brand-mozilla }
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Земете { -brand-firefox } на мобилен или таблет
+connect-another-find-fx-mobile =
+    Пронајдете { -brand-firefox } во { -google-play } и { -app-store } или
+    <br /><linkExternal>испратете врска со преземање до вашиот уред.</linkExternal>
 
 ##
 
 
 ## Connected services section
 
+cs-heading = Поврзани услуги
+cs-description = Сè што користите и каде сте најавени.
+cs-cannot-refresh =
+    За жал, се појави проблем при освежување на списокот на поврзани
+    услуги.
+cs-cannot-disconnect = Клиентот не е пронајден, не може да се исклучи
+cs-refresh-button =
+    .title = Освежете ги поврзаните услуги
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Недостасуваат или се дуплираат ставки?
+cs-disconnect-sync-heading = Исклучете се од Синхронизација
 
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
@@ -79,9 +107,28 @@ bento-menu-firefox-relay = { product-firefox-relay }
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Уредот е:
+cs-disconnect-sync-opt-suspicious = Сомнителен
+cs-disconnect-sync-opt-lost = Изгубен или украден
+cs-disconnect-sync-opt-old = Стар или заменет
+cs-disconnect-sync-opt-duplicate = Дупликат
+cs-disconnect-sync-opt-not-say = Подобро да не кажувам
 
 ##
 
+cs-disconnect-advice-confirm = Добро, разбрав
+cs-disconnect-lost-advice-heading = Изгубениот или украдениот уред е исклучен
+cs-disconnect-lost-advice-content-2 =
+    Бидејќи вашиот уред е изгубен или украден, за
+    чување на вашите информации безбедни, треба да ја смените лозинката за { -product-firefox-account }
+    во поставките за вашата сметка. Исто така, треба да барате информации од вашиот
+    производител на уредот за бришење на вашите податоци од далечина.
+cs-disconnect-suspicious-advice-heading = Сомнителниот уред е исклучен
+cs-disconnect-suspicious-advice-content =
+    Ако исклучениот уред е навистина
+    сомнителен, за да ги зачувате вашите информации безбедни, треба да ја смените вашата { -product-firefox-account }
+    лозинка во поставките на вашата сметка. Треба да ги смените и другите 
+    лозинки што ги зачувавте во { -brand-firefox } со внесување на „about:logins“ во лентата за адреси.
 cs-sign-out-button = Одјавете се
 
 ##
@@ -89,12 +136,24 @@ cs-sign-out-button = Одјавете се
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Преземено
+datablock-copy =
+    .message = Ископирано
+datablock-print =
+    .message = Испечатено
 
 ## Data collection section
 
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = Мени { -product-firefox-account }
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Пријавени сте како</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Одјави се
 
 ## Flow Container
 
@@ -102,6 +161,7 @@ flow-container-back = Назад
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Кодови за обновување
 get-data-trio-download =
     .title = Преземи
 get-data-trio-copy =
@@ -111,6 +171,11 @@ get-data-trio-print =
 
 # HeaderLockup component
 
+header-menu-open = Затвори мени
+header-menu-closed = Мени за навигација на страницата
+header-back-to-top-link =
+    .title = Назад кон врвот
+header-title = Сметка за Firefox
 header-help = Помош
 
 ## Input Password
@@ -128,11 +193,23 @@ modal-cancel-button = Откажи
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Потврдете ја вашата е-пошта
+mvs-enter-verification-code = Внесете го вашиот код за верификација
+# This string is used to show a notification to the user for them to enter verification code to verify their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc = Внесете го кодот за потврда што е испратен до <email>{ $email }</email> во рок од 5 минути.
 msv-cancel-button = Откажи
+msv-submit-button = Потврди
 
 ## Settings Nav
 
+nav-settings = Поставки
+nav-profile = Профил
 nav-security = Безбедност
+nav-connected-services = Поврзани услуги
+nav-paid-subs = Платени претплати
+nav-email-comm = Комуникации по е-пошта
 
 ## Two Step Authentication - replace recovery code
 

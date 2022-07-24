@@ -17,6 +17,8 @@
 brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
 brand-name-apple-app-store = App Store
+document =
+    .title = Сметки за Firefox
 
 ## General aria-label
 
