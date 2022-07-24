@@ -56,7 +56,11 @@ subplat-explainer-specific = Вы получили это письмо пото�
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Вы получили это письмо потому, что на { $email } заведён { -product-firefox-account(case: "nominative") }.
 subplat-explainer-multiple = Вы получили это письмо потому, что на { $email } зарегистрирован { -product-firefox-account(case: "nominative") }, и вы оформили подписку на несколько продуктов.
+subplat-explainer-was-deleted = Вы получили это письмо, потому что на { $email } был зарегистрирован { -product-firefox-account(case: "nominative") }.
 subplat-manage-account = Управляйте настройками { -product-firefox-account(case: "genitive") }, посетив <a data-l10n-name="subplat-account-page">страницу своего аккаунта</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Управляйте настройками { -product-firefox-account(case: "genitive") }, посетив страницу своего аккаунта: { $accountSettingsUrl }.
 subplat-terms-policy = Условия и политика отказа от подписки
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Отменить подписку
@@ -86,6 +90,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Это автоматически созданное сообщение; если вы не добавляли новое устройство в ваш { -product-firefox-account(case: "accusative") }, вам следует немедленно сменить свой пароль, перейдя по ссылке { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий.
     Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Службу поддержки { -brand-mozilla }</a>.
@@ -175,10 +180,8 @@ view-invoice = <a data-l10n-name="invoiceLink">Просмотрите свой �
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Просмотреть счёт-фактуру: { $invoiceLink }
-cadReminderFirst-subject = Ваше дружественное напоминание: Как завершить настройку синхронизации
 cadReminderFirst-action = Синхронизировать другое устройство
-cadReminderFirst-title = Вот ваше напоминание о синхронизации устройств.
-cadReminderFirst-description = Для синхронизации требуется два устройства. Синхронизация другого устройства с { -brand-firefox } конфиденциальна и обеспечивает единство ваших закладок, паролей и других данных { -brand-firefox } везде, где вы его используете { -brand-firefox }.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-subject-2 = Не пропустите! Давайте закончим настройку синхронизации.
 cadReminderSecond-action = Синхронизировать другое устройство
 cadReminderSecond-title-2 = Не забудьте синхронизировать!
@@ -192,6 +195,7 @@ downloadSubscription-subject = Добро пожаловать в { $productName
 downloadSubscription-title = Добро пожаловать в { $productName }
 downloadSubscription-content-2 = Давайте приступим к использованию всех функций, включённых в вашу подписку:
 downloadSubscription-link-action-2 = Приступим
+fraudulentAccountDeletion-subject = Ваш { -product-firefox-account(case: "nominative") } был удалён
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Осталось мало кодов восстановления
 codes-reminder-description = Мы заметили, что у вас осталось мало кодов восстановления. Пожалуйста, создайте новые коды, чтобы избежать блокировки вашего аккаунта.
@@ -427,13 +431,6 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceDateOnly } опла�
 subscriptionFirstInvoiceDiscount-content-next-invoice = Следующая оплата: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Срок действия банковской карты для оплаты за { $productName } скоро заканчивается
-subscriptionPaymentExpired-title = Срок действия вашей банковской карты скоро заканчивается
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = Срок действия банковской карты, которую вы используете для совершения платежей за { $productName }, скоро заканчивается.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Платёж за { $productName } не прошёл
 subscriptionPaymentFailed-title = Извините, у нас возникли проблемы с вашим платежом
 # Variables:
@@ -475,9 +472,6 @@ subscriptionRenewalReminder-content-closing = С уважением,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Команда { $productName }
-subscriptionsPaymentExpired-subject = Срок действия банковской карты для оплаты ваших подписок скоро заканчивается
-subscriptionsPaymentExpired-title = Срок действия вашей банковской карты скоро заканчивается
-subscriptionsPaymentExpired-content = Срок действия банковской карты, которую вы используете для совершения платежей за следующие подписки, скоро заканчивается.
 subscriptionsPaymentProviderCancelled-subject = Необходимо обновить платежную информацию для подписок { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Извините, у нас возникли проблемы с вашим способом оплаты
 subscriptionsPaymentProviderCancelled-content-detected = Мы обнаружили проблему с вашим способом оплаты для следующих подписок.
