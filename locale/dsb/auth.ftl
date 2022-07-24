@@ -197,6 +197,8 @@ downloadSubscription-content-2 = Zachopśo wšykne funkcije w swójom abonemenś
 downloadSubscription-link-action-2 = Prědne kšace
 fraudulentAccountDeletion-subject = Wašo konto { -product-firefox-account } jo se wulašowało
 fraudulentAccountDeletion-title = Wašo konto jo se wulašowało
+fraudulentAccountDeletion-content = Njedawno jo se załožyło konto { -product-firefox-account } a abonement jo se wótlicył z pomocu toś teje e-mailoweje adrese. Ako pśi wšych kontach smy was pšosyli, toś tu e-mailowa adresu wobkšuśiś, aby wy swójo konto wobkšuśił.
+fraudulentAccountDeletion-content-2 = Tuchylu wiźimy, až konto njejo se nigdy wobkšuśiło. Dokulaž toś ten kšac njejo se dokóńcył, njejsmy se wěste, lěc to jo było awtorizěrowany abonement. Togodla jo se konto { -product-firefox-account } wulašowało, kótarež jo se zregistrěrowało z toś teju e-mailoweju adresu, a waš abonement jo se wupowěźeł ze zarunanim wšych płaśonkow.
 fraudulentAccountDeletion-contact = Jolic pšašanja maśo, stajśo se z našym <a data-l10n-name="mozillaSupportUrl">teamom pomocy</a> do zwiska.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org

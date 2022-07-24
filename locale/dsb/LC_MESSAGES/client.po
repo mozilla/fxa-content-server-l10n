@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-23 20:21+0000\n"
+"PO-Revision-Date: 2022-07-24 15:27+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -1190,7 +1190,7 @@ msgstr "Registrěrowaś abo pśizjawiś"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Konto Firefox teke pśistup k wěcej produktam šćita datow wót Mozilla zmóžnja."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
