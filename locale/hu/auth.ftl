@@ -197,6 +197,8 @@ downloadSubscription-content-2 = Kezdjük el használni az előfizetésében sze
 downloadSubscription-link-action-2 = Kezdő lépések
 fraudulentAccountDeletion-subject = A { -product-firefox-account }ja törölve lett
 fraudulentAccountDeletion-title = Fiókját törölték
+fraudulentAccountDeletion-content = A közelmúltban egy { -product-firefox-account } jött létre, és az előfizetést ezzel az e-mail-címmel fizették ki. Mint minden új fióknál, megkértük, hogy erősítse meg fiókját az e-mail-cím ellenőrzésével.
+fraudulentAccountDeletion-content-2 = Jelenleg azt látjuk, hogy a fiókot sosem erősítették meg. Mivel ez a lépés nem fejeződött be, így nem vagyunk biztosak abban, hogy ez egy engedélyezett előfizetés volt-e. Ennek eredményeként az e-mail-címre regisztrált { -product-firefox-account } törölve lett, az előfizetését pedig az összes költség visszatérítése mellett töröltük.
 fraudulentAccountDeletion-contact = Ha kérdése van, forduljon <a data-l10n-name="mozillaSupportUrl">támogatási csapatunkhoz</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
