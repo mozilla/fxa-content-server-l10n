@@ -31,6 +31,7 @@
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -64,6 +65,8 @@ bento-menu-firefox-title = { -brand-firefox } ye teunoloxía que llucha pola to 
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-firefox-desktop = Restolador { -brand-firefox } pa ordenadores
 bento-menu-firefox-mobile = Restolador { -brand-firefox } pa móviles
 
 ## Connect another device promo
@@ -78,7 +81,7 @@ connect-another-find-fx-mobile =
 
 ## Connected services section
 
-cs-heading = Servicios coneutaos
+cs-heading = Servicios conectaos
 cs-description = Tolo que tas usando y no qu'aniciesti sesión.
 cs-cannot-refresh =
     Sentímoslo, hebo un fallu al refrescar la llista de servicios
