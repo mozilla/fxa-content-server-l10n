@@ -162,6 +162,9 @@ nav-email-comm = Comunicaciones per corréu
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error-2 = Hebo un problema al trocar los códigos de recuperación
+tfa-replace-code-1-2 = Pasu 1 de 2
+tfa-replace-code-2-2 = Pasu 2 de 2
 
 ## Avatar change page
 
@@ -187,6 +190,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Nun pudo aniciase la cámara
 avatar-page-new-avatar =
     .alt = semeya del perfil nueva
+avatar-page-file-upload-error-3 = Hebo un problema al xubir la semeya del perfil
+avatar-page-delete-error-3 = Hebo un problema al desaniciar la semeya del perfil
 
 ##
 
