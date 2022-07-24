@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2021-09-16 22:30+0000\n"
+"PO-Revision-Date: 2022-07-24 11:59+0000\n"
 "Last-Translator: Enol <enolp@softastur.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ast\n"
@@ -838,12 +838,8 @@ msgid "Invalid Token"
 msgstr ""
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Al siguir, aceptes los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del Serviciu</a> y l'<a id=\"service-pp\" href=\"%(privacyUri)s\">avisu de privacidá</a> de %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Al siguir, aceptes los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del Serviciu</a> y l'<a id=\"service-pp\" href=\"%(privacyUri)s\">avisu de privacidá</a> de %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -911,8 +907,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1025,7 +1020,7 @@ msgstr ""
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr "¿Nun ta na bandexa d'entrada o carpeta Puxarra? Reunviar"
+msgstr "¿Nun ta na bandexa d'entrada o na carpeta Puxarra? Reunviar"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
@@ -1180,11 +1175,11 @@ msgstr ""
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Rexistrase o aniciar la sesión"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Una cuenta de Firefox tamién permite acceder a más productos de Mozilla que protexen la privacidá."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1913,7 +1908,7 @@ msgstr ""
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "¿Tas guetando Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Comienza equí</a>"
+msgstr "¿Busques Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Comienza equí</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
@@ -2309,8 +2304,7 @@ msgstr ""
 #~ msgstr "Anicia sesión n'otros preseos de to pa consiguir tolos productos, conocencia y privacidá de Firefox."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr ""
-#~ "Siguiendo, aceutes los <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">términos del serviciu</a> y l'<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">avisu de privacidá</a>."
+#~ msgstr "Siguiendo, aceutes los <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">términos del serviciu</a> y l'<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">avisu de privacidá</a>."
 
 #~ msgid "Description of Issue"
 #~ msgstr "Descripción del problema"
@@ -2402,12 +2396,10 @@ msgstr ""
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Ríquense les cookies y l'almacenamientu llocal"
 
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
 #~ msgstr ""
-#~ "Siguiendo, tas acordies colos <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">términos del serviciu</a> y l'<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">avisu de privacidá</"
-#~ "a> de los servicios na ñube de Firefox."
+#~ "Siguiendo, tas acordies colos <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">términos del serviciu</a> y l'<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">avisu de privacidá</a> de"
+#~ " los servicios na ñube de Firefox."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Servicios na ñube de Firefox"
@@ -2540,19 +2532,18 @@ msgstr ""
 #~ msgid "Sync preferences"
 #~ msgstr "Preferencies de Sync"
 
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "¿Guetando Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Entama equí</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "¿Tienes una cuenta con un corréu diferente? <a href=\"%(signinUri)s\">Anicia sesión</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
+#~ "href=\"%(linkLinux)s\">Linux</a>."
 #~ msgstr ""
-#~ "Firefox ta disponible pa <a href=\"%(linkLinux)s\">Linux</a> , <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a href="
-#~ "\"%(linkWindows)s\">Windows</a>."
+#~ "Firefox ta disponible pa <a href=\"%(linkLinux)s\">Linux</a> , <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> y <a "
+#~ "href=\"%(linkWindows)s\">Windows</a>."
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "Cabera actividá: %(translatedTimeAgo)s"

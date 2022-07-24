@@ -252,6 +252,8 @@ add-secondary-email-save-button = Guardar
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Pasu 2 de 2
+verify-secondary-email-error-2 = Hebo un problema al unviar el códigu de verificación
 verify-secondary-email-cancel-button = Encaboxar
 verify-secondary-email-verify-button = Verificar
 
@@ -309,6 +311,8 @@ security-password =
 
 ## Switch component
 
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Unviando…
 
 ## Sub-section row Defaults
 
