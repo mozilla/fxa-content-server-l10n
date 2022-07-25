@@ -4,11 +4,13 @@ on:
     branches:
       - master
     paths:
+      - '.github/linter_config.yml'
       - 'locale/en/**.ftl'
   pull_request:
     branches:
       - master
     paths:
+      - '.github/linter_config.yml'
       - 'locale/en/**.ftl'
   workflow_dispatch:
 jobs:
