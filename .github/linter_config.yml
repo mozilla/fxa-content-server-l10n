@@ -2,51 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# ID checks
-# ID01: check that identifiers only use lowercase and hyphens
-# ID02: check that identifiers have a minimum length
-
-# Typography checks
-#
-# TE01: single quote instead of apostrophe for genitive (foo's)
-# TE02: wrong apostrophe for genitive (foo‘s)
-# TE03: single quotes ('foo')
-# TE04: single double quotes ("foo")
-# TE05: 3 dots for ellipsis ("...")
-#
-# Only accepts exceptions per string, not file
-# Example:
-# TE01:
-#     exclusions:
-#         messages: []
-
-# Syntax checks
-#
-# Specify if syntax features are disabled. If the config is missing, it
-# will considered as enabled.
-#
-# Example:
-# SY01:
-#     disabled: true
-#
-# SY01: terms
-# SY02: message references
-# SY03: term references
-# SY04: variants
-# SY05: attributes
-# SY06: variable references
-
-# Comments
-#
-# Specify if checks for group and section comments are disabled. If the config
-# is missing, it will considered as enabled.
-#
-# Example:
-# GC:
-#     disabled: true
-#
-# GC: group comments
-# RC: resource comments
+# See https://github.com/mozilla-l10n/moz-fluent-linter/blob/main/src/fluent_linter/config.yml
+# for details
 
 ---
 ID01:
@@ -55,3 +12,19 @@ ID02:
     enabled: false
 GC:
     disabled: true
+CO01:
+    enabled: true
+    brands:
+        - Firefox
+        - Mozilla
+    exclusions:
+        files: []
+        messages:
+            # main.ftl
+            - project-brand
+            - document
+            # settings.ftl
+            - product-mozilla-vpn
+            - product-firefox-monitor
+            - product-firefox-relay
+            - header-title
