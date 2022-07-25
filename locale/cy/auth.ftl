@@ -47,7 +47,11 @@ subplat-explainer-specific = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif { -product-firefox-account }x
 subplat-explainer-multiple = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } { -product-firefox-account } a'ch bod wedi tanysgrifio i nifer o gynnyrch.
+subplat-explainer-was-deleted = Rydych yn derbyn yr e-bost hwn oherwydd bod gan { $email } gyfrif { -product-firefox-account }.
 subplat-manage-account = Rheolwch osodiadau eich { -product-firefox-account } trwy ymweld â <a data-l10n-name="subplat-account-page">thudalen eich cyfrif </a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Rheolwch eich gosodiadau { -product-firefox-account } drwy fynd i dudalen eich cyfrif: { $accountSettingsUrl }
 subplat-terms-policy = Polisi telerau a chanslo
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Canslo tanysgrifiad
