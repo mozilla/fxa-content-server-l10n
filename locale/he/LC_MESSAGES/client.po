@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-07-25 10:58+0000\n"
+"PO-Revision-Date: 2022-07-25 16:03+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -2001,11 +2001,11 @@ msgstr "הורדת Firefox לטלפון או למחשב הלוח שלך"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Hold your phone's camera over the code to scan."
-msgstr ""
+msgstr "יש להחזיק את מצלמת הטלפון מול הקוד כדי לסרוק."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
-msgstr ""
+msgstr "לחלופין, ניתן לשלוח לעצמך <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">קישור להורדה</a>."
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I'm ready to sync devices"
@@ -2013,7 +2013,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "סנכרון המכשירים שלך כדי לגשת ללשוניות, לססמאות, ללשוניות הפתוחות ולסימניות שלך בכל מקום בו יש לך את Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
