@@ -87,6 +87,9 @@ automated-email =
     Para más información, visitá <a data-l10n-name="supportLink">Soporte de { -brand-mozilla }</a>.
 automated-email-plaintext = Este es un correo electrónico automático; si lo recibiste por error, no debes hacer nada.
 automated-email-support = { automated-email-plaintext } Para más información, visitá <a data-l10n-name="mozillaSupportUrl">Soporte de { -brand-mozilla }</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Para más información, visita Soporte de { -brand-mozilla }: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Este es un correo electrónico automatizado; Si no autorizaste esta acción, cambiá tu contraseña:
 automated-email-reset =
@@ -194,6 +197,8 @@ downloadSubscription-content-2 = Empecemos a usar todas las funcionalidades incl
 downloadSubscription-link-action-2 = Primeros pasos
 fraudulentAccountDeletion-subject = Tu { -product-firefox-account } fue eliminada
 fraudulentAccountDeletion-title = Tu cuenta fue eliminada
+fraudulentAccountDeletion-content = Recientemente, se creó una { -product-firefox-account } y se cobró una suscripción con esta dirección de correo electrónico. Como hacemos con todas las cuentas nuevas, pedimos que confirmés tu cuenta validando primero esta dirección de correo electrónico.
+fraudulentAccountDeletion-content-2 = En la actualidad, vemos que la cuenta nunca fue confirmada. Dado que este paso no se completó, no estamos seguros si se trataba de una suscripción autorizada. Como resultado, la { -product-firefox-account } registrada en esta dirección de correo electrónico se eliminó y la suscripción se canceló con todos los cargos reembolsados.
 fraudulentAccountDeletion-contact = Si tenés alguna pregunta, contactá a nuestro <a data-l10n-name="mozillaSupportUrl">equipo de soporte</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
