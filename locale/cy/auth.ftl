@@ -86,6 +86,10 @@ automated-email =
     Mae hwn yn e-bost awtomatig; os gwnaethoch ei dderbyn trwy gamgymeriad, nid oes angen gweithredu.
     Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
 automated-email-plaintext = E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu.
+automated-email-support = { automated-email-plaintext } Am ragor o wybodaeth, ewch i <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Cefnogaeth</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Am ragor o wybodaeth, ewch i { -brand-mozilla } Cefnogaeth: { $mozillaSupportUrl }</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = E-bost awtomataidd yw hwn; os na wnaethoch awdurdodi'r weithred hon, yna newidiwch eich cyfrinair:
 automated-email-reset =
@@ -191,6 +195,14 @@ downloadSubscription-subject = Croeso i { $productName }.
 downloadSubscription-title = Croeso i { $productName }
 downloadSubscription-content-2 = Gadewch i ni ddechrau defnyddio'r holl nodweddion sydd wedi'u cynnwys yn eich tanysgrifiad:
 downloadSubscription-link-action-2 = Cychwyn Arni
+fraudulentAccountDeletion-subject = Cafodd eich { -product-firefox-account } ei ddileu
+fraudulentAccountDeletion-title = Cafodd eich cyfrif ei ddileu
+fraudulentAccountDeletion-content = Yn ddiweddar, crëwyd { -product-firefox-account } a chodwyd tâl am danysgrifiad gan ddefnyddio'r cyfeiriad e-bost hwn. Fel gyda phob cyfrif newydd, gofynnom i chi gadarnhau eich cyfrif trwy ddilysu'r cyfeiriad e-bost hwn yn gyntaf.
+fraudulentAccountDeletion-content-2 = Ar hyn o bryd, rydym yn gweld na chadarnhawyd y cyfrif erioed. Gan na chwblhawyd y cam hwn, nid ydym yn siŵr a oedd hwn yn danysgrifiad awdurdodedig. O ganlyniad, cafodd y { -product-firefox-account } a gofrestrwyd i'r cyfeiriad e-bost hwn ei ddileu a chafodd eich tanysgrifiad ei ddileu a chafodd yr holl daliadau eu had-dalu.
+fraudulentAccountDeletion-contact = Os oes gennych unrhyw gwestiynau, cysylltwch â'n <a data-l10n-name="mozillaSupportUrl">tîm cymorth</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Os oes gennych unrhyw gwestiynau, cysylltwch â'n tîm cymorth: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Prinder codau adfer
 codes-reminder-description = Rydym wedi sylwi eich bod yn brin o godau adfer. Ystyriwch greu codau newydd er mwyn osgoi cael eich cloi allan o’ch cyfrif.
