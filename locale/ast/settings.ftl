@@ -84,7 +84,7 @@ connect-another-find-fx-mobile =
 cs-heading = Servicios conectaos
 cs-description = Tolo que tas usando y no qu'aniciesti sesión.
 cs-cannot-refresh =
-    Sentímoslo, hebo un fallu al refrescar la llista de servicios
+    Sentímoslo, hebo un problema al refrescar la llista de servicios
     conectaos.
 cs-cannot-disconnect = Nun s'atopó'l veceru, nun ye posible conectase
 
@@ -94,6 +94,7 @@ cs-cannot-disconnect = Nun s'atopó'l veceru, nun ye posible conectase
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-reason-2 = ¿Cuál ye'l motivu principal pa desconectar «{ $device }»?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -119,6 +120,7 @@ cs-sign-out-button = Zarrar sesión
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menú de { -product-firefox-account }
+drop-down-menu-sign-out-error-2 = Sentímoslo, hebo un problema al zarrar la sesión
 
 ## Flow Container
 
@@ -332,6 +334,9 @@ rk-refresh-error = Sentímoslo, hebo un problema al refrescar la clave de recupe
 
 ## Secondary email sub-section on main Settings page
 
+se-cannot-resend-code-2 = Sentímoslo, hebo un problema al volver unviar el códigu de verificación
+se-delete-email-error-2 = Sentímoslo, hebo un problema al desaniciar esta direición de corréu electrónicu
+se-verify-session-error-2 = Sentímoslo, hebo un problema al verificar la sesión
 se-unverified = ensin verificar
 
 ##
@@ -350,6 +355,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Evita que daquién más anicie sesión pidiendo un
     códigu únicu que namás sabes tu.
+tfa-row-cannot-verify-session-3 = Sentímoslo, hebo un problema al verificar la sesión
 tfa-row-disable-modal-heading = ¿Desactivar l'autenticación en dos pasos?
 tfa-row-disable-modal-explain =
     Nun vas ser a desfacer esta aición. Tamién

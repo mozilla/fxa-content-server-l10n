@@ -30,7 +30,16 @@ fxa-privacy-url = Política de privacidá de { -brand-mozilla }
 fxa-service-url = Términos del serviciu de { -product-firefox-cloud }
 subplat-automated-email = Esto ye un corréu automatizáu. Si lu recibiesti por error, nun faigas nada.
 subplat-privacy-plaintext = Avisu de privacidá:
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
+subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate-plaintext = { subplat-reactivate }:
+subplat-privacy-policy = Política de privacidá de { -brand-mozilla }
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Términos del serviciu de { -product-firefox-cloud }
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacidá
+subplat-privacy-website-plaintext = { subplat-privacy }:
 automated-email-plaintext = Esto ye un corréu automatizáu. Si lu recibiesti por error, nun faigas nada.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Ayúdanos a ameyorar los nuesos servicios completando esta encuesta:
