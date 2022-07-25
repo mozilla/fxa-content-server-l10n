@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Clone repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: Set up Python 3
         uses: actions/setup-python@v4
         with:
@@ -30,3 +32,13 @@ jobs:
       - name: Lint reference
         run: |
           moz-fluent-lint ./locale/en --config .github/linter_config.yml
+      - name: Check for unchanged IDs
+        run: |
+            diff=$( git diff --name-only ${{ github.event.pull_request.base.sha }} $GITHUB_SHA )
+            for file in $diff; do
+              mkdir -p "old/${file%/*}/" && mkdir -p "new/${file%/*}/"
+              git show ${{ github.event.pull_request.base.sha }}:$file > temp_base/$file
+              git show $GITHUB_SHA:$file > temp_head/$file
+            done
+            python .github/scripts/detect_unchanged_ids.py --base_dir temp_base --head_dir temp_head
+        if: github.event_name == 'pull_request'
