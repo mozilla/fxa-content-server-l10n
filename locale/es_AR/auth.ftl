@@ -194,6 +194,10 @@ downloadSubscription-content-2 = Empecemos a usar todas las funcionalidades incl
 downloadSubscription-link-action-2 = Primeros pasos
 fraudulentAccountDeletion-subject = Tu { -product-firefox-account } fue eliminada
 fraudulentAccountDeletion-title = Tu cuenta fue eliminada
+fraudulentAccountDeletion-contact = Si tenés alguna pregunta, contactá a nuestro <a data-l10n-name="mozillaSupportUrl">equipo de soporte</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Si tenés alguna pregunta, contactá a nuestro equipo de soporte: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Quedan pocos códigos de recuperación
 codes-reminder-description = Notamos que te estás quedando sin códigos de recuperación. Considerá generar nuevos códigos para evitar el bloqueo de la cuenta.
