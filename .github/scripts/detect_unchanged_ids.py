@@ -10,10 +10,11 @@ except ImportError as e:
     sys.exit(1)
 
 
-def get_file_list(path):
-    """Get the list of supported files."""
+def get_file_list(path, reference_locale="locale/en"):
+    """Get the list of supported files in a reference locale."""
     file_list = []
-    for root, dirs, files in os.walk(path, followlinks=True):
+    reference_locale_path = os.path.join(path, reference_locale)
+    for root, dirs, files in os.walk(reference_locale_path, followlinks=True):
         for file in files:
             if file.endswith(".ftl"):
                 file_list.append(os.path.join(root, file))
@@ -82,7 +83,9 @@ def main():
 
     for file_old, file_new in zip(files_old, files_new):
         filename = os.path.relpath(file_old, path_old)
-        errors[filename] = find_changed_ids(file_old, file_new)
+        changes = find_changed_ids(file_old, file_new)
+        if changes:
+            errors[filename] = changes
 
     if errors:
         files = list(errors.keys())
