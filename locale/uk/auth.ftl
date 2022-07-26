@@ -49,6 +49,9 @@ subplat-explainer-reminder-form = Ви отримали цей лист, том�
 subplat-explainer-multiple = Ви отримали цей лист, тому що { $email } пов'язано з { -product-firefox-account(case: "abl", capitalization: "lower") } і ви передплатили декілька продуктів.
 subplat-explainer-was-deleted = Ви отримали цей лист, тому що { $email } зареєстровано для { -product-firefox-account(case: "abl", capitalization: "lower") }.
 subplat-manage-account = Керуйте налаштуваннями { -product-firefox-account(case: "gen", capitalization: "lower") } зі своєї <a data-l10n-name="subplat-account-page">сторінки облікового запису</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Керуйте налаштуваннями свого { -product-firefox-account(case: "gen", capitalization: "lower") } на сторінці: { $accountSettingsUrl }
 subplat-terms-policy = Умови та політика відмови від послуг
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Скасувати передплату
@@ -83,6 +86,10 @@ automated-email =
     Це автоматично надісланий лист; якщо ви отримали його помилково, нічого робити не потрібно.
     Для отримання додаткових відомостей зверніться до <a data-l10n-name="supportLink">підтримки { -brand-mozilla }</a>.
 automated-email-plaintext = Це автоматичне повідомлення; якщо ви отримали його помилково, не реагуйте на нього.
+automated-email-support = { automated-email-plaintext } Для отримання докладнішої інформації відвідайте <a data-l10n-name="mozillaSupportUrl">Підтримку { -brand-mozilla }</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Для отримання докладнішої інформації відвідайте Підтримку { -brand-mozilla }: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Це автоматичний лист; якщо ви не дозволяли цю дію, тоді, будь ласка, змініть свій пароль:
 automated-email-reset =
@@ -188,7 +195,10 @@ downloadSubscription-subject = Вітаємо в { $productName }
 downloadSubscription-title = Вітаємо в { $productName }
 downloadSubscription-content-2 = Розпочніть користуватися всіма функціями, включеними у вашу передплату:
 downloadSubscription-link-action-2 = Розпочнімо
+fraudulentAccountDeletion-subject = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } було видалено
 fraudulentAccountDeletion-title = Ваш обліковий запис видалено
+fraudulentAccountDeletion-content = Нещодавно було створено { -product-firefox-account(case: "nom", capitalization: "lower") } і стягнуто передплату з використанням цієї адреси електронної пошти. Як і для всіх нових облікових записів, ми попросили вас підтвердити цю адресу електронної пошти.
+fraudulentAccountDeletion-content-2 = Наразі ми бачимо, що обліковий запис ще не було підтверджено. Оскільки цей крок не завершено, ми не впевнені в тому, що це була авторизована передплата. Як наслідок, зареєстрований з цією адресою електронної пошти { -product-firefox-account(case: "nom", capitalization: "lower") } було видалено, а передплату скасовано з усіма поверненнями коштів.
 fraudulentAccountDeletion-contact = Якщо у вас виникли запитання, зв’яжіться з нашою <a data-l10n-name="mozillaSupportUrl">службою підтримки</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
