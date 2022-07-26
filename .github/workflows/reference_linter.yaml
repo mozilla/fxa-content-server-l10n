@@ -36,9 +36,9 @@ jobs:
         run: |
             diff=$( git diff --name-only ${{ github.event.pull_request.base.sha }} $GITHUB_SHA )
             for file in $diff; do
-              mkdir -p "old/${file%/*}/" && mkdir -p "new/${file%/*}/"
+              mkdir -p "temp_base/${file%/*}/" && mkdir -p "temp_head/${file%/*}/"
               git show ${{ github.event.pull_request.base.sha }}:$file > temp_base/$file
               git show $GITHUB_SHA:$file > temp_head/$file
             done
-            python .github/scripts/detect_unchanged_ids.py --base_dir temp_base --head_dir temp_head
+            python .github/scripts/detect_unchanged_ids.py --base_dir temp_base --head_dir temp_head --locale_dir locale/en
         if: github.event_name == 'pull_request'

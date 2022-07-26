@@ -10,11 +10,11 @@ except ImportError as e:
     sys.exit(1)
 
 
-def get_file_list(path, reference_locale="locale/en"):
+def get_file_list(path, reference_locale_path):
     """Get the list of supported files in a reference locale."""
     file_list = []
-    reference_locale_path = os.path.join(path, reference_locale)
-    for root, dirs, files in os.walk(reference_locale_path, followlinks=True):
+    target_path = os.path.join(path, reference_locale_path)
+    for root, dirs, files in os.walk(target_path, followlinks=True):
         for file in files:
             if file.endswith(".ftl"):
                 file_list.append(os.path.join(root, file))
@@ -68,6 +68,11 @@ def main():
         required=True,
         help="Folder with the new version of files (copied from head repository)",
     )
+    arg_parser.add_argument(
+        "--locale_dir",
+        required=True,
+        help='Path to reference locale (e.g. "locale/en")',
+    )
     args = arg_parser.parse_args()
 
     errors = {}
@@ -77,9 +82,10 @@ def main():
 
     path_old = os.path.join(root_path, args.base_dir)
     path_new = os.path.join(root_path, args.head_dir)
+    path_locale = args.locale_dir
 
-    files_old = get_file_list(path_old)
-    files_new = get_file_list(path_new)
+    files_old = get_file_list(path_old, path_locale)
+    files_new = get_file_list(path_new, path_locale)
 
     for file_old, file_new in zip(files_old, files_new):
         filename = os.path.relpath(file_old, path_old)
