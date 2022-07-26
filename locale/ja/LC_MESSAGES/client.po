@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 09:13+0000\n"
+"POT-Creation-Date: 2022-07-26 17:52+0000\n"
 "PO-Revision-Date: 2022-05-05 04:09+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -840,8 +840,12 @@ msgid "Invalid Token"
 msgstr "不正なトークン"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなされます。"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなさ"
+"れます。"
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -910,8 +914,11 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "あなたが安全な場所に保管した 1 回のみ使用可能な回復用キーを入力して、Firefox アカウントへのアクセスを取り戻しましょう。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr "<span class=\"note\">注:</span> パスワードのリセット行い、それ以前にアカウント回復キーを保管していなかった場合、(履歴やブックマークなど同期されたサーバー上のデータを含む) 一部のデータは消去されます。"
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+"<span class=\"note\">注:</span> パスワードのリセット行い、それ以前にアカウント回復キーを保管していなかった場合、(履歴やブックマークなど同期されたサーバー上のデータを含む) 一部のデータは消去されま"
+"す。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
@@ -931,8 +938,8 @@ msgid "Cannot create account"
 msgstr "アカウントを作成できません"
 
 #: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Firefox アカウントを作成するには、規定の年齢に達している必要があります。"
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr ""
 
 # リンク先などは未確認だが多分 Cookie の説明？
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
@@ -967,7 +974,9 @@ msgstr "新しいパスワードを設定"
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと Pocket のデータは影響を受けません。"
+msgstr ""
+"<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなた"
+"のパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと Pocket のデータは影響を受けません。"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1039,10 +1048,9 @@ msgstr "リセット用のメールが送信されました"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "1 時間以内に %(email)s 宛にメールでお送りするリンクをクリックして、新しいパスワードを設定してください。"
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "確認コードを入力してください"
+#: .es5/templates/confirm_signup_code.mustache:1
+msgid "Enter confirmation code"
+msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
@@ -1057,12 +1065,12 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "6 桁のコードを入力"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
 msgstr "確認"
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Code expired?"
 msgstr ""
 
@@ -1128,7 +1136,8 @@ msgstr "Cookie とローカルストレージが必要です"
 
 #: .es5/templates/cookies_disabled.mustache:2
 msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Firefox アカウントへアクセスするには、お使いのブラウザーの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。"
+msgstr ""
+"Firefox アカウントへアクセスするには、お使いのブラウザーの Cookie とローカルストレージを有効にしてください。それによってセッションをまたいだログイン情報の記憶などの機能が使えるようになります。"
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
@@ -1206,8 +1215,8 @@ msgstr "コピー"
 msgid "Print"
 msgstr "印刷"
 
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_token_code.mustache:5
-#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "続ける"
@@ -1227,10 +1236,6 @@ msgstr "端末を紛失してしまった場合にアカウントへのアクセ
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "回復用コード"
-
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
-msgid "Confirm"
-msgstr "確認"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1354,7 +1359,7 @@ msgstr "あなたのアカウントへのアクセス試行に関してメール
 msgid "Report activity"
 msgstr "疑わしい挙動を報告"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "このような問題が起きた理由"
 
@@ -1362,7 +1367,9 @@ msgstr "このような問題が起きた理由"
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>補足:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと Pocket のデータは影響を受けません。"
+msgstr ""
+"<span>補足:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなた"
+"のパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと Pocket のデータは影響を受けません。"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1437,6 +1444,10 @@ msgstr "設定中に表示された回復用コードを入力してください
 msgid "Enter 10-digit recovery code"
 msgstr "10 桁の回復用コードを入力"
 
+#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+msgid "Verify"
+msgstr "確認"
+
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
 msgstr "締め出されていますか？"
@@ -1449,18 +1460,21 @@ msgstr "あなたの警戒心に感謝します"
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "担当者に通知が送られました。こうした報告が侵入者を防ぐための助けとなります。"
 
-#: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-#: .es5/templates/push/send_login.mustache:1
-msgid "Authorize this sign-in"
-msgstr "このログインを承認"
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter confirmation"
+msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:3
-msgid "Check your email for the code sent to %(email)s."
-msgstr "コードを %(email)s 宛にお送りしましたので、メールをチェックしてください。"
+msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgstr ""
 
-#: .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "別のコードが必要ですか？ 再送信します"
+#: .es5/templates/sign_in_token_code.mustache:7
+msgid "Email new code"
+msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1473,6 +1487,10 @@ msgstr "お使いの認証アプリを開いて、そこに表示されたセキ
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr "コードの入力時に問題が発生しましたか？"
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "このログインを承認"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1656,9 +1674,17 @@ msgstr "予備アドレス"
 msgid "Maybe later"
 msgstr "後で考えます"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter verification code"
+msgstr "確認コードを入力してください"
+
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "%(escapedEmail)s 宛に送信された確認コードを 5 分以内に入力してください。"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr "別のコードが必要ですか？ 再送信します"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
@@ -1675,7 +1701,9 @@ msgstr "%(serviceName)s の利用を続ける"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "Firefox アカウントで疑わしい動作が検出されました。アカウントを保護するために、新しいパスワードを作成してください。このパスワードを使用して、すべての Firefox アカウントサービスに再度サインインします。"
+msgstr ""
+"Firefox アカウントで疑わしい動作が検出されました。アカウントを保護するために、新しいパスワードを作成してください。このパスワードを使用して、すべての Firefox アカウントサービスに再度サインインしま"
+"す。"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1860,7 +1888,7 @@ msgid "How old are you?"
 msgstr "あなたの年齢は何歳ですか？"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You need to be at least 13 years old to create an account."
+msgid "You must be over 13 to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -2034,6 +2062,12 @@ msgstr "アプリを使用してペアリング"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "システムカメラを使用しましたか？ Firefox アプリ内からペアリングする必要があります。"
 
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Firefox アカウントを作成するには、規定の年齢に達している必要があります。"
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "コードを %(email)s 宛にお送りしましたので、メールをチェックしてください。"
+
 #~ msgid "Why is more than one device required?"
 #~ msgstr "複数の端末が必要な理由は？"
 
@@ -2146,14 +2180,18 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">ヘルプ</a>"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr "<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードなど) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、購読しているものは維持されます。"
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードなど) が失われる可能性があります。これは、プライバシーを守るため、あなた"
+#~ "のパスワードを使ってあなたのデータを暗号化しているためです。ただし、購読しているものは維持されます。"
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr "<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードなど) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。ただし、購読しているものは維持されます。"
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードなど) が失われる可能性があります。これは、プライバシーを守るため、あなた"
+#~ "のパスワードを使ってあなたのデータを暗号化しているためです。ただし、購読しているものは維持されます。"
 
 #~ msgid "Firefox Lockwise"
 #~ msgstr "Firefox Lockwise"
@@ -2168,14 +2206,18 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgstr "データ漏洩をロックアウトしましょう。"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
-#~ msgstr "<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードなど) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。"
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードなど) が失われる可能性があります。これは、プライバシーを守るため、あなた"
+#~ "のパスワードを使ってあなたのデータを暗号化しているためです。"
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
-#~ msgstr "<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードなど) が失われる可能性があります。これは、プライバシーを守るため、あなたのパスワードを使ってあなたのデータを暗号化しているためです。"
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>注意:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードなど) が失われる可能性があります。これは、プライバシーを守るため、あなた"
+#~ "のパスワードを使ってあなたのデータを暗号化しているためです。"
 
 #~ msgid "Change..."
 #~ msgstr "変更..."
@@ -2498,7 +2540,9 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgid ""
 #~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 #~ "more</a>"
-#~ msgstr "<span class=\"note\">注:</span> あなたの Firefox データはあなたの Firefox アカウントのパスワードで暗号化されます。パスワードと回復用キーだけがデータにアクセスする手段となります。<a %(escapedLearnMoreLinkAttributes)s>詳しくはこちら</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">注:</span> あなたの Firefox データはあなたの Firefox アカウントのパスワードで暗号化されます。パスワードと回復用キーだけがデータにアクセスする手段となります。<a "
+#~ "%(escapedLearnMoreLinkAttributes)s>詳しくはこちら</a>"
 
 #~ msgid "Are you sure you want to revoke?"
 #~ msgstr "本当に無効化しますか？"
@@ -2509,7 +2553,8 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "ステップ 2 の 2: 回復用キーを保管"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr "<span class=\"note\">注:</span> パスワードを忘れた場合、あなたのデータへのアクセスを取り戻すにはこのキーが必要となります。回復用キーは安全で後から簡単に見つけられる場所に保管してください。"
 
 #~ msgid "Done, Recovery key saved"
@@ -2640,7 +2685,9 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgstr "このパスワードをなくさないようにしてください。再設定が必要になった場合、Sync データが失われる可能性があります。"
 
 #~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr "<span>メール用パスワードを再利用しないでください</span> 誰かがあなたのメール用パスワードを知ってしまった場合、その人物は新しい端末上で Firefox へのログインを許可し、あなたのデータにアクセスできてしまいます。"
+#~ msgstr ""
+#~ "<span>メール用パスワードを再利用しないでください</span> 誰かがあなたのメール用パスワードを知ってしまった場合、その人物は新しい端末上で Firefox へのログインを許可し、あなたのデータにアクセスできて"
+#~ "しまいます。"
 
 #~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>パスワードを覚えておいてください</span> パスワードの再設定が必要になった場合、お使いのどの端末上にもない Sync データは失われます。"
@@ -2688,9 +2735,11 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgstr "設定の管理"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
-#~ msgstr "このアカウントを AMO、Pocket、Screenshots など Mozilla のアプリやサービスに使用している場合、まずログインして保存されている個人情報があれば削除してください。ここでアカウントを削除すると、様々なところでアクセスを失う可能性があります。"
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
+#~ msgstr ""
+#~ "このアカウントを AMO、Pocket、Screenshots など Mozilla のアプリやサービスに使用している場合、まずログインして保存されている個人情報があれば削除してください。ここでアカウントを削除すると、様々なと"
+#~ "ころでアクセスを失う可能性があります。"
 
 #~ msgid "verified"
 #~ msgstr "確認済み"
@@ -2771,7 +2820,8 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgstr "購読プラットフォームのサービス利用規約を取得できませんでした"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "続けることで、<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">プライバシー通知</a> に同意したものとみなされます。"
+#~ msgstr ""
+#~ "続けることで、<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">プライバシー通知</a> に同意したものとみなされます。"
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "購読プラットフォームのサービス利用規約"
@@ -2926,8 +2976,12 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookie とローカルストレージが必要です。"
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "続けることで、Firefox クラウドサービスの <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">プライバシー通知</a> に同意したものとみなされます。"
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "続けることで、Firefox クラウドサービスの <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">プライバシー通知</a> に同"
+#~ "意したものとみなされます。"
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox クラウドサービス"
@@ -2970,7 +3024,8 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "SMS サービスは米国の電話番号のみ使用可能です。SMS およびデータ料金が適用される場合があります。メールあるいは SMS の受取人が同意している必要があります。<a %(escapedLearnMoreAttributes)s>詳細</a>"
+#~ msgstr ""
+#~ "SMS サービスは米国の電話番号のみ使用可能です。SMS およびデータ料金が適用される場合があります。メールあるいは SMS の受取人が同意している必要があります。<a %(escapedLearnMoreAttributes)s>詳細</a>"
 
 #~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
 #~ msgstr "アプリのリンクを %(escapedPhoneNumber)s へ送信しました。<a %(escapedBackLinkAttrs)s>番号を間違えた場合</a>"
@@ -2979,14 +3034,18 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgstr "2 つ (あるいはそれ以上) の端末を同期する理由"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
-#~ msgstr "Sync を使えば、ひとつの端末上の Firefox に保存したブックマーク、履歴、パスワードを、他の端末上の Firefox と同期できます。お使いの携帯電話やタブレットで Firefox にログインすれば、デスクトップ版 Firefox に保存した情報が表示されます。"
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Sync を使えば、ひとつの端末上の Firefox に保存したブックマーク、履歴、パスワードを、他の端末上の Firefox と同期できます。お使いの携帯電話やタブレットで Firefox にログインすれば、デスクトップ版 "
+#~ "Firefox に保存した情報が表示されます。"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr "Sync は永続的バックアップとしては設計されておらず、ローカルに保存された情報を共有するためのサービスに過ぎません。パスワードをリセットし、他の少なくともひとつの端末上にデータが保存されていない場合、古いパスワードに関連付けられたすべての情報が失われる可能性があります。それが、複数の端末上で Firefox をインストールし Sync を使うことをお勧めする理由です。"
+#~ msgstr ""
+#~ "Sync は永続的バックアップとしては設計されておらず、ローカルに保存された情報を共有するためのサービスに過ぎません。パスワードをリセットし、他の少なくともひとつの端末上にデータが保存されていない場"
+#~ "合、古いパスワードに関連付けられたすべての情報が失われる可能性があります。それが、複数の端末上で Firefox をインストールし Sync を使うことをお勧めする理由です。"
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -3088,14 +3147,18 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgstr "ログイン"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
-#~ msgstr "<span>注意:</span> パスワードを変更した場合、(履歴やブックマークといった同期済みサーバーデータを含む) 一部のデータは消去されます。これは、プライバシー保護のため、あなたのデータがあなたのパスワードを使って暗号化されているためです。"
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
+#~ msgstr ""
+#~ "<span>注意:</span> パスワードを変更した場合、(履歴やブックマークといった同期済みサーバーデータを含む) 一部のデータは消去されます。これは、プライバシー保護のため、あなたのデータがあなたのパスワー"
+#~ "ドを使って暗号化されているためです。"
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
-#~ msgstr "<span>注意:</span> パスワードを変更した場合、(履歴やブックマークといった同期済みサーバーデータを含む) 一部のデータは消去されます。これは、プライバシー保護のため、あなたのデータがあなたのパスワードを使って暗号化されているためです。"
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
+#~ msgstr ""
+#~ "<span>注意:</span> パスワードを変更した場合、(履歴やブックマークといった同期済みサーバーデータを含む) 一部のデータは消去されます。これは、プライバシー保護のため、あなたのデータがあなたのパスワー"
+#~ "ドを使って暗号化されているためです。"
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "<a %(escapedTotpSupportAttributes)s>これらの認証アプリ</a> のいずれかからセキュリティコードを必須とすることでアカウントのセキュリティレベルを高めます。"
@@ -3134,7 +3197,9 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgstr "コードをスキャンできませんか？"
 
 #~ msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr "<span>メール用パスワードを再利用しないでください</span><br/>誰かがあなたのメール用パスワードを知ってしまった場合、その人物は新しい端末上で Firefox へのログインを許可し、あなたのデータにアクセスできてしまいます。"
+#~ msgstr ""
+#~ "<span>メール用パスワードを再利用しないでください</span><br/>誰かがあなたのメール用パスワードを知ってしまった場合、その人物は新しい端末上で Firefox へのログインを許可し、あなたのデータにアクセスで"
+#~ "きてしまいます。"
 
 #~ msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
 #~ msgstr "<span>パスワードを覚えておいてください</span><br/>パスワードの再設定が必要になった場合、お使いのどの端末上にもない Sync データは失われます。"
@@ -3223,16 +3288,21 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgid "Sync preferences"
 #~ msgstr "Sync 設定"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Firefox Sync をお探しですか？ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">こちらを参照してください</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Firefox Sync をお探しですか？ <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">こちらを参照してくだ"
+#~ "さい</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "別のメールアドレスでアカウントをお持ちですか？ <a href=\"%(signinUri)s\">ログイン</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox は、<a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> および <a href=\"%(linkLinux)s\">Linux</a> に対応しています。"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox は、<a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> および <a href=\"%(linkLinux)s"
+#~ "\">Linux</a> に対応しています。"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "最終アクティブ日時: %(translatedTimeAgo)s"
@@ -3397,7 +3467,9 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 #~ msgstr "本当にアカウントのパスワードをリセットしますか？"
 
 #~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去されます。お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始めるにはまず以下にメールアドレスを入力してください。"
+#~ msgstr ""
+#~ "パスワードをリセットすると、Mozilla のサーバからブラウジングデータが消去されます。お使いの端末上のデータはすべてそのまま残ります。リセット手続きを始めるにはまず以下にメールアドレスを入力してくだ"
+#~ "さい。"
 
 #~ msgid "a day"
 #~ msgstr "1 日"

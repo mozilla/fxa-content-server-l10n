@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 09:13+0000\n"
-"PO-Revision-Date: 2022-03-25 03:22+0000\n"
+"POT-Creation-Date: 2022-07-26 17:52+0000\n"
+"PO-Revision-Date: 2022-07-23 07:44+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
@@ -936,8 +936,8 @@ msgid "Cannot create account"
 msgstr "Kan inte skapa konto"
 
 #: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Du måste uppfylla vissa ålderskrav för att få skapa ett Firefox-konto."
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1045,36 +1045,35 @@ msgstr "Återställningsmejl skickat"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Klicka på länken som skickats till %(email)s inom den kommande timmen för att skapa ett nytt lösenord."
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "Ange verifieringskod"
+#: .es5/templates/confirm_signup_code.mustache:1
+msgid "Enter confirmation code"
+msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "för ditt Firefox-konto"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Ange koden som skickades till %(escapedEmail)s inom 5 minuter."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Ange 6-siffrig kod"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "Verifiera"
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "Bekräfta"
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Code expired?"
-msgstr ""
+msgstr "Har koden upphört?"
 
 #: .es5/templates/confirm_signup_code.mustache:7
 msgid "Email new code."
-msgstr ""
+msgstr "Mejla ny kod."
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -1082,7 +1081,7 @@ msgstr "Anslut en annan enhet"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "Firefox account connected"
-msgstr ""
+msgstr "Firefox-konto anslutet"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -1106,15 +1105,15 @@ msgstr "Logga in i Firefox på en annan enhet för att slutföra konfigurationen
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Sync Firefox across devices"
-msgstr ""
+msgstr "Synkronisera Firefox mellan enheter"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
-msgstr ""
+msgstr "Logga in överallt där du använder Firefox."
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
-msgstr ""
+msgstr "Vi finns på Android och iOS, också!"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1146,6 +1145,9 @@ msgid ""
 "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Ange ditt lösenord <span class=\"description\">för ditt Firefox-konto</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1165,11 +1167,11 @@ msgstr "Glömt lösenordet?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "Fortsätt till Firefox-konton"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synkronisera dina lösenord, flikar och bokmärken överallt där du använder Firefox."
 
 #: .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1185,11 +1187,11 @@ msgstr "E-post"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Registrera dig eller logga in"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Ett Firefox-konto låser också upp åtkomst till mer integritetsskyddande produkter från Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1212,8 +1214,8 @@ msgstr "Kopiera"
 msgid "Print"
 msgstr "Skriv ut"
 
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_token_code.mustache:5
-#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Fortsätt"
@@ -1233,10 +1235,6 @@ msgstr "Ange en av dina sparade återställningskoder för att säkerställa att
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "Återställningskod"
-
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
-msgid "Confirm"
-msgstr "Bekräfta"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1360,7 +1358,7 @@ msgstr "Du har fått e-post om försök att få tillgång till ditt konto. Vill 
 msgid "Report activity"
 msgstr "Rapportera aktivitet"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Varför händer detta?"
 
@@ -1446,6 +1444,10 @@ msgstr "Ange en återställningskod som du fick under installationen."
 msgid "Enter 10-digit recovery code"
 msgstr "Ange 10-siffrig återställningskod"
 
+#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+msgid "Verify"
+msgstr "Verifiera"
+
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
 msgstr "Är du utelåst?"
@@ -1458,18 +1460,21 @@ msgstr "Tack för din vaksamhet"
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "Vårt team har underrättats. Rapporter som denna hjälper oss att avvärja inkräktare."
 
-#: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-#: .es5/templates/push/send_login.mustache:1
-msgid "Authorize this sign-in"
-msgstr "Auktorisera denna inloggning"
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter confirmation"
+msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:3
-msgid "Check your email for the code sent to %(email)s."
-msgstr "Kontrollera din e-post för koden skickad till %(email)s."
+msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgstr ""
 
-#: .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "Behöver du en annan kod? Skicka igen"
+#: .es5/templates/sign_in_token_code.mustache:7
+msgid "Email new code"
+msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1483,6 +1488,10 @@ msgstr "Öppna din autentiseringsapp och ange säkerhetskoden som tillhandahåll
 msgid "Trouble entering code?"
 msgstr "Har du problem att ange koden?"
 
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "Auktorisera denna inloggning"
+
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
 msgstr "Kontrollera din e-post efter behörighetskoden som skickas till %(email)s."
@@ -1493,7 +1502,7 @@ msgstr "Ange behörighetskod"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Ställ in ditt lösenord"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1666,9 +1675,17 @@ msgstr "Sekundär e-post"
 msgid "Maybe later"
 msgstr "Kanske senare"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter verification code"
+msgstr "Ange verifieringskod"
+
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Ange verifieringskoden som skickades till %(escapedEmail)s inom 5 minuter."
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr "Behöver du en annan kod? Skicka igen"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
@@ -1869,7 +1886,7 @@ msgid "How old are you?"
 msgstr "Hur gammal är du?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You need to be at least 13 years old to create an account."
+msgid "You must be over 13 to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -1898,23 +1915,23 @@ msgstr "IP-adress: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Lösenordskrav"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Minst 8 tecken"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Inte din e-postadress"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Inte ett vanligt använt lösenord"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr ""
+msgstr "Håll dig säker &mdash; återanvänd inte lösenord. Se fler tips för att <a %(escapedCommonPasswordLinkAttrs)s>skapa starka lösenord</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1930,7 +1947,7 @@ msgstr "Tillbaka till prenumerationer"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Letar du efter Firefox Sync? <a %(escapedSyncSuggestionAttrs)s=\"\">Kom igång här</a>"
+msgstr "Letar du efter Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Kom igång här</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
@@ -1946,23 +1963,23 @@ msgstr "Fortsätt med Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "Loggade du precis in på Firefox?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "platsballong"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "Ja, godkänn enhet"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
-msgstr ""
+msgstr "Om det här inte var du <a id=\"change-password\">ändra ditt lösenord</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1974,14 +1991,17 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Du synkroniserar nu med: <span>%(deviceFamily)s på %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Nu kan du komma åt dina öppna flikar, lösenord och bokmärken på alla dina enheter."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Se flikar från synkroniserade enheter"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -2001,23 +2021,23 @@ msgstr "Installationsprocessen avslutades."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
 msgid "Get Firefox on your phone or tablet"
-msgstr ""
+msgstr "Skaffa Firefox på din telefon eller surfplatta"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Hold your phone's camera over the code to scan."
-msgstr ""
+msgstr "Håll telefonens kamera över koden för att skanna."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
-msgstr ""
+msgstr "Eller skicka dig själv en <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">nedladdningslänk.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I'm ready to sync devices"
-msgstr ""
+msgstr "Jag är redo att synkronisera enheter"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synkronisera enheter för att komma åt dina flikar, lösenord och bokmärken överallt där du använder Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2042,6 +2062,15 @@ msgstr "Parning via en app"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Vill du använda enhetens kamera? Du måste para ihop den från en Firefox-app."
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Du måste uppfylla vissa ålderskrav för att få skapa ett Firefox-konto."
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "Kontrollera din e-post för koden skickad till %(email)s."
+
+#~ msgid "You need to be at least 13 years old to create an account."
+#~ msgstr "Du måste vara minst 13 år för att skapa ett konto."
 
 #~ msgid "Why is more than one device required?"
 #~ msgstr "Varför behövs mer än en enhet?"

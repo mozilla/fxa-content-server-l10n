@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 09:13+0000\n"
+"POT-Creation-Date: 2022-07-26 17:52+0000\n"
 "PO-Revision-Date: 2022-07-23 07:12+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -839,10 +839,12 @@ msgid "Invalid Token"
 msgstr "Token baliogabea"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Jarraituz gero, %(serviceName)s (%(serviceUri)s)(r)en <a id=\"service-tos\" href=\"%(termsUri)s\">zerbitzuaren baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">pribatutasun oharra</a>"
-" onartzen dituzu."
+"Jarraituz gero, %(serviceName)s (%(serviceUri)s)(r)en <a id=\"service-tos\" href=\"%(termsUri)s\">zerbitzuaren baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">pribatutasun oharra</"
+"a> onartzen dituzu."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -910,7 +912,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Mesedez sartu erabilera bakarreko berreskuratze gakoa toki seguruan gordea duzuna berriz bereganatzeko zure Firefox kontura sarrera."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">OHARRA:</span> Pasahitza berrezartzen baduzu eta ez badaukazu berreskuratzeko gakoa gordeta, zure hainbat datu ezabatuko dira (historia eta laster-markak bezalako zerbitzarian "
 "sinkronizatutako datuak barne)."
@@ -933,8 +936,8 @@ msgid "Cannot create account"
 msgstr "Ezin da kontua sortu"
 
 #: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "Gutxieneko adin bat izan behar duzu Firefox kontu bat sortzeko."
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1040,10 +1043,9 @@ msgstr "Berrezartze-mezua bidali da"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Egin klik %(email)s helbidera bidali dizugun estekan hurrengo orduan zehar pasahitz berria sortzeko."
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "Idatzi egiaztapen-kodea"
+#: .es5/templates/confirm_signup_code.mustache:1
+msgid "Enter confirmation code"
+msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
@@ -1058,12 +1060,12 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "Sartu 6 digituko kodea"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "Egiaztatu"
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "Berretsi"
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Code expired?"
 msgstr "Kodea iraungita?"
 
@@ -1207,8 +1209,8 @@ msgstr "Kopiatu"
 msgid "Print"
 msgstr "Inprimatu"
 
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_token_code.mustache:5
-#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Jarraitu"
@@ -1228,10 +1230,6 @@ msgstr ""
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "Berreskuratze-kodea"
-
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
-msgid "Confirm"
-msgstr "Berretsi"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1355,7 +1353,7 @@ msgstr "Mezu bat jaso duzu zure kontuan saio hasiera saiakera bati buruz. Aktibi
 msgid "Report activity"
 msgstr "Eman jardueraren berri"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Zergatik ari da hau gertatzen?"
 
@@ -1434,6 +1432,10 @@ msgstr "Mesedez sartu berreskuratze kodea, ezarpenean zehar eman zitzaizuna."
 msgid "Enter 10-digit recovery code"
 msgstr "Sartu 10 digituko berreskuratze kodea"
 
+#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+msgid "Verify"
+msgstr "Egiaztatu"
+
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
 msgstr ""
@@ -1446,18 +1448,21 @@ msgstr "Eskerrik asko zure zaintzagatik"
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "Gure taldeari jakinarazi zaio. Horrelako txostenek arrotzak kanpo mantentzen laguntzen digu."
 
-#: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-#: .es5/templates/push/send_login.mustache:1
-msgid "Authorize this sign-in"
-msgstr "Baimendu saio-hasiera hau"
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter confirmation"
+msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:3
-msgid "Check your email for the code sent to %(email)s."
-msgstr "Egiaztatu zure posta-elektronikoa %(email)s helbidera bidalitako egiaztapen-koderako."
+msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgstr ""
 
-#: .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "Beste kode bat behar duzu? Birbidali"
+#: .es5/templates/sign_in_token_code.mustache:7
+msgid "Email new code"
+msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1470,6 +1475,10 @@ msgstr "Ireki zure autentifikazio-aplikazioa eta sartu bertan agertzen den segur
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr "Arazoak kodea sartzean?"
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "Baimendu saio-hasiera hau"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1649,9 +1658,17 @@ msgstr "Helbide elektroniko alternatiboa"
 msgid "Maybe later"
 msgstr "Geroago agian"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter verification code"
+msgstr "Idatzi egiaztapen-kodea"
+
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "5 minuturen buruan idatzi %(escapedEmail)s helbidera bidalitako egiaztapen-kodea."
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr "Beste kode bat behar duzu? Birbidali"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
@@ -1854,7 +1871,7 @@ msgid "How old are you?"
 msgstr "Zenbat urte dituzu?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You need to be at least 13 years old to create an account."
+msgid "You must be over 13 to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -2028,6 +2045,12 @@ msgstr "Parekatzea aplikazioa erabiliz"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duzu."
 
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Gutxieneko adin bat izan behar duzu Firefox kontu bat sortzeko."
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "Egiaztatu zure posta-elektronikoa %(email)s helbidera bidalitako egiaztapen-koderako."
+
 #~ msgid "Why is more than one device required?"
 #~ msgstr "Zergatik behar da gailu bat baino gehiago?"
 
@@ -2116,18 +2139,18 @@ msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duz
 #~ msgstr "Lortu datu-urratzeen talaia bat."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span>GOGORATU:</span> Pasahitza berrezartzean, zure kontua berrezarriko da. Zure informazio pertsonala gal dezakezu (historia, laster-markak eta pasahitzak barne). Hau zure pribatutasuna babesteko "
-#~ "enkriptatzean zure pasahitza erabiltzen delako gertatzen da."
+#~ "<span>GOGORATU:</span> Pasahitza berrezartzean, zure kontua berrezarriko da. Zure informazio pertsonala gal dezakezu (historia, laster-markak eta pasahitzak barne). Hau zure pribatutasuna "
+#~ "babesteko enkriptatzean zure pasahitza erabiltzen delako gertatzen da."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span>OHARRA:</span> Pasahitza berrezartzean, zure kontua berrezarriko da. Zure informazio pertsonala gal dezakezu (historia, laster-markak eta pasahitzak barne). Hau zure pribatutasuna babesteko "
-#~ "enkriptatzean zure pasahitza erabiltzen delako gertatzen da."
+#~ "<span>OHARRA:</span> Pasahitza berrezartzean, zure kontua berrezarriko da. Zure informazio pertsonala gal dezakezu (historia, laster-markak eta pasahitzak barne). Hau zure pribatutasuna "
+#~ "babesteko enkriptatzean zure pasahitza erabiltzen delako gertatzen da."
 
 #~ msgid "Change..."
 #~ msgstr "Aldatu..."
@@ -2410,7 +2433,8 @@ msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duz
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "2 pausoa 2tik: Gorde berreskuratze gakoa"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
 #~ "<span class=\"note\">OHARRA: </span>Zure pasahitza galduz gero, gako hau eskatuko da zure datuetara sarbidea emateko. Gorde zure berreskuratze gakoa leku seguruan, gerora zuk erraz bilatuko duzu "
 #~ "batean."
@@ -2562,11 +2586,11 @@ msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duz
 #~ msgstr "Harpidetu"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "AMO, Pocket edo pantaila-argazkia zerbitzuak bezalako Mozilla aplikazioetarako erabiltzen baduzu kontua lehenik saioa hasi eta gordetako informazio pertsonal guztia ezabatu beharko duzu. Behin hemen"
-#~ " zure kontua ezabatuta toki guztietarako sarbidea gal dezakezu."
+#~ "AMO, Pocket edo pantaila-argazkia zerbitzuak bezalako Mozilla aplikazioetarako erabiltzen baduzu kontua lehenik saioa hasi eta gordetako informazio pertsonal guztia ezabatu beharko duzu. Behin "
+#~ "hemen zure kontua ezabatuta toki guztietarako sarbidea gal dezakezu."
 
 #~ msgid "verified"
 #~ msgstr "egiaztatuta"
@@ -2599,7 +2623,9 @@ msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duz
 #~ msgstr "Atera kontuari ahalik eta zuku gehiena"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Jarraituz gero, Firefoxen<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">baldintzak</a>eta <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pribatutasun-oharra</a> onartzen dituzu."
+#~ msgstr ""
+#~ "Jarraituz gero, Firefoxen<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">baldintzak</a>eta <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pribatutasun-oharra</a> onartzen "
+#~ "dituzu."
 
 #~ msgid "%(email)s registered."
 #~ msgstr "%(email)s erregistratuta."
@@ -2733,7 +2759,9 @@ msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duz
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Cookie-ak eta biltegiratze lokala beharrezkoak dira."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Jarraituz gero, Firefoxen hodeiko zerbitzuen <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pribatutasun-"
 #~ "oharra</a> onartzen dituzu."
@@ -3178,15 +3206,19 @@ msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duz
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "Kontua baduzu? Hasi saioa."
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr ""
 #~ "Jarraitzearekin bat, %(serviceName)s guneko (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Zerbitzuaren Baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">Pribatutasun-"
 #~ "oharra</a> onartzen ditut."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
-#~ "Jarraitzearekin bat, Firefoxen hodeieko zerbitzuen <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">erabiltzeko baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\" "
-#~ "tabindex=\"-1\">pribatutasun-politika</a> onartzen ditudala berresten dut."
+#~ "Jarraitzearekin bat, Firefoxen hodeieko zerbitzuen <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">erabiltzeko baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex="
+#~ "\"-1\">pribatutasun-politika</a> onartzen ditudala berresten dut."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Harpidetu Firefoxen berri eta iradokizunetara"
