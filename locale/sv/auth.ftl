@@ -47,7 +47,11 @@ subplat-explainer-specific = Du får det här e-postmeddelandet eftersom { $emai
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Du får det här e-postmeddelandet eftersom { $email } har ett { -product-firefox-account }.
 subplat-explainer-multiple = Du får det här e-postmeddelandet eftersom { $email } har ett { -product-firefox-account } och du har prenumererat på flera produkter.
+subplat-explainer-was-deleted = Du får det här e-postmeddelandet eftersom { $email } har registrerats för ett { -product-firefox-account }.
 subplat-manage-account = Hantera dina inställningar för { -product-firefox-account } genom att besöka din <a data-l10n-name="subplat-account-page">kontosida</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Hantera dina inställningar för { -product-firefox-account } genom att besöka din kontosida: { $accountSettingsUrl }
 subplat-terms-policy = Villkor och avbokningsregler
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Avbryt prenumeration
@@ -77,10 +81,15 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Detta är ett automatiskt e-postmeddelande; om du inte har lagt till en ny enhet i ditt { -product-firefox-account } bör du ändra ditt lösenord omedelbart på { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Detta är ett automatiskt e-postmeddelande; om du fick det av misstag krävs ingen åtgärd.
     För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Det här är ett automatiskt e-postmeddelande; om du felaktigt har fått det behöver du inte göra något.
+automated-email-support = { automated-email-plaintext } För mer information, besök <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } För mer information, besök { -brand-mozilla } Support: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Detta är ett automatiskt e-postmeddelande; om du inte godkände den här åtgärden, vänligen ändra ditt lösenord:
 automated-email-reset =
@@ -186,6 +195,14 @@ downloadSubscription-subject = Välkommen till { $productName }
 downloadSubscription-title = Välkommen till { $productName }
 downloadSubscription-content-2 = Låt oss komma igång med alla funktioner som ingår i ditt abonnemang:
 downloadSubscription-link-action-2 = Kom igång
+fraudulentAccountDeletion-subject = Ditt { -product-firefox-account } raderades
+fraudulentAccountDeletion-title = Ditt konto har raderats
+fraudulentAccountDeletion-content = Nyligen skapades ett { -product-firefox-account } och en prenumeration debiterades med den här e-postadressen. Precis som vi gör med alla nya konton bad vi dig att bekräfta ditt konto genom att först validera den här e-postadressen.
+fraudulentAccountDeletion-content-2 = I dagsläget ser vi att kontot aldrig blev bekräftat. Eftersom det här steget inte slutfördes är vi inte säkra på om detta var en auktoriserad prenumeration. Som ett resultat av detta raderades { -product-firefox-account } som registrerats på den här e-postadressen och din prenumeration avslutades med alla avgifter återbetalda.
+fraudulentAccountDeletion-contact = Om du har några frågor, kontakta vårt <a data-l10n-name="mozillaSupportUrl">supportteam</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Om du har några frågor, vänligen kontakta vårt supportteam: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Få återställningskoder återstår
 codes-reminder-description = Få återställningskoder återstår. Tänk på att generera nya koder för att undvika att bli utelåst från ditt konto.
