@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 09:13+0000\n"
+"POT-Creation-Date: 2022-07-27 22:10+0000\n"
 "PO-Revision-Date: 2022-06-02 11:40+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -932,8 +932,8 @@ msgid "Cannot create account"
 msgstr "ไม่สามารถสร้างบัญชี"
 
 #: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-msgstr "คุณต้องผ่านข้อกำหนดด้านอายุเพื่อสร้างบัญชี&nbsp;Firefox"
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1039,10 +1039,9 @@ msgstr "ส่งอีเมลสำหรับตั้งรหัสผ่
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "คลิกที่ลิงก์เพื่อส่งอีเมลไปยัง %(email)s ภายในชั่วโมงถัดไปเพื่อสร้างรหัสผ่านใหม่"
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "ใส่รหัสตรวจสอบ"
+#: .es5/templates/confirm_signup_code.mustache:1
+msgid "Enter confirmation code"
+msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
@@ -1057,12 +1056,12 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "ป้อนรหัส 6 หลัก"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
 msgstr "ยืนยัน"
 
-#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Code expired?"
 msgstr ""
 
@@ -1206,8 +1205,8 @@ msgstr "คัดลอก"
 msgid "Print"
 msgstr "พิมพ์"
 
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_token_code.mustache:5
-#: .es5/templates/sign_in_unblock.mustache:5 .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "ดำเนินการต่อ"
@@ -1227,10 +1226,6 @@ msgstr "เพื่อให้แน่ใจว่าคุณจะสาม
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
 msgstr "รหัสกู้คืน"
-
-#: .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
-msgid "Confirm"
-msgstr "ยืนยัน"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1354,7 +1349,7 @@ msgstr "คุณได้รับอีเมลเกี่ยวกับค
 msgid "Report activity"
 msgstr "รายงานกิจกรรม"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_token_code.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "ทำไมสิ่งนี้จึงเกิดขึ้น?"
 
@@ -1433,6 +1428,10 @@ msgstr "โปรดป้อนรหัสการกู้คืนที่
 msgid "Enter 10-digit recovery code"
 msgstr "ป้อนรหัสการกู้คืน 10 หลัก"
 
+#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+msgid "Verify"
+msgstr "ยืนยัน"
+
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
 msgstr "คุณถูกล็อกหรือไม่?"
@@ -1445,18 +1444,21 @@ msgstr "ขอบคุณสำหรับการเฝ้าระวัง
 msgid "Our team has been notified. Reports like this help us fend off intruders."
 msgstr "คณะทำงานได้รับคำแจ้งแล้ว รายงานสิ่งที่คล้ายกันเพื่อช่วยเรากำจัดผู้บุกรุก"
 
-#: .es5/templates/sign_in_token_code.mustache:1 .es5/templates/sign_in_token_code.mustache:2 .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-#: .es5/templates/push/send_login.mustache:1
-msgid "Authorize this sign-in"
-msgstr "อนุญาตการลงชื่อเข้านี้"
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter confirmation"
+msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:3
-msgid "Check your email for the code sent to %(email)s."
-msgstr "ตรวจสอบอีเมลคุณสำหรับรหัสที่ถูกส่งไปที่ %(email)s"
+msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgstr ""
 
-#: .es5/templates/sign_in_token_code.mustache:6 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "ต้องการรหัสอื่นหรือไม่? ส่งใหม่"
+#: .es5/templates/sign_in_token_code.mustache:7
+msgid "Email new code"
+msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1469,6 +1471,10 @@ msgstr "เปิดแอปการยืนยันตัวบุคคล
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr "มีปัญหาในการป้อนรหัสหรือไม่?"
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "อนุญาตการลงชื่อเข้านี้"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1648,9 +1654,17 @@ msgstr "อีเมลสำรอง"
 msgid "Maybe later"
 msgstr "ไว้ภายหลัง"
 
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter verification code"
+msgstr "ใส่รหัสตรวจสอบ"
+
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "โปรดป้อนรหัสยืนยันที่ส่งไปยัง %(escapedEmail)s ภายใน 5 นาที"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr "ต้องการรหัสอื่นหรือไม่? ส่งใหม่"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
@@ -1851,7 +1865,7 @@ msgid "How old are you?"
 msgstr "คุณอายุเท่าไร?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You need to be at least 13 years old to create an account."
+msgid "You must be over 13 to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -2024,6 +2038,12 @@ msgstr "จับคู่โดยใช้แอป"
 #: .es5/templates/pair/unsupported.mustache:3
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "คุณใช้กล้องระบบหรือไม่? คุณต้องจับคู่จากภายในแอพ Firefox"
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "คุณต้องผ่านข้อกำหนดด้านอายุเพื่อสร้างบัญชี&nbsp;Firefox"
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "ตรวจสอบอีเมลคุณสำหรับรหัสที่ถูกส่งไปที่ %(email)s"
 
 #~ msgid "Why is more than one device required?"
 #~ msgstr "ทำไมต้องใช้อุปกรณ์มากกว่าหนึ่ง?"
