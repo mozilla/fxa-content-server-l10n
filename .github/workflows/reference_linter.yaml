@@ -2,13 +2,13 @@ name: Lint Reference Files
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - '.github/linter_config.yml'
       - 'locale/en/**.ftl'
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - '.github/linter_config.yml'
       - 'locale/en/**.ftl'
