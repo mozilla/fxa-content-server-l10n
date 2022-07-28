@@ -3,10 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for Firefox accounts emails, from `fxa-auth-server`
-### Emails do not contain buttons, only links.
-### Emails have a rich HTML version and a plaintext version. The strings are usually identical
-### but sometimes they differ slightly.
+### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
 
 # Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
@@ -22,7 +19,14 @@
 -app-store = App Store
 -google-play = Google Play
 
+## Non-email strings
+
+session-verify-send-push-title = Logger inn på { -product-firefox-accounts }?
+session-verify-send-push-body = Klikk her for å bekrefte at det er deg
+
 ## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox }-logo">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser enheter">
@@ -60,9 +64,6 @@ automated-email-plaintext = Dette er en automatisert e-postmelding; hvis du har 
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjelp oss med å forbedre tjenestene våre ved å ta denne korte undersøkelsen:
 change-password-plaintext = Hvis du mistenker at noen prøver å få tilgang til kontoen din, må du endre passordet ditt.
-# Variables:
-#  $ip (Number) - User's IP address
-user-ip = IP-addresse: { $ip }
 manage-account = Behandle konto
 manage-account-plaintext = { manage-account }:
 # After the colon is how the user paid, e.g. PayPal or credit card
@@ -72,12 +73,11 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 subscriptionSupport-plaintext = Har du spørsmål om ditt abonnement? Vårt supportteam står klar til å hjelpe deg:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Oppdater betalingsinformasjonen din så snart som mulig for å unngå avbrudd i din tjeneste:
-cadReminderFirst-subject = Din vennlige påminnelse: Slik fullfører du synkroniseringsoppsettet
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP-addresse: { $ip }
 cadReminderFirst-action = Synkroniser en annen enhet
-cadReminderFirst-title = Her er påminnelsen din om å synkronisere enheter.
-cadReminderSecond-subject = Endelig påminnelse: Fullør synkroniseringsoppsett
 cadReminderSecond-action = Synkroniser en annen enhet
-cadReminderSecond-title = Siste påminnelse om å synkronisere enheter!
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kun få gjenopprettelseskoder igjen
 codes-reminder-description = Det er få gjenopprettingskoder igjen. Vurder å generere nye koder for å unngå å bli utestengt fra kontoen din.
@@ -146,10 +146,6 @@ recovery-action = Lag nytt passord
 subscriptionAccountDeletion-title = Det er synd at du sier opp abonnementet ditt
 subscriptionCancellation-title = Det er synd at du sier opp abonnementet ditt
 subscriptionDowngrade-content-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
-subscriptionPaymentExpired-title = Ditt betalingskort er i ferd med å utløpe
-subscriptionsPaymentExpired-subject = Betalingskortet for abonnementene dine utløper snart
-subscriptionsPaymentExpired-title = Ditt betalingskort er i ferd med å utløpe
-subscriptionsPaymentExpired-content = Betalingskortet du bruker for å utføre betalinger for følgende abonnementer, er i ferd med å utløpe.
 subscriptionUpgrade-title = Takk for at du oppgraderer!
 subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.
 unblockCode-subject = Godkjenningskode for konto
@@ -181,10 +177,6 @@ verifyPrimary-description = En forespørsel om å utføre en kontoendring er gjo
 verifyPrimary-subject = Bekreft primær e-postadresse
 verifyPrimary-action = Bekreft e-post
 verifyPrimary-post-verify = Når bekreftet, vil endringer i kontoen som å legge til en sekundær e-post, bli mulig fra denne enheten.
-verifySecondary-subject = Bekreft sekundær e-postadresse
-verifySecondary-title = Verifiser sekundær e-postadresse
-verifySecondary-action = Bekreft e-post
-verifySecondary-post-verification = Når e-postadressen er verifisert, vil den begynne å motta sikkerhetsvarsler og bekreftelser.
 verifySecondaryCode-subject = Bekreft sekundær e-postadresse
 verifySecondaryCode-title = Verifiser sekundær e-postadresse
 verifySecondaryCode-prompt = Bruk denne bekreftelseskoden:

@@ -95,6 +95,9 @@ cs-heading = Tilknyttede tjenester
 cs-description = Alt du bruker og er innlogget på.
 cs-refresh-button =
     .title = Oppdater tilkoblede tjenester
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Manglende eller duplikatelement?
+cs-disconnect-sync-heading = Koble fra Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
@@ -106,51 +109,103 @@ cs-refresh-button =
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Enheten er:
+cs-disconnect-sync-opt-suspicious = Mistenkelig
+cs-disconnect-sync-opt-lost = Mistet eller stjålet
+cs-disconnect-sync-opt-old = Gammel eller erstattet
+cs-disconnect-sync-opt-duplicate = Duplikat
+cs-disconnect-sync-opt-not-say = Vil helst ikke fortelle
 
 ##
 
+cs-disconnect-advice-confirm = Ok, jeg forstår
+cs-disconnect-lost-advice-heading = Tapt eller stjålet enhet frakoblet
+cs-disconnect-suspicious-advice-heading = Mistenkelig enhet frakoblet
+cs-sign-out-button = Logg ut
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
+datablock-download =
+    .message = Lastet ned
+datablock-copy =
+    .message = Kopiert
+datablock-print =
+    .message = Skrevet ut
 
 ## Data collection section
 
+dc-heading = Datainnsamling og -bruk
+dc-subheader = Hjelp til med å forbedre { -product-firefox-accounts }
+dc-learn-more = Les mer
 
 # DropDownAvatarMenu component
 
+drop-down-menu-sign-out = Logg ut
 
 ## Flow Container
 
+flow-container-back = Tilbake
 
 # GetDataTrio component, part of Recovery Key flow
 
+get-data-trio-title = Gjenopprettingskoder
+get-data-trio-copy =
+    .title = Kopier
+get-data-trio-print =
+    .title = Skriv ut
 
 # HeaderLockup component
 
+header-menu-open = Lukk meny
+header-menu-closed = Meny for nettstednavigering
+header-back-to-top-link =
+    .title = Tilbake til toppen
+header-help = Hjelp
 
 ## Input Password
 
+input-password-hide = Skjul passord
+input-password-show = Vis passord
+input-password-hide-aria = Skjul passord fra skjermen.
 
 ## Linked Accounts section
 
+la-heading = Tilknyttede kontoer
+la-description = Du har autorisert tilgang til følgende kontoer.
+la-unlink-button = Fjern tilknytning
+la-unlink-account-button = Fjern tilknytning
 
 ## Modal
 
+modal-close-title = Lukk
+modal-cancel-button = Avbryt
 
 ## Modal Verify Session
 
+mvs-verify-your-email = Bekreft e-postadressen din
+msv-cancel-button = Avbryt
+msv-submit-button = Bekreft
 
 ## Settings Nav
 
+nav-settings = Innstillinger
+nav-profile = Profil
+nav-security = Sikkerhet
+nav-connected-services = Tilknyttede tjenester
+nav-data-collection = Datainnsamling og -bruk
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-1-2 = Trinn 1 av 2
+tfa-replace-code-2-2 = Trinn 2 av 2
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Profilbilde
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
 avatar-page-take-photo = Ta bilde
@@ -160,7 +215,9 @@ avatar-page-remove-photo = Fjern bilde
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ta bildet på nytt
+avatar-page-cancel-button = Avbryt
 avatar-page-save-button = Lagre
+avatar-page-saving-button = Lagrer …
 avatar-page-zoom-out-button =
     .title = Zoom ut
 avatar-page-zoom-in-button =
@@ -173,6 +230,17 @@ avatar-page-rotate-button =
 
 ## Password change page
 
+pw-change-header =
+    .title = Endre passord
+pw-change-cancel-button = Avbryt
+pw-change-save-button = Lagre
+pw-change-forgot-password-link = Glemt passord?
+pw-change-current-password =
+    .label = Skriv inn nåværende passord
+pw-change-new-password =
+    .label = Skriv inn nytt passord
+pw-change-confirm-password =
+    .label = Bekreft nytt passord
 
 ##
 
@@ -185,21 +253,37 @@ avatar-page-rotate-button =
 
 ## Delete account page
 
+delete-account-header =
+    .title = Slett konto
+delete-account-step-1-2 = Trinn 1 av 2
+delete-account-step-2-2 = Trinn 2 av 2
+delete-account-continue-button = Fortsett
+delete-account-password-input =
+    .label = Skriv inn passord
+delete-account-cancel-button = Avbryt
+delete-account-delete-button-2 = Slett
 
 ##
 
 
 ## Display name page
 
+submit-display-name = Lagre
+cancel-display-name = Avbryt
 
 ##
 
 
 # Recovery key setup page
 
+recovery-key-cancel-button = Avbryt
+recovery-key-close-button = Lukk
+recovery-key-step-1 = Trinn 1 av 2
+recovery-key-step-2 = Trinn 2 av 2
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Trinn 1 av 2
 
 ## Verify secondary email page
 
