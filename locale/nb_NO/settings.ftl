@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Alert Bar
+
+alert-bar-close-message = Lukk melding
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -19,13 +23,16 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox-kontoer
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-konto
 product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -38,7 +45,7 @@ app-default-title = { -product-firefox-accounts }
 # This string is used as the title of the page.
 # Variables:
 #   $title (String) - the name of the current page
-#                      (for example: "Two-Step Authentication")
+#                      (for example: "Two-step authentication")
 app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = { -brand-mozilla }-logo
 app-footer-privacy-notice = Nettstedets personvernbestemmelser
@@ -57,12 +64,27 @@ avatar-default-avatar =
 ##
 
 
+# BentoMenu component
+
+bento-menu-vpn = { product-mozilla-vpn }
+bento-menu-monitor = { product-firefox-monitor }
+bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
+bento-menu-firefox-desktop = { -brand-firefox }-nettleser for datamaskiner
+bento-menu-firefox-mobile = { -brand-firefox }-nettleser for mobil
+
 ## Connect another device promo
 
 connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
 connect-another-find-fx-mobile =
     Finn { -brand-firefox } på { -google-play } og { -app-store } eller
     <br /><linkExternal>send en nedlastingslenke til enheten.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Last ned { -brand-firefox } på { -google-play }
+connect-another-app-store-image-2 =
+    .title = Last ned { -brand-firefox } på { -app-store }
 
 ##
 
@@ -71,6 +93,15 @@ connect-another-find-fx-mobile =
 
 cs-heading = Tilknyttede tjenester
 cs-description = Alt du bruker og er innlogget på.
+cs-refresh-button =
+    .title = Oppdater tilkoblede tjenester
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -85,10 +116,31 @@ cs-description = Alt du bruker og er innlogget på.
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
 
 
+## Data collection section
+
+
+# DropDownAvatarMenu component
+
+
+## Flow Container
+
+
 # GetDataTrio component, part of Recovery Key flow
 
 
 # HeaderLockup component
+
+
+## Input Password
+
+
+## Linked Accounts section
+
+
+## Modal
+
+
+## Modal Verify Session
 
 
 ## Settings Nav
@@ -108,14 +160,13 @@ avatar-page-remove-photo = Fjern bilde
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Ta bildet på nytt
-avatar-page-close-button = Lukk
 avatar-page-save-button = Lagre
 avatar-page-zoom-out-button =
-  .title = Zoom ut
+    .title = Zoom ut
 avatar-page-zoom-in-button =
-  .title = Zoom inn
+    .title = Zoom inn
 avatar-page-rotate-button =
-  .title = Rotere
+    .title = Rotere
 
 ##
 
@@ -126,9 +177,14 @@ avatar-page-rotate-button =
 ##
 
 
+## Password create page
+
+
+##
+
+
 ## Delete account page
 
-delete-account-confirm-title = Du har koblet { -product-firefox-accounts } din til { -brand-mozilla }-produkter som holder deg sikker og produktiv på nettet:
 
 ##
 
@@ -143,9 +199,6 @@ delete-account-confirm-title = Du har koblet { -product-firefox-accounts } din t
 
 
 ## Add secondary email page
-
-
-##
 
 
 ## Verify secondary email page
@@ -169,6 +222,9 @@ delete-account-confirm-title = Du har koblet { -product-firefox-accounts } din t
 ## Security section of Setting
 
 
+## Switch component
+
+
 ## Sub-section row Defaults
 
 
@@ -182,9 +238,6 @@ delete-account-confirm-title = Du har koblet { -product-firefox-accounts } din t
 
 
 ## Two Step Auth sub-section on Settings main page
-
-
-## Avatar sub-section on main Settings page
 
 
 ## Auth-server based errors that originate from backend service
