@@ -2,7 +2,7 @@ name: Tests
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'locale/**/*.po'
   workflow_dispatch:
