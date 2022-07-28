@@ -1971,7 +1971,7 @@ msgstr "Acabou de iniciar sessão no Firefox?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr " %(e-mail)s"
+msgstr " %(email)s"
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
