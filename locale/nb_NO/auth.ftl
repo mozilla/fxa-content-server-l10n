@@ -49,6 +49,9 @@ subplat-explainer-reminder-form = Du mottar denne e-postmeldingen fordi { $email
 subplat-explainer-multiple = Du mottar denne e-postmeldingen fordi { $email } har en { -product-firefox-account } og du har abonnert på flere produkter.
 subplat-explainer-was-deleted = Du mottar denne e-postmeldingen fordi { $email } ble registrert for en { -product-firefox-account }.
 subplat-manage-account = Behandle innstillingene for { -product-firefox-account } ved å gå til <a data-l10n-name="subplat-account-page">kontosiden</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Behandle innstillingene for { -product-firefox-account } ved å gå til kontosiden din: { $accountSettingsUrl }
 subplat-terms-policy = Vilkår og avbestillingsregler
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Avbryt abonnement
@@ -70,7 +73,25 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Last ned { $pr
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Last ned { $productName }  i { -app-store }">
+another-desktop-device = Eller installer på <a data-l10n-name="anotherDeviceLink">en annen stasjonær enhet</a>.
+another-device = Eller installer på <a data-l10n-name="anotherDeviceLink">en annen enhet</a>.
+automated-email-change =
+    Dette er en automatisert e-post; hvis du ikke autoriserte denne handlingen, <a data-l10n-name="passwordChangeLink">endre passordet ditt</a>.
+    For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext = Dette er en automatisk e-postmelding; om du ikke la til en ny enhet til din { -product-firefox-account }, bør du endre passordet ditt med en gang på { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
+automated-email =
+    Dette er en automatisert e-post; hvis du mottok den ved en feil, er det ikke nødvendig å gjøre noe.
+    For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Dette er en automatisert e-postmelding; hvis du har mottatt denne e-posten ved en feil,  trenger du ikke å gjøre noe.
+automated-email-support = { automated-email-plaintext } For mer informasjon, besøk <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } For mer informasjon, besøk { -brand-mozilla } Support: { $mozillaSupportUrl }.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Dette er en automatisert e-post; hvis du ikke autoriserte denne handlingen, endre passordet ditt:
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Hjelp oss med å forbedre tjenestene våre ved å ta denne korte undersøkelsen:
 change-password-plaintext = Hvis du mistenker at noen prøver å få tilgang til kontoen din, må du endre passordet ditt.
