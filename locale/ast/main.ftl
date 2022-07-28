@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox Accounts
 -brand-name-mozilla = Mozilla
@@ -12,10 +12,10 @@ project-brand = Firefox Accounts
 document =
     .title = Firefox Accounts
 
-## general-aria
+## General aria-label
 
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Fallu xeneral de l'aplicación
 basic-error-message = Asocedió daqué malo. Volvi tentalo dempués, por favor.
@@ -24,11 +24,11 @@ no-subscription-change = Sentímoslo, nun pues camudar el plan de la soscripció
 expired-card-error = Paez que la tarxeta de creitu caducóte. Prueba con otra.
 coupon-expired = Paez que'l códigu de promoción caducó.
 
-## settings
+## Settings
 
 settings-subscriptions-title = Soscripciones
 
-## legal footer
+## Legal footer
 
 terms = Términos del serviciu
 privacy = Avisu de privacidá
@@ -38,8 +38,8 @@ privacy = Avisu de privacidá
 subscription-processing-title = Confirmando la soscripción…
 subscription-error-title = Hebo un fallu al confirmar la soscripción…
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ## Product route
@@ -47,10 +47,10 @@ subscription-error-title = Hebo un fallu al confirmar la soscripción…
 product-profile-error =
     .title = Hebo un problema al cargar el perfil
 
-## payment legal blurb
+## Payment legal blurb
 
 
-## payment form
+## Payment form
 
 payment-ccn =
     .label = Númberu de la tarxeta
@@ -64,50 +64,47 @@ payment-exp =
 
 payment-cancel-btn = Encaboxar
 
-## subscription redirect
+## Subscription redirect
 
 
-## fields
+## Fields
 
 
-## subscription upgrade
-
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## Subscription upgrade
 
 
 ##
 
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } caldía
        *[other] { $amount } cada { $intervalCount } díes
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } selmanalmente
        *[other] { $amount } cada { $intervalCount } selmanes
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } mensualmente
        *[other] { $amount } cada { $intervalCount } meses
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } añalmente
        *[other] { $amount } cada { $intervalCount } años
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -145,34 +142,49 @@ sub-plan-price-year =
 ## $name (String) - The name of the subscribed product.
 
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
 sub-item-missing-msg = Volvi tentalo dempués, por favor.
 
-## subscription route index
+## Subscription iap item
+
+
+## Subscription route index
 
 sub-subscription-error =
     .title = Hebo un problema al cargar les soscripciones
 
-## subscription create
+## Subscription create
 
 
-## plan-details
+## Plan details
 
 
-## payment-processing
+## Coupons
+
+coupon-error-generic = Asocedió un fallu al procesar el códigu. Volvi tentalo.
+
+## Payment processing
 
 payment-processing-message = Espera mentanto procesamos el pagu…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Calca equí pa baxar
 payment-confirmation-thanks-heading = ¡Gracies!
+
+## Payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
+
+## $email (string) - The user's email.
+
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -201,5 +213,5 @@ payment-confirmation-amount-year =
        *[other] { $amount } cada { $intervalCount } años
     }
 
-## new user email form
+## New user email form
 

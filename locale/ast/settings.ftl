@@ -140,6 +140,7 @@ header-help = Ayuda
 
 ## Linked Accounts section
 
+nav-linked-accounts = { la-heading }
 
 ## Modal
 

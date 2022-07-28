@@ -26,8 +26,12 @@
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="Logotipu de { -brand-firefox }">
+body-devices-image = <img data-l10n-name="devices-image" alt="Preseos">
 fxa-privacy-url = Política de privacidá de { -brand-mozilla }
 fxa-service-url = Términos del serviciu de { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Logotipu de { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logotipu de { -brand-mozilla }">
 subplat-automated-email = Esto ye un corréu automatizáu. Si lu recibiesti por error, nun faigas nada.
 subplat-privacy-plaintext = Avisu de privacidá:
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
