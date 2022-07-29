@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## branding
+## Branding
 
 project-brand = Firefox računi
 -brand-name-mozilla = Mozilla
@@ -13,12 +13,12 @@ project-brand = Firefox računi
 document =
     .title = Firefox računi
 
-## general-aria
+## General aria-label
 
 close-aria =
     .aria-label = Zatvori modal
 
-## app error dialog
+## App error dialog
 
 general-error-heading = Opća greška programa
 basic-error-message = Nešto je pošlo po zlu. Pokušaj ponovo kasnije.
@@ -37,12 +37,12 @@ duplicate-transaction = Hmm. Izgleda da je identična transakcija upravo poslana
 coupon-expired = Čini se da je taj promotivni kôd istekao.
 card-error = Neuspjela obrada tvoje transakcije. Provjeri podatke za kreditnu karticu i pokušaj ponovo.
 
-## settings
+## Settings
 
 settings-home = Početna stranica računa
 settings-subscriptions-title = Pretplate
 
-## legal footer
+## Legal footer
 
 terms = Uvjeti usluge
 privacy = Napomena o privatnosti
@@ -54,31 +54,31 @@ subscription-success-title = Potvrda pretplate
 subscription-processing-title = Potvrđivanje pretplate…
 subscription-error-title = Pogreška pri potvrđivanju pretplate…
 
-##  $productName (String) - The name of the subscribed product.
-##  $amount (Number) - The amount billed. It will be formatted as currency.
+## $productName (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 day-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } se naplaćuje { $amount } dnevno
         [few] { $productName } se naplaćuje { $amount } svaka { $intervalCount } dana
        *[other] { $productName } se naplaćuje { $amount } svakih { $intervalCount } dana
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 week-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } se naplaćuje { $amount } tjedno
         [few] { $productName } se naplaćuje { $amount } svaka { $intervalCount } tjedna
        *[other] { $productName } se naplaćuje { $amount } svakih { $intervalCount } tjedana
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 month-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } se naplaćuje { $amount } mjesečno
         [few] { $productName } se naplaćuje { $amount } svaka { $intervalCount } mjeseca
        *[other] { $productName } se naplaćuje { $amount } svakih { $intervalCount } mjeseci
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 year-based-plan-details-amount =
     { $intervalCount ->
         [one] { $productName } se naplaćuje { $amount } godišnje
@@ -97,14 +97,12 @@ product-customer-error =
 product-plan-not-found = Tarifa nije pronađena
 product-no-such-plan = Za ovaj proizvod ne postoji takva tarifa.
 
-## payment legal blurb
+## Payment legal blurb
 
 payment-legal-copy-paypal = { -brand-name-mozilla } koristi { -brand-name-paypal } za sigurnu obradu plaćanja.
-payment-legal-link-paypal = Pogledaj <paypalPrivacyLink>{ -brand-name-paypal }ova pravila o privatnosti</paypalPrivacyLink>.
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } koristi { -brand-name-stripe } za sigurnu obradu plaćanja.
-payment-legal-link-stripe-2 = Pogledaj <stripePrivacyLink>{ -brand-name-stripe }ova pravila o privatnosti</stripePrivacyLink>.
 
-## payment form
+## Payment form
 
 payment-name =
     .placeholder = Potpuno ime
@@ -133,18 +131,18 @@ payment-validate-name-error = Upiši tvoje ime
 payment-validate-zip-required = Moraš zadati poštanski broj
 payment-validate-zip-short = Poštanski broj je prekratak
 
-## subscription redirect
+## Subscription redirect
 
 sub-redirect-ready = Tvoja pretplata je spremna
 sub-redirect-copy = Odvoji malo vremena i reci nam nešto o vlastitom iskustvu.
 sub-redirect-skip-survey = Ne hvala, samo me odvedite do mog proizvoda.
 
-## fields
+## Fields
 
 default-input-error = Ovo je obavezno polje
 input-error-is-required = Polje { $label } je obavezno
 
-## subscription upgrade
+## Subscription upgrade
 
 sub-update-payment-title = Informacije o plaćanju
 sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
@@ -152,9 +150,6 @@ sub-update-copy =
     Tvoju ćemo tarifu odmah promijeniti i naplatiti prilagođen iznos
     za ostatak obračunskog razdoblja. Počevši od { $startingDate }
     naplatit ćemo puni iznos.
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ##
 
@@ -165,31 +160,31 @@ sub-update-current-plan-label = Trenutačna tarifa
 sub-update-new-plan-label = Nova tarifa
 sub-update-total-label = Nov ukupni iznos
 
-## subscription upgrade plan details
+## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-#  $intervalCount (Number) - The interval between payments, in days.
+# $intervalCount (Number) - The interval between payments, in days.
 plan-price-day =
     { $intervalCount ->
         [one] { $amount } dnevno
         [few] { $amount } svaka { $intervalCount } dana
        *[other] { $amount } svakih { $intervalCount } dana
     }
-#  $intervalCount (Number) - The interval between payments, in weeks.
+# $intervalCount (Number) - The interval between payments, in weeks.
 plan-price-week =
     { $intervalCount ->
         [one] { $amount } tjedno
         [few] { $amount } svaka { $intervalCount } tjedna
        *[other] { $amount } svakih { $intervalCount } tjedana
     }
-#  $intervalCount (Number) - The interval between payments, in months.
+# $intervalCount (Number) - The interval between payments, in months.
 plan-price-month =
     { $intervalCount ->
         [one] { $amount } mjesečno
         [few] { $amount } svaka { $intervalCount } mjeseca
        *[other] { $amount } svakih { $intervalCount } mjeseci
     }
-#  $intervalCount (Number) - The interval between payments, in years.
+# $intervalCount (Number) - The interval between payments, in years.
 plan-price-year =
     { $intervalCount ->
         [one] { $amount } godišnje
@@ -197,7 +192,7 @@ plan-price-year =
        *[other] { $amount } svakih { $intervalCount } godina
     }
 
-## subscription billing details
+## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 #  $intervalCount (Number) - The interval between payments, in days.
@@ -258,14 +253,14 @@ reactivate-confirm-without-payment-method-copy =
     na { $endDate }.
 reactivate-confirm-button = Obnovi pretplatu
 
-##  $date (Date) - Last day of product access
+## $date (Date) - Last day of product access
 
 reactivate-panel-date = Pretplata je otkazana { $date }.
 reactivate-panel-copy = Izgubit ćeš pristup usluzi { $name } <strong>{ $date }</strong>
 reactivate-success-copy = Hvala! Spremno je.
 reactivate-success-button = Zatvori
 
-## subscription item
+## Subscription item
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
@@ -280,9 +275,12 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Otkaži moj pristup i moje spremljene podatke na usluzi
     { $name } { $period }
+
+## Subscription iap item
+
 account-activated = Tvoj je račun aktiviran, <userEl/>
 
-## subscription route index
+## Subscription route index
 
 sub-route-idx-updating = Aktualiziranje podataka naplate …
 sub-route-idx-reactivating = Ponovno aktiviranje pretplate nije uspjelo
@@ -304,34 +302,44 @@ sub-billing-update-success = Podaci naplate uspješno su aktualizirani
 sub-route-payment-modal-heading = Nevaljane informacije o plaćanju
 pay-update-manage-btn = Upravljaj
 
-## subscription create
+## Subscription create
 
 sub-guarantee = 30-dnevno jamstvo povrata novca
 pay-with-heading-other = Odaberi opciju plaćanja
 pay-with-heading-card-or = Ili plati karticom
 pay-with-heading-card-only = Plati karticom
 
-## plan-details
+## Plan details
 
 plan-details-header = Podaci proizvoda
 plan-details-show-button = Pokaži podatke
 plan-details-hide-button = Sakrij podatke
 plan-details-total-label = Ukupno
 
-## payment-processing
+## Coupons
+
+
+## Payment processing
 
 payment-processing-message = Pričekaj dok obradimo tvoju uplatu…
 
-## payment confirmation
+## Payment confirmation
 
 payment-confirmation-alert = Pritisni ovdje za preuzimanje
-payment-confirmation-mobile-alert = Program se nije otcorio? <a>Klikni ovdje</a>
+payment-confirmation-mobile-alert = Program se nije otvorio? <a>Pritisni ovdje</a>
 payment-confirmation-thanks-heading = Hvala ti!
+
+## Payment confirmation details
+## $email (string) - The user's email.
+## $productName (String) - The name of the subscribed product.
+
 payment-confirmation-thanks-subheading = Potvrdni e-mail poslan je na adresu { $email } s detaljima o tome kako početi koristiti { $product_name }.
+
+## $email (string) - The user's email.
+
 payment-confirmation-order-heading = Podaci narudžbe
 payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
 payment-confirmation-billing-heading = Naplata za
-payment-confirmation-details-heading = Podaci o plaćanju
 payment-confirmation-amount = { $amount } / { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -366,3 +374,6 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Nastavi s preuzimanjem
 payment-confirmation-cc-card-ending-in = Kartica koja završava na { $last4 }
+
+## New user email form
+
