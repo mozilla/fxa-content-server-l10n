@@ -47,7 +47,11 @@ subplat-explainer-specific = { $email } adresine kayıtlı bir { -product-firefo
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = { $email } adresine kayıtlı bir { -product-firefox-account } hesabı olduğu için bu e-postayı aldınız.
 subplat-explainer-multiple = { $email } adresine kayıtlı bir { -product-firefox-account }nız olduğu ve birden fazla ürüne kaydolduğunuz için bu e-postayı aldınız.
+subplat-explainer-was-deleted = { $email } adresine kayıtlı bir { -product-firefox-account } hesabı olduğu için bu e-postayı aldınız.
 subplat-manage-account = { -product-firefox-account } ayarlarınızı yönetmek için <a data-l10n-name="subplat-account-page">hesap sayfanızı</a> ziyaret edin.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Hesap sayfanızı ziyaret ederek { -product-firefox-account } ayarlarınızı yönetin: { $accountSettingsUrl }
 subplat-terms-policy = Koşullar ve iptal politikası
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Aboneliği iptal et
@@ -77,6 +81,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Bu otomatik bir e-postadır. { -product-firefox-account }nıza yeni bir cihaz eklemediyseniz hemen { $passwordChangeLink } adresinden parolanızı değiştirmelisiniz
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi bir işlem yapmanız gerekmez.
     Daha fazla bilgi için lütfen <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
@@ -166,10 +171,9 @@ view-invoice = <a data-l10n-name="invoiceLink">Faturanızı görüntüleyin</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Faturayı görüntüle: { $invoiceLink }
-cadReminderFirst-subject = Hatırlatma: Sync kurulumunuzu tamamlayın
+cadReminderFirst-subject-1 = Hatırlatma! Hadi { -brand-firefox }’u eşitleyelim
 cadReminderFirst-action = Başka bir cihazı eşitle
-cadReminderFirst-title = Cihazları eşitlemenizi hatırlatalım dedik.
-cadReminderFirst-description = Eşitleme için iki cihazınız olmalı. Başka bir cihazınızı { -brand-firefox }’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer { -brand-firefox } verilerinizi { -brand-firefox }’u kullandığınız her yere taşıyabilirsiniz.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-subject-2 = Eşitleme kurulumunuzu tamamlayalım
 cadReminderSecond-action = Başka bir cihazı eşitle
 cadReminderSecond-title-2 = Eşitlemeyi unutmayın!
@@ -183,6 +187,9 @@ downloadSubscription-subject = { $productName } uygulamasına hoş geldiniz
 downloadSubscription-title = { $productName } uygulamasına hoş geldiniz
 downloadSubscription-content-2 = Aboneliğinize dahil olan tüm özellikleri kullanmaya başlayalım:
 downloadSubscription-link-action-2 = Başlayın
+fraudulentAccountDeletion-subject = { -product-firefox-account }nız silindi
+fraudulentAccountDeletion-title = Hesabınız silindi
+fraudulentAccountDeletion-contact = Herhangi bir sorunuz varsa lütfen <a data-l10n-name="mozillaSupportUrl">destek ekibimizle</a> iletişime geçin.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kurtarma kodları azaldı
 codes-reminder-description = Az sayıda kurtarma kodunuzun kaldığını fark ettik. Kodlarınızın bitince hesabınızın kilitlenmemesi için lütfen yeni kodlar oluşturun.
@@ -408,6 +415,9 @@ subscriptionFirstInvoiceDiscount-content-charge = { $invoiceDateOnly } tarihinde
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Sonraki fatura: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = { $productName } için kredi kartının süresi doldu veya yakında dolacak
 subscriptionPaymentExpired-title-1 = Kredi kartınızın kullanım süresi dolmuş veya dolmak üzere
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
