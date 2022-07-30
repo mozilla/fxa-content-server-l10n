@@ -159,6 +159,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Toto je automaticky generovaná e-mailová správa. Ak ste k svojmu { -product-firefox-account(case: "dat", capitalization: "lower") } nepridali žiadne nové zariadenie, mali by ste si okamžite zmeniť heslo na { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Toto je automaticky generovaná správa. Ak ste ju dostali omylom, nevyžaduje sa žiadna akcia.
     Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
@@ -248,10 +249,8 @@ view-invoice = <a data-l10n-name="invoiceLink">Zobraziť faktúru</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Zobraziť faktúru: { $invoiceLink }
-cadReminderFirst-subject = Vaša priateľská pripomienka: ako dokončiť nastavenie synchronizácie
 cadReminderFirst-action = Synchronizovať ďalšie zariadenie
-cadReminderFirst-title = Toto je vaša pripomienka na synchronizáciu zariadení.
-cadReminderFirst-description = Na synchronizáciu sú potrební dvaja. Súkromnou synchronizáciou iného zariadenia s prehliadačom { -brand-firefox } budú vaše záložky, heslá a ďalšie údaje vo { -brand-firefox(case: "loc") } rovnaké všade, kde { -brand-firefox } používate.
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-subject-2 = Nič nepremeškajte! Poďme dokončiť nastavenie synchronizácie
 cadReminderSecond-action = Synchronizovať ďalšie zariadenie
 cadReminderSecond-title-2 = Nezabudnite na synchronizáciu!
@@ -265,6 +264,9 @@ downloadSubscription-subject = Víta vás { $productName }
 downloadSubscription-title = Víta vás { $productName }
 downloadSubscription-content-2 = Poďme sa pozrieť ako používať všetky funkcie zahrnuté vo vašom predplatnom:
 downloadSubscription-link-action-2 = Začíname
+fraudulentAccountDeletion-title = Váš účet bol odstránený
+fraudulentAccountDeletion-content = Nedávno bol vytvorený { -product-firefox-account(capitalization: "lower") } a pomocou tejto e-mailovej adresy bolo účtované predplatné. Rovnako ako pri všetkých nových účtoch sme vás požiadali, aby ste potvrdili svoj účet overením tejto e-mailovej adresy.
+fraudulentAccountDeletion-content-2 = V súčasnosti vidíme, že účet nebol nikdy potvrdený. Keďže tento krok nebol dokončený, nie sme si istí, či išlo o autorizované predplatné. V dôsledku toho bol { -product-firefox-account(capitalization: "lower") } zaregistrovaný na túto e-mailovú adresu odstránený a vaše predplatné bolo zrušené a všetky poplatky boli vrátené.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Ostáva vám malé množstvo obnovovacích kódov
 codes-reminder-description = Všimli sme si, že vám ostáva malé množstvo obnovovacích kódov. Prosím, zvážte vygenerovanie nových kódov, čím zabránite nechcenému vymknutiu sa z účtu.
