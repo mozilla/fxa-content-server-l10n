@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-07-30 13:42+0000\n"
+"PO-Revision-Date: 2022-07-30 13:50+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1108,7 +1108,7 @@ msgstr "Prihláste sa všade, kde používate Firefox."
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
-msgstr "Sme aj pre Android a iOS!"
+msgstr "Sme aj na Androide a iOS!"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1496,7 +1496,7 @@ msgstr "Zadajte autorizačný kód"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Nastavte si heslo"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1964,7 +1964,7 @@ msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "značka polohy"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"

@@ -131,6 +131,9 @@ subplat-explainer-reminder-form = Tento e-mail ste dostali, pretože na adrese {
 subplat-explainer-multiple = Tento e-mail ste dostali, pretože na adrese { $email } je registrovaný { -product-firefox-account } a zároveň ste sa zaregistrovali na odber niekoľkých produktov.
 subplat-explainer-was-deleted = Tento e-mail ste dostali, pretože na adresu { $email } bol zaregistrovaný { -product-firefox-account(capitalization: "lower") }.
 subplat-manage-account = Spravujte svoje nastavenia { -product-firefox-account(case: "gen") } na <a data-l10n-name="subplat-account-page">stránke účtu</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Spravujte nastavenia { -product-firefox-account(case: "gen", capitalization: "lower") } na stránke svojho účtu: { $accountSettingsUrl }
 subplat-terms-policy = Podmienky používania a zrušenia
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Zrušiť predplatné
@@ -165,6 +168,10 @@ automated-email =
     Toto je automaticky generovaná správa. Ak ste ju dostali omylom, nevyžaduje sa žiadna akcia.
     Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
+automated-email-support = { automated-email-plaintext } Ďalšie informácie nájdete na stránkach <a data-l10n-name="mozillaSupportUrl">Podpora { -brand-mozilla(case: "gen") }</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Ďalšie informácie nájdete na stránkach Podpora { -brand-mozilla(case: "gen") }: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Toto je automatický e-mail; ak ste túto akciu nevykonali, zmeňte si svoje heslo:
 automated-email-reset =
@@ -250,8 +257,13 @@ view-invoice = <a data-l10n-name="invoiceLink">Zobraziť faktúru</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Zobraziť faktúru: { $invoiceLink }
+cadReminderFirst-subject-1 = Pripomienka! Poďme synchronizovať { -brand-firefox }
 cadReminderFirst-action = Synchronizovať ďalšie zariadenie
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Na synchronizáciu sú potrební dvaja
+cadReminderFirst-description-1 = Vezmite svoje karty do všetkých svojich zariadení. Získajte svoje záložky, heslá a ďalšie údaje všade, kde používate { -brand-firefox }. Je to ako mať kúzlo vo svojom účte { -brand-firefox }!
+cadReminderFirst-description-2 = Synchronizácia trvá iba chvíľku.
 cadReminderSecond-subject-2 = Nič nepremeškajte! Poďme dokončiť nastavenie synchronizácie
 cadReminderSecond-action = Synchronizovať ďalšie zariadenie
 cadReminderSecond-title-2 = Nezabudnite na synchronizáciu!
