@@ -120,6 +120,7 @@ automated-email =
     Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
     Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
 automated-email-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
+automated-email-support = { automated-email-plaintext } Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="mozillaSupportUrl">Υποστήριξη { -brand-mozilla }</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 automated-email-support-plaintext = { automated-email-plaintext } Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την Υποστήριξη { -brand-mozilla }: { $mozillaSupportUrl }.
