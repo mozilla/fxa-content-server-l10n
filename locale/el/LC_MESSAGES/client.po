@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-07-30 11:17+0000\n"
+"PO-Revision-Date: 2022-07-30 11:52+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1192,7 +1192,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Ένας λογαριασμός Firefox ξεκλειδώνει επίσης την πρόσβαση σε περισσότερα προϊόντα της Mozilla που προστατεύουν το απόρρητό σας."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
