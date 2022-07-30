@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-07-30 13:29+0000\n"
+"PO-Revision-Date: 2022-07-30 13:42+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -932,7 +932,7 @@ msgstr "Účet nie je možné vytvoriť"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Na vytvorenie účtu Firefox musíte spĺňať vekové požiadavky."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1100,15 +1100,15 @@ msgstr "Pre dokončenie nastavení sa prihláste k Firefoxu na inom zariadení"
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Sync Firefox across devices"
-msgstr ""
+msgstr "Synchronizujte Firefox medzi zariadeniami"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
-msgstr ""
+msgstr "Prihláste sa všade, kde používate Firefox."
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
-msgstr ""
+msgstr "Sme aj pre Android a iOS!"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1140,6 +1140,9 @@ msgid ""
 "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Zadajte heslo <span class=\"description\">pre svoj účet Firefox</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1159,11 +1162,11 @@ msgstr "Zabudli ste heslo?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "Pokračujte na účty Firefoxu"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synchronizujte svoje heslá, karty a záložky všade, kde používate Firefox."
 
 #: .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1179,11 +1182,11 @@ msgstr "E-mailová adresa"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Zaregistrujte sa alebo sa prihláste"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Účet Firefox tiež odomkne prístup k produktom Mozilly, ktoré chránia súkromie."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1453,19 +1456,19 @@ msgstr "Náš tím bol informovaný. Podobné hlásenia nám pomáhajú odráža
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
-msgstr ""
+msgstr "Zadajte potvrdzovací kód<span class=\"description\">pre svoj účet Firefox</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter confirmation"
-msgstr ""
+msgstr "Zadajte potvrdenie"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
+msgstr "V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu %(email)s"
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Email new code"
-msgstr ""
+msgstr "Odoslať nový kód e-mailom"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1877,7 +1880,7 @@ msgstr "Koľko máte rokov?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You must be over 13 to create an account."
-msgstr ""
+msgstr "Ak si chcete vytvoriť účet, musíte mať viac ako 13 rokov."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1905,23 +1908,23 @@ msgstr "IP adresa: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Požiadavky na heslo"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Minimálne 8 znakov"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Nie je to vaša e-mailová adresa"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Nie je to bežne používané heslo"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr ""
+msgstr "Zostaňte v bezpečí &mdash; nepoužívajte opakovane svoje heslá. Pozrite si ďalšie tipy ako <a %(escapedCommonPasswordLinkAttrs)s>vytvoriť silné heslá</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1953,7 +1956,7 @@ msgstr "Pokračujte s Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr "Práve ste sa prihlásili do Firefoxu?"
+msgstr "Prihlásili ste sa do Firefoxu?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
@@ -1981,10 +1984,13 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Teraz sa synchronizujete s: <span>%(deviceFamily)s na %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Teraz máte prístup k otvoreným kartám, heslám a záložkám na všetkých svojich zariadeniach."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"

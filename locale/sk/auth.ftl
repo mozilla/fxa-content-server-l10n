@@ -129,6 +129,7 @@ subplat-explainer-specific = Tento e-mail ste dostali, pretože na adrese { $ema
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Tento e-mail ste dostali, pretože na adrese { $email } je registrovaný { -product-firefox-account }.
 subplat-explainer-multiple = Tento e-mail ste dostali, pretože na adrese { $email } je registrovaný { -product-firefox-account } a zároveň ste sa zaregistrovali na odber niekoľkých produktov.
+subplat-explainer-was-deleted = Tento e-mail ste dostali, pretože na adresu { $email } bol zaregistrovaný { -product-firefox-account(capitalization: "lower") }.
 subplat-manage-account = Spravujte svoje nastavenia { -product-firefox-account(case: "gen") } na <a data-l10n-name="subplat-account-page">stránke účtu</a>.
 subplat-terms-policy = Podmienky používania a zrušenia
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
@@ -264,9 +265,14 @@ downloadSubscription-subject = Víta vás { $productName }
 downloadSubscription-title = Víta vás { $productName }
 downloadSubscription-content-2 = Poďme sa pozrieť ako používať všetky funkcie zahrnuté vo vašom predplatnom:
 downloadSubscription-link-action-2 = Začíname
+fraudulentAccountDeletion-subject = Váš { -product-firefox-account(capitalization: "lower") } bol odstránený
 fraudulentAccountDeletion-title = Váš účet bol odstránený
 fraudulentAccountDeletion-content = Nedávno bol vytvorený { -product-firefox-account(capitalization: "lower") } a pomocou tejto e-mailovej adresy bolo účtované predplatné. Rovnako ako pri všetkých nových účtoch sme vás požiadali, aby ste potvrdili svoj účet overením tejto e-mailovej adresy.
 fraudulentAccountDeletion-content-2 = V súčasnosti vidíme, že účet nebol nikdy potvrdený. Keďže tento krok nebol dokončený, nie sme si istí, či išlo o autorizované predplatné. V dôsledku toho bol { -product-firefox-account(capitalization: "lower") } zaregistrovaný na túto e-mailovú adresu odstránený a vaše predplatné bolo zrušené a všetky poplatky boli vrátené.
+fraudulentAccountDeletion-contact = Ak máte nejaké otázky, kontaktujte náš <a data-l10n-name="mozillaSupportUrl">tím podpory</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Ak máte nejaké otázky, kontaktujte náš tím podpory: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Ostáva vám malé množstvo obnovovacích kódov
 codes-reminder-description = Všimli sme si, že vám ostáva malé množstvo obnovovacích kódov. Prosím, zvážte vygenerovanie nových kódov, čím zabránite nechcenému vymknutiu sa z účtu.
