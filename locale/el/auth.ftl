@@ -226,6 +226,9 @@ downloadSubscription-link-action-2 = Έναρξη
 fraudulentAccountDeletion-subject = Ο { -product-firefox-account(case: "nom", capitalization: "lower") } σας διαγράφηκε
 fraudulentAccountDeletion-title = Ο λογαριασμός σας διαγράφηκε
 fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε με την <a data-l10n-name="mozillaSupportUrl">ομάδα υποστήριξής</a> μας.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε με την ομάδα υποστήριξής μας: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Απομένουν λίγοι κωδικοί ανάκτησης
 codes-reminder-description = Παρατηρήσαμε ότι σας απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε δημιουργήστε νέους κωδικούς για να μην κλειδωθείτε έξω από τον λογαριασμό σας.
@@ -458,6 +461,9 @@ subscriptionFirstInvoiceDiscount-content-charge = Χρεώθηκαν { $invoiceT
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Επόμενο τιμολόγιο: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Η πιστωτική κάρτα για το { $productName } έληξε ή λήγει σύντομα
 subscriptionPaymentExpired-title-1 = Η πιστωτική σας κάρτα έχει ή πρόκειται να λήξει
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

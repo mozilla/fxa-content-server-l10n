@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-07-30 11:11+0000\n"
+"PO-Revision-Date: 2022-07-30 11:17+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -935,7 +935,7 @@ msgstr "Αδυναμία δημιουργίας λογαριασμού"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Πρέπει να πληροίτε ορισμένες απαιτήσεις ηλικίας για τη δημιουργία ενός λογαριασμού&nbsp;Firefox."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1054,7 +1054,7 @@ msgstr "για τον λογαριασμό Firefox σας"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Εισαγάγετε τον κωδικό επαλήθευσης που εστάλη στο %(escapedEmail)s εντός 5 λεπτών."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1146,6 +1146,9 @@ msgid ""
 "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Εισαγάγετε τον κωδικό πρόσβασής σας <span class=\"description\">για τον λογαριασμό Firefox σας</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1470,11 +1473,11 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
+msgstr "Εισαγάγετε τον κωδικό επαλήθευσης που εστάλη στο %(email)s εντός 5 λεπτών"
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Email new code"
-msgstr ""
+msgstr "Αποστολή νέου κωδικού"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1892,7 +1895,7 @@ msgstr "Ποια είναι η ηλικία σας;"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You must be over 13 to create an account."
-msgstr ""
+msgstr "Πρέπει να είστε άνω των 13 ετών για να δημιουργήσετε λογαριασμό."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -2038,7 +2041,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I'm ready to sync devices"
-msgstr ""
+msgstr "Θέλω να συγχρονίσω συσκευές"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
