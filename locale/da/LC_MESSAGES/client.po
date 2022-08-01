@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-07-28 08:38+0000\n"
+"PO-Revision-Date: 2022-07-29 07:17+0000\n"
 "Last-Translator: Joergen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark\n"
 "Language: da\n"
@@ -1042,15 +1042,15 @@ msgstr "Klik på linket, vi har sendt til %(email)s indenfor den næste time for
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Indtast bekræftelseskode"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "til din Firefox-konto"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Indtast koden, der blev sendt til %(escapedEmail)s, indenfor 5 minutter."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1064,11 +1064,11 @@ msgstr "Bekræft"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Code expired?"
-msgstr ""
+msgstr "Er koden udløbet?"
 
 #: .es5/templates/confirm_signup_code.mustache:7
 msgid "Email new code."
-msgstr ""
+msgstr "Send en ny kode."
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -1076,7 +1076,7 @@ msgstr "Forbind en anden enhed"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "Firefox account connected"
-msgstr ""
+msgstr "Firefox-konto tilsluttet"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email verified"
@@ -1100,15 +1100,15 @@ msgstr "Log ind på Firefox på en anden enhed for at færdiggøre opsætningen"
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Sync Firefox across devices"
-msgstr ""
+msgstr "Synkroniser Firefox på tværs af dine enheder"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
-msgstr ""
+msgstr "Log ind overalt, hvor du bruger Firefox."
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
-msgstr ""
+msgstr "Vi er også på Android og iOS!"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1159,11 +1159,11 @@ msgstr "Glemt adgangskode?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "Fortsæt til Firefox-konto"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synkroniser dine adgangskoder, faneblade og bogmærker, overalt hvor du bruger Firefox."
 
 #: .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1179,11 +1179,11 @@ msgstr "Mailadresse"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Tilmeld dig eller log ind"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "En Firefox-konto giver også adgang til flere privatlivsbeskyttende produkter fra Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1454,19 +1454,19 @@ msgstr "Vores team har fået besked. Rapporter som denne hjælper os med at afv�
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
-msgstr ""
+msgstr "Indtast bekræftelseskode<span class=\"description\">til din Firefox-konto</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter confirmation"
-msgstr ""
+msgstr "Indtast bekræftelse"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
+msgstr "Indtast koden, der blev sendt til %(email)s, indenfor 5 minutter"
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Email new code"
-msgstr ""
+msgstr "Send en ny kode"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1494,7 +1494,7 @@ msgstr "Indtast godkendelseskode"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Angiv din adgangskode"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1879,7 +1879,7 @@ msgstr "Hvor gammel er du?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You must be over 13 to create an account."
-msgstr ""
+msgstr "Du skal være over 13 år for at oprette en konto."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1907,23 +1907,23 @@ msgstr "IP-adresse: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Krav til adgangskode"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Mindst 8 tegn"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Ikke din mailadresse"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Ikke en almindeligt brugt adgangskode"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr ""
+msgstr "Beskyt dig selv &mdash; genbrug ikke adgangskoder. Læs mere om, hvordan du <a %(escapedCommonPasswordLinkAttrs)s>opretter stærke adgangskoder</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1959,19 +1959,19 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr "%(email)s"
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "stedballon"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "Ja, godkend enhed"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
-msgstr ""
+msgstr "Hvis det ikke var dig, så <a id=\"change-password\">skift din adgangskode</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1983,14 +1983,17 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Du synkroniserer nu med <span>%(deviceFamily)s på %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Nu har du adgang til dine åbne faneblade, adgangskoder og bogmærker på alle dine enheder."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Se faneblade fra synkroniserede enheder"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -2010,23 +2013,23 @@ msgstr "Opsætningen blev afbrudt."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
 msgid "Get Firefox on your phone or tablet"
-msgstr ""
+msgstr "Få Firefox på din telefon eller tablet"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Hold your phone's camera over the code to scan."
-msgstr ""
+msgstr "Hold din telefons kamera over koden for at skanne."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
-msgstr ""
+msgstr "Eller send dig selv et <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">link til at hente appen.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I'm ready to sync devices"
-msgstr ""
+msgstr "Jeg er klar til at synkronisere enheder"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synkroniser enheder for at få adgang til dine faneblade, adgangskoder og bogmærker, overalt hvor du bruger Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
