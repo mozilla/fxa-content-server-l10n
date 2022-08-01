@@ -49,6 +49,9 @@ subplat-explainer-reminder-form = Saat tämän viestin, koska sähköpostiosoitt
 subplat-explainer-multiple = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-firefox-account } ja sinulla on useiden tuotteiden tilauksia.
 subplat-explainer-was-deleted = Saat tämän viestin, koska sähköpostiosoitteella { $email } rekisteröitiin { -product-firefox-account }.
 subplat-manage-account = Hallinnoi { -product-firefox-account } -asetuksia <a data-l10n-name="subplat-account-page">tilisivullasi</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Hallinnoi { -product-firefox-account }n asetuksia käymällä tilisivullasi: { $accountSettingsUrl }
 subplat-terms-policy = Käyttöehdot ja peruutuskäytäntö
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Peru tilaus
@@ -81,6 +84,10 @@ automated-email-change-plaintext = Tämä on automaattisesti lähtetty viesti. J
 # supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email = Tämä on automaattisesti lähetetty viesti. Jos vastaanotit sen virheen seurauksena, sinun ei tarvitse tehdä mitään. Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }n tuesta</a>.
 automated-email-plaintext = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
+automated-email-support = { automated-email-plaintext } Lisätietoja saat <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla }-tuesta</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Lisätietoja saat { -brand-mozilla }-tuesta: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Tämä on automaattinen sähköpostiviesti; Jos et valtuuttanut tätä toimintoa, vaihda salasanasi:
 automated-email-reset =
@@ -187,6 +194,7 @@ downloadSubscription-content-2 = Aloitetaan kaikkien tilauksesi ominaisuuksien k
 downloadSubscription-link-action-2 = Aloitetaan
 fraudulentAccountDeletion-subject = Sinun { -product-firefox-account } poistettiin
 fraudulentAccountDeletion-title = Tilisi poistettiin
+fraudulentAccountDeletion-content = Äskettäin { -product-firefox-account } luotiin ja siihen liittyvä tilaus veloitettiin tällä sähköpostiosoitteella. Kuten kaikkien uusien tilien kohdalla, pyysimme sinua vahvistamaan tilisi vahvistamalla ensin tämän sähköpostiosoitteen.
 fraudulentAccountDeletion-contact = Jos sinulla on kysyttävää, ota yhteys <a data-l10n-name="mozillaSupportUrl">tukitiimiimme</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
