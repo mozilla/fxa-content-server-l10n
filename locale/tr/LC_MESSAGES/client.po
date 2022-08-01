@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-08-01 10:14+0000\n"
-"Last-Translator: Selim Şumlu <selim@sum.lu>\n"
+"PO-Revision-Date: 2022-07-23 21:03+0000\n"
+"Last-Translator: Görkem Emrah <gorkem_emrah@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -1046,7 +1046,7 @@ msgstr "Onay kodunu girin"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "Firefox hesabınız için"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."

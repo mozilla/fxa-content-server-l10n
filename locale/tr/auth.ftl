@@ -180,6 +180,7 @@ cadReminderFirst-action = Başka bir cihazı eşitle
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Eşitleme için iki cihaza ihtiyacınız var
+cadReminderFirst-description-1 = Sekmelerinize tüm cihazlarınızdan ulaşın. Yer imlerinizi, parolalarınızı ve diğer verilerinizi  { -brand-firefox } kullandığınız her yere götürün.
 cadReminderFirst-description-2 = Eşitleme sadece birkaç saniye sürer.
 cadReminderSecond-subject-2 = Eşitleme kurulumunuzu tamamlayalım
 cadReminderSecond-action = Başka bir cihazı eşitle
@@ -197,6 +198,9 @@ downloadSubscription-link-action-2 = Başlayın
 fraudulentAccountDeletion-subject = { -product-firefox-account }nız silindi
 fraudulentAccountDeletion-title = Hesabınız silindi
 fraudulentAccountDeletion-contact = Herhangi bir sorunuz varsa lütfen <a data-l10n-name="mozillaSupportUrl">destek ekibimizle</a> iletişime geçin.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Sorularınız varsa lütfen destek ekibimizle iletişime geçin: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kurtarma kodları azaldı
 codes-reminder-description = Az sayıda kurtarma kodunuzun kaldığını fark ettik. Kodlarınızın bitince hesabınızın kilitlenmemesi için lütfen yeni kodlar oluşturun.
