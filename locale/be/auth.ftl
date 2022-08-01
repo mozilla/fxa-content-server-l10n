@@ -109,9 +109,7 @@ location-state-country = { $stateCode }, { $country } (прыблізна)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (прыблізна)
-cadReminderFirst-subject = Ваш сяброўскі напамін: Як завяршыць наладжванне сiнхранiзацыi
 cadReminderFirst-action = Сінхранізаваць іншую прыладу
-cadReminderFirst-title = Вось ваш напамін пра сінхранізацыю прылад.
 cadReminderSecond-action = Сінхранізаваць іншую прыладу
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -200,7 +198,14 @@ recovery-subject = Скінуць пароль
 recovery-title = Трэба скінуць пароль?
 recovery-description = Націсніце кнопку цягам наступнай гадзіны, каб стварыць новы пароль. Запыт прыйшоў з наступнай прылады:
 recovery-action = Стварыць новы пароль
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Вітаем у { $productName }: Калі ласка, усталюйце пароль.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Вітаем у { $productName }
 subscriptionAccountReminderFirst-action = Стварыць пароль
+subscriptionAccountReminderSecond-title = Вітаем у { -brand-firefox }!
 subscriptionAccountReminderSecond-action = Стварыць пароль
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
