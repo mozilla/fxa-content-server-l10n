@@ -197,6 +197,8 @@ downloadSubscription-content-2 = Við skulum byrja á að nota alla eiginleikana
 downloadSubscription-link-action-2 = Komast í gang
 fraudulentAccountDeletion-subject = { -product-firefox-account } þínum var eytt
 fraudulentAccountDeletion-title = Reikningnum þínum var eytt
+fraudulentAccountDeletion-content = Nýlega var { -product-firefox-account } stofnað og áskrift sett í innheimtu með þessu póstfangi. Eins og við gerum með alla nýja reikninga, báðum við þig um að staðfesta reikninginn þinn með því að staðfesta þetta tölvupóstfang fyrst.
+fraudulentAccountDeletion-content-2 = Sem stendur sjáum við að reikningurinn hefur aldrei verið staðfestur. Þar sem ekki var lokið við þetta skref, getum við ekki verið viss um hvort þetta hafi verið heimil áskrift. Þess vegna var { -product-firefox-account } sem skráð var á þetta póstfang eytt og áskriftinni sagt upp auk þess að allar kröfur hafa verið endurgreiddar.
 fraudulentAccountDeletion-contact = Ef þú ert með einhverjar spurningar skaltu hafa samband við <a data-l10n-name="mozillaSupportUrl">aðstoðarteymið okkar</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
