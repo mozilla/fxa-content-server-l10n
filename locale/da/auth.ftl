@@ -47,7 +47,11 @@ subplat-explainer-specific = Du modtager denne mail, fordi { $email } har en { -
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Du modtager denne mail, fordi { $email } har en { -product-firefox-account }.
 subplat-explainer-multiple = Du modtager denne mail, fordi { $email } har en { -product-firefox-account }, og du har abonneret på flere produkter.
+subplat-explainer-was-deleted = Du modtager denne mail, fordi { $email } blev brugt til at registrere en { -product-firefox-account }.
 subplat-manage-account = Håndter indstillingerne for din { -product-firefox-account } ved at besøge din <a data-l10n-name="subplat-account-page">kontoside</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Håndter dine { -product-firefox-account }-indstillinger ved at besøge din kontoside: { $accountSettingsUrl }
 subplat-terms-policy = Betingelser og regler for annullering
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Annuller abonnement
@@ -168,6 +172,11 @@ view-invoice = <a data-l10n-name="invoiceLink">Se din faktura</a>.
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Se faktura: { $invoiceLink }
 cadReminderFirst-action = Synkroniser en enhed til
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Der skal to til at synkronisere
+cadReminderFirst-description-1 = Se dine faneblade på alle af dine enheder. Få adgang til dine bogmærker, adgangskoder og andre data overalt, hvor du bruger { -brand-firefox }. Det er som at have magi i din { -brand-firefox }-konto!
+cadReminderFirst-description-2 = Det tager kun et sekund at synkronisere.
 cadReminderSecond-subject-2 = Gå ikke glip af noget! Lad os afslutte opsætningen af synkroniseringen
 cadReminderSecond-action = Synkroniser en enhed til
 cadReminderSecond-title-2 = Glem ikke at synkronisere!
@@ -181,6 +190,9 @@ downloadSubscription-subject = Velkommen til { $productName }
 downloadSubscription-title = Velkommen til { $productName }
 downloadSubscription-content-2 = Lad os komme i gang med at bruge alle funktionerne i dit abonnement:
 downloadSubscription-link-action-2 = Kom i gang
+fraudulentAccountDeletion-subject = Din { -product-firefox-account } blev slettet
+fraudulentAccountDeletion-title = Din konto blev slettet
+fraudulentAccountDeletion-content = For nylig blev der oprettet en { -product-firefox-account }, og der blev opkrævet for et abonnement ved hjælp af denne mailadresse. Som vi gør med alle nye konti, bad vi dig bekræfte din konto ved først at validere denne mailadresse.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kun få genoprettelseskoder tilbage
 codes-reminder-description = Vi har bemærket, at du ikke har så mange genoprettelseskoder tilbage. Overvej at generere nye koder for at undgå at blive låst ude af din konto.
