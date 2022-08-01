@@ -49,6 +49,9 @@ subplat-explainer-reminder-form = Þú færð þennan tölvupóst vegna þess a�
 subplat-explainer-multiple = Þú færð þennan tölvupóst vegna þess að { $email } er með { -product-firefox-account } og þú ert áskrifandi að ýmsum þjónustum.
 subplat-explainer-was-deleted = Þú færð þennan tölvupóst vegna þess að { $email } var skráð fyrir { -product-firefox-account }.
 subplat-manage-account = Sýslaðu með stillingar { -product-firefox-account } með því að fara á <a data-l10n-name="subplat-account-page">reikningssíðuna þína</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Stjórnaðu stillingum { -product-firefox-account } með því að fara á reikningssíðuna þína: { $accountSettingsUrl }
 subplat-terms-policy = Skilmálar og afbókunarreglur
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Hætta áskrift
@@ -83,6 +86,10 @@ automated-email =
     Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann fyrir mistök er ekki þörf á neinum aðgerðum.
     Til að sjá frekari upplýsingar, skaltu fara á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
 automated-email-plaintext = Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann óvart sendan, þarftu ekkert að gera.
+automated-email-support = { automated-email-plaintext } Til að sjá frekari upplýsingar, skaltu fara á <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } aðstoðargáttina</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Til að sjá frekari upplýsingar, skaltu fara á { -brand-mozilla } aðstoðargáttina: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Þetta er sjálfvirkur tölvupóstur; ef þú leyfðir ekki þessa aðgerð skaltu endilega breyta lykilorðinu þínu:
 automated-email-reset =
