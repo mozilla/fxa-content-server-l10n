@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-08-01 10:11+0000\n"
+"PO-Revision-Date: 2022-08-01 10:14+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1452,19 +1452,19 @@ msgstr "Ekibimiz bilgilendirildi. Bu gibi raporlar, saldırganları dışarıda 
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
-msgstr ""
+msgstr "Firefox hesabınız için <span class=\"description\">onay kodunu girin</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter confirmation"
-msgstr ""
+msgstr "Onay kodunu girin"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
+msgstr "%(email)s adresine gönderdiğimiz kodu 5 dakika içinde girin"
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Email new code"
-msgstr ""
+msgstr "E-posta ile yeni kod gönder"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -2005,15 +2005,15 @@ msgstr "Kurulum işlemi sonlandırıldı."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
 msgid "Get Firefox on your phone or tablet"
-msgstr ""
+msgstr "Firefox’u telefonunuza veya tabletinize yükleyin"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Hold your phone's camera over the code to scan."
-msgstr ""
+msgstr "Telefonunuzun kamerasına bu kodu okutun."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
-msgstr ""
+msgstr "Veya kendinize <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">indirme bağlantısını</a> gönderin."
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I'm ready to sync devices"
