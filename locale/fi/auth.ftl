@@ -47,6 +47,7 @@ subplat-explainer-specific = Saat tämän viestin, koska sähköpostiosoitteella
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-firefox-account }.
 subplat-explainer-multiple = Saat tämän viestin, koska sähköpostiosoitteella { $email } on { -product-firefox-account } ja sinulla on useiden tuotteiden tilauksia.
+subplat-explainer-was-deleted = Saat tämän viestin, koska sähköpostiosoitteella { $email } rekisteröitiin { -product-firefox-account }.
 subplat-manage-account = Hallinnoi { -product-firefox-account } -asetuksia <a data-l10n-name="subplat-account-page">tilisivullasi</a>.
 subplat-terms-policy = Käyttöehdot ja peruutuskäytäntö
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
@@ -165,7 +166,12 @@ view-invoice = <a data-l10n-name="invoiceLink">Näytä lasku</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Näytä lasku: { $invoiceLink }
+cadReminderFirst-subject-1 = Muistutus! Synkronoidaan { -brand-firefox }
 cadReminderFirst-action = Synkronoi toinen laite
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Synkronointi vaatii kaksi
+cadReminderFirst-description-2 = Synkronointi kestää vain sekunnin.
 cadReminderSecond-subject-2 = Viimeistellään synkronoinnin määritys
 cadReminderSecond-action = Synkronoi toinen laite
 cadReminderSecond-title-2 = Älä unohda synkronoida!
@@ -181,6 +187,10 @@ downloadSubscription-content-2 = Aloitetaan kaikkien tilauksesi ominaisuuksien k
 downloadSubscription-link-action-2 = Aloitetaan
 fraudulentAccountDeletion-subject = Sinun { -product-firefox-account } poistettiin
 fraudulentAccountDeletion-title = Tilisi poistettiin
+fraudulentAccountDeletion-contact = Jos sinulla on kysyttävää, ota yhteys <a data-l10n-name="mozillaSupportUrl">tukitiimiimme</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Jos sinulla on kysyttävää, ota yhteys tukitiimiimme: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Palautuskoodit vähissä
 codes-reminder-description = Huomasimme, että palautuskoodisi ovat vähissä. Kannattaa luoda uudet palautuskoodit, jotta sinua ei lukita ulos tililtäsi.
