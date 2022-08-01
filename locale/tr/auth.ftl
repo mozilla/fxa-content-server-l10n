@@ -86,6 +86,10 @@ automated-email =
     Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi bir işlem yapmanız gerekmez.
     Daha fazla bilgi için lütfen <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
 automated-email-plaintext = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
+automated-email-support = { automated-email-plaintext } Daha fazla bilgi için lütfen <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Destek</a>'i ziyaret edin.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Daha fazla bilgi için lütfen { -brand-mozilla } Destek'i ziyaret edin: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen parolanızı değiştirin:
 automated-email-reset =
@@ -174,6 +178,9 @@ view-invoice-plaintext = Faturayı görüntüle: { $invoiceLink }
 cadReminderFirst-subject-1 = Hatırlatma! Hadi { -brand-firefox }’u eşitleyelim
 cadReminderFirst-action = Başka bir cihazı eşitle
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Eşitleme için iki cihaza ihtiyacınız var
+cadReminderFirst-description-2 = Eşitleme sadece birkaç saniye sürer.
 cadReminderSecond-subject-2 = Eşitleme kurulumunuzu tamamlayalım
 cadReminderSecond-action = Başka bir cihazı eşitle
 cadReminderSecond-title-2 = Eşitlemeyi unutmayın!

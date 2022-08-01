@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-07-29 18:17+0000\n"
+"PO-Revision-Date: 2022-08-01 10:04+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1042,7 +1042,7 @@ msgstr "Yeni bir parola oluşturmak için %(email)s adresine gönderdiğimiz ba�
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Onay kodunu girin"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
@@ -1068,7 +1068,7 @@ msgstr "Kodun süresi mi doldu?"
 
 #: .es5/templates/confirm_signup_code.mustache:7
 msgid "Email new code."
-msgstr ""
+msgstr "E-posta ile yeni kod gönder."
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -1100,7 +1100,7 @@ msgstr "Kurulumu tamamlamak için başka bir cihazdan Firefox'a giriş yapın"
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Sync Firefox across devices"
-msgstr ""
+msgstr "Firefox'u cihazlar arasında eşitleyin"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
