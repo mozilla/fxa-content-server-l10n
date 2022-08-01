@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-08-01 10:04+0000\n"
+"PO-Revision-Date: 2022-08-01 10:11+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1104,7 +1104,7 @@ msgstr "Firefox'u cihazlar arasında eşitleyin"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
-msgstr ""
+msgstr "Firefox'u kullandığınız her yerde giriş yapın."
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
@@ -1140,6 +1140,9 @@ msgid ""
 "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          <span class=\"description\">Firefox hesabınızın parolasını yazın</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1871,7 +1874,7 @@ msgstr "Kaç yaşındasınız?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You must be over 13 to create an account."
-msgstr ""
+msgstr "Hesap açmak için 13 yaşından büyük olmalısınız."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1907,11 +1910,11 @@ msgstr "En az 8 karakter"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "E-posta adresiniz olmamalı"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Yaygın olarak kullanılan bir parola olmamalı"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
@@ -1955,7 +1958,7 @@ msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "konum balonu"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
