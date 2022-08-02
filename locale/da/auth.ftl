@@ -86,6 +86,10 @@ automated-email =
     Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget.
     For mere information, besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-plaintext = Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget.
+automated-email-support = { automated-email-plaintext } Besøg <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla }-support</a> for mere information.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+automated-email-support-plaintext = { automated-email-plaintext } Besøg { -brand-mozilla }-support på { $mozillaSupportUrl } for mere information.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Denne mail er sendt automatisk. Hvis du ikke har godkendt denne handling, så skift din adgangskode:
 automated-email-reset =
@@ -171,6 +175,7 @@ view-invoice = <a data-l10n-name="invoiceLink">Se din faktura</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Se faktura: { $invoiceLink }
+cadReminderFirst-subject-1 = Påmindelse! Begynd at synkronisere { -brand-firefox }
 cadReminderFirst-action = Synkroniser en enhed til
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
@@ -193,6 +198,11 @@ downloadSubscription-link-action-2 = Kom i gang
 fraudulentAccountDeletion-subject = Din { -product-firefox-account } blev slettet
 fraudulentAccountDeletion-title = Din konto blev slettet
 fraudulentAccountDeletion-content = For nylig blev der oprettet en { -product-firefox-account }, og der blev opkrævet for et abonnement ved hjælp af denne mailadresse. Som vi gør med alle nye konti, bad vi dig bekræfte din konto ved først at validere denne mailadresse.
+fraudulentAccountDeletion-content-2 = På nuværende tidspunkt kan vi se, at kontoen aldrig blev bekræftet. Da dette trin ikke er blevet fuldført, er vi ikke sikre på, om dette var et godkendt abonnement. Som følge heraf blev den { -product-firefox-account }, der er registreret med denne mailadresse, slettet, dit abonnement blev annulleret og alle opkrævninger blev refunderet.
+fraudulentAccountDeletion-contact = Hvis du har spørgsmål, så kontakt vores <a data-l10n-name="mozillaSupportUrl">support-team</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Hvis du har spørgsmål, så kontakt vores support-team: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Kun få genoprettelseskoder tilbage
 codes-reminder-description = Vi har bemærket, at du ikke har så mange genoprettelseskoder tilbage. Overvej at generere nye koder for at undgå at blive låst ude af din konto.
