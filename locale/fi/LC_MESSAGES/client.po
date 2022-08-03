@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-08-01 10:19+0000\n"
+"PO-Revision-Date: 2022-08-03 19:30+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -1042,11 +1042,11 @@ msgstr "Luo uusi salasana napsauttamalla osoitteeseen %(email)s lähetetyssä vi
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Kirjoita varmistuskoodi"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "Firefox-tilillesi"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
