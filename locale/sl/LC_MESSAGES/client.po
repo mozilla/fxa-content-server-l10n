@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-08-01 18:46+0000\n"
+"PO-Revision-Date: 2022-08-05 13:21+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1100,11 +1100,11 @@ msgstr "Prijavite se v Firefox na drugi napravi, da dokončate nastavitev"
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Sync Firefox across devices"
-msgstr ""
+msgstr "Sinhronizirajte Firefox med napravami"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
-msgstr ""
+msgstr "Prijavite se povsod, kjer uporabljate Firefox."
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
@@ -1140,6 +1140,9 @@ msgid ""
 "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Vnesite geslo <span class=\"description\">svojega Firefox Računa</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1159,11 +1162,11 @@ msgstr "Ste pozabili geslo?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "Nadaljuj v Firefox Račune"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Sinhronizirajte gesla, zavihke in zaznamke na vseh mestih, kjer uporabljate Firefox."
 
 #: .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1179,7 +1182,7 @@ msgstr "E-pošta"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Registracija ali prijava"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1454,19 +1457,19 @@ msgstr "Naša ekipa je bila obveščena. Takšna poročila nam pomagajo odgnati 
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
-msgstr ""
+msgstr "Vnesite potrditveno kodo<span class=\"description\">svojega Firefox Računa</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter confirmation"
-msgstr ""
+msgstr "Vnesite potrditev"
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
+msgstr "Vnesite kodo, ki je bila poslana na %(email)s, v roku 5 minut"
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Email new code"
-msgstr ""
+msgstr "Pošlji novo kodo"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1494,7 +1497,7 @@ msgstr "Vnesite overitveno kodo"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Nastavite geslo"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1879,7 +1882,7 @@ msgstr "Koliko ste stari?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You must be over 13 to create an account."
-msgstr ""
+msgstr "Za ustvarjanje računa morate biti stari vsaj 13 let."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1907,7 +1910,7 @@ msgstr "IP-naslov: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Zahteve za geslo"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
