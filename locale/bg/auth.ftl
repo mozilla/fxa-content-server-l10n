@@ -128,12 +128,9 @@ view-invoice = <a data-l10n-name="invoiceLink">Преглед на фактур�
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Преглед на фактура: { $invoiceLink }
-cadReminderFirst-subject = Приятелско напомняне: Как да завършите настройката на Sync
 cadReminderFirst-action = Синхронизиране на друго устройство
-cadReminderFirst-title = Напомняне да синхронизирате устройствата си
-cadReminderSecond-subject = Последно напомняне: Завършете настройката на Sync
 cadReminderSecond-action = Синхронизиране на друго устройство
-cadReminderSecond-title = Последно напомняне да синхронизирате устройствата си!
+cadReminderSecond-title-2 = Не забравяйте да синхронизирате!
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Добре дошли при { $productName }
@@ -175,6 +172,8 @@ passwordResetAccountRecovery-create-key = Създаване на нов клю�
 postAddAccountRecovery-subject = Създаден е ключ за възстановяване на профила
 postAddAccountRecovery-title = Генериран ключ за възстановяване на сметката
 postAddAccountRecovery-action = Управление на профила
+postAddAccountRecovery-recovery = Ако това не сте били вие, <a data-l10n-name="revokeAccountRecoveryLink">щракнете тук</a>.
+postAddAccountRecovery-revoke = Ако това не сте били вие, отменете ключа.
 postAddLinkedAccount-subject = Нов профил е свързан с { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -188,6 +187,7 @@ postChangePrimary-title = Нов основен ел. адрес
 postChangePrimary-action = Управление на профила
 postConsumeRecoveryCode-subject = Използван код за възстановяване
 postConsumeRecoveryCode-title = Кодът за възстановяване е използван
+postConsumeRecoveryCode-description = Успешно сте използвали код за възстановяване от следното устройство:
 postConsumeRecoveryCode-action = Управление на профила
 postNewRecoveryCodes-subject = Кодове за възстановяване са подновени
 postNewRecoveryCodes-title = Кодовете за възстановяване са подновени
@@ -258,10 +258,6 @@ subscriptionFirstInvoiceDiscount-subject = Плащане за { $productName } 
 subscriptionFirstInvoiceDiscount-title = Благодарим ви, че се абонирахте за { $productName }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = Кредитна карта за { $productName } изтича скоро
-subscriptionPaymentExpired-title = Банковата ви карта скоро ще загуби валидност
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Неуспешно плащане за { $productName }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -276,8 +272,6 @@ subscriptionReactivation-title = Благодарим ви, че поднови�
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Известие за автоматично подновяване на { $productName }
 subscriptionRenewalReminder-title = Абонаментът ви скоро ще бъде подновен
-subscriptionsPaymentExpired-subject = Кредитна карта към абонамент изтича скоро
-subscriptionsPaymentExpired-title = Банковата ви карта скоро ще загуби валидност
 subscriptionsPaymentProviderCancelled-subject = Необходимо обновяване на платежна информация за { -brand-mozilla }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

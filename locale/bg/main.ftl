@@ -14,6 +14,8 @@ project-brand = Firefox Accounts
 -brand-name-pocket = Pocket
 # App Store here refers to Apple's App Store not the generic app store.
 brand-name-apple-app-store = App Store
+document =
+    .title = Firefox Accounts
 
 ## General aria-label
 
@@ -22,9 +24,19 @@ brand-name-apple-app-store = App Store
 
 general-error-heading = Обща грешка в приложението
 basic-error-message = Нещо се обърка. Опитайте отново.
+payment-error-1 = Хм. Възникна проблем с плащането. Опитайте отново или се свържете с издателя на картата.
+payment-error-2 = Хм. Има проблем с плащането. Свържете се с издателя на картата.
+payment-error-3b = Възникна неочаквана грешка при обработката на плащането, опитайте отново.
 payment-error-retry-button = Опитайте отново
 payment-error-manage-subscription-button = Управление на абонамент
+country-currency-mismatch = Валутата на този абонамент не е валидна за държавата, свързана с вашето плащане.
 currency-currency-mismatch = Съжаляваме, но не можете да превключвате между валути.
+no-subscription-change = Съжаляваме. Не можете да променяте абонаментния си план.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Вече сте абонирани през { $mobileAppStore }.
+expired-card-error = Изглежда, че банковата ви карта е изтекла. Опитайте с друга карта.
+insufficient-funds-error = Изглежда, че на картата ви няма достатъчно средства. Опитайте с друга карта.
+withdrawal-count-limit-exceeded-error = Изглежда, че трансакцията ще надхвърли кредитния ви лимит. Опитайте с друга карта.
 
 ## Settings
 
