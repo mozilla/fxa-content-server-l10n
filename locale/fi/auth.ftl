@@ -178,6 +178,7 @@ cadReminderFirst-action = Synkronoi toinen laite
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Synkronointi vaatii kaksi
+cadReminderFirst-description-1 = Käytä välilehtiäsi kaikilla laitteillasi. Ota mukaan kirjanmerkkisi, salasanasi ja muut tietosi kaikkialle, missä käytät { -brand-firefox }ia. Se on kuin taikuutta { -brand-firefox }-tililläsi!
 cadReminderFirst-description-2 = Synkronointi kestää vain sekunnin.
 cadReminderSecond-subject-2 = Viimeistellään synkronoinnin määritys
 cadReminderSecond-action = Synkronoi toinen laite
@@ -195,6 +196,7 @@ downloadSubscription-link-action-2 = Aloitetaan
 fraudulentAccountDeletion-subject = Sinun { -product-firefox-account } poistettiin
 fraudulentAccountDeletion-title = Tilisi poistettiin
 fraudulentAccountDeletion-content = Äskettäin { -product-firefox-account } luotiin ja siihen liittyvä tilaus veloitettiin tällä sähköpostiosoitteella. Kuten kaikkien uusien tilien kohdalla, pyysimme sinua vahvistamaan tilisi vahvistamalla ensin tämän sähköpostiosoitteen.
+fraudulentAccountDeletion-content-2 = Tällä hetkellä näemme, että tiliä ei koskaan vahvistettu. Koska tätä vaihetta ei suoritettu loppuun, emme ole varmoja, oliko tämä valtuutettu tilaus. Tämän seurauksena tähän sähköpostiosoitteeseen rekisteröity { -product-firefox-account } poistettiin, tilauksesi peruttiin ja kaikki kulut palautettiin.
 fraudulentAccountDeletion-contact = Jos sinulla on kysyttävää, ota yhteys <a data-l10n-name="mozillaSupportUrl">tukitiimiimme</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
