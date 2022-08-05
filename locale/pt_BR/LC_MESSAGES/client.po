@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-07-28 11:55+0000\n"
+"PO-Revision-Date: 2022-08-05 12:53+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -2022,7 +2022,7 @@ msgstr "Instale o Firefox no seu celular ou tablet"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Hold your phone's camera over the code to scan."
-msgstr "Aponte a câmera do seu celular sobre o código para capturar."
+msgstr "Aponte a câmera do celular para a imagem acima para capturar o código."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
