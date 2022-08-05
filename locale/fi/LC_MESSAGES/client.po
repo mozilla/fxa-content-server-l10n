@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-08-03 19:33+0000\n"
+"PO-Revision-Date: 2022-08-05 10:21+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -1166,7 +1166,7 @@ msgstr "Jatka Firefox-tileihin"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synkronoi salasanat, välilehdet ja kirjanmerkit kaikkialla, missä käytät Firefoxia."
 
 #: .es5/templates/index.mustache:4
 msgid "Enter your email"
@@ -1182,11 +1182,11 @@ msgstr "Sähköpostiosoite"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Rekisteröidy tai kirjaudu sisään"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Firefox-tili avaa myös pääsyn muihin Mozillan yksityisyyttä suojaaviin tuotteisiin."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1465,11 +1465,11 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
+msgstr "Kirjoita osoitteeseen %(email)s lähetetty vahvistuskoodi 5 minuutin kuluessa"
 
 #: .es5/templates/sign_in_token_code.mustache:7
 msgid "Email new code"
-msgstr ""
+msgstr "Lähetä uusi koodi sähköpostiin"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1497,7 +1497,7 @@ msgstr "Kirjoita valtuuskoodi"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Aseta salasana"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1882,7 +1882,7 @@ msgstr "Kuinka vanha olet?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You must be over 13 to create an account."
-msgstr ""
+msgstr "Sinun on oltava yli 13-vuotias voidaksesi luoda tilin."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1910,7 +1910,7 @@ msgstr "IP-osoite: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Salasanavaatimukset"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
@@ -1926,7 +1926,7 @@ msgstr "Ei yleisesti käytetty salasana"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr ""
+msgstr "Pysy turvassa &mdash; älä käytä samoja salasanoja uudelleen. Katso lisää vinkkejä <a %(escapedCommonPasswordLinkAttrs)s>vahvojen salasanojen luomiseen</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1986,14 +1986,17 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Synkronoit nyt seuraavan laitteen kanssa: <span>%(deviceFamily)s käyttöjärjestelmällä %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Nyt voit käyttää avoimia välilehtiä, salasanoja ja kirjanmerkkejä kaikilla laitteillasi."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Näytä synkronoitujen laitteiden välilehdet"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -2013,11 +2016,11 @@ msgstr "Asetusprosessi lopetettiin."
 
 #: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
 msgid "Get Firefox on your phone or tablet"
-msgstr ""
+msgstr "Hanki Firefox puhelimeesi tai tablet-laitteeseen"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Hold your phone's camera over the code to scan."
-msgstr ""
+msgstr "Pidä puhelimen kameraa koodin päällä skannataksesi."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
