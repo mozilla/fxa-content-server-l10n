@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 22:10+0000\n"
+"POT-Creation-Date: 2022-08-06 12:56+0000\n"
 "PO-Revision-Date: 2022-08-04 17:49+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "비밀번호를 성공적으로 재설정했습니다. 로그인해 주�
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:9
+#: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Firefox 계정 로그인"
 
@@ -839,8 +839,12 @@ msgid "Invalid Token"
 msgstr "유효하지 않은 토큰"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보처리방침</a>에 동의한 것으로 간주합니다."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보처리방침</a>에 동의한 것으로 간주합"
+"니다."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -908,7 +912,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Firefox 계정에 다시 접근하기 위해서 안전한 곳에 보관해둔 일회용 복구 키를 입력하세요."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">참고:</span> 비밀번호를 재설정하고 계정 복구 키를 저장하지 않으면, 일부 데이터가 삭제됩니다(방문기록과 북마크같은 동기화된 서버 데이터 포함)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -936,7 +941,7 @@ msgstr ""
 msgid "Learn more"
 msgstr "자세히 보기"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "동기화할 대상 선택:"
 
@@ -1048,21 +1053,21 @@ msgstr ""
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "6자리 숫자 코드 입력"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "확인"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr ""
 
@@ -1078,7 +1083,7 @@ msgstr ""
 msgid "Email verified"
 msgstr "이메일 검증됨"
 
-#: .es5/templates/connect_another_device.mustache:9
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
 msgstr "설정 완료"
 
@@ -1133,26 +1138,24 @@ msgstr "다시 시도"
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
 "\n"
-"          Enter your password <span class=\"description\">for your Firefox account</span>\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
-"\n"
-"          비밀번호 입력<span class=\"description\">Firefox 계정용</span>\n"
-"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "비밀번호"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "계속 진행하면 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보처리방침</a>에 동의하는 것으로 간주합니다."
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "다른 계정 사용"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:14
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
 msgstr "비밀번호를 잊으셨습니까?"
 
@@ -1164,17 +1167,13 @@ msgstr ""
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
 msgstr ""
 
-#: .es5/templates/index.mustache:4
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
 msgstr "이메일 입력"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
-
-#: .es5/templates/index.mustache:8 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "이메일"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
@@ -1359,6 +1358,10 @@ msgid ""
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
 
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "이메일"
+
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
 msgstr "초기화 시작"
@@ -1407,12 +1410,13 @@ msgstr "만약 이메일이 올바른 경우라면 <a %(escapedSupportLinkAttrs)
 msgid "No longer own that email? Create a new account"
 msgstr "더 이상 사용하고 있는 이메일이 아닌가요? 새 계정 만들기"
 
-#: .es5/templates/sign_in_password.mustache:10
+#: .es5/templates/sign_in_password.mustache:11
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 
@@ -1445,19 +1449,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "우리 팀에 통보되었습니다. 이와 같은 보고서는 우리가 침입자를 방어하는데 도움이 됩니다."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter confirmation"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:7
-msgid "Email new code"
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1504,6 +1500,10 @@ msgstr "여기에 저장한 암호화된 데이터에 접근하기 위해서는 
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "유용한 지식이 받은 편지함으로 찾아갑니다. 더 많은 것을 원하시면 가입하세요:"
 
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "동기화할 대상 선택"
+
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "계정 생성"
@@ -1512,8 +1512,9 @@ msgstr "계정 생성"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
@@ -1865,7 +1866,7 @@ msgid "How old are you?"
 msgstr "몇살이세요?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You must be over 13 to create an account."
+msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -1957,7 +1958,7 @@ msgid "Yes, approve device"
 msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
@@ -1987,28 +1988,32 @@ msgstr "기기 관리"
 msgid "Approval now required <small>from your other device</small>"
 msgstr "<small>다른 기기로부터</small> 승인이 필요합니다."
 
-#: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
+#: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
 msgstr "페어링에 실패했습니다"
 
-#: .es5/templates/pair/failure.mustache:3
+#: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated."
 msgstr "설정 과정이 종료되었습니다."
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:1
 msgid "Get Firefox on your phone or tablet"
 msgstr ""
 
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr ""
+
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone's camera over the code to scan."
+msgid "Hold your phone’s camera over the code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
-msgid "I'm ready to sync devices"
+msgid "I’m ready to sync devices"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
@@ -2031,13 +2036,25 @@ msgstr "<small>%(email)s에 대한</small> 페어링 확인"
 msgid "Confirm pairing"
 msgstr "페어링 확인"
 
-#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
+#: .es5/templates/pair/unsupported.mustache:1
 msgid "Pair using an app"
 msgstr "앱으로 페어링"
 
-#: .es5/templates/pair/unsupported.mustache:3
+#: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페어링해야 합니다."
+
+#~ msgid ""
+#~ "\n"
+#~ "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          비밀번호 입력<span class=\"description\">Firefox 계정용</span>\n"
+#~ "        "
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#~ msgstr "계속 진행하면 <a id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\">개인정보처리방침</a>에 동의하는 것으로 간주합니다."
 
 #~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 #~ msgstr "Firefox&nbsp;계정을 만들기 위해서는 나이 조건을 충족해야합니다."
@@ -2145,9 +2162,11 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">도움말</a>"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr "<span>기억하세요.</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때문입니다. 가지고 있는 구독은 계속 유지됩니다."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>기억하세요.</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하"
+#~ "기 때문입니다. 가지고 있는 구독은 계속 유지됩니다."
 
 #~ msgid "Firefox Lockwise"
 #~ msgstr "Firefox Lockwise"
@@ -2162,14 +2181,18 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgstr "데이터 유출에 대비하세요."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
-#~ msgstr "<span>기억:</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 일부 개인 정보(방문기록, 북마크, 비밀번호 포함)를 잃을 수 있습니다. 여러분의 개인정보를 보호하기 위해 비밀번호로 데이터를 암호화하기 때문입니다."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>기억:</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 일부 개인 정보(방문기록, 북마크, 비밀번호 포함)를 잃을 수 있습니다. 여러분의 개인정보를 보호하기 위해 비밀번호로 데이터를 암호화하기 "
+#~ "때문입니다."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
-#~ msgstr "<span>안내:</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 일부 개인 정보(방문기록, 북마크, 비밀번호 포함)를 잃을 수 있습니다. 여러분의 개인정보를 보호하기 위해 비밀번호로 데이터를 암호화하기 때문입니다."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>안내:</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 일부 개인 정보(방문기록, 북마크, 비밀번호 포함)를 잃을 수 있습니다. 여러분의 개인정보를 보호하기 위해 비밀번호로 데이터를 암호화하기 "
+#~ "때문입니다."
 
 #~ msgid "Change..."
 #~ msgstr "변경..."
@@ -2492,7 +2515,8 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgid ""
 #~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
 #~ "more</a>"
-#~ msgstr "<span class=\"note\">안내: </span>Firefox 계정 비밀번호는 Firefox 데이터를 암호화합니다. 비밀번호나 복구키만이 데이터에 접근할 수 있습니다. <a %(escapedLearnMoreLinkAttributes)s>더 알아보기</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">안내: </span>Firefox 계정 비밀번호는 Firefox 데이터를 암호화합니다. 비밀번호나 복구키만이 데이터에 접근할 수 있습니다. <a %(escapedLearnMoreLinkAttributes)s>더 알아보기</a>"
 
 #~ msgid "Are you sure you want to revoke?"
 #~ msgstr "정말로 해제하시겠습니까?"
@@ -2503,7 +2527,8 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "2단계 중 2단계: 복구 키 저장"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr "<span class=\"note\">안내: </span>비밀번호를 잊어버린 경우, 이 키는 데이터에 다시 접근하는 데 필요합니다. 나중에 쉽게 찾을 수 있는, 안전한 장소에 복구 키를 저장하세요."
 
 #~ msgid "Done, Recovery key saved"
@@ -2615,9 +2640,6 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgid "%(email)s registered"
 #~ msgstr "%(email)s 등록됨"
 
-#~ msgid "Choose what to sync"
-#~ msgstr "동기화할 대상 선택"
-
 #~ msgid "Save selections"
 #~ msgstr "선택 내용 저장"
 
@@ -2685,9 +2707,10 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgstr "설정 관리"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
-#~ msgstr "만약 이 계정을 AMO, Pocket, 혹은 Screenshots와 같은 Mozilla 앱 및 서비스에 사용한다면 먼저 로그인하여 저장된 개인 정보를 삭제해야합니다. 계정을 삭제하게 되면 모든 곳에 접근할 수 없게 됩니다."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
+#~ msgstr ""
+#~ "만약 이 계정을 AMO, Pocket, 혹은 Screenshots와 같은 Mozilla 앱 및 서비스에 사용한다면 먼저 로그인하여 저장된 개인 정보를 삭제해야합니다. 계정을 삭제하게 되면 모든 곳에 접근할 수 없게 됩니다."
 
 #~ msgid "verified"
 #~ msgstr "검증됨"
@@ -2759,7 +2782,9 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgstr "안전하게 대용량 파일을 공유하세요."
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "계속 진행하면 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">서비스 이용 약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">개인정보 취급 방침</a>에 동의하는 것으로 간주합니다."
+#~ msgstr ""
+#~ "계속 진행하면 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">서비스 이용 약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">개인정보 취급 방침</a>에 동의하는 것으로 간"
+#~ "주합니다."
 
 #~ msgid "Sync these everywhere you sign in:"
 #~ msgstr "로그인한 모든 곳에서 동기화하세요:"
@@ -2890,8 +2915,12 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "쿠키와 로컬 저장소가 필요합니다."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">개인정보 취급방침</a>에 동의하는 것으로 간주합니다."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "계속 진행하면 Firefox 클라우드 서비스의 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">서비스 이용약관</a> 및 <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">개인정보 취급방침</"
+#~ "a>에 동의하는 것으로 간주합니다."
 
 #~ msgid "Firefox cloud services"
 #~ msgstr "Firefox 클라우드 서비스"
@@ -2934,7 +2963,8 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 
 #~ msgid ""
 #~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "SMS 서비스는 미국 휴대폰 번호로만 사용이 가능합니다. SMS &amp; 데이터 요금이 부과될 수 있습니다. SMS 혹은 이메일의 수신자도 동의해야 합니다. <a %(escapedLearnMoreAttributes)s>더 알아보기</a>"
+#~ msgstr ""
+#~ "SMS 서비스는 미국 휴대폰 번호로만 사용이 가능합니다. SMS &amp; 데이터 요금이 부과될 수 있습니다. SMS 혹은 이메일의 수신자도 동의해야 합니다. <a %(escapedLearnMoreAttributes)s>더 알아보기</a>"
 
 #~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
 #~ msgstr "%(escapedPhoneNumber)s로 앱 링크를 전송하였습니다. <a %(escapedBackLinkAttrs)s>잘못 입력한 번호인가요?</a>"
@@ -2943,14 +2973,16 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgstr "여러 개의 장치에 동기화를 사용하는 이유가 있나요?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr "동기화를 사용하면 동기화를 사용하는 스마트폰이나 태블릿, 심지어 데스크탑의 북마크와 방문 기록, 그리고 비밀번호를 공유할 수 있습니다. Firefox에 로그인하여 동기화를 시작하세요."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr "동기화는 영구적인 백업을 목적으로 설계된 것이 아닙니다–다른 곳에 저장되지 않고 오로지 본인의 기기에만 저장됩니다. 때문에 비밀번호를 바꾸고 어딘가에 저장하지 않았다면 이전 비밀번호와 관련된 모든 정보를 잃을 수도 있습니다. Firefox를 설치한 모든 기기에 동기화를 사용하는 이유가 바로 이것입니다."
+#~ msgstr ""
+#~ "동기화는 영구적인 백업을 목적으로 설계된 것이 아닙니다–다른 곳에 저장되지 않고 오로지 본인의 기기에만 저장됩니다. 때문에 비밀번호를 바꾸고 어딘가에 저장하지 않았다면 이전 비밀번호와 관련된 모든 "
+#~ "정보를 잃을 수도 있습니다. Firefox를 설치한 모든 기기에 동기화를 사용하는 이유가 바로 이것입니다."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -3120,9 +3152,11 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgstr "다른 이메일을 사용하는 계정을 가지고 있나요? <a href=\"%(signinUri)s\">로그인</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox는 <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> 그리고 <a href=\"%(linkLinux)s\">Linux</a>를 지원합니다."
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox는 <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> 그리고 <a href=\"%(linkLinux)s"
+#~ "\">Linux</a>를 지원합니다."
 
 #~ msgid "Delete"
 #~ msgstr "삭제"
@@ -3381,8 +3415,11 @@ msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "이미 계정이 있나요? 로그인하세요."
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr "Firefox cloud services의 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">서비스 약관</a>과 <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">개인 정보 보호 정책</a>에 동의한다."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Firefox cloud services의 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">서비스 약관</a>과 <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">개인 정보 보호 정책</a>에 동의한다."
 
 #~ msgid "Subscribe to Firefox news and tips"
 #~ msgstr "Firefox 뉴스와 사용방법 구독"

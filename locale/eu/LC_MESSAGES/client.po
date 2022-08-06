@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 22:10+0000\n"
+"POT-Creation-Date: 2022-08-06 12:56+0000\n"
 "PO-Revision-Date: 2022-07-23 07:12+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "Pasahitza ondo berrezarri da. Jarraitzeko, hasi saioa."
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:9
+#: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Hasi saioa"
 
@@ -943,7 +943,7 @@ msgstr ""
 msgid "Learn more"
 msgstr "Argibide gehiago"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "Aukeratu zer sinkronizatu:"
 
@@ -1055,21 +1055,21 @@ msgstr ""
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Sartu 6 digituko kodea"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Berretsi"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr "Kodea iraungita?"
 
-#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr "Posta elektroniko kode berria."
 
@@ -1085,7 +1085,7 @@ msgstr "Firefox kontua konektatua"
 msgid "Email verified"
 msgstr "Helbide elektronikoa egiaztatuta"
 
-#: .es5/templates/connect_another_device.mustache:9
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
 msgstr "Burutu zure konfigurazioa"
 
@@ -1140,7 +1140,7 @@ msgstr "Saiatu berriro"
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
 "\n"
-"          Enter your password <span class=\"description\">for your Firefox account</span>\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
 
@@ -1148,15 +1148,16 @@ msgstr ""
 msgid "Password"
 msgstr "Pasahitza"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Jarraituz gero, <a id=\"fxa-tos\" href=\"/legal/terms\">zerbitzuaren baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-oharra</a> onartzen dituzu."
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Erabili beste kontu bat"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:14
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
 msgstr "Pasahitza ahaztu duzu?"
 
@@ -1168,17 +1169,13 @@ msgstr ""
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
 msgstr "Sinkronizatu zure pasahitzak, fitxak eta laster-markak Firefox erabiltzen duzun toki orotan."
 
-#: .es5/templates/index.mustache:4
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
 msgstr "Idatzi zure helbide elektronikoa"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
-
-#: .es5/templates/index.mustache:8 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "Helbide elektronikoa"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
@@ -1363,6 +1360,10 @@ msgid ""
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
 
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Helbide elektronikoa"
+
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
 msgstr "Hasi berrezartzea"
@@ -1411,12 +1412,13 @@ msgstr "Hau baliozko helbide elektronikoa bada, <a %(escapedSupportLinkAttrs)s>e
 msgid "No longer own that email? Create a new account"
 msgstr "Helbide elektronikoa ez da jada zurea? Sortu kontu berri bat"
 
-#: .es5/templates/sign_in_password.mustache:10
+#: .es5/templates/sign_in_password.mustache:11
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 
@@ -1449,19 +1451,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Gure taldeari jakinarazi zaio. Horrelako txostenek arrotzak kanpo mantentzen laguntzen digu."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter confirmation"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:7
-msgid "Email new code"
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1508,6 +1502,10 @@ msgstr "Gurekin gordetako zifratutako datu orotarako sarbidea izateko behar duzu
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr ""
 
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "Aukeratu zer sinkronizatu"
+
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Sortu kontua"
@@ -1516,8 +1514,9 @@ msgstr "Sortu kontua"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
@@ -1871,7 +1870,7 @@ msgid "How old are you?"
 msgstr "Zenbat urte dituzu?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You must be over 13 to create an account."
+msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -1963,7 +1962,7 @@ msgid "Yes, approve device"
 msgstr "Bai, onartu gailua"
 
 #: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
@@ -1993,28 +1992,32 @@ msgstr "Kudeatu gailuak"
 msgid "Approval now required <small>from your other device</small>"
 msgstr "Orain <small>zure beste gailuaren</small> onarpena behar da"
 
-#: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
+#: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
 msgstr "Parekatzeak kale egin du"
 
-#: .es5/templates/pair/failure.mustache:3
+#: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated."
 msgstr "Ezarpen prozedura amaitu da."
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:1
 msgid "Get Firefox on your phone or tablet"
 msgstr ""
 
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr ""
+
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone's camera over the code to scan."
+msgid "Hold your phone’s camera over the code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
-msgid "I'm ready to sync devices"
+msgid "I’m ready to sync devices"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
@@ -2037,13 +2040,16 @@ msgstr "Berretsi <small>%(email)s helbidea</small> parekatzea"
 msgid "Confirm pairing"
 msgstr "Berretsi parekatzea"
 
-#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
+#: .es5/templates/pair/unsupported.mustache:1
 msgid "Pair using an app"
 msgstr "Parekatzea aplikazioa erabiliz"
 
-#: .es5/templates/pair/unsupported.mustache:3
+#: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duzu."
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#~ msgstr "Jarraituz gero, <a id=\"fxa-tos\" href=\"/legal/terms\">zerbitzuaren baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-oharra</a> onartzen dituzu."
 
 #~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 #~ msgstr "Gutxieneko adin bat izan behar duzu Firefox kontu bat sortzeko."
@@ -2513,9 +2519,6 @@ msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duz
 
 #~ msgid "Service unavailable, try again soon"
 #~ msgstr "Zerbitzua ez dago erabilgarri, saiatu berrio beranduago"
-
-#~ msgid "Choose what to sync"
-#~ msgstr "Aukeratu zer sinkronizatu"
 
 #~ msgid "Save selections"
 #~ msgstr "Gorde hautapenak"

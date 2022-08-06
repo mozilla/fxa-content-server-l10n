@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 22:10+0000\n"
+"POT-Creation-Date: 2022-08-06 12:56+0000\n"
 "PO-Revision-Date: 2022-05-05 04:09+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -25,7 +25,7 @@ msgstr "パスワードのリセットが完了しました。続けるにはロ
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:9
+#: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "ログイン"
 
@@ -946,7 +946,7 @@ msgstr ""
 msgid "Learn more"
 msgstr "詳細を確認"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "同期するデータを選択してください:"
 
@@ -1060,21 +1060,21 @@ msgstr ""
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "6 桁のコードを入力"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "確認"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr ""
 
@@ -1090,7 +1090,7 @@ msgstr ""
 msgid "Email verified"
 msgstr "メールアドレスが確認されました"
 
-#: .es5/templates/connect_another_device.mustache:9
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
 msgstr "セットアップを完了"
 
@@ -1146,7 +1146,7 @@ msgstr "再度試す"
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
 "\n"
-"          Enter your password <span class=\"description\">for your Firefox account</span>\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
 
@@ -1154,15 +1154,16 @@ msgstr ""
 msgid "Password"
 msgstr "パスワード"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "続けることで、<a id=\"fxa-tos\" href=\"/legal/terms\">利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に同意したものとみなされます。"
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "別のアカウントを使用する"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:14
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
 msgstr "パスワードをお忘れですか？"
 
@@ -1174,17 +1175,13 @@ msgstr ""
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
 msgstr ""
 
-#: .es5/templates/index.mustache:4
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
 msgstr "メールアドレスを入力"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> へ進む"
-
-#: .es5/templates/index.mustache:8 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "メールアドレス"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
@@ -1371,6 +1368,10 @@ msgstr ""
 "<span>補足:</span> パスワードをリセットすると、アカウントもリセットされます。一部の個人情報 (履歴、ブックマーク、パスワードを含む) が失われる可能性があります。これは、プライバシーを守るため、あなた"
 "のパスワードを使ってあなたのデータを暗号化しているためです。ただし、現在のサブスクリプションと Pocket のデータは影響を受けません。"
 
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "メールアドレス"
+
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
 msgstr "リセットを開始"
@@ -1419,18 +1420,15 @@ msgstr "このメールアドレスが正しい場合は、<a %(escapedSupportLi
 msgid "No longer own that email? Create a new account"
 msgstr "既にこのアドレスをお持ちでないなら、新しいアカウントを作成してください"
 
-#: .es5/templates/sign_in_password.mustache:10
+#: .es5/templates/sign_in_password.mustache:11
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
-"\n"
-"続行することにより、以下の規約に同意したものとみなされます:<br />\n"
-"Pocket の <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">サービス利用規約</a> および <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">プライバシー通知</a><br />\n"
-"Firefox の <a id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> および <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a>"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1461,19 +1459,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "担当者に通知が送られました。こうした報告が侵入者を防ぐための助けとなります。"
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter confirmation"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:7
-msgid "Email new code"
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1520,6 +1510,10 @@ msgstr "このパスワードはサーバーに保存した暗号化されたデ
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "実用的な知識が受信トレイに届きます。登録して詳細を見る:"
 
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "同期するデータを選択する"
+
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "アカウントを作成"
@@ -1528,14 +1522,11 @@ msgstr "アカウントを作成"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
-"\n"
-"続行することにより、以下の規約に同意したものとみなされます:<br />\n"
-"Pocket の <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">サービス利用規約</a> および <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">プライバシー通知</a><br />\n"
-"Firefox の <a id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> および <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a>"
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1888,7 +1879,7 @@ msgid "How old are you?"
 msgstr "あなたの年齢は何歳ですか？"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You must be over 13 to create an account."
+msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -1980,7 +1971,7 @@ msgid "Yes, approve device"
 msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
@@ -2010,28 +2001,32 @@ msgstr "端末の管理"
 msgid "Approval now required <small>from your other device</small>"
 msgstr "<small>他の端末から</small> の承認が必要です"
 
-#: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
+#: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
 msgstr "ペアリングに失敗しました"
 
-#: .es5/templates/pair/failure.mustache:3
+#: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated."
 msgstr "セットアップ処理が中断されました。"
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:1
 msgid "Get Firefox on your phone or tablet"
 msgstr ""
 
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr ""
+
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone's camera over the code to scan."
+msgid "Hold your phone’s camera over the code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
-msgid "I'm ready to sync devices"
+msgid "I’m ready to sync devices"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
@@ -2054,13 +2049,41 @@ msgstr "<small>%(email)s</small> のペアリングを確認"
 msgid "Confirm pairing"
 msgstr "ペアリングを確認"
 
-#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
+#: .es5/templates/pair/unsupported.mustache:1
 msgid "Pair using an app"
 msgstr "アプリを使用してペアリング"
 
-#: .es5/templates/pair/unsupported.mustache:3
+#: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "システムカメラを使用しましたか？ Firefox アプリ内からペアリングする必要があります。"
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#~ msgstr "続けることで、<a id=\"fxa-tos\" href=\"/legal/terms\">利用規約</a> と <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a> に同意したものとみなされます。"
+
+#~ msgid ""
+#~ "\n"
+#~ "              By proceeding, you agree to:<br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
+#~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "続行することにより、以下の規約に同意したものとみなされます:<br />\n"
+#~ "Pocket の <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">サービス利用規約</a> および <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">プライバシー通知</a><br />\n"
+#~ "Firefox の <a id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> および <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a>"
+
+#~ msgid ""
+#~ "\n"
+#~ "            By proceeding, you agree to:<br />\n"
+#~ "            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "続行することにより、以下の規約に同意したものとみなされます:<br />\n"
+#~ "Pocket の <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">サービス利用規約</a> および <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">プライバシー通知</a><br />\n"
+#~ "Firefox の <a id=\"fxa-tos\" href=\"/legal/terms\">サービス利用規約</a> および <a id=\"fxa-pp\" href=\"/legal/privacy\">プライバシー通知</a>"
 
 #~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 #~ msgstr "Firefox アカウントを作成するには、規定の年齢に達している必要があります。"
@@ -2659,9 +2682,6 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 
 #~ msgid "%(email)s registered"
 #~ msgstr "%(email)s が登録されました"
-
-#~ msgid "Choose what to sync"
-#~ msgstr "同期するデータを選択する"
 
 #~ msgid "Save selections"
 #~ msgstr "選択項目を保存"

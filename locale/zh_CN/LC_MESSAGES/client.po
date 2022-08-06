@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 22:10+0000\n"
+"POT-Creation-Date: 2022-08-06 12:56+0000\n"
 "PO-Revision-Date: 2022-07-19 05:16+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "密码重置成功。请登录以继续。"
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:9
+#: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "登录"
 
@@ -940,7 +940,7 @@ msgstr ""
 msgid "Learn more"
 msgstr "详细了解。"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "选择要同步的项目："
 
@@ -1054,21 +1054,21 @@ msgstr ""
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "请输入 6 位验证码"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "确认"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr ""
 
@@ -1084,7 +1084,7 @@ msgstr ""
 msgid "Email verified"
 msgstr "邮箱已验证"
 
-#: .es5/templates/connect_another_device.mustache:9
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
 msgstr "完成个人设置"
 
@@ -1139,7 +1139,7 @@ msgstr "再试一次"
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
 "\n"
-"          Enter your password <span class=\"description\">for your Firefox account</span>\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
 
@@ -1147,15 +1147,16 @@ msgstr ""
 msgid "Password"
 msgstr "密码"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "继续操作则表示，您同意我们的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "换个账户登录"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:14
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
 msgstr "忘记密码？"
 
@@ -1167,17 +1168,13 @@ msgstr ""
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
 msgstr ""
 
-#: .es5/templates/index.mustache:4
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
 msgstr "请输入邮箱地址"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "继续前往 <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/index.mustache:8 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "邮箱地址"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
@@ -1364,6 +1361,10 @@ msgstr ""
 "<span>注意：</span>重置密码的同时也会重置账户。👉 您会永久丢失某些个人信息（⚠️ 包括历史记录、书签和密码）。这是因为我们使用您的密码来加密您的数据，以此保护您的隐私。您的订阅项目将会保留，Pocket 服务的"
 "数据也不受影响。"
 
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "邮箱地址"
+
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
 msgstr "开始重置"
@@ -1412,17 +1413,15 @@ msgstr "如果这是一个有效的邮箱地址，<a %(escapedSupportLinkAttrs)s
 msgid "No longer own that email? Create a new account"
 msgstr "不再拥有该邮箱？创建一个新账户吧"
 
-#: .es5/templates/sign_in_password.mustache:10
+#: .es5/templates/sign_in_password.mustache:11
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
-"若继续，则代表您同意：<br />\n"
-"Pocket 的<a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服务条款</a>及<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">隐私声明</a><br />\n"
-"Firefox 的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1453,19 +1452,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "我们已收到您的反馈，感谢您帮助我们防范入侵者。"
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter confirmation"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:7
-msgid "Email new code"
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1512,6 +1503,10 @@ msgstr "您需要此密码才能访问存储于云端的所有加密数据。<br
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "将发送实用小知识给您。订阅其他新闻通讯："
 
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "选择要同步的内容"
+
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "创建账户"
@@ -1520,13 +1515,11 @@ msgstr "创建账户"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
-"若继续，则代表您同意：<br />\n"
-"Pocket 的<a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服务条款</a>及<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">隐私声明</a><br />\n"
-"Firefox 的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>"
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1876,7 +1869,7 @@ msgid "How old are you?"
 msgstr "您目前多少岁？"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You must be over 13 to create an account."
+msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -1968,7 +1961,7 @@ msgid "Yes, approve device"
 msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
@@ -1998,28 +1991,32 @@ msgstr "管理设备"
 msgid "Approval now required <small>from your other device</small>"
 msgstr "现在，请在<small>显示二维码的设备上</small>批准登录"
 
-#: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
+#: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
 msgstr "配对不成功"
 
-#: .es5/templates/pair/failure.mustache:3
+#: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated."
 msgstr "设置过程已终止。"
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:1
 msgid "Get Firefox on your phone or tablet"
 msgstr ""
 
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr ""
+
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone's camera over the code to scan."
+msgid "Hold your phone’s camera over the code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
-msgid "I'm ready to sync devices"
+msgid "I’m ready to sync devices"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
@@ -2042,13 +2039,39 @@ msgstr "确认配对 <small>%(email)s</small>"
 msgid "Confirm pairing"
 msgstr "确认配对"
 
-#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
+#: .es5/templates/pair/unsupported.mustache:1
 msgid "Pair using an app"
 msgstr "请使用应用程序配对"
 
-#: .es5/templates/pair/unsupported.mustache:3
+#: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "您用的是系统相机？配对必须通过 Firefox 应用程序扫码完成。"
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#~ msgstr "继续操作则表示，您同意我们的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
+
+#~ msgid ""
+#~ "\n"
+#~ "              By proceeding, you agree to:<br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
+#~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "            "
+#~ msgstr ""
+#~ "若继续，则代表您同意：<br />\n"
+#~ "Pocket 的<a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服务条款</a>及<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">隐私声明</a><br />\n"
+#~ "Firefox 的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>"
+
+#~ msgid ""
+#~ "\n"
+#~ "            By proceeding, you agree to:<br />\n"
+#~ "            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "          "
+#~ msgstr ""
+#~ "若继续，则代表您同意：<br />\n"
+#~ "Pocket 的<a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服务条款</a>及<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">隐私声明</a><br />\n"
+#~ "Firefox 的<a id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>"
 
 #~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 #~ msgstr "您必须符合年龄要求才能创建 Firefox 账户。"
@@ -2679,9 +2702,6 @@ msgstr "您用的是系统相机？配对必须通过 Firefox 应用程序扫码
 
 #~ msgid "%(email)s registered"
 #~ msgstr "%(email)s 已注册"
-
-#~ msgid "Choose what to sync"
-#~ msgstr "选择要同步的内容"
 
 #~ msgid "Save selections"
 #~ msgstr "保存选择"

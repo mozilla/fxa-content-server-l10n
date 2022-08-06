@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 22:10+0000\n"
+"POT-Creation-Date: 2022-08-06 12:56+0000\n"
 "PO-Revision-Date: 2022-04-01 05:21+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr "Heslo bylo úspěšně obnoveno. Pro pokračování se přihlaste."
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:9
+#: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Přihlásit se"
 
@@ -943,7 +943,7 @@ msgstr ""
 msgid "Learn more"
 msgstr "Zjistit více"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "Vyberte, co chcete synchronizovat:"
 
@@ -1057,21 +1057,21 @@ msgstr ""
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Zadejte šestimístný kód"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Potvrzení"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr ""
 
@@ -1087,7 +1087,7 @@ msgstr ""
 msgid "Email verified"
 msgstr "E-mail ověřen"
 
-#: .es5/templates/connect_another_device.mustache:9
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
 msgstr "Dokončit nastavení"
 
@@ -1142,7 +1142,7 @@ msgstr "Zkuste to znovu"
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
 "\n"
-"          Enter your password <span class=\"description\">for your Firefox account</span>\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
 
@@ -1150,15 +1150,16 @@ msgstr ""
 msgid "Password"
 msgstr "Heslo"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Pokračováním souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">podmínkami poskytování služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">zásadami ochrany osobních údajů</a>."
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Použít jiný účet"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:14
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
 msgstr "Zapomněli jste heslo?"
 
@@ -1170,17 +1171,13 @@ msgstr ""
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
 msgstr ""
 
-#: .es5/templates/index.mustache:4
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
 msgstr "Zadejte svou e-mailovou adresu"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Pokračovat na <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/index.mustache:8 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "E-mail"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
@@ -1367,6 +1364,10 @@ msgstr ""
 "<span>POZNÁMKA:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro ochranu "
 "soukromí vaše data heslem šifrujeme. Vaše předplatná a data ve službě Pocket zůstanou beze změny."
 
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "E-mail"
+
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
 msgstr "Začít obnovu"
@@ -1415,20 +1416,15 @@ msgstr "Pokud se jedná o platnou e-mailovou adresu, <a %(escapedSupportLinkAttr
 msgid "No longer own that email? Create a new account"
 msgstr "Už tento e-mail nevlastníte? Vytvořte si nový účet"
 
-#: .es5/templates/sign_in_password.mustache:10
+#: .es5/templates/sign_in_password.mustache:11
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
-"\n"
-"              Pokračováním souhlasíte s:<br />\n"
-"              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Podmínkami</a> a <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Zásadami ochrany osobních údajů</a> služby "
-"Pocket<br />\n"
-"              <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany osobních údajů</a> služeb Firefoxu\n"
-"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1459,19 +1455,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Náš tým byl upozorněn. Zprávy jako tato nám pomáhají odrážet útočníky."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter confirmation"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:7
-msgid "Email new code"
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1518,6 +1506,10 @@ msgstr "Toto heslo budete potřebovat pro přístup ke všech šifrovaným datů
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "Praktické informace až do vaší e-mailové schránky. Zaregistrujte se pro více informací:"
 
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "Vyberte obsah synchronizace"
+
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Vytvořit účet"
@@ -1526,16 +1518,11 @@ msgstr "Vytvořit účet"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
-"\n"
-"              Pokračováním souhlasíte s:<br />\n"
-"              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Podmínkami</a> a <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Zásadami ochrany osobních údajů</a> služby "
-"Pocket<br />\n"
-"              <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany osobních údajů</a> služeb Firefoxu\n"
-"            "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1885,7 +1872,7 @@ msgid "How old are you?"
 msgstr "Kolik vám je let?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You must be over 13 to create an account."
+msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -1977,7 +1964,7 @@ msgid "Yes, approve device"
 msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
@@ -2007,28 +1994,32 @@ msgstr "Správa zařízení"
 msgid "Approval now required <small>from your other device</small>"
 msgstr "Je požadováno schválení <small>z vašeho dalšího zařízení</small>"
 
-#: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
+#: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
 msgstr "Párování se nezdařilo"
 
-#: .es5/templates/pair/failure.mustache:3
+#: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated."
 msgstr "Nastavování bylo ukončeno."
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:1
 msgid "Get Firefox on your phone or tablet"
 msgstr ""
 
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr ""
+
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone's camera over the code to scan."
+msgid "Hold your phone’s camera over the code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
-msgid "I'm ready to sync devices"
+msgid "I’m ready to sync devices"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
@@ -2051,13 +2042,45 @@ msgstr "Potvrdit párování <small>pro %(email)s</small>"
 msgid "Confirm pairing"
 msgstr "Potvrdit párování"
 
-#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
+#: .es5/templates/pair/unsupported.mustache:1
 msgid "Pair using an app"
 msgstr "Spárovat pomocí aplikace"
 
-#: .es5/templates/pair/unsupported.mustache:3
+#: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit z Firefoxu."
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#~ msgstr "Pokračováním souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">podmínkami poskytování služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">zásadami ochrany osobních údajů</a>."
+
+#~ msgid ""
+#~ "\n"
+#~ "              By proceeding, you agree to:<br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
+#~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "              Pokračováním souhlasíte s:<br />\n"
+#~ "              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Podmínkami</a> a <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Zásadami ochrany osobních údajů</a> "
+#~ "služby Pocket<br />\n"
+#~ "              <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany osobních údajů</a> služeb Firefoxu\n"
+#~ "            "
+
+#~ msgid ""
+#~ "\n"
+#~ "            By proceeding, you agree to:<br />\n"
+#~ "            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "              Pokračováním souhlasíte s:<br />\n"
+#~ "              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Podmínkami</a> a <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Zásadami ochrany osobních údajů</a> "
+#~ "služby Pocket<br />\n"
+#~ "              <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany osobních údajů</a> služeb Firefoxu\n"
+#~ "            "
 
 #~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 #~ msgstr "Pro vytvoření účtu&nbsp;Firefoxu musíte splňovat věkové požadavky."
@@ -2663,9 +2686,6 @@ msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit 
 
 #~ msgid "%(email)s registered"
 #~ msgstr "Adresa %(email)s byla zaregistrována"
-
-#~ msgid "Choose what to sync"
-#~ msgstr "Vyberte obsah synchronizace"
 
 #~ msgid "Save selections"
 #~ msgstr "Uložit výběr"

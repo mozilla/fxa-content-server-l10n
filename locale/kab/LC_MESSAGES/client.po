@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 22:10+0000\n"
+"POT-Creation-Date: 2022-08-06 12:56+0000\n"
 "PO-Revision-Date: 2022-04-29 05:04+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,7 @@ msgstr "Awal uffir yettuwennez akken iwata. Kcem akken ad tkemleḍ."
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:9
+#: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Kcem"
 
@@ -941,7 +941,7 @@ msgstr ""
 msgid "Learn more"
 msgstr "Issin ugar"
 
-#: .es5/templates/choose_what_to_sync.mustache:1 .es5/templates/sign_up_password.mustache:10
+#: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "Fren ayen ara temtawiḍ:"
 
@@ -1055,21 +1055,21 @@ msgstr ""
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Sekcem tangalt s 6-izwilen"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Sentem"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr ""
 
@@ -1085,7 +1085,7 @@ msgstr ""
 msgid "Email verified"
 msgstr "Imayl yettwasenqed"
 
-#: .es5/templates/connect_another_device.mustache:9
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
 msgstr "Fak tawila-ik"
 
@@ -1140,7 +1140,7 @@ msgstr "Ɛreḍ tikelt nniḍen"
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid ""
 "\n"
-"          Enter your password <span class=\"description\">for your Firefox account</span>\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
 
@@ -1148,15 +1148,16 @@ msgstr ""
 msgid "Password"
 msgstr "Awal uffir"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:12 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"fxa-tos\" href=\"/legal/terms\"> tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">tsertit tabaḍnit</a> ."
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Seqdec amiḍan nniḍen"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:14
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
 msgstr "Tettuḍ awal uffir?"
 
@@ -1168,17 +1169,13 @@ msgstr ""
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
 msgstr ""
 
-#: .es5/templates/index.mustache:4
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
 msgstr "Sekcem imayl inek"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Kemmel ɣer <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/index.mustache:8 .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "Imayl"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
@@ -1365,6 +1362,10 @@ msgstr ""
 "<span>TAZMILT:</span> Ticki tulseḍ awennez n wawal-ik uffir, ad talseḍ awennez n umiḍan-ik. Kra n yisefka udmawanen zemren ad ṛuḥen (ama d amezruy, ticraḍ n yisebtar, akked wawalen uffiren). Ayagi "
 "acku newgelhen isefka-ik s wawal uffir akken ad nemmesten tabaḍnit-ik. Imultaɣen tgiḍ yaka ad ttwaḥerzen, ma d isefka-inek·inem ur tesεiḍ ara ten-yaɣen."
 
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Imayl"
+
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
 msgstr "Bdu awennez"
@@ -1413,19 +1414,15 @@ msgstr "Ma yella imayl-agi d ameɣtu, <a %(escapedSupportLinkAttrs)s>Ini-aɣ-d</
 msgid "No longer own that email? Create a new account"
 msgstr "Ur tesεiḍ ara imayl-agi tura? Rnu yiwen d amaynut"
 
-#: .es5/templates/sign_in_password.mustache:10
+#: .es5/templates/sign_in_password.mustache:11
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
-"Imi ad tkemmleḍ, ad tqebleḍ:<br />\n"
-"            <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tiwtilin n useqdec</a> akedd <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Tsertit n tbaḍnit</a> n "
-"Pocket<br />\n"
-"            <a id=\"fxa-tos\" href=\"/legal/terms\">Tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">Tsertit n tbaḍnit</a> n Firefox\n"
-"          "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1456,19 +1453,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Tarbaɛt-nneɣ teẓra. Ayen iɣ-d-yettwammalen am wagi aɣ-d-imudd afus akken ad nerr ẓeṛb i yir imdanen."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter confirmation"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:3
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr ""
-
-#: .es5/templates/sign_in_token_code.mustache:7
-msgid "Email new code"
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1515,6 +1504,10 @@ msgstr "Tesriḍ awal-a uffir akken ad tkecmeḍ ɣer yisefka iwgelhanen akken a
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
 msgstr "Rmes timussniwin yelhan srid deg tebwadt-ik n urmas. Multeɣ akken ad tissineḍ ugar:"
 
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "Fren ayen ara temtawiḍ"
+
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Rnu amiḍan"
@@ -1523,16 +1516,11 @@ msgstr "Rnu amiḍan"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
-"\n"
-"            Imi ad tkemmleḍ, ad tqebleḍ:<br />\n"
-"            <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tiwtilin n useqdec</a> akedd <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Tsertit n tbaḍnit</a> n "
-"Pocket<br />\n"
-"            <a id=\"fxa-tos\" href=\"/legal/terms\">Tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">Tsertit n tbaḍnit</a> n Firefox\n"
-"          "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1882,7 +1870,7 @@ msgid "How old are you?"
 msgstr "Acḥal awtay inek?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
-msgid "You must be over 13 to create an account."
+msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
@@ -1974,7 +1962,7 @@ msgid "Yes, approve device"
 msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
@@ -2004,28 +1992,32 @@ msgstr "Sefrek ibenkan"
 msgid "Approval now required <small>from your other device</small>"
 msgstr "Asentem yettwasra tura <small>seg ibenk-ik/im nniḍen</small>"
 
-#: .es5/templates/pair/failure.mustache:1 .es5/templates/pair/failure.mustache:2
+#: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
 msgstr "Acuddu ur yeddi ara akken iwata"
 
-#: .es5/templates/pair/failure.mustache:3
+#: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated."
 msgstr "Akala n usbeddi yeḥbes."
 
-#: .es5/templates/pair/index.mustache:1 .es5/templates/pair/index.mustache:2 .es5/templates/pair/index.mustache:6
+#: .es5/templates/pair/index.mustache:1
 msgid "Get Firefox on your phone or tablet"
 msgstr ""
 
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr ""
+
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone's camera over the code to scan."
+msgid "Hold your phone’s camera over the code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
-msgid "I'm ready to sync devices"
+msgid "I’m ready to sync devices"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
@@ -2048,13 +2040,44 @@ msgstr "Sentem acuddu n <small>i %(email)s</small>"
 msgid "Confirm pairing"
 msgstr "Sentem acuddu"
 
-#: .es5/templates/pair/unsupported.mustache:1 .es5/templates/pair/unsupported.mustache:2
+#: .es5/templates/pair/unsupported.mustache:1
 msgid "Pair using an app"
 msgstr "Cudd s usnas"
 
-#: .es5/templates/pair/unsupported.mustache:3
+#: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Firefox."
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#~ msgstr "Ma tkemleḍ, ad tqebleḍ <a id=\"fxa-tos\" href=\"/legal/terms\"> tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">tsertit tabaḍnit</a> ."
+
+#~ msgid ""
+#~ "\n"
+#~ "              By proceeding, you agree to:<br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
+#~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "            "
+#~ msgstr ""
+#~ "Imi ad tkemmleḍ, ad tqebleḍ:<br />\n"
+#~ "            <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tiwtilin n useqdec</a> akedd <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Tsertit n tbaḍnit</a> n "
+#~ "Pocket<br />\n"
+#~ "            <a id=\"fxa-tos\" href=\"/legal/terms\">Tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">Tsertit n tbaḍnit</a> n Firefox\n"
+#~ "          "
+
+#~ msgid ""
+#~ "\n"
+#~ "            By proceeding, you agree to:<br />\n"
+#~ "            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "            Imi ad tkemmleḍ, ad tqebleḍ:<br />\n"
+#~ "            <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tiwtilin n useqdec</a> akedd <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Tsertit n tbaḍnit</a> n "
+#~ "Pocket<br />\n"
+#~ "            <a id=\"fxa-tos\" href=\"/legal/terms\">Tiwtilin n useqdec</a> akked <a id=\"fxa-pp\" href=\"/legal/privacy\">Tsertit n tbaḍnit</a> n Firefox\n"
+#~ "          "
 
 #~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 #~ msgstr "Yessefk awtay inek ad yaweḍ awtay ilaqen akken ad tizmired ad ternuḍ amiḍan Firefox."
@@ -2654,9 +2677,6 @@ msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Fire
 
 #~ msgid "%(email)s registered"
 #~ msgstr "%(email)s yettwasekles"
-
-#~ msgid "Choose what to sync"
-#~ msgstr "Fren ayen ara temtawiḍ"
 
 #~ msgid "Save selections"
 #~ msgstr "Sekles afran"
