@@ -25,7 +25,7 @@ jobs:
       - name: Clone FxA code repository
         uses: actions/checkout@v3
         with:
-          repository: "flodolo/fxa"
+          repository: "mozilla/fxa"
           fetch-depth: 1
           path: "fxa-code"
       - name: Install npm packages
