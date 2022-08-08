@@ -134,10 +134,27 @@ sub-update-payment-title = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 
 ##
 
+sub-change-submit = ਤਬਦੀਲੀ ਦੀ ਤਸਦੀਕ
+sub-change-indicator =
+    .aria-label = ਸੂਚਕ ਬਦਲੋ
+sub-update-current-plan-label = ਮੌਜੂਦਾ ਪਲਾਨ
+sub-update-new-plan-label = ਨਵਾਂ ਪਲਾਨ
+sub-update-total-label = ਨਵਾਂ ਜੋੜ
 
 ## Subscription upgrade plan details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } ਦਿਨ
+       *[other] { $amount } ਹਰ { $intervalCount } ਦਿਨ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ਦਿਨ
+           *[other] { $amount } ਹਰ { $intervalCount } ਦਿਨ
+        }
 
 ## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -148,6 +165,8 @@ sub-update-payment-title = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 
 ##
 
+pay-update-card-exp = ਮਿਆਦ { $expirationDate }
+pay-update-change-btn = ਬਦਲੋ
 
 ## reactivate
 ## $name (String) - The name of the subscribed product.
@@ -176,6 +195,10 @@ account-activated = ਤੁਹਾਡਾ ਖਾਤਾ ਚਾਲੂ ਹੋ ਗਿ�
 ## Subscription route index
 
 sub-route-idx-updating = ਬਿੱਲ ਸਬੰਧੀ ਜਾਣਕਾਰੀ ਅੱਪਡੇਟ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…
+sub-subscription-error =
+    .title = ਮੈਂਬਰੀਆਂ ਨੂੰ ਲੋਡ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ
+sub-customer-error =
+    .title = ਗਾਹਕ ਨੂੰ ਲੋਡ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ
 pay-update-manage-btn = ਬੰਦੋਬਸਤ
 
 ## Subscription create
