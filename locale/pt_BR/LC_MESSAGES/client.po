@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-08 17:19+0000\n"
-"PO-Revision-Date: 2022-08-08 17:47+0000\n"
+"PO-Revision-Date: 2022-08-08 17:57+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1425,6 +1425,10 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"              Ao continuar, você declara que concorda com:<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Termos do serviço</a> e <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Aviso de privacidade</a> do Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidade</a> do Firefox."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1456,7 +1460,7 @@ msgstr "Nossa equipe foi notificada. Relatos como este nos ajudam a evitar intru
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Digite o código de confirmação <span class=\"card-subheader\">da sua conta Firefox</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes"
@@ -1522,6 +1526,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Ao continuar, você declara que concorda com:<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Termos do serviço</a> e <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Aviso de privacidade</a> do Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidade</a> do Firefox\n"
+"          "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1872,7 +1881,7 @@ msgstr "Quantos anos você tem?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "Você precisa ter pelo menos 13 anos para criar uma conta."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1964,7 +1973,7 @@ msgstr "Sim, aprovar dispositivo"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "Se não foi você, <a id=\"change-password\" class=\"link-blue\">mude sua senha</a> "
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -2010,19 +2019,19 @@ msgstr "Instale o Firefox no seu celular ou tablet"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
-msgstr ""
+msgstr "Código QR"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Hold your phone’s camera over the code to scan."
-msgstr ""
+msgstr "Aponte a câmera do celular para a imagem para capturar o código."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "Ou envie a si mesmo um <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">link para baixar</a>."
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
-msgstr ""
+msgstr "Estou pronto para sincronizar dispositivos"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
