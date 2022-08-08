@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 22:10+0000\n"
-"PO-Revision-Date: 2022-07-30 21:13+0000\n"
+"PO-Revision-Date: 2022-08-08 14:56+0000\n"
 "Last-Translator: YD <ygda+fx@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -1460,7 +1460,7 @@ msgstr "Notre équipe a été informée. Les signalements comme celui-ci nous ai
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
-msgstr ""
+msgstr "Saisissez le code de confirmation <span class=\"description\">de votre compte Firefox</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter confirmation"
@@ -1934,7 +1934,7 @@ msgstr "Pas un mot de passe trop commun"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr ""
+msgstr "Restez en sécurité &mdash; ne réutilisez pas de mots de passe. Consultez d’autres conseils pour <a %(escapedCommonPasswordLinkAttrs)s>créer des mots de passe robustes</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
