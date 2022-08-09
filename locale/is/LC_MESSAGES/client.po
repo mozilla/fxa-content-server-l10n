@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-08 17:19+0000\n"
-"PO-Revision-Date: 2022-08-09 10:20+0000\n"
+"PO-Revision-Date: 2022-08-09 10:26+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -2036,7 +2036,7 @@ msgstr "Eða sendu þér <a href=\"https://www.mozilla.org/firefox/mobile/get-ap
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
-msgstr ""
+msgstr "Ég er tilbúin/n í að samstilla tæki"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
