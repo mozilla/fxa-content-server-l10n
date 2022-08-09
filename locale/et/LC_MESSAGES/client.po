@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 "PO-Revision-Date: 2022-03-25 05:30+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,8 +250,8 @@ msgid "History"
 msgstr "Ajalugu"
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
-msgstr "Kasutajatunnused ja paroolid"
+msgid "Passwords"
+msgstr "Paroolid"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1453,11 +1453,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Meie meeskonda teavitati. Sellised raportid aitavad meil sissetungijaid tõrjuda."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -2001,7 +2001,7 @@ msgid "The setup process was terminated."
 msgstr "Seadistusprotsess katkestati."
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
+msgid "Download Firefox on your phone or tablet"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
@@ -2009,7 +2009,7 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
@@ -2047,6 +2047,9 @@ msgstr "Paarista äpiga"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Kas kasutasid süsteemset kaamerat? Paaristama peab kasutades Firefoxi äppi."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Kasutajatunnused ja paroolid"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 #~ msgstr "Jätkates nõustud <a id=\"fxa-tos\" href=\"/legal/terms\">Teenuse tingimuste</a> ja <a id=\"fxa-pp\" href=\"/legal/privacy\">Privaatsuspoliitikaga</a>."
@@ -2725,9 +2728,6 @@ msgstr "Kas kasutasid süsteemset kaamerat? Paaristama peab kasutades Firefoxi �
 
 #~ msgid "%(email)s created"
 #~ msgstr "%(email)s loodud"
-
-#~ msgid "Passwords"
-#~ msgstr "Paroolid"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "Lisasid ja eelistusi ei sünkroonita veel mobiilsetel seadmetel."

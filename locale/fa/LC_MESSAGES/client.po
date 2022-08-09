@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 "PO-Revision-Date: 2021-11-21 01:02+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,8 +250,8 @@ msgid "History"
 msgstr "تاریخچه"
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
-msgstr "ورود‌ها و گذرواژه ها"
+msgid "Passwords"
+msgstr "گذرواژه‌ها"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1451,11 +1451,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "تیم ما با خبر شده‌اند. گزارش‌هایی مانند این به ما در جهت دفع مزاحمان شما کمک می‌کنند."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1999,7 +1999,7 @@ msgid "The setup process was terminated."
 msgstr "روند راه اندازی خاتمه یافت."
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
+msgid "Download Firefox on your phone or tablet"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
@@ -2007,7 +2007,7 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
@@ -2045,6 +2045,9 @@ msgstr "جفت سازی با استفاده از برنامه"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "آیا از دوربین سیستم استفاده کردید؟ شما باید از درون یک برنامه فایرفاکس جفت سازی کنید."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "ورود‌ها و گذرواژه ها"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 #~ msgstr "با ادامه دادن، شما با <a id=\"fxa-tos\" href=\"/legal/terms\">شرایط استفاده از سرویس</a> و <a id=\"fxa-pp\" href=\"/legal/privacy\">اعلامیه حریم‌خصوصی</a> موافقت می‌کنید."
@@ -2846,9 +2849,6 @@ msgstr "آیا از دوربین سیستم استفاده کردید؟ شما �
 
 #~ msgid "%(email)s created"
 #~ msgstr "%(email)s ساخته شد"
-
-#~ msgid "Passwords"
-#~ msgstr "گذرواژه‌ها"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "در حال حاضر افزودنی‌ها و ترجیحات بر روی دستگاه‌های موبایل همگام نمی‌شوند."

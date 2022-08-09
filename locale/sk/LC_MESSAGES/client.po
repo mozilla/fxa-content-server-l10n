@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 "PO-Revision-Date: 2022-07-30 13:50+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,8 +250,8 @@ msgid "History"
 msgstr "História"
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
-msgstr "Prihlasovacie údaje"
+msgid "Passwords"
+msgstr "Heslá"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1453,12 +1453,12 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Náš tím bol informovaný. Podobné hlásenia nám pomáhajú odrážať narušiteľov."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr "V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu %(email)s"
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -2004,15 +2004,15 @@ msgid "The setup process was terminated."
 msgstr "Nastavovanie bolo ukončené."
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
-msgstr "Získajte Firefox do svojho telefónu alebo tabletu"
+msgid "Download Firefox on your phone or tablet"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
@@ -2050,6 +2050,15 @@ msgstr "Spárovať pomocou aplikácie"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z Firefoxu."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Prihlasovacie údaje"
+
+#~ msgid "Enter the code that was sent to %(email)s within 5 minutes"
+#~ msgstr "V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu %(email)s"
+
+#~ msgid "Get Firefox on your phone or tablet"
+#~ msgstr "Získajte Firefox do svojho telefónu alebo tabletu"
 
 #~ msgid ""
 #~ "\n"
@@ -2966,9 +2975,6 @@ msgstr "Použili ste fotoaparát systému? Párovanie je potrebné zahájiť z F
 
 #~ msgid "%(email)s created"
 #~ msgstr "e-mail %(email)s bol vytvorený"
-
-#~ msgid "Passwords"
-#~ msgstr "Heslá"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "Doplnky a nastavenia sa momentálne nesynchronizujú do mobilných zariadení."

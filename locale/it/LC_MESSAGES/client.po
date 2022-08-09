@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 "PO-Revision-Date: 2022-07-28 04:11+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,8 +250,8 @@ msgid "History"
 msgstr "Cronologia"
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
-msgstr "Credenziali e password"
+msgid "Passwords"
+msgstr "Password"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1456,12 +1456,12 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Il nostro team ha ricevuto la segnalazione. La tua collaborazione ci aiuta a tenere alla larga gli intrusi."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr "Inserisci entro 5 minuti il codice che è stato inviato a %(email)s."
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -2009,15 +2009,15 @@ msgid "The setup process was terminated."
 msgstr "Processo di installazione interrotto."
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
-msgstr "Installa Firefox sul tuo telefono o tablet"
+msgid "Download Firefox on your phone or tablet"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
@@ -2055,6 +2055,15 @@ msgstr "Associa utilizzando un’app"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hai utilizzato la fotocamera di sistema? Bisogna effettuare l’associazione da un’app di Firefox."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Credenziali e password"
+
+#~ msgid "Enter the code that was sent to %(email)s within 5 minutes"
+#~ msgstr "Inserisci entro 5 minuti il codice che è stato inviato a %(email)s."
+
+#~ msgid "Get Firefox on your phone or tablet"
+#~ msgstr "Installa Firefox sul tuo telefono o tablet"
 
 #~ msgid ""
 #~ "\n"
@@ -3060,9 +3069,6 @@ msgstr "Hai utilizzato la fotocamera di sistema? Bisogna effettuare l’associaz
 
 #~ msgid "%(email)s created"
 #~ msgstr "L’account  %(email)s è stato creato"
-
-#~ msgid "Passwords"
-#~ msgstr "Password"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "Attualmente i componenti aggiuntivi e le preferenze non vengono sincronizzati sui dispositivi portatili."
