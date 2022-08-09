@@ -432,6 +432,9 @@ subscriptionPaymentExpired-subject-1 = { $productName } için kredi kartının s
 subscriptionPaymentExpired-title-1 = Kredi kartınızın kullanım süresi dolmuş veya dolmak üzere
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = { $productName } için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmuş veya dolmak üzere.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } ödemesi başarısız oldu
 subscriptionPaymentFailed-title = Ödemenizle ilgili bir sorun yaşıyoruz
 # Variables:
