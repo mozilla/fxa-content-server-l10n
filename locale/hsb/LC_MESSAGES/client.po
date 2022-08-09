@@ -2028,11 +2028,11 @@ msgstr "Dźeržće kameru swojeho šmóratka nad kod, zo byšće skenował."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "Abo sćelće sej <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">sćehnjenski wotkaz.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
-msgstr ""
+msgstr "Sym hotowy, graty synchronizować"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
