@@ -463,6 +463,7 @@ subscriptionRenewalReminder-content-closing = Saygılarımızla,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } ekibi
+subscriptionsPaymentExpired-subject-1 = Abonelikleriniz için kullandığınız kredi kartının kullanım süresi dolmuş veya yakında dolacak
 subscriptionsPaymentExpired-title-1 = Kredi kartınızın kullanım süresi dolmuş veya dolmak üzere
 subscriptionsPaymentExpired-content-1 = Aşağıdaki abonelikler için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmuş veya dolmak üzere.
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } abonelikleri için ödeme bilgilerinizi güncellemeniz gerekiyor
