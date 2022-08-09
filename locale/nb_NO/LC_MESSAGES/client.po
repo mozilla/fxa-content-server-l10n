@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 "PO-Revision-Date: 2022-07-28 21:09+0000\n"
 "Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,8 +250,8 @@ msgid "History"
 msgstr "Historikk"
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
-msgstr "Innlogginger og passord"
+msgid "Passwords"
+msgstr "Passord"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1453,11 +1453,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Teamet vårt er varslet. Rapporter som denne hjelper oss med å avverge inntrengere."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -2001,7 +2001,7 @@ msgid "The setup process was terminated."
 msgstr "Installasjonsprosessen ble avsluttet."
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
+msgid "Download Firefox on your phone or tablet"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
@@ -2009,7 +2009,7 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
@@ -2047,6 +2047,9 @@ msgstr "Paring via en app"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Brukte du systemkamera? Du må pare ved hjelp av en Firefox-app"
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Innlogginger og passord"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 #~ msgstr "Ved å fortsette, aksepterer du <a id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkårene</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">personvernsbestemmelser</a>."
@@ -2906,9 +2909,6 @@ msgstr "Brukte du systemkamera? Du må pare ved hjelp av en Firefox-app"
 
 #~ msgid "%(email)s created"
 #~ msgstr "%(email)s opprettet"
-
-#~ msgid "Passwords"
-#~ msgstr "Passord"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "Utvidelser og innstillinger kan for øyeblikket ikke synkroniseres på mobile enheter."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 "PO-Revision-Date: 2022-04-27 00:21+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,8 +250,8 @@ msgid "History"
 msgstr "Պատմություն"
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
-msgstr "Մուտքանուններ և գաղտնաբառեր"
+msgid "Passwords"
+msgstr ""
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1451,11 +1451,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Մեր թիմին ծանուցել են։ Նմանատիպ զեկույցները օգնում են մեզ զերծ մնալ ներխուժումներից։"
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -2002,7 +2002,7 @@ msgid "The setup process was terminated."
 msgstr "Կարգավորման գործընթացը դադարեցվեց։"
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
+msgid "Download Firefox on your phone or tablet"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
@@ -2010,7 +2010,7 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
@@ -2048,6 +2048,9 @@ msgstr "Զուգավորում օգտագործելով ծածկագիրը"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Օգտագործե՞լ եք համակարգի ֆոտոխցիկը։Դուք պետք է զուգորդվեք  Firefox ծրագրի մեջ։"
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Մուտքանուններ և գաղտնաբառեր"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 #~ msgstr "Առաջ անցնելով, Դուք համաձայոնւմ եք <a id=\"fxa-tos\" href=\"/legal/terms\">Ծառայության պայմաններին</a> և <a id=\"fxa-pp\" href=\"/legal/privacy\">Գաղտնիության ծանուցմանը</a>։"

@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
@@ -279,7 +279,7 @@ msgid "History"
 msgstr ""
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
+msgid "Passwords"
 msgstr ""
 
 #: .es5/models/sync-engines.js:70
@@ -1654,12 +1654,12 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid ""
-"Enter confirmation code<span class=\"card-subheader\">for your Firefox "
+"Enter confirmation code <span class=\"card-subheader\">for your Firefox "
 "account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -2267,7 +2267,7 @@ msgid "The setup process was terminated."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
+msgid "Download Firefox on your phone or tablet"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
@@ -2275,7 +2275,9 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid ""
+"To download Firefox on your mobile device, hold the device’s camera over "
+"this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4

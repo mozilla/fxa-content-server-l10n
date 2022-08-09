@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 "PO-Revision-Date: 2022-07-27 22:17+0000\n"
 "Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -249,8 +249,8 @@ msgid "History"
 msgstr "Histórico"
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
-msgstr "Credenciais e palavras-passe"
+msgid "Passwords"
+msgstr "Palavras-passe"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1454,11 +1454,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "A nossa equipa foi notificada. Denuncias como esta ajudam-nos a afastar intrusos."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -2005,7 +2005,7 @@ msgid "The setup process was terminated."
 msgstr "O processo de configuração foi terminado."
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
+msgid "Download Firefox on your phone or tablet"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
@@ -2013,7 +2013,7 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
@@ -2051,6 +2051,9 @@ msgstr "Emparelhar utilizando uma aplicação"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Utilizou a câmara do sistema? Deve emparelhar de dentro de uma aplicação do Firefox."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Credenciais e palavras-passe"
 
 #~ msgid ""
 #~ "\n"
@@ -2997,9 +3000,6 @@ msgstr "Utilizou a câmara do sistema? Deve emparelhar de dentro de uma aplicaç
 
 #~ msgid "%(email)s created"
 #~ msgstr "%(email)s criado(s)"
-
-#~ msgid "Passwords"
-#~ msgstr "Palavras-passe"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "As Preferências e Extras não são atualmente sincronizados em dispositivos móveis."

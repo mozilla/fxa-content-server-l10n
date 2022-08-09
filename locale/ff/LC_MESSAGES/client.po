@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 "PO-Revision-Date: 2020-05-19 19:01+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -250,8 +250,8 @@ msgid "History"
 msgstr "Aslol"
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
-msgstr "Ceŋorɗe & Pinle"
+msgid "Passwords"
+msgstr "Finndeeji"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1448,11 +1448,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Goomu amen tintinaama. Jaŋte hono ɗee ena mballa min riiwtude wujjittooɓe."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1996,7 +1996,7 @@ msgid "The setup process was terminated."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
+msgid "Download Firefox on your phone or tablet"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
@@ -2004,7 +2004,7 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
@@ -2042,6 +2042,9 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Ceŋorɗe & Pinle"
 
 #~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 #~ msgstr "Alaa e sago wooda ɗo keɓ-ɗaa e duuɓi ngam udditde konte Firefox."
@@ -2442,9 +2445,6 @@ msgstr ""
 
 #~ msgid "%(email)s created"
 #~ msgstr "%(email)s cosaama"
-
-#~ msgid "Passwords"
-#~ msgstr "Finndeeji"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "Ɓeyditte e Cuɓoraaɗe cynkataa oo sahaa e kaɓirɗi cinnde."

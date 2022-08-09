@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 "PO-Revision-Date: 2022-07-28 15:20+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,8 +250,8 @@ msgid "History"
 msgstr "Hanes"
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
-msgstr "Mewngofnodion a Chyfrineiriau"
+msgid "Passwords"
+msgstr "Cyfrineiriau"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1457,12 +1457,12 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Mae ein tîm wedi eu hysbysu. Mae adroddiadau fel hyn y ein cynorthwyo i gadw ymyrraeth allanol draw."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
-msgstr "Rhowch y cod anfonwyd at %(email)s o fewn 5 munud"
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -2011,15 +2011,15 @@ msgid "The setup process was terminated."
 msgstr "Cafodd y broses osod ei derfynu."
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
-msgstr "Cael Firefox ar eich ffôn neu dabled"
+msgid "Download Firefox on your phone or tablet"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
@@ -2057,6 +2057,15 @@ msgstr "Paru gan ddefnyddio ap"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Firefox."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Mewngofnodion a Chyfrineiriau"
+
+#~ msgid "Enter the code that was sent to %(email)s within 5 minutes"
+#~ msgstr "Rhowch y cod anfonwyd at %(email)s o fewn 5 munud"
+
+#~ msgid "Get Firefox on your phone or tablet"
+#~ msgstr "Cael Firefox ar eich ffôn neu dabled"
 
 #~ msgid ""
 #~ "\n"
@@ -3062,9 +3071,6 @@ msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Fire
 
 #~ msgid "%(email)s created"
 #~ msgstr "Crëwyd %(email)s"
-
-#~ msgid "Passwords"
-#~ msgstr "Cyfrineiriau"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "Nid yw Ychwanegion a Dewisiadau yn cydweddu ar ddyfeisiau symudol, ar hyn o bryd."

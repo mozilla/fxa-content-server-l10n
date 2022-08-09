@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 "PO-Revision-Date: 2022-05-03 06:46+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,8 +250,8 @@ msgid "History"
 msgstr "ইতিহাস"
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
-msgstr "লগইন ও পাসওয়ার্ড"
+msgid "Passwords"
+msgstr "পাসওয়ার্ড"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1448,11 +1448,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "আমাদের দল অবহিত হয়েছে। এ ধরনের রিপোর্ট অনুপ্রবেশকারীদের বাধাদানে আমাদের সহায়তা করে।"
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -1996,7 +1996,7 @@ msgid "The setup process was terminated."
 msgstr "সেটআপ প্রক্রিয়াটি বন্ধ করা হয়েছিল।"
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
+msgid "Download Firefox on your phone or tablet"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
@@ -2004,7 +2004,7 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
@@ -2042,6 +2042,9 @@ msgstr "একটি অ্যাপ ব্যবহার করে যুক�
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "আপনি কি সিস্টেম ক্যামেরা ব্যবহার করেছেন? আপনার অবশ্যই একটি Firefox অ্যাপের মধ্যে থেকে যুক্ত হতে হবে।"
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "লগইন ও পাসওয়ার্ড"
 
 #~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 #~ msgstr "Firefox অ্যাকাউন্ট খুলতে হলে আপনাকে অবশ্যই একটি বয়স সীমা পূর্ণ করতে হবে।"
@@ -2577,9 +2580,6 @@ msgstr "আপনি কি সিস্টেম ক্যামেরা ব�
 
 #~ msgid "%(email)s created"
 #~ msgstr "%(email)s তৈরি করা হয়েছে"
-
-#~ msgid "Passwords"
-#~ msgstr "পাসওয়ার্ড"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "অ্যাড-অন ও পছন্দসমূহ মোবাইল ডিভাইসে বর্তমানে সিঙ্ক হবে না।"

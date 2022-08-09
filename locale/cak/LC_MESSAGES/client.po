@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-08 17:19+0000\n"
+"POT-Creation-Date: 2022-08-09 22:05+0000\n"
 "PO-Revision-Date: 2021-03-13 00:22+0000\n"
 "Last-Translator: Juan Sián <ajtzibsyan@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -249,8 +249,8 @@ msgid "History"
 msgstr "Natab'äl"
 
 #: .es5/models/sync-engines.js:66
-msgid "Logins and Passwords"
-msgstr "Kitikirisaxik Molojri'ïl chuqa' Ewan taq Tzij"
+msgid "Passwords"
+msgstr "Ewan taq tzij"
 
 #: .es5/models/sync-engines.js:70
 msgid "Add-ons"
@@ -1450,11 +1450,11 @@ msgid "Our team has been notified. Reports like this help us fend off intruders.
 msgstr "Xapon yan rutzijol chi ke ri qamolaj. Rutzijol achi'el re' yojruto' richin niqato' qi' chi kiwäch ri nachanel."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes"
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
@@ -2001,7 +2001,7 @@ msgid "The setup process was terminated."
 msgstr "Xk'is ri runuk'ulem."
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Get Firefox on your phone or tablet"
+msgid "Download Firefox on your phone or tablet"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:2
@@ -2009,7 +2009,7 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "Hold your phone’s camera over the code to scan."
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
@@ -2047,6 +2047,9 @@ msgstr "Tok rik'in jun chokoy"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "¿La xawokisaj relesäy wachib'äl q'inoj? K'atzinel nawokisaj jun ruchokoy Firefox."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Kitikirisaxik Molojri'ïl chuqa' Ewan taq Tzij"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 #~ msgstr "Pa rub'eyal, rat nawojqaj ri <a id=\"fxa-tos\" href=\"/legal/terms\">Rojqanem Samaj</a> chuqa' <a id=\"fxa-pp\" href=\"/legal/privacy\">Rutzijol Ichinanem</a>."
@@ -2890,9 +2893,6 @@ msgstr "¿La xawokisaj relesäy wachib'äl q'inoj? K'atzinel nawokisaj jun rucho
 
 #~ msgid "%(email)s created"
 #~ msgstr "%(email)s xnuk'"
-
-#~ msgid "Passwords"
-#~ msgstr "Ewan taq tzij"
 
 #~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
 #~ msgstr "Wakami chanin man xkeximitäj ta ri taq chokoy chuqa' ri taq ajowab'äl pa oyonib'äl taq okisaxel."
