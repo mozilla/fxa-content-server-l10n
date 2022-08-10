@@ -49,6 +49,9 @@ subplat-explainer-reminder-form = Og̃uahẽ ndéve ko ñanduti veve { $email } 
 subplat-explainer-multiple = Og̃uahẽ ko ñanduti veve { $email } eguereko rupi { -product-firefox-account } mba’ete ha eñemboheraguapýre heta apopyrépe.
 subplat-explainer-was-deleted = Og̃uahẽ ndéve ko ñanduti veve { $email } oñemboheraguapy rupi { -product-firefox-account }.
 subplat-manage-account = Eñangareko nde { -product-firefox-account } mba’ete ñemoĩporãre eikévo nde <a data-l10n-name="subplat-account-page">mba’ete kuatiaroguépe</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Eñangareko { -product-firefox-account } ñangarekóre eikévo ne mba’ete kuatiaroguépe: { $accountSettingsUrl }
 subplat-terms-policy = Ñemboguata ha jeheja purureko
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ñemboheraguapy jeheja
