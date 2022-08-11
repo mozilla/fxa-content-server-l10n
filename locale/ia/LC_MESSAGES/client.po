@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 22:12+0000\n"
 "PO-Revision-Date: 2022-08-10 19:02+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,16 +73,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Tu es ora preste pro modificar tu conto Firefox."
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "Adresse de e-mail primari verificate"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Le notificationes del conto essera ora inviate anque a %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "Adresse de e-mail secundari verificate"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -93,8 +93,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "Tu es preste a usar %(serviceName)s"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "Conto verificate"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -216,9 +216,9 @@ msgstr "Discargate"
 msgid "Printed"
 msgstr "Imprimite"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Conto verificate con successo"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -284,6 +284,10 @@ msgstr "Adresse de e-mail primari verificate correctemente"
 msgid "Secondary email verified successfully"
 msgstr "Adresse de e-mail secundari verificate correctemente"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Conto verificate con successo"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Contrasigno reinitialisate correctemente"
@@ -296,7 +300,7 @@ msgstr "Recuperation de conto activate"
 msgid "Unexpected error"
 msgstr "Error inexpectate"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "Le ligamine sur le qual tu ha cliccate pro verificar tu adresse de e-mail ha expirate."
 
@@ -605,7 +609,7 @@ msgstr "Scribe un adresse de e-mail valide. firefox.com non forni un servicio de
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Le contos Firefox pote solmente esser placiate in un IFRAME sur sitos approbate"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "Ligamine de verification damnificate"
 
@@ -838,7 +842,9 @@ msgid "Invalid Token"
 msgstr "Token non valide"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Per continuar, tu accepta <a id=\"service-tos\" href=\"%(termsUri)s\">conditiones de servicio</a> e le <a id=\"service-pp\" href=\"%(privacyUri)s\">aviso de confidentialitate</a> de %(serviceName)s "
 "(%(serviceUri)s)."
@@ -909,7 +915,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Per favor insere le clave de recuperation a uso unic que tu ha conservate in un loco secur pro reganiar le accesso a tu conto Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTA:</span> Si tu reinitialisa tu contrasigno e non dispone de un clave de recuperation del conto, alcunes de tu datos essera radite (incluse le datos synchronisate como "
 "chronologia e marcapaginas)."
@@ -996,16 +1003,24 @@ msgid "Sign-in already confirmed"
 msgstr "Session ja confirmate"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "Ligamine de verification expirate"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "Clicca ci pro reciper un nove ligamine de verification"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "Error de verification"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1016,8 +1031,8 @@ msgid "Confirm this sign-in"
 msgstr "Confirmar iste session"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Consulta le ligamine de verification inviate per email a&nbsp;a %(escapedEmail)s"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1041,7 +1056,8 @@ msgstr "Message de reinitialisation inviate"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Clicca sur le ligamine inviate a %(email)s intra le proxime hora pro crear un nove contrasigno."
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr "Insere le codice de confirmation"
 
@@ -1058,8 +1074,8 @@ msgstr "Insere le codice que es inviate a %(escapedEmail)s in 5 minutas."
 msgid "Enter 6-digit code"
 msgstr "Insere le codice de 6 digitos"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Confirmar"
 
@@ -1080,8 +1096,8 @@ msgid "Firefox account connected"
 msgstr "Conto Firefox connexe"
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Adresse de e-mail verificate"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1150,8 +1166,11 @@ msgid "Password"
 msgstr "Contrasigno"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Si tu procede, tu accepta le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Si tu procede, tu accepta le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de "
+"confidentialitate</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1383,8 +1402,8 @@ msgid "Event Name"
 msgstr "Nomine de evento"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "Verificate"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1418,14 +1437,17 @@ msgstr "Non possede tu plus iste adresse de e-mail? Crea un nove conto"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              Si tu procede, tu concorda con le:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Aviso de confidentialitate</a> de Pocket<br />\n"
-"              Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</a> de Firefox.\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Aviso de confidentialitate</a> de Pocket<br />\n"
+"              Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de "
+"confidentialitate</a> de Firefox.\n"
 "            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1439,10 +1461,6 @@ msgstr "Per favor insere le codice de recuperation fornite a te durante le confi
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "Insere le codice de recuperation a 10 digitos"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "Verificar"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1520,13 +1538,16 @@ msgstr "Crear un conto"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "            Si tu procede, tu concorda con le:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">aviso de confidentialitate</a> de Pocket<br />\n"
-"            Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</a> de Firefox\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">aviso de confidentialitate</a> de Pocket<br />\n"
+"            Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</"
+"a> de Firefox\n"
 "          "
 
 #: .es5/templates/support.mustache:1
@@ -1666,13 +1687,9 @@ msgstr "Adresse de e-mail secundari"
 msgid "Maybe later"
 msgstr "Forsan un altere vice"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "Insere le codice de verification"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Per favor, insere le codice de verification inviate a %(escapedEmail)s intra 5 minutas."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -2060,6 +2077,42 @@ msgstr "Accopulamento per un application"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un application de Firefox."
 
+#~ msgid "Primary email verified"
+#~ msgstr "Adresse de e-mail primari verificate"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Adresse de e-mail secundari verificate"
+
+#~ msgid "Account verified"
+#~ msgstr "Conto verificate"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Ligamine de verification expirate"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Clicca ci pro reciper un nove ligamine de verification"
+
+#~ msgid "Verification error"
+#~ msgstr "Error de verification"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Consulta le ligamine de verification inviate per email a&nbsp;a %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "Adresse de e-mail verificate"
+
+#~ msgid "Verified"
+#~ msgstr "Verificate"
+
+#~ msgid "Verify"
+#~ msgstr "Verificar"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Insere le codice de verification"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "Per favor, insere le codice de verification inviate a %(escapedEmail)s intra 5 minutas."
+
 #~ msgid "Logins and Passwords"
 #~ msgstr "Contos e contrasignos"
 
@@ -2090,13 +2143,15 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 #~ msgid ""
 #~ "\n"
 #~ "              By proceeding, you agree to:<br />\n"
-#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
 #~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 #~ "            "
 #~ msgstr ""
 #~ "\n"
 #~ "              Si tu procede, tu concorda con le:<br />\n"
-#~ "             <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Conditiones de servicio</a> e <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Advertentia de confidentialitate</a> de Pocket<br />\n"
+#~ "             <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Conditiones de servicio</a> e <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Advertentia de "
+#~ "confidentialitate</a> de Pocket<br />\n"
 #~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terminos de servicio</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de confidentialitate</a>\n"
 #~ "       "
 
@@ -2118,7 +2173,8 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 #~ msgstr ""
 #~ "\n"
 #~ "              Si tu procede, tu concorda con le:<br />\n"
-#~ "          <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Conditiones de servicio</a> e <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Aviso de confidentialitate</a> de Pocket<br />\n"
+#~ "          <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Conditiones de servicio</a> e <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Aviso de confidentialitate</a> "
+#~ "de Pocket<br />\n"
 #~ "              <a id=\"fxa-tos\" href=\"/legal/terms\">Terminos de servicio</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de confidentialitate</a> de Firafox\n"
 #~ "       "
 
@@ -2264,15 +2320,15 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 #~ msgstr "Vos es ora preste a usar <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 #~ msgstr ""
-#~ "<span>NON OBLIDA:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder alcunes de tu informationes personal (i.a. chronologia, marcapaginas, e contrasignos). Isto "
-#~ "es perque nos crypta tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha."
+#~ "<span>NON OBLIDA:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder alcunes de tu informationes personal (i.a. chronologia, marcapaginas, e contrasignos). "
+#~ "Isto es perque nos crypta tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 #~ msgstr ""
 #~ "<span>NOTA:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder alcunes de tu informationes personal (i.a. chronologia, marcapaginas, e contrasignos). Isto es "
 #~ "perque nos crypta tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha."
@@ -2317,15 +2373,15 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 #~ msgstr "Salva e discoperi le melior historias ab inter le web."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
 #~ msgstr ""
-#~ "<span>NON OBLIDA:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder alcunes de tu informationes personal (i.a. chronologia, marcapaginas, e contrasignos). Isto "
-#~ "es perque nos crypta tu datos con tu contrasigno pro proteger tu vita private."
+#~ "<span>NON OBLIDA:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder alcunes de tu informationes personal (i.a. chronologia, marcapaginas, e contrasignos). "
+#~ "Isto es perque nos crypta tu datos con tu contrasigno pro proteger tu vita private."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>NOTA:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder alcunes de tu informationes personal (i.a. chronologia, marcapaginas, e contrasignos). Isto es "
 #~ "perque nos crypta tu datos con tu contrasigno pro proteger tu vita private."
@@ -2343,7 +2399,8 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 #~ msgstr "Le contrasigno ha essite cambiate con successo"
 
 #~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "Nos regretta que isto ha occurrite. Tu debe cambiar le contrasigno de tu conto Firefox e cercar informationes del fabricante de tu apparato sur como facer pro eliminar tu datos a distantia."
+#~ msgstr ""
+#~ "Nos regretta que isto ha occurrite. Tu debe cambiar le contrasigno de tu conto Firefox e cercar informationes del fabricante de tu apparato sur como facer pro eliminar tu datos a distantia."
 
 #~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
 #~ msgstr ""
@@ -2666,7 +2723,8 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Grado 2 de 2: Salva le clave de recuperation"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
 #~ "<span class=\"note\">NOTA: </span>Si tu oblida tu contrasigno, iste clave es necessari pro reganiar le accesso a tu datos. Guarda tu clave de recuperation in un loco secur ubi tu pote trovar lo "
 #~ "facilemente plus tarde."
@@ -2861,8 +2919,8 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 
 #~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
 #~ msgstr ""
-#~ "Tu recipera communicationes concernente le securitate de tu conto, cambiamentos a nostre politica, le functionalitate de tu conto, e messages introductive pro adjutar te a tirar le maxime avantage "
-#~ "de tu conto Firefox."
+#~ "Tu recipera communicationes concernente le securitate de tu conto, cambiamentos a nostre politica, le functionalitate de tu conto, e messages introductive pro adjutar te a tirar le maxime "
+#~ "avantage de tu conto Firefox."
 
 #~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
 #~ msgstr "In addition, tu pote subscriber te a messages promotional con le ultime novas de Mozilla e Firefox."
@@ -2874,11 +2932,11 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 #~ msgstr "Gerer preferentias"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
-#~ "Si tu usa iste conto pro applicationes e servicios de Mozilla como AMO, Pocket e Screenshots, tu debe primo aperir session e eliminar omne information personal presente. Un vice que tu dele hic tu "
-#~ "conto, tu pote perder le accesso a illo ubique."
+#~ "Si tu usa iste conto pro applicationes e servicios de Mozilla como AMO, Pocket e Screenshots, tu debe primo aperir session e eliminar omne information personal presente. Un vice que tu dele hic "
+#~ "tu conto, tu pote perder le accesso a illo ubique."
 
 #~ msgid "verified"
 #~ msgstr "verificate"
@@ -2959,7 +3017,9 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 #~ msgstr "Impossibile obtener le Terminos de servicio del platteforma de subscription"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Si tu procede, tu concorda al <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terminos de Servicio</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Nota de confidentialitate</a>."
+#~ msgstr ""
+#~ "Si tu procede, tu concorda al <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terminos de Servicio</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Nota de "
+#~ "confidentialitate</a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Terminos de servicio del platteforma de subscription"
@@ -3117,7 +3177,9 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "Le cookies e le immagazinage local es requirite."
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr ""
 #~ "Per continuar, tu consenti al <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">conditiones de servicio</a> e al <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">declaration de "
 #~ "confidentialitate</a> del servicios nube de Firefox."
@@ -3174,18 +3236,18 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 #~ msgstr "Perque synchronisar duo (o plus) apparatos?"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr ""
-#~ "Sync te permitte usar le marcapaginas, historia e contrasignos que tu salveguarda in Firefox in un dispositivo in commun con Firefox sur altere dispositivos. Authentica te a Firefox sur tu telephono"
-#~ " o tabletta, e tote lo que tu ha immagazinate in Firefox pro scriptorio apparera."
+#~ "Sync te permitte usar le marcapaginas, historia e contrasignos que tu salveguarda in Firefox in un dispositivo in commun con Firefox sur altere dispositivos. Authentica te a Firefox sur tu "
+#~ "telephono o tabletta, e tote lo que tu ha immagazinate in Firefox pro scriptorio apparera."
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
 #~ msgstr ""
-#~ "Sync non es concipite como copia de reserva permanente. Illo tracta solmente lo que tu ha salveguardate in tu dispositivo. Si tu reinitialisa tu contrasigno e tu datos non ha essite immagazinate sur"
-#~ " al minus un altere dispositivo, tu poterea perder tote le informationes associate al contrasigno ancian. Pro isto, es melior installar Firefox e usar Sync sur plus de un dispositivo."
+#~ "Sync non es concipite como copia de reserva permanente. Illo tracta solmente lo que tu ha salveguardate in tu dispositivo. Si tu reinitialisa tu contrasigno e tu datos non ha essite immagazinate "
+#~ "sur al minus un altere dispositivo, tu poterea perder tote le informationes associate al contrasigno ancian. Pro isto, es melior installar Firefox e usar Sync sur plus de un dispositivo."
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -3290,18 +3352,18 @@ msgstr "Ha tu usate le camera del systema? Tu debe accopular ab intra un applica
 #~ msgstr "Authentica te"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr ""
-#~ "<span>REMEMORAR:</span> Si tu restabili tu contrasigno, alcun de tu datos sera cancellate (includite datos de servitor synchronisate, como chronologia e marcapaginas). Illo es perque nos cifra tu "
-#~ "datos con tu contrasigno pro proteger tu confidentialitate."
+#~ "<span>REMEMORAR:</span> Si tu restabili tu contrasigno, alcun de tu datos sera cancellate (includite datos de servitor synchronisate, como chronologia e marcapaginas). Illo es perque nos cifra "
+#~ "tu datos con tu contrasigno pro proteger tu confidentialitate."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr ""
-#~ "<span>NOTA:</span> Si tu restabili tu contrasigno, alcun de tu datos sera cancellate (includite datos synchronisate de servitor como chronologia e marcapaginas). Illo es perque nos cifra tu datos "
-#~ "con tu contrasigno pro proteger tu confidentialitate."
+#~ "<span>NOTA:</span> Si tu restabili tu contrasigno, alcun de tu datos sera cancellate (includite datos synchronisate de servitor como chronologia e marcapaginas). Illo es perque nos cifra tu "
+#~ "datos con tu contrasigno pro proteger tu confidentialitate."
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
 #~ msgstr "Augmenta le securitate de tu conto con codices de securitate ab un de <a %(escapedTotpSupportAttributes)s>iste applicationes de authentication.</a>"

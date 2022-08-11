@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 22:12+0000\n"
 "PO-Revision-Date: 2019-07-05 13:42+0000\n"
 "Last-Translator: ജോയ്സ് <joicefootball@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,16 +73,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "ഇപ്പോൾ നിങ്ങൾ നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിന് മാറ്റങ്ങൾ വരുത്താൻ തയ്യാറായിക്കഴിഞ്ഞു."
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "പ്രാഥമിക ഇമെയിൽ പരിശോധിച്ചുറപ്പുവരുത്തിയിരിക്കുന്നു"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "അക്കൗണ്ട് അറിയിപ്പുകൾ ഇപ്പോൾ %(secondaryEmailVerified)s ലേക്കും അയയ്ക്കുന്നതാണ്."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "രണ്ടാം ഇമെയിൽ പരിശോധിച്ചുറപ്പുവരുത്തിയിരിക്കുന്നു"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -93,8 +93,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "നിങ്ങൾ ഇപ്പോൾ %(serviceName)s ഉപയോഗിക്കാൻ തയ്യാറാണ്"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "അക്കൗണ്ട് തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -216,9 +216,9 @@ msgstr "ഡൗൺലോഡുചെയ്തു"
 msgid "Printed"
 msgstr "അച്ചടിച്ചു"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "അക്കൌണ്ട് വിജയകരമായി തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -284,6 +284,10 @@ msgstr "പ്രാഥമിക ഇമെയിൽ വിജയകരമായ�
 msgid "Secondary email verified successfully"
 msgstr "രണ്ടാമത്തെ ഇമെയിൽ വിജയകരമായി പരിശോധിച്ചുറപ്പുവരുത്തിയിരിക്കുന്നു"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "അക്കൌണ്ട് വിജയകരമായി തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "രഹസ്യവാക്ക് വിജയകരമായി പുനഃസജ്ജീകരിച്ചു"
@@ -296,7 +300,7 @@ msgstr "അക്കൗണ്ട് വീണ്ടെടുക്കൽ പ്�
 msgid "Unexpected error"
 msgstr "പ്രതീക്ഷിക്കാത്ത തകരാര്‍"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "നിങ്ങളുടെ ഇമെയിൽ പരിശോധിക്കാൻ നിങ്ങൾ ക്ലിക്കുചെയ്ത ലിങ്ക് കാലഹരണപ്പെട്ടു."
 
@@ -605,7 +609,7 @@ msgstr "സാധുവായ ഒരു ഇമെയിൽ വിലാസം �
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "അംഗീകൃത സൈറ്റുകളിൽ Firefox അക്കൗണ്ടുകൾ IFRAME ൽ മാത്രമേ സ്ഥാപിക്കാൻ കഴിയൂ"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "സ്ഥിരീകരണ ലിങ്ക് നശിച്ചു"
 
@@ -993,16 +997,24 @@ msgid "Sign-in already confirmed"
 msgstr "പ്രവേശനം ഇതിനകം തന്നെ സ്ഥിരീകരിച്ചിരിക്കുന്നു"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "പരിശോധന ലിങ്ക് കാലഹരണപ്പെട്ടു"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "ഒരു പുതിയ പരിശോധനാ ലിങ്ക് ലഭിക്കുന്നതിന് ഇവിടെ ക്ലിക്കുചെയ്യുക"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "സ്ഥിരീകരണ പിശക്"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1013,7 +1025,7 @@ msgid "Confirm this sign-in"
 msgstr "ഈ പ്രവേശനം സ്ഥിരീകരിക്കുക"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
 
 #: .es5/templates/confirm.mustache:9
@@ -1038,7 +1050,8 @@ msgstr "അയച്ച ഇമെയിൽ പുനഃസജ്ജമാക്�
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1055,8 +1068,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "6 അക്ക കോഡ് നൽകുക"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "സ്ഥിരീകരിക്കുക"
 
@@ -1077,8 +1090,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "ഇമെയിൽ പരിശോധിച്ചു"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1376,7 +1389,7 @@ msgid "Event Name"
 msgstr ""
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
+msgid "Confirmed"
 msgstr ""
 
 #: .es5/templates/security_events.mustache:5
@@ -1428,10 +1441,6 @@ msgstr "സജ്ജീകരണ വേളയിൽ നിങ്ങൾക്ക�
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "10 അക്ക വീണ്ടെടുക്കൽ കോഡ് നൽകുക"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "പരിശോധിക്കുക"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1652,12 +1661,8 @@ msgstr "രണ്ടാമത്തെ ഇമെയിൽ"
 msgid "Maybe later"
 msgstr ""
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr ""
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
@@ -2040,6 +2045,30 @@ msgstr "ഒരു അപ്ലിക്കേഷൻ ഉപയോഗിച്ച�
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Primary email verified"
+#~ msgstr "പ്രാഥമിക ഇമെയിൽ പരിശോധിച്ചുറപ്പുവരുത്തിയിരിക്കുന്നു"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "രണ്ടാം ഇമെയിൽ പരിശോധിച്ചുറപ്പുവരുത്തിയിരിക്കുന്നു"
+
+#~ msgid "Account verified"
+#~ msgstr "അക്കൗണ്ട് തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു"
+
+#~ msgid "Verification link expired"
+#~ msgstr "പരിശോധന ലിങ്ക് കാലഹരണപ്പെട്ടു"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "ഒരു പുതിയ പരിശോധനാ ലിങ്ക് ലഭിക്കുന്നതിന് ഇവിടെ ക്ലിക്കുചെയ്യുക"
+
+#~ msgid "Verification error"
+#~ msgstr "സ്ഥിരീകരണ പിശക്"
+
+#~ msgid "Email verified"
+#~ msgstr "ഇമെയിൽ പരിശോധിച്ചു"
+
+#~ msgid "Verify"
+#~ msgstr "പരിശോധിക്കുക"
 
 #~ msgid "Why is more than one device required?"
 #~ msgstr "എന്തുകൊണ്ട് ഒന്നിലധികം ഉപകരണങ്ങള്‍ ആവശ്യമാണ്?"

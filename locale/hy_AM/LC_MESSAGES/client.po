@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 22:12+0000\n"
 "PO-Revision-Date: 2022-04-27 00:21+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,16 +74,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Հիմա Ձեր Firefox-ի հաշվում կարող եք փոփոխություններ կատարել։"
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "Առաջնային էլ֊փոստը հաստատված է"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Հաշվի ծանուցումները այժմ կուղարկվեն նաև %(secondaryEmailVerified)s։"
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "Երկրորդային էլ֊փոստը հաստատված է"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,8 +94,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "Դուք այժմ կարող եք օգտագործել %(serviceName)s"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "Հաշիվը հատատվել է"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -217,9 +217,9 @@ msgstr "Ներբեռնվել է"
 msgid "Printed"
 msgstr "Տպվել է"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Հաշիվը հաջողությամբ հաստատվեց"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -285,6 +285,10 @@ msgstr "Առաջնային էլ֊փոստը հաջողությամբ հաստա�
 msgid "Secondary email verified successfully"
 msgstr "Երկրորդային էլ֊փոստը հաջողությամբ հաստատվեց"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Հաշիվը հաջողությամբ հաստատվեց"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Գաղտնաբառը հաջողությամբ վերատեղադրվեց"
@@ -297,7 +301,7 @@ msgstr "Հաշվի վերականգնումը միացվեց"
 msgid "Unexpected error"
 msgstr "Անսպասելի սխալ"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "Ձեր էլ֊փոստը հաստատելու համար սեղմված հղումը սպառվել է։"
 
@@ -606,7 +610,7 @@ msgstr "Մուտքագրեք վավեր էլփոստի հասցե։ firefox.com�
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox֊ի հաշիվները կարող են տեղադրվել միայն հաստատված կայքերի IFRAME֊ի մեջ"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "Վավերացման հղումը վնասվել է"
 
@@ -998,16 +1002,24 @@ msgid "Sign-in already confirmed"
 msgstr "Մուտքն արդեն հաստատվել է"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "Ստուգման հղումը լրացել է"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "Կտտացրեք այստեղ՝ նոր հաստատման հղում ստանալու համար։"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "Ստուգման սխալ"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1018,8 +1030,8 @@ msgid "Confirm this sign-in"
 msgstr "Հաստատեք այս մուտքը"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Ստուգեք ձեր Էլ․փոստը՝ուղարկված հաստատման հղման համար՝ուղարկված &nbsp; դեպի %(escapedEmail)s֊ի "
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1043,7 +1055,8 @@ msgstr "Ուղարկված էլ․Փոստը վերակայեք"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Հաջորդ ժամվա ընթացքում կտտացրեք %(email)s հասցեին ուղարկված հղմանը՝ նոր գաղտնաբառ ստեղծելու համար։"
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1060,8 +1073,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "Մուտքագրեք 6 նիշանոց կոդ"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Հաստատել"
 
@@ -1082,8 +1095,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Էլ․ փոստը հաստատված է"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1381,8 +1394,8 @@ msgid "Event Name"
 msgstr "Իրադարձության անվանումը"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "Ստուգված"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1433,10 +1446,6 @@ msgstr "Խնդրում ենք մուտքագրել վերականգնման կո
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "Մուտքագրեք վերականգնման 10 նիշանոց ծածկագիր"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "Հաստատել"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1659,13 +1668,9 @@ msgstr "Երկրորդային էլ֊փոստ"
 msgid "Maybe later"
 msgstr "Ավելի ուշ"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "Մուտքագրեք ստուգման կոդը"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Խնդրում ենք մուտքագրել այն հաստատման ծածկագիրը, որը ուղարկվել է %(escapedEmail)s֊ին 5 րոպեի ընթացքում։"
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -2048,6 +2053,42 @@ msgstr "Զուգավորում օգտագործելով ծածկագիրը"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Օգտագործե՞լ եք համակարգի ֆոտոխցիկը։Դուք պետք է զուգորդվեք  Firefox ծրագրի մեջ։"
+
+#~ msgid "Primary email verified"
+#~ msgstr "Առաջնային էլ֊փոստը հաստատված է"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Երկրորդային էլ֊փոստը հաստատված է"
+
+#~ msgid "Account verified"
+#~ msgstr "Հաշիվը հատատվել է"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Ստուգման հղումը լրացել է"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Կտտացրեք այստեղ՝ նոր հաստատման հղում ստանալու համար։"
+
+#~ msgid "Verification error"
+#~ msgstr "Ստուգման սխալ"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Ստուգեք ձեր Էլ․փոստը՝ուղարկված հաստատման հղման համար՝ուղարկված &nbsp; դեպի %(escapedEmail)s֊ի "
+
+#~ msgid "Email verified"
+#~ msgstr "Էլ․ փոստը հաստատված է"
+
+#~ msgid "Verified"
+#~ msgstr "Ստուգված"
+
+#~ msgid "Verify"
+#~ msgstr "Հաստատել"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Մուտքագրեք ստուգման կոդը"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "Խնդրում ենք մուտքագրել այն հաստատման ծածկագիրը, որը ուղարկվել է %(escapedEmail)s֊ին 5 րոպեի ընթացքում։"
 
 #~ msgid "Logins and Passwords"
 #~ msgstr "Մուտքանուններ և գաղտնաբառեր"

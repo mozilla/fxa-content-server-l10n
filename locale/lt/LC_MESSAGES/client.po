@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 22:12+0000\n"
 "PO-Revision-Date: 2021-07-30 09:19+0000\n"
 "Last-Translator: Paulius <paulius@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,16 +74,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Dabar galite atlikti „Firefox“ paskyros pakeitimus."
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "Pagrindinis el. paštas patvirtintas"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Paskyros pranešimai dabar taip pat bus siunčiami adresu %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "Antrinis el. paštas patvirtintas"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,8 +94,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "Galite pradėti naudotis „%(serviceName)s“"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "Paskyra patvirtinta"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -217,9 +217,9 @@ msgstr "Atsiųsta"
 msgid "Printed"
 msgstr "Atspausdinta"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Paskyra patvirtinta sėkmingai"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -285,6 +285,10 @@ msgstr "Pagrindinis el. paštas sėkmingai patvirtintas"
 msgid "Secondary email verified successfully"
 msgstr "Antrinis el. paštas sėkmingai patvirtintas"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Paskyra patvirtinta sėkmingai"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Slaptažodis atkurtas sėkmingai"
@@ -297,7 +301,7 @@ msgstr "Paskyros atkūrimas įjungtas"
 msgid "Unexpected error"
 msgstr "Netikėta klaida"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "El. pašto patvirtinimo saitas, kurį spaudėte, nebegalioja."
 
@@ -608,7 +612,7 @@ msgstr "Nurodykite veikiantį el. pašto adresą. firefox.com neteikia el. pašt
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "„Firefox“ paskyros gali būti talpinamos į „IFRAME“ rėmelį tik patvirtintose svetainėse"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "Patvirtinimo saitas sugadintas"
 
@@ -1000,16 +1004,24 @@ msgid "Sign-in already confirmed"
 msgstr "Šis prisijungimas jau patvirtintas"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "Patvirtinimo saito galiojimo laikas baigėsi"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "Spauskite čia, norėdami gauti naują patvirtinimo saitą"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "Patvirtinimo klaida"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1020,8 +1032,8 @@ msgid "Confirm this sign-in"
 msgstr "Patvirtinkite šį prisijungimą"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Pasitikrinkite paštą – patvirtinimo saitas išsiųstas adresu %(escapedEmail)s"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1045,7 +1057,8 @@ msgstr "Atkūrimo laiškas išsiųstas"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Kad pasikeistumėte slaptažodį, valandos bėgyje spustelėkite saitą, jums išsiųstą adresu %(email)s."
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1062,8 +1075,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "Įveskite šešių skaitmenų kodą"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Pavirtinti"
 
@@ -1084,8 +1097,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "El. pašto adresas patvirtintas"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1383,8 +1396,8 @@ msgid "Event Name"
 msgstr ""
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "Patvirtinta"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1435,10 +1448,6 @@ msgstr "Prašom įvesti konfigūravimo metu jums suteiktą atkūrimo kodą."
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "Įveskite dešimties skaitmenų atkūrimo kodą"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "Patvirtinti"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1659,12 +1668,8 @@ msgstr "Antrinis el. paštas"
 msgid "Maybe later"
 msgstr "Gal vėliau"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr ""
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
@@ -2047,6 +2052,36 @@ msgstr "Susieti naudojant programą"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Ar naudojote sistemos kamerą? Susieti privalote per „Firefox“ programą."
+
+#~ msgid "Primary email verified"
+#~ msgstr "Pagrindinis el. paštas patvirtintas"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Antrinis el. paštas patvirtintas"
+
+#~ msgid "Account verified"
+#~ msgstr "Paskyra patvirtinta"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Patvirtinimo saito galiojimo laikas baigėsi"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Spauskite čia, norėdami gauti naują patvirtinimo saitą"
+
+#~ msgid "Verification error"
+#~ msgstr "Patvirtinimo klaida"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Pasitikrinkite paštą – patvirtinimo saitas išsiųstas adresu %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "El. pašto adresas patvirtintas"
+
+#~ msgid "Verified"
+#~ msgstr "Patvirtinta"
+
+#~ msgid "Verify"
+#~ msgstr "Patvirtinti"
 
 #~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 #~ msgstr "Norintiems susikurti „Firefox“ paskyrą naudotojams taikomas amžiaus cenzas."

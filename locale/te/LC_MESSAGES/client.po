@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 22:12+0000\n"
 "PO-Revision-Date: 2022-04-29 15:31+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,16 +73,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "మీ Firefox ఖాతాలో మీరు ఇప్పుడు మార్పులు చేసుకోవచ్చు."
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "ప్రాథమిక ఇమెయిల్ ధృవీకరించబడింది"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "ఖాతా నోటిఫికేషన్లు కూడా ఇప్పుడు %(secondaryEmailVerified)s కు పంపబడతాయి."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "రెండవ ఇమెయిల్ తనిఖీ చేయబడింది"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -93,8 +93,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "మీరు ఇప్పుడు %(serviceName)s ఉపయోగించడానికి సిద్ధంగా ఉన్నారు"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "ఖాతా నిర్ధారణ అయ్యింది"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -216,9 +216,9 @@ msgstr "దింపుకోలు చేయబడింది"
 msgid "Printed"
 msgstr "ముద్రించబడింది"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "ఖాతా విజయవంతంగా నిర్ధారించబడింది"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -284,6 +284,10 @@ msgstr "ప్రాథమిక ఇమెయిల్ విజయవంతం�
 msgid "Secondary email verified successfully"
 msgstr "రెండవ ఈమెయిలు విజయవంతంగా తనిఖీ చేయబడింది"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "ఖాతా విజయవంతంగా నిర్ధారించబడింది"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "సంకేతపదపు రీసెట్ విజయవంతం"
@@ -296,7 +300,7 @@ msgstr "ఖాతా రికవరీ చేతనమైనది"
 msgid "Unexpected error"
 msgstr "ఊహించని దోషం"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "మీరు మీ ఇమెయిల్ ధ్రువీకరించడం క్లిక్ చేసిన లింక్ గడువు ముగిసింది."
 
@@ -605,7 +609,7 @@ msgstr "ఒక చెల్లుబాటు అయ్యే ఇమెయిల
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "ఫైర్ఫాక్స్ ఖాతాలను ఆమోదం సైట్లలో ఒక iframe లోకి ఉంచవచ్చు"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "ధృవీకరణ లింక్ దెబ్బతింది"
 
@@ -993,16 +997,24 @@ msgid "Sign-in already confirmed"
 msgstr "సైన్ ఇన్ ఇప్పటికే ధృవీకరించబడింది"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "ధ్రువీకరణ లింక్ గడువు ముగిసింది"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "కొత్త ధృవీకరణ లింక్ను అందుకుంటారు ఇక్కడ క్లిక్ చేయండి"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "ధ్రువీకరణ లోపం"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1013,8 +1025,8 @@ msgid "Confirm this sign-in"
 msgstr "ఈ ప్రవేశాన్ని నిర్ధారించండి"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "పంపిన ధృవీకరణ లింక్ కోసం మీ ఇమెయిల్ను తనిఖీ చేయండి & nbsp; కు%(escapedEmail)s"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1038,7 +1050,8 @@ msgstr "రీసెట్ ఇమెయిల్ పంపబడింది"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1055,8 +1068,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "6-అంకెల సంకేతాన్ని ఇవ్వండి"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "నిర్ధారించు"
 
@@ -1077,8 +1090,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "ఈమెయిలు తనిఖీ చేయబడింది"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1376,7 +1389,7 @@ msgid "Event Name"
 msgstr "సంఘటన పేరు"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
+msgid "Confirmed"
 msgstr ""
 
 #: .es5/templates/security_events.mustache:5
@@ -1428,10 +1441,6 @@ msgstr "అమర్పు సమయంలో మీకు అందించి
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "10-అంకెల రికవరీ సంకేతాన్ని ఇవ్వండి"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "ధృవీకరించండి"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1652,12 +1661,8 @@ msgstr "రెండవ ఈమెయిలు"
 msgid "Maybe later"
 msgstr "బహుశా తర్వాత"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr ""
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
@@ -2040,6 +2045,33 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Primary email verified"
+#~ msgstr "ప్రాథమిక ఇమెయిల్ ధృవీకరించబడింది"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "రెండవ ఇమెయిల్ తనిఖీ చేయబడింది"
+
+#~ msgid "Account verified"
+#~ msgstr "ఖాతా నిర్ధారణ అయ్యింది"
+
+#~ msgid "Verification link expired"
+#~ msgstr "ధ్రువీకరణ లింక్ గడువు ముగిసింది"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "కొత్త ధృవీకరణ లింక్ను అందుకుంటారు ఇక్కడ క్లిక్ చేయండి"
+
+#~ msgid "Verification error"
+#~ msgstr "ధ్రువీకరణ లోపం"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "పంపిన ధృవీకరణ లింక్ కోసం మీ ఇమెయిల్ను తనిఖీ చేయండి & nbsp; కు%(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "ఈమెయిలు తనిఖీ చేయబడింది"
+
+#~ msgid "Verify"
+#~ msgstr "ధృవీకరించండి"
 
 #~ msgid "Logins and Passwords"
 #~ msgstr "ప్రవేశాలు, సంకేతపదాలు"

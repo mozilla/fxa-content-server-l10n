@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 22:12+0000\n"
 "PO-Revision-Date: 2021-07-27 16:29+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,16 +73,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Sada možeš promijeniti svoj Firefox račun."
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "Primarna adresa e-pošte je potvrđena"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Obavijesti o računu sada će se slati i na %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "Sekundarna adresa e-pošte je potvrđena"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -93,8 +93,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "Sada možeš koristiti %(serviceName)s"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "Račun je potvrđen"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -216,9 +216,9 @@ msgstr "Preuzeto"
 msgid "Printed"
 msgstr "Ispisano"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Račun je uspješno potvrđen"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -284,6 +284,10 @@ msgstr "Primarna e-pošta uspješno je potvrđena"
 msgid "Secondary email verified successfully"
 msgstr "Sekundarna e-pošta uspješno je potvrđena"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Račun je uspješno potvrđen"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Lozinka je uspješno ponovno postavljena"
@@ -296,7 +300,7 @@ msgstr "Oporavak računa je omogućen"
 msgid "Unexpected error"
 msgstr "Neočekivana greška"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "Pritisnuta poveznica za potvrdu e-pošte je istekla."
 
@@ -605,7 +609,7 @@ msgstr "Unesite ispravnu adresu e-pošte. firefox.com ne nudi e-poštu."
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Account se može postaviti u IFRAME samo na odobrenim web lokacijama"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "Poveznica za potvrdu je oštećena"
 
@@ -997,16 +1001,24 @@ msgid "Sign-in already confirmed"
 msgstr "Prijava je već potvrđena"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "Poveznica za potvrdu je istekla"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "Pritisni ovdje za primanje nove poveznice za potvrdu"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "Greška tijekom potvrđivanja"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1017,8 +1029,8 @@ msgid "Confirm this sign-in"
 msgstr "Potvrdi ovu prijavu"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Provjerite svoju e-poštu za poveznicu za provjeru poslanu&nbsp;na %(escapedEmail)s"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1042,7 +1054,8 @@ msgstr "Poslana je e-pošta za ponovno postavljanje"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Kliknite na poveznicu poslanu na %(email)s unutar sat vremena kako biste stvorili novu lozinku."
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1059,8 +1072,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "Upiši šesteroznamenkasti kȏd"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Potvrdi"
 
@@ -1081,8 +1094,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "E-pošta je potvrđena"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1380,8 +1393,8 @@ msgid "Event Name"
 msgstr "Naziv događaja"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "Potvrđeno"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1432,10 +1445,6 @@ msgstr "Upiši kȏd za obnavljanje, koji je bio dostavljen tijekom postavljanja.
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "Upiši deseteroznamenkasti kȏd za oporavak"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "Potvrdi"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1656,13 +1665,9 @@ msgstr "Sekundarna adresa e-pošte"
 msgid "Maybe later"
 msgstr "Možda kasnije"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "Upiši kȏd za potvrdu"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Upiši kȏd za potvrdu koji je poslan na %(escapedEmail)s, u idućih 5 minuta."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -2044,6 +2049,42 @@ msgstr "Upari pomoću aplikacije"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Je li koristiš kameru sustava? Upariti moraš iz Firefox aplikacije."
+
+#~ msgid "Primary email verified"
+#~ msgstr "Primarna adresa e-pošte je potvrđena"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Sekundarna adresa e-pošte je potvrđena"
+
+#~ msgid "Account verified"
+#~ msgstr "Račun je potvrđen"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Poveznica za potvrdu je istekla"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Pritisni ovdje za primanje nove poveznice za potvrdu"
+
+#~ msgid "Verification error"
+#~ msgstr "Greška tijekom potvrđivanja"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Provjerite svoju e-poštu za poveznicu za provjeru poslanu&nbsp;na %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "E-pošta je potvrđena"
+
+#~ msgid "Verified"
+#~ msgstr "Potvrđeno"
+
+#~ msgid "Verify"
+#~ msgstr "Potvrdi"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Upiši kȏd za potvrdu"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "Upiši kȏd za potvrdu koji je poslan na %(escapedEmail)s, u idućih 5 minuta."
 
 #~ msgid "Logins and Passwords"
 #~ msgstr "Prijave i lozinke"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 22:12+0000\n"
 "PO-Revision-Date: 2022-08-04 17:49+0000\n"
 "Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,16 +74,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Firefox Account를 변경할 수 있는 준비가 다 되었습니다."
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "기본 이메일 검증됨"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "계정 알림은 이제 %(secondaryEmailVerified)s로도 보내집니다."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "보조 이메일 검증됨"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,8 +94,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s를 지금부터 사용할 수 있습니다."
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "계정 검증됨"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -217,9 +217,9 @@ msgstr "다운로드됨"
 msgid "Printed"
 msgstr "인쇄됨"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "계정 검증 성공"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -285,6 +285,10 @@ msgstr "기본 이메일 검증 성공"
 msgid "Secondary email verified successfully"
 msgstr "보조 이메일 검증 성공"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "계정 검증 성공"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "비밀번호 재설정 성공"
@@ -297,7 +301,7 @@ msgstr "계정 복구를 사용합니다"
 msgid "Unexpected error"
 msgstr "알 수 없는 오류"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "클릭하신 이메일 검증 링크가 만료되었습니다."
 
@@ -606,7 +610,7 @@ msgstr "올바른 이메일 주소를 입력해 주세요. firefox.com은 이메
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 계정은 승인된 웹 사이트의 IFRAME 에만 위치할 수 있습니다"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "검증 링크가 손상됨"
 
@@ -996,16 +1000,24 @@ msgid "Sign-in already confirmed"
 msgstr "이 로그인은 이미 승인됨"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "검증 링크가 만료됨"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "새 검증 링크를 받으려면 여기를 클릭하세요"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "검증 오류"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1016,8 +1028,8 @@ msgid "Confirm this sign-in"
 msgstr "로그인 확인"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "%(escapedEmail)s(으)로 전송된 검증 링크를 확인하세요"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1041,7 +1053,8 @@ msgstr "이메일 전송 재설정"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "새로운 비밀번호를 생성을 위해 %(email)s 이메일로 보낸 링크를 한 시간 이내에 클릭하세요."
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1058,8 +1071,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "6자리 숫자 코드 입력"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "확인"
 
@@ -1080,8 +1093,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "이메일 검증됨"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1379,8 +1392,8 @@ msgid "Event Name"
 msgstr "이벤트명"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "검증됨"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1431,10 +1444,6 @@ msgstr "설정하는동안 제공된 복구 코드를 입력하세요."
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "10자리 숫자 복구 코드 입력"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "검증"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1655,13 +1664,9 @@ msgstr "보조 이메일"
 msgid "Maybe later"
 msgstr "나중에요"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "검증 코드를 입력하세요"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "5분 이내에 %(escapedEmail)s로 전송된 검증 코드를 입력하세요."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -2043,6 +2048,42 @@ msgstr "앱으로 페어링"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "기본 카메라를 쓰셨습니까? Firefox 앱 안의 카메라로 페어링해야 합니다."
+
+#~ msgid "Primary email verified"
+#~ msgstr "기본 이메일 검증됨"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "보조 이메일 검증됨"
+
+#~ msgid "Account verified"
+#~ msgstr "계정 검증됨"
+
+#~ msgid "Verification link expired"
+#~ msgstr "검증 링크가 만료됨"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "새 검증 링크를 받으려면 여기를 클릭하세요"
+
+#~ msgid "Verification error"
+#~ msgstr "검증 오류"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "%(escapedEmail)s(으)로 전송된 검증 링크를 확인하세요"
+
+#~ msgid "Email verified"
+#~ msgstr "이메일 검증됨"
+
+#~ msgid "Verified"
+#~ msgstr "검증됨"
+
+#~ msgid "Verify"
+#~ msgstr "검증"
+
+#~ msgid "Enter verification code"
+#~ msgstr "검증 코드를 입력하세요"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "5분 이내에 %(escapedEmail)s로 전송된 검증 코드를 입력하세요."
 
 #~ msgid "Logins and Passwords"
 #~ msgstr "로그인과 비밀번호"

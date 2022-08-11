@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 22:12+0000\n"
 "PO-Revision-Date: 2022-05-03 06:46+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,16 +74,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "আপনি আপনার Firefox Account এ পরিবর্তনের জন্য প্রস্তুত।"
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "প্রধান ইমেইল যাচাই করা হয়েছে"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "অ্যাকাউন্টের নোটিফিকেশন এখন থেকে %(secondaryEmailVerified)s এ পাঠানো হবে।"
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "দ্বিতীয় ইমেইল যাচাই করা হয়েছে"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,8 +94,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)sটি ব্যবহার করতে আপনি এখন প্রস্তুত"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "যাচাইকৃত একাউন্ট"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -217,9 +217,9 @@ msgstr "ডাউনলোড হয়েছে"
 msgid "Printed"
 msgstr "মুদ্রিত হয়েছে"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "অ্যাকাউন্ট যাচাই সফল হয়েছে"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -285,6 +285,10 @@ msgstr "প্রাথমিক ইমেইল সফলভাবে যাচ
 msgid "Secondary email verified successfully"
 msgstr "মাধ্যমিক ইমেইল সফলভাবে যাচাই হয়েছে"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "অ্যাকাউন্ট যাচাই সফল হয়েছে"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "সফলভাবে পাসওয়ার্ড রিসেট হয়েছে"
@@ -297,7 +301,7 @@ msgstr "অ্যাকাউন্ট পুনরুদ্ধার সক্�
 msgid "Unexpected error"
 msgstr "অপ্রত্যাশিত ত্রুটি"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "আপনার ক্লিক করা ইমেইল যাচাই করার লিঙ্কটি মেয়াদ উত্তীর্ণ"
 
@@ -606,7 +610,7 @@ msgstr "সঠিক ইমেইল ঠিকানা দিন। firefox.com
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts শুধুমাত্র একটি অনুমোদিত সাইটে IFRAME রাখতে পারে"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "যাচাইকরণ লিঙ্কটি ক্ষতিগ্রস্থ"
 
@@ -995,16 +999,24 @@ msgid "Sign-in already confirmed"
 msgstr "ইতোমধ্যে সাইন-ইন নিশ্চিত হয়েছে"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "মেয়াদ উত্তীর্ণ যাচাইকরণ লিঙ্ক"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "নতুন যাচাইকরণ লিঙ্ক পেতে এখানে ক্লিক করুন"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "যাচাইকরনে ভুল হয়েছে"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1015,8 +1027,8 @@ msgid "Confirm this sign-in"
 msgstr "সাইন-ইনটি নিশ্চিত করুন"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "যাচাইকরণ লিঙ্ক পেতে আপনার&nbsp; ইমেইল %(escapedEmail)s দেখুন"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1040,7 +1052,8 @@ msgstr "রিসেট করার ইমেইল পাঠানো হয়�
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1057,8 +1070,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "6-ডিজিটের কোড দিন"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "নিশ্চিত"
 
@@ -1079,8 +1092,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "ইমেইল যাচাই সম্পূর্ণ"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1378,8 +1391,8 @@ msgid "Event Name"
 msgstr "ইভেন্টের নাম"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "যাচাইকৃত"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1430,10 +1443,6 @@ msgstr "দয়া করে একটি পুনরুদ্ধার ক�
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "10-সংখ্যার পুনরুদ্ধার কোড লিখুন"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "যাচাই"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1654,12 +1663,8 @@ msgstr "সেকেন্ডারি ইমেইল"
 msgid "Maybe later"
 msgstr "পরে হতে পারে"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "যাচাইকরণ কোডটি প্রদান করুন"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
@@ -2042,6 +2047,39 @@ msgstr "একটি অ্যাপ ব্যবহার করে যুক�
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "আপনি কি সিস্টেম ক্যামেরা ব্যবহার করেছেন? আপনার অবশ্যই একটি Firefox অ্যাপের মধ্যে থেকে যুক্ত হতে হবে।"
+
+#~ msgid "Primary email verified"
+#~ msgstr "প্রধান ইমেইল যাচাই করা হয়েছে"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "দ্বিতীয় ইমেইল যাচাই করা হয়েছে"
+
+#~ msgid "Account verified"
+#~ msgstr "যাচাইকৃত একাউন্ট"
+
+#~ msgid "Verification link expired"
+#~ msgstr "মেয়াদ উত্তীর্ণ যাচাইকরণ লিঙ্ক"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "নতুন যাচাইকরণ লিঙ্ক পেতে এখানে ক্লিক করুন"
+
+#~ msgid "Verification error"
+#~ msgstr "যাচাইকরনে ভুল হয়েছে"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "যাচাইকরণ লিঙ্ক পেতে আপনার&nbsp; ইমেইল %(escapedEmail)s দেখুন"
+
+#~ msgid "Email verified"
+#~ msgstr "ইমেইল যাচাই সম্পূর্ণ"
+
+#~ msgid "Verified"
+#~ msgstr "যাচাইকৃত"
+
+#~ msgid "Verify"
+#~ msgstr "যাচাই"
+
+#~ msgid "Enter verification code"
+#~ msgstr "যাচাইকরণ কোডটি প্রদান করুন"
 
 #~ msgid "Logins and Passwords"
 #~ msgstr "লগইন ও পাসওয়ার্ড"
