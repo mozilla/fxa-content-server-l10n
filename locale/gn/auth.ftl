@@ -192,6 +192,9 @@ downloadSubscription-content-2 = Ñañepyrũkatu jaipuru opaite tembiapoite oik�
 downloadSubscription-link-action-2 = Jeguata Ñepyrũ
 fraudulentAccountDeletion-subject = Nde { -product-firefox-account } oñemboguéma
 fraudulentAccountDeletion-title = Ne mba’ete oñemboguéma
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore aty pytyvõha ndive: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Sa’íma opyta ayvu erukuaajeýva
 codes-reminder-description = Rohechakuaa opytaha ndéve sa’íma ayvu jeguerujeyrã. Ikatúramo emoheñoijey ayvu pyahu emboyke hag̃ua apañuãi eikekuévo ne mba’etépe.
