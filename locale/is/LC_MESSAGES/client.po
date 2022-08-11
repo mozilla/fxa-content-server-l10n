@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 23:29+0000\n"
 "PO-Revision-Date: 2022-08-11 12:08+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,16 +74,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Núna geturðu farið að gera breytingar á Firefox-reikningnum þínum."
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "Aðalpóstfang staðfest"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Tilkynningar varðandi reikninga verða einnig sendar á %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "Aukapóstfang staðfest"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,8 +94,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "Nú geturðu farið að nota %(serviceName)s"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "Reikningur staðfestur"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -219,9 +219,9 @@ msgstr "Sótt"
 msgid "Printed"
 msgstr "Prentað"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Tókst að staðfesta reikning"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -287,6 +287,10 @@ msgstr "Tókst að staðfesta aðalpóstfang"
 msgid "Secondary email verified successfully"
 msgstr "Tókst að staðfesta aukapóstfang"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Tókst að staðfesta reikning"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Það tókst að endurstilla lykilorð"
@@ -299,7 +303,7 @@ msgstr "Endurheimting reiknings er virk"
 msgid "Unexpected error"
 msgstr "Óvænt villa"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "Tengillinn sem þú smelltir á til að staðfesta tölvupóstfangið þitt er útrunninn."
 
@@ -608,7 +612,7 @@ msgstr "Sláðu inn rétt tölvupóstfang. firefox.com býður ekki upp á tölv
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Aðeins er hægt að setja Firefox-reikninga inn í IFRAME á samþykktum vefsvæðum"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "Staðfestingartengill er skemmdur"
 
@@ -841,7 +845,9 @@ msgid "Invalid Token"
 msgstr "Ógilt teikn"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Með því að halda áfram samþykkir þú <a id=\"service-tos\" href=\"%(termsUri)s\">þjónustuskilmála</a> og <a id=\"service-pp\" href=\"%(privacyUri)s\">persónuverndarstefnu</a> frá %(serviceName)s "
 "(%(serviceUri)s)."
@@ -912,7 +918,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Settu inn eins-skiptis-notkunar endurheimtulykilinn sem þú geymir á vísum stað til að fá aftur aðgang að Firefox-reikningnum þínum."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ATHUGAÐU:</span> Ef þú endurstillir lykilorðið þitt og ert ekki með endurheimtulykil vistaðan á vísum stað, verður sumum gögnum þínum eytt (meðal annars samstillt gögn á "
 "netþjóni á borð við vafurferil og bókamerki)."
@@ -971,9 +978,9 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>MUNDU:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og lykilorðum)."
-" Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein áhrif á "
-"gögn í  Pocket."
+"<span>MUNDU:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og "
+"lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa "
+"nein áhrif á gögn í  Pocket."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1000,16 +1007,24 @@ msgid "Sign-in already confirmed"
 msgstr "Innskráning hefur þegar verið staðfest"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "Staðfestingartengill er útrunninn"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "Smelltu hér til að fá nýjan staðfestingartengil"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "Villa í staðfestingu"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1020,8 +1035,8 @@ msgid "Confirm this sign-in"
 msgstr "Staðfestu þessa innskráningu"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Skoðaðu tölvupóstinn þinn hvort staðfestingartengillinn sem sendur var á %(escapedEmail)s hafi borist"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1045,7 +1060,8 @@ msgstr "Endurstillingarpóstur sendur"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Smelltu innan klukkustundar á tengilinn sem var sendur í tölvupósti á %(email)s til að útbúa nýtt lykilorð."
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr "Settu inn staðfestingarkóða"
 
@@ -1062,8 +1078,8 @@ msgstr "Settu inn staðfestingarkóðann sem sendur var til %(escapedEmail)s inn
 msgid "Enter 6-digit code"
 msgstr "Settu inn 6-stafa kóða"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Staðfesta"
 
@@ -1084,8 +1100,8 @@ msgid "Firefox account connected"
 msgstr "Firefox-reikningur tengdur"
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Tölvupóstfang staðfest"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1154,8 +1170,11 @@ msgid "Password"
 msgstr "Lykilorð"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Með því að halda áfram samþykkir þú <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">þjónustuskilmálana</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">persónuverndarstefnu</a> okkar."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Með því að halda áfram samþykkir þú <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">þjónustuskilmálana</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy"
+"\">persónuverndarstefnu</a> okkar."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1364,8 +1383,8 @@ msgid ""
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
 "<span>ATHUGAÐU:</span> Þegar þú endurstillir lykilorðið þitt, endurstillir þú reikninginn þinn. Þú gætir tapað einhverjum persónulegum upplýsingum (þar með talið vafurferli, bókamerkjum og "
-"lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa nein"
-" áhrif á gögn í  Pocket."
+"lykilorðum). Það gerist vegna þess að við dulritum gögnin þín með lykilorðinu þínu til að vernda friðhelgi þína. Þú munt samt halda öllum áskriftum sem þú gætir verið með og þetta mun ekki hafa "
+"nein áhrif á gögn í  Pocket."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1388,8 +1407,8 @@ msgid "Event Name"
 msgstr "Heiti atviks"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "Staðfest"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1423,14 +1442,17 @@ msgstr "Ert þú ekki lengur með þetta tölvupóstfang? Búðu til nýjan aðg
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "               Með því að halda áfram samþykkir þú:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">persónuverndarstefnu</a> Pocket<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">þjónustuskilmála</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">persónuverndarstefnu</a> fyrir Firefox.\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/"
+"\">persónuverndarstefnu</a> Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">þjónustuskilmála</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">persónuverndarstefnu</a> fyrir "
+"Firefox.\n"
 "           "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1444,10 +1466,6 @@ msgstr "Settu inn endurheimtukóða sem þér var gefinn á meðan uppsetningu s
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "Settu inn 10-stafa endurheimtukóða"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "Sannreyna"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1525,14 +1543,17 @@ msgstr "Stofna notandaaðgang"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "               Með því að halda áfram samþykkir þú:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">persónuverndarstefnu</a> Pocket<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">þjónustuskilmála</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">persónuverndarstefnu</a> fyrir Firefox.\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/"
+"\">persónuverndarstefnu</a> Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">þjónustuskilmála</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">persónuverndarstefnu</a> fyrir "
+"Firefox.\n"
 "           "
 
 #: .es5/templates/support.mustache:1
@@ -1672,13 +1693,9 @@ msgstr "Auka-tölvupóstur"
 msgid "Maybe later"
 msgstr "Kannski síðar"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "Settu inn staðfestingarkóða"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Settu inn staðfestingarkóðann sem sendur var til %(escapedEmail)s innan 5 mínútna."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -2066,6 +2083,42 @@ msgstr "Para með forriti"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Notaðirðu myndavél stýrikerfisins? Þú verður að para innan úr Firefox-forritinu."
 
+#~ msgid "Primary email verified"
+#~ msgstr "Aðalpóstfang staðfest"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Aukapóstfang staðfest"
+
+#~ msgid "Account verified"
+#~ msgstr "Reikningur staðfestur"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Staðfestingartengill er útrunninn"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Smelltu hér til að fá nýjan staðfestingartengil"
+
+#~ msgid "Verification error"
+#~ msgstr "Villa í staðfestingu"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Skoðaðu tölvupóstinn þinn hvort staðfestingartengillinn sem sendur var á %(escapedEmail)s hafi borist"
+
+#~ msgid "Email verified"
+#~ msgstr "Tölvupóstfang staðfest"
+
+#~ msgid "Verified"
+#~ msgstr "Staðfest"
+
+#~ msgid "Verify"
+#~ msgstr "Sannreyna"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Settu inn staðfestingarkóða"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "Settu inn staðfestingarkóðann sem sendur var til %(escapedEmail)s innan 5 mínútna."
+
 #~ msgid "Logins and Passwords"
 #~ msgstr "Innskráning og lykilorð"
 
@@ -2096,13 +2149,15 @@ msgstr "Notaðirðu myndavél stýrikerfisins? Þú verður að para innan úr F
 #~ msgid ""
 #~ "\n"
 #~ "              By proceeding, you agree to:<br />\n"
-#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
 #~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 #~ "            "
 #~ msgstr ""
 #~ "\n"
 #~ "               Með því að halda áfram samþykkir þú:<br />\n"
-#~ "              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">persónuverndarstefnu</a> Pocket<br />\n"
+#~ "              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">persónuverndarstefnu</a> "
+#~ "Pocket<br />\n"
 #~ "              <a id=\"fxa-tos\" href=\"/legal/terms\">þjónustuskilmála</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">persónuverndarstefnu</a> fyrir Firefox.\n"
 #~ "           "
 
@@ -2124,7 +2179,8 @@ msgstr "Notaðirðu myndavél stýrikerfisins? Þú verður að para innan úr F
 #~ msgstr ""
 #~ "\n"
 #~ "               Með því að halda áfram samþykkir þú:<br />\n"
-#~ "              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">persónuverndarstefnu</a> Pocket<br />\n"
+#~ "              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">þjónustuskilmála</a> og <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">persónuverndarstefnu</a> "
+#~ "Pocket<br />\n"
 #~ "              <a id=\"fxa-tos\" href=\"/legal/terms\">þjónustuskilmála</a> og <a id=\"fxa-pp\" href=\"/legal/privacy\">persónuverndarstefnu</a> fyrir Firefox.\n"
 #~ "           "
 

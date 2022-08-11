@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 23:29+0000\n"
 "PO-Revision-Date: 2022-04-04 23:20+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,16 +74,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Tani jeni gati të bëni ndryshime te Llogaria juaj Firefox."
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "Email-i parësor u verifikua"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Njoftimet për llogarinë do të dërgohen edhe te %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "Email-i dytësor u verifikua"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,8 +94,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "Tani jeni gati të përdorni %(serviceName)s"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "Llogaria u verifikua"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -220,9 +220,9 @@ msgstr "U shkarkua"
 msgid "Printed"
 msgstr "U shtyp"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Llogaria u verifikua me sukses"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -288,6 +288,10 @@ msgstr "Email-i parësor u verifikua me sukses"
 msgid "Secondary email verified successfully"
 msgstr "Email-i dytësor u verifikua me sukses"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Llogaria u verifikua me sukses"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Fjalëkalimi u ricaktua me sukses"
@@ -300,7 +304,7 @@ msgstr "U aktivizua rikthim llogarie"
 msgid "Unexpected error"
 msgstr "Gabim i papritur"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "Lidhja që klikuat për verifikimin e email-it tuaj ka skaduar."
 
@@ -618,7 +622,7 @@ msgstr "Jepni një adresë email të vlefshme. firefox.com nuk ofron email."
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Llogaritë Firefox mund të vendosen vetëm brenda një IFRAME në sajte të miratuar"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "Lidhja për verifikimin është e dëmtuar"
 
@@ -1046,16 +1050,24 @@ msgid "Sign-in already confirmed"
 msgstr "Hyrje tashmë e ripohuar"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "Lidhja për verifikimin skadoi"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "Klikoni këtu që të merrni një lidhje të re verifikimi"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "Gabim verifikimi"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1066,8 +1078,8 @@ msgid "Confirm this sign-in"
 msgstr "Ripohoni këtë hyrje"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Kontrolloni email-in tuaj për një lidhje verifikimi dërguar&nbsp;për %(escapedEmail)s"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1091,7 +1103,8 @@ msgstr "Email-i për ricaktim u dërgua"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Për të krijuar një fjalëkalim të ri, klikoni mbi lidhjen që u dërgua me email te %(email)s brenda orës që vjen."
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1108,8 +1121,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "Jepni kodin 6-shifror"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Ripohojeni"
 
@@ -1130,8 +1143,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Email-i u verifikua"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1432,8 +1445,8 @@ msgid "Event Name"
 msgstr "Emër Akti"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "U verifikua"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1484,10 +1497,6 @@ msgstr "Ju lutemi, jepni një kod rikthimi që ju qe dhënë gjatë rregullimit 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "Jepni kod 10-shifror rikthimi"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "Verifikoje"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1708,13 +1717,9 @@ msgstr "Email dytësor"
 msgid "Maybe later"
 msgstr "Ndoshta më vonë"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "Jepni kodin e verifikimit"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Ju lutemi, jepni brenda 5 minutash kodin e verifikimit që u dërgua te %(escapedEmail)s."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -2098,6 +2103,42 @@ msgstr "Çiftoji duke përdorur një aplikacion"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda aplikacionit Firefox."
+
+#~ msgid "Primary email verified"
+#~ msgstr "Email-i parësor u verifikua"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Email-i dytësor u verifikua"
+
+#~ msgid "Account verified"
+#~ msgstr "Llogaria u verifikua"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Lidhja për verifikimin skadoi"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Klikoni këtu që të merrni një lidhje të re verifikimi"
+
+#~ msgid "Verification error"
+#~ msgstr "Gabim verifikimi"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Kontrolloni email-in tuaj për një lidhje verifikimi dërguar&nbsp;për %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "Email-i u verifikua"
+
+#~ msgid "Verified"
+#~ msgstr "U verifikua"
+
+#~ msgid "Verify"
+#~ msgstr "Verifikoje"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Jepni kodin e verifikimit"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "Ju lutemi, jepni brenda 5 minutash kodin e verifikimit që u dërgua te %(escapedEmail)s."
 
 #~ msgid "Logins and Passwords"
 #~ msgstr "Kredenciale Hyrjesh dhe Fjalëkalime"

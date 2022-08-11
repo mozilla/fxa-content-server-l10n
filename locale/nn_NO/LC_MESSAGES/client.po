@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 23:29+0000\n"
 "PO-Revision-Date: 2022-06-27 13:24+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,16 +73,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Du er no klar for å gjere endringar i Firefox-kontoen din."
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "Primær e-postadresse stadfesta"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Kontovarsel vil no også bli sendt til %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "Sekundær e-postadresse stadfesta"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -93,8 +93,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "Du kan no bruke %(serviceName)s"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "Konto stadfesta"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -216,9 +216,9 @@ msgstr "Nedlasta"
 msgid "Printed"
 msgstr "Skrive ut"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Kontoen er stadfesta"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -284,6 +284,10 @@ msgstr "Primær e-postadresse stadfesta"
 msgid "Secondary email verified successfully"
 msgstr "Sekundær e-postadresse stadfesta"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Kontoen er stadfesta"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Passordet er tilbakestilt"
@@ -296,7 +300,7 @@ msgstr "Kontogjenoppretting aktivert"
 msgid "Unexpected error"
 msgstr "Uventa feil"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "Lenka du trykte på for å verifisere e-postadressa di har gått ut."
 
@@ -605,7 +609,7 @@ msgstr "Skriv inn ei gyldig e-postadresse. firefox.com tilbyr ikkje e-post."
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox-kontoar kan berre plasserast i ei IFRAME på godkjende nettsider"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "Stadfestingslenka er skada"
 
@@ -996,16 +1000,24 @@ msgid "Sign-in already confirmed"
 msgstr "Innlogging allereie stadfesta"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "Stadfestingslenka har gått ut"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "Trykk her for å få ei ny verifiseringslenke"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "Stadfestingsfeil"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1016,8 +1028,8 @@ msgid "Confirm this sign-in"
 msgstr "Stadfest denne innlogginga"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Sjekk e-posten din for stadfestingslenka som er sendt&nbsp;til %(escapedEmail)s"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1041,7 +1053,8 @@ msgstr "E-post for tilbakestilling er sendt"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Klikk på lenka som er sendt til %(email)s i løpet av den neste timen, for å lage eit nytt passord."
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1058,8 +1071,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "Skriv inn 6-sifra kode"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Stadfest"
 
@@ -1080,8 +1093,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "E-post stadfesta"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1379,8 +1392,8 @@ msgid "Event Name"
 msgstr "Hendingsnamn"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "Stadfesta"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1431,10 +1444,6 @@ msgstr "Tast inn en gjenopprettingskoden som du fekk under installeringa."
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "Skriv inn 10-sifra gjenopprettingskode"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "Verifiser"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1655,13 +1664,9 @@ msgstr "Sekundær e-postadresse"
 msgid "Maybe later"
 msgstr "Kanskje seinare"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "Skriv inn stadfestingskode"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Skriv inn stadfestingskoden som vart sendt til %(escapedEmail)s innan 5 minutt."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -2043,6 +2048,42 @@ msgstr "Paring via ein app"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Brukte du systemkameraet? Du må pare ved hjelp av ein Firefox-app."
+
+#~ msgid "Primary email verified"
+#~ msgstr "Primær e-postadresse stadfesta"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Sekundær e-postadresse stadfesta"
+
+#~ msgid "Account verified"
+#~ msgstr "Konto stadfesta"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Stadfestingslenka har gått ut"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Trykk her for å få ei ny verifiseringslenke"
+
+#~ msgid "Verification error"
+#~ msgstr "Stadfestingsfeil"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Sjekk e-posten din for stadfestingslenka som er sendt&nbsp;til %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "E-post stadfesta"
+
+#~ msgid "Verified"
+#~ msgstr "Stadfesta"
+
+#~ msgid "Verify"
+#~ msgstr "Verifiser"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Skriv inn stadfestingskode"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "Skriv inn stadfestingskoden som vart sendt til %(escapedEmail)s innan 5 minutt."
 
 #~ msgid "Logins and Passwords"
 #~ msgstr "Innloggingar og passord"

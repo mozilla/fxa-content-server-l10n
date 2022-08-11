@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 23:29+0000\n"
 "PO-Revision-Date: 2022-07-19 05:16+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,16 +74,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "您已准备好更改您的 Firefox 账号。"
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "主邮箱已验证"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "账户通知现也在将发送到 %(secondaryEmailVerified)s。"
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "备用邮箱已验证"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,8 +94,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "您已经可以使用 %(serviceName)s 了"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "账户已验证"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -218,9 +218,9 @@ msgstr "已下载"
 msgid "Printed"
 msgstr "已打印"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "账户验证成功"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -286,6 +286,10 @@ msgstr "主邮箱地址验证成功"
 msgid "Secondary email verified successfully"
 msgstr "备用邮箱地址验证成功"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "账户验证成功"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "密码重置成功"
@@ -298,7 +302,7 @@ msgstr "账户救援已启用"
 msgid "Unexpected error"
 msgstr "意外错误"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "您点击的重置密码验证链接已过期。"
 
@@ -607,7 +611,7 @@ msgstr "请输入一个有效的邮箱地址。firefox.com 不提供电子邮件
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 账户网站只允许在经过授权的网站上被放入 IFRAME"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "验证链接损坏"
 
@@ -997,16 +1001,24 @@ msgid "Sign-in already confirmed"
 msgstr "登录已确认"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "验证链接已过期"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "点击这里接收新的验证链接"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "验证错误"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1017,8 +1029,8 @@ msgid "Confirm this sign-in"
 msgstr "确认此登录"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "检查您的电子邮箱，验证链接已发送到 %(escapedEmail)s"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1042,7 +1054,8 @@ msgstr "已发送重置邮件"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "请在一小时内点击发送到 %(email)s 的链接以创建新密码。"
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1059,8 +1072,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "请输入 6 位验证码"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "确认"
 
@@ -1081,8 +1094,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "邮箱已验证"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1382,8 +1395,8 @@ msgid "Event Name"
 msgstr "活动名称"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "已验证"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1434,10 +1447,6 @@ msgstr "请输入设置期间提供给您的救援码。"
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "请输入 10 位救援码"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "验证"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1658,13 +1667,9 @@ msgstr "备用邮箱"
 msgid "Maybe later"
 msgstr "以后再说"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "请输入验证码"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "请在 5 分钟内输入发送到 %(escapedEmail)s 的验证码。"
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -2046,6 +2051,42 @@ msgstr "请使用应用程序配对"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "您用的是系统相机？配对必须通过 Firefox 应用程序扫码完成。"
+
+#~ msgid "Primary email verified"
+#~ msgstr "主邮箱已验证"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "备用邮箱已验证"
+
+#~ msgid "Account verified"
+#~ msgstr "账户已验证"
+
+#~ msgid "Verification link expired"
+#~ msgstr "验证链接已过期"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "点击这里接收新的验证链接"
+
+#~ msgid "Verification error"
+#~ msgstr "验证错误"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "检查您的电子邮箱，验证链接已发送到 %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "邮箱已验证"
+
+#~ msgid "Verified"
+#~ msgstr "已验证"
+
+#~ msgid "Verify"
+#~ msgstr "验证"
+
+#~ msgid "Enter verification code"
+#~ msgstr "请输入验证码"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "请在 5 分钟内输入发送到 %(escapedEmail)s 的验证码。"
 
 #~ msgid "Logins and Passwords"
 #~ msgstr "登录名和密码"

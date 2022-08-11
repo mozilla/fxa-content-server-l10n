@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 23:29+0000\n"
 "PO-Revision-Date: 2022-05-03 06:45+0000\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod+pontoon@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,16 +74,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Artıq Firefox Hesabınıza dəyişiklik etməyə hazırsınız."
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "Əsas e-poçt təsdiqləndi"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Hesab bildirişləri artıq həmçinin %(secondaryEmailVerified)s ünvanına göndəriləcək."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "İkinci e-poçt təsdiqləndi"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,8 +94,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "Artıq %(serviceName)s işlətməyə hazırsınız"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "Hesab təsdiqləndi"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -217,9 +217,9 @@ msgstr "Endirildi"
 msgid "Printed"
 msgstr "Çap olunub"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Hesab uğurla təsdiqləndi"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -285,6 +285,10 @@ msgstr "Əsas e-poçt müvəffəqiyyətlə təsdiqləndi"
 msgid "Secondary email verified successfully"
 msgstr "İkincil e-poçt müvəffəqiyyətlə təsdiqləndi"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Hesab uğurla təsdiqləndi"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Parol müvəffəqiyyətlə sıfırlandı"
@@ -297,7 +301,7 @@ msgstr "Hesab bərpası aktivdir"
 msgid "Unexpected error"
 msgstr "Gözlənilməz xəta"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "E-poçtunuzu təsdiq etmək üçün açdığınız keçidin vaxtı keçib."
 
@@ -606,7 +610,7 @@ msgstr "Doğru e-poçt ünvanı daxil edin. firefox.com e-poçt xidməti vermir.
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Hesabları ancaq təsdiqlənmiş saytlarda IFRAME içərisinə qoyula bilərlər"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "Təsdiq keçidi zədələnib"
 
@@ -998,16 +1002,24 @@ msgid "Sign-in already confirmed"
 msgstr "Daxil olma artıq təsdiqlənib"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "Təsdiq keçidinin vaxtı keçib"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "Yeni təsdiq keçidi almaq üçün bura klikləyin"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "Təsdiq səhvi"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1018,8 +1030,8 @@ msgid "Confirm this sign-in"
 msgstr "Bu daxil olmanı təsdiqlə"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "%(escapedEmail)s ünvanına göndərilmiş təsdiqləmə keçidi üçün e-poçtunuzu yoxlayın "
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1043,7 +1055,8 @@ msgstr "Sıfırlama e-poçtu göndərildi"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Qarşıdakı bir saat içində %(email)s ünvanına göndərdiyimiz keçidə klikləyin və yeni parolu qurun."
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1060,8 +1073,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "6 rəqəmli kodu daxil edin"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Təsdiqlə"
 
@@ -1082,8 +1095,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "E-poçt təsdiqlənib"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1381,8 +1394,8 @@ msgid "Event Name"
 msgstr ""
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "Təsdiqləndi"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1433,10 +1446,6 @@ msgstr "Lütfən, quraşdırma vaxtı verilən bərpa kodunu daxil edin."
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "10 rəqəmli bərpa kodunu daxil edin"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "Təsdiqlə"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1657,12 +1666,8 @@ msgstr "İkinci e-poçt"
 msgid "Maybe later"
 msgstr "Bəlkə sonra"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr ""
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
@@ -2045,6 +2050,36 @@ msgstr "Tətbiq ilə qoş"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Sistem kamerasını işlətdiniz? Firefox tətbiqi içindən qoşmalısınız."
+
+#~ msgid "Primary email verified"
+#~ msgstr "Əsas e-poçt təsdiqləndi"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "İkinci e-poçt təsdiqləndi"
+
+#~ msgid "Account verified"
+#~ msgstr "Hesab təsdiqləndi"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Təsdiq keçidinin vaxtı keçib"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Yeni təsdiq keçidi almaq üçün bura klikləyin"
+
+#~ msgid "Verification error"
+#~ msgstr "Təsdiq səhvi"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "%(escapedEmail)s ünvanına göndərilmiş təsdiqləmə keçidi üçün e-poçtunuzu yoxlayın "
+
+#~ msgid "Email verified"
+#~ msgstr "E-poçt təsdiqlənib"
+
+#~ msgid "Verified"
+#~ msgstr "Təsdiqləndi"
+
+#~ msgid "Verify"
+#~ msgstr "Təsdiqlə"
 
 #~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
 #~ msgstr "Firefox&nbsp;Hesabı açmaq üçün müəyyən yaş tələblərinə cavab verməlisiniz."

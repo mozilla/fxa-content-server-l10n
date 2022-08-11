@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 23:29+0000\n"
 "PO-Revision-Date: 2022-03-25 00:27+0000\n"
 "Last-Translator: Bund10z <abu.avila@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,16 +73,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Ya puedes hacer cambios en tu cuenta de Firefox."
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "Correo principal verificado"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Las notificaciones de la cuenta también se enviarán ahora a %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "Correo secundario verificado"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -93,8 +93,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "Ya tienes todo listo para usar %(serviceName)s"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "Cuenta verificada"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -217,9 +217,9 @@ msgstr "Descargado"
 msgid "Printed"
 msgstr "Imprimido"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Cuenta verificada correctamente"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -285,6 +285,10 @@ msgstr "Se verificó con éxito el correo principal"
 msgid "Secondary email verified successfully"
 msgstr "Se verificó con éxito el correo secundario"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Cuenta verificada correctamente"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "Contraseña restablecida correctamente"
@@ -297,7 +301,7 @@ msgstr "Se habilitó la recuperación de la cuenta"
 msgid "Unexpected error"
 msgstr "Error inesperado"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "El enlace que seleccionaste para verificar la cuenta ha expirado."
 
@@ -606,7 +610,7 @@ msgstr "Introduce una dirección de correo válida. firefox.com no ofrece direcc
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Solo se puede colocar Firefox Accounts en un IFRAME en páginas autorizadas"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "Enlace de verificación dañado"
 
@@ -1000,16 +1004,24 @@ msgid "Sign-in already confirmed"
 msgstr "Inicio de sesión ya confirmado"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "Enlace de verificación expirado"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "Haz clic aquí para recibir un nuevo enlace de verificación"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "Error de verificación"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1020,8 +1032,8 @@ msgid "Confirm this sign-in"
 msgstr "Confirmar este inicio de sesión"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "Comprueba en tu correo electrónico el enlace de verificación enviado&nbsp;a %(escapedEmail)s"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1045,7 +1057,8 @@ msgstr "Correo de restablecimiento enviado"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "Para crear una nueva contraseña, haz clic en el enlace que se envió a %(email)s en los próximos 60 minutos."
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1062,8 +1075,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "Introduce el código de 6 dígitos"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Confirmar"
 
@@ -1084,8 +1097,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "Correo electrónico verificado"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1385,8 +1398,8 @@ msgid "Event Name"
 msgstr "Nombre del evento"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "Verificado"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1437,10 +1450,6 @@ msgstr "Por favor, introduce el código de recuperación que recibiste durante l
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "Introduce el código de recuperación de 10 dígitos"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "Verificar"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1661,13 +1670,9 @@ msgstr "Dirección de correo electrónico secundaria"
 msgid "Maybe later"
 msgstr "Quizás más tarde"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "Introduce el código de verificación"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Por favor, escribe en menos de 5 minutos el código de verificación que fue enviado a %(escapedEmail)s."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -2051,6 +2056,42 @@ msgstr "Conectarse mediante una aplicación"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "¿Has usado la cámara del sistema? Tienes que conectarla desde una aplicación de Firefox."
+
+#~ msgid "Primary email verified"
+#~ msgstr "Correo principal verificado"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Correo secundario verificado"
+
+#~ msgid "Account verified"
+#~ msgstr "Cuenta verificada"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Enlace de verificación expirado"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Haz clic aquí para recibir un nuevo enlace de verificación"
+
+#~ msgid "Verification error"
+#~ msgstr "Error de verificación"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Comprueba en tu correo electrónico el enlace de verificación enviado&nbsp;a %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "Correo electrónico verificado"
+
+#~ msgid "Verified"
+#~ msgstr "Verificado"
+
+#~ msgid "Verify"
+#~ msgstr "Verificar"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Introduce el código de verificación"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "Por favor, escribe en menos de 5 minutos el código de verificación que fue enviado a %(escapedEmail)s."
 
 #~ msgid "Logins and Passwords"
 #~ msgstr "Inicios de sesión y contraseñas"

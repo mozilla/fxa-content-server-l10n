@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 23:29+0000\n"
 "PO-Revision-Date: 2022-08-10 02:37+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,16 +74,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "已經可以修改您的 Firefox 帳號設定。"
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "已驗證主要電子郵件地址"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "現在起，與帳號相關的通知也將發送到 %(secondaryEmailVerified)s。"
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "已驗證次要電子郵件地址"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,8 +94,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "您可以使用 %(serviceName)s 了"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "帳號已驗證"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -217,9 +217,9 @@ msgstr "已下載"
 msgid "Printed"
 msgstr "已列印"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "成功驗證帳號"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -285,6 +285,10 @@ msgstr "成功驗證主要電子郵件地址"
 msgid "Secondary email verified successfully"
 msgstr "成功驗證次要電子郵件地址"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "成功驗證帳號"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "成功重設密碼"
@@ -297,7 +301,7 @@ msgstr "已產生帳號救援碼"
 msgid "Unexpected error"
 msgstr "未預期的錯誤"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "您點擊的密碼重設驗證鏈結已過期。"
 
@@ -606,7 +610,7 @@ msgstr "請輸入有效的電子郵件地址，firefox.com 不提供郵件服務
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox 帳號僅能被嵌入至經審查的網站的 IFRAME 當中"
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "驗證鏈結已毀損"
 
@@ -839,7 +843,9 @@ msgid "Invalid Token"
 msgstr "Token 無效"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "若繼續，代表您同意 %(serviceName)s（%(serviceUri)s）的<a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a>及<a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>"
 
 #: .es5/lib/strings.js:31
@@ -908,7 +914,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "請輸入您先前產生的單次使用救援金鑰，以取回 Firefox 帳號的使用權限。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">註：</span>若您重設了密碼，而沒有儲存救援金鑰，您的某些資料將會被清除（包含瀏覽紀錄、書籤等已同步的伺服器資料）。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -964,7 +971,9 @@ msgstr "建立新密碼"
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，Pocket 服務當中的資料也不受影響。"
+msgstr ""
+"<span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，"
+"Pocket 服務當中的資料也不受影響。"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -991,16 +1000,24 @@ msgid "Sign-in already confirmed"
 msgstr "已確認過此次登入"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "驗證鏈結已逾時"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "點擊此處以取得新的確認鏈結"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "驗證錯誤"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1011,8 +1028,8 @@ msgid "Confirm this sign-in"
 msgstr "確認此次登入"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "請到 %(escapedEmail)s 信箱收信，點擊驗證鏈結"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1036,7 +1053,8 @@ msgstr "已寄出重設郵件"
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "請在一小時內點擊我們發送到 %(email)s 的鏈結，以設定新密碼。"
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr "請輸入確認碼"
 
@@ -1053,8 +1071,8 @@ msgstr "請於 5 分鐘內輸入寄送到 %(escapedEmail)s 的驗證碼。"
 msgid "Enter 6-digit code"
 msgstr "請輸入六位數的安全碼"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "確認"
 
@@ -1075,8 +1093,8 @@ msgid "Firefox account connected"
 msgstr "已連結 Firefox 帳號"
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "已驗證信箱"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1142,7 +1160,8 @@ msgid "Password"
 msgstr "密碼"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "若繼續，代表您同意<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>及<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>。"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
@@ -1350,7 +1369,9 @@ msgstr "為什麼會發生？"
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，Pocket 服務當中的資料也不受影響。"
+msgstr ""
+"<span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留，"
+"Pocket 服務當中的資料也不受影響。"
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1373,8 +1394,8 @@ msgid "Event Name"
 msgstr "事件名稱"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "已驗證"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1408,12 +1429,14 @@ msgstr "那個信箱已經停用了嗎？請註冊新帳號"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "若繼續，代表您同意：<br />\n"
-"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服務條款</a>及<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">隱私權公告</a><br />\n"
+"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服務條款</a>及<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">隱私權公告</"
+"a><br />\n"
 "Firefox 的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>及<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>。"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1427,10 +1450,6 @@ msgstr "請輸入在設定期間提供的救援碼。"
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "請輸入 10 位數的救援碼"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "驗證"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1508,12 +1527,14 @@ msgstr "建立帳號"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "若繼續，代表您同意：<br />\n"
-"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服務條款</a>及<a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">隱私權公告</a><br />\n"
+"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服務條款</a>及<a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">隱私權公告</"
+"a><br />\n"
 "Firefox 的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服務條款</a>及<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隱私權公告</a>"
 
 #: .es5/templates/support.mustache:1
@@ -1653,13 +1674,9 @@ msgstr "次要電子郵件地址"
 msgid "Maybe later"
 msgstr "之後再寄"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "請輸入您 Firefox 帳號的驗證碼"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "請於 5 分鐘內輸入發送到 %(escapedEmail)s 的驗證碼。"
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -2042,6 +2059,42 @@ msgstr "使用應用程式配對"
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對。"
 
+#~ msgid "Primary email verified"
+#~ msgstr "已驗證主要電子郵件地址"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "已驗證次要電子郵件地址"
+
+#~ msgid "Account verified"
+#~ msgstr "帳號已驗證"
+
+#~ msgid "Verification link expired"
+#~ msgstr "驗證鏈結已逾時"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "點擊此處以取得新的確認鏈結"
+
+#~ msgid "Verification error"
+#~ msgstr "驗證錯誤"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "請到 %(escapedEmail)s 信箱收信，點擊驗證鏈結"
+
+#~ msgid "Email verified"
+#~ msgstr "已驗證信箱"
+
+#~ msgid "Verified"
+#~ msgstr "已驗證"
+
+#~ msgid "Verify"
+#~ msgstr "驗證"
+
+#~ msgid "Enter verification code"
+#~ msgstr "請輸入您 Firefox 帳號的驗證碼"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "請於 5 分鐘內輸入發送到 %(escapedEmail)s 的驗證碼。"
+
 #~ msgid "Logins and Passwords"
 #~ msgstr "登入資訊與密碼"
 
@@ -2069,7 +2122,8 @@ msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對
 #~ msgid ""
 #~ "\n"
 #~ "              By proceeding, you agree to:<br />\n"
-#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
 #~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 #~ "            "
 #~ msgstr ""
@@ -2239,14 +2293,16 @@ msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對
 #~ msgstr "已經準備好可以使用 <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr "<span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留。"
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留。"
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr "<span>註：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留。"
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>註：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。您的訂閱項目仍然會被保留。"
 
 #~ msgid "Firefox Lockwise"
 #~ msgstr "Firefox Lockwise"
@@ -2284,13 +2340,13 @@ msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對
 #~ msgstr "儲存並探索網路上最佳的文章內容。"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
 #~ msgstr "<span>請銘記：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。"
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr "<span>註：</span>重設密碼的同時也會重設帳號內容。您可能會失去某些個人資訊（包含上網記錄、書籤、登入密碼等）。這是因為我們使用您的密碼來加密您的帳號，以保護您的隱私。"
 
 #~ msgid "Change..."
@@ -2625,7 +2681,8 @@ msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "第 2 步，共 2 步: 儲存救援金鑰"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr "<span class=\"note\">註： </span>若您忘記密碼，必須使用這把金鑰才能取回資料。請將這把金鑰放在未來可以簡單取回，而安全的位置。"
 
 #~ msgid "Done, Recovery key saved"
@@ -2828,8 +2885,8 @@ msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對
 #~ msgstr "管理偏好設定"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr "若您使用此帳號來登入 Mozilla 的應用程式或服務，例如 AMO、Pocket 或 Screenshots，請先登入各個服務，移除各服務中儲存的個人資訊。帳號一旦刪除，您可能將無法再存取該帳號。"
 
 #~ msgid "verified"
@@ -3069,7 +3126,9 @@ msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對
 #~ msgid "Cookies and local storage are required."
 #~ msgstr "需要使用 Cookies 與本機儲存空間。"
 
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr "若繼續，代表您同意 Firefox 雲端服務的<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">服務條款</a>及<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">隱私權公告</a>。"
 
 #~ msgid "Firefox cloud services"
@@ -3122,14 +3181,16 @@ msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對
 #~ msgstr "為什麼要同步兩台（或者更多台）裝置？"
 
 #~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
 #~ msgstr "Sync 功能可讓您將一台裝置上的 Firefox 所儲存的書籤、瀏覽紀錄、網頁密碼等資料同步到其他裝置。在手機或平板電腦登入至 Firefox 後，桌面板上的東西也會出現。"
 
 #~ msgid ""
 #~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
 #~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr "Sync 不是設計用作永久備份之用，而是單純用來將本機上的資料分享到其他裝置。若您重設了密碼，而資料在其他裝置上沒有另存一份的話，就可能會遺失所有使用舊密碼儲存的資訊。這就是為什麼您會需要安裝 Firefox，並同步至少兩台裝置。"
+#~ msgstr ""
+#~ "Sync 不是設計用作永久備份之用，而是單純用來將本機上的資料分享到其他裝置。若您重設了密碼，而資料在其他裝置上沒有另存一份的話，就可能會遺失所有使用舊密碼儲存的資訊。這就是為什麼您會需要安裝 "
+#~ "Firefox，並同步至少兩台裝置。"
 
 #~ msgid "Gravatar"
 #~ msgstr "Gravatar"
@@ -3234,13 +3295,13 @@ msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對
 #~ msgstr "登入"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
 #~ msgstr "<span>請注意:</span> 若您重設密碼，將清除某些資料（包含同步伺服器上的瀏覽紀錄、書籤等等）。這是因為我們使用您的密碼來加密伺服器上的資料，以確保您的隱私安全。密碼重設後即無法取回原資料。"
 
 #~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
 #~ msgstr "<span>請注意:</span> 若您重設密碼，將清除某些資料（包含同步伺服器上的瀏覽紀錄、書籤等等）。這是因為我們使用您的密碼來加密伺服器上的資料，以確保您的隱私安全。密碼重設後即無法取回原資料。"
 
 #~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
@@ -3369,16 +3430,19 @@ msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對
 #~ msgid "Sync preferences"
 #~ msgstr "同步設定"
 
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
 #~ msgstr "在尋找 Firefox Sync 嗎？<a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">從此處開始</a>"
 
 #~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
 #~ msgstr "有使用不同電子郵件地址的帳號嗎？<a href=\"%(signinUri)s\">請登入</a>"
 
 #~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr "Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</a> 版本可供使用。"
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox 有 <a href=\"%(linkWindows)s\">Windows</a>、<a href=\"%(linkOSX)s\">OS X</a>、<a href=\"%(linkAndroid)s\">Android</a>、<a href=\"%(linkIOS)s\">iOS</a> 及 <a href=\"%(linkLinux)s\">Linux</"
+#~ "a> 版本可供使用。"
 
 #~ msgid "Last active: %(translatedTimeAgo)s"
 #~ msgstr "最後使用: %(translatedTimeAgo)s"
@@ -3739,10 +3803,14 @@ msgstr "您使用系統相機了嗎？必須透過 Firefox 當中的相機配對
 #~ msgid "Already have an account? Sign in."
 #~ msgstr "已經有帳號了？請登入。"
 
-#~ msgid "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
 #~ msgstr "若繼續，代表我同意 %(serviceName)s（%(serviceUri)s）的 <a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a> 及 <a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>。"
 
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
 #~ msgstr "若繼續，代表您同意 Firefox 雲端服務的 <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">服務條款</a> 及 <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">隱私權保護政策</a>。"
 
 #~ msgid "Subscribe to Firefox news and tips"
