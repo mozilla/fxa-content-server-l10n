@@ -21,11 +21,13 @@
 
 ## Non-email strings
 
+session-verify-send-push-body = Klik egin hemen Zu zarela ziurtatzeko
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logo">
 fxa-privacy-url = { -brand-mozilla }ren pribatutasun politika
 fxa-service-url = { -product-firefox-cloud } Zerbitzuaren baldintzak
 subplat-automated-email = Mezu hau automatikoa da; errorez jaso baduzu, ez duzu ekintzarik burutu behar.
@@ -115,12 +117,22 @@ codes-reminder-title = Berreskuratze kode gutxi gelditzen dira
 codes-reminder-description = Berreskuratze kode gutxi dituzula ohartu gara. Mesedez hausnartu kode berriak sortzea zure kontua blokeatua gelditu dadin ekiditezko.
 codes-generate = Sortu gakoak
 lowRecoveryCodes-action = Sortu gakoak
+lowRecoveryCodes-subject =
+    { $numberRemaining ->
+        [one] Berreskuratze kode 1 gelditzen zaizu
+       *[other] { $numberRemaining } berreskuratze kode gelditzen zaizkizu
+    }
 newDeviceLogin-action = Kudeatu kontua
 passwordChanged-subject = Pasahitza eguneratuta
 passwordChanged-title = Pasahitza ondo aldatu da
+passwordChangeRequired-subject = Aktibitate susmagarria detektatu da
+passwordChangeRequired-title = Pasahitza aldatzea beharrezkoa da
 passwordChangeRequired-signoff = Onena,
+passwordChangeRequired-signoff-name = { -product-firefox-accounts } taldea
 passwordReset-subject = Pasahitza eguneratuta
 passwordReset-title = Zure kontuaren pasahitza aldatu egin da
+passwordResetAccountRecovery-subject = Pasahitza eguneratua berreskuratze gakoa erabilita
+passwordResetAccountRecovery-title = Zure kontuko pasahitza berrezarri da berreskuratze gakoaz
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Sortu berreskuratze-gako berria
 postAddAccountRecovery-subject = Kontua berreskuratzeko gakoa sortu da
