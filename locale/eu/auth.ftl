@@ -99,7 +99,20 @@ view-invoice = <a data-l10n-name="invoiceLink">Ikusi zure faktura</a>.
 view-invoice-plaintext = Ikusi faktura: { $invoiceLink }
 cadReminderFirst-action = Sinkronizatu beste gailu bat
 cadReminderSecond-action = Sinkronizatu beste gailu bat
+cadReminderSecond-title-2 = Ez ahaztu sinkronizatzea!
+cadReminderSecond-description-sync = Sinkronizatu zure laster-markak, pasahitzak, irekitako fitxak eta gehiago { -brand-firefox } erabiltzen duzun toki guztietan.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Ongi etorri { $productName }(e)ra
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Ongi etorri { $productName }(e)ra
 downloadSubscription-link-action-2 = Hasi erabiltzen
+fraudulentAccountDeletion-subject = Zure { -product-firefox-account } ezabatu zen
+fraudulentAccountDeletion-title = Zure kontua ezabatu da
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title = Berreskuratze kode gutxi gelditzen dira
+codes-reminder-description = Berreskuratze kode gutxi dituzula ohartu gara. Mesedez hausnartu kode berriak sortzea zure kontua blokeatua gelditu dadin ekiditezko.
 codes-generate = Sortu gakoak
 lowRecoveryCodes-action = Sortu gakoak
 newDeviceLogin-action = Kudeatu kontua
@@ -113,14 +126,24 @@ passwordResetAccountRecovery-create-key = Sortu berreskuratze-gako berria
 postAddAccountRecovery-subject = Kontua berreskuratzeko gakoa sortu da
 postAddAccountRecovery-title = Kontua berreskuratzeko gakoa sortu da
 postAddAccountRecovery-action = Kudeatu kontua
+postAddLinkedAccount-action = Kudeatu kontua
 postAddTwoStepAuthentication-subject = Bi urratseko autentifikazioa gaituta
 postAddTwoStepAuthentication-title = Bi urratseko autentifikazioa gaituta
 postAddTwoStepAuthentication-action = Kudeatu kontua
 postAddTwoStepAuthentication-code-required = Hemendik aurrera, zure autentifikazio-aplikazioko segurtasun-kodeak beharko dira saioa hasteko.
+postChangePrimary-subject = Helbide elektroniko nagusia eguneratua
 postChangePrimary-title = Helbide elektroniko nagusi berria
 postChangePrimary-action = Kudeatu kontua
+postConsumeRecoveryCode-subject = Berreskuratze-kode erabilia
+postConsumeRecoveryCode-title = Berreskuratze-kode kontsumitua
+postConsumeRecoveryCode-description = Zuzen kontsumitu duzu berreskuratze-kodea ondorengo gailuan:
 postConsumeRecoveryCode-action = Kudeatu kontua
+postNewRecoveryCodes-subject = Sortu dira berreskuratze kode berriak
+postNewRecoveryCodes-title = Sortu dira berreskuratze kode berriak
+postNewRecoveryCodes-description = Zuzen sortu dituzu berreskuratze-kodeak ondorengo gailuan:
 postNewRecoveryCodes-action = Kudeatu kontua
+postRemoveAccountRecovery-subject = Kontuaren berreskuratze-gakoa kenduta
+postRemoveAccountRecovery-title = Kontuaren berreskuratze-gakoa kenduta
 postRemoveAccountRecovery-action = Kudeatu kontua
 postRemoveSecondary-subject = Helbide elektronikoa alternatiboa kenduta
 postRemoveSecondary-title = Helbide elektronikoa alternatiboa kenduta
