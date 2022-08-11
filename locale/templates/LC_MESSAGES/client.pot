@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 23:29+0000\n"
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
@@ -78,7 +78,7 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr ""
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
+msgid "Primary email confirmed"
 msgstr ""
 
 #: .es5/views/ready.js:77
@@ -87,7 +87,7 @@ msgstr ""
 
 #: .es5/views/ready.js:79
 #: .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
+msgid "Secondary email confirmed"
 msgstr ""
 
 #: .es5/views/ready.js:84
@@ -105,7 +105,7 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr ""
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
+msgid "Account confirmed"
 msgstr ""
 
 #: .es5/views/ready.js:94
@@ -246,8 +246,7 @@ msgid "Printed"
 msgstr ""
 
 #: .es5/views/behaviors/settings.js:40
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
+msgid "Account confirmed successfully"
 msgstr ""
 
 #: .es5/models/support-form.js:25
@@ -314,6 +313,10 @@ msgstr ""
 msgid "Secondary email verified successfully"
 msgstr ""
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr ""
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr ""
@@ -331,7 +334,6 @@ msgid "Unexpected error"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:27
-#: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to verify your email is expired."
 msgstr ""
 
@@ -661,7 +663,6 @@ msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:428
-#: .es5/templates/complete_sign_up.mustache:11
 msgid "Verification link damaged"
 msgstr ""
 
@@ -1103,15 +1104,23 @@ msgid "Sign-in already confirmed"
 msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
 msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
 msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
+msgid "Confirmation error"
 msgstr ""
 
 #: .es5/templates/confirm.mustache:3
@@ -1123,7 +1132,7 @@ msgid "Confirm this sign-in"
 msgstr ""
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
 
 #: .es5/templates/confirm.mustache:9
@@ -1159,6 +1168,8 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1179,7 +1190,10 @@ msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:5
 #: .es5/templates/inline_recovery_setup.mustache:16
+#: .es5/templates/sign_in_recovery_code.mustache:5
 #: .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr ""
@@ -1203,7 +1217,7 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
+msgid "Email confirmed"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9
@@ -1573,7 +1587,7 @@ msgid "Event Name"
 msgstr ""
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
+msgid "Confirmed"
 msgstr ""
 
 #: .es5/templates/security_events.mustache:5
@@ -1632,12 +1646,6 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
-msgstr ""
-
-#: .es5/templates/sign_in_recovery_code.mustache:5
-#: .es5/templates/sign_in_totp_code.mustache:5
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
 msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
@@ -1884,14 +1892,9 @@ msgstr ""
 msgid "Maybe later"
 msgstr ""
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr ""
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid ""
-"Please enter the verification code that was sent to %(escapedEmail)s within "
+"Please enter the confirmation code that was sent to %(escapedEmail)s within "
 "5 minutes."
 msgstr ""
 

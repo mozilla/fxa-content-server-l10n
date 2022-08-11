@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-09 22:05+0000\n"
+"POT-Creation-Date: 2022-08-11 23:29+0000\n"
 "PO-Revision-Date: 2021-12-26 05:55+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,16 +76,16 @@ msgid "You are now ready to make changes to your Firefox Account."
 msgstr "आप अपने Firefox खाते में बदलाव करने के लिए अब तैयार हैं।"
 
 #: .es5/views/ready.js:74
-msgid "Primary email verified"
-msgstr "प्राथमिक ईमेल सत्यापित"
+msgid "Primary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "खाता अधिसूचनाएँ अब %(secondaryEmailVerified)s पर भी भेजी जाएँगी।"
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
-msgid "Secondary email verified"
-msgstr "द्वितीयक ईमेल सत्यापित"
+msgid "Secondary email confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -96,8 +96,8 @@ msgid "You are now ready to use %(serviceName)s"
 msgstr "अब आप %(serviceName)s उपयोग करने के लिए तैयार हैं"
 
 #: .es5/views/ready.js:89
-msgid "Account verified"
-msgstr "खाता सत्यापित"
+msgid "Account confirmed"
+msgstr ""
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -219,9 +219,9 @@ msgstr "डाउनलोड की गई"
 msgid "Printed"
 msgstr "मुद्रित"
 
-#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "खाता सफलतापूर्वक सत्यापित"
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -287,6 +287,10 @@ msgstr "प्राथमिक ईमेल सफलतापूर्वक 
 msgid "Secondary email verified successfully"
 msgstr "द्वितीयक ईमेल सफलतापूर्वक सत्यापित"
 
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "खाता सफलतापूर्वक सत्यापित"
+
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
 msgstr "कूटशब्द सफलतापूर्वक पुनः तैयार"
@@ -299,7 +303,7 @@ msgstr "खाता पुनर्प्राप्ति सक्षम क
 msgid "Unexpected error"
 msgstr "अप्रत्याशित त्रुटि"
 
-#: .es5/lib/auth-errors.js:27 .es5/templates/complete_sign_up.mustache:7
+#: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
 msgstr "ईमेल सत्यापन के लिए चुने हुए लिंक की वैधता समाप्त हो चुकी है."
 
@@ -608,7 +612,7 @@ msgstr "एक वैध ईमेल प्रविष्ट करें. fir
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:428 .es5/templates/complete_sign_up.mustache:11
+#: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
 msgstr "सत्यापन लिंक क्षतिग्रस्त"
 
@@ -996,16 +1000,24 @@ msgid "Sign-in already confirmed"
 msgstr "प्रवेश पहले से सत्यापित"
 
 #: .es5/templates/complete_sign_up.mustache:6
-msgid "Verification link expired"
-msgstr "सत्यापन लिंक की वैधता समाप्त"
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new verification link"
-msgstr "नया सत्यापन लिंक प्राप्त करने के लिए यहाँ दबाएं"
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
-msgid "Verification error"
-msgstr "सत्यापन त्रुटि"
+msgid "Confirmation error"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1016,8 +1028,8 @@ msgid "Confirm this sign-in"
 msgstr "इस साइन-इन की पुष्टि करें"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-msgstr "अपने ईमेल की जाँच करें सत्यापन लिंक के लिए &nbsp;को %(escapedEmail)s भेजा गया है"
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1041,7 +1053,8 @@ msgstr "पुनः तैयार करने का ईमेल भेज�
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
 msgstr "नया पासवर्ड बनाने के लिए अगले घंटे के अंदर %(email)s पर ईमेल किए गए लिंक को दबाएँ।"
 
-#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
 
@@ -1058,8 +1071,8 @@ msgstr ""
 msgid "Enter 6-digit code"
 msgstr "6-अंकों का कोड दर्ज करें"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "पुष्टि"
 
@@ -1080,8 +1093,8 @@ msgid "Firefox account connected"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
-msgid "Email verified"
-msgstr "ईमेल सत्यापित हुआ"
+msgid "Email confirmed"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1379,8 +1392,8 @@ msgid "Event Name"
 msgstr "उपक्रम नाम"
 
 #: .es5/templates/security_events.mustache:4
-msgid "Verified"
-msgstr "सत्‍यापित किया गया"
+msgid "Confirmed"
+msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1431,10 +1444,6 @@ msgstr "कृपया एक पुनर्प्राप्ति कोड
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit recovery code"
 msgstr "10-अंकों का पुनर्प्राप्ति कोड दर्ज करें"
-
-#: .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Verify"
-msgstr "सत्यापित करें"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1655,12 +1664,8 @@ msgstr "द्वितीयक मेल"
 msgid "Maybe later"
 msgstr "शायद बाद में"
 
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter verification code"
-msgstr "सत्यापन कोड दर्ज करें"
-
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
@@ -2043,6 +2048,39 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
+
+#~ msgid "Primary email verified"
+#~ msgstr "प्राथमिक ईमेल सत्यापित"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "द्वितीयक ईमेल सत्यापित"
+
+#~ msgid "Account verified"
+#~ msgstr "खाता सत्यापित"
+
+#~ msgid "Verification link expired"
+#~ msgstr "सत्यापन लिंक की वैधता समाप्त"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "नया सत्यापन लिंक प्राप्त करने के लिए यहाँ दबाएं"
+
+#~ msgid "Verification error"
+#~ msgstr "सत्यापन त्रुटि"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "अपने ईमेल की जाँच करें सत्यापन लिंक के लिए &nbsp;को %(escapedEmail)s भेजा गया है"
+
+#~ msgid "Email verified"
+#~ msgstr "ईमेल सत्यापित हुआ"
+
+#~ msgid "Verified"
+#~ msgstr "सत्‍यापित किया गया"
+
+#~ msgid "Verify"
+#~ msgstr "सत्यापित करें"
+
+#~ msgid "Enter verification code"
+#~ msgstr "सत्यापन कोड दर्ज करें"
 
 #~ msgid "Logins and Passwords"
 #~ msgstr "लॉगिन और पासवर्ड"
