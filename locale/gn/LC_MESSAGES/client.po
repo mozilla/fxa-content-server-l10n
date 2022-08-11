@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-09 22:05+0000\n"
-"PO-Revision-Date: 2022-08-11 15:30+0000\n"
+"PO-Revision-Date: 2022-08-11 15:34+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1175,7 +1175,7 @@ msgstr "Eku’ejey <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>-
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Emoinge térã eñemboheraguapy"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1996,11 +1996,11 @@ msgstr "Opáma pe ñemboheko rape."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Download Firefox on your phone or tablet"
-msgstr ""
+msgstr "Emboguejy Firefox ne pumbyry térã tablétape"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
-msgstr ""
+msgstr "QR ayvu"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
@@ -2012,7 +2012,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
-msgstr ""
+msgstr "Oĩmbáma embojuehe hag̃ua mba’e’oka"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
