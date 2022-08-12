@@ -228,14 +228,14 @@ modal-cancel-button = Přetorhnyć
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Wobkrućće swoju e-mejlowu adresu
-mvs-enter-verification-code = Zapodajće swój wobkrućenski kod
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Wobkrućće swoju e-mejlowu adresu
+mvs-enter-verification-code-2 = Zapodajće swój wobkrućenski kod
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Prošu zapodajće wobkrućenski kod, kotryž je so za 5 mjeńšin na <email>{ $email }</email> pósłał.
+mvs-enter-verification-code-desc-2 = Prošu zapodajće wobkrućenski kod, kotryž je so za 5 mjeńšin na <email>{ $email }</email> pósłał.
 msv-cancel-button = Přetorhnyć
-msv-submit-button = Přepruwować
+msv-submit-button-2 = Wobkrućić
 
 ## Settings Nav
 
@@ -392,17 +392,17 @@ add-secondary-email-save-button = Składować
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Krok 2 z 2
-verify-secondary-email-error-2 = Při słanju wobkrućenskeho koda je problem nastał
+verify-secondary-email-error-3 = Při słanju wobkrućenskeho koda je problem nastał
 verify-secondary-email-page-title =
     .title = Druha e-mejlowa adresa
-verify-secondary-email-verification-code =
+verify-secondary-email-verification-code-2 =
     .label = Zapodajće swój wobkrućenski kod
 verify-secondary-email-cancel-button = Přetorhnyć
-verify-secondary-email-verify-button = Přepruwować
+verify-secondary-email-verify-button-2 = Wobkrućić
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Prošu zapodajće wobkrućenski kod, kotryž je so za 5 mjeńšin na <strong>{ $email }</strong> pósłał.
+verify-secondary-email-please-enter-code-2 = Prošu zapodajće wobkrućenski kod, kotryž je so za 5 mjeńšin na <strong>{ $email }</strong> pósłał.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -424,7 +424,7 @@ tfa-button-cancel = Přetorhnyć
 tfa-button-finish = Dokónčić
 tfa-incorrect-totp = Wopačny kod za dwukročelowu awtentifikaciju
 tfa-cannot-retrieve-code = Při wotwołowanju wašeho koda je problem nastał.
-tfa-cannot-verify-code-2 = Při přepruwowanju wašeho wobnowjenskeho koda je problem nastał
+tfa-cannot-verify-code-3 = Při přepruwowanju wašeho wobnowjenskeho koda je problem nastał
 tfa-incorrect-recovery-code = Wopačny wobnowjenski kod
 tfa-enabled = Dwukročelowa awtentifikacija zmóžnjena
 tfa-scan-this-code = skenujće tutón QR-kod z pomocu jednoho z <linkExternal>tutych awtentifikaciskich nałoženjow</linkExternal>.
@@ -511,7 +511,7 @@ rk-cannot-remove-key = Wobnowjenski kluč wašeho konta njeda so wotstronić.
 rk-refresh-key = Wobnowjenski kluč aktualizować
 rk-content-explain = Wobnowće swoje informacije, hdyž sće swoje hesło zabył.
 rk-content-reset-data = Čehodla so moje daty wróćo stajeja, hdyž swoje hesło wróćo stajam?
-rk-cannot-verify-session-3 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
+rk-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 rk-remove-modal-heading = Wobnowjenski kluč wotstronić?
 rk-remove-modal-content =
     Jeli waše hesło wróćo stajeće, njemóžeće swój
@@ -524,7 +524,7 @@ rk-remove-error-2 = Wobnowjenski kluč wašeho konta njeda so wotstronić
 se-heading = Druha e-mejlowa adresa
     .header = Druha e-mejlowa adresa
 se-cannot-refresh-email = Bohužel je při aktualizowanju teje e-mejloweje adresy problem nastał.
-se-cannot-resend-code-2 = Bohužel je při wospjetnym słanju wobkrućenskeho koda problem nastał
+se-cannot-resend-code-3 = Bohužel je při wospjetnym słanju wobkrućenskeho koda problem nastał
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -535,16 +535,16 @@ se-set-primary-error-2 = Bohužel je při měnjenju wašeje primarneje e-mejlowe
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } je so wuspěšnje zhašała
 se-delete-email-error-2 = Bohužel je při hašenju teje e-mejloweje adresy problem nastał
-se-verify-session-2 = Dyrbiće swoje aktualne posedźenje přepruwować, zo byšće tutu akciju wuwjedł
-se-verify-session-error-2 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
+se-verify-session-3 = Dyrbiće swoje aktualne posedźenje přepruwować, zo byšće tutu akciju wuwjedł
+se-verify-session-error-3 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mejlowu adresu wotstronić
 # Button to refresh secondary email status
 se-refresh-email =
     .title = E-mejlowu adresu aktualizować
-se-unverified = njewobkrućeny
-se-resend-code =
+se-unverified-2 = njewobkrućeny
+se-resend-code-2 =
     Wobkručenje trěbne. <button>Sćelće wobkrućenski kod znowa</button>,
     jeli we wašim rjadowaku póstoweho dochada abo w spamowym rjadowaku njeje.
 # Button to make secondary email the primary
@@ -575,7 +575,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Požadajće jónkróćny kod, ke kotremuž jenož wy maće přistup,
     zo byšće zadźěwał tomu, zo so něchtó druhi přizjewja.
-tfa-row-cannot-verify-session-3 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
+tfa-row-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
 tfa-row-disable-modal-explain =
@@ -590,7 +590,7 @@ tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.
 
 auth-error-102 = Njeznate konto
 auth-error-103 = Wopačne hesło
-auth-error-105 = Njepłaćiwy wobkrućenski kod
+auth-error-105-2 = Njepłaćiwy wobkrućenski kod
 auth-error-110 = Njepłaćiwy token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -600,8 +600,8 @@ auth-error-110 = Njepłaćiwy token
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Sće to přehusto spytał. Spytajće za { $retryAfter } hišće raz.
-auth-error-138 = Njewobkrućene posedźenje
+auth-error-138-2 = Njewobkrućene posedźenje
 auth-error-139 = Druha e-mejlowa adresa dyrbi so wot adresy wašeho konta rozeznać
 auth-error-155 = TOTP-token njeje so namakał
-auth-error-183 = Njepłaćiwy abo spadnjeny wobkrućenski kod
+auth-error-183-2 = Njepłaćiwy abo spadnjeny wobkrućenski kod
 auth-error-1008 = Waše nowe hesło dyrbi druhe być

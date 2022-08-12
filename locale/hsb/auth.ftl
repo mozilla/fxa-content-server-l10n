@@ -619,8 +619,15 @@ verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Hdyž su wobkrućene, su kontowe změny móžne, kaž na přikład přidawanje sekundarneje e-mejloweje adresy z tutoho grata.
 verifySecondaryCode-subject = Sekundarnu e-mejlowu adresu wobkrućić
 verifySecondaryCode-title-2 = Sekundarnu e-mejlowu adresu wobkrućić
+verifySecondaryCode-action-2 = E-mejlowu adresu wobkrućić
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Slědowace konto { -product-firefox-account } je požadało, { $email } jako druhu e-mejlowu adresu wužiwać:
+verifySecondaryCode-prompt-2 = Tutón wobkrućenski kod zapodać:
+verifySecondaryCode-expiry-notice-2 = Spadnje za 5 mjeńšin. Tak ruče kaž je so wobkrućiła, tuta adresa započnje, wěstotne zdźělenki a wobkrućenja dóstawać.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-2 = Wobkrućenski kod: { $code }
 verifyShortCode-title = Registrujeće wy?
+verifyShortCode-prompt-2 = Jeli haj, wužiwajće wobkrućenski kod w swojim registrowanskim formularje:
 verifyShortCode-expiry-notice = Spadnje za 5 mjeńšin.
