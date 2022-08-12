@@ -22,7 +22,6 @@
 ## Non-email strings
 
 session-verify-send-push-title = ¿Eñepyrũ tembiapo { -product-firefox-accounts } ndive?
-session-verify-send-push-body = Eikutu ápe roikuaa hag̃ua ndeha
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -282,10 +281,8 @@ postRemoveTwoStepAuthentication-description = Embogue porã ñemoneĩ mokõi jey
 postRemoveTwoStepAuthentication-description-plaintext = Embogue porã ñemoneĩ mokõi jeyguáva { -product-firefox-account } pegua. Ndojejeruremo’ãvéima tekorosã ayvu emoñepyrũjeývo tembiapo.
 postRemoveTwoStepAuthentication-action = Mba’ete ñangareko
 postRemoveTwoStepAuthentication-not-required = Ayvu rekorosã natekotevẽitama eñepyrũjeývo tembiapo.
-postVerify-sub-title = { -product-firefox-account } jehechapyre. Oĩmbátama.
 postVerify-title = ¡Embojuehe ko’ág̃a ne mba’e’oka!
 postVerify-description = Sync oreko ñemíme nde techaukaha, ñe’ẽñemi ha ambue { -brand-firefox } mba’ekuaarã ojuehegua opaite ne mba’e’okápe.
-postVerify-subject = Mba’ete hechajeypyre. Ko’ág̃a emboguejy ambue mba’e’oka hu’ã hag̃ua ñembohekopyahu
 postVerify-setup = Emboheko mba’e’oka upeigua
 postVerify-action = Emboheko mba’e’oka upeigua
 # Variables:
@@ -293,9 +290,6 @@ postVerify-action = Emboheko mba’e’oka upeigua
 postVerify-support = ¿Eporandusépa? Eike { $supportUrl }-pe
 postVerifySecondary-subject = Ñanduti veve mokõiguáva mbojuajupyre
 postVerifySecondary-title = Ñanduti veve mokõiguáva mbojuajupyre
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Ehechajey hekopete { $secondaryEmail } ñanduti veve mokõihávarõ ne { -product-firefox-account } peg̃uarã. Umi marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũgua ko’ág̃a og̃uahẽta mokõivéva ñanduti veve kundaharapépe.
 postVerifySecondary-action = Mba’ete ñangareko
 recovery-subject = Embojevyjey ne ñe’ẽñemi
 recovery-title = ¿Eguerujeýke ne ñe’ẽñemi?
@@ -321,14 +315,10 @@ subscriptionAccountFinishSetup-content-create-2 = Eñepyrũjeývo emoheñói ñe
 subscriptionAccountFinishSetup-action-2 = Ñañepyrũ
 subscriptionAccountReminderFirst-subject = Mandu’arã: Embohekopyahupa ne mba’ete
 subscriptionAccountReminderFirst-title = Ndereikekuaái gueteri ne ñemboheraguapýpe
-subscriptionAccountReminderFirst-content-info = Nda’areiete emoheñói { -product-firefox-account } hákatu araka’eve nderehechajeýi. Roha’ãrõ embohekóvo ne mba’ete, eipurukuaa hag̃ua ne ñemboheraguapy pyahúpe.
-subscriptionAccountReminderFirst-content-select = Eiporavo “Ñe’ẽñemi moheñói” emboheko hag̃ua ñe’ẽñemi pyahu ha ehechajey ne mba’ete.
 subscriptionAccountReminderFirst-action = Emoheñói ñe’ẽñemi
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Mandu’arã paha: Emboheko ne mba’ete
 subscriptionAccountReminderSecond-title = Tereg̃uahẽporãite { -brand-firefox }-pe
-subscriptionAccountReminderSecond-content-info = Nda’areiete emoheñói { -product-firefox-account } hákatu araka’eve nderehechajeýi. Roha’ãrõ embohekóvo ne mba’ete eipurukuaa hag̃ua ne ñemboheraguapy pyahúpe.
-subscriptionAccountReminderSecond-content-select = Eiporavo “Ñe’ẽñemi moheñói” emboheko hag̃ua ñe’ẽñemi pyahu ha ehechajey ne mba’ete.
 subscriptionAccountReminderSecond-action = Emoheñói ñe’ẽñemi
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -579,7 +569,6 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Ñandutiveve ñemoneĩ
 verificationReminderSecond-subject = Mandu’arã paha: emyandy ne mba’ete
 verificationReminderSecond-title = ¿Eime gueteri?
-verificationReminderSecond-description = Ohasáma arapokõindy emoheñói hague { -product-firefox-account }, hákatu nderehechajeýi. Rojepy’apy nderehe.
 verificationReminderSecond-sub-description = Emoneĩ ñanduti veve emyandy hag̃ua ne mba’ete ha péicha roikuaáta oĩporãmbaha.
 verificationReminderSecond-action = Ñandutiveve ñemoneĩ
 verify-title = Emyandy { -brand-firefox } apopyre aty
@@ -599,25 +588,14 @@ verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Tembiapo ñepyrũ ayvu { $serviceName } peg̃uarã
 verifyLoginCode-title = ¿Ndépa emoñepyrũve tembiapo?
-verifyLoginCode-prompt = Upéicharõ, eipuru ko ayvu rechajeyrã:
+verifyLoginCode-prompt-2 = Emoneĩramo, ko’ápe oĩ ayvu rechajeyrã:
 verifyLoginCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
-verifyPrimary-title = Ehechajey ñandutiveve mba’eguasuvéva
+verifyPrimary-title-2 = Emoneĩ ñanduti veve eipuruvéva
 verifyPrimary-description = Ojejerure oñemoambue hag̃ua mba’ete amo mba’e’oka guive:
 verifyPrimary-subject = Emoneĩ ñanduti veve tuichavéva
-verifyPrimary-action = Ñandutiveve hechajey
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Ojehechajeývo, umi mba’ete ambuepyre ojuajukuaáva ñanduti veve mokõihávare ejapóta ko mba’e’oka guive.
 verifySecondaryCode-subject = Emoneĩ ñandutiveve mokõiguáva
-verifySecondaryCode-title = Ehechajey ñanduti veve mokõiháva
-verifySecondaryCode-action = Ehechajey ñanduti veve
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
-verifySecondaryCode-prompt = Eipuru ko ayvu rechajeyrã:
-verifySecondaryCode-expiry-notice = Opáta 5 aravo’ípe. Ojehechajey vove, ko kundaharapépe og̃uahẽ ñepyrũta marandu’i tekorosã ha ñemoneĩ rehegua.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject = Ayvu rechajeyrã: { $code }
 verifyShortCode-title = ¿Ndépa eñemboheguapy?
-verifyShortCode-prompt = Péicharõ, eipuru ko ayvu jehechajeyrã pe ñemboheraguapy myanyhẽhape:
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
