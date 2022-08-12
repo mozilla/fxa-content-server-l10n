@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Skrá þig inn á { -product-firefox-accounts }?
-session-verify-send-push-body = Smelltu hér til að staðfesta að þetta sért þú
+session-verify-send-push-body-2 = Smelltu hér til að staðfesta að þetta sért þú
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -290,10 +290,10 @@ postRemoveTwoStepAuthentication-description = Þú hefur gert óvirka tveggja-þ
 postRemoveTwoStepAuthentication-description-plaintext = Þú hefur gert óvirka tveggja-þrepa auðkenningu á { -product-firefox-account }-reikningnum þínum. Öryggiskóða frá auðkenningarforritinu þínu verður ekki lengur krafist við hverja innskráningu.
 postRemoveTwoStepAuthentication-action = Sýsla með reikning
 postRemoveTwoStepAuthentication-not-required = Ekki verður lengur krafist öryggiskóða við hverja innskráningu.
-postVerify-sub-title = { -product-firefox-account } staðfestur. Þetta er næstum tilbúið.
+postVerify-sub-title-2 = { -product-firefox-account } staðfestur. Þetta er næstum tilbúið.
 postVerify-title = Næst skaltu samstilla á milli tækjanna þinna!
 postVerify-description = Samstillingin sér um að halda bókamerkjunum þínum, lykilorðum og öðrum { -brand-firefox }-gögnum eins í öllum tækjunum þínum.
-postVerify-subject = Reikningur staðfestur. Næst skaltu samstilla annað tæki til að ljúka uppsetningunni
+postVerify-subject-2 = Reikningur staðfestur. Næst skaltu samstilla annað tæki til að ljúka uppsetningunni
 postVerify-setup = Setja upp næsta tæki
 postVerify-action = Setja upp næsta tæki
 # Variables:
@@ -303,7 +303,7 @@ postVerifySecondary-subject = Aukapóstfangi bætt við
 postVerifySecondary-title = Aukapóstfangi bætt við
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Þú hefur staðfest { $secondaryEmail } sem aukapóstfang fyrir { -product-firefox-account }. Öryggistilkynningar og staðfestingar á innskráningu verða nú sendar á bæði tölvupóstföngin.
+postVerifySecondary-content-2 = Þú hefur staðfest { $secondaryEmail } sem aukapóstfang fyrir { -product-firefox-account }. Öryggistilkynningar og staðfestingar á innskráningu verða nú sendar á bæði tölvupóstföngin.
 postVerifySecondary-action = Sýsla með reikning
 recovery-subject = Endurstilla lykilorð
 recovery-title = Þarftu að endurstilla lykilorðið þitt?
@@ -329,14 +329,14 @@ subscriptionAccountFinishSetup-content-create-2 = Næst muntu búa til { -produc
 subscriptionAccountFinishSetup-action-2 = Komast í gang
 subscriptionAccountReminderFirst-subject = Áminning: Ljúktu við að setja upp reikninginn þinn
 subscriptionAccountReminderFirst-title = Þú hefur ekki ennþá aðgang að áskriftinni þinni
-subscriptionAccountReminderFirst-content-info = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
-subscriptionAccountReminderFirst-content-select = Veldu „Búa til lykilorð“ til að setja upp nýtt lykilorð og ljúka við að staðfesta reikninginn þinn.
+subscriptionAccountReminderFirst-content-info-2 = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
+subscriptionAccountReminderFirst-content-select-2 = Veldu „Búa til lykilorð“ til að setja upp nýtt lykilorð og ljúka við að staðfesta reikninginn þinn.
 subscriptionAccountReminderFirst-action = Búa til lykilorð
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Lokaáminning: Settu upp reikninginn þinn
 subscriptionAccountReminderSecond-title = Velkomin í { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
-subscriptionAccountReminderSecond-content-select = Veldu „Búa til lykilorð“ til að setja upp nýtt lykilorð og ljúka við að staðfesta reikninginn þinn.
+subscriptionAccountReminderSecond-content-info-2 = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.
+subscriptionAccountReminderSecond-content-select-2 = Veldu „Búa til lykilorð“ til að setja upp nýtt lykilorð og ljúka við að staðfesta reikninginn þinn.
 subscriptionAccountReminderSecond-action = Búa til lykilorð
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -587,7 +587,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Staðfestu tölvupóstfangið
 verificationReminderSecond-subject = Lokaáminning: Virkjaðu reikninginn þinn
 verificationReminderSecond-title = Ennþá þarna?
-verificationReminderSecond-description = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við höfum dálitlar áhyggjur af þér.
+verificationReminderSecond-description-2 = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við höfum dálitlar áhyggjur af þér.
 verificationReminderSecond-sub-description = Staðfestu þetta tölvupóstfang til að virkja reikninginn þinn og láta okkur vita að allt sé í lagi.
 verificationReminderSecond-action = Staðfesta tölvupóstfang
 verify-title = Virkjaðu { -brand-firefox }-fjölskylduna af hugbúnaði og þjónustum
@@ -607,25 +607,25 @@ verifyLogin-action = Staðfesta innskráningu
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Innskráningarkóði fyrir { $serviceName }
 verifyLoginCode-title = Er þetta þú að skrá þig inn?
-verifyLoginCode-prompt = Ef já, þá er hérna staðfestingarkóðinn:
+verifyLoginCode-prompt-2 = Ef já, þá er hérna staðfestingarkóðinn:
 verifyLoginCode-expiry-notice = Hann rennur út eftir 5 mínútur.
-verifyPrimary-title = Sannreyna aðaltölvupóstfang
+verifyPrimary-title-2 = Staðfestu aðaltölvupóstfangið
 verifyPrimary-description = Beiðni um að breyta reikningi hefur verið gerð úr eftirfarandi tæki:
 verifyPrimary-subject = Staðfestu aðaltölvupóstfang
-verifyPrimary-action = Sannreyna tölvupóstfang
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Þegar staðfesting hefur farið fram, verða mögulegar ýmsar breytingar á borð við að bæta við aukapóstfangi af þessu tæki.
+verifyPrimary-action-2 = Staðfestu tölvupóstfangið
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Þegar staðfesting hefur farið fram, verða mögulegar ýmsar breytingar á borð við að bæta við aukapóstfangi af þessu tæki.
 verifySecondaryCode-subject = Staðfestu aukatölvupóstfang
-verifySecondaryCode-title = Sannreyna aukatölvupóstfang
-verifySecondaryCode-action = Sannreyna tölvupóstfang
+verifySecondaryCode-title-2 = Staðfestu aukatölvupóstfang
+verifySecondaryCode-action-2 = Staðfestu tölvupóstfangið
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Beiðni um að nota { $email } sem aukatölvupóstfang hefur verið gerð úr eftirfarandi { -product-firefox-account }-reikningi:
-verifySecondaryCode-prompt = Notaðu þennan staðfestingarkóða:
-verifySecondaryCode-expiry-notice = Hann rennur út eftir 5 mínútur. Eftir að tölvupóstfangið hefur verið staðfest, mun það fara að fá öryggistilkynningar og staðfestingar.
+verifySecondaryCode-prompt-2 = Notaðu þennan staðfestingarkóða:
+verifySecondaryCode-expiry-notice-2 = Hann rennur út eftir 5 mínútur. Eftir að tölvupóstfangið hefur verið staðfest, mun það fara að fá öryggistilkynningar og staðfestingar.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject = Staðfestingarkóði: { $code }
+verifyShortCode-subject-2 = Staðfestingarkóði: { $code }
 verifyShortCode-title = Ert þú að nýskrá þig?
-verifyShortCode-prompt = Ef já, notaðu þennan staðfestingarkóða á skráningarforminu þínu:
+verifyShortCode-prompt-2 = Ef já, notaðu þennan staðfestingarkóða á skráningarforminu þínu:
 verifyShortCode-expiry-notice = Hann rennur út eftir 5 mínútur.

@@ -228,14 +228,14 @@ modal-cancel-button = Hætta við
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Staðfestu tölvupóstfangið þitt
-mvs-enter-verification-code = Settu inn staðfestingarkóðann þinn
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Staðfestu tölvupóstfangið þitt
+mvs-enter-verification-code-2 = { "" }
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Settu inn staðfestingarkóðann sem sendur var til <email>{ $email }</email> innan 5 mínútna.
+mvs-enter-verification-code-desc-2 = Settu inn staðfestingarkóðann sem sendur var til <email>{ $email }</email> innan 5 mínútna.
 msv-cancel-button = Hætta við
-msv-submit-button = Staðfesta
+msv-submit-button-2 = Staðfesta
 
 ## Settings Nav
 
@@ -392,17 +392,17 @@ add-secondary-email-save-button = Vista
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Skref 2 af 2
-verify-secondary-email-error-2 = Vandamál kom upp við að senda staðfestingarkóðann
+verify-secondary-email-error-3 = Vandamál kom upp við að senda staðfestingarkóðann
 verify-secondary-email-page-title =
     .title = Aukatölvupóstfang
-verify-secondary-email-verification-code =
+verify-secondary-email-verification-code-2 =
     .label = Settu inn staðfestingarkóðann þinn
 verify-secondary-email-cancel-button = Hætta við
-verify-secondary-email-verify-button = Sannreyna
+verify-secondary-email-verify-button-2 = Staðfesta
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Settu inn staðfestingarkóðann sem sendur var til <strong>{ $email }</strong> innan 5 mínútna.
+verify-secondary-email-please-enter-code-2 = Settu inn staðfestingarkóðann sem sendur var til <strong>{ $email }</strong> innan 5 mínútna.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -424,7 +424,7 @@ tfa-button-cancel = Hætta við
 tfa-button-finish = Ljúka
 tfa-incorrect-totp = Rangur tveggja-þrepa auðkenningarkóði
 tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
-tfa-cannot-verify-code-2 = Vandamál kom upp við að staðfesta endurheimtukóðann þinn
+tfa-cannot-verify-code-3 = Vandamál kom upp við að staðfesta endurheimtukóðann þinn
 tfa-incorrect-recovery-code = Rangur endurheimtukóði
 tfa-enabled = Tveggja-þrepa auðkenning virkjuð
 tfa-scan-this-code =
@@ -513,7 +513,7 @@ rk-cannot-remove-key = Ekki var hægt að fjarlægja endurheimtulykil reikningsi
 rk-refresh-key = Endurlesa endurheimtulykil
 rk-content-explain = Endurheimtu gögnin þín ef þú gleymir lykilorðinu þínu.
 rk-content-reset-data = Af hverju mun endurstilling lykilorðsins endurstilla gögnin mín?
-rk-cannot-verify-session-3 = Því miður, upp kom vandamál við að sannreyna setuna þína
+rk-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
 rk-remove-modal-heading = Fjarlægja endurheimtulykil?
 rk-remove-modal-content =
     Ef þú endurstillir lykilorðið þitt, munt þú ekki geta
@@ -526,7 +526,7 @@ rk-remove-error-2 = Ekki var hægt að fjarlægja endurheimtulykil reikningsins 
 se-heading = Aukatölvupóstfang
     .header = Aukatölvupóstfang
 se-cannot-refresh-email = Því miður kom upp vandamál við að endurlesa þetta tölvupóstfang.
-se-cannot-resend-code-2 = Vandamál kom upp við að endursenda staðfestingarkóðann
+se-cannot-resend-code-3 = Vandamál kom upp við að endursenda staðfestingarkóðann
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -537,16 +537,16 @@ se-set-primary-error-2 = Því miður kom upp vandamál við að breyta aðaltö
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = Það tókst að eyða { $email }
 se-delete-email-error-2 = Því miður kom upp vandamál við að eyða þessu tölvupóstfangi
-se-verify-session-2 = Þú þarft að staðfesta fyrirliggjandi setuna þína til að framkvæma þessa aðgerð
-se-verify-session-error-2 = Því miður, upp kom vandamál við að sannreyna setuna þína
+se-verify-session-3 = Þú þarft að staðfesta fyrirliggjandi setuna þína til að framkvæma þessa aðgerð
+se-verify-session-error-3 = Því miður, upp kom vandamál við að sannreyna setuna þína
 # Button to remove the secondary email
 se-remove-email =
     .title = Fjarlægja tölvupóstfang
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Endurlesa tölvupóstfang
-se-unverified = óstaðfest
-se-resend-code =
+se-unverified-2 = óstaðfest
+se-resend-code-2 =
     Staðfesting nauðsynleg. <button>Senda staðfestingarkóða aftur</button>
     ef hann er ekki í pósthólfinu þínu eða ruslpóstmöppunni.
 # Button to make secondary email the primary
@@ -577,7 +577,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Komdu í veg fyrir að einhver annar skrái sig inn með því að krefjast
     einstaks kóða sem aðeins þú hefur aðgang að.
-tfa-row-cannot-verify-session-3 = Því miður, upp kom vandamál við að sannreyna setuna þína
+tfa-row-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
 tfa-row-disable-modal-explain =
@@ -592,7 +592,7 @@ tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
 
 auth-error-102 = Óþekktur reikningur
 auth-error-103 = Rangt lykilorð
-auth-error-105 = Ógildur staðfestingarkóði
+auth-error-105-2 = Ógildur staðfestingarkóði
 auth-error-110 = Ógilt teikn
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -602,8 +602,8 @@ auth-error-110 = Ógilt teikn
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Þú hefur prófað of oft. Reyndu aftur { $retryAfter }.
-auth-error-138 = Óstaðfest seta
+auth-error-138-2 = Óstaðfest seta
 auth-error-139 = Aukatölvupóstfang verður að vera frábrugðið tölvupóstfangi reikningsins þíns
 auth-error-155 = TOTP-teikn fannst ekki
-auth-error-183 = Ógildur eða útrunninn staðfestingarkóði
+auth-error-183-2 = Ógildur eða útrunninn staðfestingarkóði
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
