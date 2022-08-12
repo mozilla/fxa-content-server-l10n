@@ -269,14 +269,14 @@ modal-cancel-button = Prekliči
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Potrdite svoj e-poštni naslov
-mvs-enter-verification-code = Vnesite svojo potrditveno kodo
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Potrdite e-poštni naslov
+mvs-enter-verification-code-2 = Vnesite potrditveno kodo
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Vnesite potrditveno kodo, ki smo jo poslali na <email>{ $email }</email>, v 5 minutah.
+mvs-enter-verification-code-desc-2 = Vnesite potrditveno kodo, ki smo jo poslali na <email>{ $email }</email>, v 5 minutah.
 msv-cancel-button = Prekliči
-msv-submit-button = Potrdi
+msv-submit-button-2 = Potrdi
 
 ## Settings Nav
 
@@ -433,17 +433,17 @@ add-secondary-email-save-button = Shrani
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Korak 2 od 2
-verify-secondary-email-error-2 = Prišlo je do napake pri pošiljanju potrditvene kode
+verify-secondary-email-error-3 = Prišlo je do napake pri pošiljanju potrditvene kode
 verify-secondary-email-page-title =
     .title = Pomožni e-poštni naslov
-verify-secondary-email-verification-code =
-    .label = Vnesite svojo potrditveno kodo
+verify-secondary-email-verification-code-2 =
+    .label = Vnesite potrditveno kodo
 verify-secondary-email-cancel-button = Prekliči
-verify-secondary-email-verify-button = Potrdi
+verify-secondary-email-verify-button-2 = Potrdi
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = V roku 5 minut vnesite potrditveno kodo, ki je bila poslana na <strong>{ $email }</strong>.
+verify-secondary-email-please-enter-code-2 = V roku 5 minut vnesite potrditveno kodo, ki je bila poslana na <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -465,7 +465,7 @@ tfa-button-cancel = Prekliči
 tfa-button-finish = Končaj
 tfa-incorrect-totp = Nepravilna koda za overitev v dveh korakih
 tfa-cannot-retrieve-code = Prišlo je do napake pri pridobivanju vaše kode.
-tfa-cannot-verify-code-2 = Prišlo je do napake pri preverjanju obnovitvene kode
+tfa-cannot-verify-code-3 = Prišlo je do napake pri potrjevanju obnovitvene kode
 tfa-incorrect-recovery-code = Nepravilna koda za obnovitev
 tfa-enabled = Overitev v dveh korakih je omogočena
 tfa-scan-this-code =
@@ -554,7 +554,7 @@ rk-cannot-remove-key = Ključa za obnovitev računa ni bilo mogoče odstraniti.
 rk-refresh-key = Osveži obnovitveni ključ
 rk-content-explain = Obnovite svoje podatke, če pozabite geslo.
 rk-content-reset-data = Zakaj ponastavitev gesla izbriše moje podatke?
-rk-cannot-verify-session-3 = Oprostite, prišlo je do težave pri preverjanju vaše seje
+rk-cannot-verify-session-4 = Oprostite, prišlo je do težave pri potrjevanju vaše seje
 rk-remove-modal-heading = Odstrani obnovitveni ključ?
 rk-remove-modal-content =
     V primeru, da ponastavite geslo, obnovitvenega ključa
@@ -567,7 +567,7 @@ rk-remove-error-2 = Ključa za obnovitev računa ni bilo mogoče odstraniti
 se-heading = Pomožni e-poštni naslov
     .header = Pomožni e-poštni naslov
 se-cannot-refresh-email = Oprostite, prišlo je do težave pri osveževanju e-poštnega naslova.
-se-cannot-resend-code-2 = Prišlo je do napake pri ponovnem pošiljanju potrditvene kode
+se-cannot-resend-code-3 = Prišlo je do napake pri ponovnem pošiljanju potrditvene kode
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -578,16 +578,16 @@ se-set-primary-error-2 = Oprostite, pri spreminjanju glavnega e-poštnega naslov
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } uspešno izbrisan
 se-delete-email-error-2 = Oprostite, pri brisanju tega sporočila je prišlo do težave
-se-verify-session-2 = Za izvedbo tega dejanja boste morali potrditi svojo trenutno sejo
-se-verify-session-error-2 = Oprostite, prišlo je do težave pri preverjanju vaše seje
+se-verify-session-3 = Za izvedbo tega dejanja boste morali potrditi svojo trenutno sejo
+se-verify-session-error-3 = Oprostite, prišlo je do težave pri potrjevanju vaše seje
 # Button to remove the secondary email
 se-remove-email =
     .title = Odstrani e-poštni naslov
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Osveži e-poštni naslov
-se-unverified = nepotrjen
-se-resend-code =
+se-unverified-2 = nepotrjeno
+se-resend-code-2 =
     Potrebna je potrditev. <button>Ponovno pošlji potrditveno kodo</button>,
     če ni prispela med prejeto ali neželeno pošto.
 # Button to make secondary email the primary
@@ -618,7 +618,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Preprečite, da bi se v vaš račun prijavil kdo drug, z
     zahtevanjem edinstvene kode, do katere imate dostop samo vi.
-tfa-row-cannot-verify-session-3 = Oprostite, prišlo je do težave pri preverjanju vaše seje
+tfa-row-cannot-verify-session-4 = Oprostite, prišlo je do težave pri potrjevanju vaše seje
 tfa-row-disable-modal-heading = Ali želite onemogočiti overitev v dveh korakih?
 tfa-row-disable-modal-confirm = Onemogoči
 tfa-row-disable-modal-explain =
@@ -633,7 +633,7 @@ tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 
 auth-error-102 = Neznan račun
 auth-error-103 = Napačno geslo
-auth-error-105 = Neveljavna potrditvena koda
+auth-error-105-2 = Neveljavna potrditvena koda
 auth-error-110 = Neveljaven žeton
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -643,8 +643,8 @@ auth-error-110 = Neveljaven žeton
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Preveč poskusov. Poskusite znova { $retryAfter }.
-auth-error-138 = Nepreverjena seja
+auth-error-138-2 = Nepotrjena seja
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 auth-error-155 = Žetona TOTP ni mogoče najti
-auth-error-183 = Neveljavna ali pretečena potrditvena koda
+auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
 auth-error-1008 = Novo geslo mora biti drugačno

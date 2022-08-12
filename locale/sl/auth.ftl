@@ -54,7 +54,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Se prijavljate v { -product-firefox-accounts(sklon: "tozilnik") }?
-session-verify-send-push-body = Kliknite tukaj za potrditev, da ste to vi
+session-verify-send-push-body-2 = Kliknite tukaj za potrditev, da ste to vi
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -312,9 +312,7 @@ postRemoveTwoStepAuthentication-description = Uspešno ste onemogočili overitev
 postRemoveTwoStepAuthentication-description-plaintext = Uspešno ste onemogočili overitev v dveh korakih za svoj { -product-firefox-account }. Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
 postRemoveTwoStepAuthentication-action = Upravljanje računa
 postRemoveTwoStepAuthentication-not-required = Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
-postVerify-sub-title = { -product-firefox-account } je potrjen. Skoraj ste gotovi.
 postVerify-description = Sinhronizacija zasebno usklajuje zaznamke, gesla in druge podatke { -brand-firefox }a na vseh vaših napravah.
-postVerify-subject = Račun potrjen. Sedaj sinhronizirajte drugo napravo, da dokončate nastavitev
 postVerify-setup = Nastavite naslednjo napravo
 postVerify-action = Nastavite naslednjo napravo
 # Variables:
@@ -322,9 +320,6 @@ postVerify-action = Nastavite naslednjo napravo
 postVerify-support = Imate vprašanja? Obiščite { $supportUrl }
 postVerifySecondary-subject = Pomožni e-poštni naslov dodan
 postVerifySecondary-title = Pomožni e-poštni naslov dodan
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Uspešno ste potrdili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostna obvestila in potrditve prijav se bodo zdaj pošiljale na oba naslova.
 postVerifySecondary-action = Upravljanje računa
 recovery-subject = Ponastavite vaše geslo
 recovery-title = Morate ponastaviti geslo?
@@ -350,14 +345,10 @@ subscriptionAccountFinishSetup-content-create-2 = Nato boste ustvarili geslo za 
 subscriptionAccountFinishSetup-action-2 = Začnite
 subscriptionAccountReminderFirst-subject = Opomnik: Dokončajte nastavljanje računa
 subscriptionAccountReminderFirst-title = Dostop do vaše naročnine še ni možen
-subscriptionAccountReminderFirst-content-info = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Upamo, da boste dokončali nastavitev računa in omogočili uporabo svoje naročnine.
-subscriptionAccountReminderFirst-content-select = Izberite "Ustvari geslo", da nastavite novo geslo in dokončate potrjevanje računa.
 subscriptionAccountReminderFirst-action = Ustvari geslo
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Zadnji opomnik: Nastavite svoj račun
 subscriptionAccountReminderSecond-title = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
-subscriptionAccountReminderSecond-content-info = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Upamo, da boste dokončali nastavitev računa in omogočili uporabo svoje naročnine.
-subscriptionAccountReminderSecond-content-select = Izberite "Ustvari geslo", da nastavite novo geslo in dokončate potrjevanje računa.
 subscriptionAccountReminderSecond-action = Ustvari geslo
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -575,7 +566,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Potrdite e-poštni naslov
 verificationReminderSecond-subject = Zadnji opomnik: Aktivirajte svoj račun
 verificationReminderSecond-title = Ste še tu?
-verificationReminderSecond-description = Pred slabim tednom ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Skrbi nas za vas.
+verificationReminderSecond-description-2 = Pred slabim tednom ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Skrbi nas za vas.
 verificationReminderSecond-sub-description = Potrdite ta e-poštni naslov, da omogočite svoj račun in nam sporočite, da ste v redu.
 verificationReminderSecond-action = Potrdite e-poštni naslov
 verify-title = Aktivirajte družino { -brand-firefox }ovih izdelkov
@@ -595,25 +586,25 @@ verifyLogin-action = Potrdite prijavo
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Koda za prijavo v { $serviceName }
 verifyLoginCode-title = Se prijavljate vi?
-verifyLoginCode-prompt = Če da, uporabite to potrditveno kodo:
+verifyLoginCode-prompt-2 = Če da, uporabite to potrditveno kodo:
 verifyLoginCode-expiry-notice = Poteče čez 5 minut.
-verifyPrimary-title = Potrdi glavni e-poštni naslov
+verifyPrimary-title-2 = Potrdi glavni e-poštni naslov
 verifyPrimary-description = Poslan je bil zahtevek za spremembo računa z naslednje naprave:
 verifyPrimary-subject = Potrdi glavni e-poštni naslov
-verifyPrimary-action = Potrdi e-poštni naslov
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Potem ko ga potrdite, bodo na tej napravi omogočene tudi spremembe računa, kot je dodajanje pomožnega e-poštnega naslova.
+verifyPrimary-action-2 = Potrdi e-poštni naslov
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Potem ko ga potrdite, bodo na tej napravi omogočene tudi spremembe računa, kot je dodajanje pomožnega e-poštnega naslova.
 verifySecondaryCode-subject = Potrdi pomožni e-poštni naslov
-verifySecondaryCode-title = Potrdi pomožni e-poštni naslov
-verifySecondaryCode-action = Potrdi e-poštni naslov
+verifySecondaryCode-title-2 = Potrdi pomožni e-poštni naslov
+verifySecondaryCode-action-2 = Potrdi e-poštni naslov
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Poslana je bila zahteva za uporabo { $email } kot pomožni e-poštni naslov naslednjega { -product-firefox-account(sklon: "rodilnik") }:
-verifySecondaryCode-prompt = Uporabite to potrditveno kodo:
-verifySecondaryCode-expiry-notice = Poteče čez 5 minut. Ko naslov potrdite, bo začel prejemati varnostna obvestila in potrditve.
+verifySecondaryCode-prompt-2 = Uporabite to potrditveno kodo:
+verifySecondaryCode-expiry-notice-2 = Poteče čez 5 minut. Ko naslov potrdite, bo začel prejemati varnostna obvestila in potrditve.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject = Koda za potrditev: { $code }
+verifyShortCode-subject-2 = Potrditvena koda: { $code }
 verifyShortCode-title = Se prijavljate vi?
-verifyShortCode-prompt = Če je odgovor pritrdilen, v obrazcu za registracijo uporabite to potrditveno kodo:
+verifyShortCode-prompt-2 = Če je odgovor pritrdilen, v obrazcu za registracijo uporabite to potrditveno kodo:
 verifyShortCode-expiry-notice = Poteče čez 5 minut.

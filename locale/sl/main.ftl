@@ -84,6 +84,8 @@ product-plan-error =
     .title = Napaka pri nalaganju načrtov
 product-profile-error =
     .title = Napaka pri nalaganju profila
+product-customer-error =
+    .title = Napaka pri nalaganju stranke
 product-plan-not-found = Načrta ni mogoče najti
 product-no-such-plan = Za ta izdelek ni takšnega načrta.
 
@@ -296,6 +298,7 @@ coupon-discount = Popust
 coupon-submit = Uveljavi
 coupon-remove = Odstrani
 coupon-error = Koda, ki ste jo vnesli, je neveljavna ali pretečena.
+coupon-error-generic = Pri obdelavi kode je prišlo do napake. Poskusite znova.
 coupon-error-expired = Kodi, ki ste jo vnesli, je potekla veljavnost.
 coupon-error-limit-reached = Koda, ki ste jo vnesli, je dosegla svojo omejitev.
 coupon-error-invalid = Koda, ki ste jo vnesli, je neveljavna.
