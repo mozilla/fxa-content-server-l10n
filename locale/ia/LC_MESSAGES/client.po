@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-12 06:13+0000\n"
+"PO-Revision-Date: 2022-08-12 06:23+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -82,7 +82,7 @@ msgstr "Le notificationes del conto essera ora inviate anque a %(secondaryEmailV
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Email secundari confirmate"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,7 +94,7 @@ msgstr "Tu es preste a usar %(serviceName)s"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Conto confirmate"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -218,7 +218,7 @@ msgstr "Imprimite"
 
 #: .es5/views/behaviors/settings.js:40
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Conto confirmate con successo"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -1001,23 +1001,23 @@ msgstr "Session ja confirmate"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Ligamine de confirmation expirate"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Le ligamine que tu cliccava pro confirmar tu adresse email ha expirate."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Clicca ci pro reciper un nove ligamine de confirmation"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Ligamine de confirmation damnificate"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Error de confirmation"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1029,7 +1029,7 @@ msgstr "Confirmar iste session"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Consulta le ligamine de confirmation inviate &nbsp; ;a %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1094,7 +1094,7 @@ msgstr "Conto Firefox connexe"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "Email confirmate"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1397,7 +1397,7 @@ msgstr "Nomine de evento"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Confirmate"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1677,7 +1677,7 @@ msgstr "Forsan un altere vice"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Insere le codice de confirmation inviate a %(escapedEmail)s in 5 minutas."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
