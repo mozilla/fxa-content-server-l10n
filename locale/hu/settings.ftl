@@ -228,14 +228,14 @@ modal-cancel-button = Mégse
 
 ## Modal Verify Session
 
-mvs-verify-your-email = E-mail-cím megerősítése
-mvs-enter-verification-code = Adja meg az ellenőrzőkódját
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Erősítse meg az e-mail-címét
+mvs-enter-verification-code-2 = Adja meg a megerősítő kódját
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Adja meg 5 percen belül a(z) <email>{ $email }</email> címre küldött ellenőrzőkódot.
+mvs-enter-verification-code-desc-2 = Adja meg 5 percen belül a(z) <email>{ $email }</email> címre küldött megerősítő kódot.
 msv-cancel-button = Mégse
-msv-submit-button = Ellenőrzés
+msv-submit-button-2 = Megerősítés
 
 ## Settings Nav
 
@@ -392,17 +392,17 @@ add-secondary-email-save-button = Mentés
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2. / 2. lépés
-verify-secondary-email-error-2 = Hiba történt az ellenőrzőkód elküldésekor
+verify-secondary-email-error-3 = Hiba történt az megerősítő kód elküldésekor
 verify-secondary-email-page-title =
     .title = Másodlagos e-mail
-verify-secondary-email-verification-code =
-    .label = Adja meg az ellenőrzőkódját
+verify-secondary-email-verification-code-2 =
+    .label = Adja meg a megerősítő kódját
 verify-secondary-email-cancel-button = Mégse
-verify-secondary-email-verify-button = Ellenőrzés
+verify-secondary-email-verify-button-2 = Megerősítés
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Adja meg 5 percen belül a(z) <strong>{ $email }</strong> címre küldött ellenőrzőkódot.
+verify-secondary-email-please-enter-code-2 = Adja meg 5 percen belül a(z) <strong>{ $email }</strong> címre küldött megerősítő kódot.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -424,7 +424,7 @@ tfa-button-cancel = Mégse
 tfa-button-finish = Befejezés
 tfa-incorrect-totp = Helytelen kétlépcsős hitelesítési kód
 tfa-cannot-retrieve-code = Hiba történt a kód lekérésekor.
-tfa-cannot-verify-code-2 = Hiba történt a helyreállítási kódok ellenőrzésekor
+tfa-cannot-verify-code-3 = Hiba történt a helyreállítási kódok megerősítésekor
 tfa-incorrect-recovery-code = Helytelen helyreállítási kód
 tfa-enabled = Kétlépcsős hitelesítés engedélyezve
 tfa-scan-this-code =
@@ -513,7 +513,7 @@ rk-cannot-remove-key = A fiók-helyreállítási kulcsot nem sikerült eltávol�
 rk-refresh-key = Helyreállítási kulcs frissítése
 rk-content-explain = Állítsa vissza adatait, ha elfelejtette jelszavát.
 rk-content-reset-data = A jelszó visszaállítása miért törli az adatokat?
-rk-cannot-verify-session-3 = Sajnos probléma merült fel a munkamenet ellenőrzésekor
+rk-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor
 rk-remove-modal-heading = Eltávolítja a helyreállítási kulcsot?
 rk-remove-modal-content =
     Ha visszaállítja jelszavát, akkor nem fogja tudni használni
@@ -526,7 +526,6 @@ rk-remove-error-2 = A fiók-helyreállítási kulcsot nem sikerült eltávolíta
 se-heading = Másodlagos e-mail
     .header = Másodlagos e-mail
 se-cannot-refresh-email = Sajnos probléma merült fel az e-mail frissítésekor.
-se-cannot-resend-code-2 = Sajnos probléma merült fel az ellenőrzőkód újraküldésekor
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -537,18 +536,12 @@ se-set-primary-error-2 = Sajnos probléma merült fel az elsődleges e-mail-cím
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = A(z) { $email } sikeresen törölve
 se-delete-email-error-2 = Sajnos probléma merült fel az e-mail-cím törlésekor
-se-verify-session-2 = A művelet végrehajtásához ellenőriznie kell a jelenlegi munkamenetet
-se-verify-session-error-2 = Sajnos probléma merült fel a munkamenet ellenőrzésekor
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mail-cím eltávolítása
 # Button to refresh secondary email status
 se-refresh-email =
     .title = E-mail-cím frissítése
-se-unverified = nem ellenőrzött
-se-resend-code =
-    Ellenőrzés szükséges. <button>Küldje újra az ellenőrzőkódot</button>,
-    ha nincs a beérkezett levelek vagy a levélszemét mappában.
 # Button to make secondary email the primary
 se-make-primary = Elsődlegessé tétel
 se-default-content = Érje el a fiókját, ha nem tud bejelentkezni az elsődleges e-mail-fiókjába.
@@ -577,7 +570,6 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Akadályozza meg, hogy valaki más lépjen be, követeljen meg
     egy egyedi kódot, amelyhez csak Ön fér hozzá.
-tfa-row-cannot-verify-session-3 = Sajnos probléma merült fel a munkamenet ellenőrzésekor
 tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
 tfa-row-disable-modal-confirm = Letiltás
 tfa-row-disable-modal-explain =
@@ -592,7 +584,6 @@ tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 
 auth-error-102 = Ismeretlen fiók
 auth-error-103 = Helytelen jelszó
-auth-error-105 = Érvénytelen ellenőrzőkód
 auth-error-110 = Érvénytelen token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -602,8 +593,6 @@ auth-error-110 = Érvénytelen token
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter } múlva.
-auth-error-138 = Nem ellenőrzött munkamenet
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
-auth-error-183 = Érvénytelen vagy lejárt ellenőrzőkód
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie

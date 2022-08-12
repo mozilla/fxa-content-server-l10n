@@ -622,5 +622,10 @@ verifySecondaryCode-action-2 = E-mail-cím megerősítése
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -product-firefox-account }ból lett küldve:
 verifySecondaryCode-prompt-2 = Használja ezt a megerősítő kódot:
+verifySecondaryCode-expiry-notice-2 = 5 perc múlva lejár. Ha megerősíti, akkor ez a cím meg fogja kapni a biztonsági értesítéseket és megerősítéseket.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-2 = Megerősítő kód: { $code }
 verifyShortCode-title = Ez az ön regisztrációja?
+verifyShortCode-prompt-2 = Ha igen, használja ezt a megerősítő kódot a regisztrációs űrlapján:
 verifyShortCode-expiry-notice = 5 perc múlva lejár.
