@@ -604,12 +604,18 @@ se-set-primary-error-2 = Перепрошуємо, але під час змін
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } успішно видалено
 se-delete-email-error-2 = Перепрошуємо, але під час видалення цієї адреси виникла проблема
+se-verify-session-3 = Щоб виконати цю дію, вам потрібно підтвердити поточний сеанс
+se-verify-session-error-3 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 # Button to remove the secondary email
 se-remove-email =
     .title = Вилучити е-пошту
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Оновити е-пошту
+se-unverified-2 = не підтверджено
+se-resend-code-2 =
+    Необхідне підтвердження. Повторно <button>надіслати код підтвердження</button>
+    якщо його немає у вашій поштовій скриньці чи спамі.
 # Button to make secondary email the primary
 se-make-primary = Зробити основною
 se-default-content = Доступ до облікового запису, якщо ви не можете увійти за допомогою основної е-пошти.
@@ -638,6 +644,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Запобігайте входу когось іншого, вимагаючи
     унікальний код, який є лише у вас.
+tfa-row-cannot-verify-session-4 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 tfa-row-disable-modal-heading = Вимкнути двоетапну перевірку?
 tfa-row-disable-modal-confirm = Вимкнути
 tfa-row-disable-modal-explain =
@@ -652,6 +659,7 @@ tfa-row-change-modal-explain = Ви не зможете скасувати цю 
 
 auth-error-102 = Невідомий обліковий запис
 auth-error-103 = Неправильний пароль
+auth-error-105-2 = Недійсний код підтвердження!
 auth-error-110 = Недійсний код
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -661,6 +669,8 @@ auth-error-110 = Недійсний код
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Ви зробили надто багато спроб. Повторіть спробу через { $retryAfter }.
+auth-error-138-2 = Непідтверджений сеанс
 auth-error-139 = Додаткова адреса електронної пошти повинна відрізнятися від адреси вашого облікового запису
 auth-error-155 = TOTP-код не знайдено
+auth-error-183-2 = Недійсний або протермінований код підтвердження
 auth-error-1008 = Ваш новий пароль повинен бути іншим
