@@ -26,7 +26,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = מנסה להתחבר ל־{ -product-firefox-accounts }?
-session-verify-send-push-body = לחיצה כאן תאמת את זהותך
+session-verify-send-push-body-2 = נא ללחוץ כאן כדי לאמת את זהותך
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -291,10 +291,8 @@ postRemoveTwoStepAuthentication-description = השבתת בהצלחה אימות
 postRemoveTwoStepAuthentication-description-plaintext = השבתת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך. לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
 postRemoveTwoStepAuthentication-action = ניהול חשבון
 postRemoveTwoStepAuthentication-not-required = לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
-postVerify-sub-title = { -product-firefox-account(case: "the") } אומת. כמעט סיימת.
 postVerify-title = עכשיו ניתן לסנכרן בין המכשירים שלך!
 postVerify-description = הסנכרון שומר באופן פרטי שהסימניות, הססמאות ושאר הנתונים האחרים שלך ב־{ -brand-firefox } ישארו זהים בכל המכשירים שלך.
-postVerify-subject = החשבון אומת. כעת, יש לסנכרן מכשיר נוסף כדי לסיים את ההתקנה
 postVerify-setup = הגדרת המכשיר הבא
 postVerify-action = הגדרת המכשיר הבא
 # Variables:
@@ -302,9 +300,6 @@ postVerify-action = הגדרת המכשיר הבא
 postVerify-support = יש לך שאלות? ניתן לבקר ב־{ $supportUrl }
 postVerifySecondary-subject = נוספה כתובת דוא״ל משנית
 postVerifySecondary-title = נוספה כתובת דוא״ל משנית
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = אימתת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-firefox-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה כעת יישלחו אל שתי כתובות הדוא״ל שלך.
 postVerifySecondary-action = ניהול חשבון
 recovery-subject = איפוס ססמה
 recovery-title = רצית לאפס את הססמה שלך?
@@ -328,14 +323,10 @@ subscriptionAccountFinishSetup-title = ברוכים הבאים אל { $productNa
 subscriptionAccountFinishSetup-action-2 = תחילת עבודה
 subscriptionAccountReminderFirst-subject = תזכורת: סיום הגדרת החשבון שלך
 subscriptionAccountReminderFirst-title = אין לך עדיין אפשרות לגשת למינוי שלך
-subscriptionAccountReminderFirst-content-info = לפני מספר ימים יצרת { -product-firefox-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.
-subscriptionAccountReminderFirst-content-select = יש לבחור ב״יצירת ססמה״ כדי להגדיר ססמה חדשה ולסיים את אימות החשבון שלך.
 subscriptionAccountReminderFirst-action = יצירת ססמה
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = תזכורת אחרונה: הגדרת החשבון שלך
 subscriptionAccountReminderSecond-title = ברוכים הבאים אל { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = לפני מספר ימים יצרת { -product-firefox-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.
-subscriptionAccountReminderSecond-content-select = יש לבחור ב״יצירת ססמה״ כדי להגדיר ססמה חדשה ולסיים את אימות החשבון שלך.
 subscriptionAccountReminderSecond-action = יצירת ססמה
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -574,7 +565,6 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = אימות דוא״ל
 verificationReminderSecond-subject = תזכורת אחרונה: הפעלת החשבון שלך
 verificationReminderSecond-title = עדיין פה?
-verificationReminderSecond-description = לפני כשבוע יצרת { -product-firefox-account(case: "a") } אך לא אימתת אותו. אנחנו דואגים לך.
 verificationReminderSecond-action = אימות דוא״ל
 verify-title = הפעלת משפחת המוצרים של { -brand-firefox }
 verify-description-plaintext = אישור החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-firefox } עם כל מכשיר מחובר.
@@ -593,25 +583,12 @@ verifyLogin-action = אישור התחברות
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = קוד כניסה ל־{ $serviceName }
 verifyLoginCode-title = האם התחברות זו מוכרת לך?
-verifyLoginCode-prompt = אם כן, להלן קוד האימות:
 verifyLoginCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
-verifyPrimary-title = אימות כתובת דוא״ל ראשית
 verifyPrimary-description = בקשה לביצוע שינוי בחשבון נעשתה מהמכשיר הבא:
 verifyPrimary-subject = אימות כתובת דוא״ל ראשית
-verifyPrimary-action = אימות דוא״ל
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = לאחר האימות, שינויים בחשבון כגון הוספת כתובת דוא״ל משנית יתאפשרו ממכשיר זה.
 verifySecondaryCode-subject = אימות כתובת דוא״ל משנית
-verifySecondaryCode-title = אימות כתובת דוא״ל משנית
-verifySecondaryCode-action = אימות דוא״ל
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = הוגשה בקשה להשתמש בכתובת { $email } ככתובת דוא״ל משנית מ{ -product-firefox-account(case: "the") } הבא:
-verifySecondaryCode-prompt = נא להשתמש בקוד האימות הזה:
-verifySecondaryCode-expiry-notice = הקוד יפוג בתוך 5 דקות. לאחר האימות כל התרעות האבטחה והאישורים יישלחו לכתובת הזו.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject = קוד אימות: { $code }
 verifyShortCode-title = האם הבקשה להרשמה הגיעה ממך?
-verifyShortCode-prompt = אם כן, יש להשתמש בקוד אימות זה בטופס ההרשמה שלך:
 verifyShortCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
