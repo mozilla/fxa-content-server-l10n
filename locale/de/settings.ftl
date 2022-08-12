@@ -226,14 +226,14 @@ modal-cancel-button = Abbrechen
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Bestätigen Sie Ihre E-Mail-Adresse
-mvs-enter-verification-code = Geben Sie Ihren Bestätigungscode ein
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Ihre E-Mail-Adresse bestätigen
+mvs-enter-verification-code-2 = Geben Sie Ihren Bestätigungscode ein
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Bitte geben Sie innerhalb von 5 Minuten den Bestätigungscode ein, der an <email>{ $email }</email> gesendet wurde.
+mvs-enter-verification-code-desc-2 = Bitte geben Sie innerhalb von fünf Minuten den Bestätigungscode ein, der an <email>{ $email }</email> gesendet wurde.
 msv-cancel-button = Abbrechen
-msv-submit-button = Bestätigen
+msv-submit-button-2 = Bestätigen
 
 ## Settings Nav
 
@@ -390,17 +390,17 @@ add-secondary-email-save-button = Speichern
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Schritt 2 von 2
-verify-secondary-email-error-2 = Beim Senden des Bestätigungscodes ist ein Fehler aufgetreten.
+verify-secondary-email-error-3 = Beim Senden des Bestätigungscodes ist ein Fehler aufgetreten.
 verify-secondary-email-page-title =
     .title = Zweit-E-Mail-Adresse
-verify-secondary-email-verification-code =
+verify-secondary-email-verification-code-2 =
     .label = Geben Sie Ihren Bestätigungscode ein
 verify-secondary-email-cancel-button = Abbrechen
-verify-secondary-email-verify-button = Bestätigen
+verify-secondary-email-verify-button-2 = Bestätigen
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Bitte geben Sie innerhalb von 5 Minuten den Bestätigungscode ein, der an <strong>{ $email }</strong> gesendet wurde.
+verify-secondary-email-please-enter-code-2 = Bitte geben Sie innerhalb von fünf Minuten den Bestätigungscode ein, der an <strong>{ $email }</strong> gesendet wurde.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -422,7 +422,7 @@ tfa-button-cancel = Abbrechen
 tfa-button-finish = Abschließen
 tfa-incorrect-totp = Falscher Code für Zwei-Schritt-Authentifizierung
 tfa-cannot-retrieve-code = Beim Abrufen Ihres Codes ist ein Fehler aufgetreten.
-tfa-cannot-verify-code-2 = Beim Bestätigen Ihres Wiederherstellungscodes ist ein Fehler aufgetreten.
+tfa-cannot-verify-code-3 = Beim Bestätigen Ihres Wiederherstellungscodes ist ein Fehler aufgetreten.
 tfa-incorrect-recovery-code = Falscher Wiederherstellungscode
 tfa-enabled = Zwei-Schritt-Authentifizierung aktiviert
 tfa-scan-this-code =
@@ -509,7 +509,7 @@ rk-cannot-remove-key = Ihr Kontowiederherstellungsschlüssel konnte nicht entfer
 rk-refresh-key = Wiederherstellungsschlüssel aktualisieren
 rk-content-explain = Stellen Sie Ihre Daten wieder her, wenn Sie Ihr Passwort vergessen haben.
 rk-content-reset-data = Warum werden meine Daten durch Zurücksetzen meines Passworts zurückgesetzt?
-rk-cannot-verify-session-3 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
+rk-cannot-verify-session-4 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
 rk-remove-modal-heading = Wiederherstellungsschlüssel entfernen?
 rk-remove-modal-content =
     Wenn Sie Ihr Passwort zurücksetzen, können Sie Ihren Wiederherstellungsschlüssel
@@ -522,7 +522,7 @@ rk-remove-error-2 = Ihr Kontowiederherstellungsschlüssel konnte nicht entfernt 
 se-heading = Zweit-E-Mail-Adresse
     .header = Zweit-E-Mail-Adresse
 se-cannot-refresh-email = Beim Aktualisieren dieser E-Mail-Adresse ist ein Fehler aufgetreten.
-se-cannot-resend-code-2 = Beim erneuten Senden des Bestätigungscodes ist ein Fehler aufgetreten.
+se-cannot-resend-code-3 = Beim erneuten Senden des Bestätigungscodes ist ein Fehler aufgetreten.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -533,16 +533,16 @@ se-set-primary-error-2 = Beim Ändern Ihrer primären E-Mail-Adresse ist ein Feh
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } erfolgreich gelöscht.
 se-delete-email-error-2 = Beim Löschen dieser E-Mail-Adresse ist ein Fehler aufgetreten.
-se-verify-session-2 = Sie müssen Ihre aktuelle Sitzung bestätigen, um diese Aktion ausführen zu können.
-se-verify-session-error-2 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
+se-verify-session-3 = Sie müssen Ihre aktuelle Sitzung bestätigen, um diese Aktion ausführen zu können.
+se-verify-session-error-3 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
 # Button to remove the secondary email
 se-remove-email =
     .title = E-Mail-Adresse entfernen
 # Button to refresh secondary email status
 se-refresh-email =
     .title = E-Mail-Adresse aktualisieren
-se-unverified = Nicht überprüft
-se-resend-code =
+se-unverified-2 = unbestätigt
+se-resend-code-2 =
     Bestätigung erforderlich. <button>Senden Sie den Bestätigungscode erneut</button>,
     wenn er sich nicht in Ihrem Posteingang oder Spam-Ordner befindet.
 # Button to make secondary email the primary
@@ -573,7 +573,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Verhindern Sie mit einem eindeutigen Code, den nur Sie besitzen,
     fremden Zugriff auf Ihr Konto.
-tfa-row-cannot-verify-session-3 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
+tfa-row-cannot-verify-session-4 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
 tfa-row-disable-modal-heading = Zwei-Schritt-Authentifizierung deaktivieren?
 tfa-row-disable-modal-confirm = Deaktivieren
 tfa-row-disable-modal-explain =
@@ -588,7 +588,7 @@ tfa-row-change-modal-explain = Dies kann nicht rückgängig gemacht werden.
 
 auth-error-102 = Unbekanntes Konto
 auth-error-103 = Ungültiges Passwort
-auth-error-105 = Ungültiger Verifizierungscode
+auth-error-105-2 = Ungültiger Bestätigungscode
 auth-error-110 = Ungültiger Schlüssel
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -598,8 +598,8 @@ auth-error-110 = Ungültiger Schlüssel
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Sie haben es zu häufig versucht. Versuchen Sie es nach { $retryAfter } erneut.
-auth-error-138 = Nicht verifizierte Sitzung
+auth-error-138-2 = Unbestätigte Sitzung
 auth-error-139 = Die Zweit-E-Mail-Adresse muss sich von der Adresse Ihres Kontos unterscheiden.
 auth-error-155 = TOTP-Token nicht gefunden
-auth-error-183 = Ungültiger oder abgelaufener Anmeldungs-Verifizierungscode
+auth-error-183-2 = Ungültiger oder abgelaufener Bestätigungscode
 auth-error-1008 = Ihr neues Passwort muss ein anderes sein
