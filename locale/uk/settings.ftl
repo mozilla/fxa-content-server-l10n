@@ -293,14 +293,14 @@ modal-cancel-button = Скасувати
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Підтвердьте свою е-пошту
-mvs-enter-verification-code = Введіть код підтвердження
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Підтвердьте електронну адресу
+mvs-enter-verification-code-2 = Введіть код підтвердження
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Введіть код підтвердження, надісланий на <email>{ $email }</email> упродовж 5 хвилин.
+mvs-enter-verification-code-desc-2 = Введіть код підтвердження, надісланий на <email>{ $email }</email> упродовж 5 хвилин.
 msv-cancel-button = Скасувати
-msv-submit-button = Підтвердити
+msv-submit-button-2 = Підтвердити
 
 ## Settings Nav
 
@@ -457,17 +457,17 @@ add-secondary-email-save-button = Зберегти
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Крок 2 з 2
-verify-secondary-email-error-2 = Виникла проблема під час надсилання коду підтвердження
+verify-secondary-email-error-3 = Виникла проблема під час надсилання коду підтвердження
 verify-secondary-email-page-title =
     .title = Додаткова адреса електронної пошти
-verify-secondary-email-verification-code =
+verify-secondary-email-verification-code-2 =
     .label = Введіть код підтвердження
 verify-secondary-email-cancel-button = Скасувати
-verify-secondary-email-verify-button = Підтвердити
+verify-secondary-email-verify-button-2 = Підтвердити
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Введіть код підтвердження, надісланий на <strong>{ $email }</strong> упродовж 5 хвилин.
+verify-secondary-email-please-enter-code-2 = Введіть код підтвердження, надісланий на <strong>{ $email }</strong> упродовж 5 хвилин.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -489,7 +489,7 @@ tfa-button-cancel = Скасувати
 tfa-button-finish = Завершити
 tfa-incorrect-totp = Неправильний код двоетапної перевірки
 tfa-cannot-retrieve-code = Виникла проблема при отриманні вашого коду.
-tfa-cannot-verify-code-2 = Виникла проблема під час перевірки вашого коду відновлення
+tfa-cannot-verify-code-3 = Виникла проблема під час перевірки вашого коду відновлення
 tfa-incorrect-recovery-code = Неправильний код відновлення
 tfa-enabled = Двоетапну перевірку увімкнено
 tfa-scan-this-code =
@@ -580,7 +580,7 @@ rk-cannot-remove-key = Не вдається видалити ключ відн�
 rk-refresh-key = Оновити ключ відновлення
 rk-content-explain = Відновіть інформацію, коли забудете пароль.
 rk-content-reset-data = Чому скидання пароля скидає мої дані?
-rk-cannot-verify-session-3 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
+rk-cannot-verify-session-4 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 rk-remove-modal-heading = Вилучити ключ відновлення?
 rk-remove-modal-content =
     У випадку скидання пароля, ви не зможете використати
@@ -593,7 +593,7 @@ rk-remove-error-2 = Не вдалося видалити ключ відновл
 se-heading = Додаткова адреса е-пошти
     .header = Додаткова адреса е-пошти
 se-cannot-refresh-email = Перепрошуємо, але при оновленні цієї адреси виникла проблема.
-se-cannot-resend-code-2 = Перепрошуємо, але під час повторного надсилання коду підтвердження сталася проблема
+se-cannot-resend-code-3 = Перепрошуємо, але під час повторного надсилання коду підтвердження сталася проблема
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -604,18 +604,12 @@ se-set-primary-error-2 = Перепрошуємо, але під час змін
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } успішно видалено
 se-delete-email-error-2 = Перепрошуємо, але під час видалення цієї адреси виникла проблема
-se-verify-session-2 = Щоб виконати цю дію, вам потрібно підтвердити поточний сеанс
-se-verify-session-error-2 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 # Button to remove the secondary email
 se-remove-email =
     .title = Вилучити е-пошту
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Оновити е-пошту
-se-unverified = не підтверджено
-se-resend-code =
-    Необхідне підтвердження. Повторно <button>надіслати код підтвердження</button>
-    якщо його немає у вашій поштовій скриньці чи спамі.
 # Button to make secondary email the primary
 se-make-primary = Зробити основною
 se-default-content = Доступ до облікового запису, якщо ви не можете увійти за допомогою основної е-пошти.
@@ -644,7 +638,6 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Запобігайте входу когось іншого, вимагаючи
     унікальний код, який є лише у вас.
-tfa-row-cannot-verify-session-3 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 tfa-row-disable-modal-heading = Вимкнути двоетапну перевірку?
 tfa-row-disable-modal-confirm = Вимкнути
 tfa-row-disable-modal-explain =
@@ -659,7 +652,6 @@ tfa-row-change-modal-explain = Ви не зможете скасувати цю 
 
 auth-error-102 = Невідомий обліковий запис
 auth-error-103 = Неправильний пароль
-auth-error-105 = Недійсний код підтвердження
 auth-error-110 = Недійсний код
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -669,8 +661,6 @@ auth-error-110 = Недійсний код
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Ви зробили надто багато спроб. Повторіть спробу через { $retryAfter }.
-auth-error-138 = Непідтверджений сеанс
 auth-error-139 = Додаткова адреса електронної пошти повинна відрізнятися від адреси вашого облікового запису
 auth-error-155 = TOTP-код не знайдено
-auth-error-183 = Недійсний код підтвердження
 auth-error-1008 = Ваш новий пароль повинен бути іншим
