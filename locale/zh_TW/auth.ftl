@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = 有要登入 { -product-firefox-accounts } 嗎？
-session-verify-send-push-body = 確定是您的話，請點擊此處確認
+session-verify-send-push-body-2 = 請點擊此處確認是您
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -283,10 +283,10 @@ postRemoveTwoStepAuthentication-description = 您已從下列裝置成功為 { -
 postRemoveTwoStepAuthentication-description-plaintext = 您已成功關閉 { -product-firefox-account } 的兩階段驗證。登入時將不再要求您輸入安全碼。
 postRemoveTwoStepAuthentication-action = 管理帳號
 postRemoveTwoStepAuthentication-not-required = 登入時，將不再需要輸入安全碼。
-postVerify-sub-title = { -product-firefox-account } 驗證完成，快完成了。
+postVerify-sub-title-2 = 已確認 { -product-firefox-account }，快完成了。
 postVerify-title = 接下來與您的其他裝置同步！
 postVerify-description = Sync 會安全地在您所有的裝置間同步書籤、密碼與其他 { -brand-firefox } 資料。
-postVerify-subject = 帳號驗證完成。接下來請與另一台裝置同步來完成設定過程
+postVerify-subject-2 = 帳號驗證完成。接下來請與另一台裝置同步來完成設定過程
 postVerify-setup = 設定下一台裝置
 postVerify-action = 設定下一台裝置
 # Variables:
@@ -296,7 +296,7 @@ postVerifySecondary-subject = 已加入次要電子郵件地址
 postVerifySecondary-title = 已加入次要電子郵件地址
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = 您已成功將 { $secondaryEmail } 加入為 { -product-firefox-account } 的次要電子郵件信箱。現在起將寄送安全性通知與登入確認信到該信箱。
+postVerifySecondary-content-2 = 您已成功將 { $secondaryEmail } 加入為 { -product-firefox-account } 的次要電子郵件信箱。現在起將寄送安全性通知與登入確認信到該信箱。
 postVerifySecondary-action = 管理帳號
 recovery-subject = 重設您的密碼
 recovery-title = 需要重設密碼嗎？
@@ -322,14 +322,14 @@ subscriptionAccountFinishSetup-content-create-2 = 接下來，請設定 { -produ
 subscriptionAccountFinishSetup-action-2 = 開始使用
 subscriptionAccountReminderFirst-subject = 提醒：請完成帳號註冊
 subscriptionAccountReminderFirst-title = 您暫時還不能使用您的訂閱項目
-subscriptionAccountReminderFirst-content-info = 幾天前，您註冊了 { -product-firefox-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。
-subscriptionAccountReminderFirst-content-select = 請選擇「設定密碼」來設定新密碼並完成帳號驗證手續。
+subscriptionAccountReminderFirst-content-info-2 = 幾天前，您註冊了 { -product-firefox-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。
+subscriptionAccountReminderFirst-content-select-2 = 請選擇「設定密碼」來設定新密碼並完成帳號驗證手續。
 subscriptionAccountReminderFirst-action = 設定密碼
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }：
 subscriptionAccountReminderSecond-subject = 這是最後一次提醒囉：註冊帳號
 subscriptionAccountReminderSecond-title = 歡迎使用 { -brand-firefox }！
-subscriptionAccountReminderSecond-content-info = 幾天前，您註冊了 { -product-firefox-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。
-subscriptionAccountReminderSecond-content-select = 請選擇「設定密碼」來設定新密碼並完成帳號驗證手續。
+subscriptionAccountReminderSecond-content-info-2 = 幾天前，您註冊了 { -product-firefox-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。
+subscriptionAccountReminderSecond-content-select-2 = 請選擇「設定密碼」來設定新密碼並完成帳號驗證手續。
 subscriptionAccountReminderSecond-action = 設定密碼
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }：
 # Variables
@@ -580,7 +580,7 @@ confirm-email-plaintext = { confirm-email }：
 verificationReminderFirst-action = 確認電子郵件信箱
 verificationReminderSecond-subject = 這是最後一次顯示提醒囉：請啟用帳號
 verificationReminderSecond-title = 您還在嗎？
-verificationReminderSecond-description = 接近一週前，您註冊了 { -product-firefox-account }，但尚未確認電子郵件地址。
+verificationReminderSecond-description-2 = 接近一週前，您註冊了 { -product-firefox-account }，但尚未確認電子郵件地址。
 verificationReminderSecond-sub-description = 請確認這個信箱是否有效，並且啟用帳號，讓我們知道您沒遇到什麼問題。
 verificationReminderSecond-action = 確認電子郵件信箱
 verify-title = 啟用 { -brand-firefox } 系列產品
@@ -600,25 +600,25 @@ verifyLogin-action = 確認登入
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = { $serviceName } 的登入碼
 verifyLoginCode-title = 要登入的是您嗎？
-verifyLoginCode-prompt = 有的話，請使用下列驗證碼：
+verifyLoginCode-prompt-2 = 有的話，請使用下列驗證碼：
 verifyLoginCode-expiry-notice = 將於 5 分鐘後失效。
-verifyPrimary-title = 驗證主要電子郵件地址
+verifyPrimary-title-2 = 確認主要電子郵件地址
 verifyPrimary-description = 收到來自下列裝置的帳號變更請求：
 verifyPrimary-subject = 確認主要電子郵件地址
-verifyPrimary-action = 驗證信箱
-verifyPrimary-action-plaintext = { verifyPrimary-action }：
-verifyPrimary-post-verify = 驗證完成後，即可從此裝置進行新增次要電子郵件地址等帳號變更操作。
+verifyPrimary-action-2 = 確認電子郵件信箱
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }：
+verifyPrimary-post-verify-2 = 驗證完成後，即可從此裝置進行新增次要電子郵件地址等帳號變更操作。
 verifySecondaryCode-subject = 確認次要電子郵件地址
-verifySecondaryCode-title = 驗證次要電子郵件地址
-verifySecondaryCode-action = 驗證信箱
+verifySecondaryCode-title-2 = 確認次要電子郵件地址
+verifySecondaryCode-action-2 = 確認電子郵件信箱
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = 有人要求將 { $email } 加入為下列 { -product-firefox-account } 帳號的次要郵件帳號：
-verifySecondaryCode-prompt = 使用這組驗證碼：
-verifySecondaryCode-expiry-notice = 驗證碼將於 5 分鐘後失效。驗證完成後，此信箱也會收到安全性通知與確認郵件。
+verifySecondaryCode-prompt-2 = 使用這組驗證碼：
+verifySecondaryCode-expiry-notice-2 = 驗證碼將於 5 分鐘後失效。驗證完成後，此信箱也會收到安全性通知與確認郵件。
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject = 驗證碼：{ $code }
+verifyShortCode-subject-2 = 驗證碼：{ $code }
 verifyShortCode-title = 您有註冊帳號嗎？
-verifyShortCode-prompt = 如果是的話，請在註冊標單輸入下列驗證碼：
+verifyShortCode-prompt-2 = 如果是的話，請在註冊表單輸入下列驗證碼：
 verifyShortCode-expiry-notice = 將於 5 分鐘後失效。
