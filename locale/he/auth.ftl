@@ -291,8 +291,10 @@ postRemoveTwoStepAuthentication-description = השבתת בהצלחה אימות
 postRemoveTwoStepAuthentication-description-plaintext = השבתת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך. לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
 postRemoveTwoStepAuthentication-action = ניהול חשבון
 postRemoveTwoStepAuthentication-not-required = לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
+postVerify-sub-title-2 = { -product-firefox-account(case: "the") } אומת. כמעט סיימת.
 postVerify-title = עכשיו ניתן לסנכרן בין המכשירים שלך!
 postVerify-description = הסנכרון שומר באופן פרטי שהסימניות, הססמאות ושאר הנתונים האחרים שלך ב־{ -brand-firefox } ישארו זהים בכל המכשירים שלך.
+postVerify-subject-2 = החשבון אומת. כעת, יש לסנכרן מכשיר נוסף כדי לסיים את ההגדרה
 postVerify-setup = הגדרת המכשיר הבא
 postVerify-action = הגדרת המכשיר הבא
 # Variables:
@@ -300,6 +302,9 @@ postVerify-action = הגדרת המכשיר הבא
 postVerify-support = יש לך שאלות? ניתן לבקר ב־{ $supportUrl }
 postVerifySecondary-subject = נוספה כתובת דוא״ל משנית
 postVerifySecondary-title = נוספה כתובת דוא״ל משנית
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = אימתת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-firefox-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה כעת יישלחו אל שתי כתובות הדוא״ל שלך.
 postVerifySecondary-action = ניהול חשבון
 recovery-subject = איפוס ססמה
 recovery-title = רצית לאפס את הססמה שלך?
@@ -323,10 +328,14 @@ subscriptionAccountFinishSetup-title = ברוכים הבאים אל { $productNa
 subscriptionAccountFinishSetup-action-2 = תחילת עבודה
 subscriptionAccountReminderFirst-subject = תזכורת: סיום הגדרת החשבון שלך
 subscriptionAccountReminderFirst-title = אין לך עדיין אפשרות לגשת למינוי שלך
+subscriptionAccountReminderFirst-content-info-2 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.
+subscriptionAccountReminderFirst-content-select-2 = יש לבחור ב״יצירת ססמה״ כדי להגדיר ססמה חדשה ולסיים את אימות החשבון שלך.
 subscriptionAccountReminderFirst-action = יצירת ססמה
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = תזכורת אחרונה: הגדרת החשבון שלך
 subscriptionAccountReminderSecond-title = ברוכים הבאים אל { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info-2 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.
+subscriptionAccountReminderSecond-content-select-2 = יש לבחור ב״יצירת ססמה״ כדי להגדיר ססמה חדשה ולסיים את אימות החשבון שלך.
 subscriptionAccountReminderSecond-action = יצירת ססמה
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -565,6 +574,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = אימות דוא״ל
 verificationReminderSecond-subject = תזכורת אחרונה: הפעלת החשבון שלך
 verificationReminderSecond-title = עדיין פה?
+verificationReminderSecond-description-2 = לפני כשבוע יצרת { -product-firefox-account(case: "a") } אך לא אימתת אותו. אנחנו דואגים לך.
 verificationReminderSecond-action = אימות דוא״ל
 verify-title = הפעלת משפחת המוצרים של { -brand-firefox }
 verify-description-plaintext = אישור החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-firefox } עם כל מכשיר מחובר.
@@ -583,7 +593,9 @@ verifyLogin-action = אישור התחברות
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = קוד כניסה ל־{ $serviceName }
 verifyLoginCode-title = האם התחברות זו מוכרת לך?
+verifyLoginCode-prompt-2 = אם כן, להלן קוד האימות:
 verifyLoginCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
+verifyPrimary-title-2 = אימות כתובת דוא״ל ראשית
 verifyPrimary-description = בקשה לביצוע שינוי בחשבון נעשתה מהמכשיר הבא:
 verifyPrimary-subject = אימות כתובת דוא״ל ראשית
 verifySecondaryCode-subject = אימות כתובת דוא״ל משנית
