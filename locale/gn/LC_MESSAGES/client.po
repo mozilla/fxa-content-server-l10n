@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-12 17:51+0000\n"
+"PO-Revision-Date: 2022-08-12 17:52+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1093,7 +1093,7 @@ msgstr "Firefox mba’ete juajupyre"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "Ñandutiveve moneĩmbyre"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1393,7 +1393,7 @@ msgstr "Tembiaporã réra"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Moneĩmbyre"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"

@@ -228,14 +228,10 @@ modal-cancel-button = Heja
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Ñanduti veve jehechajey
-mvs-enter-verification-code = Emoinge ayvu jehechajeyrã
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Ikatúpiko, ehai 5 aravo’i mboyve ayvu jeguerujeyrã oñemondopyre <email>{ $email }</email>-pe.
+mvs-verify-your-email-2 = Emoneĩ ne ñandutiveve
+mvs-enter-verification-code-2 = Emoinge nde ayvu jehechajeyrã
 msv-cancel-button = Heja
-msv-submit-button = Hechajey
+msv-submit-button-2 = Moneĩ
 
 ## Settings Nav
 
@@ -392,17 +388,12 @@ add-secondary-email-save-button = Ñongatu
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Ku’e 2 2-gui
-verify-secondary-email-error-2 = Oiko apañuãi emondokuévo nde ayvu jehechajeyrã
 verify-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
-verify-secondary-email-verification-code =
-    .label = Emoinge ayvu jehechajeyrã
+verify-secondary-email-verification-code-2 =
+    .label = Emoinge nde ayvu jehechajeyrã
 verify-secondary-email-cancel-button = Heja
-verify-secondary-email-verify-button = Hechajey
-# This string is an instruction in a form.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Emoinge pe ayvu jehechajeyrã romondótava <strong>{ $email }</strong>-pe 5 aravo’i oútavape.
+verify-secondary-email-verify-button-2 = Moneĩ
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -424,7 +415,6 @@ tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
 tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
 tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
-tfa-cannot-verify-code-2 = Oiko apañuãi ehechajeykuévo nde ayvu jeguerujeyrã
 tfa-incorrect-recovery-code = Ayvu jeguerujeyrã ndoikóiva
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
@@ -515,7 +505,6 @@ rk-cannot-remove-key = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba�
 rk-refresh-key = Embohekopyahu mba’eñemi jeguerujeyrã
 rk-content-explain = Emboguevijey ne marandu nderesaráirõ ne ñe’ẽñemígui.
 rk-content-reset-data = ¿Mba’ére emoĩporãvo ñe’ẽñemi oĩporãta che mba’ekuaarã?
-rk-cannot-verify-session-3 = Rombyasy, oiko apañuãiguasu ehechajeývo tembiapo
 rk-remove-modal-heading = ¿Embogue mba’eñemi jeguerujeyrã?
 rk-remove-modal-content =
     Emoĩporãsejeýramo ñe’ẽñemi, ndaikatumo’ãi
@@ -528,7 +517,6 @@ rk-remove-error-2 = Noñemboguekuaái mba’eñemi jeguerujeyrã ne mba’etégu
 se-heading = Ñanduti veve mokõiháva
     .header = Ñanduti veve mokõiháva
 se-cannot-refresh-email = Ore ñyrõ oĩ apañuãi hekopyahúvo pe ñanduti veve.
-se-cannot-resend-code-2 = Ore ñyrõ, oiko apañuãi emondojeykuévo ayvu jehechajeyrã
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -539,18 +527,13 @@ se-set-primary-error-2 = Ore ñyrõ, oĩ apañuãi emoambuévo ñanduti veve eip
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } oñembogue hekopete
 se-delete-email-error-2 = Ore ñyrõ, oĩ apañuãi emboguévo ko ñanduti veve
-se-verify-session-2 = Tekotevẽ ehechajey ne rembiapo ag̃agua ejapo mboyve ko jeku’e
-se-verify-session-error-2 = Rombyasy, oiko apañuãiguasu ehechajeývo tembiapo
 # Button to remove the secondary email
 se-remove-email =
     .title = Embogue ñanduti veve
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Embohekopyahu ñanduti veve
-se-unverified = ojehechajey’ỹva
-se-resend-code =
-    Tekotevẽ jehechajey. <button>Emondojey ayvu ñemoneĩrã</button>
-    ndaipórirõ ñe’ẽmondo g̃uahẽha térã spam ñongatuhápe.
+se-unverified-2 = ñemoneĩ’ỹva
 # Button to make secondary email the primary
 se-make-primary = Ejapo peteĩháramo
 se-default-content = Eike ne mba’etépe ndaikatúirõ emoñepyrũ tembiapo ñanduti vevépe.
@@ -579,7 +562,6 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Ani emoneĩ ambue yvypóra omoñepyrũ tembiapo ojerurévo
     ayvu peteĩva ndénte eipurukuaáva.
-tfa-row-cannot-verify-session-3 = Rombyasy, oiko apañuãiguasu ehechajeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
 tfa-row-disable-modal-explain =
@@ -594,7 +576,7 @@ tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 
 auth-error-102 = Mba’ete ojeikuaa’ỹva
 auth-error-103 = Ñe’ẽñemi oiko’ỹva
-auth-error-105 = Ayvu jehechajeyrã ndoikói
+auth-error-105-2 = Ayvu ñemoneĩrã oiko’ỹva
 auth-error-110 = Token oiko’ỹva
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -604,8 +586,8 @@ auth-error-110 = Token oiko’ỹva
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Eipuruse heta jeýma. Eha’ãjey { $retryAfter }-pe.
-auth-error-138 = Tembiapo jehechapyre’ỹva
+auth-error-138-2 = Tembiapo oñemoneĩ’ỹva
 auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne mba’ete reheguávagui
 auth-error-155 = Token TOTP ojejuhu’ỹva
-auth-error-183 = Ayvu jehechajeyrã ndoikói térã hekoru’ãma
+auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã

@@ -22,6 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = ¿Eñepyrũ tembiapo { -product-firefox-accounts } ndive?
+session-verify-send-push-body-2 = Eikutu ápe roikuaa hag̃ua ndeha
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
