@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-12 17:52+0000\n"
+"PO-Revision-Date: 2022-08-12 18:35+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -219,7 +219,7 @@ msgstr "Monguatiapyre"
 
 #: .es5/views/behaviors/settings.js:40
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Mba’ete oñemoneĩva apañuãi’ỹre"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -936,7 +936,7 @@ msgstr "Ndaikatúi emoheñói mba’ete"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Eguerekova’erã ary ojejuréva emoheñoikuaa hag̃ua Firefox mba’ete."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
