@@ -229,7 +229,6 @@ modal-cancel-button = Hætta við
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Staðfestu tölvupóstfangið þitt
-mvs-enter-verification-code-2 = { "" }
 # This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
