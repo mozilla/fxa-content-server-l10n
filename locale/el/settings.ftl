@@ -558,6 +558,9 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Ανανέωση email
+se-resend-code-2 =
+    Απαιτείται επιβεβαίωση. Κάντε <button>νέα αποστολή κωδικού επιβεβαίωσης</button>
+    εάν δεν υπάρχει στα εισερχόμενα ή τον φάκελο ανεπιθύμητων μηνυμάτων σας.
 # Button to make secondary email the primary
 se-make-primary = Ορισμός ως κύριο
 se-default-content = Αποκτήστε πρόσβαση στον λογαριασμό σας εάν δεν μπορείτε να συνδεθείτε στο κύριο email σας.
