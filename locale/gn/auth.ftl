@@ -593,9 +593,18 @@ verifyLoginCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
 verifyPrimary-title-2 = Emoneĩ ñanduti veve eipuruvéva
 verifyPrimary-description = Ojejerure oñemoambue hag̃ua mba’ete amo mba’e’oka guive:
 verifyPrimary-subject = Emoneĩ ñanduti veve tuichavéva
+verifyPrimary-action-2 = Ñanduti veve ñemoneĩ:
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Emoneĩ ñandutiveve mokõiguáva
+verifySecondaryCode-title-2 = Emoneĩ ñandutiveve mokõiguáva
+verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
+verifySecondaryCode-prompt-2 = Eipuru ko ayvu rechajeyrã:
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-2 = Ayvu rechajeyrã: { $code }
 verifyShortCode-title = ¿Ndépa eñemboheguapy?
+verifyShortCode-prompt-2 = Péicharõ, eipuru ko ayvu jehechajeyrã pe ñemboheraguapy myanyhẽhape:
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
