@@ -214,14 +214,14 @@ modal-cancel-button = 取消
 
 ## Modal Verify Session
 
-mvs-verify-your-email = 驗證您的電子郵件信箱
-mvs-enter-verification-code = 請輸入驗證碼
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = 確認電子郵件信箱
+mvs-enter-verification-code-2 = 請輸入確認碼
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = 請於 5 分鐘內輸入發送到 <email>{ $email }</email> 的驗證碼。
+mvs-enter-verification-code-desc-2 = 請於 5 分鐘內輸入發送到 <email>{ $email }</email> 的驗證碼。
 msv-cancel-button = 取消
-msv-submit-button = 驗證
+msv-submit-button-2 = 確認
 
 ## Settings Nav
 
@@ -375,17 +375,17 @@ add-secondary-email-save-button = 儲存
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 第 2 步，共 2 步
-verify-secondary-email-error-2 = 寄出驗證碼時發生錯誤
+verify-secondary-email-error-3 = 寄出驗證碼時發生錯誤
 verify-secondary-email-page-title =
     .title = 次要電子郵件地址
-verify-secondary-email-verification-code =
-    .label = 請輸入驗證碼
+verify-secondary-email-verification-code-2 =
+    .label = 請輸入確認碼
 verify-secondary-email-cancel-button = 取消
-verify-secondary-email-verify-button = 驗證
+verify-secondary-email-verify-button-2 = 確認
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = 請於 5 分鐘內輸入發送到 <strong>{ $email }</strong> 的驗證碼。
+verify-secondary-email-please-enter-code-2 = 請於 5 分鐘內輸入發送到 <strong>{ $email }</strong> 的驗證碼。
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -407,7 +407,7 @@ tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 兩階段驗證碼不正確
 tfa-cannot-retrieve-code = 取得您的驗證碼時發生問題。
-tfa-cannot-verify-code-2 = 驗證您的救援金鑰時發生錯誤
+tfa-cannot-verify-code-3 = 驗證您的救援碼時發生錯誤
 tfa-incorrect-recovery-code = 救援金鑰不正確
 tfa-enabled = 已開啟兩階段驗證
 tfa-scan-this-code = 請使用下列任一種<linkExternal>驗證程式</linkExternal>來掃描這組 QR Code。
@@ -489,7 +489,7 @@ rk-cannot-remove-key = 無法刪除您的帳號救援金鑰。
 rk-refresh-key = 重新整理救援金鑰
 rk-content-explain = 當您忘記密碼時恢復資訊。
 rk-content-reset-data = 為什麼重設密碼也會重設我的資料？
-rk-cannot-verify-session-3 = 很抱歉，確認您的連線階段時發生問題
+rk-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
 rk-remove-modal-heading = 要移除救援金鑰嗎？
 rk-remove-modal-content = 若您重設密碼，就無法再使用救援金鑰來存取資料，也無法恢復此動作。
 rk-refresh-error = 很抱歉，重新整理救援金鑰時發生問題。
@@ -500,7 +500,7 @@ rk-remove-error-2 = 無法刪除您的帳號救援金鑰
 se-heading = 次要電子郵件地址
     .header = 次要電子郵件地址
 se-cannot-refresh-email = 很抱歉，重新整理該電子郵件地址時發生問題。
-se-cannot-resend-code-2 = 很抱歉，重新寄出驗證碼時發生問題
+se-cannot-resend-code-3 = 很抱歉，重新寄出驗證碼時發生問題
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -511,16 +511,16 @@ se-set-primary-error-2 = 很抱歉，更改您的主要電子郵件地址時發�
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = 成功刪除 { $email }
 se-delete-email-error-2 = 很抱歉，刪除此電子郵件地址時發生問題
-se-verify-session-2 = 必須要驗證您目前的使用階段，才能進行此操作
-se-verify-session-error-2 = 很抱歉，確認您的連線階段時發生問題
+se-verify-session-3 = 必須要驗證您目前的使用階段，才能進行此操作
+se-verify-session-error-3 = 很抱歉，確認您的連線階段時發生問題
 # Button to remove the secondary email
 se-remove-email =
     .title = 移除電子郵件地址
 # Button to refresh secondary email status
 se-refresh-email =
     .title = 重新整理電子郵件地址
-se-unverified = 未驗證
-se-resend-code = 需要驗證。若驗證信並未跑到收件匣或垃圾信件匣，可<button>點此重寄驗證碼</button>。
+se-unverified-2 = 未確認
+se-resend-code-2 = 需要驗證帳號。若未收到驗證信或跑到垃圾信件匣，可<button>點此重寄驗證碼</button>。
 # Button to make secondary email the primary
 se-make-primary = 設為主要信箱
 se-default-content = 讓您在無法使用主要電子郵件地址時，還能存取帳號。
@@ -543,7 +543,7 @@ tfa-row-button-refresh =
     .title = 重新整理兩階段驗證狀態
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
 tfa-row-content-explain = 透過在登入時要求提供一組只有您有權限存取的代碼，防止他人登入您的帳號。
-tfa-row-cannot-verify-session-3 = 很抱歉，確認您的連線階段時發生問題
+tfa-row-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
 tfa-row-disable-modal-explain = 將無法還原此動作。您還可以<linkExternal>換新救援碼</linkExternal>。
@@ -556,7 +556,7 @@ tfa-row-change-modal-explain = 將無法恢復此動作。
 
 auth-error-102 = 未知帳號
 auth-error-103 = 密碼不正確
-auth-error-105 = 驗證碼無效
+auth-error-105-2 = 確認碼無效
 auth-error-110 = token 無效
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -566,8 +566,8 @@ auth-error-110 = token 無效
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = 您已嘗試太多次，請等 { $retryAfter }後再試。
-auth-error-138 = 未驗證的使用階段
+auth-error-138-2 = 未驗證的使用階段
 auth-error-139 = 次要信箱必須與您的帳號信箱不同
 auth-error-155 = 找不到 TOTP token
-auth-error-183 = 驗證碼無效或過期
+auth-error-183-2 = 驗證碼無效或失效
 auth-error-1008 = 您的新密碼必須與舊密碼不同

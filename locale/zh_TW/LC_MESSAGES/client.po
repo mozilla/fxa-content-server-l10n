@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-12 03:21+0000\n"
+"PO-Revision-Date: 2022-08-12 03:30+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -95,7 +95,7 @@ msgstr "您可以使用 %(serviceName)s 了"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "帳號已確認"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -219,7 +219,7 @@ msgstr "已列印"
 
 #: .es5/views/behaviors/settings.js:40
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "成功驗證帳號"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -996,23 +996,23 @@ msgstr "已確認過此次登入"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "驗證鏈結已失效"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "您點擊的密碼重設驗證鏈結已過期。"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "點擊此處以取得新的確認鏈結"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "驗證鏈結無效"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "確認過程發生錯誤"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1024,7 +1024,7 @@ msgstr "確認此次登入"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "請到 %(escapedEmail)s 信箱收信，點擊驗證鏈結"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1089,7 +1089,7 @@ msgstr "已連結 Firefox 帳號"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "已確認電子郵件地址"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1387,7 +1387,7 @@ msgstr "事件名稱"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "已確認"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1664,7 +1664,7 @@ msgstr "之後再寄"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "請於 5 分鐘內輸入發送到 %(escapedEmail)s 的驗證碼。"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
