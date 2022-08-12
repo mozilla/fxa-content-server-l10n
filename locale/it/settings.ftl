@@ -220,14 +220,14 @@ modal-cancel-button = Annulla
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Verifica il tuo indirizzo email
-mvs-enter-verification-code = Inserisci il codice di verifica
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Conferma il tuo indirizzo email
+mvs-enter-verification-code-2 = Inserisci il codice di conferma
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Inserisci entro 5 minuti il codice di verifica che è stato inviato a <email>{ $email }</email>.
+mvs-enter-verification-code-desc-2 = Inserisci entro 5 minuti il codice di conferma che è stato inviato a <email>{ $email }</email>.
 msv-cancel-button = Annulla
-msv-submit-button = Verifica
+msv-submit-button-2 = Conferma
 
 ## Settings Nav
 
@@ -381,17 +381,17 @@ add-secondary-email-save-button = Salva
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Passaggio 2 di 2
-verify-secondary-email-error-2 = Si è verificato un problema durante l’invio del codice di verifica
+verify-secondary-email-error-3 = Si è verificato un problema durante l’invio del codice di conferma
 verify-secondary-email-page-title =
     .title = Email secondaria
-verify-secondary-email-verification-code =
-    .label = Inserisci il codice di verifica
+verify-secondary-email-verification-code-2 =
+    .label = Inserisci il codice di conferma
 verify-secondary-email-cancel-button = Annulla
-verify-secondary-email-verify-button = Verifica
+verify-secondary-email-verify-button-2 = Conferma
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Inserisci entro 5 minuti il codice di verifica che è stato inviato a <strong>{ $email }</strong>.
+verify-secondary-email-please-enter-code-2 = Inserisci entro 5 minuti il codice di conferma che è stato inviato a <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -413,7 +413,7 @@ tfa-button-cancel = Annulla
 tfa-button-finish = Fine
 tfa-incorrect-totp = Codice di autenticazione in due passaggi errato
 tfa-cannot-retrieve-code = Si è verificato un problema durante il recupero del codice.
-tfa-cannot-verify-code-2 = Si è verificato un problema durante la verifica del codice di recupero
+tfa-cannot-verify-code-3 = Si è verificato un problema durante la conferma del codice di recupero
 tfa-incorrect-recovery-code = Codice di recupero errato
 tfa-enabled = Autenticazione in due passaggi attivata
 tfa-scan-this-code =
@@ -499,7 +499,7 @@ rk-cannot-remove-key = La chiave di recupero dell’account non può essere rimo
 rk-refresh-key = Aggiorna chiave di recupero
 rk-content-explain = Ripristina i dati in caso di password dimenticata.
 rk-content-reset-data = Perché, reimpostando la password, anche i dati vengono ripristinati?
-rk-cannot-verify-session-3 = Si è verificato un problema durante la verifica della sessione
+rk-cannot-verify-session-4 = Si è verificato un problema durante la conferma della sessione
 rk-remove-modal-heading = Rimuovere la chiave di recupero?
 rk-remove-modal-content =
     Nel caso in cui tu abbia reimpostato la password, non potrai
@@ -512,7 +512,7 @@ rk-remove-error-2 = La chiave di recupero dell’account non può essere rimossa
 se-heading = Email secondaria
     .header = Email secondaria
 se-cannot-refresh-email = Si è verificato un problema durante l’aggiornamento dell’email.
-se-cannot-resend-code-2 = Si è verificato un problema durante il nuovo invio del codice di verifica
+se-cannot-resend-code-3 = Si è verificato un problema durante il nuovo invio del codice di conferma
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -523,16 +523,16 @@ se-set-primary-error-2 = Si è verificato un problema durante la modifica dell�
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } eliminata correttamente
 se-delete-email-error-2 = Si è verificato un problema durante l’eliminazione dell’email
-se-verify-session-2 = È necessario verificare la sessione in corso per effettuare questa operazione
-se-verify-session-error-2 = Si è verificato un problema durante la verifica della sessione
+se-verify-session-3 = È necessario confermare la sessione in corso per effettuare questa operazione
+se-verify-session-error-3 = Si è verificato un problema durante la conferma della sessione
 # Button to remove the secondary email
 se-remove-email =
     .title = Rimuovi l’email
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Aggiorna l’email
-se-unverified = Non verificata
-se-resend-code = Da verificare. <button>Ricevi di nuovo il codice di verifica</button> se non lo trovi nella casella di posta in arrivo o nella cartella dello spam.
+se-unverified-2 = non confermato
+se-resend-code-2 = Da confermare. <button>Invia di nuovo il codice di conferma</button> se non lo trovi nella casella di posta in arrivo o nello spam.
 # Button to make secondary email the primary
 se-make-primary = Rendi principale
 se-default-content = Usala per accedere all’account se non riesci a effettuare l’accesso con l’email principale.
@@ -555,7 +555,7 @@ tfa-row-button-refresh =
     .title = Ripristina l’autenticazione in due passaggi
 tfa-row-cannot-refresh = Si è verificato un problema durante l’aggiornamento dell’autenticazione in due passaggi.
 tfa-row-content-explain = Impedisci a terzi di accedere al tuo account richiedendo a ogni accesso un codice univoco che conosci solo tu.
-tfa-row-cannot-verify-session-3 = Si è verificato un problema durante la verifica della sessione
+tfa-row-cannot-verify-session-4 = Si è verificato un problema durante la conferma della sessione
 tfa-row-disable-modal-heading = Disattivare l’autenticazione in due passaggi?
 tfa-row-disable-modal-confirm = Disattiva
 tfa-row-disable-modal-explain =
@@ -570,7 +570,7 @@ tfa-row-change-modal-explain = Questa azione è irreversibile.
 
 auth-error-102 = Account sconosciuto
 auth-error-103 = Password errata
-auth-error-105 = Codice di verifica non valido
+auth-error-105-2 = Codice di conferma non valido
 auth-error-110 = Token non valido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -580,8 +580,8 @@ auth-error-110 = Token non valido
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Hai effettuato troppi tentativi errati. Riprova tra { $retryAfter }.
-auth-error-138 = Sessione non verificata
+auth-error-138-2 = Sessione non confermata
 auth-error-139 = L’email secondaria deve essere diversa dall’email principale associata all’account
 auth-error-155 = Token TOTP non trovato
-auth-error-183 = Codice di verifica non valido o scaduto
+auth-error-183-2 = Codice di conferma non valido o scaduto
 auth-error-1008 = La nuova password deve essere diversa
