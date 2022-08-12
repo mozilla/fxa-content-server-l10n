@@ -615,7 +615,7 @@ verifyLoginCode-subject-line = Code de connexion pour { $serviceName }
 verifyLoginCode-title = Étiez-vous à l’origine de cette connexion ?
 verifyLoginCode-prompt-2 = Si oui, voici le code de confirmation :
 verifyLoginCode-expiry-notice = Il expire dans 5 minutes.
-verifyPrimary-title-2 = Confirmer l’adresse principale
+verifyPrimary-title-2 = Confirmer l’adresse électronique principale
 verifyPrimary-description = Une requête pour modifier le compte a été effectuée depuis l’appareil suivant :
 verifyPrimary-subject = Confirmer l’adresse principale
 verifyPrimary-action-2 = Confirmez votre adresse électronique
@@ -628,7 +628,7 @@ verifySecondaryCode-action-2 = Confirmez votre adresse électronique
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Une demande d’utilisation de l’adresse { $email } en tant qu’adresse secondaire a été effectuée depuis le { -product-firefox-account } suivant :
 verifySecondaryCode-prompt-2 = Utilisez ce code de confirmation :
-verifySecondaryCode-expiry-notice-2 = Celui-ci expire dans 5 minutes. Une fois confirmée, cette adresse commencera à recevoir des notifications de sécurité et codes de confirmation.
+verifySecondaryCode-expiry-notice-2 = Celui-ci expire dans 5 minutes. Une fois confirmée, cette adresse commencera à recevoir des notifications de sécurité et codes de confirmation.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-2 = Code de confirmation : { $code }
