@@ -215,14 +215,14 @@ modal-cancel-button = ביטול
 
 ## Modal Verify Session
 
-mvs-verify-your-email = אימות הדוא״ל שלך
-mvs-enter-verification-code = נא להכניס את קוד האימות שלך
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = אימות כתובת הדוא״ל שלך
+mvs-enter-verification-code-2 = נא להכניס את קוד האימות שלך
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = נא להכניס את קוד האימות שנשלח אל <email>{ $email }</email> תוך 5 דקות.
+mvs-enter-verification-code-desc-2 = נא להכניס את קוד האימות שנשלח אל <email>{ $email }</email> תוך 5 דקות.
 msv-cancel-button = ביטול
-msv-submit-button = אימות
+msv-submit-button-2 = אימות
 
 ## Settings Nav
 
@@ -376,17 +376,17 @@ add-secondary-email-save-button = שמירה
 ## Verify secondary email page
 
 add-secondary-email-step-2 = שלב 2 מתוך 2
-verify-secondary-email-error-2 = הייתה בעיה בשליחת קוד האימות
+verify-secondary-email-error-3 = הייתה בעיה בשליחת קוד האימות
 verify-secondary-email-page-title =
     .title = כתובת דוא״ל משנית
-verify-secondary-email-verification-code =
+verify-secondary-email-verification-code-2 =
     .label = נא להכניס את קוד האימות שלך
 verify-secondary-email-cancel-button = ביטול
-verify-secondary-email-verify-button = אימות
+verify-secondary-email-verify-button-2 = אימות
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = נא להכניס את קוד האימות שנשלח אל <strong>{ $email }</strong> תוך 5 דקות.
+verify-secondary-email-please-enter-code-2 = נא להכניס את קוד האימות שנשלח אל <strong>{ $email }</strong> תוך 5 דקות.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -408,7 +408,7 @@ tfa-button-cancel = ביטול
 tfa-button-finish = סיום
 tfa-incorrect-totp = קוד אימות דו־שלבי שגוי
 tfa-cannot-retrieve-code = אירעה שגיאה באחזור הקוד שלך.
-tfa-cannot-verify-code-2 = הייתה בעיה באימות הקוד שלך לשחזור
+tfa-cannot-verify-code-3 = הייתה בעיה באימות הקוד שלך לשחזור
 tfa-incorrect-recovery-code = קוד לשחזור שגוי
 tfa-enabled = אימות דו־שלבי הופעל
 tfa-scan-this-code = יש לסרוק את קוד ה־QR הזה באמצעות אחד <linkExternal>מיישומוני האימות האלו</linkExternal>.
@@ -489,7 +489,7 @@ rk-cannot-remove-key = לא ניתן היה להסיר את מפתח שחזור 
 rk-refresh-key = רענון מפתח שחזור
 rk-content-explain = שחזור המידע שלך כאשר הססמה שלך נשכחה.
 rk-content-reset-data = מדוע איפוס הססמה שלי מאפסת את הנתונים שלי?
-rk-cannot-verify-session-3 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
+rk-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 rk-remove-modal-heading = להסיר את מפתח השחזור?
 rk-remove-modal-content = במקרה שהססמה שלך תאופס, לא תהיה לך אפשרות להשתמש במפתח השחזור שלך כדי לגשת לנתונים שלך. לא ניתן לבטל פעולה זו.
 rk-refresh-error = הייתה בעיה ברענון מפתח השחזור, עמך הסליחה.
@@ -500,7 +500,7 @@ rk-remove-error-2 = לא ניתן היה להסיר את מפתח שחזור ה�
 se-heading = כתובת דוא״ל משנית
     .header = כתובת דוא״ל משנית
 se-cannot-refresh-email = אירעה שגיאה ברענון דוא״ל זה, עמך הסליחה.
-se-cannot-resend-code-2 = הייתה בעיה בשליחת קוד האימות מחדש, עמך הסליחה
+se-cannot-resend-code-3 = הייתה בעיה בשליחת קוד האימות מחדש, עמך הסליחה
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -511,16 +511,16 @@ se-set-primary-error-2 = הייתה בעיה בשינוי כתובת הדוא״�
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = הכתובת { $email } נמחקה בהצלחה
 se-delete-email-error-2 = הייתה בעיה במחיקת דוא״ל זה, עמך הסליחה
-se-verify-session-2 = יהיה עליך לאמת את ההפעלה הנוכחית שלך כדי לבצע פעולה זו
-se-verify-session-error-2 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
+se-verify-session-3 = יהיה עליך לאמת את ההפעלה הנוכחית שלך כדי לבצע פעולה זו
+se-verify-session-error-3 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 # Button to remove the secondary email
 se-remove-email =
     .title = הסרת דוא״ל
 # Button to refresh secondary email status
 se-refresh-email =
     .title = רענון דוא״ל
-se-unverified = לא מאומת
-se-resend-code = נדרש אימות. ניתן <button>לשלוח מחדש את קוד האימות</button> אם הוא לא נמצא בתיבת הדואר הנכנס או בתיקיית הספאם שלך.
+se-unverified-2 = לא מאומת
+se-resend-code-2 = נדרש אימות. ניתן <button>לשלוח מחדש את קוד האימות</button> אם הוא לא נמצא בתיבת הדואר הנכנס או בתיקיית הספאם שלך.
 # Button to make secondary email the primary
 se-make-primary = הפיכה לכתובת ראשית
 se-default-content = קבלת גישה לחשבון שלך אם אין באפשרותך להתחבר לדוא״ל הראשי שלך.
@@ -543,7 +543,7 @@ tfa-row-button-refresh =
     .title = רענון אימות דו־שלבי
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
 tfa-row-content-explain = למנוע ממישהו אחר להיכנס באמצעות דרישת קוד ייחודי שרק לך יש גישה אליו.
-tfa-row-cannot-verify-session-3 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
+tfa-row-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
 tfa-row-disable-modal-confirm = השבתה
 tfa-row-disable-modal-explain = לא יהיה ניתן לבטל פעולה זו. יש לך גם את האפשרות <linkExternal>להחליף את הקודים שלך לשחזור</linkExternal>.
@@ -556,7 +556,7 @@ tfa-row-change-modal-explain = לא יהיה ניתן לבטל פעולה זו.
 
 auth-error-102 = חשבון לא ידוע
 auth-error-103 = ססמה שגויה
-auth-error-105 = קוד אימות שגוי
+auth-error-105-2 = קוד אימות שגוי
 auth-error-110 = אסימון לא חוקי
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -566,8 +566,8 @@ auth-error-110 = אסימון לא חוקי
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = ניסית להתחבר יותר מידי פעמים. נא לנסות שוב { $retryAfter }.
-auth-error-138 = הפעלה בלתי מאומתת
+auth-error-138-2 = הפעלה בלתי מאומתת
 auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך
 auth-error-155 = אסימון TOTP לא נמצא
-auth-error-183 = קוד אימות לא חוקי או שפג תוקפו
+auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה

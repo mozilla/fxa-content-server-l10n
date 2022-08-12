@@ -598,9 +598,20 @@ verifyLoginCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
 verifyPrimary-title-2 = אימות כתובת דוא״ל ראשית
 verifyPrimary-description = בקשה לביצוע שינוי בחשבון נעשתה מהמכשיר הבא:
 verifyPrimary-subject = אימות כתובת דוא״ל ראשית
+verifyPrimary-action-2 = אימות דוא״ל
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = לאחר האימות, שינויים בחשבון כגון הוספת כתובת דוא״ל משנית יתאפשרו ממכשיר זה.
 verifySecondaryCode-subject = אימות כתובת דוא״ל משנית
+verifySecondaryCode-title-2 = אימות כתובת דוא״ל משנית
+verifySecondaryCode-action-2 = אימות דוא״ל
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = הוגשה בקשה להשתמש בכתובת { $email } ככתובת דוא״ל משנית מ{ -product-firefox-account(case: "the") } הבא:
+verifySecondaryCode-prompt-2 = נא להשתמש בקוד האימות הזה:
+verifySecondaryCode-expiry-notice-2 = הקוד יפוג בתוך 5 דקות. לאחר האימות כל התרעות האבטחה והאישורים יישלחו לכתובת הזו.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-2 = קוד אימות: { $code }
 verifyShortCode-title = האם הבקשה להרשמה הגיעה ממך?
+verifyShortCode-prompt-2 = אם כן, יש להשתמש בקוד אימות זה בטופס ההרשמה שלך:
 verifyShortCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
