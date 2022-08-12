@@ -526,6 +526,7 @@ rk-remove-error-2 = A fiók-helyreállítási kulcsot nem sikerült eltávolíta
 se-heading = Másodlagos e-mail
     .header = Másodlagos e-mail
 se-cannot-refresh-email = Sajnos probléma merült fel az e-mail frissítésekor.
+se-cannot-resend-code-3 = Sajnos probléma merült fel a megerősítő kód újraküldésekor
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -536,12 +537,18 @@ se-set-primary-error-2 = Sajnos probléma merült fel az elsődleges e-mail-cím
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = A(z) { $email } sikeresen törölve
 se-delete-email-error-2 = Sajnos probléma merült fel az e-mail-cím törlésekor
+se-verify-session-3 = A művelet végrehajtásához meg kell erősítenie a jelenlegi munkamenetet
+se-verify-session-error-3 = Sajnos probléma merült fel a munkamenet megerősítésekor
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mail-cím eltávolítása
 # Button to refresh secondary email status
 se-refresh-email =
     .title = E-mail-cím frissítése
+se-unverified-2 = nem megerősített
+se-resend-code-2 =
+    Megerősítés szükséges. <button>Küldje újra a megerősítő kódot</button>,
+    ha nincs a beérkezett levelek vagy a levélszemét mappában.
 # Button to make secondary email the primary
 se-make-primary = Elsődlegessé tétel
 se-default-content = Érje el a fiókját, ha nem tud bejelentkezni az elsődleges e-mail-fiókjába.
@@ -570,6 +577,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Akadályozza meg, hogy valaki más lépjen be, követeljen meg
     egy egyedi kódot, amelyhez csak Ön fér hozzá.
+tfa-row-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor
 tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
 tfa-row-disable-modal-confirm = Letiltás
 tfa-row-disable-modal-explain =
@@ -584,6 +592,7 @@ tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 
 auth-error-102 = Ismeretlen fiók
 auth-error-103 = Helytelen jelszó
+auth-error-105-2 = Érvénytelen megerősítő kód!
 auth-error-110 = Érvénytelen token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -593,6 +602,8 @@ auth-error-110 = Érvénytelen token
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter } múlva.
+auth-error-138-2 = Meg nem erősített munkamenet
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
+auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
