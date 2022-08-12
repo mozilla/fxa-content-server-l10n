@@ -256,6 +256,9 @@ sub-item-missing-msg = Poskusite znova kasneje.
 sub-item-no-such-plan = Za to naročnino ni takega načrta.
 sub-item-cancel-sub = Prekliči naročnino
 sub-item-stay-sub = Ostanite naročnik
+sub-item-cancel-confirm =
+    Prekliči moj dostop in shranjene podatke v storitvi
+    { $name } z dnem { $period }
 
 ## Subscription iap item
 

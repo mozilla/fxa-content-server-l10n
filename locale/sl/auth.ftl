@@ -312,7 +312,9 @@ postRemoveTwoStepAuthentication-description = Uspešno ste onemogočili overitev
 postRemoveTwoStepAuthentication-description-plaintext = Uspešno ste onemogočili overitev v dveh korakih za svoj { -product-firefox-account }. Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
 postRemoveTwoStepAuthentication-action = Upravljanje računa
 postRemoveTwoStepAuthentication-not-required = Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
+postVerify-sub-title-2 = { -product-firefox-account } je potrjen. Skoraj ste gotovi.
 postVerify-description = Sinhronizacija zasebno usklajuje zaznamke, gesla in druge podatke { -brand-firefox }a na vseh vaših napravah.
+postVerify-subject-2 = Račun potrjen. Sedaj sinhronizirajte drugo napravo, da dokončate nastavitev
 postVerify-setup = Nastavite naslednjo napravo
 postVerify-action = Nastavite naslednjo napravo
 # Variables:
@@ -320,6 +322,9 @@ postVerify-action = Nastavite naslednjo napravo
 postVerify-support = Imate vprašanja? Obiščite { $supportUrl }
 postVerifySecondary-subject = Pomožni e-poštni naslov dodan
 postVerifySecondary-title = Pomožni e-poštni naslov dodan
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Uspešno ste potrdili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostna obvestila in potrditve prijav se bodo zdaj pošiljale na oba naslova.
 postVerifySecondary-action = Upravljanje računa
 recovery-subject = Ponastavite vaše geslo
 recovery-title = Morate ponastaviti geslo?
@@ -345,10 +350,14 @@ subscriptionAccountFinishSetup-content-create-2 = Nato boste ustvarili geslo za 
 subscriptionAccountFinishSetup-action-2 = Začnite
 subscriptionAccountReminderFirst-subject = Opomnik: Dokončajte nastavljanje računa
 subscriptionAccountReminderFirst-title = Dostop do vaše naročnine še ni možen
+subscriptionAccountReminderFirst-content-info-2 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Upamo, da boste dokončali nastavitev računa in omogočili uporabo svoje naročnine.
+subscriptionAccountReminderFirst-content-select-2 = Izberite "Ustvari geslo", da nastavite novo geslo in dokončate potrjevanje računa.
 subscriptionAccountReminderFirst-action = Ustvari geslo
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Zadnji opomnik: Nastavite svoj račun
 subscriptionAccountReminderSecond-title = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
+subscriptionAccountReminderSecond-content-info-2 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Upamo, da boste dokončali nastavitev računa in omogočili uporabo svoje naročnine.
+subscriptionAccountReminderSecond-content-select-2 = Izberite "Ustvari geslo", da nastavite novo geslo in dokončate potrjevanje računa.
 subscriptionAccountReminderSecond-action = Ustvari geslo
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
