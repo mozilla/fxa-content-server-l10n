@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = { -product-firefox-accounts } にログインしますか？
-session-verify-send-push-body = ここをクリックしてご自身を認証してください
+session-verify-send-push-body-2 = ここをクリックしてご自身であることを確認してください
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -77,6 +77,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = これは自動送信されたメールです。あなたが { -product-firefox-account }に新しい端末を追加したのではない場合は、{ $passwordChangeLink } で直ちにパスワードを変更してください。
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     これは自動送信されたメールです。誤ってこのメールを受け取った場合は、何もする必要はありません。
     詳しい情報は <a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
@@ -166,10 +167,8 @@ view-invoice = <a data-l10n-name="invoiceLink">請求書を表示する</a>。
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = 請求書の表示：{ $invoiceLink }
-cadReminderFirst-subject = サービスからのお知らせ: 同期設定を完了する方法
 cadReminderFirst-action = 別の端末を同期する
-cadReminderFirst-title = 端末を同期するためのお知らせです。
-cadReminderFirst-description = 同期するには 2 台以上の端末が必要です。別の端末を { -brand-firefox } で同期すると、ブックマークやパスワード、他の { -brand-firefox } のデータが { -brand-firefox } を使用するあなたのすべての端末で同じに保たれます。
+cadReminderFirst-description-2 = 同期にかかる時間はわずか 1 秒です。
 cadReminderSecond-subject-2 = 忘れずに同期の設定を完了しましょう
 cadReminderSecond-action = 別の端末を同期する
 cadReminderSecond-title-2 = データの同期を忘れずに！
@@ -183,6 +182,7 @@ downloadSubscription-subject = { $productName } へようこそ。
 downloadSubscription-title = { $productName } へようこそ。
 downloadSubscription-content-2 = サブスクリプションに含まれるすべての機能を使いましょう:
 downloadSubscription-link-action-2 = はじめに
+fraudulentAccountDeletion-title = あなたのアカウントは削除されました
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 回復用コードが残り少なくなっています
 codes-reminder-description = あなたの回復用コードは残り少なくなっているようです。アカウントから閉め出されないように新たなコードの生成を検討してください。
@@ -269,10 +269,8 @@ postRemoveTwoStepAuthentication-description = 次の端末から { -product-fire
 postRemoveTwoStepAuthentication-description-plaintext = { -product-firefox-account }上の 2 段階認証の無効化が完了しました。今後ログインのたびにセキュリティコードを入力する必要がなくなります。
 postRemoveTwoStepAuthentication-action = アカウント管理
 postRemoveTwoStepAuthentication-not-required = 今後ログインのたびにセキュリティコードを入力する必要はなくなります。
-postVerify-sub-title = { -product-firefox-account }が確認されました。あと少しです。
 postVerify-title = 次に、端末間で同期しましょう！
 postVerify-description = Sync は、同期したすべての端末間でブックマークやパスワード、他の { -brand-firefox } データを保護しながら同じに保ちます。
-postVerify-subject = アカウントが確認されました。次に、別の端末を同期してセットアップを完了してください
 postVerify-setup = 次の端末のセットアップ
 postVerify-action = 次の端末をセットアップする
 # Variables:
@@ -280,9 +278,6 @@ postVerify-action = 次の端末をセットアップする
 postVerify-support = ご質問はこちらから: { $supportUrl }
 postVerifySecondary-subject = 予備のメールアドレスが追加されました
 postVerifySecondary-title = 予備のメールアドレスが追加されました
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = { $secondaryEmail } があなたの { -product-firefox-account }の予備アドレスとして確認されました。セキュリティ通知やログイン確認は今後両方のメールアドレスに送られます。
 postVerifySecondary-action = アカウント管理
 recovery-subject = パスワードをリセットしました
 recovery-title = パスワード変更の必要がありますか？
@@ -308,14 +303,10 @@ subscriptionAccountFinishSetup-content-create-2 = 次に、{ -product-firefox-ac
 subscriptionAccountFinishSetup-action-2 = はじめましょう
 subscriptionAccountReminderFirst-subject = 通知: アカウントのセットアップを完了してください
 subscriptionAccountReminderFirst-title = サブスクリプションにはまだアクセスできません
-subscriptionAccountReminderFirst-content-info = 数日前に { -product-firefox-account }を作成されましたが、まだ確認されていません。確認してアカウントのセットアップを完了していただければ、新しいサブスクリプションが使用できるようになります。
-subscriptionAccountReminderFirst-content-select = 「パスワードを作成」を選択して新しいパスワードを設定し、アカウントの確認を完了してください。
 subscriptionAccountReminderFirst-action = パスワードを作成
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = 最終通知: アカウントをセットアップしてください
 subscriptionAccountReminderSecond-title = { -brand-firefox } へようこそ！
-subscriptionAccountReminderSecond-content-info = 数日前に { -product-firefox-account }を作成されましたが、まだ確認されていません。確認してアカウントのセットアップを完了していただければ、新しいサブスクリプションが使用できるようになります。
-subscriptionAccountReminderSecond-content-select = 「パスワードを作成」を選択して新しいパスワードを設定し、アカウントの確認を完了してください。
 subscriptionAccountReminderSecond-action = パスワードを作成
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -566,7 +557,6 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = メールアドレス確認
 verificationReminderSecond-subject = 最終通知：アカウントを有効にしてください
 verificationReminderSecond-title = まだお使いになりますか？
-verificationReminderSecond-description = 約 1 週間前に { -product-firefox-account }を作成されましたが、まだアカウントの確認が行われていません。
 verificationReminderSecond-sub-description = このメールアドレスを確認してアカウントを有効にし、問題がないことをお知らせください。
 verificationReminderSecond-action = メールアドレス確認
 verify-title = { -brand-firefox } ファミリーの製品を有効にしてください
@@ -586,25 +576,12 @@ verifyLogin-action = ログインを確認
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = { $serviceName } のログインコード
 verifyLoginCode-title = ログインしようとしているのはあなた自身ですか？
-verifyLoginCode-prompt = はいの場合、この確認コードです:
 verifyLoginCode-expiry-notice = 5 分以内に確認コードを入力してください。
-verifyPrimary-title = 主要アドレスを確認
 verifyPrimary-description = アカウント変更を実行するリクエストが次の端末から行われました:
 verifyPrimary-subject = 優先メールアドレス確認
-verifyPrimary-action = メールアドレスの確認
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = 確認が済むと、予備アドレスの追加などのアカウント変更はこの端末から行えるようになります。
 verifySecondaryCode-subject = 予備メールアドレスの確認
-verifySecondaryCode-title = 予備アドレスを確認
-verifySecondaryCode-action = メールアドレスを確認
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の { -product-firefox-account }から行われました:
-verifySecondaryCode-prompt = この確認コードを使用してください:
-verifySecondaryCode-expiry-notice = この確認コードは 5 分で使用期限切れになります。確認が済み次第、このアドレスにセキュリティ通知や確認のメールが送られるようになります。
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject = 確認コード: { $code }
 verifyShortCode-title = これはあなたが登録しようとしているアカウントですか？
-verifyShortCode-prompt = もしそうなら、登録フォームでこの確認コードを使用してください:
 verifyShortCode-expiry-notice = 5 分以内に確認コードを入力してください。
