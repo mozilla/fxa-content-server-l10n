@@ -262,14 +262,8 @@ modal-cancel-button = Ακύρωση
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Επαλήθευση email
-mvs-enter-verification-code = Εισαγωγή κωδικού επαλήθευσης
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Παρακαλώ εισαγάγετε τον κωδικό επαλήθευσης που εστάλη στο <email>{ $email }</email> εντός 5 λεπτών.
 msv-cancel-button = Ακύρωση
-msv-submit-button = Επαλήθευση
+msv-submit-button-2 = Επιβεβαίωση
 
 ## Settings Nav
 
@@ -421,17 +415,10 @@ add-secondary-email-save-button = Αποθήκευση
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Βήμα 2 από 2
-verify-secondary-email-error-2 = Προέκυψε πρόβλημα κατά την αποστολή του κωδικού επαλήθευσης
 verify-secondary-email-page-title =
     .title = Δευτερεύον email
-verify-secondary-email-verification-code =
-    .label = Εισαγάγετε τον κωδικό επαλήθευσής σας
 verify-secondary-email-cancel-button = Ακύρωση
-verify-secondary-email-verify-button = Επαλήθευση
-# This string is an instruction in a form.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Παρακαλώ εισαγάγετε τον κωδικό επιβεβαίωσης που εστάλη στο <strong>{ $email }</strong> εντός 5 λεπτών.
+verify-secondary-email-verify-button-2 = Επιβεβαίωση
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -453,7 +440,6 @@ tfa-button-cancel = Ακύρωση
 tfa-button-finish = Τέλος
 tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο παραγόντων
 tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λήψη του κωδικού σας.
-tfa-cannot-verify-code-2 = Προέκυψε πρόβλημα κατά την επαλήθευση του κωδικού ανάκτησής σας
 tfa-incorrect-recovery-code = Εσφαλμένος κωδικός ανάκτησης
 tfa-enabled = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 tfa-scan-this-code =
@@ -544,7 +530,6 @@ rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του
 rk-refresh-key = Ανανέωση κλειδιού ανάκτησης
 rk-content-explain = Ανακτήστε τις πληροφορίες σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 rk-content-reset-data = Γιατί η επαναφορά του κωδικού πρόσβασης διαγράφει τα δεδομένα μου;
-rk-cannot-verify-session-3 = Δυστυχώς, προέκυψε πρόβλημα κατά την επαλήθευση της συνεδρίας σας
 rk-remove-modal-heading = Αφαίρεση κλειδιού ανάκτησης;
 rk-remove-modal-content =
     Σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας, δεν θα
@@ -557,7 +542,6 @@ rk-remove-error-2 = Δεν ήταν δυνατή η αφαίρεση του κλ
 se-heading = Δευτερεύον email
     .header = Δευτερεύον email
 se-cannot-refresh-email = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του email.
-se-cannot-resend-code-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την επαναποστολή του κωδικού επαλήθευσης
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -568,18 +552,12 @@ se-set-primary-error-2 = Δυστυχώς, προέκυψε πρόβλημα κ�
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = Το { $email } διαγράφηκε επιτυχώς
 se-delete-email-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά τη διαγραφή αυτού του email
-se-verify-session-2 = Θα πρέπει να επαληθεύσετε την τρέχουσα συνεδρία σας για την εκτέλεση αυτής της ενέργειας.
-se-verify-session-error-2 = Δυστυχώς, προέκυψε πρόβλημα με την επαλήθευση της συνεδρίας σας
 # Button to remove the secondary email
 se-remove-email =
     .title = Αφαίρεση email
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Ανανέωση email
-se-unverified = μη επαληθευμένο
-se-resend-code =
-    Απαιτείται επαλήθευση. <button>Επανάληψη αποστολής κωδικού επαλήθευσης</button>
-    σε περίπτωση που δεν υπάρχει στα εισερχόμενα ή στα ανεπιθύμητα μηνύματά σας.
 # Button to make secondary email the primary
 se-make-primary = Ορισμός ως κύριο
 se-default-content = Αποκτήστε πρόσβαση στον λογαριασμό σας εάν δεν μπορείτε να συνδεθείτε στο κύριο email σας.
@@ -608,7 +586,6 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Εμποδίστε τη σύνδεση τρίτων στον λογαριασμό σας με έναν
     μοναδικό κωδικό στον οποίο θα έχετε μόνο εσείς πρόσβαση.
-tfa-row-cannot-verify-session-3 = Δυστυχώς, προέκυψε πρόβλημα με την επαλήθευση της συνεδρίας σας
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο παραγόντων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
 tfa-row-disable-modal-explain =
@@ -623,7 +600,7 @@ tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσ�
 
 auth-error-102 = Άγνωστος λογαριασμός
 auth-error-103 = Λάθος κωδικός πρόσβασης
-auth-error-105 = Μη έγκυρος κωδικός επαλήθευσης
+auth-error-105-2 = Μη έγκυρος κωδικός επιβεβαίωσης
 auth-error-110 = Μη έγκυρο διακριτικό
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -633,8 +610,7 @@ auth-error-110 = Μη έγκυρο διακριτικό
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορές. Παρακαλούμε δοκιμάστε ξανά { $retryAfter }.
-auth-error-138 = Μη επαληθευμένη συνεδρία
+auth-error-138-2 = Μη επιβεβαιωμένη συνεδρία
 auth-error-139 = Το δευτερεύον email πρέπει να είναι διαφορετικό από το email του λογαριασμού σας
 auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
-auth-error-183 = Μη έγκυρος ή παλιός κωδικός επαλήθευσης
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός

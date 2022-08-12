@@ -56,7 +56,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Κάνετε σύνδεση στους { -product-firefox-accounts(case: "acc", capitalization: "upper") };
-session-verify-send-push-body = Κάντε κλικ εδώ για να επαληθεύσετε την ταυτότητά σας
+session-verify-send-push-body-2 = Κάντε κλικ εδώ για να επιβεβαιώσετε την ταυτότητά σας
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -317,10 +317,8 @@ postRemoveTwoStepAuthentication-description = Έχετε απενεργοποι�
 postRemoveTwoStepAuthentication-description-plaintext = Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Δεν θα απαιτείται πλέον κωδικός ασφαλείας σε κάθε σύνδεση.
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-not-required = Δεν θα απαιτούνται πλέον κωδικοί ασφαλείας σε κάθε σύνδεση.
-postVerify-sub-title = Ο { -product-firefox-account(case: "nom", capitalization: "lower") } επαληθεύτηκε. Σχεδόν τελειώσατε.
 postVerify-title = Έπειτα, κάντε συγχρονισμό μεταξύ των συσκευών σας!
 postVerify-description = Ο ιδιωτικός συγχρονισμός διατηρεί ίδιους τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα του { -brand-firefox }, σε όλες τις συσκευές σας.
-postVerify-subject = Ο λογαριασμός επαληθεύτηκε. Έπειτα, συγχρονίστε μια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση
 postVerify-setup = Ρύθμιση επόμενης συσκευής
 postVerify-action = Ρύθμιση επόμενης συσκευής
 # Variables:
@@ -328,9 +326,6 @@ postVerify-action = Ρύθμιση επόμενης συσκευής
 postVerify-support = Έχετε ερωτήσεις; Επισκεφθείτε το { $supportUrl }
 postVerifySecondary-subject = Προστέθηκε δευτερεύον email
 postVerifySecondary-title = Προστέθηκε δευτερεύον email
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Έχετε επαληθεύσει επιτυχώς το { $secondaryEmail } ως δευτερεύον email για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης θα αποστέλλονται πλέον και στις δύο διευθύνσεις email.
 postVerifySecondary-action = Διαχείριση λογαριασμού
 recovery-subject = Επαναφορά κωδικού πρόσβασης
 recovery-title = Πρέπει να επαναφέρετε τον κωδικό πρόσβασής σας;
@@ -356,14 +351,10 @@ subscriptionAccountFinishSetup-content-create-2 = Έπειτα, θα δημιο�
 subscriptionAccountFinishSetup-action-2 = Έναρξη
 subscriptionAccountReminderFirst-subject = Υπενθύμιση: Ολοκληρώστε τη ρύθμιση του λογαριασμού σας
 subscriptionAccountReminderFirst-title = Δεν έχετε ακόμα πρόσβαση στη συνδρομή σας
-subscriptionAccountReminderFirst-content-info = Πριν από λίγες μέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") } αλλά δεν τον επαληθεύσατε. Ελπίζουμε να ολοκληρώσετε τη ρύθμιση του λογαριασμού σας, ώστε να μπορέσετε να χρησιμοποιήσετε τη νέα σας συνδρομή.
-subscriptionAccountReminderFirst-content-select = Επιλέξτε «Δημιουργία κωδικού πρόσβασης» για να ορίσετε έναν νέο κωδικό πρόσβασης και να ολοκληρώσετε την επαλήθευση του λογαριασμού σας.
 subscriptionAccountReminderFirst-action = Δημιουργία κωδικού πρόσβασης
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Τελική υπενθύμιση: Ρυθμίστε τον λογαριασμό σας
 subscriptionAccountReminderSecond-title = Καλώς ορίσατε στο { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = Πριν από λίγες μέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") } αλλά δεν τον επαληθεύσατε. Ελπίζουμε να ολοκληρώσετε τη ρύθμιση του λογαριασμού σας, ώστε να μπορέσετε να χρησιμοποιήσετε τη νέα σας συνδρομή.
-subscriptionAccountReminderSecond-content-select = Επιλέξτε «Δημιουργία κωδικού πρόσβασης» για να ορίσετε έναν νέο κωδικό πρόσβασης και να ολοκληρώσετε την επαλήθευση του λογαριασμού σας.
 subscriptionAccountReminderSecond-action = Δημιουργία κωδικού πρόσβασης
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -614,7 +605,6 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Επιβεβαίωση email
 verificationReminderSecond-subject = Τελική υπενθύμιση: Ενεργοποιήστε τον λογαριασμό σας
 verificationReminderSecond-title = Είστε ακόμα εκεί;
-verificationReminderSecond-description = Σχεδόν πριν από μία εβδομάδα, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επαληθεύσατε ποτέ. Ανησυχούμε για εσάς.
 verificationReminderSecond-sub-description = Επιβεβαιώστε αυτήν τη διεύθυνση email για να ενεργοποιήσετε τον λογαριασμό σας και να μας ενημερώσετε ότι είστε εντάξει.
 verificationReminderSecond-action = Επιβεβαίωση email
 verify-title = Ενεργοποιήστε την οικογένεια των προϊόντων { -brand-firefox }
@@ -634,25 +624,19 @@ verifyLogin-action = Επιβεβαίωση εισόδου
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Κωδικός σύνδεσης για το { $serviceName }
 verifyLoginCode-title = Κάνετε εσείς σύνδεση;
-verifyLoginCode-prompt = Αν ναι, ορίστε ο κωδικός επαλήθευσης:
 verifyLoginCode-expiry-notice = Λήγει σε 5 λεπτά.
-verifyPrimary-title = Επαλήθευση κύριου email
+verifyPrimary-title-2 = Επιβεβαίωση κύριου email
 verifyPrimary-description = Έχει υποβληθεί αίτημα για μια αλλαγή στον λογαριασμό από την ακόλουθη συσκευή:
 verifyPrimary-subject = Επιβεβαίωση κύριου email
-verifyPrimary-action = Επαλήθευση email
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Μόλις γίνει επαλήθευση, οι αλλαγές του λογαριασμού, όπως η προσθήκη δευτερεύοντος email, θα καταστούν δυνατές από αυτήν τη συσκευή.
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Επιβεβαίωση δευτερεύοντος email
-verifySecondaryCode-title = Επαλήθευση δευτερεύοντος email
-verifySecondaryCode-action = Επαλήθευση email
+verifySecondaryCode-title-2 = Επιβεβαίωση δευτερεύοντος email
+verifySecondaryCode-action-2 = Επιβεβαίωση email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Έχει υποβληθεί ένα αίτημα για τη χρήση του { $email } ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο { -product-firefox-account(case: "acc", capitalization: "lower") }:
-verifySecondaryCode-prompt = Χρησιμοποιήστε αυτόν τον κωδικό επαλήθευσης:
-verifySecondaryCode-expiry-notice = Λήγει σε 5 λεπτά. Μόλις γίνει επαλήθευση, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject = Κωδικός επαλήθευσης: { $code }
+verifyShortCode-subject-2 = Κωδικός επιβεβαίωσης: { $code }
 verifyShortCode-title = Κάνετε εσείς εγγραφή;
-verifyShortCode-prompt = Αν ναι, χρησιμοποιήστε αυτόν τον κωδικό επαλήθευσης στη φόρμα εγγραφής σας:
 verifyShortCode-expiry-notice = Λήγει σε 5 λεπτά.
