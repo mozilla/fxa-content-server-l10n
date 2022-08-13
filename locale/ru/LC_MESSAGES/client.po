@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Accounts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-13 11:58+0000\n"
+"PO-Revision-Date: 2022-08-13 12:04+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Mozilla Russia <ru@li.org>\n"
 "Language: ru\n"
@@ -76,7 +76,7 @@ msgstr "Сейчас вы можете сделать изменения в св
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Основная электронная почта подтверждена"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -84,7 +84,7 @@ msgstr "Оповещения аккаунта также будут присыл
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Дополнительная электронная почта подтверждена"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -96,7 +96,7 @@ msgstr "Теперь вы можете использовать %(serviceName)s"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Аккаунт подтверждён"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -220,7 +220,7 @@ msgstr "Распечатано"
 
 #: .es5/views/behaviors/settings.js:40
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Аккаунт успешно подтверждён"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -1003,23 +1003,23 @@ msgstr "Вход уже подтверждён"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Срок действия ссылки для подтверждения истёк"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Срок действия ссылки, по которой вы щёлкаете, чтобы подтвердить вашу почту, истёк."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Щёлкните здесь, чтобы получить новую ссылку для подтверждения"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Ссылка для подтверждения повреждена"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Ошибка подтверждения"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1031,7 +1031,7 @@ msgstr "Подтвердить этот вход"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Поищите письмо со ссылкой подтверждения, отправленное на %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1096,7 +1096,7 @@ msgstr "Аккаунт Firefox подключён"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "Электронная почта подтверждена"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1399,7 +1399,7 @@ msgstr "Название события"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Подтверждено"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1680,7 +1680,7 @@ msgstr "Возможно позже"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Пожалуйста, введите код подтверждения, который был отправлен на %(escapedEmail)s, в течение 5 минут."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -2033,15 +2033,15 @@ msgstr "Чтобы загрузить Firefox на своё мобильное �
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "Или отправьте себе <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">ссылку для загрузки</a>."
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
-msgstr ""
+msgstr "Можно начинать синхронизацию устройств"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Синхронизируйте устройства, чтобы просматривать свои вкладки, пароли и закладки везде, где используете Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
