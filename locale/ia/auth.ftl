@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Accesso a { -product-firefox-accounts }?
-session-verify-send-push-body = Clicca hic pro verificar que es tu
+session-verify-send-push-body-2 = Clicca hic pro confirmar que es tu
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -290,10 +290,8 @@ postRemoveTwoStepAuthentication-description = Tu ha disactivate con successo le 
 postRemoveTwoStepAuthentication-description-plaintext = Tu ha disactivate con successo le authentication a duo grados sur tu { -product-firefox-account }. Le codices de securitate non essera plus necessari cata authentication.
 postRemoveTwoStepAuthentication-action = Gerer le conto
 postRemoveTwoStepAuthentication-not-required = Le codices de securitate non essera plus necessari a cata authentication.
-postVerify-sub-title = { -product-firefox-account } verificate. Tu es quasi illac.
 postVerify-title = Seque synchronisation inter tu apparatos!
 postVerify-description = Synchronisar reservatemente mantene tu marcapaginas, contrasignos e altere datos de { -brand-firefox } identic inter tote tu apparatos.
-postVerify-subject = Conto verificate. Seque synchronisar un altere dispositivo pro finir installation
 postVerify-setup = Configurar apparato sequente
 postVerify-action = Configurar apparato sequente
 # Variables:
@@ -303,7 +301,7 @@ postVerifySecondary-subject = Adresse de e-mail secundari addite
 postVerifySecondary-title = Adresse de e-mail secundari addite
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Tu ha verificate con successo { $secondaryEmail } como email secundari pro tu { -product-firefox-account }. Notificationes de securitate e confirmationes de authentication ora essera livrate a ambe adresses email.
+postVerifySecondary-content-2 = Tu ha confirmate con successo { $secondaryEmail } como email secundari pro tu { -product-firefox-account }. Notificationes de securitate e confirmationes de authentication ora essera livrate a ambe adresses email.
 postVerifySecondary-action = Gerer le conto
 recovery-subject = Reinitialisa tu contrasigno
 recovery-title = Debe tu reinitialisar tu contrasigno?
@@ -329,14 +327,14 @@ subscriptionAccountFinishSetup-content-create-2 = Postea, tu creara un contrasig
 subscriptionAccountFinishSetup-action-2 = Comenciar
 subscriptionAccountReminderFirst-subject = Memento: fini le preparation de tu conto
 subscriptionAccountReminderFirst-title = Tu non pote ancora acceder a tu subscription
-subscriptionAccountReminderFirst-content-info = Alcun dies retro tu ha create un { -product-firefox-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.
-subscriptionAccountReminderFirst-content-select = Elige “Crear contrasigno” pro configurar un nove contrasigno e finir de verificar tu conto.
+subscriptionAccountReminderFirst-content-info-2 = Alcun dies retro tu ha create un { -product-firefox-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.
+subscriptionAccountReminderFirst-content-select-2 = Elige “Crear contrasigno” pro configurar un nove contrasigno e finir de confirmar tu conto.
 subscriptionAccountReminderFirst-action = Crear contrasigno
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Memento final: configura tu conto
 subscriptionAccountReminderSecond-title = Benvenite a { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = Alcun dies retro tu ha create un { -product-firefox-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.
-subscriptionAccountReminderSecond-content-select = Elige “Crear contrasigno” pro configurar un nove contrasigno e finir de verificar tu conto.
+subscriptionAccountReminderSecond-content-info-2 = Alcun dies retro tu ha create un { -product-firefox-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.
+subscriptionAccountReminderSecond-content-select-2 = Elige “Crear contrasigno” pro configurar un nove contrasigno e finir de confirmar tu conto.
 subscriptionAccountReminderSecond-action = Crear contrasigno
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -587,7 +585,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Confirmar email
 verificationReminderSecond-subject = Rememoration final: Activa tu conto
 verificationReminderSecond-title = Ancora ci?
-verificationReminderSecond-description = Quasi un septimana retro tu ha create un { -product-firefox-account }, ma jammais verificate. Nos es preoccupate pro te.
+verificationReminderSecond-description-2 = Quasi un septimana retro tu ha create un { -product-firefox-account }, ma jammais confirmate. Nos es preoccupate pro te.
 verificationReminderSecond-sub-description = Confirma iste adresse de e-mail pro activar tu conto e facer nos saper que toto es in ordine.
 verificationReminderSecond-action = Confirmar email
 verify-title = Activar le familia de productos { -brand-firefox }
@@ -607,25 +605,25 @@ verifyLogin-action = Confirmar apertura de session
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Codice de accesso pro { $serviceName }
 verifyLoginCode-title = Es tu qui aperi session?
-verifyLoginCode-prompt = Si si, ecce le codice de verification:
+verifyLoginCode-prompt-2 = Si si, ecce le codice de confirmation:
 verifyLoginCode-expiry-notice = Illo expira in 5 minutas.
-verifyPrimary-title = Verificar e-mail primari
+verifyPrimary-title-2 = Confirmar email primari
 verifyPrimary-description = Requesta de modificar le conto per le sequente apparato:
 verifyPrimary-subject = Confirmar e-mail primari
-verifyPrimary-action = Verificar le email
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Post le verifica le cambios del conto, como adder le email secundari, sera possibile per le apparato.
+verifyPrimary-action-2 = Confirmar email
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Post le confirmation sera possibile per le apparato le cambios del conto, como adder le email secundari.
 verifySecondaryCode-subject = Confirmar e-mail secundari
-verifySecondaryCode-title = Verificar e-mail secundari
-verifySecondaryCode-action = Verificar le email
+verifySecondaryCode-title-2 = Confirmar email secundari
+verifySecondaryCode-action-2 = Confirmar email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Un requesta de usar { $email } como adresse email secundari ha essite facite ab le sequente { -product-firefox-account }:
-verifySecondaryCode-prompt = Usa iste codice de verification:
-verifySecondaryCode-expiry-notice = Illo expira in 5 minutas. Un vice verificate, iste adresse comenciara a reciper notificationes e confirmationes de securitate.
+verifySecondaryCode-prompt-2 = Usa iste codice de confirmation:
+verifySecondaryCode-expiry-notice-2 = Illo expira in 5 minutas. Un vice confirmate, iste adresse comenciara a reciper notificationes e confirmationes de securitate.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject = Codice de verification: { $code }
+verifyShortCode-subject-2 = Codice de confirmation: { $code }
 verifyShortCode-title = Es vermente tu qui vole inscriber se?
-verifyShortCode-prompt = Si si, usa iste codice de verification in tu modulo de registration:
+verifyShortCode-prompt-2 = Si si, usa iste codice de confirmation in tu modulo de registration:
 verifyShortCode-expiry-notice = Illo expira in 5 minutas.
