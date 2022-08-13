@@ -27,6 +27,8 @@
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = cunntas Firefox
+product-mozilla-vpn = Mozilla VPN
+product-firefox-monitor = Firefox Monitor
 
 ##
 
@@ -35,7 +37,14 @@
 
 ##  Application page title and footer
 
+app-default-title = { -product-firefox-accounts }
+# This string is used as the title of the page.
+# Variables:
+#   $title (String) - the name of the current page
+#                      (for example: "Two-step authentication")
+app-page-title = { $title } | { -product-firefox-accounts }
 app-footer-mozilla-logo-label = Suaicheantas { -brand-mozilla }
+app-footer-privacy-notice = Brath prìobhaideachd na làraich-lìn
 app-footer-terms-of-service = Teirmichean na seirbheise
 
 ##
@@ -69,18 +78,39 @@ connect-another-find-fx-mobile =
 cs-heading = Seirbheisean ceangailte
 cs-refresh-button =
     .title = Ath-nuadhaich na seirbheisean ceangailte
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Rudan a tha a dhìth no dùblaichte?
+cs-disconnect-sync-heading = Dì-cheangail on t-sioncronachadh
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Tha an t-uidheam seo:
+cs-disconnect-sync-opt-suspicious = Amharasach
+cs-disconnect-sync-opt-lost = Air chall no air a ghoid
+cs-disconnect-sync-opt-old = Aosta no fhuair thu fear ùr na àite
+cs-disconnect-sync-opt-duplicate = ’Na dhùblachadh
+cs-disconnect-sync-opt-not-say = Cha bu toigh leam innse
 
 ##
 
+cs-disconnect-advice-confirm = Ceart, tha mi agaibh
+cs-disconnect-lost-advice-heading = Chaidh an t-uidheam a tha air chall no air a ghoid a dhì-cheangal
 
 ##
 
 
 ## Tooltip notifications for actions performed on recovery keys or one-time use codes
+
+
+## Data collection section
 
 
 # DropDownAvatarMenu component
@@ -96,6 +126,9 @@ cs-refresh-button =
 
 
 ## Input Password
+
+
+## Linked Accounts section
 
 
 ## Modal
@@ -122,6 +155,12 @@ cs-refresh-button =
 ##
 
 
+## Password create page
+
+
+##
+
+
 ## Delete account page
 
 
@@ -138,9 +177,6 @@ cs-refresh-button =
 
 
 ## Add secondary email page
-
-
-##
 
 
 ## Verify secondary email page
@@ -162,6 +198,9 @@ cs-refresh-button =
 
 
 ## Security section of Setting
+
+
+## Switch component
 
 
 ## Sub-section row Defaults
