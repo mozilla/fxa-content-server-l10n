@@ -216,14 +216,14 @@ modal-cancel-button = Cancelar
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Confirme seu email
-mvs-enter-verification-code = Digite seu código de verificação
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Confirme seu email
+mvs-enter-verification-code-2 = Digite o código de confirmação
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Digite o código de verificação que foi enviado para <email>{ $email }</email> em até 5 minutos.
+mvs-enter-verification-code-desc-2 = Digite o código de confirmação enviado para <email>{ $email }</email> há cerca de 5 minutos.
 msv-cancel-button = Cancelar
-msv-submit-button = Validar
+msv-submit-button-2 = Confirmar
 
 ## Settings Nav
 
@@ -377,17 +377,17 @@ add-secondary-email-save-button = Salvar
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Etapa 2 de 2
-verify-secondary-email-error-2 = Houve um problema ao enviar o código de verificação
+verify-secondary-email-error-3 = Houve um problema ao enviar o código de confirmação
 verify-secondary-email-page-title =
     .title = Email secundário
-verify-secondary-email-verification-code =
-    .label = Digite o código de verificação
+verify-secondary-email-verification-code-2 =
+    .label = Digite o código de confirmação
 verify-secondary-email-cancel-button = Cancelar
-verify-secondary-email-verify-button = Validar
+verify-secondary-email-verify-button-2 = Confirmar
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Digite o código de verificação que foi enviado para <strong>{ $email }</strong> em até 5 minutos.
+verify-secondary-email-please-enter-code-2 = Digite o código de confirmação enviado para <strong>{ $email }</strong> há cerca de 5 minutos.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -409,7 +409,7 @@ tfa-button-cancel = Cancelar
 tfa-button-finish = Concluir
 tfa-incorrect-totp = Código de autenticação em duas etapas incorreto
 tfa-cannot-retrieve-code = Houve um problema ao buscar seu código.
-tfa-cannot-verify-code-2 = Houve um problema ao verificar seu código de recuperação
+tfa-cannot-verify-code-3 = Houve um problema ao confirmar o código de recuperação
 tfa-incorrect-recovery-code = Código de recuperação incorreto
 tfa-enabled = Autenticação em duas etapas ativada
 tfa-scan-this-code = Leia este código QR usando um destes <linkExternal>aplicativos de autenticação</linkExternal>.
@@ -491,7 +491,7 @@ rk-cannot-remove-key = Não foi possível remover a chave de recuperação da su
 rk-refresh-key = Atualizar chave de recuperação
 rk-content-explain = Restaure suas informações caso esqueça sua senha.
 rk-content-reset-data = Por que redefinir minha senha redefine meus dados?
-rk-cannot-verify-session-3 = Desculpe, houve um problema ao verificar sua sessão
+rk-cannot-verify-session-4 = Desculpe, houve um problema ao confirmar a sessão.
 rk-remove-modal-heading = Remover chave de recuperação?
 rk-remove-modal-content = Caso você redefina sua senha, você não poderá usar sua chave de recuperação para acessar seus dados. Esta ação não pode ser desfeita.
 rk-refresh-error = Desculpe, houve um problema ao atualizar a chave de recuperação.
@@ -502,7 +502,7 @@ rk-remove-error-2 = Não foi possível remover a chave de recuperação da sua c
 se-heading = Email secundário
     .header = Email secundário
 se-cannot-refresh-email = Desculpe, houve um problema ao atualizar esse email.
-se-cannot-resend-code-2 = Desculpe, houve um problema ao reenviar o código de verificação
+se-cannot-resend-code-3 = Desculpe, houve um problema ao reenviar o código de confirmação
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -513,16 +513,13 @@ se-set-primary-error-2 = Desculpe, houve um problema ao alterar seu email princi
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } excluído com sucesso
 se-delete-email-error-2 = Desculpe, houve um problema ao excluir este email
-se-verify-session-2 = Você precisa validar a sessão atual para realizar esta ação
-se-verify-session-error-2 = Desculpe, houve um problema ao validar a sessão
+se-verify-session-3 = Você precisa confirmar a sessão atual para realizar esta ação
 # Button to remove the secondary email
 se-remove-email =
     .title = Remover email
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Atualizar email
-se-unverified = não validada
-se-resend-code = Verificação necessária. <button>Reenvie o código de verificação</button>, se ele não estiver na sua caixa de entrada ou pasta de spam.
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
 se-default-content = Acesse sua conta se você não conseguir entrar no seu email principal.
@@ -545,7 +542,6 @@ tfa-row-button-refresh =
     .title = Atualizar autenticação em duas etapas
 tfa-row-cannot-refresh = Desculpe, houve um problema ao atualizar a autenticação em duas etapas.
 tfa-row-content-explain = Impeça que outras pessoas entrem na sua conta, exigindo um código único ao qual só você tem acesso.
-tfa-row-cannot-verify-session-3 = Desculpe, houve um problema ao validar a sessão
 tfa-row-disable-modal-heading = Desativar autenticação em duas etapas?
 tfa-row-disable-modal-confirm = Desativar
 tfa-row-disable-modal-explain = Esta ação não pode ser desfeita. Você também tem a opção de <linkExternal>substituir seus códigos de recuperação</linkExternal>.
@@ -558,7 +554,6 @@ tfa-row-change-modal-explain = Você não poderá desfazer esta ação.
 
 auth-error-102 = Conta desconhecida
 auth-error-103 = Senha incorreta
-auth-error-105 = Código de verificação inválido
 auth-error-110 = Token inválido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -568,8 +563,6 @@ auth-error-110 = Token inválido
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Você já tentou vezes demais. Tente novamente { $retryAfter }.
-auth-error-138 = Sessão não validada
 auth-error-139 = O email secundário deve ser diferente do email da sua conta
 auth-error-155 = Token TOTP não encontrado
-auth-error-183 = Código de verificação inválido ou vencido
 auth-error-1008 = Sua nova senha deve ser diferente

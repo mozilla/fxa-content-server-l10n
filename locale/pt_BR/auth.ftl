@@ -614,7 +614,7 @@ verifyPrimary-description = Uma solicitação para efetuar uma alteração na co
 verifyPrimary-subject = Confirmar email principal
 verifyPrimary-action-2 = Confirmar email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
-verifyPrimary-post-verify-2 = Uma vez confirmada, será possível fazer alterações na conta neste dispositivo, como adicionar um email secundário.
+verifyPrimary-post-verify-2 = Uma vez confirmado, será possível fazer alterações na conta neste dispositivo, como adicionar um email secundário.
 verifySecondaryCode-subject = Confirmar email secundário
 verifySecondaryCode-title-2 = Confirmar email secundário
 verifySecondaryCode-action-2 = Confirmar email
@@ -622,5 +622,10 @@ verifySecondaryCode-action-2 = Confirmar email
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Foi feita uma solicitação para usar { $email } como endereço de email secundário da seguinte { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Use este código de confirmação:
+verifySecondaryCode-expiry-notice-2 = Ele expira em 5 minutos. Uma vez confirmado, este endereço começará a receber notificações e confirmações de segurança.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-2 = Código de confirmação: { $code }
 verifyShortCode-title = É você mesmo se cadastrando?
+verifyShortCode-prompt-2 = Caso afirmativo, use este código de confirmação no formulário de cadastro:
 verifyShortCode-expiry-notice = Expira em 5 minutos.
