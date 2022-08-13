@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Está iniciando sessão em { -product-firefox-accounts }?
-session-verify-send-push-body = Clique aqui para confirmar que é você
+session-verify-send-push-body-2 = Clique aqui para confirmar que é você
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -290,10 +290,10 @@ postRemoveTwoStepAuthentication-description = Você desativou com sucesso a aute
 postRemoveTwoStepAuthentication-description-plaintext = Você desativou com sucesso a autenticação em duas etapas na sua { -product-firefox-account }. Códigos de segurança não serão mais necessários a cada novo acesso.
 postRemoveTwoStepAuthentication-action = Gerenciar conta
 postRemoveTwoStepAuthentication-not-required = Códigos de segurança não serão mais necessários a cada novo acesso.
-postVerify-sub-title = { -product-firefox-account } validada. Está quase pronto.
+postVerify-sub-title-2 = { -product-firefox-account } confirmada. Está quase pronto.
 postVerify-title = Próxima sincronização entre seus dispositivos!
 postVerify-description = A sincronização mantém de forma privativa seus favoritos, senhas e outros dados do { -brand-firefox } iguais em todos os seus dispositivos.
-postVerify-subject = Conta validada. Agora sincronize outro dispositivo para concluir a configuração
+postVerify-subject-2 = Conta confirmada. Agora sincronize outro dispositivo para concluir a configuração
 postVerify-setup = Configurar próximo dispositivo
 postVerify-action = Configurar próximo dispositivo
 # Variables:
@@ -303,7 +303,7 @@ postVerifySecondary-subject = Email secundário adicionado
 postVerifySecondary-title = Email secundário adicionado
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Você validou com sucesso { $secondaryEmail } como email secundário da sua { -product-firefox-account }. Notificações de segurança e confirmações de acesso agora serão enviadas para ambos os endereços de email.
+postVerifySecondary-content-2 = Você confirmou com sucesso { $secondaryEmail } como email secundário da sua { -product-firefox-account }. Notificações de segurança e confirmações de acesso agora serão enviadas para ambos os endereços de email.
 postVerifySecondary-action = Gerenciar conta
 recovery-subject = Redefina a sua senha
 recovery-title = Precisa redefinir a sua senha?
@@ -329,14 +329,14 @@ subscriptionAccountFinishSetup-content-create-2 = Em seguida, você deve criar u
 subscriptionAccountFinishSetup-action-2 = Introdução
 subscriptionAccountReminderFirst-subject = Lembrete: Conclua a configuração da sua conta
 subscriptionAccountReminderFirst-title = Você ainda não pode acessar sua assinatura
-subscriptionAccountReminderFirst-content-info = Alguns dias atrás, você criou uma { -product-firefox-account }, mas nunca a validou. Esperamos que você termine a configuração de sua conta para poder usar sua nova assinatura.
-subscriptionAccountReminderFirst-content-select = Selecione “Criar senha” para definir uma nova senha e concluir a validação de sua conta.
+subscriptionAccountReminderFirst-content-info-2 = Alguns dias atrás você criou uma { -product-firefox-account }, mas nunca confirmou. Esperamos que você termine a configuração de sua conta para poder usar sua nova assinatura.
+subscriptionAccountReminderFirst-content-select-2 = Selecione “Criar senha” para definir uma nova senha e concluir a confirmação de sua conta.
 subscriptionAccountReminderFirst-action = Criar senha
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Lembrete final: Configure sua conta
 subscriptionAccountReminderSecond-title = Boas-vindas ao { -brand-firefox }
-subscriptionAccountReminderSecond-content-info = Alguns dias atrás, você criou uma { -product-firefox-account }, mas nunca a validou. Esperamos que você termine a configuração de sua conta para poder usar sua nova assinatura.
-subscriptionAccountReminderSecond-content-select = Selecione “Criar senha” para definir uma nova senha e concluir a validação de sua conta.
+subscriptionAccountReminderSecond-content-info-2 = Alguns dias atrás você criou uma { -product-firefox-account }, mas nunca confirmou. Esperamos que você termine a configuração de sua conta para poder usar sua nova assinatura.
+subscriptionAccountReminderSecond-content-select-2 = Selecione “Criar senha” para definir uma nova senha e concluir a confirmação de sua conta.
 subscriptionAccountReminderSecond-action = Criar senha
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -587,7 +587,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Confirmar email
 verificationReminderSecond-subject = Lembrete final: Ative sua conta
 verificationReminderSecond-title = Ainda está aí?
-verificationReminderSecond-description = Há quase uma semana você criou uma { -product-firefox-account }, mas nunca a validou. Estamos preocupados com você.
+verificationReminderSecond-description-2 = Há quase uma semana você criou uma { -product-firefox-account }, mas nunca confirmou. Estamos preocupados com você.
 verificationReminderSecond-sub-description = Confirme este endereço de email para ativar sua conta e deixe-nos saber que você está bem.
 verificationReminderSecond-action = Confirmar email
 verify-title = Ative a família de produtos { -brand-firefox }
@@ -607,25 +607,20 @@ verifyLogin-action = Confirmar acesso
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Código de acesso do { $serviceName }
 verifyLoginCode-title = Foi você que tentou entrar na sua conta?
-verifyLoginCode-prompt = Se foi você, use este código de verificação:
+verifyLoginCode-prompt-2 = Se foi você, use este código de confirmação:
 verifyLoginCode-expiry-notice = Expira em 5 minutos.
-verifyPrimary-title = Validar email principal
+verifyPrimary-title-2 = Confirmar email principal
 verifyPrimary-description = Uma solicitação para efetuar uma alteração na conta foi feita a partir do seguinte dispositivo:
 verifyPrimary-subject = Confirmar email principal
-verifyPrimary-action = Validar email
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Uma vez validado, será possível realizar alterações na conta nesse dispositivo, como adicionar um email secundário.
+verifyPrimary-action-2 = Confirmar email
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Uma vez confirmada, será possível fazer alterações na conta neste dispositivo, como adicionar um email secundário.
 verifySecondaryCode-subject = Confirmar email secundário
-verifySecondaryCode-title = Validar email secundário
-verifySecondaryCode-action = Validar email
+verifySecondaryCode-title-2 = Confirmar email secundário
+verifySecondaryCode-action-2 = Confirmar email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Foi feita uma solicitação para usar { $email } como endereço de email secundário da seguinte { -product-firefox-account }:
-verifySecondaryCode-prompt = Use este código de verificação:
-verifySecondaryCode-expiry-notice = Ele expira em 5 minutos. Uma vez validado, este endereço começará a receber notificações e confirmações de segurança.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject = Código de verificação: { $code }
+verifySecondaryCode-prompt-2 = Use este código de confirmação:
 verifyShortCode-title = É você mesmo se cadastrando?
-verifyShortCode-prompt = Caso afirmativo, use este código de verificação em seu formulário de cadastro:
 verifyShortCode-expiry-notice = Expira em 5 minutos.
