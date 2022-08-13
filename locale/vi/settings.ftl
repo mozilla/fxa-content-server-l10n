@@ -228,14 +228,14 @@ modal-cancel-button = Huỷ bỏ
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Xác thực email của bạn
-mvs-enter-verification-code = Nhập mã xác minh
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Xác minh email của bạn
+mvs-enter-verification-code-2 = Nhập mã xác minh của bạn
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Vui lòng nhập mã xác minh đã được gửi đến <email>{ $email }</email> trong vòng 5 phút.
+mvs-enter-verification-code-desc-2 = Vui lòng nhập mã xác minh đã được gửi đến <email>{ $email }</email> trong vòng 5 phút.
 msv-cancel-button = Hủy bỏ
-msv-submit-button = Xác minh
+msv-submit-button-2 = Xác nhận
 
 ## Settings Nav
 
@@ -392,17 +392,17 @@ add-secondary-email-save-button = Lưu
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Bước 2/2
-verify-secondary-email-error-2 = Đã xảy ra sự cố khi gửi mã xác thực
+verify-secondary-email-error-3 = Đã xảy ra sự cố khi gửi mã xác minh
 verify-secondary-email-page-title =
     .title = Email phụ
-verify-secondary-email-verification-code =
-    .label = Nhập mã xác thực
+verify-secondary-email-verification-code-2 =
+    .label = Nhập mã xác minh của bạn
 verify-secondary-email-cancel-button = Huỷ bỏ
-verify-secondary-email-verify-button = Xác nhận
+verify-secondary-email-verify-button-2 = Xác nhận
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Vui lòng nhập mã xác minh đã được gửi tới <strong>{ $email }</strong> trong vòng 5 phút.
+verify-secondary-email-please-enter-code-2 = Vui lòng nhập mã xác minh đã được gửi tới <strong>{ $email }</strong> trong vòng 5 phút.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -424,7 +424,7 @@ tfa-button-cancel = Hủy bỏ
 tfa-button-finish = Hoàn thành
 tfa-incorrect-totp = Mã xác thực hai bước không đúng
 tfa-cannot-retrieve-code = Có vấn đề trong khi nhận mã của bạn.
-tfa-cannot-verify-code-2 = Đã xảy ra sự cố khi xác thực mã khôi phục của bạn
+tfa-cannot-verify-code-3 = Đã xảy ra sự cố khi xác minh mã khôi phục của bạn
 tfa-incorrect-recovery-code = Mã khôi phục không đúng
 tfa-enabled = Đã bật xác thực hai bước
 tfa-scan-this-code =
@@ -515,7 +515,7 @@ rk-cannot-remove-key = Không thể xóa khóa khôi phục tài khoản của b
 rk-refresh-key = Tải lại khóa khôi phục
 rk-content-explain = Khôi phục thông tin của bạn khi bạn quên mật khẩu.
 rk-content-reset-data = Tại sao dữ liệu của tôi bị đặt lại khi thay thế mật khẩu của tôi?
-rk-cannot-verify-session-3 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
+rk-cannot-verify-session-4 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 rk-remove-modal-heading = Xóa khóa khôi phục?
 rk-remove-modal-content =
     Trong trường hợp bạn đặt lại mật khẩu của mình, bạn sẽ không thể
@@ -528,7 +528,7 @@ rk-remove-error-2 = Không thể xóa khóa khôi phục của tài khoản củ
 se-heading = Email phụ
     .header = Email phụ
 se-cannot-refresh-email = Xin lỗi, đã xảy ra sự cố khi làm mới email đó.
-se-cannot-resend-code-2 = Xin lỗi, đã xảy ra sự cố khi gửi lại mã xác minh
+se-cannot-resend-code-3 = Xin lỗi, đã xảy ra sự cố khi gửi lại mã xác minh
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -539,16 +539,16 @@ se-set-primary-error-2 = Xin lỗi, đã có sự cố khi đang thay đổi em
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = Đã xóa thành công { $email }
 se-delete-email-error-2 = Xin lỗi, đã xảy ra sự cố khi xóa email này
-se-verify-session-2 = Bạn cần xác minh phiên hiện tại của mình để thực hiện hành động này
-se-verify-session-error-2 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
+se-verify-session-3 = Bạn cần xác minh phiên hiện tại của mình để thực hiện hành động này
+se-verify-session-error-3 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 # Button to remove the secondary email
 se-remove-email =
     .title = Xóa email
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Làm mới email
-se-unverified = chưa xác minh
-se-resend-code =
+se-unverified-2 = chưa xác minh
+se-resend-code-2 =
     Cần xác minh. <button>Gửi lại mã xác minh</button>
     nếu nó không có trong hộp thư đến hoặc thư mục spam của bạn.
 # Button to make secondary email the primary
@@ -577,7 +577,7 @@ tfa-row-cannot-refresh = Xin lỗi, đã xảy ra sự cố khi làm mới xác 
 tfa-row-content-explain =
     Ngăn người khác đăng nhập bằng cách yêu cầu
     mã duy nhất chỉ bạn có quyền truy cập.
-tfa-row-cannot-verify-session-3 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
+tfa-row-cannot-verify-session-4 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 tfa-row-disable-modal-heading = Tắt xác thực hai bước?
 tfa-row-disable-modal-confirm = Tắt
 tfa-row-disable-modal-explain =
@@ -592,7 +592,7 @@ tfa-row-change-modal-explain = Bạn sẽ không thể hoàn tác hành động 
 
 auth-error-102 = Tài khoản không xác định
 auth-error-103 = Mật khẩu không đúng
-auth-error-105 = Mã xác minh không hợp lệ
+auth-error-105-2 = Mã xác minh không hợp lệ
 auth-error-110 = Mã không hợp lệ
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -602,8 +602,8 @@ auth-error-110 = Mã không hợp lệ
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Bạn đã thử quá nhiều lần. Vui lòng thử lại { $retryAfter }.
-auth-error-138 = Phiên chưa được xác minh
+auth-error-138-2 = Phiên chưa được xác minh
 auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP
-auth-error-183 = Mã xác minh không hợp lệ hoặc đã hết hạn
+auth-error-183-2 = Mã xác minh không hợp lệ hoặc đã hết hạn
 auth-error-1008 = Mật khẩu mới của bạn phải khác

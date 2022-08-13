@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Đăng nhập vào { -product-firefox-accounts }?
-session-verify-send-push-body = Nhấp vào đây để xác minh đó là bạn
+session-verify-send-push-body-2 = Nhấp vào đây để xác minh đó là bạn
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -289,10 +289,10 @@ postRemoveTwoStepAuthentication-description = Bạn đã vô hiệu hóa thành 
 postRemoveTwoStepAuthentication-description-plaintext = Bạn đã vô hiệu hóa thành công xác thực hai bước trên { -product-firefox-account } của mình. Mã bảo mật sẽ không còn được yêu cầu ở mỗi lần đăng nhập.
 postRemoveTwoStepAuthentication-action = Quản lý tài khoản
 postRemoveTwoStepAuthentication-not-required = Mã bảo mật sẽ không còn được yêu cầu tại mỗi lần đăng nhập.
-postVerify-sub-title = Đã xác minh { -product-firefox-account }. Bạn đã gần xong.
+postVerify-sub-title-2 = Đã xác minh { -product-firefox-account }. Bạn đã gần xong.
 postVerify-title = Tiếp theo, đồng bộ hóa giữa các thiết bị của bạn!
 postVerify-description = Đồng bộ hóa riêng tư giữ dấu trang, mật khẩu và dữ liệu { -brand-firefox } khác giống nhau trên tất cả các thiết bị của bạn.
-postVerify-subject = Đã xác minh tài khoản. Tiếp theo, đồng bộ hóa thiết bị khác để hoàn tất thiết lập
+postVerify-subject-2 = Đã xác minh tài khoản. Tiếp theo, đồng bộ hóa thiết bị khác để hoàn tất thiết lập
 postVerify-setup = Thiết lập thiết bị tiếp theo
 postVerify-action = Thiết lập thiết bị tiếp theo
 # Variables:
@@ -302,7 +302,7 @@ postVerifySecondary-subject = Đã thêm email phụ
 postVerifySecondary-title = Đã thêm email phụ
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Bạn đã xác minh thành công { $secondaryEmail } làm email phụ từ { -product-firefox-account } của mình. Giờ đây, thông báo bảo mật và xác nhận đăng nhập sẽ được gửi tới cả hai địa chỉ email.
+postVerifySecondary-content-2 = Bạn đã xác minh thành công { $secondaryEmail } làm email phụ từ { -product-firefox-account } của mình. Giờ đây, thông báo bảo mật và xác nhận đăng nhập sẽ được gửi tới cả hai địa chỉ email.
 postVerifySecondary-action = Quản lý tài khoản
 recovery-subject = Đặt lại mật khẩu của bạn
 recovery-title = Cần đặt lại mật khẩu của bạn?
@@ -328,14 +328,14 @@ subscriptionAccountFinishSetup-content-create-2 = Tiếp theo, bạn sẽ tạo 
 subscriptionAccountFinishSetup-action-2 = Bắt đầu
 subscriptionAccountReminderFirst-subject = Nhắc nhở: Hoàn tất thiết lập tài khoản của bạn
 subscriptionAccountReminderFirst-title = Bạn chưa thể truy cập thuê bao của mình
-subscriptionAccountReminderFirst-content-info = Một vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh tài khoản đó. Chúng tôi hy vọng bạn sẽ hoàn tất việc thiết lập tài khoản của mình để có thể sử dụng thuê bao mới của mình.
-subscriptionAccountReminderFirst-content-select = Chọn “Tạo mật khẩu” để thiết lập mật khẩu mới và hoàn tất việc xác minh tài khoản của bạn.
+subscriptionAccountReminderFirst-content-info-2 = Một vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh tài khoản đó. Chúng tôi hy vọng bạn sẽ hoàn tất việc thiết lập tài khoản của mình để có thể sử dụng thuê bao mới của mình.
+subscriptionAccountReminderFirst-content-select-2 = Chọn “Tạo mật khẩu” để thiết lập mật khẩu mới và hoàn tất việc xác minh tài khoản của bạn.
 subscriptionAccountReminderFirst-action = Tạo mật khẩu
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Lời nhắc cuối cùng: Thiết lập tài khoản của bạn
 subscriptionAccountReminderSecond-title = Chào mừng đến với { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = Một vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh tài khoản đó. Chúng tôi hy vọng bạn sẽ hoàn tất việc thiết lập tài khoản của mình để có thể sử dụng thuê bao mới của mình.
-subscriptionAccountReminderSecond-content-select = Chọn “Tạo mật khẩu” để thiết lập mật khẩu mới và hoàn tất việc xác minh tài khoản của bạn.
+subscriptionAccountReminderSecond-content-info-2 = Một vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh tài khoản đó. Chúng tôi hy vọng bạn sẽ hoàn tất việc thiết lập tài khoản của mình để có thể sử dụng thuê bao mới của mình.
+subscriptionAccountReminderSecond-content-select-2 = Chọn “Tạo mật khẩu” để thiết lập mật khẩu mới và hoàn tất việc xác minh tài khoản của bạn.
 subscriptionAccountReminderSecond-action = Tạo mật khẩu
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -586,7 +586,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Xác nhận email
 verificationReminderSecond-subject = Lời nhắc cuối cùng: Kích hoạt tài khoản của bạn
 verificationReminderSecond-title = Vẫn còn đó?
-verificationReminderSecond-description = Gần một tuần trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh nó. Chúng tôi lo lắng về bạn.
+verificationReminderSecond-description-2 = Gần một tuần trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh nó. Chúng tôi lo lắng về bạn.
 verificationReminderSecond-sub-description = Xác nhận địa chỉ email này để kích hoạt tài khoản của bạn và cho chúng tôi biết bạn vẫn ổn.
 verificationReminderSecond-action = Xác nhận email
 verify-title = Kích hoạt dòng sản phẩm của gia đình { -brand-firefox }
@@ -606,25 +606,25 @@ verifyLogin-action = Xác nhận lần đăng nhập này
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Mã đăng nhập cho { $serviceName }
 verifyLoginCode-title = Đây có phải là bạn đăng nhập không?
-verifyLoginCode-prompt = Nếu có, đây là mã xác minh:
+verifyLoginCode-prompt-2 = Nếu có, đây là mã xác minh:
 verifyLoginCode-expiry-notice = Nó hết hạn sau 5 phút.
-verifyPrimary-title = Xác nhận email chính
+verifyPrimary-title-2 = Xác minh email chính
 verifyPrimary-description = Yêu cầu thực hiện thay đổi tài khoản đã được thực hiện từ thiết bị sau:
 verifyPrimary-subject = Xác nhận email chính
-verifyPrimary-action = Xác nhận Email
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Sau khi được xác minh, các thay đổi tài khoản như thêm email phụ sẽ có thể thực hiện được từ thiết bị này.
+verifyPrimary-action-2 = Xác minh email
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Sau khi được xác minh, các thay đổi tài khoản như thêm email phụ sẽ có thể thực hiện được từ thiết bị này.
 verifySecondaryCode-subject = Xác nhận email phụ
-verifySecondaryCode-title = Xác nhận email phụ
-verifySecondaryCode-action = Xác nhận email
+verifySecondaryCode-title-2 = Xác minh email phụ
+verifySecondaryCode-action-2 = Xác minh email
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Yêu cầu sử dụng { $email } làm địa chỉ email phụ đã được thực hiện từ { -product-firefox-account } sau:
-verifySecondaryCode-prompt = Sử dụng mã xác minh này:
-verifySecondaryCode-expiry-notice = Nó hết hạn sau 5 phút. Sau khi được xác minh, địa chỉ này sẽ bắt đầu nhận được thông báo bảo mật và xác nhận.
+verifySecondaryCode-prompt-2 = Sử dụng mã xác minh này:
+verifySecondaryCode-expiry-notice-2 = Nó hết hạn sau 5 phút. Sau khi được xác minh, địa chỉ này sẽ bắt đầu nhận được thông báo bảo mật và xác nhận.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject = Mã xác minh: { $code }
+verifyShortCode-subject-2 = Mã xác minh: { $code }
 verifyShortCode-title = Đây có phải là bạn đăng nhập không?
-verifyShortCode-prompt = Nếu có, hãy sử dụng mã xác minh này trong biểu mẫu đăng ký của bạn:
+verifyShortCode-prompt-2 = Nếu có, hãy sử dụng mã xác minh này trong biểu mẫu đăng ký của bạn:
 verifyShortCode-expiry-notice = Nó hết hạn sau 5 phút.
