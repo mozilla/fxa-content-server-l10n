@@ -290,8 +290,10 @@ postRemoveTwoStepAuthentication-description = Tu ha disactivate con successo le 
 postRemoveTwoStepAuthentication-description-plaintext = Tu ha disactivate con successo le authentication a duo grados sur tu { -product-firefox-account }. Le codices de securitate non essera plus necessari cata authentication.
 postRemoveTwoStepAuthentication-action = Gerer le conto
 postRemoveTwoStepAuthentication-not-required = Le codices de securitate non essera plus necessari a cata authentication.
+postVerify-sub-title-2 = { -product-firefox-account } confirmate. Quasi finite.
 postVerify-title = Seque synchronisation inter tu apparatos!
 postVerify-description = Synchronisar reservatemente mantene tu marcapaginas, contrasignos e altere datos de { -brand-firefox } identic inter tote tu apparatos.
+postVerify-subject-2 = Conto conformate. Ora, synchronisa un altere dispositivo pro finir le installation
 postVerify-setup = Configurar apparato sequente
 postVerify-action = Configurar apparato sequente
 # Variables:
