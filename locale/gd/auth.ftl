@@ -14,6 +14,10 @@
 -product-firefox-account = cunntas Firefox
 # "Firefox Cloud" should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
+# Other brands
+-brand-paypal = PayPal
+-app-store = App Store
+-google-play = Google Play
 
 ## Non-email strings
 
@@ -24,9 +28,12 @@
 
 fxa-privacy-url = Poileasaidh prìobhaideachd { -brand-mozilla }
 subplat-automated-email = Seo post-d fèin-obrachail; ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh.
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cuir crìoch air an fho-sgrìobhadh
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-legal = Nòtaichean laghail
 subplat-privacy = Prìobhaideachd
+subplat-privacy-website-plaintext = { subplat-privacy }:
 automated-email-plaintext = Seo post-d fèin-obrachail; ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh.
 change-password-plaintext = Ma tha thu dhen bheachd gu bheil cuideigin a’ feuchainn ri briseadh a-steach dhan chunntas agad, atharraich am facal-faire agad.
 manage-account = Stiùirich an cunntas
@@ -99,11 +106,7 @@ verify-action = Dearbh am post-d
 verifyLogin-description = Airson tèarainteachd a bharrachd, dearbh an clàradh a-steach air na h-uidheaman seo:
 verifyLogin-action = Dearbh an clàradh a-steach
 verifyLoginCode-title = An tusa a tha a’ clàradh a-steach?
-verifyPrimary-title = Dearbh am prìomh phost-d
 verifyPrimary-description = Chaidh iarrtas airson atharrachadh sa chunntas a dhèanamh air an uidheam a leanas:
 verifyPrimary-subject = Dearbh am prìomh phost-d
-verifyPrimary-action = Dearbh am post-d
-verifyPrimary-post-verify = Turas a chaidh a dhearbhadh, bidh cothrom agad rudan sa chunntas atharrachadh (mar eisimpleir, a’ cur ris post-d dàrnach) air an uidheam seo.
 verifySecondaryCode-subject = Dearbh am post-d eile
-verifySecondaryCode-title = Dearbh am post-d dàrnach
 verifyShortCode-title = An tusa a tha a’ clàradh leinn?

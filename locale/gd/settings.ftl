@@ -301,36 +301,84 @@ tfa-enabled = Tha an dearbhadh dà-cheumnach an comas
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Cleachd an còd { $secret } airson dearbhadh dà-cheumnach a shuidheachadh ann an aplacaidean a chuireas taic ris.
 tfa-button-cant-scan-qr = Nach urrainn dhut an còd a sganadh?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Cuir an iuchair rùin seo dhan aplacaid dearbhaidh agad:
+tfa-input-enter-totp =
+    .label = Cuir a-steach an còd tèarainteachd
+tfa-save-these-codes =
+    Sàbhail na còdan aon turais seo ann an àite sàbhailte airson
+    ’s gum bi iad ri do làimh nuair nach bi an t-uidheam mobile agad.
+tfa-enter-recovery-code =
+    .label = Cuir a-steach còd aisig
 
 ##
 
 
 ## Profile section
 
+profile-display-name =
+    .header = An t-ainm-taisbeanaidh
+profile-primary-email =
+    .header = Prìomh-phost-d
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Tèarainteachd
 
 ## Switch component
 
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Cuir ris
+row-defaults-action-change = Atharraich
+row-defaults-action-disable = Cuir à comas
+row-defaults-status = Chan eil gin
 
 ## Recovery key sub-section on main Settings page
 
+rk-not-set = Cha deach a shuidheachadh
+rk-action-create = Cruthaich
+rk-action-remove = Thoir air falbh
+rk-refresh-key = Ath-nuadhaich an iuchair aisig
+rk-remove-modal-heading = A bheil thu airson an iuchair aisig a thoirt air falbh?
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Post-d dàrnach
+    .header = Post-d dàrnach
+# Button to remove the secondary email
+se-remove-email =
+    .title = Thoir am post-d air falbh
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Ath-nuadhaich am post-d
+# Button to make secondary email the primary
+se-make-primary = Cleachd seo mar am prìomh-phost-d
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-enabled = An comas
+tfa-row-not-set = Cha deach a shuidheachadh
+tfa-row-action-add = Cuir ris
+tfa-row-action-disable = Cuir à comas
+tfa-row-button-refresh =
+    .title = Ath-nuadhaich an dearbhadh dà-cheumnach
+tfa-row-disable-modal-heading = A bheil thu airson an dearbhadh dà-cheumnach a chur à comas?
+tfa-row-disable-modal-confirm = Cuir à comas
+tfa-row-change-modal-heading = A bheil thu airson na còdan aisig atharrachadh?
+tfa-row-change-modal-confirm = Atharraich
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Cunntas nach aithne dhuinn
+auth-error-103 = Tha am facal-faire ceàrr
+auth-error-110 = Tha an tòcan mì-dhligheach
+auth-error-155 = Cha deach an tòcan TOTP a lorg
+auth-error-1008 = Feumaidh am facal-faire ùr a bhith eadar-dhealaichte
