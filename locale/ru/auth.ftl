@@ -31,6 +31,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Входите в { -product-firefox-accounts }?
+session-verify-send-push-body-2 = Нажмите здесь, чтобы подтвердить, что это вы
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -299,8 +300,10 @@ postRemoveTwoStepAuthentication-description = Вы успешно отключи
 postRemoveTwoStepAuthentication-description-plaintext = Вы успешно отключили двухэтапную аутентификацию в своём { -product-firefox-account(case: "prepositional") }. Теперь не нужно будет вводить код безопасности при каждом входе.
 postRemoveTwoStepAuthentication-action = Управление аккаунтом
 postRemoveTwoStepAuthentication-not-required = Коды безопасности теперь не будут необходимы при каждом входе.
+postVerify-sub-title-2 = { -product-firefox-account(case: "nominative_uppercase") } подтверждён. Всё почти готово.
 postVerify-title = Следующая синхронизация между вашими устройствами!
 postVerify-description = Синхронизация конфиденциальна и обеспечивает единство ваших закладок, паролей и других данных { -brand-firefox } на всех ваших устройствах.
+postVerify-subject-2 = Аккаунт подтверждён. Далее выполните синхронизацию другого устройства, чтобы завершить настройку
 postVerify-setup = Настроить следующее устройство
 postVerify-action = Настроить следующее устройство
 # Variables:
@@ -308,6 +311,9 @@ postVerify-action = Настроить следующее устройство
 postVerify-support = Остались вопросы? Загляните на { $supportUrl }
 postVerifySecondary-subject = Добавлена дополнительная электронная почта
 postVerifySecondary-title = Добавлена дополнительная электронная почта
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Вы успешно подтвердили дополнительный адрес электронной почты { $secondaryEmail } для своего { -product-firefox-account(case: "genitive") }. Уведомления безопасности и подтверждения входа теперь будут отправляться на оба адреса.
 postVerifySecondary-action = Управление аккаунтом
 recovery-subject = Восстановить ваш пароль
 recovery-title = Нужно сбросить свой пароль?
@@ -333,10 +339,14 @@ subscriptionAccountFinishSetup-content-create-2 = Далее вы создади
 subscriptionAccountFinishSetup-action-2 = Приступим
 subscriptionAccountReminderFirst-subject = Напоминание: Завершите настройку вашего аккаунта
 subscriptionAccountReminderFirst-title = Вы пока не можете получить доступ к своей подписке
+subscriptionAccountReminderFirst-content-info-2 = Несколько дней назад вы создали { -product-firefox-account(case: "accusative") }, но так и не подтвердили его. Мы надеемся, что вы завершите настройку своего аккаунта, чтобы использовать новую подписку.
+subscriptionAccountReminderFirst-content-select-2 = Выберите «Создать пароль», чтобы установить новый пароль и завершить подтверждение аккаунта.
 subscriptionAccountReminderFirst-action = Создать пароль
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Последнее напоминание: Настройте ваш аккаунт
 subscriptionAccountReminderSecond-title = Добро пожаловать в { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info-2 = Несколько дней назад вы создали { -product-firefox-account(case: "accusative") }, но так и не подтвердили его. Мы надеемся, что вы завершите настройку своего аккаунта, чтобы использовать новую подписку.
+subscriptionAccountReminderSecond-content-select-2 = Выберите «Создать пароль», чтобы установить новый пароль и завершить подтверждение аккаунта.
 subscriptionAccountReminderSecond-action = Создать пароль
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -486,6 +496,8 @@ subscriptionRenewalReminder-content-closing = С уважением,
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Команда { $productName }
 subscriptionsPaymentExpired-subject-1 = Срок действия банковской карты для ваших подписок истёк или в скором времени истечёт
+subscriptionsPaymentExpired-title-1 = Срок действия вашей банковской карты истёк или в скором времени истечёт
+subscriptionsPaymentExpired-content-1 = Срок действия банковской карты, которую вы используете для платежей по следующим подпискам, истёк или в скором времени истечёт.
 subscriptionsPaymentProviderCancelled-subject = Необходимо обновить платежную информацию для подписок { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Извините, у нас возникли проблемы с вашим способом оплаты
 subscriptionsPaymentProviderCancelled-content-detected = Мы обнаружили проблему с вашим способом оплаты для следующих подписок.
@@ -585,6 +597,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Подтвердить электронную почту
 verificationReminderSecond-subject = Последнее напоминание: Активируйте ваш аккаунт
 verificationReminderSecond-title = Всё ещё здесь?
+verificationReminderSecond-description-2 = Почти неделю назад вы создали { -product-firefox-account(case: "accusative") }, но так и не подтвердили его. Мы беспокоимся о вас.
 verificationReminderSecond-sub-description = Подтвердите этот адрес электронной почты, чтобы активировать свой Аккаунт, и дайте нам знать, что вы в порядке.
 verificationReminderSecond-action = Подтвердить электронную почту
 verify-title = Активируйте семейство продуктов { -brand-firefox }
@@ -604,12 +617,25 @@ verifyLogin-action = Подтвердить вход
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Код для входа в { $serviceName }
 verifyLoginCode-title = Это входили вы?
+verifyLoginCode-prompt-2 = Если да, то вот — код подтверждения:
 verifyLoginCode-expiry-notice = Срок его действия истечёт через 5 минут.
+verifyPrimary-title-2 = Подтвердите основную электронную почту
 verifyPrimary-description = Запрос на выполнение изменений в аккаунте был сделан со следующего устройства:
 verifyPrimary-subject = Подтвердите основную электронную почту
+verifyPrimary-action-2 = Подтвердите электронную почту
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = После подтверждения, с этого устройства станут возможны такие изменения аккаунта как добавление дополнительной электронной почты.
 verifySecondaryCode-subject = Подтвердите дополнительную электронную почту
+verifySecondaryCode-title-2 = Подтвердите дополнительную электронную почту
+verifySecondaryCode-action-2 = Подтвердите электронную почту
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Использование { $email } в качестве дополнительного адреса электронной почты было запрошено со следующего { -product-firefox-account(case: "genitive") }:
+verifySecondaryCode-prompt-2 = Используйте этот код подтверждения:
+verifySecondaryCode-expiry-notice-2 = Срок его действия истекает через 5 минут. После подтверждения, на этот адрес станут приходить оповещения безопасности и подтверждения.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-2 = Код подтверждения: { $code }
 verifyShortCode-title = Это вы регистрируетесь?
+verifyShortCode-prompt-2 = Если да, используйте этот код подтверждения в своей регистрационной форме:
 verifyShortCode-expiry-notice = Срок его действия истечёт через 5 минут.
