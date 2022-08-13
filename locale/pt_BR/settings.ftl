@@ -514,12 +514,15 @@ se-set-primary-error-2 = Desculpe, houve um problema ao alterar seu email princi
 se-delete-email-successful-2 = { $email } excluído com sucesso
 se-delete-email-error-2 = Desculpe, houve um problema ao excluir este email
 se-verify-session-3 = Você precisa confirmar a sessão atual para realizar esta ação
+se-verify-session-error-3 = Desculpe, houve um problema ao confirmar a sessão
 # Button to remove the secondary email
 se-remove-email =
     .title = Remover email
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Atualizar email
+se-unverified-2 = não confirmado
+se-resend-code-2 = Confirmação necessária. <button>Reenvie o código de verificação</button>, se ele não estiver na sua caixa de entrada ou pasta de spam.
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
 se-default-content = Acesse sua conta se você não conseguir entrar no seu email principal.
@@ -542,6 +545,7 @@ tfa-row-button-refresh =
     .title = Atualizar autenticação em duas etapas
 tfa-row-cannot-refresh = Desculpe, houve um problema ao atualizar a autenticação em duas etapas.
 tfa-row-content-explain = Impeça que outras pessoas entrem na sua conta, exigindo um código único ao qual só você tem acesso.
+tfa-row-cannot-verify-session-4 = Desculpe, houve um problema ao confirmar a sessão
 tfa-row-disable-modal-heading = Desativar autenticação em duas etapas?
 tfa-row-disable-modal-confirm = Desativar
 tfa-row-disable-modal-explain = Esta ação não pode ser desfeita. Você também tem a opção de <linkExternal>substituir seus códigos de recuperação</linkExternal>.
@@ -554,6 +558,7 @@ tfa-row-change-modal-explain = Você não poderá desfazer esta ação.
 
 auth-error-102 = Conta desconhecida
 auth-error-103 = Senha incorreta
+auth-error-105-2 = Código de confirmação inválido
 auth-error-110 = Token inválido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -563,6 +568,8 @@ auth-error-110 = Token inválido
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Você já tentou vezes demais. Tente novamente { $retryAfter }.
+auth-error-138-2 = Sessão não confirmada
 auth-error-139 = O email secundário deve ser diferente do email da sua conta
 auth-error-155 = Token TOTP não encontrado
+auth-error-183-2 = Código de confirmação inválido ou vencido
 auth-error-1008 = Sua nova senha deve ser diferente
