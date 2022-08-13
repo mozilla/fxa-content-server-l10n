@@ -440,6 +440,7 @@ tfa-button-cancel = Ακύρωση
 tfa-button-finish = Τέλος
 tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο παραγόντων
 tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λήψη του κωδικού σας.
+tfa-cannot-verify-code-3 = Προέκυψε πρόβλημα κατά την επιβεβαίωση του κωδικού ανάκτησής σας
 tfa-incorrect-recovery-code = Εσφαλμένος κωδικός ανάκτησης
 tfa-enabled = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 tfa-scan-this-code =
@@ -542,6 +543,7 @@ rk-remove-error-2 = Δεν ήταν δυνατή η αφαίρεση του κλ
 se-heading = Δευτερεύον email
     .header = Δευτερεύον email
 se-cannot-refresh-email = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του email.
+se-cannot-resend-code-3 = Δυστυχώς, προέκυψε πρόβλημα κατά την επαναποστολή του κωδικού επιβεβαίωσης
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
