@@ -228,14 +228,14 @@ modal-cancel-button = Cancel
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Verify your email
-mvs-enter-verification-code = Enter your verification code
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Confirm your email
+mvs-enter-verification-code-2 = Enter your confirmation code
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Please enter the verification code that was sent to <email>{ $email }</email> within 5 minutes.
+mvs-enter-verification-code-desc-2 = Please enter the confirmation code that was sent to <email>{ $email }</email> within 5 minutes.
 msv-cancel-button = Cancel
-msv-submit-button = Verify
+msv-submit-button-2 = Confirm
 
 ## Settings Nav
 
@@ -392,17 +392,17 @@ add-secondary-email-save-button = Save
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Step 2 of 2
-verify-secondary-email-error-2 = There was a problem sending the verification code
+verify-secondary-email-error-3 = There was a problem sending the confirmation code
 verify-secondary-email-page-title =
     .title = Secondary email
-verify-secondary-email-verification-code =
-    .label = Enter your verification code
+verify-secondary-email-verification-code-2 =
+    .label = Enter your confirmation code
 verify-secondary-email-cancel-button = Cancel
-verify-secondary-email-verify-button = Verify
+verify-secondary-email-verify-button-2 = Confirm
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Please enter the verification code that was sent to <strong>{ $email }</strong> within 5 minutes.
+verify-secondary-email-please-enter-code-2 = Please enter the confirmation code that was sent to <strong>{ $email }</strong> within 5 minutes.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -424,7 +424,7 @@ tfa-button-cancel = Cancel
 tfa-button-finish = Finish
 tfa-incorrect-totp = Incorrect two-step authentication code
 tfa-cannot-retrieve-code = There was a problem retrieving your code.
-tfa-cannot-verify-code-2 = There was a problem verifying your recovery code
+tfa-cannot-verify-code-3 = There was a problem confirming your recovery code
 tfa-incorrect-recovery-code = Incorrect recovery code
 tfa-enabled = Two-step authentication enabled
 tfa-scan-this-code =
@@ -515,7 +515,7 @@ rk-cannot-remove-key = Your account recovery key could not be removed.
 rk-refresh-key = Refresh recovery key
 rk-content-explain = Restore your information when you forget your password.
 rk-content-reset-data = Why does resetting my password reset my data?
-rk-cannot-verify-session-3 = Sorry, there was a problem verifying your session
+rk-cannot-verify-session-4 = Sorry, there was a problem confirming your session
 rk-remove-modal-heading = Remove recovery key?
 rk-remove-modal-content =
     In the event you reset your password, you won’t be
@@ -528,7 +528,7 @@ rk-remove-error-2 = Your account recovery key could not be removed
 se-heading = Secondary email
     .header = Secondary Email
 se-cannot-refresh-email = Sorry, there was a problem refreshing that email.
-se-cannot-resend-code-2 = Sorry, there was a problem re-sending the verification code
+se-cannot-resend-code-3 = Sorry, there was a problem re-sending the confirmation code
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -539,17 +539,17 @@ se-set-primary-error-2 = Sorry, there was a problem changing your primary email
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } successfully deleted
 se-delete-email-error-2 = Sorry, there was a problem deleting this email
-se-verify-session-2 = You’ll need to verify your current session to perform this action
-se-verify-session-error-2 = Sorry, there was a problem verifying your session
+se-verify-session-3 = You’ll need to confirm your current session to perform this action
+se-verify-session-error-3 = Sorry, there was a problem confirming your session
 # Button to remove the secondary email
 se-remove-email =
     .title = Remove email
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Refresh email
-se-unverified = unverified
-se-resend-code =
-    Verification needed. <button>Resend verification code</button>
+se-unverified-2 = unconfirmed
+se-resend-code-2 =
+    Confirmation needed. <button>Resend confirmation code</button>
     if it’s not in your inbox or spam folder.
 # Button to make secondary email the primary
 se-make-primary = Make primary
@@ -579,7 +579,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Prevent someone else from logging in by requiring a
     unique code only you have access to.
-tfa-row-cannot-verify-session-3 = Sorry, there was a problem verifying your session
+tfa-row-cannot-verify-session-4 = Sorry, there was a problem confirming your session
 tfa-row-disable-modal-heading = Disable two-step authentication?
 tfa-row-disable-modal-confirm = Disable
 tfa-row-disable-modal-explain =
@@ -594,7 +594,7 @@ tfa-row-change-modal-explain = You won’t be able to undo this action.
 
 auth-error-102 = Unknown account
 auth-error-103 = Incorrect password
-auth-error-105 = Invalid verification code
+auth-error-105-2 = Invalid confirmation code
 auth-error-110 = Invalid token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -604,8 +604,8 @@ auth-error-110 = Invalid token
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = You've tried too many times. Please try again { $retryAfter }.
-auth-error-138 = Unverified session
+auth-error-138-2 = Unconfirmed session
 auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
-auth-error-183 = Invalid or expired verification code
+auth-error-183-2 = Invalid or expired confirmation code
 auth-error-1008 = Your new password must be different
