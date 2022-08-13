@@ -569,6 +569,7 @@ tfa-row-cannot-refresh =
     Desolate, problema al actualisation del authentication
     a duo passos.
 tfa-row-content-explain = Impedi que altere personas accede a tu conto, exigente un codice unic al qual solo tu ha accesso.
+tfa-row-cannot-verify-session-4 = Desolate, problema a confirmar tu session
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
 tfa-row-disable-modal-explain =
@@ -583,6 +584,7 @@ tfa-row-change-modal-explain = Tu non potera disfacer iste action.
 
 auth-error-102 = Conto incognite
 auth-error-103 = Contrasigno incorrecte
+auth-error-105-2 = Codice de confirmation invalide
 auth-error-110 = Token invalide
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -592,6 +594,8 @@ auth-error-110 = Token invalide
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Tu ha tentate troppo de vices. Retenta { $retryAfter }.
+auth-error-138-2 = Session non confirmate
 auth-error-139 = Le adresse de e-mail secundari debe esser differente del adresse de e-mail de tu conto
 auth-error-155 = Token TOTP non trovate
+auth-error-183-2 = Codice de confirmation invalide o expirate
 auth-error-1008 = Tu nove contrasigno debe esser differente
