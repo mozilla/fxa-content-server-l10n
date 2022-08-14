@@ -22,7 +22,6 @@
 ## Non-email strings
 
 session-verify-send-push-title = Logger du ind på { -product-firefox-accounts }?
-session-verify-send-push-body = Klik her for at bekræfte, at det er dig
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -290,10 +289,8 @@ postRemoveTwoStepAuthentication-description = Du har deaktiveret totrinsgodkende
 postRemoveTwoStepAuthentication-description-plaintext = Du har deaktiveret totrinsgodkendelse på din { -product-firefox-account }. Sikkerhedskoder vil ikke længere være påkrævet ved login.
 postRemoveTwoStepAuthentication-action = Håndter konto
 postRemoveTwoStepAuthentication-not-required = Sikkerhedskoder vil ikke længere være påkrævet ved login.
-postVerify-sub-title = { -product-firefox-account } bekræftet. Du er næsten klar.
 postVerify-title = Synkroniser nu mellem dine enheder!
 postVerify-description = Med privat synkronisering forbliver dine bogmærker, adgangskoder og andre { -brand-firefox }-data de samme på alle dine enheder.
-postVerify-subject = Konto bekræftet. Synkroniser nu en anden enhed for at afslutte opsætningen.
 postVerify-setup = Opsæt næste enhed
 postVerify-action = Opsæt næste enhed
 # Variables:
@@ -301,9 +298,6 @@ postVerify-action = Opsæt næste enhed
 postVerify-support = Har du spørgsmål? Besøg { $supportUrl }
 postVerifySecondary-subject = Sekundær mailadresse tilføjet
 postVerifySecondary-title = Sekundær mailadresse tilføjet
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Du har bekræftet { $secondaryEmail } som sekundær mailadresse til din { -product-firefox-account }. Sikkerhedsmeddelelser og login-bekræftelser vil fremover blive sendt til begge mailadresser.
 postVerifySecondary-action = Håndter konto
 recovery-subject = Nulstil din adgangskode
 recovery-title = Har du brug for at nulstille din adgangskode?
@@ -329,14 +323,10 @@ subscriptionAccountFinishSetup-content-create-2 = Opret herefter en adgangskode 
 subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påmindelse: Færdiggør opsætningen af din konto
 subscriptionAccountReminderFirst-title = Du kan ikke få adgang til dit abonnement endnu
-subscriptionAccountReminderFirst-content-info = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Vi håber, at du vil færdiggøre opsætningen af din konto, så du kan bruge dit nye abonnement.
-subscriptionAccountReminderFirst-content-select = Vælg "Opret adgangskode" for at opsætte en ny adgangskode og færdiggøre bekræftelsen af din konto.
 subscriptionAccountReminderFirst-action = Opret adgangskode
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Sidste påmindelse: Opsæt din konto
 subscriptionAccountReminderSecond-title = Velkommen til { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Vi håber, at du vil færdiggøre opsætningen af din konto, så du kan bruge dit nye abonnement.
-subscriptionAccountReminderSecond-content-select = Vælg "Opret adgangskode" for at opsætte en ny adgangskode og færdiggøre bekræftelsen af din konto.
 subscriptionAccountReminderSecond-action = Opret adgangskode
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -587,7 +577,6 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Bekræft mailadresse
 verificationReminderSecond-subject = Sidste påmindelse: Aktivér din konto
 verificationReminderSecond-title = Er du der stadig?
-verificationReminderSecond-description = For næsten en uge siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Vi bliver helt bekymrede for dig.
 verificationReminderSecond-sub-description = Bekræft denne mailadresse for at aktivere din konto - og for at lade os vide, at du er ok ;)
 verificationReminderSecond-action = Bekræft mailadresse
 verify-title = Aktiver hele { -brand-firefox }-familien
@@ -607,25 +596,14 @@ verifyLogin-action = Bekræft login
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Login-kode til { $serviceName }
 verifyLoginCode-title = Er det dig, der logger ind?
-verifyLoginCode-prompt = Hvis det er, så er bekræftelseskoden her:
 verifyLoginCode-expiry-notice = Den udløber om 5 minutter.
-verifyPrimary-title = Bekræft primær mailadresse
+verifyPrimary-title-2 = Bekræft primær mailadresse
 verifyPrimary-description = Følgende enhed har anmodet om at foretage en ændring af kontoen:
 verifyPrimary-subject = Bekræft primær mailadresse
-verifyPrimary-action = Bekræft mailadresse
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Når denne mailadresse er blevet bekræftet, kan ændringer af kontoen som fx tilføjelse af en sekundær mailadresse foretages fra denne enhed.
+verifyPrimary-action-2 = Bekræft mailadresse
 verifySecondaryCode-subject = Bekræft sekundær mailadresse
-verifySecondaryCode-title = Bekræft sekundær mailadresse
-verifySecondaryCode-action = Bekræft mailadresse
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Fra følgende { -product-firefox-account } kommer en forespørgsel om at bruge { $email } som sekundær mailadresse:
-verifySecondaryCode-prompt = Brug denne bekræftelseskode:
-verifySecondaryCode-expiry-notice = Den udløber om 5 minutter. Når denne mailadresse er blevet bekræftet, vil den begynde at modtage sikkerhedsmeddelelser og bekræftelser.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject = Bekræftelseskode: { $code }
 verifyShortCode-title = Er det dig, der tilmelder dig?
-verifyShortCode-prompt = Hvis det er, så brug denne bekræftelseskode i din registreringsformular:
 verifyShortCode-expiry-notice = Den udløber om 5 minutter.
