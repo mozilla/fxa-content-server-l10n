@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Pla { -product-firefox-accounts } pśizjawiś?
-session-verify-send-push-body = Klikniśo how, aby wobkšuśił, až ty to sy
+session-verify-send-push-body-2 = Klikniśo how, aby wobkšuśił, až ty to sy
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -292,10 +292,10 @@ postRemoveTwoStepAuthentication-description = Sćo wuspěšnje znjemóžnił dw�
 postRemoveTwoStepAuthentication-description-plaintext = Sćo wuspěšnje znjemóžnił dwójokšacowu awtentifikaciju na swójom konśe { -product-firefox-account }. Wěstotne kody wěcej njejsu wótněnta trěbne pśi kuždem pśizjawjenju.
 postRemoveTwoStepAuthentication-action = Konto zastojaś
 postRemoveTwoStepAuthentication-not-required = Wěstotne kody wěcej njejsu wótněnta trěbne pśi kuždym pśizjawjenju.
-postVerify-sub-title = Konto { -product-firefox-account } jo pśeglědane. Sćo skóro gótowy.
+postVerify-sub-title-2 = Konto { -product-firefox-account } jo pśeglědane. Sćo skóro gótowy.
 postVerify-title = Pśiduca synchronizacija mjazy rědami!
 postVerify-description = Priwatna synchronizacija waše cytańske znamjenja, gronidła a druge daty { -brand-firefox } na wšych wašych rědach jadnake źaržy.
-postVerify-subject = Konto jo pśeglědane. Synchronizěrujśo něnto drugi rěd, aby konfiguraciju zakóńcył.
+postVerify-subject-2 = Konto jo pśeglědane. Synchronizěrujśo něnto drugi rěd, aby konfiguraciju zakóńcył.
 postVerify-setup = Pśiducy rěd konfigurěrowaś
 postVerify-action = Pśiducy rěd konfigurěrowaś
 # Variables:
@@ -305,7 +305,7 @@ postVerifySecondary-subject = Druga e-mailowa adresa jo se pśidała
 postVerifySecondary-title = Druga e-mailowa adresa jo se pśidała
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Sćo wuspěšnje pśeglědał { $secondaryEmail } ako sekundarnu e-mailowu adresu za swójo konto { -product-firefox-account }. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adresy sćelu.
+postVerifySecondary-content-2 = Sćo wuspěšnje pśeglědał { $secondaryEmail } ako sekundarnu e-mailowu adresu za swójo konto { -product-firefox-account }. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adresy sćelu.
 postVerifySecondary-action = Konto zastojaś
 recovery-subject = Stajśo swójo gronidło slědk
 recovery-title = Musyśo swojo gronidło slědk stajiś?
@@ -331,14 +331,14 @@ subscriptionAccountFinishSetup-content-create-2 = Ako pśiducee gronidło konta 
 subscriptionAccountFinishSetup-action-2 = Prědne kšace
 subscriptionAccountReminderFirst-subject = Dopominanje: Dokóńcćo konfigurěrowanje swójogo konta
 subscriptionAccountReminderFirst-title = Hysći njamaśo pśistup k swójomu abonementoju
-subscriptionAccountReminderFirst-content-info = Pśed někotarymi dnjami sćo załožył konto { -product-firefox-account }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
-subscriptionAccountReminderFirst-content-select = Wubjeŕśo „Gronidło napóraś“, aby nowe gronidło nastajił a pśeglědanje swójogo konta dokóńcył.
+subscriptionAccountReminderFirst-content-info-2 = Pśed někotarymi dnjami sćo załožył konto { -product-firefox-account }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
+subscriptionAccountReminderFirst-content-select-2 = Wubjeŕśo „Gronidło napóraś“, aby nowe gronidło nastajił a pśeglědanje swójogo konta dokóńcył.
 subscriptionAccountReminderFirst-action = Gronidło napóraś
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Slědne dopominanje: Konfigurěrujśo swójo konto
 subscriptionAccountReminderSecond-title = Witajśo k { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = Pśed někotarymi dnjami sćo załožył konto { -product-firefox-account }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
-subscriptionAccountReminderSecond-content-select = Wubjeŕśo „Gronidło napóraś“, aby nowe gronidło nastajił a pśeglědanje swójogo konta dokóńcył.
+subscriptionAccountReminderSecond-content-info-2 = Pśed někotarymi dnjami sćo załožył konto { -product-firefox-account }, ale njejsćo jo ženje wobkšuśił. Naźijamy se, až konfigurěrowanje swójogo konta dokóńcyśo, aby mógał wužywaś swój nowy abonement.
+subscriptionAccountReminderSecond-content-select-2 = Wubjeŕśo „Gronidło napóraś“, aby nowe gronidło nastajił a pśeglědanje swójogo konta dokóńcył.
 subscriptionAccountReminderSecond-action = Gronidło napóraś
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -589,7 +589,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = E-mailowu adresu wobkšuśiś
 verificationReminderSecond-subject = Slědne dopomnjeśe: Aktiwěrujśo swójo konto
 verificationReminderSecond-title = Sćo hyšći how?
-verificationReminderSecond-description = Pśed skóro jadnym tyźenim sćo załožył konto { -product-firefox-account }, ale njejsćo jo wobkšuśił. Gótujomy sebje starosći wó was.
+verificationReminderSecond-description-2 = Pśed skóro jadnym tyźenim sćo załožył konto { -product-firefox-account }, ale njejsćo jo wobkšuśił. Gótujomy sebje starosći wó was.
 verificationReminderSecond-sub-description = Wobkšuśćo toś tu e-mailowu adresu, aby swójo konto aktiwěrował a dajśo nam k wěsći, až wam derje źo.
 verificationReminderSecond-action = E-mailowu adresu wobkšuśiś
 verify-title = Swójźbu produktow { -brand-firefox } aktiwěrowaś
@@ -609,25 +609,18 @@ verifyLogin-action = Pśizjawjenje wobkšuśiś
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Pśizjawjeński kod za { $serviceName }
 verifyLoginCode-title = Cośo se wy pśizjawiś?
-verifyLoginCode-prompt = Jolic jo, how jo wobkšuśeński kod:
+verifyLoginCode-prompt-2 = Jolic jo, how jo wobkšuśeński kod:
 verifyLoginCode-expiry-notice = Spadnjo za 5 minutow.
-verifyPrimary-title = Primarnu e-maijlowu adresu pśepytowaś
+verifyPrimary-title-2 = Primarnu e-maijlowu adresu wobkšuśiś
 verifyPrimary-description = Slědujucy rěd jo sebje pominał, kontowu změnu pśewjasć:
 verifyPrimary-subject = Primarnu e-maijlowu adresu wobkšuśiś
-verifyPrimary-action = E-mailowu adresu wobkšuśiś
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Gaž su wobkšuśone, su kontowe změny móžne, kaž na pśikład pśidawanje sekundarneje e-mailoweje adrese z toś togo rěda.
+verifyPrimary-action-2 = E-mailowu adresu wobkšuśiś
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Gaž su wobkšuśone, su kontowe změny móžne, kaž na pśikład pśidawanje sekundarneje e-mailoweje adrese z toś togo rěda.
 verifySecondaryCode-subject = Sekundarnu e-mailowu adresu wobkšuśiś
-verifySecondaryCode-title = Drugu e-mailowu adresu wobkšuśiś
-verifySecondaryCode-action = E-mailowu adresu wobkšuśiś
+verifySecondaryCode-title-2 = Sekundarnu e-mailowu adresu wobkšuśiś
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Slědujuce konto { -product-firefox-account } jo pominało, { $email } ako drugu e-mailowu adresu wužywaś:
-verifySecondaryCode-prompt = Toś ten wobkšuśeński kod wužywaś:
-verifySecondaryCode-expiry-notice = Spadnjo za 5 minutow. Gaž jo se wobkšuśiła, toś ta adresa zachopijo wěstotne powěźeńki a wobkšuśenja dostawaś.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject = Wobkšuśeński kod: { $code }
 verifyShortCode-title = Registrěrujośo wy?
-verifyShortCode-prompt = Jolic jo, wužxwaj´do wobkšuśeński kod w swójom registrěrowańskem formularje:
 verifyShortCode-expiry-notice = Spadnjo za 5 minutow.
