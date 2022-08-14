@@ -230,6 +230,10 @@ modal-cancel-button = Peruuta
 
 mvs-verify-your-email-2 = Vahvista sähköposti
 mvs-enter-verification-code-2 = Kirjoita vahvistuskoodi
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Kirjoita osoitteeseen <email>{ $email }</email> lähetetty vahvistuskoodi viiden minuutin kuluessa.
 msv-cancel-button = Peruuta
 msv-submit-button-2 = Vahvista
 
@@ -395,6 +399,10 @@ verify-secondary-email-verification-code-2 =
     .label = Kirjoita vahvistuskoodi
 verify-secondary-email-cancel-button = Peruuta
 verify-secondary-email-verify-button-2 = Vahvista
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Kirjoita osoitteeseen <strong>{ $email }</strong> lähetetty vahvistuskoodi viiden minuutin kuluessa.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -416,6 +424,7 @@ tfa-button-cancel = Peruuta
 tfa-button-finish = Viimeistele
 tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
 tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
+tfa-cannot-verify-code-3 = Palautuskoodisi vahvistamisessa ilmeni ongelma
 tfa-incorrect-recovery-code = Virheellinen palautuskoodi
 tfa-enabled = Kaksivaiheinen todennus käytössä
 tfa-scan-this-code =
@@ -506,6 +515,7 @@ rk-cannot-remove-key = Tilisi palautusavainta ei voitu poistaa.
 rk-refresh-key = Päivitä palautusavain
 rk-content-explain = Palauta tietosi kun unohdat salasanasi.
 rk-content-reset-data = Miksi salasanan nollaaminen nollaa myös tietoni?
+rk-cannot-verify-session-4 = Valitettavasti istunnon vahvistamisessa oli ongelma
 rk-remove-modal-heading = Poistetaanko palautusavain?
 rk-remove-modal-content =
     Jos nollaat salasanasi, et voi käyttää palautusavainta
@@ -518,6 +528,7 @@ rk-remove-error-2 = Tilisi palautusavainta ei voitu poistaa
 se-heading = Toissijainen sähköposti
     .header = Toissijainen sähköposti
 se-cannot-refresh-email = Valitettavasti sähköpostiosoitteen päivittämisessä ilmeni ongelma.
+se-cannot-resend-code-3 = Valitettavasti vahvistuskoodin lähettämisessä uudelleen ilmeni ongelma
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -537,6 +548,9 @@ se-remove-email =
 se-refresh-email =
     .title = Päivitä sähköpostiosoite
 se-unverified-2 = vahvistamaton
+se-resend-code-2 =
+    Vahvistus vaaditaan. <button>Lähetä vahvistuskoodi uudelleen</button>
+    jos se ei ole Saapuneet- tai Roskaposti-kansioissa.
 # Button to make secondary email the primary
 se-make-primary = Tee ensisijaiseksi
 se-default-content = Käytä tiliäsi, jos et voi kirjautua ensisijaiseen sähköpostiosoitteeseesi.
