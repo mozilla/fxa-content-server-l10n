@@ -22,6 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Logger du ind på { -product-firefox-accounts }?
+session-verify-send-push-body-2 = Klik her for at bekræfte, at det er dig
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
