@@ -228,14 +228,14 @@ modal-cancel-button = Pśetergnuś
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Wobkšuśćo swóju e-mailowu adresu
-mvs-enter-verification-code = Zapódajśo swój wobkšućeński kod
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Wašu e-mailowu adresu wobkšuśiś
+mvs-enter-verification-code-2 = Zapódajśo swój wobkšuśeński kod
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Pšosym zapódajśo wobkšuśeński kod, kótaryž jo se pósłał za 5 minutow na <email>{ $email }</email>.
+mvs-enter-verification-code-desc-2 = Pšosym zapódajśo wobkšuśeński kod, kótaryž jo se pósłał za 5 minutow na <email>{ $email }</email>.
 msv-cancel-button = Pśetergnuś
-msv-submit-button = Wobkšuśiś
+msv-submit-button-2 = Wobkšuśiś
 
 ## Settings Nav
 
@@ -392,17 +392,17 @@ add-secondary-email-save-button = Składowaś
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Kšac 2 z 2
-verify-secondary-email-error-2 = Pśi słanju wobkšuśeńskego koda jo problem nastał
+verify-secondary-email-error-3 = Pśi słanju wobkšuśeńskego koda jo problem nastał
 verify-secondary-email-page-title =
     .title = Druga e-mailowa adresa
-verify-secondary-email-verification-code =
-    .label = Zapódajśo swój wobkšućeński kod
+verify-secondary-email-verification-code-2 =
+    .label = Zapódajśo swój wobkšuśeński kod
 verify-secondary-email-cancel-button = Pśetergnuś
-verify-secondary-email-verify-button = Wobkšuśiś
+verify-secondary-email-verify-button-2 = Wobkšuśiś
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Pšosym zapódajśo wobkšuśeński kod, kótaryž jo se pósłał za 5 minutow na <strong>{ $email }</strong>.
+verify-secondary-email-please-enter-code-2 = Pšosym zapódajśo wobkšuśeński kod, kótaryž jo se pósłał za 5 minutow na <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -424,7 +424,7 @@ tfa-button-cancel = Pśetergnuś
 tfa-button-finish = Dokóńcyś
 tfa-incorrect-totp = Wopacny kod za dwójokšacowu awtentifikaciju
 tfa-cannot-retrieve-code = Pśi wótwołowanju wašogo koda jo problem nastał.
-tfa-cannot-verify-code-2 = Pśi wobkšuśenju wašych wótnowjeńskich kodow jo problem nastał
+tfa-cannot-verify-code-3 = Pśi wobkšuśenju wašych wótnowjeńskich kodow jo problem nastał
 tfa-incorrect-recovery-code = Wopacny wótnowjeński kod
 tfa-enabled = Dwójokšacowa awtentifikacija jo se zmóžniła
 tfa-scan-this-code = Scannujśo toś ten QR-kod z pomocu jadnogo z <linkExternal>toś tych awtentifikaciskich nałoženjow</linkExternal>.
@@ -509,7 +509,7 @@ rk-cannot-remove-key = Wótnowjeński kluc wašogo konta njedajo se wótwónoźe
 rk-refresh-key = Wótnowjeński kluc aktualizěrowaś
 rk-content-explain = Wótnowśo swóje informacije, gaž sćo zabył swójo gronidło.
 rk-content-reset-data = Cogodla se móje daty slědk stajaju, gaž swójo gronidło slědk stajam?
-rk-cannot-verify-session-3 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał
+rk-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
 rk-remove-modal-heading = Wótnowjeński kluc wótwónoźeś?
 rk-remove-modal-content =
     Jolic wašo gronidło slědk stajaśo, njamóžośo swój
@@ -522,7 +522,7 @@ rk-remove-error-2 = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś
 se-heading = Druga e-mailowa adresa
     .header = Druga e-mailowa adresa
 se-cannot-refresh-email = Bóžko jo pśi aktualizěrowanju teje e-mailoweje adrese problem nastał.
-se-cannot-resend-code-2 = Bóžko jo pśi wóspjetnem słanju wobkšuśeńskego koda problem nastał
+se-cannot-resend-code-3 = Bóžko jo pśi wóspjetnem słanju wobkšuśeńskego koda problem nastał
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -533,16 +533,16 @@ se-set-primary-error-2 = Bóžko jo pśi změnjanju wašeje primarneje e-mailowe
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } jo se wuspěšnje wulašowała
 se-delete-email-error-2 = Bóžko jo pśi lašowanju toś teje e-mailoweje adrese problem nastał
-se-verify-session-2 = Musyśo swójo aktualne pósejźenje pśeglědowaś, aby toś tu akciju wuwjadł
-se-verify-session-error-2 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał
+se-verify-session-3 = Musyśo swójo aktualne pósejźenje pśeglědowaś, aby toś tu akciju wuwjadł
+se-verify-session-error-3 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mailowu adresu wótwónoźeś
 # Button to refresh secondary email status
 se-refresh-email =
     .title = E-mailowu adresu aktualizěrowaś
-se-unverified = njewobkšuśony
-se-resend-code =
+se-unverified-2 = njewobkšuśony
+se-resend-code-2 =
     Wobkšuśenje trjebne. <button>Sćelśo wobkšuśeński kod znowego</button>,
     jolic njejo we wašom zarědniku dochada pósta abo w spamowem zarědniku.
 # Button to make secondary email the primary
@@ -573,7 +573,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Pominajśo jadnorazowy kod, ku kótaremuž jano wy maśo pśistup,
     aby zajźował tomu, až se něchten drugi pśizjawja.
-tfa-row-cannot-verify-session-3 = Bóžko jo pśi pśeglědowanju wašogo pósejźenja problem nastał
+tfa-row-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
 tfa-row-disable-modal-explain =
@@ -588,7 +588,7 @@ tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 
 auth-error-102 = Njeznate konto
 auth-error-103 = Wopacne gronidło
-auth-error-105 = Njepłaśiwy wobkšuśeński kode
+auth-error-105-2 = Njepłaśiwy wobkšuśeński kod
 auth-error-110 = Njepłaśiwy token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -598,8 +598,8 @@ auth-error-110 = Njepłaśiwy token
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Sćo wopytał to pśecesto. Wopytajśo za { $retryAfter } hyšći raz.
-auth-error-138 = Njewobkšuśone pósejźenje
+auth-error-138-2 = Njewobkšuśone pósejźenje
 auth-error-139 = Druga e-mailowa adresa musy se wót adrese wašogo konta rozeznaś
 auth-error-155 = TOTP-token njejo se namakał
-auth-error-183 = Njepłaśiwy abo spadnjony wobkšuśeński kod
+auth-error-183-2 = Njepłaśiwy abo spadnjony wobkšuśeński kod
 auth-error-1008 = Wašo nowe gronidło musy druge byś

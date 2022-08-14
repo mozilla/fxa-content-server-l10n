@@ -619,8 +619,15 @@ verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Gaž su wobkšuśone, su kontowe změny móžne, kaž na pśikład pśidawanje sekundarneje e-mailoweje adrese z toś togo rěda.
 verifySecondaryCode-subject = Sekundarnu e-mailowu adresu wobkšuśiś
 verifySecondaryCode-title-2 = Sekundarnu e-mailowu adresu wobkšuśiś
+verifySecondaryCode-action-2 = E-mailowu adresu wobkšuśiś
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Slědujuce konto { -product-firefox-account } jo pominało, { $email } ako drugu e-mailowu adresu wužywaś:
+verifySecondaryCode-prompt-2 = Toś ten wobkšuśeński kod wužywaś:
+verifySecondaryCode-expiry-notice-2 = Spadnjo za 5 minutow. Gaž jo se wobkšuśiła, toś ta adresa zachopijo wěstotne powěźeńki a wobkšuśenja dostawaś.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-2 = Wobkšuśeński kod: { $code }
 verifyShortCode-title = Registrěrujośo wy?
+verifyShortCode-prompt-2 = Jolic jo, wužxwaj´do wobkšuśeński kod w swójom registrěrowańskem formularje:
 verifyShortCode-expiry-notice = Spadnjo za 5 minutow.
