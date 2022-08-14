@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Kirjautumassa { -product-firefox-accounts } -palveluun?
-session-verify-send-push-body = Napsauta tätä vahvistaaksesi, että se olet sinä
+session-verify-send-push-body-2 = Napsauta tästä vahvistaaksesi, että se olet sinä
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -288,10 +288,10 @@ postRemoveTwoStepAuthentication-description = Olet poistanut kaksivaiheisen tode
 postRemoveTwoStepAuthentication-description-plaintext = Olet poistanut kaksivaiheisen todennuksen käytöstä { -product-firefox-account }ltäsi. Turvallisuuskoodeja ei enää vaadita jokaisella kirjautumisella.
 postRemoveTwoStepAuthentication-action = Hallinnoi tiliä
 postRemoveTwoStepAuthentication-not-required = Turvallisuuskoodeja ei enää vaadita jokaisella kirjautumisella.
-postVerify-sub-title = { -product-firefox-account } on vahvistettu. Olet melkein valmis.
+postVerify-sub-title-2 = { -product-firefox-account } on vahvistettu. Olet melkein valmis.
 postVerify-title = Seuraavaksi synkronoi laitteesi!
 postVerify-description = Sync-palvelu säilyttää kirjanmerkkisi, salasanasi ja muut { -brand-firefox }in tiedot samassa tilassa eri laitteidesi välillä.
-postVerify-subject = Tili on vahvistettu. Seuraavaksi synkronoi toinen laite viimeistelläksesi asetukset
+postVerify-subject-2 = Tili on vahvistettu. Seuraavaksi synkronoi toinen laite viimeistelläksesi asetukset
 postVerify-setup = Määritä seuraava laite
 postVerify-action = Määritä seuraava laite
 # Variables:
@@ -299,9 +299,6 @@ postVerify-action = Määritä seuraava laite
 postVerify-support = Kysymyksiä? Käy sivulla { $supportUrl }
 postVerifySecondary-subject = Toissijainen sähköpostiosoite lisätty
 postVerifySecondary-title = Toissijainen sähköpostiosoite lisätty
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Olet vahvistanut osoitteen { $secondaryEmail } toissijaiseksi sähköpostiosoitteeksi { -product-firefox-account }llesi. Tietoturvailmoitukset ja kirjautumisvahvistukset lähetetään nyt molempiin sähköpostiosoitteisiin.
 postVerifySecondary-action = Hallinnoi tiliä
 recovery-subject = Nollaa salasanasi
 recovery-title = Tarvitseeko sinun nollata salasanasi?
@@ -327,14 +324,10 @@ subscriptionAccountFinishSetup-content-create-2 = Luo seuraavaksi { -product-fir
 subscriptionAccountFinishSetup-action-2 = Aloitetaan
 subscriptionAccountReminderFirst-subject = Muistutus: viimeistele tilisi määrittäminen
 subscriptionAccountReminderFirst-title = Et voi käyttää tilaustasi vielä
-subscriptionAccountReminderFirst-content-info = Muutama päivä sitten loit { -product-firefox-account }n, mutta et vahvistanut sitä. Toivomme, että saat tilisi määrityksen valmiiksi, jotta voit käyttää uutta tilaustasi.
-subscriptionAccountReminderFirst-content-select = Valitse “Luo salasana” asettaaksesi uuden salasanan ja viimeistelläksesi tilisi.
 subscriptionAccountReminderFirst-action = Luo salasana
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Viimeinen muistutus: määritä tilisi
 subscriptionAccountReminderSecond-title = Tervetuloa, käytössäsi on { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = Muutama päivä sitten loit { -product-firefox-account }n, mutta et vahvistanut sitä. Toivomme, että saat tilisi määrityksen valmiiksi, jotta voit käyttää uutta tilaustasi.
-subscriptionAccountReminderSecond-content-select = Valitse ”Luo salasana” asettaaksesi uuden salasanan ja viimeistelläksesi tilisi.
 subscriptionAccountReminderSecond-action = Luo salasana
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -585,7 +578,6 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Vahvista sähköposti
 verificationReminderSecond-subject = Viimeinen muistutus: aktivoi tilisi
 verificationReminderSecond-title = Oletko vielä siellä?
-verificationReminderSecond-description = Noin viikko sitten loit { -product-firefox-account }n, mutta et koskaan vahvistanut sitä. Olemme huolissamme sinusta.
 verificationReminderSecond-sub-description = Vahvista tämä sähköpostiosoite aktivoidaksesi tilisi ja kuitataksesi, että kaikki on kunnossa.
 verificationReminderSecond-action = Vahvista sähköposti
 verify-title = Aktivoi { -brand-firefox }-tuoteperhe
@@ -605,25 +597,21 @@ verifyLogin-action = Vahvista kirjautuminen
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Kirjautumiskoodi palveluun { $serviceName }
 verifyLoginCode-title = Kirjaudutko sinä sisään?
-verifyLoginCode-prompt = Jos kyllä, tässä on vahvistuskoodi:
 verifyLoginCode-expiry-notice = Se vanhenee viidessä minuutissa.
-verifyPrimary-title = Ensisijaisen sähköpostin vahvistaminen
 verifyPrimary-description = Tilin muutospyyntö on tehty laitteella:
 verifyPrimary-subject = Vahvista ensisijainen sähköpostiosoite
-verifyPrimary-action = Vahvista sähköpostiosoite
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Vahvistamisen jälkeen tiliin tehtävät muutokset, kuten uuden toissijaisen sähköpostin lisääminen, ovat mahdollisia tästä laitteesta.
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Vahvista toissijainen sähköpostiosoite
-verifySecondaryCode-title = Toissijaisen sähköpostin vahvistaminen
-verifySecondaryCode-action = Vahvista sähköpostiosoite
+verifySecondaryCode-title-2 = Vahvista toissijainen sähköpostiosoite
+verifySecondaryCode-action-2 = Vahvista sähköposti
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Pyyntö käyttää osoitetta { $email } toissijaisena sähköpostina on tehty seuraavalta { -product-firefox-account }ltä:
-verifySecondaryCode-prompt = Käytä tätä vahvistuskoodia:
-verifySecondaryCode-expiry-notice = Se vanhenee 5 minuutissa. Vahvistamisen jälkeen tämä osoite alkaa vastaanottamaan turvallisuusilmoituksia ja -vahvistuksia.
+verifySecondaryCode-prompt-2 = Käytä tätä vahvistuskoodia:
+verifySecondaryCode-expiry-notice-2 = Se vanhenee 5 minuutissa. Vahvistamisen jälkeen tämä osoite alkaa vastaanottamaan turvallisuusilmoituksia ja -vahvistuksia.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject = Vahvistuskoodi: { $code }
+verifyShortCode-subject-2 = Vahvistuskoodi: { $code }
 verifyShortCode-title = Yritätkö rekisteröityä?
-verifyShortCode-prompt = Jos kyllä, käytä tätä vahvistuskoodia rekisteröintilomakkeessa:
+verifyShortCode-prompt-2 = Jos kyllä, käytä tätä vahvistuskoodia rekisteröintilomakkeessa:
 verifyShortCode-expiry-notice = Se vanhenee viidessä minuutissa.

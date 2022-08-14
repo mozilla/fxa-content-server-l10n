@@ -228,14 +228,10 @@ modal-cancel-button = Peruuta
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Vahvista sähköpostiosoite
-mvs-enter-verification-code = Kirjoita vahvistuskoodi
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Kirjoita osoitteeseen <email>{ $email }</email> lähetetty vahvistuskoodi viiden minuutin kuluessa.
+mvs-verify-your-email-2 = Vahvista sähköposti
+mvs-enter-verification-code-2 = Kirjoita vahvistuskoodi
 msv-cancel-button = Peruuta
-msv-submit-button = Vahvista
+msv-submit-button-2 = Vahvista
 
 ## Settings Nav
 
@@ -392,17 +388,13 @@ add-secondary-email-save-button = Tallenna
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Vaihe 2/2
-verify-secondary-email-error-2 = Vahvistuskoodin lähettämisessä ilmeni ongelma
+verify-secondary-email-error-3 = Vahvistuskoodin lähettämisessä ilmeni ongelma
 verify-secondary-email-page-title =
     .title = Toissijainen sähköposti
-verify-secondary-email-verification-code =
+verify-secondary-email-verification-code-2 =
     .label = Kirjoita vahvistuskoodi
 verify-secondary-email-cancel-button = Peruuta
-verify-secondary-email-verify-button = Vahvista
-# This string is an instruction in a form.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Kirjoita osoitteeseen <strong>{ $email }</strong> lähetetty vahvistuskoodin viiden minuutin kuluessa.
+verify-secondary-email-verify-button-2 = Vahvista
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -424,7 +416,6 @@ tfa-button-cancel = Peruuta
 tfa-button-finish = Viimeistele
 tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
 tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
-tfa-cannot-verify-code-2 = Palautuskoodisi vahvistamisessa ilmeni ongelma
 tfa-incorrect-recovery-code = Virheellinen palautuskoodi
 tfa-enabled = Kaksivaiheinen todennus käytössä
 tfa-scan-this-code =
@@ -515,7 +506,6 @@ rk-cannot-remove-key = Tilisi palautusavainta ei voitu poistaa.
 rk-refresh-key = Päivitä palautusavain
 rk-content-explain = Palauta tietosi kun unohdat salasanasi.
 rk-content-reset-data = Miksi salasanan nollaaminen nollaa myös tietoni?
-rk-cannot-verify-session-3 = Valitettavasti istunnon vahvistamisessa oli ongelma
 rk-remove-modal-heading = Poistetaanko palautusavain?
 rk-remove-modal-content =
     Jos nollaat salasanasi, et voi käyttää palautusavainta
@@ -528,7 +518,6 @@ rk-remove-error-2 = Tilisi palautusavainta ei voitu poistaa
 se-heading = Toissijainen sähköposti
     .header = Toissijainen sähköposti
 se-cannot-refresh-email = Valitettavasti sähköpostiosoitteen päivittämisessä ilmeni ongelma.
-se-cannot-resend-code-2 = Valitettavasti vahvistuskoodin lähettämisessä uudelleen ilmeni ongelma
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -539,18 +528,15 @@ se-set-primary-error-2 = Valitettavasti ensisijaisen sähköpostiosoitteesi vaih
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } poistettu
 se-delete-email-error-2 = Valitettavasti tämän sähköpostiosoitteen poistamisessa ilmeni ongelma
-se-verify-session-2 = Tämän toiminnon suorittamiseksi sinun on vahvistettava nykyinen istuntosi
-se-verify-session-error-2 = Valitettavasti istunnon vahvistamisessa oli ongelma
+se-verify-session-3 = Tämän toiminnon suorittamiseksi sinun on vahvistettava nykyinen istuntosi
+se-verify-session-error-3 = Valitettavasti istunnon vahvistamisessa oli ongelma
 # Button to remove the secondary email
 se-remove-email =
     .title = Poista sähköpostiosoite
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Päivitä sähköpostiosoite
-se-unverified = vahvistamaton
-se-resend-code =
-    Vahvistus vaaditaan. <button>Lähetä vahvistuskoodi uudelleen</button>
-    jos se ei ole Saapuneet- tai Roskaposti-kansioissa.
+se-unverified-2 = vahvistamaton
 # Button to make secondary email the primary
 se-make-primary = Tee ensisijaiseksi
 se-default-content = Käytä tiliäsi, jos et voi kirjautua ensisijaiseen sähköpostiosoitteeseesi.
@@ -579,7 +565,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Estä muita kirjautumasta vaatimalla
     yksilöllinen koodi, jonka vain sinä saat tietää.
-tfa-row-cannot-verify-session-3 = Valitettavasti istunnon vahvistamisessa oli ongelma
+tfa-row-cannot-verify-session-4 = Valitettavasti istunnon vahvistamisessa oli ongelma
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
 tfa-row-disable-modal-explain =
@@ -594,7 +580,7 @@ tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 
 auth-error-102 = Tuntematon tili
 auth-error-103 = Virheellinen salasana
-auth-error-105 = Virheellinen vahvistuskoodi
+auth-error-105-2 = Virheellinen vahvistuskoodi
 auth-error-110 = Virheellinen poletti
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -604,8 +590,8 @@ auth-error-110 = Virheellinen poletti
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Olet yrittänyt liian monta kertaa. Odota { $retryAfter } ja yritä uudelleen.
-auth-error-138 = Vahvistamaton istunto
+auth-error-138-2 = Vahvistamaton istunto
 auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi ensisijainen sähköpostiosoite
 auth-error-155 = TOTP-polettia ei löytynyt
-auth-error-183 = Virheellinen tai vanhentunut vahvistuskoodi
+auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
 auth-error-1008 = Uuden salasanan pitää erota vanhasta
