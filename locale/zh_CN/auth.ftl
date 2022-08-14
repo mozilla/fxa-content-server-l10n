@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = 是否在登录 { -product-firefox-accounts }？
-session-verify-send-push-body = 若是您本人操作，请点击此处验证
+session-verify-send-push-body-2 = 点击此处以验证本人操作
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -75,6 +75,7 @@ automated-email-change = 这是一封自动发送的邮件。若您并未授权�
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = 这是一封自动发送的邮件。若您并未添加新设备到 { -product-firefox-account }，请立即到 { $passwordChangeLink } 更改密码。
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
 automated-email-plaintext = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
@@ -160,10 +161,7 @@ view-invoice = <a data-l10n-name="invoiceLink">查看您的发票</a>。
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = 查看发票：{ $invoiceLink }
-cadReminderFirst-subject = 友情提醒：完成同步设置的步骤
 cadReminderFirst-action = 与其他设备同步
-cadReminderFirst-title = 提醒 🔔 您需与其他设备进行同步。
-cadReminderFirst-description = 同步至少需要两台设备。请与另一台设备同步您的书签、密码和其他 { -brand-firefox } 数据。私密浏览，更要无缝衔接。
 cadReminderSecond-subject-2 = 稍安毋躁，让我们完成同步设置！
 cadReminderSecond-action = 与其他设备同步
 cadReminderSecond-title-2 = 別忘了同步！
@@ -263,10 +261,8 @@ postRemoveTwoStepAuthentication-description = 您已成功用下列设备禁用 
 postRemoveTwoStepAuthentication-description-plaintext = 您已成功禁用 { -product-firefox-account }的两步验证。现在起，无需安全码即可登录。
 postRemoveTwoStepAuthentication-action = 管理账号
 postRemoveTwoStepAuthentication-not-required = 现在起，无需安全码即可登录。
-postVerify-sub-title = { -product-firefox-account }验证完毕，就快完成了。
 postVerify-title = 接下来与您的其他设备同步！
 postVerify-description = 同步服务会安全地在您所有设备间同步书签、密码与其他 { -brand-firefox } 数据。
-postVerify-subject = 账户验证完毕。接下来，与另一台同步设备以完成设置
 postVerify-setup = 设置下一台设备
 postVerify-action = 设置下一台设备
 # Variables:
@@ -274,9 +270,6 @@ postVerify-action = 设置下一台设备
 postVerify-support = 有任何问题？请访问 { $supportUrl }
 postVerifySecondary-subject = 已绑定备用邮箱
 postVerifySecondary-title = 已绑定备用邮箱
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = 已成功验证 { $secondaryEmail } 作为您 { -product-firefox-account }的备用邮箱。从现在起，安全通知和登录确认邮件也将发送到该邮箱。
 postVerifySecondary-action = 管理账号
 recovery-subject = 重置密码
 recovery-title = 需要重置您的密码吗？
@@ -302,14 +295,10 @@ subscriptionAccountFinishSetup-content-create-2 = 接下来，请设置 { -produ
 subscriptionAccountFinishSetup-action-2 = 开始使用
 subscriptionAccountReminderFirst-subject = 提醒：请完成账户设置
 subscriptionAccountReminderFirst-title = 您暂时还不能访问订阅的项目
-subscriptionAccountReminderFirst-content-info = 您在前几日创建了 { -product-firefox-account }但尚未验证。我们希望您能尽快完成设置，以便使用所订阅的项目。
-subscriptionAccountReminderFirst-content-select = 选择“创建密码”设置新密码并完成账户验证。
 subscriptionAccountReminderFirst-action = 创建密码
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action } :
 subscriptionAccountReminderSecond-subject = 最后一次提醒：请设置您的账户
 subscriptionAccountReminderSecond-title = 欢迎使用 { -brand-firefox }！
-subscriptionAccountReminderSecond-content-info = 您在前几日创建了 { -product-firefox-account }但尚未验证。我们希望您能尽快完成设置，以便使用所订阅的项目。
-subscriptionAccountReminderSecond-content-select = 选择“创建密码”设置新密码并完成账户验证。
 subscriptionAccountReminderSecond-action = 创建密码
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }：
 # Variables
@@ -410,13 +399,6 @@ subscriptionFirstInvoiceDiscount-content-charge = 已于 { $invoiceDateOnly } �
 subscriptionFirstInvoiceDiscount-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject = 订阅 { $productName } 所用信用卡即将到期
-subscriptionPaymentExpired-title = 您的信用卡即将到期
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content = 您用于付款 { $productName } 的信用卡即将到期。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 付款失败
 subscriptionPaymentFailed-title = 抱歉，处理付款时遇到问题
 # Variables:
@@ -458,9 +440,6 @@ subscriptionRenewalReminder-content-closing = 此致，
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } 团队
-subscriptionsPaymentExpired-subject = 订阅所用信用卡即将过期
-subscriptionsPaymentExpired-title = 您的信用卡即将到期
-subscriptionsPaymentExpired-content = 您用于付款的信用卡即将到期。
 subscriptionsPaymentProviderCancelled-subject = 需要更新 { -brand-mozilla } 产品订阅的付款信息
 subscriptionsPaymentProviderCancelled-title = 抱歉，处理付款时遇到问题
 subscriptionsPaymentProviderCancelled-content-detected = 处理您最近为下列订阅项目的付款时遇到问题。
@@ -560,7 +539,6 @@ confirm-email-plaintext = { confirm-email }：
 verificationReminderFirst-action = 确认邮箱地址
 verificationReminderSecond-subject = 最后一次提醒：请激活您的账户
 verificationReminderSecond-title = 还在吗？
-verificationReminderSecond-description = 大约一周前，您创建了 { -product-firefox-account }，但未进行验证。我们对此表示担忧。
 verificationReminderSecond-sub-description = 请确认此邮箱地址以激活您的账户，让我们知道您没遇到什么问题。
 verificationReminderSecond-action = 确认邮箱地址
 verify-title = 激活 { -brand-firefox } 系列产品
@@ -580,25 +558,12 @@ verifyLogin-action = 确认登录
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = { $serviceName } 的登录码
 verifyLoginCode-title = 是您在登录吗？
-verifyLoginCode-prompt = 是的话，请使用此验证码：
 verifyLoginCode-expiry-notice = 5 分钟内有效。
-verifyPrimary-title = 验证主邮箱
 verifyPrimary-description = 下列设备请求了一项账户变更：
 verifyPrimary-subject = 确认主邮箱
-verifyPrimary-action = 验证邮箱
-verifyPrimary-action-plaintext = { verifyPrimary-action }：
-verifyPrimary-post-verify = 通过验证后，将可从此设备执行添加备用邮箱等账户更改。
 verifySecondaryCode-subject = 确认备用邮箱地址
-verifySecondaryCode-title = 验证备用邮箱地址
-verifySecondaryCode-action = 验证邮箱
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = 有人请求使用 { $email } 作为下列 { -product-firefox-account }的备用邮箱地址：
-verifySecondaryCode-prompt = 使用此验证码：
-verifySecondaryCode-expiry-notice = 5 分钟内有效。在验证后，此地址将接受有关的安全通知和确认邮件。
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject = 验证码：{ $code }
 verifyShortCode-title = 是您在注册账号吗？
-verifyShortCode-prompt = 是的话，请在注册表单中输入此验证码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
