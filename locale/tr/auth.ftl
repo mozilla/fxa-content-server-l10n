@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = { -product-firefox-accounts }na giriş mi yapıyorsunuz?
-session-verify-send-push-body = Siz olduğunuzu doğrulamak için tıklayın
+session-verify-send-push-body-2 = Siz olduğunuzu onaylamak için tıklayın
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -288,10 +288,10 @@ postRemoveTwoStepAuthentication-description = Aşağıdaki cihaz aracılığıyl
 postRemoveTwoStepAuthentication-description-plaintext = { -product-firefox-account }nızda iki aşamalı kimlik doğrulamayı devre dışı bıraktınız. Artık her girişte güvenlik kodları sorulmayacaktır.
 postRemoveTwoStepAuthentication-action = Hesabı yönet
 postRemoveTwoStepAuthentication-not-required = Artık her girişte güvenlik kodları sorulmayacaktır.
-postVerify-sub-title = { -product-firefox-account } doğrulandı. İşimiz bitmek üzere.
+postVerify-sub-title-2 = { -product-firefox-account } doğrulandı. İşimiz bitmek üzere.
 postVerify-title = Şimdi cihazlarınızı eşitleyin!
 postVerify-description = Sync özelliği; yer imlerinizin, parolalarınızın ve diğer { -brand-firefox } verilerinizin tüm cihazlarınızda aynı kalmasını sağlar.
-postVerify-subject = Hesap doğrulandı. Şimdi kurulumu tamamlamak için başka bir cihazı eşitleyin
+postVerify-subject-2 = Hesap doğrulandı. Şimdi kurulumu tamamlamak için başka bir cihazı eşitleyin
 postVerify-setup = Sonraki cihazı kur
 postVerify-action = Sonraki cihazı kur
 # Variables:
@@ -299,9 +299,6 @@ postVerify-action = Sonraki cihazı kur
 postVerify-support = Sorularınız mı var? { $supportUrl } adresini ziyaret edin
 postVerifySecondary-subject = İkinci e-posta eklendi
 postVerifySecondary-title = İkinci e-posta eklendi
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = { $secondaryEmail } adresini { -product-firefox-account }nızın ikinci e-postası olarak doğruladınız. Güvenlik bildirimleri ve giriş onayları artık her iki adresinize de gönderilecektir.
 postVerifySecondary-action = Hesabı yönet
 recovery-subject = Parolanızı sıfırlayın
 recovery-title = Parolanızı sıfırlamanız mı gerekiyor?
@@ -327,14 +324,11 @@ subscriptionAccountFinishSetup-content-create-2 = Ardından, yeni aboneliğinizi
 subscriptionAccountFinishSetup-action-2 = Başlayın
 subscriptionAccountReminderFirst-subject = Hatırlatma: Hesabınızın kurulumunu tamamlayın
 subscriptionAccountReminderFirst-title = Henüz aboneliğinize erişemezsiniz
-subscriptionAccountReminderFirst-content-info = Birkaç gün önce { -product-firefox-account } açtınız ama hesabınızı henüz doğrulamadınız. Yeni aboneliğinizi kullanabilmek için hesabınızın kurulumunu tamamlamanız gerekiyor.
-subscriptionAccountReminderFirst-content-select = Yeni parola belirlemek için “Parola oluştur”u seçerek hesabınızı doğrulamayı tamamlayın.
 subscriptionAccountReminderFirst-action = Parola oluştur
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Son hatırlatma: Hesabınızı kurun
 subscriptionAccountReminderSecond-title = { -brand-firefox }’a hoş geldiniz!
-subscriptionAccountReminderSecond-content-info = Birkaç gün önce { -product-firefox-account } açtınız ama hesabınızı henüz doğrulamadınız. Yeni aboneliğinizi kullanabilmek için hesabınızın kurulumunu tamamlamanız gerekiyor.
-subscriptionAccountReminderSecond-content-select = Yeni parola belirlemek için “Parola oluştur”u seçerek hesabınızı doğrulamayı tamamlayın.
+subscriptionAccountReminderSecond-content-select-2 = Yeni parola belirlemek için “Parola oluştur”u seçerek hesabınızı doğrulamayı tamamlayın.
 subscriptionAccountReminderSecond-action = Parola oluştur
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -561,7 +555,6 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = E-postanızı doğrulayın
 verificationReminderSecond-subject = Son hatırlatma: Hesabınızı etkinleştirin
 verificationReminderSecond-title = Orada mısınız?
-verificationReminderSecond-description = Yaklaşık bir hafta önce { -product-firefox-account } açtınız ama hesabınızı onaylamadınız. Sizi merak ettik.
 verificationReminderSecond-sub-description = Her şey yolundaysa hesabınızı etkinleştirmek için bu e-posta adresini onaylayın.
 verificationReminderSecond-action = E-postanızı doğrulayın
 verify-title = { -brand-firefox } ürün ailesini etkinleştirin
@@ -581,25 +574,25 @@ verifyLogin-action = Girişi onayla
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = { $serviceName } giriş kodu
 verifyLoginCode-title = Giriş yapan siz misiniz?
-verifyLoginCode-prompt = Doğrulama kodunuz:
+verifyLoginCode-prompt-2 = Doğrulama kodunuz:
 verifyLoginCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.
-verifyPrimary-title = Ana e-posta adresini doğrula
+verifyPrimary-title-2 = Ana e-posta adresinizi doğrulayın
 verifyPrimary-description = Aşağıdaki cihazdan bir hesap değiştirme isteği yapılmıştır:
 verifyPrimary-subject = Ana e-posta adresini onayla
-verifyPrimary-action = E-postayı doğrula
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Cihaz doğrulandıktan sonra, bu cihazdan ikinci e-posta ekleme gibi hesap değişiklikleri yapmak mümkün olacaktır.
+verifyPrimary-action-2 = E-postanızı doğrulayın
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Cihaz doğrulandıktan sonra, bu cihazdan ikinci e-posta ekleme gibi hesap değişiklikleri yapmak mümkün olacaktır.
 verifySecondaryCode-subject = İkinci e-postayı onayla
-verifySecondaryCode-title = İkinci e-postayı doğrula
-verifySecondaryCode-action = E-postayı doğrula
+verifySecondaryCode-title-2 = İkinci e-postayı onayla
+verifySecondaryCode-action-2 = E-postanızı doğrulayın
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = { $email } adresini ikinci e-posta adresi olarak kullanmak için aşağıdaki { -product-firefox-account }ndan bir istek yapıldı:
-verifySecondaryCode-prompt = Bu doğrulama kodunu kullanın:
-verifySecondaryCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır. Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir.
+verifySecondaryCode-prompt-2 = Bu doğrulama kodunu kullanın:
+verifySecondaryCode-expiry-notice-2 = Kodun geçerlilik süresi 5 dakikadır. Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject = Doğrulama kodu: { $code }
+verifyShortCode-subject-2 = Doğrulama kodu: { $code }
 verifyShortCode-title = Kaydolan siz misiniz?
-verifyShortCode-prompt = Sizseniz kayıt formunda bu doğrulama kodunu kullanabilirsiniz:
+verifyShortCode-prompt-2 = Sizseniz kayıt formunda bu doğrulama kodunu kullanabilirsiniz:
 verifyShortCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.
