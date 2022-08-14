@@ -212,6 +212,9 @@ view-invoice-plaintext = Προβολή τιμολογίου: { $invoiceLink }
 cadReminderFirst-subject-1 = Υπενθύμιση! Ας συγχρονίσουμε το { -brand-firefox }
 cadReminderFirst-action = Συγχρονισμός άλλης συσκευής
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Χρειάζονται δύο συσκευές για συγχρονισμό
+cadReminderFirst-description-2 = Χρειάζεται ελάχιστος χρόνος για τον συγχρονισμό.
 cadReminderSecond-action = Συγχρονισμός άλλης συσκευής
 cadReminderSecond-title-2 = Μην ξεχάσετε να κάνετε συγχρονισμό!
 cadReminderSecond-description-sync = Συγχρονίστε τους σελιδοδείκτες, τους κωδικούς πρόσβασης, τις ανοικτές καρτέλες και πολλά άλλα — όπου κι αν χρησιμοποιείτε το { -brand-firefox }.
