@@ -192,14 +192,7 @@ modal-cancel-button = Скасаваць
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Пацвердзіце сваю электронную пошту
-mvs-enter-verification-code = Увядзіце свой код пацвярджэння
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Калі ласка, увядзіце код пацвярджэння, адпраўлены на адрас <email>{ $email }</email> на працягу 5 хвілін.
 msv-cancel-button = Скасаваць
-msv-submit-button = Пацвердзіць
 
 ## Settings Nav
 
@@ -334,14 +327,7 @@ add-secondary-email-save-button = Захаваць
 add-secondary-email-step-2 = Крок 2 з 2
 verify-secondary-email-page-title =
     .title = Дадатковая пошта
-verify-secondary-email-verification-code =
-    .label = Увядзіце свой код пацверджання
 verify-secondary-email-cancel-button = Скасаваць
-verify-secondary-email-verify-button = Пацвердзіць
-# This string is an instruction in a form.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Калі ласка, увядзіце код пацвярджэння, адпраўлены на адрас <strong>{ $email }</strong> на працягу 5 хвілін.
 
 ##
 
@@ -445,7 +431,6 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Абнавіць электронную пошту
-se-unverified = не спраўджана
 # Button to make secondary email the primary
 se-make-primary = Зрабіць асноўным
 # Default value for the secondary email
@@ -473,8 +458,9 @@ tfa-row-change-modal-explain = Вы не зможаце адмяніць гэт�
 
 auth-error-102 = Невядомы ўліковы запіс
 auth-error-103 = Няправільны пароль
-auth-error-105 = Нядзейсны код пацвярджэння
 auth-error-110 = Нядзейсны токен
-auth-error-138 = Неправераны сеанс
+auth-error-138-2 = Непацверджаны сеанс
+auth-error-139 = Другі адрас электроннай пошты мусіць адрознівацца ад асноўнага
 auth-error-155 = TOTP-токен не знойдзены
+auth-error-183-2 = Несапраўдны або пратэрмінаваны код пацвярджэння
 auth-error-1008 = Ваш новы пароль павінен адрознівацца
