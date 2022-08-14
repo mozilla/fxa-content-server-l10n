@@ -214,14 +214,9 @@ modal-cancel-button = 取消
 
 ## Modal Verify Session
 
-mvs-verify-your-email = 验证您的邮箱
-mvs-enter-verification-code = 请输入您的验证码
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = 请在 5 分钟内输入发送到 <email>{ $email }</email> 的验证码。
+mvs-enter-verification-code-2 = 请输入确认码
 msv-cancel-button = 取消
-msv-submit-button = 验证
+msv-submit-button-2 = 确认
 
 ## Settings Nav
 
@@ -375,17 +370,15 @@ add-secondary-email-save-button = 保存
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 步骤（2 / 2）
-verify-secondary-email-error-2 = 发送验证码时出现问题
+verify-secondary-email-error-3 = 发送确认码时出现问题
 verify-secondary-email-page-title =
     .title = 备用邮箱地址
-verify-secondary-email-verification-code =
-    .label = 请输入您的验证码
 verify-secondary-email-cancel-button = 取消
-verify-secondary-email-verify-button = 验证
+verify-secondary-email-verify-button-2 = 确认
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = 请在 5 分钟内输入发送到 <strong>{ $email }</strong> 的验证码。
+verify-secondary-email-please-enter-code-2 = 请在 5 分钟内输入发送到 <strong>{ $email }</strong> 的确认码。
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -407,7 +400,7 @@ tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 错误的两步验证码
 tfa-cannot-retrieve-code = 检索您的救援码时出现问题。
-tfa-cannot-verify-code-2 = 验证您的救援码时出现问题
+tfa-cannot-verify-code-3 = 确认您的救援码时出现问题
 tfa-incorrect-recovery-code = 错误的救援码
 tfa-enabled = 已启用两步验证
 tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExternal>进行扫码。
@@ -489,7 +482,6 @@ rk-cannot-remove-key = 无法删除您的账户救援密钥。
 rk-refresh-key = 刷新救援密钥
 rk-content-explain = 当您忘记密码时恢复数据。
 rk-content-reset-data = 为什么重置密码时会重置我的数据？
-rk-cannot-verify-session-3 = 抱歉，验证您的会话时出现问题
 rk-remove-modal-heading = 要移除救援密钥吗？
 rk-remove-modal-content = 一旦重置密码，就无法再使用救援密钥访问您的数据。此操作不可撤销。
 rk-refresh-error = 抱歉，刷新救援密钥时出现问题。
@@ -500,7 +492,6 @@ rk-remove-error-2 = 无法删除您的账户救援密钥
 se-heading = 备用邮箱
     .header = 备用邮箱
 se-cannot-refresh-email = 抱歉，刷新邮箱地址时出现问题。
-se-cannot-resend-code-2 = 抱歉，重新发送验证码时出现问题
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -511,16 +502,13 @@ se-set-primary-error-2 = 抱歉，更改您的主邮箱时出现问题
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } 已成功删除
 se-delete-email-error-2 = 抱歉，删除此电子邮件地址时出现问题
-se-verify-session-2 = 您需要验证当前会话才能执行此操作
-se-verify-session-error-2 = 抱歉，验证您的会话时出现问题
 # Button to remove the secondary email
 se-remove-email =
     .title = 移除邮箱地址
 # Button to refresh secondary email status
 se-refresh-email =
     .title = 刷新邮箱地址
-se-unverified = 未验证
-se-resend-code = 需要验证。若未收到邮件，并确认不在垃圾邮件文件夹中，请<button>点此重新发送验证码</button>。
+se-unverified-2 = 未确认
 # Button to make secondary email the primary
 se-make-primary = 设为主邮箱
 se-default-content = 主邮箱不可用时，用此访问账户。
@@ -543,7 +531,6 @@ tfa-row-button-refresh =
     .title = 刷新两步验证状态
 tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
 tfa-row-content-explain = 登录时需提供只有您有权访问的验证码，防止他人恶意登录。
-tfa-row-cannot-verify-session-3 = 抱歉，验证您的会话时出现问题。
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
 tfa-row-disable-modal-explain = 您将无法撤销此操作。您也可选择<linkExternal>更新救援码</linkExternal>。
@@ -556,7 +543,6 @@ tfa-row-change-modal-explain = 此操作无法撤销。
 
 auth-error-102 = 未知账户
 auth-error-103 = 密码错误
-auth-error-105 = 验证码无效
 auth-error-110 = 无效令牌
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -566,8 +552,6 @@ auth-error-110 = 无效令牌
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = 您已尝试太多次，请 { $retryAfter } 后再试。
-auth-error-138 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
-auth-error-183 = 验证码无效或过期
 auth-error-1008 = 新旧密码不能相同
