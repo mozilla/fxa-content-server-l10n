@@ -228,7 +228,12 @@ modal-cancel-button = Cancelar
 
 mvs-verify-your-email-2 = Confirma tu correo
 mvs-enter-verification-code-2 = Ingresa tu código de confirmación
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Por favor, ingresa el código de confirmación que fue enviado a <email>{ $email }</email> dentro de los próximos 5 minutos.
 msv-cancel-button = Cancelar
+msv-submit-button-2 = Confirmar
 
 ## Settings Nav
 
@@ -385,8 +390,11 @@ add-secondary-email-save-button = Guardar
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Paso 2 de 2
+verify-secondary-email-error-3 = Hubo un problema al enviar el código de confirmación
 verify-secondary-email-page-title =
     .title = Correo secundario
+verify-secondary-email-verification-code-2 =
+    .label = Ingresa tu código de confirmación
 verify-secondary-email-cancel-button = Cancelar
 verify-secondary-email-verify-button-2 = Confirmar
 # This string is an instruction in a form.
