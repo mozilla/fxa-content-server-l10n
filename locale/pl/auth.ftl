@@ -277,6 +277,7 @@ downloadSubscription-content-2 = Zacznij korzystać ze wszystkich funkcji zawart
 downloadSubscription-link-action-2 = Zacznij teraz
 fraudulentAccountDeletion-subject = Twoje { -product-firefox-account(case: "nom", capitalization: "lower") } zostało usunięte
 fraudulentAccountDeletion-title = Twoje konto zostało usunięte
+fraudulentAccountDeletion-content = Niedawno za pomocą tego adresu e-mail utworzono { -product-firefox-account(case: "acc", capitalization: "lower") } i naliczono subskrypcję. Tak jak w przypadku każdego nowego konta, poprosiliśmy o jego potwierdzenie, najpierw weryfikując ten adres e-mail.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Pozostało mało kodów odzyskiwania
 codes-reminder-description = Zauważyliśmy, że pozostało mało kodów odzyskiwania. Prosimy rozważyć utworzenie nowych, aby uniknąć zablokowania konta.
