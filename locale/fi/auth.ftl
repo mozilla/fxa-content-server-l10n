@@ -597,9 +597,12 @@ verifyLogin-action = Vahvista kirjautuminen
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Kirjautumiskoodi palveluun { $serviceName }
 verifyLoginCode-title = Kirjaudutko sinä sisään?
+verifyLoginCode-prompt-2 = Jos kyllä, tässä on vahvistuskoodi:
 verifyLoginCode-expiry-notice = Se vanhenee viidessä minuutissa.
+verifyPrimary-title-2 = Vahvista ensisijainen sähköpostiosoite
 verifyPrimary-description = Tilin muutospyyntö on tehty laitteella:
 verifyPrimary-subject = Vahvista ensisijainen sähköpostiosoite
+verifyPrimary-action-2 = Vahvista sähköposti
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Vahvista toissijainen sähköpostiosoite
 verifySecondaryCode-title-2 = Vahvista toissijainen sähköpostiosoite
