@@ -226,14 +226,14 @@ modal-cancel-button = Diddymu
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Gwiriwch eich e-bost
-mvs-enter-verification-code = Rhowch eich cod gwirio
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Cadarnhewch eich e-bost
+mvs-enter-verification-code-2 = Rhowch eich cod cadarnhau
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Rhowch y cod gwirio a anfonwyd at <email>{ $email }</email> o fewn 5 munud.
+mvs-enter-verification-code-desc-2 = Rhowch y cod cadarnhau a anfonwyd at <email>{ $email }</email> o fewn 5 munud.
 msv-cancel-button = Diddymu
-msv-submit-button = Gwirio
+msv-submit-button-2 = Cadarnhau
 
 ## Settings Nav
 
@@ -390,17 +390,17 @@ add-secondary-email-save-button = Cadw
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Cam 2 o 2
-verify-secondary-email-error-2 = Bu anhawster anfon y cod dilysu.
+verify-secondary-email-error-3 = Bu anhawster anfon y cod cadarnhau.
 verify-secondary-email-page-title =
     .title = Ail e-bost
-verify-secondary-email-verification-code =
-    .label = Rhowch eich cod dilysu
+verify-secondary-email-verification-code-2 =
+    .label = Rhowch eich cod cadarnhau
 verify-secondary-email-cancel-button = Diddymu
-verify-secondary-email-verify-button = Dilysu
+verify-secondary-email-verify-button-2 = Cadarnhau
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Rhowch y cod dilysu a anfonwyd at <strong>{ $email }</strong> o fewn 5 munud.
+verify-secondary-email-please-enter-code-2 = Rhowch y cod cadarnhau a anfonwyd at <strong>{ $email }</strong> o fewn 5 munud.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -422,7 +422,7 @@ tfa-button-cancel = Diddymu
 tfa-button-finish = Gorffen
 tfa-incorrect-totp = Cod dilysu dau gam annilys
 tfa-cannot-retrieve-code = Bu anhawster wrth adfer eich cod.
-tfa-cannot-verify-code-2 = Bu anhawster wrth wirio'ch cod adfer.
+tfa-cannot-verify-code-3 = Bu anhawster wrth gadarnhau eich cod adfer.
 tfa-incorrect-recovery-code = Cod adfer anghywir
 tfa-enabled = Mae dilysu dau gam wedi ei alluogi
 tfa-scan-this-code =
@@ -513,7 +513,7 @@ rk-cannot-remove-key = Nid oedd modd dileu allwedd adfer eich cyfrif.
 rk-refresh-key = Adnewyddu'r allwedd adfer
 rk-content-explain = Adfer eich manylion pan fyddwch yn anghofio'ch cyfrinair.
 rk-content-reset-data = Pam mae ailosod fy nghyfrinair yn ailosod fy nata?
-rk-cannot-verify-session-3 = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
+rk-cannot-verify-session-4 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
 rk-remove-modal-heading = Dileu'r allwedd adfer?
 rk-remove-modal-content =
     Os byddwch yn ailosod eich cyfrinair, ni fydd modd i chi
@@ -526,7 +526,7 @@ rk-remove-error-2 = Nid oedd modd dileu allwedd adfer eich cyfrif.
 se-heading = Ail e-bost
     .header = Ail E-bost
 se-cannot-refresh-email = Ymddiheuriadau, bu anhawster wrth adnewyddu'r e-bost hwnnw.
-se-cannot-resend-code-2 = Ymddiheuriadau, bu anhawster wrth ail anfon y cod dilysu.
+se-cannot-resend-code-3 = Ymddiheuriadau, bu anhawster wrth ail anfon y cod cadarnhau.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -537,18 +537,15 @@ se-set-primary-error-2 = Ymddiheuriadau, bu anhawster wrth newid eich prif e-bos
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = Dilëwyd { $email } yn llwyddiannus.
 se-delete-email-error-2 = Ymddiheuriadau, bu anhawster wrth ddileu'r e-bost hwn
-se-verify-session-2 = Bydd angen i chi wirio'ch sesiwn gyfredol i gyflawni'r weithred hon.
-se-verify-session-error-2 = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
+se-verify-session-3 = Bydd angen i chi gadarnhau eich sesiwn gyfredol i gyflawni'r weithred hon.
+se-verify-session-error-3 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
 # Button to remove the secondary email
 se-remove-email =
     .title = Tynnu e-bost
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Adnewyddu e-bost
-se-unverified = Heb ei wirio
-se-resend-code =
-    Angen gwirio. <button>Ail anfon y cod dilysu</button>
-    os nad yw yn eich blwch derbyn neu'ch ffolder sbam.
+se-unverified-2 = heb ei gadarnhau
 # Button to make secondary email the primary
 se-make-primary = Gwneud yn brif gyfrif
 se-default-content = Cael mynediad i'ch cyfrif os na allwch fewngofnodi i'ch prif e-bost.
@@ -573,7 +570,6 @@ tfa-row-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r dilysu da
 tfa-row-content-explain =
     Atal rhywun arall rhag mewngofnodi trwy fynnu
     cod unigryw dim ond chi sydd â mynediad iddo.
-tfa-row-cannot-verify-session-3 = Ymddiheuriadau, bu anhawster wrth wirio'ch sesiwn
 tfa-row-disable-modal-heading = Analluogi dilysu dau ffactor?
 tfa-row-disable-modal-confirm = Analluogi
 tfa-row-disable-modal-explain =
@@ -588,7 +584,6 @@ tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
 
 auth-error-102 = Cyfrif anhysbys
 auth-error-103 = Cyfrinair anghywir
-auth-error-105 = Cod dilysu annilys
 auth-error-110 = Tocyn annilys
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -598,8 +593,6 @@ auth-error-110 = Tocyn annilys
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach { $retryAfter }.
-auth-error-138 = Sesiwn heb ei gwirio
 auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP
-auth-error-183 = Cod dilysu annilys neu wedi dod i ben
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
