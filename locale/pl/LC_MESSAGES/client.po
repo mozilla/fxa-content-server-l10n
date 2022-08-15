@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-15 11:51+0000\n"
+"PO-Revision-Date: 2022-08-15 12:01+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -937,7 +937,7 @@ msgstr "Nie można utworzyć konta"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Należy spełnić wymagania dotyczące wieku, aby utworzyć konto&nbsp;Firefoksa."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1001,23 +1001,23 @@ msgstr "Już potwierdzono logowanie"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Odnośnik potwierdzenia wygasł"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Kliknięty odnośnik do potwierdzenia adresu e-mail wygasł."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Kliknij tutaj, aby otrzymać nowy odnośnik potwierdzenia"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Odnośnik potwierdzenia jest uszkodzony"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Błąd potwierdzenia"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1029,7 +1029,7 @@ msgstr "Potwierdź to logowanie"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Sprawdź, czy na koncie %(escapedEmail)s jest odnośnik potwierdzenia"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1056,15 +1056,15 @@ msgstr "Kliknij odnośnik wysłany do %(email)s w ciągu godziny, aby utworzyć
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Wpisz kod potwierdzenia"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "dla konta Firefoksa"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Wpisz kod potwierdzenia wysłany na adres %(escapedEmail)s w ciągu 5 minut."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1078,11 +1078,11 @@ msgstr "Potwierdź"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "Kod wygasł?"
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "Wyślij nowy."
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -1485,7 +1485,7 @@ msgstr "Upoważnij to logowanie"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Sprawdź, czy w skrzynce %(email)s jest kod upoważnienia."
+msgstr "Sprawdź, czy na koncie %(email)s jest kod upoważnienia."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
