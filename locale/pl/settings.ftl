@@ -625,6 +625,9 @@ se-remove-email =
 se-refresh-email =
     .title = Odśwież adres e-mail
 se-unverified-2 = niepotwierdzony
+se-resend-code-2 =
+    Wymagane jest potwierdzenie. <button>Wyślij kod potwierdzenia jeszcze raz</button>,
+    jeśli nie ma go w Odebranych ani w Niechcianych.
 # Button to make secondary email the primary
 se-make-primary = Ustaw jako główny
 se-default-content = Uzyskaj dostęp do konta, jeśli nie możesz zalogować się na główny adres e-mail.
@@ -651,6 +654,7 @@ tfa-row-cannot-refresh =
     Przepraszamy, wystąpił problem podczas odświeżania
     uwierzytelniania dwuetapowego.
 tfa-row-content-explain = Logowanie do konta wymaga podania unikalnego kodu, do którego tylko Ty masz dostęp, co uniemożliwia innym zalogowanie się.
+tfa-row-cannot-verify-session-4 = Przepraszamy, wystąpił problem podczas potwierdzania sesji
 tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
 tfa-row-disable-modal-explain = Tego działania nie będzie można cofnąć. Można zamiast tego <linkExternal>zastąpić kody odzyskiwania</linkExternal>.
@@ -663,6 +667,7 @@ tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
 
 auth-error-102 = Nieznane konto
 auth-error-103 = Niepoprawne hasło
+auth-error-105-2 = Nieprawidłowy kod potwierdzenia
 auth-error-110 = Nieprawidłowy token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -672,6 +677,8 @@ auth-error-110 = Nieprawidłowy token
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Próbowano za wiele razy. Proszę spróbować ponownie za { $retryAfter }.
+auth-error-138-2 = Niepotwierdzona sesja
 auth-error-139 = Dodatkowy adres e-mail musi być inny niż adres e-mail konta
 auth-error-155 = Nie odnaleziono tokena TOTP
+auth-error-183-2 = Kod potwierdzenia jest nieprawidłowy lub wygasł
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
