@@ -21,13 +21,37 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = A bheil thu airson clàradh a-steach gu { -product-firefox-accounts }?
+session-verify-send-push-body-2 = Briog an-seo a dhearbhadh gur tusa a th’ ann
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="suaicheantas { -brand-firefox }">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sioncronaich uidheaman">
+body-devices-image = <img data-l10n-name="devices-image" alt="Uidheaman">
 fxa-privacy-url = Poileasaidh prìobhaideachd { -brand-mozilla }
+fxa-service-url = Teirmichean na seirbheise aig { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="Suaicheantas { -brand-firefox }">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Suaicheantas { -brand-mozilla }">
 subplat-automated-email = Seo post-d fèin-obrachail; ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh.
+subplat-privacy-notice = Aithris na prìobhaideachd
+subplat-privacy-plaintext = Aithris na prìobhaideachd:
+subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Fhuair thu am post-d seo a chionn ’s gu bheil  { -product-firefox-account } aig { $email } agus a chionn ’s gun do chlàraich thu airson { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Fhuair thu am post-d seo a chionn ’s gu bheil  { -product-firefox-account } aig { $email }.
+subplat-explainer-multiple = Fhuair thu am post-d seo a chionn ’s gu bheil  { -product-firefox-account } aig { $email } agus a chionn ’s gu bheil fo-sgrìobhadh agad aig iomadh bathar.
+subplat-explainer-was-deleted = Fhuair thu am post-d seo a chionn ’s gun deach { $email } a chlàradh airson { -product-firefox-account }.
+subplat-manage-account = Stiùirich am { -product-firefox-account } agad le bhith a’ tadhal air <a data-l10n-name="subplat-account-page">duilleag a’ chunntais agad</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Stiùirich am { -product-firefox-account } agad le bhith a’ tadhal air duilleag a’ chunntais agad: { $accountSettingsUrl }
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cuir crìoch air an fho-sgrìobhadh
 subplat-cancel-plaintext = { subplat-cancel }:
