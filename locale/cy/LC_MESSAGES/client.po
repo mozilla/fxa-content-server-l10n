@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-15 08:04+0000\n"
+"PO-Revision-Date: 2022-08-15 08:08+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: cy\n"
@@ -1013,11 +1013,11 @@ msgstr "Cliciwch yma i dderbyn dolen cadarnhau newydd"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Mae'r ddolen cadarnhad wedi'i difrodi"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Gwall cadarnhau"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1029,7 +1029,7 @@ msgstr "Cadarnhau'r mewngofnodi hwn"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Edrychwch ar eich e-bost am y ddolen cadarnhau a anfonwyd&nbsp;at %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1094,7 +1094,7 @@ msgstr "Cyfrif Firefox wedi'i gysylltu"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "E-bost wedi'i gadarnhau"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1154,6 +1154,9 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+" Rhowch eich cyfrinair <span class=\"card-subheader\" id=\"subheader\">ar gyfer eich cyfrif Firefox</span>\n"
+" "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1161,7 +1164,7 @@ msgstr "Cyfrinair"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Drwy barhau, rydych yn cytuno i'r <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a'r <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1395,7 +1398,7 @@ msgstr "Enw'r Digwyddiad"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Wedi'i gadarnhau"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
