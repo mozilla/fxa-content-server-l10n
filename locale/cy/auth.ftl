@@ -294,10 +294,10 @@ postRemoveTwoStepAuthentication-description = Rydych wedi galluogi dilysu dau ga
 postRemoveTwoStepAuthentication-description-plaintext = Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account }. Ni fydd angen codau diogel bob tro fyddwch yn mewngofnodi.
 postRemoveTwoStepAuthentication-action = Rheoli cyfrif
 postRemoveTwoStepAuthentication-not-required = Ni fydd angen codau diogel bellach wrth fewngofnodi.
-postVerify-sub-title-2 = { -product-firefox-account } wedi'i gadarnhau. Rydych chi bron yno.
+postVerify-sub-title-2 = { -product-firefox-account } wedi'i gadarnhau. Rydych bron a gorffen.
 postVerify-title = nesaf, cydweddwch eich dyfeisiau!
 postVerify-description = Mae Sync yn breifat yn cadw’ch nodau tudalen, cyfrineiriau a data { -brand-firefox } arall yr un peth ar draws eich holl ddyfeisiau.
-postVerify-subject-2 = Cyfrif wedi'i gadarnhau. Nesaf, cydweddwch ddyfais arall i orffen y gosod
+postVerify-subject-2 = Cyfrif wedi'i gadarnhau. Nesaf, cydweddwch â dyfais arall i orffen y gosod
 postVerify-setup = Gosod y ddyfais nesaf
 postVerify-action = Gosod y ddyfais nesaf
 # Variables:

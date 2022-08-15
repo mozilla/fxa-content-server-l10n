@@ -546,6 +546,9 @@ se-remove-email =
 se-refresh-email =
     .title = Adnewyddu e-bost
 se-unverified-2 = heb ei gadarnhau
+se-resend-code-2 =
+    Mae angen cadarnhau. <button>Ail anfonwch y cod cadarnhau</button>
+    os nad yw yn eich blwch derbyn neu'ch ffolder sbam.
 # Button to make secondary email the primary
 se-make-primary = Gwneud yn brif gyfrif
 se-default-content = Cael mynediad i'ch cyfrif os na allwch fewngofnodi i'ch prif e-bost.
@@ -570,6 +573,7 @@ tfa-row-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r dilysu da
 tfa-row-content-explain =
     Atal rhywun arall rhag mewngofnodi trwy fynnu
     cod unigryw dim ond chi sydd â mynediad iddo.
+tfa-row-cannot-verify-session-4 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
 tfa-row-disable-modal-heading = Analluogi dilysu dau ffactor?
 tfa-row-disable-modal-confirm = Analluogi
 tfa-row-disable-modal-explain =
@@ -584,6 +588,7 @@ tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
 
 auth-error-102 = Cyfrif anhysbys
 auth-error-103 = Cyfrinair anghywir
+auth-error-105-2 = Cod cadarnhau annilys
 auth-error-110 = Tocyn annilys
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -593,6 +598,8 @@ auth-error-110 = Tocyn annilys
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach { $retryAfter }.
+auth-error-138-2 = Sesiwn heb ei gadarnhau
 auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP
+auth-error-183-2 = Cod cadarnhau annilys neu wedi dod i ben
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
