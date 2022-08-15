@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Mewngofnodi i { -product-firefox-accounts }?
-session-verify-send-push-body = Cliciwch yma i wirio mai chi sydd yno
+session-verify-send-push-body-2 = Cliciwch yma i gadarnhau mai chi sydd yno
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -294,10 +294,10 @@ postRemoveTwoStepAuthentication-description = Rydych wedi galluogi dilysu dau ga
 postRemoveTwoStepAuthentication-description-plaintext = Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account }. Ni fydd angen codau diogel bob tro fyddwch yn mewngofnodi.
 postRemoveTwoStepAuthentication-action = Rheoli cyfrif
 postRemoveTwoStepAuthentication-not-required = Ni fydd angen codau diogel bellach wrth fewngofnodi.
-postVerify-sub-title = { -product-firefox-account } wedi'i wirio. Rydych chi bron yno.
+postVerify-sub-title-2 = { -product-firefox-account } wedi'i gadarnhau. Rydych chi bron yno.
 postVerify-title = nesaf, cydweddwch eich dyfeisiau!
 postVerify-description = Mae Sync yn breifat yn cadw’ch nodau tudalen, cyfrineiriau a data { -brand-firefox } arall yr un peth ar draws eich holl ddyfeisiau.
-postVerify-subject = Cyfrif wedi’i wirio. Nesaf, cydweddwch ddyfais arall i orffen y gosod
+postVerify-subject-2 = Cyfrif wedi'i gadarnhau. Nesaf, cydweddwch ddyfais arall i orffen y gosod
 postVerify-setup = Gosod y ddyfais nesaf
 postVerify-action = Gosod y ddyfais nesaf
 # Variables:
@@ -307,7 +307,7 @@ postVerifySecondary-subject = Ychwanegwyd ail e-bost
 postVerifySecondary-title = Ychwanegwyd ail e-bost
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Rydych wedi dilysu { $secondaryEmail } yn llwyddiannus fel ail e-bost o'ch { -product-firefox-account }. Bydd hysbysiadau diogelwch a chadarnhad mewngofnodi yn cael eu hanfon i'r ddau gyfeiriad hyn.
+postVerifySecondary-content-2 = Rydych wedi cadarnhau { $secondaryEmail } yn llwyddiannus fel ail e-bost o'ch { -product-firefox-account }. Bydd hysbysiadau diogelwch a chadarnhad mewngofnodi yn cael eu hanfon i'r ddau gyfeiriad yma.
 postVerifySecondary-action = Rheoli cyfrif
 recovery-subject = Ailosod eich cyfrinair
 recovery-title = Angen ailosod eich cyfrinair?
@@ -333,14 +333,14 @@ subscriptionAccountFinishSetup-content-create-2 = Nesaf, byddwch yn creu cyfrina
 subscriptionAccountFinishSetup-action-2 = Cychwyn arni
 subscriptionAccountReminderFirst-subject = Nodyn atgoffa: Gorffennwch greu eich cyfrif
 subscriptionAccountReminderFirst-title = Nid oes modd i chi gael mynediad i'ch tanysgrifiad eto
-subscriptionAccountReminderFirst-content-info = Ychydig ddyddiau yn ôl fe wnaethoch chi greu Cyfrif { -product-firefox-account } ond heb  ei wirio. Rydym yn gobeithio y byddwch chi'n gorffen creu'ch cyfrif, fel y gallwch chi ddefnyddio'ch tanysgrifiad newydd.
-subscriptionAccountReminderFirst-content-select = Dewiswch “Creu Cyfrinair” i greu cyfrinair newydd a gorffen gwirio eich cyfrif.
+subscriptionAccountReminderFirst-content-info-2 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu Cyfrif { -product-firefox-account } ond heb  ei gadarnhau. Rydym yn gobeithio y byddwch chi'n gorffen creu'ch cyfrif, fel y gallwch chi ddefnyddio'ch tanysgrifiad newydd.
+subscriptionAccountReminderFirst-content-select-2 = Dewiswch “Creu Cyfrinair” i osod cyfrinair newydd a gorffen cadarnhau eich cyfrif.
 subscriptionAccountReminderFirst-action = Crëwch Gyfrinair
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Nodyn atgoffa terfynol: Crëwch eich cyfrif
 subscriptionAccountReminderSecond-title = Croeso i { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = Ychydig ddyddiau yn ôl fe wnaethoch chi greu Cyfrif { -product-firefox-account } ond heb  ei wirio. Rydym yn gobeithio y byddwch chi'n gorffen creu'ch cyfrif, fel y gallwch chi ddefnyddio'ch tanysgrifiad newydd.
-subscriptionAccountReminderSecond-content-select = Dewiswch “Creu Cyfrinair” i greu cyfrinair newydd a gorffen gwirio eich cyfrif.
+subscriptionAccountReminderSecond-content-info-2 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu Cyfrif { -product-firefox-account } ond heb  ei gadarnhau. Rydym yn gobeithio y byddwch chi'n gorffen creu'ch cyfrif, fel y gallwch chi ddefnyddio'ch tanysgrifiad newydd.
+subscriptionAccountReminderSecond-content-select-2 = Dewiswch “Creu Cyfrinair” i osod cyfrinair newydd a gorffen cadarnhau eich cyfrif.
 subscriptionAccountReminderSecond-action = Crëwch Gyfrinair
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -591,7 +591,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = E-bost cadarnhau
 verificationReminderSecond-subject = Nodyn atgoffa terfynol: Gweithredwch eich cyfrif
 verificationReminderSecond-title = Dal yna?
-verificationReminderSecond-description = Bron i wythnos yn ôl fe wnaethoch greu { -product-firefox-account } ond heb ei ddilysu. Rydym yn poeni amdanoch chi.
+verificationReminderSecond-description-2 = Bron i wythnos yn ôl fe wnaethoch greu { -product-firefox-account } ond heb ei gadarnhau. Rydym yn poeni amdanoch chi.
 verificationReminderSecond-sub-description = Cadarnhewch y cyfeiriad e-bost hwn i weithredu eich cyfrif a gadewch i ni wybod eich bod chi’n iawn.
 verificationReminderSecond-action = E-bost cadarnhau
 verify-title = Defnyddiwch gynnyrch teulu { -brand-firefox }
@@ -611,25 +611,25 @@ verifyLogin-action = Cadarnhau eich mewngofnodi
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Cod mewngofnodi ar gyfer { $serviceName }
 verifyLoginCode-title = Ai hwn yw chi’n allgofnodi?
-verifyLoginCode-prompt = Os ydyw, defnyddiwch y cod dilysu hwn:
+verifyLoginCode-prompt-2 = Os ydyw, defnyddiwch y cod cadarnhau yma:
 verifyLoginCode-expiry-notice = Daw i ben mewn 5 munud.
-verifyPrimary-title = Dilysu prif e-bost
+verifyPrimary-title-2 = Cadarnhau'r prif e-bost
 verifyPrimary-description = Mae cais wedi ei wneud o’r ddyfais ganlynol i newid cyfrif:
 verifyPrimary-subject = Cadarnhau’r prif e-bost
-verifyPrimary-action = Dilysu’r e-bost
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Unwaith bydd wedi ei ddilysu, bydd newid cyfrif fel ychwanegu ail e-bost yn bosib o’r ddyfais hon.
+verifyPrimary-action-2 = Cadarnhau'r e-bost
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Unwaith y bydd wedi ei gadarnhau, bydd newid cyfrif fel ychwanegu ail e-bost yn bosib o'r ddyfais hon.
 verifySecondaryCode-subject = Cadarnhau’r ail e-bost
-verifySecondaryCode-title = Dilysu’r ail gyfrif
-verifySecondaryCode-action = Dilysu'r e-bost
+verifySecondaryCode-title-2 = Cadarnhau'r ail e-bost
+verifySecondaryCode-action-2 = Cadarnhau'r e-bost
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Mae cais i ddefnyddio { $email } fel ail e-bost wedi ei wneud o'r { -product-firefox-account } canlynol:
-verifySecondaryCode-prompt = Defnyddiwch y cod dilysu hwn:
-verifySecondaryCode-expiry-notice = Daw i ben mewn 5 munud. Ar ôl ei wirio, bydd y cyfeiriad hwn yn dechrau derbyn hysbysiadau a chadarnhad diogelwch.
+verifySecondaryCode-prompt-2 = Defnyddiwch y cod cadarnhau yma:
+verifySecondaryCode-expiry-notice-2 = Daw i ben ymhen 5 munud. Ar ôl ei gadarnhau, bydd y cyfeiriad hwn yn dechrau derbyn hysbysiadau a chadarnhad diogelwch.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject = Cod dilysu: { $code }
+verifyShortCode-subject-2 = Cod cadarnhau: { $code }
 verifyShortCode-title = Ai hyn yw chi wedi cofrestru?
-verifyShortCode-prompt = Os ydych, defnyddiwch y cod gwirio hwn yn eich ffurflen gofrestru:
+verifyShortCode-prompt-2 = Os ydych, defnyddiwch y cod cadarnhau yma yn eich ffurflen gofrestru:
 verifyShortCode-expiry-notice = Daw i ben mewn 5 munud.
