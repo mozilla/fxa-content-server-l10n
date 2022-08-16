@@ -293,14 +293,14 @@ modal-cancel-button = Zrušiť
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Overiť e-mailovú adresu
-mvs-enter-verification-code = Zadajte overovací kód
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Potvrďte vašu e-mailovú adresu
+mvs-enter-verification-code-2 = Zadajte svoj potvrdzovací kód
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = V priebehu 5 minút zadajte overovací kód, ktorý bol odoslaný na e-mailovú adresu <email>{ $email }</email>.
+mvs-enter-verification-code-desc-2 = V priebehu 5 minút zadajte potvrdzovací kód, ktorý bol odoslaný na e-mailovú adresu <email>{ $email }</email>.
 msv-cancel-button = Zrušiť
-msv-submit-button = Overiť
+msv-submit-button-2 = Potvrdiť
 
 ## Settings Nav
 
@@ -457,17 +457,17 @@ add-secondary-email-save-button = Uložiť
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Krok 2 z 2
-verify-secondary-email-error-2 = Pri odosielaní overovacieho kódu sa vyskytol problém
+verify-secondary-email-error-3 = Pri odosielaní potvrdzovacieho kódu sa vyskytol problém
 verify-secondary-email-page-title =
     .title = Alternatívna e-mailová adresa
-verify-secondary-email-verification-code =
-    .label = Zadajte overovací kód
+verify-secondary-email-verification-code-2 =
+    .label = Zadajte svoj potvrdzovací kód
 verify-secondary-email-cancel-button = Zrušiť
-verify-secondary-email-verify-button = Overiť
+verify-secondary-email-verify-button-2 = Potvrdiť
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = V priebehu 5 minút zadajte overovací kód, ktorý bol odoslaný na e-mailovú adresu <strong>{ $email }</strong>.
+verify-secondary-email-please-enter-code-2 = Do 5 minút zadajte potvrdzovací kód, ktorý bol odoslaný na e-mailovú adresu <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -489,7 +489,7 @@ tfa-button-cancel = Zrušiť
 tfa-button-finish = Dokončiť
 tfa-incorrect-totp = Nesprávny kód pre dvojstupňové overenie
 tfa-cannot-retrieve-code = Pri načítaní vášho kódu sa vyskytol problém.
-tfa-cannot-verify-code-2 = Pri overovaní vášho obnovovacieho kódu sa vyskytol problém
+tfa-cannot-verify-code-3 = Pri potvrdení vášho obnovovacieho kódu sa vyskytol problém
 tfa-incorrect-recovery-code = Nesprávny obnovovací kód
 tfa-enabled = Dvojstupňové overenie bolo povolené
 tfa-scan-this-code =
@@ -580,7 +580,7 @@ rk-cannot-remove-key = Kľúč na obnovenie účtu nebolo možné odstrániť.
 rk-refresh-key = Obnoviť kľúč na obnovenie účtu
 rk-content-explain = Získajte prístup k svojim údajom v prípade, že zabudnete heslo.
 rk-content-reset-data = Prečo dôjde pri obnove hesla k odstráneniu mojich uložených údajov?
-rk-cannot-verify-session-3 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém
+rk-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 rk-remove-modal-heading = Odstrániť kľúč na obnovenie účtu?
 rk-remove-modal-content =
     V prípade, že si nastavíte nové heslo, nebudete už môcť
@@ -594,7 +594,7 @@ rk-remove-error-2 = Kľúč na obnovenie účtu nebolo možné odstrániť
 se-heading = Alternatívna e-mailová adresa
     .header = Alternatívna e-mailová adresa
 se-cannot-refresh-email = Ľutujeme, ale pri obnovení tohto e-mailu sa vyskytol problém.
-se-cannot-resend-code-2 = Ľutujeme, pri opätovnom odosielaní overovacieho kódu sa vyskytol problém
+se-cannot-resend-code-3 = Ľutujeme, pri opätovnom odosielaní potvrdzovacieho kódu sa vyskytol problém
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -605,17 +605,17 @@ se-set-primary-error-2 = Ľutujeme, ale pri zmene vašej hlavnej e-mailovej adre
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = Adresa { $email } bola úspešne odstránená
 se-delete-email-error-2 = Ľutujeme, ale pri odstraňovaní tejto e-mailovej adresy sa vyskytol problém
-se-verify-session-2 = Ak chcete vykonať túto akciu, budete musieť overiť svoju aktuálnu reláciu
-se-verify-session-error-2 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém
+se-verify-session-3 = Ak chcete vykonať túto akciu, budete musieť potvrdiť svoju aktuálnu reláciu
+se-verify-session-error-3 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 # Button to remove the secondary email
 se-remove-email =
     .title = Odstrániť e-mailovú adresu
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Obnoviť e-mailovú adresu
-se-unverified = neoverená
-se-resend-code =
-    Vyžaduje sa overenie. <button>Opäť si pošlite overovací kód</button>,
+se-unverified-2 = nepotvrdený
+se-resend-code-2 =
+    Vyžaduje sa potvrdenie. <button>Opäť si pošlite potvrdzovací kód</button>,
     ak sa tento nenachádza vo vašej doručenej pošte alebo priečinku so spamom.
 # Button to make secondary email the primary
 se-make-primary = Nastaviť ako hlavnú adresu
@@ -643,7 +643,7 @@ tfa-row-cannot-refresh = Je nám ľúto, ale pri obnovovaní dvojstupňového ov
 tfa-row-content-explain =
     Zabráňte niekomu inému v prihlásení vyžadovaním
     jedinečného kódu, ku ktorému máte prístup iba vy.
-tfa-row-cannot-verify-session-3 = Ľutujeme, pri overovaní vašej relácie sa vyskytol problém
+tfa-row-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
 tfa-row-disable-modal-explain =
@@ -658,7 +658,7 @@ tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
 
 auth-error-102 = Neznámy účet
 auth-error-103 = Nesprávne heslo
-auth-error-105 = Neplatný overovací kód
+auth-error-105-2 = Neplatný potvrdzovací kód
 auth-error-110 = Neplatný token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -668,8 +668,8 @@ auth-error-110 = Neplatný token
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Vykonali ste príliš veľa pokusov. Skúste to znova { $retryAfter }.
-auth-error-138 = Neoverená relácia
+auth-error-138-2 = Nepotvrdená relácia
 auth-error-139 = Alternatívna e-mailová adresa musí byť iná ako adresa účtu
 auth-error-155 = Token TOTP sa nenašiel
-auth-error-183 = Neplatný alebo starý overovací kód
+auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
 auth-error-1008 = Staré a nové heslo sa musia líšiť

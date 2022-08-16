@@ -373,8 +373,10 @@ postRemoveTwoStepAuthentication-description = Úspešne ste zakázali dvojstupň
 postRemoveTwoStepAuthentication-description-plaintext = Úspešne ste zakázali dvojstupňové overenie na vašom { -product-firefox-account(case: "loc", capitalization: "lower") }. Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
 postRemoveTwoStepAuthentication-action = Spravovať účet
 postRemoveTwoStepAuthentication-not-required = Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
+postVerify-sub-title-2 = { -product-firefox-account } bol potvrdený. Už ste skoro tam.
 postVerify-title = Ako ďalší krok synchronizácia medzi vašimi zariadeniami!
 postVerify-description = Súkromná synchronizácia uchováva vaše záložky, heslá a ďalšie údaje { -brand-firefox(case: "gen") } rovnaké na všetkých vašich zariadeniach.
+postVerify-subject-2 = Účet bol potvrdený. Nastavenie dokončite synchronizáciou iného zariadenia
 postVerify-setup = Nastavte ďalšie zariadenie
 postVerify-action = Nastaviť ďalšie zariadenie
 # Variables:
