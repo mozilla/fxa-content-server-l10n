@@ -541,6 +541,10 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Actualizar el correo electrónico
+se-unverified-2 = Sin confirmar
+se-resend-code-2 =
+    Se necesita confirmación. <button> Reenviar código de confirmación </button>
+    si no está en tu bandeja de entrada o en tu carpeta de spam.
 # Button to make secondary email the primary
 se-make-primary = Hacer principal
 se-default-content = Accedé a tu cuenta si no podés iniciar sesión en tu correo electrónico principal.
@@ -569,6 +573,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Evitá que otra persona inicie la sesión solicitando
     código único al que solo vos tenés acceso.
+tfa-row-cannot-verify-session-4 = Disculpá, hubo un problema confirmando la sesión
 tfa-row-disable-modal-heading = ¿Deshabilitar autenticación de dos pasos?
 tfa-row-disable-modal-confirm = Deshabilitar
 tfa-row-disable-modal-explain =
@@ -583,6 +588,7 @@ tfa-row-change-modal-explain = Esta acción no se puede deshacer.
 
 auth-error-102 = Cuenta desconocida
 auth-error-103 = Contraseña incorrecta
+auth-error-105-2 = Código de confirmación inválido
 auth-error-110 = Token inválido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -592,6 +598,8 @@ auth-error-110 = Token inválido
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Probaste demasiadas veces. Intentá en { $retryAfter }.
+auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = No se econtró el token TOTP.
+auth-error-183-2 = El código de confirmación no es válido o ya venció
 auth-error-1008 = La nueva contraseña debe ser diferente
