@@ -228,14 +228,14 @@ modal-cancel-button = Avbryt
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Verifiera din e-post
-mvs-enter-verification-code = Ange din verifieringskod
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Bekräfta din e-postadress
+mvs-enter-verification-code-2 = Ange din bekräftelsekod
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Ange verifieringskoden som skickades till <email>{ $email }</email> inom fem minuter.
+mvs-enter-verification-code-desc-2 = Ange bekräftelsekoden som skickades till <email>{ $email }</email> inom 5 minuter.
 msv-cancel-button = Avbryt
-msv-submit-button = Verifiera
+msv-submit-button-2 = Bekräfta
 
 ## Settings Nav
 
@@ -392,17 +392,17 @@ add-secondary-email-save-button = Spara
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Steg 2 av 2
-verify-secondary-email-error-2 = Det gick inte att skicka verifieringskoden
+verify-secondary-email-error-3 = Det uppstod ett problem då bekräftelsekoden skulle skickas
 verify-secondary-email-page-title =
     .title = Sekundär e-post
-verify-secondary-email-verification-code =
-    .label = Ange din verifieringskod
+verify-secondary-email-verification-code-2 =
+    .label = Ange din bekräftelsekod
 verify-secondary-email-cancel-button = Avbryt
-verify-secondary-email-verify-button = Verifiera
+verify-secondary-email-verify-button-2 = Bekräfta
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Ange verifieringskoden som skickades till <strong>{ $email }</strong> inom fem minuter.
+verify-secondary-email-please-enter-code-2 = Ange bekräftelsekoden som skickades till <strong>{ $email }</strong> inom 5 minuter.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -424,7 +424,7 @@ tfa-button-cancel = Avbryt
 tfa-button-finish = Slutför
 tfa-incorrect-totp = Felaktig tvåstegsautentiseringskod
 tfa-cannot-retrieve-code = Det gick inte att hämta din kod.
-tfa-cannot-verify-code-2 = Det gick inte att verifiera din återställningskod
+tfa-cannot-verify-code-3 = Det gick inte att bekräfta din återställningskod
 tfa-incorrect-recovery-code = Felaktig återställningskod
 tfa-enabled = Tvåstegsautentisering aktiverad
 tfa-scan-this-code =
@@ -515,7 +515,7 @@ rk-cannot-remove-key = Din kontoåterställningsnyckel kunde inte tas bort.
 rk-refresh-key = Uppdatera återställningsnyckel
 rk-content-explain = Återställ din information när du glömmer lösenordet.
 rk-content-reset-data = Varför återställs mina data när jag återställer mitt lösenord?
-rk-cannot-verify-session-3 = Tyvärr uppstod ett problem med att verifiera din session
+rk-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
 rk-remove-modal-heading = Ta bort återställningsnyckel?
 rk-remove-modal-content =
     Om du återställer ditt lösenord kan du inte använda din återställningsnyckel
@@ -528,7 +528,7 @@ rk-remove-error-2 = Din kontoåterställningsnyckel kunde inte tas bort
 se-heading = Sekundär e-post
     .header = Sekundär e-post
 se-cannot-refresh-email = Tyvärr uppstod ett problem med att uppdatera den sekundära e-postadressen.
-se-cannot-resend-code-2 = Tyvärr uppstod ett problem med att skicka verifieringskoden igen
+se-cannot-resend-code-3 = Tyvärr uppstod ett problem med att skicka bekräftelsekoden igen
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -539,18 +539,15 @@ se-set-primary-error-2 = Tyvärr uppstod ett problem med att ändra din primära
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } har tagits bort
 se-delete-email-error-2 = Tyvärr, det gick inte att ta bort det här e-postmeddelandet
-se-verify-session-2 = Du måste verifiera din nuvarande session för att utföra den här åtgärden
-se-verify-session-error-2 = Tyvärr uppstod ett problem med att verifiera din session
+se-verify-session-3 = Du måste bekräfta din nuvarande session för att utföra den här åtgärden
+se-verify-session-error-3 = Tyvärr, det uppstod ett problem med att bekräfta din session
 # Button to remove the secondary email
 se-remove-email =
     .title = Ta bort e-post
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Uppdatera e-post
-se-unverified = overifierad
-se-resend-code =
-    Verifiering behövs. <button>Skicka verifieringskod igen</button>
-    om den inte finns i din inkorg eller skräppostmapp.
+se-unverified-2 = obekräftad
 # Button to make secondary email the primary
 se-make-primary = Gör primär
 se-default-content = Få åtkomst till ditt konto om du inte kan logga in med din primära e-postadress.
@@ -579,7 +576,6 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Förhindra att någon annan loggar in genom att kräva en
     unik kod som endast du har tillgång till.
-tfa-row-cannot-verify-session-3 = Tyvärr uppstod ett problem med att verifiera din session
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
 tfa-row-disable-modal-explain =
@@ -594,7 +590,6 @@ tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 
 auth-error-102 = Okänt konto
 auth-error-103 = Felaktigt lösenord
-auth-error-105 = Ogiltig verifieringskod
 auth-error-110 = Ogiltig tecken
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -604,8 +599,6 @@ auth-error-110 = Ogiltig tecken
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Du har försökt för många gånger. Försök igen { $retryAfter }.
-auth-error-138 = Overifierad session
 auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-postadress
 auth-error-155 = TOTP-tecken hittades inte
-auth-error-183 = Ogiltig eller upphörd verifieringskod
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
