@@ -612,9 +612,20 @@ verifyLoginCode-expiry-notice = Den upphör om 5 minuter.
 verifyPrimary-title-2 = Bekräfta primär e-postadress
 verifyPrimary-description = En begäran om att göra en kontoändring har gjorts från följande enhet:
 verifyPrimary-subject = Bekräfta primär e-postadress
+verifyPrimary-action-2 = Bekräfta e-postadress
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = När du har bekräftat kommer kontoändringar som att lägga till en sekundär e-post att bli möjliga från den här enheten.
 verifySecondaryCode-subject = Bekräfta sekundär e-postadress
+verifySecondaryCode-title-2 = Bekräfta sekundär e-postadress
+verifySecondaryCode-action-2 = Bekräfta e-postadress
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = En begäran om att använda { $email } som en sekundär e-postadress har gjorts från följande { -product-firefox-account }:
+verifySecondaryCode-prompt-2 = Använd denna bekräftelsekod:
+verifySecondaryCode-expiry-notice-2 = Den upphör efter 5 minuter. När adressen har bekräftats kommer den att börja ta emot säkerhetsmeddelanden och bekräftelser.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-2 = Bekräftelsekod: { $code }
 verifyShortCode-title = Är det du som registrerar dig?
+verifyShortCode-prompt-2 = Om ja, använd denna bekräftelsekod i ditt registreringsformulär:
 verifyShortCode-expiry-notice = Den upphör om 5 minuter.
