@@ -548,6 +548,9 @@ se-remove-email =
 se-refresh-email =
     .title = Uppdatera e-post
 se-unverified-2 = obekräftad
+se-resend-code-2 =
+    Bekräftelse behövs. <button>Skicka bekräftelsekoden igen</button>
+    om den inte finns i din inkorg eller skräppostmapp.
 # Button to make secondary email the primary
 se-make-primary = Gör primär
 se-default-content = Få åtkomst till ditt konto om du inte kan logga in med din primära e-postadress.
@@ -576,6 +579,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Förhindra att någon annan loggar in genom att kräva en
     unik kod som endast du har tillgång till.
+tfa-row-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
 tfa-row-disable-modal-explain =
@@ -590,6 +594,7 @@ tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 
 auth-error-102 = Okänt konto
 auth-error-103 = Felaktigt lösenord
+auth-error-105-2 = Ogiltig bekräftelsekod
 auth-error-110 = Ogiltig tecken
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -599,6 +604,8 @@ auth-error-110 = Ogiltig tecken
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Du har försökt för många gånger. Försök igen { $retryAfter }.
+auth-error-138-2 = Obekräftad session
 auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-postadress
 auth-error-155 = TOTP-tecken hittades inte
+auth-error-183-2 = Ogiltig eller utgången bekräftelsekod
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda

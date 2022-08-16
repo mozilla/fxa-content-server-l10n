@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Logga in på { -product-firefox-accounts }?
-session-verify-send-push-body = Klicka här för att verifiera att det är du
+session-verify-send-push-body-2 = Klicka här för att bekräfta att det är du
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -290,10 +290,10 @@ postRemoveTwoStepAuthentication-description = Du har framgångsrikt inaktiverat 
 postRemoveTwoStepAuthentication-description-plaintext = Du har framgångsrikt inaktiverat tvåstegsautentisering på ditt { -product-firefox-account }. Säkerhetskoder kommer inte längre att krävas vid varje inloggning.
 postRemoveTwoStepAuthentication-action = Hantera konto
 postRemoveTwoStepAuthentication-not-required = Säkerhetskoder behövs inte längre vid varje inloggning.
-postVerify-sub-title = { -product-firefox-account } verifierad. Du är nästan klar.
+postVerify-sub-title-2 = { -product-firefox-account } har bekräftats. Du är nästan klar.
 postVerify-title = Synkronisera nu dina enheter!
 postVerify-description = Privat synkronisering håller dina bokmärken, lösenord och andra { -brand-firefox }-data desamma på alla dina enheter.
-postVerify-subject = Kontot verifierat. Synkronisera nu en annan enhet för att slutföra installationen
+postVerify-subject-2 = Kontot bekräftat. Synkronisera nu en annan enhet för att slutföra installationen
 postVerify-setup = Ställ in nästa enhet
 postVerify-action = Ställ in nästa enhet
 # Variables:
@@ -303,7 +303,7 @@ postVerifySecondary-subject = Sekundär e-post tillagd
 postVerifySecondary-title = Sekundär e-post tillagd
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Du har verifierat { $secondaryEmail } som en sekundär e-post för ditt { -product-firefox-account }. Säkerhetsmeddelanden och inloggningsbekräftelser kommer nu att levereras till båda e-postadresserna.
+postVerifySecondary-content-2 = Du har framgångsrikt bekräftat { $secondaryEmail } som en sekundär e-postadress för ditt { -product-firefox-account }. Säkerhetsmeddelanden och inloggningsbekräftelser kommer nu att levereras till båda e-postadresserna.
 postVerifySecondary-action = Hantera konto
 recovery-subject = Återställ lösenordet
 recovery-title = Behöver du återställa ditt lösenord?
@@ -329,14 +329,14 @@ subscriptionAccountFinishSetup-content-create-2 = Därefter skapar du ett lösen
 subscriptionAccountFinishSetup-action-2 = Kom igång
 subscriptionAccountReminderFirst-subject = Påminnelse: Slutför konfigureringen av ditt konto
 subscriptionAccountReminderFirst-title = Du kan inte komma åt din prenumeration ännu
-subscriptionAccountReminderFirst-content-info = För några dagar sedan skapade du ett { -product-firefox-account } men verifierade det aldrig. Vi hoppas att du slutför konfigureringen av ditt konto så att du kan använda din nya prenumeration.
-subscriptionAccountReminderFirst-content-select = Välj "Skapa lösenord" för att skapa ett nytt lösenord och slutföra verifieringen av ditt konto.
+subscriptionAccountReminderFirst-content-info-2 = För några dagar sedan skapade du ett{ -product-firefox-account } men bekräftade det aldrig. Vi hoppas att du slutför konfigureringen av ditt konto så att du kan använda din nya prenumeration.
+subscriptionAccountReminderFirst-content-select-2 = Välj "Skapa lösenord" för att skapa ett nytt lösenord och för att slutföra bekräftandet av ditt konto.
 subscriptionAccountReminderFirst-action = Skapa lösenord
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Sista påminnelse: Konfigurera ditt konto
 subscriptionAccountReminderSecond-title = Välkommen till { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = För några dagar sedan skapade du ett { -product-firefox-account } men verifierade det aldrig. Vi hoppas att du slutför konfigureringen av ditt konto så att du kan använda din nya prenumeration.
-subscriptionAccountReminderSecond-content-select = Välj "Skapa lösenord" för att skapa ett nytt lösenord och slutföra verifieringen av ditt konto.
+subscriptionAccountReminderSecond-content-info-2 = För några dagar sedan skapade du ett { -product-firefox-account } men bekräftade det aldrig. Vi hoppas att du slutför konfigureringen av ditt konto så att du kan använda din nya prenumeration.
+subscriptionAccountReminderSecond-content-select-2 = Välj "Skapa lösenord" för att skapa ett nytt lösenord och slutföra bekräftandet av ditt konto.
 subscriptionAccountReminderSecond-action = Skapa lösenord
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -587,7 +587,7 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Bekräfta e-postadress
 verificationReminderSecond-subject = Sista påminnelse: Aktivera ditt konto
 verificationReminderSecond-title = Fortfarande där?
-verificationReminderSecond-description = För nästan en vecka sedan skapade du ett { -product-firefox-account } men verifierade det aldrig. Vi undrar vad som hände.
+verificationReminderSecond-description-2 = För nästan en vecka sedan skapade du ett { -product-firefox-account } men bekräftade det aldrig. Vi undrar vad som hände.
 verificationReminderSecond-sub-description = Bekräfta den här e-postadressen för att aktivera ditt konto och meddela oss att du är okej.
 verificationReminderSecond-action = Bekräfta e-postadress
 verify-title = Aktivera { -brand-firefox }-familjen av produkter
@@ -607,25 +607,14 @@ verifyLogin-action = Bekräfta inloggning
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Inloggningskod för { $serviceName }
 verifyLoginCode-title = Är det du som loggar in?
-verifyLoginCode-prompt = Om ja, här är verifieringskoden:
+verifyLoginCode-prompt-2 = Om ja, här är bekräftelsekoden:
 verifyLoginCode-expiry-notice = Den upphör om 5 minuter.
-verifyPrimary-title = Verifiera primär e-post
+verifyPrimary-title-2 = Bekräfta primär e-postadress
 verifyPrimary-description = En begäran om att göra en kontoändring har gjorts från följande enhet:
 verifyPrimary-subject = Bekräfta primär e-postadress
-verifyPrimary-action = Verifiera e-postadress
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = När du har verifierat, kommer kontoändringar som att lägga till en sekundär e-post att bli möjlig från den här enheten.
 verifySecondaryCode-subject = Bekräfta sekundär e-postadress
-verifySecondaryCode-title = Verifiera sekundär e-post
-verifySecondaryCode-action = Verifiera e-postadress
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = En begäran om att använda { $email } som en sekundär e-postadress har gjorts från följande { -product-firefox-account }:
-verifySecondaryCode-prompt = Använd den här verifieringskoden:
-verifySecondaryCode-expiry-notice = Den upphör inom 5 minuter. När den har verifierats börjar denna adress ta emot säkerhetsmeddelanden och bekräftelser.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject = Verifieringskod: { $code }
 verifyShortCode-title = Är det du som registrerar dig?
-verifyShortCode-prompt = Om ja, använd den här verifieringskoden i ditt registreringsformulär:
 verifyShortCode-expiry-notice = Den upphör om 5 minuter.
