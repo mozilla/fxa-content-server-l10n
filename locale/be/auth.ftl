@@ -188,6 +188,7 @@ postRemoveTwoStepAuthentication-subject-line = Двухэтапная аўтар
 postRemoveTwoStepAuthentication-title = Двухэтапная аўтарызацыя адключана
 postRemoveTwoStepAuthentication-action = Кіраванне ўліковым запісам
 postRemoveTwoStepAuthentication-not-required = Коды бяспекі больш не будуць патрабавацца пры кожным ўваходзе.
+postVerify-sub-title-2 = { -product-firefox-account } пацверджаны. Амаль гатова.
 postVerify-title = Наступная сінхранізацыя паміж вашымі прыладамі!
 postVerify-description = Сінхранізацыя прыватна захоўвае вашыя закладкі, паролі і іншыя дадзеныя { -brand-firefox } аднолькавымі на ўсіх вашых прыладах.
 postVerify-setup = Наладзіць наступную прыладу
@@ -208,9 +209,24 @@ subscriptionAccountFinishSetup-subject = Вітаем у { $productName }: Ка�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Вітаем у { $productName }
+subscriptionAccountFinishSetup-action-2 = Пачаць
 subscriptionAccountReminderFirst-action = Стварыць пароль
+subscriptionAccountReminderSecond-subject = Апошні напамін: Наладзьце свой уліковы запіс
 subscriptionAccountReminderSecond-title = Вітаем у { -brand-firefox }!
 subscriptionAccountReminderSecond-action = Стварыць пароль
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Вы перайшлі на { $productName }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Вы паспяхова перайшлі з { $productNameOld } на { $productName }.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Аплата { $productName } пацверджана
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Дзякуй за падпіску на { $productName }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Нумар рахунка-фактуры: <b>{ $invoiceNumber }</b>
@@ -228,6 +244,9 @@ subscriptionFirstInvoice-content-next-invoice = Наступны рахунак-
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoiceDiscount-subject = Аплата { $productName } пацверджана
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoiceDiscount-title = Дзякуй за падпіску на { $productName }
+# Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoiceDiscount-content-invoice-number = Нумар рахунка-фактуры: <b>{ $invoiceNumber }</b>
 # Variables:
@@ -243,8 +262,13 @@ subscriptionFirstInvoiceDiscount-content-discount = Зніжка: -{ $invoiceDis
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount-one-time = Аднаразовая зніжка: -{ $invoiceDiscountAmount }
 # Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoiceDiscount-content-charge = Спагнана { $invoiceTotal } { $invoiceDateOnly }
+# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Наступны рахунак-фактура: { $nextInvoiceDateOnly }
+subscriptionPaymentExpired-title-1 = Тэрмін дзеяння вашай крэдытнай карты скончыўся або хутка скончыцца
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number = Нумар рахунка-фактуры: <b>{ $invoiceNumber }</b>
