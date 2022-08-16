@@ -251,7 +251,10 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Змяніць пароль
+pw-8-chars = Мінімум 8 знакаў
+pw-not-email = Не ваш адрас электроннай пошты
 pw-change-must-match = Новы пароль адпавядае пацверджанню
+pw-commonly-used = Не часта выкарыстаны пароль
 pw-change-cancel-button = Скасаваць
 pw-change-save-button = Захаваць
 pw-change-forgot-password-link = Забыліся на пароль?
@@ -270,6 +273,7 @@ pw-change-success-alert-2 = Пароль абноўлены
 
 pw-create-header =
     .title = Стварыць пароль
+pw-create-success-alert-2 = Пароль усталяваны
 
 ##
 
