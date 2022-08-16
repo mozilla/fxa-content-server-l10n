@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-16 05:20+0000\n"
+"PO-Revision-Date: 2022-08-16 05:27+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1536,6 +1536,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"              Al continuar, acepta:<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Términos de servicio</a> y el <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Aviso de privacidad</a> de Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Términos de servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidad</a> de Firefox\n"
+"            "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1676,7 +1681,7 @@ msgstr "Quizás más tarde"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Ingresá el código de confirmación que se envió a %(escapedEmail)s en un plazo de 5 minutos."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1884,7 +1889,7 @@ msgstr "¿Cuántos años tiene?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "Debés tener al menos 13 años para crear una cuenta."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1976,7 +1981,7 @@ msgstr "Sí, aprobar dispositivo"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "Si no fuiste vos, <a id=\"change-password\" class=\"link-blue\">cambiá tu contraseña</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -2018,7 +2023,7 @@ msgstr "Se terminó el proceso de configuración."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Download Firefox on your phone or tablet"
-msgstr ""
+msgstr "Descargá Firefox en tu teléfono o tablet"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
@@ -2026,15 +2031,15 @@ msgstr "Código QR"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
-msgstr ""
+msgstr "Para descargar Firefox en tu dispositivo móvil, apunta la cámara del mismo a este código para escanearlo."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "O enviate un <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">enlace de descarga.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
-msgstr ""
+msgstr "Estoy listo para sincronizar dispositivos"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
