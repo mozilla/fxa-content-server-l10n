@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-07-22 18:58+0000\n"
+"PO-Revision-Date: 2022-08-16 18:51+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -74,7 +74,7 @@ msgstr "Цяпер вы гатовы рабіць змены ў сваім ул�
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Асноўны адрас электроннай пошты пацверджаны"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -82,7 +82,7 @@ msgstr "Абвесткі ўліковага запісу будуць такса
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Другі адрас электроннай пошты пацверджаны"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,7 +94,7 @@ msgstr "Цяпер вы можаце выкарыстоўваць %(serviceName)
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Уліковы запіс пацверджаны"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -218,7 +218,7 @@ msgstr "Надрукавана"
 
 #: .es5/views/behaviors/settings.js:40
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Уліковы запіс паспяхова пацверджаны"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -842,9 +842,7 @@ msgid "Invalid Token"
 msgstr "Нядзейсны токен"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Працягваючы, вы згаджаецеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовамі абслугоўвання</a> і <a id=\"service-pp\" href=\"%(privacyUri)s\">Паведамленнем аб прыватнасці</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -915,8 +913,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Калі ласка, увядзіце аднаразовы ключ аднаўлення, які вы захавалі ў бяспечным месцы, каб аднавіць доступ да ўліковага запісу Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ЗАЎВАГА:</span> Калі вы скінеце пароль і не маеце захаванага ключа аднаўлення ўліковага запісу, некаторыя дадзеныя будуць выдалены (уключаючы сінхранізаваныя праз сервер "
 "звесткі, такія як гісторыя і закладкі)."
@@ -940,7 +937,7 @@ msgstr "Не ўдаецца стварыць уліковы запіс"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Вы мусіце адпавядаць пэўным патрабаванням па ўзросце, каб стварыць уліковы запіс&nbsp;Firefox."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1004,23 +1001,23 @@ msgstr "Уваход у сістэму ўжо пацверджаны"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Тэрмін дзеяння спасылкі для пацверджання скончыўся"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Спасылка, па якой вы прайшлі для пацверджання электроннай пошты, пратэрмінаваная."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Націсніце тут, каб атрымаць новую спасылку"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Спасылка для пацверджання пашкоджана"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Памылка пацверджання"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1032,7 +1029,7 @@ msgstr "Пацвердзіце гэты ўваход"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Пашукайце ў сваёй пошце спасылку для пацверджання, дасланую&nbsp;на %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1059,7 +1056,7 @@ msgstr "Прайдзіце па спасылцы, дасланай на %(email)
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Увядзіце код пацверджання"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
@@ -1097,7 +1094,7 @@ msgstr "Уліковы запіс Firefox падключаны"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "Электронная пошта пацверджана"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1121,11 +1118,11 @@ msgstr "Сінхранізацыя Firefox паміж прыладамі"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
-msgstr ""
+msgstr "Увайдзіце ўсюды, дзе вы карыстаецеся Firefox."
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
-msgstr ""
+msgstr "Мы таксама на Android і iOS!"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1157,15 +1154,18 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Увядзіце свой пароль <span class=\"card-subheader\" id=\"subheader\">для вашага ўліковага запісу Firefox</span>\n"
+"\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "Пароль"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Працягваючы, вы згаджаецеся з <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовамі абслугоўвання</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Палітыкай прыватнасці</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1193,7 +1193,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Зарэгістравацца або ўвайсці"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1398,7 +1398,7 @@ msgstr "Назва падзеі"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Пацверджана"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1432,8 +1432,7 @@ msgstr "Больш не валодаеце гэтым адрасам эл.пош
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
@@ -1468,7 +1467,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Увядзіце код, які быў адпраўлены на адрас %(email)s на працягу 5 хвілін."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1526,8 +1525,7 @@ msgstr "Стварыць уліковы запіс"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1797,7 +1795,7 @@ msgstr "Усталёўка Firefox і сінхранізацыя прынамсi
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "Гатовы да сканавання"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
@@ -1877,7 +1875,7 @@ msgstr "Колькі вам гадоў?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "Вам павінна быць не менш за 13 гадоў, каб стварыць уліковы запіс."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1957,7 +1955,7 @@ msgstr "Вы толькі што ўвайшлі ў Firefox?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
@@ -2239,15 +2237,15 @@ msgstr "Выкарыстоўвалі сістэмную камеру? Вы му�
 #~ msgstr "Праяўляйце пільнасць да ўцечак дадзеных."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
-#~ "encrypt your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>ПАМЯТАЙЦЕ:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем "
 #~ "дадзеныя з паролем, каб абараніць вашу прыватнасць."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
+#~ "data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>ЗАЎВАГА:</span> Пры скідзе пароля вы скідваеце свой уліковы запіс. Вы можаце страціць нейкую частку асабістых звестак (уключаючы гісторыю, закладкі і паролі). Гэта таму, што мы шыфруем "
 #~ "дадзеныя з паролем, каб абараніць вашу прыватнасць."
@@ -2580,11 +2578,10 @@ msgstr "Выкарыстоўвалі сістэмную камеру? Вы му�
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Крок 2 з 2: Захавайце ключ аднаўлення"
 
-#~ msgid ""
-#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr ""
-#~ "<span class=\"note\">Заўвага: </span>Калі вы забудзеце свой пароль, гэты ключ спатрэбіцца, каб аднавіць доступ к дадзеным. Захоўвайце ключ аднаўлення ў бяспечным месцы, дзе вы лёгка можаце "
-#~ "знайсці яго пазней."
+#~ "<span class=\"note\">Заўвага: </span>Калі вы забудзеце свой пароль, гэты ключ спатрэбіцца, каб аднавіць доступ к дадзеным. Захоўвайце ключ аднаўлення ў бяспечным месцы, дзе вы лёгка можаце знайсці "
+#~ "яго пазней."
 
 #~ msgid "Done, Recovery key saved"
 #~ msgstr "Гатова, ключ аднаўлення захаваны"
@@ -2774,11 +2771,11 @@ msgstr "Выкарыстоўвалі сістэмную камеру? Вы му�
 #~ msgstr "Кіраваць наладамі"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
+#~ "lose access to it everywhere."
 #~ msgstr ""
-#~ "Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, "
-#~ "як вы выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
+#~ "Калі вы карысталіся гэтым ўліковым запісам для праграм Mozilla і паслуг, такіх як AMO, Pocket і Screenshots, вы павінны спачатку ўвайсці і выдаліць усе захаваныя асабістыя звесткі. Пасля таго, як вы"
+#~ " выдаліце свой уліковы запіс тут, тут вы можаце страціць доступ да іх паўсюль."
 
 #~ msgid "verified"
 #~ msgstr "пацверджана"
@@ -2859,9 +2856,7 @@ msgstr "Выкарыстоўвалі сістэмную камеру? Вы му�
 #~ msgstr "Не ўдалося атрымаць Умовы карыстання платформы падпіскі"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr ""
-#~ "Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Палітыкай прыватнасці</"
-#~ "a>."
+#~ msgstr "Працягваючы, вы згаджаецеся з <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Умовамі абслугоўвання</a> і <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Палітыкай прыватнасці</a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Умовы карыстання платформы падпіскі"
