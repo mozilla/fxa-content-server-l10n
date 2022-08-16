@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Уваходзіце ў { -product-firefox-accounts }?
-session-verify-send-push-body = Націсніце тут, каб пацвердзіць, што гэта вы
+session-verify-send-push-body-2 = Націсніце тут, каб пацвердзіць, што гэта вы
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -47,6 +47,7 @@ subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Абнавіць плацежную інфармацыю
 subplat-privacy-policy = Палітыка прыватнасці { -brand-mozilla }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = Умовы выкарыстання { -product-firefox-cloud }
 subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Прававыя звесткі
 subplat-legal-plaintext = { subplat-legal }:
@@ -76,6 +77,7 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = Картка { $cardType } заканчваецца на { $lastFour }
+subscriptionSupport = Пытанні наконт вашай падпіскі? Наша <a data-l10n-name="subscriptionSupportUrl">служба падтрымкі</a> тут, каб дапамагчы вам.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:
 # Variables:
@@ -110,7 +112,9 @@ location-state-country = { $stateCode }, { $country } (прыблізна)
 #  $country (stateCode) - User's country
 location-country = { $country } (прыблізна)
 cadReminderFirst-action = Сінхранізаваць іншую прыладу
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-action = Сінхранізаваць іншую прыладу
+cadReminderSecond-description-sync = Сінхранізуйце свае закладкі, паролі, адкрытыя карткі і многае іншае — усюды, дзе вы карыстаецеся { -brand-firefox }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Вітаем у { $productName }
@@ -311,16 +315,9 @@ verify-action = Пацвердзіце электронную пошту
 verifyLogin-description = Для дадатковай бяспекі, калі ласка, пацвердзіце гэты ўваход з наступнай прылады:
 verifyLogin-action = Пацвердзіць уваход
 verifyLoginCode-title = Гэта вы ўваходзіце?
-verifyLoginCode-prompt = Калі так, вось код пацвярджэння:
 verifyLoginCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
-verifyPrimary-title = Пацвердзіць асноўны адрас эл.пошты
 verifyPrimary-description = Запыт на змену ўліковага запісу быў зроблены з наступнай прылады:
 verifyPrimary-subject = Пацвердзіце асноўную электронную пошту
-verifyPrimary-action = Пацвердзіць эл.пошту
-verifyPrimary-post-verify = Пасля праверкі з гэтай прылады стануць магчымымі змены ўліковага запісу, такія як даданне другога адрасу электроннай пошты.
 verifySecondaryCode-subject = Пацвердзіце альтэрнатыўную электронную пошту
-verifySecondaryCode-title = Пацвердзіць другі адрас эл.пошты
-verifySecondaryCode-prompt = Выкарыстайце гэты код пацверджання:
-verifySecondaryCode-expiry-notice = Яго тэрмін дзеяння мінае праз 5 хвілін. Пасля праверкі, гэты адрас пачне атрымліваць абвесткі бяспекі і пацвярджэнні.
 verifyShortCode-title = Гэта вы рэгіструецеся?
 verifyShortCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
