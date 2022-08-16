@@ -104,7 +104,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Prihlasujete sa do { -product-firefox-accounts(case: "gen", capitalization: "lower") }?
-session-verify-send-push-body = Kliknutím sem overíte, že ste to vy
+session-verify-send-push-body-2 = Kliknutím sem potvrďte, že ste to vy
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -373,10 +373,8 @@ postRemoveTwoStepAuthentication-description = Úspešne ste zakázali dvojstupň
 postRemoveTwoStepAuthentication-description-plaintext = Úspešne ste zakázali dvojstupňové overenie na vašom { -product-firefox-account(case: "loc", capitalization: "lower") }. Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
 postRemoveTwoStepAuthentication-action = Spravovať účet
 postRemoveTwoStepAuthentication-not-required = Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
-postVerify-sub-title = { -product-firefox-account } je overený. Už ste skoro tam.
 postVerify-title = Ako ďalší krok synchronizácia medzi vašimi zariadeniami!
 postVerify-description = Súkromná synchronizácia uchováva vaše záložky, heslá a ďalšie údaje { -brand-firefox(case: "gen") } rovnaké na všetkých vašich zariadeniach.
-postVerify-subject = Účet overený. Nastavenie dokončite synchronizáciou iného zariadenia
 postVerify-setup = Nastavte ďalšie zariadenie
 postVerify-action = Nastaviť ďalšie zariadenie
 # Variables:
@@ -384,9 +382,6 @@ postVerify-action = Nastaviť ďalšie zariadenie
 postVerify-support = Máte otázky? Navštívte { $supportUrl }
 postVerifySecondary-subject = Alternatívna e-mailová adresa bola pridaná
 postVerifySecondary-title = Alternatívna e-mailová adresa bola pridaná
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = Úspešne ste overili adresu { $secondaryEmail } ako alternatívnu e-mailovú adresu pre váš { -product-firefox-account(case: "acc", capitalization: "lower") }. Bezpečnostné upozornenia a potvrdenia prihlásenia budú odteraz odosielané na obe adresy.
 postVerifySecondary-action = Spravovať účet
 recovery-subject = Obnovenie hesla
 recovery-title = Potrebujete obnoviť svoje heslo?
@@ -412,14 +407,10 @@ subscriptionAccountFinishSetup-content-create-2 = Potom si vytvoríte heslo pre 
 subscriptionAccountFinishSetup-action-2 = Začíname
 subscriptionAccountReminderFirst-subject = Pripomienka: dokončite nastavenie účtu
 subscriptionAccountReminderFirst-title = Zatiaľ nemáte prístup k svojmu predplatnému
-subscriptionAccountReminderFirst-content-info = Pred niekoľkými dňami ste si vytvorili { -product-firefox-account(case: "acc", capitalization: "lower") }, no nikdy ste ho neoverili. Dúfame, že dokončíte nastavenie svojho účtu, aby ste mohli používať svoje nové predplatné.
-subscriptionAccountReminderFirst-content-select = Ak chcete nastaviť nové heslo a dokončiť overenie účtu, kliknite na tlačidlo “Vytvoriť heslo”.
 subscriptionAccountReminderFirst-action = Vytvoriť heslo
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Posledná pripomienka: nastavte si účet
 subscriptionAccountReminderSecond-title = Víta vás { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = Pred niekoľkými dňami ste si vytvorili { -product-firefox-account(case: "acc", capitalization: "lower") }, no nikdy ste ho neoverili. Dúfame, že dokončíte nastavenie svojho účtu, aby ste mohli používať svoje nové predplatné.
-subscriptionAccountReminderSecond-content-select = Ak chcete nastaviť nové heslo a dokončiť overenie účtu, kliknite na tlačidlo “Vytvoriť heslo”.
 subscriptionAccountReminderSecond-action = Vytvoriť heslo
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -670,7 +661,6 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Potvrdiť e-mailovú adresu
 verificationReminderSecond-subject = Posledná pripomienka: aktivujte svoj účet
 verificationReminderSecond-title = Ste tu ešte?
-verificationReminderSecond-description = Takmer pred týždňom ste si vytvorili { -product-firefox-account(case: "acc", capitalization: "lower") }, ale zatiaľ ste ho nepotvrdili. Bojíme sa o vás.
 verificationReminderSecond-sub-description = Potvrďte túto e-mailovú adresu a aktivujte svoj účet.
 verificationReminderSecond-action = Potvrdiť e-mailovú adresu
 verify-title = Aktivujte si celú rodinu produktov { -brand-firefox }u
@@ -690,25 +680,12 @@ verifyLogin-action = Potvrdiť prihlásenie
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Prihlasovací kód pre { $serviceName }
 verifyLoginCode-title = Spoznávate toto prihlásenie?
-verifyLoginCode-prompt = Ak áno, tu je overovací kód:
 verifyLoginCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
-verifyPrimary-title = Overiť hlavnú e-mailovú adresu
 verifyPrimary-description = Požiadavka na zmenu v účte prišla z nasledovného zariadenia:
 verifyPrimary-subject = Potvrdenie hlavnej e-mailovej adresy
-verifyPrimary-action = Overiť e-mailovú adresu
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Po overení budú k dispozícii zmeny v účte, napríklad pridanie alternatívnej e-mailovej adresy.
 verifySecondaryCode-subject = Potvrdenie alternatívnej e-mailovej adresy
-verifySecondaryCode-title = Overenie alternatívnej e-mailovej adresy
-verifySecondaryCode-action = Overiť e-mailovú adresu
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho { -product-firefox-account(case: "gen", capitalization: "lower") }:
-verifySecondaryCode-prompt = Použite tento overovací kód:
-verifySecondaryCode-expiry-notice = Jeho platnosť vyprší po 5 minútach. Po overení začnete na túto e-mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject = Overovací kód: { $code }
 verifyShortCode-title = Prihlasujete sa naozaj vy?
-verifyShortCode-prompt = Ak áno, použite tento overovací kód vo svojom registračnom formulári:
 verifyShortCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
