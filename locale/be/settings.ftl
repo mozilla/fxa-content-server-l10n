@@ -284,6 +284,7 @@ delete-account-header =
     .title = Выдаліць уліковы запіс
 delete-account-step-1-2 = Крок 1 з 2
 delete-account-step-2-2 = Крок 2 з 2
+delete-account-confirm-title-2 = Вы падключылі свой { -product-firefox-account } да прадуктаў { -brand-mozilla }, якія забяспечваюць вашу бяспеку і прадукцыйнасць у Інтэрнэце:
 delete-account-acknowledge = Калі ласка, пацвердзіце, што пры выдаленні ўліковага запісу:
 delete-account-chk-box-2 =
     .label = Вы можаце страціць захаваную інфармацыю і функцыі ў прадуктах { -brand-mozilla }
@@ -308,6 +309,8 @@ display-name-input =
     .label = Увядзіце бачнае імя
 submit-display-name = Захаваць
 cancel-display-name = Скасаваць
+display-name-update-error-2 = Узнікла праблема з абнаўленнем бачнага імені
+display-name-success-alert-2 = Бачнае імя абноўлена
 
 ##
 
@@ -323,6 +326,7 @@ recovery-key-page-title =
     .title = Ключ аднаўлення
 recovery-key-step-1 = Крок 1 з 2
 recovery-key-step-2 = Крок 2 з 2
+recovery-key-success-alert-2 = Ключ аднаўлення створаны
 
 ## Add secondary email page
 
@@ -337,9 +341,21 @@ add-secondary-email-save-button = Захаваць
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Крок 2 з 2
+verify-secondary-email-error-3 = Узнікла праблема пры адпраўцы кода пацвярджэння
 verify-secondary-email-page-title =
     .title = Дадатковая пошта
+verify-secondary-email-verification-code-2 =
+    .label = Увядзіце код пацверджання
 verify-secondary-email-cancel-button = Скасаваць
+verify-secondary-email-verify-button-2 = Пацвердзіць
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Калі ласка, увядзіце код пацвярджэння, адпраўлены на адрас <strong>{ $email }</strong> на працягу 5 хвілін.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } паспяхова дададзены
 
 ##
 
@@ -357,6 +373,7 @@ tfa-button-cancel = Скасаваць
 tfa-button-finish = Гатова
 tfa-incorrect-totp = Няправільны код двухэтапнай аўтарызацыі
 tfa-cannot-retrieve-code = Узнікла праблема пры атрыманні вашага коду.
+tfa-cannot-verify-code-3 = Узнікла праблема пры пацверджанні вашага кода аднаўлення
 tfa-incorrect-recovery-code = Няправільны код аднаўлення
 tfa-enabled = Двухэтапная аўтарызацыя ўключана
 # This is the image alt text for a QR code.
@@ -402,7 +419,9 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Створаны { $date }
+security-not-set = Не ўстаноўлены
 security-action-create = Стварыць
+security-set-password = Усталюйце пароль для сінхранізацыі і выкарыстання пэўных функцый бяспекі ўліковага запісу.
 
 ## Switch component
 
@@ -429,20 +448,32 @@ rk-enabled = Уключаны
 rk-not-set = Не ўстаноўлены
 rk-action-create = Стварыць
 rk-action-remove = Выдаліць
+rk-key-removed-2 = Ключ аднаўлення ўліковага запісу выдалены
 rk-refresh-key = Абнавіць ключ аднаўлення
 rk-content-explain = Аднавіце сваю інфармацыі, калі забудзеце пароль.
+rk-cannot-verify-session-4 = На жаль, узнікла праблема з пацвярджэннем сеансу
 rk-remove-modal-heading = Выдаліць ключ аднаўлення?
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Дадатковая пошта
     .header = Дадатковая пошта
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } цяпер ваш асноўны адрас электроннай пошты
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } паспяхова выдалены
+se-verify-session-error-3 = На жаль, узнікла праблема з пацвярджэннем сеансу
 # Button to remove the secondary email
 se-remove-email =
     .title = Выдаліць электронную пошту
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Абнавіць электронную пошту
+se-unverified-2 = непацверджаны
 # Button to make secondary email the primary
 se-make-primary = Зрабіць асноўным
 # Default value for the secondary email
@@ -454,14 +485,17 @@ se-secondary-email-none = Няма
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двухэтапная аўтарызацыя
+tfa-row-disabled-2 = Двухэтапная аўтарызацыя адключана
 tfa-row-enabled = Уключана
 tfa-row-not-set = Не ўстаноўлена
 tfa-row-action-add = Дадаць
 tfa-row-action-disable = Адключыць
 tfa-row-button-refresh =
     .title = Абнавіць двухэтапную аўтарызацыю
+tfa-row-cannot-verify-session-4 = На жаль, узнікла праблема з пацвярджэннем сеансу
 tfa-row-disable-modal-heading = Адключыць двухэтапную аўтарызацыю?
 tfa-row-disable-modal-confirm = Адключыць
+tfa-row-cannot-disable-2 = Немагчыма адключыць двухэтапную аўтарызацыю
 tfa-row-change-modal-heading = Змяніць коды аднаўлення?
 tfa-row-change-modal-confirm = Змяніць
 tfa-row-change-modal-explain = Вы не зможаце адмяніць гэта дзеянне.
@@ -470,7 +504,16 @@ tfa-row-change-modal-explain = Вы не зможаце адмяніць гэт�
 
 auth-error-102 = Невядомы ўліковы запіс
 auth-error-103 = Няправільны пароль
+auth-error-105-2 = Нядзейсны код пацверджання
 auth-error-110 = Нядзейсны токен
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Вы зрабілі дужа шмат спробаў. Паспрабуйце зноў праз { $retryAfter }.
 auth-error-138-2 = Непацверджаны сеанс
 auth-error-139 = Другі адрас электроннай пошты мусіць адрознівацца ад асноўнага
 auth-error-155 = TOTP-токен не знойдзены
