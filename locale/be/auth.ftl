@@ -269,6 +269,19 @@ subscriptionFirstInvoiceDiscount-content-charge = Спагнана { $invoiceTot
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Наступны рахунак-фактура: { $nextInvoiceDateOnly }
 subscriptionPaymentExpired-title-1 = Тэрмін дзеяння вашай крэдытнай карты скончыўся або хутка скончыцца
+subscriptionRenewalReminder-content-closing = З павагай,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Каманда { $productName }
+subscriptionsPaymentExpired-subject-1 = Тэрмін дзеяння крэдытнай карты для вашых падпісак скончыўся або хутка скончыцца
+subscriptionsPaymentExpired-title-1 = Тэрмін дзеяння вашай крэдытнай карты скончыўся або хутка скончыцца
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Плацеж { $productName } атрыманы
+subscriptionSubsequentInvoice-title = Дзякуй за падпіску!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Мы атрымалі ваш апошні плацеж за { $productName }.
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionSubsequentInvoice-content-invoice-number = Нумар рахунка-фактуры: <b>{ $invoiceNumber }</b>
@@ -320,15 +333,21 @@ subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Аднараз
 unblockCode-subject = Код аўтарызацыі ўліковага запісу
 unblockCode-title = Гэта вы ўваходзіце?
 unblockCode-prompt = Калі так, вось код аўтарызацыі, які вам патрэбен:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Калі так, вось код аўтарызацыі, які вам патрэбен: { $unblockCode }
+unblockCode-report = Калі не, дапамажыце нам стрымліваць зламыснікаў і <a data-l10n-name="reportSignInLink">паведаміце нам аб гэтым.</a>
 unblockCode-report-plaintext = Калі не, дапамажыце нам стрымліваць зламыснікаў і паведамце нам аб гэтым.
 verificationReminderFirst-subject = Напамін: Скончыце стварэнне ўліковага запісу
 verificationReminderFirst-title = Сардэчна запрашаем у сям’ю { -brand-firefox }
 verificationReminderFirst-description = Некалькі дзён таму вы стварылі { -product-firefox-account }, але так і не пацвердзілі яго.
 verificationReminderFirst-sub-description = Пацвердзіце зараз і атрымайце тэхналогію, якая абараняе і змагаецца за вашу прыватнасць, узбройвае вас практычнымі ведамі і павагай, якой вы вартыя.
 confirm-email = Пацвердзіце электронную пошту
+confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Пацвердзіце электронную пошту
 verificationReminderSecond-subject = Апошні напамін: Актывуйце свой уліковы запіс
 verificationReminderSecond-title = Усё яшчэ тут?
+verificationReminderSecond-description-2 = Амаль тыдзень таму вы стварылі { -product-firefox-account }, але так і не пацвердзілі яго. Мы хвалюемся за вас.
 verificationReminderSecond-sub-description = Пацвердзіце гэты адрас электроннай пошты, каб актываваць свой уліковы запіс, і дайце нам знаць, што вы ў парадку.
 verificationReminderSecond-action = Пацвердзіце электронную пошту
 verify-title = Актываваць сямейства прадуктаў { -brand-firefox }
@@ -336,12 +355,30 @@ verify-description-plaintext = Пацвердзіце свой уліковы з
 verify-description = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі, пачынаючы з:
 verify-subject = Скончыце стварэнне ўліковага запісу
 verify-action = Пацвердзіце электронную пошту
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title = Новы ўваход у { $clientName }
 verifyLogin-description = Для дадатковай бяспекі, калі ласка, пацвердзіце гэты ўваход з наступнай прылады:
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-subject = Пацвердзіце новы ўваход у { $clientName }
 verifyLogin-action = Пацвердзіць уваход
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line = Код уваходу для { $serviceName }
 verifyLoginCode-title = Гэта вы ўваходзіце?
+verifyLoginCode-prompt-2 = Калі так, вось код пацвярджэння:
 verifyLoginCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
+verifyPrimary-title-2 = Пацвердзіце асноўную электронную пошту
 verifyPrimary-description = Запыт на змену ўліковага запісу быў зроблены з наступнай прылады:
 verifyPrimary-subject = Пацвердзіце асноўную электронную пошту
+verifyPrimary-action-2 = Пацвердзіце электронную пошту
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Пасля пацверджання з гэтай прылады стануць магчымымі змены ўліковага запісу, такія як даданне другога адрасу электроннай пошты.
 verifySecondaryCode-subject = Пацвердзіце альтэрнатыўную электронную пошту
+verifySecondaryCode-title-2 = Пацвердзіце альтэрнатыўную электронную пошту
+verifySecondaryCode-action-2 = Пацвердзіце электронную пошту
+verifySecondaryCode-prompt-2 = Выкарыстайце гэты код пацверджання:
+verifySecondaryCode-expiry-notice-2 = Яго тэрмін дзеяння мінае праз 5 хвілін. Пасля пацверджання, гэты адрас пачне атрымліваць абвесткі бяспекі і пацвярджэнні.
 verifyShortCode-title = Гэта вы рэгіструецеся?
 verifyShortCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
