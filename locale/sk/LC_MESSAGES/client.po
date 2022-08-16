@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-16 15:50+0000\n"
+"PO-Revision-Date: 2022-08-16 15:54+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1028,7 +1028,7 @@ msgstr "Potvrdiť toto prihlásenie"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Potvrdzovací odkaz sme odoslali na e-mailovú adresu %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1093,7 +1093,7 @@ msgstr "Účet Firefox je pripojený"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "E-mail potvrdený"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1153,6 +1153,9 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Zadajte heslo <span class=\"card-subheader\" id=\"subheader\">pre svoj účet Firefox</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1160,7 +1163,7 @@ msgstr "Heslo"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Pokračovaním vyjadrujete súhlas s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">podmienkami služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">zásadami ochrany súkromia</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1393,7 +1396,7 @@ msgstr "Názov udalosti"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Potvrdené"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1431,6 +1434,9 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"Pokračovaním súhlasíte s:<br />\n"
+"<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Zmluvné podmienky</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Oznámenie o ochrane osobných údajov</a> služby Pocket<br />\n"
+"<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Zmluvné podmienky</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Oznámenie o ochrane osobných údajov</a> prehliadača Firefox."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1458,11 +1464,11 @@ msgstr "Náš tím bol informovaný. Podobné hlásenia nám pomáhajú odráža
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Zadajte potvrdzovací kód <span class=\"card-subheader\">pre svoj účet Firefox</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e-mailovú adresu %(email)s."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1524,6 +1530,9 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"Pokračovaním súhlasíte s:<br />\n"
+"<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Zmluvné podmienky</a> a <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Oznámenie o ochrane osobných údajov</a> služby Pocket<br />\n"
+"<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Zmluvné podmienky</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Oznámenie o ochrane osobných údajov</a> prehliadača Firefox."
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1664,7 +1673,7 @@ msgstr "Možno neskôr"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "V priebehu 5 minút zadajte potvrdzovací kód, ktorý bol odoslaný na e-mailovú adresu %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
