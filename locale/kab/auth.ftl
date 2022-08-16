@@ -150,6 +150,7 @@ view-invoice-plaintext = Wali tafaṭurt-ik·im: { $invoiceLink }
 cadReminderFirst-action = Mtawi ibenk-nniḍen
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-action = Mtawi ibenk-nniḍen
+cadReminderSecond-description-sync = Mtawi ticraḍ n yisebtar-inek·inem, awalen-ik·im uffiren, accaren yeldin d wugar — s kra n wanda i tseqdaceḍ { -brand-firefox }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Ansuf ɣer { $productName }
@@ -446,6 +447,9 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = Asemday-arnaw: { $invoi
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Tuliḍ ɣer { $productName }
 subscriptionUpgrade-title = Tanemmirt ɣef uleqqem!
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Ma yella useɣẓan amaynut i tebɣiḍ ad tesbeddeḍ akken ad tesqedceḍ { $productName }, ad ak·akem-id-yaweḍ yimayl iεezlen s yiwellihen ara d-tessadreḍ.
 subscriptionUpgrade-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
 unblockCode-subject = Tangalt n tsiregt n umiḍan
 unblockCode-title = D kečč i d-yessutren tuqqna agi?
@@ -484,11 +488,17 @@ verifyLogin-action = Sentem tuqqna
 verifyLoginCode-subject-line = Tangalt n tuqqna i { $serviceName }
 verifyLoginCode-title = D kečč i d-yessutren tuqqna agi?
 verifyLoginCode-expiry-notice = Ad immet deg 5 n tseddatin.
+verifyPrimary-title-2 = Sentem tansa tagejdant
 verifyPrimary-description = Asuter i usnifel n umiḍan tettwag seg ibenk agi:
 verifyPrimary-subject = Sentem tansa tagejdant
+verifyPrimary-action-2 = Sentem imayl
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Sentem tansa tis snat
+verifySecondaryCode-title-2 = Sentem tansa tis snat
+verifySecondaryCode-action-2 = Sentem imayl
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n { -product-firefox-account }:
+verifySecondaryCode-prompt-2 = Seqdec tangalt-a n usentem:
 verifyShortCode-title = D kečč i d-yessutren ajerred-agi?
 verifyShortCode-expiry-notice = Ad immet deg 5 n tseddatin.
