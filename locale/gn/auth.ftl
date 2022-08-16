@@ -611,6 +611,7 @@ verifyPrimary-description = Ojejerure oñemoambue hag̃ua mba’ete amo mba’e�
 verifyPrimary-subject = Emoneĩ ñanduti veve tuichavéva
 verifyPrimary-action-2 = Ñanduti veve ñemoneĩ:
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Oñemoneĩvo, umi mba’ete ñemoambue ojuajukuaáva ñanduti veve mokõihávare ejapokuaa ko mba’e’oka guive.
 verifySecondaryCode-subject = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-title-2 = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
