@@ -228,6 +228,7 @@ modal-cancel-button = Sefsex
 mvs-verify-your-email-2 = Sentem imayl-inek·inem
 mvs-enter-verification-code-2 = Sekcem tangalt-ik·im n usentem
 msv-cancel-button = Sefsex
+msv-submit-button-2 = Sentem
 
 ## Settings Nav
 
