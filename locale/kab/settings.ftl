@@ -104,12 +104,21 @@ cs-cannot-disconnect = Ur yettwaf ara umsaɣ, d awezɣi ad teffɣeḍ seg tuqqna
 # Variables:
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
-cs-logged-out = Tuffɣa n { $service }.
+cs-logged-out-2 = Tuffɣa n { $service }
 cs-refresh-button =
     .title = Smiren ibenan yeqqnen
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Iferdisen ttwakksen neɣ d usligen?
 cs-disconnect-sync-heading = Ffeɣ seg Syn
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+cs-disconnect-sync-content-2 = Isefka-ik n tunigin ad qqimen ɣef { $device }, acu kan ur ttemtawin ara akked umiḍan-ik.
+cs-disconnect-sync-reason-2 = D acu-tt tmentilt tagejdant n tuffɣa seg { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -157,7 +166,7 @@ dc-subheader = Allel i usnerni { -product-firefox-accounts }
 dc-subheader-content = Sireg { -product-firefox-accounts } i tuzna n yisefka itiknikanen d umyigew ɣer { -brand-mozilla }.
 dc-opt-out-success = Asensi yedda akken iwata. { -product-firefox-accounts } ur ttaznen ara isefka itiknikanen d umyigew ɣer { -brand-mozilla }.
 dc-opt-in-success = Tanemmirt! Beṭṭu n yisefka-a ad aɣ-ɛawnen deg usnerni n { -product-firefox-accounts }.
-dc-opt-in-out-error = Nesḥassef, yella wugur deg usali n yismenyafen-ik•im n ulqaḍ n yisefka.
+dc-opt-in-out-error-2 = Nesḥassef, yella wugur deg usali n yismenyafen-ik•im n ulqaḍ n yisefka
 dc-learn-more = Issin ugar
 
 # DropDownAvatarMenu component
@@ -168,7 +177,7 @@ drop-down-menu-title = Umuɣ { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Yeqqen am</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Ffeɣ
-drop-down-menu-sign-out-error = Suref-aɣ, yella-d wugur mi tetteffɣeḍ seg tuqqna.
+drop-down-menu-sign-out-error-2 = Suref-aɣ, yella-d wugur mi tetteffɣeḍ seg tuqqna
 
 ## Flow Container
 
@@ -216,14 +225,9 @@ modal-cancel-button = Sefsex
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Senqed imayl-ik·im
-mvs-enter-verification-code = Sekcem tangalt-ik•im n usenqed
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Ttxil sekcem tangalt n usenqed i yettwaznen ɣer <email>{ $email }</email> deg 5 n tesdatin.
+mvs-verify-your-email-2 = Sentem imayl-inek·inem
+mvs-enter-verification-code-2 = Sekcem tangalt-ik·im n usentem
 msv-cancel-button = Sefsex
-msv-submit-button = Senqed
 
 ## Settings Nav
 
@@ -237,12 +241,10 @@ nav-email-comm = Taywalt s yimayl
 
 ## Two Step Authentication - replace recovery code
 
-tfa-replace-code-error = Yeḍra-d wugur deg usemselsi n tengalin n tririt.
 tfa-replace-code-success =
     Tingalin timaynutin ttwarnant. Sekles tingalin-a n useqdec asuf
     deg wadeg aɣellsan — ad tent-teḥwiǧeḍ i wakken ad tkecmeḍ ɣer umiḍan-ik·im ma yella ulac
     ibenk-ik·im aziraz.
-tfa-replace-code-success-alert = Tingalin n tririt n umiḍan ttwaleqqmen.
 tfa-replace-code-1-2 = Asurif 1 seg 2
 tfa-replace-code-2-2 = Asurif 2 seg 2
 
@@ -272,9 +274,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Ur izmir ara ad iwennez takamiṛat
 avatar-page-new-avatar =
     .alt = tugna n umaɣnu tamaynut
-avatar-page-file-upload-error-2 = Yella-d wugur deg usali n tugna n umaɣnu-inek·inem.
-avatar-page-delete-error-2 = Yella-d wugur deg tukksa n tugna n umaɣnu-inek·inem.
-avatar-page-image-too-large-error = Teɣzi n ufaylu n tugniwin meqqer nezzeh i usali.
 
 ##
 
@@ -283,14 +282,7 @@ avatar-page-image-too-large-error = Teɣzi n ufaylu n tugniwin meqqer nezzeh i u
 
 pw-change-header =
     .title = Beddel awal uffir
-pw-change-stay-safe = Qqim d aɣellsan — ur ttales ara aseqdec n wawalen uffiren. Awal-ik·im uffir:
-pw-change-least-8-chars = Ilaq ad yesεu ma drus 8 yisekkilen
-pw-change-not-contain-email = Ur ilaq ara ad yili d tansa-inek·inem n yimayl
 pw-change-must-match = Awal uffir amaynut yemṣada d usentem
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Ur ilaq ara ad yili deg <linkExternal>tebdart-a n wawalen uffiren
-    yettwassnen</linkExternal>
 pw-change-cancel-button = Sefsex
 pw-change-save-button = Sekles
 pw-change-forgot-password-link = Tettuḍ awal uffir?
@@ -300,7 +292,6 @@ pw-change-new-password =
     .label = Sekcem awal uffir amaynut
 pw-change-confirm-password =
     .label = Sentem awal uffir amaynut
-pw-change-success-alert = Awal uffir yettuleqqem.
 
 ##
 
@@ -309,7 +300,6 @@ pw-change-success-alert = Awal uffir yettuleqqem.
 
 pw-create-header =
     .title = Rnu awal uffir
-pw-create-success-alert = Awal uffir yettusbadun.
 
 ##
 
@@ -347,8 +337,6 @@ display-name-input =
     .label = Sekcem isem yettwaskanen
 submit-display-name = Sekles
 cancel-display-name = Sefsex
-display-name-update-error = Yella-d wugur deg uleqqem n yisem-ik·im yettwaskanen.
-display-name-success-alert = Yettwaleqqem yisem yettwaskanen.
 
 ##
 
@@ -365,12 +353,10 @@ recovery-key-page-title =
     .title = Tasarut n tririt
 recovery-key-step-1 = Asurif 1 seg 2
 recovery-key-step-2 = Asurif 2 seg 2
-recovery-key-success-alert = Tasarut n tririt tettwarna.
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Asurif 1 seg 2
-add-secondary-email-error = Yella-d wugur deg tmerna n yimayl-a.
 add-secondary-email-page-title =
     .title = Imayl wis sin
 add-secondary-email-enter-address =
@@ -381,21 +367,9 @@ add-secondary-email-save-button = Sekles
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Asurif 2 seg 2
-verify-secondary-email-error = Yella-d wugur deg tuzzna n tengalt n usenqed.
 verify-secondary-email-page-title =
     .title = Imayl wis sin
-verify-secondary-email-verification-code =
-    .label = Sekcem tangalt-ik•im n usenqed
 verify-secondary-email-cancel-button = Sefsex
-verify-secondary-email-verify-button = Senqed
-# This string is an instruction in a form.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Ttxil sekcem tangalt n usenqed i yettwaznen ɣer <strong>{ $email }</strong> deg 5 n tesdatin.
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } yettwarna akken ilaq.
 
 ##
 
@@ -413,7 +387,6 @@ tfa-button-cancel = Sefsex
 tfa-button-finish = Fakk
 tfa-incorrect-totp = Tangalt n usesteb s snat n tarrayin d tarameɣtut
 tfa-cannot-retrieve-code = Yella wugur deg tririt n tengalt-ik·im.
-tfa-cannot-verify-code = Yella-d wugur deg usenqed n tengalt-ik•im n tririt.
 tfa-incorrect-recovery-code = Tangalt n tririt d arameɣtu
 tfa-enabled = Asesteb s snat n tarrayin yermed
 tfa-scan-this-code =
@@ -498,47 +471,27 @@ rk-not-set = Ur ittusbadu ara
 rk-action-create = Rnu
 rk-action-remove = Kkes
 rk-cannot-refresh = Suref-aɣ, yella-d wugur deg usmiren n tsarut n tririt.
-rk-key-removed = Tasarut n tririt n umiḍan yettwakkes.
 rk-cannot-remove-key = Tasarut n tririt n umiḍan ulamek ad tettwakkes.
 rk-refresh-key = Smiren tasarut n tririt
 rk-content-explain = Err-d tilɣa-inek•inem mi tettuḍ awal-ik•im uffir.
 rk-content-reset-data = Ayɣer awennez n wawal-iw uffir igellu-d s uwennez n yisefka-w?
-rk-cannot-verify-session-2 = Suref-aɣ, yella-d wugur deg usenqed n tɣimit-ik•im.
 rk-remove-modal-heading = Tukksa n tsarut n tririt?
 rk-remove-modal-content =
     Ma yella twennzeḍ awal-ik·im uffir, ur tettizmireḍ ara
     ad tesqedceḍ tasarut-ik·im n tririt i wakken ad tkecmeḍ ɣer yisefka-inek·inem. Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 rk-refresh-error = Suref-aɣ, yella-d wugur deg usmiren n tsarut n tririt.
-rk-remove-error = Tasarut n tririt n umiḍan ulamek ad tettwakkes.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Imayl wis sin
     .header = Imayl wis sin
 se-cannot-refresh-email = Suref-aɣ, yella-d wugur deg usmiren n yimayl-nni.
-se-cannot-resend-code = Suref-aɣ, yella-d wugur deg wallus n tuzzna n tengalt n usenqed.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } mačči d imayl-ik•im amezwaru.
-se-set-primary-error = Suref-aɣ, yella-d wugur deg ubeddel n yimayl-ik•im amezwaru.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } yettwakkes akken ilaq.
-se-delete-email-error = Suref-aɣ, yella-d wugur deg tukksa n yimayl.
-se-verify-session = Tesriḍ ad tesneqdeḍ tiɣimit-a-inek•inem akken ad teslekmeḍ tigawt-a.
-se-verify-session-error = Suref-aɣ, yella-d wugur deg usenqed n tɣimit-ik•im.
 # Button to remove the secondary email
 se-remove-email =
     .title = Kkes imayl
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Smiren imayl
-se-unverified = Ur yettwasenqed ara
-se-resend-code =
-    Ilaq usenqed. <button> Yules tuzzna i tengalt n usenqed </button>
-    ma mačči deg tebwaṭ-ik•im neɣ deg ukaram n yispamen i yella.
 # Button to make secondary email the primary
 se-make-primary = Err tansa-a d tamezwarut
 se-default-content = Kcem ɣer umiḍan-ik•im ma ur tezmireḍ ara ad teqqneḍ ɣer yimayl-ik•im amezwaru.
@@ -554,7 +507,6 @@ se-secondary-email-none = Ula yiwen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Asesteb s snat n tarrayin
-tfa-row-disabled = Asesteb s snat n tarrayin yensa.
 tfa-row-enabled = Yettwarmed
 tfa-row-not-set = Ur yettusbadu ara
 tfa-row-action-add = Rnu
@@ -567,13 +519,11 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Ur ttaǧǧa yiwen ad yeqqen, ssuter 
     tangalt tasuft i tzemreḍ ad tesqedceḍ kečč/kemm kan.
-tfa-row-cannot-verify-session-2 = Suref-aɣ, yella-d wugur deg usenqed n tɣimit-ik•im.
 tfa-row-disable-modal-heading = Ad tessenseḍ asesteb s snat n tarrayin?
 tfa-row-disable-modal-confirm = Sens
 tfa-row-disable-modal-explain =
     Ur tzemmreḍ ara aṭas tesfesxeḍ tigawt-a. Daɣen
     tesɛiḍ taxtirt n <linkExternal> usenker n tengalin-ik•im n tririt </linkExternal>.
-tfa-row-cannot-disable = Asesteb s snat n tarrayin ulamek ad yens.
 tfa-row-change-modal-heading = Senfel tingalin n tririt?
 tfa-row-change-modal-confirm = Senfel
 tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
@@ -582,7 +532,6 @@ tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 
 auth-error-102 = Amiḍan arussin
 auth-error-103 = Awal uffir d arameɣtu
-auth-error-105 = Tangalt n usentem d tarameɣtut
 auth-error-110 = Ajuṭun d arameɣtu
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -592,8 +541,6 @@ auth-error-110 = Ajuṭun d arameɣtu
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Tɛerḍeḍ aṭas n tikkal. Ttxil-k·m ɛreḍ tikkelt-nniḍen { $retryAfter }.
-auth-error-138 = Ur tettwasenqed ara tɣimit
 auth-error-139 = Imayl wis sin ilaq ad imgarad d imayl inek n umiḍan
 auth-error-155 = Ulac ajiṭun TOTP
-auth-error-183 = Tangalt n usentem mačči d tameɣtut neɣ temmut
 auth-error-1008 = Awal-ik•im uffir amaynut ilaq ad yili akken-nniḍen
