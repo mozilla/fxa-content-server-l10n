@@ -46,6 +46,8 @@ privacy = Паведамленне аб прыватнасці
 
 ## Subscription titles
 
+subscription-success-title = Пацверджанне падпіскі
+subscription-iapsubscribed-title = Ужо падпісаны
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -208,10 +210,16 @@ sub-item-stay-sub = Пакінуць падпіску
 
 ## Subscription iap item
 
+sub-iap-item-manage-button = Кіраваць
+account-activated = Ваш уліковы запіс актываваны, <userEl/>
 
 ## Subscription route index
 
 sub-route-idx-contact = Звязацца з падтрымкай
+sub-route-idx-cancel-msg-title = Нам шкада, што вы сыходзіце
+sub-customer-error =
+    .title = Праблема з загрузкай кліента
+pay-update-manage-btn = Кіраваць
 
 ## Subscription create
 
@@ -229,6 +237,13 @@ plan-details-total-label = Усяго
 
 ## Coupons
 
+coupon-submit = Прымяніць
+coupon-remove = Выдаліць
+coupon-error = Код, які вы ўвялі, несапраўдны або пратэрмінаваны.
+coupon-error-generic = Здарылася памылка пры апрацоўцы кода. Калі ласка, паспрабуйце яшчэ раз.
+coupon-error-invalid = Код, які вы ўвялі, нядзейсны.
+coupon-enter-code =
+    .placeholder = Увядзіце код
 
 ## Payment processing
 
@@ -237,11 +252,13 @@ plan-details-total-label = Усяго
 
 payment-confirmation-alert = Націсніце, каб сцягнуць
 payment-confirmation-mobile-alert = Не адкрылася праграма? <a>Націсніце тут</a>
+payment-confirmation-thanks-heading = Дзякуй!
 
 ## Payment confirmation details
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-heading-account-exists = Дзякуй, праверце сваю электронную пошту!
 
 ## $email (string) - The user's email.
 
@@ -254,3 +271,10 @@ payment-confirmation-amount = { $amount } за { $interval }
 
 ## New user email form
 
+new-user-confirm-email =
+    .label = Пацвердзіце сваю электронную пошту
+new-user-submit = Падпісацца зараз
+payment-method-header = Выберыце спосаб аплаты
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Абавязковы

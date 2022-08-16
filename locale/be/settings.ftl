@@ -192,7 +192,14 @@ modal-cancel-button = Скасаваць
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Пацвердзіце сваю электронную пошту
+mvs-enter-verification-code-2 = Увядзіце код пацверджання
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Калі ласка, увядзіце код пацвярджэння, адпраўлены на адрас <email>{ $email }</email> на працягу 5 хвілін.
 msv-cancel-button = Скасаваць
+msv-submit-button-2 = Сцвердзіць
 
 ## Settings Nav
 
@@ -206,6 +213,7 @@ nav-email-comm = Зносіны па электроннай пошце
 
 ## Two Step Authentication - replace recovery code
 
+tfa-replace-code-error-2 = Узнікла праблема пры замене вашых кодаў аднаўлення
 tfa-replace-code-1-2 = Крок 1 з 2
 tfa-replace-code-2-2 = Крок 2 з 2
 
