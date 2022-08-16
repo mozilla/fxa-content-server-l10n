@@ -196,6 +196,7 @@ downloadSubscription-content-2 = Ñañepyrũkatu jaipuru opaite tembiapoite oik�
 downloadSubscription-link-action-2 = Jeguata Ñepyrũ
 fraudulentAccountDeletion-subject = Nde { -product-firefox-account } oñemboguéma
 fraudulentAccountDeletion-title = Ne mba’ete oñemboguéma
+fraudulentAccountDeletion-contact = Eporanduséramo, eñe’ẽ ore <a data-l10n-name="mozillaSupportUrl">aty pytyvõha ndive</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore aty pytyvõha ndive: { $mozillaSupportUrl }
@@ -286,8 +287,10 @@ postRemoveTwoStepAuthentication-description = Embogue porã ñemoneĩ mokõi jey
 postRemoveTwoStepAuthentication-description-plaintext = Embogue porã ñemoneĩ mokõi jeyguáva { -product-firefox-account } pegua. Ndojejeruremo’ãvéima tekorosã ayvu emoñepyrũjeývo tembiapo.
 postRemoveTwoStepAuthentication-action = Mba’ete ñangareko
 postRemoveTwoStepAuthentication-not-required = Ayvu rekorosã natekotevẽitama eñepyrũjeývo tembiapo.
+postVerify-sub-title-2 = { -product-firefox-account } moneĩmbyre. Ejapopapotaitéma.
 postVerify-title = ¡Embojuehe ko’ág̃a ne mba’e’oka!
 postVerify-description = Sync oreko ñemíme nde techaukaha, ñe’ẽñemi ha ambue { -brand-firefox } mba’ekuaarã ojuehegua opaite ne mba’e’okápe.
+postVerify-subject-2 = Mba’ete moneĩmbyre. Ko’ág̃a embojuehe ambue mba’e’oka hu’ã hag̃ua ñembohekopyahu
 postVerify-setup = Emboheko mba’e’oka upeigua
 postVerify-action = Emboheko mba’e’oka upeigua
 # Variables:
@@ -295,6 +298,9 @@ postVerify-action = Emboheko mba’e’oka upeigua
 postVerify-support = ¿Eporandusépa? Eike { $supportUrl }-pe
 postVerifySecondary-subject = Ñanduti veve mokõiguáva mbojuajupyre
 postVerifySecondary-title = Ñanduti veve mokõiguáva mbojuajupyre
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Emoneĩ hekopete { $secondaryEmail } ñanduti veve mokõihávarõ ne { -product-firefox-account } pegua. Marandu’i tekorosã ha ñemoneĩrã tembiapo ñepyrũgua ko’ág̃a og̃uahẽta mokõivéva ñanduti veve kundaharapépe.
 postVerifySecondary-action = Mba’ete ñangareko
 recovery-subject = Embojevyjey ne ñe’ẽñemi
 recovery-title = ¿Eguerujeýke ne ñe’ẽñemi?
