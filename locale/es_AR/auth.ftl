@@ -22,7 +22,6 @@
 ## Non-email strings
 
 session-verify-send-push-title = ¿Iniciar sesión en { -product-firefox-accounts }?
-session-verify-send-push-body-2 = { "" }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
