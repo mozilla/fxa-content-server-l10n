@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-12 17:07+0000\n"
+"PO-Revision-Date: 2022-08-17 11:14+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1059,7 +1059,7 @@ msgstr "Κάντε κλικ στο σύνδεσμο που απεστάλη στ
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Εισαγωγή κωδικού επιβεβαίωσης"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
@@ -1194,7 +1194,7 @@ msgstr "Συνέχεια στο <div class=\"graphic %(serviceLogo)s\">%(service
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Εγγραφή ή σύνδεση"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1498,7 +1498,7 @@ msgstr "Εισαγάγετε τον κωδικό ταυτοποίησης"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Ορισμός κωδικού πρόσβασης"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -2025,7 +2025,7 @@ msgstr "Κωδικός QR"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
-msgstr ""
+msgstr "Για να κάνετε λήψη του Firefox στην κινητή συσκευή σας, στρέψτε την κάμερα της συσκευής σε αυτόν τον κωδικό για σάρωση."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
