@@ -214,7 +214,12 @@ modal-cancel-button = 取消
 
 ## Modal Verify Session
 
-mvs-enter-verification-code-2 = 请输入确认码
+mvs-verify-your-email-2 = 确认您的邮箱地址
+mvs-enter-verification-code-2 = 请输入您的确认码
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = 请在 5 分钟内输入发送到 <email>{ $email }</email> 的确认码。
 msv-cancel-button = 取消
 msv-submit-button-2 = 确认
 
@@ -373,6 +378,8 @@ add-secondary-email-step-2 = 步骤（2 / 2）
 verify-secondary-email-error-3 = 发送确认码时出现问题
 verify-secondary-email-page-title =
     .title = 备用邮箱地址
+verify-secondary-email-verification-code-2 =
+    .label = 请输入您的确认码
 verify-secondary-email-cancel-button = 取消
 verify-secondary-email-verify-button-2 = 确认
 # This string is an instruction in a form.
@@ -482,6 +489,7 @@ rk-cannot-remove-key = 无法删除您的账户救援密钥。
 rk-refresh-key = 刷新救援密钥
 rk-content-explain = 当您忘记密码时恢复数据。
 rk-content-reset-data = 为什么重置密码时会重置我的数据？
+rk-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 rk-remove-modal-heading = 要移除救援密钥吗？
 rk-remove-modal-content = 一旦重置密码，就无法再使用救援密钥访问您的数据。此操作不可撤销。
 rk-refresh-error = 抱歉，刷新救援密钥时出现问题。
@@ -492,6 +500,7 @@ rk-remove-error-2 = 无法删除您的账户救援密钥
 se-heading = 备用邮箱
     .header = 备用邮箱
 se-cannot-refresh-email = 抱歉，刷新邮箱地址时出现问题。
+se-cannot-resend-code-3 = 抱歉，重新发送确认码时出现问题
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -502,6 +511,8 @@ se-set-primary-error-2 = 抱歉，更改您的主邮箱时出现问题
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } 已成功删除
 se-delete-email-error-2 = 抱歉，删除此电子邮件地址时出现问题
+se-verify-session-3 = 您需要确认当前会话才能执行此操作
+se-verify-session-error-3 = 抱歉，确认您的会话时出现问题
 # Button to remove the secondary email
 se-remove-email =
     .title = 移除邮箱地址
