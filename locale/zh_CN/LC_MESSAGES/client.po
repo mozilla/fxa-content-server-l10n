@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-17 09:39+0000\n"
+"PO-Revision-Date: 2022-08-17 09:50+0000\n"
 "Last-Translator: Yanfang Liu <yliu@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -935,7 +935,7 @@ msgstr "无法创建账户"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "您需要符合年龄要求才能创建 Firefox 账号。"
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -997,15 +997,15 @@ msgstr "登录已确认"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "验证链接已过期"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "您点击的验证邮箱链接已过期。"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "点击这里获取新的验证链接"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
@@ -1025,7 +1025,7 @@ msgstr "确认此登录"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "验证链接已发动到 %(escapedEmail)s，请注意查收 "
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1453,11 +1453,11 @@ msgstr "我们已收到您的反馈，感谢您帮助我们防范入侵者。"
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "请输入<span class=\"card-subheader\">您的 Firefox 账号</span>的验证码"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "请在 5 分钟内输入发送到 %(email)s 的验证码。"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -2004,7 +2004,7 @@ msgstr "二维码"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
-msgstr ""
+msgstr "要在您的移动设备上下载 Firefox，请使用该设备扫描二维码。"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
