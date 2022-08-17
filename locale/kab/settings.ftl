@@ -562,4 +562,5 @@ auth-error-114 = Tɛerḍeḍ aṭas n tikkal. Ttxil-k·m ɛreḍ tikkelt-nniḍ
 auth-error-138-2 = Tiɣimit ur nettwasentem ara
 auth-error-139 = Imayl wis sin ilaq ad imgarad d imayl inek n umiḍan
 auth-error-155 = Ulac ajiṭun TOTP
+auth-error-183-2 = Tangalt n usentem d tarameɣtut neɣ temmut
 auth-error-1008 = Awal-ik•im uffir amaynut ilaq ad yili akken-nniḍen

@@ -22,6 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Qqen ɣer { -product-firefox-accounts }?
+session-verify-send-push-body-2 = Sit da i wakken ad nẓer d kečč·kemm
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -150,6 +151,7 @@ view-invoice-plaintext = Wali tafaṭurt-ik·im: { $invoiceLink }
 cadReminderFirst-action = Mtawi ibenk-nniḍen
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-action = Mtawi ibenk-nniḍen
+cadReminderSecond-title-2 = Ur tettu ara amtawi!
 cadReminderSecond-description-sync = Mtawi ticraḍ n yisebtar-inek·inem, awalen-ik·im uffiren, accaren yeldin d wugar — s kra n wanda i tseqdaceḍ { -brand-firefox }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
