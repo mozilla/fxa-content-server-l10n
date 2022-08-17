@@ -262,6 +262,12 @@ modal-cancel-button = Ακύρωση
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Επιβεβαίωση email
+mvs-enter-verification-code-2 = Εισαγωγή κωδικού επιβεβαίωσης
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Παρακαλούμε εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο <email>{ $email }</email>, εντός 5 λεπτών.
 msv-cancel-button = Ακύρωση
 msv-submit-button-2 = Επιβεβαίωση
 

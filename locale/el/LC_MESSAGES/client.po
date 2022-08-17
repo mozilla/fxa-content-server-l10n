@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-17 11:14+0000\n"
+"PO-Revision-Date: 2022-08-17 12:11+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -74,7 +74,7 @@ msgstr "Τώρα μπορείτε να κάνετε αλλαγές στον λο
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Το κύριο email επιβεβαιώθηκε"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -82,7 +82,7 @@ msgstr "Οι ειδοποιήσεις λογαριασμού θα αποστέλ
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Το δευτερεύον email επιβεβαιώθηκε"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,7 +94,7 @@ msgstr "Μπορείτε τώρα να χρησιμοποιήσετε το %(ser
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Ο λογαριασμός επιβεβαιώθηκε"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -1012,7 +1012,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Κάντε κλικ εδώ για να λάβετε έναν νέο σύνδεσμο επιβεβαίωσης"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
