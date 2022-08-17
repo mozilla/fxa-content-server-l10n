@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-17 09:29+0000\n"
+"PO-Revision-Date: 2022-08-17 09:39+0000\n"
 "Last-Translator: Yanfang Liu <yliu@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1086,11 +1086,11 @@ msgstr "连接其他设备"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "Firefox account connected"
-msgstr ""
+msgstr "Firefox 账户已连接"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "已验证电子邮件"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1185,7 +1185,7 @@ msgstr "继续前往 <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "注册或登录"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1485,7 +1485,7 @@ msgstr "请输入授权码"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "创建您的密码"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1996,7 +1996,7 @@ msgstr "设置过程已终止。"
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Download Firefox on your phone or tablet"
-msgstr ""
+msgstr "在手机或平板上下载 Firefox"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
@@ -2008,7 +2008,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "或者，发送 <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">下载链接</a> 到您的手机。"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
