@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-17 11:01+0000\n"
+"PO-Revision-Date: 2022-08-17 11:07+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -1472,11 +1472,11 @@ msgstr "Us team is op ’e hichte brocht. Rapporten as dizze helpe ús ynkringer
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Fier befêstigingskoade <span class=\"card-subheader\">foar jo Firefox-account</span> yn"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Fier binnen 5 minuten de koade yn dy’t nei %(email)s is ferstjoerd."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1538,6 +1538,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"              As jo trochgean, stimme jo yn mei:<br />\n"
+"              De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tsjinstbetingsten</a> en <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacyferklearring</a> fan Pocket<br />\n"
+"              De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox\n"
+"            "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1678,7 +1683,7 @@ msgstr "Miskien letter"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Fier binnen 5 minuten de befêstigingskoade yn dy’t nei %(escapedEmail)s ferstjoerd is."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1888,7 +1893,7 @@ msgstr "Hoe âld binne jo?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:3
 msgid "You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "Jo moatte op syn minst 13 jier âld wêze om in account oan te meitsjen."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1980,7 +1985,7 @@ msgstr "Ja, apparaat goedkarre"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "As jo dit net jo wiene, <a id=\"change-password\" class=\"link-blue\">wizigje dan jo wachtwurd</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -2022,23 +2027,23 @@ msgstr "It ynstelproses is ôfbrutsen."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Download Firefox on your phone or tablet"
-msgstr ""
+msgstr "Download Firefox op jo telefoan of tablet"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
-msgstr ""
+msgstr "QR-koade"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
-msgstr ""
+msgstr "Om Firefox op jo mobile apparaat te downloaden, hâld de kamera fan it apparaat boppe dizze koade om te scannen."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "Of, stjoer josels in <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">downloadkeppeling.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
-msgstr ""
+msgstr "Ik bin ree om apparaten te syngronisearjen"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
