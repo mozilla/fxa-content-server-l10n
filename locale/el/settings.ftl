@@ -418,8 +418,14 @@ add-secondary-email-step-2 = Βήμα 2 από 2
 verify-secondary-email-error-3 = Προέκυψε πρόβλημα κατά την αποστολή του κωδικού επιβεβαίωσης
 verify-secondary-email-page-title =
     .title = Δευτερεύον email
+verify-secondary-email-verification-code-2 =
+    .label = Εισαγωγή κωδικού επιβεβαίωσης
 verify-secondary-email-cancel-button = Ακύρωση
 verify-secondary-email-verify-button-2 = Επιβεβαίωση
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Παρακαλούμε εισαγάγετε τον κωδικό επιβεβαίωσης που εστάλη στο <strong>{ $email }</strong>, εντός 5 λεπτών.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -532,6 +538,7 @@ rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του
 rk-refresh-key = Ανανέωση κλειδιού ανάκτησης
 rk-content-explain = Ανακτήστε τις πληροφορίες σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 rk-content-reset-data = Γιατί η επαναφορά του κωδικού πρόσβασης διαγράφει τα δεδομένα μου;
+rk-cannot-verify-session-4 = Δυστυχώς, προέκυψε πρόβλημα με την επιβεβαίωση της συνεδρίας σας
 rk-remove-modal-heading = Αφαίρεση κλειδιού ανάκτησης;
 rk-remove-modal-content =
     Σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας, δεν θα
