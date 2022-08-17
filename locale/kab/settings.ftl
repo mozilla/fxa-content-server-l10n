@@ -481,18 +481,32 @@ rk-remove-modal-content =
     Ma yella twennzeḍ awal-ik·im uffir, ur tettizmireḍ ara
     ad tesqedceḍ tasarut-ik·im n tririt i wakken ad tkecmeḍ ɣer yisefka-inek·inem. Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 rk-refresh-error = Suref-aɣ, yella-d wugur deg usmiren n tsarut n tririt.
+rk-remove-error-2 = Tasarut n tririt n umiḍan ulamek ad tettwakkes
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Imayl wis sin
     .header = Imayl wis sin
 se-cannot-refresh-email = Suref-aɣ, yella-d wugur deg usmiren n yimayl-nni.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } mačči d imayl-ik•im amezwaru
+se-set-primary-error-2 = Suref-aɣ, yella-d wugur deg ubeddel n yimayl-ik•im amezwaru
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } yettwakkes akken ilaq
+se-delete-email-error-2 = Suref-aɣ, yella-d wugur deg tukksa n yimayl
+se-verify-session-3 = Tesriḍ ad tesnetmeḍ tiɣimit-a-inek•inem akken ad teslekmeḍ tigawt-a
+se-verify-session-error-3 = Suref-aɣ, yella-d wugur deg usentem n tɣimit-ik•im.
 # Button to remove the secondary email
 se-remove-email =
     .title = Kkes imayl
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Smiren imayl
+se-unverified-2 = Ur yentim ara
 # Button to make secondary email the primary
 se-make-primary = Err tansa-a d tamezwarut
 se-default-content = Kcem ɣer umiḍan-ik•im ma ur tezmireḍ ara ad teqqneḍ ɣer yimayl-ik•im amezwaru.
@@ -508,6 +522,7 @@ se-secondary-email-none = Ula yiwen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Asesteb s snat n tarrayin
+tfa-row-disabled-2 = Asesteb s snat n tarrayin yensa
 tfa-row-enabled = Yettwarmed
 tfa-row-not-set = Ur yettusbadu ara
 tfa-row-action-add = Rnu
@@ -520,11 +535,13 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Ur ttaǧǧa yiwen ad yeqqen, ssuter 
     tangalt tasuft i tzemreḍ ad tesqedceḍ kečč/kemm kan.
+tfa-row-cannot-verify-session-4 = Suref-aɣ, yella-d wugur deg usentem n tɣimit-ik•im.
 tfa-row-disable-modal-heading = Ad tessenseḍ asesteb s snat n tarrayin?
 tfa-row-disable-modal-confirm = Sens
 tfa-row-disable-modal-explain =
     Ur tzemmreḍ ara aṭas tesfesxeḍ tigawt-a. Daɣen
     tesɛiḍ taxtirt n <linkExternal> usenker n tengalin-ik•im n tririt </linkExternal>.
+tfa-row-cannot-disable-2 = Asesteb s snat n tarrayin ulamek ad yens
 tfa-row-change-modal-heading = Senfel tingalin n tririt?
 tfa-row-change-modal-confirm = Senfel
 tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
@@ -542,6 +559,7 @@ auth-error-110 = Ajuṭun d arameɣtu
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Tɛerḍeḍ aṭas n tikkal. Ttxil-k·m ɛreḍ tikkelt-nniḍen { $retryAfter }.
+auth-error-138-2 = Tiɣimit ur nettwasentem ara
 auth-error-139 = Imayl wis sin ilaq ad imgarad d imayl inek n umiḍan
 auth-error-155 = Ulac ajiṭun TOTP
 auth-error-1008 = Awal-ik•im uffir amaynut ilaq ad yili akken-nniḍen
