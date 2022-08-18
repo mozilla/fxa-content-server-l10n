@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-07-21 07:34+0000\n"
+"POT-Creation-Date: 2022-08-18 22:12+0000\n"
+"PO-Revision-Date: 2022-08-17 11:07+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -75,7 +75,7 @@ msgstr "Jo kinne no wizigingen oan jo Firefox-account oanbringe."
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Primêr e-mailadres befêstige"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -83,7 +83,7 @@ msgstr "Accountmeldingen wurde no ek nei %(secondaryEmailVerified)s ferstjoerd."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Sekundêr e-mailadres befêstige"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -95,7 +95,7 @@ msgstr "Jo kinne %(serviceName)s no brûke"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Account befêstige"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -221,7 +221,7 @@ msgstr "Ofdrukt"
 
 #: .es5/views/behaviors/settings.js:40
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Account mei sukses befêstige"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -943,7 +943,7 @@ msgstr "Kin gjin account oanmeitsje"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Jo moatte oan bepaalde leeftiidskritearia foldwaan om in Firefox-account oan te meitsjen."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1007,23 +1007,23 @@ msgstr "Oanmelding is al befêstige"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Befêstigingskeppeling ferrûn"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "De keppeling wêrop jo klikt hawwe om jo e-mailadres te befêstigjen is ferrûn."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Klik hjir om in nije befêstigingskeppeling te ûntfangen"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Befêstigingskeppeling skansearre"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Befêstigingsflater"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1035,7 +1035,7 @@ msgstr "Dizze oanmelding befêstigje"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Kontrolearje jo e-mail op de befêstigingskeppeling dy’t&nbsp;nei %(escapedEmail)s is ferstjoerd"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1062,7 +1062,7 @@ msgstr "Klik binnen in oer op de keppeling dy’t nei %(email)s ferstjoerd is om
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Fier befêstigingskoade yn"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
@@ -1100,7 +1100,7 @@ msgstr "Firefox-account ferbûn"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "E-mailadres befêstige"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1160,6 +1160,9 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Fier jo wachtwurd <span class=\"card-subheader\" id=\"subheader\">foar jo Firefox-account</span> yn\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1169,6 +1172,8 @@ msgstr "Wachtwurd"
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
+"Troch fierder te gean, geane jo akkoard mei de <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Privacyferklearring</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1401,7 +1406,7 @@ msgstr "Namme barren"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Befêstige"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1440,6 +1445,13 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"              As jo trochgean, stimme jo yn mei:<br />\n"
+"              De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tsjinstbetingsten</a> en <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacyferklearring</a> fan Pocket<br />\n"
+"              De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan "
+"Firefox\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1467,11 +1479,11 @@ msgstr "Us team is op ’e hichte brocht. Rapporten as dizze helpe ús ynkringer
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Fier befêstigingskoade <span class=\"card-subheader\">foar jo Firefox-account</span> yn"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Fier binnen 5 minuten de koade yn dy’t nei %(email)s is ferstjoerd."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1534,6 +1546,13 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"              As jo trochgean, stimme jo yn mei:<br />\n"
+"              De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tsjinstbetingsten</a> en <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacyferklearring</a> fan Pocket<br />\n"
+"              De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan "
+"Firefox\n"
+"            "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1674,7 +1693,7 @@ msgstr "Miskien letter"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Fier binnen 5 minuten de befêstigingskoade yn dy’t nei %(escapedEmail)s ferstjoerd is."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1879,12 +1898,16 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr "Wêrom moat ik dit account oanmeitsje? <a %(escapedSuggestionAttrs)s>Lês it hjir</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr "Hoe âld binne jo?"
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "Jo moatte op syn minst 13 jier âld wêze om in account oan te meitsjen."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1976,7 +1999,7 @@ msgstr "Ja, apparaat goedkarre"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "As jo dit net jo wiene, <a id=\"change-password\" class=\"link-blue\">wizigje dan jo wachtwurd</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -2018,23 +2041,23 @@ msgstr "It ynstelproses is ôfbrutsen."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Download Firefox on your phone or tablet"
-msgstr ""
+msgstr "Download Firefox op jo telefoan of tablet"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
-msgstr ""
+msgstr "QR-koade"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
-msgstr ""
+msgstr "Om Firefox op jo mobile apparaat te downloaden, hâld de kamera fan it apparaat boppe dizze koade om te scannen."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "Of, stjoer josels in <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">downloadkeppeling.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
-msgstr ""
+msgstr "Ik bin ree om apparaten te syngronisearjen"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."

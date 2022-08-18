@@ -1,10 +1,10 @@
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-18 22:12+0000\n"
 "PO-Revision-Date: 2022-08-18 13:42+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -843,8 +843,12 @@ msgid "Invalid Token"
 msgstr "Token oiko’ỹva"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Eku’ejeývo, emoneĩ <a id=\"service-tos\" href=\"%(termsUri)s\">Mba’epytyvõrã ñemboguata</a> ha ko <a id=\"service-pp\" href=\"%(privacyUri)s\">Marandu ñemiguáva</a> %(serviceName)s (%(serviceUri)s) mba’éva."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Eku’ejeývo, emoneĩ <a id=\"service-tos\" href=\"%(termsUri)s\">Mba’epytyvõrã ñemboguata</a> ha ko <a id=\"service-pp\" href=\"%(privacyUri)s\">Marandu ñemiguáva</a> %(serviceName)s (%(serviceUri)s) "
+"mba’éva."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -912,7 +916,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Emoinge mba’eñemi jeguerujeyrã peteĩjeýnte ojepurúva eñongatúva tenda hekorosãvape eikejey hag̃ua nde Firefox mba’etépe."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">JEHAIPY:</span> emoñepyrũjeývo ñe’ẽñemi ha nereñongatúirõ mba’ete mba’eñemi jeguerujeyrã, oguekuaa ne mba’ekuaarã (oikehápe apopyvusu mba’ekuaarã moñondivepyre ikatúva "
 "tambiasakue ha techaukaha)."
@@ -1162,7 +1167,8 @@ msgid "Password"
 msgstr "Ñe’ẽñemi"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
@@ -1430,7 +1436,8 @@ msgstr "¿Ndereguerkovéima ñanduti veve? Emoheñói ipyahúva"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
@@ -1523,7 +1530,8 @@ msgstr "Emoheñói mba’ete"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1868,10 +1876,14 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr "¿Mba’ére amoheñoiva’erã ko mba’ete? <a %(escapedSuggestionAttrs)s>Eñemomarandu ápe</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr "¿Mboy ary eguereko?"
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -2098,13 +2110,15 @@ msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru�
 #~ msgid ""
 #~ "\n"
 #~ "              By proceeding, you agree to:<br />\n"
-#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
 #~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 #~ "            "
 #~ msgstr ""
 #~ " \n"
 #~ "              Eku’ejeývo, emoneĩ:<br />\n"
-#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Temiñemi purureko</a> ha <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Ñemigua jehaipy</a><br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Temiñemi purureko</a> ha <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Ñemigua jehaipy</a><br /"
+#~ ">\n"
 #~ "              <a id=\"fxa-tos\" href=\"/legal/terms\">Mba’epuru purureko</a> ha <a id=\"fxa-pp\" href=\"/legal/privacy\">ñemigua jehaipy</a> Firefox mba’éva\n"
 #~ "            "
 
@@ -2117,7 +2131,8 @@ msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru�
 #~ msgstr ""
 #~ " \n"
 #~ "              Eku’ejeývo, emoneĩ:<br />\n"
-#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Temiñemi purureko</a> ha <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Ñemigua jehaipy</a><br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Temiñemi purureko</a> ha <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Ñemigua jehaipy</a><br /"
+#~ ">\n"
 #~ "              <a id=\"fxa-tos\" href=\"/legal/terms\">Mba’epuru purureko</a> ha <a id=\"fxa-pp\" href=\"/legal/privacy\">ñemigua jehaipy</a> Firefox mba’éva\n"
 #~ "            "
 
@@ -2251,18 +2266,18 @@ msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru�
 #~ msgstr "Reiméma reipuru hag̃uáicha <div class=\"graphic graphic-client-pocket\">Pocket</div>"
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 #~ msgstr ""
 #~ "<span>NEMANDU’ÁKE:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, ñe’ẽñemi ha techaukaha). Kóva oiko rombopapapy rupi ne "
 #~ "mba’ekuaarã ne ñe’ẽñemi ndive romo’ã hag̃ua ne ñemigua. Opytáta ne ñemboheraguapykue."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
 #~ msgstr ""
-#~ "<span>JEHAIPY:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, ñe’ẽñemi ha techaukaha). Kóva oiko rombopapapy rupi ne mba’ekuaarã "
-#~ "ne ñe’ẽñemi ndive romo’ã hag̃ua ne ñemigua. Opytáta ne ñemboheraguapykue."
+#~ "<span>JEHAIPY:</span> Eguerujeývo ne ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (oikehápe tembiasakue, ñe’ẽñemi ha techaukaha). Kóva oiko rombopapapy rupi ne "
+#~ "mba’ekuaarã ne ñe’ẽñemi ndive romo’ã hag̃ua ne ñemigua. Opytáta ne ñemboheraguapykue."
 
 #~ msgid "Firefox Lockwise"
 #~ msgstr "Firefox Lockwise"
@@ -2277,15 +2292,15 @@ msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru�
 #~ msgstr "Eheka mba’ekuaarã ñembyai."
 
 #~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>IMANDU’A:</span> Eguerujeývo pe ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (tembiasakue, ñe’ẽñemi ha techaukaha). Kóva oiko rombopapapy rupi ne mba’ekuaarã ne "
 #~ "ñe’ẽñemi ndive romo’ã hag̃ua ne ñemigua."
 
 #~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
 #~ msgstr ""
 #~ "<span>JEHAIPY:</span> Eguerujeývo pe ñe’ẽñemi, avei eguerujey ne mba’ete. Ikatuhína oñehundi ne maranduete (tembiasakue, ñe’ẽñemi ha techaukaha). Kóva oiko rombopapapy rupi ne mba’ekuaarã ne "
 #~ "ñe’ẽñemi ndive romo’ã hag̃ua ne ñemigua."
@@ -2624,7 +2639,8 @@ msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru�
 #~ msgid "Step 2 of 2: Save Recovery key"
 #~ msgstr "Jeku’e 2 guive 2 peve: eñongatu ne mba’eñemi jeguerujeyrã"
 
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
 #~ msgstr "<span class=\"note\">JEHAIPY:</span> nderasaráirõ ñe’ẽñemígui, eikotevẽta ko mba’eñemi eikejey hag̃ua ne mba’ekuaarãme. Eñongatu tenda hekorosãvape, eikekuaa hag̃ua pya’ete."
 
 #~ msgid "Done, Recovery key saved"
@@ -2698,7 +2714,8 @@ msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru�
 
 #~ msgid ""
 #~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "Ko SMS mba'epytyvõrã ejuhukuaa ndahetái tetãme. Ikatu oguereko SMS ha mba’ekuaarã oku’éva repy. Pe ñanduti veve térã SMS g̃uahẽha omoneĩva’erã. <a %(escapedLearnMoreAttributes)s>Ehechave</a>"
+#~ msgstr ""
+#~ "Ko SMS mba'epytyvõrã ejuhukuaa ndahetái tetãme. Ikatu oguereko SMS ha mba’ekuaarã oku’éva repy. Pe ñanduti veve térã SMS g̃uahẽha omoneĩva’erã. <a %(escapedLearnMoreAttributes)s>Ehechave</a>"
 
 #~ msgid "If you lose access to your account, youll be able to restore your sync data."
 #~ msgstr "Ndaikatúirõ eike ne mba’etépe, ikatu erujey ne ñembojuehe mba’ekuaarã."
@@ -2827,8 +2844,8 @@ msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru�
 #~ msgstr "Eñangareko eguerohoryvévare"
 
 #~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
 #~ msgstr ""
 #~ "Eipurúramo ko mba’ete tembipuru’i ha Mozilla mba’epytyvõrãpe g̃uarã AMO, Pocket ha Screenshots, emoñepyrũke tembiapo ha emboguete oimeraẽva maranduete ñongatupyre. Emboguete rire ne mba’ete "
 #~ "ndereikekuaavéima opaite hendápe."
@@ -2912,7 +2929,9 @@ msgstr "¿Eipuru apopyvusu ra’ãnganohẽha? Eikeva’erã Firefox rembipuru�
 #~ msgstr "Ndaikatúi eguereko mba'epytyvõrã ñemboguata teraguapy rendag̃ua"
 
 #~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Eku’ejeývo, emoneĩma ko’ã <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Mba'epytyvõrã ñemboguata</a> ha ko <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Ñemigua marandu’i</a>."
+#~ msgstr ""
+#~ "Eku’ejeývo, emoneĩma ko’ã <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Mba'epytyvõrã ñemboguata</a> ha ko <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Ñemigua marandu’i</"
+#~ "a>."
 
 #~ msgid "Subscription Platform Terms of Service"
 #~ msgstr "Mba'epytyvõrã ñemboguata teraguapy rendag̃ua"

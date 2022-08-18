@@ -276,12 +276,16 @@ passwordResetAccountRecovery-regen-required = You will need to generate a new re
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Create new recovery key:
 
-postAddAccountRecovery-subject = Account recovery key generated
-postAddAccountRecovery-title = Account recovery key generated
-postAddAccountRecovery-description = You have successfully generated an account recovery key for your { -product-firefox-account } using the following device:
+postAddAccountRecovery-subject-2 = Account recovery key created
+postAddAccountRecovery-title2 = You created a new account recovery key
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = A new key was created from:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Not you?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Delete the new key</a> and <a data-l10n-name="passwordChangeLink">change your password</a>
 postAddAccountRecovery-action = Manage account
-postAddAccountRecovery-recovery = If this was not you, <a data-l10n-name="revokeAccountRecoveryLink">click here</a>.
-postAddAccountRecovery-revoke = If this was not you, revoke key.
+postAddAccountRecovery-delete-key = Delete the new key:
+postAddAccountRecovery-changd-password = Change your password:
 
 postAddLinkedAccount-subject = New account linked to { -brand-firefox }
 #  Variables:
@@ -333,15 +337,13 @@ postRemoveTwoStepAuthentication-description-plaintext = You have successfully di
 postRemoveTwoStepAuthentication-action = Manage account
 postRemoveTwoStepAuthentication-not-required = Security codes will no longer be required at each sign-in.
 
-postVerify-sub-title-2 = { -product-firefox-account } confirmed. You’re almost there.
-postVerify-title = Next sync between your devices!
-postVerify-description = Sync privately keeps your bookmarks, passwords and other { -brand-firefox } data the same across all your devices.
-postVerify-subject-2 = Account confirmed. Next, sync another device to finish setup
-postVerify-setup = Set up next device
-postVerify-action = Set up next device
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Have questions? Visit { $supportUrl }
+postVerify-sub-title-3 = We’re delighted to see you!
+postVerify-title-2 = Want to see the same tab on two devices?
+postVerify-description-2 = It’s easy! Just install { -brand-firefox } on another device and log in to sync. It’s like magic!
+postVerify-sub-description = (Psst…It also means you can get your bookmarks, passwords, and other { -brand-firefox } data everywhere you’re signed in.)
+postVerify-subject-3 = Welcome to { -brand-firefox }!
+postVerify-setup-2 = Connect another device:
+postVerify-action-2 = Connect another device
 
 postVerifySecondary-subject = Secondary email added
 postVerifySecondary-title = Secondary email added
@@ -644,33 +646,36 @@ unblockCode-prompt-plaintext = If yes, here is the authorization code you need: 
 unblockCode-report = If no, help us fend off intruders and <a data-l10n-name="reportSignInLink">report it to us</a>.
 unblockCode-report-plaintext = If no, help us fend off intruders and report it to us.
 
-verificationReminderFirst-subject = Reminder: Finish creating your account
-verificationReminderFirst-title = Welcome to the { -brand-firefox } family
-verificationReminderFirst-description = A few days ago you created a { -product-firefox-account }, but never confirmed it.
-verificationReminderFirst-sub-description = Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve.
-confirm-email = Confirm email
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Confirm email
+verificationReminderFinal-subject = Final reminder to confirm your account
+verificationReminderFinal-description = A couple of weeks ago you created a { -product-firefox-account }, but never confirmed it. For your security, we will delete the account if not verified in the next 24 hours.
+confirm-account = Confirm account
+confirm-account-plaintext = { confirm-account }:
 
-verificationReminderSecond-subject = Final reminder: Activate your account
-verificationReminderSecond-title = Still there?
-verificationReminderSecond-description-2 = Almost a week ago you created a { -product-firefox-account } but never confirmed it. We’re worried about you.
-verificationReminderSecond-sub-description = Confirm this email address to activate your account and let us know you’re okay.
-verificationReminderSecond-action = Confirm email
+verificationReminderFirst-subject-2 = Remember to confirm your account
+verificationReminderFirst-title-2 = Welcome to { -brand-firefox }!
+verificationReminderFirst-description-2 = A few days ago you created a { -product-firefox-account }, but never confirmed it. Please confirm your account within the next 15 days or it will be automatically deleted.
+verificationReminderFirst-sub-description-2 = Don’t miss out on tech that puts you and your privacy first.
+confirm-email-2 = Confirm account
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Confirm account
 
-verify-title = Activate the { -brand-firefox } family of products
-verify-description-plaintext = Confirm your account and get the most out of { -brand-firefox } everywhere you sign in.
+verificationReminderSecond-subject-2 = Remember to confirm your account
+verificationReminderSecond-title-2 = Don’t miss out on { -brand-firefox }
+verificationReminderSecond-description-3 = A few days ago you created a { -product-firefox-account }, but never confirmed it. Please confirm your account in the next 10 days or it will be automatically deleted.
+verificationReminderSecond-second-description = Your { -product-firefox-account } lets you sync your info across devices and unlocks access to more privacy-protecting products from { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Be part of our mission to transform the internet into a place that’s open for everyone.
+verificationReminderSecond-action-2 = Confirm account
+
+verify-title-2 = Open the internet with { -brand-firefox }
 verify-description = Confirm your account and get the most out of { -brand-firefox } everywhere you sign in starting with:
 verify-subject = Finish creating your account
-verify-action = Confirm email
+verify-action-2 = Confirm account
 
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = New sign-in to { $clientName }
-verifyLogin-description = For added security, please confirm this sign-in from the following device:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Confirm new sign-in to { $clientName }
+verifyLogin-title-2 = Did you sign in to { $clientName }?
+verifyLogin-description-2 = Help us keep your account safe by confirming you signed in on:
+verifyLogin-subject-2 = Confirm sign-in
 verifyLogin-action = Confirm sign-in
 
 # Variables:
@@ -698,7 +703,9 @@ verifySecondaryCode-expiry-notice-2 = It expires in 5 minutes. Once confirmed, t
 
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Confirmation code: { $code }
-verifyShortCode-title = Is this you signing up?
-verifyShortCode-prompt-2 = If yes, use this confirmation code in your registration form:
+verifyShortCode-subject-3 = Confirm your account
+verifyShortCode-title-2 = Open the internet with { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Confirm your account and get the most out of { -brand-firefox } everywhere you sign in starting with:
+verifyShortCode-prompt-3 = Use this confirmation code:
 verifyShortCode-expiry-notice = It expires in 5 minutes.

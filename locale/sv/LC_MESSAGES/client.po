@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-07-28 00:37+0000\n"
-"Last-Translator: Andreas Pettersson <az@kth.se>\n"
+"POT-Creation-Date: 2022-08-18 22:12+0000\n"
+"PO-Revision-Date: 2022-08-16 19:16+0000\n"
+"Last-Translator: Peter Kihlstedt <peter.kihlstedt@gmail.com>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -75,7 +75,7 @@ msgstr "Du kan nu göra ändringar i ditt Firefox-konto."
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Primär e-postadress bekräftad"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -83,7 +83,7 @@ msgstr "Kontoaviseringar skickas nu också till %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Sekundär e-postadress bekräftad"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -95,7 +95,7 @@ msgstr "Du kan nu använda %(serviceName)s"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Kontot bekräftat"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -219,7 +219,7 @@ msgstr "Utskriven"
 
 #: .es5/views/behaviors/settings.js:40
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Kontot har bekräftats"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -1005,23 +1005,23 @@ msgstr "Inloggning redan bekräftad"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Bekräftelselänken har löpt ut"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Länken du klickade på för att bekräfta din e-postadress har upphört att gälla."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Klicka här för att få en ny bekräftelselänk"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Bekräftelselänken är trasig"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Bekräftelsefel"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1033,7 +1033,7 @@ msgstr "Bekräfta denna inloggning"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Kontrollera din e-post för bekräftelselänken som skickats&nbsp;till %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1098,7 +1098,7 @@ msgstr "Firefox-konto anslutet"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "E-postadress bekräftad"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1158,6 +1158,9 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"  Ange ditt lösenord <span class=\"card-subheader\" id=\"subheader\"> för ditt Firefox-konto</span>\n"
+"  "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1167,6 +1170,8 @@ msgstr "Lösenord"
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
+"Genom att fortsätta godkänner du <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Användarvillkoren</a> och <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Sekretesspolicyn</"
+"a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1399,7 +1404,7 @@ msgstr "Händelsenamn"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Bekräftad"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1438,6 +1443,12 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"  Genom att fortsätta godkänner du:<br />\n"
+"  Pockets <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Användarvilkor</a> och <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/"
+"\">Sekretesspolicy</a><br />\n"
+"  Firefox <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Användarvilkor</a> och <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Sekretesspolicy</a>.\n"
+"  "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1465,11 +1476,11 @@ msgstr "Vårt team har underrättats. Rapporter som denna hjälper oss att avvä
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Ange bekräftelsekod <span class=\"card-subheader\">för ditt Firefox-konto</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Ange koden som skickades till %(email)s inom 5 minuter."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1532,6 +1543,12 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"  Genom att fortsätta godkänner du:<br />\n"
+"  Pockets <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Användarvilkor</a> och <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/"
+"\">Sekretesspolicy</a><br />\n"
+"  Firefox <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Användarvilkor</a> och <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Sekretesspolicy</a>\n"
+"  "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1672,7 +1689,7 @@ msgstr "Kanske senare"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Ange bekräftelsekoden som skickades till %(escapedEmail)s inom 5 minuter."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1873,12 +1890,16 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr "Varför måste jag skapa det här kontot? <a %(escapedSuggestionAttrs)s>Ta reda på det här</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr "Hur gammal är du?"
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "Du måste vara minst 13 år för att skapa ett konto."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1970,7 +1991,7 @@ msgstr "Ja, godkänn enhet"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "Om det inte var du <a id=\"change-password\" class=\"link-blue\">ändra ditt lösenord</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -2012,23 +2033,23 @@ msgstr "Installationsprocessen avslutades."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Download Firefox on your phone or tablet"
-msgstr ""
+msgstr "Ladda ner Firefox på din telefon eller surfplatta"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
-msgstr ""
+msgstr "QR-kod"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
-msgstr ""
+msgstr "För att ladda ner Firefox på din mobila enhet, rikta enhetens kamera mot den här koden för att skanna."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "Eller skicka dig själv en <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">>nedladdningslänk.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
-msgstr ""
+msgstr "Jag är redo att synkronisera enheter"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
