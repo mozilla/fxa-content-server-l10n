@@ -94,27 +94,18 @@ connect-another-app-store-image-2 =
 cs-heading = Tilkopla tenester
 cs-description = Alt du brukar og er innlogga på.
 cs-cannot-disconnect = Fann ikkje klienten, klarte ikkje å kople frå
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = Logga ut av { $service }.
 cs-refresh-button =
     .title = Oppdater tilkopla tenester
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manglande- eller duplikatelement?
 cs-disconnect-sync-heading = Kople frå Sync
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Nettlesardataa dine vil framleis vere på
-    eininga di ({ $device }), men vil ikkje lenger synkronisere med kontoen din.
-cs-disconnect-sync-reason =
-    Kva er hovudgrunnen for å kople frå denne
-    eininga?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -200,14 +191,7 @@ modal-cancel-button = Avbryt
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Stadfest e-postadressa di
-mvs-enter-verification-code = Skriv inn stadfestingskoden din
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Skriv inn stadfestingskoden som vart sendt til <email>{ $email }</email>, innan 5 minutt.
 msv-cancel-button = Avbryt
-msv-submit-button = Stadfest
 
 ## Settings Nav
 
@@ -249,9 +233,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Klarte ikkje å starte kameraet
 avatar-page-new-avatar =
     .alt = nytt profilbilde
-avatar-page-file-upload-error-2 = Det oppstod eit problem med opplastinga av profilbildet ditt.
-avatar-page-delete-error-2 = Det oppstod eit problem med slettinga av profilbildet ditt.
-avatar-page-image-too-large-error = Bildefila er for stor til å kunne lastast opp.
 
 ##
 
@@ -260,8 +241,6 @@ avatar-page-image-too-large-error = Bildefila er for stor til å kunne lastast o
 
 pw-change-header =
     .title = Endra passord
-pw-change-least-8-chars = Må ha minst 8 teikn
-pw-change-not-contain-email = Kan ikkje vere e-postadressa di
 pw-change-must-match = Nytt passord samsvarar med stadfestinga
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Lagre
@@ -272,7 +251,14 @@ pw-change-new-password =
     .label = Skriv inn nytt passord
 pw-change-confirm-password =
     .label = Stadfest nytt passord
-pw-change-success-alert = Passord oppdatert.
+
+##
+
+
+## Password create page
+
+pw-create-header =
+    .title = Opprett passord
 
 ##
 
@@ -300,7 +286,6 @@ display-name-input =
     .label = Skriv inn visingsnamn
 submit-display-name = Lagre
 cancel-display-name = Avbryt
-display-name-success-alert = Visingsnamn oppdatert.
 
 ##
 
@@ -330,14 +315,7 @@ add-secondary-email-save-button = Lagre
 
 verify-secondary-email-page-title =
     .title = Sekundær e-postadresse
-verify-secondary-email-verification-code =
-    .label = Skriv inn stadfestingskode
 verify-secondary-email-cancel-button = Avbryt
-verify-secondary-email-verify-button = Stadfest
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } er lagt til.
 
 ##
 
@@ -387,6 +365,8 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Sikkerheit
+security-password =
+    .header = Passord
 
 ## Switch component
 
@@ -427,7 +407,6 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Oppdater e-postadresse
-se-unverified = Ikkje stadfesta
 # Button to make secondary email the primary
 se-make-primary = Bruk som primær e-postadresse
 # Default value for the secondary email
@@ -439,7 +418,6 @@ se-secondary-email-none = Ingen
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tostegs-godkjenning
-tfa-row-disabled = Tostegs-godkjenning deaktivert
 tfa-row-enabled = Aktivert
 tfa-row-not-set = Ikkje innstilt
 tfa-row-action-add = Legg til
@@ -448,7 +426,6 @@ tfa-row-button-refresh =
     .title = Oppdater tostegs-godkjenning
 tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
-tfa-row-cannot-disable = Klarte ikkje å deaktivere tostegs-godkjenning.
 tfa-row-change-modal-heading = Endre gjenopprettingskodar?
 tfa-row-change-modal-confirm = Endre
 
@@ -456,5 +433,4 @@ tfa-row-change-modal-confirm = Endre
 
 auth-error-102 = Ukjend konto
 auth-error-103 = Feil passord
-auth-error-105 = Ugyldig stadfestingskonto
 auth-error-110 = Ugyldig token
