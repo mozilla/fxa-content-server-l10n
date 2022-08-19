@@ -235,6 +235,7 @@ mvs-enter-verification-code-2 = Indtast din bekræftelseskode
 #   email (String) - the user's email
 mvs-enter-verification-code-desc-2 = Indtast den bekræftelseskode, der blev sendt til <email>{ $email }</email>, indenfor 5 minutter.
 msv-cancel-button = Annuller
+msv-submit-button-2 = Bekræft
 
 ## Settings Nav
 
@@ -390,9 +391,17 @@ add-secondary-email-save-button = Gem
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Trin 2 af 2
+verify-secondary-email-error-3 = Der opstod et problem under afsendelse af bekræftelseskoden
 verify-secondary-email-page-title =
     .title = Sekundær mailadresse
+verify-secondary-email-verification-code-2 =
+    .label = Indtast din bekræftelseskode
 verify-secondary-email-cancel-button = Annuller
+verify-secondary-email-verify-button-2 = Bekræft
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Indtast den bekræftelseskode, der blev sendt til <strong>{ $email }</strong>, indenfor 5 minutter.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -414,6 +423,7 @@ tfa-button-cancel = Annuller
 tfa-button-finish = Afslut
 tfa-incorrect-totp = Forkert kode til totrinsgodkendelse
 tfa-cannot-retrieve-code = Der opstod et problem med at hente din kode.
+tfa-cannot-verify-code-3 = Der opstod et problem med at bekræfte din genoprettelseskode
 tfa-incorrect-recovery-code = Forkert genoprettelseskode
 tfa-enabled = Totrinsgodkendelse aktiveret
 tfa-scan-this-code =
@@ -504,6 +514,7 @@ rk-cannot-remove-key = Genoprettelsesnøglen til din konto kunne ikke fjernes.
 rk-refresh-key = Opdater genoprettelsesnøgle
 rk-content-explain = Gendan dine gemte informationer, når du har glemt din adgangskode.
 rk-content-reset-data = Hvorfor nulstilles mine data, når jeg nulstiller min adgangskode.
+rk-cannot-verify-session-4 = Der opstod desværre et problem med at bekræfte din session
 rk-remove-modal-heading = Fjern genoprettelsesnøgle?
 rk-remove-modal-content =
     Hvis du nulstiller din adgangskode, kan du ikke bruge din genoprettelsesnøgle
@@ -516,6 +527,7 @@ rk-remove-error-2 = Genoprettelsesnøglen til din konto kunne ikke fjernes
 se-heading = Sekundær mailadresse
     .header = Sekundær mailadresse
 se-cannot-refresh-email = Der opstod desværre et problem med at opdatere mailadressen.
+se-cannot-resend-code-3 = Der opstod desværre et problem med at sende bekræftelseskoden igen
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -526,12 +538,18 @@ se-set-primary-error-2 = Der opstod desværre et problem med at ændre din prim�
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } blev slettet
 se-delete-email-error-2 = Der opstod desværre et problem med at slette denne mailadresse
+se-verify-session-3 = Du skal bekræfte din nuværende session for at udføre denne handling
+se-verify-session-error-3 = Der opstod desværre et problem med at bekræfte din session
 # Button to remove the secondary email
 se-remove-email =
     .title = Fjern mailadresse
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Opdater mailadresse
+se-unverified-2 = Ikke-bekræftet
+se-resend-code-2 =
+    Bekræftelse nødvendig. <button>Send bekræftelseskode igen</button>,
+    hvis den ikke er i din indbakke eller spam-mappe.
 # Button to make secondary email the primary
 se-make-primary = Sæt som primær
 se-default-content = Få adgang til din konto, hvis du ikke kan logge ind på din primære mailkonto.
@@ -560,6 +578,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Undgå at en anden logger ind ved at kræve en
     unik kode, kun du har adgang til.
+tfa-row-cannot-verify-session-4 = Der opstod desværre et problem med at bekræfte din session
 tfa-row-disable-modal-heading = Deaktiver totrinsgodkendelse?
 tfa-row-disable-modal-confirm = Deaktiver
 tfa-row-disable-modal-explain =
@@ -574,6 +593,7 @@ tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
 
 auth-error-102 = Ukendt konto
 auth-error-103 = Forkert adgangskode
+auth-error-105-2 = Ugyldig bekræftelseskode
 auth-error-110 = Ugyldigt token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -583,6 +603,8 @@ auth-error-110 = Ugyldigt token
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Du har prøvet for mange gange. Prøv igen om { $retryAfter }.
+auth-error-138-2 = Ubekræftet session
 auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen til din konto
 auth-error-155 = TOTP-token ikke fundet
+auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
 auth-error-1008 = Din nye adgangskode skal være anderledes
