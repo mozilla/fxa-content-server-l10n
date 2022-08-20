@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -11,8 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr ""
 
@@ -26,7 +30,8 @@ msgid ""
 "          will fix any links that may be broken."
 msgstr ""
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr ""
 
@@ -62,11 +67,13 @@ msgstr ""
 msgid "Firefox Accounts requires JavaScript."
 msgstr ""
 
-#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
 msgstr ""
 
-#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr ""
 
@@ -78,7 +85,8 @@ msgstr ""
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
+"                        download and install the latest version of Firefox "
+"to\n"
 "                        continue."
 msgstr ""
 

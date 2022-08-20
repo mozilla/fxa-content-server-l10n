@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,8 +12,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.10.0-rc1\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr ""
 
@@ -27,7 +31,8 @@ msgid ""
 "          will fix any links that may be broken."
 msgstr ""
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr ""
 
@@ -63,11 +68,13 @@ msgstr ""
 msgid "Firefox Accounts requires JavaScript."
 msgstr ""
 
-#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
 msgstr ""
 
-#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr ""
 
@@ -79,75 +86,11 @@ msgstr ""
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
+"                        download and install the latest version of Firefox "
+"to\n"
 "                        continue."
 msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr ""
-
-#~ msgid "Best,"
-#~ msgstr "Best,"
-
-#~ msgid "The Firefox Accounts team"
-#~ msgstr "The Firefox Accounts team"
-
-#~ msgid "Mozilla Privacy Policy"
-#~ msgstr "Mozilla Privacy Policy"
-
-#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-#~ msgstr "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-
-#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-#~ msgstr "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-
-#~ msgid "What should you do?"
-#~ msgstr "What should you do?"
-
-#~ msgid "First, change your Firefox Account password."
-#~ msgstr "First, change your Firefox Account password."
-
-#~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
-#~ "activity."
-#~ msgstr ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
-#~ "activity."
-
-#~ msgid "Learn how to see what passwords Firefox is storing for you."
-#~ msgstr "Learn how to see what passwords Firefox is storing for you."
-
-#~ msgid "Firefox Account password reset required"
-#~ msgstr "Firefox Account password reset required"
-
-#~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-#~ msgstr ""
-#~ "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-
-#~ msgid "Date & Time:"
-#~ msgstr "Date & Time:"
-
-#~ msgid "Device:"
-#~ msgstr "Device:"
-
-#~ msgid "Location:"
-#~ msgstr "Location:"
-
-#~ msgid "If you don’t recognize the activity above:"
-#~ msgstr "If you don’t recognize the activity above:"
-
-#~ msgid "Why are you receiving this email?"
-#~ msgstr "Why are you receiving this email?"
-
-#~ msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-#~ msgstr "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-
-#~ msgid "Suspicious activity with your Firefox Account"
-#~ msgstr "Suspicious activity with your Firefox Account"
-
-#~ msgid "See here for instructions."
-#~ msgstr "See here for instructions."
-
-#~ msgid "For more information, check out this blog post."
-#~ msgstr "For more information, check out this blog post."

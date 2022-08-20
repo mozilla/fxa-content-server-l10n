@@ -1,0 +1,732 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2020-02-05 19:14+0000\n"
+"Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"X-Generator: Pontoon\n"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+msgid "Firefox Accounts"
+msgstr "حسابات فَيَرفُكس"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "لم نتمكّن من إيجاد الصّفحة"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and\n"
+"          will fix any links that may be broken."
+msgstr ""
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "خطأ 500"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and\n"
+"          will get working on a fix."
+msgstr ""
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "خطأ 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "الخادوم مشغول، أعد المحاولة بعد قليل"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return\n"
+"          the system to normal as soon as possible."
+msgstr ""
+
+#: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr "يُحمّل"
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "حسابات فَيَرفُكس تتطلب جافا سكربت."
+
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+msgid "Privacy Notice"
+msgstr "سياسة الخصوصيّة"
+
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+msgid "Terms of Service"
+msgstr "شروط الخدمة"
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr "تحديث Firefox مطلوب"
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr ""
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaBrowser)s على %(uaOS)s %(uaOSVersion)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaBrowser)s على %(uaOS)s"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s، %(stateCode)s، %(country)s (تقريبًا)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s، %(country)s (تقريبًا)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s، %(country)s (تقريبًا)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (تقريبًا)"
+
+#~ msgid "Verification code: %(code)s"
+#~ msgstr "رمز التأكيد: %(code)s"
+
+#~ msgid "Reminder: Finish creating your account"
+#~ msgstr "تذكير: أنهِ إنشاء حسابك"
+
+#~ msgid "Final reminder: Activate your account"
+#~ msgstr "تذكير أخير: فعّل حسابك"
+
+#~ msgid "Confirm email"
+#~ msgstr "أكّد عنوان البريد"
+
+#~ msgid "Account authorization code"
+#~ msgstr "رمز تخويل الحساب"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "أكِّد الولوج الجديد إلى %(clientName)s"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "أكّد الولوج"
+
+#~ msgid "Confirm primary email"
+#~ msgstr "أكّد البريد الإلكتروني الأولي"
+
+#~ msgid "Verify email"
+#~ msgstr "أكّد البريد"
+
+#~ msgid "Confirm secondary email"
+#~ msgstr "أكّد البريد الإلكتروني الثانوي"
+
+#~ msgid "Reset your password"
+#~ msgstr "صفّر كلمة السر"
+
+#~ msgid "Create new password"
+#~ msgstr "أنشئ كلمة سر جديدة"
+
+#~ msgid "Password updated"
+#~ msgstr "تحدّثت كلمة السر"
+
+#~ msgid "Manage account"
+#~ msgstr "أدِر الحساب"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "ولوج جديد إلى %(clientName)s"
+
+#~ msgid "Secondary email added"
+#~ msgstr "أُضيفَ البريد الثانوي"
+
+#~ msgid "Primary email updated"
+#~ msgstr "تحدّث البريد الإلكتروني الأولي"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "حُذفَ البريد الثانوي"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "فُعّل الاستيثاق بخطوتين"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "وُلّدت رموز استعادة جديدة"
+
+#~ msgid "Generate codes"
+#~ msgstr "ولّد الرموز"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "وُلّد مفتاح استعادة الحساب"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "حُذفَ مفتاح استعادة الحساب"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "أنشئ مفتاح استعادة جديد"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "رموز الاستعادة المتبقية قليلة"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "لاحظنا بأن رموز الاستعادة لديك باتت قليلة. من فضلك خُذ بالحسبان أن توليد رموز جديدة يقيك من استحالة الوصول إلى حسابك."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "لاحظنا بأن رموز الاستعادة لديك باتت قليلة. من فضلك خُذ بالحسبان أن توليد رموز جديدة يقيك من استحالة الوصول إلى حسابك."
+
+#~ msgid "Generate codes:"
+#~ msgstr "ولّد الرموز:"
+
+#~ msgid "Best,"
+#~ msgstr "تحياتنا،"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "فريق مشروع حسابات فَيَرفُكس"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "غُيّرت كلمة السرّ بنجاح"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "غُيّرت كلمة سرّ حساب فَيَرفُكس بنجاح من الجهاز التالي:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "هذا بريد إلكتروني الآلي، إذا لم تغير كلمة السرّ الخاصة بحساب فَيَرفُكس، فرجاءً غير كلمة السرّ الخاصة بك حالأً %(resetLink)s"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "تغيّرت كلمة سر حسابك"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "سيكون عليك إدخال كلمة سر جديدة على الأجهزة الأخرى لاستئناف المزامنة."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "إن لم تكن قد غيّرتها، فرجاءً صفّر كلمة السر من %(resetLink)s الآن"
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "صُفِّرت كلمة سر حسابك بأحد مفاتيح الاستعادة"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "نجح تصفير كلمة السر باستخدام أحد مفاتيح الاستعادة من الجهاز الآتي:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "سيكون عليك تولّيد مفتاح استعادة جديد."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "أنشئ مفتاح استعادة جديد:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "لمزيد من المعلومات، الرجاء زيارة %(supportUrl)s"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "نجح توليد مفتاح استعادة للحساب باستخدام حسابَ فَيَرفُكس في الجهاز الآتي:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "إن لم يكن هذا أنت <a %(revokeAccountRecoveryLinkAttributes)s>فانقر هنا</a>."
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "نجح توليد مفتاح استعادة للحساب من حسابَ فَيَرفُكس في الجهاز الآتي:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "إن لم يكن هذا أنت فاسحب المفتاح."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "نجح تفعيل الاستيثاق بخطوتين لحسابَ فَيَرفُكس بالجهاز الآتي:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "ستكون الآن رموز الاستعادة من تطبيق الاستيثاق مطلوبة للولوج."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "نجح تفعيل الاستيثاق بخطوتين لحساب فَيَرفُكس. ستكون الآن رموز الاستعادة من تطبيق الاستيثاق مطلوبة للولوج."
+
+#~ msgid "New primary email"
+#~ msgstr "البريد الإلكتروني الأساسي الجديد"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr "نجح تغيير البريد الإلكتروني الأولي إلى %(email)s. سيكون هذا العنوان هو اسم المستخدم الجديد للولوج إلى حساب فَيَرفُكس واستلام التنبيهات الأمنية وتأكيدات الولوج."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "استخدمت رمز استعادة"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "نجح استخدام أحد رموز الاستعادة من الجهاز الآتي:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "استهلكت رمز استعادة"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "نجح توليد رموز استعادة جديدة من الجهاز الآتي:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "نجحت إزالة مفتاح استعادة الحساب من حسابَ فَيَرفُكس باستخدام الجهاز الآتي:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "لم يعد ممكنًا استخدام مفتاح الاستعادة لاستعادة حسابك."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "نجحت إزالة مفتاح استعادة الحساب من حسابَ فَيَرفُكس بالجهاز الآتي:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "نجحت إزالة %(secondaryEmail)s باعتباره بريدا إلكترونيا ثانويا من حساب فَيَرفُكس. لن تُرسل بعد الآن التنبيهات الأمنية وتأكيدات الولوج إلى ذلك العنوان."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "عُطّل الاستيثاق بخطوتين"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "لقد عطّلت بنجاح الاستيثاق بخطوتين لحساب فَيَرفُكس بالجهاز الآتي:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "لن تعود رموز الاستعادة مطلوبة للولوج."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "لقد عطّلت بنجاح الاستيثاق بخطوتين لحساب فَيَرفُكس خاصتك. لم تعد رموز الأمان مطلوبة في كل عملية ولوج."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "أيّة أسئلة؟ زُر %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "نجح تأكيد %(secondaryEmail)s باعتباره بريدا إلكترونيا ثانية لحساب فَيَرفُكس. ستُرسل الآن التنبيهات الأمنية وتأكيدات الولوج إلى عنواني البريد معا."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "أتريد تصفير كلمة السر؟"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "انقر الزر خلال الساعة القادمة لتُنشئ كلمة سر جديدة. أتى هذا الطلب من الجهاز التالي:"
+
+#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+#~ msgstr "شكرا لاختيارك فَيَرفُكس! يمكنك تنزيل فَيَرفُكس للمحمول من هنا: %(link)s"
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "هل هذا أنت من تُحاول الولوج؟"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "إذا كان الجواب نعم، هذا هو رمز التخويل الذي تحتاجة:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "إن لم يكن كذلك فساعدنا على منع المتسللين <a %(reportSignInLinkAttributes)s>بإبلاغنا عن هذا</a>."
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "إن لم يكن كذلك فساعدنا على منع المتسللين بإبلاغنا عن هذا."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "مرحبًا بك في عائلة Firefox"
+
+#~ msgid "Confirm email:"
+#~ msgstr "أكّد عنوان البريد:"
+
+#~ msgid "Still there?"
+#~ msgstr "أما تزال هنا؟"
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "لمزيد من الأمان، رجاءً أكّد عملية الولوج من الجهاز الآتي:"
+
+#~ msgid "If yes, here is the verification code:"
+#~ msgstr "لو كنت، فإليك رمز التأكيد:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "ستنقضي صلاحيته خلال خمس دقائق."
+
+#~ msgid "Verify primary email"
+#~ msgstr "أكِّد البريد الإلكتروني الأولي"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "طُلب إجراء تغيير للحساب من الجهاز الآتي:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "ما إن تؤكّده ستكون التغييرات على الحساب (مثل إضافة بريد ثانوي) ممكنًا من هذا الجهاز."
+
+#~ msgid "Verify email: "
+#~ msgstr "أكّد البريد: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "أكّد البريد الثانوي"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "جرى طلب استخدام %(email)s باعتباره بريدا إلكترونيا ثانية من حساب فَيَرفُكس الآتي:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "ما إن تؤكّده سيبدأ إرسال التنبيهات الأمنية والتأكيدات إلى هذا العنوان."
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "جهّز نفسك، استعداد، زامن"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "أكِّد استلامك لهذا البريد وسنساعدك بتنزيل فَيَرفُكس ومزامنته على كل أجهزتك التي تبدأ بِ‍:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "ما إن تؤكّده سنساعدك في تثبيت وربط فَيَرفُكس على جهاز آخر على الأقل."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "هذا بريد إلكتروني آلي. إن لم تكن قد استوثقت هذا الإجراء <a %(passwordChangeLinkAttributes)s>فرجاءً غيّر كلمة السر</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "لمزيد من المعلومات، الرجاء زيارة <a %(supportLinkAttributes)s>مركز موزيلا للدّعم الفنّي</a>."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "هذا بريد إلكتروني آلي، إذا كنت لم تضف جهازًا جديد إلي حساب فَيَرفُكس، فرجاءً غير كلمة سرّك حالًا من هنا %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "هذا بريد إلكتروني الآلي، إذا تلقيته لوجود خطأ فليس مطلوب أي إجراء."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "هذا بريد إلكتروني آلي. إن لم تكن قد استوثقت هذا الإجراء <a %(resetLinkAttributes)s>فرجاءً صفّر كلمة السر</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "إذا كنت تظن أن شخصا أخر يحاول الوصول إلي حسابك، فرجاءً غير كلمة السرّ الخاصة بك."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "عنوان IP:‏ %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "أدِر الحساب:"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "سياسة موزيلا للخصوصيّة"
+
+#~ msgid "Firefox Cloud Terms of Service"
+#~ msgstr "شروط استخدام Firefox السحابية"
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "الشروط وتنويه الإلغاء"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "ألغِ الاشتراك"
+
+#~ msgid "Update billing information"
+#~ msgstr "حدّث معلومات الفوترة"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "الشروط وتنويه الإلغاء:"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "تنويه الخصوصية:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "لإلغاء الاشتراك:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "لتحديث معلومات الفوترة:"
+
+#~ msgid "Finish creating your account"
+#~ msgstr "أنهِ إنشاء حسابك"
+
+#~ msgid "Sign-in code for %(serviceName)s"
+#~ msgstr "رمز ولوج %(serviceName)s"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "اكتشافنا نشاط مُشتبَه به في حساب فَيَرفُكس الخاص بك. فربما اُخترق حسابك."
+
+#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+#~ msgstr "لتتجنب الوصول غير المصرح به لحساب فَيَرفُكس الخاص بك، أعدنا تعيين كلمة سرّك و نُعلمك كأجراء احترازي."
+
+#~ msgid "What should you do?"
+#~ msgstr "ماذا ينبغي أن تفعله؟"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "أولاً، غيّر كلمة السرّ الخاصة بحساب فَيَرفُكس."
+
+#~ msgid ""
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
+#~ msgstr "ثانياً، أذا كان فَيَرفُكس يخزن كلمات السرّ الخاصة بالمواقع فيجب تغيّرها أيضا. ربما حصَل المهاجمون علي كلمات السرّ هذه، لذلك يجب عليك فحص هذه الحسابات للأنشطة المشبُهة."
+
+#~ msgid "Learn how to see what passwords Firefox is storing for you."
+#~ msgstr "اطّلع على كلمات السرّ الخاصة بك المُخزنة في فَيَرفُكس."
+
+#~ msgid "Connect another device:"
+#~ msgstr "صِلْ جهازًا آخر:"
+
+#~ msgid "Account confirmed"
+#~ msgstr "تأكّد الحساب"
+
+#~ msgid "Connect another device"
+#~ msgstr "صِلْ جهاز آخر"
+
+#~ msgid "Privacy notice"
+#~ msgstr "تنويه الخصوصية"
+
+#~ msgid "Account verified!"
+#~ msgstr "اُكّد الحساب!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل الدخول إلى المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس للـ <a %(androidLinkAttributes)s>أندرويد</a> و <a %(iosLinkAttributes)s>آي "
+#~ "أو إس</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل الدخول إلى المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس لأندرويد و لآي أو إس."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "سجل الدخول للمزامنة:"
+
+#~ msgid "Welcome!"
+#~ msgstr "مرحبًا!"
+
+#~ msgid "Activate now:"
+#~ msgstr "فعّل الآن:"
+
+#~ msgid "Activate now"
+#~ msgstr "فعّل الآن"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "أكّد بريدك الإلكتروني لبدء التزامن!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. الآن يمكنك تسجيل الدخول إلى المزامنة من أجهزتك الأخري بما في ذلك فَيَرفُكس <a href='%(androidUrl)s'>لأندرويد</a> و <a href='%(iosUrl)s'>لآي أو إس</a>."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+#~ msgstr "اِتَّصَلَ جهازك الأول بحساب فَيَرفُكس الخاص بك بنجاح. صِلْ الحساب بأي فَيَرفُكس <a href='%(androidUrl)s'>لأندرويد</a> أو <a href='%(iosUrl)s'>لآي أو إس</a> للاستفادة القصوى من التزامُن."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "سجل الدخول للمزامنة"
+
+#~ msgid "This is an automated email."
+#~ msgstr "هذه رسالة آلية."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+#~ msgstr "هذا بريد إلكتروني الآلي، إذا كان غير مسموح لهذا الإجراء، فرجاءً <a %(passwordChangeLinkAttributes)s>غير كلمة السرّ الخاصة بك</a>."
+
+#~ msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "إن لم تكن قد غيّرتها، فرجاءً <a %(resetLinkAttributes)s>صفّر كلمة السر</a> الآن."
+
+#~ msgid "Verify Email"
+#~ msgstr "أكّد البريد الإلكتروني"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "أكّد بريدك الإلكتروني لإنهاء تسجيل حساب فَيَرفُكس الخاص بك"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "إذا كنت تظن أن شخصا أخر يحاول الوصول إلي حسابك، فرجاءً <a %(passwordChangeLinkAttributes)s>غير كلمة السرّ الخاصة بك</a>."
+
+#~ msgid "Verify email "
+#~ msgstr "أكّد البريد "
+
+#~ msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "إن لم تكن قد استوثقت هذا الإجراء <a %(passwordChangeLinkAttributes)s>فرجاءً غيّر كلمة السر</a>."
+
+#~ msgid "If you did not authorize this action, please change your password."
+#~ msgstr "إن لم تكن من استوثق هذا الإجراء، فرجاءً غيّر كلمة السر."
+
+#~ msgid "Verify your Firefox Account"
+#~ msgstr "أكّد حساب فَيَرفُكس الخاص بك"
+
+#~ msgid "Firefox Account authorization code"
+#~ msgstr "رمز التخويل لحسابَ فَيَرفُكس"
+
+#~ msgid "Sign-in code for Firefox"
+#~ msgstr "رمز الولوج إلى فَيَرفُكس"
+
+#~ msgid "Reset your Firefox Account password"
+#~ msgstr "إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس"
+
+#~ msgid "Your Firefox Account password has been changed"
+#~ msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُكس"
+
+#~ msgid "Firefox Account password changed"
+#~ msgstr "تغيّرت كلمة سر حساب فَيَرفُكس"
+
+#~ msgid "Firefox Account password reset required"
+#~ msgstr "إعادة تعيين كلمة السرّ لحساب فَيَرفُكس مطلوب"
+
+#~ msgid "Firefox Account verified"
+#~ msgstr "اُكّد حسابَ فَيَرفُكس"
+
+#~ msgid "Secondary Firefox Account email added"
+#~ msgstr "أُضيفَ البريد الإلكتروني الثانوي لحساب فَيَرفُكس"
+
+#~ msgid "Firefox Account new primary email"
+#~ msgstr "البريد الأولي الجديد لحساب فَيَرفُكس"
+
+#~ msgid "Secondary Firefox Account email removed"
+#~ msgstr "أُزيلَ البريد الإلكتروني الثانوي لحساب فَيَرفُكس"
+
+#~ msgid "Firefox Account password reset with recovery key"
+#~ msgstr "صُفِّرت كلمة سرّ حساب فَيَرفُكس بمفتاح الاستعادة"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "لم يُعثر على الصفحة التي طلبتها. لقد علمنا بالأمر وسنُصلح أيّ رابط قد يكون معطوبا."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "يا للأسف، حدث خطأ ما. لقد تم إخطارنا وسنعمل على إصلاحه."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "نحن حاليًا تحت ضغوط كبيرة و نعمل على إرجاع النظام إلى طبيعته بأسرع وقت ممكن."
+
+#~ msgid "Hello again."
+#~ msgstr "مرحبًا مرة أخرى."
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "رجاءً فعّل حسابك عن طريق تأكيد عنوان بريدك الإلكتروني هذا."
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "أنت تستخدم متصفح <strong>غير مُحدّثة</strong>. رجاءً <a href=\"http://browsehappy.com/\">رقّي متصفحك</a> لتحسين الخدمة."
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "أنشأت حساب فَيَرفُكس منذ فترة و لم تأكّده. انقر فوق الرابط الموجود أدناه لتفعيل حسابك."
+
+#~ msgid "New sign-in to Firefox"
+#~ msgstr "تسجيل دخول جديد لفَيَرفٌكس"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "تم إعادة تعيين كلمة السرّ الخاصة بك"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُكس. إذا لم تقم بتغيرها، فرجاءً <a %(resetLinkAttributes)s>إعادة تعيين كلمة السرّ الخاصة بك</a> الآن."
+
+#~ msgid "Password reset successfully"
+#~ msgstr "تم إعادة تعيين كلمة السرّ بنجاح"
+
+#~ msgid "Your Firefox Account password has been successfully reset."
+#~ msgstr "تم إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس بنجاح."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "هذا بريد إلكتروني الآلي، إذا لم تعيد تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس، فرجاءً غير كلمة السرّ حالاً من هنا %(resetLink)s"
+
+#~ msgid "Forgot your password?"
+#~ msgstr "هل نسيت كلمة السرّ؟"
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+#~ msgstr "اضغط على الزر خلال الساعة القادمة لتتمكن من وضع كلمة سر جديدة لحسابك في فَيرفُكس. أتى هذا الطلب من الجهاز التالي:"
+
+#~ msgid "Reset password"
+#~ msgstr "إعادة تعيين كلمة السرّ"
+
+#~ msgid ""
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr "أنشأت حساب فَيَرفُكس قبل بضعة أيام و لم تأكّده. تأكيد الحساب يتيح لك الوصول إلى ألسنتك و علاماتك و كلمات السرّ والتاريخ على أي جهاز مُتصل به. ببساطة أكّد عنوان البريد الإلكتروني هذا لتفعيل حسابك."
+
+#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "أنشأت حساب فَيَرفُكس قبل عدة أسابيع و لم تأكّده. هل هناك خطب ما! ببساطة أكّد عنوان البريد الإلكتروني هذا لتفعيل حسابك."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+#~ msgstr "لمزيد من الأمان، رجاءً أكّد تسجيل دخولك لبداء علمية التزامُن مع هذا الجهاز:"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "أكّد الولوج الجديد لفَيَرفُكس"
+
+#~ msgid "Your Firefox Account password has been reset"
+#~ msgstr "تم إعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس"
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "خدمات فَيَرفُكس السّحابيّة"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "أكّد البريد الإلكتروني لحسابات فَيَرفُكس"
+
+#~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
+#~ msgstr "هل سجلت الدخول لحساب فَيَرفُكس الخاص بك بأي من الأماكن التالية في 60 يوم الأخيرة؟ إذا كنت لا تعترف بأي من هذه الأماكن فأن هناك شخص ما حصل علي حساب فَيَرفُكس الخاص بك."
+
+#~ msgid "Date & Time:"
+#~ msgstr "الوقت و التاريخ:"
+
+#~ msgid "Device:"
+#~ msgstr "جهاز:"
+
+#~ msgid "Location:"
+#~ msgstr "مكان:"
+
+#~ msgid "If you don’t recognize the activity above:"
+#~ msgstr "إذا كنت لا تعترف بالنشاط أعلاه:"
+
+#~ msgid "Why are you receiving this email?"
+#~ msgstr "لماذا يصلك هذا البريد الإلكتروني؟"
+
+#~ msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
+#~ msgstr "لاحظنا في الآونة الأخيرة تسجيل دخول لحساب فَيَرفُكس الخاص بك من مواقع غير عادية. نُعلمك كأجراء احترازي."
+
+#~ msgid "Suspicious activity with your Firefox Account"
+#~ msgstr "نشاط مُشتبَه به في حساب فَيَرفُكس الخاص بك"
+
+#~ msgid "Your Firefox Account password has been successfully changed."
+#~ msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُكس بنجاح."
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account."
+#~ msgstr "خلال الساعة القادمة انقر الزر لضبط الكلمة السرّ الجديدة لحساب فَيَرفُكس."
+
+#~ msgid "Alternatively:"
+#~ msgstr "بدائل أخري:"
+
+#~ msgid "Firefox Account Verified"
+#~ msgstr "اُكّد حساب فَيَرفُكس"
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "تذكّر كلمة السر؟ سجل الدخول."
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "هذا بريد إلكتروني الآلي، إذا لم تضف جهاز جديد إلي حساب فَيَرفُكس، فرجاءً غير كلمة السرّ الخاصة بك حالأً من هنا %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
+#~ msgstr "هذا بريد إلكتروني الآلي، إذا لم تضف جهاز جديد إلى حساب فَيَرفُكس الخاص بك فيجب عليك تغيّر كلمة السرّ حالًا من %(resetLink)s."
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "هذا بريد إلكتروني الآلي، إذا لم تغيير كلمة السرّ الخاصة بحساب فَيَرفُكس فيجب عليك تغيّر كلمة السرّ حالًا من %(resetLink)s."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "هذا بريد إلكتروني الآلي، إذا لم تطلب أعادة تعيين كلمة السرّ الخاصة بحساب فَيَرفُكس فيجب عليك تغيير كلمة السرّ حالًا من %(resetLink)s."
+
+#~ msgid "Account activity notice"
+#~ msgstr "إشعار نشاط الحساب"
+
+#~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
+#~ msgstr "لأسباب أمنيّة تم أغلاق حسابك. للقيام بأنشطة على مستوى الحساب، رجاءً انقر فوق الرابط لإعادة تأكّيد حسابك الآن."
+
+#~ msgid "Verify account"
+#~ msgstr "أكّد الحساب"
+
+#~ msgid "Verify account:"
+#~ msgstr "أكّد الحساب:"
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+#~ msgstr "لمزيد من الأمان، رجاءً أكّد تسجيل دخولك هذا لبداء علمية التزامُن مع جهاز %(device)s."
+
+#~ msgid "Re-verify your Firefox Account"
+#~ msgstr "أعد تأكّيد حساب فَيَرفُكس الخاص بك"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+#~ msgstr "لمزيد من المعلومات، الرجاء زيارة <a %(supportLinkAttributes)s>مركز موزيلا للدّعم الفنّي</a>"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a href='%(resetLink)s'>reset your password</a> now."
+#~ msgstr "غُيّرت كلمة السرّ الخاصة بحساب فَيَرفُكس. أذا لم تغيرها رجاءً <a href='%(resetLink)s'>أعد تعيين كلمة السرّ</a> الآن."
+
+#~ msgid ""
+#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
+#~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr ""
+#~ "أنشأت حساب فَيَرفُكس قبل أسبوع و لم تأكّده. ونحن قلقون عليك. فَيَرفُكس مُتاح لنظام تشغيل ويندوز و ماك و لينكُس و أندرويد و آي أو إس. يمكنك مزامنة ألسنتك و علاماتك و كلمات السرّ و التاريخ عبر كل منهم. فقط "
+#~ "أكّد عنوان بريدك الإلكتروني هذا لتفعيل حسابك واسمح لنا أن نعرف أنك بخير."
+
+#~ msgid "contentServer.url"
+#~ msgstr "contentServer.url"
+
+#~ msgid "Bad Request"
+#~ msgstr "طلب سيّء"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(supportLinkAttributes)s>please report it to us</a>."
+#~ msgstr "إذا كنت تشك بأن شخص ما يحاول الوصول إلى حسابك، <a %(supportLinkAttributes)s>الرجاء إبلاغنا بذلك</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please report it to us."
+#~ msgstr "إذا كنت تشك بأن شخص ما يحاول الوصول إلى حسابك، الرجاء إبلاغنا بذلك."

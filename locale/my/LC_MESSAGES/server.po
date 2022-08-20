@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: 2019-05-01 16:10+0000\n"
 "Last-Translator: KyarPhyu <kyarphyunaing1994@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,8 +14,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox အကောင့်များ"
 
@@ -29,7 +33,8 @@ msgid ""
 "          will fix any links that may be broken."
 msgstr ""
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "မူလ"
 
@@ -65,11 +70,13 @@ msgstr "အလုပ်လုပ်နေတယ်"
 msgid "Firefox Accounts requires JavaScript."
 msgstr ""
 
-#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
 msgstr "ကိုယ်ရေးကာကွယ်မှု သတိပေးချက်"
 
-#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "အသုံးပြုရာတွင် လိုက်နာရမည့် စည်းကမ်းချက်များ"
 
@@ -81,58 +88,11 @@ msgstr ""
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
+"                        download and install the latest version of Firefox "
+"to\n"
 "                        continue."
 msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "နောက်ဆုံးပေါ်များ ဆွဲယူပါ"
-
-#~ msgid "Confirm sign-in"
-#~ msgstr "ဝင်ရောက်မှုကို အတည်ပြုပါ"
-
-#~ msgid "Manage account"
-#~ msgstr "အကောင့်ကို စီမံရန်"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "အခြားအီးမေးလ်ကို ဖျက်ခဲ့သည်"
-
-#~ msgid "Best,"
-#~ msgstr "အကောင်းဆုံး၊"
-
-#~ msgid "The Firefox Accounts team"
-#~ msgstr "Firefox အကောင့်များဆိုင်ရာအဖွဲ့"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "စကားဝှက်ကို အောင်မြင်စွာပြောင်းလဲခဲ့သည်"
-
-#~ msgid "Your account password was changed"
-#~ msgstr "သင့်အကောင့်စကားဝှက်ကိုပြောင်းလဲခဲ့သည်"
-
-#~ msgid "Verify email: "
-#~ msgstr "အီးမေးလ်ကို အတည်ပြုပါ။ "
-
-#~ msgid "Verify secondary email"
-#~ msgstr "အခြားအီးမေးလ်ကို အတည်ပြုပါ"
-
-#~ msgid "Manage account:"
-#~ msgstr "အကောင့်ကို စီမံရန်၊"
-
-#~ msgid "What should you do?"
-#~ msgstr "သင်ဘာလုပ်သင့်လဲ။"
-
-#~ msgid "Account verified!"
-#~ msgstr "အကောင့်ကို အတည်ပြုပြီး။"
-
-#~ msgid "Welcome!"
-#~ msgstr "ကြိုဆိုပါတယ်။"
-
-#~ msgid "Verify Email"
-#~ msgstr "အီးမေလ်းကို အတည်ပြုပါ"
-
-#~ msgid "Verify email "
-#~ msgstr "အီးမေလ်းကို အတည်ပြုပါ "
-
-#~ msgid "Hello again."
-#~ msgstr "ထပ်မံနှုတ်ခွန်းဆက်သပါတယ်။"

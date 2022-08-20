@@ -1,0 +1,475 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2021-08-30 05:29+0000\n"
+"Last-Translator: عمر <um.qshi@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+msgid "Firefox Accounts"
+msgstr "Firefox اکاؤنٹس"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "صفہہ نہیں ملا"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and\n"
+"          will fix any links that may be broken."
+msgstr ""
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "گھر"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "500 نقص"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and\n"
+"          will get working on a fix."
+msgstr ""
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "502 نقص"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "پیش کار مصروف ہے، کچھ دیر میں پھر کوشش کریں"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return\n"
+"          the system to normal as soon as possible."
+msgstr ""
+
+#: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr "لوڈ کیا جا رہاہے"
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Firefox اکاؤنٹ کو جاوا سکرپٹ کی ضرورت ہے۔"
+
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+msgid "Privacy Notice"
+msgstr "رازداری کا نوٹس"
+
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+msgid "Terms of Service"
+msgstr "خدمت کی شرائط"
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr "Firefox  کی تازہ کاری  درکار  ہے"
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr "تازہ ترین ڈاؤن لوڈ کریں"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaBrowser)s پر %(uaOS)s %(uaOSVersion)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaBrowser)s پر %(uaOS)s"
+
+#~ msgid "Final reminder: Activate your account"
+#~ msgstr "آخری یاد دہانی: اپنا اکاؤنٹ چالو کریں"
+
+#~ msgid "Confirm email"
+#~ msgstr "ای میل کی توثیق کریں"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "سائن کی تصدیق کریں"
+
+#~ msgid "Confirm primary email"
+#~ msgstr "بنیادی ای میل کی تصدیق کریں"
+
+#~ msgid "Verify email"
+#~ msgstr "ای میل کی توثیق کریں"
+
+#~ msgid "Confirm secondary email"
+#~ msgstr "ثانوی ای میل کی تصدیق کریں"
+
+#~ msgid "Reset your password"
+#~ msgstr "اپنا پاس ورڈ دوبارہ سیٹ کریں"
+
+#~ msgid "Create new password"
+#~ msgstr "نیا پاس ورڈ تخلیق کریں"
+
+#~ msgid "Suspicious activity detected"
+#~ msgstr "مشکوک سرگرمی کا پتہ چلا ہے"
+
+#~ msgid "Manage account"
+#~ msgstr "اکاؤنٹ بندوبست کریں"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "%(clientName)s میں نیا سائن ان"
+
+#~ msgid "Set up next device"
+#~ msgstr "اگلا آلہ ترتیب دیں۔"
+
+#~ msgid "Secondary email added"
+#~ msgstr "ثانوی ای میل شامل کر دی گئی"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "ثانوی ای میل ہٹا دی گئی"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "دو قدمی توثیق فعال ہوگئ"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "نیابازیافت کوڈ تخلیق ہو گیا"
+
+#~ msgid "Generate codes"
+#~ msgstr "کوڈ تخلیق کریں"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "اکاؤنٹ کی بازیابی کی کلید بنادی گئی"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "اکاؤنٹ کی بازیابی کی کلید کو ہٹا دیا گیا"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "نیابازیافت کلید بنائیں"
+
+#~ msgid "Generate codes:"
+#~ msgstr "کوڈ تخلیق کریں:"
+
+#~ msgid "Best,"
+#~ msgstr "بہترين"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Firefoxاکاؤنٹس ٹیم"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "پاس ورڈ کامیابی سے تبدیل کر دیا گیا ہے"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "آپ کے Firefox اکاؤنٹ کا پاس ورڈ کامیابی کے ساتھ مندرجہ ذیل آلہ سے تبدیل کردیا گیا تھا:"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "آپ کے اکاؤنٹ کا پاس ورڈ تبدیل کیا گیا تھا"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "ہمہ وقت سازی کو دوبارہ شروع کرنے کیلئے آپ کو دوسرے آلات پر اپنا نیا پاس ورڈ درج کرنے کی ضرورت ہوگی۔"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "ہمہ وقت سازی کو دوبارہ شروع کرنے کیلئے آپ کو دوسرے آلات پر اپنا نیا پاس ورڈ درج کرنے کی ضرورت ہوگی۔"
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "نیابازیافت کلید بنائیں:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "مزہد معلومات کے لیئے، براہ مہربانی %(supportUrl)s کا دورہ کریں"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "اگر یہ آپ نہیں تھے تو ، کلید منسوخ کریں۔"
+
+#~ msgid "New primary email"
+#~ msgstr "نئی بنیادی ای میل"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "استعمال شدہ بازیافت کا کوڈ"
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "دو قدمی توثیق غیر فعال ہوگئ"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "ہر ایک سائن ان پر سیکیورٹی کوڈز کی ضرورت نہیں ہوگی۔"
+
+#~ msgid "Firefox Account verified. You're almost there."
+#~ msgstr "Firefox  اکاؤنٹ کی تصدیق ہوگئی۔ آپ تقریباً   وہاں ہیں ۔"
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "سوالات ہیں؟ %(supportUrl)s ملاحظہ کریں"
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "اپنا پاس ورڈ پھر کرنے کی ظرورت ہے؟"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "جاتے ہوئے دیکھ کر افسوس ہو رہا ہے "
+
+#~ msgid "Welcome to %(productName)s"
+#~ msgstr "%(productName)s میں خوش آمدید"
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "اپ گریڈ کرنے کے لیے شکریہ!"
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "کیا یہ آُپ ہیں جو سائن ان کر رہے ہیں؟"
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Firefox کے خاندان میں خوش آمدید"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "کچھ دن پہلے آپ نے Firefox اکاؤنٹ بنایا ، لیکن کبھی اس کی تصدیق نہیں ہوئی۔"
+
+#~ msgid "Confirm email:"
+#~ msgstr "ای میل کی توثیق کریں:"
+
+#~ msgid "Still there?"
+#~ msgstr "ابھی تک موجود ہے؟"
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "اظاافی سلامتی کے لئے،،براہ مہربانی مندرجہ زیل آلہ کے سائن کی تصدیق کریں:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "یہ 5 منٹ میں ختم ہو جاتا ہے۔"
+
+#~ msgid "Verify primary email"
+#~ msgstr "بنیادی ای میل کی توثیق کریں"
+
+#~ msgid "Verify email: "
+#~ msgstr "ای میل کی تصدیق کریں: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "ثانوی ای میل کی توثیق کریں"
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "کیا یہ آپ ہیں جو سائن اپ کر رہے ہیں؟"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "تیار, سیٹ, ہمہ وقت سازی"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "مزید معلومات کے لیئے  براہ مہربانی <a %(supportLinkAttributes)s>Mozilla Support</a>.ملاحظہ کریں۔"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "یہ ایک خودکار ای میل ہے؛ اگر یہ آپ کو کسی نقص میں موصول ہوئی ہے، کو عمل کرنے کی ظرورت نہیں ہے۔"
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "یہ ایک خودکار ای میل ہے؛ اگر آپ نے اس حرکت کا اختیار نہیں دیا، بھر <a %(resetLinkAttributes)s>براہ مہربانی اپنا پاسورڈ پھر سیٹ کریں</a>"
+
+#~ msgid "Manage account:"
+#~ msgstr "اکاؤنٹ بندوبست کریں:"
+
+#~ msgid "Payment details:"
+#~ msgstr "ادائیگی کی تفصیلات"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Mozilla کی رازداری پالیسی"
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "شرائط اور منسوخی کی پالیسی"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "رکنیت منسوخ کریں"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "رکنیت منسوخ کریں"
+
+#~ msgid "Legal"
+#~ msgstr "قانونى"
+
+#~ msgid "Privacy"
+#~ msgstr "رازداری"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "شرائط اور منسوخی کی پالیسی"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "رازداری کا نوٹس:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "رکنیت منسوخ کریں:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "رکنیت منسوخ کریں:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "بلنگ کی معلومات کیتازہ کاری کریں:"
+
+#~ msgid "Finish creating your account"
+#~ msgstr "اپنا اکاؤنٹ بنانا ختم کریں"
+
+#~ msgid "Download %(productName)s"
+#~ msgstr "%(productName)s ڈاؤن لوڈ کریں"
+
+#~ msgid "Two-step verification enabled"
+#~ msgstr "دو قدمی توثیق فعال ہوگئی"
+
+#~ msgid "Two-step verification is off"
+#~ msgstr "دو قدمی توثیق بند ہے"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "آپ کے Firefox اکائونٹ پر مشکوک سرگرمی کا انکشاف ہوا ہے۔آپ کے اکائونٹ پر اشتباہ کیا جا سکتا ہے۔"
+
+#~ msgid "What should you do?"
+#~ msgstr "آپ کو کیا کرنا چاہیے؟"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "سب سے پہلے, اپنےFirefox اکاؤنٹ کا پاس ورڈ تبدیل کریں۔"
+
+#~ msgid "If yes, use this verification code:"
+#~ msgstr "اگر ہاں تو ، یہ توثیقی کوڈ استعمال کریں:"
+
+#~ msgid "Connect another device:"
+#~ msgstr "ایک اور آلہ جوڑیں:"
+
+#~ msgid "Account confirmed"
+#~ msgstr "اکاؤنٹ کی تصدیق ہوگئی"
+
+#~ msgid "Connect another device"
+#~ msgstr "ایک اور آلہ جوڑیں"
+
+#~ msgid "Set up recovery email"
+#~ msgstr "بازیابی کی ای میل مرتب کریں"
+
+#~ msgid "Add a secondary email"
+#~ msgstr "ایک ثانوی ای میل شامل کریں"
+
+#~ msgid "Get a recovery key"
+#~ msgstr "بازیافت کی کلید حاصل کریں"
+
+#~ msgid "Privacy notice"
+#~ msgstr "رازداری کا نوٹس"
+
+#~ msgid "Avoid account lockout"
+#~ msgstr "اکاؤنٹ لاک آؤٹ سے بچیں"
+
+#~ msgid "Set up a secondary email: "
+#~ msgstr "ثانوی ای میل مرتب کریں: "
+
+#~ msgid "Helps you get back in if you lose access to your email."
+#~ msgstr "اگر آپ نے اپنے ای میل تک رسائی کھو دی ہے تو آپ کو واپس آنے میں مدد ملتی ہے۔"
+
+#~ msgid "Set up a secondary email:"
+#~ msgstr "ثانوی ای میل مرتب کریں:"
+
+#~ msgid "Set up account recovery"
+#~ msgstr "اکاؤنٹ کی بازیابی مرتب کریں"
+
+#~ msgid "Account verified!"
+#~ msgstr "توثیق شدہ اکاؤنٹ!"
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "ہمہ وقت سازی میں سائن ان کریں:"
+
+#~ msgid "Welcome!"
+#~ msgstr "خوش آمد ید!"
+
+#~ msgid "Activate now:"
+#~ msgstr "‏‏ابھی فعال کریں:"
+
+#~ msgid "Activate now"
+#~ msgstr "‏‏ابھی فعال بنائِں"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "اپنی ای میل کی تصدیق کریں اور ہمہ وقت سازی کرنا شروع کریں!"
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "ہمہ وقت سازی میں سائن ان کریں"
+
+#~ msgid "This is an automated email."
+#~ msgstr "یہ ایک خود کار ای میل ہے۔"
+
+#~ msgid "Verify Email"
+#~ msgstr "ای میل کی توثیق کریں"
+
+#~ msgid "Verify email "
+#~ msgstr "ای میل کی توثیق کریں"
+
+#~ msgid "If you did not authorize this action, please change your password."
+#~ msgstr "اگر آپ نے اس عمل کی اجازت نہیں دی، براہ مہربانی اپنا پاس ورڈ تبدیل کریں۔"
+
+#~ msgid "Verify your Firefox Account"
+#~ msgstr "اپنے Firefox اکاؤنٹ کی تصدیق"
+
+#~ msgid "Sign-in code for Firefox"
+#~ msgstr "سائن ان کوڈ برائے Firefox"
+
+#~ msgid "Reset your Firefox Account password"
+#~ msgstr "اپنےFirefox اکاؤنٹ کا پاس ورڈ پھر سیٹ کریں"
+
+#~ msgid "Your Firefox Account password has been changed"
+#~ msgstr "آپ کے Firefox اکاؤنٹ کا پاس ورڈ تبدیل کر دیا گیا ہے"
+
+#~ msgid "Firefox Account password changed"
+#~ msgstr "Firefox اکاِئونٹ کا پاسورڈ تبدیل کر دیا گیا ہے"
+
+#~ msgid "Firefox Account password reset required"
+#~ msgstr "Firefox اکاِئونٹ کا پاسورڈ درکار ہے"
+
+#~ msgid "Firefox Account verified"
+#~ msgstr "توثیق شدہ Firefox اکاؤنٹ"
+
+#~ msgid "Secondary Firefox Account email added"
+#~ msgstr "ثانوی Firefox اکاؤنٹ ای میل شاامل کر دی گئی"
+
+#~ msgid "Firefox Account new primary email"
+#~ msgstr "Firefox اکائونٹ نئی بنیادی ای میل"
+
+#~ msgid "Secondary Firefox Account email removed"
+#~ msgstr "ثانوی Firefox اکاؤنٹ ای میل ہٹا دی گئی"
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "اوہ میرے پیارے ، کچھ غلط نہیں گیا ۔ ہم کو اطلاع کردی گئی ہے اور ایک حل پر کام کر رپے ہیں۔"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "براہ مہربانی اپنے اکاؤنٹ کو چالو کرنے کے لِئے اس ای میل کے پتہ کی تصدیق کریں۔"
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "تھوڑی دیر پہلے آپ ایک Firefox اکاؤنٹ بنایا، لیکن کبھی بھی اس کی تصدیق ہے ۔ اپنے اکاؤنٹ کو چالو کرنے کے لئے نیچے دیئے گئے ربط پر کلک کریں۔"
+
+#~ msgid "New sign-in to Firefox"
+#~ msgstr "Firefox میں نیا سائن ان"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "آپ کا پاس ورڈ پھر سے سیٹ ہو چکا ہے"
+
+#~ msgid "Password reset successfully"
+#~ msgstr "پاس ورڈ کو کامیابی سے پھر سیٹ کر دیا گیا ہے"
+
+#~ msgid "Forgot your password?"
+#~ msgstr "اپنا پاس ورڈ بھول گئے ہیں؟"
+
+#~ msgid "Reset password"
+#~ msgstr "پاس ورڈ دوبارہ سیٹ کریں"
+
+#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "ایک ہفتہ پہلے آپ نے Firefox اکائونٹ بنایا لیکن کبھی بھی توثیق کاری نہیں کی۔ ہمیں آپ کی فکر ہے۔ اپنے ایمل اکائونٹ کی توثیقاری کر کے اپنا اکائونٹ بہال کریں اور ہمہں بتائیں کہ آپ ٹھیک ہیں۔"
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+#~ msgstr "اظاافی سلامتی کے لئے،،براہ مہربانی اس اس آلہ کے ساتھ ہمہ وقت سازی شروع کرنے کے لئے سائن کی تصدیق کریں:"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "Firefox میں نئے سائن ان کی تصدیق کریں"
+
+#~ msgid "Your Firefox Account password has been reset"
+#~ msgstr "آپ کے Firefox اکاؤنٹ کا پاس ورڈ پھر سیٹ کر دیا گیا ہے"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Firefox اکائوبٹس کے لیئے ای میل کی تصدیق کریں"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "آپ نے کامیابی سے %(secondaryEmail)s کی ثانوی ایمیل کے طور پر اپنے Firefox اکائونٹ میں تصدیق کر دی ہے۔ سلامتی اطلاع نامے اور ساِئن ان کی تصدیق دونوں ای میل پتہ پر بھیج دیے جائیں گے۔"
+
+#~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
+#~ msgstr "جیسے کہ درخواست کی گئی، یہاں ایک ربط ہے جس کے زریعے آپ Firefox اپنے موبائل آلہ پر تنصیب کر سکتے ہیں: %(link)s"

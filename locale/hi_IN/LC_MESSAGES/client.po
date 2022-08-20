@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: 2021-12-26 05:55+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,10 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "कूटशब्द सफलतापूर्वक बदला गया. जारी रखने के लिए साइन इन करें."
 
 #. submit button
-#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44
+#: .es5/templates/connect_another_device.mustache:11
+#: .es5/templates/force_auth.mustache:3
+#: .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "साइन इन"
@@ -34,8 +37,12 @@ msgid "Account deleted successfully"
 msgstr "खाता सफलतापूर्वक नष्ट किया गया"
 
 #: .es5/views/inline_totp_setup.js:156
-msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "%(code)s कोड को समर्थित अनुप्रयोगों में द्वि-चरणीय प्रमाणीकरण स्थापित करने के लिए उपयोग करें."
+msgid ""
+"Use the code %(code)s to set up two-step authentication in supported "
+"applications."
+msgstr ""
+"%(code)s कोड को समर्थित अनुप्रयोगों में द्वि-चरणीय प्रमाणीकरण स्थापित करने के लिए उपयोग "
+"करें."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -68,7 +75,8 @@ msgid "Your password has been reset"
 msgstr "आपका पासवर्ड पुनः तैयार कर दिया गया है"
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
-msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgid ""
+"Complete set-up by entering the new password on your other Firefox devices."
 msgstr "अपने अन्य Firefox उपकरणों पर नया पासवर्ड दर्ज करके सेट-अप पूरा करें."
 
 #: .es5/views/ready.js:72
@@ -80,18 +88,21 @@ msgid "Primary email confirmed"
 msgstr ""
 
 #: .es5/views/ready.js:77
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgid ""
+"Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "खाता अधिसूचनाएँ अब %(secondaryEmailVerified)s पर भी भेजी जाएँगी।"
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
 msgstr ""
 
-#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6
+#: .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "साइन इन पुष्टि हो गई"
 
-#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95
+#: .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
 msgstr "अब आप %(serviceName)s उपयोग करने के लिए तैयार हैं"
 
@@ -116,19 +127,31 @@ msgid "Other"
 msgstr "अन्य"
 
 #: .es5/views/support.js:270
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "<b>%(escapedLowercaseTopic)s</b> के बारे में Mozilla Support से संपर्क करने के लिए धन्यवाद। हम ईमेल द्वारा आपसे जल्द से जल्द संपर्क करेंगे।"
+msgid ""
+"Thank you for reaching out to Mozilla Support about <b>"
+"%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as "
+"possible."
+msgstr ""
+"<b>%(escapedLowercaseTopic)s</b> के बारे में Mozilla Support से संपर्क करने के लिए "
+"धन्यवाद। हम ईमेल द्वारा आपसे जल्द से जल्द संपर्क करेंगे।"
 
 #: .es5/views/support.js:272
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "<b>%(escapedSelectedProduct)s</b> के लिए <b>%(escapedLowercaseTopic)s</b> के बारे में Mozilla Support से संपर्क करने के लिए धन्यवाद। हम ईमेल द्वारा आपसे जल्द से जल्द संपर्क करेंगे।"
+msgid ""
+"Thank you for reaching out to Mozilla Support about <b>"
+"%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll "
+"contact you via email as soon as possible."
+msgstr ""
+"<b>%(escapedSelectedProduct)s</b> के लिए <b>%(escapedLowercaseTopic)s</b> के "
+"बारे में Mozilla Support से संपर्क करने के लिए धन्यवाद। हम ईमेल द्वारा आपसे जल्द से जल्द "
+"संपर्क करेंगे।"
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
 msgstr "आपका सिंक डेटा सुरक्षित है"
 
 #: .es5/views/post_verify/verified.js:54
-msgid "If you lose access to your account, you’ll be able to restore your sync data."
+msgid ""
+"If you lose access to your account, you’ll be able to restore your sync data."
 msgstr ""
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
@@ -147,7 +170,9 @@ msgstr "%(serviceName)s पर जारी रखें"
 msgid "Your account has been locked for security reasons"
 msgstr "आपका खाता सुरक्षा कारणों से बंद कर दिया गया है"
 
-#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+#: .es5/views/mixins/account-reset-mixin.js:47
+#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/reset_password.mustache:1
 msgid "Reset password"
 msgstr "कूटशब्द पुनः तैयार करें"
 
@@ -183,7 +208,9 @@ msgstr "Restmail खोलें"
 msgid "Hide password"
 msgstr "पासवर्ड छिपाएं"
 
-#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:169
+#: .es5/templates/partial/show-password.mustache:1
+#: .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "कूटशब्द दिखाएँ"
 
@@ -200,8 +227,12 @@ msgid "Firefox Recovery Key"
 msgstr "Firefox पुनर्प्राप्ति कोड"
 
 #: .es5/views/mixins/resend-mixin.js:53
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "ईमेल पुनः भेजा गया। एक सुगम वितरण सुनिश्चित करने के लिए accounts@firefox.com को अपने संपर्कों में जोड़ें।"
+msgid ""
+"Email resent. Add accounts@firefox.com to your contacts to ensure a smooth "
+"delivery."
+msgstr ""
+"ईमेल पुनः भेजा गया। एक सुगम वितरण सुनिश्चित करने के लिए accounts@firefox.com को अपने "
+"संपर्कों में जोड़ें।"
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -299,7 +330,9 @@ msgstr "कूटशब्द सफलतापूर्वक पुनः त
 msgid "Account recovery enabled"
 msgstr "खाता पुनर्प्राप्ति सक्षम किया गया"
 
-#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30
+#: .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61
+#: .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
 msgstr "अप्रत्याशित त्रुटि"
 
@@ -327,7 +360,8 @@ msgstr "अनुरोध हस्ताक्षर में अवैध �
 msgid "Invalid nonce in request signature"
 msgstr "अनुरोध हस्ताक्षर में अवैध अवसर"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:180
 msgid "Account already exists"
 msgstr "खाता पहले से मौजूद है"
 
@@ -448,7 +482,8 @@ msgid "Can not change primary email to an unverified email"
 msgstr "प्राथमिक ईमेल को किसी आसत्यापित ईमेल से नहीं बदल सकते"
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
-msgid "Can not change primary email to an email that does not belong to this account"
+msgid ""
+"Can not change primary email to an email that does not belong to this account"
 msgstr "प्राथमिक ईमेल को ऐसे ईमेल से नही बदल सकते जो इस खाते से सबंधित नही है"
 
 #: .es5/lib/auth-errors.js:208
@@ -535,8 +570,11 @@ msgstr "सर्वर व्यस्त, जल्द ही पुन: प�
 msgid "Feature not enabled"
 msgstr "सुविधा सक्षम नहीं है"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
-#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117
+#: .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45
+#: .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "प्रणाली अनुपलब्ध, जल्द ही पुन: प्रयास करें"
 
@@ -584,7 +622,8 @@ msgstr "कम से कम 8 अक्षरों का होना चा�
 msgid "Valid password required"
 msgstr "वैध कूटशब्द आवश्यक"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:412
 msgid "Valid email required"
 msgstr "वैध ईमेल आवश्यक"
 
@@ -652,7 +691,8 @@ msgstr "अमान्य डेटा विशेषता: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "डेटा विशेषता अनुपलब्ध: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555
+#: .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "वह सत्यापन लिंक पहले उपयोग हो गया था, और केवल एक बार उपयोग किया जा सकता है."
 
@@ -664,7 +704,8 @@ msgstr "यह एक आवश्यक जगह है"
 msgid "Authorization code required"
 msgstr "प्राधिकार कूट आवश्यक"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "क्षतिग्रस्त लिंक"
 
@@ -846,12 +887,18 @@ msgstr "अमान्य टोकन"
 
 #: .es5/lib/strings.js:25
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr "कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"service-tos\" href=\"%(termsUri)s\">सेवा की शर्तें</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">निजी सूचना</a> of %(serviceName)s (%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr ""
+"कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">सेवा की शर्तें</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">निजी सूचना</"
+"a> of %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgid ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-"
+"account\">Help</a>"
 msgstr ""
 
 #: .es5/lib/strings.js:34
@@ -871,8 +918,12 @@ msgid "IP address: %(ip)s"
 msgstr "IP एड्रेस: %(ip)s"
 
 #: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
-msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "अतिरिक्त सुरक्षा के लिए , कृपया इस साइन-इन की पुष्टि करें ताकि यह डिवाइस सिंक करना शुरू कर सके:"
+msgid ""
+"For added security, please confirm this sign-in to begin syncing with this "
+"device:"
+msgstr ""
+"अतिरिक्त सुरक्षा के लिए , कृपया इस साइन-इन की पुष्टि करें ताकि यह डिवाइस सिंक करना शुरू "
+"कर सके:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -883,18 +934,26 @@ msgid "500 Error"
 msgstr "500 त्रुटि"
 
 #: .es5/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "ओह प्रिय , कुछ गलत हो गया है । हमें अधिसूचित किया गया है और हम इसे सुधारना शुरू करेंगे ।"
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
+"ओह प्रिय , कुछ गलत हो गया है । हमें अधिसूचित किया गया है और हम इसे सुधारना शुरू करेंगे ।"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+#: .es5/templates/account_recovery_confirm_key.mustache:1
+#: .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
 msgstr "कूटशब्द पुनः तैयार करने हेतु लिंक की वैधता समाप्त"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:2
+#: .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "जिस लिंक पर आपने अपना कूटशब्द पुनः तैयार करने के लिए क्लिक किया है उसकी वैधता समाप्त हो चुकी है."
+msgstr ""
+"जिस लिंक पर आपने अपना कूटशब्द पुनः तैयार करने के लिए क्लिक किया है उसकी वैधता समाप्त हो "
+"चुकी है."
 
-#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+#: .es5/templates/account_recovery_confirm_key.mustache:3
+#: .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
 msgstr "नई लिंक प्राप्त"
 
@@ -902,30 +961,49 @@ msgstr "नई लिंक प्राप्त"
 msgid "Reset password with recovery key"
 msgstr "रिकवरी कुंजी के साथ पासवर्ड रीसेट करें"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
-#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6
+#: .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13
+#: .es5/templates/inline_totp_setup.mustache:2
+#: .es5/templates/inline_totp_setup.mustache:8
+#: .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2
+#: .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "जारी रखें %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "कृपया अपने Firefox खाते तक पहुंच प्राप्त करने के लिए एक सुरक्षित स्थान पर संग्रहीत रिकवरी कुंजी का उपयोग करें।"
+msgid ""
+"Please enter the one time use recovery key you stored in a safe place to "
+"regain access to your Firefox Account."
+msgstr ""
+"कृपया अपने Firefox खाते तक पहुंच प्राप्त करने के लिए एक सुरक्षित स्थान पर संग्रहीत रिकवरी "
+"कुंजी का उपयोग करें।"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have "
+"account recovery key saved, some of your data will be erased (including "
+"synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
 msgstr "रिकवरी कुंजी दर्ज करें"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+#: .es5/templates/account_recovery_confirm_key.mustache:10
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm recovery key"
 msgstr "रिकवरी कुंजी की पुष्टि करें"
 
@@ -938,10 +1016,12 @@ msgid "Cannot create account"
 msgstr "खाता नहीं बना सका"
 
 #: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgid ""
+"You must meet certain age requirements to create a Firefox&nbsp;account."
 msgstr ""
 
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+#: .es5/templates/cannot_create_account.mustache:4
+#: .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
 msgstr "अधिक जानें"
 
@@ -953,7 +1033,8 @@ msgstr ""
 msgid "Sync selections"
 msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+#: .es5/templates/choose_what_to_sync.mustache:5
+#: .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
 msgstr "इस उपकरण को सिंक न करें"
 
@@ -961,9 +1042,15 @@ msgstr "इस उपकरण को सिंक न करें"
 msgid "Reset password link damaged"
 msgstr "कूटशब्द पुनः तैयार करने हेतु लिंक क्षतिग्रस्त"
 
-#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "जिस लिंक पर आपने क्लिक किया है उसमें अक्षर अनुपस्थित हैं, एवं शायद आपके ईमेल यजमान द्वारा तोड़ दिया गया. ध्यानपूर्वक पता कॉपी करें, एवं पुनः प्रयास करें."
+#: .es5/templates/complete_reset_password.mustache:6
+#: .es5/templates/complete_sign_up.mustache:12
+#: .es5/templates/report_sign_in.mustache:2
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"जिस लिंक पर आपने क्लिक किया है उसमें अक्षर अनुपस्थित हैं, एवं शायद आपके ईमेल यजमान द्वारा "
+"तोड़ दिया गया. ध्यानपूर्वक पता कॉपी करें, एवं पुनः प्रयास करें."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -971,15 +1058,24 @@ msgstr "नया कूटशब्द बनाएँ"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
-"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+"<span>REMEMBER:</span> When you reset your password, you reset your account. "
+"You may lose some of your personal information (including history, "
+"bookmarks, and passwords). That’s because we encrypt your data with your "
+"password to protect your privacy. You’ll still keep any subscriptions you "
+"may have and Pocket data will not be affected."
 msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "आपने अपनी पुनर्प्राप्ति कुंजी का उपयोग करके अपने खाते को सफलतापूर्वक पुनर्स्थापित कर लिया है। अपने डेटा को सुरक्षित करने के लिए एक नया पासवर्ड बनाएं, और इसे सुरक्षित स्थान पर संग्रहीत करें।"
+msgid ""
+"You have successfully restored your account using your recovery key. Create "
+"a new password to secure your data, and store it in a safe location."
+msgstr ""
+"आपने अपनी पुनर्प्राप्ति कुंजी का उपयोग करके अपने खाते को सफलतापूर्वक पुनर्स्थापित कर लिया "
+"है। अपने डेटा को सुरक्षित करने के लिए एक नया पासवर्ड बनाएं, और इसे सुरक्षित स्थान पर "
+"संग्रहीत करें।"
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+#: .es5/templates/complete_reset_password.mustache:13
+#: .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
 msgstr "नया कूटशब्द"
 
@@ -987,7 +1083,10 @@ msgstr "नया कूटशब्द"
 msgid "Re-enter password"
 msgstr "कूटशब्द फिर डालें"
 
-#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+#: .es5/templates/complete_reset_password.mustache:16
+#: .es5/templates/confirm_reset_password.mustache:5
+#: .es5/templates/confirm_reset_password.mustache:7
+#: .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "कूटशब्द याद रखें? साइन इन करें"
 
@@ -1028,20 +1127,28 @@ msgid "Confirm this sign-in"
 msgstr "इस साइन-इन की पुष्टि करें"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgid ""
+"Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
 
 #: .es5/templates/confirm.mustache:9
-msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgid ""
+"Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "%(escapedEmail)s पर भेजे गए साइन-इन पुष्टिकरण लिंक के लिए अपना ईमेल देखें"
 
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm_reset_password.mustache:4
+#: .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "इनबॉक्स या स्पैम फ़ोल्डर में नहीं? पुन: भेजें"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/confirm.mustache:14
+#: .es5/templates/inline_recovery_setup.mustache:17
+#: .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6
+#: .es5/templates/tos.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "पीछे"
 
@@ -1050,10 +1157,14 @@ msgid "Reset email sent"
 msgstr "पुनः तैयार करने का ईमेल भेजा गया"
 
 #: .es5/templates/confirm_reset_password.mustache:2
-msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "नया पासवर्ड बनाने के लिए अगले घंटे के अंदर %(email)s पर ईमेल किए गए लिंक को दबाएँ।"
+msgid ""
+"Click the link emailed to %(email)s within the next hour to create a new "
+"password."
+msgstr ""
+"नया पासवर्ड बनाने के लिए अगले घंटे के अंदर %(email)s पर ईमेल किए गए लिंक को दबाएँ।"
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
@@ -1066,21 +1177,30 @@ msgstr ""
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4
+#: .es5/templates/sign_in_token_code.mustache:3
+#: .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "6-अंकों का कोड दर्ज करें"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:16
+#: .es5/templates/sign_in_recovery_code.mustache:5
+#: .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "पुष्टि"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr ""
 
@@ -1096,7 +1216,8 @@ msgstr ""
 msgid "Email confirmed"
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+#: .es5/templates/connect_another_device.mustache:9
+#: .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
 msgstr "अपना सेट-अप पूरा करें"
 
@@ -1104,11 +1225,14 @@ msgstr "अपना सेट-अप पूरा करें"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "सम्पूर्ण सेट-अप के लिए इस Firefox में साइन इन करें"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:13
+#: .es5/templates/connect_another_device.mustache:28
+#: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "अभी भी उपकरण जोड़ रहे हैं?"
 
-#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+#: .es5/templates/connect_another_device.mustache:15
+#: .es5/templates/connect_another_device.mustache:30
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "सेट-अप पूर्ण करने के लिए अन्य उपकरण पर Firefox में साइन इन करें"
 
@@ -1125,8 +1249,11 @@ msgid "We’re on Android and iOS, too!"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:22
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "अभी भी उपकरण जोड़ रहे हैं? सेट-अप को पूरा करने के लिए किसी अन्य उपकरण पर Firefox में साइन इन करें"
+msgid ""
+"Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
+"अभी भी उपकरण जोड़ रहे हैं? सेट-अप को पूरा करने के लिए किसी अन्य उपकरण पर Firefox में "
+"साइन इन करें"
 
 #: .es5/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1141,34 +1268,51 @@ msgid "Cookies and local storage are required"
 msgstr "कुकीज़ और स्थानीय भंडारण की आवश्यकता है"
 
 #: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Firefox लेखा उपयोग करने के लिए अपने ब्राउज़र में कुकी और स्थानीय भंडारण सक्षम करें । ऐसा करने से इस तरह के सत्र के बीच में आप को याद कर के रूप में कार्यक्षमता सक्षम हो जाएगा ।"
+msgid ""
+"Please enable cookies and local storage in your browser to access Firefox "
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
+msgstr ""
+"Firefox लेखा उपयोग करने के लिए अपने ब्राउज़र में कुकी और स्थानीय भंडारण सक्षम करें । ऐसा "
+"करने से इस तरह के सत्र के बीच में आप को याद कर के रूप में कार्यक्षमता सक्षम हो जाएगा ।"
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
 msgstr "पुनः प्रयास करें"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+#: .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1
 msgid ""
 "\n"
-"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader"
+"\">for your Firefox account</span>\n"
 "        "
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "कूटशब्द"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:8
+#: .es5/templates/sign_in_password.mustache:13
+#: .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href="
+"\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp"
+"\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9
+#: .es5/templates/sign_in_password.mustache:14
+#: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "भिन्न खाता उपयोग करें"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+#: .es5/templates/force_auth.mustache:10
+#: .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
 msgstr "कूटशब्द भूल गए?"
 
@@ -1185,7 +1329,8 @@ msgid "Enter your email"
 msgstr "अपना ईमेल प्रविष्ट करें"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgid ""
+"Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/index.mustache:9
@@ -1193,7 +1338,9 @@ msgid "Sign up or sign in"
 msgstr ""
 
 #: .es5/templates/index.mustache:11
-msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgid ""
+"A Firefox account also unlocks access to more privacy-protecting products "
+"from Mozilla."
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1201,29 +1348,41 @@ msgid "Save recovery codes"
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:3
-msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
+msgid ""
+"Store these one-time use codes in a safe place for when you don't have your "
+"mobile device."
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "डाउनलोड करें"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/inline_recovery_setup.mustache:6
+#: .es5/templates/inline_recovery_setup.mustache:8
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "प्रतिलिपि लें"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "मुद्रित करें"
 
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:10
+#: .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7
+#: .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "जारी रखें"
 
-#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+#: .es5/templates/inline_recovery_setup.mustache:11
+#: .es5/templates/inline_recovery_setup.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:5
+#: .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
 msgstr "सेटअप रद्द करें"
 
@@ -1232,7 +1391,9 @@ msgid "Confirm recovery code"
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgid ""
+"To ensure that you will be able to regain access to your account, in the "
+"event of a lost device, please enter one of your saved recovery codes."
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
@@ -1244,7 +1405,9 @@ msgid "Enable two-step authentication"
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:3
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgid ""
+"Add a layer of security to your account by requiring security codes from one "
+"of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:7
@@ -1256,15 +1419,19 @@ msgid "Enter code manually"
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:12
-msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgid ""
+"Scan the QR code in your authentication app and then enter the security code "
+"it provides."
 msgstr "अपने प्रमाणीकरण ऐप में क्यूआर कोड को स्कैन करें और फिर उसके सुरक्षा कोड को दर्ज करें।"
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "कोड स्कैन नहीं कर सकता?"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
-msgid "Once complete, it will begin generating security codes for you to enter."
+#: .es5/templates/inline_totp_setup.mustache:14
+#: .es5/templates/inline_totp_setup.mustache:18
+msgid ""
+"Once complete, it will begin generating security codes for you to enter."
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:16
@@ -1287,24 +1454,34 @@ msgstr ""
 msgid "Legal"
 msgstr "क़ानूनी"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23
+#: .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "सेवा की शर्तें"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1
+#: .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "निजी सूचना"
 
-#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+#: .es5/templates/marketing_snippet.mustache:1
+#: .es5/templates/marketing_snippet.mustache:5
+#: .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "पाएं साथ करने का सम्पूर्ण अनुभव."
 
-#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:2
+#: .es5/templates/marketing_snippet.mustache:3
+#: .es5/templates/marketing_snippet.mustache:11
+#: .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
 msgstr "Firefox के लिए iOS डाउनलोड करें!"
 
-#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:6
+#: .es5/templates/marketing_snippet.mustache:7
+#: .es5/templates/marketing_snippet.mustache:12
+#: .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
 msgstr "एंड्रॉयड हेतु फ़ायरफ़ॉक्स डाउनलोड करें"
@@ -1325,16 +1502,21 @@ msgstr "%(serviceName)s आपके खाते से निम्न जा�
 msgid "Accept"
 msgstr "स्वीकार"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:5
+#: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "रद्द"
 
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+#: .es5/templates/ready.mustache:1
+#: .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
 msgstr "सफल"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgid ""
+"You are now ready to use <div class=\"graphic %(serviceLogo)s\">"
+"%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
@@ -1354,24 +1536,33 @@ msgid "Report unauthorized sign-in?"
 msgstr "अनधिकृत प्रवेश की शिकायत करें?"
 
 #: .es5/templates/report_sign_in.mustache:5
-msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "आपको एक ईमेल प्राप्त हुआअपने खाते में प्रवेश करने के बारे में. क्या आप इस गतिविधि को रिपोर्ट करना चाहते हैं?"
+msgid ""
+"You received an email about attempted access to your account. Would you like "
+"to report this activity as suspicious?"
+msgstr ""
+"आपको एक ईमेल प्राप्त हुआअपने खाते में प्रवेश करने के बारे में. क्या आप इस गतिविधि को रिपोर्ट "
+"करना चाहते हैं?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
 msgstr "गतिविधि रिपोर्ट"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7
+#: .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "यह क्यों हो रहा है?"
 
 #: .es5/templates/reset_password.mustache:3
 msgid ""
-"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+"<span>NOTE:</span> When you reset your password, you reset your account. You "
+"may lose some of your personal information (including history, bookmarks, "
+"and passwords). That’s because we encrypt your data with your password to "
+"protect your privacy. You’ll still keep any subscriptions you may have and "
+"Pocket data will not be affected."
 msgstr ""
 
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+#: .es5/templates/reset_password.mustache:5
+#: .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
 msgstr "ईमेल"
 
@@ -1412,12 +1603,20 @@ msgid "Sorry. We’ve locked your&nbsp;account."
 msgstr "माफ़ कीजिये. हमने आपके&nbsp;खाते को अवरोधित कर दिया है."
 
 #: .es5/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "पुष्टि ईमेल हम %(email)s के लिए भेजा गया था और हम आपके खाते को बंद कर दिया है आपके फ़ायरफ़ॉक्स डेटा की रक्षा के लिए ।"
+msgid ""
+"The confirmation email we sent to %(email)s was returned and we’ve locked "
+"your account to protect your Firefox data."
+msgstr ""
+"पुष्टि ईमेल हम %(email)s के लिए भेजा गया था और हम आपके खाते को बंद कर दिया है आपके "
+"फ़ायरफ़ॉक्स डेटा की रक्षा के लिए ।"
 
 #: .es5/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "अगर यह एक मांय ईमेल पता है, तो <a %(escapedSupportLinkAttrs)s>हमें बताएं</a> और हम आपका खाता अनलॉक करने में मदद कर सकते हैं ।"
+msgid ""
+"If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us "
+"know</a> and we can help unlock your account."
+msgstr ""
+"अगर यह एक मांय ईमेल पता है, तो <a %(escapedSupportLinkAttrs)s>हमें बताएं</a> और हम "
+"आपका खाता अनलॉक करने में मदद कर सकते हैं ।"
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1427,9 +1626,13 @@ msgstr "वो ईमेल अब नहीं है? एक नया खा�
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href="
+"\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp"
+"\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy "
+"Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/"
+"terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href="
+"\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 
@@ -1454,11 +1657,15 @@ msgid "Thank you for your vigilance"
 msgstr "आपकी सतर्कता के लिए धन्यवाद"
 
 #: .es5/templates/sign_in_reported.mustache:2
-msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "हमारी टीम नेअधिसूचित किया है । इस तरह की रिपोर्ट हमें घुसपैठियों को रद मदद करती हैं ।"
+msgid ""
+"Our team has been notified. Reports like this help us fend off intruders."
+msgstr ""
+"हमारी टीम नेअधिसूचित किया है । इस तरह की रिपोर्ट हमें घुसपैठियों को रद मदद करती हैं ।"
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgid ""
+"Enter confirmation code <span class=\"card-subheader\">for your Firefox "
+"account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
@@ -1477,7 +1684,9 @@ msgstr "अपना प्रमाणीकरण ऐप खोलें औ�
 msgid "Trouble entering code?"
 msgstr "कोड दर्ज करने में परेशानी?"
 
-#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+#: .es5/templates/sign_in_unblock.mustache:1
+#: .es5/templates/sign_in_unblock.mustache:2
+#: .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
 msgstr "इस प्रवेश को अधिकृत करें"
 
@@ -1502,7 +1711,9 @@ msgid "Repeat password"
 msgstr "कूटशब्द आवृत्ति"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgid ""
+"You need this password to access any encrypted data you store with us.<br/>A "
+"reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
@@ -1521,9 +1732,13 @@ msgstr "खाता बनाएँ"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://"
+"getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id="
+"\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</"
+"a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/"
+"terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href="
+"\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
@@ -1547,7 +1762,8 @@ msgstr "हमसे संपर्क करें"
 msgid "What are you contacting us about?"
 msgstr "आप हमसे किस बारे में संपर्क कर रहे हैं?"
 
-#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11
+#: .es5/templates/support.mustache:18
 msgid "Please select one"
 msgstr "कृपया एक का चयन करें"
 
@@ -1607,11 +1823,13 @@ msgstr "2 का चरण 1: पासवर्ड फिर से दर्�
 msgid "Enter your password to view your recovery key."
 msgstr "अपनी रिकवरी कुंजी देखने के लिए अपना पासवर्ड दर्ज करें।"
 
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
 msgstr "पासवर्ड दर्ज करें"
 
-#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/push/completed.mustache:2
+#: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
 msgstr ""
 
@@ -1628,7 +1846,10 @@ msgid "Confirm sign-in"
 msgstr ""
 
 #: .es5/templates/push/confirm_login.mustache:4
-msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgid ""
+"If you suspect that someone is trying to gain access to your account, <a id="
+"\"change-password\" href=\"/settings/change_password\">please change your "
+"password.</a>"
 msgstr ""
 
 #: .es5/templates/push/send_login.mustache:2
@@ -1636,7 +1857,9 @@ msgid "Send login push notification"
 msgstr ""
 
 #: .es5/templates/push/send_login.mustache:3
-msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgid ""
+"Check your connected Firefox devices for the sign-in confirmation tab we've "
+"sent."
 msgstr ""
 
 #: .es5/templates/push/send_login.mustache:4
@@ -1647,25 +1870,32 @@ msgstr ""
 msgid "Tab not arriving? Send an email instead"
 msgstr ""
 
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
+msgid ""
+"Adding a secondary email helps you get back into your account if you are "
+"locked out and can not access %(escapedEmail)s."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
 msgstr "द्वितीयक मेल"
 
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "शायद बाद में"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgid ""
+"Please enter the confirmation code that was sent to %(escapedEmail)s within "
+"5 minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
@@ -1676,7 +1906,8 @@ msgstr ""
 msgid "Use a different email"
 msgstr "एक अलग ईमेल का उपयोग करें"
 
-#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+#: .es5/templates/post_verify/password/force_password_change.mustache:1
+#: .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
 msgstr "कृपया अपना पासवर्ड बदलें"
 
@@ -1686,11 +1917,14 @@ msgstr "%(serviceName)s में जारी रखने के लिए"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+"We detected suspicious behavior on your Firefox account. To protect your "
+"account, please create a new password. You’ll use this password to sign back "
+"in to all of your Firefox account services."
 msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
-msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgid ""
+"Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
@@ -1726,10 +1960,13 @@ msgid "Subscribe %(email)s"
 msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client."
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client."
 msgstr ""
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
 msgstr "एक फ़ायरफ़ॉक्स खाता बनायें"
 
@@ -1741,7 +1978,8 @@ msgstr ""
 msgid "Enter a password"
 msgstr "पासवर्ड दर्ज करें"
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "पासवर्ड की पुष्टि करें"
@@ -1771,14 +2009,17 @@ msgid "Sync Firefox between devices"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
-msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
+msgid ""
+"Sync bookmarks, history, and passwords to Firefox on your mobile devices. It "
+"only takes a few minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
 msgstr ""
 
@@ -1787,7 +2028,9 @@ msgid "Download Firefox with your camera app"
 msgstr "अपने कैमरा ऐप से Firefox डाउनलोड करें"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
-msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
+msgid ""
+"Installing Firefox and syncing between at least two devices also protects "
+"against losing your data."
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
@@ -1795,7 +2038,9 @@ msgid "Ready to scan"
 msgstr "स्कैन करने के लिए तैयार"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
+msgid ""
+"<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile "
+"device</h1><p>with a QR code we've created just for you</p>"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
@@ -1819,18 +2064,22 @@ msgid "<span class=\"number\">1</span>Open the camera app on your device"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgid ""
+"<span class=\"number\">2</span>Point the camera at the QR code and tap the "
+"link that appears"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgid ""
+"<span class=\"number\">3</span>Install Firefox and open it on your device"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr ""
 
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
 msgstr ""
 
@@ -1839,7 +2088,10 @@ msgid "Your synced data can include passwords you've saved."
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
-msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
+msgid ""
+"Because this information is critical to your security, Firefox deletes it to "
+"protect you when your password is reset to prevent other people from "
+"accessing it."
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
@@ -1847,14 +2099,17 @@ msgid "Get a Recovery Key"
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgid ""
+"Please confirm your password for %(escapedEmail)s to generate your recovery "
+"key."
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
 msgstr ""
 
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr ""
 
@@ -1863,14 +2118,21 @@ msgid "Done"
 msgstr "समाप्त"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
-msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgid ""
+"Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out "
+"here</a>"
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid ""
+"How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr "आपकी उम्र क्या है?"
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -1915,11 +2177,15 @@ msgid "Not a commonly used password"
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgid ""
+"Stay safe &mdash; don’t reuse passwords. See more tips to <a "
+"%(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
 msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgid ""
+"Hmm, we're having trouble with our system. We're working on fixing it for "
+"you and apologize for the inconvenience. Please try again later."
 msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:1
@@ -1931,8 +2197,11 @@ msgid "Back to Subscriptions"
 msgstr "वापस सदस्यताओं पर"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Firefox संकालन करना चाहते हैं? <a %(escapedSyncSuggestionAttrs)s>यहाँ शुरू करें</a>"
+msgid ""
+"Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started "
+"here</a>"
+msgstr ""
+"Firefox संकालन करना चाहते हैं? <a %(escapedSyncSuggestionAttrs)s>यहाँ शुरू करें</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
@@ -1963,22 +2232,28 @@ msgid "Yes, approve device"
 msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
+msgid ""
+"If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change "
+"your password</a> "
 msgstr ""
 
-#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+#: .es5/templates/pair/auth_complete.mustache:1
+#: .es5/templates/pair/success.mustache:1
 msgid "Device connected"
 msgstr "डिवाइस कनेक्ट किया गया"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
 "\n"
-"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</"
+"span>\n"
 "      "
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
-msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgid ""
+"Now you can access your open tabs, passwords, and bookmarks on all your "
+"devices."
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:5
@@ -1989,7 +2264,8 @@ msgstr ""
 msgid "Manage devices"
 msgstr "उपकरणों को प्रबंधित करें"
 
-#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1
+#: .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
 msgstr "<small>अब आपके अन्य डिवाइस </small> से स्वीकृति की आवश्यकता है"
 
@@ -2010,11 +2286,15 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
+msgid ""
+"To download Firefox on your mobile device, hold the device’s camera over "
+"this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/"
+"\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
@@ -2022,7 +2302,9 @@ msgid "I’m ready to sync devices"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
-msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgid ""
+"Sync devices to access your tabs, passwords, and bookmarks everywhere you "
+"use Firefox."
 msgstr ""
 
 #: .es5/templates/pair/success.mustache:2
@@ -2048,1181 +2330,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "प्राथमिक ईमेल सत्यापित"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "द्वितीयक ईमेल सत्यापित"
-
-#~ msgid "Account verified"
-#~ msgstr "खाता सत्यापित"
-
-#~ msgid "Verification link expired"
-#~ msgstr "सत्यापन लिंक की वैधता समाप्त"
-
-#~ msgid "Click here to receive a new verification link"
-#~ msgstr "नया सत्यापन लिंक प्राप्त करने के लिए यहाँ दबाएं"
-
-#~ msgid "Verification error"
-#~ msgstr "सत्यापन त्रुटि"
-
-#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "अपने ईमेल की जाँच करें सत्यापन लिंक के लिए &nbsp;को %(escapedEmail)s भेजा गया है"
-
-#~ msgid "Email verified"
-#~ msgstr "ईमेल सत्यापित हुआ"
-
-#~ msgid "Verified"
-#~ msgstr "सत्‍यापित किया गया"
-
-#~ msgid "Verify"
-#~ msgstr "सत्यापित करें"
-
-#~ msgid "Enter verification code"
-#~ msgstr "सत्यापन कोड दर्ज करें"
-
-#~ msgid "Logins and Passwords"
-#~ msgstr "लॉगिन और पासवर्ड"
-
-#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-#~ msgstr "अनिवार्य है की आप एक उचित आयु माँग को पूरी करें यदि आप बनाना चाहते हैं एक Firefox&nbsp;खाता."
-
-#~ msgid "Check your email for the code sent to %(email)s."
-#~ msgstr "%(email)s पर भेजे गए कोड के लिए अपना ईमेल जाँचें."
-
-#~ msgid "Why is more than one device required?"
-#~ msgstr "क्यों एक से अधिक उपकरण की आवश्यकता है?"
-
-#~ msgid "Why sync multiple devices?"
-#~ msgstr "विभिन्न उपकरणों हेतु संकालन क्यों?"
-
-#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-#~ msgstr "सिंक सेवा एक स्थायी बैकअप नहीं है, यह सिर्फ अपने उपकरणों के बीच सहेजे गए पुस्तकचिन्ह, इतिहास और पासवर्ड स्तांतरण करने का एक सुरक्षित तरीका है."
-
-#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-#~ msgstr "आपको Firefox स्थापित करना चाहिए और सिंक करने के लिए अपने डेटा को खोने के खिलाफ की रक्षा के लिए अगर आप इसे बहाल लेकिन अपना पासवर्ड भूल जाते हैं."
-
-#~ msgid "Got it"
-#~ msgstr "समझ गए"
-
-#~ msgid "Firefox browser"
-#~ msgstr "Firefox ब्राउज़र"
-
-#~ msgid "Mozilla VPN"
-#~ msgstr "Mozilla VPN"
-
-#~ msgid "Pocket"
-#~ msgstr "Pocket"
-
-#~ msgid "Firefox Relay"
-#~ msgstr "Firefox Relay"
-
-#~ msgid "Must not be your email address"
-#~ msgstr "आपका ईमेल पता नहीं होना चाहिए"
-
-#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-#~ msgstr ""
-#~ "<a %(escapedCommonPasswordLinkAttrs)s>सामान्य पास्वर्ड की यह सूची </a> से मेल नहीं खाना चाहिए\n"
-#~ "\n"
-
-#~ msgid "Approve new device <small>for %(email)s</small>"
-#~ msgstr "<small>%(email)s के लिए</small> नयी डिवाइस को स्वीकृत करें"
-
-#~ msgid "Approve device"
-#~ msgstr "उपकरण स्वीकृत करें"
-
-#~ msgid "You are now syncing with:"
-#~ msgstr "अब आप इसके साथ सिंक कर रहे हैं:"
-
-#~ msgid "Open the code scanner on your Firefox app and show code when ready."
-#~ msgstr "अपने Firefox ऐप पर कोड स्कैनर खोलें और तैयार होने पर कोड दिखाएं।"
-
-#~ msgid "Show code"
-#~ msgstr "कोड दिखाएं"
-
-#~ msgid "Would you like to sync your phone?"
-#~ msgstr "क्या आप अपने फोन को सिंक करना चाहेंगे?"
-
-#~ msgid "Send a link by SMS to install Firefox on your phone."
-#~ msgstr "अपने फोन पर Firefox इंस्टॉल करने के लिए SMS द्वारा एक लिंक भेजें।"
-
-#~ msgid "Mobile phone number"
-#~ msgstr "मोबाइल फ़ोन नंबर"
-
-#~ msgid "Not now"
-#~ msgstr "अभी नहीं"
-
-#~ msgid "Check your texts"
-#~ msgstr "अपने अवतरणों की जाँच करें"
-
-#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-#~ msgstr "Firefox ऐप का लिंक %(escapedPhoneNumber)s पर भेजा गया"
-
-#~ msgid "Wrong number?"
-#~ msgstr "गलत नंबर?"
-
-#~ msgid "Didn't arrive? Resend"
-#~ msgstr "नही पंहुचा ? पुन: भेजें"
-
-#~ msgid "Why sign in on another device?"
-#~ msgstr "किसी अन्य डिवाइस पर साइन इन क्यों करें?"
-
-#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">मदद</a>"
-
-#~ msgid "Firefox Lockwise"
-#~ msgstr "Firefox लॉकवाइज"
-
-#~ msgid "Firefox Monitor"
-#~ msgstr "Firefox मॉनीटर"
-
-#~ msgid "Get a lookout for data breaches."
-#~ msgstr "डेटा उल्लंघनों की तलाश करें।"
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
-#~ "encrypt your data with your password to protect your privacy."
-#~ msgstr ""
-#~ "<span>याद रखें:</span> जब आप अपना कूटशब्द दोबारा ठीक करते हैं, तो आप अपना खाता पुनः ठीक करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और कूटशब्द सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि हम आपकी गोपनीयता को "
-#~ "सुरक्षित रखने के लिए आपके डेटा को आपके कूटशब्द से कूटलेखित करते हैं।"
-
-#~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
-#~ msgstr ""
-#~ "<span>नोट:</span> जब आप अपना पासवर्ड रीसेट करते हैं, तो आप अपना खाता रीसेट करते हैं। आप अपनी कुछ व्यक्तिगत जानकारी (इतिहास, बुकमार्क और पासवर्ड सहित) खो सकते हैं। ऐसा इसलिए है क्योंकि हम आपकी गोपनीयता की सुरक्षा के लिए "
-#~ "आपके डेटा को आपके पासवर्ड से कूटलेखित करते हैं।"
-
-#~ msgid "Change..."
-#~ msgstr "बदलें..."
-
-#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
-#~ msgstr "आप एक बार संपूर्ण करने के बाद, अपने नए कूटशब्द का उपयोग कर अपने संपूर्ण यंत्रों में साइन इन करें."
-
-#~ msgid "Change"
-#~ msgstr "बदलें"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "पासवर्ड सफलतापूर्वक बदला गया"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "हमें इस बारे में सुन के खेद है. आपको अपने Firefox खाते का पासवर्ड बदलने के लिए, और दूर से अपने डाटा हटाने के बारे में अपने डिवाइस निर्माता से जानकारी के लिए देखना चाहिए."
-
-#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "हमें इसके बारे में सुनने के लिए खेद है। अगर यह एक ऐसी उपकरण थी जिसे आप विश्वास नहीं करते हैं, तो आपको अपने Firefox खाते का पासवर्ड बदलना चाहिए, और Firefox में सहेजे गए कोई भी पासवर्ड बदलना चाहिए."
-
-#~ msgid "Last seen %(translatedTimeAgo)s"
-#~ msgstr "अंतिम बार देखा गया %(translatedTimeAgo)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "अंतिम बार सक्रिय %(translatedTimeAgo)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s"
-#~ msgstr "अंतिम सक्रियता क़रीब %(translatedTimeAgo)s पूर्व"
-
-#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "अंतिम सक्रियता %(translatedTimeAgo)s पूर्व %(translatedCountry)s में"
-
-#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "अंतिम सक्रियता क़रीब %(translatedTimeAgo)s पूर्व %(translatedCountry)s में"
-
-#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "अंतिम सक्रियता %(translatedTimeAgo)s पूर्व %(translatedCity)s, %(translatedState)s, %(translatedCountry)s के निकट"
-
-#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "अंतिम सक्रियता क़रीब %(translatedTimeAgo)s पूर्व %(translatedCity)s, %(translatedState)s, %(translatedCountry)s के निकट"
-
-#~ msgid "%(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s"
-
-#~ msgid "Over %(translatedTimeAgo)s"
-#~ msgstr "क़रीब %(translatedTimeAgo)s पूर्व"
-
-#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s %(translatedCountry)s में"
-
-#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "क़रीब %(translatedTimeAgo)s पूर्व %(translatedCountry)s में"
-
-#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s पूर्व %(translatedCity)s, %(translatedState)s, %(translatedCountry)s के निकट"
-
-#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "क़रीब %(translatedTimeAgo)s पूर्व %(translatedCity)s, %(translatedState)s, %(translatedCountry)s के निकट"
-
-#~ msgid "Web Session, %(userAgent)s"
-#~ msgstr "वेब सत्र, %(userAgent)s"
-
-#~ msgid "Web Session"
-#~ msgstr "वेब सत्र"
-
-#~ msgid "Last seen time unknown"
-#~ msgstr "अंतिम बार देखा गया समय अज्ञात"
-
-#~ msgid "Change…"
-#~ msgstr "बदलें..."
-
-#~ msgid "Add…"
-#~ msgstr "जोड़ें…"
-
-#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
-#~ msgstr "नाम का चयन करें जो कि आप फॉयरफॉक्स में तथा अकाउंट प्रबंधन के समय प्रदर्शित करना चाहते हैं."
-
-#~ msgid "Display name updated"
-#~ msgstr "प्रदर्शित होने वाले नाम का नवीनीकरण हो गया है"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "द्वितीय ईमेल हटा दिया गया"
-
-#~ msgid "Verification email sent"
-#~ msgstr "सत्यापन ईमेल भेज दिया गया है"
-
-#~ msgid "Primary email set to %(email)s"
-#~ msgstr "प्राथमिक ईमेल को %(email)s सेट किया गया है"
-
-#~ msgid "New recovery codes generated"
-#~ msgstr "नए पुनर्प्राप्त कोड बनाये गये"
-
-#~ msgid "Two-step authentication removed"
-#~ msgstr "द्वि-चरणीय प्रमाणीकरण हटाया गया"
-
-#~ msgid "Two-step Authentication"
-#~ msgstr "द्वि-चरणीय प्रमाणीकरण"
-
-#~ msgid "Account Recovery"
-#~ msgstr "खाता पुनर्प्राप्ति"
-
-#~ msgid "Account recovery revoked"
-#~ msgstr "खाता पुनर्प्राप्ति रद्द की गई"
-
-#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-#~ msgstr "आपके क्रेडिट कार्ड की अवधि समाप्त हो गई है। कृपया इसे <a %(escapedCcExpiredLinkAttrs)s> यहां अपडेट करें </a>।"
-
-#~ msgid "Sign out"
-#~ msgstr "साइन आउट"
-
-#~ msgid "Take picture"
-#~ msgstr "प्रतिच्छाया लें"
-
-#~ msgid "Upload"
-#~ msgstr "अपलोड"
-
-#~ msgid "Camera"
-#~ msgstr "कैमरा"
-
-#~ msgid "Clear"
-#~ msgstr "हटाना"
-
-#~ msgid "Avatar"
-#~ msgstr "अवतार"
-
-#~ msgid "Position and rotate your picture as needed"
-#~ msgstr "अपने चित्र को उपयुक्त स्थान पर रखें एवं आवश्यकतानुसार घुमायें"
-
-#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-#~ msgstr "आपका ब्राउज़िंग डेटा on रहेगा %(deviceName)s, लेकिन यह अब आपके खाते के साथ sync नहीं करएगा."
-
-#~ msgid "Suspicious"
-#~ msgstr "संदिग्ध"
-
-#~ msgid "Lost or stolen"
-#~ msgstr "खोया या चोरी हो गया"
-
-#~ msgid "Old or replaced"
-#~ msgstr "पुराना या बदला हुआ"
-
-#~ msgid "Duplicate"
-#~ msgstr "दूसरा"
-
-#~ msgid "Rather not say"
-#~ msgstr "मैं कहना नहीं चाहूँगा"
-
-#~ msgid "Disconnect"
-#~ msgstr "संपर्क तोड़ें"
-
-#~ msgid "Disconnection Successful"
-#~ msgstr "सफलतापूर्वक कनेक्शन हटा दिया गया"
-
-#~ msgid "Devices & apps"
-#~ msgstr "उपकरण और क्षुधा"
-
-#~ msgid "Show"
-#~ msgstr "दिखाएं"
-
-#~ msgid "Current device"
-#~ msgstr "वर्तमान उपकरण"
-
-#~ msgid "Disconnect…"
-#~ msgstr "संपर्क तोड़ें…"
-
-#~ msgid "Current session"
-#~ msgstr "वर्तमान सत्र"
-
-#~ msgid "Revoke"
-#~ msgstr "वापस लें"
-
-#~ msgid "Firefox for iOS"
-#~ msgstr "Firefox लिए iOS"
-
-#~ msgid "None connected"
-#~ msgstr "कोई नहीं कनेक्टेड"
-
-#~ msgid "Firefox for Android"
-#~ msgstr "एंड्रॉयड के लिए Firefox"
-
-#~ msgid "Missing or duplicate items?"
-#~ msgstr "खोयी हुई या दोहरी वस्तु?"
-
-#~ msgid "Refresh status"
-#~ msgstr "स्थिति ताज़ा करें"
-
-#~ msgid "Email preferences"
-#~ msgstr "ईमेल अधिमान"
-
-#~ msgid "Delete account"
-#~ msgstr "खाता नष्ट करें"
-
-#~ msgid "Delete…"
-#~ msgstr "मिटाएँ…"
-
-#~ msgid "Any paid subscriptions you have will be cancelled"
-#~ msgstr "आपके पास मौजूद प्रत्येक सशुल्क सदस्यता रद्द कर दी जाएगी"
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-#~ msgstr "एक द्वितीयक ईमेल सुरक्षा सूचनाओं को प्राप्त करने और नए डिवाइस की पुष्टि करने के लिए एक अतिरिक्त पता है ।"
-
-#~ msgid "Verification required"
-#~ msgstr "सत्यापन आवश्यक"
-
-#~ msgid "Make primary"
-#~ msgstr "प्राथमिक बनाएँ"
-
-#~ msgid "Remove"
-#~ msgstr "निकालें"
-
-#~ msgid "Refresh"
-#~ msgstr "ताज़ा करें"
-
-#~ msgid "Add email"
-#~ msgstr "ईमेल जोड़ें"
-
-#~ msgid "Add"
-#~ msgstr "जोड़िये"
-
-#~ msgid "NOTE:"
-#~ msgstr "नोट:"
-
-#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-#~ msgstr "नए पुनर्प्राप्ति कोड उत्पन्न करने से, पिछले सभी कोड अमान्य हो जाएंगे। कृपया सुरक्षित स्थान पर नए कोड संग्रहीत करें ।"
-
-#~ msgid "Generate new recovery codes"
-#~ msgstr "नए पुनर्प्राप्ति कोड बनाएं"
-
-#~ msgid "Manage…"
-#~ msgstr "प्रबंधित करें..."
-
-#~ msgid "Two-step authentication"
-#~ msgstr "द्वि-चरणीय प्रमाणीकरण"
-
-#~ msgid "Enable…"
-#~ msgstr "सक्रिय करें…"
-
-#~ msgid "Current status"
-#~ msgstr "वर्तमान स्थिति"
-
-#~ msgid "Enabled"
-#~ msgstr "सक्रिय"
-
-#~ msgid "Disabled"
-#~ msgstr "निष्क्रिय"
-
-#~ msgid "Disable"
-#~ msgstr "निष्क्रिय करें"
-
-#~ msgid "Enable"
-#~ msgstr "सक्रिय करें"
-
-#~ msgid "Replace recovery codes"
-#~ msgstr "पुनर्प्राप्ति कोड बदलें"
-
-#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
-#~ msgstr "इस भाग में परिवर्तन देखने या करने से पहले, आपको अपना ईमेल पता सत्यापित करना होगा।"
-
-#~ msgid "Primary email"
-#~ msgstr "प्राथमिक ईमेल"
-
-#~ msgid "Account recovery"
-#~ msgstr "खाता पुनर्प्राप्ति"
-
-#~ msgid "Recovery key"
-#~ msgstr "रिकवरी कुंजी"
-
-#~ msgid "Not set"
-#~ msgstr "सेट नहीं है"
-
-#~ msgid "Generate"
-#~ msgstr "तैयार करें"
-
-#~ msgid "Are you sure you want to revoke?"
-#~ msgstr "क्या आप वाकई रद्द करना चाहते हैं?"
-
-#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-#~ msgstr "आप अपना पासवर्ड रीसेट करने की स्थिति में अपने डेटा तक पहुंचने के लिए अपनी पुनर्प्राप्ति कुंजी का उपयोग करने में असमर्थ होंगे।"
-
-#~ msgid "Step 2 of 2: Save Recovery key"
-#~ msgstr "2 का चरण 2: रिकवरी कुंजी सहेजें"
-
-#~ msgid "Done, Recovery key saved"
-#~ msgstr "हो गया, पुनर्प्राप्ति कुंजी सहेजी गई"
-
-#~ msgid "Please Select One"
-#~ msgstr "कृपया एक का चयन करें"
-
-#~ msgid "Sign up to get more features:"
-#~ msgstr "अधिक सुविधाओं के लिए साइन अप करें:"
-
-#~ msgid "Firefox Send"
-#~ msgstr "Firefox Send"
-
-#~ msgid "Firefox Account"
-#~ msgstr "Firefox Account"
-
-#~ msgid "Subscriptions & Payments"
-#~ msgstr "सदस्यता एवं भुगतान"
-
-#~ msgid "Get app"
-#~ msgstr "ऐप पाएँ"
-
-#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-#~ msgstr "<b>%(escapedSelectedPlan)s</b> के लिए <b>%(escapedLowercaseTopic)s</b> के बारे में Mozilla Support से संपर्क करने के लिए धन्यवाद। हम ईमेल द्वारा आपसे जल्द से जल्द संपर्क करेंगे।"
-
-#~ msgid "General inquiries"
-#~ msgstr "सामान्य पूछताछ"
-
-#~ msgid "Connection issues"
-#~ msgstr "संपर्क समस्याएँ"
-
-#~ msgid "Getting started"
-#~ msgstr "प्रारंभ हो रहा है"
-
-#~ msgid "Sync this browser with your phone"
-#~ msgstr "इस ब्राउज़र को अपने फोन से सिंक करें"
-
-#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-#~ msgstr "सीधे अपने स्मार्टफ़ोन पर Firefox भेजें और सेट-अप पूरा करने के लिए साइन इन करें"
-
-#~ msgid ""
-#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "SMS सेवा केवल कुछ देशों में उपलब्ध है । SMS &amp; डेटा दरें लागू हो सकती हैं । ईमेल या SMS के अभीष्ट प्राप्तकर्ता को सहमति देनी होगी । <a %(escapedLearnMoreAttributes)s>और जानें</a>"
-
-#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-#~ msgstr "खाता पहले से मौजूद है. <a href=\"/signin\">साइन इन</a>"
-
-#~ msgid "Last sync %(translatedTimeAgo)s"
-#~ msgstr "अंतिम संकालन %(translatedTimeAgo)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s"
-#~ msgstr "अंतिम संकालन क़रीब %(translatedTimeAgo)s पूर्व"
-
-#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "अंतिम संकालन %(translatedCountry)s में %(translatedTimeAgo)s पूर्व"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "अंतिम संकालन क़रीब %(translatedCountry)s में %(translatedTimeAgo)s पूर्व"
-
-#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "अंतिम संकालन %(translatedTimeAgo)s पूर्व %(translatedCity)s, %(translatedState)s, %(translatedCountry)s के निकट"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "अंतिम संकालन क़रीब %(translatedTimeAgo)s पूर्व %(translatedCity)s, %(translatedState)s, %(translatedCountry)s के निकट"
-
-#~ msgid "Last sync time unknown"
-#~ msgstr "अंतिम संकालन समय अज्ञात"
-
-#~ msgid "Subscribed successfully"
-#~ msgstr "सफलतापूर्वक अभिदत्त किया गया"
-
-#~ msgid "Open tabs"
-#~ msgstr "टैब्स खोले"
-
-#~ msgid "Logins"
-#~ msgstr "लॉगिन सूची"
-
-#~ msgid "Credit cards"
-#~ msgstr "क्रेडिट कार्ड"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "फ़ायरफ़ॉक्स के साथ करें"
-
-#~ msgid "Accounts with two-step authentication do not support pairing at this time"
-#~ msgstr "दो-चरण प्रमाणीकरण वाले खाते इस समय पेयरिंग का समर्थन नहीं करते हैं"
-
-#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-#~ msgstr "क्या आप का मतलब है <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-
-#~ msgid "Please try again later"
-#~ msgstr "कृपया बाद में पुनः प्रयास करें"
-
-#~ msgid "Service unavailable, try again soon"
-#~ msgstr "सेवा अनुपलब्ध, शीघ्र ही पुन: प्रयास करें"
-
-#~ msgid "%(email)s registered"
-#~ msgstr "%(email)s पंजीकृत"
-
-#~ msgid "Save selections"
-#~ msgstr "चयन सहेजें"
-
-#~ msgid "Sign in to continue"
-#~ msgstr "जारी रखने के लिए साइन इन करें"
-
-#~ msgid "Create an account"
-#~ msgstr "एक खाता बनायें"
-
-#~ msgid "Use security code"
-#~ msgstr "सुरक्षा कोड का प्रयोग करें"
-
-#~ msgid "Enter code"
-#~ msgstr "कोड दर्ज करें"
-
-#~ msgid "Use recovery code"
-#~ msgstr "पुनर्प्राप्त कोड का प्रयोग करें"
-
-#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-#~ msgstr "यह कूटशब्द न खो दें। यदि आपको इसे पुनः ठीक करने की आवश्यकता हो, तो आप संकलन डेटा खो सकते हैं।"
-
-#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr "<span>अपने ईमेल पासवर्ड का पुनः उपयोग न करें</span>यदि कोई व्यक्ति आपका ईमेल पासवर्ड जानता है, तो वे आपके Firefox साइन-इन को एक नए डिवाइस पर अनुमोदित कर सकते है और आपके डेटा तक पहुंच सकता है।"
-
-#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "<span>अपना पासवर्ड याद रखें</span>यदि आपको अपना पासवर्ड रीसेट करने की आवश्यकता है, तो आप कोई भी सिंक डेटा खो देंगे जो आपके किसी एक डिवाइस पर नहीं है।"
-
-#~ msgid "Have an account? Sign in"
-#~ msgstr "खाता है? साइन इन कीजिये"
-
-#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
-#~ msgstr "अपने स्मार्टफ़ोन पर Firefox संस्थापित करें और सेट-अप को पूरा करने के लिए साइन इन करें"
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "अनुप्रयोग लिंक %(escapedPhoneNumber)s को भेजी गई. <a %(escapedBackLinkAttrs)s>गलत लिखे गए&nbsp;संख्या?</a>"
-
-#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "अनुप्रयोग लिंक %(escapedPhoneNumber)s को भेजी गई. <a %(escapedBackLinkAttrs)s>गलत लिखे गए&nbsp;संख्या?</a>"
-
-#~ msgid "If you are not receiving the text message, you can also download the apps manually."
-#~ msgstr "अगर आपको लिखित सन्देश नहीं आ रहा है, तो आप एप्प्स मैन्युअल रूप से भी डाउनलोड कर सकते हैं."
-
-#~ msgid "Disconnect from Sync?"
-#~ msgstr "सिंक से डिस्कनेक्ट करें?"
-
-#~ msgid "Suspicious device"
-#~ msgstr "संदिग्ध उपकरण"
-
-#~ msgid "Lost or stolen device"
-#~ msgstr "खोया या चोरी हुआ उपकरण"
-
-#~ msgid "Old or replaced device"
-#~ msgstr "पुराना या बदला गया उपकरण"
-
-#~ msgid "Duplicate device"
-#~ msgstr "डुप्लिकेट डिवाइस"
-
-#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-#~ msgstr "इसके अतिरिक्त, आप Mozilla और Firefox से नवीनतम समाचारों के साथ प्रचार ईमेल प्राप्त करने के लिए सदस्यता ले सकते हैं।"
-
-#~ msgid "Subscribe"
-#~ msgstr "अभिदत्त"
-
-#~ msgid "Manage preferences"
-#~ msgstr "प्राथमिकताएँ प्रबंधित करें"
-
-#~ msgid "verified"
-#~ msgstr "सत्यापित"
-
-#~ msgid "verification required"
-#~ msgstr "सत्यापन आवश्यक"
-
-#~ msgid "Recovery codes"
-#~ msgstr "पुनर्प्राप्ति कोड"
-
-#~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-#~ msgstr "ये आपके एक बार के रिकवरी कोड का उपयोग करते हैं। अपने मोबाइल डिवाइस तक पहुंच खोने की स्थिति में उन्हें सुरक्षित स्थान पर संग्रहीत करें। आप इन कोड्स को दोबारा नहीं देख पाएंगे।"
-
-#~ msgid "Manually enter this secret key into your authentication app:"
-#~ msgstr "अपने प्रमाणीकरण ऐप में हाथ से इस गुप्त कुंजी को दर्ज करें:"
-
-#~ msgid "Your Firefox Account password"
-#~ msgstr "आपके Firefox खाते का कूटशब्द"
-
-#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-#~ msgstr "मूल रहें और सुरक्षित रहें &mdash; कहीं और इस पासवर्ड का पुन: उपयोग न करें।"
-
-#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
-#~ msgstr "इस पासवर्ड को याद रखें &mdash; इसे रीसेट करने से आपका डेटा हमारे सर्वर से मिट जाता है।"
-
-#~ msgid "Get App"
-#~ msgstr "एप पाएँ"
-
-#~ msgid "Get the most out of your account"
-#~ msgstr "अपने खाते का अधिकतम लाभ उठाएं"
-
-#~ msgid "Sync these everywhere you sign in"
-#~ msgstr "साइन इन करने के बाद इन्हें हर जगह सिंक करें"
-
-#~ msgid "Practical knowledge is coming to your inbox"
-#~ msgstr "प्रैक्टिकल नॉलेज आपके इनबॉक्स में आ रही है"
-
-#~ msgid "Sign up for more:"
-#~ msgstr "अधिक के लिए साइन अप करें:"
-
-#~ msgid "Invite me to test new Mozilla products"
-#~ msgstr "मुझे नए Mozilla उत्पादों का परीक्षण करने के लिए आमंत्रित करें"
-
-#~ msgid "One last step"
-#~ msgstr "एक आखिरी कदम"
-
-#~ msgid "Create your Firefox account"
-#~ msgstr "अपना Firefox खाता बनाएँ"
-
-#~ msgid "You did it! You’re signed in."
-#~ msgstr "आपने कर दिखाया! आप साइन इन हो चुके हैं।"
-
-#~ msgid "Now get Firefox everywhere else."
-#~ msgstr "अब हर जगह Firefox प्राप्त करें।"
-
-#~ msgid "Get more from these features:"
-#~ msgstr "इन सुविधाओं से अधिक प्राप्त करें:"
-
-#~ msgid "Keep your passwords protected and portable."
-#~ msgstr "अपने पासवर्ड को सुरक्षित और पोर्टेबल रखें।"
-
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "आगे बढ़कर, आप <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">सेवा की शर्तो</a> और <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">गोपनीयता सूचना</a> को सहमति देते हैं।"
-
-#~ msgid "Sync these everywhere you sign in:"
-#~ msgstr "इन्हें सभी जगह सिंक करें जहाँ आप साइन इन करते हैं:"
-
-#~ msgid "Enable Sync"
-#~ msgstr "सिंक सक्षम करें"
-
-#~ msgid "%(email)s registered."
-#~ msgstr "%(email)s पंजीकृत."
-
-#~ msgid "Communication preferences"
-#~ msgstr "सम्पर्क अधिमान"
-
-#~ msgid "Manage Subscriptions"
-#~ msgstr "सदस्यताएँ प्रबंधित करें"
-
-#~ msgid "Refresh Status"
-#~ msgstr "स्थिति ताज़ा करें"
-
-#~ msgid "Use a different email address"
-#~ msgstr "किसी भिन्न ईमेल पते का उपयोग करें"
-
-#~ msgid "Sign in &rarr;"
-#~ msgstr "साइन इन करे &rarr;"
-
-#~ msgid "Error connecting to remote device"
-#~ msgstr "रिमोट उपकरण से कनेक्ट करने में त्रुटि"
-
-#~ msgid "Save settings"
-#~ msgstr "सेटिंग्स सहेजें"
-
-#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr "अज्ञात Firefox खाता. <a href=\"/signup\">साइन अप</a> करें अपने ऐड-ऑन डेटा तक पहुँचने के लिए अपने पिछले ऐड-ऑन खाता ईमेल पते का उपयोग करें."
-
-#~ msgid "App link resent to %(phoneNumber)s"
-#~ msgstr "एप्प लिंक %(phoneNumber)s पर पुनः भेजा गया"
-
-#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-#~ msgstr "सौजन्य से <a href=\"https://www.gravatar.com\">ग्रावतार</a>"
-
-#~ msgid "Unsubscribed successfully"
-#~ msgstr "सफलतापूर्वक अभिदत्तता समाप्त की गयी"
-
-#~ msgid "Email resent"
-#~ msgstr "ईमेल फिर से प्रेषित"
-
-#~ msgid "No Gravatar found"
-#~ msgstr "कोई ग्रावतार नहीं मिला"
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-#~ msgstr "क्या आपका मतलब <span tabindex=\"1\">%(escapedDomain)s</span> है?"
-
-#~ msgid "Resources failed to load"
-#~ msgstr "संसाधन लोड होने में विफल हुए"
-
-#~ msgid "Unexpected resource error"
-#~ msgstr "अनपेक्षित संसाधन त्रुटि"
-
-#~ msgid "Script error"
-#~ msgstr "स्क्रिप्ट त्रुटि"
-
-#~ msgid "SMS sent"
-#~ msgstr "SMS भेजा गया"
-
-#~ msgid "Your number has been blocked"
-#~ msgstr "आपका नंबर अवरोधित किया गया है"
-
-#~ msgid "SMS not sent, please try again"
-#~ msgstr "SMS नहीं भेजा गया, कृपया पुन: प्रयास करें"
-
-#~ msgid "Learn more."
-#~ msgstr "अधिक जानें."
-
-#~ msgid "%(email)s created"
-#~ msgstr "%(email)s निर्मित"
-
-#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
-#~ msgstr "Add-ons और प्राथमिकताएं वर्तमान में मोबाइल डिवाइस पर सिंक्रनाइज़ नहीं."
-
-#~ msgid "Click here to receive a new reset link"
-#~ msgstr "एक नया पुनः तैयार करने का लिंक प्राप्त करने के लिए यहाँ क्लिक करें"
-
-#~ msgid "Enter new password"
-#~ msgstr "नया कूटशब्द करें"
-
-#~ msgid "Learn how Sync works."
-#~ msgstr "जानें कैसे सिंक काम करता है."
-
-#~ msgid "Submit new password"
-#~ msgstr "नया कूटशब्द करें"
-
-#~ msgid "Email Sent"
-#~ msgstr "ईमेल भेजा गया"
-
-#~ msgid "Didn't arrive and not in spam folder? Resend"
-#~ msgstr "नहीं पहुँचा और स्पैम फ़ोल्डर में नहीं है? पुन: भेजें"
-
-#~ msgid "This device is connected"
-#~ msgstr "यह उपकरण सम्बद्ध है"
-
-#~ msgid "Why is this required?"
-#~ msgstr "यह आवश्यक क्यों है?"
-
-#~ msgid "Cookies and local storage are required."
-#~ msgstr "कुकीज़ और स्थानीय भंडारण की आवश्यकता है."
-
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "कार्यवाही आगे बढ़ा के, आप स्वीकृत करते हैं <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">सेवा की शर्तें</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">निजी सूचना</a> फ़ायरफ़ॉक्स क्लाउड "
-#~ "सेवाओं की."
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "फ़ायरफ़ॉक्स क्लाउड सेवायें"
-
-#~ msgid "Proceed"
-#~ msgstr "आगे जाऐं"
-
-#~ msgid "Reset account"
-#~ msgstr "खाता रीसेट करें"
-
-#~ msgid "Remember password? Sign in."
-#~ msgstr "कूटशब्द याद रखें? साइन इन करें."
-
-#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "अपने ऐड-ऑन डेटा ढूंढ रहे हैं? अपने पुराने ऐड-ऑन खाते के ईमेल पते के साथ Firefox खाते के लिए <a href=\"/signup\">साइन अप करें</a> ।"
-
-#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-#~ msgstr "अपने फॉयरफॉक्स तथा nbsp खातों मैं साइन इन करके अपना;सिंक डेटा माइग्रेट कीजिए."
-
-#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-#~ msgstr "नए फॉयरफॉक्स तथा nbsp खाते बनाके अपना;सिंक डेटा माइग्रेट कीजिए."
-
-#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "अपने ऐड-ऑन डेटा ढूंढ रहे हैं? अपने पुराने ऐड-ऑन खाता ईमेल पते के साथ एक Firefox खाते के लिए साइन अप करें ।"
-
-#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
-#~ msgstr "एक मजबूत, अद्वितीय पासवर्ड अपने Firefox डेटा घुसपैठियों से सुरक्षित रखना होगा."
-
-#~ msgid "Receive the monthly Firefox newsletter"
-#~ msgstr "मासिक Firefox समाचार पत्र प्राप्त करें"
-
-#~ msgid "Why Sync two (or more!) devices?"
-#~ msgstr "क्यों दो (या अधिक!) डिवाइस सिंक्रनाइज़ करें?"
-
-#~ msgid "Gravatar"
-#~ msgstr "ग्रावतार"
-
-#~ msgid "Save"
-#~ msgstr "सुरक्षित करें"
-
-#~ msgid "current device"
-#~ msgstr "वर्तमान उपकरण"
-
-#~ msgid "current session"
-#~ msgstr "वर्तमान सत्र"
-
-#~ msgid "none connected"
-#~ msgstr "कुछ नही जुड़ा हुआ"
-
-#~ msgid "Receive the monthly Firefox newsletter."
-#~ msgstr "मासिक Firefox समाचार पत्र प्राप्त करें."
-
-#~ msgid "Unsubscribe"
-#~ msgstr "ग्राहकी बंद करें"
-
-#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
-#~ msgstr "क्या आप निश्चित हैं की आप अपना खाता नष्ट करना चाहते हैं? यह क्रिया वापस नहीं हो सकती."
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "साइन इन के लिए सिंक करें"
-
-#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-#~ msgstr "खाते को आप अपने टैब, बुकमार्क , पासवर्ड और अधिक सिंक करने के लिए उपयोग करना चाहते हैं चुनें ।"
-
-#~ msgid "Use OpenID"
-#~ msgstr "OpenID उपयोग करें"
-
-#~ msgid "Use Firefox Account"
-#~ msgstr "Firefox खाते का प्रयोग करें"
-
-#~ msgid "first sync %(translatedTimeAgo)s"
-#~ msgstr "पहला संकालन %(translatedTimeAgo)s"
-
-#~ msgid "last sync %(translatedTimeAgo)s"
-#~ msgstr "आखिरी संकालन %(translatedTimeAgo)s"
-
-#~ msgid "last active %(translatedTimeAgo)s"
-#~ msgstr "आखिरी बार सक्रिय %(translatedTimeAgo)s"
-
-#~ msgid "last sync time unknown"
-#~ msgstr "आखिरी संकालन समय अज्ञात"
-
-#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-#~ msgstr "%(escapedEmail)s पंजीकृत. <a %(escapedBackLinkParams)s>ग़लत ईमेल?</a>"
-
-#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-#~ msgstr "%(email)s को भेजे गए साइन-इन पुष्टिकरण लिंक के लिए अपना ईमेल देखें"
-
-#~ msgid "Signin confirmed"
-#~ msgstr "साइन इन की पुष्टि हो गई"
-
-#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-#~ msgstr "खाता सूचनाएँ अब %(secondaryEmailVerified)s पर भी भेजी जाएँगी"
-
-#~ msgid "We may send you emails related to your Firefox Account."
-#~ msgstr "हम आपको आपके Firefox खाते से संबंधित ईमेल भेज सकते हैं।"
-
-#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-#~ msgstr "इसके अतिरिक्त, आप Mozilla और Firefox के बारे में नवीनतम समाचार प्राप्त करने के लिए चुन सकते हैं।"
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-#~ msgstr "एक द्वितीयक ईमेल सुरक्षा सूचनाएँ प्राप्त करने और नए समकालिक उपकरणों की पुष्टि करने के लिए एक अतिरिक्त पता है."
-
-#~ msgid "Not in inbox or spam folder? Resend?"
-#~ msgstr "इनबॉक्स या स्पैम फ़ोल्डर में नहीं? पुन: भेजें?"
-
-#~ msgid "Codes copied"
-#~ msgstr "कोड की प्रतिलिपि ली गयी"
-
-#~ msgid "Failed to copy codes. Please manually copy them."
-#~ msgstr "कोड की प्रतिलिपि लेने में विफल. कृपया हाथ से उनकी प्रतिलिपि लें."
-
-#~ msgid "Invalid sign-in verification code"
-#~ msgstr "अवैध साइन-इन सत्यापन कोड"
-
-#~ msgid "Print button image"
-#~ msgstr "बटन छवि मुद्रित करें"
-
-#~ msgid "Download button image"
-#~ msgstr "बटन छवि डाउनलोड करें"
-
-#~ msgid "Sign in to continue."
-#~ msgstr "जारी रखने के लिए साइन इन करें।"
-
-#~ msgctxt "submit button"
-#~ msgid "Sign in"
-#~ msgstr "साइन इन"
-
-#~ msgctxt "header text"
-#~ msgid "Sign in"
-#~ msgstr "साइन इन"
-
-#~ msgctxt "button text"
-#~ msgid "Sign in"
-#~ msgstr "साइन इन"
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-#~ msgstr "एक द्वितीयक ईमेल सुरक्षा सूचनाएँ प्राप्त करने और नए समक्रमिक डिवाइस की पुष्टि करने के लिए एक अतिरिक्त पता है"
-
-#~ msgid "verify to unlock section"
-#~ msgstr "अनुभाग अनवरोधित करने के लिए सत्यापित करें"
-
-#~ msgid "Next"
-#~ msgstr "अगला"
-
-#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
-#~ msgstr "8 वर्ण न्यूनतम, लेकिन अब अगर आप पासवर्ड सिंक करने की योजना है."
-
-#~ msgid "This is a common password; please consider another one."
-#~ msgstr "यह एक आम पासवर्ड है ; एक दूसरे से विचार करें."
-
-#~ msgid "Signed out successfully"
-#~ msgstr "सफलतापूर्वक साइन आउट किया गया"
-
-#~ msgid "Duplicate Device"
-#~ msgstr "डुप्लिकेट डिवाइस"
-
-#~ msgid "Didn’t arrive? Resend"
-#~ msgstr "नही पंहुचा? पुन: भेजें"
-
-#~ msgid "Forgot password"
-#~ msgstr "पासवर्ड भूल गए"
-
-#~ msgid "Firefox Sync will begin momentarily"
-#~ msgstr "Firefox सिंक क्षण भर शुरू हो जाएगा"
-
-#~ msgid "Devices"
-#~ msgstr "उपकरण"
-
-#~ msgid "Stay in sync on the go:"
-#~ msgstr "सिंक ऑन गो में रहें:"
-
-#~ msgid "Get Firefox for Android"
-#~ msgstr "एंड्रॉयड हेतु फ़ायरफ़ॉक्स लें"
-
-#~ msgid "You can manage your devices below."
-#~ msgstr "आप नीचे दिए गए अपने उपकरणों का प्रबंधन कर सकते हैं."
-
-#~ msgid "You can manage your devices and apps below."
-#~ msgstr "आप नीचे दिए गए अपने उपकरणों और क्षुधा का प्रबंधन कर सकते हैं."
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-#~ msgstr "क्या आपका मतलब है <span tabindex=\"1\">%(domain)s</span>?"
-
-#~ msgid "A verification link has been sent&nbsp;to %(email)s"
-#~ msgstr "एक सत्यापन लिंक %(email)s पर भेजा गया है"
-
-#~ msgid "Sync preferences"
-#~ msgstr "सिंक वरीयताओं"
-
-#~ msgid "Last active: %(translatedTimeAgo)s"
-#~ msgstr "पिछले सक्रिय : %(translatedTimeAgo)s"
-
-#~ msgid "Delete"
-#~ msgstr "मिटा दें"
-
-#~ msgid "Attempt limit exceeded"
-#~ msgstr "प्रयास सीमा पार हो गई"
-
-#~ msgid "Tabs"
-#~ msgstr "टैब्स"
-
-#~ msgid "Resend email"
-#~ msgstr "ईमेल पुनः भेजें"
-
-#~ msgid "Have an account? Sign in."
-#~ msgstr "खाता है? साइन इन कीजिये."
-
-#~ msgid "days ago"
-#~ msgstr "इतने दिन पहले"
-
-#~ msgid "years ago"
-#~ msgstr "साल पहले"
-
-#~ msgid "Account unlocked, please try again"
-#~ msgstr "खता खुल गया है, पुनः प्रयास करें"
-
-#~ msgid "Account unlocked"
-#~ msgstr "खाता वितालकित"
-
-#~ msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-#~ msgstr "खाता बंद. <a href=\"/confirm_account_unlock\">खोलने हेतु ईमेल भेजें</a>"
-
-#~ msgid "Unlock link expired"
-#~ msgstr "वितालकन लिंक की वैधता समाप्त"
-
-#~ msgid "Unlock link damaged"
-#~ msgstr "वितालकन लिंक क्षतिग्रस्त"
-
-#~ msgid "Unlock error"
-#~ msgstr "वितालकन त्रुटि"
-
-#~ msgid "Unlock email sent"
-#~ msgstr "वितालकन ईमेल भेजा गया"
-
-#~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-#~ msgstr "सुरक्षा कारणों से आपका खाता लॉकडाउन पर रखा गया है. खाता स्तरीय गतिविधियां करने के लिए, एवं अपना खाता पुनः सत्यापित करने के लिए %(email)s पर भेजे गए सत्यापन लिंक पर क्लिक करें"
-
-#~ msgid "Signup has been disabled"
-#~ msgstr "पंजीकरण अक्षम किया गया है"
-
-#~ msgid "Welcome to Sync"
-#~ msgstr "Sunc में आपका स्वागत हैं"
-
-#~ msgid "Home"
-#~ msgstr "घर"
-
-#~ msgid "Missing parameter in request body: %(param)s"
-#~ msgstr "अनुरोध शरीर में अनुपस्थित मापदण्ड: %(param)s"
-
-#~ msgid "Sign up"
-#~ msgstr "साइन अप"
-
-#~ msgid "/force_auth requires an email"
-#~ msgstr "/force_auth को एक ईमेल आवश्यक है"
-
-#~ msgid "A reset link has been sent to %(email)s"
-#~ msgstr "एक पुनः तैयार करने का लिंक भेजा गया %(email)s पर"
-
-#~ msgid "Are you sure you want to reset your account password?"
-#~ msgstr "क्या आप सुनिश्चित करते हैं कि आप अपने खाते का पासवर्ड रीसेट करना चाहते हैं?"
-
-#~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "पासवर्ड रीसेट करने पर हमारे सर्वर से आपका ब्राउज़िंग डाटा मिट जायेगा. आपके उपकरणों पर कोई डेटा अछूता रहेगा. नीचे अपना ईमेल दर्ज करके रीसेट प्रक्रिया शुरू करते हैं."
-
-#~ msgid "Age is required"
-#~ msgstr "उम्र की आवश्यकता है"
-
-#~ msgid "Desktop Add-ons"
-#~ msgstr "डेस्कटॉप ऐड-ऑन"
-
-#~ msgid "Desktop Preferences"
-#~ msgstr "डेस्कटॉप वरीयता"
-
-#~ msgid "Cookies required"
-#~ msgstr "कुकीज़ आवश्यक"
-
-#~ msgid ""
-#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
-#~ "sessions."
-#~ msgstr "कृपया फ़ायरफ़ॉक्स खातों के लिए आवश्यक कुकीज़ को अपने ब्राउज़र में अधिकार दें. कुकीज़ आपके ब्राउज़र में संग्रहित विवरण के छोटे टुकड़े होते हैं जोकि आपको फ़ायरफ़ॉक्स सत्रों के बीच में याद रखने जैसी कार्यात्मकता प्रदान करते हैं."
-
-#~ msgid "Firefox is coming soon to iOS!"
-#~ msgstr "फ़ायरफ़ॉक्स जल्द आ रहा है iOS पर!"
-
-#~ msgid "Sign up to learn more"
-#~ msgstr "अधिक जानने के लिए साइन अप करें"
-
-#~ msgid "1991"
-#~ msgstr "1991"
-
-#~ msgid "1992"
-#~ msgstr "1992"
-
-#~ msgid "1993"
-#~ msgstr "1993"
-
-#~ msgid "1994"
-#~ msgstr "1994"
-
-#~ msgid "1995"
-#~ msgstr "1995"
-
-#~ msgid "1996"
-#~ msgstr "1996"
-
-#~ msgid "1997"
-#~ msgstr "1997"
-
-#~ msgid "1998"
-#~ msgstr "1998"
-
-#~ msgid "1999"
-#~ msgstr "1999"
-
-#~ msgid "2000"
-#~ msgstr "2000"
-
-#~ msgid "2001"
-#~ msgstr "2001"
-
-#~ msgid "2002"
-#~ msgstr "2002"
-
-#~ msgid "2003"
-#~ msgstr "2003"
-
-#~ msgid "2004"
-#~ msgstr "2004"
-
-#~ msgid "2005"
-#~ msgstr "2005"
-
-#~ msgid "2006"
-#~ msgstr "2006"
-
-#~ msgid "2007"
-#~ msgstr "2007"
-
-#~ msgid "Year of birth required"
-#~ msgstr "जन्मवर्ष आवश्यक"
-
-#~ msgid "Valid birthday required"
-#~ msgstr "मान्य जन्मदिन की आवश्यकता"
-
-#~ msgid "Year of birth"
-#~ msgstr "जन्मवर्ष"
-
-#~ msgid "1990 or earlier"
-#~ msgstr "1990 या उससे पूर्व"
-
-#~ msgid "Month"
-#~ msgstr "माह"
-
-#~ msgid "January"
-#~ msgstr "जनवरी"
-
-#~ msgid "February"
-#~ msgstr "फरवरी"
-
-#~ msgid "March"
-#~ msgstr "मार्च"
-
-#~ msgid "April"
-#~ msgstr "अप्रैल"
-
-#~ msgid "May"
-#~ msgstr "मई"
-
-#~ msgid "June"
-#~ msgstr "जून"
-
-#~ msgid "July"
-#~ msgstr "जुलाई"
-
-#~ msgid "August"
-#~ msgstr "अगस्त"
-
-#~ msgid "September"
-#~ msgstr "सितम्बर"
-
-#~ msgid "October"
-#~ msgstr "अक्टूबर"
-
-#~ msgid "November"
-#~ msgstr "नवंबर"
-
-#~ msgid "December"
-#~ msgstr "दिसम्बर"
-
-#~ msgid "Day"
-#~ msgstr "दिवस"
-
-#~ msgid "Manage account"
-#~ msgstr "खाता संभालें"
-
-#~ msgid "Hello, <span>%(username)s</span>"
-#~ msgstr "हैलो, <span>%(username)s</span>"
-
-#~ msgid "Edit profile"
-#~ msgstr "प्रालेख संपादन"
-
-#~ msgid "Name"
-#~ msgstr "नाम"
-
-#~ msgid "Enter your email to reset&nbsp;the account password."
-#~ msgstr "अपना ईमेल प्रविष्ट करें reset&nbsp;करने के लिए अपने खाता कूटशब्द."
-
-#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr "सुरक्षा कारणों से, अपना कूटशब्द पुनः तैयार करने पर आपका साथ किया हुआ डेटा हमारे सर्वेरों से मिटा दिया जाएगा. आपके स्थानीय ब्राउज़िंग डेटा से एक नया साथ किया हुआ बैकअप का निर्माण कर दिया जाएगा."
-
-#~ msgid "You are signed in as"
-#~ msgstr "आप निम्न के रूप में साइन इन हैं"
-
-#~ msgid "Already have an account? Sign in."
-#~ msgstr "पहले से ही खाता है? साइन इन."

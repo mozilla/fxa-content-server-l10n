@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: 2020-05-19 19:01+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -24,7 +24,10 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Finnde firlitaama no haanirta. Seŋo ngam jokkude."
 
 #. submit button
-#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44
+#: .es5/templates/connect_another_device.mustache:11
+#: .es5/templates/force_auth.mustache:3
+#: .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Seŋo"
@@ -34,7 +37,9 @@ msgid "Account deleted successfully"
 msgstr "Konte momtiraama no haanirta"
 
 #: .es5/views/inline_totp_setup.js:156
-msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgid ""
+"Use the code %(code)s to set up two-step authentication in supported "
+"applications."
 msgstr ""
 
 #: .es5/views/permissions.js:41
@@ -66,8 +71,10 @@ msgid "Your password has been reset"
 msgstr "Finnde maa hesɗitinaama"
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Timmin teeltol so naatnude finnde hesere ndee e kaɓirɗi maa Firefox goɗɗe."
+msgid ""
+"Complete set-up by entering the new password on your other Firefox devices."
+msgstr ""
+"Timmin teeltol so naatnude finnde hesere ndee e kaɓirɗi maa Firefox goɗɗe."
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
@@ -78,18 +85,21 @@ msgid "Primary email confirmed"
 msgstr ""
 
 #: .es5/views/ready.js:77
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgid ""
+"Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Tintine konte maa neldoye jooni e %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
 msgstr ""
 
-#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6
+#: .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "Ceŋagol teeŋtinaama"
 
-#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95
+#: .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
 msgstr "A hebiima haŋkadi huutoraade %(serviceName)s"
 
@@ -114,11 +124,19 @@ msgid "Other"
 msgstr "Goɗɗo"
 
 #: .es5/views/support.js:270
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "A jaaraama e jokkondiral maa e Wallitorde Mozilla baɗte <b>%(escapedLowercaseTopic)s</b>. Ma min njokkondir e maa e iimeel ko yaajtii."
+msgid ""
+"Thank you for reaching out to Mozilla Support about <b>"
+"%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as "
+"possible."
+msgstr ""
+"A jaaraama e jokkondiral maa e Wallitorde Mozilla baɗte <b>"
+"%(escapedLowercaseTopic)s</b>. Ma min njokkondir e maa e iimeel ko yaajtii."
 
 #: .es5/views/support.js:272
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
+msgid ""
+"Thank you for reaching out to Mozilla Support about <b>"
+"%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll "
+"contact you via email as soon as possible."
 msgstr ""
 
 #: .es5/views/post_verify/verified.js:53
@@ -126,7 +144,8 @@ msgid "Your sync data is protected"
 msgstr "Keɓe maa jahdingol ko deenaaɗe"
 
 #: .es5/views/post_verify/verified.js:54
-msgid "If you lose access to your account, you’ll be able to restore your sync data."
+msgid ""
+"If you lose access to your account, you’ll be able to restore your sync data."
 msgstr ""
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
@@ -145,7 +164,9 @@ msgstr "Jokku to %(serviceName)s."
 msgid "Your account has been locked for security reasons"
 msgstr "Konte maa ndaaƴaama ngam hisnude"
 
-#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+#: .es5/views/mixins/account-reset-mixin.js:47
+#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/reset_password.mustache:1
 msgid "Reset password"
 msgstr "Firlit finnde"
 
@@ -181,7 +202,9 @@ msgstr "Uddit Restmail"
 msgid "Hide password"
 msgstr ""
 
-#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:169
+#: .es5/templates/partial/show-password.mustache:1
+#: .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr ""
 
@@ -198,7 +221,9 @@ msgid "Firefox Recovery Key"
 msgstr "Coktirgal keɓtugol Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:53
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgid ""
+"Email resent. Add accounts@firefox.com to your contacts to ensure a smooth "
+"delivery."
 msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:59
@@ -297,7 +322,9 @@ msgstr "Finnde hesɗitinaama haa feewi"
 msgid "Account recovery enabled"
 msgstr "Keɓtugol konte hurminaama"
 
-#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30
+#: .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61
+#: .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
 msgstr "Juumre nde heftinaaka"
 
@@ -325,7 +352,8 @@ msgstr "Temmbere sahaa e siifannde ɗaɓɓitannde feewaani"
 msgid "Invalid nonce in request signature"
 msgstr "Nonsere e siifannde ɗaɓɓitannde feewaani"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:180
 msgid "Account already exists"
 msgstr "Ɗee konte ena ngoodi kisa"
 
@@ -446,7 +474,8 @@ msgid "Can not change primary email to an unverified email"
 msgstr "Gasataa iimeel gadano wayleede e iimeel mo ƴeewtaaka"
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
-msgid "Can not change primary email to an email that does not belong to this account"
+msgid ""
+"Can not change primary email to an email that does not belong to this account"
 msgstr "Iimeel gadano oo waawaa waɗteede iimeel mo jeyaaka e ɗee ɗoo konte"
 
 #: .es5/lib/auth-errors.js:208
@@ -533,8 +562,11 @@ msgstr "Sarworde ena halji, eto ɗoo e yeeso"
 msgid "Feature not enabled"
 msgstr "Fannu oo hurminaaka"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
-#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117
+#: .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45
+#: .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Yuɓɓo heɓotaako, eto ɗoo e yeeso"
 
@@ -582,7 +614,8 @@ msgstr "Ena foti waɗde alkule 8 so famɗii"
 msgid "Valid password required"
 msgstr "Finnde moƴƴere ena waɗɗii"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:412
 msgid "Valid email required"
 msgstr "Iimeel moƴƴo ena waɗɗii"
 
@@ -650,7 +683,8 @@ msgstr "Joopol keɓe dagnaaka: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Joopol keɓe ena ŋakki: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555
+#: .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ngol jokkol teeŋtinol koko huutoraa kisa, tee huutortee tan ko gootol."
 
@@ -662,7 +696,8 @@ msgstr "Ɗum ko gallol baɗɗingol"
 msgid "Authorization code required"
 msgstr "Kod jamirgol ena waɗɗii"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Jokkol bonii"
 
@@ -844,13 +879,18 @@ msgstr "Tokkunde Toƴƴaani"
 
 #: .es5/lib/strings.js:25
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Jokkude e ɗuum firti ko a jaɓii <a id=\"service-tos\" href=\"%(termsUri)s\">Sarɗiiji Carwol</a> e <a id=\"service-pp\" href=\"%(privacyUri)s\">Tintinol Suturo</a> %(serviceName)s (%(serviceUri)s)."
+"Jokkude e ɗuum firti ko a jaɓii <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Sarɗiiji Carwol</a> e <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Tintinol Suturo</a> %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgid ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-"
+"account\">Help</a>"
 msgstr ""
 
 #: .es5/lib/strings.js:34
@@ -870,8 +910,12 @@ msgid "IP address: %(ip)s"
 msgstr "Ñiiɓirde IP: %(ip)s"
 
 #: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
-msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Ngam ɓeydude kisal, tiiɗno teeŋtin ngol ceŋagol ngam fuɗɗaade syncude e ngol kaɓirgol:"
+msgid ""
+"For added security, please confirm this sign-in to begin syncing with this "
+"device:"
+msgstr ""
+"Ngam ɓeydude kisal, tiiɗno teeŋtin ngol ceŋagol ngam fuɗɗaade syncude e ngol "
+"kaɓirgol:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -882,18 +926,23 @@ msgid "500 Error"
 msgstr "Juumre 500"
 
 #: .es5/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
 msgstr "Ee jam, won caɗeele mbaɗi toon. Min tintinaama tee ma min ñawndu-ɗe."
 
-#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+#: .es5/templates/account_recovery_confirm_key.mustache:1
+#: .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
 msgstr "Jokkol pirlitgol finnde hiiɗtii"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:2
+#: .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
 msgstr "Jokkol ndobi-ɗaa ngam firlitde finnde maa ngol hiiɗtii."
 
-#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+#: .es5/templates/account_recovery_confirm_key.mustache:3
+#: .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
 msgstr "Heɓ jokkol kesol"
 
@@ -901,30 +950,47 @@ msgstr "Heɓ jokkol kesol"
 msgid "Reset password with recovery key"
 msgstr ""
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
-#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6
+#: .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13
+#: .es5/templates/inline_totp_setup.mustache:2
+#: .es5/templates/inline_totp_setup.mustache:8
+#: .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2
+#: .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Jokku to %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgid ""
+"Please enter the one time use recovery key you stored in a safe place to "
+"regain access to your Firefox Account."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have "
+"account recovery key saved, some of your data will be erased (including "
+"synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
 msgstr ""
 
-#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+#: .es5/templates/account_recovery_confirm_key.mustache:10
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm recovery key"
 msgstr ""
 
@@ -937,10 +1003,12 @@ msgid "Cannot create account"
 msgstr "Horiima sosde konte"
 
 #: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgid ""
+"You must meet certain age requirements to create a Firefox&nbsp;account."
 msgstr ""
 
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+#: .es5/templates/cannot_create_account.mustache:4
+#: .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
 msgstr "Ɓeydu humpito"
 
@@ -952,7 +1020,8 @@ msgstr "Suɓo ko njahdintaa:"
 msgid "Sync selections"
 msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+#: .es5/templates/choose_what_to_sync.mustache:5
+#: .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
 msgstr ""
 
@@ -960,9 +1029,15 @@ msgstr ""
 msgid "Reset password link damaged"
 msgstr "Jokkol pirlitgol finnde moƴƴaani"
 
-#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Jokkol ndobi-ɗaa ngol ena ŋakki alkule, tee ena waawi tawa ngol bonnaama e tarorde iimeeliiji maa. Nattoro ñiiɓirde ndee hakkille, eto-ɗaa kadi."
+#: .es5/templates/complete_reset_password.mustache:6
+#: .es5/templates/complete_sign_up.mustache:12
+#: .es5/templates/report_sign_in.mustache:2
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"Jokkol ndobi-ɗaa ngol ena ŋakki alkule, tee ena waawi tawa ngol bonnaama e "
+"tarorde iimeeliiji maa. Nattoro ñiiɓirde ndee hakkille, eto-ɗaa kadi."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -970,15 +1045,21 @@ msgstr "Sos finnde hesere"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
-"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+"<span>REMEMBER:</span> When you reset your password, you reset your account. "
+"You may lose some of your personal information (including history, "
+"bookmarks, and passwords). That’s because we encrypt your data with your "
+"password to protect your privacy. You’ll still keep any subscriptions you "
+"may have and Pocket data will not be affected."
 msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgid ""
+"You have successfully restored your account using your recovery key. Create "
+"a new password to secure your data, and store it in a safe location."
 msgstr ""
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+#: .es5/templates/complete_reset_password.mustache:13
+#: .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
 msgstr "Finnde hesere"
 
@@ -986,7 +1067,10 @@ msgstr "Finnde hesere"
 msgid "Re-enter password"
 msgstr "Naatnu kadi finnde"
 
-#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+#: .es5/templates/complete_reset_password.mustache:16
+#: .es5/templates/confirm_reset_password.mustache:5
+#: .es5/templates/confirm_reset_password.mustache:7
+#: .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Siiftor finnde hesere? Seŋo"
 
@@ -1027,20 +1111,28 @@ msgid "Confirm this sign-in"
 msgstr "Teeŋtin ngol ceŋagol"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgid ""
+"Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
 
 #: .es5/templates/confirm.mustache:9
-msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgid ""
+"Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr ""
 
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm_reset_password.mustache:4
+#: .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Alaa e nder boyet ɓataakuuji maa walla e runngere spaam? Neldit"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/confirm.mustache:14
+#: .es5/templates/inline_recovery_setup.mustache:17
+#: .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6
+#: .es5/templates/tos.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Caggal"
 
@@ -1049,10 +1141,13 @@ msgid "Reset email sent"
 msgstr "Immell pirlitol neltiraama"
 
 #: .es5/templates/confirm_reset_password.mustache:2
-msgid "Click the link emailed to %(email)s within the next hour to create a new password."
+msgid ""
+"Click the link emailed to %(email)s within the next hour to create a new "
+"password."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
@@ -1065,21 +1160,30 @@ msgstr ""
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4
+#: .es5/templates/sign_in_token_code.mustache:3
+#: .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:16
+#: .es5/templates/sign_in_recovery_code.mustache:5
+#: .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Teeŋtin"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr ""
 
@@ -1095,7 +1199,8 @@ msgstr ""
 msgid "Email confirmed"
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+#: .es5/templates/connect_another_device.mustache:9
+#: .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
 msgstr ""
 
@@ -1103,11 +1208,14 @@ msgstr ""
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Seŋo e Firefox ngam timminde teeltagol"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:13
+#: .es5/templates/connect_another_device.mustache:28
+#: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Aɗa jokki ɓeydude masiŋon?"
 
-#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+#: .es5/templates/connect_another_device.mustache:15
+#: .es5/templates/connect_another_device.mustache:30
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Seŋo e Firefox e kaɓirgol goɗngol ngam timminde teeltagol"
 
@@ -1124,8 +1232,11 @@ msgid "We’re on Android and iOS, too!"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:22
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "Aɗa ɓeyda kaɓirgon haa jooni? Seŋo e Firefox e kaɓirgel goɗngel ngam timminde teeltagol"
+msgid ""
+"Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
+"Aɗa ɓeyda kaɓirgon haa jooni? Seŋo e Firefox e kaɓirgel goɗngel ngam "
+"timminde teeltagol"
 
 #: .es5/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1140,34 +1251,51 @@ msgid "Cookies and local storage are required"
 msgstr "Kuukiije kañum e mooftirde nokkuure ina coklaa"
 
 #: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Tiiɗno hurmin kukiije e ndesgu nokkuure e wanngorde maa ngam naatde e Konte Firefox. Waɗde ɗum maa hurmin fannuuji wano siiftorde ma hakkunde naatanɗe."
+msgid ""
+"Please enable cookies and local storage in your browser to access Firefox "
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
+msgstr ""
+"Tiiɗno hurmin kukiije e ndesgu nokkuure e wanngorde maa ngam naatde e Konte "
+"Firefox. Waɗde ɗum maa hurmin fannuuji wano siiftorde ma hakkunde naatanɗe."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
 msgstr "Fuɗɗito"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+#: .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1
 msgid ""
 "\n"
-"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader"
+"\">for your Firefox account</span>\n"
 "        "
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "Finnde"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:8
+#: .es5/templates/sign_in_password.mustache:13
+#: .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href="
+"\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp"
+"\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9
+#: .es5/templates/sign_in_password.mustache:14
+#: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Huutoro konte goɗɗe"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+#: .es5/templates/force_auth.mustache:10
+#: .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
 msgstr "A yejjit finnde ndee?"
 
@@ -1184,7 +1312,8 @@ msgid "Enter your email"
 msgstr "Naatnu iimeel maa"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgid ""
+"Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/index.mustache:9
@@ -1192,7 +1321,9 @@ msgid "Sign up or sign in"
 msgstr ""
 
 #: .es5/templates/index.mustache:11
-msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgid ""
+"A Firefox account also unlocks access to more privacy-protecting products "
+"from Mozilla."
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1200,29 +1331,41 @@ msgid "Save recovery codes"
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:3
-msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
+msgid ""
+"Store these one-time use codes in a safe place for when you don't have your "
+"mobile device."
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "Aawto"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/inline_recovery_setup.mustache:6
+#: .es5/templates/inline_recovery_setup.mustache:8
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:10
+#: .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7
+#: .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Jokku"
 
-#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+#: .es5/templates/inline_recovery_setup.mustache:11
+#: .es5/templates/inline_recovery_setup.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:5
+#: .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
 msgstr ""
 
@@ -1231,7 +1374,9 @@ msgid "Confirm recovery code"
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgid ""
+"To ensure that you will be able to regain access to your account, in the "
+"event of a lost device, please enter one of your saved recovery codes."
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
@@ -1243,7 +1388,9 @@ msgid "Enable two-step authentication"
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:3
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgid ""
+"Add a layer of security to your account by requiring security codes from one "
+"of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:7
@@ -1255,15 +1402,19 @@ msgid "Enter code manually"
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:12
-msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgid ""
+"Scan the QR code in your authentication app and then enter the security code "
+"it provides."
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr ""
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
-msgid "Once complete, it will begin generating security codes for you to enter."
+#: .es5/templates/inline_totp_setup.mustache:14
+#: .es5/templates/inline_totp_setup.mustache:18
+msgid ""
+"Once complete, it will begin generating security codes for you to enter."
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:16
@@ -1286,24 +1437,34 @@ msgstr ""
 msgid "Legal"
 msgstr "Laawol"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23
+#: .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Sarɗiiji Carwe"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1
+#: .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Tintinol Suturo"
 
-#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+#: .es5/templates/marketing_snippet.mustache:1
+#: .es5/templates/marketing_snippet.mustache:5
+#: .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Heɓ dawtol Sync timmungol."
 
-#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:2
+#: .es5/templates/marketing_snippet.mustache:3
+#: .es5/templates/marketing_snippet.mustache:11
+#: .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
 msgstr "Aawto Firefox mo iOS!"
 
-#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:6
+#: .es5/templates/marketing_snippet.mustache:7
+#: .es5/templates/marketing_snippet.mustache:12
+#: .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
 msgstr "Aawto Firefox mo Android."
@@ -1324,16 +1485,21 @@ msgstr "%(serviceName)s ena yiɗi heɓde ngooɗoo humpito baɗte konte maa:"
 msgid "Accept"
 msgstr "Jaɓ"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:5
+#: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Haaytu"
 
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+#: .es5/templates/ready.mustache:1
+#: .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
 msgstr "Moƴƴii"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgid ""
+"You are now ready to use <div class=\"graphic %(serviceLogo)s\">"
+"%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
@@ -1353,24 +1519,33 @@ msgid "Report unauthorized sign-in?"
 msgstr "Jaŋto ceŋagol ngol yamiraaka?"
 
 #: .es5/templates/report_sign_in.mustache:5
-msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "A heɓii iimeel baɗte etagol naatnde e konte maa. Aɗa yiɗi jaŋtaade ndee dillere ko nde hoolnaaki?"
+msgid ""
+"You received an email about attempted access to your account. Would you like "
+"to report this activity as suspicious?"
+msgstr ""
+"A heɓii iimeel baɗte etagol naatnde e konte maa. Aɗa yiɗi jaŋtaade ndee "
+"dillere ko nde hoolnaaki?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
 msgstr "Jaŋtol dille"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7
+#: .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Ko addi ɗum?"
 
 #: .es5/templates/reset_password.mustache:3
 msgid ""
-"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+"<span>NOTE:</span> When you reset your password, you reset your account. You "
+"may lose some of your personal information (including history, bookmarks, "
+"and passwords). That’s because we encrypt your data with your password to "
+"protect your privacy. You’ll still keep any subscriptions you may have and "
+"Pocket data will not be affected."
 msgstr ""
 
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+#: .es5/templates/reset_password.mustache:5
+#: .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
 msgstr "Iimeel"
 
@@ -1411,12 +1586,21 @@ msgid "Sorry. We’ve locked your&nbsp;account."
 msgstr "Yaafo. Min cokii konte maa &nbsp;."
 
 #: .es5/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Iimeel teeŋtingol min neldunoo e %(email)s ruttinaama tee min cokii konte maa ngam reende keɓe Firefox maa."
+msgid ""
+"The confirmation email we sent to %(email)s was returned and we’ve locked "
+"your account to protect your Firefox data."
+msgstr ""
+"Iimeel teeŋtingol min neldunoo e %(email)s ruttinaama tee min cokii konte "
+"maa ngam reende keɓe Firefox maa."
 
 #: .es5/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "So tawii ndee ñiiɓirde iimeel ina moƴƴi, <a %(escapedSupportLinkAttrs)s>anndin min</a> amin mbaawi wallude ma soktude konte maa."
+msgid ""
+"If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us "
+"know</a> and we can help unlock your account."
+msgstr ""
+"So tawii ndee ñiiɓirde iimeel ina moƴƴi, <a "
+"%(escapedSupportLinkAttrs)s>anndin min</a> amin mbaawi wallude ma soktude "
+"konte maa."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1426,9 +1610,13 @@ msgstr "A nattii jeyde oo iimeel? Sos konte kese"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href="
+"\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp"
+"\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy "
+"Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/"
+"terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href="
+"\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 
@@ -1453,11 +1641,15 @@ msgid "Thank you for your vigilance"
 msgstr "A jaaraama e deentagol maa"
 
 #: .es5/templates/sign_in_reported.mustache:2
-msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "Goomu amen tintinaama. Jaŋte hono ɗee ena mballa min riiwtude wujjittooɓe."
+msgid ""
+"Our team has been notified. Reports like this help us fend off intruders."
+msgstr ""
+"Goomu amen tintinaama. Jaŋte hono ɗee ena mballa min riiwtude wujjittooɓe."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgid ""
+"Enter confirmation code <span class=\"card-subheader\">for your Firefox "
+"account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
@@ -1476,7 +1668,9 @@ msgstr ""
 msgid "Trouble entering code?"
 msgstr ""
 
-#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+#: .es5/templates/sign_in_unblock.mustache:1
+#: .es5/templates/sign_in_unblock.mustache:2
+#: .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
 msgstr "Yamir ngol ceŋagol"
 
@@ -1501,7 +1695,9 @@ msgid "Repeat password"
 msgstr "Naattin finnde"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgid ""
+"You need this password to access any encrypted data you store with us.<br/>A "
+"reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
@@ -1520,9 +1716,13 @@ msgstr "Sos konte"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://"
+"getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id="
+"\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</"
+"a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/"
+"terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href="
+"\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
@@ -1546,7 +1746,8 @@ msgstr ""
 msgid "What are you contacting us about?"
 msgstr ""
 
-#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11
+#: .es5/templates/support.mustache:18
 msgid "Please select one"
 msgstr ""
 
@@ -1606,11 +1807,13 @@ msgstr ""
 msgid "Enter your password to view your recovery key."
 msgstr ""
 
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
 msgstr ""
 
-#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/push/completed.mustache:2
+#: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
 msgstr ""
 
@@ -1627,7 +1830,10 @@ msgid "Confirm sign-in"
 msgstr ""
 
 #: .es5/templates/push/confirm_login.mustache:4
-msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgid ""
+"If you suspect that someone is trying to gain access to your account, <a id="
+"\"change-password\" href=\"/settings/change_password\">please change your "
+"password.</a>"
 msgstr ""
 
 #: .es5/templates/push/send_login.mustache:2
@@ -1635,7 +1841,9 @@ msgid "Send login push notification"
 msgstr ""
 
 #: .es5/templates/push/send_login.mustache:3
-msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgid ""
+"Check your connected Firefox devices for the sign-in confirmation tab we've "
+"sent."
 msgstr ""
 
 #: .es5/templates/push/send_login.mustache:4
@@ -1646,25 +1854,32 @@ msgstr ""
 msgid "Tab not arriving? Send an email instead"
 msgstr ""
 
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
+msgid ""
+"Adding a secondary email helps you get back into your account if you are "
+"locked out and can not access %(escapedEmail)s."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
 msgstr "Iimeel ɗiɗaɓo"
 
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "Ina waawi wonde ɗoo e ɓooyde"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgid ""
+"Please enter the confirmation code that was sent to %(escapedEmail)s within "
+"5 minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
@@ -1675,7 +1890,8 @@ msgstr ""
 msgid "Use a different email"
 msgstr ""
 
-#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+#: .es5/templates/post_verify/password/force_password_change.mustache:1
+#: .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
 msgstr ""
 
@@ -1685,11 +1901,14 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+"We detected suspicious behavior on your Firefox account. To protect your "
+"account, please create a new password. You’ll use this password to sign back "
+"in to all of your Firefox account services."
 msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
-msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgid ""
+"Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
@@ -1725,10 +1944,13 @@ msgid "Subscribe %(email)s"
 msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client."
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client."
 msgstr ""
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
 msgstr "Sos Konte Firefox"
 
@@ -1740,7 +1962,8 @@ msgstr ""
 msgid "Enter a password"
 msgstr ""
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr ""
@@ -1770,14 +1993,17 @@ msgid "Sync Firefox between devices"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
-msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
+msgid ""
+"Sync bookmarks, history, and passwords to Firefox on your mobile devices. It "
+"only takes a few minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
 msgstr ""
 
@@ -1786,7 +2012,9 @@ msgid "Download Firefox with your camera app"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
-msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
+msgid ""
+"Installing Firefox and syncing between at least two devices also protects "
+"against losing your data."
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
@@ -1794,7 +2022,9 @@ msgid "Ready to scan"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
+msgid ""
+"<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile "
+"device</h1><p>with a QR code we've created just for you</p>"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
@@ -1818,18 +2048,22 @@ msgid "<span class=\"number\">1</span>Open the camera app on your device"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgid ""
+"<span class=\"number\">2</span>Point the camera at the QR code and tap the "
+"link that appears"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgid ""
+"<span class=\"number\">3</span>Install Firefox and open it on your device"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr ""
 
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
 msgstr ""
 
@@ -1838,7 +2072,10 @@ msgid "Your synced data can include passwords you've saved."
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
-msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
+msgid ""
+"Because this information is critical to your security, Firefox deletes it to "
+"protect you when your password is reset to prevent other people from "
+"accessing it."
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
@@ -1846,14 +2083,17 @@ msgid "Get a Recovery Key"
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgid ""
+"Please confirm your password for %(escapedEmail)s to generate your recovery "
+"key."
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
 msgstr ""
 
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr ""
 
@@ -1862,14 +2102,21 @@ msgid "Done"
 msgstr "Gasii"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
-msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgid ""
+"Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out "
+"here</a>"
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid ""
+"How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr "No duuɓi maa poti?"
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -1914,11 +2161,15 @@ msgid "Not a commonly used password"
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgid ""
+"Stay safe &mdash; don’t reuse passwords. See more tips to <a "
+"%(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
 msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgid ""
+"Hmm, we're having trouble with our system. We're working on fixing it for "
+"you and apologize for the inconvenience. Please try again later."
 msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:1
@@ -1930,8 +2181,12 @@ msgid "Back to Subscriptions"
 msgstr ""
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Ngonɗaa ko e yiylaade jahdingol Firefox? <a %(escapedSyncSuggestionAttrs)s>Fuɗɗo ɗoo </a>"
+msgid ""
+"Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started "
+"here</a>"
+msgstr ""
+"Ngonɗaa ko e yiylaade jahdingol Firefox? <a "
+"%(escapedSyncSuggestionAttrs)s>Fuɗɗo ɗoo </a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
@@ -1962,22 +2217,28 @@ msgid "Yes, approve device"
 msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
+msgid ""
+"If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change "
+"your password</a> "
 msgstr ""
 
-#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+#: .es5/templates/pair/auth_complete.mustache:1
+#: .es5/templates/pair/success.mustache:1
 msgid "Device connected"
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
 "\n"
-"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</"
+"span>\n"
 "      "
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
-msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgid ""
+"Now you can access your open tabs, passwords, and bookmarks on all your "
+"devices."
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:5
@@ -1988,7 +2249,8 @@ msgstr ""
 msgid "Manage devices"
 msgstr ""
 
-#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1
+#: .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
 msgstr ""
 
@@ -2009,11 +2271,15 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
+msgid ""
+"To download Firefox on your mobile device, hold the device’s camera over "
+"this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/"
+"\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
@@ -2021,7 +2287,9 @@ msgid "I’m ready to sync devices"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
-msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgid ""
+"Sync devices to access your tabs, passwords, and bookmarks everywhere you "
+"use Firefox."
 msgstr ""
 
 #: .es5/templates/pair/success.mustache:2
@@ -2047,866 +2315,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "Iimeel gadano ƴeewtaama"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "Iimeel ɗiɗaɓo ƴeewtaama"
-
-#~ msgid "Account verified"
-#~ msgstr "Konte ƴeewtaama"
-
-#~ msgid "Verification link expired"
-#~ msgstr "Jokkol ƴeewtagol hiiɗtii"
-
-#~ msgid "Click here to receive a new verification link"
-#~ msgstr "Dobo ɗoo ngam heɓde jokkol ƴeewtagol kesol"
-
-#~ msgid "Verification error"
-#~ msgstr "Juumre ƴeewtagol"
-
-#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "Ƴeewto iimeel maa sabu jokkol ƴeewtagol neldaaɗo &nbsp;e %(escapedEmail)s"
-
-#~ msgid "Email verified"
-#~ msgstr "Iimeel ƴeewtaama"
-
-#~ msgid "Logins and Passwords"
-#~ msgstr "Ceŋorɗe & Pinle"
-
-#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-#~ msgstr "Alaa e sago wooda ɗo keɓ-ɗaa e duuɓi ngam udditde konte Firefox."
-
-#~ msgid "Check your email for the code sent to %(email)s."
-#~ msgstr "Ƴeewto iimeel maa ngam kod neldaaɗo e %(email)s."
-
-#~ msgid "Why is more than one device required?"
-#~ msgstr "Ko waɗi ko ɓuri masiŋel gootel ina naamndaa?"
-
-#~ msgid "Why sync multiple devices?"
-#~ msgstr "Ko saabii jahdingol masiŋon keewkon?"
-
-#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-#~ msgstr "Sarwo Jahdingol oo wonaa dannditol daañaa, ko ɗum feere hisnde ngam ɓenninde maantore, daartol kam e finndeeji hakkunde masiŋon maa."
-
-#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-#~ msgstr "Aɗa foti aafde Firefox tee njahdinaa ko famɗi fof masiŋon ɗiɗon ngam reentaade oto keɓe maa majjude so tawii aɗa hatojini e artirde ɗe kono a yejjitii finnde maa."
-
-#~ msgid "Got it"
-#~ msgstr "Famii"
-
-#~ msgid "Mobile phone number"
-#~ msgstr "Tonngoode noddirgel"
-
-#~ msgid "Didn't arrive? Resend"
-#~ msgstr "Ɗum araani? Neldit"
-
-#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Ballal</a>"
-
-#~ msgid "Change..."
-#~ msgstr "Waylu…"
-
-#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
-#~ msgstr "Tuma ngasnu-ɗaa, huutoro finnde maa hesere ngam seŋaade e kaɓirɗi maa kala."
-
-#~ msgid "Change"
-#~ msgstr "Waylu"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Finnde wayliraama no haaniri"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "Ɗum deh welaani nanade. Wadde aɗa foti waylude finnde maa Konte Firefox, tee njiylo-ɗaa humpito to peewnuɗo kabirgol maa baɗte momtude keɓe maa e goɗɗol."
-
-#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "Ɗum deh welaani nande. So ɗum ko kaɓirgol ngol a hoolaaki e jaati, pot-ɗaa ko waylude finnde maa Konte Firefox, e finndeeji danndaaɗi e Firefox fof."
-
-#~ msgid "Last seen %(translatedTimeAgo)s"
-#~ msgstr "Sakkitii yiyeede %(translatedTimeAgo)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s"
-#~ msgstr "Sakkitii yiyeede %(translatedTimeAgo)s"
-
-#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Sakkitii yiyeede %(translatedTimeAgo)s nder %(translatedCountry)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Sakkitii yiyeede e %(translatedTimeAgo)s nder %(translatedCountry)s"
-
-#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Sakkitii yiyeede %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Sakkitii yiyeede e %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Sakkitii saasde %(translatedTimeAgo)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s"
-#~ msgstr "Sakkitii seŋaade e %(translatedTimeAgo)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Sakkitii saasde %(translatedTimeAgo)s nder %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Sakkitii saasde e %(translatedTimeAgo)s nder %(translatedCountry)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Sakkitii saasde %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Sakkitii saasde e %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s"
-
-#~ msgid "Over %(translatedTimeAgo)s"
-#~ msgstr "Dow %(translatedTimeAgo)s"
-
-#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s nder %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Dow %(translatedTimeAgo)s nder %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Dow %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Web Session, %(userAgent)s"
-#~ msgstr "Rogere Geese, %(userAgent)s"
-
-#~ msgid "Web Session"
-#~ msgstr "Rogere Geese"
-
-#~ msgid "Last seen time unknown"
-#~ msgstr "Sahaa o wattindii yiyeede anndaaka"
-
-#~ msgid "Change…"
-#~ msgstr "Waylu…"
-
-#~ msgid "Add…"
-#~ msgstr "Ɓeydu…"
-
-#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
-#~ msgstr "Suɓo innde njiɗ-ɗaa yoo yaltu e Firefox e so aɗa toppitoo konte maa."
-
-#~ msgid "Display name updated"
-#~ msgstr "Innde jaytino hesɗitinaama"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "Iimeel ɗiɗaɓo momtaama"
-
-#~ msgid "Verification email sent"
-#~ msgstr "Ƴeewndagol iimeel neldaama"
-
-#~ msgid "Primary email set to %(email)s"
-#~ msgstr "Iimeel gadano teeltaama e %(email)s"
-
-#~ msgid "New recovery codes generated"
-#~ msgstr "Koduuji kebtugol kesi njeñtinaama"
-
-#~ msgid "Account Recovery"
-#~ msgstr "Keɓtugol konte"
-
-#~ msgid "Account recovery revoked"
-#~ msgstr "Keɓtugol konte riiwtaama"
-
-#~ msgid "Sign out"
-#~ msgstr "Seŋto"
-
-#~ msgid "Take picture"
-#~ msgstr "Ɓam natal"
-
-#~ msgid "Upload"
-#~ msgstr "Yollu"
-
-#~ msgid "Camera"
-#~ msgstr "Kameraa"
-
-#~ msgid "Clear"
-#~ msgstr "Momtu"
-
-#~ msgid "Position and rotate your picture as needed"
-#~ msgstr "Dirtin njilltaa natal no njiɗir-ɗaa"
-
-#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-#~ msgstr "Keɓe maa peeragol maa keddo e %(deviceName)s, kono maa ɗe nattu syncude e konte maa."
-
-#~ msgid "Rather not say"
-#~ msgstr "Mi yiɗaa haalde"
-
-#~ msgid "Disconnect"
-#~ msgstr "Seŋtondir"
-
-#~ msgid "Disconnection Successful"
-#~ msgstr "Ceŋtagol Moƴƴii"
-
-#~ msgid "Devices & apps"
-#~ msgstr "Kaɓirɗi & jaaɓɗe"
-
-#~ msgid "Show"
-#~ msgstr "Hollu"
-
-#~ msgid "Current device"
-#~ msgstr "Kaɓirgel jooni"
-
-#~ msgid "Disconnect…"
-#~ msgstr "Seŋtondir…"
-
-#~ msgid "Current session"
-#~ msgstr "Rogere wonaande"
-
-#~ msgid "Revoke"
-#~ msgstr "Heɓtu"
-
-#~ msgid "Firefox for iOS"
-#~ msgstr "Firefox mo iOS"
-
-#~ msgid "None connected"
-#~ msgstr "Hay gooto seŋaaki"
-
-#~ msgid "Firefox for Android"
-#~ msgstr "Firefox mo Android"
-
-#~ msgid "Missing or duplicate items?"
-#~ msgstr "Teme ŋakkuɗe walla puniiɗe?"
-
-#~ msgid "Email preferences"
-#~ msgstr "Cuɓoraaɗe iimeel"
-
-#~ msgid "Delete account"
-#~ msgstr "Momtu konte"
-
-#~ msgid "Delete…"
-#~ msgstr "Momtu…"
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-#~ msgstr "Iimeel ɗiɗaɓo ko ñiiɓirde woɗnde ngam heɓde tintine kisal e teeŋtinde masiŋon keson."
-
-#~ msgid "Make primary"
-#~ msgstr "Ardin ɗum"
-
-#~ msgid "Remove"
-#~ msgstr "Ittu"
-
-#~ msgid "Refresh"
-#~ msgstr "Hesɗitin"
-
-#~ msgid "Add"
-#~ msgstr "Ɓeydu"
-
-#~ msgid "Please Select One"
-#~ msgstr "Tiiɗno labo gooto"
-
-#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-#~ msgstr "A jaaraama e jokkondiral maa e Wallitorde Mozilla baɗte <b>%(escapedLowercaseTopic)s</b> ngam <b>%(escapedSelectedPlan)s</b>. Ma min njokkondir e maa e iimeel ko yaajtii."
-
-#~ msgid "Connection issues"
-#~ msgstr "Caɗeele ceŋagol"
-
-#~ msgid "Getting started"
-#~ msgstr "Fuɗɗo"
-
-#~ msgid "Firefox Private Network Android App"
-#~ msgstr "Jaaɓnirgal Android ngal laylaytol keeringol Firefox"
-
-#~ msgid "Firefox Private Network Windows App"
-#~ msgstr "Jaaɓnirgal Windows ngal laylaytol keeringol Firefox"
-
-#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-#~ msgstr "Neldu Firefox faade e noddirgel maa tee seŋo ngam jokkit-de teelto"
-
-#~ msgid ""
-#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "Sarwo SMS heɓotoo tan ko e won e leyɗeele. SMS &amp; santaas keɓe ina mbaawi jaaɓde. Mo iimeel oo walla SMS fayii oo ina foti jaɓde. <a %(escapedLearnMoreAttributes)s>Ɓeydu humpito</a>"
-
-#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-#~ msgstr "Konte ena ngoodi kisa. <a href=\"/signin\">Seŋo</a>"
-
-#~ msgid "Last sync %(translatedTimeAgo)s"
-#~ msgstr "Jahdingol wattan %(translatedTimeAgo)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s"
-#~ msgstr "Jahdingol wattan dow %(translatedTimeAgo)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Jahdingol wattan %(translatedTimeAgo)s nder %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Jahdingol wattan dow %(translatedTimeAgo)s nder %(translatedCountry)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Jahdingol wattan %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Jahdingol wattan dow %(translatedTimeAgo)s sara %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync time unknown"
-#~ msgstr "Sahaa jahdingol wattan mo anndaaka"
-
-#~ msgid "Subscribed successfully"
-#~ msgstr "Lulniima no haaniri"
-
-#~ msgid "Open tabs"
-#~ msgstr "Tabbe udditiiɗe"
-
-#~ msgid "Logins"
-#~ msgstr "Ceŋorɗe"
-
-#~ msgid "Credit cards"
-#~ msgstr "Karte banke"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox Sync"
-
-#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-#~ msgstr "Njidnoɗaa wiyde ko <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-
-#~ msgid "Please try again later"
-#~ msgstr "Eto kadi so ɓooyii njaafoɗaa"
-
-#~ msgid "Sign in to continue"
-#~ msgstr "Seŋo ngam jokkude"
-
-#~ msgid "Create an account"
-#~ msgstr "Sos konte"
-
-#~ msgid "Enter code"
-#~ msgstr "Naatnu kod"
-
-#~ msgid "Have an account? Sign in"
-#~ msgstr "Aɗa jogii konnte? Seŋo"
-
-#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
-#~ msgstr "Aaf Firefox e noddirgel maa tee seŋo ngam jokkit-de teelto"
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "Jokkol jaaɓnirgal neldaama to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Feewaani&nbsp;tonngoode?</a>"
-
-#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "Jokkol jaaɓnirgal nelditaama e %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Feewaani&nbsp;tonngol?</a>"
-
-#~ msgid "If you are not receiving the text message, you can also download the apps manually."
-#~ msgstr "So tawii a heɓataamesaas binndol oo, aɗa waawi kadi aawtaade jaaɓnirɗe ɗee e junngol."
-
-#~ msgid "Disconnect from Sync?"
-#~ msgstr "Seŋtondir e Sync?"
-
-#~ msgid "Suspicious device"
-#~ msgstr "Kaɓirgol tuumungol"
-
-#~ msgid "Lost or stolen device"
-#~ msgstr "Kaɓirgol wujja walla majju"
-
-#~ msgid "Old or replaced device"
-#~ msgstr "Kaɓirgol nayewol walla goɗngol"
-
-#~ msgid "Duplicate device"
-#~ msgstr "Kaɓirgol ɗiɗabol"
-
-#~ msgid "Subscribe"
-#~ msgstr "Lulno"
-
-#~ msgid "verified"
-#~ msgstr "ƴeewtaama"
-
-#~ msgid "verification required"
-#~ msgstr "ƴeewtagol ina ɗaɓɓitaa"
-
-#~ msgid "%(email)s registered."
-#~ msgstr "%(email)s winnditaama."
-
-#~ msgid "Communication preferences"
-#~ msgstr "Cuɓoraaɗe kumpital"
-
-#~ msgid "Manage Subscriptions"
-#~ msgstr "Toppito Binnditagol"
-
-#~ msgid "Sign in &rarr;"
-#~ msgstr "Seŋo &rarr;"
-
-#~ msgid "Save settings"
-#~ msgstr "Danndu teelte"
-
-#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr "Konte Firefox ɗee nganndaaka. <a href=\"/signup\">Winndito</a> huutoraade konte maa iimeel ɓeyditte jawtuɗe ngam naatde e keɓe Ɓeyditte."
-
-#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-#~ msgstr "E wnume <a href=\"https://www.gravatar.com\">Gravatar</a>"
-
-#~ msgid "Unsubscribed successfully"
-#~ msgstr "Lultiniima no haaniri"
-
-#~ msgid "Email resent"
-#~ msgstr "Iimeel neltiraama"
-
-#~ msgid "No Gravatar found"
-#~ msgstr "Alaa Gravatar yiytaa"
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-#~ msgstr "Njiɗno-ɗaa wiyde ko <span tabindex=\"1\">%(escapedDomain)s</span>?"
-
-#~ msgid "Resources failed to load"
-#~ msgstr "Kattane koriima loowaade"
-
-#~ msgid "Unexpected resource error"
-#~ msgstr "Juumre kattanɗe nde tijjaaka"
-
-#~ msgid "Script error"
-#~ msgstr "Juumre dokkorol"
-
-#~ msgid "SMS sent"
-#~ msgstr "SMS neldaama"
-
-#~ msgid "Your number has been blocked"
-#~ msgstr "Tonngoode maa daaƴanooma"
-
-#~ msgid "SMS not sent, please try again"
-#~ msgstr "SMS neldaaka, eto goɗngol njaafoɗa"
-
-#~ msgid "Learn more."
-#~ msgstr "Ɓeydu humpito."
-
-#~ msgid "%(email)s created"
-#~ msgstr "%(email)s cosaama"
-
-#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
-#~ msgstr "Ɓeyditte e Cuɓoraaɗe cynkataa oo sahaa e kaɓirɗi cinnde."
-
-#~ msgid "Click here to receive a new reset link"
-#~ msgstr "Dobo ɗoo ngam heɓde jokkol kesol"
-
-#~ msgid "Enter new password"
-#~ msgstr "Naatnu finnde hesere"
-
-#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Caggal nde naatnu-ɗaa finnde hesere, maa momtore won e keɓe Sync ɗe ngalaa e gootol e kaɓirɗi maa."
-
-#~ msgid "Learn how Sync works."
-#~ msgstr "Ekko no Sync yahrata."
-
-#~ msgid "Submit new password"
-#~ msgstr "Naatnu finnde hesere"
-
-#~ msgid "Email Sent"
-#~ msgstr "Iimeel neldaama"
-
-#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "Jokkol ƴeewtagol neldaama &nbsp;to %(escapedEmail)s"
-
-#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-#~ msgstr "Ngam ɓeydude ndeenka keɓe maa Firefox, min neldii jokkol teeŋtinirgol to %(email)s"
-
-#~ msgid "Didn't arrive and not in spam folder? Resend"
-#~ msgstr "Yettaaki tee alaa e runngere spam? Neltir"
-
-#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-#~ msgstr "Dobo e jokkol min neldu-maa to %(email)s ngol e nder waktu garoowo oo ngam sosde finnde hesere."
-
-#~ msgid "This device is connected"
-#~ msgstr "Ngol kaɓirgol seŋiima"
-
-#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
-#~ msgstr "Uddit teelte kisa labo-ɗaa Seŋo e Firefox ngam timminde teeltagol"
-
-#~ msgid "Why is this required?"
-#~ msgstr "Hol ko waɗi ena waɗɗii?"
-
-#~ msgid "Cookies and local storage are required."
-#~ msgstr "Kukiije e ndesgu nokku ena mbaɗɗii."
-
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "Ɓennude ɗoo firti ko a jaɓii ɗooftaade <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Sarɗiiji Carwe</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Tintinol Suturo</a> "
-#~ "mo carwe ruulde Firefox."
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Carwe ruulde Firefox"
-
-#~ msgid "Proceed"
-#~ msgstr "Jokku"
-
-#~ msgid "Reset account"
-#~ msgstr "Firlit konte"
-
-#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "So a firlitii finnde maa, maa momtor won e keɓe Sync ɗe ngalaa e gootol e kaɓirɗi maa."
-
-#~ msgid "Remember password? Sign in."
-#~ msgstr "Siiftor finnde? Seŋo."
-
-#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Aɗa yiyloo kaɓe Ɓeyditte maa? <a href=\"/signup\">Seŋo</a> e Konte Firefox huutoraade ñiiɓirde iimeel konte maa Ɓeyditte ɓooyɗe ɗee."
-
-#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-#~ msgstr "Eggin keɓe maa sync so seŋaade e Konte&nbsp;Firefox."
-
-#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-#~ msgstr "Ngam ɓeydude ndeenka keɓe Firefox, kod jamirgol nana fad-maa to %(email)s."
-
-#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-#~ msgstr "Aɗa yiyloo Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Fuɗɗo ɗoo</a>"
-
-#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-#~ msgstr "Eggin keɓe maa sync so sosde Konte&nbsp;Firefox kese.."
-
-#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Aɗa yiyloo kaɓe Ɓeyditte maa? Seŋo e Konte Firefox huutoraade ñiiɓirde iimeel konte maa Ɓeyditte ɓooyɗe ɗee."
-
-#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
-#~ msgstr "Finnde tekkunde, heeriinde maa sur keɓe maa Firefox e wujjittooɓe."
-
-#~ msgid "Receive the monthly Firefox newsletter"
-#~ msgstr "Heɓ ɓataake habrirde lewruyaŋkeewo Firefox oo"
-
-#~ msgid "Why Sync two (or more!) devices?"
-#~ msgstr "Ko addi Syncude kaɓirgol (walla keewɗi)?"
-
-#~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
-#~ msgstr ""
-#~ "Sync ena waawnu maa lollinde maantore maa, aslol e finndeeji ɗe ndanndu-ɗaa e Firefox ɗ kaɓirgol gootol huutoraade Firefox e kaɓirgol goɗngol. Seŋo e Firefox e cinndel walla taable maa kisa kala "
-#~ "ko ndannduno-ɗaa e Firefox mo biro maa yaltu."
-
-#~ msgid ""
-#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr ""
-#~ "Sync waɗiraaka dannorde duumiinde – ko danndude tan ko lollinaa e nokkuure ndee. So a firlitii finnde maa tee keɓe maa ndesaaka e kaɓirgol hay so gootol goɗngol, aɗa waawi momtoreede humpito "
-#~ "kala jokkinooɗo e finnde hiiɗnde ndee. Ko ɗum waɗi aɗa foti aafde Firefox tee kuutoro-ɗaa Sync e ko ɓuri kaɓirgolo gootol."
-
-#~ msgid "Gravatar"
-#~ msgstr "Gravatar"
-
-#~ msgid "Save"
-#~ msgstr "Danndu"
-
-#~ msgid "current device"
-#~ msgstr "kaɓirgol gonangol"
-
-#~ msgid "current session"
-#~ msgstr "rogere jooni nde"
-
-#~ msgid "none connected"
-#~ msgstr "seŋaaki"
-
-#~ msgid "Receive the monthly Firefox newsletter."
-#~ msgstr "Heɓ ɓataake habrirde Firefox lewru kala."
-
-#~ msgid "Unsubscribe"
-#~ msgstr "Lultino"
-
-#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
-#~ msgstr "Aɗa yenanaa yiɗde momtude konte maa? Ngal baɗal firtotaako."
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "Seŋo nga syncude"
-
-#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-#~ msgstr "Suɓo konte ɗe njiɗ-ɗaa huutoraade ngam syncude tabbe maa, maantore, finndeeji e geɗe goɗɗe."
-
-#~ msgid "Use OpenID"
-#~ msgstr "Huutoro OpenID"
-
-#~ msgid "Use Firefox Account"
-#~ msgstr "Huutoro Konte Firefox"
-
-#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-#~ msgstr "Ƴeewto iimeel maa sabu jokkol teeŋtingol ceŋagol neldaaɗo e %(email)s"
-
-#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-#~ msgstr "Tintine konte maa nelde jooni e %(secondaryEmailVerified)s"
-
-#~ msgid "We may send you emails related to your Firefox Account."
-#~ msgstr "Firefox ina waawi neldudema iimeeluuji toɗɗiiɗi konte maa Firefox."
-
-#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-#~ msgstr "Yanti heen, aɗa waawi suɓaade heɓde kabaruuji cakkitiiɗi baɗte Mozilla kam e Firefox."
-
-#~ msgid "Invalid sign-in verification code"
-#~ msgstr "Kod ƴeewtorɗo ceŋagol oo moƴƴaani"
-
-#~ msgctxt "submit button"
-#~ msgid "Sign in"
-#~ msgstr "Seŋo"
-
-#~ msgctxt "header text"
-#~ msgid "Sign in"
-#~ msgstr "Seŋo"
-
-#~ msgctxt "button text"
-#~ msgid "Sign in"
-#~ msgstr "Seŋo"
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-#~ msgstr "Iimeel ɗiɗaɓo ko ñiiɓirde ɓeydaande ngam heɓde tintine kisal kam e teeŋtinde masiŋon Jahdingol keson"
-
-#~ msgid "Unlock…"
-#~ msgstr "Soktu…"
-
-#~ msgid "verify to unlock section"
-#~ msgstr "ƴeewto ngam soktude taƴre ndee"
-
-#~ msgid "Next"
-#~ msgstr "Yeeso"
-
-#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
-#~ msgstr "alkule 8 so famɗii, kono ku ɓuri ɗum so aɗa anniyii syncude finndeeji."
-
-#~ msgid "This is a common password; please consider another one."
-#~ msgstr "Ndee finnde ko woowaande; tiiɗno miijo sosde woɗnde."
-
-#~ msgid "Signed out successfully"
-#~ msgstr "Seŋtiima no haanirta"
-
-#~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-#~ msgstr "Finnde moƴƴaani. Ngam ƴeewtaade cellungol koo naatnu-ɗaa koo, dobo, ñoƴƴaa butoŋ Hollu oo."
-
-#~ msgid "Duplicate Device"
-#~ msgstr "Kaɓirgol punol"
-
-#~ msgid "Didn’t arrive? Resend"
-#~ msgstr "Yettaaki? Neltir"
-
-#~ msgid "Reason for disconnecting…"
-#~ msgstr "Daliilu ceŋtagol…"
-
-#~ msgid "Stay in sync on the go:"
-#~ msgstr "Heddo e ceŋol sahaa kala:"
-
-#~ msgid "Get Firefox for Android"
-#~ msgstr "Heɓ Firefox mo Android"
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-#~ msgstr "Njiɗno-ɗaa wiyde ko <span tabindex=\"1\">%(domain)s</span>?"
-
-#~ msgid "A verification link has been sent&nbsp;to %(email)s"
-#~ msgstr "Jokkol ƴeewtagol neldaama to %(email)s"
-
-#~ msgid "Attempt limit exceeded"
-#~ msgstr "Etaali ɓurtii ko yamiraa"
-
-#~ msgid "Resend email"
-#~ msgstr "Neltir iimeel"
-
-#~ msgid "Home"
-#~ msgstr "Jaɓɓorgo"
-
-#~ msgid "Missing parameter in request body: %(param)s"
-#~ msgstr "Teeltol e jimme ɗaɓɓitannde ena ŋakki: %(param)s"
-
-#~ msgid "Sign up"
-#~ msgstr "Winndito"
-
-#~ msgid "/force_auth requires an email"
-#~ msgstr "/force_auth ena naamnii iimeel"
-
-#~ msgid "A reset link has been sent to %(email)s"
-#~ msgstr "Iimeel pirlitol neldaama to %(email)s"
-
-#~ msgid "Cookies required"
-#~ msgstr "Kukiije ena mbaɗɗii"
-
-#~ msgid ""
-#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
-#~ "sessions."
-#~ msgstr ""
-#~ "Tiiɗno hurmin kukiije e wanngorde maa sabu ena waɗɗii e Konte Firefox. Kukiije ko ngabbon keɓe tokoson moofteteekon e ngaanndi maa ngam wallude wanngorde ndee siiftorde ma hakkunde naatanɗe maa."
-
-#~ msgid "1991"
-#~ msgstr "1991"
-
-#~ msgid "1992"
-#~ msgstr "1992"
-
-#~ msgid "1993"
-#~ msgstr "1993"
-
-#~ msgid "1994"
-#~ msgstr "1994"
-
-#~ msgid "1995"
-#~ msgstr "1995"
-
-#~ msgid "1996"
-#~ msgstr "1996"
-
-#~ msgid "1997"
-#~ msgstr "1997"
-
-#~ msgid "1998"
-#~ msgstr "1998"
-
-#~ msgid "1999"
-#~ msgstr "1999"
-
-#~ msgid "2000"
-#~ msgstr "2000"
-
-#~ msgid "2001"
-#~ msgstr "2001"
-
-#~ msgid "2002"
-#~ msgstr "2002"
-
-#~ msgid "2003"
-#~ msgstr "2003"
-
-#~ msgid "2004"
-#~ msgstr "2004"
-
-#~ msgid "2005"
-#~ msgstr "2005"
-
-#~ msgid "2006"
-#~ msgstr "2006"
-
-#~ msgid "2007"
-#~ msgstr "2007"
-
-#~ msgid "Year of birth required"
-#~ msgstr "Hitaande jibinannde ena waɗɗii"
-
-#~ msgid "Valid birthday required"
-#~ msgstr "Maanditaare moƴƴere ena waɗɗii"
-
-#~ msgid "Year of birth"
-#~ msgstr "Hitaande jibinannde"
-
-#~ msgid "1990 or earlier"
-#~ msgstr "1990 walla ko adii"
-
-#~ msgid "Month"
-#~ msgstr "Lewru"
-
-#~ msgid "January"
-#~ msgstr "Siilo"
-
-#~ msgid "February"
-#~ msgstr "Colte"
-
-#~ msgid "March"
-#~ msgstr "Mbooy"
-
-#~ msgid "April"
-#~ msgstr "Seeɗto"
-
-#~ msgid "May"
-#~ msgstr "Duujal"
-
-#~ msgid "June"
-#~ msgstr "Korse"
-
-#~ msgid "July"
-#~ msgstr "Morso"
-
-#~ msgid "August"
-#~ msgstr "Juko"
-
-#~ msgid "September"
-#~ msgstr "Siilto"
-
-#~ msgid "October"
-#~ msgstr "Yarkomaa"
-
-#~ msgid "November"
-#~ msgstr "Jolal"
-
-#~ msgid "December"
-#~ msgstr "Bowte"
-
-#~ msgid "Day"
-#~ msgstr "Ñalawma"
-
-#~ msgid "Manage account"
-#~ msgstr "Toppito konte"
-
-#~ msgid "Enter your email to reset&nbsp;the account password."
-#~ msgstr "Naatnu iimeel maa ngam firlitde &nbsp;finnde konte ɗee."
-
-#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr "Ngam suturo maa, firlitde finnde maa momtu keɓe Sync kala e carworɗe amen. Maa dannditol Sync kesol sose tugnaade e keɓe nokkuure wanngorde maa."
-
-#~ msgid "You are signed in as"
-#~ msgstr "Ceŋori-ɗaa ko innde"
-
-#~ msgid "Already have an account? Sign in."
-#~ msgstr "Aɗa jogii konnte kisa? Seŋo."
-
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "Ɓennude ɗoo firti ko mi jaɓii ɗooftaade <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Sarɗiiji Carwe</a> e <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Tintinol Suturo</a> "
-#~ "mo carwe ruulde Firefox."
-
-#~ msgid "Subscribe to Firefox news and tips"
-#~ msgstr "Lulno e kabaruuji e tinndinooje Firefox"
-
-#~ msgid "missing search parameter: %(itemName)s"
-#~ msgstr "ena ŋakki teeltol njiilaw: %(itemName)s"
-
-#~ msgid "Once you're ﬁnished, use your new password to sign in on all of your devices."
-#~ msgstr "Tuma ngasnu-ɗaa, huutoro finnde maa hesere ngam seŋaade e kaɓirɗi maa kala."
-
-#~ msgid "Illegal iframe"
-#~ msgstr "Iframe yamiraaka"
-
-#~ msgid "Invalid verification errno"
-#~ msgstr "Ƴeewtagol feewaani"
-
-#~ msgid "Password changed"
-#~ msgstr "Finnde waylaama"
-
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
-#~ msgstr "Konte ƴeewtaaka. <a href=\"#\" id=\"resend\">Neltir iimeel ƴeewtagol</a>."
-
-#~ msgid "Password reset. Sign in to continue."
-#~ msgstr "Finnde firlitaama. Seŋo ngam jokkude."
-
-#~ msgid "Signed out"
-#~ msgstr "Seŋtiima"
-
-#~ msgid "Invalid password"
-#~ msgstr "Finnde moƴƴaani"
-
-#~ msgid "Invalid email and password"
-#~ msgstr "Iimeel e finnde peewaani"
-
-#~ msgid "Invalid email or password"
-#~ msgstr "Iimeel walla finnde peewaani"
-
-#~ msgid "Old password invalid"
-#~ msgstr "Finnde ɓooynde ndee feewaani"
-
-#~ msgid "New password invalid"
-#~ msgstr "Finnde hesere ndee feewaani"
-
-#~ msgid "Passwords don't match"
-#~ msgstr "Finndeeji ɗii nanndaani"
-
-#~ msgid "Please enter an email"
-#~ msgstr "Tiiɗno naatnu iimeel"
-
-#~ msgid "Cannot connect to the internet"
-#~ msgstr "Horiima seŋaade e enternet"
-
-#~ msgid "Signed in successfully"
-#~ msgstr "Seŋiima no haanirta"
-
-#~ msgid "Create a Firefox Account for %(serviceName)s"
-#~ msgstr "Sos Konte Firefox"
-
-#~ msgid "Change Password"
-#~ msgstr "Waylu Finnde"
-
-#~ msgid "Invalid authentication token in request signature"
-#~ msgstr "Tokkunde goongɗitinal e siifannde ɗaɓɓitannde moƴƴaani"

@@ -1,0 +1,2889 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2022-04-29 15:31+0000\n"
+"Last-Translator: వీవెన్ <veeven@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+
+#: .es5/views/confirm_reset_password.js:199
+msgid "Password reset"
+msgstr "పాస్‌వర్డ్ రీసెట్"
+
+#: .es5/views/confirm_reset_password.js:217
+msgid "Password reset successfully. Sign in to continue."
+msgstr "సంకేతపదం విజయవంతంగా రీసెట్ చేయబడింది. కొనసాగడానికి ప్రవేశించండి."
+
+#. submit button
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/templates/sign_in_password.mustache:10
+msgid "Sign in"
+msgstr "ప్రవేశించు"
+
+#: .es5/views/index.js:176
+msgid "Account deleted successfully"
+msgstr "ఖాతా విజయవంతంగా తొలగించబడింది"
+
+#: .es5/views/inline_totp_setup.js:156
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr ""
+
+#: .es5/views/permissions.js:41
+msgid "%(permissionName)s (required)"
+msgstr "%(permissionName)s (తప్పనిసరి)"
+
+#: .es5/views/permissions.js:45
+msgid "Email address"
+msgstr "ఈమెయిల్ చిరునామా"
+
+#: .es5/views/permissions.js:49
+msgid "Display name"
+msgstr "చూపించే పేరు"
+
+#: .es5/views/permissions.js:52
+msgid "Account picture"
+msgstr "ఖాతా ముఖచిత్రం"
+
+#: .es5/views/ready.js:58
+msgid "Welcome back"
+msgstr "తిరిగి స్వాగతం"
+
+#: .es5/views/ready.js:59
+msgid "Firefox Sync will resume momentarily"
+msgstr "Firefox Sync కొంతసేపట్లో ప్రారంభం అవుతుంది"
+
+#: .es5/views/ready.js:63 .es5/views/ready.js:68
+msgid "Your password has been reset"
+msgstr "మీ సంకేతపదం రీసెట్ చేయబడింది"
+
+#: .es5/views/ready.js:64 .es5/views/ready.js:69
+msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgstr "మీ ఇతర పరికరాలలో కొత్త పాస్‌వర్డ్ నమోదు చేసి ఏర్పాటు పూర్తి చేయండి."
+
+#: .es5/views/ready.js:72
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "మీ Firefox ఖాతాలో మీరు ఇప్పుడు మార్పులు చేసుకోవచ్చు."
+
+#: .es5/views/ready.js:74
+msgid "Primary email confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:77
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr "ఖాతా నోటిఫికేషన్లు కూడా ఇప్పుడు %(secondaryEmailVerified)s కు పంపబడతాయి."
+
+#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
+msgid "Secondary email confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+msgid "Sign-in confirmed"
+msgstr "సైన్ ఇన్ ధ్రువీకరించబడింది"
+
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+msgid "You are now ready to use %(serviceName)s"
+msgstr "మీరు ఇప్పుడు %(serviceName)s ఉపయోగించడానికి సిద్ధంగా ఉన్నారు"
+
+#: .es5/views/ready.js:89
+msgid "Account confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:94
+msgid "Connected"
+msgstr "అనుసంధానమైంది"
+
+#: .es5/views/reset_password.js:111
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "తెలియని ఖాతా. <a href=\"/signup\">సైన్ అప్</a>"
+
+#: .es5/views/sign_up_password.js:86
+msgid "Account no longer exists. Recreate it?"
+msgstr "ఈ ఖాతా ఇపుడు లేనేలేదు. తిరిగి సృష్టించాలా?"
+
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
+msgid "Other"
+msgstr "ఇతర"
+
+#: .es5/views/support.js:270
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
+
+#: .es5/views/support.js:272
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
+
+#: .es5/views/post_verify/verified.js:53
+msgid "Your sync data is protected"
+msgstr ""
+
+#: .es5/views/post_verify/verified.js:54
+msgid "If you lose access to your account, you’ll be able to restore your sync data."
+msgstr ""
+
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "విహరించడం మొదలుపెట్టండి"
+
+#: .es5/views/post_verify/verified.js:58
+msgid "Account notifications will now also be sent to %(secondaryEmail)s."
+msgstr ""
+
+#: .es5/views/post_verify/verified.js:59
+msgid "Continue to %(serviceName)s "
+msgstr "%(serviceName)sకు కొనసాగు"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
+msgid "Your account has been locked for security reasons"
+msgstr "భద్రతా కారణాల రీత్యా మీ ఖాతా స్తంభించబడింది"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+msgid "Reset password"
+msgstr "పాస్వర్డ్ మార్చుకోండి"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:38
+msgid "none"
+msgstr "ఏమీలేదు"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:44
+msgid "Last checked: %(lastCheckTime)s"
+msgstr "చివరి తనిఖీ: %(lastCheckTime)s"
+
+#: .es5/views/mixins/open-webmail-mixin.js:25
+msgid "Open Gmail"
+msgstr "జీమెయిల్ తెరువు"
+
+#: .es5/views/mixins/open-webmail-mixin.js:30
+msgid "Open Hotmail"
+msgstr "హాట్‌మెయిల్ తెరువు"
+
+#: .es5/views/mixins/open-webmail-mixin.js:35
+msgid "Open Yahoo"
+msgstr "యాహూ తెరువు"
+
+#: .es5/views/mixins/open-webmail-mixin.js:40
+msgid "Open Outlook"
+msgstr "ఔట్‌లుక్ తెరువు"
+
+#: .es5/views/mixins/open-webmail-mixin.js:45
+msgid "Open Restmail"
+msgstr "Restmailను తెరువు"
+
+#: .es5/views/mixins/password-mixin.js:149
+msgid "Hide password"
+msgstr "సంకేతపదాన్ని దాచు"
+
+#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr "సంకేతపదం చూపించు"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:77
+msgid "Firefox Recovery Codes"
+msgstr ""
+
+#: .es5/views/mixins/recovery-codes-mixin.js:142
+msgid "Two-step authentication enabled"
+msgstr "రెండు-దశల ప్రమాణీకరణ చేతనమైనది"
+
+#: .es5/views/mixins/recovery-key-mixin.js:30
+msgid "Firefox Recovery Key"
+msgstr "Firefox రికవరీ కీ"
+
+#: .es5/views/mixins/resend-mixin.js:53
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:59
+msgid "Copied"
+msgstr "నకలు చేయబడినది"
+
+#: .es5/views/mixins/save-options-mixin.js:61
+msgid "Failed to copy. Please manually copy."
+msgstr ""
+
+#: .es5/views/mixins/save-options-mixin.js:78
+msgid "Downloaded"
+msgstr "దింపుకోలు చేయబడింది"
+
+#: .es5/views/mixins/save-options-mixin.js:90
+msgid "Printed"
+msgstr "ముద్రించబడింది"
+
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "payment & billing"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "account issues"
+msgstr "ఖాతా సమస్యలు"
+
+#: .es5/models/support-form.js:25
+msgid "technical issues"
+msgstr "సాంకేతిక సమస్యలు"
+
+#: .es5/models/support-form.js:25
+msgid "provide feedback / request features"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "not listed"
+msgstr ""
+
+#: .es5/models/sync-engines.js:58
+msgid "Bookmarks"
+msgstr "ఇష్టాంశాలు"
+
+#: .es5/models/sync-engines.js:62
+msgid "History"
+msgstr "చరిత్ర"
+
+#: .es5/models/sync-engines.js:66
+msgid "Passwords"
+msgstr "సంకేతపదాలు"
+
+#: .es5/models/sync-engines.js:70
+msgid "Add-ons"
+msgstr "పొడిగింతలు"
+
+#: .es5/models/sync-engines.js:74
+msgid "Open Tabs"
+msgstr "తెరిచివున్న ట్యాబులు"
+
+#: .es5/models/sync-engines.js:78
+msgid "Preferences"
+msgstr "అభిరుచులు"
+
+#: .es5/models/sync-engines.js:86
+msgid "Addresses"
+msgstr "చిరునామాలు"
+
+#: .es5/models/sync-engines.js:94
+msgid "Credit Cards"
+msgstr "క్రెడిట్ కార్డులు"
+
+#: .es5/models/reliers/browser.js:88
+msgid "Firefox"
+msgstr "Firefox"
+
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "ప్రాథమిక ఇమెయిల్ విజయవంతంగా ధృవీకరించబడింది"
+
+#: .es5/models/auth_brokers/base.js:114
+msgid "Secondary email verified successfully"
+msgstr "రెండవ ఈమెయిలు విజయవంతంగా తనిఖీ చేయబడింది"
+
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "ఖాతా విజయవంతంగా నిర్ధారించబడింది"
+
+#: .es5/models/auth_brokers/web.js:38
+msgid "Password reset successfully"
+msgstr "సంకేతపదపు రీసెట్ విజయవంతం"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "ఖాతా రికవరీ చేతనమైనది"
+
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+msgid "Unexpected error"
+msgstr "ఊహించని దోషం"
+
+#: .es5/lib/auth-errors.js:27
+msgid "The link you clicked to verify your email is expired."
+msgstr "మీరు మీ ఇమెయిల్ ధ్రువీకరించడం క్లిక్ చేసిన లింక్ గడువు ముగిసింది."
+
+#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+msgid "You've tried too many times. Try again later."
+msgstr "మీరు చాలాసార్లు ప్రయత్నించారు. కాసేపాగి మళ్ళీ ప్రయత్నించండి."
+
+#: .es5/lib/auth-errors.js:32
+msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
+msgstr "మీరు చాలాసార్లు ప్రయత్నించారు. %(retryAfterLocalized)s మళ్ళీ ప్రయత్నించండి."
+
+#: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
+msgid "Invalid token"
+msgstr "చెల్లని టోకెను"
+
+#: .es5/lib/auth-errors.js:44
+msgid "Invalid timestamp in request signature"
+msgstr "అభ్యర్థన సంతకంలో చెల్లని స్టాంప్"
+
+#: .es5/lib/auth-errors.js:48
+msgid "Invalid nonce in request signature"
+msgstr "అభ్యర్థన సంతకంలో చెల్లని సమయము"
+
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+msgid "Account already exists"
+msgstr "ఖాతా ఇప్పటికే ఉనికిలో ఉంది"
+
+#: .es5/lib/auth-errors.js:56
+msgid "Unknown account"
+msgstr "తెలియని ఖాతా"
+
+#: .es5/lib/auth-errors.js:60
+msgid "Incorrect email case"
+msgstr "సరికాని ఇమెయిల్ కేసు"
+
+#: .es5/lib/auth-errors.js:64
+msgid "Incorrect password"
+msgstr "తప్పుడు సంకేతపదం"
+
+#: .es5/lib/auth-errors.js:68
+msgid "Unverified account"
+msgstr "ధ్రువీకరించని ఖాతా"
+
+#: .es5/lib/auth-errors.js:72
+msgid "Invalid verification code"
+msgstr "చెల్లని ధృవీకరణ కోడ్"
+
+#: .es5/lib/auth-errors.js:76
+msgid "Invalid JSON in request body"
+msgstr "రిక్వస్ట్ బాడీ లో‌ చెల్లని JSON"
+
+#: .es5/lib/auth-errors.js:80
+msgid "Invalid parameter: %(param)s"
+msgstr "చెల్లని పరామితి: %(param)s"
+
+#: .es5/lib/auth-errors.js:84
+msgid "Missing parameter: %(param)s"
+msgstr "కనబడని పరామితి: %(param)s"
+
+#: .es5/lib/auth-errors.js:88
+msgid "Invalid request signature"
+msgstr "చెల్లని అభ్యర్థన సంతకం"
+
+#: .es5/lib/auth-errors.js:92
+msgid "Missing content-length header"
+msgstr "క్ంటెంట్ లెంథ్ హెడర్ కనబడుటలేదు"
+
+#: .es5/lib/auth-errors.js:96
+msgid "Request body too large"
+msgstr "అభ్యర్థన శరీరం చాలా పెద్ద"
+
+#: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
+msgid "The request was blocked for security reasons"
+msgstr "అభ్యర్థన భద్రతా కారణాల వల్ల నిరోధించబడింది"
+
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+msgid "Invalid authorization code"
+msgstr "చెల్లని ధృవీకరణ కోడ్"
+
+#: .es5/lib/auth-errors.js:127
+msgid "Invalid phone number"
+msgstr "చెల్లని ఫోను నెంబరు"
+
+#: .es5/lib/auth-errors.js:131
+msgid "Cannot send to this country"
+msgstr "ఈ దేశానికి పంపించలేము"
+
+#: .es5/lib/auth-errors.js:140
+msgid "Could not send a message to this number"
+msgstr "ఈ నెంబరుకి సందేశాన్ని పంపించలేకున్నాం"
+
+#: .es5/lib/auth-errors.js:144
+msgid "Your email was just returned"
+msgstr "మీ ఈమెయిలు వెనక్కి తిరిగొచ్చింది"
+
+#: .es5/lib/auth-errors.js:148
+msgid "Your email was just returned. Mistyped email?"
+msgstr "మీ ఈమెయిలు వెనక్కి తిరిగొచ్చింది. ఈమెయిలు తప్పుగా ఇచ్చారా?"
+
+#: .es5/lib/auth-errors.js:152
+msgid "Unable to deliver email"
+msgstr "ఈమెయిలును పంపించలేకపోయాం"
+
+#: .es5/lib/auth-errors.js:156
+msgid "This email was already verified by another user"
+msgstr "ఈ ఇమెయిల్ ఇప్పటికే మరొక వినియోగదారునిచే ధృవీకరించబడింది"
+
+#: .es5/lib/auth-errors.js:160
+msgid "Unverified session"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:164
+msgid "Secondary email must be different than your account email"
+msgstr "సెకండరీ ఇమెయిల్ మీ ఖాతా ఇమెయిల్ కంటే భిన్నంగా ఉండాలి"
+
+#: .es5/lib/auth-errors.js:172
+msgid "You have reached the maximum allowed secondary emails"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:176
+msgid "This email already exists on your account"
+msgstr "ఈ ఈమెయిలు ఇప్పటికే మీ ఖాతాలో ఉంది"
+
+#: .es5/lib/auth-errors.js:184
+msgid "Primary account email required for sign-in"
+msgstr "ప్రవేశించడానికి ప్రాథమిక ఖాతా ఈమెయిలు తప్పనిసరి"
+
+#: .es5/lib/auth-errors.js:188
+msgid "Address in use by another account"
+msgstr "ఈ చిరునామాను మరొక ఖాతా వాడుతోంది"
+
+#: .es5/lib/auth-errors.js:192
+msgid "Primary account email required for reset"
+msgstr "రీసెట్ చేయడానికి ప్రాథమిక ఖాతా ఈమెయిలు తప్పనిసరి"
+
+#: .es5/lib/auth-errors.js:196
+msgid "Invalid signin code"
+msgstr "చెల్లని ప్రవేశ కోడ్"
+
+#: .es5/lib/auth-errors.js:200
+msgid "Can not change primary email to an unverified email"
+msgstr "ధృవీకరించని ఇమెయిల్కు ప్రాథమిక ఇమెయిల్ను మార్చలేరు"
+
+#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
+msgid "Can not change primary email to an email that does not belong to this account"
+msgstr "ఈ ఖాతాకు చెందని ఇమెయిల్కి ప్రాథమిక ఇమెయిల్ను మార్చలేరు"
+
+#: .es5/lib/auth-errors.js:208
+msgid "This email can not currently be used to login"
+msgstr "ఈ ఈమెయిలుని ప్రవేశించడానికి ప్రస్తుతం వాడలేరు"
+
+#: .es5/lib/auth-errors.js:216
+msgid "Failed to send email"
+msgstr "ఈమెయిలు పంపించడం విఫలమైంది"
+
+#: .es5/lib/auth-errors.js:220
+msgid "Valid code required"
+msgstr "చెల్లుబాటయ్యే కోడు అవసరం"
+
+#: .es5/lib/auth-errors.js:224
+msgid "This verification code has expired"
+msgstr "ఈ ధృవీకరణ కోడ్ గడువు ముగిసింది"
+
+#: .es5/lib/auth-errors.js:228
+msgid "A TOTP token already exists for this account"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:232
+msgid "TOTP token not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:236
+msgid "Recovery code not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:240
+msgid "Unavailable device command"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:244
+msgid "Recovery key not found"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:248
+msgid "Invalid recovery key"
+msgstr "చెల్లని పునరుద్ధరణ కీ"
+
+#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
+msgid "This request requires two step authentication enabled on your account."
+msgstr "ఈ అభ్యర్థనకు మీ ఖాతాలో రెండు దశల అధీకరణ చేతనమై ఉండాలి."
+
+#: .es5/lib/auth-errors.js:256
+msgid "Failed due to a conflicting request, please try again."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:264
+msgid "Unknown customer for subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:268
+msgid "Unknown subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:272
+msgid "Unknown plan for subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:276
+msgid "Invalid payment token for subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:280
+msgid "Subscription has already been cancelled"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:284
+msgid "Update was rejected, please try again"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:288
+msgid "Invalid or expired verification code"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+msgid "Server busy, try again soon"
+msgstr "సర్వర్ బిజీగా ఉంది, త్వరలో మళ్లీ ప్రయత్నించండి"
+
+#: .es5/lib/auth-errors.js:296
+msgid "Feature not enabled"
+msgstr "సౌలభ్యం చేతనం కాలేదు"
+
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+msgid "System unavailable, try again soon"
+msgstr "వ్యవస్థ అందుబాటులో లేవు, త్వరలో మళ్లీ ప్రయత్నించండి"
+
+#: .es5/lib/auth-errors.js:308
+msgid "This endpoint is no longer supported"
+msgstr "ఈ తుది స్థానం ఇకపై మద్దతు ఇవ్వబడదు"
+
+#: .es5/lib/auth-errors.js:316
+msgid "Login attempt cancelled"
+msgstr "ప్రవేశ ప్రయత్నం రద్దుచెయ్యబడింది"
+
+#: .es5/lib/auth-errors.js:320
+msgid "Session expired. Sign in to continue."
+msgstr "సెషన్ ముగిసిపోయింది. కొనసాగడానికి సైన్ అవండి."
+
+#: .es5/lib/auth-errors.js:324
+msgid "Cookies are still disabled"
+msgstr "కుకీలు ఇప్పటికీ డిసేబుల్ అయిఉన్నవి"
+
+#: .es5/lib/auth-errors.js:328
+msgid "Passwords do not match"
+msgstr "సంకేతపదాలు సరి పోవట్లేదు"
+
+#: .es5/lib/auth-errors.js:332
+msgid "Working…"
+msgstr "పని జరుగుతోంది..."
+
+#: .es5/lib/auth-errors.js:336
+msgid "Could not get Privacy Notice"
+msgstr "గోప్యతా నోటీసు పొందడం సాధ్యం కాలేదు"
+
+#: .es5/lib/auth-errors.js:340
+msgid "Could not get Terms of Service"
+msgstr "సేవా నిబంధనలు పొందుటకు కాలేదు"
+
+#: .es5/lib/auth-errors.js:344
+msgid "Your new password must be different"
+msgstr "మీ కొత్త పాస్వర్డ్ భిన్నంగా ఉండాలి"
+
+#: .es5/lib/auth-errors.js:348
+msgid "Must be at least 8 characters"
+msgstr "కనీసం 8 అక్షరాల పొడవు ఉండాలి"
+
+#: .es5/lib/auth-errors.js:352
+msgid "Valid password required"
+msgstr "చెల్లుబాటయ్యే సంకేతపదం తప్పనిసరి"
+
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+msgid "Valid email required"
+msgstr "చెల్లుబాటయ్యే ఈమెయిలు తప్పనిసరి"
+
+#: .es5/lib/auth-errors.js:368
+msgid "A usable image was not found"
+msgstr "ఒక ఉపయోగపడే చిత్రం దొరకలేదు"
+
+#: .es5/lib/auth-errors.js:372
+msgid "Could not initialize camera"
+msgstr "కెమెరా ప్రారంభించడం సాధ్యం కాలేదు"
+
+#: .es5/lib/auth-errors.js:376
+msgid "Valid URL required"
+msgstr "చెల్లుబాటు అయ్యే URL అవసరం"
+
+#: .es5/lib/auth-errors.js:392
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr "మీ ధృవీకరణ ఇమెయిల్ తిరిగి. ఇమెయిల్ తప్పుగా టైప్ చేసారా?"
+
+#: .es5/lib/auth-errors.js:400
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr "ఒక చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి. firefox.com ఇమెయిల్ అందించడం లేదు."
+
+#: .es5/lib/auth-errors.js:408
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "ఫైర్ఫాక్స్ ఖాతాలను ఆమోదం సైట్లలో ఒక iframe లోకి ఉంచవచ్చు"
+
+#: .es5/lib/auth-errors.js:428
+msgid "Verification link damaged"
+msgstr "ధృవీకరణ లింక్ దెబ్బతింది"
+
+#: .es5/lib/auth-errors.js:436
+msgid "The image dimensions must be at least 100x100px"
+msgstr "చిత్రం కొలతలు 100x100px కనీసం ఉండాలి"
+
+#: .es5/lib/auth-errors.js:440
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "సైన్ అప్ ఫైర్ఫాక్స్ iOS కోసం త్వరలో వస్తోంది"
+
+#: .es5/lib/auth-errors.js:452
+msgid "You must enter your age to sign up"
+msgstr "నమోదచేసుకోడానికి తప్పనిసరిగా మీ వయసును ఇవ్వాలి"
+
+#: .es5/lib/auth-errors.js:456
+msgid "You must enter a valid age to sign up"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:472
+msgid "Account no longer exists."
+msgstr "ఖాతా ఇకపై ఉనికిలో లేదు."
+
+#: .es5/lib/auth-errors.js:476
+msgid "Invalid property in resume token: %(property)s"
+msgstr "పునఃప్రారంభం టోకెన్లోని చెల్లని ప్రాపర్టీ: %(property)s"
+
+#: .es5/lib/auth-errors.js:480
+msgid "Missing property in resume token: %(property)s"
+msgstr "పునఃప్రారంభం టోకెన్ ప్రాపర్టీ లేనివి: %(property)s"
+
+#: .es5/lib/auth-errors.js:484
+msgid "Invalid data attribute: %(property)s"
+msgstr "చెల్లని డేటా ఎట్ట్రిబ్యూట్: %(property)s"
+
+#: .es5/lib/auth-errors.js:488
+msgid "Missing data attribute: %(property)s"
+msgstr "చెల్లని డేటా ఎట్ట్రిబ్యూట్: %(property)s"
+
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+msgid "That confirmation link was already used, and can only be used once."
+msgstr "ఆ నిర్ధారణ లింక్ ను ఇప్పటికే ఉపయోగించబడినది, మరియు ఒకసారి మాత్రమే ఉపయోగించవచ్చు."
+
+#: .es5/lib/auth-errors.js:505
+msgid "This is a required field"
+msgstr "ఇది తప్పనిసరి ఖాళీ"
+
+#: .es5/lib/auth-errors.js:509
+msgid "Authorization code required"
+msgstr "ధృవీకరణ కోడ్ అవసరం"
+
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+msgid "Link damaged"
+msgstr "లింకు పడైనది"
+
+#: .es5/lib/auth-errors.js:540
+msgid "Phone number required"
+msgstr "ఫోను నెంబరు తప్పనిసరి"
+
+#: .es5/lib/auth-errors.js:559
+msgid "Two-step authentication code required"
+msgstr "రెండు-అంచెల అధీకరణ సంకేతం తప్పనిసరి"
+
+#: .es5/lib/auth-errors.js:563
+msgid "Invalid two-step authentication code"
+msgstr "చెల్లని రెండు-దశల ప్రమాణీకరణ కోడ్"
+
+#: .es5/lib/auth-errors.js:567
+msgid "Recovery code required"
+msgstr "పునరుద్ధరణ కోడ్ అవసరం"
+
+#: .es5/lib/auth-errors.js:571
+msgid "Invalid recovery code"
+msgstr "చెల్లని రికవరీ సంకేతం"
+
+#: .es5/lib/auth-errors.js:585
+msgid "Recovery key required"
+msgstr "పునరుద్ధరణ కీ అవసరం"
+
+#: .es5/lib/auth-errors.js:589
+msgid "Please enter verification code"
+msgstr "దయచేసి ధృవీకరణ కోడ్ను నమోదు చేయండి"
+
+#: .es5/lib/auth-errors.js:601
+msgid "Invalid redirect"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:613
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:617
+msgid "The image file size is too large to be uploaded."
+msgstr ""
+
+#: .es5/lib/config-loader.js:117
+msgid "Missing configuration"
+msgstr "ఆకృతీకరణలు తప్పినది"
+
+#: .es5/lib/config-loader.js:121
+msgid "Invalid configuration"
+msgstr "ఆకృతీకరణలు సరిఅయినవి కాదు"
+
+#: .es5/lib/email-domain-validator.js:40
+msgid "Mistyped email?"
+msgstr "ఈమెయిలు తప్పుగా టైపుచేసారా?"
+
+#: .es5/lib/newsletters.js:25
+msgid "Test new Firefox products"
+msgstr ""
+
+#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "మొజిల్లా, Firefoxల గురించి తాజా వార్తలు పొందండి"
+
+#: .es5/lib/newsletters.js:33
+msgid "Take action to keep the internet healthy"
+msgstr ""
+
+#: .es5/lib/newsletters.js:37
+msgid "Be safer and smarter online"
+msgstr ""
+
+#: .es5/lib/newsletters.js:44
+msgid "Testing Firefox products"
+msgstr ""
+
+#: .es5/lib/newsletters.js:52
+msgid "Taking action to keep the internet healthy"
+msgstr ""
+
+#: .es5/lib/newsletters.js:56
+msgid "Safety and privacy online with Firefox and Mozilla"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:34
+msgid "Unknown client"
+msgstr "తెలియని క్లయింట్"
+
+#: .es5/lib/oauth-errors.js:38
+msgid "Incorrect redirect_uri"
+msgstr "సరికాని redirect_uri"
+
+#: .es5/lib/oauth-errors.js:42
+msgid "Invalid assertion"
+msgstr "చెల్లని ప్రకటన"
+
+#: .es5/lib/oauth-errors.js:46
+msgid "Unknown code"
+msgstr "తెలియని కోడ్"
+
+#: .es5/lib/oauth-errors.js:50
+msgid "Incorrect code"
+msgstr "తప్పు కోడ్"
+
+#: .es5/lib/oauth-errors.js:54
+msgid "Expired code"
+msgstr "గడువు తీరిన కోడ్"
+
+#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "చెల్లని OAuth పారామేటర్: %(param)s"
+
+#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
+msgid "Unauthorized"
+msgstr "అనధికార"
+
+#: .es5/lib/oauth-errors.js:74
+msgid "Forbidden"
+msgstr "ఫర్బిడెన్"
+
+#: .es5/lib/oauth-errors.js:89
+msgid "Expired token"
+msgstr "టోకెన్ గడువు ముగిసింది"
+
+#: .es5/lib/oauth-errors.js:133
+msgid "Something went wrong. Please close this tab and try again."
+msgstr "ఎక్కడో తేడ జరిగింది. దయచేసి ఈ టాబ్ ను మూసివేసి, మళ్ళీ ప్రయత్నించండి."
+
+#: .es5/lib/oauth-errors.js:153
+msgid "no message"
+msgstr "సందేశం లేదు"
+
+#: .es5/lib/oauth-errors.js:157
+msgid "Missing OAuth parameter: %(param)s"
+msgstr "కనబడని OAuth పారామేటర్: %(param)s"
+
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:196
+msgid "Invalid id_token_hint"
+msgstr ""
+
+#: .es5/lib/pairing-channel-client-errors.js:44
+msgid "Invalid message from the remote device"
+msgstr "రిమోట్ పరికరం నుండి చెల్లని సందేశం"
+
+#: .es5/lib/pairing-channel-client-errors.js:52
+msgid "Error pairing to remote device"
+msgstr ""
+
+#: .es5/lib/pairing-channel-client-errors.js:56
+msgid "Connection to remote device closed, please try again"
+msgstr ""
+
+#: .es5/lib/profile-errors.js:29
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "అభ్యర్థన శరీరంలో చెల్లని పారామేటర్: %(param)s"
+
+#: .es5/lib/profile-errors.js:33
+msgid "Unsupported image provider"
+msgstr "మద్దతు లేని చిత్రం ప్రొవైడర్"
+
+#: .es5/lib/profile-errors.js:37
+msgid "Image processing error"
+msgstr "బొమ్మ ప్రాసెసింగు లోపం"
+
+#: .es5/lib/profile-errors.js:49
+msgid "Invalid Token"
+msgstr "చెల్లని టోకేను"
+
+#: .es5/lib/strings.js:25
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr "కొనసాగింతే, మీరు మా <a id=\"service-tos\" href=\"%(termsUri)s\">సేవా షరతులు</a> మరియు <a id=\"service-pp\" href=\"%(privacyUri)s\">గోప్యతా నోటీసు</a> యొక్క %(serviceName)s (%(serviceUri)s)."
+
+#: .es5/lib/strings.js:31
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgstr ""
+
+#: .es5/lib/strings.js:34
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Mozilla మరియు Firefoxల తాజా వార్తలు పొందండి."
+
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
+msgid "%(city)s, %(country)s (estimated)"
+msgstr "%(city)s, %(country)s (అంచనా)"
+
+#: .es5/lib/strings.js:37
+msgid "%(country)s (estimated)"
+msgstr "%(country)s (అంచనా)"
+
+#: .es5/lib/strings.js:38
+msgid "IP address: %(ip)s"
+msgstr "IP చిరునామా: %(ip)s"
+
+#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
+msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+msgstr "అదనపు భద్రత కోసం, ఈ పరికరంతో సింక్ ప్రారంభించడానికి సైన్ ఇన్ నిర్ధారించుకోండి:"
+
+#: .es5/templates/400.mustache:1
+msgid "Bad Request"
+msgstr "తప్పుడు విన్నపం"
+
+#: .es5/templates/500.mustache:1
+msgid "500 Error"
+msgstr "500 లోపం"
+
+#: .es5/templates/500.mustache:2
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "అయ్యో, ఏదో తప్పు జరిగింది. మాకు నోటేసు అందింది మరియు మేము దేనిని పరిష్కరిస్తున్నాము."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+msgid "Reset password link expired"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+msgid "The link you clicked to reset your password is expired."
+msgstr "మీరు మీ పాస్వర్డ్ను రీసెట్ క్లిక్ చేసిన లింక్ గడువు ముగిసింది."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+msgid "Receive new link"
+msgstr "కొత్త లంకును స్వీకరించండి"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5
+msgid "Reset password with recovery key"
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "%(serviceName)s కు కొనసాగు"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:7
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:8
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Enter recovery key"
+msgstr "పునరుద్ధరణ కీని నమోదు చేయండి"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+msgid "Confirm recovery key"
+msgstr "పునరుద్ధరణ కీని నిర్ధారించండి"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Don't have a recovery key?"
+msgstr "పునరుద్ధరణ కీ లేదా?"
+
+#: .es5/templates/cannot_create_account.mustache:1
+msgid "Cannot create account"
+msgstr "ఖాతా సృష్టించడం వీలుపడుటలేదు"
+
+#: .es5/templates/cannot_create_account.mustache:2
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr ""
+
+#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "మరింత తెలుసుకోండి"
+
+#: .es5/templates/choose_what_to_sync.mustache:1
+msgid "Choose what to sync:"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Sync selections"
+msgstr ""
+
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+msgid "Don’t sync this device"
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:5
+msgid "Reset password link damaged"
+msgstr "పాస్వర్డ్ రీసెట్ లింక్ దెబ్బతింది"
+
+#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "మీరు క్లిక్ చేసిన లింక్ పాత్రలు లేదు, మరియు మీ ఇమెయిల్ క్లయింట్ ద్వారా తెగిపోయింది ఉండవచ్చు. జాగ్రత్తగా చిరునామాను కాపీ, మళ్ళీ ప్రయత్నించండి."
+
+#: .es5/templates/complete_reset_password.mustache:8
+msgid "Create new password"
+msgstr "క్రొత్త సంకేతపదాన్ని సృష్టించండి"
+
+#: .es5/templates/complete_reset_password.mustache:9
+msgid ""
+"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "కొత్త సంకేతపదం"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "సంకేతపదాన్ని మరలా ప్రవేశపెట్టండి"
+
+#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+msgid "Remember password? Sign in"
+msgstr "సంకేతపదం గుర్తుందా? ప్రవేశించండి"
+
+#: .es5/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr "ప్రాథమిక ఇమెయిల్ ఇప్పటికే నిర్ధారించబడింది"
+
+#: .es5/templates/complete_sign_up.mustache:3
+msgid "Sign-in already confirmed"
+msgstr "సైన్ ఇన్ ఇప్పటికే ధృవీకరించబడింది"
+
+#: .es5/templates/complete_sign_up.mustache:6
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:8
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:14
+msgid "Confirmation error"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:3
+msgid "Confirm your account"
+msgstr "మీ ఖాతాను నిర్ధారించండి"
+
+#: .es5/templates/confirm.mustache:5
+msgid "Confirm this sign-in"
+msgstr "ఈ ప్రవేశాన్ని నిర్ధారించండి"
+
+#: .es5/templates/confirm.mustache:7
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:9
+msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
+msgid "Not in inbox or spam folder? Resend"
+msgstr "ఇన్బాక్స్ లేదు స్పామ్ ఫోల్డర్లో లేదు? రీసెండ్"
+
+#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+msgid "Back"
+msgstr "వెనక్కి"
+
+#: .es5/templates/confirm_reset_password.mustache:1
+msgid "Reset email sent"
+msgstr "రీసెట్ ఇమెయిల్ పంపబడింది"
+
+#: .es5/templates/confirm_reset_password.mustache:2
+msgid "Click the link emailed to %(email)s within the next hour to create a new password."
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:2
+msgid "for your Firefox account"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:3
+msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+msgid "Enter 6-digit code"
+msgstr "6-అంకెల సంకేతాన్ని ఇవ్వండి"
+
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "నిర్ధారించు"
+
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+msgid "Code expired?"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+msgid "Email new code."
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:1
+msgid "Connect another device"
+msgstr "మరొక పరికరాన్ని అనుసంధానించండి"
+
+#: .es5/templates/connect_another_device.mustache:2
+msgid "Firefox account connected"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:4
+msgid "Email confirmed"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+msgid "Complete your set-up"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:10
+msgid "Sign in to this Firefox to complete set-up"
+msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefox లోనికి ప్రవేశించండి"
+
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+msgid "Still adding devices?"
+msgstr "ఇప్పటికీ పరికరాలను జోడించాలా?"
+
+#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+msgid "Sign in to Firefox on another device to complete set-up"
+msgstr "అమర్పును పూర్తి చెయ్యడానికి వేరే పరికరంలో Firefox లోనికి ప్రవేశించండి"
+
+#: .es5/templates/connect_another_device.mustache:17
+msgid "Sync Firefox across devices"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:19
+msgid "Sign in everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:20
+msgid "We’re on Android and iOS, too!"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:22
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:24
+msgid "Sign in to Firefox for Android to complete set-up"
+msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefox for Androidలో ప్రవేశించండి"
+
+#: .es5/templates/connect_another_device.mustache:26
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefox for iOS లోనికి ప్రవేశించండి"
+
+#: .es5/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required"
+msgstr "కుకీలు మరియు స్థానిక నిల్వ అవసరం"
+
+#: .es5/templates/cookies_disabled.mustache:2
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+msgstr "ఫైర్ఫాక్స్ అకౌంట్స్ యాక్సెస్ మీ బ్రౌజర్లో కుక్కీలను మరియు స్థానిక నిల్వ ఎనేబుల్ చెయ్యండి. అలా చేయడం వంటి సెషన్ల మధ్య గుర్తుంచుకోవాల్సిన కార్యాచరణను ప్రారంభించడానికి ఉంటుంది."
+
+#: .es5/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "తిరిగి ప్రయత్నించు"
+
+#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+msgid ""
+"\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"        "
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+msgid "Password"
+msgstr "సంకేతపదం"
+
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "వేరే ఖాతాను వాడు"
+
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+msgid "Forgot password?"
+msgstr "సంకేతపదం మరిచిపోయారా?"
+
+#: .es5/templates/index.mustache:1
+msgid "Continue to Firefox accounts"
+msgstr ""
+
+#: .es5/templates/index.mustache:2
+msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
+msgid "Enter your email"
+msgstr "మీ ఈమెయిలును ఇవ్వండి"
+
+#: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
+
+#: .es5/templates/index.mustache:9
+msgid "Sign up or sign in"
+msgstr ""
+
+#: .es5/templates/index.mustache:11
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:1
+msgid "Save recovery codes"
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:3
+msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+msgid "Download"
+msgstr "దించుకోండి"
+
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+msgid "Copy"
+msgstr "కాపీచేయి"
+
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+msgid "Print"
+msgstr "ముద్రించు"
+
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+msgid "Continue"
+msgstr "కొనసాగించు"
+
+#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+msgid "Cancel setup"
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:12
+msgid "Confirm recovery code"
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:14
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:15
+msgid "Recovery code"
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:1
+msgid "Enable two-step authentication"
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:3
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:7
+msgid "Scan authentication code"
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:10
+msgid "Enter code manually"
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:12
+msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgstr "మీ అధీకరణ అనువర్తనంలో QR కోడును స్కాన్ చేసి, తర్వాత అదిచ్చే భద్రతా సంకేతాన్ని ఇక్కడ ఇవ్వండి."
+
+#: .es5/templates/inline_totp_setup.mustache:13
+msgid "Can’t scan code?"
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
+msgid "Once complete, it will begin generating security codes for you to enter."
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:16
+msgid "Type this secret key into your authentication app."
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:17
+msgid "Scan QR code instead?"
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:19
+msgid "Security code"
+msgstr "భద్రతా సంకేతం"
+
+#: .es5/templates/inline_totp_setup.mustache:20
+msgid "Ready"
+msgstr ""
+
+#: .es5/templates/legal.mustache:1
+msgid "Legal"
+msgstr "చట్టపరమైన"
+
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+msgid "Terms of Service"
+msgstr "సేవా నిబంధనలు"
+
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "గోప్యతా నోటీసు"
+
+#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+msgid "Get the full Sync experience."
+msgstr "పూర్తి సింక్ అనుభవం."
+
+#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:19
+msgid "Download Firefox for iOS!"
+msgstr "iOS కొరకు Firefoxను దింపుకోండి!"
+
+#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:20
+msgid "Download Firefox for Android."
+msgstr "Android కోసం Firefoxను దింపుకోండి."
+
+#: .es5/templates/marketing_snippet.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "మొబైల్ పరికరాల కోసం Firefoxను దించుకోండి."
+
+#: .es5/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr "అనుమతి కోసం అభ్యర్ధించు"
+
+#: .es5/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "%(serviceName)s మీ ఖాతా నుండి కింది సమాచారాన్ని కోరుకుంటున్నారు:"
+
+#: .es5/templates/permissions.mustache:3
+msgid "Accept"
+msgstr "అంగీకరించు"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "రద్దుచేయి"
+
+#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+msgid "Success"
+msgstr "విజయవంతం అయింది"
+
+#: .es5/templates/ready.mustache:4
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
+
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
+msgid "Continue to my account"
+msgstr "నా ఖాతాకు కొనసాగు"
+
+#: .es5/templates/ready.mustache:14
+msgid "Your account is ready!"
+msgstr "మీ ఖాతా సిద్ధంగా ఉంది!"
+
+#: .es5/templates/ready.mustache:15
+msgid "Generate a new recovery key"
+msgstr "కొత్త పునరుద్ధరణ కీని తయారుచేయి"
+
+#: .es5/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr "ఆమోదించని సైన్ ఇన్ ను నివేదించు?"
+
+#: .es5/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr "మీరు మీ ఖాతాకు ప్రాప్యత ప్రయత్నించడాన్ని గురించి ఒక ఇమెయిల్ పొందారు. మీరు ఈ అనుమానాస్పద కార్యాన్ని నివేదించాలనుకుంటున్నారా?"
+
+#: .es5/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr "క్రియను నివేదించు"
+
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr "ఇలా ఎందుకు జరుగుతోంది?"
+
+#: .es5/templates/reset_password.mustache:3
+msgid ""
+"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "ఈమెయిలు"
+
+#: .es5/templates/reset_password.mustache:6
+msgid "Begin reset"
+msgstr "రీసెట్ ను ప్రారంభించు"
+
+#: .es5/templates/security_events.mustache:1
+msgid "Recent Activity"
+msgstr "ఇటీవలి కార్యకలాపం"
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr "భద్రతా సంఘటనలు"
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr "సంఘటన పేరు"
+
+#: .es5/templates/security_events.mustache:4
+msgid "Confirmed"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr "తిరిగి అమరికలకు"
+
+#: .es5/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr "క్షమించాలి. మేము మీ &nbsp;ఖాతాకు తాళం వేసాము."
+
+#: .es5/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr ""
+
+#: .es5/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr ""
+
+#: .es5/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr "ఆ ఈమెయిలు ఇప్పుడు మీ ఆధీనంలో లేదా? కొత్త ఖాతాను సృష్టించుకోండి"
+
+#: .es5/templates/sign_in_password.mustache:11
+msgid ""
+"\n"
+"              By proceeding, you agree to:<br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"            "
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:1
+msgid "Enter recovery code"
+msgstr "రికవరీ సంకేతాన్ని ఇవ్వండి"
+
+#: .es5/templates/sign_in_recovery_code.mustache:3
+msgid "Please enter a recovery code that was provided to you during setup."
+msgstr "అమర్పు సమయంలో మీకు అందించిన పునరుద్ధరణ సంకేతాన్ని ఇవ్వండి."
+
+#: .es5/templates/sign_in_recovery_code.mustache:4
+msgid "Enter 10-digit recovery code"
+msgstr "10-అంకెల రికవరీ సంకేతాన్ని ఇవ్వండి"
+
+#: .es5/templates/sign_in_recovery_code.mustache:7
+msgid "Are you locked out?"
+msgstr ""
+
+#: .es5/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr "మీ నిఘాకు ధన్యవాదాలు"
+
+#: .es5/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr "మా బృందం ప్రకటించబడింది. ఇటువంటి నివేదికలు మాకు చొరబాటును తప్పించడానికి సహాయపడుతాయి."
+
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr "భద్రతా సంకేతాన్ని ఇవ్వండి"
+
+#: .es5/templates/sign_in_totp_code.mustache:3
+msgid "Open your authentication app and enter the security code it provides."
+msgstr "మీ అధీకరణ అనువర్తనాన్ని తెరిచి, అదిచ్చే భద్రతా సంకేతాన్ని ఇక్కడ ఇవ్వండి."
+
+#: .es5/templates/sign_in_totp_code.mustache:7
+msgid "Trouble entering code?"
+msgstr ""
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "ఇది అధికారిక సైన్-ఇన్"
+
+#: .es5/templates/sign_in_unblock.mustache:3
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr "%(email)s లకు పంపబడిన అధికార సంకేతానికి మీ ఇమెయిల్ను తనిఖీ చేయండి."
+
+#: .es5/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr "ధృవీకరణ కోడ్ ఎంటర్ చేయండి"
+
+#: .es5/templates/sign_up_password.mustache:1
+msgid "Set your password"
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:2
+msgid "Change email"
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:5
+msgid "Repeat password"
+msgstr "సంకేతపదం మళ్ళీ"
+
+#: .es5/templates/sign_up_password.mustache:6
+msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:7
+msgid "Practical knowledge is coming to your inbox. Sign up for more:"
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "ఏమి సింక్ చేయాలో ఎంచుకోండి"
+
+#: .es5/templates/sign_up_password.mustache:14
+msgid "Create account"
+msgstr "ఖాతా సృష్టించు"
+
+#: .es5/templates/sign_up_password.mustache:15
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
+
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Firefox ఖాతాలు"
+
+#: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr "ఖాతా ముంగిలి"
+
+#: .es5/templates/support.mustache:3
+msgid "Subscriptions"
+msgstr "చందాలు"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
+msgid "Contact Us"
+msgstr "మమ్ముల్ని సంప్రదించండి"
+
+#: .es5/templates/support.mustache:6
+msgid "What are you contacting us about?"
+msgstr "మమ్మల్ని దేని గురించి సంప్రదిస్తున్నారు?"
+
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please select one"
+msgstr "దయచేసి ఒకదాన్ని ఎంచుకోండి"
+
+#: .es5/templates/support.mustache:10
+msgid "What do you need help with?"
+msgstr "మీకు ఏవిషయమై సహాయం కావాలి?"
+
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr ""
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "ఖాతా జారీ అయింది"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "సాంకేతిక సమస్యలు"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr ""
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr ""
+
+#: .es5/templates/support.mustache:17
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
+
+#: .es5/templates/support.mustache:19
+msgid "Subject (optional)"
+msgstr "విషయం (ఐచ్ఛికం)"
+
+#: .es5/templates/support.mustache:20
+msgid "Description of issue"
+msgstr ""
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "పంపించు"
+
+#: .es5/templates/would-you-like-to-sync.mustache:1
+msgid "Would you like to sync this device to your account?"
+msgstr ""
+
+#: .es5/templates/would-you-like-to-sync.mustache:2
+msgid "Sync this device"
+msgstr ""
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
+msgid "Step 1 of 2: Re-enter password"
+msgstr "2లో 1వ అంచె: సంకేతపదం మళ్ళీ ఇవ్వండి"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
+msgid "Enter your password to view your recovery key."
+msgstr "మీ పునరుద్ధరణ కీని చూడడానికి మీ సంకేతపదాన్ని నమోదు చేయండి."
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+msgid "Enter Password"
+msgstr "సంకేతపదం ఇవ్వండి"
+
+#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr ""
+
+#: .es5/templates/push/completed.mustache:3
+msgid "Please close this page and continue on the other device."
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:1
+msgid "New sign-in to Firefox"
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:3
+msgid "Confirm sign-in"
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:4
+msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:2
+msgid "Send login push notification"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:3
+msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:4
+msgid "Resend tab"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:5
+msgid "Tab not arriving? Send an email instead"
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+msgid "Add a secondary email address"
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
+msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "రెండవ ఈమెయిలు"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+msgid "Maybe later"
+msgstr "బహుశా తర్వాత"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+msgid "Please change your password"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:2
+msgid "to continue to %(serviceName)s"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:5
+msgid ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:6
+msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "పాత సంకేతపదం"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:9
+msgid "Re-enter new password"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:10
+msgid "Change password"
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+msgid "This Firefox is connected"
+msgstr "ఈ Firefox సంధానమయ్యింది"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
+msgid "Sign up for more"
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
+msgid "Practical knowledge is coming to your inbox."
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
+msgid "Get practical knowledge in your inbox about:"
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
+msgid "Subscribe %(email)s"
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client."
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+msgid "Create a Firefox Account"
+msgstr "Firefox ఖాతాను సృష్టించండి"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
+msgid "Continue to %(productName)s"
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
+msgid "Enter a password"
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+msgid "Confirm password"
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:1
+msgid "Device connected!"
+msgstr "పరికరం అనుసంధానమైంది!"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:4
+msgid "Connect another one"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5
+msgid "Use SMS instead"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:6
+msgid "I'm done for now"
+msgstr "ఈసారికి పూర్తయింది"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
+msgid "Sync Firefox between devices"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
+msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
+msgid "Get started"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+msgid "I'll do this later, send me a reminder"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
+msgid "Download Firefox with your camera app"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
+msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
+msgid "Ready to scan"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
+msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
+msgid "Open the camera app on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
+msgid "Point the camera at the QR code and tap the link that appears"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
+msgid "Install Firefox and open it on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
+msgid "Sign into your account"
+msgstr "మీ ఖాతా లోనికి ప్రవేశించండి"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
+msgid "<span class=\"number\">1</span>Open the camera app on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
+msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
+msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
+msgid "<span class=\"number\">4</span>Sign into your account"
+msgstr "<span class=\"number\">4</span>మీ ఖాతా లోనికి ప్రవేశించండి"
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+msgid "Protect your data with a recovery key"
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
+msgid "Your synced data can include passwords you've saved."
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
+msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
+msgid "Get a Recovery Key"
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
+msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
+msgid "Enter your recovery key to confirm that you've saved a copy."
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+msgid "Save recovery key"
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "పూర్తయింది"
+
+#: .es5/templates/partial/account-suggestion.mustache:1
+msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
+msgid "How old are you?"
+msgstr "మీ వయస్సు ఎంత?"
+
+#: .es5/templates/partial/coppa-age-input.mustache:4
+msgid "You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:2
+msgid "%(family)s on %(OS)s"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:3
+msgid "%(city)s, %(region)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:7
+msgid "%(region)s, %(country)s (estimated)"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:9
+msgid "%(country)s"
+msgstr "%(country)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:11
+msgid "Location unknown"
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:12
+msgid "IP address: %(ipAddress)s"
+msgstr "ఐపీ చిరునామా: %(ipAddress)s"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:1
+msgid "Password requirements"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:3
+msgid "At least 8 characters"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:6
+msgid "Not your email address"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:10
+msgid "Not a commonly used password"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:11
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgstr ""
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to Support"
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:2
+msgid "Back to Subscriptions"
+msgstr ""
+
+#: .es5/templates/partial/sync-suggestion.mustache:1
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr "Firefox Sync కోసం వెతుకుతున్నారా? <a %(escapedSyncSuggestionAttrs)s>ఇక్కడ ప్రారంభించండి</a>"
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:1
+msgid "Did you just sign in to Firefox?"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:2
+msgid " %(email)s "
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:3
+msgid "location balloon"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:4
+msgid "Yes, approve device"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:5
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+msgid "Device connected"
+msgstr "పరికరం అనుసంధానమైంది"
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid ""
+"\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"      "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:5
+msgid "See tabs from synced devices"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:7
+msgid "Manage devices"
+msgstr "పరికరాల నిర్వహణ"
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approval now required <small>from your other device</small>"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:1
+msgid "Pairing not successful"
+msgstr ""
+
+#: .es5/templates/pair/failure.mustache:2
+msgid "The setup process was terminated."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:1
+msgid "Download Firefox on your phone or tablet"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:4
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
+msgid "I’m ready to sync devices"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:8
+msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:2
+msgid "Device successfully paired"
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr ""
+
+#: .es5/templates/pair/supp_allow.mustache:1
+msgid "Confirm pairing <small>for %(email)s</small>"
+msgstr ""
+
+#: .es5/templates/pair/supp_allow.mustache:2
+msgid "Confirm pairing"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:1
+msgid "Pair using an app"
+msgstr ""
+
+#: .es5/templates/pair/unsupported.mustache:2
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr ""
+
+#~ msgid "Primary email verified"
+#~ msgstr "ప్రాథమిక ఇమెయిల్ ధృవీకరించబడింది"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "రెండవ ఇమెయిల్ తనిఖీ చేయబడింది"
+
+#~ msgid "Account verified"
+#~ msgstr "ఖాతా నిర్ధారణ అయ్యింది"
+
+#~ msgid "Verification link expired"
+#~ msgstr "ధ్రువీకరణ లింక్ గడువు ముగిసింది"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "కొత్త ధృవీకరణ లింక్ను అందుకుంటారు ఇక్కడ క్లిక్ చేయండి"
+
+#~ msgid "Verification error"
+#~ msgstr "ధ్రువీకరణ లోపం"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "పంపిన ధృవీకరణ లింక్ కోసం మీ ఇమెయిల్ను తనిఖీ చేయండి & nbsp; కు%(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "ఈమెయిలు తనిఖీ చేయబడింది"
+
+#~ msgid "Verify"
+#~ msgstr "ధృవీకరించండి"
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "ప్రవేశాలు, సంకేతపదాలు"
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "మీరు ఒక ఫైర్ఫాక్స్ &nbsp ఖాతాసృష్టించడానికి నిర్దిష్ట వయస్సు అవసరాలను పూర్తిచేయాలి."
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "%(email)s‌కి పంపిన సంకేతం కోసం మీ ఈమెయిలును తనిఖీ చేయండి."
+
+#~ msgid "Why is more than one device required?"
+#~ msgstr "ఎందుకు ఒకటి కంటే ఎక్కువ పరికరాలు అవసరం?"
+
+#~ msgid "Why sync multiple devices?"
+#~ msgstr "బహుళ పరికరాల సమకాలీకరణ ఎందుకు?"
+
+#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+#~ msgstr "Sync సేవ శాశ్వత బ్యాకప్ కాదు, ఇది మీ స్వంత పరికరాల మధ్య సేవ్ చేసిన బుక్మార్క్లను, చరిత్ర మరియు పాస్వర్డ్లను బదిలీ చేయడానికి సురక్షితమైన మార్గం."
+
+#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+#~ msgstr "ఎప్పుడైనా మీ డేటాను పునరుద్ధరించుకోవాల్సి వచ్చినప్పుడు మీ సంకేతపదం మర్చిపోతే గనక మీ డేటా నష్టపోకుండా ఉండేందుకు, Firefoxని స్థాపించుకొని కనీసం రెండు పరికరాలలో సింక్రనించి ఉండాలి."
+
+#~ msgid "Got it"
+#~ msgstr "అర్థమైంది"
+
+#~ msgid "See all"
+#~ msgstr "అన్నింటినీ చూడండి"
+
+#~ msgid "Must not be your email address"
+#~ msgstr "మీ ఈమెయిలు చిరునామా కాకూడదు"
+
+#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
+#~ msgstr "ఈ <a %(escapedCommonPasswordLinkAttrs)s>సామాన్య సంకేతపదాల జాబితా</a>లో దేనికీ సరిపోలకూడదు"
+
+#~ msgid "Approve device"
+#~ msgstr "పరికరాన్ని ఆమోదించు"
+
+#~ msgid "Mobile phone number"
+#~ msgstr "మొబైలు ఫోను నెంబరు"
+
+#~ msgid "Not now"
+#~ msgstr "ఇప్పుడు కాదు"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "అందలేదా? తిరిగి పంపు"
+
+#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">సహాయం</a>"
+
+#~ msgid "Change..."
+#~ msgstr "మార్చు…"
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "పూర్తయిన తర్వాత, మీ పరికరాలన్నిటిలో ప్రవేశించడానికి మీ కొత్త సంకేతపదాన్ని వాడండి."
+
+#~ msgid "Change"
+#~ msgstr "మార్చు"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "సంకేతపదం విజయవంతంగా మార్చబడింది"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr "ఇది తెలిసి చింతిస్తున్నాం. మీరు మీ ఫైర్‌ఫాక్స్ ఖాతా సంకేతపదాన్ని తప్పక మార్చుకోవాలి. ఇంకా మీ పరికరం తయారీదారుని నుండి మీ సమాచారాన్ని సుదూరం నుండి తుడిచివేయుట గురించిన సమాచారాన్ని తెలుసుకోండి."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr "ఇది తెలిసి చింతిస్తున్నాం. ఇది మీరు అస్సలు నమ్మదగని పరికరం అయి ఉంటే మీరు మీ ఫైర్‌ఫాక్స్ ఖాతా సంకేతపదాన్ని, అలాగే ఫైర్‌ఫాక్స్‌లో భద్రపరచిన సంకేతపదాలన్నింటినీ మార్చుకోండి."
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "చివరిసారి క్రియాశీలం %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "చివరిగా క్రియాశీలమైనది %(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s పైగా"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s లో %(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s లో %(translatedTimeAgo)s పైగా"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "జాల సెషన్, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "వెబ్ సెషన్"
+
+#~ msgid "Change…"
+#~ msgstr "మార్చు…"
+
+#~ msgid "Add…"
+#~ msgstr "చేర్చు…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "మీ ఖాతాను నిర్వహించినప్పుడు, మీ Firefoxలో కనిపించాలనుకుంటున్న పేరును ఎంచుకోండి."
+
+#~ msgid "Display name updated"
+#~ msgstr "చూపించే పేరు నవీకరించబడింది"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "రెండవ ఇమెయిల్ తొలగించబడింది"
+
+#~ msgid "Verification email sent"
+#~ msgstr "ధృవీకరణ ఇమెయిల్ పంపబడింది"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "ప్రాథమిక ఈమెయిలు %(email)sగా అమర్చబడింది"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "కొత్త రికవరీ సంకేతాలు సృష్టించబడ్డాయి"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "రెండు-దశల ప్రమాణీకరణ తొలగించబడింది"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "రెండు-అంచెల అధీకరణ"
+
+#~ msgid "Account Recovery"
+#~ msgstr "ఖాతా రికవరీ"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "ఖాతా రికవరీ అచేతనమైనది"
+
+#~ msgid "Sign out"
+#~ msgstr "నిష్క్రమించు"
+
+#~ msgid "Take picture"
+#~ msgstr "చిత్రాన్ని తీసుకో"
+
+#~ msgid "Upload"
+#~ msgstr "ఎక్కించు"
+
+#~ msgid "Camera"
+#~ msgstr "కెమేరా"
+
+#~ msgid "Clear"
+#~ msgstr "క్లియర్"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "మీ చిత్రాన్ని తగినంత రొటేట్ మరియు సరి చేయండి"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "%(deviceName)s లలో ఈ విహారణ డేటా అలానే ఉంటుంది, కానీ అది మీ ఖాతాతో సింక్ అవ్వదు."
+
+#~ msgid "Rather not say"
+#~ msgstr "చెప్పకూడదని అనుకుంటున్నాను"
+
+#~ msgid "Disconnect"
+#~ msgstr "అనుసంధానం తెంచు"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "పొందిక విజయవంతం"
+
+#~ msgid "Devices & apps"
+#~ msgstr "పరికరాలు & అనువర్తనాలు"
+
+#~ msgid "Show"
+#~ msgstr "చూపించు"
+
+#~ msgid "Current device"
+#~ msgstr "ప్రస్తుత పరికరం"
+
+#~ msgid "Disconnect…"
+#~ msgstr "అనుసంధానం తెంచు…"
+
+#~ msgid "Current session"
+#~ msgstr "ప్రస్తుత సెషన్"
+
+#~ msgid "Revoke"
+#~ msgstr "ఉపసంహరించు"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "iOS కోసం Firefox"
+
+#~ msgid "None connected"
+#~ msgstr "ఏవీ అనుసంధానించబడి లేవు"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Android కోసం Firefox"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "తప్పినవి లేదా నకిలీ అంశాలు?"
+
+#~ msgid "Email preferences"
+#~ msgstr "ఈమెయిలు అభిరుచులు"
+
+#~ msgid "Delete account"
+#~ msgstr "ఖాతా తొలగించు"
+
+#~ msgid "Delete…"
+#~ msgstr "తొలగించు…"
+
+#~ msgid "Make primary"
+#~ msgstr "ప్రాథమికంగా చేయి"
+
+#~ msgid "Remove"
+#~ msgstr "తొలగించు"
+
+#~ msgid "Refresh"
+#~ msgstr "రిఫ్రెష్"
+
+#~ msgid "Add"
+#~ msgstr "చేర్చు"
+
+#~ msgid "NOTE:"
+#~ msgstr "గమనిక:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "కొత్త పునరుద్ధరణ సంకేతాలను సృష్టించినప్పుడు, మునుపటి సంకేతాలన్నీ చెల్లనివి అయిపోతాయి. దయచేసి కొత్త సంకేతాలను సురక్షితమైన చోట భద్రపరచుకోండి."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "కొత్త పునరుద్ధరణ కీని తయారుచేయి"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "రెండు-దశల ప్రమాణీకరణ"
+
+#~ msgid "Enable…"
+#~ msgstr "చేతనం…"
+
+#~ msgid "Current status"
+#~ msgstr "ప్రస్తుత స్థితి"
+
+#~ msgid "Enabled"
+#~ msgstr "చేతనమైన"
+
+#~ msgid "Disabled"
+#~ msgstr "అచేతనమైన"
+
+#~ msgid "Disable"
+#~ msgstr "అచేతనం"
+
+#~ msgid "Enable"
+#~ msgstr "చేతనం"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "పునరుద్ధరణ సంకేతాలను మార్చివేయి"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "ఈ విభాగాన్ని చూడడానికి లేదా మార్చడానికి మీరు మీ ఈమెయిల్ చిరునామాను ధ్రువపరచాలి."
+
+#~ msgid "Primary email"
+#~ msgstr "ప్రాథమిక ఈమెయిలు"
+
+#~ msgid "Account recovery"
+#~ msgstr "ఖాతా పునరుద్ధరణ"
+
+#~ msgid "Not set"
+#~ msgstr "అమర్చలేదు"
+
+#~ msgid "Generate"
+#~ msgstr "తయారుచేయి"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "మీ సంకేతపదాన్ని రీసెట్ చేసుకున్నప్పుడు, మీ డేటాను చూడడానికి మీ పునరుద్ధరణ కీని వాడలేరు."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "2లో 2వ అంచె: పునరుద్ధరణ కీ భద్రపరచుకోండి"
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "పూర్తయింది, పునరుద్ధరణ కీ భద్రమయ్యింది"
+
+#~ msgid "Sign up to get more features:"
+#~ msgstr "మరిన్ని సౌలభ్యాలు పొందడానికి నమోదవ్వండి:"
+
+#~ msgid "Get app"
+#~ msgstr "ఆప్‌ను పొందండి"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefoxను నేరుగా మీ స్మార్టుఫోనుకి పంపించి, ప్రవేశించండి"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "కొన్ని దేశాల్లో SMS సేవ అందుబాటులో ఉంటుంది. SMS &amp; డేటా రేట్లు వర్తించవచ్చు. ఇమెయిల్ లేదా SMS యొక్క గ్రహీత సమ్మతించాలి. <a %(escapedLearnMoreAttributes)s>మరింత తెలుసుకోండి</a>"
+
+#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
+#~ msgstr "ఖాతా ఇప్పటికే ఉనికిలో ఉంది. <a href=\"/signin\">ప్రవేశించండి</a>"
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "చివరి సమకాలీకరణ %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "చివరిగా సమకాలీకరించబడింది %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s లో చివరి సమకాలీకరణ %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedCountry)s లో చివరిగా సమకాలీకరించబడింది %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "చివరి సమకాలీకరణ %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s సమీపంలో"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "చివరి సింకు సమయం తెలియదు"
+
+#~ msgid "Subscribed successfully"
+#~ msgstr "విజయవంతంగా సబ్స్క్రైబ్ అయ్యారు"
+
+#~ msgid "Open tabs"
+#~ msgstr "తెరిచివున్న ట్యాబులు"
+
+#~ msgid "Logins"
+#~ msgstr "ప్రవేశాలు"
+
+#~ msgid "Credit cards"
+#~ msgstr "క్రెడిట్ కార్డులు"
+
+#~ msgid "Firefox Sync"
+#~ msgstr "Firefox Sync"
+
+#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+#~ msgstr "అంటే మీరు అనేది <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+
+#~ msgid "Please try again later"
+#~ msgstr "దయచేసి కాసేపాగి ప్రయత్నించండి"
+
+#~ msgid "Service unavailable, try again soon"
+#~ msgstr "సేవ అందుబాటులో లేదు, త్వరలో మళ్లీ ప్రయత్నించండి"
+
+#~ msgid "Sign in to continue"
+#~ msgstr "కొనసాగడానికి సైన్ ఇన్ అవ్వండి"
+
+#~ msgid "Create an account"
+#~ msgstr "ఒక ఖాతా సృష్టించు"
+
+#~ msgid "Enter code"
+#~ msgstr "సంకేతాన్ని ఇవ్వండి"
+
+#~ msgid "Have an account? Sign in"
+#~ msgstr "ఖాతా ఉందా? ప్రవేశించండి"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "అమర్పును పూర్తిచెయ్యడానికి Firefoxని మీ స్మార్టుఫోనులో స్థాపించుకుని, ప్రవేశించండి"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "అనువర్తన లింక్ %(escapedPhoneNumber)sకి పంపబడింది. <a %(escapedBackLinkAttrs)s>తప్పుడు&nbsp;సంఖ్య?</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "మీకు పాఠ్య సందేశం అందకపోతుంటే, మీరు ఆప్స్‌ని మానవీయంగా కూడా దింపుకోవచ్చు."
+
+#~ msgid "Disconnect from Sync?"
+#~ msgstr "Sync నుండి సంధానం తెంచివేయాలా?"
+
+#~ msgid "Suspicious device"
+#~ msgstr "అనుమానాస్పద పరికరం"
+
+#~ msgid "Lost or stolen device"
+#~ msgstr "కోల్పోయిన లేదా దోచుకోబడిన పరికరం"
+
+#~ msgid "Old or replaced device"
+#~ msgstr "పాత లేదా మార్చివేసిన పరికరం"
+
+#~ msgid "Duplicate device"
+#~ msgstr "నకలీ పరికరము"
+
+#~ msgid "Subscribe"
+#~ msgstr "చందాచేరు"
+
+#~ msgid "verified"
+#~ msgstr "ధృవీకరించబడింది"
+
+#~ msgid "verification required"
+#~ msgstr "ధ్రువీకరణ అవసరం"
+
+#~ msgid "Recovery codes"
+#~ msgstr "రికవరీ సంకేతాలు"
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "మీ Firefox ఖాతా సంకేతపదం"
+
+#~ msgid "%(email)s registered."
+#~ msgstr "నమోదైన %(email)s."
+
+#~ msgid "Communication preferences"
+#~ msgstr "సమాచార వినిమయ అభిరుచులు"
+
+#~ msgid "Manage Subscriptions"
+#~ msgstr "చందాల నిర్వహణ"
+
+#~ msgid "Refresh Status"
+#~ msgstr "రిఫ్రెష్ స్థితి"
+
+#~ msgid "Use a different email address"
+#~ msgstr "వేరే ఈమెయిలు చిరునామా వాడు"
+
+#~ msgid "Sign in &rarr;"
+#~ msgstr "ప్రవేశించు &rarr;"
+
+#~ msgid "Save settings"
+#~ msgstr "సెట్టింగులను సేవ్ చేయండి"
+
+#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
+#~ msgstr "గుర్తుతెలియని Firefox ఖాతా. మీ ఆడ్-ఆన్స్ డాటా పొందుటకు మీ మునుపటి ఆడ్-ఆన్స్ ఖాతాతో <a href=\"/signup\">సైన్-అప్</a> అవ్వండి."
+
+#~ msgid "App link resent to %(phoneNumber)s"
+#~ msgstr "యాప్ లంకె %(phoneNumber)sకి మళ్ళీ పంపబడింది"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>సౌజన్యం"
+
+#~ msgid "Unsubscribed successfully"
+#~ msgstr "విజయవంతంగా చందావిరమించారు"
+
+#~ msgid "Email resent"
+#~ msgstr "ఈమయిల్ తిరిగి పంపబడినది"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "గ్రావతార్ దొరకలేదు"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+#~ msgstr "అంటే మీరు అనేది <span tabindex=\"1\">%(escapedDomain)s</span>?"
+
+#~ msgid "Resources failed to load"
+#~ msgstr "వనరులు లోడు అవుటలో విఫలమైనది"
+
+#~ msgid "Unexpected resource error"
+#~ msgstr "ఊహించని వనరు లోపం"
+
+#~ msgid "Script error"
+#~ msgstr "స్క్రిప్టు దోషం"
+
+#~ msgid "SMS sent"
+#~ msgstr "SMS పంపబడింది"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "మీ నెంబరు నిరోధించబడింది"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "SMS పంపబడలేదు, దయచేసి మళ్ళీ ప్రయత్నించండి"
+
+#~ msgid "Learn more."
+#~ msgstr "ఇంకా తెలుసుకోండి."
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s సృష్టించబడినవి"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "అనుబంధాలను మరియు ప్రాధాన్యతలు ప్రస్తుతం మొబైల్ పరికరాల్లో సింక్ కాలేదు."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "ఒక కొత్త రీసెట్ లింక్ అందుకుంటారు ఇక్కడ క్లిక్ చేయండి"
+
+#~ msgid "Enter new password"
+#~ msgstr "కొత్త సంకేతపదం ఇవ్వండి"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "ఒకసారి మీరు మీ కొత్త పాస్వర్డ్ను పంపితే, మీరు మీ పరికరాల్లో ఒకటి న కాదని ఏ సింక్ డేటా కోల్పోతారు."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "Sync ఎలా పనిచేస్తుందో తెలుసుకోండి."
+
+#~ msgid "Submit new password"
+#~ msgstr "కొత్త పాస్వర్డ్ సమర్పించండి"
+
+#~ msgid "Email Sent"
+#~ msgstr "ఈ మేయిల్ పంపబడింది"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "ఒక ధృవీకరణ లింకు &nbsp; %(escapedEmail)sకు పంపబడినది"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "మీ ఫైర్ఫాక్స్ డేటాను రక్షించడానికి, మేకు మేము ఒక నిర్ధారణ లింక్ ఇమెయిల్ %(email)s చేసాము"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "ఇంకా చేరలేదా మరియు స్పామ్ ఫోల్డర్ లో లేదా? తిరిగి పంపండి"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "మేము ఒక కొత్త పాస్వర్డ్ సృష్టించడానికి ఒక గంటలోపు మీకు ఇమెయిల్ %(email)s చేసిన లింక్పై క్లిక్ చేయండి."
+
+#~ msgid "This device is connected"
+#~ msgstr "ఈ పరికరం అనుసంధానమయ్యింది"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "సెట్టింగులను తెరచి మరియు సైన్ ఇన్ ఎంపిక చేసి Firefox ఏర్పాటు పూర్తి చేయి"
+
+#~ msgid "Why is this required?"
+#~ msgstr "ఇది ఎందుకు కావాలి?"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "కుకీలు మరియు లోకల్ స్టోరేజ్ అవసరం."
+
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr "కొనసాగడానికి, మేరు ఫైర్ఫాక్స్ క్లౌడ్ సేవల యొక్క <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">సేవా షరతులు</a> మరియు <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">గోప్యతా నోటీసు</a> కు అంగీకరిచాలి."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Firefox క్లౌడ్ సేవలు"
+
+#~ msgid "Proceed"
+#~ msgstr "కొనసాగండి"
+
+#~ msgid "Reset account"
+#~ msgstr "ఖాతాని పునఃఅమర్చు"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "మీరు మీ పాస్వర్డ్ను రీసెట్ చేసినప్పుడు, మీరు మీ పరికరాల్లో ఒకటి న కాదని ఏ సమకాలీకరణ డేటా కోల్పోతారు."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "సంకేతపదం గుర్తుందా? ప్రవేశించండి."
+
+#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "మీ పొడిగింతల డేటా కోసం చూస్తున్నారా? మీ పాత పొడిగింతలున్న ఖాతా యొక్క ఇమెయిల్ చిరునామాతో ఒక Firefox ఖాతాలో <a href=\"/signup\">చేరండి</a>."
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "మీ సింక్ డేటాను తరలించడానికి మీ యొక్క ఫైర్ఫాక్స్ &nbsp;ఖాతా కి సైన్ ఇన్ అవ్వండి."
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "మీ Firefox డేటాను రక్షించడానికి, ఒక అధీకృత కోడ్ మీ %(email)s వద్ద వేచి ఉంది."
+
+#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+#~ msgstr "Firefox Sync కోసం చూస్తున్నారా? <a href=\"%(escapedSyncSuggestionUrl)s\">ఇక్కడ ప్రారంభించండి</a>"
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "మే సింక్ డేటా తరలించడానికి ఒక కొత్త Firefox &nbsp; ఖాతాను తెరవండి."
+
+#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "మీ పొడిగింతల డేటా కోసం చూస్తున్నారా? మీ పాత పొడిగింతలున్న ఖాతా యొక్క ఇమెయిల్ చిరునామాతో ఒక Firefox ఖాతాలో చేరండి."
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "ఒక బలమైన, ఏకైక సంకేతపదం మీ Firefox డేటాను చొరబాటుదారుల నుండి సురక్షితంగా ఉంచుతుంది."
+
+#~ msgid "Receive the monthly Firefox newsletter"
+#~ msgstr "నెలసరి Firefox న్యూస్‌లెటర్ అందుకోండి"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "SMS సేవ కేవలం అమెరికా ఫోను నెంబర్లకు మాత్రమే అందుబాటులో ఉంది. SMS &amp; డేటా చార్జీలు వర్తిస్తాయి. ఈమెయిలు లేదా SMS అందుకునేవారు ఒప్పుకొనివుండాలి. <a %(escapedLearnMoreAttributes)s>ఇంకా తెలుసుకోండి</a>"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "అప్ లింక్ %(escapedPhoneNumber)sకి పంపించాము. <a %(escapedBackLinkAttrs)s>నెంబర్ తప్పుగా నొక్కారా?</a>"
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "రెండు (లేదా మరిన్ని!) పరికరాలను ఎందుకు సింక్ చేసుకోవాలి?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "సమకాలీకరణ మీరు ఒక పరికరం యొక్క Firefox లో నిల్వ చేసిన బుక్మార్క్లు, చరిత్ర మరియు పాస్వర్డ్లను మీ ఇతర పరికరాల్లో Firefox కు భాగస్వామ్యం చేస్తుంది. మీ ఫోన్ లేదా టాబ్లెట్ లో Firefox కు సైన్ ఇన్ చేస్తే మీరు Firefox యొక్క డెస్క్టాప్ లో సేవ్ చేసిన ప్రతిదీ కనిపిస్తుంది."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "సమకాలీకరణ శాశ్వత బ్యాకప్ వలె రూపొందించబడినది కాదు - కేవలం స్థానికంగా సేవ్ చేయబడినవి భాగస్వామ్యం చేస్తుంది. మీరు మీ పాస్వర్డ్ను రీసెట్ చేస్తే మీ డేటాను కనీసం ఒక ఇతర పరికరంలో నిల్వ చేయకపోతే, మీరు పాత పాస్వర్డ్ తో సంబంధించిన మొత్తం సమాచారం కోల్పోతారు. అందుకే మీరు "
+#~ "Firefox ఇన్స్టాల్ చేసి ఒకటి కంటే ఎక్కువ పరికరాలలో సమకాలీకరణ ఉపయోగించవలెను."
+
+#~ msgid "Gravatar"
+#~ msgstr "గ్రావతార్"
+
+#~ msgid "Save"
+#~ msgstr "భద్రపరుచు"
+
+#~ msgid "current device"
+#~ msgstr "ప్రస్తుత పరికరం"
+
+#~ msgid "current session"
+#~ msgstr "ప్రస్తుత సెషన్"
+
+#~ msgid "none connected"
+#~ msgstr "ఏమీ అనుసంధానమయి లేవు"
+
+#~ msgid "Receive the monthly Firefox newsletter."
+#~ msgstr "నెలసరి Firefox న్యూస్‌లెటర్ అందుకోండి."
+
+#~ msgid "Unsubscribe"
+#~ msgstr "చందావిరమించు"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "మీరు మీ ఖాతా తొలగించాలనుకుంటున్నారా? ఈ చర్యను రద్దు చేయడం సాధ్యం కాదు."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "సింక్ కు సైన్ ఇన్ అవ్వు"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "మీరు మీ టాబ్లు, బుక్మార్క్లు, పాస్వర్డ్లు మరియు మరింత సమకాలీకరించడానికి ఉపయోగించాలనుకుంటే ఖాతాను ఎంచుకోండి."
+
+#~ msgid "Use OpenID"
+#~ msgstr "OpenID వాడు"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "Firefox ఖాతా వాడు"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "చివరిసారి క్రియాశీలం %(translatedTimeAgo)s"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "%(escapedEmail)s నమోదయ్యింది. <a %(escapedBackLinkParams)s>ఈమెయిలు తప్పు టైపుచేసారా?</a>"
+
+#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+#~ msgstr "%(email)s లకు పంపిన సైన్-ఇన్ నిర్ధారణ లింక్ కోసం మీ ఇమెయిల్ను తనిఖీ చేయండి"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "సైన్ ఇన్ ధ్రువీకరించారు"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "ఖాతా నోటిఫికేషన్లు కూడా ఇప్పుడు %(secondaryEmailVerified)s కు పంపబడతాయి"
+
+#~ msgid "We may send you emails related to your Firefox Account."
+#~ msgstr "మీ Firefox ఖాతాకు సంబంధించిన ఈమెయిళ్ళని మేము పంవవచ్చు."
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+#~ msgstr "భద్రత గమనికలు మరియు సరికొత్త సమకాలీకరణ పరికరాల ధ్రువీకరణ కోసం ఇచ్చే అదనపు చిరునామాని అదనపు ఈమెయిల్ అంటాము."
+
+#~ msgid "Not in inbox or spam folder? Resend?"
+#~ msgstr "ఇన్‌బాక్స్‌లోనూ లేక స్పాము సంచయంలోనూ లేదా? మళ్ళీ పంపించాలా?"
+
+#~ msgid "Codes copied"
+#~ msgstr "సంకేతాలు కాపీఅయ్యాయి"
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "చెల్లని సైన్ ఇన్ ధృవీకరణ కోడ్"
+
+#~ msgid "Print button image"
+#~ msgstr "ముద్రణ బొత్తపు బొమ్మ"
+
+#~ msgid "Download button image"
+#~ msgstr "దింపుకోలు బొత్తపు బొమ్మ"
+
+#~ msgid "Sign in to continue."
+#~ msgstr "కొనసాగడానికి, ప్రవేశించండి."
+
+#~ msgctxt "submit button"
+#~ msgid "Sign in"
+#~ msgstr "ప్రవేశించు"
+
+#~ msgctxt "header text"
+#~ msgid "Sign in"
+#~ msgstr "ప్రవేశం"
+
+#~ msgctxt "button text"
+#~ msgid "Sign in"
+#~ msgstr "ప్రవేశించండి"
+
+#~ msgid "Unlock…"
+#~ msgstr "తాళంతీయి…"
+
+#~ msgid "Reverify to unlock section"
+#~ msgstr "విభాగాన్ని అన్లాక్ చేయడానికి మళ్లీ ధృవీకరించండి"
+
+#~ msgid "Can't scan code?"
+#~ msgstr "కోడ్ను స్కాన్ చేయలేవా?"
+
+#~ msgid "Next"
+#~ msgstr "తరువాత"
+
+#~ msgid "started syncing %(translatedTimeAgo)s"
+#~ msgstr "సమకాలీకరణ ప్రారంభమైంది %(translatedTimeAgo)s"
+
+#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
+#~ msgstr "8 అక్షరాలు కనీస, కానీ మీరు పాస్వర్డ్లను సమకాలీకరిస్తుంది కుంటే ఇక."
+
+#~ msgid "This is a common password; please consider another one."
+#~ msgstr "ఈ ఒక సాధారణ పాస్వర్డ్; దయచేసి మరో దాన్ని పరిగణలోకి తీసుకోండి."
+
+#~ msgid "Signed out successfully"
+#~ msgstr "విజయవంతంగా సైన్ అవుట్ అయ్యారు"
+
+#~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
+#~ msgstr "సంకేతపదము సరికాదు. మీరు ఎంటర్ చేసిన వాటిని డబుల్ చెక్ చేసి, ప్రదర్శించు బటన్ ను నొక్కి ఉంచండి."
+
+#~ msgid "Duplicate Device"
+#~ msgstr "నకలీ పరికరము"
+
+#~ msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+#~ msgstr "%(phoneNumber)s‌కి పంపించిన లంకె ద్వారా Firefox‌ను స్థాపించుకొని అమర్పును పూర్తిచెయ్యండి"
+
+#~ msgid "Didn’t arrive? Resend"
+#~ msgstr "అందలేదా? మళ్ళీ పంపించు"
+
+#~ msgid "Reason for disconnecting…"
+#~ msgstr "డిస్కనెక్ట్ అవ్వడానికి గల కారణం..."
+
+#~ msgid "Forgot password"
+#~ msgstr "సంకేతపదం మరిచిపోయారా"
+
+#~ msgid "Firefox Sync will begin momentarily"
+#~ msgstr "ఫైర్ఫాక్స్ సింక్ కొంతసేపట్లో ప్రారంభం అవుతుంది"
+
+#~ msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
+#~ msgstr "వేరొక ఈమయిల్ తో ఖాతా ఉన్నదా? <a href=\"%(escapedSignInUri)s\">సైన్ ఇన్ అవ్వండి</a>"
+
+#~ msgid "Devices"
+#~ msgstr "పరికరాలు"
+
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "ప్రయాణంలో సమకాలీకరించబడుతుంటాయి:"
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "ఆండ్రాయిడ్ కోసం ఫయఫాక్స్ పొందండి"
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "క్రింద మీరు మీ పరికరాల నిర్వహించవచ్చు."
+
+#~ msgid "You can manage your devices and apps below."
+#~ msgstr "మీ పరికరాలనూ అనువర్తనాలనూ క్రింద నిర్వహించుకోవచ్చు."
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
+#~ msgstr "అంటే మీరు అనేది <span tabindex=\"1\">%(domain)s</span> ?"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "ఒక ధృవీకరణ లింక్ను &nbsp; %(email)s కు పంపారు"
+
+#~ msgid "Sync preferences"
+#~ msgstr "Sync అభిరుచులు"
+
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr "ఫైర్‌ఫాక్స్ సింక్ కోసం చూస్తున్నారా? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">ఇక్కడ మొదలుపెట్టండి</a>"
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "వేరొక ఈమయిల్ తో ఖాతా ఉన్నదా? <a href=\"%(signinUri)s\">సైన్ ఇన్ అవండి</a>"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "ఫైర్ఫాక్స్ <a href=\"%(linkWindows)s\">విండోస్</a>, <a href=\"%(linkOSX)s\">ఓయస్ ఎక్స్</a>, <a href=\"%(linkAndroid)s\">ఆండ్రాయిడ్</a>,<a href=\"%(linkIOS)s\">ఐఓయస్</a>, <a href=\"%(linkLinux)s\">లినక్స్</a> కి "
+#~ "లభిస్తుంది."
+
+#~ msgid "Last active: %(translatedTimeAgo)s"
+#~ msgstr "చివరిసారి క్రియాశీలం: %(translatedTimeAgo)s"
+
+#~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
+#~ msgstr "ఇది చాలా సామాన్య సంకేతపదం; దయచేసి మరోటేదైనా ఆలోచించండి. %(moreInfoLink)s"
+
+#~ msgid "Create secure passwords to keep your identity safe"
+#~ msgstr "మీ గుర్తింపును సురక్షితంగా ఉంచడానికి సురక్షిత పాస్వర్డ్లను సృష్టించండి"
+
+#~ msgid "Reason for disconnecting&hellip;"
+#~ msgstr "డిస్కనెక్ట్ అవ్వడానికి గల కారనమ్ &hellip;"
+
+#~ msgid "Disconnect&hellip;"
+#~ msgstr "డిస్కనెక్ట్&hellip;"
+
+#~ msgid "Delete"
+#~ msgstr "తొలగించు"
+
+#~ msgid "Attempt limit exceeded"
+#~ msgstr "ప్రయత్నం పరిమితి మించిపోయింది"
+
+#~ msgid "Tabs"
+#~ msgstr "ట్యాబ్స్"
+
+#~ msgid "Last active: days ago"
+#~ msgstr "క్రియాశీల చివరి: రోజుల క్రితం"
+
+#~ msgid "Last active: hours ago"
+#~ msgstr "క్రియాశీల చివరి: గంటలు క్రితం"
+
+#~ msgid "Last active: minutes ago"
+#~ msgstr "క్రియాశీల చివరి: నిమిషాల క్రితం"
+
+#~ msgid "Last active: months ago"
+#~ msgstr "క్రియాశీల చివరి: నెలల క్రితం"
+
+#~ msgid "Last active: seconds ago"
+#~ msgstr "క్రియాశీల చివరి: గంటలు క్రితం"
+
+#~ msgid "Last active: weeks ago"
+#~ msgstr "క్రియాశీల చివరి: రోజుల క్రితం"
+
+#~ msgid "Last active: years ago"
+#~ msgstr "క్రియాశీల చివరి: రోజుల క్రితం"
+
+#~ msgid "Resend email"
+#~ msgstr "ఇమెయిల్ తిరిగి పంపండి"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+#~ msgstr "ఫైర్ఫాక్స్ సింక్ కోసం చూస్తున్నారా? <a href=\"https://mozilla.org/firefox/sync\">ఇక్కడ మొదలు పెట్టండి</a>"
+
+#~ msgid "Send me the monthly Firefox newsletter."
+#~ msgstr "నాకు నెలసరి ఫైర్ఫాక్స్ వార్తాలేఖను పంపు."
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "ఖాతా ఉందా? సైన్ ఇన్ అవండి."
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "మీ అన్ని పరికరాల్లో కనిపించలేదా?"
+
+#~ msgid "days ago"
+#~ msgstr "రోజుల క్రితం"
+
+#~ msgid "hours ago"
+#~ msgstr "గంటల క్రితము"
+
+#~ msgid "minutes ago"
+#~ msgstr "నిమిషాల క్రితం"
+
+#~ msgid "months ago"
+#~ msgstr "నెలల క్రితం"
+
+#~ msgid "seconds ago"
+#~ msgstr "గడియల క్రతము"
+
+#~ msgid "weeks ago"
+#~ msgstr "వారాల ముందు"
+
+#~ msgid "years ago"
+#~ msgstr "సంవత్సరాల క్రితము"
+
+#~ msgid "Account unlocked, please try again"
+#~ msgstr "ఖాతా అన్లాక్ చేయబడింది, దయచేసి మళ్ళీ ప్రయత్నించండి"
+
+#~ msgid "Account unlocked"
+#~ msgstr "ఖాతా అన్లాక్ చేయండి"

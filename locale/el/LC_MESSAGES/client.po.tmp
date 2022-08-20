@@ -1,0 +1,3364 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2022-08-17 12:12+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+
+#: .es5/views/confirm_reset_password.js:199
+msgid "Password reset"
+msgstr "Επαναφορά κωδικού πρόσβασης"
+
+#: .es5/views/confirm_reset_password.js:217
+msgid "Password reset successfully. Sign in to continue."
+msgstr "Έγινε επιτυχής επαναφορά του κωδικού πρόσβασης. Συνδεθείτε για να συνεχίσετε."
+
+#. submit button
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/templates/sign_in_password.mustache:10
+msgid "Sign in"
+msgstr "Σύνδεση"
+
+#: .es5/views/index.js:176
+msgid "Account deleted successfully"
+msgstr "Ο λογαριασμός διαγράφτηκε επιτυχώς"
+
+#: .es5/views/inline_totp_setup.js:156
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr "Χρησιμοποιήστε τον κωδικό %(code)s για να ρυθμίσετε την ταυτοποίηση δύο παραγόντων στις υποστηριζόμενες εφαρμογές."
+
+#: .es5/views/permissions.js:41
+msgid "%(permissionName)s (required)"
+msgstr "%(permissionName)s (απαιτείται)"
+
+#: .es5/views/permissions.js:45
+msgid "Email address"
+msgstr "Διεύθυνση email"
+
+#: .es5/views/permissions.js:49
+msgid "Display name"
+msgstr "Εμφανιζόμενο όνομα"
+
+#: .es5/views/permissions.js:52
+msgid "Account picture"
+msgstr "Εικόνα λογαριασμού"
+
+#: .es5/views/ready.js:58
+msgid "Welcome back"
+msgstr "Καλώς ορίσατε και πάλι"
+
+#: .es5/views/ready.js:59
+msgid "Firefox Sync will resume momentarily"
+msgstr "Το Firefox Sync θα συνεχίσει εντός ολίγου"
+
+#: .es5/views/ready.js:63 .es5/views/ready.js:68
+msgid "Your password has been reset"
+msgstr "Έγινε επαναφορά του κωδικού πρόσβασής σας"
+
+#: .es5/views/ready.js:64 .es5/views/ready.js:69
+msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgstr "Ολοκληρώστε τη ρύθμιση εισάγοντας τον νέο κωδικό πρόσβασης στις άλλες σας συσκευές με το Firefox."
+
+#: .es5/views/ready.js:72
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "Τώρα μπορείτε να κάνετε αλλαγές στον λογαριασμό Firefox σας."
+
+#: .es5/views/ready.js:74
+msgid "Primary email confirmed"
+msgstr "Το κύριο email επιβεβαιώθηκε"
+
+#: .es5/views/ready.js:77
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr "Οι ειδοποιήσεις λογαριασμού θα αποστέλλονται πλέον και στο %(secondaryEmailVerified)s."
+
+#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
+msgid "Secondary email confirmed"
+msgstr "Το δευτερεύον email επιβεβαιώθηκε"
+
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+msgid "Sign-in confirmed"
+msgstr "Η σύνδεση επιβεβαιώθηκε"
+
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+msgid "You are now ready to use %(serviceName)s"
+msgstr "Μπορείτε τώρα να χρησιμοποιήσετε το %(serviceName)s"
+
+#: .es5/views/ready.js:89
+msgid "Account confirmed"
+msgstr "Ο λογαριασμός επιβεβαιώθηκε"
+
+#: .es5/views/ready.js:94
+msgid "Connected"
+msgstr "Σε σύνδεση"
+
+#: .es5/views/reset_password.js:111
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "Άγνωστος λογαριασμός. <a href=\"/signup\">Εγγραφή</a>"
+
+#: .es5/views/sign_up_password.js:86
+msgid "Account no longer exists. Recreate it?"
+msgstr "Ο λογαριασμός δεν υπάρχει πλέον. Θέλετε να τον δημιουργήσετε ξανά;"
+
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
+msgid "Other"
+msgstr "Άλλο"
+
+#: .es5/views/support.js:270
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgstr "Σας ευχαριστούμε που απευθυνθήκατε στην Υποστήριξη Mozilla σχετικά με το θέμα: <b>%(escapedLowercaseTopic)s</b>. Θα επικοινωνήσουμε μαζί σας μέσω email το συντομότερο δυνατό."
+
+#: .es5/views/support.js:272
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
+"Σας ευχαριστούμε που απευθυνθήκατε στην Υποστήριξη Mozilla σχετικά με το θέμα: <b>%(escapedLowercaseTopic)s</b> για το <b>%(escapedSelectedProduct)s</b>. Θα επικοινωνήσουμε μαζί σας μέσω email το "
+"συντομότερο δυνατό."
+
+#: .es5/views/post_verify/verified.js:53
+msgid "Your sync data is protected"
+msgstr "Τα δεδομένα συγχρονισμού σας προστατεύονται"
+
+#: .es5/views/post_verify/verified.js:54
+msgid "If you lose access to your account, you’ll be able to restore your sync data."
+msgstr "Αν χάσετε την πρόσβαση στον λογαριασμό σας, θα μπορείτε να επαναφέρετε τα δεδομένα συγχρονισμού σας."
+
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "Έναρξη περιήγησης"
+
+#: .es5/views/post_verify/verified.js:58
+msgid "Account notifications will now also be sent to %(secondaryEmail)s."
+msgstr "Οι ειδοποιήσεις λογαριασμού θα αποστέλλονται πλέον και στο %(secondaryEmail)s."
+
+#: .es5/views/post_verify/verified.js:59
+msgid "Continue to %(serviceName)s "
+msgstr "Συνέχεια στο %(serviceName)s "
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
+msgid "Your account has been locked for security reasons"
+msgstr "Ο λογαριασμός σας έχει κλειδωθεί για λόγους ασφαλείας"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+msgid "Reset password"
+msgstr "Επαναφορά κωδικού πρόσβασης"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:38
+msgid "none"
+msgstr "κανένας"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:44
+msgid "Last checked: %(lastCheckTime)s"
+msgstr "Τελευταίος έλεγχος: %(lastCheckTime)s"
+
+#: .es5/views/mixins/open-webmail-mixin.js:25
+msgid "Open Gmail"
+msgstr "Άνοιγμα Gmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:30
+msgid "Open Hotmail"
+msgstr "Άνοιγμα Hotmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:35
+msgid "Open Yahoo"
+msgstr "Άνοιγμα Yahoo"
+
+#: .es5/views/mixins/open-webmail-mixin.js:40
+msgid "Open Outlook"
+msgstr "Άνοιγμα Outlook"
+
+#: .es5/views/mixins/open-webmail-mixin.js:45
+msgid "Open Restmail"
+msgstr "Άνοιγμα Restmail"
+
+#: .es5/views/mixins/password-mixin.js:149
+msgid "Hide password"
+msgstr "Απόκρυψη κωδικού πρόσβασης"
+
+#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr "Εμφάνιση κωδικού πρόσβασης"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:77
+msgid "Firefox Recovery Codes"
+msgstr "Κωδικοί ανάκτησης Firefox"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:142
+msgid "Two-step authentication enabled"
+msgstr "Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε"
+
+#: .es5/views/mixins/recovery-key-mixin.js:30
+msgid "Firefox Recovery Key"
+msgstr "Κλειδί ανάκτησης Firefox"
+
+#: .es5/views/mixins/resend-mixin.js:53
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr "Το email απεστάλη ξανά. Προσθέστε το accounts@firefox.com στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση."
+
+#: .es5/views/mixins/save-options-mixin.js:59
+msgid "Copied"
+msgstr "Έγινε αντιγραφή"
+
+#: .es5/views/mixins/save-options-mixin.js:61
+msgid "Failed to copy. Please manually copy."
+msgstr "Αποτυχία αντιγραφής. Παρακαλούμε κάντε χειροκίνητη αντιγραφή."
+
+#: .es5/views/mixins/save-options-mixin.js:78
+msgid "Downloaded"
+msgstr "Έγινε λήψη"
+
+#: .es5/views/mixins/save-options-mixin.js:90
+msgid "Printed"
+msgstr "Έγινε εκτύπωση"
+
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "payment & billing"
+msgstr "πληρωμή & χρέωση"
+
+#: .es5/models/support-form.js:25
+msgid "account issues"
+msgstr "ζητήματα λογαριασμού"
+
+#: .es5/models/support-form.js:25
+msgid "technical issues"
+msgstr "τεχνικά ζητήματα"
+
+#: .es5/models/support-form.js:25
+msgid "provide feedback / request features"
+msgstr "παροχή σχολίων / αίτημα λειτουργιών"
+
+#: .es5/models/support-form.js:25
+msgid "not listed"
+msgstr "δεν αναγράφεται"
+
+#: .es5/models/sync-engines.js:58
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#: .es5/models/sync-engines.js:62
+msgid "History"
+msgstr "Ιστορικό"
+
+#: .es5/models/sync-engines.js:66
+msgid "Passwords"
+msgstr "Κωδικοί πρόσβασης"
+
+#: .es5/models/sync-engines.js:70
+msgid "Add-ons"
+msgstr "Πρόσθετα"
+
+#: .es5/models/sync-engines.js:74
+msgid "Open Tabs"
+msgstr "Ανοικτές καρτέλες"
+
+#: .es5/models/sync-engines.js:78
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: .es5/models/sync-engines.js:86
+msgid "Addresses"
+msgstr "Διευθύνσεις"
+
+#: .es5/models/sync-engines.js:94
+msgid "Credit Cards"
+msgstr "Πιστωτικές κάρτες"
+
+#: .es5/models/reliers/browser.js:88
+msgid "Firefox"
+msgstr "Firefox"
+
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "Επιτυχής επαλήθευση κύριου email"
+
+#: .es5/models/auth_brokers/base.js:114
+msgid "Secondary email verified successfully"
+msgstr "Επιτυχής επαλήθευση δευτερεύοντος email"
+
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Επιτυχής επαλήθευση λογαριασμού"
+
+#: .es5/models/auth_brokers/web.js:38
+msgid "Password reset successfully"
+msgstr "Επιτυχής επαναφορά κωδικού πρόσβασης"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "Η ανάκτηση λογαριασμού ενεργοποιήθηκε"
+
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+msgid "Unexpected error"
+msgstr "Μη αναμενόμενο σφάλμα"
+
+#: .es5/lib/auth-errors.js:27
+msgid "The link you clicked to verify your email is expired."
+msgstr "Ο σύνδεσμος που πατήσατε για την επαλήθευση του email σας έληξε."
+
+#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+msgid "You've tried too many times. Try again later."
+msgstr "Έχετε προσπαθήσει πάρα πολλές φορές. Δοκιμάστε ξανά αργότερα."
+
+#: .es5/lib/auth-errors.js:32
+msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
+msgstr "Έχετε προσπαθήσει πάρα πολλές φορές. Δοκιμάστε ξανά %(retryAfterLocalized)s."
+
+#: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
+msgid "Invalid token"
+msgstr "Μη έγκυρο διακριτικό"
+
+#: .es5/lib/auth-errors.js:44
+msgid "Invalid timestamp in request signature"
+msgstr "Μη έγκυρη χρονοσήμανση στην υπογραφή του αιτήματος"
+
+#: .es5/lib/auth-errors.js:48
+msgid "Invalid nonce in request signature"
+msgstr "Μη έγκυρος αριθμός μιας χρήσης στην υπογραφή του αιτήματος"
+
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+msgid "Account already exists"
+msgstr "Ο λογαριασμός υπάρχει ήδη"
+
+#: .es5/lib/auth-errors.js:56
+msgid "Unknown account"
+msgstr "Άγνωστος λογαριασμός"
+
+#: .es5/lib/auth-errors.js:60
+msgid "Incorrect email case"
+msgstr "Εσφαλμένη περίπτωση email"
+
+#: .es5/lib/auth-errors.js:64
+msgid "Incorrect password"
+msgstr "Εσφαλμένος κωδικός πρόσβασης"
+
+#: .es5/lib/auth-errors.js:68
+msgid "Unverified account"
+msgstr "Μη επαληθευμένος λογαριασμός"
+
+#: .es5/lib/auth-errors.js:72
+msgid "Invalid verification code"
+msgstr "Μη έγκυρος κωδικός επαλήθευσης"
+
+#: .es5/lib/auth-errors.js:76
+msgid "Invalid JSON in request body"
+msgstr "Μη έγκυρο JSON στο σώμα του αιτήματος"
+
+#: .es5/lib/auth-errors.js:80
+msgid "Invalid parameter: %(param)s"
+msgstr "Μη έγκυρη παράμετρος: %(param)s"
+
+#: .es5/lib/auth-errors.js:84
+msgid "Missing parameter: %(param)s"
+msgstr "Απούσα παράμετρος: %(param)s"
+
+#: .es5/lib/auth-errors.js:88
+msgid "Invalid request signature"
+msgstr "Μη έγκυρη υπογραφή αιτήματος"
+
+#: .es5/lib/auth-errors.js:92
+msgid "Missing content-length header"
+msgstr "Απουσία κεφαλίδας «content-length»"
+
+#: .es5/lib/auth-errors.js:96
+msgid "Request body too large"
+msgstr "Πολύ μεγάλο σώμα αιτήματος"
+
+#: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
+msgid "The request was blocked for security reasons"
+msgstr "Το αίτημα αποκλείστηκε για λόγους ασφαλείας"
+
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+msgid "Invalid authorization code"
+msgstr "Μη έγκυρος κωδικός ταυτοποίησης"
+
+#: .es5/lib/auth-errors.js:127
+msgid "Invalid phone number"
+msgstr "Μη έγκυρος αριθμός τηλεφώνου"
+
+#: .es5/lib/auth-errors.js:131
+msgid "Cannot send to this country"
+msgstr "Δεν είναι δυνατή η αποστολή σε αυτήν τη χώρα"
+
+#: .es5/lib/auth-errors.js:140
+msgid "Could not send a message to this number"
+msgstr "Δεν ήταν δυνατή η αποστολή μηνύματος σε αυτόν τον αριθμό"
+
+#: .es5/lib/auth-errors.js:144
+msgid "Your email was just returned"
+msgstr "Το email σας μόλις επιστράφηκε"
+
+#: .es5/lib/auth-errors.js:148
+msgid "Your email was just returned. Mistyped email?"
+msgstr "Το email σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος email;"
+
+#: .es5/lib/auth-errors.js:152
+msgid "Unable to deliver email"
+msgstr "Δεν ήταν δυνατή η παράδοση του email"
+
+#: .es5/lib/auth-errors.js:156
+msgid "This email was already verified by another user"
+msgstr "Αυτό το email επαληθεύτηκε ήδη από κάποιον άλλο χρήστη"
+
+#: .es5/lib/auth-errors.js:160
+msgid "Unverified session"
+msgstr "Μη επαληθευμένη συνεδρία"
+
+#: .es5/lib/auth-errors.js:164
+msgid "Secondary email must be different than your account email"
+msgstr "Το δευτερεύον email πρέπει να διαφέρει από το email του λογαριασμού σας"
+
+#: .es5/lib/auth-errors.js:172
+msgid "You have reached the maximum allowed secondary emails"
+msgstr "Έχετε φτάσει τον μέγιστο επιτρεπτό αριθμό δευτερευόντων email"
+
+#: .es5/lib/auth-errors.js:176
+msgid "This email already exists on your account"
+msgstr "Αυτό το email υπάρχει ήδη στον λογαριασμό σας"
+
+#: .es5/lib/auth-errors.js:184
+msgid "Primary account email required for sign-in"
+msgstr "Απαιτείται το κύριο email του λογαριασμού για σύνδεση"
+
+#: .es5/lib/auth-errors.js:188
+msgid "Address in use by another account"
+msgstr "Η διεύθυνση χρησιμοποιείται από κάποιον άλλο λογαριασμό"
+
+#: .es5/lib/auth-errors.js:192
+msgid "Primary account email required for reset"
+msgstr "Απαιτείται το κύριο email του λογαριασμού για επαναφορά"
+
+#: .es5/lib/auth-errors.js:196
+msgid "Invalid signin code"
+msgstr "Μη έγκυρος κώδικας σύνδεσης"
+
+#: .es5/lib/auth-errors.js:200
+msgid "Can not change primary email to an unverified email"
+msgstr "Δεν είναι δυνατή η αλλαγή του κύριου email σε μη επαληθευμένο email"
+
+#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
+msgid "Can not change primary email to an email that does not belong to this account"
+msgstr "Δεν είναι δυνατή η αλλαγή του κύριου email σε email που δεν ανήκει στον λογαριασμό"
+
+#: .es5/lib/auth-errors.js:208
+msgid "This email can not currently be used to login"
+msgstr "Αυτό το email δεν μπορεί να χρησιμοποιηθεί για σύνδεση αυτήν τη στιγμή"
+
+#: .es5/lib/auth-errors.js:216
+msgid "Failed to send email"
+msgstr "Αποτυχία αποστολής email"
+
+#: .es5/lib/auth-errors.js:220
+msgid "Valid code required"
+msgstr "Απαιτείται έγκυρος κωδικός"
+
+#: .es5/lib/auth-errors.js:224
+msgid "This verification code has expired"
+msgstr "Αυτός ο κωδικός επαλήθευσης έχει λήξει"
+
+#: .es5/lib/auth-errors.js:228
+msgid "A TOTP token already exists for this account"
+msgstr "Υπάρχει ήδη ένα διακριτικό TOTP για αυτόν τον λογαριασμό"
+
+#: .es5/lib/auth-errors.js:232
+msgid "TOTP token not found"
+msgstr "Δεν βρέθηκε διακριτικό TOTP"
+
+#: .es5/lib/auth-errors.js:236
+msgid "Recovery code not found"
+msgstr "Δεν βρέθηκε κωδικός ανάκτησης"
+
+#: .es5/lib/auth-errors.js:240
+msgid "Unavailable device command"
+msgstr "Μη διαθέσιμη εντολή συσκευής"
+
+#: .es5/lib/auth-errors.js:244
+msgid "Recovery key not found"
+msgstr "Δεν βρέθηκε κλειδί ανάκτησης"
+
+#: .es5/lib/auth-errors.js:248
+msgid "Invalid recovery key"
+msgstr "Μη έγκυρο κλειδί ανάκτησης"
+
+#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
+msgid "This request requires two step authentication enabled on your account."
+msgstr "Αυτό το αίτημα απαιτεί ταυτοποίηση δύο παραγόντων στον λογαριασμό σας."
+
+#: .es5/lib/auth-errors.js:256
+msgid "Failed due to a conflicting request, please try again."
+msgstr "Αποτυχία λόγω αντικρουόμενου αιτήματος, παρακαλούμε δοκιμάστε ξανά."
+
+#: .es5/lib/auth-errors.js:264
+msgid "Unknown customer for subscription."
+msgstr "Άγνωστος πελάτης συνδρομής."
+
+#: .es5/lib/auth-errors.js:268
+msgid "Unknown subscription."
+msgstr "Άγνωστη συνδρομή."
+
+#: .es5/lib/auth-errors.js:272
+msgid "Unknown plan for subscription."
+msgstr "Άγνωστο πρόγραμμα συνδρομής."
+
+#: .es5/lib/auth-errors.js:276
+msgid "Invalid payment token for subscription."
+msgstr "Μη έγκυρο διακριτικό πληρωμής συνδρομής."
+
+#: .es5/lib/auth-errors.js:280
+msgid "Subscription has already been cancelled"
+msgstr "Η συνδρομή έχει ήδη ακυρωθεί"
+
+#: .es5/lib/auth-errors.js:284
+msgid "Update was rejected, please try again"
+msgstr "Η ενημέρωση απορρίφθηκε, παρακαλούμε δοκιμάστε ξανά"
+
+#: .es5/lib/auth-errors.js:288
+msgid "Invalid or expired verification code"
+msgstr "Μη έγκυρος ή παλιός κωδικός επαλήθευσης"
+
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+msgid "Server busy, try again soon"
+msgstr "Απασχολημένος διακομιστής, δοκιμάστε ξανά σύντομα"
+
+#: .es5/lib/auth-errors.js:296
+msgid "Feature not enabled"
+msgstr "Η λειτουργία δεν είναι ενεργή"
+
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+msgid "System unavailable, try again soon"
+msgstr "Μη διαθέσιμο σύστημα, δοκιμάστε πάλι ξανά"
+
+#: .es5/lib/auth-errors.js:308
+msgid "This endpoint is no longer supported"
+msgstr "Αυτό το άκρο δεν υποστηρίζεται πια"
+
+#: .es5/lib/auth-errors.js:316
+msgid "Login attempt cancelled"
+msgstr "Η προσπάθεια σύνδεσης ακυρώθηκε"
+
+#: .es5/lib/auth-errors.js:320
+msgid "Session expired. Sign in to continue."
+msgstr "Η συνεδρία έληξε. Συνδεθείτε για να συνεχίσετε."
+
+#: .es5/lib/auth-errors.js:324
+msgid "Cookies are still disabled"
+msgstr "Τα cookies είναι ακόμη ανενεργά"
+
+#: .es5/lib/auth-errors.js:328
+msgid "Passwords do not match"
+msgstr "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
+
+#: .es5/lib/auth-errors.js:332
+msgid "Working…"
+msgstr "Επεξεργασία…"
+
+#: .es5/lib/auth-errors.js:336
+msgid "Could not get Privacy Notice"
+msgstr "Δεν ήταν δυνατή η λήψη της σημείωσης απορρήτου"
+
+#: .es5/lib/auth-errors.js:340
+msgid "Could not get Terms of Service"
+msgstr "Δεν ήταν δυνατή η λήψη των όρων υπηρεσίας"
+
+#: .es5/lib/auth-errors.js:344
+msgid "Your new password must be different"
+msgstr "Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός"
+
+#: .es5/lib/auth-errors.js:348
+msgid "Must be at least 8 characters"
+msgstr "Πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες"
+
+#: .es5/lib/auth-errors.js:352
+msgid "Valid password required"
+msgstr "Απαιτείται έγκυρος κωδικός πρόσβασης"
+
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+msgid "Valid email required"
+msgstr "Απαιτείται έγκυρο email"
+
+#: .es5/lib/auth-errors.js:368
+msgid "A usable image was not found"
+msgstr "Δεν βρέθηκε καμία αξιοποιήσιμη εικόνα"
+
+#: .es5/lib/auth-errors.js:372
+msgid "Could not initialize camera"
+msgstr "Δεν ήταν δυνατή η εκκίνηση της κάμερας"
+
+#: .es5/lib/auth-errors.js:376
+msgid "Valid URL required"
+msgstr "Απαιτείται έγκυρο URL"
+
+#: .es5/lib/auth-errors.js:392
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr "Το email επαλήθευσής σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος email;"
+
+#: .es5/lib/auth-errors.js:400
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr "Εισαγάγετε μια έγκυρη διεύθυνση email. Το firefox.com δεν προσφέρει email."
+
+#: .es5/lib/auth-errors.js:408
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "Οι Λογαριασμοί Firefox μπορούν να τοποθετηθούν μόνο σε IFRAME σε εγκεκριμένους ιστοτόπους"
+
+#: .es5/lib/auth-errors.js:428
+msgid "Verification link damaged"
+msgstr "Ο σύνδεσμος επαλήθευσης καταστράφηκε"
+
+#: .es5/lib/auth-errors.js:436
+msgid "The image dimensions must be at least 100x100px"
+msgstr "Οι διαστάσεις της εικόνας πρέπει να είναι τουλάχιστον 100x100px"
+
+#: .es5/lib/auth-errors.js:440
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "Η δυνατότητα εγγραφής έρχεται σύντομα στο Firefox για iOS"
+
+#: .es5/lib/auth-errors.js:452
+msgid "You must enter your age to sign up"
+msgstr "Πρέπει να εισαγάγετε την ηλικία σας για την εγγραφή"
+
+#: .es5/lib/auth-errors.js:456
+msgid "You must enter a valid age to sign up"
+msgstr "Πρέπει να εισαγάγετε μια έγκυρη ηλικία για την εγγραφή"
+
+#: .es5/lib/auth-errors.js:472
+msgid "Account no longer exists."
+msgstr "Ο λογαριασμός δεν υπάρχει πλέον."
+
+#: .es5/lib/auth-errors.js:476
+msgid "Invalid property in resume token: %(property)s"
+msgstr "Μη έγκυρη ιδιότητα στο διακριτικό συνέχισης: %(property)s"
+
+#: .es5/lib/auth-errors.js:480
+msgid "Missing property in resume token: %(property)s"
+msgstr "Απουσία ιδιότητας στο διακριτικό συνέχισης: %(property)s"
+
+#: .es5/lib/auth-errors.js:484
+msgid "Invalid data attribute: %(property)s"
+msgstr "Μη έγκυρη ιδιότητα δεδομένων: %(property)s"
+
+#: .es5/lib/auth-errors.js:488
+msgid "Missing data attribute: %(property)s"
+msgstr "Απουσία ιδιότητας δεδομένων: %(property)s"
+
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+msgid "That confirmation link was already used, and can only be used once."
+msgstr "Αυτός ο σύνδεσμος επιβεβαίωσης έχει χρησιμοποιηθεί ήδη και μπορεί να χρησιμοποιηθεί μόνο μία φορά."
+
+#: .es5/lib/auth-errors.js:505
+msgid "This is a required field"
+msgstr "Αυτό είναι ένα υποχρεωτικό πεδίο"
+
+#: .es5/lib/auth-errors.js:509
+msgid "Authorization code required"
+msgstr "Απαιτείται κωδικός ταυτοποίησης"
+
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+msgid "Link damaged"
+msgstr "Κατεστραμμένος σύνδεσμος"
+
+#: .es5/lib/auth-errors.js:540
+msgid "Phone number required"
+msgstr "Απαιτείται αριθμός τηλεφώνου"
+
+#: .es5/lib/auth-errors.js:559
+msgid "Two-step authentication code required"
+msgstr "Απαιτείται κωδικός ταυτοποίησης δύο παραγόντων"
+
+#: .es5/lib/auth-errors.js:563
+msgid "Invalid two-step authentication code"
+msgstr "Μη έγκυρος κωδικός ταυτοποίησης δύο παραγόντων"
+
+#: .es5/lib/auth-errors.js:567
+msgid "Recovery code required"
+msgstr "Απαιτείται κωδικός ανάκτησης"
+
+#: .es5/lib/auth-errors.js:571
+msgid "Invalid recovery code"
+msgstr "Μη έγκυρος κωδικός ανάκτησης"
+
+#: .es5/lib/auth-errors.js:585
+msgid "Recovery key required"
+msgstr "Απαιτείται κλειδί ανάκτησης"
+
+#: .es5/lib/auth-errors.js:589
+msgid "Please enter verification code"
+msgstr "Παρακαλούμε εισαγάγετε τον κωδικό επαλήθευσης"
+
+#: .es5/lib/auth-errors.js:601
+msgid "Invalid redirect"
+msgstr "Μη έγκυρη ανακατεύθυνση"
+
+#: .es5/lib/auth-errors.js:613
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr "Εσφαλμένο email; Το %(domain)s δεν προσφέρει email."
+
+#: .es5/lib/auth-errors.js:617
+msgid "The image file size is too large to be uploaded."
+msgstr "Το μέγεθος του αρχείου εικόνας είναι πολύ μεγάλο για μεταφόρτωση."
+
+#: .es5/lib/config-loader.js:117
+msgid "Missing configuration"
+msgstr "Απουσία ρύθμισης"
+
+#: .es5/lib/config-loader.js:121
+msgid "Invalid configuration"
+msgstr "Μη έγκυρη ρύθμιση"
+
+#: .es5/lib/email-domain-validator.js:40
+msgid "Mistyped email?"
+msgstr "Εσφαλμένο email;"
+
+#: .es5/lib/newsletters.js:25
+msgid "Test new Firefox products"
+msgstr "Δοκιμάστε νέα προϊόντα του Firefox"
+
+#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "Λάβετε τις τελευταίες ειδήσεις σχετικά με τη Mozilla και το Firefox"
+
+#: .es5/lib/newsletters.js:33
+msgid "Take action to keep the internet healthy"
+msgstr "Λάβετε δράση για ένα υγιές διαδίκτυο"
+
+#: .es5/lib/newsletters.js:37
+msgid "Be safer and smarter online"
+msgstr "Περισσότερη ασφάλεια και γνώσεις στο διαδίκτυο"
+
+#: .es5/lib/newsletters.js:44
+msgid "Testing Firefox products"
+msgstr "Δοκιμή προϊόντων Firefox"
+
+#: .es5/lib/newsletters.js:52
+msgid "Taking action to keep the internet healthy"
+msgstr "Δράσεις για να παραμείνει υγιές το διαδίκτυο"
+
+#: .es5/lib/newsletters.js:56
+msgid "Safety and privacy online with Firefox and Mozilla"
+msgstr "Ασφάλεια και απόρρητο στο διαδίκτυο με το Firefox και τη Mozilla"
+
+#: .es5/lib/oauth-errors.js:34
+msgid "Unknown client"
+msgstr "Άγνωστος δέκτης"
+
+#: .es5/lib/oauth-errors.js:38
+msgid "Incorrect redirect_uri"
+msgstr "Εσφαλμένο redirect_uri"
+
+#: .es5/lib/oauth-errors.js:42
+msgid "Invalid assertion"
+msgstr "Μη έγκυρος ισχυρισμός"
+
+#: .es5/lib/oauth-errors.js:46
+msgid "Unknown code"
+msgstr "Άγνωστος κωδικός"
+
+#: .es5/lib/oauth-errors.js:50
+msgid "Incorrect code"
+msgstr "Εσφαλμένος κωδικός"
+
+#: .es5/lib/oauth-errors.js:54
+msgid "Expired code"
+msgstr "Ληγμένος κωδικός"
+
+#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Μη έγκυρη παράμετρος OAuth: %(param)s"
+
+#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
+msgid "Unauthorized"
+msgstr "Μη πιστοποιημένο"
+
+#: .es5/lib/oauth-errors.js:74
+msgid "Forbidden"
+msgstr "Απαγορεύεται"
+
+#: .es5/lib/oauth-errors.js:89
+msgid "Expired token"
+msgstr "Ληγμένο διακριτικό"
+
+#: .es5/lib/oauth-errors.js:133
+msgid "Something went wrong. Please close this tab and try again."
+msgstr "Κάτι πήγε στραβά. Παρακαλούμε κλείστε την καρτέλα και δοκιμάστε ξανά."
+
+#: .es5/lib/oauth-errors.js:153
+msgid "no message"
+msgstr "κανένα μήνυμα"
+
+#: .es5/lib/oauth-errors.js:157
+msgid "Missing OAuth parameter: %(param)s"
+msgstr "Απουσία παραμέτρου OAuth: %(param)s"
+
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr "Ο χρήστης δεν είναι συνδεδεμένος"
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr "Ένας άλλος χρήστης έχει συνδεθεί"
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr "Μη επαληθευμένος χρήστης ή συνεδρία"
+
+#: .es5/lib/oauth-errors.js:196
+msgid "Invalid id_token_hint"
+msgstr "Μη έγκυρο id_token_hint"
+
+#: .es5/lib/pairing-channel-client-errors.js:44
+msgid "Invalid message from the remote device"
+msgstr "Μη έγκυρο μήνυμα από την απομακρυσμένη συσκευή"
+
+#: .es5/lib/pairing-channel-client-errors.js:52
+msgid "Error pairing to remote device"
+msgstr "Σφάλμα σύζευξης με απομακρυσμένη συσκευή"
+
+#: .es5/lib/pairing-channel-client-errors.js:56
+msgid "Connection to remote device closed, please try again"
+msgstr "Η σύνδεση στην απομακρυσμένη συσκευή έκλεισε, παρακαλούμε δοκιμάστε ξανά"
+
+#: .es5/lib/profile-errors.js:29
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Μη έγκυρη παράμετρος στο σώμα αιτήματος: %(param)s"
+
+#: .es5/lib/profile-errors.js:33
+msgid "Unsupported image provider"
+msgstr "Μη υποστηριζόμενος πάροχος εικόνας"
+
+#: .es5/lib/profile-errors.js:37
+msgid "Image processing error"
+msgstr "Σφάλμα επεξεργασίας εικόνας"
+
+#: .es5/lib/profile-errors.js:49
+msgid "Invalid Token"
+msgstr "Μη έγκυρο διακριτικό"
+
+#: .es5/lib/strings.js:25
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Συνεχίζοντας, συμφωνείτε με <a id=\"service-tos\" href=\"%(termsUri)s\">τους Όρους υπηρεσίας</a> και <a id=\"service-pp\" href=\"%(privacyUri)s\">την Πολιτική απορρήτου</a> της υπηρεσίας "
+"%(serviceName)s(%(serviceUri)s)."
+
+#: .es5/lib/strings.js:31
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Βοήθεια</a>"
+
+#: .es5/lib/strings.js:34
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Λάβετε τα τελευταία νέα του Mozilla και του Firefox."
+
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
+msgid "%(city)s, %(country)s (estimated)"
+msgstr "%(city)s, %(country)s (εκτίμηση)"
+
+#: .es5/lib/strings.js:37
+msgid "%(country)s (estimated)"
+msgstr "%(country)s (εκτίμηση)"
+
+#: .es5/lib/strings.js:38
+msgid "IP address: %(ip)s"
+msgstr "Διεύθυνση IP: %(ip)s"
+
+#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
+msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+msgstr "Για επιπρόσθετη ασφάλεια, επιβεβαιώστε αυτήν τη σύνδεση για την εκκίνηση του συγχρονισμού με αυτήν τη συσκευή:"
+
+#: .es5/templates/400.mustache:1
+msgid "Bad Request"
+msgstr "Κακό αίτημα"
+
+#: .es5/templates/500.mustache:1
+msgid "500 Error"
+msgstr "Σφάλμα 500"
+
+#: .es5/templates/500.mustache:2
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Αγαπητέ χρήση, κάτι πήγε στραβά. Έχουμε ειδοποιηθεί και θα αρχίσουμε να εργαζόμαστε πάνω σε μια διόρθωση."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+msgid "Reset password link expired"
+msgstr "Ο σύνδεσμος επαναφοράς κωδικού πρόσβασης έληξε"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+msgid "The link you clicked to reset your password is expired."
+msgstr "Ο σύνδεσμος στον οποίο κάνατε κλικ για επαναφορά του κωδικού πρόσβασής σας έχει λήξει."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+msgid "Receive new link"
+msgstr "Λήψη νέου συνδέσμου"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5
+msgid "Reset password with recovery key"
+msgstr "Επαναφορά κωδικού πρόσβασης με κλειδί ανάκτησης"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Συνέχεια στην υπηρεσία %(serviceName)s"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:7
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr "Παρακαλώ εισαγάγετε το κλειδί ανάκτησης μίας χρήσης που έχετε αποθηκεύσει σε ένα ασφαλές μέρος για ανάκτηση πρόσβασης στον λογαριασμό Firefox σας."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:8
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+"<span class=\"note\">ΣΗΜΕΙΩΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας και δεν έχετε αποθηκεύσει κλειδί ανάκτησης λογαριασμού, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων "
+"και των συγχρονισμένων δεδομένων του διακομιστή, όπως ιστορικό και σελιδοδείκτες)."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Enter recovery key"
+msgstr "Εισαγάγετε το κλειδί ανάκτησης"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+msgid "Confirm recovery key"
+msgstr "Επιβεβαίωση κλειδιού ανάκτησης"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Don't have a recovery key?"
+msgstr "Δεν έχετε κλειδί ανάκτησης;"
+
+#: .es5/templates/cannot_create_account.mustache:1
+msgid "Cannot create account"
+msgstr "Αδυναμία δημιουργίας λογαριασμού"
+
+#: .es5/templates/cannot_create_account.mustache:2
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr "Πρέπει να πληροίτε ορισμένες απαιτήσεις ηλικίας για τη δημιουργία ενός λογαριασμού&nbsp;Firefox."
+
+#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+
+#: .es5/templates/choose_what_to_sync.mustache:1
+msgid "Choose what to sync:"
+msgstr "Επιλέξτε τι θα συγχρονίζεται:"
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Sync selections"
+msgstr "Επιλογές συγχρονισμού"
+
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+msgid "Don’t sync this device"
+msgstr "Χωρίς συγχρονισμό συσκευής"
+
+#: .es5/templates/complete_reset_password.mustache:5
+msgid "Reset password link damaged"
+msgstr "Κατεστραμμένος σύνδεσμος επαναφοράς κωδικού πρόσβασης"
+
+#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "Ο σύνδεσμος στον οποίο κάνατε κλικ δεν είχε κάποιους χαρακτήρες και ενδέχεται να έχει καταστραφεί από το πρόγραμμα email σας. Αντιγράψτε προσεκτικά τη διεύθυνση και δοκιμάστε ξανά."
+
+#: .es5/templates/complete_reset_password.mustache:8
+msgid "Create new password"
+msgstr "Δημιουργία νέου κωδικού πρόσβασης"
+
+#: .es5/templates/complete_reset_password.mustache:9
+msgid ""
+"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+"<span>ΥΠΕΝΘΥΜΙΣΗ:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες και "
+"κωδικούς πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας. Όλες οι συνδρομές σας θα διατηρηθούν και τα δεδομένα σας "
+"στο Pocket δεν θα επηρεαστούν."
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr "Έχετε ανακτήσει επιτυχώς το λογαριασμό σας με το κλειδί ανάκτησης. Δημιουργήστε ένα νέο κωδικό πρόσβασης για προστασία των δεδομένων σας και αποθηκεύστε τον σε μια ασφαλή τοποθεσία."
+
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Νέος κωδικός πρόσβασης"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Εισαγάγετε ξανά τον κωδικό πρόσβασης"
+
+#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+msgid "Remember password? Sign in"
+msgstr "Θυμάστε τον κωδικό πρόσβασης; Σύνδεση"
+
+#: .es5/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr "Το κύριο email έχει ήδη επαληθευτεί"
+
+#: .es5/templates/complete_sign_up.mustache:3
+msgid "Sign-in already confirmed"
+msgstr "Η είσοδος έχει ήδη επιβεβαιωθεί"
+
+#: .es5/templates/complete_sign_up.mustache:6
+msgid "Confirmation link expired"
+msgstr "Ο σύνδεσμος επιβεβαίωσης έληξε"
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr "Ο σύνδεσμος που επιλέξατε για την επιβεβαίωση του email σας έχει λήξει."
+
+#: .es5/templates/complete_sign_up.mustache:8
+msgid "Click here to receive a new confirmation link"
+msgstr "Κάντε κλικ εδώ για να λάβετε έναν νέο σύνδεσμο επιβεβαίωσης"
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:14
+msgid "Confirmation error"
+msgstr "Σφάλμα επιβεβαίωσης"
+
+#: .es5/templates/confirm.mustache:3
+msgid "Confirm your account"
+msgstr "Επιβεβαίωση του λογαριασμού σας"
+
+#: .es5/templates/confirm.mustache:5
+msgid "Confirm this sign-in"
+msgstr "Επιβεβαίωση εισόδου"
+
+#: .es5/templates/confirm.mustache:7
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:9
+msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr "Ελέγξτε το email σας για το σύνδεσμο επιβεβαίωσης σύνδεσης, που απεστάλη στο %(escapedEmail)s"
+
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
+msgid "Not in inbox or spam folder? Resend"
+msgstr "Όχι στα εισερχόμενα ή στον φάκελο ανεπιθύμητων; Αποστολή ξανά"
+
+#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+msgid "Back"
+msgstr "Πίσω"
+
+#: .es5/templates/confirm_reset_password.mustache:1
+msgid "Reset email sent"
+msgstr "Απεστάλη email επαναφοράς"
+
+#: .es5/templates/confirm_reset_password.mustache:2
+msgid "Click the link emailed to %(email)s within the next hour to create a new password."
+msgstr "Κάντε κλικ στο σύνδεσμο που απεστάλη στο %(email)s μέσα στην επόμενη ώρα για να δημιουργήσετε ένα νέο κωδικό πρόσβασης."
+
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr "Εισαγωγή κωδικού επιβεβαίωσης"
+
+#: .es5/templates/confirm_signup_code.mustache:2
+msgid "for your Firefox account"
+msgstr "για τον λογαριασμό Firefox σας"
+
+#: .es5/templates/confirm_signup_code.mustache:3
+msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr "Εισαγάγετε τον κωδικό επαλήθευσης που εστάλη στο %(escapedEmail)s εντός 5 λεπτών."
+
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+msgid "Enter 6-digit code"
+msgstr "Εισαγάγετε τον 6-ψήφιο κωδικό"
+
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "Επιβεβαίωση"
+
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+msgid "Code expired?"
+msgstr "Έληξε ο κωδικός;"
+
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+msgid "Email new code."
+msgstr "Αποστολή νέου κωδικού."
+
+#: .es5/templates/connect_another_device.mustache:1
+msgid "Connect another device"
+msgstr "Σύνδεση μιας άλλης συσκευής"
+
+#: .es5/templates/connect_another_device.mustache:2
+msgid "Firefox account connected"
+msgstr "Ο λογαριασμός Firefox συνδέθηκε"
+
+#: .es5/templates/connect_another_device.mustache:4
+msgid "Email confirmed"
+msgstr "Το email επιβεβαιώθηκε"
+
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+msgid "Complete your set-up"
+msgstr "Ολοκληρώστε τη ρύθμιση"
+
+#: .es5/templates/connect_another_device.mustache:10
+msgid "Sign in to this Firefox to complete set-up"
+msgstr "Συνδεθείτε σε αυτό το Firefox για ολοκλήρωση ρύθμισης"
+
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+msgid "Still adding devices?"
+msgstr "Προσθέτετε ακόμη συσκευές;"
+
+#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+msgid "Sign in to Firefox on another device to complete set-up"
+msgstr "Συνδεθείτε στο Firefox σε μια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση"
+
+#: .es5/templates/connect_another_device.mustache:17
+msgid "Sync Firefox across devices"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:19
+msgid "Sign in everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:20
+msgid "We’re on Android and iOS, too!"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:22
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr "Προσθέτετε ακόμη συσκευές; Συνδεθείτε στο Firefox από μια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση"
+
+#: .es5/templates/connect_another_device.mustache:24
+msgid "Sign in to Firefox for Android to complete set-up"
+msgstr "Συνδεθείτε στο Firefox για Android για ολοκλήρωση ρύθμισης"
+
+#: .es5/templates/connect_another_device.mustache:26
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr "Συνδεθείτε στο Firefox για iOS για ολοκλήρωση ρύθμισης"
+
+#: .es5/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required"
+msgstr "Απαιτούνται τα cookies και η τοπική αποθήκευση"
+
+#: .es5/templates/cookies_disabled.mustache:2
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+msgstr ""
+"Παρακαλώ ενεργοποιήστε τα cookies και την τοπική αποθήκευση στο πρόγραμμα περιήγησής σας για να αποκτήσετε πρόσβαση στους Λογαριασμούς Firefox. Έτσι, θα ενεργοποιηθούν λειτουργίες, όπως η "
+"απομνημόνευση ανάμεσα σε συνεδρίες."
+
+#: .es5/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "Δοκιμάστε ξανά"
+
+#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+msgid ""
+"\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"        "
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "Χρήση διαφορετικού λογαριασμού"
+
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+msgid "Forgot password?"
+msgstr "Ξεχάσατε τον κωδικό πρόσβασής σας;"
+
+#: .es5/templates/index.mustache:1
+msgid "Continue to Firefox accounts"
+msgstr "Συνέχεια στον λογαριασμό Firefox"
+
+#: .es5/templates/index.mustache:2
+msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
+msgid "Enter your email"
+msgstr "Εισαγάγετε το email σας"
+
+#: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr "Συνέχεια στο <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/index.mustache:9
+msgid "Sign up or sign in"
+msgstr "Εγγραφή ή σύνδεση"
+
+#: .es5/templates/index.mustache:11
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr "Ένας λογαριασμός Firefox ξεκλειδώνει επίσης την πρόσβαση σε περισσότερα προϊόντα της Mozilla που προστατεύουν το απόρρητό σας."
+
+#: .es5/templates/inline_recovery_setup.mustache:1
+msgid "Save recovery codes"
+msgstr "Αποθήκευση κωδικών ανάκτησης"
+
+#: .es5/templates/inline_recovery_setup.mustache:3
+msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
+msgstr "Αποθηκεύστε αυτούς τους κωδικούς μίας χρήσης σε ασφαλές μέρος για την περίπτωση που δεν έχετε την κινητή συσκευή σας."
+
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+msgid "Download"
+msgstr "Λήψη"
+
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+msgid "Print"
+msgstr "Εκτύπωση"
+
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+msgid "Cancel setup"
+msgstr "Ακύρωση ρύθμισης"
+
+#: .es5/templates/inline_recovery_setup.mustache:12
+msgid "Confirm recovery code"
+msgstr "Επιβεβαίωση κωδικού ανάκτησης"
+
+#: .es5/templates/inline_recovery_setup.mustache:14
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgstr ""
+"Για να διασφαλίσετε ότι θα μπορέσετε να αποκτήσετε ξανά πρόσβαση στον λογαριασμό σας, σε περίπτωση που χάσετε τη συσκευή σας, παρακαλώ εισαγάγετε έναν από τους αποθηκευμένους κωδικούς ανάκτησης."
+
+#: .es5/templates/inline_recovery_setup.mustache:15
+msgid "Recovery code"
+msgstr "Κωδικός ανάκτησης"
+
+#: .es5/templates/inline_totp_setup.mustache:1
+msgid "Enable two-step authentication"
+msgstr "Ενεργοποίηση ταυτοποίησης δύο παραγόντων"
+
+#: .es5/templates/inline_totp_setup.mustache:3
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr "Προσθέστε ένα επιπλέον επίπεδο ασφαλείας στον λογαριασμό σας με κωδικούς ασφαλείας από μία από <a %(escapedTotpSupportAttributes)s>αυτές τις εφαρμογές ταυτοποίησης</a>."
+
+#: .es5/templates/inline_totp_setup.mustache:7
+msgid "Scan authentication code"
+msgstr "Σαρώστε τον κωδικό ελέγχου ταυτότητας"
+
+#: .es5/templates/inline_totp_setup.mustache:10
+msgid "Enter code manually"
+msgstr "Εισαγάγετε τον κωδικό χειροκίνητα"
+
+#: .es5/templates/inline_totp_setup.mustache:12
+msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgstr "Σαρώστε τον κωδικό QR στην εφαρμογή ταυτοποίησής σας και, έπειτα, εισαγάγετε τον κωδικό ασφαλείας που σας παρέχει."
+
+#: .es5/templates/inline_totp_setup.mustache:13
+msgid "Can’t scan code?"
+msgstr "Αδυναμία σάρωσης κωδικού;"
+
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
+msgid "Once complete, it will begin generating security codes for you to enter."
+msgstr "Αφού ολοκληρωθεί, θα αρχίσει η δημιουργία των κωδικών ασφαλείας σας."
+
+#: .es5/templates/inline_totp_setup.mustache:16
+msgid "Type this secret key into your authentication app."
+msgstr "Πληκτρολογήστε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησης."
+
+#: .es5/templates/inline_totp_setup.mustache:17
+msgid "Scan QR code instead?"
+msgstr "Εναλλακτικά, θέλετε να σαρώστε έναν κωδικό QR;"
+
+#: .es5/templates/inline_totp_setup.mustache:19
+msgid "Security code"
+msgstr "Κωδικός ασφαλείας"
+
+#: .es5/templates/inline_totp_setup.mustache:20
+msgid "Ready"
+msgstr "Έτοιμο"
+
+#: .es5/templates/legal.mustache:1
+msgid "Legal"
+msgstr "Νομικά"
+
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+msgid "Terms of Service"
+msgstr "Όροι τπηρεσίας"
+
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Σημείωση απορρήτου"
+
+#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+msgid "Get the full Sync experience."
+msgstr "Λάβετε την πλήρη εμπειρία του Sync."
+
+#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:19
+msgid "Download Firefox for iOS!"
+msgstr "Λήψη του Firefox για iOS!"
+
+#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:20
+msgid "Download Firefox for Android."
+msgstr "Λήψη του Firefox για Android."
+
+#: .es5/templates/marketing_snippet.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "Λήψη του Firefox για κινητές συσκευές."
+
+#: .es5/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr "Αίτηση για άδεια"
+
+#: .es5/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "Το %(serviceName)s θέλει τις ακόλουθες πληροφορίες από τον λογαριασμό σας:"
+
+#: .es5/templates/permissions.mustache:3
+msgid "Accept"
+msgstr "Αποδοχή"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+msgid "Success"
+msgstr "Επιτυχία"
+
+#: .es5/templates/ready.mustache:4
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr "Μπορείτε να χρησιμοποιήσετε το <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
+msgid "Continue to my account"
+msgstr "Συνέχεια στον λογαριασμό μου"
+
+#: .es5/templates/ready.mustache:14
+msgid "Your account is ready!"
+msgstr "Ο λογαριασμός σας είναι έτοιμος!"
+
+#: .es5/templates/ready.mustache:15
+msgid "Generate a new recovery key"
+msgstr "Δημιουργία νέου κλειδιού ανάκτησης"
+
+#: .es5/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr "Αναφορά μη εξουσιοδοτημένης σύνδεσης;"
+
+#: .es5/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr "Λάβατε ένα email σχετικά με κάποια απόπειρα πρόσβασης στον λογαριασμό σας. Θα θέλατε να αναφέρετε αυτήν τη δραστηριότητα ως ύποπτη;"
+
+#: .es5/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr "Αναφορά δραστηριότητας"
+
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr "Γιατί συμβαίνει αυτό;"
+
+#: .es5/templates/reset_password.mustache:3
+msgid ""
+"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+"<span>ΣΗΜΕΙΩΣΗ:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες και "
+"κωδικούς πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας. Όλες οι συνδρομές σας θα διατηρηθούν και τα δεδομένα σας "
+"στο Pocket δεν θα επηρεαστούν."
+
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Email"
+
+#: .es5/templates/reset_password.mustache:6
+msgid "Begin reset"
+msgstr "Έναρξη επαναφοράς"
+
+#: .es5/templates/security_events.mustache:1
+msgid "Recent Activity"
+msgstr "Πρόσφατη δραστηριότητα"
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr "Συμβάντα ασφαλείας"
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr "Όνομα συμβάντος"
+
+#: .es5/templates/security_events.mustache:4
+msgid "Confirmed"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr "Δημιουργήθηκε στις"
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr "Διαγραφή συμβάντων"
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr "Πίσω στις ρυθμίσεις"
+
+#: .es5/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr "Συγγνώμη. Έχουμε κλειδώσει&nbsp;τον λογαριασμό σας."
+
+#: .es5/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr "Το email επιβεβαίωσης που στείλαμε στο %(email)s επιστράφηκε και έχουμε κλειδώσει τον λογαριασμό σας για να προστατέψουμε τα δεδομένα του Firefox σας."
+
+#: .es5/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr "Αν αυτή είναι μια έγκυρη διεύθυνση email, <a %(escapedSupportLinkAttrs)s>ενημερώστε μας</a> και θα σας βοηθήσουμε να ξεκλειδώσετε τον λογαριασμό σας."
+
+#: .es5/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr "Δεν είστε πλέον κάτοχος αυτού του email; Δημιουργήστε έναν νέο λογαριασμό"
+
+#: .es5/templates/sign_in_password.mustache:11
+msgid ""
+"\n"
+"              By proceeding, you agree to:<br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"            "
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:1
+msgid "Enter recovery code"
+msgstr "Εισαγάγετε τον κωδικό ανάκτησης"
+
+#: .es5/templates/sign_in_recovery_code.mustache:3
+msgid "Please enter a recovery code that was provided to you during setup."
+msgstr "Παρακαλούμε εισαγάγετε έναν κωδικό ανάκτησης που σας δόθηκε κατά τη ρύθμιση."
+
+#: .es5/templates/sign_in_recovery_code.mustache:4
+msgid "Enter 10-digit recovery code"
+msgstr "Εισαγάγετε τον 10-ψήφιο κωδικό ανάκτησης"
+
+#: .es5/templates/sign_in_recovery_code.mustache:7
+msgid "Are you locked out?"
+msgstr "Έχετε κλειδωθεί;"
+
+#: .es5/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr "Σας ευχαριστούμε για την εγρήγορσή σας"
+
+#: .es5/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr "Η ομάδα μας έχει ειδοποιηθεί. Αναφορές σαν κι αυτή μάς βοηθούν να αποτρέπουμε εισβολείς."
+
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr "Εισαγάγετε τον κωδικό ασφαλείας"
+
+#: .es5/templates/sign_in_totp_code.mustache:3
+msgid "Open your authentication app and enter the security code it provides."
+msgstr "Ανοίξτε την εφαρμογή ταυτοποίησής σας και εισαγάγετε τον κωδικό ασφαλείας που σας παρέχει."
+
+#: .es5/templates/sign_in_totp_code.mustache:7
+msgid "Trouble entering code?"
+msgstr "Πρόβλημα με την εισαγωγή του κωδικού;"
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "Εξουσιοδότηση σύνδεσης"
+
+#: .es5/templates/sign_in_unblock.mustache:3
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr "Ελέγξτε το email σας για τον κωδικό ταυτοποίησης που απεστάλη στο %(email)s."
+
+#: .es5/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr "Εισαγάγετε τον κωδικό ταυτοποίησης"
+
+#: .es5/templates/sign_up_password.mustache:1
+msgid "Set your password"
+msgstr "Ορισμός κωδικού πρόσβασης"
+
+#: .es5/templates/sign_up_password.mustache:2
+msgid "Change email"
+msgstr "Αλλαγή email"
+
+#: .es5/templates/sign_up_password.mustache:5
+msgid "Repeat password"
+msgstr "Επανάληψη κωδικού πρόσβασης"
+
+#: .es5/templates/sign_up_password.mustache:6
+msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgstr ""
+"Χρειάζεστε αυτό τον κωδικό πρόσβασης για πρόσβαση σε κρυπτογραφημένα δεδομένα που αποθηκεύετε σε εμάς.<br/>Επαναφορά, σημαίνει ενδεχομένως απώλεια δεδομένων, όπως κωδικοί πρόσβασης και "
+"σελιδοδείκτες."
+
+#: .es5/templates/sign_up_password.mustache:7
+msgid "Practical knowledge is coming to your inbox. Sign up for more:"
+msgstr "Πρακτικές γνώσεις έρχονται στα εισερχόμενά σας. Εγγραφείτε για περισσότερα:"
+
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "Επιλέξτε τι θα συγχρονίζεται"
+
+#: .es5/templates/sign_up_password.mustache:14
+msgid "Create account"
+msgstr "Δημιουργία λογαριασμού"
+
+#: .es5/templates/sign_up_password.mustache:15
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
+
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Λογαριασμοί Firefox"
+
+#: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr "Αρχική σελίδα λογαριασμού"
+
+#: .es5/templates/support.mustache:3
+msgid "Subscriptions"
+msgstr "Συνδρομές"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
+msgid "Contact Us"
+msgstr "Επικοινωνία"
+
+#: .es5/templates/support.mustache:6
+msgid "What are you contacting us about?"
+msgstr "Για ποιο λόγο επικοινωνείτε μαζί μας;"
+
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please select one"
+msgstr "Παρακαλούμε επιλέξτε ένα"
+
+#: .es5/templates/support.mustache:10
+msgid "What do you need help with?"
+msgstr "Σε τι χρειάζεστε βοήθεια;"
+
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "Πληρωμή & χρέωση"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "Ζητήματα λογαριασμού"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "Τεχνικά προβλήματα"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr "Παροχή σχολίων / αίτημα λειτουργιών"
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr "Δεν αναγράφεται"
+
+#: .es5/templates/support.mustache:17
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr "Χρειάζεστε βοήθεια με μια συγκεκριμένη εφαρμογή ή υπηρεσία; (προαιρετικό)"
+
+#: .es5/templates/support.mustache:19
+msgid "Subject (optional)"
+msgstr "Θέμα (προαιρετικό)"
+
+#: .es5/templates/support.mustache:20
+msgid "Description of issue"
+msgstr "Περιγραφή ζητήματος"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Αποστολή"
+
+#: .es5/templates/would-you-like-to-sync.mustache:1
+msgid "Would you like to sync this device to your account?"
+msgstr "Θα θέλατε να συγχρονίσετε αυτή τη συσκευή με το λογαριασμό σας;"
+
+#: .es5/templates/would-you-like-to-sync.mustache:2
+msgid "Sync this device"
+msgstr "Συγχρονισμός συσκευής"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
+msgid "Step 1 of 2: Re-enter password"
+msgstr "Βήμα 1 από 2: Εκ νέου εισαγωγή κωδικού πρόσβασης"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
+msgid "Enter your password to view your recovery key."
+msgstr "Εισαγάγετε τον κωδικό πρόσβασής σας για προβολή του κλειδιού ανάκτησης."
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+msgid "Enter Password"
+msgstr "Εισαγάγετε τον κωδικό πρόσβασης"
+
+#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr "Επιτυχής σύνδεση"
+
+#: .es5/templates/push/completed.mustache:3
+msgid "Please close this page and continue on the other device."
+msgstr "Παρακαλούμε κλείστε αυτή τη σελίδα και συνεχίστε στην άλλη συσκευή."
+
+#: .es5/templates/push/confirm_login.mustache:1
+msgid "New sign-in to Firefox"
+msgstr "Νέα σύνδεση στο Firefox"
+
+#: .es5/templates/push/confirm_login.mustache:3
+msgid "Confirm sign-in"
+msgstr "Επιβεβαίωση σύνδεσης"
+
+#: .es5/templates/push/confirm_login.mustache:4
+msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgstr "Αν υποπτεύεστε ότι κάποιος προσπαθεί να αποκτήσει πρόσβαση στον λογαριασμό σας, <a id=\"change-password\" href=\"/settings/change_password\">παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας.</a>"
+
+#: .es5/templates/push/send_login.mustache:2
+msgid "Send login push notification"
+msgstr "Αποστολή ειδοποίησης push σύνδεσης"
+
+#: .es5/templates/push/send_login.mustache:3
+msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgstr "Ελέγξτε τις συσκευές που έχετε συνδέσει στο Firefox για την καρτέλα επιβεβαίωσης σύνδεσης που έχουμε στείλει."
+
+#: .es5/templates/push/send_login.mustache:4
+msgid "Resend tab"
+msgstr "Νέα αποστολή καρτέλας"
+
+#: .es5/templates/push/send_login.mustache:5
+msgid "Tab not arriving? Send an email instead"
+msgstr "Δεν βλέπετε την καρτέλα; Δοκιμάστε με αποστολή email"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+msgid "Add a secondary email address"
+msgstr "Προσθήκη δευτερεύουσας διεύθυνσης email"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
+msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
+msgstr "Η προσθήκη ενός δευτερεύοντος email θα σας βοηθήσει να ανακτήσετε το λογαριασμό σας, εάν κλειδωθείτε και δεν έχετε πρόσβαση στο %(escapedEmail)s."
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "Δευτερεύον email"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+msgid "Maybe later"
+msgstr "Ίσως αργότερα"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr "Χρειάζεστε άλλο κωδικό; Αποστολή ξανά"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr "Χρήση διαφορετικού email"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+msgid "Please change your password"
+msgstr "Παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:2
+msgid "to continue to %(serviceName)s"
+msgstr "για να συνεχίσετε στο %(serviceName)s"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:5
+msgid ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr ""
+"Ανιχνεύσαμε ύποπτη συμπεριφορά στο λογαριασμό Firefox σας. Για να προστατεύσετε το λογαριασμό σας, παρακαλούμε δημιουργήστε ένα νέο κωδικό πρόσβασης. Θα τον χρησιμοποιήσετε για τη σύνδεση σε όλες "
+"τις υπηρεσίες του λογαριασμού Firefox σας."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:6
+msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr "Το συγχρονισμένο ιστορικό, οι σελιδοδείκτες, οι συνδέσεις και άλλα προσωπικά δεδομένα δεν θα χαθούν."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Παλιός κωδικός πρόσβασης"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:9
+msgid "Re-enter new password"
+msgstr "Εισαγάγετε ξανά τον νέο κωδικό πρόσβασης"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:10
+msgid "Change password"
+msgstr "Αλλαγή κωδικού πρόσβασης"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+msgid "This Firefox is connected"
+msgstr "Έγινε σύνδεση αυτού του Firefox"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
+msgid "Sign up for more"
+msgstr "Εγγραφή για περισσότερα"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
+msgid "Practical knowledge is coming to your inbox."
+msgstr "Πρακτικές γνώσεις στα εισερχόμενά σας."
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
+msgid "Get practical knowledge in your inbox about:"
+msgstr "Λάβετε πρακτικές γνώσεις στα εισερχόμενά σας σχετικά με:"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
+msgid "Subscribe %(email)s"
+msgstr "Εγγραφή στο %(email)s"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client."
+msgstr "Ο επιλεγμένος σύνδεσμος δεν περιείχε τους απαραίτητους χαρακτήρες και ίσως αλλοιώθηκε από το πρόγραμμα email σας."
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+msgid "Create a Firefox Account"
+msgstr "Δημιουργία λογαριασμού Firefox"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
+msgid "Continue to %(productName)s"
+msgstr "Συνέχεια στο %(productName)s"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
+msgid "Enter a password"
+msgstr "Εισαγάγετε έναν κωδικό πρόσβασης"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+msgid "Confirm password"
+msgstr "Επιβεβαίωση κωδικού πρόσβασης"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "Δημιουργία κωδικού πρόσβασης"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:1
+msgid "Device connected!"
+msgstr "Η συσκευή συνδέθηκε!"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:4
+msgid "Connect another one"
+msgstr "Σύνδεση άλλης συσκευής"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5
+msgid "Use SMS instead"
+msgstr "Χρήση SMS"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:6
+msgid "I'm done for now"
+msgstr "Τέλος"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
+msgid "Sync Firefox between devices"
+msgstr "Συγχρονισμός του Firefox μεταξύ συσκευών"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
+msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
+msgstr "Συγχρονίστε σελιδοδείκτες, ιστορικό και κωδικούς πρόσβασης στο Firefox των φορητών σας συσκευών. Χρειάζονται μόνο λίγα λεπτά."
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
+msgid "Get started"
+msgstr "Έναρξη"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+msgid "I'll do this later, send me a reminder"
+msgstr "Θα το κάνω αργότερα, να γίνει υπενθύμιση"
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
+msgid "Download Firefox with your camera app"
+msgstr "Λήψη του Firefox με την κάμερά σας"
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
+msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
+msgstr "Η εγκατάσταση του Firefox και ο συγχρονισμός μεταξύ τουλάχιστον δύο συσκευών προστατεύει επίσης από την απώλεια των δεδομένων σας."
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
+msgid "Ready to scan"
+msgstr "Σάρωση"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
+msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Συνδέστε την κινητή σας συσκευή</h1><p>με τον κωδικό QR που έχουμε δημιουργήσει για εσάς</p>"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
+msgid "Open the camera app on your device"
+msgstr "Ανοίξτε την κάμερα στη συσκευή σας"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
+msgid "Point the camera at the QR code and tap the link that appears"
+msgstr "Στρέψτε την κάμερα στον κωδικό QR και πατήστε το σύνδεσμο που εμφανίζεται"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
+msgid "Install Firefox and open it on your device"
+msgstr "Εγκαταστήστε και ανοίξτε το Firefox στη συσκευή σας"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
+msgid "Sign into your account"
+msgstr "Συνδεθείτε στο λογαριασμό σας"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
+msgid "<span class=\"number\">1</span>Open the camera app on your device"
+msgstr "<span class=\"number\">1</span>Ανοίξτε την κάμερα στη συσκευή σας"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
+msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgstr "<span class=\"number\">2</span>Στρέψτε την κάμερα στον κωδικό QR και πατήστε το σύνδεσμο που εμφανίζεται"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
+msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgstr "<span class=\"number\">3</span>Εγκαταστήστε και ανοίξτε το Firefox στη συσκευή σας"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
+msgid "<span class=\"number\">4</span>Sign into your account"
+msgstr "<span class=\"number\">4</span>Συνδεθείτε στο λογαριασμό σας"
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+msgid "Protect your data with a recovery key"
+msgstr "Προστατέψτε τα δεδομένα σας με ένα κλειδί ανάκτησης"
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
+msgid "Your synced data can include passwords you've saved."
+msgstr "Τα συγχρονισμένα σας δεδομένα μπορεί να περιέχουν και τους αποθηκευμένους κωδικούς πρόσβασής σας."
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
+msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
+msgstr ""
+"Επειδή αυτές οι πληροφορίες είναι κρίσιμες για την ασφάλειά σας, το Firefox τις διαγράφει όταν γίνεται επαναφορά του κωδικού πρόσβασής σας, ώστε να εμποδιστεί η πρόσβαση άλλων ατόμων σε αυτές."
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
+msgid "Get a Recovery Key"
+msgstr "Απόκτηση κλειδιού ανάκτησης"
+
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
+msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgstr "Παρακαλούμε επιβεβαιώστε τον κωδικό πρόσβασής σας για το %(escapedEmail)s, ώστε να δημιουργηθεί το κλειδί ανάκτησης."
+
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
+msgid "Enter your recovery key to confirm that you've saved a copy."
+msgstr "Εισαγάγετε το κλειδί ανάκτησής σας για να επιβεβαιώστε ότι έχετε αποθηκεύσει ένα αντίγραφο."
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+msgid "Save recovery key"
+msgstr "Αποθήκευση κλειδιού ανάκτησης"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Τέλος"
+
+#: .es5/templates/partial/account-suggestion.mustache:1
+msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgstr "Γιατί πρέπει να δημιουργήσω αυτόν τον λογαριασμό; <a %(escapedSuggestionAttrs)s>Μάθετε εδώ</a>"
+
+#: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
+msgid "How old are you?"
+msgstr "Ποια είναι η ηλικία σας;"
+
+#: .es5/templates/partial/coppa-age-input.mustache:4
+msgid "You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:2
+msgid "%(family)s on %(OS)s"
+msgstr "%(family)s σε %(OS)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:3
+msgid "%(city)s, %(region)s, %(country)s (estimated)"
+msgstr "%(city)s, %(region)s, %(country)s (εκτίμηση)"
+
+#: .es5/templates/partial/device-being-paired.mustache:7
+msgid "%(region)s, %(country)s (estimated)"
+msgstr "%(region)s, %(country)s (εκτίμηση)"
+
+#: .es5/templates/partial/device-being-paired.mustache:9
+msgid "%(country)s"
+msgstr "%(country)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:11
+msgid "Location unknown"
+msgstr "Άγνωστη τοποθεσία"
+
+#: .es5/templates/partial/device-being-paired.mustache:12
+msgid "IP address: %(ipAddress)s"
+msgstr "Διεύθυνση IP: %(ipAddress)s"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:1
+msgid "Password requirements"
+msgstr "Απαιτήσεις κωδικού πρόσβασης"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:3
+msgid "At least 8 characters"
+msgstr "Τουλάχιστον 8 χαρακτήρες"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:6
+msgid "Not your email address"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:10
+msgid "Not a commonly used password"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:11
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgstr ""
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr "Χμμ, αντιμετωπίζουμε πρόβλημα με το σύστημά σας. Εργαζόμαστε για να το διορθώσουμε και λυπούμαστε για την αναστάτωση. Παρακαλούμε δοκιμάστε ξανά αργότερα."
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to Support"
+msgstr "Το μήνυμά σας έχει σταλεί στην Υποστήριξη"
+
+#: .es5/templates/partial/support-form-success.mustache:2
+msgid "Back to Subscriptions"
+msgstr "Επιστροφή στις συνδρομές"
+
+#: .es5/templates/partial/sync-suggestion.mustache:1
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr "Ψάχνετε για το Firefox Sync; <a %(escapedSyncSuggestionAttrs)s>Ξεκινήστε εδώ</a>"
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr "ή"
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr "Συνέχεια με Google"
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
+msgstr "Συνέχεια με Apple"
+
+#: .es5/templates/pair/auth_allow.mustache:1
+msgid "Did you just sign in to Firefox?"
+msgstr "Συνδεθείτε μόλις τώρα στο Firefox;"
+
+#: .es5/templates/pair/auth_allow.mustache:2
+msgid " %(email)s "
+msgstr " %(email)s "
+
+#: .es5/templates/pair/auth_allow.mustache:3
+msgid "location balloon"
+msgstr "δείκτης τοποθεσίας"
+
+#: .es5/templates/pair/auth_allow.mustache:4
+msgid "Yes, approve device"
+msgstr "Ναι, έγκριση συσκευής"
+
+#: .es5/templates/pair/auth_allow.mustache:5
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+msgid "Device connected"
+msgstr "Η συσκευή συνδέθηκε"
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid ""
+"\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"      "
+msgstr ""
+"\n"
+"        Γίνεται συγχρονισμός με: <span>%(deviceFamily)s με %(deviceOS)s</span>\n"
+"      "
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:5
+msgid "See tabs from synced devices"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:7
+msgid "Manage devices"
+msgstr "Διαχείριση συσκευών"
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approval now required <small>from your other device</small>"
+msgstr "Απαιτείται έγκριση <small>από την άλλη συσκευή σας</small>"
+
+#: .es5/templates/pair/failure.mustache:1
+msgid "Pairing not successful"
+msgstr "Ανεπιτυχής σύζευξη"
+
+#: .es5/templates/pair/failure.mustache:2
+msgid "The setup process was terminated."
+msgstr "Η διαδικασία ρύθμισης τερματίστηκε."
+
+#: .es5/templates/pair/index.mustache:1
+msgid "Download Firefox on your phone or tablet"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr "Κωδικός QR"
+
+#: .es5/templates/pair/index.mustache:3
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
+msgstr "Για να κάνετε λήψη του Firefox στην κινητή συσκευή σας, στρέψτε την κάμερα της συσκευής σε αυτόν τον κωδικό για σάρωση."
+
+#: .es5/templates/pair/index.mustache:4
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
+msgid "I’m ready to sync devices"
+msgstr "Θέλω να συγχρονίσω συσκευές"
+
+#: .es5/templates/pair/index.mustache:8
+msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:2
+msgid "Device successfully paired"
+msgstr "Επιτυχής σύζευξη συσκευής"
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr "Επιτυχής σύζευξη."
+
+#: .es5/templates/pair/supp_allow.mustache:1
+msgid "Confirm pairing <small>for %(email)s</small>"
+msgstr "Επιβεβαίωση σύζευξης <small>για το %(email)s</small>"
+
+#: .es5/templates/pair/supp_allow.mustache:2
+msgid "Confirm pairing"
+msgstr "Επιβεβαίωση σύζευξης"
+
+#: .es5/templates/pair/unsupported.mustache:1
+msgid "Pair using an app"
+msgstr "Σύζευξη με εφαρμογή"
+
+#: .es5/templates/pair/unsupported.mustache:2
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr "Χρησιμοποιήσατε την κάμερα συστήματος; Πρέπει να κάνετε σύζευξη μέσα από την εφαρμογή Firefox."
+
+#~ msgid "Primary email verified"
+#~ msgstr "Το κύριο email επαληθεύτηκε"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Το δευτερεύον email επαληθεύτηκε"
+
+#~ msgid "Account verified"
+#~ msgstr "Ο λογαριασμός επαληθεύτηκε"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Ο σύνδεσμος επικύρωσης έληξε"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Κάντε κλικ εδώ για να λάβετε ένα νέο σύνδεσμο επαλήθευσης"
+
+#~ msgid "Verification error"
+#~ msgstr "Σφάλμα επαλήθευσης"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Ελέγξτε το email σας για τον σύνδεσμο επαλήθευσης που απεστάλη&nbsp;στο %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "Το email επαληθεύτηκε"
+
+#~ msgid "Verified"
+#~ msgstr "Επαληθεύτηκε"
+
+#~ msgid "Verify"
+#~ msgstr "Επαλήθευση"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Εισαγάγετε τον κωδικό επαλήθευσης"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "Παρακαλώ εισαγάγετε τον κωδικό επαλήθευσης που εστάλη στο %(escapedEmail)s εντός 5 λεπτών."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Συνδέσεις και κωδικοί πρόσβασης"
+
+#~ msgid "Enter the code that was sent to %(email)s within 5 minutes"
+#~ msgstr "Εισαγάγετε τον κωδικό επαλήθευσης που εστάλη στο %(email)s εντός 5 λεπτών"
+
+#~ msgid "Get Firefox on your phone or tablet"
+#~ msgstr "Λάβετε το Firefox στο κινητό ή το tablet σας"
+
+#~ msgid ""
+#~ "\n"
+#~ "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          Εισαγάγετε τον κωδικό πρόσβασής σας <span class=\"description\">για τον λογαριασμό Firefox σας</span>\n"
+#~ "        "
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#~ msgstr "Αν συνεχίσετε, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\">όρους υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">σημείωση απορρήτου</a>."
+
+#~ msgid ""
+#~ "\n"
+#~ "              By proceeding, you agree to:<br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
+#~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "              Συνεχίζοντας, αποδέχεστε:<br />\n"
+#~ "              τους <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Όρους υπηρεσίας</a> και τη <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Σημείωση απορρήτου</"
+#~ "a><br /> του Pocket\n"
+#~ "              τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση απορρήτου</a> του Firefox\n"
+#~ "            "
+
+#~ msgid "Email new code"
+#~ msgstr "Αποστολή νέου κωδικού"
+
+#~ msgid ""
+#~ "\n"
+#~ "            By proceeding, you agree to:<br />\n"
+#~ "            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "            Συνεχίζοντας, αποδέχεστε:<br />\n"
+#~ "            τους <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Όρους υπηρεσίας</a> και τη <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Σημείωση απορρήτου</a><br /"
+#~ "> του Pocket\n"
+#~ "            τους <a id=\"fxa-tos\" href=\"/legal/terms\">Όρους υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση απορρήτου</a> του Firefox\n"
+#~ "          "
+
+#~ msgid "You must be over 13 to create an account."
+#~ msgstr "Πρέπει να είστε άνω των 13 ετών για να δημιουργήσετε λογαριασμό."
+
+#~ msgid "I'm ready to sync devices"
+#~ msgstr "Θέλω να συγχρονίσω συσκευές"
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Πρέπει να πληρείτε ορισμένες ηλικιακές απαιτήσεις για τη δημιουργία ενός Λογαριασμού&nbsp;Firefox."
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "Ελέγξτε το email σας για τον κωδικό που απεστάλη στο %(email)s."
+
+#~ msgid "Why is more than one device required?"
+#~ msgstr "Γιατί απαιτούνται περισσότερες από μία συσκευές;"
+
+#~ msgid "Why sync multiple devices?"
+#~ msgstr "Γιατί να συγχρονίσω πολλαπλές συσκευές;"
+
+#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+#~ msgstr "Η υπηρεσία Sync δεν αποτελεί μόνο αντίγραφο ασφαλείας, αλλά έναν ασφαλή τρόπο για τη μεταφορά αποθηκευμένων σελιδοδεικτών, ιστορικού και κωδικών πρόσβασης ανάμεσα στις συσκευές σας."
+
+#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+#~ msgstr ""
+#~ "Πρέπει να εγκαταστήσετε το Firefox και να συγχρονίσετε τουλάχιστον δύο συσκευές για να αποτρέψετε την απώλεια δεδομένων, στην περίπτωση όπου χρειαστεί να τα επαναφέρετε αλλά έχετε ξεχάσει τον "
+#~ "κωδικό πρόσβασής σας."
+
+#~ msgid "Got it"
+#~ msgstr "Το 'πιασα"
+
+#~ msgid "One account, many services"
+#~ msgstr "Ένας λογαριασμός, πολλές υπηρεσίες"
+
+#~ msgid "Firefox browser"
+#~ msgstr "Πρόγραμμα περιήγησης Firefox"
+
+#~ msgid "Sync your bookmarks, passwords, and more on every device."
+#~ msgstr "Συγχρονισμός σελιδοδεικτών, κωδικών πρόσβασης και άλλων δεδομένων σε κάθε συσκευή."
+
+#~ msgid "Mozilla VPN"
+#~ msgstr "Mozilla VPN"
+
+#~ msgid "A VPN from the trusted pioneer in internet privacy."
+#~ msgstr "Ένα VPN από τους αξιόπιστους πρωτοπόρους στο διαδικτυακό απόρρητο."
+
+#~ msgid "Pocket"
+#~ msgstr "Pocket"
+
+#~ msgid "Save and discover the best stories from across the web."
+#~ msgstr "Αποθηκεύστε και ανακαλύψτε τα καλύτερα άρθρα από όλο το διαδίκτυο."
+
+#~ msgid "Firefox Relay"
+#~ msgstr "Firefox Relay"
+
+#~ msgid "Sign up for new accounts without handing over your email address."
+#~ msgstr "Δημιουργήστε νέους λογαριασμούς χωρίς να δώσετε τη διεύθυνση email σας."
+
+#~ msgid "See all"
+#~ msgstr "Προβολή όλων"
+
+#~ msgid "Stay safe &mdash; don't reuse passwords."
+#~ msgstr "Μείνετε ασφαλείς &mdash; μην επαναχρησιμοποιείτε κωδικούς πρόσβασης."
+
+#~ msgid "Must not be your email address"
+#~ msgstr "Δεν πρέπει να είναι η διεύθυνση email σας"
+
+#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
+#~ msgstr "Δεν πρέπει να αντιστοιχεί σε αυτή τη <a %(escapedCommonPasswordLinkAttrs)s>λίστα συνηθισμένων κωδικών πρόσβασης</a>"
+
+#~ msgid "Approve new device <small>for %(email)s</small>"
+#~ msgstr "Έγκριση νέας συσκευής <small>για το %(email)s</small>"
+
+#~ msgid "Approve device"
+#~ msgstr "Έγκριση συσκευής"
+
+#~ msgid "You are now syncing with:"
+#~ msgstr "Τώρα γίνεται συγχρονισμός με:"
+
+#~ msgid "Scan to connect another device"
+#~ msgstr "Σάρωση για σύνδεση άλλης συσκευής"
+
+#~ msgid "Open the code scanner on your Firefox app and show code when ready."
+#~ msgstr "Ανοίξτε την εφαρμογή σάρωσης κωδικού στο Firefox σας και εμφανίστε τον κωδικό όταν είστε έτοιμοι."
+
+#~ msgid "Show code"
+#~ msgstr "Εμφάνιση κωδικού"
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "Θέλετε να συγχρονίσετε το τηλέφωνό σας;"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "Αποστολή συνδέσμου μέσω SMS για εγκατάσταση του Firefox στο τηλέφωνό σας."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Αριθμός κινητού τηλεφώνου"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "Ενδέχεται να ισχύουν χρεώσεις SMS &amp; δεδομένων. Απαιτείται η συγκατάθεση του παραλήπτη. <a %(escapedLearnMoreAttributes)s>Μάθετε περισσότερα</a>"
+
+#~ msgid "Not now"
+#~ msgstr "Όχι τώρα"
+
+#~ msgid "Check your texts"
+#~ msgstr "Δείτε τα μηνύματά σας"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "Σας έχουμε στείλει ένα μήνυμα κειμένου"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "Απεστάλη σύνδεσμος για την εφαρμογή Firefox στο %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Λάθος αριθμός;"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "Αν δεν λάβετε το μήνυμα SMS, μπορείτε επίσης να αναζητήσετε το “Firefox” στο κατάστημα εφαρμογών σας."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Δεν έφτασε; Εκ νέου αποστολή"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Γιατί να συνδεθείτε σε μια άλλη συσκευή;"
+
+#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Βοήθεια</a>"
+
+#~ msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "Συνέχεια στο <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+
+#~ msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "Μπορείτε πλέον να χρησιμοποιήσετε το <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>ΥΠΕΝΘΥΜΙΣΗ:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες "
+#~ "και κωδικοί πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας. Όλες οι συνδρομές σας θα διατηρηθούν."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>ΣΗΜΕΙΩΣΗ:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες "
+#~ "και κωδικοί πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας. Όλες οι συνδρομές σας θα διατηρηθούν."
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "Ασφαλής πρόσβαση σε αποθηκευμένους κωδικούς πρόσβασης του Firefox οπουδήποτε &mdash; ακόμη και εκτός του προγράμματος περιήγησης."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "Παρακολούθηση παραβιάσεων δεδομένων."
+
+#~ msgid ""
+#~ "\n"
+#~ "              <!-- L10N: Pocket image follows `You are now ready to use` -->\n"
+#~ "              You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
+#~ "          "
+#~ msgstr "Μπορείτε πλέον να χρησιμοποιήσετε το <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+
+#~ msgid ""
+#~ "\n"
+#~ "                <!-- L10N: For languages structured like English, the phrase can read \"to continue to\" with Pocket image following -->\n"
+#~ "                Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
+#~ "            "
+#~ msgstr "Συνέχεια στο <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+
+#~ msgid "Continue to"
+#~ msgstr "Συνέχεια στο"
+
+#~ msgid "You are now ready to use"
+#~ msgstr "Μπορείτε πλέον να χρησιμοποιήσετε"
+
+#~ msgid "Save and discover the best stories from accross the web."
+#~ msgstr "Αποθηκεύστε και ανακαλύψτε τα καλύτερα άρθρα από όλο το διαδίκτυο."
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>ΥΠΕΝΘΥΜΙΣΗ:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες "
+#~ "και κωδικοί πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>ΣΗΜΕΙΩΣΗ:</span> Όταν κάνετε επαναφορά του κωδικού πρόσβασής σας, γίνεται επαναφορά του λογαριασμού σας. Ενδέχεται να χάσετε μερικές προσωπικές πληροφορίες (όπως ιστορικό, σελιδοδείκτες "
+#~ "και κωδικοί πρόσβασης). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας."
+
+#~ msgid "Change..."
+#~ msgstr "Αλλαγή..."
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Μόλις τελειώσετε, συνδεθείτε σε όλες σας τις συσκευές με το νέο σας κωδικό πρόσβασης."
+
+#~ msgid "Change"
+#~ msgstr "Αλλαγή"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Επιτυχής αλλαγή κωδικού πρόσβασης"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr ""
+#~ "Λυπούμαστε που το ακούμε αυτό. Θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του Λογαριασμού Firefox σας και αναζητήσετε πληροφορίες από τον κατασκευαστή της συσκευής σας σχετικά με την "
+#~ "απομακρυσμένη διαγραφή των δεδομένων σας."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr ""
+#~ "Λυπούμαστε που το ακούμε αυτό. Αν αυτή δεν είναι μια αξιόπιστη συσκευή, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του Λογαριασμού Firefox σας και να αλλάξετε τυχόν κωδικούς πρόσβασης που "
+#~ "αποθηκεύσατε στο Firefox."
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s"
+#~ msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s σε %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s σε %(translatedCountry)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Τελευταία εμφάνιση %(translatedTimeAgo)s κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Τελευταία εμφάνιση πάνω από %(translatedTimeAgo)s κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Τελευταία δραστηριότητα %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Τελευταία δραστηριότητα: %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Τελευταία δραστηριότητα: %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Τελευταία δραστηριότητα: πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "Πάνω από %(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Διαδικτυακή συνεδρία, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Διαδικτυακή συνεδρία"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "Τελευταία εμφάνιση: άγνωστη"
+
+#~ msgid "Change…"
+#~ msgstr "Αλλαγή…"
+
+#~ msgid "Add…"
+#~ msgstr "Προσθήκη…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Επιλέξτε το όνομα που θέλετε να εμφανίζεται στον Firefox όταν διαχειρίζεστε τον λογαριασμό σας."
+
+#~ msgid "Display name updated"
+#~ msgstr "Το εμφανιζόμενο όνομα άλλαξε"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Το δευτερεύον e-mail αφαιρέθηκε"
+
+#~ msgid "Verification email sent"
+#~ msgstr "Απεστάλη e-mail επαλήθευσης"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "Το πρωτεύον e-mail ορίστηκε σε %(email)s"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Δημιουργήθηκαν νέοι κωδικοί ανάκτησης"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Η ταυτοποίηση σε δύο βήματα αφαιρέθηκε"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "Ταυτοποίηση σε δύο βήματα"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Ανάκτηση λογαριασμού"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "Η ανάκτηση λογαριασμού ανακλήθηκε"
+
+#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+#~ msgstr "Η πιστωτική σας κάρτα έχει λήξει. Ενημερώστε την <a %(escapedCcExpiredLinkAttrs)s>εδώ</a>."
+
+#~ msgid "Sign out"
+#~ msgstr "Έξοδος"
+
+#~ msgid "Take picture"
+#~ msgstr "Λήψη εικόνας"
+
+#~ msgid "Upload"
+#~ msgstr "Μεταφόρτωση"
+
+#~ msgid "Camera"
+#~ msgstr "Κάμερα"
+
+#~ msgid "Clear"
+#~ msgstr "Εκκαθάριση"
+
+#~ msgid "Avatar"
+#~ msgstr "Εικόνα χρήστη"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Τοποθετήστε και περιστρέψτε την εικόνα σας, όπως επιθυμείτε"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "Αποσύνδεση από το Sync"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "Τα δεδομένα περιήγησής σας θα παραμείνουν στο %(deviceName)s, αλλά δεν θα συγχρονίζονται πλέον με το λογαριασμό σας."
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "Αποσυνδέετε το %(deviceName)s από το Sync, επειδή αυτή η συσκευή:"
+
+#~ msgid "Suspicious"
+#~ msgstr "Είναι ύποπτη"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "Έχει χαθεί ή κλαπεί"
+
+#~ msgid "Old or replaced"
+#~ msgstr "Είναι παλιά ή έχει αντικατασταθεί"
+
+#~ msgid "Duplicate"
+#~ msgstr "Είναι αντίγραφο"
+
+#~ msgid "Rather not say"
+#~ msgstr "Προτιμώ να μην πω"
+
+#~ msgid "Disconnect"
+#~ msgstr "Αποσύνδεση"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Επιτυχής αποσύνδεση"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Συσκευές & εφαρμογές"
+
+#~ msgid "Show"
+#~ msgstr "Εμφάνιση"
+
+#~ msgid "Current device"
+#~ msgstr "Τρέχουσα συσκευή"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Αποσύνδεση…"
+
+#~ msgid "Current session"
+#~ msgstr "Τρέχουσα συνεδρία"
+
+#~ msgid "Revoke"
+#~ msgstr "Ανάκληση"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "Firefox για iOS"
+
+#~ msgid "None connected"
+#~ msgstr "Καμία σύνδεση"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Firefox για Android"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Χαμένα ή διπλά στοιχεία;"
+
+#~ msgid "Refresh status"
+#~ msgstr "Ανανέωση κατάστασης"
+
+#~ msgid "Email preferences"
+#~ msgstr "Προτιμήσεις email"
+
+#~ msgid "Delete account"
+#~ msgstr "Διαγραφή λογαριασμού"
+
+#~ msgid "Delete…"
+#~ msgstr "Διαγραφή…"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+#~ msgstr "Θέλετε να ακυρώσετε μια συνδρομή επί πληρωμή; Μεταβείτε στις <a href=\"/subscriptions\">Συνδρομές</a>."
+
+#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+#~ msgstr "Έχετε συνδέσει το λογαριασμό Firefox σας με τα προϊόντα Mozilla που σας προστατεύουν και σας βοηθούν στο διαδίκτυο:"
+
+#~ msgid "Please acknowledge that by deleting your account:"
+#~ msgstr "Παρακαλούμε λάβετε υπόψη πως διαγράφοντας το λογαριασμό σας:"
+
+#~ msgid "Any paid subscriptions you have will be cancelled"
+#~ msgstr "Όλες οι συνδρομές επί πληρωμή θα ακυρωθούν"
+
+#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+#~ msgstr "Όλες οι επεκτάσεις και τα θέματα που δημοσιεύσατε στο addons.mozilla.org θα διαγραφούν"
+
+#~ msgid "You may lose saved information and features within Mozilla products"
+#~ msgstr "Ενδέχεται να χάσετε αποθηκευμένες πληροφορίες και λειτουργίες στα προϊόντα Mozilla"
+
+#~ msgid "Reactivating with this email may not restore your saved information"
+#~ msgstr "Η εκ νέου ενεργοποίηση με αυτό το email ενδέχεται να μην επαναφέρει τις αποθηκευμένες πληροφορίες σας"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "Ένα δευτερεύον email είναι μια επιπρόσθετη διεύθυνση για λήψη σημειώσεων ασφαλείας και την επιβεβαίωση νέων συσκευών."
+
+#~ msgid "Verification required"
+#~ msgstr "Απαιτείται επαλήθευση"
+
+#~ msgid "Make primary"
+#~ msgstr "Ορισμός ως πρωτεύον"
+
+#~ msgid "Remove"
+#~ msgstr "Αφαίρεση"
+
+#~ msgid "Refresh"
+#~ msgstr "Ανανέωση"
+
+#~ msgid "Add email"
+#~ msgstr "Προσθήκη email"
+
+#~ msgid "Add"
+#~ msgstr "Προσθήκη"
+
+#~ msgid "NOTE:"
+#~ msgstr "ΣΗΜΕΙΩΣΗ:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "Δημιουργώντας νέους κωδικούς ανάκτησης, όλοι οι προηγούμενοι θα ακυρωθούν. Παρακαλούμε αποθηκεύστε τους νέους κωδικούς σε μια ασφαλή τοποθεσία."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Δημιουργία νέων κωδικών ανάκτησης"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "Επιβεβαίωση κωδικού ανάκτησης"
+
+#~ msgid "Manage…"
+#~ msgstr "Διαχείριση…"
+
+#~ msgid "Enter this secret key into your authentication app:"
+#~ msgstr "Εισάγετε αυτό το μυστικό κλειδί στην εφαρμογή ελέγχου ταυτότητάς σας:"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "Ταυτοποίηση σε δύο βήματα"
+
+#~ msgid "Enable…"
+#~ msgstr "Ενεργοποίηση…"
+
+#~ msgid "Current status"
+#~ msgstr "Τρέχουσα κατάσταση"
+
+#~ msgid "Enabled"
+#~ msgstr "Ενεργό"
+
+#~ msgid "Disabled"
+#~ msgstr "Ανενεργό"
+
+#~ msgid "Disable"
+#~ msgstr "Απενεργοποίηση"
+
+#~ msgid "Enable"
+#~ msgstr "Ενεργοποίηση"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Αντικατάσταση κωδικών ανάκτησης"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Πριν μπορέσετε να προβάλλετε ή να κάνετε αλλάγες σε αυτή την ενότητα, θα χρειαστεί να επαληθεύσετε τη διεύθυνση email σας."
+
+#~ msgid "Primary email"
+#~ msgstr "Κύριο email"
+
+#~ msgid "Account recovery"
+#~ msgstr "Ανάκτηση λογαριασμού"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Δημιουργήστε ένα κλειδί ανάκτησης για ανάκτηση πρόσβασης στους σελιδοδείκτες, τους κωδικούς πρόσβασης και τα συγχρονισμένα δεδομένα του Firefox, αν ξεχάσετε τον κωδικό πρόσβασής σας."
+
+#~ msgid "Recovery key"
+#~ msgstr "Κλειδί ανάκτησης"
+
+#~ msgid "Not set"
+#~ msgstr "Δεν έχει οριστεί"
+
+#~ msgid "Generate"
+#~ msgstr "Δημιουργία"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">ΣΗΜΕΙΩΣΗ: </span>Ο κωδικός πρόσβασης του λογαριασμού Firefox σας κρυπτογραφεί τα δεδομένα του Firefox σας. Μπορείτε να προσπελάσετε τα δεδομένα σας μόνο με τον κωδικό "
+#~ "πρόσβασης ή το κλειδί ανάκτησής σας. <a %(escapedLearnMoreLinkAttributes)s>Μάθετε περισσότερα</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "Θέλετε σίγουρα να κάνετε ανάκληση;"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Δεν θα μπορείτε να χρησιμοποιήσετε το κλειδί ανάκτησης για πρόσβαση στα δεδομένα σας σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "Βήμα 2 από 2: Αποθήκευση κλειδιού ανάκτησης"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr ""
+#~ "<span class=\"note\">ΣΗΜΕΙΩΣΗ: </span>Αν ξεχάσετε τον κωδικό πρόσβασής σας, αυτό το κλειδί απαιτείται για την ανάκτηση της πρόσβασης στα δεδομένα σας. Αποθηκεύστε το κλειδί ανάκτησης σε μια "
+#~ "ασφαλή τοποθεσία, όπου μπορείτε να το βρείτε εύκολα αργότερα."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Τελειώσατε. Το κλειδί ανάκτησης αποθηκεύτηκε"
+
+#~ msgid "Please Select One"
+#~ msgstr "Παρακαλούμε επιλέξτε ένα"
+
+#~ msgid "Sign up to get more features:"
+#~ msgstr "Εγγραφείτε για περισσότερες δυνατότητες:"
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
+
+#~ msgid "Send larger files securely and privately."
+#~ msgstr "Ασφαλής και ιδιωτική αποστολή μεγαλύτερων αρχείων."
+
+#~ msgid "Firefox Account"
+#~ msgstr "Λογαριασμός Firefox"
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Συνδρομές & πληρωμές"
+
+#~ msgid "Get app"
+#~ msgstr "Λήψη εφαρμογής"
+
+#~ msgid "General inquiries"
+#~ msgstr "Γενικές ερωτήσεις"
+
+#~ msgid "Connection issues"
+#~ msgstr "Ζητήματα σύνδεσης"
+
+#~ msgid "Getting started"
+#~ msgstr "Ξεκινώντας"
+
+#~ msgid "Firefox Private Network Android App"
+#~ msgstr "Εφαρμογή Firefox Private Network για Android"
+
+#~ msgid "Firefox Private Network Windows App"
+#~ msgstr "Εφαρμογή Firefox Private Network για Windows"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Στείλτε το Firefox απευθείας στο smartphone σας και συνδεθείτε για να ολοκληρώσετε τη ρύθμιση"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Η υπηρεσία SMS είναι διαθέσιμη μόνο σε συγκεκριμένες χώρες. Ενδέχεται να υπάρξει χρέωση SMS &amp; δεδομένων. Ο παραλήπτης του e-mail ή του SMS πρέπει να έχει συναινέσει. <a "
+#~ "%(escapedLearnMoreAttributes)s>Μάθετε περισσότερα</a>"
+
+#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
+#~ msgstr "Ο λογαριασμός υπάρχει ήδη. <a href=\"/signin\">Σύνδεση</a>"
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "Τελευταίος συγχρονισμός: %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "Τελευταίος συγχρονισμός: πάνω από %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Τελευταίος συγχρονισμός: %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Τελευταίος συγχρονισμός: πάνω από %(translatedTimeAgo)s στη χώρα %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Τελευταίος συγχρονισμός: %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Τελευταίος συγχρονισμός: πάνω από %(translatedTimeAgo)s, κοντά σε %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "Άγνωστος χρόνος τελευταίου συγχρονισμού"
+
+#~ msgid "Subscribed successfully"
+#~ msgstr "Επιτυχής εγγραφή"
+
+#~ msgid "Open tabs"
+#~ msgstr "Ανοικτές καρτέλες"
+
+#~ msgid "Logins"
+#~ msgstr "Συνδέσεις"
+
+#~ msgid "Credit cards"
+#~ msgstr "Πιστωτικές κάρτες"
+
+#~ msgid "Firefox Sync"
+#~ msgstr "Firefox Sync"
+
+#~ msgid "Accounts with two-step authentication do not support pairing at this time"
+#~ msgstr "Οι λογαριασμοί με ταυτοποίηση δύο βημάτων δεν υποστηρίζουν σύζευξη αυτή τη στιγμή"
+
+#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+#~ msgstr "Μήπως εννοούσατε το <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>;"
+
+#~ msgid "Please try again later"
+#~ msgstr "Παρακαλώ δοκιμάστε ξανά αργότερα"
+
+#~ msgid "Service unavailable, try again soon"
+#~ msgstr "Μη διαθέσιμη υπηρεσία, δοκιμάστε ξανά σύντομα"
+
+#~ msgid "%(email)s registered"
+#~ msgstr "Έγινε εγγραφή του %(email)s"
+
+#~ msgid "Save selections"
+#~ msgstr "Αποθήκευση επιλογών"
+
+#~ msgid "Sign in to continue"
+#~ msgstr "Συνδεθείτε για να συνεχίσετε"
+
+#~ msgid "Create an account"
+#~ msgstr "Δημιουργία λογαριασμού"
+
+#~ msgid "Use security code"
+#~ msgstr "Χρήση κωδικού ασφαλείας"
+
+#~ msgid "Enter code"
+#~ msgstr "Εισάγετε τον κωδικό"
+
+#~ msgid "Use recovery code"
+#~ msgstr "Χρήση κωδικού σύνδεσης"
+
+#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+#~ msgstr "Μην χάσετε αυτό τον κωδικό πρόσβασης. Αν χρειαστεί να τον επαναφέρετε, ενδέχεται να χάσετε τα δεδομένα του Sync."
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr ""
+#~ "<span>Μην χρησιμοποιείτε ξανά τον κωδικό πρόσβασης του email σας</span>Αν κάποιος γνωρίζει τον κωδικό πρόσβασης του email σας, μπορούν να εγκρίνουν τη σύνδεση στο Firefox σας από μια άλλη "
+#~ "συσκευή και να προσπελάσουν τα δεδομένα σας."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>Να θυμάστε τον κωδικό πρόσβασής σας</span>Αν χρειαστεί να αλλάξετε τον κωδικό πρόσβασής σας, θα χάσετε όλα τα δεδομένα του Sync που δεν βρίσκονται σε κάποια από τις συσκευές σας."
+
+#~ msgid "Have an account? Sign in"
+#~ msgstr "Έχετε λογαριασμό; Είσοδος"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "Εγκαταστήστε το Firefox στο smartphone σας και συνδεθείτε για να ολοκληρώσετε τη ρύθμιση"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Ο σύνδεσμος της εφαρμογής απεστάλη στο %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Λάθος&nbsp; αριθμός;</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Ο σύνδεσμος εφαρμογής απεστάλη εκ νέου στο %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Λάθος&nbsp;αριθμός;</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "Αν δεν λάβετε το μήνυμα κειμένου, μπορείτε επίσης να κάνετε χειροκίνητη λήψη των εφαρμογών."
+
+#~ msgid "Disconnect from Sync?"
+#~ msgstr "Αποσύνδεση από το Sync;"
+
+#~ msgid "Suspicious device"
+#~ msgstr "Ύποπτη συσκευή"
+
+#~ msgid "Lost or stolen device"
+#~ msgstr "Χαμένη ή κλεμμένη συσκευή"
+
+#~ msgid "Old or replaced device"
+#~ msgstr "Παλιά ή αντικαταστημένη συσκευή"
+
+#~ msgid "Duplicate device"
+#~ msgstr "Διπλή συσκευή"
+
+#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+#~ msgstr ""
+#~ "Θα λαμβάνετε ενημερώσεις σχετικά με την ασφάλεια του λογαριασμού σας, τις αλλαγές στην πολιτική μας, τη λειτουργικότητα του λογαριασμού σας και τα emails που σάς βοηθούν να αξιοποιήσετε στο "
+#~ "έπακρο το λογαριασμό Firefox σας."
+
+#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+#~ msgstr "Επιπλέον, μπορείτε να εγγραφείτε για να λαμβάνετε προωθητικά emails με τις πιο πρόσφατες ειδήσεις από τη Mozilla και το Firefox."
+
+#~ msgid "Subscribe"
+#~ msgstr "Εγγραφή"
+
+#~ msgid "Manage preferences"
+#~ msgstr "Διαχείριση προτιμήσεων"
+
+#~ msgid ""
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
+#~ msgstr ""
+#~ "Αν χρησιμοποιείτε αυτό το λογαριασμό για εφαρμογές Mozilla και υπηρεσίες, όπως το AMO, το Pocket και το Screenshots, θα πρέπει πρώτα να συνδεθείτε και να αφαιρέσετε τυχόν αποθηκευμένες "
+#~ "προσωπικές πληροφορίες. Μόλις διαγράψετε το λογαριασμό σας εδώ, ενδέχεται να χάσετε την πρόσβαση σε αυτόν από παντού."
+
+#~ msgid "verified"
+#~ msgstr "επαληθεύτηκε"
+
+#~ msgid "verification required"
+#~ msgstr "απαιτείται επαλήθευση"
+
+#~ msgid "Recovery codes"
+#~ msgstr "Κωδικοί ανάκτησης"
+
+#~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
+#~ msgstr ""
+#~ "Αυτοί είναι οι κωδικοί ανάκτησης μιας χρήσης. Αποθηκεύστε τους σε κάποιο ασφαλές μέρος σε περίπτωση που χάσετε πρόσβαση στην κινητή σας συσκευή. Δεν θα μπορέσετε να δείτε ξανά αυτούς τους "
+#~ "κωδικούς."
+
+#~ msgid "Manually enter this secret key into your authentication app:"
+#~ msgstr "Εισάγετε χειροκίνητα αυτό το μυστικό κλειδί στην εφαρμογή πιστοποίησής σας:"
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "Ο κωδικός πρόσβασης του Λογαριασμού Firefox σας"
+
+#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+#~ msgstr "Γίνετε δημιουργικοί για να είστε ασφαλείς &mdash; μην χρησιμοποιείτε αυτό τον κωδικό πρόσβασης πουθενά αλλού."
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "Να θυμάστε αυτό τον κωδικό πρόσβασης &mdash; η επαναφορά του θα διαγράψει τα δεδομένα σας από τους διακομιστές μας."
+
+#~ msgid "Get App"
+#~ msgstr "Λήψη εφαρμογής"
+
+#~ msgid "Get the most out of your account"
+#~ msgstr "Αξιοποιήστε στο έπακρο το λογαριασμό σας"
+
+#~ msgid "Sync these everywhere you sign in"
+#~ msgstr "Συγχρονίστε τα όπου κάνετε σύνδεση"
+
+#~ msgid "Practical knowledge is coming to your inbox"
+#~ msgstr "Πρακτικές γνώσεις στα εισερχόμενά σας"
+
+#~ msgid "Sign up for more:"
+#~ msgstr "Εγγραφή για περισσότερα:"
+
+#~ msgid "One last step"
+#~ msgstr "Ένα τελευταίο βήμα"
+
+#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+#~ msgstr "Συνδεθείτε στο <span class=\"service\">λογαριασμό Firefox σας</span>"
+
+#~ msgid "Create your Firefox account"
+#~ msgstr "Δημιουργία λογαριασμού Firefox"
+
+#~ msgid "You did it! You’re signed in."
+#~ msgstr "Τα καταφέρατε! Έχετε συνδεθεί."
+
+#~ msgid "Get more from these features:"
+#~ msgstr "Αξιοποιήστε στο έπακρο αυτές τις λειτουργίες:"
+
+#~ msgid "Travel the internet with protection, on every device."
+#~ msgstr "Ταξιδέψτε στο διαδίκτυο με προστασία, σε κάθε συσκευή."
+
+#~ msgid "Share large files without prying eyes."
+#~ msgstr "Μοιραστείτε μεγάλα αρχεία χωρίς αδιάκριτα βλέμματα."
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+#~ msgstr ""
+#~ "Αν συνεχίσετε, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">όρους υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">σημείωση απορρήτου</"
+#~ "a>."
+
+#~ msgid "Description of Issue"
+#~ msgstr "Περιγραφή ζητήματος"
+
+#~ msgid "%(email)s registered."
+#~ msgstr "Το %(email)s εγγράφηκε."
+
+#~ msgid "Communication preferences"
+#~ msgstr "Προτιμήσεις επικοινωνίας"
+
+#~ msgid "Manage Subscriptions"
+#~ msgstr "Διαχείριση συνδρομών"
+
+#~ msgid "Refresh Status"
+#~ msgstr "Ανανέωση κατάστασης"
+
+#~ msgid "Approve connections <small>to begin syncing</small>"
+#~ msgstr "Εγκρίνετε συνδέσεις <small>για έναρξη συγχρονισμού</small>"
+
+#~ msgid "Approve connection"
+#~ msgstr "Έγκριση σύνδεσης"
+
+#~ msgid "Approve this connection <small>from this device</small>"
+#~ msgstr "Έγκριση αυτής της σύνδεσης <small>από αυτή τη συσκευή</small>"
+
+#~ msgid "Use a different email address"
+#~ msgstr "Χρήση διαφορετικής διεύθυνσης email"
+
+#~ msgid "Sign in &rarr;"
+#~ msgstr "Είσοδος &rarr;"
+
+#~ msgid "Attempting to pair"
+#~ msgstr "Απόπειρα σύζευξης"
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "Σφάλμα σύνδεσης σε απομακρυσμένη συσκευή"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "Αδυναμία αποκρυπτογράφησης μηνύματος από την απομακρυσμένη συσκευή"
+
+#~ msgid "Save settings"
+#~ msgstr "Αποθήκευση ρυθμίσεων"
+
+#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
+#~ msgstr "Άγνωστος λογαριασμός Firefox. <a href=\"/signup\">Συνδεθείτε</a> με τη διεύθυνση email του προηγούμενου λογαριασμού προσθέτων για πρόσβαση στα δεδομένα προσθέτων σας."
+
+#~ msgid "App link resent to %(phoneNumber)s"
+#~ msgstr "Ο σύνδεσμος της εφαρμογής απεστάλη ξανά στο %(phoneNumber)s"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "Παραχώρηση του<a href=\"https://www.gravatar.com\">Gravatar</a>"
+
+#~ msgid "Unsubscribed successfully"
+#~ msgstr "Επιτυχής διαγραφή"
+
+#~ msgid "Email resent"
+#~ msgstr "Το email εστάλη ξανά"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Δεν βρέθηκε Gravatar"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+#~ msgstr "Εννοείτε <span tabindex=\"1\">%(escapedDomain)s</span>;"
+
+#~ msgid "Resources failed to load"
+#~ msgstr "Αποτυχία φόρτωσης πόρων"
+
+#~ msgid "Unexpected resource error"
+#~ msgstr "Σφάλμα μη αναμενόμενου πόρου"
+
+#~ msgid "Script error"
+#~ msgstr "Σφάλμα σεναρίου"
+
+#~ msgid "SMS sent"
+#~ msgstr "Το SMS απεστάλη"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "Ο αριθμός σας έχει αποκλειστεί"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "Το SMS δεν απεστάλη, παρακαλώ δοκιμάστε ξανά"
+
+#~ msgid "Learn more."
+#~ msgstr "Μάθετε περισσότερα."
+
+#~ msgid "%(email)s created"
+#~ msgstr "Δημιουργήθηκε %(email)s"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Τα πρόσθετα και οι προτιμήσεις δεν συγχρονίζονται σε κινητές συσκευές προς το παρόν."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Κάντε κλικ εδώ για να λάβετε ένα νέο σύνδεσμο επαναφοράς"
+
+#~ msgid "Enter new password"
+#~ msgstr "Εισάγετε νέο κωδικό πρόσβασης"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Μόλις υποβάλετε το νέο σας κωδικό πρόσβασης, θα χάσετε όλα τα δεδομένα του Sync που δεν βρίσκονται σε κάποια από τις συσκευές σας."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "Μάθετε πώς λειτουργεί το Sync."
+
+#~ msgid "Submit new password"
+#~ msgstr "Υποβολή νέου κωδικού πρόσβασης"
+
+#~ msgid "Email Sent"
+#~ msgstr "Το email απεστάλη"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Ένας σύνδεσμος επαλήθευσης έχει αποσταλεί&nbsp;στο %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Για να προστατέψετε καλύτερα τα δεδομένα του Firefox σας, έχουμε στείλει με email ένα σύνδεσμο επαλήθευσης στο %(email)s"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "Δεν έφτασε και δεν είναι στα ανεπιθύμητα; Εκ νέου αποστολή"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "Κάντε κλικ στο σύνδεσμο που σάς έχουμε στείλει με e-mail στο %(email)s μέσα στην επόμενη ώρα για να δημιουργήσετε ένα νέο κωδικό πρόσβασης."
+
+#~ msgid "This device is connected"
+#~ msgstr "Αυτή η συσκευή έχει συνδεθεί"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "Ανοίξτε τις ρυθμίσεις και επιλέξτε Σύνδεση στο Firefox για να ολοκληρώσετε τη ρύθμιση"
+
+#~ msgid "Why is this required?"
+#~ msgstr "Γιατί απαιτείται αυτό;"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Απαιτούνται τα cookies και η τοπική αποθήκευση."
+
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Συνεχίζοντας, συμφωνείτε με τους <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Όρους Υπηρεσίας</a> και τη <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Σημείωση Απορρήτου</"
+#~ "a> των υπηρεσιών cloud του Firefox."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Υπηρεσίες cloud του Firefox"
+
+#~ msgid "Proceed"
+#~ msgstr "Συνέχεια"
+
+#~ msgid "Reset account"
+#~ msgstr "Επαναφορά λογαριασμού"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Όταν επαναφέρετε τον κωδικό πρόσβασής σας, θα χάσετε όλα τα δεδομένα του Sync που δεν βρίσκονται σε κάποια από τις συσκευές σας."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Θυμάστε τον κωδικό πρόσβασης; Συνδεθείτε."
+
+#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Ψάχνετε τα δεδομένα προσθέτων σας; <a href=\"/signup\">Δημιουργήστε</a> ένα Λογαριασμό Firefox με τη διεύθυνση e-mail του παλιού σας λογαριασμού προσθέτων."
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "Μεταφέρετε τα δεδομένα συγχρονισμού κάνοντας σύνδεση στο Λογαριασμό&nbsp;Firefox σας."
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "Για να προστατέψετε καλύτερα τα δεδομένα Firefox σας, υπάρχει ένας κωδικός πιστοποίησης που σάς περιμένει στο %(email)s."
+
+#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+#~ msgstr "Ψάχνετε για το Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Ξεκινήστε εδώ</a>"
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "Μεταφέρετε τα δεδομένα συγχρονισμού σας δημιουργώντας ένα νέο Λογαριασμό &nbsp;Firefox."
+
+#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Ψάχνετε τα δεδομένα προσθέτων σας; Δημιουργήστε ένα Λογαριασμό Firefox με τη διεύθυνση e-mail του παλιού σας λογαριασμού προσθέτων."
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "Ένας ισχυρός, μοναδικός κωδικός πρόσβασης θα διατηρήσει τα δεδομένα του Firefox σας ασφαλή από εισβολείς."
+
+#~ msgid "Receive the monthly Firefox newsletter"
+#~ msgstr "Λήψη του μηνιαίου Firefox newsletter"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Η υπηρεσία SMS είναι διαθέσιμη μόνο για τηλεφωνικούς αριθμούς των ΗΠΑ. Ενδέχεται να χρεώσεις SMS &amp; δεδομένων. Ο παραλήπτης του email ή του SMS πρέπει να έχει συναινέσει. <a "
+#~ "%(escapedLearnMoreAttributes)s>Μάθετε περισσότερα</a>"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "Ο σύνδεσμος εφαρμογής απεστάλη στο %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Λάθος αριθμός;</a>"
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Γιατί να συγχρονίσω δύο (ή περισσότερες!) συσκευές;"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Το Sync σάς επιτρέπει να μοιράζεστε τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασης που αποθηκεύετε στο Firefox σε μια συσκευή με το Firefox σε άλλες συσκευές. Συνδεθείτε στο Firefox "
+#~ "στο τηλέφωνο ή το tablet σας και θα εμφανιστεί ό,τι έχετε αποθηκεύσει στο Firefox του υπολογιστή σας."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "Το Sync δεν έχει σχεδιαστεί ως υπηρεσία μόνιμων αντιγράφων ασφαλείας – απλά μοιράζει τα δεδομένα που έχουν αποθηκευτεί τοπικά. Αν επαναφέρετε τον κωδικό πρόσβασής σας και τα δεδομένα σας δεν "
+#~ "είναι αποθηκευμένα σε μια τουλάχιστον συσκευή, ενδέχεται να χάσετε όλες τις πληροφορίες που έχουν συσχετιστεί με τον παλιό κωδικό πρόσβασης. Γι' αυτό, είναι καλό να κάνετε εγκατάσταση του "
+#~ "Firefox και χρήση του Sync σε περισσότερες από μία συσκευές."
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "Αποθήκευση"
+
+#~ msgid "current device"
+#~ msgstr "τρέχουσα συσκευή"
+
+#~ msgid "current session"
+#~ msgstr "τρέχουσα συνεδρία"
+
+#~ msgid "none connected"
+#~ msgstr "καμία σύνδεση"
+
+#~ msgid "Receive the monthly Firefox newsletter."
+#~ msgstr "Λήψη του μηνιαίου Firefox newsletter."
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Διαγραφή"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "Θέλετε σίγουρα να διαγράψετε το λογαριασμό σας; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Είσοδος στο Συγχρονισμό"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "Επιλέξτε το λογαριασμό που θέλετε να χρησιμοποιήσετε για το συγχρονισμό των καρτελών, των σελιδοδεικτών, των κωδικών πρόσβασης και πολλών άλλων."
+
+#~ msgid "Use OpenID"
+#~ msgstr "Χρήση OpenID"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "Χρήση λογαριασμού Firefox"
+
+#~ msgid "first sync %(translatedTimeAgo)s"
+#~ msgstr "πρώτος συγχρονισμός: %(translatedTimeAgo)s"
+
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "τελευταίος συγχρονισμός: %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "τελευταία δραστηριότητα %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "τελευταίος συγχρονισμός: άγνωστος χρόνος"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "Το %(escapedEmail)s εγγράφηκε. <a %(escapedBackLinkParams)s>Λάθος e-mail;</a>"
+
+#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+#~ msgstr "Ελέγξτε το e-mail σας για τον σύνδεσμο επιβεβαίωσης εισόδου που απεστάλη στο %(email)s"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Η σύνδεση επιβεβαιώθηκε"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "Οι ειδοποιήσεις του λογαριασμού θα αποστέλλονται και στο %(secondaryEmailVerified)s"
+
+#~ msgid "We may send you emails related to your Firefox Account."
+#~ msgstr "Ενδέχεται να σάς στέλνουμε e-mails σχετικά με το λογαριασμό Firefox σας."
+
+#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+#~ msgstr "Επιπροσθέτως, μπορείτε να επιλέξετε αν θα λαμβάνετε τις τελευταίες ειδήσεις σχετικά με τη Mozilla και το Firefox."
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+#~ msgstr "Το δευτερεύον e-mail είναι μια επιπρόσθετη διεύθυνση για τη λήψη ειδοποιήσεων ασφαλείας και την επιβεβαίωση νέων συσκευών Sync."
+
+#~ msgid "Not in inbox or spam folder? Resend?"
+#~ msgstr "Όχι στα εισερχόμενα ή στον φάκελο ανεπιθύμητων; Αποστολή ξανά;"
+
+#~ msgid "Codes copied"
+#~ msgstr "Έγινε αντιγραφή των κωδικών"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "Αποτυχία αντιγραφής κωδικών. Παρακαλώ αντιγράψτε τους χειροκίνητα."
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Άκυρος κωδικός επαλήθευσης σύνδεσης"
+
+#~ msgid "Print button image"
+#~ msgstr "Εικόνα κουμπιού εκτύπωσης"
+
+#~ msgid "Download button image"
+#~ msgstr "Εικόνα κουμπιού λήψης"
+
+#~ msgctxt "submit button"
+#~ msgid "Sign in"
+#~ msgstr "Είσοδος"
+
+#~ msgctxt "header text"
+#~ msgid "Sign in"
+#~ msgstr "Είσοδος"
+
+#~ msgctxt "button text"
+#~ msgid "Sign in"
+#~ msgstr "Σύνδεση"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
+#~ msgstr ""
+#~ "<span>ΥΠΕΝΘΥΜΙΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων διακομιστή, όπως ιστορικό και "
+#~ "σελιδοδείκτες). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για να προστατέψουμε το απόρρητό σας."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
+#~ msgstr ""
+#~ "<span>ΣΗΜΕΙΩΣΗ:</span> Αν επαναφέρετε τον κωδικό πρόσβασής σας, μερικά από τα δεδομένα σας θα διαγραφούν (συμπεριλαμβανομένων και των συγχρονισμένων δεδομένων διακομιστή, όπως το ιστορικό και οι "
+#~ "σελιδοδείκτες). Αυτό συμβαίνει επειδή κρυπτογραφούμε τα δεδομένα σας με τον κωδικό πρόσβασής σας για να προστατεύσουμε το απόρρητό σας."
+
+#~ msgid "Unlock…"
+#~ msgstr "Ξεκλείδωμα…"
+
+#~ msgid "Verify password"
+#~ msgstr "Επαλήθευση κωδικού πρόσβασης"
+
+#~ msgid "Next"
+#~ msgstr "Επόμενο"
+
+#~ msgid "started syncing %(translatedTimeAgo)s"
+#~ msgstr "έναρξη συγχρονισμού %(translatedTimeAgo)s"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend?"
+#~ msgstr "Δεν έφτασε και δεν είναι στο φάκελο Ανεπιθύμητα; Εκ νέου αποστολή;"
+
+#~ msgid "A verification link has been sent to %(email)s"
+#~ msgstr "Ένας σύνδεσμος επαλήθευσης έχει αποσταλεί στο %(email)s"
+
+#~ msgid "Verification emailed to %(email)s"
+#~ msgstr "Απεστάλη επαλήθευση μέσω e-mail στο %(email)s"
+
+#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
+#~ msgstr "Τουλάχιστον 8 χαρακτήρες, αλλά περισσότεροι αν σκοπεύετε να συγχρονίσετε κωδικούς πρόσβασης."
+
+#~ msgid "This is a common password; please consider another one."
+#~ msgstr "Αυτός είναι ένας κοινός κωδικός πρόσβασης· παρακαλώ σκεφτείτε έναν άλλο."
+
+#~ msgid "Signed out successfully"
+#~ msgstr "Επιτυχής έξοδος"
+
+#~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
+#~ msgstr "Λάθος κωδικός πρόσβασης. Για να ελέγξετε πάλι όσα έχετε εισάγει, πατήστε παρατεταμένα το κουμπί \"Show\" (\"Εμφάνιση\")."
+
+#~ msgid "Duplicate Device"
+#~ msgstr "Διπλή συσκευή"
+
+#~ msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+#~ msgstr "Ολοκληρώστε τη ρύθμιση εγκαθιστώντας το Firefox με το σύνδεσμο που απεστάλη στο %(phoneNumber)s"
+
+#~ msgid "Reason for disconnecting…"
+#~ msgstr "Λόγος αποσύνδεσης…"
+
+#~ msgid "Firefox Sync will begin momentarily"
+#~ msgstr "Ο Συγχρονισμός Firefox θα εκκινήσει εντός ολίγου"
+
+#~ msgid "Devices"
+#~ msgstr "Συσκευές"
+
+#~ msgid "Sync preferences"
+#~ msgstr "Προτιμήσεις Συγχρονισμού"
+
+#~ msgid "Delete"
+#~ msgstr "Διαγραφή"
+
+#~ msgid "Tabs"
+#~ msgstr "Καρτέλες"
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "Έχετε λογαριασμό; Είσοδος."
+
+#~ msgid "days ago"
+#~ msgstr "ημέρες πριν"
+
+#~ msgid "hours ago"
+#~ msgstr "ώρες πριν"
+
+#~ msgid "minutes ago"
+#~ msgstr "λεπτά πριν"
+
+#~ msgid "months ago"
+#~ msgstr "μήνες πριν"
+
+#~ msgid "seconds ago"
+#~ msgstr "δευτερόλεπτα πριν"
+
+#~ msgid "weeks ago"
+#~ msgstr "εβδομάδες πριν"
+
+#~ msgid "years ago"
+#~ msgstr "έτη πριν"
+
+#~ msgid "Account unlocked, please try again"
+#~ msgstr "Ο λογαριασμός ξεκλειδώθηκε, παρακαλούμε δοκιμάστε ξανά"
+
+#~ msgid "Account unlocked"
+#~ msgstr "Ο λογαριασμός ξεκλειδώθηκε"
+
+#~ msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+#~ msgstr "Κλειδωμένος λογαριαμός. <a href=\"/confirm_account_unlock\">Αποστολή μηνύματος ξεκλειδώμτος</a>"
+
+#~ msgid "(current)"
+#~ msgstr "(τρέχουσα)"
+
+#~ msgid "Welcome to Sync"
+#~ msgstr "Καλώς ήλθατε στον Συγχρονισμό"

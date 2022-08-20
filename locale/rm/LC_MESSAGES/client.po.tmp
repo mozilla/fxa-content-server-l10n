@@ -1,0 +1,3637 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2022-03-25 08:20+0000\n"
+"Last-Translator: Martin <mcmartin@gmx.ch>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: rm\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+"X-POOTLE-MTIME: 1441484765.0\n"
+
+#: .es5/views/confirm_reset_password.js:199
+msgid "Password reset"
+msgstr "Redefinì il pled-clav"
+
+#: .es5/views/confirm_reset_password.js:217
+msgid "Password reset successfully. Sign in to continue."
+msgstr "Redefinì cun success il pled-clav. T'annunzia per cuntinuar."
+
+#. submit button
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/templates/sign_in_password.mustache:10
+msgid "Sign in"
+msgstr "S'annunziar"
+
+#: .es5/views/index.js:176
+msgid "Account deleted successfully"
+msgstr "Stizzà cun success il conto"
+
+#: .es5/views/inline_totp_setup.js:156
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr "Utilisescha il code %(code)s per configurar la validaziun en dus pass en las applicaziuns sustegnidas."
+
+#: .es5/views/permissions.js:41
+msgid "%(permissionName)s (required)"
+msgstr "%(permissionName)s (necessari)"
+
+#: .es5/views/permissions.js:45
+msgid "Email address"
+msgstr "Adressa dad e-mail"
+
+#: .es5/views/permissions.js:49
+msgid "Display name"
+msgstr "Num per visualisar"
+
+#: .es5/views/permissions.js:52
+msgid "Account picture"
+msgstr "Maletg da conto"
+
+#: .es5/views/ready.js:58
+msgid "Welcome back"
+msgstr "Bainvegni anavos"
+
+#: .es5/views/ready.js:59
+msgid "Firefox Sync will resume momentarily"
+msgstr "Firefox Sync cuntinuescha immediatamain"
+
+#: .es5/views/ready.js:63 .es5/views/ready.js:68
+msgid "Your password has been reset"
+msgstr "Tes pled-clav è vegnì reinizialisà"
+
+#: .es5/views/ready.js:64 .es5/views/ready.js:69
+msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgstr "Cumplettar l'installaziun entras endatar il nov pled-clav en tes auters apparats da Firefox."
+
+#: .es5/views/ready.js:72
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "Ti es ussa pront da far midadas en tes conto da Firefox."
+
+#: .es5/views/ready.js:74
+msgid "Primary email confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:77
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr "Communicaziuns dal conto vegnan ussa era tramessas a %(secondaryEmailVerified)s."
+
+#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
+msgid "Secondary email confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+msgid "Sign-in confirmed"
+msgstr "Confermà l'annunzia"
+
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+msgid "You are now ready to use %(serviceName)s"
+msgstr "Ti es ussa pront per utilisar %(serviceName)s"
+
+#: .es5/views/ready.js:89
+msgid "Account confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:94
+msgid "Connected"
+msgstr "Connectà"
+
+#: .es5/views/reset_password.js:111
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "Conto nunenconuschent. <a href=\"/signup\">S'annunziar</a>"
+
+#: .es5/views/sign_up_password.js:86
+msgid "Account no longer exists. Recreate it?"
+msgstr "Il conto n'exista betg pli. Crear danovamain?"
+
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
+msgid "Other"
+msgstr "Auter"
+
+#: .es5/views/support.js:270
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgstr "Grazia per contactar l'agid da Mozilla pertutgant <b>%(escapedLowercaseTopic)s</b>. Nus ta respundain uschè spert sco pussaivel via e-mail."
+
+#: .es5/views/support.js:272
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
+msgstr "Grazia per contactar l'agid da Mozilla concernent <b>%(escapedLowercaseTopic)s</b> per <b>%(escapedSelectedProduct)s</b>. Nus ta respundain uschè spert sco pussaivel via e-mail."
+
+#: .es5/views/post_verify/verified.js:53
+msgid "Your sync data is protected"
+msgstr "Tias datas sincronisadas èn protegidas"
+
+#: .es5/views/post_verify/verified.js:54
+msgid "If you lose access to your account, you’ll be able to restore your sync data."
+msgstr "Sche ti avessas da perder l'access a tes conto, pudessas ti tuttina restaurar tias datas da sincronisaziun."
+
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "Cumenzar a navigar"
+
+#: .es5/views/post_verify/verified.js:58
+msgid "Account notifications will now also be sent to %(secondaryEmail)s."
+msgstr "Communicaziuns dal conto vegnan ussa era tramessas a %(secondaryEmail)s."
+
+#: .es5/views/post_verify/verified.js:59
+msgid "Continue to %(serviceName)s "
+msgstr "Cuntinuar cun %(serviceName)s"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
+msgid "Your account has been locked for security reasons"
+msgstr "Tes conto è vegnì blocca per motivs da segirezza"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+msgid "Reset password"
+msgstr "Redefinir il pled-clav"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:38
+msgid "none"
+msgstr "nagina"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:44
+msgid "Last checked: %(lastCheckTime)s"
+msgstr "Ultima controlla: %(lastCheckTime)s"
+
+#: .es5/views/mixins/open-webmail-mixin.js:25
+msgid "Open Gmail"
+msgstr "Avrir Gmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:30
+msgid "Open Hotmail"
+msgstr "Avrir Hotmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:35
+msgid "Open Yahoo"
+msgstr "Avrir Yahoo"
+
+#: .es5/views/mixins/open-webmail-mixin.js:40
+msgid "Open Outlook"
+msgstr "Avrir Outlook"
+
+#: .es5/views/mixins/open-webmail-mixin.js:45
+msgid "Open Restmail"
+msgstr "Avrir Restmail"
+
+#: .es5/views/mixins/password-mixin.js:149
+msgid "Hide password"
+msgstr "Zuppentar il pled-clav"
+
+#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr "Mussar il pled-clav"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:77
+msgid "Firefox Recovery Codes"
+msgstr "Codes da recuperaziun da Firefox"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:142
+msgid "Two-step authentication enabled"
+msgstr "Validaziun en dus pass activada"
+
+#: .es5/views/mixins/recovery-key-mixin.js:30
+msgid "Firefox Recovery Key"
+msgstr "Clav da recuperaziun da Firefox"
+
+#: .es5/views/mixins/resend-mixin.js:53
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr "Tramess anc ina giada l'e-mail. Agiuntescha accounts@firefox.com a tes contacts per far la segira che l'e-mail arrivia."
+
+#: .es5/views/mixins/save-options-mixin.js:59
+msgid "Copied"
+msgstr "Copià"
+
+#: .es5/views/mixins/save-options-mixin.js:61
+msgid "Failed to copy. Please manually copy."
+msgstr "Betg reussì da copiar. Per plaschair copiar a maun."
+
+#: .es5/views/mixins/save-options-mixin.js:78
+msgid "Downloaded"
+msgstr "Telechargià"
+
+#: .es5/views/mixins/save-options-mixin.js:90
+msgid "Printed"
+msgstr "Stampà"
+
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "payment & billing"
+msgstr "pajaments & facturaziun"
+
+#: .es5/models/support-form.js:25
+msgid "account issues"
+msgstr "problems cun il conto"
+
+#: .es5/models/support-form.js:25
+msgid "technical issues"
+msgstr "problems tecnics"
+
+#: .es5/models/support-form.js:25
+msgid "provide feedback / request features"
+msgstr "dar in resun / dumandar novas funcziunalitads"
+
+#: .es5/models/support-form.js:25
+msgid "not listed"
+msgstr "betg inditgà"
+
+#: .es5/models/sync-engines.js:58
+msgid "Bookmarks"
+msgstr "Segnapaginas"
+
+#: .es5/models/sync-engines.js:62
+msgid "History"
+msgstr "Cronologia"
+
+#: .es5/models/sync-engines.js:66
+msgid "Passwords"
+msgstr "Pleds-clav"
+
+#: .es5/models/sync-engines.js:70
+msgid "Add-ons"
+msgstr "Supplements"
+
+#: .es5/models/sync-engines.js:74
+msgid "Open Tabs"
+msgstr "Tabs averts"
+
+#: .es5/models/sync-engines.js:78
+msgid "Preferences"
+msgstr "Preferenzas"
+
+#: .es5/models/sync-engines.js:86
+msgid "Addresses"
+msgstr "Adressas"
+
+#: .es5/models/sync-engines.js:94
+msgid "Credit Cards"
+msgstr "Cartas da credit"
+
+#: .es5/models/reliers/browser.js:88
+msgid "Firefox"
+msgstr "Firefox"
+
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "Verifitgà cun success l'adressa dad e-mail principala"
+
+#: .es5/models/auth_brokers/base.js:114
+msgid "Secondary email verified successfully"
+msgstr "Verifitgà cun success l'adressa dad e-mail alternativa"
+
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Reussì da verifitgar il conto"
+
+#: .es5/models/auth_brokers/web.js:38
+msgid "Password reset successfully"
+msgstr "Reinizialisà cun success il pled-clav"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "Recuperaziun dal conto activada"
+
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+msgid "Unexpected error"
+msgstr "Errur nunspitgada"
+
+#: .es5/lib/auth-errors.js:27
+msgid "The link you clicked to verify your email is expired."
+msgstr "La colliaziun che ti has cliccà per confermar tia adressa dad e-mail è scrudada."
+
+#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+msgid "You've tried too many times. Try again later."
+msgstr "Ti has empruvà memia bleras giadas. Empova pli tard anc ina giada."
+
+#: .es5/lib/auth-errors.js:32
+msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
+msgstr "Ti has emruvà memia bleras giadas. Emprova anc ina giada %(retryAfterLocalized)s."
+
+#: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
+msgid "Invalid token"
+msgstr "Token nunvalid"
+
+#: .es5/lib/auth-errors.js:44
+msgid "Invalid timestamp in request signature"
+msgstr "Temp nunvalid en la signatura da la dumonda"
+
+#: .es5/lib/auth-errors.js:48
+msgid "Invalid nonce in request signature"
+msgstr "Nonce nunvalid en la signatura da la dumonda"
+
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+msgid "Account already exists"
+msgstr "Conto exista gia"
+
+#: .es5/lib/auth-errors.js:56
+msgid "Unknown account"
+msgstr "Conto nunenconuschent"
+
+#: .es5/lib/auth-errors.js:60
+msgid "Incorrect email case"
+msgstr "Scripziun nunvalida da l'adressa dad e-mail"
+
+#: .es5/lib/auth-errors.js:64
+msgid "Incorrect password"
+msgstr "Pled-clav nuncorrect"
+
+#: .es5/lib/auth-errors.js:68
+msgid "Unverified account"
+msgstr "Conto betg verifitgà"
+
+#: .es5/lib/auth-errors.js:72
+msgid "Invalid verification code"
+msgstr "Code da verificaziun nunvalid"
+
+#: .es5/lib/auth-errors.js:76
+msgid "Invalid JSON in request body"
+msgstr "JSON nunvalid en il corp da la dumonda"
+
+#: .es5/lib/auth-errors.js:80
+msgid "Invalid parameter: %(param)s"
+msgstr "Parameter nunvalid: %(param)s"
+
+#: .es5/lib/auth-errors.js:84
+msgid "Missing parameter: %(param)s"
+msgstr "Parameter mancant: %(param)s"
+
+#: .es5/lib/auth-errors.js:88
+msgid "Invalid request signature"
+msgstr "Signatura da dumonda nunvalida"
+
+#: .es5/lib/auth-errors.js:92
+msgid "Missing content-length header"
+msgstr "Header 'content-length' manca"
+
+#: .es5/lib/auth-errors.js:96
+msgid "Request body too large"
+msgstr "Il corp da la dumonda è memia grond"
+
+#: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
+msgid "The request was blocked for security reasons"
+msgstr "La dumonda è bloccada per motivs da segirezza"
+
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+msgid "Invalid authorization code"
+msgstr "Code dad autorisaziun nunvalid"
+
+#: .es5/lib/auth-errors.js:127
+msgid "Invalid phone number"
+msgstr "Numer da telefon nunvalaivel"
+
+#: .es5/lib/auth-errors.js:131
+msgid "Cannot send to this country"
+msgstr "Impussibel da trametter en quest pajais"
+
+#: .es5/lib/auth-errors.js:140
+msgid "Could not send a message to this number"
+msgstr "Impussibel da trametter il messadi a quest numer"
+
+#: .es5/lib/auth-errors.js:144
+msgid "Your email was just returned"
+msgstr "Tes e-mail è gist vegnì returnà"
+
+#: .es5/lib/auth-errors.js:148
+msgid "Your email was just returned. Mistyped email?"
+msgstr "Tes e-mail è gist vegnì returnà. È l'adressa correcta?"
+
+#: .es5/lib/auth-errors.js:152
+msgid "Unable to deliver email"
+msgstr "Impussibel da spedir l'e-mail"
+
+#: .es5/lib/auth-errors.js:156
+msgid "This email was already verified by another user"
+msgstr "Questa adressa dad e-mail è gia vegnida verifitgada dad in auter utilisader"
+
+#: .es5/lib/auth-errors.js:160
+msgid "Unverified session"
+msgstr "Sesida betg verifitgada"
+
+#: .es5/lib/auth-errors.js:164
+msgid "Secondary email must be different than your account email"
+msgstr "L'adressa dad e-mail alternativa sto esser differenta da l'adressa da tes conto"
+
+#: .es5/lib/auth-errors.js:172
+msgid "You have reached the maximum allowed secondary emails"
+msgstr "Ti has cuntanschì il dumber maximal dad adressas d'e-mail secundaras permessas"
+
+#: .es5/lib/auth-errors.js:176
+msgid "This email already exists on your account"
+msgstr "Questa adressa d'e-mail exista gia en tes conto"
+
+#: .es5/lib/auth-errors.js:184
+msgid "Primary account email required for sign-in"
+msgstr "L'adressa principala dal conto è necessaria per s'annunziar"
+
+#: .es5/lib/auth-errors.js:188
+msgid "Address in use by another account"
+msgstr "L'adressa vegn duvrada dad in auter conto"
+
+#: .es5/lib/auth-errors.js:192
+msgid "Primary account email required for reset"
+msgstr "L'adressa principala dal conto è necessaria per la reinizialisaziun"
+
+#: .es5/lib/auth-errors.js:196
+msgid "Invalid signin code"
+msgstr "Code d'annunzia nunvalid"
+
+#: .es5/lib/auth-errors.js:200
+msgid "Can not change primary email to an unverified email"
+msgstr "Impussibel da definir ina adressa betg verifitgada sco adressa principala"
+
+#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
+msgid "Can not change primary email to an email that does not belong to this account"
+msgstr "Impussibel da definir ina adressa che na tutga betg tar quest conto sco adressa principala"
+
+#: .es5/lib/auth-errors.js:208
+msgid "This email can not currently be used to login"
+msgstr "Questa adressa na po actualmain betg vegnir utilisada per l'annunzia"
+
+#: .es5/lib/auth-errors.js:216
+msgid "Failed to send email"
+msgstr "Betg reussì da trametter l'e-mail"
+
+#: .es5/lib/auth-errors.js:220
+msgid "Valid code required"
+msgstr "In code valid è necessari"
+
+#: .es5/lib/auth-errors.js:224
+msgid "This verification code has expired"
+msgstr "Quest code da verificaziun è scrudà"
+
+#: .es5/lib/auth-errors.js:228
+msgid "A TOTP token already exists for this account"
+msgstr "Igl exista gia in token TOTP per quest conto"
+
+#: .es5/lib/auth-errors.js:232
+msgid "TOTP token not found"
+msgstr "Betg chattà il token TOTP"
+
+#: .es5/lib/auth-errors.js:236
+msgid "Recovery code not found"
+msgstr "Betg chattà il code da recuperaziun"
+
+#: .es5/lib/auth-errors.js:240
+msgid "Unavailable device command"
+msgstr "Il cumond da l'apparat n'è betg disponibel"
+
+#: .es5/lib/auth-errors.js:244
+msgid "Recovery key not found"
+msgstr "Clav da recuperaziun betg chattada"
+
+#: .es5/lib/auth-errors.js:248
+msgid "Invalid recovery key"
+msgstr "Clav da recuperaziun nunvalida"
+
+#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
+msgid "This request requires two step authentication enabled on your account."
+msgstr "Per questa dumonda sto l'autentificaziun en dus pass esser activada en tes conto."
+
+#: .es5/lib/auth-errors.js:256
+msgid "Failed due to a conflicting request, please try again."
+msgstr "Betg reussì pervi dad ina dumonda incoerenta. Reempruvar per plaschair."
+
+#: .es5/lib/auth-errors.js:264
+msgid "Unknown customer for subscription."
+msgstr "Client nunenconuschent per l'abunament."
+
+#: .es5/lib/auth-errors.js:268
+msgid "Unknown subscription."
+msgstr "Abunament nunenconuschent."
+
+#: .es5/lib/auth-errors.js:272
+msgid "Unknown plan for subscription."
+msgstr "Plan d'abunament nunenconuschent."
+
+#: .es5/lib/auth-errors.js:276
+msgid "Invalid payment token for subscription."
+msgstr "Token da pajament nunvalid per l'abunament."
+
+#: .es5/lib/auth-errors.js:280
+msgid "Subscription has already been cancelled"
+msgstr "L'abunament è gia vegnì annullà"
+
+#: .es5/lib/auth-errors.js:284
+msgid "Update was rejected, please try again"
+msgstr "L'actualisaziun è vegnida refusada, per plaschair empruvar anc ina giada"
+
+#: .es5/lib/auth-errors.js:288
+msgid "Invalid or expired verification code"
+msgstr "Code da verificaziun nunvalid u scrudà"
+
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+msgid "Server busy, try again soon"
+msgstr "Il server è surchargià, emprova bainprest anc ina giada"
+
+#: .es5/lib/auth-errors.js:296
+msgid "Feature not enabled"
+msgstr "Funcziun inactiva"
+
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+msgid "System unavailable, try again soon"
+msgstr "Sistem betg disponibel, emprova bainprest anc ina giada"
+
+#: .es5/lib/auth-errors.js:308
+msgid "This endpoint is no longer supported"
+msgstr "Quest punct da finiziun na vegn betg pli sustegnì"
+
+#: .es5/lib/auth-errors.js:316
+msgid "Login attempt cancelled"
+msgstr "Interrut l'emprova d'annunzia"
+
+#: .es5/lib/auth-errors.js:320
+msgid "Session expired. Sign in to continue."
+msgstr "La sesida è scrudada. T'annunzia per cuntinuar."
+
+#: .es5/lib/auth-errors.js:324
+msgid "Cookies are still disabled"
+msgstr "Ils cookies èn anc adina deactivads"
+
+#: .es5/lib/auth-errors.js:328
+msgid "Passwords do not match"
+msgstr "Ils pleds-clav na correspundan betg"
+
+#: .es5/lib/auth-errors.js:332
+msgid "Working…"
+msgstr "En lavur…"
+
+#: .es5/lib/auth-errors.js:336
+msgid "Could not get Privacy Notice"
+msgstr "Betg chattà la decleraziun da protecziun da datas"
+
+#: .es5/lib/auth-errors.js:340
+msgid "Could not get Terms of Service"
+msgstr "Betg chattà las cundiziuns dal servetsch"
+
+#: .es5/lib/auth-errors.js:344
+msgid "Your new password must be different"
+msgstr "Il pled-clav nov sto esser different"
+
+#: .es5/lib/auth-errors.js:348
+msgid "Must be at least 8 characters"
+msgstr "Sto cuntegnair almain 8 caracters"
+
+#: .es5/lib/auth-errors.js:352
+msgid "Valid password required"
+msgstr "In pled-clav valid è necessari"
+
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+msgid "Valid email required"
+msgstr "Necessari dad inditgar ina adressa dad e-mail valida"
+
+#: .es5/lib/auth-errors.js:368
+msgid "A usable image was not found"
+msgstr "Chattà nagin maletg utilisabel"
+
+#: .es5/lib/auth-errors.js:372
+msgid "Could not initialize camera"
+msgstr "Impussibel dad inizialisar la camera"
+
+#: .es5/lib/auth-errors.js:376
+msgid "Valid URL required"
+msgstr "Necessari dad inditgar ina URL valida"
+
+#: .es5/lib/auth-errors.js:392
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr "Tes e-mail da verificaziun è gist returnà. Has ti tippa fauss l'adressa dad e-mail?"
+
+#: .es5/lib/auth-errors.js:400
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr "Endatescha ina adressa dad e-mail valida. firefox.com na porscha naginas adressas dad e-mail."
+
+#: .es5/lib/auth-errors.js:408
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "La pagina dal conto da Firefox po be vegnir plazzada en iframes sin paginas approvadas"
+
+#: .es5/lib/auth-errors.js:428
+msgid "Verification link damaged"
+msgstr "Errur en la colliaziun da verificaziun"
+
+#: .es5/lib/auth-errors.js:436
+msgid "The image dimensions must be at least 100x100px"
+msgstr "Las dimensiuns dal maletg ston esser almain 100x100px"
+
+#: .es5/lib/auth-errors.js:440
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "Proximamain vegn la registraziun era per Firefox per iOS"
+
+#: .es5/lib/auth-errors.js:452
+msgid "You must enter your age to sign up"
+msgstr "Ti stos inditgar tia vegliadetgna per ta registrar"
+
+#: .es5/lib/auth-errors.js:456
+msgid "You must enter a valid age to sign up"
+msgstr "Ti stos inditgar ina vegliadetgna valida per ta registrar"
+
+#: .es5/lib/auth-errors.js:472
+msgid "Account no longer exists."
+msgstr "Il conto n'exista betg pli."
+
+#: .es5/lib/auth-errors.js:476
+msgid "Invalid property in resume token: %(property)s"
+msgstr "Caracteristica nunvalida en il token: %(property)s"
+
+#: .es5/lib/auth-errors.js:480
+msgid "Missing property in resume token: %(property)s"
+msgstr "Caracteristica manca en il token: %(property)s"
+
+#: .es5/lib/auth-errors.js:484
+msgid "Invalid data attribute: %(property)s"
+msgstr "Attribut da data nunvalid: %(property)s"
+
+#: .es5/lib/auth-errors.js:488
+msgid "Missing data attribute: %(property)s"
+msgstr "Attribut da data mancant: %(property)s"
+
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+msgid "That confirmation link was already used, and can only be used once."
+msgstr "Quest link da confirmaziun è gia vegnì duvrà e po be vegnir duvrà ina giada."
+
+#: .es5/lib/auth-errors.js:505
+msgid "This is a required field"
+msgstr "Quest è in champ necessari"
+
+#: .es5/lib/auth-errors.js:509
+msgid "Authorization code required"
+msgstr "Code dad autorisaziun è necessari"
+
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+msgid "Link damaged"
+msgstr "Colliaziun rutta"
+
+#: .es5/lib/auth-errors.js:540
+msgid "Phone number required"
+msgstr "Numer da telefon necessari"
+
+#: .es5/lib/auth-errors.js:559
+msgid "Two-step authentication code required"
+msgstr "Code d'autentificaziun en dus pass necessari"
+
+#: .es5/lib/auth-errors.js:563
+msgid "Invalid two-step authentication code"
+msgstr "Code d'autentificaziun en dus pass nunvalid"
+
+#: .es5/lib/auth-errors.js:567
+msgid "Recovery code required"
+msgstr "Code da recuperaziun necessari"
+
+#: .es5/lib/auth-errors.js:571
+msgid "Invalid recovery code"
+msgstr "Code da recuperaziun nunvalid"
+
+#: .es5/lib/auth-errors.js:585
+msgid "Recovery key required"
+msgstr "Clav da recuperaziun necessaria"
+
+#: .es5/lib/auth-errors.js:589
+msgid "Please enter verification code"
+msgstr "Endatescha per plaschair il code da verificaziun"
+
+#: .es5/lib/auth-errors.js:601
+msgid "Invalid redirect"
+msgstr "Renviament nunvalid"
+
+#: .es5/lib/auth-errors.js:613
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr "Sbagl da tippar en l'adressa? %(domain)s na porscha naginas adressas dad e-mail."
+
+#: .es5/lib/auth-errors.js:617
+msgid "The image file size is too large to be uploaded."
+msgstr "La datoteca dal maletg è memia gronda per il transferiment."
+
+#: .es5/lib/config-loader.js:117
+msgid "Missing configuration"
+msgstr "Configuraziun manca"
+
+#: .es5/lib/config-loader.js:121
+msgid "Invalid configuration"
+msgstr "Configuraziun nunvalida"
+
+#: .es5/lib/email-domain-validator.js:40
+msgid "Mistyped email?"
+msgstr "Betg endatà endretg l'adressa dad e-mail?"
+
+#: .es5/lib/newsletters.js:25
+msgid "Test new Firefox products"
+msgstr "Testescha novs products da Firefox"
+
+#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "Retschaiver novitads davart Mozilla e Firefox"
+
+#: .es5/lib/newsletters.js:33
+msgid "Take action to keep the internet healthy"
+msgstr "T'engascha per che l'internet restia saun"
+
+#: .es5/lib/newsletters.js:37
+msgid "Be safer and smarter online"
+msgstr "Pli segir e pli furber en l'internet"
+
+#: .es5/lib/newsletters.js:44
+msgid "Testing Firefox products"
+msgstr "Testar products da Firefox"
+
+#: .es5/lib/newsletters.js:52
+msgid "Taking action to keep the internet healthy"
+msgstr "S'engaschar per che l'internet restia saun"
+
+#: .es5/lib/newsletters.js:56
+msgid "Safety and privacy online with Firefox and Mozilla"
+msgstr "Segirezza e protecziun da datas en l'internet cun Firefox e Mozilla"
+
+#: .es5/lib/oauth-errors.js:34
+msgid "Unknown client"
+msgstr "Client nunenconuschent"
+
+#: .es5/lib/oauth-errors.js:38
+msgid "Incorrect redirect_uri"
+msgstr "redirect_uri nuncorrecta"
+
+#: .es5/lib/oauth-errors.js:42
+msgid "Invalid assertion"
+msgstr "Affirmaziun nunvalida"
+
+#: .es5/lib/oauth-errors.js:46
+msgid "Unknown code"
+msgstr "Code nunenconuschent"
+
+#: .es5/lib/oauth-errors.js:50
+msgid "Incorrect code"
+msgstr "Code incorrect"
+
+#: .es5/lib/oauth-errors.js:54
+msgid "Expired code"
+msgstr "Code scrudà"
+
+#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Parameter dad OAuth nunvalid: %(param)s"
+
+#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
+msgid "Unauthorized"
+msgstr "Betg autorisà"
+
+#: .es5/lib/oauth-errors.js:74
+msgid "Forbidden"
+msgstr "Scumandà"
+
+#: .es5/lib/oauth-errors.js:89
+msgid "Expired token"
+msgstr "Token scrudà"
+
+#: .es5/lib/oauth-errors.js:133
+msgid "Something went wrong. Please close this tab and try again."
+msgstr "Insatge n'ha betg funcziunà. Serra p.pl. quest tab ed emprova anc ina giada."
+
+#: .es5/lib/oauth-errors.js:153
+msgid "no message"
+msgstr "nagin messadi"
+
+#: .es5/lib/oauth-errors.js:157
+msgid "Missing OAuth parameter: %(param)s"
+msgstr "Parameter dad OAuth mancant: %(param)s"
+
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr "L'utilisader n'è betg annunzià"
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr "In auter utilisader è annunzià"
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr "Utilisader/utilisadra u sessiun betg verifitgada"
+
+#: .es5/lib/oauth-errors.js:196
+msgid "Invalid id_token_hint"
+msgstr "id_token_hint nunvalid"
+
+#: .es5/lib/pairing-channel-client-errors.js:44
+msgid "Invalid message from the remote device"
+msgstr "Messadi nunvalid da l'apparat lontan"
+
+#: .es5/lib/pairing-channel-client-errors.js:52
+msgid "Error pairing to remote device"
+msgstr "Errur durant l'associaziun cun l'apparat lontan"
+
+#: .es5/lib/pairing-channel-client-errors.js:56
+msgid "Connection to remote device closed, please try again"
+msgstr "Connexiun cun l'apparat lontan interrutta, reempruvar p.pl."
+
+#: .es5/lib/profile-errors.js:29
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Parameter nunvalid en il corp da la dumonda: %(param)s"
+
+#: .es5/lib/profile-errors.js:33
+msgid "Unsupported image provider"
+msgstr "Purschider da maletgs betg sustegnì"
+
+#: .es5/lib/profile-errors.js:37
+msgid "Image processing error"
+msgstr "Errur cun elavurar il maletg"
+
+#: .es5/lib/profile-errors.js:49
+msgid "Invalid Token"
+msgstr "Token nunvalid"
+
+#: .es5/lib/strings.js:25
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Cun cuntinuar accepteschas ti il <a id=\"service-tos\" href=\"%(termsUri)s\">Contract da licenza</a> e las <a id=\"service-pp\" href=\"%(privacyUri)s\">Infurmaziuns davart la protecziun da datas</"
+"a> da %(serviceName)s (%(serviceUri)s)."
+
+#: .es5/lib/strings.js:31
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Agid</a>"
+
+#: .es5/lib/strings.js:34
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Retschaiver novitads davart Mozilla e Firefox."
+
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
+msgid "%(city)s, %(country)s (estimated)"
+msgstr "%(city)s, %(country)s (schazegià)"
+
+#: .es5/lib/strings.js:37
+msgid "%(country)s (estimated)"
+msgstr "%(country)s (schazegià)"
+
+#: .es5/lib/strings.js:38
+msgid "IP address: %(ip)s"
+msgstr "Adressa IP: %(ip)s"
+
+#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
+msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+msgstr "Per pli gronda segirezza, conferma p.pl. questa annunzia per cumenzar a sincronisar cun quest apparat:"
+
+#: .es5/templates/400.mustache:1
+msgid "Bad Request"
+msgstr "Dumonda nuncorrecta"
+
+#: .es5/templates/500.mustache:1
+msgid "500 Error"
+msgstr "Errur 500"
+
+#: .es5/templates/500.mustache:2
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Oh ****, insatge è ì fallà. Nus avain notà quai e lavurain vi dad ina soluziun."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+msgid "Reset password link expired"
+msgstr "La colliaziun per redefinir il pled-clav è scrudada"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+msgid "The link you clicked to reset your password is expired."
+msgstr "La colliaziun che ti has cliccà per redefinir tes pled-clav è scrudada."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+msgid "Receive new link"
+msgstr "Ma trametter ina nova colliaziun"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5
+msgid "Reset password with recovery key"
+msgstr "Redefinir il pled-clav cun ina clav da recuperaziun"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Cuntinuar cun %(serviceName)s"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:7
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr "Endatescha per plaschair la clav da recuperaziun a diever unic che ti has tegnì en salv en in lieu segir per puspè obtegnair l'access a tes conto da Firefox."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:8
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+"<span class=\"note\">ATTENZIUN:</span> Sche ti redefineschas tes pled-clav e n'has betg memorisà ina clav da recuperaziun per il conto, vegnan tschertas datas stizzadas (inclus las datas "
+"memorisadas sin il server sco la cronologia ed ils segnapaginas)."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Enter recovery key"
+msgstr "Endatar la clav da recuperaziun"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+msgid "Confirm recovery key"
+msgstr "Confermar la clav da recuperaziun"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Don't have a recovery key?"
+msgstr "Ti n'has nagina clav da recuperaziun?"
+
+#: .es5/templates/cannot_create_account.mustache:1
+msgid "Cannot create account"
+msgstr "Impussibel da crear in conto"
+
+#: .es5/templates/cannot_create_account.mustache:2
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr ""
+
+#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Dapli infurmaziuns"
+
+#: .es5/templates/choose_what_to_sync.mustache:1
+msgid "Choose what to sync:"
+msgstr "Tscherna quai che duai vegnir sincronisà:"
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Sync selections"
+msgstr "Selecziun per sincronisar"
+
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+msgid "Don’t sync this device"
+msgstr "Betg sincronisar quest apparat"
+
+#: .es5/templates/complete_reset_password.mustache:5
+msgid "Reset password link damaged"
+msgstr "La colliaziun per redefinir il pled-clav è donnegiada"
+
+#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "La colliaziun che ti has cliccà n'era betg cumpletta ed è eventualmain vegnida interpretada fauss da tes program dad e-mail. Copiescha precautamain l'entira adressa ed emprova anc ina giada."
+
+#: .es5/templates/complete_reset_password.mustache:8
+msgid "Create new password"
+msgstr "Crear in nov pled-clav"
+
+#: .es5/templates/complete_reset_password.mustache:9
+msgid ""
+"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+"<span>IMPURTANT:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai "
+"capita perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads e las datas da Pocket n'èn betg pertutgadas."
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr "Ti has recuperà cun succes tes conto cun agid da tia clav da recuperaziun. Creescha in nov pled-clav per segirar tias datas ed al tegna en salv en in lieu segir."
+
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Nov pled-clav"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Reendatar il pled-clav"
+
+#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+msgid "Remember password? Sign in"
+msgstr "Ta regordas dal pled-clav? T'annunzia"
+
+#: .es5/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr "Adressa dad e-mail principala gia confermada"
+
+#: .es5/templates/complete_sign_up.mustache:3
+msgid "Sign-in already confirmed"
+msgstr "L'annunzia è gia confermada"
+
+#: .es5/templates/complete_sign_up.mustache:6
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:8
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:14
+msgid "Confirmation error"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:3
+msgid "Confirm your account"
+msgstr "Conferma tes conto"
+
+#: .es5/templates/confirm.mustache:5
+msgid "Confirm this sign-in"
+msgstr "Conferma questa annunzia"
+
+#: .es5/templates/confirm.mustache:7
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:9
+msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr "Controllescha tes e-mails per chattar la colliaziun per s'annunziar, tramessa a %(escapedEmail)s"
+
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
+msgid "Not in inbox or spam folder? Resend"
+msgstr "Betg en la posta entrada u en l'ordinatur da spam? Trametter anc ina giada"
+
+#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+msgid "Back"
+msgstr "Enavos"
+
+#: .es5/templates/confirm_reset_password.mustache:1
+msgid "Reset email sent"
+msgstr "L'e-mail per redefinir è vegnì tramess"
+
+#: .es5/templates/confirm_reset_password.mustache:2
+msgid "Click the link emailed to %(email)s within the next hour to create a new password."
+msgstr "Clicca entaifer la proxima ura sin la colliaziun tramessa via e-mail a %(email)s per crear in nov pled-clav."
+
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:2
+msgid "for your Firefox account"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:3
+msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+msgid "Enter 6-digit code"
+msgstr "Endatar il code da 6 caracters"
+
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "Confermar"
+
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+msgid "Code expired?"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+msgid "Email new code."
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:1
+msgid "Connect another device"
+msgstr "Connectar in auter apparat"
+
+#: .es5/templates/connect_another_device.mustache:2
+msgid "Firefox account connected"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:4
+msgid "Email confirmed"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+msgid "Complete your set-up"
+msgstr "Cumplettar la configuraziun"
+
+#: .es5/templates/connect_another_device.mustache:10
+msgid "Sign in to this Firefox to complete set-up"
+msgstr "T'annunzia en quest Firefox per cumplettar la configuraziun"
+
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+msgid "Still adding devices?"
+msgstr "Anc agiuntar ulteriurs apparats?"
+
+#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+msgid "Sign in to Firefox on another device to complete set-up"
+msgstr "T'annunzia en Firefox sin in auter apparat per cumplettar l'installaziun"
+
+#: .es5/templates/connect_another_device.mustache:17
+msgid "Sync Firefox across devices"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:19
+msgid "Sign in everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:20
+msgid "We’re on Android and iOS, too!"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:22
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr "Ti vuls anc agiuntar auters apparats? T'annunzia via Firefox sin in auter apparat per cumplettar la configuraziun."
+
+#: .es5/templates/connect_another_device.mustache:24
+msgid "Sign in to Firefox for Android to complete set-up"
+msgstr "T'annunzia en Firefox per Android per cumplettar l'installaziun"
+
+#: .es5/templates/connect_another_device.mustache:26
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr "S'annunziar en Firefox per iOS per cumplettar l'installaziun"
+
+#: .es5/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required"
+msgstr "Cookies e memoria locala èn necessaris"
+
+#: .es5/templates/cookies_disabled.mustache:2
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+msgstr "Activescha p.pl. cookies e la memoria locala en tes navigatur per acceder a tes conto da Firefox. Mo uschia pudain nus memorisar tias datas tranter differentas sesidas."
+
+#: .es5/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "Emprova anc ina giada"
+
+#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+msgid ""
+"\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"        "
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+msgid "Password"
+msgstr "Pled-clav"
+
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "Utilisar in auter conto"
+
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+msgid "Forgot password?"
+msgstr "Emblidà il pled-clav?"
+
+#: .es5/templates/index.mustache:1
+msgid "Continue to Firefox accounts"
+msgstr ""
+
+#: .es5/templates/index.mustache:2
+msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
+msgid "Enter your email"
+msgstr "Endatescha tia adressa dad e-mail"
+
+#: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr "Cuntinuar cun <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/index.mustache:9
+msgid "Sign up or sign in"
+msgstr ""
+
+#: .es5/templates/index.mustache:11
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:1
+msgid "Save recovery codes"
+msgstr "Memorisar ils codes da recuperaziun"
+
+#: .es5/templates/inline_recovery_setup.mustache:3
+msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
+msgstr "Memorisescha quests codes a diever unic en in lieu segir per il cas che ti n'has ina giada betg access a tes apparat mobil."
+
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+msgid "Download"
+msgstr "Telechargiar"
+
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+msgid "Copy"
+msgstr "Copiar"
+
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+msgid "Print"
+msgstr "Stampar"
+
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+msgid "Continue"
+msgstr "Cuntinuar"
+
+#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+msgid "Cancel setup"
+msgstr "Interrumper la configuraziun"
+
+#: .es5/templates/inline_recovery_setup.mustache:12
+msgid "Confirm recovery code"
+msgstr "Confermar il code da recuperaziun"
+
+#: .es5/templates/inline_recovery_setup.mustache:14
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgstr "Per t'atschertar che ti sajas abel da restaurar l'access a tes conto en cas che ti perdessas tes apparat, endatescha per plaschair in da tes codes da recuperaziun memorisads."
+
+#: .es5/templates/inline_recovery_setup.mustache:15
+msgid "Recovery code"
+msgstr "Code da recuperaziun"
+
+#: .es5/templates/inline_totp_setup.mustache:1
+msgid "Enable two-step authentication"
+msgstr "Activar l'autentificaziun en dus pass"
+
+#: .es5/templates/inline_totp_setup.mustache:3
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr "Cun ils codes da segirezza dad ina da <a %(escapedTotpSupportAttributes)s>questas applicaziuns d'autentificaziun</a> pos ti proteger tes conto cun in nivel da segirezza supplementar."
+
+#: .es5/templates/inline_totp_setup.mustache:7
+msgid "Scan authentication code"
+msgstr "Scannar il code d'autentificaziun"
+
+#: .es5/templates/inline_totp_setup.mustache:10
+msgid "Enter code manually"
+msgstr "Endatar a maun il code"
+
+#: .es5/templates/inline_totp_setup.mustache:12
+msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgstr "Scannescha il code QR en tia applicaziun d'autentificaziun ed endatescha lura ils codes da segirezza furnids."
+
+#: .es5/templates/inline_totp_setup.mustache:13
+msgid "Can’t scan code?"
+msgstr "Impussibel da scannar il code?"
+
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
+msgid "Once complete, it will begin generating security codes for you to enter."
+msgstr "Uschespert ch'il process è terminà, vegnan generads codes da segirezza per inserir."
+
+#: .es5/templates/inline_totp_setup.mustache:16
+msgid "Type this secret key into your authentication app."
+msgstr "Tippa questa clav secreta en tia app dad autentificaziun."
+
+#: .es5/templates/inline_totp_setup.mustache:17
+msgid "Scan QR code instead?"
+msgstr "Scannar in code QR empè da tippar?"
+
+#: .es5/templates/inline_totp_setup.mustache:19
+msgid "Security code"
+msgstr "Code da segirezza"
+
+#: .es5/templates/inline_totp_setup.mustache:20
+msgid "Ready"
+msgstr "Pront"
+
+#: .es5/templates/legal.mustache:1
+msgid "Legal"
+msgstr "Legal"
+
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+msgid "Terms of Service"
+msgstr "Contract da licenza"
+
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Decleraziun da protecziun da datas"
+
+#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+msgid "Get the full Sync experience."
+msgstr "Retschaiva l'experientscha cumpletta da Sync."
+
+#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:19
+msgid "Download Firefox for iOS!"
+msgstr "Telechargiar Firefox per iOS!"
+
+#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:20
+msgid "Download Firefox for Android."
+msgstr "Telechargiar Firefox per Android."
+
+#: .es5/templates/marketing_snippet.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "Telechargiar Firefox per apparats mobils."
+
+#: .es5/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr "Dumonda da permissiun"
+
+#: .es5/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "%(serviceName)s vul suandantas infurmaziuns da tes conto:"
+
+#: .es5/templates/permissions.mustache:3
+msgid "Accept"
+msgstr "Acceptar"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Interrumper"
+
+#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+msgid "Success"
+msgstr "Success"
+
+#: .es5/templates/ready.mustache:4
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr "Ti es ussa pront per utilisar <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
+msgid "Continue to my account"
+msgstr "Vinavant tar mes conto"
+
+#: .es5/templates/ready.mustache:14
+msgid "Your account is ready!"
+msgstr "Tes conto è pront!"
+
+#: .es5/templates/ready.mustache:15
+msgid "Generate a new recovery key"
+msgstr "Generar ina nova clav da recuperaziun"
+
+#: .es5/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr "Vuls ti rapportar in'annunzia betg autorisada?"
+
+#: .es5/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr "Ti has survegnì in email davart in'emprova dad access a tes conto. Vuls ti rapportar questa activitad sco suspectus?"
+
+#: .es5/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr "Rapportar l'activitad"
+
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr "Pertge capita quai?"
+
+#: .es5/templates/reset_password.mustache:3
+msgid ""
+"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+"<span>AVIS:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai "
+"capita perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads e las datas da Pocket n'èn betg pertutgadas."
+
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "E-Mail"
+
+#: .es5/templates/reset_password.mustache:6
+msgid "Begin reset"
+msgstr "Cumenzar da redefinir"
+
+#: .es5/templates/security_events.mustache:1
+msgid "Recent Activity"
+msgstr "Activitad recenta"
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr "Eveniments da segirezza"
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr "Num da l'eveniment"
+
+#: .es5/templates/security_events.mustache:4
+msgid "Confirmed"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr "Creà ils"
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr "Stizzar ils eveniments"
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr "Turnar als parameters"
+
+#: .es5/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr "Deplorablamain è tes conto bloccà."
+
+#: .es5/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr "L'e-mail da verificaziun tramess a %(email)s è vegnì returnà e nus avain bloccà tes conto per proteger tias datas da Firefox."
+
+#: .es5/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr "Sche questa adressa dad e-mail è valida, <a %(escapedSupportLinkAttrs)s>ans fa a savair</a> e nus ta pudain gidar a debloccar tes conto."
+
+#: .es5/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr "Quai n'è betg pli ti'adressa dad e-mail? Creescha in nov conto"
+
+#: .es5/templates/sign_in_password.mustache:11
+msgid ""
+"\n"
+"              By proceeding, you agree to:<br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"            "
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:1
+msgid "Enter recovery code"
+msgstr "Endatar il code da recuperaziun"
+
+#: .es5/templates/sign_in_recovery_code.mustache:3
+msgid "Please enter a recovery code that was provided to you during setup."
+msgstr "Endatescha per plaschair in code da recuperaziun che ti has retschavì durant la configuraziun."
+
+#: .es5/templates/sign_in_recovery_code.mustache:4
+msgid "Enter 10-digit recovery code"
+msgstr "Endatar il code da recuperaziun da 10 caracters"
+
+#: .es5/templates/sign_in_recovery_code.mustache:7
+msgid "Are you locked out?"
+msgstr "Es ti sclaus dal conto?"
+
+#: .es5/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr "Grazia per tia vigilanza"
+
+#: .es5/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr "Noss team è vegnì infurmà. Quests rapports ans gidan d'ans defender encunter attatgaders."
+
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr "Endatar il code da segirezza"
+
+#: .es5/templates/sign_in_totp_code.mustache:3
+msgid "Open your authentication app and enter the security code it provides."
+msgstr "Avra l'applicaziun d'autentificaziun ed endatescha il code da segirezza furnì."
+
+#: .es5/templates/sign_in_totp_code.mustache:7
+msgid "Trouble entering code?"
+msgstr "Difficultads cun endatar il code?"
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "Autorisar questa annunzia"
+
+#: .es5/templates/sign_in_unblock.mustache:3
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr "Controllescha tes e-mails per chattar il code d'autorisaziun tramess a %(email)s."
+
+#: .es5/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr "Endatescha il code d'autorisaziun"
+
+#: .es5/templates/sign_up_password.mustache:1
+msgid "Set your password"
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:2
+msgid "Change email"
+msgstr "Midar l'adressa dad e-mail"
+
+#: .es5/templates/sign_up_password.mustache:5
+msgid "Repeat password"
+msgstr "Repeter il pled-clav"
+
+#: .es5/templates/sign_up_password.mustache:6
+msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgstr "Ti dovras quest pled-clav per acceder a las datas criptadas che ti memoriseschas cun nus.<br/>Ina reinizialisaziun po muntar che datas sco pleds-clav e segnapaginas van a perder."
+
+#: .es5/templates/sign_up_password.mustache:7
+msgid "Practical knowledge is coming to your inbox. Sign up for more:"
+msgstr "Ti retschaivas tips pratics directamain en tia chascha postala. Ta registrescha per vegnir a savair anc dapli:"
+
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "Tscherna tge che duai vegnir sincronisà"
+
+#: .es5/templates/sign_up_password.mustache:14
+msgid "Create account"
+msgstr "Crear in conto"
+
+#: .es5/templates/sign_up_password.mustache:15
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
+
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Contos da Firefox"
+
+#: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr "Pagina principala dal conto"
+
+#: .es5/templates/support.mustache:3
+msgid "Subscriptions"
+msgstr "Abunaments"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
+msgid "Contact Us"
+msgstr "Ans contactescha"
+
+#: .es5/templates/support.mustache:6
+msgid "What are you contacting us about?"
+msgstr "Pertge ans contacteschas?"
+
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please select one"
+msgstr "Per plaschair tscherner in"
+
+#: .es5/templates/support.mustache:10
+msgid "What do you need help with?"
+msgstr "Co ta pudain nus gidar?"
+
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "Pajaments & facturaziun"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "Problems cun il conto"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "Problems tecnics"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr "Dar in resun / dumandar novas funcziunalitads"
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr "Betg inditgà"
+
+#: .es5/templates/support.mustache:17
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr "Dovras ti agid cun ina app u cun in servetsch specific? (opziunal)"
+
+#: .es5/templates/support.mustache:19
+msgid "Subject (optional)"
+msgstr "Object (facultativ)"
+
+#: .es5/templates/support.mustache:20
+msgid "Description of issue"
+msgstr "Descripziun dal problem"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Trametter"
+
+#: .es5/templates/would-you-like-to-sync.mustache:1
+msgid "Would you like to sync this device to your account?"
+msgstr "Vuls ti sincronisar quest apparat cun tes conto?"
+
+#: .es5/templates/would-you-like-to-sync.mustache:2
+msgid "Sync this device"
+msgstr "Sincronisar quest apparat"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
+msgid "Step 1 of 2: Re-enter password"
+msgstr "Pass 1 da 2: reendatar il pled-clav"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
+msgid "Enter your password to view your recovery key."
+msgstr "Endatescha tes pled-clav per laschar mussar tia clav da recuperaziun."
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+msgid "Enter Password"
+msgstr "Endatescha tes pled-clav"
+
+#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr "Connexiun reussida"
+
+#: .es5/templates/push/completed.mustache:3
+msgid "Please close this page and continue on the other device."
+msgstr "Serra per plaschair questa pagina e cuntinuescha sin l'auter apparat."
+
+#: .es5/templates/push/confirm_login.mustache:1
+msgid "New sign-in to Firefox"
+msgstr "Nova annunzia tar Firefox"
+
+#: .es5/templates/push/confirm_login.mustache:3
+msgid "Confirm sign-in"
+msgstr "Confermar l'annunzia"
+
+#: .es5/templates/push/confirm_login.mustache:4
+msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgstr "Sche ti supponas ch'insatgi emprovia dad acceder a tes conto, <a id=\"change-password\" href=\"/settings/change_password\">mida p.pl. tes pled-clav</a>."
+
+#: .es5/templates/push/send_login.mustache:2
+msgid "Send login push notification"
+msgstr "Cun l'annunzia, trametter in messadi push"
+
+#: .es5/templates/push/send_login.mustache:3
+msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgstr "Controllescha il tab da conferma da l'annunzia che nus avain tramess a tes apparats da Firefox connectads"
+
+#: .es5/templates/push/send_login.mustache:4
+msgid "Resend tab"
+msgstr "Trametter anc ina giada il tab"
+
+#: .es5/templates/push/send_login.mustache:5
+msgid "Tab not arriving? Send an email instead"
+msgstr "N'arriva il tab betg? Trametter in e-mail sco alternativa"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+msgid "Add a secondary email address"
+msgstr "Agiuntar ina adressa dad e-mail secundara"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
+msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
+msgstr "Ina adressa dad e-mail secundara ta gida da puspè acceder a tes conto en cas che ti avessas da perder l'access a %(escapedEmail)s."
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "Adressa dad e-mail alternativa"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+msgid "Maybe later"
+msgstr "Forsa pli tard"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr "Dovras in auter code? Trametter anc ina giada"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr "Utilisar ina autra adressa dad e-mail"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+msgid "Please change your password"
+msgstr "Mida p.pl. tes pled-clav"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:2
+msgid "to continue to %(serviceName)s"
+msgstr "per cuntinuar cun %(serviceName)s"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:5
+msgid ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr ""
+"Nus avain constatà in cumportament suspectus en tes conto da Firefox. Creescha per plaschair in nov pled-clav per proteger tes conto. Cun quest pled-clav vegns ti a pudair t'annunziar danovamain en "
+"tut ils servetschs da tes conto da Firefox."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:6
+msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr "La cronologia, segnapaginas, infurmaziuns d'annunzia ed autras datas persunalas sincronisadas na van betg a perder."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Pled-clav vegl"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:9
+msgid "Re-enter new password"
+msgstr "Endatar anc ina giada il nov pled-clav"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:10
+msgid "Change password"
+msgstr "Midar il pled-clav"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+msgid "This Firefox is connected"
+msgstr "Quest Firefox è connectà"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
+msgid "Sign up for more"
+msgstr "Ta registrescha per vegnir a savair dapli"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
+msgid "Practical knowledge is coming to your inbox."
+msgstr "Infurmaziuns praticas direct en tia posta entrada."
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
+msgid "Get practical knowledge in your inbox about:"
+msgstr "Retschaiva posta electronica cun infurmaziuns praticas davart:"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
+msgid "Subscribe %(email)s"
+msgstr "Abunar %(email)s"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client."
+msgstr "En la colliaziun sin la quala ti has cliccà, mancan caracters. Eventualmain ha tes client dad e-mail la donnegià."
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+msgid "Create a Firefox Account"
+msgstr "Crear in conto da Firefox"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
+msgid "Continue to %(productName)s"
+msgstr "Cuntinuar vers %(productName)s"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
+msgid "Enter a password"
+msgstr "Endatar in pled-clav"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+msgid "Confirm password"
+msgstr "Confermar il pled-clav"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "Crear in pled-clav"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:1
+msgid "Device connected!"
+msgstr "Apparat connectà!"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:4
+msgid "Connect another one"
+msgstr "Connectar in ulteriur apparat"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5
+msgid "Use SMS instead"
+msgstr "Pli gugent duvrar SMS"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:6
+msgid "I'm done for now"
+msgstr "Jau hai a fin per entant"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
+msgid "Sync Firefox between devices"
+msgstr "Sincronisescha Firefox sin differents apparats"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
+msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
+msgstr "Sincronisescha ils segnapaginas, la cronologia ed ils pleds-clav cun Firefox sin tes apparats mobils. Quai dura mo in pèr minutas."
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
+msgid "Get started"
+msgstr "Cumenzar"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+msgid "I'll do this later, send me a reminder"
+msgstr "Quai fatsch jau pli tard, ma tramettai ina promemoria"
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
+msgid "Download Firefox with your camera app"
+msgstr "Telechargia Firefox cun agid da tia app da camera"
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
+msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
+msgstr "L'installaziun da Firefox e la sincronisaziun dad almain dus apparats ta protegia era cunter la sperdita da tias datas."
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
+msgid "Ready to scan"
+msgstr "Pront per scannar"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
+msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connectescha tes apparat mobil</h1><p>cun agid dad in code QR che nus avain creà aposta per tai</p>"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
+msgid "Open the camera app on your device"
+msgstr "Avra l'app da camera sin tes apparat"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
+msgid "Point the camera at the QR code and tap the link that appears"
+msgstr "Drizza la camera sin il code QR e smatga sin la colliaziun che cumpara"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
+msgid "Install Firefox and open it on your device"
+msgstr "Installescha Firefox e l'avra sin tes apparat"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
+msgid "Sign into your account"
+msgstr "T'annunzia en tes conto"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
+msgid "<span class=\"number\">1</span>Open the camera app on your device"
+msgstr "<span class=\"number\">1</span>Avra l'app da camera sin tes apparat"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
+msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgstr "<span class=\"number\">2</span>Drizza la camera sin il code QR e smatga sin la colliaziun che cumpara"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
+msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgstr "<span class=\"number\">3</span>Installescha Firefox e l'avra sin tes apparat"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
+msgid "<span class=\"number\">4</span>Sign into your account"
+msgstr "<span class=\"number\">4</span>T'annunzia en tes conto"
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+msgid "Protect your data with a recovery key"
+msgstr "Protegia tias datas cun ina clav da recuperaziun"
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
+msgid "Your synced data can include passwords you've saved."
+msgstr "Tias datas sincronisadas pon includer pleds-clav che ti has memorisà."
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
+msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
+msgstr ""
+"Perquai che questas infurmaziuns èn essenzialas per tia segirezza, las stizza Firefox per ta proteger sche tes pled-clav vegn redefinì. Quai evitescha che autras persunas possian acceder a las "
+"datas."
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
+msgid "Get a Recovery Key"
+msgstr "Obtegnair ina clav da recuperaziun"
+
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
+msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgstr "Conferma per plaschair tes pled-clav per %(escapedEmail)s per generar tia clav da recuperaziun."
+
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
+msgid "Enter your recovery key to confirm that you've saved a copy."
+msgstr "Endatescha tia clav da recuperaziun per confermar che ti hajas memorisà ina copia."
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+msgid "Save recovery key"
+msgstr "Memorisar la clav da recuperaziun"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Finì"
+
+#: .es5/templates/partial/account-suggestion.mustache:1
+msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgstr "Pertge stoss jau crear quest conto? <a %(escapedSuggestionAttrs)s>Qua la resposta</a>"
+
+#: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
+msgid "How old are you?"
+msgstr "Quant vegl es ti?"
+
+#: .es5/templates/partial/coppa-age-input.mustache:4
+msgid "You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:2
+msgid "%(family)s on %(OS)s"
+msgstr "%(family)s sin %(OS)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:3
+msgid "%(city)s, %(region)s, %(country)s (estimated)"
+msgstr "%(city)s, %(region)s, %(country)s (approximativ)"
+
+#: .es5/templates/partial/device-being-paired.mustache:7
+msgid "%(region)s, %(country)s (estimated)"
+msgstr "%(region)s, %(country)s (approximativ)"
+
+#: .es5/templates/partial/device-being-paired.mustache:9
+msgid "%(country)s"
+msgstr "%(country)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:11
+msgid "Location unknown"
+msgstr "Lieu nunenconuschent"
+
+#: .es5/templates/partial/device-being-paired.mustache:12
+msgid "IP address: %(ipAddress)s"
+msgstr "Adressa IP: %(ipAddress)s"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:1
+msgid "Password requirements"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:3
+msgid "At least 8 characters"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:6
+msgid "Not your email address"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:10
+msgid "Not a commonly used password"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:11
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgstr ""
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr "Hmm, nus avain problems cun noss sistem. Nus ans stentain d'al reparar per tai ed ans perstgisain per ils fastidis chaschunads. Emprova per plaschair pli tard anc ina giada."
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to Support"
+msgstr "Tes messadi è vegnì tramess a l'agid"
+
+#: .es5/templates/partial/support-form-success.mustache:2
+msgid "Back to Subscriptions"
+msgstr "Turnar als abunaments"
+
+#: .es5/templates/partial/sync-suggestion.mustache:1
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr "Ti tschertgas Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Cumenza qua</a>"
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr "u"
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr "Cuntinuar cun Google"
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
+msgstr "Cuntinuar cun Apple"
+
+#: .es5/templates/pair/auth_allow.mustache:1
+msgid "Did you just sign in to Firefox?"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:2
+msgid " %(email)s "
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:3
+msgid "location balloon"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:4
+msgid "Yes, approve device"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:5
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+msgid "Device connected"
+msgstr "Apparat connectà"
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid ""
+"\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"      "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:5
+msgid "See tabs from synced devices"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:7
+msgid "Manage devices"
+msgstr "Administrar ils apparats"
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approval now required <small>from your other device</small>"
+msgstr "Igl è ussa necessari dad approvar <small>sin tes auter apparat</small>"
+
+#: .es5/templates/pair/failure.mustache:1
+msgid "Pairing not successful"
+msgstr "Associaziun betg reussida"
+
+#: .es5/templates/pair/failure.mustache:2
+msgid "The setup process was terminated."
+msgstr "Il process d'installaziun è interrut."
+
+#: .es5/templates/pair/index.mustache:1
+msgid "Download Firefox on your phone or tablet"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:4
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
+msgid "I’m ready to sync devices"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:8
+msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:2
+msgid "Device successfully paired"
+msgstr "Associà cun success l'apparat"
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr "Associà cun success."
+
+#: .es5/templates/pair/supp_allow.mustache:1
+msgid "Confirm pairing <small>for %(email)s</small>"
+msgstr "Confirmar l'associaziun <small>per %(email)s</small>"
+
+#: .es5/templates/pair/supp_allow.mustache:2
+msgid "Confirm pairing"
+msgstr "Confermar l'associaziun"
+
+#: .es5/templates/pair/unsupported.mustache:1
+msgid "Pair using an app"
+msgstr "Associar cun agid dad ina app"
+
+#: .es5/templates/pair/unsupported.mustache:2
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr "Has ti utilisà la camera dal sistem? Lura stos ti associar cun agid dad ina app da Firefox."
+
+#~ msgid "Primary email verified"
+#~ msgstr "Verifitgà l'adressa dad e-mail principala"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Verifitgà l'adressa dad e-mail alternativa"
+
+#~ msgid "Account verified"
+#~ msgstr "Verifitgà il conto"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Colliaziun da verificaziun scrudada"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Clicca qua per retschaiver ina nova colliaziun da verificaziun"
+
+#~ msgid "Verification error"
+#~ msgstr "Errur da verificaziun"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Controllescha tes e-mails per chattar la colliaziun da verificaziun tramessa a %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "Verifitgà l'adressa dad e-mail"
+
+#~ msgid "Verified"
+#~ msgstr "Verifitgà"
+
+#~ msgid "Verify"
+#~ msgstr "Verifitgar"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Endatar il code da verificaziun"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "Per plaschair endatar entaifer 5 minutas il code da verificaziun ch'è vegnì tramess a %(escapedEmail)s."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Infurmaziuns d'annunzia e pleds-clav"
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#~ msgstr ""
+#~ "Cun cuntinuar acceptas ti las <a id=\"fxa-tos\" href=\"/legal/terms\">cundiziuns d'utilisaziun</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\">directivas davart la protecziun da datas</a>."
+
+#~ msgid ""
+#~ "\n"
+#~ "              By proceeding, you agree to:<br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
+#~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "              Cun proceder acceptas ti:<br />\n"
+#~ "              Las <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">cundiziuns d'utilisaziun</a> e las<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">remartgas davart la "
+#~ "protecziun da datas</a><br /> da Pocket\n"
+#~ "              <a id=\"fxa-tos\" href=\"/legal/terms\">Cundiziuns d'utilisaziun</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\">remartgas davart la protecziun da datas</a> da Firefox\n"
+#~ "            "
+
+#~ msgid ""
+#~ "\n"
+#~ "            By proceeding, you agree to:<br />\n"
+#~ "            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "            Cun proceder acceptas ti:<br />\n"
+#~ "            Las <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">cundiziuns d'utilisaziun</a> e las <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">remartgas davart la "
+#~ "protecziun da datas</a><br /> da Pocket\n"
+#~ "            Las <a id=\"fxa-tos\" href=\"/legal/terms\">cundiziuns d'utilisaziun</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\">remartgas davart la protecziun da datas</a> da Firefox\n"
+#~ "          "
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Ti stos ademplir tschertas pretensiun per crear in conto da Firefox."
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "Controllescha la posta entrada dad e-mail per chattar il code tramess a %(email)s."
+
+#~ msgid "Why is more than one device required?"
+#~ msgstr "Pertge dovri dapli ch'in apparat?"
+
+#~ msgid "Why sync multiple devices?"
+#~ msgstr "Pertge sincronisar differents apparats?"
+
+#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+#~ msgstr ""
+#~ "Il servetsch da sincronisaziun na serva betg a la segirada da datas permanenta. Igl è dentant ina metoda segira per transmetter segnapaginas, la cronologia e pleds-clav tranter ils apparats che "
+#~ "ti possedas."
+
+#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+#~ msgstr "Ti duessas installar Firefox e sincronisar almain dus apparats per evitar che ti perdias datas en cas che ti las stos restaurar, ma has emblidà tes pled-clav."
+
+#~ msgid "Got it"
+#~ msgstr "Jau hai chapì"
+
+#~ msgid "One account, many services"
+#~ msgstr "In conto, blers servetschs"
+
+#~ msgid "Firefox browser"
+#~ msgstr "Navigatur Firefox"
+
+#~ msgid "Sync your bookmarks, passwords, and more on every device."
+#~ msgstr "Sincronisescha tes segnapaginas, pleds-clav e dapli sin mintga apparat."
+
+#~ msgid "Mozilla VPN"
+#~ msgstr "Mozilla VPN"
+
+#~ msgid "A VPN from the trusted pioneer in internet privacy."
+#~ msgstr "In VPN dal pionier fidà en dumondas da protecziun da datas en l'internet."
+
+#~ msgid "Pocket"
+#~ msgstr "Pocket"
+
+#~ msgid "Save and discover the best stories from across the web."
+#~ msgstr "Memorisar e scuvrir las meglras istorgias ord il web."
+
+#~ msgid "Firefox Relay"
+#~ msgstr "Firefox Relay"
+
+#~ msgid "Sign up for new accounts without handing over your email address."
+#~ msgstr "Creescha novs contos senza tradir tia adressa d'e-mail."
+
+#~ msgid "See all"
+#~ msgstr "Vesair tut"
+
+#~ msgid "Stay safe &mdash; don't reuse passwords."
+#~ msgstr "Ta protegia &mdash; na dovra betg dapertut ils medems pleds-clav."
+
+#~ msgid "Must not be your email address"
+#~ msgstr "Na dastga betg esser tia adressa dad e-mail"
+
+#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
+#~ msgstr "Na dastga betg esser sin questa <a %(escapedCommonPasswordLinkAttrs)s>glista da pleds-clav frequents</a>"
+
+#~ msgid "Approve new device <small>for %(email)s</small>"
+#~ msgstr "Approvar in nov apparat <small>per %(email)s</small>"
+
+#~ msgid "Approve device"
+#~ msgstr "Approvar l'apparat"
+
+#~ msgid "You are now syncing with:"
+#~ msgstr "I vegn actualmain sincronisà cun:"
+
+#~ msgid "Scan to connect another device"
+#~ msgstr "Scannar per connectar in auter apparat"
+
+#~ msgid "Open the code scanner on your Firefox app and show code when ready."
+#~ msgstr "Avra il scanner da codes en tia app da Firefox e lascha mussar il code cura che ti es pront."
+
+#~ msgid "Show code"
+#~ msgstr "Mussar il code"
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "Vuls ti sincronisar tes telefon?"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "Trametta ina colliaziun via SMS per installar Firefox sin tes telefonin."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Numer dal telefonin"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "Il servetsch po chaschunar custs per SMS &amp; datas. Il consentiment dal destinatur è necessari. <a %(escapedLearnMoreAttributes)s>Ulteriuras infurmaziuns</a>"
+
+#~ msgid "Not now"
+#~ msgstr "Betg ussa"
+
+#~ msgid "Check your texts"
+#~ msgstr "Controllescha tes SMS"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "Nus avain ta tramess in SMS"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "Ina colliaziun a l'app da Firefox è vegnida tramessa a %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Numer sbaglià?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "Sche ti na survegns betg il SMS, pos ti era tschertgar «Firefox» en tes app store."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Betg arrivà? Trametter anc ina giada"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Pertge s'annunziar cun in auter apparat?"
+
+#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Agid</a>"
+
+#~ msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "Vinavant tar <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+
+#~ msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "Ti es ussa pront per l'utilisaziun da <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>IMPURTANT:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. "
+#~ "Quai succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>AVIS:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai "
+#~ "succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas. Eventuals abunaments na vegnan dentant betg annullads."
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "Acceda a moda segira als pleds-clav memorisads en Firefox –  e quai dapertut, perfin ordaifer il navigatur."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "Tegna en egl las sperditas da datas."
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>IMPURTANT:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. "
+#~ "Quai succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>AVIS:</span> Sche ti reinizialiseschas tes pled-clav, reinizialiseschas ti tes conto. Tschertas datas privatas (inclus la cronologia, ils segnapaginas e pleds-clav) pon ir a perder. Quai "
+#~ "succeda perquai che nus criptain tias datas cun tes pled-clav per motivs da protecziun da datas."
+
+#~ msgid "Change..."
+#~ msgstr "Modifitgar…"
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Sche ti es a fin stos ti utilisar il nov pled-clav per s'annunziar sin tut tes apparats."
+
+#~ msgid "Change"
+#~ msgstr "Midar"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Midà il pled-clav cun success"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr "Nus stain mal dad udir quai. Il meglier midas ti tes pled-clav da tes conto da Firefox e tschertgar infurmaziuns tar il producent da tes apparat davart il stizzar las datas ord il lontan."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr ""
+#~ "Nus stain mal dad udir quai. Sche ti na ta fidas propi betg da quest apparat ta recumandain nus da midar tes pled-clav dal conto da Firefox e da midar tut ils pleds-clav memorisads en Firefox."
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "Vis l'ultima giada %(translatedTimeAgo)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s"
+#~ msgstr "Vis l'ultima giada %(translatedTimeAgo)s (u dapli)"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Vis l'ultima giada %(translatedTimeAgo)s en: %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Vis l'ultima giada %(translatedTimeAgo)s (u dapli) en: %(translatedCountry)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Vis l'ultima giada %(translatedTimeAgo)s damanaivel da %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Vis l'ultima giada %(translatedTimeAgo)s (u dapli) damanaivel da %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Ultima activitad %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Ultima activitad avant dapli che %(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Ultima activitad %(translatedTimeAgo)s en %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Ultima activitad avant dapli che %(translatedTimeAgo)s en %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Ultima activitad %(translatedTimeAgo)s datiers da %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Ultima activitad avant dapli che %(translatedTimeAgo)s datiers da %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "Avant dapli che %(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s en %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Avant %(translatedTimeAgo)s en %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s datiers da %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Avant %(translatedTimeAgo)s datiers da %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Sesida da web, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Sesida web"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "Ultima data d'access nunenconuschenta"
+
+#~ msgid "Change…"
+#~ msgstr "Modifitgar…"
+
+#~ msgid "Add…"
+#~ msgstr "Agiuntar…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Tscherna il num che ti vuls ch'el cumpara en Firefox e sche ti administreschas tes conto."
+
+#~ msgid "Display name updated"
+#~ msgstr "Actualisà il num per visualisar"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Allontanà l'adressa dad e-mail alternativa"
+
+#~ msgid "Verification email sent"
+#~ msgstr "Tramess l'e-mail da verificaziun"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "L'adressa dad e-mail principala è %(email)s"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Creà novs codes da recuperaziun"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Validaziun en dus pass deactivada"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "Validaziun en dus pass"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Recuperaziun dal conto"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "Recuperaziun dal conto annullada"
+
+#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+#~ msgstr "Tia carta da credit è scrudada. Per plaschair l'actualisar <a %(escapedCcExpiredLinkAttrs)s>qua</a>."
+
+#~ msgid "Sign out"
+#~ msgstr "Sortir"
+
+#~ msgid "Take picture"
+#~ msgstr "Far ina fotografia"
+
+#~ msgid "Upload"
+#~ msgstr "Chargiar si"
+
+#~ msgid "Camera"
+#~ msgstr "Camera"
+
+#~ msgid "Clear"
+#~ msgstr "Allontanar"
+
+#~ msgid "Avatar"
+#~ msgstr "Avatar"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Posiziunescha e rotescha tes maletg sco giavischà"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "Deconnectar da Sync"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "Las datas da navigaziun restan sin %(deviceName)s, ma ellas na vegnan betg pli sincronisadas cun tes conto."
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "Ti deconnecteschas %(deviceName)s da Sync perquai che quest apparat è:"
+
+#~ msgid "Suspicious"
+#~ msgstr "Suspectus"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "Pers u engulà"
+
+#~ msgid "Old or replaced"
+#~ msgstr "Vegl u remplazzà"
+
+#~ msgid "Duplicate"
+#~ msgstr "Duplicat"
+
+#~ msgid "Rather not say"
+#~ msgstr "Jau preferesch da betg respunder"
+
+#~ msgid "Disconnect"
+#~ msgstr "Deconnectar"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Deconnexiun reussida"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Apparats & applicaziuns"
+
+#~ msgid "Show"
+#~ msgstr "Mussar"
+
+#~ msgid "Current device"
+#~ msgstr "Quest apparat"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Deconnectar…"
+
+#~ msgid "Current session"
+#~ msgstr "Sesida actuala"
+
+#~ msgid "Revoke"
+#~ msgstr "Revocar"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "Firefox per iOS"
+
+#~ msgid "None connected"
+#~ msgstr "Nagin apparat connectà"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Firefox per Android"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Datti elements dublegiads u mancan elements?"
+
+#~ msgid "Refresh status"
+#~ msgstr "Actualisar il status"
+
+#~ msgid "Email preferences"
+#~ msgstr "Preferenzas dad e-mail"
+
+#~ msgid "Delete account"
+#~ msgstr "Stizzar il conto"
+
+#~ msgid "Delete…"
+#~ msgstr "Stizzar…"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+#~ msgstr "Vuls ti annullar in abunament che custa? Acceda a <a href=\"/subscriptions\">Abunaments</a>."
+
+#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+#~ msgstr "Ti has connectà tes conto da Firefox cun products da Mozilla che ta gidan da navigar a moda segira e productiva en il web:"
+
+#~ msgid "Please acknowledge that by deleting your account:"
+#~ msgstr "Considerescha, cun stizzar tes conto:"
+
+#~ msgid "Any paid subscriptions you have will be cancelled"
+#~ msgstr "Vegnan annullads eventuals abunaments pajads"
+
+#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+#~ msgstr "Tut las extensiuns ed ils designs che ti has publitgà sin addons.mozilla.org vegnan stizzads"
+
+#~ msgid "You may lose saved information and features within Mozilla products"
+#~ msgstr "Perdas ti eventualmain infurmaziuns memorisadas e funcziuns che fan part da products da Mozilla"
+
+#~ msgid "Reactivating with this email may not restore your saved information"
+#~ msgstr "La reactivaziun cun questa adressa dad e-mail na po betg restaurar tias infurmaziuns memorisadas"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "Ina adressa dad e-mail alternativa è ina adressa supplementara per retschaiver communicaziuns da segirezza e per confermar novs apparats che duain vegnir sincronisads."
+
+#~ msgid "Verification required"
+#~ msgstr "Verificaziun necessaria"
+
+#~ msgid "Make primary"
+#~ msgstr "Definir sco adressa principala"
+
+#~ msgid "Remove"
+#~ msgstr "Allontanar"
+
+#~ msgid "Refresh"
+#~ msgstr "Actualisar"
+
+#~ msgid "Add email"
+#~ msgstr "Agiuntar ina adressa dad e-mail"
+
+#~ msgid "Add"
+#~ msgstr "Agiuntar"
+
+#~ msgid "NOTE:"
+#~ msgstr "REMARTGA:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "Cun crear novs codes da recuperaziun daventan tut ils codes anteriurs nunvalids. Memorisescha ils codes novs per plaschair en in lieu segir."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Crear novs codes da recuperaziun"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "Confermar in code da recuperaziun"
+
+#~ msgid "Manage…"
+#~ msgstr "Administrar…"
+
+#~ msgid "Enter this secret key into your authentication app:"
+#~ msgstr "Endatescha questa clav secreta en tia app d'autentificaziun:"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "Autentificaziun en dus pass"
+
+#~ msgid "Enable…"
+#~ msgstr "Activar…"
+
+#~ msgid "Current status"
+#~ msgstr "Status actual"
+
+#~ msgid "Enabled"
+#~ msgstr "Activà"
+
+#~ msgid "Disabled"
+#~ msgstr "Deactivà"
+
+#~ msgid "Disable"
+#~ msgstr "Deactivar"
+
+#~ msgid "Enable"
+#~ msgstr "Activar"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Remplazzar ils codes da recuperaziun"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Avant che ti pos vesair u modifitgar questa secziun stos ti confermar tia adressa d'e-mail."
+
+#~ msgid "Primary email"
+#~ msgstr "E-mail principal"
+
+#~ msgid "Account recovery"
+#~ msgstr "Recuperaziun dal conto"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Generescha ina clav da recuperaziun per recuperar l'access als segnapaginas, pleds-clav ed a las datas sincronisadas da Firefox en cas che ti emblidas tes pled-clav."
+
+#~ msgid "Recovery key"
+#~ msgstr "Clav da recuperaziun"
+
+#~ msgid "Not set"
+#~ msgstr "Betg definì"
+
+#~ msgid "Generate"
+#~ msgstr "Generar"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">ATTENZIUN: </span>Il pled-clav da tes conto da Firefox criptescha tias datas da Firefox. Mo cun tes pled-clav u cun la clav da recuperaziun pos ti acceder a tias datas. <a "
+#~ "%(escapedLearnMoreLinkAttributes)s>Ulteriuras infurmaziuns</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "La vuls ti propi revocar?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Ti na pos betg acceder a tias datas cun agid da la clav da recuperaziun sche ti reinizialiseschas tes pled-clav."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "Pass 2 da 2: memorisar la clav da recuperaziun"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr ""
+#~ "<span class=\"note\">ATTENZIUN: </span>Sche ti emblidas tes pled-clav è questa clav necessaria per puspè obtegnair l'access a tias datas. Memorisescha tia clav da recuperaziun en in lieu segir, "
+#~ "nua che ti la pos chattar a moda simpla pli tard."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Finì, memorisà la clav da recuperaziun"
+
+#~ msgid "Please Select One"
+#~ msgstr "Per plaschair tscherner in"
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
+
+#~ msgid "Get app"
+#~ msgstr "Ir per l'app"
+
+#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
+#~ msgstr "Grazia per contactar l'agid da Mozilla pertutgant <b>%(escapedLowercaseTopic)s</b> per <b>%(escapedSelectedPlan)s</b>. Nus ta respundain uschè spert sco pussaivel via e-mail."
+
+#~ msgid "General inquiries"
+#~ msgstr "Dumondas generalas"
+
+#~ msgid "Connection issues"
+#~ msgstr "Problems da connexiun"
+
+#~ msgid "Getting started"
+#~ msgstr "Entschaiver"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Trametta Firefox directamain a tes smartphone e t'annunzia per cumplettar la configuraziun"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Il servetsch dad SMS è mo disponibel en tscherts pajais. Eventualmain custan ils SMS e la transmissiun da datas. Il destinatur da l'e-mail u dal SMS sto esser d'accord. <a "
+#~ "%(escapedLearnMoreAttributes)s>Ulteriuras infurmaziuns</a>"
+
+#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
+#~ msgstr "Conto exista gia. <a href=\"/signin\">S'annunziar</a>"
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "Ultima sincronisaziun %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "Ultima sincronisaziun avant dapli che %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Ultima sincronisaziun %(translatedTimeAgo)s en %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Ultima sincronisaziun avant dapli che %(translatedTimeAgo)s en %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Ultima sincronisaziun %(translatedTimeAgo)s datiers da %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Ultima sincronisaziun avant dapli che %(translatedTimeAgo)s datiers da %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "Il temp da l'ultima sincronisaziun n'è betg enconuschent"
+
+#~ msgid "Subscribed successfully"
+#~ msgstr "Abunnà cun success"
+
+#~ msgid "Open tabs"
+#~ msgstr "Tabs averts"
+
+#~ msgid "Logins"
+#~ msgstr "Infurmaziuns d'annunzia"
+
+#~ msgid "Credit cards"
+#~ msgstr "Cartas da credit"
+
+#~ msgid "Firefox Sync"
+#~ msgstr "Firefox Sync"
+
+#~ msgid "Accounts with two-step authentication do not support pairing at this time"
+#~ msgstr "Contos cun l'autentificaziun en dus pass na sustegnan betg l'associaziun d'apparats per il mument"
+
+#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+#~ msgstr "Has ti manegià <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+
+#~ msgid "Please try again later"
+#~ msgstr "Emprova p.pl. pli tard anc ina giada"
+
+#~ msgid "Service unavailable, try again soon"
+#~ msgstr "Servetsch betg disponibel, empruvar pli tard anc ina giada"
+
+#~ msgid "%(email)s registered"
+#~ msgstr "%(email)s registrà"
+
+#~ msgid "Save selections"
+#~ msgstr "Memorisar ils elements tschernids"
+
+#~ msgid "Sign in to continue"
+#~ msgstr "S'annunziar per cuntinuar"
+
+#~ msgid "Create an account"
+#~ msgstr "Crear in conto"
+
+#~ msgid "Use security code"
+#~ msgstr "Utilisar il code da segirezza"
+
+#~ msgid "Enter code"
+#~ msgstr "Endatar il code"
+
+#~ msgid "Use recovery code"
+#~ msgstr "Utilisar il code da recuperaziun"
+
+#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+#~ msgstr "Na perda betg quest pled-clav. Sche ti al stos reinizialisar, perdas ti eventualmain las datas da Sync."
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr ""
+#~ "<span>N'utilisescha betg tes pled-clav dad e-mail</span>Sch'insatgi enconuscha tes pled-clav dad e-mail po el u ella confermar l'associaziun dad in nov apparat cun tes conto da Firefox ed uschia "
+#~ "acceder a tias datas."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>Tegna endament tes pled-clav</span>Sche ti stos reinizialisar tes pled-clav, perdas ti tut las datas da Sync che n'èn betg memorisadas sin in da tes apparats."
+
+#~ msgid "Have an account? Sign in"
+#~ msgstr "Has ti in conto? T'annunzia"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "Installescha Firefox sin tes telefonin e t'annunzia per cumplettar l'installaziun"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Tramess ina colliaziun a l'applicaziun a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Cuntegna il numer in sbagl?</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Tramess anc ina giada ina colliaziun a l'applicaziun a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Cuntegna il numer in sbagl?</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "Sche ti na survegns betg il messadi da text pos ti era telechargiar manualmain las applicaziuns."
+
+#~ msgid "Disconnect from Sync?"
+#~ msgstr "Deconnectar da Sync?"
+
+#~ msgid "Suspicious device"
+#~ msgstr "Apparat suspectus"
+
+#~ msgid "Lost or stolen device"
+#~ msgstr "Apparat pers u engulà"
+
+#~ msgid "Old or replaced device"
+#~ msgstr "Apparat che n'è betg pli en funcziun"
+
+#~ msgid "Duplicate device"
+#~ msgstr "Apparat dubel"
+
+#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+#~ msgstr ""
+#~ "Ti retschaivas messadis areguard la segirezza da tes conto, midadas da nossas cundiziuns d'utilisaziun, funcziuns da tes conto e messadis inizials per ta gidar a duvrar en moda optimala tes "
+#~ "conto da Firefox."
+
+#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+#~ msgstr "En pli pos ti abunar e-mails cun novitads davart Mozilla e Firefox."
+
+#~ msgid "Subscribe"
+#~ msgstr "Abunar"
+
+#~ msgid "Manage preferences"
+#~ msgstr "Administrar las preferenzas"
+
+#~ msgid ""
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
+#~ msgstr ""
+#~ "En cas che ti utiliseschas quest conto per applicaziuns e servetschs da Mozilla sco AMO, Pocket e Screenshots duessas ti sco emprim t'annunziar e stizzar tut las datas persunalas memorisadas. "
+#~ "Sche ti stizzas qua il conto ristgas ti da perder l'access dapertut nua che ti al utiliseschas."
+
+#~ msgid "verified"
+#~ msgstr "verifitgà"
+
+#~ msgid "verification required"
+#~ msgstr "verificaziun obligatorica"
+
+#~ msgid "Recovery codes"
+#~ msgstr "Codes da recuperaziun"
+
+#~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
+#~ msgstr ""
+#~ "Quests èn ils codes da recuperaziun a diever unic. Als memorisescha en in lieu segir per cas che ti n'has in bel di nagin access pli a tes apparat mobil. Quests codes na vegnan betg mussads ina "
+#~ "segunda giada."
+
+#~ msgid "Manually enter this secret key into your authentication app:"
+#~ msgstr "Endatescha manualmain questa clav secreta en l'applicaziun d'autentificaziun:"
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "Il pled-clav da tes conto da Firefox"
+
+#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+#~ msgstr "Originalitad protegia; betg reutilisar quest pled-clav en auters lieus."
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "Tegna endament quest pled-clav &mdash; sche ti al reinizialiseschas vegnan tias datas stizzadas da noss servers."
+
+#~ msgid "Get App"
+#~ msgstr "Ir per l'app"
+
+#~ msgid "Get the most out of your account"
+#~ msgstr "Rabla ora il maximum da tes conto"
+
+#~ msgid "Sync these everywhere you sign in"
+#~ msgstr "Sincronisescha questas datas sin tut ils apparats annunziads"
+
+#~ msgid "Practical knowledge is coming to your inbox"
+#~ msgstr "Infurmaziuns praticas direct en tia posta entrada"
+
+#~ msgid "Sign up for more:"
+#~ msgstr "Ta registrescha per vegnir a savair dapli:"
+
+#~ msgid "Invite me to test new Mozilla products"
+#~ msgstr "M'envidar per testar novs products da Mozilla"
+
+#~ msgid "One last step"
+#~ msgstr "In ultim pass"
+
+#~ msgid "You did it! You’re signed in."
+#~ msgstr "Fatg! Ti es annunzià."
+
+#~ msgid "Now get Firefox everywhere else."
+#~ msgstr "Installescha Firefox sin tut tes apparats."
+
+#~ msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
+#~ msgstr "T'annunzia cun tes auters apparats per profitar da tut ils products, las enconuschientschas e las funcziuns per la protecziun da datas da Firefox."
+
+#~ msgid "Get more from these features:"
+#~ msgstr "Profitescha al maximum da questas funcziuns:"
+
+#~ msgid "Travel the internet with protection, on every device."
+#~ msgstr "Navighescha a moda segira en l'internet, cun mintga apparat."
+
+#~ msgid "Keep your passwords protected and portable."
+#~ msgstr "Organisescha tes pleds-clav uschia ch'els èn protegids ed adina per mauns."
+
+#~ msgid "Share large files without prying eyes."
+#~ msgstr "Cundivida datotecas grondas senza mirs cun ureglias."
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+#~ msgstr ""
+#~ "Cun cuntinuar acceptas ti las <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">cundiziuns d'utilisaziun</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">infurmaziuns "
+#~ "davart la protecziun da datas</a>."
+
+#~ msgid "Sync these everywhere you sign in:"
+#~ msgstr "Sincronisescha questas datas sin tut ils apparats annunziads:"
+
+#~ msgid "Enable Sync"
+#~ msgstr "Activar Sync"
+
+#~ msgid "Your message was sent to support"
+#~ msgstr "Tes messadi è vegnì tramess a l'agid"
+
+#~ msgid "%(email)s registered."
+#~ msgstr "%(email)s registrà."
+
+#~ msgid "Communication preferences"
+#~ msgstr "Preferenzas da communicaziun"
+
+#~ msgid "Manage Subscriptions"
+#~ msgstr "Administrar ils abunaments"
+
+#~ msgid "Refresh Status"
+#~ msgstr "Actualisar il status"
+
+#~ msgid "Approve connections <small>to begin syncing</small>"
+#~ msgstr "Approvar las connexiuns <small>per cumenzar a sincronisar</small>"
+
+#~ msgid "Approve connection"
+#~ msgstr "Approvar la connexiun"
+
+#~ msgid "Approve this connection <small>from this device</small>"
+#~ msgstr "Approva questa connexiun <small>da quest apparat</small>"
+
+#~ msgid "Use a different email address"
+#~ msgstr "Utilisar in'autra adressa dad e-mail"
+
+#~ msgid "Sign in &rarr;"
+#~ msgstr "S'annunziar &rarr;"
+
+#~ msgid "Attempting to pair"
+#~ msgstr "Emprova d'associaziun"
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "Errur durant la connexiun cun l'apparat lontan"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "Impussibel da decriptar il messadi da l'apparat lontan"
+
+#~ msgid "Save settings"
+#~ msgstr "Memorisar ils parameters"
+
+#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
+#~ msgstr "Conto da Firefox nunenconuschent. <a href=\"/signup\">T'annunzia</a> cun tia adressa dad e-mail dal conto dad «Add-ons» per acceder tias datas dad «Add-ons»."
+
+#~ msgid "App link resent to %(phoneNumber)s"
+#~ msgstr "La colliaziun da l'applicaziun è vegnida tramessa anc ina giada a %(phoneNumber)s"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "Furnì da <a href=\"https://www.gravatar.com\">Gravatar</a>"
+
+#~ msgid "Unsubscribed successfully"
+#~ msgstr "Deabunnà cun success"
+
+#~ msgid "Email resent"
+#~ msgstr "Tramess danovamain l'e-mail"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Chattà nagin Gravatar"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+#~ msgstr "Has ti manegià <span tabindex=\"1\">%(escapedDomain)s</span>?"
+
+#~ msgid "Resources failed to load"
+#~ msgstr "Betg reussì da chargiar las resursas"
+
+#~ msgid "Unexpected resource error"
+#~ msgstr "Errur da resursa nunspetgada"
+
+#~ msgid "Script error"
+#~ msgstr "Errur da script"
+
+#~ msgid "SMS sent"
+#~ msgstr "Tramess il SMS"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "Tes numer e vegnì bloccà"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "SMS n'è betg vegnì tramess, emprova p.pl. pli tard anc ina giada"
+
+#~ msgid "Learn more."
+#~ msgstr "Dapli infurmaziuns."
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s creà"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Preferenzas e supplements na vegnan actualmain betg sincronisads cun apparats mobils."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Clicca qua per retschaiver ina nova colliaziun per redefinir il pled-clav"
+
+#~ msgid "Enter new password"
+#~ msgstr "Endatar in nov pled-clav"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Apaina che ti has tramess tes nov pled-clav, perdas ti tut las datas da Sync che n'èn betg sin in da tes apparats."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "Emprenda sco che Sync funcziuna."
+
+#~ msgid "Submit new password"
+#~ msgstr "Trametter il nov pled-clav"
+
+#~ msgid "Email Sent"
+#~ msgstr "Tramess l'e-mail"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Ina colliaziun da verificaziun è vegnida tramessa a %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Per proteger meglier tias datas da Firefox avain nus tramess in e-mail cun ina colliaziun da conferma a %(email)s"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "Betg arrivà ed era betg en l'ordinatur da messadis nungiavischads? Trametter danovamain"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "Clicca sin il link tramess per e-mail a %(email)s entaifer la proxima ura per crear in nov pled-clav."
+
+#~ msgid "This device is connected"
+#~ msgstr "Quest apparat è connectà"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "Avrir «parameters » e tscherner «S'annunziar en Firefox» per cumplettar l'installaziun"
+
+#~ msgid "Why is this required?"
+#~ msgstr "Pertge è quai necessari?"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Cookies e memoria locala èn necessaris."
+
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Cun cuntinuar accepteschas ti il <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Contract da licenza</a> e las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Infurmaziuns "
+#~ "davart la protecziun da datas</a> dals servetschs da cloud da Firefox."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Servetschs da cloud da Firefox"
+
+#~ msgid "Proceed"
+#~ msgstr "Cuntinuar"
+
+#~ msgid "Reset account"
+#~ msgstr "Reinizialisar il conto"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Cun reinizialisar tes pled-clav perdas ti tut las datas da Sync che n'èn sin nagin da tes apparats."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Ta regordas dal pled-clav? T'annunzia."
+
+#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Tschertgas ti tias datas da supplements? <a href=\"/signup\">Ta registrescha</a> per in conto da Firefox cun tia adressa dad e-mail da tes vegl conto da supplements."
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "Migrar tias datas da sync entras s'annunziar tar tes conto&nbsp;da&nbsp;Firefox."
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "Per proteger meglier tias datas da Firefox ta spetga in code d'autorisaziun en %(email)s."
+
+#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+#~ msgstr "Ti tschertgas Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Cumenza qua</a>"
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "Migrar tias datas da sync cun crear in nov conto&nbsp;da&nbsp;Firefox."
+
+#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Tschertgas ti las datas da tes supplements? Ta registrescha per in conto da Firefox cun l'adressa dad e-mail da tes vegl conto da supplements."
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "In pled-clav ferm ed unic gida a tegnair davent invasurs da tias datas da Firefox."
+
+#~ msgid "Receive the monthly Firefox newsletter"
+#~ msgstr "Retschaiva il newsletter mensil da Firefox"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Il servetsch dad SMS è mo disponibel per numers da telefon dals Stadis Unids da l'America. Eventualmain vegnan messas a quint taxas per SMS e la transmissiun da datas. Il destinatur da l'e-mail "
+#~ "u SMS sto avair dà ses consentiment. <a %(escapedLearnMoreAttributes)s>Ulteriuras infurmaziuns</a>"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "Tramess la colliaziun da l'applicaziun a %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Fatg in sbagl da tippar?</a>"
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Pertge sincronisar dus (u dapli!) apparats?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Memorisescha tes segnapaginas, la cronologia ed ils pleds-clav en Firefox ed als cundivida lura grazia a Sync cun ils auters apparats. T'annunzia cun Firefox sin tes telefon u tablet e tut quai "
+#~ "che ti has memorisà en Firefox sin tes computer vegn a cumparair."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "Sync n'è betg previs per la segirada da datas, mabain mo per cundivider las datas localas. Sche ti reinizialiseschas il pled-clav e las datas n'èn betg memorisadas sin almain in auter apparat, "
+#~ "perdas ti eventualmain tut las infurmaziuns associadas cun il pled-clav vegl. Per quest motiv èsi recumandabel dad installar Firefox ed utilisar Sync sin plirs apparats."
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "Memorisar"
+
+#~ msgid "current device"
+#~ msgstr "apparat actual"
+
+#~ msgid "current session"
+#~ msgstr "sesida actuala"
+
+#~ msgid "none connected"
+#~ msgstr "nagins connectads"
+
+#~ msgid "Receive the monthly Firefox newsletter."
+#~ msgstr "Retschaiver il newsletter mensil da Firefox."
+
+#~ msgid "Unsubscribe"
+#~ msgstr "De-abunar"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "Es ti segir che ti vuls stizzar quest conto? Questa acziun na po betg vegnir revocada."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "S'annunziar tar Sync"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "Tscherna il conto che ti vuls utilisar per sincronisar tes tabs, tes segnapaginas, tes pleds-clav e dapli."
+
+#~ msgid "Use OpenID"
+#~ msgstr "Utilisar OpenID"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "Utilisar il conto da Firefox"
+
+#~ msgid "first sync %(translatedTimeAgo)s"
+#~ msgstr "emprima sincronisaziun: %(translatedTimeAgo)s"
+
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "ultima sincronisaziun: %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "ultima activitad %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "temp da l'ultima sincronisaziun betg enconuschent"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "%(escapedEmail)s è gia registrà. <a %(escapedBackLinkParams)s>Sbagl da tippar?</a>"
+
+#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+#~ msgstr "Controllescha tes e-mails per chattar la colliaziun per l'annunzia, tramessa a %(email)s"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Confermà l'annunzia"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "Las communicaziuns dal conto vegnan ussa era tramessas a %(secondaryEmailVerified)s"
+
+#~ msgid "We may send you emails related to your Firefox Account."
+#~ msgstr "Nus pudain ta trametter e-mails en connex cun tes conto da Firefox."
+
+#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+#~ msgstr "En pli pos ti decider sche ti vuls retschaiver las ultimas novas davart Mozilla e Firefox."
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+#~ msgstr "In'adressa dad e-mail alternativa è in'adressa supplementara per retschaiver avis da segirezza e confermar la sincronisaziun da novs apparats."
+
+#~ msgid "Not in inbox or spam folder? Resend?"
+#~ msgstr "Betg da chattar en la posta entrada u en l'ordinatur da spam? Anc ina giada trametter?"
+
+#~ msgid "Codes copied"
+#~ msgstr "Copià ils codes"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "Betg reussì da copiar ils codes. Per plaschair als copiar a maun."
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Code da verificaziun d'annunzia nunvalid"
+
+#~ msgid "Print button image"
+#~ msgstr "Grafica da buttun «stampar»"
+
+#~ msgid "Download button image"
+#~ msgstr "Grafica da buttun «telechargiar»"
+
+#~ msgid "Sign in to continue."
+#~ msgstr "S'annunziar per cuntinuar."
+
+#~ msgctxt "submit button"
+#~ msgid "Sign in"
+#~ msgstr "S'annunziar"
+
+#~ msgctxt "header text"
+#~ msgid "Sign in"
+#~ msgstr "S'annunziar"
+
+#~ msgctxt "button text"
+#~ msgid "Sign in"
+#~ msgstr "S'annunziar"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
+#~ msgstr ""
+#~ "<span>IMPURTANT:</span> Sche ti reinizialiseschas tes pled-clav, vegnan stizzadas tschertas da tias datas (inclus las datas sincronisadas sin il server, p.ex. la cronologia ed ils segnapaginas). "
+#~ "Il motiv è il criptadi da tias datas cun tes pled-clav per proteger tia sfera privata."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
+#~ msgstr ""
+#~ "<span>REMARTGA:</span> Sche ti reinizialiseschas tes pled-clav, vegnan stizzadas tschertas da tias datas (inclus las datas sincronisadas sin il server, p.ex. la cronologia ed ils segnapaginas). "
+#~ "Il motiv è il criptadi da tias datas cun tes pled-clav per proteger tia sfera privata."
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+#~ msgstr "Ina adressa dad e-mail alternativa è ina adressa supplementara per retschaiver communicaziuns da segirezza e per confermar novs apparats che duain vegnir sincronisads"
+
+#~ msgid "Unlock…"
+#~ msgstr "Debloccar…"
+
+#~ msgid "verify to unlock section"
+#~ msgstr "verifitgar per debloccar la secziun"
+
+#~ msgid "Verify password"
+#~ msgstr "Confermar il pled-clav"
+
+#~ msgid "Next"
+#~ msgstr "Enavant"
+
+#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
+#~ msgstr "Almain 8 caracters, ma dapli sche ti has en senn da sincronisar pleds-clav."
+
+#~ msgid "This is a common password; please consider another one."
+#~ msgstr "Quest pled-clav è fitg derasà; p.pl. tscherner in auter."
+
+#~ msgid "Signed out successfully"
+#~ msgstr "Sortì cun success"
+
+#~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
+#~ msgstr "Pled-clav nuncorrect. Per controllar tge che ti has endatà, clicca e tegna il buttun «mussar»."
+
+#~ msgid "Firefox Sync will begin momentarily"
+#~ msgstr "Firefox Sync cumenza immediatamain"
+
+#~ msgid "Devices"
+#~ msgstr "Apparats"
+
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "Resta sincronisà era sin viadi:"
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "Telechargiar Firefox per Android"
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "Ti pos administrar tes apparats sutvart."
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
+#~ msgstr "Has ti manegià <span tabindex=\"1\">%(domain)s</span>?"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "Ina colliaziun da verificaziun è vegnida tramessa&nbsp;a: %(email)s"
+
+#~ msgid "Sync preferences"
+#~ msgstr "Preferenzas da sincronisar"
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "Has ti in conto cun ina autra adressa d'e-mail? <a href=\"%(signinUri)s\">T'annunzia</a>"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox è disponibel per <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> e <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+
+#~ msgid "Delete"
+#~ msgstr "Stizzar"
+
+#~ msgid "Attempt limit exceeded"
+#~ msgstr "Surpassà la limita dad emprovas"
+
+#~ msgid "Tabs"
+#~ msgstr "Tabs"
+
+#~ msgid "Resend email"
+#~ msgstr "Trametter danovamain l'e-mail"
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "Has in conto? T'annunzia."
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "Na vesas betg tut tes apparats?"
+
+#~ msgid "Account unlocked, please try again"
+#~ msgstr "Deblocca il conto, emprova anc ina giada"
+
+#~ msgid "Account unlocked"
+#~ msgstr "Debloccà il conto"
+
+#~ msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+#~ msgstr "Bloccà il conto. <a href=\"/confirm_account_unlock\">Trametter in e-mail per debloccar</a>"
+
+#~ msgid "Unlock link expired"
+#~ msgstr "La colliaziun per debloccar è scrudada"
+
+#~ msgid "Unlock link damaged"
+#~ msgstr "La colliaziun per debloccar è donnegiada"
+
+#~ msgid "Unlock error"
+#~ msgstr "Errur durant debloccar"
+
+#~ msgid "Unlock email sent"
+#~ msgstr "Tramess l'e-mail per debloccar"
+
+#~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
+#~ msgstr ""
+#~ "Per motivs da segirezza è tes conto vegnì bloccà. Per exequir acziuns sin tes conto stos ti verifitgar danovamain tes conto cun cliccar sin la collaziun da verificaziun tramessa a %(email)s"
+
+#~ msgid "Signup has been disabled"
+#~ msgstr "La registraziun è vegnida deactivada"
+
+#~ msgid "(current)"
+#~ msgstr "(actual)"
+
+#~ msgid "Welcome to Sync"
+#~ msgstr "Bainvegni tar Sync"
+
+#~ msgid "Home"
+#~ msgstr "Pagina da partenza"
+
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "Parameter mancant en il corp da la dumonda: %(param)s"
+
+#~ msgid "Sign up"
+#~ msgstr "Sa registrar"
+
+#~ msgid "/force_auth requires an email"
+#~ msgstr "/force_auth basegna ina adressa dad e-mail"
+
+#~ msgid "A reset link has been sent to %(email)s"
+#~ msgstr "Ina colliaziun per redefinir è vegnida tramessa a %(email)s"
+
+#~ msgid "Are you sure you want to reset your account password?"
+#~ msgstr "Es ti segir che ti vuls redefinir il pled-clav per tes conto?"
+
+#~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
+#~ msgstr ""
+#~ "Redefinir tes pled-clav vegn a stizzar tias datas da navigar da noss servers. Tut las datas sin tes apparats na vegnan betg midadas. Cumenza il process da redefinir entras endatar tia adressa "
+#~ "dad e-mail sutvart."
+
+#~ msgid "a day"
+#~ msgstr "in di"
+
+#~ msgid "%d days"
+#~ msgstr "%d dis"
+
+#~ msgid "about an hour"
+#~ msgstr "circa in'ura"
+
+#~ msgid "%d hours"
+#~ msgstr "%d uras"
+
+#~ msgid "about a minute"
+#~ msgstr "circa ina minuta"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minutas"
+
+#~ msgid "about a month"
+#~ msgstr "circa in mais"
+
+#~ msgid "%d months"
+#~ msgstr "%d mais"
+
+#~ msgid "a few seconds"
+#~ msgstr "in pèr secundas"
+
+#~ msgid "ago"
+#~ msgstr "avant"
+
+#~ msgid "from now"
+#~ msgstr "a partir dad ussa"
+
+#~ msgid "about a year"
+#~ msgstr "circa in onn"
+
+#~ msgid "%d years"
+#~ msgstr "%d onns"
+
+#~ msgid "Age is required"
+#~ msgstr "La vegliadetgna è necessaria"
+
+#~ msgid "Desktop Add-ons"
+#~ msgstr "Supplements per desktop"
+
+#~ msgid "Desktop Preferences"
+#~ msgstr "Preferenzas per desktop"
+
+#~ msgid "Cookies required"
+#~ msgstr "Cookies necessaris"
+
+#~ msgid ""
+#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
+#~ "sessions."
+#~ msgstr ""
+#~ "Per utilisar in conto da Firefox stos ti activar ils cookies en tes navigatur. Cookies èn pitschnsa parts da datas memorisadas en tes navigatur che porschan funcziunalidad sco reconuscher tai "
+#~ "tar tia proxima visita."
+
+#~ msgid "Firefox is coming soon to iOS!"
+#~ msgstr "Firefox vegn prest per iOS!"
+
+#~ msgid "Sign up to learn more"
+#~ msgstr "S'annunzia per retschaiver ulteriuras infurmaziuns"
+
+#~ msgid "1991"
+#~ msgstr "1991"
+
+#~ msgid "1992"
+#~ msgstr "1992"
+
+#~ msgid "1993"
+#~ msgstr "1993"
+
+#~ msgid "1994"
+#~ msgstr "1994"
+
+#~ msgid "1995"
+#~ msgstr "1995"
+
+#~ msgid "1996"
+#~ msgstr "1996"
+
+#~ msgid "1997"
+#~ msgstr "1997"
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "1999"
+#~ msgstr "1999"
+
+#~ msgid "2000"
+#~ msgstr "2000"
+
+#~ msgid "2001"
+#~ msgstr "2001"
+
+#~ msgid "2002"
+#~ msgstr "2002"
+
+#~ msgid "2003"
+#~ msgstr "2003"
+
+#~ msgid "2004"
+#~ msgstr "2004"
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "2006"
+#~ msgstr "2006"
+
+#~ msgid "2007"
+#~ msgstr "2007"
+
+#~ msgid "Year of birth required"
+#~ msgstr "L'onn da naschientscha è necessari"
+
+#~ msgid "Valid birthday required"
+#~ msgstr "Necessari dad inditgar di da naschientscha valid"
+
+#~ msgid "Choose What to Sync"
+#~ msgstr "Tscherna tge che duai vegnir sincronisà"
+
+#~ msgid "Year of birth"
+#~ msgstr "Onn da naschientscha"
+
+#~ msgid "1990 or earlier"
+#~ msgstr "1990 u pli baud"
+
+#~ msgid "Month"
+#~ msgstr "Mais"
+
+#~ msgid "January"
+#~ msgstr "Schaner"
+
+#~ msgid "February"
+#~ msgstr "Favrer"
+
+#~ msgid "March"
+#~ msgstr "Mars"
+
+#~ msgid "April"
+#~ msgstr "Avrigl"
+
+#~ msgid "May"
+#~ msgstr "Matg"
+
+#~ msgid "June"
+#~ msgstr "Zercladur"
+
+#~ msgid "July"
+#~ msgstr "Fanadur"
+
+#~ msgid "August"
+#~ msgstr "Avust"
+
+#~ msgid "September"
+#~ msgstr "Settember"
+
+#~ msgid "October"
+#~ msgstr "October"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "December"
+#~ msgstr "December"
+
+#~ msgid "Day"
+#~ msgstr "Di"
+
+#~ msgid "Manage account"
+#~ msgstr "Administrar il conto"
+
+#~ msgid "Hello, <span>%(username)s</span>"
+#~ msgstr "Olla, <span>%(username)s</span>"
+
+#~ msgid "Edit profile"
+#~ msgstr "Modifitgar il profil"
+
+#~ msgid "Name"
+#~ msgstr "Num"
+
+#~ msgid "Enter your email to reset&nbsp;the account password."
+#~ msgstr "Endatescha tia adressa dad e-mail per redefinir&nbsp;il pled-clav dal conto."
+
+#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
+#~ msgstr "Per motivs da segirezza vegnan tias datas da Sync stizzadas da noss servers sche ti redefineschas tes pled-clav. In nov backup da Sync vegn creà da tias datas localas."
+
+#~ msgid "You are signed in as"
+#~ msgstr "Ti es t'annunzià sco"
+
+#~ msgid "Already have an account? Sign in."
+#~ msgstr "Has gia in conto? S'annunzia."
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Cun cuntinuar acceptesch jau il <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Contract da licenza</a> las <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Directivas per "
+#~ "protecziun da datas</a> dals servetschs da cloud da Firefox."
+
+#~ msgid "Subscribe to Firefox news and tips"
+#~ msgstr "Abunar novitads e tips davart Firefox"
+
+#~ msgid "missing search parameter: %(itemName)s"
+#~ msgstr "parameter da tschertgar mancant: %(itemName)s"
+
+#~ msgid "Once you're ﬁnished, use your new password to sign in on all of your devices."
+#~ msgstr "Utilisescha tes nov pled-clav per s'annunziar sin tut ils apparats uschespert che ti es pronts."
+
+#~ msgid "Illegal iframe"
+#~ msgstr "Iframe illegal"
+
+#~ msgid "Invalid verification errno"
+#~ msgstr "Errno da verificaziun betg valida"
+
+#~ msgid "Password changed"
+#~ msgstr "Midà il pled-clav"
+
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgstr "Conto betg verifitgà. <a href=\"#\" id=\"resend\">Trametter danovamain l'e-mail da verificaziun</a>."
+
+#~ msgid "Password reset. Sign in to continue."
+#~ msgstr "Redefinì il pled-clav. S'annunzia per cuntinuar."
+
+#~ msgid "Signed out"
+#~ msgstr "Sortì"
+
+#~ msgid "Paste image URL"
+#~ msgstr "Encollar ina URL al maletg"
+
+#~ msgid "Invalid password"
+#~ msgstr "Pled-clav nunvalid"
+
+#~ msgid "Invalid email and password"
+#~ msgstr "Adressa dad e-mail e pled-clav nunvalid"
+
+#~ msgid "Invalid email or password"
+#~ msgstr "Adressa dad e-mail e pled-clav nunvalid"
+
+#~ msgid "Old password invalid"
+#~ msgstr "Il pled-clav vegl è nunvalid"
+
+#~ msgid "New password invalid"
+#~ msgstr "Il pled-clav nov è nunvalid"
+
+#~ msgid "Passwords don't match"
+#~ msgstr "Ils pleds-clav na correspundan betg"
+
+#~ msgid "Please enter an email"
+#~ msgstr "Endatescha per plaschair ina adressa dad e-mail"
+
+#~ msgid "Cannot connect to the internet"
+#~ msgstr "Impussibel da colliar cun l'internet"
+
+#~ msgid "Signed in successfully"
+#~ msgstr "S'annunzià cun success"
+
+#~ msgid "Create a Firefox Account for %(serviceName)s"
+#~ msgstr "Crear in conto da Firefox per %(serviceName)s"
+
+#~ msgid "Change Password"
+#~ msgstr "Midar il pled-clav"
+
+#~ msgid "Invalid authentication token in request signature"
+#~ msgstr "Token nunvalid en la signatura da la dumonda"
+
+#~ msgid "No token specified"
+#~ msgstr "Specifitgà nagin token"
+
+#~ msgid "No code specified"
+#~ msgstr "Specifitgà nagin code"
+
+#~ msgid "No email specified"
+#~ msgstr "Inditgà nagina adressa dad e-mail"
+
+#~ msgid "No uid specified"
+#~ msgstr "Inditgà nagina UID"
+
+#~ msgid "Service unavailable"
+#~ msgstr "Il servetsch n'è betg disponibel"
+
+#~ msgid "Completing sign up"
+#~ msgstr "Cumpletar la registraziun"
+
+#~ msgid "Client has sent too many requests"
+#~ msgstr "Il client ha tramess memia biaras dumondas"
+
+#~ msgid "Delete Account"
+#~ msgstr "Stizzar il conto"

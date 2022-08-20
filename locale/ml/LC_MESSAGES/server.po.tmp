@@ -1,0 +1,479 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2019-05-10 16:24+0000\n"
+"Last-Translator: Kiran Johns <kiranjohns101@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+msgid "Firefox Accounts"
+msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ടുകള്‍"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "താള്‍ കണ്ടെത്തിയില്ല"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and\n"
+"          will fix any links that may be broken."
+msgstr ""
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "പൂമുഖം"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "500 പിശക്"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and\n"
+"          will get working on a fix."
+msgstr ""
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "502 പിശക്"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "സെർവർ തിരക്കിലാണ്, വീണ്ടും ഉടൻ ശ്രമിക്കുക"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return\n"
+"          the system to normal as soon as possible."
+msgstr ""
+
+#: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr "ലഭ്യമാക്കുന്നു"
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "ഫയർഫോക്സ് അക്കൗണ്ടുകൾക്ക് ജാവാസ്ക്രിപ്റ്റ് ആവശ്യമാണ്."
+
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+msgid "Privacy Notice"
+msgstr "സ്വകാര്യതാ അറിയിപ്പ്"
+
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+msgid "Terms of Service"
+msgstr "സേവന നിബന്ധനകൾ"
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr "ഫയർഫോക്സ് കാലികമാക്കേണ്ടതുണ്ട്"
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr "പരിഷ്കരണം ഡൌണ്‍ലോഡ് ചെയ്യൂ"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaOS)s %(uaOSVersion)s-ന്റെ മേൽ %(uaBrowser)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaOS)s-ന്റെ മേൽ %(uaBrowser)s"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(stateCode)s, %(country)s (കണക്കാക്കിയത്)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(country)s (കണക്കാക്കിയത്)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s, %(country)s (കണക്കാക്കിയത്)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (കണക്കാക്കിയത്)"
+
+#~ msgid "Confirm email"
+#~ msgstr "ഇമെയിൽ സ്ഥിരീകരിക്കുക"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "%(clientName)s ലേക്കുള്ള പുതിയ പ്രവേശനം സ്ഥിരീകരിക്കുക"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "പ്രവേശനം സ്ഥിരീകരിക്കുക"
+
+#~ msgid "Create new password"
+#~ msgstr "പുതിയ രഹസ്യവാക്ക് ശ്രഷ്ടിക്കുക"
+
+#~ msgid "Manage account"
+#~ msgstr "അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "%(clientName)s ലേയ്ക്കുള്ള പുതിയ പ്രവേശനം"
+
+#~ msgid "Secondary email added"
+#~ msgstr "ദ്വിതീയ ഇമെയിൽ ചേർത്തു"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "ദ്വിതീയ ഇമെയിൽ നീക്കംചെയ്തു"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "രണ്ടു-ഘട്ട പ്രാമാണീകരണം പ്രാപ്തമാക്കി"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "പുതിയ വീണ്ടെടുക്കൽ കോഡ് സൃഷ്ടിച്ചു"
+
+#~ msgid "Generate codes"
+#~ msgstr "കോഡുകൾ ജനറേറ്റ് ചെയ്യുക"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ സൃഷ്ടിച്ചു"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ നീക്കം ചെയ്തിരിക്കുന്നു"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "പുതിയ വീണ്ടെടുക്കൽ കീ സൃഷ്ടിക്കുക"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "വീണ്ടെടുക്കൽ കോഡുകൾ കുറവാണ്"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "നിങ്ങളുടെ കൈയ്യില്‍ ഇനി വീണ്ടെടുക്കൽ കോഡുകള്‍ കുറവാണെന്ന് തോന്നുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ലോക്ക് ചെയ്യപ്പെടാതിരിക്കാനായി പുതിയ കോഡുകൾ സൃഷ്ടിക്കുന്നത് പരിഗണിക്കുക."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "നിങ്ങളുടെ കൈയ്യില്‍ ഇനി വീണ്ടെടുക്കൽ കോഡുകള്‍ കുറവാണെന്ന് തോന്നുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ലോക്ക് ചെയ്യപ്പെടാതിരിക്കാനായി പുതിയ കോഡുകൾ സൃഷ്ടിക്കുന്നത് പരിഗണിക്കുക."
+
+#~ msgid "Generate codes:"
+#~ msgstr "കോഡുകൾ ജനറേറ്റുചെയ്യുക:"
+
+#~ msgid "Best,"
+#~ msgstr "സ്നേഹപൂര്‍വ്വം,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "ഫയര്‍ഫോക്സ് അക്കൌണ്ട് ടീം"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "രഹസ്യവാക്ക് വിജയകരമായി മാറ്റി"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്ന് നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് വിജയകരമായി മാറ്റിയിരിക്കുന്നു:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ്; ഫയർ ഫോക്സിനുള്ള നിങ്ങളുടെ രഹസ്യവാക്ക് മാറ്റിയിട്ടില്ലെങ്കിൽ, നിങ്ങൾ ഉടനെ തന്നെ %(resetLink)sല്‍ നിന്ന് അത് പുനഃസജ്ജമാക്കണം"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "നിങ്ങളുടെ അക്കൌണ്ട് രഹസ്യവാക്ക് മാറ്റി"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "സമന്വയം പുനരാരംഭിക്കുന്നതിന് നിങ്ങൾ മറ്റ് ഉപകരണങ്ങളിൽ പുതിയ രഹസ്യവാക്ക് നൽകേണ്ടതുണ്ട്."
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "നിങ്ങൾ ഒരു പുതിയ വീണ്ടെടുക്കൽ കീ സൃഷ്ടിക്കേണ്ടതുണ്ട്."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "പുതിയ വീണ്ടെടുക്കൽ കീ സൃഷ്ടിക്കുക:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "കൂടുതൽ വിവരങ്ങൾക്ക് ദയവായി %(supportUrl)s സന്ദർശിക്കുക"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "ഇനിപ്പറയുന്ന ഉപകരണം ഉപയോഗിച്ച് നിങ്ങളുടെ ഫയർ ഫോക്സിനുള്ള അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ വിജയകരമായി സൃഷ്ടിച്ചു:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "ഇത് നിങ്ങൾ ആല്ലായിരുന്നെല്ലെങ്കിൽ <a %(revokeAccountRecoveryLinkAttributes)s>ഇവിടെ ക്ലിക്കുചെയ്യുക.</a>"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്ന് നിങ്ങളുടെ ഫയര്‍ഫോക്സ് അക്കൌണ്ടിനായുള്ല അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ വിജയകരമായി സൃഷ്ടിച്ചു:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "ഇത് നിങ്ങളല്ലായിരുന്നെങ്കിൽ, കീ പിൻവലിക്കുക."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്നും നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിൽ നിങ്ങൾ വിജയകരമായി രണ്ട് ഘട്ടങ്ങളായുള്ള പ്രാമാണീകരണം പ്രാപ്തമാക്കിയിരിക്കുന്നു:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "നിങ്ങളുടെ പ്രാമാണീകരണ അപ്ലിക്കേഷനിൽ നിന്നുള്ള സുരക്ഷാ കോഡ് ഇപ്പോൾ ഓരോ സൈൻ ഇൻ ചെയ്യലും ആവശ്യമാണ്."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിൽ നിങ്ങൾ വിജയകരമായി രണ്ട് ഘട്ടങ്ങളായുള്ള പ്രാമാണീകരണം പ്രാപ്തമാക്കി. നിങ്ങളുടെ പ്രാമാണീകരണ അപ്ലിക്കേഷനിൽ നിന്നുള്ള സുരക്ഷാ കോഡ് ഇപ്പോൾ ഓരോ പ്രവേശനത്തിലും ആവശ്യമാണ്."
+
+#~ msgid "New primary email"
+#~ msgstr "പുതിയ പ്രാഥമിക ഇമെയിൽ"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr "നിങ്ങൾ പ്രാഥമിക ഇമെയിൽ വിജയകരമായി %(email)sആക്കി മാറ്റി. ഈ വിലാസം ഇപ്പോൾ നിങ്ങളുടെ ഫയർഫോക് അക്കൌണ്ടിലേക്ക് പ്രവേശിക്കുന്നതിനും സുരക്ഷ അറിയിപ്പുകളും പ്രവേശനസ്ഥിരീകരണങ്ങള്‍ക്കുമുള്ല ഉപയോക്തൃനാമമാണ്."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "വീണ്ടെടുക്കൽ കോഡ് ഉപയോഗിച്ചു"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്ന് നിങ്ങൾ വീണ്ടെടുക്കൽ കോഡ് വിജയകരമായി പ്രയോജനപ്പെടുത്തിയിരിക്കുന്നു:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "വീണ്ടെടുക്കൽ കോഡ് ഉപയോഗിച്ചു"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തില്‍ നിന്നും നിങ്ങൾ വിജയകരമായി പുതിയ വീണ്ടെടുക്കൽ കോഡ് സൃഷ്ടിച്ചു:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "ഇനിപ്പറയുന്ന ഉപകരണമുപയോഗിച്ച് നിങ്ങളുടെ ഫയർ ഫോക്സിനുള്ള അക്കൗണ്ട് വീണ്ടെടുക്കൽ കീ വിജയകരമായി നീക്കംചെയ്തു:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "നിങ്ങളുടെ വീണ്ടെടുക്കൽ കീ മേലിൽ നിങ്ങളുടെ അക്കൗണ്ട് വീണ്ടെടുക്കുന്നതിന് ഉപയോഗിക്കാനാവില്ല."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്ന് നിങ്ങളുടെ ഫയര്‍ഫോക്സ് അക്കൌണ്ടിന്റെ ഒരു വീണ്ടെടുക്കൽ കീ വിജയകരമായി നീക്കംചെയ്തു:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "നിങ്ങളുടെ ഫയർ ഫോക്സിന്റെ അക്കൌണ്ടിന്റെ ദ്വിതീയ ഇമെയിൽ %(secondaryEmail)s നീക്കംചെയ്തു. സുരക്ഷാ അറിയിപ്പുകളും സൈൻ ഇൻ സ്ഥിരീകരണങ്ങളും ഈ വിലാസത്തിലേക്ക് ഇനി അയയ്ക്കുന്നതല്ല."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "ഇരട്ട-സ്റ്റെപ്പ് പ്രാമാണീകരണം അപ്രാപ്തമാക്കി"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "ഇനിപ്പറയുന്ന ഉപകരണത്തിൽ നിന്ന് നിങ്ങളുടെ ഫയർഫോക്സിലെ രണ്ട് ഘട്ട പരിശോധന വിജയകരമായി അപ്രാപ്തമാക്കി:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "ഓരോ പ്രവേശനത്തിലും ഇനി സുരക്ഷാ കോഡുകളുടെ ആവശ്യമില്ല."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിൽ നിങ്ങൾ വിജയകരമായി രണ്ട് ഘട്ടങ്ങളായുള്ള പ്രാമാണീകരണം അപ്രാപ്തമാക്കി. ഓരോ പ്രവേശനത്തിലും ഇനി സുരക്ഷാ കോഡുകളുടെ ആവശ്യമില്ല."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "നിങ്ങളുടെ രഹസ്യവാക്ക് പുനഃസജ്ജമാക്കേണ്ടതുണ്ടോ?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "ഒരു പുതിയ രഹസ്യവാക്ക് സൃഷ്ടിക്കുന്നതിനായി അടുത്ത മണിക്കൂറിനുള്ളിൽ ബട്ടണിൽ ക്ലിക്കുചെയ്യുക. ഇനിപ്പറയുന്ന ഉപകരണത്തില്‍ നിന്നാണ് അഭ്യർത്ഥന വന്നത്:"
+
+#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+#~ msgstr "ഫയർഫോക്സ് തിരഞ്ഞെടുക്കുന്നതിന് നന്ദി! മൊബൈലിലെ ഫയർഫോക്സ് നിങ്ങൾക്കിവിടെ ഇൻസ്റ്റാൾ ചെയ്യാം: %(link)s"
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "നിങ്ങളാണോ പ്രവേശിക്കുന്നത്?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "അതെ എങ്കില്‍, ഇതാ നിങ്ങൾക്ക് ആവശ്യമുള്ള അംഗീകരിക്കൽ കോഡ്:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "ഇല്ലെങ്കിൽ, അത് <a %(reportSignInLinkAttributes)s>റിപ്പോർട്ടുചെയ്ത് </a>നുഴഞ്ഞുകയറ്റക്കാരെ തടയാന്‍ ഞങ്ങളെ സഹായിക്കൂ"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "ഇല്ലെങ്കിൽ, അത് റിപ്പോർട്ടുചെയ്ത് നുഴഞ്ഞുകയറ്റക്കാരെ തടയാന്‍ ഞങ്ങളെ സഹായിക്കൂ."
+
+#~ msgid "Confirm email:"
+#~ msgstr "ഇമെയിൽ സ്ഥിരീകരിക്കുക:"
+
+#~ msgid "Still there?"
+#~ msgstr "ഇപ്പോഴും അവിടെയുണ്ടോ?"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "ഒരു ആഴ്ച മുൻപ് നിങ്ങൾ ഒരു ഫയർഫോക്സ് അക്കൌണ്ട് സൃഷ്ടിച്ചു പക്ഷെ അതിനെ ഒരിക്കലും സ്ഥിരീകരിച്ചിട്ടില്ല. നിങ്ങളെക്കുറിച്ച് ഞങ്ങൾക്ക് ആശങ്കയുണ്ട്."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "അധിക സുരക്ഷക്കായി, ദയവായി ഈ ഉപകരണത്തിൽ നിന്നുള്ള പ്രവേശനം സ്ഥിരീകരിക്കുക:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "ഒരിക്കൽ പരിശോധിച്ചുറപ്പിച്ചാൽ, ദ്വിതീയ ഇമെയിൽ ചേർക്കുന്നതു പോലെ അക്കൗണ്ട് മാറ്റങ്ങൾ ഈ ഉപകരണത്തിൽ സാധ്യമാകും."
+
+#~ msgid "Verify email: "
+#~ msgstr "ഇമെയില്‍ സ്ഥിരീകരിക്കുക: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "ദ്വിതീയ ഇമെയിൽ സ്ഥിരീകരിക്കുക"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "പരിശോധിച്ചു കഴിഞ്ഞാൽ, ഈ വിലാസം സുരക്ഷാ അറിയിപ്പുകളും സ്ഥിരീകരണങ്ങളും സ്വീകരിച്ചുതുടങ്ങും."
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "റെഡി, സെറ്റ്, സമന്വയിപ്പിക്കുക"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "നിങ്ങൾക്ക് ഈ ഇമെയിൽ ലഭിച്ചുവെന്ന് സ്ഥിരീകരിക്കുക, കൂടാതെ നിങ്ങളുടെ എല്ലാ ഉപകരണങ്ങളിലും ഫയർ ഫോക്സ് ഇൻസ്റ്റാൾ ചെയ്യുകയും സമന്വയിപ്പിക്കുകയും ചെയ്യുന്നതിന് ഞങ്ങൾ സഹായിക്കും:"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "കൂടുതൽ വിവരങ്ങൾക്ക്, ദയവായി <a %(supportLinkAttributes)s>മോസില്ലയുടെ പിന്തുണ താള്‍</a> സന്ദർശിക്കുക."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ്; നിങ്ങളുടെ ഫയർഫോക്സിനൊപ്പം നിങ്ങൾ ഒരു പുതിയ ഉപകരണം ചേർത്തില്ലെങ്കിൽ, നിങ്ങൾ ഉടനെ നിങ്ങളുടെ രഹസ്യവാക്ക് %(passwordChangeLink)sമാറ്റണം"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ്; അബദ്ധവശാലാണ് നിങ്ങൾക്ക് ഈ ഇമെയില്‍ വന്നതെങ്കില്‍ ഒന്നും ചെയ്യണ്ട."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില് ആണ്; നിങ്ങൾ ഈ പ്രവർത്തനം അംഗീകരിയ്ക്കുന്നില്ലെങ്കില്‍, <a %(resetLinkAttributes)s>ദയവായി നിങ്ങളുടെ രഹസ്യവാക്ക് പുനഃസജ്ജമാക്കുക </a>."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "ഐപി വിലാസം: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക:"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "മോസില്ലയുടെ സ്വകാര്യ വ്യവസ്ഥകള്‍"
+
+#~ msgid "What should you do?"
+#~ msgstr "നിങ്ങള്‍ എന്ത് ചെയ്യും?"
+
+#~ msgid "Connect another device"
+#~ msgstr "മറ്റൊരു ഉപകരണം കണക്റ്റു ചെയ്യുക"
+
+#~ msgid "Account verified!"
+#~ msgstr "അക്കൗണ്ട് തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു!"
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "സമന്വയിപ്പിക്കാനായി പ്രവേശിക്കുക:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "%(serviceName)s ലേക്ക് സ്വാഗതം!"
+
+#~ msgid "Welcome!"
+#~ msgstr "സ്വാഗതം!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് സജീവമാക്കുന്നതിനും %(serviceName)sകൾ തുടരുന്നതിന് ഈ ഇമെയിൽ വിലാസം സ്ഥിരീകരിക്കുക."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ട് സജീവമാക്കുന്നതിന് ഈ ഇമെയിൽ വിലാസം സ്ഥിരീകരിക്കുക."
+
+#~ msgid "Activate now:"
+#~ msgstr "ഇപ്പോൾ സജീവമാക്കുക:"
+
+#~ msgid "Activate now"
+#~ msgstr "ഇപ്പോൾ സജീവമാക്കുക"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിച്ച് സമന്വയിപ്പിക്കാൻ തുടങ്ങുക!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം വിജയകരമായി ഫയർഫോക്സ് അക്കൌണ്ടുമായി ബന്ധിപ്പിച്ചു. ഇപ്പോൾ നിങ്ങൾക്ക് <a href='%(androidUrl)s'>ആൻഡ്രോയിഡ്</a>, <a href='%(iosUrl)s'>ഐഒഎസ്</a> എന്നിവയ്ക്കുള്ള ഫയർഫോക്സില്‍ പ്രവേശിച്ച് സമന്വയം "
+#~ "സാധ്യമാക്കാം."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+#~ msgstr ""
+#~ "നിങ്ങളുടെ ആദ്യത്തെ ഉപകരണം നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ടുമായി വിജയകരമായി ബന്ധിപ്പിച്ചു. സമന്വയം ഏറ്റവും മികച്ചതാക്കാൻ <a href='%(androidUrl)s'>ആന്‍ഡ്രോയ്ഡിനായുള്ള ഫയർഫോക്സ്</a>അല്ലെങ്കിൽ <a href='%(iosUrl)s'>ഐ.ഓ.എസ്സിനായുള്ള "
+#~ "ഫയർഫോക്സ്</a> ഇവയുമായി ബന്ധിപ്പിക്കുക."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "സമന്വയിപ്പിക്കാനായി പ്രവേശിക്കുക"
+
+#~ msgid "This is an automated email."
+#~ msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില്‍ ആണ്."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+#~ msgstr "ഇതൊരു യാന്ത്രിക ഇമെയില്‍ ആണ്; ഈ പ്രവർത്തനം നിങ്ങൾ അംഗീകരിയ്ക്കുന്നില്ലെങ്കില്‍ <a %(passwordChangeLinkAttributes)s>നിങ്ങളുടെ രഹസ്യവാക്ക് മാറ്റുക.</a>"
+
+#~ msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "നിങ്ങൾ ഇത് മാറ്റിയിട്ടില്ലെങ്കിൽ, <a %(resetLinkAttributes)s> ഇപ്പോൾ നിങ്ങളുടെ രഹസ്യവാക്ക് പുനഃസജ്ജമാക്കുക </a>."
+
+#~ msgid "Verify Email"
+#~ msgstr "ഇമെയില്‍ സ്ഥിരീകരിയ്ക്കുക"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "നിങ്ങളുടെ ഫയർ ഫോക്സ് രജിസ്ട്രേഷൻ പൂർത്തിയാക്കുന്നതിന് നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിക്കുക"
+
+#~ msgid "Verify email "
+#~ msgstr "ഇമെയില്‍ സ്ഥിരീകരിക്കുക "
+
+#~ msgid "If you did not authorize this action, please change your password."
+#~ msgstr "ഈ പ്രവൃത്തി അംഗീകരിക്കുന്നില്ലെങ്കിൽ, നിങ്ങളുടെ രഹസ്യവാക്ക് മാറ്റുക."
+
+#~ msgid "Verify your Firefox Account"
+#~ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ട് പരിശോധിക്കുക"
+
+#~ msgid "Firefox Account authorization code"
+#~ msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് അംഗീകാര കോഡ്"
+
+#~ msgid "Sign-in code for Firefox"
+#~ msgstr "ഫയര്‍ഫോക്സിലേക്കുള്ള പ്രവേശന കോഡ്"
+
+#~ msgid "Reset your Firefox Account password"
+#~ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ടിന്റെ രഹസ്യവാക്ക് പുനഃസജ്ജീകരിക്കുക"
+
+#~ msgid "Your Firefox Account password has been changed"
+#~ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൌണ്ടിന്റെ രഹസ്യവാക്ക് മാറ്റിയിട്ടുണ്ട്"
+
+#~ msgid "Firefox Account password changed"
+#~ msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് മാറ്റി"
+
+#~ msgid "Firefox Account password reset required"
+#~ msgstr "ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്കിന്റെ പുനഃസജ്ജീകരണം ആവശ്യമാണ്"
+
+#~ msgid "Firefox Account verified"
+#~ msgstr "ഫയര്‍ഫോക്സ് അക്കൗണ്ട് തീര്‍ച്ചപ്പെടുത്തിയിരിക്കുന്നു"
+
+#~ msgid "Secondary Firefox Account email added"
+#~ msgstr "ഫയർഫോക്സ് അക്കൗണ്ടില്‍ ദ്വിതീയ ഇമെയിൽ ചേർത്തു"
+
+#~ msgid "Firefox Account new primary email"
+#~ msgstr "ഫയർഫോക്സ് അക്കൌണ്ടിന്റെ പുതിയ പ്രാഥമിക ഇമെയിൽ"
+
+#~ msgid "Secondary Firefox Account email removed"
+#~ msgstr "ഫയർഫോക്സ് അക്കൗണ്ടിന്റെ ദ്വിതീയ ഇമെയിൽ നീക്കംചെയ്തു"
+
+#~ msgid "Firefox Account password reset with recovery key"
+#~ msgstr "വീണ്ടെടുക്കൽ കീയുപയോഗിച്ച് ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് പുനഃസജ്ജീകരിച്ചു"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "നിങ്ങൾ അഭ്യർത്ഥിച്ച താള്‍ കണ്ടെത്തിയില്ല. ഞങ്ങൾ അറിയിക്കപ്പെടുകയും തകർന്ന ഏതെങ്കിലും കണ്ണികൾ ശരിയാക്കുകയും ചെയ്യും."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "അയ്യോ, അവിടെയെന്തോ കുഴപ്പം സംഭവിച്ചു. ഞങ്ങൾക്ക് അറിയിപ്പ് ലഭിച്ചിട്ടുണ്ട്, അത് പരിഹരിക്കപ്പെടാനുള്ള പ്രവർത്തനം ഉടന്‍ തുടങ്ങുന്നതാണ്."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "ഞങ്ങൾ ഇപ്പോൾ വളരെ തിരക്കിലാണ്, കഴിയുന്നത്ര വേഗം സിസ്റ്റം സാധാരണ രീതിയിലേക്ക് തിരികെ കൊണ്ടുവരാൻ നോക്കുന്നുണ്ട്."
+
+#~ msgid "Hello again."
+#~ msgstr "വീണ്ടും നമസ്കാരം."
+
+#~ msgid "You recently created a Firefox Account but haven't confirmed your email yet."
+#~ msgstr "നിങ്ങൾ അടുത്തിടെ ഒരു ഫയർഫോക്സ് അക്കൗണ്ട് സൃഷ്ടിച്ചു, എന്നാൽ ഇതുവരെ നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിച്ചിട്ടില്ല."
+
+#~ msgid "Reminder: Confirm your email to activate your Firefox Account"
+#~ msgstr "ഓര്‍മ്മപ്പെടുത്തല്‍: നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് സജീവമാക്കാൻ നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിക്കുക"
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "നിങ്ങൾ <strong>കാലഹരണപ്പെട്ട</strong> ബ്രൌസറാണ് ഉപയോഗിക്കുന്നത്. നിങ്ങളുടെ അനുഭവം മെച്ചപ്പെടുത്താൻ <a href=\"http://browsehappy.com/\">നിങ്ങളുടെ ബ്രൗസർ അപ്ഗ്രേഡുചെയ്യുക</a>."
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "കുറച്ച് മുമ്പ് നിങ്ങൾ ഒരു ഫയർഫോക്സ് അക്കൌണ്ട് സൃഷ്ടിച്ചു, പക്ഷേ അത് ഒരിക്കലും പരിശോധിച്ചിട്ടില്ല. നിങ്ങളുടെ അക്കൗണ്ട് സജീവമാക്കാൻ ചുവടെയുള്ള ലിങ്ക് ക്ലിക്കുചെയ്യുക."
+
+#~ msgid "New sign-in to Firefox"
+#~ msgstr "ഫയർഫോക്സിൽ പുതുതായി പ്രവേശിക്കൽ"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "താങ്കളുടെ പാസ്‌വേര്‍ഡ് റീസെറ്റ്‌ ചെയ്തിരിക്കുന്നു"
+
+#~ msgid "Reset password"
+#~ msgstr "രഹസ്യവാക്ക് പുനസജ്ജീകരിക്കുക"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "ഫയർഫോക്സിൽ പുതിയ പ്രവേശനം സ്ഥിരീകരിക്കുക"
+
+#~ msgid "Your Firefox Account password has been reset"
+#~ msgstr "നിങ്ങളുടെ ഫയർഫോക്സ് അക്കൗണ്ട് രഹസ്യവാക്ക് പുനഃസജ്ജീകരിച്ചു"
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "ഫയർഫോക്സ് ക്ലൗഡ് സേവനങ്ങൾ"

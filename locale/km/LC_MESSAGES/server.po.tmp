@@ -1,0 +1,186 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2020-10-19 05:38+0000\n"
+"Last-Translator: Sophat <sophatchy@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pontoon\n"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+msgid "Firefox Accounts"
+msgstr "គណនី Firefox"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr ""
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and\n"
+"          will fix any links that may be broken."
+msgstr ""
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr ""
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr ""
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and\n"
+"          will get working on a fix."
+msgstr ""
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr ""
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr ""
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return\n"
+"          the system to normal as soon as possible."
+msgstr ""
+
+#: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr ""
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr ""
+
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+msgid "Privacy Notice"
+msgstr ""
+
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+msgid "Terms of Service"
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr ""
+
+#~ msgid "Here's your reminder to sync devices."
+#~ msgstr "នេះជាការរំលឹករបស់អ្នកដើម្បីធ្វើសមកាលកម្មឧបករណ៍។"
+
+#~ msgid "Best,"
+#~ msgstr "ល្អ​បំផុត"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "ក្រុម​គណនី Firefox"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "បាន​ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់​ដោយ​ជោគជ័យ"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "ពាក្យ​សម្ងាត់​សម្រាប់គណនី Firefox របស់​អ្នក​ត្រូវ​បាន​ផ្លាស់​ប្ដូរ​ដោយ​ជោគជ័យ​ពី​ឧបករណ៍​ខាង​ក្រោម៖"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "នេះ​គឺ​ជា​អ៊ីម៉ែល​ស្វ័យ​ប្រវត្តិ។ បើ​អ្នក​មិន​បាន​ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក​ទេ អ្នក​គួរ​កំណត់​វា​ឡើង​វិញ​ជា​បន្ទាន់​តាម​រយៈ %(resetLink)s"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "សម្រាប់​ព័ត៌មាន​បន្ថែម សូម​ចូល​ទៅកាន់ %(supportUrl)s"
+
+#~ msgid "Still there?"
+#~ msgstr "នៅ​ទី​នេះ​ដែរ​ឬ​ទេ?"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "សម្រាប់​ព័ត៌មាន​បន្ថែម សូម​ចូល​ទៅកាន់ <a %(supportLinkAttributes)s>ជំនួយ​ Mozilla</a>"
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "នេះ​គឺ​ជា​អ៊ីម៉ែល​ស្វ័យ​ប្រវត្តិ។ បើសិន​អ្នក​មិន​បាន​បន្ថែម​ឧបករណ៍​ថ្មី​ទៅ​គណនី Firefox របស់​អ្នក អ្នក​គួរ​តែ​ប្ដូរ​ពាក្យ​សម្ងាត់​របស់​អ្នក​នៅ %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "នេះ​គឺ​ជា​អ៊ីម៉ែល​ស្វ័យ​ប្រវត្តិ។ បើ​អ្នកទទួល​បាន​អ៊ីម៉ែល​នេះ​ដោយ​កំហុស សូម​ទុក​វា​ចោល​ចុះ។"
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "នេះ​គឺ​ជា​អ៊ីម៉ែល​ស្វ័យ​ប្រវត្តិ។ បើ​អ្នក​មិន​បាន​អនុញ្ញាតិ​សកម្មភាព​នេះ <a %(resetLinkAttributes)s>សូម​កំណត់​ពាក្យ​សម្ងាត់​របស់​អ្នកឡើង​វិញ</a>"
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "អាសយដ្ឋាន IP៖ %(ip)s"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "គោលនយោបាយ​ឯកជនភាព Mozilla"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "យើង​បាន​​រក​ឃើញ​សកម្មភាព​គួរ​ឲ្យ​សង្ស័យ​លើ​គណនី Firefox របស់​អ្នក។ គណនី​របស់​អ្នក​អាច​ត្រូវ​បាន​គេ​លួច។"
+
+#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+#~ msgstr "ដើម្បី​បង្ការ​ការ​លួច​ចូល​ទៅ​កាន់​គណនី Firefox របស់​អ្នក​នា​ពេល​អនាគត យើង​បាន​កំណត់​ពាក្យ​សម្ងាត់​របស់​អ្នក​ឡើង​វិញ និង​ជូន​ដំណឹង​ដល់​អ្នកជាមុន។"
+
+#~ msgid "What should you do?"
+#~ msgstr "តើ​អ្នក​គួរ​តែ​ធ្វើ​អ្វី?"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "ជា​បឋម សូម​ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក។"
+
+#~ msgid "Connect another device"
+#~ msgstr "ភ្ជាប់​ឧបករណ៍​មួយ​ទៀត"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "អ្នក​បាន​ភ្ជាប់​ឧបករណ៍​ដំបូង​ទៅ​នឹងគណនី Firefox របស់​អ្នក​ដោយ​ជោគជ័យ។ ឥឡូវ​នេះ​អ្នក​អាច​ចូល​ដើម្បី​ធ្វើ​សមកាលកម្ម​ពី​ឧបករណ៍​ផ្សេង​ទៀត ដោយ​រួម​បញ្ចូល​ទាំង Firefox សម្រាប់ <a href='%(androidUrl)s'> Android </a> និង <a href='%(iosUrl)s'>iOS</a>។"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+#~ msgstr ""
+#~ "អ្នក​បាន​ភ្ជាប់​ឧបករណ៍​ដំបូង​ទៅ​នឹងគណនី Firefox របស់​អ្នក​ដោយ​ជោគជ័យ។ ដើម្បី​បាន​ប្រយោជន៍​កាន់​តែ​ច្រើន​ពី​ការ​ធ្វើ​សមកាលកម្ម សូម​ភ្ជាប់ <a href='%(androidUrl)s'>Firefox សម្រាប់ Android</a> ឬ <a href='%(iosUrl)s'>Firefox សម្រាប់ iOS</a>។"
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "ចូល​ដើម្បី​ធ្វើ​សមកាលកម្ម"
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+#~ msgstr "នេះ​គឺ​ជា​អ៊ីម៉ែល​ស្វ័យ​ប្រវត្តិ។ បើ​អ្នក​មិន​បាន​អនុញ្ញាតិ​សកម្មភាព​នេះ <a %(passwordChangeLinkAttributes)s>សូម​ប្ដូរ​ពាក្យ​សម្ងាត់​របស់​អ្នក</a>"
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "មុន​នេះ​បន្តិច​អ្នក​បាន​បង្កើត​គណនី Firefox តែ​មិន​ទាន់​បាន​ផ្ទៀងផ្ទាត់​នៅ​ឡើយ។ សូម​ចុច​លើ​តំណ​ខាងក្រោម​ដើម្បី​ដំណើរការ​គណនី​របស់​អ្នក។"
+
+#~ msgid "New sign-in to Firefox"
+#~ msgstr "ការ​ចូល​ថ្មី​ទៅ Firefox"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "ពាក្យ​សម្ងាត់​របស់​អ្នក​ត្រូវ​បាន​កំណត់​ឡើង​វិញ"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក​បាន​ប្ដូរ។ បើ​អ្នក​មិន​បាន​ប្ដូរ​ទេ សូម <a %(resetLinkAttributes)s>ប្ដូរ​ពាក្យ​សម្ងាត់</a> ឥឡូវ​នេះ។"
+
+#~ msgid "Password reset successfully"
+#~ msgstr "បាន​កំណត់​ពាក្យ​សម្ងាត់​ឡើង​វិញ​ដោយ​ជោគជ័យ"
+
+#~ msgid "Your Firefox Account password has been successfully reset."
+#~ msgstr "ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក​បាន​កំណត់​ឡើង​វិញ​ដោយ​ជោគជ័យ។"
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "នេះ​គឺ​ជា​អ៊ីម៉ែល​ស្វ័យ​ប្រវត្តិ។ បើ​អ្នក​មិន​បាន​កំណត់​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក​ឡើងវិញទេ អ្នក​គួរ​កំណត់​វា​ជាថ្មី​​ជា​បន្ទាន់​តាម​រយៈ %(resetLink)s"

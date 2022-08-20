@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: 2019-03-12 15:36+0000\n"
 "Last-Translator: Mārtiņš <veisis@tvnet.lv>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,11 +11,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
 "X-Generator: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Konti"
 
@@ -29,7 +34,8 @@ msgid ""
 "          will fix any links that may be broken."
 msgstr ""
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Sākumlapa"
 
@@ -65,11 +71,13 @@ msgstr "Ielādē"
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox kontiem ir nepieciešams JavaScript."
 
-#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
 msgstr "Privātuma atruna"
 
-#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Lietošanas noteikumi"
 
@@ -81,335 +89,11 @@ msgstr ""
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
+"                        download and install the latest version of Firefox "
+"to\n"
 "                        continue."
 msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Lejupielādēt jaunāko"
-
-#~ msgid "Confirm sign-in"
-#~ msgstr "Apstiprināt ieiešanu"
-
-#~ msgid "Reset your password"
-#~ msgstr "Atstatiet savu paroli"
-
-#~ msgid "Create new password"
-#~ msgstr "Izveidot jaunu paroli"
-
-#~ msgid "Best,"
-#~ msgstr "Ar sveicieniem,"
-
-#~ msgid "The Firefox Accounts team"
-#~ msgstr "Firefox kontu komanda"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Parole tika veiksmīgi nomainīta"
-
-#~ msgid "For more information, please visit %(supportUrl)s"
-#~ msgstr "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet %(supportUrl)s"
-
-#~ msgid "Still there?"
-#~ msgstr "Vai jūs te joprojām esat?"
-
-#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-#~ msgstr "Lai saņemtu vairāk informāciju, lūdzu apmeklējiet <a %(supportLinkAttributes)s>Mozilla Support</a>."
-
-#~ msgid "This is an automated email; if you received it in error, no action is required."
-#~ msgstr "Šis ir automātisks epasts; jā jūs to saņēmāt kļūdas pēc, nekāda darbība nav nepieciešama."
-
-#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-#~ msgstr "Šis ir automatizēts e-pasts; ja jūs neesat autorizējušies šai rīcībai, tad <a %(resetLinkAttributes)s>lūdzu atjaunojiet savu paroli</a>."
-
-#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-#~ msgstr "Ja jums ir aizdomas ka kāds cenšas piekļūt jūsu kontam, lūdzu izmainiet savu paroli."
-
-#~ msgid "IP address: %(ip)s"
-#~ msgstr "IP adrese: %(ip)s"
-
-#~ msgid "Mozilla Privacy Policy"
-#~ msgstr "Mozilla privātuma politika"
-
-#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-#~ msgstr "Mēs pamanījām aizdomīgas aktivitātes uz jūsu Firefox kontu. Jūs konts varētu būt kompromitēts."
-
-#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-#~ msgstr "Lai nepieļautu neatļautu pieeju jūsu Firefox kontam, mēs atstātijām jūsu paroli un par to jūs paziņojam kā piesardzības pasākumu."
-
-#~ msgid "What should you do?"
-#~ msgstr "Kas jums būt jādara?"
-
-#~ msgid "First, change your Firefox Account password."
-#~ msgstr "Pirmkārt, jānomaina ir Firefox konta parole."
-
-#~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
-#~ "activity."
-#~ msgstr ""
-#~ "Otrkārt, ja Firefox saglabā paroles uz tīmekļa vietnēm, vajadzētu mainīt arī šīs paroles. Uzbrucējiem var būt piekļuve šīm parolēm, tāpēc jums vajadzētu pārbaudīt šos kontus par aizdomīgu "
-#~ "aktivitāti."
-
-#~ msgid "Learn how to see what passwords Firefox is storing for you."
-#~ msgstr "Uzziniet kā redzēt kuras paroles Firefox saglabā jums."
-
-#~ msgid "Connect another device"
-#~ msgstr "Savienot citu ierīci"
-
-#~ msgid "Account verified!"
-#~ msgstr "Konts pārbaudīts!"
-
-#~ msgid ""
-#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-#~ "%(iosLinkAttributes)s>iOS</a>."
-#~ msgstr ""
-#~ "Jūs veiksmīgi savienojāt savu ierīci ar jūsu Firefox kontu. Tagad jūs varat pieslēgties lai sinhronizētu no citām jūsu ierīcēm, tajā skaitā Firefox <a %(androidLinkAttributes)s>Android</a> un <a "
-#~ "%(iosLinkAttributes)s>iOS</a> ierīcēm."
-
-#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-#~ msgstr "Jūs veiksmīgi savienojāt savu pirmo ierīci ar savu Firefox kontu. Jūs tagad varat savienoties ar Sync uz citām ierīcēm, iekļaujot Firefox Android un iOS ierīcēm."
-
-#~ msgid "Sign in to Sync:"
-#~ msgstr "Pieslēgties uz Sync:"
-
-#~ msgid "Welcome!"
-#~ msgstr "Laipni lūdzam!"
-
-#~ msgid "Activate now:"
-#~ msgstr "Aktivizēt tagad:"
-
-#~ msgid "Activate now"
-#~ msgstr "Aktivizēt tagad"
-
-#~ msgid ""
-#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
-#~ "href='%(iosUrl)s'>iOS</a>."
-#~ msgstr ""
-#~ "Jūs veiksmīgi savienojāt savu pirmo ierīci ar savu Firefox kontu. Jūs tagad varat savienoties ar Sync uz citām ierīcēm, iekļaujot Firefox <a href='%(androidUrl)s'>Android</a> un <a "
-#~ "href='%(iosUrl)s'>iOS</a> ierīcēm."
-
-#~ msgid ""
-#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-#~ "iOS</a>."
-#~ msgstr ""
-#~ "Jūs veiksmīgi savienojāt savu pirmo ierīci ar savu Firefox kontu. Lai pilnvērtīgi izmantot Sync, pievienojiet jebkuru <a href='%(androidUrl)s'>Firefox Android ierīcēm</a> vai <a "
-#~ "href='%(iosUrl)s'>Firefox iOS ierīcēm</a>."
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "Pieslēgties uz Sync"
-
-#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-#~ msgstr "Šis ir automātisks epasts; ja jūs šo darbību neatļāvāt, <a %(passwordChangeLinkAttributes)s>lūdzu izmainiet savu paroli.</a>"
-
-#~ msgid "Verify Email"
-#~ msgstr "Apstiprināt epastu"
-
-#~ msgid "Verify your email to finish your Firefox Account registration"
-#~ msgstr "Pārbaudiet savu e-pastu, lai pabeigtu jūsu Firefox konta reģistrāciju"
-
-#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-#~ msgstr "Ja jums ir aizdomas ka kāds mēģina piekļūt jūsu kontam, <a %(passwordChangeLinkAttributes)s>lūdzu izmainiet savu paroli</a>."
-
-#~ msgid "Verify your Firefox Account"
-#~ msgstr "Pārbaudiet savu Firefox kontu"
-
-#~ msgid "Reset your Firefox Account password"
-#~ msgstr "Atstatiet sava Firefox konta paroli"
-
-#~ msgid "Your Firefox Account password has been changed"
-#~ msgstr "Jūsu Firefox konta parole tika mainīta"
-
-#~ msgid "Firefox Account password reset required"
-#~ msgstr "Firefox konta paroles atstatīšana nepieciešama"
-
-#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-#~ msgstr "Lapa jūs pieprasījāt netika atrasta. Mēs tikam informēti un salabosim jebkuru salūzušu saiti."
-
-#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-#~ msgstr "Ak vai, kaut kas te nogāja greizi. Mēs esam informēti un izstrādāsim labojumu."
-
-#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-#~ msgstr "Mums šobrīd ir liela darba slodze, un mēs cenšamies atgriezties uz normālo stāvokli cik ātri iespējams."
-
-#~ msgid "Hello again."
-#~ msgstr "Vēlreiz sveiki."
-
-#~ msgid "Please activate your account by confirming this email address."
-#~ msgstr "Lūdzu aktivizējiet savu kontu apstiprinot šo epasta adresi."
-
-#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-#~ msgstr "Jūs izmantojat <strong>novecojušu</strong> pārlūku. Lūdzu <a href=\"http://browsehappy.com/\">atjauniniet savu pārlūku</a> lai uzlabotu savu pārlūkošanu."
-
-#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-#~ msgstr "Jūs pirms brīža izveidojāt Firefox Kontu, bet to nepārbaudījāt. Noklikšķiniet uz saiti zemāk, lai aktivizētu savu kontu."
-
-#~ msgid "New sign-in to Firefox"
-#~ msgstr "Jauna pierakstīšanās uz Firefox"
-
-#~ msgid "Your password has been reset"
-#~ msgstr "Jūsu parole tika atstatīta"
-
-#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-#~ msgstr "Jūsu Firefox konta parole ir mainīta. Ja jūs to nemainījāt, lūdzu <a %(resetLinkAttributes)s>atjaunojiet savu paroli</a> tagad."
-
-#~ msgid "Password reset successfully"
-#~ msgstr "Parole tika veiksmīgi atstatīta"
-
-#~ msgid "Your Firefox Account password has been successfully reset."
-#~ msgstr "Jūsu Firefox konts tika veiksmīgi atstatīts."
-
-#~ msgid "Forgot your password?"
-#~ msgstr "Aizmirsāt savu paroli?"
-
-#~ msgid "Reset password"
-#~ msgstr "Atstatīt paroli"
-
-#~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
-#~ msgstr ""
-#~ "Pirms dažām dienām jūs izveidojāt Firefox kontu, bet to nepārbaudījāt. Pārbaudīti konts jums ļauj piekļūt savām cilnēm, grāmatzīmem, parolem un vēsturei uz jebkuru ierīci, kas ar to savienots. "
-#~ "Vienkārši apstipriniet šo e-pasta adresi, lai aktivizētu savu kontu."
-
-#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "Pirms nedēļas jūs izveidojāt Firefox kontu, bet neesat to verificējis. Mēs uztraucāmies par tevi. Apstipriniet šo epasta adresi lai aktivizētu savu kontu un liktu mums zināt ka viss ir kārtībā."
-
-#~ msgid "Confirm new sign-in to Firefox"
-#~ msgstr "Apstiprināt jauno pierakstīšanos uz Firefox"
-
-#~ msgid "Your Firefox Account password has been reset"
-#~ msgstr "Jūsu Firefox konta parole tika atstatīta"
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Firefox mākoņa pakalpojumi"
-
-#~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
-#~ msgstr "Vai esat pierakstījies savā Firefox kontā 60. pēdējās dienās no šīm vietām? Ja jūs neatpazīstat šis vietas, kāds var būt piekļuvis jūsu Firefox kontam."
-
-#~ msgid "Date & Time:"
-#~ msgstr "Datums un laiks:"
-
-#~ msgid "Device:"
-#~ msgstr "Ierīce:"
-
-#~ msgid "Location:"
-#~ msgstr "Atrašanās vieta:"
-
-#~ msgid "If you don’t recognize the activity above:"
-#~ msgstr "Ja jūs neatpazīstat iepriekšminētās aktivitātes:"
-
-#~ msgid "Why are you receiving this email?"
-#~ msgstr "Kāpēc jūs saņemat šo e-pastu?"
-
-#~ msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
-#~ msgstr "Mēs nesen pamanījām ieiešanas Firefox kontos no neparastām vietām. Mēs jūs pabrīdinām lai neņemtu riskus."
-
-#~ msgid "Suspicious activity with your Firefox Account"
-#~ msgstr "Aizdomīgas aktivitātes ar jūsu Firefox kontu"
-
-#~ msgid "Your Firefox Account password has been successfully changed."
-#~ msgstr "Jūsu Firefox konta parole tika veiksmīgi nomainīta."
-
-#~ msgid "Click the button within the next hour to set a new password for your Firefox Account."
-#~ msgstr "Noklikšķiniet uz pogu nākamās stundas laikā lai uzstādīt jaunu paroli savam Firefox kontam."
-
-#~ msgid "Alternatively:"
-#~ msgstr "Vai arī:"
-
-#~ msgid "Firefox Account Verified"
-#~ msgstr "Firefox konts ir pārbaudīts"
-
-#~ msgid "Remember password? Sign in."
-#~ msgstr "Atcerēties paroli? Ieiet."
-
-#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
-#~ msgstr "Šis ir automātisks epasts; ja jūs nepievienojāt jaunu ierīci savam Firefox kontam, jūs nekavējoties ir jāmaina savu paroli uz %(resetLink)s."
-
-#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
-#~ msgstr "Šis ir automātisks epasts; ja jūs neizmainijāt sava Firefox konta paroli, jums tā ir jāatstata tagad uz %(resetLink)s."
-
-#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
-#~ msgstr "Šis ir automātisks epasts; ja jūs neatstatījāt sava Firefox konta paroli, jums tā ir jāatstata tagad uz %(resetLink)s."
-
-#~ msgid "Account activity notice"
-#~ msgstr "Konta darbības paziņojums"
-
-#~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
-#~ msgstr "Drošības nodrošināšanai jūsu Firefox konts tika atslēgts. Lai veikt konta līmeņa darbības, lūdzu klikšķiniet uz saiti lai tagad atkārtoti pārbaudīt savu kontu."
-
-#~ msgid "Verify account"
-#~ msgstr "Pārbaudīt kontu"
-
-#~ msgid "Verify account:"
-#~ msgstr "Pārbaudīt kontu:"
-
-#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
-#~ msgstr "Paaugstinātai drošībai, lūdzu apstipriniet šo ieiešanu lai sāktu sinhronizāciju ar %(device)s."
-
-#~ msgid "Re-verify your Firefox Account"
-#~ msgstr "Vēlreiz pārbaudiet savu Firefox kontu"
-
-#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
-#~ msgstr "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet <a %(supportLinkAttributes)s>Mozilla Atbalsts</a>"
-
-#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a href='%(resetLink)s'>reset your password</a> now."
-#~ msgstr "Jūs Firefox konta parole ir mainījusies. Ja jūs to neizdarījāt, lūdzu <a href='%(resetLink)s'>atstatiet savu paroli</a> tagad."
-
-#~ msgid ""
-#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
-#~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr ""
-#~ "Jūs izveidojāt Firefox kontu pirms nedēļas, bet to nekad nepārbaudījāt. Mēs uztraucamies par jums. Firefox ir pieejams uz Windows, Mac, GNU/Linux, Android un iOS. Jūs varat sinhronizēt savas "
-#~ "Firefox paroles, grāmatzīmes un vēsturi visās šajās ierīcēs. Apstipriniet šo epasta adresi lai aktivizētu savu kontu un lai mēs zinātu ka ar jums viss ir kārtībā."
-
-#~ msgid "Bad Request"
-#~ msgstr "Nederīgs pieprasījums"
-
-#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(supportLinkAttributes)s>please report it to us</a>."
-#~ msgstr "Ja jums ir aizdomas ka kāds mēģinātu piekļūt jūsu kontam, <a %(supportLinkAttributes)s>lūdzu pabrīdiniet mūs par to</a>."
-
-#~ msgid "If you suspect that someone is trying to gain access to your account, please report it to us."
-#~ msgstr "Ja jums ir aizdomas ka kāds mēģinātu piekļūt jūsu kontam, lūdzu pabrīdiniet mūs par to."
-
-#~ msgid "Are you sure?"
-#~ msgstr "Vai esat pārliecināts?"
-
-#~ msgid "Reset password now"
-#~ msgstr "Atstatīt paroli tagad"
-
-#~ msgid "Reset password now:"
-#~ msgstr "Atstatīt paroli tagad:"
-
-#~ msgid "Activate Now:"
-#~ msgstr "Aktivizēt tagad:"
-
-#~ msgid "Reset password:"
-#~ msgstr "Atstatīt paroli:"
-
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet https://support.mozilla.org"
-
-#~ msgid "Verify"
-#~ msgstr "Pārbaudīt"
-
-#~ msgid "Verify:"
-#~ msgstr "Pārbaudīt:"
-
-#~ msgid "Verify your account"
-#~ msgstr "Pārbaudiet savu kontu"
-
-#~ msgid "Re-verify your account"
-#~ msgstr "Vēlreiz pārbaudiet savu kontu"
-
-#~ msgid "A new device is now syncing to your Firefox Account"
-#~ msgstr "Jaunā ierīce tagad tiek sinhronizēta ar Firefox kontu"
-
-#~ msgid "Firefox Account Activation"
-#~ msgstr "Firefox konta aktivizēšana"
-
-#~ msgid "For more information, please visit <a href='https://support.mozilla.org' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-#~ msgstr "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet <a href='https://support.mozilla.org' style='color: #0095dd; text-decoration: none;'>Mozilla Atbalsts</a>"
-
-#~ msgid "For more information, please visit <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
-#~ msgstr "Lai iegūtu vairāk informācijas, lūdzu apmeklējiet <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: none;'>Mozilla Atbalsts</a>"

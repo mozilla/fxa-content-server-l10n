@@ -1,0 +1,135 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2021-11-13 04:53+0000\n"
+"Last-Translator: क्षणिक पौडेल <kakapoudel7@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ne_NP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+msgid "Firefox Accounts"
+msgstr "Firefox खाताहरू"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "पृष्ठ फेला परेन"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and\n"
+"          will fix any links that may be broken."
+msgstr ""
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "गृह"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "500 त्रुटि"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and\n"
+"          will get working on a fix."
+msgstr ""
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "502 त्रुटि"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "सर्भर व्यस्त छ, एकैछिन पछि फेरि प्रयास गर्नुहोस्"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return\n"
+"          the system to normal as soon as possible."
+msgstr ""
+
+#: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr ""
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Firefox खातालाई JavaScript को आवश्यकता पर्दछ।"
+
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+msgid "Privacy Notice"
+msgstr "गोपनीयता सूचना"
+
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+msgid "Terms of Service"
+msgstr "सेवाका सर्तहरु"
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr ""
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "साइन इन पुष्टि गर्नुहोस्"
+
+#~ msgid "Manage account"
+#~ msgstr "खाता व्यवस्थापन गर्नुहोस्"
+
+#~ msgid "Secondary email added"
+#~ msgstr "माध्यमिक इमेल थपियो"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "माध्यमिक इमेल हटाइयो"
+
+#~ msgid "Best,"
+#~ msgstr "उत्तम,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Firefox खाता टोली"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "पासवर्ड सफलतापूर्वक परिवर्तन भयो"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "तपाईंको Firefox खाताको पासवर्ड सफलतापूर्वक निम्न उपकरणबाट परिवर्तन भयो:"
+
+#~ msgid "New primary email"
+#~ msgstr "नयाँ प्राथमिक इमेल"
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "के यो साइन इन गर्न खोज्ने तपाइँ हुनुहुन्छ?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "यदि हुनुहुन्छ भने, तपाईलाई आवश्यक प्रमाणिकरण कोड हो:"
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "यो स्वचालित ईमेल हो; यदि तपाइँ आफ्नो फायरफक्स खातामा नयाँ यन्त्र थप गर्नुभएन भने, तपाईंले %(passwordChangeLink)s मा तुरुन्तै आफ्नो पासवर्ड परिवर्तन गर्नुपर्दछ।"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "यदि तपाईंलाई सम्भावित छ कि, कसैले तपाईंको खातामा पहुँच प्राप्त गर्ने प्रयास गर्दैछ, कृपया आफ्नो पासवर्ड परिवर्तन गर्नुहोस् ।"
+
+#~ msgid "Manage account:"
+#~ msgstr "खाता व्यवस्थापन गर्नुहोस्:"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Mozilla गोपनीयता नीति"

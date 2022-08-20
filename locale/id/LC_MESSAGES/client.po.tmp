@@ -1,0 +1,3519 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2022-03-24 16:54+0000\n"
+"Last-Translator: Benny Chandra <bennychandra@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pontoon\n"
+"X-POOTLE-MTIME: 1434890279.0\n"
+
+#: .es5/views/confirm_reset_password.js:199
+msgid "Password reset"
+msgstr "Penyetelan ulang sandi"
+
+#: .es5/views/confirm_reset_password.js:217
+msgid "Password reset successfully. Sign in to continue."
+msgstr "Sandi sukses disetel ulang. Masuk untuk melanjutkan."
+
+#. submit button
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/templates/sign_in_password.mustache:10
+msgid "Sign in"
+msgstr "Masuk"
+
+#: .es5/views/index.js:176
+msgid "Account deleted successfully"
+msgstr "Akun berhasil dihapus"
+
+#: .es5/views/inline_totp_setup.js:156
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr "Gunakan kode %(code)s untuk mengatur autentikasi dua langkah di aplikasi yang didukung."
+
+#: .es5/views/permissions.js:41
+msgid "%(permissionName)s (required)"
+msgstr "%(permissionName)s (dibutuhkan)"
+
+#: .es5/views/permissions.js:45
+msgid "Email address"
+msgstr "Alamat surel"
+
+#: .es5/views/permissions.js:49
+msgid "Display name"
+msgstr "Nama tampilan"
+
+#: .es5/views/permissions.js:52
+msgid "Account picture"
+msgstr "Gambar akun"
+
+#: .es5/views/ready.js:58
+msgid "Welcome back"
+msgstr "Selamat datang kembali"
+
+#: .es5/views/ready.js:59
+msgid "Firefox Sync will resume momentarily"
+msgstr "Firefox Sync akan dilanjutkan kembali"
+
+#: .es5/views/ready.js:63 .es5/views/ready.js:68
+msgid "Your password has been reset"
+msgstr "Sandi Anda telah disetel ulang"
+
+#: .es5/views/ready.js:64 .es5/views/ready.js:69
+msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgstr "Lengkapi persiapan dengan memasukkan sandi yang baru di perangkat Firefox Anda yang lain."
+
+#: .es5/views/ready.js:72
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "Sekarang Anda sudah siap untuk membuat perubahan pada Firefox Account Anda."
+
+#: .es5/views/ready.js:74
+msgid "Primary email confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:77
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr "Sekarang pemberitahuan akun juga akan dikirim ke %(secondaryEmailVerified)s."
+
+#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
+msgid "Secondary email confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+msgid "Sign-in confirmed"
+msgstr "Proses masuk dikonfirmasi"
+
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+msgid "You are now ready to use %(serviceName)s"
+msgstr "Kini Anda siap menggunakan %(serviceName)s"
+
+#: .es5/views/ready.js:89
+msgid "Account confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:94
+msgid "Connected"
+msgstr "Terhubung"
+
+#: .es5/views/reset_password.js:111
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "Akun tidak dikenal. <a href=\"/signup\">Daftar</a>"
+
+#: .es5/views/sign_up_password.js:86
+msgid "Account no longer exists. Recreate it?"
+msgstr "Akun sudah tidak ada. Buat ulang?"
+
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
+msgid "Other"
+msgstr "Lainnya"
+
+#: .es5/views/support.js:270
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgstr "Terima kasih telah menghubungi Dukungan Mozilla tentang <b>%(escapedLowercaseTopic)s</b>. Kami akan menghubungi Anda via surel secepatnya."
+
+#: .es5/views/support.js:272
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
+msgstr "Terima kasih telah menghubungi Dukungan Mozilla mengenai <b>%(escapedLowercaseTopic)s</b> untuk <b>%(escapedSelectedProduct)s</b>. Kami akan menghubungi anda melalui surel secepatnya."
+
+#: .es5/views/post_verify/verified.js:53
+msgid "Your sync data is protected"
+msgstr "Data sinkronisasi anda terlindungi"
+
+#: .es5/views/post_verify/verified.js:54
+msgid "If you lose access to your account, you’ll be able to restore your sync data."
+msgstr "Jika anda kehilangan akses ke akun anda, anda akan dapat mengembalikan data sinkronisasi anda."
+
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "Mulai menjelajah"
+
+#: .es5/views/post_verify/verified.js:58
+msgid "Account notifications will now also be sent to %(secondaryEmail)s."
+msgstr "Sekarang, pemberitahuan akun juga akan dikirim ke %(secondaryEmail)s."
+
+#: .es5/views/post_verify/verified.js:59
+msgid "Continue to %(serviceName)s "
+msgstr "Lanjutkan ke %(serviceName)s"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
+msgid "Your account has been locked for security reasons"
+msgstr "Akun Anda telah terkunci untuk alasan keamanan"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+msgid "Reset password"
+msgstr "Setel ulang sandi"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:38
+msgid "none"
+msgstr "tidak ada"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:44
+msgid "Last checked: %(lastCheckTime)s"
+msgstr "Terakhir diperiksa: %(lastCheckTime)s"
+
+#: .es5/views/mixins/open-webmail-mixin.js:25
+msgid "Open Gmail"
+msgstr "Buka Gmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:30
+msgid "Open Hotmail"
+msgstr "Buka Hotmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:35
+msgid "Open Yahoo"
+msgstr "Buka Yahoo"
+
+#: .es5/views/mixins/open-webmail-mixin.js:40
+msgid "Open Outlook"
+msgstr "Buka Outlook"
+
+#: .es5/views/mixins/open-webmail-mixin.js:45
+msgid "Open Restmail"
+msgstr "Buka Restmail"
+
+#: .es5/views/mixins/password-mixin.js:149
+msgid "Hide password"
+msgstr "Sembunyikan sandi"
+
+#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr "Tampilkan kata sandi"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:77
+msgid "Firefox Recovery Codes"
+msgstr "Kode Pemulihan Firefox"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:142
+msgid "Two-step authentication enabled"
+msgstr "Autentikasi dua langkah diaktifkan"
+
+#: .es5/views/mixins/recovery-key-mixin.js:30
+msgid "Firefox Recovery Key"
+msgstr "Kunci Pemulihan Firefox"
+
+#: .es5/views/mixins/resend-mixin.js:53
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr "Surel dikirim ulang. Tambahkan accounts@firefox.com ke kontak Anda untuk memastikan pengiriman yang lancar."
+
+#: .es5/views/mixins/save-options-mixin.js:59
+msgid "Copied"
+msgstr "Disalin"
+
+#: .es5/views/mixins/save-options-mixin.js:61
+msgid "Failed to copy. Please manually copy."
+msgstr "Gagal menyalin. Silakan menyalinnya secara manual."
+
+#: .es5/views/mixins/save-options-mixin.js:78
+msgid "Downloaded"
+msgstr "Terunduh"
+
+#: .es5/views/mixins/save-options-mixin.js:90
+msgid "Printed"
+msgstr "Tercetak"
+
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "payment & billing"
+msgstr "pembayaran & penagihan"
+
+#: .es5/models/support-form.js:25
+msgid "account issues"
+msgstr "masalah akun"
+
+#: .es5/models/support-form.js:25
+msgid "technical issues"
+msgstr "masalah teknis"
+
+#: .es5/models/support-form.js:25
+msgid "provide feedback / request features"
+msgstr "berikan umpan balik / sarankan fitur"
+
+#: .es5/models/support-form.js:25
+msgid "not listed"
+msgstr "tidak terdaftar"
+
+#: .es5/models/sync-engines.js:58
+msgid "Bookmarks"
+msgstr "Markah"
+
+#: .es5/models/sync-engines.js:62
+msgid "History"
+msgstr "Riwayat"
+
+#: .es5/models/sync-engines.js:66
+msgid "Passwords"
+msgstr "Sandi"
+
+#: .es5/models/sync-engines.js:70
+msgid "Add-ons"
+msgstr "Pengaya"
+
+#: .es5/models/sync-engines.js:74
+msgid "Open Tabs"
+msgstr "Buka Tab"
+
+#: .es5/models/sync-engines.js:78
+msgid "Preferences"
+msgstr "Preferensi"
+
+#: .es5/models/sync-engines.js:86
+msgid "Addresses"
+msgstr "Alamat"
+
+#: .es5/models/sync-engines.js:94
+msgid "Credit Cards"
+msgstr "Kartu Kredit"
+
+#: .es5/models/reliers/browser.js:88
+msgid "Firefox"
+msgstr "Firefox"
+
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "Surel utama berhasil diverifikasi"
+
+#: .es5/models/auth_brokers/base.js:114
+msgid "Secondary email verified successfully"
+msgstr "Surel sekunder berhasil diverifikasi"
+
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Akun sukses terverifikasi"
+
+#: .es5/models/auth_brokers/web.js:38
+msgid "Password reset successfully"
+msgstr "Penyetelan ulang sandi sukses"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "Pemulihan akun diaktifkan"
+
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+msgid "Unexpected error"
+msgstr "Galat tidak diharapkan"
+
+#: .es5/lib/auth-errors.js:27
+msgid "The link you clicked to verify your email is expired."
+msgstr "Tautan yang Anda klik untuk memeriksa email telah kedaluwarsa."
+
+#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+msgid "You've tried too many times. Try again later."
+msgstr "Terlalu banyak percobaan. Coba lagi nanti."
+
+#: .es5/lib/auth-errors.js:32
+msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
+msgstr "Terlalu banyak percobaan. Coba lagi %(retryAfterLocalized)s."
+
+#: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
+msgid "Invalid token"
+msgstr "Token tidak valid"
+
+#: .es5/lib/auth-errors.js:44
+msgid "Invalid timestamp in request signature"
+msgstr "Stempel waktu pada kode permintaan tidak valid"
+
+#: .es5/lib/auth-errors.js:48
+msgid "Invalid nonce in request signature"
+msgstr "Kode nonce pada kode permintaan tidak valid"
+
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+msgid "Account already exists"
+msgstr "Akun sudah ada"
+
+#: .es5/lib/auth-errors.js:56
+msgid "Unknown account"
+msgstr "Akun tidak dikenal"
+
+#: .es5/lib/auth-errors.js:60
+msgid "Incorrect email case"
+msgstr "Surel salah"
+
+#: .es5/lib/auth-errors.js:64
+msgid "Incorrect password"
+msgstr "Sandi salah"
+
+#: .es5/lib/auth-errors.js:68
+msgid "Unverified account"
+msgstr "Akun belum diverifikasi"
+
+#: .es5/lib/auth-errors.js:72
+msgid "Invalid verification code"
+msgstr "Kode verifikasi tidak valid"
+
+#: .es5/lib/auth-errors.js:76
+msgid "Invalid JSON in request body"
+msgstr "Kode JSON pada isi permintaan tidak valid"
+
+#: .es5/lib/auth-errors.js:80
+msgid "Invalid parameter: %(param)s"
+msgstr "Parameter tidak valid: %(param)s"
+
+#: .es5/lib/auth-errors.js:84
+msgid "Missing parameter: %(param)s"
+msgstr "Parameter hilang: %(param)s"
+
+#: .es5/lib/auth-errors.js:88
+msgid "Invalid request signature"
+msgstr "Kode permintaan tidak valid"
+
+#: .es5/lib/auth-errors.js:92
+msgid "Missing content-length header"
+msgstr "Header content-length tidak ada"
+
+#: .es5/lib/auth-errors.js:96
+msgid "Request body too large"
+msgstr "Isi permintaan terlalu besar"
+
+#: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
+msgid "The request was blocked for security reasons"
+msgstr "Permintaan diblokir atas alasan keamanan"
+
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+msgid "Invalid authorization code"
+msgstr "Kode otorisasi tidak valid"
+
+#: .es5/lib/auth-errors.js:127
+msgid "Invalid phone number"
+msgstr "Nomor telepon tidak valid"
+
+#: .es5/lib/auth-errors.js:131
+msgid "Cannot send to this country"
+msgstr "Tidak dapat mengirim ke negara ini"
+
+#: .es5/lib/auth-errors.js:140
+msgid "Could not send a message to this number"
+msgstr "Tidak dapat mengirim pesan ke nomor ini"
+
+#: .es5/lib/auth-errors.js:144
+msgid "Your email was just returned"
+msgstr "Surel Anda baru saja dikembalikan"
+
+#: .es5/lib/auth-errors.js:148
+msgid "Your email was just returned. Mistyped email?"
+msgstr "Surel Anda baru saja dikembalikan. Salah tik surel?"
+
+#: .es5/lib/auth-errors.js:152
+msgid "Unable to deliver email"
+msgstr "Tidak dapat mengirim surel"
+
+#: .es5/lib/auth-errors.js:156
+msgid "This email was already verified by another user"
+msgstr "Surel ini telah diverifikasi oleh pengguna lain"
+
+#: .es5/lib/auth-errors.js:160
+msgid "Unverified session"
+msgstr "Sesi tidak diverifikasi"
+
+#: .es5/lib/auth-errors.js:164
+msgid "Secondary email must be different than your account email"
+msgstr "Surel sekunder harus berbeda dari surel akun Anda"
+
+#: .es5/lib/auth-errors.js:172
+msgid "You have reached the maximum allowed secondary emails"
+msgstr "Anda telah mencapai batas maksimal akun serel sekunder yang diizinkan"
+
+#: .es5/lib/auth-errors.js:176
+msgid "This email already exists on your account"
+msgstr "Surel ini sudah ada di akun anda"
+
+#: .es5/lib/auth-errors.js:184
+msgid "Primary account email required for sign-in"
+msgstr "Surel akun utama diperlukan untuk masuk"
+
+#: .es5/lib/auth-errors.js:188
+msgid "Address in use by another account"
+msgstr "Alamat sedang digunakan oleh pengguna lain"
+
+#: .es5/lib/auth-errors.js:192
+msgid "Primary account email required for reset"
+msgstr "Surel akun utama diperlukan untuk mengatur ulang"
+
+#: .es5/lib/auth-errors.js:196
+msgid "Invalid signin code"
+msgstr "Kode masuk tidak valid"
+
+#: .es5/lib/auth-errors.js:200
+msgid "Can not change primary email to an unverified email"
+msgstr "Tidak dapat mengganti surel utama ke surel yang belum diverifikasi"
+
+#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
+msgid "Can not change primary email to an email that does not belong to this account"
+msgstr "Tidak dapat mengubah surel utama ke surel yang tidak terkait dengan akun ini"
+
+#: .es5/lib/auth-errors.js:208
+msgid "This email can not currently be used to login"
+msgstr "Surel ini tidak dapat digunakan untuk masuk"
+
+#: .es5/lib/auth-errors.js:216
+msgid "Failed to send email"
+msgstr "Gagal mengirim surel"
+
+#: .es5/lib/auth-errors.js:220
+msgid "Valid code required"
+msgstr "Dibutuhkan kode yang valid"
+
+#: .es5/lib/auth-errors.js:224
+msgid "This verification code has expired"
+msgstr "Kode verifikasi ini telah kedaluwarsa"
+
+#: .es5/lib/auth-errors.js:228
+msgid "A TOTP token already exists for this account"
+msgstr "Token TOTP sudah ada untuk akun ini"
+
+#: .es5/lib/auth-errors.js:232
+msgid "TOTP token not found"
+msgstr "Token TOTP tidak ditemukan"
+
+#: .es5/lib/auth-errors.js:236
+msgid "Recovery code not found"
+msgstr "Kode pemulihan tidak ditemukan"
+
+#: .es5/lib/auth-errors.js:240
+msgid "Unavailable device command"
+msgstr "Perintah perangkat tidak tersedia"
+
+#: .es5/lib/auth-errors.js:244
+msgid "Recovery key not found"
+msgstr "Kunci pemulihan tidak ditemukan"
+
+#: .es5/lib/auth-errors.js:248
+msgid "Invalid recovery key"
+msgstr "Kunci pemulihan tidak valid"
+
+#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
+msgid "This request requires two step authentication enabled on your account."
+msgstr "Permintaan ini memerlukan autentikasi dua faktor yang diaktifkan pada akun Anda."
+
+#: .es5/lib/auth-errors.js:256
+msgid "Failed due to a conflicting request, please try again."
+msgstr "Gagal karena permintaan yang saling bertentangan, silakan coba lagi."
+
+#: .es5/lib/auth-errors.js:264
+msgid "Unknown customer for subscription."
+msgstr "Pelanggan tidak dikenal untuk berlangganan."
+
+#: .es5/lib/auth-errors.js:268
+msgid "Unknown subscription."
+msgstr "Langganan tidak dikenal."
+
+#: .es5/lib/auth-errors.js:272
+msgid "Unknown plan for subscription."
+msgstr "Paket berlangganan tidak dikenal."
+
+#: .es5/lib/auth-errors.js:276
+msgid "Invalid payment token for subscription."
+msgstr "Token pembayaran tidak valid untuk berlangganan."
+
+#: .es5/lib/auth-errors.js:280
+msgid "Subscription has already been cancelled"
+msgstr "Langganan telah dibatalkan"
+
+#: .es5/lib/auth-errors.js:284
+msgid "Update was rejected, please try again"
+msgstr "Pembaruan ditolak, silakan coba lagi"
+
+#: .es5/lib/auth-errors.js:288
+msgid "Invalid or expired verification code"
+msgstr "Kode verifikasi tidak valid atau kedaluwarsa"
+
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+msgid "Server busy, try again soon"
+msgstr "Server sibuk, coba lagi nanti"
+
+#: .es5/lib/auth-errors.js:296
+msgid "Feature not enabled"
+msgstr "Fitur tidak diaktifkan"
+
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+msgid "System unavailable, try again soon"
+msgstr "Sistem tidak tersedia, coba lagi nanti"
+
+#: .es5/lib/auth-errors.js:308
+msgid "This endpoint is no longer supported"
+msgstr "Titik-akhir ini tidak lagi didukung"
+
+#: .es5/lib/auth-errors.js:316
+msgid "Login attempt cancelled"
+msgstr "Percobaan masuk dibatalkan"
+
+#: .es5/lib/auth-errors.js:320
+msgid "Session expired. Sign in to continue."
+msgstr "Sesi kedaluwarsa. Masuk untuk melanjutkan."
+
+#: .es5/lib/auth-errors.js:324
+msgid "Cookies are still disabled"
+msgstr "Kuki masih dinonaktifkan"
+
+#: .es5/lib/auth-errors.js:328
+msgid "Passwords do not match"
+msgstr "Sandi tidak sama"
+
+#: .es5/lib/auth-errors.js:332
+msgid "Working…"
+msgstr "Bekerja…"
+
+#: .es5/lib/auth-errors.js:336
+msgid "Could not get Privacy Notice"
+msgstr "Tidak dapat mengambil Kebijakan Privasi"
+
+#: .es5/lib/auth-errors.js:340
+msgid "Could not get Terms of Service"
+msgstr "Tidak dapat mengambil Ketentuan Layanan"
+
+#: .es5/lib/auth-errors.js:344
+msgid "Your new password must be different"
+msgstr "Sandi lawas dan baru harus berbeda"
+
+#: .es5/lib/auth-errors.js:348
+msgid "Must be at least 8 characters"
+msgstr "Paling sedikit 8 karakter"
+
+#: .es5/lib/auth-errors.js:352
+msgid "Valid password required"
+msgstr "Sandi harus valid"
+
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+msgid "Valid email required"
+msgstr "Surel harus valid"
+
+#: .es5/lib/auth-errors.js:368
+msgid "A usable image was not found"
+msgstr "Gambar yang dapat dipakai tidak ditemukan"
+
+#: .es5/lib/auth-errors.js:372
+msgid "Could not initialize camera"
+msgstr "Tidak dapat menginisialisasi kamera"
+
+#: .es5/lib/auth-errors.js:376
+msgid "Valid URL required"
+msgstr "Dibutuhkan URL yang valid"
+
+#: .es5/lib/auth-errors.js:392
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr "Surel verifikasi Anda dikembalikan. Salah tik surel?"
+
+#: .es5/lib/auth-errors.js:400
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr "Masukkan alamat surel yang valid. firefox.com tidak menawarkan surel."
+
+#: .es5/lib/auth-errors.js:408
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "Firefox Account hanya bisa ditempatkan pada IFRAME pada situs yang telah disetujui"
+
+#: .es5/lib/auth-errors.js:428
+msgid "Verification link damaged"
+msgstr "Tautan verifikasi rusak"
+
+#: .es5/lib/auth-errors.js:436
+msgid "The image dimensions must be at least 100x100px"
+msgstr "Ukuran gambar harus paling sedikit 100 x 100 px"
+
+#: .es5/lib/auth-errors.js:440
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "Pendaftaran akan segera hadir pada Firefox untuk iOS"
+
+#: .es5/lib/auth-errors.js:452
+msgid "You must enter your age to sign up"
+msgstr "Anda harus memasukkan usia untuk mendaftar"
+
+#: .es5/lib/auth-errors.js:456
+msgid "You must enter a valid age to sign up"
+msgstr "Anda harus memasukkan usia yang valid untuk mendaftar"
+
+#: .es5/lib/auth-errors.js:472
+msgid "Account no longer exists."
+msgstr "Akun sudah tidak ada."
+
+#: .es5/lib/auth-errors.js:476
+msgid "Invalid property in resume token: %(property)s"
+msgstr "Properti tidak valid dalam token kelanjutan: %(property)s"
+
+#: .es5/lib/auth-errors.js:480
+msgid "Missing property in resume token: %(property)s"
+msgstr "Properti hilang dalam token kelanjutan: %(property)s"
+
+#: .es5/lib/auth-errors.js:484
+msgid "Invalid data attribute: %(property)s"
+msgstr "Atribut data tidak valid: %(property)s"
+
+#: .es5/lib/auth-errors.js:488
+msgid "Missing data attribute: %(property)s"
+msgstr "Atribut data hilang: %(property)s"
+
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+msgid "That confirmation link was already used, and can only be used once."
+msgstr "Tautan konfirmasi sudah digunakan, dan hanya bisa digunakan sekali."
+
+#: .es5/lib/auth-errors.js:505
+msgid "This is a required field"
+msgstr "Bidang ini harus diisi"
+
+#: .es5/lib/auth-errors.js:509
+msgid "Authorization code required"
+msgstr "Membutuhkan kode otorisasi"
+
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+msgid "Link damaged"
+msgstr "Tautan rusak"
+
+#: .es5/lib/auth-errors.js:540
+msgid "Phone number required"
+msgstr "Nomor telepon diperlukan"
+
+#: .es5/lib/auth-errors.js:559
+msgid "Two-step authentication code required"
+msgstr "Kode autentikasi dua langkah dibutuhkan"
+
+#: .es5/lib/auth-errors.js:563
+msgid "Invalid two-step authentication code"
+msgstr "Kode autentikasi dua langkah tidak valid"
+
+#: .es5/lib/auth-errors.js:567
+msgid "Recovery code required"
+msgstr "Kode pemulihan dibutuhkan"
+
+#: .es5/lib/auth-errors.js:571
+msgid "Invalid recovery code"
+msgstr "Kode pemulihan tidak valid"
+
+#: .es5/lib/auth-errors.js:585
+msgid "Recovery key required"
+msgstr "Kode pemulihan dibutuhkan"
+
+#: .es5/lib/auth-errors.js:589
+msgid "Please enter verification code"
+msgstr "Silakan masukan kode verifikasi"
+
+#: .es5/lib/auth-errors.js:601
+msgid "Invalid redirect"
+msgstr "Pengalihan alamat tidak valid"
+
+#: .es5/lib/auth-errors.js:613
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr "Salah tulis surel? %(domain)s tidak menyediakan surel."
+
+#: .es5/lib/auth-errors.js:617
+msgid "The image file size is too large to be uploaded."
+msgstr "Ukuran berkas gambar terlalu besar untuk diunggah."
+
+#: .es5/lib/config-loader.js:117
+msgid "Missing configuration"
+msgstr "Konfigurasi tidak ditemukan"
+
+#: .es5/lib/config-loader.js:121
+msgid "Invalid configuration"
+msgstr "Konfigurasi tidak valid"
+
+#: .es5/lib/email-domain-validator.js:40
+msgid "Mistyped email?"
+msgstr "Salah ketik surel?"
+
+#: .es5/lib/newsletters.js:25
+msgid "Test new Firefox products"
+msgstr "Coba produk Firefox terbaru"
+
+#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "Dapatkan berita terkini tentang Mozilla dan Firefox"
+
+#: .es5/lib/newsletters.js:33
+msgid "Take action to keep the internet healthy"
+msgstr "Ambil tindakan untuk menjaga kesehatan Internet"
+
+#: .es5/lib/newsletters.js:37
+msgid "Be safer and smarter online"
+msgstr "Lebih aman dan cerdas saat online"
+
+#: .es5/lib/newsletters.js:44
+msgid "Testing Firefox products"
+msgstr "Menguji produk Firefox"
+
+#: .es5/lib/newsletters.js:52
+msgid "Taking action to keep the internet healthy"
+msgstr "Mengambil tindakan untuk jaga kesehatan Internet"
+
+#: .es5/lib/newsletters.js:56
+msgid "Safety and privacy online with Firefox and Mozilla"
+msgstr "Keamanan dan privasi daring dengan Firefox dan Mozilla"
+
+#: .es5/lib/oauth-errors.js:34
+msgid "Unknown client"
+msgstr "Klien tidak dikenal"
+
+#: .es5/lib/oauth-errors.js:38
+msgid "Incorrect redirect_uri"
+msgstr "redirect_url salah"
+
+#: .es5/lib/oauth-errors.js:42
+msgid "Invalid assertion"
+msgstr "Pernyataan tidak valid"
+
+#: .es5/lib/oauth-errors.js:46
+msgid "Unknown code"
+msgstr "Kode tidak dikenal"
+
+#: .es5/lib/oauth-errors.js:50
+msgid "Incorrect code"
+msgstr "Kode salah"
+
+#: .es5/lib/oauth-errors.js:54
+msgid "Expired code"
+msgstr "Kode kadarluwarsa"
+
+#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Parameter OAuth tidak valid: %(param)s"
+
+#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
+msgid "Unauthorized"
+msgstr "Tidak diizinkan"
+
+#: .es5/lib/oauth-errors.js:74
+msgid "Forbidden"
+msgstr "Dilarang"
+
+#: .es5/lib/oauth-errors.js:89
+msgid "Expired token"
+msgstr "Token kedaluwarsa"
+
+#: .es5/lib/oauth-errors.js:133
+msgid "Something went wrong. Please close this tab and try again."
+msgstr "Terjadi kesalahan. Silakan tutup tab ini dan coba kembali."
+
+#: .es5/lib/oauth-errors.js:153
+msgid "no message"
+msgstr "tidak ada pesan"
+
+#: .es5/lib/oauth-errors.js:157
+msgid "Missing OAuth parameter: %(param)s"
+msgstr "Kehilangan parameter OAuth: %(param)s"
+
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr "Pengguna belum masuk"
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr "Pengguna berbeda telah masuk"
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr "Pengguna atau sesi yang tidak terverifikasi"
+
+#: .es5/lib/oauth-errors.js:196
+msgid "Invalid id_token_hint"
+msgstr "id_token_hint tidak valid"
+
+#: .es5/lib/pairing-channel-client-errors.js:44
+msgid "Invalid message from the remote device"
+msgstr "Pesan tidak valid dari peranti jarak jauh"
+
+#: .es5/lib/pairing-channel-client-errors.js:52
+msgid "Error pairing to remote device"
+msgstr "Galat pemasangan peranti jarak jauh"
+
+#: .es5/lib/pairing-channel-client-errors.js:56
+msgid "Connection to remote device closed, please try again"
+msgstr "Sambungan ke perangkat jarak jauh telah ditutup, silakan coba lagi"
+
+#: .es5/lib/profile-errors.js:29
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Parameter pada isi permintaan tidak valid: %(param)s"
+
+#: .es5/lib/profile-errors.js:33
+msgid "Unsupported image provider"
+msgstr "Penyedia gambar tidak didukung"
+
+#: .es5/lib/profile-errors.js:37
+msgid "Image processing error"
+msgstr "Kesalahan pada pengolahan gambar"
+
+#: .es5/lib/profile-errors.js:49
+msgid "Invalid Token"
+msgstr "Token Tidak Valid"
+
+#: .es5/lib/strings.js:25
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Dengan melanjutkan, Anda menyetujui <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s "
+"(%(serviceUri)s)."
+
+#: .es5/lib/strings.js:31
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgstr ""
+
+#: .es5/lib/strings.js:34
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Dapatkan berita terkini tentang Mozilla dan Firefox."
+
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
+msgid "%(city)s, %(country)s (estimated)"
+msgstr "%(city)s, %(country)s (perkiraan)"
+
+#: .es5/lib/strings.js:37
+msgid "%(country)s (estimated)"
+msgstr "%(country)s (perkiraan)"
+
+#: .es5/lib/strings.js:38
+msgid "IP address: %(ip)s"
+msgstr "Alamat IP: %(ip)s"
+
+#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
+msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+msgstr "Untuk alasan keamanan, mohon konfirmasikan proses masuk ini untuk memulai sinkronisasi dengan perangkat ini:"
+
+#: .es5/templates/400.mustache:1
+msgid "Bad Request"
+msgstr "Permintaan Buruk"
+
+#: .es5/templates/500.mustache:1
+msgid "500 Error"
+msgstr "Kesalahan 500"
+
+#: .es5/templates/500.mustache:2
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Tidak, ada yang salah. Kami telah diberitahu dan akan memperbaikinya."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+msgid "Reset password link expired"
+msgstr "Tautan untuk menyetel ulang sandi telah kedaluwarsa"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+msgid "The link you clicked to reset your password is expired."
+msgstr "Tautan yang Anda klik untuk menyetel sandi telah kedaluwarsa."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+msgid "Receive new link"
+msgstr "Terima tautan baru"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5
+msgid "Reset password with recovery key"
+msgstr "Atur ulang sandi dengan kunci pemulihan"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Lanjut ke %(serviceName)s"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:7
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr "Silakan masukan kunci pemulihan sekali pakai yang Anda simpan di tempat aman untuk mendapatkan akses ke Firefox Account Anda."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:8
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+"<span class=\"note\">CATATAN:</span> Jika Anda mengatur ulang sandi dan tidak mempunyai kunci pemulihan akun tersimpan, beberapa data Anda akan terhapus (termasuk data server tersinkroninasi "
+"seperti riwayat dan markah)."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Enter recovery key"
+msgstr "Masukkan kunci pemulihan"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+msgid "Confirm recovery key"
+msgstr "Konfirmasi kunci pemulihan"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Don't have a recovery key?"
+msgstr "Tidak memiliki kunci pemulihan?"
+
+#: .es5/templates/cannot_create_account.mustache:1
+msgid "Cannot create account"
+msgstr "Tidak dapat membuat akun"
+
+#: .es5/templates/cannot_create_account.mustache:2
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr ""
+
+#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Pelajari selengkapnya"
+
+#: .es5/templates/choose_what_to_sync.mustache:1
+msgid "Choose what to sync:"
+msgstr "Pilih yang ingin disinkronkan:"
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Sync selections"
+msgstr "Pilih sinkronisasi"
+
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+msgid "Don’t sync this device"
+msgstr "Jangan sinkronkan perangkat ini"
+
+#: .es5/templates/complete_reset_password.mustache:5
+msgid "Reset password link damaged"
+msgstr "Tautan untuk menyetel ulang sandi rusak"
+
+#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "Ada karakter yang hilang pada tautan yang Anda klik dan mungkin disebabkan oleh aplikasi email Anda. Salin alamatnya dengan benar, lalu coba lagi."
+
+#: .es5/templates/complete_reset_password.mustache:8
+msgid "Create new password"
+msgstr "Buat sandi baru"
+
+#: .es5/templates/complete_reset_password.mustache:9
+msgid ""
+"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr "Anda berhasil mengembalikan akun Anda menggunakan kunci pemulihan Anda. Buat sandi baru untuk mengamankan data Anda, dan simpan di tempat yang aman."
+
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Sandi baru"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Konfirmasi sandi"
+
+#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+msgid "Remember password? Sign in"
+msgstr "Ingat sandi? Masuk"
+
+#: .es5/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr "Surel utama sudah dikonfirmasi"
+
+#: .es5/templates/complete_sign_up.mustache:3
+msgid "Sign-in already confirmed"
+msgstr "Sudah dikonfirmasi masuk"
+
+#: .es5/templates/complete_sign_up.mustache:6
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:8
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:14
+msgid "Confirmation error"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:3
+msgid "Confirm your account"
+msgstr "Konfirmasikan akun Anda"
+
+#: .es5/templates/confirm.mustache:5
+msgid "Confirm this sign-in"
+msgstr "Konfirmasikan proses masuk ini"
+
+#: .es5/templates/confirm.mustache:7
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:9
+msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr "Periksa surel Anda untuk tautan konfirmasi proses masuk yang dikirim ke %(escapedEmail)s"
+
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
+msgid "Not in inbox or spam folder? Resend"
+msgstr "Tak ada di kotak masuk atau folder spam? Kirim ulang"
+
+#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+msgid "Back"
+msgstr "Kembali"
+
+#: .es5/templates/confirm_reset_password.mustache:1
+msgid "Reset email sent"
+msgstr "Email penyetelan ulang dikirimkan"
+
+#: .es5/templates/confirm_reset_password.mustache:2
+msgid "Click the link emailed to %(email)s within the next hour to create a new password."
+msgstr "Klik tautan yang dikirimkan ke %(email)s dalam satu jam ke depan untuk membuat sandi baru."
+
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:2
+msgid "for your Firefox account"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:3
+msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+msgid "Enter 6-digit code"
+msgstr "Masukkan kode 6 digit"
+
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "Konfirmasi"
+
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+msgid "Code expired?"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+msgid "Email new code."
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:1
+msgid "Connect another device"
+msgstr "Hubungan perangkat lainnya"
+
+#: .es5/templates/connect_another_device.mustache:2
+msgid "Firefox account connected"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:4
+msgid "Email confirmed"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+msgid "Complete your set-up"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:10
+msgid "Sign in to this Firefox to complete set-up"
+msgstr "Masuk ke Firefox untuk menyelesaikan persiapan"
+
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+msgid "Still adding devices?"
+msgstr "Masih menambahkan peranti?"
+
+#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+msgid "Sign in to Firefox on another device to complete set-up"
+msgstr "Masuk ke Firefox di perangkat lainnya untuk menyelesaikan persiapan"
+
+#: .es5/templates/connect_another_device.mustache:17
+msgid "Sync Firefox across devices"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:19
+msgid "Sign in everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:20
+msgid "We’re on Android and iOS, too!"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:22
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr "Masih menambahkan perangkat? Masuk ke Firefox di perangkat lainnya untuk menyelesaikan persiapan"
+
+#: .es5/templates/connect_another_device.mustache:24
+msgid "Sign in to Firefox for Android to complete set-up"
+msgstr "Masuk ke Firefox untuk Android untuk menyelesaikan persiapan"
+
+#: .es5/templates/connect_another_device.mustache:26
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr "Masuk ke Firefox untuk iOS guna menyelesaikan persiapan"
+
+#: .es5/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required"
+msgstr "Kuki dan penyimpanan lokal diperlukan"
+
+#: .es5/templates/cookies_disabled.mustache:2
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+msgstr "Aktifkan kuki dan penyimpanan lokal peramban Anda untuk mengakses Firefox Account. Jika diaktifkan, fungsi mengingat antarsesi akan berfungsi."
+
+#: .es5/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "Coba lagi"
+
+#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+msgid ""
+"\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"        "
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+msgid "Password"
+msgstr "Sandi"
+
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "Gunakan akun lain"
+
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+msgid "Forgot password?"
+msgstr "Lupa sandi?"
+
+#: .es5/templates/index.mustache:1
+msgid "Continue to Firefox accounts"
+msgstr ""
+
+#: .es5/templates/index.mustache:2
+msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
+msgid "Enter your email"
+msgstr "Masukkan surel Anda"
+
+#: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
+
+#: .es5/templates/index.mustache:9
+msgid "Sign up or sign in"
+msgstr ""
+
+#: .es5/templates/index.mustache:11
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:1
+msgid "Save recovery codes"
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:3
+msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+msgid "Download"
+msgstr "Unduh"
+
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+msgid "Copy"
+msgstr "Salin"
+
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+msgid "Print"
+msgstr "Cetak"
+
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+msgid "Continue"
+msgstr "Lanjutkan"
+
+#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+msgid "Cancel setup"
+msgstr "Batalkan penyiapan"
+
+#: .es5/templates/inline_recovery_setup.mustache:12
+msgid "Confirm recovery code"
+msgstr "Konfirmasi kode pemulihan"
+
+#: .es5/templates/inline_recovery_setup.mustache:14
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:15
+msgid "Recovery code"
+msgstr "Kode pemulihan"
+
+#: .es5/templates/inline_totp_setup.mustache:1
+msgid "Enable two-step authentication"
+msgstr "Aktifkan autentikasi dua-langkah"
+
+#: .es5/templates/inline_totp_setup.mustache:3
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr "Tambahkan lapisan keamanan ke akun Anda dengan mewajibkan kode keamanan dari salah satu <a %(escapedTotpSupportAttributes)s>aplikasi autentikasi berikut</a>."
+
+#: .es5/templates/inline_totp_setup.mustache:7
+msgid "Scan authentication code"
+msgstr "Pindai kode autentikasi"
+
+#: .es5/templates/inline_totp_setup.mustache:10
+msgid "Enter code manually"
+msgstr "Masukkan kode secara manual"
+
+#: .es5/templates/inline_totp_setup.mustache:12
+msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgstr "Pindai kode QR pada aplikasi autentikasi Anda dan masukkan kode keamanan yang tersedia."
+
+#: .es5/templates/inline_totp_setup.mustache:13
+msgid "Can’t scan code?"
+msgstr "Tidak dapat memindai kode?"
+
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
+msgid "Once complete, it will begin generating security codes for you to enter."
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:16
+msgid "Type this secret key into your authentication app."
+msgstr ""
+
+#: .es5/templates/inline_totp_setup.mustache:17
+msgid "Scan QR code instead?"
+msgstr "Pindai kode QR saja?"
+
+#: .es5/templates/inline_totp_setup.mustache:19
+msgid "Security code"
+msgstr "Kode keamanan"
+
+#: .es5/templates/inline_totp_setup.mustache:20
+msgid "Ready"
+msgstr "Siap"
+
+#: .es5/templates/legal.mustache:1
+msgid "Legal"
+msgstr "Pernyataan Hukum"
+
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+msgid "Terms of Service"
+msgstr "Ketentuan Layanan"
+
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Kebijakan Privasi"
+
+#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+msgid "Get the full Sync experience."
+msgstr "Dapatkan pengalaman sinkronisasi yang penuh."
+
+#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:19
+msgid "Download Firefox for iOS!"
+msgstr "Unduh Firefox untuk iOS!"
+
+#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:20
+msgid "Download Firefox for Android."
+msgstr "Unduh Firefox untuk Android."
+
+#: .es5/templates/marketing_snippet.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "Unduh Firefox untuk perangkat seluler."
+
+#: .es5/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr "Permintaan izin"
+
+#: .es5/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "%(serviceName)s menginginkan informasi tersebut dari akun Anda:"
+
+#: .es5/templates/permissions.mustache:3
+msgid "Accept"
+msgstr "Terima"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Batal"
+
+#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+msgid "Success"
+msgstr "Sukses"
+
+#: .es5/templates/ready.mustache:4
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr "Anda sekarang siap untuk menggunakan <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
+msgid "Continue to my account"
+msgstr "Lanjutkan ke akun saya"
+
+#: .es5/templates/ready.mustache:14
+msgid "Your account is ready!"
+msgstr "Akun Anda siap!"
+
+#: .es5/templates/ready.mustache:15
+msgid "Generate a new recovery key"
+msgstr "Buat kunci pemulihan baru"
+
+#: .es5/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr "Laporkan proses masuk tidak dikenali?"
+
+#: .es5/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr "Anda telah menerima email tentang percobaan akses ke akun Anda. Ingin melaporkannya sebagai aktivitas yang patut dicurigai?"
+
+#: .es5/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr "Laporkan aktivitas"
+
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr "Mengapa ini terjadi?"
+
+#: .es5/templates/reset_password.mustache:3
+msgid ""
+"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Email"
+
+#: .es5/templates/reset_password.mustache:6
+msgid "Begin reset"
+msgstr "Mulai setel ulang"
+
+#: .es5/templates/security_events.mustache:1
+msgid "Recent Activity"
+msgstr "Aktivitas Terkini"
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:4
+msgid "Confirmed"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr "Kembali ke pengaturan"
+
+#: .es5/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr "Maaf. Kami mengunci akun&nbsp;Anda."
+
+#: .es5/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr "Surel konfirmasi yang kami kirim ke %(email)s memantul dan kami telah mengunci akun untuk melindungi data Firefox Anda."
+
+#: .es5/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr "Jika ini alamat surel yang valid, <a %(escapedSupportLinkAttrs)s>beri tahu kami</a> dan kami akan membantu mengembalikan akun Anda."
+
+#: .es5/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr "Tidak lagi memiliki surel ini? Buat akun baru"
+
+#: .es5/templates/sign_in_password.mustache:11
+msgid ""
+"\n"
+"              By proceeding, you agree to:<br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"            "
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:1
+msgid "Enter recovery code"
+msgstr "Masukkan kode pemulihan"
+
+#: .es5/templates/sign_in_recovery_code.mustache:3
+msgid "Please enter a recovery code that was provided to you during setup."
+msgstr "Silakan masukkan kode pemulihan yang tersedia pada saat pengaturan."
+
+#: .es5/templates/sign_in_recovery_code.mustache:4
+msgid "Enter 10-digit recovery code"
+msgstr "Masukkan 10 digit kode pemulihan"
+
+#: .es5/templates/sign_in_recovery_code.mustache:7
+msgid "Are you locked out?"
+msgstr "Apakah Anda terkunci?"
+
+#: .es5/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr "Terima kasih atas kewaspadaan Anda"
+
+#: .es5/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr "Tim kami telah diberitahu. Laporan seperti ini membantu kami tangkis penyusup."
+
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr "Masukkan kode keamanan"
+
+#: .es5/templates/sign_in_totp_code.mustache:3
+msgid "Open your authentication app and enter the security code it provides."
+msgstr "Buka aplikasi autentikasi Anda dan masukkan kode keamanan yang disediakan."
+
+#: .es5/templates/sign_in_totp_code.mustache:7
+msgid "Trouble entering code?"
+msgstr "Kesulitan memasukkan kode?"
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "Izinkan untuk masuk"
+
+#: .es5/templates/sign_in_unblock.mustache:3
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr "Periksa surel Anda untuk kode otorisasi yang dikirim ke %(email)s."
+
+#: .es5/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr "Masukkan kode autentikasi"
+
+#: .es5/templates/sign_up_password.mustache:1
+msgid "Set your password"
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:2
+msgid "Change email"
+msgstr "Ubah surel"
+
+#: .es5/templates/sign_up_password.mustache:5
+msgid "Repeat password"
+msgstr "Ulangi sandi"
+
+#: .es5/templates/sign_up_password.mustache:6
+msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:7
+msgid "Practical knowledge is coming to your inbox. Sign up for more:"
+msgstr "Pengetahuan praktis akan datang ke kotak masuk Anda. Daftar untuk info lebih lanjut:"
+
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "Pilih yang ingin disinkronkan"
+
+#: .es5/templates/sign_up_password.mustache:14
+msgid "Create account"
+msgstr "Buat akun"
+
+#: .es5/templates/sign_up_password.mustache:15
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
+
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Firefox Account"
+
+#: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr ""
+
+#: .es5/templates/support.mustache:3
+msgid "Subscriptions"
+msgstr "Langganan"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
+msgid "Contact Us"
+msgstr "Hubungi Kami"
+
+#: .es5/templates/support.mustache:6
+msgid "What are you contacting us about?"
+msgstr ""
+
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please select one"
+msgstr ""
+
+#: .es5/templates/support.mustache:10
+msgid "What do you need help with?"
+msgstr "Anda butuh bantuan apa?"
+
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "Pembayaran & penagihan"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "Masalah akun"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr ""
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr ""
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr "Tidak terdaftar"
+
+#: .es5/templates/support.mustache:17
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
+
+#: .es5/templates/support.mustache:19
+msgid "Subject (optional)"
+msgstr "Subjek (opsional)"
+
+#: .es5/templates/support.mustache:20
+msgid "Description of issue"
+msgstr "Deskripsi masalah"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Kirim"
+
+#: .es5/templates/would-you-like-to-sync.mustache:1
+msgid "Would you like to sync this device to your account?"
+msgstr ""
+
+#: .es5/templates/would-you-like-to-sync.mustache:2
+msgid "Sync this device"
+msgstr "Sinkronkan perangkat ini"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
+msgid "Step 1 of 2: Re-enter password"
+msgstr "Langkah 1 dari 2: Masukkan kembali sandi"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
+msgid "Enter your password to view your recovery key."
+msgstr "Masukkan sandi Anda untuk melihat kunci pemulihan Anda."
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+msgid "Enter Password"
+msgstr "Masukkan Sandi"
+
+#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr "Berhasil terhubung"
+
+#: .es5/templates/push/completed.mustache:3
+msgid "Please close this page and continue on the other device."
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:1
+msgid "New sign-in to Firefox"
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:3
+msgid "Confirm sign-in"
+msgstr "Mengkonfirmasi masuk"
+
+#: .es5/templates/push/confirm_login.mustache:4
+msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:2
+msgid "Send login push notification"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:3
+msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:4
+msgid "Resend tab"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:5
+msgid "Tab not arriving? Send an email instead"
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+msgid "Add a secondary email address"
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
+msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "Surel kedua"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+msgid "Maybe later"
+msgstr "Mungkin nanti"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr "Gunakan surel yang berbeda"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+msgid "Please change your password"
+msgstr "Silakan ubah kata sandi Anda"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:2
+msgid "to continue to %(serviceName)s"
+msgstr "untuk melanjutkan ke %(serviceName)s"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:5
+msgid ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:6
+msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Sandi lawas"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:9
+msgid "Re-enter new password"
+msgstr ""
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:10
+msgid "Change password"
+msgstr "Ubah sandi"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+msgid "This Firefox is connected"
+msgstr "Firefox ini telah terhubung"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
+msgid "Sign up for more"
+msgstr "Daftar untuk lebih lanjut"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
+msgid "Practical knowledge is coming to your inbox."
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
+msgid "Get practical knowledge in your inbox about:"
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
+msgid "Subscribe %(email)s"
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client."
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+msgid "Create a Firefox Account"
+msgstr "Buat Firefox Account"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
+msgid "Continue to %(productName)s"
+msgstr "Lanjutkan ke %(productName)s"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
+msgid "Enter a password"
+msgstr "Masukkan kata sandi"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+msgid "Confirm password"
+msgstr "Konfirmasi kata sandi"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "Buat kata sandi"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:1
+msgid "Device connected!"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:4
+msgid "Connect another one"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5
+msgid "Use SMS instead"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:6
+msgid "I'm done for now"
+msgstr "Saya sudah selesai untuk saat ini"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
+msgid "Sync Firefox between devices"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
+msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
+msgid "Get started"
+msgstr "Mulai"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+msgid "I'll do this later, send me a reminder"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
+msgid "Download Firefox with your camera app"
+msgstr "Unduh Firefox dengan aplikasi kamera Anda"
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
+msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
+msgid "Ready to scan"
+msgstr "Siap memindai"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
+msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
+msgid "Open the camera app on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
+msgid "Point the camera at the QR code and tap the link that appears"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
+msgid "Install Firefox and open it on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
+msgid "Sign into your account"
+msgstr "Masuk ke akun Anda"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
+msgid "<span class=\"number\">1</span>Open the camera app on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
+msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
+msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
+msgid "<span class=\"number\">4</span>Sign into your account"
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+msgid "Protect your data with a recovery key"
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
+msgid "Your synced data can include passwords you've saved."
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
+msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
+msgid "Get a Recovery Key"
+msgstr "Dapatkan Kunci Pemulihan"
+
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
+msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
+msgid "Enter your recovery key to confirm that you've saved a copy."
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+msgid "Save recovery key"
+msgstr "Simpan kunci pemulihan"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Selesai"
+
+#: .es5/templates/partial/account-suggestion.mustache:1
+msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
+msgid "How old are you?"
+msgstr "Berapa usia Anda?"
+
+#: .es5/templates/partial/coppa-age-input.mustache:4
+msgid "You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:2
+msgid "%(family)s on %(OS)s"
+msgstr "%(family)s pada %(OS)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:3
+msgid "%(city)s, %(region)s, %(country)s (estimated)"
+msgstr "%(city)s, %(region)s, %(country)s (perkiraan)"
+
+#: .es5/templates/partial/device-being-paired.mustache:7
+msgid "%(region)s, %(country)s (estimated)"
+msgstr "%(region)s, %(country)s (perkiraan)"
+
+#: .es5/templates/partial/device-being-paired.mustache:9
+msgid "%(country)s"
+msgstr "%(country)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:11
+msgid "Location unknown"
+msgstr "Lokasi tidak diketahui"
+
+#: .es5/templates/partial/device-being-paired.mustache:12
+msgid "IP address: %(ipAddress)s"
+msgstr "Alamat IP: %(ipAddress)s"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:1
+msgid "Password requirements"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:3
+msgid "At least 8 characters"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:6
+msgid "Not your email address"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:10
+msgid "Not a commonly used password"
+msgstr ""
+
+#: .es5/templates/partial/password-strength-balloon.mustache:11
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgstr ""
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to Support"
+msgstr "Pesan Anda telah dikirim ke Dukungan"
+
+#: .es5/templates/partial/support-form-success.mustache:2
+msgid "Back to Subscriptions"
+msgstr "Kembali ke Langganan"
+
+#: .es5/templates/partial/sync-suggestion.mustache:1
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr "Mencari Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Mulailah di sini</a>"
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr ""
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:1
+msgid "Did you just sign in to Firefox?"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:2
+msgid " %(email)s "
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:3
+msgid "location balloon"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:4
+msgid "Yes, approve device"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:5
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+msgid "Device connected"
+msgstr "Perangkat tersambung"
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid ""
+"\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"      "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:5
+msgid "See tabs from synced devices"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:7
+msgid "Manage devices"
+msgstr "Kelola peranti"
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approval now required <small>from your other device</small>"
+msgstr "Persetujuan kini diperlukan <small>dari perangkat Anda yang lain</small>"
+
+#: .es5/templates/pair/failure.mustache:1
+msgid "Pairing not successful"
+msgstr "Pemasangan tidak berhasil"
+
+#: .es5/templates/pair/failure.mustache:2
+msgid "The setup process was terminated."
+msgstr "Proses pengaturan diakhiri."
+
+#: .es5/templates/pair/index.mustache:1
+msgid "Download Firefox on your phone or tablet"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:4
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
+msgid "I’m ready to sync devices"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:8
+msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:2
+msgid "Device successfully paired"
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr "Pemasangan berhasil."
+
+#: .es5/templates/pair/supp_allow.mustache:1
+msgid "Confirm pairing <small>for %(email)s</small>"
+msgstr "Konfirmasi pemasangan <small>untuk %(email)s</small>"
+
+#: .es5/templates/pair/supp_allow.mustache:2
+msgid "Confirm pairing"
+msgstr "Konfirmasi pemasangan"
+
+#: .es5/templates/pair/unsupported.mustache:1
+msgid "Pair using an app"
+msgstr "Pasangkan menggunakan aplikasi"
+
+#: .es5/templates/pair/unsupported.mustache:2
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam aplikasi Firefox."
+
+#~ msgid "Primary email verified"
+#~ msgstr "Surel utama telah diverifikasi"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Surel sekunder telah diverifikasi"
+
+#~ msgid "Account verified"
+#~ msgstr "Akun diverifikasi"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Tautan verifikasi kedaluwarsa"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Klik di sini untuk mendapatkan tautan verifikasi yang baru"
+
+#~ msgid "Verification error"
+#~ msgstr "Kesalahan verifikasi"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Periksa surel Anda untuk tautan verifikasi dikirim&nbsp;ke %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "Surel telah diverifikasi"
+
+#~ msgid "Verified"
+#~ msgstr "Diverifikasi"
+
+#~ msgid "Verify"
+#~ msgstr "Verifikasi"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Masukkan kode verifikasi"
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Info Masuk dan Sandi"
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Anda harus memenuhi syarat usia minimum untuk membuat Firefox Account."
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "Periksa surel Anda untuk kode yang dikirim ke %(email)s."
+
+#~ msgid "Why is more than one device required?"
+#~ msgstr "Mengapa diperlukan lebih dari satu peranti?"
+
+#~ msgid "Why sync multiple devices?"
+#~ msgstr "Kenapa sinkronkan banyak perangkat?"
+
+#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+#~ msgstr "Layanan Sync bukan cadangan permanen, ini hanyalah sebuah cara yang aman untuk memindahkan markah tersimpan, riwayat dan sandi antar perangkat Anda."
+
+#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+#~ msgstr "Anda harus memasang Firefox dan menyinkronkan setidaknya dua peranti untuk melindungi dari kehilangan data Anda jika Anda perlu memulihkannya tapi lupa sandi Anda."
+
+#~ msgid "Got it"
+#~ msgstr "Mengerti"
+
+#~ msgid "One account, many services"
+#~ msgstr "Satu akun, banyak layanan"
+
+#~ msgid "Firefox browser"
+#~ msgstr "Peramban Firefox"
+
+#~ msgid "Mozilla VPN"
+#~ msgstr "Mozilla VPN"
+
+#~ msgid "Pocket"
+#~ msgstr "Pocket"
+
+#~ msgid "Firefox Relay"
+#~ msgstr "Firefox Relay"
+
+#~ msgid "See all"
+#~ msgstr "Lihat semua"
+
+#~ msgid "Must not be your email address"
+#~ msgstr "Tidak boleh gunakan alamat surel Anda"
+
+#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
+#~ msgstr "Tidak boleh sama dengan <a %(escapedCommonPasswordLinkAttrs)s>daftar kata sandi umum ini</a>"
+
+#~ msgid "Approve new device <small>for %(email)s</small>"
+#~ msgstr "Setujui perangkat baru <small>untuk %(email)s</small>"
+
+#~ msgid "Approve device"
+#~ msgstr "Setujui perangkat"
+
+#~ msgid "You are now syncing with:"
+#~ msgstr "Sekarang Anda tersinkronisasi dengan:"
+
+#~ msgid "Open the code scanner on your Firefox app and show code when ready."
+#~ msgstr "Buka pemindai kode pada aplikasi Firefox Anda dan tampilkan kode ketika tersedia."
+
+#~ msgid "Show code"
+#~ msgstr "Tampilkan kode"
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Nomor ponsel"
+
+#~ msgid "Not now"
+#~ msgstr "Jangan sekarang"
+
+#~ msgid "Check your texts"
+#~ msgstr "Periksa kotak SMS Anda"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "Tautan ke aplikasi Firefox telah dikirim ke %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Nomornya salah?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "Jika Anda tidak menerima pesan SMS, Anda juga bisa mencari “Firefox” di toko aplikasi perangkat Anda."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Tidak tiba? Kirim ulang"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Mengapa harus masuk ke perangkat lain?"
+
+#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Bantuan</a>"
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "Dapatkan wawasan atas kebocoran data."
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>INGAT:</span> Ketika Anda menyetel ulang kata sandi, akun Anda pun akan disetel ulang. Anda mungkin kehilangan beberapa informasi pribadi (termasuk riwayat, markah dan kata sandi). Ini "
+#~ "dikarenakan kami mengenkripsi data Anda dengan kata sandi Anda untuk melindungi privasi."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>CATATAN:</span> Ketika Anda menyetel ulang kata sandi, akun Anda pun akan disetel ulang. Anda mungkin kehilangan beberapa informasi pribadi (termasuk riwayat, markah dan kata sandi). Ini "
+#~ "dikarenakan kami mengenkripsi data Anda dengan kata sandi Anda untuk melindungi privasi."
+
+#~ msgid "Change..."
+#~ msgstr "Ubah..."
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Setelah Anda selesai, gunakan sandi baru Anda untuk masuk pada seluruh perangkat Anda."
+
+#~ msgid "Change"
+#~ msgstr "Ganti"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Sandi sukses diganti"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr "Kami minta maaf atas hal ini. Anda harus mengubah sandi Firefox Account Anda, dan mencari informasi dari produsen perangkat Anda tentang penghapusan data jarak jauh."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr "Kami minta maaf atas hal ini. Jika perangkat ini tidak Anda percayai, kami sarankan untuk mengganti sandi Firefox Account dan ubah semua sandi yang disimpan di Firefox."
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "Terakhir dilihat %(translatedTimeAgo)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s"
+#~ msgstr "Terakhir terlihat lebih dari %(translatedTimeAgo)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Terakhir terlihat %(translatedTimeAgo)s di %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Terakhir terlihat %(translatedTimeAgo)s di %(translatedCountry)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Terakhir terlihat %(translatedTimeAgo)s di sekitar %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Terakhir terlihat %(translatedTimeAgo)s di sekitar %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Terakhir aktif %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Terakhir aktif lebih dari %(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Terakhir aktif %(translatedTimeAgo)s di %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Terakhir aktif lebih dari %(translatedTimeAgo)s di %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Terakhir aktif %(translatedTimeAgo)s di sekitar %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Terakhir aktif lebih dari %(translatedTimeAgo)s di sekitar %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "Lebih dari %(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s di %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Lebih dari %(translatedTimeAgo)s di %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s di sekitar %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Lebih dari %(translatedTimeAgo)s di sekitar %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Sesi Web, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Sesi Web"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "Tidak diketahui kapan terakhir terlihat"
+
+#~ msgid "Change…"
+#~ msgstr "Ubah…"
+
+#~ msgid "Add…"
+#~ msgstr "Tambah…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Pilih nama yang Anda inginkan tampil pada Firefox dan saat mengelola akun Anda."
+
+#~ msgid "Display name updated"
+#~ msgstr "Tampilan nama telah diperbarui"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Surel sekunder dihapus"
+
+#~ msgid "Verification email sent"
+#~ msgstr "Surel verifikasi terkirim"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "Surel utama di atur ke %(email)s"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Kode pemulihan baru dibuat"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Autentikasi dua langkah dihapus"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "Autentikasi Dua Langkah"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Pemulihan Akun"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "Pemulihan akun dicabut"
+
+#~ msgid "Sign out"
+#~ msgstr "Keluar"
+
+#~ msgid "Take picture"
+#~ msgstr "Ambil gambar"
+
+#~ msgid "Upload"
+#~ msgstr "Unggah"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
+
+#~ msgid "Clear"
+#~ msgstr "Bersihkan"
+
+#~ msgid "Avatar"
+#~ msgstr "Avatar"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Posisikan dan rotasi gambar Anda jika dibutuhkan"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "Putuskan dari Sync"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "Data penjelajahan Anda akan tetap berada %(deviceName)s, namun tidak akan tersinkronisasi lagi dengan akun Anda."
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "Anda memutuskan %(deviceName)s dari Sync karena perangkat ini:"
+
+#~ msgid "Suspicious"
+#~ msgstr "Mencurigakan"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "Hilang atau dicuri"
+
+#~ msgid "Rather not say"
+#~ msgstr "Cenderung tidak mengatakan"
+
+#~ msgid "Disconnect"
+#~ msgstr "Putuskan"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Pemutusan Berhasil"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Perangkat & aplikasi"
+
+#~ msgid "Show"
+#~ msgstr "Tampilkan"
+
+#~ msgid "Current device"
+#~ msgstr "Peranti saat ini"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Putuskan…"
+
+#~ msgid "Current session"
+#~ msgstr "Sesi terkini"
+
+#~ msgid "Revoke"
+#~ msgstr "Cabut"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "Firefox untuk iOS"
+
+#~ msgid "None connected"
+#~ msgstr "Tidak ada yang tersambung"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Firefox untuk Android"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Item hilang atau terduplikasi?"
+
+#~ msgid "Refresh status"
+#~ msgstr "Segarkan status"
+
+#~ msgid "Email preferences"
+#~ msgstr "Pengaturan email"
+
+#~ msgid "Delete account"
+#~ msgstr "Hapus akun"
+
+#~ msgid "Delete…"
+#~ msgstr "Hapus…"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "Surel sekunder adalah alamat tambahan untuk menerima pemberitahuan keamanan dan mengonfirmasi peranti baru."
+
+#~ msgid "Verification required"
+#~ msgstr "Verifikasi dibutuhkan"
+
+#~ msgid "Make primary"
+#~ msgstr "Jadikan yang utama"
+
+#~ msgid "Remove"
+#~ msgstr "Hapus"
+
+#~ msgid "Refresh"
+#~ msgstr "Segarkan"
+
+#~ msgid "Add"
+#~ msgstr "Tambah"
+
+#~ msgid "NOTE:"
+#~ msgstr "CATATAN:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "Dengan membuat kode pemulihan baru, semua kode sebelumnya akan menjadi tidak valid. Silakan simpan kode baru ini di lokasi yang aman."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Buat kode pemulihan baru"
+
+#~ msgid "Manage…"
+#~ msgstr "Kelola…"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "Autentikasi dua langkah"
+
+#~ msgid "Enable…"
+#~ msgstr "Aktifkan…"
+
+#~ msgid "Current status"
+#~ msgstr "Status terkini"
+
+#~ msgid "Enabled"
+#~ msgstr "Diaktifkan"
+
+#~ msgid "Disabled"
+#~ msgstr "Dinonaktifkan"
+
+#~ msgid "Disable"
+#~ msgstr "Nonaktifkan"
+
+#~ msgid "Enable"
+#~ msgstr "Aktifkan"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Ganti kode pemulihan"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Anda perlu memverifikasi alamat surel Anda sebelum Anda dapat melihat atau melakukan perubahan pada bagian ini."
+
+#~ msgid "Primary email"
+#~ msgstr "Surel utama"
+
+#~ msgid "Account recovery"
+#~ msgstr "Pemulihan akun"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Buat kunci pemulihan untuk mendapatkan akses ke markah, sandi, dan data Firefox tersinkronisasi jika lupa sandi Anda."
+
+#~ msgid "Recovery key"
+#~ msgstr "Kunci pemulihan"
+
+#~ msgid "Not set"
+#~ msgstr "Belum diatur"
+
+#~ msgid "Generate"
+#~ msgstr "Buat"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">CATATAN: </span>Sandi Firefox Account mengenkripsi data Firefox Anda. Hanya sandi atau kunci pemulihan Anda yang dapat mengakses data Anda. <a "
+#~ "%(escapedLearnMoreLinkAttributes)s>Pelajari lebih lanjut</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "Yakin ingin mencabut?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Anda tidak akan bisa menggunakan kunci pemulihan Anda untuk mengakses data Anda ketika Anda mengatur ulang sandi Anda."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "Langkah 2 dari 2: Simpan Kunci Pemulihan"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr ""
+#~ "<span class=\"note\">CATATAN: </span>Jika Anda lupa sandi Anda, kunci ini dibutuhkan untuk mendapatkan akses ke data Anda. Simpan kunci pemulihan Anda di tempat aman, di mana Anda dapat "
+#~ "menemukannya dengan mudah."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Selesai, Kunci pemulihan disimpan"
+
+#~ msgid "Please Select One"
+#~ msgstr "Silakan Pilih Satu"
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
+
+#~ msgid "Send larger files securely and privately."
+#~ msgstr "Kirim berkas berukuran besar secara aman dan pribadi."
+
+#~ msgid "Get app"
+#~ msgstr "Dapatkan aplikasinya"
+
+#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
+#~ msgstr "Terima kasih telah menghubungi Dukungan Mozilla tentang <b>%(escapedLowercaseTopic)s</b> untuk <b>%(escapedSelectedPlan)s</b>. Kami akan menghubungi Anda via surel secepatnya."
+
+#~ msgid "General inquiries"
+#~ msgstr "Pertanyaan umum"
+
+#~ msgid "Connection issues"
+#~ msgstr "Masalah sambungan"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Kirim Firefox langsung ke ponsel pintar Anda dan masuk untuk melengkapi persiapan"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Layanan SMS hanya tersedia di negara tertentu. Bisa dikenakan tarif SMS &amp; data. Penerima surel atau SMS yang dimaksudkan harus telah menyetujui. <a %(escapedLearnMoreAttributes)s>Pelajari "
+#~ "lebih lanjut</a>"
+
+#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
+#~ msgstr "Akun sudah ada. <a href=\"/signin\">Masuk</a>"
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "Terakhir disinkronkan %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "Terakhir disinkronkan lebih dari %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Terakhir disinkronkan %(translatedTimeAgo)s di %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Terakhir disinkronkan lebih dari %(translatedTimeAgo)s di %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Terakhir disinkronkan %(translatedTimeAgo)s di sekitar %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Terakhir disinkronkan lebih dari %(translatedTimeAgo)s di sekitar %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "Waktu terakhir sinkronisasi tidak diketahui"
+
+#~ msgid "Subscribed successfully"
+#~ msgstr "Sukses berlangganan"
+
+#~ msgid "Open tabs"
+#~ msgstr "Tab terbuka"
+
+#~ msgid "Logins"
+#~ msgstr "Info Masuk"
+
+#~ msgid "Credit cards"
+#~ msgstr "Kartu kredit"
+
+#~ msgid "Firefox Sync"
+#~ msgstr "Firefox Sync"
+
+#~ msgid "Accounts with two-step authentication do not support pairing at this time"
+#~ msgstr "Akun dengan otentikasi dua langkah tidak mendukung pemasangan saat ini"
+
+#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+#~ msgstr "Apakah maksud Anda <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+
+#~ msgid "Please try again later"
+#~ msgstr "Silakan coba kembali nanti"
+
+#~ msgid "Service unavailable, try again soon"
+#~ msgstr "Layanan tidak tersedia, coba lagi nanti"
+
+#~ msgid "%(email)s registered"
+#~ msgstr "%(email)s telah terdaftar"
+
+#~ msgid "Save selections"
+#~ msgstr "Simpan pilihan"
+
+#~ msgid "Sign in to continue"
+#~ msgstr "Masuk untuk melanjutkan"
+
+#~ msgid "Create an account"
+#~ msgstr "Buat akun"
+
+#~ msgid "Use security code"
+#~ msgstr "Gunakan kode keamanan"
+
+#~ msgid "Enter code"
+#~ msgstr "Masukkan kode"
+
+#~ msgid "Use recovery code"
+#~ msgstr "Gunakan kode pemulihan"
+
+#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+#~ msgstr "Jangan kehilangan sandi ini. Jika Anda perlu menyetel ulang, Anda mungkin kehilangan data Sync."
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr "<span>Jangan menggunakan kembali sandi surel Anda</span>Jika seseorang tahu sandi surel Anda, mereka dapat menyetujui proses masuk Firefox Anda pada peranti baru dan mengakses data Anda."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>Ingat sandi Anda</span>Jika Anda perlu menyetel ulang sandi Anda, Anda akan kehilangan data Sync yang tak tersedia di salah satu perani Anda."
+
+#~ msgid "Have an account? Sign in"
+#~ msgstr "Sudah memiliki akun? Masuk"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "Pasang Firefox pada ponsel pintar Anda dan masuk untuk melengkapi persiapan"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Tautan aplikasi dikirim ke %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Salah ketik&nbsp;nomor?</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Tautan aplikasi dikirim ulang ke %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Salah ketik&nbsp;nomor?</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "Meskipun Anda tidak menerima pesannya, Anda tetap dapat mengunduh aplikasinya secara manual."
+
+#~ msgid "Disconnect from Sync?"
+#~ msgstr "Putuskan dari Sync?"
+
+#~ msgid "Suspicious device"
+#~ msgstr "Perangkat mencurigakan"
+
+#~ msgid "Lost or stolen device"
+#~ msgstr "Perangkat hilang atau dicuri"
+
+#~ msgid "Old or replaced device"
+#~ msgstr "Perangkat lama atau diganti"
+
+#~ msgid "Duplicate device"
+#~ msgstr "Perangkat ganda"
+
+#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+#~ msgstr ""
+#~ "Anda akan mendapatkan informasi lanjutan terkait keamanan akun Anda, pengubahan kebijakan kami, kegunaan akun Anda dan surel awal untuk membantu Anda memanfaatkan Firefox Account sepenuhnya."
+
+#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+#~ msgstr "Selain itu, Anda dapat berlangganan untuk menerima surel promosi dengan berita terkini tentang Mozilla dan Firefox."
+
+#~ msgid "Subscribe"
+#~ msgstr "Berlangganan"
+
+#~ msgid "Manage preferences"
+#~ msgstr "Kelola preferensi"
+
+#~ msgid ""
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
+#~ msgstr ""
+#~ "Jika Anda menggunakan akun ini untuk aplikasi dan layanan Mozilla seperti AMO, Pocket dan Screenshots Anda perlu masuk dahulu dan hilangkan informasi pribadi yang disimpan. Sekali Anda menghapus "
+#~ "akun Anda di sini Anda bisa kehilangan aksesnya di mana pun."
+
+#~ msgid "verified"
+#~ msgstr "terverifikasi"
+
+#~ msgid "verification required"
+#~ msgstr "verifikasi dibutuhkan"
+
+#~ msgid "Recovery codes"
+#~ msgstr "Kode pemulihan"
+
+#~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
+#~ msgstr "Berikut adalah kode pemulihan sekali pakai. Simpan di tempat yang aman jika Anda kehilangan akses ke ponsel Anda. Anda tidak akan dapat melihat kode-kode ini lagi."
+
+#~ msgid "Manually enter this secret key into your authentication app:"
+#~ msgstr "Masukkan kunci rahasia ini secara manual ke aplikasi autentikasi Anda:"
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "Kata sandi Firefox Account Anda"
+
+#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+#~ msgstr "Tetaplah orisinil dan aman &mdash; jangan gunakan ulang kata sandi ini di mana pun."
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "Ingat kata sandi ini &mdash; data Anda akan hilang dari server kami jika disetel ulang."
+
+#~ msgid "Get App"
+#~ msgstr "Unduh Aplikasi"
+
+#~ msgid "Get the most out of your account"
+#~ msgstr "Dapatkan manfaat lebih dari akun Anda"
+
+#~ msgid "Sync these everywhere you sign in"
+#~ msgstr "SInkronkan di semua perangkat tempat Anda masuk"
+
+#~ msgid "Practical knowledge is coming to your inbox"
+#~ msgstr "Pengetahuan praktis, langsung ke kotak masuk Anda"
+
+#~ msgid "Sign up for more:"
+#~ msgstr "Daftar untuk mendapatkan yang lainnya:"
+
+#~ msgid "Invite me to test new Mozilla products"
+#~ msgstr "Undang saya untuk menguji produk Mozilla baru"
+
+#~ msgid "One last step"
+#~ msgstr "Langkah terakhir"
+
+#~ msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
+#~ msgstr "Periksa tautan konfirmasi pada %(escapedEmail)s dan kami akan menyelesaikannya untuk Anda."
+
+#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+#~ msgstr "Masuk ke <span class=\"service\">akun Firefox Anda</span>"
+
+#~ msgid "Create your Firefox account"
+#~ msgstr "Buat akun Firefox Anda"
+
+#~ msgid "You did it! You’re signed in."
+#~ msgstr "Bagus! Anda sudah masuk."
+
+#~ msgid "Now get Firefox everywhere else."
+#~ msgstr "Kini dapatkan Firefox di mana saja."
+
+#~ msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
+#~ msgstr "Masuk di perangkat Anda yang lain untuk mendapatkan semua produk, pengetahuan, dan fitur privasi Firefox."
+
+#~ msgid "Get more from these features:"
+#~ msgstr "Dapatkan lebih banyak dari fitur ini:"
+
+#~ msgid "Travel the internet with protection, on every device."
+#~ msgstr "Raungi lautan Internet dengan perlindungan, di semua perangkat."
+
+#~ msgid "Keep your passwords protected and portable."
+#~ msgstr "Simpan, lindungi, dan bawa kata sandi Anda kemana saja."
+
+#~ msgid "Share large files without prying eyes."
+#~ msgstr "Bagikan berkas raksasa tanpa khawatir dimata-matai."
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+#~ msgstr ""
+#~ "Bila melanjutkan, Anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Kebijakan Privasi</"
+#~ "a>."
+
+#~ msgid "Description of Issue"
+#~ msgstr "Deskripsi masalah"
+
+#~ msgid "Any subscriptions you have will be cancelled"
+#~ msgstr "Setiap langganan yang Anda miliki akan dibatalkan"
+
+#~ msgid "%(email)s registered."
+#~ msgstr "%(email)s telah terdaftar."
+
+#~ msgid "Communication preferences"
+#~ msgstr "Pengaturan komunikasi"
+
+#~ msgid "Manage Subscriptions"
+#~ msgstr "Kelola Langganan"
+
+#~ msgid "Refresh Status"
+#~ msgstr "Segarkan Status"
+
+#~ msgid "Approve connections <small>to begin syncing</small>"
+#~ msgstr "Setujui koneksi <small>untuk memulai sinkronisasi</small>"
+
+#~ msgid "Approve connection"
+#~ msgstr "Setujui sambungan"
+
+#~ msgid "Approve this connection <small>from this device</small>"
+#~ msgstr "Setujui koneksi <small>dari perangkat ini</small>"
+
+#~ msgid "Use a different email address"
+#~ msgstr "Gunakan alamat surel yang berbeda"
+
+#~ msgid "Sign in &rarr;"
+#~ msgstr "Masuk &rarr;"
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "Galat menyambung ke peranti jarak jauh"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "Tidak dapat mendekripsi pesan dari peranti jarak jauh"
+
+#~ msgid "Save settings"
+#~ msgstr "Simpan pengaturan"
+
+#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
+#~ msgstr "Firefox Account tidak dikenal. <a href=\"/signup\">Daftar</a> menggunakan alamat surel Pengaya Anda sebelumnya untuk mengakses data Pengaya."
+
+#~ msgid "App link resent to %(phoneNumber)s"
+#~ msgstr "Tautan aplikasi dikirim ulang ke %(phoneNumber)s"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "Dibuat oleh <a href=\"https://www.gravatar.com\">Gravatar</a>"
+
+#~ msgid "Unsubscribed successfully"
+#~ msgstr "Sukses berhenti langganan"
+
+#~ msgid "Email resent"
+#~ msgstr "Email dikirimkan ulang"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Tidak ditemukan Gravatar"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+#~ msgstr "Apakah maksud Anda <span tabindex=\"1\">%(escapedDomain)s</span>?"
+
+#~ msgid "Resources failed to load"
+#~ msgstr "Sumber daya gagal dimuat"
+
+#~ msgid "Unexpected resource error"
+#~ msgstr "Kesalahan sumber daya tidak terduga"
+
+#~ msgid "Script error"
+#~ msgstr "Kesalahan skrip"
+
+#~ msgid "SMS sent"
+#~ msgstr "SMS terkirim"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "Nomor Anda telah diblokir"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "SMS tidak terkirim, silakan coba lagi"
+
+#~ msgid "Learn more."
+#~ msgstr "Pelajari selengkapnya."
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s telah dibuat"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Pengaya dan Preferensi saat ini tidak disinkronkan pada perangkat seluler."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Klik di sini untuk mendapatkan tautan penyetelan ulang sandi yang baru"
+
+#~ msgid "Enter new password"
+#~ msgstr "Masukkan sandi baru"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Segera setelah Anda memasukkan sandi baru, Anda akan kehilangan data Sync yang tak tersedia di salah satu perangkat Anda."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "Pelajari bagaimana Sync bekerja."
+
+#~ msgid "Submit new password"
+#~ msgstr "Masukkan sandi baru"
+
+#~ msgid "Email Sent"
+#~ msgstr "Surel Dikirim"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Tautan verifikasi telah dikirim&nbsp;ke %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Untuk melindungi data Firefox Anda dengan lebih baik, kami mengirimkan surel berisi tautan konfirmasi ke %(email)s"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "Tidak diterima dan tidak ada di folder spam? Kirim ulang"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "Klik pada tautan yang dikirimkan via surel di %(email)s dalam beberapa jam kemudian untuk membuat sandi baru."
+
+#~ msgid "This device is connected"
+#~ msgstr "Perangkat ini telah terhubung"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "Buka setelan dan pilih Masuk ke Firefox untuk menyelesaikan persiapan"
+
+#~ msgid "Why is this required?"
+#~ msgstr "Kenapa ini dibutuhkan?"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Reremah dan penyimpanan lokal diperlukan."
+
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Bila melanjutkan, anda setuju dengan <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Kebijakan Privasi</"
+#~ "a> untuk layanan awan Firefox."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Layanan awan Firefox"
+
+#~ msgid "Proceed"
+#~ msgstr "Lanjut"
+
+#~ msgid "Reset account"
+#~ msgstr "Setel ulang akun"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Saat Anda set ulang sandi, Anda akan kehilangan data Sync yang tidak ada pada salah satu perangkat Anda."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Ingat sandi? Masuk."
+
+#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Mencari data pengaya anda? <a href=\"/signup\">Daftar</a> Firefox Account dengan akun surel pengaya anda sebelumnya."
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "Migrasi data sinkronisasi Anda dengan masuk ke Firefox Account Anda."
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "Untuk mengamankan data Firefox Anda lebih baik lagi, kami telah mengirim kode autentikasi untuk Anda pada %(email)s."
+
+#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+#~ msgstr "Mencari Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Mulailah disini</a>"
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "Migrasi data sinkronisasi Anda dengan membuat Firefox Account baru."
+
+#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Mencari data pengaya Anda? Daftar Firefox Account dengan akun surel pengaya Anda sebelumnya."
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "Kata sandi yang kuat dan unik akan membuat data Firefox Anda aman dari peretas."
+
+#~ msgid "Receive the monthly Firefox newsletter"
+#~ msgstr "Kirimi saya nawala bulanan Firefox"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Layanan SMS hanya tersedia untuk nomor telepon AS. Tarif SMS &amp; data mungkin berlaku. Penerima email atau SMS dimaksud harus sudah menyetujui. <a %(escapedLearnMoreAttributes)s>Pelajari lebih "
+#~ "lanjut</a>"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "Tautan aplikasi dikirim ke %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Salah ketik nomor?</a>"
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Mengapa Sync dua (atau lebih) perangkat?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Sync memungkinkan Anda berbagi markah, riwayat, serta kata sandi yang tersimpan di Firefox dari satu perangkat ke perangkat lainnya. Masuk ke Firefox di ponsel atau tablet dan semua yang telah "
+#~ "Anda simpan di Firefox desktop akan muncul."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "Sync tidak dirancang sebagai layanan cadangan permanen - ia hanya berbagi apa yang telah disimpan secara lokal. Jika Anda mengubah ulang kata sandi dan data tidak tersimpan setidaknya di satu "
+#~ "perangkat, Anda dapat kehilangan semua informasi yang terkait dengan kata sandi lama tersebut. Itulah sebabnya Anda perlu untuk memasang Firefox dan menggunakan Sync pada lebih dari satu "
+#~ "perangkat."
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "Simpan"
+
+#~ msgid "current device"
+#~ msgstr "perangkat saat ini"
+
+#~ msgid "current session"
+#~ msgstr "sesi terkini"
+
+#~ msgid "none connected"
+#~ msgstr "tidak ada yang terhubung"
+
+#~ msgid "Receive the monthly Firefox newsletter."
+#~ msgstr "Kirimi saya nawala bulanan Firefox."
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Berhenti berlangganan"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "Yakin akan menghapus akun Anda? Aksi ini tidak dapat diurungkan."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Masuk untuk Sinkronisasi"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "Pilih akun yang Anda ingin gunakan untuk sinkronisasi tab Anda, markah, sandi dan lainnya."
+
+#~ msgid "Use OpenID"
+#~ msgstr "Gunakan OpenID"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "Gunakan Firefox Account"
+
+#~ msgid "first sync %(translatedTimeAgo)s"
+#~ msgstr "sinkronisasi terakhir %(translatedTimeAgo)s"
+
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "terakhir disinkronkan %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "terakhir aktif %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "waktu terakhir sinkronisasi tidak diketahui"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "%(escapedEmail)s terdaftar. <a %(escapedBackLinkParams)s>Email salah ketik?</a>"
+
+#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+#~ msgstr "Periksa surel Anda untuk tautan konfirmasi masuk dikirim ke %(email)s"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Proses masuk dikonfirmasi"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "Pemberitahuan akun akan dikirimkan ke %(secondaryEmailVerified)s sekarang juga"
+
+#~ msgid "We may send you emails related to your Firefox Account."
+#~ msgstr "Kami mungkin mengirimkan surel terkait dengan Firefox Account Anda."
+
+#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+#~ msgstr "Selain itu, Anda dapat memilih untuk menerima berita terkini tentang Mozilla dan Firefox."
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+#~ msgstr "Surel sekunder adalah alamat tambahan untuk menerima pemberitahuan keamanan dan mengonfirmasi sinkronisasi peranti baru."
+
+#~ msgid "Not in inbox or spam folder? Resend?"
+#~ msgstr "Tidak ada di kotak masuk atau folder spam? Kirim ulang?"
+
+#~ msgid "Codes copied"
+#~ msgstr "Kode disalin"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "Gagal menyalin kode. Silakan menyalinnya secara manual."
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Kode verifikasi masuk tidak valid"
+
+#~ msgid "Print button image"
+#~ msgstr "Gambar tombol cetak"
+
+#~ msgid "Download button image"
+#~ msgstr "Gambar tombol unduh"
+
+#~ msgid "Sign in to continue."
+#~ msgstr "Masuk untuk melanjutkan."
+
+#~ msgctxt "submit button"
+#~ msgid "Sign in"
+#~ msgstr "Masuk"
+
+#~ msgctxt "header text"
+#~ msgid "Sign in"
+#~ msgstr "Masuk"
+
+#~ msgctxt "button text"
+#~ msgid "Sign in"
+#~ msgstr "Masuk"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
+#~ msgstr ""
+#~ "<span>PERLU DIINGAT:</span> Jika Anda menyetel ulang sandi Anda, beberapa data Anda akan dihapus (termasuk data peladen tersinkronisasi seperti riwayat dan markah). Itu karena kami mengenkripsi "
+#~ "data Anda dengan sandi Anda untuk melindungi privasi Anda."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
+#~ msgstr ""
+#~ "<span>CATATAN:</span> Jika Anda menyetel ulang sandi Anda, beberapa data Anda akan dihapus (termasuk data peladen tersinkronisasi seperti riwayat dan markah). Itu karena kami mengenkripsi data "
+#~ "Anda dengan sandi Anda untuk melindungi privasi Anda."
+
+#~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
+#~ msgstr "Tambahkan lapisan keamanan ke akun Anda dengan mewajibkan kode keamanan dari salah satu <a %(escapedTotpSupportAttributes)s>aplikasi autentikasi berikut.</a>"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+#~ msgstr "Surel sekunder adalah alamat tambahan untuk menerima pemberitahuan keamanan dan mengonfirmasi sinkronisasi peranti baru"
+
+#~ msgid "Unlock…"
+#~ msgstr "Buka…"
+
+#~ msgid "verify to unlock section"
+#~ msgstr "verifikasi untuk membuka bagian"
+
+#~ msgid "Add an extra layer of security to your account by requiring security codes."
+#~ msgstr "Tambah lapisan keamanan tambahan pada akun Anda dengan mewajibkan kode keamanan."
+
+#~ msgid "Can't scan code?"
+#~ msgstr "Tidak dapat memindai kode?"
+
+#~ msgid "Verify password"
+#~ msgstr "Verifikasi sandi"
+
+#~ msgid "Next"
+#~ msgstr "Lanjut"
+
+#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
+#~ msgstr "Minimal 8 karakter, namun dibutuhkan yang lebih panjang untuk menyinkronkan sandi."
+
+#~ msgid "This is a common password; please consider another one."
+#~ msgstr "Kata sandi ini terlalu umum; silakan pilih yang lain."
+
+#~ msgid "Signed out successfully"
+#~ msgstr "Sukses keluar"
+
+#~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
+#~ msgstr "Sandi salah. Untuk memeriksa apa yang Anda masukkan, tekan dan tahan tombol Tampilkan."
+
+#~ msgid "Duplicate Device"
+#~ msgstr "Duplikasi Perangkat"
+
+#~ msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+#~ msgstr "Lengkapi persiapan dengan memasang Firefox menggunakan tautan yang dikirim ke %(phoneNumber)s"
+
+#~ msgid "Reason for disconnecting…"
+#~ msgstr "Alasan memutuskan…"
+
+#~ msgid "Forgot password"
+#~ msgstr "Sandi lupa"
+
+#~ msgid "Firefox Sync will begin momentarily"
+#~ msgstr "Sinkronisasi Firefox akan dimulai"
+
+#~ msgid "Devices"
+#~ msgstr "Perangkat"
+
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "Sinkronkan selalu, kapan saja:"
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "Dapatkan Firefox untuk Android"
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "Anda dapat mengatur perangkat anda di bawah."
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
+#~ msgstr "Apakah maksud Anda <span tabindex=\"1\">%(domain)s</span>?"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "Tautan verifikasi telah dikirimkan ke: %(email)s"
+
+#~ msgid "Sync preferences"
+#~ msgstr "Pengaturan Sinkronisasi"
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "Memiliki akun dengan alamat surel berbeda? <a href=\"%(signinUri)s\">Masuk</a>"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox tersedia untuk <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> dan <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+
+#~ msgid "Last active: %(translatedTimeAgo)s"
+#~ msgstr "Terakhir aktif: %(translatedTimeAgo)s"
+
+#~ msgid "Delete"
+#~ msgstr "Hapus"
+
+#~ msgid "Attempt limit exceeded"
+#~ msgstr "Batas maksimum percobaan terlewati"
+
+#~ msgid "Tabs"
+#~ msgstr "Tab"
+
+#~ msgid "Last active: days ago"
+#~ msgstr "Terakhir aktif: hari lalu"
+
+#~ msgid "Last active: hours ago"
+#~ msgstr "Terakhir aktif: jam lalu"
+
+#~ msgid "Last active: minutes ago"
+#~ msgstr "Terakhir aktif: menit lalu"
+
+#~ msgid "Last active: months ago"
+#~ msgstr "Terakhir aktif: bulan lalu"
+
+#~ msgid "Last active: seconds ago"
+#~ msgstr "Terakhir aktif: detik lalu"
+
+#~ msgid "Last active: weeks ago"
+#~ msgstr "Terakhir aktif: pekan lalu"
+
+#~ msgid "Last active: years ago"
+#~ msgstr "Terakhir aktif: tahun lalu"
+
+#~ msgid "Resend email"
+#~ msgstr "Kirim ulang emailnya"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+#~ msgstr "Mencari Firefox Sync ? <a href=\"https://mozilla.org/firefox/sync\">Mulai dari sini.</a>"
+
+#~ msgid "Send me the monthly Firefox newsletter."
+#~ msgstr "Kirimi saya nawala Firefox bulanan."
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "Sudah memiliki akun? Masuk."
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "Tidak melihat seluruh perangkat Anda?"
+
+#~ msgid "days ago"
+#~ msgstr "hari yang lalu"
+
+#~ msgid "hours ago"
+#~ msgstr "jam yang lalu"
+
+#~ msgid "minutes ago"
+#~ msgstr "menit yang lalu"
+
+#~ msgid "months ago"
+#~ msgstr "bulan yang lalu"
+
+#~ msgid "seconds ago"
+#~ msgstr "detik yang lalu"
+
+#~ msgid "weeks ago"
+#~ msgstr "minggu yang lalu"
+
+#~ msgid "years ago"
+#~ msgstr "tahun yang lalu"
+
+#~ msgid "Account unlocked, please try again"
+#~ msgstr "Akun terkunci, silakan ulangi kembali"
+
+#~ msgid "Account unlocked"
+#~ msgstr "Akun terbuka"
+
+#~ msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+#~ msgstr "Akun terkunci. <a href=\"/confirm_account_unlock\">Kirim surel pembuka kunci </a>"
+
+#~ msgid "Unlock link expired"
+#~ msgstr "Tautan untuk membuka kunci kadarluwarsa"
+
+#~ msgid "Unlock link damaged"
+#~ msgstr "Buka link rusak"
+
+#~ msgid "Unlock error"
+#~ msgstr "Kesalahan membuka kunci"
+
+#~ msgid "Unlock email sent"
+#~ msgstr "Buka email terkirim"
+
+#~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
+#~ msgstr "Untuk alasan keamanan akun Anda dibuat terkunci. Untuk melakukan aktivitas tingkat-akun, silakan kembali verifikasi akun Anda dengan mengklik tautan verifikasi yang terkirim ke %(email)s"
+
+#~ msgid "Signup has been disabled"
+#~ msgstr "Pendaftaran tidak diaktifkan"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "Mengkonfirmasi baru masuk ke Firefox"
+
+#~ msgid "You signed in to Firefox from %(device)s, %(location)s."
+#~ msgstr "Anda masuk ke Firefox dari %(device)s, %(location)s."
+
+#~ msgid "You signed in to Firefox from %(device)s."
+#~ msgstr "Anda masuk ke Firefox dari %(device)s."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+#~ msgstr "Untuk keamanan tambahan, harap konfirmasi proses masuk ini untuk memulai sinkronisasi dengan %(device)s."
+
+#~ msgid "Alternatively:"
+#~ msgstr "Kemungkinan lain:"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Ini adalah surel otomatis; jika menurut Anda ini salah alamat, tidak perlu melakukan apa-apa."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+#~ msgstr "Untuk informasi lebih lanjut, harap kunjungi <a %(supportLinkAttributes)s>Dukungan Mozilla</a>"
+
+#~ msgid "Verify Email"
+#~ msgstr "Verifikasi Surel"
+
+#~ msgid "Verify your email to finish your Firefox Account sign-in"
+#~ msgstr "Verifikasi surel Anda untuk menyelesaikan masuk ke Firefox Account"
+
+#~ msgid "(current)"
+#~ msgstr "(saat ini)"
+
+#~ msgid "Welcome to Sync"
+#~ msgstr "Selamat datang di Sinkronisasi"
+
+#~ msgid "Invalid data-flow-begin attribute"
+#~ msgstr "Atribut mulai-aliran-data tidak sah"
+
+#~ msgid "Home"
+#~ msgstr "Beranda"
+
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "Parameter pada isi permintaan tidak ada: %(param)s"
+
+#~ msgid "Sign up"
+#~ msgstr "Daftar"
+
+#~ msgid "/force_auth requires an email"
+#~ msgstr "/force_auth membutuhkan email"
+
+#~ msgid "A reset link has been sent to %(email)s"
+#~ msgstr "Tautan penyetelan ulang telah dikirim ke %(email)s"
+
+#~ msgid "Are you sure you want to reset your account password?"
+#~ msgstr "Apakah anda yakin untuk menyetel ulang sandi akun anda?"
+
+#~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
+#~ msgstr ""
+#~ "Menyetel ulang sandi akan menghapus data perambanan Anda dari server kami. Data pada perangkat Anda akan tetap tak tersentuh. Memulai proses reset dengan memasukkan email Anda di bawah ini."
+
+#~ msgid "a day"
+#~ msgstr "satu hari"
+
+#~ msgid "%d days"
+#~ msgstr "%d hari"
+
+#~ msgid "about an hour"
+#~ msgstr "sekitar sejam"
+
+#~ msgid "%d hours"
+#~ msgstr "%d jam"
+
+#~ msgid "about a minute"
+#~ msgstr "sekitar semenit"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d menit"
+
+#~ msgid "about a month"
+#~ msgstr "sekitar satu bulan"
+
+#~ msgid "%d months"
+#~ msgstr "%d bulan"
+
+#~ msgid "a few seconds"
+#~ msgstr "beberapa detik"
+
+#~ msgid "ago"
+#~ msgstr "lalu"
+
+#~ msgid "from now"
+#~ msgstr "dari sekarang"
+
+#~ msgid "about a year"
+#~ msgstr "sekitar setahun"
+
+#~ msgid "%d years"
+#~ msgstr "%d tahun"
+
+#~ msgid "Age is required"
+#~ msgstr "Dibutuhkan umur"
+
+#~ msgid "Desktop Add-ons"
+#~ msgstr "Pengaya Desktop"
+
+#~ msgid "Desktop Preferences"
+#~ msgstr "Preferensi Desktop"
+
+#~ msgid "Cookies required"
+#~ msgstr "Dibutuhkan kuki"
+
+#~ msgid ""
+#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
+#~ "sessions."
+#~ msgstr ""
+#~ "Aktifkan kuki pada peramban Anda karena dibutuhkan oleh Akun Firefox. Kuki merupakan data kecil yang disimpan pada peramban Anda, untuk menyediakan fungsionalitas misalnya mengingat Anda antar "
+#~ "sesi."
+
+#~ msgid "1991"
+#~ msgstr "1991"
+
+#~ msgid "1992"
+#~ msgstr "1992"
+
+#~ msgid "1993"
+#~ msgstr "1993"
+
+#~ msgid "1994"
+#~ msgstr "1994"
+
+#~ msgid "1995"
+#~ msgstr "1995"
+
+#~ msgid "1996"
+#~ msgstr "1996"
+
+#~ msgid "1997"
+#~ msgstr "1997"
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "1999"
+#~ msgstr "1999"
+
+#~ msgid "2000"
+#~ msgstr "2000"
+
+#~ msgid "2001"
+#~ msgstr "2001"
+
+#~ msgid "2002"
+#~ msgstr "2002"
+
+#~ msgid "2003"
+#~ msgstr "2003"
+
+#~ msgid "2004"
+#~ msgstr "2004"
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "2006"
+#~ msgstr "2006"
+
+#~ msgid "2007"
+#~ msgstr "2007"
+
+#~ msgid "Year of birth required"
+#~ msgstr "Tahun lahir dibutuhkan"
+
+#~ msgid "Valid birthday required"
+#~ msgstr "Email harus valid"
+
+#~ msgid "Year of birth"
+#~ msgstr "Tahun lahir"
+
+#~ msgid "1990 or earlier"
+#~ msgstr "1990 atau sebelumnya"
+
+#~ msgid "Manage account"
+#~ msgstr "Kelola akun"
+
+#~ msgid "Enter your email to reset&nbsp;the account password."
+#~ msgstr "Masukkan email Anda untuk menyetel ulang sandi akun."
+
+#~ msgid "You are signed in as"
+#~ msgstr "Anda masuk sebagai"
+
+#~ msgid "Already have an account? Sign in."
+#~ msgstr "Sudah punya akun? Masuk."
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Dengan melanjutkan, saya menyetujui <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Ketentuan Layanan</a> dan <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Kebijakan Privasi</"
+#~ "a> layanan awan Firefox."
+
+#~ msgid "missing search parameter: %(itemName)s"
+#~ msgstr "parameter pencarian tidak tersedia: %(itemName)s"
+
+#~ msgid "Password changed"
+#~ msgstr "Sandi diubah"
+
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgstr "Akun belum diverifikasi. <a href=\"#\" id=\"resend\">Kirim ulang email verifikasi</a>."
+
+#~ msgid "Password reset. Sign in to continue."
+#~ msgstr "Sandi disetel ulang. Masuk untuk melanjutkan."
+
+#~ msgid "Signed out"
+#~ msgstr "Keluar"
+
+#~ msgid "Invalid password"
+#~ msgstr "Sandi tidak valid"
+
+#~ msgid "Invalid email and password"
+#~ msgstr "Email dan sandi tidak valid"
+
+#~ msgid "Invalid email or password"
+#~ msgstr "Email atau sandi tidak valid"
+
+#~ msgid "Old password invalid"
+#~ msgstr "Sandi lawas tidak valid"
+
+#~ msgid "New password invalid"
+#~ msgstr "Sandi baru tidak valid"
+
+#~ msgid "Passwords don't match"
+#~ msgstr "Sandi tidak cocok"
+
+#~ msgid "Please enter an email"
+#~ msgstr "Masukkan email"
+
+#~ msgid "Cannot connect to the internet"
+#~ msgstr "Tidak dapat tersambung ke internet"
+
+#~ msgid "Signed in successfully"
+#~ msgstr "Berhasil masuk"
+
+#~ msgid "Create a Firefox Account for %(serviceName)s"
+#~ msgstr "Buat Akun Firefox"
+
+#~ msgid "Change Password"
+#~ msgstr "Ubah Sandi"
+
+#~ msgid "Invalid authentication token in request signature"
+#~ msgstr "Token autentikasi pada kode permintaan tidak valid"
+
+#~ msgid "No token specified"
+#~ msgstr "Tidak ada token yang diberikan"
+
+#~ msgid "No code specified"
+#~ msgstr "Tidak ada kode yang diberikan"
+
+#~ msgid "No email specified"
+#~ msgstr "Tidak ada email yang diberikan"
+
+#~ msgid "No uid specified"
+#~ msgstr "Tidak ada uid yang diberikan"
+
+#~ msgid "Service unavailable"
+#~ msgstr "Layanan tidak tersedia"
+
+#~ msgid "Completing sign up"
+#~ msgstr "Menyelesaikan proses pendaftaran"
+
+#~ msgid "Client has sent too many requests"
+#~ msgstr "Klien terlalu banyak mengirimkan permintaan"
+
+#~ msgid "Delete Account"
+#~ msgstr "Hapus Akun"

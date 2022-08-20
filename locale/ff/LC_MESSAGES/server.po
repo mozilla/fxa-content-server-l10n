@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: 2020-05-05 00:45+0000\n"
 "Last-Translator: Amadou GUEYE <gueyeamas@yahoo.fr>\n"
 "Language-Team: FULAH LOCALIZATION\n"
@@ -15,8 +15,12 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1425732953.0\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Konte Firefox"
 
@@ -30,7 +34,8 @@ msgid ""
 "          will fix any links that may be broken."
 msgstr ""
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Jaɓɓorgo"
 
@@ -66,11 +71,13 @@ msgstr "Nana loowa"
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Konte Firefox ena naamnii JavaScript."
 
-#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
 msgstr "Tintinol Suturo"
 
-#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Sarɗiiji Carwe"
 
@@ -82,413 +89,11 @@ msgstr "Kesɗitingol Firefox ina naamnaa"
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
+"                        download and install the latest version of Firefox "
+"to\n"
 "                        continue."
 msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr ""
-
-#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-#~ msgstr "%(uaBrowser)s e %(uaOS)s %(uaOSVersion)s"
-
-#~ msgid "%(uaBrowser)s on %(uaOS)s"
-#~ msgstr "%(uaBrowser)s e %(uaOS)s"
-
-#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-#~ msgstr "%(city)s, %(stateCode)s, %(country)s (e ko hiisaa)"
-
-#~ msgid "%(city)s, %(country)s (estimated)"
-#~ msgstr "%(city)s, %(country)s (e ko hiisaa)"
-
-#~ msgid "%(stateCode)s, %(country)s (estimated)"
-#~ msgstr "%(stateCode)s, %(country)s (e ko hiisaa)"
-
-#~ msgid "%(country)s (estimated)"
-#~ msgstr "%(country)s (e ko hiisaa)"
-
-#~ msgid "Confirm email"
-#~ msgstr "Teeŋtin iimeel"
-
-#~ msgid "Confirm sign-in"
-#~ msgstr "Teeŋtin ceŋagol"
-
-#~ msgid "Reset your password"
-#~ msgstr "Firlit finnde maa"
-
-#~ msgid "Create new password"
-#~ msgstr "Sos finnde hesere"
-
-#~ msgid "Password updated"
-#~ msgstr "Finnde hesɗitinaama"
-
-#~ msgid "Manage account"
-#~ msgstr "Yiil konte"
-
-#~ msgid "Secondary email added"
-#~ msgstr "Iimeel ɗiɗaɓo ɓeydaama"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "Iimeel ɗiɗaɓo momtaama"
-
-#~ msgid "Best,"
-#~ msgstr "Buri fof,"
-
-#~ msgid "The Firefox Accounts team"
-#~ msgstr "Goomu Konte Firefox"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Finnde wayliraama no haaniri"
-
-#~ msgid "Your Firefox Account password was successfully changed from the following device:"
-#~ msgstr "Finnde Konte Firefox maa wayliraama no haaniri e ngol-ɗoo kaɓirgol:"
-
-#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-#~ msgstr "Ɗum ko iimeel jaajnaaɗo; so a waylaano finnde ndee to Konte Firefox maa, wadde aɗa foti firlitde nde jooni-jooni to %(resetLink)s"
-
-#~ msgid "Your account password was changed"
-#~ msgstr "Finnde konte maa waylinooma"
-
-#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
-#~ msgstr "So tawii a waylaano nde, tiiɗno firlit finnde maa jooni ɗo %(resetLink)s"
-
-#~ msgid "For more information, please visit %(supportUrl)s"
-#~ msgstr "Ngam ɓeydude humpito, tiiɗno yillo %(supportUrl)s"
-
-#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-#~ msgstr "So tawii wonaa aan wonnoo,  <a %(revokeAccountRecoveryLinkAttributes)s>dobo ɗoo.</a>"
-
-#~ msgid "Have questions? Visit %(supportUrl)s"
-#~ msgstr "Aɗa jogii naamne? Yillo %(supportUrl)s"
-
-#~ msgid "Need to reset your password?"
-#~ msgstr "Aɗa sokli firlit-de finnde maa?"
-
-#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-#~ msgstr "A jaaraama e labogol Firefox! Aɗa waawi aafde Firefox ngam cinndel ɗoo: %(link)s"
-
-#~ msgid "Sorry to see you go"
-#~ msgstr "Njaafoɗaa e yiyde ma aɗa yaha"
-
-#~ msgid "Welcome to %(productName)s"
-#~ msgstr "A jaɓɓaama e %(productName)s"
-
-#~ msgid "Your credit card is about to expire"
-#~ msgstr "Karte maa banke ko ko ndaari gasde"
-
-#~ msgid "Is this you signing in?"
-#~ msgstr "Ko aan woni ceŋiiɗo ɗoo oo?"
-
-#~ msgid "If yes, here is the authorization code you need:"
-#~ msgstr "So tawii ko aan, kod jamirgol oo nani:"
-
-#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-#~ msgstr "So wonaa een, wallu min surde wujjittooɓe tee <a %(reportSignInLinkAttributes)s>jaŋtano min.</a>"
-
-#~ msgid "If no, help us fend off intruders and report it to us."
-#~ msgstr "So wonaa aan wallu-min falaade wijjittooɓe tee jaŋtano min."
-
-#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
-#~ msgstr "Waɗii balɗe seeɗa a sosiino konte Firefox, kono a teeŋtinaani ɗe abada."
-
-#~ msgid "Confirm email:"
-#~ msgstr "Teeŋtin iimeel:"
-
-#~ msgid "Still there?"
-#~ msgstr "Aɗa ɗoo tawo?"
-
-#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-#~ msgstr "Teeŋtin konte maa etee heɓ ko ɓuri moƴƴude e Firefox kala nokku ceŋiɗaa."
-
-#~ msgid "For added security, please confirm this sign-in from the following device:"
-#~ msgstr "Ngam kisal ɓeydingal, tiiɗno teeŋtin ngol ceŋagol e ngol kaɓirgol:"
-
-#~ msgid "It expires in 5 minutes."
-#~ msgstr "Ɗuum gasat e nder hojomaaji 5."
-
-#~ msgid "Verify email: "
-#~ msgstr "Ƴeewto iimeel: "
-
-#~ msgid "Is this you signing up?"
-#~ msgstr "Ko aan woni binndittoɗo ɗoo oo?"
-
-#~ msgid "Ready, set, sync"
-#~ msgstr "Hebo, suɓo, sync"
-
-#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-#~ msgstr "Teeŋtin wonde a heɓii oo iimeel kisa min mballu-maa aafde e syncude Firefox e kaɓirɗi maa fof fuɗɗoraade:"
-
-#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-#~ msgstr "Caggal teeŋtingol, ma min mballu-ma aafde seŋde Firefox e kaɓirgol gootol ko famɗi fof."
-
-#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-#~ msgstr "Ngam ɓeydude humpito, tiiɗno yillo <a %(supportLinkAttributes)s>Wallitorde Mozilla</a>."
-
-#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-#~ msgstr "Ɗum ko iimeel jaajnaaɗo; so a ɓeydaano kaɓirgol kesol e Konte Firefox maa, aɗa foti wadde waylude finnde maa jooni-jooni to %(passwordChangeLink)s"
-
-#~ msgid "This is an automated email; if you received it in error, no action is required."
-#~ msgstr "Ɗuum ko iimeel jaajo; so a heɓiimo e juumre, alaa ko pot-ɗaa waɗde hay baɗte."
-
-#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-#~ msgstr "Ɗum ko iimeel jaajnaaɗo; so a yamiraano ɗum, kisa <a %(resetLinkAttributes)s>tiiɗno firlit finnde maa.</a>."
-
-#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-#~ msgstr "So aɗa tuumi won etotooɗo naatde e konte maa, tiiɗno waylu finnde maa."
-
-#~ msgid "IP address: %(ip)s"
-#~ msgstr "Ñiiɓirde IP: %(ip)s"
-
-#~ msgid "Manage account:"
-#~ msgstr "Yiil konte:"
-
-#~ msgid "Mozilla Privacy Policy"
-#~ msgstr "Dawirgol Suturo Mozilla"
-
-#~ msgid "Cancel subscription"
-#~ msgstr "Haaytin binnditagol"
-
-#~ msgid "Legal"
-#~ msgstr "Laawol"
-
-#~ msgid "Privacy"
-#~ msgstr "Suturo"
-
-#~ msgid "Cancel subscription:"
-#~ msgstr "Haaytin binnditagol:"
-
-#~ msgid "Download %(productName)s"
-#~ msgstr "Aawto %(productName)s"
-
-#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-#~ msgstr "Min ejtiima dille tuumnuɗe e Konte Firefox maa. Konte maa ena ngasa koko njanaa."
-
-#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-#~ msgstr "Ngam haɗde naatle goɗɗe e Konte Firefox maa, min pirlitii finnde maa tee amin tintin-maa sabu reentoraade."
-
-#~ msgid "What should you do?"
-#~ msgstr "Hol ko pot-ɗaa waɗde?"
-
-#~ msgid "First, change your Firefox Account password."
-#~ msgstr "Ko adii, waylu finnde Konte Firefox maa."
-
-#~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
-#~ "activity."
-#~ msgstr ""
-#~ "So ɗum ɓennii, so Firefox ena moofti finndeeji lowe geese, aɗa foti waylude ɗiin finndeeji kadi. Yanyanɓe ena mbaawi heɓde ɗiin finndeeji, wadde ƴeewto ɗeen konte so keɓaani dille tuumnuɗe."
-
-#~ msgid "Learn how to see what passwords Firefox is storing for you."
-#~ msgstr "Humpito no yiyretee finndeeji ɗi Firefox mooftan-maa."
-
-#~ msgid "Thank you for subscribing to %(productName)s!"
-#~ msgstr "A jaaraama e lulnogol e %(productName)s"
-
-#~ msgid "Connect another device:"
-#~ msgstr "Seŋ kaɓirgol goɗngol:"
-
-#~ msgid "Account confirmed"
-#~ msgstr "Konte teeŋtinaama"
-
-#~ msgid "Connect another device"
-#~ msgstr "Seŋ kaɓirgol goɗngol"
-
-#~ msgid "Account verified!"
-#~ msgstr "Konte ƴeewtaama!"
-
-#~ msgid ""
-#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
-#~ "%(iosLinkAttributes)s>iOS</a>."
-#~ msgstr ""
-#~ "A seŋondirii kaɓirgol maa gadanol e Konte Firefox maa no haanirta. Jooni aɗa waawi Syncude iwde e kaɓirɗi maa, foti ko Firefox mo <a %(androidLinkAttributes)s>Android</a> walla <a "
-#~ "%(iosLinkAttributes)s>iOS</a>."
-
-#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
-#~ msgstr "A seŋondirii kaɓirgol maa gadanol e Konte Firefox maa no haanirta. Jooni aɗa waawi Syncude iwde e kaɓirɗi maa, foti ko Firefox mo Android walla iOS."
-
-#~ msgid "Sign in to Sync:"
-#~ msgstr "Seŋo nga Syncude:"
-
-#~ msgid "Welcome!"
-#~ msgstr "On Jaɓɓaama!"
-
-#~ msgid "Activate now:"
-#~ msgstr "Hurmin jooni:"
-
-#~ msgid "Activate now"
-#~ msgstr "Hurmin jooni"
-
-#~ msgid "Confirm your email and start to sync!"
-#~ msgstr "Teeŋtin iimeel maa kisa puɗɗo-ɗaa syncude!"
-
-#~ msgid ""
-#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
-#~ "href='%(iosUrl)s'>iOS</a>."
-#~ msgstr ""
-#~ "A seŋondirii kaɓirgol maa gadanol e Konte Firefox maa no haanirta. Jooni aɗa waawi Syncude iwde e kaɓirɗi maa, foti ko Firefox mo <a href='%(androidUrl)s'>Android</a> walla <a "
-#~ "href='%(iosUrl)s'>iOS</a>."
-
-#~ msgid ""
-#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
-#~ "iOS</a>."
-#~ msgstr ""
-#~ "A seŋondirii kaɓirgol maa gadanol e Konte Firefox maa no haanirta. Ngam heɓde ɓure fannu Sync oo, seŋondir kaɓirgol kala baɗngol <a href='%(androidUrl)s'>Firefox mo Android</a> walla <a "
-#~ "href='%(iosUrl)s'>Firefox mo iOS</a>."
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "Seŋo nga Syncude"
-
-#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
-#~ msgstr "Ɗum ko iimeel jaajnaaɗo; so a yamiraano ɗum, kisa <a %(passwordChangeLinkAttributes)s>tiiɗno waylu finnde maa.</a>"
-
-#~ msgid "Verify Email"
-#~ msgstr "Ƴeewto Iimeel"
-
-#~ msgid "Verify your email to finish your Firefox Account registration"
-#~ msgstr "Ƴeewto iimeel maa ngam gaynude binnditagol Konte Firefox maa"
-
-#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-#~ msgstr "So aɗa tuumi won etotooɗo naatde e konte maa, <a %(passwordChangeLinkAttributes)s>tiiɗno waylu finnde maa</a>."
-
-#~ msgid "Verify email "
-#~ msgstr "Ƴeewto iimeel "
-
-#~ msgid "Verify your Firefox Account"
-#~ msgstr "Ƴeewto Konte Firefox maa"
-
-#~ msgid "Firefox Account authorization code"
-#~ msgstr "Kod jamirgol Konte Firefox"
-
-#~ msgid "Reset your Firefox Account password"
-#~ msgstr "Firlit finnde Konte Firefox maa"
-
-#~ msgid "Your Firefox Account password has been changed"
-#~ msgstr "Finnde Konte Firefox maa waylaama"
-
-#~ msgid "Firefox Account password reset required"
-#~ msgstr "Finnde Konte Firefox ena waɗɗii"
-
-#~ msgid "Firefox Account verified"
-#~ msgstr "Konte Firefox ƴeewtaama"
-
-#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
-#~ msgstr "Hello ngo ɗaɓɓit-ɗaa ngoo yiytaaka. Min tintinaama tee ma min peewnu kala jokkol baawngol taƴde."
-
-#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-#~ msgstr "Ee'bo, won caɗeele mbaɗi. Min tintinaama tee ma min ƴeew ñawndude ɗum ko yaawi."
-
-#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
-#~ msgstr "Min ngoni oo sahaa ko e haljeende mawnde tee amina ngolloo ngam artirde yuɓɓo ngoo e ɓoggol ko yaawi."
-
-#~ msgid "Hello again."
-#~ msgstr "A salminaama dadi."
-
-#~ msgid "Please activate your account by confirming this email address."
-#~ msgstr "Tiiɗno hurmin konte maa so teeŋtinde ndee ñiiɓirde iimeel."
-
-#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
-#~ msgstr "Wanngorde kuutorto-ɗaa ndee ko <strong>nayeere</strong>. Tiiɗno <a href=\"http://browsehappy.com/\">hesɗitin wanngorde maa</a> ngam ɓeydude moƴƴinde banngagol maa."
-
-#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
-#~ msgstr "A sosii Konte Firefox ko ɓooyaani, kono a ƴeewtaaki ɗe haa jooni. Dobo jokkol gonngol les ngol ngam hurminde konte maa."
-
-#~ msgid "New sign-in to Firefox"
-#~ msgstr "Ceŋagol kesol e Firefox"
-
-#~ msgid "Your password has been reset"
-#~ msgstr "Finnde maa firlitaama"
-
-#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
-#~ msgstr "Finnde maa Konte Firefox waylaama. So a waylaano nde, tiiɗno <a %(resetLinkAttributes)s>firlit finnde maa</a> jooni."
-
-#~ msgid "Password reset successfully"
-#~ msgstr "Finnde firlitaama no haaniri"
-
-#~ msgid "Your Firefox Account password has been successfully reset."
-#~ msgstr "Finnde Konte Firefox maa firlitaama no haaniri."
-
-#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-#~ msgstr "Ɗum ko iimeel jaajnaaɗo; so a firlitaano finnde ndee to Konte Firefox maa, wadde aɗa foti firlitde nde jooni-jooni to %(resetLink)s"
-
-#~ msgid "Forgot your password?"
-#~ msgstr "A yejjitii finnde maa?"
-
-#~ msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
-#~ msgstr "Dobo e butoŋ oo e nder waktu garoowo oo ngam suɓaade finnde hesere Konte Firefox maa. Ɗaɓɓitannde ndee ummii ko e ngol-ɗoo kaɓirgol:"
-
-#~ msgid "Reset password"
-#~ msgstr "Firlit finnde"
-
-#~ msgid ""
-#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
-#~ "this email address to activate your account."
-#~ msgstr ""
-#~ "E balɗe ɓennuɗe ɗee, a sosiino konte Firefox, kono haa jooni e ƴaawtaaki ɗe. Konte ƴeewtaaɗe mbaɗat-maa heɓde tabbe maa, maantore, finndeeji e aslol e kaɓirgol ceŋingol e majje kala. Teeŋtin nde "
-#~ "ñiiɓirde iimeel tan ngam hurminde konte maa."
-
-#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "Waɗii yontere ko cos-ɗaa konte Firefox, kono haa jooni a ƴeewtaaki ɗe. Amin paayani ɗum. Teeŋtin ndee ñiiɓirde ngam hurminde konte maa kisa tintinaa min aɗa hisi."
-
-#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-#~ msgstr "Nfam ɓeydude kisal, tiiɗno teeŋtin ngol ceŋagol ngam fuɗɗaade syncude e ngol kaɓirgol:"
-
-#~ msgid "Confirm new sign-in to Firefox"
-#~ msgstr "Teeŋtin ceŋagol kesol e Firefox"
-
-#~ msgid "Your Firefox Account password has been reset"
-#~ msgstr "Finnde Konte Firefox maa firlitaama"
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Carwe ruulde Firefox"
-
-#~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
-#~ msgstr "Ngam kisal maa, Konte Firefox maa cokaama. Ngam huutoraade fannuuji konte ɗee, tiiɗno ƴeewto iimeel maa kadi jooni."
-
-#~ msgid "Verify account"
-#~ msgstr "Ƴeewti iimeel"
-
-#~ msgid "Verify account:"
-#~ msgstr "Ƴeewto iimeel:"
-
-#~ msgid "Bad Request"
-#~ msgstr "Ɗaɓɓitannde moƴƴaani"
-
-#~ msgid "Are you sure?"
-#~ msgstr "Aɗa yenanaa?"
-
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr "Tiiɗno teeŋtin wonde aɗa yiɗi firlitde finnde maa e %(email)s."
-
-#~ msgid "For more information, please visit <a href='https://support.mozilla.org'>Mozilla Support</a>"
-#~ msgstr "Ngam ɓeydude humpito, tiiɗno yillo <a href='https://support.mozilla.org'>Wallitorde Mozilla</a>"
-
-#~ msgid "Reset password:"
-#~ msgstr "Firlit finnde:"
-
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr "Ngam ɓeydude humpito, tiiɗno yillo https://support.mozilla.org"
-
-#~ msgid "Almost there"
-#~ msgstr "Seeɗa heddii"
-
-#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
-#~ msgstr "%(email)s, heddii tan ko dobannde ngam ƴeewtagol Konte Firefox maa."
-
-#~ msgid "Verify"
-#~ msgstr "Ƴeewto"
-
-#~ msgid "Verify:"
-#~ msgstr "Ƴeewto:"
-
-#~ msgid "Verify your account"
-#~ msgstr "Ƴeewto konte maa"
-
-#~ msgid "Congratulations!"
-#~ msgstr "Woyyoo maa!"
-
-#~ msgid "System unavailable, try again soon"
-#~ msgstr "Yuɓɓo heɓotaako, eto ɗoo e yeeso"
-
-#~ msgid "We are currently performing some maintenance on the system, and will return momentarily."
-#~ msgstr "Min ngoni oo sahaa ko e feewnitde yuɓɓo ngoo, ma min ngartu ko leelaani."

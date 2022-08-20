@@ -1,0 +1,1353 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2022-03-07 13:34+0000\n"
+"Last-Translator: Martin <mcmartin@gmx.ch>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: rm\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+"X-POOTLE-MTIME: 1441797623.0\n"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+msgid "Firefox Accounts"
+msgstr "Contos da Firefox"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Betg chattà la pagina"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and\n"
+"          will fix any links that may be broken."
+msgstr ""
+"La pagina che ti has dumandà n'è betg vegnida chattada. Nus essan infurmads\n"
+"          e vegnin a curreger eventuals defects da colliaziuns."
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Chasa"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "Errur 500"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and\n"
+"          will get working on a fix."
+msgstr ""
+"Oh, qua è cumparì in problem. Nus essan infurmads\n"
+"          e lavurain per curreger l'errur."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "Errur 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Il server è surchargià, emprova bainprest anc ina giada"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return\n"
+"          the system to normal as soon as possible."
+msgstr ""
+"Actualmain è il sistem surchargià. Nus lavurain per ch'il sistem stettia\n"
+"          bainprest puspè a disposiziun sco usità."
+
+#: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr "Chargiar"
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Ils contos da Firefox basegnan JavaScript."
+
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+msgid "Privacy Notice"
+msgstr "Decleraziun da protecziun da datas"
+
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+msgid "Terms of Service"
+msgstr "Cundiziuns dal servetsch"
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr "In'actualisaziun da Firefox è necessaria"
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
+"Ils contos da Firefox fan diever da differentas funcziunalitads che\n"
+"                        na vegnan betg sustegnidas da tia versiun da Firefox. Telechargia\n"
+"                        per plaschair la versiun la pli nova da Firefox per\n"
+"                        cuntinuar."
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr "Telechargiar la pli nova"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaBrowser)s sin %(uaOS)s %(uaOSVersion)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaBrowser)s sin %(uaOS)s"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(stateCode)s, %(country)s (approximativ)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(country)s (approximativ)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s, %(country)s (approximativ)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (approximativ)"
+
+#~ msgid "Verification code: %(code)s"
+#~ msgstr "Code da verificaziun: %(code)s"
+
+#~ msgid "Reminder: Finish creating your account"
+#~ msgstr "Promemoria: Finir la creaziun da tes conto"
+
+#~ msgid "Final reminder: Activate your account"
+#~ msgstr "Ultima promemoria: Activescha tes conto"
+
+#~ msgid "Confirm email"
+#~ msgstr "Confermar l'adressa d'e-mail"
+
+#~ msgid "Reminder: Finish setting up your account"
+#~ msgstr "Promemoria: Terminescha la configuraziun da tes conto"
+
+#~ msgid "Final reminder: Setup your account"
+#~ msgstr "Ultima promemoria: Endrizza tes conto"
+
+#~ msgid "Create a password"
+#~ msgstr "Crear in pled-clav"
+
+#~ msgid "Account authorization code"
+#~ msgstr "Code d'autorisaziun dal conto"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "Confermar la nova annunzia via %(clientName)s"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "Confermar l'annunzia"
+
+#~ msgid "Confirm primary email"
+#~ msgstr "Confermar l'adressa dad e-mail principala"
+
+#~ msgid "Verify email"
+#~ msgstr "Verifitgar l'adressa dad e-mail"
+
+#~ msgid "Confirm secondary email"
+#~ msgstr "Confermar l'adressa dad e-mail secundara"
+
+#~ msgid "Reset your password"
+#~ msgstr "Redefinir tes pled-clav"
+
+#~ msgid "Create new password"
+#~ msgstr "Crear in nov pled-clav"
+
+#~ msgid "Password updated"
+#~ msgstr "Actualisà il pled-clav"
+
+#~ msgid "Suspicious activity detected"
+#~ msgstr "Observà ina activitad suspecta"
+
+#~ msgid "New account linked to Firefox"
+#~ msgstr "Nov conto collià cun Firefox"
+
+#~ msgid "Manage account"
+#~ msgstr "Administrar il conto"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "Nova connexiun via %(clientName)s"
+
+#~ msgid "Account verified. Next, sync another device to finish setup"
+#~ msgstr "Verifitgà il conto. Sincronisescha ussa in auter apparat per cumplettar la configuraziun"
+
+#~ msgid "Set up next device"
+#~ msgstr "Configurar il proxim apparat"
+
+#~ msgid "Secondary email added"
+#~ msgstr "Agiuntà ina adressa dad e-mail alternativa"
+
+#~ msgid "Primary email updated"
+#~ msgstr "Adressa dad e-mail principala actualisada"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Allontanà l'adressa dad e-mail alternativa"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "Autentificaziun en dus pass activada"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Generà novs codes da recuperaziun"
+
+#~ msgid "Recovery code used"
+#~ msgstr "Code da recuperaziun utilisà"
+
+#~ msgid "1 recovery code remaining"
+#~ msgstr "I resta 1 code da recuperaziun"
+
+#~ msgid "%(numberRemaining)s recovery codes remaining"
+#~ msgstr "I restan %(numberRemaining)s codes da recuperaziun"
+
+#~ msgid "Generate codes"
+#~ msgstr "Generar codes"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "La clav da recuperaziun dal conto è vegnida generada"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "Stizzà la clav da recuperaziun"
+
+#~ msgid "Password updated using recovery key"
+#~ msgstr "Il pled-clav è vegnì actualisà cun agid dad ina clav da recuperaziun"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "Crear ina nova clav da recuperaziun"
+
+#~ msgid "Welcome to %(productName)s: Please set your password."
+#~ msgstr "Bainvegni en %(productName)s: Definescha per plaschair tes pled-clav."
+
+#~ msgid "You have upgraded to %(productNameNew)s"
+#~ msgstr "Ti has midà a %(productNameNew)s"
+
+#~ msgid "You have switched to %(productNameNew)s"
+#~ msgstr "Ti has midà a %(productNameNew)s"
+
+#~ msgid "Credit card for %(productName)s expiring soon"
+#~ msgstr "La carta da credit per %(productName)s scada prest"
+
+#~ msgid "Credit card for your subscriptions is expiring soon"
+#~ msgstr "La carta da credit per tes abunaments scada prest"
+
+#~ msgid "Payment information update required for %(productName)s"
+#~ msgstr "Actualisaziun da las infurmaziuns da pajament necessaria per %(productName)s"
+
+#~ msgid "Payment information update required for Mozilla subscriptions"
+#~ msgstr "Actualisaziun da las infurmaziuns da pajament necessaria per ils abunaments da Mozilla"
+
+#~ msgid "%(productName)s payment failed"
+#~ msgstr "Il pajament per %(productName)s n'è betg reussì"
+
+#~ msgid "Your %(productName)s subscription has been cancelled"
+#~ msgstr "Tes abunament da %(productName)s è vegnì annullà"
+
+#~ msgid "%(productName)s subscription reactivated"
+#~ msgstr "Reactivà l'abunament da %(productName)s"
+
+#~ msgid "%(productName)s automatic renewal notice"
+#~ msgstr "Avis da prolungaziun automatica da %(productName)s"
+
+#~ msgid "%(productName)s payment received"
+#~ msgstr "Retschavì il pajament per %(productName)s"
+
+#~ msgid "%(productName)s payment confirmed"
+#~ msgstr "Confermà il pajament per %(productName)s"
+
+#~ msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
+#~ msgstr "Pitschna pro memoria: co cumplettar la configuraziun da Sync"
+
+#~ msgid "Final Reminder: Complete Sync Setup"
+#~ msgstr "Ultima pro memoria: cumplettar la configuraziun da la sincronisaziun"
+
+#~ msgid "Here's your reminder to sync devices."
+#~ msgstr "Quai è la promemoria per la sincronisaziun da tes apparats."
+
+#~ msgid "Last reminder to sync devices!"
+#~ msgstr "Ultima promemoria per sincronisar tes apparats!"
+
+#~ msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr ""
+#~ "I dovra dus per sincronisar. La sincronisaziun segira cun in auter apparat cun Firefox garantescha che ti chattas ils medems segnapaginas, pleds-clav ed autras datas da Firefox dapertut là nua "
+#~ "che ti dovras Firefox."
+
+#~ msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr "La sincronisaziun segira cun in auter apparat cun Firefox garantescha che ti chattas ils medems segnapaginas, pleds-clav ed autras datas da Firefox dapertut là nua che ti dovras Firefox."
+
+#~ msgid "Sync another device"
+#~ msgstr "Sincronisar in auter apparat"
+
+#~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+#~ msgstr "Sche ti n'has anc betg telechargià %(productName)s, cumenza a duvrar tut las funcziunalitads inclusas en tes abunament:"
+
+#~ msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Dumondas davart tes abunament? Noss <a href=\"%(subscriptionSupportUrl)s\">team d'agid</a> stat a tia disposiziun."
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Dumondas davart tes abunament? Noss team d'agid stat a tia disposiziun:"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "I restan paucs codes da recuperaziun"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Nus avain percurschì che ti possedas mo pli paucs codes da recuperaziun. Ti duessas generar novs codes per evitar da perder l'access a tes conto."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Nus avain percurschì che ti possedas mo pli paucs codes da recuperaziun. Ti duessas generar novs codes per evitar da perder l'access a tes conto."
+
+#~ msgid "Generate codes:"
+#~ msgstr "Generar codes:"
+
+#~ msgid "Password Change Required"
+#~ msgstr "Midada dal pled-clav necessaria"
+
+#~ msgid ""
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
+#~ msgstr ""
+#~ "Nus avain constatà in cumportament suspectus en tes conto da Firefox. Per impedir l'access nunautorisà a tes conto da Firefox avain nus deconnectà tut tes apparats da tes conto e sco mesira da "
+#~ "precauziun stos ti midar tes pled-clav."
+
+#~ msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+#~ msgstr "T'annunzia danovamain sin in dals apparats tar in dals servetschs nua che ti utiliseschas tes conto da Firefox e suonda ils pass che ta vegnan preschentads."
+
+#~ msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Impurtant:</b> Tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail."
+
+#~ msgid "Best,"
+#~ msgstr "Cordialmain,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "il team dals contos da Firefox"
+
+#~ msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Impurtant: Tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail."
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Midà cun success il pled-clav"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Il pled-clav da tes conto da Firefox è vegnì midà cun success da suandant apparat:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Quai è in e-mail automatic. Sche ti n'has betg midà il pled-clav da tes conto da Firefox al duessas ti immediat reinizialisar qua: %(resetLink)s"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "Il pled-clav da tes conto è vegnì midà"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Ti stos endatar tes nov pled-clav sin tes auters apparats per pudair cuntinuar cun la sincronisaziun."
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Ti stos endatar tes nov pled-clav sin tes auters apparats per pudair cuntinuar cun la sincronisaziun."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "Sche ti n'al has betg midà, reinizialisescha per plaschair ussa tes pled-clav sin %(resetLink)s"
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "Il pled-clav da tes conto è vegnì reinizialisà cun ina clav da recuperaziun"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "Ti has redefinì cun success tes pled-clav cun agid dad ina clav da recuperaziun dal suandant apparat:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "Igl è necessari da generar ina nova clav da recuperaziun."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "Crear ina nova clav da recuperaziun:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Ulteriuras infurmaziuns chattas ti qua: %(supportUrl)s"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Ti has generà cun success ina clav da recuperaziun per tes conto da Firefox cun agid dal suandant apparat:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "Sche ti n'has betg effectuà questa operaziun, <a %(revokeAccountRecoveryLinkAttributes)s>clicca qua.</a>"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Ti has generà cun success ina clav da recuperaziun per tes conto da Firefox cun agid dal suandant apparat:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "Sche ti n'has betg effectuà questa operaziun, revochescha la clav."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Ti has activà cun success l'autentificaziun en dus pass per tes conto da Firefox cun agid da suandant apparat:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "A partir dad ussa è necessari per mintga annunzia in code da segirezza furnì da tia applicaziun d'autentificaziun."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr ""
+#~ "Ti has activà cun success l'autentificaziun en dus pass per tes conto da Firefox. A partir dad ussa è necessari per mintga annunzia in code da segirezza furnì da tia applicaziun "
+#~ "d'autentificaziun."
+
+#~ msgid "New primary email"
+#~ msgstr "Nova adressa dad e-mail principala"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "Tia nova adressa principala è ussa %(email)s. Questa adressa è ussa tes num d'utilisader per t'annunziar a tes conto da Firefox. En pli serva ella per retschaiver communicaziuns da segirezza e "
+#~ "confermas d'annunzia."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "Code da recuperaziun utilisà"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "Ti has utilisà in code da recuperaziun cun agid dal suandant apparat:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "Code da recuperaziun utilisà"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "Ti has generà cun success novs codes da recuperaziun cun agid dal suandant apparat:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Ti has stizzà cun success ina clav da recuperaziun per tes conto da Firefox cun agid da suandant apparat:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "I n'è betg pli pussaivel dad utilisar questa clav da recuperaziun per recuperar tes conto."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Ti has stizzà cun success ina clav da recuperaziun per tes conto da Firefox cun agid da suandant apparat:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr ""
+#~ "Ti has allontanà cun success %(secondaryEmail)s sco adressa dad e-mail alternativa da tes conto da Firefox. Avis da segirezza e confermas d'annunzia na vegnan betg pli tramessas a questa adressa."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "Autentificaziun en dus pass deactivada"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Ti has deactivà cun success l'autentificaziun en dus pass per tes conto da Firefox cun agid da suandant apparat:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "A partir dad ussa n'è betg pli necessari in code da segirezza per mintga annunzia."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "Ti has deactivà cun success l'autentificaziun en dus pass per tes conto da Firefox. A partir dad ussa n'è betg pli necessari in code da segirezza per mintga annunzia."
+
+#~ msgid "Firefox Account verified. You're almost there."
+#~ msgstr "Verifitgà il conto da Firefox. Ti has quasi finì."
+
+#~ msgid "Next sync between your devices!"
+#~ msgstr "Ed ussa sincronisescha tes apparats!"
+
+#~ msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+#~ msgstr "La sincronisaziun segira garantescha che ti chattas ils medems segnapaginas, pleds-clav ed autras datas da Firefox sin tut tes apparats."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "Has dumondas? Visita %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "Ti has verifitgà cun success %(secondaryEmail)s sco adressa dad e-mail alternativa per tes conto da Firefox. Avis da segirezza e confermas d'annunzia vegnan ussa tramess ad omaduas adressas."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "Stos ti reinizialisar tes pled-clav?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "Clicca entaifer la proxima ura sin il buttun per crear in nov pled-clav. La dumonda è vegnida da suandant apparat:"
+
+#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+#~ msgstr "Grazia per tscherner Firefox! Qua pos ti installar Firefox per telefonins: %(link)s"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Donn che ti vas"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Ti has dacurt stizzà tes conto da Firefox. En consequenza avain nus annullà tes abunament da %(productName)s. Tes pajament final da %(invoiceTotal)s è vegnì pajà ils %(invoiceDateOnly)s."
+
+#~ msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
+#~ msgstr "Ans gida per plaschair da meglierar noss servetschs cun participar a questa <a %(cancellationSurveyLinkAttributes)s>curta enquista</a>."
+
+#~ msgid "Please help us improve our services by taking this short survey:"
+#~ msgstr "Ans gida per plaschair da meglierar noss servetschs cun participar a questa curta enquista:"
+
+#~ msgid "Welcome to %(productName)s"
+#~ msgstr "Bainvegni tar %(productName)s"
+
+#~ msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
+#~ msgstr "Tes pajament vegn elavurà. Quai po cuzzar enfin quatter dis da lavur. Tes abunament vegn renovà automaticamain suenter mintga perioda da facturaziun sche ti n'al annulleschas betg."
+
+#~ msgid "Next, you'll create a Firefox account password and download %(productName)s."
+#~ msgstr "Il proxim pass è la definiziun dad in pled-clav per il conto da Firefox e la telechargiada da %(productName)s."
+
+#~ msgid "Invoice number: %(invoiceNumber)s"
+#~ msgstr "Numer da quint: %(invoiceNumber)s"
+
+#~ msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Debità: %(invoiceTotal)s ils %(invoiceDateOnly)s"
+
+#~ msgid "Next invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Proxim quint: %(nextInvoiceDateOnly)s"
+
+#~ msgid "You can't access your subscription yet"
+#~ msgstr "Ti na pos anc betg acceder a tes abunament"
+
+#~ msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
+#~ msgstr "Avant in pèr dis has ti creà in conto da Firefox ma n'al has mai verifitgà. Nus sperain che ti fineschias la configuraziun per che ti possias utilisar tes nov abunament."
+
+#~ msgid "Select “Create Password” to set up a new password and finish verifying your account."
+#~ msgstr "Tscherna «Crear in pled-clav» per endrizzar in nov pled-clav e terminescha la verificaziun da tes conto."
+
+#~ msgid "Create a password:"
+#~ msgstr "Crear in pled-clav:"
+
+#~ msgid "Welcome to Firefox!"
+#~ msgstr "Bainvegni en Firefox!"
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "Nus avain annullà tes abunament da %(productName)s. Tes ultim pajament da %(invoiceTotal)s è vegnì pajà ils %(invoiceDateOnly)s. Tes servetsch vegn a cuntinuar enfin la fin da la perioda da "
+#~ "facturaziun actuala ils %(serviceLastActiveDateOnly)s."
+
+#~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Tia midada da %(productNameOld)s a %(productNameNew)s è succedida correctamain."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "A partir da tes proxim quint mida la summa debitada da %(paymentAmountOld)s per %(productPaymentCycleOld)s a %(paymentAmountNew)s per %(productPaymentCycleNew)s. Il medem mument retschaivas ti "
+#~ "ina bunificaziun unica da %(paymentProrated)s che reflectescha la debitaziun pli bassa durant il rest da quest %(productPaymentCycleOld)s."
+
+#~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
+#~ msgstr "Sch'igl è necessari dad installar nova software per pudair utilisar %(productNameNew)s, retschaivas ti in e-mail separà cun instrucziuns per la telechargiar."
+
+#~ msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
+#~ msgstr "Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l'annullar."
+
+#~ msgid "Your subscription has been cancelled"
+#~ msgstr "Tes abunament è vegnì annullà"
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
+#~ msgstr ""
+#~ "Nus avain annullà tes abunament da %(productName)s perquai che pliras emprovas da debitaziun n'èn betg reussidas. Per puspè avair access, cumenza in nov abunament cun ina metoda da pajament "
+#~ "actualisada."
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
+#~ msgstr ""
+#~ "Nus avain annullà tes abunament da %(productName)s perquai che pliras emprovas da debitaziun n'èn betg reussidas.  Per puspè avair access, cumenza in nov abunament cun ina metoda da pajament "
+#~ "actualisada."
+
+#~ msgid "Thank you for subscribing to %(productName)s"
+#~ msgstr "Grazia per abunar %(productName)s"
+
+#~ msgid "Your payment is currently processing and may take up to four business days to complete."
+#~ msgstr "Tes pajament vegn actualmain elavurà. Quai po durar enfin quatter lavurdis."
+
+#~ msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
+#~ msgstr "Ti vegns a retschaiver in e-mail separà cun instrucziuns per telechargiar ed utilisar %(productName)s."
+
+#~ msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
+#~ msgstr "Numer da quint: <b>%(invoiceNumber)s</b>"
+
+#~ msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Debità %(invoiceTotal)s ils %(invoiceDateOnly)s"
+
+#~ msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
+#~ msgstr "<a href=\"%(invoiceLink)s\">Mussar tes quint</a>."
+
+#~ msgid "Next Invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Proxim quint: %(nextInvoiceDateOnly)s"
+
+#~ msgid "Invoice Number: %(invoiceNumber)s"
+#~ msgstr "Numer da quint: %(invoiceNumber)s"
+
+#~ msgid "View Invoice: %(invoiceLink)s"
+#~ msgstr "Mussar il quint: %(invoiceLink)s"
+
+#~ msgid "Subtotal: %(invoiceSubtotal)s"
+#~ msgstr "Summa intermediara: %(invoiceSubtotal)s"
+
+#~ msgid "One-time discount: -%(invoiceDiscountAmount)s"
+#~ msgstr "Rabat unic: -%(invoiceDiscountAmount)s"
+
+#~ msgid "Your credit card is about to expire"
+#~ msgstr "Tia carta da credit scada prest"
+
+#~ msgid "The credit card you're using to make payments for %(productName)s is about to expire."
+#~ msgstr "La carta da credit che ti utiliseschas per far pajaments per %(productName)s scada prest."
+
+#~ msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
+#~ msgstr "Per evitar l'interrupziun da tes servetsch, <a href=\"%(updateBillingUrl)s\">actualisescha per plaschair tias infurmaziuns da pajament</a> il pli spert pussaivel."
+
+#~ msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
+#~ msgstr "Per evitar l'interrupziun da tes servetsch, actualisescha per plaschair tias infurmaziuns da pajament il pli spert pussaivel:"
+
+#~ msgid "Sorry, we're having trouble with your payment"
+#~ msgstr "Perstgisa, nus avain in problem cun tes pajament"
+
+#~ msgid "We had a problem with your latest payment for %(productName)s."
+#~ msgstr "Nus avain gì in problem cun tes ultim pajament per %(productName)s."
+
+#~ msgid "It may be that your credit card has expired, or your current payment method is out of date."
+#~ msgstr "Eventualmain è tia carta da credit scadida u tia metoda da pajament actuala na vegn betg sustegnida."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
+#~ msgstr ""
+#~ "Nus vegnin ad empruvar anc ina giada da far il pajament durant ils proxims dis, ma ti stos probablamain gidar cun <a href=\"%(updateBillingUrl)s\">actualisar tias infurmaziuns da pajament</a>."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
+#~ msgstr "Nus vegnin ad empruvar anc ina giada da far il pajament durant ils proxims dis, ma ti stos probablamain gidar cun actualisar tias infurmaziuns da pajament:"
+
+#~ msgid "Sorry, we’re having trouble with your payment method"
+#~ msgstr "Perstgisa, nus avain in problem cun tia metoda da pajament"
+
+#~ msgid "We have detected a problem with your payment method for %(productName)s."
+#~ msgstr "Nus essan fruntads sin in problem cun tia metoda da pajament per %(productName)s."
+
+#~ msgid "Thank you for reactivating your %(productName)s subscription!"
+#~ msgstr "Grazia per reactivar tes abunament da %(productName)s!"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
+#~ msgstr ""
+#~ "Tes ciclus da facturaziun e pajament vegn a restar medem. La proxima debitaziun munta a %(invoiceTotal)s e succeda ils %(nextInvoiceDateOnly)s. Tes abunament vegn renovà automaticamain mintga "
+#~ "perioda da facturaziun nun che ti decidas dad annullar l'abunament."
+
+#~ msgid "Your subscription will be renewed soon"
+#~ msgstr "Tes abunament vegn prest prolungà"
+
+#~ msgid "Dear %(productName)s customer,"
+#~ msgstr "CharA clientA da %(productName)s,"
+
+#~ msgid ""
+#~ "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
+#~ "%(invoiceTotal)s will be applied to the payment method on your account."
+#~ msgstr ""
+#~ "Tes abunament actual è configurà uschia ch'el vegn prolungà automaticamain en %(reminderLength)s dis. Lura vegn Mozilla a prolungar tes abunament %(planIntervalCount)s %(planInterval)s e la "
+#~ "summa da %(invoiceTotal)s vegn indebitada cun la metoda da pajament da tes conto."
+
+#~ msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
+#~ msgstr "Ti pos controllar <a href=\"%(updateBillingUrl)s\">qua</a> che tia metoda da pajament e las infurmaziuns dal conto èn actualas."
+
+#~ msgid ""
+#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">contact us</a>."
+#~ msgstr ""
+#~ "Grazia per abunar %(productName)s. Sche ti has dumondas davart tes abunament u sche ti dovras ulteriuras infurmaziuns davart %(productName)s, <a href=\"%(subscriptionSupportUrl)s\">ans "
+#~ "contactescha</a> per plaschair."
+
+#~ msgid "Sincerely,"
+#~ msgstr "Amiaivels salids"
+
+#~ msgid "The %(productName)s team"
+#~ msgstr "il team da %(productName)s"
+
+#~ msgid "You can ensure that your payment method and account information are up to date here:"
+#~ msgstr "Ti pos controllar qua che tia metoda da pajament e las infurmaziuns dal conto èn actualas:"
+
+#~ msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
+#~ msgstr "Grazia per abunar %(productName)s. Sche ti has dumondas davart tes abunament u sche ti dovras ulteriuras infurmaziuns davart %(productName)s, ans contactescha per plaschair:"
+
+#~ msgid "Thank you for being a subscriber!"
+#~ msgstr "Grazia per tes abunament!"
+
+#~ msgid "We received your latest payment for %(productName)s."
+#~ msgstr "Nus avain retschavì tes ultim pajament per %(productName)s."
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "Grazia per l'upgrade!"
+
+#~ msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Ti has midà cun success da %(productNameOld)s al nivel superiur da %(productNameNew)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "A partir da tes proxim quint mida la summa debitada da %(paymentAmountOld)s per %(productPaymentCycleOld)s a %(paymentAmountNew)s per %(productPaymentCycleNew)s. Il medem mument vegn era debità "
+#~ "il pajament unic da %(paymentProrated)s che reflectescha la debitaziun pli auta durant il rest da quest %(productPaymentCycleOld)s."
+
+#~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
+#~ msgstr "La carta da credit che ti utiliseschas per far pajaments per il suandant abunament scada prest."
+
+#~ msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Dumondas davart tes abunaments? Noss <a href=\"%(subscriptionSupportUrl)s\">team d'agid</a> stat a tia disposiziun."
+
+#~ msgid "Questions about your subscriptions? Our support team is here to help you:"
+#~ msgstr "Dumondas davart tes abunaments? Noss team da support ta gida:"
+
+#~ msgid "We have detected a problem with your payment method for the following subscriptions."
+#~ msgstr "Nus essan fruntads sin in problem cun tia metoda da pajament per ils suandants abunaments."
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "Emprovas ti da t'annunziar?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Sche gea, quai è il code d'autorisaziun che ti dovras:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Sche na ans pos ti gidar d'ans defender encunter laders ed <a %(reportSignInLinkAttributes)s>ans rapportar quai</a>."
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Sche na ans pos ti gidar d'ans defender encunter laders ed ans rapportar quai."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Bainvegni en la famiglia da Firefox"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "Avant in pèr dis has ti creà in conto da Firefox, ma ti n'al has mai confermà."
+
+#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+#~ msgstr "Conferma ussa e profitescha dad ina tecnologia che cumbatta per tai e protegia tia sfera privata, ta furnescha tips pratics e ta tracta cun il respect merità."
+
+#~ msgid "Confirm email:"
+#~ msgstr "Confermar l'adressa d'e-mail:"
+
+#~ msgid "Still there?"
+#~ msgstr "Es ti anc qua?"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "Avant bunamain ina emna has ti creà in conto da Firefox, ma n'al has mai verifitgà. Nus ans faschain quitads per tai."
+
+#~ msgid "Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Conferma questa adressa d'e-mail per activar tes conto ed ans lascha savair che ti stas bain."
+
+#~ msgid "Activate the Firefox family of products"
+#~ msgstr "Activescha la paletta da products da Firefox"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+#~ msgstr "Conferma tes conto e profitescha al maximum da Firefox – dapertut là nua che ti t'annunzias. L'emprim pass:"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+#~ msgstr "Conferma tes conto e profitescha al maximum da Firefox – dapertut là nua che ti t'annunzias."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "Per motivs da segirezza, conferma p.pl. questa annunzia dal suandant apparat:"
+
+#~ msgid "If yes, here is the verification code:"
+#~ msgstr "Sche gea, qua è tes code da verificaziun:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "El scada en 5 minutas."
+
+#~ msgid "Verify primary email"
+#~ msgstr "Confermar l'adressa d'e-mail principala"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "Il suandant apparat ha dumandà da pudair modifitgar il conto:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "Uschespert che quest apparat è verifitgà esi pussaivel da modifitgar il conto (p.ex. agiuntar ina adressa dad e-mail alternativa) cun agid da quest apparat."
+
+#~ msgid "Verify email: "
+#~ msgstr "Verifitgar l'adressa dad e-mail: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "Verifitgar l'adressa dad e-mail alternativa"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Ina dumonda per utilisar %(email)s sco adressa dad e-mail alternativa è vegnida fatga da suandant conto da Firefox:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Uschè prest che questa adressa è verifitgada retschaiva ella avis da segirezza e confermas."
+
+#~ msgid "Use this verification code:"
+#~ msgstr "Dovra quest code da verificaziun:"
+
+#~ msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "El scada en 5 minutas. Uschespert che questa adressa è verifitgada, retschaiva ella avis e confermas da segirezza."
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "Es ti la persuna che s'annunzia?"
+
+#~ msgid "If yes, use this verification code in your registration form:"
+#~ msgstr "Sche gea, utilisescha quest code da verificaziun en tes formular da registraziun:"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "En posiziun, pront, Sync"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Conferma che ti hajas retschavì quest e-mail e nus ta gidain dad installar e sincronisar Firefox sin tut tes apparats, l'emprim suandant:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "Suenter la conferma ta gidain nus dad installar e connectar Firefox sin almain in auter apparat."
+
+#~ msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
+#~ msgstr "U l'installescha sin <a %(desktopLinkAttributes)s>in auter computer</a>."
+
+#~ msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+#~ msgstr "U l'installescha sin <a %(cadLinkAttributes)s>in auter apparat</a>."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Quai è in e-mail automatic; sche ti n'has betg autorisà questa acziun, lura <a %(passwordChangeLinkAttributes)s>mida per plaschair tes pled-clav</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Visita l'<a %(supportLinkAttributes)s>Agid da Mozilla</a> per ulteriuras infurmaziuns."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Quai è in e-mail automatic. Sche ti n'has betg agiuntà in nov apparat a tes conto da Firefox duessas ti immediat midar tes pled-clav sin %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Quai è in e-mail automatic. Sche ti has retschavì per sbagl quest e-mail na stos ti far nagut."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "Quai è in e-mail automatic. Sche ti n'has betg autorisà questa acziun, lura <a %(resetLinkAttributes)s>reinizialisescha per plaschair tes pled-clav</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Sche ti supponas ch'insatgi emprovia dad acceder a tes conto, mida p.pl. tes pled-clav."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "Adressa IP: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "Administrar il conto:"
+
+#~ msgid "Payment details:"
+#~ msgstr "Detagls dal pajament:"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "%(cardType)s card ending in %(lastFour)s"
+#~ msgstr "La carta %(cardType)s chala cun %(lastFour)s"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Directivas per la protecziun da datas da Mozilla"
+
+#~ msgid "Firefox Cloud Terms of Service"
+#~ msgstr "Cundiziuns d'utilisaziun dals servetschs da cloud da Firefox"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+#~ msgstr "Ti retschaivas quest e-mail perquai che %(email)s è associà cun in conto da Firefox e ti has in abunament da %(productName)s. "
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account"
+#~ msgstr "Ti retschaivas quest e-mail perquai che %(email)s ha in conto da Firefox"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
+#~ msgstr "Ti retschaivas quest e-mail perquai che %(email)s è associà cun in conto da Firefox e ti has abunà differents products."
+
+#~ msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+#~ msgstr "Administrescha ils parameters da tes conto da Firefox cun visitar tia <a %(accountSettingsLinkAttributes)s>pagina da conto</a>."
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "Cundiziuns e reglas per l'annullaziun"
+
+#~ msgid "Reactivate subscription"
+#~ msgstr "Reactivar l'abunament"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Annullar l'abunament"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "Annullar ils abunaments"
+
+#~ msgid "Update billing information"
+#~ msgstr "Actualisar las infurmaziuns per la facturaziun"
+
+#~ msgid "Legal"
+#~ msgstr "Infurmaziuns giuridicas"
+
+#~ msgid "Privacy"
+#~ msgstr "Protecziun da datas"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "Cundiziuns e reglas per l'annullaziun:"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "Infurmaziuns davart la protecziun da datas:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "Annullar l'abunament:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "Annullar ils abunaments:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "Actualisar las infurmaziuns per la facturaziun:"
+
+#~ msgid "Finish creating your account"
+#~ msgstr "Finir la creaziun da tes conto"
+
+#~ msgid "Sign-in code for %(serviceName)s"
+#~ msgstr "Code d'annunzia per %(serviceName)s"
+
+#~ msgid "Two-step authentication is off"
+#~ msgstr "L'autentificaziun en dus pass è deactivada"
+
+#~ msgid "Download %(productName)s"
+#~ msgstr "Telechargiar %(productName)s"
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "A partir da tes proxim quint mida la summa indebitada da %(paymentAmountOld)s per %(productPaymentCycle)s a %(paymentAmountNew)s. Il medem mument retschaivas ti ina bunificaziun unica da "
+#~ "%(paymentProrated)s che reflectescha la debitaziun pli bassa durant il rest da quest %(productPaymentCycle)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "A partir da tes proxim quint mida la summa debitada da %(paymentAmountOld)ss per %(productPaymentCycle)s a %(paymentAmountNew)s. Il medem mument vegn era debità il pajament unic da "
+#~ "%(paymentProrated)s che reflectescha la debitaziun pli auta durant il rest da quest %(productPaymentCycle)s."
+
+#~ msgid "Two-step verification enabled"
+#~ msgstr "Verificaziun en dus pass activada"
+
+#~ msgid "Two-step verification is off"
+#~ msgstr "Verificaziun en dus pass è deactivada"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "Nus avain observà activitads dubiusas sin tes conto da Firefox. Eventualmain han laders access a tes conto."
+
+#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+#~ msgstr "Per evitar che persunas nunautorisadas hajan vinavant access a tes conto da Firefox avain nus reinizialisà tes pled-clav e t'infurmain sco mesira da precauziun."
+
+#~ msgid "What should you do?"
+#~ msgstr "Tge duessas ti far?"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "L'emprim: midar il pled-clav da tes conto da Firefox."
+
+#~ msgid ""
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
+#~ msgstr ""
+#~ "En segunda: Sche tes Firefox memorisescha pleds-clav da websites, als duessas ti era midar. Eventualmain han attatgaders era access a quests pleds-clav. Controllescha perquai era sch'i dat "
+#~ "activitads dubiusas sin quests contos."
+
+#~ msgid "Learn how to see what passwords Firefox is storing for you."
+#~ msgstr "Emprenda co vesair ils pleds-clav che Firefox memorisescha per tai."
+
+#~ msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
+#~ msgstr "Ans gida da schliar il problem cun <a href=\"%(updateBillingUrl)s\">actualisar tias infurmaziuns da pajament</a> entaifer 24 uras."
+
+#~ msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
+#~ msgstr "Sche ti na ta fas betg udir entaifer 24 uras, perdas ti deplorablamain l'access a %(productName)s."
+
+#~ msgid "Help us fix it by updating your payment information within 24 hours:"
+#~ msgstr "Ans gida da schliar il problem cun actualisar tias infurmaziuns da pajament entaifer 24 uras:"
+
+#~ msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Impurtant:</b> tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail."
+
+#~ msgid "The Firefox accounts team"
+#~ msgstr "Il team dals contos da Firefox"
+
+#~ msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Impurtant: tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail."
+
+#~ msgid "Setup next device"
+#~ msgstr "Configurar il proxim apparat"
+
+#~ msgid "If yes, use this verification code:"
+#~ msgstr "Sche gea, dovra quest code da verificaziun:"
+
+#~ msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
+#~ msgstr "Ans gida da schliar il problem cun <a href=\"%(updateBillingUrl)s\">actualisar tias infurmaziuns da pajament</a> entaifer trais dis."
+
+#~ msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
+#~ msgstr "Sche ti na ta fas betg udir entaifer trais dis perdas ti deplorablamain l'access a %(productName)s."
+
+#~ msgid "Help us fix it by updating your payment information within three days:"
+#~ msgstr "Ans gida da schliar il problem cun actualisar tias infurmaziuns da pajament entaifer trais dis."
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+#~ "automatically renew each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "Tes ciclus da facturaziun e pajament vegn a restar medem. La proxima debitaziun munta a %(invoiceTotal)s e succeda ils %(nextInvoiceDateOnly)s via la carta %(cardType)s che chala cun "
+#~ "%(lastFour)s. Tes abunament vegn renovà automaticamain mintga perioda da facturaziun nun che ti decidas dad annullar l'abunament."
+
+#~ msgid "You're signed in and ready to start exploring safely and securely."
+#~ msgstr "Ti es annunzià e pront per entschaiver a navigar en tutta segirezza."
+
+#~ msgid "Now get the most of Firefox by signing in everywhere you browse."
+#~ msgstr "Profitescha maximalmain da Firefox cun t'annunziar sin mintga apparat che ti dovras per navigar."
+
+#~ msgid "Connect another device:"
+#~ msgstr "Connectar in auter apparat:"
+
+#~ msgid "Account confirmed"
+#~ msgstr "Conto confermà"
+
+#~ msgid "Connect another device"
+#~ msgstr "Colliar in auter apparat"
+
+#~ msgid ""
+#~ "The page you requested is not found. We've been\n"
+#~ "                    notified and will fix any links that may be broken."
+#~ msgstr ""
+#~ "La pagina che ti has dumandà n'è betg vegnida chattada. Nus avain retschavì\n"
+#~ "                    in messadi ed empruvain da curreger eventualas colliaziuns faussas."
+
+#~ msgid ""
+#~ "Oh dear, something went wrong there. We've been\n"
+#~ "                    notified and will get working on a fix."
+#~ msgstr ""
+#~ "Oha! Qua è insatge ì mal. Nus essan vegnids infurmads\n"
+#~ "                    e lavurain per curreger l'errur."
+
+#~ msgid ""
+#~ "We are currently under heavy strain and are working to\n"
+#~ "                    return the system to normal as soon as possible."
+#~ msgstr ""
+#~ "Actualmain è il sistem surchargià. Nus lavurain per ch'il sistem\n"
+#~ "                    stettia bainprest puspè a disposiziun sco usità."
+
+#~ msgid "Privacy notice"
+#~ msgstr "Infurmaziuns davart la protecziun da datas"
+
+#~ msgid "Account verified!"
+#~ msgstr "Verifitgà il conto!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "Ti has connectà cun success tes emprim apparat cun tes conto da Firefox. Ussa pos ti t'annunziar tar Sync sin tut tes auters apparats, inclus Firefox per <a %(androidLinkAttributes)s>Android</a> "
+#~ "ed <a %(iosLinkAttributes)s>iOS</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "Ti has collià cun success tes emprim apparat cun tes conto da Firefox. Ussa pos ti s'annunziar tar Sync da mintga auter apparat, inclusivamain Firefox per Android ed iOS."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "S'annunziar tar Sync:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "Banvegni a %(serviceName)s!"
+
+#~ msgid "Welcome!"
+#~ msgstr "Bainvegni!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "Conferma questa adressa d'e-mail per activar tes conto da Firefox e cuntinuar cun %(serviceName)s."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "Conferma questa adressa d'e-mail per activar tes conto da Firefox."
+
+#~ msgid "Activate now:"
+#~ msgstr "Activar ussa:"
+
+#~ msgid "Activate now"
+#~ msgstr "Activar ussa"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "Conferma tia adressa dad e-mail e cumenza a sincronisar."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "Ti has collià cun success tes emprim apparat cun tes conto da Firefox. Ussa pos ti s'anunziar per sincronisar cun auters apparats, inclusivamain Firefox per <a href='%(androidUrl)s'>Android</a> "
+#~ "ed <a href='%(iosUrl)s'>iOS</a>."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+#~ msgstr ""
+#~ "Ti has collia cun success tes emprim apparat cun tes conto da Firefox. Per profitar dals avantatgs da Sync collia <a href='%(androidUrl)s'>Firefox per Android</a> u <a href='%(iosUrl)s'>Firefox "
+#~ "per iOS</a>."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "S'annunziar per sincronisar"
+
+#~ msgid "This is an automated email."
+#~ msgstr "Quai è in e-mail automatic."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+#~ msgstr "Quai è in e-mail automatic; sche ti n'has betg autorisà questa acziun, lura <a %(passwordChangeLinkAttributes)s>mida per plaschair tes pled-clav</a>."
+
+#~ msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "Sche ti n'al has betg midà, <a %(resetLinkAttributes)s>reinizialisescha ussa tes pled-clav</a>."
+
+#~ msgid "Verify Email"
+#~ msgstr "Verifitgar l'adressa dad e-mail"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "Verifitgescha tia adressa dad e-mail per finir la registraziun per tes conto da Firefox"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Sche ti supponas ch'insatgi emprovia dad acceder a tes conto, <a %(passwordChangeLinkAttributes)s>mida p.pl. tes pled-clav</a>."
+
+#~ msgid "Verify email "
+#~ msgstr "Verifitgar l'adressa dad e-mail "
+
+#~ msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Sche ti n'has betg autorisà questa acziun, <a %(passwordChangeLinkAttributes)s>mida per plaschair tes pled-clav</a>."
+
+#~ msgid "If you did not authorize this action, please change your password."
+#~ msgstr "Sche ti n'has betg autorisà questa acziun, mida per plaschair tes pled-clav."
+
+#~ msgid "Verify your Firefox Account"
+#~ msgstr "Verifitgar tes conto da Firefox"
+
+#~ msgid "Final reminder: Confirm your email to activate your Firefox Account"
+#~ msgstr "Ultima pro memoria: Conferma tia adressa d'e-mail per activar tes conto da Firefox"
+
+#~ msgid "Firefox Account authorization code"
+#~ msgstr "Code d'autorisaziun per tes conto da Firefox"
+
+#~ msgid "Sign-in code for Firefox"
+#~ msgstr "Code d'annunzia per Firefox"
+
+#~ msgid "Reset your Firefox Account password"
+#~ msgstr "Redefinir il pled-clav per tes conto da Firefox"
+
+#~ msgid "Your Firefox Account password has been changed"
+#~ msgstr "Il pled-clav per tes conto da Firefox è vegnì midà"
+
+#~ msgid "Firefox Account password changed"
+#~ msgstr "Il pled-clav dal conto da Firefox è vegnì midà"
+
+#~ msgid "Firefox Account password reset required"
+#~ msgstr "Necessari da reinizialisar il pled-clav da tes conto da Firefox"
+
+#~ msgid "Firefox Account verified"
+#~ msgstr "Verifitgà il conto da Firefox"
+
+#~ msgid "Secondary Firefox Account email added"
+#~ msgstr "Agiuntà ina adressa dad e-mail alternativa al conto da Firefox"
+
+#~ msgid "Firefox Account new primary email"
+#~ msgstr "Nova adressa dad e-mail principala dal conto da Firefox"
+
+#~ msgid "Secondary Firefox Account email removed"
+#~ msgstr "Allontanà ina adressa dad e-mail alternativa dal conto da Firefox"
+
+#~ msgid "Firefox Account password reset with recovery key"
+#~ msgstr "Reinizialisà il pled-clav dal conto da Firefox cun ina clav da recuperaziun"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "La pagina che ti has dumandà n'è betg vegnida chattada. Nus avain retschavì in messadi ed empruvain da curreger eventualas colliaziuns faussas."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "Oh, qua è ina errur capitada. Nus essan vegnids infurmads e lavurain vidlunder da curreger questa errur."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "Actualmain è il sistem surchargià. Nus lavurain londervi ch'il sistem stettia bainprest puspè a disposiziun sco usità."
+
+#~ msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+#~ msgstr "Ils contos da Firefox fan diever da bleras funcziuns betg sustegnidas da tia versiun da Firefox. Telechargia ed installescha per plaschair la versiun la pli nova da Firefox per cuntinuar."
+
+#~ msgid "Hello again."
+#~ msgstr "Olla puspè."
+
+#~ msgid "You recently created a Firefox Account but haven't confirmed your email yet."
+#~ msgstr "Ti has dacurt creà in conto da Firefox, ma n'has anc betg confermà tia adressa d'e-mail."
+
+#~ msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
+#~ msgstr "Conferma tia adressa d'e-mail per pudair cumenzar ad utilisar Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor e dapli."
+
+#~ msgid "Reminder: Confirm your email to activate your Firefox Account"
+#~ msgstr "Pro memoria: Conferma tia adressa d'e-mail per activar tes conto da Firefox"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "Activescha p.pl. tes conto entras confirmar questa adressa dad e-mail."
+
+#~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr ""
+#~ "Quai è in e-mail automatic; sche ti al has retschavì per sbagl, sche ti n'has betg autorisà questa acziun, lura <a %(passwordChangeLinkAttributes)s>mida per plaschair immediat tes pled-clav</a>."
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "Ti utiliseschas in navigatur <strong>antiquà</strong>. <a href=\"http://browsehappy.com/\">Actualisescha tes navigatur</a> per retschaiver dapli segirezza."
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "Avant in temps has ti creà in conto da Firefox, dentan mai verifitgà el. Clicca sin la colliaziun sutvart per activar tes conto."
+
+#~ msgid "New sign-in to Firefox"
+#~ msgstr "Nova annunzia tar Firefox"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "Tes pled-clav è vegnì reinizialisà"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "Il pled-clav da tes conto da Firefox è sa midà. Sche ti n'al has betg midà, p.pl. ussa <a %(resetLinkAttributes)s>reinizialisar tes pled-clav</a>."
+
+#~ msgid "Password reset successfully"
+#~ msgstr "Redefinì cun success tes pled-clav"
+
+#~ msgid "Your Firefox Account password has been successfully reset."
+#~ msgstr "Tes pled-clav per tes conto da Firefox è vegnì redefinì cun success."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Quai è in e-mail automatic. Sche ti n'has betg reinizialisà il pled-clav da tes conto da Firefox al duessas ti immediat reinizialisar qua: %(resetLink)s"
+
+#~ msgid "Forgot your password?"
+#~ msgstr "Emblidà tes pled-clav?"
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+#~ msgstr "Clicca entaifer la proxima ura sin il buttun per definir in nov pled-clav per tes conto da Firefox. La dumonda è vegnida da quest apparat:"
+
+#~ msgid "Reset password"
+#~ msgstr "Redefinir il pled-clav"
+
+#~ msgid ""
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr ""
+#~ "Avant in pèr dis has ti creà in conto da Firefox, ma ti n'al has mai verifitgà. In conto verifitgà ta lascha acceder tes tabs, segnapaginas, pleds-clav e la cronologia sin mintga apparat "
+#~ "associà. Conferma simplamain questa adressa dad e-mail per activar tes conto."
+
+#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Avant in'emna has ti creà in conto da Firefox senza al verifitgar pli tard. Tge è succedì? Conferma questa adressa dad e-mail per activar tes conto."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+#~ msgstr "Per dapli segirezza, conferma p.pl. questa annunzia per cumenzar a sincronisar cun quest apparat:"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "Conferma ina nova annunzia tar Firefox"
+
+#~ msgid "Your Firefox Account password has been reset"
+#~ msgstr "Il pled-clav per tes conto da Firefox è vegnì redefinì"
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Servetschs cloud da Firefox"
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Verifitgar l'adressa dad e-mail per il conto da Firefox"
+
+#~ msgid "Your Firefox Account password has been successfully changed."
+#~ msgstr "Il pled-clav da tes conto da Firefox è vegnì midà cun success."
+
+#~ msgid "Alternatively:"
+#~ msgstr "Alternativ:"
+
+#~ msgid "Firefox Account Verified"
+#~ msgstr "Verifitgà il conto da Firefox"
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
+#~ msgstr "Quai è in e-mail automatic. Sche ti n'has betg agiuntà in nov apparat a tes conto da Firefox duessas ti midar immediatamain tes pled-clav sin %(resetLink)s."
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "Quai è in e-mail automatic. Sche ti n'has betg midà il pled-clav da tes conto da Firefox duessas ti immediat redefinir el qua: %(resetLink)s."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "Quai è in e-mail automatic. Sche ti n'has betg redefinì il pled-clav da tes conto da Firefox duessas ti immediat redefinir el qua: %(resetLink)s."
+
+#~ msgid "Account activity notice"
+#~ msgstr "Avis davart activitads da conto"
+
+#~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
+#~ msgstr "Per motivs da segirezza è tes conto da Firefox vegnì blocca. Per cuntinuar activitads cun quest conto stos ti cliccar sin la colliaziun per re-verifitgar ussa tes conto."
+
+#~ msgid "Verify account"
+#~ msgstr "Verifitgar il conto"
+
+#~ msgid "Verify account:"
+#~ msgstr "Verifitgar il conto:"
+
+#~ msgid "Re-verify your Firefox Account"
+#~ msgstr "Verifitgar tes conto da Firefox danovamain"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+#~ msgstr "Visita il <a %(supportLinkAttributes)s>Support da Mozilla</a> per ulteriuras infurmaziuns"
+
+#~ msgid ""
+#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
+#~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr ""
+#~ "Avant in'emna has ti creà in conto da Firefox, ma ti n'al has mai verifitgà. Perquai ta scrivain nus. Firefox stat a disposiziun per Windows, Mac, Linux, Android ed iOS. Ti pos sincronisar tes "
+#~ "pleds-clav, tes segnapaginas e tia cronologia da Firefox cun tut ils apparats. Conferma simplamain questa adressa dad e-mail per activar tes conto."
+
+#~ msgid "env"
+#~ msgstr "env"
+
+#~ msgid "Bad Request"
+#~ msgstr "Dumonda nuncorrecta"
+
+#~ msgid "A device began syncing with the devices connected to your Firefox Account."
+#~ msgstr "In apparat ha cumenzà da sincronisar cun apparats colliads a tes conto da Firefox."
+
+#~ msgid "Are you sure?"
+#~ msgstr "Es ti segir?"
+
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Conferma p.pl. che ti vuls redefinir il pled-clav per %(email)s."
+
+#~ msgid "Reset password now"
+#~ msgstr "Redefinir ussa il pled-clav"
+
+#~ msgid "Reset password now:"
+#~ msgstr "Redefinir ussa il pled-clav:"
+
+#~ msgid "Recently you created a Firefox Account, but never verified it. Please activate your account by confirming this email address."
+#~ msgstr "Dacurt has ti creà in conto da Firefox, dentant mai verifitgà el. Activescha p.pl. tes conto entras confirmar questa adressa dad e-mail."
+
+#~ msgid "Activate Now:"
+#~ msgstr "Activar ussa:"
+
+#~ msgid "For more information, please visit <a href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ msgstr "Visita il <a href='https://support.mozilla.org'>Support da Mozilla</a> per ulteriuras infurmaziuns."
+
+#~ msgid "Reset password:"
+#~ msgstr "Redefinir il pled-clav:"
+
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "Per dapli infurmaziuns: https://support.mozilla.org"
+
+#~ msgid "Almost there"
+#~ msgstr "Prest dumignà"
+
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s, i cuzza be pli intginas secundas per verifitgar tes conto da Firefox."
+
+#~ msgid "Verify"
+#~ msgstr "Verifitgar"
+
+#~ msgid "Verify:"
+#~ msgstr "Verifitgar:"
+
+#~ msgid "Verify your account"
+#~ msgstr "Verifitgar tes conto"
+
+#~ msgid "Re-verify your account"
+#~ msgstr "Verifitgar danovamain tes conto"
+
+#~ msgid "A new device is now syncing with all of the devices connected to your Firefox Account."
+#~ msgstr "In nov apparat vegn ussa sinchronisà cun tut ils apparats connectads cun tes conto da Firefox."
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Quai è in e-mail automatic. Sche ti n'has betg agiuntà in nov apparat a tes conto da Firefox duessas ti midar immediatamain tes pled-clav sin <a href='%(resetLink)s'>%(resetLink)s</a>."
+
+#~ msgid "This is an automated email; if you didn't change the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Quai è in e-mail automatic. Sche ti n'has betg midà il pled-clav da tes conto da Firefox duessas ti immediat redefinir el qua: <a href='%(resetLink)s'>%(resetLink)s</a>."
+
+#~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Quai è in e-mail automatic. Sche ti n'has betg redefinì il pled-clav da tes conto da Firefox duessas ti immediat redefinir el qua: <a href='%(resetLink)s'>%(resetLink)s</a>."
+
+#~ msgid "A new device is now syncing to your Firefox Account"
+#~ msgstr "In nov apparat vegn ussa sincronisà cun tes conto da Firefox"
+
+#~ msgid "Firefox Account Activation"
+#~ msgstr "Activar il conto da Firefox"
+
+#~ msgid "For more information, please visit <a href='https://support.mozilla.org' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr "Ulteriuras infurmaziuns chattas ti sin la<a href='https://support.mozilla.org' style='color: #0095dd; text-decoration: none;'>pagina d'agid da Mozilla</a>."
+
+#~ msgid "For more information, please visit <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr "Ulteriuras infurmaziuns èn disponiblas sin la <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: none;'>pagina d'agid da Firefox</a>"
+
+#~ msgid "New sign-in to Sync"
+#~ msgstr "Nova annunzia tar Sync"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Gratulaziun!"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "Il sistem n'è betg disponibel, emprova bainprest anc ina giada"
+
+#~ msgid "We are currently performing some maintenance on the system, and will return momentarily."
+#~ msgstr "Nus exequin gist lavurs da mantegniment sin il sistem ed essan bainprest puspè online."
+
+#~ msgid "Reset Password Request"
+#~ msgstr "Dumona per redefinir il pled-clav"

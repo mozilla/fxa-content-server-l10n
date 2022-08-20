@@ -1,0 +1,1635 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2022-03-08 16:59+0000\n"
+"Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pontoon\n"
+"X-POOTLE-MTIME: 1429366227.0\n"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+msgid "Firefox Accounts"
+msgstr "Contas Firefox"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Página não encontrada"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and\n"
+"          will fix any links that may be broken."
+msgstr ""
+"A página solicitada não foi encontrada. Fomos notificados e\n"
+"          corrigiremos os links que podem estar quebrados."
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Inicio"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "Erro 500"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and\n"
+"          will get working on a fix."
+msgstr ""
+"Infelizmente, algo deu errado. Fomos notificados e\n"
+"          vamos começar a trabalhar na solução."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "Erro 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Servidor ocupado, tente novamente mais tarde"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return\n"
+"          the system to normal as soon as possible."
+msgstr ""
+"Estamos no momento passando por turbulências, trabalhando para retornar\n"
+"          o sistema ao normal assim que possível."
+
+#: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr "Carregando"
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "A Conta Firefox requer JavaScript."
+
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+msgid "Privacy Notice"
+msgstr "Aviso de privacidade"
+
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+msgid "Terms of Service"
+msgstr "Termos do serviço"
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr "É necessário atualizar o Firefox"
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
+"A Conta Firefox usa recursos que não são\n"
+"                        suportados na sua versão do Firefox.\n"
+"                        Baixe e instale a versão mais recente do Firefox\n"
+"                        para poder continuar."
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr "Baixar a versão mais recente"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaBrowser)s no %(uaOS)s %(uaOSVersion)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaBrowser)s no %(uaOS)s"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(stateCode)s, %(country)s (estimado)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(country)s (estimado)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s, %(country)s (estimado)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (estimado)"
+
+#~ msgid "Verification code: %(code)s"
+#~ msgstr "Código de verificação: %(code)s"
+
+#~ msgid "Reminder: Finish creating your account"
+#~ msgstr "Lembrete: Conclua a criação da sua conta"
+
+#~ msgid "Final reminder: Activate your account"
+#~ msgstr "Lembrete final: Ative sua conta"
+
+#~ msgid "Confirm email"
+#~ msgstr "Confirmar email"
+
+#~ msgid "Reminder: Finish setting up your account"
+#~ msgstr "Lembrete: Conclua a configuração da sua conta"
+
+#~ msgid "Final reminder: Setup your account"
+#~ msgstr "Lembrete final: Configure sua conta"
+
+#~ msgid "Create a password"
+#~ msgstr "Crie uma senha"
+
+#~ msgid "Account authorization code"
+#~ msgstr "Código de autorização da conta"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "Confirmar novo acesso no %(clientName)s"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "Confirmar acesso"
+
+#~ msgid "Confirm primary email"
+#~ msgstr "Confirmar email principal"
+
+#~ msgid "Verify email"
+#~ msgstr "Validar email"
+
+#~ msgid "Confirm secondary email"
+#~ msgstr "Confirmar email secundário"
+
+#~ msgid "Reset your password"
+#~ msgstr "Redefina a sua senha"
+
+#~ msgid "Create new password"
+#~ msgstr "Criar nova senha"
+
+#~ msgid "Password updated"
+#~ msgstr "Senha atualizada"
+
+#~ msgid "Suspicious activity detected"
+#~ msgstr "Detectada atividade suspeita"
+
+#~ msgid "New account linked to Firefox"
+#~ msgstr "Nova conta vinculada ao Firefox"
+
+#~ msgid "Manage account"
+#~ msgstr "Gerenciar conta"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "Novo acesso no %(clientName)s"
+
+#~ msgid "Account verified. Next, sync another device to finish setup"
+#~ msgstr "Conta validada. Agora sincronize outro dispositivo para concluir a configuração"
+
+#~ msgid "Set up next device"
+#~ msgstr "Configurar próximo dispositivo"
+
+#~ msgid "Secondary email added"
+#~ msgstr "Email secundário adicionado"
+
+#~ msgid "Primary email updated"
+#~ msgstr "Email principal atualizado"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Email secundário removido"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "Autenticação em duas etapas ativada"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Gerados novos códigos de recuperação"
+
+#~ msgid "Recovery code used"
+#~ msgstr "Código de recuperação usado"
+
+#~ msgid "1 recovery code remaining"
+#~ msgstr "Resta 1 código de recuperação"
+
+#~ msgid "%(numberRemaining)s recovery codes remaining"
+#~ msgstr "Restam %(numberRemaining)s códigos de recuperação"
+
+#~ msgid "Generate codes"
+#~ msgstr "Gerar códigos"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "Gerada chave de recuperação de conta"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "Removida a chave de recuperação de conta"
+
+#~ msgid "Password updated using recovery key"
+#~ msgstr "Senha atualizada usando chave de recuperação"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "Criar nova chave de recuperação"
+
+#~ msgid "Welcome to %(productName)s: Please set your password."
+#~ msgstr "Boas-vindas ao %(productName)s: Defina sua senha."
+
+#~ msgid "You have upgraded to %(productNameNew)s"
+#~ msgstr "Você atualizou para %(productNameNew)s"
+
+#~ msgid "You have switched to %(productNameNew)s"
+#~ msgstr "Você mudou para %(productNameNew)s"
+
+#~ msgid "Credit card for %(productName)s expiring soon"
+#~ msgstr "Validade do cartão de crédito de %(productName)s expirando em breve"
+
+#~ msgid "Credit card for your subscriptions is expiring soon"
+#~ msgstr "A validade do cartão de crédito de suas assinaturas expirará em breve"
+
+#~ msgid "Payment information update required for %(productName)s"
+#~ msgstr "Necessário atualizar informações de pagamento de %(productName)s"
+
+#~ msgid "Payment information update required for Mozilla subscriptions"
+#~ msgstr "Necessário atualizar informações de pagamento de assinaturas Mozilla"
+
+#~ msgid "%(productName)s payment failed"
+#~ msgstr "Falha no pagamento de %(productName)s"
+
+#~ msgid "Your %(productName)s subscription has been cancelled"
+#~ msgstr "Sua assinatura de %(productName)s foi cancelada"
+
+#~ msgid "%(productName)s subscription reactivated"
+#~ msgstr "Assinatura do %(productName)s reativada"
+
+#~ msgid "%(productName)s automatic renewal notice"
+#~ msgstr "Aviso de renovação automática do %(productName)s"
+
+#~ msgid "%(productName)s payment received"
+#~ msgstr "Recebido pagamento de %(productName)s"
+
+#~ msgid "%(productName)s payment confirmed"
+#~ msgstr "Pagamento de %(productName)s confirmado"
+
+#~ msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
+#~ msgstr "Seu lembrete amigável: Como concluir sua configuração de sincronização"
+
+#~ msgid "Final Reminder: Complete Sync Setup"
+#~ msgstr "Lembrete final: Conclua a configuração de sincronização"
+
+#~ msgid "Here's your reminder to sync devices."
+#~ msgstr "Aqui está seu lembrete para sincronizar dispositivos."
+
+#~ msgid "Last reminder to sync devices!"
+#~ msgstr "Último lembrete para sincronizar dispositivos!"
+
+#~ msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr "Precisam dois para sincronizar. A sincronização com outro dispositivo mantém iguais, com privacidade, seus favoritos, senhas e outros dados do Firefox em todo lugar em que usar o Firefox."
+
+#~ msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr "Sincronizar com outro dispositivo mantém iguais, com privacidade, seus favoritos, senhas e outros dados do Firefox em todo lugar em que usar o Firefox."
+
+#~ msgid "Sync another device"
+#~ msgstr "Sincronizar outro dispositivo"
+
+#~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+#~ msgstr "Se você ainda não baixou o %(productName)s, vamos apresentar como usar todos os recursos incluídos em sua assinatura:"
+
+#~ msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Dúvidas sobre sua assinatura? Nossa <a href=\"%(subscriptionSupportUrl)s\">equipe de suporte</a> está aqui para ajudar."
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Dúvidas sobre sua assinatura? Nossa equipe de suporte está aqui para ajudar."
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "Restam poucos códigos de recuperação"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Percebemos que você está com poucos códigos de recuperação. Considere gerar novos códigos para evitar que sua conta seja bloqueada."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Percebemos que você está com poucos códigos de recuperação. Considere gerar novos códigos para evitar que sua conta seja bloqueada."
+
+#~ msgid "Generate codes:"
+#~ msgstr "Gerar códigos:"
+
+#~ msgid "Password Change Required"
+#~ msgstr "Necessário mudar a senha"
+
+#~ msgid ""
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
+#~ msgstr ""
+#~ "Detectamos comportamento suspeito na sua Conta Firefox. Para impedir acesso não autorizado à sua Conta Firefox, desconectamos todos os dispositivos da sua conta e pedimos que altere sua senha "
+#~ "por precaução."
+
+#~ msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+#~ msgstr "Acesse novamente em qualquer dispositivo ou serviço em que use sua Conta Firefox e siga as instruções que serão apresentadas."
+
+#~ msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Importante:</b> Escolha uma senha diferente da que você estava usando anteriormente e certifique-se de ser diferente da senha da sua conta de email."
+
+#~ msgid "Best,"
+#~ msgstr "Atenciosamente,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Equipe Conta Firefox"
+
+#~ msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Importante: Escolha uma senha diferente da que você estava usando anteriormente e certifique-se de ser diferente da senha da sua conta de email."
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Senha alterada com sucesso"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Sua senha da Conta Firefox foi alterada com sucesso a partir do seguinte dispositivo:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Este é um email automático. Se você não alterou a senha da sua Conta Firefox, deve redefinir imediatamente em %(resetLink)s"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "A senha da sua conta foi alterada"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Você precisa digitar sua nova senha em outros dispositivos para voltar a sincronizar."
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Você precisa digitar sua nova senha em outros dispositivos para continuar sincronizando."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "Se você não alterou, redefina a sua senha agora em %(resetLink)s"
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "A senha da sua conta foi redefinida com uma chave de recuperação"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "Você redefiniu sua senha com sucesso usando uma chave de recuperação no seguinte dispositivo:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "Você precisará gerar uma nova chave de recuperação."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "Criar nova chave de recuperação:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Para mais informações, visite %(supportUrl)s"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Você gerou com sucesso uma chave de recuperação de conta para sua Conta Firefox usando o seguinte dispositivo:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "Se não foi você, <a %(revokeAccountRecoveryLinkAttributes)s>clique aqui.</a>"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Você gerou com sucesso uma chave de recuperação de conta para sua Conta Firefox no seguinte dispositivo:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "Se não foi você, revogue a chave."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Você ativou com sucesso a autenticação em duas etapas na sua Conta Firefox através do seguinte dispositivo:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Agora serão solicitados códigos de segurança do seu aplicativo de autenticação a cada novo acesso."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Você ativou com sucesso a autenticação em duas etapas na sua Conta Firefox. Agora serão solicitados códigos de segurança do seu aplicativo de autenticação a cada novo acesso."
+
+#~ msgid "New primary email"
+#~ msgstr "Novo email principal"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "Você alterou com sucesso o seu email principal para %(email)s. Este endereço é agora seu nome de usuário para acessar sua Conta Firefox, assim como receber notificações de segurança e "
+#~ "confirmações de acesso."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "Código de recuperação utilizado"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "Você usou com sucesso um código de recuperação através do seguinte dispositivo:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "Utilizado código de recuperação"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "Você gerou com sucesso novos códigos de recuperação através do seguinte dispositivo:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Você removeu com sucesso uma chave de recuperação de conta da sua Conta Firefox usando o seguinte dispositivo:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "Essa chave de recuperação não pode mais ser usada para recuperar sua conta."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Você removeu com sucesso uma chave de recuperação de conta para sua Conta Firefox no seguinte dispositivo:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Você removeu com sucesso %(secondaryEmail)s como email secundário da sua Conta Firefox. Notificações de segurança e confirmações de acesso não serão mais enviadas para este endereço."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "Autenticação em duas etapas desativado"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Você desativou com sucesso a autenticação em duas etapas na sua Conta Firefox através do seguinte dispositivo:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "Códigos de segurança não serão mais necessários a cada novo acesso."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "Você desativou com sucesso a autenticação em duas etapas na sua Conta Firefox. Códigos de segurança não serão mais necessários a cada novo acesso."
+
+#~ msgid "Firefox Account verified. You're almost there."
+#~ msgstr "Conta Firefox validada. Você está quase lá."
+
+#~ msgid "Next sync between your devices!"
+#~ msgstr "Próxima sincronização entre seus dispositivos!"
+
+#~ msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+#~ msgstr "A sincronização mantém de forma privativa seus favoritos, senhas e outros dados do Firefox iguais em todos os seus dispositivos."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "Tem dúvidas? Visite %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "Você validou com sucesso %(secondaryEmail)s como email secundário da sua Conta Firefox. Notificações de segurança e confirmações de acesso agora serão enviadas para ambos os endereços de email."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "Precisa redefinir a sua senha?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "Clique no botão em até uma hora para criar uma nova senha. A solicitação veio do seguinte dispositivo:"
+
+#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+#~ msgstr "Obrigado por escolher o Firefox! Você pode instalar o Firefox para dispositivos móveis aqui: %(link)s"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Lamentamos ver você partir"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Você excluiu recentemente sua Conta Firefox. Como resultado, cancelamos sua assinatura do %(productName)s. Seu pagamento final de %(invoiceTotal)s foi feito em %(invoiceDateOnly)s."
+
+#~ msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
+#~ msgstr "Ajude-nos a melhorar nossos serviços participando desta <a %(cancellationSurveyLinkAttributes)s>breve pesquisa</a>."
+
+#~ msgid "Please help us improve our services by taking this short survey:"
+#~ msgstr "Ajude-nos a melhorar nossos serviços participando desta breve pesquisa:"
+
+#~ msgid "Welcome to %(productName)s"
+#~ msgstr "Boas-vindas ao %(productName)s"
+
+#~ msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "O pagamento está sendo processado e pode levar até quatro dias úteis para ser concluído. Sua assinatura é renovada automaticamente a cada período de faturamento, a menos que você opte por "
+#~ "cancelar."
+
+#~ msgid "Next, you'll create a Firefox account password and download %(productName)s."
+#~ msgstr "Em seguida, você irá criar uma senha de Conta Firefox e baixar o %(productName)s."
+
+#~ msgid "Invoice number: %(invoiceNumber)s"
+#~ msgstr "Número da fatura: %(invoiceNumber)s"
+
+#~ msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Cobrado: %(invoiceTotal)s em %(invoiceDateOnly)s"
+
+#~ msgid "Next invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Próxima fatura: %(nextInvoiceDateOnly)s"
+
+#~ msgid "You can't access your subscription yet"
+#~ msgstr "Você ainda não pode acessar sua assinatura"
+
+#~ msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
+#~ msgstr "Alguns dias atrás, você criou uma Conta Firefox, mas nunca a validou. Esperamos que você termine a configuração de sua conta para poder usar sua nova assinatura."
+
+#~ msgid "Select “Create Password” to set up a new password and finish verifying your account."
+#~ msgstr "Selecione “Criar senha” para definir uma nova senha e concluir a validação de sua conta."
+
+#~ msgid "Create a password:"
+#~ msgstr "Crie uma senha:"
+
+#~ msgid "Welcome to Firefox!"
+#~ msgstr "Boas-vindas ao Firefox"
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "Cancelamos sua assinatura do %(productName)s. Seu pagamento final de %(invoiceTotal)s foi feito em %(invoiceDateOnly)s. Seu serviço continuará até o final do período de cobrança atual, que é "
+#~ "%(serviceLastActiveDateOnly)s."
+
+#~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Você mudou com sucesso de %(productNameOld)s para %(productNameNew)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be given a one-time credit of %(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "A partir da próxima fatura, sua cobrança será alterada de %(paymentAmountOld)s por %(productPaymentCycleOld)s para %(paymentAmountNew)s por %(productPaymentCycleNew)s. Nesse momento, você também "
+#~ "receberá um crédito único de %(paymentProrated)s para refletir a cobrança menor pelo restante desse %(productPaymentCycleOld)s."
+
+#~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
+#~ msgstr "Se houver um novo software necessário instalar para usar o %(productNameNew)s, você receberá um email separado com instruções de como baixar."
+
+#~ msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
+#~ msgstr "Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar."
+
+#~ msgid "Your subscription has been cancelled"
+#~ msgstr "Sua assinatura foi cancelada"
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed. To get access again, start a new subscription with an updated payment method."
+#~ msgstr "Cancelamos sua assinatura do %(productName)s porque várias tentativas de pagamento falharam. Para voltar a ter acesso, faça uma nova assinatura com um método de pagamento atualizado."
+
+#~ msgid "We've cancelled your %(productName)s subscription because multiple payment attempts failed.  To get access again, start a new subscription with an updated payment method."
+#~ msgstr "Cancelamos sua assinatura do %(productName)s porque várias tentativas de pagamento falharam. Para voltar a ter acesso, faça uma nova assinatura com um método de pagamento atualizado."
+
+#~ msgid "Thank you for subscribing to %(productName)s"
+#~ msgstr "Obrigado por assinar o %(productName)s"
+
+#~ msgid "Your payment is currently processing and may take up to four business days to complete."
+#~ msgstr "Seu pagamento está em processamento e pode levar até quatro dias úteis para ser concluído."
+
+#~ msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
+#~ msgstr "Você receberá um email separado para baixar instruções de como começar a usar o %(productName)s."
+
+#~ msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
+#~ msgstr "Número da fatura: <b>%(invoiceNumber)s</b>"
+
+#~ msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Cobrado %(invoiceTotal)s em %(invoiceDateOnly)s"
+
+#~ msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
+#~ msgstr "<a href=\"%(invoiceLink)s\">Veja sua fatura</a>."
+
+#~ msgid "Next Invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Próxima fatura: %(nextInvoiceDateOnly)s"
+
+#~ msgid "Invoice Number: %(invoiceNumber)s"
+#~ msgstr "Número da fatura: %(invoiceNumber)s"
+
+#~ msgid "View Invoice: %(invoiceLink)s"
+#~ msgstr "Ver fatura: %(invoiceLink)s"
+
+#~ msgid "Subtotal: %(invoiceSubtotal)s"
+#~ msgstr "Subtotal: %(invoiceSubtotal)s"
+
+#~ msgid "One-time discount: -%(invoiceDiscountAmount)s"
+#~ msgstr "Desconto único: -%(invoiceDiscountAmount)s"
+
+#~ msgid "Your credit card is about to expire"
+#~ msgstr "A validade do seu cartão de crédito está prestes a expirar"
+
+#~ msgid "The credit card you're using to make payments for %(productName)s is about to expire."
+#~ msgstr "A validade do cartão de crédito que você está usando para efetuar pagamentos do %(productName)s está prestes a expirar."
+
+#~ msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
+#~ msgstr "Para evitar qualquer interrupção no serviço, <a href=\"%(updateBillingUrl)s\">atualize suas informações de pagamento</a> assim que possível."
+
+#~ msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
+#~ msgstr "Para evitar qualquer interrupção no serviço, atualize suas informações de pagamento assim que possível:"
+
+#~ msgid "Sorry, we're having trouble with your payment"
+#~ msgstr "Desculpe, estamos com problemas com seu pagamento"
+
+#~ msgid "We had a problem with your latest payment for %(productName)s."
+#~ msgstr "Ocorreu um problema com seu pagamento mais recente pelo %(productName)s."
+
+#~ msgid "It may be that your credit card has expired, or your current payment method is out of date."
+#~ msgstr "Pode ser que seu cartão de crédito tenha expirado, ou que a forma de pagamento atual esteja desatualizada."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
+#~ msgstr ""
+#~ "Tentaremos efetuar seu pagamento novamente nos próximos dias, mas pode ser que você precise nos ajudar a corrigir isso <a href=\"%(updateBillingUrl)s\">atualizando suas informações de pagamento</"
+#~ "a>."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
+#~ msgstr "Tentaremos efetuar seu pagamento novamente nos próximos dias, mas pode ser que você precise nos ajudar a corrigir isso atualizando suas informações de pagamento:"
+
+#~ msgid "Sorry, we’re having trouble with your payment method"
+#~ msgstr "Desculpe, estamos com problemas com seu método de pagamento"
+
+#~ msgid "We have detected a problem with your payment method for %(productName)s."
+#~ msgstr "Detectamos um problema com seu método de pagamento de %(productName)s."
+
+#~ msgid "Thank you for reactivating your %(productName)s subscription!"
+#~ msgstr "Obrigado por reativar sua assinatura do %(productName)s!"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s on %(nextInvoiceDateOnly)s. Your subscription will automatically renew each billing period unless "
+#~ "you choose to cancel."
+#~ msgstr ""
+#~ "Seu ciclo de faturamento e pagamento permanece o mesmo. Sua próxima cobrança será de %(invoiceTotal)s em %(nextInvoiceDateOnly)s. Sua assinatura será renovada automaticamente a cada período de "
+#~ "cobrança, a menos que você opte por cancelar."
+
+#~ msgid "Your subscription will be renewed soon"
+#~ msgstr "Sua assinatura será renovada em breve"
+
+#~ msgid "Dear %(productName)s customer,"
+#~ msgstr "Caro cliente do %(productName)s,"
+
+#~ msgid ""
+#~ "Your current subscription is set to automatically renew in %(reminderLength)s days. At that time, Mozilla will renew your %(planIntervalCount)s %(planInterval)s subscription and a charge of "
+#~ "%(invoiceTotal)s will be applied to the payment method on your account."
+#~ msgstr ""
+#~ "Sua assinatura atual está configurada para ser renovada automaticamente daqui a %(reminderLength)s dias. Nesta data, a Mozilla renovará sua assinatura de %(planIntervalCount)s %(planInterval)s. "
+#~ "Uma cobrança de %(invoiceTotal)s será aplicada ao método de pagamento de sua conta."
+
+#~ msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
+#~ msgstr "Você pode verificar <a href=\"%(updateBillingUrl)s\">aqui</a> se a forma de pagamento e as informações da conta estão atualizadas."
+
+#~ msgid ""
+#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">contact us</a>."
+#~ msgstr ""
+#~ "Obrigado por assinar o %(productName)s. Se tiver dúvidas sobre sua assinatura ou precisar de mais informações sobre o %(productName)s, <a href=\"%(subscriptionSupportUrl)s\">entre em contato "
+#~ "conosco</a>."
+
+#~ msgid "Sincerely,"
+#~ msgstr "Atenciosamente,"
+
+#~ msgid "The %(productName)s team"
+#~ msgstr "A equipe do %(productName)s"
+
+#~ msgid "You can ensure that your payment method and account information are up to date here:"
+#~ msgstr "Você pode verificar se a forma de pagamento e as informações da conta estão atualizadas aqui:"
+
+#~ msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
+#~ msgstr "Obrigado por assinar o %(productName)s. Se tiver dúvidas sobre sua assinatura ou precisar de mais informações sobre o %(productName)s, entre em contato conosco:"
+
+#~ msgid "Thank you for being a subscriber!"
+#~ msgstr "Obrigado por ser um assinante!"
+
+#~ msgid "We received your latest payment for %(productName)s."
+#~ msgstr "Recebemos seu último pagamento pelo %(productName)s."
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "Obrigado por atualizar!"
+
+#~ msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "Você atualizou com sucesso de %(productNameOld)s para %(productNameNew)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycleOld)s to %(paymentAmountNew)s per %(productPaymentCycleNew)s. At that time you will also "
+#~ "be charged a one-time fee of %(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycleOld)s."
+#~ msgstr ""
+#~ "A partir da próxima fatura, sua cobrança será alterada de %(paymentAmountOld)s por %(productPaymentCycleOld)s para %(paymentAmountNew)s por %(productPaymentCycleNew)s. Nesse momento, também será "
+#~ "cobrado um valor único de %(paymentProrated)s para refletir a cobrança maior pelo restante desse %(productPaymentCycleOld)s."
+
+#~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
+#~ msgstr "A validade do cartão de crédito que você está usando para efetuar pagamentos das assinaturas a seguir está prestes a expirar."
+
+#~ msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Dúvidas sobre suas assinaturas? Nossa <a href=\"%(subscriptionSupportUrl)s\">equipe de suporte</a> está aqui para ajudar."
+
+#~ msgid "Questions about your subscriptions? Our support team is here to help you:"
+#~ msgstr "Dúvidas sobre suas assinaturas? Nossa equipe de suporte está aqui para ajudar."
+
+#~ msgid "We have detected a problem with your payment method for the following subscriptions."
+#~ msgstr "Detectamos um problema com seu método de pagamento das seguintes assinaturas."
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "Foi você que tentou entrar na sua conta?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Se foi você, use este código de verificação:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Senão, ajude-nos a evitar intrusos e <a %(reportSignInLinkAttributes)s>nos informe</a>."
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Senão, ajude-nos a evitar intrusos e nos informe."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Boas-vindas à família Firefox"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "Há alguns dias você criou uma Conta Firefox, mas ainda não a confirmou."
+
+#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+#~ msgstr "Confirme agora e obtenha a tecnologia que luta por sua privacidade e a protege, oferece conhecimento prático e o respeito que você merece."
+
+#~ msgid "Confirm email:"
+#~ msgstr "Confirmar email:"
+
+#~ msgid "Still there?"
+#~ msgstr "Ainda está aí?"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "Há quase uma semana você criou uma Conta Firefox, mas nunca a validou. Estamos preocupados com você."
+
+#~ msgid "Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Confirme este endereço de email para ativar sua conta e deixe-nos saber que você está bem."
+
+#~ msgid "Activate the Firefox family of products"
+#~ msgstr "Ative a família de produtos Firefox"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+#~ msgstr "Confirme sua conta e tire o máximo proveito do Firefox onde quer que você acesse, começando com:"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+#~ msgstr "Confirme sua conta e tire o máximo proveito do Firefox onde quer que você acesse."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "Para segurança adicional, confirme este acesso no seguinte dispositivo:"
+
+#~ msgid "If yes, here is the verification code:"
+#~ msgstr "Se foi você, use este código de verificação:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "Expira em 5 minutos."
+
+#~ msgid "Verify primary email"
+#~ msgstr "Validar email principal"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "Uma solicitação para efetuar uma alteração na conta foi feita a partir do seguinte dispositivo:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "Uma vez validado, será possível realizar alterações na conta nesse dispositivo, como adicionar um email secundário."
+
+#~ msgid "Verify email: "
+#~ msgstr "Validar email:"
+
+#~ msgid "Verify secondary email"
+#~ msgstr "Validar email secundário"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Foi feita uma solicitação para usar %(email)s como endereço de email secundário da seguinte Conta Firefox:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Uma vez validado, este endereço começará a receber notificações de segurança e confirmações."
+
+#~ msgid "Use this verification code:"
+#~ msgstr "Use este código de verificação:"
+
+#~ msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Ele expira em 5 minutos. Uma vez validado, este endereço começará a receber notificações e confirmações de segurança."
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "É você mesmo se cadastrando?"
+
+#~ msgid "If yes, use this verification code in your registration form:"
+#~ msgstr "Caso afirmativo, use este código de verificação em seu formulário de cadastro:"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "Preparar, apontar, sincronizar"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Confirme que você recebeu este email e ajudaremos você a instalar e sincronizar o Firefox em todos os seus dispositivos começando com:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "Uma vez confirmado, ajudaremos você a instalar e conectar o Firefox em, pelo menos, um outro dispositivo."
+
+#~ msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
+#~ msgstr "Ou instale em <a %(desktopLinkAttributes)s>outro computador</a>."
+
+#~ msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+#~ msgstr "Ou instale em <a %(cadLinkAttributes)s>outro dispositivo</a>."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Este é um email automático. Se você não autorizou esta ação, <a %(passwordChangeLinkAttributes)s>mude sua senha</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Para mais informações, visite o <a %(supportLinkAttributes)s>Suporte Mozilla</a>."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Este é um email automático. Se você não adicionou um novo dispositivo em sua Conta Firefox, deve alterar sua senha imediatamente em %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Este é um email automático. Se você recebeu por engano, nenhuma ação é necessária."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "Este é um email automático. Se você não autorizou esta ação, <a %(resetLinkAttributes)s>redefina sua senha</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Se suspeitar que alguém está tentando obter acesso à sua conta, altere sua senha."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "Endereço IP: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "Gerenciar conta:"
+
+#~ msgid "Payment details:"
+#~ msgstr "Detalhes do pagamento:"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "%(cardType)s card ending in %(lastFour)s"
+#~ msgstr "Cartão %(cardType)s terminado em %(lastFour)s"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Política de privacidade da Mozilla"
+
+#~ msgid "Firefox Cloud Terms of Service"
+#~ msgstr "Termos do serviço do Firefox Cloud"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+#~ msgstr "Você recebeu este email porque %(email)s tem uma Conta Firefox e você assinou o %(productName)s."
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account"
+#~ msgstr "Você recebeu este email porque %(email)s tem uma Conta Firefox"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
+#~ msgstr "Você recebeu este email porque %(email)s tem uma Conta Firefox e você assinou vários produtos."
+
+#~ msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+#~ msgstr "Gerencie as configurações da sua Conta Firefox na <a %(accountSettingsLinkAttributes)s>página da conta</a>."
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "Termos e política de cancelamento"
+
+#~ msgid "Reactivate subscription"
+#~ msgstr "Reativar assinatura"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Cancelar assinatura"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "Cancelar assinaturas"
+
+#~ msgid "Update billing information"
+#~ msgstr "Atualizar informações de cobrança"
+
+#~ msgid "Legal"
+#~ msgstr "Jurídico"
+
+#~ msgid "Privacy"
+#~ msgstr "Privacidade"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "Termos e política de cancelamento:"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "Aviso de privacidade:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "Cancelar assinatura:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "Cancelar assinaturas:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "Atualizar informações de cobrança:"
+
+#~ msgid "Finish creating your account"
+#~ msgstr "Concluir a criação da sua conta"
+
+#~ msgid "Sign-in code for %(serviceName)s"
+#~ msgstr "Código de acesso em %(serviceName)s"
+
+#~ msgid "Two-step authentication is off"
+#~ msgstr "A autenticação em duas etapas está desativada"
+
+#~ msgid "Download %(productName)s"
+#~ msgstr "Baixar o %(productName)s"
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be given a one-time credit of "
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "A partir da próxima fatura, sua cobrança será alterada de %(paymentAmountOld)s por %(productPaymentCycle)s para %(paymentAmountNew)s. Nesse momento, você também receberá um crédito único de "
+#~ "%(paymentProrated)s para refletir a cobrança menor pelo restante desse %(productPaymentCycle)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from %(paymentAmountOld)s per %(productPaymentCycle)s to %(paymentAmountNew)s. At that time you will also be charged a one-time fee of "
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "A partir da próxima fatura, sua cobrança será alterada de %(paymentAmountOld)s por %(productPaymentCycle)s para %(paymentAmountNew)s. Nesse momento, também será cobrado um valor único de "
+#~ "%(paymentProrated)s para refletir a cobrança maior pelo restante desse %(productPaymentCycle)s."
+
+#~ msgid "Two-step verification enabled"
+#~ msgstr "Autenticação em duas etapas ativada"
+
+#~ msgid "Two-step verification is off"
+#~ msgstr "A autenticação em duas etapas está desativada"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "Detectamos uma atividade suspeita em sua Conta Firefox. Sua conta pode ter sido comprometida."
+
+#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+#~ msgstr "Para impedir o acesso não autorizado à sua Conta Firefox, nós redefinimos a sua senha e estamos notificando-o como medida de precaução."
+
+#~ msgid "What should you do?"
+#~ msgstr "O que você deveria fazer?"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "Primeiro, altere a senha da sua Conta Firefox."
+
+#~ msgid ""
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
+#~ msgstr ""
+#~ "Segundo, se o Firefox armazena senhas de sites, você deve alterar essas senhas também. Invasores podem ter acesso a essas senhas, então você deve verificar se há atividades suspeitas nessas "
+#~ "contas."
+
+#~ msgid "Learn how to see what passwords Firefox is storing for you."
+#~ msgstr "Aprenda a ver quais senhas o Firefox está armazenando para você."
+
+#~ msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
+#~ msgstr "Ajude-nos a corrigir <a href=\"%(updateBillingUrl)s\">atualizando suas informações de pagamento</a> em até 24 horas."
+
+#~ msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
+#~ msgstr "Infelizmente, se não recebermos uma resposta sua no prazo de 24 horas, você perderá o acesso ao %(productName)s."
+
+#~ msgid "Help us fix it by updating your payment information within 24 hours:"
+#~ msgstr "Ajude-nos a corrigir atualizando suas informações de pagamento em até 24 horas:"
+
+#~ msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Importante:</b> Escolha uma senha diferente da que você estava usando anteriormente e certifique-se de ser diferente da senha da sua conta de email."
+
+#~ msgid "The Firefox accounts team"
+#~ msgstr "Equipe Conta Firefox"
+
+#~ msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Importante: Escolha uma senha diferente da que você estava usando anteriormente e certifique-se de ser diferente da senha da sua conta de email."
+
+#~ msgid "Setup next device"
+#~ msgstr "Configurar próximo dispositivo"
+
+#~ msgid "If yes, use this verification code:"
+#~ msgstr "Se for, use este código de verificação:"
+
+#~ msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
+#~ msgstr "Ajude-nos a corrigir, <a href=\"%(updateBillingUrl)s\">atualizando suas informações de pagamento</a> em até três dias."
+
+#~ msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
+#~ msgstr "Infelizmente, se não recebermos notícias suas em até três dias, você perderá o acesso ao %(productName)s."
+
+#~ msgid "Help us fix it by updating your payment information within three days:"
+#~ msgstr "Ajude-nos a corrigir, atualizando suas informações de pagamento em até três dias:"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be %(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+#~ "automatically renew each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "Seu ciclo de faturamento e pagamento permanece o mesmo. Sua próxima cobrança será de %(invoiceTotal)s no cartão %(cardType)s com final %(lastFour)s em %(nextInvoiceDateOnly)s. Sua assinatura "
+#~ "será renovada automaticamente a cada período de cobrança, a menos que você opte por cancelar."
+
+#~ msgid "Thank you for subscribing to %(productName)s!"
+#~ msgstr "Obrigado por assinar o %(productName)s!"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Você excluiu recentemente sua Conta Firefox. Como resultado, cancelamos sua inscrição em %(productName)s. Seu pagamento final de %(invoiceTotal)s foi feito em %(invoiceDateOnly)s."
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "Cancelamos sua inscrição de %(productName)s. Seu pagamento final de %(invoiceTotal)s foi feito em %(invoiceDateOnly)s. Seu serviço continuará até o final do período de cobrança atual, que é "
+#~ "%(serviceLastActiveDateOnly)s."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be given a one-time credit of $"
+#~ "%(paymentProrated)s to reflect the lower charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "A partir da próxima fatura, sua cobrança será alterada de US$%(paymentAmountOld)s por %(productPaymentCycle)s para US$%(paymentAmountNew)s. Nesse momento, você também receberá um crédito único "
+#~ "de US$%(paymentProrated)s para refletir a cobrança menor pelo restante desse %(productPaymentCycle)s."
+
+#~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "Cobrado %(invoiceTotal)s em %(invoiceDateOnly)s"
+
+#~ msgid ""
+#~ "Your billing cycle and payment will remain the same. Your next charge will be $%(invoiceTotal)s to the %(cardType)s card ending in %(lastFour)s on %(nextInvoiceDateOnly)s. Your subscription will "
+#~ "automatically renew each billing period unless you choose to cancel."
+#~ msgstr ""
+#~ "Seu ciclo de faturamento e pagamento permanecerá o mesmo. Sua próxima cobrança será de $%(invoiceTotal)s no cartão %(cardType)s com final %(lastFour)s em %(nextInvoiceDateOnly)s. Sua assinatura "
+#~ "será renovada automaticamente a cada período de cobrança, a menos que você opte por cancelar."
+
+#~ msgid ""
+#~ "Starting with your next bill, your charge will change from $%(paymentAmountOld)s per %(productPaymentCycle)s to $%(paymentAmountNew)s. At that time you will also be charged a one-time fee of $"
+#~ "%(paymentProrated)s to reflect the higher charge for the remainder of this %(productPaymentCycle)s."
+#~ msgstr ""
+#~ "A partir da próxima fatura, sua cobrança será alterada de US$%(paymentAmountOld)s por %(productPaymentCycle)s para US$%(paymentAmountNew)s. Nesse momento, também será cobrado um valor único de US"
+#~ "$%(paymentProrated)s para refletir a cobrança maior pelo restante desse %(productPaymentCycle)s."
+
+#~ msgid "You're signed in and ready to start exploring safely and securely."
+#~ msgstr "Você está conectado e pronto para começar a explorar com proteção e segurança."
+
+#~ msgid "Now get the most of Firefox by signing in everywhere you browse."
+#~ msgstr "Agora tire o máximo proveito do Firefox entrando na sua conta em todo lugar que navegar."
+
+#~ msgid "Connect another device:"
+#~ msgstr "Conectar outro dispositivo:"
+
+#~ msgid "Account confirmed"
+#~ msgstr "Conta confirmada"
+
+#~ msgid "Connect another device"
+#~ msgstr "Conecte outro dispositivo"
+
+#~ msgid "Protect your data with a recovery key"
+#~ msgstr "Proteja seus dados com uma chave de recuperação"
+
+#~ msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
+#~ msgstr "Restaure seus dados sincronizados e continue exatamente de onde parou com uma chave de recuperação exclusiva."
+
+#~ msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
+#~ msgstr "Caso contrário, o Firefox protege seus dados apagando-os quando sua senha é redefinida."
+
+#~ msgid "Protect yourself from being locked out"
+#~ msgstr "Proteja-se de ser bloqueado"
+
+#~ msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
+#~ msgstr "Adicionar um e-mail secundário ajuda a ter acesso novamente à sua conta, caso esteja bloqueado e não possa acessar seu e-mail."
+
+#~ msgid "Set up recovery email"
+#~ msgstr "Definir e-mail de recuperação"
+
+#~ msgid "Add a secondary email"
+#~ msgstr "Adicionar um e-mail secundário"
+
+#~ msgid "Get a recovery key"
+#~ msgstr "Obter uma chave de recuperação"
+
+#~ msgid ""
+#~ "The page you requested is not found. We've been\n"
+#~ "                    notified and will fix any links that may be broken."
+#~ msgstr ""
+#~ "A página que você solicitou não foi encontrada. Fomos\n"
+#~ "                    notificados e corrigiremos quaisquer links que possam estar errados."
+
+#~ msgid ""
+#~ "Oh dear, something went wrong there. We've been\n"
+#~ "                    notified and will get working on a fix."
+#~ msgstr ""
+#~ "Oh, deu erro em alguma coisa. Já fomos notificados\n"
+#~ "                    e providenciaremos uma correção."
+
+#~ msgid ""
+#~ "We are currently under heavy strain and are working to\n"
+#~ "                    return the system to normal as soon as possible."
+#~ msgstr ""
+#~ "Estamos no momento sob forte pressão e trabalhando para\n"
+#~ "                    retornar o sistema ao normal o mais rápido possível."
+
+#~ msgid "Welcome to %(productName)s!"
+#~ msgstr "Boas-vindas ao %(productName)s!"
+
+#~ msgid "Privacy notice"
+#~ msgstr "Aviso de privacidade"
+
+#~ msgid "Avoid account lockout"
+#~ msgstr "Evite bloqueio da conta"
+
+#~ msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
+#~ msgstr "Duas etapas simples ajudam você a acessar sua conta novamente e proteger seus dados caso precise redefinir sua senha."
+
+#~ msgid "Set up a secondary email: "
+#~ msgstr "Configure um e-mail secundário: "
+
+#~ msgid "Helps you get back in if you lose access to your email."
+#~ msgstr "Ajuda você acessar novamente caso perca o acesso ao seu e-mail."
+
+#~ msgid " Create a recovery key: "
+#~ msgstr " Crie uma chave de recuperação: "
+
+#~ msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
+#~ msgstr "O Firefox protege seus dados apagando os dados sincronizados se você redefinir sua senha. Uma chave de recuperação a restaura."
+
+#~ msgid "Set up a secondary email:"
+#~ msgstr "Configure um e-mail secundário:"
+
+#~ msgid "Create a recovery key:"
+#~ msgstr "Crie uma chave de recuperação:"
+
+#~ msgid "Set up account recovery"
+#~ msgstr "Configurar recuperação de conta"
+
+#~ msgid "Open account settings"
+#~ msgstr "Abrir configurações da conta"
+
+#~ msgid "Account verified!"
+#~ msgstr "Conta verificada!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "Você conectou com sucesso o seu primeiro dispositivo à sua Conta Firefox. Agora você pode entrar no Sync em seus outros dispositivos, incluindo o Firefox para <a "
+#~ "%(androidLinkAttributes)s>Android</a> e <a %(iosLinkAttributes)s>iOS</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "Você conectou com sucesso o seu primeiro dispositivo na sua Conta Firefox. Agora identifique-se no Sync em seus outros dispositivos, incluindo o Firefox para Android e iOS."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Entrar no Sync:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "Boas-vindas ao %(serviceName)s!"
+
+#~ msgid "Welcome!"
+#~ msgstr "Boas-vindas!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "Confirme este endereço de e-mail para ativar sua Conta Firefox e continuar para o %(serviceName)s."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "Confirme este endereço de e-mail para ativar sua Conta Firefox."
+
+#~ msgid "Activate now:"
+#~ msgstr "Ativar agora:"
+
+#~ msgid "It expires in 20 minutes."
+#~ msgstr "É válido por 20 minutos."
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Verifique sua conta"
+
+#~ msgid "Activate now"
+#~ msgstr "Ativar agora"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "Confirme o seu e-mail e comece a sincronizar!"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Finalize a criação da sua conta"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Lembrete: Conclua o cadastro"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Lembrete final: Ative sua conta"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "Código de autorização de %(clientName)s"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Confirmar novo acesso"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "Código de acesso em %(serviceName)s"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Verificar e-mail principal"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "Verificar e-mail secundário"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Redefina sua senha"
+
+#~ msgid "Password Changed"
+#~ msgstr "Senha alterada"
+
+#~ msgid "Password Updated"
+#~ msgstr "Senha atualizada"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Atividade suspeita: Necessário redefinir a senha"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "Novo acesso de %(clientName)s"
+
+#~ msgid "Account Verified"
+#~ msgstr "Conta verificada"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Conta confirmada"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "E-mail secundário adicionado"
+
+#~ msgid "New Primary Email"
+#~ msgstr "Novo e-mail principal"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "E-mail secundário removido"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "Autenticação em duas etapas ativada"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "Autenticação em duas etapas desativada"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Novos códigos de recuperação gerados"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Código de recuperação usado"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 código de recuperação sobrando"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s códigos de recuperação sobrando"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Gerada chave de recuperação da conta"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Removida chave de recuperação da conta"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Senha atualizada usando chave de recuperação"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Termos do serviço da plataforma de inscrições"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "Você conectou com sucesso seu primeiro dispositivo à sua Conta Firefox. Agora você pode entrar no Sync em seus outros dispositivos, incluindo Firefox para <a href='%(androidUrl)s'>Android</a> e "
+#~ "<a href='%(iosUrl)s'>iOS</a>."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+#~ msgstr ""
+#~ "Você conectou com sucesso seu primeiro dispositivo à sua Conta Firefox. Para tirar o máximo proveito do Sync, conecte qualquer <a href='%(androidUrl)s'>Firefox para Android</a> ou <a "
+#~ "href='%(iosUrl)s'>Firefox para iOS</a>."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Entrar no Sync"
+
+#~ msgid "This is an automated email."
+#~ msgstr "Este é um e-mail automático."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+#~ msgstr "Este é um e-mail automático. Se você não autorizou esta ação, então <a %(passwordChangeLinkAttributes)s>altere sua senha</a>."
+
+#~ msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "Se você não alterou, <a %(resetLinkAttributes)s>redefina a sua senha</a> agora."
+
+#~ msgid "Verify Email"
+#~ msgstr "Verificar e-mail"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "Verifique seu e-mail para concluir seu registro da Conta Firefox"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Se suspeitar que alguém está tentando obter acesso à sua conta, <a %(passwordChangeLinkAttributes)s=\"\">altere sua senha</a>."
+
+#~ msgid "Verify email "
+#~ msgstr "Verificar e-mail "
+
+#~ msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Se você não autorizou esta ação, <a %(passwordChangeLinkAttributes)s>mude sua senha.</a>."
+
+#~ msgid "If you did not authorize this action, please change your password."
+#~ msgstr "Se você não autorizou esta ação, mude sua senha."
+
+#~ msgid "Confirm email "
+#~ msgstr "Confirmar e-mail "
+
+#~ msgid "Welcome to Secure Proxy!"
+#~ msgstr "Boas-vindas ao Secure Proxy!"
+
+#~ msgid "Download Secure Proxy"
+#~ msgstr "Baixe o Secure Proxy"
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+#~ msgstr "Se você ainda não baixou o %(product)s, vamos apresentar como usar todos os recursos incluídos em sua inscrição."
+
+#~ msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+#~ msgstr "Dúvidas sobre sua inscrição? Nossa <a %(supportLinkAttributes)s>equipe de suporte</a> está aqui para ajudar."
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+#~ msgstr "Se você ainda não baixou o %(product)s, vamos apresentar como usar todos os recursos incluídos em sua inscrição:"
+
+#~ msgid "Verify your Firefox Account"
+#~ msgstr "Verifique sua Conta Firefox"
+
+#~ msgid "Reminder: Finish Creating Your Account"
+#~ msgstr "Lembrete: Conclua a criação da sua conta"
+
+#~ msgid "Final reminder: Confirm your email to activate your Firefox Account"
+#~ msgstr "Último aviso: Confirme seu e-mail para ativar sua Conta Firefox"
+
+#~ msgid "Firefox Account authorization code"
+#~ msgstr "Código de autorização da Conta Firefox"
+
+#~ msgid "Sign-in code for Firefox"
+#~ msgstr "Código de acesso para o Firefox"
+
+#~ msgid "Reset your Firefox Account password"
+#~ msgstr "Redefina sua senha da Conta Firefox"
+
+#~ msgid "Your Firefox Account password has been changed"
+#~ msgstr "Sua senha da Conta Firefox foi alterada"
+
+#~ msgid "Firefox Account password changed"
+#~ msgstr "A senha da Conta Firefox foi alterada"
+
+#~ msgid "Firefox Account password reset required"
+#~ msgstr "Redefinição de senha da Conta Firefox exigido"
+
+#~ msgid "Firefox Account verified"
+#~ msgstr "Conta Firefox verificada"
+
+#~ msgid "Your Firefox Account is Confirmed"
+#~ msgstr "Sua Conta Firefox foi confirmada"
+
+#~ msgid "Secondary Firefox Account email added"
+#~ msgstr "Email secundário da conta Firefox adicionado"
+
+#~ msgid "Firefox Account new primary email"
+#~ msgstr "Novo e-mail principal da Conta Firefox"
+
+#~ msgid "Secondary Firefox Account email removed"
+#~ msgstr "E-mail secundário da Conta Firefox removido"
+
+#~ msgid "Firefox Account password reset with recovery key"
+#~ msgstr "Redefinição de senha da Conta Firefox com chave de recuperação"
+
+#~ msgid "Have questions? Visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Tem dúvidas? Visite o <a %(supportLinkAttributes)s>Suporte da Mozilla</a>."
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "A página solicitada não foi encontrada. Fomos notificados e corrigiremos os links que podem estar quebrados."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "Infelizmente, algo deu errado. Fomos notificados e vamos começar a trabalhar na solução."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "Estamos passando por turbulências, estamos trabalhando e em breve o sistema ficará estável novamente."
+
+#~ msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+#~ msgstr "A Conta Firefox usa recursos que não são suportados na sua versão do Firefox. Baixe e instale a versão mais recente do Firefox para continuar."
+
+#~ msgid "Hello again."
+#~ msgstr "Olá novamente."
+
+#~ msgid "You recently created a Firefox Account but haven't confirmed your email yet."
+#~ msgstr "Você criou recentemente uma Conta Firefox, mas ainda não confirmou seu e-mail."
+
+#~ msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
+#~ msgstr "Confirme seu e-mail para que possa começar a usar o Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor e muito mais."
+
+#~ msgid "Reminder: Confirm your email to activate your Firefox Account"
+#~ msgstr "Lembrete: Confirme seu e-mail para ativar sua Conta Firefox"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "Por favor, ative sua conta, confirmando este endereço de e-mail."
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Autenticação em duas etapas removida"
+
+#~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Isso é um e-mail automático; se você recebeu por erro ou se não autorizou essa ação, <a %(passwordChangeLinkAttributes)s>altere sua senha, por favor</a>."
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "Você está usando um navegador <strong>desatualizado</strong>. Por favor, <a href=\"http://browsehappy.com/\">atualize seu navegador</a> para melhorar sua experiência."
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "Há um tempo atrás você criou uma conta Firefox, mas nunca a confirmou. Clique no link abaixo para ativar sua conta."
+
+#~ msgid "New sign-in to Firefox"
+#~ msgstr "Nova identificação no Firefox"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "Sua senha foi redefinida"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "A senha da sua Conta Firefox foi alterada. Se você não realizou esta alteração, por favor <a %(resetLinkAttributes)s>altere sua senha</a> agora."
+
+#~ msgid "Password reset successfully"
+#~ msgstr "Senha redefinida com sucesso"
+
+#~ msgid "Your Firefox Account password has been successfully reset."
+#~ msgstr "Sua senha da Conta Firefox foi redefinida com sucesso."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Este é um e-mail automático; se você não redefiniu a senha da sua Conta Firefox, você deve redefini-la imediatamente em %(resetLink)s"
+
+#~ msgid "Forgot your password?"
+#~ msgstr "Esqueceu sua senha?"
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+#~ msgstr "Clique no botão dentro da próxima hora para definir uma nova senha para sua Conta Firefox. A solicitação veio do seguinte dispositivo:"
+
+#~ msgid "Reset password"
+#~ msgstr "Redefinir senha"
+
+#~ msgid ""
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr ""
+#~ "Alguns dias atrás você criou uma Conta Firefox, mas nunca a confirmou. Uma conta verificada permite acessar suas abas, favoritos, senhas e histórico em qualquer dispositivo conectado à sua "
+#~ "conta. Simplesmente confirme este endereço de e-mail para ativar sua conta."
+
+#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Uma semana atrás você criou uma Conta Firefox, mas não a confirmou. Estamos preocupados com você. Confirme esse endereço de e-mail para ativar sua conta."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+#~ msgstr "Para segurança adicional, por favor, confirme esta identificação para começar a sincronizar com este dispositivo:"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "Confirmar nova identificação no Firefox"
+
+#~ msgid "Your Firefox Account password has been reset"
+#~ msgstr "Sua senha da Conta Firefox foi redefinida"
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Serviços na nuvem do Firefox"
+
+#~ msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Isso é um e-mail automático;se você recebeu por erro ou se você não autorizou essa ação, então <a %(passwordChangeLinkAttributes)s>altere sua senha, por favor</a>."
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Verificar e-mail para contas Firefox"
+
+#~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Você removeu com sucesso o e-mail secundário %(secondaryEmail)s da sua Conta Firefox. Notificações de segurança e confirmações de acesso não serão entregues a este endereço."
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr ""
+#~ "Você verificou com êxito, %(secondaryEmail)s como um e-mail secundário para a sua conta Firefox. Notificações de segurança e confirmações de identificação serão enviadas para os dois endereços "
+#~ "de e-mail."
+
+#~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
+#~ msgstr "Aqui está o link solicitado para instalar o Firefox em seu dispositivo móvel: %(link)s"
+
+#~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
+#~ msgstr "Você acessou sua Conta Firefox a partir de um dos seguintes locais nos últimos 60 dias? Se você não reconhecer estes locais, alguém pode ter acessado sua Conta Firefox."
+
+#~ msgid "Date & Time:"
+#~ msgstr "Data e Hora:"
+
+#~ msgid "Device:"
+#~ msgstr "Dispositivo:"
+
+#~ msgid "Location:"
+#~ msgstr "Localização:"
+
+#~ msgid "If you don’t recognize the activity above:"
+#~ msgstr "Se você não reconhecer a atividade acima:"
+
+#~ msgid "Why are you receiving this email?"
+#~ msgstr "Por que você está recebendo este e-mail?"
+
+#~ msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
+#~ msgstr "Notamos acessos na sua Conta Firefox de locais incomuns recentemente. Estamos notificando-o como medida de precaução."
+
+#~ msgid "Suspicious activity with your Firefox Account"
+#~ msgstr "Atividade suspeita na sua Conta Firefox"
+
+#~ msgid "Your Firefox Account password has been successfully changed."
+#~ msgstr "Sua senha da Conta Firefox foi alterada com sucesso."
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account."
+#~ msgstr "Clique no botão dentro da próxima hora para definir uma nova senha para sua Conta Firefox."
+
+#~ msgid "Alternatively:"
+#~ msgstr "Alternativamente:"
+
+#~ msgid "Firefox Account Verified"
+#~ msgstr "Conta Firefox verificada"
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Lembrar senha? Entrar."
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Este é um e-mail automático; se você não adicionou um novo dispositivo à sua Conta Firefox, você deve alterar sua senha imediatamente em %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
+#~ msgstr "Este é um e-mail automático; se você não adicionou um novo dispositivo a sua conta Firefox, você deve alterar sua senha imediatamente em %(resetLink)s."
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "Este é um e-mail automático; se você não alterou sua senha da conta Firefox, você deve redefini-la imediatamente em %(resetLink)s."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "Este é um e-mail automático; se você não redefiniu sua senha da conta Firefox, você deve redefini-la imediatamente em %(resetLink)s."
+
+#~ msgid "Account activity notice"
+#~ msgstr "Atividade da conta"
+
+#~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
+#~ msgstr "Por razões de segurança a sua Conta Firefox foi bloqueada. Para realizar as atividades no nível da conta, clique agora no link para verificar novamente a sua conta."
+
+#~ msgid "Verify account"
+#~ msgstr "Verificar conta"
+
+#~ msgid "Verify account:"
+#~ msgstr "Verificar conta:"
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+#~ msgstr "Para segurança adicional, por favor confirme esta sessão para começar a sincronizar com %(device)s."
+
+#~ msgid "Re-verify your Firefox Account"
+#~ msgstr "Re-verifique sua conta Firefox"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+#~ msgstr "Para mais informações, visite o <a %(supportLinkAttributes)s>Suporte Mozilla</a>"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a href='%(resetLink)s'>reset your password</a> now."
+#~ msgstr "A senha da sua conta Firefox foi alterada. Se não foi você que alterou, <a href='%(resetLink)s'>redefina sua senha</a> agora."
+
+#~ msgid ""
+#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
+#~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr ""
+#~ "Uma semana atrás você criou uma conta Firefox, mas nunca a confirmou. Nós estamos preocupados com você. O Firefox está disponível para Windows, Mac, Linux, Android e iOS. Você pode sincronizar "
+#~ "suas senhas, favoritos e históricos do Firefox entre todas estas plataformas. Confirme este endereço de e-mail para ativar sua conta e nos informar se está tudo bem com você."
+
+#~ msgid "env"
+#~ msgstr "env"
+
+#~ msgid "contentServer.url"
+#~ msgstr "contentServer.url"
+
+#~ msgid "logging"
+#~ msgstr "registro"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "/__heartbeat__"
+#~ msgstr "/__heartbeat__"
+
+#~ msgid "Bad Request"
+#~ msgstr "Pedido inválido"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(supportLinkAttributes)s>please report it to us</a>."
+#~ msgstr "Se você suspeitar que alguém está tentando obter acesso a sua conta, <a %(supportLinkAttributes)s>por favor informe-nos</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please report it to us."
+#~ msgstr "Se você suspeitar que alguém está tentando obter acesso a sua conta, por favor informe-nos."
+
+#~ msgid "A device began syncing with the devices connected to your Firefox Account."
+#~ msgstr "Um dispositivo começou a sincronização com os dispositivos conectados a sua conta Firefox."
+
+#~ msgid "Are you sure?"
+#~ msgstr "Tem certeza?"
+
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Por favor, confirme que deseja redefinir a senha para %(email)s."
+
+#~ msgid "Reset password now"
+#~ msgstr "Redefinir senha agora"
+
+#~ msgid "Reset password now:"
+#~ msgstr "Redefinir senha agora:"
+
+#~ msgid "Recently you created a Firefox Account, but never verified it. Please activate your account by confirming this email address."
+#~ msgstr "Recentemente, você criou uma conta Firefox, mas nunca a confirmou. Por favor ative sua conta, confirmando este endereço de e-mail."
+
+#~ msgid "Activate Now:"
+#~ msgstr "Ative agora:"
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeUrl)s>please change your password.</a>"
+#~ msgstr "Este é um e-mail automático; Se você não autorizou essa ação, então <a %(passwordChangeUrl)s>por favor, altere sua senha.</a>"
+
+#~ msgid "For more information, please visit <a href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ msgstr "Para mais informações, visite o <a href='https://support.mozilla.org'>Suporte Mozilla</a>"
+
+#~ msgid "Reset password:"
+#~ msgstr "Redefinir de senha:"
+
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "Para mais informações, visite https://support.mozilla.org"
+
+#~ msgid "Almost there"
+#~ msgstr "Quase lá"
+
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s, você está a um clique de distância de verificar sua conta Firefox."
+
+#~ msgid "Verify"
+#~ msgstr "Verificar"
+
+#~ msgid "Verify:"
+#~ msgstr "Verificar:"
+
+#~ msgid "Verify your account"
+#~ msgstr "Verifique a sua conta"
+
+#~ msgid "Re-verify your account"
+#~ msgstr "Verifique a sua conta novamente"
+
+#~ msgid "A new device is now syncing with all of the devices connected to your Firefox Account."
+#~ msgstr "Um novo dispositivo está sincronizando com todos os dispositivos conectados à sua conta Firefox."
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Este é um e-mail automático; se você não adicionou um novo dispositivo a sua conta Firefox, você deve alterar sua senha imediatamente em <a href='%(resetLink)s'>%(resetLink)s</a>."
+
+#~ msgid "This is an automated email; if you didn't change the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Este é um e-mail automático; se você não alterou sua senha da conta Firefox, você deve redefini-la imediatamente em <a href='%(resetLink)s'>%(resetLink)s</a>."
+
+#~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Este é um e-mail automático; se você não redefiniu sua senha da conta Firefox, você deve redefini-la imediatamente em <a href='%(resetLink)s'>%(resetLink)s</a>."
+
+#~ msgid "A new device is now syncing to your Firefox Account"
+#~ msgstr "Um novo dispositivo está sincronizando com a sua conta Firefox"
+
+#~ msgid "Firefox Account Activation"
+#~ msgstr "Ativação da conta Firefox"
+
+#~ msgid "For more information, please visit <a href='https://support.mozilla.org' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr "Para mais informações, visite o <a href='https://support.mozilla.org' style='color: #0095dd; text-decoration: none;'>Suporte Mozilla</a>"
+
+#~ msgid "For more information, please visit <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr "Para mais informações, visite o <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: none;'>Suporte Mozilla</a>"
+
+#~ msgid "New sign-in to Sync"
+#~ msgstr "Nova entrada no Sync"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Parabéns!"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "Sistema indisponível, por favor, tente novamente em breve"
+
+#~ msgid "We are currently performing some maintenance on the system, and will return momentarily."
+#~ msgstr "O sistema está em manutenção, mas estará disponível em alguns momentos."
+
+#~ msgid "Reset Password Request"
+#~ msgstr "Solicitação de redefinição de senha "

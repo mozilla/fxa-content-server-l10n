@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: 2020-01-24 19:03+0000\n"
 "Last-Translator: Hrant <hrant.mozilla@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,8 +14,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox֊ի հաշիվներ"
 
@@ -29,7 +33,8 @@ msgid ""
 "          will fix any links that may be broken."
 msgstr ""
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr "Սկիզբ"
 
@@ -65,11 +70,13 @@ msgstr "Բեռնում"
 msgid "Firefox Accounts requires JavaScript."
 msgstr "Firefox֊ի հաշիվները պահանջում են JavaScript․"
 
-#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
 msgstr "Գաղտնիության դրույթներ"
 
-#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr "Ծառայության պայմանները"
 
@@ -81,524 +88,16 @@ msgstr "Պահանջվում է Firefox֊ի թարմացում"
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
+"                        download and install the latest version of Firefox "
+"to\n"
 "                        continue."
 msgstr ""
 "Firefox֊ի հաշիվները օգտագործում են իրենց հատկությունները, որոնք\n"
 "                        ձեր Firefox-ի տարբերակում չեն աջակցվում։\n"
-"                        Ներբեռնեք և տեղադրեք Firefox-ի ամենավերջին տարբերակը\n"
+"                        Ներբեռնեք և տեղադրեք Firefox-ի ամենավերջին "
+"տարբերակը\n"
 "                        շարունակելու համար։"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr "Ներբեռնել ամենավերջինը"
-
-#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
-#~ msgstr "%(uaBrowser)s %(uaOS)s %(uaOSVersion)s-ի վրա"
-
-#~ msgid "%(uaBrowser)s on %(uaOS)s"
-#~ msgstr "%(uaBrowser)s %(uaOS)s֊ի վրա"
-
-#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
-#~ msgstr "%(city)s, %(stateCode)s, %(country)s (Նախահաշվարկային)"
-
-#~ msgid "%(city)s, %(country)s (estimated)"
-#~ msgstr "%(city)s, %(country)s (նախահաշվարկային)"
-
-#~ msgid "%(stateCode)s, %(country)s (estimated)"
-#~ msgstr "%(stateCode)s, %(country)s (նախահաշվարկային)"
-
-#~ msgid "%(country)s (estimated)"
-#~ msgstr "%(country)s (նախահաշվարկային)"
-
-#~ msgid "Verification code: %(code)s"
-#~ msgstr "Ստուգման կոդ՝ %(code)s"
-
-#~ msgid "Reminder: Finish creating your account"
-#~ msgstr "Հիշեցում․ Գործունացրեք Ձեր հաշվի ստեղծումը"
-
-#~ msgid "Final reminder: Activate your account"
-#~ msgstr "Վերջնական հիշեցում․ Գործունացրեք Ձեր հաշիվը"
-
-#~ msgid "Confirm email"
-#~ msgstr "Հաստատեք էլ․փոստը"
-
-#~ msgid "Account authorization code"
-#~ msgstr "Հաշվի թույլտվության կոդ"
-
-#~ msgid "Confirm new sign-in to %(clientName)s"
-#~ msgstr "Հաստատեք նոր մուտքը %(clientName)s֊ով։"
-
-#~ msgid "Confirm sign-in"
-#~ msgstr "Հաստատեք մուտքը"
-
-#~ msgid "Confirm primary email"
-#~ msgstr "Հաստատեք առաջնային էլ․փոստը"
-
-#~ msgid "Verify email"
-#~ msgstr "Հաստատեք էլ֊փոտը"
-
-#~ msgid "Confirm secondary email"
-#~ msgstr "Հաստատեք երկրորդական էլ․փոստը"
-
-#~ msgid "Reset your password"
-#~ msgstr "Նշեք ձեր գաղտնաբառը"
-
-#~ msgid "Create new password"
-#~ msgstr "Ստեղծել նոր գաղտնաբառ"
-
-#~ msgid "Password updated"
-#~ msgstr "Գաղտնաբառը թարմացվել է"
-
-#~ msgid "Suspicious activity detected"
-#~ msgstr "Հայտնաբերվել է կասկածելի գործողություն"
-
-#~ msgid "Manage account"
-#~ msgstr "Կառավարել հաշիվը"
-
-#~ msgid "New sign-in to %(clientName)s"
-#~ msgstr "Նոր մուտք դեպի %(clientName)s"
-
-#~ msgid "Secondary email added"
-#~ msgstr "Երկրորդային էլ֊փոստը ավելացվել է"
-
-#~ msgid "Primary email updated"
-#~ msgstr "Առաջնային էլ֊փոստը թարմացվել է"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "Երկրորդային էլ֊փոստը հեռացվեց"
-
-#~ msgid "Two-step authentication enabled"
-#~ msgstr "Երկքայլ վավերացումը միացված է"
-
-#~ msgid "New recovery codes generated"
-#~ msgstr "Վերականգնման նոր կոդեր են ստեղծվել"
-
-#~ msgid "Recovery code used"
-#~ msgstr "Վերականգնման կոդը օգտագործվել է"
-
-#~ msgid "1 recovery code remaining"
-#~ msgstr "1 վերականգնման կոդ է մնացել"
-
-#~ msgid "%(numberRemaining)s recovery codes remaining"
-#~ msgstr "%(numberRemaining)s մնացած վերականգնման կոդերը"
-
-#~ msgid "Generate codes"
-#~ msgstr "Ստեղծեք կոդեր"
-
-#~ msgid "Account recovery key generated"
-#~ msgstr "Ստեղծվեց հաշվի վերականգնման ստեղն"
-
-#~ msgid "Account recovery key removed"
-#~ msgstr "Հաշվի վերականգնման ստեղնը հեռացվեց"
-
-#~ msgid "Password updated using recovery key"
-#~ msgstr "Գաղտնաբառը թարմացվել է վերականգնման ստեղն օգտագործելով"
-
-#~ msgid "Create new recovery key"
-#~ msgstr "Ստեղծեք նոր վերականգնման ստեղն"
-
-#~ msgid "Low recovery codes remaining"
-#~ msgstr "Վերականգնման մի քանի կոդեր մնացին"
-
-#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-#~ msgstr "Նկատեցինք, որ վերականգնման քիչ կոդեր ունեք։ Խնդրում ենք ստեղծել նոր կոդեր՝ ձեր հաշվի արգելափակումից խուսափելու համար։"
-
-#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
-#~ msgstr "Մենք նկատեցինք, որ ձեր վերականգնման կոդերը քիչ ունեք: Խնդրում ենք ստեղծել նոր կոդե՝ ձեր հաշվի արգելափակումից խուսափելու համար։"
-
-#~ msgid "Generate codes:"
-#~ msgstr "Ստեղծեք կոդեր․"
-
-#~ msgid "Best,"
-#~ msgstr "Լավագույնը,"
-
-#~ msgid "The Firefox Accounts team"
-#~ msgstr "Firefox-ի հաշիվների թիմը"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Գաղտնաբառը հաջողությամբ փոփոխվեց"
-
-#~ msgid "Your Firefox Account password was successfully changed from the following device:"
-#~ msgstr "Ձեր Firefox հաշվի գաղտնաբառը հաջողությամբ փոփոխվեց հետևյալ սարքից․"
-
-#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
-#~ msgstr "Սա ինքնաշխատացված էլ-փոստ է; եթե դուք չեք փոխել ձեր Firefox հաշվի գաղտնաբառը, ապա պետք է անմիջապես վերատեղադրեք այն %(resetLink)s-ով"
-
-#~ msgid "Your account password was changed"
-#~ msgstr "Ձեր հաշվի գաղտնաբառը փոփոխվել է"
-
-#~ msgid "You will need to enter your new password on other devices to resume syncing."
-#~ msgstr "Համաժամեցումը վերսկսելու համար հարկավոր է մուտքագրել ձեր նոր գաղտնաբառը այլ սարքերում։"
-
-#~ msgid "You will need to enter your new password on other devices to resume syncing."
-#~ msgstr "Համաժամեցումը վերսկսելու համար հարկավոր է մուտքագրել ձեր նոր գաղտնաբառը այլ սարքերում։"
-
-#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
-#~ msgstr "Եթե դուք այն չեք փոխել, վերատեղադրեք ձեր գաղտնաբառը հիմա %(resetLink)s-ով"
-
-#~ msgid "Your account password was reset with a recovery key"
-#~ msgstr "Ձեր հաշվի գաղտնաբառը վերատեղադրվել է վերականգնման ստեղնով"
-
-#~ msgid "You have successfully reset your password using a recovery key from the following device:"
-#~ msgstr "Դուք հաջողությամբ վերատեղադրել եք ձեր գաղտնաբառը՝ օգտագործելով վերականգնման ստեղնը հետևյալ սարքից․"
-
-#~ msgid "You will need to generate a new recovery key."
-#~ msgstr "Դուք պետք է ստեղծեք վերականգման նոր ստեղն։"
-
-#~ msgid "Create new recovery key:"
-#~ msgstr "Ստեղծել նոր վերականգնման ստեղն․"
-
-#~ msgid "For more information, please visit %(supportUrl)s"
-#~ msgstr "Լրացուցիչ տեղեկության համար, այցելեք %(supportUrl)s"
-
-#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
-#~ msgstr "Դուք, հետևյալ սարքը օգտագործելով, հաջողությամբ ստեղծել եք հաշվի վերականգնման ստեղն ձեր Firefox հաշվի համար․"
-
-#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
-#~ msgstr "Եթե սա դուք չեք եղել, <a %(revokeAccountRecoveryLinkAttributes)s>սեղմեք այստեղ։</a>"
-
-#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
-#~ msgstr "Դուք հետևյալ սարքից հաջողությամբ ստեղծել եք հաշվի վերականգնման ստեղն ձեր Firefox-ի հաշվի համար."
-
-#~ msgid "If this was not you, revoke key."
-#~ msgstr "Եթե սա դու չեք եղել, չեղարկեք ստեղնը։"
-
-#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
-#~ msgstr "Դուք հետևյալ սարքից հաջողությամբ միացրել եք երկքայլ վավերացումը ձեր Firefox-ի հաշվում․"
-
-#~ msgid "Security codes from your authentication app will now be required at each sign-in."
-#~ msgstr "Ձեր վավերացման ծրագրից անվտանգության կոդերը այժմ կպահանջվեն յուրաքանչյուր մուտքում։"
-
-#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
-#~ msgstr "Դուք հաջողությամբ միացրել եք երկքայլ վավերացումը ձեր Firefox-ի հաշվում։ Ձեր վավերացման ծրագրից անվտանգության կոդերը այժմ կպահանջվեն յուրաքանչյուր մուտքում։"
-
-#~ msgid "New primary email"
-#~ msgstr "Նոր առաջնային էլ֊փոստ"
-
-#~ msgid ""
-#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
-#~ "confirmations."
-#~ msgstr ""
-#~ "Դուք հաջողությամբ փոխել եք ձեր առաջնային էլ֊փոստը %(email)s։ Այս հասցեն այժմ ձեր օգտանունն է՝ ձեր Firefox-ի հաշիվ մուտք գործելու, ինչպես նաև, որպես անվտանգության ծանուցումների ստանալու և մուտք "
-#~ "գործման հաստատումների համար։"
-
-#~ msgid "Recovery code consumed"
-#~ msgstr "Վերականգնման կոդը օգտագործված է"
-
-#~ msgid "You have successfully consumed a recovery code from the following device:"
-#~ msgstr "Դուք հետևյալ սարքից հաջողությամբ օգտագործեծիք վերականգնման կոդը․"
-
-#~ msgid "Consumed recovery code"
-#~ msgstr "Օգտագործված վերականգնման կոդ"
-
-#~ msgid "You have successfully generated new recovery codes from the following device:"
-#~ msgstr "Դուք հետևյալ սարքից հաջողությամբ ստեղծել եք վերակնագնման նոր կոդեր․"
-
-#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
-#~ msgstr "Դուք, հետևյալ սարքը օգտագործելով, Ձեր Firefox-ի հաշվի համար հաջողությամբ հեռացրել եք հաշվի վերականգնման ստեղնը․"
-
-#~ msgid "This recovery key can no longer be used to recover your account."
-#~ msgstr "Վերականգնման այս ստեղնը այլևս չի կարող օգտագործվել ձեր հաշիվը վերականգնելու համար։"
-
-#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
-#~ msgstr "Դուք հետևյալ սարքից Ձեր Firefox-ի հաշվի համար հաջողությամբ հեռացրել եք հաշվի վերականգնման ստեղնը․"
-
-#~ msgid ""
-#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
-#~ msgstr "Դուք Ձեր Firefox հաշվից հաջողությամբ հեռացրիք %(secondaryEmail)s֊ը որպես երկրորդային էլ֊փոստ։ Անվտանգության ծանուցումները և մուտքի հաստատումները այլևս չեն ուղարկվի այս հասցեին։"
-
-#~ msgid "Two-step authentication disabled"
-#~ msgstr "Երկքայլ վավերացումն անջատվել է"
-
-#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
-#~ msgstr "Դուք հետևյալ սարքից Ձեր Firefox-ի հաշվում հաջողությամբ անջատել եք երկքայլ վավերացումը․"
-
-#~ msgid "Security codes will no longer be required at each sign-in."
-#~ msgstr "Յուրաքանչյուր մուտքի ժամանակ անվտանգության կոդեր այլևս չեն պահանջվի։"
-
-#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
-#~ msgstr "Դուք հաջողությամբ անջատել եք Firefox֊ի հաշվի երկքայլանի վավերացումը։ Յուրաքանչյուր մուտքի ժամանակ անվտանգության կոդեր այլևս չեն պահանջվի։"
-
-#~ msgid "Have questions? Visit %(supportUrl)s"
-#~ msgstr "Հարցեր ունե՞ք։ Այցելեք %(supportUrl)s"
-
-#~ msgid ""
-#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
-#~ msgstr ""
-#~ "Դուք հաջողությամբ հաստատել եք %(secondaryEmail)s-ը` որպես երկրորդային էլ-փոստ Ձեր Firefox-ի հաշվի համար: Անվտանգության ծանուցումները և մուտքի հաստատումները այժմ կուղարկվեն էլ-փոստի երկու էլ֊"
-#~ "հասցեներին:"
-
-#~ msgid "Need to reset your password?"
-#~ msgstr "Պե՞տք է վերատեղադրել Ձեր գաղտնաբառը։"
-
-#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
-#~ msgstr "Հաջորդ ժամվա ընթացքում սեղմեք կոճակը նոր գաղտնաբառ ստեղծելու համար։ Դիմումը եկել է հետևյալ սարքից․"
-
-#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
-#~ msgstr "Շնորհակալություն Firefox ընտրելու համար։ Կարող եք տեղակայել Firefox֊ը ձեր բջջայինի համար այստեղ․ %(link)s"
-
-#~ msgid "Is this you signing in?"
-#~ msgstr "Դու՞ք եք մուտք գործել։"
-
-#~ msgid "If yes, here is the authorization code you need:"
-#~ msgstr "Եթե այո, ապա Ձեզ հարկավոր է լիազորման կոդ․"
-
-#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
-#~ msgstr "Եթե ոչ, օգնեք մեզ խուսափել ներխուժումներից և <a %(reportSignInLinkAttributes)s> զեկուցեք դա մեզ: </a>"
-
-#~ msgid "If no, help us fend off intruders and report it to us."
-#~ msgstr "Եթե ոչ, օգնեք մեզ խուսափել ներխուժումներից և դա զեկուցեք մեզ այդ մասին։"
-
-#~ msgid "Welcome to the Firefox family"
-#~ msgstr "Բարի գալուստ Firefox֊ի ընտանիք"
-
-#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
-#~ msgstr "Մի քանի օր առաջ դուք ստեղծել եք Firefox-ի հաշիվ, բայց այն չեք հաստատել։"
-
-#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
-#~ msgstr "Հաստատեք հիմա և ստացեք տեխնոլոգիա, որը պայքարում է և պաշտպանում է ձեր գաղտնիությունը, զինում է ձեզ գործնական գիտելիքներով որին դուք արժանի եք․"
-
-#~ msgid "Confirm email:"
-#~ msgstr "Հաստատել էլ֊փոստը․"
-
-#~ msgid "Still there?"
-#~ msgstr "Դեռ այստե՞ղ է։"
-
-#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
-#~ msgstr "Գրեթե մեկ շաբաթ առաջ դուք ստեղծեցիք Firefox-ի հաշիվ, բայց երբեք չհաստատեցիք։ Մենք անհանգստանում ենք Ձեզ համար։"
-
-#~ msgid "Confirm this email address to activate your account and let us know you're okay."
-#~ msgstr "Հատատեք այս էլ֊փոստի հասցեն՝ ձեր հաշիվը գործունացնելու համար և տեղեկացրեք մեզ, որ լավ եք։"
-
-#~ msgid "Activate the Firefox family of products"
-#~ msgstr "Գործունացրեք Firefox֊ի ընտանիքի արտադրանքները"
-
-#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
-#~ msgstr "Հաստատեք Ձեր հաշիվը և առավելագույնը օգտվեք Firefox֊ից՝ ամենուր, որտեղ մուտք եք գործել, սկսելով՝․"
-
-#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
-#~ msgstr "Հաստատեք Ձեր հաշիվը և առավելագույնը օգտվեք Firefox-ից`ամենուր, որտեղ մուտք եք գործել։"
-
-#~ msgid "For added security, please confirm this sign-in from the following device:"
-#~ msgstr "Ավելացված անվտանգության համար, հետևյալ սարքից հաստատեք այս մուտքը․"
-
-#~ msgid "If yes, here is the verification code:"
-#~ msgstr "Եթե այո, ապա սա հաստատման կոդն է․"
-
-#~ msgid "It expires in 5 minutes."
-#~ msgstr "Այն ավարտվում է 5 րոպեի ընթացքում։"
-
-#~ msgid "Verify primary email"
-#~ msgstr "Հաստատեք առաջնային էլ֊փոստը"
-
-#~ msgid "A request to perform an account change has been made from the following device:"
-#~ msgstr "Հերևյալ սարքից հաշվի փոփոխություն կատարելու դիմում է կատարվել․"
-
-#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
-#~ msgstr "Հաշվի հաստատվելուց հետո, հաշվի փոփոխությունները՝ երկրորդային Էլ֊փոստի ավելացումը, այս սարքի համար հասանելի կլինեն։"
-
-#~ msgid "Verify email: "
-#~ msgstr "Հաստատել էլ֊փոստը․ "
-
-#~ msgid "Verify secondary email"
-#~ msgstr "Ստուգել երկրորդային էլ․փոստը"
-
-#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
-#~ msgstr "որպես երկրորդային %(email)s էլ-փոստի հասցե օգտագործելու հարցումը կատարվել է հետևյալ Firefox հաշվից."
-
-#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
-#~ msgstr "Հաստատվելուց հետո այս հասցեն կսկսի ստանալ անվտանգության ծանուցումներ և հաստատումներ։"
-
-#~ msgid "Is this you signing up?"
-#~ msgstr "Դու՞ք եք գրանցվել։"
-
-#~ msgid "Ready, set, sync"
-#~ msgstr "Պատրաստել, սահմանել, համաժամեցնել"
-
-#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
-#~ msgstr "Հաստատեք, որ ստացել եք այս էլ֊փոստը, և մենք կօգնենք ձեզ տեղադրել և համաժամեցնել Firefox-ը ձեր բոլոր սարքերում սկսելով."
-
-#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
-#~ msgstr "Հաստատվելուց հետո մենք կօգնենք ձեզ տեղադրել և միացնել Firefox֊ը առնվազն մեկ այլ սարքի վրա։"
-
-#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
-#~ msgstr "Այս էլ․փոստը ավտոմատ կերպով ստեղծվում է, եթե դուք չեք կատարել այս գործողությունը, ապա խնդրում ենք <a %(passwordChangeLinkAttributes)s> փոխեք ձեր գաղտնաբառը </a>:"
-
-#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-#~ msgstr "Լրացուցիչ տեղեկության համար, այցելեք <a %(supportLinkAttributes)s>Mozilla Աջակցում </a>։"
-
-#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-#~ msgstr "Ձեր Էլ֊փոստը ինքնաշխատացվել է; եթե դուք չեք ավելացրել նոր սարք Firefox- ի ձեր հաշվում, դուք պետք է անմիջապես փոխեք ձեր գաղտնաբառը %(passwordChangeLink)s"
-
-#~ msgid "This is an automated email; if you received it in error, no action is required."
-#~ msgstr "Սա ավտոմատ հաղորդագրություն է։ Եթե դա սխալ եք ստացել, ոչ մի գործողություն չի պահանջվում։"
-
-#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
-#~ msgstr "Այս էլ․փոստը ավտոմատ կերպով ստեղծվում է․ եթե դուք չեք կատարել այս գործողությունը, <a %(resetLinkAttributes)s> ապա խնդրում ենք փոխեք ձեր գաղտնաբառը </a>։"
-
-#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-#~ msgstr "Եթե կասկածում եք, որ ինչ-որ մեկը փորձում է հասանելիություն ստանալ ձեր հաշիվ, ապա փոխեք ձեր գաղտնաբառը։"
-
-#~ msgid "IP address: %(ip)s"
-#~ msgstr "IP հասցե․ %(ip)s"
-
-#~ msgid "Manage account:"
-#~ msgstr "Կառավարել հաշիվը․"
-
-#~ msgid "Mozilla Privacy Policy"
-#~ msgstr "Mozilla գաղտնիության քաղաքականություն"
-
-#~ msgid "Firefox Cloud Terms of Service"
-#~ msgstr "Firefox Cloud ծառայությունների մատուցման պայմաններ"
-
-#~ msgid "Terms and cancellation policy"
-#~ msgstr "Պայմանները և չեղյալ հայտարարման քաղաքականությունը"
-
-#~ msgid "Cancel subscription"
-#~ msgstr "Կառավարել բաժանորդագրությունները"
-
-#~ msgid "Update billing information"
-#~ msgstr "Թարմացրեք վճարման մասին տեղեկությունները"
-
-#~ msgid "Terms and cancellation policy:"
-#~ msgstr "Պայմանները և չեղյալ հայտարարման քաղաքականությունը."
-
-#~ msgid "Privacy notice:"
-#~ msgstr "Գաղտնիության ծանուցում"
-
-#~ msgid "Cancel subscription:"
-#~ msgstr "Կառավարել բաժանորդագրությունները"
-
-#~ msgid "Update billing information:"
-#~ msgstr "Թարմացրեք վճարման մասին տեղեկությունները․"
-
-#~ msgid "Finish creating your account"
-#~ msgstr "Ավարտեք ձեր հաշիվը"
-
-#~ msgid "Sign-in code for %(serviceName)s"
-#~ msgstr "Մուտքի կոդ %(serviceName)s համար"
-
-#~ msgid "Two-step verification enabled"
-#~ msgstr "Երկքայլ հաստատումը միացված է"
-
-#~ msgid "Two-step verification is off"
-#~ msgstr "Երկքայլ հաստատումը անջատված է"
-
-#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
-#~ msgstr "Մենք հայտնաբերեցինք կասկածելի գործունություն ձեր Firefox հաշվում։ Հնարավոր է Ձեր հաշիվը կոտրված է։"
-
-#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
-#~ msgstr "Ձեր Firefox հաշվի հետագա չլիազորված մուտքը կանխարգելու համար, մենք վերատեղադրում ենք ձեր գաղտնաբառը և երպես նախազգուշացում ծանուցում ենք ձեզ։"
-
-#~ msgid "What should you do?"
-#~ msgstr "Ի՞նչ անել։"
-
-#~ msgid "First, change your Firefox Account password."
-#~ msgstr "Սկզբում, փոխեք ձեր Firefox հաշվի գաղտնաբառը։"
-
-#~ msgid ""
-#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
-#~ "activity."
-#~ msgstr ""
-#~ "Հետո, եթե Firefox-ը պահում է կայքերի ձեր գաղնաբառերը, դուք նաև պետք է փոխեք այդ գաղտնաբառերը։ Հարձակվողները այդ գաղտնաբառերով կարող են մուտք ունենալ, այսպիսով դուք պետք է ստուգեք այդ հաշիվները "
-#~ "կասկածելի գործունության համար։"
-
-#~ msgid "Learn how to see what passwords Firefox is storing for you."
-#~ msgstr "Իմացեք, ինչպես կարելի է տեսնել, թե Firefox-ը Ձեզ համար որ գաղտնաբառերն է պահում։"
-
-#~ msgid "If yes, use this verification code:"
-#~ msgstr "Եթե այո, ապա օգտագործեք հաստատման այս ծածկագիրը․"
-
-#~ msgid "You're signed in and ready to start exploring safely and securely."
-#~ msgstr "Դուք մուտք եք գործել և պատրաստ եք սկսել ապահով և անվտանգ ուսումնասիրում։"
-
-#~ msgid "Now get the most of Firefox by signing in everywhere you browse."
-#~ msgstr "Հիմա Firefox֊ից ստացեք ամեն ինչ, մուտք գործելով բոլոր զննարկած սարքերում։"
-
-#~ msgid "Connect another device:"
-#~ msgstr "Կապակցել այլ սարքի․"
-
-#~ msgid "Account confirmed"
-#~ msgstr "Հաշիվը հաստատված է"
-
-#~ msgid "Connect another device"
-#~ msgstr "Կապակցել այլ սարքի"
-
-#~ msgid "Protect your data with a recovery key"
-#~ msgstr "Վերականգնման ստեղնով պաշտպանել Ձեր տվյալները"
-
-#~ msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
-#~ msgstr "Վերականգնել Ձեր համաժամեցրած տվյալները և վերականգնման վերցրեք այնտեղից, որտեղ այն մնացել է վերականգնման եզակի ստեղնի հետ։"
-
-#~ msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
-#~ msgstr "Հակառակ դեպքում, Firefox-ը պաշտպանում է Ձեր տվյալները՝ ջնջելով այն, երբ Ձեր գաղտնաբառը վերատեղադրվել է։"
-
-#~ msgid "Protect yourself from being locked out"
-#~ msgstr "Պաշտպանեք Ձեզ արգելափակվելուց"
-
-#~ msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
-#~ msgstr "Երկրորդային էլ֊փոստի ավելացումը կօգնի վերադառնալ Ձեր հաշիվ, եթե Դուք արգելափակվել եք և չեք կարողանում մուտք գործել Ձեր էլ֊փոստ։"
-
-#~ msgid "Set up recovery email"
-#~ msgstr "Տեղակայել վերականգման էլ֊փոստ"
-
-#~ msgid "Add a secondary email"
-#~ msgstr "Ավելացնել երկրորդային էլ֊փոստ"
-
-#~ msgid "Get a recovery key"
-#~ msgstr "Ստացեք վերականգման ստեղնը"
-
-#~ msgid ""
-#~ "The page you requested is not found. We've been\n"
-#~ "                    notified and will fix any links that may be broken."
-#~ msgstr ""
-#~ "Ձեր դիմած էջը չի գտնվել։ Մենք \n"
-#~ "                    կծանուցենք և կուղղենք բոլոր հղումները, որոնք կարող են կոտրվել։"
-
-#~ msgid ""
-#~ "Oh dear, something went wrong there. We've been\n"
-#~ "                    notified and will get working on a fix."
-#~ msgstr ""
-#~ "Վայ, ինչ֊որ բան սխալ է ընթացել։ Մենք\n"
-#~ "                    կծանուցենք և կաշխատենք ուղղելու համար։"
-
-#~ msgid ""
-#~ "We are currently under heavy strain and are working to\n"
-#~ "                    return the system to normal as soon as possible."
-#~ msgstr ""
-#~ "Մենք ներկայումս գտնվում ենք ծանր ճնշման տակ և աշխատում ենք \n"
-#~ "                    հնարավորինս շուտ վերադարձնել համակարգը նորմալ վիճակին"
-
-#~ msgid "Privacy notice"
-#~ msgstr "Գաղտնիության ծանուցում"
-
-#~ msgid "Avoid account lockout"
-#~ msgstr "Խուսափեք հաշվի արգելափակումից"
-
-#~ msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
-#~ msgstr "Երկու պարզ քայլերը կօգնեն Ձեզ վերադառնալ հաշիվ և պաշտպանել Ձեր տվյալները, եթե պետք է վերատեղադրել Ձեր գաղտնաբառը։"
-
-#~ msgid "Set up a secondary email: "
-#~ msgstr "Տեղակայեք երկրորդային էլ֊փոստ․ "
-
-#~ msgid "Helps you get back in if you lose access to your email."
-#~ msgstr "Օգնում է վերադառնալ, եթե Դուք կորցնում եք Ձեր էլ֊փոստի հասանելիությունը։"
-
-#~ msgid " Create a recovery key: "
-#~ msgstr "Ստեղծել վերականգման ստեղն․ "
-
-#~ msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
-#~ msgstr "Firefox-ը պաշտպանում է Ձեր տվյալները ջնջելով Ձեր համաժամեցրած տվյալները, եթե դուք վերատեղադրում եք գաղտնաբառը։ Վերկանգման ստեղնը վերականգնում է այն։"
-
-#~ msgid "Set up a secondary email:"
-#~ msgstr "Տեղակայել երկրորդային էլ֊փոստ․"
-
-#~ msgid "Create a recovery key:"
-#~ msgstr "Ստեղծել վերականգման ստեղն․"
-
-#~ msgid "Set up account recovery"
-#~ msgstr "Տեղակայել հաշվի վերականգնում"
-
-#~ msgid "Open account settings"
-#~ msgstr "Բացել հաշվի կարգավորումները"

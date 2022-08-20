@@ -1,0 +1,3908 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Accounts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2022-08-17 16:40+0000\n"
+"Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
+"Language-Team: Mozilla Russia <ru@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pontoon\n"
+"X-POOTLE-MTIME: 1448126634.0\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: .es5/views/confirm_reset_password.js:199
+msgid "Password reset"
+msgstr "Сброс пароля"
+
+#: .es5/views/confirm_reset_password.js:217
+msgid "Password reset successfully. Sign in to continue."
+msgstr "Пароль успешно сброшен. Войдите, чтобы продолжить."
+
+#. submit button
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/templates/sign_in_password.mustache:10
+msgid "Sign in"
+msgstr "Войти"
+
+#: .es5/views/index.js:176
+msgid "Account deleted successfully"
+msgstr "Аккаунт успешно удалён"
+
+#: .es5/views/inline_totp_setup.js:156
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr "Используйте код %(code)s для настройки двухэтапной аутентификации в поддерживаемых приложениях."
+
+#: .es5/views/permissions.js:41
+msgid "%(permissionName)s (required)"
+msgstr "%(permissionName)s (обязательно)"
+
+#: .es5/views/permissions.js:45
+msgid "Email address"
+msgstr "Адрес электронной почты"
+
+#: .es5/views/permissions.js:49
+msgid "Display name"
+msgstr "Отображаемое имя"
+
+#: .es5/views/permissions.js:52
+msgid "Account picture"
+msgstr "Фото аккаунта"
+
+#: .es5/views/ready.js:58
+msgid "Welcome back"
+msgstr "С возвращением"
+
+#: .es5/views/ready.js:59
+msgid "Firefox Sync will resume momentarily"
+msgstr "Через несколько мгновений возобновится Синхронизация Firefox"
+
+#: .es5/views/ready.js:63 .es5/views/ready.js:68
+msgid "Your password has been reset"
+msgstr "Ваш пароль был сброшен"
+
+#: .es5/views/ready.js:64 .es5/views/ready.js:69
+msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgstr "Завершите настройку, введя новый пароль на ваших других устройствах с Firefox."
+
+#: .es5/views/ready.js:72
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "Сейчас вы можете сделать изменения в своём Аккаунте Firefox."
+
+#: .es5/views/ready.js:74
+msgid "Primary email confirmed"
+msgstr "Основная электронная почта подтверждена"
+
+#: .es5/views/ready.js:77
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr "Оповещения аккаунта также будут присылаться на %(secondaryEmailVerified)s."
+
+#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
+msgid "Secondary email confirmed"
+msgstr "Дополнительная электронная почта подтверждена"
+
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+msgid "Sign-in confirmed"
+msgstr "Вход подтверждён"
+
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+msgid "You are now ready to use %(serviceName)s"
+msgstr "Теперь вы можете использовать %(serviceName)s"
+
+#: .es5/views/ready.js:89
+msgid "Account confirmed"
+msgstr "Аккаунт подтверждён"
+
+#: .es5/views/ready.js:94
+msgid "Connected"
+msgstr "Подключено"
+
+#: .es5/views/reset_password.js:111
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "Неизвестный аккаунт. <a href=\"/signup\">Зарегистрироваться</a>"
+
+#: .es5/views/sign_up_password.js:86
+msgid "Account no longer exists. Recreate it?"
+msgstr "Аккаунт больше не существует. Пересоздать?"
+
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
+msgid "Other"
+msgstr "Прочее"
+
+#: .es5/views/support.js:270
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgstr "Спасибо за обращение в поддержку Mozilla по вопросу <b>%(escapedLowercaseTopic)s</b>. Мы свяжемся с вами по электронной почте в ближайшее время."
+
+#: .es5/views/support.js:272
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
+msgstr "Спасибо за обращение в поддержку Mozilla по вопросу <b>%(escapedLowercaseTopic)s</b> для <b>%(escapedSelectedProduct)s</b>. Мы свяжемся с вами по электронной почте в ближайшее время."
+
+#: .es5/views/post_verify/verified.js:53
+msgid "Your sync data is protected"
+msgstr "Ваши данные синхронизации защищены"
+
+#: .es5/views/post_verify/verified.js:54
+msgid "If you lose access to your account, you’ll be able to restore your sync data."
+msgstr "Если вы потеряете доступ к своему аккаунту, вы сможете восстановить данные синхронизации."
+
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "Начать веб-сёрфинг"
+
+#: .es5/views/post_verify/verified.js:58
+msgid "Account notifications will now also be sent to %(secondaryEmail)s."
+msgstr "Оповещения аккаунта также будут присылаться на %(secondaryEmail)s."
+
+#: .es5/views/post_verify/verified.js:59
+msgid "Continue to %(serviceName)s "
+msgstr "Продолжить в %(serviceName)s"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
+msgid "Your account has been locked for security reasons"
+msgstr "Ваш аккаунт был заблокирован по соображениям безопасности"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+msgid "Reset password"
+msgstr "Сбросить пароль"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:38
+msgid "none"
+msgstr "нет"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:44
+msgid "Last checked: %(lastCheckTime)s"
+msgstr "Последняя проверка: %(lastCheckTime)s"
+
+#: .es5/views/mixins/open-webmail-mixin.js:25
+msgid "Open Gmail"
+msgstr "Открыть Gmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:30
+msgid "Open Hotmail"
+msgstr "Открыть Hotmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:35
+msgid "Open Yahoo"
+msgstr "Открыть Yahoo"
+
+#: .es5/views/mixins/open-webmail-mixin.js:40
+msgid "Open Outlook"
+msgstr "Открыть Outlook"
+
+#: .es5/views/mixins/open-webmail-mixin.js:45
+msgid "Open Restmail"
+msgstr "Открыть Restmail"
+
+#: .es5/views/mixins/password-mixin.js:149
+msgid "Hide password"
+msgstr "Скрыть пароль"
+
+#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr "Показать пароль"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:77
+msgid "Firefox Recovery Codes"
+msgstr "Коды восстановления Firefox"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:142
+msgid "Two-step authentication enabled"
+msgstr "Двухэтапная аутентификация включена"
+
+#: .es5/views/mixins/recovery-key-mixin.js:30
+msgid "Firefox Recovery Key"
+msgstr "Ключ восстановления Firefox"
+
+#: .es5/views/mixins/resend-mixin.js:53
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr "Письмо отправлено повторно. Добавьте accounts@firefox.com в свои контакты, чтобы обеспечить его корректную доставку."
+
+#: .es5/views/mixins/save-options-mixin.js:59
+msgid "Copied"
+msgstr "Скопировано"
+
+#: .es5/views/mixins/save-options-mixin.js:61
+msgid "Failed to copy. Please manually copy."
+msgstr "Не удалось скопировать. Пожалуйста, скопируйте вручную."
+
+#: .es5/views/mixins/save-options-mixin.js:78
+msgid "Downloaded"
+msgstr "Загружено"
+
+#: .es5/views/mixins/save-options-mixin.js:90
+msgid "Printed"
+msgstr "Распечатано"
+
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr "Аккаунт успешно подтверждён"
+
+#: .es5/models/support-form.js:25
+msgid "payment & billing"
+msgstr "оплата и выставление счетов"
+
+#: .es5/models/support-form.js:25
+msgid "account issues"
+msgstr "проблемы с аккаунтом"
+
+#: .es5/models/support-form.js:25
+msgid "technical issues"
+msgstr "технические неполадки"
+
+#: .es5/models/support-form.js:25
+msgid "provide feedback / request features"
+msgstr "предоставление обратной связи / запрос функций"
+
+#: .es5/models/support-form.js:25
+msgid "not listed"
+msgstr "нет в списке"
+
+#: .es5/models/sync-engines.js:58
+msgid "Bookmarks"
+msgstr "Закладки"
+
+#: .es5/models/sync-engines.js:62
+msgid "History"
+msgstr "Историю"
+
+#: .es5/models/sync-engines.js:66
+msgid "Passwords"
+msgstr "Пароли"
+
+#: .es5/models/sync-engines.js:70
+msgid "Add-ons"
+msgstr "Дополнения"
+
+#: .es5/models/sync-engines.js:74
+msgid "Open Tabs"
+msgstr "Открытые вкладки"
+
+#: .es5/models/sync-engines.js:78
+msgid "Preferences"
+msgstr "Настройки"
+
+#: .es5/models/sync-engines.js:86
+msgid "Addresses"
+msgstr "Адреса"
+
+#: .es5/models/sync-engines.js:94
+msgid "Credit Cards"
+msgstr "Банковские карты"
+
+#: .es5/models/reliers/browser.js:88
+msgid "Firefox"
+msgstr "Firefox"
+
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "Основная электронная почта успешно подтверждена"
+
+#: .es5/models/auth_brokers/base.js:114
+msgid "Secondary email verified successfully"
+msgstr "Дополнительная электронная почта успешно подтверждена"
+
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Аккаунт успешно подтверждён"
+
+#: .es5/models/auth_brokers/web.js:38
+msgid "Password reset successfully"
+msgstr "Пароль успешно сброшен"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "Восстановление аккаунта включено"
+
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+msgid "Unexpected error"
+msgstr "Непредвиденная ошибка"
+
+#: .es5/lib/auth-errors.js:27
+msgid "The link you clicked to verify your email is expired."
+msgstr "Срок жизни ссылки, по которой вы щёлкаете, чтобы подтвердить вашу почту, истёк."
+
+#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+msgid "You've tried too many times. Try again later."
+msgstr "Вы произвели слишком много попыток. Попробуйте снова позже."
+
+#: .es5/lib/auth-errors.js:32
+msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
+msgstr "Вы произвели слишком много попыток. Попробуйте снова через %(retryAfterLocalized)s."
+
+#: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
+msgid "Invalid token"
+msgstr "Неправильный токен"
+
+#: .es5/lib/auth-errors.js:44
+msgid "Invalid timestamp in request signature"
+msgstr "Неверная временная марка в подписи запроса"
+
+#: .es5/lib/auth-errors.js:48
+msgid "Invalid nonce in request signature"
+msgstr "Неверный случайный код в подписи запроса"
+
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+msgid "Account already exists"
+msgstr "Аккаунт уже существует"
+
+#: .es5/lib/auth-errors.js:56
+msgid "Unknown account"
+msgstr "Неизвестный аккаунт"
+
+#: .es5/lib/auth-errors.js:60
+msgid "Incorrect email case"
+msgstr "Неправильный регистр букв электронной почты"
+
+#: .es5/lib/auth-errors.js:64
+msgid "Incorrect password"
+msgstr "Неправильный пароль"
+
+#: .es5/lib/auth-errors.js:68
+msgid "Unverified account"
+msgstr "Неподтверждённый аккаунт"
+
+#: .es5/lib/auth-errors.js:72
+msgid "Invalid verification code"
+msgstr "Неверный код подтверждения"
+
+#: .es5/lib/auth-errors.js:76
+msgid "Invalid JSON in request body"
+msgstr "Поврежденный JSON в теле запроса"
+
+#: .es5/lib/auth-errors.js:80
+msgid "Invalid parameter: %(param)s"
+msgstr "Некорректный параметр: %(param)s"
+
+#: .es5/lib/auth-errors.js:84
+msgid "Missing parameter: %(param)s"
+msgstr "Отсутствует параметр: %(param)s"
+
+#: .es5/lib/auth-errors.js:88
+msgid "Invalid request signature"
+msgstr "Неверная подпись запроса"
+
+#: .es5/lib/auth-errors.js:92
+msgid "Missing content-length header"
+msgstr "Заголовок content-length отсутствует"
+
+#: .es5/lib/auth-errors.js:96
+msgid "Request body too large"
+msgstr "Слишком большое тело запроса"
+
+#: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
+msgid "The request was blocked for security reasons"
+msgstr "Запрос заблокирован по соображениям безопасности"
+
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+msgid "Invalid authorization code"
+msgstr "Неверный код авторизации"
+
+#: .es5/lib/auth-errors.js:127
+msgid "Invalid phone number"
+msgstr "Некорректный номер телефона"
+
+#: .es5/lib/auth-errors.js:131
+msgid "Cannot send to this country"
+msgstr "Нельзя отправить в эту страну"
+
+#: .es5/lib/auth-errors.js:140
+msgid "Could not send a message to this number"
+msgstr "Не удалось отправить сообщение на этот номер"
+
+#: .es5/lib/auth-errors.js:144
+msgid "Your email was just returned"
+msgstr "Ваше письмо только что вернулось"
+
+#: .es5/lib/auth-errors.js:148
+msgid "Your email was just returned. Mistyped email?"
+msgstr "Ваше письмо только что вернулось. Опечатка в электронной почте?"
+
+#: .es5/lib/auth-errors.js:152
+msgid "Unable to deliver email"
+msgstr "Не удалось доставить письмо"
+
+#: .es5/lib/auth-errors.js:156
+msgid "This email was already verified by another user"
+msgstr "Этот адрес электронной почты уже подтверждён другим пользователем"
+
+#: .es5/lib/auth-errors.js:160
+msgid "Unverified session"
+msgstr "Непроверенная сессия"
+
+#: .es5/lib/auth-errors.js:164
+msgid "Secondary email must be different than your account email"
+msgstr "Дополнительный адрес электронной почты должен отличаться от основного"
+
+#: .es5/lib/auth-errors.js:172
+msgid "You have reached the maximum allowed secondary emails"
+msgstr "Вы достигли максимально разрешённого числа дополнительных адресов электронной почты"
+
+#: .es5/lib/auth-errors.js:176
+msgid "This email already exists on your account"
+msgstr "Этот адрес электронной почты уже присутствует в вашем аккаунте"
+
+#: .es5/lib/auth-errors.js:184
+msgid "Primary account email required for sign-in"
+msgstr "Для входа требуется основной адрес электронной почты"
+
+#: .es5/lib/auth-errors.js:188
+msgid "Address in use by another account"
+msgstr "Адрес уже используется другим аккаунтом"
+
+#: .es5/lib/auth-errors.js:192
+msgid "Primary account email required for reset"
+msgstr "Для сброса требуется использовать основной адрес электронной почты"
+
+#: .es5/lib/auth-errors.js:196
+msgid "Invalid signin code"
+msgstr "Недействительный код входа"
+
+#: .es5/lib/auth-errors.js:200
+msgid "Can not change primary email to an unverified email"
+msgstr "Нельзя изменить основной адрес электронной почты на неподтверждённый"
+
+#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
+msgid "Can not change primary email to an email that does not belong to this account"
+msgstr "Нельзя изменить основной адрес электронной почты на использующийся в другом аккаунте"
+
+#: .es5/lib/auth-errors.js:208
+msgid "This email can not currently be used to login"
+msgstr "В настоящее время, этот адрес электронной почты нельзя использовать для входа"
+
+#: .es5/lib/auth-errors.js:216
+msgid "Failed to send email"
+msgstr "Не удалось отправить письмо"
+
+#: .es5/lib/auth-errors.js:220
+msgid "Valid code required"
+msgstr "Введите корректный код"
+
+#: .es5/lib/auth-errors.js:224
+msgid "This verification code has expired"
+msgstr "Срок действия кода подтверждения истёк"
+
+#: .es5/lib/auth-errors.js:228
+msgid "A TOTP token already exists for this account"
+msgstr "Для этого аккаунта уже существует TOTP-токен"
+
+#: .es5/lib/auth-errors.js:232
+msgid "TOTP token not found"
+msgstr "TOTP-токен не найден"
+
+#: .es5/lib/auth-errors.js:236
+msgid "Recovery code not found"
+msgstr "Код восстановления не найден"
+
+#: .es5/lib/auth-errors.js:240
+msgid "Unavailable device command"
+msgstr "Ошибка при отправке команды недоступному устройству"
+
+#: .es5/lib/auth-errors.js:244
+msgid "Recovery key not found"
+msgstr "Ключ восстановления не найден"
+
+#: .es5/lib/auth-errors.js:248
+msgid "Invalid recovery key"
+msgstr "Некорректный ключ восстановления"
+
+#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
+msgid "This request requires two step authentication enabled on your account."
+msgstr "Для выполнения этого запроса необходимо включить двухэтапную аутентификацию в вашем аккаунте."
+
+#: .es5/lib/auth-errors.js:256
+msgid "Failed due to a conflicting request, please try again."
+msgstr "Не удалось из-за конфликтующего запроса, пожалуйста, попробуйте снова."
+
+#: .es5/lib/auth-errors.js:264
+msgid "Unknown customer for subscription."
+msgstr "Неизвестный пользователь для подписки."
+
+#: .es5/lib/auth-errors.js:268
+msgid "Unknown subscription."
+msgstr "Неизвестная подписка."
+
+#: .es5/lib/auth-errors.js:272
+msgid "Unknown plan for subscription."
+msgstr "Неизвестный план подписки."
+
+#: .es5/lib/auth-errors.js:276
+msgid "Invalid payment token for subscription."
+msgstr "Неверный платёжный токен для подписки."
+
+#: .es5/lib/auth-errors.js:280
+msgid "Subscription has already been cancelled"
+msgstr "Подписка уже была отменена"
+
+#: .es5/lib/auth-errors.js:284
+msgid "Update was rejected, please try again"
+msgstr "Обновление было отклонено, пожалуйста, попробуйте ещё раз"
+
+#: .es5/lib/auth-errors.js:288
+msgid "Invalid or expired verification code"
+msgstr "Неверный или истёкший код подтверждения"
+
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+msgid "Server busy, try again soon"
+msgstr "Сервер занят, подождите и повторите попытку"
+
+#: .es5/lib/auth-errors.js:296
+msgid "Feature not enabled"
+msgstr "Функция отключена"
+
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+msgid "System unavailable, try again soon"
+msgstr "Система недоступна, подождите и повторите попытку"
+
+#: .es5/lib/auth-errors.js:308
+msgid "This endpoint is no longer supported"
+msgstr "Этот адрес запроса больше не поддерживается"
+
+#: .es5/lib/auth-errors.js:316
+msgid "Login attempt cancelled"
+msgstr "Попытка входа отменена"
+
+#: .es5/lib/auth-errors.js:320
+msgid "Session expired. Sign in to continue."
+msgstr "Время сессии истекло. Войдите, чтобы продолжить."
+
+#: .es5/lib/auth-errors.js:324
+msgid "Cookies are still disabled"
+msgstr "Куки все ещё отключены"
+
+#: .es5/lib/auth-errors.js:328
+msgid "Passwords do not match"
+msgstr "Пароли не совпадают"
+
+#: .es5/lib/auth-errors.js:332
+msgid "Working…"
+msgstr "Работаю…"
+
+#: .es5/lib/auth-errors.js:336
+msgid "Could not get Privacy Notice"
+msgstr "Не удалось загрузить Уведомление о конфиденциальности"
+
+#: .es5/lib/auth-errors.js:340
+msgid "Could not get Terms of Service"
+msgstr "Не удалось загрузить Условия использования"
+
+#: .es5/lib/auth-errors.js:344
+msgid "Your new password must be different"
+msgstr "Ваш новый пароль должен быть другим"
+
+#: .es5/lib/auth-errors.js:348
+msgid "Must be at least 8 characters"
+msgstr "Должен быть не менее 8 символов"
+
+#: .es5/lib/auth-errors.js:352
+msgid "Valid password required"
+msgstr "Введите правильный пароль"
+
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+msgid "Valid email required"
+msgstr "Введите действующий адрес электронной почты"
+
+#: .es5/lib/auth-errors.js:368
+msgid "A usable image was not found"
+msgstr "Нужное изображение не найдено"
+
+#: .es5/lib/auth-errors.js:372
+msgid "Could not initialize camera"
+msgstr "Не удалось инициализировать камеру"
+
+#: .es5/lib/auth-errors.js:376
+msgid "Valid URL required"
+msgstr "Введите корректный URL"
+
+#: .es5/lib/auth-errors.js:392
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr "Ваше письмо с подтверждением только что вернулось. Опечатка в электронной почте?"
+
+#: .es5/lib/auth-errors.js:400
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr "Введите корректный адрес электронной почты. firefox.com не предлагает службу электронной почты."
+
+#: .es5/lib/auth-errors.js:408
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "Аккаунты Firefox могут быть помещены внутри IFRAME только на одобренных сайтах"
+
+#: .es5/lib/auth-errors.js:428
+msgid "Verification link damaged"
+msgstr "Ссылка для подтверждения повреждена"
+
+#: .es5/lib/auth-errors.js:436
+msgid "The image dimensions must be at least 100x100px"
+msgstr "Размеры изображение должны быть не менее 100x100px"
+
+#: .es5/lib/auth-errors.js:440
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "Скоро будет доступна регистрация в Firefox для iOS"
+
+#: .es5/lib/auth-errors.js:452
+msgid "You must enter your age to sign up"
+msgstr "Вы должны ввести свой возраст, чтобы зарегистрироваться"
+
+#: .es5/lib/auth-errors.js:456
+msgid "You must enter a valid age to sign up"
+msgstr "Для регистрации вы должны ввести корректный возраст"
+
+#: .es5/lib/auth-errors.js:472
+msgid "Account no longer exists."
+msgstr "Аккаунт больше не существует."
+
+#: .es5/lib/auth-errors.js:476
+msgid "Invalid property in resume token: %(property)s"
+msgstr "Свойство в токене возобновления некорректно: %(property)s"
+
+#: .es5/lib/auth-errors.js:480
+msgid "Missing property in resume token: %(property)s"
+msgstr "Свойство в токене возобновления отсутствует: %(property)s"
+
+#: .es5/lib/auth-errors.js:484
+msgid "Invalid data attribute: %(property)s"
+msgstr "Некорректный атрибут данных: %(property)s"
+
+#: .es5/lib/auth-errors.js:488
+msgid "Missing data attribute: %(property)s"
+msgstr "Отсутствующий атрибут данных: %(property)s"
+
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+msgid "That confirmation link was already used, and can only be used once."
+msgstr "Эта ссылка подтверждения уже была использована, и может использоваться только один раз."
+
+#: .es5/lib/auth-errors.js:505
+msgid "This is a required field"
+msgstr "Это обязательное поле"
+
+#: .es5/lib/auth-errors.js:509
+msgid "Authorization code required"
+msgstr "Требуется ввести код авторизации"
+
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+msgid "Link damaged"
+msgstr "Ссылка повреждена"
+
+#: .es5/lib/auth-errors.js:540
+msgid "Phone number required"
+msgstr "Номер телефона обязателен"
+
+#: .es5/lib/auth-errors.js:559
+msgid "Two-step authentication code required"
+msgstr "Требуется код двухэтапной аутентификации"
+
+#: .es5/lib/auth-errors.js:563
+msgid "Invalid two-step authentication code"
+msgstr "Неверный код двухэтапной аутентификации"
+
+#: .es5/lib/auth-errors.js:567
+msgid "Recovery code required"
+msgstr "Требуется код восстановления"
+
+#: .es5/lib/auth-errors.js:571
+msgid "Invalid recovery code"
+msgstr "Некорректный код восстановления"
+
+#: .es5/lib/auth-errors.js:585
+msgid "Recovery key required"
+msgstr "Требуется ключ восстановления"
+
+#: .es5/lib/auth-errors.js:589
+msgid "Please enter verification code"
+msgstr "Пожалуйста, введите код подтверждения"
+
+#: .es5/lib/auth-errors.js:601
+msgid "Invalid redirect"
+msgstr "Некорректное перенаправление"
+
+#: .es5/lib/auth-errors.js:613
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr "Опечатались? %(domain)s не предлагает услуг электронной почты."
+
+#: .es5/lib/auth-errors.js:617
+msgid "The image file size is too large to be uploaded."
+msgstr "Размер файла изображения слишком велик для загрузки."
+
+#: .es5/lib/config-loader.js:117
+msgid "Missing configuration"
+msgstr "Отсутствует конфигурация"
+
+#: .es5/lib/config-loader.js:121
+msgid "Invalid configuration"
+msgstr "Некорректная конфигурация"
+
+#: .es5/lib/email-domain-validator.js:40
+msgid "Mistyped email?"
+msgstr "Ошиблись при наборе адреса электронной почты?"
+
+#: .es5/lib/newsletters.js:25
+msgid "Test new Firefox products"
+msgstr "Попробуйте новые продукты Firefox"
+
+#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "Получать последние новости о Mozilla и Firefox"
+
+#: .es5/lib/newsletters.js:33
+msgid "Take action to keep the internet healthy"
+msgstr "Помогите здоровому Интернету оставаться таким"
+
+#: .es5/lib/newsletters.js:37
+msgid "Be safer and smarter online"
+msgstr "Станьте безопаснее и умнее в Интернете"
+
+#: .es5/lib/newsletters.js:44
+msgid "Testing Firefox products"
+msgstr "Тестирование продуктов Firefox"
+
+#: .es5/lib/newsletters.js:52
+msgid "Taking action to keep the internet healthy"
+msgstr "Помогаем здоровому Интернету оставаться таким"
+
+#: .es5/lib/newsletters.js:56
+msgid "Safety and privacy online with Firefox and Mozilla"
+msgstr "Безопасность и приватность в Интернете с Firefox и Mozilla"
+
+#: .es5/lib/oauth-errors.js:34
+msgid "Unknown client"
+msgstr "Неизвестный клиент"
+
+#: .es5/lib/oauth-errors.js:38
+msgid "Incorrect redirect_uri"
+msgstr "Некорректный redirect_uri"
+
+#: .es5/lib/oauth-errors.js:42
+msgid "Invalid assertion"
+msgstr "Неверное утверждение"
+
+#: .es5/lib/oauth-errors.js:46
+msgid "Unknown code"
+msgstr "Неизвестный код"
+
+#: .es5/lib/oauth-errors.js:50
+msgid "Incorrect code"
+msgstr "Некорректный код"
+
+#: .es5/lib/oauth-errors.js:54
+msgid "Expired code"
+msgstr "Просроченный код"
+
+#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "Недействительный параметр OAuth: %(param)s"
+
+#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
+msgid "Unauthorized"
+msgstr "Не авторизован"
+
+#: .es5/lib/oauth-errors.js:74
+msgid "Forbidden"
+msgstr "Запрещено"
+
+#: .es5/lib/oauth-errors.js:89
+msgid "Expired token"
+msgstr "Просроченный токен"
+
+#: .es5/lib/oauth-errors.js:133
+msgid "Something went wrong. Please close this tab and try again."
+msgstr "Что-то пошло не так. Пожалуйста, закройте эту вкладку и попробуйте ещё раз."
+
+#: .es5/lib/oauth-errors.js:153
+msgid "no message"
+msgstr "нет сообщения"
+
+#: .es5/lib/oauth-errors.js:157
+msgid "Missing OAuth parameter: %(param)s"
+msgstr "Отсутствует параметр OAuth: %(param)s"
+
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr "Пользователь не авторизован"
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr "Вошёл другой пользователь"
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr "Непроверенный пользователь или сессия"
+
+#: .es5/lib/oauth-errors.js:196
+msgid "Invalid id_token_hint"
+msgstr "Некорректный id_token_hint"
+
+#: .es5/lib/pairing-channel-client-errors.js:44
+msgid "Invalid message from the remote device"
+msgstr "Неправильный ответ от удалённого устройства"
+
+#: .es5/lib/pairing-channel-client-errors.js:52
+msgid "Error pairing to remote device"
+msgstr "Ошибка сопряжения с удалённым устройством"
+
+#: .es5/lib/pairing-channel-client-errors.js:56
+msgid "Connection to remote device closed, please try again"
+msgstr "Подключение к удалённому устройству закрыто, пожалуйста, попробуйте снова"
+
+#: .es5/lib/profile-errors.js:29
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Недопустимый параметр в теле запроса: %(param)s"
+
+#: .es5/lib/profile-errors.js:33
+msgid "Unsupported image provider"
+msgstr "Неподдерживаемый провайдер изображений"
+
+#: .es5/lib/profile-errors.js:37
+msgid "Image processing error"
+msgstr "Ошибка обработки изображения"
+
+#: .es5/lib/profile-errors.js:49
+msgid "Invalid Token"
+msgstr "Некорректный токен"
+
+#: .es5/lib/strings.js:25
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Продолжая, вы принимаете <a id=\"service-tos\" href=\"%(termsUri)s\">Условия использования</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о конфиденциальности</a> %(serviceName)s "
+"(%(serviceUri)s)."
+
+#: .es5/lib/strings.js:31
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Помощь</a>"
+
+#: .es5/lib/strings.js:34
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Получать последние новости о Mozilla и Firefox."
+
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
+msgid "%(city)s, %(country)s (estimated)"
+msgstr "%(city)s, %(country)s (приблизительно)"
+
+#: .es5/lib/strings.js:37
+msgid "%(country)s (estimated)"
+msgstr "%(country)s (приблизительно)"
+
+#: .es5/lib/strings.js:38
+msgid "IP address: %(ip)s"
+msgstr "IP-адрес: %(ip)s"
+
+#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
+msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+msgstr "Для повышения безопасности, пожалуйста, подтвердите этот вход для начала синхронизации с этим устройством:"
+
+#: .es5/templates/400.mustache:1
+msgid "Bad Request"
+msgstr "Неверный запрос"
+
+#: .es5/templates/500.mustache:1
+msgid "500 Error"
+msgstr "Ошибка 500"
+
+#: .es5/templates/500.mustache:2
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "О Боже мой, что-то пошло не так. Мы уведомлены об этом и начнём работу над исправлением."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+msgid "Reset password link expired"
+msgstr "Срок жизни ссылки для сброса пароля истёк"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+msgid "The link you clicked to reset your password is expired."
+msgstr "Срок жизни ссылки, по которой вы щёлкаете, чтобы сбросить пароль, истёк."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+msgid "Receive new link"
+msgstr "Получить новую ссылку"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5
+msgid "Reset password with recovery key"
+msgstr "Сбросить пароль с помощью ключа восстановления"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Продолжить в %(serviceName)s"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:7
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr "Пожалуйста, введите одноразовый ключ восстановления, который вы сохранили в безопасном месте, чтобы восстановить доступ к своему Аккаунту Firefox."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:8
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+"<span class=\"note\">ПРИМЕЧАНИЕ:</span> Если вы сбросите пароль и у вас не сохранился ключ восстановления аккаунта, некоторые ваши данные будут стёрты (включая синхронизированные данные сервера, "
+"такие как история и закладки)."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Enter recovery key"
+msgstr "Введите ключ восстановления"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+msgid "Confirm recovery key"
+msgstr "Подтвердите ключ восстановления"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Don't have a recovery key?"
+msgstr "У вас нет ключа восстановления?"
+
+#: .es5/templates/cannot_create_account.mustache:1
+msgid "Cannot create account"
+msgstr "Не удалось создать аккаунт"
+
+#: .es5/templates/cannot_create_account.mustache:2
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr "Для создания аккаунта&nbsp;Firefox вы должны удовлетворять определённым возрастным требованиям."
+
+#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: .es5/templates/choose_what_to_sync.mustache:1
+msgid "Choose what to sync:"
+msgstr "Выберите, что синхронизировать:"
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Sync selections"
+msgstr "Синхронизировать выбранное"
+
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+msgid "Don’t sync this device"
+msgstr "Не синхронизировать это устройство"
+
+#: .es5/templates/complete_reset_password.mustache:5
+msgid "Reset password link damaged"
+msgstr "Ссылка для сброса пароля повреждена"
+
+#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "В ссылке, по которой вы щёлкнули, отсутствуют символы, и возможно она была повреждена вашим почтовым клиентом. Внимательно скопируйте адрес и попробуйте ещё раз."
+
+#: .es5/templates/complete_reset_password.mustache:8
+msgid "Create new password"
+msgstr "Создать новый пароль"
+
+#: .es5/templates/complete_reset_password.mustache:9
+msgid ""
+"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+"<span>НАПОМИНАНИЕ:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит "
+"потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности. Однако вы по-прежнему сохраните все имеющиеся у вас подписки, и данные Pocket затронуты не будут."
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr "Вы успешно восстановили свой аккаунт с помощью ключа восстановления. Создайте новый пароль для защиты ваших данных и сохраните его в безопасном месте."
+
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Новый пароль"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Повторите ввод пароля"
+
+#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+msgid "Remember password? Sign in"
+msgstr "Помните пароль? Войти"
+
+#: .es5/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr "Основная электронная почта уже подтверждена"
+
+#: .es5/templates/complete_sign_up.mustache:3
+msgid "Sign-in already confirmed"
+msgstr "Вход уже подтверждён"
+
+#: .es5/templates/complete_sign_up.mustache:6
+msgid "Confirmation link expired"
+msgstr "Срок действия ссылки для подтверждения истёк"
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr "Срок действия ссылки, по которой вы щёлкаете, чтобы подтвердить вашу почту, истёк."
+
+#: .es5/templates/complete_sign_up.mustache:8
+msgid "Click here to receive a new confirmation link"
+msgstr "Щёлкните здесь, чтобы получить новую ссылку для подтверждения"
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr "Ссылка для подтверждения повреждена"
+
+#: .es5/templates/complete_sign_up.mustache:14
+msgid "Confirmation error"
+msgstr "Ошибка подтверждения"
+
+#: .es5/templates/confirm.mustache:3
+msgid "Confirm your account"
+msgstr "Подтвердите ваш аккаунт"
+
+#: .es5/templates/confirm.mustache:5
+msgid "Confirm this sign-in"
+msgstr "Подтвердить этот вход"
+
+#: .es5/templates/confirm.mustache:7
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr "Поищите письмо со ссылкой подтверждения, отправленное на %(escapedEmail)s"
+
+#: .es5/templates/confirm.mustache:9
+msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr "Поищите письмо со ссылкой подтверждения входа, отправленное на %(escapedEmail)s"
+
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
+msgid "Not in inbox or spam folder? Resend"
+msgstr "Нет в папке «Входящие» или «Спам»? Отправить снова"
+
+#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+msgid "Back"
+msgstr "Назад"
+
+#: .es5/templates/confirm_reset_password.mustache:1
+msgid "Reset email sent"
+msgstr "Письмо о сбросе пароля отправлено"
+
+#: .es5/templates/confirm_reset_password.mustache:2
+msgid "Click the link emailed to %(email)s within the next hour to create a new password."
+msgstr "Щёлкните по ссылке, которая была отправлена на %(email)s в течение часа, чтобы создать новый пароль."
+
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr "Введите код подтверждения"
+
+#: .es5/templates/confirm_signup_code.mustache:2
+msgid "for your Firefox account"
+msgstr "для вашего аккаунта Firefox"
+
+#: .es5/templates/confirm_signup_code.mustache:3
+msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr "Введите код, отправленный на %(escapedEmail)s, в течение 5 минут."
+
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+msgid "Enter 6-digit code"
+msgstr "Введите код из 6 цифр"
+
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+msgid "Code expired?"
+msgstr "Срок кода истек?"
+
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+msgid "Email new code."
+msgstr "Отправить новый код по электронной почте."
+
+#: .es5/templates/connect_another_device.mustache:1
+msgid "Connect another device"
+msgstr "Подключить другое устройство"
+
+#: .es5/templates/connect_another_device.mustache:2
+msgid "Firefox account connected"
+msgstr "Аккаунт Firefox подключён"
+
+#: .es5/templates/connect_another_device.mustache:4
+msgid "Email confirmed"
+msgstr "Электронная почта подтверждена"
+
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+msgid "Complete your set-up"
+msgstr "Завершите настройку"
+
+#: .es5/templates/connect_another_device.mustache:10
+msgid "Sign in to this Firefox to complete set-up"
+msgstr "Войти в Firefox на этом устройстве, чтобы завершить настройку"
+
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+msgid "Still adding devices?"
+msgstr "Всё ещё добавляете устройства?"
+
+#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+msgid "Sign in to Firefox on another device to complete set-up"
+msgstr "Войдите в Firefox на другом устройстве, чтобы завершить настройку"
+
+#: .es5/templates/connect_another_device.mustache:17
+msgid "Sync Firefox across devices"
+msgstr "Синхронизируйте Firefox между устройствами"
+
+#: .es5/templates/connect_another_device.mustache:19
+msgid "Sign in everywhere you use Firefox."
+msgstr "Входите в аккаунт везде, где используете Firefox."
+
+#: .es5/templates/connect_another_device.mustache:20
+msgid "We’re on Android and iOS, too!"
+msgstr "Мы также на Android и iOS!"
+
+#: .es5/templates/connect_another_device.mustache:22
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr "Всё ещё добавляете устройства? Войдите в Firefox на другом устройстве, чтобы завершить настройку"
+
+#: .es5/templates/connect_another_device.mustache:24
+msgid "Sign in to Firefox for Android to complete set-up"
+msgstr "Войдите в Firefox для Android, чтобы завершить настройку"
+
+#: .es5/templates/connect_another_device.mustache:26
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr "Войдите в Firefox для iOS, чтобы завершить настройку"
+
+#: .es5/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required"
+msgstr "Требуется поддержка куков и локального хранилища"
+
+#: .es5/templates/cookies_disabled.mustache:2
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+msgstr "Пожалуйста, включите cookies и локальное хранилище в вашем браузере для доступа к Firefox аккаунтам. Если вы включите их, браузер сможет запоминать ваши сессии."
+
+#: .es5/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "Попробовать снова"
+
+#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+msgid ""
+"\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"        "
+msgstr ""
+"\n"
+"          Введите пароль <span class=\"card-subheader\" id=\"subheader\">своего аккаунта Firefox</span>\n"
+"        "
+
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+msgid "Password"
+msgstr "Пароль"
+
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Продолжая, вы принимаете <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Условия использования</a> и <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о "
+"конфиденциальности</a>."
+
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "Использовать другой аккаунт"
+
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+msgid "Forgot password?"
+msgstr "Забыли пароль?"
+
+#: .es5/templates/index.mustache:1
+msgid "Continue to Firefox accounts"
+msgstr "Продолжить в аккаунты Firefox"
+
+#: .es5/templates/index.mustache:2
+msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
+msgstr "Синхронизируйте свои пароли, вкладки и закладки везде, где используете Firefox."
+
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
+msgid "Enter your email"
+msgstr "Введите ваш адрес электронной почты"
+
+#: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr "Перейти в <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/index.mustache:9
+msgid "Sign up or sign in"
+msgstr "Зарегистрироваться или войти"
+
+#: .es5/templates/index.mustache:11
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr "Аккаунт Firefox также открывает доступ к другим продуктам Mozilla для защиты приватности."
+
+#: .es5/templates/inline_recovery_setup.mustache:1
+msgid "Save recovery codes"
+msgstr "Сохранить коды восстановления"
+
+#: .es5/templates/inline_recovery_setup.mustache:3
+msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
+msgstr "Храните эти одноразовые коды в безопасном месте, на случай, если у вас не будет доступа к мобильному устройству."
+
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+msgid "Download"
+msgstr "Загрузить"
+
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+msgid "Copy"
+msgstr "Копировать"
+
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+msgid "Print"
+msgstr "Печать"
+
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+msgid "Continue"
+msgstr "Продолжить"
+
+#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+msgid "Cancel setup"
+msgstr "Отменить настройку"
+
+#: .es5/templates/inline_recovery_setup.mustache:12
+msgid "Confirm recovery code"
+msgstr "Подтвердите код восстановления"
+
+#: .es5/templates/inline_recovery_setup.mustache:14
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgstr "Чтобы убедиться, что вы сможете восстановить доступ к своему аккаунту в случае утери устройства, введите один из сохранённых кодов восстановления."
+
+#: .es5/templates/inline_recovery_setup.mustache:15
+msgid "Recovery code"
+msgstr "Код восстановления"
+
+#: .es5/templates/inline_totp_setup.mustache:1
+msgid "Enable two-step authentication"
+msgstr "Включить двухэтапную аутентификацию"
+
+#: .es5/templates/inline_totp_setup.mustache:3
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr "Добавьте в свой аккаунт ещё один уровень защиты, включив использование защитных кодов от одного из <a %(escapedTotpSupportAttributes)s>этих приложений для авторизации</a>."
+
+#: .es5/templates/inline_totp_setup.mustache:7
+msgid "Scan authentication code"
+msgstr "Сканировать код аутентификации"
+
+#: .es5/templates/inline_totp_setup.mustache:10
+msgid "Enter code manually"
+msgstr "Введите код вручную"
+
+#: .es5/templates/inline_totp_setup.mustache:12
+msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgstr "Отсканируйте QR-код в своём приложении для аутентификации и введите предоставленный им защитный код."
+
+#: .es5/templates/inline_totp_setup.mustache:13
+msgid "Can’t scan code?"
+msgstr "Не можете отсканировать код?"
+
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
+msgid "Once complete, it will begin generating security codes for you to enter."
+msgstr "По завершении оно начнёт генерировать коды безопасности, которые вы сможете ввести."
+
+#: .es5/templates/inline_totp_setup.mustache:16
+msgid "Type this secret key into your authentication app."
+msgstr "Наберите этот секретный ключ в своём приложении для аутентификации."
+
+#: .es5/templates/inline_totp_setup.mustache:17
+msgid "Scan QR code instead?"
+msgstr "Вместо этого сканировать QR-код?"
+
+#: .es5/templates/inline_totp_setup.mustache:19
+msgid "Security code"
+msgstr "Защитный код"
+
+#: .es5/templates/inline_totp_setup.mustache:20
+msgid "Ready"
+msgstr "Готово"
+
+#: .es5/templates/legal.mustache:1
+msgid "Legal"
+msgstr "Право"
+
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+msgid "Terms of Service"
+msgstr "Условия использования"
+
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Уведомление о конфиденциальности"
+
+#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+msgid "Get the full Sync experience."
+msgstr "Используйте синхронизацию по полной."
+
+#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:19
+msgid "Download Firefox for iOS!"
+msgstr "Загрузите Firefox для iOS!"
+
+#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:20
+msgid "Download Firefox for Android."
+msgstr "Загрузите Firefox для Android."
+
+#: .es5/templates/marketing_snippet.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "Загрузите Firefox для мобильных устройств."
+
+#: .es5/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr "Запрос разрешения"
+
+#: .es5/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "%(serviceName)s хочет получить следующую информацию из вашего аккаунта:"
+
+#: .es5/templates/permissions.mustache:3
+msgid "Accept"
+msgstr "Принять"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Отмена"
+
+#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+msgid "Success"
+msgstr "Сделано"
+
+#: .es5/templates/ready.mustache:4
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr "Теперь вы готовы использовать <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
+msgid "Continue to my account"
+msgstr "Продолжить в мою учётную запись"
+
+#: .es5/templates/ready.mustache:14
+msgid "Your account is ready!"
+msgstr "Ваш аккаунт готов!"
+
+#: .es5/templates/ready.mustache:15
+msgid "Generate a new recovery key"
+msgstr "Сгенерировать новый ключ восстановления"
+
+#: .es5/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr "Сообщить о несанкционированном входе?"
+
+#: .es5/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr "Вы получили письмо о попытке доступа к вашему аккаунту. Хотите ли вы сообщить об этой подозрительной активности?"
+
+#: .es5/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr "Сообщить о подозрительной активности"
+
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr "Почему это происходит?"
+
+#: .es5/templates/reset_password.mustache:3
+msgid ""
+"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+"<span>ПРИМЕЧАНИЕ:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит "
+"потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности. Однако вы по-прежнему сохраните все имеющиеся у вас подписки, и данные Pocket затронуты не будут."
+
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Электронная почта"
+
+#: .es5/templates/reset_password.mustache:6
+msgid "Begin reset"
+msgstr "Начать сброс"
+
+#: .es5/templates/security_events.mustache:1
+msgid "Recent Activity"
+msgstr "Последние действия"
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr "Уведомления безопасности"
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr "Название события"
+
+#: .es5/templates/security_events.mustache:4
+msgid "Confirmed"
+msgstr "Подтверждено"
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr "Создано"
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr "Удалить события"
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr "Перейти в настройки"
+
+#: .es5/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr "Извините. Мы заблокировали ваш аккаунт."
+
+#: .es5/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr "Подтверждение по электронной почте, которое мы отправили на %(email)s, было возвращено, поэтому мы заблокировали аккаунт для защиты ваших данных Firefox."
+
+#: .es5/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr "Если это действительный адрес электронной почты, <a %(escapedSupportLinkAttrs)s>сообщите нам об этом</a>, и мы поможем разблокировать ваш аккаунт."
+
+#: .es5/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr "Больше не владеете этой электронной почтой? Создайте новый аккаунт"
+
+#: .es5/templates/sign_in_password.mustache:11
+msgid ""
+"\n"
+"              By proceeding, you agree to:<br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"            "
+msgstr ""
+"\n"
+"   Продолжая, вы принимаете:<br />\n"
+"   <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Условия использования</a> и <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/"
+"\">Уведомление о конфиденциальности</a> Pocket<br />\n"
+"   <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Условия использования</a> и <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a> "
+"Firefox.\n"
+"   "
+
+#: .es5/templates/sign_in_recovery_code.mustache:1
+msgid "Enter recovery code"
+msgstr "Введите код восстановления"
+
+#: .es5/templates/sign_in_recovery_code.mustache:3
+msgid "Please enter a recovery code that was provided to you during setup."
+msgstr "Пожалуйста, введите код восстановления, который был вам предоставлен во время настройки."
+
+#: .es5/templates/sign_in_recovery_code.mustache:4
+msgid "Enter 10-digit recovery code"
+msgstr "Введите 10-значный код восстановления"
+
+#: .es5/templates/sign_in_recovery_code.mustache:7
+msgid "Are you locked out?"
+msgstr "Аккаунт заблокирован?"
+
+#: .es5/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr "Спасибо за вашу бдительность"
+
+#: .es5/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr "Наша команда оповещена. Ваши сообщения помогают нам бороться со злоумышленниками."
+
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgstr "Введите код подтверждения <span class=\"card-subheader\">своего аккаунта Firefox</span>"
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
+msgstr "Введите код, отправленный на %(email)s, в течение 5 минут."
+
+#: .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr "Введите защитный код"
+
+#: .es5/templates/sign_in_totp_code.mustache:3
+msgid "Open your authentication app and enter the security code it provides."
+msgstr "Откройте своё приложение для аутентификации и введите предоставленный им защитный код."
+
+#: .es5/templates/sign_in_totp_code.mustache:7
+msgid "Trouble entering code?"
+msgstr "Проблемы с вводом кода?"
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "Разрешить этот вход"
+
+#: .es5/templates/sign_in_unblock.mustache:3
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr "Поищите письмо с кодом авторизации, отправленное на %(email)s."
+
+#: .es5/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr "Введите код авторизации"
+
+#: .es5/templates/sign_up_password.mustache:1
+msgid "Set your password"
+msgstr "Установите пароль"
+
+#: .es5/templates/sign_up_password.mustache:2
+msgid "Change email"
+msgstr "Сменить адрес электронной почты"
+
+#: .es5/templates/sign_up_password.mustache:5
+msgid "Repeat password"
+msgstr "Повторите пароль"
+
+#: .es5/templates/sign_up_password.mustache:6
+msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgstr "Этот пароль необходим вам для доступа к любым зашифрованным данным, которые вы у нас храните.<br/>Сброс пароля повлечёт за собой потенциальную потерю таких данных, как пароли и закладки."
+
+#: .es5/templates/sign_up_password.mustache:7
+msgid "Practical knowledge is coming to your inbox. Sign up for more:"
+msgstr "Практические знания уже отправлены на вашу почту. Подпишитесь, чтобы получать больше:"
+
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "Выбрать что синхронизировать"
+
+#: .es5/templates/sign_up_password.mustache:14
+msgid "Create account"
+msgstr "Создать аккаунт"
+
+#: .es5/templates/sign_up_password.mustache:15
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
+"\n"
+"   Продолжая, вы принимаете:<br />\n"
+"   <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Условия использования</a> и <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/"
+"\">Уведомление о конфиденциальности</a> Pocket<br />\n"
+"   <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Условия использования</a> и <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a> "
+"Firefox.\n"
+"   "
+
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Аккаунты Firefox"
+
+#: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr "Главная страница аккаунта"
+
+#: .es5/templates/support.mustache:3
+msgid "Subscriptions"
+msgstr "Подписки"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: .es5/templates/support.mustache:6
+msgid "What are you contacting us about?"
+msgstr "По какому вопросу вы хотите связаться с нами?"
+
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please select one"
+msgstr "Пожалуйста, выберите причину"
+
+#: .es5/templates/support.mustache:10
+msgid "What do you need help with?"
+msgstr "С чем вам необходимо помочь?"
+
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "Оплата и выставление счетов"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "Проблемы с аккаунтом"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "Технические неполадки"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr "Предоставить обратную связь / запросить функции"
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr "Нет в списке"
+
+#: .es5/templates/support.mustache:17
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr "Вам нужна помощь с конкретным приложением или сервисом? (необязательно)"
+
+#: .es5/templates/support.mustache:19
+msgid "Subject (optional)"
+msgstr "Тема (необязательно)"
+
+#: .es5/templates/support.mustache:20
+msgid "Description of issue"
+msgstr "Описание проблемы"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Отправить"
+
+#: .es5/templates/would-you-like-to-sync.mustache:1
+msgid "Would you like to sync this device to your account?"
+msgstr "Хотите ли вы синхронизировать это устройство с вашим аккаунтом?"
+
+#: .es5/templates/would-you-like-to-sync.mustache:2
+msgid "Sync this device"
+msgstr "Синхронизировать это устройство"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
+msgid "Step 1 of 2: Re-enter password"
+msgstr "Шаг 1 из 2: Повторите ввод пароля"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
+msgid "Enter your password to view your recovery key."
+msgstr "Введите свой пароль, чтобы просмотреть ключ восстановления."
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+msgid "Enter Password"
+msgstr "Введите пароль"
+
+#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr "Успешно подключено"
+
+#: .es5/templates/push/completed.mustache:3
+msgid "Please close this page and continue on the other device."
+msgstr "Закройте эту страницу и продолжите на другом устройстве."
+
+#: .es5/templates/push/confirm_login.mustache:1
+msgid "New sign-in to Firefox"
+msgstr "Новый вход в Firefox"
+
+#: .es5/templates/push/confirm_login.mustache:3
+msgid "Confirm sign-in"
+msgstr "Подтвердить вход"
+
+#: .es5/templates/push/confirm_login.mustache:4
+msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgstr "Если вы подозреваете, что кто-то пытается получить доступ к вашему аккаунту, <a id=\"change-password\" href=\"/settings/change_password\">пожалуйста, смените ваш пароль</a>."
+
+#: .es5/templates/push/send_login.mustache:2
+msgid "Send login push notification"
+msgstr "Отправить push-уведомление о входе"
+
+#: .es5/templates/push/send_login.mustache:3
+msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgstr "Проверьте свои подключенные устройства Firefox на наличие отправленной нами вкладки подтверждения входа."
+
+#: .es5/templates/push/send_login.mustache:4
+msgid "Resend tab"
+msgstr "Повторить отправку вкладки"
+
+#: .es5/templates/push/send_login.mustache:5
+msgid "Tab not arriving? Send an email instead"
+msgstr "Не приходит вкладка? Отправьте тогда электронное письмо"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+msgid "Add a secondary email address"
+msgstr "Добавьте дополнительный адрес электронной почты"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
+msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
+msgstr "Добавление дополнительной электронной почты поможет вам восстановить свой аккаунт, если он будет заблокирован и вы не сможете получить доступ к %(escapedEmail)s."
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "Дополнительный адрес электронной почты"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+msgid "Maybe later"
+msgstr "Возможно позже"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr "Пожалуйста, введите код подтверждения, который был отправлен на %(escapedEmail)s, в течение 5 минут."
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr "Нужен другой код? Отправить заново"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr "Используйте другой адрес электронной почты"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+msgid "Please change your password"
+msgstr "Пожалуйста, смените пароль"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:2
+msgid "to continue to %(serviceName)s"
+msgstr "чтобы перейти к %(serviceName)s"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:5
+msgid ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr ""
+"Мы обнаружили подозрительную активность в вашем аккаунте Firefox. Чтобы защитить его, создайте новый пароль. Вы будете использовать этот пароль для входа во все службы своего аккаунта Firefox."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:6
+msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr "Синхронизированная история, закладки, логины и другие персональные данные не будут потеряны."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Старый пароль"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:9
+msgid "Re-enter new password"
+msgstr "Повторно введите новый пароль"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:10
+msgid "Change password"
+msgstr "Сменить пароль"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+msgid "This Firefox is connected"
+msgstr "Этот Firefox подключен"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
+msgid "Sign up for more"
+msgstr "Подпишитесь, чтобы получить больше"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
+msgid "Practical knowledge is coming to your inbox."
+msgstr "Практические знания в вашем почтовом ящике."
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
+msgid "Get practical knowledge in your inbox about:"
+msgstr "Получайте практические знания в свой почтовый ящик о:"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
+msgid "Subscribe %(email)s"
+msgstr "Подписать %(email)s"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client."
+msgstr "В ссылке, по которой вы щёлкнули, отсутствовали символы, и она могла быть повреждена вашим почтовым клиентом."
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+msgid "Create a Firefox Account"
+msgstr "Создать Аккаунт Firefox"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
+msgid "Continue to %(productName)s"
+msgstr "Перейти к %(productName)s"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
+msgid "Enter a password"
+msgstr "Введите пароль"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+msgid "Confirm password"
+msgstr "Подтвердите пароль"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "Создать пароль"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:1
+msgid "Device connected!"
+msgstr "Устройство подключено!"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:4
+msgid "Connect another one"
+msgstr "Подключить ещё один"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5
+msgid "Use SMS instead"
+msgstr "Использовать вместо этого SMS"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:6
+msgid "I'm done for now"
+msgstr "Пока достаточно"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
+msgid "Sync Firefox between devices"
+msgstr "Синхронизация Firefox между устройствами"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
+msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
+msgstr "Синхронизируйте закладки, историю и пароли с Firefox на ваших мобильных устройствах. Это займёт всего несколько минут."
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
+msgid "Get started"
+msgstr "Начать"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+msgid "I'll do this later, send me a reminder"
+msgstr "Я сделаю это позже, пришлите мне напоминание"
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
+msgid "Download Firefox with your camera app"
+msgstr "Загрузить Firefox с помощью камеры"
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
+msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
+msgstr "Установка Firefox и синхронизация как минимум между двумя устройствами также защитит вас от потери данных."
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
+msgid "Ready to scan"
+msgstr "Сканировать QR-код"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
+msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Подключите мобильное устройство</h1> <p>с помощью QR-кода, который мы создали специально для вас</p>"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
+msgid "Open the camera app on your device"
+msgstr "Откройте приложение камеры на вашем устройстве"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
+msgid "Point the camera at the QR code and tap the link that appears"
+msgstr "Наведите камеру на QR-код и нажмите на появившуюся ссылку"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
+msgid "Install Firefox and open it on your device"
+msgstr "Установите Firefox и откройте его на своем устройстве"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
+msgid "Sign into your account"
+msgstr "Войдите в свой аккаунт"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
+msgid "<span class=\"number\">1</span>Open the camera app on your device"
+msgstr "<span class=\"number\">1</span>Откройте приложение камеры на своем устройстве"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
+msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgstr "<span class=\"number\">2</span>Наведите камеру на QR-код и нажмите появившуюся ссылку"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
+msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgstr "<span class=\"number\">3</span>Установите Firefox и откройте его на своём устройстве"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
+msgid "<span class=\"number\">4</span>Sign into your account"
+msgstr "<span class=\"number\">4</span>Войдите в свой аккаунт"
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+msgid "Protect your data with a recovery key"
+msgstr "Защитите свои данные с помощью ключа восстановления"
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
+msgid "Your synced data can include passwords you've saved."
+msgstr "Ваши синхронизированные данные могут содержать пароли, которые вы сохранили."
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
+msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
+msgstr "Так как эта информация критична для обеспечения вашей безопасности, Firefox удалит её, чтобы защитить вас, в случае сброса вашего пароля, чтобы предотвратить доступ к ней других людей."
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
+msgid "Get a Recovery Key"
+msgstr "Получите ключ восстановления"
+
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
+msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgstr "Пожалуйста, подтвердите ваш пароль для %(escapedEmail)s, чтобы сгенерировать ключ восстановления."
+
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
+msgid "Enter your recovery key to confirm that you've saved a copy."
+msgstr "Введите ключ восстановления, чтобы подтвердить, что вы сохранили его копию."
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+msgid "Save recovery key"
+msgstr "Сохраните ключ восстановления"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Готово"
+
+#: .es5/templates/partial/account-suggestion.mustache:1
+msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgstr "Зачем создавать этот аккаунт? <a %(escapedSuggestionAttrs)s>Узнайте здесь</a>"
+
+#: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
+msgid "How old are you?"
+msgstr "Сколько вам лет?"
+
+#: .es5/templates/partial/coppa-age-input.mustache:4
+msgid "You must be at least 13 years old to create an account."
+msgstr "Вам должно быть не менее 13 лет для создания аккаунта."
+
+#: .es5/templates/partial/device-being-paired.mustache:2
+msgid "%(family)s on %(OS)s"
+msgstr "%(family)s на %(OS)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:3
+msgid "%(city)s, %(region)s, %(country)s (estimated)"
+msgstr "%(city)s, %(region)s, %(country)s (приблизительно)"
+
+#: .es5/templates/partial/device-being-paired.mustache:7
+msgid "%(region)s, %(country)s (estimated)"
+msgstr "%(region)s, %(country)s (приблизительно)"
+
+#: .es5/templates/partial/device-being-paired.mustache:9
+msgid "%(country)s"
+msgstr "%(country)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:11
+msgid "Location unknown"
+msgstr "Местоположение неизвестно"
+
+#: .es5/templates/partial/device-being-paired.mustache:12
+msgid "IP address: %(ipAddress)s"
+msgstr "IP-адрес: %(ipAddress)s"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:1
+msgid "Password requirements"
+msgstr "Требования к паролю"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:3
+msgid "At least 8 characters"
+msgstr "Не менее 8 символов"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:6
+msgid "Not your email address"
+msgstr "Не ваш адрес электронной почты"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:10
+msgid "Not a commonly used password"
+msgstr "Не часто используемый пароль"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:11
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgstr "Не подвергайте себя опасности &mdash; не используйте пароли несколько раз. Ознакомьтесь с другими советами по <a %(escapedCommonPasswordLinkAttrs)s>созданию надёжных паролей</a>."
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr "Хм, у нас возникли проблемы с нашей системой. Мы работаем над тем, чтобы исправить их, и приносим свои извинения за доставленные неудобства. Пожалуйста, попробуйте позже."
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to Support"
+msgstr "Ваше сообщение отправлено в службу поддержки"
+
+#: .es5/templates/partial/support-form-success.mustache:2
+msgid "Back to Subscriptions"
+msgstr "Вернуться к подпискам"
+
+#: .es5/templates/partial/sync-suggestion.mustache:1
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr "Ищете Синхронизацию Firefox? <a %(escapedSyncSuggestionAttrs)s>Начните здесь</a>"
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr "или"
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr "Продолжить с Google"
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
+msgstr "Продолжить с Apple"
+
+#: .es5/templates/pair/auth_allow.mustache:1
+msgid "Did you just sign in to Firefox?"
+msgstr "Вы только что вошли в Firefox?"
+
+#: .es5/templates/pair/auth_allow.mustache:2
+msgid " %(email)s "
+msgstr " %(email)s "
+
+#: .es5/templates/pair/auth_allow.mustache:3
+msgid "location balloon"
+msgstr "ваше местоположение"
+
+#: .es5/templates/pair/auth_allow.mustache:4
+msgid "Yes, approve device"
+msgstr "Да, подтвердить устройство"
+
+#: .es5/templates/pair/auth_allow.mustache:5
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
+msgstr "Если это были не вы, <a id=\"change-password\" class=\"link-blue\">измените свой пароль</a>"
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+msgid "Device connected"
+msgstr "Устройство подключено"
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid ""
+"\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"      "
+msgstr ""
+"\n"
+"   Сейчас выполняется синхронизация с: <span>%(deviceFamily)s на %(deviceOS)s</span>\n"
+"   "
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgstr "Теперь вы можете просматривать свои открытые вкладки, пароли и закладки на всех устройствах."
+
+#: .es5/templates/pair/auth_complete.mustache:5
+msgid "See tabs from synced devices"
+msgstr "Просматривайте вкладки на синхронизированных устройствах"
+
+#: .es5/templates/pair/auth_complete.mustache:7
+msgid "Manage devices"
+msgstr "Управление устройствами"
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approval now required <small>from your other device</small>"
+msgstr "Теперь требуется подтверждение <small>с другого вашего устройства</small>"
+
+#: .es5/templates/pair/failure.mustache:1
+msgid "Pairing not successful"
+msgstr "Сопряжение не удалось"
+
+#: .es5/templates/pair/failure.mustache:2
+msgid "The setup process was terminated."
+msgstr "Процесс настройки был прерван."
+
+#: .es5/templates/pair/index.mustache:1
+msgid "Download Firefox on your phone or tablet"
+msgstr "Загрузите Firefox на свой телефон или планшет"
+
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr "QR-код"
+
+#: .es5/templates/pair/index.mustache:3
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
+msgstr "Чтобы загрузить Firefox на своё мобильное устройство, наведите его камеру на этот код для сканирования."
+
+#: .es5/templates/pair/index.mustache:4
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr "Или отправьте себе <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">ссылку для загрузки</a>."
+
+#: .es5/templates/pair/index.mustache:7
+msgid "I’m ready to sync devices"
+msgstr "Можно начинать синхронизацию устройств"
+
+#: .es5/templates/pair/index.mustache:8
+msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgstr "Синхронизируйте устройства, чтобы просматривать свои вкладки, пароли и закладки везде, где используете Firefox."
+
+#: .es5/templates/pair/success.mustache:2
+msgid "Device successfully paired"
+msgstr "Устройство успешно сопряжено"
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr "Сопряжение прошло успешно."
+
+#: .es5/templates/pair/supp_allow.mustache:1
+msgid "Confirm pairing <small>for %(email)s</small>"
+msgstr "Подтвердите сопряжение <small>для %(email)s</small>"
+
+#: .es5/templates/pair/supp_allow.mustache:2
+msgid "Confirm pairing"
+msgstr "Подтвердить сопряжение"
+
+#: .es5/templates/pair/unsupported.mustache:1
+msgid "Pair using an app"
+msgstr "Сопряжение с помощью приложения"
+
+#: .es5/templates/pair/unsupported.mustache:2
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr "Вы использовали системную камеру? Вы должны выполнить сопряжение в приложении Firefox."
+
+#~ msgid "Primary email verified"
+#~ msgstr "Основная электронная почта подтверждена"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Дополнительная электронная почта подтверждена"
+
+#~ msgid "Account verified"
+#~ msgstr "Аккаунт подтверждён"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Срок жизни ссылки для подтверждения истёк"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Щёлкните здесь, чтобы получить новую ссылку для подтверждения"
+
+#~ msgid "Verification error"
+#~ msgstr "Ошибка подтверждения"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Поищите письмо со ссылкой подтверждения, отправленное на %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "Адрес электронной почты подтверждён"
+
+#~ msgid "Verified"
+#~ msgstr "Подтверждён"
+
+#~ msgid "Verify"
+#~ msgstr "Подтвердить"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Введите код подтверждения"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "Пожалуйста, введите код подтверждения, который был отправлен на %(escapedEmail)s, в течение 5 минут."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Логины и пароли"
+
+#~ msgid "Get Firefox on your phone or tablet"
+#~ msgstr "Установите Firefox на ваш телефон или планшет"
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#~ msgstr "Продолжая, вы принимаете <a id=\"fxa-tos\" href=\"/legal/terms\">Условия службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a>."
+
+#~ msgid ""
+#~ "\n"
+#~ "              By proceeding, you agree to:<br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
+#~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "              Продолжая, вы принимаете:<br />\n"
+#~ "              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Условия службы</a> и <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Уведомление о конфиденциальности</"
+#~ "a><br /> Pocket\n"
+#~ "             <a id=\"fxa-tos\" href=\"/legal/terms\">Условия службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a> Firefox\n"
+#~ "            "
+
+#~ msgid ""
+#~ "\n"
+#~ "            By proceeding, you agree to:<br />\n"
+#~ "            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "              Продолжая, вы принимаете:<br />\n"
+#~ "              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Условия службы</a> и <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Уведомление о конфиденциальности</"
+#~ "a><br /> Pocket\n"
+#~ "             <a id=\"fxa-tos\" href=\"/legal/terms\">Условия службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\">Уведомление о конфиденциальности</a> Firefox\n"
+#~ "            "
+
+#~ msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
+#~ msgstr "Если это были не вы, <a id=\"change-password\">смените пароль</a> "
+
+#~ msgid "Hold your phone's camera over the code to scan."
+#~ msgstr "Держите камеру телефона над кодом для его сканирования."
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Для создания Аккаунта Firefox ваш возраст должен соответствовать определенным требованиям."
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "Поищите письмо с кодом, отправленное на %(email)s."
+
+#~ msgid "Why is more than one device required?"
+#~ msgstr "Почему требуется больше чем одно устройство?"
+
+#~ msgid "Why sync multiple devices?"
+#~ msgstr "Зачем синхронизировать несколько устройств?"
+
+#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+#~ msgstr "Служба синхронизации не является постоянным хранилищем, это просто безопасный способ обмениваться сохранёнными закладками, историей и паролями между вашими устройствами."
+
+#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+#~ msgstr "Вы должны установить Firefox и включить синхронизацию как минимум на двух устройствах, чтобы защититься от потери данных, если вам вдруг понадобится восстановить их, но вы забудете пароль."
+
+#~ msgid "Got it"
+#~ msgstr "Понятно"
+
+#~ msgid "One account, many services"
+#~ msgstr "Один аккаунт, множество служб"
+
+#~ msgid "Firefox browser"
+#~ msgstr "Браузер Firefox"
+
+#~ msgid "Sync your bookmarks, passwords, and more on every device."
+#~ msgstr "Синхронизируйте свои закладки, пароли и многое другое между всеми своими устройствами."
+
+#~ msgid "Mozilla VPN"
+#~ msgstr "Mozilla VPN"
+
+#~ msgid "A VPN from the trusted pioneer in internet privacy."
+#~ msgstr "VPN от доверенного первопроходца в обеспечении приватности в Интернете."
+
+#~ msgid "Pocket"
+#~ msgstr "Pocket"
+
+#~ msgid "Save and discover the best stories from across the web."
+#~ msgstr "Сохраняйте и открывайте для себя лучшие статьи со всего Интернета."
+
+#~ msgid "Firefox Relay"
+#~ msgstr "Firefox Relay"
+
+#~ msgid "Sign up for new accounts without handing over your email address."
+#~ msgstr "Регистрируйте новые аккаунты, не сообщая свой реальный адрес электронной почты."
+
+#~ msgid "See all"
+#~ msgstr "Показать всё"
+
+#~ msgid "Stay safe &mdash; don't reuse passwords."
+#~ msgstr "Оставайтесь в безопасности &mdash; не используйте пароли повторно."
+
+#~ msgid "Must not be your email address"
+#~ msgstr "Не должен содержать вашего адреса электронной почты"
+
+#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
+#~ msgstr "Не должен содержать паролей из <a %(escapedCommonPasswordLinkAttrs)s>списка популярных</a>"
+
+#~ msgid "Approve new device <small>for %(email)s</small>"
+#~ msgstr "Подтвердить новое устройство <small>для %(email)s</small>"
+
+#~ msgid "Approve device"
+#~ msgstr "Подтвердить устройство"
+
+#~ msgid "You are now syncing with:"
+#~ msgstr "Теперь вы синхронизируетесь с:"
+
+#~ msgid "Scan to connect another device"
+#~ msgstr "Сканировать для подключения другого устройства"
+
+#~ msgid "Open the code scanner on your Firefox app and show code when ready."
+#~ msgstr "Откройте сканер кодов в вашем приложении Firefox и покажите код, когда будете готовы."
+
+#~ msgid "Show code"
+#~ msgstr "Показать код"
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "Хотите синхронизироваться со своим телефоном?"
+
+#~ msgid "Send a link by SMS to install Firefox on your phone."
+#~ msgstr "Отправьте ссылку по SMS для установки Firefox на свой телефон."
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Номер мобильного телефона"
+
+#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "За SMS и передачу данных может взиматься плата. Получатель должен быть согласен на получение сообщения. <a %(escapedLearnMoreAttributes)s>Подробнее</a>"
+
+#~ msgid "Not now"
+#~ msgstr "Не сейчас"
+
+#~ msgid "Check your texts"
+#~ msgstr "Проверьте SMS сообщения"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "Мы отправили вам текстовое сообщение"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "Ссылка на приложение Firefox была отправлена на %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Неправильный номер?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "Если вы не получили SMS сообщение, вы также можете поискать «Firefox» в вашем магазине приложений."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Не пришло? Отправить снова"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Зачем входить на другом устройстве?"
+
+#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Помощь</a>"
+
+#~ msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "Продолжить в <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+
+#~ msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "Теперь вы готовы к использованию <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>НАПОМИНАНИЕ:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит "
+#~ "потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности. Однако вы по-прежнему сохраните все имеющиеся у вас подписки."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>ПРИМЕЧАНИЕ:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит "
+#~ "потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности. Однако вы по-прежнему сохраните все имеющиеся у вас подписки."
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "Получите безопасный доступ к паролям, сохранённым в Firefox, из любого места &mdash; даже за пределами браузера."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "Следите за утечками данных."
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>НАПОМИНАНИЕ:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит "
+#~ "потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>ПРИМЕЧАНИЕ:</span> Когда вы сбросите ваш пароль, вы сбросите ваш аккаунт. Вы можете потерять кое-что из вашей персональной информации (включая историю, закладки и пароли). Это происходит "
+#~ "потому, что мы шифруем ваши данные вашим паролем для защиты вашей приватности."
+
+#~ msgid "Change..."
+#~ msgstr "Изменить..."
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "После того, как вы закончите, используйте новый пароль для входа на всех ваших устройствах."
+
+#~ msgid "Change"
+#~ msgstr "Изменить"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Пароль успешно изменён"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr "Нам очень жаль. Вам следует изменить пароль своего Аккаунта Firefox, и поискать информацию от производителя вашего устройства о том, как удалённо стереть ваши данные."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr "Нам очень жаль. Если это было устройство, которому вы действительно не доверяете, вы должны сменить пароль вашего Аккаунта Firefox, и изменить любые пароли, сохранённые в Firefox."
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "Последняя активность: %(translatedTimeAgo)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s"
+#~ msgstr "Последняя активность: более %(translatedTimeAgo)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Последняя активность: %(translatedTimeAgo)s в %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Последняя активность: более %(translatedTimeAgo)s в %(translatedCountry)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Последняя активность: %(translatedTimeAgo)s, примерное местоположение - %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Последняя активность: более %(translatedTimeAgo)s, примерное местоположение - %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Последняя активность %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Последняя активность - более %(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Последняя активность - %(translatedTimeAgo)s в %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Последняя активность - более %(translatedTimeAgo)s в %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Последняя активность - %(translatedTimeAgo)s, примерное местоположение - %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Последняя активность - более %(translatedTimeAgo)s, примерное местоположение - %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "Более %(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s в %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Более %(translatedTimeAgo)s в %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s, примерное местоположение - %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Более %(translatedTimeAgo)s, примерное местоположение - %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Веб-сессия, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Веб-сессия"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "Время последней активности неизвестно"
+
+#~ msgid "Change…"
+#~ msgstr "Изменить…"
+
+#~ msgid "Add…"
+#~ msgstr "Добавить…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Выберите имя, которое вы хотели бы видеть в Firefox и при управлении своим аккаунтом."
+
+#~ msgid "Display name updated"
+#~ msgstr "Отображаемое имя обновлено"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Дополнительный адрес электронной почты удалён"
+
+#~ msgid "Verification email sent"
+#~ msgstr "Письмо подтверждения отправлено"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "Основным адресом электронной почты является %(email)s"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Сгенерированы новые коды восстановления"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Двухэтапная аутентификация отключена"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "Двухэтапная аутентификация"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Восстановление аккаунта"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "Восстановление аккаунта отменено"
+
+#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+#~ msgstr "Срок действия вашей банковской карты истёк. Пожалуйста, обновите данные <a %(escapedCcExpiredLinkAttrs)s>здесь</a>."
+
+#~ msgid "Sign out"
+#~ msgstr "Выйти"
+
+#~ msgid "Take picture"
+#~ msgstr "Сделать фото"
+
+#~ msgid "Upload"
+#~ msgstr "Загрузить"
+
+#~ msgid "Camera"
+#~ msgstr "Камера"
+
+#~ msgid "Clear"
+#~ msgstr "Очистить"
+
+#~ msgid "Avatar"
+#~ msgstr "Аватар"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Переместите и поверните свое фото, если это необходимо"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "Отсоединиться от Синхронизации"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "Ваши данные веб-сёрфинга останутся на %(deviceName)s, но он больше не будет синхронизироваться с вашим аккаунтом."
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "Вы отключаете %(deviceName)s от синхронизации, потому что это устройство:"
+
+#~ msgid "Suspicious"
+#~ msgstr "Подозрительное"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "Потеряно или украдено"
+
+#~ msgid "Old or replaced"
+#~ msgstr "Старое или заменено"
+
+#~ msgid "Duplicate"
+#~ msgstr "Дублируется"
+
+#~ msgid "Rather not say"
+#~ msgstr "Предпочитаю не говорить"
+
+#~ msgid "Disconnect"
+#~ msgstr "Отсоединить"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Отсоединение прошло успешно"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Устройства и приложения"
+
+#~ msgid "Show"
+#~ msgstr "Показать"
+
+#~ msgid "Current device"
+#~ msgstr "Текущее устройство"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Отсоединить…"
+
+#~ msgid "Current session"
+#~ msgstr "Текущая сессия"
+
+#~ msgid "Revoke"
+#~ msgstr "Отозвать"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "Firefox для iOS"
+
+#~ msgid "None connected"
+#~ msgstr "Ничего не подключено"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Firefox для Android"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Отсутствующие или повторяющиеся элементы?"
+
+#~ msgid "Refresh status"
+#~ msgstr "Обновить статус"
+
+#~ msgid "Email preferences"
+#~ msgstr "Настройки подписок по электронной почте"
+
+#~ msgid "Delete account"
+#~ msgstr "Удалить аккаунт"
+
+#~ msgid "Delete…"
+#~ msgstr "Удалить…"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+#~ msgstr "Хотите отменить платную подписку? Перейдите в <a href=\"/subscriptions\">Подписки</a>."
+
+#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+#~ msgstr "Вы подключили свой Аккаунт Firefox к продуктам Mozilla, которые обеспечивают безопасность и производительность в Интернете:"
+
+#~ msgid "Please acknowledge that by deleting your account:"
+#~ msgstr "Пожалуйста, подтвердите, что при удалении вашего аккаунта:"
+
+#~ msgid "Any paid subscriptions you have will be cancelled"
+#~ msgstr "Все оплаченные вами подписки будут отменены"
+
+#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+#~ msgstr "Все расширения и темы, опубликованные вами на addons.mozilla.org, будут удалены"
+
+#~ msgid "You may lose saved information and features within Mozilla products"
+#~ msgstr "Вы можете потерять сохранённую информацию и возможности продуктов Mozilla"
+
+#~ msgid "Reactivating with this email may not restore your saved information"
+#~ msgstr "Повторная активация с использованием этого адреса электронной почты может не восстановить вашу сохранённую информацию"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "Дополнительный адрес электронной почты используется для получения оповещений безопасности и добавления новых устройств."
+
+#~ msgid "Verification required"
+#~ msgstr "Требуется подтверждение"
+
+#~ msgid "Make primary"
+#~ msgstr "Сделать основным"
+
+#~ msgid "Remove"
+#~ msgstr "Удалить"
+
+#~ msgid "Refresh"
+#~ msgstr "Обновить"
+
+#~ msgid "Add email"
+#~ msgstr "Добавить адрес электронной почты"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "NOTE:"
+#~ msgstr "ПРИМЕЧАНИЕ:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "При генерации новых кодов восстановления, все предыдущие коды станут недействительными. Пожалуйста, храните новые коды в надёжном месте."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Сгенерировать новые коды восстановления"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "Подтвердите код восстановления"
+
+#~ msgid "Manage…"
+#~ msgstr "Управление…"
+
+#~ msgid "Enter this secret key into your authentication app:"
+#~ msgstr "Введите этот секретный ключ в свое приложение для аутентификации:"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "Двухэтапная аутентификация"
+
+#~ msgid "Enable…"
+#~ msgstr "Включить…"
+
+#~ msgid "Current status"
+#~ msgstr "Текущий статус"
+
+#~ msgid "Enabled"
+#~ msgstr "Включена"
+
+#~ msgid "Disabled"
+#~ msgstr "Отключена"
+
+#~ msgid "Disable"
+#~ msgstr "Отключить"
+
+#~ msgid "Enable"
+#~ msgstr "Включить"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Изменить коды восстановления"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Перед тем, как вы сможете просматривать или вносить изменения в этот раздел, вам нужно подтвердить свой адрес электронной почты."
+
+#~ msgid "Primary email"
+#~ msgstr "Основной адрес электронной почты"
+
+#~ msgid "Account recovery"
+#~ msgstr "Восстановление аккаунта"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Сгенерируйте ключ восстановления, чтобы восстановить доступ к закладкам, паролям и синхронизированным данным Firefox, если вы забудете свой пароль."
+
+#~ msgid "Recovery key"
+#~ msgstr "Ключ восстановления"
+
+#~ msgid "Not set"
+#~ msgstr "Не установлен"
+
+#~ msgid "Generate"
+#~ msgstr "Сгенерировать"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">ПРИМЕЧАНИЕ: </span>Данные вашего Firefox шифруются с использованием пароля вашего Аккаунта Firefox. Доступ к вашим данным можно получить только зная ваш пароль или ключ "
+#~ "восстановления. <a %(escapedLearnMoreLinkAttributes)s>Подробнее</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "Вы уверены, что хотите отозвать?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Если вы сбросите свой пароль, вы не сможете использовать ключ восстановления для доступа к своим данным."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "Шаг 2 из 2: Сохраните ключ восстановления"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr ""
+#~ "<span class=\"note\">ПРИМЕЧАНИЕ: </span>Если вы забудете свой пароль, то для восстановления доступа к данным вам понадобится этот ключ. Сохраните ключ восстановления в безопасном месте, где вы "
+#~ "сможете потом легко его найти."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Готово, Ключ восстановления сохранён"
+
+#~ msgid "Please Select One"
+#~ msgstr "Пожалуйста, выберите один"
+
+#~ msgid "Sign up to get more features:"
+#~ msgstr "Зарегистрируйтесь, чтобы получить больше возможностей:"
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
+
+#~ msgid "Send larger files securely and privately."
+#~ msgstr "Безопасно и приватно отправляйте большие файлы."
+
+#~ msgid "Firefox Account"
+#~ msgstr "Аккаунт Firefox"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
+#~ msgstr "Хотите отменить платную подписку? Перейдите на страницу <a href=\"/subscriptions\">Подписки и платежи</a>."
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "Подписки и платежи"
+
+#~ msgid "Get app"
+#~ msgstr "Загрузить приложение"
+
+#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
+#~ msgstr "Спасибо за обращение в поддержку Mozilla по вопросу <b>%(escapedLowercaseTopic)s</b> для <b>%(escapedSelectedPlan)s</b>. Мы свяжемся с вами по электронной почте в ближайшее время."
+
+#~ msgid "General inquiries"
+#~ msgstr "Общие вопросы"
+
+#~ msgid "Connection issues"
+#~ msgstr "Проблемы с подключением"
+
+#~ msgid "Getting started"
+#~ msgstr "Начало работы"
+
+#~ msgid "Firefox Private Network Android App"
+#~ msgstr "Приложение Firefox Private Network для Android"
+
+#~ msgid "Firefox Private Network Windows App"
+#~ msgstr "Приложение Firefox Private Network для Windows"
+
+#~ msgid "Sync this browser with your phone"
+#~ msgstr "Синхронизируйте этот браузер со своим телефоном"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Отправьте Firefox прямо на ваш смартфон и войдите, чтобы завершить настройку"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
+#~ msgstr "Хотите отменить платную подписку? Перейдите на страницу <a href=\"/subscriptions\">Управления подписками</a>."
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Услуга SMS доступна только в некоторых странах. За передачу SMS и данных может взиматься плата. Предполагаемый получатель электронного письма или SMS должен быть согласен на его получение. <a "
+#~ "%(escapedLearnMoreAttributes)s>Подробнее</a>"
+
+#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
+#~ msgstr "Аккаунт уже существует. <a href=\"/signin\">Войти</a>"
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "Последняя синхронизация - %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "Последняя синхронизация - более %(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Последняя синхронизация - %(translatedTimeAgo)s в %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Последняя синхронизация - более %(translatedTimeAgo)s в %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Последняя синхронизация - %(translatedTimeAgo)s, примерное местоположение - %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Последняя синхронизация - более %(translatedTimeAgo)s, примерное местоположение - %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "Время последней синхронизации неизвестно"
+
+#~ msgid "Subscribed successfully"
+#~ msgstr "Вы были успешно подписаны"
+
+#~ msgid "Open tabs"
+#~ msgstr "Открытые вкладки"
+
+#~ msgid "Logins"
+#~ msgstr "Логины"
+
+#~ msgid "Credit cards"
+#~ msgstr "Кредитные карты"
+
+#~ msgid "Firefox Sync"
+#~ msgstr "Firefox Sync"
+
+#~ msgid "Accounts with two-step authentication do not support pairing at this time"
+#~ msgstr "В настоящее время аккаунты со включённой двухэтапной аутентификацией не поддерживают сопряжение"
+
+#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+#~ msgstr "Вы имели в виду <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+
+#~ msgid "Please try again later"
+#~ msgstr "Пожалуйста, попробуйте позже"
+
+#~ msgid "Service unavailable, try again soon"
+#~ msgstr "Служба недоступна, подождите и повторите попытку"
+
+#~ msgid "%(email)s registered"
+#~ msgstr "%(email)s зарегистрирован"
+
+#~ msgid "Save selections"
+#~ msgstr "Сохранить выбранное"
+
+#~ msgid "Sign in to continue"
+#~ msgstr "Войдите, чтобы продолжить"
+
+#~ msgid "Create an account"
+#~ msgstr "Создать аккаунт"
+
+#~ msgid "Use security code"
+#~ msgstr "Использовать защитный код"
+
+#~ msgid "Enter code"
+#~ msgstr "Введите код"
+
+#~ msgid "Use recovery code"
+#~ msgstr "Использовать код восстановления"
+
+#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+#~ msgstr "Не потеряйте этот пароль. Если вам потребуется его сбросить, вы можете потерять данные синхронизации."
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr ""
+#~ "<span>Не используйте повторно свой пароль для электронной почты</span>Если кто-то узнает ваш пароль для электронной почты, он сможет одобрить вход в ваш Firefox на новом устройстве и получить "
+#~ "доступ к вашим данным."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>Запомните свой пароль</span>Если вам потребуется сбросить свой пароль, вы потеряете все данные синхронизации, не находящиеся на одном из ваших устройств."
+
+#~ msgid "Have an account? Sign in"
+#~ msgstr "Уже есть аккаунт? Войти"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "Установите Firefox на ваш смартфон и войдите, чтобы завершить настройку"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Ссылка на приложение отправлена на %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Ошиблись&nbsp;номером?</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Ссылка на приложение повторно отправлена на %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Ошиблись&nbsp;номером?</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "Если вы не получили текстовое сообщение, то вы можете загрузить приложение вручную."
+
+#~ msgid "Disconnect from Sync?"
+#~ msgstr "Отсоединиться от Синхронизации?"
+
+#~ msgid "Suspicious device"
+#~ msgstr "Подозрительное устройство"
+
+#~ msgid "Lost or stolen device"
+#~ msgstr "Потерянное или украденное устройство"
+
+#~ msgid "Old or replaced device"
+#~ msgstr "Старое или заменённое устройство"
+
+#~ msgid "Duplicate device"
+#~ msgstr "Дубликат устройства"
+
+#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+#~ msgstr ""
+#~ "Вы будете получать почтовые сообщения, касающиеся безопасности вашего аккаунта, изменений политики использования, функциональности аккаунта, а также сообщение с приветствием, описывающее "
+#~ "основные функции Аккаунтов Firefox."
+
+#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+#~ msgstr "Помимо этого, вы можете подписаться на почтовую рассылку новостей от Mozilla и Firefox."
+
+#~ msgid "Subscribe"
+#~ msgstr "Подписаться"
+
+#~ msgid "Manage preferences"
+#~ msgstr "Управление настройками"
+
+#~ msgid ""
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
+#~ msgstr ""
+#~ "Если вы используете этот аккаунт для приложений Mozilla и сервисов вроде AMO, Pocket и Screenshots, вам следует сначала войти и удалить сохранённую личную информацию. Если вы удалите свой "
+#~ "аккаунт здесь, вы можете потерять к нему доступ везде."
+
+#~ msgid "verified"
+#~ msgstr "подтверждено"
+
+#~ msgid "verification required"
+#~ msgstr "требуется подтверждение"
+
+#~ msgid "Recovery codes"
+#~ msgstr "Коды восстановления"
+
+#~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
+#~ msgstr "Это ваши одноразовые коды восстановления. Храните их в надежном месте на случай, если вы потеряете доступ к своему мобильному устройству. Вы не сможете увидеть эти коды снова."
+
+#~ msgid "Manually enter this secret key into your authentication app:"
+#~ msgstr "Вручную введите этот секретный ключ в свое приложение для аутентификации:"
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "Пароль вашего Аккаунта Firefox"
+
+#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+#~ msgstr "Будьте оригинальны и оставайтесь в безопасности &mdash; не используйте этот пароль где-либо ещё."
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "Запомните этот пароль &mdash; его сброс удаляет ваши данные с наших серверов."
+
+#~ msgid "Get App"
+#~ msgstr "Загрузить приложение"
+
+#~ msgid "Get the most out of your account"
+#~ msgstr "Возьмите максимум от своего аккаунта"
+
+#~ msgid "Sync these everywhere you sign in"
+#~ msgstr "Синхронизируйте данные на всех устройствах"
+
+#~ msgid "Practical knowledge is coming to your inbox"
+#~ msgstr "Практические знания в вашем почтовом ящике"
+
+#~ msgid "Sign up for more:"
+#~ msgstr "Подписаться и получить больше:"
+
+#~ msgid "Invite me to test new Mozilla products"
+#~ msgstr "Приглашать меня на тестирование новинок Mozilla"
+
+#~ msgid "One last step"
+#~ msgstr "Последний шаг"
+
+#~ msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
+#~ msgstr "Проверьте %(escapedEmail)s — туда придет ссылка подтверждения, после чего мы отправим вас в путь."
+
+#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
+#~ msgstr "Войдите в <span class=\"service\">ваш аккаунт Firefox</span>"
+
+#~ msgid "Create your Firefox account"
+#~ msgstr "Создать аккаунт Firefox"
+
+#~ msgid "You did it! You’re signed in."
+#~ msgstr "Вы это сделали! Вход выполнен."
+
+#~ msgid "Now get Firefox everywhere else."
+#~ msgstr "Теперь загрузите Firefox везде, где он вам потребуется."
+
+#~ msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
+#~ msgstr "Войдите на других ваших устройствах, чтобы получить доступ ко всем продуктам, знаниям и функциям приватности Firefox."
+
+#~ msgid "Get more from these features:"
+#~ msgstr "Получите больше с этими возможностями:"
+
+#~ msgid "Travel the internet with protection, on every device."
+#~ msgstr "Путешествуйте по Интернету с защитой, на каждом вашем устройстве."
+
+#~ msgid "Keep your passwords protected and portable."
+#~ msgstr "Ваши пароли будут храниться под защитой и будут переносимы."
+
+#~ msgid "Share large files without prying eyes."
+#~ msgstr "Делитесь большими файлами, скрыв их от любопытных глаз."
+
+#~ msgid "Could not get Subscription Platform Terms of Service"
+#~ msgstr "Не удалось загрузить условия использования платформы подписки"
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+#~ msgstr ""
+#~ "Продолжая, вы принимаете <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Условия службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Уведомление о конфиденциальности</"
+#~ "a>."
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Условия использования платформы подписки"
+
+#~ msgid "Description of Issue"
+#~ msgstr "Описание проблемы"
+
+#~ msgid "Any subscriptions you have will be cancelled"
+#~ msgstr "Все ваши подписки будут отменены"
+
+#~ msgid "Expired or invalid code"
+#~ msgstr "Истёкший или некорректный код"
+
+#~ msgid "Sync these everywhere you sign in:"
+#~ msgstr "Синхронизируйте данные, где вы вошли:"
+
+#~ msgid "Enable Sync"
+#~ msgstr "Включить синхронизацию"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
+#~ msgstr "Пожалуйста, введите код подтверждения, который был отправлен на %(escapedEmail)s в течение 20 минут."
+
+#~ msgid "Your message was sent to support"
+#~ msgstr "Ваше сообщение отправлено в службу поддержки"
+
+#~ msgid "Expired or invalid signup code"
+#~ msgstr "Просроченный или некорректный код регистрации"
+
+#~ msgid "%(email)s registered."
+#~ msgstr "%(email)s зарегистрирован."
+
+#~ msgid "Communication preferences"
+#~ msgstr "Настройки коммуникации"
+
+#~ msgid "Manage Subscriptions"
+#~ msgstr "Управление подписками"
+
+#~ msgid "Refresh Status"
+#~ msgstr "Обновить статус"
+
+#~ msgid "Approve connections <small>to begin syncing</small>"
+#~ msgstr "Подтвердите подключение <small>для начала синхронизации</small>"
+
+#~ msgid "Approve connection"
+#~ msgstr "Подтвердить подключение"
+
+#~ msgid "Approve this connection <small>from this device</small>"
+#~ msgstr "Подтвердите подключение <small>этого устройства</small>"
+
+#~ msgid "Use a different email address"
+#~ msgstr "Использовать другой адрес электронной почты"
+
+#~ msgid "Sign in &rarr;"
+#~ msgstr "Войти в «&rarr;»"
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "Ошибка подключения к удалённому устройству"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "Не удалось расшифровать сообщение от удалённого устройства"
+
+#~ msgid "Save settings"
+#~ msgstr "Сохранить параметры"
+
+#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
+#~ msgstr "Неизвестный Аккаунт Firefox. <a href=\"/signup\">Зарегистрируйтесь</a>, используя ваш предыдущий адрес электронной почты учётной записи дополнений, чтобы получить доступ к вашим данным."
+
+#~ msgid "App link resent to %(phoneNumber)s"
+#~ msgstr "Ссылка на приложение отправлена на %(phoneNumber)s"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "Предоставлено <a href=\"https://www.gravatar.com\">Gravatar</a>"
+
+#~ msgid "Unsubscribed successfully"
+#~ msgstr "Вы были успешно отписаны"
+
+#~ msgid "Email resent"
+#~ msgstr "Письмо повторно отправлено"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Gravatar не найден"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+#~ msgstr "Вы имели в виду <span tabindex=\"1\">%(escapedDomain)s</span>?"
+
+#~ msgid "Resources failed to load"
+#~ msgstr "Не удалось загрузить ресурсы"
+
+#~ msgid "Unexpected resource error"
+#~ msgstr "Неожиданная ошибка ресурса"
+
+#~ msgid "Script error"
+#~ msgstr "Ошибка сценария"
+
+#~ msgid "SMS sent"
+#~ msgstr "SMS отправлено"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "Ваш номер был заблокирован"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "SMS не отправлено, пожалуйста, попробуйте снова"
+
+#~ msgid "Learn more."
+#~ msgstr "Узнать больше."
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s создан"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "В настоящее время дополнения и настройки не синхронизируются на мобильных устройствах."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Щёлкните здесь, чтобы получить новую ссылку для восстановления"
+
+#~ msgid "Enter new password"
+#~ msgstr "Введите новый пароль"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Как только вы отправите свой новый пароль, вы потеряете все данные синхронизации, не находящиеся на одном из ваших устройств."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "Узнайте, как работает синхронизация."
+
+#~ msgid "Submit new password"
+#~ msgstr "Отправить новый пароль"
+
+#~ msgid "Email Sent"
+#~ msgstr "Письмо отправлено"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Ссылка для подтверждения была отправлена&nbsp;на %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Чтобы лучше защищать данные вашего Firefox, мы отправили ссылку подтверждения на %(email)s"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "Не пришло и не попало в папку для спама? Повторить отправку"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "Щёлкните по ссылке, которую мы отправили вам на %(email)s в течение часа, чтобы создать новый пароль."
+
+#~ msgid "This device is connected"
+#~ msgstr "Это устройство подключено"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "Откройте настройки и выберите Войти в Firefox, чтобы завершить настройку"
+
+#~ msgid "Why is this required?"
+#~ msgstr "Почему это обязательно?"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Требуется поддержка cookies и локального хранилища."
+
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Продолжая, вы принимаете <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Условия службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Уведомление о конфиденциальности</"
+#~ "a> облачных сервисов Firefox."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Облачные сервисы Firefox"
+
+#~ msgid "Proceed"
+#~ msgstr "Продолжить"
+
+#~ msgid "Reset account"
+#~ msgstr "Сбросить учетную запись"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Когда вы сбросите свой пароль, вы потеряете все данные синхронизации, не находящиеся на одном из ваших устройств."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Помните пароль? Войти."
+
+#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Ищете данные ваших дополнений? <a href=\"/signup\">Зарегистрируйте</a> Аккаунт Firefox с вашим старым адресом электронной почты дополнений."
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "Мигрируйте свои данные синхронизации, войдя в свой Аккаунт&nbsp;Firefox"
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "Чтобы лучше защитить данные вашего Firefox, мы отправили на вашу электронную почту %(email)s код авторизации."
+
+#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+#~ msgstr "Ищете Синхронизацию Firefox? <a href=\"%(escapedSyncSuggestionUrl)s\">Начните здесь</a>"
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "Мигрируйте свои данные синхронизации, создав новый Аккаунт&nbsp;Firefox"
+
+#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Ищете данные ваших дополнений? Зарегистрируйте Аккаунт Firefox с вашим старым адресом электронной почты дополнений."
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "Сильный, уникальный пароль обеспечит защиту данных вашего Firefox от злоумышленников."
+
+#~ msgid "Receive the monthly Firefox newsletter"
+#~ msgstr "Получать ежемесячную новостную рассылку о Firefox"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "Услуга SMS доступна только для телефонных номеров США. Может взиматься плата за SMS. Получатель электронного письма или SMS должен дать согласие. <a %(escapedLearnMoreAttributes)s>Узнать больше</"
+#~ "a>"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "Ссылка на приложение отправлена на %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Ошиблись номером?</a>"
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Зачем синхронизировать два (или более!) устройств?"
+
+#~ msgid ""
+#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
+#~ "to Firefox for desktop will appear."
+#~ msgstr ""
+#~ "Синхронизация позволяет вам делиться закладками, историей и паролями, которые вы сохранили в Firefox на одном устройстве, с Firefox на других устройствах. Войдите в Firefox на вашем телефоне или "
+#~ "планшете, и всё, чтобы вы сохранили в Firefox на компьютере, появится на них."
+
+#~ msgid ""
+#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
+#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
+#~ msgstr ""
+#~ "Синхронизация не разработана для резервного копирования - это просто обмен тем, что сохраняется локально. Если вы сбросите ваш пароль, а ваши данные не хранятся на хотя бы одном другом "
+#~ "устройстве, то вы можете потерять всю информацию, привязанную к старому паролю. Вот почему вы можете захотеть установить Firefox и использовать Синхронизацию на более чем одном устройстве."
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "current device"
+#~ msgstr "текущее устройство"
+
+#~ msgid "current session"
+#~ msgstr "текущая сессия"
+
+#~ msgid "none connected"
+#~ msgstr "ничего не подключено"
+
+#~ msgid "Receive the monthly Firefox newsletter."
+#~ msgstr "Получать ежемесячную новостную рассылку о Firefox."
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Отписаться"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "Вы уверены что хотите удалить свой аккаунт? Это действие нельзя отменить."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Войти в Синхронизацию"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "Выберите аккаунт, который вы хотите использовать, чтобы синхронизировать свои вкладки, закладки, пароли и другое."
+
+#~ msgid "Use OpenID"
+#~ msgstr "Использовать OpenID"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "Использовать Аккаунт Firefox"
+
+#~ msgid "first sync %(translatedTimeAgo)s"
+#~ msgstr "первая синхронизация %(translatedTimeAgo)s"
+
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "последняя синхронизация - %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "последняя активность - %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "время последней синхронизации неизвестно"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "%(escapedEmail)s зарегистрировано. <a %(escapedBackLinkParams)s>Опечатка в электронной почте?</a>"
+
+#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+#~ msgstr "Поищите письмо со ссылкой подтверждения входа, отправленное на %(email)s"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Вход подтверждён"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "Оповещения аккаунта также будут присылаться на %(secondaryEmailVerified)s"
+
+#~ msgid "We may send you emails related to your Firefox Account."
+#~ msgstr "Мы можем отправлять вам электронные письма, относящиеся к вашему Аккаунту Firefox."
+
+#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+#~ msgstr "Кроме того, вы можете решить, получать ли последние новости о Mozilla и Firefox."
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+#~ msgstr "Дополнительный адрес эл. почты используется для получения оповещений безопасности и подтверждения синхронизации новых устройств."
+
+#~ msgid "Not in inbox or spam folder? Resend?"
+#~ msgstr "Нет в папке Входящие или в спаме? Отправить снова?"
+
+#~ msgid "Codes copied"
+#~ msgstr "Коды скопированы"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "Не удалось скопировать коды. Пожалуйста, скопируйте их вручную."
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Неверный код подтверждения входа"
+
+#~ msgid "Print button image"
+#~ msgstr "Изображение кнопки Печать"
+
+#~ msgid "Download button image"
+#~ msgstr "Изображение кнопки Загрузка"
+
+#~ msgid "Sign in to continue."
+#~ msgstr "Войдите, чтобы продолжить."
+
+#~ msgctxt "submit button"
+#~ msgid "Sign in"
+#~ msgstr "Войти"
+
+#~ msgctxt "header text"
+#~ msgid "Sign in"
+#~ msgstr "Войти"
+
+#~ msgctxt "button text"
+#~ msgid "Sign in"
+#~ msgstr "Войти"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
+#~ msgstr ""
+#~ "<span>ПОМНИТЕ:</span> Если вы сбросите свой пароль, то некоторые ваши данные будут удалены (включая данные, синхронизированные на сервере, такие как история и закладки). Это произойдёт потому, "
+#~ "что мы зашифровали ваши данные с помощью вашего пароля, чтобы защитить вашу приватность."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
+#~ msgstr ""
+#~ "<span>ПРИМЕЧАНИЕ:</span> Если вы сбросите свой пароль, то некоторые ваши данные будут удалены (включая данные, синхронизированные на сервере, такие как история и закладки). Это произойдёт "
+#~ "потому, что мы зашифровали ваши данные с помощью вашего пароля, чтобы защитить вашу приватность."
+
+#~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
+#~ msgstr "Добавьте в свой аккаунт ещё один уровень защиты, включив использование защитных кодов от одного из <a %(escapedTotpSupportAttributes)s>этих приложений для авторизации.</a>"
+
+#~ msgid ""
+#~ "\n"
+#~ "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "                Эти коды можно будет только посмотреть и использовать только один раз. Храните их в безопасном месте, на случай, если вы потеряете доступ к вашему мобильному устройству.\n"
+#~ "            "
+
+#~ msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
+#~ msgstr "Добавьте в свой аккаунт ещё один уровень защиты, включив использование защитных кодов от одного из этих приложений для авторизации."
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+#~ msgstr "Дополнительный адрес эл. почты используется для получения оповещений безопасности и подтверждения синхронизации новых устройств"
+
+#~ msgid "Unlock…"
+#~ msgstr "Разблокировать…"
+
+#~ msgid "verify to unlock section"
+#~ msgstr "подтвердите разблокировку"
+
+#~ msgid "Enter 8-digit recovery code"
+#~ msgstr "Введите 8-значный код восстановления"
+
+#~ msgid "Reverify to unlock section"
+#~ msgstr "Переподтвердите, чтобы разблокировать раздел"
+
+#~ msgid "Add an extra layer of security to your account by requiring security codes."
+#~ msgstr "Добавьте в свой аккаунт ещё один уровень защиты, включив использование защитных кодов."
+
+#~ msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
+#~ msgstr "Просканируйте QR-код в своем приложении, и убедитесь, что оно настроено правильно, введя предоставленный им защитный код."
+
+#~ msgid "Can't scan code?"
+#~ msgstr "Не можете отсканировать код?"
+
+#~ msgid "over %(translatedTimeAgo)s"
+#~ msgstr "более %(translatedTimeAgo)s"
+
+#~ msgid "last sync over %(translatedTimeAgo)s"
+#~ msgstr "последняя синхронизация - более %(translatedTimeAgo)s"
+
+#~ msgid "last active over %(translatedTimeAgo)s"
+#~ msgstr "последняя активность - более %(translatedTimeAgo)s"
+
+#~ msgid "Verify password"
+#~ msgstr "Подтвердите пароль"
+
+#~ msgid "Next"
+#~ msgstr "Далее"
+
+#~ msgid "started syncing %(translatedTimeAgo)s"
+#~ msgstr "синхронизация началась %(translatedTimeAgo)s"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend?"
+#~ msgstr "Не пришло и не попало в папку для спама? Повторить отправку?"
+
+#~ msgid "A verification link has been sent to %(email)s"
+#~ msgstr "Ссылка для подтверждения была отправлена на %(email)s"
+
+#~ msgid "Verification emailed to %(email)s"
+#~ msgstr "Подтверждение отправлено на %(email)s"
+
+#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
+#~ msgstr "минимум 8 символов, но длиннее, если вы планируете синхронизировать пароли."
+
+#~ msgid "This is a common password; please consider another one."
+#~ msgstr "Это слишком популярный пароль; пожалуйста, используйте другой."
+
+#~ msgid "Signed out successfully"
+#~ msgstr "Выход успешно произведён"
+
+#~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
+#~ msgstr "Неверный пароль. Чтобы проверить, что вы ввели, нажмите и удерживайте кнопку Показать."
+
+#~ msgid "Duplicate Device"
+#~ msgstr "Дубликат устройства"
+
+#~ msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
+#~ msgstr "Завершите настройку, установив Firefox с помощью ссылки, отправленной на %(phoneNumber)s"
+
+#~ msgid "Didn’t arrive? Resend"
+#~ msgstr "Не пришло? Отправить снова"
+
+#~ msgid "Reason for disconnecting…"
+#~ msgstr "Причина для отсоединения…"
+
+#~ msgid "Forgot password"
+#~ msgstr "Забыли пароль"
+
+#~ msgid "Firefox Sync will begin momentarily"
+#~ msgstr "Через несколько мгновений начнётся Синхронизация Firefox"
+
+#~ msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
+#~ msgstr "У вас есть аккаунт с другим адресом эл. почты? <a href=\"%(escapedSignInUri)s\">Войти</a>"
+
+#~ msgid "Devices"
+#~ msgstr "Устройства"
+
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "Будучи в пути, будьте синхронизированы:"
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "Загрузите Firefox для Android"
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "Вы можете управлять вашими устройствами ниже."
+
+#~ msgid "You can manage your devices and apps below."
+#~ msgstr "Вы можете управлять вашими устройствами и приложениями ниже."
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
+#~ msgstr "Вы имели в виду <span tabindex=\"1\">%(domain)s</span>?"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "Ссылка для подтверждения была отправлена на %(email)s"
+
+#~ msgid "Sync preferences"
+#~ msgstr "Настройки синхронизации"
+
+#~ msgid ""
+#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
+#~ msgstr ""
+#~ "Ищете синхронизацию Firefox? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Начните здесь</a>"
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "У вас аккаунт с другим адресом эл. почты? <a href=\"%(signinUri)s\">Войти</a>"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox доступен на <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> и <a href=\"%(linkLinux)s"
+#~ "\">Linux</a>."
+
+#~ msgid "Last active: %(translatedTimeAgo)s"
+#~ msgstr "Последняя активность: %(translatedTimeAgo)s"
+
+#~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
+#~ msgstr "Это слишком популярный пароль; пожалуйста, используйте другой. %(moreInfoLink)s"
+
+#~ msgid "Create secure passwords to keep your identity safe"
+#~ msgstr "Создавайте надёжные пароли, чтобы обеспечить безопасность ваших данных"
+
+#~ msgid "Reason for disconnecting&hellip;"
+#~ msgstr "Причина для отсоединения&hellip;"
+
+#~ msgid "Disconnect&hellip;"
+#~ msgstr "Отсоединить&hellip;"
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "Attempt limit exceeded"
+#~ msgstr "Лимит попыток превышен"
+
+#~ msgid "Tabs"
+#~ msgstr "Вкладки"
+
+#~ msgid "Last active: days ago"
+#~ msgstr "Последняя активность: дней назад"
+
+#~ msgid "Last active: hours ago"
+#~ msgstr "Последняя активность: часов назад"
+
+#~ msgid "Last active: minutes ago"
+#~ msgstr "Последняя активность: минут назад"
+
+#~ msgid "Last active: months ago"
+#~ msgstr "Последняя активность: месяцев назад"
+
+#~ msgid "Last active: seconds ago"
+#~ msgstr "Последняя активность: секунд назад"
+
+#~ msgid "Last active: weeks ago"
+#~ msgstr "Последняя активность: недель назад"
+
+#~ msgid "Last active: years ago"
+#~ msgstr "Последняя активность: лет назад"
+
+#~ msgid "Resend email"
+#~ msgstr "Повторно отправить письмо"
+
+#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
+#~ msgstr "Ищете синхронизацию Firefox? <a href=\"https://mozilla.org/firefox/sync\">Начните здесь.</a>"
+
+#~ msgid "Send me the monthly Firefox newsletter."
+#~ msgstr "Отправлять мне ежемесячную новостную рассылку о Firefox."
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "Уже есть аккаунт? Войти."
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "Не видите все ваши устройства?"
+
+#~ msgid "days ago"
+#~ msgstr "дней назад"
+
+#~ msgid "hours ago"
+#~ msgstr "часов назад"
+
+#~ msgid "minutes ago"
+#~ msgstr "минут назад"
+
+#~ msgid "months ago"
+#~ msgstr "месяцев назад"
+
+#~ msgid "seconds ago"
+#~ msgstr "секунд назад"
+
+#~ msgid "weeks ago"
+#~ msgstr "недель назад"
+
+#~ msgid "years ago"
+#~ msgstr "лет назад"
+
+#~ msgid "Account unlocked, please try again"
+#~ msgstr "Аккаунт разблокирован, попробуйте еще раз"
+
+#~ msgid "Account unlocked"
+#~ msgstr "Аккаунт разблокирован"
+
+#~ msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+#~ msgstr "Аккаунт заблокирован. <a href=\"/confirm_account_unlock\">Отправьте письмо для разблокировки</a>"
+
+#~ msgid "Unlock link expired"
+#~ msgstr "Срок жизни ссылки для разблокировки истёк"
+
+#~ msgid "Unlock link damaged"
+#~ msgstr "Ссылка для разблокировки повреждена"
+
+#~ msgid "Unlock error"
+#~ msgstr "Ошибка разблокировки"
+
+#~ msgid "Unlock email sent"
+#~ msgstr "Письмо для разблокировки отправлено"
+
+#~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
+#~ msgstr ""
+#~ "По соображениям безопасности ваш аккаунт был поставлен на блокировку. Для выполнения действий на уровне аккаунта, пожалуйста, повторно подтвердите свой аккаунт, щёлкнув по ссылке для "
+#~ "подтверждения, отправленной на %(email)s"
+
+#~ msgid "Signup has been disabled"
+#~ msgstr "Регистрация была отключена"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "Подтвердить новый вход в Firefox"
+
+#~ msgid "You signed in to Firefox from %(device)s, %(location)s."
+#~ msgstr "Вы вошли в Firefox с %(device)s, %(location)s."
+
+#~ msgid "You signed in to Firefox from %(device)s."
+#~ msgstr "Вы вошли в Firefox с %(device)s."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+#~ msgstr "Для дополнительной безопасности, пожалуйста, подтвердите этот вход для начала синхронизации с %(device)s."
+
+#~ msgid "Alternatively:"
+#~ msgstr "В качестве альтернативы:"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+#~ msgstr "Для получения более подробной информации, посетите <a %(supportLinkAttributes)s>Поддержку Mozilla</a>"
+
+#~ msgid "Verify Email"
+#~ msgstr "Подтвердить эл. почту"
+
+#~ msgid "Verify your email to finish your Firefox Account sign-in"
+#~ msgstr "Подтвердите свою почту, чтобы закончить вход в Аккаунт Firefox"
+
+#~ msgid "(current)"
+#~ msgstr "(текущий)"
+
+#~ msgid "Welcome to Sync"
+#~ msgstr "Добро пожаловать в Синхронизацию"
+
+#~ msgid "Invalid data-flow-begin attribute"
+#~ msgstr "Недопустимый атрибут data-flow-begin"
+
+#~ msgid "Home"
+#~ msgstr "Домой"
+
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "Недостающий параметр в теле запроса: %(param)s"
+
+#~ msgid "Sign up"
+#~ msgstr "Регистрация"
+
+#~ msgid "/force_auth requires an email"
+#~ msgstr "/force_auth требует эл. почты"
+
+#~ msgid "A reset link has been sent to %(email)s"
+#~ msgstr "Ссылка сброса пароля была отправлена на %(email)s"
+
+#~ msgid "Are you sure you want to reset your account password?"
+#~ msgstr "Вы уверены, что хотите сбросить пароль своего аккаунта?"
+
+#~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
+#~ msgstr ""
+#~ "Сброс пароля приведёт к стиранию данных вашего веб-сёрфинга с наших серверов. Все данные на ваших устройствах останутся нетронутыми. Начните процесс сброса, введя ниже свой адрес эл. почты."
+
+#~ msgid "a day"
+#~ msgstr "день"
+
+#~ msgid "%d days"
+#~ msgstr "%d дней(я)"
+
+#~ msgid "about an hour"
+#~ msgstr "около часа"
+
+#~ msgid "%d hours"
+#~ msgstr "%d часов(а)"
+
+#~ msgid "about a minute"
+#~ msgstr "около минуты"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d минут(ы)"
+
+#~ msgid "about a month"
+#~ msgstr "около месяца"
+
+#~ msgid "%d months"
+#~ msgstr "%d месяцев(а)"
+
+#~ msgid "a few seconds"
+#~ msgstr "несколько секунд"
+
+#~ msgid "ago"
+#~ msgstr "назад"
+
+#~ msgid "from now"
+#~ msgstr "с данного момента"
+
+#~ msgid "about a year"
+#~ msgstr "около года"
+
+#~ msgid "%d years"
+#~ msgstr "%d лет"
+
+#~ msgid "Age is required"
+#~ msgstr "Необходимо указать возраст"
+
+#~ msgid "Desktop Add-ons"
+#~ msgstr "Дополнения Десктопа"
+
+#~ msgid "Desktop Preferences"
+#~ msgstr "Настройки Десктопа"
+
+#~ msgid "Cookies required"
+#~ msgstr "Необходимы куки"
+
+#~ msgid ""
+#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
+#~ "sessions."
+#~ msgstr ""
+#~ "Пожалуйста, включите куки в своем браузере, что требуется для Аккаунтов Firefox. Куки это небольшие фрагменты данных, хранящиеся в вашем браузере, которые предоставляют нужную функциональность, "
+#~ "такую как запоминание вас в период между сессиями."
+
+#~ msgid "Firefox is coming soon to iOS!"
+#~ msgstr "Firefox скоро приходит на iOS!"
+
+#~ msgid "Sign up to learn more"
+#~ msgstr "Зарегистрируйтесь, чтобы узнать больше"
+
+#~ msgid "1991"
+#~ msgstr "1991"
+
+#~ msgid "1992"
+#~ msgstr "1992"
+
+#~ msgid "1993"
+#~ msgstr "1993"
+
+#~ msgid "1994"
+#~ msgstr "1994"
+
+#~ msgid "1995"
+#~ msgstr "1995"
+
+#~ msgid "1996"
+#~ msgstr "1996"
+
+#~ msgid "1997"
+#~ msgstr "1997"
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "1999"
+#~ msgstr "1999"
+
+#~ msgid "2000"
+#~ msgstr "2000"
+
+#~ msgid "2001"
+#~ msgstr "2001"
+
+#~ msgid "2002"
+#~ msgstr "2002"
+
+#~ msgid "2003"
+#~ msgstr "2003"
+
+#~ msgid "2004"
+#~ msgstr "2004"
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "2006"
+#~ msgstr "2006"
+
+#~ msgid "2007"
+#~ msgstr "2007"
+
+#~ msgid "Year of birth required"
+#~ msgstr "Введите год рождения"
+
+#~ msgid "Valid birthday required"
+#~ msgstr "Введите корректный день рождения"
+
+#~ msgid "Choose What to Sync"
+#~ msgstr "Выберите, что синхронизировать"
+
+#~ msgid "Year of birth"
+#~ msgstr "Год рождения"
+
+#~ msgid "1990 or earlier"
+#~ msgstr "1990 или ранее"
+
+#~ msgid "Month"
+#~ msgstr "Месяц"
+
+#~ msgid "January"
+#~ msgstr "Январь"
+
+#~ msgid "February"
+#~ msgstr "Февраль"
+
+#~ msgid "March"
+#~ msgstr "Март"
+
+#~ msgid "April"
+#~ msgstr "Апрель"
+
+#~ msgid "May"
+#~ msgstr "Май"
+
+#~ msgid "June"
+#~ msgstr "Июнь"
+
+#~ msgid "July"
+#~ msgstr "Июль"
+
+#~ msgid "August"
+#~ msgstr "Август"
+
+#~ msgid "September"
+#~ msgstr "Сентябрь"
+
+#~ msgid "October"
+#~ msgstr "Октябрь"
+
+#~ msgid "November"
+#~ msgstr "Ноябрь"
+
+#~ msgid "December"
+#~ msgstr "Декабрь"
+
+#~ msgid "Day"
+#~ msgstr "День"
+
+#~ msgid "Manage account"
+#~ msgstr "Управление аккаунтом"
+
+#~ msgid "Hello, <span>%(username)s</span>"
+#~ msgstr "Привет, <span>%(username)s</span>"
+
+#~ msgid "Edit profile"
+#~ msgstr "Изменить профиль"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "Enter your email to reset&nbsp;the account password."
+#~ msgstr "Укажите ваш адрес электронной почты для отправки пароля."
+
+#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
+#~ msgstr ""
+#~ "По соображениям безопасности, восстановление вашего пароля сотрёт ваши данные Синхронизации с наших серверов. Новая резервная копия Синхронизации будет создана на основе ваших локальных данных "
+#~ "веб-сёрфинга."
+
+#~ msgid "You are signed in as"
+#~ msgstr "Вы вошли как"
+
+#~ msgid "Already have an account? Sign in."
+#~ msgstr "Уже есть аккаунт? Войти."
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Продолжив, я принимаю <a id=\"service-tos\" href=\"%(termsUri)s\"> Условия Службы</a> и<a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о приватности</a> от %(serviceName)s "
+#~ "(%(serviceUri)s)."
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Продолжая, я согласен с <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Условиями Службы</a> и <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Уведомлением о приватности</a> "
+#~ "Интернет-сервисов Firefox."
+
+#~ msgid "Subscribe to Firefox news and tips"
+#~ msgstr "Подписаться на новости и советы по Firefox"
+
+#~ msgid "%(serviceName)s would like to know…"
+#~ msgstr "%(serviceName)s хотело бы знать…"
+
+#~ msgid "Download Firefox for iOS."
+#~ msgstr "Загрузите Firefox для iOS."
+
+#~ msgid "Download Firefox for your mobile devices."
+#~ msgstr "Загрузите Firefox для ваших мобильных устройств."
+
+#~ msgid "missing search parameter: %(itemName)s"
+#~ msgstr "отсутствует параметр поиска: %(itemName)s"
+
+#~ msgid "Once you're ﬁnished, use your new password to sign in on all of your devices."
+#~ msgstr "Как только вы закончите, используйте новый пароль для входа на все ваши устройства."
+
+#~ msgid "Illegal iframe"
+#~ msgstr "Нелегальный iframe"
+
+#~ msgid "Invalid verification errno"
+#~ msgstr "Некорректное подтверждение с errno"
+
+#~ msgid "Password changed"
+#~ msgstr "Пароль был изменён"
+
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgstr "Неподтверждённый аккаунт. <a href=\"#\" id=\"resend\">Снова послать письмо для подтверждения</a>."
+
+#~ msgid "Password reset. Sign in to continue."
+#~ msgstr "Пароль восстановлен. Войдите, чтобы продолжить."
+
+#~ msgid "Signed out"
+#~ msgstr "Выход произведён"
+
+#~ msgid "Your verification email was just returned. Mistyped email? <a href=\"/signup\">Start over.</a>"
+#~ msgstr "Ваше письмо для подтверждения только что было возвращено. Опечатались в адресе эл. почты? <a href=\"/signup\">Начать сначала.</a>"
+
+#~ msgid "Paste image URL"
+#~ msgstr "Вставить URL изображения"
+
+#~ msgid "Invalid password"
+#~ msgstr "Неправильный пароль"
+
+#~ msgid "Invalid email and password"
+#~ msgstr "Неверный адрес электронной почты и пароль"
+
+#~ msgid "Invalid email or password"
+#~ msgstr "Неверный адрес электронной почты или пароль"
+
+#~ msgid "Old password invalid"
+#~ msgstr "Неверный старый пароль"
+
+#~ msgid "New password invalid"
+#~ msgstr "Неверный новый пароль"
+
+#~ msgid "Passwords don't match"
+#~ msgstr "Пароли не совпадают"
+
+#~ msgid "Please enter an email"
+#~ msgstr "Пожалуйста, введите адрес электронной почты"
+
+#~ msgid "Cannot connect to the internet"
+#~ msgstr "Не удается подключиться к Интернету"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Signed in successfully"
+#~ msgstr "Вход успешно выполнен"
+
+#~ msgid "Create a Firefox Account for %(serviceName)s"
+#~ msgstr "Создать Firefox Аккаунт для %(serviceName)s"
+
+#~ msgid "Change Password"
+#~ msgstr "Сменить пароль"
+
+#~ msgid "Invalid authentication token in request signature"
+#~ msgstr "Неверный аутентификационный токен в подписи запроса"
+
+#~ msgid "No token specified"
+#~ msgstr "Токен не указан"
+
+#~ msgid "No code specified"
+#~ msgstr "Код не указан"
+
+#~ msgid "No email specified"
+#~ msgstr "Электронный адрес не указан"
+
+#~ msgid "No uid specified"
+#~ msgstr "Uid не указан"
+
+#~ msgid "Service unavailable"
+#~ msgstr "Сервис недоступен"
+
+#~ msgid "Completing sign up"
+#~ msgstr "Завершение регистрации"
+
+#~ msgid "Client has sent too many requests"
+#~ msgstr "Клиент отправил слишком много запросов"
+
+#~ msgid "Delete Account"
+#~ msgstr "Удалить аккаунт"

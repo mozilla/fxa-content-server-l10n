@@ -1,0 +1,3514 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2022-08-12 13:05+0000\n"
+"Last-Translator: Itiel <itiel_yn8@walla.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+"X-POOTLE-MTIME: 1394715825.0\n"
+
+#: .es5/views/confirm_reset_password.js:199
+msgid "Password reset"
+msgstr "איפוס ססמה"
+
+#: .es5/views/confirm_reset_password.js:217
+msgid "Password reset successfully. Sign in to continue."
+msgstr "איפוס הססמה הושלם בהצלחה. נא להיכנס לחשבון כדי להמשיך."
+
+#. submit button
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/templates/sign_in_password.mustache:10
+msgid "Sign in"
+msgstr "התחברות"
+
+#: .es5/views/index.js:176
+msgid "Account deleted successfully"
+msgstr "החשבון נמחק בהצלחה"
+
+#: .es5/views/inline_totp_setup.js:156
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr "ניתן להשתמש בקוד %(code)s כדי להגדיר אימות דו־שלבי ביישומים נתמכים."
+
+#: .es5/views/permissions.js:41
+msgid "%(permissionName)s (required)"
+msgstr "%(permissionName)s (נדרש)"
+
+#: .es5/views/permissions.js:45
+msgid "Email address"
+msgstr "כתובת דוא״ל"
+
+#: .es5/views/permissions.js:49
+msgid "Display name"
+msgstr "שם תצוגה"
+
+#: .es5/views/permissions.js:52
+msgid "Account picture"
+msgstr "תמונת חשבון"
+
+#: .es5/views/ready.js:58
+msgid "Welcome back"
+msgstr "ברוכים השבים"
+
+#: .es5/views/ready.js:59
+msgid "Firefox Sync will resume momentarily"
+msgstr "Firefox Sync יחדש את פעולתו בעוד מספר רגעים"
+
+#: .es5/views/ready.js:63 .es5/views/ready.js:68
+msgid "Your password has been reset"
+msgstr "הססמה שלך אופסה"
+
+#: .es5/views/ready.js:64 .es5/views/ready.js:69
+msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgstr "ניתן להשלים את ההתקנה על ידי הקלדת הססמה החדשה במכשירי ה־Firefox הנוספים שלך."
+
+#: .es5/views/ready.js:72
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "כעת באפשרותך לבצע שינויים בחשבון ה־Firefox שלך."
+
+#: .es5/views/ready.js:74
+msgid "Primary email confirmed"
+msgstr "כתובת הדוא״ל הראשית עברה אימות"
+
+#: .es5/views/ready.js:77
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr "התרעות על החשבון תישלחנה מעתה גם אל %(secondaryEmailVerified)s."
+
+#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
+msgid "Secondary email confirmed"
+msgstr "כתובת הדוא״ל המשנית עברה אימות"
+
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+msgid "Sign-in confirmed"
+msgstr "ההתחברות אומתה"
+
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+msgid "You are now ready to use %(serviceName)s"
+msgstr "כעת ניתן להשתמש ב־%(serviceName)s."
+
+#: .es5/views/ready.js:89
+msgid "Account confirmed"
+msgstr "החשבון מאומת"
+
+#: .es5/views/ready.js:94
+msgid "Connected"
+msgstr "מחובר"
+
+#: .es5/views/reset_password.js:111
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "חשבון לא מוכר. <a href=\"/signup\">הרשמה</a>"
+
+#: .es5/views/sign_up_password.js:86
+msgid "Account no longer exists. Recreate it?"
+msgstr "החשבון כבר אינו קיים. האם ליצור אותו מחדש?"
+
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
+msgid "Other"
+msgstr "אחר"
+
+#: .es5/views/support.js:270
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgstr "תודה שפנית לתמיכה של Mozilla לגבי <b>%(escapedLowercaseTopic)s</b>. ניצור איתך קשר בדוא״ל בהקדם האפשרי."
+
+#: .es5/views/support.js:272
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
+msgstr "תודה שפנית לתמיכה של Mozilla לגבי <b>%(escapedLowercaseTopic)s</b> עבור <b>%(escapedSelectedProduct)s</b>. ניצור איתך קשר בדוא״ל בהקדם האפשרי."
+
+#: .es5/views/post_verify/verified.js:53
+msgid "Your sync data is protected"
+msgstr "נתוני הסנכרון שלך מוגנים"
+
+#: .es5/views/post_verify/verified.js:54
+msgid "If you lose access to your account, you’ll be able to restore your sync data."
+msgstr "אם תאבד הגישה לחשבון שלך, יהיה באפשרותך לשחזר את הנתונים המסונכרנים."
+
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "התחלת גלישה"
+
+#: .es5/views/post_verify/verified.js:58
+msgid "Account notifications will now also be sent to %(secondaryEmail)s."
+msgstr "התרעות על החשבון תישלחנה מעתה גם אל %(secondaryEmail)s."
+
+#: .es5/views/post_verify/verified.js:59
+msgid "Continue to %(serviceName)s "
+msgstr "המשך אל %(serviceName)s"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
+msgid "Your account has been locked for security reasons"
+msgstr "חשבונך ננעל מסיבות אבטחה"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+msgid "Reset password"
+msgstr "איפוס ססמה"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:38
+msgid "none"
+msgstr "אין"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:44
+msgid "Last checked: %(lastCheckTime)s"
+msgstr "בדיקה אחרונה: %(lastCheckTime)s"
+
+#: .es5/views/mixins/open-webmail-mixin.js:25
+msgid "Open Gmail"
+msgstr "פתיחת Gmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:30
+msgid "Open Hotmail"
+msgstr "פתיחת Hotmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:35
+msgid "Open Yahoo"
+msgstr "פתיחת Yahoo"
+
+#: .es5/views/mixins/open-webmail-mixin.js:40
+msgid "Open Outlook"
+msgstr "פתיחת Outlook"
+
+#: .es5/views/mixins/open-webmail-mixin.js:45
+msgid "Open Restmail"
+msgstr "פתיחת Restmail"
+
+#: .es5/views/mixins/password-mixin.js:149
+msgid "Hide password"
+msgstr "הסתרת ססמה"
+
+#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr "הצגת ססמה"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:77
+msgid "Firefox Recovery Codes"
+msgstr "קודים של Firefox לשחזור"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:142
+msgid "Two-step authentication enabled"
+msgstr "אימות דו־שלבי הופעל"
+
+#: .es5/views/mixins/recovery-key-mixin.js:30
+msgid "Firefox Recovery Key"
+msgstr "מפתח שחזור Firefox"
+
+#: .es5/views/mixins/resend-mixin.js:53
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr "הודעת הדוא״ל נשלחה מחדש. מומלץ להוסיף את accounts@firefox.com לרשימת אנשי הקשר שלך כדי לוודא העברה חלקה."
+
+#: .es5/views/mixins/save-options-mixin.js:59
+msgid "Copied"
+msgstr "הועתק"
+
+#: .es5/views/mixins/save-options-mixin.js:61
+msgid "Failed to copy. Please manually copy."
+msgstr "ההעתקה נכשלה. נא להעתיק ידנית."
+
+#: .es5/views/mixins/save-options-mixin.js:78
+msgid "Downloaded"
+msgstr "הוּרד"
+
+#: .es5/views/mixins/save-options-mixin.js:90
+msgid "Printed"
+msgstr "הודפס"
+
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr "החשבון אומת בהצלחה"
+
+#: .es5/models/support-form.js:25
+msgid "payment & billing"
+msgstr "תשלום וחיוב"
+
+#: .es5/models/support-form.js:25
+msgid "account issues"
+msgstr "בעיות בחשבון"
+
+#: .es5/models/support-form.js:25
+msgid "technical issues"
+msgstr "בעיות טכניות"
+
+#: .es5/models/support-form.js:25
+msgid "provide feedback / request features"
+msgstr "מתן משוב / בקשת תכונות"
+
+#: .es5/models/support-form.js:25
+msgid "not listed"
+msgstr "לא ברשימה"
+
+#: .es5/models/sync-engines.js:58
+msgid "Bookmarks"
+msgstr "סימניות"
+
+#: .es5/models/sync-engines.js:62
+msgid "History"
+msgstr "היסטוריה"
+
+#: .es5/models/sync-engines.js:66
+msgid "Passwords"
+msgstr "ססמאות"
+
+#: .es5/models/sync-engines.js:70
+msgid "Add-ons"
+msgstr "תוספות"
+
+#: .es5/models/sync-engines.js:74
+msgid "Open Tabs"
+msgstr "לשוניות פתוחות"
+
+#: .es5/models/sync-engines.js:78
+msgid "Preferences"
+msgstr "העדפות"
+
+#: .es5/models/sync-engines.js:86
+msgid "Addresses"
+msgstr "כתובות"
+
+#: .es5/models/sync-engines.js:94
+msgid "Credit Cards"
+msgstr "כרטיסי אשראי"
+
+#: .es5/models/reliers/browser.js:88
+msgid "Firefox"
+msgstr "Firefox"
+
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "כתובת הדוא״ל הראשית אומתה בהצלחה"
+
+#: .es5/models/auth_brokers/base.js:114
+msgid "Secondary email verified successfully"
+msgstr "כתובת הדוא״ל המשנית אומתה בהצלחה"
+
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "החשבון אומת בהצלחה"
+
+#: .es5/models/auth_brokers/web.js:38
+msgid "Password reset successfully"
+msgstr "הססמה אופסה בהצלחה"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "שחזור החשבון הופעל"
+
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+msgid "Unexpected error"
+msgstr "שגיאה לא צפויה"
+
+#: .es5/lib/auth-errors.js:27
+msgid "The link you clicked to verify your email is expired."
+msgstr "פג תוקפו של הקישור עליו לחצת לאימות כתובת הדוא״ל שלך."
+
+#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+msgid "You've tried too many times. Try again later."
+msgstr "ניסית להתחבר יותר מידי פעמים. נא לנסות שוב מאוחר יותר."
+
+#: .es5/lib/auth-errors.js:32
+msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
+msgstr "ניסית להתחבר יותר מידי פעמים. נא לנסות שוב %(retryAfterLocalized)s."
+
+#: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
+msgid "Invalid token"
+msgstr "אסימון לא חוקי"
+
+#: .es5/lib/auth-errors.js:44
+msgid "Invalid timestamp in request signature"
+msgstr "חתימת זמן לא חוקית בחתימת הבקשה"
+
+#: .es5/lib/auth-errors.js:48
+msgid "Invalid nonce in request signature"
+msgstr "צופן חד־פעמי שגוי בחתימת הבקשה"
+
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+msgid "Account already exists"
+msgstr "חשבון זה כבר קיים"
+
+#: .es5/lib/auth-errors.js:56
+msgid "Unknown account"
+msgstr "חשבון לא מוכר"
+
+#: .es5/lib/auth-errors.js:60
+msgid "Incorrect email case"
+msgstr "אותיות קטנות/גדולות בדוא״ל שגויות"
+
+#: .es5/lib/auth-errors.js:64
+msgid "Incorrect password"
+msgstr "ססמה שגויה"
+
+#: .es5/lib/auth-errors.js:68
+msgid "Unverified account"
+msgstr "חשבון לא מאומת"
+
+#: .es5/lib/auth-errors.js:72
+msgid "Invalid verification code"
+msgstr "קוד אימות שגוי"
+
+#: .es5/lib/auth-errors.js:76
+msgid "Invalid JSON in request body"
+msgstr "JSON שגוי בגוף ההודעה"
+
+#: .es5/lib/auth-errors.js:80
+msgid "Invalid parameter: %(param)s"
+msgstr "פרמטר לא חוקי: %(param)s"
+
+#: .es5/lib/auth-errors.js:84
+msgid "Missing parameter: %(param)s"
+msgstr "פרמטר חסר: %(param)s"
+
+#: .es5/lib/auth-errors.js:88
+msgid "Invalid request signature"
+msgstr "חתימת הבקשה שגויה"
+
+#: .es5/lib/auth-errors.js:92
+msgid "Missing content-length header"
+msgstr "הכותרת content-length חסרה"
+
+#: .es5/lib/auth-errors.js:96
+msgid "Request body too large"
+msgstr "גוף הבקשה גדול מדי"
+
+#: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
+msgid "The request was blocked for security reasons"
+msgstr "הבקשה נחסמה מסיבות אבטחה"
+
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+msgid "Invalid authorization code"
+msgstr "קוד הרשאה שגוי"
+
+#: .es5/lib/auth-errors.js:127
+msgid "Invalid phone number"
+msgstr "מספר טלפון שגוי"
+
+#: .es5/lib/auth-errors.js:131
+msgid "Cannot send to this country"
+msgstr "לא ניתן לשלוח למדינה זו"
+
+#: .es5/lib/auth-errors.js:140
+msgid "Could not send a message to this number"
+msgstr "לא ניתן לשלוח הודעה למספר זה"
+
+#: .es5/lib/auth-errors.js:144
+msgid "Your email was just returned"
+msgstr "הודעת הדוא״ל שלך חזרה"
+
+#: .es5/lib/auth-errors.js:148
+msgid "Your email was just returned. Mistyped email?"
+msgstr "הודעת הדוא״ל שלך חזרה. הכתובת שגויה?"
+
+#: .es5/lib/auth-errors.js:152
+msgid "Unable to deliver email"
+msgstr "לא ניתן למסור דוא״ל"
+
+#: .es5/lib/auth-errors.js:156
+msgid "This email was already verified by another user"
+msgstr "כתובת זו כבר אומתה על ידי משתמש אחר"
+
+#: .es5/lib/auth-errors.js:160
+msgid "Unverified session"
+msgstr "הפעלה בלתי מאומתת"
+
+#: .es5/lib/auth-errors.js:164
+msgid "Secondary email must be different than your account email"
+msgstr "כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך"
+
+#: .es5/lib/auth-errors.js:172
+msgid "You have reached the maximum allowed secondary emails"
+msgstr "הגעת לכמות המירבית המותרת של כתובות דוא״ל משניות"
+
+#: .es5/lib/auth-errors.js:176
+msgid "This email already exists on your account"
+msgstr "דוא״ל זה כבר קיים בחשבון שלך"
+
+#: .es5/lib/auth-errors.js:184
+msgid "Primary account email required for sign-in"
+msgstr "נדרשת כתובת דוא״ל ראשית כדי להיכנס"
+
+#: .es5/lib/auth-errors.js:188
+msgid "Address in use by another account"
+msgstr "הכתובת בשימוש ע״י חשבון אחר"
+
+#: .es5/lib/auth-errors.js:192
+msgid "Primary account email required for reset"
+msgstr "נדרשת כתובת דוא״ל ראשית כדי לאפס"
+
+#: .es5/lib/auth-errors.js:196
+msgid "Invalid signin code"
+msgstr "קוד כניסה לא תקין"
+
+#: .es5/lib/auth-errors.js:200
+msgid "Can not change primary email to an unverified email"
+msgstr "לא ניתן לשנות את כתובת הדוא״ל הראשית לכתובת שאינה מאומתת"
+
+#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
+msgid "Can not change primary email to an email that does not belong to this account"
+msgstr "לא ניתן לשנות את כתובת הדוא״ל הראשית לכתובת שאינה שייכת לחשבון זה"
+
+#: .es5/lib/auth-errors.js:208
+msgid "This email can not currently be used to login"
+msgstr "לא ניתן להשתמש כרגע בכתובת הדוא״ל הזאת להתחברות"
+
+#: .es5/lib/auth-errors.js:216
+msgid "Failed to send email"
+msgstr "כישלון בשליחת דוא״ל"
+
+#: .es5/lib/auth-errors.js:220
+msgid "Valid code required"
+msgstr "נדרש קוד תקף"
+
+#: .es5/lib/auth-errors.js:224
+msgid "This verification code has expired"
+msgstr "קוד אימות זה פג"
+
+#: .es5/lib/auth-errors.js:228
+msgid "A TOTP token already exists for this account"
+msgstr "אסימון TOTP כבר קיים עבור משתמש זה"
+
+#: .es5/lib/auth-errors.js:232
+msgid "TOTP token not found"
+msgstr "אסימון TOTP לא נמצא"
+
+#: .es5/lib/auth-errors.js:236
+msgid "Recovery code not found"
+msgstr "קוד השחזור לא נמצא"
+
+#: .es5/lib/auth-errors.js:240
+msgid "Unavailable device command"
+msgstr ""
+
+#: .es5/lib/auth-errors.js:244
+msgid "Recovery key not found"
+msgstr "מפתח השחזור לא נמצא"
+
+#: .es5/lib/auth-errors.js:248
+msgid "Invalid recovery key"
+msgstr "מפתח שחזור שגוי"
+
+#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
+msgid "This request requires two step authentication enabled on your account."
+msgstr "בקשה זו דורשת הפעלת אימות דו־שלבי עבור החשבון שלך."
+
+#: .es5/lib/auth-errors.js:256
+msgid "Failed due to a conflicting request, please try again."
+msgstr "נכשל עקב בקשה סותרת, נא לנסות שוב."
+
+#: .es5/lib/auth-errors.js:264
+msgid "Unknown customer for subscription."
+msgstr ""
+
+#: .es5/lib/auth-errors.js:268
+msgid "Unknown subscription."
+msgstr "מינוי לא מוכר."
+
+#: .es5/lib/auth-errors.js:272
+msgid "Unknown plan for subscription."
+msgstr "תוכנית לא מוכרת למינוי."
+
+#: .es5/lib/auth-errors.js:276
+msgid "Invalid payment token for subscription."
+msgstr "אסימון תשלום לא חוקי למינוי."
+
+#: .es5/lib/auth-errors.js:280
+msgid "Subscription has already been cancelled"
+msgstr "המינוי כבר בוטל"
+
+#: .es5/lib/auth-errors.js:284
+msgid "Update was rejected, please try again"
+msgstr "העדכון נדחה, נא לנסות שוב"
+
+#: .es5/lib/auth-errors.js:288
+msgid "Invalid or expired verification code"
+msgstr "קוד אימות לא חוקי או שפג תוקפו"
+
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+msgid "Server busy, try again soon"
+msgstr "השרת עמוס, נא לנסות שוב במועד מאוחר יותר"
+
+#: .es5/lib/auth-errors.js:296
+msgid "Feature not enabled"
+msgstr "התכונה אינה מופעלת"
+
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+msgid "System unavailable, try again soon"
+msgstr "המערכת אינה זמינה, נא לנסות שוב במועד מאוחר יותר"
+
+#: .es5/lib/auth-errors.js:308
+msgid "This endpoint is no longer supported"
+msgstr "נקודת קצה זו אינה נתמכת יותר"
+
+#: .es5/lib/auth-errors.js:316
+msgid "Login attempt cancelled"
+msgstr "ניסיון ההתחברות בוטל"
+
+#: .es5/lib/auth-errors.js:320
+msgid "Session expired. Sign in to continue."
+msgstr "נא להתחבר כדי להמשיך"
+
+#: .es5/lib/auth-errors.js:324
+msgid "Cookies are still disabled"
+msgstr "עוגיות עדיין מנוטרלות"
+
+#: .es5/lib/auth-errors.js:328
+msgid "Passwords do not match"
+msgstr "הססמאות אינן תואמות"
+
+#: .es5/lib/auth-errors.js:332
+msgid "Working…"
+msgstr "בעבודה…"
+
+#: .es5/lib/auth-errors.js:336
+msgid "Could not get Privacy Notice"
+msgstr "לא ניתן לקבל את הצהרת הפרטיות"
+
+#: .es5/lib/auth-errors.js:340
+msgid "Could not get Terms of Service"
+msgstr "לא ניתן לקבל את תנאי השירות"
+
+#: .es5/lib/auth-errors.js:344
+msgid "Your new password must be different"
+msgstr "הססמה החדשה אינה יכולה להיות זהה לססמה הישנה"
+
+#: .es5/lib/auth-errors.js:348
+msgid "Must be at least 8 characters"
+msgstr "על הססמה להיות באורך של 8 תווים לפחות"
+
+#: .es5/lib/auth-errors.js:352
+msgid "Valid password required"
+msgstr "נדרשת ססמה חוקית"
+
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+msgid "Valid email required"
+msgstr "נדרשת כתובת דואר אלקטרוני חוקית"
+
+#: .es5/lib/auth-errors.js:368
+msgid "A usable image was not found"
+msgstr "לא נמצאה תמונה שמישה"
+
+#: .es5/lib/auth-errors.js:372
+msgid "Could not initialize camera"
+msgstr "לא ניתן לאתחל מצלמה"
+
+#: .es5/lib/auth-errors.js:376
+msgid "Valid URL required"
+msgstr "נדרשת כתובת חוקית"
+
+#: .es5/lib/auth-errors.js:392
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr "הודעת האימות שלך לא הגיעה ליעדה. האם כתובת הדוא״ל הוקלדה בצורה שגויה?"
+
+#: .es5/lib/auth-errors.js:400
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr "עליך להזין כתובת דואר אלקטרוני תקינה. firefox.com לא מציע שירותי דוא״ל."
+
+#: .es5/lib/auth-errors.js:408
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "ניתן להציב את Firefox Accounts לתוך IFRAME רק באתרים מורשים"
+
+#: .es5/lib/auth-errors.js:428
+msgid "Verification link damaged"
+msgstr "קישור האימות פגום"
+
+#: .es5/lib/auth-errors.js:436
+msgid "The image dimensions must be at least 100x100px"
+msgstr "ממדי התמונה חייבים להיות לפחות 100×100 פיקסלים"
+
+#: .es5/lib/auth-errors.js:440
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "הרשמה מגיעה בקרוב ל־Firefox עבור iOS"
+
+#: .es5/lib/auth-errors.js:452
+msgid "You must enter your age to sign up"
+msgstr "עליך להכניס את גילך כדי להשלים את ההרשמה"
+
+#: .es5/lib/auth-errors.js:456
+msgid "You must enter a valid age to sign up"
+msgstr "עליך להקליד גיל תקני כדי להירשם"
+
+#: .es5/lib/auth-errors.js:472
+msgid "Account no longer exists."
+msgstr "החשבון כבר לא קיים."
+
+#: .es5/lib/auth-errors.js:476
+msgid "Invalid property in resume token: %(property)s"
+msgstr "מאפיין שגוי באסימון ההמשך: %(property)s"
+
+#: .es5/lib/auth-errors.js:480
+msgid "Missing property in resume token: %(property)s"
+msgstr "מאפיין חסר באסימון ההמשך: %(property)s"
+
+#: .es5/lib/auth-errors.js:484
+msgid "Invalid data attribute: %(property)s"
+msgstr "מאפיין הנתונים שגוי: %(property)s"
+
+#: .es5/lib/auth-errors.js:488
+msgid "Missing data attribute: %(property)s"
+msgstr "מאפיין הנתונים חסר: %(property)s"
+
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+msgid "That confirmation link was already used, and can only be used once."
+msgstr "נעשה שימוש קודם בקישור האימות, וניתן להשתמש בו רק פעם אחת."
+
+#: .es5/lib/auth-errors.js:505
+msgid "This is a required field"
+msgstr "זהו שדה חובה"
+
+#: .es5/lib/auth-errors.js:509
+msgid "Authorization code required"
+msgstr "נדרש קוד הרשאה"
+
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+msgid "Link damaged"
+msgstr "קישור פגום"
+
+#: .es5/lib/auth-errors.js:540
+msgid "Phone number required"
+msgstr "נדרש מספר טלפון"
+
+#: .es5/lib/auth-errors.js:559
+msgid "Two-step authentication code required"
+msgstr "נדרש קוד לאימות דו־שלבי"
+
+#: .es5/lib/auth-errors.js:563
+msgid "Invalid two-step authentication code"
+msgstr "קוד אימות דו־שלבי לא תקין"
+
+#: .es5/lib/auth-errors.js:567
+msgid "Recovery code required"
+msgstr "נדרש קוד שחזור"
+
+#: .es5/lib/auth-errors.js:571
+msgid "Invalid recovery code"
+msgstr "קוד שחזור שגוי"
+
+#: .es5/lib/auth-errors.js:585
+msgid "Recovery key required"
+msgstr "נדרש מפתח שחזור"
+
+#: .es5/lib/auth-errors.js:589
+msgid "Please enter verification code"
+msgstr "נא להקליד את קוד האימות"
+
+#: .es5/lib/auth-errors.js:601
+msgid "Invalid redirect"
+msgstr "הפנייה לא חוקית"
+
+#: .es5/lib/auth-errors.js:613
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr "האם הייתה לך טעות בהקלדת הדוא״ל? %(domain)s לא מציע שירותי דוא״ל."
+
+#: .es5/lib/auth-errors.js:617
+msgid "The image file size is too large to be uploaded."
+msgstr "הקובץ גדול מכדי להעלותו."
+
+#: .es5/lib/config-loader.js:117
+msgid "Missing configuration"
+msgstr "תצורה חסרה"
+
+#: .es5/lib/config-loader.js:121
+msgid "Invalid configuration"
+msgstr "תצורה פגומה"
+
+#: .es5/lib/email-domain-validator.js:40
+msgid "Mistyped email?"
+msgstr "טעות בהקלדת כתובת הדוא״ל?"
+
+#: .es5/lib/newsletters.js:25
+msgid "Test new Firefox products"
+msgstr "בדיקת מוצרי Firefox חדשים"
+
+#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "צפייה בחדשות האחרונות על Mozilla ועל Firefox"
+
+#: .es5/lib/newsletters.js:33
+msgid "Take action to keep the internet healthy"
+msgstr "נקיטת פעולה לשמירת בריאות האינטרנט"
+
+#: .es5/lib/newsletters.js:37
+msgid "Be safer and smarter online"
+msgstr ""
+
+#: .es5/lib/newsletters.js:44
+msgid "Testing Firefox products"
+msgstr "בדיקת מוצרי Firefox"
+
+#: .es5/lib/newsletters.js:52
+msgid "Taking action to keep the internet healthy"
+msgstr "נקיטת פעולה לשמירת בריאות האינטרנט"
+
+#: .es5/lib/newsletters.js:56
+msgid "Safety and privacy online with Firefox and Mozilla"
+msgstr "בטיחות ופרטיות ברשת עם Firefox ו־Mozilla"
+
+#: .es5/lib/oauth-errors.js:34
+msgid "Unknown client"
+msgstr "לקוח לא מוכר"
+
+#: .es5/lib/oauth-errors.js:38
+msgid "Incorrect redirect_uri"
+msgstr "כתובת הפניה לא תקינה"
+
+#: .es5/lib/oauth-errors.js:42
+msgid "Invalid assertion"
+msgstr "טענה לא חוקית"
+
+#: .es5/lib/oauth-errors.js:46
+msgid "Unknown code"
+msgstr "קוד לא ידוע"
+
+#: .es5/lib/oauth-errors.js:50
+msgid "Incorrect code"
+msgstr "קוד שגוי"
+
+#: .es5/lib/oauth-errors.js:54
+msgid "Expired code"
+msgstr "פג התוקף לקוד זה"
+
+#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "פרמטר OAuth לא חוקי: %(param)s"
+
+#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
+msgid "Unauthorized"
+msgstr "לא מורשה"
+
+#: .es5/lib/oauth-errors.js:74
+msgid "Forbidden"
+msgstr "אסור"
+
+#: .es5/lib/oauth-errors.js:89
+msgid "Expired token"
+msgstr "אסימון פג"
+
+#: .es5/lib/oauth-errors.js:133
+msgid "Something went wrong. Please close this tab and try again."
+msgstr "משהו השתבש. נא לסגור לשונית זו ולנסות שוב."
+
+#: .es5/lib/oauth-errors.js:153
+msgid "no message"
+msgstr "אין הודעות"
+
+#: .es5/lib/oauth-errors.js:157
+msgid "Missing OAuth parameter: %(param)s"
+msgstr "פרמטר OAuth חסר: %(param)s"
+
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr "המשתמש אינו מחובר"
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr "משתמש אחר מחובר"
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:196
+msgid "Invalid id_token_hint"
+msgstr "‏id_token_hint לא תקין"
+
+#: .es5/lib/pairing-channel-client-errors.js:44
+msgid "Invalid message from the remote device"
+msgstr "הודעה שגויה מההתקן המרוחק"
+
+#: .es5/lib/pairing-channel-client-errors.js:52
+msgid "Error pairing to remote device"
+msgstr "שגיאה בצימוד למכשיר מרוחק"
+
+#: .es5/lib/pairing-channel-client-errors.js:56
+msgid "Connection to remote device closed, please try again"
+msgstr "החיבור למכשיר המרוחק נסגר, נא לנסות שוב"
+
+#: .es5/lib/profile-errors.js:29
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "משתנה שגוי בגוף הבקשה: %(param)s"
+
+#: .es5/lib/profile-errors.js:33
+msgid "Unsupported image provider"
+msgstr "ספק תמונות אינו נתמך"
+
+#: .es5/lib/profile-errors.js:37
+msgid "Image processing error"
+msgstr "שגיאת עיבוד תמונה"
+
+#: .es5/lib/profile-errors.js:49
+msgid "Invalid Token"
+msgstr "אסימון לא חוקי"
+
+#: .es5/lib/strings.js:25
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr "המשך התהליך מהווה הסכמה ל<a id=\"service-tos\" href=\"%(termsUri)s\">תנאי השירות</a> ול<a id=\"service-pp\" href=\"%(privacyUri)s\">הצהרת הפרטיות</a> של %(serviceName)s‏ (%(serviceUri)s)."
+
+#: .es5/lib/strings.js:31
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">עזרה</a>"
+
+#: .es5/lib/strings.js:34
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "קבלו את החדשות העדכניות ביותר על Mozilla ו־Firefox."
+
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
+msgid "%(city)s, %(country)s (estimated)"
+msgstr "‏%(city)s,‏ %(country)s (משוער)"
+
+#: .es5/lib/strings.js:37
+msgid "%(country)s (estimated)"
+msgstr "%(country)s (משוער)"
+
+#: .es5/lib/strings.js:38
+msgid "IP address: %(ip)s"
+msgstr "כתובת IP:‏ %(ip)s"
+
+#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
+msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+msgstr "לצורך אבטחה מוגברת, נא לאשר התחברות זו על מנת להתחיל בסנכרון עם מכשיר זה:"
+
+#: .es5/templates/400.mustache:1
+msgid "Bad Request"
+msgstr "בקשה שגויה"
+
+#: .es5/templates/500.mustache:1
+msgid "500 Error"
+msgstr "שגיאה 500"
+
+#: .es5/templates/500.mustache:2
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "שוד ושבר, משהו השתבש. אנו מודעים לבעיה ופועלים לתיקונה."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+msgid "Reset password link expired"
+msgstr "פג תוקף הקישור לאיפוס הססמה"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+msgid "The link you clicked to reset your password is expired."
+msgstr "פג תוקף הקישור לאיפוס הססמה עליו לחצת."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+msgid "Receive new link"
+msgstr "קבלת קישור חדש"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5
+msgid "Reset password with recovery key"
+msgstr "איפוס ססמה עם מפתח שחזור"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "המשך אל %(serviceName)s"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:7
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr "יש להזין את מפתח השחזור החד פעמי ששמרת במקום בטוח כדי לקבל גישה לחשבון Firefox שלך."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:8
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr "<span class=\"note\">הערה:</span> איפוס הססמה ללא שמירת מפתח שחזור החשבון יגרור מחיקה של חלק מהנתונים שלך (כולל נתונים מסונכרנים כמו היסטוריה וסימניות)."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Enter recovery key"
+msgstr "נא להקליד מפתח שחזור"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+msgid "Confirm recovery key"
+msgstr "נא לחזור שנית על מפתח השחזור"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Don't have a recovery key?"
+msgstr "אין לך מפתח שחזור?"
+
+#: .es5/templates/cannot_create_account.mustache:1
+msgid "Cannot create account"
+msgstr "לא ניתן ליצור חשבון"
+
+#: .es5/templates/cannot_create_account.mustache:2
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr "עליך לעמוד בדרישות הגיל כדי ליצור חשבון&nbsp;Firefox."
+
+#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "מידע נוסף"
+
+#: .es5/templates/choose_what_to_sync.mustache:1
+msgid "Choose what to sync:"
+msgstr "נא לבחור את הפריטים שיסונכרנו:"
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Sync selections"
+msgstr "בחירת פריטים לסנכרון"
+
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+msgid "Don’t sync this device"
+msgstr "לא לסנכרן את המכשיר הזה"
+
+#: .es5/templates/complete_reset_password.mustache:5
+msgid "Reset password link damaged"
+msgstr "קישור לאיפוס ססמה פגום"
+
+#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "לקישור שלחצת חסרים תווים, ויתכן שנפגם על ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולבדוק שנית."
+
+#: .es5/templates/complete_reset_password.mustache:8
+msgid "Create new password"
+msgstr "יצירת ססמה חדשה"
+
+#: .es5/templates/complete_reset_password.mustache:9
+msgid ""
+"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+"<span>יש לזכור:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה "
+"שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־Pocket שלך לא יושפעו."
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr "שחזרת בהצלחה את החשבון שלך באמצעות מפתח שחזור. עליך ליצור ססמה חדשה כדי להגן על הנתונים שלך ולאחסן אותה במיקום בטוח."
+
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "ססמה חדשה"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "הזנת הססמה מחדש"
+
+#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+msgid "Remember password? Sign in"
+msgstr "נזכרת בססמה? התחברות"
+
+#: .es5/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr "כתובת הדוא״ל הראשית כבר עברה אימות"
+
+#: .es5/templates/complete_sign_up.mustache:3
+msgid "Sign-in already confirmed"
+msgstr "ההתחברות כבר אושרה"
+
+#: .es5/templates/complete_sign_up.mustache:6
+msgid "Confirmation link expired"
+msgstr "פג תוקף קישור האימות"
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr "פג תוקפו של הקישור עליו לחצת לאימות כתובת הדוא״ל שלך."
+
+#: .es5/templates/complete_sign_up.mustache:8
+msgid "Click here to receive a new confirmation link"
+msgstr "נא ללחוץ כאן לקבלת קישור לקוד אימות חדש"
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr "קישור האימות פגום"
+
+#: .es5/templates/complete_sign_up.mustache:14
+msgid "Confirmation error"
+msgstr "שגיאת אימות"
+
+#: .es5/templates/confirm.mustache:3
+msgid "Confirm your account"
+msgstr "אימות החשבון שלך"
+
+#: .es5/templates/confirm.mustache:5
+msgid "Confirm this sign-in"
+msgstr "אישור התחברות זו"
+
+#: .es5/templates/confirm.mustache:7
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr "נא לחפש בתיבת הדואר הנכנס שלך קישור אימות שנשלח אל %(escapedEmail)s"
+
+#: .es5/templates/confirm.mustache:9
+msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr "נא לבדוק את הדוא״ל שלך לאישור הכניסה שנשלח ל־%(escapedEmail)s"
+
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
+msgid "Not in inbox or spam folder? Resend"
+msgstr "לא בתיקיית הדואר הנכנס או הספאם? שליחה חוזרת"
+
+#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+msgid "Back"
+msgstr "חזרה"
+
+#: .es5/templates/confirm_reset_password.mustache:1
+msgid "Reset email sent"
+msgstr "הודעת דואר אלקטרוני לאיפוס נשלחה"
+
+#: .es5/templates/confirm_reset_password.mustache:2
+msgid "Click the link emailed to %(email)s within the next hour to create a new password."
+msgstr "נא ללחוץ על הקישור שנשלח בדוא״ל אל %(email)s בשעה הקרובה כדי ליצור ססמה חדשה."
+
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr "נא להכניס את קוד האימות"
+
+#: .es5/templates/confirm_signup_code.mustache:2
+msgid "for your Firefox account"
+msgstr "עבור חשבון ה־Firefox שלך"
+
+#: .es5/templates/confirm_signup_code.mustache:3
+msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr "נא להכניס את הקוד שנשלח אל %(escapedEmail)s תוך 5 דקות."
+
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+msgid "Enter 6-digit code"
+msgstr "נא להזין קוד בן 6 ספרות"
+
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "אישור"
+
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+msgid "Code expired?"
+msgstr "פג תוקף הקוד?"
+
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+msgid "Email new code."
+msgstr "שליחת קוד חדש בדוא״ל."
+
+#: .es5/templates/connect_another_device.mustache:1
+msgid "Connect another device"
+msgstr "חיבור מכשיר נוסף"
+
+#: .es5/templates/connect_another_device.mustache:2
+msgid "Firefox account connected"
+msgstr "חשבון Firefox מחובר"
+
+#: .es5/templates/connect_another_device.mustache:4
+msgid "Email confirmed"
+msgstr "כתובת הדוא״ל אומתה"
+
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+msgid "Complete your set-up"
+msgstr "נא להשלים את ההתקנה שלך"
+
+#: .es5/templates/connect_another_device.mustache:10
+msgid "Sign in to this Firefox to complete set-up"
+msgstr "יש להיכנס ל־Firefox זה כדי להשלים את ההתקנה"
+
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+msgid "Still adding devices?"
+msgstr "עדיין מתבצעת הוספת מכשירים?"
+
+#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+msgid "Sign in to Firefox on another device to complete set-up"
+msgstr "יש להיכנס ל־Firefox במכשיר נוסף כדי להשלים את ההתקנה"
+
+#: .es5/templates/connect_another_device.mustache:17
+msgid "Sync Firefox across devices"
+msgstr "סנכרון Firefox בין מכשירים"
+
+#: .es5/templates/connect_another_device.mustache:19
+msgid "Sign in everywhere you use Firefox."
+msgstr "יש להיכנס בכל מקום בו יש לך את Firefox."
+
+#: .es5/templates/connect_another_device.mustache:20
+msgid "We’re on Android and iOS, too!"
+msgstr "אנחנו גם ב־Android וב־iOS!"
+
+#: .es5/templates/connect_another_device.mustache:22
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr "עוד לא הוספת את כל המכשירים שלך? יש להיכנס ל־Firefox במכשיר נוסף כדי להשלים את ההתקנה"
+
+#: .es5/templates/connect_another_device.mustache:24
+msgid "Sign in to Firefox for Android to complete set-up"
+msgstr "יש להיכנס ל־Firefox עבור Android כדי להשלים את ההתקנה"
+
+#: .es5/templates/connect_another_device.mustache:26
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr "יש להיכנס ל־Firefox עבור iOS כדי להשלים את ההתקנה"
+
+#: .es5/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required"
+msgstr "עוגיות ואחסון מקומי נדרשים"
+
+#: .es5/templates/cookies_disabled.mustache:2
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+msgstr "נא להפעיל עוגיות ואחסון מקומי בדפדפן שלך על מנת לגשת ל־Firefox Accounts. הפעלתם תאפשר, לדוגמה, לזכור אותך בין הפעלות שונות."
+
+#: .es5/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "נא לנסות שוב"
+
+#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+msgid ""
+"\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"        "
+msgstr ""
+"\n"
+"          נא להכניס את הססמה שלך<span class=\"card-subheader\" id=\"subheader\">עבור חשבון ה־Firefox שלך</span>\n"
+"        "
+
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+msgid "Password"
+msgstr "ססמה"
+
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "בחירה להמשיך בתהליך מהווה הסכמה ל<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">תנאי השירות</a> ול<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a>."
+
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "שימוש בחשבון אחר"
+
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+msgid "Forgot password?"
+msgstr "ססמתך נשכחה?"
+
+#: .es5/templates/index.mustache:1
+msgid "Continue to Firefox accounts"
+msgstr "המשך אל Firefox accounts"
+
+#: .es5/templates/index.mustache:2
+msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
+msgstr "סנכרון הססמאות, הלשוניות פתוחות והסימניות שלך בכל מקום בו יש לך את Firefox."
+
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
+msgid "Enter your email"
+msgstr "נא להכניס את כתובת הדוא״ל שלך"
+
+#: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr "המשך אל <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/index.mustache:9
+msgid "Sign up or sign in"
+msgstr "הרשמה או התחברות"
+
+#: .es5/templates/index.mustache:11
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr "חשבון Firefox גם פותח גישה למוצרים נוספים המגנים על הפרטיות, מבית Mozilla."
+
+#: .es5/templates/inline_recovery_setup.mustache:1
+msgid "Save recovery codes"
+msgstr "שמירת קודי שחזור"
+
+#: .es5/templates/inline_recovery_setup.mustache:3
+msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
+msgstr "יש לאחסן את הקודים האלו המיועדים לשימוש חד פעמי במקום בטוח לזמנים שבהם לא תהיה לך גישה למכשיר הנייד שלך."
+
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+msgid "Download"
+msgstr "הורדה"
+
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+msgid "Copy"
+msgstr "העתקה"
+
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+msgid "Print"
+msgstr "הדפסה"
+
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+msgid "Continue"
+msgstr "המשך"
+
+#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+msgid "Cancel setup"
+msgstr "ביטול ההתקנה"
+
+#: .es5/templates/inline_recovery_setup.mustache:12
+msgid "Confirm recovery code"
+msgstr "אישור קוד שחזור"
+
+#: .es5/templates/inline_recovery_setup.mustache:14
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgstr "כדי להבטיח שתהיה לך אפשרות לקבל שוב גישה לחשבון שלך במקרה שמכשירך יאבד, נא להכניס אחד מקודי השחזור ששמרת."
+
+#: .es5/templates/inline_recovery_setup.mustache:15
+msgid "Recovery code"
+msgstr "קוד שחזור"
+
+#: .es5/templates/inline_totp_setup.mustache:1
+msgid "Enable two-step authentication"
+msgstr "הפעלת אימות דו־שלבי"
+
+#: .es5/templates/inline_totp_setup.mustache:3
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr "ניתן להוסיף שכבת אבטחה לחשבון שלך על־ידי דרישת קודים של אבטחה מאחד <a %(escapedTotpSupportAttributes)s>מיישומוני האימות האלו</a>."
+
+#: .es5/templates/inline_totp_setup.mustache:7
+msgid "Scan authentication code"
+msgstr "סריקת קוד אימות"
+
+#: .es5/templates/inline_totp_setup.mustache:10
+msgid "Enter code manually"
+msgstr "הזנת הקוד באופן ידני"
+
+#: .es5/templates/inline_totp_setup.mustache:12
+msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgstr "יש לסרוק את קוד ה־QR ביישומון האימות שלך ולאחר מכן להקליד את קוד האבטחה שהוא מספק."
+
+#: .es5/templates/inline_totp_setup.mustache:13
+msgid "Can’t scan code?"
+msgstr "אין לך אפשרות לסרוק קוד?"
+
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
+msgid "Once complete, it will begin generating security codes for you to enter."
+msgstr "לאחר סיום התהליך, היישומון יתחיל לייצר עבורך קודי שחזור שיהיו באפשרותך להזין."
+
+#: .es5/templates/inline_totp_setup.mustache:16
+msgid "Type this secret key into your authentication app."
+msgstr "נא להקליד את המפתח הסודי הזה ליישומון האימות שלך."
+
+#: .es5/templates/inline_totp_setup.mustache:17
+msgid "Scan QR code instead?"
+msgstr "האם לסרוק קוד QR במקום?"
+
+#: .es5/templates/inline_totp_setup.mustache:19
+msgid "Security code"
+msgstr "קוד אבטחה"
+
+#: .es5/templates/inline_totp_setup.mustache:20
+msgid "Ready"
+msgstr "מוכן"
+
+#: .es5/templates/legal.mustache:1
+msgid "Legal"
+msgstr "מידע משפטי"
+
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+msgid "Terms of Service"
+msgstr "תנאי שירות"
+
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "הצהרת פרטיות"
+
+#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+msgid "Get the full Sync experience."
+msgstr "קבלת החוויה המלאה של Sync."
+
+#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:19
+msgid "Download Firefox for iOS!"
+msgstr "הורידו את Firefox עבור iOS!"
+
+#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:20
+msgid "Download Firefox for Android."
+msgstr "הורידו את Firefox עבור Android."
+
+#: .es5/templates/marketing_snippet.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "הורידו את Firefox למכשירים ניידים."
+
+#: .es5/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr "בקשה להרשאות"
+
+#: .es5/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "%(serviceName)s מעוניין בגישה לפריטי המידע הבאים מהחשבון שלך:"
+
+#: .es5/templates/permissions.mustache:3
+msgid "Accept"
+msgstr "אישור"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "ביטול"
+
+#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+msgid "Success"
+msgstr "הצלחה"
+
+#: .es5/templates/ready.mustache:4
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
+
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
+msgid "Continue to my account"
+msgstr "המשך לחשבון שלי"
+
+#: .es5/templates/ready.mustache:14
+msgid "Your account is ready!"
+msgstr "החשבון שלך מוכן!"
+
+#: .es5/templates/ready.mustache:15
+msgid "Generate a new recovery key"
+msgstr "יצירת מפתח שחזור חדש"
+
+#: .es5/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr "דיווח על התחברות בלתי מורשית?"
+
+#: .es5/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr "קיבלת הודעת דוא״ל על ניסיון התחברות לחשבון שלך. האם ברצונך לדווח על פעילות זו כחשודה?"
+
+#: .es5/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr "דיווח פעילות"
+
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr "מדוע זה קורה?"
+
+#: .es5/templates/reset_password.mustache:3
+msgid ""
+"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+"<span>לתשומת לבך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה "
+"שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך, ונתוני ה־Pocket שלך לא יושפעו."
+
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "דואר אלקטרוני"
+
+#: .es5/templates/reset_password.mustache:6
+msgid "Begin reset"
+msgstr "התחלת איפוס"
+
+#: .es5/templates/security_events.mustache:1
+msgid "Recent Activity"
+msgstr "פעילות אחרונה"
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr "אירועי אבטחה"
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr "שם אירוע"
+
+#: .es5/templates/security_events.mustache:4
+msgid "Confirmed"
+msgstr "אושר"
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr "נוצר בתאריך"
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr "מחיקת אירועים"
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr "חזרה להגדרות"
+
+#: .es5/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr "מצטערים. חסמנו את החשבון שלך."
+
+#: .es5/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr "הודעת האימות ששלחנו לכתובת %(email)s חזרה וחסמנו את החשבון שלך כדי להגן על נתוני ה־Firefox שלך."
+
+#: .es5/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr "אם זוהי כתובת דוא״ל תקנית, <a %(escapedSupportLinkAttrs)s>נא ליצור איתנו קשר</a> ונעזור לשחרר את הנעילה מהחשבון שלך."
+
+#: .es5/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr "כתובת דוא״ל זו כבר לא בבעלותך? יצירת חשבון חדש"
+
+#: .es5/templates/sign_in_password.mustache:11
+msgid ""
+"\n"
+"              By proceeding, you agree to:<br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"            "
+msgstr ""
+"\n"
+"              המשך התהליך מהווה הסכמה ל:<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">תנאי השירות</a> ו<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/"
+"\">הצהרת הפרטיות</a> של Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a> של Firefox.\n"
+"            "
+
+#: .es5/templates/sign_in_recovery_code.mustache:1
+msgid "Enter recovery code"
+msgstr "נא למלא קוד שחזור"
+
+#: .es5/templates/sign_in_recovery_code.mustache:3
+msgid "Please enter a recovery code that was provided to you during setup."
+msgstr "נא למלא קוד שחזור שסופק לך במהלך ההגדרה הראשונית."
+
+#: .es5/templates/sign_in_recovery_code.mustache:4
+msgid "Enter 10-digit recovery code"
+msgstr "נא למלא קוד שחזור באורך 10 ספרות"
+
+#: .es5/templates/sign_in_recovery_code.mustache:7
+msgid "Are you locked out?"
+msgstr "ננעלת מחוץ לחשבון?"
+
+#: .es5/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr "תודה על הערנות שלך"
+
+#: .es5/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr "נשלחה הודעה לצוות שלנו. דיווחים כאלה מסייעים לנו להישמר מתוקפים."
+
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgstr "נא להכניס את קוד האימות <span class=\"card-subheader\">עבור חשבון ה־Firefox שלך</span>"
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
+msgstr "נא להכניס את הקוד שנשלח אל %(email)s תוך 5 דקות."
+
+#: .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr "נא להזין קוד אבטחה"
+
+#: .es5/templates/sign_in_totp_code.mustache:3
+msgid "Open your authentication app and enter the security code it provides."
+msgstr "נא לפתוח את יישומון האימות שלך ולהקליד את קוד האבטחה שמופיע בו."
+
+#: .es5/templates/sign_in_totp_code.mustache:7
+msgid "Trouble entering code?"
+msgstr "מתקשה בהזנת הקוד?"
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "אישור התחברות זו"
+
+#: .es5/templates/sign_in_unblock.mustache:3
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr "נא לבדוק קבלת קוד אישור שנשלחה לכתובת %(email)s בהודעת דוא״ל."
+
+#: .es5/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr "נא להכניס את קוד ההרשאה"
+
+#: .es5/templates/sign_up_password.mustache:1
+msgid "Set your password"
+msgstr "הגדרת הססמה שלך"
+
+#: .es5/templates/sign_up_password.mustache:2
+msgid "Change email"
+msgstr "שינוי כתובת דוא״ל"
+
+#: .es5/templates/sign_up_password.mustache:5
+msgid "Repeat password"
+msgstr "חזרה על הססמה"
+
+#: .es5/templates/sign_up_password.mustache:6
+msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgstr "הססמה הזו תשמש אותך כדי לגשת לכל הנתונים המוצפנים שלך המאוחסנים אצלנו.<br/>איפוס הססמה עלול לגרום לאיבוד נתונים כמו ססמאות וסימניות."
+
+#: .es5/templates/sign_up_password.mustache:7
+msgid "Practical knowledge is coming to your inbox. Sign up for more:"
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "נא לבחור את הפריטים שיסונכרנו"
+
+#: .es5/templates/sign_up_password.mustache:14
+msgid "Create account"
+msgstr "יצירת חשבון"
+
+#: .es5/templates/sign_up_password.mustache:15
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
+"\n"
+"              המשך התהליך מהווה הסכמה ל:<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/"
+"\">הצהרת הפרטיות</a> של Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a> של Firefox.\n"
+"            "
+
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Firefox Accounts"
+
+#: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr ""
+
+#: .es5/templates/support.mustache:3
+msgid "Subscriptions"
+msgstr "מנויים"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
+msgid "Contact Us"
+msgstr "יצירת קשר"
+
+#: .es5/templates/support.mustache:6
+msgid "What are you contacting us about?"
+msgstr "מה נושא הפניה?"
+
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please select one"
+msgstr "נא לבחור באפשרות אחת"
+
+#: .es5/templates/support.mustache:10
+msgid "What do you need help with?"
+msgstr "במה נוכל לעזור?"
+
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "תשלום וחיוב"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "בעיות בחשבון"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "בעיות טכניות"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr "מתן משוב / בקשת תכונות"
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr "לא ברשימה"
+
+#: .es5/templates/support.mustache:17
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr "יש לך צורך בעזרה עם יישום או שירות מסוימים? (רשות)"
+
+#: .es5/templates/support.mustache:19
+msgid "Subject (optional)"
+msgstr "נושא (לא חובה)"
+
+#: .es5/templates/support.mustache:20
+msgid "Description of issue"
+msgstr "תיאור הבעיה"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "שליחה"
+
+#: .es5/templates/would-you-like-to-sync.mustache:1
+msgid "Would you like to sync this device to your account?"
+msgstr "האם ברצונך לסנכרן מכשיר זה לחשבון שלך?"
+
+#: .es5/templates/would-you-like-to-sync.mustache:2
+msgid "Sync this device"
+msgstr "סנכרון מכשיר זה"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
+msgid "Step 1 of 2: Re-enter password"
+msgstr "שלב 1 מתוך 2: הכנסת ססמה מחדש"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
+msgid "Enter your password to view your recovery key."
+msgstr "נא להקליד את הססמה שלך כדי להציג את מפתח השחזור שלך."
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+msgid "Enter Password"
+msgstr "נא להקליד את הססמה"
+
+#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr "מחובר בהצלחה"
+
+#: .es5/templates/push/completed.mustache:3
+msgid "Please close this page and continue on the other device."
+msgstr "נא לסגור דף זה ולהמשיך במכשיר השני."
+
+#: .es5/templates/push/confirm_login.mustache:1
+msgid "New sign-in to Firefox"
+msgstr "התחברות חדשה ל־Firefox"
+
+#: .es5/templates/push/confirm_login.mustache:3
+msgid "Confirm sign-in"
+msgstr "אישור התחברות"
+
+#: .es5/templates/push/confirm_login.mustache:4
+msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgstr "אם קיים חשש שמישהו מנסה להשיג גישה לחשבונך, עליך <a id=\"change-password\" href=\"/settings/change_password\">לאפס את הססמה שלך</a>."
+
+#: .es5/templates/push/send_login.mustache:2
+msgid "Send login push notification"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:3
+msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:4
+msgid "Resend tab"
+msgstr "שליחת לשונית מחדש"
+
+#: .es5/templates/push/send_login.mustache:5
+msgid "Tab not arriving? Send an email instead"
+msgstr "הלשונית לא מגיעה? ניתן לשלוח דוא״ל במקום"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+msgid "Add a secondary email address"
+msgstr "הוספת כתובת דוא״ל משנית"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
+msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
+msgstr "הוספת כתובת דוא״ל משנית עוזרת לך לחזור לחשבון שלך אם ננעלת ואין לך גישה ל־%(escapedEmail)s."
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "כתובת דוא״ל משנית"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+msgid "Maybe later"
+msgstr "אולי אחר כך"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr "נא להכניס את קוד האימות שנשלח אל %(escapedEmail)s תוך 5 דקות."
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr "שליחת קוד נוסף"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr "שימוש בדוא״ל שונה"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+msgid "Please change your password"
+msgstr "נא לשנות את הססמה שלך"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:2
+msgid "to continue to %(serviceName)s"
+msgstr "כדי להמשיך אל %(serviceName)s"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:5
+msgid ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr "איתרנו התנהגות חשודה בחשבון ה־Firefox שלך. כדי להגן על החשבון שלך, נא ליצור ססמה חדשה. יהיה עליך להשתמש בסיסמה זו כדי להיכנס שוב לכל שירותי חשבון ה־Firefox שלך."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:6
+msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr "ההיסטוריה, הססמאות, הכניסות ושאר הנתונים האישיים שלך לא יאבדו."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "ססמה ישנה"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:9
+msgid "Re-enter new password"
+msgstr "נא להכניס שוב את הססמה החדשה"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:10
+msgid "Change password"
+msgstr "שינוי ססמה"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+msgid "This Firefox is connected"
+msgstr "‏Firefox זה מחובר"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
+msgid "Sign up for more"
+msgstr "הרשמה לעוד"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
+msgid "Practical knowledge is coming to your inbox."
+msgstr "ידע חיוני בדרכו אל תיבת הדוא״ל שלך."
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
+msgid "Get practical knowledge in your inbox about:"
+msgstr "אפשר לקבל ידע חיוני ישירות לתיבת הדוא״ל שלך על:"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
+msgid "Subscribe %(email)s"
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client."
+msgstr "בקישור שלחצת חסרים תווים, וייתכן שהוא נפגם על־ידי לקוח הדוא״ל שלך."
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+msgid "Create a Firefox Account"
+msgstr "יצירת חשבון Firefox"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
+msgid "Continue to %(productName)s"
+msgstr "המשך אל %(productName)s"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
+msgid "Enter a password"
+msgstr "נא להכניס ססמה"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+msgid "Confirm password"
+msgstr "אימות ססמה"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "יצירת ססמה"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:1
+msgid "Device connected!"
+msgstr "המכשיר מחובר!"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:4
+msgid "Connect another one"
+msgstr "חיבור מכשיר נוסף"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5
+msgid "Use SMS instead"
+msgstr "שימוש ב־SMS במקום"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:6
+msgid "I'm done for now"
+msgstr "סיימתי לבינתיים"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
+msgid "Sync Firefox between devices"
+msgstr "סנכרון Firefox בין מכשירים"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
+msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
+msgstr "סנכרון סימניות, היסטוריה וססמאות ל־Firefox שבמכשירים הניידים שלך. זה לוקח רק כמה דקות."
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
+msgid "Get started"
+msgstr "תחילת עבודה"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+msgid "I'll do this later, send me a reminder"
+msgstr "אעשה זאת בהמשך, נא לשלוח לי תזכורת"
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
+msgid "Download Firefox with your camera app"
+msgstr "הורדת Firefox באמצעות יישומון המצלמה שלך"
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
+msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
+msgstr "התקנת Firefox וסנכרון בין שני מכשירים לפחות מגן גם מפני אובדן הנתונים שלך."
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
+msgid "Ready to scan"
+msgstr "מוכן לסריקה"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
+msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
+msgstr "ניתן <h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">לחבר את המכשיר הנייד שלך</h1><p>עם QR שיצרנו במיוחד עבורך</p>"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
+msgid "Open the camera app on your device"
+msgstr "נא לפתוח את יישומון המצלמה במכשיר שלך"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
+msgid "Point the camera at the QR code and tap the link that appears"
+msgstr "לכוון את המצלמה לקוד ה־QR ולגעת בקישור שמופיע"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
+msgid "Install Firefox and open it on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
+msgid "Sign into your account"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
+msgid "<span class=\"number\">1</span>Open the camera app on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
+msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
+msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgstr ""
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
+msgid "<span class=\"number\">4</span>Sign into your account"
+msgstr ""
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+msgid "Protect your data with a recovery key"
+msgstr "הגנה על הנתונים שלך באמצעות מפתח שחזור"
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
+msgid "Your synced data can include passwords you've saved."
+msgstr "הנתונים המסונכרנים שלך יכולים לכלול ססמאות ששמרת."
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
+msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
+msgstr "מכיוון שמידע זה הוא קריטי לאבטחה שלך, Firefox מוחק אותו כדי להגן עליך כאשר הססמה שלך מתאפסת כדי למנוע מאנשים אחרים לגשת אליו."
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
+msgid "Get a Recovery Key"
+msgstr "קבלת מפתח שחזור"
+
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
+msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgstr "נא לאמת את הססמה שלך עבור %(escapedEmail)s כדי לייצר את מפתח השחזור שלך."
+
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
+msgid "Enter your recovery key to confirm that you've saved a copy."
+msgstr "נא למלא מפתח שחזור כדי לאשר ששמרת עותק."
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+msgid "Save recovery key"
+msgstr "שמירת מפתח שחזור"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "סיום"
+
+#: .es5/templates/partial/account-suggestion.mustache:1
+msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgstr "מדוע עליי ליצור חשבון זה? <a %(escapedSuggestionAttrs)s>מידע נוסף כאן</a>"
+
+#: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
+msgid "How old are you?"
+msgstr "מהו גילך?"
+
+#: .es5/templates/partial/coppa-age-input.mustache:4
+msgid "You must be at least 13 years old to create an account."
+msgstr "עליך להיות בגיל 13 לפחות כדי ליצור חשבון."
+
+#: .es5/templates/partial/device-being-paired.mustache:2
+msgid "%(family)s on %(OS)s"
+msgstr "%(family)s על %(OS)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:3
+msgid "%(city)s, %(region)s, %(country)s (estimated)"
+msgstr "‏%(city)s, ‏%(region)s, ‏%(country)s (משוער)"
+
+#: .es5/templates/partial/device-being-paired.mustache:7
+msgid "%(region)s, %(country)s (estimated)"
+msgstr "‏%(region)s, ‏%(country)s (משוער)"
+
+#: .es5/templates/partial/device-being-paired.mustache:9
+msgid "%(country)s"
+msgstr "%(country)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:11
+msgid "Location unknown"
+msgstr "מיקום לא ידוע"
+
+#: .es5/templates/partial/device-being-paired.mustache:12
+msgid "IP address: %(ipAddress)s"
+msgstr "כתובת IP: ‏%(ipAddress)s"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:1
+msgid "Password requirements"
+msgstr "דרישות ססמה"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:3
+msgid "At least 8 characters"
+msgstr "לפחות 8 תווים"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:6
+msgid "Not your email address"
+msgstr "לא כתובת הדוא״ל שלך"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:10
+msgid "Not a commonly used password"
+msgstr "לא ססמה נפוצה"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:11
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgstr "שמרו על עצמכם &mdash; אל תשתמשו באותה הססמה במקומות שונים. ניתן לעיין בעצות נוספות <a %(escapedCommonPasswordLinkAttrs)s>ליצירת ססמאות חזקות</a>."
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr "הממ, יש בעיה במערכת שלנו. אנו מתקנים זאת כעת ומצטערים על אי הנוחות. נא לנסות שוב מאוחר יותר."
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to Support"
+msgstr "ההודעה שלך נשלחה לתמיכה"
+
+#: .es5/templates/partial/support-form-success.mustache:2
+msgid "Back to Subscriptions"
+msgstr "חזרה למינויים"
+
+#: .es5/templates/partial/sync-suggestion.mustache:1
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr "חיפשת את Firefox Sync‏? <a %(escapedSyncSuggestionAttrs)s>ניתן להתחיל כאן</a>"
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr "או"
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr "המשך עם Google"
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
+msgstr "המשך עם Apple"
+
+#: .es5/templates/pair/auth_allow.mustache:1
+msgid "Did you just sign in to Firefox?"
+msgstr "האם זה עתה התחברת ל־Firefox?"
+
+#: .es5/templates/pair/auth_allow.mustache:2
+msgid " %(email)s "
+msgstr " %(email)s "
+
+#: .es5/templates/pair/auth_allow.mustache:3
+msgid "location balloon"
+msgstr "בלון מיקום"
+
+#: .es5/templates/pair/auth_allow.mustache:4
+msgid "Yes, approve device"
+msgstr "כן, לאשר את המכשיר"
+
+#: .es5/templates/pair/auth_allow.mustache:5
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+msgid "Device connected"
+msgstr "המכשיר מחובר"
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid ""
+"\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"      "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgstr "כעת באפשרותך לגשת ללשוניות הפתוחות, הססמאות והסימניות שלך בכל המכשירים שלך."
+
+#: .es5/templates/pair/auth_complete.mustache:5
+msgid "See tabs from synced devices"
+msgstr "הצגת לשוניות ממכשירים מסונכרנים"
+
+#: .es5/templates/pair/auth_complete.mustache:7
+msgid "Manage devices"
+msgstr "ניהול מכשירים"
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approval now required <small>from your other device</small>"
+msgstr "נדרש אישור <small>מהמכשיר האחר שלך</small>"
+
+#: .es5/templates/pair/failure.mustache:1
+msgid "Pairing not successful"
+msgstr "הצימוד לא בוצע בהצלחה"
+
+#: .es5/templates/pair/failure.mustache:2
+msgid "The setup process was terminated."
+msgstr "תהליך ההגדרה הופסק."
+
+#: .es5/templates/pair/index.mustache:1
+msgid "Download Firefox on your phone or tablet"
+msgstr "הורדת Firefox לטלפון או למחשב הלוח שלך"
+
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr "קוד QR"
+
+#: .es5/templates/pair/index.mustache:3
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
+msgstr "כדי להוריד את Firefox למכשיר הנייד שלך, יש להחזיק את מצלמת המכשיר מול קוד זה כדי לסרוק."
+
+#: .es5/templates/pair/index.mustache:4
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr "לחלופין, ניתן לשלוח לעצמך <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">קישור להורדה</a>."
+
+#: .es5/templates/pair/index.mustache:7
+msgid "I’m ready to sync devices"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:8
+msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgstr "סנכרון המכשירים שלך כדי לגשת ללשוניות, לססמאות, ללשוניות הפתוחות ולסימניות שלך בכל מקום בו יש לך את Firefox."
+
+#: .es5/templates/pair/success.mustache:2
+msgid "Device successfully paired"
+msgstr "צימוד המכשיר בוצע בהצלחה"
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr "הצימוד בוצע בהצלחה."
+
+#: .es5/templates/pair/supp_allow.mustache:1
+msgid "Confirm pairing <small>for %(email)s</small>"
+msgstr "אישור צימוד <small>עבור %(email)s</small>"
+
+#: .es5/templates/pair/supp_allow.mustache:2
+msgid "Confirm pairing"
+msgstr "אישור צימוד"
+
+#: .es5/templates/pair/unsupported.mustache:1
+msgid "Pair using an app"
+msgstr "ביצוע צימוד באמצעות יישומון"
+
+#: .es5/templates/pair/unsupported.mustache:2
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד מתוך היישום Firefox."
+
+#~ msgid "Primary email verified"
+#~ msgstr "כתובת הדוא״ל הראשית עברה אימות"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "כתובת הדוא״ל המשנית עברה אימות"
+
+#~ msgid "Account verified"
+#~ msgstr "החשבון אומת"
+
+#~ msgid "Verification link expired"
+#~ msgstr "פג תוקף קישור האימות"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "נא ללחוץ כאן לקבלת קישור לקוד אימות חדש"
+
+#~ msgid "Verification error"
+#~ msgstr "קוד אימות שגוי"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "נא לחפש בתיבת הדואר הנכנס שלך קישור אימות שנשלח אל %(escapedEmail)s"
+
+#~ msgid "Email verified"
+#~ msgstr "כתובת הדוא״ל אומתה"
+
+#~ msgid "Verified"
+#~ msgstr "מאומת"
+
+#~ msgid "Verify"
+#~ msgstr "אימות"
+
+#~ msgid "Enter verification code"
+#~ msgstr "נא להכניס את קוד האימות"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "נא להכניס את קוד האימות שנשלח אל %(escapedEmail)s תוך 5 דקות."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "כניסות וססמאות"
+
+#~ msgid "Enter confirmation code<span class=\"card-subheader\">for your Firefox account</span>"
+#~ msgstr "נא להכניס את קוד האימות <span class=\"card-subheader\">עבור חשבון ה־Firefox שלך</span>"
+
+#~ msgid "Enter the code that was sent to %(email)s within 5 minutes"
+#~ msgstr "נא להכניס את הקוד שנשלח אל %(email)s תוך 5 דקות"
+
+#~ msgid "Get Firefox on your phone or tablet"
+#~ msgstr "הורדת Firefox לטלפון או למחשב הלוח שלך"
+
+#~ msgid "Hold your phone’s camera over the code to scan."
+#~ msgstr "יש להחזיק את מצלמת הטלפון מול הקוד כדי לסרוק."
+
+#~ msgid ""
+#~ "\n"
+#~ "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          נא להכניס את הססמה שלך<span class=\"description\">עבור חשבון ה־Firefox שלך</span>\n"
+#~ "        "
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#~ msgstr "בחירה להמשיך בתהליך מהווה הסכמה ל<a id=\"fxa-tos\" href=\"/legal/terms\">תנאי השירות</a> ול<a id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a>."
+
+#~ msgid ""
+#~ "\n"
+#~ "              By proceeding, you agree to:<br />\n"
+#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
+#~ ">\n"
+#~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "              המשך התהליך מהווה הסכמה ל:<br />\n"
+#~ "              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">תנאי השירות</a> ו<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">הצהרת הפרטיות</a> שלPocket<br />\n"
+#~ "              <a id=\"fxa-tos\" href=\"/legal/terms\">תנאי השירות</a> ו<a id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a> של Firefox\n"
+#~ "            "
+
+#~ msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
+#~ msgstr "נא להכניס את קוד האימות <span class=\"description\">עבור חשבון ה־Firefox שלך</span>"
+
+#~ msgid "Enter confirmation"
+#~ msgstr "נא להכניס את קוד האימות"
+
+#~ msgid "Email new code"
+#~ msgstr "שליחת קוד חדש בדוא״ל"
+
+#~ msgid ""
+#~ "\n"
+#~ "            By proceeding, you agree to:<br />\n"
+#~ "            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+#~ "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "            המשך התהליך מהווה הסכמה ל:<br />\n"
+#~ "            <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">תנאי השירות</a> ו<a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">הצהרת הפרטיות</a> שלPocket<br />\n"
+#~ "            <a id=\"fxa-tos\" href=\"/legal/terms\">תנאי השירות</a> ו<a id=\"fxa-pp\" href=\"/legal/privacy\">הצהרת הפרטיות</a> של Firefox\n"
+#~ "          "
+
+#~ msgid "You must be over 13 to create an account."
+#~ msgstr "עליך להיות מעל גיל 13 כדי ליצור חשבון."
+
+#~ msgid "Hold your phone's camera over the code to scan."
+#~ msgstr "יש להחזיק את מצלמת הטלפון מול הקוד כדי לסרוק."
+
+#~ msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
+#~ msgstr "לחלופין, ניתן לשלוח לעצמך <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">קישור להורדה</a>."
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "עליך לעמוד בדרישות הגיל כדי ליצור חשבון&nbsp;Firefox."
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "נא לבדוק אם קיבלת קוד לדוא״ל %(email)s."
+
+#~ msgid "You need to be at least 13 years old to create an account."
+#~ msgstr "עליך להיות בגיל 13 לפחות כדי ליצור חשבון."
+
+#~ msgid "Why is more than one device required?"
+#~ msgstr "מדוע נדרש יותר ממכשיר אחד?"
+
+#~ msgid "Why sync multiple devices?"
+#~ msgstr "למה לסנכרן כמה מכשירים?"
+
+#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+#~ msgstr "שירות ה־Sync אינו גיבוי קבוע, זוהי דרך פשוטה ובטוחה להעביר את הסימניות, ההיסטוריה והססמאות השמורות בין המכשירים שלך."
+
+#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+#~ msgstr "עליך להתקין את Firefox ולסנכרן אותו עם שני מכשירים לפחות כדי להגן על עצמך מאבדן המידע שלך במקרה שעליך לשחזר אותו ושכחת את הססמה."
+
+#~ msgid "Got it"
+#~ msgstr "הבנתי"
+
+#~ msgid "One account, many services"
+#~ msgstr "חשבון אחד, שירותים רבים"
+
+#~ msgid "Firefox browser"
+#~ msgstr "דפדפן Firefox"
+
+#~ msgid "Sync your bookmarks, passwords, and more on every device."
+#~ msgstr "סנכרון הסימניות שלך, הססמאות ועוד בכל מכשיר."
+
+#~ msgid "Mozilla VPN"
+#~ msgstr "Mozilla VPN"
+
+#~ msgid "A VPN from the trusted pioneer in internet privacy."
+#~ msgstr "‏VPN מחלוצי הפרטיות באינטרנט."
+
+#~ msgid "Pocket"
+#~ msgstr "Pocket"
+
+#~ msgid "Save and discover the best stories from across the web."
+#~ msgstr "לשמור ולגלות את הסיפורים הטובים ביותר מרחבי הרשת."
+
+#~ msgid "Firefox Relay"
+#~ msgstr "Firefox Relay"
+
+#~ msgid "Sign up for new accounts without handing over your email address."
+#~ msgstr "הרשמה לחשבונות חדשים מבלי למסור את כתובת הדוא״ל שלך."
+
+#~ msgid "See all"
+#~ msgstr "הצגת הכל"
+
+#~ msgid "Stay safe &mdash; don't reuse passwords."
+#~ msgstr "שמרו על עצמכם &mdash; אל תשתמשו באותה הססמה במקומות שונים."
+
+#~ msgid "Must not be your email address"
+#~ msgstr "אסור שתהיה כתובת הדוא״ל שלך"
+
+#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
+#~ msgstr "אסור שתהיה חלק <a %(escapedCommonPasswordLinkAttrs)s>מרשימת הססמאות הנפוצות</a> האלו"
+
+#~ msgid "Approve new device <small>for %(email)s</small>"
+#~ msgstr "אישור מכשיר חדש <small>עבור %(email)s</small>"
+
+#~ msgid "Approve device"
+#~ msgstr "אישור מכשיר"
+
+#~ msgid "You are now syncing with:"
+#~ msgstr "כעת מסתנכרן עם:"
+
+#~ msgid "Scan to connect another device"
+#~ msgstr "יש לסרוק כדי לחבר מכשיר נוסף"
+
+#~ msgid "Open the code scanner on your Firefox app and show code when ready."
+#~ msgstr "יש לפתוח את סורק הקודים ביישומון ה־Firefox שלך ולבחור באפשרות להציג את הקוד כשסיימת."
+
+#~ msgid "Show code"
+#~ msgstr "הצגת קוד"
+
+#~ msgid "Would you like to sync your phone?"
+#~ msgstr "האם ברצונך לסנכרן עם הטלפון שלך?"
+
+#~ msgid "Mobile phone number"
+#~ msgstr "מספר טלפון נייד"
+
+#~ msgid "Not now"
+#~ msgstr "לא כעת"
+
+#~ msgid "Check your texts"
+#~ msgstr "נא לבדוק את ההודעות בטלפון שלך"
+
+#~ msgid "We've sent you a text message"
+#~ msgstr "שלחנו לך הודעת טקסט"
+
+#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
+#~ msgstr "קישור ליישומון Firefox נשלח אל %(escapedPhoneNumber)s"
+
+#~ msgid "Wrong number?"
+#~ msgstr "טעות במספר?"
+
+#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
+#~ msgstr "אם לא קיבלת את הודעת ה־SMS, ניתן גם לחפש בחנות היישומונים שלך עבור “Firefox”."
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "לא הגיע? שליחה מחדש"
+
+#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">עזרה</a>"
+
+#~ msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+#~ msgstr "המשך אל <div class=\"graphic graphic-client-pocket\">Pocket</div>"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>להזכירך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה "
+#~ "שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
+#~ msgstr ""
+#~ "<span>לתשומת לבך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם "
+#~ "הססמה שלך כדי להגן על פרטיותך. עדיין ישארו לך המינויים שקיימים אצלך."
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "גישה מאובטחת לססמאות השמורות ב־Firefox מכל מקום &mdash; גם מחוץ לדפדפן."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "קבלת התרעות על דליפות נתונים."
+
+#~ msgid "Save and discover the best stories from accross the web."
+#~ msgstr "לשמור ולגלות את הסיפורים הטובים ביותר מרחבי הרשת."
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>להזכירך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם הססמה "
+#~ "שלך כדי להגן על פרטיותך."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>לתשומת לבך:</span> בעת איפוס הססמה שלך, מתבצע גם איפוס החשבון שלך. חלק מהמידע הפרטי שלך (לרבות היסטוריה, סימניות וססמאות) עשוי ללכת לאיבוד. הסיבה לכך היא שאנו מצפינים את הנתונים שלך עם "
+#~ "הססמה שלך כדי להגן על פרטיותך."
+
+#~ msgid "Change..."
+#~ msgstr "שינוי..."
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "ברגע שנסיים, יש להשתמש בססמה החדשה שלך להתחברות בכל המכשירים שברשותך."
+
+#~ msgid "Change"
+#~ msgstr "שינוי"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "ססמה שונתה בהצלחה"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr "אנו מצטערים לשמוע. עליך לשנות את ססמת חשבון ה־Firefox שלך, ולחפש מידע מיצרן המכשיר שלך אודות מחיקת הנתונים שלך מרחוק."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr "מצטערים לשמוע. אם מדובר במכשיר שאינו מוכר לך, עליך לשנות את ססמת חשבון ה־Firefox שלך, ולשנות את כל הססמאות השמורות ב־Firefox."
+
+#~ msgid "Last seen %(translatedTimeAgo)s"
+#~ msgstr "נראה לאחרונה %(translatedTimeAgo)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "נראה לאחרונה %(translatedTimeAgo)s ב־%(translatedCountry)s"
+
+#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "נראה לאחרונה לפני מעל %(translatedTimeAgo)s ב־%(translatedCountry)s"
+
+#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "נראה לאחרונה %(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "פעילות אחרונה: %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "פעילות אחרונה לפני למעלה מ־%(translatedTimeAgo)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "פעילות אחרונה %(translatedTimeAgo)s ב%(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "פעילות אחרונה לפני למעלה מ־%(translatedTimeAgo)s ב%(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "פעילות אחרונה %(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "פעילות אחרונה לפני למעלה מ־%(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "למעלה מ־%(translatedTimeAgo)s"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s ב%(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "למעלה מ־%(translatedTimeAgo)s ב%(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "למעלה מ־%(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "הפעלת דפדפן, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "הפעלת דפדפן"
+
+#~ msgid "Last seen time unknown"
+#~ msgstr "נראה לאחרונה בזמן לא ידוע"
+
+#~ msgid "Change…"
+#~ msgstr "שינוי…"
+
+#~ msgid "Add…"
+#~ msgstr "הוספה…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "נא לבחור את השם שיוצג ב־Firefox בעת ניהול החשבון."
+
+#~ msgid "Display name updated"
+#~ msgstr "שם התצוגה עודכן"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "כתובת הדוא״ל המשנית הוסרה"
+
+#~ msgid "Verification email sent"
+#~ msgstr "נשלחה הודעת דוא״ל לאימות"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "כתובת הדוא״ל הראשית הוגדרה ל־%(email)s"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "נוצרו קודים חדשים לשחזור"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "אימות דו־שלבי הוסר"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "אימות דו־שלבי"
+
+#~ msgid "Account Recovery"
+#~ msgstr "שחזור חשבון"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "שחזור החשבון נשלל"
+
+#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
+#~ msgstr "פג תוקף כרטיס האשראי שלך. נא לעדכן אותו <a %(escapedCcExpiredLinkAttrs)s>כאן</a>."
+
+#~ msgid "Sign out"
+#~ msgstr "התנתקות"
+
+#~ msgid "Take picture"
+#~ msgstr "צילום תמונה"
+
+#~ msgid "Upload"
+#~ msgstr "העלאה"
+
+#~ msgid "Camera"
+#~ msgstr "מצלמה"
+
+#~ msgid "Clear"
+#~ msgstr "מחיקה"
+
+#~ msgid "Avatar"
+#~ msgstr "דמות מייצגת"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "ניתן למקם ולסובב את התמונה לפי הצורך"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "ניתוק מ־Sync"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "נתוני הגלישה שלך יישארו ב־%(deviceName)s, אך לא יסתנכרנו עוד עם החשבון שלך."
+
+#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
+#~ msgstr "הסיבה לניתוק %(deviceName)s מ־Sync היא מכיוון שהמכשיר הזה:"
+
+#~ msgid "Suspicious"
+#~ msgstr "חשוד"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "אבוד או נגנב"
+
+#~ msgid "Old or replaced"
+#~ msgstr "ישן או הוחלף"
+
+#~ msgid "Duplicate"
+#~ msgstr "כפול"
+
+#~ msgid "Rather not say"
+#~ msgstr "אעדיף שלא לומר"
+
+#~ msgid "Disconnect"
+#~ msgstr "ניתוק"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "התנתקות מוצלחת"
+
+#~ msgid "Devices & apps"
+#~ msgstr "מכשירים ויישומים"
+
+#~ msgid "Show"
+#~ msgstr "הצגה"
+
+#~ msgid "Current device"
+#~ msgstr "המכשיר הנוכחי"
+
+#~ msgid "Disconnect…"
+#~ msgstr "ניתוק…"
+
+#~ msgid "Current session"
+#~ msgstr "ההפעלה הנוכחית"
+
+#~ msgid "Revoke"
+#~ msgstr "שלילה"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "Firefox עבור iOS"
+
+#~ msgid "None connected"
+#~ msgstr "שום דבר לא מחובר"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Firefox עבור אנדרואיד"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "פריטים חסרים או כפולים?"
+
+#~ msgid "Refresh status"
+#~ msgstr "רענון מצב"
+
+#~ msgid "Email preferences"
+#~ msgstr "העדפות דואר אלקטרוני"
+
+#~ msgid "Delete account"
+#~ msgstr "מחיקת חשבון"
+
+#~ msgid "Delete…"
+#~ msgstr "מחיקה…"
+
+#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
+#~ msgstr "רוצה לבטל מינוי בתשלום? יש לגשת אל <a href=\"/subscriptions\">מינויים</a>."
+
+#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
+#~ msgstr "חיברת את חשבון ה־Firefox שלך למוצרי Mozilla השומרים על הבטיחות והפרודוקטיביות שלך ברשת:"
+
+#~ msgid "Please acknowledge that by deleting your account:"
+#~ msgstr "נא לאשר שבעצם מחיקת החשבון שלך:"
+
+#~ msgid "Any paid subscriptions you have will be cancelled"
+#~ msgstr "כל המנויים בתשלום שיש לך יבוטלו"
+
+#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
+#~ msgstr "כל ההרחבות וערכות הנושא שפרסמת ב־addons.mozilla.org יימחקו"
+
+#~ msgid "You may lose saved information and features within Mozilla products"
+#~ msgstr "מידע ותכונות שנשמרו במוצרי Mozilla עלולים להיאבד"
+
+#~ msgid "Reactivating with this email may not restore your saved information"
+#~ msgstr "הפעלת החשבון מחדש עם דוא״ל זה לא תשחזר את המידע השמור שלך"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "כתובת דוא״ל משנית היא כתובת נוספת לקבלת התרעות אבטחה ואישור מכשירים חדשים."
+
+#~ msgid "Verification required"
+#~ msgstr "דרוש אימות"
+
+#~ msgid "Make primary"
+#~ msgstr "הפיכה לראשי"
+
+#~ msgid "Remove"
+#~ msgstr "הסרה"
+
+#~ msgid "Refresh"
+#~ msgstr "רענון"
+
+#~ msgid "Add email"
+#~ msgstr "הוספת דוא״ל"
+
+#~ msgid "Add"
+#~ msgstr "הוספה"
+
+#~ msgid "NOTE:"
+#~ msgstr "לתשומת לבך:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "יצירת קודים חדשים לשחזור תפסול את כל הקודים הקודמים. נא לאחסן את הקודים החדשים במיקום בטוח."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "יצירת קודים חדשים לשחזור"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "אישור קוד שחזור"
+
+#~ msgid "Manage…"
+#~ msgstr "ניהול…"
+
+#~ msgid "Enter this secret key into your authentication app:"
+#~ msgstr "נא להקליד את המפתח הסודי הזה ליישומון האימות שלך:"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "אימות דו־שלבי"
+
+#~ msgid "Enable…"
+#~ msgstr "הפעלה…"
+
+#~ msgid "Current status"
+#~ msgstr "מצב נוכחי"
+
+#~ msgid "Enabled"
+#~ msgstr "מופעל"
+
+#~ msgid "Disabled"
+#~ msgstr "מושבת"
+
+#~ msgid "Disable"
+#~ msgstr "השבתה"
+
+#~ msgid "Enable"
+#~ msgstr "הפעלה"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "החלפת קודים לשחזור"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "לפני שניתן לצפות או לערוך שינויים באגף זה, עליך לאמת את כתובת הדוא״ל שלך."
+
+#~ msgid "Primary email"
+#~ msgstr "כתובת דוא״ל ראשית"
+
+#~ msgid "Account recovery"
+#~ msgstr "שחזור חשבון"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "כדאי ליצור מפתח שחזור כדי לשחזר את הגישה שלך לסימניות, לססמאות ולנתונים המסונכרנים שלך ב־Firefox במקרה של אבדן הססמה שלך."
+
+#~ msgid "Recovery key"
+#~ msgstr "מפתח שחזור"
+
+#~ msgid "Not set"
+#~ msgstr "לא מוגדר"
+
+#~ msgid "Generate"
+#~ msgstr "יצירה"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">לתשומת לבך: </span>ססמת חשבון ה־Firefox שלך מצפינה את נתוני ה־Firefox שלך. רק הססמה או מפתח השחזור שלך יכולים לגשת לנתונים שלך. <a %(escapedLearnMoreLinkAttributes)s>מידע "
+#~ "נוסף</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "האם ברצונך לשלול?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "לא תהיה לך אפשרות להשתמש במפתח השחזור שלך כדי לגשת לנתונים שלך במקרה של איפוס הססמה."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "שלב 2 מתוך 2: שמירת מפתח שחזור"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr "<span class=\"note\">לתשומת לבך: </span>אם שכחת את הססמה שלך, מפתח זה נדרש כדי לקבל גישה לנתונים שלך. יש לשמור את מפתח השחזור במקום בטוח שבו יהיה קל למצוא אותו מאוחר יותר."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "זהו, מפתח השחזור נשמר"
+
+#~ msgid "Please Select One"
+#~ msgstr "נא לבחור באחד"
+
+#~ msgid "Sign up to get more features:"
+#~ msgstr "הרשמה לקבלת תכונות נוספות:"
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
+
+#~ msgid "Send larger files securely and privately."
+#~ msgstr "שליחת קבצים גדולים באופן מאובטח ופרטי."
+
+#~ msgid "Firefox Account"
+#~ msgstr "חשבון Firefox"
+
+#~ msgid "Subscriptions & Payments"
+#~ msgstr "מינויים ותשלומים"
+
+#~ msgid "Get app"
+#~ msgstr "קבלת היישומון"
+
+#~ msgid "Download Firefox with your camera"
+#~ msgstr "הורדת Firefox באמצעות המצלמה שלך"
+
+#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
+#~ msgstr "תודה שפנית לתמיכה של Mozilla לגבי <b>%(escapedLowercaseTopic)s</b> עבור <b>%(escapedSelectedPlan)s</b>. ניצור איתך קשר בדוא״ל בהקדם האפשרי."
+
+#~ msgid "General inquiries"
+#~ msgstr "פניות כלליות"
+
+#~ msgid "Connection issues"
+#~ msgstr "בעיות התחברות"
+
+#~ msgid "Getting started"
+#~ msgstr "התחלת שימוש"
+
+#~ msgid "Sync this browser with your phone"
+#~ msgstr "סנכרון דפדפן זה עם הטלפון שלך"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "עליך לשלוח את Firefox ישירות לטלפון הנייד שלך ולהיכנס כדי להשלים את ההתקנה"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr "שירות ה־SMS זמין רק במדינות מסוימות. עלויות נתונים ל־SMS עשויות לחול. הנמענים המיועדים לדוא״ל או ל־SMS חייבים להסכים לכך. <a %(escapedLearnMoreAttributes)s>מידע נוסף</a>"
+
+#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
+#~ msgstr "חשבון זה כבר קיים. <a href=\"/signin\">התחברות</a>"
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "סנכרון אחרון %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "סנכרון אחרון לפני למעלה מ־%(translatedTimeAgo)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "סנכרון אחרון %(translatedTimeAgo)s ב%(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "סנכרון אחרון לפני למעלה מ־%(translatedTimeAgo)s ב%(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "סנכרון אחרון %(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "סנכרון אחרון לפני למעלה מ־%(translatedTimeAgo)s ליד %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "מועד הסנכרון האחרון לא ידוע"
+
+#~ msgid "Subscribed successfully"
+#~ msgstr "נרשם כמנוי בהצלחה"
+
+#~ msgid "Open tabs"
+#~ msgstr "לשוניות פתוחות"
+
+#~ msgid "Logins"
+#~ msgstr "כניסות"
+
+#~ msgid "Credit cards"
+#~ msgstr "כרטיסי אשראי"
+
+#~ msgid "Firefox Sync"
+#~ msgstr "Firefox Sync"
+
+#~ msgid "Accounts with two-step authentication do not support pairing at this time"
+#~ msgstr "חשבונות עם אימות דו־שלבי אינם תומכים בהצמדה בשלב זה"
+
+#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+#~ msgstr "האם התכוונת ל־<span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+
+#~ msgid "Please try again later"
+#~ msgstr "נא לנסות שנית מאוחר יותר"
+
+#~ msgid "Service unavailable, try again soon"
+#~ msgstr "השירות אינו זמין, נא לנסות שוב במועד מאוחר יותר"
+
+#~ msgid "%(email)s registered"
+#~ msgstr "‏%(email)s נרשם"
+
+#~ msgid "Save selections"
+#~ msgstr "שמירת בחירות"
+
+#~ msgid "Sign in to continue"
+#~ msgstr "נא להתחבר כדי להמשיך"
+
+#~ msgid "Create an account"
+#~ msgstr "יצירת חשבון"
+
+#~ msgid "Use security code"
+#~ msgstr "שימוש בקוד אבטחה"
+
+#~ msgid "Enter code"
+#~ msgstr "נא להזין קוד"
+
+#~ msgid "Use recovery code"
+#~ msgstr "שימוש בקוד שחזור"
+
+#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+#~ msgstr "מוטב שלא לאבד את הססמה הזאת. אם יש לך צורך באיפוסה, נתוני ה־Sync שלך עלולים ללכת לאיבוד."
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr "<span>לא לעשות שימוש חוזר בססמה מתיבת הדוא״ל שלך</span>אם תיוודע הססמה לתיבת הדוא״ל שלך, לתוקף תהיה אפשרות לאשר גישה לחשבון ה־Firefox שלך בהתקן חדש ולגשת לנתונים שלך."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>מוטב לזכור את הססמה שלך</span>אם עליך לאפס את הססמה שלך, כל נתוני ה־Sync שאינם נמצאים על אף אחד מההתקנים שלך יאבדו."
+
+#~ msgid "Have an account? Sign in"
+#~ msgstr "האם קיים ברשותך חשבון? התחברות"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "יש להתקין את Firefox על הטלפון החכם שלך ולהתחבר כדי להשלים את ההתקנה"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "קישור ליישומון נשלח אל %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>הוזן מספר שגוי?</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "קישור ליישומון נשלח מחדש אל %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>הוזן מספר שגוי?</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "אם המסרון לא מגיע אליך, ניתן גם להוריד את היישומונים ידנית."
+
+#~ msgid "Disconnect from Sync?"
+#~ msgstr "האם להתנתק מ־Sync?"
+
+#~ msgid "Suspicious device"
+#~ msgstr "מכשיר חשוד"
+
+#~ msgid "Lost or stolen device"
+#~ msgstr "מכשיר אבוד או גנוב"
+
+#~ msgid "Old or replaced device"
+#~ msgstr "מכשיר ישן או שהוחלף"
+
+#~ msgid "Duplicate device"
+#~ msgstr "מכשיר כפול"
+
+#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+#~ msgstr "תגענה אליך פניות בנוגע לאבטחת החשבון שלך, שינויים במדיניות שלנו, בתכונות והתכתבות דוא״ל ראשונית שתסייע לך להפיק את המיטב מחשבון ה־Firefox שלך."
+
+#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+#~ msgstr "בנוסף, ניתן לערוך מינוי כדי לקבל הודעות קידום עם החדשות העדכניות ביותר מ־Mozilla ומ־Firefox."
+
+#~ msgid "Subscribe"
+#~ msgstr "הרשמה"
+
+#~ msgid "Manage preferences"
+#~ msgstr "ניהול העדפות"
+
+#~ msgid ""
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
+#~ msgstr ""
+#~ "אם חשבון זה משמש אותך לטובת יישומים ושירותים מבית Mozilla כגון AMO,‏ Pocket ו־Screenshots, עליך תחילה להיכנס ולהסיר פרטים אישיים שנשמרו. לאחר מחיקת החשבון כאן יתכן שלא תהיה לך עוד גישה אליו משום "
+#~ "מקום."
+
+#~ msgid "verified"
+#~ msgstr "אומתה"
+
+#~ msgid "verification required"
+#~ msgstr "דרוש אימות"
+
+#~ msgid "Recovery codes"
+#~ msgstr "קודים לשחזור"
+
+#~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
+#~ msgstr "אלו קודי השחזור החד־פעמיים שלך. יש לשמור אותם במקום בטוח למקרה שתאבד גישה למכשיר הנייד שלך. לא יהיה ניתן לראות את הקודים האלה שוב."
+
+#~ msgid "Manually enter this secret key into your authentication app:"
+#~ msgstr "יש להקליד מפתח סודי זה ליישומון האימות שלך באופן ידני:"
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "ססמת חשבון ה־Firefox שלך"
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "יש לזכור את הססמה הזו &mdash; איפוסה תגרום למחיקת הנתונים שלך מהשרתים שלנו."
+
+#~ msgid "One last step"
+#~ msgstr "שלב אחד אחרון"
+
+#~ msgid "Create your Firefox account"
+#~ msgstr "יצירת חשבון ה־Firefox שלך"
+
+#~ msgid "You did it! You’re signed in."
+#~ msgstr "עשית את זה! התחברת."
+
+#~ msgid "Travel the internet with protection, on every device."
+#~ msgstr "לטייל ברחבי הרשת עם הגנה, בכל מכשיר."
+
+#~ msgid "Share large files without prying eyes."
+#~ msgstr "שיתוף קבצים גדולים ללא עיניים חטטניות."
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+#~ msgstr "בחירה להמשיך בתהליך מהווה הסכמה ל<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">תנאי השירות</a> ול<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">הצהרת הפרטיות</a>."
+
+#~ msgid "Description of Issue"
+#~ msgstr "תיאור הבעיה"
+
+#~ msgid "Any subscriptions you have will be cancelled"
+#~ msgstr "כל המנויים שיש לך יבוטלו"
+
+#~ msgid "Enable Sync"
+#~ msgstr "הפעלת סנכרון"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
+#~ msgstr "נא להכניס את קוד האימות שנשלח אל %(escapedEmail)s תוך 20 דקות."
+
+#~ msgid "Your message was sent to support"
+#~ msgstr "ההודעה שלך נשלחה לתמיכה"
+
+#~ msgid "%(email)s registered."
+#~ msgstr "%(email)s נרשם."
+
+#~ msgid "Communication preferences"
+#~ msgstr "העדפות תקשורת"
+
+#~ msgid "Manage Subscriptions"
+#~ msgstr "ניהול מינויים"
+
+#~ msgid "Refresh Status"
+#~ msgstr "רענון מצב"
+
+#~ msgid "Use a different email address"
+#~ msgstr "שימוש בכתובת דוא״ל שונה"
+
+#~ msgid "Sign in &rarr;"
+#~ msgstr "כניסה &larr;"
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "שגיאה בהתחברות להתקן מרוחק"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "לא ניתן להצפין את ההודעה מההתקן המרוחק"
+
+#~ msgid "Save settings"
+#~ msgstr "שמירת הגדרות"
+
+#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
+#~ msgstr "חשבון Firefox בלתי ידוע. ניתן <a href=\"/signup\">להירשם</a> באמצעות כתובת הדוא״ל של החשבון מהתוספות הקודמות שלך כדי לגשת לנתוני התוספות שלך."
+
+#~ msgid "App link resent to %(phoneNumber)s"
+#~ msgstr "הקישור ליישומון נשלח מחדש אל %(phoneNumber)s"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "באדיבות <a href=\"https://www.gravatar.com\">Gravatar</a>"
+
+#~ msgid "Unsubscribed successfully"
+#~ msgstr "הרישום למנוי בוטל בהצלחה"
+
+#~ msgid "Email resent"
+#~ msgstr "הודעה נשלחה שוב"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Gravatar לא אותר"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+#~ msgstr "האם התכוונת ל־<span tabindex=\"1\">%(escapedDomain)s</span>?"
+
+#~ msgid "Resources failed to load"
+#~ msgstr "כישלון בטעינת משאבים"
+
+#~ msgid "Unexpected resource error"
+#~ msgstr "שגיאת משאב בלתי צפויה"
+
+#~ msgid "Script error"
+#~ msgstr "שגיאת תסריט"
+
+#~ msgid "SMS sent"
+#~ msgstr "הודעת SMS נשלחה"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "המספר שלך נחסם"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "הודעת SMS לא נשלחה, נא לנסות שנית"
+
+#~ msgid "Learn more."
+#~ msgstr "מידע נוסף"
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s נוצר"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "בשלב זה, לא ניתן לסנכרן תוספות והעדפות בהתקנים ניידים."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "נא ללחוץ כאן לקבלת קישור איפוס חדש"
+
+#~ msgid "Enter new password"
+#~ msgstr "הכנסת ססמה חדשה"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "לאחר שליחת הססמה החדשה שלך, כל נתון Sync שאינו נמצא באחד מההתקנים שלך יימחק."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "מידע על אופן העבודה של Sync."
+
+#~ msgid "Submit new password"
+#~ msgstr "שליחת ססמה חדשה"
+
+#~ msgid "Email Sent"
+#~ msgstr "הודעת דואר אלקטרוני נשלחה"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "קישור לאימות נשלח&nbsp;לכתובת %(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "על מנת להגן על נתוני ה־Firefox שלך, שלחנו קישור אימות אל כתובת הדואר האלקטרוני %(email)s"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "הדוא״ל לא הגיע ולא נמצא בתיקיית דואר הזבל? שליחה מחדש"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "נא ללחוץ  על הקישור שנשלח לכתובת %(email)s בשעה הקרובה כדי ליצור ססמה חדשה."
+
+#~ msgid "This device is connected"
+#~ msgstr "התקן זה מחובר"
+
+#~ msgid "Why is this required?"
+#~ msgstr "מדוע זה נדרש?"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "נדרשת תמיכה בעוגיות ואחסון מקומי."
+
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "המשך התהליך מהווה הסכמה ל<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">תנאי השירות</a> ול<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">הצהרת הפרטיות</a> של שירותי הענן של "
+#~ "Firefox."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "שירותי הענן של Firefox"
+
+#~ msgid "Proceed"
+#~ msgstr "המשך"
+
+#~ msgid "Reset account"
+#~ msgstr "איפוס חשבון"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "יחד עם איפוס הססמה, יאבדו כל נתוני ה־Sync שאינם נמצאים על אחד מההתקנים שלך."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "ססמתך ידועה לך? ניתן להתחבר מכאן."
+
+#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "נתוני התוספים שלך חשובים לך? כדאי לך <a href=\"/signup\">להירשם</a> לחשבון Firefox עם כתובת הדוא״ל לחשבון התוספות הקודם שלך."
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "ניתן להסב את נתוני הסנכרון שלך על ידי כניסה לחשבון ה־Firefox שלך."
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "על מנת להגן על נתוני ה־Firefox שלך בצורה טובה יותר, מחכה לך קוד הרשאה בדואר האלקטרוני %(email)s."
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "ניתן להסב את נתוני הסנכרון שלך על ידי יצירת חשבון Firefox חדש."
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "ססמה חזקה וייחודית תשמור על נתוני ה־Firefox שלך מפני פורצים."
+
+#~ msgid "Receive the monthly Firefox newsletter"
+#~ msgstr "קבלת מכתב החדשות החודשי של Firefox"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar"
+
+#~ msgid "Save"
+#~ msgstr "שמירה"
+
+#~ msgid "current device"
+#~ msgstr "התקן נוכחי"
+
+#~ msgid "current session"
+#~ msgstr "הפעלה נוכחית"
+
+#~ msgid "none connected"
+#~ msgstr "אין מחוברים"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "ביטול הרשמה"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "האם אתה בטוח שברצונך למחוק את חשבונך? פעולה זו אינה ניתנת לביטול."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "התחברות אל Sync"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "נא לבחור את החשבון בו ברצונך להשתמש לשם סנכרון הלשוניות, סימניות, ססמאות ועוד."
+
+#~ msgid "Use OpenID"
+#~ msgstr "שימוש ב־OpenID"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "שימוש בחשבון Firefox"
+
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "הסנכרון האחרון %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "פעילות אחרונה %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "תאריך הסנכרון האחרון לא ידוע"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "%(escapedEmail)s נרשם. <a %(escapedBackLinkParams)s>טעית בהקלדת הדוא״ל?</a>"
+
+#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+#~ msgstr "נא לבדוק את הדוא״ל שלך לאישור הכניסה שנשלח ל־%(email)s"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "הכניסה אושרה"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "התרעות על החשבון תישלחנה גם אל %(secondaryEmailVerified)s"
+
+#~ msgid "We may send you emails related to your Firefox Account."
+#~ msgstr "יתכן שנשלח אליך הודעות דוא״ל הקשורות לחשבון ה־Firefox שלך."
+
+#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+#~ msgstr "בנוסף, ניתן לבחור האם לקבל את החדשות העדכניות ביותר על Mozilla ועל Firefox."
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+#~ msgstr "כתובת דוא״ל משנית הינה כתובת נוספת לקבלת התרעות אבטחה ואישור התקנים חדשים ב־Sync."
+
+#~ msgid "Codes copied"
+#~ msgstr "הקודים הועתקו"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "העתקת הקודים נכשלה. נא להעתיק אותם ידנית."
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "קוד אימות התחברות שגוי"
+
+#~ msgctxt "submit button"
+#~ msgid "Sign in"
+#~ msgstr "כניסה"
+
+#~ msgctxt "header text"
+#~ msgid "Sign in"
+#~ msgstr "כניסה"
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
+#~ "password to protect your privacy."
+#~ msgstr ""
+#~ "<span>מוטב לזכור:</span> עם איפוס הססמה שלך, חלק מהנתונים שלך יימחקו (לרבות נתוני שרת מסונכרנים כגון היסטוריה וסימניות). הסיבה לכך היא שאנו מצפינים את הנתונים עם הססמה שלך כדי להגן על פרטיותך."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
+#~ "to protect your privacy."
+#~ msgstr ""
+#~ "<span>לתשומת לבך:</span> עם איפוס הססמה שלך, חלק מהנתונים שלך יימחקו (לרבות נתוני שרת מסונכרנים כגון היסטוריה וסימניות). הסיבה לכך היא שאנו מצפינים את הנתונים עם הססמה שלך כדי להגן על פרטיותך."
+
+#~ msgid ""
+#~ "\n"
+#~ "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "                הופעת הקודים והשימוש בהם הוא תהליך חד־פעמי. יש לאחסן אותם במקום בטוח במקרה שאבדה לך הגישה להתקן הנייד שלך.\n"
+#~ "            "
+
+#~ msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
+#~ msgstr "הוספת שכבת אבטחה לחשבון שלך על ידי דרישת קודים של אבטחה מאחד מיישומי האימות שלהלן."
+
+#~ msgid "Reverify to unlock section"
+#~ msgstr "יש לאמת מחדש כדי לשחרר את האגף"
+
+#~ msgid "Can't scan code?"
+#~ msgstr "אין לך אפשרות לסרוק את הקוד?"
+
+#~ msgid "over %(translatedTimeAgo)s"
+#~ msgstr "למעלה מ־%(translatedTimeAgo)s"
+
+#~ msgid "last sync over %(translatedTimeAgo)s"
+#~ msgstr "סנכרון אחרון למעלה מ־%(translatedTimeAgo)s"
+
+#~ msgid "last active over %(translatedTimeAgo)s"
+#~ msgstr "פעילות אחרונה למעלה מ־%(translatedTimeAgo)s"
+
+#~ msgid "Next"
+#~ msgstr "הבא"
+
+#~ msgid "This is a common password; please consider another one."
+#~ msgstr "זוהי ססמה נפוצה; נא לשקול בחירת ססמה אחרת."
+
+#~ msgid "Signed out successfully"
+#~ msgstr "ההתנתקות מהחשבון הושלמה בהצלחה"
+
+#~ msgid "Didn’t arrive? Resend"
+#~ msgstr "לא הגיע? שליחה מחדש"
+
+#~ msgid "Reason for disconnecting…"
+#~ msgstr "סיבה להתנתקות…"
+
+#~ msgid "Forgot password"
+#~ msgstr "שכחתי את הססמה"
+
+#~ msgid "Firefox Sync will begin momentarily"
+#~ msgstr "Firefox Sync יתחיל בתוך מספר רגעים"
+
+#~ msgid "Devices"
+#~ msgstr "התקנים"
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "קבלת Firefox עבור Android"
+
+#~ msgid "You can manage your devices below."
+#~ msgstr "ניתן לנהל את ההתקנים שלהלן."
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
+#~ msgstr "האם התכוונת ל־<span tabindex=\"1\">%(domain)s</span>?"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "קישור לאימות נשלח אל %(email)s"
+
+#~ msgid "Sync preferences"
+#~ msgstr "העדפות סנכרון"
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "ברשותך חשבון עם כתובת דוא״ל שונה? <a href=\"%(signinUri)s\">נא ללחוץ כאן כדי להתחבר</a>"
+
+#~ msgid ""
+#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
+#~ "\"%(linkLinux)s\">Linux</a>."
+#~ msgstr ""
+#~ "Firefox זמין עבור <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> ו־<a href=\"%(linkLinux)s"
+#~ "\">Linux</a>."
+
+#~ msgid "Delete"
+#~ msgstr "מחיקה"
+
+#~ msgid "Attempt limit exceeded"
+#~ msgstr "חריגה ממגבלת הניסיונות"
+
+#~ msgid "Tabs"
+#~ msgstr "לשוניות"
+
+#~ msgid "Resend email"
+#~ msgstr "שליחה חוזרת"
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "כבר קיים ברשותך חשבון? נא להיכנס אליו."
+
+#~ msgid "Don't see all your devices?"
+#~ msgstr "אינך רואה את כל ההתקנים שלך?"
+
+#~ msgid "Account unlocked, please try again"
+#~ msgstr "החשבון אינו נעול, נא לנסות שוב"
+
+#~ msgid "Account unlocked"
+#~ msgstr "נעילת החשבון הוסרה"
+
+#~ msgid "Unlock link expired"
+#~ msgstr "פג תוקף הקישור לשחרור נעילה"
+
+#~ msgid "Unlock link damaged"
+#~ msgstr "קישור לשחרור נעילה פגום"
+
+#~ msgid "Unlock error"
+#~ msgstr "תקלה בשחרור נעילה"
+
+#~ msgid "Unlock email sent"
+#~ msgstr "הודעת דוא״ל להסרת הנעילה נשלחה"
+
+#~ msgid "Signup has been disabled"
+#~ msgstr "האפשרות להרשמה נוטרלה"
+
+#~ msgid "You signed in to Firefox from %(device)s."
+#~ msgstr "התחברת ל־Firefox מ־%(device)s."
+
+#~ msgid "Alternatively:"
+#~ msgstr "לחלופין:"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+#~ msgstr "למידע נוסף, נא לפנות אל <a %(supportLinkAttributes)s>אתר התמיכה של Mozilla</a>"
+
+#~ msgid "Verify Email"
+#~ msgstr "אימות כתובת דוא״ל"
+
+#~ msgid "(current)"
+#~ msgstr "(נוכחי)"
+
+#~ msgid "Welcome to Sync"
+#~ msgstr "ברוכים הבאים ל־Sync"
+
+#~ msgid "Home"
+#~ msgstr "בית"
+
+#~ msgid "Sign up"
+#~ msgstr "התנתקות"
+
+#~ msgid "/force_auth requires an email"
+#~ msgstr "/force_auth דורש כתובת דואר אלקטרוני"
+
+#~ msgid "A reset link has been sent to %(email)s"
+#~ msgstr "קישור איפוס נשלח אל %(email)s"
+
+#~ msgid "Are you sure you want to reset your account password?"
+#~ msgstr "האם ברצונך לאפס את הססמה לחשבון זה?"
+
+#~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
+#~ msgstr "איפוס הססמה ימחק את כל נתוני הגלישה שלך מהשרתים שלנו. כל הנתונים על ההתקנים שלך יישאר ללא שינוי. כדי להתחיל את תהליך האיפוס, נא להקליד להלן את כתובת הדואר האלקטרוני שלך."
+
+#~ msgid "Age is required"
+#~ msgstr "נדרש גיל"
+
+#~ msgid "Desktop Add-ons"
+#~ msgstr "תוספות לדפדפן השולחני"
+
+#~ msgid "Desktop Preferences"
+#~ msgstr "העדפות לדפדפן השולחני"
+
+#~ msgid "Cookies required"
+#~ msgstr "נדרשת כתובת דואר אלקטרוני חוקית"
+
+#~ msgid "Firefox is coming soon to iOS!"
+#~ msgstr "Firefox מגיע בקרוב ל־iOS!"
+
+#~ msgid "Sign up to learn more"
+#~ msgstr "הרשמה לקבלת מידע נוסף"
+
+#~ msgid "1991"
+#~ msgstr "1991"
+
+#~ msgid "1992"
+#~ msgstr "1992"
+
+#~ msgid "1993"
+#~ msgstr "1993"
+
+#~ msgid "1994"
+#~ msgstr "1994"
+
+#~ msgid "1995"
+#~ msgstr "1995"
+
+#~ msgid "1996"
+#~ msgstr "1996"
+
+#~ msgid "1997"
+#~ msgstr "1997"
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "1999"
+#~ msgstr "1999"
+
+#~ msgid "2000"
+#~ msgstr "2000"
+
+#~ msgid "2001"
+#~ msgstr "2001"
+
+#~ msgid "2002"
+#~ msgstr "2002"
+
+#~ msgid "2003"
+#~ msgstr "2003"
+
+#~ msgid "2004"
+#~ msgstr "2004"
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "2006"
+#~ msgstr "2006"
+
+#~ msgid "2007"
+#~ msgstr "2007"
+
+#~ msgid "Year of birth required"
+#~ msgstr "נדרשת שנת לידה"
+
+#~ msgid "Valid birthday required"
+#~ msgstr "נדרשת כתובת דואר אלקטרוני חוקית"
+
+#~ msgid "Year of birth"
+#~ msgstr "שנת לידה"
+
+#~ msgid "1990 or earlier"
+#~ msgstr "1990 או מוקדם יותר"
+
+#~ msgid "Month"
+#~ msgstr "חודש"
+
+#~ msgid "January"
+#~ msgstr "ינואר"
+
+#~ msgid "February"
+#~ msgstr "פברואר"
+
+#~ msgid "March"
+#~ msgstr "מרץ"
+
+#~ msgid "April"
+#~ msgstr "אפריל"
+
+#~ msgid "May"
+#~ msgstr "מאי"
+
+#~ msgid "June"
+#~ msgstr "יוני"
+
+#~ msgid "July"
+#~ msgstr "יולי"
+
+#~ msgid "August"
+#~ msgstr "אוגוסט"
+
+#~ msgid "September"
+#~ msgstr "ספטמבר"
+
+#~ msgid "October"
+#~ msgstr "אוקטובר"
+
+#~ msgid "November"
+#~ msgstr "נובמבר"
+
+#~ msgid "December"
+#~ msgstr "דצמבר"
+
+#~ msgid "Day"
+#~ msgstr "יום"
+
+#~ msgid "Manage account"
+#~ msgstr "ניהול חשבון"
+
+#~ msgid "Hello, <span>%(username)s</span>"
+#~ msgstr "שלום, <span>%(username)s</span>"
+
+#~ msgid "Edit profile"
+#~ msgstr "עריכת פרופיל"
+
+#~ msgid "Name"
+#~ msgstr "שם"
+
+#~ msgid "Enter your email to reset&nbsp;the account password."
+#~ msgstr "נא להזין את כתובת הדואר האלקטרוני שלך כדי לאפס את ססמת החשבון."
+
+#~ msgid "You are signed in as"
+#~ msgstr "מחובר כעת בתור  %(email)s"
+
+#~ msgid "Already have an account? Sign in."
+#~ msgstr "כבר יש ברשותך חשבון? נא להתחבר אליו."
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "עם ההמשך אני מאשר את <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">תנאי השירות</a>ו <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">הצהרת הפרטיות</a> של Firefox cloud services."
+
+#~ msgid "Password changed"
+#~ msgstr "הססמה שונתה"
+
+#~ msgid "Password reset. Sign in to continue."
+#~ msgstr "נא להתחבר כדי להמשיך"
+
+#~ msgid "Signed out"
+#~ msgstr "התנתקות"
+
+#~ msgid "Invalid password"
+#~ msgstr "ססמה שגויה"
+
+#~ msgid "Invalid email and password"
+#~ msgstr "כתובת הדואר האלקטרוני והססמה אינם תקינים"
+
+#~ msgid "Invalid email or password"
+#~ msgstr "כתובת הדואר האלקטרוני או הססמה אינם תקינים"
+
+#~ msgid "Old password invalid"
+#~ msgstr "ססמה ישנה אינה תקינה"
+
+#~ msgid "New password invalid"
+#~ msgstr "ססמה חדשה אינה תקינה"
+
+#~ msgid "Passwords don't match"
+#~ msgstr "הססמאות אינן זהות"
+
+#~ msgid "Please enter an email"
+#~ msgstr "נא להכניס כתובת דואר אלקטרוני"
+
+#~ msgid "Cannot connect to the internet"
+#~ msgstr "לא ניתן להתחבר לרשת"
+
+#~ msgid "Signed in successfully"
+#~ msgstr "כניסה בוצעה בהצלחה"
+
+#~ msgid "Create a Firefox Account for %(serviceName)s"
+#~ msgstr "יצירת חשבון Firefox"
+
+#~ msgid "Change Password"
+#~ msgstr "שינוי ססמה"
+
+#~ msgid "No token specified"
+#~ msgstr "לא צוין קוד"
+
+#~ msgid "No code specified"
+#~ msgstr "לא צוין קוד"
+
+#~ msgid "No email specified"
+#~ msgstr "לא צוינה כתובת דואר אלקטרוני"
+
+#~ msgid "No uid specified"
+#~ msgstr "לא צוין uid"
+
+#~ msgid "Service unavailable"
+#~ msgstr "שירות אינו זמין"
+
+#~ msgid "Completing sign up"
+#~ msgstr "השלמת הרישום"
+
+#~ msgid "Client has sent too many requests"
+#~ msgstr "לקוח שולח יותר מידי בקשות"
+
+#~ msgid "Delete Account"
+#~ msgstr "מחיקת חשבון"

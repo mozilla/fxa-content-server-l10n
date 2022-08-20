@@ -1,0 +1,1547 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2022-01-18 13:37+0000\n"
+"Last-Translator: Selim Şumlu <selim@sum.lu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+"X-POOTLE-MTIME: 1445256872.0\n"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+msgid "Firefox Accounts"
+msgstr "Firefox Hesapları"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Sayfa bulunamadı"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and\n"
+"          will fix any links that may be broken."
+msgstr ""
+"İstediğiniz sayfa bulunamadı. Kırık olabilecek bağlantıları düzeltmeleri için\n"
+"          durumu site yöneticilerimize bildirdik."
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Ana sayfa"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "500 hatası"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and\n"
+"          will get working on a fix."
+msgstr ""
+"Ters giden bir şeyler var. Kendi kendimize haber verdik ve\n"
+"          sorunu düzelteceğiz."
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "Hata 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Sunucu meşgul, daha sonra tekrar deneyin"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return\n"
+"          the system to normal as soon as possible."
+msgstr ""
+"Şu anda yoğun yük altındayız ve sistemi en kısa sürede normale\n"
+"          döndürmek için çalışıyoruz."
+
+#: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr "Yükleniyor"
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Firefox Hesapları’nı kullanmak için JavaScript açık olmalıdır."
+
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+msgid "Privacy Notice"
+msgstr "Gizlilik Bildirimi"
+
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+msgid "Terms of Service"
+msgstr "Hizmet Koşulları"
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr "Firefox güncellemesi gerekli"
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
+"Firefox Hesapları, sizin Firefox sürümünüzde \n"
+"                        desteklenmeyen bazı özellikleri kullanıyor.\n"
+"                        Devam etmek için lütfen Firefox'un en son sürümünü\n"
+"                        indirip yükleyin."
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr "Son sürümü indir"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaBrowser)s - %(uaOS)s %(uaOSVersion)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaBrowser)s - %(uaOS)s"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(stateCode)s, %(country)s (tahmini)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(country)s (tahmini)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s, %(country)s (tahmini)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (tahmini)"
+
+#~ msgid "Verification code: %(code)s"
+#~ msgstr "Doğrulama kodu: %(code)s"
+
+#~ msgid "Reminder: Finish creating your account"
+#~ msgstr "Hatırlatma: Hesabınızı oluşturmayı tamamlayın"
+
+#~ msgid "Final reminder: Activate your account"
+#~ msgstr "Son hatırlatma: Hesabınızı etkinleştirin"
+
+#~ msgid "Confirm email"
+#~ msgstr "E-postanızı doğrulayın"
+
+#~ msgid "Reminder: Finish setting up your account"
+#~ msgstr "Hatırlatma: Hesabınızın kurulumunu tamamlayın"
+
+#~ msgid "Final reminder: Setup your account"
+#~ msgstr "Son hatırlatma: Hesabınızı kurun"
+
+#~ msgid "Create a password"
+#~ msgstr "Parola oluştur"
+
+#~ msgid "Account authorization code"
+#~ msgstr "Hesap yetkilendirme kodu"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "Yeni %(clientName)s girişini onaylayın"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "Girişi onayla"
+
+#~ msgid "Confirm primary email"
+#~ msgstr "Ana e-posta adresini onayla"
+
+#~ msgid "Verify email"
+#~ msgstr "E-postayı doğrula"
+
+#~ msgid "Confirm secondary email"
+#~ msgstr "İkinci e-postayı onayla"
+
+#~ msgid "Reset your password"
+#~ msgstr "Parolanızı sıfırlayın"
+
+#~ msgid "Create new password"
+#~ msgstr "Yeni parola oluştur"
+
+#~ msgid "Password updated"
+#~ msgstr "Parola güncellendi"
+
+#~ msgid "Suspicious activity detected"
+#~ msgstr "Şüpheli etkinlik algılandı"
+
+#~ msgid "Manage account"
+#~ msgstr "Hesabı yönet"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "Yeni %(clientName)s girişi"
+
+#~ msgid "Account verified. Next, sync another device to finish setup"
+#~ msgstr "Hesap doğrulandı. Şimdi kurulumu tamamlamak için başka bir cihazı eşitleyin"
+
+#~ msgid "Set up next device"
+#~ msgstr "Sonraki cihazı kur"
+
+#~ msgid "Secondary email added"
+#~ msgstr "İkinci e-posta eklendi"
+
+#~ msgid "Primary email updated"
+#~ msgstr "Ana e-posta güncellendi"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "İkinci e-posta silindi"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "İki aşamalı kimlik doğrulama etkinleştirildi"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Yeni kurtarma kodları üretildi"
+
+#~ msgid "Recovery code used"
+#~ msgstr "Kullanılan kurtarma kodu"
+
+#~ msgid "1 recovery code remaining"
+#~ msgstr "1 kurtarma kodu kaldı"
+
+#~ msgid "%(numberRemaining)s recovery codes remaining"
+#~ msgstr "%(numberRemaining)s kurtarma kodu kaldı"
+
+#~ msgid "Generate codes"
+#~ msgstr "Kodları oluştur"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "Hesap kurtarma anahtarı oluşturuldu"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "Hesap kurtarma anahtarı silindi"
+
+#~ msgid "Password updated using recovery key"
+#~ msgstr "Kurtarma anahtarı kullanılarak parola güncellendi"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "Yeni kurtarma anahtarı oluştur"
+
+#~ msgid "Welcome to %(productName)s: Please set your password."
+#~ msgstr "%(productName)s hizmetine hoş geldiniz: Lütfen parolanızı belirleyin."
+
+#~ msgid "You have upgraded to %(productNameNew)s"
+#~ msgstr "%(productNameNew)s aboneliğine yükselttiniz"
+
+#~ msgid "You have switched to %(productNameNew)s"
+#~ msgstr "%(productNameNew)s aboneliğine geçtiniz"
+
+#~ msgid "Credit card for %(productName)s expiring soon"
+#~ msgstr "%(productName)s için kredi kartının kullanım süresi yakında doluyor"
+
+#~ msgid "Credit card for your subscriptions is expiring soon"
+#~ msgstr "Abonelikleriniz için kredi kartının kullanım süresi yakında doluyor"
+
+#~ msgid "Payment information update required for %(productName)s"
+#~ msgstr "%(productName)s için ödeme bilgilerinizi güncellemeniz gerekiyor"
+
+#~ msgid "Payment information update required for Mozilla subscriptions"
+#~ msgstr "Mozilla abonelikleri için ödeme bilgilerinizi güncellemeniz gerekiyor"
+
+#~ msgid "%(productName)s payment failed"
+#~ msgstr "%(productName)s ödemesi başarısız oldu"
+
+#~ msgid "Your %(productName)s subscription has been cancelled"
+#~ msgstr "%(productName)s aboneliğiniz iptal edildi"
+
+#~ msgid "%(productName)s subscription reactivated"
+#~ msgstr "%(productName)s aboneliği yeniden etkinleştirildi"
+
+#~ msgid "%(productName)s automatic renewal notice"
+#~ msgstr "%(productName)s otomatik yenileme bildirimi"
+
+#~ msgid "%(productName)s payment received"
+#~ msgstr "%(productName)s ödemesi alındı"
+
+#~ msgid "%(productName)s payment confirmed"
+#~ msgstr "%(productName)s ödemesi onaylandı"
+
+#~ msgid "Your Friendly Reminder: How To Complete Your Sync Setup"
+#~ msgstr "Hatırlatma: Sync kurulumunuzu tamamlayın"
+
+#~ msgid "Final Reminder: Complete Sync Setup"
+#~ msgstr "Son hatırlatma: Sync kurulumunu tamamlayın"
+
+#~ msgid "Here's your reminder to sync devices."
+#~ msgstr "Cihazları eşitlemenizi hatırlatalım dedik."
+
+#~ msgid "Last reminder to sync devices!"
+#~ msgstr "Cihazları eşitlemeniz için son hatırlatma!"
+
+#~ msgid "It takes two to sync. Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr ""
+#~ "Eşitleme için iki cihazınız olmalı. Başka bir cihazınızı Firefox’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer Firefox verilerinizi Firefox’u kullandığınız her yere taşıyabilirsiniz."
+
+#~ msgid "Syncing another device with Firefox privately keeps your bookmarks, passwords and other Firefox data the same everywhere you use Firefox."
+#~ msgstr "Başka bir cihazınızı Firefox’la eşitleyerek yer imlerinizi, parolalarınızı ve diğer Firefox verilerinizi Firefox’u kullandığınız her yere taşıyabilirsiniz."
+
+#~ msgid "Sync another device"
+#~ msgstr "Başka bir cihazı eşitle"
+
+#~ msgid "If you haven't already downloaded %(productName)s, let's get started using all the features included in your subscription:"
+#~ msgstr "%(productName)s uygulamasını henüz indirmediyseniz hemen indirin, aboneliğinize dahil olan tüm özellikleri kullanmaya başlayın:"
+
+#~ msgid "Questions about your subscription? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Aboneliğinizle ilgili sorularınız mı var? <a href=\"%(subscriptionSupportUrl)s\">Destek ekibimiz</a> size yardımcı olabilir."
+
+#~ msgid "Questions about your subscription? Our support team is here to help you:"
+#~ msgstr "Aboneliğinizle ilgili sorularınız mı var? Destek ekibimiz size yardımcı olabilir:"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "Kurtarma kodları azaldı"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Az sayıda kurtarma kodunuzun kaldığını fark ettik. Kodlarınızın bitince hesabınızın kilitlenmemesi için lütfen yeni kodlar oluşturun."
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Az sayıda kurtarma kodunuzun kaldığını fark ettik. Kodlarınızın bitince hesabınızın kilitlenmemesi için lütfen yeni kodlar oluşturun."
+
+#~ msgid "Generate codes:"
+#~ msgstr "Kodları oluştur:"
+
+#~ msgid "Password Change Required"
+#~ msgstr "Parola değişikliği gerekiyor"
+
+#~ msgid ""
+#~ "We detected suspicious behavior on your Firefox account. To prevent unauthorized access to your Firefox Account, we’ve disconnected all devices on your account and are requiring you to change "
+#~ "your password as a precaution."
+#~ msgstr ""
+#~ "Firefox hesabınızda şüpheli bir davranış tespit ettik. Firefox Hesabınıza yetkisiz erişimi önlemek için hesabınızdaki tüm cihazların bağlantısını kestik ve önlem olarak parolanızı değiştirmenizi "
+#~ "istiyoruz."
+
+#~ msgid "Sign back into any device or service where you use your Firefox account and follow the steps that will be presented to you."
+#~ msgstr "Firefox hesabınızı kullandığınız herhangi bir cihaza veya hizmete yeniden giriş yaptıktan sonra size sunulacak adımları izleyin."
+
+#~ msgid "<b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Önemli:</b> Daha önce kullandığınız paroladan ve e-posta parolanızdan farklı bir parola seçin."
+
+#~ msgid "Best,"
+#~ msgstr "Sevgiler,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Firefox Hesapları Ekibi"
+
+#~ msgid "Important: Pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Önemli: Daha önce kullandığınız paroladan ve e-posta parolanızdan farklı bir parola seçin."
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Parola başarıyla değiştirildi"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Firefox Hesabı parolanız aşağıdaki cihaz üzerinden değiştirildi:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Bu otomatik bir e-postadır. Firefox Hesabınızın parolasını değiştirmediyseniz hemen %(resetLink)s adresinden parolanızı sıfırlayın."
+
+#~ msgid "Your account password was changed"
+#~ msgstr "Hesap parolanız değiştirildi"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Diğer cihazlarda eşitlemeye devam etmek için onlara da yeni parolanızı girmelisiniz."
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Diğer cihazlarda eşitlemeye devam etmek için onlara da yeni parolanızı girmelisiniz."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "Parolanızı siz değiştirmediyseniz lütfen hemen %(resetLink)s adresinden sıfırlayın"
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "Hesap parolanız bir kurtarma anahtarıyla sıfırlandı"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "Kurtarma anahtarı kullanarak parolanızı aşağıdaki cihazdan başarıyla sıfırladınız:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "Yeni bir kurtarma anahtarı oluşturmanız gerekecek."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "Yeni kurtarma anahtarı oluştur:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Daha fazla bilgi için lütfen %(supportUrl)s adresini ziyaret edin"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Aşağıdaki cihazı kullanarak Firefox Hesabınız için hesap kurtarma anahtarını başarıyla oluşturdunuz:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "Bu siz değilseniz <a %(revokeAccountRecoveryLinkAttributes)s>buraya tıklayın.</a>"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Aşağıdaki cihazı kullanarak Firefox Hesabınız için hesap kurtarma anahtarını başarıyla oluşturdunuz:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "Bu işlemi siz yapmadıysanız anahtarı iptal edin."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Aşağıdaki cihaz aracılığıyla Firefox Hesabınızda iki aşamalı doğrulamayı başarıyla etkinleştirdiniz:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Bundan sonra her girişinizde kimlik doğrulama uygulamanızın ürettiği güvenlik kodları gerekecektir."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Firefox Hesabınızda iki aşamalı doğrulamayı başarıyla etkinleştirdiniz. Bundan sonra her girişte kimlik doğrulama uygulamanızın ürettiği güvenlik kodları sorulacaktır."
+
+#~ msgid "New primary email"
+#~ msgstr "Yeni ana e-posta"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "Ana e-posta adresinizi %(email)s olarak başarıyla değiştirdiniz. Bu adres artık Firefox Hesabınıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize "
+#~ "gelecek."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "Kurtarma kodu kullanıldı"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "Aşağıdaki cihazda bir kurtarma kodunu başarıyla kullandınız:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "Kullanılan kurtarma kodu"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "Aşağıdaki cihaz aracılığıyla başarıyla yeni kurtarma kodları ürettiniz:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Aşağıdaki cihazı kullanarak Firefox Hesabınız için bir hesap kurtarma anahtarını başarıyla sildiniz:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "Bu kurtarma anahtarı artık hesabınızı kurtarmak için kullanılamaz."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Aşağıdaki cihazı kullanarak Firefox Hesabınız için bir hesap kurtarma anahtarını başarıyla sildiniz:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Firefox Hesabınızda ikinci e-posta olarak kayıtlı %(secondaryEmail)s adresini başarıyla sildiniz. Güvenlik bildirimleri ve giriş onayları artık bu adrese gönderilmeyecektir."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "İki aşamalı kimlik doğrulama kapatıldı"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Aşağıdaki cihaz aracılığıyla Firefox Hesabınızda iki aşamalı kimlik doğrulamayı devre dışı bıraktınız:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "Artık her girişte güvenlik kodları sorulmayacaktır."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "Firefox Hesabınızda iki aşamalı kimlik doğrulamayı devre dışı bıraktınız. Artık her girişte güvenlik kodları sorulmayacaktır."
+
+#~ msgid "Firefox Account verified. You're almost there."
+#~ msgstr "Firefox Hesabı doğrulandı. İşimiz bitmek üzere."
+
+#~ msgid "Next sync between your devices!"
+#~ msgstr "Şimdi cihazlarınızı eşitleyin!"
+
+#~ msgid "Sync privately keeps your bookmarks, passwords and other Firefox data the same across all your devices."
+#~ msgstr "Sync özelliği; yer imlerinizin, parolalarınızın ve diğer Firefox verilerinizin tüm cihazlarınızda aynı kalmasını sağlar."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "Sorularınız mı var? %(supportUrl)s adresini ziyaret edin"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "%(secondaryEmail)s adresini Firefox Hesabınızın ikinci e-postası olarak doğruladınız. Güvenlik bildirimleri ve giriş onayları artık her iki adresinize de gönderilecektir."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "Parolanızı sıfırlamanız mı gerekiyor?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "Yeni bir parola oluşturmak için bir saat içinde bu düğmeye tıklayın. Bu istek şu cihazdan gelmiştir:"
+
+#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+#~ msgstr "Firefox’u seçtiğiniz için teşekkürler! Firefox’un mobil uygulamasını buradan yükleyebilirsiniz: %(link)s"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Ayrılık sevdaya dahil"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Yakın zamanda Firefox Hesabınızı sildiniz. Bu nedenle %(productName)s aboneliğinizi iptal ettik. %(invoiceTotal)s tutarındaki son ödemeniz %(invoiceDateOnly)s tarihinde ödendi."
+
+#~ msgid "Please help us improve our services by taking this <a %(cancellationSurveyLinkAttributes)s>short survey</a>."
+#~ msgstr "Hizmetlerimizi iyileştirebilmemiz için bu <a %(cancellationSurveyLinkAttributes)s>kısa ankete</a> katılmanızı rica ederiz."
+
+#~ msgid "Please help us improve our services by taking this short survey:"
+#~ msgstr "Hizmetlerimizi iyileştirebilmemiz için kısa bir ankete katılmanızı rica ederiz:"
+
+#~ msgid "Welcome to %(productName)s"
+#~ msgstr "%(productName)s uygulamasına hoş geldiniz"
+
+#~ msgid "Your payment is processing and may take up to four business days to complete. Your subscription will renew automatically each billing period unless you choose to cancel."
+#~ msgstr "Ödemeniz işleme alındı. Tamamlanması 4 iş günü sürebilir. İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenecektir."
+
+#~ msgid "Next, you'll create a Firefox account password and download %(productName)s."
+#~ msgstr "Sonra bir Firefox hesabı açacak ve %(productName)s yazılımını indireceksiniz."
+
+#~ msgid "Invoice number: %(invoiceNumber)s"
+#~ msgstr "Fatura numarası: %(invoiceNumber)s"
+
+#~ msgid "Charged: %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "%(invoiceDateOnly)s tarihinde %(invoiceTotal)s tahsil edildi"
+
+#~ msgid "Next invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Sonraki fatura: %(nextInvoiceDateOnly)s"
+
+#~ msgid "You can't access your subscription yet"
+#~ msgstr "Henüz aboneliğinize erişemezsiniz"
+
+#~ msgid "A few days ago you created a Firefox Account but never verified it. We hope you’ll finish setting up your account, so you can use your new subscription."
+#~ msgstr "Birkaç gün önce Firefox Hesabı açtınız ama hesabınızı henüz doğrulamadınız. Yeni aboneliğinizi kullanabilmek için hesabınızın kurulumunu tamamlamanız gerekiyor."
+
+#~ msgid "Select “Create Password” to set up a new password and finish verifying your account."
+#~ msgstr "Yeni parola belirlemek için “Parola oluştur” seçerek hesabınızı doğrulamayı tamamlayın."
+
+#~ msgid "Create a password:"
+#~ msgstr "Parola oluşturun:"
+
+#~ msgid "Welcome to Firefox!"
+#~ msgstr "Firefox’a hoş geldiniz!"
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of %(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "%(productName)s aboneliğinizi iptal ettik. %(invoiceTotal)s tutarındaki son ödemenizi %(invoiceDateOnly)s tarihinde almıştık. Ödediğiniz dönemin son günü olan %(serviceLastActiveDateOnly)s "
+#~ "tarihine kadar hizmetiniz devam edecektir."
+
+#~ msgid "You have successfully switched from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "%(productNameOld)s aboneliğinden %(productNameNew)s aboneliğine başarıyla geçtiniz."
+
+#~ msgid "If there is new software for you to install in order to use %(productNameNew)s, you will receive a separate email with download instructions."
+#~ msgstr "%(productNameNew)s ürününü kullanmak için kurmanız gereken yeni bir yazılım varsa indirme talimatlarını içeren ayrı bir e-posta alacaksınız."
+
+#~ msgid "Your subscription will automatically renew each billing period unless you choose to cancel."
+#~ msgstr "İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir."
+
+#~ msgid "Your subscription has been cancelled"
+#~ msgstr "Aboneliğiniz iptal edildi"
+
+#~ msgid "Thank you for subscribing to %(productName)s"
+#~ msgstr "%(productName)s abonesi olduğunuz için teşekkür ederiz"
+
+#~ msgid "Your payment is currently processing and may take up to four business days to complete."
+#~ msgstr "Ödemeniz işleme alındı. Tamamlanması dört iş günü sürebilir."
+
+#~ msgid "You will receive a separate email with download instructions on how to start using %(productName)s."
+#~ msgstr "%(productName)s ürününü kullanmaya nasıl başlayacağınıza dair indirme talimatlarını içeren ayrı bir e-posta alacaksınız."
+
+#~ msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
+#~ msgstr "Fatura numarası: <b>%(invoiceNumber)s</b>"
+
+#~ msgid "Charged %(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "%(invoiceDateOnly)s tarihinde %(invoiceTotal)s tahsil edildi"
+
+#~ msgid "<a href=\"%(invoiceLink)s\">View your invoice</a>."
+#~ msgstr "<a href=\"%(invoiceLink)s\">Faturanızı görüntüleyin</a>."
+
+#~ msgid "Next Invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "Sonraki fatura: %(nextInvoiceDateOnly)s"
+
+#~ msgid "Invoice Number: %(invoiceNumber)s"
+#~ msgstr "Fatura numarası: %(invoiceNumber)s"
+
+#~ msgid "View Invoice: %(invoiceLink)s"
+#~ msgstr "Faturayı görüntüle: %(invoiceLink)s"
+
+#~ msgid "Subtotal: %(invoiceSubtotal)s"
+#~ msgstr "Ara toplam: %(invoiceSubtotal)s"
+
+#~ msgid "One-time discount: -%(invoiceDiscountAmount)s"
+#~ msgstr "Tek seferlik indirim: -%(invoiceDiscountAmount)s"
+
+#~ msgid "Your credit card is about to expire"
+#~ msgstr "Kredi kartınızın kullanım süresi dolmak üzere"
+
+#~ msgid "The credit card you're using to make payments for %(productName)s is about to expire."
+#~ msgstr "%(productName)s için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmak üzere."
+
+#~ msgid "To prevent any interruption to your service, please <a href=\"%(updateBillingUrl)s\">update your payment information</a> as soon as possible."
+#~ msgstr "Hizmetinizde kesinti olmaması için lütfen <a href=\"%(updateBillingUrl)s\">ödeme bilgilerinizi güncelleyin</a>."
+
+#~ msgid "To prevent any interruption to your service, please update your payment information as soon as possible:"
+#~ msgstr "Hizmetinizde kesinti olmaması için lütfen ödeme bilgilerinizi en kısa zamanda güncelleyin:"
+
+#~ msgid "Sorry, we're having trouble with your payment"
+#~ msgstr "Üzgünüz, ödemenizle ilgili sorun yaşıyoruz"
+
+#~ msgid "We had a problem with your latest payment for %(productName)s."
+#~ msgstr "%(productName)s için son ödemenizle ilgili bir sorun yaşadık."
+
+#~ msgid "It may be that your credit card has expired, or your current payment method is out of date."
+#~ msgstr "Kredi kartınızın kullanım süresi dolmuş veya mevcut ödeme yönteminiz güncel olmayabilir."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a>."
+#~ msgstr "Birkaç gün içinde ödeme almayı tekrar deneyeceğiz. Sorunu gidermek için <a href=\"%(updateBillingUrl)s\">ödeme bilgilerinizi güncellemeniz gerekebilir</a>."
+
+#~ msgid "We’ll try your payment again over the next few days, but you may need to help us fix it by updating your payment information:"
+#~ msgstr "Birkaç gün içinde ödeme almayı tekrar deneyeceğiz. Sorunu gidermek için ödeme bilgilerinizi güncellemeniz gerekebilir:"
+
+#~ msgid "Sorry, we’re having trouble with your payment method"
+#~ msgstr "Kusura bakmayın, ödeme yönteminizle ilgili bir sorun yaşıyoruz"
+
+#~ msgid "We have detected a problem with your payment method for %(productName)s."
+#~ msgstr "%(productName)s ödeme yönteminizle ilgili bir sorun tespit ettik."
+
+#~ msgid "Thank you for reactivating your %(productName)s subscription!"
+#~ msgstr "%(productName)s aboneliğinizi yeniden etkinleştirdiğiniz için teşekkür ederiz!"
+
+#~ msgid "Your subscription will be renewed soon"
+#~ msgstr "Aboneliğiniz yakında yenilenecek"
+
+#~ msgid "Dear %(productName)s customer,"
+#~ msgstr "Sayın %(productName)s müşterisi,"
+
+#~ msgid "You can ensure that your payment method and account information are up to date <a href=\"%(updateBillingUrl)s\">here</a>."
+#~ msgstr "Ödeme yönteminizin ve hesap bilgilerinizin güncel olup olmadığını <a href=\"%(updateBillingUrl)s\">buradan</a> kontrol edebilirsiniz."
+
+#~ msgid ""
+#~ "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please <a href=\"%(subscriptionSupportUrl)s"
+#~ "\">contact us</a>."
+#~ msgstr ""
+#~ "%(productName)s abonesi olduğunuz için teşekkür ederiz. Aboneliğinizle ilgili bir sorunuz veya %(productName)s hakkında daha fazla bilgiye ihtiyacınız varsa lütfen <a href="
+#~ "\"%(subscriptionSupportUrl)s\">bizimle iletişime geçin</a>."
+
+#~ msgid "Sincerely,"
+#~ msgstr "Saygılarımızla,"
+
+#~ msgid "The %(productName)s team"
+#~ msgstr "%(productName)s ekibi"
+
+#~ msgid "You can ensure that your payment method and account information are up to date here:"
+#~ msgstr "Ödeme yönteminizin ve hesap bilgilerinizin güncel olup olmadığını buradan kontrol edebilirsiniz:"
+
+#~ msgid "Thank you for subscribing to %(productName)s. If you have any questions about your subscription or need more information about %(productName)s, please contact us:"
+#~ msgstr "%(productName)s abonesi olduğunuz için teşekkür ederiz. Aboneliğinizle ilgili bir sorunuz veya %(productName)s hakkında daha fazla bilgiye ihtiyacınız varsa lütfen bizimle iletişime geçin:"
+
+#~ msgid "Thank you for being a subscriber!"
+#~ msgstr "Abone olduğunuz için teşekkürler!"
+
+#~ msgid "We received your latest payment for %(productName)s."
+#~ msgstr "%(productName)s için son ödemenizi aldık."
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "Yükseltme yaptığınız için teşekkürler!"
+
+#~ msgid "You have successfully upgraded from %(productNameOld)s to %(productNameNew)s."
+#~ msgstr "%(productNameOld)s ürününden %(productNameNew)s ürününe başarıyla geçtiniz."
+
+#~ msgid "The credit card you're using to make payments for the following subscriptions is about to expire."
+#~ msgstr "Aşağıdaki abonelikler için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmak üzere."
+
+#~ msgid "Questions about your subscriptions? Our <a href=\"%(subscriptionSupportUrl)s\">support team</a> is here to help you."
+#~ msgstr "Aboneliklerinizle ilgili sorularınız mı var? <a href=\"%(subscriptionSupportUrl)s\">Destek ekibimiz</a> size yardımcı olabilir."
+
+#~ msgid "Questions about your subscriptions? Our support team is here to help you:"
+#~ msgstr "Aboneliklerinizle ilgili sorularınız mı var? Destek ekibimiz size yardımcı olabilir:"
+
+#~ msgid "We have detected a problem with your payment method for the following subscriptions."
+#~ msgstr "Aşağıdaki abonelikler için ödeme yönteminizle ilgili bir sorun tespit ettik."
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "Giriş yapan siz misiniz?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Sizseniz bu yetkilendirme kodunu kullanabilirsiniz:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Değilseniz, saldırganları kapı dışarı edebilmemiz için <a %(reportSignInLinkAttributes)s>bize rapor edin</a>."
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Değilseniz, saldırganları kapı dışarı edebilmemiz için bize rapor edin."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Firefox ailesine hoş geldiniz"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "Birkaç gün önce bir Firefox hesabı açtınız ama hesabınızı onaylamadınız."
+
+#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+#~ msgstr "Hesabınızı şimdi doğrulayın; gizliliğiniz için mücadele eden, sizi pratik bilgilerle donatan ve size hak ettiğiniz saygıyı gösteren teknolojiye kavuşun."
+
+#~ msgid "Confirm email:"
+#~ msgstr "E-postanızı doğrulayın:"
+
+#~ msgid "Still there?"
+#~ msgstr "Orada mısınız?"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "Yaklaşık bir hafta önce Firefox Hesabı açtınız ama hesabınızı onaylamadınız. Sizi merak ettik."
+
+#~ msgid "Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Her şey yolundaysa hesabınızı etkinleştirmek için bu e-posta adresini onaylayın."
+
+#~ msgid "Activate the Firefox family of products"
+#~ msgstr "Firefox ürün ailesini etkinleştirin"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+#~ msgstr "Hesabınız doğrulayın, giriş yaptığınız her yerde Firefox’tan daha iyi şekilde yararlanın. İlk olarak…"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+#~ msgstr "Hesabınız doğrulayın, giriş yaptığınız her yerde Firefox’tan daha iyi şekilde yararlanın."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "Ek bir güvenlik önlemi olarak, aşağıdaki cihazdan giriş yaptığınızı onaylayın:"
+
+#~ msgid "If yes, here is the verification code:"
+#~ msgstr "Doğrulama kodunuz:"
+
+#~ msgid "It expires in 5 minutes."
+#~ msgstr "Kodun geçerlilik süresi 5 dakikadır."
+
+#~ msgid "Verify primary email"
+#~ msgstr "Ana e-posta adresini doğrula"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "Aşağıdaki cihazdan bir hesap değiştirme isteği yapılmıştır:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "Cihaz doğrulandıktan sonra, bu cihazdan ikinci e-posta ekleme gibi hesap değişiklikleri yapmak mümkün olacaktır."
+
+#~ msgid "Verify email: "
+#~ msgstr "E-postayı doğrula: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "İkinci e-postayı doğrula"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "%(email)s adresini ikinci e-posta adresi olarak kullanmak için aşağıdaki Firefox Hesabından bir istek yapıldı:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir."
+
+#~ msgid "Use this verification code:"
+#~ msgstr "Bu doğrulama kodunu kullanın:"
+
+#~ msgid "It expires in 5 minutes. Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Kodun geçerlilik süresi 5 dakikadır. Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir."
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "Kaydolan siz misiniz?"
+
+#~ msgid "If yes, use this verification code in your registration form:"
+#~ msgstr "Sizseniz kayıt formunda bu doğrulama kodunu kullanabilirsiniz:"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "Rahat, hazır ol, eşitle"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Bu e-postayı aldığınızı onayladıktan sonra tüm cihazlarınıza Firefox'u kurup eşitlemenize yardım edeceğiz. Önce şununla başlayacağız:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "Doğrulamadan sonra Firefox'u en az bir cihazınıza daha yüklemenize ve hesabınıza bağlamanıza yardım edeceğiz."
+
+#~ msgid "Or, install on <a %(desktopLinkAttributes)s>another desktop device</a>."
+#~ msgstr "Veya <a %(desktopLinkAttributes)s>başka bir bilgisayara</a> yükleyin."
+
+#~ msgid "Or, install on <a %(cadLinkAttributes)s>another device</a>."
+#~ msgstr "Veya <a %(cadLinkAttributes)s>başka bir cihaza</a> yükleyin."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen <a %(passwordChangeLinkAttributes)s>parolanızı değiştirin</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Daha fazla bilgi için lütfen <a %(supportLinkAttributes)s>Mozilla Destek</a>’i ziyaret edin."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Bu otomatik bir e-postadır. Firefox Hesabınıza yeni bir cihaz eklemediyseniz hemen %(passwordChangeLink)s adresinden parolanızı değiştirmelisiniz"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen <a %(resetLinkAttributes)s>parolanızı sıfırlayın</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyorsanız lütfen parolanızı değiştirin."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "IP adresi: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "Hesabı yönet:"
+
+#~ msgid "Payment details:"
+#~ msgstr "Ödeme ayrıntıları:"
+
+#~ msgid "PayPal"
+#~ msgstr "PayPal"
+
+#~ msgid "%(cardType)s card ending in %(lastFour)s"
+#~ msgstr "%(lastFour)s ile biten %(cardType)s kartı"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Mozilla Gizlilik İlkeleri"
+
+#~ msgid "Firefox Cloud Terms of Service"
+#~ msgstr "Firefox Bulut Hizmet Koşulları"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you signed up for %(productName)s."
+#~ msgstr "%(email)s adresine kayıtlı bir Firefox hesabınız olduğu ve %(productName)s ürününe kaydolduğunuz için bu e-postayı aldınız."
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account"
+#~ msgstr "%(email)s adresine kayıtlı bir Firefox hesabı olduğu için bu e-postayı aldınız"
+
+#~ msgid "You're receiving this email because %(email)s has a Firefox account and you have subscribed to multiple products."
+#~ msgstr "%(email)s adresine kayıtlı bir Firefox hesabınız olduğu ve birden fazla ürüne abone olduğunuz için bu e-postayı aldınız."
+
+#~ msgid "Manage your Firefox account settings by visiting your <a %(accountSettingsLinkAttributes)s>account page</a>."
+#~ msgstr "<a %(accountSettingsLinkAttributes)s>Hesap sayfanızı</a> ziyaret ederek Firefox hesabı ayarlarınızı yönetebilirsiniz."
+
+#~ msgid "Terms and cancellation policy"
+#~ msgstr "Koşullar ve iptal politikası"
+
+#~ msgid "Reactivate subscription"
+#~ msgstr "Aboneliği yeniden etkinleştir"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Aboneliği iptal et"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "Abonelikleri iptal et"
+
+#~ msgid "Update billing information"
+#~ msgstr "Fatura bilgilerini güncelle"
+
+#~ msgid "Legal"
+#~ msgstr "Yasal Bilgiler"
+
+#~ msgid "Privacy"
+#~ msgstr "Gizlilik"
+
+#~ msgid "Terms and cancellation policy:"
+#~ msgstr "Koşullar ve iptal politikası:"
+
+#~ msgid "Privacy notice:"
+#~ msgstr "Gizlilik bildirimi:"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "Aboneliği iptal et:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "Abonelikleri iptal et:"
+
+#~ msgid "Update billing information:"
+#~ msgstr "Fatura bilgilerini güncelle:"
+
+#~ msgid "Finish creating your account"
+#~ msgstr "Hesabınızı oluşturmayı tamamlayın"
+
+#~ msgid "Sign-in code for %(serviceName)s"
+#~ msgstr "%(serviceName)s giriş kodu"
+
+#~ msgid "Two-step authentication is off"
+#~ msgstr "İki aşamalı doğrulama kapalı"
+
+#~ msgid "Download %(productName)s"
+#~ msgstr "%(productName)s uygulamasını indirin"
+
+#~ msgid "Two-step verification enabled"
+#~ msgstr "İki aşamalı doğrulama etkinleştirildi"
+
+#~ msgid "Two-step verification is off"
+#~ msgstr "İki aşamalı doğrulama kapalı"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "Firefox Hesabı'nızda şüpheli bir eylem tespit ettik. Hesabınız ele geçirilmiş olabilir."
+
+#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+#~ msgstr "Firefox Hesabı’nıza başkalarının izinsiz erişmesini önlemek için parolanızı sıfırladık ve önlem olarak sizi bilgilendiriyoruz."
+
+#~ msgid "What should you do?"
+#~ msgstr "Ne yapmalıyım?"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "Öncelikle Firefox Hesabı parolanızı değiştirin."
+
+#~ msgid ""
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
+#~ msgstr ""
+#~ "Ardından, Firefox’ta web sitelerine ait parolaları kaydettiyseniz o parolaları da değiştirmelisiniz. Saldırganlar o parolaları erişmiş olabilir. O hesaplarda da şüpheli bir etkinlik olup "
+#~ "olmadığını kontrol etmelisiniz."
+
+#~ msgid "Learn how to see what passwords Firefox is storing for you."
+#~ msgstr "Firefox’ta hangi parolaları depoladığınızı öğrenin."
+
+#~ msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within 24 hours."
+#~ msgstr "<a href=\"%(updateBillingUrl)s\">Ödeme bilgilerinizi 24 saat içinde güncelleyerek</a> sorunu giderebilirsiniz."
+
+#~ msgid "Unfortunately, if we don’t hear from you within 24 hours, you’ll lose access to %(productName)s."
+#~ msgstr "24 saat içinde sizden haber alamazsak maalesef %(productName)s erişiminiz sonlanacak."
+
+#~ msgid "Help us fix it by updating your payment information within 24 hours:"
+#~ msgstr "Ödeme bilgilerinizi 24 saat içinde güncelleyerek sorunu giderebilirsiniz:"
+
+#~ msgid "<b>Important:</b> pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "<b>Önemli:</b> Daha önce kullandığınızdan farklı bir parola seçin ve e-posta parolanızdan farklı olduğundan da emin olun."
+
+#~ msgid "The Firefox accounts team"
+#~ msgstr "Firefox hesapları ekibi"
+
+#~ msgid "Important: pick a different password than what you were previously using and make sure that it is different from your email account."
+#~ msgstr "Önemli: Daha önce kullandığınızdan farklı bir parola seçin ve e-posta parolanızdan farklı olduğundan da emin olun."
+
+#~ msgid "Setup next device"
+#~ msgstr "Sonraki cihazı kur"
+
+#~ msgid "If yes, use this verification code:"
+#~ msgstr "Sizseniz şu doğrulama kodunu kullanın:"
+
+#~ msgid "Help us fix it by <a href=\"%(updateBillingUrl)s\">updating your payment information</a> within three days."
+#~ msgstr "<a href=\"%(updateBillingUrl)s\">Ödeme bilgilerinizi üç gün içinde güncelleyerek</a> sorunu giderebilirsiniz."
+
+#~ msgid "Unfortunately, if we don’t hear from you within three days, you’ll lose access to %(productName)s."
+#~ msgstr "Üç gün içinde sizden haber alamazsak maalesef %(productName)s erişiminiz sonlanacak."
+
+#~ msgid "Help us fix it by updating your payment information within three days:"
+#~ msgstr "Ödeme bilgilerinizi üç gün içinde güncelleyerek sorunu giderebilirsiniz:"
+
+#~ msgid "Thank you for subscribing to %(productName)s!"
+#~ msgstr "%(productName)s abonesi olduğunuz için teşekkür ederiz!"
+
+#~ msgid "You recently deleted your Firefox Account. As a result, we’ve cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s."
+#~ msgstr "Yakın zamanda Firefox Hesabınızı sildiniz. Bu nedenle %(productName)s aboneliğinizi iptal ettik. %(invoiceTotal)s$ tutarındaki son ödemeniz %(invoiceDateOnly)s tarihinde ödendi."
+
+#~ msgid ""
+#~ "We've cancelled your %(productName)s subscription. Your final payment of $%(invoiceTotal)s was paid on %(invoiceDateOnly)s. Your service will continue until the end of your current billing "
+#~ "period, which is %(serviceLastActiveDateOnly)s."
+#~ msgstr ""
+#~ "%(productName)s aboneliğinizi iptal ettik. %(invoiceTotal)s $ tutarındaki son ödemenizi %(invoiceDateOnly)s tarihinde almıştık. Ödediğiniz dönemin son günü olan %(serviceLastActiveDateOnly)s "
+#~ "tarihine kadar hizmetiniz devam edecektir."
+
+#~ msgid "Charged $%(invoiceTotal)s on %(invoiceDateOnly)s"
+#~ msgstr "%(invoiceDateOnly)s tarihinde %(invoiceTotal)s $ tahsil edildi"
+
+#~ msgid "You're signed in and ready to start exploring safely and securely."
+#~ msgstr "Giriş yaptınız ve internette güvenle gezinmeye hazırsınız."
+
+#~ msgid "Now get the most of Firefox by signing in everywhere you browse."
+#~ msgstr "Şimdi internete bağlandığınız her cihazdan giriş yaparak Firefox’tan en iyi şekilde yararlanın."
+
+#~ msgid "Connect another device:"
+#~ msgstr "Başka bir cihaz bağla:"
+
+#~ msgid "Account confirmed"
+#~ msgstr "Hesap onaylandı"
+
+#~ msgid "Connect another device"
+#~ msgstr "Başka bir cihaz bağla"
+
+#~ msgid "Protect your data with a recovery key"
+#~ msgstr "Kurtarma anahtarıyla verilerinizi koruyun"
+
+#~ msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
+#~ msgstr "Kurtarma anahtarınız sayesinde, eşitlenmiş verilerinizi geri yükleyip kaldığınız yerden devam edebilirsiniz."
+
+#~ msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
+#~ msgstr "Aksi halde, parolanız sıfırladığını zaman gizliliğinizi korumak için Firefox tüm verilerinizi siler."
+
+#~ msgid "Protect yourself from being locked out"
+#~ msgstr "Verileriniz kaybolmasın"
+
+#~ msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
+#~ msgstr "İkinci bir e-posta eklerseniz ana e-postanıza erişemediğiniz zaman hesabınıza yeniden ulaşma şansınız olur."
+
+#~ msgid "Set up recovery email"
+#~ msgstr "Kurtarma e-postasını ayarla"
+
+#~ msgid "Add a secondary email"
+#~ msgstr "İkinci bir e-posta ekle"
+
+#~ msgid "Get a recovery key"
+#~ msgstr "Kurtarma anahtarı al"
+
+#~ msgid ""
+#~ "The page you requested is not found. We've been\n"
+#~ "                    notified and will fix any links that may be broken."
+#~ msgstr ""
+#~ "İstediğiniz sayfa bulunamadı. Durumu site yöneticilerimize bildirdik\n"
+#~ "                    ve kırık olabilecek bağlantıları düzelteceğiz."
+
+#~ msgid ""
+#~ "Oh dear, something went wrong there. We've been\n"
+#~ "                    notified and will get working on a fix."
+#~ msgstr ""
+#~ "Bir şeyler bozuldu galiba. Kendi kendimize otomatik \n"
+#~ "                    olarak haber verdik, sorunu gidermeye çalışacağız."
+
+#~ msgid ""
+#~ "We are currently under heavy strain and are working to\n"
+#~ "                    return the system to normal as soon as possible."
+#~ msgstr ""
+#~ "Şu anda yoğun yük altındayız ve sistemi en kısa sürede\n"
+#~ "                    normale döndürmek için çalışıyoruz."
+
+#~ msgid "Privacy notice"
+#~ msgstr "Gizlilik bildirimi"
+
+#~ msgid "Avoid account lockout"
+#~ msgstr "Hesabınız kilitlenmesin"
+
+#~ msgid "Two simple steps help you get back into your account and protect your data if you need to reset your password."
+#~ msgstr "Parolanızı sıfırlamanız gerekirse hesabınızı kurtarmanızı ve verilerinizi korumanızı sağlayacak bu iki basit adımı uygulayın."
+
+#~ msgid "Set up a secondary email: "
+#~ msgstr "İkincil e-postanızı ayarlayın: "
+
+#~ msgid "Helps you get back in if you lose access to your email."
+#~ msgstr "Ana e-postanıza ulaşamadığınız zaman hesabınızı kurtarmanızı sağlar."
+
+#~ msgid " Create a recovery key: "
+#~ msgstr " Kurtarma anahtarı oluşturun: "
+
+#~ msgid "Firefox protects your data by erasing your synced data if you reset your password. A recovery key restores it."
+#~ msgstr "Parolanızı sıfırlarsanız Firefox gizliliğinizi korumak amacıyla tüm eşitlenmiş verilerinizi siler. Kurtarma anahtarıyla verilerinizi koruyabilirsiniz."
+
+#~ msgid "Set up a secondary email:"
+#~ msgstr "İkincil e-postanızı ayarlayın:"
+
+#~ msgid "Create a recovery key:"
+#~ msgstr "Kurtarma anahtarı oluşturun:"
+
+#~ msgid "Set up account recovery"
+#~ msgstr "Hesap kurtarmayı ayarlayın"
+
+#~ msgid "Open account settings"
+#~ msgstr "Hesap ayarlarını aç"
+
+#~ msgid "Account verified!"
+#~ msgstr "Hesap doğrulandı!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "İlk cihazınızı Firefox Hesabı’nıza başlarıyla bağladınız. Artık hem diğer bilgisayarınızdan hem de <a %(androidLinkAttributes)s>Android</a> ve <a %(iosLinkAttributes)s>iOS</a> için Firefox’tan "
+#~ "Snc’e giriş yapabilirsiniz."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Artık Android ve iOS için Firefox da dahil olmak üzere diğer cihazlarınızdan Sync’e giriş yapabilirsiniz."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Eşitlemek için giriş yapın:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "%(serviceName)s servisine hoş geldiniz!"
+
+#~ msgid "Welcome!"
+#~ msgstr "Hoş geldiniz!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "Firefox Hesabınızı etkinleştirmek ve %(serviceName)s servisine devam etmek için bu e-posta adresini onaylayın."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "Firefox Hesabınızı etkinleştirmek için bu e-posta adresini onaylayın."
+
+#~ msgid "Activate now:"
+#~ msgstr "Şimdi etkinleştir:"
+
+#~ msgid "It expires in 20 minutes."
+#~ msgstr "Geçerlilik süresi 20 dakikadır."
+
+#~ msgid "Verify Your Account"
+#~ msgstr "Hesabınızı doğrulayın"
+
+#~ msgid "Activate now"
+#~ msgstr "Şimdi etkinleştir"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "E-postanızı doğrulayarak eşitlemeyi başlatın!"
+
+#~ msgid "Finish Creating Your Account"
+#~ msgstr "Hesabınızı oluşturmayı tamamlayın"
+
+#~ msgid "Reminder: Complete Registration"
+#~ msgstr "Hatırlatma: Kaydınızı tamamlayın"
+
+#~ msgid "Final Reminder: Activate Your Account"
+#~ msgstr "Son hatırlatma: Hesabınızı etkinleştirin"
+
+#~ msgid "Authorization Code for %(clientName)s"
+#~ msgstr "%(clientName)s yetki kodu"
+
+#~ msgid "Confirm New Sign-in"
+#~ msgstr "Yeni girişi onaylayın"
+
+#~ msgid "Sign-in Code for %(serviceName)s"
+#~ msgstr "%(serviceName)s giriş kodu"
+
+#~ msgid "Verify Primary Email"
+#~ msgstr "Ana e-posta adresini doğrula"
+
+#~ msgid "Verify Secondary Email"
+#~ msgstr "İkinci e-postayı doğrula"
+
+#~ msgid "Reset Your Password"
+#~ msgstr "Parolayı sıfırla"
+
+#~ msgid "Password Changed"
+#~ msgstr "Parola değiştirildi"
+
+#~ msgid "Password Updated"
+#~ msgstr "Parola güncellendi"
+
+#~ msgid "Suspicious Activity: Password Reset Required"
+#~ msgstr "Şüpheli etkinlik: Parolanızı sıfırlamalısınız"
+
+#~ msgid "New Sign-in to %(clientName)s"
+#~ msgstr "Yeni %(clientName)s girişi"
+
+#~ msgid "Account Verified"
+#~ msgstr "Hesap doğrulandı"
+
+#~ msgid "Account Confirmed"
+#~ msgstr "Hesap onaylandı"
+
+#~ msgid "Secondary Email Added"
+#~ msgstr "İkinci e-posta eklendi"
+
+#~ msgid "New Primary Email"
+#~ msgstr "Yeni ana e-posta"
+
+#~ msgid "Secondary Email Removed"
+#~ msgstr "İkinci e-posta silindi"
+
+#~ msgid "Two-Step Authentication Enabled"
+#~ msgstr "İki aşamalı kimlik doğrulama etkinleştirildi"
+
+#~ msgid "Two-Step Authentication Disabled"
+#~ msgstr "İki aşamalı kimlik doğrulama kapatıldı"
+
+#~ msgid "New Recovery Codes Generated"
+#~ msgstr "Yeni kurtarma kodları üretildi"
+
+#~ msgid "Recovery Code Used"
+#~ msgstr "Kullanılan kurtarma kodu"
+
+#~ msgid "1 Recovery Code Remaining"
+#~ msgstr "1 kurtarma kodu kaldı"
+
+#~ msgid "%(numberRemaining)s Recovery Codes Remaining"
+#~ msgstr "%(numberRemaining)s kurtarma kodu kaldı"
+
+#~ msgid "Account Recovery Key Generated"
+#~ msgstr "Hesap kurtarma anahtarı oluşturuldu"
+
+#~ msgid "Account Recovery Key Removed"
+#~ msgstr "Hesap kurtarma anahtarı silindi"
+
+#~ msgid "Password Updated Using Recovery Key"
+#~ msgstr "Kurtarma anahtarı kullanılarak parola güncellendi"
+
+#~ msgid "Subscription Platform Terms of Service"
+#~ msgstr "Abonelik Platformu Hizmet Koşulları"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Artık <a href='%(androidUrl)s'>Android</a> ve <a href='%(iosUrl)s'>iOS</a> için Firefox da dahil olmak üzere diğer cihazlarınızdan Sync’e "
+#~ "giriş yapabilirsiniz."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+#~ msgstr ""
+#~ "Firefox Hesabı’nıza ilk cihazınızı başarıyla bağladınız. Sync’ten daha iyi yararlanmak için, kullanıyorsanız <a href='%(androidUrl)s'>Android için Firefox</a> veya <a href='%(iosUrl)s'>iOS için "
+#~ "Firefox</a>’u da bağlayın."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Sync’e giriş yap"
+
+#~ msgid "This is an automated email."
+#~ msgstr "Bu otomatik bir e-postadır."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+#~ msgstr "Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen <a %(passwordChangeLinkAttributes)s>parolanızı değiştirin</a>."
+
+#~ msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "Parolanızı siz değiştirmediyseniz lütfen hemen <a %(resetLinkAttributes)s>parolanızı sıfırlayın</a>."
+
+#~ msgid "Verify Email"
+#~ msgstr "E-postayı doğrula"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "Firefox Hesabı kaydınızı tamamlamak için e-postanızı doğrulayın"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyorsanız <a %(passwordChangeLinkAttributes)s>lütfen parolanızı değiştirin</a>."
+
+#~ msgid "Verify email "
+#~ msgstr "E-postayı doğrula "
+
+#~ msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Bu eyleme siz izin vermediyseniz lütfen <a %(passwordChangeLinkAttributes)s>parolanızı değiştirin</a>."
+
+#~ msgid "If you did not authorize this action, please change your password."
+#~ msgstr "Bu işleme onay vermediyseniz lütfen parolanızı değiştirin."
+
+#~ msgid "Confirm email "
+#~ msgstr "E-postanızı doğrulayın "
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription."
+#~ msgstr "%(product)s yazılımını henüz indirmediyseniz hemen indirin, aboneliğinize dahil olan tüm özellikleri kullanmaya başlayın."
+
+#~ msgid "Questions about your subscription? Our <a %(supportLinkAttributes)s>support team</a> is here to help you."
+#~ msgstr "Aboneliğinizle ilgili sorularınız mı var? <a %(supportLinkAttributes)s>Destek ekibimiz</a> size yardımcı olabilir."
+
+#~ msgid "If you haven't already downloaded %(product)s, let's gets started using all the features included in your subscription:"
+#~ msgstr "%(product)s yazılımını henüz indirmediyseniz hemen indirin, aboneliğinize dahil olan tüm özellikleri kullanmaya başlayın:"
+
+#~ msgid "Welcome to Secure Proxy!"
+#~ msgstr "Secure Proxy'ye hoş geldiniz!"
+
+#~ msgid "Download Secure Proxy"
+#~ msgstr "Secure Proxy'yi indir"
+
+#~ msgid "Verify your Firefox Account"
+#~ msgstr "Firefox Hesabı’nızı doğrulayın"
+
+#~ msgid "Reminder: Finish Creating Your Account"
+#~ msgstr "Hatırlatma: Hesabınızı oluşturmayı tamamlayın"
+
+#~ msgid "Final reminder: Confirm your email to activate your Firefox Account"
+#~ msgstr "Son hatırlatma: Firefox Hesabınızı etkinleştirmek için e-postanızı onaylayın"
+
+#~ msgid "Firefox Account authorization code"
+#~ msgstr "Firefox Hesabı yetkilendirme kodu"
+
+#~ msgid "Sign-in code for Firefox"
+#~ msgstr "Firefox giriş kodu"
+
+#~ msgid "Reset your Firefox Account password"
+#~ msgstr "Firefox Hesabı parolanızı sıfırlayın"
+
+#~ msgid "Your Firefox Account password has been changed"
+#~ msgstr "Firefox Hesabı parolanız değiştirildi"
+
+#~ msgid "Firefox Account password changed"
+#~ msgstr "Firefox Hesabı parolanız değiştirildi"
+
+#~ msgid "Firefox Account password reset required"
+#~ msgstr "Firefox Hesabı parolanızı sıfırlamanız gerekiyor"
+
+#~ msgid "Firefox Account verified"
+#~ msgstr "Firefox Hesabı doğrulandı"
+
+#~ msgid "Your Firefox Account is Confirmed"
+#~ msgstr "Firefox Hesabınız onaylandı"
+
+#~ msgid "Secondary Firefox Account email added"
+#~ msgstr "Firefox Hesabı'na ikinci e-posta eklendi"
+
+#~ msgid "Firefox Account new primary email"
+#~ msgstr "Firefox Hesabı yeni ana e-posta"
+
+#~ msgid "Secondary Firefox Account email removed"
+#~ msgstr "İkinci Firefox Hesabı e-postası silindi"
+
+#~ msgid "Firefox Account password reset with recovery key"
+#~ msgstr "Kurtarma anahtarıyla Firefox Hesabı parolası sıfırlama"
+
+#~ msgid "Have questions? Visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Sorularınız mı var? <a %(supportLinkAttributes)s>Mozilla Destek</a>’i ziyaret edin."
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "İstediğiniz sayfa bulunamadı. Kırık olabilecek bağlantıları düzeltmeleri için durumu site yöneticilerimize bildirdik."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "Ters giden bir şeyler var. Kendi kendimize haber verdik ve sorunu düzelteceğiz."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "Şu anda yoğun yük altındayız ve sistemi en kısa sürede normale döndürmek için çalışıyoruz."
+
+#~ msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+#~ msgstr "Firefox Hesapları, mevcut Firefox sürümünüzde desteklenmeyen bazı özellikleri kullanıyor. Devam etmek için lütfen en son Firefox sürümünü indirip kurun."
+
+#~ msgid "Hello again."
+#~ msgstr "Yeniden merhaba."
+
+#~ msgid "You recently created a Firefox Account but haven't confirmed your email yet."
+#~ msgstr "Yakın zamanda bir Firefox Hesabı açtınız ama henüz e-postanızı onaylamadınız."
+
+#~ msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
+#~ msgstr "Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor ve daha fazlasını kullanmaya başlamak için e-postanızı doğrulayın."
+
+#~ msgid "Reminder: Confirm your email to activate your Firefox Account"
+#~ msgstr "Hatırlatma: Firefox Hesabınızı etkinleştirmek için e-postanızı onaylayın"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "Lütfen bu e-posta adresini onaylayarak hesabınızı etkinleştirin."
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "İki aşamalı kimlik doğrulama kaldırıldı"
+
+#~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız ve bu işleme izin vermediyseniz <a %(passwordChangeLinkAttributes)s>lütfen parolanızı değiştirin</a>."
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "<strong>Eski</strong> bir tarayıcı kullanıyorsunuz. Yeniliklerden faydalanmak için lütfen <a href=\"http://browsehappy.com/\">tarayıcınızı yükseltin</a>."
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "Bir süre önce bir Firefox Hesabı oluşturdunuz ama hesabı doğrulamadınız. Hesabınızı doğrulamak için aşağıdaki bağlantıya tıklayın."
+
+#~ msgid "New sign-in to Firefox"
+#~ msgstr "Firefox’a yeni giriş"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "Parolanız sıfırlandı"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "Firefox Hesabı parolanız değişmiştir. Siz değiştirmediyseniz lütfen hemen <a %(resetLinkAttributes)s>parolanızı sıfırlayın</a>."
+
+#~ msgid "Password reset successfully"
+#~ msgstr "Parola başarıyla sıfırlandı"
+
+#~ msgid "Your Firefox Account password has been successfully reset."
+#~ msgstr "Firefox Hesabı parolanız başarıyla sıfırlandı."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Bu otomatik bir e-postadır. Firefox Hesabınızın parolasını sıfırlamadıysanız hemen %(resetLink)s adresinden parolanızı sıfırlayın."
+
+#~ msgid "Forgot your password?"
+#~ msgstr "Parolanızı unuttunuz mu?"
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+#~ msgstr "Firefox Hesabınıza yeni bir parola atamak için bir saat içinde düğmeye tıklayın. Bu istek şu cihazdan gelmiştir:"
+
+#~ msgid "Reset password"
+#~ msgstr "Parolanızı sıfırlayın"
+
+#~ msgid ""
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr ""
+#~ "Birkaç gün önce bir Firefox Hesabı oluşturdunuz ama hesabınızı doğrulamadınız. Hesabınızı doğruladıktan sonra sekmelerinize, yer imlerinize, parolalarınızı ve geçmişinize tüm cihazlarınızdan "
+#~ "erişebilirsiniz. Hesabınızı etkinleştirmek için bu e-posta adresini doğrulamanız yeterlidir."
+
+#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Bir hafta önce bir Firefox hesabı oluşturduğunuz ama hesabınızı onaylamadınız. Sizi merak ettik. Hesabınızı etkinleştirmek için bu e-posta adresinizi doğrulamalısınız."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+#~ msgstr "Ek bir güvenlik önlemi olarak aşağıdaki cihazla eşitlemeyi başlatmak için lütfen bu girişi onaylayın:"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "Firefox'a yeni girişi onaylayın"
+
+#~ msgid "Your Firefox Account password has been reset"
+#~ msgstr "Firefox Hesabı parolanız sıfırlandı"
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Firefox bulut servisleri"
+
+#~ msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Bu otomatik bir e-postadır. Hatalı olarak aldığınızı düşünüyorsanız veya bu eyleme izin vermediyseniz lütfen <a %(passwordChangeLinkAttributes)s>parolanızı değiştirin</a>."
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Firefox Hesabı e-posta doğrulaması"
+
+#~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "%(secondaryEmail)s adresini Firefox Hesabınızdan ikinci e-posta olarak kaldırdınız. Güvenlik bildirimleri ve giriş onayları artık bu adrese gönderilmeyecektir."
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "%(secondaryEmail)s adresinizi Firefox Hesabınızın ikinci e-posta adresi olarak doğruladınız. Güvenlik bildirimleri ve giriş onayları artık her iki e-posta adresine birden gönderilecektir."
+
+#~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
+#~ msgstr "Firefox'u mobil cihazınıza yüklemek için istediğiniz bağlantı: %(link)s"
+
+#~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
+#~ msgstr "Son 60 gün içinde aşağıdaki konumlardan Firefox Hesabı’nıza giriş yaptınız mı? Bu konumlar tanıdık gelmediyse başka birisi Firefox Hesabı’nıza erişmiş olabilir."
+
+#~ msgid "Date & Time:"
+#~ msgstr "Tarih ve saat:"
+
+#~ msgid "Device:"
+#~ msgstr "Cihaz:"
+
+#~ msgid "Location:"
+#~ msgstr "Konum:"
+
+#~ msgid "If you don’t recognize the activity above:"
+#~ msgstr "Yukarıdaki etkinlik tanıdık gelmediyse:"
+
+#~ msgid "Why are you receiving this email?"
+#~ msgstr "Bu e-postayı neden aldınız?"
+
+#~ msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
+#~ msgstr "Yakın zamanda olağan dışı yerlerden Firefox Hesapları’na giriş yapıldığını fark ettik. Önlem olarak sizi bilgilendiriyoruz."
+
+#~ msgid "Suspicious activity with your Firefox Account"
+#~ msgstr "Firefox Hesabı’nızda şüpheli etkinlik"
+
+#~ msgid "Your Firefox Account password has been successfully changed."
+#~ msgstr "Firefox Hesabı parolanız başarıyla değiştirildi."
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account."
+#~ msgstr "Yeni bir Firefox Hesabı parolası belirlemek için bir saat içinde düğmeye tıklayın."
+
+#~ msgid "Alternatively:"
+#~ msgstr "Alternatif olarak:"
+
+#~ msgid "Firefox Account Verified"
+#~ msgstr "Firefox hesabı doğrulandı"
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Parolanızı hatırladınız mı? Giriş yapın."
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Bu otomatik bir e-postadır. Firefox Hesabınıza yeni bir cihaz eklemediyseniz hemen %(passwordChangeLink)s adresinden parolanızı değiştirmenizi öneririz."
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
+#~ msgstr "Bu otomatik bir e-postadır. Eğer Firefox Hesabı’nıza yeni bir cihaz eklemediyseniz parolanızı hemen %(resetLink)s adresinden değiştirmelisiniz."
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "Bu otomatik bir e-postadır. Eğer Firefox Hesabı parolanızı değiştirmediyseniz hemen %(resetLink)s adresinden sıfırlamalısınız."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "Bu otomatik bir e-postadır. Eğer Firefox Hesabı parolanızı siz sıfırlamadıysanız hemen %(resetLink)s adresinden sıfırlamalısınız."
+
+#~ msgid "Account activity notice"
+#~ msgstr "Hesap etkinliği bildirimi"
+
+#~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
+#~ msgstr "Güvenlik sebepleriyle Firefox Hesabınız kilitlendi. Hesap ayarlarınızı değiştirebilmek için lütfen bağlantıya tıklayarak hesabınızı yeniden doğrulayın."
+
+#~ msgid "Verify account"
+#~ msgstr "Hesabı doğrula"
+
+#~ msgid "Verify account:"
+#~ msgstr "Hesabı doğrula:"
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+#~ msgstr "%(device)s ile eşitlemeyi başlatmak için ek bir güvenlik önlemi olarak lütfen bu girişi onaylayın."
+
+#~ msgid "Re-verify your Firefox Account"
+#~ msgstr "Firefox Hesabı'nızı yeniden doğrulayın"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+#~ msgstr "Daha fazla bilgi için lütfen <a %(supportLinkAttributes)s>Mozilla Destek</a>’i ziyaret edin"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a href='%(resetLink)s'>reset your password</a> now."
+#~ msgstr "Firefox Hesabı parolanız değiştirildi. Siz değiştirmediyseniz lütfen hemen <a href='%(resetLink)s'>parolanızı sıfırlayın</a>."
+
+#~ msgid ""
+#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
+#~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr ""
+#~ "Birkaç gün önce bir Firefox Hesabı oluşturdunuz ama hesabınızı doğrulamadınız. Sizi merak ettik. Firefox’u Windows, Mac, Linux, Android ve iOS’te kullanabilir; bunlar arasında Firefox "
+#~ "parolalarınızı, yer imlerinizi ve geçmişinizi eşitleyebilirsiniz. Hesabınızı etkinleştirmek için bu e-posta adresini onaylamanız yeterlidir."
+
+#~ msgid "env"
+#~ msgstr "env"
+
+#~ msgid "contentServer.url"
+#~ msgstr "contentServer.url"
+
+#~ msgid "logging"
+#~ msgstr "kayıt tutma"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "/__heartbeat__"
+#~ msgstr "/__heartbeat__"
+
+#~ msgid "Bad Request"
+#~ msgstr "Hatalı istek"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(supportLinkAttributes)s>please report it to us</a>."
+#~ msgstr "Birisinin hesabınıza girmeye çalıştığından şüpheleniyorsanız <a %(supportLinkAttributes)s>lütfen bize bildirin</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please report it to us."
+#~ msgstr "Birisinin hesabınıza girmeye çalıştığından şüpheleniyorsanız lütfen bize bildirin."
+
+#~ msgid "A device began syncing with the devices connected to your Firefox Account."
+#~ msgstr "Bir cihaz, Firefox Hesabı’nıza bağlı cihazlarla eşitlenmeye başladı."
+
+#~ msgid "Are you sure?"
+#~ msgstr "Emin misiniz?"
+
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Lütfen %(email)s adresinin parolasını sıfırlamak istediğiniz onaylayın."
+
+#~ msgid "Reset password now"
+#~ msgstr "Parolayı şimdi sıfırla"
+
+#~ msgid "Reset password now:"
+#~ msgstr "Parolayı şimdi sıfırla:"
+
+#~ msgid "Recently you created a Firefox Account, but never verified it. Please activate your account by confirming this email address."
+#~ msgstr "Yakın zamanda bir Firefox Hesabı oluşturdunuz ama hesabı doğrulamadınız. Lütfen bu e-posta adresini onaylayarak hesabınızı etkinleştirin."
+
+#~ msgid "Activate Now:"
+#~ msgstr "Şimdi etkinleştir:"
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeUrl)s>please change your password.</a>"
+#~ msgstr "Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen <a %(passwordChangeUrl)s>parolanızı değiştirin</a>."
+
+#~ msgid "For more information, please visit <a href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ msgstr "Daha fazla bilgi için lütfen <a href='https://support.mozilla.org'>Mozilla Destek</a>'i ziyaret edin."
+
+#~ msgid "Reset password:"
+#~ msgstr "Parolanızı sıfırlayın:"
+
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "Daha fazla bilgi için lütfen https://support.mozilla.org adresini ziyaret edin"
+
+#~ msgid "Almost there"
+#~ msgstr "Bitmek üzere"
+
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s, Firefox hesabınızı doğrulamanıza bir tıklama kaldı."
+
+#~ msgid "Verify"
+#~ msgstr "Doğrula"
+
+#~ msgid "Verify:"
+#~ msgstr "Doğrula:"
+
+#~ msgid "Verify your account"
+#~ msgstr "Hesabınızı doğrulayın"
+
+#~ msgid "Re-verify your account"
+#~ msgstr "Hesabınızı yeniden doğrulayın"
+
+#~ msgid "A new device is now syncing with all of the devices connected to your Firefox Account."
+#~ msgstr "Firefox Hesabı'nıza bağlı tüm cihazlarla eşitlenen yeni bir cihaz var."
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Bu otomatik bir e-postadır. Eğer Firefox Hesabı'nıza yeni bir cihaz eklemediyseniz parolanızı hemen <a href='%(resetLink)s'>%(resetLink)s</a> adresinden değiştirmelisiniz."
+
+#~ msgid "This is an automated email; if you didn't change the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Bu otomatik bir e-postadır. Eğer Firefox Hesabı parolanızı değiştirmediyseniz hemen <a href='%(resetLink)s'>%(resetLink)s</a> adresinden sıfırlamalısınız."
+
+#~ msgid "This is an automated email; if you didn't reset the password to your Firefox Account, you should reset it immediately at <a href='%(resetLink)s'>%(resetLink)s</a>."
+#~ msgstr "Bu otomatik bir e-postadır. Eğer Firefox Hesabı parolanızı siz sıfırlamadıysanız hemen <a href='%(resetLink)s'>%(resetLink)s</a> adresinden sıfırlamalısınız."
+
+#~ msgid "A new device is now syncing to your Firefox Account"
+#~ msgstr "Firefox Hesabı'nızla yeni bir cihaz eşitleniyor"
+
+#~ msgid "Firefox Account Activation"
+#~ msgstr "Firefox Hesabı Etkinleştirme"
+
+#~ msgid "For more information, please visit <a href='https://support.mozilla.org' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr "Daha fazla bilgi için lütfen <a href='https://support.mozilla.org' style='color: #0095dd; text-decoration: none;'>Mozilla Destek</a>'i ziyaret edin"
+
+#~ msgid "For more information, please visit <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: none;'>Mozilla Support</a>"
+#~ msgstr "Daha fazla bilgi için lütfen <a href='%(supportUrl)s' style='color: #0095dd; text-decoration: none;'>Mozilla Destek</a>'i ziyaret edin"
+
+#~ msgid "New sign-in to Sync"
+#~ msgstr "Sync'e yeni giriş"
+
+#~ msgid "Congratulations!"
+#~ msgstr "Tebrikler!"
+
+#~ msgid "System unavailable, try again soon"
+#~ msgstr "Sistem kullanılamıyor, daha sonra tekrar deneyin"
+
+#~ msgid "We are currently performing some maintenance on the system, and will return momentarily."
+#~ msgstr "Şu anda sistemde bakım çalışması yapıyoruz. Sistem az sonra normale dönecektir."
+
+#~ msgid "Reset Password Request"
+#~ msgstr "Parola sıfırlama isteği"

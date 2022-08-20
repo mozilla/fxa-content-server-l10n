@@ -1,0 +1,628 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2020-03-01 12:28+0000\n"
+"Last-Translator: Пламен <plamen_mbx@yahoo.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+"X-POOTLE-MTIME: 1426228038.0\n"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+msgid "Firefox Accounts"
+msgstr "Firefox Accounts"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Страницата не е намерена"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and\n"
+"          will fix any links that may be broken."
+msgstr ""
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Начало"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "Грешка 500"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and\n"
+"          will get working on a fix."
+msgstr ""
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "Грешка 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Сървърът е зает, опитайте по-късно"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return\n"
+"          the system to normal as soon as possible."
+msgstr ""
+
+#: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr "Зареждане"
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Firefox Accounts изисква JavaScript."
+
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+msgid "Privacy Notice"
+msgstr "Неприкосновеност"
+
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+msgid "Terms of Service"
+msgstr "Условия на услугата"
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr ""
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaBrowser)s на %(uaOS)s %(uaOSVersion)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaBrowser)s на %(uaOS)s"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(stateCode)s, %(country)s (приблизително)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(country)s (приблизително)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s, %(country)s (приблизително)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (приблизително)"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "Потвърждение на вписване от %(clientName)s"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "Потвърждаване на вписването"
+
+#~ msgid "Reset your password"
+#~ msgstr "Нулиране на парола"
+
+#~ msgid "Create new password"
+#~ msgstr "Нова парола"
+
+#~ msgid "Manage account"
+#~ msgstr "Управление на сметка"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "Ново вписване от %(clientName)s"
+
+#~ msgid "Secondary email added"
+#~ msgstr "Добавен е допълнителен ел. адрес"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Допълнителният ел. адрес е премахнат"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "Двуетапно удостоверяване е включено"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Кодовете за възстановяване са подновени"
+
+#~ msgid "Generate codes"
+#~ msgstr "Генериране на кодове"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "Генериран ключ за възстановяване на сметката"
+
+#~ msgid "Best,"
+#~ msgstr "С най-добри пожелания,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Екипът на Firefox Account"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Паролата е успешно сменена"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Вашата парола за Firefox Account беше успешно променена от следното устройство:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Това писмо е изпратено автоматично. Ако не сте сменили паролата на своя Firefox Account, трябва незабавно да я анулирате от %(resetLink)s"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "Паролата за сметката ви е сменена"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Ще трябва да въведете новата си парола на другите устройства, за да подновят синхронизирането."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "Ако вие не сте я сменили, моля, сменете своята парола сега, посещавайки %(resetLink)s"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "Ще трябва да генерирате нов ключ за възстановяване."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "Създаване на нов ключ за възстановяване:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "За повече информация, моля, посетете %(supportUrl)s"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "Ако това не сте вие, <a %(revokeAccountRecoveryLinkAttributes)s>щракнете тук</a>."
+
+#~ msgid "New primary email"
+#~ msgstr "Нов основен ел. адрес"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "Успешно променихте основният ел. адрес на %(email)s. Този адрес вече е вашето потребителско име, с което влизате в своя Firefox Account, също така на него се получават известия по сигурността и "
+#~ "потвърждения за влизане."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "Кодът за възстановяване е използван"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "Използван код за възстановяване"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "Този ключ за възстановяване вече не може да бъде използван за възстановяване на сметката ви."
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Допълнителният ел. адрес %(secondaryEmail)s е премахнат успешно от вашия Firefox Account. Известията по сигурността и потвържденията за влизане няма да бъдат изпращани към него."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "Двуетапното удостоверяване е изключено"
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "Имате въпроси? Посетете %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "Допълнителният ел. адрес %(secondaryEmail)s е потвърден успешно за вашия Firefox Account. Известията по сигурността и потвържденията за влизане ще бъдат изпращани и до двата адреса."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "Трябва да анулирате паролата си?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "Щракнете бутона в рамките на следващия час, да изберете нова парола. Заявката е изпратена от следното устройство:"
+
+#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+#~ msgstr "Благодарим ви, че избрахте Firefox! Може да инсталирате и мобилна версия: %(link)s"
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "Вие ли се вписахте?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Ако е така, ето кода за упълномощаване:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Ако ли пък не – ни помогнете да отблъснем натрапниците като ни ги <a %(reportSignInLinkAttributes)s>докладвате.</a>"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Ако ли пък не – ни помогнете да отблъснем натрапниците като ни ги докладвате."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Добре дошли в семейството на Firefox"
+
+#~ msgid "Still there?"
+#~ msgstr "Още ли сте тук?"
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "За по-голяма сигурност, моля потвърдете вписване от следното устройството:"
+
+#~ msgid "Verify primary email"
+#~ msgstr "Потвърждаване на основен ел. адрес"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "Заявка за промяна на сметката е направена от следното устройство:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "След потвърждение промени по сметката като добавяне на допълнителен ел. адрес ще бъдат възможни от устройството."
+
+#~ msgid "Verify email: "
+#~ msgstr "Потвърждаване:"
+
+#~ msgid "Verify secondary email"
+#~ msgstr "Потвърждаване на допълнителен ел. адрес"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Заявка за използване на %(email)s като допълнителен ел. адрес е направена от следния Firefox Account:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "След като потвърдите този имейл до него ще бъдат изпращани известия по сигурността и потвърждения за влизане."
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "Готови, на старта, синхронизиране"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Потвърдете, че сте получили това писмо и ще ви помогнем да инсталирате и синхронизирате Firefox на всички ваши устройства, започвайки от:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "След като бъде потвърден ще ви помогнем да инсталирате и свържете Firefox на поне още едно устройство."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "За повече информация, моля, посетете <a %(supportLinkAttributes)s>поддръжката на Mozilla</a>."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Това писмо е изпратено автоматично. Ако вие не сте добавили ново устройство към своя Firefox Account, тогава сменете своята парола на %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Това писмо е изпратено автоматично; ако мислите, че е грешка не предприемайте действията."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "Това писмо е изпратено автоматично. Ако вие не сте упълномощили това действие, тогава <a %(resetLinkAttributes)s>моля, сменете вашата парола.</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Ако подозирате, че някой се опитва да получи достъп до вашата сметка, моля, сменете паролата си."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "IP адрес: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "Управление на сметка:"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Политика за неприкосновеност на личните данни на Mozilla"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "Установихме подозрителна активност с вашия Firefox Account. Вашата сметка може да е компрометирана."
+
+#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+#~ msgstr "За да предотврати по-нататъшен неупълномощен достъп до вашия Firefox Account като предпазна мярка анулирахме паролата и ви уведомяваме за това."
+
+#~ msgid "What should you do?"
+#~ msgstr "Какво трябва да направите?"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "Първо, сменете паролата на Firefox Account."
+
+#~ msgid ""
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
+#~ msgstr "Второ, ако Firefox запазва пароли за уеб сайтове трябва да смените и тях. Атакуващият може да има достъп до тези пароли, така че проверете и тези сметки за подозрителна активност."
+
+#~ msgid "Learn how to see what passwords Firefox is storing for you."
+#~ msgstr "Научете как да проверите кои ваши пароли е запазил Firefox."
+
+#~ msgid "Connect another device:"
+#~ msgstr "Добавяне на устройство:"
+
+#~ msgid "Connect another device"
+#~ msgstr "Свържете друго устройство"
+
+#~ msgid "Protect yourself from being locked out"
+#~ msgstr "Защитете себе си от това да останете заключени"
+
+#~ msgid "Account verified!"
+#~ msgstr "Сметката е потвърдена!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "Успешно свързахте първото си устройство към своя Firefox Account. Сега може да се вписвате в Sync от другите си устройства, включително Firefox за <a %(androidLinkAttributes)s>Android</a> и <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr "Успешно свързахте първото си устройство към своя Firefox Account. Сега може да се вписвате в Sync от другите си устройства, включително Firefox за Android и iOS."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Вписване в Sync:"
+
+#~ msgid "Welcome!"
+#~ msgstr "Добре дошли!"
+
+#~ msgid "Activate now:"
+#~ msgstr "Активиране:"
+
+#~ msgid "Activate now"
+#~ msgstr "Активиране"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "Потвърдете своя имейл и започнете синхронизиране!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "Успешно свързахте първото си устройство към своя Firefox Account. Сега може да се вписвате в Sync от другите си устройства, включително Firefox за <a href='%(androidUrl)s'>Android</a> и <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+#~ msgstr ""
+#~ "Успешно свързахте първото си устройство към своя Firefox Account. За да извлечете най-много от Sync, свържете <a href='%(androidUrl)s'>Firefox за Android</a> или <a href='%(iosUrl)s'>Firefox за "
+#~ "iOS</a>."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Впишете се в Sync"
+
+#~ msgid "This is an automated email."
+#~ msgstr "Това е автоматично съобщение."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+#~ msgstr "Това писмо е изпратено автоматично. Ако вие не сте упълномощили това действие, тогава <a %(passwordChangeLinkAttributes)s>моля, сменете вашата парола.</a>"
+
+#~ msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "Ако вие не я сменили, <a %(resetLinkAttributes)s>моля, сменете своята парола</a> сега."
+
+#~ msgid "Verify Email"
+#~ msgstr "Потвърждаване на ел. адрес"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "Потвърдете вашата ел. поща, за да завършите регистрацията на своя Firefox Account"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Ако подозирате, че някой се опитва да получи достъп до вашата сметка, <a %(passwordChangeLinkAttributes)s>моля, сменете паролата си</a>."
+
+#~ msgid "Verify email "
+#~ msgstr "Потвърждаване "
+
+#~ msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Ако вие не сте упълномощили това действие, <a %(passwordChangeLinkAttributes)s>моля, сменете своята парола</a>."
+
+#~ msgid "If you did not authorize this action, please change your password."
+#~ msgstr "Ако вие не сте упълномощили това действие, моля, сменете своята парола."
+
+#~ msgid "Verify your Firefox Account"
+#~ msgstr "Препотвърждаване на Firefox Account"
+
+#~ msgid "Firefox Account authorization code"
+#~ msgstr "Код за упълномощаване за Firefox Account"
+
+#~ msgid "Sign-in code for Firefox"
+#~ msgstr "Код за вписване във Firefox"
+
+#~ msgid "Reset your Firefox Account password"
+#~ msgstr "Нулиране на парола за Firefox Account"
+
+#~ msgid "Your Firefox Account password has been changed"
+#~ msgstr "Паролата ви за Firefox Account е сменена"
+
+#~ msgid "Firefox Account password changed"
+#~ msgstr "Паролата за Firefox Account e сменена"
+
+#~ msgid "Firefox Account password reset required"
+#~ msgstr "Необходимо е нулиране на паролата за Firefox Account"
+
+#~ msgid "Firefox Account verified"
+#~ msgstr "Потвърден Firefox Account"
+
+#~ msgid "Secondary Firefox Account email added"
+#~ msgstr "Добавен е допълнителен ел. адрес към Firefox Account"
+
+#~ msgid "Firefox Account new primary email"
+#~ msgstr "Нов основен ел. адрес на Firefox Account"
+
+#~ msgid "Secondary Firefox Account email removed"
+#~ msgstr "Допълнителен ел. адрес за Firefox Account е премахнат"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "Страницата, която търсите я няма. Уведомени сме и ще поправим всички счупени връзки."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "О Боже, нещо там се обърка. Уведомени сме и ще поработим над проблема."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "В момента сме силно натоварени, но работим, за да овладеем ситуацията възможно най-скоро."
+
+#~ msgid "Hello again."
+#~ msgstr "Здравейте отново."
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "Моля, активирайте сметката си като потвърдите вашия адрес на ел. поща."
+
+#~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Това е автоматично изпратено писмо. Ако сте го получили по погрешка и не сте упълномощили това действие, моля, <a %(passwordChangeLinkAttributes)s>променете паролата си</a>."
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "Вие използвате <strong>остарял</strong> браузър. Моля, <a href=\"http://browsehappy.com/\">надстройте браузъра си</a> за подобряване на възможностите."
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "Преди време създадохте Firefox Account без да го активирате. Посетете връзката по-долу, за да го направите сега."
+
+#~ msgid "New sign-in to Firefox"
+#~ msgstr "Ново вписване във Firefox"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "Паролата ви е нулирана"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "Паролата ви за Firefox Account е сменена. Ако не сте я сменили вие, моля незабавно я <a %(resetLinkAttributes)s>анулирайте</a>."
+
+#~ msgid "Password reset successfully"
+#~ msgstr "Паролата е сменена успешно"
+
+#~ msgid "Your Firefox Account password has been successfully reset."
+#~ msgstr "Паролата ви за Firefox Account беше успешно нулирана."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Това писмо е изпратено автоматично. Ако не сте нулирали паролата на своя Firefox Account, трябва незабавно да я анулирате от %(resetLink)s"
+
+#~ msgid "Forgot your password?"
+#~ msgstr "Забравили сте паролата си?"
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+#~ msgstr "За да смените паролата на своя Firefox Account натиснете бутона през следващите няколко часа. Заявката е изпратена от следното устройство:"
+
+#~ msgid "Reset password"
+#~ msgstr "Анулиране на парола"
+
+#~ msgid ""
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr ""
+#~ "Преди няколко дена създадохте Firefox Account, но така и не го активирахте. Потвърдената сметка ви дава достъп до разделите, отметките, паролите и историята от всяко устройство свързано с нея. "
+#~ "Просто потвърдете този имейл адрес, за да активирате своята сметка."
+
+#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Преди седмица създадохте Firefox Account, но така и не го активирахте. Притесняваме се за вас. Потвърдете този адрес на ел. поща, за да активирате своята сметка и да знаем че сте добре."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+#~ msgstr "За по-голяма сигурност, моля потвърдете вписването, за да започнете синхронизиране на устройството:"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "Потвърждение на вписване във Firefox"
+
+#~ msgid "Your Firefox Account password has been reset"
+#~ msgstr "Паролата ви за Firefox Account беше нулирана"
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Облачни услуги от Firefox"
+
+#~ msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Това е автоматично изпратено писмо. Ако сте го получили по погрешка и не сте упълномощили това действие, моля, <a %(passwordChangeLinkAttributes)s>променете вашата парола</a>."
+
+#~ msgid "Verify email for Firefox Accounts"
+#~ msgstr "Потвърждаване имейл за Firefox Account"
+
+#~ msgid "You have successfully removed %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Успешно е премахнат допълнителният имейл %(secondaryEmail)s от вашия Firefox Account. Известия по сигурността и потвърждения за влизане вече няма бъдат изпращани и до този адрес."
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email to your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "Успешно потвърдихте %(secondaryEmail)s като допълнителен имейл за вашия Firefox Account. Известия по сигурността и потвърждения за влизане вече ще бъдат изпращани и до двата адреса."
+
+#~ msgid "As requested, here is a link to install Firefox on your mobile device: %(link)s"
+#~ msgstr "Както поискахте, ето препратката, от която да инсталирате Firefox на мобилното си устройство: %(link)s"
+
+#~ msgid "Did you sign in to your Firefox Account from any of the following locations in the last 60 days? If you don’t recognize these locations, someone else may have accessed your Firefox Account."
+#~ msgstr ""
+#~ "Вие ли се вписвахте в своя Firefox Account от всички от следващите местоположения през последните 60 дена? Ако не разпознавате тези местоположения значи вероятно някой друг е имал достъп до "
+#~ "вашия Firefox Account."
+
+#~ msgid "Date & Time:"
+#~ msgstr "Дата и час:"
+
+#~ msgid "Device:"
+#~ msgstr "Устройство:"
+
+#~ msgid "Location:"
+#~ msgstr "Местоположение:"
+
+#~ msgid "If you don’t recognize the activity above:"
+#~ msgstr "Ако не разпознавате действието по-горе като свое:"
+
+#~ msgid "Why are you receiving this email?"
+#~ msgstr "Защо получавате това писмо?"
+
+#~ msgid "We recently noticed Firefox Account logins from unusual locations. We’re notifying you as a precaution."
+#~ msgstr "Наскоро забелязахме вписвания във вашия Firefox Account от необичайни места. Уведомяваме ви като предпазна мярка."
+
+#~ msgid "Suspicious activity with your Firefox Account"
+#~ msgstr "Подозрителна активност с вашия Firefox Account"
+
+#~ msgid "Your Firefox Account password has been successfully changed."
+#~ msgstr "Вашата парола за Firefox Account беше успешно сменена."
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account."
+#~ msgstr "Щракнете бутона в рамките на следващия час, да изберете нова парола за вашия Firefox Account."
+
+#~ msgid "Alternatively:"
+#~ msgstr "Алтернативна препратка:"
+
+#~ msgid "Firefox Account Verified"
+#~ msgstr "Потвърден Firefox Account"
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Знаете паролата си? Вписване."
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Това писмо е изпратено автоматично. Ако не сте добавили ново устройство към своя Firefox Account, трябва незабавно да смените паролата си от %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
+#~ msgstr "Това писмо е изпратено автоматично. Ако вие не сте добавяли ново устройство към Firefox Account, трябва незабавно да смените паролата си от %(resetLink)s."
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "Това писмо е изпратено автоматично. Ако вие не сте сменили паролата на своя Firefox Account, трябва незабавно да я анулирате от %(resetLink)s."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "Това писмо е изпратено автоматично. Ако вие не сте анулирани паролата на своя Firefox Account, трябва незабавно да го направите от %(resetLink)s."
+
+#~ msgid "Account activity notice"
+#~ msgstr "Известие за действие по сметка"
+
+#~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
+#~ msgstr "От съображения за сигурност вашият Firefox Account беше заключен. За да извършвате действия на ниво сметка, моля посетете връзката за повторно потвърждение сега."
+
+#~ msgid "Verify account"
+#~ msgstr "Потвърждаване на сметка"
+
+#~ msgid "Verify account:"
+#~ msgstr "Потвърждаване на сметка:"
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
+#~ msgstr "За по-голяма сигурност, моля потвърдете вписването, за да започнете синхронизиране с %(device)s."
+
+#~ msgid "Re-verify your Firefox Account"
+#~ msgstr "Препотвърждение на Firefox Account"
+
+#~ msgid "Bad Request"
+#~ msgstr "Грешна заявка"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Сигурни ли сте?"
+
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Моля, потвърдете че искате да нулиране паролата на %(email)s."
+
+#~ msgid "For more information, please visit <a href='https://support.mozilla.org'>Mozilla Support</a>"
+#~ msgstr "За повече информация, моля, посетете <a href='https://support.mozilla.org'>Mozilla поддръжка</a>"
+
+#~ msgid "Reset password:"
+#~ msgstr "Нулиране на парола:"
+
+#~ msgid "For more information, please visit https://support.mozilla.org"
+#~ msgstr "За повече информация, моля, посетете https://support.mozilla.org"
+
+#~ msgid "Almost there"
+#~ msgstr "На финалната права"
+
+#~ msgid "%(email)s, you're one click away from verifying your Firefox Account."
+#~ msgstr "%(email)s, натискането на бутон ви дели от потвърждаване на вашия Firefox Account."
+
+#~ msgid "Verify"
+#~ msgstr "Потвърждаване"
+
+#~ msgid "Verify:"
+#~ msgstr "Потвърждаване:"
+
+#~ msgid "Verify your account"
+#~ msgstr "Потвърждаване на профил"
+
+#~ msgid "Re-verify your account"
+#~ msgstr "Потвърждаване на профил отново"

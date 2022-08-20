@@ -1,0 +1,3356 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2022-07-23 07:12+0000\n"
+"Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pontoon\n"
+"X-POOTLE-MTIME: 1433277961.0\n"
+
+#: .es5/views/confirm_reset_password.js:199
+msgid "Password reset"
+msgstr "Pasahitza berrezarrita"
+
+#: .es5/views/confirm_reset_password.js:217
+msgid "Password reset successfully. Sign in to continue."
+msgstr "Pasahitza ondo berrezarri da. Jarraitzeko, hasi saioa."
+
+#. submit button
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/templates/sign_in_password.mustache:10
+msgid "Sign in"
+msgstr "Hasi saioa"
+
+#: .es5/views/index.js:176
+msgid "Account deleted successfully"
+msgstr "Kontua ondo ezabatu da"
+
+#: .es5/views/inline_totp_setup.js:156
+msgid "Use the code %(code)s to set up two-step authentication in supported applications."
+msgstr "Erabili %(code)s kodea bi urratseko autentifikazioa ezartzeko euskarria duten aplikazioetan."
+
+#: .es5/views/permissions.js:41
+msgid "%(permissionName)s (required)"
+msgstr "%(permissionName)s (beharrezkoa)"
+
+#: .es5/views/permissions.js:45
+msgid "Email address"
+msgstr "Helbide elektronikoa"
+
+#: .es5/views/permissions.js:49
+msgid "Display name"
+msgstr "Bistaratze-izena"
+
+#: .es5/views/permissions.js:52
+msgid "Account picture"
+msgstr "Kontuaren argazkia"
+
+#: .es5/views/ready.js:58
+msgid "Welcome back"
+msgstr "Ongi etorri berriro"
+
+#: .es5/views/ready.js:59
+msgid "Firefox Sync will resume momentarily"
+msgstr "Firefox Sync-ek une batean jarraituko du"
+
+#: .es5/views/ready.js:63 .es5/views/ready.js:68
+msgid "Your password has been reset"
+msgstr "Zure pasahitza berrezarri egin da"
+
+#: .es5/views/ready.js:64 .es5/views/ready.js:69
+msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgstr "Konfigurazioa osatzeko, idatzi pasahitz berria Firefox darabilzun beste gailuetan."
+
+#: .es5/views/ready.js:72
+msgid "You are now ready to make changes to your Firefox Account."
+msgstr "Orain prest zaude aldaketak egiteko zure Firefox kontuan."
+
+#: .es5/views/ready.js:74
+msgid "Primary email confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:77
+msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr "Kontuaren jakinarazpenak %(secondaryEmailVerified)s helbidera ere bidaliko dira hemendik aurrera."
+
+#: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
+msgid "Secondary email confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+msgid "Sign-in confirmed"
+msgstr "Saio-hasiera berretsita"
+
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+msgid "You are now ready to use %(serviceName)s"
+msgstr "Dena prest dago %(serviceName)s erabiltzen hasteko"
+
+#: .es5/views/ready.js:89
+msgid "Account confirmed"
+msgstr ""
+
+#: .es5/views/ready.js:94
+msgid "Connected"
+msgstr "Konektatuta"
+
+#: .es5/views/reset_password.js:111
+msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
+msgstr "Kontu ezezaguna. <a href=\"/signup\">Erregistratu</a>"
+
+#: .es5/views/sign_up_password.js:86
+msgid "Account no longer exists. Recreate it?"
+msgstr "Kontua jada ez da existitzen. Birsortu nahi al duzu?"
+
+#: .es5/views/support.js:269 .es5/templates/support.mustache:9
+msgid "Other"
+msgstr "Bestelakoak"
+
+#: .es5/views/support.js:270
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgstr "Eskerrik asko Mozilla laguntzarekin <b>%(escapedLowercaseTopic)s</b>(r)i buruz harremanetan jartzeagatik. Lehenbailehen jarriko gara zurekin harremanetan posta elektronikoz."
+
+#: .es5/views/support.js:272
+msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
+msgstr ""
+
+#: .es5/views/post_verify/verified.js:53
+msgid "Your sync data is protected"
+msgstr "Zure sinkronizazio-datuak babestuta daude"
+
+#: .es5/views/post_verify/verified.js:54
+msgid "If you lose access to your account, you’ll be able to restore your sync data."
+msgstr "Zure konturako sarbidea galtzen baduzu, sinkronizazio-datuak berreskuratzeko gai izango zara."
+
+#: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
+msgid "Start browsing"
+msgstr "Hasi nabigatzen"
+
+#: .es5/views/post_verify/verified.js:58
+msgid "Account notifications will now also be sent to %(secondaryEmail)s."
+msgstr "Kontuaren jakinarazpenak %(secondaryEmail)s helbidera ere bidaliko dira hemendik aurrera."
+
+#: .es5/views/post_verify/verified.js:59
+msgid "Continue to %(serviceName)s "
+msgstr "Jarraitu %(serviceName)s zerbitzura"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/lib/auth-errors.js:119
+msgid "Your account has been locked for security reasons"
+msgstr "Zure kontua blokeatu egin da segurtasun-arrazoiengatik"
+
+#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+msgid "Reset password"
+msgstr "Berrezarri pasahitza"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:38
+msgid "none"
+msgstr "bat ere ez"
+
+#: .es5/views/mixins/last-checked-time-mixin.js:44
+msgid "Last checked: %(lastCheckTime)s"
+msgstr "Azken egiaztatzea: %(lastCheckTime)s"
+
+#: .es5/views/mixins/open-webmail-mixin.js:25
+msgid "Open Gmail"
+msgstr "Ireki Gmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:30
+msgid "Open Hotmail"
+msgstr "Ireki Hotmail"
+
+#: .es5/views/mixins/open-webmail-mixin.js:35
+msgid "Open Yahoo"
+msgstr "Ireki Yahoo"
+
+#: .es5/views/mixins/open-webmail-mixin.js:40
+msgid "Open Outlook"
+msgstr "Ireki Outlook"
+
+#: .es5/views/mixins/open-webmail-mixin.js:45
+msgid "Open Restmail"
+msgstr "Ireki Restmail"
+
+#: .es5/views/mixins/password-mixin.js:149
+msgid "Hide password"
+msgstr "Ezkutatu pasahitza"
+
+#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+msgid "Show password"
+msgstr "Erakutsi pasahitza"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:77
+msgid "Firefox Recovery Codes"
+msgstr "Firefox berreskuratze kodeak"
+
+#: .es5/views/mixins/recovery-codes-mixin.js:142
+msgid "Two-step authentication enabled"
+msgstr "Bi urratseko autentifikazioa gaitua"
+
+#: .es5/views/mixins/recovery-key-mixin.js:30
+msgid "Firefox Recovery Key"
+msgstr "Firefox berreskuratze gakoa"
+
+#: .es5/views/mixins/resend-mixin.js:53
+msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
+msgstr "Posta birbidalia. Gehitu accounts@firefox.com zure kontaktuetara arazorik gabeko bidalketarako."
+
+#: .es5/views/mixins/save-options-mixin.js:59
+msgid "Copied"
+msgstr "Kopiatuta"
+
+#: .es5/views/mixins/save-options-mixin.js:61
+msgid "Failed to copy. Please manually copy."
+msgstr "Huts egin du kopiatzean. Kopia itzazu eskuz mesedez."
+
+#: .es5/views/mixins/save-options-mixin.js:78
+msgid "Downloaded"
+msgstr "Deskargatuta"
+
+#: .es5/views/mixins/save-options-mixin.js:90
+msgid "Printed"
+msgstr "Inprimatuta"
+
+#: .es5/views/behaviors/settings.js:40
+msgid "Account confirmed successfully"
+msgstr ""
+
+#: .es5/models/support-form.js:25
+msgid "payment & billing"
+msgstr "ordainketa eta fakturazioa"
+
+#: .es5/models/support-form.js:25
+msgid "account issues"
+msgstr "kontuaren arazoak"
+
+#: .es5/models/support-form.js:25
+msgid "technical issues"
+msgstr "arazo teknikoak"
+
+#: .es5/models/support-form.js:25
+msgid "provide feedback / request features"
+msgstr "eman iritzia / eskatu eginbideak"
+
+#: .es5/models/support-form.js:25
+msgid "not listed"
+msgstr "zerrendatu gabea"
+
+#: .es5/models/sync-engines.js:58
+msgid "Bookmarks"
+msgstr "Laster-markak"
+
+#: .es5/models/sync-engines.js:62
+msgid "History"
+msgstr "Historia"
+
+#: .es5/models/sync-engines.js:66
+msgid "Passwords"
+msgstr "Pasahitzak"
+
+#: .es5/models/sync-engines.js:70
+msgid "Add-ons"
+msgstr "Gehigarriak"
+
+#: .es5/models/sync-engines.js:74
+msgid "Open Tabs"
+msgstr "Irekitako fitxak"
+
+#: .es5/models/sync-engines.js:78
+msgid "Preferences"
+msgstr "Hobespenak"
+
+#: .es5/models/sync-engines.js:86
+msgid "Addresses"
+msgstr "Helbideak"
+
+#: .es5/models/sync-engines.js:94
+msgid "Credit Cards"
+msgstr "Kreditu-txartelak"
+
+#: .es5/models/reliers/browser.js:88
+msgid "Firefox"
+msgstr "Firefox"
+
+#: .es5/models/auth_brokers/base.js:110
+msgid "Primary email verified successfully"
+msgstr "Helbide elektroniko nagusia ondo egiaztatu da"
+
+#: .es5/models/auth_brokers/base.js:114
+msgid "Secondary email verified successfully"
+msgstr "Helbide elektroniko alternatiboa ondo egiaztatu da"
+
+#: .es5/models/auth_brokers/web.js:35
+msgid "Account verified successfully"
+msgstr "Kontua ondo egiaztatu da"
+
+#: .es5/models/auth_brokers/web.js:38
+msgid "Password reset successfully"
+msgstr "Pasahitza ondo berrezarri da"
+
+#: .es5/models/auth_brokers/web.js:45
+msgid "Account recovery enabled"
+msgstr "Kontu berreskuratzea gaitua"
+
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+msgid "Unexpected error"
+msgstr "Espero gabeko errorea"
+
+#: .es5/lib/auth-errors.js:27
+msgid "The link you clicked to verify your email is expired."
+msgstr "Helbide elektronikoa egiaztatzeko klik egin duzun lotura iraungita dago."
+
+#: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
+msgid "You've tried too many times. Try again later."
+msgstr "Gehiegitan saiatu zara. Saiatu berriro geroago."
+
+#: .es5/lib/auth-errors.js:32
+msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
+msgstr "Gehiegitan saiatu zara. Saiatu berriro %(retryAfterLocalized)s."
+
+#: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
+msgid "Invalid token"
+msgstr "Token baliogabea"
+
+#: .es5/lib/auth-errors.js:44
+msgid "Invalid timestamp in request signature"
+msgstr "Denbora-marka baliogabea eskaeraren sinaduran"
+
+#: .es5/lib/auth-errors.js:48
+msgid "Invalid nonce in request signature"
+msgstr "Nonce baliogabea eskaeraren sinaduran"
+
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+msgid "Account already exists"
+msgstr "Kontua badago lehendik"
+
+#: .es5/lib/auth-errors.js:56
+msgid "Unknown account"
+msgstr "Kontu ezezaguna"
+
+#: .es5/lib/auth-errors.js:60
+msgid "Incorrect email case"
+msgstr "Helbide elektronikoaren formatu okerra"
+
+#: .es5/lib/auth-errors.js:64
+msgid "Incorrect password"
+msgstr "Pasahitz okerra"
+
+#: .es5/lib/auth-errors.js:68
+msgid "Unverified account"
+msgstr "Egiaztatu gabeko kontua"
+
+#: .es5/lib/auth-errors.js:72
+msgid "Invalid verification code"
+msgstr "Egiaztatze-kode baliogabea"
+
+#: .es5/lib/auth-errors.js:76
+msgid "Invalid JSON in request body"
+msgstr "JSON baliogabea eskaeraren gorputzean"
+
+#: .es5/lib/auth-errors.js:80
+msgid "Invalid parameter: %(param)s"
+msgstr "Parametro baliogabea: %(param)s"
+
+#: .es5/lib/auth-errors.js:84
+msgid "Missing parameter: %(param)s"
+msgstr "Parametroa falta da: %(param)s"
+
+#: .es5/lib/auth-errors.js:88
+msgid "Invalid request signature"
+msgstr "Eskaeraren sinadura baliogabea"
+
+#: .es5/lib/auth-errors.js:92
+msgid "Missing content-length header"
+msgstr "'Content-length' goiburua falta da"
+
+#: .es5/lib/auth-errors.js:96
+msgid "Request body too large"
+msgstr "Eskaeraren gorputza handiegia da"
+
+#: .es5/lib/auth-errors.js:115 .es5/lib/profile-errors.js:57
+msgid "The request was blocked for security reasons"
+msgstr "Eskaera blokeatu egin da segurtasun-arrazoiak tarteko"
+
+#: .es5/lib/auth-errors.js:123 .es5/lib/auth-errors.js:513
+msgid "Invalid authorization code"
+msgstr "Baimen-kode baliogabea"
+
+#: .es5/lib/auth-errors.js:127
+msgid "Invalid phone number"
+msgstr "Telefono-zenbaki baliogabea"
+
+#: .es5/lib/auth-errors.js:131
+msgid "Cannot send to this country"
+msgstr "Ezin da herrialde honetara bidali"
+
+#: .es5/lib/auth-errors.js:140
+msgid "Could not send a message to this number"
+msgstr "Ezin izan da zenbaki honetara mezurik bidali"
+
+#: .es5/lib/auth-errors.js:144
+msgid "Your email was just returned"
+msgstr "Zure mezu elektronikoa itzuli egin da"
+
+#: .es5/lib/auth-errors.js:148
+msgid "Your email was just returned. Mistyped email?"
+msgstr "Zure mezua itzuli egin da. Helbidea gaizki idatzi duzu?"
+
+#: .es5/lib/auth-errors.js:152
+msgid "Unable to deliver email"
+msgstr "Ezin da posta banatu"
+
+#: .es5/lib/auth-errors.js:156
+msgid "This email was already verified by another user"
+msgstr "Helbide elektroniko hau beste erabiltzaile batek egiaztatu du lehendik"
+
+#: .es5/lib/auth-errors.js:160
+msgid "Unverified session"
+msgstr "Egiaztatu gabeko saioa"
+
+#: .es5/lib/auth-errors.js:164
+msgid "Secondary email must be different than your account email"
+msgstr "Helbide elektroniko alternatiboak zure kontuaren helbide elektronikoaren desberdina izan behar du"
+
+#: .es5/lib/auth-errors.js:172
+msgid "You have reached the maximum allowed secondary emails"
+msgstr "Baimendutako ordezko helbide elektronikoen kopuru maximora heldu zara"
+
+#: .es5/lib/auth-errors.js:176
+msgid "This email already exists on your account"
+msgstr "Helbide elektroniko hau badago lehendik ere zure kontuan"
+
+#: .es5/lib/auth-errors.js:184
+msgid "Primary account email required for sign-in"
+msgstr "Saio-hasierarako helbide elektroniko nagusia behar da"
+
+#: .es5/lib/auth-errors.js:188
+msgid "Address in use by another account"
+msgstr "Helbidea beste kontu batek darabil"
+
+#: .es5/lib/auth-errors.js:192
+msgid "Primary account email required for reset"
+msgstr "Pasahitza berrezartzeko helbide elektroniko nagusia behar da"
+
+#: .es5/lib/auth-errors.js:196
+msgid "Invalid signin code"
+msgstr "Saio-hasierako kode baliogabea"
+
+#: .es5/lib/auth-errors.js:200
+msgid "Can not change primary email to an unverified email"
+msgstr "Ezin da aldatu helbide elektroniko nagusia egiaztatzeke dagoen batera"
+
+#: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
+msgid "Can not change primary email to an email that does not belong to this account"
+msgstr "Ezin da aldatu helbide elektroniko nagusia kontu honenetakoa ez den helbide elektroniko batera"
+
+#: .es5/lib/auth-errors.js:208
+msgid "This email can not currently be used to login"
+msgstr "Helbide elektroniko hau ezin da erabili saioa hasteko"
+
+#: .es5/lib/auth-errors.js:216
+msgid "Failed to send email"
+msgstr "Ezin da mezua bidali"
+
+#: .es5/lib/auth-errors.js:220
+msgid "Valid code required"
+msgstr "Baliozko kodea behar da"
+
+#: .es5/lib/auth-errors.js:224
+msgid "This verification code has expired"
+msgstr "Egiaztatze kodea iraungi da"
+
+#: .es5/lib/auth-errors.js:228
+msgid "A TOTP token already exists for this account"
+msgstr "Badago lehendik TOTP tokena kontu honetarako"
+
+#: .es5/lib/auth-errors.js:232
+msgid "TOTP token not found"
+msgstr "Ez da TOTP tokena aurkitu"
+
+#: .es5/lib/auth-errors.js:236
+msgid "Recovery code not found"
+msgstr "Ez da berreskuratze kodea aurkitu"
+
+#: .es5/lib/auth-errors.js:240
+msgid "Unavailable device command"
+msgstr "Ez dago erabilgarri gailu-komandoa"
+
+#: .es5/lib/auth-errors.js:244
+msgid "Recovery key not found"
+msgstr "Ez da berreskuratze gakoa aurkitu"
+
+#: .es5/lib/auth-errors.js:248
+msgid "Invalid recovery key"
+msgstr "Berreskuratze gako baliogabea"
+
+#: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
+msgid "This request requires two step authentication enabled on your account."
+msgstr "Eskaera honek zure kontuan bi urratseko autentifikazioa gaitua egotea eskatzen du."
+
+#: .es5/lib/auth-errors.js:256
+msgid "Failed due to a conflicting request, please try again."
+msgstr "Huts egin du bat ez datozen eskaerengatik, mesedez saiatu berriz."
+
+#: .es5/lib/auth-errors.js:264
+msgid "Unknown customer for subscription."
+msgstr "Harpidetzarako bezero ezezaguna."
+
+#: .es5/lib/auth-errors.js:268
+msgid "Unknown subscription."
+msgstr "Harpidetza ezezaguna."
+
+#: .es5/lib/auth-errors.js:272
+msgid "Unknown plan for subscription."
+msgstr "Harpidetza plan ezezaguna."
+
+#: .es5/lib/auth-errors.js:276
+msgid "Invalid payment token for subscription."
+msgstr "Ordainketa-token baliogabea harpidetzarako."
+
+#: .es5/lib/auth-errors.js:280
+msgid "Subscription has already been cancelled"
+msgstr "Harpidetza bertan behera geratu da dagoeneko"
+
+#: .es5/lib/auth-errors.js:284
+msgid "Update was rejected, please try again"
+msgstr "Eguneraketa ukatu egin da, saiatu berriro mesedez"
+
+#: .es5/lib/auth-errors.js:288
+msgid "Invalid or expired verification code"
+msgstr "Egiaztapen-kode baliogabea edo iraungia"
+
+#: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
+msgid "Server busy, try again soon"
+msgstr "Zerbitzaria lanpetuta dago,  saiatu berriro beranduago"
+
+#: .es5/lib/auth-errors.js:296
+msgid "Feature not enabled"
+msgstr "Ezaugarri ez gaitua"
+
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+msgid "System unavailable, try again soon"
+msgstr "Sistema ez dago erabilgarri, saiatu berrio beranduago"
+
+#: .es5/lib/auth-errors.js:308
+msgid "This endpoint is no longer supported"
+msgstr "Mutur hau ez da onartzen"
+
+#: .es5/lib/auth-errors.js:316
+msgid "Login attempt cancelled"
+msgstr "Saio-hasiera saiakera utzita"
+
+#: .es5/lib/auth-errors.js:320
+msgid "Session expired. Sign in to continue."
+msgstr "Saioa iraungita. Jarraitzeko, hasi saioa."
+
+#: .es5/lib/auth-errors.js:324
+msgid "Cookies are still disabled"
+msgstr "Cookieak desgaituta daude oraindik"
+
+#: .es5/lib/auth-errors.js:328
+msgid "Passwords do not match"
+msgstr "Pasahitzak ez datoz bat"
+
+#: .es5/lib/auth-errors.js:332
+msgid "Working…"
+msgstr "Lanean…"
+
+#: .es5/lib/auth-errors.js:336
+msgid "Could not get Privacy Notice"
+msgstr "Ezin da pribatutasun-abisua eskuratu"
+
+#: .es5/lib/auth-errors.js:340
+msgid "Could not get Terms of Service"
+msgstr "Ezin dira zerbitzuaren baldintzak eskuratu"
+
+#: .es5/lib/auth-errors.js:344
+msgid "Your new password must be different"
+msgstr "Pasahitz berriak desberdina izan behar du"
+
+#: .es5/lib/auth-errors.js:348
+msgid "Must be at least 8 characters"
+msgstr "Gutxienez 8 karaktere izan behar ditu"
+
+#: .es5/lib/auth-errors.js:352
+msgid "Valid password required"
+msgstr "Baliozko pasahitza behar da"
+
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+msgid "Valid email required"
+msgstr "Baliozko helbide elektronikoa behar da"
+
+#: .es5/lib/auth-errors.js:368
+msgid "A usable image was not found"
+msgstr "Ez da irudi erabilgarririk aurkitu"
+
+#: .es5/lib/auth-errors.js:372
+msgid "Could not initialize camera"
+msgstr "Ezin da kamera hasieratu"
+
+#: .es5/lib/auth-errors.js:376
+msgid "Valid URL required"
+msgstr "Baliozko URLa behar da"
+
+#: .es5/lib/auth-errors.js:392
+msgid "Your verification email was just returned. Mistyped email?"
+msgstr "Zure egiaztapen-mezua itzuli egin da. Helbidea gaizki idatzi duzu?"
+
+#: .es5/lib/auth-errors.js:400
+msgid "Enter a valid email address. firefox.com does not offer email."
+msgstr "Idatzi baliozko helbide elektronikoa. firefox.com-ek ez du posta elektronikorik eskaintzen."
+
+#: .es5/lib/auth-errors.js:408
+msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
+msgstr "Firefox kontuak IFRAME batean eta onartutako guneetan soilik jar daitezke"
+
+#: .es5/lib/auth-errors.js:428
+msgid "Verification link damaged"
+msgstr "Egiaztapen-lotura hondatuta"
+
+#: .es5/lib/auth-errors.js:436
+msgid "The image dimensions must be at least 100x100px"
+msgstr "Irudiaren tamainak gutxienez 100x100 px izan behar du"
+
+#: .es5/lib/auth-errors.js:440
+msgid "Signup is coming soon to Firefox for iOS"
+msgstr "Izena emateko aukera laster dator iOSerako Firefoxentzat"
+
+#: .es5/lib/auth-errors.js:452
+msgid "You must enter your age to sign up"
+msgstr "Zure izena sartu behar duzu erregistratzeko"
+
+#: .es5/lib/auth-errors.js:456
+msgid "You must enter a valid age to sign up"
+msgstr "Adin egoki bat sartu behar duzu erregistratzeko"
+
+#: .es5/lib/auth-errors.js:472
+msgid "Account no longer exists."
+msgstr "Kontua ez da existitzen jada."
+
+#: .es5/lib/auth-errors.js:476
+msgid "Invalid property in resume token: %(property)s"
+msgstr "Propietate baliogabea berrekiteko tokenean: %(property)s"
+
+#: .es5/lib/auth-errors.js:480
+msgid "Missing property in resume token: %(property)s"
+msgstr "Propietatea falta da berrekiteko tokenean: %(property)s"
+
+#: .es5/lib/auth-errors.js:484
+msgid "Invalid data attribute: %(property)s"
+msgstr "Datu-atributu baliogabea: %(property)s"
+
+#: .es5/lib/auth-errors.js:488
+msgid "Missing data attribute: %(property)s"
+msgstr "Datu-atributua falta da: %(property)s"
+
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+msgid "That confirmation link was already used, and can only be used once."
+msgstr "Berrespen-lotura hori erabilita dago eta behin bakarrik erabil daiteke."
+
+#: .es5/lib/auth-errors.js:505
+msgid "This is a required field"
+msgstr "Eremu hau beharrezkoa da"
+
+#: .es5/lib/auth-errors.js:509
+msgid "Authorization code required"
+msgstr "Baimen-kodea behar da"
+
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+msgid "Link damaged"
+msgstr "Lotura kaltetuta dago"
+
+#: .es5/lib/auth-errors.js:540
+msgid "Phone number required"
+msgstr "Telefono-zenbakia beharrezkoa da"
+
+#: .es5/lib/auth-errors.js:559
+msgid "Two-step authentication code required"
+msgstr "Bi urratseko autentifikazio kodea behar da"
+
+#: .es5/lib/auth-errors.js:563
+msgid "Invalid two-step authentication code"
+msgstr "Bi urratseko autentifikazio kode baliogabea"
+
+#: .es5/lib/auth-errors.js:567
+msgid "Recovery code required"
+msgstr "Berreskuratze kodea behar da"
+
+#: .es5/lib/auth-errors.js:571
+msgid "Invalid recovery code"
+msgstr "Berreskuratze kode baliogabea"
+
+#: .es5/lib/auth-errors.js:585
+msgid "Recovery key required"
+msgstr "Berreskuratze gakoa behar da"
+
+#: .es5/lib/auth-errors.js:589
+msgid "Please enter verification code"
+msgstr "Mesedez sartu egiaztatze kodea"
+
+#: .es5/lib/auth-errors.js:601
+msgid "Invalid redirect"
+msgstr "Birbideraketa baliogabea"
+
+#: .es5/lib/auth-errors.js:613
+msgid "Mistyped email? %(domain)s does not offer email."
+msgstr "Helbidea gaizki idatzi duzu? %(domain)s domeinuak ez du posta elektroniko zerbitzurik."
+
+#: .es5/lib/auth-errors.js:617
+msgid "The image file size is too large to be uploaded."
+msgstr "Irudi-fitxategiaren tamaina handiegia da igotzeko."
+
+#: .es5/lib/config-loader.js:117
+msgid "Missing configuration"
+msgstr "Konfigurazioa falta da"
+
+#: .es5/lib/config-loader.js:121
+msgid "Invalid configuration"
+msgstr "Konfigurazio baliogabea"
+
+#: .es5/lib/email-domain-validator.js:40
+msgid "Mistyped email?"
+msgstr "Gaizki idatzitako helbidea?"
+
+#: .es5/lib/newsletters.js:25
+msgid "Test new Firefox products"
+msgstr "Proba itzazu Firefox-en produktu berriak"
+
+#: .es5/lib/newsletters.js:29 .es5/lib/newsletters.js:48
+msgid "Get the latest news about Mozilla and Firefox"
+msgstr "Eskuratu Mozilla eta Firefoxi buruzko azken berriak"
+
+#: .es5/lib/newsletters.js:33
+msgid "Take action to keep the internet healthy"
+msgstr ""
+
+#: .es5/lib/newsletters.js:37
+msgid "Be safer and smarter online"
+msgstr "Izan seguru eta azkarragoa Interneten"
+
+#: .es5/lib/newsletters.js:44
+msgid "Testing Firefox products"
+msgstr "Proba itzazu Firefox-en produktuak"
+
+#: .es5/lib/newsletters.js:52
+msgid "Taking action to keep the internet healthy"
+msgstr ""
+
+#: .es5/lib/newsletters.js:56
+msgid "Safety and privacy online with Firefox and Mozilla"
+msgstr ""
+
+#: .es5/lib/oauth-errors.js:34
+msgid "Unknown client"
+msgstr "Bezero ezezaguna"
+
+#: .es5/lib/oauth-errors.js:38
+msgid "Incorrect redirect_uri"
+msgstr "redirect_uri okerra"
+
+#: .es5/lib/oauth-errors.js:42
+msgid "Invalid assertion"
+msgstr "Baieztapen baliogabea"
+
+#: .es5/lib/oauth-errors.js:46
+msgid "Unknown code"
+msgstr "Kode ezezaguna"
+
+#: .es5/lib/oauth-errors.js:50
+msgid "Incorrect code"
+msgstr "Kode okerra"
+
+#: .es5/lib/oauth-errors.js:54
+msgid "Expired code"
+msgstr "Kode iraungia"
+
+#: .es5/lib/oauth-errors.js:62 .es5/lib/oauth-errors.js:83
+msgid "Invalid OAuth parameter: %(param)s"
+msgstr "OAuth parametro baliogabea: %(param)s"
+
+#: .es5/lib/oauth-errors.js:70 .es5/lib/profile-errors.js:25
+msgid "Unauthorized"
+msgstr "Baimenik ez"
+
+#: .es5/lib/oauth-errors.js:74
+msgid "Forbidden"
+msgstr "Debekatuta"
+
+#: .es5/lib/oauth-errors.js:89
+msgid "Expired token"
+msgstr "Token iraungia"
+
+#: .es5/lib/oauth-errors.js:133
+msgid "Something went wrong. Please close this tab and try again."
+msgstr "Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro."
+
+#: .es5/lib/oauth-errors.js:153
+msgid "no message"
+msgstr "mezurik ez"
+
+#: .es5/lib/oauth-errors.js:157
+msgid "Missing OAuth parameter: %(param)s"
+msgstr "OAuth parametroa falta da: %(param)s"
+
+#: .es5/lib/oauth-errors.js:181
+msgid "User is not signed in"
+msgstr "Erabiltzaileak ez du saiorik hasi"
+
+#: .es5/lib/oauth-errors.js:186
+msgid "A different user is signed in"
+msgstr "Beste erabiltzaile batek saioa hasita dauka"
+
+#: .es5/lib/oauth-errors.js:191
+msgid "Unverified user or session"
+msgstr "Egiaztatu gabeko erabiltzaile edo saioa"
+
+#: .es5/lib/oauth-errors.js:196
+msgid "Invalid id_token_hint"
+msgstr "id_token_hint baliogabea"
+
+#: .es5/lib/pairing-channel-client-errors.js:44
+msgid "Invalid message from the remote device"
+msgstr "Mezu baliogabea urruneko gailutik"
+
+#: .es5/lib/pairing-channel-client-errors.js:52
+msgid "Error pairing to remote device"
+msgstr "Errorea urruneko gailuaz parekatzean"
+
+#: .es5/lib/pairing-channel-client-errors.js:56
+msgid "Connection to remote device closed, please try again"
+msgstr "Urruneko gailuko konexioa itxi da, saiatu berriz"
+
+#: .es5/lib/profile-errors.js:29
+msgid "Invalid parameter in request body: %(param)s"
+msgstr "Parametro baliogabea eskaeraren gorputzean: %(param)s"
+
+#: .es5/lib/profile-errors.js:33
+msgid "Unsupported image provider"
+msgstr "Onartzen ez den irudi-hornitzailea"
+
+#: .es5/lib/profile-errors.js:37
+msgid "Image processing error"
+msgstr "Errorea irudia prozesatzean"
+
+#: .es5/lib/profile-errors.js:49
+msgid "Invalid Token"
+msgstr "Token baliogabea"
+
+#: .es5/lib/strings.js:25
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Jarraituz gero, %(serviceName)s (%(serviceUri)s)(r)en <a id=\"service-tos\" href=\"%(termsUri)s\">zerbitzuaren baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">pribatutasun oharra</"
+"a> onartzen dituzu."
+
+#: .es5/lib/strings.js:31
+msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Laguntza</a>"
+
+#: .es5/lib/strings.js:34
+msgid "Get the latest news about Mozilla and Firefox."
+msgstr "Eskuratu Mozilla eta Firefoxi buruzko azken berriak."
+
+#: .es5/lib/strings.js:36 .es5/templates/partial/device-being-paired.mustache:5
+msgid "%(city)s, %(country)s (estimated)"
+msgstr "%(city)s, %(country)s (zenbatetsia)"
+
+#: .es5/lib/strings.js:37
+msgid "%(country)s (estimated)"
+msgstr "%(country)s (zenbatetsia)"
+
+#: .es5/lib/strings.js:38
+msgid "IP address: %(ip)s"
+msgstr "IP helbidea: %(ip)s"
+
+#: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
+msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+msgstr "Segurtasun gehigarrirako, mesedez berretsi saio-hasiera gailu honekin sinkronizatzen hasteko:"
+
+#: .es5/templates/400.mustache:1
+msgid "Bad Request"
+msgstr "Eskaera okerra"
+
+#: .es5/templates/500.mustache:1
+msgid "500 Error"
+msgstr "500 errorea"
+
+#: .es5/templates/500.mustache:2
+msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgstr "Ai ene, zerbait gaizki joan da. Jaso dugu abisua eta arazoa konpontzen saiatuko gara."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+msgid "Reset password link expired"
+msgstr "Pasahitza berrezartzeko lotura iraungita"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+msgid "The link you clicked to reset your password is expired."
+msgstr "Pasahitza berrezartzeko klik egin duzun lotura iraungita dago."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+msgid "Receive new link"
+msgstr "Jaso lotura berria"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:5
+msgid "Reset password with recovery key"
+msgstr "Berrezarri pasahitza berreskuratze gakoaz"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Jarraitu %(serviceName)s zerbitzura"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:7
+msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr "Mesedez sartu erabilera bakarreko berreskuratze gakoa toki seguruan gordea duzuna berriz bereganatzeko zure Firefox kontura sarrera."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:8
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgstr ""
+"<span class=\"note\">OHARRA:</span> Pasahitza berrezartzen baduzu eta ez badaukazu berreskuratzeko gakoa gordeta, zure hainbat datu ezabatuko dira (historia eta laster-markak bezalako zerbitzarian "
+"sinkronizatutako datuak barne)."
+
+#: .es5/templates/account_recovery_confirm_key.mustache:9
+msgid "Enter recovery key"
+msgstr "Sartu berreskuratze gakoa"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+msgid "Confirm recovery key"
+msgstr "Berretsi berreskuratze gakoa"
+
+#: .es5/templates/account_recovery_confirm_key.mustache:11
+msgid "Don't have a recovery key?"
+msgstr "Ez duzu berreskuratze gakorik?"
+
+#: .es5/templates/cannot_create_account.mustache:1
+msgid "Cannot create account"
+msgstr "Ezin da kontua sortu"
+
+#: .es5/templates/cannot_create_account.mustache:2
+msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgstr ""
+
+#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+msgid "Learn more"
+msgstr "Argibide gehiago"
+
+#: .es5/templates/choose_what_to_sync.mustache:1
+msgid "Choose what to sync:"
+msgstr "Aukeratu zer sinkronizatu:"
+
+#: .es5/templates/choose_what_to_sync.mustache:4
+msgid "Sync selections"
+msgstr "Sinkronizatu hautapenak"
+
+#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+msgid "Don’t sync this device"
+msgstr "Ez sinkronizatu gailu hau"
+
+#: .es5/templates/complete_reset_password.mustache:5
+msgid "Reset password link damaged"
+msgstr "Pasahitza berrezartzeko lotura hondatuta"
+
+#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "Klik egin duzun loturak karaktereak falta ditu; agian zure posta-bezeroak hondatu du. Kopiatu helbidea kontuz eta saiatu berriro."
+
+#: .es5/templates/complete_reset_password.mustache:8
+msgid "Create new password"
+msgstr "Sortu pasahitz berria"
+
+#: .es5/templates/complete_reset_password.mustache:9
+msgid ""
+"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+
+#: .es5/templates/complete_reset_password.mustache:11
+msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr "Zure kontua ondo berrezarri da berreskuratze gakoa erabiliz. Sortu pasahitza berria zure datuen segurtasunerako eta gorde ezazu babestutako lekuan."
+
+#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Pasahitz berria"
+
+#: .es5/templates/complete_reset_password.mustache:14
+msgid "Re-enter password"
+msgstr "Idatzi berriz pasahitza"
+
+#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+msgid "Remember password? Sign in"
+msgstr "Pasahitza gogoratzen duzu? Hasi saioa"
+
+#: .es5/templates/complete_sign_up.mustache:1
+msgid "Primary email already confirmed"
+msgstr "Helbide elektroniko nagusia dagoeneko berretsita"
+
+#: .es5/templates/complete_sign_up.mustache:3
+msgid "Sign-in already confirmed"
+msgstr "Saio-hasiera dagoeneko berretsita"
+
+#: .es5/templates/complete_sign_up.mustache:6
+msgid "Confirmation link expired"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:7
+msgid "The link you clicked to confirm your email is expired."
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:8
+msgid "Click here to receive a new confirmation link"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:11
+msgid "Confirmation link damaged"
+msgstr ""
+
+#: .es5/templates/complete_sign_up.mustache:14
+msgid "Confirmation error"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:3
+msgid "Confirm your account"
+msgstr "Berretsi zure kontua"
+
+#: .es5/templates/confirm.mustache:5
+msgid "Confirm this sign-in"
+msgstr "Berretsi saio-hasiera hau"
+
+#: .es5/templates/confirm.mustache:7
+msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
+
+#: .es5/templates/confirm.mustache:9
+msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr "Egiaztatu zure posta elektronikoa %(escapedEmail)s helbidera bidalitako egiaztapen-loturarako"
+
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/sign_in_unblock.mustache:9
+msgid "Not in inbox or spam folder? Resend"
+msgstr "Ez dago sarrera-ontzian edo spam karpetan? Bidali berriro"
+
+#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+msgid "Back"
+msgstr "Atzera"
+
+#: .es5/templates/confirm_reset_password.mustache:1
+msgid "Reset email sent"
+msgstr "Berrezartze-mezua bidali da"
+
+#: .es5/templates/confirm_reset_password.mustache:2
+msgid "Click the link emailed to %(email)s within the next hour to create a new password."
+msgstr "Egin klik %(email)s helbidera bidali dizugun estekan hurrengo orduan zehar pasahitz berria sortzeko."
+
+#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
+msgid "Enter confirmation code"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:2
+msgid "for your Firefox account"
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:3
+msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+msgid "Enter 6-digit code"
+msgstr "Sartu 6 digituko kodea"
+
+#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+msgid "Confirm"
+msgstr "Berretsi"
+
+#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+msgid "Code expired?"
+msgstr "Kodea iraungita?"
+
+#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+msgid "Email new code."
+msgstr "Posta elektroniko kode berria."
+
+#: .es5/templates/connect_another_device.mustache:1
+msgid "Connect another device"
+msgstr "Konektatu beste gailu bat"
+
+#: .es5/templates/connect_another_device.mustache:2
+msgid "Firefox account connected"
+msgstr "Firefox kontua konektatua"
+
+#: .es5/templates/connect_another_device.mustache:4
+msgid "Email confirmed"
+msgstr ""
+
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+msgid "Complete your set-up"
+msgstr "Burutu zure konfigurazioa"
+
+#: .es5/templates/connect_another_device.mustache:10
+msgid "Sign in to this Firefox to complete set-up"
+msgstr "Konfigurazioa osatzeko, hasi saioa Firefox honetan"
+
+#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+msgid "Still adding devices?"
+msgstr "Gailuak gehitzeko dituzu oraindik?"
+
+#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+msgid "Sign in to Firefox on another device to complete set-up"
+msgstr "Konfigurazioa osatzeko, hasi saioa Firefoxen beste gailu batean"
+
+#: .es5/templates/connect_another_device.mustache:17
+msgid "Sync Firefox across devices"
+msgstr "Sinkronizatu Firefox gailuen artean"
+
+#: .es5/templates/connect_another_device.mustache:19
+msgid "Sign in everywhere you use Firefox."
+msgstr "Hasi saioa Firefox darabilzun edozein lekutatik."
+
+#: .es5/templates/connect_another_device.mustache:20
+msgid "We’re on Android and iOS, too!"
+msgstr "Android eta iOSen ere bagaude!"
+
+#: .es5/templates/connect_another_device.mustache:22
+msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr "Oraindik gailuak gehitzen? Konfigurazioa osatzeko, hasi saioa Firefoxen beste gailu batean"
+
+#: .es5/templates/connect_another_device.mustache:24
+msgid "Sign in to Firefox for Android to complete set-up"
+msgstr "Konfigurazioa osatzeko, hasi saioa Androiderako Firefoxen"
+
+#: .es5/templates/connect_another_device.mustache:26
+msgid "Sign in to Firefox for iOS to complete set-up"
+msgstr "Konfigurazioa osatzeko, hasi saioa iOSerako Firefoxen"
+
+#: .es5/templates/cookies_disabled.mustache:1
+msgid "Cookies and local storage are required"
+msgstr "Cookie-ak eta biltegiratze lokala beharrezkoak dira"
+
+#: .es5/templates/cookies_disabled.mustache:2
+msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
+msgstr "Mesedez, gaitu cookie-ak eta biltegiratze lokala zure nabigatzailean Firefox Kontuak atzitzeko. Hori eginez, funtzionaltasunak gaituko dituzu; saioen artean zu gogoraraztekoa, adibidez."
+
+#: .es5/templates/cookies_disabled.mustache:4
+msgid "Try again"
+msgstr "Saiatu berriro"
+
+#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+msgid ""
+"\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"        "
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+msgid "Password"
+msgstr "Pasahitza"
+
+#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+
+#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "Erabili beste kontu bat"
+
+#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+msgid "Forgot password?"
+msgstr "Pasahitza ahaztu duzu?"
+
+#: .es5/templates/index.mustache:1
+msgid "Continue to Firefox accounts"
+msgstr ""
+
+#: .es5/templates/index.mustache:2
+msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
+msgstr "Sinkronizatu zure pasahitzak, fitxak eta laster-markak Firefox erabiltzen duzun toki orotan."
+
+#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
+msgid "Enter your email"
+msgstr "Idatzi zure helbide elektronikoa"
+
+#: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
+msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
+
+#: .es5/templates/index.mustache:9
+msgid "Sign up or sign in"
+msgstr ""
+
+#: .es5/templates/index.mustache:11
+msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:1
+msgid "Save recovery codes"
+msgstr "Gorde berreskuratze-kodeak"
+
+#: .es5/templates/inline_recovery_setup.mustache:3
+msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
+msgstr "Gorde erabilpen bakarreko kode hauek toki seguru batean, gailu mugikorrik alboan ez duzunean erabil ahal ditzazun."
+
+#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+msgid "Download"
+msgstr "Deskargatu"
+
+#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
+msgid "Copy"
+msgstr "Kopiatu"
+
+#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+msgid "Print"
+msgstr "Inprimatu"
+
+#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
+msgid "Continue"
+msgstr "Jarraitu"
+
+#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+msgid "Cancel setup"
+msgstr "Utzi konfigurazioa"
+
+#: .es5/templates/inline_recovery_setup.mustache:12
+msgid "Confirm recovery code"
+msgstr "Berretsi berreskuratze-kodea"
+
+#: .es5/templates/inline_recovery_setup.mustache:14
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgstr ""
+
+#: .es5/templates/inline_recovery_setup.mustache:15
+msgid "Recovery code"
+msgstr "Berreskuratze-kodea"
+
+#: .es5/templates/inline_totp_setup.mustache:1
+msgid "Enable two-step authentication"
+msgstr "Gaitu bi urratseko autentifikazioa"
+
+#: .es5/templates/inline_totp_setup.mustache:3
+msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr "Gehitu segurtasun geruza bat zure kontuari segurtasun kode bat eskatuz ondorengo <a %(escapedTotpSupportAttributes)s>aplikazioetatik</a>."
+
+#: .es5/templates/inline_totp_setup.mustache:7
+msgid "Scan authentication code"
+msgstr "Eskaneatu autentifikazio-kodea"
+
+#: .es5/templates/inline_totp_setup.mustache:10
+msgid "Enter code manually"
+msgstr "Sartu kodea eskuz"
+
+#: .es5/templates/inline_totp_setup.mustache:12
+msgid "Scan the QR code in your authentication app and then enter the security code it provides."
+msgstr "Eskaneatu QR kodea zure autentifikazio-aplikazioa erabiliz eta sartu bertan agertzen den segurtasun-kodea."
+
+#: .es5/templates/inline_totp_setup.mustache:13
+msgid "Can’t scan code?"
+msgstr "Ezin duzu kodea eskaneatu?"
+
+#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
+msgid "Once complete, it will begin generating security codes for you to enter."
+msgstr "Burutu ondoren, zuk erabil ditzakezun segurtasun-kodeak sortzen hasiko da."
+
+#: .es5/templates/inline_totp_setup.mustache:16
+msgid "Type this secret key into your authentication app."
+msgstr "Sartu gako sekretu hau zure autentifikazio aplikazioan."
+
+#: .es5/templates/inline_totp_setup.mustache:17
+msgid "Scan QR code instead?"
+msgstr "Eskaneatu QR kodea horren ordez?"
+
+#: .es5/templates/inline_totp_setup.mustache:19
+msgid "Security code"
+msgstr "Segurtasun-kodea"
+
+#: .es5/templates/inline_totp_setup.mustache:20
+msgid "Ready"
+msgstr "Prest"
+
+#: .es5/templates/legal.mustache:1
+msgid "Legal"
+msgstr "Legala"
+
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+msgid "Terms of Service"
+msgstr "Zerbitzuaren baldintzak"
+
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+msgid "Privacy Notice"
+msgstr "Pribatutasun-abisua"
+
+#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+msgid "Get the full Sync experience."
+msgstr "Eskuratu Sync-en esperientzia osoa."
+
+#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:19
+msgid "Download Firefox for iOS!"
+msgstr "Deskagatu Firefox iOSentzat!"
+
+#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:20
+msgid "Download Firefox for Android."
+msgstr "Deskargatu Androiderako Firefox."
+
+#: .es5/templates/marketing_snippet.mustache:10
+msgid "Download Firefox for mobile devices."
+msgstr "Deskargatu gailu mugikorretarako Firefox."
+
+#: .es5/templates/permissions.mustache:1
+msgid "Request for permission"
+msgstr "Baimen-eskaera"
+
+#: .es5/templates/permissions.mustache:2
+msgid "%(serviceName)s wants the following information from your account:"
+msgstr "%(serviceName)s guneak zure kontuko ondorengo informazioa nahi du:"
+
+#: .es5/templates/permissions.mustache:3
+msgid "Accept"
+msgstr "Onartu"
+
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+msgid "Cancel"
+msgstr "Utzi"
+
+#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+msgid "Success"
+msgstr "Dena ondo"
+
+#: .es5/templates/ready.mustache:4
+msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr "Prest zaude <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> erabiltzeko."
+
+#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
+msgid "Continue to my account"
+msgstr "Jarraitu nire kontuaz"
+
+#: .es5/templates/ready.mustache:14
+msgid "Your account is ready!"
+msgstr "Zure kontua prest dago!"
+
+#: .es5/templates/ready.mustache:15
+msgid "Generate a new recovery key"
+msgstr "Sortu berreskuratze gako berria"
+
+#: .es5/templates/report_sign_in.mustache:4
+msgid "Report unauthorized sign-in?"
+msgstr "Baimenik gabeko saio-hasiera baten berri eman?"
+
+#: .es5/templates/report_sign_in.mustache:5
+msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
+msgstr "Mezu bat jaso duzu zure kontuan saio hasiera saiakera bati buruz. Aktibitate hau susmagarri gisa jakinarazi nahi duzu?"
+
+#: .es5/templates/report_sign_in.mustache:6
+msgid "Report activity"
+msgstr "Eman jardueraren berri"
+
+#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+msgid "Why is this happening?"
+msgstr "Zergatik ari da hau gertatzen?"
+
+#: .es5/templates/reset_password.mustache:3
+msgid ""
+"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
+"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+msgstr ""
+
+#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "Helbide elektronikoa"
+
+#: .es5/templates/reset_password.mustache:6
+msgid "Begin reset"
+msgstr "Hasi berrezartzea"
+
+#: .es5/templates/security_events.mustache:1
+msgid "Recent Activity"
+msgstr "Azken jarduera"
+
+#: .es5/templates/security_events.mustache:2
+msgid "Security Events"
+msgstr "Segurtasun-gertaerak"
+
+#: .es5/templates/security_events.mustache:3
+msgid "Event Name"
+msgstr "Gertaera-izena"
+
+#: .es5/templates/security_events.mustache:4
+msgid "Confirmed"
+msgstr ""
+
+#: .es5/templates/security_events.mustache:5
+msgid "Created At"
+msgstr "Sortze-data"
+
+#: .es5/templates/security_events.mustache:7
+msgid "Delete events"
+msgstr "Ezabatu gertaerak"
+
+#: .es5/templates/security_events.mustache:8
+msgid "Back to settings"
+msgstr "Itzuli ezarpenetara"
+
+#: .es5/templates/sign_in_bounced.mustache:1
+msgid "Sorry. We’ve locked your&nbsp;account."
+msgstr "Barkatu. Zure kontua blokeatu dugu."
+
+#: .es5/templates/sign_in_bounced.mustache:2
+msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
+msgstr "%(email)s helbidera bidali zen berrespen mezua itzuli egin zen eta zure kontua blokeatu dugu zure Firefox datuak babesteko."
+
+#: .es5/templates/sign_in_bounced.mustache:3
+msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
+msgstr "Hau baliozko helbide elektronikoa bada, <a %(escapedSupportLinkAttrs)s>esaguzu</a> eta kontua desblokeatzen lagundu zaitzakegu."
+
+#: .es5/templates/sign_in_bounced.mustache:5
+msgid "No longer own that email? Create a new account"
+msgstr "Helbide elektronikoa ez da jada zurea? Sortu kontu berri bat"
+
+#: .es5/templates/sign_in_password.mustache:11
+msgid ""
+"\n"
+"              By proceeding, you agree to:<br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"            "
+msgstr ""
+
+#: .es5/templates/sign_in_recovery_code.mustache:1
+msgid "Enter recovery code"
+msgstr "Sartu berreskuratze kodea"
+
+#: .es5/templates/sign_in_recovery_code.mustache:3
+msgid "Please enter a recovery code that was provided to you during setup."
+msgstr "Mesedez sartu berreskuratze kodea, ezarpenean zehar eman zitzaizuna."
+
+#: .es5/templates/sign_in_recovery_code.mustache:4
+msgid "Enter 10-digit recovery code"
+msgstr "Sartu 10 digituko berreskuratze kodea"
+
+#: .es5/templates/sign_in_recovery_code.mustache:7
+msgid "Are you locked out?"
+msgstr ""
+
+#: .es5/templates/sign_in_reported.mustache:1
+msgid "Thank you for your vigilance"
+msgstr "Eskerrik asko zure zaintzagatik"
+
+#: .es5/templates/sign_in_reported.mustache:2
+msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgstr "Gure taldeari jakinarazi zaio. Horrelako txostenek arrotzak kanpo mantentzen laguntzen digu."
+
+#: .es5/templates/sign_in_token_code.mustache:1
+msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgstr ""
+
+#: .es5/templates/sign_in_token_code.mustache:2
+msgid "Enter the code that was sent to %(email)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/sign_in_totp_code.mustache:1
+msgid "Enter security code"
+msgstr "Sartu segurtasun-kodea"
+
+#: .es5/templates/sign_in_totp_code.mustache:3
+msgid "Open your authentication app and enter the security code it provides."
+msgstr "Ireki zure autentifikazio-aplikazioa eta sartu bertan agertzen den segurtasun-kodea."
+
+#: .es5/templates/sign_in_totp_code.mustache:7
+msgid "Trouble entering code?"
+msgstr "Arazoak kodea sartzean?"
+
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+msgid "Authorize this sign-in"
+msgstr "Baimendu saio-hasiera hau"
+
+#: .es5/templates/sign_in_unblock.mustache:3
+msgid "Check your email for the authorization code sent to %(email)s."
+msgstr "Egiaztatu zure posta-elektronikoa %(email)s helbidera bidalitako baimen-koderako."
+
+#: .es5/templates/sign_in_unblock.mustache:4
+msgid "Enter authorization code"
+msgstr "Idatzi baimen-kodea"
+
+#: .es5/templates/sign_up_password.mustache:1
+msgid "Set your password"
+msgstr "Ezarri zure pasahitza"
+
+#: .es5/templates/sign_up_password.mustache:2
+msgid "Change email"
+msgstr "Aldatu helbide elektronikoa"
+
+#: .es5/templates/sign_up_password.mustache:5
+msgid "Repeat password"
+msgstr "Errepikatu pasahitza"
+
+#: .es5/templates/sign_up_password.mustache:6
+msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgstr "Gurekin gordetako zifratutako datu orotarako sarbidea izateko behar duzu pasahitz hau.<br/>Pasahitza berrezarriz gero, ziurrenik pasahitzak eta laster-markak galdu egingo dira."
+
+#: .es5/templates/sign_up_password.mustache:7
+msgid "Practical knowledge is coming to your inbox. Sign up for more:"
+msgstr ""
+
+#: .es5/templates/sign_up_password.mustache:10
+msgid "Choose what to sync"
+msgstr "Aukeratu zer sinkronizatu"
+
+#: .es5/templates/sign_up_password.mustache:14
+msgid "Create account"
+msgstr "Sortu kontua"
+
+#: .es5/templates/sign_up_password.mustache:15
+msgid ""
+"\n"
+"            By proceeding, you agree to:<br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"          "
+msgstr ""
+
+#: .es5/templates/support.mustache:1
+msgid "Firefox Accounts"
+msgstr "Firefox Kontuak"
+
+#: .es5/templates/support.mustache:2
+msgid "Account Home"
+msgstr "Kontuaren hasiera-orria"
+
+#: .es5/templates/support.mustache:3
+msgid "Subscriptions"
+msgstr "Harpidetzak"
+
+#: .es5/templates/support.mustache:4 .es5/templates/support.mustache:5
+msgid "Contact Us"
+msgstr "Kontaktua"
+
+#: .es5/templates/support.mustache:6
+msgid "What are you contacting us about?"
+msgstr ""
+
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+msgid "Please select one"
+msgstr "Hautatu bat mesedez"
+
+#: .es5/templates/support.mustache:10
+msgid "What do you need help with?"
+msgstr ""
+
+#: .es5/templates/support.mustache:12
+msgid "Payment & billing"
+msgstr "Ordainketa eta fakturazioa"
+
+#: .es5/templates/support.mustache:13
+msgid "Account issues"
+msgstr "Kontuaren arazoak"
+
+#: .es5/templates/support.mustache:14
+msgid "Technical issues"
+msgstr "Arazo teknikoak"
+
+#: .es5/templates/support.mustache:15
+msgid "Provide feedback / request features"
+msgstr "Eman iritzia / eskatu eginbideak"
+
+#: .es5/templates/support.mustache:16
+msgid "Not listed"
+msgstr "Zerrendatu gabea"
+
+#: .es5/templates/support.mustache:17
+msgid "Do you need help with a specific app or service? (optional)"
+msgstr ""
+
+#: .es5/templates/support.mustache:19
+msgid "Subject (optional)"
+msgstr ""
+
+#: .es5/templates/support.mustache:20
+msgid "Description of issue"
+msgstr "Arazoaren deskribapena"
+
+#: .es5/templates/support.mustache:22
+msgid "Send"
+msgstr "Bidali"
+
+#: .es5/templates/would-you-like-to-sync.mustache:1
+msgid "Would you like to sync this device to your account?"
+msgstr "Gailu hau zure kontura sinkronizatu nahi duzu?"
+
+#: .es5/templates/would-you-like-to-sync.mustache:2
+msgid "Sync this device"
+msgstr "Sinkronizatu gailu hau"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
+msgid "Step 1 of 2: Re-enter password"
+msgstr "1 pausoa 2tik: Sartu berriz pasahitza"
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
+msgid "Enter your password to view your recovery key."
+msgstr "Sartu pasahitza zure berreskuratze gakoa ikusteko."
+
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+msgid "Enter Password"
+msgstr "Sartu pasahitza"
+
+#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+msgid "Successfully connected"
+msgstr "Ondo konektatuta"
+
+#: .es5/templates/push/completed.mustache:3
+msgid "Please close this page and continue on the other device."
+msgstr ""
+
+#: .es5/templates/push/confirm_login.mustache:1
+msgid "New sign-in to Firefox"
+msgstr "Saio-hasiera berria Firefoxen"
+
+#: .es5/templates/push/confirm_login.mustache:3
+msgid "Confirm sign-in"
+msgstr "Berretsi saio-hasiera"
+
+#: .es5/templates/push/confirm_login.mustache:4
+msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:2
+msgid "Send login push notification"
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:3
+msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgstr ""
+
+#: .es5/templates/push/send_login.mustache:4
+msgid "Resend tab"
+msgstr "Birbidali fitxa"
+
+#: .es5/templates/push/send_login.mustache:5
+msgid "Tab not arriving? Send an email instead"
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+msgid "Add a secondary email address"
+msgstr "Gehitu ordezko helbide elektronikoa"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
+msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
+msgid "Secondary email"
+msgstr "Helbide elektroniko alternatiboa"
+
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+msgid "Maybe later"
+msgstr "Geroago agian"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
+msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgstr ""
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
+msgid "Need another code? Resend"
+msgstr "Beste kode bat behar duzu? Birbidali"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
+msgid "Use a different email"
+msgstr "Erabili beste helbide elektroniko bat"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+msgid "Please change your password"
+msgstr "Aldatu zure pasahitza mesedez"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:2
+msgid "to continue to %(serviceName)s"
+msgstr "%(serviceName)s zerbitzura jarraitzeko"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:5
+msgid ""
+"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+msgstr ""
+"Portaera susmagarria antzeman dugu zure Firefox kontuan. Zure kontua babesteko, sortu pasahitz berria mesedez. Pasahitz hau zure Firefox kontua darabilten zerbitzu guztietan saioa berriro hasteko "
+"erabiliko duzu."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:6
+msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr "Sinkronizatutako historia, laster-markak, saio-hasierak eta bestelako datuak ez dira galduko."
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:7
+msgid "Old password"
+msgstr "Pasahitz zaharra"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:9
+msgid "Re-enter new password"
+msgstr "Idatzi berriro pasahitz berria"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:10
+msgid "Change password"
+msgstr "Aldatu pasahitza"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
+msgid "This Firefox is connected"
+msgstr "Firefox hau konektatuta dago"
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
+msgid "Sign up for more"
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
+msgid "Practical knowledge is coming to your inbox."
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
+msgid "Get practical knowledge in your inbox about:"
+msgstr ""
+
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
+msgid "Subscribe %(email)s"
+msgstr "Harpidetu %(email)s"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client."
+msgstr ""
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+msgid "Create a Firefox Account"
+msgstr "Sortu Firefoxen kontua"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
+msgid "Continue to %(productName)s"
+msgstr "Jarraitu %(productName)s(e)ra"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
+msgid "Enter a password"
+msgstr "Idatzi pasahitz bat"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
+msgid "Confirm password"
+msgstr "Berretsi pasahitza"
+
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid "Create Password"
+msgstr "Sortu pasahitza"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:1
+msgid "Device connected!"
+msgstr "Gailua konektatuta!"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:4
+msgid "Connect another one"
+msgstr "Konektatu beste bat"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:5
+msgid "Use SMS instead"
+msgstr "Erabili SMSa horren ordez"
+
+#: .es5/templates/post_verify/cad_qr/connected.mustache:6
+msgid "I'm done for now"
+msgstr "Momentuz, kito"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
+msgid "Sync Firefox between devices"
+msgstr "Sinkronizatu Firefox gailuen artean"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
+msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
+msgstr "Sinkronizatu laster-markak, historia eta pasahitzak zure gailu mugikorretako Firefoxera. Minutu gutxi batzuk hartzen ditu soilik."
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
+msgid "Get started"
+msgstr "Hasi erabiltzen"
+
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+msgid "I'll do this later, send me a reminder"
+msgstr "Geroago egingo dut, bidal iezadazu gogorarazlea"
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
+msgid "Download Firefox with your camera app"
+msgstr "Deskargatu Firefox zure kameraren aplikazioa erabiliz"
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
+msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
+msgstr "Firefox instalatu eta gutxienez bi gailuren artean sinkronizatzeak zure datuak galtzetik ere babesten zaitu."
+
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
+msgid "Ready to scan"
+msgstr "Eskaneatzeko prest"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
+msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Konektatu zure gailu mugikorra</h1><p>zuretzat sortu berri dugun QR kodea erabiliz</p>"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
+msgid "Open the camera app on your device"
+msgstr "Ireki kameraren aplikazioa zure gailuan"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
+msgid "Point the camera at the QR code and tap the link that appears"
+msgstr "Seinalatu kamerarekin QR kodera eta sakatu agertzen den lotura"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
+msgid "Install Firefox and open it on your device"
+msgstr "Instalatu Firefox eta ireki ezazu zure gailuan"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
+msgid "Sign into your account"
+msgstr "Hasi saioa zure kontuan"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
+msgid "<span class=\"number\">1</span>Open the camera app on your device"
+msgstr "<span class=\"number\">1</span>Ireki kameraren aplikazioa zure gailuan"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
+msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgstr "<span class=\"number\">2</span>Seinalatu kamerarekin QR kodera eta sakatu agertzen den lotura"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
+msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgstr "<span class=\"number\">3</span>Instalatu Firefox eta ireki ezazu zure gailuan"
+
+#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
+msgid "<span class=\"number\">4</span>Sign into your account"
+msgstr "<span class=\"number\">4</span>Hasi saioa zure kontuan"
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+msgid "Protect your data with a recovery key"
+msgstr "Babestu zure datuak berreskuratze-gako batekin"
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
+msgid "Your synced data can include passwords you've saved."
+msgstr "Sinkronizatutako zure datuek gorde dituzun pasahitzak izan ditzakete."
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
+msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
+msgstr "Informazio hau zure segurtasunerako kritikoa denez, Firefoxek ezabatu egiten du pasahitza berrezartzen duzunean, horrela beste inork sarbidea izatea saihesteko."
+
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
+msgid "Get a Recovery Key"
+msgstr "Lortu berreskuratze gakoa"
+
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
+msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgstr "Berretsi %(escapedEmail)s helbiderako zure pasahitza berreskuratze-gakoa sortu ahal izateko."
+
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
+msgid "Enter your recovery key to confirm that you've saved a copy."
+msgstr "Idatzi zure berreskuratze-gakoa kopia bat gorde duzula berresteko."
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+msgid "Save recovery key"
+msgstr "Gorde berreskuratze-gakoa"
+
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
+msgid "Done"
+msgstr "Egina"
+
+#: .es5/templates/partial/account-suggestion.mustache:1
+msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
+msgid "How old are you?"
+msgstr "Zenbat urte dituzu?"
+
+#: .es5/templates/partial/coppa-age-input.mustache:4
+msgid "You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/device-being-paired.mustache:2
+msgid "%(family)s on %(OS)s"
+msgstr "%(family)s %(OS)sean"
+
+#: .es5/templates/partial/device-being-paired.mustache:3
+msgid "%(city)s, %(region)s, %(country)s (estimated)"
+msgstr "%(city)s, %(region)s, %(country)s (kalkulatua)"
+
+#: .es5/templates/partial/device-being-paired.mustache:7
+msgid "%(region)s, %(country)s (estimated)"
+msgstr "%(region)s, %(country)s (kalkulatua)"
+
+#: .es5/templates/partial/device-being-paired.mustache:9
+msgid "%(country)s"
+msgstr "%(country)s"
+
+#: .es5/templates/partial/device-being-paired.mustache:11
+msgid "Location unknown"
+msgstr "Kokapen ezezaguna"
+
+#: .es5/templates/partial/device-being-paired.mustache:12
+msgid "IP address: %(ipAddress)s"
+msgstr "IP helbidea: %(ipAddress)s"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:1
+msgid "Password requirements"
+msgstr "Pasahitzaren betebeharrak"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:3
+msgid "At least 8 characters"
+msgstr "Gutxienez 8 karaktere"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:6
+msgid "Not your email address"
+msgstr "Ezin da zure helbide elektronikoa izan"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:10
+msgid "Not a commonly used password"
+msgstr "Ezin da askotan erabilitako pasahitza izan"
+
+#: .es5/templates/partial/password-strength-balloon.mustache:11
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgstr ""
+
+#: .es5/templates/partial/support-form-error.mustache:1
+msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:1
+msgid "Your message was sent to Support"
+msgstr ""
+
+#: .es5/templates/partial/support-form-success.mustache:2
+msgid "Back to Subscriptions"
+msgstr "Itzuli harpidetzetara"
+
+#: .es5/templates/partial/sync-suggestion.mustache:1
+msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
+msgstr "Firefox Sync bila zabiltza? <a %(escapedSyncSuggestionAttrs)s>Hasi hemen</a>"
+
+#: .es5/templates/partial/third-party-auth.mustache:1
+msgid "or"
+msgstr "edo"
+
+#: .es5/templates/partial/third-party-auth.mustache:2
+msgid "Continue with Google"
+msgstr "Jarraitu Googlerekin"
+
+#: .es5/templates/partial/third-party-auth.mustache:3
+msgid "Continue with Apple"
+msgstr "Jarraitu Applerekin"
+
+#: .es5/templates/pair/auth_allow.mustache:1
+msgid "Did you just sign in to Firefox?"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:2
+msgid " %(email)s "
+msgstr "%(email)s"
+
+#: .es5/templates/pair/auth_allow.mustache:3
+msgid "location balloon"
+msgstr ""
+
+#: .es5/templates/pair/auth_allow.mustache:4
+msgid "Yes, approve device"
+msgstr "Bai, onartu gailua"
+
+#: .es5/templates/pair/auth_allow.mustache:5
+msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+msgid "Device connected"
+msgstr "Gailua konektatua"
+
+#: .es5/templates/pair/auth_complete.mustache:3
+msgid ""
+"\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"      "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:4
+msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:5
+msgid "See tabs from synced devices"
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:7
+msgid "Manage devices"
+msgstr "Kudeatu gailuak"
+
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+msgid "Approval now required <small>from your other device</small>"
+msgstr "Orain <small>zure beste gailuaren</small> onarpena behar da"
+
+#: .es5/templates/pair/failure.mustache:1
+msgid "Pairing not successful"
+msgstr "Parekatzeak kale egin du"
+
+#: .es5/templates/pair/failure.mustache:2
+msgid "The setup process was terminated."
+msgstr "Ezarpen prozedura amaitu da."
+
+#: .es5/templates/pair/index.mustache:1
+msgid "Download Firefox on your phone or tablet"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:2
+msgid "QR code"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:4
+msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:7
+msgid "I’m ready to sync devices"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:8
+msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgstr ""
+
+#: .es5/templates/pair/success.mustache:2
+msgid "Device successfully paired"
+msgstr "Gailua ondo parekatuta"
+
+#: .es5/templates/pair/success.mustache:3
+msgid "Pairing was successful."
+msgstr "Parekatzea ondo egin da."
+
+#: .es5/templates/pair/supp_allow.mustache:1
+msgid "Confirm pairing <small>for %(email)s</small>"
+msgstr "Berretsi <small>%(email)s helbidea</small> parekatzea"
+
+#: .es5/templates/pair/supp_allow.mustache:2
+msgid "Confirm pairing"
+msgstr "Berretsi parekatzea"
+
+#: .es5/templates/pair/unsupported.mustache:1
+msgid "Pair using an app"
+msgstr "Parekatzea aplikazioa erabiliz"
+
+#: .es5/templates/pair/unsupported.mustache:2
+msgid "Did you use the system camera? You must pair from within a Firefox app."
+msgstr "Sistemako kamera darabilzu? Firefox aplikazio batetik parekatu behar duzu."
+
+#~ msgid "Primary email verified"
+#~ msgstr "Helbide elektroniko nagusia egiaztatuta"
+
+#~ msgid "Secondary email verified"
+#~ msgstr "Bigarren helbide elektronikoa egiaztatuta"
+
+#~ msgid "Account verified"
+#~ msgstr "Kontua egiaztatuta"
+
+#~ msgid "Verification link expired"
+#~ msgstr "Egiaztapen-lotura iraungita"
+
+#~ msgid "Click here to receive a new verification link"
+#~ msgstr "Egin klik hemen egiaztatzeko lotura berri bat jasotzeko"
+
+#~ msgid "Verification error"
+#~ msgstr "Egiaztatze-errorea"
+
+#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Egiaztatu zure posta elektronikoa %(escapedEmail)s helbidera bidalitako egiaztapen-loturarako"
+
+#~ msgid "Email verified"
+#~ msgstr "Helbide elektronikoa egiaztatuta"
+
+#~ msgid "Verified"
+#~ msgstr "Egiaztatuta"
+
+#~ msgid "Verify"
+#~ msgstr "Egiaztatu"
+
+#~ msgid "Enter verification code"
+#~ msgstr "Idatzi egiaztapen-kodea"
+
+#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
+#~ msgstr "5 minuturen buruan idatzi %(escapedEmail)s helbidera bidalitako egiaztapen-kodea."
+
+#~ msgid "Logins and Passwords"
+#~ msgstr "Saio-hasierak eta pasahitzak"
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+#~ msgstr "Jarraituz gero, <a id=\"fxa-tos\" href=\"/legal/terms\">zerbitzuaren baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\">pribatutasun-oharra</a> onartzen dituzu."
+
+#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
+#~ msgstr "Gutxieneko adin bat izan behar duzu Firefox kontu bat sortzeko."
+
+#~ msgid "Check your email for the code sent to %(email)s."
+#~ msgstr "Egiaztatu zure posta-elektronikoa %(email)s helbidera bidalitako egiaztapen-koderako."
+
+#~ msgid "Why is more than one device required?"
+#~ msgstr "Zergatik behar da gailu bat baino gehiago?"
+
+#~ msgid "Why sync multiple devices?"
+#~ msgstr "Zergatik sinkronizatu hainbat gailu?"
+
+#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
+#~ msgstr "Sinkronizazio zerbitzua ez da betirako segurtasun kopia bat, laster-markak, historia eta pasa-hitzak hainbat gailuetara bidaltzeko era segurua besterik ez da."
+
+#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
+#~ msgstr "Firefox eta Sync gutxienez bi gailutan instalatu behar duzu datuen galeraz babesteko, datuak berreskuratu behar badituzu edo pasahitza ahaztu baduzu."
+
+#~ msgid "Got it"
+#~ msgstr "Ulertuta"
+
+#~ msgid "One account, many services"
+#~ msgstr "Kontu bat, hainbat zerbitzu"
+
+#~ msgid "Firefox browser"
+#~ msgstr "Firefox nabigatzailea"
+
+#~ msgid "Sync your bookmarks, passwords, and more on every device."
+#~ msgstr "Sinkronizatu zure laster-markak, pasahitzak eta gehiago gailu guztietan."
+
+#~ msgid "Mozilla VPN"
+#~ msgstr "Mozilla VPN"
+
+#~ msgid "A VPN from the trusted pioneer in internet privacy."
+#~ msgstr "Interneteko pribatutasunean aitzindari fidagarriak direnen VPN zerbitzua."
+
+#~ msgid "Stay safe &mdash; don't reuse passwords."
+#~ msgstr "Mantendu seguru — ez berrerabili pasahitzak."
+
+#~ msgid "Must not be your email address"
+#~ msgstr "Ezin du zure helbide elektronikoa izan"
+
+#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
+#~ msgstr "Ezin du egon <a %(escapedCommonPasswordLinkAttrs)s>ohiko pasahitzen zerrendan</a>"
+
+#~ msgid "Approve new device <small>for %(email)s</small>"
+#~ msgstr "Onartu gailu berria <small>%(email)s helbiderako</small>"
+
+#~ msgid "Approve device"
+#~ msgstr "Onartu gailua"
+
+#~ msgid "You are now syncing with:"
+#~ msgstr "Orain honekin sinkronizatzen ari zara:"
+
+#~ msgid "Scan to connect another device"
+#~ msgstr "Eskaneatu beste gailu bat konektatzeko"
+
+#~ msgid "Open the code scanner on your Firefox app and show code when ready."
+#~ msgstr "Ireki kode-eskanerra zure Firefox aplikazioan eta prest dagoenean, erakutsi kodea."
+
+#~ msgid "Show code"
+#~ msgstr "Erakutsi kodea"
+
+#~ msgid "Mobile phone number"
+#~ msgstr "Mugikorreko telefono-zenbakia"
+
+#~ msgid "Not now"
+#~ msgstr "Orain ez"
+
+#~ msgid "Wrong number?"
+#~ msgstr "Zenbaki okerra?"
+
+#~ msgid "Didn't arrive? Resend"
+#~ msgstr "Ez da iritsi? Birbidali"
+
+#~ msgid "Why sign in on another device?"
+#~ msgstr "Zergatik hasi saioa beste gailu batean?"
+
+#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
+#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Laguntza</a>"
+
+#~ msgid "Firefox Lockwise"
+#~ msgstr "Firefox Lockwise"
+
+#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
+#~ msgstr "Firefoxen gordetako pasahitzetarako sarbide segurua edonondik &mdash; bai eta nabigatzailetik kanpo ere."
+
+#~ msgid "Firefox Monitor"
+#~ msgstr "Firefox Monitor"
+
+#~ msgid "Get a lookout for data breaches."
+#~ msgstr "Lortu datu-urratzeen talaia bat."
+
+#~ msgid ""
+#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
+#~ "encrypt your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>GOGORATU:</span> Pasahitza berrezartzean, zure kontua berrezarriko da. Zure informazio pertsonala gal dezakezu (historia, laster-markak eta pasahitzak barne). Hau zure pribatutasuna "
+#~ "babesteko enkriptatzean zure pasahitza erabiltzen delako gertatzen da."
+
+#~ msgid ""
+#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
+#~ "your data with your password to protect your privacy."
+#~ msgstr ""
+#~ "<span>OHARRA:</span> Pasahitza berrezartzean, zure kontua berrezarriko da. Zure informazio pertsonala gal dezakezu (historia, laster-markak eta pasahitzak barne). Hau zure pribatutasuna "
+#~ "babesteko enkriptatzean zure pasahitza erabiltzen delako gertatzen da."
+
+#~ msgid "Change..."
+#~ msgstr "Aldatu..."
+
+#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
+#~ msgstr "Behin amaituta, erabili pasahitz berria zure gailu guztietan saioa hasteko."
+
+#~ msgid "Change"
+#~ msgstr "Aldatu"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Pasahitza ondo aldatu da"
+
+#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
+#~ msgstr ""
+#~ "Hau entzuteak triste egiten gaitu. Firefox kontuaren pasahitza aldatu beharko zenuke eta zure gailuaren fabrikatzailearengandik informazioa eskuratu zure datuak urrunetik ezabatzearen inguruan."
+
+#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
+#~ msgstr "Hau entzuteak triste egiten gaitu. Hau fidagarrian ez den gailu bat bada, zure Firefox kontuko pasahitza eta Firefoxen gordeak zeneukan pasahitz guztiak aldatu beharko zenituzke."
+
+#~ msgid "Last active %(translatedTimeAgo)s"
+#~ msgstr "Azken aldiz aktibo %(translatedTimeAgo)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s"
+#~ msgstr "Azken aldiz aktibo %(translatedTimeAgo)s baino gehiago"
+
+#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Azkenengoz aktibo %(translatedTimeAgo)s dela, tokia: %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Azkenengoz aktibo %(translatedTimeAgo)s baino gehiago, tokia: %(translatedCountry)s"
+
+#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Azkenengoz aktibo %(translatedTimeAgo)s dela, hemendik gertu: %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Azkenengoz aktibo %(translatedTimeAgo)s baino hehiago, hemendik gertu: %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s"
+
+#~ msgid "Over %(translatedTimeAgo)s"
+#~ msgstr "%(translatedTimeAgo)s baino gehiago"
+
+#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s dela, hemen: %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s baino gehiago, hemen: %(translatedCountry)s"
+
+#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s dela, hemendik gertu: %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "%(translatedTimeAgo)s baino gehiago, hemendik gertu: %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Web Session, %(userAgent)s"
+#~ msgstr "Web saioa, %(userAgent)s"
+
+#~ msgid "Web Session"
+#~ msgstr "Web saioa"
+
+#~ msgid "Change…"
+#~ msgstr "Aldatu…"
+
+#~ msgid "Add…"
+#~ msgstr "Gehitu…"
+
+#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
+#~ msgstr "Aukeratu Firefoxen eta zure kontua kudeatzean agertzea nahi duzun izena."
+
+#~ msgid "Display name updated"
+#~ msgstr "Bistaratze-izena eguneratua"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Helbide elektronikoa alternatiboa kenduta"
+
+#~ msgid "Verification email sent"
+#~ msgstr "Egiaztapen-posta bidalita"
+
+#~ msgid "Primary email set to %(email)s"
+#~ msgstr "Helbide elektroniko nagusia %(email)s helbidera ezarrita"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Sortu dira berreskuratze kode berriak"
+
+#~ msgid "Two-step authentication removed"
+#~ msgstr "Bi urratseko autentifikazioa kendu da"
+
+#~ msgid "Two-step Authentication"
+#~ msgstr "Bi urratseko autentifikazioa"
+
+#~ msgid "Account Recovery"
+#~ msgstr "Kontua berreskuratzea"
+
+#~ msgid "Account recovery revoked"
+#~ msgstr "Kontu berreskuratzea indargabetua"
+
+#~ msgid "Sign out"
+#~ msgstr "Amaitu saioa"
+
+#~ msgid "Take picture"
+#~ msgstr "Hartu argazkia"
+
+#~ msgid "Upload"
+#~ msgstr "Igo"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
+
+#~ msgid "Clear"
+#~ msgstr "Garbitu"
+
+#~ msgid "Avatar"
+#~ msgstr "Avatarra"
+
+#~ msgid "Position and rotate your picture as needed"
+#~ msgstr "Kokatu eta biratu zure argazkia zure beharren arabera"
+
+#~ msgid "Disconnect from Sync"
+#~ msgstr "Deskonektatu Sync-etik"
+
+#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
+#~ msgstr "Zure nabigazio-datuak %(deviceName)s gailuan mantenduko dira baina hemendik aurrera ez dira zure kontuarekin sinkronizatuko."
+
+#~ msgid "Suspicious"
+#~ msgstr "Susmagarria"
+
+#~ msgid "Lost or stolen"
+#~ msgstr "Galduta edo lapurtuta"
+
+#~ msgid "Old or replaced"
+#~ msgstr "Zaharra edo ordezkatua"
+
+#~ msgid "Duplicate"
+#~ msgstr "Bikoiztua"
+
+#~ msgid "Rather not say"
+#~ msgstr "Nahiago dut ez esan"
+
+#~ msgid "Disconnect"
+#~ msgstr "Deskonektatu"
+
+#~ msgid "Disconnection Successful"
+#~ msgstr "Ondo deskonektatu da"
+
+#~ msgid "Devices & apps"
+#~ msgstr "Gailuak eta aplikazioak"
+
+#~ msgid "Show"
+#~ msgstr "Erakutsi"
+
+#~ msgid "Current device"
+#~ msgstr "Uneko gailua"
+
+#~ msgid "Disconnect…"
+#~ msgstr "Deskonektatu…"
+
+#~ msgid "Current session"
+#~ msgstr "Uneko saioa"
+
+#~ msgid "Revoke"
+#~ msgstr "Baliogabetu"
+
+#~ msgid "Firefox for iOS"
+#~ msgstr "iOSerako Firefox"
+
+#~ msgid "None connected"
+#~ msgstr "Bat ere ez konektatuta"
+
+#~ msgid "Firefox for Android"
+#~ msgstr "Androiderako Firefox"
+
+#~ msgid "Missing or duplicate items?"
+#~ msgstr "Faltan edo bikoiztutako elementuak?"
+
+#~ msgid "Refresh status"
+#~ msgstr "Berritu egoera"
+
+#~ msgid "Email preferences"
+#~ msgstr "Posta-hobespenak"
+
+#~ msgid "Delete account"
+#~ msgstr "Ezabatu kontua"
+
+#~ msgid "Delete…"
+#~ msgstr "Ezabatu…"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
+#~ msgstr "Segurtasun-abisuak jasotzeko eta gailu berriak berresteko helbide gehigarria da helbide elektroniko alternatiboa."
+
+#~ msgid "Verification required"
+#~ msgstr "Egiaztapena behar da"
+
+#~ msgid "Make primary"
+#~ msgstr "Bihurtu nagusi"
+
+#~ msgid "Remove"
+#~ msgstr "Kendu"
+
+#~ msgid "Refresh"
+#~ msgstr "Freskatu"
+
+#~ msgid "Add"
+#~ msgstr "Gehitu"
+
+#~ msgid "NOTE:"
+#~ msgstr "OHARRA:"
+
+#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
+#~ msgstr "Berreskuratze kode berriak sortzean, aurreko kode guztiak baliogabetzen dira. Mesedez gorde kode berriak leku babestuan."
+
+#~ msgid "Generate new recovery codes"
+#~ msgstr "Sortu berreskuratze kode berriak"
+
+#~ msgid "Confirm a recovery code"
+#~ msgstr "Berretsi berreskuratze-kodea"
+
+#~ msgid "Manage…"
+#~ msgstr "Kudeatu…"
+
+#~ msgid "Two-step authentication"
+#~ msgstr "Bi urratseko autentifikazioa"
+
+#~ msgid "Enable…"
+#~ msgstr "Gaitu…"
+
+#~ msgid "Current status"
+#~ msgstr "Uneko egoera"
+
+#~ msgid "Enabled"
+#~ msgstr "Gaituta"
+
+#~ msgid "Disabled"
+#~ msgstr "Desgaituta"
+
+#~ msgid "Disable"
+#~ msgstr "Desgaitu"
+
+#~ msgid "Enable"
+#~ msgstr "Gaitu"
+
+#~ msgid "Replace recovery codes"
+#~ msgstr "Ordezkatu berreskuratze kodeak"
+
+#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
+#~ msgstr "Atal hau erakutsi edo bertan aldaketak egin aurretik zuk zure helbide elektronikoa egiaztatu beharko duzu."
+
+#~ msgid "Primary email"
+#~ msgstr "E-posta nagusia"
+
+#~ msgid "Account recovery"
+#~ msgstr "Kontua berreskuratzea"
+
+#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
+#~ msgstr "Sortu berreskuratze gako sarbidea lortzeko berriz Zure Firefox laster-marka, pasahitz eta sinkronizatutako datuetara pasahitza ahaztuz gero."
+
+#~ msgid "Recovery key"
+#~ msgstr "Berreskuratze gakoa"
+
+#~ msgid "Not set"
+#~ msgstr "Ezarri gabe"
+
+#~ msgid "Generate"
+#~ msgstr "Sortu"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
+#~ "more</a>"
+#~ msgstr ""
+#~ "<span class=\"note\">OHARRA: </span>Zure Firefox kontuko pasahitzak zure datuak enkriptatzen ditu. Zure pasahitzaz edo berreskuratze gakoaz dago sarbidea zure datuetara.<a "
+#~ "%(escapedLearnMoreLinkAttributes)s>Ikasi gehiago</a>"
+
+#~ msgid "Are you sure you want to revoke?"
+#~ msgstr "Ziur zaude atzera bota nahi duzula?"
+
+#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
+#~ msgstr "Gerora ezingo duzu erabili zure berreskuratze gakoa zure datuetara sarbidea lortzeko zure pasahitza berrezartzen baduzu."
+
+#~ msgid "Step 2 of 2: Save Recovery key"
+#~ msgstr "2 pausoa 2tik: Gorde berreskuratze gakoa"
+
+#~ msgid ""
+#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
+#~ msgstr ""
+#~ "<span class=\"note\">OHARRA: </span>Zure pasahitza galduz gero, gako hau eskatuko da zure datuetara sarbidea emateko. Gorde zure berreskuratze gakoa leku seguruan, gerora zuk erraz bilatuko duzu "
+#~ "batean."
+
+#~ msgid "Done, Recovery key saved"
+#~ msgstr "Egina, berreskuratze gakoa gordeta"
+
+#~ msgid "Please Select One"
+#~ msgstr "Hautatu bat mesedez"
+
+#~ msgid "Firefox Send"
+#~ msgstr "Firefox Send"
+
+#~ msgid "General inquiries"
+#~ msgstr "Kontsulta orokorrak"
+
+#~ msgid "Connection issues"
+#~ msgstr "Konexio-arazoak"
+
+#~ msgid "Getting started"
+#~ msgstr "Nola hasi"
+
+#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
+#~ msgstr "Bidali Firefox zuzenean zure telefonora eta hasi saioa konfigurazioa amaitzeko"
+
+#~ msgid ""
+#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "SMS zerbitzua herrialde batzuetan bakarrik dabil. SMS eta datuengatik karguak egon daitezke. Mezu edo SMS hartzaileak bere baimena eman behar du. <a %(escapedLearnMoreAttributes)s>Argibide "
+#~ "gehiago</a>"
+
+#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
+#~ msgstr "Kontua badago lehendik ere. <a href=\"/signin\">Hasi saioa</a>"
+
+#~ msgid "Last sync %(translatedTimeAgo)s"
+#~ msgstr "Azken sinkronizazioa: %(translatedTimeAgo)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s"
+#~ msgstr "Azken sinkronizazioa %(translatedTimeAgo)s baino gehiago"
+
+#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Azken sinkronizazioa %(translatedTimeAgo)s dela, tokia: %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
+#~ msgstr "Azken sinkronizazioa, %(translatedTimeAgo)s baino zaharragoa, hemen: %(translatedCountry)s"
+
+#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Azken sinkronizazioa %(translatedTimeAgo)s dela, hemendik gertu: %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+#~ msgstr "Azken sinkronizazioa %(translatedTimeAgo)s baino gehiago eta hemendik gertu: %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
+
+#~ msgid "Last sync time unknown"
+#~ msgstr "Azken sinkronizazio-unea ezezaguna"
+
+#~ msgid "Subscribed successfully"
+#~ msgstr "Arrakastaz harpidetua"
+
+#~ msgid "Open tabs"
+#~ msgstr "Ireki fitxak"
+
+#~ msgid "Logins"
+#~ msgstr "Saio-hasierak"
+
+#~ msgid "Credit cards"
+#~ msgstr "Kreditu-txartelak"
+
+#~ msgid "Firefox Sync"
+#~ msgstr "Firefox Sync"
+
+#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
+#~ msgstr "<span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span> esan nahi zenuen?"
+
+#~ msgid "Please try again later"
+#~ msgstr "Saiatu berriro geroago"
+
+#~ msgid "Service unavailable, try again soon"
+#~ msgstr "Zerbitzua ez dago erabilgarri, saiatu berrio beranduago"
+
+#~ msgid "Save selections"
+#~ msgstr "Gorde hautapenak"
+
+#~ msgid "Sign in to continue"
+#~ msgstr "Hasi saioa jarraitzeko"
+
+#~ msgid "Create an account"
+#~ msgstr "Sortu kontua"
+
+#~ msgid "Use security code"
+#~ msgstr "Erabili segurtasun-kodea"
+
+#~ msgid "Enter code"
+#~ msgstr "Sartu kodea"
+
+#~ msgid "Use recovery code"
+#~ msgstr "Erabili berreskuratze kodea"
+
+#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
+#~ msgstr "Ez galdu pasahitza. Berrezarri behar baduzu, Sync datuak gal ditzakezu."
+
+#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
+#~ msgstr "<span>Ez berrerabili ePosta pasahitza</span>norbaitek zure ePosta pasahitza jakingo balu, gailu berri baten Firefox saioa hasi ahalko luke eta zure datuetara sarbidea izan."
+
+#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "<span>Gogoratu zure pasahitza</span>zure pasahitza berrezarri behar baduzu, zure inongo gailutan gordea ez dagoen Sync datuak galduko dituzu."
+
+#~ msgid "Have an account? Sign in"
+#~ msgstr "Baduzu kontua? Hasi saioa"
+
+#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
+#~ msgstr "Inatalatu Firefox zure telefonoan eta hasi saioa konfigurazioa amaitzeko"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Aplikazioaren lotura hona bidali da: %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s> okerreko zenbakia?</a>"
+
+#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
+#~ msgstr "Aplikazioaren lotura hona birbidali da: %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s> okerreko zenbakia?</a>"
+
+#~ msgid "If you are not receiving the text message, you can also download the apps manually."
+#~ msgstr "Ez baduzu testu mezua jaso, eskuz ere jaitsi dezakezu aplikazioa."
+
+#~ msgid "Disconnect from Sync?"
+#~ msgstr "Sync-etik deskonektatu?"
+
+#~ msgid "Suspicious device"
+#~ msgstr "Gailu susmagarria"
+
+#~ msgid "Lost or stolen device"
+#~ msgstr "Galdu edo lapurtutako gailua"
+
+#~ msgid "Old or replaced device"
+#~ msgstr "Ordezkatutako gailua edo zaharra"
+
+#~ msgid "Duplicate device"
+#~ msgstr "Bikoiztu gailua"
+
+#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
+#~ msgstr ""
+#~ "Komunikazioak jasoko dituzu zure kontuaren segurtasunaren ingurukoak, gure politiken aldaketenak, zure kontuko funtzionaltasunenak eta hasierako eposta zure Firefox kontuari ahalik eta etekin "
+#~ "handiena ateratzeko."
+
+#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
+#~ msgstr "Honez gain, sustapen postetara harpidetu zintezke Mozilla eta Firefox inguruko azken berriak jasotzeko."
+
+#~ msgid "Subscribe"
+#~ msgstr "Harpidetu"
+
+#~ msgid ""
+#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
+#~ "may lose access to it everywhere."
+#~ msgstr ""
+#~ "AMO, Pocket edo pantaila-argazkia zerbitzuak bezalako Mozilla aplikazioetarako erabiltzen baduzu kontua lehenik saioa hasi eta gordetako informazio pertsonal guztia ezabatu beharko duzu. Behin "
+#~ "hemen zure kontua ezabatuta toki guztietarako sarbidea gal dezakezu."
+
+#~ msgid "verified"
+#~ msgstr "egiaztatuta"
+
+#~ msgid "verification required"
+#~ msgstr "egiaztapena behar da"
+
+#~ msgid "Recovery codes"
+#~ msgstr "Berreskuratu kodeak"
+
+#~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
+#~ msgstr "Hauek zure erabilera bakarreko berreskuratze kodeak dira. Gorde leku babestuan zure mugikorrera sarbidea galtzen duzunerako. Kode hauek ez zaizkizu berriz erakutsiko."
+
+#~ msgid "Manually enter this secret key into your authentication app:"
+#~ msgstr "Sartu eskuz giltza sekretu hau zure autentifikazio-aplikazioan:"
+
+#~ msgid "Your Firefox Account password"
+#~ msgstr "Zure Firefox kontuaren pasahitza"
+
+#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
+#~ msgstr "Izan originala eta izan segurua &mdash; ez berrerabili pasahitz hau edonon."
+
+#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
+#~ msgstr "Gogoratu pasahitz hau &mdash; berrezarriz zure datuak ezabatuko direla gure zerbitzarietatik."
+
+#~ msgid "Get App"
+#~ msgstr "Eskuratu aplikazioa"
+
+#~ msgid "Get the most out of your account"
+#~ msgstr "Atera kontuari ahalik eta zuku gehiena"
+
+#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
+#~ msgstr ""
+#~ "Jarraituz gero, Firefoxen<a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">baldintzak</a>eta <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pribatutasun-oharra</a> onartzen "
+#~ "dituzu."
+
+#~ msgid "%(email)s registered."
+#~ msgstr "%(email)s erregistratuta."
+
+#~ msgid "Communication preferences"
+#~ msgstr "Komunikazio-hobespenak"
+
+#~ msgid "Manage Subscriptions"
+#~ msgstr "Kudeatu harpidetzak"
+
+#~ msgid "Refresh Status"
+#~ msgstr "Berritu egoera"
+
+#~ msgid "Approve connections <small>to begin syncing</small>"
+#~ msgstr "Onartu konexioak  <small>sinkronizatzen hasteko</small>"
+
+#~ msgid "Approve connection"
+#~ msgstr "Onartu konexioa"
+
+#~ msgid "Approve this connection <small>from this device</small>"
+#~ msgstr "Onartu konexio hau <small>gailu honentzat</small>"
+
+#~ msgid "Use a different email address"
+#~ msgstr "Erabili posta elektronikoa helbide ezberdina"
+
+#~ msgid "Sign in &rarr;"
+#~ msgstr "Hasi saioa &rarr;"
+
+#~ msgid "Attempting to pair"
+#~ msgstr "Parekatzea saiatzen"
+
+#~ msgid "Error connecting to remote device"
+#~ msgstr "Errorea urruneko gailura konektatzean"
+
+#~ msgid "Could not decrypt message from the remote device"
+#~ msgstr "Ezin desenkriptatu urruneko gailuaren mezua"
+
+#~ msgid "Save settings"
+#~ msgstr "Gorde ezarpenak"
+
+#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
+#~ msgstr "Firefox kontu ezezaguna. Zure gehigarrien datuetarako sarbidea izateko, <a href=\"/signup\">eman izena</a> aurrez zeneukan gehigarrien kontuko helbide elektronikoa erabiliz."
+
+#~ msgid "App link resent to %(phoneNumber)s"
+#~ msgstr "Aplikazio esteka birbidalia %(phoneNumber)s zenbakira"
+
+#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
+#~ msgstr "<a href=\"https://www.gravatar.com\">Gravatar</a>-en eskutik"
+
+#~ msgid "Unsubscribed successfully"
+#~ msgstr "Harpidetza arrakastaz etenda"
+
+#~ msgid "Email resent"
+#~ msgstr "Mezua berriro bidali da"
+
+#~ msgid "No Gravatar found"
+#~ msgstr "Ez da Gravatar-ik aurkitu"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
+#~ msgstr "<span tabindex=\"1\">%(escapedDomain)s</span>esan nahi zenuen?"
+
+#~ msgid "Resources failed to load"
+#~ msgstr "Huts egin du baliabideak kargatzerakoan"
+
+#~ msgid "Unexpected resource error"
+#~ msgstr "Espero gabeko baliabide-errorea"
+
+#~ msgid "Script error"
+#~ msgstr "Script errorea"
+
+#~ msgid "SMS sent"
+#~ msgstr "SMSa bidalita"
+
+#~ msgid "Your number has been blocked"
+#~ msgstr "Zure zenbakia blokeatu egin da"
+
+#~ msgid "SMS not sent, please try again"
+#~ msgstr "SMSa ez da bidali, saiatu berriro mesedez"
+
+#~ msgid "Learn more."
+#~ msgstr "Argibide gehiago."
+
+#~ msgid "%(email)s created"
+#~ msgstr "%(email)s sortua"
+
+#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
+#~ msgstr "Gehigarriak eta hobespenak oraingoz ez dira sinkronizatzen gailu mugikorretan."
+
+#~ msgid "Click here to receive a new reset link"
+#~ msgstr "Egin klik hemen berrezartzeko lotura berri bat jasotzeko"
+
+#~ msgid "Enter new password"
+#~ msgstr "Sartu pasahitz berria"
+
+#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Behin zure pasahitz berria bidaltzen duzunean, zure gailuren batean ez dagoen Sync-eko informazio guztia galduko duzu."
+
+#~ msgid "Learn how Sync works."
+#~ msgstr "Ikasi nola funtzionatzen duen Sync-ek."
+
+#~ msgid "Submit new password"
+#~ msgstr "Bidali pasahitz berria"
+
+#~ msgid "Email Sent"
+#~ msgstr "Mezua bidali da"
+
+#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
+#~ msgstr "Egiaztatze-esteka bidali da helbide&nbsp;honetara:%(escapedEmail)s"
+
+#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
+#~ msgstr "Zure Firefox datuak hobeto babesteko berrespen esteka bidali dugu %(email)s postara"
+
+#~ msgid "Didn't arrive and not in spam folder? Resend"
+#~ msgstr "Ez da posta iritzi eta ez dago spam karpetan? Birbidali"
+
+#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
+#~ msgstr "Egin klik %(email)s helbidera bidali dizugun estekan hurrengo orduan zehar pasahitz berria sortzeko."
+
+#~ msgid "This device is connected"
+#~ msgstr "Gailu hau konektatua dago"
+
+#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
+#~ msgstr "Konfigurazioa osatzeko, ireki ezarpenak eta hautatu 'Hasi saioa Firefoxen'"
+
+#~ msgid "Why is this required?"
+#~ msgstr "Zergatik da hau beharrezkoa?"
+
+#~ msgid "Cookies and local storage are required."
+#~ msgstr "Cookie-ak eta biltegiratze lokala beharrezkoak dira."
+
+#~ msgid ""
+#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Jarraituz gero, Firefoxen hodeiko zerbitzuen <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">pribatutasun-"
+#~ "oharra</a> onartzen dituzu."
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Firefoxen hodeiko zerbitzuak"
+
+#~ msgid "Proceed"
+#~ msgstr "Jarraitu"
+
+#~ msgid "Reset account"
+#~ msgstr "Berrezarri kontua"
+
+#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
+#~ msgstr "Pasahitza berrezartzen duzunean, zure gailuren batean ez dagoen Sync-eko informazio guztia galduko duzu."
+
+#~ msgid "Remember password? Sign in."
+#~ msgstr "Pasahitza gogoratzen duzu? Hasi saioa."
+
+#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Zure gehigarrien datuak bilatzen? <a href=\"/signup\">Hasi saioa</a> Firefox kontuan zure gehigarrien helbide elektroniko zaharraz."
+
+#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
+#~ msgstr "Migratu sinkronizatutako zure informazioa Firefox&nbsp;Kontuan sartuz."
+
+#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
+#~ msgstr "Zure Firefox datuak hobeto babesteko, zure zain dago %(email)s posta helbidean baimentze kodea."
+
+#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
+#~ msgstr "Firefox Sync bila zabiltza?<a href=\"%(escapedSyncSuggestionUrl)s\">Hasi hemen</a>"
+
+#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
+#~ msgstr "Migratu sinkronizatutako zure informazioa Firefox&nbsp;Kontu berri bat sortuz."
+
+#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
+#~ msgstr "Zure gehigarrien datuak bilatzen? Hasi saioa Firefox kontuan zure gehigarrien helbide elektroniko zaharraz."
+
+#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
+#~ msgstr "Pasahitz bakar eta indartsu batek zure Firefox datuak babestuko ditu arrotzengandik."
+
+#~ msgid "Receive the monthly Firefox newsletter"
+#~ msgstr "Jaso hileroko Firefox buletina"
+
+#~ msgid ""
+#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
+#~ msgstr ""
+#~ "SMS zerbitzua Estatu Batuetako zenbakiek bakarrik. SMS eta datuengatik karguak egon daitezke. Mezu edo SMS hartzaileak bere baimena eman behar du. <a %(escapedLearnMoreAttributes)s>Argibide "
+#~ "gehiago</a>"
+
+#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
+#~ msgstr "Aplikazioaren lotura hona bidali da: %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s> okerreko zenbakia?</a>"
+
+#~ msgid "Why Sync two (or more!) devices?"
+#~ msgstr "Zergatik sinkronizatu bi (edo gehiago!) gailu?"
+
+#~ msgid "Gravatar"
+#~ msgstr "Gravatar-a"
+
+#~ msgid "Save"
+#~ msgstr "Gorde"
+
+#~ msgid "current device"
+#~ msgstr "uneko gailua"
+
+#~ msgid "current session"
+#~ msgstr "uneko saioa"
+
+#~ msgid "none connected"
+#~ msgstr "bat ere ez konektatuta"
+
+#~ msgid "Receive the monthly Firefox newsletter."
+#~ msgstr "Jaso hileroko Firefox buletina."
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Kendu harpidetza"
+
+#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
+#~ msgstr "Ziur zaude zure kontua ezabatu nahi duzula? Ekintza hau ezin da desegin."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Hasi saioa Sync-en"
+
+#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
+#~ msgstr "Aukeratu zure fitxak, laster-markak, pasahitzak eta gehiago sinkronizatzeko erabili nahi duzun kontua."
+
+#~ msgid "Use OpenID"
+#~ msgstr "Erabili OpenID"
+
+#~ msgid "Use Firefox Account"
+#~ msgstr "Erabili Firefox Kontua"
+
+#~ msgid "first sync %(translatedTimeAgo)s"
+#~ msgstr "lehen sinkronizazioa %(translatedTimeAgo)s"
+
+#~ msgid "last sync %(translatedTimeAgo)s"
+#~ msgstr "azken sinkronizazioa %(translatedTimeAgo)s"
+
+#~ msgid "last active %(translatedTimeAgo)s"
+#~ msgstr "azken aldiz aktibo %(translatedTimeAgo)s"
+
+#~ msgid "last sync time unknown"
+#~ msgstr "azken sinkronizazio-unea ezezaguna"
+
+#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
+#~ msgstr "%(escapedEmail)s erregistratuta dago lehendik ere. <a %(escapedBackLinkParams)s>Helbidea gaizki idatzi duzu?</a>"
+
+#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
+#~ msgstr "Egiaztatu zure posta-elektronikoa %(email)s helbidera bidalitako berrespen-loturarako"
+
+#~ msgid "Signin confirmed"
+#~ msgstr "Saio-hasiera berretsita"
+
+#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
+#~ msgstr "Kontuaren jakinarazpenak %(secondaryEmailVerified)s helbidera ere bidaliko dira hemendik aurrera"
+
+#~ msgid "We may send you emails related to your Firefox Account."
+#~ msgstr "Zure Firefox kontuaz erlazionatutako mezuak bidali ahal dizugu."
+
+#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
+#~ msgstr "Honez gain, zuk aukera dezakezu noiz eta nola jaso Mozilla eta Firefoxen azken berriak."
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
+#~ msgstr "Segurtasun-abisuak jasotzeko eta Sync gailuak berresteko helbide gehigarria da helbide elektroniko alternatiboa."
+
+#~ msgid "Not in inbox or spam folder? Resend?"
+#~ msgstr "Ez dago sarrera-ontzian edo spam karpetan? Bidali berriro?"
+
+#~ msgid "Codes copied"
+#~ msgstr "Kodeak kopiatuta"
+
+#~ msgid "Failed to copy codes. Please manually copy them."
+#~ msgstr "Huts egin du kodeak kopiatzean. Kopia itzazu eskuz mesedez."
+
+#~ msgid "Invalid sign-in verification code"
+#~ msgstr "Saio hasiera egiaztatze kode baliogabea"
+
+#~ msgid "Print button image"
+#~ msgstr "Inprimatu azpiko irudia"
+
+#~ msgid "Download button image"
+#~ msgstr "Deskargatu azpiko irudia"
+
+#~ msgid "Sign in to continue."
+#~ msgstr "Hasi saioa jarraitzeko."
+
+#~ msgctxt "submit button"
+#~ msgid "Sign in"
+#~ msgstr "Hasi saioa"
+
+#~ msgctxt "header text"
+#~ msgid "Sign in"
+#~ msgstr "Hasi saioa"
+
+#~ msgctxt "button text"
+#~ msgid "Sign in"
+#~ msgstr "Hasi saioa"
+
+#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
+#~ msgstr "Segurtasun-abisuak jasotzeko eta Sync gailuak berresteko helbide gehigarria da helbide elektroniko alternatiboa"
+
+#~ msgid "Unlock…"
+#~ msgstr "Desblokeatu…"
+
+#~ msgid "verify to unlock section"
+#~ msgstr "egiaztatu desblokeatze atala"
+
+#~ msgid "Reverify to unlock section"
+#~ msgstr "Berriro egiaztatu atala desblokeatzeko"
+
+#~ msgid "Verify password"
+#~ msgstr "Egiaztatu pasahitza"
+
+#~ msgid "Working???"
+#~ msgstr "Lanean???"
+
+#~ msgid "Change???"
+#~ msgstr "Aldatu???"
+
+#~ msgid "Add???"
+#~ msgstr "Gehitu???"
+
+#~ msgid "Disconnect???"
+#~ msgstr "Deskonektatu???"
+
+#~ msgid "Delete???"
+#~ msgstr "Ezabatu???"
+
+#~ msgid "Next"
+#~ msgstr "Hurrengoa"
+
+#~ msgid "Signed out successfully"
+#~ msgstr "Saioa ondo amaitu da"
+
+#~ msgid "Forgot password"
+#~ msgstr "Pasahitza ahaztu duzu?"
+
+#~ msgid "Firefox Sync will begin momentarily"
+#~ msgstr "Firefox Sync une batean hasiko da"
+
+#~ msgid "Devices"
+#~ msgstr "Gailuak"
+
+#~ msgid "Stay in sync on the go:"
+#~ msgstr "Mantendu sinkronizatuta:"
+
+#~ msgid "Get Firefox for Android"
+#~ msgstr "Eskuratu Androiderako Firefox"
+
+#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
+#~ msgstr "<span tabindex=\"1\">%(domain)s</span> esan nahi zenuen?"
+
+#~ msgid "A verification link has been sent&nbsp;to %(email)s"
+#~ msgstr "Egiaztatze-esteka bidali da helbide&nbsp;honetara: %(email)s"
+
+#~ msgid "Sync preferences"
+#~ msgstr "Sync-en hobespenak"
+
+#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
+#~ msgstr "Baduzu kontua helbide elektroniko ezberdin batekin? <a href=\"%(signinUri)s\">Hasi saioa</a>"
+
+#~ msgid "Delete"
+#~ msgstr "Ezabatu"
+
+#~ msgid "Attempt limit exceeded"
+#~ msgstr "Saiakeren muga gaindituta"
+
+#~ msgid "Tabs"
+#~ msgstr "Fitxak"
+
+#~ msgid "Resend email"
+#~ msgstr "Birbidali mezua"
+
+#~ msgid "Have an account? Sign in."
+#~ msgstr "Baduzu kontua? Hasi saioa."
+
+#~ msgid "days ago"
+#~ msgstr "egun lehenago"
+
+#~ msgid "hours ago"
+#~ msgstr "ordu lehenago"
+
+#~ msgid "minutes ago"
+#~ msgstr "minutu lehenago"
+
+#~ msgid "months ago"
+#~ msgstr "hilabete lehenago"
+
+#~ msgid "seconds ago"
+#~ msgstr "segundo lehenago"
+
+#~ msgid "weeks ago"
+#~ msgstr "aste lehenago"
+
+#~ msgid "years ago"
+#~ msgstr "urte lehenago"
+
+#~ msgid "Account unlocked, please try again"
+#~ msgstr "Kontua desblokeatuta, saiatu berriro mesedez"
+
+#~ msgid "Account unlocked"
+#~ msgstr "Kontua desblokeatuta"
+
+#~ msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
+#~ msgstr "Kontua blokeatuta. <a href=\"/confirm_account_unlock\">BIdali desblokeatzeko mezua</a>"
+
+#~ msgid "Unlock link expired"
+#~ msgstr "Desblokeatzeko lotura iraungita"
+
+#~ msgid "Unlock link damaged"
+#~ msgstr "Desblokeatzeko lotura hondatuta"
+
+#~ msgid "Unlock error"
+#~ msgstr "Desblokeatze-errorea"
+
+#~ msgid "Unlock email sent"
+#~ msgstr "Desblokeatzeko mezua bidalita"
+
+#~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
+#~ msgstr ""
+#~ "Segurtasun arrazoiengatik, zure Firefoxeko kontua blokeatu egin da. Kontu mailako jarduerak burutzeko, egiaztatu berriro zure kontua %(email)s helbidera bidalitako egiaztapen-loturan klik eginez."
+
+#~ msgid "Signup has been disabled"
+#~ msgstr "Izena emateko aukera desgaitua izan da"
+
+#~ msgid "Welcome to Sync"
+#~ msgstr "Ongi etorri Sync-era"
+
+#~ msgid "Home"
+#~ msgstr "Hasiera-orria"
+
+#~ msgid "Missing parameter in request body: %(param)s"
+#~ msgstr "Parametroa falta da eskaeraren gorputzean: %(param)s"
+
+#~ msgid "Sign up"
+#~ msgstr "Eman izena"
+
+#~ msgid "/force_auth requires an email"
+#~ msgstr "/force_auth deiak helbide elektronikoa behar du"
+
+#~ msgid "A reset link has been sent to %(email)s"
+#~ msgstr "Berrezartze-esteka bidali da hona: %(email)s"
+
+#~ msgid "Cookies required"
+#~ msgstr "Cookieak behar dira"
+
+#~ msgid ""
+#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
+#~ "sessions."
+#~ msgstr ""
+#~ "Mesedez gaitu cookieak zure nabigatzailean; Firefoxeko kontuek behar dituzte. Nabigatzailean gordetzen diren datu puska txikiak dira cookieak eta saioen artean zu gogoratzea ahalbidetzen dute, "
+#~ "adibidez."
+
+#~ msgid "Firefox is coming soon to iOS!"
+#~ msgstr "Firefox iOS-era dator laster!"
+
+#~ msgid "Sign up to learn more"
+#~ msgstr "Eman izena argibide gehiago izateko"
+
+#~ msgid "1991"
+#~ msgstr "1991"
+
+#~ msgid "1992"
+#~ msgstr "1992"
+
+#~ msgid "1993"
+#~ msgstr "1993"
+
+#~ msgid "1994"
+#~ msgstr "1994"
+
+#~ msgid "1995"
+#~ msgstr "1995"
+
+#~ msgid "1996"
+#~ msgstr "1996"
+
+#~ msgid "1997"
+#~ msgstr "1997"
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "1999"
+#~ msgstr "1999"
+
+#~ msgid "2000"
+#~ msgstr "2000"
+
+#~ msgid "2001"
+#~ msgstr "2001"
+
+#~ msgid "2002"
+#~ msgstr "2002"
+
+#~ msgid "2003"
+#~ msgstr "2003"
+
+#~ msgid "2004"
+#~ msgstr "2004"
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "2006"
+#~ msgstr "2006"
+
+#~ msgid "2007"
+#~ msgstr "2007"
+
+#~ msgid "Year of birth required"
+#~ msgstr "Jaiotze-urtea behar da"
+
+#~ msgid "Valid birthday required"
+#~ msgstr "Baliozko jaiotze-data behar da"
+
+#~ msgid "Year of birth"
+#~ msgstr "Jaiotze-urtea"
+
+#~ msgid "1990 or earlier"
+#~ msgstr "1990 edo lehenago"
+
+#~ msgid "Month"
+#~ msgstr "Hilabetea"
+
+#~ msgid "January"
+#~ msgstr "Urtarrila"
+
+#~ msgid "February"
+#~ msgstr "Otsaila"
+
+#~ msgid "March"
+#~ msgstr "Martxoa"
+
+#~ msgid "April"
+#~ msgstr "Apirila"
+
+#~ msgid "May"
+#~ msgstr "Maiatza"
+
+#~ msgid "June"
+#~ msgstr "Ekaina"
+
+#~ msgid "July"
+#~ msgstr "Uztaila"
+
+#~ msgid "August"
+#~ msgstr "Abuztua"
+
+#~ msgid "September"
+#~ msgstr "Iraila"
+
+#~ msgid "October"
+#~ msgstr "Urria"
+
+#~ msgid "November"
+#~ msgstr "Azaroa"
+
+#~ msgid "December"
+#~ msgstr "Abendua"
+
+#~ msgid "Day"
+#~ msgstr "Eguna"
+
+#~ msgid "Manage account"
+#~ msgstr "Kudeatu kontua"
+
+#~ msgid "Edit profile"
+#~ msgstr "Editatu profila"
+
+#~ msgid "Name"
+#~ msgstr "Izena"
+
+#~ msgid "Enter your email to reset&nbsp;the account password."
+#~ msgstr "Idatzi zure helbide elektronikoa kontuaren pasahitza berrezartzeko."
+
+#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
+#~ msgstr "Segurtasun-arrazoiengatik, pasahitza berrezartzean zure sinkronizatutako datuak gure zerbitzarietatik ezabatu egingo dira. Babeskopia berri bat egingo da zure nabigatze-datu lokaletatik."
+
+#~ msgid "You are signed in as"
+#~ msgstr "Honela hasi duzu saioa:"
+
+#~ msgid "Already have an account? Sign in."
+#~ msgstr "Kontua baduzu? Hasi saioa."
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+#~ "(%(serviceUri)s)."
+#~ msgstr ""
+#~ "Jarraitzearekin bat, %(serviceName)s guneko (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Zerbitzuaren Baldintzak</a> eta <a id=\"service-pp\" href=\"%(privacyUri)s\">Pribatutasun-"
+#~ "oharra</a> onartzen ditut."
+
+#~ msgid ""
+#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
+#~ "Firefox cloud services."
+#~ msgstr ""
+#~ "Jarraitzearekin bat, Firefoxen hodeieko zerbitzuen <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">erabiltzeko baldintzak</a> eta <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex="
+#~ "\"-1\">pribatutasun-politika</a> onartzen ditudala berresten dut."
+
+#~ msgid "Subscribe to Firefox news and tips"
+#~ msgstr "Harpidetu Firefoxen berri eta iradokizunetara"
+
+#~ msgid "missing search parameter: %(itemName)s"
+#~ msgstr "bilaketa-parametroa falta da: %(itemName)s"
+
+#~ msgid "Once you're ???nished, use your new password to sign in on all of your devices."
+#~ msgstr "Amaitu ondoren, erabili pasahitz berria zure gailu guztietan saioa hasteko."
+
+#~ msgid "Password changed"
+#~ msgstr "Pasahitza aldatuta"
+
+#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
+#~ msgstr "Egiaztatu gabeko kontua. <a href=\"#\" id=\"resend\">Birbidali egiaztapen-mezua</a>."
+
+#~ msgid "Password reset. Sign in to continue."
+#~ msgstr "Pasahitza berrezarrita. Hasi saioa jarraitzeko."
+
+#~ msgid "Signed out"
+#~ msgstr "Saioa amaituta"
+
+#~ msgid "Paste image URL"
+#~ msgstr "Itsatsi irudiaren URLa"
+
+#~ msgid "Invalid password"
+#~ msgstr "Pasahitz baliogabea"
+
+#~ msgid "Invalid email and password"
+#~ msgstr "Helbide elektroniko eta pasahitz baliogabeak"
+
+#~ msgid "Invalid email or password"
+#~ msgstr "Helbide elektroniko edo pasahitz baliogabea"
+
+#~ msgid "Old password invalid"
+#~ msgstr "Pasahitz zaharra baliogabea da"
+
+#~ msgid "New password invalid"
+#~ msgstr "Pasahitz berria baliogabea da"
+
+#~ msgid "Passwords don't match"
+#~ msgstr "Pasahitzak ez datoz bat"
+
+#~ msgid "Please enter an email"
+#~ msgstr "Idatzi helbide elektronikoa"
+
+#~ msgid "Cannot connect to the internet"
+#~ msgstr "Ezin da Internetera kontektatu"
+
+#~ msgid "URL"
+#~ msgstr "URLa"
+
+#~ msgid "Signed in successfully"
+#~ msgstr "Saioa ondo hasi da"
+
+#~ msgid "Create a Firefox Account for %(serviceName)s"
+#~ msgstr "Sortu %(serviceName)s zerbitzurako Firefoxen kontua"
+
+#~ msgid "Change Password"
+#~ msgstr "Aldatu pasahitza"
+
+#~ msgid "Invalid authentication token in request signature"
+#~ msgstr "Autentifikazio-token baliogabea eskaeraren sinaduran"
+
+#~ msgid "No token specified"
+#~ msgstr "Ez da tokenik zehaztu"
+
+#~ msgid "No code specified"
+#~ msgstr "Ez da koderik zehaztu"
+
+#~ msgid "No email specified"
+#~ msgstr "Ez da helbide elektronikorik zehaztu"
+
+#~ msgid "No uid specified"
+#~ msgstr "Ez da uid-rik zehaztu"
+
+#~ msgid "Service unavailable"
+#~ msgstr "Zerbitzua ez dago erabilgarri"
+
+#~ msgid "Completing sign up"
+#~ msgstr "Erregistroa osatzen"
+
+#~ msgid "Client has sent too many requests"
+#~ msgstr "Bezeroak eskaera gehiegi bidali ditu"
+
+#~ msgid "Delete Account"
+#~ msgstr "Ezabatu kontua"

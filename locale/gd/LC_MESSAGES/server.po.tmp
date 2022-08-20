@@ -1,0 +1,790 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
+"PO-Revision-Date: 2021-06-30 15:45+0000\n"
+"Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
+"X-Generator: Pontoon\n"
+
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+msgid "Firefox Accounts"
+msgstr "Cunntasan Firefox"
+
+#: server/templates/pages/src/404.html:2
+msgid "Page not found"
+msgstr "Cha deach an duilleag a lorg"
+
+#: server/templates/pages/src/404.html:3
+msgid ""
+"The page you requested is not found. We've been notified and\n"
+"          will fix any links that may be broken."
+msgstr ""
+
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+msgid "Home"
+msgstr "Dhachaigh"
+
+#: server/templates/pages/src/500.html:2
+msgid "500 Error"
+msgstr "Mearachd 500"
+
+#: server/templates/pages/src/500.html:3 server/templates/pages/src/502.html:3
+msgid ""
+"Oh dear, something went wrong there. We've been notified and\n"
+"          will get working on a fix."
+msgstr ""
+
+#: server/templates/pages/src/502.html:2
+msgid "502 Error"
+msgstr "Mearachd 502"
+
+#: server/templates/pages/src/503.html:2
+msgid "Server busy, try again soon"
+msgstr "Tha am frithealaiche trang, feuch ris a-rithist an ceann greis"
+
+#: server/templates/pages/src/503.html:3
+msgid ""
+"We are currently under heavy strain and are working to return\n"
+"          the system to normal as soon as possible."
+msgstr ""
+
+#: server/templates/pages/src/index.html:2
+msgid "Loading"
+msgstr "’Ga luchdadh"
+
+#: server/templates/pages/src/index.html:3
+msgid "Firefox Accounts requires JavaScript."
+msgstr "Feumaidh cunntasan Firefox JavaScript."
+
+#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+msgid "Privacy Notice"
+msgstr "Aithris na prìobhaideachd"
+
+#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+msgid "Terms of Service"
+msgstr "Teirmichean na seirbheise"
+
+#: server/templates/pages/src/update_firefox.html:2
+msgid "Firefox update required"
+msgstr "Tha Firefox feumach air ùrachadh"
+
+#: server/templates/pages/src/update_firefox.html:3
+msgid ""
+"Firefox Accounts makes use of features that are\n"
+"                        not supported in your version of Firefox. Please\n"
+"                        download and install the latest version of Firefox to\n"
+"                        continue."
+msgstr ""
+
+#: server/templates/pages/src/update_firefox.html:4
+msgid "Download latest"
+msgstr "Luchdaich a-nuas an tionndadh as ùire"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s %(uaOSVersion)s"
+#~ msgstr "%(uaBrowser)s air %(uaOS)s %(uaOSVersion)s"
+
+#~ msgid "%(uaBrowser)s on %(uaOS)s"
+#~ msgstr "%(uaBrowser)s air %(uaOS)s"
+
+#~ msgid "%(city)s, %(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(stateCode)s, %(country)s (tuairmeas)"
+
+#~ msgid "%(city)s, %(country)s (estimated)"
+#~ msgstr "%(city)s, %(country)s (tuairmeas)"
+
+#~ msgid "%(stateCode)s, %(country)s (estimated)"
+#~ msgstr "%(stateCode)s, %(country)s (tuairmeas)"
+
+#~ msgid "%(country)s (estimated)"
+#~ msgstr "%(country)s (tuairmeas)"
+
+#~ msgid "Verification code: %(code)s"
+#~ msgstr "Còd dearbhaidh: %(code)s"
+
+#~ msgid "Confirm email"
+#~ msgstr "Dearbh am post-d"
+
+#~ msgid "Confirm new sign-in to %(clientName)s"
+#~ msgstr "Dearbh an clàradh a-steach ùr o %(clientName)s"
+
+#~ msgid "Confirm sign-in"
+#~ msgstr "Dearbh an clàradh a-steach"
+
+#~ msgid "Confirm primary email"
+#~ msgstr "Dearbh am prìomh phost-d"
+
+#~ msgid "Verify email"
+#~ msgstr "Dearbh am post-d"
+
+#~ msgid "Confirm secondary email"
+#~ msgstr "Dearbh am post-d eile"
+
+#~ msgid "Create new password"
+#~ msgstr "Cruthaich facal-faire ùr"
+
+#~ msgid "Manage account"
+#~ msgstr "Stiùirich an cunntas"
+
+#~ msgid "New sign-in to %(clientName)s"
+#~ msgstr "Clàradh a-steach gu %(clientName)s"
+
+#~ msgid "Secondary email added"
+#~ msgstr "Chaidh post-d dàrnach a chur ris"
+
+#~ msgid "Secondary email removed"
+#~ msgstr "Chaidh am post-d dàrnach a thoirt air falbh"
+
+#~ msgid "Two-step authentication enabled"
+#~ msgstr "Tha an dearbhadh dà-cheumnach an comas"
+
+#~ msgid "New recovery codes generated"
+#~ msgstr "Chaidh còdan aisig ùra a ghintinn"
+
+#~ msgid "Generate codes"
+#~ msgstr "Gin còdan"
+
+#~ msgid "Account recovery key generated"
+#~ msgstr "Chaidh iuchair aiseag a’ chunntais a ghintinn"
+
+#~ msgid "Account recovery key removed"
+#~ msgstr "Chaidh iuchair aiseag a’ chunntais a thoirt air falbh"
+
+#~ msgid "Create new recovery key"
+#~ msgstr "Cruthaich iuchair aisig ùr"
+
+#~ msgid "Low recovery codes remaining"
+#~ msgstr "Chan eil mòran chòdan aisig air fhàgail agad"
+
+#~ msgid "We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Mhothaich sinn nach eil mòran chòdan aisig air fhàgail agad. Nach gin thu feadhainn gus nach dèid do ghlasadh a-mach às a’ chunntas agad?"
+
+#~ msgid "We have noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account."
+#~ msgstr "Mhothaich sinn nach eil mòran chòdan aisig air fhàgail agad. Nach gin thu feadhainn gus nach dèid do ghlasadh a-mach às a’ chunntas agad?"
+
+#~ msgid "Generate codes:"
+#~ msgstr "Gin còdan:"
+
+#~ msgid "Best,"
+#~ msgstr "le gach deagh-dhùrachd,"
+
+#~ msgid "The Firefox Accounts team"
+#~ msgstr "Sgioba nan cunntasan Firefox"
+
+#~ msgid "Password changed successfully"
+#~ msgstr "Chaidh am facal-faire atharrachadh"
+
+#~ msgid "Your Firefox Account password was successfully changed from the following device:"
+#~ msgstr "Chaidh facal-faire a’ chunntais Firefox agad atharrachadh on uidheam a leanas:"
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Seo post-d fèin-obrachail; mur an do dh’atharraich thusa am facal-faire aig a’ chunntas Firefox agad, bu chòir dhut ath-shuidheachadh sa bhad aig %(resetLink)s"
+
+#~ msgid "Your account password was changed"
+#~ msgstr "Chaidh facal-faire a’ chunntais agad atharrachadh"
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Feumaidh tu am facal-faire ùr agad a chur a-steach air na h-uidheaman eile agad a leantainn air an t-sioncronachadh."
+
+#~ msgid "You will need to enter your new password on other devices to resume syncing."
+#~ msgstr "Feumaidh tu am facal-faire ùr agad a chur a-steach air na h-uidheaman eile agad a leantainn air an t-sioncronachadh."
+
+#~ msgid "If you did not change it, please reset your password now at %(resetLink)s"
+#~ msgstr "Mur tusa a dh’atharraich e, ath-shuidhich am facal-faire agad an-dràsta aig %(resetLink)s"
+
+#~ msgid "Your account password was reset with a recovery key"
+#~ msgstr "Chaidh facal-faire a’ chunntais agad ath-shuidheachadh le iuchair aisig"
+
+#~ msgid "You have successfully reset your password using a recovery key from the following device:"
+#~ msgstr "Rinn thu ath-shuidheachadh an fhacai-fhaire agad le iuchair aisig on uidheam a leanas:"
+
+#~ msgid "You will need to generate a new recovery key."
+#~ msgstr "Bidh agad ri iuchair aisig ùr a ghintinn."
+
+#~ msgid "Create new recovery key:"
+#~ msgstr "Cruthaich iuchair aisig ùr:"
+
+#~ msgid "For more information, please visit %(supportUrl)s"
+#~ msgstr "Airson barrachd fiosrachaidh, tadhail air %(supportUrl)s"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Ghin thu iuchair aisig dhan chunntas Firefox agad leis an uidheam a leanas:"
+
+#~ msgid "If this was not you, <a %(revokeAccountRecoveryLinkAttributes)s>click here.</a>"
+#~ msgstr "Mur bu tusa a rinn seo, <a %(revokeAccountRecoveryLinkAttributes)s>briog an-seo.</a>"
+
+#~ msgid "You have successfully generated an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Ghin thu iuchair aisig dhan chunntas Firefox agad on uidheam a leanas:"
+
+#~ msgid "If this was not you, revoke key."
+#~ msgstr "Mur bu tusa a rinn seo, gairm an iuchair air ais."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Chuir thu dearbhadh dà-cheumnach an comas sa chunntas Firefox agad o na h-uidheaman a leanas:"
+
+#~ msgid "Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Thèid còd tèarainteachd on aplacaid dearbhaidh agad iarraidh gach turas a chlàraicheas tu a-steach a-nis."
+
+#~ msgid "You have successfully enabled two-step authentication on your Firefox Account. Security codes from your authentication app will now be required at each sign-in."
+#~ msgstr "Chuir thu dearbhadh dà-cheumnach an comas sa chunntas Firefox agad. Thèid còd tèarainteachd on aplacaid dearbhaidh agad iarraidh gach turas a chlàraicheas tu a-steach a-nis."
+
+#~ msgid "New primary email"
+#~ msgstr "Prìomh phost-d ùr"
+
+#~ msgid ""
+#~ "You have successfully changed your primary email to %(email)s. This address is now your username for signing in to your Firefox Account, as well as receiving security notifications and sign-in "
+#~ "confirmations."
+#~ msgstr ""
+#~ "’S e %(email)s am prìomh phost-d agad a-nis. Sin seòladh a chleachdas tu mar ainm-cleachdaiche agad a-nis airson clàradh a-steach dhan chunntas Firefox agad agus airson brathan tèarainteachd "
+#~ "agus dearbhadh air clàradh a-steach fhaighinn."
+
+#~ msgid "Recovery code consumed"
+#~ msgstr "Chaidh an còd aisig a chur gu feum"
+
+#~ msgid "You have successfully consumed a recovery code from the following device:"
+#~ msgstr "Chuir thu gu feum còd aisig on uidheam a leanas:"
+
+#~ msgid "Consumed recovery code"
+#~ msgstr "Chuir thu gu feum còd aisig"
+
+#~ msgid "You have successfully generated new recovery codes from the following device:"
+#~ msgstr "Ghin thu còdan aisig ùra on uidheam a leanas:"
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account using the following device:"
+#~ msgstr "Thug thu air falbh iuchair aisig dhan chunntas Firefox agad leis an uidheam a leanas:"
+
+#~ msgid "This recovery key can no longer be used to recover your account."
+#~ msgstr "Chan urrainnear an cunntas agad aiseag leis an iuchair aisig seo tuilleadh."
+
+#~ msgid "You have successfully removed an account recovery key for your Firefox Account from the following device:"
+#~ msgstr "Thug thu air falbh iuchair aisig dhan chunntas Firefox agad on uidheam a leanas:"
+
+#~ msgid ""
+#~ "You have successfully removed %(secondaryEmail)s as a secondary email from your Firefox Account. Security notifications and sign-in confirmations will no longer be delivered to this address."
+#~ msgstr "Thug thu air falbh %(secondaryEmail)s mar phost-d dàrnach on chunntas Firefox agad. Cha dèid brathan is dearbhaidhean mu chlàradh a-steach a chur gun t-seòladh ud tuilleadh."
+
+#~ msgid "Two-step authentication disabled"
+#~ msgstr "Tha an dearbhadh dà-cheumnach à comas"
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account from the following device:"
+#~ msgstr "Chuir thu dearbhadh dà-cheumnach à comas sa chunntas Firefox agad o na h-uidheaman a leanas:"
+
+#~ msgid "Security codes will no longer be required at each sign-in."
+#~ msgstr "Cha dèid còdan tèarainteachd iarraidh gach turas a chleachdas tu a-steach tuilleadh."
+
+#~ msgid "You have successfully disabled two-step authentication on your Firefox Account. Security codes will no longer be required at each sign-in."
+#~ msgstr "Chuir thu dearbhadh dà-cheumnach à comas sa chunntas Firefox agad. Cha dèid còdan tèarainteachd iarraidh gach turas a chlàraicheas tu a-steach tuilleadh."
+
+#~ msgid "Have questions? Visit %(supportUrl)s"
+#~ msgstr "A bheil ceist agad? Tadhail air %(supportUrl)s"
+
+#~ msgid ""
+#~ "You have successfully verified %(secondaryEmail)s as a secondary email for your Firefox Account. Security notifications and sign-in confirmations will now be delivered to both email addresses."
+#~ msgstr "Dhearbh thu %(secondaryEmail)s mar phost-d dàrnach aig a’ chunntas Firefox agad. Thèid brathan tèarainteachd is dearbhadh mu chlàradh a-steach a chur gun dà phost-d o seo a-mach."
+
+#~ msgid "Need to reset your password?"
+#~ msgstr "A bheil agad ris am facal-faire ath-shuidheachadh?"
+
+#~ msgid "Click the button within the next hour to create a new password. The request came from the following device:"
+#~ msgstr "Briog air a’ phutan am broinn uair a thìde airson facal-faire ùr a chruthachadh. Thàinig an t-iarrtas seo on uidheam a leanas:"
+
+#~ msgid "Thanks for choosing Firefox! You can install Firefox for mobile here: %(link)s"
+#~ msgstr "Mòran taing airson Firefox a thaghadh! ’S urrainn dhut Firefox airson uidheaman mobile a stàladh an-seo: %(link)s"
+
+#~ msgid "Thank you for subscribing to %(productName)s"
+#~ msgstr "Tapadh leat airson fo-sgrìobhadh gu %(productName)s"
+
+#~ msgid "Invoice Number: <b>%(invoiceNumber)s</b>"
+#~ msgstr "Àireamh an fhàirdeil: <b>%(invoiceNumber)s</b>"
+
+#~ msgid "Next Invoice: %(nextInvoiceDateOnly)s"
+#~ msgstr "An ath-fhàirdeal: %(nextInvoiceDateOnly)s"
+
+#~ msgid "Invoice Number: %(invoiceNumber)s"
+#~ msgstr "Àireamh an fhàirdeil: %(invoiceNumber)s"
+
+#~ msgid "Thank you for being a subscriber!"
+#~ msgstr "Mòran taing airson fo-sgrìobhadh fhaighinn!"
+
+#~ msgid "Thank you for upgrading!"
+#~ msgstr "Mòran taing airson ùrachadh!"
+
+#~ msgid "Is this you signing in?"
+#~ msgstr "An tusa a tha a’ clàradh a-steach?"
+
+#~ msgid "If yes, here is the authorization code you need:"
+#~ msgstr "Mas e, seo an còd ùghdarachaidh a dh’fheumas tu:"
+
+#~ msgid "If no, help us fend off intruders and <a %(reportSignInLinkAttributes)s>report it to us.</a>"
+#~ msgstr "Mur e, cuidich leinn ’nar strì an aghaidh luchd-foill is <a %(reportSignInLinkAttributes)s>cuir aithisg mu dhèidhinn thugainn.</a>"
+
+#~ msgid "If no, help us fend off intruders and report it to us."
+#~ msgstr "Mur e, cuidich leinn ’nar strì an aghaidh luchd-foill is cuir aithisg mu dhèidhinn thugainn."
+
+#~ msgid "Welcome to the Firefox family"
+#~ msgstr "Fàilte gu teaghlach Firefox"
+
+#~ msgid "A few days ago you created a Firefox account, but never confirmed it."
+#~ msgstr "Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do rinn thu a dhearbhadh gu ruige seo."
+
+#~ msgid "Confirm now and get technology that fights for and protects your privacy, arms you with practical knowledge, and the respect you deserve."
+#~ msgstr "Dearbh an-dràsta e ’s faigh cothrom air teicneolas a dhìonas do phrìobhaideachd, a bheir fiosrachadh feumail dhut agus aig a bheil suim is urram dhut."
+
+#~ msgid "Confirm email:"
+#~ msgstr "Dearbh am post-d:"
+
+#~ msgid "Still there?"
+#~ msgstr "A bheil thu ann fhathast?"
+
+#~ msgid "Almost a week ago you created a Firefox Account but never verified it. We’re worried about you."
+#~ msgstr "Chruthaich thu cunntas Firefox cha mhòr seachdain air ais ach cha do dhearbh thu e. Tha sin a’ cur dragh oirnn."
+
+#~ msgid "Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr "Dearbh an seòladh puist-d gus an cunntas agad a ghnìomhachadh agus airson ’s gum bi fios againn gu bheil gach rud mar bu chòir."
+
+#~ msgid "Activate the Firefox family of products"
+#~ msgstr "Gnìomhaich teaghlach bathar Firefox"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in starting with:"
+#~ msgstr "Dearbh an cunntas agad is cuir Firefox gu làn-fheum àite sam bith far an clàraich thu a-steach, a’ tòiseachadh le:"
+
+#~ msgid "Confirm your account and get the most out of Firefox everywhere you sign in."
+#~ msgstr "Dearbh an cunntas agad is cuir Firefox gu làn-fheum àite sam bith far an clàraich thu a-steach."
+
+#~ msgid "For added security, please confirm this sign-in from the following device:"
+#~ msgstr "Airson tèarainteachd a bharrachd, dearbh an clàradh a-steach air na h-uidheaman seo:"
+
+#~ msgid "Verify primary email"
+#~ msgstr "Dearbh am prìomh phost-d"
+
+#~ msgid "A request to perform an account change has been made from the following device:"
+#~ msgstr "Chaidh iarrtas airson atharrachadh sa chunntas a dhèanamh air an uidheam a leanas:"
+
+#~ msgid "Once verified, account changes like adding a secondary email will become possible from this device."
+#~ msgstr "Turas a chaidh a dhearbhadh, bidh cothrom agad rudan sa chunntas atharrachadh (mar eisimpleir, a’ cur ris post-d dàrnach) air an uidheam seo."
+
+#~ msgid "Verify email: "
+#~ msgstr "Dearbh am post-d: "
+
+#~ msgid "Verify secondary email"
+#~ msgstr "Dearbh am post-d dàrnach"
+
+#~ msgid "A request to use %(email)s as a secondary email address has been made from the following Firefox Account:"
+#~ msgstr "Chaidh iarrtas a dhèanamh on chunntas Firefox a leanas airson %(email)s a chur ris mar sheòladh puist-d dàrnach:"
+
+#~ msgid "Once verified, this address will begin receiving security notifications and confirmations."
+#~ msgstr "Turas a chaidh a dhearbhadh, gheibh an seòladh seo brathan tèarainteachd is dearbhaidhean."
+
+#~ msgid "Is this you signing up?"
+#~ msgstr "An tusa a tha a’ clàradh leinn?"
+
+#~ msgid "Ready, set, sync"
+#~ msgstr "Deiseil, deònach, dèan sioncronachadh"
+
+#~ msgid "Confirm you’ve received this email and we’ll help you install and sync Firefox on all your devices starting with:"
+#~ msgstr "Dearbh gun d’fhuair thu am post-d seo agus cuidichidh sinn thu a’ stàladh is a’ sioncronachadh Firefox air feadh nan uidheaman agad, a’ tòiseachadh le:"
+
+#~ msgid "Once confirmed, we will help you install and connect Firefox on at least one other device."
+#~ msgstr "Turas a chaidh a dhearbhadh, cuidichidh sinn thu a’ stàladh is a’ ceangal ris Firefox air co-dhiù aon uidheam eile."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Seo post-d fèin-obrachail; mur an do dh’iarr thusa sin, mholamaid dhut <a %(passwordChangeLinkAttributes)s>am facal-faire agad atharrachadh</a>."
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
+#~ msgstr "Airson barrachd fiosrachaidh, tadhail air <a %(supportLinkAttributes)s>làrach na taice aig Mozilla</a>."
+
+#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
+#~ msgstr "Seo post-d fèin-obrachail; mur an do chuir thu uidheam ùr ris a’ chunntas Firefox agad, bu chòir dhut am facal-faire agad atharrachadh sa bhad aig %(passwordChangeLink)s"
+
+#~ msgid "This is an automated email; if you received it in error, no action is required."
+#~ msgstr "Seo post-d fèin-obrachail; ma fhuair thu seo air mhearachd, cha leig thu leas dad a dhèanamh."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(resetLinkAttributes)s>please reset your password</a>."
+#~ msgstr "Seo post-d fèin-obrachail; mur an dug thusa cead dhan ghnìomh seo, <a %(resetLinkAttributes)s>bu chòir dhut am facal-faire agad ath-shuidheachadh</a>."
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
+#~ msgstr "Ma tha thu dhen bheachd gu bheil cuideigin a’ feuchainn ri briseadh a-steach dhan chunntas agad, atharraich am facal-faire agad."
+
+#~ msgid "IP address: %(ip)s"
+#~ msgstr "Seòladh IP: %(ip)s"
+
+#~ msgid "Manage account:"
+#~ msgstr "Stiùirich an cunntas:"
+
+#~ msgid "%(cardType)s card ending in %(lastFour)s"
+#~ msgstr "Cairt %(cardType)s a chrìochnaicheas ann an %(lastFour)s"
+
+#~ msgid "Mozilla Privacy Policy"
+#~ msgstr "Poileasaidh prìobhaideachd Mozilla"
+
+#~ msgid "Cancel subscription"
+#~ msgstr "Cuir crìoch air an fho-sgrìobhadh"
+
+#~ msgid "Cancel subscriptions"
+#~ msgstr "Cuir crìoch air na fo-sgrìobhaidhean"
+
+#~ msgid "Legal"
+#~ msgstr "Nòtaichean laghail"
+
+#~ msgid "Privacy"
+#~ msgstr "Prìobhaideachd"
+
+#~ msgid "Cancel subscription:"
+#~ msgstr "Cuir crìoch air an fho-sgrìobhadh:"
+
+#~ msgid "Cancel subscriptions:"
+#~ msgstr "Cuir crìoch air na fo-sgrìobhaidhean:"
+
+#~ msgid "Finish creating your account"
+#~ msgstr "Cuir crìoch air cruthachadh a’ chunntais agad"
+
+#~ msgid "We detected suspicious activity on your Firefox Account. Your account may have been compromised."
+#~ msgstr "Mhothaich sinn do ghnìomhachd amharasach sa chunntas Firefox agad. Dh’fhaoidte gun do bhris cuideigin a-steach air a’ chunntas agad."
+
+#~ msgid "To prevent further unauthorized access to your Firefox Account, we’ve reset your password and are notifying you as a precaution."
+#~ msgstr "Airson casg a chur air inntrigeadh gun chead dhan chunntas Firefox agad, rinn sinn ath-shuidheachadh an fhacail-fhaire agad agus chuir sinn am brath seo thugad mar fhiosrachadh dhut."
+
+#~ msgid "What should you do?"
+#~ msgstr "Dè nì mi?"
+
+#~ msgid "First, change your Firefox Account password."
+#~ msgstr "Ath-shuidhich facal-faire a’ chunntais Firefox agad sa chiad dol a-mach."
+
+#~ msgid ""
+#~ "Second, if Firefox stores passwords to websites, you should change those passwords as well. Attackers may have access to those passwords, so you should check those accounts for suspicious "
+#~ "activity."
+#~ msgstr ""
+#~ "Cuideachd, ma tha Firefox a’ cuimhneachadh fhaclan-faire airson làraichean-lìn dhut, bu chòir dhut na faclan-faire ud atharrachadh cuideachd. Dh’fhaoidte gun robh cothrom aig an luchd-ionnsaigh "
+#~ "orra agus b’ fheairrde dhut sùil a thoir a bheil dad a ghnìomhachd amharasach sna cunntasan ud."
+
+#~ msgid "Learn how to see what passwords Firefox is storing for you."
+#~ msgstr "Fiosraich mar am faic thu dè na faclan-faire a tha Firefox a’ cuimhneachadh dhut."
+
+#~ msgid "You're signed in and ready to start exploring safely and securely."
+#~ msgstr "Tha thu air do chlàradh a-steach ’s tha cothrom agad a-nis sùil a thoirt mun cuairt gu sàbhailte tèarainte."
+
+#~ msgid "Now get the most of Firefox by signing in everywhere you browse."
+#~ msgstr "Cuir am Firefox agad gu làn-fheum is clàraich a-steach àite sam bith far an dèan thu brabhsadh."
+
+#~ msgid "Connect another device:"
+#~ msgstr "Ceangail uidheam eile ris:"
+
+#~ msgid "Connect another device"
+#~ msgstr "Ceangail uidheam eile ris"
+
+#~ msgid "Protect your data with a recovery key"
+#~ msgstr "Dìon an dàta agad le iuchair aisig"
+
+#~ msgid "Restore your synced data and pick up right where you left off with a unique recovery key."
+#~ msgstr "Aisig an dàta sioncronaichte agad is cùm a’ dol far an robh thu leis an iuchair aisig àraidh agad."
+
+#~ msgid "Otherwise, Firefox protects your data by erasing it when your password is reset."
+#~ msgstr "Air neo sguabaidh Firefox an dàta agad às gus do dhìon nuair a nithear ath-shuidheachadh facail-fhaire."
+
+#~ msgid "Protect yourself from being locked out"
+#~ msgstr "Dèan cinnteach nach tèid do ghlasadh a-mach"
+
+#~ msgid "Adding a secondary email helps get back into your account if you’re locked out and can’t access your email."
+#~ msgstr "Ma chuireas tu post-d eile ris, gheibh thu cothrom air a’ chunntas agad a-rithist leis ma thèid do ghlasadh a-mach is mur am faigh cothrom air a’ phost-d agad."
+
+#~ msgid "Account verified!"
+#~ msgstr "Chaidh an cunntas a dhearbhadh!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a %(androidLinkAttributes)s>Android</a> and <a "
+#~ "%(iosLinkAttributes)s>iOS</a>."
+#~ msgstr ""
+#~ "Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. Is urrainn clàradh a-steach gu gleus an t-sioncronachaidh o uidheama eile a-nis, a’ gabhail a-staigh Firefox airson <a "
+#~ "%(androidLinkAttributes)s>Android</a> agus <a %(iosLinkAttributes)s>iOS</a>."
+
+#~ msgid "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for Android and iOS."
+#~ msgstr ""
+#~ "Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. ’S urrainn dhut clàradh a-steach gu gleus an t-sioncronachaidh o uidheaman eile a-nis, a’ gabhail a-staigh Firefox airson "
+#~ "Android is iOS."
+
+#~ msgid "Sign in to Sync:"
+#~ msgstr "Clàraich a-steach gun t-sioncronachadh:"
+
+#~ msgid "Welcome to %(serviceName)s!"
+#~ msgstr "Fàilte gu %(serviceName)s!"
+
+#~ msgid "Welcome!"
+#~ msgstr "Fàilte!"
+
+#~ msgid "Confirm this email address to activate your Firefox Account and continue to %(serviceName)s."
+#~ msgstr "Dearbh an seòladh puist-d gus an cunntas Firefox agad a ghnìomhachadh agus a leantainn air adhart gu %(serviceName)s."
+
+#~ msgid "Confirm this email address to activate your Firefox Account."
+#~ msgstr "Dearbh an seòladh puist-d seo gus an cunntas Firefox agad a ghnìomhachadh."
+
+#~ msgid "Activate now:"
+#~ msgstr "Cuir an gnìomh an-dràsta:"
+
+#~ msgid "Activate now"
+#~ msgstr "Cuir an gnìomh an-dràsta"
+
+#~ msgid "Confirm your email and start to sync!"
+#~ msgstr "Dearbh am post-d agad is tòisich air sioncronachadh!"
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. Now you can sign in to Sync from your other devices, including Firefox for <a href='%(androidUrl)s'>Android</a> and <a "
+#~ "href='%(iosUrl)s'>iOS</a>."
+#~ msgstr ""
+#~ "Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. ’S urrainn dhut clàradh a-steach gu gleus an t-sioncronachaidh o uidheaman eile a-nis, a’ gabhail a-staigh Firefox airson <a "
+#~ "href='%(androidUrl)s'>Android</a> agus <a href='%(iosUrl)s'>iOS</a>."
+
+#~ msgid ""
+#~ "You successfully connected your first device to your Firefox Account. To make the most of Sync, connect any <a href='%(androidUrl)s'>Firefox for Android</a> or <a href='%(iosUrl)s'>Firefox for "
+#~ "iOS</a>."
+#~ msgstr ""
+#~ "Cheangail thu a’ chiad uidheam agad ris a’ chunntas Firefox agad. Airson gleus an t-sioncronachaidh a chur gu làn-fheum, ceangail Firefox air <a href='%(androidUrl)s'>Android</a> no <a "
+#~ "href='%(iosUrl)s'>iOS</a> ris."
+
+#~ msgid "Sign in to Sync"
+#~ msgstr "Clàraich a-steach gun t-sioncronachadh"
+
+#~ msgid "This is an automated email."
+#~ msgstr "Seo post-d fèin-obrachail."
+
+#~ msgid "This is an automated email; if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password.</a>"
+#~ msgstr "Seo post-d fèin-obrachail; mur an do dh’iarr thusa sin, mholamaid dhut <a %(passwordChangeLinkAttributes)s>am facal-faire agad atharrachadh.</a>"
+
+#~ msgid "If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "Mur tusa a dh’atharraich e, <a %(resetLinkAttributes)s>ath-shuidhich am facal-faire agad</a> an-dràsta."
+
+#~ msgid "Verify Email"
+#~ msgstr "Dearbh am post-d"
+
+#~ msgid "Verify your email to finish your Firefox Account registration"
+#~ msgstr "Dearbh am post-d agad a choileanadh clàradh a’ chunntais Firefox agad"
+
+#~ msgid "If you suspect that someone is trying to gain access to your account, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Ma tha thu dhen bheachd gu bheil cuideigin a’ feuchainn ri briseadh a-steach dhan chunntas agad, <a %(passwordChangeLinkAttributes)s>atharraich am facal-faire agad</a>."
+
+#~ msgid "Verify email "
+#~ msgstr "Dearbh am post-d "
+
+#~ msgid "If you did not authorize this action, <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Mur tusa a dh’iarr seo, <a %(passwordChangeLinkAttributes)s>atharraich am facal-faire agad</a>."
+
+#~ msgid "If you did not authorize this action, please change your password."
+#~ msgstr "Mur tusa a dh’iarr seo, atharraich am facal-faire agad."
+
+#~ msgid "Verify your Firefox Account"
+#~ msgstr "Dearbh an cunntas Firefox agad"
+
+#~ msgid "Final reminder: Confirm your email to activate your Firefox Account"
+#~ msgstr "Cuimhneachan mu dheireadh: Dearbh am post-d agad airson an cunntas Firefox a ghnìomhachadh"
+
+#~ msgid "Firefox Account authorization code"
+#~ msgstr "Còd ùghdarachadh cunntais Firefox"
+
+#~ msgid "Sign-in code for Firefox"
+#~ msgstr "Còd clàraidh a-steach dha Firefox"
+
+#~ msgid "Reset your Firefox Account password"
+#~ msgstr "Ath-shuidhich facal-faire a’ chunntais Firefox agad"
+
+#~ msgid "Your Firefox Account password has been changed"
+#~ msgstr "Chaidh facal-faire a’ chunntais Firefox agad atharrachadh"
+
+#~ msgid "Firefox Account password changed"
+#~ msgstr "Chaidh facal-faire a’ chunntais Firefox atharrachadh"
+
+#~ msgid "Firefox Account password reset required"
+#~ msgstr "Tha feum air ath-shuidheachadh facal-faire a’ chunntais Firefox"
+
+#~ msgid "Firefox Account verified"
+#~ msgstr "Chaidh an cunntas Firefox a dhearbhadh"
+
+#~ msgid "Secondary Firefox Account email added"
+#~ msgstr "Chaidh post-d dàrnach a chur ris a’ chunntas Firefox"
+
+#~ msgid "Firefox Account new primary email"
+#~ msgstr "Prìomh phost-d ùr a’ chunntais Firefox"
+
+#~ msgid "Secondary Firefox Account email removed"
+#~ msgstr "Chaidh am post-d dàrnach a thoirt air falbh on chunntas Firefox"
+
+#~ msgid "Firefox Account password reset with recovery key"
+#~ msgstr "Ath-shuidheachadh facal-faire a’ chunntais Firefox le iuchair aisig"
+
+#~ msgid "The page you requested is not found. We've been notified and will fix any links that may be broken."
+#~ msgstr "Cha deach an duilleag a dh’iarr thu a lorg. Chaidh fios a chur thugainn is bheir sinn sùil air eagal ’s gu bheil ceangal briste ann."
+
+#~ msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+#~ msgstr "Ìoc, chaidh rudeigin cearr an-sin. Chaidh fios a chur thugainn agus càraichidh sinn e."
+
+#~ msgid "We are currently under heavy strain and are working to return the system to normal as soon as possible."
+#~ msgstr "Tha sinn fo spàirn mhòr an-dràsta fhèin is a’ dèanamh ar dìcheall gus gach rud a chur air ais mar is àbhaist cho luath ’s a ghabhas."
+
+#~ msgid "Firefox Accounts makes use of features that are not supported in your version of Firefox. Please download and install the latest version of Firefox to continue."
+#~ msgstr "Cleachdaidh cunntasan Firefox gleusan nach cuir an tionndadh làithreach de Firefox agad taic ris. Luchdaich a-nuas is stàlaich an tionndadh as ùire de Firefox airson leantainn air adhart."
+
+#~ msgid "Hello again."
+#~ msgstr "Shin thu a-rithist."
+
+#~ msgid "You recently created a Firefox Account but haven't confirmed your email yet."
+#~ msgstr "Chruthaich thu cunntas Firefox o chionn goirid ach cha do dhearbh thu am post-d agad fhathast."
+
+#~ msgid "Confirm your email so that you can start using Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor and more."
+#~ msgstr "Dearbh am post-d agad airson Firefox Sync, Pocket, Lockbox, Firefox Send, Monitor agus mòran a bharrachd a chleachdadh."
+
+#~ msgid "Reminder: Confirm your email to activate your Firefox Account"
+#~ msgstr "Cuimhnich, dearbh am post-d agad airson an cunntas Firefox a ghnìomhachadh"
+
+#~ msgid "Please activate your account by confirming this email address."
+#~ msgstr "Cuir an cunntas agad an gnìomh mus dearbh thu an seòladh puist-d seo."
+
+#~ msgid "This is an automated email; if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Seo post-d fèin-obrachail; mur an do dh’iarr thusa sin, mholamaid dhut <a %(passwordChangeLinkAttributes)s>am facal-faire agad atharrachadh</a>."
+
+#~ msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+#~ msgstr "Tha thu a’ cleachdadh <strong>seann-bhrabhsair</strong>. Nach <a href=\"http://browsehappy.com/\">àrdaich thu am brabhsair agad</a> is bidh rudan fada nas fhearr dhut."
+
+#~ msgid "A while ago you created a Firefox Account, but never verified it. Click the link below to activate your account."
+#~ msgstr "Chruthaich thu cunntas Firefox roimhe ach cha do dhearbh thu e. Briog air a’ cheangal gu h-ìosal gus a chur an gnìomh."
+
+#~ msgid "New sign-in to Firefox"
+#~ msgstr "Clàradh a-steach ùr gu Firefox"
+
+#~ msgid "Your password has been reset"
+#~ msgstr "Chaidh am facal-faire agad ath-shuidheachadh"
+
+#~ msgid "Your Firefox Account password has changed. If you did not change it, please <a %(resetLinkAttributes)s>reset your password</a> now."
+#~ msgstr "Chaidh facal-faire a’ chunntais Firefox agad atharrachadh. Mur tusa a dh’atharraich e, <a %(resetLinkAttributes)s>ath-shuidhich am facal-faire agad</a> an-dràsta."
+
+#~ msgid "Password reset successfully"
+#~ msgstr "Chaidh am facal-faire atharrachadh"
+
+#~ msgid "Your Firefox Account password has been successfully reset."
+#~ msgstr "Chaidh facal-faire a’ chunntais Firefox agad ath-shuidheachadh."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s"
+#~ msgstr "Seo post-d fèin-obrachail; mur an do rinn thusa ath-suidheachadh facal-faire a’ chunntais Firefox agad, bu chòir dhut ath-shuidheachadh aig %(resetLink)s sa bhad"
+
+#~ msgid "Forgot your password?"
+#~ msgstr "Na dhìochuimhnich thu am facal-faire agad?"
+
+#~ msgid "Click the button within the next hour to set a new password for your Firefox Account. The request came from the following device:"
+#~ msgstr "Briog air a’ phutan am broinn uair a thìde airson facal-faire ùr a shuidheachadh dhan chunntas Firefox agad. Thàinig an t-iarrtas seo on uidheam a leanas:"
+
+#~ msgid "Reset password"
+#~ msgstr "Ath-shuidhich am facal-faire"
+
+#~ msgid ""
+#~ "A few days ago you created a Firefox Account, but never verified it. A verified account lets you access your tabs, bookmarks, passwords and history on any device connected to it. Simply confirm "
+#~ "this email address to activate your account."
+#~ msgstr ""
+#~ "Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do dhearbh thu e. Ma dhearbhas tu an cunntas agad, gheibh thu cothrom air na tabaichean, comharran-lìn is an eachdraidh o uidheam "
+#~ "ceangailte sam bith. Cha leig thu leas ach an seòladh puist-d seo a dhearbhadh gus an cunntas agad a chur an gnìomh."
+
+#~ msgid "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr ""
+#~ "Chruthaich thu cunntas Firefox mu sheachdain air ais ach cha do rinn thu a dhearbhadh gu ruige seo agus tha sinn a’ cur dragh oirnn. Dearbh an seòladh puist-d seo gus an cunntas agad a "
+#~ "ghnìomhachadh ach am bi fios againn gu bheil gach rud mar bu chòir."
+
+#~ msgid "For added security, please confirm this sign-in to begin syncing with this device:"
+#~ msgstr "Airson tèarainteachd a bharrachd, dearbh an clàradh a-steach a thòiseachadh air sioncronachadh leis an uidheam seo:"
+
+#~ msgid "Confirm new sign-in to Firefox"
+#~ msgstr "Dearbh clàradh a-steach ùr gu Firefox"
+
+#~ msgid "Your Firefox Account password has been reset"
+#~ msgstr "Chaidh facal-faire a’ chunntais Firefox agad ath-shuidheachadh"
+
+#~ msgid "Firefox cloud services"
+#~ msgstr "Seirbheisean neòil Firefox"
+
+#~ msgid "This is an automated email;if you received it in error, if you did not authorize this action, then <a %(passwordChangeLinkAttributes)s>please change your password</a>."
+#~ msgstr "Seo post-d fèin-obrachail; mur an do dh’iarr thusa sin, mholamaid dhut <a %(passwordChangeLinkAttributes)s>am facal-faire agad atharrachadh</a>."
+
+#~ msgid "Your Firefox Account password has been successfully changed."
+#~ msgstr "Chaidh facal-faire a’ chunntais Firefox agad atharrachadh."
+
+#~ msgid "Alternatively:"
+#~ msgstr "Air neo:"
+
+#~ msgid "Firefox Account Verified"
+#~ msgstr "Chaidh an cunntas Firefox a dhearbhadh"
+
+#~ msgid "This is an automated email; if you didn't add a new device to your Firefox Account, you should change your password immediately at %(resetLink)s."
+#~ msgstr "Seo post-d fèin-obrachail; mur an do chuir thusa uidheam ùr ris a’ chunntas Firefox agad, bu chòir dhut am facal-faire agad atharrachadh aig %(resetLink)s sa bhad."
+
+#~ msgid "This is an automated email; if you didn’t change the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "Seo post-d fèin-obrachail; mur an do dh’atharraich thusa am facal-faire aig a’ chunntas Firefox agad, bu chòir dhut atharrachadh aig %(resetLink)s sa bhad."
+
+#~ msgid "This is an automated email; if you didn’t reset the password to your Firefox Account, you should reset it immediately at %(resetLink)s."
+#~ msgstr "Seo post-d fèin-obrachail; mur an do rinn thusa ath-suidheachadh facal-faire a’ chunntais Firefox agad, bu chòir dhut ath-shuidheachadh aig %(resetLink)s sa bhad."
+
+#~ msgid "Account activity notice"
+#~ msgstr "Brath mu ghnìomhachd sa chunntas"
+
+#~ msgid "For security reasons your Firefox Account was put on lockdown. To perform account-level activities, please click the link to re-verify your account now."
+#~ msgstr "Chaidh an cunntas Firefox agad a ghlasadh air sgàth adhbharan tèarainteachd. Airson an cunntas a chur air gleus, briog air a’ cheangal gus a dhearbhadh an toiseach."
+
+#~ msgid "Verify account"
+#~ msgstr "Dearbh an cunntas"
+
+#~ msgid "Verify account:"
+#~ msgstr "Dearbh an cunntas:"
+
+#~ msgid "Re-verify your Firefox Account"
+#~ msgstr "Ath-dhearbh an cunntas Firefox agad"
+
+#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
+#~ msgstr "Airson barrachd fiosrachaidh, tadhail air <a %(supportLinkAttributes)s>Mozilla Support</a>"
+
+#~ msgid ""
+#~ "A week ago you created a Firefox Account, but never verified it. We’re worried about you. Firefox is available for Windows, Mac, Linux, Android and iOS. You can sync your Firefox passwords, "
+#~ "bookmarks and history across all of them. Confirm this email address to activate your account and let us know you're okay."
+#~ msgstr ""
+#~ "Chruthaich thu cunntas Firefox beagan làithean air ais ach cha do dhearbh thu e. Tha sin a’ cur dragh oirnn. Tha Firefox ri fhaighinn air Windows, Mac, Linux, Android agus iOS. ’S urrainn dhut "
+#~ "na faclan-faire, comharran-lìn is an eachdraidh a shioncronachadh air am feadh. Dearbh an seòladh puist-d gus an cunntas agad a dhearbhadh is innse dhuinn gu bheil gach rud mar bu chòir."
+
+#~ msgid "env"
+#~ msgstr "env"
+
+#~ msgid "contentServer.url"
+#~ msgstr "contentServer.url"
+
+#~ msgid "logging"
+#~ msgstr "logachadh"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "/__heartbeat__"
+#~ msgstr "/__heartbeat__"
+
+#~ msgid "Bad Request"
+#~ msgstr "Droch-iarrtas"
+
+#~ msgid "A device began syncing with the devices connected to your Firefox Account."
+#~ msgstr "Thòisich uidheam air sioncronachadh leis na h-uidheaman a tha ceangailte ris a’ chunntas Firefox agad."
+
+#~ msgid "Are you sure?"
+#~ msgstr "A bheil thu cinnteach?"
+
+#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
+#~ msgstr "Dearbh gu bheil thu airson am facal-faire airson %(email)s ath-shuidheachadh."
+
+#~ msgid "Reset password now"
+#~ msgstr "Ath-shuidhich am facal-faire an-dràsta"
+
+#~ msgid "Reset password now:"
+#~ msgstr "Ath-shuidhich am facal-faire an-dràsta:"
+
+#~ msgid "Recently you created a Firefox Account, but never verified it. Please activate your account by confirming this email address."
+#~ msgstr "Chruthaich thu cunntas Firefox o chionn goirid ach cha do dhearbh thu e. Cuir an cunntas agad an gnìomh mus dearbh thu an seòladh puist-d seo."
+
+#~ msgid "Activate Now:"
+#~ msgstr "Cuir an gnìomh an-dràsta:"

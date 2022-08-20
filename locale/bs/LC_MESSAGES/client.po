@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: 2018-08-01 09:18+0000\n"
 "Last-Translator: Nihad Suljić <nihad.suljic92@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,7 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:199
@@ -23,7 +24,10 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Resetovanje lozinke uspjelo. Prijavi se za nastavak."
 
 #. submit button
-#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44
+#: .es5/templates/connect_another_device.mustache:11
+#: .es5/templates/force_auth.mustache:3
+#: .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Prijavi se"
@@ -33,8 +37,12 @@ msgid "Account deleted successfully"
 msgstr "Račun je uspješno izbrisan"
 
 #: .es5/views/inline_totp_setup.js:156
-msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Koristite kod %(code)s da postavite autentifikaciju u dva koraka u podržanim aplikacijama."
+msgid ""
+"Use the code %(code)s to set up two-step authentication in supported "
+"applications."
+msgstr ""
+"Koristite kod %(code)s da postavite autentifikaciju u dva koraka u podržanim "
+"aplikacijama."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -65,30 +73,37 @@ msgid "Your password has been reset"
 msgstr "Vaša lozinka je resetovana"
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
-msgid "Complete set-up by entering the new password on your other Firefox devices."
+msgid ""
+"Complete set-up by entering the new password on your other Firefox devices."
 msgstr "Završi postavljanje unosom nove lozinke na druge Firefox uređaje."
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Sada ste spremni da vršite izmjene na vašem Firefox korisničkom računu."
+msgstr ""
+"Sada ste spremni da vršite izmjene na vašem Firefox korisničkom računu."
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
 msgstr ""
 
 #: .es5/views/ready.js:77
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Notifikacije korisničkog računa će sada također slati na %(secondaryEmailVerified)s."
+msgid ""
+"Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+"Notifikacije korisničkog računa će sada također slati na "
+"%(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
 msgstr ""
 
-#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6
+#: .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "Prijava potvrđena"
 
-#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95
+#: .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Spremni ste za korištenje %(serviceName)s"
 
@@ -113,11 +128,17 @@ msgid "Other"
 msgstr ""
 
 #: .es5/views/support.js:270
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
+msgid ""
+"Thank you for reaching out to Mozilla Support about <b>"
+"%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as "
+"possible."
 msgstr ""
 
 #: .es5/views/support.js:272
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
+msgid ""
+"Thank you for reaching out to Mozilla Support about <b>"
+"%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll "
+"contact you via email as soon as possible."
 msgstr ""
 
 #: .es5/views/post_verify/verified.js:53
@@ -125,7 +146,8 @@ msgid "Your sync data is protected"
 msgstr ""
 
 #: .es5/views/post_verify/verified.js:54
-msgid "If you lose access to your account, you’ll be able to restore your sync data."
+msgid ""
+"If you lose access to your account, you’ll be able to restore your sync data."
 msgstr ""
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
@@ -144,7 +166,9 @@ msgstr ""
 msgid "Your account has been locked for security reasons"
 msgstr "Vaš korisnički račun je zaključan zbog sigurnosnih razloga"
 
-#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+#: .es5/views/mixins/account-reset-mixin.js:47
+#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/reset_password.mustache:1
 msgid "Reset password"
 msgstr "Resetuj lozinku"
 
@@ -180,7 +204,9 @@ msgstr "Otvori Restmail"
 msgid "Hide password"
 msgstr ""
 
-#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:169
+#: .es5/templates/partial/show-password.mustache:1
+#: .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Prikaži lozinku"
 
@@ -197,8 +223,12 @@ msgid "Firefox Recovery Key"
 msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:53
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "Email ponovo poslan. Dodajte accounts@firefox.com u vaše kontakte da osigurate glatku isporuku."
+msgid ""
+"Email resent. Add accounts@firefox.com to your contacts to ensure a smooth "
+"delivery."
+msgstr ""
+"Email ponovo poslan. Dodajte accounts@firefox.com u vaše kontakte da "
+"osigurate glatku isporuku."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -296,7 +326,9 @@ msgstr "Lozinka uspješno resetovana"
 msgid "Account recovery enabled"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30
+#: .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61
+#: .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
 msgstr "Neočekivana greška"
 
@@ -324,7 +356,8 @@ msgstr "Nevažeća vremenska oznaka u potpisivanju zahtjeva"
 msgid "Invalid nonce in request signature"
 msgstr "Nevažeći noonce u zahtjevu potpisa"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:180
 msgid "Account already exists"
 msgstr "Račun već postoji"
 
@@ -445,8 +478,10 @@ msgid "Can not change primary email to an unverified email"
 msgstr "Primarni email se ne može promijeniti u neprovjeren email"
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
-msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "Primarni email se ne može promijeniti u email koji ne pripada ovom računu"
+msgid ""
+"Can not change primary email to an email that does not belong to this account"
+msgstr ""
+"Primarni email se ne može promijeniti u email koji ne pripada ovom računu"
 
 #: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
@@ -532,8 +567,11 @@ msgstr "Server zauzet, pokušajte ponovo kasnije"
 msgid "Feature not enabled"
 msgstr "Funkcija nije omogućena"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
-#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117
+#: .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45
+#: .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Sistem nije dostupan, pokušajte ponovo kasnije"
 
@@ -581,7 +619,8 @@ msgstr "Mora biti najmanje 8 znakova"
 msgid "Valid password required"
 msgstr "Potrebna ispravna lozinka"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:412
 msgid "Valid email required"
 msgstr "Potreban ispravan email"
 
@@ -649,7 +688,8 @@ msgstr "Nevažeći atribut podataka: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Nedostaje atribut podataka: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555
+#: .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ta link za potvrdu već upotrijebljen i može se upotrebiti samo jednom."
 
@@ -661,7 +701,8 @@ msgstr "Ovo polje je potrebno"
 msgid "Authorization code required"
 msgstr "Kod autorizacije potreban"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Link oštećen"
 
@@ -843,14 +884,18 @@ msgstr "Neispravan token"
 
 #: .es5/lib/strings.js:25
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s "
-"(%(serviceUri)s)."
+"Ako nastavite, pristajete na <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Obavijest o privatnosti</a> od %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
+msgid ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-"
+"account\">Help</a>"
 msgstr ""
 
 #: .es5/lib/strings.js:34
@@ -870,8 +915,12 @@ msgid "IP address: %(ip)s"
 msgstr "IP adresa: %(ip)s"
 
 #: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
-msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Za dodatnu sigurnost, potvrdite ovu prijavu za početak sinkronizacije s ovim uređajem:"
+msgid ""
+"For added security, please confirm this sign-in to begin syncing with this "
+"device:"
+msgstr ""
+"Za dodatnu sigurnost, potvrdite ovu prijavu za početak sinkronizacije s ovim "
+"uređajem:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -882,18 +931,23 @@ msgid "500 Error"
 msgstr "500 Greška"
 
 #: .es5/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
 msgstr "Nešto je pošlo po zlu. Obaviješteni smo i radit ćemo na popravci."
 
-#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+#: .es5/templates/account_recovery_confirm_key.mustache:1
+#: .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
 msgstr "Link za reset lozinke istekao"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:2
+#: .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
 msgstr "Link koji ste kliknuli za resetovanje lozinke je istekao."
 
-#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+#: .es5/templates/account_recovery_confirm_key.mustache:3
+#: .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
 msgstr "Dobiti novi link"
 
@@ -901,30 +955,47 @@ msgstr "Dobiti novi link"
 msgid "Reset password with recovery key"
 msgstr ""
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
-#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6
+#: .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13
+#: .es5/templates/inline_totp_setup.mustache:2
+#: .es5/templates/inline_totp_setup.mustache:8
+#: .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2
+#: .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Nastavi na %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
+msgid ""
+"Please enter the one time use recovery key you stored in a safe place to "
+"regain access to your Firefox Account."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have "
+"account recovery key saved, some of your data will be erased (including "
+"synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
 msgstr ""
 
-#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+#: .es5/templates/account_recovery_confirm_key.mustache:10
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm recovery key"
 msgstr ""
 
@@ -937,10 +1008,12 @@ msgid "Cannot create account"
 msgstr "Nije moguće kreirati račun"
 
 #: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgid ""
+"You must meet certain age requirements to create a Firefox&nbsp;account."
 msgstr ""
 
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+#: .es5/templates/cannot_create_account.mustache:4
+#: .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
 msgstr "Saznaj više"
 
@@ -952,7 +1025,8 @@ msgstr ""
 msgid "Sync selections"
 msgstr ""
 
-#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+#: .es5/templates/choose_what_to_sync.mustache:5
+#: .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
 msgstr ""
 
@@ -960,9 +1034,15 @@ msgstr ""
 msgid "Reset password link damaged"
 msgstr "Link za reset lozinke je istekao"
 
-#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Linku koji ste kliknuli je nedostajalo znakova i možda je onesposobljen od vašeg email klijenta. Pažljivo kopirajte adresu i pokušajte ponovo."
+#: .es5/templates/complete_reset_password.mustache:6
+#: .es5/templates/complete_sign_up.mustache:12
+#: .es5/templates/report_sign_in.mustache:2
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"Linku koji ste kliknuli je nedostajalo znakova i možda je onesposobljen od "
+"vašeg email klijenta. Pažljivo kopirajte adresu i pokušajte ponovo."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -970,15 +1050,21 @@ msgstr "Napravite novu lozinku"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
-"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+"<span>REMEMBER:</span> When you reset your password, you reset your account. "
+"You may lose some of your personal information (including history, "
+"bookmarks, and passwords). That’s because we encrypt your data with your "
+"password to protect your privacy. You’ll still keep any subscriptions you "
+"may have and Pocket data will not be affected."
 msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
+msgid ""
+"You have successfully restored your account using your recovery key. Create "
+"a new password to secure your data, and store it in a safe location."
 msgstr ""
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+#: .es5/templates/complete_reset_password.mustache:13
+#: .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
 msgstr "Nova lozinka"
 
@@ -986,7 +1072,10 @@ msgstr "Nova lozinka"
 msgid "Re-enter password"
 msgstr "Ponovo unesite lozinku"
 
-#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+#: .es5/templates/complete_reset_password.mustache:16
+#: .es5/templates/confirm_reset_password.mustache:5
+#: .es5/templates/confirm_reset_password.mustache:7
+#: .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Zapamti lozinku? Prijavi se"
 
@@ -1027,20 +1116,29 @@ msgid "Confirm this sign-in"
 msgstr "Potvrdi prijavu"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgid ""
+"Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
 
 #: .es5/templates/confirm.mustache:9
-msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr "Provjerite vaš email za link potvrde prijave poslan na %(escapedEmail)s"
+msgid ""
+"Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr ""
+"Provjerite vaš email za link potvrde prijave poslan na %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm_reset_password.mustache:4
+#: .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Nije u sandučetu ili spam folderu folderu? Pošalji ponovo"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/confirm.mustache:14
+#: .es5/templates/inline_recovery_setup.mustache:17
+#: .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6
+#: .es5/templates/tos.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Nazad"
 
@@ -1049,10 +1147,15 @@ msgid "Reset email sent"
 msgstr "Resetuj poslani email"
 
 #: .es5/templates/confirm_reset_password.mustache:2
-msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Kliknite na link koji smo poslali na %(email)s u narednih sat vremena kako bi kreirali novu lozinku."
+msgid ""
+"Click the link emailed to %(email)s within the next hour to create a new "
+"password."
+msgstr ""
+"Kliknite na link koji smo poslali na %(email)s u narednih sat vremena kako "
+"bi kreirali novu lozinku."
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
@@ -1065,21 +1168,30 @@ msgstr ""
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4
+#: .es5/templates/sign_in_token_code.mustache:3
+#: .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Unesite 6-ocifreni kod"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:16
+#: .es5/templates/sign_in_recovery_code.mustache:5
+#: .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Potvrdi"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr ""
 
@@ -1095,7 +1207,8 @@ msgstr ""
 msgid "Email confirmed"
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+#: .es5/templates/connect_another_device.mustache:9
+#: .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
 msgstr ""
 
@@ -1103,11 +1216,14 @@ msgstr ""
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Prijavite se na ovaj Firefox da dovršite podešavanje"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:13
+#: .es5/templates/connect_another_device.mustache:28
+#: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Još uvijek dodajete uređaj?"
 
-#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+#: .es5/templates/connect_another_device.mustache:15
+#: .es5/templates/connect_another_device.mustache:30
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Prijavite se na Firefox na drugom uređaju da dovršite podešavanje"
 
@@ -1124,8 +1240,11 @@ msgid "We’re on Android and iOS, too!"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:22
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "Još dodajete uređaje? Prijavite se na Firefox na drugom uređaju da dovršite podešavanje"
+msgid ""
+"Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
+"Još dodajete uređaje? Prijavite se na Firefox na drugom uređaju da dovršite "
+"podešavanje"
 
 #: .es5/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1140,34 +1259,52 @@ msgid "Cookies and local storage are required"
 msgstr "Potrebni su kolačići i lokalno skladištenje"
 
 #: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Da biste pristupili Firefox računima, molimo omogućite kolačiće i lokalno skladištenje u vašem browseru. To će omogućiti funkcionalnost kao što je pamćenje između sesija."
+msgid ""
+"Please enable cookies and local storage in your browser to access Firefox "
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
+msgstr ""
+"Da biste pristupili Firefox računima, molimo omogućite kolačiće i lokalno "
+"skladištenje u vašem browseru. To će omogućiti funkcionalnost kao što je "
+"pamćenje između sesija."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
 msgstr "Pokušaj ponovo"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+#: .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1
 msgid ""
 "\n"
-"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader"
+"\">for your Firefox account</span>\n"
 "        "
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "Lozinka"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:8
+#: .es5/templates/sign_in_password.mustache:13
+#: .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href="
+"\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp"
+"\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9
+#: .es5/templates/sign_in_password.mustache:14
+#: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Koristite drugačiji račun"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+#: .es5/templates/force_auth.mustache:10
+#: .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
 msgstr "Zaboravili ste lozinku?"
 
@@ -1184,7 +1321,8 @@ msgid "Enter your email"
 msgstr "Upišite vaš email"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgid ""
+"Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/index.mustache:9
@@ -1192,7 +1330,9 @@ msgid "Sign up or sign in"
 msgstr ""
 
 #: .es5/templates/index.mustache:11
-msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgid ""
+"A Firefox account also unlocks access to more privacy-protecting products "
+"from Mozilla."
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1200,29 +1340,41 @@ msgid "Save recovery codes"
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:3
-msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
+msgid ""
+"Store these one-time use codes in a safe place for when you don't have your "
+"mobile device."
 msgstr ""
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "Preuzmi"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/inline_recovery_setup.mustache:6
+#: .es5/templates/inline_recovery_setup.mustache:8
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "Kopiraj"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "Štampaj"
 
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:10
+#: .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7
+#: .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Nastavi"
 
-#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+#: .es5/templates/inline_recovery_setup.mustache:11
+#: .es5/templates/inline_recovery_setup.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:5
+#: .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
 msgstr ""
 
@@ -1231,7 +1383,9 @@ msgid "Confirm recovery code"
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgid ""
+"To ensure that you will be able to regain access to your account, in the "
+"event of a lost device, please enter one of your saved recovery codes."
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
@@ -1243,8 +1397,13 @@ msgid "Enable two-step authentication"
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:3
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Dodajte nivo zaštite za vaš račun zahtijevanjem sigurnosnih kodova sa nekih od <a %(escapedTotpSupportAttributes)s>ovih autentifikacijskih aplikacija</a>."
+msgid ""
+"Add a layer of security to your account by requiring security codes from one "
+"of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr ""
+"Dodajte nivo zaštite za vaš račun zahtijevanjem sigurnosnih kodova sa nekih "
+"od <a %(escapedTotpSupportAttributes)s>ovih autentifikacijskih aplikacija</"
+"a>."
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
@@ -1255,15 +1414,21 @@ msgid "Enter code manually"
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:12
-msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Skenirajte QR kod u vašoj aplikaiji za autentifikaciju i unesite sigurnosni kod koji je ponuđen."
+msgid ""
+"Scan the QR code in your authentication app and then enter the security code "
+"it provides."
+msgstr ""
+"Skenirajte QR kod u vašoj aplikaiji za autentifikaciju i unesite sigurnosni "
+"kod koji je ponuđen."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "Ne možete da skenirate kod?"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
-msgid "Once complete, it will begin generating security codes for you to enter."
+#: .es5/templates/inline_totp_setup.mustache:14
+#: .es5/templates/inline_totp_setup.mustache:18
+msgid ""
+"Once complete, it will begin generating security codes for you to enter."
 msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:16
@@ -1286,24 +1451,34 @@ msgstr ""
 msgid "Legal"
 msgstr "Pravno"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23
+#: .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Uslovi korištenja"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1
+#: .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Napomena o privatnosti"
 
-#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+#: .es5/templates/marketing_snippet.mustache:1
+#: .es5/templates/marketing_snippet.mustache:5
+#: .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Doživi potpuno iskustvo sinhronizacije."
 
-#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:2
+#: .es5/templates/marketing_snippet.mustache:3
+#: .es5/templates/marketing_snippet.mustache:11
+#: .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
 msgstr "Preuzmi Firefox za iOS!"
 
-#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:6
+#: .es5/templates/marketing_snippet.mustache:7
+#: .es5/templates/marketing_snippet.mustache:12
+#: .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
 msgstr "Preuzmi Firefox za Android."
@@ -1324,16 +1499,21 @@ msgstr "%(serviceName)s želi sljedeće informacije sa vašeg računa:"
 msgid "Accept"
 msgstr "Prihvati"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:5
+#: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Otkaži"
 
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+#: .es5/templates/ready.mustache:1
+#: .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
 msgstr "Uspjeh"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgid ""
+"You are now ready to use <div class=\"graphic %(serviceLogo)s\">"
+"%(serviceName)s</div>"
 msgstr ""
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
@@ -1353,24 +1533,33 @@ msgid "Report unauthorized sign-in?"
 msgstr "Prijavi neovlašteno prijavljivanje?"
 
 #: .es5/templates/report_sign_in.mustache:5
-msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Primili ste email o pokušaju pristupa vašem računu. Želite li prijaviti ovu aktivnost kao sumnjivom?"
+msgid ""
+"You received an email about attempted access to your account. Would you like "
+"to report this activity as suspicious?"
+msgstr ""
+"Primili ste email o pokušaju pristupa vašem računu. Želite li prijaviti ovu "
+"aktivnost kao sumnjivom?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
 msgstr "Prijavi aktivnost"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7
+#: .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Zašto se ovo dešava?"
 
 #: .es5/templates/reset_password.mustache:3
 msgid ""
-"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+"<span>NOTE:</span> When you reset your password, you reset your account. You "
+"may lose some of your personal information (including history, bookmarks, "
+"and passwords). That’s because we encrypt your data with your password to "
+"protect your privacy. You’ll still keep any subscriptions you may have and "
+"Pocket data will not be affected."
 msgstr ""
 
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+#: .es5/templates/reset_password.mustache:5
+#: .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
 msgstr "Email"
 
@@ -1411,12 +1600,20 @@ msgid "Sorry. We’ve locked your&nbsp;account."
 msgstr "Žao nam je. Zaključali smo vaš &nbsp;račun."
 
 #: .es5/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Email za potvrdu koji smo poslali na %(email)s je vraćen i zaključali smo vaš račun kako bismo zaštitili vaše Firefox podatke."
+msgid ""
+"The confirmation email we sent to %(email)s was returned and we’ve locked "
+"your account to protect your Firefox data."
+msgstr ""
+"Email za potvrdu koji smo poslali na %(email)s je vraćen i zaključali smo "
+"vaš račun kako bismo zaštitili vaše Firefox podatke."
 
 #: .es5/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Ako je ovo ispravna email adresa, <a %(escapedSupportLinkAttrs)s>javite nam</a> i mi ćemo vam pomoći da otključate vaš račun."
+msgid ""
+"If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us "
+"know</a> and we can help unlock your account."
+msgstr ""
+"Ako je ovo ispravna email adresa, <a %(escapedSupportLinkAttrs)s>javite nam</"
+"a> i mi ćemo vam pomoći da otključate vaš račun."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1426,9 +1623,13 @@ msgstr "Više neposjedujete taj email? Kreirajte novi račun"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href="
+"\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp"
+"\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy "
+"Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/"
+"terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href="
+"\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 
@@ -1453,11 +1654,15 @@ msgid "Thank you for your vigilance"
 msgstr "Hvala vam na vašoj predostrožnosti!"
 
 #: .es5/templates/sign_in_reported.mustache:2
-msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "Naš tim je obavješten. Ovakve prijave nam pomažu da se odbranimo od uljeza."
+msgid ""
+"Our team has been notified. Reports like this help us fend off intruders."
+msgstr ""
+"Naš tim je obavješten. Ovakve prijave nam pomažu da se odbranimo od uljeza."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgid ""
+"Enter confirmation code <span class=\"card-subheader\">for your Firefox "
+"account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
@@ -1470,13 +1675,17 @@ msgstr "Unesite sigurnosni kod"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "Otvorite vašu aplikaciju za autentifikaciju i unesite sigurnosni kod koji nudi."
+msgstr ""
+"Otvorite vašu aplikaciju za autentifikaciju i unesite sigurnosni kod koji "
+"nudi."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr ""
 
-#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+#: .es5/templates/sign_in_unblock.mustache:1
+#: .es5/templates/sign_in_unblock.mustache:2
+#: .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
 msgstr "Potvrdite ovu prijavu"
 
@@ -1501,7 +1710,9 @@ msgid "Repeat password"
 msgstr "Ponovi lozinku"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgid ""
+"You need this password to access any encrypted data you store with us.<br/>A "
+"reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
@@ -1520,9 +1731,13 @@ msgstr "Kreiraj račun"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://"
+"getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id="
+"\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</"
+"a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/"
+"terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href="
+"\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
@@ -1546,7 +1761,8 @@ msgstr ""
 msgid "What are you contacting us about?"
 msgstr ""
 
-#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11
+#: .es5/templates/support.mustache:18
 msgid "Please select one"
 msgstr ""
 
@@ -1606,11 +1822,13 @@ msgstr ""
 msgid "Enter your password to view your recovery key."
 msgstr ""
 
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
 msgstr ""
 
-#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/push/completed.mustache:2
+#: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
 msgstr ""
 
@@ -1627,7 +1845,10 @@ msgid "Confirm sign-in"
 msgstr ""
 
 #: .es5/templates/push/confirm_login.mustache:4
-msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
+msgid ""
+"If you suspect that someone is trying to gain access to your account, <a id="
+"\"change-password\" href=\"/settings/change_password\">please change your "
+"password.</a>"
 msgstr ""
 
 #: .es5/templates/push/send_login.mustache:2
@@ -1635,7 +1856,9 @@ msgid "Send login push notification"
 msgstr ""
 
 #: .es5/templates/push/send_login.mustache:3
-msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
+msgid ""
+"Check your connected Firefox devices for the sign-in confirmation tab we've "
+"sent."
 msgstr ""
 
 #: .es5/templates/push/send_login.mustache:4
@@ -1646,25 +1869,32 @@ msgstr ""
 msgid "Tab not arriving? Send an email instead"
 msgstr ""
 
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
+msgid ""
+"Adding a secondary email helps you get back into your account if you are "
+"locked out and can not access %(escapedEmail)s."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
 msgstr "Sekundarna email adresa"
 
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "Možda kasnije"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgid ""
+"Please enter the confirmation code that was sent to %(escapedEmail)s within "
+"5 minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
@@ -1675,7 +1905,8 @@ msgstr ""
 msgid "Use a different email"
 msgstr ""
 
-#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+#: .es5/templates/post_verify/password/force_password_change.mustache:1
+#: .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
 msgstr ""
 
@@ -1685,11 +1916,14 @@ msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+"We detected suspicious behavior on your Firefox account. To protect your "
+"account, please create a new password. You’ll use this password to sign back "
+"in to all of your Firefox account services."
 msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
-msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
+msgid ""
+"Synced history, bookmarks, logins, and other personal data will not be lost."
 msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
@@ -1725,10 +1959,13 @@ msgid "Subscribe %(email)s"
 msgstr ""
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client."
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client."
 msgstr ""
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
 msgstr "Kreirajte Firefox račun"
 
@@ -1740,7 +1977,8 @@ msgstr ""
 msgid "Enter a password"
 msgstr ""
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr ""
@@ -1770,14 +2008,17 @@ msgid "Sync Firefox between devices"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
-msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
+msgid ""
+"Sync bookmarks, history, and passwords to Firefox on your mobile devices. It "
+"only takes a few minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
 msgstr ""
 
@@ -1786,7 +2027,9 @@ msgid "Download Firefox with your camera app"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
-msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
+msgid ""
+"Installing Firefox and syncing between at least two devices also protects "
+"against losing your data."
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
@@ -1794,7 +2037,9 @@ msgid "Ready to scan"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
+msgid ""
+"<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile "
+"device</h1><p>with a QR code we've created just for you</p>"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
@@ -1818,18 +2063,22 @@ msgid "<span class=\"number\">1</span>Open the camera app on your device"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
+msgid ""
+"<span class=\"number\">2</span>Point the camera at the QR code and tap the "
+"link that appears"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgid ""
+"<span class=\"number\">3</span>Install Firefox and open it on your device"
 msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr ""
 
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
 msgstr ""
 
@@ -1838,7 +2087,10 @@ msgid "Your synced data can include passwords you've saved."
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
-msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
+msgid ""
+"Because this information is critical to your security, Firefox deletes it to "
+"protect you when your password is reset to prevent other people from "
+"accessing it."
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
@@ -1846,14 +2098,17 @@ msgid "Get a Recovery Key"
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
+msgid ""
+"Please confirm your password for %(escapedEmail)s to generate your recovery "
+"key."
 msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
 msgstr ""
 
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr ""
 
@@ -1862,14 +2117,21 @@ msgid "Done"
 msgstr "Gotovo"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
-msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
+msgid ""
+"Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out "
+"here</a>"
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid ""
+"How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr "Koliko godina imate?"
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -1914,11 +2176,15 @@ msgid "Not a commonly used password"
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgid ""
+"Stay safe &mdash; don’t reuse passwords. See more tips to <a "
+"%(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
 msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
+msgid ""
+"Hmm, we're having trouble with our system. We're working on fixing it for "
+"you and apologize for the inconvenience. Please try again later."
 msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:1
@@ -1930,8 +2196,12 @@ msgid "Back to Subscriptions"
 msgstr ""
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Tražite sinhronizaciju Firefox? <a %(escapedSyncSuggestionAttrs)s>Počnite ovdje</a>"
+msgid ""
+"Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started "
+"here</a>"
+msgstr ""
+"Tražite sinhronizaciju Firefox? <a %(escapedSyncSuggestionAttrs)s>Počnite "
+"ovdje</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
@@ -1962,22 +2232,28 @@ msgid "Yes, approve device"
 msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
+msgid ""
+"If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change "
+"your password</a> "
 msgstr ""
 
-#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+#: .es5/templates/pair/auth_complete.mustache:1
+#: .es5/templates/pair/success.mustache:1
 msgid "Device connected"
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
 "\n"
-"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</"
+"span>\n"
 "      "
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
-msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgid ""
+"Now you can access your open tabs, passwords, and bookmarks on all your "
+"devices."
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:5
@@ -1988,7 +2264,8 @@ msgstr ""
 msgid "Manage devices"
 msgstr ""
 
-#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1
+#: .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
 msgstr ""
 
@@ -2009,11 +2286,15 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
+msgid ""
+"To download Firefox on your mobile device, hold the device’s camera over "
+"this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/"
+"\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
@@ -2021,7 +2302,9 @@ msgid "I’m ready to sync devices"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
-msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgid ""
+"Sync devices to access your tabs, passwords, and bookmarks everywhere you "
+"use Firefox."
 msgstr ""
 
 #: .es5/templates/pair/success.mustache:2
@@ -2047,759 +2330,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "Primarna email adresa potvrđena"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "Sekundarna email adresa potvrđena"
-
-#~ msgid "Account verified"
-#~ msgstr "Korisnički račun verifikovan"
-
-#~ msgid "Verification link expired"
-#~ msgstr "Link za verifikaciju istekao"
-
-#~ msgid "Click here to receive a new verification link"
-#~ msgstr "Kliknite ovdje da biste dobili novi verifikacijski link"
-
-#~ msgid "Verification error"
-#~ msgstr "Greška verifikacije"
-
-#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "Provjerite vaš email za verifikacijski link &nbsp;na %(escapedEmail)s"
-
-#~ msgid "Email verified"
-#~ msgstr "Email potvrđen"
-
-#~ msgid "Verify"
-#~ msgstr "Potvrdi"
-
-#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-#~ msgstr "Morate ispuniti određene dobne uvjete za izradu Firefox&nbsp;računa."
-
-#~ msgid "Check your email for the code sent to %(email)s."
-#~ msgstr "Provjerite vaš email za kod poslan na %(email)s."
-
-#~ msgid "Why is more than one device required?"
-#~ msgstr "Zašto je potrebno više od jednog uređaja?"
-
-#~ msgid "Why sync multiple devices?"
-#~ msgstr "Zašto sinhronizirati više uređaja?"
-
-#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-#~ msgstr "Servis za sinhronizaciju nije trajni backup, to je jednostavno siguran način da prebacite spašene zabilješke, historiju i lozinke izmedju vaših uređaja."
-
-#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-#~ msgstr "Trebate instalirati Firefox i sinhronizovati najmanje dva uređaja kako biste se zaštitili od gubljenja podataka u slučaju da ih morate obnoviti a zaboravili ste lozinku."
-
-#~ msgid "Got it"
-#~ msgstr "Razumijem"
-
-#~ msgid "Must not be your email address"
-#~ msgstr "Nesmije biti vaša email adresa"
-
-#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-#~ msgstr "Nesmije odgovarati ovoj <a %(escapedCommonPasswordLinkAttrs)s>listi uobičajenih lozinki</a>"
-
-#~ msgid "Mobile phone number"
-#~ msgstr "Broj mobitela"
-
-#~ msgid "Didn't arrive? Resend"
-#~ msgstr "Nije stiglo? Pošalji ponovo"
-
-#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-
-#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
-#~ msgstr "Kada završite, koristite novu lozinku za prijavu na svim vašim uređajima."
-
-#~ msgid "Change"
-#~ msgstr "Promijeni"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Promjena lozinke uspješna"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "Žao nam je zbog ovoga. Trebate promijeniti vašu lozinku za Firefox korisnički račun i tražite informacije od proizvođača uređaja za remote brisanje podataka."
-
-#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "Žao nam je zbog ovoga. Ako je ovo bio uređaj kojem ne vjerujete, trebate promijeniti lozinku vašeg Firefof korisničkog računa i sve lozinke spašene u Firefoxu."
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Posljednja aktivnost %(translatedTimeAgo)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s"
-#~ msgstr "Posljednja aktivnost preko %(translatedTimeAgo)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Posljednja aktivnost %(translatedTimeAgo)s u %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Posljednja aktivnost preko %(translatedTimeAgo)s u %(translatedCountry)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Posljednja aktivnost %(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Posljednja aktivnost preko %(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s"
-
-#~ msgid "Over %(translatedTimeAgo)s"
-#~ msgstr "Preko %(translatedTimeAgo)s"
-
-#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s u %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Preko %(translatedTimeAgo)s u %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Preko %(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Web Session, %(userAgent)s"
-#~ msgstr "Web sesija, %(userAgent)s"
-
-#~ msgid "Web Session"
-#~ msgstr "Web sesija"
-
-#~ msgid "Change…"
-#~ msgstr "Promijeni…"
-
-#~ msgid "Add…"
-#~ msgstr "Dodaj…"
-
-#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
-#~ msgstr "Izaberite ime koje želite da se prikaže u Firefoxu i kada uređujete vaš račun."
-
-#~ msgid "Display name updated"
-#~ msgstr "Ime prikaza ažurirano"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "Sekundarna email adresa uklonjena"
-
-#~ msgid "Verification email sent"
-#~ msgstr "Email za verifikaciju je poslat"
-
-#~ msgid "Primary email set to %(email)s"
-#~ msgstr "Primarni email postavljen na %(email)s"
-
-#~ msgid "New recovery codes generated"
-#~ msgstr "Novi kodovi za oporavak su generisani"
-
-#~ msgid "Two-step authentication removed"
-#~ msgstr "Autentifikacija u dva koraka je uklonjena"
-
-#~ msgid "Two-step Authentication"
-#~ msgstr "Autentifikacija u dva koraka"
-
-#~ msgid "Sign out"
-#~ msgstr "Odjavi se"
-
-#~ msgid "Take picture"
-#~ msgstr "Slikaj"
-
-#~ msgid "Upload"
-#~ msgstr "Upload"
-
-#~ msgid "Camera"
-#~ msgstr "Kamera"
-
-#~ msgid "Clear"
-#~ msgstr "Očisti"
-
-#~ msgid "Position and rotate your picture as needed"
-#~ msgstr "Pozicioniraj i okreni sliku po potrebi"
-
-#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-#~ msgstr "Vaši podaci o pretraživanju će ostati na %(deviceName)s, ali više neće biti sinhronizovani s vašim računom."
-
-#~ msgid "Rather not say"
-#~ msgstr "Radije nemoj reći"
-
-#~ msgid "Disconnect"
-#~ msgstr "Prekini vezu"
-
-#~ msgid "Disconnection Successful"
-#~ msgstr "Veza uspješno prekinuta"
-
-#~ msgid "Devices & apps"
-#~ msgstr "Uređaji & aplikacije"
-
-#~ msgid "Show"
-#~ msgstr "Prikaži"
-
-#~ msgid "Current device"
-#~ msgstr "Trenutni uređaj"
-
-#~ msgid "Disconnect…"
-#~ msgstr "Prekini vezu..."
-
-#~ msgid "Current session"
-#~ msgstr "Trenutna sesija"
-
-#~ msgid "Revoke"
-#~ msgstr "Opozovi"
-
-#~ msgid "Firefox for iOS"
-#~ msgstr "Firefox za iOS"
-
-#~ msgid "None connected"
-#~ msgstr "Nije povezan"
-
-#~ msgid "Firefox for Android"
-#~ msgstr "Firefox za Android"
-
-#~ msgid "Missing or duplicate items?"
-#~ msgstr "Nestala ili dupla stavka?"
-
-#~ msgid "Email preferences"
-#~ msgstr "Email postavke"
-
-#~ msgid "Delete account"
-#~ msgstr "Izbriši račun"
-
-#~ msgid "Delete…"
-#~ msgstr "Izbriši…"
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-#~ msgstr "Sekundarna email adresa je dodatna adresa za primanje sigurnosnih poruka i potvrda za nove uređaje."
-
-#~ msgid "Make primary"
-#~ msgstr "Postavi kao primarno"
-
-#~ msgid "Remove"
-#~ msgstr "Ukloni"
-
-#~ msgid "Refresh"
-#~ msgstr "Osvježi"
-
-#~ msgid "Add"
-#~ msgstr "Dodaj"
-
-#~ msgid "NOTE:"
-#~ msgstr "NAPOMENA:"
-
-#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-#~ msgstr "Generisanjem novih kodova za oporavak, svi prethodni kodovi će postati nevažeći. Molimo sačuvajte nove kodove na sigurnu lokaciju."
-
-#~ msgid "Generate new recovery codes"
-#~ msgstr "Generišite nove kodove za oporavak"
-
-#~ msgid "Two-step authentication"
-#~ msgstr "Autenfitikacija u dva koraka"
-
-#~ msgid "Enable…"
-#~ msgstr "Omogući…"
-
-#~ msgid "Current status"
-#~ msgstr "Trenutni status"
-
-#~ msgid "Enabled"
-#~ msgstr "Omogućeno"
-
-#~ msgid "Disabled"
-#~ msgstr "Onemogućeno"
-
-#~ msgid "Disable"
-#~ msgstr "Onemogući"
-
-#~ msgid "Enable"
-#~ msgstr "Omogući"
-
-#~ msgid "Replace recovery codes"
-#~ msgstr "Zamijenite kodove za oporavak"
-
-#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
-#~ msgstr "Prije nego pregledate ili napravite izmjene za ovu sekciju, trebat ćete potvrditi svoju email adresu."
-
-#~ msgid "Primary email"
-#~ msgstr "Glavna email adresa"
-
-#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-#~ msgstr "Pošaljite FIrefox direktno na vaš pametni telefon i prijavite se da završite postavke"
-
-#~ msgid ""
-#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr ""
-#~ "SMS servis je dostupan samo u određenim zemljama. SMS &amp; cijena za podake se može primijeniti. Primarni primalac emaila ili SMS-a mora da je pristao. <a "
-#~ "%(escapedLearnMoreAttributes)s>Saznajte više</a>"
-
-#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-#~ msgstr "Račun već postoji. <a href=\"/signin\">Prijavi se</a>"
-
-#~ msgid "Last sync %(translatedTimeAgo)s"
-#~ msgstr "Posljednja sinkronizacija %(translatedTimeAgo)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s"
-#~ msgstr "Posljednja sinkronizacija preko %(translatedTimeAgo)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Posljednja sinkronizacija %(translatedTimeAgo)s u %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Posljednja sinkronizacija preko %(translatedTimeAgo)s u %(translatedCountry)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Posljednja sinhronizacija %(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Posljednja sinhronizacija preko %(translatedTimeAgo)s blizu %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync time unknown"
-#~ msgstr "Nepoznato vrijeme posljednje sinhronizacije"
-
-#~ msgid "Subscribed successfully"
-#~ msgstr "Pretplata uspješna"
-
-#~ msgid "Open tabs"
-#~ msgstr "Otvori tabove"
-
-#~ msgid "Logins"
-#~ msgstr "Prijave"
-
-#~ msgid "Credit cards"
-#~ msgstr "Kreditne kartice"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox Sinhronizacija"
-
-#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-#~ msgstr "Jeste li mislili <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-
-#~ msgid "Please try again later"
-#~ msgstr "Pokušajte ponovo kasnije"
-
-#~ msgid "Service unavailable, try again soon"
-#~ msgstr "Usluga nedostupna, pokušajte ponovo uskoro"
-
-#~ msgid "Sign in to continue"
-#~ msgstr "Prijavi se za nastavak"
-
-#~ msgid "Create an account"
-#~ msgstr "Kreirajte račun"
-
-#~ msgid "Enter code"
-#~ msgstr "Unesite kod"
-
-#~ msgid "Use recovery code"
-#~ msgstr "Koristite kod za oporavak"
-
-#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-#~ msgstr "Nemojte izgubiti ovu lozinku. Ako je trebate resetovati, možete izgubiti podatke sinhronizacije."
-
-#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr "<span>Nemoj ponovo koristiti ovu email lozinku</span>Ako neko zna vašu lozinku, mogu je odobriti putem vašeg Firefox računa na novom uređaju i pristupiti vašim podacima."
-
-#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "<span>Zamaptite svoju lozinku</span>Ako trebate resetovati lozinku, izgubit ćete sve podatke sinhronizacije koji nisu na jednom od vaših uređaja."
-
-#~ msgid "Have an account? Sign in"
-#~ msgstr "Imate račun? Prijavite se"
-
-#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
-#~ msgstr "Instalirajte FIrefox na vaš pametni telefon i prijavite se da završite postavke"
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "Link aplikacije poslan na %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Pogrešno upisan&nbsp;brojr?</a>"
-
-#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "Link aplikacije ponovo poslan na %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Pogrešno upisan&nbsp;brojr?</a>"
-
-#~ msgid "If you are not receiving the text message, you can also download the apps manually."
-#~ msgstr "Ako ne primate tekstualnu poruku, možete takođe preuzeti aplikacije ručno."
-
-#~ msgid "Disconnect from Sync?"
-#~ msgstr "Prekini vezu sa Sinhronizacijom?"
-
-#~ msgid "Suspicious device"
-#~ msgstr "Sumnjiv uređaj"
-
-#~ msgid "Lost or stolen device"
-#~ msgstr "Izgubljen ili ukraden uređaj"
-
-#~ msgid "Old or replaced device"
-#~ msgstr "Stari ili zamjenjeni uređaj"
-
-#~ msgid "Duplicate device"
-#~ msgstr "Dupliciraj uređaj"
-
-#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-#~ msgstr ""
-#~ "Primićete komunikacije u vezi sa sigurnošću vašeg računa, promjenama naše politike, funkcionalnošću vašeg računa i inicijalne emailove kako bi vam pomogli da izvučete najviše od svog Firefox "
-#~ "računa."
-
-#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-#~ msgstr "Dodatno, možete se pretplatiti za primanje promotivnih emailova sa najnovijim vrijestima od Mozille i Firefoxa."
-
-#~ msgid "Subscribe"
-#~ msgstr "Preplati se"
-
-#~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
-#~ msgstr ""
-#~ "Ako koristite ovaj račun za Mozilla aplikacije i usluge poput AMO, Pocket i Screenshots trebate se prvo prijaviti i ukloniti bilo kakvu sačuvanu ličnu informaciju. Kada jednom izbrišete vaš "
-#~ "račun ovdje možda ćete izgubiti pristup za njega svugdje."
-
-#~ msgid "verified"
-#~ msgstr "verifikovan"
-
-#~ msgid "verification required"
-#~ msgstr "potrebna verifikacija"
-
-#~ msgid "Recovery codes"
-#~ msgstr "Kodovi za oporavak"
-
-#~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-#~ msgstr "Ovo su vaši kodovi za jednokratnu upotrebu. Sačuvajte ih na sigurno mjesto u slučaju da izgubite pristup vašem mobilnom uređaju. Nećete imati priliku da ponovo vidite ove kodove."
-
-#~ msgid "Manually enter this secret key into your authentication app:"
-#~ msgstr "Unesite ručno ovaj tajni ključ u vašu aplikaciju za autentifikaciju:"
-
-#~ msgid "Your Firefox Account password"
-#~ msgstr "Vaša lozinka Firefox računa"
-
-#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-#~ msgstr "Budite originalni i sigurni &mdash; nemojte koristiti ovu lozinku bilo gdje drugo."
-
-#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
-#~ msgstr "Zapamtite ovu lozinku &mdash; resetovanje lozinke briše vaše podatke sa naših servera."
-
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr ""
-#~ "Ako nastavite, pristajete na <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">uslove pružanja usluge</a> i <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">politiku privatnosti</"
-#~ "a>."
-
-#~ msgid "%(email)s registered."
-#~ msgstr "%(email)s registrovano."
-
-#~ msgid "Communication preferences"
-#~ msgstr "Prednosti komunikacije"
-
-#~ msgid "Manage Subscriptions"
-#~ msgstr "Upravljajte pretplatama"
-
-#~ msgid "Refresh Status"
-#~ msgstr "Osvježi status"
-
-#~ msgid "Use a different email address"
-#~ msgstr "Koristite različite email adrese"
-
-#~ msgid "Sign in &rarr;"
-#~ msgstr "Prijavi se &rarr;"
-
-#~ msgid "Save settings"
-#~ msgstr "Spasi postavke"
-
-#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr "Nepoznat Firefox račun. <a href=\"/signup\">Prijavite se</a> koristeći prethodnu email adresu računa dodataka za pristup vašim podacima dodataka."
-
-#~ msgid "App link resent to %(phoneNumber)s"
-#~ msgstr "Link za aplikaciju ponovo poslan na %(phoneNumber)s"
-
-#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-#~ msgstr "Ljubaznost <a href=\"https://www.gravatar.com\">Gravatar-a</a>"
-
-#~ msgid "Unsubscribed successfully"
-#~ msgstr "Pretplata uspješno otkazana"
-
-#~ msgid "Email resent"
-#~ msgstr "Email ponovo poslan"
-
-#~ msgid "No Gravatar found"
-#~ msgstr "Gravatar nije pronađen"
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-#~ msgstr "Da li ste mislili <span tabindex=\"1\">%(escapedDomain)s</span>?"
-
-#~ msgid "Resources failed to load"
-#~ msgstr "Resursi nisu učitani"
-
-#~ msgid "Unexpected resource error"
-#~ msgstr "Neočekivana greška resursa"
-
-#~ msgid "Script error"
-#~ msgstr "Greška skripte"
-
-#~ msgid "SMS sent"
-#~ msgstr "SMS poslan"
-
-#~ msgid "Your number has been blocked"
-#~ msgstr "Vaš broj je blokiran"
-
-#~ msgid "SMS not sent, please try again"
-#~ msgstr "SMS nije poslan, molimo pokušajte ponovo"
-
-#~ msgid "Learn more."
-#~ msgstr "Saznajte više."
-
-#~ msgid "%(email)s created"
-#~ msgstr "%(email)s napravljen"
-
-#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
-#~ msgstr "Dodaci i postavke trenutno se ne sinhronizuju na mobilnim uređajima."
-
-#~ msgid "Click here to receive a new reset link"
-#~ msgstr "Kliknite ovdje da dobijete novi link za resetovanje"
-
-#~ msgid "Enter new password"
-#~ msgstr "Unesite novu lozinku"
-
-#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Nakon što pošaljete novu lozinku, izgubit ćete sinhronizovane podatke koji nisu bili na jednom od vaših uređaja."
-
-#~ msgid "Learn how Sync works."
-#~ msgstr "Saznajte kako sinhronizacija funkcioniše."
-
-#~ msgid "Submit new password"
-#~ msgstr "Unesite novu lozinku"
-
-#~ msgid "Email Sent"
-#~ msgstr "Email poslan"
-
-#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "Link za potvrdu je poslan na %(escapedEmail)s"
-
-#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-#~ msgstr "Da bolje zaštitimo vaše Firefox podatke, poslali smo link potvrde na %(email)s"
-
-#~ msgid "Didn't arrive and not in spam folder? Resend"
-#~ msgstr "Nije stiglo i nije u spam folderu? Ponovo pošalji"
-
-#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-#~ msgstr "Kliknite na link koji smo poslali na %(email)s u narednih sat vremena kako bi kreirali novu lozinku."
-
-#~ msgid "This device is connected"
-#~ msgstr "Ovaj uređaj je povezan"
-
-#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
-#~ msgstr "Otvorite postavke i izaberite Prijavite se na Firefox da dovršite podešavanje"
-
-#~ msgid "Why is this required?"
-#~ msgstr "Zašto je ovo potrebno?"
-
-#~ msgid "Cookies and local storage are required."
-#~ msgstr "Potrebni su kolačići i lokalno skladištenje."
-
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "Ako nastavite, pristajete na <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Uvjete pružanja usluge</a> i <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Obavijest o "
-#~ "privatnosti</a> Firefox cloud usluga."
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Firefox cloud usluge"
-
-#~ msgid "Proceed"
-#~ msgstr "Nastavite"
-
-#~ msgid "Reset account"
-#~ msgstr "Resetuj račun"
-
-#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Nakon što restujete lozinku, izgubit ćete sinhronizovane podatke koji nisu bili na jednom od vaših uređaja."
-
-#~ msgid "Remember password? Sign in."
-#~ msgstr "Zapamti lozinku? Prijavi se."
-
-#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Tražite podatke dodataka? <a href=\"/signup\">Prijavi se</a> za Firefox račun sa starim emailom za račun dodataka."
-
-#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-#~ msgstr "Migrirajte svoje podatke o sinhronizaciji tako što ćete se prijaviti na svoj Firefox&nbsp;račun."
-
-#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-#~ msgstr "Za bolju zaštitu vaših Firefox podataka, ovdje je autorizacijski kod koji čeka na vas na %(email)s."
-
-#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-#~ msgstr "Tražite Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Počnite ovdje</a>"
-
-#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-#~ msgstr "Migrirajte svoje podatke o sinhronizaciji tako što ćete napraviti novi Firefox&nbsp;račun."
-
-#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Tražite podatke dodataka? Prijavite se za Firefox račun sa starim emailom za račun dodataka."
-
-#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
-#~ msgstr "Jaka, jedinstvena lozinka čuva vaše Firefox podatke sigurnim od uljeza."
-
-#~ msgid "Receive the monthly Firefox newsletter"
-#~ msgstr "Primite mjesečni Firefox newsletter"
-
-#~ msgid ""
-#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr ""
-#~ "SMS usluga je dostupna samo mobilnim brojevima u SAD-u. SMS troškovi prenosa podataka mogu nastati. Željeni primalac emaila ili SMS-a se mora prethodno složiti sa ovim. <a "
-#~ "%(escapedLearnMoreAttributes)s>Saznajte više</a>"
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-#~ msgstr "Link aplikacije poslan na %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Pogrešno upisan broj?</a>"
-
-#~ msgid "Why Sync two (or more!) devices?"
-#~ msgstr "Zašto sinhronizovati dva (ili više!) uređaja?"
-
-#~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
-#~ msgstr ""
-#~ "Sync vam omogućava dijelite zabilješke, historiju i lozinke koje ste sačuvali u Firefoxu na jednom uređaju sa Firefox-om na drugim uređajima. Prijavite se na Firefox na vašem telefonu ili "
-#~ "tabletu i sve što ste sačuvali na Firefoxu za desktop će se pojaviti."
-
-#~ msgid "Gravatar"
-#~ msgstr "Gravatar"
-
-#~ msgid "Save"
-#~ msgstr "Sačuvaj"
-
-#~ msgid "current device"
-#~ msgstr "trenutni uređaj"
-
-#~ msgid "current session"
-#~ msgstr "trenutna sesija"
-
-#~ msgid "none connected"
-#~ msgstr "ništa povezano"
-
-#~ msgid "Receive the monthly Firefox newsletter."
-#~ msgstr "Primite mjesečni Firefox newsletter."
-
-#~ msgid "Unsubscribe"
-#~ msgstr "Ukini pretplatu"
-
-#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
-#~ msgstr "Jeste li sigurni da želite izbrisati vaš račun? Ova radnja se ne može poništiti."
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "Prijavite se za Sinhronizaciju"
-
-#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-#~ msgstr "Izaberite račun koji biste željeli da koristite da biste sinhronizovali svoje tabove, zabilješke, lozinke i još mnogo toga."
-
-#~ msgid "Use OpenID"
-#~ msgstr "Koristi OpenID"
-
-#~ msgid "Use Firefox Account"
-#~ msgstr "Koristi Firefox račun"
-
-#~ msgid "first sync %(translatedTimeAgo)s"
-#~ msgstr "prva sinhronizacija %(translatedTimeAgo)s"
-
-#~ msgid "last sync %(translatedTimeAgo)s"
-#~ msgstr "posljednja sinhronizacija %(translatedTimeAgo)s"
-
-#~ msgid "last active %(translatedTimeAgo)s"
-#~ msgstr "posljednja aktivnost %(translatedTimeAgo)s"
-
-#~ msgid "last sync time unknown"
-#~ msgstr "nepoznato vrijeme posljednje sinhronizacije"
-
-#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-#~ msgstr "%(escapedEmail)s registrovan. <a %(escapedBackLinkParams)s>Pogrešno napisan email?</a>"
-
-#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-#~ msgstr "Provjerite vaš email za link potvrde prijave poslan na %(email)s"
-
-#~ msgid "Signin confirmed"
-#~ msgstr "Prijava potvrđena"
-
-#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-#~ msgstr "Notifikacije korisničkog računa će sada također slati na %(secondaryEmailVerified)s"
-
-#~ msgid "We may send you emails related to your Firefox Account."
-#~ msgstr "Možda vam pošaljemo email vezan za vaš Firefox račun."
-
-#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-#~ msgstr "Dodatno, možete odabrati da li ćete dobiti najnovije vijesti o Mozilli i Firefoxu."
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-#~ msgstr "Sekundarna email adresa je dodatna adresa za primanje sigurnosnih poruka i potvrda za nove sinhronizacije uređaja."
-
-#~ msgid "Not in inbox or spam folder? Resend?"
-#~ msgstr "Nije u sandučetu ili spam folderu folderu? Poslati ponovo?"
-
-#~ msgid "Codes copied"
-#~ msgstr "Kodovi kopirani"
-
-#~ msgid "Failed to copy codes. Please manually copy them."
-#~ msgstr "Neuspjelo kopiranje kodova. Molimo kopirajte ih ručno."
-
-#~ msgid "Invalid sign-in verification code"
-#~ msgstr "Neispravan kod verifikacije prijave"
-
-#~ msgctxt "submit button"
-#~ msgid "Sign in"
-#~ msgstr "Prijavi se"
-
-#~ msgctxt "header text"
-#~ msgid "Sign in"
-#~ msgstr "Prijavi se"
-
-#~ msgctxt "button text"
-#~ msgid "Sign in"
-#~ msgstr "Prijava"
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
-#~ msgstr ""
-#~ "<span>ZAPAMTITE:</span> Ako resetujete vašu lozinku, neki podaci će biti izbrisani (uključujući sinhronizovane posatke servera poput historije i zabilješki). To je razlog zašto smo šifrovali "
-#~ "vaše podatke sa vašom lozinkom da zaštitimo vašu privatnost."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
-#~ msgstr ""
-#~ "<span>NAPOMENA:</span> Ako resetujete vašu lozinku, neki podaci će biti izbrisani (uključujući sinhronizovane posatke servera poput historije i zabilješki). To je razlog zašto smo šifrovali vaše "
-#~ "podatke sa vašom lozinkom da zaštitimo vašu privatnost."
-
-#~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-#~ msgstr "Dodajte nivo zaštite za vaš račun zahtijevanjem sigurnosnih kodova sa nekih od <a %(escapedTotpSupportAttributes)s>ovih autentifikacijskih aplikacija.</a>"
-
-#~ msgid ""
-#~ "\n"
-#~ "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "                Samo ovi kodovi će biti prikazani i mogu biti iskorišteni samo jednom. Sačuvajte ih na sigurnom mjestu u slučaju da izgubite pristup vašem mobilnom uređaju.\n"
-#~ "            "
-
-#~ msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-#~ msgstr "Dodajte nivo zaštite za vaš račun zahtijevanjem sigurnosnih kodova sa nekih od ovih autentifikacijskih aplikacija."
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-#~ msgstr "Sekundarna email adresa je dodatna adresa za primanje sigurnosnih poruka i potvrda za nove sinhronizacije uređaja"
-
-#~ msgid "Unlock…"
-#~ msgstr "Otključaj..."
-
-#~ msgid "verify to unlock section"
-#~ msgstr "verifikuj da otključaš sekciju"
-
-#~ msgid "Enter 8-digit recovery code"
-#~ msgstr "Unesite 8-cifreni kod za oporavak"
-
-#~ msgid "Reverify to unlock section"
-#~ msgstr "Ponovo provjerite da biste otključali sekciju"
-
-#~ msgid "Add an extra layer of security to your account by requiring security codes."
-#~ msgstr "Dodajte dodatni nivo zaštite vašem računu zahtijevanjem sigurnosnih kodova."
-
-#~ msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
-#~ msgstr "Skenirajte QR kod u vašoj aplikaciji i potvrdite njegovu ispravnost unošenjem sigurnosnog koda koji nudi."
-
-#~ msgid "Can't scan code?"
-#~ msgstr "Ne možete da skenirate kod?"
-
-#~ msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr "<span>Nemoj ponovo koristiti ovu email lozinku</span><br/>Ako neko zna vašu lozinku, mogu je odobriti putem vašeg Firefox računa na novom uređaju i pristupiti vašim podacima."
-
-#~ msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "<span>Zamaptite svoju lozinku</span><br/>Ako trebate resetovati lozinku, izgubit ćete sve podatke sinhronizacije koji nisu na jednom od vaših uređaja."

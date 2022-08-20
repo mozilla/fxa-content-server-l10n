@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: 2022-08-15 09:38+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@posteo.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,7 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? "
+"2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1432911472.0\n"
 
@@ -24,7 +25,10 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Ailosodwyd y cyfrinair yn llwyddiannus. Mewngofnodwch i barhau."
 
 #. submit button
-#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44
+#: .es5/templates/connect_another_device.mustache:11
+#: .es5/templates/force_auth.mustache:3
+#: .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Mewngofnodi"
@@ -34,8 +38,12 @@ msgid "Account deleted successfully"
 msgstr "Cyfrif wedi ei ddileu'n llwyddiannus"
 
 #: .es5/views/inline_totp_setup.js:156
-msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Defnyddiwch y cod %(code)s i greu dilysiad dau gam yn y rhaglenni sy'n cynnal hynny."
+msgid ""
+"Use the code %(code)s to set up two-step authentication in supported "
+"applications."
+msgstr ""
+"Defnyddiwch y cod %(code)s i greu dilysiad dau gam yn y rhaglenni sy'n "
+"cynnal hynny."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -66,8 +74,11 @@ msgid "Your password has been reset"
 msgstr "Mae eich cyfrinair wedi ei ailosod"
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Cwblhewch y gosod drwy gynnig eich cyfrinair ar eich dyfeisiau Firefox eraill."
+msgid ""
+"Complete set-up by entering the new password on your other Firefox devices."
+msgstr ""
+"Cwblhewch y gosod drwy gynnig eich cyfrinair ar eich dyfeisiau Firefox "
+"eraill."
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
@@ -78,18 +89,23 @@ msgid "Primary email confirmed"
 msgstr "Prif e-bost wedi'i gadarnhau"
 
 #: .es5/views/ready.js:77
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Bydd hysbysiadau cyfrifon hefyd nawr yn cael eu hanfon at %(secondaryEmailVerified)s."
+msgid ""
+"Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgstr ""
+"Bydd hysbysiadau cyfrifon hefyd nawr yn cael eu hanfon at "
+"%(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
 msgstr "Ail e-bost wedi'i gadarnhau"
 
-#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6
+#: .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "Mewngofnodi wedi ei gadarnhau"
 
-#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95
+#: .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Rydych nawr yn barod i ddefnyddio %(serviceName)s"
 
@@ -114,20 +130,34 @@ msgid "Other"
 msgstr "Arall"
 
 #: .es5/views/support.js:270
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "Diolch am gysylltu â Mozilla Support am <b>%(escapedLowercaseTopic)s</b>. Byddwn yn cysylltu â chi trwy e-bost cyn gynted â phosibl."
+msgid ""
+"Thank you for reaching out to Mozilla Support about <b>"
+"%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as "
+"possible."
+msgstr ""
+"Diolch am gysylltu â Mozilla Support am <b>%(escapedLowercaseTopic)s</b>. "
+"Byddwn yn cysylltu â chi trwy e-bost cyn gynted â phosibl."
 
 #: .es5/views/support.js:272
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "Diolch i chi am gysylltu â Mozilla Support am <b>%(escapedLowercaseTopic)s</b> am<b>%(escapedSelectedProduct)s</b>. Byddwn yn cysylltu â chi trwy e-bost cyn gynted â phosibl."
+msgid ""
+"Thank you for reaching out to Mozilla Support about <b>"
+"%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll "
+"contact you via email as soon as possible."
+msgstr ""
+"Diolch i chi am gysylltu â Mozilla Support am <b>%(escapedLowercaseTopic)s</"
+"b> am<b>%(escapedSelectedProduct)s</b>. Byddwn yn cysylltu â chi trwy e-bost "
+"cyn gynted â phosibl."
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
 msgstr "Mae eich data cydweddus wedi ei ddiogelu"
 
 #: .es5/views/post_verify/verified.js:54
-msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr "Os byddwch yn colli mynediad i'ch cyfrif, byddwch yn gallu adfer eich data wedi'i gydweddu."
+msgid ""
+"If you lose access to your account, you’ll be able to restore your sync data."
+msgstr ""
+"Os byddwch yn colli mynediad i'ch cyfrif, byddwch yn gallu adfer eich data "
+"wedi'i gydweddu."
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
@@ -135,7 +165,8 @@ msgstr "Cychwyn pori"
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "Bydd hysbysiadau cyfrifon hefyd nawr yn cael eu hanfon at %(secondaryEmail)s."
+msgstr ""
+"Bydd hysbysiadau cyfrifon hefyd nawr yn cael eu hanfon at %(secondaryEmail)s."
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
@@ -145,7 +176,9 @@ msgstr "Ymlaen i %(serviceName)s"
 msgid "Your account has been locked for security reasons"
 msgstr "Mae eich cyfrif wedi ei gloi am resymau diogelwch"
 
-#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+#: .es5/views/mixins/account-reset-mixin.js:47
+#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/reset_password.mustache:1
 msgid "Reset password"
 msgstr "Ailosod y cyfrinair"
 
@@ -181,7 +214,9 @@ msgstr "Agor Restmail"
 msgid "Hide password"
 msgstr "Cuddio cyfrinair"
 
-#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:169
+#: .es5/templates/partial/show-password.mustache:1
+#: .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Dangos cyfrinair"
 
@@ -198,8 +233,12 @@ msgid "Firefox Recovery Key"
 msgstr "Allwedd Adfer Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:53
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "E-bost wedi ei ail-anfon. Ychwanegwch accounts@firefox.com i'ch cysylltiadau er mwyn ei dderbyn yn ddiogel."
+msgid ""
+"Email resent. Add accounts@firefox.com to your contacts to ensure a smooth "
+"delivery."
+msgstr ""
+"E-bost wedi ei ail-anfon. Ychwanegwch accounts@firefox.com i'ch cysylltiadau "
+"er mwyn ei dderbyn yn ddiogel."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -297,13 +336,16 @@ msgstr "Mae'r cyfrinair wedi ei ailosod yn llwyddiannus"
 msgid "Account recovery enabled"
 msgstr "Galluogi adfer y cyfrif"
 
-#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30
+#: .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61
+#: .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
 msgstr "Gwall anhysbys"
 
 #: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
-msgstr "Mae'r ddolen rydych newydd ei chlicio i ddilysu eich e-bost wedi dod i ben."
+msgstr ""
+"Mae'r ddolen rydych newydd ei chlicio i ddilysu eich e-bost wedi dod i ben."
 
 #: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
@@ -311,7 +353,9 @@ msgstr "Rydych wedi cynnig gormod o weithiau. Ceisiwch yn hwyrach."
 
 #: .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr "Rydych wedi cynnig gormod o weithiau. Ceisiwch yn hwyrach %(retryAfterLocalized)s."
+msgstr ""
+"Rydych wedi cynnig gormod o weithiau. Ceisiwch yn hwyrach "
+"%(retryAfterLocalized)s."
 
 #: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
@@ -325,7 +369,8 @@ msgstr "Stamp amser annilys yn y llofnod cais"
 msgid "Invalid nonce in request signature"
 msgstr "Nonce annilys yn y llofnod cais"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:180
 msgid "Account already exists"
 msgstr "Mae'r cyfrif yn bodoli'n barod"
 
@@ -446,8 +491,10 @@ msgid "Can not change primary email to an unverified email"
 msgstr "Nid oes modd i chi newid eich prif e-bost i e-bost heb ei ddilysu"
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
-msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "Nid oes modd newid prif e-bost i e-bost nad yw'n perthyn i'r cyfrif hwn"
+msgid ""
+"Can not change primary email to an email that does not belong to this account"
+msgstr ""
+"Nid oes modd newid prif e-bost i e-bost nad yw'n perthyn i'r cyfrif hwn"
 
 #: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
@@ -533,8 +580,11 @@ msgstr "Mae'r gweinydd yn brysur, ceisiwch eto"
 msgid "Feature not enabled"
 msgstr "Nid yw'r nodwedd wedi ei alluogi"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
-#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117
+#: .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45
+#: .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Nid yw'r system ar gael, ceisiwch eto cyn bo hir."
 
@@ -582,7 +632,8 @@ msgstr "Rhaid bod o leiaf 8 nod"
 msgid "Valid password required"
 msgstr "Rhaid darparu cyfrinair dilys"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:412
 msgid "Valid email required"
 msgstr "Mae angen e-bost dilys"
 
@@ -608,7 +659,8 @@ msgstr "Rhowch gyfeiriad e-bost dilys. Nid yw firefox.com yn cynnig e-bost."
 
 #: .es5/lib/auth-errors.js:408
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Dim ond ar wefannau cymeradwy y mae modd gosod Cyfrifon Firefox mewn IFRAME"
+msgstr ""
+"Dim ond ar wefannau cymeradwy y mae modd gosod Cyfrifon Firefox mewn IFRAME"
 
 #: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
@@ -650,9 +702,12 @@ msgstr "Priodweddau data annilys: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Priodwedd data coll: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555
+#: .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr "Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae modd ie defnyddio."
+msgstr ""
+"Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae "
+"modd ie defnyddio."
 
 #: .es5/lib/auth-errors.js:505
 msgid "This is a required field"
@@ -662,7 +717,8 @@ msgstr "Mae hwn yn faes angenrheidiol"
 msgid "Authorization code required"
 msgstr "Mae angen cod awdurdodi"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Mae'r ddolen wedi ei difrodi"
 
@@ -843,12 +899,22 @@ msgid "Invalid Token"
 msgstr "Tocyn Annilys"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr ""
+"Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Hysbysiad Preifatrwydd</a> %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Cymorth</a>"
+msgid ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-"
+"account\">Help</a>"
+msgstr ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-"
+"account\">Cymorth</a>"
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -867,8 +933,12 @@ msgid "IP address: %(ip)s"
 msgstr "Cyfeiriad IP: %(ip)s"
 
 #: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
-msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Er mwyn cryfhau eich diogelwch, cadarnhewch y mewngofnodi er mwyn cychwyn cydweddu gyda'r ddyfais hon:"
+msgid ""
+"For added security, please confirm this sign-in to begin syncing with this "
+"device:"
+msgstr ""
+"Er mwyn cryfhau eich diogelwch, cadarnhewch y mewngofnodi er mwyn cychwyn "
+"cydweddu gyda'r ddyfais hon:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -879,18 +949,26 @@ msgid "500 Error"
 msgstr "Gwall 500"
 
 #: .es5/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "O, aeth rhywbeth o'i le yn fanna. Rydym wedi cael clywed ac yn gweithio i'w drwsio."
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
+"O, aeth rhywbeth o'i le yn fanna. Rydym wedi cael clywed ac yn gweithio i'w "
+"drwsio."
 
-#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+#: .es5/templates/account_recovery_confirm_key.mustache:1
+#: .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
 msgstr "Mae'r ddolen ailosod wedi dod i ben"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:2
+#: .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "Mae'r ddolen rydych wedi ei chlicio i ailosod eich cyfrinair wedi dod i ben."
+msgstr ""
+"Mae'r ddolen rydych wedi ei chlicio i ailosod eich cyfrinair wedi dod i ben."
 
-#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+#: .es5/templates/account_recovery_confirm_key.mustache:3
+#: .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
 msgstr "Derbyn dolen newydd"
 
@@ -898,31 +976,53 @@ msgstr "Derbyn dolen newydd"
 msgid "Reset password with recovery key"
 msgstr "Ailosod cyfrinair gydag allwedd adfer"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
-#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6
+#: .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13
+#: .es5/templates/inline_totp_setup.mustache:2
+#: .es5/templates/inline_totp_setup.mustache:8
+#: .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2
+#: .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Ymlaen i %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Rhowch yr allwedd adfer defnydd unwaith rydych wedi ei gadw mewn man diogel er mwyn ad-ennill mynediad i'ch Cyfrif Firefox."
+msgid ""
+"Please enter the one time use recovery key you stored in a safe place to "
+"regain access to your Firefox Account."
+msgstr ""
+"Rhowch yr allwedd adfer defnydd unwaith rydych wedi ei gadw mewn man diogel "
+"er mwyn ad-ennill mynediad i'ch Cyfrif Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have "
+"account recovery key saved, some of your data will be erased (including "
+"synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">NOTE:</span> Os fyddwch yn ailosod eich cyfrinair ac nad oes gennych allwedd adfer wedi ei gadw, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinydd wedi ei "
-"gydweddu fel hanes a nodau tudalen)."
+"<span class=\"note\">NOTE:</span> Os fyddwch yn ailosod eich cyfrinair ac "
+"nad oes gennych allwedd adfer wedi ei gadw, bydd rhywfaint o'ch data'n cael "
+"ei ddileu (gan gynnwys data gweinydd wedi ei gydweddu fel hanes a nodau "
+"tudalen)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
 msgstr "Rhowch yr allwedd adfer"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+#: .es5/templates/account_recovery_confirm_key.mustache:10
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm recovery key"
 msgstr "Cadarnhau'r allwedd adfer"
 
@@ -935,10 +1035,12 @@ msgid "Cannot create account"
 msgstr "Methu creu cyfrif"
 
 #: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgid ""
+"You must meet certain age requirements to create a Firefox&nbsp;account."
 msgstr "Rhaid bod o oed arbennig cyn creu Cyfrif&nbsp;Firefox."
 
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+#: .es5/templates/cannot_create_account.mustache:4
+#: .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
 msgstr "Dysgu rhagor"
 
@@ -950,7 +1052,8 @@ msgstr "Dewis beth i'w gydweddu:"
 msgid "Sync selections"
 msgstr "Dewisiadau cydweddu"
 
-#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+#: .es5/templates/choose_what_to_sync.mustache:5
+#: .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
 msgstr "Peidio cydweddu'r ddyfais hon"
 
@@ -958,9 +1061,15 @@ msgstr "Peidio cydweddu'r ddyfais hon"
 msgid "Reset password link damaged"
 msgstr "Mae dolen ailosod y cyfrinair wedi ei difrodi"
 
-#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto."
+#: .es5/templates/complete_reset_password.mustache:6
+#: .es5/templates/complete_sign_up.mustache:12
+#: .es5/templates/report_sign_in.mustache:2
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"Mae nodau ar goll yn y ddolen rydych newydd ei chlicio ac efallai wedi ei "
+"dorri gan eich rhaglen e-bost. Copïwch y cyfeiriad yn ofalus a cheisiwch eto."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -968,18 +1077,29 @@ msgstr "Crëwch gyfrinair newydd"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
-"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+"<span>REMEMBER:</span> When you reset your password, you reset your account. "
+"You may lose some of your personal information (including history, "
+"bookmarks, and passwords). That’s because we encrypt your data with your "
+"password to protect your privacy. You’ll still keep any subscriptions you "
+"may have and Pocket data will not be affected."
 msgstr ""
-"<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a "
-"chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data Pocket"
-" yn cael ei effeithio."
+"<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn "
+"ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch "
+"gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae "
+"hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn "
+"diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd "
+"gennych ac ni fydd data Pocket yn cael ei effeithio."
 
 #: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio eich allwedd adfer. Crëwch gyfrinair newydd i ddiogelu eich data a'i gadw mewn man diogel."
+msgid ""
+"You have successfully restored your account using your recovery key. Create "
+"a new password to secure your data, and store it in a safe location."
+msgstr ""
+"Rydych wedi adfer eich cyfrif yn llwyddiannus gan ddefnyddio eich allwedd "
+"adfer. Crëwch gyfrinair newydd i ddiogelu eich data a'i gadw mewn man diogel."
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+#: .es5/templates/complete_reset_password.mustache:13
+#: .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
 msgstr "Cyfrinair newydd"
 
@@ -987,7 +1107,10 @@ msgstr "Cyfrinair newydd"
 msgid "Re-enter password"
 msgstr "Ail gynnig eich cyfrinair"
 
-#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+#: .es5/templates/complete_reset_password.mustache:16
+#: .es5/templates/confirm_reset_password.mustache:5
+#: .es5/templates/confirm_reset_password.mustache:7
+#: .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Cofio eich cyfrinair? Mewngofnodwch"
 
@@ -1005,7 +1128,8 @@ msgstr "Mae'r ddolen dilysu wedi dod i ben"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr "Mae'r ddolen rydych newydd ei chlicio i gadarnhau eich e-bost wedi dod i ben."
+msgstr ""
+"Mae'r ddolen rydych newydd ei chlicio i gadarnhau eich e-bost wedi dod i ben."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
@@ -1028,20 +1152,32 @@ msgid "Confirm this sign-in"
 msgstr "Cadarnhau'r mewngofnodi hwn"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr "Edrychwch ar eich e-bost am y ddolen cadarnhau a anfonwyd&nbsp;at %(escapedEmail)s"
+msgid ""
+"Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgstr ""
+"Edrychwch ar eich e-bost am y ddolen cadarnhau a anfonwyd&nbsp;at "
+"%(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
-msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr "Edrychwch yn eich e-bost am ddolen cadarnhau mewngofnodi anfonwyd at %(escapedEmail)s"
+msgid ""
+"Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr ""
+"Edrychwch yn eich e-bost am ddolen cadarnhau mewngofnodi anfonwyd at "
+"%(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm_reset_password.mustache:4
+#: .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Ddim yn y blwch derbyn na'r sbam? Ailanfon"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/confirm.mustache:14
+#: .es5/templates/inline_recovery_setup.mustache:17
+#: .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6
+#: .es5/templates/tos.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Nôl"
 
@@ -1050,10 +1186,15 @@ msgid "Reset email sent"
 msgstr "Anfonwyd yr e-bost ail-anfon"
 
 #: .es5/templates/confirm_reset_password.mustache:2
-msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Cliciwch y ddolen anfonwyd drwy e-bost at %(email)s o fewn yr awr nesaf er mwyn creu cyfrinair newydd."
+msgid ""
+"Click the link emailed to %(email)s within the next hour to create a new "
+"password."
+msgstr ""
+"Cliciwch y ddolen anfonwyd drwy e-bost at %(email)s o fewn yr awr nesaf er "
+"mwyn creu cyfrinair newydd."
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr "Rhowch y cod dilysu"
@@ -1066,21 +1207,30 @@ msgstr "ar gyfer eich cyfrif Firefox"
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Rhowch y cod anfonwyd i %(escapedEmail)s o fewn 5 munud."
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4
+#: .es5/templates/sign_in_token_code.mustache:3
+#: .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Rhowch y cod 6 nod"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:16
+#: .es5/templates/sign_in_recovery_code.mustache:5
+#: .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Cadarnhau"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr "Cod wedi dod i ben?"
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr "E-bostiwch cod newydd."
 
@@ -1096,7 +1246,8 @@ msgstr "Cyfrif Firefox wedi'i gysylltu"
 msgid "Email confirmed"
 msgstr "E-bost wedi'i gadarnhau"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+#: .es5/templates/connect_another_device.mustache:9
+#: .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
 msgstr "Cwblhewch eich trefniant"
 
@@ -1104,11 +1255,14 @@ msgstr "Cwblhewch eich trefniant"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Mewngofnodwch i'r Firefox hwn i gwblhau'r gosod"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:13
+#: .es5/templates/connect_another_device.mustache:28
+#: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Dal i ychwanegu dyfeisiau?"
 
-#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+#: .es5/templates/connect_another_device.mustache:15
+#: .es5/templates/connect_another_device.mustache:30
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Mewngofnodwch i Firefox ar ddyfais arall i gwblhau'r gosod"
 
@@ -1125,8 +1279,11 @@ msgid "We’re on Android and iOS, too!"
 msgstr "Rydyn ni ar Android ac iOS, hefyd!"
 
 #: .es5/templates/connect_another_device.mustache:22
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "Dal i ychwanegu dyfeisiau? Mewngofnodwch i Firefox ar ddyfais arall i gwblhau gosod"
+msgid ""
+"Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
+"Dal i ychwanegu dyfeisiau? Mewngofnodwch i Firefox ar ddyfais arall i "
+"gwblhau gosod"
 
 #: .es5/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1141,36 +1298,59 @@ msgid "Cookies and local storage are required"
 msgstr "Mae angen cwcis a storio lleol"
 
 #: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Galluogwch cwcis a storfa lleol yn eich porwr er mwy cael mynediad at eich Cyfrif Firefox. Bydd gwneud hynny'n galluogi swyddogaethau fel cofio rhwng sesiynau."
+msgid ""
+"Please enable cookies and local storage in your browser to access Firefox "
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
+msgstr ""
+"Galluogwch cwcis a storfa lleol yn eich porwr er mwy cael mynediad at eich "
+"Cyfrif Firefox. Bydd gwneud hynny'n galluogi swyddogaethau fel cofio rhwng "
+"sesiynau."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
 msgstr "Ceisiwch eto"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+#: .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1
 msgid ""
 "\n"
-"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader"
+"\">for your Firefox account</span>\n"
 "        "
 msgstr ""
 "\n"
-" Rhowch eich cyfrinair <span class=\"card-subheader\" id=\"subheader\">ar gyfer eich cyfrif Firefox</span>\n"
+" Rhowch eich cyfrinair <span class=\"card-subheader\" id=\"subheader\">ar "
+"gyfer eich cyfrif Firefox</span>\n"
 " "
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "Cyfrinair"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Drwy barhau, rydych yn cytuno i'r <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a'r <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>."
+#: .es5/templates/force_auth.mustache:8
+#: .es5/templates/sign_in_password.mustache:13
+#: .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href="
+"\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp"
+"\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Drwy barhau, rydych yn cytuno i'r <a class=\"link-grey\" id=\"fxa-tos\" href="
+"\"/legal/terms\">Amodau Gwasanaeth</a> a'r <a class=\"link-grey\" id=\"fxa-pp"
+"\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>."
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9
+#: .es5/templates/sign_in_password.mustache:14
+#: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Defnyddiwch gyfrif gwahanol"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+#: .es5/templates/force_auth.mustache:10
+#: .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
 msgstr "Wedi anghofio'r cyfrinair?"
 
@@ -1180,14 +1360,17 @@ msgstr "Parhau i gyfrifon Firefox"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr "Cydweddwch eich cyfrineiriau, tabiau, a nodau tudalen ym mhob man rydych chi'n defnyddio Firefox."
+msgstr ""
+"Cydweddwch eich cyfrineiriau, tabiau, a nodau tudalen ym mhob man rydych "
+"chi'n defnyddio Firefox."
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
 msgstr "Rhowch eich e-bost"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgid ""
+"Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Parhau i <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/index.mustache:9
@@ -1195,37 +1378,55 @@ msgid "Sign up or sign in"
 msgstr "Cofrestrwch neu mewngofnodwch"
 
 #: .es5/templates/index.mustache:11
-msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Mae cyfrif Firefox hefyd yn datgloi mynediad i ragor o gynnyrch gan Mozilla sy'n diogelu'ch preifatrwydd."
+msgid ""
+"A Firefox account also unlocks access to more privacy-protecting products "
+"from Mozilla."
+msgstr ""
+"Mae cyfrif Firefox hefyd yn datgloi mynediad i ragor o gynnyrch gan Mozilla "
+"sy'n diogelu'ch preifatrwydd."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
 msgstr "Cadw'r codau adfer"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
-msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr "Cadwch y codau defnydd unwaith hyn mewn man diogel pan nad yw eich dyfais symudol gennych."
+msgid ""
+"Store these one-time use codes in a safe place for when you don't have your "
+"mobile device."
+msgstr ""
+"Cadwch y codau defnydd unwaith hyn mewn man diogel pan nad yw eich dyfais "
+"symudol gennych."
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "Llwytho i lawr"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/inline_recovery_setup.mustache:6
+#: .es5/templates/inline_recovery_setup.mustache:8
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "Copïo"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "Argraffu"
 
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:10
+#: .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7
+#: .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Ymlaen"
 
-#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+#: .es5/templates/inline_recovery_setup.mustache:11
+#: .es5/templates/inline_recovery_setup.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:5
+#: .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
 msgstr "Diddymu'r creu"
 
@@ -1234,8 +1435,12 @@ msgid "Confirm recovery code"
 msgstr "Cadarnhau'r cod adfer"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr "Er mwyn sicrhau y byddwch yn gallu adennill mynediad i'ch cyfrif, os bydd dyfais ar goll, rhowch un o'ch codau adfer sydd wedi eu cadw gennych."
+msgid ""
+"To ensure that you will be able to regain access to your account, in the "
+"event of a lost device, please enter one of your saved recovery codes."
+msgstr ""
+"Er mwyn sicrhau y byddwch yn gallu adennill mynediad i'ch cyfrif, os bydd "
+"dyfais ar goll, rhowch un o'ch codau adfer sydd wedi eu cadw gennych."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
@@ -1246,8 +1451,12 @@ msgid "Enable two-step authentication"
 msgstr "Galluogi dilysu dau ffactor"
 
 #: .es5/templates/inline_totp_setup.mustache:3
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Ychwanwegwch haen o ddiogelwch i'ch cyfrif drwy ofyn am godau diogelwch gan un o'r <a %(escapedTotpSupportAttributes)s>apiau diogelu hyn</a>."
+msgid ""
+"Add a layer of security to your account by requiring security codes from one "
+"of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr ""
+"Ychwanwegwch haen o ddiogelwch i'ch cyfrif drwy ofyn am godau diogelwch gan "
+"un o'r <a %(escapedTotpSupportAttributes)s>apiau diogelu hyn</a>."
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
@@ -1258,16 +1467,23 @@ msgid "Enter code manually"
 msgstr "Rhowch y cod â llaw"
 
 #: .es5/templates/inline_totp_setup.mustache:12
-msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Sganiwch y cod QR yn eich ap dilysu ac yna rhowch y cod diogelwch maen ei ddarparu."
+msgid ""
+"Scan the QR code in your authentication app and then enter the security code "
+"it provides."
+msgstr ""
+"Sganiwch y cod QR yn eich ap dilysu ac yna rhowch y cod diogelwch maen ei "
+"ddarparu."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "Methu sganio codau?"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
-msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr "Ar ôl ei gwblhau, bydd yn dechrau cynhyrchu codau diogelwch i chi eu rhoi."
+#: .es5/templates/inline_totp_setup.mustache:14
+#: .es5/templates/inline_totp_setup.mustache:18
+msgid ""
+"Once complete, it will begin generating security codes for you to enter."
+msgstr ""
+"Ar ôl ei gwblhau, bydd yn dechrau cynhyrchu codau diogelwch i chi eu rhoi."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
@@ -1289,24 +1505,34 @@ msgstr "Yn barod"
 msgid "Legal"
 msgstr "Cyfreithiol"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23
+#: .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Amodau'r Gwasanaeth"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1
+#: .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Hysbysiad Preifatrwydd"
 
-#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+#: .es5/templates/marketing_snippet.mustache:1
+#: .es5/templates/marketing_snippet.mustache:5
+#: .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Derbyn y profiad Sync llawn."
 
-#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:2
+#: .es5/templates/marketing_snippet.mustache:3
+#: .es5/templates/marketing_snippet.mustache:11
+#: .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
 msgstr "Llwytho Firefox iOS i lawr!"
 
-#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:6
+#: .es5/templates/marketing_snippet.mustache:7
+#: .es5/templates/marketing_snippet.mustache:12
+#: .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
 msgstr "Llwytho Firefox Android i lawr"
@@ -1327,17 +1553,24 @@ msgstr "Mae %(serviceName)s eisiau'r wybodaeth ganlynol o'ch cyfrif:"
 msgid "Accept"
 msgstr "Derbyn"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:5
+#: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Diddymu"
 
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+#: .es5/templates/ready.mustache:1
+#: .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
 msgstr "Llwyddiant"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Rydych nawr yn barod i ddefnyddio <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgid ""
+"You are now ready to use <div class=\"graphic %(serviceLogo)s\">"
+"%(serviceName)s</div>"
+msgstr ""
+"Rydych nawr yn barod i ddefnyddio <div class=\"graphic %(serviceLogo)s\">"
+"%(serviceName)s</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1356,27 +1589,39 @@ msgid "Report unauthorized sign-in?"
 msgstr "Adrodd ar fewngofnodi heb ganiatâd?"
 
 #: .es5/templates/report_sign_in.mustache:5
-msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Rydych wedi derbyn e-bost am ymgais i gael mynediad at eich cyfrif. Hoffech chi adrodd hyn fel digwyddiad amheus?"
+msgid ""
+"You received an email about attempted access to your account. Would you like "
+"to report this activity as suspicious?"
+msgstr ""
+"Rydych wedi derbyn e-bost am ymgais i gael mynediad at eich cyfrif. Hoffech "
+"chi adrodd hyn fel digwyddiad amheus?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
 msgstr "Adroddiad gweithgaredd"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7
+#: .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Pam mae hyn yn digwydd?"
 
 #: .es5/templates/reset_password.mustache:3
 msgid ""
-"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+"<span>NOTE:</span> When you reset your password, you reset your account. You "
+"may lose some of your personal information (including history, bookmarks, "
+"and passwords). That’s because we encrypt your data with your password to "
+"protect your privacy. You’ll still keep any subscriptions you may have and "
+"Pocket data will not be affected."
 msgstr ""
-"<span>SYLWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a "
-"chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data Pocket"
-" yn cael ei effeithio."
+"<span>SYLWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn "
+"ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch "
+"gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a chyfrineiriau). Mae "
+"hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn "
+"diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd "
+"gennych ac ni fydd data Pocket yn cael ei effeithio."
 
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+#: .es5/templates/reset_password.mustache:5
+#: .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
 msgstr "E-bost"
 
@@ -1417,12 +1662,20 @@ msgid "Sorry. We’ve locked your&nbsp;account."
 msgstr "Ymddiheuriadau. Rydym wedi cloi eich&nbsp;cyfrif."
 
 #: .es5/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Cafodd yr e-bost cadarnhau roeddem wedi ei anfon i %(email)s ei ddychwelyd ac rydym wedi cloi eich cyfrif er mwyn diogelu eich data Firefox."
+msgid ""
+"The confirmation email we sent to %(email)s was returned and we’ve locked "
+"your account to protect your Firefox data."
+msgstr ""
+"Cafodd yr e-bost cadarnhau roeddem wedi ei anfon i %(email)s ei ddychwelyd "
+"ac rydym wedi cloi eich cyfrif er mwyn diogelu eich data Firefox."
 
 #: .es5/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Os yw hwn yn gyfrif e-bost dilys, <a %(escapedSupportLinkAttrs)s> gadewch i ni wybod</a> a byddwn yn gallu helpu i ddatgloi eich cyfrif."
+msgid ""
+"If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us "
+"know</a> and we can help unlock your account."
+msgstr ""
+"Os yw hwn yn gyfrif e-bost dilys, <a %(escapedSupportLinkAttrs)s> gadewch i "
+"ni wybod</a> a byddwn yn gallu helpu i ddatgloi eich cyfrif."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1432,14 +1685,24 @@ msgstr "Ddim yn berchen ar yr e-bost hwnnw? Crëwch gyfrif newydd"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href="
+"\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp"
+"\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy "
+"Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/"
+"terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href="
+"\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 " Trwy barhau, rydych yn cytuno i:<br />\n"
-" <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Delerau Gwasanaeth </a> ac <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\"> Hysbysiad Prynu Pocket</a> <br />\n"
-" <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>Firefox.\n"
+" <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/"
+"tos/\">Delerau Gwasanaeth </a> ac <a id=\"pocket-pp\" class=\"link-grey\" "
+"href=\"https://getpocket.com/en/privacy/\"> Hysbysiad Prynu Pocket</a> <br /"
+">\n"
+" <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau "
+"Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Hysbysiad Preifatrwydd</a>Firefox.\n"
 " "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1463,12 +1726,19 @@ msgid "Thank you for your vigilance"
 msgstr "Diolch am eich gwyliadwriaeth"
 
 #: .es5/templates/sign_in_reported.mustache:2
-msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "Mae ein tîm wedi eu hysbysu. Mae adroddiadau fel hyn y ein cynorthwyo i gadw ymyrraeth allanol draw."
+msgid ""
+"Our team has been notified. Reports like this help us fend off intruders."
+msgstr ""
+"Mae ein tîm wedi eu hysbysu. Mae adroddiadau fel hyn y ein cynorthwyo i gadw "
+"ymyrraeth allanol draw."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr "Rhowch y cod dilysu <span class=\"card-subheader\">ar gyfer eich cyfrif Firefox</span>"
+msgid ""
+"Enter confirmation code <span class=\"card-subheader\">for your Firefox "
+"account</span>"
+msgstr ""
+"Rhowch y cod dilysu <span class=\"card-subheader\">ar gyfer eich cyfrif "
+"Firefox</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
@@ -1486,7 +1756,9 @@ msgstr "Agorwch eich ap dilysu a rhowch y cod diogelwch mae'n ei ddarparu."
 msgid "Trouble entering code?"
 msgstr "Trafferth cyflwyno cod?"
 
-#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+#: .es5/templates/sign_in_unblock.mustache:1
+#: .es5/templates/sign_in_unblock.mustache:2
+#: .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
 msgstr "Awdurdodi'r mewngofnod hwn"
 
@@ -1511,13 +1783,18 @@ msgid "Repeat password"
 msgstr "Ailadrodd y cyfrinair"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgid ""
+"You need this password to access any encrypted data you store with us.<br/>A "
+"reset means potentially losing data like passwords and bookmarks."
 msgstr ""
-"Mae angen y cyfrinair hwn arnoch i gael mynediad at unrhyw ddata wedi'i amgryptio rydych chi'n ei storio gyda ni.<br/>Mae ailosod, o bosibl, yn golygu colli data fel cyfrineiriau a nodau tudalen."
+"Mae angen y cyfrinair hwn arnoch i gael mynediad at unrhyw ddata wedi'i "
+"amgryptio rydych chi'n ei storio gyda ni.<br/>Mae ailosod, o bosibl, yn "
+"golygu colli data fel cyfrineiriau a nodau tudalen."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Mae gwybodaeth ymarferol yn dod i'ch blch derbyn. Cofrestrwch am ragor:"
+msgstr ""
+"Mae gwybodaeth ymarferol yn dod i'ch blch derbyn. Cofrestrwch am ragor:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
@@ -1531,14 +1808,24 @@ msgstr "Creu cyfrif"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://"
+"getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id="
+"\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</"
+"a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/"
+"terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href="
+"\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 " Trwy barhau, rydych yn cytuno i:<br />\n"
-" <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Delerau Gwasanaeth </a> ac <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\"> Hysbysiad Prynu Pocket</a> <br />\n"
-" <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">modau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>Firefox.\n"
+" <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/"
+"tos/\">Delerau Gwasanaeth </a> ac <a class=\"link-grey\" id=\"pocket-pp\" "
+"href=\"https://getpocket.com/en/privacy/\"> Hysbysiad Prynu Pocket</a> <br /"
+">\n"
+" <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">modau "
+"Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Hysbysiad Preifatrwydd</a>Firefox.\n"
 " "
 
 #: .es5/templates/support.mustache:1
@@ -1561,7 +1848,8 @@ msgstr "Cysylltu â Ni"
 msgid "What are you contacting us about?"
 msgstr "Am beth ydych chi'n cysylltu â ni?"
 
-#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11
+#: .es5/templates/support.mustache:18
 msgid "Please select one"
 msgstr "Dewiswch un"
 
@@ -1621,11 +1909,13 @@ msgstr "Cam 1 o 2: Ail gyflwyno eich cyfrinair"
 msgid "Enter your password to view your recovery key."
 msgstr "Rhowch eich cyfrinair i gael gweld eich allwedd adfer."
 
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
 msgstr "Rhowch y Cyfrinair"
 
-#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/push/completed.mustache:2
+#: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
 msgstr "Wedi'i gysylltu'n llwyddiannus"
 
@@ -1642,16 +1932,26 @@ msgid "Confirm sign-in"
 msgstr "Cadarnhau eich mewngofnodi"
 
 #: .es5/templates/push/confirm_login.mustache:4
-msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr "Os ydych yn amau fod rhywun yn ceisio cael mynediad at eich cyfrif, <a id=\"change-password\" href=\"/settings/change_password\">newidiwch eich cyfrinair</a>."
+msgid ""
+"If you suspect that someone is trying to gain access to your account, <a id="
+"\"change-password\" href=\"/settings/change_password\">please change your "
+"password.</a>"
+msgstr ""
+"Os ydych yn amau fod rhywun yn ceisio cael mynediad at eich cyfrif, <a id="
+"\"change-password\" href=\"/settings/change_password\">newidiwch eich "
+"cyfrinair</a>."
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
 msgstr "Anfon hysbysiad gwthio mewngofnodi"
 
 #: .es5/templates/push/send_login.mustache:3
-msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr "Gwiriwch eich dyfeisiau Firefox cysylltiedig am y tab cadarnhau mewngofnodi rydyn ni wedi'i anfon."
+msgid ""
+"Check your connected Firefox devices for the sign-in confirmation tab we've "
+"sent."
+msgstr ""
+"Gwiriwch eich dyfeisiau Firefox cysylltiedig am y tab cadarnhau mewngofnodi "
+"rydyn ni wedi'i anfon."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
@@ -1661,25 +1961,34 @@ msgstr "Ail-anfon y tab"
 msgid "Tab not arriving? Send an email instead"
 msgstr "Tab heb gyrraedd? Anfonwch e-bost yn lle"
 
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Ychwanegwch ail e-bost"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "Mae ychwanegu ail e-bost yn helpu i fynd yn ôl i'ch cyfrif os ydych wedi'ch cloi allan ac yn methu â chael mynediad i'ch %(escapedEmail)s."
+msgid ""
+"Adding a secondary email helps you get back into your account if you are "
+"locked out and can not access %(escapedEmail)s."
+msgstr ""
+"Mae ychwanegu ail e-bost yn helpu i fynd yn ôl i'ch cyfrif os ydych wedi'ch "
+"cloi allan ac yn methu â chael mynediad i'ch %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
 msgstr "Ail e-bost"
 
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "Rhywbryd eto"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgid ""
+"Please enter the confirmation code that was sent to %(escapedEmail)s within "
+"5 minutes."
 msgstr "Rhowch y cod cadarnhau a anfonwyd at %(escapedEmail)s o fewn 5 munud."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
@@ -1690,7 +1999,8 @@ msgstr "Angen cod arall? Ail anfon"
 msgid "Use a different email"
 msgstr "Defnyddiwch e-bost gwahanol"
 
-#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+#: .es5/templates/post_verify/password/force_password_change.mustache:1
+#: .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
 msgstr "Newidiwch eich cyfrinair"
 
@@ -1700,14 +2010,20 @@ msgstr "i fynd ymlaen i %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
+"We detected suspicious behavior on your Firefox account. To protect your "
+"account, please create a new password. You’ll use this password to sign back "
+"in to all of your Firefox account services."
 msgstr ""
-"Rydym wedi canfod ymddygiad amheus ar eich cyfrif Firefox. Er mwyn diogelu eich cyfrif, crëwch gyfrinair newydd. Byddwch yn defnyddio'r cyfrinair hwn i fewngofnodi yn ôl i'ch holl wasanaethau cyfrif"
-" Firefox."
+"Rydym wedi canfod ymddygiad amheus ar eich cyfrif Firefox. Er mwyn diogelu "
+"eich cyfrif, crëwch gyfrinair newydd. Byddwch yn defnyddio'r cyfrinair hwn i "
+"fewngofnodi yn ôl i'ch holl wasanaethau cyfrif Firefox."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
-msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr "Ni fydd hanes, nodau tudalen, mewngofnodi na data personol eraill wedi'u cydweddu yn cael eu colli."
+msgid ""
+"Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr ""
+"Ni fydd hanes, nodau tudalen, mewngofnodi na data personol eraill wedi'u "
+"cydweddu yn cael eu colli."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
@@ -1742,10 +2058,15 @@ msgid "Subscribe %(email)s"
 msgstr "Tanysgrifiwch i %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr "Roedd rhai o nodau'r ddolen y gwnaethoch chi eu clicio ar goll, efallai eu bod wedi'u torri gan eich rhaglen e-bost."
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client."
+msgstr ""
+"Roedd rhai o nodau'r ddolen y gwnaethoch chi eu clicio ar goll, efallai eu "
+"bod wedi'u torri gan eich rhaglen e-bost."
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
 msgstr "Creu Cyfrif Firefox"
 
@@ -1757,7 +2078,8 @@ msgstr "Ymlaen i %(productName)s"
 msgid "Enter a password"
 msgstr "Rhowch gyfrinair"
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Cadarnhau'r cyfrinair"
@@ -1787,14 +2109,19 @@ msgid "Sync Firefox between devices"
 msgstr "Cydweddu Firefox rhwng dyfeisiau"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
-msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr "Cydweddwch nodau tudalen, hanes, a chyfrineiriau i Firefox ar eich dyfeisiau symudol. Dim ond ychydig funudau y mae'n ei gymryd."
+msgid ""
+"Sync bookmarks, history, and passwords to Firefox on your mobile devices. It "
+"only takes a few minutes."
+msgstr ""
+"Cydweddwch nodau tudalen, hanes, a chyfrineiriau i Firefox ar eich dyfeisiau "
+"symudol. Dim ond ychydig funudau y mae'n ei gymryd."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr "Cychwyn arni"
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
 msgstr "Fe wna i hyn yn nes ymlaen, anfonwch nodyn atgoffa ata i"
 
@@ -1803,16 +2130,25 @@ msgid "Download Firefox with your camera app"
 msgstr "Llwytho Firefox i lawr gyda'ch ap camera"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
-msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr "Mae gosod Firefox a chydweddu rhwng o leiaf dau ddyfais hefyd yn diogelu rhag colli eich data."
+msgid ""
+"Installing Firefox and syncing between at least two devices also protects "
+"against losing your data."
+msgstr ""
+"Mae gosod Firefox a chydweddu rhwng o leiaf dau ddyfais hefyd yn diogelu "
+"rhag colli eich data."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
 msgstr "Yn barod i sganio"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Cysylltwch eich dyfais symudol</h1><p>â chod QR rydyn ni wedi'i greu ar eich cyfer chi yn unig</p>"
+msgid ""
+"<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile "
+"device</h1><p>with a QR code we've created just for you</p>"
+msgstr ""
+"<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Cysylltwch eich "
+"dyfais symudol</h1><p>â chod QR rydyn ni wedi'i greu ar eich cyfer chi yn "
+"unig</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
@@ -1835,18 +2171,25 @@ msgid "<span class=\"number\">1</span>Open the camera app on your device"
 msgstr "<span class=\"number\">1</span>Agorwch yr ap camera ar eich dyfais"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr "<span class=\"number\">2</span>Pwyntiwch y camera at y cod QR a thapio'r ddolen sy'n ymddangos"
+msgid ""
+"<span class=\"number\">2</span>Point the camera at the QR code and tap the "
+"link that appears"
+msgstr ""
+"<span class=\"number\">2</span>Pwyntiwch y camera at y cod QR a thapio'r "
+"ddolen sy'n ymddangos"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr "<span class=\"number\">3</span>Gosodwch Firefox a'i hagor ar eich dyfais"
+msgid ""
+"<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgstr ""
+"<span class=\"number\">3</span>Gosodwch Firefox a'i hagor ar eich dyfais"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr "<span class=\"number\">4</span>Mewngofnodwch i'ch cyfrif"
 
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
 msgstr "Diogelwch eich data gydag allwedd adfer"
 
@@ -1855,22 +2198,33 @@ msgid "Your synced data can include passwords you've saved."
 msgstr "Gall eich data cydweddus gynnwys cyfrineiriau rydych wedi'u cadw."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
-msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr "Oherwydd bod y wybodaeth hon yn hanfodol i'ch diogelwch, mae Firefox yn ei dileu i'ch diogelu pan fydd eich cyfrinair yn cael ei ailosod i atal pobl eraill rhag cael mynediad iddi."
+msgid ""
+"Because this information is critical to your security, Firefox deletes it to "
+"protect you when your password is reset to prevent other people from "
+"accessing it."
+msgstr ""
+"Oherwydd bod y wybodaeth hon yn hanfodol i'ch diogelwch, mae Firefox yn ei "
+"dileu i'ch diogelu pan fydd eich cyfrinair yn cael ei ailosod i atal pobl "
+"eraill rhag cael mynediad iddi."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
 msgstr "Cael Allwedd Adferiad"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr "Cadarnhewch eich cyfrinair ar gyfer %(escapedEmail)s er mwyn cynhyrchu eich allwedd adfer."
+msgid ""
+"Please confirm your password for %(escapedEmail)s to generate your recovery "
+"key."
+msgstr ""
+"Cadarnhewch eich cyfrinair ar gyfer %(escapedEmail)s er mwyn cynhyrchu eich "
+"allwedd adfer."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
 msgstr "Rhowch eich allwedd adfer i gadarnhau eich bod wedi cadw copi."
 
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr "Cadw'r allwedd adfer"
 
@@ -1879,14 +2233,23 @@ msgid "Done"
 msgstr "Gorffen"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
-msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr "Pam fod angen i mi greu'r cyfrif hwn? <a %(escapedSuggestionAttrs)s>Darganfod yma</a>"
+msgid ""
+"Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out "
+"here</a>"
+msgstr ""
+"Pam fod angen i mi greu'r cyfrif hwn? <a "
+"%(escapedSuggestionAttrs)s>Darganfod yma</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid ""
+"How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr "Beth yw eich oed?"
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr "Mae angen i chi fod yn 13 oed o leiaf i greu cyfrif."
 
@@ -1931,12 +2294,22 @@ msgid "Not a commonly used password"
 msgstr "Nid cyfrinair sy'n cael ei ddefnyddio'n aml"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr "Cadwch yn ddiogel &mdash; peidiwch ag ailddefnyddio cyfrineiriau. Mae  rhagor o awgrymiadau yn <a %(escapedCommonPasswordLinkAttrs)s> i greu cyfrineiriau cryf</a>."
+msgid ""
+"Stay safe &mdash; don’t reuse passwords. See more tips to <a "
+"%(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgstr ""
+"Cadwch yn ddiogel &mdash; peidiwch ag ailddefnyddio cyfrineiriau. Mae  "
+"rhagor o awgrymiadau yn <a %(escapedCommonPasswordLinkAttrs)s> i greu "
+"cyfrineiriau cryf</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "Hmm, rydyn ni'n cael trafferthion gyda'n system. Rydym yn ceisio'i drwsio ar eich rhan ac yn ymddiheuro am yr anghyfleustra. Rhowch gynnig arni eto'n hwyrach."
+msgid ""
+"Hmm, we're having trouble with our system. We're working on fixing it for "
+"you and apologize for the inconvenience. Please try again later."
+msgstr ""
+"Hmm, rydyn ni'n cael trafferthion gyda'n system. Rydym yn ceisio'i drwsio ar "
+"eich rhan ac yn ymddiheuro am yr anghyfleustra. Rhowch gynnig arni eto'n "
+"hwyrach."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
@@ -1947,8 +2320,12 @@ msgid "Back to Subscriptions"
 msgstr "Nôl i Danysgrifiadau"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Chwilio am Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Cychwyn arni yma</a>"
+msgid ""
+"Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started "
+"here</a>"
+msgstr ""
+"Chwilio am Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Cychwyn arni yma</"
+"a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
@@ -1979,26 +2356,37 @@ msgid "Yes, approve device"
 msgstr "Iawn, cymeradwyo dyfais"
 
 #: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr "Os nad chi oedd hwn, <a id=\"change-password\" class=\"link-blue\">newidiwch eich cyfrinair</a>"
+msgid ""
+"If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change "
+"your password</a> "
+msgstr ""
+"Os nad chi oedd hwn, <a id=\"change-password\" class=\"link-blue\">newidiwch "
+"eich cyfrinair</a>"
 
-#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+#: .es5/templates/pair/auth_complete.mustache:1
+#: .es5/templates/pair/success.mustache:1
 msgid "Device connected"
 msgstr "Dyfais wedi'i gysylltu"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
 "\n"
-"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</"
+"span>\n"
 "      "
 msgstr ""
 "\n"
-" Rydych nawr yn cydweddu gyda: <span>%(deviceFamily)s ar %(deviceOS)s</span>\n"
+" Rydych nawr yn cydweddu gyda: <span>%(deviceFamily)s ar %(deviceOS)s</"
+"span>\n"
 " "
 
 #: .es5/templates/pair/auth_complete.mustache:4
-msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr "Nawr gallwch chi gael mynediad i'ch tabiau agored, cyfrineiriau a nodau tudalen ar eich holl ddyfeisiau."
+msgid ""
+"Now you can access your open tabs, passwords, and bookmarks on all your "
+"devices."
+msgstr ""
+"Nawr gallwch chi gael mynediad i'ch tabiau agored, cyfrineiriau a nodau "
+"tudalen ar eich holl ddyfeisiau."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
@@ -2008,7 +2396,8 @@ msgstr "Gweld tabiau o ddyfeisiau wedi'u cydweddu"
 msgid "Manage devices"
 msgstr "Rheoli dyfeisiau"
 
-#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1
+#: .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
 msgstr "Mae cymeradwyaeth nawr ei angen <small>o'ch dyfais arall</small>"
 
@@ -2029,20 +2418,32 @@ msgid "QR code"
 msgstr "Cod QR"
 
 #: .es5/templates/pair/index.mustache:3
-msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
-msgstr "I lwytho Firefox ar i'ch dyfais symudol, daliwch gamera'r ddyfais dros y cod hwn i'w sganio."
+msgid ""
+"To download Firefox on your mobile device, hold the device’s camera over "
+"this code to scan."
+msgstr ""
+"I lwytho Firefox ar i'ch dyfais symudol, daliwch gamera'r ddyfais dros y cod "
+"hwn i'w sganio."
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr "Neu, anfonwch <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">dolen llwytho i chi'ch hun.</a>"
+msgid ""
+"Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/"
+"\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr ""
+"Neu, anfonwch <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" "
+"target=\"_blank\" class=\"link-blue\">dolen llwytho i chi'ch hun.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
 msgstr "Rwy'n barod i gydweddu dyfeisiau"
 
 #: .es5/templates/pair/index.mustache:8
-msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr "Cydweddwch ddyfeisiau i gael mynediad i'ch tabiau, cyfrineiriau a nodau tudalen ym mhob man rydych chi'n defnyddio Firefox."
+msgid ""
+"Sync devices to access your tabs, passwords, and bookmarks everywhere you "
+"use Firefox."
+msgstr ""
+"Cydweddwch ddyfeisiau i gael mynediad i'ch tabiau, cyfrineiriau a nodau "
+"tudalen ym mhob man rydych chi'n defnyddio Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2066,1780 +2467,5 @@ msgstr "Paru gan ddefnyddio ap"
 
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Firefox."
-
-#~ msgid "Primary email verified"
-#~ msgstr "Dilyswyd y prif e-bost"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "Dilyswyd yr ail e-bost"
-
-#~ msgid "Account verified"
-#~ msgstr "Cyfrif wedi ei ddilysu"
-
-#~ msgid "Verification link expired"
-#~ msgstr "Mae'r ddolen dilysu wedi dod i ben"
-
-#~ msgid "Click here to receive a new verification link"
-#~ msgstr "Cliciwch yma i dderbyn dolen dilysu newydd"
-
-#~ msgid "Verification error"
-#~ msgstr "Gwall dilysu"
-
-#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "Edrychwch ar eich e-bost am y ddolen dilysu anfonwyd&nbsp;at %(escapedEmail)s"
-
-#~ msgid "Email verified"
-#~ msgstr "Dilyswyd yr e-bost"
-
-#~ msgid "Verified"
-#~ msgstr "Dilyswyd"
-
-#~ msgid "Verify"
-#~ msgstr "Dilysu"
-
-#~ msgid "Enter verification code"
-#~ msgstr "Rhowch y cod dilysu"
-
-#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-#~ msgstr "Rhowch y cod dilysu a anfonwyd at %(escapedEmail)s o fewn 5 munud."
-
-#~ msgid "Logins and Passwords"
-#~ msgstr "Mewngofnodion a Chyfrineiriau"
-
-#~ msgid "Enter the code that was sent to %(email)s within 5 minutes"
-#~ msgstr "Rhowch y cod anfonwyd at %(email)s o fewn 5 munud"
-
-#~ msgid "Get Firefox on your phone or tablet"
-#~ msgstr "Cael Firefox ar eich ffôn neu dabled"
-
-#~ msgid ""
-#~ "\n"
-#~ "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
-#~ "        "
-#~ msgstr ""
-#~ " Rhowch eich cyfrinair <span class=\"description\">ar gyfer eich cyfrif Firefox</span>\n"
-#~ " \n"
-#~ "        "
-
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-#~ msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a'r <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>."
-
-#~ msgid ""
-#~ "\n"
-#~ "              By proceeding, you agree to:<br />\n"
-#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-#~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ " Trwy barhau, rydych chi'n cytuno i: <br />\n"
-#~ " <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Delerau Gwasanaeth</a> ac <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\"> Hysbysiad Prynu </a> <br />\n"
-#~ "\n"
-#~ " <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>Firefox."
-
-#~ msgid "Enter confirmation code<span class=\"description\">for your Firefox account</span>"
-#~ msgstr "Rhowch y cod dilysu <span class=\"description\">ar gyfer eich cyfrif Firefox</span>"
-
-#~ msgid "Enter confirmation"
-#~ msgstr "Rhowch y cod dilysu"
-
-#~ msgid "Email new code"
-#~ msgstr "E-bostiwch cod newydd"
-
-#~ msgid ""
-#~ "\n"
-#~ "            By proceeding, you agree to:<br />\n"
-#~ "            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-#~ "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
-#~ "          "
-#~ msgstr ""
-#~ "\n"
-#~ " Trwy barhau, rydych chi'n cytuno i: <br />\n"
-#~ " <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Delerau Gwasanaeth Pocket</a> ac <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\"> Hysbysiad Preifatrwydd </a> <br />\n"
-#~ "\n"
-#~ " <a id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a> Firefox."
-
-#~ msgid "You must be over 13 to create an account."
-#~ msgstr "Rhaid i chi fod dros 13 i greu cyfrif."
-
-#~ msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
-#~ msgstr "Os nad chi oedd hwn, <a id=\"change-password\">newidiwch eich cyfrinair</a>"
-
-#~ msgid "Hold your phone's camera over the code to scan."
-#~ msgstr "Daliwch gamera eich ffôn dros y cod i sganio."
-
-#~ msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
-#~ msgstr "Neu, anfonwch <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">dolen llwytho i chi'ch hun.</a>"
-
-#~ msgid "I'm ready to sync devices"
-#~ msgstr "Rwy'n barod i gydweddu dyfeisiau"
-
-#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-#~ msgstr "Rhaid bod o oed arbennig cyn creu Cyfrif&nbsp;Firefox."
-
-#~ msgid "Check your email for the code sent to %(email)s."
-#~ msgstr "Gwiriwch eich e-bost am y cod sydd wedi ei anfon at %(email)s."
-
-#~ msgid "You need to be at least 13 years old to create an account."
-#~ msgstr "Mae angen i chi fod yn 13 oed o leiaf i greu cyfrif."
-
-#~ msgid "Why is more than one device required?"
-#~ msgstr "Pam fod angen mwy nag un dyfais?"
-
-#~ msgid "Why sync multiple devices?"
-#~ msgstr "Pam cydweddu dyfeisiau lluosog?"
-
-#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-#~ msgstr "Nid yw'r gwasanaeth Sync yn cadw copi wrth gefn y barhaol, dim ond ffordd syml a diogel i drosglwyddo nodau tudalen, hanes a chyfrineiriau rhwng eich dyfeisiau eich hun."
-
-#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-#~ msgstr "Dylech osod Firefox a cydweddu o leiaf dwy ddyfais i ddiogelu rhag colli'ch data i gyd os fydd angen ei adfer ond wedi colli eich cyfrinair."
-
-#~ msgid "Got it"
-#~ msgstr "Iawn"
-
-#~ msgid "One account, many services"
-#~ msgstr "Un cyfrif, llawer o wasanaethau"
-
-#~ msgid "Firefox browser"
-#~ msgstr "Y porwr Firefox"
-
-#~ msgid "Sync your bookmarks, passwords, and more on every device."
-#~ msgstr "Cydweddwch eich nodau tudalen, cyfrineiriau a rhagor ar bob dyfais."
-
-#~ msgid "Mozilla VPN"
-#~ msgstr "Mozilla VPN"
-
-#~ msgid "A VPN from the trusted pioneer in internet privacy."
-#~ msgstr "VPN gan arloeswr dibynadwy preifatrwydd ar y rhyngrwyd."
-
-#~ msgid "Pocket"
-#~ msgstr "Pocket"
-
-#~ msgid "Save and discover the best stories from across the web."
-#~ msgstr "Cadw a chanfod y straeon gorau o'r we gyfan."
-
-#~ msgid "Firefox Relay"
-#~ msgstr "Firefox Relay"
-
-#~ msgid "Sign up for new accounts without handing over your email address."
-#~ msgstr "Cofrestrwch am gyfrifon newydd heb rannu eich cyfeiriad e-bost."
-
-#~ msgid "See all"
-#~ msgstr "Gweld y cyfan"
-
-#~ msgid "Stay safe &mdash; don't reuse passwords."
-#~ msgstr "Cadwch yn ddiogel &mdash; peidiwch ailddefnyddio cyfrineiriau."
-
-#~ msgid "Must not be your email address"
-#~ msgstr "Dylai beidio â bod yr un peth â'ch e-bost"
-
-#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-#~ msgstr "Dylai beidio â bod yn debyg i un o'r <a %(escapedCommonPasswordLinkAttrs)s>rhestr cyffredin yma o gyfrineiriau</a>"
-
-#~ msgid "Approve new device <small>for %(email)s</small>"
-#~ msgstr "Cymeradwyo dyfais newydd <small>ar gyfer %(email)s</small>"
-
-#~ msgid "Approve device"
-#~ msgstr "Cymeradwyo dyfais"
-
-#~ msgid "You are now syncing with:"
-#~ msgstr "Rydych nawr yn cydweddu â:"
-
-#~ msgid "Scan to connect another device"
-#~ msgstr "Sganiwch i gysylltu dyfais arall"
-
-#~ msgid "Open the code scanner on your Firefox app and show code when ready."
-#~ msgstr "Agorwch y sganiwr cod ar eich ap Firefox dangos y cod pan yn barod."
-
-#~ msgid "Show code"
-#~ msgstr "Dangos y cod"
-
-#~ msgid "Would you like to sync your phone?"
-#~ msgstr "Hoffech chi gydweddu'ch ffôn?"
-
-#~ msgid "Send a link by SMS to install Firefox on your phone."
-#~ msgstr "Anfonwch ddolen trwy SMS i osod Firefox ar eich ffôn."
-
-#~ msgid "Mobile phone number"
-#~ msgstr "Rhif ffôn symudol"
-
-#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "Gall cyfraddau SMS a data fod yn cael eu codi. Mae angen caniatâd y derbynnydd. <a %(escapedLearnMoreAttributes)s>Dysgu rhagor</a>"
-
-#~ msgid "Not now"
-#~ msgstr "Nid nawr"
-
-#~ msgid "Check your texts"
-#~ msgstr "Gwiriwch eich negeseuon testun"
-
-#~ msgid "We've sent you a text message"
-#~ msgstr "Rydym wedi anfon neges destun atoch chi"
-
-#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-#~ msgstr "Anfonwyd dolen i'r ap Firefox i %(escapedPhoneNumber)s"
-
-#~ msgid "Wrong number?"
-#~ msgstr "Rhif anghywir?"
-
-#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-#~ msgstr "Os nad ydych yn derbyn y neges SMS, gallwch hefyd chwilio eich storfa apiau am \"Firefox.\""
-
-#~ msgid "Didn't arrive? Resend"
-#~ msgstr "Heb gyrraedd? Ail anfon"
-
-#~ msgid "Why sign in on another device?"
-#~ msgstr "Pam mewngofnodi ar ddyfais arall?"
-
-#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Cymorth</a>"
-
-#~ msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-#~ msgstr "Parhewch i <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-
-#~ msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-#~ msgstr "Rydych nawr yn barod i ddefnyddio <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr ""
-#~ "<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch manylion personol (gan gynnwys hanes, nodau tudalen a chyfrineiriau). "
-#~ "Mae hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr ""
-#~ "<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch manylion personol (gan gynnwys hanes, nodau tudalen a chyfrineiriau). "
-#~ "Mae hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych."
-
-#~ msgid "Firefox Lockwise"
-#~ msgstr "Firefox Lockwise"
-
-#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-#~ msgstr "Cewch fynediad diogel i gyfrineiriau sydd wedi'u cadw'n ddiogel yn Firefox yn unrhyw le &mdash; hyd yn oed y tu allan i'r porwr."
-
-#~ msgid "Firefox Monitor"
-#~ msgstr "Firefox Monitor"
-
-#~ msgid "Get a lookout for data breaches."
-#~ msgstr "Cadw llygad allan am dor-data."
-
-#~ msgid ""
-#~ "\n"
-#~ "              <!-- L10N: Pocket image follows `You are now ready to use` -->\n"
-#~ "              You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
-#~ "          "
-#~ msgstr ""
-#~ "\n"
-#~ "<!-- L10N: Mae delwedd Pocket nawr yn dilyn `Rydych chi nawr yn barod i ddefnyddio` -->\n"
-#~ " Rydych chi nawr yn barod i ddefnyddio <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
-#~ " "
-
-#~ msgid ""
-#~ "\n"
-#~ "                <!-- L10N: For languages structured like English, the phrase can read \"to continue to\" with Pocket image following -->\n"
-#~ "                Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "                <!-- L10N: For languages structured like English, the phrase can read \"to continue to\" with Pocket image following -->\n"
-#~ "                Parhau i <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
-#~ " "
-
-#~ msgid "Continue to"
-#~ msgstr "Parhau"
-
-#~ msgid "You are now ready to use"
-#~ msgstr "Rydych nawr yn barod i ddefnyddio"
-
-#~ msgid "Save and discover the best stories from accross the web."
-#~ msgstr "Cadw a darganfod y straeon gorau o bob rhan o'r we."
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
-#~ msgstr ""
-#~ "<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch data personol (gan gynnwys hanes, nodau tudalen a chyfrineiriau). Mae "
-#~ "hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-#~ "data with your password to protect your privacy."
-#~ msgstr ""
-#~ "<span>SYLWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae modd i chi golli rhywfaint o'ch data personol (gan gynnwys hanes, nodau tudalen a chyfrineiriau). Mae "
-#~ "hynny oherwydd ein bod yn amgryptio'ch data gyda'ch cyfrinair i ddiogelu eich preifatrwydd."
-
-#~ msgid "Change..."
-#~ msgstr "Newid..."
-
-#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
-#~ msgstr "Unwaith i chi orffen, defnyddiwch eich cyfrinair newydd i fewngofnodi i'ch holl ddyfeisiau."
-
-#~ msgid "Change"
-#~ msgstr "Newid"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Newidiwyd y cyfrinair yn llwyddiannus"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "Rydym yn flin i glywed am hyn. Rhaid i chi newid cyfrinair eich Cyfrif Firefox a chwilio am wybodaeth gan wneuthurwr eich dyfais am ddileu eich data o bell."
-
-#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "Rydym yn flin i glywed am hyn. Os yw hwn yn ddyfais nad ydych yn ymddiried ynddo, rhaid i chi newid cyfrinair eich Cyfrif Firefox, a newid unrhyw gyfrinair sydd wedi ei gadw o fewn Firefox."
-
-#~ msgid "Last seen %(translatedTimeAgo)s"
-#~ msgstr "Gwelwyd diwethaf %(translatedTimeAgo)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s"
-#~ msgstr "Gwelwyd diwethaf dros %(translatedTimeAgo)s"
-
-#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Gwelwyd diwethaf %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Gwelwyd diwethaf dros %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Gwelwyd diwethaf %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Gwelwyd diwethaf dros %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Gweithredol diwethaf %(translatedTimeAgo)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s"
-#~ msgstr "Gweithredol ers %(translatedTimeAgo)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Gweithredol %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Gweithredol ers %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Gweithredol diwethaf %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Gweithredol diwethaf %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s"
-
-#~ msgid "Over %(translatedTimeAgo)s"
-#~ msgstr "Dros %(translatedTimeAgo)s"
-
-#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Dros %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Dros %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Web Session, %(userAgent)s"
-#~ msgstr "Sesiwn Gwe, %(userAgent)s"
-
-#~ msgid "Web Session"
-#~ msgstr "Sesiwn Gwe"
-
-#~ msgid "Last seen time unknown"
-#~ msgstr "Amser gwelwyd diwethaf yn anhysbys"
-
-#~ msgid "Change…"
-#~ msgstr "Newid…"
-
-#~ msgid "Add…"
-#~ msgstr "Ychwanegu…"
-
-#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
-#~ msgstr "Dewiswch enw yr hoffech chi ei ddangos yn Firefox ac wrth reoli eich cyfrif."
-
-#~ msgid "Display name updated"
-#~ msgstr "Diweddarwyd yr enw dangos"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "Mae'r ail gyfrif e-bost wedi ei dynnu"
-
-#~ msgid "Verification email sent"
-#~ msgstr "Anfonwyd yr e-bost dilysu"
-
-#~ msgid "Primary email set to %(email)s"
-#~ msgstr "Mae'r prif e-bost wedi ei osod i %(email)s"
-
-#~ msgid "New recovery codes generated"
-#~ msgstr "Cynhyrchwyd codau adfer newydd"
-
-#~ msgid "Two-step authentication removed"
-#~ msgstr "Mae dilysu dau gam wedi ei dynnu"
-
-#~ msgid "Two-step Authentication"
-#~ msgstr "Dilysu Dau Gam"
-
-#~ msgid "Account Recovery"
-#~ msgstr "Adfer Cyfrif"
-
-#~ msgid "Account recovery revoked"
-#~ msgstr "Analluogi adfer y cyfrif"
-
-#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-#~ msgstr "Mae eich cerdyn credyd wedi dod i ben. Diweddarwch ef <a %(escapedCcExpiredLinkAttrs)s>yma</a>."
-
-#~ msgid "Sign out"
-#~ msgstr "Allgofnodi"
-
-#~ msgid "Take picture"
-#~ msgstr "Cymryd llun"
-
-#~ msgid "Upload"
-#~ msgstr "Llwytho i fyny"
-
-#~ msgid "Camera"
-#~ msgstr "Camera"
-
-#~ msgid "Clear"
-#~ msgstr "Clirio"
-
-#~ msgid "Avatar"
-#~ msgstr "Afatar"
-
-#~ msgid "Position and rotate your picture as needed"
-#~ msgstr "Gosodwch a throi eich llun yn ôl y galw"
-
-#~ msgid "Disconnect from Sync"
-#~ msgstr "Datgysylltu o Sync"
-
-#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-#~ msgstr "Bydd eich data pori'n parhau ar %(deviceName)s, ond ni fydd yn cydweddu bellach gyda'ch cyfrif."
-
-#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-#~ msgstr "Rydych chi'n datgysylltu %(deviceName)s o Sync oherwydd bod y ddyfais hon yn:"
-
-#~ msgid "Suspicious"
-#~ msgstr "Amheus"
-
-#~ msgid "Lost or stolen"
-#~ msgstr "Wedi'i cholli neu'i dwyn"
-
-#~ msgid "Old or replaced"
-#~ msgstr "Yn hen neu wedi'i ddisodli"
-
-#~ msgid "Duplicate"
-#~ msgstr "Un arall"
-
-#~ msgid "Rather not say"
-#~ msgstr "Gwell peidio dweud"
-
-#~ msgid "Disconnect"
-#~ msgstr "Datgysylltu"
-
-#~ msgid "Disconnection Successful"
-#~ msgstr "Datgysylltwyd yn Llwyddiannus"
-
-#~ msgid "Devices & apps"
-#~ msgstr "Dyfeisiau ac apiau"
-
-#~ msgid "Show"
-#~ msgstr "Dangos"
-
-#~ msgid "Current device"
-#~ msgstr "Dyfais gyfredol"
-
-#~ msgid "Disconnect…"
-#~ msgstr "Datgysylltu…"
-
-#~ msgid "Current session"
-#~ msgstr "Sesiwn cyfredol"
-
-#~ msgid "Revoke"
-#~ msgstr "Diddymu"
-
-#~ msgid "Firefox for iOS"
-#~ msgstr "Firefox iOS"
-
-#~ msgid "None connected"
-#~ msgstr "Dim wedi eu cysylltu"
-
-#~ msgid "Firefox for Android"
-#~ msgstr "Firefox Android"
-
-#~ msgid "Missing or duplicate items?"
-#~ msgstr "Eitemau coll neu ddyblyg?"
-
-#~ msgid "Refresh status"
-#~ msgstr "Adnewyddu statws"
-
-#~ msgid "Email preferences"
-#~ msgstr "Dewisiadau e-bost"
-
-#~ msgid "Delete account"
-#~ msgstr "Dileu'r cyfrif"
-
-#~ msgid "Delete…"
-#~ msgstr "Dileu…"
-
-#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-#~ msgstr "Ydych chi am ddileu tanysgrifiad taledig? Ewch i <a href=\"/subscriptions\">Tanysgrifiadau</a>."
-
-#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-#~ msgstr "Rydych wedi cysylltu'ch cyfrif Firefox â chynnyrch Mozilla sy'n eich cadw'n ddiogel ac yn gynhyrchiol ar y we:"
-
-#~ msgid "Please acknowledge that by deleting your account:"
-#~ msgstr "Cydnabyddwch hynny trwy ddileu eich cyfrif:"
-
-#~ msgid "Any paid subscriptions you have will be cancelled"
-#~ msgstr "Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu"
-
-#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-#~ msgstr "Bydd unrhyw estyniadau a themâu rydych wedi'u cyhoeddi yn addons.mozilla.org yn cael eu dileu"
-
-#~ msgid "You may lose saved information and features within Mozilla products"
-#~ msgstr "Efallai y byddwch yn colli gwybodaeth a nodweddion sydd wedi'u cadw o fewn cynnyrch Mozilla"
-
-#~ msgid "Reactivating with this email may not restore your saved information"
-#~ msgstr "Efallai na fydd ail gychwyn gyda'r e-bost hwn yn adfer eich manylion a gadwyd"
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-#~ msgstr "Mae ail e-bost yn gyfeiriad ychwanegol ar gyfer derbyn hysbysiadau diogelwch a chadarnhau dyfeisiau newydd."
-
-#~ msgid "Verification required"
-#~ msgstr "Mae angen dilysu"
-
-#~ msgid "Make primary"
-#~ msgstr "Gwneud yn brif gyfrif"
-
-#~ msgid "Remove"
-#~ msgstr "Tynnu"
-
-#~ msgid "Refresh"
-#~ msgstr "Adnewyddu"
-
-#~ msgid "Add email"
-#~ msgstr "Ychwanegu e-bost"
-
-#~ msgid "Add"
-#~ msgstr "Ychwanegu"
-
-#~ msgid "NOTE:"
-#~ msgstr "SYLW:"
-
-#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-#~ msgstr "Drwy greu codau adfer, bydd y codau blaenorol i gyd yn mynd yn annilys. Cadwch eich codau newydd mewn man diogel."
-
-#~ msgid "Generate new recovery codes"
-#~ msgstr "Wrthi'n cynhyrchu codau adfer newydd"
-
-#~ msgid "Confirm a recovery code"
-#~ msgstr "Cadarnhau'r cod adfer"
-
-#~ msgid "Manage…"
-#~ msgstr "Rheoli…"
-
-#~ msgid "Enter this secret key into your authentication app:"
-#~ msgstr "Rhowch yr allwedd gyfrinachol yma i'ch ap dilysu:"
-
-#~ msgid "Two-step authentication"
-#~ msgstr "Dilysu dau gam"
-
-#~ msgid "Enable…"
-#~ msgstr "Galluogi…"
-
-#~ msgid "Current status"
-#~ msgstr "Statws gyfredol"
-
-#~ msgid "Enabled"
-#~ msgstr "Galluogwyd"
-
-#~ msgid "Disabled"
-#~ msgstr "Analluogwyd"
-
-#~ msgid "Disable"
-#~ msgstr "Analliogi"
-
-#~ msgid "Enable"
-#~ msgstr "Galluogi"
-
-#~ msgid "Replace recovery codes"
-#~ msgstr "Newid y codau adfer"
-
-#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
-#~ msgstr "Cyn bod modd i chi weld na newid cynnwys yr adran hon, bydd angen i chi ddilysu eich cyfeiriad e-bost."
-
-#~ msgid "Primary email"
-#~ msgstr "Prif e-bost"
-
-#~ msgid "Account recovery"
-#~ msgstr "Adfer cyfrif"
-
-#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-#~ msgstr "Cynhyrchu allwedd adfer i adennill mynediad i'ch nodau tudalen, cyfrineiriau a data wedi ei gydweddu yn Firefox os fyddwch yn anghofio eich cyfrinair."
-
-#~ msgid "Recovery key"
-#~ msgstr "Allwedd adfer"
-
-#~ msgid "Not set"
-#~ msgstr "Heb ei osod"
-
-#~ msgid "Generate"
-#~ msgstr "Cynhyrchu"
-
-#~ msgid ""
-#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
-#~ "more</a>"
-#~ msgstr ""
-#~ "<span class=\"note\">NOTE:</span>Mae eich cyfrinair Cyfrif Firefox yn amgryptio eich data Firefox. Dim ond eich cyfrinair neu allwedd adfer sy'n gallu cael mynediad at eich data. <a "
-#~ "%(escapedLearnMoreLinkAttributes)s>Dysgu rhagor</a>"
-
-#~ msgid "Are you sure you want to revoke?"
-#~ msgstr "Ydych chi'n siŵr eich bod eisiau diddymu?"
-
-#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-#~ msgstr "Ni fydd modd i chi ddefnyddio eich allwedd adfer i gael mynediad at eich data os fyddwch yn ailosod eich cyfrinair."
-
-#~ msgid "Step 2 of 2: Save Recovery key"
-#~ msgstr "Cam 2 o 2: Cadw Allwedd Adfer"
-
-#~ msgid "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-#~ msgstr ""
-#~ "<span class=\"note\">NOTE: </span>Os fyddwch yn anghofio eich cyfrinair, mae angen yr allwedd yma i chi gael ad-ennill mynediad i'ch data. Cadwch eich allwedd adfer mewn man diogel, lle gallwch ddod"
-#~ " o hyd iddo'n hawdd."
-
-#~ msgid "Done, Recovery key saved"
-#~ msgstr "Gorffen, wedi cadw'r allwedd Adfer"
-
-#~ msgid "Please Select One"
-#~ msgstr "Dewiswch Un"
-
-#~ msgid "Sign up to get more features:"
-#~ msgstr "Cofrestrwch i gael mwy o nodweddion:"
-
-#~ msgid "Firefox Send"
-#~ msgstr "Firefox Send"
-
-#~ msgid "Send larger files securely and privately."
-#~ msgstr "Anfonwch ffeiliau mwy yn ddiogel ac yn breifat."
-
-#~ msgid "Firefox Account"
-#~ msgstr "Cyfrif Firefox"
-
-#~ msgid "Could not update Ecosystem Anon ID because precondition failed."
-#~ msgstr "Methu diweddaru Ecosystem Anon ID oherwydd bod rhagamod wedi methu."
-
-#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-#~ msgstr "Ydych chi am ddileu tanysgrifiad taledig? Ewch i <a href=\"/subscriptions\">Tanysgrifiadau a Thaliadau</a>."
-
-#~ msgid "Subscriptions & Payments"
-#~ msgstr "Tanysgrifiadau a Thaliadau"
-
-#~ msgid "Get app"
-#~ msgstr "Estyn yr ap"
-
-#~ msgid "Download Firefox with your camera"
-#~ msgstr "Llwytho Firefox i lawr gyda'ch camera"
-
-#~ msgid "Connect your mobile device"
-#~ msgstr "Cysylltu eich dyfais symudol"
-
-#~ msgid "with a QR code we've created just for you"
-#~ msgstr "gyda chod QR rydyn ni wedi'i greu yn unig ar eich cyfer chi"
-
-#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-#~ msgstr "Diolch i chi am gysylltu â Mozilla Support am <b>%(escapedLowercaseTopic)s</b> am <b>%(escapedSelectedPlan)s</b>. Byddwn yn cysylltu â chi trwy e-bost cyn gynted â phosibl."
-
-#~ msgid "General inquiries"
-#~ msgstr "Ymholiadau cyffredinol"
-
-#~ msgid "Connection issues"
-#~ msgstr "Materion cysylltu"
-
-#~ msgid "Getting started"
-#~ msgstr "Cychwyn arni"
-
-#~ msgid "Firefox Private Network Android App"
-#~ msgstr "Ap Android Rhwydwaith Preifat Firefox"
-
-#~ msgid "Firefox Private Network Windows App"
-#~ msgstr "Ap Windows Rhwydwaith Preifat Firefox"
-
-#~ msgid "Sync this browser with your phone"
-#~ msgstr "Cydweddwch y porwr hwn â'ch ffôn"
-
-#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-#~ msgstr "Anfonwch Firefox yn syth i'ch ffôn clyfar a mewngofnodwch i gwblhau'r gosod"
-
-#~ msgid "Subscriptions &amp; Payments"
-#~ msgstr "Tanysgrifiadau a Thaliadau"
-
-#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-#~ msgstr "Ydych chi am ddileu tanysgrifiad taledig? Ewch i <a href=\"/subscriptions\">Rheoli Tanysgrifiadau</a>."
-
-#~ msgid ""
-#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr ""
-#~ "Dim ond mewn rhai gwledydd mae'r gwasanaeth SMS ar gael. Gall fod yn rhaid i chi dalu costau data SMS &amp;. Rhaid i dderbynnydd yr e-bost neu'r SMS fod wedi cytuno. <a "
-#~ "%(escapedLearnMoreAttributes)s>Dysgu rhagor</a>"
-
-#~ msgid "If you lose access to your account, youll be able to restore your sync data."
-#~ msgstr "Os byddwch yn colli mynediad i'ch cyfrif, byddwch yn gallu adfer eich data cydweddus."
-
-#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-#~ msgstr "Mae cyfrif yn bodoli'n barod. <a href=\"/signin\">Mewngofnodwch</a>"
-
-#~ msgid "Last sync %(translatedTimeAgo)s"
-#~ msgstr "Cydweddiad diwethaf %(translatedTimeAgo)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s"
-#~ msgstr "Cydweddiad diwethaf ers %(translatedTimeAgo)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Cydweddwyd diwethaf %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Cydweddwyd diwethaf %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Cydweddwyd diwethaf %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Cydweddwyd diwethaf %(translatedTimeAgo)s ger %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync time unknown"
-#~ msgstr "Mae'r amser cydweddu diwethaf yn anhysbys"
-
-#~ msgid "Subscribed successfully"
-#~ msgstr "Tanysgrifiwyd yn llwyddiannus"
-
-#~ msgid "Open tabs"
-#~ msgstr "Agor tabiau"
-
-#~ msgid "Logins"
-#~ msgstr "Mewngofnodion"
-
-#~ msgid "Credit cards"
-#~ msgstr "Cardiau credyd"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox Sync"
-
-#~ msgid "Accounts with two-step authentication do not support pairing at this time"
-#~ msgstr "Nid yw cyfrifon gyda dilysu dau gam yn cefnogi paru ar hyn o bryd"
-
-#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-#~ msgstr "Ydych chi'n golygu <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-
-#~ msgid "Please try again later"
-#~ msgstr "Ceisiwch eto'n hwyrach"
-
-#~ msgid "Service unavailable, try again soon"
-#~ msgstr "Nid yw'r gwasanaeth ar gael., ceisiwch eto"
-
-#~ msgid "%(email)s registered"
-#~ msgstr "%(email)s wedi ei gofrestru"
-
-#~ msgid "Save selections"
-#~ msgstr "Cadw'r dewisiadau"
-
-#~ msgid "Sign in to continue"
-#~ msgstr "Mewngofnodi i barhau"
-
-#~ msgid "Create an account"
-#~ msgstr "Creu cyfrif"
-
-#~ msgid "Use security code"
-#~ msgstr "Defnyddio'r cod diogelwch"
-
-#~ msgid "Enter code"
-#~ msgstr "Rhowch y cod"
-
-#~ msgid "Use recovery code"
-#~ msgstr "Defnyddiwch y cod adfer"
-
-#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-#~ msgstr "Peidiwch colli'r cyfrinair hwn. Os oes angen ei ailosod, mae'n bosib i chi golli data Sync."
-
-#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr ""
-#~ "<span>Peidiwch ail ddefnyddio eich cyfrinair e-bost</span>Os yw rhywun yn gwybod am eich cyfrinair e-bost, mae'n bosib iddyn nhw ddefnyddio eich mewngofnod Firefox ar ddyfais newydd a chael at eich "
-#~ "data."
-
-#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "<span>Cofiwch eich cyfrinair</span>Os fyddwch angen ailosod eich cyfrinair, byddwch yn colli data Sync nad yw ar un o'ch dyfeisiau."
-
-#~ msgid "Have an account? Sign in"
-#~ msgstr "Mae gennych gyfrif? Mewngofnodwch"
-
-#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
-#~ msgstr "Gosodwch Firefox ar eich ffôn clyfar a mewngofnodwch i gwblhau'r gosod"
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "Anfonwyd dolen yr ap i %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Camdeipio&nbsp;&nbsp;rhif?</a>"
-
-#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "Dolen yr ap wedi ei ail anfon i %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Rhif wedi ei&nbsp;gamdeipio?</a>"
-
-#~ msgid "If you are not receiving the text message, you can also download the apps manually."
-#~ msgstr "Os nad ydych yn derbyn r e-bost, gallwch lwytho'r apiau i lawr gyda llaw."
-
-#~ msgid "Disconnect from Sync?"
-#~ msgstr "Datgysylltu o Sync?"
-
-#~ msgid "Suspicious device"
-#~ msgstr "Dyfais amheus"
-
-#~ msgid "Lost or stolen device"
-#~ msgstr "Dyfais goll neu wedi ei dwyn"
-
-#~ msgid "Old or replaced device"
-#~ msgstr "Hen ddyfeisiau neu rhai ail law"
-
-#~ msgid "Duplicate device"
-#~ msgstr "Ail ddyfais"
-
-#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-#~ msgstr "Byddwch yn derbyn gwybodaeth am ddiogelwch eich cyfrif, newid i'n polisi, swyddogaethau eich cyfrif ac e-bost cychwynnol i'ch helpu i gael y gorau o'ch Cyfrif Firefox."
-
-#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-#~ msgstr "Hefyd, gallwch danysgrifio i dderbyn e-byst hyrwyddo sy'n cynnwys y newyddion diweddaraf gan Mozilla a Firefox."
-
-#~ msgid "Subscribe"
-#~ msgstr "Tanysgrifio"
-
-#~ msgid "Manage preferences"
-#~ msgstr "Rheoli dewisiadau"
-
-#~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you may "
-#~ "lose access to it everywhere."
-#~ msgstr ""
-#~ "Os ydych yn defnyddio'r cyfrif hwn ar gyfer apiau a gwasanaethau Mozilla fel AMO, Pocket a Screenshots dylech fewngofnodi a thynnu unrhyw fanylion personol sydd wedi eu cadw. Unwaith i chi ddileu "
-#~ "eich cyfrif yma feallai byddwch y colli mynediad iddo ymhob man."
-
-#~ msgid "verified"
-#~ msgstr "dilyswyd"
-
-#~ msgid "verification required"
-#~ msgstr "mae angen dilysu"
-
-#~ msgid "Recovery codes"
-#~ msgstr "Codau adfer"
-
-#~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-#~ msgstr "Dyma eich codau adfer defnydd unwaith. Cadwch nhw mewn man diogel ar gyfer adeg pan fyddwch yn colli mynediad i'ch dyfais symudol. Fyddwch chi ddim yn gallu gweld y codau yma eto."
-
-#~ msgid "Manually enter this secret key into your authentication app:"
-#~ msgstr "Rhowch yr allwedd gyfrinachol yma i'ch ap dilysu:"
-
-#~ msgid "Your Firefox Account password"
-#~ msgstr "Eich cyfrinair Cyfrif Firefox"
-
-#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-#~ msgstr "Byddwch wreiddiol a diogel &mdash; peidiwch ailddefnyddio eich cyfrinair yn unrhyw le arall."
-
-#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
-#~ msgstr "Cofiwch y cyfrinair hwn &mdash; bydd ei ailosod yn dileu eich data o'n gweinyddion."
-
-#~ msgid "Get App"
-#~ msgstr "Estyn Ap"
-
-#~ msgid "Get the most out of your account"
-#~ msgstr "Cael y gorau o'ch cyfrif"
-
-#~ msgid "Sync these everywhere you sign in"
-#~ msgstr "Cydweddwch y rhain ym mhob man y byddwch yn mewngofnodi"
-
-#~ msgid "Practical knowledge is coming to your inbox"
-#~ msgstr "Mae gwybodaeth ymarferol yn dod i'ch blwch derbyn"
-
-#~ msgid "Sign up for more:"
-#~ msgstr "Cofrestrwch am ragor:"
-
-#~ msgid "Invite me to test new Mozilla products"
-#~ msgstr "Gwahoddwch fi i brofi cynnyrch Mozilla newydd"
-
-#~ msgid "One last step"
-#~ msgstr "Un cam olaf"
-
-#~ msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-#~ msgstr "Gwiriwch %(escapedEmail)s am ddolen gadarnhau a byddwn yn eich rhoi chi ar eich ffordd."
-
-#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-#~ msgstr "Mewngofnodwch i <span class=\"service\">i'ch cyfrif Firefox</span>"
-
-#~ msgid "Create your Firefox account"
-#~ msgstr "Crëwch gyfrif Firefox"
-
-#~ msgid "You did it! You’re signed in."
-#~ msgstr "Da iawn! Rydych wedi mewngofnodi."
-
-#~ msgid "Now get Firefox everywhere else."
-#~ msgstr "Nawr defnyddio Firefox ym mhob man arall."
-
-#~ msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-#~ msgstr "Mewngofnodwch ar eich dyfeisiau eraill i gael holl gynnyrch, gwybodaeth, a nodweddion preifatrwydd Firefox."
-
-#~ msgid "Get more from these features:"
-#~ msgstr "Cael mwy o'r nodweddion hyn:"
-
-#~ msgid "Travel the internet with protection, on every device."
-#~ msgstr "Crwydro'r rhyngrwyd gyda diogelwch, ar bob dyfais."
-
-#~ msgid "Keep your passwords protected and portable."
-#~ msgstr "Cadwch eich cyfrineiriau wedi'u diogelu ac yn gludadwy."
-
-#~ msgid "Share large files without prying eyes."
-#~ msgstr "Rhannu ffeiliau mawr heb lygaid busneslyd."
-
-#~ msgid "Could not get Subscription Platform Terms of Service"
-#~ msgstr "Methu derbyn Telerau Gwasanaeth Llwyfan Tanysgrifio"
-
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Amodau Gwasanaeth</a> a'r <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Hysbysiad Preifatrwydd</a>."
-
-#~ msgid "Subscription Platform Terms of Service"
-#~ msgstr "Amodau Gwasanaeth y Llwyfan Tanysgrifio"
-
-#~ msgid "Description of Issue"
-#~ msgstr "Disgrifiad o'r Mater"
-
-#~ msgid "Any subscriptions you have will be cancelled"
-#~ msgstr "Bydd unrhyw danysgrifiadau sydd gennych yn cael eu diddymu"
-
-#~ msgid "Expired or invalid code"
-#~ msgstr "Cod wedi dod i ben neu'n annilys"
-
-#~ msgid "Sync these everywhere you sign in:"
-#~ msgstr "Cydweddwch y rhain ym mhobman fyddwch yn mewngofnodi:"
-
-#~ msgid "Enable Sync"
-#~ msgstr "Galluogi Sync"
-
-#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-#~ msgstr "Rhowch y cod dilysu a anfonwyd at %(escapedEmail)s o fewn 20 munud."
-
-#~ msgid "Your message was sent to support"
-#~ msgstr "Anfonwyd eich neges i'n cefnogaeth"
-
-#~ msgid "Expired or invalid signup code"
-#~ msgstr "Cod llofnodi sydd wedi dod i ben neu'n annilys"
-
-#~ msgid "%(email)s registered."
-#~ msgstr "%(email)s wedi eu cofrestri."
-
-#~ msgid "Communication preferences"
-#~ msgstr "Dewisiadau cyfathrebu"
-
-#~ msgid "Manage Subscriptions"
-#~ msgstr "Rheoli Tanysgrifiadau"
-
-#~ msgid "Refresh Status"
-#~ msgstr "Adnewyddu Statws"
-
-#~ msgid "Approve connections <small>to begin syncing</small>"
-#~ msgstr "Cymeradwywch gysylltiadau <small>i gychwyn cydweddu</small>"
-
-#~ msgid "Approve connection"
-#~ msgstr "Cymeradwyo cysylltiad"
-
-#~ msgid "Approve this connection <small>from this device</small>"
-#~ msgstr "Cymeradwyo'r cysylltiad <small>o'r ddyfais hon</small>"
-
-#~ msgid "Use a different email address"
-#~ msgstr "Defnyddiwch gyfeiriad e-bost gwahanol"
-
-#~ msgid "Sign in &rarr;"
-#~ msgstr "Mewngofnodi &rarr;"
-
-#~ msgid "Attempting to pair"
-#~ msgstr "Ceisio paru"
-
-#~ msgid "Error connecting to remote device"
-#~ msgstr "Gwall wrth gysylltu â dyfais bell"
-
-#~ msgid "Could not decrypt message from the remote device"
-#~ msgstr "Methu dadgryptio neges o'r ddyfais bell"
-
-#~ msgid "Save settings"
-#~ msgstr "Cadw'r gosodiadau"
-
-#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr "Cyfrif Firefox anhysbys. <a href=\"/signup\">Ymunwch</a> gan ddefnyddio eich cyfrif Ychwanegion cyfeiriad e-bost blaenorol i gael mynediad at eich data Ychwanegion."
-
-#~ msgid "App link resent to %(phoneNumber)s"
-#~ msgstr "Dolen ap wedi ei ailosod i %(phoneNumber)s"
-
-#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-#~ msgstr "Trwy garedigrwydd <a href=\"https://www.gravatar.com\">Gravatar</a>"
-
-#~ msgid "Unsubscribed successfully"
-#~ msgstr "Dad-tanysgrifiwyd yn llwyddiannus"
-
-#~ msgid "Email resent"
-#~ msgstr "Ail anfonwyd yr e-bost"
-
-#~ msgid "No Gravatar found"
-#~ msgstr "Heb ganfod Grafatar"
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-#~ msgstr "A oeddech chi'n golygu <span tabindex=\"1\">%(escapedDomain)s</span>?"
-
-#~ msgid "Resources failed to load"
-#~ msgstr "Methodd yr adnoddau â llwytho"
-
-#~ msgid "Unexpected resource error"
-#~ msgstr "Gwall adnodd annisgwyl"
-
-#~ msgid "Script error"
-#~ msgstr "Gwall sgript"
-
-#~ msgid "SMS sent"
-#~ msgstr "Anfonwyd yr sms"
-
-#~ msgid "Your number has been blocked"
-#~ msgstr "Mae eich rhif wedi ei rwystro"
-
-#~ msgid "SMS not sent, please try again"
-#~ msgstr "Heb anfon SMS, ceisiwch eto"
-
-#~ msgid "Learn more."
-#~ msgstr "Dysgu rhagor."
-
-#~ msgid "%(email)s created"
-#~ msgstr "Crëwyd %(email)s"
-
-#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
-#~ msgstr "Nid yw Ychwanegion a Dewisiadau yn cydweddu ar ddyfeisiau symudol, ar hyn o bryd."
-
-#~ msgid "Click here to receive a new reset link"
-#~ msgstr "Cliciwch yma i dderbyn dolen ailosod newydd"
-
-#~ msgid "Enter new password"
-#~ msgstr "Rhowch gyfrinair newydd"
-
-#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Unwaith i chi gyflwyno cyfrinair newydd, byddwch yn colli unrhyw ddata Sync sydd dim ar un o'ch dyfeisiau."
-
-#~ msgid "Learn how Sync works."
-#~ msgstr "Dysgu sut mae Sync yn gweithio."
-
-#~ msgid "Submit new password"
-#~ msgstr "Cyflwynwch gyfrinair newydd"
-
-#~ msgid "Email Sent"
-#~ msgstr "Anfonwyd yr e-bost"
-
-#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "Mae dolen dilysu wedi ei hanfon &nbsp; at %(escapedEmail)s"
-
-#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-#~ msgstr "I diogelu eich data Firefox yn well, rydym wedi e-bostio dolen yn cadarnhau i %(email)s"
-
-#~ msgid "Didn't arrive and not in spam folder? Resend"
-#~ msgstr "Heb gyrraedd a ddim yn y ffolder sbam? Ail anfon"
-
-#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-#~ msgstr "Cliciwch ar y ddolen rydym wedi ei hanfon atoch i %(email)s o fewn yr awr nesaf er mwyn creu cyfrinair newydd."
-
-#~ msgid "This device is connected"
-#~ msgstr "Mae'r ddyfais hon wedi ei chysylltu"
-
-#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
-#~ msgstr "Agorwch y gosodiadau a dewis Mewngofnodi i Firefox i gwblhau'r gosod"
-
-#~ msgid "Why is this required?"
-#~ msgstr "Pam fod angen hyn?"
-
-#~ msgid "Cookies and local storage are required."
-#~ msgstr "Mae angen cwcis a storfa leol."
-
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Drwy barhau, rydych yn cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Amodau Gwasanaeth</a> a<a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Hysbysiad Preifatrwydd</a> "
-#~ "gwasanaethau cwmwl Firefox."
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Gwasanaethau cwmwl Firefox"
-
-#~ msgid "Proceed"
-#~ msgstr "Parhau"
-
-#~ msgid "Reset account"
-#~ msgstr "Ailosod cyfrif"
-
-#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Pan fyddwch yn ailosod eich cyfrinair, byddwch yn colli unrhyw ddata Sync nad yw ar un o'ch dyfeisiau."
-
-#~ msgid "Remember password? Sign in."
-#~ msgstr "Cofio cyfrinair? Mewngofnodwch."
-
-#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Chwilio am ddata eich Ychwanegion? <a href=\"/signup\">Mewngofnodwch</a> am Gyfrif Firefox gyda'ch cyfrif hen gyfeiriad e-bost Ychwanegion."
-
-#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-#~ msgstr "Mudwch eich data cydweddu drwy mewngofnodi i'ch Cyfrif &nbsp;Firefox."
-
-#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-#~ msgstr "Er mwyn diogelu eich data Firefox yn well, mae yna god awdurdodiyn aros amdanoch yn %(email)s."
-
-#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-#~ msgstr "Chwilio am Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Cychwyn yma</a>"
-
-#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-#~ msgstr "Mudwch eich data cydweddu drwy greu Cyfrif &nbsp;Firefox newydd."
-
-#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Chwilio am ddata eich Ychwanegion? Agorwch Gyfrif Firefox gyda chyfeiriad e-bost eich hen gyfrif Ychwanegion."
-
-#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
-#~ msgstr "Bydd cyfrinair cryf, unigryw yn cadw eich data Firefox yn ddiogel rhag drygioni."
-
-#~ msgid "Receive the monthly Firefox newsletter"
-#~ msgstr "Derbyn llythyr newyddion misol Firefox (yn Saesneg)"
-
-#~ msgid ""
-#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr ""
-#~ "Mae'r gwasanaeth SMS ar gael i rifau ffôn yr UDA yn unig. Gall graddfeydd talu SMS &amp; gael eu defnyddio. Rhaid i dderbyniwr bwriadol yr e-bost neu SMS fod wedi cydsynio. <a "
-#~ "%(escapedLearnMoreAttributes)s>Dysgu rhagor</a>"
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-#~ msgstr "Anfonwyd dolen yr ap i %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s> Rhif wedi ei gam deipio?</a>"
-
-#~ msgid "Why Sync two (or more!) devices?"
-#~ msgstr "Pam cydweddu dwy ddyfais (neu fwy)?"
-
-#~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved to "
-#~ "Firefox for desktop will appear."
-#~ msgstr ""
-#~ "Mae Sync yn caniatau i chi rannu nodau tudalen, hanes a chyfrineiriau rydych wedi eu cadw i Firefox ar un dyfais gyda Firefox ar ddyfais arall. Mewngofnodwch i Firefox ar eich ffôn neu dabled a bydd"
-#~ " popeth rydych wedi eu cadw i Firefox y bwrdd gwaith yn ymddangos."
-
-#~ msgid ""
-#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr ""
-#~ "Nid yw Sync wedi ei gynllunio fel modd i gadw stwff wrth gefn yn barhaol - dim ond ar gyfer rhannu beth sydd wedi ei gadw'n lleol. Os fyddwch yn ailosod eich cyfrinair ac nid yw eich data wedi ei "
-#~ "gadw ar o leiaf un ddyfais arall, mae'n bosib i chi golli'r holl fanylion sy'n gysylltiedig â'r hen gyfrinair. Dyna pam fyddwch chi eisiau gosod Firefox a defnyddio Sync ar fwyn nag un ddyfais."
-
-#~ msgid "Gravatar"
-#~ msgstr "Gravatar"
-
-#~ msgid "Save"
-#~ msgstr "Cadw"
-
-#~ msgid "current device"
-#~ msgstr "dyfais gyfredol"
-
-#~ msgid "current session"
-#~ msgstr "y sesiwn gyfredol"
-
-#~ msgid "none connected"
-#~ msgstr "dim wedi eu cysylltu"
-
-#~ msgid "Receive the monthly Firefox newsletter."
-#~ msgstr "Derbyn taflen newyddion misol Firefox."
-
-#~ msgid "Unsubscribe"
-#~ msgstr "Dadtanysgrifo"
-
-#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
-#~ msgstr "Ydych chi'n siŵr eich bod eisiau dileu eich cyfrif? Nid oes modd dadwneud hyn."
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "Mewngofnodi i Sync"
-
-#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-#~ msgstr "Dewiswch y cyfrif i'w ddefnyddio i gydweddu eich tabiau, nodau tudalen, cyfrineiriau a rhagor."
-
-#~ msgid "Use OpenID"
-#~ msgstr "Defnyddio OpenID"
-
-#~ msgid "Use Firefox Account"
-#~ msgstr "Defnyddio Cyfrif Firefox"
-
-#~ msgid "first sync %(translatedTimeAgo)s"
-#~ msgstr "cydweddiad cyntaf %(translatedTimeAgo)s"
-
-#~ msgid "last sync %(translatedTimeAgo)s"
-#~ msgstr "cydweddiad olaf %(translatedTimeAgo)s"
-
-#~ msgid "last active %(translatedTimeAgo)s"
-#~ msgstr "gweithredol diwethaf %(translatedTimeAgo)s"
-
-#~ msgid "last sync time unknown"
-#~ msgstr "amser cydweddu diwethaf yn anhysbys"
-
-#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-#~ msgstr "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>E-bost wedi ei gamdeipio?</a>"
-
-#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-#~ msgstr "Edrychwch ar eich e-bost am y ddolen cadarnhau anfonwyd at %(email)s"
-
-#~ msgid "Signin confirmed"
-#~ msgstr "Cadarnhawyd y mewngofnodi"
-
-#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-#~ msgstr "Bydd hysbysiadau'r cyfrif hefyd nawr yn cael eu anfon at %(secondaryEmailVerified)s"
-
-#~ msgid "We may send you emails related to your Firefox Account."
-#~ msgstr "Efallai y byddwn yn anfon e-byst yn seiliedig ar eich Cyfrif Firefox."
-
-#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-#~ msgstr "Yn ogystal, gallwch ddewis p'un ai i dderbyn y newyddion diweddaraf am Mozilla a Firefox."
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-#~ msgstr "Yr ail e-bost yw'r cyfeiriad ychwanegol ar gyfer derbyn hysbysiadau diogelwch a chadarnhau dyfeisiau Sync newydd."
-
-#~ msgid "Not in inbox or spam folder? Resend?"
-#~ msgstr "Nid yw y bwlch derbyn na'r ffolder sbam? Ail-anfon?"
-
-#~ msgid "Codes copied"
-#~ msgstr "Codau wedi eu copïo"
-
-#~ msgid "Failed to copy codes. Please manually copy them."
-#~ msgstr "Methwyd copïo codau. Copïwch nhw â llaw."
-
-#~ msgid "Invalid sign-in verification code"
-#~ msgstr "Cod dilysu mewngofnodi annilys"
-
-#~ msgid "Print button image"
-#~ msgstr "Argraffu delwedd botwm"
-
-#~ msgid "Download button image"
-#~ msgstr "Llwytho i lawr delwedd botwm"
-
-#~ msgid "Sign in to continue."
-#~ msgstr "Mewngofnodi i barhau."
-
-#~ msgctxt "submit button"
-#~ msgid "Sign in"
-#~ msgstr "Mewngofnodi"
-
-#~ msgctxt "header text"
-#~ msgid "Sign in"
-#~ msgstr "Mewngofnodi"
-
-#~ msgctxt "button text"
-#~ msgid "Sign in"
-#~ msgstr "Mewngofnodi"
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
-#~ msgstr ""
-#~ "<span>COFIWCH:</span> Os fyddwch yn ailosod eich cyfrinair, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinyddwr wedi ie gydweddu a nodau tudalen). Mae hyn am ein bod yn amgryptio "
-#~ "eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password to "
-#~ "protect your privacy."
-#~ msgstr ""
-#~ "<span>SYLWC:</span> Os fyddwch yn ailosod eich cyfrinair, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinyddwr wedi ie gydweddu a nodau tudalen). Mae hyn am ein bod yn amgryptio "
-#~ "eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd."
-
-#~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-#~ msgstr "Ychwanegwch haen o ddiogelwch i'ch cyfrif drwy ofyn am godau diogelwch gan un o'r <a %(escapedTotpSupportAttributes)s>apiau dilysu hyn.</a>"
-
-#~ msgid ""
-#~ "\n"
-#~ "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "                Dim ond unwaith y bydd y codau yma'n cael eu dangos a'u defnyddio. Cadwch nhw mewn lle diogel os fyddwch yn colli mynediad i'ch dyfais symudol.\n"
-#~ "            "
-
-#~ msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-#~ msgstr "Ychwanegwch haen o ddiogelwch i'ch diogelwch drwy ofyn am godau diogelwch gan un o'r apiau dilysu hyn."
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-#~ msgstr "Mae'r ail e-bost yn gyfeiriad ychwanegol ar gyfer derbyn hysbysiadau diogelwch a chadarnhau dyfeisiau Sync newydd"
-
-#~ msgid "Unlock…"
-#~ msgstr "Datgloi…"
-
-#~ msgid "verify to unlock section"
-#~ msgstr "dilysu i ddatgloi adran"
-
-#~ msgid "Enter 8-digit recovery code"
-#~ msgstr "Rhowch y cod adfer 8 digid"
-
-#~ msgid "Reverify to unlock section"
-#~ msgstr "Ailwirio i ddatgloi adran"
-
-#~ msgid "Add an extra layer of security to your account by requiring security codes."
-#~ msgstr "Ychwanegwch haen ychwanegol i'ch diogelwch drwy ofyn am godau diogelwch."
-
-#~ msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
-#~ msgstr "Sganiwch y cod QR yn eich ap a chadarnhau ei fod wedi ei osod yn gywir drwy roi'r cod diogelwch mae'n ei ddarparu."
-
-#~ msgid "Can't scan code?"
-#~ msgstr "Methu sganio'r cod?"
-
-#~ msgid "over %(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s yn ôl"
-
-#~ msgid "last sync over %(translatedTimeAgo)s"
-#~ msgstr "cydweddiad diwethaf %(translatedTimeAgo)s yn ôl"
-
-#~ msgid "last active over %(translatedTimeAgo)s"
-#~ msgstr "gweithredol %(translatedTimeAgo)s yn ôl"
-
-#~ msgid "Verify password"
-#~ msgstr "Dilysu'r cyfrinair"
-
-#~ msgid "Next"
-#~ msgstr "Nesaf"
-
-#~ msgid "started syncing %(translatedTimeAgo)s"
-#~ msgstr "wedi cychwyn cydweddu %(translatedTimeAgo)s"
-
-#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
-#~ msgstr "Lleiafswm o 8 nod, ond hirach os ydych am gydweddu cyfrineiriau."
-
-#~ msgid "This is a common password; please consider another one."
-#~ msgstr "Mae hyn yn gyfrinair cyffredin, ystyriwch un arall."
-
-#~ msgid "Signed out successfully"
-#~ msgstr "Allgofnodwyd yn llwyddiannus"
-
-#~ msgid "Forgot password"
-#~ msgstr "Anghofio cyfrinair"
-
-#~ msgid "Firefox Sync will begin momentarily"
-#~ msgstr "Bydd Firefox Sync yn cychwyn cyn bo hir"
-
-#~ msgid "Devices"
-#~ msgstr "Dyfeisiau"
-
-#~ msgid "Stay in sync on the go:"
-#~ msgstr "Cadwch i gydweddu:"
-
-#~ msgid "Get Firefox for Android"
-#~ msgstr "Estynnwch Firefox Android"
-
-#~ msgid "You can manage your devices below."
-#~ msgstr "Mae modd i chi reoli eich dyfais isod."
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-#~ msgstr "Ydych chi'n meddwl <span tabindex=\"1\">%(domain)s</span>?"
-
-#~ msgid "A verification link has been sent&nbsp;to %(email)s"
-#~ msgstr "Dolen cadarnhau wedi ei anfon&nbsp;at: %(email)s"
-
-#~ msgid "Sync preferences"
-#~ msgstr "Dewisiadau Sync"
-
-#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-#~ msgstr "A oes gennych gyfrif gydag e-bost gwahanol? <a href=\"%(signinUri)s\">Mewngofnodi</a>"
-
-#~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Mae Firefox ar gael ar gyfer <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a "
-#~ "href=\"%(linkLinux)s\">Linux</a>."
-
-#~ msgid "Delete"
-#~ msgstr "Dileu"
-
-#~ msgid "Attempt limit exceeded"
-#~ msgstr "Wedi croesi'r terfyn ceisio"
-
-#~ msgid "Tabs"
-#~ msgstr "Tabiau"
-
-#~ msgid "Last active: days ago"
-#~ msgstr "Gweithio ddiwethaf: diwrnod yn ôl"
-
-#~ msgid "Last active: hours ago"
-#~ msgstr "Gweithio ddiwethaf: awr yn ôl"
-
-#~ msgid "Last active: minutes ago"
-#~ msgstr "Gweithio ddiwethaf: munud yn ôl"
-
-#~ msgid "Last active: months ago"
-#~ msgstr "Gweithio ddiwethaf: mis yn ôl"
-
-#~ msgid "Last active: seconds ago"
-#~ msgstr "Gweithio ddiwethaf: eiliad yn ôl"
-
-#~ msgid "Last active: weeks ago"
-#~ msgstr "Gweithio ddiwethaf: wythnos yn ôl"
-
-#~ msgid "Last active: years ago"
-#~ msgstr "Gweithio ddiwethaf: blwyddyn yn ôl"
-
-#~ msgid "Resend email"
-#~ msgstr "Ail anfon e-bost"
-
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-#~ msgstr "Chwiio am Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Cychwynwch yma.</a>"
-
-#~ msgid "Send me the monthly Firefox newsletter."
-#~ msgstr "Anfonwch gylchlythyr misol Firefox ata i."
-
-#~ msgid "Have an account? Sign in."
-#~ msgstr "Oes gennych chi gyfrif? Mewngofnodwch."
-
-#~ msgid "Don't see all your devices?"
-#~ msgstr "Ddim yn gweld eich holl ddyfeisiau?"
-
-#~ msgid "days ago"
-#~ msgstr "diwrnod yn ôl"
-
-#~ msgid "hours ago"
-#~ msgstr "awr yn ôl"
-
-#~ msgid "minutes ago"
-#~ msgstr "munud y ôl"
-
-#~ msgid "months ago"
-#~ msgstr "mis yn ôl"
-
-#~ msgid "seconds ago"
-#~ msgstr "eiliad yn ôl"
-
-#~ msgid "weeks ago"
-#~ msgstr "wythnos yn ôl"
-
-#~ msgid "years ago"
-#~ msgstr "blwyddyn yn ôl"
-
-#~ msgid "Account unlocked, please try again"
-#~ msgstr "Cyfrif wedi ei ddatgloi, ceisiwch eto"
-
-#~ msgid "Account unlocked"
-#~ msgstr "Datglowyd eich cyfrif"
-
-#~ msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-#~ msgstr "Cyfrif wedi ei gloi. <a href=\"/confirm_account_unlock\">Anfonwch e-bost datgloi</a>"
-
-#~ msgid "Unlock link expired"
-#~ msgstr "Dolen datgloi wedi dod i ben"
-
-#~ msgid "Unlock link damaged"
-#~ msgstr "Dolen datgloi wedi ei difrodi"
-
-#~ msgid "Unlock error"
-#~ msgstr "Gwall datgloi"
-
-#~ msgid "Unlock email sent"
-#~ msgstr "Anfonwyd yr e-bost datgloi"
-
-#~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-#~ msgstr "Am resymau diogelwch mae eich cyfrif wedi ei gloi. Er mwyn gwneud cael mynediad at eich cyfrif, ail ddilyswch eich cyfrif drwy glicio'r ddolen dilysu anfonwyd at %(email)s"
-
-#~ msgid "Signup has been disabled"
-#~ msgstr "Mae cofrestru wedi'i hanalluogi"
-
-#~ msgid "Confirm new sign-in to Firefox"
-#~ msgstr "Cadarnhau mewngofnodiad newydd i Firefox"
-
-#~ msgid "You signed in to Firefox from %(device)s, %(location)s."
-#~ msgstr "Rydych wedi mewngofnodi i Firefox o %(device)s, %(location)s."
-
-#~ msgid "You signed in to Firefox from %(device)s."
-#~ msgstr "Rydych wedi mewngofnodi i Firefox o %(device)s."
-
-#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
-#~ msgstr "Er mwy diogelwch ychwanegol, cadarnhewch y mewngofnodiad hwn i gychwyn cydweddu gyda %(device)s."
-
-#~ msgid "Alternatively:"
-#~ msgstr "Yn lle hynny:"
-
-#~ msgid "This is an automated email; if you received it in error, no action is required."
-#~ msgstr "E-bost awtomatig yw hwn; os fyddwch y ei dderbyn ar gam, does dim angen gwneud dim."
-
-#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
-#~ msgstr "Am ragor o wybodaeth, ewch i <a %(supportLinkAttributes)s>Mozilla Support</a>"
-
-#~ msgid "Verify Email"
-#~ msgstr "Dilysu E-bost"
-
-#~ msgid "Verify your email to finish your Firefox Account sign-in"
-#~ msgstr "Dilyswch eich e-bost er mwyn gorffen mewngofnodi i'ch Cyfrif Firefox"
-
-#~ msgid "(current)"
-#~ msgstr "(cyfredol)"
-
-#~ msgid "Welcome to Sync"
-#~ msgstr "Croeso i Sync"
-
-#~ msgid "Invalid data-flow-begin attribute"
-#~ msgstr "Priodwedd annilys yn data-flow-begin"
-
-#~ msgid "Home"
-#~ msgstr "Cartref"
-
-#~ msgid "Missing parameter in request body: %(param)s"
-#~ msgstr "Paramedr coll yn y corff gofyn: %(param)s"
-
-#~ msgid "Sign up"
-#~ msgstr "Ymuno"
-
-#~ msgid "/force_auth requires an email"
-#~ msgstr "Mae /force_auth angen e-bost"
-
-#~ msgid "A reset link has been sent to %(email)s"
-#~ msgstr "Mae dolen ailosod wedi ei anfon at %(email)s"
-
-#~ msgid "Are you sure you want to reset your account password?"
-#~ msgstr "Ydych chi'n siŵr eich bod eisiau ailosod eich cyfrinair?"
-
-#~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "Bydd ailosod eich cyfrinair yn dileu eich data pori o'n gweinyddion. Bydd unrhyw ddata ar eich dyfais yn aros fel y mae. Cychwynnwch yr ailosod drwy roi eich cyfeiriad e-bost isod."
-
-#~ msgid "Age is required"
-#~ msgstr "Mae angen eich oedran"
-
-#~ msgid "Desktop Add-ons"
-#~ msgstr "Ychwanegion Bwrdd Gwaith"
-
-#~ msgid "Desktop Preferences"
-#~ msgstr "Dewisiadau Bwrdd Gwaith"
-
-#~ msgid "Cookies required"
-#~ msgstr "Mae angen cwcis"
-
-#~ msgid ""
-#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
-#~ "sessions."
-#~ msgstr "Galluogwch cwcis yn eich porwr yn ôl anghenion Firefox Accounts. Mae cwcis yn ddarnau bach o ddata sy'n cael eu cadw ar eich porwr i ddarparu swyddogaethau fel cofio eich chi rhwng sesiynau."
-
-#~ msgid "Firefox is coming soon to iOS!"
-#~ msgstr "Mae Firefox yn dod i iOS cyn bo hir!"
-
-#~ msgid "Sign up to learn more"
-#~ msgstr "Cofrestrwch i gael gwybod rhagor"
-
-#~ msgid "1991"
-#~ msgstr "1991"
-
-#~ msgid "1992"
-#~ msgstr "1992"
-
-#~ msgid "1993"
-#~ msgstr "1993"
-
-#~ msgid "1994"
-#~ msgstr "1994"
-
-#~ msgid "1995"
-#~ msgstr "1995"
-
-#~ msgid "1996"
-#~ msgstr "1996"
-
-#~ msgid "1997"
-#~ msgstr "1997"
-
-#~ msgid "1998"
-#~ msgstr "1998"
-
-#~ msgid "1999"
-#~ msgstr "1999"
-
-#~ msgid "2000"
-#~ msgstr "2000"
-
-#~ msgid "2001"
-#~ msgstr "2001"
-
-#~ msgid "2002"
-#~ msgstr "2002"
-
-#~ msgid "2003"
-#~ msgstr "2003"
-
-#~ msgid "2004"
-#~ msgstr "2004"
-
-#~ msgid "2005"
-#~ msgstr "2005"
-
-#~ msgid "2006"
-#~ msgstr "2006"
-
-#~ msgid "2007"
-#~ msgstr "2007"
-
-#~ msgid "Year of birth required"
-#~ msgstr "Mae angen blwyddyn geni"
-
-#~ msgid "Valid birthday required"
-#~ msgstr "Mae angen dyddiad pen-blwydd dilys"
-
-#~ msgid "Choose What to Sync"
-#~ msgstr "Dewis Beth i'w Gydweddu"
-
-#~ msgid "Year of birth"
-#~ msgstr "Blwyddyn geni"
-
-#~ msgid "1990 or earlier"
-#~ msgstr "1990 neu cynt"
-
-#~ msgid "Month"
-#~ msgstr "Mis"
-
-#~ msgid "January"
-#~ msgstr "Ionawr"
-
-#~ msgid "February"
-#~ msgstr "Chwefror"
-
-#~ msgid "March"
-#~ msgstr "Mawrth"
-
-#~ msgid "April"
-#~ msgstr "Ebrill"
-
-#~ msgid "May"
-#~ msgstr "Mai"
-
-#~ msgid "June"
-#~ msgstr "Mehefin"
-
-#~ msgid "July"
-#~ msgstr "Gorffennaf"
-
-#~ msgid "August"
-#~ msgstr "Awst"
-
-#~ msgid "September"
-#~ msgstr "Medi"
-
-#~ msgid "October"
-#~ msgstr "Hydref"
-
-#~ msgid "November"
-#~ msgstr "Tachwedd"
-
-#~ msgid "December"
-#~ msgstr "Rhagfyr"
-
-#~ msgid "Day"
-#~ msgstr "Diwrnod"
-
-#~ msgid "Manage account"
-#~ msgstr "Rheoli'r cyfrif"
-
-#~ msgid "Edit profile"
-#~ msgstr "Golygu eich proffil"
-
-#~ msgid "Name"
-#~ msgstr "Enw"
-
-#~ msgid "Enter your email to reset&nbsp;the account password."
-#~ msgstr "Rhowch eich cyfrinair er mwyn ailosod&nbsp;cyfrinair y cyfrif."
-
-#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr "Am resymau diogelwch, bydd ailosod eich cyfrinair yn dileu eich data Sync o'n gweinyddion. Bydd copi wrth gefn newydd o Sync yn cael ei greu o'ch data pori lleol."
-
-#~ msgid "You are signed in as"
-#~ msgstr "Rydych wedi mewngofnodi fel"
-
-#~ msgid "Already have an account? Sign in."
-#~ msgstr "Oes gennych gyfrif eisoes? Mewngofnodwch."
-
-#~ msgid "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of Firefox cloud services."
-#~ msgstr ""
-#~ "Drwy barhau, rwy'n cytuno i <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Amodau'r Gwasanaeth</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Hysbysiad Preifatrwydd</a> "
-#~ "gwasanaethau cwmwl Firefox."
-
-#~ msgid "Subscribe to Firefox news and tips"
-#~ msgstr "Tanysgrifiwch i newyddion a chynghorion Firefox"
-
-#~ msgid "missing search parameter: %(itemName)s"
-#~ msgstr "Paramedr chwilio coll: %(itemName)s"
-
-#~ msgid "Once you're ﬁnished, use your new password to sign in on all of your devices."
-#~ msgstr "Unwaith i chi orffen, defnyddiwch eich cyfrinair newydd i fewngofnodi ar bob un o'ch dyfeisiau."
-
-#~ msgid "Illegal iframe"
-#~ msgstr "iframe anghyfreithlon"
-
-#~ msgid "Password changed"
-#~ msgstr "Cyfrinair wedi newid"
-
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
-#~ msgstr "Cyfrif heb ei dilysu<a href=\"#\" id=\"resend\">Ail anfon e-bost dilysu</a>."
-
-#~ msgid "Password reset. Sign in to continue."
-#~ msgstr "Cyfrinair wedi ei ailosod. Mewngofnodi i barhau."
-
-#~ msgid "Signed out"
-#~ msgstr "Allgofnodi"
-
-#~ msgid "Your verification email was just returned. Mistyped email? <a href=\"/signup\">Start over.</a>"
-#~ msgstr "Dychwelwyd eich e-bost dilysu. Camdeipio'r e-bost?<a href=\"/signup\">Cychwynnwch eto.</a>"
-
-#~ msgid "Paste image URL"
-#~ msgstr "Gludwch URL delwedd"
-
-#~ msgid "Invalid password"
-#~ msgstr "Cyfrinair annilys"
-
-#~ msgid "Invalid email and password"
-#~ msgstr "E-bost a chyfrinair annilys"
-
-#~ msgid "Invalid email or password"
-#~ msgstr "E-bost a chyfrinair annilys"
-
-#~ msgid "Old password invalid"
-#~ msgstr "Mae'r hen gyfrinair yn annilys"
-
-#~ msgid "New password invalid"
-#~ msgstr "Mae'r cyfrinair newydd yn annilys"
-
-#~ msgid "Passwords don't match"
-#~ msgstr "Nid yw'r cyfrineiriau'n cydweddu"
-
-#~ msgid "Please enter an email"
-#~ msgstr "Rhowch gyfeiriad e-bost"
-
-#~ msgid "Cannot connect to the internet"
-#~ msgstr "Methu cysylltu â'r rhyngrwyd"
-
-#~ msgid "Signed in successfully"
-#~ msgstr "Wedi mewngofnodi'n llwyddiannus"
-
-#~ msgid "Create a Firefox Account for %(serviceName)s"
-#~ msgstr "Creu Cyfrif Firefox"
-
-#~ msgid "Change Password"
-#~ msgstr "Newid Cyfrinair"
-
-#~ msgid "Invalid authentication token in request signature"
-#~ msgstr "Tocyn dilysu annilys yn y llofnod cais"
-
-#~ msgid "No token specified"
-#~ msgstr "Heb bennu tocyn"
-
-#~ msgid "No code specified"
-#~ msgstr "Heb bennu cod"
-
-#~ msgid "No email specified"
-#~ msgstr "Heb bennu e-bost"
-
-#~ msgid "No uid specified"
-#~ msgstr "Heb bennu uid"
-
-#~ msgid "Service unavailable"
-#~ msgstr "Nid yw'r gwasanaeth ar gael"
-
-#~ msgid "Completing sign up"
-#~ msgstr "Cwblhau'r cofrestru"
-
-#~ msgid "Client has sent too many requests"
-#~ msgstr "Cleient wedi anfon gormod o geisiadau"
-
-#~ msgid "Delete Account"
-#~ msgstr "Dileu'r Cyfrif"
+msgstr ""
+"Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Firefox."

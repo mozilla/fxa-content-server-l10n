@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: 2022-04-01 05:21+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,10 @@ msgid "Password reset successfully. Sign in to continue."
 msgstr "Heslo bylo úspěšně obnoveno. Pro pokračování se přihlaste."
 
 #. submit button
-#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
+#: .es5/views/force_auth.js:199 .es5/lib/strings.js:44
+#: .es5/templates/connect_another_device.mustache:11
+#: .es5/templates/force_auth.mustache:3
+#: .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
 msgstr "Přihlásit se"
@@ -34,8 +37,12 @@ msgid "Account deleted successfully"
 msgstr "Účet byl úspěšně smazán"
 
 #: .es5/views/inline_totp_setup.js:156
-msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Pro nastavení dvoufázového ověřování v podporovaných aplikacích použijte kód %(code)s."
+msgid ""
+"Use the code %(code)s to set up two-step authentication in supported "
+"applications."
+msgstr ""
+"Pro nastavení dvoufázového ověřování v podporovaných aplikacích použijte kód "
+"%(code)s."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -66,8 +73,10 @@ msgid "Your password has been reset"
 msgstr "Vaše heslo bylo obnoveno"
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Dokončete nastavení zadáním nového hesla na ostatní zařízeních s Firefoxem."
+msgid ""
+"Complete set-up by entering the new password on your other Firefox devices."
+msgstr ""
+"Dokončete nastavení zadáním nového hesla na ostatní zařízeních s Firefoxem."
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
@@ -78,18 +87,21 @@ msgid "Primary email confirmed"
 msgstr ""
 
 #: .es5/views/ready.js:77
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
+msgid ""
+"Account notifications will now also be sent to %(secondaryEmailVerified)s."
 msgstr "Upozornění o účtu budou odesílána na %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
 msgstr ""
 
-#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6
+#: .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
 msgstr "Přihlášení potvrzeno"
 
-#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
+#: .es5/views/ready.js:85 .es5/views/ready.js:90 .es5/views/ready.js:95
+#: .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
 msgstr "Nyní můžete používat %(serviceName)s"
 
@@ -114,20 +126,34 @@ msgid "Other"
 msgstr "Jiné"
 
 #: .es5/views/support.js:270
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "Děkujeme vám, že jste se obrátili na podporu Mozilly ohledně problému <b>%(escapedLowercaseTopic)s</b>. Brzy od nás obdržíte e-mailem odpověď."
+msgid ""
+"Thank you for reaching out to Mozilla Support about <b>"
+"%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as "
+"possible."
+msgstr ""
+"Děkujeme vám, že jste se obrátili na podporu Mozilly ohledně problému <b>"
+"%(escapedLowercaseTopic)s</b>. Brzy od nás obdržíte e-mailem odpověď."
 
 #: .es5/views/support.js:272
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "Děkujeme vám, že jste se obrátili na podporu Mozilly ohledně problému <b>%(escapedLowercaseTopic)s</b> s <b>%(escapedSelectedProduct)s</b>. Brzy od nás obdržíte e-mailem odpověď."
+msgid ""
+"Thank you for reaching out to Mozilla Support about <b>"
+"%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll "
+"contact you via email as soon as possible."
+msgstr ""
+"Děkujeme vám, že jste se obrátili na podporu Mozilly ohledně problému <b>"
+"%(escapedLowercaseTopic)s</b> s <b>%(escapedSelectedProduct)s</b>. Brzy od "
+"nás obdržíte e-mailem odpověď."
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
 msgstr "Vaše synchronizovaná data jsou chráněna"
 
 #: .es5/views/post_verify/verified.js:54
-msgid "If you lose access to your account, you’ll be able to restore your sync data."
-msgstr "Pokud ztratíte přístup ke svému účtu, budete moci obnovit svá synchronizovaná data."
+msgid ""
+"If you lose access to your account, you’ll be able to restore your sync data."
+msgstr ""
+"Pokud ztratíte přístup ke svému účtu, budete moci obnovit svá "
+"synchronizovaná data."
 
 #: .es5/views/post_verify/verified.js:55 .es5/templates/ready.mustache:2
 msgid "Start browsing"
@@ -145,7 +171,9 @@ msgstr "Pokračovat na %(serviceName)s"
 msgid "Your account has been locked for security reasons"
 msgstr "Váš účet byl z bezpečnostních důvodů zamčen"
 
-#: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+#: .es5/views/mixins/account-reset-mixin.js:47
+#: .es5/templates/complete_reset_password.mustache:15
+#: .es5/templates/reset_password.mustache:1
 msgid "Reset password"
 msgstr "Obnovit heslo"
 
@@ -181,7 +209,9 @@ msgstr "Otevřít Restmail"
 msgid "Hide password"
 msgstr "Skrýt heslo"
 
-#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:169
+#: .es5/templates/partial/show-password.mustache:1
+#: .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Zobrazit heslo"
 
@@ -198,8 +228,12 @@ msgid "Firefox Recovery Key"
 msgstr "Obnovovací klíč"
 
 #: .es5/views/mixins/resend-mixin.js:53
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "E-mail byl znovu odeslán. Pro jistotu si přidejte adresu accounts@firefox.com do svých kontaktů."
+msgid ""
+"Email resent. Add accounts@firefox.com to your contacts to ensure a smooth "
+"delivery."
+msgstr ""
+"E-mail byl znovu odeslán. Pro jistotu si přidejte adresu accounts@firefox."
+"com do svých kontaktů."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -297,7 +331,9 @@ msgstr "Heslo bylo úspěšně obnoveno"
 msgid "Account recovery enabled"
 msgstr "Obnova účtu je povolena"
 
-#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
+#: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30
+#: .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61
+#: .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
 msgstr "Neočekávaná chyba"
 
@@ -311,7 +347,8 @@ msgstr "Vyčerpali jste příliš mnoho pokusů. Zkuste to znovu později."
 
 #: .es5/lib/auth-errors.js:32
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr "Vyčerpali jste příliš mnoho pokusů. Zkuste to znovu %(retryAfterLocalized)s."
+msgstr ""
+"Vyčerpali jste příliš mnoho pokusů. Zkuste to znovu %(retryAfterLocalized)s."
 
 #: .es5/lib/auth-errors.js:40 .es5/lib/oauth-errors.js:58
 msgid "Invalid token"
@@ -325,7 +362,8 @@ msgstr "Neplatná časová značka v podpisu požadavku"
 msgid "Invalid nonce in request signature"
 msgstr "Neplatné ověření v podpisu požadavku"
 
-#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168 .es5/lib/auth-errors.js:180
+#: .es5/lib/auth-errors.js:52 .es5/lib/auth-errors.js:168
+#: .es5/lib/auth-errors.js:180
 msgid "Account already exists"
 msgstr "Účet už existuje"
 
@@ -399,7 +437,9 @@ msgstr "Odeslaná e-mailová zpráva se právě vrátila zpět"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Your email was just returned. Mistyped email?"
-msgstr "Odeslaná e-mailová zpráva se právě vrátila zpět. Nezadali jste chybnou adresu?"
+msgstr ""
+"Odeslaná e-mailová zpráva se právě vrátila zpět. Nezadali jste chybnou "
+"adresu?"
 
 #: .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
@@ -446,8 +486,10 @@ msgid "Can not change primary email to an unverified email"
 msgstr "Hlavní e-mailovou adresu nelze změnit na neověřený e-mail"
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
-msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "Hlavní e-mailová adresa nelze změnit na adresu, která nepatří k tomuto účtu"
+msgid ""
+"Can not change primary email to an email that does not belong to this account"
+msgstr ""
+"Hlavní e-mailová adresa nelze změnit na adresu, která nepatří k tomuto účtu"
 
 #: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
@@ -495,7 +537,8 @@ msgstr "Tento požadavek vyžaduje nastavené dvoufázové ověření pro váš 
 
 #: .es5/lib/auth-errors.js:256
 msgid "Failed due to a conflicting request, please try again."
-msgstr "Vyskytla se chyba v důsledku konfliktního požadavku. Zkuste to prosím znovu."
+msgstr ""
+"Vyskytla se chyba v důsledku konfliktního požadavku. Zkuste to prosím znovu."
 
 #: .es5/lib/auth-errors.js:264
 msgid "Unknown customer for subscription."
@@ -533,8 +576,11 @@ msgstr "Server je zaneprázdněn, zkuste to znovu později"
 msgid "Feature not enabled"
 msgstr "Funkce není povolena"
 
-#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304 .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117 .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
-#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45 .es5/lib/profile-errors.js:65
+#: .es5/lib/auth-errors.js:300 .es5/lib/auth-errors.js:304
+#: .es5/lib/auth-errors.js:312 .es5/lib/oauth-errors.js:117
+#: .es5/lib/oauth-errors.js:121 .es5/lib/oauth-errors.js:125
+#: .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:45
+#: .es5/lib/profile-errors.js:65
 msgid "System unavailable, try again soon"
 msgstr "Systém je nedostupný, zkuste to znovu později"
 
@@ -582,7 +628,8 @@ msgstr "Minimální délka je 8 znaků"
 msgid "Valid password required"
 msgstr "Je požadováno platné heslo"
 
-#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
+#: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396
+#: .es5/lib/auth-errors.js:412
 msgid "Valid email required"
 msgstr "Je požadován platný e-mail"
 
@@ -600,15 +647,19 @@ msgstr "Je vyžadována platná URL"
 
 #: .es5/lib/auth-errors.js:392
 msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Odeslaná ověřovací e-mailová zpráva se právě vrátila zpět. Nezadali jste chybnou adresu?"
+msgstr ""
+"Odeslaná ověřovací e-mailová zpráva se právě vrátila zpět. Nezadali jste "
+"chybnou adresu?"
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "Zadejte platnou e-mailovou adresu. firefox.com neposkytuje e-mailové služby."
+msgstr ""
+"Zadejte platnou e-mailovou adresu. firefox.com neposkytuje e-mailové služby."
 
 #: .es5/lib/auth-errors.js:408
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "Účet Firefoxu může být umístěn do IFRAME pouze na schválených stránkách"
+msgstr ""
+"Účet Firefoxu může být umístěn do IFRAME pouze na schválených stránkách"
 
 #: .es5/lib/auth-errors.js:428
 msgid "Verification link damaged"
@@ -650,7 +701,8 @@ msgstr "Neplatný datový atribut: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Chybějící datový atribut: %(property)s"
 
-#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:501 .es5/lib/auth-errors.js:555
+#: .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Každý potvrzovací odkaz lze použít pouze jednou a tento už byl použit."
 
@@ -662,7 +714,8 @@ msgstr "Toto je vyžadované pole"
 msgid "Authorization code required"
 msgstr "Je vyžadován autorizační kód"
 
-#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:517 .es5/templates/report_sign_in.mustache:1
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
 msgstr "Odkaz je poškozen"
 
@@ -788,7 +841,8 @@ msgstr "Neplatný token"
 
 #: .es5/lib/oauth-errors.js:133
 msgid "Something went wrong. Please close this tab and try again."
-msgstr "Nastala nespecifikovaná chyba. Zavřete prosím tento panel a zkuste to znovu."
+msgstr ""
+"Nastala nespecifikovaná chyba. Zavřete prosím tento panel a zkuste to znovu."
 
 #: .es5/lib/oauth-errors.js:153
 msgid "no message"
@@ -844,15 +898,22 @@ msgstr "Neplatný token"
 
 #: .es5/lib/strings.js:25
 msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s"
+"\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">podmínkami poskytování služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">zásadami ochrany osobních údajů</a> "
-"%(serviceName)s (%(serviceUri)s)."
+"Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s"
+"\">podmínkami poskytování služby</a> a <a id=\"service-pp\" href="
+"\"%(privacyUri)s\">zásadami ochrany osobních údajů</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
-msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Nápověda</a>"
+msgid ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-"
+"account\">Help</a>"
+msgstr ""
+"<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-"
+"account\">Nápověda</a>"
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -871,8 +932,12 @@ msgid "IP address: %(ip)s"
 msgstr "IP adresa: %(ip)s"
 
 #: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
-msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Pro lepší zabezpečení prosím potvrďte toto přihlášení před začátkem synchronizace tohoto zařízení:"
+msgid ""
+"For added security, please confirm this sign-in to begin syncing with this "
+"device:"
+msgstr ""
+"Pro lepší zabezpečení prosím potvrďte toto přihlášení před začátkem "
+"synchronizace tohoto zařízení:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -883,18 +948,25 @@ msgid "500 Error"
 msgstr "Chyba 500"
 
 #: .es5/templates/500.mustache:2
-msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Ale ne, něco se pokazilo. Dostali jsme upozornění a co nejdříve začneme pracovat na opravě."
+msgid ""
+"Oh dear, something went wrong there. We've been notified and will get "
+"working on a fix."
+msgstr ""
+"Ale ne, něco se pokazilo. Dostali jsme upozornění a co nejdříve začneme "
+"pracovat na opravě."
 
-#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
+#: .es5/templates/account_recovery_confirm_key.mustache:1
+#: .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
 msgstr "Platnost odkazu pro obnovení hesla vypršela"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:2
+#: .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
 msgstr "Platnost odkazu pro obnovení hesla už vypršela."
 
-#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
+#: .es5/templates/account_recovery_confirm_key.mustache:3
+#: .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
 msgstr "Získat nový odkaz"
 
@@ -902,32 +974,52 @@ msgstr "Získat nový odkaz"
 msgid "Reset password with recovery key"
 msgstr "Obnovit heslo pomocí obnovovacího klíče"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
-#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
+#: .es5/templates/account_recovery_confirm_key.mustache:6
+#: .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:2
+#: .es5/templates/inline_recovery_setup.mustache:13
+#: .es5/templates/inline_totp_setup.mustache:2
+#: .es5/templates/inline_totp_setup.mustache:8
+#: .es5/templates/inline_totp_setup.mustache:11
+#: .es5/templates/reset_password.mustache:2
+#: .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:2
+#: .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Pokračovat na %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Zadejte prosím jednorázový obnovovací klíč, který jste si uložili na bezpečné místo pro opětovné získání přístup k účtu Firefoxu."
+msgid ""
+"Please enter the one time use recovery key you stored in a safe place to "
+"regain access to your Firefox Account."
+msgstr ""
+"Zadejte prosím jednorázový obnovovací klíč, který jste si uložili na "
+"bezpečné místo pro opětovné získání přístup k účtu Firefoxu."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have "
+"account recovery key saved, some of your data will be erased (including "
+"synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">Poznámka:</span> Pokud obnovíte heslo k účtu bez použití obnovovacího klíče, vaše synchronizovaná data uložená na serveru, jako je historie prohlížení nebo záložky, budou "
-"smazána."
+"<span class=\"note\">Poznámka:</span> Pokud obnovíte heslo k účtu bez "
+"použití obnovovacího klíče, vaše synchronizovaná data uložená na serveru, "
+"jako je historie prohlížení nebo záložky, budou smazána."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter recovery key"
 msgstr "Zadejte obnovovací klíč"
 
-#: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
-#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
+#: .es5/templates/account_recovery_confirm_key.mustache:10
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm recovery key"
 msgstr "Potvrďte obnovovací klíč"
 
@@ -940,10 +1032,12 @@ msgid "Cannot create account"
 msgstr "Účet nelze vytvořit"
 
 #: .es5/templates/cannot_create_account.mustache:2
-msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
+msgid ""
+"You must meet certain age requirements to create a Firefox&nbsp;account."
 msgstr ""
 
-#: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
+#: .es5/templates/cannot_create_account.mustache:4
+#: .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
 msgstr "Zjistit více"
 
@@ -955,7 +1049,8 @@ msgstr "Vyberte, co chcete synchronizovat:"
 msgid "Sync selections"
 msgstr "Výběr synchronizace"
 
-#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
+#: .es5/templates/choose_what_to_sync.mustache:5
+#: .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
 msgstr "Toto zařízení nesynchronizovat"
 
@@ -963,9 +1058,16 @@ msgstr "Toto zařízení nesynchronizovat"
 msgid "Reset password link damaged"
 msgstr "Odkaz pro obnovení je poškozen"
 
-#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Adresa odkazu, na který jste klikli, nebyla kompletní, a mohla být poškozena například vaším e-mailovým klientem. Zkopírujte pečlivě celou adresu a zkuste to znovu."
+#: .es5/templates/complete_reset_password.mustache:6
+#: .es5/templates/complete_sign_up.mustache:12
+#: .es5/templates/report_sign_in.mustache:2
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client. Copy the address carefully, and try again."
+msgstr ""
+"Adresa odkazu, na který jste klikli, nebyla kompletní, a mohla být poškozena "
+"například vaším e-mailovým klientem. Zkopírujte pečlivě celou adresu a "
+"zkuste to znovu."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -973,17 +1075,29 @@ msgstr "Vytvořit nové heslo"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
-"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+"<span>REMEMBER:</span> When you reset your password, you reset your account. "
+"You may lose some of your personal information (including history, "
+"bookmarks, and passwords). That’s because we encrypt your data with your "
+"password to protect your privacy. You’ll still keep any subscriptions you "
+"may have and Pocket data will not be affected."
 msgstr ""
-"<span>UPOZORNĚNÍ:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro "
-"ochranu soukromí vaše data heslem šifrujeme. Vaše předplatná a data ve službě Pocket zůstanou beze změny."
+"<span>UPOZORNĚNÍ:</span> Když obnovíte své heslo, obnovíte tím stav celého "
+"účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně "
+"historie, záložek a hesel). To proto, že pro ochranu soukromí vaše data "
+"heslem šifrujeme. Vaše předplatná a data ve službě Pocket zůstanou beze "
+"změny."
 
 #: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Úspěšně jste obnovili přístup ke svému účtu pomocí obnovovacího klíče. Nastavte si nové heslo pro zabezpečení vašich dat a uložte si ho na bezpečné místo."
+msgid ""
+"You have successfully restored your account using your recovery key. Create "
+"a new password to secure your data, and store it in a safe location."
+msgstr ""
+"Úspěšně jste obnovili přístup ke svému účtu pomocí obnovovacího klíče. "
+"Nastavte si nové heslo pro zabezpečení vašich dat a uložte si ho na bezpečné "
+"místo."
 
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
+#: .es5/templates/complete_reset_password.mustache:13
+#: .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
 msgstr "Nové heslo"
 
@@ -991,7 +1105,10 @@ msgstr "Nové heslo"
 msgid "Re-enter password"
 msgstr "Zopakujte heslo"
 
-#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
+#: .es5/templates/complete_reset_password.mustache:16
+#: .es5/templates/confirm_reset_password.mustache:5
+#: .es5/templates/confirm_reset_password.mustache:7
+#: .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
 msgstr "Pamatujete si heslo? Přihlaste se"
 
@@ -1032,20 +1149,30 @@ msgid "Confirm this sign-in"
 msgstr "Potvrdit toto přihlášení"
 
 #: .es5/templates/confirm.mustache:7
-msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
+msgid ""
+"Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
 msgstr ""
 
 #: .es5/templates/confirm.mustache:9
-msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr "Pro potvrzení přihlášení prosím klepněte na odkaz, který jsme zaslali na e-mailovou adresu %(escapedEmail)s"
+msgid ""
+"Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
+msgstr ""
+"Pro potvrzení přihlášení prosím klepněte na odkaz, který jsme zaslali na e-"
+"mailovou adresu %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
+#: .es5/templates/confirm_reset_password.mustache:4
+#: .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Žádný email jste neobdrželi? Znovu odeslat"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
+#: .es5/templates/confirm.mustache:14
+#: .es5/templates/inline_recovery_setup.mustache:17
+#: .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:6
+#: .es5/templates/tos.mustache:2
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
 msgid "Back"
 msgstr "Zpět"
 
@@ -1054,10 +1181,15 @@ msgid "Reset email sent"
 msgstr "E-mail pro obnovu odeslán"
 
 #: .es5/templates/confirm_reset_password.mustache:2
-msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Pro vytvoření nového hesla prosím během jedné hodiny klepněte na odkaz, který jsme vám poslali e-mailem na adresu %(email)s."
+msgid ""
+"Click the link emailed to %(email)s within the next hour to create a new "
+"password."
+msgstr ""
+"Pro vytvoření nového hesla prosím během jedné hodiny klepněte na odkaz, "
+"který jsme vám poslali e-mailem na adresu %(email)s."
 
-#: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
+#: .es5/templates/confirm_signup_code.mustache:1
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
 msgstr ""
@@ -1070,21 +1202,30 @@ msgstr ""
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
+#: .es5/templates/confirm_signup_code.mustache:4
+#: .es5/templates/sign_in_token_code.mustache:3
+#: .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Zadejte šestimístný kód"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:16
+#: .es5/templates/sign_in_recovery_code.mustache:5
+#: .es5/templates/sign_in_token_code.mustache:4
+#: .es5/templates/sign_in_totp_code.mustache:5
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:7
 msgid "Confirm"
 msgstr "Potvrzení"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:6
+#: .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:7
+#: .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
 msgstr ""
 
@@ -1100,7 +1241,8 @@ msgstr ""
 msgid "Email confirmed"
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+#: .es5/templates/connect_another_device.mustache:9
+#: .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
 msgstr "Dokončit nastavení"
 
@@ -1108,11 +1250,14 @@ msgstr "Dokončit nastavení"
 msgid "Sign in to this Firefox to complete set-up"
 msgstr "Pro dokončení nastavení se přihlaste k Firefoxu"
 
-#: .es5/templates/connect_another_device.mustache:13 .es5/templates/connect_another_device.mustache:28 .es5/templates/post_verify/cad_qr/connected.mustache:3
+#: .es5/templates/connect_another_device.mustache:13
+#: .es5/templates/connect_another_device.mustache:28
+#: .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
 msgstr "Stále přidáváte zařízení?"
 
-#: .es5/templates/connect_another_device.mustache:15 .es5/templates/connect_another_device.mustache:30
+#: .es5/templates/connect_another_device.mustache:15
+#: .es5/templates/connect_another_device.mustache:30
 msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Pro dokončení nastavení se přihlaste k Firefoxu na jiném zařízení"
 
@@ -1129,8 +1274,11 @@ msgid "We’re on Android and iOS, too!"
 msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:22
-msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
-msgstr "Potřebujete přidat zařízení? Pro dokončení nastavení se přihlaste k Firefoxu na jiném zařízení"
+msgid ""
+"Still adding devices? Sign in to Firefox on another device to complete set-up"
+msgstr ""
+"Potřebujete přidat zařízení? Pro dokončení nastavení se přihlaste k Firefoxu "
+"na jiném zařízení"
 
 #: .es5/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for Android to complete set-up"
@@ -1145,34 +1293,51 @@ msgid "Cookies and local storage are required"
 msgstr "Požadovány cookies a local storage"
 
 #: .es5/templates/cookies_disabled.mustache:2
-msgid "Please enable cookies and local storage in your browser to access Firefox Accounts. Doing so will enable functionality such as remembering you between sessions."
-msgstr "Abyste mohli používat Firefox Accounts, povolte prosím cookies a local storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými relacemi."
+msgid ""
+"Please enable cookies and local storage in your browser to access Firefox "
+"Accounts. Doing so will enable functionality such as remembering you between "
+"sessions."
+msgstr ""
+"Abyste mohli používat Firefox Accounts, povolte prosím cookies a local "
+"storage. Díky tomu si vás budeme moci zapamatovat mezi jednotlivými relacemi."
 
 #: .es5/templates/cookies_disabled.mustache:4
 msgid "Try again"
 msgstr "Zkuste to znovu"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
+#: .es5/templates/force_auth.mustache:1
+#: .es5/templates/sign_in_password.mustache:1
 msgid ""
 "\n"
-"          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
+"          Enter your password <span class=\"card-subheader\" id=\"subheader"
+"\">for your Firefox account</span>\n"
 "        "
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
+#: .es5/templates/force_auth.mustache:6
+#: .es5/templates/sign_in_password.mustache:7
+#: .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "Heslo"
 
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
+#: .es5/templates/force_auth.mustache:8
+#: .es5/templates/sign_in_password.mustache:13
+#: .es5/templates/sign_up_password.mustache:17
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href="
+"\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp"
+"\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
-#: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
+#: .es5/templates/force_auth.mustache:9
+#: .es5/templates/sign_in_password.mustache:14
+#: .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Použít jiný účet"
 
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
+#: .es5/templates/force_auth.mustache:10
+#: .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
 msgstr "Zapomněli jste heslo?"
 
@@ -1189,15 +1354,19 @@ msgid "Enter your email"
 msgstr "Zadejte svou e-mailovou adresu"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Pokračovat na <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgid ""
+"Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+msgstr ""
+"Pokračovat na <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
 msgstr ""
 
 #: .es5/templates/index.mustache:11
-msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
+msgid ""
+"A Firefox account also unlocks access to more privacy-protecting products "
+"from Mozilla."
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1205,29 +1374,43 @@ msgid "Save recovery codes"
 msgstr "Uložit obnovovací kódy"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
-msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr "Tyto jednorázové kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení."
+msgid ""
+"Store these one-time use codes in a safe place for when you don't have your "
+"mobile device."
+msgstr ""
+"Tyto jednorázové kódy si uložte na bezpečném místě, kam se dostanete i bez "
+"svého mobilního zařízení."
 
-#: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
+#: .es5/templates/inline_recovery_setup.mustache:5
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
 msgstr "Stáhnout"
 
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
+#: .es5/templates/inline_recovery_setup.mustache:6
+#: .es5/templates/inline_recovery_setup.mustache:8
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:6
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:8
 msgid "Copy"
 msgstr "Zkopírovat"
 
-#: .es5/templates/inline_recovery_setup.mustache:7 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:7
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:7
 msgid "Print"
 msgstr "Vytisknout"
 
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
+#: .es5/templates/inline_recovery_setup.mustache:10
+#: .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7
+#: .es5/templates/sign_in_unblock.mustache:5
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:7
 msgid "Continue"
 msgstr "Pokračovat"
 
-#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
+#: .es5/templates/inline_recovery_setup.mustache:11
+#: .es5/templates/inline_recovery_setup.mustache:18
+#: .es5/templates/inline_totp_setup.mustache:5
+#: .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
 msgstr "Zrušit nastavení"
 
@@ -1236,8 +1419,12 @@ msgid "Confirm recovery code"
 msgstr "Potvrdit obnovovací klíč"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr "V případě ztráty svého zařízení, můžete opět získat přístup ke svému účtu zadáním jednoho z obnovovacích kódů."
+msgid ""
+"To ensure that you will be able to regain access to your account, in the "
+"event of a lost device, please enter one of your saved recovery codes."
+msgstr ""
+"V případě ztráty svého zařízení, můžete opět získat přístup ke svému účtu "
+"zadáním jednoho z obnovovacích kódů."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Recovery code"
@@ -1248,8 +1435,13 @@ msgid "Enable two-step authentication"
 msgstr "Povolit dvoufázové ověření"
 
 #: .es5/templates/inline_totp_setup.mustache:3
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Zvyšte zabezpečení svého účtu přidáním další bezpečnostní vrstvy. Při přihlášení budou požadovány jednorázové kódy z <a %(escapedTotpSupportAttributes)s>těchto bezpečnostních aplikací</a>."
+msgid ""
+"Add a layer of security to your account by requiring security codes from one "
+"of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
+msgstr ""
+"Zvyšte zabezpečení svého účtu přidáním další bezpečnostní vrstvy. Při "
+"přihlášení budou požadovány jednorázové kódy z <a "
+"%(escapedTotpSupportAttributes)s>těchto bezpečnostních aplikací</a>."
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
@@ -1260,16 +1452,23 @@ msgid "Enter code manually"
 msgstr "Zadejte kód ručně"
 
 #: .es5/templates/inline_totp_setup.mustache:12
-msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Naskenujte ve své ověřovací aplikaci QR kód a poté zadejte vygenerovaný bezpečnostní kód."
+msgid ""
+"Scan the QR code in your authentication app and then enter the security code "
+"it provides."
+msgstr ""
+"Naskenujte ve své ověřovací aplikaci QR kód a poté zadejte vygenerovaný "
+"bezpečnostní kód."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
 msgstr "Nemůžete kód naskenovat?"
 
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
-msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr "Po dokončení bude aplikace generovat bezpečnostní kódy, které můžete zadat."
+#: .es5/templates/inline_totp_setup.mustache:14
+#: .es5/templates/inline_totp_setup.mustache:18
+msgid ""
+"Once complete, it will begin generating security codes for you to enter."
+msgstr ""
+"Po dokončení bude aplikace generovat bezpečnostní kódy, které můžete zadat."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
@@ -1291,24 +1490,34 @@ msgstr "Hotovo"
 msgid "Legal"
 msgstr "Práva"
 
-#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23 .es5/templates/tos.mustache:1
+#: .es5/templates/legal.mustache:2 .es5/templates/support.mustache:23
+#: .es5/templates/tos.mustache:1
 msgid "Terms of Service"
 msgstr "Podmínky poskytování služby"
 
-#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1 .es5/templates/support.mustache:24
+#: .es5/templates/legal.mustache:3 .es5/templates/pp.mustache:1
+#: .es5/templates/support.mustache:24
 msgid "Privacy Notice"
 msgstr "Zásady ochrany osobních údajů"
 
-#: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
+#: .es5/templates/marketing_snippet.mustache:1
+#: .es5/templates/marketing_snippet.mustache:5
+#: .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Užijte si synchronizaci se Sync naplno."
 
-#: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
+#: .es5/templates/marketing_snippet.mustache:2
+#: .es5/templates/marketing_snippet.mustache:3
+#: .es5/templates/marketing_snippet.mustache:11
+#: .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
 msgstr "Stáhněte si Firefox pro iOS!"
 
-#: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
+#: .es5/templates/marketing_snippet.mustache:6
+#: .es5/templates/marketing_snippet.mustache:7
+#: .es5/templates/marketing_snippet.mustache:12
+#: .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
 msgstr "Stáhněte si Firefox pro Android."
@@ -1329,17 +1538,24 @@ msgstr "%(serviceName)s chce použít následující informace z vašeho účtu:
 msgid "Accept"
 msgstr "Povolit"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:21
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:5
+#: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
+#: .es5/templates/ready.mustache:1
+#: .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
 msgstr "Hotovo"
 
 #: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Nyní můžete službu <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> začít používat"
+msgid ""
+"You are now ready to use <div class=\"graphic %(serviceLogo)s\">"
+"%(serviceName)s</div>"
+msgstr ""
+"Nyní můžete službu <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</"
+"div> začít používat"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1358,26 +1574,38 @@ msgid "Report unauthorized sign-in?"
 msgstr "Nahlásit neoprávněné přihlášení?"
 
 #: .es5/templates/report_sign_in.mustache:5
-msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Obdrželi jste e-mail o pokusu o přihlášení k vašemu účtu. Chcete tuto aktivitu nahlásit jako podezřelou?"
+msgid ""
+"You received an email about attempted access to your account. Would you like "
+"to report this activity as suspicious?"
+msgstr ""
+"Obdrželi jste e-mail o pokusu o přihlášení k vašemu účtu. Chcete tuto "
+"aktivitu nahlásit jako podezřelou?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
 msgstr "Nahlásit aktivitu"
 
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
+#: .es5/templates/report_sign_in.mustache:7
+#: .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
 msgstr "Proč se to stalo?"
 
 #: .es5/templates/reset_password.mustache:3
 msgid ""
-"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
+"<span>NOTE:</span> When you reset your password, you reset your account. You "
+"may lose some of your personal information (including history, bookmarks, "
+"and passwords). That’s because we encrypt your data with your password to "
+"protect your privacy. You’ll still keep any subscriptions you may have and "
+"Pocket data will not be affected."
 msgstr ""
-"<span>POZNÁMKA:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro ochranu "
-"soukromí vaše data heslem šifrujeme. Vaše předplatná a data ve službě Pocket zůstanou beze změny."
+"<span>POZNÁMKA:</span> Když obnovíte své heslo, obnovíte tím stav celého "
+"účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně "
+"historie, záložek a hesel). To proto, že pro ochranu soukromí vaše data "
+"heslem šifrujeme. Vaše předplatná a data ve službě Pocket zůstanou beze "
+"změny."
 
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
+#: .es5/templates/reset_password.mustache:5
+#: .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
 msgstr "E-mail"
 
@@ -1418,12 +1646,21 @@ msgid "Sorry. We’ve locked your&nbsp;account."
 msgstr "Omlouváme se, váš&nbsp;účet byl uzamčen."
 
 #: .es5/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Potvrzovací e-mail, který jsme poslali na adresu %(email)s, se vrátil zpět. Abychom ochránili vaše data, váš účet jsme uzamkli."
+msgid ""
+"The confirmation email we sent to %(email)s was returned and we’ve locked "
+"your account to protect your Firefox data."
+msgstr ""
+"Potvrzovací e-mail, který jsme poslali na adresu %(email)s, se vrátil zpět. "
+"Abychom ochránili vaše data, váš účet jsme uzamkli."
 
 #: .es5/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Pokud se jedná o platnou e-mailovou adresu, <a %(escapedSupportLinkAttrs)s>dejte nám vědět</a> a my vám pomůžeme odemknout váš účet."
+msgid ""
+"If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us "
+"know</a> and we can help unlock your account."
+msgstr ""
+"Pokud se jedná o platnou e-mailovou adresu, <a "
+"%(escapedSupportLinkAttrs)s>dejte nám vědět</a> a my vám pomůžeme odemknout "
+"váš účet."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1433,9 +1670,13 @@ msgstr "Už tento e-mail nevlastníte? Vytvořte si nový účet"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
-"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href="
+"\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp"
+"\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy "
+"Notice</a><br />\n"
+"              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/"
+"terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href="
+"\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 
@@ -1460,11 +1701,14 @@ msgid "Thank you for your vigilance"
 msgstr "Děkujeme za vaši ostražitost"
 
 #: .es5/templates/sign_in_reported.mustache:2
-msgid "Our team has been notified. Reports like this help us fend off intruders."
+msgid ""
+"Our team has been notified. Reports like this help us fend off intruders."
 msgstr "Náš tým byl upozorněn. Zprávy jako tato nám pomáhají odrážet útočníky."
 
 #: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
+msgid ""
+"Enter confirmation code <span class=\"card-subheader\">for your Firefox "
+"account</span>"
 msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
@@ -1483,7 +1727,9 @@ msgstr "Otevřete svou ověřovací aplikaci a opište z ní bezpečnostní kód
 msgid "Trouble entering code?"
 msgstr "Problém se zadáváním kódu?"
 
-#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+#: .es5/templates/sign_in_unblock.mustache:1
+#: .es5/templates/sign_in_unblock.mustache:2
+#: .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
 msgstr "Autorizovat toto přihlášení"
 
@@ -1508,12 +1754,19 @@ msgid "Repeat password"
 msgstr "Zopakujte heslo"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Toto heslo budete potřebovat pro přístup ke všech šifrovaným datům, které si u nás uložíte.<br/>Při jeho obnovení může dojít ke ztrátě všech těchto dat včetně hesel nebo záložek."
+msgid ""
+"You need this password to access any encrypted data you store with us.<br/>A "
+"reset means potentially losing data like passwords and bookmarks."
+msgstr ""
+"Toto heslo budete potřebovat pro přístup ke všech šifrovaným datům, které si "
+"u nás uložíte.<br/>Při jeho obnovení může dojít ke ztrátě všech těchto dat "
+"včetně hesel nebo záložek."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Praktické informace až do vaší e-mailové schránky. Zaregistrujte se pro více informací:"
+msgstr ""
+"Praktické informace až do vaší e-mailové schránky. Zaregistrujte se pro více "
+"informací:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
@@ -1527,9 +1780,13 @@ msgstr "Vytvořit účet"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
-"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://"
+"getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id="
+"\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</"
+"a><br />\n"
+"            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/"
+"terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href="
+"\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
@@ -1553,7 +1810,8 @@ msgstr "Kontaktujte nás"
 msgid "What are you contacting us about?"
 msgstr "Za jakým účelem nás kontaktujete?"
 
-#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
+#: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11
+#: .es5/templates/support.mustache:18
 msgid "Please select one"
 msgstr "Vyberte prosím jednu z možností"
 
@@ -1613,11 +1871,13 @@ msgstr "Krok 1 ze 2: Zadejte znovu heslo"
 msgid "Enter your password to view your recovery key."
 msgstr "Pro zobrazení obnovovacího klíče zadejte své heslo."
 
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
 msgstr "Zadejte heslo"
 
-#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/push/completed.mustache:2
+#: .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
 msgstr "Úspěšně připojeno"
 
@@ -1634,16 +1894,26 @@ msgid "Confirm sign-in"
 msgstr "Potvrzení přihlášení"
 
 #: .es5/templates/push/confirm_login.mustache:4
-msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr "Máte-li podezření, že se někdo pokouší neoprávněně získat přístup k vašemu účtu, <a id=\"change-password\" href=\"/settings/change_password\">změňte si prosím své heslo</a>."
+msgid ""
+"If you suspect that someone is trying to gain access to your account, <a id="
+"\"change-password\" href=\"/settings/change_password\">please change your "
+"password.</a>"
+msgstr ""
+"Máte-li podezření, že se někdo pokouší neoprávněně získat přístup k vašemu "
+"účtu, <a id=\"change-password\" href=\"/settings/change_password\">změňte si "
+"prosím své heslo</a>."
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
 msgstr "Poslat push oznámení o přihlášení"
 
 #: .es5/templates/push/send_login.mustache:3
-msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr "Zkontrolujte svá zařízení připojená k účtu Firefoxu a potvrďte na nich své přihlášení."
+msgid ""
+"Check your connected Firefox devices for the sign-in confirmation tab we've "
+"sent."
+msgstr ""
+"Zkontrolujte svá zařízení připojená k účtu Firefoxu a potvrďte na nich své "
+"přihlášení."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
@@ -1653,25 +1923,34 @@ msgstr "Znovu odeslat panel"
 msgid "Tab not arriving? Send an email instead"
 msgstr "Panel nepřichází? Místo toho poslat e-mail"
 
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
 msgstr "Přidat záložní e-mailovou adresu"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "Přidání záložní e-mailové adresy vám pomůže v situaci, kdy ztratíte přístup ke své e-mailové schránce %(escapedEmail)s."
+msgid ""
+"Adding a secondary email helps you get back into your account if you are "
+"locked out and can not access %(escapedEmail)s."
+msgstr ""
+"Přidání záložní e-mailové adresy vám pomůže v situaci, kdy ztratíte přístup "
+"ke své e-mailové schránce %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
 msgstr "Záložní e-mailová adresa"
 
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8
+#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
 msgid "Maybe later"
 msgstr "Možná později"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
+msgid ""
+"Please enter the confirmation code that was sent to %(escapedEmail)s within "
+"5 minutes."
 msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
@@ -1682,7 +1961,8 @@ msgstr "Potřebujete další kód? Poslat znovu"
 msgid "Use a different email"
 msgstr "Použít jiný e-mail"
 
-#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
+#: .es5/templates/post_verify/password/force_password_change.mustache:1
+#: .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
 msgstr "Změňte prosím své heslo"
 
@@ -1692,12 +1972,20 @@ msgstr "a pokračujte na službu %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
-"We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "Váš účet Firefoxu se chová podezřele. Abychom svůj účet ochránili, nastavte si prosím nové heslo a přihlaste se pomocí něj znovu ke všem službám Firefoxu."
+"We detected suspicious behavior on your Firefox account. To protect your "
+"account, please create a new password. You’ll use this password to sign back "
+"in to all of your Firefox account services."
+msgstr ""
+"Váš účet Firefoxu se chová podezřele. Abychom svůj účet ochránili, nastavte "
+"si prosím nové heslo a přihlaste se pomocí něj znovu ke všem službám "
+"Firefoxu."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
-msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr "Synchronizovaná historie, záložky, přihlášení a další osobní údaje nebudou smazány."
+msgid ""
+"Synced history, bookmarks, logins, and other personal data will not be lost."
+msgstr ""
+"Synchronizovaná historie, záložky, přihlášení a další osobní údaje nebudou "
+"smazány."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
@@ -1732,10 +2020,15 @@ msgid "Subscribe %(email)s"
 msgstr "Přihlásit k odběru %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr "V odkazu, na který jste klepli, chyběly nějaké znaky. Je možné, že ho váš e-mailový klient zkomolil."
+msgid ""
+"The link you clicked was missing characters, and may have been broken by "
+"your email client."
+msgstr ""
+"V odkazu, na který jste klepli, chyběly nějaké znaky. Je možné, že ho váš e-"
+"mailový klient zkomolil."
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
 msgstr "Vytvořit účet Firefoxu"
 
@@ -1747,7 +2040,8 @@ msgstr "Pokračovat na %(productName)s"
 msgid "Enter a password"
 msgstr "Zadejte heslo"
 
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
+#: .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
 msgstr "Potvrdit heslo"
@@ -1777,14 +2071,19 @@ msgid "Sync Firefox between devices"
 msgstr "Synchronizace Firefoxu mezi zařízeními"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
-msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr "Synchronizujte záložky, historii a hesla ve Firefoxu na svých mobilních zařízeních. Zabere to jen pár minut."
+msgid ""
+"Sync bookmarks, history, and passwords to Firefox on your mobile devices. It "
+"only takes a few minutes."
+msgstr ""
+"Synchronizujte záložky, historii a hesla ve Firefoxu na svých mobilních "
+"zařízeních. Zabere to jen pár minut."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
 msgstr "Jdeme na to"
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:4
+#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
 msgstr "Udělám to později, pošlete mi připomenutí"
 
@@ -1793,16 +2092,24 @@ msgid "Download Firefox with your camera app"
 msgstr "Stáhněte si Firefox, stačí k tomu aplikace fotoaparátu"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
-msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr "Instalace Firefoxu a nastavení synchronizace na alespoň dvou zařízeních vás také ochrání před ztrátou vašich dat."
+msgid ""
+"Installing Firefox and syncing between at least two devices also protects "
+"against losing your data."
+msgstr ""
+"Instalace Firefoxu a nastavení synchronizace na alespoň dvou zařízeních vás "
+"také ochrání před ztrátou vašich dat."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
 msgstr "Připraveno na skenování"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Připojte své mobilní zařízení</h1><p>pomocí QR kódu, který jsme pro vás připravili</p>"
+msgid ""
+"<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile "
+"device</h1><p>with a QR code we've created just for you</p>"
+msgstr ""
+"<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Připojte své mobilní "
+"zařízení</h1><p>pomocí QR kódu, který jsme pro vás připravili</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
@@ -1822,21 +2129,30 @@ msgstr "Přihlaste se ke svému účtu"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr "<span class=\"number\">1</span>Spusťte na svém zařízení aplikaci fotoaparátu"
+msgstr ""
+"<span class=\"number\">1</span>Spusťte na svém zařízení aplikaci fotoaparátu"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr "<span class=\"number\">2</span>Namiřte fotoaparát na QR kód a klepněte na odkaz, který se objeví"
+msgid ""
+"<span class=\"number\">2</span>Point the camera at the QR code and tap the "
+"link that appears"
+msgstr ""
+"<span class=\"number\">2</span>Namiřte fotoaparát na QR kód a klepněte na "
+"odkaz, který se objeví"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr "<span class=\"number\">3</span>Nainstalujte si Firefox na své zařízení a spusťte ho"
+msgid ""
+"<span class=\"number\">3</span>Install Firefox and open it on your device"
+msgstr ""
+"<span class=\"number\">3</span>Nainstalujte si Firefox na své zařízení a "
+"spusťte ho"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr "<span class=\"number\">4</span>Přihlaste se ke svému účtu"
 
-#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with a recovery key"
 msgstr "Chraňte svá data obnovovacím klíčem"
 
@@ -1845,22 +2161,33 @@ msgid "Your synced data can include passwords you've saved."
 msgstr "Vaše synchronizovaná data mohou obsahovat vaše uložená hesla."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
-msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr "Protože jsou tato data velmi důležitá pro vaši bezpečnost, Firefox je pro vaši ochranu při obnově hesla smaže, aby k nim nikdo jiný nemohl získat přístup."
+msgid ""
+"Because this information is critical to your security, Firefox deletes it to "
+"protect you when your password is reset to prevent other people from "
+"accessing it."
+msgstr ""
+"Protože jsou tato data velmi důležitá pro vaši bezpečnost, Firefox je pro "
+"vaši ochranu při obnově hesla smaže, aby k nim nikdo jiný nemohl získat "
+"přístup."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get a Recovery Key"
 msgstr "Získat obnovovací klíč"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr "Pro vygenerování obnovovacího klíče potvrďte heslo pro svůj účet %(escapedEmail)s."
+msgid ""
+"Please confirm your password for %(escapedEmail)s to generate your recovery "
+"key."
+msgstr ""
+"Pro vygenerování obnovovacího klíče potvrďte heslo pro svůj účet "
+"%(escapedEmail)s."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
 msgstr "Potvrďte uložení kopie svého obnovovacího klíče jeho zadáním."
 
-#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1
+#: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save recovery key"
 msgstr "Uložit obnovovací klíč"
 
@@ -1869,14 +2196,23 @@ msgid "Done"
 msgstr "Hotovo"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
-msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr "Proč si musím vytvořit tento účet? <a %(escapedSuggestionAttrs)s>Zjistíte to zde</a>"
+msgid ""
+"Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out "
+"here</a>"
+msgstr ""
+"Proč si musím vytvořit tento účet? <a %(escapedSuggestionAttrs)s>Zjistíte to "
+"zde</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid ""
+"How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr "Kolik vám je let?"
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -1921,12 +2257,18 @@ msgid "Not a commonly used password"
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgid ""
+"Stay safe &mdash; don’t reuse passwords. See more tips to <a "
+"%(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
 msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "Hmm, máme problémy s naším systémem. Pracujeme na jeho opravě a omlouváme se za nepříjemnosti. Zkuste to znovu později prosím."
+msgid ""
+"Hmm, we're having trouble with our system. We're working on fixing it for "
+"you and apologize for the inconvenience. Please try again later."
+msgstr ""
+"Hmm, máme problémy s naším systémem. Pracujeme na jeho opravě a omlouváme se "
+"za nepříjemnosti. Zkuste to znovu později prosím."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
@@ -1937,8 +2279,11 @@ msgid "Back to Subscriptions"
 msgstr "Zpět na předplatné"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
-msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
-msgstr "Hledáte Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Začněte zde</a>"
+msgid ""
+"Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started "
+"here</a>"
+msgstr ""
+"Hledáte Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Začněte zde</a>"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
@@ -1969,22 +2314,28 @@ msgid "Yes, approve device"
 msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
+msgid ""
+"If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change "
+"your password</a> "
 msgstr ""
 
-#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
+#: .es5/templates/pair/auth_complete.mustache:1
+#: .es5/templates/pair/success.mustache:1
 msgid "Device connected"
 msgstr "Zařízení připojeno"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
 "\n"
-"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</"
+"span>\n"
 "      "
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
-msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
+msgid ""
+"Now you can access your open tabs, passwords, and bookmarks on all your "
+"devices."
 msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:5
@@ -1995,7 +2346,8 @@ msgstr ""
 msgid "Manage devices"
 msgstr "Správa zařízení"
 
-#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
+#: .es5/templates/pair/auth_wait_for_supp.mustache:1
+#: .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
 msgstr "Je požadováno schválení <small>z vašeho dalšího zařízení</small>"
 
@@ -2016,11 +2368,15 @@ msgid "QR code"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
+msgid ""
+"To download Firefox on your mobile device, hold the device’s camera over "
+"this code to scan."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid ""
+"Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/"
+"\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
@@ -2028,7 +2384,9 @@ msgid "I’m ready to sync devices"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
-msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+msgid ""
+"Sync devices to access your tabs, passwords, and bookmarks everywhere you "
+"use Firefox."
 msgstr ""
 
 #: .es5/templates/pair/success.mustache:2
@@ -2053,1779 +2411,5 @@ msgstr "Spárovat pomocí aplikace"
 
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Použili jste systémový fotoaparát? Párování je potřeba zahájit z Firefoxu."
-
-#~ msgid "Primary email verified"
-#~ msgstr "Hlavní e-mailová adresa ověřena"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "Záložní e-mailová adresa byla ověřena"
-
-#~ msgid "Account verified"
-#~ msgstr "Účet ověřen"
-
-#~ msgid "Verification link expired"
-#~ msgstr "Platnost odkazu pro ověření vypršela"
-
-#~ msgid "Click here to receive a new verification link"
-#~ msgstr "Klepněte zde pro zaslání nového ověřovacího odkazu"
-
-#~ msgid "Verification error"
-#~ msgstr "Chyba ověření"
-
-#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "Zkontrolujte ověřovací odkaz, který jsme poslali na %(escapedEmail)s"
-
-#~ msgid "Email verified"
-#~ msgstr "E-mail ověřen"
-
-#~ msgid "Verified"
-#~ msgstr "Ověřeno"
-
-#~ msgid "Verify"
-#~ msgstr "Ověřit"
-
-#~ msgid "Enter verification code"
-#~ msgstr "Zadejte ověřovací kód"
-
-#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-#~ msgstr "Zadejte prosím ověřovací kód, který bude během 5 minut doručen na adresu %(escapedEmail)s."
-
-#~ msgid "Logins and Passwords"
-#~ msgstr "Přihlašovací údaje"
-
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-#~ msgstr "Pokračováním souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\">podmínkami poskytování služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">zásadami ochrany osobních údajů</a>."
-
-#~ msgid ""
-#~ "\n"
-#~ "              By proceeding, you agree to:<br />\n"
-#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
-#~ ">\n"
-#~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              Pokračováním souhlasíte s:<br />\n"
-#~ "              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Podmínkami</a> a <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Zásadami ochrany osobních údajů</a> "
-#~ "služby Pocket<br />\n"
-#~ "              <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany osobních údajů</a> služeb Firefoxu\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "            By proceeding, you agree to:<br />\n"
-#~ "            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-#~ "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
-#~ "          "
-#~ msgstr ""
-#~ "\n"
-#~ "              Pokračováním souhlasíte s:<br />\n"
-#~ "              <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Podmínkami</a> a <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Zásadami ochrany osobních údajů</a> "
-#~ "služby Pocket<br />\n"
-#~ "              <a id=\"fxa-tos\" href=\"/legal/terms\">Podmínkami</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\">Zásadami ochrany osobních údajů</a> služeb Firefoxu\n"
-#~ "            "
-
-#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-#~ msgstr "Pro vytvoření účtu&nbsp;Firefoxu musíte splňovat věkové požadavky."
-
-#~ msgid "Check your email for the code sent to %(email)s."
-#~ msgstr "Zkontrolujte kód, který jsme poslali na adresu %(email)s."
-
-#~ msgid "Why is more than one device required?"
-#~ msgstr "Proč je potřeba více než jedno zařízení?"
-
-#~ msgid "Why sync multiple devices?"
-#~ msgstr "Proč synchronizovat více zařízení?"
-
-#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-#~ msgstr "Služba Sync nefunguje jako záloha. Je to ale jednoduchý a bezpečný způsob pro přenos záložek, historie a hesel mezi vašimi zařízeními."
-
-#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-#~ msgstr "Měli byste si nainstalovat Firefox na více než dvě zařízení, abyste zabránili ztrátě dat, pokud zapomenete heslo."
-
-#~ msgid "Got it"
-#~ msgstr "Chápu"
-
-#~ msgid "One account, many services"
-#~ msgstr "Jeden účet, mnoho služeb"
-
-#~ msgid "Firefox browser"
-#~ msgstr "Prohlížeč Firefox"
-
-#~ msgid "Sync your bookmarks, passwords, and more on every device."
-#~ msgstr "Synchronizujte své záložky, hesla a další data na všech svých zařízeních."
-
-#~ msgid "Mozilla VPN"
-#~ msgstr "Mozilla VPN"
-
-#~ msgid "A VPN from the trusted pioneer in internet privacy."
-#~ msgstr "VPN od důvěryhodného průkopníka soukromí na internetu."
-
-#~ msgid "Pocket"
-#~ msgstr "Pocket"
-
-#~ msgid "Save and discover the best stories from across the web."
-#~ msgstr "Ukládejte a objevujte nejlepší články z celého webu."
-
-#~ msgid "Firefox Relay"
-#~ msgstr "Firefox Relay"
-
-#~ msgid "Sign up for new accounts without handing over your email address."
-#~ msgstr "Registrujte si nové účty bez nutnosti prozradit svou e-mailovou adresu."
-
-#~ msgid "See all"
-#~ msgstr "Zobrazit vše"
-
-#~ msgid "Stay safe &mdash; don't reuse passwords."
-#~ msgstr "Zůstaňte v bezpečí &mdash; neopakujte svá hesla."
-
-#~ msgid "Must not be your email address"
-#~ msgstr "Nesmí být vaše e-mailová adresa"
-
-#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-#~ msgstr "Nesmí odpovídat <a %(escapedCommonPasswordLinkAttrs)s>seznamu běžných hesel</a>"
-
-#~ msgid "Approve new device <small>for %(email)s</small>"
-#~ msgstr "Schválit nové zařízení <small>pro %(email)s</small>"
-
-#~ msgid "Approve device"
-#~ msgstr "Schválit zařízení"
-
-#~ msgid "You are now syncing with:"
-#~ msgstr "Nyní probíhá synchronizace se zařízením:"
-
-#~ msgid "Scan to connect another device"
-#~ msgstr "Naskenujte pro připojení dalšího zařízení"
-
-#~ msgid "Open the code scanner on your Firefox app and show code when ready."
-#~ msgstr "Ve své aplikaci Firefox otevřete skener kódů a až budete připraveni, zobrazte si kód."
-
-#~ msgid "Show code"
-#~ msgstr "Zobrazit kód"
-
-#~ msgid "Would you like to sync your phone?"
-#~ msgstr "Chcete synchronizovat svůj telefon?"
-
-#~ msgid "Send a link by SMS to install Firefox on your phone."
-#~ msgstr "Nechte si poslat odkaz k instalaci Firefoxu SMSkou na svůj telefon."
-
-#~ msgid "Mobile phone number"
-#~ msgstr "Číslo mobilního telefonu"
-
-#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "Vyžadujte souhlas příjemce. Mohou být účtovány poplatky za SMS nebo mobilní data. <a %(escapedLearnMoreAttributes)s>Zjistit více</a>"
-
-#~ msgid "Not now"
-#~ msgstr "Teď ne"
-
-#~ msgid "Check your texts"
-#~ msgstr "Zkontrolujte přijaté SMS"
-
-#~ msgid "We've sent you a text message"
-#~ msgstr "Poslali jsme vám textovou zprávu"
-
-#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-#~ msgstr "Odkaz na aplikaci Firefox byl poslán na %(escapedPhoneNumber)s"
-
-#~ msgid "Wrong number?"
-#~ msgstr "Špatné číslo?"
-
-#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-#~ msgstr "Pokud jste SMS zprávu nedostali, zkuste ve svém obchodu s aplikacemi vyhledat „Firefox“."
-
-#~ msgid "Didn't arrive? Resend"
-#~ msgstr "Nic nepřišlo? Znovu odeslat"
-
-#~ msgid "Why sign in on another device?"
-#~ msgstr "Proč se přihlásit i v ostatních zařízeních?"
-
-#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Nápověda</a>"
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
-#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr ""
-#~ "<span>UPOZORNĚNÍ:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro "
-#~ "ochranu soukromí vaše data heslem šifrujeme. Vaše předplatná zůstanou beze změny."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr ""
-#~ "<span>POZNÁMKA:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro "
-#~ "ochranu soukromí vaše data heslem šifrujeme. Vaše předplatná zůstanou beze změny."
-
-#~ msgid "Firefox Lockwise"
-#~ msgstr "Firefox Lockwise"
-
-#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-#~ msgstr "K heslům uloženým ve vašem Firefoxu můžete přistupovat kdekoliv, a to i mimo prohlížeč."
-
-#~ msgid "Firefox Monitor"
-#~ msgstr "Firefox Monitor"
-
-#~ msgid "Get a lookout for data breaches."
-#~ msgstr "Zkontrolujte známé úniky dat, jestli se vás také netýkají."
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
-#~ "encrypt your data with your password to protect your privacy."
-#~ msgstr ""
-#~ "<span>UPOZORNĚNÍ:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro "
-#~ "ochranu soukromí vaše data heslem šifrujeme."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
-#~ msgstr ""
-#~ "<span>POZNÁMKA:</span> Když obnovíte své heslo, obnovíte tím stav celého účtu. Může dojít ke ztrátě některých vašich osobních informací (včetně historie, záložek a hesel). To proto, že pro "
-#~ "ochranu soukromí vaše data heslem šifrujeme."
-
-#~ msgid "Change..."
-#~ msgstr "Změnit…"
-
-#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
-#~ msgstr "Jakmile skončíte, použijte nové heslo pro přihlášení všech svých zařízení."
-
-#~ msgid "Change"
-#~ msgstr "Změnit"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Heslo bylo úspěšně změněno"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "To je nám líto. Měli byste si změnit své heslo k účtu Firefoxu a případně zjistit, jestli výrobce vašeho zařízení neposkytuje nástroj pro vzdálené vymazání uložených dat."
-
-#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "To je nám líto. Pokud tomuto zařízení skutečně nedůvěřujete, měli byste si změnit nejen své heslo k účtu Firefoxu, ale také všechna hesla uložená ve Firefoxu."
-
-#~ msgid "Last seen %(translatedTimeAgo)s"
-#~ msgstr "Poslední synchronizace %(translatedTimeAgo)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s"
-#~ msgstr "Poslední synchronizace před více než %(translatedTimeAgo)s"
-
-#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Poslední synchronizace %(translatedTimeAgo)s v místě %(translatedCountry)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Poslední synchronizace více než %(translatedTimeAgo)s v místě %(translatedCountry)s"
-
-#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Poslední synchronizace %(translatedTimeAgo)s poblíž místa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Poslední synchronizace před více než %(translatedTimeAgo)s poblíž místa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Naposledy aktivní %(translatedTimeAgo)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s"
-#~ msgstr "Naposledy aktivní více než %(translatedTimeAgo)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Poslední aktivita %(translatedTimeAgo)s v místě %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Poslední aktivita %(translatedTimeAgo)s v místě %(translatedCountry)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Poslední aktivita %(translatedTimeAgo)s poblíž místa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Poslední aktivita více než %(translatedTimeAgo)s poblíž místa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s"
-
-#~ msgid "Over %(translatedTimeAgo)s"
-#~ msgstr "Více než %(translatedTimeAgo)s"
-
-#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s v místě %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Více než %(translatedTimeAgo)s v místě %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s poblíž místa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Více než %(translatedTimeAgo)s poblíž místa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Web Session, %(userAgent)s"
-#~ msgstr "Webová relace, %(userAgent)s"
-
-#~ msgid "Web Session"
-#~ msgstr "Webová relace"
-
-#~ msgid "Last seen time unknown"
-#~ msgstr "Čas poslední synchronizace není znám"
-
-#~ msgid "Change…"
-#~ msgstr "Změnit…"
-
-#~ msgid "Add…"
-#~ msgstr "Přidat…"
-
-#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
-#~ msgstr "Nastavte si jméno, které chcete zobrazovat ve Firefoxu při správě vašeho účtu."
-
-#~ msgid "Display name updated"
-#~ msgstr "Zobrazované jméno aktualizováno"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "Záložní e-mailová adresa byla odebrána"
-
-#~ msgid "Verification email sent"
-#~ msgstr "E-mail s ověřením byl odeslán"
-
-#~ msgid "Primary email set to %(email)s"
-#~ msgstr "Hlavní e-mail byl nastaven na %(email)s"
-
-#~ msgid "New recovery codes generated"
-#~ msgstr "Vygenerovány nové obnovovací kódy"
-
-#~ msgid "Two-step authentication removed"
-#~ msgstr "Dvoufázové ověřování zrušeno"
-
-#~ msgid "Two-step Authentication"
-#~ msgstr "Dvoufázové ověřování"
-
-#~ msgid "Account Recovery"
-#~ msgstr "Obnova účtu"
-
-#~ msgid "Account recovery revoked"
-#~ msgstr "Obnova účtu je zrušena"
-
-#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-#~ msgstr "Platnost vaší platební karty vypršela. Aktualizujte jí <a %(escapedCcExpiredLinkAttrs)s>zde</a>."
-
-#~ msgid "Sign out"
-#~ msgstr "Odhlásit se"
-
-#~ msgid "Take picture"
-#~ msgstr "Získat obrázek"
-
-#~ msgid "Upload"
-#~ msgstr "Nahrát"
-
-#~ msgid "Camera"
-#~ msgstr "Vyfotit"
-
-#~ msgid "Clear"
-#~ msgstr "Odstranit"
-
-#~ msgid "Avatar"
-#~ msgstr "Avatar"
-
-#~ msgid "Position and rotate your picture as needed"
-#~ msgstr "Nastavte si obrázek dle svých potřeb"
-
-#~ msgid "Disconnect from Sync"
-#~ msgstr "Odpojit od Syncu"
-
-#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-#~ msgstr "Soukromá data na zařízení %(deviceName)s zůstanou, ale už se nadále nebudou synchronizovat s vaším účtem."
-
-#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-#~ msgstr "Zařízení %(deviceName)s odpojujete od Syncu, protože je:"
-
-#~ msgid "Suspicious"
-#~ msgstr "podezřelé"
-
-#~ msgid "Lost or stolen"
-#~ msgstr "ztracené nebo ukradené"
-
-#~ msgid "Old or replaced"
-#~ msgstr "staré nebo nahrazené"
-
-#~ msgid "Duplicate"
-#~ msgstr "duplicitní"
-
-#~ msgid "Rather not say"
-#~ msgstr "Raději neupřesňovat"
-
-#~ msgid "Disconnect"
-#~ msgstr "Odpojit"
-
-#~ msgid "Disconnection Successful"
-#~ msgstr "Odpojení bylo úspěšné"
-
-#~ msgid "Devices & apps"
-#~ msgstr "Zařízení a aplikace"
-
-#~ msgid "Show"
-#~ msgstr "Zobrazit"
-
-#~ msgid "Current device"
-#~ msgstr "Současné zařízení"
-
-#~ msgid "Disconnect…"
-#~ msgstr "Odpojit…"
-
-#~ msgid "Current session"
-#~ msgstr "Aktuální relace"
-
-#~ msgid "Revoke"
-#~ msgstr "Zneplatnit"
-
-#~ msgid "Firefox for iOS"
-#~ msgstr "Firefox pro iOS"
-
-#~ msgid "None connected"
-#~ msgstr "Nepřipojeno"
-
-#~ msgid "Firefox for Android"
-#~ msgstr "Firefox pro Android"
-
-#~ msgid "Missing or duplicate items?"
-#~ msgstr "Chybějící nebo duplicitní položky?"
-
-#~ msgid "Refresh status"
-#~ msgstr "Aktualizovat stav"
-
-#~ msgid "Email preferences"
-#~ msgstr "Předvolby e-mailu"
-
-#~ msgid "Delete account"
-#~ msgstr "Smazat účet"
-
-#~ msgid "Delete…"
-#~ msgstr "Smazat…"
-
-#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-#~ msgstr "Připojili jste svůj účet Firefoxu k produktům Mozilly, které vám na webu pomohou zajistit bezpečí a produktivitu:"
-
-#~ msgid "Please acknowledge that by deleting your account:"
-#~ msgstr "Potvrďte prosím, že smazáním účtu:"
-
-#~ msgid "Any paid subscriptions you have will be cancelled"
-#~ msgstr "Budou zrušena všechna předplatná, která máte"
-
-#~ msgid "You may lose saved information and features within Mozilla products"
-#~ msgstr "Můžete ztratit uložené informace a funkce produktů Mozilly"
-
-#~ msgid "Reactivating with this email may not restore your saved information"
-#~ msgstr "Reaktivace pomocí tohoto e-mailu nemusí obnovit vaše uložené informace"
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-#~ msgstr "Záložní e-mailová adresa slouží k zasílání bezpečnostních upozornění a potvrzování nových zařízení."
-
-#~ msgid "Verification required"
-#~ msgstr "Vyžadováno ověření"
-
-#~ msgid "Make primary"
-#~ msgstr "Jako hlavní"
-
-#~ msgid "Remove"
-#~ msgstr "Odebrat"
-
-#~ msgid "Refresh"
-#~ msgstr "Obnovit"
-
-#~ msgid "Add email"
-#~ msgstr "Přidat e-mail"
-
-#~ msgid "Add"
-#~ msgstr "Přidat"
-
-#~ msgid "NOTE:"
-#~ msgstr "POZNÁMKA:"
-
-#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-#~ msgstr "Vytvořením nových záložních kódů zneplatníte všechny dříve vygenerované kódy. Nové kódy prosím uložte na bezpečné místo."
-
-#~ msgid "Generate new recovery codes"
-#~ msgstr "Vygenerovat nové obnovovací kódy"
-
-#~ msgid "Confirm a recovery code"
-#~ msgstr "Potvrdit obnovovací klíč"
-
-#~ msgid "Manage…"
-#~ msgstr "Správa…"
-
-#~ msgid "Enter this secret key into your authentication app:"
-#~ msgstr "Zadejte tento bezpečnostní kód do své ověřovací aplikace:"
-
-#~ msgid "Two-step authentication"
-#~ msgstr "Dvoufázové ověřování"
-
-#~ msgid "Enable…"
-#~ msgstr "Nastavit…"
-
-#~ msgid "Current status"
-#~ msgstr "Stav"
-
-#~ msgid "Enabled"
-#~ msgstr "Zapnuto"
-
-#~ msgid "Disabled"
-#~ msgstr "Vypnuto"
-
-#~ msgid "Disable"
-#~ msgstr "Vypnout"
-
-#~ msgid "Enable"
-#~ msgstr "Zapnout"
-
-#~ msgid "Replace recovery codes"
-#~ msgstr "Vytvořit nové záložní kódy"
-
-#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
-#~ msgstr "Před provedením změn v této sekci prosím ověřte svou e-mailovou adresu."
-
-#~ msgid "Primary email"
-#~ msgstr "Hlavní e-mail"
-
-#~ msgid "Account recovery"
-#~ msgstr "Obnova účtu"
-
-#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-#~ msgstr "Vygenerujte si obnovovací klíč pro opětovné získání přístupu ke svým záložkám, heslům a dalším synchronizovaným datům v případě, že zapomenete své heslo k účtu."
-
-#~ msgid "Recovery key"
-#~ msgstr "Obnovovací klíč"
-
-#~ msgid "Not set"
-#~ msgstr "Nenastaven"
-
-#~ msgid "Generate"
-#~ msgstr "Vygenerovat"
-
-#~ msgid ""
-#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
-#~ "more</a>"
-#~ msgstr ""
-#~ "<span class=\"note\">Poznámka:</span> Heslo k vašemu účtu Firefoxu slouží i k zašifrování dat. Přístup k nim je možný jenom při použití hesla nebo obnovovacího klíče. <a "
-#~ "%(escapedLearnMoreLinkAttributes)s>Zjistit více</a>"
-
-#~ msgid "Are you sure you want to revoke?"
-#~ msgstr "Opravdu chcete klíč zneplatnit?"
-
-#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-#~ msgstr "Pokud obnovíte své heslo, nebude nadále možné obnovit přístup k účtu pomocí stávajícího obnovovacího klíče."
-
-#~ msgid "Step 2 of 2: Save Recovery key"
-#~ msgstr "Krok 2 ze 2: Uložte si obnovovací klíč"
-
-#~ msgid ""
-#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-#~ msgstr ""
-#~ "<span class=\"note\">Poznámka:</span> Pokud zapomenete své heslo, tento klíč budete potřebovat pro opětovné získání přístupu k synchronizovaným datům. Uložte si obnovovací klíč na bezpečném "
-#~ "místě, kde ho ale později dokážete najít."
-
-#~ msgid "Done, Recovery key saved"
-#~ msgstr "Hotovo, obnovovací klíč byl uložen"
-
-#~ msgid "Please Select One"
-#~ msgstr "Vyberte prosím jednu z možností"
-
-#~ msgid "Sign up to get more features:"
-#~ msgstr "Zaregistrujte se a získejte další funkce:"
-
-#~ msgid "Firefox Send"
-#~ msgstr "Firefox Send"
-
-#~ msgid "Send larger files securely and privately."
-#~ msgstr "Posílejte větší soubory bezpečně a s ohledem na soukromí."
-
-#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-#~ msgstr "Chcete zrušit placené předplatné? Podívejte se do <a href=\"/subscriptions\">Předplatné a Platby</a>."
-
-#~ msgid "Subscriptions & Payments"
-#~ msgstr "Předplatné a platby"
-
-#~ msgid "Get app"
-#~ msgstr "Získat aplikaci"
-
-#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-#~ msgstr "Děkujeme vám, že jste se obrátili na podporu Mozilly ohledně problému <b>%(escapedLowercaseTopic)s</b> s <b>%(escapedSelectedPlan)s</b>. Brzy od nás obdržíte e-mailem odpověď."
-
-#~ msgid "General inquiries"
-#~ msgstr "Všeobecné informace"
-
-#~ msgid "Connection issues"
-#~ msgstr "Problémy s připojením"
-
-#~ msgid "Getting started"
-#~ msgstr "Začínáme"
-
-#~ msgid "Firefox Private Network Android App"
-#~ msgstr "Aplikace Firefox Private Network pro Android"
-
-#~ msgid "Firefox Private Network Windows App"
-#~ msgstr "Aplikace Firefox Private Network pro Windows"
-
-#~ msgid "Sync this browser with your phone"
-#~ msgstr "Synchronizujte tento prohlížeč se svým telefonem"
-
-#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-#~ msgstr "Odešlete Firefox přímo do vašeho chytrého telefonu a přihlaste se pro dokončení nastavení"
-
-#~ msgid "Subscriptions &amp; Payments"
-#~ msgstr "Předplatné a Platby"
-
-#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-#~ msgstr "Chcete zrušit placené předplatné? Podívejte se do <a href=\"/subscriptions\">správy předplatných</a>."
-
-#~ msgid ""
-#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr ""
-#~ "Služba SMS je dostupná jen pro některé země. SMS a datové služby také mohou být zpoplatněny. Příjemce e-mailu nebo SMS musí s jejich zasláním souhlasit. <a %(escapedLearnMoreAttributes)s>Zjistit "
-#~ "více</a>"
-
-#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-#~ msgstr "Účet už existuje. <a href=\"/signin\">Přihlaste se</a>"
-
-#~ msgid "Last sync %(translatedTimeAgo)s"
-#~ msgstr "Poslední synchronizace %(translatedTimeAgo)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s"
-#~ msgstr "Poslední synchronizace více než %(translatedTimeAgo)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Poslední synchronizace %(translatedTimeAgo)s v místě %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Poslední synchronizace více než %(translatedTimeAgo)s v místě %(translatedCountry)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Poslední synchronizace %(translatedTimeAgo)s v místě %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Poslední synchronizace více než %(translatedTimeAgo)s poblíž místa %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync time unknown"
-#~ msgstr "Čas poslední synchronizace není znám"
-
-#~ msgid "Subscribed successfully"
-#~ msgstr "Přihlášení bylo úspěšné"
-
-#~ msgid "Open tabs"
-#~ msgstr "Otevřené panely"
-
-#~ msgid "Logins"
-#~ msgstr "Přihlášení"
-
-#~ msgid "Credit cards"
-#~ msgstr "Platební karty"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox Sync"
-
-#~ msgid "Accounts with two-step authentication do not support pairing at this time"
-#~ msgstr "Účty s dvoufázovým ověřením aktuálně nepodporují párování"
-
-#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-#~ msgstr "Mysleli jste <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-
-#~ msgid "Please try again later"
-#~ msgstr "Zkuste to prosím znovu později"
-
-#~ msgid "Service unavailable, try again soon"
-#~ msgstr "Služba je nedostupná, zkuste to znovu později"
-
-#~ msgid "%(email)s registered"
-#~ msgstr "Adresa %(email)s byla zaregistrována"
-
-#~ msgid "Save selections"
-#~ msgstr "Uložit výběr"
-
-#~ msgid "Sign in to continue"
-#~ msgstr "Pro pokračování se přihlaste"
-
-#~ msgid "Create an account"
-#~ msgstr "Vytvořit účet"
-
-#~ msgid "Use security code"
-#~ msgstr "Použít bezpečnostní kód"
-
-#~ msgid "Enter code"
-#~ msgstr "Zadejte kód"
-
-#~ msgid "Use recovery code"
-#~ msgstr "Použít obnovovací kód"
-
-#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-#~ msgstr "Toto heslo neztraťte. Při jeho obnově může dojít ke ztrátě vašich synchronizovaných dat."
-
-#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr ""
-#~ "<span>Nepoužívejte stejné heslo jako k e-mailu</span>Pokud někdo zjistí heslo k vaší e-mailové schránce, může potvrdit přihlášení na svém zařízení a získat tak přístup k uloženým informacím."
-
-#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "<span>Zapamatujte si své heslo</span>Pokud budete potřebovat své heslo obnovit, přijdete o synchronizovaná data, která nejsou uložena na žádném z vašich zařízení."
-
-#~ msgid "Have an account? Sign in"
-#~ msgstr "Máte účet? Přihlaste se"
-
-#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
-#~ msgstr "Pro dokončení nastavené si nainstalujte Firefox do svého chytrého telefonu a přihlaste se"
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "Odkaz na aplikaci byl odeslán na %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Špatné&nbsp;číslo?</a>"
-
-#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "Odkaz na aplikaci byl znovu odeslán na %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Špatné&nbsp;číslo?</a>"
-
-#~ msgid "If you are not receiving the text message, you can also download the apps manually."
-#~ msgstr "Pokud jste textovou zprávu neobdrželi, můžete si také aplikace stáhnout manuálně."
-
-#~ msgid "Disconnect from Sync?"
-#~ msgstr "Odpojit od služby Sync?"
-
-#~ msgid "Suspicious device"
-#~ msgstr "Podezřelé zařízení"
-
-#~ msgid "Lost or stolen device"
-#~ msgstr "Ztracené nebo ukradené zařízení"
-
-#~ msgid "Old or replaced device"
-#~ msgstr "Staré nebo nahrazené zařízení"
-
-#~ msgid "Duplicate device"
-#~ msgstr "Duplicitní zařízení"
-
-#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-#~ msgstr ""
-#~ "Budete dostávat zprávy týkající se bezpečnosti vašeho účtu, změn v našich podmínkách a funkcích vašeho účtu, stejně tak jako několik úvodních e-mailů, které vám pomohou vytěžit z vašeho účtu "
-#~ "Firefoxu maximum."
-
-#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-#~ msgstr "Kromě toho se můžete přihlásit k odběru propagačních e-mailů s novinkami týkajícími se Mozilly a Firefoxu."
-
-#~ msgid "Subscribe"
-#~ msgstr "Přihlásit"
-
-#~ msgid "Manage preferences"
-#~ msgstr "Správa nastavení"
-
-#~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
-#~ msgstr ""
-#~ "Pokud tento účet používáte k přihlášení se k jiným službám a aplikacím Mozilly (jako je např. AMO, Pocket nebo Screenshots), smažte v nich před odstraněním tohoto účtu své osobní údaje. Po "
-#~ "odstranění účtu již nebude možné se k těmto službám přihlásit."
-
-#~ msgid "verified"
-#~ msgstr "ověřeno"
-
-#~ msgid "verification required"
-#~ msgstr "vyžadováno ověření"
-
-#~ msgid "Recovery codes"
-#~ msgstr "Obnovovací kódy"
-
-#~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-#~ msgstr "Toto jsou vaše jednorázové kódy. Uložte je prosím na bezpečném místě pro případ, že ztratíte přístup ke svému zařízené. Tyto kódy nelze znovu zobrazit."
-
-#~ msgid "Manually enter this secret key into your authentication app:"
-#~ msgstr "Opište tento bezpečnostní kód do vaší aplikace:"
-
-#~ msgid "Your Firefox Account password"
-#~ msgstr "Heslo vašeho účtu Firefoxu"
-
-#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-#~ msgstr "Mělo by být originální a bezpečné &ndash; nepoužívejte toto heslo nikde jinde."
-
-#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
-#~ msgstr "Toto heslo si pamatujte &ndash; jeho obnova vymaže všechna vaše data z našich serverů."
-
-#~ msgid "Get App"
-#~ msgstr "Získat aplikaci"
-
-#~ msgid "Get the most out of your account"
-#~ msgstr "Využijte svůj účet naplno"
-
-#~ msgid "Sync these everywhere you sign in"
-#~ msgstr "Synchronizujte tyto položky napříč zařízeními"
-
-#~ msgid "Practical knowledge is coming to your inbox"
-#~ msgstr "Praktické rady do vaší e-mailové schránky"
-
-#~ msgid "Sign up for more:"
-#~ msgstr "Přihlaste se o více odběrům:"
-
-#~ msgid "Invite me to test new Mozilla products"
-#~ msgstr "Pozvěte mne k vyzkoušení nových produktů Mozilly"
-
-#~ msgid "One last step"
-#~ msgstr "Ještě poslední krok"
-
-#~ msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-#~ msgstr "Zkontrolujte svou schránku %(escapedEmail)s, zda jste obdrželi potvrzovací odkaz, a můžete začít."
-
-#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-#~ msgstr "Přihlaste se <span class=\"service\">do svého účtu Firefoxu</span>"
-
-#~ msgid "Create your Firefox account"
-#~ msgstr "Vytvořte si účet Firefoxu"
-
-#~ msgid "You did it! You’re signed in."
-#~ msgstr "Hotovo, jste přihlášeni!"
-
-#~ msgid "Now get Firefox everywhere else."
-#~ msgstr "Teď si můžete vzít Firefox všude s sebou."
-
-#~ msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-#~ msgstr "Přihlaste se do svých ostatních zařízení a získejte všechny produkty, znalosti a bezpečnostní funkce Firefoxu."
-
-#~ msgid "Get more from these features:"
-#~ msgstr "Získejte více z těchto funkcí:"
-
-#~ msgid "Travel the internet with protection, on every device."
-#~ msgstr "Prohlížejte internet bezpečně na každém svém zařízení."
-
-#~ msgid "Keep your passwords protected and portable."
-#~ msgstr "Mějte svá hesla chráněná a pořád s sebou."
-
-#~ msgid "Share large files without prying eyes."
-#~ msgstr "Sdílejte velké soubory bez toho, aby vám někdo koukal přes rameno."
-
-#~ msgid "Could not get Subscription Platform Terms of Service"
-#~ msgstr "Nepodařilo se získat podmínky používání služby pro předplatné"
-
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr ""
-#~ "Pokračováním souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">zásadami ochrany osobních "
-#~ "údajů</a>."
-
-#~ msgid "Subscription Platform Terms of Service"
-#~ msgstr "Podmínky používání služby pro předplatné"
-
-#~ msgid "Description of Issue"
-#~ msgstr "Popis problému"
-
-#~ msgid "Any subscriptions you have will be cancelled"
-#~ msgstr "Všechna předplatná, která máte, budou zrušena"
-
-#~ msgid "Expired or invalid code"
-#~ msgstr "Starý nebo neplatný kód"
-
-#~ msgid "Sync these everywhere you sign in:"
-#~ msgstr "Synchronizujte tyto položky všude, kde jste se přihlásili:"
-
-#~ msgid "Enable Sync"
-#~ msgstr "Zapnout synchronizaci"
-
-#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-#~ msgstr "Zadejte prosím ověřovací kód, který bude během 20 minut doručen na adresu %(escapedEmail)s."
-
-#~ msgid "Your message was sent to support"
-#~ msgstr "Vaše zpráva byla odeslána podpoře"
-
-#~ msgid "%(email)s registered."
-#~ msgstr "Adres %(email)s byla zaregistrována."
-
-#~ msgid "Communication preferences"
-#~ msgstr "Předvolby komunikace"
-
-#~ msgid "Manage Subscriptions"
-#~ msgstr "Spravovat odběry"
-
-#~ msgid "Refresh Status"
-#~ msgstr "Aktualizovat stav"
-
-#~ msgid "Approve connections <small>to begin syncing</small>"
-#~ msgstr "<small>Pro spuštění synchronizace</small> povolte připojení"
-
-#~ msgid "Approve connection"
-#~ msgstr "Povolit připojení"
-
-#~ msgid "Approve this connection <small>from this device</small>"
-#~ msgstr "Povolit připojení <small>tohoto zařízení</small>"
-
-#~ msgid "Use a different email address"
-#~ msgstr "Použít jinou e-mailovou adresu"
-
-#~ msgid "Sign in &rarr;"
-#~ msgstr "Přihlásit se &rarr;"
-
-#~ msgid "Attempting to pair"
-#~ msgstr "Pokud o spárování"
-
-#~ msgid "Error connecting to remote device"
-#~ msgstr "Při připojování ke vzdálenému zařízení nastala chyba"
-
-#~ msgid "Could not decrypt message from the remote device"
-#~ msgstr "Zprávu ze vzdáleného zařízení se nepodařilo dešifrovat"
-
-#~ msgid "Save settings"
-#~ msgstr "Uložit nastavení"
-
-#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr "Neznámý účet Firefoxu. Pro přístup k datům Doplňků se <a href=\"/signup\">zaregistrujte</a> pomocí e-mailové adresy předchozího účtu Doplňků."
-
-#~ msgid "App link resent to %(phoneNumber)s"
-#~ msgstr "Odkaz na aplikaci byl znovu odeslán na %(phoneNumber)s"
-
-#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-#~ msgstr "S laskavým svolením od <a href=\"https://www.gravatar.com\">Gravatar</a>"
-
-#~ msgid "Unsubscribed successfully"
-#~ msgstr "Odhlášení bylo úspěšné"
-
-#~ msgid "Email resent"
-#~ msgstr "E-mail znovu odeslán"
-
-#~ msgid "No Gravatar found"
-#~ msgstr "Ikonka nebyla nalezena"
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-#~ msgstr "Nechtěli jste spíše zadat <span tabindex=\"1\">%(escapedDomain)s</span>?"
-
-#~ msgid "Resources failed to load"
-#~ msgstr "Prostředek se nenačetl"
-
-#~ msgid "Unexpected resource error"
-#~ msgstr "Neočekávaná chyba prostředku"
-
-#~ msgid "Script error"
-#~ msgstr "Chyba ve skriptu"
-
-#~ msgid "SMS sent"
-#~ msgstr "SMS odeslána"
-
-#~ msgid "Your number has been blocked"
-#~ msgstr "Vaše telefonní číslo bylo zablokováno"
-
-#~ msgid "SMS not sent, please try again"
-#~ msgstr "SMS nebyla odeslána, zkuste to prosím znovu"
-
-#~ msgid "Learn more."
-#~ msgstr "Zjistit více."
-
-#~ msgid "%(email)s created"
-#~ msgstr "%(email)s vytvořeno"
-
-#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
-#~ msgstr "Doplňky a předvolby se momentálně nesynchronizují do mobilních zařízení."
-
-#~ msgid "Click here to receive a new reset link"
-#~ msgstr "Klepněte zde pro zaslání nového odkazu pro obnovení"
-
-#~ msgid "Enter new password"
-#~ msgstr "Vložte nové heslo"
-
-#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Jakmile zadáte své nové heslo, přijdete o data ve službě Sync, která nejsou uložena na žádném z vašich zařízení."
-
-#~ msgid "Learn how Sync works."
-#~ msgstr "Zjistěte, jak Sync funguje."
-
-#~ msgid "Submit new password"
-#~ msgstr "Vložte nové heslo"
-
-#~ msgid "Email Sent"
-#~ msgstr "E-mail odeslán"
-
-#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "Odkaz pro ověření byl odeslán na %(escapedEmail)s"
-
-#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-#~ msgstr "Abychom lépe chránili data vašeho Firefoxu, zaslali jsme vám potvrzovací odkaz na %(email)s"
-
-#~ msgid "Didn't arrive and not in spam folder? Resend"
-#~ msgstr "Nedorazil a není ve složce spam? Znovu odeslat"
-
-#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-#~ msgstr "Pro vytvoření nového hesla prosím během jedné hodiny klepněte na odkaz, který jsme vám poslali e-mailem na adresu %(email)s."
-
-#~ msgid "This device is connected"
-#~ msgstr "Toto zařízení je připojeno"
-
-#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
-#~ msgstr "Pro dokončení nastavení otevřete nastavení a vyberte Přihlásit se k Firefoxu"
-
-#~ msgid "Why is this required?"
-#~ msgstr "Proč je to vyžadováno?"
-
-#~ msgid "Cookies and local storage are required."
-#~ msgstr "Požadovány cookies a local storage."
-
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "Pokračování souhlasíte s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Zásadami ochrany osobních údajů</"
-#~ "a> cloudových služeb Firefoxu."
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Cloudové služby Firefoxu"
-
-#~ msgid "Proceed"
-#~ msgstr "Pokračovat"
-
-#~ msgid "Reset account"
-#~ msgstr "Obnovit účet"
-
-#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Pokud obnovíte své heslo, přijdete o data ve službě Sync, která nejsou uložena na žádném z vašich zařízení."
-
-#~ msgid "Remember password? Sign in."
-#~ msgstr "Pamatujete si své heslo? Přihlaste se."
-
-#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Hledáte data Doplňků? <a href=\"/signup\">Zaregistrujte si</a> účet Firefoxu pomocí e-mailové adresy bývalého účtu Doplňků."
-
-#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-#~ msgstr "Přesuňte svá synchronizovaná data přihlášením k vašemu účtu&nbsp;Firefoxu."
-
-#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-#~ msgstr "Abychom mohli lépe chránit vaše data z Firefoxu, poslali jsme vám na e-mail %(email)s autorizační kód."
-
-#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-#~ msgstr "Hledáte Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Začněte zde</a>"
-
-#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-#~ msgstr "Přesuňte svá synchronizovaná data vytvořením nového účtu&nbsp;Firefoxu."
-
-#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Hledáte data Doplňků? Zaregistrujte si účet Firefoxu pomocí e-mailové adresy bývalého účtu Doplňků."
-
-#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
-#~ msgstr "Silné a jedinečné heslo, které bude chránit vaše data vašeho Firefoxu před vetřelci."
-
-#~ msgid "Receive the monthly Firefox newsletter"
-#~ msgstr "Zasílat měsíční zpravodaj Firefoxu"
-
-#~ msgid ""
-#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr ""
-#~ "SMS služba je dostupná pouze pro telefonní čísla v USA. SMS &amp; datové služby mohou být zpoplatněny. Zamýšlený příjemce e-mailu nebo SMS musí se zasíláním souhlasit. <a "
-#~ "%(escapedLearnMoreAttributes)s>Zjistěte více</a>"
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-#~ msgstr "Odkaz na aplikaci byl odeslán na %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Špatné číslo?</a>"
-
-#~ msgid "Why Sync two (or more!) devices?"
-#~ msgstr "Proč synchronizovat dvě (nebo i více!) zařízení?"
-
-#~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
-#~ msgstr ""
-#~ "Díky službě Sync sdílet hesla, záložky a historii, které vytvoříte ve Firefoxu na jednom zařízení, s Firefoxem na všech ostatních zařízeních. Přihlaste se ke službě Firefox Sync na svém telefonu "
-#~ "nebo tabletu, a hned uvidíte vše, co jste si uložili ve Firefoxu na svém počítači."
-
-#~ msgid ""
-#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr ""
-#~ "Sync není určen k trvalému zálohování – pouze pomáhá sdílet to, co je uloženo lokálně. Pokud obnovíte své heslo a vaše data nebudou uložena ani na jednom zařízení, mohli byste ztratit všechny "
-#~ "informace, které jsou spojeny se starým heslem. Proto byste možná mohli chtít nainstalovat Firefox a používat Sync na více než jednom zařízení."
-
-#~ msgid "Gravatar"
-#~ msgstr "Gravatar"
-
-#~ msgid "Save"
-#~ msgstr "Uložit"
-
-#~ msgid "current device"
-#~ msgstr "aktuální zařízení"
-
-#~ msgid "current session"
-#~ msgstr "aktuální relace"
-
-#~ msgid "none connected"
-#~ msgstr "nic nepřipojeno"
-
-#~ msgid "Receive the monthly Firefox newsletter."
-#~ msgstr "Zasílat měsíční zpravodaj Firefoxu."
-
-#~ msgid "Unsubscribe"
-#~ msgstr "Odhlásit"
-
-#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
-#~ msgstr "Opravdu chcete smazat svůj účet? Toto již nelze vrátit zpět."
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "Přihlášení k Sync"
-
-#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-#~ msgstr "Vyberte účet, který byste rádi použili pro synchronizaci vašich panelů, záložek, hesel a dalších dat."
-
-#~ msgid "Use OpenID"
-#~ msgstr "Použít OpenID"
-
-#~ msgid "Use Firefox Account"
-#~ msgstr "Použít účet Firefoxu"
-
-#~ msgid "first sync %(translatedTimeAgo)s"
-#~ msgstr "poprvé synchronizováno %(translatedTimeAgo)s"
-
-#~ msgid "last sync %(translatedTimeAgo)s"
-#~ msgstr "naposledy synchronizováno %(translatedTimeAgo)s"
-
-#~ msgid "last active %(translatedTimeAgo)s"
-#~ msgstr "naposledy aktivní: %(translatedTimeAgo)s"
-
-#~ msgid "last sync time unknown"
-#~ msgstr "čas poslední synchronizace neznámý"
-
-#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-#~ msgstr "Účet %(escapedEmail)s byl zaregistrován. <a %(escapedBackLinkParams)s>Chybný e-mail?</a>"
-
-#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-#~ msgstr "Zkontrolujte potvrzovací odkaz, který jsme poslali na %(email)s"
-
-#~ msgid "Signin confirmed"
-#~ msgstr "Přihlášení potvrzeno"
-
-#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-#~ msgstr "Upozornění budou nyní posílána také na %(secondaryEmailVerified)s"
-
-#~ msgid "We may send you emails related to your Firefox Account."
-#~ msgstr "Můžeme Vám posílat e-maily týkající se Vašeho Firefox účtu."
-
-#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-#~ msgstr "Kromě toho můžete zvolit, zda chcete dostávat novinky tákající se Mozilly a Firefoxu."
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-#~ msgstr "Záložní e-mailová adresa slouží pro zasílání bezpečnostních upozornění a potvrzování nových zařízení pro synchronizaci."
-
-#~ msgid "Not in inbox or spam folder? Resend?"
-#~ msgstr "Žádný email jste neobdrželi? Přejete si, abychom vám email poslali znovu?"
-
-#~ msgid "Codes copied"
-#~ msgstr "Kódy zkopírovány"
-
-#~ msgid "Failed to copy codes. Please manually copy them."
-#~ msgstr "Kódy se nepodařilo zkopírovat. Zkopírujte je prosím ručně."
-
-#~ msgid "Invalid sign-in verification code"
-#~ msgstr "Neplatný ověřovací kód přihlášení"
-
-#~ msgid "Print button image"
-#~ msgstr "Vytisknout obrázek"
-
-#~ msgid "Download button image"
-#~ msgstr "Stáhnout jako obrázek"
-
-#~ msgctxt "submit button"
-#~ msgid "Sign in"
-#~ msgstr "Přihlásit se"
-
-#~ msgctxt "header text"
-#~ msgid "Sign in"
-#~ msgstr "Přihlášení"
-
-#~ msgctxt "button text"
-#~ msgid "Sign in"
-#~ msgstr "Přihlásit se"
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
-#~ msgstr ""
-#~ "<span>PAMATUJTE:</span> Pokud obnovíte heslo, některá data mohou být nenávratně smazána (včetně dat synchronizovaných na serveru, jako například historie nebo záložky). To je způsobeno tím, že v "
-#~ "zájmu vaší bezpečnosti tato data šifrujeme vaším heslem."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
-#~ msgstr ""
-#~ "<span>POZNÁMKA:</span> Pokud obnovíte heslo, některá data budou nenávratně smazána (včetně dat synchronizovaných na serveru, jako například historie nebo záložky). To je způsobeno tím, že v "
-#~ "zájmu vaší bezpečnosti tato data šifrujeme vaším heslem."
-
-#~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-#~ msgstr "Zvyšte zabezpečení svého účtu přidáním další bezpečnostní vrstvy. Při přihlášení budou požadovány jednorázové kódy z <a %(escapedTotpSupportAttributes)s>těchto bezpečnostních aplikací</a>."
-
-#~ msgid ""
-#~ "\n"
-#~ "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "                Tyto kódy uvidíte jenom jednou a každý můžete použít jenom jednou. Bezpečně si je uložte pro případ, že ztratíte přístup ke svému mobilnímu zařízení.\n"
-#~ "            "
-
-#~ msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-#~ msgstr "Zvyšte zabezpečení svého účtu přidáním bezpečnostních kódů generovaných jednou z těchto ověřovacích aplikací."
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-#~ msgstr "Záložní e-mailová adresa slouží pro zasílání bezpečnostních upozornění a potvrzování nových zařízení pro synchronizaci"
-
-#~ msgid "Unlock…"
-#~ msgstr "Odemknout…"
-
-#~ msgid "verify to unlock section"
-#~ msgstr "pro odemčení sekce proveďte ověření"
-
-#~ msgid "Enter 8-digit recovery code"
-#~ msgstr "Zadejte osmimístný obnovovací kód"
-
-#~ msgid "Reverify to unlock section"
-#~ msgstr "Pro odemčení sekce se znovu přihlaste"
-
-#~ msgid "over %(translatedTimeAgo)s"
-#~ msgstr "před více než %(translatedTimeAgo)s"
-
-#~ msgid "last sync over %(translatedTimeAgo)s"
-#~ msgstr "naposledy synchronizováno před více než %(translatedTimeAgo)s"
-
-#~ msgid "last active over %(translatedTimeAgo)s"
-#~ msgstr "naposledy aktivní před více než %(translatedTimeAgo)s"
-
-#~ msgid "Verify password"
-#~ msgstr "Ověřit heslo"
-
-#~ msgid "Next"
-#~ msgstr "Další"
-
-#~ msgid "started syncing %(translatedTimeAgo)s"
-#~ msgstr "začátek synchronizace: %(translatedTimeAgo)s"
-
-#~ msgid "Didn't arrive and not in spam folder? Resend?"
-#~ msgstr "Nedorazil a není ve složce spam? Znovu odeslat?"
-
-#~ msgid "A verification link has been sent to %(email)s"
-#~ msgstr "Odkaz pro ověření byl odeslán na %(email)s"
-
-#~ msgid "Verification emailed to %(email)s"
-#~ msgstr "Ověření bylo odesláno na %(email)s"
-
-#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
-#~ msgstr "Nejméně 8 znaků; delší pokud plánujete synchronizovat hesla."
-
-#~ msgid "This is a common password; please consider another one."
-#~ msgstr "Toto je běžné heslo, zvažte použití jiného."
-
-#~ msgid "Signed out successfully"
-#~ msgstr "Odhlášení bylo úspěšné"
-
-#~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-#~ msgstr "Heslo není platné. Pro kontrolu toho, co jste napsali, stiskněte a podržte tlačítko Zobrazit."
-
-#~ msgid "Duplicate Device"
-#~ msgstr "Duplicitní zařízení"
-
-#~ msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-#~ msgstr "Dokončete nastavení instalací Firefoxu za použití odkazu odeslaného na %(phoneNumber)s"
-
-#~ msgid "Didn’t arrive? Resend"
-#~ msgstr "Nedorazilo? Odeslat znovu"
-
-#~ msgid "Reason for disconnecting…"
-#~ msgstr "Důvod odpojení…"
-
-#~ msgid "Forgot password"
-#~ msgstr "Zapomněl jsem heslo"
-
-#~ msgid "Firefox Sync will begin momentarily"
-#~ msgstr "Firefox Sync za chvíli začne synchronizovat"
-
-#~ msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-#~ msgstr "Máte účet s jinou e-mailovou adresou? <a href=\"%(escapedSignInUri)s\">Přihlaste se</a>"
-
-#~ msgid "Devices"
-#~ msgstr "Zařízení"
-
-#~ msgid "Stay in sync on the go:"
-#~ msgstr "Buďte synchronizovaní i na cestách:"
-
-#~ msgid "Get Firefox for Android"
-#~ msgstr "Získejte Firefox pro Android"
-
-#~ msgid "You can manage your devices below."
-#~ msgstr "Níže můžete spravovat svá zařízení."
-
-#~ msgid "You can manage your devices and apps below."
-#~ msgstr "Svá zařízení a aplikace můžete spravovat níže."
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-#~ msgstr "Nemáte na mysli <span tabindex=\"1\">%(domain)s</span>?"
-
-#~ msgid "A verification link has been sent&nbsp;to %(email)s"
-#~ msgstr "Odkaz pro ověření byl odeslán na e-mail %(email)s"
-
-#~ msgid "Sync preferences"
-#~ msgstr "Předvolby Sync"
-
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Hledáte Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Začněte zde</a>"
-
-#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-#~ msgstr "Máte účet s jinou e-mailovou adresou? <a href=\"%(signinUri)s\">Přihlaste se</a>"
-
-#~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox je k dispozici pro <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> a <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-
-#~ msgid "Last active: %(translatedTimeAgo)s"
-#~ msgstr "Naposledy aktivní: %(translatedTimeAgo)s"
-
-#~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-#~ msgstr "Toto je poměrně běžné heslo, použijete prosím jiné. %(moreInfoLink)s"
-
-#~ msgid "Create secure passwords to keep your identity safe"
-#~ msgstr "Abyste ochránili svou identitu, vytvořte si bezpečné heslo"
-
-#~ msgid "Reason for disconnecting&hellip;"
-#~ msgstr "Důvod odpojení&hellip;"
-
-#~ msgid "Disconnect&hellip;"
-#~ msgstr "Odpojit &hellip;"
-
-#~ msgid "Delete"
-#~ msgstr "Smazat"
-
-#~ msgid "Attempt limit exceeded"
-#~ msgstr "Počet pokusů překročen"
-
-#~ msgid "Tabs"
-#~ msgstr "Panely"
-
-#~ msgid "Last active: days ago"
-#~ msgstr "Naposledy aktivní: před několika dny"
-
-#~ msgid "Last active: hours ago"
-#~ msgstr "Naposledy aktivní: před několika hodinami"
-
-#~ msgid "Last active: minutes ago"
-#~ msgstr "Naposledy aktivní: před několika minutami"
-
-#~ msgid "Last active: months ago"
-#~ msgstr "Naposledy aktivní: před několika měsíci"
-
-#~ msgid "Last active: seconds ago"
-#~ msgstr "Naposledy aktivní: před několika sekundami"
-
-#~ msgid "Last active: weeks ago"
-#~ msgstr "Naposledy aktivní: před několika týdny"
-
-#~ msgid "Last active: years ago"
-#~ msgstr "Naposledy aktivní: před několika lety"
-
-#~ msgid "Resend email"
-#~ msgstr "Odeslat e-mail znovu"
-
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-#~ msgstr "Hledáte Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Začněte zde.</a>"
-
-#~ msgid "Send me the monthly Firefox newsletter."
-#~ msgstr "Zasílejte mi měsíční zpravodaj Firefoxu."
-
-#~ msgid "Have an account? Sign in."
-#~ msgstr "Máte již účet? Přihlaste se."
-
-#~ msgid "Don't see all your devices?"
-#~ msgstr "Nevidíte všechna svá zařízení?"
-
-#~ msgid "days ago"
-#~ msgstr "před několika dny"
-
-#~ msgid "hours ago"
-#~ msgstr "před několika hodinami"
-
-#~ msgid "minutes ago"
-#~ msgstr "před několika minutami"
-
-#~ msgid "months ago"
-#~ msgstr "před několika měsíci"
-
-#~ msgid "seconds ago"
-#~ msgstr "před pár vteřinami"
-
-#~ msgid "weeks ago"
-#~ msgstr "před několika týdny"
-
-#~ msgid "years ago"
-#~ msgstr "před několika roky"
-
-#~ msgid "Account unlocked, please try again"
-#~ msgstr "Účet odemčen, zkuste to prosím znovu"
-
-#~ msgid "Account unlocked"
-#~ msgstr "Účet odemčen"
-
-#~ msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-#~ msgstr "Účet zamčen. <a href=\"/confirm_account_unlock\">Zaslat e-mail pro odemčení</a>"
-
-#~ msgid "Unlock link expired"
-#~ msgstr "Odkaz pro odemčení již expiroval"
-
-#~ msgid "Unlock link damaged"
-#~ msgstr "Odkaz pro odemčení je poškozený"
-
-#~ msgid "Unlock error"
-#~ msgstr "Chyba odemčení"
-
-#~ msgid "Unlock email sent"
-#~ msgstr "E-mail pro odemčení byl odeslán"
-
-#~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-#~ msgstr "Z bezpečnostních důvodů byl váš účet uzamčen. Pro pokračování prosím znovu ověřte svůj účet klepnutím na odkaz zaslaný na %(email)s"
-
-#~ msgid "Signup has been disabled"
-#~ msgstr "Přihlašování bylo zakázáno"
-
-#~ msgid "Confirm new sign-in to Firefox"
-#~ msgstr "Potvrzení nového přihlášení k Firefoxu"
-
-#~ msgid "You signed in to Firefox from %(device)s, %(location)s."
-#~ msgstr "Přihlásili jste se k Firefoxu ze zařízení %(device)s, %(location)s."
-
-#~ msgid "You signed in to Firefox from %(device)s."
-#~ msgstr "Přihlásili jste se k Firefoxu ze zařízení %(device)s."
-
-#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
-#~ msgstr "Pro lepší zabezpečení prosím před začátkem synchronizace zařízení %(device)s toto přihlášení potvrďte."
-
-#~ msgid "Alternatively:"
-#~ msgstr "Alternativně:"
-
-#~ msgid "This is an automated email; if you received it in error, no action is required."
-#~ msgstr "Toto je automaticky zaslaný e-mail - pokud vám byl doručen omylem, můžete jej ignorovat."
-
-#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
-#~ msgstr "Pro více informací navštivte stránky <a %(supportLinkAttributes)s>Podpory Mozilly</a>"
-
-#~ msgid "Verify Email"
-#~ msgstr "Ověřit e-mail"
-
-#~ msgid "Verify your email to finish your Firefox Account sign-in"
-#~ msgstr "Pro přihlášení k účtu Firefox Account prosím ověřte svůj e-mail"
-
-#~ msgid "(current)"
-#~ msgstr "(současné)"
-
-#~ msgid "Welcome to Sync"
-#~ msgstr "Vítejte ve službě Sync"
-
-#~ msgid "Invalid data-flow-begin attribute"
-#~ msgstr "Neplatný atribut data-flow-begin"
-
-#~ msgid "Home"
-#~ msgstr "Domů"
-
-#~ msgid "Missing parameter in request body: %(param)s"
-#~ msgstr "Chybějící parametr v těle požadavku: %(param)s"
-
-#~ msgid "Sign up"
-#~ msgstr "Přihlásit se"
-
-#~ msgid "/force_auth requires an email"
-#~ msgstr "/force_auth vyžaduje e-mail"
-
-#~ msgid "A reset link has been sent to %(email)s"
-#~ msgstr "Odkaz pro obnovu byl odeslán na e-mail: %(email)s"
-
-#~ msgid "Are you sure you want to reset your account password?"
-#~ msgstr "Opravdu chcete obnovit heslo vašeho účtu?"
-
-#~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr "Obnovením vašeho hesla dojde ke smazání vašich dat o prohlížení z našich serverů. Data na vašich zařízeních ovlivněna nijak nebudou. Pro obnovení zadejte níže váš e-mail."
-
-#~ msgid "a day"
-#~ msgstr "jeden den"
-
-#~ msgid "%d days"
-#~ msgstr "%d dnů"
-
-#~ msgid "about an hour"
-#~ msgstr "asi hodinu"
-
-#~ msgid "%d hours"
-#~ msgstr "%d hodin"
-
-#~ msgid "about a minute"
-#~ msgstr "asi minutu"
-
-#~ msgid "%d minutes"
-#~ msgstr "%d minut"
-
-#~ msgid "about a month"
-#~ msgstr "asi měsíc"
-
-#~ msgid "%d months"
-#~ msgstr "%d měsíců"
-
-#~ msgid "a few seconds"
-#~ msgstr "několik sekund"
-
-#~ msgid "ago"
-#~ msgstr "před"
-
-#~ msgid "from now"
-#~ msgstr "od této chvíle"
-
-#~ msgid "about a year"
-#~ msgstr "asi rok"
-
-#~ msgid "%d years"
-#~ msgstr "%d let"
-
-#~ msgid "Age is required"
-#~ msgstr "Věk je povinný"
-
-#~ msgid "Desktop Add-ons"
-#~ msgstr "Doplňky pro desktop"
-
-#~ msgid "Desktop Preferences"
-#~ msgstr "Předvolby pro desktop"
-
-#~ msgid "Cookies required"
-#~ msgstr "Jsou vyžadovány cookies"
-
-#~ msgid ""
-#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
-#~ "sessions."
-#~ msgstr ""
-#~ "Povolte prosím ukládání cookies ve vašem prohlížeči pro používání Firefox Accounts. Cookies jsou velmi malá data uložená ve vašem prohlížeči, která umožňují například zapamatování si vás jako "
-#~ "uživatele mezi jednotlivými relacemi."
-
-#~ msgid "Firefox is coming soon to iOS!"
-#~ msgstr "Firefox přichází na iOS!"
-
-#~ msgid "Sign up to learn more"
-#~ msgstr "Přihlaste se pro více informací"
-
-#~ msgid "1991"
-#~ msgstr "1991"
-
-#~ msgid "1992"
-#~ msgstr "1992"
-
-#~ msgid "1993"
-#~ msgstr "1993"
-
-#~ msgid "1994"
-#~ msgstr "1994"
-
-#~ msgid "1995"
-#~ msgstr "1995"
-
-#~ msgid "1996"
-#~ msgstr "1996"
-
-#~ msgid "1997"
-#~ msgstr "1997"
-
-#~ msgid "1998"
-#~ msgstr "1998"
-
-#~ msgid "1999"
-#~ msgstr "1999"
-
-#~ msgid "2000"
-#~ msgstr "2000"
-
-#~ msgid "2001"
-#~ msgstr "2001"
-
-#~ msgid "2002"
-#~ msgstr "2002"
-
-#~ msgid "2003"
-#~ msgstr "2003"
-
-#~ msgid "2004"
-#~ msgstr "2004"
-
-#~ msgid "2005"
-#~ msgstr "2005"
-
-#~ msgid "2006"
-#~ msgstr "2006"
-
-#~ msgid "2007"
-#~ msgstr "2007"
-
-#~ msgid "Year of birth required"
-#~ msgstr "Je požadován rok narození"
-
-#~ msgid "Valid birthday required"
-#~ msgstr "Je požadováno platné datum narození"
-
-#~ msgid "Choose What to Sync"
-#~ msgstr "Vyberte, co chcete synchronizovat"
-
-#~ msgid "Year of birth"
-#~ msgstr "Rok narození"
-
-#~ msgid "1990 or earlier"
-#~ msgstr "1990 nebo dříve"
-
-#~ msgid "Month"
-#~ msgstr "Měsíc"
-
-#~ msgid "January"
-#~ msgstr "Leden"
-
-#~ msgid "February"
-#~ msgstr "Únor"
-
-#~ msgid "March"
-#~ msgstr "Březen"
-
-#~ msgid "April"
-#~ msgstr "Duben"
-
-#~ msgid "May"
-#~ msgstr "Květen"
-
-#~ msgid "June"
-#~ msgstr "Červen"
-
-#~ msgid "July"
-#~ msgstr "Červenec"
-
-#~ msgid "August"
-#~ msgstr "Srpen"
-
-#~ msgid "September"
-#~ msgstr "Září"
-
-#~ msgid "October"
-#~ msgstr "Říjen"
-
-#~ msgid "November"
-#~ msgstr "Listopad"
-
-#~ msgid "December"
-#~ msgstr "Prosinec"
-
-#~ msgid "Day"
-#~ msgstr "Den"
-
-#~ msgid "Manage account"
-#~ msgstr "Správa účtu"
-
-#~ msgid "Hello, <span>%(username)s</span>"
-#~ msgstr "Vítejte <span>%(username)s</span>"
-
-#~ msgid "Edit profile"
-#~ msgstr "Upravit profil"
-
-#~ msgid "Name"
-#~ msgstr "Jméno"
-
-#~ msgid "Enter your email to reset&nbsp;the account password."
-#~ msgstr "Pro obnovu svého hesla účtu vlože váš e-mail."
-
-#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr "Z bezpečnostních důvodů obnovení hesla vymaže data synchronizace z našich serverů. Bude vytvořena nová záloha Sync na základě vašich lokálních dat o prohlížení."
-
-#~ msgid "You are signed in as"
-#~ msgstr "Jste přihlášeni jako"
-
-#~ msgid "Already have an account? Sign in."
-#~ msgstr "Máte již účet? Přihlaste se."
-
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
-#~ msgstr ""
-#~ "Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmínkami služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami o ochraně osobních údajů</a> %(serviceName)s "
-#~ "(%(serviceUri)s)."
-
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "Pokračováním souhlasím s <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Podmínkami služby</a> a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Zásadami o ochraně osobních "
-#~ "údajů</a> služeb Firefox cloud."
-
-#~ msgid "Subscribe to Firefox news and tips"
-#~ msgstr "Přihlaste se k odběru novinek a tipů k Firefoxu"
-
-#~ msgid "%(serviceName)s would like to know…"
-#~ msgstr "%(serviceName)s by se rád dozvěděl…"
-
-#~ msgid "missing search parameter: %(itemName)s"
-#~ msgstr "chybějící parametr vyhledávání: %(itemName)s"
-
-#~ msgid "Once you're ﬁnished, use your new password to sign in on all of your devices."
-#~ msgstr "Jakmile budete hotovi, použijte své nové heslo pro přihlášení na všech svých zařízeních."
-
-#~ msgid "Illegal iframe"
-#~ msgstr "Ilegální iframe"
-
-#~ msgid "Password changed"
-#~ msgstr "Heslo změněno"
-
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
-#~ msgstr "Neověřený účet. <a href=\"#\" id=\"resend\">Zaslat znovu ověřovací e-mail</a>."
-
-#~ msgid "Password reset. Sign in to continue."
-#~ msgstr "Obnovení hesla. Pro pokračování se přihlaste."
-
-#~ msgid "Signed out"
-#~ msgstr "Odhlášení"
-
-#~ msgid "Your verification email was just returned. Mistyped email? <a href=\"/signup\">Start over.</a>"
-#~ msgstr "Váš e-mail pro ověření se právě vrátil zpět. Špatně zadaný e-mail? <a href=\"/signup\">Začít znovu</a>."
-
-#~ msgid "Paste image URL"
-#~ msgstr "Vložit URL obrázku"
-
-#~ msgid "Invalid password"
-#~ msgstr "Neplatné heslo"
-
-#~ msgid "Invalid email and password"
-#~ msgstr "Neplatný e-mail a heslo"
-
-#~ msgid "Invalid email or password"
-#~ msgstr "Neplatný e-mail nebo heslo"
-
-#~ msgid "Old password invalid"
-#~ msgstr "Staré heslo je neplatné"
-
-#~ msgid "New password invalid"
-#~ msgstr "Nové heslo je neplatné"
-
-#~ msgid "Passwords don't match"
-#~ msgstr "Hesla se neshodují"
-
-#~ msgid "Please enter an email"
-#~ msgstr "Zadejte prosím e-mail"
-
-#~ msgid "Cannot connect to the internet"
-#~ msgstr "Nelze se připojit k internetu"
-
-#~ msgid "URL"
-#~ msgstr "URL"
-
-#~ msgid "Signed in successfully"
-#~ msgstr "Přihlášení proběhlo úspěšně"
-
-#~ msgid "Create a Firefox Account for %(serviceName)s"
-#~ msgstr "Vytvoření Firefox Account pro %(serviceName)s"
-
-#~ msgid "Change Password"
-#~ msgstr "Změnit heslo"
-
-#~ msgid "Invalid authentication token in request signature"
-#~ msgstr "Neplatný ověřovací token v podpisu požadavku"
-
-#~ msgid "No token specified"
-#~ msgstr "Nespecifikovaný token"
-
-#~ msgid "No code specified"
-#~ msgstr "Nespecifikovaný kód"
-
-#~ msgid "No email specified"
-#~ msgstr "Nezadaný e-mail"
-
-#~ msgid "No uid specified"
-#~ msgstr "Nespecifikováno uid"
-
-#~ msgid "Service unavailable"
-#~ msgstr "Služba je nedostupná"
-
-#~ msgid "Completing sign up"
-#~ msgstr "Dokončení přihlášení"
-
-#~ msgid "Client has sent too many requests"
-#~ msgstr "Klient odeslal příliš mnoho požadavků"
-
-#~ msgid "Delete Account"
-#~ msgstr "Smazat účet"
+msgstr ""
+"Použili jste systémový fotoaparát? Párování je potřeba zahájit z Firefoxu."

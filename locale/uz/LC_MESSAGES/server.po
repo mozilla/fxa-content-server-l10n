@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 05:57+0000\n"
 "PO-Revision-Date: 2018-05-29 00:15+0000\n"
 "Last-Translator: akmalxster <akmalxster@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,8 +14,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
-#: server/templates/pages/src/privacy.html:1 server/templates/pages/src/terms.html:1 server/templates/pages/src/update_firefox.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1
+#: server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1
+#: server/templates/pages/src/index.html:1
+#: server/templates/pages/src/privacy.html:1
+#: server/templates/pages/src/terms.html:1
+#: server/templates/pages/src/update_firefox.html:1
 msgid "Firefox Accounts"
 msgstr "Firefox Hisoblari"
 
@@ -29,7 +33,8 @@ msgid ""
 "          will fix any links that may be broken."
 msgstr ""
 
-#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
+#: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4
+#: server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
 msgstr ""
 
@@ -65,11 +70,13 @@ msgstr ""
 msgid "Firefox Accounts requires JavaScript."
 msgstr ""
 
-#: server/templates/pages/src/privacy.html:2 server/templates/pages/src/privacy.html:3
+#: server/templates/pages/src/privacy.html:2
+#: server/templates/pages/src/privacy.html:3
 msgid "Privacy Notice"
 msgstr ""
 
-#: server/templates/pages/src/terms.html:2 server/templates/pages/src/terms.html:3
+#: server/templates/pages/src/terms.html:2
+#: server/templates/pages/src/terms.html:3
 msgid "Terms of Service"
 msgstr ""
 
@@ -81,28 +88,11 @@ msgstr ""
 msgid ""
 "Firefox Accounts makes use of features that are\n"
 "                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
+"                        download and install the latest version of Firefox "
+"to\n"
 "                        continue."
 msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr ""
-
-#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-#~ msgstr "Batafsil ma’lumot olish uchun <a %(supportLinkAttributes)s>Mozilla yordami</a> sahifasiga kiring."
-
-#~ msgid "IP address: %(ip)s"
-#~ msgstr "IP manzil: %(ip)s"
-
-#~ msgid "Mozilla Privacy Policy"
-#~ msgstr "Mozilla maxfiylik siyosati"
-
-#~ msgid "Connect another device"
-#~ msgstr "Boshqa qurilmani ulash"
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "Sinxronizatsiyalash uchun hisobingizga kiring"
-
-#~ msgid "This is an automated email."
-#~ msgstr "Bu avtomatik yuboriladigan xat."
