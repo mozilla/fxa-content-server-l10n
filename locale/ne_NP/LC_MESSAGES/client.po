@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 06:12+0000\n"
 "PO-Revision-Date: 2022-04-27 00:19+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1864,10 +1864,14 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr ""
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -2045,117 +2049,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "प्राथमिक इमेल प्रमाणित भयो"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "माध्यमिक इमेल प्रमाणित गरियो"
-
-#~ msgid "Account verified"
-#~ msgstr "खाता प्रमाणित गरियो"
-
-#~ msgid "Logins and Passwords"
-#~ msgstr "लगइनहरू र पासवर्डहरू"
-
-#~ msgid "Got it"
-#~ msgstr "बुझेँ"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "पासवर्ड सफलतापूर्वक परिवर्तन भयो"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "यस बारेमा सुन्न हामी क्षमा प्रार्थी छौं। तपाईंले आफ्नो फायरफक्स खाता पासवर्ड परिवर्तन गर्नुपर्दछ, र तपाईंको डाटा निर्माताबाट जानकारीलाई टाढाको डाटा मेटाउनको लागि खोज्नुहोस् ।"
-
-#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "यस बारेमा सुन्न हामी क्षमा प्राथी र्छौं। वास्तवमा यदि यो तपाइले विश्वास नगर्नुहुने यन्त्र थियो भने, तपाइँले तपाइँको Firefox खाताको पासवर्ड परिवर्तन गर्नुपर्छ, र Firefox मा सुरक्षित गरिएका पासवर्डहरू परिवर्तन गर्नुपर्छ।"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "पछिल्लो सक्रियता %(translatedTimeAgo)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s"
-#~ msgstr "पछ्छिल्लो सक्रियता %(translatedTimeAgo)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "पछ्छिल्लो सक्रियता %(translatedTimeAgo)s बजे %(translatedCountry)s मा"
-
-#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "पछ्छिल्लो सक्रियता %(translatedCity)s, %(translatedState)s, %(translatedCountry)s निर "
-
-#~ msgid "Web Session"
-#~ msgstr "वेब सत्र"
-
-#~ msgid "Change…"
-#~ msgstr "परिवर्तन गर्नुहोस्…"
-
-#~ msgid "Add…"
-#~ msgstr "थप्नुहोस्…"
-
-#~ msgid "Display name updated"
-#~ msgstr "प्रदर्शन नाम अद्यावधि गरियो"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "दोस्रो इमेल हटाइयो"
-
-#~ msgid "Verification email sent"
-#~ msgstr "प्रमाणिकरण इमेल पठाइयो"
-
-#~ msgid "Primary email set to %(email)s"
-#~ msgstr "प्राथमिक इमेल %(email)s निर्धारण गरिएको छ"
-
-#~ msgid "Take picture"
-#~ msgstr "तस्विर खिच्नुहोस्"
-
-#~ msgid "Upload"
-#~ msgstr "अपलोड गर्नुहोस्"
-
-#~ msgid "Camera"
-#~ msgstr "क्यामरा"
-
-#~ msgid "Clear"
-#~ msgstr "खाली गर्नुहोस्"
-
-#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-#~ msgstr "खाताको पहिलेनै अस्तित्व छ। <a href=\"/signin\">साइन इन</a>"
-
-#~ msgid "Last sync %(translatedTimeAgo)s"
-#~ msgstr "अन्तिम समन्वयन %(translatedTimeAgo)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s"
-#~ msgstr "अन्तिम समिकरण %(translatedTimeAgo)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "अन्तिम समन्वयन %(translatedCountry)s मा %(translatedTimeAgo)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "अन्तिम समिकरण %(translatedCountry)s मा %(translatedTimeAgo)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "अन्तिम समिकरण‍ %(translatedCity)s, %(translatedState)s, %(translatedCountry)s निर %(translatedTimeAgo)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "अन्तिम समिकरण %(translatedCity)s, %(translatedState)s, %(translatedCountry)s निर %(translatedTimeAgo)s"
-
-#~ msgid "Last sync time unknown"
-#~ msgstr "अन्तिम सिङ्क समय अज्ञात"
-
-#~ msgid "Subscribed successfully"
-#~ msgstr "सफलतापूर्वक सदस्यता लिइयो"
-
-#~ msgid "Open tabs"
-#~ msgstr "खुला ट्याबहरू"
-
-#~ msgid "Logins"
-#~ msgstr "लगइनहरू"
-
-#~ msgid "Credit cards"
-#~ msgstr "क्रेडिट कार्डहरू"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox Sync"
-
-#~ msgid "Enter code"
-#~ msgstr "कोड प्रविष्टि गर्नुहोस्"
-
-#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr "अज्ञात फायरफक्स खाता।तपाईको एड-अनको डेटा पहुँच गर्नका लागि आफ्नो अघिल्लो एड-अन खाताको इ-मेल ठेगाना प्रयोग गरी <a href=\"/signup\">साइन अप</a> गर्नुहोस्।"

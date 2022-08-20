@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 06:12+0000\n"
 "PO-Revision-Date: 2018-05-29 00:15+0000\n"
 "Last-Translator: akmalxster <akmalxster@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,21 +88,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr ""
-
-#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>."
-#~ msgstr "Batafsil ma’lumot olish uchun <a %(supportLinkAttributes)s>Mozilla yordami</a> sahifasiga kiring."
-
-#~ msgid "IP address: %(ip)s"
-#~ msgstr "IP manzil: %(ip)s"
-
-#~ msgid "Mozilla Privacy Policy"
-#~ msgstr "Mozilla maxfiylik siyosati"
-
-#~ msgid "Connect another device"
-#~ msgstr "Boshqa qurilmani ulash"
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "Sinxronizatsiyalash uchun hisobingizga kiring"
-
-#~ msgid "This is an automated email."
-#~ msgstr "Bu avtomatik yuboriladigan xat."

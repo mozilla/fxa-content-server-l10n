@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 06:12+0000\n"
 "PO-Revision-Date: 2020-10-19 05:37+0000\n"
 "Last-Translator: Sophat <sophatchy@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1864,10 +1864,14 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr ""
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -2045,90 +2049,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "អ៊ីមែល​ចម្បង​បាន​ផ្ទៀងផ្ទាត់"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "អ៊ីមែល​បន្ទាប់បន្សំ​ត្រូវបាន​ផ្ទៀងផ្ទាត់"
-
-#~ msgid "Account verified"
-#~ msgstr "គណនី​ត្រូវបាន​ផ្ទៀងផ្ទាត់"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "បាន​ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់​ដោយ​ជោគជ័យ"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក រួច​​រក​មើល​ព័ត៌មាន​ពី​រោងចក្រ​ឧបករណ៍​របស់​អ្នក​អំពី​ការលុប​ទិន្នន័យ​របស់​អ្នក​ពី​ចម្ងាយ។"
-
-#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "យើង​សោកស្ដាយ​ដែល​បាន​ដឹង​អំពី​រឿង​នេះ។ បើ​នេះ​ជា​ឧបករណ៍​ដែល​អ្នក​មិន​ទុកចិត្ត​ទេ អ្នក​គួរតែ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​គណនី Firefox របស់​អ្នក និង​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​ទាំងឡាយ​​ដែល​បាន​រក្សាទុក​នៅ​ក្នុង Firefox ។"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "សកម្ម​ចុងក្រោយ %(translatedTimeAgo)s"
-
-#~ msgid "%(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s"
-
-#~ msgid "Web Session, %(userAgent)s"
-#~ msgstr "សម័យ​​បណ្ដាញ %(userAgent)s"
-
-#~ msgid "Display name updated"
-#~ msgstr "បាន​ប្ដូរ​ឈ្មោះ​បង្ហាញ​ថ្មី"
-
-#~ msgid "Delete account"
-#~ msgstr "លុបគណនី"
-
-#~ msgid "Delete…"
-#~ msgstr "លុប…"
-
-#~ msgid "Remove"
-#~ msgstr "យកចេញ"
-
-#~ msgid "Add"
-#~ msgstr "បន្ថែម"
-
-#~ msgid "Enable…"
-#~ msgstr "បើក…"
-
-#~ msgid "Enabled"
-#~ msgstr "បានបើក"
-
-#~ msgid "Disabled"
-#~ msgstr "បានបិទ"
-
-#~ msgid "Disable"
-#~ msgstr "បិទ"
-
-#~ msgid "Enable"
-#~ msgstr "បើក"
-
-#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-#~ msgstr "គណនី​មាន​រួច​ហើយ។ <a href=\"/signin\">ចូល</a>"
-
-#~ msgid "Last sync %(translatedTimeAgo)s"
-#~ msgstr "ធ្វើ​សមកាលកម្ម​ចុងក្រោយ %(translatedTimeAgo)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s"
-#~ msgstr "ធ្វើ​សមកាលកម្ម​ចុងក្រោយ​លើសពី %(translatedTimeAgo)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "ធ្វើសមកាលកម្ម​ចុងក្រោយ %(translatedTimeAgo)s ក្នុង %(translatedCountry)s"
-
-#~ msgid "Subscribed successfully"
-#~ msgstr "បាន​ជាវ​ដោយ​ជោគជ័យ"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox សមកាលកម្ម"
-
-#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr "មិន​ស្គាល់​គណនី Firefox ។ <a href=\"/signup\">ចុះឈ្មោះ</a> ប្រើប្រាស់​អាសយដ្ឋាន​អ៊ីមែល​​គណនី​កម្មវិធី​បន្ថែម​មុនៗ​របស់​អ្នក ដើម្បី​ចូលប្រើប្រាស់​ទិន្នន័យ​កម្មវិធី​បន្ថែម​របស់​អ្នក។"
-
-#~ msgid "App link resent to %(phoneNumber)s"
-#~ msgstr "បាន​ផ្ញើ​តំណ​កម្មវិធី​​​ទៅ​កាន់ %(phoneNumber)s ឡើងវិញ"
-
-#~ msgid "Unsubscribed successfully"
-#~ msgstr "បាន​ឈប់​ជាវ​ដោយ​ជោគជ័យ"
-
-#~ msgid "Email resent"
-#~ msgstr "បាន​ផ្ញើ​អ៊ីមែល​ឡើងវិញ"

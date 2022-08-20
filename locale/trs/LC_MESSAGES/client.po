@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 06:12+0000\n"
 "PO-Revision-Date: 2019-11-27 13:40+0000\n"
 "Last-Translator: José Manuel <triki2014jm@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1865,10 +1865,14 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr ""
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -2046,27 +2050,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "Si kuentâ hia korreô ganatsi"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "Ngà natsi kuentâ nikò’o"
-
-#~ msgid "Account verified"
-#~ msgstr "Ngà natsi kuênta"
-
-#~ msgid "Change..."
-#~ msgstr "Nadunā..."
-
-#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
-#~ msgstr "Ngà ganahuít nī, garasun da’nga’ huì nakà nan da’ gayi’ìt sesiûn riña daran’ nej si agâ’t."
-
-#~ msgid "Change"
-#~ msgstr "Nadunā"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Ngà ganadunâ da’nga’ huìi"
-
-#~ msgid "Please Select One"
-#~ msgstr "Gi’iaj sunūj u nī naguīt ‘ngoj"

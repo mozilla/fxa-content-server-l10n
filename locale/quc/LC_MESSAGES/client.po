@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 06:12+0000\n"
 "PO-Revision-Date: 2022-04-27 00:16+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1865,10 +1865,14 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr ""
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -2046,21 +2050,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "Q'atutal uk'u'x taqoqxa'nib'al"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "Q'atum ukab' taqoqxa'nib'al"
-
-#~ msgid "Account verified"
-#~ msgstr "Qat'utal kemb'i'aj"
-
-#~ msgid "Change..."
-#~ msgstr "Uk'exik..."
-
-#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
-#~ msgstr "Are taq chk'is awumal, chakojo' le k'ak' aretokib'al chech umajixik kemchak a ronojel taq awiqkemchakub'al."
-
-#~ msgid "Please Select One"
-#~ msgstr "Chacha' jun"

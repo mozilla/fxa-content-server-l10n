@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 06:12+0000\n"
 "PO-Revision-Date: 2019-10-27 18:49+0000\n"
 "Last-Translator: Akmal <akmalxster@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1864,10 +1864,14 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr ""
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -2045,53 +2049,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "Asosiy pochtangiz tasdiqlandi"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "Ikkinchi pochtangiz tasdiqlandi"
-
-#~ msgid "Account verified"
-#~ msgstr "Hisob tasdiqlandi"
-
-#~ msgid "Change..."
-#~ msgstr "Oʻzgartirish..."
-
-#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
-#~ msgstr "Tugatganingizdan soʻng, barcha qurilmalaringizga kirish uchun yangi parolingizdan foydalaning."
-
-#~ msgid "Change"
-#~ msgstr "Oʻzgartirish"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Parol oʻzgardi"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "Juda ham afsusdamiz. Firefox hisobi parolini oʻzgartirishingiz va qurilmangiz ishlab chiqaruvchisidan masofadan maʼlumotlarni oʻchirish haqida axborot olishingiz kerak."
-
-#~ msgid "Please Select One"
-#~ msgstr "Bittasini tanlang"
-
-#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-#~ msgstr ""
-#~ "<b>%(escapedSelectedPlan)s</b> uchun <b>%(escapedLowercaseTopic)s</b> savoli boʻyicha Mozilla yordam jamoasiga murojaat qilganingiz uchun rahmat. Biz siz bilan elektron pochta orqali tezda "
-#~ "bogʻlanamiz."
-
-#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-#~ msgstr "Hisob allaqachon mavjud. <a href=\"/signin\">Kirish</a>"
-
-#~ msgid "Open tabs"
-#~ msgstr "Ochiq ichki oynalar"
-
-#~ msgid "Logins"
-#~ msgstr "Hisoblar"
-
-#~ msgid "Credit cards"
-#~ msgstr "Kredit kartalari"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox Sync"
-
-#~ msgid "Email resent"
-#~ msgstr "Xayta yana yuborildi"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 06:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -84,42 +84,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr ""
-
-#~ msgid "Reset your password"
-#~ msgstr "Restabelecer o contrasinal"
-
-#~ msgid "Reset password"
-#~ msgstr "Restabelecer contrasinal"
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Servizos na nube do Firefox"
-
-#~ msgid "Are you sure?"
-#~ msgstr "Está seguro?"
-
-#~ msgid "Please confirm that you'd like to reset the password for %(email)s."
-#~ msgstr "Confirma que quere restabelecer o contrasinal de %(email)s."
-
-#~ msgid "For more information, please visit <a href='https://support.mozilla.org'>Mozilla Support</a>"
-#~ msgstr "Para obter máis información, visite a páxina de <a href='https://support.mozilla.org'>asistencia de Mozilla</a>"
-
-#~ msgid "Reset password:"
-#~ msgstr "Restabelecer contrasinal:"
-
-#~ msgid "For more information, please visit https://support.mozilla.org"
-#~ msgstr "Para obter máis información, visite https://support.mozilla.org"
-
-#~ msgid "Verify"
-#~ msgstr "Comprobar"
-
-#~ msgid "Verify:"
-#~ msgstr "Comprobar:"
-
-#~ msgid "Verify your account"
-#~ msgstr "Comprobar a súa conta"
-
-#~ msgid "Congratulations!"
-#~ msgstr "Parabéns!"
-
-#~ msgid "System unavailable, try again soon"
-#~ msgstr "O sistema non está dispoñíbel, tente de novo pronto"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 06:12+0000\n"
 "PO-Revision-Date: 2021-11-13 04:53+0000\n"
 "Last-Translator: क्षणिक पौडेल <kakapoudel7@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,48 +88,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr ""
-
-#~ msgid "Confirm sign-in"
-#~ msgstr "साइन इन पुष्टि गर्नुहोस्"
-
-#~ msgid "Manage account"
-#~ msgstr "खाता व्यवस्थापन गर्नुहोस्"
-
-#~ msgid "Secondary email added"
-#~ msgstr "माध्यमिक इमेल थपियो"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "माध्यमिक इमेल हटाइयो"
-
-#~ msgid "Best,"
-#~ msgstr "उत्तम,"
-
-#~ msgid "The Firefox Accounts team"
-#~ msgstr "Firefox खाता टोली"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "पासवर्ड सफलतापूर्वक परिवर्तन भयो"
-
-#~ msgid "Your Firefox Account password was successfully changed from the following device:"
-#~ msgstr "तपाईंको Firefox खाताको पासवर्ड सफलतापूर्वक निम्न उपकरणबाट परिवर्तन भयो:"
-
-#~ msgid "New primary email"
-#~ msgstr "नयाँ प्राथमिक इमेल"
-
-#~ msgid "Is this you signing in?"
-#~ msgstr "के यो साइन इन गर्न खोज्ने तपाइँ हुनुहुन्छ?"
-
-#~ msgid "If yes, here is the authorization code you need:"
-#~ msgstr "यदि हुनुहुन्छ भने, तपाईलाई आवश्यक प्रमाणिकरण कोड हो:"
-
-#~ msgid "This is an automated email; if you didn’t add a new device to your Firefox Account, you should change your password immediately at %(passwordChangeLink)s"
-#~ msgstr "यो स्वचालित ईमेल हो; यदि तपाइँ आफ्नो फायरफक्स खातामा नयाँ यन्त्र थप गर्नुभएन भने, तपाईंले %(passwordChangeLink)s मा तुरुन्तै आफ्नो पासवर्ड परिवर्तन गर्नुपर्दछ।"
-
-#~ msgid "If you suspect that someone is trying to gain access to your account, please change your password."
-#~ msgstr "यदि तपाईंलाई सम्भावित छ कि, कसैले तपाईंको खातामा पहुँच प्राप्त गर्ने प्रयास गर्दैछ, कृपया आफ्नो पासवर्ड परिवर्तन गर्नुहोस् ।"
-
-#~ msgid "Manage account:"
-#~ msgstr "खाता व्यवस्थापन गर्नुहोस्:"
-
-#~ msgid "Mozilla Privacy Policy"
-#~ msgstr "Mozilla गोपनीयता नीति"

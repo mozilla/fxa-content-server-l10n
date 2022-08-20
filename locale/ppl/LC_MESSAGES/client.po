@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 06:12+0000\n"
 "PO-Revision-Date: 2020-02-27 02:59+0000\n"
 "Last-Translator: Alexander Parada <alessaux@outlook.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1865,10 +1865,14 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr ""
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -2046,156 +2050,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "Tikpepetaketa ne itukay mucorreo"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "Ne ukse itukay mucorreo nemi yek"
-
-#~ msgid "Account verified"
-#~ msgstr "Tikpepetaketa mutapujka"
-
-#~ msgid "Change..."
-#~ msgstr "Tikpata..."
-
-#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
-#~ msgstr "Keman titami, shikwi ne yankwik taketzalis ichtaka pal tiktalia mutukay ka nujme."
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Tikpataka ne taketzalis ichtaka"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "Te tiknekiskiat ma ini panu. Shikpata ne taketzalis ichtaka ipal mutapujka Firefox wan shikishtemu ken tiweliskia tikpupua mudajdato ka nujme, kan tikwij."
-
-#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "Te tiknekiskiat ma ini panu. Su ini tanuska tesu seguro, shikpata ne taketzalis ichtaka ipal mutapujka Firefox, wan nusan shikpata muchi taketzalis ichtaka tikwij tik Firefox."
-
-#~ msgid "Last seen %(translatedTimeAgo)s"
-#~ msgstr "tikitzki an %(translatedTimeAgo)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s"
-#~ msgstr "Tikitzki achka an %(translatedTimeAgo)s"
-
-#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Tikitzki an %(translatedTimeAgo)s tik %(translatedCountry)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Tikitzki achka an %(translatedTimeAgo)s tik %(translatedCountry)s"
-
-#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Tikitzki an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Tikitzki achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Nemik nikan an %(translatedTimeAgo)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s"
-#~ msgstr "Nemik nikan achka an %(translatedTimeAgo)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Nemik nikan an %(translatedTimeAgo)s tik %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Nemik nikan achka an %(translatedTimeAgo)s tik %(translatedCountry)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Nemik nikan an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Nemik nikan achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s"
-
-#~ msgid "Over %(translatedTimeAgo)s"
-#~ msgstr "Achka an %(translatedTimeAgo)s"
-
-#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s tik %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Achka an %(translatedTimeAgo)s tik %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Web Session, %(userAgent)s"
-#~ msgstr "Tanamikilis ipal tzawalamat, %(userAgent)s"
-
-#~ msgid "Web Session"
-#~ msgstr "Tanamikilis ipal tzawalamat"
-
-#~ msgid "Change…"
-#~ msgstr "Tikpata..."
-
-#~ msgid "Add…"
-#~ msgstr "Shikachitili..."
-
-#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
-#~ msgstr "Shikijkwilu mukwachtukay yu-nesi tik Firefox wan ken titajshitia."
-
-#~ msgid "Display name updated"
-#~ msgstr "Mukwachtukay muyankwilijtuk"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "Ukse itukay mucorreo muishtijtuk"
-
-#~ msgid "Verification email sent"
-#~ msgstr "Tiktitanijtiwit se correo pal tikpepetat"
-
-#~ msgid "Primary email set to %(email)s"
-#~ msgstr "Achtu itukay mucorreo pal %(email)s"
-
-#~ msgid "New recovery codes generated"
-#~ msgstr "Yankwik codigo ipal talajsilis mutitanijtuk"
-
-#~ msgid "Two-step authentication removed"
-#~ msgstr "Tepepetalis unpa muishtijtuk"
-
-#~ msgid "Two-step Authentication"
-#~ msgstr "Tepepetalis unpa"
-
-#~ msgid "Account Recovery"
-#~ msgstr "Talajsilis ipal mutapujka"
-
-#~ msgid "Account recovery revoked"
-#~ msgstr "Talajsili ipal mutapujka te kiski yek"
-
-#~ msgid "Please Select One"
-#~ msgstr "Shikpejpena se"
-
-#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-#~ msgstr "Padiush tinechnawatia tik Tepalewilis Mozilla ipanpa <b>%(escapedLowercaseTopic)s</b> ika <b>%(escapedSelectedPlan)s</b>. Timetznutzasket iwan se titanti."
-
-#~ msgid "If you lose access to your account, youll be able to restore your sync data."
-#~ msgstr "Su te tiweli tikalaki tik mutapujka, tiwelis tikalana muchi ne dajdato."
-
-#~ msgid "Last sync %(translatedTimeAgo)s"
-#~ msgstr "Dajdato muyankwilijtiwit an %(translatedTimeAgo)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s"
-#~ msgstr "Dajdato muyankwilijtiwit achka an %(translatedTimeAgo)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Dajdato muyankwilijtiwit an %(translatedTimeAgo)s tik %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Dajdato muynakwilijtiwit achka an %(translatedTimeAgo)s tik %(translatedCountry)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Dajdato muyankwilijtiwit %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Dajdato muyankwilitiwit achka an %(translatedTimeAgo)s inawak %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync time unknown"
-#~ msgstr "Te mumati kan dajdato muyankwilijtiwit"
-
-#~ msgid "Subscribed successfully"
-#~ msgstr "Timuijkwilujtuka"

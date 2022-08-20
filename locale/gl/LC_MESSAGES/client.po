@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-20 06:12+0000\n"
 "PO-Revision-Date: 2017-11-15 22:22+0000\n"
 "Last-Translator: Keko <eu@keko.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1864,10 +1864,14 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr ""
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -2045,237 +2049,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Account verified"
-#~ msgstr "Comprobouse a conta"
-
-#~ msgid "Verification link expired"
-#~ msgstr "Caducou a ligazón de comprobación"
-
-#~ msgid "Click here to receive a new verification link"
-#~ msgstr "Prema aquí para recibir unha nova ligazón de comprobación"
-
-#~ msgid "Verification error"
-#~ msgstr "Erro de comprobación"
-
-#~ msgid "Change"
-#~ msgstr "Cambiar"
-
-#~ msgid "Sign out"
-#~ msgstr "Saír"
-
-#~ msgid "Upload"
-#~ msgstr "Subir"
-
-#~ msgid "Camera"
-#~ msgstr "Cámara"
-
-#~ msgid "Show"
-#~ msgstr "Amosar"
-
-#~ msgid "Delete account"
-#~ msgstr "Eliminar conta"
-
-#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-#~ msgstr "A conta xa existe. <a href=\"/signin\">Identificarse</a>"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox Sync"
-
-#~ msgid "Sign in to continue"
-#~ msgstr "Identifíquese para continuar"
-
-#~ msgid "Create an account"
-#~ msgstr "Crear unha conta"
-
-#~ msgid "Email resent"
-#~ msgstr "Reenviouse o correo"
-
-#~ msgid "Learn more."
-#~ msgstr "Máis información."
-
-#~ msgid "Click here to receive a new reset link"
-#~ msgstr "Prema aquí para recibir unha nova ligazón de restabelecemento"
-
-#~ msgid "Email Sent"
-#~ msgstr "Enviouse un correo"
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Servizos na nube do Firefox"
-
-#~ msgid "Save"
-#~ msgstr "Gardar"
-
-#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
-#~ msgstr "Confirma que quere eliminar a súa conta? Non é posíbel desfacer esta acción."
-
-#~ msgid "Next"
-#~ msgstr "Seguinte"
-
-#~ msgid "Get Firefox for Android"
-#~ msgstr "Obter o Firefox para Android"
-
-#~ msgid "A verification link has been sent&nbsp;to %(email)s"
-#~ msgstr "Enviouse unha ligazón de comprobación&nbsp;a %(email)s"
-
-#~ msgid "Attempt limit exceeded"
-#~ msgstr "Excedeuse o límite de intentos"
-
-#~ msgid "Resend email"
-#~ msgstr "Reenviar correo"
-
-#~ msgid "Home"
-#~ msgstr "Inicio"
-
-#~ msgid "Missing parameter in request body: %(param)s"
-#~ msgstr "Falta un parámetro no corpo da solicitude: %(param)s"
-
-#~ msgid "Sign up"
-#~ msgstr "Saír"
-
-#~ msgid "/force_auth requires an email"
-#~ msgstr "/force_auth require un correo"
-
-#~ msgid "A reset link has been sent to %(email)s"
-#~ msgstr "Enviouse unha ligazón de restabelecemento a %(email)s"
-
-#~ msgid "Cookies required"
-#~ msgstr "Requírense cookies"
-
-#~ msgid "1991"
-#~ msgstr "1991"
-
-#~ msgid "1992"
-#~ msgstr "1992"
-
-#~ msgid "1993"
-#~ msgstr "1993"
-
-#~ msgid "1994"
-#~ msgstr "1994"
-
-#~ msgid "1995"
-#~ msgstr "1995"
-
-#~ msgid "1996"
-#~ msgstr "1996"
-
-#~ msgid "1997"
-#~ msgstr "1997"
-
-#~ msgid "1998"
-#~ msgstr "1998"
-
-#~ msgid "1999"
-#~ msgstr "1999"
-
-#~ msgid "2000"
-#~ msgstr "2000"
-
-#~ msgid "2001"
-#~ msgstr "2001"
-
-#~ msgid "2002"
-#~ msgstr "2002"
-
-#~ msgid "2003"
-#~ msgstr "2003"
-
-#~ msgid "2004"
-#~ msgstr "2004"
-
-#~ msgid "2005"
-#~ msgstr "2005"
-
-#~ msgid "2006"
-#~ msgstr "2006"
-
-#~ msgid "2007"
-#~ msgstr "2007"
-
-#~ msgid "Year of birth required"
-#~ msgstr "Requírese o ano de nacemento"
-
-#~ msgid "Valid birthday required"
-#~ msgstr "Requírese o ano de nacemento"
-
-#~ msgid "Year of birth"
-#~ msgstr "Ano de nacemento"
-
-#~ msgid "1990 or earlier"
-#~ msgstr "1990 ou anteriores"
-
-#~ msgid "Manage account"
-#~ msgstr "Xestionar conta"
-
-#~ msgid "Enter your email to reset&nbsp;the account password."
-#~ msgstr "Escriba o seu enderezo de correo para restabelecer&nbsp;o contrasinal da conta."
-
-#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr ""
-#~ "Por motivos de seguranza, ao restabelecer o seu contrasinal borraranse os seus datos de Sync dos nosos servidores. Crearase unha nova copia de seguranza de Sync dende os seus datos de navegación "
-#~ "locais."
-
-#~ msgid "You are signed in as"
-#~ msgstr "Está identificado como"
-
-#~ msgid "Already have an account? Sign in."
-#~ msgstr "Xa ten unha conta? Identifíquese."
-
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "Ao continuar, eu acepto os <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Termos do servizo</a> e a <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Política de privacidade</a> "
-#~ "dos servizos na nube de Firefox."
-
-#~ msgid "Subscribe to Firefox news and tips"
-#~ msgstr "Subscribirse aos consellos e novas do Firefox"
-
-#~ msgid "missing search parameter: %(itemName)s"
-#~ msgstr "falta o parámetro da busca: %(itemName)s"
-
-#~ msgid "Once you're ﬁnished, use your new password to sign in on all of your devices."
-#~ msgstr "Unha vez que rematou, use o seu novo contrasinal para identificarse en todos os dispositivos."
-
-#~ msgid "Password changed"
-#~ msgstr "Cambiouse o contrasinal"
-
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
-#~ msgstr "Conta sen comprobar. <a href=\"#\" id=\"resend\">Reenviar correo de comprobación</a>."
-
-#~ msgid "Password reset. Sign in to continue."
-#~ msgstr "Restabeleceuse o contrasinal. Identificarse para continuar."
-
-#~ msgid "Signed out"
-#~ msgstr "Saíu da conta"
-
-#~ msgid "Paste image URL"
-#~ msgstr "Pegar URL da imaxe"
-
-#~ msgid "Invalid password"
-#~ msgstr "Contrasinal incorrecto"
-
-#~ msgid "Invalid email and password"
-#~ msgstr "Correo e contrasinal incorrectos"
-
-#~ msgid "Invalid email or password"
-#~ msgstr "Correo ou contrasinal incorrectos"
-
-#~ msgid "Old password invalid"
-#~ msgstr "Contrasinal actual incorrecto"
-
-#~ msgid "New password invalid"
-#~ msgstr "Novo contrasinal incorrecto"
-
-#~ msgid "Passwords don't match"
-#~ msgstr "Non coinciden os contrasinais"
-
-#~ msgid "Please enter an email"
-#~ msgstr "Escriba un correo"
-
-#~ msgid "Cannot connect to the internet"
-#~ msgstr "Non é posíbel conectarse á Internet"
-
-#~ msgid "URL"
-#~ msgstr "URL"

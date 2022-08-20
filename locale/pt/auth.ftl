@@ -22,7 +22,6 @@
 ## Non-email strings
 
 session-verify-send-push-title = A iniciar sessão nas { -product-firefox-accounts }?
-session-verify-send-push-body = Clique aqui para verificar se é você mesmo(a)
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -77,6 +76,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Este é um e-mail automático; se não adicionou nenhum novo dispositivo à sua { -product-firefox-account }, deve alterar imediatamente a sua palavra-passe em { $passwordChangeLink }
+# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
 automated-email =
     Este é um e-mail automático; se o recebeu por engano, não é necessária qualquer ação.
     Para mais informação, por favor visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
@@ -158,10 +158,7 @@ view-invoice = <a data-l10n-name="invoiceLink">Ver a sua fatura</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Ver Fatura: { $invoiceLink }
-cadReminderFirst-subject = O seu lembrete amigável: como concluir a configuração da sincronização
 cadReminderFirst-action = Sincronizar outro dispositivo
-cadReminderFirst-title = Eis o seu lembrete para sincronizar os dispositivos.
-cadReminderFirst-description = São necessários dois para sincronizar. A sincronização com outro dispositivo com o { -brand-firefox } de forma privada mantém os seus marcadores, palavras-passe e outros dados do { -brand-firefox } iguais em todo o lado onde utilize o { -brand-firefox }.
 cadReminderSecond-action = Sincronizar outro dispositivo
 cadReminderSecond-title-2 = Não se esqueça de sincronizar!
 #  Variables:
@@ -171,6 +168,7 @@ downloadSubscription-subject = Bem-vindo(a) ao { $productName }.
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Bem-vindo(a) ao { $productName }.
 downloadSubscription-link-action-2 = Começar
+fraudulentAccountDeletion-title = A sua conta foi apagada
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = Restam poucos códigos de recuperação
 codes-reminder-description = Notámos que está com poucos códigos de recuperação. Por favor considere gerar novos códigos para evitar que fique sem acesso à sua conta.
@@ -255,10 +253,8 @@ postRemoveTwoStepAuthentication-description = Desativou com sucesso a autentica�
 postRemoveTwoStepAuthentication-description-plaintext = Desativou com sucesso a autenticação de dois passos na sua { -product-firefox-account }. Os códigos de segurança da sua aplicação de autenticação não serão mais solicitados a cada início de sessão.
 postRemoveTwoStepAuthentication-action = Gerir conta
 postRemoveTwoStepAuthentication-not-required = Os códigos de segurança não serão mais requeridos a cada início de sessão.
-postVerify-sub-title = { -product-firefox-account } verificada. Está quase lá.
 postVerify-title = Próxima sincronização entre os seus dispositivos!
 postVerify-description = O Sync mantém igual e de modo privado os seus marcadores, palavras-passe e outra informação do { -brand-firefox } em todos os seus dispotivos.
-postVerify-subject = Conta verificada. Em seguida, sincronize outro dispositivo para concluir a configuração.
 postVerify-setup = Configurar o próximo dispositivo
 postVerify-action = Configurar o próximo dispositivo
 # Variables:
@@ -289,8 +285,6 @@ subscriptionAccountFinishSetup-title = Bem-vindo(a) ao { $productName }.
 subscriptionAccountFinishSetup-action-2 = Começar
 subscriptionAccountReminderFirst-subject = Lembrete: termine a configuração da sua conta
 subscriptionAccountReminderFirst-title = Ainda não pode aceder à sua subscrição
-subscriptionAccountReminderFirst-content-info = Criou uma conta do(a) { -product-firefox-account } há alguns dias, mas nunca a confirmou. Gostaríamos que terminasse de configurar a sua conta para que possa utilizar a sua nova subscrição.
-subscriptionAccountReminderFirst-content-select = Selecione “Criar palavra-passe” para definir uma nova palavra-passe e concluir a confirmação da sua conta.
 subscriptionAccountReminderFirst-action = Criar palavra-passe
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Lembrete final: configure a sua conta
@@ -488,7 +482,6 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = Confirmar email
 verificationReminderSecond-subject = Lembrete final: ative a sua conta
 verificationReminderSecond-title = Ainda aqui?
-verificationReminderSecond-description = Há quase uma semana criou uma { -product-firefox-account } mas nunca a verificou. Estamos preocupados consigo.
 verificationReminderSecond-sub-description = Confirme este endereço de email para ativar a sua conta e deixe-nos saber que está bem.
 verificationReminderSecond-action = Confirmar email
 verify-title = Ative a família de produtos do { -brand-firefox }
@@ -508,25 +501,12 @@ verifyLogin-action = Confirmar novo início de sessão
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Código de início de sessão para { $serviceName }
 verifyLoginCode-title = É mesmo você a iniciar sessão?
-verifyLoginCode-prompt = Se sim, aqui está o código de confirmação:
 verifyLoginCode-expiry-notice = Este expira em 5 minutos.
-verifyPrimary-title = Verificar email primário
 verifyPrimary-description = Foi realizado um pedido para executar uma alteração de conta a partir do seguinte dispositivo:
 verifyPrimary-subject = Confirmar e-mail principal
-verifyPrimary-action = Confirmar e-mail
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Assim que verificado, alterações de conta tais como adicionar um email secundário irão ficar disponíveis a partir deste dispositivo.
 verifySecondaryCode-subject = Confirmar e-mail secundário
-verifySecondaryCode-title = Verificar email secundário
-verifySecondaryCode-action = Confirmar e-mail
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Uma solicitação para utilizar { $email } como endereço de email secundário foi feito a partir da seguinte { -product-firefox-account }:
-verifySecondaryCode-prompt = Utilizar este código de confirmação:
-verifySecondaryCode-expiry-notice = Expira em 5 minutos. Assim que for confirmado, este endereço irá começar a receber notificações de segurança e confirmações.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject = Código de confirmação: { $code }
 verifyShortCode-title = É você que se está a registar?
-verifyShortCode-prompt = Em caso afirmativo, utilize este código de confirmação no seu formulário de registo:
 verifyShortCode-expiry-notice = Este expira em 5 minutos.
