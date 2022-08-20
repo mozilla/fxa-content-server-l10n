@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-20 09:50+0000\n"
+"PO-Revision-Date: 2022-08-20 09:53+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -220,7 +220,7 @@ msgstr "Έγινε εκτύπωση"
 
 #: .es5/views/behaviors/settings.js:40
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Επιτυχής επιβεβαίωση λογαριασμού"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -1016,7 +1016,7 @@ msgstr "Κάντε κλικ εδώ για να λάβετε έναν νέο σύ
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Ο σύνδεσμος επιβεβαίωσης καταστράφηκε"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
@@ -1534,6 +1534,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Συνεχίζοντας, αποδέχεστε:<br />\n"
+"            τους <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Όρους υπηρεσίας</a> και τη <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Σημείωση απορρήτου</a><br /> του Pocket\n"
+"            τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Όρους υπηρεσίας</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Σημείωση απορρήτου</a> του Firefox\n"
+"          "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
