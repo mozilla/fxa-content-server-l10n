@@ -19,7 +19,8 @@ for lang in `find $1 -type f -name "*.po" -not -path '*/db_LB/*'`; do
     stem=`basename $lang .po`
     msguniq -w 200 -o ${dir}/${stem}.po ${dir}/${stem}.po
     msgmerge --no-fuzzy-matching -w 200 -o ${dir}/${stem}.po.tmp ${dir}/${stem}.po $1/templates/LC_MESSAGES/${stem}.pot
-    mv ${dir}/${stem}.po.tmp ${dir}/${stem}.po
+    # Remove obsolete strings
+    msgattrib --output-file=${dir}/${stem}.po --no-obsolete ${dir}/${stem}.po.tmp
 done
 
 # Optionally auto-localize our test locale db-LB
