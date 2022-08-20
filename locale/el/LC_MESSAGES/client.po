@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-08-20 10:11+0000\n"
+"PO-Revision-Date: 2022-08-20 10:12+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1928,11 +1928,11 @@ msgstr "Όχι τη διεύθυνση email σας"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Όχι κάποιο συνήθη κωδικό πρόσβασής σας"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr ""
+msgstr "Μείνετε ασφαλείς &mdash; μην επαναχρησιμοποιείτε κωδικούς πρόσβασης. Δείτε περισσότερες συμβουλές για τη <a %(escapedCommonPasswordLinkAttrs)s>δημιουργία ισχυρών κωδικών πρόσβασης</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."

@@ -330,7 +330,11 @@ avatar-page-image-too-large-error-2 = Το μέγεθος του αρχείου 
 pw-change-header =
     .title = Αλλαγή κωδικού πρόσβασης
 pw-8-chars = Τουλάχιστον 8 χαρακτήρες
+pw-not-email = Όχι τη διεύθυνση email σας
 pw-change-must-match = Ο νέος κωδικός πρόσβασης αντιστοιχεί στην επιβεβαίωση
+pw-commonly-used = Όχι κάποιο συνήθη κωδικό πρόσβασής σας
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Μείνετε ασφαλείς — μην επαναχρησιμοποιείτε κωδικούς πρόσβασης. Δείτε περισσότερες συμβουλές για τη <linkExternal>δημιουργία ισχυρών κωδικών πρόσβασης</linkExternal>.
 pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
 pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
@@ -576,6 +580,7 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Ανανέωση email
+se-unverified-2 = μη επιβεβαιωμένο
 se-resend-code-2 =
     Απαιτείται επιβεβαίωση. Κάντε <button>νέα αποστολή κωδικού επιβεβαίωσης</button>
     εάν δεν υπάρχει στα εισερχόμενα ή τον φάκελο ανεπιθύμητων μηνυμάτων σας.
