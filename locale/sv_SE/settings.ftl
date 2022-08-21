@@ -108,7 +108,7 @@ cs-logged-out-2 = Loggade ut från { $service }
 cs-refresh-button =
     .title = Uppdatera anslutna tjänster
 # Link text to a support page on missing or duplicate devices
-cs-missing-device-help = Saknas nått eller dubbletter?
+cs-missing-device-help = Saknas något eller finns dubbletter?
 cs-disconnect-sync-heading = Koppla från Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
