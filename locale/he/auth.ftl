@@ -296,6 +296,12 @@ postRemoveTwoStepAuthentication-description-plaintext = השבתת בהצלחה 
 postRemoveTwoStepAuthentication-action = ניהול חשבון
 postRemoveTwoStepAuthentication-not-required = לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
 postVerify-sub-title-3 = אנחנו שמחים לראות אותך!
+postVerify-title-2 = רוצה לראות את אותה הלשונית בשני מכשירים שונים?
+postVerify-description-2 = זה קל! צריך פשוט להתקין את { -brand-firefox } במכשיר נוסף ולהתחבר כדי לסנכרן. זה עובד כמו קסם!
+postVerify-sub-description = (פססט… זה גם אומר שבאפשרותך לקבל את הסימניות, הססמאות ונתוני { -brand-firefox } אחרים שלך בכל מקום שבו החשבון שלך מחובר.)
+postVerify-subject-3 = ברוכים הבאים אל { -brand-firefox }!
+postVerify-setup-2 = חיבור מכשיר נוסף:
+postVerify-action-2 = חיבור מכשיר נוסף
 postVerifySecondary-subject = נוספה כתובת דוא״ל משנית
 postVerifySecondary-title = נוספה כתובת דוא״ל משנית
 # Variables:
@@ -303,6 +309,12 @@ postVerifySecondary-title = נוספה כתובת דוא״ל משנית
 postVerifySecondary-content-2 = אימתת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-firefox-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה כעת יישלחו אל שתי כתובות הדוא״ל שלך.
 postVerifySecondary-action = ניהול חשבון
 recovery-subject = איפוס ססמה
+recovery-title-2 = שכחת את הססמה שלך?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = קיבלנו בקשה לשינוי ססמה ב{ -product-firefox-account(case: "the") } שלך מ:
+recovery-new-password-button = ניתן ליצור ססמה חדשה על־ידי לחיצה על הכפתור שלהלן. קישור זה יפוג בשעה הקרובה.
+recovery-copy-paste = ניתן ליצור ססמה חדשה על־ידי העתקה והדבקת הקישור שלהלן בדפדפן שלך. קישור זה יפוג בשעה הקרובה.
 recovery-action = יצירת ססמה חדשה
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -560,6 +572,20 @@ unblockCode-prompt = אם כן, להלן קוד ההרשאה בו יש לך צו
 unblockCode-prompt-plaintext = אם כן, להלן קוד ההרשאה בו יש לך צורך: { $unblockCode }
 unblockCode-report = אם לא, עזרו לנו להדוף פורצים <a data-l10n-name="reportSignInLink">ודווחו לנו על זה</a>.
 unblockCode-report-plaintext = אם לא, עזרו לנו להדוף פורצים ודווחו לנו על זה.
+verificationReminderFinal-subject = תזכורת אחרונה לאימות החשבון שלך
+verificationReminderFinal-description = לפני מספר שבועות יצרת { -product-firefox-account(case: "a") }, אך מעולם לא אימתת אותו. למען האבטחה שלך, אנחנו נמחק את החשבון אם הוא לא יאומת ב־24 השעות הקרובות.
+confirm-account = אימות החשבון
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = תזכורת לאימות החשבון שלך
+verificationReminderFirst-title-2 = ברוכים הבאים אל { -brand-firefox }!
+verificationReminderFirst-description-2 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־15 הימים הקרובים או שהוא יימחק באופן אוטומטי.
+confirm-email-2 = אימות החשבון
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = אימות החשבון
+verificationReminderSecond-subject-2 = תזכורת לאימות החשבון שלך
+verificationReminderSecond-title-2 = לא כדאי לפספס את { -brand-firefox }!
+verificationReminderSecond-description-3 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־10 הימים הקרובים או שהוא יימחק באופן אוטומטי.
+verificationReminderSecond-second-description = { -product-firefox-account(case: "the") } שלך מאפשר לך לסנכרן את המידע שלך על פני מכשירים שונים ופותח גישה למוצרים נוספים שמגנים על הפרטיות שלך מבית { -brand-mozilla }.
 verify-description = אישור החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-firefox } עם כל מכשיר מחובר לרבות:
 verify-subject = סיום יצירת החשבון שלך
 verifyLogin-action = אישור התחברות
