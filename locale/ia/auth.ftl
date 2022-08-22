@@ -595,10 +595,20 @@ verificationReminderFirst-sub-description-2 = Non perder le technologia que pone
 confirm-email-2 = Confirmar conto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar conto
+verificationReminderSecond-subject-2 = Rememora de confirmar tu conto
+verificationReminderSecond-title-2 = Non te lassa escappar { -brand-firefox }!
+verificationReminderSecond-description-3 = Alcun dies retro tu ha create un { -product-firefox-account }, ma jammais confirmate illo. Confirma tu conto in le proxime 10 dies o illo sera automaticamente delite.
+verificationReminderSecond-second-description = Tu { -product-firefox-account } te permitte de synchronisar tu informationes inter apparatos e disblocar le accesso a plus productos de protection del confidentialitate de { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Contribue a nostre mission pro transformar internet in un placia aperte pro totes.
 verificationReminderSecond-action-2 = Confirmar conto
+verify-title-2 = Aperi internet con { -brand-firefox }
 verify-description = Confirma tu conto e tira le maximo de { -brand-firefox } ubicunque tu aperi session, a comenciar per:
 verify-subject = Termina le creation de tu conto
 verify-action-2 = Confirmar conto
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Habeva tu accedite a { $clientName }?
+verifyLogin-description-2 = Adjuta nos a mantener tu conto secur confirmante que tu accedeva a illo:
 verifyLogin-subject-2 = Confirmar accesso
 verifyLogin-action = Confirmar apertura de session
 # Variables:
@@ -624,6 +634,7 @@ verifySecondaryCode-expiry-notice-2 = Illo expira in 5 minutas. Un vice confirma
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirma tu conto
+verifyShortCode-title-2 = Aperi internet con { -brand-firefox }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Confirma tu conto e tira le maximo de { -brand-firefox } ubicunque tu aperi session, a comenciar per:
 verifyShortCode-prompt-3 = Usa iste codice de confirmation:
