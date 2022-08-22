@@ -588,8 +588,14 @@ verificationReminderSecond-description-3 = לפני מספר ימים יצרת {
 verificationReminderSecond-second-description = { -product-firefox-account(case: "the") } שלך מאפשר לך לסנכרן את המידע שלך על פני מכשירים שונים ופותח גישה למוצרים נוספים שמגנים על הפרטיות שלך מבית { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = אנחנו מזמינים אותך להיות חלק מהמשימה שלנו להפוך את האינטרנט למקום שפתוח לכולם.
 verificationReminderSecond-action-2 = אימות החשבון
+verify-title-2 = לפתוח את האינטרנט עם { -brand-firefox }
 verify-description = אישור החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-firefox } עם כל מכשיר מחובר לרבות:
 verify-subject = סיום יצירת החשבון שלך
+verify-action-2 = אימות החשבון
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = האם התחברת ל־{ $clientName }?
+verifyLogin-subject-2 = אישור התחברות
 verifyLogin-action = אישור התחברות
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -611,4 +617,11 @@ verifySecondaryCode-action-2 = אימות דוא״ל
 verifySecondaryCode-explainer = הוגשה בקשה להשתמש בכתובת { $email } ככתובת דוא״ל משנית מ{ -product-firefox-account(case: "the") } הבא:
 verifySecondaryCode-prompt-2 = נא להשתמש בקוד האימות הזה:
 verifySecondaryCode-expiry-notice-2 = הקוד יפוג בתוך 5 דקות. לאחר האימות כל התרעות האבטחה והאישורים יישלחו לכתובת הזו.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = אימות החשבון שלך
+verifyShortCode-title-2 = לפתוח את האינטרנט עם { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = אימות החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-firefox } עם כל מכשיר מחובר לרבות:
+verifyShortCode-prompt-3 = נא להשתמש בקוד האימות הזה:
 verifyShortCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
