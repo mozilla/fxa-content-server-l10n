@@ -85,15 +85,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = זוהי הודעת דוא״ל שנשלחה באופן אוטומטי; אם לא הוספת מכשיר חדש ל{ -product-firefox-account(case: "the") }, עליך לשנות את ססמתך באופן מיידי בכתובת { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    זוהי הודעת דוא״ל אוטומטית; אם קיבלת אותה בטעות, לא נדרשת פעולה מצידך.
-    למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
-automated-email-plaintext = אם הודעה זו הגיעה אליך בטעות, אין צורך בשום פעולה מצידך.
-automated-email-support = { automated-email-plaintext } למידע נוסף, נא לבקר ב־<a data-l10n-name="mozillaSupportUrl">תמיכה של { -brand-mozilla }</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } למידע נוסף, נא לבקר בתמיכה של { -brand-mozilla }: ‏{ $mozillaSupportUrl }
+automated-email-no-action-plaintext = זוהי הודעת דוא״ל אוטומטית. אם קיבלת אותה בטעות, אין צורך לעשות דבר.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = זאת הודעה אוטומטית, אם לא אישרת את הפעולה הזאת, נא להחליף את הסיסמה שלך:
 automated-email-reset =
@@ -143,9 +135,6 @@ subscriptionUpdateBillingTry-plaintext = אנו ננסה את התשלום של�
 subscriptionUpdatePayment = כדי למנוע הפרעה כלשהי לשירות שלך, נא <a data-l10n-name="updateBillingUrl">לעדכן את פרטי התשלום שלך</a> בהקדם האפשרי.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = כדי למנוע הפרעה כלשהי לשירות שלך, נא לעדכן את פרטי התשלום שלך בהקדם האפשרי:
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = למידע נוסף, ניתן לבקר בכתובת { $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -218,9 +207,6 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = כניסה חדשה ל־{ $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = כניסה חדשה ל־{ $clientName }
 newDeviceLogin-action = ניהול חשבון
 passwordChanged-subject = הססמה עודכנה
 passwordChanged-title = הססמה שונתה בהצלחה
@@ -243,12 +229,7 @@ passwordResetAccountRecovery-action = יצירת מפתח שחזור חדש
 passwordResetAccountRecovery-regen-required = יהיה עליך לייצר מפתח שחזור חדש.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = יצירת מפתח שחזור חדש:
-postAddAccountRecovery-subject = נוצר מפתח לשחזור החשבון
-postAddAccountRecovery-title = נוצר מפתח לשחזור החשבון
-postAddAccountRecovery-description = ייצרת בהצלחה מפתח לשחזור { -product-firefox-account(case: "the") } שלך מהמכשיר הבא:
 postAddAccountRecovery-action = ניהול חשבון
-postAddAccountRecovery-recovery = אם לא ביצעת את הפעולה הזאת, נא <a data-l10n-name="revokeAccountRecoveryLink">ללחוץ כאן</a>.
-postAddAccountRecovery-revoke = אם לא ביצעת את הפעולה, כדאי לשלול את המפתח.
 postAddLinkedAccount-subject = חשבון חדש מקושר אל { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -291,15 +272,6 @@ postRemoveTwoStepAuthentication-description = השבתת בהצלחה אימות
 postRemoveTwoStepAuthentication-description-plaintext = השבתת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך. לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
 postRemoveTwoStepAuthentication-action = ניהול חשבון
 postRemoveTwoStepAuthentication-not-required = לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
-postVerify-sub-title-2 = { -product-firefox-account(case: "the") } אומת. כמעט סיימת.
-postVerify-title = עכשיו ניתן לסנכרן בין המכשירים שלך!
-postVerify-description = הסנכרון שומר באופן פרטי שהסימניות, הססמאות ושאר הנתונים האחרים שלך ב־{ -brand-firefox } ישארו זהים בכל המכשירים שלך.
-postVerify-subject-2 = החשבון אומת. כעת, יש לסנכרן מכשיר נוסף כדי לסיים את ההגדרה
-postVerify-setup = הגדרת המכשיר הבא
-postVerify-action = הגדרת המכשיר הבא
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = יש לך שאלות? ניתן לבקר ב־{ $supportUrl }
 postVerifySecondary-subject = נוספה כתובת דוא״ל משנית
 postVerifySecondary-title = נוספה כתובת דוא״ל משנית
 # Variables:
@@ -307,8 +279,6 @@ postVerifySecondary-title = נוספה כתובת דוא״ל משנית
 postVerifySecondary-content-2 = אימתת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-firefox-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה כעת יישלחו אל שתי כתובות הדוא״ל שלך.
 postVerifySecondary-action = ניהול חשבון
 recovery-subject = איפוס ססמה
-recovery-title = רצית לאפס את הססמה שלך?
-recovery-description = יש ללחוץ על הכפתור בשעה הקרובה כדי ליצור ססמה חדשה. הבקשה הגיעה מהמכשיר הבא:
 recovery-action = יצירת ססמה חדשה
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -566,28 +536,8 @@ unblockCode-prompt = אם כן, להלן קוד ההרשאה בו יש לך צו
 unblockCode-prompt-plaintext = אם כן, להלן קוד ההרשאה בו יש לך צורך: { $unblockCode }
 unblockCode-report = אם לא, עזרו לנו להדוף פורצים <a data-l10n-name="reportSignInLink">ודווחו לנו על זה</a>.
 unblockCode-report-plaintext = אם לא, עזרו לנו להדוף פורצים ודווחו לנו על זה.
-verificationReminderFirst-subject = תזכורת: סיום יצירת החשבון שלך
-verificationReminderFirst-title = ברוכים הבאים למשפחת { -brand-firefox }
-verificationReminderFirst-description = לפני מספר ימים יצרת { -product-firefox-account(case: "a") }, אבל לא אימתת אותו.
-confirm-email = אימות דוא״ל
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = אימות דוא״ל
-verificationReminderSecond-subject = תזכורת אחרונה: הפעלת החשבון שלך
-verificationReminderSecond-title = עדיין פה?
-verificationReminderSecond-description-2 = לפני כשבוע יצרת { -product-firefox-account(case: "a") } אך לא אימתת אותו. אנחנו דואגים לך.
-verificationReminderSecond-action = אימות דוא״ל
-verify-title = הפעלת משפחת המוצרים של { -brand-firefox }
-verify-description-plaintext = אישור החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-firefox } עם כל מכשיר מחובר.
 verify-description = אישור החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-firefox } עם כל מכשיר מחובר לרבות:
 verify-subject = סיום יצירת החשבון שלך
-verify-action = אימות דוא״ל
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = כניסה חדשה ל־{ $clientName }
-verifyLogin-description = לשיפור האבטחה, נא לאשר את הכניסה מהמכשיר הבא:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = אישור כניסה חדשה אל { $clientName }
 verifyLogin-action = אישור התחברות
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -609,9 +559,4 @@ verifySecondaryCode-action-2 = אימות דוא״ל
 verifySecondaryCode-explainer = הוגשה בקשה להשתמש בכתובת { $email } ככתובת דוא״ל משנית מ{ -product-firefox-account(case: "the") } הבא:
 verifySecondaryCode-prompt-2 = נא להשתמש בקוד האימות הזה:
 verifySecondaryCode-expiry-notice-2 = הקוד יפוג בתוך 5 דקות. לאחר האימות כל התרעות האבטחה והאישורים יישלחו לכתובת הזו.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = קוד אימות: { $code }
-verifyShortCode-title = האם הבקשה להרשמה הגיעה ממך?
-verifyShortCode-prompt-2 = אם כן, יש להשתמש בקוד אימות זה בטופס ההרשמה שלך:
 verifyShortCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
