@@ -81,15 +81,6 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Isto es un e-mail automatisate; si tu non habeva addite un nove apparato a tu { -product-firefox-account }, tu debe cambiar tu contrasigno immediatemente a { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Isto es un e-mail automatisate; si tu lo ha recipite per error, nulle action es necessari.
-    Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
-automated-email-plaintext = Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari.
-automated-email-support = { automated-email-plaintext } Pro altere informationes, visita <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Supporto</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Pro altere informationes, visita { -brand-mozilla } Supporto: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Isto es un e-mail automatisate; si tu non autorisa iste action, alora cambia tu contrasigno:
 automated-email-reset =
@@ -139,9 +130,6 @@ subscriptionUpdateBillingTry-plaintext = Nos provara tu pagamento de novo in le 
 subscriptionUpdatePayment = Pro impedir ulle interruption a tu servicio, per favor <a data-l10n-name="updateBillingUrl">actualisa tu informationes de pagamento</a> al plus tosto possibile.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Pro impedir ulle interruption a tu servicio, actualisa tu informationes de pagamento le plus tosto possibile:
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Pro altere informationes visita { $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -217,9 +205,6 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nove accesso a { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Nove accesso a { $clientName }
 newDeviceLogin-action = Gerer le conto
 passwordChanged-subject = Contrasigno actualisate
 passwordChanged-title = Contrasigno cambiate correctemente
@@ -242,12 +227,7 @@ passwordResetAccountRecovery-action = Crear nove clave de recuperation
 passwordResetAccountRecovery-regen-required = Tu debera generar un nove clave de recuperation.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Crear nove clave de recuperation:
-postAddAccountRecovery-subject = Clave de recuperation del conto generate
-postAddAccountRecovery-title = Clave de recuperation del conto generate
-postAddAccountRecovery-description = Tu ha generate con successo un clave de recuperation pro tu { -product-firefox-account } per le sequente apparato:
 postAddAccountRecovery-action = Gerer le conto
-postAddAccountRecovery-recovery = Si iste non era tu, <a data-l10n-name="revokeAccountRecoveryLink">clicca hic</a>.
-postAddAccountRecovery-revoke = Si iste non esseva tu, revoca le clave.
 postAddLinkedAccount-subject = Nove conto ligate a { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -290,15 +270,6 @@ postRemoveTwoStepAuthentication-description = Tu ha disactivate con successo le 
 postRemoveTwoStepAuthentication-description-plaintext = Tu ha disactivate con successo le authentication a duo grados sur tu { -product-firefox-account }. Le codices de securitate non essera plus necessari cata authentication.
 postRemoveTwoStepAuthentication-action = Gerer le conto
 postRemoveTwoStepAuthentication-not-required = Le codices de securitate non essera plus necessari a cata authentication.
-postVerify-sub-title-2 = { -product-firefox-account } confirmate. Quasi finite.
-postVerify-title = Seque synchronisation inter tu apparatos!
-postVerify-description = Synchronisar reservatemente mantene tu marcapaginas, contrasignos e altere datos de { -brand-firefox } identic inter tote tu apparatos.
-postVerify-subject-2 = Conto conformate. Ora, synchronisa un altere dispositivo pro finir le installation
-postVerify-setup = Configurar apparato sequente
-postVerify-action = Configurar apparato sequente
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Questiones? Visita { $supportUrl }
 postVerifySecondary-subject = Adresse de e-mail secundari addite
 postVerifySecondary-title = Adresse de e-mail secundari addite
 # Variables:
@@ -306,8 +277,6 @@ postVerifySecondary-title = Adresse de e-mail secundari addite
 postVerifySecondary-content-2 = Tu ha confirmate con successo { $secondaryEmail } como email secundari pro tu { -product-firefox-account }. Notificationes de securitate e confirmationes de authentication ora essera livrate a ambe adresses email.
 postVerifySecondary-action = Gerer le conto
 recovery-subject = Reinitialisa tu contrasigno
-recovery-title = Debe tu reinitialisar tu contrasigno?
-recovery-description = Clicca sur le button in le proxime hora pro crear un nove contrasigno. Le requesta proveni del apparato sequente:
 recovery-action = Crear le nove contrasigno
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -578,30 +547,11 @@ unblockCode-prompt = In tal caso, ecce le codice de autorisation que tu require:
 unblockCode-prompt-plaintext = Si si, ecce le codice de autorisation que te besonia: { $unblockCode }
 unblockCode-report = Si non, adjuta nos a parar le intrusos e <a data-l10n-name="reportSignInLink">reporta lo a nos</a>.
 unblockCode-report-plaintext = Si non, adjuta nos a parar le intrusos e reporta lo a nos.
-verificationReminderFirst-subject = Rememoration: Termina le creation de tu conto
-verificationReminderFirst-title = Benvenite al familia de { -brand-firefox }
-verificationReminderFirst-description = Alcun dies retro tu ha create un{ -product-firefox-account }, ma tu non lo ha ancora confirmate.
-verificationReminderFirst-sub-description = Confirma lo ora e obtene un technologia que defende e protege tu vita private, te arma con cognoscentias practic, e te accorda le respecto que tu merita.
-confirm-email = Confirmar email
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Confirmar email
-verificationReminderSecond-subject = Rememoration final: Activa tu conto
-verificationReminderSecond-title = Ancora ci?
-verificationReminderSecond-description-2 = Quasi un septimana retro tu ha create un { -product-firefox-account }, ma jammais confirmate. Nos es preoccupate pro te.
-verificationReminderSecond-sub-description = Confirma iste adresse de e-mail pro activar tu conto e facer nos saper que toto es in ordine.
-verificationReminderSecond-action = Confirmar email
-verify-title = Activar le familia de productos { -brand-firefox }
-verify-description-plaintext = Confirma tu conto e tira le maximo de { -brand-firefox } ubicunque tu aperi session.
+confirm-email-2 = Confirmar conto
+confirm-email-plaintext-2 = { confirm-email-2 }:
 verify-description = Confirma tu conto e tira le maximo de { -brand-firefox } ubicunque tu aperi session, a comenciar per:
 verify-subject = Termina le creation de tu conto
-verify-action = Confirmar email
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Nove apertura de session in { $clientName }
-verifyLogin-description = Pro ulterior securitate, per favor confirma iste apertura de session ab le sequente apparato:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Confirmar apertura de session a { $clientName }
+verifyLogin-subject-2 = Confirmar accesso
 verifyLogin-action = Confirmar apertura de session
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -623,9 +573,4 @@ verifySecondaryCode-action-2 = Confirmar email
 verifySecondaryCode-explainer = Un requesta de usar { $email } como adresse email secundari ha essite facite ab le sequente { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Usa iste codice de confirmation:
 verifySecondaryCode-expiry-notice-2 = Illo expira in 5 minutas. Un vice confirmate, iste adresse comenciara a reciper notificationes e confirmationes de securitate.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Codice de confirmation: { $code }
-verifyShortCode-title = Es vermente tu qui vole inscriber se?
-verifyShortCode-prompt-2 = Si si, usa iste codice de confirmation in tu modulo de registration:
 verifyShortCode-expiry-notice = Illo expira in 5 minutas.
