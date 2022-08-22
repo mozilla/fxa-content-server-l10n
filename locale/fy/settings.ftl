@@ -228,14 +228,14 @@ modal-cancel-button = Annulearje
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Jo e-mailadres ferifiearje
-mvs-enter-verification-code = Fier jo ferifikaasjekoade yn
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = Befêstigje jo e-mailadres
+mvs-enter-verification-code-2 = Fier jo befêstigingskoade yn
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Fier binnen 5 minuten de ferifikaasjekoade yn dy’t nei <email>{ $email }</email> ferstjoerd is.
+mvs-enter-verification-code-desc-2 = Fier binnen 5 minuten de befêstigingskoade yn dy’t nei <email>{ $email }</email> ferstjoerd is.
 msv-cancel-button = Annulearje
-msv-submit-button = Ferifiearje
+msv-submit-button-2 = Befêstigje
 
 ## Settings Nav
 
@@ -392,17 +392,17 @@ add-secondary-email-save-button = Bewarje
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Stap 2 fan 2
-verify-secondary-email-error-2 = Der is in probleem bard by it ferstjoeren fan de ferifikaasjekoade
+verify-secondary-email-error-3 = Der is in probleem bard by it ferstjoeren fan de befêstigingskoade
 verify-secondary-email-page-title =
     .title = Sekundêr e-mailadres
-verify-secondary-email-verification-code =
-    .label = Fier jo ferifikaasjekoade yn
+verify-secondary-email-verification-code-2 =
+    .label = Fier jo befêstigingskoade yn
 verify-secondary-email-cancel-button = Annulearje
-verify-secondary-email-verify-button = Ferifiearje
+verify-secondary-email-verify-button-2 = Befêstigje
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Fier binnen 5 minuten de ferifikaasjekoade yn dy’t nei <strong>{ $email }</strong> ferstjoerd is.
+verify-secondary-email-please-enter-code-2 = Fier binnen 5 minuten de befêstigingskoade yn dy’t nei <strong>{ $email }</strong> ferstjoerd is.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -424,7 +424,7 @@ tfa-button-cancel = Annulearje
 tfa-button-finish = Foltôgje
 tfa-incorrect-totp = Unjildige koade foar autentikaasje yn twa stappen
 tfa-cannot-retrieve-code = Der is in probleem bard by it opheljen fan jo koade.
-tfa-cannot-verify-code-2 = Der is in probleem bard by it ferifiearjen fan jo werstelkoade
+tfa-cannot-verify-code-3 = Der is in probleem bard by it befêstigjen fan jo werstelkoade
 tfa-incorrect-recovery-code = Unjildige werstelkoade
 tfa-enabled = Autentikaasje yn twa stappen ynskeakele
 tfa-scan-this-code =
@@ -515,7 +515,7 @@ rk-cannot-remove-key = Jo kaai foar accountwerstel koe net fuortsmiten wurde.
 rk-refresh-key = Werstelkaai fernije
 rk-content-explain = Jo gegevens werstelle wannear’t jo jo wachtwurd ferjitte.
 rk-content-reset-data = Wêrom wurde myn gegevens opnij ynsteld as ik myn wachtwurd opnij inisjalisearje?
-rk-cannot-verify-session-3 = Sorry, der wie in probleem bard by it ferifiearjen fan jo sesje
+rk-cannot-verify-session-4 = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
 rk-remove-modal-heading = Werstelkaai fuortsmite?
 rk-remove-modal-content =
     As jo jo wachtwurd opnij inisjalisearje, kinne jo jo
@@ -528,7 +528,7 @@ rk-remove-error-2 = Jo kaai foar accountwerstel koe net fuortsmiten wurde
 se-heading = Sekundêr e-mailadres
     .header = Sekundêr e-mailadres
 se-cannot-refresh-email = Sorry, der is in probleem bard by it fernijen fan dat e-mailadres.
-se-cannot-resend-code-2 = Der is in probleem bard by it opnij ferstjoeren fan de ferifikaasjekoade
+se-cannot-resend-code-3 = Sorry, der is in probleem bard by it opnij ferstjoeren fan de befêstigingskoade
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -539,18 +539,18 @@ se-set-primary-error-2 = Sorry, der is in probleem bard by it wizigjen fan jo pr
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } mei sukses fuortsmiten
 se-delete-email-error-2 = Sorry, der is in probleem bard by it fuortsmiten fan dit e-mailadres
-se-verify-session-2 = Jo moatte jo aktuele sesje ferifiearje om dizze aksje út te fieren
-se-verify-session-error-2 = Sorry, der wie in probleem bard by it ferifiearjen fan jo sesje
+se-verify-session-3 = Jo moatte jo aktuele sesje befêstigje om dizze aksje út te fieren
+se-verify-session-error-3 = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mailadres fuortsmite
 # Button to refresh secondary email status
 se-refresh-email =
     .title = E-mailadres fernije
-se-unverified = net-ferifiearre
-se-resend-code =
-    Ferifikaasje fereaske. <button>Ferstjoer de ferifikaasjekoade opnij</button>
-    as dizze net yn jo Postfek YN of jo map Net-winske post stiet.
+se-unverified-2 = net befêstige
+se-resend-code-2 =
+    Befêstiging fereaske. <button>Ferstjoer de befêstigingskoade opnij</button>
+    as dizze net yn jo Postfek YN of jo map Net-winske stiet.
 # Button to make secondary email the primary
 se-make-primary = Primêr meitsje
 se-default-content = Tagong ta jo account as jo net oanmelde kinne op jo primêre e-mailadres.
@@ -579,7 +579,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Foarkom dat in oar oanmeldt troch in
     unike koade wêr’t allinnich jo tagong ta hawwe te easkjen.
-tfa-row-cannot-verify-session-3 = Sorry, der wie in probleem bard by it ferifiearjen fan jo sesje
+tfa-row-cannot-verify-session-4 = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
 tfa-row-disable-modal-heading = Autentikaasje yn twa stappen útskeakelje?
 tfa-row-disable-modal-confirm = Utskeakelje
 tfa-row-disable-modal-explain =
@@ -594,7 +594,7 @@ tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
 
 auth-error-102 = Unbekend account
 auth-error-103 = Ferkeard wachtwurd
-auth-error-105 = Unjildige ferifikaasjekoade
+auth-error-105-2 = Ferkearde befêstigingskoade
 auth-error-110 = Unjildich token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -604,8 +604,8 @@ auth-error-110 = Unjildich token
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Jo hawwe it te faak probearre. Probearje it oer { $retryAfter } opnij.
-auth-error-138 = Net-ferifiearre sesje
+auth-error-138-2 = Net-befêstige sesje
 auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
-auth-error-183 = Unjildige of ferrûne ferifikaasjekoade
+auth-error-183-2 = Unjildige of ferrûne befêstigingskoade
 auth-error-1008 = Jo âlde en nije wachtwurd meie net lyk wêze

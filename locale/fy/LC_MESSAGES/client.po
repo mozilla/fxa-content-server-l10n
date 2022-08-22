@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
-"PO-Revision-Date: 2022-07-21 07:34+0000\n"
+"POT-Creation-Date: 2022-08-22 16:33+0000\n"
+"PO-Revision-Date: 2022-08-17 11:07+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -75,7 +75,7 @@ msgstr "Jo kinne no wizigingen oan jo Firefox-account oanbringe."
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Primêr e-mailadres befêstige"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -83,7 +83,7 @@ msgstr "Accountmeldingen wurde no ek nei %(secondaryEmailVerified)s ferstjoerd."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Sekundêr e-mailadres befêstige"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -95,7 +95,7 @@ msgstr "Jo kinne %(serviceName)s no brûke"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Account befêstige"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -221,7 +221,7 @@ msgstr "Ofdrukt"
 
 #: .es5/views/behaviors/settings.js:40
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Account mei sukses befêstige"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -943,7 +943,7 @@ msgstr "Kin gjin account oanmeitsje"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Jo moatte oan bepaalde leeftiidskritearia foldwaan om in Firefox-account oan te meitsjen."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -1007,23 +1007,23 @@ msgstr "Oanmelding is al befêstige"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Befêstigingskeppeling ferrûn"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "De keppeling wêrop jo klikt hawwe om jo e-mailadres te befêstigjen is ferrûn."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Klik hjir om in nije befêstigingskeppeling te ûntfangen"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Befêstigingskeppeling skansearre"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Befêstigingsflater"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1035,7 +1035,7 @@ msgstr "Dizze oanmelding befêstigje"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Kontrolearje jo e-mail op de befêstigingskeppeling dy’t&nbsp;nei %(escapedEmail)s is ferstjoerd"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1062,7 +1062,7 @@ msgstr "Klik binnen in oer op de keppeling dy’t nei %(email)s ferstjoerd is om
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Fier befêstigingskoade yn"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
@@ -1100,7 +1100,7 @@ msgstr "Firefox-account ferbûn"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "E-mailadres befêstige"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1160,6 +1160,9 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Fier jo wachtwurd <span class=\"card-subheader\" id=\"subheader\">foar jo Firefox-account</span> yn\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1169,6 +1172,8 @@ msgstr "Wachtwurd"
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
+"Troch fierder te gean, geane jo akkoard mei de <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Privacyferklearring</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1401,7 +1406,7 @@ msgstr "Namme barren"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Befêstige"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1440,6 +1445,13 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"              As jo trochgean, stimme jo yn mei:<br />\n"
+"              De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tsjinstbetingsten</a> en <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacyferklearring</a> fan Pocket<br />\n"
+"              De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan "
+"Firefox\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1467,11 +1479,11 @@ msgstr "Us team is op ’e hichte brocht. Rapporten as dizze helpe ús ynkringer
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Fier befêstigingskoade <span class=\"card-subheader\">foar jo Firefox-account</span> yn"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Fier binnen 5 minuten de koade yn dy’t nei %(email)s is ferstjoerd."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1534,6 +1546,13 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"              As jo trochgean, stimme jo yn mei:<br />\n"
+"              De <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tsjinstbetingsten</a> en <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacyferklearring</a> fan Pocket<br />\n"
+"              De <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan "
+"Firefox\n"
+"            "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1674,7 +1693,7 @@ msgstr "Miskien letter"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Fier binnen 5 minuten de befêstigingskoade yn dy’t nei %(escapedEmail)s ferstjoerd is."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1879,12 +1898,16 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr "Wêrom moat ik dit account oanmeitsje? <a %(escapedSuggestionAttrs)s>Lês it hjir</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr "Hoe âld binne jo?"
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "Jo moatte op syn minst 13 jier âld wêze om in account oan te meitsjen."
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1976,7 +1999,7 @@ msgstr "Ja, apparaat goedkarre"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "As jo dit net jo wiene, <a id=\"change-password\" class=\"link-blue\">wizigje dan jo wachtwurd</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -2018,23 +2041,23 @@ msgstr "It ynstelproses is ôfbrutsen."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Download Firefox on your phone or tablet"
-msgstr ""
+msgstr "Download Firefox op jo telefoan of tablet"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
-msgstr ""
+msgstr "QR-koade"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
-msgstr ""
+msgstr "Om Firefox op jo mobile apparaat te downloaden, hâld de kamera fan it apparaat boppe dizze koade om te scannen."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "Of, stjoer josels in <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">downloadkeppeling.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
-msgstr ""
+msgstr "Ik bin ree om apparaten te syngronisearjen"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
@@ -2063,1879 +2086,3 @@ msgstr "Keppelje mei in app"
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr "Hawwe jo de systeemkamera brûkt? Jo moatte fan in Firefox-app út keppelje."
-
-#~ msgid "Primary email verified"
-#~ msgstr "Primêr e-mailadres ferifiearre"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "Sekundêr e-mailadres ferifiearre"
-
-#~ msgid "Account verified"
-#~ msgstr "Account ferifiearre"
-
-#~ msgid "Verification link expired"
-#~ msgstr "Ferifikaasjekeppeling ferrûn"
-
-#~ msgid "Click here to receive a new verification link"
-#~ msgstr "Klik hjir om in nije ferifikaasjekeppeling te ûntfangen"
-
-#~ msgid "Verification error"
-#~ msgstr "Ferifikaasjeflater"
-
-#~ msgid "Check your email for the verification link sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "Kontrolearje jo e-mail op de ferifikaasjekeppeling dy’t&nbsp;nei %(escapedEmail)s is ferstjoerd"
-
-#~ msgid "Email verified"
-#~ msgstr "E-mailadres ferifiearre"
-
-#~ msgid "Verified"
-#~ msgstr "Ferifiearre"
-
-#~ msgid "Verify"
-#~ msgstr "Ferifiearje"
-
-#~ msgid "Enter verification code"
-#~ msgstr "Fier ferifikaasjekoade yn"
-
-#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 5 minutes."
-#~ msgstr "Fier binnen 5 minuten de ferifikaasjekoade yn dy’t nei %(escapedEmail)s ferstjoerd is."
-
-#~ msgid "Logins and Passwords"
-#~ msgstr "Oanmeldingen en wachtwurden"
-
-#~ msgid "Get Firefox on your phone or tablet"
-#~ msgstr "Download Firefox op jo telefoan of tablet"
-
-#~ msgid ""
-#~ "\n"
-#~ "          Enter your password <span class=\"description\">for your Firefox account</span>\n"
-#~ "        "
-#~ msgstr ""
-#~ "\n"
-#~ "          Fier jo wachtwurd <span class=\"description\">foar jo Firefox-account</span> yn\n"
-#~ "        "
-
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-#~ msgstr "Troch fierder te gean, geane jo akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a>."
-
-#~ msgid ""
-#~ "\n"
-#~ "              By proceeding, you agree to:<br />\n"
-#~ "              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br /"
-#~ ">\n"
-#~ "              Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "              As jo trochgean, stimme jo yn mei:<br />\n"
-#~ "              De <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tsjinstbetingsten</a> en <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacyferklearring</a> fan "
-#~ "Pocket<br />\n"
-#~ "              De <a id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox\n"
-#~ "            "
-
-#~ msgid ""
-#~ "\n"
-#~ "            By proceeding, you agree to:<br />\n"
-#~ "            Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
-#~ "            Firefox’s <a id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
-#~ "          "
-#~ msgstr ""
-#~ "\n"
-#~ "            As jo trochgean, Stimme jo yn mei:<br />\n"
-#~ "            De <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Tsjinstbetingsten</a> en <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacyferklearring</a> fan "
-#~ "Pocket<br />\n"
-#~ "            De <a id=\"fxa-tos\" href=\"/legal/terms\">Tsjinstbetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\">Privacyferklearring</a> fan Firefox\n"
-#~ "          "
-
-#~ msgid "If this wasn’t you, <a id=\"change-password\">change your password</a> "
-#~ msgstr "As jo dit net jo wiene, <a id=\"change-password\">wizigje dan jo wachtwurd</a>"
-
-#~ msgid "Hold your phone's camera over the code to scan."
-#~ msgstr "Hâld de kamera fan jo telefoan foar de koade om te scannen."
-
-#~ msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">download link.</a>"
-#~ msgstr "Of, stjoer josels in <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" class=\"download-firefox-mobile\">downloadkeppeling.</a>"
-
-#~ msgid "I'm ready to sync devices"
-#~ msgstr "Ik bin ree om apparaten te syngronisearjen"
-
-#~ msgid "You must meet certain age requirements to create a Firefox&nbsp;Account."
-#~ msgstr "Jo moatte oan bepaalde leeftiidskritearia foldwaan om in Firefox-account oan te meitsjen."
-
-#~ msgid "Check your email for the code sent to %(email)s."
-#~ msgstr "Kontrolearje jo e-mail op de koade dy’t nei %(email)s is ferstjoerd."
-
-#~ msgid "You need to be at least 13 years old to create an account."
-#~ msgstr "Jo moatte op syn minst 13 jier âld wêze om in account oan te meitsjen."
-
-#~ msgid "Why is more than one device required?"
-#~ msgstr "Wêrom is mear as ien apparaat nedich?"
-
-#~ msgid "Why sync multiple devices?"
-#~ msgstr "Wêrom mear apparaten syngronisearje?"
-
-#~ msgid "The Sync service isn’t a permanent backup, it’s simply a secure way to transfer saved bookmarks, history and passwords between your own devices."
-#~ msgstr "De Sync-tsjinst is gjin permaninte reservekopy; it is net mear as in feilige manier om bewarre blêdwizers, skiednis en wachtwurden tusken jo eigen apparaten oer te dragen."
-
-#~ msgid "You should install Firefox and sync at least two devices to protect against losing your data if you need to restore it but forget your password."
-#~ msgstr "Jo moatte Firefox en Sync op op syn minst twa apparaten ynstallearje om ferlies fan jo gegevens foar te kommen as jo dizze weromhelje wolle, mar jo wachtwurd ferjitten binne."
-
-#~ msgid "Got it"
-#~ msgstr "Begrepen"
-
-#~ msgid "One account, many services"
-#~ msgstr "Ien account, in protte tsjinsten"
-
-#~ msgid "Firefox browser"
-#~ msgstr "Firefox-browser"
-
-#~ msgid "Sync your bookmarks, passwords, and more on every device."
-#~ msgstr "Syngronisearje jo blêdwizers, wachtwurden en mear op al jo apparaten."
-
-#~ msgid "Mozilla VPN"
-#~ msgstr "Mozilla VPN"
-
-#~ msgid "A VPN from the trusted pioneer in internet privacy."
-#~ msgstr "In VPN fan de fertroude pionier op it mêd fan ynternetprivacy."
-
-#~ msgid "Pocket"
-#~ msgstr "Pocket"
-
-#~ msgid "Save and discover the best stories from across the web."
-#~ msgstr "Bewarje en ûntdek de beste ferhalen fan oeral op ynternet."
-
-#~ msgid "Firefox Relay"
-#~ msgstr "Firefox Relay"
-
-#~ msgid "Sign up for new accounts without handing over your email address."
-#~ msgstr "Skriuw jo yn foar nije accounts sûnder jo e-mailadres ôf te jaan."
-
-#~ msgid "See all"
-#~ msgstr "Alles besjen"
-
-#~ msgid "Stay safe &mdash; don't reuse passwords."
-#~ msgstr "Bliuw feilich &mdash; brûk wachtwurden net opnij."
-
-#~ msgid "Must not be your email address"
-#~ msgstr "Mei net jo e-mailadres wêze"
-
-#~ msgid "Must not match this <a %(escapedCommonPasswordLinkAttrs)s>list of common passwords</a>"
-#~ msgstr "Mei net foarkomme yn dizze <a %(escapedCommonPasswordLinkAttrs)s>list mei faak brûkte wachtwurden</a>"
-
-#~ msgid "Approve new device <small>for %(email)s</small>"
-#~ msgstr "Nij apparaat goedkarre <small>foar %(email)s</small>"
-
-#~ msgid "Approve device"
-#~ msgstr "Apparaat goedkarre"
-
-#~ msgid "You are now syncing with:"
-#~ msgstr "Jo syngronisearje no mei:"
-
-#~ msgid "Scan to connect another device"
-#~ msgstr "Scanne om in oar apparaat te ferbinen"
-
-#~ msgid "Open the code scanner on your Firefox app and show code when ready."
-#~ msgstr "Iepenje de koadescanner yn jo Firefox-app en lit de koade sjen wannear’t jo ree binne."
-
-#~ msgid "Show code"
-#~ msgstr "Koade toane"
-
-#~ msgid "Would you like to sync your phone?"
-#~ msgstr "Wolle jo jo telefoan syngronisearje?"
-
-#~ msgid "Send a link by SMS to install Firefox on your phone."
-#~ msgstr "Ferstjoer in keppeling per sms om Firefox op jo telefoan te ynstallearjen."
-
-#~ msgid "Mobile phone number"
-#~ msgstr "Mobile telefoannûmer"
-
-#~ msgid "SMS &amp; data rates may apply. The recipient’s consent is required. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr "Kosten foar sms en data binne mooglik fan tapassing. De ynstimming fan de ûntfanger is fereaske. <a %(escapedLearnMoreAttributes)s>Mear ynfo</a>"
-
-#~ msgid "Not now"
-#~ msgstr "No net"
-
-#~ msgid "Check your texts"
-#~ msgstr "Kontrolearje jo sms-berjochten"
-
-#~ msgid "We've sent you a text message"
-#~ msgstr "Wy hawwe jo in sms stjoerd"
-
-#~ msgid "A link to the Firefox app was sent to %(escapedPhoneNumber)s"
-#~ msgstr "Der is in keppeling nei de Firefox-app ferstjoerd nei %(escapedPhoneNumber)s"
-
-#~ msgid "Wrong number?"
-#~ msgstr "Ferkeard nûmer?"
-
-#~ msgid "If you are not receiving the SMS message, you can also search your app store for “Firefox.”"
-#~ msgstr "As jo it sms-berjocht net ûntfange, dan kinne jo ek yn jo app-winkel nei ‘Firefox’ sykje."
-
-#~ msgid "Didn't arrive? Resend"
-#~ msgstr "Net oankommen? Opnij ferstjoere"
-
-#~ msgid "Why sign in on another device?"
-#~ msgstr "Wêrom oanmelde op in oar apparaat?"
-
-#~ msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-#~ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-with-my-firefox-account\">Help</a>"
-
-#~ msgid "Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-#~ msgstr "Trochgean nei <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-
-#~ msgid "You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>"
-#~ msgstr "Jo binne no klear om <div class=\"graphic graphic-client-pocket\">Pocket</div> te brûken"
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
-#~ "encrypt your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr ""
-#~ "<span>ÛNTHÂLD:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. "
-#~ "Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have."
-#~ msgstr ""
-#~ "<span>NOAT:</span> wannear’t jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit "
-#~ "komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen. Jo behâlde al jo eventuele abonneminten."
-
-#~ msgid "Firefox Lockwise"
-#~ msgstr "Firefox Lockwise"
-
-#~ msgid "Securely access passwords saved in Firefox anywhere &mdash; even outside of the browser."
-#~ msgstr "Krij oeral feilich tagong ta wachtwurden dy’t jo yn Firefox bewarre hawwe &ndash; sels bûten de browser."
-
-#~ msgid "Firefox Monitor"
-#~ msgstr "Firefox Monitor"
-
-#~ msgid "Get a lookout for data breaches."
-#~ msgstr "Untfang oersichten fan datalekken."
-
-#~ msgid ""
-#~ "\n"
-#~ "              <!-- L10N: Pocket image follows `You are now ready to use` -->\n"
-#~ "              You are now ready to use <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
-#~ "          "
-#~ msgstr ""
-#~ "\n"
-#~ "              <!-- L10N: Pocket-ôfbylding folget op ‘Jo binne no klear om […] te brûken’ -->\n"
-#~ "              Jo binne no klear om <div class=\"graphic graphic-client-pocket\">Pocket</div> te brûken\n"
-#~ "          "
-
-#~ msgid ""
-#~ "\n"
-#~ "                <!-- L10N: For languages structured like English, the phrase can read \"to continue to\" with Pocket image following -->\n"
-#~ "                Continue to <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "                <!-- L10N: foar talen dy’t strukturearre binne as Ingelsk, kin de sin lêzen wurde as ‘om troch te gean nei’ mei dêrnei Pocket-ôfbylding -->\n"
-#~ "                Tochgean nei <div class=\"graphic graphic-client-pocket\">Pocket</div>\n"
-#~ "            "
-
-#~ msgid "Continue to"
-#~ msgstr "Trochgean nei"
-
-#~ msgid "Save and discover the best stories from accross the web."
-#~ msgstr "Bewarje en ûntdek de beste ferhalen fan oeral op ynternet."
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we "
-#~ "encrypt your data with your password to protect your privacy."
-#~ msgstr ""
-#~ "<span>ÛNTHÂLD:</span> wannear't jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. "
-#~ "Dit komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-#~ "your data with your password to protect your privacy."
-#~ msgstr ""
-#~ "<span>NOAT:</span> wannear't jo jo wachtwurd opnij ynstelle, stelle jo jo account opnij yn. Bepaalde persoanlike gegevens (wêrûnder skiednis, blêdwizers en wachtwurden) kinne ferlern gean. Dit "
-#~ "komt trochdat wy jo gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen."
-
-#~ msgid "Change..."
-#~ msgstr "Wizigje…"
-
-#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
-#~ msgstr "Brûk jo nije wachtwurd foar it oanmelden op al jo apparaten sa gau as jo klear binne."
-
-#~ msgid "Change"
-#~ msgstr "Wizigje"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Wachtwurd mei sukses wizige"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr ""
-#~ "Wy fine it spitich om dit te hearen. Jo moatte jo wachtwurd foar Firefox Account wizigje, en by de ynformaasje fan de fabrikant fan jo apparaat sjen hoe't jo gegevens op ôfstân wiskje kinne."
-
-#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "Wy fine it spitich om dit te hearen. As dit in apparaat wie dat jo echt net fertrouwe, dan moatte jo it wachtwurd foar Firefox Account wizigje, en elk wachtwurd bewarre yn Firefox wizigje."
-
-#~ msgid "Last seen %(translatedTimeAgo)s"
-#~ msgstr "Lêst sjoen: %(translatedTimeAgo)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s"
-#~ msgstr "Lêst sjoen: mear as %(translatedTimeAgo)s"
-
-#~ msgid "Last seen %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Lêst sjoen: %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Lêst sjoen: mear as %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last seen %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Lêst sjoen: %(translatedTimeAgo)s tichteby %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last seen over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Lêst sjoen: mear as %(translatedTimeAgo)s tichteby %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Lêst aktyf %(translatedTimeAgo)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s"
-#~ msgstr "Lêst aktyf: mear as %(translatedTimeAgo)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Lêst aktyf: %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Lêst aktyf: mear as %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Lêst aktyf: %(translatedTimeAgo)s by %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Lêst aktyf: mear as %(translatedTimeAgo)s by %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s"
-
-#~ msgid "Over %(translatedTimeAgo)s"
-#~ msgstr "Mear as %(translatedTimeAgo)s"
-
-#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Mear as %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s by %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Mear as %(translatedTimeAgo)s by %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Web Session, %(userAgent)s"
-#~ msgstr "Websesje, %(userAgent)s"
-
-#~ msgid "Web Session"
-#~ msgstr "Websesje"
-
-#~ msgid "Last seen time unknown"
-#~ msgstr "Lêst sjoen: ûnbekend"
-
-#~ msgid "Change…"
-#~ msgstr "Wizigje…"
-
-#~ msgid "Add…"
-#~ msgstr "Tafoegje…"
-
-#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
-#~ msgstr "Kies de namme dy't jo yn Firefox en by it behearen fan jo account ferskine litte wolle."
-
-#~ msgid "Display name updated"
-#~ msgstr "Werjeftenamme bywurke"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "Sekundêr e-mailadres fuortsmiten"
-
-#~ msgid "Verification email sent"
-#~ msgstr "Ferifikaasje-e-mail ferstjoerd"
-
-#~ msgid "Primary email set to %(email)s"
-#~ msgstr "Primêr e-mailadres ynsteld op %(email)s"
-
-#~ msgid "New recovery codes generated"
-#~ msgstr "Nije werstelkoaden generearre"
-
-#~ msgid "Two-step authentication removed"
-#~ msgstr "Autentikaasje yn twa stappen fuortsmiten"
-
-#~ msgid "Two-step Authentication"
-#~ msgstr "Autentikaasje yn twa stappen"
-
-#~ msgid "Account Recovery"
-#~ msgstr "Accountwerstel"
-
-#~ msgid "Account recovery revoked"
-#~ msgstr "Accountwerstel útskeakele"
-
-#~ msgid "Your credit card has expired. Please update it <a %(escapedCcExpiredLinkAttrs)s>here</a>."
-#~ msgstr "Jo creditcard is ferrûn. Wurkje jo gegevens <a %(escapedCcExpiredLinkAttrs)s>hjir</a> by."
-
-#~ msgid "Sign out"
-#~ msgstr "Ofmelde"
-
-#~ msgid "Take picture"
-#~ msgstr "Foto meitsje"
-
-#~ msgid "Upload"
-#~ msgstr "Oplade"
-
-#~ msgid "Camera"
-#~ msgstr "Kamera"
-
-#~ msgid "Clear"
-#~ msgstr "Wiskje"
-
-#~ msgid "Avatar"
-#~ msgstr "Avatar"
-
-#~ msgid "Position and rotate your picture as needed"
-#~ msgstr "Pleats en draai sa nedich jo foto"
-
-#~ msgid "Disconnect from Sync"
-#~ msgstr "Ferbining mei Sync ferbrekke"
-
-#~ msgid "Your browsing data will remain on %(deviceName)s, but it will no longer sync with your account."
-#~ msgstr "Jo navigaasjegegevens bliuwe op %(deviceName)s bestean, mar der wurdt net mear mei jo account syngronisearre."
-
-#~ msgid "You are disconnecting %(deviceName)s from Sync because this device is:"
-#~ msgstr "Jo ferbrekke de ferbining fan %(deviceName)s mei Sync, omdat dit apparaat:"
-
-#~ msgid "Suspicious"
-#~ msgstr "Fertocht is"
-
-#~ msgid "Lost or stolen"
-#~ msgstr "Ferlern of stellen is"
-
-#~ msgid "Old or replaced"
-#~ msgstr "Ald of ferfongen is"
-
-#~ msgid "Duplicate"
-#~ msgstr "In duplikaat is"
-
-#~ msgid "Rather not say"
-#~ msgstr "Wol ik leaver net melde"
-
-#~ msgid "Disconnect"
-#~ msgstr "Ferbining ferbrekke"
-
-#~ msgid "Disconnection Successful"
-#~ msgstr "Ferbrekken is slagge"
-
-#~ msgid "Devices & apps"
-#~ msgstr "Apparaten en apps"
-
-#~ msgid "Show"
-#~ msgstr "Toane"
-
-#~ msgid "Current device"
-#~ msgstr "Aktuele apparaat"
-
-#~ msgid "Disconnect…"
-#~ msgstr "Ferbrekke…"
-
-#~ msgid "Current session"
-#~ msgstr "Aktuele sesje"
-
-#~ msgid "Revoke"
-#~ msgstr "Ynlûke"
-
-#~ msgid "Firefox for iOS"
-#~ msgstr "Firefox foar iOS"
-
-#~ msgid "None connected"
-#~ msgstr "Neat keppele"
-
-#~ msgid "Firefox for Android"
-#~ msgstr "Firefox foar Android"
-
-#~ msgid "Missing or duplicate items?"
-#~ msgstr "Untbrekkende of dûbele items?"
-
-#~ msgid "Refresh status"
-#~ msgstr "Steat fernije"
-
-#~ msgid "Email preferences"
-#~ msgstr "E-mailfoarkarren"
-
-#~ msgid "Delete account"
-#~ msgstr "Account fuortsmite"
-
-#~ msgid "Delete…"
-#~ msgstr "Fuortsmite…"
-
-#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions</a>."
-#~ msgstr "Wolle jo in betelle abonnemint opsizze? Gean nei <a href=\"/subscriptions\">Abonneminten</a>."
-
-#~ msgid "You've connected your Firefox account to Mozilla products that keep you secure and productive on the web:"
-#~ msgstr "Jo hawwe jo Firefox-account ferbûn mei Mozilla-produkten dy't jo feilich en produktyf hâlde op ynternet:"
-
-#~ msgid "Please acknowledge that by deleting your account:"
-#~ msgstr "Befêstigje dat troch jo account fuort te smiten:"
-
-#~ msgid "Any paid subscriptions you have will be cancelled"
-#~ msgstr "Alle betelle abonneminten dy't jo hawwe wurde opsein"
-
-#~ msgid "Any extensions and themes that you published to addons.mozilla.org will be deleted"
-#~ msgstr "Alle útwreidingen en tema’s dy't jo op addons.mozilla.org publisearre hawwe sille fuortsmiten wurde"
-
-#~ msgid "You may lose saved information and features within Mozilla products"
-#~ msgstr "Jo bewarre ynformaasje en funksjes yn Mozilla-produkten ferlieze kinne"
-
-#~ msgid "Reactivating with this email may not restore your saved information"
-#~ msgstr "Jo bewarre ynformaasje mooglik net wersteld wurde kinne, as jo dit e-mailadres opnij aktivearje"
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new devices."
-#~ msgstr "In sekundêr e-mailadres is in oanfoljend adres foar it ûntfangen fan befeiligingsmeldingen en it befêstigjen fan nije apparaten."
-
-#~ msgid "Verification required"
-#~ msgstr "Ferifikaasje fereaske"
-
-#~ msgid "Make primary"
-#~ msgstr "Primêr meitsje"
-
-#~ msgid "Remove"
-#~ msgstr "Fuortsmite"
-
-#~ msgid "Refresh"
-#~ msgstr "Ferfarskje"
-
-#~ msgid "Add email"
-#~ msgstr "E-mailadres tafoegje"
-
-#~ msgid "Add"
-#~ msgstr "Tafoegje"
-
-#~ msgid "NOTE:"
-#~ msgstr "NOTYSJE:"
-
-#~ msgid "By generating new recovery codes, all previous codes will become invalid. Please store new codes in a safe location."
-#~ msgstr "Troch nije werstelkoades te generearjen, wurde alle foargeande koaden ûnjildich. Bewarje nije koaden op in feilige lokaasje."
-
-#~ msgid "Generate new recovery codes"
-#~ msgstr "Nije werstelkoaden generearje"
-
-#~ msgid "Confirm a recovery code"
-#~ msgstr "Befêstigje in werstelkoade"
-
-#~ msgid "Manage…"
-#~ msgstr "Beheare…"
-
-#~ msgid "Enter this secret key into your authentication app:"
-#~ msgstr "Fier dizze geheime kaai yn yn jo app foar autentikaasje:"
-
-#~ msgid "Two-step authentication"
-#~ msgstr "Autentikaasje yn twa stappen"
-
-#~ msgid "Enable…"
-#~ msgstr "Ynskeakelje…"
-
-#~ msgid "Current status"
-#~ msgstr "Aktuele steat"
-
-#~ msgid "Enabled"
-#~ msgstr "Ynskeakele"
-
-#~ msgid "Disabled"
-#~ msgstr "Utskeakele"
-
-#~ msgid "Disable"
-#~ msgstr "Utskeakelje"
-
-#~ msgid "Enable"
-#~ msgstr "Ynskeakelje"
-
-#~ msgid "Replace recovery codes"
-#~ msgstr "Werstelkoaden ferfange"
-
-#~ msgid "Before you can view or make changes to this section, you will need to verify your email address."
-#~ msgstr "Jo moatte jo e-mailadres ferifiearje, eardat jo dizze seksje besjen of wizigje kinne."
-
-#~ msgid "Primary email"
-#~ msgstr "Primêr e-mailadres"
-
-#~ msgid "Account recovery"
-#~ msgstr "Accountwerstel"
-
-#~ msgid "Generate a recovery key to regain access to your Firefox bookmarks, passwords, and synced data if you forget your password."
-#~ msgstr "Generearje in werstelkaai om wer tagong ta jo blêdwizers, wachtwurden en syngronisearre gegevens fan Firefox te krijen as jo jo wachtwurd ferjitte."
-
-#~ msgid "Recovery key"
-#~ msgstr "Werstelkaai"
-
-#~ msgid "Not set"
-#~ msgstr "Net ynsteld"
-
-#~ msgid "Generate"
-#~ msgstr "Generearje"
-
-#~ msgid ""
-#~ "<span class=\"note\">NOTE: </span>Your Firefox Account password encrypts your Firefox data. Only your password or recovery key can access your data. <a %(escapedLearnMoreLinkAttributes)s>Learn "
-#~ "more</a>"
-#~ msgstr ""
-#~ "<span class=\"note\">NOAT: </span>jo Firefox-accountwachtwurd fersiferet jo Firefox-gegevens. Allinnich jo wachtwurd of werstelkaai kin tagong ta jo gegevens krije. <a "
-#~ "%(escapedLearnMoreLinkAttributes)s>Mear ynfo</a>"
-
-#~ msgid "Are you sure you want to revoke?"
-#~ msgstr "Binne jo wis dat jo de kaai ynlûke wolle?"
-
-#~ msgid "You will be unable to use your recovery key to access your data in the event you reset your password."
-#~ msgstr "Jo kinne jo werstelkaai net brûke om tagong ta jo gegevens te krijen yn it gefal dat jo jo wachtwurd opnij ynstelle."
-
-#~ msgid "Step 2 of 2: Save Recovery key"
-#~ msgstr "Stap 2 fan 2: werstelkaai bewarje"
-
-#~ msgid ""
-#~ "<span class=\"note\">NOTE: </span>If you forget your password, this key is required to regain access to your data. Save your recovery key in a safe location, where you can find it easily later."
-#~ msgstr ""
-#~ "<span class=\"note\">NOAT: </span>as jo jo wachtwurd ferjitte, is dizze kaai fereaske om wer tagong ta jo gegevens te krijen. Bewarje jo werstelkaai op in feilige lokaasje, wêr't jo dizze letter "
-#~ "maklik fine kinne."
-
-#~ msgid "Done, Recovery key saved"
-#~ msgstr "Klear, werstelkaai bewarre"
-
-#~ msgid "Please Select One"
-#~ msgstr "Selektearje ien"
-
-#~ msgid "Sign up to get more features:"
-#~ msgstr "Skriuw jo yn foar mear funksjes:"
-
-#~ msgid "Firefox Send"
-#~ msgstr "Firefox Send"
-
-#~ msgid "Send larger files securely and privately."
-#~ msgstr "Ferstjoer gruttere bestannen feilich en privee."
-
-#~ msgid "Firefox Account"
-#~ msgstr "Firefox-account"
-
-#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Subscriptions &amp; Payments</a>."
-#~ msgstr "Wolle jo in betelle abonnemint opsizze? Gean nei <a href=\"/subscriptions\">Abonneminten &amp; betellingen</a>."
-
-#~ msgid "Subscriptions & Payments"
-#~ msgstr "Abonneminten en betellingen"
-
-#~ msgid "Get app"
-#~ msgstr "App downloade"
-
-#~ msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedPlan)s</b>. We'll contact you via email as soon as possible."
-#~ msgstr "Tank foar jo fraach oan Mozilla Support oer <b>%(escapedLowercaseTopic)s</b> foar <b>%(escapedSelectedPlan)s</b>. Wy nimme sa gau as mooglik fia e-mail kontakt mei jo op."
-
-#~ msgid "General inquiries"
-#~ msgstr "Algemiene fragen"
-
-#~ msgid "Connection issues"
-#~ msgstr "Ferbiningsproblemen"
-
-#~ msgid "Getting started"
-#~ msgstr "Oan it wurk"
-
-#~ msgid "Firefox Private Network Android App"
-#~ msgstr "Firefox Private Network Android-app"
-
-#~ msgid "Firefox Private Network Windows App"
-#~ msgstr "Firefox Private Network Windows-app"
-
-#~ msgid "Sync this browser with your phone"
-#~ msgstr "Dizze browser mei jo telefoan syngronisearje"
-
-#~ msgid "Send Firefox directly to your smartphone and sign in to complete set-up"
-#~ msgstr "Stjoer Firefox daliks nei jo snoadfoan en meld jo oan om it ynstellen te foltôgjen"
-
-#~ msgid "Subscriptions &amp; Payments"
-#~ msgstr "Abonneminten &amp; betellingen"
-
-#~ msgid "Looking to cancel a paid subscription? Go to <a href=\"/subscriptions\">Manage Subscriptions</a>."
-#~ msgstr "Wolle jo in betelle abonnemint annulearje? Gean nei <a href=\"/subscriptions\">Behear abonneminten</a>."
-
-#~ msgid ""
-#~ "SMS service only available in certain countries. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr ""
-#~ "De sms-tsjinst is allinnich yn bepaalde lannen beskikber. Mooglik binne der kosten foar sms en gegevens fan tapassing. De beëage ûntfanger fan it e-mail- of sms-berjocht moat hjirmei akkoard "
-#~ "gien wêze. <a %(escapedLearnMoreAttributes)s>Mear ynfo</a>"
-
-#~ msgid "If you lose access to your account, youll be able to restore your sync data."
-#~ msgstr "As jo tagong ta jo account ferlieze, kinne jo jo syngronisearre gegevens werstelle."
-
-#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-#~ msgstr "Account bestiet al. <a href=\"/signin\">Oanmelde</a>"
-
-#~ msgid "Last sync %(translatedTimeAgo)s"
-#~ msgstr "Lêste syngronisaasje: %(translatedTimeAgo)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s"
-#~ msgstr "Lêste syngronisaasje: mear as %(translatedTimeAgo)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Lêste syngronisaasje: %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Lêste syngronisaasje: mear as %(translatedTimeAgo)s yn %(translatedCountry)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Lêste syngronisaasje: %(translatedTimeAgo)s by %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "Lêste syngronisaasje: mear as %(translatedTimeAgo)s by %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync time unknown"
-#~ msgstr "Lêste syngronisaasjetiidstip ûnbekend"
-
-#~ msgid "Subscribed successfully"
-#~ msgstr "Ynskriuwen slagge"
-
-#~ msgid "Open tabs"
-#~ msgstr "Iepen ljeplêden"
-
-#~ msgid "Logins"
-#~ msgstr "Oanmeldingen"
-
-#~ msgid "Credit cards"
-#~ msgstr "Creditcards"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox Sync"
-
-#~ msgid "Accounts with two-step authentication do not support pairing at this time"
-#~ msgstr "Accounts mei autentikaasje yn twa stappen stypje op dit stuit noch gjin pairing"
-
-#~ msgid "Did you mean <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-#~ msgstr "Bedoelden jo <span %(escapedEmailSuggestionAttrs)s>%(escapedDomain)s</span>?"
-
-#~ msgid "Please try again later"
-#~ msgstr "Probearje letter opnij"
-
-#~ msgid "Service unavailable, try again soon"
-#~ msgstr "Tsjinst net beskikber, probearje ynkoarten nochris"
-
-#~ msgid "%(email)s registered"
-#~ msgstr "%(email)s registrearre"
-
-#~ msgid "Save selections"
-#~ msgstr "Seleksjes bewarje"
-
-#~ msgid "Sign in to continue"
-#~ msgstr "Meld jo oan om troch te gean"
-
-#~ msgid "Create an account"
-#~ msgstr "In account oanmeitsje"
-
-#~ msgid "Use security code"
-#~ msgstr "Befeiligingskoade brûke"
-
-#~ msgid "Enter code"
-#~ msgstr "Koade ynfiere"
-
-#~ msgid "Use recovery code"
-#~ msgstr "Werstelkoade brûke"
-
-#~ msgid "Don’t lose this password. If you need to reset it, you may lose Sync data."
-#~ msgstr "Ferlies dit wachtwurd net. As jo it opnij ynstelle moatte, kinne jo Sync-gegevens kwytreitsje."
-
-#~ msgid "<span>Don’t reuse your email password</span>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr "<span>Brûk net itselde wachtwurd as foar jo e-mail</span>As ien jo e-mailwachtwurd wit, kinne se jo oanmelding foar Firefox op in nij apparaat brûke en tagong krije ta jo gegevens."
-
-#~ msgid "<span>Remember your password</span>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "<span>Unthâld jo wachtwurd</span>As jo it wachtwurd opnij ynstelle moatte, sille jo Sync-gegevens ferlieze dy't net op ien fan jo apparaten stiet."
-
-#~ msgid "Have an account? Sign in"
-#~ msgstr "Hawwe jo in account? Oanmelde"
-
-#~ msgid "Install Firefox on your smartphone and sign in to complete set-up"
-#~ msgstr "Ynstallearje Firefox op jo snoadfoan en meld jo oan om it ynstellen te foltôgjen"
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "App-keppeling ferstjoerd nei %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Typflater yn&nbsp;nûmer?</a>"
-
-#~ msgid "App link resent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped&nbsp;number?</a>"
-#~ msgstr "App-keppeling opnij ferstjoerd nij %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Typflater yn&nbsp;nûmer?</a>"
-
-#~ msgid "If you are not receiving the text message, you can also download the apps manually."
-#~ msgstr "As jo it sms-berjocht net ûntfange, kinne jo de apps ek hânmjittich downloade."
-
-#~ msgid "Disconnect from Sync?"
-#~ msgstr "Ferbrekke fan Sync?"
-
-#~ msgid "Suspicious device"
-#~ msgstr "Fertocht apparaat"
-
-#~ msgid "Lost or stolen device"
-#~ msgstr "Ferlern of stellen apparaat"
-
-#~ msgid "Old or replaced device"
-#~ msgstr "Ald of ferfongen apparaat"
-
-#~ msgid "Duplicate device"
-#~ msgstr "Dûbeld apparaat"
-
-#~ msgid "You will receive communications relating to your account security, changes to our policy, your account’s functionality and initial emails to help you get the most from your Firefox Account."
-#~ msgstr ""
-#~ "Om jo te helpen it measte út jo Firefox-account te heljen, ûntfange jo berjochten mei betrekking ta jo accountbefeiliging, wizigingen oan ús belied, de funksjonaliteit fan jo account, en "
-#~ "ynliedende e-mails."
-
-#~ msgid "Additionally, you can subscribe to receive promotional emails with the latest news from Mozilla and Firefox."
-#~ msgstr "Dêrneist kinne jo jo ynskriuwe foar it ûntfangen fan promosjonele e-mails mei it lêste nijs fan Mozilla en Firefox."
-
-#~ msgid "Subscribe"
-#~ msgstr "Ynskriuwe"
-
-#~ msgid "Manage preferences"
-#~ msgstr "Foarkarren beheare"
-
-#~ msgid ""
-#~ "If you use this account for Mozilla apps and services like AMO, Pocket, and Screenshots you should first log in and remove any saved personal information. Once you delete your account here you "
-#~ "may lose access to it everywhere."
-#~ msgstr ""
-#~ "As jo dizze account foar Mozilla-apps en -services lykas AMO, Pocket en Screenshots brûke, moatte jo jo earst oanmelde en alle bewarre persoanlike gegevens fuortsmite. Sa gau as jo hjir jo "
-#~ "account fuortsmite, kinne jo de tagong hjirta oeral kwytreitsje."
-
-#~ msgid "verified"
-#~ msgstr "ferifiearre"
-
-#~ msgid "verification required"
-#~ msgstr "ferifikaasje fereaske"
-
-#~ msgid "Recovery codes"
-#~ msgstr "Werstelkoaden"
-
-#~ msgid "These are your one time use recovery codes. Store them in a safe place in the event you lose access to your mobile device. You will not be able to see these codes again."
-#~ msgstr "Dit binne jo werstelkoaden foar ienmalich gebrûk. Bewarje se op in feilich plak foar it gefal dat jo gjin tagong mear hawwe ta jo mobile apparaat. Jo kinne dizze koaden net mear sjen."
-
-#~ msgid "Manually enter this secret key into your authentication app:"
-#~ msgstr "Fier dizze geheime kaai hânmjittich yn yn jo app foar autentikaasje:"
-
-#~ msgid "Your Firefox Account password"
-#~ msgstr "Wachtwurd fan jo Firefox-account"
-
-#~ msgid "Be original and be safe &mdash; don't reuse this password anywhere else."
-#~ msgstr "Wês orizjineel en feilich &ndash; brûk dit wachtwurd nearne oars."
-
-#~ msgid "Remember this password &mdash; resetting it erases your data from our servers."
-#~ msgstr "Unthâld dit wachtwurd &ndash; troch it opnij yn te stellen, wurde jo gegevens fan ús servers wiske."
-
-#~ msgid "Get App"
-#~ msgstr "App downloade"
-
-#~ msgid "Get the most out of your account"
-#~ msgstr "Helje it measte út jo account"
-
-#~ msgid "Sync these everywhere you sign in"
-#~ msgstr "Syngronisearje oeral wêr't jo jo oanmelde"
-
-#~ msgid "Practical knowledge is coming to your inbox"
-#~ msgstr "Jo ûntfange praktyske kennis yn jo Postfek Yn"
-
-#~ msgid "Sign up for more:"
-#~ msgstr "Ynskriuwe foar mear:"
-
-#~ msgid "Invite me to test new Mozilla products"
-#~ msgstr "Nûgje my út om nije Mozilla-produkten te testen"
-
-#~ msgid "One last step"
-#~ msgstr "In lêste stap"
-
-#~ msgid "Check %(escapedEmail)s for a confirmation link and we’ll get you on your way."
-#~ msgstr "Kontrolearje %(escapedEmail)s foar in befêstigingskeppeling en wy sille jo op paad helpe."
-
-#~ msgid "Sign in <span class=\"service\">to your Firefox account</span>"
-#~ msgstr "Meld jo oan <span class=\"service\">by jo Firefox-account</span>"
-
-#~ msgid "Create your Firefox account"
-#~ msgstr "Jo Firefox-account oanmeitsje"
-
-#~ msgid "You did it! You’re signed in."
-#~ msgstr "Slagge! Jo binne oanmeld."
-
-#~ msgid "Now get Firefox everywhere else."
-#~ msgstr "Ynstallearje no oeral Firefox."
-
-#~ msgid "Sign in on your other devices to get all the products, knowledge, and privacy features of Firefox."
-#~ msgstr "Meld jo oan op jo oare apparaten om alle produkten, kennis en privacyfunksjes fan Firefox te ûntfangen."
-
-#~ msgid "Get more from these features:"
-#~ msgstr "Helje mear út dizze funksjes:"
-
-#~ msgid "Travel the internet with protection, on every device."
-#~ msgstr "Reizgje beskerme op it ynternet, op elk apparaat."
-
-#~ msgid "Keep your passwords protected and portable."
-#~ msgstr "Hâld jo wachtwurden beskerme en draachber."
-
-#~ msgid "Share large files without prying eyes."
-#~ msgstr "Diel grutte bestannen sûnder nijsgjirrige blikken."
-
-#~ msgid "Could not get Subscription Platform Terms of Service"
-#~ msgstr "Koe de servicebetingsten fan it abonneminteplatfoarm net ophelje"
-
-#~ msgid "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a>."
-#~ msgstr ""
-#~ "Troch fierder te gean, geane jo akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Tsjinstbetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex="
-#~ "\"-1\">Privacyferklearring</a>."
-
-#~ msgid "Subscription Platform Terms of Service"
-#~ msgstr "Servicebetingsten fan it abonneminteplatfoarm"
-
-#~ msgid "Description of Issue"
-#~ msgstr "Omskriuwing fan it probleem"
-
-#~ msgid "Any subscriptions you have will be cancelled"
-#~ msgstr "Alle abonneminten dy't jo hawwe wurde annulearre"
-
-#~ msgid "Expired or invalid code"
-#~ msgstr "Ferrûn of ûnjildige koade"
-
-#~ msgid "Sync these everywhere you sign in:"
-#~ msgstr "Syngronisearje oeral wêr't jo jo oanmelde:"
-
-#~ msgid "Enable Sync"
-#~ msgstr "Sync ynskeakelje"
-
-#~ msgid "Please enter the verification code that was sent to %(escapedEmail)s within 20 minutes."
-#~ msgstr "Fier de ferifikaasjekoade yn dy't binnen 20 minuten nei %(escapedEmail)s ferstjoerd is."
-
-#~ msgid "Your message was sent to support"
-#~ msgstr "Jo berjocht is oan de stipeôfdieling ferstjoerd"
-
-#~ msgid "Expired or invalid signup code"
-#~ msgstr "Ferrûne of ûnjildige registraasjekoade"
-
-#~ msgid "%(email)s registered."
-#~ msgstr "%(email)s registrearre."
-
-#~ msgid "Communication preferences"
-#~ msgstr "Kommunikaasjefoarkarren"
-
-#~ msgid "Manage Subscriptions"
-#~ msgstr "Abonneminten beheare"
-
-#~ msgid "Refresh Status"
-#~ msgstr "Steat fernije"
-
-#~ msgid "Approve connections <small>to begin syncing</small>"
-#~ msgstr "Stean ferbiningen ta, <small>om syngronisearjen te starten</small>"
-
-#~ msgid "Approve connection"
-#~ msgstr "Ferbining tastean"
-
-#~ msgid "Approve this connection <small>from this device</small>"
-#~ msgstr "De ferbining tastean <small>fan dit apparaat</small>"
-
-#~ msgid "Use a different email address"
-#~ msgstr "In oar e-mailadres brûke"
-
-#~ msgid "Sign in &rarr;"
-#~ msgstr "Oanmelde &rarr;"
-
-#~ msgid "Attempting to pair"
-#~ msgstr "Keppeling wurdt probearre"
-
-#~ msgid "Error connecting to remote device"
-#~ msgstr "Flater by ferbinen mei ekstern apparaat"
-
-#~ msgid "Could not decrypt message from the remote device"
-#~ msgstr "Kin berjocht fan it eksterne apparaat net ûntsiferje"
-
-#~ msgid "Save settings"
-#~ msgstr "Ynstellingen bewarje"
-
-#~ msgid "Unknown Firefox Account. <a href=\"/signup\">Sign up</a> using your previous Add-ons account email address to access your Add-ons data."
-#~ msgstr "Unbekende Firefox-account. <a href=\"/signup\">Registrearje</a> mei help fan it e-mailadres fan jo eardere Add-ons-account om jo add-on-gegevens te benaderjen."
-
-#~ msgid "App link resent to %(phoneNumber)s"
-#~ msgstr "App-keppeling ferstjoerd nei %(phoneNumber)s"
-
-#~ msgid "Courtesy of <a href=\"https://www.gravatar.com\">Gravatar</a>"
-#~ msgstr "Mei tank oan <a href=\"https://www.gravatar.com\">Gravatar</a>"
-
-#~ msgid "Unsubscribed successfully"
-#~ msgstr "Utskriuwen slagge"
-
-#~ msgid "Email resent"
-#~ msgstr "E-mailberjocht opnij ferstjoerd"
-
-#~ msgid "No Gravatar found"
-#~ msgstr "Gjin Gravatar fûn"
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(escapedDomain)s</span>?"
-#~ msgstr "Bedoelden jo <span tabindex=\"1\">%(escapedDomain)s</span>?"
-
-#~ msgid "Resources failed to load"
-#~ msgstr "Boarnen lade misliearre"
-
-#~ msgid "Unexpected resource error"
-#~ msgstr "Unferwachte boarneflater"
-
-#~ msgid "Script error"
-#~ msgstr "Skriptflater"
-
-#~ msgid "SMS sent"
-#~ msgstr "Sms ferstjoerd"
-
-#~ msgid "Your number has been blocked"
-#~ msgstr "Jo nûmer is blokkearre"
-
-#~ msgid "SMS not sent, please try again"
-#~ msgstr "Sms net ferstjoerd, probearje opnij"
-
-#~ msgid "Learn more."
-#~ msgstr "Mear ynfo."
-
-#~ msgid "%(email)s created"
-#~ msgstr "%(email)s makke"
-
-#~ msgid "Add-ons and Preferences do not currently sync on mobile devices."
-#~ msgstr "Add-ons en foarkarren wurden op mobile apparaten op dit stuit net syngronisearre."
-
-#~ msgid "Click here to receive a new reset link"
-#~ msgstr "Klik hjir om in nije keppeling foar opnij ynstellen te ûntfangen"
-
-#~ msgid "Enter new password"
-#~ msgstr "Nij wachtwurd ynfiere"
-
-#~ msgid "Once you submit your new password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "Sa gau as jo jo nije wachtwurd ferstjoere, ferlieze jo alle Sync-gegevens dy't net op ien fan jo apparaten binne."
-
-#~ msgid "Learn how Sync works."
-#~ msgstr "Ynfo oer hoe't Sync wurket."
-
-#~ msgid "Submit new password"
-#~ msgstr "Nij wachtwurd ferstjoere"
-
-#~ msgid "Email Sent"
-#~ msgstr "E-mailberjocht ferstjoerd"
-
-#~ msgid "A verification link has been sent&nbsp;to %(escapedEmail)s"
-#~ msgstr "Der is in ferifikaasjekeppeling ferstjoerd&nbsp;nei %(escapedEmail)s"
-
-#~ msgid "To better protect your Firefox data, we've emailed a confirmation link to %(email)s"
-#~ msgstr "Wy hawwe in e-mail mei in befêstigingskeppeling  ferstjoerd nei %(email)s om jo Firefox-gegevens better te beskermjen."
-
-#~ msgid "Didn't arrive and not in spam folder? Resend"
-#~ msgstr "Net oankommen en net yn de map mei spam? Opnij ferstjoere"
-
-#~ msgid "Click on the link we've emailed you at %(email)s within the next hour to create a new password."
-#~ msgstr "Klik binnen in oere op de keppeling dy't wy fia %(email)s nei jo ferstjoerd hawwe om in nij wachtwurd oan te meitsjen."
-
-#~ msgid "This device is connected"
-#~ msgstr "Dit apparaat is keppele"
-
-#~ msgid "Open settings and select Sign in to Firefox to complete set-up"
-#~ msgstr "Iepenje de ynstellingen en selektearje Oanmelde by Firefox om de ynstallaasje te foltôgjen"
-
-#~ msgid "Why is this required?"
-#~ msgstr "Wêrom is dit fereaske?"
-
-#~ msgid "Cookies and local storage are required."
-#~ msgstr "Cookies en lokale opslach binne fereaske."
-
-#~ msgid ""
-#~ "By proceeding, you agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "Troch fierder te gean gean jo akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Servicebetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex="
-#~ "\"-1\">Privacyferklearring</a> fan Firefox-cloudtsjinten."
-
-#~ msgid "Firefox cloud services"
-#~ msgstr "Firefox-cloudservices"
-
-#~ msgid "Proceed"
-#~ msgstr "Fierdergean"
-
-#~ msgid "Reset account"
-#~ msgstr "Account werinisjalisearje"
-
-#~ msgid "When you reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "As jo jo wachtwurd opnij ynstelle, ferlieze jo alle Sync-gegevens dy't net op ien fan jo apparaten binne."
-
-#~ msgid "Remember password? Sign in."
-#~ msgstr "Witte jo jo wachtwurd noch? Meld jo oan."
-
-#~ msgid "Looking for your Add-ons data? <a href=\"/signup\">Sign up</a> for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Sykje jo jo add-on-gegevens? <a href=\"/signup\">Registrearje</a> foar in Firefox-account mei it e-mailadres fan jo âlde Add-ons-account."
-
-#~ msgid "Migrate your sync data by signing in to your Firefox&nbsp;Account."
-#~ msgstr "Migrearje jo Sync-gegevens troch jo oan te melden by jo Firefox-account."
-
-#~ msgid "To better protect your Firefox data, there is an authorization code waiting for you at %(email)s."
-#~ msgstr "Om jo Firefox-gegevens better te beskermjen, wachtet der foar jo in autorisaasjekoade op %(email)s."
-
-#~ msgid "Looking for Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Get started here</a>"
-#~ msgstr "Sykje jo Firefox Sync? <a href=\"%(escapedSyncSuggestionUrl)s\">Begjin hjir</a>"
-
-#~ msgid "Migrate your sync data by creating a new Firefox&nbsp;Account."
-#~ msgstr "Migrearje jo Sync-gegevens troch in nij Firefox-account oan te meitsjen."
-
-#~ msgid "Looking for your Add-ons data? Sign up for a Firefox Account with your old Add-ons account email address."
-#~ msgstr "Sykje jo jo add-on-gegevens? Registrearje foar in Firefox-account mei it e-mailadres fan jo âlde Add-ons-account."
-
-#~ msgid "A strong, unique password will keep your Firefox data safe from intruders."
-#~ msgstr "In sterk, unyk wachtwurd hâldt jo Firefox-gegevens feilich tsjin ynkringers."
-
-#~ msgid "Receive the monthly Firefox newsletter"
-#~ msgstr "De moanlikse nijsbrief ûntfange"
-
-#~ msgid ""
-#~ "SMS service available to U.S. phone numbers only. SMS &amp; data rates may apply. The intended recipient of the email or SMS must have consented. <a %(escapedLearnMoreAttributes)s>Learn more</a>"
-#~ msgstr ""
-#~ "Sms-tsjinst is allinnich foar telefoannûmers yn de FS beskikber. Mooglik binne der kosten foar sms en gegevens fan tapassing. De bedoelde ûntfanger fan it e-mail- of sms-berjocht moat hjirmei "
-#~ "akkoard gean wêze. <a %(escapedLearnMoreAttributes)s>Mear ynfo</a>"
-
-#~ msgid "App link sent to %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Mistyped number?</a>"
-#~ msgstr "App-keppeling ferstjoerd nei %(escapedPhoneNumber)s. <a %(escapedBackLinkAttrs)s>Ferkeard nûmer?</a>"
-
-#~ msgid "Why Sync two (or more!) devices?"
-#~ msgstr "Wêrom twa (of mear!) apparaten syngronisearje?"
-
-#~ msgid ""
-#~ "Sync lets you share the bookmarks, history and passwords you save to Firefox on one device with Firefox on other devices. Sign in to Firefox on your phone or tablet and everything you've saved "
-#~ "to Firefox for desktop will appear."
-#~ msgstr ""
-#~ "Mei Sync kinne jo de blêdwizers, skiednis en wachtwurden dy't jo yn Firefox op ien apparaat bewarje, diele mei Firefox op oare apparaten. Meld jo oan by Firefox op jo telefoan of tablet, en alle "
-#~ "yn Firefox foar desktop bewarre gegevens ferskine fansels."
-
-#~ msgid ""
-#~ "Sync isn't designed as a permanent backup – it's just sharing what is saved locally. If you reset your password and your data isn't stored on at least one other device, you could lose all the "
-#~ "information associated with the old password. That's why you'll want to install Firefox and use Sync on more than one device."
-#~ msgstr ""
-#~ "Sync is net ûntwurpen as permanint back-upsysteem – it dielt allinnich wat lokaal bewarre is. As jo jo wachtwurd opnij ynstelle en jo gegevens net op op syn minst ien oander apparaat bewarre "
-#~ "binne, kinne jo alle gegevens ferlieze dy't mei it âlde wachtwurd keppele binne. Om dy reden kinne jo Firefox op mear apparaten ynstallearje en Sync brûke."
-
-#~ msgid "Gravatar"
-#~ msgstr "Gravatar"
-
-#~ msgid "Save"
-#~ msgstr "Bewarje"
-
-#~ msgid "current device"
-#~ msgstr "aktueel apparaat"
-
-#~ msgid "current session"
-#~ msgstr "aktuele sesje"
-
-#~ msgid "none connected"
-#~ msgstr "neat keppele"
-
-#~ msgid "Receive the monthly Firefox newsletter."
-#~ msgstr "De moanlikse nijsbrief ûntfange"
-
-#~ msgid "Unsubscribe"
-#~ msgstr "Utskriuwe"
-
-#~ msgid "Are you sure you want to delete your account? This action cannot be undone."
-#~ msgstr "Binne jo wis dat jo jo account fuortsmite wiolle? Dizze aksje kin net ûngedien makke wurde."
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "Oanmelde by Sync"
-
-#~ msgid "Choose the account you would like to use to sync your tabs, bookmarks, passwords and more."
-#~ msgstr "Kies it account dat jo brûke wolle om jo ljepblêden, wachtwurden en mear te syngronisearjen."
-
-#~ msgid "Use OpenID"
-#~ msgstr "OpenID brûke"
-
-#~ msgid "Use Firefox Account"
-#~ msgstr "Firefox Account brûke"
-
-#~ msgid "first sync %(translatedTimeAgo)s"
-#~ msgstr "earste syngronisaasje: %(translatedTimeAgo)s"
-
-#~ msgid "last sync %(translatedTimeAgo)s"
-#~ msgstr "lêste syngronisaasje: %(translatedTimeAgo)s"
-
-#~ msgid "last active %(translatedTimeAgo)s"
-#~ msgstr "lêst aktyf: %(translatedTimeAgo)s"
-
-#~ msgid "last sync time unknown"
-#~ msgstr "lêste syngronisaasje: ûnbekend"
-
-#~ msgid "%(escapedEmail)s registered. <a %(escapedBackLinkParams)s>Mistyped email?</a>"
-#~ msgstr "%(escapedEmail)s is registrearre. <a %(escapedBackLinkParams)s>Typflater yn e-mailadres?</a>"
-
-#~ msgid "Check your email for the sign-in confirmation link sent to %(email)s"
-#~ msgstr "Kontrolearje jo e-mail op de befêstigingskeppeling foar oanmelding dy't nei %(email)s is ferstjoerd"
-
-#~ msgid "Signin confirmed"
-#~ msgstr "Oanmelding befêstige"
-
-#~ msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s"
-#~ msgstr "Accountmeldingen wurde no ek nei %(secondaryEmailVerified)s ferstjoerd"
-
-#~ msgid "We may send you emails related to your Firefox Account."
-#~ msgstr "Wy kinne jo e-mails stjoere mei betrekking ta jo Firefox-account."
-
-#~ msgid "Additionally, you can choose whether to receive the latest news about Mozilla and Firefox."
-#~ msgstr "Dêrneist kinne jo kieze oft jo it lêste nijs oer Mozilla en Firefox ûntfange wolle."
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices."
-#~ msgstr "In sekundêr e-mailadres is in ekstra adres foar it ûntfangen fan befeiligingsmeldingen en it befêstigjen fan nije Sync-apparaten."
-
-#~ msgid "Not in inbox or spam folder? Resend?"
-#~ msgstr "Net yn Postfek YN of map mei net-winske? Opnij ferstjoere?"
-
-#~ msgid "Codes copied"
-#~ msgstr "Koaden kopiearre"
-
-#~ msgid "Failed to copy codes. Please manually copy them."
-#~ msgstr "Koaden kopiearje mislearre. Kopiearje se hânmjittich."
-
-#~ msgid "Invalid sign-in verification code"
-#~ msgstr "Unjildige oanmeldferifikaasjekoade"
-
-#~ msgid "Print button image"
-#~ msgstr "Ofbylding fan knop Ofdrukke"
-
-#~ msgid "Download button image"
-#~ msgstr "Ofbylding fan knop Downloade"
-
-#~ msgid "Sign in to continue."
-#~ msgstr "Meld jo oan om troch te gean."
-
-#~ msgctxt "submit button"
-#~ msgid "Sign in"
-#~ msgstr "Oanmelde"
-
-#~ msgctxt "header text"
-#~ msgid "Sign in"
-#~ msgstr "Oanmelde"
-
-#~ msgctxt "button text"
-#~ msgid "Sign in"
-#~ msgstr "Oanmelde"
-
-#~ msgid ""
-#~ "<span>REMEMBER:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your "
-#~ "password to protect your privacy."
-#~ msgstr ""
-#~ "<span>ÛNTHÂLD:</span> as jo jo wachtwurd opnij ynstelle, wurdt in part fan jo gegevens wiske (wêrûnder syngronisearre servergegevens, lykas skiednis en blêdwizers). Dit komt troch dat wy jo "
-#~ "gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen."
-
-#~ msgid ""
-#~ "<span>NOTE:</span> If you reset your password, some of your data will be erased (including synced server data like history and bookmarks). That’s because we encrypt your data with your password "
-#~ "to protect your privacy."
-#~ msgstr ""
-#~ "<span>NOAT:</span> as jo jo wachtwurd opnij ynstelle, wurdt in part fan jo gegevens wiske (wêrûnder syngronisearre servergegevens, lykas skiednis en blâdwizers). Dit komt troch dat wy jo "
-#~ "gegevens mei jo wachtwurd fersiferje om jo privacy te beskermjen."
-
-#~ msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps.</a>"
-#~ msgstr "Foegje in ekstra befeiligingslaach ta oan jo account troch befeiligingskoaden fan ien fan <a %(escapedTotpSupportAttributes)s>dizze apps foar autentikaasje</a> te fereaskjen"
-
-#~ msgid ""
-#~ "\n"
-#~ "                These codes will only be shown and can only be used once. Store them in a safe place in the event you lose access to your mobile device.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "                Dizze koaden sille allinnich toand wurde en kinne mar ien kear brûkt wurde. Bewarje se op in feilich plak foar it gefal jo gjin tagong mear hawwe ta jo mobile apparaat.\n"
-#~ "            "
-
-#~ msgid "Add a layer of security to your account by requiring security codes from one of these authentication apps."
-#~ msgstr "Foegje in ekstra befeiligingslaach ta oan jo account troch befeiligingskoaden fan ien fan dizze autentikaasje-apps te fereaskjen."
-
-#~ msgid "A secondary email is an additional address for receiving security notices and confirming new Sync devices"
-#~ msgstr "In sekundêr e-mailadres is in oanfoljend adres foar it ûntfangen fan befeiligingsmeldingen en it befêstigjen fan nije Sync-apparaten"
-
-#~ msgid "Unlock…"
-#~ msgstr "Untskoattelje…"
-
-#~ msgid "verify to unlock section"
-#~ msgstr "ferifiearje om seksje te ûntskoatteljen"
-
-#~ msgid "Enter 8-digit recovery code"
-#~ msgstr "Fier 8-siferige werstelkoade yn"
-
-#~ msgid "Reverify to unlock section"
-#~ msgstr "Opnij ferifiearje om seksje te ûntskoatteljen"
-
-#~ msgid "Add an extra layer of security to your account by requiring security codes."
-#~ msgstr "Foegje in ekstra befeiligingslaach ta oan jo account troch befeiligingskoades te fereaskjen."
-
-#~ msgid "Scan the QR code in your app and confirm it is setup correctly by entering the security code it provides."
-#~ msgstr "Skan de QR-koade yn jo app en befêstigje de krekte konfiguraasje troch de oanbeane befeiligingskoade yn te fieren."
-
-#~ msgid "Can't scan code?"
-#~ msgstr "Kinne jo de koade net skanne?"
-
-#~ msgid "<span>Don’t reuse your email password</span><br/>If someone knows your email password, they can approve your Firefox sign-in on a new device and access your data."
-#~ msgstr "<span>Brûk net itselde wachtwurd as foar jo e-mail</span><br/>As ien jo e-mailwachtwurd wit, kinne se jo oanmelding foar Firefox op in nij apparaat brûke en tagong krije ta jo gegevens."
-
-#~ msgid "<span>Remember your password</span><br/>If you need to reset your password, you will lose any Sync data that is not on one of your devices."
-#~ msgstr "<span>Unthâld jo wachtwurd</span><br/>As jo it wachtwurd opnij ynstelle moatte, sille jo Sync-gegevens ferlieze dy't net op ien fan jo apparaten stiet."
-
-#~ msgid "over %(translatedTimeAgo)s"
-#~ msgstr "oer %(translatedTimeAgo)s"
-
-#~ msgid "last sync over %(translatedTimeAgo)s"
-#~ msgstr "lêste syngronisaasje: mear as %(translatedTimeAgo)s"
-
-#~ msgid "last active over %(translatedTimeAgo)s"
-#~ msgstr "lêst aktyf: mear as %(translatedTimeAgo)s"
-
-#~ msgid "Verify password"
-#~ msgstr "Wachtwurd befêstigje"
-
-#~ msgid "Next"
-#~ msgstr "Folgjende"
-
-#~ msgid "started syncing %(translatedTimeAgo)s"
-#~ msgstr "syngronisaasje start: %(translatedTimeAgo)s"
-
-#~ msgid "Didn't arrive and not in spam folder? Resend?"
-#~ msgstr "Net oankommen en net yn de map mei spam? Opnij ferstjoere?"
-
-#~ msgid "A verification link has been sent to %(email)s"
-#~ msgstr "Der is in ferifikaasjekeppeling ferstjoerd nei %(email)s"
-
-#~ msgid "Verification emailed to %(email)s"
-#~ msgstr "Ferifikaasje nei %(email)s ferstjoerd"
-
-#~ msgid "8 characters minimum, but longer if you plan to sync passwords."
-#~ msgstr "Minimaal 8 tekens, mar langer as jo fan doel binne wachtwurden te syngronisearjen."
-
-#~ msgid "This is a common password; please consider another one."
-#~ msgstr "Dit is in gebrûklik wachtwurd; oerweagje in oar."
-
-#~ msgid "Signed out successfully"
-#~ msgstr "Jo binne ôfmeld"
-
-#~ msgid "Incorrect password. To double-check what you've entered, press and hold down the Show button."
-#~ msgstr "Ferkeard wachtwurd. Om te kontrolearjen wat jo ynfierd hawwe, druk en hâldt de Toan-knop yndrukt."
-
-#~ msgid "Duplicate Device"
-#~ msgstr "Dûbeld apparaat"
-
-#~ msgid "Complete set-up by installing Firefox using the link sent to %(phoneNumber)s"
-#~ msgstr "Foltôgje it ynstellen troch Firefox te ynstallearjen fia de keppeling dy't nei %(phoneNumber)s ferstjoerd is"
-
-#~ msgid "Didn’t arrive? Resend"
-#~ msgstr "Net oankommen? Opnij ferstjoere"
-
-#~ msgid "Reason for disconnecting…"
-#~ msgstr "Reden foar ferbrekken…"
-
-#~ msgid "Forgot password"
-#~ msgstr "Wachtwurd ferjitten"
-
-#~ msgid "Firefox Sync will begin momentarily"
-#~ msgstr "Firefox Sync sil ynkoarten begjinne"
-
-#~ msgid "Have an account with a different email? <a href=\"%(escapedSignInUri)s\">Sign in</a>"
-#~ msgstr "Hawwe jo in account mei in oar e-mailadres? <a href=\"%(escapedSignInUri)s\">Oanmelde</a>"
-
-#~ msgid "Devices"
-#~ msgstr "Apparaten"
-
-#~ msgid "Stay in sync on the go:"
-#~ msgstr "Bliuw ûnderweis syngroan:"
-
-#~ msgid "Get Firefox for Android"
-#~ msgstr "Download Firefox foar Android"
-
-#~ msgid "You can manage your devices below."
-#~ msgstr "Jo kinne jo apparaten hjir ûnder beheare."
-
-#~ msgid "You can manage your devices and apps below."
-#~ msgstr "Hjirûnder kinne jo jo apparaten en apps beheare."
-
-#~ msgid "Did you mean <span tabindex=\"1\">%(domain)s</span>?"
-#~ msgstr "Bedoele jo <span tabindex=\"1\">%(domain)s</span>?"
-
-#~ msgid "A verification link has been sent&nbsp;to %(email)s"
-#~ msgstr "Der is in ferifikaasjekeppeling ferstjoerd&nbsp;nei: %(email)s"
-
-#~ msgid "Sync preferences"
-#~ msgstr "Sync-opsjes"
-
-#~ msgid ""
-#~ "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Get started here</a>"
-#~ msgstr "Sykje jo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync?utm_source=fx-website&utm_medium=fx-accounts&utm_campaign=fx-signup&utm_content=fx-sync-get-started\">Begjin hjir</a>"
-
-#~ msgid "Have an account with a different email? <a href=\"%(signinUri)s\">Sign in</a>"
-#~ msgstr "Hawwe jo in account mei in oar e-mailadres? <a href=\"%(signinUri)s\">Oanmelde</a>"
-
-#~ msgid ""
-#~ "Firefox is available for <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> and <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-#~ msgstr ""
-#~ "Firefox is beskikber foar <a href=\"%(linkWindows)s\">Windows</a>, <a href=\"%(linkOSX)s\">OS X</a>, <a href=\"%(linkAndroid)s\">Android</a>, <a href=\"%(linkIOS)s\">iOS</a> en <a href="
-#~ "\"%(linkLinux)s\">Linux</a>."
-
-#~ msgid "Last active: %(translatedTimeAgo)s"
-#~ msgstr "Lêst aktyf: %(translatedTimeAgo)s"
-
-#~ msgid "This is a common password; please consider another one. %(moreInfoLink)s"
-#~ msgstr "Dit is in gebrûklik wachtwurd; oerwaach in oar. %(moreInfoLink)s"
-
-#~ msgid "Create secure passwords to keep your identity safe"
-#~ msgstr "Feilige wachtwurden meitsje om jo identiteit feilich te hâlden"
-
-#~ msgid "Reason for disconnecting&hellip;"
-#~ msgstr "Reden foar ferbrekke&hellip;"
-
-#~ msgid "Disconnect&hellip;"
-#~ msgstr "Ferbrekke&hellip;"
-
-#~ msgid "Delete"
-#~ msgstr "Fuortsmite"
-
-#~ msgid "Attempt limit exceeded"
-#~ msgstr "Maksimaal oantal mooglikheden berikt"
-
-#~ msgid "Tabs"
-#~ msgstr "Ljepblêden"
-
-#~ msgid "Last active: days ago"
-#~ msgstr "Lêst aktyf: dagen lyn"
-
-#~ msgid "Last active: hours ago"
-#~ msgstr "Lêst aktyf: oeren lyn"
-
-#~ msgid "Last active: minutes ago"
-#~ msgstr "Lêst aktyf: minuten lyn"
-
-#~ msgid "Last active: months ago"
-#~ msgstr "Lêst aktyf: moannen lyn"
-
-#~ msgid "Last active: seconds ago"
-#~ msgstr "Lêst aktyf: sekonden lyn"
-
-#~ msgid "Last active: weeks ago"
-#~ msgstr "Lêst aktyf: wiken lyn"
-
-#~ msgid "Last active: years ago"
-#~ msgstr "Lêst aktyf: jierren lyn"
-
-#~ msgid "Resend email"
-#~ msgstr "E-mailbericht opnij ferstjoere"
-
-#~ msgid "Looking for Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Get started here.</a>"
-#~ msgstr "Sykje jo Firefox Sync? <a href=\"https://mozilla.org/firefox/sync\">Begjin hjir.</a>"
-
-#~ msgid "Send me the monthly Firefox newsletter."
-#~ msgstr "Ik wol elke moanne de nijsbrief ûntfange."
-
-#~ msgid "Have an account? Sign in."
-#~ msgstr "Hawwe jo in account? Meld jo oan."
-
-#~ msgid "Don't see all your devices?"
-#~ msgstr "Sjogge jo net al jo apparaten?"
-
-#~ msgid "days ago"
-#~ msgstr "dagen lyn"
-
-#~ msgid "hours ago"
-#~ msgstr "oeren lyn"
-
-#~ msgid "minutes ago"
-#~ msgstr "minuten lyn"
-
-#~ msgid "months ago"
-#~ msgstr "moannen lyn"
-
-#~ msgid "seconds ago"
-#~ msgstr "sekonden lyn"
-
-#~ msgid "weeks ago"
-#~ msgstr "wiken lyn"
-
-#~ msgid "years ago"
-#~ msgstr "jierren lyn"
-
-#~ msgid "Account unlocked, please try again"
-#~ msgstr "Account ûntskoattele, probearje it opnij"
-
-#~ msgid "Account unlocked"
-#~ msgstr "Account ûnskoattele"
-
-#~ msgid "Account locked. <a href=\"/confirm_account_unlock\">Send unlock email</a>"
-#~ msgstr "Account beskoattele. <a href=\"/confirm_account_unlock\">E-mail foar ûntskoatteling ferstjoere</a>"
-
-#~ msgid "Unlock link expired"
-#~ msgstr "Untskoattelingskeppeling ferrûn"
-
-#~ msgid "Unlock link damaged"
-#~ msgstr "Untskoattelingskeppeling skansearre"
-
-#~ msgid "Unlock error"
-#~ msgstr "Flater by ûntskoatteljen"
-
-#~ msgid "Unlock email sent"
-#~ msgstr "E-mail foar ûntskoatteling ferstjoerd"
-
-#~ msgid "For security reasons your account was put on lockdown. To perform account-level activities, please re-verify your account by clicking the verification link sent to %(email)s"
-#~ msgstr ""
-#~ "Om feilichheidsredenen is jo account beskoattele. Foar it útfieren fan aktiviteiten op accountniveau ferifiearje jo jo account opnij troch op de ferifikaasjekeppeling te klikken dy't nei "
-#~ "%(email)s ferstjoerd is"
-
-#~ msgid "Signup has been disabled"
-#~ msgstr "Registraasje is útskeakele"
-
-#~ msgid "Confirm new sign-in to Firefox"
-#~ msgstr "Nije oanmelding by Firefox befêstigje"
-
-#~ msgid "You signed in to Firefox from %(device)s, %(location)s."
-#~ msgstr "Jo binne oanmeld by Firefox fan %(device)s, %(location)s ôf."
-
-#~ msgid "You signed in to Firefox from %(device)s."
-#~ msgstr "Jo binne oanmeld by Firefox fan %(device)s ôf."
-
-#~ msgid "For added security, please confirm this sign-in to begin syncing with %(device)s."
-#~ msgstr "Befêstigje dizze oanmelding foar ekstra feilichheid om it syngronisearjen mei %(device)s te begjinnen."
-
-#~ msgid "Alternatively:"
-#~ msgstr "Alternatyf:"
-
-#~ msgid "This is an automated email; if you received it in error, no action is required."
-#~ msgstr "Dit is in automatysk e-mailberjocht; as jo it troch fersin ûntfongen hawwe, hoege jo neat te dwaan."
-
-#~ msgid "For more information, please visit <a %(supportLinkAttributes)s>Mozilla Support</a>"
-#~ msgstr "Besykje <a %(supportLinkAttributes)s>Mozilla Support</a> foar mear ynformaasje"
-
-#~ msgid "Verify Email"
-#~ msgstr "E-mailadres ferifiearje"
-
-#~ msgid "Verify your email to finish your Firefox Account sign-in"
-#~ msgstr "Ferifiearje jo e-mailadres om jo Firefox-accountoanmelding te foltôgjen"
-
-#~ msgid "(current)"
-#~ msgstr "(aktuele)"
-
-#~ msgid "Welcome to Sync"
-#~ msgstr "Wolkom by Sync"
-
-#~ msgid "Invalid data-flow-begin attribute"
-#~ msgstr "Ynfalide attribút data-flow-begin"
-
-#~ msgid "Home"
-#~ msgstr "Startside"
-
-#~ msgid "Missing parameter in request body: %(param)s"
-#~ msgstr "Untbrekkende parameter yn oanfraachtekst: %(param)s"
-
-#~ msgid "Sign up"
-#~ msgstr "Registrearje"
-
-#~ msgid "/force_auth requires an email"
-#~ msgstr "/force_auth fereasket in e-mailadres"
-
-#~ msgid "A reset link has been sent to %(email)s"
-#~ msgstr "Der is in werinisjalisaasjekeppeling ferstjoerd nei %(email)s"
-
-#~ msgid "Are you sure you want to reset your account password?"
-#~ msgstr "Binne jo wis dat jo jo accountwachtwurd opnij ynstelle wolle?"
-
-#~ msgid "Resetting your password will erase your browsing data from our servers. Any data on your devices will remain untouched. Begin the reset process by entering your email below."
-#~ msgstr ""
-#~ "Opnij ynstellen fan jo wachtwurd sil jo navigaasjegegevens fan ús servers wiskje. Gegevens op jo apparaten bliuwe ûnoantaast. Begjin it werinisjalisaasjeproses troch hjirûnder jo e-mailadres yn "
-#~ "te fieren."
-
-#~ msgid "a day"
-#~ msgstr "ien dei"
-
-#~ msgid "%d days"
-#~ msgstr "%d dagen"
-
-#~ msgid "about an hour"
-#~ msgstr "hast in oere"
-
-#~ msgid "%d hours"
-#~ msgstr "%d oer"
-
-#~ msgid "about a minute"
-#~ msgstr "hast ien minút"
-
-#~ msgid "%d minutes"
-#~ msgstr "%d minuten"
-
-#~ msgid "about a month"
-#~ msgstr "hast in moanne"
-
-#~ msgid "%d months"
-#~ msgstr "%d moannen"
-
-#~ msgid "a few seconds"
-#~ msgstr "in pear sekonden"
-
-#~ msgid "ago"
-#~ msgstr "lyn"
-
-#~ msgid "from now"
-#~ msgstr "fan no ôf"
-
-#~ msgid "about a year"
-#~ msgstr "hast in jier"
-
-#~ msgid "%d years"
-#~ msgstr "%d jierren"
-
-#~ msgid "Age is required"
-#~ msgstr "Leeftiid is fereaske"
-
-#~ msgid "Desktop Add-ons"
-#~ msgstr "Desktop-add-ons"
-
-#~ msgid "Desktop Preferences"
-#~ msgstr "Desktopfoarkarren"
-
-#~ msgid "Cookies required"
-#~ msgstr "Cookies fereaske"
-
-#~ msgid ""
-#~ "Please enable cookies in your browser which are required by Firefox Accounts. Cookies are small pieces of data stored in your browser that provide functionality such as remembering you between "
-#~ "sessions."
-#~ msgstr ""
-#~ "Skeakel cookies yn jo browser yn; dizze binne fereaske troch Firefox Accounts. Cookies binne lytse stikjes gegevens dy't yn jo browser bewarre wurde en funksjonaliteiten biede, lykas it "
-#~ "ûnthâlden fan jo tusken sesjes."
-
-#~ msgid "Firefox is coming soon to iOS!"
-#~ msgstr "Firefox komt nei iOS!"
-
-#~ msgid "Sign up to learn more"
-#~ msgstr "Meld jo oan om mear te lêzen"
-
-#~ msgid "1991"
-#~ msgstr "1991"
-
-#~ msgid "1992"
-#~ msgstr "1992"
-
-#~ msgid "1993"
-#~ msgstr "1993"
-
-#~ msgid "1994"
-#~ msgstr "1994"
-
-#~ msgid "1995"
-#~ msgstr "1995"
-
-#~ msgid "1996"
-#~ msgstr "1996"
-
-#~ msgid "1997"
-#~ msgstr "1997"
-
-#~ msgid "1998"
-#~ msgstr "1998"
-
-#~ msgid "1999"
-#~ msgstr "1999"
-
-#~ msgid "2000"
-#~ msgstr "2000"
-
-#~ msgid "2001"
-#~ msgstr "2001"
-
-#~ msgid "2002"
-#~ msgstr "2002"
-
-#~ msgid "2003"
-#~ msgstr "2003"
-
-#~ msgid "2004"
-#~ msgstr "2004"
-
-#~ msgid "2005"
-#~ msgstr "2005"
-
-#~ msgid "2006"
-#~ msgstr "2006"
-
-#~ msgid "2007"
-#~ msgstr "2007"
-
-#~ msgid "Year of birth required"
-#~ msgstr "Bertejier fereaske"
-
-#~ msgid "Valid birthday required"
-#~ msgstr "Jildige bertedei fereaske"
-
-#~ msgid "Choose What to Sync"
-#~ msgstr "Kies wat jo syngronisearje wolle"
-
-#~ msgid "Year of birth"
-#~ msgstr "Bertejier"
-
-#~ msgid "1990 or earlier"
-#~ msgstr "1990 of earder"
-
-#~ msgid "Month"
-#~ msgstr "Moanne"
-
-#~ msgid "January"
-#~ msgstr "jannewaris"
-
-#~ msgid "February"
-#~ msgstr "febrewaris"
-
-#~ msgid "March"
-#~ msgstr "maart"
-
-#~ msgid "April"
-#~ msgstr "april"
-
-#~ msgid "May"
-#~ msgstr "maaie"
-
-#~ msgid "June"
-#~ msgstr "juny"
-
-#~ msgid "July"
-#~ msgstr "july"
-
-#~ msgid "August"
-#~ msgstr "augustus"
-
-#~ msgid "September"
-#~ msgstr "septimber"
-
-#~ msgid "October"
-#~ msgstr "oktober"
-
-#~ msgid "November"
-#~ msgstr "novimber"
-
-#~ msgid "December"
-#~ msgstr "desimber"
-
-#~ msgid "Day"
-#~ msgstr "Dei"
-
-#~ msgid "Manage account"
-#~ msgstr "Account beheare"
-
-#~ msgid "Hello, <span>%(username)s</span>"
-#~ msgstr "Hallo <span>%(username)s</span>"
-
-#~ msgid "Edit profile"
-#~ msgstr "Profyl bewurkje"
-
-#~ msgid "Name"
-#~ msgstr "Namme"
-
-#~ msgid "Enter your email to reset&nbsp;the account password."
-#~ msgstr "Fier jo e-mailadres yn om it&nbsp;accountwachtwurd te werinisjalisearjen."
-
-#~ msgid "For security reasons, resetting your password will erase your Sync data from our servers. A new Sync backup will be created from your local browsing data."
-#~ msgstr "Om befeiligingsredenen sil werinisjalisearjen fan jo wachtwurd jo Sync-gegevens fan ús tsjinners wiskje. Der sil in nije Sync-reservekopy fan jo lokale navigaasjegegevens makke wurde."
-
-#~ msgid "You are signed in as"
-#~ msgstr "Jo binne oanmeld as"
-
-#~ msgid "Already have an account? Sign in."
-#~ msgstr "Hawwe jo al in account? Meld jo oan."
-
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-#~ "(%(serviceUri)s)."
-#~ msgstr ""
-#~ "Troch fierder te gean, gean ik akkoard mei de <a id=\"service-tos\" href=\"%(termsUri)s\">Tsjinstbetingsten</a> en<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacybelied</a> fan de "
-#~ "%(serviceName) fan (%(serviceUri)s)."
-
-#~ msgid ""
-#~ "By proceeding, I agree to the <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Terms of Service</a> and <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex=\"-1\">Privacy Notice</a> of "
-#~ "Firefox cloud services."
-#~ msgstr ""
-#~ "Troch fierder te gean gean ik akkoard mei de <a id=\"fxa-tos\" href=\"/legal/terms\" tabindex=\"-1\">Servicebetingsten</a> en <a id=\"fxa-pp\" href=\"/legal/privacy\" tabindex="
-#~ "\"-1\">Privacyferklearring</a> fan Firefox-cloudservices."
-
-#~ msgid "Subscribe to Firefox news and tips"
-#~ msgstr "Meld jo oan foar Firefox-nijs en tips"
-
-#~ msgid "%(serviceName)s would like to know…"
-#~ msgstr "%(serviceName) wol graach witte…"
-
-#~ msgid "Download Firefox for iOS."
-#~ msgstr "Download Firefox foar iOS."
-
-#~ msgid "Download Firefox for your mobile devices."
-#~ msgstr "Download Firefox foar jo mobile apparaten."
-
-#~ msgid "missing search parameter: %(itemName)s"
-#~ msgstr "sykparameter ûntbrekt: %(itemName)s"
-
-#~ msgid "Once you're ﬁnished, use your new password to sign in on all of your devices."
-#~ msgstr "Gebrûk jo nije wachtwurd foar it oanmelden op al jo apparaten sa gau jo klear binne."
-
-#~ msgid "Illegal iframe"
-#~ msgstr "Unjildich iframe"
-
-#~ msgid "Password changed"
-#~ msgstr "Wachtwurd wizige"
-
-#~ msgid "Unverified account. <a href=\"#\" id=\"resend\">Resend verification email</a>."
-#~ msgstr "Net-ferifiearre account. <a href=\"#\" id=\"resend\">Ferifikaasje-e-mail opnij ferstjoere</a>."
-
-#~ msgid "Password reset. Sign in to continue."
-#~ msgstr "Wachtwurd opnij ynsteld. Meld jo oan om troch te gean."
-
-#~ msgid "Signed out"
-#~ msgstr "Ofmeld"
-
-#~ msgid "Your verification email was just returned. Mistyped email? <a href=\"/signup\">Start over.</a>"
-#~ msgstr "Jo ferifikaasje-e-mail is sakrekt weromkaam. Typflater yn e-mailadres? <a href=\"/signup\">Begjin opnij.</a>"
-
-#~ msgid "Paste image URL"
-#~ msgstr "Ofbyldings-URL plakke"
-
-#~ msgid "Invalid password"
-#~ msgstr "Unjildich wachtwurd"
-
-#~ msgid "Invalid email and password"
-#~ msgstr "Unjildich e-mailadres en wachtwurd"
-
-#~ msgid "Invalid email or password"
-#~ msgstr "Unjildich e-mailadres of wachtwurd"
-
-#~ msgid "Old password invalid"
-#~ msgstr "Alde wachtwurd ûnjildich"
-
-#~ msgid "New password invalid"
-#~ msgstr "Nije wachtwurd ûnjildich"
-
-#~ msgid "Passwords don't match"
-#~ msgstr "Wachtwurden komme net oerien"
-
-#~ msgid "Please enter an email"
-#~ msgstr "Fier in e-mailadres yn"
-
-#~ msgid "Cannot connect to the internet"
-#~ msgstr "Kin gjin ferbining meitjse mei it ynternet"
-
-#~ msgid "Signed in successfully"
-#~ msgstr "Mei sukses oanmeld"
-
-#~ msgid "Create a Firefox Account for %(serviceName)s"
-#~ msgstr "In Firefox-account oanmeitsje"
-
-#~ msgid "Change Password"
-#~ msgstr "Wachtwurd wizigje"
-
-#~ msgid "Invalid authentication token in request signature"
-#~ msgstr "Unjildich ferifikaasjetoken yn oanfraachhântekening"
-
-#~ msgid "No token specified"
-#~ msgstr "Gjin token opjûn"
-
-#~ msgid "No code specified"
-#~ msgstr "Gjin koade opjûn"
-
-#~ msgid "No email specified"
-#~ msgstr "Gjin e-mailadres opjûn"
-
-#~ msgid "No uid specified"
-#~ msgstr "Gjin uid opjûn"
-
-#~ msgid "Service unavailable"
-#~ msgstr "Service net beskikber"
-
-#~ msgid "Completing sign up"
-#~ msgstr "Registraasje foltôgje"
-
-#~ msgid "Client has sent too many requests"
-#~ msgstr "Client hat te folle oanfragen ferstjoerd"
-
-#~ msgid "Delete Account"
-#~ msgstr "Account fuortsmite"

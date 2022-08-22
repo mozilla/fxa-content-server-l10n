@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-22 16:33+0000\n"
 "PO-Revision-Date: 2022-07-24 10:24+0000\n"
 "Last-Translator: Goce Mitevski <goce.mitevski@nicer2.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1864,10 +1864,14 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr ""
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -2045,57 +2049,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "Примарната е-пошта е потврдена"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "Секундарната е-пошта е потврдена"
-
-#~ msgid "Account verified"
-#~ msgstr "Сметката е потврдена"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "Лозинката е успешно променета"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "Жал ние што слушаме за ова. Треба да ја смените лозинката на сметката за Firefox и да побарате информации од производителот на вашиот уред за бришење на вашите податоци од далечина."
-
-#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "Жал ние што слушаме за ова. Ако ова е уредот на којшто навистина не му верувате, треба да ја смените лозинката на сметката за Firefox и да ги промените сите лозинки зачувани во Firefox."
-
-#~ msgid "Verification email sent"
-#~ msgstr "Испратена е е-пошта за потврда"
-
-#~ msgid "Primary email set to %(email)s"
-#~ msgstr "Примарната е-пошта е поставена на %(email)s"
-
-#~ msgid "New recovery codes generated"
-#~ msgstr "Нови кодови за обнова се генерирани"
-
-#~ msgid "Two-step authentication removed"
-#~ msgstr "Дво-чекорната автентификација е отстранета"
-
-#~ msgid "Two-step Authentication"
-#~ msgstr "Дво -чекорна автентикација"
-
-#~ msgid "Account Recovery"
-#~ msgstr "Обнова на сметка"
-
-#~ msgid "Account recovery revoked"
-#~ msgstr "Откажувањето на сметка е отповикано"
-
-#~ msgid "Last sync time unknown"
-#~ msgstr "Времето на последната синхронизација не е познато"
-
-#~ msgid "Open tabs"
-#~ msgstr "Отворени јазичиња"
-
-#~ msgid "Logins"
-#~ msgstr "Најавувања"
-
-#~ msgid "Credit cards"
-#~ msgstr "Кредитни картички"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox Sync"
