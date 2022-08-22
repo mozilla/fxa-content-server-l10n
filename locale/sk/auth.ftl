@@ -630,8 +630,19 @@ unblockCode-prompt = Ak áno, tu je autorizačný kód, ktorý potrebujete:
 unblockCode-prompt-plaintext = Ak áno, tu je autorizačný kód, ktorý potrebujete: { $unblockCode }
 unblockCode-report = Ak nie, pomôžte nám odraziť útočníkov a <a data-l10n-name="reportSignInLink">nahláste nám to</a>.
 unblockCode-report-plaintext = Ak nie, pomôžte nám odraziť útočníkov a nahláste nám to.
+confirm-email-2 = Potvrdiť účet
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Potvrdiť účet
+verificationReminderSecond-subject-2 = Nezabudnite potvrdiť svoj účet
+verificationReminderSecond-title-2 = Nenechajte si ujsť { -brand-firefox }!
+verificationReminderSecond-sub-description-2 = Staňte sa súčasťou nášho poslania premeniť internet na miesto, ktoré je otvorené pre každého.
+verificationReminderSecond-action-2 = Potvrdiť účet
+verify-title-2 = Poďte na internet pomocou { -brand-firefox(case: "gen") }
 verify-description = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefox }u čo najviac, začínajúc s:
 verify-subject = Dokončite vytváranie svojho účtu
+verify-action-2 = Potvrdiť účet
+verifyLogin-description-2 = Pomôžte nám zabezpečiť bezpečnosť vášho účtu potvrdením, že ste sa prihlásili:
+verifyLogin-subject-2 = Potvrdenie prihlásenia
 verifyLogin-action = Potvrdiť prihlásenie
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -653,6 +664,10 @@ verifySecondaryCode-action-2 = Potvrdiť e-mailovú adresu
 verifySecondaryCode-explainer = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho { -product-firefox-account(case: "gen", capitalization: "lower") }:
 verifySecondaryCode-prompt-2 = Použite tento potvrdzovací kód:
 verifySecondaryCode-expiry-notice-2 = Jeho platnosť vyprší po 5 minútach. Po potvrdení začnete na túto e-mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Potvrďte svoj účet
+verifyShortCode-title-2 = Poďte na internet pomocou { -brand-firefox(case: "gen") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefox(case: "gen") } čo najviac, začínajúc s:
 verifyShortCode-prompt-3 = Použite tento potvrdzovací kód:
