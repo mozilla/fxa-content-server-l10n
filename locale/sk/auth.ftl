@@ -163,15 +163,6 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Toto je automaticky generovaná e-mailová správa. Ak ste k svojmu { -product-firefox-account(case: "dat", capitalization: "lower") } nepridali žiadne nové zariadenie, mali by ste si okamžite zmeniť heslo na { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Toto je automaticky generovaná správa. Ak ste ju dostali omylom, nevyžaduje sa žiadna akcia.
-    Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
-automated-email-plaintext = Toto je automaticky generovaná správa. Ak ste si ju nevyžiadali, môžete ju ignorovať.
-automated-email-support = { automated-email-plaintext } Ďalšie informácie nájdete na stránkach <a data-l10n-name="mozillaSupportUrl">Podpora { -brand-mozilla(case: "gen") }</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Ďalšie informácie nájdete na stránkach Podpora { -brand-mozilla(case: "gen") }: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Toto je automatický e-mail; ak ste túto akciu nevykonali, zmeňte si svoje heslo:
 automated-email-reset =
@@ -221,9 +212,6 @@ subscriptionUpdateBillingTry-plaintext = Vašu platbu skúsime znova v priebehu 
 subscriptionUpdatePayment = Ak chcete zabrániť prerušeniu vašej služby, čo najskôr <a data-l10n-name="updateBillingUrl">aktualizujte svoje platobné údaje</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Ak chcete zabrániť prerušeniu vašej služby, čo najskôr aktualizujte svoje platobné údaje:
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Ďalšie informácie nájdete na stránke { $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -300,9 +288,6 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové prihlásenie k { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Nové prihlásenie k { $clientName }
 newDeviceLogin-action = Spravovať účet
 passwordChanged-subject = Heslo bolo aktualizované
 passwordChanged-title = Heslo bolo úspešne zmenené
@@ -325,12 +310,7 @@ passwordResetAccountRecovery-action = Vytvoriť nový obnovovací kľúč
 passwordResetAccountRecovery-regen-required = Musíte si vytvoriť nový obnovovací kľúč.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Vytvoriť nový obnovovací kľúč:
-postAddAccountRecovery-subject = Obnovovací kľúč k účtu bol vygenerovaný
-postAddAccountRecovery-title = Obnovovací kľúč k účtu bol vygenerovaný
-postAddAccountRecovery-description = Úspešne ste vygenerovali obnovovací kľúč pre svoj { -product-firefox-account(case: "acc", capitalization: "lower") } z nasledujúceho zariadenia:
 postAddAccountRecovery-action = Spravovať účet
-postAddAccountRecovery-recovery = Ak ste to neboli vy, <a data-l10n-name="revokeAccountRecoveryLink">kliknite sem</a>.
-postAddAccountRecovery-revoke = Ak ste to neboli vy, zrušte platnosť kľúča.
 postAddLinkedAccount-subject = Nový účet prepojený s { -brand-firefox(case: "ins") }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -373,15 +353,6 @@ postRemoveTwoStepAuthentication-description = Úspešne ste zakázali dvojstupň
 postRemoveTwoStepAuthentication-description-plaintext = Úspešne ste zakázali dvojstupňové overenie na vašom { -product-firefox-account(case: "loc", capitalization: "lower") }. Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
 postRemoveTwoStepAuthentication-action = Spravovať účet
 postRemoveTwoStepAuthentication-not-required = Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
-postVerify-sub-title-2 = { -product-firefox-account } bol potvrdený. Už ste skoro tam.
-postVerify-title = Ako ďalší krok synchronizácia medzi vašimi zariadeniami!
-postVerify-description = Súkromná synchronizácia uchováva vaše záložky, heslá a ďalšie údaje { -brand-firefox(case: "gen") } rovnaké na všetkých vašich zariadeniach.
-postVerify-subject-2 = Účet bol potvrdený. Nastavenie dokončite synchronizáciou iného zariadenia
-postVerify-setup = Nastavte ďalšie zariadenie
-postVerify-action = Nastaviť ďalšie zariadenie
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Máte otázky? Navštívte { $supportUrl }
 postVerifySecondary-subject = Alternatívna e-mailová adresa bola pridaná
 postVerifySecondary-title = Alternatívna e-mailová adresa bola pridaná
 # Variables:
@@ -389,8 +360,6 @@ postVerifySecondary-title = Alternatívna e-mailová adresa bola pridaná
 postVerifySecondary-content-2 = Úspešne ste potvrdili adresu { $secondaryEmail } ako alternatívnu e-mailovú adresu pre váš { -product-firefox-account(case: "acc", capitalization: "lower") }. Bezpečnostné upozornenia a potvrdenia prihlásenia budú odteraz odosielané na obe adresy.
 postVerifySecondary-action = Spravovať účet
 recovery-subject = Obnovenie hesla
-recovery-title = Potrebujete obnoviť svoje heslo?
-recovery-description = Kliknutím na tlačidlo nižšie v priebehu nasledujúcej hodiny si vytvoríte nové heslo. Požiadavka prišla z nasledujúceho zariadenia:
 recovery-action = Vytvoriť nové heslo
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -661,30 +630,8 @@ unblockCode-prompt = Ak áno, tu je autorizačný kód, ktorý potrebujete:
 unblockCode-prompt-plaintext = Ak áno, tu je autorizačný kód, ktorý potrebujete: { $unblockCode }
 unblockCode-report = Ak nie, pomôžte nám odraziť útočníkov a <a data-l10n-name="reportSignInLink">nahláste nám to</a>.
 unblockCode-report-plaintext = Ak nie, pomôžte nám odraziť útočníkov a nahláste nám to.
-verificationReminderFirst-subject = Pripomienka: dokončite vytváranie svojho účtu
-verificationReminderFirst-title = Vitajte v rodine { -brand-firefox(case: "gen") }
-verificationReminderFirst-description = Pred niekoľkými dňami ste si vytvorili { -product-firefox-account(case: "acc", capitalization: "lower") }, ale zatiaľ ste ho nepotvrdili.
-verificationReminderFirst-sub-description = Potvrďte ho teraz a získajte technológiu, ktorá bojuje za vaše súkromie a chráni ho, vyzbrojuje vás praktickými znalosťami a prejavuje vám zaslúžený rešpekt.
-confirm-email = Potvrdiť e-mailovú adresu
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Potvrdiť e-mailovú adresu
-verificationReminderSecond-subject = Posledná pripomienka: aktivujte svoj účet
-verificationReminderSecond-title = Ste tu ešte?
-verificationReminderSecond-description-2 = Takmer pred týždňom ste si vytvorili { -product-firefox-account(case: "acc", capitalization: "lower") }, ale zatiaľ ste ho nepotvrdili. Bojíme sa o vás.
-verificationReminderSecond-sub-description = Potvrďte túto e-mailovú adresu a aktivujte svoj účet.
-verificationReminderSecond-action = Potvrdiť e-mailovú adresu
-verify-title = Aktivujte si celú rodinu produktov { -brand-firefox }u
-verify-description-plaintext = Potvrďte svoj účet a vyťažte maximum z { -brand-firefox(case: "gen") } všade, kde sa prihlásite.
 verify-description = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefox }u čo najviac, začínajúc s:
 verify-subject = Dokončite vytváranie svojho účtu
-verify-action = Potvrdiť e-mailovú adresu
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Nové prihlásenie k { $clientName }
-verifyLogin-description = Za účelom vyššej bezpečnosti, prosím, potvrďte toto prihlásenie z nasledujúceho zariadenia:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Potvrdenie nového prihlásenia k { $clientName }
 verifyLogin-action = Potvrdiť prihlásenie
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -706,9 +653,7 @@ verifySecondaryCode-action-2 = Potvrdiť e-mailovú adresu
 verifySecondaryCode-explainer = Požiadavka na použitie adresy { $email } ako alternatívnej e-mailovej adresy bola vytvorená z nasledujúceho { -product-firefox-account(case: "gen", capitalization: "lower") }:
 verifySecondaryCode-prompt-2 = Použite tento potvrdzovací kód:
 verifySecondaryCode-expiry-notice-2 = Jeho platnosť vyprší po 5 minútach. Po potvrdení začnete na túto e-mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Potvrdzovací kód: { $code }
-verifyShortCode-title = Prihlasujete sa naozaj vy?
-verifyShortCode-prompt-2 = Ak áno, použite tento potvrdzovací kód vo svojom registračnom formulári:
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefox(case: "gen") } čo najviac, začínajúc s:
+verifyShortCode-prompt-3 = Použite tento potvrdzovací kód:
 verifyShortCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
