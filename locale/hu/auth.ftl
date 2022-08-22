@@ -297,6 +297,10 @@ postRemoveTwoStepAuthentication-not-required = A biztonsági kód már nem lesz 
 postVerify-sub-title-3 = Örülünk, hogy látjuk!
 postVerify-title-2 = Két eszközön szeretné látni ugyanazt a lapot?
 postVerify-description-2 = Könnyedén! Csak telepítse a { -brand-firefox }ot egy másik eszközre, és jelentkezzen be a szinkronizáláshoz. Olyan, mint a varázslat!
+postVerify-sub-description = (Pszt… Ez azt is jelenti, hogy könyvjelzőit, jelszavait és egyéb { -brand-firefox(capitalization: "lower") }os adatait bárhol elérheti, ahol be van jelentkezve.)
+postVerify-subject-3 = Üdvözli a { -brand-firefox }!
+postVerify-setup-2 = Másik eszköz csatlakoztatása:
+postVerify-action-2 = Másik eszköz csatlakoztatása
 postVerifySecondary-subject = Másodlagos e-mail hozzáadva
 postVerifySecondary-title = Másodlagos e-mail hozzáadva
 # Variables:
@@ -304,6 +308,11 @@ postVerifySecondary-title = Másodlagos e-mail hozzáadva
 postVerifySecondary-content-2 = Sikeresen megerősítette a(z) { $secondaryEmail } másodlagos e-mail-címet a { -product-firefox-account }jához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét címére el lesznek küldve.
 postVerifySecondary-action = Fiók kezelése
 recovery-subject = Jelszó visszaállítása
+recovery-title-2 = Elfelejtette a jelszavát?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = A(z) { -product-firefox-account }ja jelszavának megváltoztatására vonatkozó kérést kaptunk a következőtől:
+recovery-new-password-button = Hozzon létre egy új jelszót az alábbi gombra kattintva. Ez a hivatkozás egy órán belül lejár.
 recovery-action = Új jelszó létrehozása
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
