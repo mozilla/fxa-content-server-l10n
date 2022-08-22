@@ -22,7 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Aanmelden bij { -product-firefox-accounts }?
-session-verify-send-push-body = Klik hier om te verifiëren dat u het bent
+session-verify-send-push-body-2 = Klik hier om te bevestigen dat u het bent
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -290,10 +290,8 @@ postRemoveTwoStepAuthentication-description = U hebt authenticatie in twee stapp
 postRemoveTwoStepAuthentication-description-plaintext = U hebt authenticatie in twee stappen op uw { -product-firefox-account } met succes uitgeschakeld. Vanaf nu zijn bij elke aanmelding geen beveiligingscodes meer vereist.
 postRemoveTwoStepAuthentication-action = Account beheren
 postRemoveTwoStepAuthentication-not-required = Vanaf nu zijn bij elke aanmelding geen beveiligingscodes meer vereist.
-postVerify-sub-title = { -product-firefox-account } geverifieerd. U bent bijna klaar.
 postVerify-title = Het volgende: synchroniseren tussen uw apparaten!
 postVerify-description = Sync houdt op persoonlijke wijze uw bladwijzers, wachtwoorden en andere { -brand-firefox }-gegevens op al uw apparaten hetzelfde.
-postVerify-subject = Account geverifieerd. Synchroniseer als volgende stap een ander apparaat om het instellen te voltooien
 postVerify-setup = Het volgende apparaat instellen
 postVerify-action = Het volgende apparaat instellen
 # Variables:
@@ -301,9 +299,6 @@ postVerify-action = Het volgende apparaat instellen
 postVerify-support = Hebt u vragen? Bezoek { $supportUrl }
 postVerifySecondary-subject = Secundair e-mailadres toegevoegd
 postVerifySecondary-title = Secundair e-mailadres toegevoegd
-# Variables:
-#  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content = U hebt { $secondaryEmail } met succes als secundair e-mailadres voor uw { -product-firefox-account } geverifieerd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden nu op beide e-mailadressen afgeleverd.
 postVerifySecondary-action = Account beheren
 recovery-subject = Herinitialiseer uw wachtwoord
 recovery-title = Dient u uw wachtwoord opnieuw in te stellen?
@@ -329,14 +324,10 @@ subscriptionAccountFinishSetup-content-create-2 = Hierna maakt u een { -product-
 subscriptionAccountFinishSetup-action-2 = Beginnen
 subscriptionAccountReminderFirst-subject = Herinnering: voltooi het instellen van uw account
 subscriptionAccountReminderFirst-title = U hebt nog geen toegang tot uw abonnement
-subscriptionAccountReminderFirst-content-info = Een paar dagen geleden hebt u een { -product-firefox-account } aangemaakt, maar deze nog niet geverifieerd. We hopen dat u het instellen van uw account voltooit, zodat u uw nieuwe abonnement kunt gebruiken.
-subscriptionAccountReminderFirst-content-select = Selecteer ‘Wachtwoord aanmaken’ om een nieuw wachtwoord in te stellen en de verificatie van uw account te voltooien.
 subscriptionAccountReminderFirst-action = Wachtwoord aanmaken
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Laatste herinnering: stel uw account in
 subscriptionAccountReminderSecond-title = Welkom bij { -brand-firefox }!
-subscriptionAccountReminderSecond-content-info = Een paar dagen geleden hebt u een { -product-firefox-account } aangemaakt, maar deze nog niet geverifieerd. We hopen dat u het instellen van uw account voltooit, zodat u uw nieuwe abonnement kunt gebruiken.
-subscriptionAccountReminderSecond-content-select = Selecteer ‘Wachtwoord aanmaken’ om een nieuw wachtwoord in te stellen en de verificatie van uw account te voltooien.
 subscriptionAccountReminderSecond-action = Wachtwoord aanmaken
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -587,7 +578,6 @@ confirm-email-plaintext = { confirm-email }:
 verificationReminderFirst-action = E-mailadres bevestigen
 verificationReminderSecond-subject = Laatste herinnering: activeer uw account
 verificationReminderSecond-title = Bent u er nog?
-verificationReminderSecond-description = U hebt bijna een week geleden een { -product-firefox-account } aangemaakt, maar nooit geverifieerd. We maken ons zorgen om u.
 verificationReminderSecond-sub-description = Bevestig dit e-mailadres om uw account te activeren, en laat ons weten dat alles in orde is.
 verificationReminderSecond-action = E-mailadres bevestigen
 verify-title = Activeer de { -brand-firefox }-productfamilie
@@ -607,25 +597,12 @@ verifyLogin-action = Aanmelding bevestigen
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Aanmeldcode voor { $serviceName }
 verifyLoginCode-title = Bent u dit die zich aanmeldt?
-verifyLoginCode-prompt = Zo ja, dan is dit de verificatiecode:
 verifyLoginCode-expiry-notice = Deze verloopt over vijf minuten.
-verifyPrimary-title = Primair e-mailadres verifiëren
 verifyPrimary-description = Er is een aanvraag voor het uitvoeren van een accountwijziging gedaan vanaf het volgende apparaat:
 verifyPrimary-subject = Primair e-mailadres bevestigen
-verifyPrimary-action = E-mailadres verifiëren
-verifyPrimary-action-plaintext = { verifyPrimary-action }:
-verifyPrimary-post-verify = Na verificatie worden accountwijzigingen zoals het toevoegen van een secundair e-mailadres mogelijk vanaf dit apparaat.
 verifySecondaryCode-subject = Secundair e-mailadres bevestigen
-verifySecondaryCode-title = Secundair e-mailadres verifiëren
-verifySecondaryCode-action = E-mailadres verifiëren
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Er is een aanvraag voor het gebruik van { $email } als tweede e-mailadres gedaan vanaf de volgende { -product-firefox-account }:
-verifySecondaryCode-prompt = Gebruik deze verificatiecode:
-verifySecondaryCode-expiry-notice = Deze verloopt over 5 minuten. Na verificatie ontvangt dit adres beveiligingsmeldingen en bevestigingen.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject = Verificatiecode: { $code }
 verifyShortCode-title = Registreert u zich?
-verifyShortCode-prompt = Zo ja, gebruik dan deze verificatiecode in uw registratieformulier:
 verifyShortCode-expiry-notice = Deze verloopt over vijf minuten.
