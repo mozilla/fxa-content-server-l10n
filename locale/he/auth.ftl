@@ -212,6 +212,15 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = כניסה חדשה ל־{ $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = נעשה שימוש ב{ -product-firefox-account(case: "the") } שלך להתחברות
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = פעולה זו לא בוצעה על ידך? יש <a data-l10n-name="passwordChangeLink">לשנות את הססמה שלך</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = פעולה זו לא בוצעה על ידך? יש לשנות את הססמה שלך:
 newDeviceLogin-action = ניהול חשבון
 passwordChanged-subject = הססמה עודכנה
 passwordChanged-title = הססמה שונתה בהצלחה
@@ -234,7 +243,16 @@ passwordResetAccountRecovery-action = יצירת מפתח שחזור חדש
 passwordResetAccountRecovery-regen-required = יהיה עליך לייצר מפתח שחזור חדש.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = יצירת מפתח שחזור חדש:
+postAddAccountRecovery-subject-2 = נוצר מפתח לשחזור החשבון
+postAddAccountRecovery-title2 = יצרת מפתח חדש לשחזור חשבון
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = מפתח חדש נוצר מ:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = פעולה זו לא בוצעה על ידך?
+postAddAccountRecovery-change = יש <a data-l10n-name="revokeAccountRecoveryLink">למחוק את המפתח החדש</a> ו<a data-l10n-name="passwordChangeLink">לשנות את הססמה שלך</a>
 postAddAccountRecovery-action = ניהול חשבון
+postAddAccountRecovery-delete-key = מחיקת המפתח החדש:
+postAddAccountRecovery-changd-password = שינוי הססמה שלך:
 postAddLinkedAccount-subject = חשבון חדש מקושר אל { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -277,6 +295,7 @@ postRemoveTwoStepAuthentication-description = השבתת בהצלחה אימות
 postRemoveTwoStepAuthentication-description-plaintext = השבתת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך. לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
 postRemoveTwoStepAuthentication-action = ניהול חשבון
 postRemoveTwoStepAuthentication-not-required = לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
+postVerify-sub-title-3 = אנחנו שמחים לראות אותך!
 postVerifySecondary-subject = נוספה כתובת דוא״ל משנית
 postVerifySecondary-title = נוספה כתובת דוא״ל משנית
 # Variables:
