@@ -81,15 +81,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Þetta er sjálfvirkur tölvupóstur; ef það varst ekki þú sem bættir nýju tæki á { -product-firefox-account } þinn, ættirðu að endurstilla lykilorðið þitt strax á { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann fyrir mistök er ekki þörf á neinum aðgerðum.
-    Til að sjá frekari upplýsingar, skaltu fara á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
-automated-email-plaintext = Þetta er sjálfvirkur tölvupóstur; ef þú fékkst hann óvart sendan, þarftu ekkert að gera.
-automated-email-support = { automated-email-plaintext } Til að sjá frekari upplýsingar, skaltu fara á <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } aðstoðargáttina</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Til að sjá frekari upplýsingar, skaltu fara á { -brand-mozilla } aðstoðargáttina: { $mozillaSupportUrl }.
+automated-email-no-action-plaintext = Þetta er sjálfvirkur tölvupóstur. Ef þú fékkst hann fyrir mistök þarftu ekki að gera neitt.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Þetta er sjálfvirkur tölvupóstur; ef þú leyfðir ekki þessa aðgerð skaltu endilega breyta lykilorðinu þínu:
 automated-email-reset =
@@ -139,9 +131,6 @@ subscriptionUpdateBillingTry-plaintext = Við reynum aftur að fá greiðsluna �
 subscriptionUpdatePayment = Til að koma í veg fyrir truflanir á þjónustunni þinni skaltu <a data-l10n-name="updateBillingUrl">uppfæra greiðsluupplýsingarnar þínar</a> eins fljótt og auðið er.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Til að koma í veg fyrir truflanir á þjónustunni þinni skaltu uppfæra greiðsluupplýsingarnar þínar eins fljótt og auðið er:
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Til að sjá nánari upplýsingar, ættirðu að skoða { $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -217,9 +206,9 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ný innskráning á { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Ný innskráning á { $clientName }
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Ekki þú? Breyttu lykilorðinu þínu:
 newDeviceLogin-action = Sýsla með reikning
 passwordChanged-subject = Lykilorð uppfært
 passwordChanged-title = Tókst að breyta lykilorði
@@ -242,12 +231,11 @@ passwordResetAccountRecovery-action = Útbúðu nýjan endurheimtulykil
 passwordResetAccountRecovery-regen-required = Þú munt þurfa að útbúa nýjan endurheimtulykil.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Útbúðu nýjan endurheimtulykil:
-postAddAccountRecovery-subject = Endurheimtulykill reiknings útbúinn
-postAddAccountRecovery-title = Endurheimtulykill reiknings útbúinn
-postAddAccountRecovery-description = Þú hefur búið til endurheimtulykil fyrir { -product-firefox-account }-reikninginn þinn með því að nota eftirfarandi tæki:
+postAddAccountRecovery-subject-2 = Endurheimtulykill reiknings útbúinn
+postAddAccountRecovery-title2 = Þú bjóst til nýjan endurheimtarlykil fyrir reikninginn
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Ekki þú?
 postAddAccountRecovery-action = Sýsla með reikning
-postAddAccountRecovery-recovery = Ef þetta varst ekki þú, skaltu <a data-l10n-name="revokeAccountRecoveryLink">smella hér</a>.
-postAddAccountRecovery-revoke = Ef þetta varst ekki þú, skaltu afturkalla lykilinn.
 postAddLinkedAccount-subject = Nýr reikningur tengdur við { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -290,15 +278,6 @@ postRemoveTwoStepAuthentication-description = Þú hefur gert óvirka tveggja-þ
 postRemoveTwoStepAuthentication-description-plaintext = Þú hefur gert óvirka tveggja-þrepa auðkenningu á { -product-firefox-account }-reikningnum þínum. Öryggiskóða frá auðkenningarforritinu þínu verður ekki lengur krafist við hverja innskráningu.
 postRemoveTwoStepAuthentication-action = Sýsla með reikning
 postRemoveTwoStepAuthentication-not-required = Ekki verður lengur krafist öryggiskóða við hverja innskráningu.
-postVerify-sub-title-2 = { -product-firefox-account } staðfestur. Þetta er næstum tilbúið.
-postVerify-title = Næst skaltu samstilla á milli tækjanna þinna!
-postVerify-description = Samstillingin sér um að halda bókamerkjunum þínum, lykilorðum og öðrum { -brand-firefox }-gögnum eins í öllum tækjunum þínum.
-postVerify-subject-2 = Reikningur staðfestur. Næst skaltu samstilla annað tæki til að ljúka uppsetningunni
-postVerify-setup = Setja upp næsta tæki
-postVerify-action = Setja upp næsta tæki
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Ertu með spurningar? Farðu á { $supportUrl }
 postVerifySecondary-subject = Aukapóstfangi bætt við
 postVerifySecondary-title = Aukapóstfangi bætt við
 # Variables:
@@ -306,8 +285,6 @@ postVerifySecondary-title = Aukapóstfangi bætt við
 postVerifySecondary-content-2 = Þú hefur staðfest { $secondaryEmail } sem aukapóstfang fyrir { -product-firefox-account }. Öryggistilkynningar og staðfestingar á innskráningu verða nú sendar á bæði tölvupóstföngin.
 postVerifySecondary-action = Sýsla með reikning
 recovery-subject = Endurstilla lykilorð
-recovery-title = Þarftu að endurstilla lykilorðið þitt?
-recovery-description = Smelltu á hnappinn innan klukkutíma til að búa til nýtt lykilorð. Beiðnin kom frá eftirfarandi tæki:
 recovery-action = Búa til nýtt lykilorð
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -578,30 +555,8 @@ unblockCode-prompt = Ef já, þá er hérna auðkenningarkóðinn sem þú þarf
 unblockCode-prompt-plaintext = Ef já, þá er hérna auðkenningarkóðinn sem þú þarft: { $unblockCode }
 unblockCode-report = Ef nei, hjálpaðu okkur að verjast boðflennum með því að <a data-l10n-name="reportSignInLink">tilkynna okkur þetta.</a>
 unblockCode-report-plaintext = Ef nei, hjálpaðu okkur að verjast boðflennum með því að tilkynna okkur þetta.
-verificationReminderFirst-subject = Áminning: Ljúktu við að útbúa reikninginn þinn
-verificationReminderFirst-title = Velkomin í { -brand-firefox }-fjölskylduna
-verificationReminderFirst-description = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei.
-verificationReminderFirst-sub-description = Staðfestu núna og nýttu þér tækni sem vinnur fyrir og verndar friðhelgi þína, vopnar þig hagnýtri þekkingu og veitir þér þá virðingu sem þú átt skilið.
-confirm-email = Staðfestu tölvupóstfangið
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Staðfestu tölvupóstfangið
-verificationReminderSecond-subject = Lokaáminning: Virkjaðu reikninginn þinn
-verificationReminderSecond-title = Ennþá þarna?
-verificationReminderSecond-description-2 = Fyrir nokkrum dögum síðan bjóstu til { -product-firefox-account } en staðfestir hann aldrei. Við höfum dálitlar áhyggjur af þér.
-verificationReminderSecond-sub-description = Staðfestu þetta tölvupóstfang til að virkja reikninginn þinn og láta okkur vita að allt sé í lagi.
-verificationReminderSecond-action = Staðfesta tölvupóstfang
-verify-title = Virkjaðu { -brand-firefox }-fjölskylduna af hugbúnaði og þjónustum
-verify-description-plaintext = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-firefox } hvar sem þú skráir þig inn.
 verify-description = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-firefox } hvar sem þú skráir þig inn, til dæmis fyrst á:
 verify-subject = Ljúktu við að búa til reikninginn þinn
-verify-action = Staðfesta tölvupóstfang
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Ný innskráning á { $clientName }
-verifyLogin-description = Í öryggisskyni skaltu staðfesta þessa innskráningu frá eftirfarandi tæki:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Staðfestu nýja innskráningu á { $clientName }
 verifyLogin-action = Staðfesta innskráningu
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -623,9 +578,4 @@ verifySecondaryCode-action-2 = Staðfestu tölvupóstfangið
 verifySecondaryCode-explainer = Beiðni um að nota { $email } sem aukatölvupóstfang hefur verið gerð úr eftirfarandi { -product-firefox-account }-reikningi:
 verifySecondaryCode-prompt-2 = Notaðu þennan staðfestingarkóða:
 verifySecondaryCode-expiry-notice-2 = Hann rennur út eftir 5 mínútur. Eftir að tölvupóstfangið hefur verið staðfest, mun það fara að fá öryggistilkynningar og staðfestingar.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Staðfestingarkóði: { $code }
-verifyShortCode-title = Ert þú að nýskrá þig?
-verifyShortCode-prompt-2 = Ef já, notaðu þennan staðfestingarkóða á skráningarforminu þínu:
 verifyShortCode-expiry-notice = Hann rennur út eftir 5 mínútur.
