@@ -81,15 +81,8 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Ez egy automatikus üzenet, ha nem adott új eszközt a { -product-firefox-account }jához, akkor azonnal változtassa meg jelszavát itt: { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Ez egy automatikus üzenet; ha tévedésből kapta, akkor nincs teendője.
-    További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
-automated-email-plaintext = Ez egy automatikus üzenet, ha úgy véli tévedésből kapta, akkor nincs teendője.
-automated-email-support = { automated-email-plaintext } További információkért keresse fel a <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Támogatást</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } További információkért keresse fel a { -brand-mozilla } Támogatást: { $mozillaSupportUrl }.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ez egy automatikus e-mail, ha nem Ön adott engedélyt erre a műveletre, akkor változtassa meg jelszavát:
 automated-email-reset =
@@ -139,9 +132,6 @@ subscriptionUpdateBillingTry-plaintext = A következő napokban újra megpróbá
 subscriptionUpdatePayment = A szolgáltatás folytonossága érdekében <a data-l10n-name="updateBillingUrl">frissítse a fizetési információit</a> a lehető leghamarabb.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = A szolgáltatás folytonossága érdekében frissítse a fizetési információit a lehető leghamarabb:
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = További információkért keresse fel a { $supportUrl } oldalt
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -217,9 +207,6 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Új bejelentkezés itt: { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Új bejelentkezés itt: { $clientName }
 newDeviceLogin-action = Fiók kezelése
 passwordChanged-subject = A jelszó frissítve
 passwordChanged-title = Jelszó sikeresen módosítva
@@ -242,12 +229,7 @@ passwordResetAccountRecovery-action = Új helyreállítási kulcs létrehozása
 passwordResetAccountRecovery-regen-required = Új helyreállítási kulcsot kell előállítania.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Új helyreállítási kulcs létrehozása:
-postAddAccountRecovery-subject = Fiók helyreállítási kulcs előállítva
-postAddAccountRecovery-title = Fiók helyreállítási kulcs előállítva
-postAddAccountRecovery-description = Sikeresen előállított egy fiók helyreállítási kulcsot a { -product-firefox-account }jához a következő eszközön:
 postAddAccountRecovery-action = Fiók kezelése
-postAddAccountRecovery-recovery = Ha ez nem Ön volt, <a data-l10n-name="revokeAccountRecoveryLink">kattintson ide.</a>
-postAddAccountRecovery-revoke = Ha ez nem Ön volt, vonja vissza a kulcsot.
 postAddLinkedAccount-subject = Új fiók összekapcsolva a { -brand-firefox }szal
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -290,15 +272,6 @@ postRemoveTwoStepAuthentication-description = Sikeresen kikapcsolta a kétlépcs
 postRemoveTwoStepAuthentication-description-plaintext = Sikeresen letiltotta a kétlépcsős hitelesítést a { -product-firefox-account }jához. A biztonsági kód már nem lesz szükséges minden bejelentkezésnél.
 postRemoveTwoStepAuthentication-action = Fiók kezelése
 postRemoveTwoStepAuthentication-not-required = A biztonsági kód már nem lesz szükséges minden bejelentkezésnél.
-postVerify-sub-title-2 = { -product-firefox-account } megerősítve. Mindjárt kész is van.
-postVerify-title = Most pedig szinkronizáljon az eszközök között.
-postVerify-description = A Sync biztonságosan szinkronban tartja a könyvjelzőket, jelszavakat és egyéb { -brand-firefox }-adatokat az eszközei között.
-postVerify-subject-2 = A fiók megerősítve. Ezután szinkronizáljon egy másik eszközre a beállítás befejezéséhez.
-postVerify-setup = A következő eszköz beállítása
-postVerify-action = A következő eszköz beállítása
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Kérdése van? Keresse fel: { $supportUrl }
 postVerifySecondary-subject = Másodlagos e-mail hozzáadva
 postVerifySecondary-title = Másodlagos e-mail hozzáadva
 # Variables:
@@ -306,8 +279,6 @@ postVerifySecondary-title = Másodlagos e-mail hozzáadva
 postVerifySecondary-content-2 = Sikeresen megerősítette a(z) { $secondaryEmail } másodlagos e-mail-címet a { -product-firefox-account }jához. A biztonsági értesítések és a bejelentkezési megerősítések most már mindkét címére el lesznek küldve.
 postVerifySecondary-action = Fiók kezelése
 recovery-subject = Jelszó visszaállítása
-recovery-title = Helyre kell állítania a jelszavát?
-recovery-description = Kattintson a gombra egy órán belül az új jelszó létrehozásához. A kérés a következő eszközről érkezett:
 recovery-action = Új jelszó létrehozása
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -578,30 +549,8 @@ unblockCode-prompt = Ha igen, akkor erre az engedélyezési kódra van szükség
 unblockCode-prompt-plaintext = Ha igen, akkor erre az engedélyezési kódra van szüksége: { $unblockCode }
 unblockCode-report = Ha nem, akkor segítsen kivédeni a behatolókat, és <a data-l10n-name="reportSignInLink">jelentse nekünk.</a>
 unblockCode-report-plaintext = Ha nem, akkor segítsen kivédeni a behatolókat, és jelentse nekünk.
-verificationReminderFirst-subject = Emlékeztető: Fejezze be a fiókja létrehozását
-verificationReminderFirst-title = Üdvözöljük a { -brand-firefox } családban
-verificationReminderFirst-description = Néhány napja létrehozott egy { -product-firefox-account }ot, de azt nem erősítette meg.
-verificationReminderFirst-sub-description = Erősítse meg most, és kapjon olyan technológiát, amely megvédi és küzd az adatvédelméért, felvértezi gyakorlati ismeretekkel, és megadja az Önnek járó tiszteletet.
-confirm-email = E-mail cím megerősítése
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = E-mail cím megerősítése
-verificationReminderSecond-subject = Végső emlékeztető: Aktiválja fiókját
-verificationReminderSecond-title = Ott van még?
-verificationReminderSecond-description-2 = Majd egy héttel ezelőtt létrehozott egy { -product-firefox-account }ot, de nem erősítette meg. Aggódunk Ön miatt.
-verificationReminderSecond-sub-description = Erősítse meg ezt az e-mail címet a fiók aktiválásához, és tudassa velünk, hogy rendben van.
-verificationReminderSecond-action = E-mail cím megerősítése
-verify-title = Aktiválja a { -brand-firefox } termékcsaládot
-verify-description-plaintext = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik.
 verify-description = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik, kezdve ezzel:
 verify-subject = A fiókja létrehozásának befejezése
-verify-action = E-mail cím megerősítése
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Új bejelentkezés itt: { $clientName }
-verifyLogin-description = A nagyobb biztonság érdekében, erősítse meg ezt a bejelentkezést a következő eszközön:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Erősítse meg bejelentkezését ide: { $clientName }
 verifyLogin-action = Bejelentkezés megerősítése
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -623,9 +572,4 @@ verifySecondaryCode-action-2 = E-mail-cím megerősítése
 verifySecondaryCode-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -product-firefox-account }ból lett küldve:
 verifySecondaryCode-prompt-2 = Használja ezt a megerősítő kódot:
 verifySecondaryCode-expiry-notice-2 = 5 perc múlva lejár. Ha megerősíti, akkor ez a cím meg fogja kapni a biztonsági értesítéseket és megerősítéseket.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Megerősítő kód: { $code }
-verifyShortCode-title = Ez az ön regisztrációja?
-verifyShortCode-prompt-2 = Ha igen, használja ezt a megerősítő kódot a regisztrációs űrlapján:
 verifyShortCode-expiry-notice = 5 perc múlva lejár.
