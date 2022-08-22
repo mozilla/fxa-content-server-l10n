@@ -228,7 +228,14 @@ modal-cancel-button = Annuleren
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Bevestig uw e-mailadres
+mvs-enter-verification-code-2 = Voer uw bevestigingscode in
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Voer binnen 5 minuten de bevestigingscode in die naar <email>{ $email }</email> is verzonden.
 msv-cancel-button = Annuleren
+msv-submit-button-2 = Bevestigen
 
 ## Settings Nav
 
@@ -385,9 +392,13 @@ add-secondary-email-save-button = Opslaan
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Stap 2 van 2
+verify-secondary-email-error-3 = Er is een probleem opgetreden bij het verzenden van de bevestigingscode
 verify-secondary-email-page-title =
     .title = Secundair e-mailadres
+verify-secondary-email-verification-code-2 =
+    .label = Voer uw bevestigingscode in
 verify-secondary-email-cancel-button = Annuleren
+verify-secondary-email-verify-button-2 = Bevestigen
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -413,6 +424,7 @@ tfa-button-cancel = Annuleren
 tfa-button-finish = Voltooien
 tfa-incorrect-totp = Onjuiste code voor authenticatie in twee stappen
 tfa-cannot-retrieve-code = Er is een probleem opgetreden bij het ophalen van uw code.
+tfa-cannot-verify-code-3 = Er is een probleem opgetreden bij het bevestigen van uw herstelcode
 tfa-incorrect-recovery-code = Onjuiste herstelcode
 tfa-enabled = Authenticatie in twee stappen ingeschakeld
 tfa-scan-this-code =
@@ -503,6 +515,7 @@ rk-cannot-remove-key = Uw sleutel voor accountherstel kon niet worden verwijderd
 rk-refresh-key = Herstelsleutel vernieuwen
 rk-content-explain = Uw gegevens herstellen wanneer u uw wachtwoord vergeet.
 rk-content-reset-data = Waarom worden mijn gegevens opnieuw ingesteld als ik mijn wachtwoord herinitialiseer?
+rk-cannot-verify-session-4 = Sorry, er is een probleem opgetreden bij het bevestigen van uw sessie
 rk-remove-modal-heading = Herstelsleutel verwijderen?
 rk-remove-modal-content =
     Als u uw wachtwoord herinitialiseert, kunt u uw
@@ -515,6 +528,7 @@ rk-remove-error-2 = Uw sleutel voor accountherstel kon niet worden verwijderd
 se-heading = Secundair e-mailadres
     .header = Secundair e-mailadres
 se-cannot-refresh-email = Sorry, er is een probleem opgetreden bij het vernieuwen van dat e-mailadres.
+se-cannot-resend-code-3 = Sorry, er is een probleem opgetreden bij het opnieuw verzenden van de bevestigingscode
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -525,12 +539,18 @@ se-set-primary-error-2 = Sorry, er is een probleem opgetreden bij het wijzigen v
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } met succes verwijderd
 se-delete-email-error-2 = Sorry, er is een probleem opgetreden bij het verwijderen van dit e-mailadres
+se-verify-session-3 = U moet uw huidige sessie bevestigen om deze actie uit te voeren
+se-verify-session-error-3 = Sorry, er is een probleem opgetreden bij het bevestigen van uw sessie
 # Button to remove the secondary email
 se-remove-email =
     .title = E-mailadres verwijderen
 # Button to refresh secondary email status
 se-refresh-email =
     .title = E-mailadres vernieuwen
+se-unverified-2 = onbevestigd
+se-resend-code-2 =
+    Bevestiging vereist. <button>Verzend de bevestigingscode opnieuw</button>
+    als deze niet in uw Postvak IN of uw map Ongewenste post staat.
 # Button to make secondary email the primary
 se-make-primary = Primair maken
 se-default-content = Toegang tot uw account als u niet kunt aanmelden op uw primaire e-mailadres.
@@ -574,6 +594,7 @@ tfa-row-change-modal-explain = U kunt deze actie niet ongedaan maken.
 
 auth-error-102 = Onbekende account
 auth-error-103 = Onjuist wachtwoord
+auth-error-105-2 = Ongeldige bevestigingscode
 auth-error-110 = Ongeldige token
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -583,6 +604,8 @@ auth-error-110 = Ongeldige token
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = U hebt het te vaak geprobeerd. Probeer het over { $retryAfter } opnieuw.
+auth-error-138-2 = Onbevestigde sessie
 auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadres
 auth-error-155 = TOTP-token niet gevonden
+auth-error-183-2 = Ongeldige of verlopen bevestigingscode
 auth-error-1008 = Uw oude en nieuwe wachtwoord moeten verschillen
