@@ -333,6 +333,8 @@ postAddAccountRecovery-description-2 = Nový kľúč bol vytvorený z:
 postAddAccountRecovery-not-you = Neboli ste to vy?
 postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Odstráňte tento nový kľúč</a> a <a data-l10n-name="passwordChangeLink">zmente si heslo</a>
 postAddAccountRecovery-action = Spravovať účet
+postAddAccountRecovery-delete-key = Odstrániť nový kľúč:
+postAddAccountRecovery-changd-password = Zmeniť heslo:
 postAddLinkedAccount-subject = Nový účet prepojený s { -brand-firefox(case: "ins") }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -375,6 +377,13 @@ postRemoveTwoStepAuthentication-description = Úspešne ste zakázali dvojstupň
 postRemoveTwoStepAuthentication-description-plaintext = Úspešne ste zakázali dvojstupňové overenie na vašom { -product-firefox-account(case: "loc", capitalization: "lower") }. Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
 postRemoveTwoStepAuthentication-action = Spravovať účet
 postRemoveTwoStepAuthentication-not-required = Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
+postVerify-sub-title-3 = Sme radi, že vás vidíme!
+postVerify-title-2 = Chcete vidieť rovnakú kartu na dvoch zariadeniach?
+postVerify-description-2 = Je to jednoduché! Stačí si nainštalovať { -brand-firefox } na iné zariadenie a prihlásiť sa k synchronizácii. Je to ako kúzlo!
+postVerify-sub-description = (Psst... Znamená to tiež, že svoje záložky, heslá a ďalšie údaje z { -brand-firefox(case: "gen") } môžete získať všade, kde ste prihlásení.)
+postVerify-subject-3 = Víta vás { -brand-firefox }!
+postVerify-setup-2 = Pripojiť ďalšie zariadenie:
+postVerify-action-2 = Pripojiť ďalšie zariadenie
 postVerifySecondary-subject = Alternatívna e-mailová adresa bola pridaná
 postVerifySecondary-title = Alternatívna e-mailová adresa bola pridaná
 # Variables:
@@ -382,6 +391,12 @@ postVerifySecondary-title = Alternatívna e-mailová adresa bola pridaná
 postVerifySecondary-content-2 = Úspešne ste potvrdili adresu { $secondaryEmail } ako alternatívnu e-mailovú adresu pre váš { -product-firefox-account(case: "acc", capitalization: "lower") }. Bezpečnostné upozornenia a potvrdenia prihlásenia budú odteraz odosielané na obe adresy.
 postVerifySecondary-action = Spravovať účet
 recovery-subject = Obnovenie hesla
+recovery-title-2 = Zabudli ste heslo?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Dostali sme žiadosť o zmenu hesla pre váš { -product-firefox-account(capitalization: "lower") } z:
+recovery-new-password-button = Vytvorte si nové heslo kliknutím na tlačidlo nižšie. Platnosť tohto odkazu vyprší v priebehu nasledujúcej hodiny.
+recovery-copy-paste = Vytvorte si nové heslo tak, že skopírujete a prilepíte adresu URL uvedenú nižšie do svojho prehliadača. Platnosť tohto odkazu vyprší v priebehu nasledujúcej hodiny.
 recovery-action = Vytvoriť nové heslo
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
