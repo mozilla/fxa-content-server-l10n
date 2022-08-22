@@ -297,6 +297,7 @@ postRemoveTwoStepAuthentication-not-required = Le codices de securitate non esse
 postVerify-sub-title-3 = Nos es delectate de vider te!
 postVerify-title-2 = Vole tu vider le mesme scheda sur duo apparatos?
 postVerify-description-2 = Il es facile! Solo installa { -brand-firefox } sur un altere apparato e aperi session pro synchronisar. Illo es como magic!
+postVerify-sub-description = (Psst… Illo alsi significa que tu pote installar tu marcapaginas, contrasignos, e altere datos de { -brand-firefox } ubique tu ha accedite.)
 postVerify-subject-3 = Benvenite a { -brand-firefox }!
 postVerify-setup-2 = Connecter un altere apparato:
 postVerify-action-2 = Connecter un altere apparato
@@ -587,10 +588,17 @@ verificationReminderFinal-subject = Memento final pro confirmar tu conto
 verificationReminderFinal-description = Un par de septimanas retro tu ha create un { -product-firefox-account }, ma jammais confirmate illo. Pro tu securitate, nos delera le conto si non verificate in le proxime 24 horas.
 confirm-account = Confirmar conto
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Rememora pro confirmar tu conto
+verificationReminderFirst-title-2 = Benvenite a { -brand-firefox }!
+verificationReminderFirst-description-2 = Alcun dies retro tu ha create un { -product-firefox-account }, ma jammais confirmate illo. Confirma tu conto in le proxime 15 dies o illo sera automaticamente delite.
+verificationReminderFirst-sub-description-2 = Non perder le technologia que pone prime te e tu confidentialitate.
 confirm-email-2 = Confirmar conto
 confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Confirmar conto
+verificationReminderSecond-action-2 = Confirmar conto
 verify-description = Confirma tu conto e tira le maximo de { -brand-firefox } ubicunque tu aperi session, a comenciar per:
 verify-subject = Termina le creation de tu conto
+verify-action-2 = Confirmar conto
 verifyLogin-subject-2 = Confirmar accesso
 verifyLogin-action = Confirmar apertura de session
 # Variables:
@@ -613,4 +621,10 @@ verifySecondaryCode-action-2 = Confirmar email
 verifySecondaryCode-explainer = Un requesta de usar { $email } como adresse email secundari ha essite facite ab le sequente { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Usa iste codice de confirmation:
 verifySecondaryCode-expiry-notice-2 = Illo expira in 5 minutas. Un vice confirmate, iste adresse comenciara a reciper notificationes e confirmationes de securitate.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Confirma tu conto
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Confirma tu conto e tira le maximo de { -brand-firefox } ubicunque tu aperi session, a comenciar per:
+verifyShortCode-prompt-3 = Usa iste codice de confirmation:
 verifyShortCode-expiry-notice = Illo expira in 5 minutas.
