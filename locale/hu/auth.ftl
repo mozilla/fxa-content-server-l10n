@@ -211,6 +211,15 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Új bejelentkezés itt: { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Bejelentkeztek a { -product-firefox-account }jával
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Nem Ön volt? <a data-l10n-name="passwordChangeLink">Változtassa meg a jelszavát</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Nem Ön volt? Változtassa meg a jelszavát:
 newDeviceLogin-action = Fiók kezelése
 passwordChanged-subject = A jelszó frissítve
 passwordChanged-title = Jelszó sikeresen módosítva
@@ -233,7 +242,16 @@ passwordResetAccountRecovery-action = Új helyreállítási kulcs létrehozása
 passwordResetAccountRecovery-regen-required = Új helyreállítási kulcsot kell előállítania.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Új helyreállítási kulcs létrehozása:
+postAddAccountRecovery-subject-2 = Fiók-helyreállítási kulcs létrehozva
+postAddAccountRecovery-title2 = Létrehozott egy új fiók-helyreállítási kulcsot
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Új kulcs jött létre innen:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Nem Ön volt?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Törölje az új kulcsot</a> és <a data-l10n-name="passwordChangeLink">változtassa meg a jelszavát</a>
 postAddAccountRecovery-action = Fiók kezelése
+postAddAccountRecovery-delete-key = Törölje az új kulcsot:
+postAddAccountRecovery-changd-password = Változtassa meg a jelszavát:
 postAddLinkedAccount-subject = Új fiók összekapcsolva a { -brand-firefox }szal
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -276,6 +294,9 @@ postRemoveTwoStepAuthentication-description = Sikeresen kikapcsolta a kétlépcs
 postRemoveTwoStepAuthentication-description-plaintext = Sikeresen letiltotta a kétlépcsős hitelesítést a { -product-firefox-account }jához. A biztonsági kód már nem lesz szükséges minden bejelentkezésnél.
 postRemoveTwoStepAuthentication-action = Fiók kezelése
 postRemoveTwoStepAuthentication-not-required = A biztonsági kód már nem lesz szükséges minden bejelentkezésnél.
+postVerify-sub-title-3 = Örülünk, hogy látjuk!
+postVerify-title-2 = Két eszközön szeretné látni ugyanazt a lapot?
+postVerify-description-2 = Könnyedén! Csak telepítse a { -brand-firefox }ot egy másik eszközre, és jelentkezzen be a szinkronizáláshoz. Olyan, mint a varázslat!
 postVerifySecondary-subject = Másodlagos e-mail hozzáadva
 postVerifySecondary-title = Másodlagos e-mail hozzáadva
 # Variables:
