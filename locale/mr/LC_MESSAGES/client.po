@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-22 16:33+0000\n"
 "PO-Revision-Date: 2019-12-18 15:57+0000\n"
 "Last-Translator: Pranav Deshpande <pranhdstud@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1864,10 +1864,14 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr "तुमचे वय किती आहे?"
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -2045,213 +2049,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "प्राथमिक ईमेल सत्यापित"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "दुय्यम ईमेल सत्यापित"
-
-#~ msgid "Account verified"
-#~ msgstr "खाता सत्यापित"
-
-#~ msgid "Verification error"
-#~ msgstr "सत्यापन त्रुटी"
-
-#~ msgid "Verify"
-#~ msgstr "सत्यापित करा"
-
-#~ msgid "Why is more than one device required?"
-#~ msgstr "एकापेक्षा अधिक डिव्हाईस का आवश्यक आहे?"
-
-#~ msgid "Change..."
-#~ msgstr "बदला..."
-
-#~ msgid "Once you're finished, use your new password to sign in on all of your devices."
-#~ msgstr "एकदा आपण पूर्ण केल्यानंतर, आपल्या सर्व डिव्हाइसेसवर साइन इन करण्यासाठी आपला नवीन संकेतशब्द वापरा."
-
-#~ msgid "Change"
-#~ msgstr "बदल"
-
-#~ msgid "Password changed successfully"
-#~ msgstr "पासवर्ड यशस्वीरित्या बदलविले"
-
-#~ msgid "We're sorry to hear about this. You should change your Firefox Account password, and look for information from your device manufacturer about erasing your data remotely."
-#~ msgstr "आम्ही याबद्दल ऐकून दिलगीर आहोत. आपण आपला Firefox खाते संकेतशब्द बदलला पाहिजे आणि आपल्या डिव्हाइसच्या निर्माताद्वारा आपल्या डेटाची माहिती दूरस्थपणे मिटविण्याबद्दल शोधा."
-
-#~ msgid "We're sorry to hear about this. If this was a device you really don't trust, you should change your Firefox Account password, and change any passwords saved in Firefox."
-#~ msgstr "आम्ही याबद्दल ऐकून दिलगीर आहोत. आपण खरोखर विश्वास ठेवत नाही असे हे उपकरण असल्यास, आपण आपला Firefox अकाऊंट पासवर्ड बदलावा, आणि Firefox मध्ये साठवलेले कोणतेही पासवर्ड बदला."
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "अंतिम सक्रिय %(translatedTimeAgo)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s वर शेवटचे सक्रिय"
-
-#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "अंतिम सक्रिय %(translatedCountry)s मध्ये %(translatedTimeAgo)s"
-
-#~ msgid "%(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s"
-
-#~ msgid "Over %(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s पूर्वी"
-
-#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "%(translatedCountry)s मध्ये %(translatedTimeAgo)s"
-
-#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "%(translatedCountry)s मध्ये %(translatedTimeAgo)s पूर्वी"
-
-#~ msgid "Web Session, %(userAgent)s"
-#~ msgstr "वेब सत्र, %(userAgent)s"
-
-#~ msgid "Web Session"
-#~ msgstr "वेब सत्र"
-
-#~ msgid "Change…"
-#~ msgstr "बदल…"
-
-#~ msgid "Add…"
-#~ msgstr "जोडा…"
-
-#~ msgid "Choose the name you would like to appear in Firefox and when managing your account."
-#~ msgstr "Firefox मध्ये आणि आपल्या खात्याचे व्यवस्थापन करताना आपण जे नाव देऊ इच्छिता त्यास निवडा."
-
-#~ msgid "Display name updated"
-#~ msgstr "प्रदर्शन नाव अद्यतनित केले"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "दुय्यम ईमेल काढून टाकला"
-
-#~ msgid "Verification email sent"
-#~ msgstr "सत्यापन ईमेल पाठविले"
-
-#~ msgid "Primary email set to %(email)s"
-#~ msgstr "प्राथमिक ईमेल %(email)s वर सेट"
-
-#~ msgid "Two-step authentication removed"
-#~ msgstr "दोन-चरण प्रमाणीकरण काढले"
-
-#~ msgid "Two-step Authentication"
-#~ msgstr "दोन-चरण प्रमाणीकरण"
-
-#~ msgid "Account Recovery"
-#~ msgstr "खाते पुनर्प्राप्ती"
-
-#~ msgid "Camera"
-#~ msgstr "कॅमेरा"
-
-#~ msgid "Clear"
-#~ msgstr "साफ करा"
-
-#~ msgid "Show"
-#~ msgstr "दर्शवा"
-
-#~ msgid "Disconnect…"
-#~ msgstr "खंडीत…"
-
-#~ msgid "Delete account"
-#~ msgstr "खाते नष्ट करा"
-
-#~ msgid "Refresh"
-#~ msgstr "पुन्हा दाखल करा"
-
-#~ msgid "Enable…"
-#~ msgstr "सक्रिय…"
-
-#~ msgid "Enabled"
-#~ msgstr "सक्रिय केलेले"
-
-#~ msgid "Disabled"
-#~ msgstr "निष्क्रिय केलेले"
-
-#~ msgid "Disable"
-#~ msgstr "निष्क्रिय करा"
-
-#~ msgid "Enable"
-#~ msgstr "सक्रिय करा"
-
-#~ msgid "Generate"
-#~ msgstr "निर्माण करा"
-
-#~ msgid "Please Select One"
-#~ msgstr "कृपया एक निवडा"
-
-#~ msgid "Getting started"
-#~ msgstr "सुरू करा"
-
-#~ msgid "Account already exists. <a href=\"/signin\">Sign in</a>"
-#~ msgstr "खाते आधीपासून अस्तित्वात आहे.<a href=\"/signin\">साइन इन</a>"
-
-#~ msgid "Last sync %(translatedTimeAgo)s"
-#~ msgstr "अंतिम समकालन %(translatedTimeAgo)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "अंतिम समकालन %(translatedTimeAgo)s मध्ये %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "अंतिम समकालन %(translatedTimeAgo)s मध्ये %(translatedCountry)s"
-
-#~ msgid "Last sync %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "अंतिम समकालन %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync over %(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "अंतिम समकालन %(translatedTimeAgo)s %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Last sync time unknown"
-#~ msgstr "अंतिम समकालन वेळ अज्ञात"
-
-#~ msgid "Subscribed successfully"
-#~ msgstr "यशस्वीरित्या सदस्यता घेतली"
-
-#~ msgid "Open tabs"
-#~ msgstr "टॅब उघडा"
-
-#~ msgid "Logins"
-#~ msgstr "लॉगिन"
-
-#~ msgid "Credit cards"
-#~ msgstr "क्रेडिट कार्ड"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox समकालन"
-
-#~ msgid "Please try again later"
-#~ msgstr "कृपया नंतर पुन्हा प्रयत्न करा"
-
-#~ msgid "Save selections"
-#~ msgstr "निवड जतन करा"
-
-#~ msgid "Sign in to continue"
-#~ msgstr "सुरु ठेवण्यासाठी साइन इन करा"
-
-#~ msgid "Create an account"
-#~ msgstr "एक खाते तयार करा"
-
-#~ msgid "Use security code"
-#~ msgstr "सुरक्षा कोड वापरा"
-
-#~ msgid "Enter code"
-#~ msgstr "कोड प्रविष्ट करा"
-
-#~ msgid "Use recovery code"
-#~ msgstr "पुनर्प्राप्ती कोड वापरा"
-
-#~ msgid "Have an account? Sign in"
-#~ msgstr "खाते आहे का? साइन इन करा"
-
-#~ msgid "Subscribe"
-#~ msgstr "सभासद व्हा"
-
-#~ msgid "Recovery codes"
-#~ msgstr "पुनर्प्राप्ती कोड"
-
-#~ msgid "Use a different email address"
-#~ msgstr "वेगळा ईमेल पत्ता वापरा"
-
-#~ msgid "Save settings"
-#~ msgstr "सेटिंग जतन करा"
-
-#~ msgid "Codes copied"
-#~ msgstr "कोड कॉपी केले"

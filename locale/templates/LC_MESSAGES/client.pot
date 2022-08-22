@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-22 16:33+0000\n"
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
@@ -2122,10 +2122,14 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr ""
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 

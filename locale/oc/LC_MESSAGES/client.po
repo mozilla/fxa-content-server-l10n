@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-22 16:33+0000\n"
 "PO-Revision-Date: 2020-03-28 16:57+0000\n"
 "Last-Translator: Quentí <quentinantonin@free.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1864,10 +1864,14 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
+msgid "How old are you? You must be at least 13 years old to create an account."
+msgstr ""
+
+#: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr ""
 
-#: .es5/templates/partial/coppa-age-input.mustache:3
+#: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
 msgstr ""
 
@@ -2045,105 +2049,3 @@ msgstr ""
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
 msgstr ""
-
-#~ msgid "Primary email verified"
-#~ msgstr "Adreça electronica principala verificada"
-
-#~ msgid "Secondary email verified"
-#~ msgstr "Adreça electronica segondària verificada"
-
-#~ msgid "Account verified"
-#~ msgstr "Compte verificat"
-
-#~ msgid "Logins and Passwords"
-#~ msgstr "Identificants e senhals"
-
-#~ msgid "Change..."
-#~ msgstr "Modificar…"
-
-#~ msgid "Change"
-#~ msgstr "Modificar"
-
-#~ msgid "Last active %(translatedTimeAgo)s"
-#~ msgstr "Darrièra activitat %(translatedTimeAgo)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s"
-#~ msgstr "Darrièra activitat fa mai de %(translatedTimeAgo)s"
-
-#~ msgid "Last active %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Darrièra activitat %(translatedTimeAgo)s en %(translatedCountry)s"
-
-#~ msgid "Last active over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "Darrièra activitat fa mai de %(translatedTimeAgo)s en %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s"
-#~ msgstr "%(translatedTimeAgo)s"
-
-#~ msgid "Over %(translatedTimeAgo)s"
-#~ msgstr "I a mai de %(translatedTimeAgo)s"
-
-#~ msgid "%(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s en %(translatedCountry)s"
-
-#~ msgid "Over %(translatedTimeAgo)s in %(translatedCountry)s"
-#~ msgstr "I a mai de %(translatedTimeAgo)s en %(translatedCountry)s"
-
-#~ msgid "%(translatedTimeAgo)s near %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-#~ msgstr "%(translatedTimeAgo)s a proximitat de %(translatedCity)s, %(translatedState)s, %(translatedCountry)s"
-
-#~ msgid "Web Session, %(userAgent)s"
-#~ msgstr "Session web, %(userAgent)s"
-
-#~ msgid "Web Session"
-#~ msgstr "Session web"
-
-#~ msgid "Change…"
-#~ msgstr "Modificar…"
-
-#~ msgid "Add…"
-#~ msgstr "Apondre…"
-
-#~ msgid "Display name updated"
-#~ msgstr "Nom afichat mes a jorn"
-
-#~ msgid "Secondary email removed"
-#~ msgstr "Adreça electronica segondària suprimiada"
-
-#~ msgid "Verification email sent"
-#~ msgstr "Corrièr electronic de verificacion mandat"
-
-#~ msgid "Primary email set to %(email)s"
-#~ msgstr "L’adreça electronica principala es %(email)s"
-
-#~ msgid "New recovery codes generated"
-#~ msgstr "Còdes de secors novèls generats"
-
-#~ msgid "Two-step authentication removed"
-#~ msgstr "Validacion en doas estapas desactivada"
-
-#~ msgid "Two-step Authentication"
-#~ msgstr "Validacion en doas estaps"
-
-#~ msgid "Account Recovery"
-#~ msgstr "Recuperacion del compte"
-
-#~ msgid "Account recovery revoked"
-#~ msgstr "Recuperacion del compte anullada"
-
-#~ msgid "Connection issues"
-#~ msgstr "Problèmas de connexion"
-
-#~ msgid "Getting started"
-#~ msgstr "Per començar"
-
-#~ msgid "Logins"
-#~ msgstr "Identificants"
-
-#~ msgid "Credit cards"
-#~ msgstr "Cartas de crèdit"
-
-#~ msgid "Firefox Sync"
-#~ msgstr "Firefox Sync"
-
-#~ msgid "Please try again later"
-#~ msgstr "Mercés de tornar ensajar mai tard"

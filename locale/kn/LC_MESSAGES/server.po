@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-11 23:29+0000\n"
+"POT-Creation-Date: 2022-08-22 16:33+0000\n"
 "PO-Revision-Date: 2018-08-02 22:36+0000\n"
 "Last-Translator: Omshivaprakash H L <omshivaprakash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,21 +88,3 @@ msgstr ""
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
 msgstr ""
-
-#~ msgid "Password changed successfully"
-#~ msgstr "ಗುಪ್ತಪದದ ಯಶಸ್ವಿಯಾಗಿ ಬದಲಿಸಲಾಗಿದೆ"
-
-#~ msgid "IP address: %(ip)s"
-#~ msgstr "ಐಪಿ ವಿಳಾಸ: %(ip)s"
-
-#~ msgid "Mozilla Privacy Policy"
-#~ msgstr "ಮೊಝಿಲ್ಲಾ ಖಾಸಗಿ ನಿಯಮ"
-
-#~ msgid "Connect another device"
-#~ msgstr "ಮತ್ತೊಂದು ಸಾಧನವನ್ನು ಸಂಪರ್ಕವನ್ನು ಸಾಧಿಸು"
-
-#~ msgid "Sign in to Sync"
-#~ msgstr "ಸಿಂಕ್ ಮಾಡಲು ಸೈನ್ ಇನ್ ಆಗಿ"
-
-#~ msgid "New sign-in to Firefox"
-#~ msgstr "ಫೈರ್ಫಾಕ್ಸ್‌ಗೆ ಹೊಸ ಸೈನ್ ಇನ್ ಆಗಿದೆ"
