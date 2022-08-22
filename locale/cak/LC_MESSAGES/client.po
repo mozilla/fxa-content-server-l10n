@@ -1503,9 +1503,9 @@ msgid "Repeat password"
 msgstr "Tikamulüx ewan tzij"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
-"Rajowaxik chawe re ewan tzij re' richin yatok pa jun tzij ewan rusik'ixik, ri ayakon kan qik'in.<br/>Toq nitzolïx chik nuq'ajuj chi yesach ri taq tzij achi'el ewan taq tzij chuqa' taq yaketal."
+"Rajowaxik chawe re ewan tzij re' richin yatok pa jun tzij ewan rusik'ixik, ri ayakon kan qik'in<br class=\"mb-3\">Toq nitzolïx chik nuq'ajuj chi yesach ri taq tzij achi'el ewan taq tzij chuqa' taq yaketal."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

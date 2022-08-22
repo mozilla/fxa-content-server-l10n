@@ -1512,8 +1512,8 @@ msgid "Repeat password"
 msgstr "Nhập lại mật khẩu"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Bạn cần mật khẩu này để truy cập bất kỳ dữ liệu được mã hóa nào mà bạn lưu trữ với chúng tôi.<br/>Đặt lại có nghĩa là có khả năng mất dữ liệu như mật khẩu và dấu trang."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Bạn cần mật khẩu này để truy cập bất kỳ dữ liệu được mã hóa nào mà bạn lưu trữ với chúng tôi.<br class=\"mb-3\">Đặt lại có nghĩa là có khả năng mất dữ liệu như mật khẩu và dấu trang."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

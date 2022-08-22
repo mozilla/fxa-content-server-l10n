@@ -1512,9 +1512,9 @@ msgid "Repeat password"
 msgstr "Herhaal wachtwoord"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
-"U hebt dit wachtwoord nodig om toegang te krijgen tot gecodeerde gegevens die u bij ons bewaart.<br/>Een herinitialisatie betekent mogelijk verlies van gegevens zoals wachtwoorden en bladwijzers."
+"U hebt dit wachtwoord nodig om toegang te krijgen tot gecodeerde gegevens die u bij ons bewaart.<br class=\"mb-3\">Een herinitialisatie betekent mogelijk verlies van gegevens zoals wachtwoorden en bladwijzers."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

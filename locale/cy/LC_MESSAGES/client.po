@@ -1511,9 +1511,9 @@ msgid "Repeat password"
 msgstr "Ailadrodd y cyfrinair"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
-"Mae angen y cyfrinair hwn arnoch i gael mynediad at unrhyw ddata wedi'i amgryptio rydych chi'n ei storio gyda ni.<br/>Mae ailosod, o bosibl, yn golygu colli data fel cyfrineiriau a nodau tudalen."
+"Mae angen y cyfrinair hwn arnoch i gael mynediad at unrhyw ddata wedi'i amgryptio rydych chi'n ei storio gyda ni.<br class=\"mb-3\">Mae ailosod, o bosibl, yn golygu colli data fel cyfrineiriau a nodau tudalen."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

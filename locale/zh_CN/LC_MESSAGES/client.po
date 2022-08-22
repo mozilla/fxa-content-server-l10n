@@ -1496,8 +1496,8 @@ msgid "Repeat password"
 msgstr "再次输入密码"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "您需要此密码才能访问存储于云端的所有加密数据。<br/>若重置则可能会丢失密码、书签等数据。"
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "您需要此密码才能访问存储于云端的所有加密数据。<br class=\"mb-3\">若重置则可能会丢失密码、书签等数据。"
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

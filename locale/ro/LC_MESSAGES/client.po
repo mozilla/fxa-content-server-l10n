@@ -1512,8 +1512,8 @@ msgid "Repeat password"
 msgstr "Repetă parola"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Ai nevoie de această parolă ca să accesezi orice date criptate pe care le stochezi la noi.<br/>Resetarea înseamnă o pierdere potențială de date, precum parole și marcaje."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Ai nevoie de această parolă ca să accesezi orice date criptate pe care le stochezi la noi.<br class=\"mb-3\">Resetarea înseamnă o pierdere potențială de date, precum parole și marcaje."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

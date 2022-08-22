@@ -1500,8 +1500,8 @@ msgid "Repeat password"
 msgstr "ทวนรหัสผ่าน"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "คุณต้องใช้รหัสผ่านนี้เพื่อเข้าถึงข้อมูลใด ๆ ที่เข้ารหัสที่คุณเก็บไว้กับเรา<br/>การตั้งค่าใหม่อาจทำให้ข้อมูลต่าง ๆ เช่น รหัสผ่าน และที่คั่นหน้า สูญหาย"
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "คุณต้องใช้รหัสผ่านนี้เพื่อเข้าถึงข้อมูลใด ๆ ที่เข้ารหัสที่คุณเก็บไว้กับเรา<br class=\"mb-3\">การตั้งค่าใหม่อาจทำให้ข้อมูลต่าง ๆ เช่น รหัสผ่าน และที่คั่นหน้า สูญหาย"
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

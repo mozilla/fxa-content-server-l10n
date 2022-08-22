@@ -1507,8 +1507,8 @@ msgid "Repeat password"
 msgstr "Zopakujte heslo"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Toto heslo potrebujete na prístup k šifrovaným údajom, ktoré u nás ukladáte.<br/>Obnovenie znamená, že môžete stratiť údaje, ako sú heslá a záložky."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Toto heslo potrebujete na prístup k šifrovaným údajom, ktoré u nás ukladáte.<br class=\"mb-3\">Obnovenie znamená, že môžete stratiť údaje, ako sú heslá a záložky."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

@@ -1502,8 +1502,8 @@ msgid "Repeat password"
 msgstr "비밀번호 재입력"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "여기에 저장한 암호화된 데이터에 접근하기 위해서는 비밀번호가 필요합니다.<br/>재설정은 저장된 비밀번호나 북마크가 사라질 수 있음을 뜻합니다."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "여기에 저장한 암호화된 데이터에 접근하기 위해서는 비밀번호가 필요합니다.<br class=\"mb-3\">재설정은 저장된 비밀번호나 북마크가 사라질 수 있음을 뜻합니다."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

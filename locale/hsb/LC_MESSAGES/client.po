@@ -1512,8 +1512,8 @@ msgid "Repeat password"
 msgstr "Hesło wospjetować"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Trjebaće tute hesło za přistup k zaklučowanym datam, kotrež pola nas składujeće.<br/>Hdyž wróćo stajeće, so snano daty kaž hesła a zapołožki zhubja."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Trjebaće tute hesło za přistup k zaklučowanym datam, kotrež pola nas składujeće.<br class=\"mb-3\">Hdyž wróćo stajeće, so snano daty kaž hesła a zapołožki zhubja."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

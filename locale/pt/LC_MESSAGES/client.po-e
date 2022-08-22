@@ -1458,8 +1458,8 @@ msgid "Repeat password"
 msgstr "Repita a palavra-passe"
 
 #: .es5/templates/sign_up_password.mustache:9
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Precisa desta palavra-passe para aceder a quaisquer dados cifrados que armazene connosco. <br/>Uma reposição significa a perda potencial de dados como palavras-passe e marcadores."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Precisa desta palavra-passe para aceder a quaisquer dados cifrados que armazene connosco. <br class=\"mb-3\">Uma reposição significa a perda potencial de dados como palavras-passe e marcadores."
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

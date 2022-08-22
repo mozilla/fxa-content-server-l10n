@@ -1504,8 +1504,8 @@ msgid "Repeat password"
 msgstr "تکرار گذرواژه"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "برای دسترسی به هر نوع اطلاعات رمزنگاری شده‌ای ذخیره می‌کنیم، نیاز به این گذرواژه دارید.<br/>تغییر گذرواژه به معنی از دست دادن اطلاعات مانند گذرواژه‌ها و نشانک‌ها خواهد بود."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "برای دسترسی به هر نوع اطلاعات رمزنگاری شده‌ای ذخیره می‌کنیم، نیاز به این گذرواژه دارید.<br class=\"mb-3\">تغییر گذرواژه به معنی از دست دادن اطلاعات مانند گذرواژه‌ها و نشانک‌ها خواهد بود."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

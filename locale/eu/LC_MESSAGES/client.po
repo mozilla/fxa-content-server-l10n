@@ -1504,8 +1504,8 @@ msgid "Repeat password"
 msgstr "Errepikatu pasahitza"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Gurekin gordetako zifratutako datu orotarako sarbidea izateko behar duzu pasahitz hau.<br/>Pasahitza berrezarriz gero, ziurrenik pasahitzak eta laster-markak galdu egingo dira."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Gurekin gordetako zifratutako datu orotarako sarbidea izateko behar duzu pasahitz hau.<br class=\"mb-3\">Pasahitza berrezarriz gero, ziurrenik pasahitzak eta laster-markak galdu egingo dira."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

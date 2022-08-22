@@ -1510,9 +1510,9 @@ msgid "Repeat password"
 msgstr "Répéter le mot de passe"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
-"Vous avez besoin de ce mot de passe pour accéder aux données chiffrées que vous stockez chez nous.<br/>Le réinitialiser peut entraîner une perte de données telles que les mots de passe ou les "
+"Vous avez besoin de ce mot de passe pour accéder aux données chiffrées que vous stockez chez nous.<br class=\"mb-3\">Le réinitialiser peut entraîner une perte de données telles que les mots de passe ou les "
 "marque-pages."
 
 #: .es5/templates/sign_up_password.mustache:7

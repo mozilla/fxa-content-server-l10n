@@ -1513,8 +1513,8 @@ msgid "Repeat password"
 msgstr "Jelszó megismétlése"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Azért van szüksége erre a jelszóra, hogy hozzáférjen a nálunk tárolt titkosított adataihoz.<br/>A visszaállítás azt jelenti, hogy elvesztheti a jelszavait és könyvjelzőit."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Azért van szüksége erre a jelszóra, hogy hozzáférjen a nálunk tárolt titkosított adataihoz.<br class=\"mb-3\">A visszaállítás azt jelenti, hogy elvesztheti a jelszavait és könyvjelzőit."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

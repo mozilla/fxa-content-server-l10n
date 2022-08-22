@@ -1498,8 +1498,8 @@ msgid "Repeat password"
 msgstr "重複輸入密碼"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "需要這組密碼才能解開儲存於我們這邊的加密資料。<br/>重設密碼也代表可能會失去密碼、書籤等資料。"
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "需要這組密碼才能解開儲存於我們這邊的加密資料。<br class=\"mb-3\">重設密碼也代表可能會失去密碼、書籤等資料。"
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

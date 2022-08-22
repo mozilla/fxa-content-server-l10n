@@ -1511,8 +1511,8 @@ msgid "Repeat password"
 msgstr "Повторити пароль"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Цей пароль необхідний для доступу до будь-яких зашифрованих даних, що зберігаються в нас.<br/>Відновлення означає потенційну втрату даних, наприклад, паролів та закладок."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Цей пароль необхідний для доступу до будь-яких зашифрованих даних, що зберігаються в нас.<br class=\"mb-3\">Відновлення означає потенційну втрату даних, наприклад, паролів та закладок."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

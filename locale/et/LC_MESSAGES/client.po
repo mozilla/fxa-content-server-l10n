@@ -1506,8 +1506,8 @@ msgid "Repeat password"
 msgstr "Korda parooli"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Sa vajad seda parooli, et pääseda ligi meie juures salvestatud krüptitud andmetele.<br/>Lähtestamine tähendab andmete, nagu paroolid ja järjehoidjad, potentsiaalset kaotamist."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Sa vajad seda parooli, et pääseda ligi meie juures salvestatud krüptitud andmetele.<br class=\"mb-3\">Lähtestamine tähendab andmete, nagu paroolid ja järjehoidjad, potentsiaalset kaotamist."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

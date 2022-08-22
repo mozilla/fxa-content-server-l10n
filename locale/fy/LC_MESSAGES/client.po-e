@@ -1467,8 +1467,8 @@ msgid "Repeat password"
 msgstr "Nochris it wachtwurd"
 
 #: .es5/templates/sign_up_password.mustache:9
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Jo hawwe dit wachtwurd nedich om tagong te krijen ta kodearre gegevens dy't jo by ús bewarje.<br/>In nije inisjalisaasje betsjut mooglik ferlies fan gegevens lykas wachtwurden en blêdwizers."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Jo hawwe dit wachtwurd nedich om tagong te krijen ta kodearre gegevens dy't jo by ús bewarje.<br class=\"mb-3\">In nije inisjalisaasje betsjut mooglik ferlies fan gegevens lykas wachtwurden en blêdwizers."
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

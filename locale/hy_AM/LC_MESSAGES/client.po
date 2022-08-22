@@ -1504,9 +1504,9 @@ msgid "Repeat password"
 msgstr "Պատճենել գաղտնաբառը"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
-"Ձեզ հարկավոր է այս գաղտնաբառը՝ մեզ հետ պահվող ցանկացած գաղտնագրված տվյալներ մուտք ունենալու համար։ <br/> գաղտնաբառի վերագործարկումը կհանգեցնի տվյալների կորստի հավանականության, ինչպիսիք են "
+"Ձեզ հարկավոր է այս գաղտնաբառը՝ մեզ հետ պահվող ցանկացած գաղտնագրված տվյալներ մուտք ունենալու համար։ <br class=\"mb-3\"> գաղտնաբառի վերագործարկումը կհանգեցնի տվյալների կորստի հավանականության, ինչպիսիք են "
 "գաղտնաբառերը և էջանիշերը։"
 
 #: .es5/templates/sign_up_password.mustache:7

@@ -1510,8 +1510,8 @@ msgid "Repeat password"
 msgstr "Repete le contrasigno"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Iste contrasigno es necessari pro acceder al datos cryptate que tu immagazina in nostre systemas.<br/>Si tu reinitialisa le contrasigno, tu pote perder datos como contrasignos e marcapaginas."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Iste contrasigno es necessari pro acceder al datos cryptate que tu immagazina in nostre systemas.<br class=\"mb-3\">Si tu reinitialisa le contrasigno, tu pote perder datos como contrasignos e marcapaginas."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

@@ -1515,8 +1515,8 @@ msgid "Repeat password"
 msgstr "Endurtaka lykilorð"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Þú þarft þetta lykilorð til að fá aðgang að öllum dulrituðum gögnum sem þú geymir hjá okkur.<br/>Endurstilling getur þýtt að þú mögulega tapir gögnum á borð við lykilorð og bókamerki."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Þú þarft þetta lykilorð til að fá aðgang að öllum dulrituðum gögnum sem þú geymir hjá okkur.<br class=\"mb-3\">>Endurstilling getur þýtt að þú mögulega tapir gögnum á borð við lykilorð og bókamerki."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

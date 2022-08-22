@@ -1510,9 +1510,9 @@ msgid "Repeat password"
 msgstr "Repitir contraseña"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
-"Necesitas de esta contraseña para acceder a cualquier dato encriptado que almacenaste con nosotros,<br/>Un restablecimiento significa la pérdida potencial de datos como contraseñas y marcadores."
+"Necesitas de esta contraseña para acceder a cualquier dato encriptado que almacenaste con nosotros,<br class=\"mb-3\">Un restablecimiento significa la pérdida potencial de datos como contraseñas y marcadores."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

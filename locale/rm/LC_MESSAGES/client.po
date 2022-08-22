@@ -1508,8 +1508,8 @@ msgid "Repeat password"
 msgstr "Repeter il pled-clav"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Ti dovras quest pled-clav per acceder a las datas criptadas che ti memoriseschas cun nus.<br/>Ina reinizialisaziun po muntar che datas sco pleds-clav e segnapaginas van a perder."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Ti dovras quest pled-clav per acceder a las datas criptadas che ti memoriseschas cun nus.<br class=\"mb-3\">Ina reinizialisaziun po muntar che datas sco pleds-clav e segnapaginas van a perder."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

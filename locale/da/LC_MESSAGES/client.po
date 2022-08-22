@@ -1509,8 +1509,8 @@ msgid "Repeat password"
 msgstr "Gentag adgangskode"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Du skal bruge denne adgangskode for at få adgang til de krypterede data, du gemmer hos os.<br/>En nulstilling kan medføre tab af data som fx adgangskoder og bogmærker."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "Du skal bruge denne adgangskode for at få adgang til de krypterede data, du gemmer hos os.<br class=\"mb-3\">En nulstilling kan medføre tab af data som fx adgangskoder og bogmærker."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

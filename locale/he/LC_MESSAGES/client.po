@@ -1507,8 +1507,8 @@ msgid "Repeat password"
 msgstr "חזרה על הססמה"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "הססמה הזו תשמש אותך כדי לגשת לכל הנתונים המוצפנים שלך המאוחסנים אצלנו.<br/>איפוס הססמה עלול לגרום לאיבוד נתונים כמו ססמאות וסימניות."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr "הססמה הזו תשמש אותך כדי לגשת לכל הנתונים המוצפנים שלך המאוחסנים אצלנו.<br class=\"mb-3\">איפוס הססמה עלול לגרום לאיבוד נתונים כמו ססמאות וסימניות."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"

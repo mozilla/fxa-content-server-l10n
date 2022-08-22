@@ -1514,9 +1514,9 @@ msgid "Repeat password"
 msgstr "Επανάληψη κωδικού πρόσβασης"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
-"Χρειάζεστε αυτό τον κωδικό πρόσβασης για πρόσβαση σε κρυπτογραφημένα δεδομένα που αποθηκεύετε σε εμάς.<br/>Επαναφορά, σημαίνει ενδεχομένως απώλεια δεδομένων, όπως κωδικοί πρόσβασης και "
+"Χρειάζεστε αυτό τον κωδικό πρόσβασης για πρόσβαση σε κρυπτογραφημένα δεδομένα που αποθηκεύετε σε εμάς.<br class=\"mb-3\">Επαναφορά, σημαίνει ενδεχομένως απώλεια δεδομένων, όπως κωδικοί πρόσβασης και "
 "σελιδοδείκτες."
 
 #: .es5/templates/sign_up_password.mustache:7
