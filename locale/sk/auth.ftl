@@ -163,6 +163,9 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Toto je automaticky generovaná e-mailová správa. Ak ste k svojmu { -product-firefox-account(case: "dat", capitalization: "lower") } nepridali žiadne nové zariadenie, mali by ste si okamžite zmeniť heslo na { $passwordChangeLink }
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
+automated-email-no-action-plaintext = Toto je automatický e-mail. Ak ste ho dostali omylom, nemusíte robiť nič.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Toto je automatický e-mail; ak ste túto akciu nevykonali, zmeňte si svoje heslo:
 automated-email-reset =
@@ -212,6 +215,9 @@ subscriptionUpdateBillingTry-plaintext = Vašu platbu skúsime znova v priebehu 
 subscriptionUpdatePayment = Ak chcete zabrániť prerušeniu vašej služby, čo najskôr <a data-l10n-name="updateBillingUrl">aktualizujte svoje platobné údaje</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Ak chcete zabrániť prerušeniu vašej služby, čo najskôr aktualizujte svoje platobné údaje:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Ďalšie informácie nájdete na stránkach Podpory { -brand-mozilla(case: "gen") } { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -288,6 +294,15 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové prihlásenie k { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Na prihlásenie bol použitý váš { -product-firefox-account(capitalization: "lower") }
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Neboli ste to vy? <a data-l10n-name="passwordChangeLink">Zmeňte si heslo</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Neboli ste to vy? Zmeňte si heslo:
 newDeviceLogin-action = Spravovať účet
 passwordChanged-subject = Heslo bolo aktualizované
 passwordChanged-title = Heslo bolo úspešne zmenené
@@ -310,6 +325,13 @@ passwordResetAccountRecovery-action = Vytvoriť nový obnovovací kľúč
 passwordResetAccountRecovery-regen-required = Musíte si vytvoriť nový obnovovací kľúč.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Vytvoriť nový obnovovací kľúč:
+postAddAccountRecovery-subject-2 = Bol vytvorený kľúč na obnovenie účtu
+postAddAccountRecovery-title2 = Vytvorili ste nový kľúč na obnovenie účtu
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Nový kľúč bol vytvorený z:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Neboli ste to vy?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Odstráňte tento nový kľúč</a> a <a data-l10n-name="passwordChangeLink">zmente si heslo</a>
 postAddAccountRecovery-action = Spravovať účet
 postAddLinkedAccount-subject = Nový účet prepojený s { -brand-firefox(case: "ins") }
 #  Variables:
@@ -651,6 +673,9 @@ verify-title-2 = Poďte na internet pomocou { -brand-firefox(case: "gen") }
 verify-description = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefox }u čo najviac, začínajúc s:
 verify-subject = Dokončite vytváranie svojho účtu
 verify-action-2 = Potvrdiť účet
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Prihlásili ste sa do produktu { $clientName }?
 verifyLogin-description-2 = Pomôžte nám zabezpečiť bezpečnosť vášho účtu potvrdením, že ste sa prihlásili:
 verifyLogin-subject-2 = Potvrdenie prihlásenia
 verifyLogin-action = Potvrdiť prihlásenie
