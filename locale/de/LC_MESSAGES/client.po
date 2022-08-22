@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-22 16:33+0000\n"
-"PO-Revision-Date: 2022-08-12 12:57+0000\n"
+"PO-Revision-Date: 2022-08-22 18:20+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -120,8 +120,8 @@ msgstr "Vielen Dank, dass Sie sich wegen <b>%(escapedLowercaseTopic)s</b> an die
 #: .es5/views/support.js:272
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
-"Vielen Dank, dass Sie sich wegen <b>%(escapedLowercaseTopic)s</b> für <b>%(escapedSelectedProduct)s</b> an die Mozilla-Hilfe gewandt haben. Wir werden uns so schnell wie möglich per E-Mail bei "
-"Ihnen melden."
+"Vielen Dank, dass Sie sich wegen <b>%(escapedLowercaseTopic)s</b> für <b>%(escapedSelectedProduct)s</b> an die Mozilla-Hilfe gewandt haben. Wir werden uns so schnell wie möglich per E-Mail bei Ihnen"
+" melden."
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
@@ -845,9 +845,7 @@ msgid "Invalid Token"
 msgstr "Ungültiger Schlüssel"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Indem Sie fortfahren, stimmen Sie den <a id=\"service-tos\" href=\"%(termsUri)s\">Nutzungsbedingungen</a> sowie dem <a id=\"service-pp\" href=\"%(privacyUri)s\">Datenschutzhinweis</a> von "
 "%(serviceName)s (%(serviceUri)s) zu."
@@ -918,8 +916,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Bitte geben Sie den Wiederherstellungsschlüssel zur einmaligen Verwendung ein, den Sie an einem sicheren Ort aufbewahrt haben, um Zugriff auf Ihr Firefox-Konto zu erhalten."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">HINWEIS:</span> Wenn Sie Ihr Passwort zurücksetzen und Ihren Wiederherstellungsschlüssel nicht gespeichert haben, werden einige Ihrer Daten gelöscht (einschließlich "
 "synchronisierter Serverdaten wie Chronik und Lesezeichen)."
@@ -1169,11 +1166,10 @@ msgid "Password"
 msgstr "Passwort"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-"Indem Sie fortfahren, stimmen Sie den <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedingungen</a> sowie dem <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy"
-"\">Datenschutzhinweis</a> zu."
+"Indem Sie fortfahren, stimmen Sie den <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedingungen</a> sowie dem <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"/legal/privacy\">Datenschutzhinweis</a> zu."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1441,14 +1437,13 @@ msgstr "Ist das nicht mehr Ihre E-Mail-Adresse? Erstellen Sie ein neues Konto"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
-"Indem Sie fortfahren, stimmen Sie Folgendem zu:<br /><a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Nutzungsbedinungen</a> und <a id=\"pocket-pp\" class=\"link-grey"
-"\" href=\"https://getpocket.com/en/privacy/\">Datenschutzhinweis</a> von Pocket<br /><a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedinungen</a> und <a class=\"link-grey\" id="
-"\"fxa-pp\" href=\"/legal/privacy\">Datenschutzhinweis</a> von Firefox"
+"Indem Sie fortfahren, stimmen Sie Folgendem zu:<br /><a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Nutzungsbedinungen</a> und <a id=\"pocket-pp\" class=\"link-"
+"grey\" href=\"https://getpocket.com/en/privacy/\">Datenschutzhinweis</a> von Pocket<br /><a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedinungen</a> und <a class=\"link-grey\""
+" id=\"fxa-pp\" href=\"/legal/privacy\">Datenschutzhinweis</a> von Firefox"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1539,14 +1534,13 @@ msgstr "Konto erstellen"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
-"Indem Sie fortfahren, stimmen Sie Folgendem zu:<br /><a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Nutzungsbedinungen</a> und <a class=\"link-grey\" id=\"pocket-pp"
-"\" href=\"https://getpocket.com/en/privacy/\">Datenschutzhinweis</a> von Pocket<br /><a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedinungen</a> und <a class=\"link-grey\" id="
-"\"fxa-pp\" href=\"/legal/privacy\">Datenschutzhinweis</a> von Firefox"
+"Indem Sie fortfahren, stimmen Sie Folgendem zu:<br /><a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Nutzungsbedinungen</a> und <a class=\"link-grey\" id=\"pocket-"
+"pp\" href=\"https://getpocket.com/en/privacy/\">Datenschutzhinweis</a> von Pocket<br /><a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Nutzungsbedinungen</a> und <a class=\"link-grey\" "
+"id=\"fxa-pp\" href=\"/legal/privacy\">Datenschutzhinweis</a> von Firefox"
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1893,7 +1887,7 @@ msgstr "Warum muss ich dieses Konto erstellen? <a %(escapedSuggestionAttrs)s>Fin
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "Wie alt sind Sie? Sie müssen mindestens 13 Jahre alt sein, um ein Konto zu erstellen."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"

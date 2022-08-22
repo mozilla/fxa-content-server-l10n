@@ -585,8 +585,31 @@ unblockCode-prompt-plaintext = Wenn ja, ist hier der benötigte Autorisierungsco
 unblockCode-report = Wenn nicht, helfen Sie uns bei der Abwehr von Eindringlingen und <a data-l10n-name="reportSignInLink">schreiben Sie eine Meldung an uns</a>.
 unblockCode-report-plaintext = Wenn nicht, helfen Sie uns bei der Abwehr von Eindringlingen und schreiben Sie eine Meldung an uns.
 verificationReminderFinal-subject = Letzte Erinnerung: Bestätigen Sie Ihr Konto
+verificationReminderFinal-description = Vor ein paar Wochen haben Sie ein { -product-firefox-account } erstellt, es aber nie bestätigt. Zu Ihrer Sicherheit löschen wir das Konto, wenn es nicht innerhalb der nächsten 24 Stunden verifiziert wird.
+confirm-account = Konto bestätigen
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Denken Sie daran, Ihr Konto zu bestätigen
+verificationReminderFirst-title-2 = Willkommen bei { -brand-firefox }!
+verificationReminderFirst-description-2 = Vor ein paar Tagen haben Sie ein { -product-firefox-account } erstellt, es aber nie bestätigt. Bitte bestätigen Sie Ihr Konto in den nächsten 15 Tagen oder es wird automatisch gelöscht.
+verificationReminderFirst-sub-description-2 = Verpassen Sie keine Technologie, bei der Sie und Ihre Privatsphäre an erster Stelle stehen.
+confirm-email-2 = Konto bestätigen
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Konto bestätigen
+verificationReminderSecond-subject-2 = Denken Sie daran, Ihr Konto zu bestätigen
+verificationReminderSecond-title-2 = Lassen Sie sich { -brand-firefox } nicht entgehen!
+verificationReminderSecond-description-3 = Vor ein paar Tagen haben Sie ein { -product-firefox-account } erstellt, es aber nie bestätigt. Bitte bestätigen Sie Ihr Konto in den nächsten 10 Tagen oder es wird automatisch gelöscht.
+verificationReminderSecond-second-description = Mit Ihrem { -product-firefox-account } können Sie Ihre Daten geräteübergreifend synchronisieren und den Zugriff auf weitere Datenschutzprodukte von { -brand-mozilla } freischalten.
+verificationReminderSecond-sub-description-2 = Werden Sie Teil unserer Mission, das Internet in einen Ort zu verwandeln, der für alle offen ist.
+verificationReminderSecond-action-2 = Konto bestätigen
+verify-title-2 = Öffnen Sie das Internet mit { -brand-firefox }
 verify-description = Bestätigen Sie Ihr Konto und nutzen Sie { -brand-firefox } überall dort, wo Sie sich anmelden. Erster Schritt:
 verify-subject = Erstellung Ihres Kontos abschließen
+verify-action-2 = Konto bestätigen
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Haben Sie sich bei { $clientName } angemeldet?
+verifyLogin-description-2 = Helfen Sie uns, Ihr Konto zu schützen, indem Sie bestätigen, dass Sie sich angemeldet haben:
+verifyLogin-subject-2 = Anmeldung bestätigen
 verifyLogin-action = Anmeldung bestätigen
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -608,4 +631,11 @@ verifySecondaryCode-action-2 = E-Mail-Adresse bestätigen
 verifySecondaryCode-explainer = Von folgendem { -product-firefox-account } erfolgte eine Anfrage, { $email } als Zweit-E-Mail-Adresse zu nutzen:
 verifySecondaryCode-prompt-2 = Verwenden Sie diesen Bestätigungscode:
 verifySecondaryCode-expiry-notice-2 = Er läuft in fünf Minuten ab. Nach der Bestätigung erhält diese Adresse Sicherheitsbenachrichtigungen und Bestätigungen.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Bestätigen Sie Ihr Konto
+verifyShortCode-title-2 = Öffnen Sie das Internet mit { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Bestätigen Sie Ihr Konto und nutzen Sie { -brand-firefox } überall dort, wo Sie sich anmelden. Erster Schritt:
+verifyShortCode-prompt-3 = Verwenden Sie diesen Bestätigungscode:
 verifyShortCode-expiry-notice = Er läuft in 5 Minuten ab.
