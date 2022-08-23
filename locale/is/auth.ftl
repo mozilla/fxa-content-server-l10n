@@ -598,6 +598,7 @@ verificationReminderFirst-action-2 = Staðfesta reikning
 verificationReminderSecond-subject-2 = Mundu að staðfesta reikninginn þinn
 verificationReminderSecond-title-2 = Ekki missa af { -brand-firefox }!
 verificationReminderSecond-description-3 = Fyrir nokkrum dögum bjóstu til { -product-firefox-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 10 daga eða honum verður sjálfkrafa eytt.
+verificationReminderSecond-second-description = { -product-firefox-account } gerir þér kleift að samstilla upplýsingarnar þínar á milli tækja og opnar aðgang að meiri persónuverndandi hugbúnaði frá { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Vertu hluti af verkefni okkar að breyta internetinu í stað sem er opinn fyrir alla.
 verificationReminderSecond-action-2 = Staðfesta reikning
 verify-title-2 = Opnaðu internetið með { -brand-firefox }
