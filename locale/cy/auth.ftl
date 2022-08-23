@@ -301,6 +301,10 @@ postRemoveTwoStepAuthentication-not-required = Ni fydd angen codau diogel bellac
 postVerify-sub-title-3 = Rydym wrth ein bodd eich gweld!
 postVerify-title-2 = Eisiau gweld yr un tab ar ddwy ddyfais?
 postVerify-description-2 = Mae'n hawdd! Gosodwch { -brand-firefox } ar ddyfais arall a mewngofnodi i gydyweddu. Mae fel hud a lledrith!
+postVerify-sub-description = (Psst… Mae hefyd yn golygu y gallwch gael eich holl nodau tudalen, cyfrineiriau, a data { -brand-firefox } ym mhobman rydych wedi mewngofnodi iddo.)
+postVerify-subject-3 = Croeso i { -brand-firefox }!
+postVerify-setup-2 = Cysylltwch ddyfais arall:
+postVerify-action-2 = Cysylltu dyfais arall
 postVerifySecondary-subject = Ychwanegwyd ail e-bost
 postVerifySecondary-title = Ychwanegwyd ail e-bost
 # Variables:
@@ -308,6 +312,12 @@ postVerifySecondary-title = Ychwanegwyd ail e-bost
 postVerifySecondary-content-2 = Rydych wedi cadarnhau { $secondaryEmail } yn llwyddiannus fel ail e-bost o'ch { -product-firefox-account }. Bydd hysbysiadau diogelwch a chadarnhad mewngofnodi yn cael eu hanfon i'r ddau gyfeiriad yma.
 postVerifySecondary-action = Rheoli cyfrif
 recovery-subject = Ailosod eich cyfrinair
+recovery-title-2 = Wedi anghofio eich cyfrinair?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Rydym wedi cael cais i newid cyfrinair ar eich { -product-firefox-account } gan:
+recovery-new-password-button = Crëwch gyfrinair newydd trwy glicio ar y botwm isod. Bydd y ddolen hon yn dod i ben o fewn yr awr nesaf.
+recovery-copy-paste = Crëwch gyfrinair newydd trwy gopïo a gludo'r URL isod i'ch porwr. Bydd y ddolen hon yn dod i ben o fewn yr awr nesaf.
 recovery-action = Creu cyfrinair newydd
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -578,8 +588,31 @@ unblockCode-prompt = Os ie, dyma’r cod awdurdodi sydd ei angen arnoch:
 unblockCode-prompt-plaintext = Os ie, dyma'r cod awdurdodi sydd ei angen arnoch: { $unblockCode }
 unblockCode-report = Os nad, cynorthwywch ni i gadw ymyrwyr draw ac <a data-l10n-name="reportSignInLink">adrodd arno i ni.</a>
 unblockCode-report-plaintext = Os nad, cynorthwywch ni i gadw ymyrwyr draw ac adrodd arno i ni.
+verificationReminderFinal-subject = Atgoffwr terfynol i gadarnhau eich cyfrif
+verificationReminderFinal-description = Ychydig wythnosau yn ôl fe wnaethoch chi greu { -product-firefox-account }, ond heb ei gadarnhau. Er eich diogelwch, byddwn yn dileu'r cyfrif os na chaiff ei ddilysu yn ystod y 24 awr nesaf.
+confirm-account = Cadarnhewch eich cyfrif
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Cofiwch gadarnhau eich cyfrif
+verificationReminderFirst-title-2 = Croeso i { -brand-firefox }!
+verificationReminderFirst-description-2 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-firefox-account }, ond heb ei gadarnhau. Cadarnhewch eich cyfrif o fewn y 15 diwrnod nesaf neu bydd yn cael ei ddileu yn awtomatig.
+verificationReminderFirst-sub-description-2 = Peidiwch â cholli allan ar dechnoleg sy'n eich rhoi chi a'ch preifatrwydd yn gyntaf.
+confirm-email-2 = Cadarnhewch eich cyfrif
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Cadarnhewch eich cyfrif
+verificationReminderSecond-subject-2 = Cofiwch gadarnhau eich cyfrif
+verificationReminderSecond-title-2 = Peidiwch â cholli allan ar { -brand-firefox }!
+verificationReminderSecond-description-3 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-firefox-account }, ond heb ei gadarnhau. Cadarnhewch eich cyfrif o fewn y 15 diwrnod nesaf neu bydd yn cael ei ddileu yn awtomatig.
+verificationReminderSecond-second-description = Mae eich cyfrif  { -product-firefox-account } yn gadael i chi gydweddu'ch manylion ar draws dyfeisiau ac yn datgloi mynediad i fwy o gynnyrch sy'n diogelu preifatrwydd gan { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Byddwch yn rhan o’n cenhadaeth i drawsnewid y rhyngrwyd yn lle sy’n agored i bawb.
+verificationReminderSecond-action-2 = Cadarnhewch eich cyfrif
+verify-title-2 = Agorwch y rhyngrwyd gyda { -brand-firefox }
 verify-description = Cadarnhewch eich cyfrif a chael y gorau o { -brand-firefox } ym mhob man rydych chi’n mewngofnodi gan gychwyn yn:
 verify-subject = Gorffen creu eich cyfrif
+verify-action-2 = Cadarnhewch eich cyfrif
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = A wnaethoch chi fewngofnodi i { $clientName }?
+verifyLogin-description-2 = Helpwch ni i gadw'ch cyfrif yn ddiogel drwy gadarnhau eich bod wedi mewngofnodi ar:
 verifyLogin-action = Cadarnhau eich mewngofnodi
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
