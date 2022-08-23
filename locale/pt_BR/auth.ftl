@@ -312,6 +312,8 @@ recovery-title-2 = Esqueceu sua senha?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Recebemos uma solicitação de alteração de senha de sua { -product-firefox-account } de:
+recovery-new-password-button = Crie uma nova senha clicando no botão abaixo. Este link expirará em até uma hora.
+recovery-copy-paste = Crie uma nova senha copiando e colando a URL abaixo em seu navegador. Este link expirará em até uma hora.
 recovery-action = Criar nova senha
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -582,6 +584,13 @@ unblockCode-prompt = Se foi você, use este código de verificação:
 unblockCode-prompt-plaintext = Se foi você, use este código de verificação: { $unblockCode }
 unblockCode-report = Senão, ajude-nos a evitar intrusos e <a data-l10n-name="reportSignInLink">nos informe</a>.
 unblockCode-report-plaintext = Senão, ajude-nos a evitar intrusos e nos informe.
+verificationReminderFinal-subject = Lembrete final para confirmar sua conta
+verificationReminderFinal-description = Algumas semanas atrás, você criou uma { -product-firefox-account }, mas nunca a confirmou. Para sua segurança, excluiremos a conta se não for verificada nas próximas 24 horas.
+confirm-account = Confirmar conta
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Lembre de confirmar sua conta
+verificationReminderFirst-title-2 = Boas-vindas ao { -brand-firefox }!
+verificationReminderFirst-description-2 = Há alguns dias você criou uma { -product-firefox-account }, mas nunca a confirmou. Confirme sua conta nos próximos 15 dias ou ela será excluída automaticamente.
 verify-description = Confirme sua conta e tire o máximo proveito do { -brand-firefox } onde quer que você acesse, começando com:
 verify-subject = Concluir a criação da sua conta
 verifyLogin-action = Confirmar acesso
