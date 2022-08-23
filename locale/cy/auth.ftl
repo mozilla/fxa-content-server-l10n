@@ -304,7 +304,7 @@ postVerify-description-2 = Mae'n hawdd! Gosodwch { -brand-firefox } ar ddyfais a
 postVerify-sub-description = (Psst… Mae hefyd yn golygu y gallwch gael eich holl nodau tudalen, cyfrineiriau, a data { -brand-firefox } ym mhobman rydych wedi mewngofnodi iddo.)
 postVerify-subject-3 = Croeso i { -brand-firefox }!
 postVerify-setup-2 = Cysylltwch ddyfais arall:
-postVerify-action-2 = Cysylltu dyfais arall
+postVerify-action-2 = Cysylltwch ddyfais arall
 postVerifySecondary-subject = Ychwanegwyd ail e-bost
 postVerifySecondary-title = Ychwanegwyd ail e-bost
 # Variables:
@@ -613,6 +613,7 @@ verify-action-2 = Cadarnhewch eich cyfrif
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = A wnaethoch chi fewngofnodi i { $clientName }?
 verifyLogin-description-2 = Helpwch ni i gadw'ch cyfrif yn ddiogel drwy gadarnhau eich bod wedi mewngofnodi ar:
+verifyLogin-subject-2 = Cadarnhewch eich mewngofnodi
 verifyLogin-action = Cadarnhau eich mewngofnodi
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -634,4 +635,11 @@ verifySecondaryCode-action-2 = Cadarnhau'r e-bost
 verifySecondaryCode-explainer = Mae cais i ddefnyddio { $email } fel ail e-bost wedi ei wneud o'r { -product-firefox-account } canlynol:
 verifySecondaryCode-prompt-2 = Defnyddiwch y cod cadarnhau yma:
 verifySecondaryCode-expiry-notice-2 = Daw i ben ymhen 5 munud. Ar ôl ei gadarnhau, bydd y cyfeiriad hwn yn dechrau derbyn hysbysiadau a chadarnhad diogelwch.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Cadarnhewch eich cyfrif
+verifyShortCode-title-2 = Agorwch y rhyngrwyd gyda { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Cadarnhewch eich cyfrif a chael y gorau o { -brand-firefox } ym mhob man rydych yn mewngofnodi gan ddechrau gyda:
+verifyShortCode-prompt-3 = Defnyddiwch y cod cadarnhau yma:
 verifyShortCode-expiry-notice = Daw i ben mewn 5 munud.
