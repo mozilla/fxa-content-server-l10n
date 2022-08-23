@@ -141,6 +141,9 @@ subscriptionUpdatePayment = Pour éviter toute interruption de votre service, ve
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Pour éviter toute interruption de votre service, veuillez mettre à jour vos informations de paiement dès que possible :
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Pour plus d’informations, consultez l’assistance de { -brand-mozilla } : { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -213,6 +216,15 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nouvelle connexion via { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Votre { -product-firefox-account } a été utilisé pour se connecter
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Il ne s’agissait pas de vous ? <a data-l10n-name="passwordChangeLink">Changez votre mot de passe</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Il ne s’agissait pas de vous ? Changez votre mot de passe :
 newDeviceLogin-action = Gérer le compte
 passwordChanged-subject = Mot de passe mis à jour
 passwordChanged-title = Modification du mot de passe
@@ -281,6 +293,7 @@ postRemoveTwoStepAuthentication-description = Vous avez désactivé l’authenti
 postRemoveTwoStepAuthentication-description-plaintext = Vous avez désactivé l’authentification en deux étapes pour votre { -product-firefox-account }. Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion.
 postRemoveTwoStepAuthentication-action = Gérer le compte
 postRemoveTwoStepAuthentication-not-required = Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion.
+postVerify-subject-3 = Bienvenue dans { -brand-firefox } !
 postVerify-setup-2 = Connectez un autre appareil :
 postVerify-action-2 = Connecter un autre appareil
 postVerifySecondary-subject = Adresse électronique secondaire ajoutée
@@ -561,6 +574,7 @@ unblockCode-prompt = Si oui, voici le code d’autorisation dont vous avez besoi
 unblockCode-prompt-plaintext = Si oui, voici le code d’autorisation dont vous avez besoin : { $unblockCode }
 unblockCode-report = Si non, aidez-nous à repousser les intrus et <a data-l10n-name="reportSignInLink">signalez-le-nous</a>.
 unblockCode-report-plaintext = Si non, aidez-nous à repousser les intrus et signalez-le-nous.
+verificationReminderFinal-subject = Dernier rappel pour confirmer votre compte
 confirm-account = Confirmer le compte
 confirm-account-plaintext = { confirm-account } :
 verificationReminderFirst-title-2 = Bienvenue dans { -brand-firefox } !
