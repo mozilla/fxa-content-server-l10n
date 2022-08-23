@@ -81,15 +81,9 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Mae hwn yn e-bost awtomatig; os nad oeddech wedi ychwanegu dyfais newydd i'ch { -product-firefox-account }, dylech newid eich cyfrinair yn syth yn { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Mae hwn yn e-bost awtomatig; os gwnaethoch ei dderbyn trwy gamgymeriad, nid oes angen gweithredu.
-    Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
-automated-email-plaintext = E-bost awtomatig yw hwn; os ydych wedi derbyn yr e-bost hwn ar gam, nid oes angen gweithredu.
-automated-email-support = { automated-email-plaintext } Am ragor o wybodaeth, ewch i <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Cefnogaeth</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Am ragor o wybodaeth, ewch i { -brand-mozilla } Cefnogaeth: { $mozillaSupportUrl }</a>.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cefnogaeth { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Mae hwn yn e-bost awtomataidd. Os gwnaethoch ei dderbyn trwy gamgymeriad, nid oes angen i chi wneud dim.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = E-bost awtomataidd yw hwn; os na wnaethoch awdurdodi'r weithred hon, yna newidiwch eich cyfrinair:
 automated-email-reset =
@@ -140,8 +134,8 @@ subscriptionUpdatePayment = Er mwyn atal unrhyw darfu ar eich gwasanaeth, <a dat
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Er mwyn atal unrhyw darfu ar eich gwasanaeth, diweddarwch eich manylion talu cyn gynted â phosibl.
 # Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Am ragor o wybodaeth, ewch i { $supportUrl }
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Am ragor o wybodaeth, ewch i Cefnogaeth: { -brand-mozilla } { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -223,7 +217,13 @@ lowRecoveryCodes-subject =
 newDeviceLogin-subject = Mewngofnod newydd i { $clientName }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Mewngofnod newydd i { $clientName }
+newDeviceLogin-title-2 = Defnyddiwyd eich { -product-firefox-account } i fewngofnodi
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Nid chi? <a data-l10n-name="passwordChangeLink">Newidiwch eich cyfrinair</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Nid chi? Newidiwch eich cyfrinair:
 newDeviceLogin-action = Rheoli cyfrif
 passwordChanged-subject = Diweddarwyd y cyfrinair
 passwordChanged-title = Mae’r cyfrinair wedi ei newid yn llwyddiannus
@@ -246,12 +246,16 @@ passwordResetAccountRecovery-action = Creu allwedd adfer newydd
 passwordResetAccountRecovery-regen-required = Bydd angen i chi gynhyrchu allwedd adfer newydd.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Creu allwedd adfer newydd:
-postAddAccountRecovery-subject = Cynhyrchwyd allwedd adfer cyfrif
-postAddAccountRecovery-title = Cynhyrchwyd allwedd adfer cyfrif
-postAddAccountRecovery-description = Rydych wedi cynhyrchu allwedd adfer ar gyfer eich { -product-firefox-account }, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:
+postAddAccountRecovery-subject-2 = Crëwyd yr allwedd adfer cyfrif.
+postAddAccountRecovery-title2 = Rydych chi wedi creu allwedd adfer cyfrif newydd
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Crëwyd allwedd newydd o:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Nid chi?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Dilëwch yr allwedd newydd</a> a <a data-l10n-name="passwordChangeLink">newidiwch eich cyfrinair</a>
 postAddAccountRecovery-action = Rheoli cyfrif
-postAddAccountRecovery-recovery = Os nad chi oedd hwn, <a data-l10n-name="revokeAccountRecoveryLink">>cliciwch yma.</a>
-postAddAccountRecovery-revoke = Os nad chi oedd hwn, diddymwch yr allwedd.
+postAddAccountRecovery-delete-key = Dilëwch yr allwedd newydd:
+postAddAccountRecovery-changd-password = Newidiwch eich cyfrinair:
 postAddLinkedAccount-subject = Cyfrif newydd yn gysylltiedig â { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -294,15 +298,9 @@ postRemoveTwoStepAuthentication-description = Rydych wedi galluogi dilysu dau ga
 postRemoveTwoStepAuthentication-description-plaintext = Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account }. Ni fydd angen codau diogel bob tro fyddwch yn mewngofnodi.
 postRemoveTwoStepAuthentication-action = Rheoli cyfrif
 postRemoveTwoStepAuthentication-not-required = Ni fydd angen codau diogel bellach wrth fewngofnodi.
-postVerify-sub-title-2 = { -product-firefox-account } wedi'i gadarnhau. Rydych bron a gorffen.
-postVerify-title = nesaf, cydweddwch eich dyfeisiau!
-postVerify-description = Mae Sync yn breifat yn cadw’ch nodau tudalen, cyfrineiriau a data { -brand-firefox } arall yr un peth ar draws eich holl ddyfeisiau.
-postVerify-subject-2 = Cyfrif wedi'i gadarnhau. Nesaf, cydweddwch â dyfais arall i orffen y gosod
-postVerify-setup = Gosod y ddyfais nesaf
-postVerify-action = Gosod y ddyfais nesaf
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Unrhyw gwestiynau? Ewch i { $supportUrl }
+postVerify-sub-title-3 = Rydym wrth ein bodd eich gweld!
+postVerify-title-2 = Eisiau gweld yr un tab ar ddwy ddyfais?
+postVerify-description-2 = Mae'n hawdd! Gosodwch { -brand-firefox } ar ddyfais arall a mewngofnodi i gydyweddu. Mae fel hud a lledrith!
 postVerifySecondary-subject = Ychwanegwyd ail e-bost
 postVerifySecondary-title = Ychwanegwyd ail e-bost
 # Variables:
@@ -310,8 +308,6 @@ postVerifySecondary-title = Ychwanegwyd ail e-bost
 postVerifySecondary-content-2 = Rydych wedi cadarnhau { $secondaryEmail } yn llwyddiannus fel ail e-bost o'ch { -product-firefox-account }. Bydd hysbysiadau diogelwch a chadarnhad mewngofnodi yn cael eu hanfon i'r ddau gyfeiriad yma.
 postVerifySecondary-action = Rheoli cyfrif
 recovery-subject = Ailosod eich cyfrinair
-recovery-title = Angen ailosod eich cyfrinair?
-recovery-description = Cliciwch y botwm o fewn yr awr nesaf i greu cyfrinair newydd. Daeth y cais gan y ddyfais ganlynol:
 recovery-action = Creu cyfrinair newydd
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -582,30 +578,8 @@ unblockCode-prompt = Os ie, dyma’r cod awdurdodi sydd ei angen arnoch:
 unblockCode-prompt-plaintext = Os ie, dyma'r cod awdurdodi sydd ei angen arnoch: { $unblockCode }
 unblockCode-report = Os nad, cynorthwywch ni i gadw ymyrwyr draw ac <a data-l10n-name="reportSignInLink">adrodd arno i ni.</a>
 unblockCode-report-plaintext = Os nad, cynorthwywch ni i gadw ymyrwyr draw ac adrodd arno i ni.
-verificationReminderFirst-subject = Nodyn atgoffa: Gorffennwch greu eich cyfrif
-verificationReminderFirst-title = Croeso i deulu { -brand-firefox }
-verificationReminderFirst-description = Rhai dyddiau yn ôl fe wnaethoch chi greu { -product-firefox-account }, ond heb ei gadarnhau.
-verificationReminderFirst-sub-description = Cadarnhewch nawr a chael technoleg sy’n ymgyrchu ac yn diogelu eich preifatrwydd, yn rhoi gwybodaeth ymarferol i chi, a‘r parch rydych yn ei haeddu.
-confirm-email = E-bost cadarnhau
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = E-bost cadarnhau
-verificationReminderSecond-subject = Nodyn atgoffa terfynol: Gweithredwch eich cyfrif
-verificationReminderSecond-title = Dal yna?
-verificationReminderSecond-description-2 = Bron i wythnos yn ôl fe wnaethoch greu { -product-firefox-account } ond heb ei gadarnhau. Rydym yn poeni amdanoch chi.
-verificationReminderSecond-sub-description = Cadarnhewch y cyfeiriad e-bost hwn i weithredu eich cyfrif a gadewch i ni wybod eich bod chi’n iawn.
-verificationReminderSecond-action = E-bost cadarnhau
-verify-title = Defnyddiwch gynnyrch teulu { -brand-firefox }
-verify-description-plaintext = Cadarnhewch eich cyfrif a chael y gorau o { -brand-firefox } ym mhob man rydych chi’n mewngofnodi iddo.
 verify-description = Cadarnhewch eich cyfrif a chael y gorau o { -brand-firefox } ym mhob man rydych chi’n mewngofnodi gan gychwyn yn:
 verify-subject = Gorffen creu eich cyfrif
-verify-action = E-bost cadarnhau
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Mewngofnodiad newydd i { $clientName }
-verifyLogin-description = Er mwy gwell diogelwch, cadarnhewch y mewngofnodi hwn o’r ddyfais ganlynol:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Cadarnhewch y mewngofnodi newydd i { $clientName }
 verifyLogin-action = Cadarnhau eich mewngofnodi
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -627,9 +601,4 @@ verifySecondaryCode-action-2 = Cadarnhau'r e-bost
 verifySecondaryCode-explainer = Mae cais i ddefnyddio { $email } fel ail e-bost wedi ei wneud o'r { -product-firefox-account } canlynol:
 verifySecondaryCode-prompt-2 = Defnyddiwch y cod cadarnhau yma:
 verifySecondaryCode-expiry-notice-2 = Daw i ben ymhen 5 munud. Ar ôl ei gadarnhau, bydd y cyfeiriad hwn yn dechrau derbyn hysbysiadau a chadarnhad diogelwch.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Cod cadarnhau: { $code }
-verifyShortCode-title = Ai hyn yw chi wedi cofrestru?
-verifyShortCode-prompt-2 = Os ydych, defnyddiwch y cod cadarnhau yma yn eich ffurflen gofrestru:
 verifyShortCode-expiry-notice = Daw i ben mewn 5 munud.
