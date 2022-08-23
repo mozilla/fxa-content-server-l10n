@@ -208,6 +208,9 @@ lowRecoveryCodes-subject =
 newDeviceLogin-subject = Ný innskráning á { $clientName }
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
+newDeviceLogin-change-password = Ekki þú? <a data-l10n-name="passwordChangeLink">Breyttu lykilorðinu þínu</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = Ekki þú? Breyttu lykilorðinu þínu:
 newDeviceLogin-action = Sýsla með reikning
 passwordChanged-subject = Lykilorð uppfært
@@ -235,7 +238,10 @@ postAddAccountRecovery-subject-2 = Endurheimtulykill reiknings útbúinn
 postAddAccountRecovery-title2 = Þú bjóst til nýjan endurheimtarlykil fyrir reikninginn
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Ekki þú?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Eyddu nýja lyklinum</a> og <a data-l10n-name="passwordChangeLink">breyttu lykilorðinu þínu</a>
 postAddAccountRecovery-action = Sýsla með reikning
+postAddAccountRecovery-delete-key = Eyddu nýja lyklinum:
+postAddAccountRecovery-changd-password = Breyttu lykilorðinu þínu:
 postAddLinkedAccount-subject = Nýr reikningur tengdur við { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -278,6 +284,8 @@ postRemoveTwoStepAuthentication-description = Þú hefur gert óvirka tveggja-þ
 postRemoveTwoStepAuthentication-description-plaintext = Þú hefur gert óvirka tveggja-þrepa auðkenningu á { -product-firefox-account }-reikningnum þínum. Öryggiskóða frá auðkenningarforritinu þínu verður ekki lengur krafist við hverja innskráningu.
 postRemoveTwoStepAuthentication-action = Sýsla með reikning
 postRemoveTwoStepAuthentication-not-required = Ekki verður lengur krafist öryggiskóða við hverja innskráningu.
+postVerify-sub-title-3 = Við erum ánægð að sjá þig!
+postVerify-title-2 = Viltu sjá sama flipa á tveimur tækjum?
 postVerifySecondary-subject = Aukapóstfangi bætt við
 postVerifySecondary-title = Aukapóstfangi bætt við
 # Variables:
