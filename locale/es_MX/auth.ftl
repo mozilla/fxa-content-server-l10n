@@ -216,6 +216,12 @@ newDeviceLogin-subject = Nuevo inicio de sesión en { $clientName }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Tu { -product-firefox-account } fue usada para iniciar sesión
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = ¿No eres tú? <a data-l10n-name="passwordChangeLink">Cambia tu contraseña</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = ¿No eres tú? Cambia tu contraseña:
 newDeviceLogin-action = Administrar cuenta
 passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Contraseña cambiada exitosamente
@@ -238,6 +244,12 @@ passwordResetAccountRecovery-action = Crear nueva llave de recuperación
 passwordResetAccountRecovery-regen-required = Necesitarás generar una nueva llave de recuperación.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Crear nueva llave de recuperación:
+postAddAccountRecovery-subject-2 = Clave de recuperación de la cuenta creada
+postAddAccountRecovery-title2 = Creaste una nueva clave de recuperación de la cuenta
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Una nueva clave se ha creado desde:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = ¿No eres tú?
 postAddAccountRecovery-action = Administrar cuenta
 postAddLinkedAccount-subject = Nueva cuenta vinculada a { -brand-firefox }
 #  Variables:
