@@ -81,15 +81,9 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Đây là một email tự động; nếu bạn không thêm thiết bị mới vào { -product-firefox-account } của mình, bạn nên thay đổi mật khẩu của mình ngay lập tức tại { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Đây là một email tự động; nếu bạn nhận được nó do nhầm lẫn, không cần thực hiện hành động nào.
-    Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
-automated-email-plaintext = Đây là một email tự động; nếu bạn nhận được nó do lỗi, không cần thực hiện hành động nào.
-automated-email-support = { automated-email-plaintext } Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Support</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Để biết thêm thông tin, vui lòng truy cập { -brand-mozilla } Support: { $mozillaSupportUrl }.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext }Để biết thêm thông tin, hãy truy cập <<a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-no-action-plaintext = Đây là một email tự động. Nếu bạn nhận nhầm, bạn không cần phải làm gì cả.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Đây là email tự động; nếu bạn không nhận ra hành động này, vui lòng thay đổi mật khẩu của bạn:
 automated-email-reset =
@@ -140,8 +134,8 @@ subscriptionUpdatePayment = Để ngăn chặn bất kỳ sự gián đoạn nà
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Để ngăn chặn bất kỳ sự gián đoạn nào đối với dịch vụ của bạn, vui lòng cập nhật thông tin thanh toán của bạn càng sớm càng tốt:
 # Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Để biết thêm thông tin, vui lòng truy cập { $supportUrl }
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Để biết thêm thông tin, hãy truy cập { -brand-mozilla } Support: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -218,7 +212,13 @@ lowRecoveryCodes-subject =
 newDeviceLogin-subject = Đăng nhập mới vào { $clientName }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Đăng nhập mới vào { $clientName }
+newDeviceLogin-title-2 = { -product-firefox-account } của bạn đã được sử dụng để đăng nhập
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Không phải bạn? <a data-l10n-name="passwordChangeLink">Thay đổi mật khẩu của bạn</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Không phải bạn? Thay đổi mật khẩu của bạn:
 newDeviceLogin-action = Quản lý tài khoản
 passwordChanged-subject = Đã cập nhật mật khẩu
 passwordChanged-title = Mật khẩu đã thay đổi thành công
@@ -241,12 +241,16 @@ passwordResetAccountRecovery-action = Tạo khóa khôi phục mới
 passwordResetAccountRecovery-regen-required = Bạn sẽ cần tạo khóa khôi phục mới.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Tạo khóa khôi phục mới:
-postAddAccountRecovery-subject = Đã tạo khóa khôi phục tài khoản
-postAddAccountRecovery-title = Đã tạo khóa khôi phục tài khoản
-postAddAccountRecovery-description = Bạn đã tạo thành công khóa khôi phục tài khoản cho { -product-firefox-account } của mình bằng thiết bị sau:
+postAddAccountRecovery-subject-2 = Đã tạo khóa khôi phục tài khoản
+postAddAccountRecovery-title2 = Bạn đã tạo khóa khôi phục tài khoản mới
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Khóa mới đã được tạo từ:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Không phải bạn?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Xóa khóa mới</a> và <a data-l10n-name="passwordChangeLink">thay đổi mật khẩu của bạn</a>
 postAddAccountRecovery-action = Quản lý tài khoản
-postAddAccountRecovery-recovery = Nếu đây không phải là bạn, <a data-l10n-name="revokeAccountRecoveryLink">nhấp vào đây</a>.
-postAddAccountRecovery-revoke = Nếu đây không phải là bạn, hãy thu hồi khóa.
+postAddAccountRecovery-delete-key = Xóa khóa mới:
+postAddAccountRecovery-changd-password = Thay đổi mật khẩu của bạn:
 postAddLinkedAccount-subject = Tài khoản mới được liên kết với { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -289,15 +293,13 @@ postRemoveTwoStepAuthentication-description = Bạn đã vô hiệu hóa thành 
 postRemoveTwoStepAuthentication-description-plaintext = Bạn đã vô hiệu hóa thành công xác thực hai bước trên { -product-firefox-account } của mình. Mã bảo mật sẽ không còn được yêu cầu ở mỗi lần đăng nhập.
 postRemoveTwoStepAuthentication-action = Quản lý tài khoản
 postRemoveTwoStepAuthentication-not-required = Mã bảo mật sẽ không còn được yêu cầu tại mỗi lần đăng nhập.
-postVerify-sub-title-2 = Đã xác minh { -product-firefox-account }. Bạn đã gần xong.
-postVerify-title = Tiếp theo, đồng bộ hóa giữa các thiết bị của bạn!
-postVerify-description = Đồng bộ hóa riêng tư giữ dấu trang, mật khẩu và dữ liệu { -brand-firefox } khác giống nhau trên tất cả các thiết bị của bạn.
-postVerify-subject-2 = Đã xác minh tài khoản. Tiếp theo, đồng bộ hóa thiết bị khác để hoàn tất thiết lập
-postVerify-setup = Thiết lập thiết bị tiếp theo
-postVerify-action = Thiết lập thiết bị tiếp theo
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Có một vài câu hỏi? Truy cập { $supportUrl }
+postVerify-sub-title-3 = Chúng tôi rất vui được gặp bạn!
+postVerify-title-2 = Bạn muốn xem cùng một thẻ trên hai thiết bị?
+postVerify-description-2 = Dễ thôi! Chỉ cần cài đặt { -brand-firefox } trên một thiết bị khác và đăng nhập để đồng bộ hóa. Nó giống như một phép thuật!
+postVerify-sub-description = (Psst… Điều đó cũng có nghĩa là bạn có thể lấy dấu trang, mật khẩu và dữ liệu { -brand-firefox } khác ở mọi nơi bạn đăng nhập.)
+postVerify-subject-3 = Chào mừng đến với { -brand-firefox }!
+postVerify-setup-2 = Kết nối thiết bị khác:
+postVerify-action-2 = Kết nối thiết bị khác
 postVerifySecondary-subject = Đã thêm email phụ
 postVerifySecondary-title = Đã thêm email phụ
 # Variables:
@@ -305,8 +307,12 @@ postVerifySecondary-title = Đã thêm email phụ
 postVerifySecondary-content-2 = Bạn đã xác minh thành công { $secondaryEmail } làm email phụ từ { -product-firefox-account } của mình. Giờ đây, thông báo bảo mật và xác nhận đăng nhập sẽ được gửi tới cả hai địa chỉ email.
 postVerifySecondary-action = Quản lý tài khoản
 recovery-subject = Đặt lại mật khẩu của bạn
-recovery-title = Cần đặt lại mật khẩu của bạn?
-recovery-description = Vui lòng nhấp vào nút trong vòng một giờ để đặt mật khẩu mới. Yêu cầu này được thực hiện từ thiết bị sau:
+recovery-title-2 = Bạn đã quên mật khẩu?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Chúng tôi đã nhận được yêu cầu thay đổi mật khẩu trên { -product-firefox-account } của bạn từ:
+recovery-new-password-button = Tạo mật khẩu mới bằng cách nhấp vào nút bên dưới. Liên kết này sẽ hết hạn trong vòng một giờ tới.
+recovery-copy-paste = Tạo mật khẩu mới bằng cách sao chép và dán URL bên dưới vào trình duyệt của bạn. Liên kết này sẽ hết hạn trong vòng một giờ tới.
 recovery-action = Tạo mật khẩu mới
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -577,30 +583,31 @@ unblockCode-prompt = Nếu có, dưới đây là mã ủy quyền bạn cần:
 unblockCode-prompt-plaintext = Nếu có, đây là mã xác minh bạn cần: { $unblockCode }
 unblockCode-report = Nếu không, hãy giúp chúng tôi chống lại những kẻ xâm nhập và <a data-l10n-name="reportSignInLink">báo cáo cho chúng tôi</a>.
 unblockCode-report-plaintext = Nếu không, hãy giúp chúng tôi chống lại những kẻ xâm nhập và báo cáo cho chúng tôi.
-verificationReminderFirst-subject = Nhắc nhở: Hoàn tất tạo tài khoản của bạn
-verificationReminderFirst-title = Chào mừng đến với gia đình { -brand-firefox }
-verificationReminderFirst-description = Một vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác nhận.
-verificationReminderFirst-sub-description = Xác nhận ngay bây giờ và nhận công nghệ chiến đấu và bảo vệ quyền riêng tư của bạn, trang bị cho bạn kiến thức thực tế và sự tôn trọng mà bạn xứng đáng.
-confirm-email = Xác nhận email
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Xác nhận email
-verificationReminderSecond-subject = Lời nhắc cuối cùng: Kích hoạt tài khoản của bạn
-verificationReminderSecond-title = Vẫn còn đó?
-verificationReminderSecond-description-2 = Gần một tuần trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh nó. Chúng tôi lo lắng về bạn.
-verificationReminderSecond-sub-description = Xác nhận địa chỉ email này để kích hoạt tài khoản của bạn và cho chúng tôi biết bạn vẫn ổn.
-verificationReminderSecond-action = Xác nhận email
-verify-title = Kích hoạt dòng sản phẩm của gia đình { -brand-firefox }
-verify-description-plaintext = Xác nhận tài khoản của bạn và tận dụng tối đa { -brand-firefox } ở mọi nơi bạn đăng nhập.
+verificationReminderFinal-subject = Lời nhắc cuối cùng để xác minh tài khoản của bạn
+verificationReminderFinal-description = Vài tuần trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh. Để bảo mật cho bạn, chúng tôi sẽ xóa tài khoản nếu không được xác minh trong 24 giờ tới.
+confirm-account = Xác minh tài khoản
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Hãy nhớ xác minh tài khoản của bạn
+verificationReminderFirst-title-2 = Chào mừng đến với { -brand-firefox }!
+verificationReminderFirst-description-2 = Vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh. Vui lòng xác minh tài khoản của bạn trong 15 ngày tới, nếu không tài khoản sẽ tự động bị xóa.
+verificationReminderFirst-sub-description-2 = Đừng bỏ lỡ công nghệ đặt bạn và quyền riêng tư của bạn lên hàng đầu.
+confirm-email-2 = Xác minh tài khoản
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Xác minh tài khoản
+verificationReminderSecond-subject-2 = Hãy nhớ xác minh tài khoản của bạn
+verificationReminderSecond-title-2 = Đừng bỏ lỡ { -brand-firefox }!
+verificationReminderSecond-description-3 = Vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh. Vui lòng xác minh tài khoản của bạn trong 10 ngày tới, nếu không tài khoản sẽ tự động bị xóa.
+verificationReminderSecond-second-description = { -product-firefox-account } của bạn cho phép bạn đồng bộ hóa thông tin của mình trên các thiết bị và mở khóa quyền truy cập vào các sản phẩm bảo vệ quyền riêng tư khác từ { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Hãy là một phần trong sứ mệnh của chúng tôi là biến Internet thành một nơi mở cửa cho tất cả mọi người.
+verificationReminderSecond-action-2 = Xác minh tài khoản
 verify-description = Xác nhận tài khoản của bạn và tận dụng tối đa { -brand-firefox } ở mọi nơi bạn đăng nhập bắt đầu bằng:
 verify-subject = Hoàn tất việc tạo tài khoản của bạn
-verify-action = Xác nhận email
+verify-action-2 = Xác minh tài khoản
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Đăng nhập mới vào { $clientName }
-verifyLogin-description = Để tăng cường bảo mật, vui lòng xác nhận đăng nhập này từ thiết bị sau:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Xác nhận đăng nhập mới vào { $clientName }
+verifyLogin-title-2 = Bạn đã đăng nhập vào { $clientName } chưa?
+verifyLogin-description-2 = Giúp chúng tôi giữ an toàn cho tài khoản của bạn bằng cách xác nhận rằng bạn đã đăng nhập vào:
+verifyLogin-subject-2 = Xác nhận đăng nhập
 verifyLogin-action = Xác nhận lần đăng nhập này
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -624,7 +631,8 @@ verifySecondaryCode-prompt-2 = Sử dụng mã xác minh này:
 verifySecondaryCode-expiry-notice-2 = Nó hết hạn sau 5 phút. Sau khi được xác minh, địa chỉ này sẽ bắt đầu nhận được thông báo bảo mật và xác nhận.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Mã xác minh: { $code }
-verifyShortCode-title = Đây có phải là bạn đăng nhập không?
-verifyShortCode-prompt-2 = Nếu có, hãy sử dụng mã xác minh này trong biểu mẫu đăng ký của bạn:
+verifyShortCode-subject-3 = Xác minh tài khoản của bạn
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Xác minh tài khoản của bạn và tận dụng tối đa { -brand-firefox } ở mọi nơi bạn đăng nhập bắt đầu bằng:
+verifyShortCode-prompt-3 = Sử dụng mã xác minh này:
 verifyShortCode-expiry-notice = Nó hết hạn sau 5 phút.
