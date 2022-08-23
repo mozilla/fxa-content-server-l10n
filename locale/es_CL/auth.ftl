@@ -81,6 +81,9 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Este es un email generado automáticamente; si no has añadido ningún dispositivo nuevo a tu { -product-firefox-account }, deberías cambiar inmediatamente tu contraseña en { $passwordChangeLink }
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Para más información, visita el <a data-l10n-name="supportLink">Soporte de { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Este es un correo electrónico automatizado. Si lo recibiste por error, no necesitas hacer nada.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Este es un correo automático; si no autorizaste esta acción, por favor cambia tu contraseña:
 automated-email-reset =
@@ -130,6 +133,9 @@ subscriptionUpdateBillingTry-plaintext = Volveremos a intentar tu pago dentro de
 subscriptionUpdatePayment = Para evitar cualquier interrupción en tu servicio,<a data-l10n-name="updateBillingUrl">actualiza tu información de pago</a> lo antes posible.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, actualiza tu información de pago lo antes posible:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Para más información, visita el Soporte de { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -205,6 +211,15 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nueva conexión de { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Tu { -product-firefox-account } fue usada para conectarse
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = ¿No fuiste tú? <a data-l10n-name="passwordChangeLink">Cambia tu contraseña</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = ¿No fuiste tú? Cambia tu contraseña:
 newDeviceLogin-action = Administrar cuenta
 passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Contraseña cambiada exitosamente
@@ -227,7 +242,16 @@ passwordResetAccountRecovery-action = Crear una nueva clave de recuperación
 passwordResetAccountRecovery-regen-required = Ahora deberás generar una nueva clave de recuperación.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Crear una nueva clave de recuperación:
+postAddAccountRecovery-subject-2 = Clave de recuperación de cuenta creada
+postAddAccountRecovery-title2 = Has creado una nueva clave de recuperación de cuenta
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Una nueva clave fue creada desde:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = ¿No fuiste tú?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Elimina la nueva clave</a> y <a data-l10n-name="passwordChangeLink">cambia tu contraseña</a>
 postAddAccountRecovery-action = Administrar cuenta
+postAddAccountRecovery-delete-key = Eliminar la nueva clave:
+postAddAccountRecovery-changd-password = Cambiar tu contraseña
 postAddLinkedAccount-subject = Nueva cuenta vinculada a { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -270,6 +294,13 @@ postRemoveTwoStepAuthentication-description = Has desactivado exitosamente la au
 postRemoveTwoStepAuthentication-description-plaintext = Has desactivado exitosamente la autenticación en dos pasos en tu { -product-firefox-account }. Los códigos de seguridad ya no serán requeridos en cada conexión.
 postRemoveTwoStepAuthentication-action = Administrar cuenta
 postRemoveTwoStepAuthentication-not-required = Los códigos de seguridad ya no serán requeridos en cada conexión.
+postVerify-sub-title-3 = ¡Estamos encantados de verte!
+postVerify-title-2 = ¿Quieres ver la misma pestaña en dos dispositivos?
+postVerify-description-2 = ¡Es fácil! Simplemente instala { -brand-firefox } en otro dispositivo y conéctate para sincronizar. ¡Es como por arte de magia!
+postVerify-sub-description = (Psst... También significa que puedes tener tus marcadores, contraseñas y otros datos de { -brand-firefox } en cualquier lugar en que te hayas conectado).
+postVerify-subject-3 = ¡Te damos la bienvenida a { -brand-firefox }!
+postVerify-setup-2 = Conectar otro dispositivo:
+postVerify-action-2 = Conectar otro dispositivo
 postVerifySecondary-subject = Correo secundario añadido
 postVerifySecondary-title = Correo secundario añadido
 # Variables:
@@ -277,6 +308,12 @@ postVerifySecondary-title = Correo secundario añadido
 postVerifySecondary-content-2 = Has confirmado exitosamente { $secondaryEmail } como correo secundario para tu { -product-firefox-account }. Las notificaciones de seguridad y confirmaciones de conexión ahora serán enviadas a ambas direcciones de correo.
 postVerifySecondary-action = Administrar cuenta
 recovery-subject = Restablecer tu contraseña
+recovery-title-2 = ¿Olvidaste tu contraseña?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Recibimos una solicitud de cambio de contraseña en tu { -product-firefox-account } desde:
+recovery-new-password-button = Crea una nueva contraseña haciendo clic en el botón de abajo. Este enlace caducará dentro de la próxima hora.
+recovery-copy-paste = Crea una nueva contraseña copiando y pegando la URL de a continuación en tu navegador. Este enlace caducará dentro de la próxima hora.
 recovery-action = Crear nueva contraseña
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -547,8 +584,23 @@ unblockCode-prompt = De ser así, este es el código de autorización que necesi
 unblockCode-prompt-plaintext = De ser así, este es el código de autorización que necesitas: { $unblockCode }
 unblockCode-report = En caso contrario, ayudanos a alejar a los intrusos <a data-l10n-name="reportSignInLink">reportándolo</a>.
 unblockCode-report-plaintext = En caso contrario, ayudanos a alejar a los intrusis reportándolo.
+verificationReminderFinal-subject = Último recordatorio para confirmar tu cuenta
+verificationReminderFinal-description = Hace un par de semanas, se creó una { -product-firefox-account }, pero nunca fue confirmada. Por tu seguridad, eliminaremos la cuenta si no es verificada dentro de las próximas 24 horas.
+confirm-account = Confirmar cuenta
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Recuerda confirmar tu cuenta
+verificationReminderFirst-title-2 = ¡Te damos la bienvenida a { -brand-firefox }!
+verificationReminderFirst-description-2 = Hace unos días creaste una { -product-firefox-account }, pero nunca la confirmaste. Confirma tu cuenta dentro de los próximos 15 días o será eliminada automáticamente.
+confirm-email-2 = Confirmar cuenta
+verificationReminderSecond-action-2 = Confirmar cuenta
+verify-title-2 = Abre Internet con { -brand-firefox }
 verify-description = Confirma tu cuenta y sácale el máximo provecho a { -brand-firefox } donde sea que te conectes empezando por:
 verify-subject = Termina de crear tu cuenta
+verify-action-2 = Confirmar cuenta
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = ¿Te conectaste en { $clientName }?
+verifyLogin-description-2 = Ayúdanos a mantener tu cuenta segura confirmando que te conectaste en:
 verifyLogin-subject-2 = Confirmar conexión
 verifyLogin-action = Confirmar conexión
 # Variables:
@@ -571,4 +623,11 @@ verifySecondaryCode-action-2 = Confirmar correo
 verifySecondaryCode-explainer = Una solicitud para usar { $email } como una dirección de correo secundaria ha sido hecha desde la siguiente { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Usar este código de confirmación:
 verifySecondaryCode-expiry-notice-2 = Expira en 5 minutos. Una vez confirmada, esta dirección empezará a recibir notificaciones de seguridad.y confirmaciones.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Confirma tu cuenta
+verifyShortCode-title-2 = Abre Internet con { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Confirma tu cuenta y sácale el máximo provecho a { -brand-firefox } donde sea que te conectes empezando por:
+verifyShortCode-prompt-3 = Usar este código de confirmación:
 verifyShortCode-expiry-notice = Expira en 5 minutos.
