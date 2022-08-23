@@ -130,6 +130,8 @@ input-error-is-required = { $label } ਲੋੜੀਂਦਾ ਹੈ
 
 ## Subscription upgrade
 
+product-plan-change-heading = ਆਪਣੀਆਂ ਤਬਦੀਲੀਆਂ ਦੀ ਪੜਤਾਲ ਕਰੋ
+sub-change-failed = ਪਲਾਨ ਬਦਲਣਾ ਅਸਫ਼ਲ ਹੈ
 sub-update-payment-title = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 
 ##
@@ -171,9 +173,11 @@ pay-update-change-btn = ਬਦਲੋ
 ## reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
 
 ## $date (Date) - Last day of product access
 
+reactivate-panel-date = ਤੁਸੀਂ { $date } ਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਰੱਦ ਕੀਤੀ ਸੀ।
 reactivate-success-copy = ਧੰਨਵਾਦ! ਤੁਸੀਂ ਸਭ ਕਰ ਲਿਆ ਹੈ।
 reactivate-success-button = ਬੰਦ ਕਰੋ
 
@@ -195,6 +199,8 @@ account-activated = ਤੁਹਾਡਾ ਖਾਤਾ ਚਾਲੂ ਹੋ ਗਿ�
 ## Subscription route index
 
 sub-route-idx-updating = ਬਿੱਲ ਸਬੰਧੀ ਜਾਣਕਾਰੀ ਅੱਪਡੇਟ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…
+sub-route-idx-cancel-failed = ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਕਰਨਾ ਅਸਫਲ ਹੈ
+sub-route-idx-contact = ਸੰਪਰਕ ਸਹਿਯੋਗ
 sub-subscription-error =
     .title = ਮੈਂਬਰੀਆਂ ਨੂੰ ਲੋਡ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ
 sub-customer-error =
@@ -248,6 +254,7 @@ payment-confirmation-cc-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } �
 
 ## New user email form
 
+new-user-step-1 = 1. { -brand-name-firefox } ਖਾਤਾ ਬਣਾਓ
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
