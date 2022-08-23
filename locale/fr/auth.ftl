@@ -555,8 +555,14 @@ unblockCode-prompt = Si oui, voici le code d’autorisation dont vous avez besoi
 unblockCode-prompt-plaintext = Si oui, voici le code d’autorisation dont vous avez besoin : { $unblockCode }
 unblockCode-report = Si non, aidez-nous à repousser les intrus et <a data-l10n-name="reportSignInLink">signalez-le-nous</a>.
 unblockCode-report-plaintext = Si non, aidez-nous à repousser les intrus et signalez-le-nous.
+confirm-account = Confirmer le compte
+confirm-email-2 = Confirmer le compte
+verificationReminderFirst-action-2 = Confirmer le compte
+verificationReminderSecond-action-2 = Confirmer le compte
 verify-description = Confirmez votre compte et tirez le meilleur parti de { -brand-firefox } partout où vous vous connectez, en commençant par :
 verify-subject = Terminez la création de votre compte
+verify-action-2 = Confirmer le compte
+verifyLogin-subject-2 = Confirmer la connexion
 verifyLogin-action = Confirmer la connexion
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -578,4 +584,8 @@ verifySecondaryCode-action-2 = Confirmez votre adresse électronique
 verifySecondaryCode-explainer = Une demande d’utilisation de l’adresse { $email } en tant qu’adresse secondaire a été effectuée depuis le { -product-firefox-account } suivant :
 verifySecondaryCode-prompt-2 = Utilisez ce code de confirmation :
 verifySecondaryCode-expiry-notice-2 = Celui-ci expire dans 5 minutes. Une fois confirmée, cette adresse commencera à recevoir des notifications de sécurité et codes de confirmation.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Confirmez votre compte
+verifyShortCode-prompt-3 = Utilisez ce code de confirmation :
 verifyShortCode-expiry-notice = Il expire dans 5 minutes.
