@@ -286,6 +286,11 @@ postRemoveTwoStepAuthentication-action = Sýsla með reikning
 postRemoveTwoStepAuthentication-not-required = Ekki verður lengur krafist öryggiskóða við hverja innskráningu.
 postVerify-sub-title-3 = Við erum ánægð að sjá þig!
 postVerify-title-2 = Viltu sjá sama flipa á tveimur tækjum?
+postVerify-description-2 = Það er einfalt! Settu bara { -brand-firefox } upp á öðru tæki og skráðu þig inn til að samstilla. Það virkar eins og galdrar!
+postVerify-sub-description = (Psst... Það þýðir líka að þú getur náð í bókamerkin þín, lykilorð og önnur { -brand-firefox } gögn hvar sem þú ert skráð/ur inn.)
+postVerify-subject-3 = Velkomin í { -brand-firefox }!
+postVerify-setup-2 = Tengja annað tæki:
+postVerify-action-2 = Tengja annað tæki
 postVerifySecondary-subject = Aukapóstfangi bætt við
 postVerifySecondary-title = Aukapóstfangi bætt við
 # Variables:
@@ -293,6 +298,12 @@ postVerifySecondary-title = Aukapóstfangi bætt við
 postVerifySecondary-content-2 = Þú hefur staðfest { $secondaryEmail } sem aukapóstfang fyrir { -product-firefox-account }. Öryggistilkynningar og staðfestingar á innskráningu verða nú sendar á bæði tölvupóstföngin.
 postVerifySecondary-action = Sýsla með reikning
 recovery-subject = Endurstilla lykilorð
+recovery-title-2 = Gleymt lykilorð?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Við fengum beiðni um breytingu á lykilorði á { -product-firefox-account }-reikningnum þínum frá:
+recovery-new-password-button = Búðu til nýtt lykilorð með því að smella á hnappinn hér fyrir neðan. Þessi tengill mun renna út innan klukkustundar.
+recovery-copy-paste = Búðu til nýtt lykilorð með því að afrita og líma slóðina hér að neðan í vafrann þinn. Þessi tengill mun renna út innan klukkustundar.
 recovery-action = Búa til nýtt lykilorð
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -563,6 +574,20 @@ unblockCode-prompt = Ef já, þá er hérna auðkenningarkóðinn sem þú þarf
 unblockCode-prompt-plaintext = Ef já, þá er hérna auðkenningarkóðinn sem þú þarft: { $unblockCode }
 unblockCode-report = Ef nei, hjálpaðu okkur að verjast boðflennum með því að <a data-l10n-name="reportSignInLink">tilkynna okkur þetta.</a>
 unblockCode-report-plaintext = Ef nei, hjálpaðu okkur að verjast boðflennum með því að tilkynna okkur þetta.
+verificationReminderFinal-subject = Lokaáminning um að staðfesta reikninginn þinn
+verificationReminderFinal-description = Fyrir nokkrum vikum síðan stofnaðir þú { -product-firefox-account } en staðfestir hann aldrei. Til að gæta öryggis þíns, munum við eyða reikningnum ef hann er ekki staðfestur innan 24 klukkustunda.
+confirm-account = Staðfesta reikning
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Mundu að staðfesta reikninginn þinn
+verificationReminderFirst-title-2 = Velkomin í { -brand-firefox }!
+verificationReminderFirst-description-2 = Fyrir nokkrum dögum bjóstu til { -product-firefox-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 15 daga eða honum verður sjálfkrafa eytt.
+confirm-email-2 = Staðfesta reikning
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Staðfesta reikning
+verificationReminderSecond-subject-2 = Mundu að staðfesta reikninginn þinn
+verificationReminderSecond-title-2 = Ekki missa af { -brand-firefox }!
+verificationReminderSecond-description-3 = Fyrir nokkrum dögum bjóstu til { -product-firefox-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 10 daga eða honum verður sjálfkrafa eytt.
+verificationReminderSecond-action-2 = Staðfesta reikning
 verify-description = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-firefox } hvar sem þú skráir þig inn, til dæmis fyrst á:
 verify-subject = Ljúktu við að búa til reikninginn þinn
 verifyLogin-action = Staðfesta innskráningu
