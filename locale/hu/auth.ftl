@@ -313,6 +313,7 @@ recovery-title-2 = Elfelejtette a jelszavát?
 # triggered the email follows.
 recovery-request-origin = A(z) { -product-firefox-account }ja jelszavának megváltoztatására vonatkozó kérést kaptunk a következőtől:
 recovery-new-password-button = Hozzon létre egy új jelszót az alábbi gombra kattintva. Ez a hivatkozás egy órán belül lejár.
+recovery-copy-paste = Hozzon létre egy új jelszót az alábbi webcím másolásával és a böngészőbe történő beillesztésével. Ez a hivatkozás egy órán belül lejár.
 recovery-action = Új jelszó létrehozása
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -583,6 +584,19 @@ unblockCode-prompt = Ha igen, akkor erre az engedélyezési kódra van szükség
 unblockCode-prompt-plaintext = Ha igen, akkor erre az engedélyezési kódra van szüksége: { $unblockCode }
 unblockCode-report = Ha nem, akkor segítsen kivédeni a behatolókat, és <a data-l10n-name="reportSignInLink">jelentse nekünk.</a>
 unblockCode-report-plaintext = Ha nem, akkor segítsen kivédeni a behatolókat, és jelentse nekünk.
+verificationReminderFinal-subject = Végső emlékeztető, hogy erősítse meg a fiókját
+verificationReminderFinal-description = Néhány hete létrehozott egy { -product-firefox-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 24 órán belül nem igazolja vissza.
+confirm-account = Fiók megerősítése
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Emlékeztető, hogy erősítse meg a fiókját
+verificationReminderFirst-title-2 = Üdvözli a { -brand-firefox }!
+verificationReminderFirst-description-2 = Néhány napja létrehozott egy { -product-firefox-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 24 órán belül nem igazolja vissza.
+verificationReminderFirst-sub-description-2 = Ne hagyja ki azt a technológiát, amely Önt és a magánszféráját teszi az első helyre.
+confirm-email-2 = Fiók megerősítése
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Fiók megerősítése
+verificationReminderSecond-subject-2 = Emlékeztető, hogy erősítse meg a fiókját
+verificationReminderSecond-title-2 = Ne hagyja ki a { -brand-firefox }ot!
 verify-description = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik, kezdve ezzel:
 verify-subject = A fiókja létrehozásának befejezése
 verifyLogin-action = Bejelentkezés megerősítése
