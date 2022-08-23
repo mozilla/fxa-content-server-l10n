@@ -295,6 +295,12 @@ postRemoveTwoStepAuthentication-description-plaintext = Desactivaste correctamen
 postRemoveTwoStepAuthentication-action = Administrar cuenta
 postRemoveTwoStepAuthentication-not-required = Los códigos de seguridad ya no van a ser necesarios en cada inicio de sesión.
 postVerify-sub-title-3 = ¡Estamos encantados de verte!
+postVerify-title-2 = ¿Querés ver la misma pestaña en dos dispositivos?
+postVerify-description-2 = ¡Es fácil! Instalá{ -brand-firefox } en otro dispositivo e inicia sesión para sincronizar. ¡Parece magia!
+postVerify-sub-description = (Psst… también significa que podés tener tus marcadores, contraseñas y otros datos de { -brand-firefox } dondequiera que hayas iniciado sesión).
+postVerify-subject-3 = ¡Bienvenido a { -brand-firefox }!
+postVerify-setup-2 = Conectar otro dispositivo:
+postVerify-action-2 = Conectar otro dispositivo
 postVerifySecondary-subject = Correo electrónico secundario añadido
 postVerifySecondary-title = Correo electrónico secundario añadido
 # Variables:
@@ -302,6 +308,12 @@ postVerifySecondary-title = Correo electrónico secundario añadido
 postVerifySecondary-content-2 = Confirmaste correctamente { $secondaryEmail } como correo electrónico secundario de tu { -product-firefox-account }. Las notificaciones de seguridad y confirmaciones de inicio de sesión ahora se recibirán en ambas direcciones.
 postVerifySecondary-action = Administrar cuenta
 recovery-subject = Restablecé tu contraseña
+recovery-title-2 = ¿Te olvidaste la contraseña?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Recibimos un pedido de cambio de contraseña en tu { -product-firefox-account } de:
+recovery-new-password-button = Creá una nueva contraseña haciendo clic en el siguiente botón. Este enlace expirará en una hora.
+recovery-copy-paste = Creá una nueva contraseña copiando y pegando la siguiente URL en un navegador. Este enlace expirará en una hora.
 recovery-action = Crear nueva contraseña
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -572,6 +584,12 @@ unblockCode-prompt = Si es así, acá está el código de autorización necesari
 unblockCode-prompt-plaintext = Si es así, este es el código de autorización que necesitás: { $unblockCode }
 unblockCode-report = Si no, ayudanos a alejar a los intrusos <a data-l10n-name="reportSignInLink">informándonos</a>.
 unblockCode-report-plaintext = Si no es así, ayudanos a defendernos de los intrusos e informarnos.
+verificationReminderFinal-subject = Último recordatorio para confirmar tu cuenta
+verificationReminderFinal-description = Hace un par de semanas creaste una { -product-firefox-account }, pero nunca la confirmaste. Para tu seguridad, borraremos la cuenta si no es verificada en las próximas 24 horas.
+confirm-account = Confirmar cuenta
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Acordate de confirmar tu cuenta
+verificationReminderFirst-title-2 = ¡Bienvenido a { -brand-firefox }!
 verify-description = Confirmá tu cuenta y aprovechá { -brand-firefox } al máximo cada vez que iniciás una sesión con:
 verify-subject = Terminar de crear la cuenta
 verifyLogin-action = Confirmar inicio de sesión
