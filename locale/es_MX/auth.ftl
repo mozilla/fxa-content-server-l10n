@@ -600,8 +600,18 @@ verificationReminderFirst-action-2 = Confirmar cuenta
 verificationReminderSecond-subject-2 = Recuerda confirmar tu cuenta
 verificationReminderSecond-title-2 = ¡No te pierdas { -brand-firefox }!
 verificationReminderSecond-description-3 = Hace algunos días crear una { -product-firefox-account }, pero nunca la confirmaste. Por favor, confirma tu cuenta en los próximos 10 días o se eliminará automáticamente.
+verificationReminderSecond-second-description = Tu { -product-firefox-account } te permite sincronizar tu información entre dispositivos y desbloquear el acceso para más protección de privacidad de los productos de { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Se parte de nuestra misión para transformar el internet en un lugar que sea libre para todos.
+verificationReminderSecond-action-2 = Confirmar cuenta
+verify-title-2 = Abrir el internet con { -brand-firefox }
 verify-description = Confirma tu cuenta y saca el máximo provecho de { -brand-firefox } dondequiera que inicies sesión, empezando por:
 verify-subject = Terminar de crear tu cuenta
+verify-action-2 = Confirmar cuenta
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = ¿Iniciaste sesión en { $clientName }?
+verifyLogin-description-2 = Ayúdanos a mantener tu cuenta segura confirmando que iniciaste sesión en:
+verifyLogin-subject-2 = Confirmar inicio de sesión
 verifyLogin-action = Confirmar inicio de sesión
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -623,4 +633,11 @@ verifySecondaryCode-action-2 = Confirmar correo electrónico
 verifySecondaryCode-explainer = Una solicitud para usar { $email } como una dirección de correo secundaria ha sido hecha desde la siguiente { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Usar este código de confirmación:
 verifySecondaryCode-expiry-notice-2 = Caduca en 5 minutos. Una vez confirmada, esta dirección comenzará a recibir notificaciones y confirmaciones de seguridad.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Confirma tu cuenta
+verifyShortCode-title-2 = Abre el internet con { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Confirma tu cuenta y saca el máximo provecho de { -brand-firefox } dondequiera que inicies sesión, empezando con:
+verifyShortCode-prompt-3 = Usar este código de confirmación:
 verifyShortCode-expiry-notice = Caduca en 5 minutos.
