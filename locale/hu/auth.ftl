@@ -597,6 +597,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Fiók megerősítése
 verificationReminderSecond-subject-2 = Emlékeztető, hogy erősítse meg a fiókját
 verificationReminderSecond-title-2 = Ne hagyja ki a { -brand-firefox }ot!
+verificationReminderSecond-description-3 = Néhány napja létrehozott egy { -product-firefox-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 10 napon belül nem igazolja vissza.
 verify-description = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik, kezdve ezzel:
 verify-subject = A fiókja létrehozásának befejezése
 verifyLogin-action = Bejelentkezés megerősítése
