@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-22 16:33+0000\n"
-"PO-Revision-Date: 2022-08-23 14:11+0000\n"
+"PO-Revision-Date: 2022-08-23 14:13+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1010,7 +1010,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "ਤਸਦੀਕੀ ਲਿੰਕ ਖਰਾਬ ਸੀ"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
@@ -1057,7 +1057,7 @@ msgstr "ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "ਤੁਹਾਡੇ Firefox ਖਾਤੇ ਲਈ"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1075,11 +1075,11 @@ msgstr "ਪੁਸ਼ਟੀ"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ?"
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "ਨਵਾਂ ਕੋਡ ਈਮੇਲ ਕਰੋ।"
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -1087,11 +1087,11 @@ msgstr "ਹੋਰ ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰੋ"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "Firefox account connected"
-msgstr ""
+msgstr "Firefox ਖਾਤਾ ਜੁੜ ਗਿਆ"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "ਈਮੇਲ ਤਸਦੀਕ ਕੀਤੀ"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1111,15 +1111,15 @@ msgstr "ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡ
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Sync Firefox across devices"
-msgstr ""
+msgstr "Firefox ਨੂੰ ਡਿਵਾਈਸਾਂ ਵਿਚਾਲੇ ਸਿੰਕ ਕਰੋ"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
-msgstr ""
+msgstr "ਕਿਤੇ ਵੀ ਸਾਈਨ ਕਰੋ, ਜਿੱਥੇ ਤੁਸੀਂ ਫਾਇਰਫਾਕਸ ਵਰਤਦੇ ਹੋ।"
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
-msgstr ""
+msgstr "ਅਸੀਂ Android ਤੇ iOS ਉੱਤੇ ਵੀ ਹਾਂ!"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1170,7 +1170,7 @@ msgstr "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "Firefox ਖਾਤਿਆਂ ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -1186,7 +1186,7 @@ msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> ਨਾਲ �
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "ਸਾਈਨ ਅੱਪ ਜਾਂ ਸਾਈਨ ਇਨ ਕਰੋ"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1898,7 +1898,7 @@ msgstr "IP ਸਿਰਨਾਵਾਂ: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "ਪਾਸਵਰਡ ਲਈ ਜ਼ਰੂਰਤਾਂ"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
