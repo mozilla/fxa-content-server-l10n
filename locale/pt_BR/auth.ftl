@@ -296,6 +296,11 @@ postRemoveTwoStepAuthentication-action = Gerenciar conta
 postRemoveTwoStepAuthentication-not-required = Códigos de segurança não serão mais necessários a cada novo acesso.
 postVerify-sub-title-3 = Estamos felizes em te ver!
 postVerify-title-2 = Quer ver a mesma aba em dois dispositivos?
+postVerify-description-2 = Fácil! Basta instalar o { -brand-firefox } em outro dispositivo e entrar na conta para sincronizar. É como mágica!
+postVerify-sub-description = (isso também significa que você pode ter seus favoritos, senhas e outros dados do { -brand-firefox } em qualquer lugar em que estiver conectado)
+postVerify-subject-3 = Boas-vindas ao { -brand-firefox }
+postVerify-setup-2 = Conectar outro dispositivo:
+postVerify-action-2 = Conectar outro dispositivo
 postVerifySecondary-subject = Email secundário adicionado
 postVerifySecondary-title = Email secundário adicionado
 # Variables:
@@ -303,6 +308,10 @@ postVerifySecondary-title = Email secundário adicionado
 postVerifySecondary-content-2 = Você confirmou com sucesso { $secondaryEmail } como email secundário da sua { -product-firefox-account }. Notificações de segurança e confirmações de acesso agora serão enviadas para ambos os endereços de email.
 postVerifySecondary-action = Gerenciar conta
 recovery-subject = Redefina a sua senha
+recovery-title-2 = Esqueceu sua senha?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Recebemos uma solicitação de alteração de senha de sua { -product-firefox-account } de:
 recovery-action = Criar nova senha
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
