@@ -236,6 +236,7 @@ passwordResetAccountRecovery-create-key = Créer une nouvelle clé de récupéra
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Ce n’est pas vous ?
 postAddAccountRecovery-action = Gérer le compte
+postAddAccountRecovery-delete-key = Supprimez la nouvelle clé :
 postAddLinkedAccount-subject = Nouveau compte lié à { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -278,6 +279,8 @@ postRemoveTwoStepAuthentication-description = Vous avez désactivé l’authenti
 postRemoveTwoStepAuthentication-description-plaintext = Vous avez désactivé l’authentification en deux étapes pour votre { -product-firefox-account }. Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion.
 postRemoveTwoStepAuthentication-action = Gérer le compte
 postRemoveTwoStepAuthentication-not-required = Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion.
+postVerify-setup-2 = Connectez un autre appareil :
+postVerify-action-2 = Connecter un autre appareil
 postVerifySecondary-subject = Adresse électronique secondaire ajoutée
 postVerifySecondary-title = Adresse électronique secondaire ajoutée
 # Variables:
@@ -285,6 +288,7 @@ postVerifySecondary-title = Adresse électronique secondaire ajoutée
 postVerifySecondary-content-2 = L’adresse électronique secondaire { $secondaryEmail } de votre { -product-firefox-account } a été confirmée avec succès. Les notifications de sécurité et les confirmations de connexion seront désormais envoyées aux deux adresses électroniques.
 postVerifySecondary-action = Gérer le compte
 recovery-subject = Réinitialiser le mot de passe
+recovery-title-2 = Mot de passe oublié ?
 recovery-action = Créer un nouveau mot de passe
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
