@@ -598,8 +598,18 @@ verificationReminderFirst-action-2 = Fiók megerősítése
 verificationReminderSecond-subject-2 = Emlékeztető, hogy erősítse meg a fiókját
 verificationReminderSecond-title-2 = Ne hagyja ki a { -brand-firefox }ot!
 verificationReminderSecond-description-3 = Néhány napja létrehozott egy { -product-firefox-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 10 napon belül nem igazolja vissza.
+verificationReminderSecond-second-description = A { -product-firefox-account }ja segítségével szinkronizálhatja adatait az eszközei között, és további { -brand-mozilla(ending: "accented", case: "lower") }s adatvédelmi eszközökhöz biztosít hozzáférést.
+verificationReminderSecond-sub-description-2 = Legyen része küldetésünknek, hogy az internetet mindenki számára nyitott hellyé alakítsuk.
+verificationReminderSecond-action-2 = Fiók megerősítése
+verify-title-2 = Tárja nyitva az internetet a { -brand-firefox }szal
 verify-description = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik, kezdve ezzel:
 verify-subject = A fiókja létrehozásának befejezése
+verify-action-2 = Fiók megerősítése
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Bejelentkezett a következőbe: { $clientName }?
+verifyLogin-description-2 = Segítsen nekünk megőrizni fiókja biztonságát azzal, hogy megerősíti, hogy Ön jelentkezett be:
+verifyLogin-subject-2 = Bejelentkezés megerősítése
 verifyLogin-action = Bejelentkezés megerősítése
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -621,4 +631,11 @@ verifySecondaryCode-action-2 = E-mail-cím megerősítése
 verifySecondaryCode-explainer = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail címként a következő { -product-firefox-account }ból lett küldve:
 verifySecondaryCode-prompt-2 = Használja ezt a megerősítő kódot:
 verifySecondaryCode-expiry-notice-2 = 5 perc múlva lejár. Ha megerősíti, akkor ez a cím meg fogja kapni a biztonsági értesítéseket és megerősítéseket.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Fiók jóváhagyása
+verifyShortCode-title-2 = Tárja nyitva az internetet a { -brand-firefox }szal
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik, kezdve ezzel:
+verifyShortCode-prompt-3 = Használja ezt a megerősítő kódot:
 verifyShortCode-expiry-notice = 5 perc múlva lejár.
