@@ -262,6 +262,7 @@ new-user-email =
     .label = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
 new-user-confirm-email =
     .label = ਆਪਣਾ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
+new-user-subscribe-product-updates = ਮੈਂ { -brand-name-firefox } ਤੋਂ ਉਤਪਾਦ ਅੱਪਡੇਟ ਹਾਸਲ ਕਰਨੇ ਚਾਹਾਂਗਾ/ਚਾਹਾਂਗੀ
 new-user-card-title = ਆਪਣੇ ਕਾਰਡ ਦੀ ਜਾਣਕਾਰੀ ਦਿਓ
 new-user-submit = ਹੁਣੇ ਮੈਂਬਰ ਬਣੋ
 payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣੋ

@@ -204,14 +204,7 @@ modal-cancel-button = ਰੱਦ ਕਰੋ
 
 ## Modal Verify Session
 
-mvs-verify-your-email = ਆਪਣੀ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰੋ
-mvs-enter-verification-code = ਆਪਣਾ ਤਸਦੀਕ ਕੋਡ ਦਿਓ
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = <email>{ $email }</email> ਉੱਤੇ ਭੇਜੇ ਤਸਦੀਕੀ ਕੋਡ ਨੂੰ 5 ਮਿੰਟਾਂ ਵਿੱਚ ਭਰੋ।
 msv-cancel-button = ਰੱਦ ਕਰੋ
-msv-submit-button = ਤਸਦੀਕ ਕਰੋ
 
 ## Settings Nav
 
@@ -262,6 +255,8 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = ਪਾਸਵਰਡ ਬਦਲੋ
+pw-8-chars = ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ
+pw-not-email = ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਹੈ
 pw-change-must-match = ਨਵੇਂ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹੋਣ ਦੀ ਤਸਦੀਕ ਕਰੋ
 pw-change-cancel-button = ਰੱਦ ਕਰੋ
 pw-change-save-button = ਸੰਭਾਲੋ
@@ -342,10 +337,10 @@ add-secondary-email-save-button = ਸੰਭਾਲੋ
 add-secondary-email-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
 verify-secondary-email-page-title =
     .title = ਸੈਕੰਡਰੀ ਈਮੇਲ
-verify-secondary-email-verification-code =
-    .label = ਆਪਣਾ ਤਸਦੀਕ ਕੋਡ ਦਿਓ
+verify-secondary-email-verification-code-2 =
+    .label = ਆਪਣਾ ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ
 verify-secondary-email-cancel-button = ਰੱਦ ਕਰੋ
-verify-secondary-email-verify-button = ਤਸਦੀਕ ਕਰੋ
+verify-secondary-email-verify-button-2 = ਤਸਦੀਕ
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -443,7 +438,6 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = ਈਮੇਲ ਤਾਜ਼ਾ ਕਰੋ
-se-unverified = ਨਾ-ਤਸਦੀਕ ਕੀਤਾ
 # Button to make secondary email the primary
 se-make-primary = ਮੁੱਢਲਾ ਬਣਾਓ
 # Default value for the secondary email
@@ -470,7 +464,6 @@ tfa-row-change-modal-confirm = ਬਦਲੋ
 
 auth-error-102 = ਅਣਪਛਾਤਾ ਖਾਤਾ
 auth-error-103 = ਗਲਤ ਪਾਸਵਰਡ
-auth-error-105 = ਗਲਤ ਤਸਦੀਕ ਕੋਡ
 auth-error-110 = ਗਲਤ ਟੋਕਨ
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -480,5 +473,4 @@ auth-error-110 = ਗਲਤ ਟੋਕਨ
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = ਤੁਸੀਂ ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕਰ ਚੁੱਕੇ ਹੋ। { $retryAfter } ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰਿਓ।
-auth-error-138 = ਨਾ-ਤਸਦੀਕ ਕੀਤਾ ਸ਼ੈਸ਼ਨ
 auth-error-1008 = ਤੁਹਾਡਾ ਨਵਾਂ ਪਾਸਵਰਡ ਵੱਖਰਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ
