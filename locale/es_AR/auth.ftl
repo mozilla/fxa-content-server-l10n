@@ -590,8 +590,26 @@ confirm-account = Confirmar cuenta
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Acordate de confirmar tu cuenta
 verificationReminderFirst-title-2 = ¡Bienvenido a { -brand-firefox }!
+verificationReminderFirst-description-2 = Hace unos días creaste una { -product-firefox-account }, pero nunca la confirmaste. Confirmá tu cuenta en los próximos 15 días o será borrada automáticamente.
+verificationReminderFirst-sub-description-2 = No te perdás la tecnología que te pone a vos y a tu privacidad en primer lugar.
+confirm-email-2 = Confirmar cuenta
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Confirmar cuenta
+verificationReminderSecond-subject-2 = Acordate de confirmar tu cuenta
+verificationReminderSecond-title-2 = ¡No te perdás { -brand-firefox }!
+verificationReminderSecond-description-3 = Hace unos días creaste una { -product-firefox-account }, pero nunca la confirmaste. Confirmá tu cuenta en los próximos 10 días o será borrada automáticamente.
+verificationReminderSecond-second-description = Tu { -product-firefox-account } te permite sincronizar tu información entre dispositivos y desbloquea el acceso a más productos de protección de la privacidad de { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Sé parte de nuestra misión de transformar Internet en un lugar abierto para todos.
+verificationReminderSecond-action-2 = Confirmar cuenta
+verify-title-2 = Abrí Internet con { -brand-firefox }
 verify-description = Confirmá tu cuenta y aprovechá { -brand-firefox } al máximo cada vez que iniciás una sesión con:
 verify-subject = Terminar de crear la cuenta
+verify-action-2 = Confirmar cuenta
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = ¿Iniciaste sesión en { $clientName }?
+verifyLogin-description-2 = Ayudanos a mantener tu cuenta segura confirmando que iniciaste sesión en:
+verifyLogin-subject-2 = Confirmar inicio de sesión
 verifyLogin-action = Confirmar inicio de sesión
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -613,4 +631,11 @@ verifySecondaryCode-action-2 = Confirmar correo electrónico
 verifySecondaryCode-explainer = Se recibió una solicitud para utilizar { $email } como cuenta secundaria de correo electrónico desde la siguiente { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Usá este código de confirmación:
 verifySecondaryCode-expiry-notice-2 = Caduca en 5 minutos. Una vez confirmada, esta dirección a a empezar a recibir notificaciones de seguridad y confirmaciones.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Confirmá tu cuenta
+verifyShortCode-title-2 = Abrí Internet con { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Confirmá tu cuenta y aprovechá { -brand-firefox } al máximo cada vez que iniciás una sesión con:
+verifyShortCode-prompt-3 = Usá este código de confirmación:
 verifyShortCode-expiry-notice = Caduca en 5 minutos.
