@@ -605,6 +605,11 @@ verify-title-2 = Abra a internet com o { -brand-firefox }
 verify-description = Confirme sua conta e tire o máximo proveito do { -brand-firefox } onde quer que você acesse, começando com:
 verify-subject = Concluir a criação da sua conta
 verify-action-2 = Confirmar conta
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Você se conectou no { $clientName }?
+verifyLogin-description-2 = Ajude-nos a manter sua conta segura confirmando que você se conectou no:
+verifyLogin-subject-2 = Confirmar acesso
 verifyLogin-action = Confirmar acesso
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -626,4 +631,11 @@ verifySecondaryCode-action-2 = Confirmar email
 verifySecondaryCode-explainer = Foi feita uma solicitação para usar { $email } como endereço de email secundário da seguinte { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Use este código de confirmação:
 verifySecondaryCode-expiry-notice-2 = Ele expira em 5 minutos. Uma vez confirmado, este endereço começará a receber notificações e confirmações de segurança.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Confirme sua conta
+verifyShortCode-title-2 = Abra a internet com o { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Confirme sua conta e aproveite ao máximo o { -brand-firefox } onde quer que acesse, começando com:
+verifyShortCode-prompt-3 = Use este código de confirmação:
 verifyShortCode-expiry-notice = Expira em 5 minutos.
