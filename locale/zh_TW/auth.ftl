@@ -208,6 +208,9 @@ lowRecoveryCodes-subject =
 newDeviceLogin-subject = { $clientName } 的新登入通知
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
+newDeviceLogin-change-password = 不是您？<a data-l10n-name="passwordChangeLink">請更改密碼</a>。
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = 不是您嗎？請更改密碼：
 newDeviceLogin-action = 管理帳號
 passwordChanged-subject = 密碼已更新
@@ -281,6 +284,12 @@ postRemoveTwoStepAuthentication-description = 您已從下列裝置成功為 { -
 postRemoveTwoStepAuthentication-description-plaintext = 您已成功關閉 { -product-firefox-account } 的兩階段驗證。登入時將不再要求您輸入安全碼。
 postRemoveTwoStepAuthentication-action = 管理帳號
 postRemoveTwoStepAuthentication-not-required = 登入時，將不再需要輸入安全碼。
+postVerify-sub-title-3 = 很高興能見到你！
+postVerify-title-2 = 想要在其他裝置上也能看到同個分頁嗎？
+postVerify-description-2 = 很簡單！只要在另一台裝置上也安裝 { -brand-firefox } 並且登入同步功能就好！
+postVerify-subject-3 = 歡迎使用 { -brand-firefox }！
+postVerify-setup-2 = 連結其他裝置
+postVerify-action-2 = 連結其他裝置
 postVerifySecondary-subject = 已加入次要電子郵件地址
 postVerifySecondary-title = 已加入次要電子郵件地址
 # Variables:
@@ -288,6 +297,8 @@ postVerifySecondary-title = 已加入次要電子郵件地址
 postVerifySecondary-content-2 = 您已成功將 { $secondaryEmail } 加入為 { -product-firefox-account } 的次要電子郵件信箱。現在起將寄送安全性通知與登入確認信到該信箱。
 postVerifySecondary-action = 管理帳號
 recovery-subject = 重設您的密碼
+recovery-title-2 = 忘記密碼了嗎？
+recovery-new-password-button = 請點擊下列按鈕來設定新密碼。此鏈結將於一小時後失效。
 recovery-action = 建立新密碼
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -558,16 +569,23 @@ unblockCode-prompt = 是的話，以下是您的授權碼：
 unblockCode-prompt-plaintext = 是的話，以下是您需要的授權碼：{ $unblockCode }
 unblockCode-report = 不是的話，請幫助我們阻擋入侵者，並<a data-l10n-name="reportSignInLink">讓我們知道</a>。
 unblockCode-report-plaintext = 不是的話，請幫助我們阻擋入侵者，並讓我們知道。
+verificationReminderFinal-subject = 這是最後一次提醒囉：確認帳號
 confirm-account = 確認帳號
 confirm-account-plaintext = { confirm-account }：
+verificationReminderFirst-subject-2 = 請記得要確認帳號
+verificationReminderFirst-title-2 = 歡迎使用 { -brand-firefox }！
+verificationReminderFirst-sub-description-2 = 別錯過將您與您的隱私視為最優先的技術。
 confirm-email-2 = 確認帳號
 confirm-email-plaintext-2 = { confirm-email-2 }：
 verificationReminderFirst-action-2 = 確認帳號
+verificationReminderSecond-subject-2 = 請記得要確認帳號
+verificationReminderSecond-title-2 = 別錯過 { -brand-firefox } 的獨家功能！
 verificationReminderSecond-action-2 = 確認帳號
 verify-title-2 = 使用 { -brand-firefox } 打開網路環境
 verify-description = 確認您的帳號，就可以在任何登入的裝置中，發揮 { -brand-firefox } 的最大功能：
 verify-subject = 完成帳號註冊
 verify-action-2 = 確認帳號
+verifyLogin-description-2 = 請確認您下列時間的登入紀錄，幫助我們確保帳號安全：
 verifyLogin-subject-2 = 確認登入
 verifyLogin-action = 確認登入
 # Variables:
