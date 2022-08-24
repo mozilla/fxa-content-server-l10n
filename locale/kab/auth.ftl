@@ -74,7 +74,6 @@ another-device = Neɣ, sebded ɣef <a data-l10n-name="anotherDeviceLink">yibenk-
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Wagi d izen awurman ; ma yella ur terniḍ ara ibenk amaynut ɣer { -product-firefox-account }, yessefk ad tesnifleḍ awal-ik·im uffir tura kan deg { $passwordChangeLink }
-automated-email-plaintext = Wagi d iymayl awurman; ma yella d tuccḍa, ulac ayen ara txedmeḍ.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Wagi d imayl awurman; ma yella ur tessirgeḍ ara tigawt-a, ttxil-k·m beddel awal-ik·im uffir:
 # Variables:
@@ -112,9 +111,6 @@ subscriptionUpdateBillingEnsure-plaintext = Tzemreḍ ad tḍemneḍ tarrayt-ik�
 subscriptionUpdatePayment = Akken ur tḥebbes ara tenfiwt-ik, ttxil-k·m <a data-l10n-name="updateBillingUrl"> leqqem talɣut n lexlaṣ-ik </a> s lɛejlan.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Akken ur tḥebbes ara tenfiwt-ik, ttxil leqqem talɣut n lexlaṣ-ik s lɛejlan:
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Ugar n telɣut, ddu ɣer { $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -177,9 +173,9 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tuqqna tamaynut ɣer { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Tuqqna tamaynut ɣer { $clientName }
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Mačči d kečč·kemm? Beddel awal-ik·im uffir:
 newDeviceLogin-action = Sefrek amiḍan
 passwordChanged-subject = Awal uffir yettuleqqem
 passwordChanged-title = Awal uffir yettusnifel akken iwata
@@ -202,12 +198,15 @@ passwordResetAccountRecovery-action = Rnu tasarutt n tririt tamaynut
 passwordResetAccountRecovery-regen-required = Nesra asirew n tsarutt n tririt tamaynut.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Rnu tasarutt n tririt tamaynut:
-postAddAccountRecovery-subject = Tasarutt n tririt n umiḍan tettusirew
-postAddAccountRecovery-title = Tasarutt n tririt n umiḍan tettusirew
-postAddAccountRecovery-description = Tesluleḍ-d akken iwata amiḍan n tririt seg umiḍan-ik·im { -product-firefox-account } s useqdec n yibenk-a:
+postAddAccountRecovery-subject-2 = Tasarut n tririt n umiḍan tettwarna
+postAddAccountRecovery-title2 = Terniḍ tasarut n tririt n umiḍani tamaynut
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Tasarut tamaynut tettwarna seg:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Mačči d kečč·kemm?
 postAddAccountRecovery-action = Sefrek amiḍan
-postAddAccountRecovery-recovery = Ma da yella mačči d kečč·kemm, <a data-l10n-name="revokeAccountRecoveryLink">sit da:</a>
-postAddAccountRecovery-revoke = Ma mačči d kečč/kem i ixedmen aya, ḥwi tasarutt.
+postAddAccountRecovery-delete-key = Kkes tasarut tamaynut
+postAddAccountRecovery-changd-password = Beddel awal-ik·im uffir:
 postAddLinkedAccount-subject = Amiḍan amaynut yeqqnen ɣer { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -244,19 +243,21 @@ postRemoveTwoStepAuthentication-description = Tsenseḍ akken iwata asesteb s sn
 postRemoveTwoStepAuthentication-description-plaintext = Tsenseḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik·im { -product-firefox-account }. Tingalin n tɣelllist ur laqent ara yal tuqqna.
 postRemoveTwoStepAuthentication-action = Sefrek amiḍan
 postRemoveTwoStepAuthentication-not-required = Tingalin n tririt uir zgint laqent yal tuqqna.
-postVerify-title = Amtawi i d-iteddun, gar yibenkan-inek/inem!
-postVerify-description = Amtawi uslig ad iǧǧ ticraḍ-ik•im n yisebtar, awalen uffiren d yisefka-nniḍen n { -brand-firefox } d widak kan ur ttbeddilen ara deg akk ibenkan-ik•im.
-postVerify-setup = Sbadu ibenk-nniḍen
-postVerify-action = Sbadu ibenk-nniḍen
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Tesɛiḍ isteqsiyen? Rzu ɣer { $supportUrl }
+postVerify-title-2 = Tebɣiḍ kifkif iccer ara twaliḍ ɣef sin yibenkan?
+postVerify-subject-3 = Ansuf γer { -brand-firefox }!
+postVerify-setup-2 = Qqen ibenk-nniḍen:
+postVerify-action-2 = Qqen ibenk-nniḍen
 postVerifySecondary-subject = Imay wis sin ittwarna
 postVerifySecondary-title = Imay wis sin ittwarna
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Tesnetmeḍ akken iwata { $secondaryEmail } imayl-ik asnawan i { -product-firefox-account }. Ilɣa n tɣellist akked isentam n tuqqna ad d-ttwaznen ar snat n tansiwin imayl.
 postVerifySecondary-action = Sefrek amiḍan
 recovery-subject = Wennez awal uffir-ik
-recovery-title = Tesriḍ tulsa uwennez n wawal uffir inek?
-recovery-description = Sit ɣef tqaffalt akka kra n usrag akken ad ternuḍ awal uffir amaynut. Tuttra tettwag seg ibenk-agi:
+recovery-title-2 = Tettuḍ awal inek uffir?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Neṭṭef-d assuter n ubeddel n wawal uffir ɣqef { -product-firefox-account }-inek·inem seg:
 recovery-action = Sekcem awal uffir amaynut
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -461,29 +462,8 @@ unblockCode-prompt = Ma yella ih, hattan tengalt n tsiregt i tesriḍ:
 unblockCode-prompt-plaintext = Ma yella ih, ha-tt-an tengalt n tsiregt i tesriḍ: { $unblockCode }
 unblockCode-report = Ma ulac, mmel-aɣ-d amek ad neḥwi yir imdanen <a data-l10n-name="reportSignInLink">mmel-aɣ-t-id</a>.
 unblockCode-report-plaintext = Ma ulac, mudd-aɣ-d afus akken ad neḥwi yir imdanen udiɣ mmel-aɣ-tid.
-verificationReminderFirst-subject = Asmekti: Fak timerna n umiḍan-ik
-verificationReminderFirst-title = Ansuf ɣer twacult { -brand-firefox }
-verificationReminderFirst-description = Kra n wussan aya terniḍ { -product-firefox-account }, d acu mazal ur t-tsentmeḍ ara.
-verificationReminderFirst-sub-description = Sentem amiḍan-ik akken ad taɣeḍ tanumi n tetiknulujit i yettannaɣen ɣef yizerfan-ik, i yemmestanen tudert-ik tabaḍnit, daɣen tettmuddu tamussni akked uqadeṛ i tuklaleḍ.
-confirm-email = Sentem imayl
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Sentem imayl
-verificationReminderSecond-subject = Asmekti aneggaru: Rmed amiḍan-ik
-verificationReminderSecond-title = Aqla-k da?
-verificationReminderSecond-sub-description = Sentem tansa-a n yimayl akken ad tremdeḍ amiḍan-ik daɣen ini-aɣ-d ma tgerrzeḍ.
-verificationReminderSecond-action = Sentem imayl
-verify-title = Rmed tawacult n yifarisen { -brand-firefox }
-verify-description-plaintext = Sentem amiḍan-ik daɣen faṛes tagnit seg { -brand-firefox } sekra wanida i teqqneḍ.
 verify-description = Sentem amiḍan-ik daɣen faṛes tagnit seg { -brand-firefox } sekra wanida i teqqneḍ, bdu s:
 verify-subject = Fak timerna n umiḍan-ik
-verify-action = Sentem imayl
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Tuqqna tamaynut ɣer { $clientName }
-verifyLogin-description = I ugar n tɣellist, ma ulac aɣilif, sentem tuqqna-agi seg yibenk agi:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Sentem tuqqna tamaynut ɣer { $clientName }
 verifyLogin-action = Sentem tuqqna
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -502,5 +482,4 @@ verifySecondaryCode-action-2 = Sentem imayl
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Seqdec tangalt-a n usentem:
-verifyShortCode-title = D kečč i d-yessutren ajerred-agi?
 verifyShortCode-expiry-notice = Ad immet deg 5 n tseddatin.
