@@ -588,8 +588,11 @@ verificationReminderSecond-subject-2 = 记得验证您的帐户
 verificationReminderSecond-title-2 = 不要错过 { -brand-firefox }！
 verificationReminderSecond-description-3 = 您于几天前注册了 { -product-firefox-account }，但一直没有验证账户。请在 10 天内完成验证，否则该账户将被自动删除。
 verificationReminderSecond-second-description = 您的 { -product-firefox-account } 可以让您在不同设备之间同步信息，并解锁访问 { -brand-mozilla } 提供的更多隐私保护产品。
+verificationReminderSecond-action-2 = 验证账户
+verify-title-2 = 使用 { -brand-firefox } 打开互联网
 verify-description = 确认您的账户，即可在任何登录的设备中，畅享 { -brand-firefox } 的智能技术：
 verify-subject = 账户创建完成
+verify-action-2 = 验证账户
 verifyLogin-action = 确认登录
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
