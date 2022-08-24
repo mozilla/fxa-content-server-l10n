@@ -79,13 +79,9 @@ automated-email-change = 這是由系統自動發出的郵件，若您並未授�
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = 這是由系統自動發出的郵件，若您並未新增裝置到 { -product-firefox-account }，請立即到 { $passwordChangeLink } 更改密碼。
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email = 這是由系統自動發出的郵件，若您意外收到此郵件，可直接忽略並刪除。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
-automated-email-plaintext = 這是電腦自動發送的郵件，若您突然收到這封信，不需要做任何事。
-automated-email-support = { automated-email-plaintext } 若需更多資訊，請到 <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } 技術支援站</a>。
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } 若需更多資訊，請造訪 { -brand-mozilla } 技術支援站：{ $mozillaSupportUrl }。
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } 若需更多資訊，請造訪 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
+automated-email-no-action-plaintext = 這是一封自動寄發的郵件。若您意外收到這封郵件，可直接忽略。
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = 這是一封自動發出的郵件。若您並未進行此操作，請立刻修改密碼：
 automated-email-reset = 這是由系統自動發出的郵件，若您並未授權進行此動作，<a data-l10n-name="resetLink">請立即重設密碼</a>。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
@@ -134,8 +130,8 @@ subscriptionUpdatePayment = 為了避免服務中斷，請及早<a data-l10n-nam
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = 為了避免服務中斷，請及早更新付款資訊：
 # Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = 若需更多資訊，請到 { $supportUrl }
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = 若需更多資訊，請造訪 { -brand-mozilla } 技術支援站：{ $supportUrl }。
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -210,9 +206,9 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 的新登入通知
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = { $clientName } 的新登入通知
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = 不是您嗎？請更改密碼：
 newDeviceLogin-action = 管理帳號
 passwordChanged-subject = 密碼已更新
 passwordChanged-title = 已成功修改密碼
@@ -235,12 +231,9 @@ passwordResetAccountRecovery-action = 產生新的救援金鑰
 passwordResetAccountRecovery-regen-required = 您必須產生新的救援金鑰。
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = 產生新的救援金鑰：
-postAddAccountRecovery-subject = 已產生新的救援金鑰
-postAddAccountRecovery-title = 已產生新的救援金鑰
-postAddAccountRecovery-description = 您已使用下列裝置，成功產生新的 { -product-firefox-account } 救援金鑰：
+postAddAccountRecovery-subject-2 = 已建立救援金鑰
+postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
 postAddAccountRecovery-action = 管理帳號
-postAddAccountRecovery-recovery = 若不是您做的，<a data-l10n-name="revokeAccountRecoveryLink">請點擊此處</a>。
-postAddAccountRecovery-revoke = 若這不是您做的，請註銷該金鑰。
 postAddLinkedAccount-subject = 新帳號連結到 { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -283,15 +276,6 @@ postRemoveTwoStepAuthentication-description = 您已從下列裝置成功為 { -
 postRemoveTwoStepAuthentication-description-plaintext = 您已成功關閉 { -product-firefox-account } 的兩階段驗證。登入時將不再要求您輸入安全碼。
 postRemoveTwoStepAuthentication-action = 管理帳號
 postRemoveTwoStepAuthentication-not-required = 登入時，將不再需要輸入安全碼。
-postVerify-sub-title-2 = 已確認 { -product-firefox-account }，快完成了。
-postVerify-title = 接下來與您的其他裝置同步！
-postVerify-description = Sync 會安全地在您所有的裝置間同步書籤、密碼與其他 { -brand-firefox } 資料。
-postVerify-subject-2 = 帳號驗證完成。接下來請與另一台裝置同步來完成設定過程
-postVerify-setup = 設定下一台裝置
-postVerify-action = 設定下一台裝置
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = 有問題嗎？請到 { $supportUrl }
 postVerifySecondary-subject = 已加入次要電子郵件地址
 postVerifySecondary-title = 已加入次要電子郵件地址
 # Variables:
@@ -299,8 +283,6 @@ postVerifySecondary-title = 已加入次要電子郵件地址
 postVerifySecondary-content-2 = 您已成功將 { $secondaryEmail } 加入為 { -product-firefox-account } 的次要電子郵件信箱。現在起將寄送安全性通知與登入確認信到該信箱。
 postVerifySecondary-action = 管理帳號
 recovery-subject = 重設您的密碼
-recovery-title = 需要重設密碼嗎？
-recovery-description = 請在一個小時內點擊下面的按鈕來建立新密碼。此請求來自下列裝置：
 recovery-action = 建立新密碼
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -571,30 +553,8 @@ unblockCode-prompt = 是的話，以下是您的授權碼：
 unblockCode-prompt-plaintext = 是的話，以下是您需要的授權碼：{ $unblockCode }
 unblockCode-report = 不是的話，請幫助我們阻擋入侵者，並<a data-l10n-name="reportSignInLink">讓我們知道</a>。
 unblockCode-report-plaintext = 不是的話，請幫助我們阻擋入侵者，並讓我們知道。
-verificationReminderFirst-subject = 提醒：請完成帳號註冊
-verificationReminderFirst-title = 歡迎來到 { -brand-firefox } 的大家庭
-verificationReminderFirst-description = 幾天前您註冊了 { -product-firefox-account }，但沒有進行確認。
-verificationReminderFirst-sub-description = 請立即確認，即可獲得為您的隱私而戰的相關技術、實用知識以及您應得的尊重。
-confirm-email = 確認電子郵件信箱
-confirm-email-plaintext = { confirm-email }：
-verificationReminderFirst-action = 確認電子郵件信箱
-verificationReminderSecond-subject = 這是最後一次顯示提醒囉：請啟用帳號
-verificationReminderSecond-title = 您還在嗎？
-verificationReminderSecond-description-2 = 接近一週前，您註冊了 { -product-firefox-account }，但尚未確認電子郵件地址。
-verificationReminderSecond-sub-description = 請確認這個信箱是否有效，並且啟用帳號，讓我們知道您沒遇到什麼問題。
-verificationReminderSecond-action = 確認電子郵件信箱
-verify-title = 啟用 { -brand-firefox } 系列產品
-verify-description-plaintext = 確認您的帳號，就可以在任何登入的裝置中，發揮 { -brand-firefox } 的最大功能。
 verify-description = 確認您的帳號，就可以在任何登入的裝置中，發揮 { -brand-firefox } 的最大功能：
 verify-subject = 完成帳號註冊
-verify-action = 確認電子郵件信箱
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = { $clientName } 的新登入通知
-verifyLogin-description = 為了確保安全，請確認此次來自下列裝置的登入要求：
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = 確認 { $clientName } 的新登入紀錄
 verifyLogin-action = 確認登入
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -616,9 +576,4 @@ verifySecondaryCode-action-2 = 確認電子郵件信箱
 verifySecondaryCode-explainer = 有人要求將 { $email } 加入為下列 { -product-firefox-account } 帳號的次要郵件帳號：
 verifySecondaryCode-prompt-2 = 使用這組驗證碼：
 verifySecondaryCode-expiry-notice-2 = 驗證碼將於 5 分鐘後失效。驗證完成後，此信箱也會收到安全性通知與確認郵件。
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = 驗證碼：{ $code }
-verifyShortCode-title = 您有註冊帳號嗎？
-verifyShortCode-prompt-2 = 如果是的話，請在註冊表單輸入下列驗證碼：
 verifyShortCode-expiry-notice = 將於 5 分鐘後失效。
