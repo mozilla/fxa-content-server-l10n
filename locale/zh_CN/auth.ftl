@@ -171,6 +171,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }：
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = 需要两台设备来进行同步
 cadReminderFirst-description-1 = 在您的所有设备上随心浏览标签页。使用 { -brand-firefox }，让书签、密码等数据触手可得。{ -brand-firefox } 账户如有十八般武艺！
+cadReminderFirst-description-2 = 只需几秒钟，即可进行同步。
 cadReminderSecond-subject-2 = 稍安毋躁，让我们完成同步设置！
 cadReminderSecond-action = 与其他设备同步
 cadReminderSecond-title-2 = 別忘了同步！
