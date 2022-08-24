@@ -81,15 +81,9 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Dit is een geautomatiseerd e-mailbericht; als u geen nieuw apparaat aan uw { -product-firefox-account } hebt toegevoegd, dient u onmiddellijk uw wachtwoord te wijzigen op { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Dit is een geautomatiseerd e-mailbericht; als u het ten onrechte hebt ontvangen, hoeft u niets te doen.
-    Ga voor meer informatie naar <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
-automated-email-plaintext = Dit is een geautomatiseerd e-mailbericht; als u het per abuis hebt ontvangen, hoeft u niets te doen.
-automated-email-support = { automated-email-plaintext } Ga voor meer informatie naar <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Support</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Ga voor meer informatie naar { -brand-mozilla } Support: { $mozillaSupportUrl }.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Ga voor meer informatie naar <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-no-action-plaintext = Dit is een geautomatiseerd bericht. Als u het per ongeluk hebt ontvangen, hoeft u niets te doen.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Dit is een geautomatiseerd e-mailbericht; als u deze actie niet hebt geautoriseerd, wijzig dan uw wachtwoord:
 automated-email-reset =
@@ -140,8 +134,8 @@ subscriptionUpdatePayment = Werk zo snel mogelijk <a data-l10n-name="updateBilli
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Werk zo snel mogelijk uw betalingsgegevens bij om onderbreking van uw service te voorkomen:
 # Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Bezoek { $supportUrl } voor meer informatie
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Ga voor meer informatie naar { -brand-mozilla } Support: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -219,7 +213,13 @@ lowRecoveryCodes-subject =
 newDeviceLogin-subject = Nieuwe aanmelding bij { $clientName }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Nieuwe aanmelding bij { $clientName }
+newDeviceLogin-title-2 = Uw { -product-firefox-account } is gebruikt om aan te melden
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Was u dit niet? <a data-l10n-name="passwordChangeLink">Wijzig uw wachtwoord</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Was u dit niet? Wijzig uw wachtwoord:
 newDeviceLogin-action = Account beheren
 passwordChanged-subject = Wachtwoord bijgewerkt
 passwordChanged-title = Wachtwoord met succes gewijzigd
@@ -242,12 +242,16 @@ passwordResetAccountRecovery-action = Nieuwe herstelsleutel genereren
 passwordResetAccountRecovery-regen-required = U dient een nieuwe herstelsleutel te genereren.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Nieuwe herstelsleutel genereren:
-postAddAccountRecovery-subject = Sleutel voor accountherstel gegenereerd
-postAddAccountRecovery-title = Sleutel voor accountherstel gegenereerd
-postAddAccountRecovery-description = U hebt met succes een sleutel voor accountherstel voor uw { -product-firefox-account } gegenereerd via het volgende apparaat:
+postAddAccountRecovery-subject-2 = Sleutel voor accountherstel aangemaakt
+postAddAccountRecovery-title2 = U hebt een nieuwe sleutel voor accountherstel aangemaakt
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Er is een nieuwe sleutel gemaakt op basis van:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Bent u dit niet?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Verwijder de nieuwe sleutel</a> en <a data-l10n-name="passwordChangeLink">wijzig uw wachtwoord</a>
 postAddAccountRecovery-action = Account beheren
-postAddAccountRecovery-recovery = Als u dit niet hebt gedaan, <a data-l10n-name="revokeAccountRecoveryLink">klik dan hier.</a>
-postAddAccountRecovery-revoke = Als u dit niet hebt gedaan, trek dan de sleutel in.
+postAddAccountRecovery-delete-key = Verwijder de nieuwe sleutel:
+postAddAccountRecovery-changd-password = Wijzig uw wachtwoord:
 postAddLinkedAccount-subject = Nieuwe account gekoppeld aan { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -290,15 +294,9 @@ postRemoveTwoStepAuthentication-description = U hebt authenticatie in twee stapp
 postRemoveTwoStepAuthentication-description-plaintext = U hebt authenticatie in twee stappen op uw { -product-firefox-account } met succes uitgeschakeld. Vanaf nu zijn bij elke aanmelding geen beveiligingscodes meer vereist.
 postRemoveTwoStepAuthentication-action = Account beheren
 postRemoveTwoStepAuthentication-not-required = Vanaf nu zijn bij elke aanmelding geen beveiligingscodes meer vereist.
-postVerify-sub-title-2 = { -product-firefox-account } bevestigd. U bent bijna klaar.
-postVerify-title = Het volgende: synchroniseren tussen uw apparaten!
-postVerify-description = Sync houdt op persoonlijke wijze uw bladwijzers, wachtwoorden en andere { -brand-firefox }-gegevens op al uw apparaten hetzelfde.
-postVerify-subject-2 = Account bevestigd. Synchroniseer als volgende stap een ander apparaat om het instellen te voltooien
-postVerify-setup = Het volgende apparaat instellen
-postVerify-action = Het volgende apparaat instellen
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Hebt u vragen? Bezoek { $supportUrl }
+postVerify-sub-title-3 = We zijn verheugd u te zien!
+postVerify-title-2 = Wilt u hetzelfde tabblad op twee apparaten zien?
+postVerify-description-2 = Dat is makkelijk! Installeer gewoon { -brand-firefox } op een ander apparaat en meld u aan om te synchroniseren. Het is magisch!
 postVerifySecondary-subject = Secundair e-mailadres toegevoegd
 postVerifySecondary-title = Secundair e-mailadres toegevoegd
 # Variables:
@@ -306,8 +304,6 @@ postVerifySecondary-title = Secundair e-mailadres toegevoegd
 postVerifySecondary-content-2 = U hebt { $secondaryEmail } met succes als secundair e-mailadres voor uw { -product-firefox-account } bevestigd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden nu op beide e-mailadressen afgeleverd.
 postVerifySecondary-action = Account beheren
 recovery-subject = Herinitialiseer uw wachtwoord
-recovery-title = Dient u uw wachtwoord opnieuw in te stellen?
-recovery-description = Klik binnen een uur op de knop om een nieuw wachtwoord aan te maken. De aanvraag is afkomstig van het volgende apparaat:
 recovery-action = Nieuw wachtwoord aanmaken
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -578,30 +574,8 @@ unblockCode-prompt = Zo ja, dan is hier de benodigde autorisatiecode:
 unblockCode-prompt-plaintext = Zo ja, dan is hier de benodigde autorisatiecode: { $unblockCode }
 unblockCode-report = Zo nee, help ons dan indringers tegen te houden en <a data-l10n-name="reportSignInLink">meld het aan ons</a>.
 unblockCode-report-plaintext = Zo nee, help ons dan indringers tegen te houden en meld het aan ons.
-verificationReminderFirst-subject = Herinnering: voltooi het aanmaken van uw account
-verificationReminderFirst-title = Welkom bij de { -brand-firefox }-familie
-verificationReminderFirst-description = U hebt enkele dagen geleden een { -product-firefox-account } aangemaakt, maar dit nooit bevestigd.
-verificationReminderFirst-sub-description = Bevestig nu en ontvang technologie die voor uw privacy vecht en deze beschermt, u versterkt met praktische kennis en u het respect geeft dat u verdient.
-confirm-email = E-mailadres bevestigen
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = E-mailadres bevestigen
-verificationReminderSecond-subject = Laatste herinnering: activeer uw account
-verificationReminderSecond-title = Bent u er nog?
-verificationReminderSecond-description-2 = U hebt bijna een week geleden een { -product-firefox-account } aangemaakt, maar nooit bevestigd. We maken ons zorgen om u.
-verificationReminderSecond-sub-description = Bevestig dit e-mailadres om uw account te activeren, en laat ons weten dat alles in orde is.
-verificationReminderSecond-action = E-mailadres bevestigen
-verify-title = Activeer de { -brand-firefox }-productfamilie
-verify-description-plaintext = Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit { -brand-firefox }.
 verify-description = Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit { -brand-firefox }, te beginnen met:
 verify-subject = Aanmaken van uw account voltooien
-verify-action = E-mailadres bevestigen
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Nieuwe aanmelding bij { $clientName }
-verifyLogin-description = Bevestig deze aanmelding vanaf het volgende apparaat omwille van extra beveiliging:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Nieuwe aanmelding bij { $clientName } bevestigen
 verifyLogin-action = Aanmelding bevestigen
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -623,9 +597,4 @@ verifySecondaryCode-action-2 = E-mailadres bevestigen
 verifySecondaryCode-explainer = Er is een aanvraag voor het gebruik van { $email } als tweede e-mailadres gedaan vanaf de volgende { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Gebruik deze bevestigingscode:
 verifySecondaryCode-expiry-notice-2 = Deze verloopt over 5 minuten. Na bevestiging ontvangt dit adres beveiligingsmeldingen en bevestigingen.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Bevestigingscode: { $code }
-verifyShortCode-title = Registreert u zich?
-verifyShortCode-prompt-2 = Zo ja, gebruik dan deze bevestigingscode in uw registratieformulier:
 verifyShortCode-expiry-notice = Deze verloopt over vijf minuten.
