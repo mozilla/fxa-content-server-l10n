@@ -355,10 +355,12 @@ recovery-key-page-title =
     .title = Tasarut n tririt
 recovery-key-step-1 = Asurif 1 seg 2
 recovery-key-step-2 = Asurif 2 seg 2
+recovery-key-success-alert-2 = Tasarut n tririt tettwarna
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Asurif 1 seg 2
+add-secondary-email-error-2 = Yella-d wugur deg tmerna n yimayl-a
 add-secondary-email-page-title =
     .title = Imayl wis sin
 add-secondary-email-enter-address =
@@ -371,7 +373,18 @@ add-secondary-email-save-button = Sekles
 add-secondary-email-step-2 = Asurif 2 seg 2
 verify-secondary-email-page-title =
     .title = Imayl wis sin
+verify-secondary-email-verification-code-2 =
+    .label = Sekcem tangalt-ik·im n usentem
 verify-secondary-email-cancel-button = Sefsex
+verify-secondary-email-verify-button-2 = Sentem
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Ttxil-k·m sekcem tangalt n usentem i yettwaznen ɣer <strong>{ $email }</strong> deg 5 n tesdatin.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } yettwarna akken ilaq
 
 ##
 
@@ -389,6 +402,7 @@ tfa-button-cancel = Sefsex
 tfa-button-finish = Fakk
 tfa-incorrect-totp = Tangalt n usesteb s snat n tarrayin d tarameɣtut
 tfa-cannot-retrieve-code = Yella wugur deg tririt n tengalt-ik·im.
+tfa-cannot-verify-code-3 = Yella-d wugur deg usentem n tengalt-ik•im n tririt.
 tfa-incorrect-recovery-code = Tangalt n tririt d arameɣtu
 tfa-enabled = Asesteb s snat n tarrayin yermed
 tfa-scan-this-code =
@@ -473,10 +487,12 @@ rk-not-set = Ur ittusbadu ara
 rk-action-create = Rnu
 rk-action-remove = Kkes
 rk-cannot-refresh = Suref-aɣ, yella-d wugur deg usmiren n tsarut n tririt.
+rk-key-removed-2 = Tasarutt n tririt n umiḍan tettwakkes
 rk-cannot-remove-key = Tasarut n tririt n umiḍan ulamek ad tettwakkes.
 rk-refresh-key = Smiren tasarut n tririt
 rk-content-explain = Err-d tilɣa-inek•inem mi tettuḍ awal-ik•im uffir.
 rk-content-reset-data = Ayɣer awennez n wawal-iw uffir igellu-d s uwennez n yisefka-w?
+rk-cannot-verify-session-4 = Suref-aɣ, yella-d wugur deg usentem n tɣimit-ik•im.
 rk-remove-modal-heading = Tukksa n tsarut n tririt?
 rk-remove-modal-content =
     Ma yella twennzeḍ awal-ik·im uffir, ur tettizmireḍ ara
@@ -489,6 +505,7 @@ rk-remove-error-2 = Tasarut n tririt n umiḍan ulamek ad tettwakkes
 se-heading = Imayl wis sin
     .header = Imayl wis sin
 se-cannot-refresh-email = Suref-aɣ, yella-d wugur deg usmiren n yimayl-nni.
+se-cannot-resend-code-3 = Suref-aɣ, yella-d wugur deg wallus n tuzzna n tengalt n usentem.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -508,6 +525,9 @@ se-remove-email =
 se-refresh-email =
     .title = Smiren imayl
 se-unverified-2 = Ur yentim ara
+se-resend-code-2 =
+    Ilaq usentem. <button> Yules tuzzna i tengalt n usentem </button>
+    ma mačči deg tebwaṭ-ik•im neɣ deg ukaram n yispamen i yella.
 # Button to make secondary email the primary
 se-make-primary = Err tansa-a d tamezwarut
 se-default-content = Kcem ɣer umiḍan-ik•im ma ur tezmireḍ ara ad teqqneḍ ɣer yimayl-ik•im amezwaru.
@@ -551,6 +571,7 @@ tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 
 auth-error-102 = Amiḍan arussin
 auth-error-103 = Awal uffir d arameɣtu
+auth-error-105-2 = Tangalt n usentem d tarameɣtut
 auth-error-110 = Ajuṭun d arameɣtu
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
