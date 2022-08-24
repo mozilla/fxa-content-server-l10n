@@ -462,19 +462,36 @@ unblockCode-prompt = Ma yella ih, hattan tengalt n tsiregt i tesriḍ:
 unblockCode-prompt-plaintext = Ma yella ih, ha-tt-an tengalt n tsiregt i tesriḍ: { $unblockCode }
 unblockCode-report = Ma ulac, mmel-aɣ-d amek ad neḥwi yir imdanen <a data-l10n-name="reportSignInLink">mmel-aɣ-t-id</a>.
 unblockCode-report-plaintext = Ma ulac, mudd-aɣ-d afus akken ad neḥwi yir imdanen udiɣ mmel-aɣ-tid.
+confirm-account = Sentem amiḍan
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Ur tettu ara ad tesnetmeḍ amiḍan-ik·im
+verificationReminderFirst-title-2 = Ansuf γer { -brand-firefox }!
+confirm-email-2 = Sentem amiḍan
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Sentem amiḍan
+verificationReminderSecond-subject-2 = Ur tettu ara ad tesnetmeḍ amiḍan-ik·im
+verificationReminderSecond-action-2 = Sentem amiḍan
+verify-title-2 = Ldi internet s { -brand-firefox }
 verify-description = Sentem amiḍan-ik daɣen faṛes tagnit seg { -brand-firefox } sekra wanida i teqqneḍ, bdu s:
 verify-subject = Fak timerna n umiḍan-ik
+verify-action-2 = Sentem amiḍan
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Teqqneḍ ɣer { $clientName }?
+verifyLogin-subject-2 = Sentem tuqqna
 verifyLogin-action = Sentem tuqqna
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = Tangalt n tuqqna i { $serviceName }
 verifyLoginCode-title = D kečč i d-yessutren tuqqna agi?
+verifyLoginCode-prompt-2 = Ma ih, ha-tt-a tengalt n usentem:
 verifyLoginCode-expiry-notice = Ad immet deg 5 n tseddatin.
 verifyPrimary-title-2 = Sentem tansa tagejdant
 verifyPrimary-description = Asuter i usnifel n umiḍan tettwag seg ibenk agi:
 verifyPrimary-subject = Sentem tansa tagejdant
 verifyPrimary-action-2 = Sentem imayl
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Mi yedda usentem, tzemreḍ ad tesnifleḍ amiḍan deg ibenk-a am tirna n tansa n imayl tis snat.
 verifySecondaryCode-subject = Sentem tansa tis snat
 verifySecondaryCode-title-2 = Sentem tansa tis snat
 verifySecondaryCode-action-2 = Sentem imayl
@@ -482,4 +499,12 @@ verifySecondaryCode-action-2 = Sentem imayl
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Seqdec tangalt-a n usentem:
+verifySecondaryCode-expiry-notice-2 = Aya ad yemmet deg 5 n tesdatin. Ticki yettwasentem, tansa-yagi ad as-d-aweḍen yilγa n tγellist akked usentem.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Sentem amiḍan inek
+verifyShortCode-title-2 = Ldi internet s { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Sentem amiḍan-ik daɣen faṛes tagnit seg { -brand-firefox } sekra wanida i teqqneḍ, bdu s:
+verifyShortCode-prompt-3 = Seqdec tangalt-a n usentem:
 verifyShortCode-expiry-notice = Ad immet deg 5 n tseddatin.
