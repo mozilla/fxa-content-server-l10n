@@ -298,6 +298,9 @@ postVerifySecondary-content-2 = 您已成功将 { $secondaryEmail } 添加为您
 postVerifySecondary-action = 管理账号
 recovery-subject = 重置密码
 recovery-title-2 = 忘记密码？
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = 我们收到了要更改您的 { -product-firefox-account } 密码的请求：
 recovery-new-password-button = 通过点击下面的按钮创建一个新密码。此链接将在一小时后失效。
 recovery-copy-paste = 通过复制和粘贴下面的 URL 到您的浏览器创建一个新密码。此链接将在一小时后失效。
 recovery-action = 创建新密码
