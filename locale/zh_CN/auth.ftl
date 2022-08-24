@@ -80,7 +80,7 @@ automated-email-change = 这是一封自动发送的邮件。若您并未授权�
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = 这是一封自动发送的邮件。若您并未添加新设备到 { -product-firefox-account }，请立即到 { $passwordChangeLink } 更改密码。
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-automated-email-no-action = { automated-email-no-action-plaintext } 获取更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 支持</a>。
+automated-email-no-action = { automated-email-no-action-plaintext } 获取更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } Mozilla 用户支持</a>。
 automated-email-no-action-plaintext = 这是一封自动发送的电子邮件。如果您错误地收到它，您无需执行任何操作。
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = 这是一封自动发送的邮件。若您并未授权此操作，请立即更改密码。
@@ -165,6 +165,7 @@ view-invoice = <a data-l10n-name="invoiceLink">查看您的发票</a>。
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = 查看发票：{ $invoiceLink }
+cadReminderFirst-subject-1 = 开始同步 { -brand-firefox } 吧！
 cadReminderFirst-action = 与其他设备同步
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }：
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
@@ -461,6 +462,7 @@ subscriptionRenewalReminder-content-closing = 此致，
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } 团队
+subscriptionsPaymentExpired-title-1 = 您的信用卡已过期或即将过期
 subscriptionsPaymentProviderCancelled-subject = 需要更新 { -brand-mozilla } 产品订阅的付款信息
 subscriptionsPaymentProviderCancelled-title = 抱歉，处理付款时遇到问题
 subscriptionsPaymentProviderCancelled-content-detected = 处理您最近为下列订阅项目的付款时遇到问题。
@@ -551,6 +553,10 @@ unblockCode-prompt = 是的话，这是您所需的授权码：
 unblockCode-prompt-plaintext = 是的话，这里是您需要的授权码：{ $unblockCode }
 unblockCode-report = 不是的话，请帮助我们抵御入侵者，并<a data-l10n-name="reportSignInLink">向我们报告</a>。
 unblockCode-report-plaintext = 如果不是，请帮助我们防范入侵者，向我们报告此事例。
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = 记得确认您的帐户
+verificationReminderFirst-title-2 = 欢迎使用 { -brand-firefox }！
+verificationReminderSecond-title-2 = 不要错过 { -brand-firefox }！
 verify-description = 确认您的账户，即可在任何登录的设备中，畅享 { -brand-firefox } 的智能技术：
 verify-subject = 账户创建完成
 verifyLogin-action = 确认登录
@@ -558,6 +564,7 @@ verifyLogin-action = 确认登录
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line = { $serviceName } 的登录码
 verifyLoginCode-title = 是您在登录吗？
+verifyLoginCode-prompt-2 = 如果是，请使用此验证码：
 verifyLoginCode-expiry-notice = 5 分钟内有效。
 verifyPrimary-description = 下列设备请求了一项账户变更：
 verifyPrimary-subject = 确认主邮箱
@@ -565,4 +572,5 @@ verifySecondaryCode-subject = 确认备用邮箱地址
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = 有人请求使用 { $email } 作为下列 { -product-firefox-account }的备用邮箱地址：
+verifyShortCode-prompt-3 = 请使用此验证码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
