@@ -301,6 +301,7 @@ pw-change-confirm-password =
 
 pw-create-header =
     .title = Rnu awal uffir
+pw-create-success-alert-2 = Awal uffir yettusbadu
 
 ##
 

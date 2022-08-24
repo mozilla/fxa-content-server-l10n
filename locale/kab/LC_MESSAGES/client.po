@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-22 16:33+0000\n"
-"PO-Revision-Date: 2022-08-24 14:50+0000\n"
+"PO-Revision-Date: 2022-08-24 14:55+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: kab\n"
@@ -1076,11 +1076,11 @@ msgstr "Sentem"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "Tangalt temmut?"
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "Azen tangalt tamaynut."
 
 #: .es5/templates/connect_another_device.mustache:1
 msgid "Connect another device"
@@ -1088,11 +1088,11 @@ msgstr "Qqen ibenk nniḍen"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "Firefox account connected"
-msgstr ""
+msgstr "Amiḍan Firefox yeqqqen"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "Yettwasentem yimayl"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1112,15 +1112,15 @@ msgstr "Kcem ar Firefox deg ibenk nniḍen akken ad tkemleḍ asebded"
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Sync Firefox across devices"
-msgstr ""
+msgstr "Mtawi Firefox gar yibenkan"
 
 #: .es5/templates/connect_another_device.mustache:19
 msgid "Sign in everywhere you use Firefox."
-msgstr ""
+msgstr "Kcem deg yal amḍiq anida tesseqdaceḍ Firefox."
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "We’re on Android and iOS, too!"
-msgstr ""
+msgstr "Aql-aɣ daɣen ɣef Android d iOS!"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1187,7 +1187,7 @@ msgstr "Kemmel ɣer <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Kcem neɣ qqen"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1905,11 +1905,11 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Ma drus 8 yisekkilen"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Mačči d tansa-k·m n yimayl"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
@@ -1949,7 +1949,7 @@ msgstr "Kemmel akked Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "Teqqneḍ tura kan akka ɣer Firefox?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
@@ -1984,7 +1984,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Wali accaren seg yibenkan yemtawan"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
