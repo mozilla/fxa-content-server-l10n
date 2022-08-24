@@ -294,7 +294,7 @@ postVerifySecondary-subject = 已绑定备用邮箱
 postVerifySecondary-title = 已绑定备用邮箱
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = 您已成功将 { $secondaryEmail } 添加为您 { -product-firefox-account } 的备用邮箱。从现在起，安全通知和登录确认邮件也将发送至该邮箱。
+postVerifySecondary-content-2 = 您已成功将 { $secondaryEmail } 添加为您 { -product-firefox-account } 的备用邮箱。从现在起，安全通知和登录验证邮件也将发送至该邮箱。
 postVerifySecondary-action = 管理账号
 recovery-subject = 重置密码
 recovery-title-2 = 忘记密码？
@@ -618,5 +618,12 @@ verifySecondaryCode-action-2 = 验证电子邮箱
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = 有人请求使用 { $email } 作为下列 { -product-firefox-account }的备用邮箱地址：
 verifySecondaryCode-prompt-2 = 请使用此验证码：
+verifySecondaryCode-expiry-notice-2 = 验证码将于 5 分钟后失效。验证完成后，此邮箱也将开始接收安全通知和验证邮件。
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = 验证您的账户
+verifyShortCode-title-2 = 使用 { -brand-firefox } 打开互联网
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = 验证您的账户，即可在任何登录的设备中，畅享 { -brand-firefox } 的智能技术：
 verifyShortCode-prompt-3 = 请使用此验证码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
