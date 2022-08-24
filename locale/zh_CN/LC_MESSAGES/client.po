@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-22 16:33+0000\n"
-"PO-Revision-Date: 2022-08-24 09:21+0000\n"
+"PO-Revision-Date: 2022-08-24 09:30+0000\n"
 "Last-Translator: Yanfang Liu <yliu@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1150,9 +1150,6 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
-"\n"
-"          输入您 <span class=\"card-subheader\" id=\"subheader\">Firefox 账户</span> 的密码\n"
-"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1864,7 +1861,7 @@ msgstr "我为何需要创建此账户？<a %(escapedSuggestionAttrs)s>点此了
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "您的年龄是？必须年满 13 周岁才能注册 Firefox 账户。"
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1979,11 +1976,11 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "现在，您可以在所有设备上访问您打开的标签页、密码和书签。"
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "显示来自已同步设备的标签页"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -2023,7 +2020,7 @@ msgstr "我已经准备好同步设备"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "同步设备以在您使用 Firefox 的任何地方访问您的标签页、密码和书签。"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
