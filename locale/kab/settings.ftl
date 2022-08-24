@@ -283,6 +283,8 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Beddel awal uffir
+pw-8-chars = Ma drus 8 yisekkilen
+pw-not-email = Mačči d tansa-k·m n yimayl
 pw-change-must-match = Awal uffir amaynut yemṣada d usentem
 pw-change-cancel-button = Sefsex
 pw-change-save-button = Sekles
@@ -293,6 +295,7 @@ pw-change-new-password =
     .label = Sekcem awal uffir amaynut
 pw-change-confirm-password =
     .label = Sentem awal uffir amaynut
+pw-change-success-alert-2 = Awal uffir yettuleqqem
 
 ##
 
@@ -339,6 +342,7 @@ display-name-input =
     .label = Sekcem isem yettwaskanen
 submit-display-name = Sekles
 cancel-display-name = Sefsex
+display-name-success-alert-2 = Isem n uskan yettusnifel
 
 ##
 
