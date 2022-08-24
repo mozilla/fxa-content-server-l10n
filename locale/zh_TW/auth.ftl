@@ -233,7 +233,12 @@ passwordResetAccountRecovery-regen-required = 您必須產生新的救援金鑰�
 passwordResetAccountRecovery-create-key = 產生新的救援金鑰：
 postAddAccountRecovery-subject-2 = 已建立救援金鑰
 postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = 不是您？
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">刪除這把金鑰</a>並<a data-l10n-name="passwordChangeLink">更改密碼</a>
 postAddAccountRecovery-action = 管理帳號
+postAddAccountRecovery-delete-key = 刪除這把金鑰：
+postAddAccountRecovery-changd-password = 更改密碼：
 postAddLinkedAccount-subject = 新帳號連結到 { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -553,8 +558,17 @@ unblockCode-prompt = 是的話，以下是您的授權碼：
 unblockCode-prompt-plaintext = 是的話，以下是您需要的授權碼：{ $unblockCode }
 unblockCode-report = 不是的話，請幫助我們阻擋入侵者，並<a data-l10n-name="reportSignInLink">讓我們知道</a>。
 unblockCode-report-plaintext = 不是的話，請幫助我們阻擋入侵者，並讓我們知道。
+confirm-account = 確認帳號
+confirm-account-plaintext = { confirm-account }：
+confirm-email-2 = 確認帳號
+confirm-email-plaintext-2 = { confirm-email-2 }：
+verificationReminderFirst-action-2 = 確認帳號
+verificationReminderSecond-action-2 = 確認帳號
+verify-title-2 = 使用 { -brand-firefox } 打開網路環境
 verify-description = 確認您的帳號，就可以在任何登入的裝置中，發揮 { -brand-firefox } 的最大功能：
 verify-subject = 完成帳號註冊
+verify-action-2 = 確認帳號
+verifyLogin-subject-2 = 確認登入
 verifyLogin-action = 確認登入
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -576,4 +590,11 @@ verifySecondaryCode-action-2 = 確認電子郵件信箱
 verifySecondaryCode-explainer = 有人要求將 { $email } 加入為下列 { -product-firefox-account } 帳號的次要郵件帳號：
 verifySecondaryCode-prompt-2 = 使用這組驗證碼：
 verifySecondaryCode-expiry-notice-2 = 驗證碼將於 5 分鐘後失效。驗證完成後，此信箱也會收到安全性通知與確認郵件。
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = 確認您的帳號
+verifyShortCode-title-2 = 使用 { -brand-firefox } 打開網路環境
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = 確認您的帳號，就可以在任何登入的裝置中，發揮 { -brand-firefox } 的最大功能：
+verifyShortCode-prompt-3 = 使用這組驗證碼：
 verifyShortCode-expiry-notice = 將於 5 分鐘後失效。
