@@ -601,8 +601,10 @@ verificationReminderSecond-description-3 = Há alguns dias você criou uma { -pr
 verificationReminderSecond-second-description = Sua { -product-firefox-account } permite sincronizar suas informações entre dispositivos e abre caminho a mais produtos de proteção de privacidade da { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Faça parte da nossa missão de transformar a internet em um lugar aberto a todos.
 verificationReminderSecond-action-2 = Confirmar conta
+verify-title-2 = Abra a internet com o { -brand-firefox }
 verify-description = Confirme sua conta e tire o máximo proveito do { -brand-firefox } onde quer que você acesse, começando com:
 verify-subject = Concluir a criação da sua conta
+verify-action-2 = Confirmar conta
 verifyLogin-action = Confirmar acesso
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
