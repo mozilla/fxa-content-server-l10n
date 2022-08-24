@@ -393,6 +393,7 @@ subscriptionRenewalReminder-content-closing = S tumert,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tarbaεt { $productName }
+subscriptionsPaymentExpired-content-1 = Takarḍa n usmad i tesseqdaceḍ i uxelleṣ deg yimultaɣen-a temmut neɣ qrib ad temmet.
 subscriptionsPaymentProviderCancelled-subject = Aleqqem n telɣut n lexlaṣ yettusra i yimultaɣ { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Suref-aɣ, nesɛa uguren s tarrayt-ik·im n lexlaṣ
 subscriptionsPaymentProviderCancelled-content-detected = Nemlal-d ugur akked tarrayt-ik·im n lexlaṣ i yimultaɣ-a.
@@ -451,6 +452,10 @@ subscriptionSubsequentInvoiceDiscount-content-subtotal = Asemday-arnaw: { $invoi
 subscriptionUpgrade-subject = Tuliḍ ɣer { $productName }
 subscriptionUpgrade-title = Tanemmirt ɣef uleqqem!
 # Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Tnuqleḍ akken iwata seg { $productNameOld } ɣer { $productName }.
+# Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Ma yella useɣẓan amaynut i tebɣiḍ ad tesbeddeḍ akken ad tesqedceḍ { $productName }, ad ak·akem-id-yaweḍ yimayl iεezlen s yiwellihen ara d-tessadreḍ.
 subscriptionUpgrade-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
@@ -462,6 +467,7 @@ unblockCode-prompt = Ma yella ih, hattan tengalt n tsiregt i tesriḍ:
 unblockCode-prompt-plaintext = Ma yella ih, ha-tt-an tengalt n tsiregt i tesriḍ: { $unblockCode }
 unblockCode-report = Ma ulac, mmel-aɣ-d amek ad neḥwi yir imdanen <a data-l10n-name="reportSignInLink">mmel-aɣ-t-id</a>.
 unblockCode-report-plaintext = Ma ulac, mudd-aɣ-d afus akken ad neḥwi yir imdanen udiɣ mmel-aɣ-tid.
+verificationReminderFinal-subject = Asmekti aneggaru i usentem n umiḍan-ik:im
 confirm-account = Sentem amiḍan
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ur tettu ara ad tesnetmeḍ amiḍan-ik·im
