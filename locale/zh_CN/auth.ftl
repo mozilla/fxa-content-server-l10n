@@ -187,6 +187,7 @@ downloadSubscription-link-action-2 = 开始使用
 fraudulentAccountDeletion-subject = 已删除您的 { -product-firefox-account }
 fraudulentAccountDeletion-title = 已删除您的帐户
 fraudulentAccountDeletion-content = 最近有人使用此电子邮箱注册 { -product-firefox-account } 并支付订阅。根据我们对所有新账户的要求，需要您先验证此电子邮箱来确认账户。
+fraudulentAccountDeletion-content-2 = 目前，该账户尚未完成验证，无法确定是否为授权的订阅行为。因此，已删除此电子邮箱注册的 { -product-firefox-account }，您的订阅也将被取消，所有费用均已退还。
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩余的救援码较少
 codes-reminder-description = 我们注意到您的救援码所剩不多了。请考虑生成一些新的救援码，以备无法登录账号时使用。
