@@ -276,10 +276,20 @@ postRemoveTwoStepAuthentication-not-required = 现在起，无需安全码即可
 postVerify-sub-title-3 = 我们很高兴见到您！
 postVerify-title-2 = 想在两台设备上看到相同的标签吗？
 postVerify-description-2 = 很简单！只需在另一台设备上安装 { -brand-firefox } 并登录，即可进行同步。就像魔法一样！
+postVerify-sub-description = （嘘…… 这也意味着您可以在任何地方登录获取您的书签、密码和其他 { -brand-firefox } 数据。）
+postVerify-subject-3 = 欢迎使用 { -brand-firefox }！
+postVerify-setup-2 = 连接其他设备：
+postVerify-action-2 = 连接另一台设备
 postVerifySecondary-subject = 已绑定备用邮箱
 postVerifySecondary-title = 已绑定备用邮箱
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = 您已成功将 { $secondaryEmail } 添加为您 { -product-firefox-account } 的备用邮箱。从现在起，安全通知和登录确认邮件也将发送至该邮箱。
 postVerifySecondary-action = 管理账号
 recovery-subject = 重置密码
+recovery-title-2 = 忘记密码？
+recovery-new-password-button = 通过点击下面的按钮创建一个新密码。此链接将在一小时后失效。
+recovery-copy-paste = 通过复制和粘贴下面的 URL 到您的浏览器创建一个新密码。此链接将在一小时后失效。
 recovery-action = 创建新密码
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
