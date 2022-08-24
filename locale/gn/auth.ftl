@@ -202,6 +202,15 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tembiapo ñepyrũ pyahu { $clientName }-pe
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Nde { -product-firefox-account } ojepuru tembiapo ñepyrũrã
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = ¿Nandéipa? <a data-l10n-name="passwordChangeLink">Emoambue ne ñe’ẽñemi</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = ¿Nandéipa? Emoambue ne ñe’ẽñemi:
 newDeviceLogin-action = Mba’ete ñangareko
 passwordChanged-subject = Ñe’ẽñemi hekopyahúva
 passwordChanged-title = Emoambue hekoitépe ñe’ẽñemi
@@ -555,8 +564,18 @@ unblockCode-report = Ndaupéichairõ, orepytyvõ romboyke hag̃ua tapicha ñaña
 unblockCode-report-plaintext = Ndoikóirõ péicha, orepytyvõ romboyke hag̃ua hekovaíva ha oremomarandúna.
 confirm-account = Emoneĩjey mba’ete
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
+verificationReminderFirst-title-2 = ¡Eg̃uahẽporã { -brand-firefox }-pe!
+confirm-email-2 = Emoneĩjey mba’ete
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Emoneĩjey mba’ete
+verificationReminderSecond-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
+verificationReminderSecond-action-2 = Emoneĩjey mba’ete
+verify-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
 verify-description = Emoneĩ ne mba’ete ha eipuruporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
 verify-subject = Emoheñoimava’erã mba’ete
+verify-action-2 = Emoneĩjey mba’ete
+verifyLogin-subject-2 = Emoneĩ tembiapo ñepyrũ
 verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -577,4 +596,7 @@ verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
 verifySecondaryCode-prompt-2 = Eipuru ko ayvu rechajeyrã:
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Emoneĩjey ne mba’ete
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
