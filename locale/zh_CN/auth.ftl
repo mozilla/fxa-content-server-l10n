@@ -188,6 +188,10 @@ fraudulentAccountDeletion-subject = 已删除您的 { -product-firefox-account }
 fraudulentAccountDeletion-title = 已删除您的帐户
 fraudulentAccountDeletion-content = 最近有人使用此电子邮箱注册 { -product-firefox-account } 并支付订阅。根据我们对所有新账户的要求，需要您先验证此电子邮箱来确认账户。
 fraudulentAccountDeletion-content-2 = 目前，该账户尚未完成验证，无法确定是否为授权的订阅行为。因此，已删除此电子邮箱注册的 { -product-firefox-account }，您的订阅也将被取消，所有费用均已退还。
+fraudulentAccountDeletion-contact = 如有疑问，请联系我们的<a data-l10n-name="mozillaSupportUrl">用户支持团队</a>。
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = 如有疑问，请联系我们的用户支持团队：{ $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩余的救援码较少
 codes-reminder-description = 我们注意到您的救援码所剩不多了。请考虑生成一些新的救援码，以备无法登录账号时使用。
@@ -201,6 +205,9 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 有新的登录活动
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = 您的 { -product-firefox-account } 已用于登录
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = 不是您本人操作？<a data-l10n-name="passwordChangeLink">请更改您的密码</a>。
