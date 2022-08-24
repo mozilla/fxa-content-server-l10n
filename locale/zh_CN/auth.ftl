@@ -237,8 +237,13 @@ passwordResetAccountRecovery-action = 生成新的救援密钥
 passwordResetAccountRecovery-regen-required = 现在，需要重新生成一组密钥。
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = 生成新的救援密钥：
+postAddAccountRecovery-subject-2 = 已创建账户救援密钥
+postAddAccountRecovery-title2 = 您创建了一个新的帐户救援密钥
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = 从下列位置创建了一个新密钥：
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = 不是您本人操作？
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">删除新密钥</a>并<a data-l10n-name="passwordChangeLink">更改密码</a>
 postAddAccountRecovery-action = 管理账号
 postAddAccountRecovery-delete-key = 删除新密钥：
 postAddAccountRecovery-changd-password = 更改您的密码：
