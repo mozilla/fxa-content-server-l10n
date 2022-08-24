@@ -580,21 +580,29 @@ unblockCode-prompt-plaintext = 是的話，以下是您需要的授權碼：{ $u
 unblockCode-report = 不是的話，請幫助我們阻擋入侵者，並<a data-l10n-name="reportSignInLink">讓我們知道</a>。
 unblockCode-report-plaintext = 不是的話，請幫助我們阻擋入侵者，並讓我們知道。
 verificationReminderFinal-subject = 這是最後一次提醒囉：確認帳號
+verificationReminderFinal-description = 幾週前您註冊了 { -product-firefox-account }，但並未確認過帳號身分。為了您的安全，請在 24 小時內完成確認，否則帳號將被自動刪除。
 confirm-account = 確認帳號
 confirm-account-plaintext = { confirm-account }：
 verificationReminderFirst-subject-2 = 請記得要確認帳號
 verificationReminderFirst-title-2 = 歡迎使用 { -brand-firefox }！
+verificationReminderFirst-description-2 = 幾天前您註冊了 { -product-firefox-account }，但並未確認過帳號身分。請在 15 天內完成確認，否則帳號將被自動刪除。
 verificationReminderFirst-sub-description-2 = 別錯過將您與您的隱私視為最優先的技術。
 confirm-email-2 = 確認帳號
 confirm-email-plaintext-2 = { confirm-email-2 }：
 verificationReminderFirst-action-2 = 確認帳號
 verificationReminderSecond-subject-2 = 請記得要確認帳號
 verificationReminderSecond-title-2 = 別錯過 { -brand-firefox } 的獨家功能！
+verificationReminderSecond-description-3 = 幾天前您註冊了 { -product-firefox-account }，但並未確認過帳號身分。請在 10 天內完成確認，否則帳號將被自動刪除。
+verificationReminderSecond-second-description = { -product-firefox-account } 可讓您在不同裝置間同步您的資訊，並且解鎖 { -brand-mozilla } 提供的更多隱私保護產品。
+verificationReminderSecond-sub-description-2 = 加入我們的使命，讓網路環境轉變為對每個人都開放的地方。
 verificationReminderSecond-action-2 = 確認帳號
 verify-title-2 = 使用 { -brand-firefox } 打開網路環境
 verify-description = 確認您的帳號，就可以在任何登入的裝置中，發揮 { -brand-firefox } 的最大功能：
 verify-subject = 完成帳號註冊
 verify-action-2 = 確認帳號
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = 您是否有登入 { $clientName }？
 verifyLogin-description-2 = 請確認您下列時間的登入紀錄，幫助我們確保帳號安全：
 verifyLogin-subject-2 = 確認登入
 verifyLogin-action = 確認登入
