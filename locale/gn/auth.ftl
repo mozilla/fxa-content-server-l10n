@@ -81,6 +81,8 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Kóva ha’e ñandutiveve hekojeheguíva; nerembojoajúi rire mba’e’oka pyahu nde { -product-firefox-account }-pe, emoambue pya’eterei ne ñe’ẽñemi { $passwordChangeLink }pe
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Eñemomaranduve hag̃ua, eike <a data-l10n-name="supportLink">{ -brand-mozilla } Pytyvõme</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Kóva ha’e peteĩ ñanduti veve hekojeheguíva; neremoneĩriramo ko mba’e, emoambue ne ñe’ẽñemi:
 automated-email-reset =
@@ -239,6 +241,7 @@ postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 postAddAccountRecovery-description-2 = Oñemoheñói mba’eñemi jeguerujeyrã ko’águi:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = ¿Nderehóipiko?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Embogue ñe’ẽñemi pyahu</a> ha <a data-l10n-name="passwordChangeLink">emoambue ne ñe’ẽñemi</a>
 postAddAccountRecovery-action = Mba’ete ñangareko
 postAddAccountRecovery-delete-key = Embogue ñe’ẽñemi pyahu:
 postAddAccountRecovery-changd-password = Emoambue ne ñe’ẽñemi:
@@ -285,6 +288,7 @@ postRemoveTwoStepAuthentication-description-plaintext = Embogue porã ñemoneĩ 
 postRemoveTwoStepAuthentication-action = Mba’ete ñangareko
 postRemoveTwoStepAuthentication-not-required = Ayvu rekorosã natekotevẽitama eñepyrũjeývo tembiapo.
 postVerify-sub-title-3 = ¡Rovy’aiterei rohecha rehe!
+postVerify-title-2 = ¿Ehechasépa tendayke mokõi mba’e’okápe?
 postVerify-subject-3 = Eg̃uahẽporã { -brand-firefox }-pe
 postVerify-setup-2 = Embojuaju ambue mba’e’oka:
 postVerify-action-2 = Embojuaju ambue mba’e’oka
@@ -566,6 +570,7 @@ unblockCode-prompt = Upéicharõ, ayvu jeguerujeyrã eikotevẽva ha’e kóva:
 unblockCode-prompt-plaintext = Upéicharõ, ayvu jeguerujeyrã reikotevẽva ha’e kóva: { $unblockCode }
 unblockCode-report = Ndaupéichairõ, orepytyvõ romboyke hag̃ua tapicha ñaña <a data-l10n-name="reportSignInLink">oremomarandu</a>.
 unblockCode-report-plaintext = Ndoikóirõ péicha, orepytyvõ romboyke hag̃ua hekovaíva ha oremomarandúna.
+verificationReminderFinal-subject = Nemandu’áke emoneĩ hag̃ua ne mba’ete
 confirm-account = Emoneĩjey mba’ete
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
