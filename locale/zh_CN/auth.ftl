@@ -576,13 +576,13 @@ unblockCode-report-plaintext = 如果不是，请帮助我们防范入侵者，�
 verificationReminderFinal-subject = 最后一次提醒：请验证您的账户
 verificationReminderFinal-description = 您于几周前注册了 { -product-firefox-account }， 但一直没有验证。为了您的安全，如果在接下来的24小时内还未通过验证，我们将删除该账户。
 confirm-account = 验证账户
-confirm-account-plaintext = { confirm-account }:
+confirm-account-plaintext = { confirm-account }：
 verificationReminderFirst-subject-2 = 记得验证您的帐户
 verificationReminderFirst-title-2 = 欢迎使用 { -brand-firefox }！
 verificationReminderFirst-description-2 = 您于几天前注册了 { -product-firefox-account }，但一直没有验证账户。请在 15 天内完成验证，否则该账户将被自动删除。
 verificationReminderFirst-sub-description-2 = 不要错过将您和您的隐私放在首位的技术。
 confirm-email-2 = 验证账户
-confirm-email-plaintext-2 = { confirm-email-2 }:
+confirm-email-plaintext-2 = { confirm-email-2 }：
 verificationReminderFirst-action-2 = 验证账户
 verificationReminderSecond-subject-2 = 记得验证您的帐户
 verificationReminderSecond-title-2 = 不要错过 { -brand-firefox }！
@@ -593,6 +593,11 @@ verify-title-2 = 使用 { -brand-firefox } 打开互联网
 verify-description = 确认您的账户，即可在任何登录的设备中，畅享 { -brand-firefox } 的智能技术：
 verify-subject = 账户创建完成
 verify-action-2 = 验证账户
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = 您是否登录了 { $clientName } ？
+verifyLogin-description-2 = 请确认您的登录记录，帮助我们确保您的账户安全：
+verifyLogin-subject-2 = 确认登录
 verifyLogin-action = 确认登录
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -600,11 +605,18 @@ verifyLoginCode-subject-line = { $serviceName } 的登录码
 verifyLoginCode-title = 是您在登录吗？
 verifyLoginCode-prompt-2 = 如果是，请使用此验证码：
 verifyLoginCode-expiry-notice = 5 分钟内有效。
+verifyPrimary-title-2 = 验证主邮箱
 verifyPrimary-description = 下列设备请求了一项账户变更：
 verifyPrimary-subject = 确认主邮箱
+verifyPrimary-action-2 = 验证电子邮箱
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }：
+verifyPrimary-post-verify-2 = 验证完成后，即可从此设备进行添加备用邮箱等账户更改操作。
 verifySecondaryCode-subject = 确认备用邮箱地址
+verifySecondaryCode-title-2 = 验证备用邮箱
+verifySecondaryCode-action-2 = 验证电子邮箱
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = 有人请求使用 { $email } 作为下列 { -product-firefox-account }的备用邮箱地址：
+verifySecondaryCode-prompt-2 = 请使用此验证码：
 verifyShortCode-prompt-3 = 请使用此验证码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
