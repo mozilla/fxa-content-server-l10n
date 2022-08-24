@@ -275,6 +275,7 @@ postRemoveTwoStepAuthentication-action = 管理账号
 postRemoveTwoStepAuthentication-not-required = 现在起，无需安全码即可登录。
 postVerify-sub-title-3 = 我们很高兴见到您！
 postVerify-title-2 = 想在两台设备上看到相同的标签吗？
+postVerify-description-2 = 很简单！只需在另一台设备上安装 { -brand-firefox } 并登录，即可进行同步。就像魔法一样！
 postVerifySecondary-subject = 已绑定备用邮箱
 postVerifySecondary-title = 已绑定备用邮箱
 postVerifySecondary-action = 管理账号
