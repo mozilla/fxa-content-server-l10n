@@ -600,6 +600,7 @@ verificationReminderSecond-description-3 = Vài ngày trước, bạn đã tạo
 verificationReminderSecond-second-description = { -product-firefox-account } của bạn cho phép bạn đồng bộ hóa thông tin của mình trên các thiết bị và mở khóa quyền truy cập vào các sản phẩm bảo vệ quyền riêng tư khác từ { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Hãy là một phần trong sứ mệnh của chúng tôi là biến Internet thành một nơi mở cửa cho tất cả mọi người.
 verificationReminderSecond-action-2 = Xác minh tài khoản
+verify-title-2 = Mở Internet bằng { -brand-firefox }
 verify-description = Xác nhận tài khoản của bạn và tận dụng tối đa { -brand-firefox } ở mọi nơi bạn đăng nhập bắt đầu bằng:
 verify-subject = Hoàn tất việc tạo tài khoản của bạn
 verify-action-2 = Xác minh tài khoản
@@ -632,6 +633,7 @@ verifySecondaryCode-expiry-notice-2 = Nó hết hạn sau 5 phút. Sau khi đư�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Xác minh tài khoản của bạn
+verifyShortCode-title-2 = Mở Internet bằng { -brand-firefox }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Xác minh tài khoản của bạn và tận dụng tối đa { -brand-firefox } ở mọi nơi bạn đăng nhập bắt đầu bằng:
 verifyShortCode-prompt-3 = Sử dụng mã xác minh này:
