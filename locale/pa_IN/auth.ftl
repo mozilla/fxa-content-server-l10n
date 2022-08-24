@@ -39,6 +39,15 @@ subplat-automated-email = ਇਹ ਆਟੋਮੈਟਿਕ ਈਮੇਲ ਹੈ, �
 subplat-privacy-notice = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 subplat-privacy-plaintext = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } ਇੱਕ { -product-firefox-account } ਹੈ ਅਤੇ ਤੁਸੀਂ { $productName } ਲਈ ਸਾਈਨ ਅੱਪ ਕੀਤਾ ਹੈ।
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } ਇੱਕ { -product-firefox-account } ਹੈ
+subplat-explainer-multiple = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } ਇੱਕ { -product-firefox-account } ਹੈ ਅਤੇ ਤੁਸੀਂ ਕਈ ਉਤਪਾਦਾਂ ਲਈ ਮੈਂਬਰ ਬਣ ਚੁੱਕੇ ਹੋ।
+subplat-explainer-was-deleted = ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ ਮਿਲੀ ਹੈ, ਕਿਉਂਕਿ { $email } { -product-firefox-account } ਲਈ ਰਜਿਸਟਰ ਕੀਤੀ ਗਈ ਸੀ।
 subplat-terms-policy = ਸ਼ਰਤਾਂ ਅਤੇ ਰੱਦ ਕਰਨ ਦੀ ਨੀਤੀ
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
@@ -84,6 +93,9 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = ਪਿਛਲੇ ਅੱਖਰਾਂ { $lastFour } ਵਾਲਾ { $cardType } ਕਾਰਡ
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ { -brand-mozilla } ਸਹਿਯੋਗ ਨੂੰ ਵੇਖੋ: { $supportUrl }।
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -116,12 +128,17 @@ view-invoice = <a data-l10n-name="invoiceLink">ਆਪਣਾ ਇਨਵਾਇਸ �
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = ਇਨਵਾਇਸ ਵੇਖੋ: { $invoiceLink }
+cadReminderFirst-subject-1 = ਰਿਮਾਈਂਡਰ! ਆਓ { -brand-firefox } ਸਿੰਕ ਕਰੋ
 cadReminderFirst-action = ਹੋਰ ਡਿਵਾਈਸ ਸਿੰਕ ਕਰੋ
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = ਸਿੰਕ ਕਰਨ ਲਈ ਦੋ ਚਾਹੀਦੇ ਹਨ
 cadReminderFirst-description-2 = ਸਿੰਕ ਕਰਨ ਲਈ ਸਕਿੰਟ ਕੁ ਲੱਗਦਾ ਹੈ।
+cadReminderSecond-subject-2 = ਖੁੰਝੋ ਨਾ! ਆਓ ਤੁਹਾਡੇ ਸਿੰਕ ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੀਏ
 cadReminderSecond-action = ਹੋਰ ਡਿਵਾਈਸ ਸਿੰਕ ਕਰੋ
 cadReminderSecond-title-2 = ਸਿੰਕ ਕਰਨਾ ਨਾ ਭੁੱਲੋ!
 cadReminderSecond-description-sync = ਆਪਣੇ ਬੁੱਕਮਾਰਕ, ਪਾਸਵਰਡ, ਖੋਲ੍ਹੀਆਂ ਟੈਬਾਂ ਅਤੇ ਹੋਰਾਂ ਨੂੰ ਸਿੰਕ ਕਰੋ — ਹਰ ਥਾਂ ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ { -brand-firefox } ਵਰਤਦੇ ਹੋ।
+cadReminderSecond-description-plus = ਇਸ ਦੇ ਨਾਲ ਹੀ, ਤੁਹਾਡਾ ਡਾਟਾ ਹਮੇਸ਼ਾਂ ਇੰਕ੍ਰਿਪਟ ਹੁੰਦਾ ਹੈ। ਸਿਰਫ਼ ਤੁਸੀਂ ਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਮਨਜ਼ੂਰ ਕੀਤੇ ਡਿਵਾਈਸ ਹੀ ਇਸ ਨੂੰ ਵੇਖ ਸਕਦੇ ਹਨ।
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ
