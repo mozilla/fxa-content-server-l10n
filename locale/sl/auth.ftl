@@ -563,8 +563,27 @@ unblockCode-prompt = Če je tako, je to overitvena koda, ki jo potrebujete:
 unblockCode-prompt-plaintext = Če je tako, je to overitvena koda, ki jo potrebujete: { $unblockCode }
 unblockCode-report = Če to niste vi, nam pomagajte odgnati vsiljivce in <a data-l10n-name="reportSignInLink">nam prijavite poskus zlorabe</a>.
 unblockCode-report-plaintext = Če to niste vi, nam pomagajte odgnati vsiljivce in nam prijavite poskus zlorabe.
+verificationReminderFinal-subject = Zadnji opomnik za potrditev računa
+verificationReminderFinal-description = Pred nekaj tedni ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Zaradi vaše varnosti bomo račun izbrisali, če ne bo potrjen v naslednjih 24 urah.
+confirm-account = Potrdi račun
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Ne pozabite potrditi svojega računa
+verificationReminderFirst-title-2 = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
+verificationReminderFirst-description-2 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste potrdili. Potrdite svoj račun v naslednjih 15 dneh, sicer bo samodejno izbrisan.
+confirm-email-2 = Potrdi račun
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Potrdi račun
+verificationReminderSecond-subject-2 = Ne pozabite potrditi svojega računa
+verificationReminderSecond-description-3 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste potrdili. Potrdite svoj račun v naslednjih 10 dneh, sicer bo samodejno izbrisan.
+verificationReminderSecond-action-2 = Potrdi račun
+verify-title-2 = Odprite internet s { -brand-firefox(sklon: "orodnik") }
 verify-description = Potrdite svoj račun in kar najbolje izkoristite { -brand-firefox } na vseh napravah, začenši z:
 verify-subject = Dokončajte ustvarjanje računa
+verify-action-2 = Potrdi račun
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Ali ste se vi prijavili v { $clientName }?
+verifyLogin-subject-2 = Potrdi prijavo
 verifyLogin-action = Potrdite prijavo
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -586,4 +605,11 @@ verifySecondaryCode-action-2 = Potrdi e-poštni naslov
 verifySecondaryCode-explainer = Poslana je bila zahteva za uporabo { $email } kot pomožni e-poštni naslov naslednjega { -product-firefox-account(sklon: "rodilnik") }:
 verifySecondaryCode-prompt-2 = Uporabite to potrditveno kodo:
 verifySecondaryCode-expiry-notice-2 = Poteče čez 5 minut. Ko naslov potrdite, bo začel prejemati varnostna obvestila in potrditve.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Potrdite račun
+verifyShortCode-title-2 = Odprite internet s { -brand-firefox(sklon: "orodnik") }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Potrdite svoj račun in kar najbolje izkoristite { -brand-firefox } na vseh napravah, začenši z:
+verifyShortCode-prompt-3 = Uporabite to potrditveno kodo:
 verifyShortCode-expiry-notice = Poteče čez 5 minut.
