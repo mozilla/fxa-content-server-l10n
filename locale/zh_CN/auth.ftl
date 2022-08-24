@@ -315,6 +315,7 @@ subscriptionAccountReminderFirst-action = 创建密码
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action } :
 subscriptionAccountReminderSecond-subject = 最后一次提醒：请设置您的账户
 subscriptionAccountReminderSecond-title = 欢迎使用 { -brand-firefox }！
+subscriptionAccountReminderSecond-content-select-2 = 选择“创建密码”设置新密码并完成账户确认。
 subscriptionAccountReminderSecond-action = 创建密码
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }：
 # Variables
@@ -413,6 +414,10 @@ subscriptionFirstInvoiceDiscount-content-charge = 已于 { $invoiceDateOnly } �
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
+subscriptionPaymentExpired-title-1 = 您的信用卡已过期或即将过期
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = 您用于支付 { $productName } 的信用卡已过期或即将过期。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 付款失败
