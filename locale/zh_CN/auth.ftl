@@ -183,6 +183,8 @@ downloadSubscription-subject = 欢迎使用 { $productName }
 downloadSubscription-title = 欢迎使用 { $productName }
 downloadSubscription-content-2 = 准备开始使用包含在您的订阅内的所有功能吧：
 downloadSubscription-link-action-2 = 开始使用
+fraudulentAccountDeletion-subject = 已删除您的 { -product-firefox-account }
+fraudulentAccountDeletion-title = 已删除您的帐户
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title = 剩余的救援码较少
 codes-reminder-description = 我们注意到您的救援码所剩不多了。请考虑生成一些新的救援码，以备无法登录账号时使用。
@@ -196,6 +198,12 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 有新的登录活动
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = 不是您本人操作？<a data-l10n-name="passwordChangeLink">请更改您的密码</a>。
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = 不是您本人操作？请更改您的密码：
 newDeviceLogin-action = 管理账号
 passwordChanged-subject = 密码已更新
 passwordChanged-title = 密码更改成功
@@ -218,7 +226,11 @@ passwordResetAccountRecovery-action = 生成新的救援密钥
 passwordResetAccountRecovery-regen-required = 现在，需要重新生成一组密钥。
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = 生成新的救援密钥：
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = 不是您本人操作？
 postAddAccountRecovery-action = 管理账号
+postAddAccountRecovery-delete-key = 删除新密钥：
+postAddAccountRecovery-changd-password = 更改您的密码：
 postAddLinkedAccount-subject = 新账号连接到 { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -261,6 +273,8 @@ postRemoveTwoStepAuthentication-description = 您已成功用下列设备禁用 
 postRemoveTwoStepAuthentication-description-plaintext = 您已成功禁用 { -product-firefox-account }的两步验证。现在起，无需安全码即可登录。
 postRemoveTwoStepAuthentication-action = 管理账号
 postRemoveTwoStepAuthentication-not-required = 现在起，无需安全码即可登录。
+postVerify-sub-title-3 = 我们很高兴见到您！
+postVerify-title-2 = 想在两台设备上看到相同的标签吗？
 postVerifySecondary-subject = 已绑定备用邮箱
 postVerifySecondary-title = 已绑定备用邮箱
 postVerifySecondary-action = 管理账号
