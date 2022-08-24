@@ -47,7 +47,11 @@ subplat-explainer-specific = 您收到此邮件是因为 { $email } 注册了 { 
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = 您收到这封邮件，是因为 { $email } 注册了 { -product-firefox-account }。
 subplat-explainer-multiple = 您收到此邮件是因为 { $email } 注册了 { -product-firefox-account }，且订阅了多个产品。
+subplat-explainer-was-deleted = 您收到这封邮件，是因为 { $email } 注册了 { -product-firefox-account }。
 subplat-manage-account = 访问<a data-l10n-name="subplat-account-page">账户页面</a>管理 { -product-firefox-account }设置。
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = 访问您的账户页面来管理 { -product-firefox-account } 设置：{ $accountSettingsUrl }
 subplat-terms-policy = 条款及取消政策
 subplat-terms-policy-plaintext = { subplat-terms-policy }：
 subplat-cancel = 取消订阅
@@ -75,9 +79,9 @@ automated-email-change = 这是一封自动发送的邮件。若您并未授权�
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = 这是一封自动发送的邮件。若您并未添加新设备到 { -product-firefox-account }，请立即到 { $passwordChangeLink } 更改密码。
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
-automated-email-plaintext = 这是一封自动发送的邮件。若您意外收到此邮件，无需进行任何操作。
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } 获取更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 支持</a>。
+automated-email-no-action-plaintext = 这是一封自动发送的电子邮件。如果您错误地收到它，您无需执行任何操作。
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = 这是一封自动发送的邮件。若您并未授权此操作，请立即更改密码。
 automated-email-reset = 这是一封自动发送的邮件。若您并未授权进行此操作，<a data-l10n-name="resetLink">请立即重置密码</a>。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
@@ -125,9 +129,6 @@ subscriptionUpdateBillingTry-plaintext = 我们将在几天内重试付款操作
 subscriptionUpdatePayment = 为避免服务中断，请您及时<a data-l10n-name="updateBillingUrl">更新付款信息</a>。
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = 为避免服务中断，请您及时更新付款信息：
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = 更多信息请访问 { $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -188,9 +189,6 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 有新的登录活动
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = { $clientName } 有新的登录活动
 newDeviceLogin-action = 管理账号
 passwordChanged-subject = 密码已更新
 passwordChanged-title = 密码更改成功
@@ -213,12 +211,7 @@ passwordResetAccountRecovery-action = 生成新的救援密钥
 passwordResetAccountRecovery-regen-required = 现在，需要重新生成一组密钥。
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = 生成新的救援密钥：
-postAddAccountRecovery-subject = 已生成新的救援密钥
-postAddAccountRecovery-title = 已生成新的救援密钥
-postAddAccountRecovery-description = 您已使用下列设备，成功生成 { -product-firefox-account }救援密钥：
 postAddAccountRecovery-action = 管理账号
-postAddAccountRecovery-recovery = 若不是您操作的，<a data-l10n-name="revokeAccountRecoveryLink">请点击此处</a>。
-postAddAccountRecovery-revoke = 若不是您操作的，请吊销该密钥。
 postAddLinkedAccount-subject = 新账号连接到 { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -261,19 +254,10 @@ postRemoveTwoStepAuthentication-description = 您已成功用下列设备禁用 
 postRemoveTwoStepAuthentication-description-plaintext = 您已成功禁用 { -product-firefox-account }的两步验证。现在起，无需安全码即可登录。
 postRemoveTwoStepAuthentication-action = 管理账号
 postRemoveTwoStepAuthentication-not-required = 现在起，无需安全码即可登录。
-postVerify-title = 接下来与您的其他设备同步！
-postVerify-description = 同步服务会安全地在您所有设备间同步书签、密码与其他 { -brand-firefox } 数据。
-postVerify-setup = 设置下一台设备
-postVerify-action = 设置下一台设备
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = 有任何问题？请访问 { $supportUrl }
 postVerifySecondary-subject = 已绑定备用邮箱
 postVerifySecondary-title = 已绑定备用邮箱
 postVerifySecondary-action = 管理账号
 recovery-subject = 重置密码
-recovery-title = 需要重置您的密码吗？
-recovery-description = 请在一小时内点击下面的按钮来创建新密码。此次重设密码的请求来自以下设备：
 recovery-action = 创建新密码
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -530,29 +514,8 @@ unblockCode-prompt = 是的话，这是您所需的授权码：
 unblockCode-prompt-plaintext = 是的话，这里是您需要的授权码：{ $unblockCode }
 unblockCode-report = 不是的话，请帮助我们抵御入侵者，并<a data-l10n-name="reportSignInLink">向我们报告</a>。
 unblockCode-report-plaintext = 如果不是，请帮助我们防范入侵者，向我们报告此事例。
-verificationReminderFirst-subject = 提醒: 请完成账户创建
-verificationReminderFirst-title = 欢迎来到 { -brand-firefox } 大家庭
-verificationReminderFirst-description = 几天前您创建了 { -product-firefox-account }，但未进行确认。
-verificationReminderFirst-sub-description = 请立即确认，即可获取为您的隐私而战的相关技术、实用知识以及您应得的尊重。
-confirm-email = 确认邮箱地址
-confirm-email-plaintext = { confirm-email }：
-verificationReminderFirst-action = 确认邮箱地址
-verificationReminderSecond-subject = 最后一次提醒：请激活您的账户
-verificationReminderSecond-title = 还在吗？
-verificationReminderSecond-sub-description = 请确认此邮箱地址以激活您的账户，让我们知道您没遇到什么问题。
-verificationReminderSecond-action = 确认邮箱地址
-verify-title = 激活 { -brand-firefox } 系列产品
-verify-description-plaintext = 确认您的账户，即可在任何登录的设备中，畅享 { -brand-firefox } 的智能技术。
 verify-description = 确认您的账户，即可在任何登录的设备中，畅享 { -brand-firefox } 的智能技术：
 verify-subject = 账户创建完成
-verify-action = 确认邮箱地址
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = { $clientName } 有新的登录活动
-verifyLogin-description = 为了您的安全，请确认从下列设备的登录：
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = 确认新的 { $clientName } 登录活动
 verifyLogin-action = 确认登录
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -565,5 +528,4 @@ verifySecondaryCode-subject = 确认备用邮箱地址
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = 有人请求使用 { $email } 作为下列 { -product-firefox-account }的备用邮箱地址：
-verifyShortCode-title = 是您在注册账号吗？
 verifyShortCode-expiry-notice = 5 分钟内有效。
