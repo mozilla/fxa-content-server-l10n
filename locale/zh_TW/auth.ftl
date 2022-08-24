@@ -206,6 +206,9 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 的新登入通知
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = 您的 { -product-firefox-account } 已用於登入
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = 不是您？<a data-l10n-name="passwordChangeLink">請更改密碼</a>。
@@ -236,6 +239,8 @@ passwordResetAccountRecovery-regen-required = 您必須產生新的救援金鑰�
 passwordResetAccountRecovery-create-key = 產生新的救援金鑰：
 postAddAccountRecovery-subject-2 = 已建立救援金鑰
 postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = 有人從下列位置建立新的金鑰：
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = 不是您？
 postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">刪除這把金鑰</a>並<a data-l10n-name="passwordChangeLink">更改密碼</a>
@@ -287,6 +292,7 @@ postRemoveTwoStepAuthentication-not-required = 登入時，將不再需要輸入
 postVerify-sub-title-3 = 很高興能見到你！
 postVerify-title-2 = 想要在其他裝置上也能看到同個分頁嗎？
 postVerify-description-2 = 很簡單！只要在另一台裝置上也安裝 { -brand-firefox } 並且登入同步功能就好！
+postVerify-sub-description = （噓…只要登入之後，所有書籤、密碼、其他 { -brand-firefox } 資料就可以在所有裝置間同步起來了。）
 postVerify-subject-3 = 歡迎使用 { -brand-firefox }！
 postVerify-setup-2 = 連結其他裝置
 postVerify-action-2 = 連結其他裝置
@@ -299,6 +305,7 @@ postVerifySecondary-action = 管理帳號
 recovery-subject = 重設您的密碼
 recovery-title-2 = 忘記密碼了嗎？
 recovery-new-password-button = 請點擊下列按鈕來設定新密碼。此鏈結將於一小時後失效。
+recovery-copy-paste = 請複製下列網址，並貼到瀏覽器網址列開啟，即可設定新密碼。此鏈結將於一小時後失效。
 recovery-action = 建立新密碼
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
