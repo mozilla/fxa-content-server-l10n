@@ -575,10 +575,12 @@ confirm-account = Emoneĩjey mba’ete
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
 verificationReminderFirst-title-2 = ¡Eg̃uahẽporã { -brand-firefox }-pe!
+verificationReminderFirst-sub-description-2 = Aníke ejavy umi tembipurupyahu nemomba’e ha nemohekoñemíva.
 confirm-email-2 = Emoneĩjey mba’ete
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Emoneĩjey mba’ete
 verificationReminderSecond-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
+verificationReminderSecond-title-2 = ¡Aníke ejavy { -brand-firefox }!
 verificationReminderSecond-action-2 = Emoneĩjey mba’ete
 verify-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
 verify-description = Emoneĩ ne mba’ete ha eipuruporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
@@ -611,5 +613,8 @@ verifySecondaryCode-prompt-2 = Eipuru ko ayvu rechajeyrã:
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Emoneĩjey ne mba’ete
+verifyShortCode-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Emoneĩ ne mba’ete ha eipuruporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
 verifyShortCode-prompt-3 = Eipuru ko ayvu ñemoneĩrã:
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
