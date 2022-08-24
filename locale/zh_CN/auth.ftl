@@ -324,11 +324,14 @@ subscriptionAccountFinishSetup-content-create-2 = 接下来，请设置 { -produ
 subscriptionAccountFinishSetup-action-2 = 开始使用
 subscriptionAccountReminderFirst-subject = 提醒：请完成账户设置
 subscriptionAccountReminderFirst-title = 您暂时还不能访问订阅的项目
+subscriptionAccountReminderFirst-content-info-2 = 您几天前注册的 { -product-firefox-account } 还没有完成验证。请您尽快完成账户设置，以便使用新订阅的内容。
+subscriptionAccountReminderFirst-content-select-2 = 选择“创建密码”设置新密码并完成账户验证。
 subscriptionAccountReminderFirst-action = 创建密码
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action } :
 subscriptionAccountReminderSecond-subject = 最后一次提醒：请设置您的账户
 subscriptionAccountReminderSecond-title = 欢迎使用 { -brand-firefox }！
-subscriptionAccountReminderSecond-content-select-2 = 选择“创建密码”设置新密码并完成账户确认。
+subscriptionAccountReminderSecond-content-info-2 = 您几天前注册的 { -product-firefox-account } 还没有完成验证。请您尽快完成账户设置，以便使用新订阅的内容。
+subscriptionAccountReminderSecond-content-select-2 = 选择“创建密码”设置新密码并完成账户验证。
 subscriptionAccountReminderSecond-action = 创建密码
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }：
 # Variables
@@ -427,10 +430,13 @@ subscriptionFirstInvoiceDiscount-content-charge = 已于 { $invoiceDateOnly } �
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
-subscriptionPaymentExpired-title-1 = 您的信用卡已过期或即将过期
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = 您用于支付 { $productName } 的信用卡已过期或即将过期。
+subscriptionPaymentExpired-subject-1 = 支付 { $productName } 所使用的的信用卡已过期或即将到期。
+subscriptionPaymentExpired-title-1 = 您的信用卡已过期或即将到期
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = 您用于支付 { $productName } 的信用卡已过期或即将到期。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 付款失败
@@ -474,7 +480,9 @@ subscriptionRenewalReminder-content-closing = 此致，
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } 团队
-subscriptionsPaymentExpired-title-1 = 您的信用卡已过期或即将过期
+subscriptionsPaymentExpired-subject-1 = 您用于支付订阅的信用卡已过期或即将到期
+subscriptionsPaymentExpired-title-1 = 您的信用卡已过期或即将到期
+subscriptionsPaymentExpired-content-1 = 您用于支付以下订阅的信用卡已过期或即将到期。
 subscriptionsPaymentProviderCancelled-subject = 需要更新 { -brand-mozilla } 产品订阅的付款信息
 subscriptionsPaymentProviderCancelled-title = 抱歉，处理付款时遇到问题
 subscriptionsPaymentProviderCancelled-content-detected = 处理您最近为下列订阅项目的付款时遇到问题。
@@ -565,9 +573,13 @@ unblockCode-prompt = 是的话，这是您所需的授权码：
 unblockCode-prompt-plaintext = 是的话，这里是您需要的授权码：{ $unblockCode }
 unblockCode-report = 不是的话，请帮助我们抵御入侵者，并<a data-l10n-name="reportSignInLink">向我们报告</a>。
 unblockCode-report-plaintext = 如果不是，请帮助我们防范入侵者，向我们报告此事例。
+verificationReminderFinal-subject = 最后一次提醒：请验证您的账户
+verificationReminderFinal-description = 您于几周前注册了 { -product-firefox-account }， 但一直没有验证。为了您的安全，如果在接下来的24小时内还未通过验证，我们将删除该账户。
+confirm-account = 验证账户
 confirm-account-plaintext = { confirm-account }:
-verificationReminderFirst-subject-2 = 记得确认您的帐户
+verificationReminderFirst-subject-2 = 记得验证您的帐户
 verificationReminderFirst-title-2 = 欢迎使用 { -brand-firefox }！
+verificationReminderFirst-description-2 = 您于几天前注册了 { -product-firefox-account }，但一直没有验证账户。请在 15 天内完成验证，否则该账户将被自动删除。
 verificationReminderSecond-title-2 = 不要错过 { -brand-firefox }！
 verify-description = 确认您的账户，即可在任何登录的设备中，畅享 { -brand-firefox } 的智能技术：
 verify-subject = 账户创建完成
