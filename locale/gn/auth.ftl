@@ -81,15 +81,6 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Kóva ha’e ñandutiveve hekojeheguíva; nerembojoajúi rire mba’e’oka pyahu nde { -product-firefox-account }-pe, emoambue pya’eterei ne ñe’ẽñemi { $passwordChangeLink }pe
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Kóva ha’e ñandutiveve ijeheguíva; og̃uahẽrõ ndéve eipota’ỹre, ehejareínte.
-    Eñemomaranduve hag̃ua, ikatúpa eikemi <a data-l10n-name="supportLink">{ -brand-mozilla } oipytyvõva</a>.
-automated-email-plaintext = Kóva ñanduti veve ijeheguíva. Og̃uahẽrõ ko ñanduti veve jejavýpe, ehejareínte.
-automated-email-support = { automated-email-plaintext } Eñemomaranduve hag̃ua, eike <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Ñepytyvõme</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Eñemomaranduve hag̃ua, eike { -brand-mozilla } Ñepytyvõme: { $mozillaSupportUrl }.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Kóva ha’e peteĩ ñanduti veve hekojeheguíva; neremoneĩriramo ko mba’e, emoambue ne ñe’ẽñemi:
 automated-email-reset =
@@ -139,9 +130,6 @@ subscriptionUpdateBillingTry-plaintext = Rohechajeýta nde jehepyme’ẽ tenond
 subscriptionUpdatePayment = Emboykekuaa hag̃ua pe mba’epuru ñekytĩ, ikatúpiko <a data-l10n-name="updateBillingUrl">embohekopyahumi ne marandu tepyme’ẽguáva</a> pya’e porã.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Emboykekuaa hag̃ua pe mba’epuru ñekytĩ, ikatúpiko embohekopyahumi ne marandu tepyme’ẽguáva pya’e porã:
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Eñemomaranduve hag̃ua, eikeva’rã { $supportUrl }-pe
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -214,9 +202,6 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tembiapo ñepyrũ pyahu { $clientName }-pe
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Tembiapo ñepyrũ pyahu { $clientName }-pe
 newDeviceLogin-action = Mba’ete ñangareko
 passwordChanged-subject = Ñe’ẽñemi hekopyahúva
 passwordChanged-title = Emoambue hekoitépe ñe’ẽñemi
@@ -239,12 +224,11 @@ passwordResetAccountRecovery-action = Emoheñói mba’eñemi jeguerujeyrã pyah
 passwordResetAccountRecovery-regen-required = Emoheñóiva’erã mba’eñemi jeguerujeyrã pyahu.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Emoheñói mba’eñemi jeguerujeyrã pyahu:
-postAddAccountRecovery-subject = Mba’eñemi jeguerujeyrã mba’ete ipyahúvape
-postAddAccountRecovery-title = Mba’eñemi jeguerujeyrã mba’ete ipyahúvape
-postAddAccountRecovery-description = Emoheñói porã mba’eñemi jeguerujeyrã { -product-firefox-account } peg̃uarã eipurúvo ko tenondevegua mba’e’oka:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = ¿Nderehóipiko?
 postAddAccountRecovery-action = Mba’ete ñangareko
-postAddAccountRecovery-recovery = Nandéiramo, <a data-l10n-name="revokeAccountRecoveryLink">eikutu ko’ápe</a>.
-postAddAccountRecovery-revoke = Nandéiramo, eipe’a mba’eñemi.
+postAddAccountRecovery-delete-key = Embogue ñe’ẽñemi pyahu:
+postAddAccountRecovery-changd-password = Emoambue ne ñe’ẽñemi:
 postAddLinkedAccount-subject = Mba’ete pyahu oĩva { -brand-firefox } ndive
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -287,15 +271,10 @@ postRemoveTwoStepAuthentication-description = Embogue porã ñemoneĩ mokõi jey
 postRemoveTwoStepAuthentication-description-plaintext = Embogue porã ñemoneĩ mokõi jeyguáva { -product-firefox-account } pegua. Ndojejeruremo’ãvéima tekorosã ayvu emoñepyrũjeývo tembiapo.
 postRemoveTwoStepAuthentication-action = Mba’ete ñangareko
 postRemoveTwoStepAuthentication-not-required = Ayvu rekorosã natekotevẽitama eñepyrũjeývo tembiapo.
-postVerify-sub-title-2 = { -product-firefox-account } moneĩmbyre. Ejapopapotaitéma.
-postVerify-title = ¡Embojuehe ko’ág̃a ne mba’e’oka!
-postVerify-description = Sync oreko ñemíme nde techaukaha, ñe’ẽñemi ha ambue { -brand-firefox } mba’ekuaarã ojuehegua opaite ne mba’e’okápe.
-postVerify-subject-2 = Mba’ete moneĩmbyre. Ko’ág̃a embojuehe ambue mba’e’oka hu’ã hag̃ua ñembohekopyahu
-postVerify-setup = Emboheko mba’e’oka upeigua
-postVerify-action = Emboheko mba’e’oka upeigua
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = ¿Eporandusépa? Eike { $supportUrl }-pe
+postVerify-sub-title-3 = ¡Rovy’aiterei rohecha rehe!
+postVerify-subject-3 = Eg̃uahẽporã { -brand-firefox }-pe
+postVerify-setup-2 = Embojuaju ambue mba’e’oka:
+postVerify-action-2 = Embojuaju ambue mba’e’oka
 postVerifySecondary-subject = Ñanduti veve mokõiguáva mbojuajupyre
 postVerifySecondary-title = Ñanduti veve mokõiguáva mbojuajupyre
 # Variables:
@@ -303,8 +282,7 @@ postVerifySecondary-title = Ñanduti veve mokõiguáva mbojuajupyre
 postVerifySecondary-content-2 = Emoneĩ hekopete { $secondaryEmail } ñanduti veve mokõihávarõ ne { -product-firefox-account } pegua. Marandu’i tekorosã ha ñemoneĩrã tembiapo ñepyrũgua ko’ág̃a og̃uahẽta mokõivéva ñanduti veve kundaharapépe.
 postVerifySecondary-action = Mba’ete ñangareko
 recovery-subject = Embojevyjey ne ñe’ẽñemi
-recovery-title = ¿Eguerujeýke ne ñe’ẽñemi?
-recovery-description = Eikutu pe votõ 60 aravo’i oútavape emoheñói hag̃ua ipyahúva. Ko mba’ejerure ombou tenondevegua mba’e’oka:
+recovery-title-2 = ¿Nderesarái ñe’ẽñemígui?
 recovery-action = Emoheñói ñe’ẽñemi pyahu
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -575,30 +553,10 @@ unblockCode-prompt = Upéicharõ, ayvu jeguerujeyrã eikotevẽva ha’e kóva:
 unblockCode-prompt-plaintext = Upéicharõ, ayvu jeguerujeyrã reikotevẽva ha’e kóva: { $unblockCode }
 unblockCode-report = Ndaupéichairõ, orepytyvõ romboyke hag̃ua tapicha ñaña <a data-l10n-name="reportSignInLink">oremomarandu</a>.
 unblockCode-report-plaintext = Ndoikóirõ péicha, orepytyvõ romboyke hag̃ua hekovaíva ha oremomarandúna.
-verificationReminderFirst-subject = Mandu’arã: Emoheñoimba ne mba’ete
-verificationReminderFirst-title = Eg̃uahẽporãite { -brand-firefox } mba’eteépe
-verificationReminderFirst-description = Nda’areiete emoheñói hague { -product-firefox-account }, hákatu neremoneĩri.
-verificationReminderFirst-sub-description = Emoneĩ ko’ág̃a ha eguerekóta tembipurupyahu omo’ã ha oñorairõva ne rekorosãrãre, ome’ẽséva marandu iporãva ha opamba’e eikotevẽva.
-confirm-email = Ñandutiveve ñemoneĩ
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Ñandutiveve ñemoneĩ
-verificationReminderSecond-subject = Mandu’arã paha: emyandy ne mba’ete
-verificationReminderSecond-title = ¿Eime gueteri?
-verificationReminderSecond-description-2 = Ohasáma arapokõindy emoheñoihague { -product-firefox-account }, hákatu neremoneĩri. Upévare rojepy’apy nderehe.
-verificationReminderSecond-sub-description = Emoneĩ ñanduti veve emyandy hag̃ua ne mba’ete ha péicha roikuaáta oĩporãmbaha.
-verificationReminderSecond-action = Ñandutiveve ñemoneĩ
-verify-title = Emyandy { -brand-firefox } apopyre aty
-verify-description-plaintext = Emoneĩ ne mba’ete ha eipuruporã { -brand-firefox } eñepyrũvove tembiapo.
+confirm-account = Emoneĩjey mba’ete
+confirm-account-plaintext = { confirm-account }:
 verify-description = Emoneĩ ne mba’ete ha eipuruporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
 verify-subject = Emoheñoimava’erã mba’ete
-verify-action = Ñandutiveve ñemoneĩ
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Tembiapo ñepyrũ pyahu { $clientName } ndive
-verifyLogin-description = Nde rekorosãrã, ikatúpa emoneĩ ko tembiapo ñepyrũ amo mba’e’oka guive:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Emoneĩ jeike pyahu { $clientName }-pe
 verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -619,9 +577,4 @@ verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
 verifySecondaryCode-prompt-2 = Eipuru ko ayvu rechajeyrã:
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Ayvu rechajeyrã: { $code }
-verifyShortCode-title = ¿Ndépa eñemboheguapy?
-verifyShortCode-prompt-2 = Péicharõ, eipuru ko ayvu jehechajeyrã pe ñemboheraguapy myanyhẽhape:
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
