@@ -233,6 +233,10 @@ passwordResetAccountRecovery-action = Emoheñói mba’eñemi jeguerujeyrã pyah
 passwordResetAccountRecovery-regen-required = Emoheñóiva’erã mba’eñemi jeguerujeyrã pyahu.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Emoheñói mba’eñemi jeguerujeyrã pyahu:
+postAddAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã
+postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Oñemoheñói mba’eñemi jeguerujeyrã ko’águi:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = ¿Nderehóipiko?
 postAddAccountRecovery-action = Mba’ete ñangareko
@@ -575,6 +579,9 @@ verify-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
 verify-description = Emoneĩ ne mba’ete ha eipuruporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
 verify-subject = Emoheñoimava’erã mba’ete
 verify-action-2 = Emoneĩjey mba’ete
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = ¿Emoñepyrũ tembiapo { $clientName }-pe?
 verifyLogin-subject-2 = Emoneĩ tembiapo ñepyrũ
 verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
 # Variables:
@@ -599,4 +606,5 @@ verifySecondaryCode-prompt-2 = Eipuru ko ayvu rechajeyrã:
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Emoneĩjey ne mba’ete
+verifyShortCode-prompt-3 = Eipuru ko ayvu ñemoneĩrã:
 verifyShortCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
