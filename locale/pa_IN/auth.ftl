@@ -192,10 +192,13 @@ passwordResetAccountRecovery-action = ਨਵੀਂ ਰਿਕਵਰੀ ਕੁੰ�
 passwordResetAccountRecovery-regen-required = ਤੁਹਾਨੂੰ ਇਕ ਨਵੀਂ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਿਆਰ ਕਰਨ ਦੀ ਲੋੜ ਪਵੇਗੀ।
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = ਨਵੀਂ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਓ:
+postAddAccountRecovery-subject-2 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
+postAddAccountRecovery-title2 = ਤੁਸੀਂ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਹੈ
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = ਨਵੀਂ ਕੁੰਜੀ ਇਸ ਤੋਂ ਬਣਾਈ ਗਈ ਸੀ:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = ਤੁਸੀਂ ਨਹੀਂ ਹੋ?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">ਕੁੰਜੀ ਹਟਾਓ</a> ਅਤੇ <a data-l10n-name="passwordChangeLink">ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ</a>
 postAddAccountRecovery-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postAddAccountRecovery-delete-key = ਨਵੀਂ ਕੁੰਜੀ ਹਟਾਓ:
 postAddAccountRecovery-changd-password = ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ:
@@ -229,12 +232,18 @@ postRemoveTwoStepAuthentication-subject-line = ਦੋ-ਪੜ੍ਹਾਵੀਂ �
 postRemoveTwoStepAuthentication-title = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਅਸਮਰੱਥ ਹੈ
 postRemoveTwoStepAuthentication-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postRemoveTwoStepAuthentication-not-required = ਸੁਰੱਖਿਆ ਕੋਡ ਦੀ ਹੁਣ ਹਰੇਕ ਸਾਈਨ-ਇਨ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਪਵੇਗੀ।
+postVerify-subject-3 = { -brand-firefox } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!
+postVerify-setup-2 = ਹੋਰ ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰੋ:
+postVerify-action-2 = ਹੋਰ ਡਿਵਾਈਸ ਨਾਲ ਕਨੈਕਟ ਕਰੋ
 postVerifySecondary-subject = ਸਹਾਇਕ ਈਮੇਲ ਜੋੜਿਆ ਗਿਆ
 postVerifySecondary-title = ਸਹਾਇਕ ਈਮੇਲ ਜੋੜਿਆ ਗਿਆ
 postVerifySecondary-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 recovery-subject = ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ
 recovery-title-2 = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
 recovery-action = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = ਤੁਹਾਡੀ { $productName } ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਕੀਤਾ ਜਾ ਚੁੱਕਾ ਹੈ
 subscriptionAccountDeletion-title = ਤੁਹਾਡੇ ਛੱਡਣ ਲਈ ਅਫ਼ਸੋਸ ਹੈ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -303,8 +312,22 @@ subscriptionFirstInvoiceDiscount-content-discount = ਛੋਟ: -{ $invoiceDiscou
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount-one-time = ਇੱਕ ਵਾਰ ਲਈ ਛੋਟ: -{ $invoiceDiscountAmount }
 # Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoiceDiscount-content-charge = { $invoiceDateOnly } ਨੂੰ { $invoiceTotal } ਵਸੂਲੇ
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoiceDiscount-content-next-invoice = ਅਗਲਾ ਭੁਗਤਾਨ: { $nextInvoiceDateOnly }
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } ਭੁਗਤਾਨ ਅਸਫ਼ਲ ਹੋਇਆ
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = { $productName } ਆਪਣੇ-ਆਪ ਨਵਿਆਉਣ ਨੋਟਿਸ
+subscriptionRenewalReminder-title = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਨੂੰ ਛੇਤੀ ਹੀ ਨਵਿਆਇਆ ਜਾਵੇਗਾ
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = ਸਤਿਕਾਰਯੋਗ { $productName } ਗਾਹਕ,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } ਟੀਮ
