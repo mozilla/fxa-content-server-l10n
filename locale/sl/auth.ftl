@@ -110,15 +110,8 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = To sporočilo je bilo poslano samodejno. Če svojemu { -product-firefox-account(sklon: "dajalnik") } niste dodali nove naprave, takoj spremenite geslo na { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    To sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni treba storiti ničesar.
-    Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
-automated-email-plaintext = Sporočilo je bilo poslano samodejno. Če ste ga prejeli po pomoti, vam ni potrebno storiti ničesar.
-automated-email-support = { automated-email-plaintext } Za več informacij obiščite <a data-l10n-name="mozillaSupportUrl">Podporo { -brand-mozilla }</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Za več informacij obiščite Podporo { -brand-mozilla }: { $mozillaSupportUrl }.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = To je samodejno sporočilo. Če niste sprožili tega dejanja, spremenite geslo:
 automated-email-reset =
@@ -163,8 +156,8 @@ subscriptionUpdateBillingTry = Plačilo bomo znova poskusili izvesti v naslednji
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingTry-plaintext = Plačilo bomo znova poskusili izvesti v naslednjih dneh, vendar nam boste morda morali pomagati odpraviti težavo tako, da posodobite podatke za plačilo:
 # Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Za več informacij obiščite { $supportUrl }
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Za več informacij obiščite Podporo { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -241,7 +234,13 @@ lowRecoveryCodes-subject =
 newDeviceLogin-subject = Nova prijava v { $clientName }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Nova prijava v { $clientName }
+newDeviceLogin-title-2 = Vaš { -product-firefox-account } je bil uporabljen za prijavo
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Niste bili vi? <a data-l10n-name="passwordChangeLink">Spremenite geslo</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Niste bili vi? Spremenite geslo:
 newDeviceLogin-action = Upravljanje računa
 passwordChanged-subject = Geslo posodobljeno
 passwordChanged-title = Geslo uspešno spremenjeno
@@ -264,12 +263,14 @@ passwordResetAccountRecovery-action = Ustvari nov obnovitveni ključ
 passwordResetAccountRecovery-regen-required = Morali boste ustvariti nov obnovitveni ključ.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Ustvari nov obnovitveni ključ:
-postAddAccountRecovery-subject = Obnovitveni ključ za račun ustvarjen
-postAddAccountRecovery-title = Obnovitveni ključ za račun ustvarjen
-postAddAccountRecovery-description = Uspešno ste ustvarili obnovitveni ključ za svoj { -product-firefox-account } z uporabo naslednje naprave:
+postAddAccountRecovery-subject-2 = Obnovitveni ključ za račun ustvarjen
+postAddAccountRecovery-title2 = Ustvarili ste nov ključ za obnovitev računa
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Niste bili vi?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Izbrišite novi ključ</a> in <a data-l10n-name="passwordChangeLink">spremenite geslo</a>
 postAddAccountRecovery-action = Upravljanje računa
-postAddAccountRecovery-recovery = Če to niste bili vi, <a data-l10n-name="revokeAccountRecoveryLink">kliknite tukaj</a>.
-postAddAccountRecovery-revoke = Če to niste bili vi, razveljavite ključ.
+postAddAccountRecovery-delete-key = Izbrišite novi ključ:
+postAddAccountRecovery-changd-password = Spremenite geslo:
 postAddLinkedAccount-subject = Nov račun je povezan s { -brand-firefox(sklon: "orodnik") }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -312,14 +313,10 @@ postRemoveTwoStepAuthentication-description = Uspešno ste onemogočili overitev
 postRemoveTwoStepAuthentication-description-plaintext = Uspešno ste onemogočili overitev v dveh korakih za svoj { -product-firefox-account }. Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
 postRemoveTwoStepAuthentication-action = Upravljanje računa
 postRemoveTwoStepAuthentication-not-required = Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
-postVerify-sub-title-2 = { -product-firefox-account } je potrjen. Skoraj ste gotovi.
-postVerify-description = Sinhronizacija zasebno usklajuje zaznamke, gesla in druge podatke { -brand-firefox }a na vseh vaših napravah.
-postVerify-subject-2 = Račun potrjen. Sedaj sinhronizirajte drugo napravo, da dokončate nastavitev
-postVerify-setup = Nastavite naslednjo napravo
-postVerify-action = Nastavite naslednjo napravo
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Imate vprašanja? Obiščite { $supportUrl }
+postVerify-sub-title-3 = Veseli nas, da vas vidimo!
+postVerify-subject-3 = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
+postVerify-setup-2 = Povežite drugo napravo:
+postVerify-action-2 = Poveži drugo napravo
 postVerifySecondary-subject = Pomožni e-poštni naslov dodan
 postVerifySecondary-title = Pomožni e-poštni naslov dodan
 # Variables:
@@ -327,8 +324,8 @@ postVerifySecondary-title = Pomožni e-poštni naslov dodan
 postVerifySecondary-content-2 = Uspešno ste potrdili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostna obvestila in potrditve prijav se bodo zdaj pošiljale na oba naslova.
 postVerifySecondary-action = Upravljanje računa
 recovery-subject = Ponastavite vaše geslo
-recovery-title = Morate ponastaviti geslo?
-recovery-description = Kliknite gumb v naslednji uri, da ustvarite novo geslo. Zahteva je bila prejeta z naslednje naprave:
+recovery-title-2 = Ali ste pozabili geslo?
+recovery-new-password-button = Ustvarite novo geslo s klikom na spodnji gumb. Ta povezava bo potekla v naslednji uri.
 recovery-action = Ustvarite novo geslo
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -566,30 +563,8 @@ unblockCode-prompt = Če je tako, je to overitvena koda, ki jo potrebujete:
 unblockCode-prompt-plaintext = Če je tako, je to overitvena koda, ki jo potrebujete: { $unblockCode }
 unblockCode-report = Če to niste vi, nam pomagajte odgnati vsiljivce in <a data-l10n-name="reportSignInLink">nam prijavite poskus zlorabe</a>.
 unblockCode-report-plaintext = Če to niste vi, nam pomagajte odgnati vsiljivce in nam prijavite poskus zlorabe.
-verificationReminderFirst-subject = Opomnik: Dokončajte ustvarjanje računa
-verificationReminderFirst-title = Dobrodošli v družini { -brand-firefox }
-verificationReminderFirst-description = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili.
-verificationReminderFirst-sub-description = Potrdite zdaj in prejmite tehnologijo, ki se bori za vašo zasebnost in jo varuje, ter vas opremlja s praktičnim znanjem in spoštovanjem, ki si ga zaslužite.
-confirm-email = Potrdite e-poštni naslov
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Potrdite e-poštni naslov
-verificationReminderSecond-subject = Zadnji opomnik: Aktivirajte svoj račun
-verificationReminderSecond-title = Ste še tu?
-verificationReminderSecond-description-2 = Pred slabim tednom ste ustvarili { -product-firefox-account }, vendar ga niste nikoli potrdili. Skrbi nas za vas.
-verificationReminderSecond-sub-description = Potrdite ta e-poštni naslov, da omogočite svoj račun in nam sporočite, da ste v redu.
-verificationReminderSecond-action = Potrdite e-poštni naslov
-verify-title = Aktivirajte družino { -brand-firefox }ovih izdelkov
-verify-description-plaintext = Potrdite svoj račun in kar najbolje izkoristite { -brand-firefox } na vseh napravah.
 verify-description = Potrdite svoj račun in kar najbolje izkoristite { -brand-firefox } na vseh napravah, začenši z:
 verify-subject = Dokončajte ustvarjanje računa
-verify-action = Potrdite e-poštni naslov
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Nova prijava v { $clientName }
-verifyLogin-description = Za večjo varnost potrdite to prijavo z naslednje naprave:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Potrdite novo prijavo v { $clientName }
 verifyLogin-action = Potrdite prijavo
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -611,9 +586,4 @@ verifySecondaryCode-action-2 = Potrdi e-poštni naslov
 verifySecondaryCode-explainer = Poslana je bila zahteva za uporabo { $email } kot pomožni e-poštni naslov naslednjega { -product-firefox-account(sklon: "rodilnik") }:
 verifySecondaryCode-prompt-2 = Uporabite to potrditveno kodo:
 verifySecondaryCode-expiry-notice-2 = Poteče čez 5 minut. Ko naslov potrdite, bo začel prejemati varnostna obvestila in potrditve.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Potrditvena koda: { $code }
-verifyShortCode-title = Se prijavljate vi?
-verifyShortCode-prompt-2 = Če je odgovor pritrdilen, v obrazcu za registracijo uporabite to potrditveno kodo:
 verifyShortCode-expiry-notice = Poteče čez 5 minut.
