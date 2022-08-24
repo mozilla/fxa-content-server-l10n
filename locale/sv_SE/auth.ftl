@@ -547,8 +547,15 @@ unblockCode-prompt = Om ja, här behörighetskoden som du behöver:
 unblockCode-prompt-plaintext = Om ja, här är auktoriseringskoden du behöver: { $unblockCode }
 unblockCode-report = Om nej, hjälp oss att avvärja inkräktare och <a data-l10n-name="reportSignInLink">rapportera det till oss</a>.
 unblockCode-report-plaintext = Om nej, hjälp oss att avvärja inkräktare och rapportera detta till oss.
+verificationReminderSecond-action-2 = Bekräfta konto
+verify-title-2 = Öppna internet med { -brand-firefox }
 verify-description = Bekräfta ditt konto och få ut det mesta av { -brand-firefox } överallt du loggar in med:
 verify-subject = Slutför skapande av ditt konto
+verify-action-2 = Bekräfta konto
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Loggade du in på { $clientName }?
+verifyLogin-description-2 = Hjälp oss att hålla ditt konto säkert genom att bekräfta att du har loggat in på:
 verifyLogin-subject-2 = Bekräfta inloggning
 verifyLogin-action = Bekräfta inloggning
 # Variables:
@@ -575,4 +582,7 @@ verifySecondaryCode-expiry-notice-2 = Den upphör efter 5 minuter. När adressen
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Bekräfta ditt konto
 verifyShortCode-title-2 = Öppna internet med { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Bekräfta ditt konto och få ut det mesta av { -brand-firefox } överallt du loggar in med:
+verifyShortCode-prompt-3 = Använd denna bekräftelsekod:
 verifyShortCode-expiry-notice = Den upphör om 5 minuter.
