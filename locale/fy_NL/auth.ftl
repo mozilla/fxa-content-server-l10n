@@ -597,6 +597,9 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Account befêstigje
 verificationReminderSecond-subject-2 = Unthâld om jo account te befêstigjen
 verificationReminderSecond-title-2 = Mis neat fan { -brand-firefox }!
+verificationReminderSecond-description-3 = In pear dagen lyn hawwe jo in { -product-firefox-account } oanmakke, mar hawwe it nea befêstige. Befêstigje jo account binnen de folgjende 10 dagen, oars sil it automatysk fuortsmiten wurde.
+verificationReminderSecond-second-description = Jo { -product-firefox-account } lit jo jo ynfo oer alle apparaten syngronisearje en jout tagong ta mear privacybeskermjende produkten fan { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Wês part fan ús misje om it ynternet te transformearjen nei in plak dat iepen is foar elkenien.
 verificationReminderSecond-action-2 = Account befêstigje
 verify-title-2 = Iepenje it ynternet mei { -brand-firefox }
 verify-description = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-firefox }, te begjinnen mei:
@@ -605,6 +608,7 @@ verify-action-2 = Account befêstigje
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Hawwe jo oanmeld mei { $clientName }?
+verifyLogin-description-2 = Help ús jo account feilich te hâlden troch te befêstigjen dat jo oanmeld binne op:
 verifyLogin-subject-2 = Oanmelding befêstigje
 verifyLogin-action = Oanmelding befêstigje
 # Variables:
