@@ -81,15 +81,8 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = To je awtomatiska e-mejlka; jeli njejsće swojemu kontu{ -product-firefox-account } nowy grat přidał, změńcé prošu hnydom swoje hesło na { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    To je awtomatizowana mejlka; jeli sće ju mylnje dóstał, njetrjebaće ničo činić.
-    Za dalše informacije wopytajće prošu <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>.
-automated-email-plaintext = To je awtomatizowana e-mejlka; jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
-automated-email-support = { automated-email-plaintext } Za dalše informacije wopytajće prošu <a data-l10n-name="mozillaSupportUrl"> pomoc { -brand-mozilla }</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Za dalše informacije wopytajće prošu pomoc { -brand-mozilla }: { $mozillaSupportUrl }.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Za dalše informacije wopytajće <a data-l10n-name="supportLink"> pomoc { -brand-mozilla }</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = To je awtomatiska e-mejlka; jeli njejsće tutu akciju awtorizował, změńće prošu swoje hesło.
 automated-email-reset =
@@ -139,9 +132,6 @@ subscriptionUpdateBillingTry-plaintext = Budźemy pospytować, waše płaćenje 
 subscriptionUpdatePayment = Zo byšće přetorhnjenje swojeje słužby wobešoł, <a data-l10n-name="updateBillingUrl">aktualizujće prošu swoje płaćenske informacije</a> tak bórze kaž móžno.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Zo byšće přetorhnjenje swojeje słužby wobešoł, aktualizujće prošu swoje płaćenske informacije tak bórze kaž móžno:
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Za dalše informacije hlejće { $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -219,9 +209,6 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe přizjewjenje pola { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Nowe přizjewjenje pola { $clientName }
 newDeviceLogin-action = Konto rjadować
 passwordChanged-subject = Hesło je so zaktualizowało
 passwordChanged-title = Hesło je so wuspěšnje změniło
@@ -244,12 +231,15 @@ passwordResetAccountRecovery-action = Nowy wobnowjenski kluč wutworić
 passwordResetAccountRecovery-regen-required = Dyrbiće nowy wobnowjenski kluč wutworić.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Nowy wobnowjenski kluč wutworić:
-postAddAccountRecovery-subject = Kontowy wobnowjenski kluč je so wutworił
-postAddAccountRecovery-title = Kontowy wobnowjenski kluč je so wutworił
-postAddAccountRecovery-description = Sće wuspěšnje nowy wobnowjenski kluč za swoje konto { -product-firefox-account } z pomocu slědowaceho grata wutworił:
+postAddAccountRecovery-subject-2 = Kontowy wobnowjenski kluč je so wutworił
+postAddAccountRecovery-title2 = Sće nowy kontowy wobnowjenski kluč wutworił
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Nowy kluč je so wutworił z:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Njejsće to wy?
 postAddAccountRecovery-action = Konto rjadować
-postAddAccountRecovery-recovery = Jeli wy to njejsće był, <a data-l10n-name="revokeAccountRecoveryLink">klikńće tu.</a>
-postAddAccountRecovery-revoke = Jeli wy to njejsće był, wotwołajće kluč.
+postAddAccountRecovery-delete-key = Zhašejće nowy kluč:
+postAddAccountRecovery-changd-password = Změńće swoje hesło:
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwjazane konto
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -292,15 +282,9 @@ postRemoveTwoStepAuthentication-description = Sće dwukročelowu awtentifikaciju
 postRemoveTwoStepAuthentication-description-plaintext = Sće dwukročelowu awtentifikaciju na swojim konće { -product-firefox-account } wuspěšnje znjemóžnił. Wěstotne kody wotnětka při kóždym přizjewjenju hižo trěbne njejsu.
 postRemoveTwoStepAuthentication-action = Konto rjadować
 postRemoveTwoStepAuthentication-not-required = Wěstotne kody wotnětka při kóždym přizjewjenju hižo trěbne njejsu.
-postVerify-sub-title-2 = Konto { -product-firefox-account } je přepruwowane. Sće nimale hotowy.
-postVerify-title = Přichodna synchronizacija mjez gratami!
-postVerify-description = Priwatna synchronizacija waše zapołožki, hesła a druhe daty { -brand-firefox } na wšěch wašich gratach jenake dźerži.
-postVerify-subject-2 = Konto je přepruwowane. Synchronizujće nětko druhi grat, zo byšće konfiguraciju zakónčił.
-postVerify-setup = Přichodny grat konfigurować
-postVerify-action = Přichodny grat konfigurować
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Maće prašenja? Wopytajće { $supportUrl }
+postVerify-subject-3 = Witajće k { -brand-firefox }!
+postVerify-setup-2 = Z druhim gratom zwjazać:
+postVerify-action-2 = Z druhim gratom zwjazać
 postVerifySecondary-subject = Druha e-mejlowa adresa je so přidała
 postVerifySecondary-title = Druha e-mejlowa adresa je so přidała
 # Variables:
@@ -308,8 +292,7 @@ postVerifySecondary-title = Druha e-mejlowa adresa je so přidała
 postVerifySecondary-content-2 = Sće { $secondaryEmail } jako sekundarnu e-mejlowu adresu za swoje konto { -product-firefox-account } wuspěšnje přepruwował. Wěstotne zdźělenki a přizjewjenske wobkrućenja budu so nětko na wobě e-mejlowej adresy słać.
 postVerifySecondary-action = Konto rjadować
 recovery-subject = Stajće swoje hesło wróćo
-recovery-title = Dyrbiće swoje hesło wróćo stajić?
-recovery-description = Klikńće na tłóčatko wob hodźinu, zo byšće nowe hesło wutworił. Naprašowanje přińdźe wot slědowaceho grata:
+recovery-title-2 = Sće swoje hesło zabył?
 recovery-action = Nowe hesło wutworić
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -580,30 +563,21 @@ unblockCode-prompt = Jeli haj, tu je awtorizowanski kod, kotryž trjebaće:
 unblockCode-prompt-plaintext = Jeli haj, tu je awtorizowanski kod, kotryž trjebaće: { $unblockCode }
 unblockCode-report = Jeli nic, pomhajće nam zadobywarjow wotwobarać a <a data-l10n-name="reportSignInLink">zdźělće nam to.</a>
 unblockCode-report-plaintext = Jeli nic, pomhajće nam zadobywarjow wotwobarać a zdźělće nam to.
-verificationReminderFirst-subject = Dopomnjeće: Dokónčće załoženje swojeho konta
-verificationReminderFirst-title = Witajće k swójbje { -brand-firefox }
-verificationReminderFirst-description = Před někotrymi dnjemi sće konto { -product-firefox-account } załožił, ale nichtó njeje jo wobkrućił.
-verificationReminderFirst-sub-description = Wobkrućće nětko a wobstarajće sej technologiju, kotraž za wašu priwatnosć wojuje a ju škita, was z praktiskej wědu a respekt wuhotuje, kotryž sej zasłuži.
-confirm-email = E-mejlowu adresu wobkrućić
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = E-mejlowu adresu wobkrućić
-verificationReminderSecond-subject = Poslednje dopomnjeće: Aktiwizujće swoje konto
-verificationReminderSecond-title = Sće hišće tu?
-verificationReminderSecond-description-2 = Před nimale jednym tydźenjom sće konto { -product-firefox-account } załožił, ale njejsće jo wobkrućił. Činimy sej starosće wo was.
-verificationReminderSecond-sub-description = Wobkrućće tutu e-mejlowu adresu, zo byšće swoje konto aktiwizował a zdźělće nam, zo wam derje dźe.
-verificationReminderSecond-action = E-mejlowu adresu wobkrućić
-verify-title = Swójbu produktow { -brand-firefox } aktiwizować
-verify-description-plaintext = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-firefox }, wšudźe, hdźež so přizjewjeće.
+confirm-account = Konto wobkrućić
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-title-2 = Witajće k { -brand-firefox }!
+confirm-email-2 = Konto wobkrućić
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Konto wobkrućić
+verificationReminderSecond-action-2 = Konto wobkrućić
+verify-title-2 = Wočińće internet z { -brand-firefox }
 verify-description = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-firefox }, wšudźe, hdźež so přizjewjeće, započinajo z:
 verify-subject = Dokónčće załoženje swojeho konta
-verify-action = E-mejlowu adresu wobkrućić
+verify-action-2 = Konto wobkrućić
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Nowe přizjewjenje pola { $clientName }
-verifyLogin-description = Zo byšće wěstotu powyšił, wobkrućće prošu tute přizjewjenje ze slědowaceho grata:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Nowe přizjewjenje pola { $clientName } wobkrućić
+verifyLogin-title-2 = Sće so pola { $clientName } přizjewił?
+verifyLogin-subject-2 = Přizjewjenje wobkrućić
 verifyLogin-action = Přizjewjenje wobkrućić
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -627,7 +601,9 @@ verifySecondaryCode-prompt-2 = Tutón wobkrućenski kod zapodać:
 verifySecondaryCode-expiry-notice-2 = Spadnje za 5 mjeńšin. Tak ruče kaž je so wobkrućiła, tuta adresa započnje, wěstotne zdźělenki a wobkrućenja dóstawać.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Wobkrućenski kod: { $code }
-verifyShortCode-title = Registrujeće wy?
-verifyShortCode-prompt-2 = Jeli haj, wužiwajće wobkrućenski kod w swojim registrowanskim formularje:
+verifyShortCode-subject-3 = Wobkrućće swoje konto
+verifyShortCode-title-2 = Wočińće internet z { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-firefox }, wšudźe, hdźež so přizjewjeće, započinajo z:
+verifyShortCode-prompt-3 = Tutón wobkrućenski kod zapodać:
 verifyShortCode-expiry-notice = Spadnje za 5 mjeńšin.
