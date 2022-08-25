@@ -297,6 +297,7 @@ postRemoveTwoStepAuthentication-not-required = Vanaf nu zijn bij elke aanmelding
 postVerify-sub-title-3 = We zijn verheugd u te zien!
 postVerify-title-2 = Wilt u hetzelfde tabblad op twee apparaten zien?
 postVerify-description-2 = Dat is makkelijk! Installeer gewoon { -brand-firefox } op een ander apparaat en meld u aan om te synchroniseren. Het is magisch!
+postVerify-subject-3 = Welkom bij { -brand-firefox }!
 postVerifySecondary-subject = Secundair e-mailadres toegevoegd
 postVerifySecondary-title = Secundair e-mailadres toegevoegd
 # Variables:
