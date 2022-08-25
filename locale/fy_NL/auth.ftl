@@ -312,6 +312,8 @@ recovery-title-2 = Jo wachtwurd ferjitten?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Wy hawwe in fersyk ûntfongen foar in wachtwurdwiziging op jo { -product-firefox-account } fan:
+recovery-new-password-button = Meitsje in nij wachtwurd troch te klikken op de knop hjirûnder. Dizze keppeling ferrint binnen it folgjende oere.
+recovery-copy-paste = Meitsje in nij wachtwurd oan troch de URL hjirûnder te kopiearjen en yn jo browser te plakken. Dizze keppeling ferrint binnen it folgjende oere.
 recovery-action = Nij wachtwurd oanmeitsje
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -589,10 +591,12 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Unthâld om jo account te befêstigjen
 verificationReminderFirst-title-2 = Wolkom by { -brand-firefox }!
 verificationReminderFirst-description-2 = In pear dagen lyn hawwe jo in { -product-firefox-account } oanmakke, mar hawwe it nea befêstige. Befêstigje jo account binnen de folgjende 15 dagen, oars sil it automatysk fuortsmiten wurde.
+verificationReminderFirst-sub-description-2 = Mis neat oer tech dy’t jo en jo privacy foarop stelt.
 confirm-email-2 = Account befêstigje
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Account befêstigje
 verificationReminderSecond-subject-2 = Unthâld om jo account te befêstigjen
+verificationReminderSecond-title-2 = Mis neat fan { -brand-firefox }!
 verificationReminderSecond-action-2 = Account befêstigje
 verify-title-2 = Iepenje it ynternet mei { -brand-firefox }
 verify-description = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-firefox }, te begjinnen mei:
