@@ -298,6 +298,8 @@ postVerify-sub-title-3 = We zijn verheugd u te zien!
 postVerify-title-2 = Wilt u hetzelfde tabblad op twee apparaten zien?
 postVerify-description-2 = Dat is makkelijk! Installeer gewoon { -brand-firefox } op een ander apparaat en meld u aan om te synchroniseren. Het is magisch!
 postVerify-subject-3 = Welkom bij { -brand-firefox }!
+postVerify-setup-2 = Nog een apparaat koppelen:
+postVerify-action-2 = Een ander apparaat verbinden
 postVerifySecondary-subject = Secundair e-mailadres toegevoegd
 postVerifySecondary-title = Secundair e-mailadres toegevoegd
 # Variables:
@@ -305,6 +307,7 @@ postVerifySecondary-title = Secundair e-mailadres toegevoegd
 postVerifySecondary-content-2 = U hebt { $secondaryEmail } met succes als secundair e-mailadres voor uw { -product-firefox-account } bevestigd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden nu op beide e-mailadressen afgeleverd.
 postVerifySecondary-action = Account beheren
 recovery-subject = Herinitialiseer uw wachtwoord
+recovery-title-2 = Uw wachtwoord vergeten?
 recovery-action = Nieuw wachtwoord aanmaken
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -575,8 +578,19 @@ unblockCode-prompt = Zo ja, dan is hier de benodigde autorisatiecode:
 unblockCode-prompt-plaintext = Zo ja, dan is hier de benodigde autorisatiecode: { $unblockCode }
 unblockCode-report = Zo nee, help ons dan indringers tegen te houden en <a data-l10n-name="reportSignInLink">meld het aan ons</a>.
 unblockCode-report-plaintext = Zo nee, help ons dan indringers tegen te houden en meld het aan ons.
+verificationReminderFinal-subject = Laatste herinnering om uw account te bevestigen
+confirm-account = Account bevestigen
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-title-2 = Welkom bij { -brand-firefox }!
+confirm-email-2 = Account bevestigen
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Account bevestigen
+verificationReminderSecond-action-2 = Account bevestigen
+verify-title-2 = Open het internet met { -brand-firefox }
 verify-description = Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit { -brand-firefox }, te beginnen met:
 verify-subject = Aanmaken van uw account voltooien
+verify-action-2 = Account bevestigen
+verifyLogin-subject-2 = Aanmelding bevestigen
 verifyLogin-action = Aanmelding bevestigen
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -598,4 +612,11 @@ verifySecondaryCode-action-2 = E-mailadres bevestigen
 verifySecondaryCode-explainer = Er is een aanvraag voor het gebruik van { $email } als tweede e-mailadres gedaan vanaf de volgende { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Gebruik deze bevestigingscode:
 verifySecondaryCode-expiry-notice-2 = Deze verloopt over 5 minuten. Na bevestiging ontvangt dit adres beveiligingsmeldingen en bevestigingen.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Bevestig uw account
+verifyShortCode-title-2 = Open het internet met { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit { -brand-firefox }, te beginnen met:
+verifyShortCode-prompt-3 = Gebruik deze bevestigingscode:
 verifyShortCode-expiry-notice = Deze verloopt over vijf minuten.
