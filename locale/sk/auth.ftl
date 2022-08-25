@@ -685,7 +685,7 @@ verificationReminderSecond-second-description = Váš { -product-firefox-account
 verificationReminderSecond-sub-description-2 = Staňte sa súčasťou nášho poslania premeniť internet na miesto, ktoré je otvorené pre každého.
 verificationReminderSecond-action-2 = Potvrdiť účet
 verify-title-2 = Poďte na internet pomocou { -brand-firefox(case: "gen") }
-verify-description = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefox }u čo najviac, začínajúc s:
+verify-description = Potvrďte svoj účet a vyťažte zo svojho { -brand-firefox(case: "gen") } čo najviac, začínajúc s:
 verify-subject = Dokončite vytváranie svojho účtu
 verify-action-2 = Potvrdiť účet
 # Variables:
