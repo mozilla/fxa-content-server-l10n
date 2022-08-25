@@ -520,6 +520,7 @@ se-remove-email =
 se-refresh-email =
     .title = 刷新邮箱地址
 se-unverified-2 = 未确认
+se-resend-code-2 = 需要验证账户。如果验证邮件不在您的收件箱或垃圾邮件文件夹中，请<button>重新发送验证码</button>。
 # Button to make secondary email the primary
 se-make-primary = 设为主邮箱
 se-default-content = 主邮箱不可用时，用此访问账户。
@@ -555,6 +556,7 @@ tfa-row-change-modal-explain = 此操作无法撤销。
 
 auth-error-102 = 未知账户
 auth-error-103 = 密码错误
+auth-error-105-2 = 无效的验证码
 auth-error-110 = 无效令牌
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -564,6 +566,8 @@ auth-error-110 = 无效令牌
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = 您已尝试太多次，请 { $retryAfter } 后再试。
+auth-error-138-2 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
+auth-error-183-2 = 验证码无效或已过期
 auth-error-1008 = 新旧密码不能相同
