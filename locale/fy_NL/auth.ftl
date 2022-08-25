@@ -81,15 +81,9 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Dit is in automatisearre e-mailberjocht; as jo gjin nij apparaat oan jo { -product-firefox-account } tafoege hawwe, moatte jo daliks jo wachtwurd te wizigjen op { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Dit is in automatisearre e-mailberjocht; as jo it ûnrjochtlik ûntfongen hawwe, hoege jo neat te dwaan.
-    Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
-automated-email-plaintext = Dit is in automatysk e-mailberjocht; as jo it troch fersin ûntfongen hawwe, hoege jo neat te dwaan.
-automated-email-support = { automated-email-plaintext } Mear ynformaasje op <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla }-Stipe</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Mear ynformaasje op { -brand-mozilla }-Stipe: { $mozillaSupportUrl }.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-no-action-plaintext = Dit is in automatisearre berjocht. As jo it mei fersin ûntfongen hawwe, hoege jo neat te dwaan.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, wizigje dan jo wachtwurd:
 automated-email-reset =
@@ -140,8 +134,8 @@ subscriptionUpdatePayment = Wurkje sa gau as mooglik <a data-l10n-name="updateBi
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Wurkje sa gau as mooglik jo betellingsgegevens by om ûnderbrekking fan jo service foar te kommen:
 # Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Besykje { $supportUrl } foar mear ynformaasje
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Gean foar mear ynformaasje nei { -brand-mozilla } Support: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -219,7 +213,13 @@ lowRecoveryCodes-subject =
 newDeviceLogin-subject = Nije oanmelding by { $clientName }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Nije oanmelding by { $clientName }
+newDeviceLogin-title-2 = Jo { -product-firefox-account } is brûkt om oan te melden
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Wiene jo dit net? <a data-l10n-name="passwordChangeLink">Wizigje jo wachtwurd</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Wiene jo dit net? Wizigje jo wachtwurd:
 newDeviceLogin-action = Account beheare
 passwordChanged-subject = Wachtwurd bywurke
 passwordChanged-title = Wachtwurd mei sukses wizige
@@ -242,12 +242,16 @@ passwordResetAccountRecovery-action = Nije werstelkaai generearje
 passwordResetAccountRecovery-regen-required = Jo moatte in nije werstelkaai generearje.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Nije werstelkaai generearje:
-postAddAccountRecovery-subject = Kaai foar accountwerstel generearre
-postAddAccountRecovery-title = Kaai foar accountwerstel generearre
-postAddAccountRecovery-description = Jo hawwe mei sukses in kaai foar accountwerstel foar jo { -product-firefox-account } generearre fia it folgjende apparaat:
+postAddAccountRecovery-subject-2 = Kaai foar accountwerstel oanmakke
+postAddAccountRecovery-title2 = Jo hawwe in nije kaai foar accountwerstel oanmakke
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Der is in nije kaai makke op basis fan:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Binne jo dit net?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Smyt de nije kaai fuort</a> en <a data-l10n-name="passwordChangeLink">wizigje jo wachtwurd</a>
 postAddAccountRecovery-action = Account beheare
-postAddAccountRecovery-recovery = As jo dit net dien hawwe, <a data-l10n-name="revokeAccountRecoveryLink">klik dan hjir.</a>
-postAddAccountRecovery-revoke = As jo dit net dien hawwe, lûk dan de kaai yn.
+postAddAccountRecovery-delete-key = Smyt de nije kaai fuort:
+postAddAccountRecovery-changd-password = Wizigje jo wachtwurd:
 postAddLinkedAccount-subject = Nije account keppele oan { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -290,15 +294,13 @@ postRemoveTwoStepAuthentication-description = Jo hawwe fan it folgjende apparaat
 postRemoveTwoStepAuthentication-description-plaintext = Jo hawwe mei sukses twa-staps autentikaasje op jo { -product-firefox-account } útskeakele. Feilichheidskoaden sille by elke oanmelding net langer nedich wêze.
 postRemoveTwoStepAuthentication-action = Account beheare
 postRemoveTwoStepAuthentication-not-required = Feilichheidskoaden sille by elke oanmelding net langer nedich wêze.
-postVerify-sub-title-2 = { -product-firefox-account } befêstige. Jo binne hast klear.
-postVerify-title = It folgjende: syngronisearje tusken jo apparaten!
-postVerify-description = Sync hâldt op persoanlike wize jo blêdwizers, wachtwurden en oare { -brand-firefox }-gegevens op al jo apparaten itselde.
-postVerify-subject-2 = Account befêstige. Syngronisearje as folgjende stap in oar apparaat om it ynstellen te foltôgjen
-postVerify-setup = It folgjende apparaat ynstelle
-postVerify-action = It folgjende apparaat ynstelle
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Hawwe jo fragen? Besykje { $supportUrl }
+postVerify-sub-title-3 = Wy binne bliid jo te sjen!
+postVerify-title-2 = Wolle jo itselde ljepblêd op twa apparaten sjen?
+postVerify-description-2 = Dat is maklik! Ynstallearje gewoanwei { -brand-firefox } op in oar apparaat en meld jo oan om te syngronisearjen. It is magysk!
+postVerify-sub-description = (Psst… It betsjut ek dat jo jo blêdwizers, wachtwurden en oare { -brand-firefox }-gegevens oeral krije kinne wêr't jo oanmeld binne.)
+postVerify-subject-3 = Wolkom by { -brand-firefox }!
+postVerify-setup-2 = Noch in apparaat keppelje:
+postVerify-action-2 = In oar apparaat ferbine
 postVerifySecondary-subject = Twadde e-mailadres tafoege
 postVerifySecondary-title = Twadde e-mailadres tafoege
 # Variables:
@@ -306,8 +308,10 @@ postVerifySecondary-title = Twadde e-mailadres tafoege
 postVerifySecondary-content-2 = Jo hawwe { $secondaryEmail } mei sukses as sekundêr e-mailadres foar jo { -product-firefox-account } befêstige. Befeiligingsmeldingen en oanmeldingsbefêstigingen wurde no op beide adressen ôflevere.
 postVerifySecondary-action = Account beheare
 recovery-subject = Wachtwurd werinisjalisearje
-recovery-title = Moatte jo jo wachtwurd opnij ynstelle?
-recovery-description = Klik binnen in oer op de knop om in nij wachtwurd oan te meitsjen. De oanfraach is ôfkomstich fan it folgjende apparaat:
+recovery-title-2 = Jo wachtwurd ferjitten?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Wy hawwe in fersyk ûntfongen foar in wachtwurdwiziging op jo { -product-firefox-account } fan:
 recovery-action = Nij wachtwurd oanmeitsje
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -578,30 +582,24 @@ unblockCode-prompt = As ja, dan is hjir de autorisaasjekoade dy’t jo nedich ha
 unblockCode-prompt-plaintext = As ja, dan is hjir de nedige autorisaasjekoade: { $unblockCode }
 unblockCode-report = As nee, help ús ynkringers tsjin te hâlden en <a data-l10n-name="reportSignInLink">meld it oan ús.</a>
 unblockCode-report-plaintext = As nee, help ús ynkringers tsjin te hâlden en rapportearje it oan ús.
-verificationReminderFirst-subject = Oantinken: foltôgje it oanmeitsjen fan jo account
-verificationReminderFirst-title = Wolkom by de { -brand-firefox }-famylje
-verificationReminderFirst-description = Jo hawwe inkelde dagen lyn in { -product-firefox-account } oanmakke, mar dit nea befêstige.
-verificationReminderFirst-sub-description = Befêstigje no en ûntfang technology dy’t foar jo privacy fjochtte en dizze beskermet, jo fersterket mei praktyske kennis en jo it respekt jout dat jo fertsjinje.
-confirm-email = E-mailadres befêstigje
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = E-mailadres befêstigje
-verificationReminderSecond-subject = Lêste oantinken: aktivearje jo account
-verificationReminderSecond-title = Binne jo der noch?
-verificationReminderSecond-description-2 = Jo hawwe hast in wike lyn hawwe in { -product-firefox-account } oanmakke, mar nea befêstige. Wy meitsje ús soargen oer jo.
-verificationReminderSecond-sub-description = Befêstigje dit e-mailadres om jo account te aktivearjen en lit ús witte dat it jo goed giet.
-verificationReminderSecond-action = E-mailadres befêstigje
-verify-title = Aktivearje de { -brand-firefox }-produktfamylje
-verify-description-plaintext = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-firefox }.
+verificationReminderFinal-subject = Lêste omtinken om jo account te befêstigjen
+confirm-account = Account befêstigje
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Unthâld om jo account te befêstigjen
+verificationReminderFirst-title-2 = Wolkom by { -brand-firefox }!
+confirm-email-2 = Account befêstigje
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Account befêstigje
+verificationReminderSecond-subject-2 = Unthâld om jo account te befêstigjen
+verificationReminderSecond-action-2 = Account befêstigje
+verify-title-2 = Iepenje it ynternet mei { -brand-firefox }
 verify-description = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-firefox }, te begjinnen mei:
 verify-subject = Oanmeitsjen fan jo account foltôgje
-verify-action = E-mailadres befêstigje
+verify-action-2 = Account befêstigje
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Nije oanmelding by { $clientName }
-verifyLogin-description = Befêstigje dizze oanmelding fan it folgjende apparaat ôf foar ekstra befeiliging:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Nije oanmelding by { $clientName } befêstigje
+verifyLogin-title-2 = Hawwe jo oanmeld mei { $clientName }?
+verifyLogin-subject-2 = Oanmelding befêstigje
 verifyLogin-action = Oanmelding befêstigje
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -625,7 +623,9 @@ verifySecondaryCode-prompt-2 = Brûk dizze befêstigingskoade:
 verifySecondaryCode-expiry-notice-2 = Dizze ferrint oer 5 minuten. Nei befêstiging ûntfangt dit adres befeiligingsmeldingen en befêstigingen.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Befêstigingskoade: { $code }
-verifyShortCode-title = Is dit jo registraasje?
-verifyShortCode-prompt-2 = Sa ja, brûk dan dizze befêstigingskoade yn jo registraasjeformulier:
+verifyShortCode-subject-3 = Befêstigje jo account
+verifyShortCode-title-2 = Iepenje it ynternet mei { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-firefox }, te begjinnen mei:
+verifyShortCode-prompt-3 = Brûk dizze befêstigingskoade:
 verifyShortCode-expiry-notice = Dizze ferrin oer fiif minuten.
