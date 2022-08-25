@@ -133,6 +133,9 @@ subscriptionUpdatePayment = Zo byšće přetorhnjenje swojeje słužby wobešoł
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Zo byšće přetorhnjenje swojeje słužby wobešoł, aktualizujće prošu swoje płaćenske informacije tak bórze kaž móžno:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Za dalše informacije wopytajće pomoc { -brand-mozilla }: { $supportUrl }
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -237,6 +240,7 @@ postAddAccountRecovery-title2 = Sće nowy kontowy wobnowjenski kluč wutworił
 postAddAccountRecovery-description-2 = Nowy kluč je so wutworił z:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Njejsće to wy?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Zhašejće nowy kluč</a> a <a data-l10n-name="passwordChangeLink">změńće swoje hesło</a>
 postAddAccountRecovery-action = Konto rjadować
 postAddAccountRecovery-delete-key = Zhašejće nowy kluč:
 postAddAccountRecovery-changd-password = Změńće swoje hesło:
@@ -282,6 +286,7 @@ postRemoveTwoStepAuthentication-description = Sće dwukročelowu awtentifikaciju
 postRemoveTwoStepAuthentication-description-plaintext = Sće dwukročelowu awtentifikaciju na swojim konće { -product-firefox-account } wuspěšnje znjemóžnił. Wěstotne kody wotnětka při kóždym přizjewjenju hižo trěbne njejsu.
 postRemoveTwoStepAuthentication-action = Konto rjadować
 postRemoveTwoStepAuthentication-not-required = Wěstotne kody wotnětka při kóždym přizjewjenju hižo trěbne njejsu.
+postVerify-title-2 = Chceće samsny rajtark na dwěmaj gratomaj widźeć?
 postVerify-subject-3 = Witajće k { -brand-firefox }!
 postVerify-setup-2 = Z druhim gratom zwjazać:
 postVerify-action-2 = Z druhim gratom zwjazać
