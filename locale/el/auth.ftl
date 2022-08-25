@@ -115,15 +115,8 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· αν δεν προσθέσατε μια νέα συσκευή στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας, πρέπει να αλλάξετε άμεσα στον κωδικό πρόσβασής σας στο { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
-    Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
-automated-email-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· αν το λάβατε κατά λάθος, δεν απαιτείται καμία περαιτέρω ενέργεια.
-automated-email-support = { automated-email-plaintext } Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="mozillaSupportUrl">Υποστήριξη { -brand-mozilla }</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την Υποστήριξη { -brand-mozilla }: { $mozillaSupportUrl }.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· εάν δεν εγκρίνατε εσείς αυτήν την ενέργεια, τότε παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας:
 automated-email-reset =
@@ -174,8 +167,8 @@ subscriptionUpdatePayment = Για να αποτρέψετε τυχόν διακ
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Για να αποτρέψετε τυχόν διακοπές στην υπηρεσία σας, παρακαλούμε ενημερώστε τα στοιχεία πληρωμών σας το συντομότερο δυνατό:
 # Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε το { $supportUrl }
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Για περισσότερες πληροφορίες, επισκεφτείτε την Υποστήριξη { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -248,9 +241,6 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Νέα σύνδεση στο { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Νέα σύνδεση στο { $clientName }
 newDeviceLogin-action = Διαχείριση λογαριασμού
 passwordChanged-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordChanged-title = Επιτυχής αλλαγή κωδικού πρόσβασης
@@ -273,12 +263,9 @@ passwordResetAccountRecovery-action = Δημιουργία νέου κλειδι
 passwordResetAccountRecovery-regen-required = Θα πρέπει να δημιουργήσετε ένα νέο κλειδί ανάκτησης.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Δημιουργία νέου κλειδιού ανάκτησης:
-postAddAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
-postAddAccountRecovery-title = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
-postAddAccountRecovery-description = Έχετε δημιουργήσει επιτυχώς ένα κλειδί ανάκτησης για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας από την ακόλουθη συσκευή:
+postAddAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
+postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
 postAddAccountRecovery-action = Διαχείριση λογαριασμού
-postAddAccountRecovery-recovery = Αν δεν το κάνατε εσείς, <a data-l10n-name="revokeAccountRecoveryLink">κάντε κλικ εδώ</a>.
-postAddAccountRecovery-revoke = Αν δεν το κάνατε εσείς, ανακαλέστε το κλειδί.
 postAddLinkedAccount-subject = Συνδέθηκε νέος λογαριασμός με το { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -321,15 +308,9 @@ postRemoveTwoStepAuthentication-description = Έχετε απενεργοποι�
 postRemoveTwoStepAuthentication-description-plaintext = Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Δεν θα απαιτείται πλέον κωδικός ασφαλείας σε κάθε σύνδεση.
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-not-required = Δεν θα απαιτούνται πλέον κωδικοί ασφαλείας σε κάθε σύνδεση.
-postVerify-sub-title-2 = Ο { -product-firefox-account(case: "nom", capitalization: "lower") } επιβεβαιώθηκε. Σχεδόν τελειώσατε.
-postVerify-title = Έπειτα, κάντε συγχρονισμό μεταξύ των συσκευών σας!
-postVerify-description = Ο ιδιωτικός συγχρονισμός διατηρεί ίδιους τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα του { -brand-firefox }, σε όλες τις συσκευές σας.
-postVerify-subject-2 = Ο λογαριασμός επιβεβαιώθηκε. Έπειτα, συγχρονίστε μια άλλη συσκευή για να ολοκληρώσετε τη ρύθμιση
-postVerify-setup = Ρύθμιση επόμενης συσκευής
-postVerify-action = Ρύθμιση επόμενης συσκευής
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Έχετε ερωτήσεις; Επισκεφθείτε το { $supportUrl }
+postVerify-subject-3 = Καλώς ορίσατε στο { -brand-firefox }!
+postVerify-setup-2 = Σύνδεση άλλης συσκευής:
+postVerify-action-2 = Σύνδεση άλλης συσκευής
 postVerifySecondary-subject = Προστέθηκε δευτερεύον email
 postVerifySecondary-title = Προστέθηκε δευτερεύον email
 # Variables:
@@ -337,8 +318,7 @@ postVerifySecondary-title = Προστέθηκε δευτερεύον email
 postVerifySecondary-content-2 = Έχετε επιβεβαιώσει επιτυχώς το { $secondaryEmail } ως δευτερεύον email για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης θα αποστέλλονται πλέον και στις δύο διευθύνσεις email.
 postVerifySecondary-action = Διαχείριση λογαριασμού
 recovery-subject = Επαναφορά κωδικού πρόσβασης
-recovery-title = Πρέπει να επαναφέρετε τον κωδικό πρόσβασής σας;
-recovery-description = Κάντε κλικ στο κουμπί μέσα στην επόμενη ώρα για να δημιουργήσετε έναν νέο κωδικό πρόσβασης. Το αίτημα ήρθε από την ακόλουθη συσκευή:
+recovery-title-2 = Ξεχάσατε τον κωδικό πρόσβασής σας;
 recovery-action = Δημιουργία νέου κωδικού πρόσβασης
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -609,30 +589,19 @@ unblockCode-prompt = Αν ναι, ορίστε ο κωδικός ταυτοπο�
 unblockCode-prompt-plaintext = Αν ναι, ορίστε ο κωδικός ταυτοποίησης που χρειάζεστε: { $unblockCode }
 unblockCode-report = Αν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και <a data-l10n-name="reportSignInLink">αναφέρετέ το σε εμάς</a>.
 unblockCode-report-plaintext = Αν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και αναφέρετέ το σε εμάς.
-verificationReminderFirst-subject = Υπενθύμιση: Ολοκληρώστε τη δημιουργία του λογαριασμού σας
-verificationReminderFirst-title = Καλώς ορίσατε στην οικογένεια { -brand-firefox }
-verificationReminderFirst-description = Πριν από λίγες ημέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") }, αλλά δεν κάνατε ποτέ επιβεβαίωση.
-verificationReminderFirst-sub-description = Κάντε τώρα επιβεβαίωση για να αποκτήστε την τεχνολογία που μάχεται για το απόρρητό σας, σας εξοπλίζει με πρακτικές γνώσεις και σας σέβεται όπως σας αξίζει.
-confirm-email = Επιβεβαίωση email
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Επιβεβαίωση email
-verificationReminderSecond-subject = Τελική υπενθύμιση: Ενεργοποιήστε τον λογαριασμό σας
-verificationReminderSecond-title = Είστε ακόμα εκεί;
-verificationReminderSecond-description-2 = Σχεδόν πριν από μία εβδομάδα, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Ανησυχούμε για εσάς.
-verificationReminderSecond-sub-description = Επιβεβαιώστε αυτήν τη διεύθυνση email για να ενεργοποιήσετε τον λογαριασμό σας και να μας ενημερώσετε ότι είστε εντάξει.
-verificationReminderSecond-action = Επιβεβαίωση email
-verify-title = Ενεργοποιήστε την οικογένεια των προϊόντων { -brand-firefox }
-verify-description-plaintext = Επιβεβαιώστε τον λογαριασμό σας και αξιοποιήστε στο έπακρο το { -brand-firefox }, όπου κι αν συνδεθείτε.
+confirm-account = Επιβεβαίωση λογαριασμού
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Θυμηθείτε να επιβεβαιώσετε τον λογαριασμό σας
+verificationReminderFirst-title-2 = Καλώς ορίσατε στο { -brand-firefox }!
+confirm-email-2 = Επιβεβαίωση λογαριασμού
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Επιβεβαίωση λογαριασμού
+verificationReminderSecond-subject-2 = Θυμηθείτε να επιβεβαιώσετε τον λογαριασμό σας
+verificationReminderSecond-action-2 = Επιβεβαίωση λογαριασμού
 verify-description = Επιβεβαιώστε τον λογαριασμό σας και αξιοποιήστε στο έπακρο το { -brand-firefox }, όπου κι αν συνδεθείτε, ξεκινώντας με:
 verify-subject = Ολοκληρώστε τη δημιουργία του λογαριασμού σας
-verify-action = Επιβεβαίωση email
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Νέα σύνδεση στο { $clientName }
-verifyLogin-description = Για επιπρόσθετη ασφάλεια, παρακαλούμε επιβεβαιώστε αυτήν τη σύνδεση από την ακόλουθη συσκευή:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Επιβεβαίωση νέας σύνδεσης στο { $clientName }
+verify-action-2 = Επιβεβαίωση λογαριασμού
+verifyLogin-subject-2 = Επιβεβαίωση σύνδεσης
 verifyLogin-action = Επιβεβαίωση εισόδου
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -652,9 +621,4 @@ verifySecondaryCode-action-2 = Επιβεβαίωση email
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Έχει υποβληθεί ένα αίτημα για τη χρήση του { $email } ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο { -product-firefox-account(case: "acc", capitalization: "lower") }:
 verifySecondaryCode-prompt-2 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Κωδικός επιβεβαίωσης: { $code }
-verifyShortCode-title = Κάνετε εσείς εγγραφή;
-verifyShortCode-prompt-2 = Εάν ναι, χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης στη φόρμα εγγραφής σας:
 verifyShortCode-expiry-notice = Λήγει σε 5 λεπτά.
