@@ -583,10 +583,12 @@ unblockCode-prompt-plaintext = As ja, dan is hjir de nedige autorisaasjekoade: {
 unblockCode-report = As nee, help ús ynkringers tsjin te hâlden en <a data-l10n-name="reportSignInLink">meld it oan ús.</a>
 unblockCode-report-plaintext = As nee, help ús ynkringers tsjin te hâlden en rapportearje it oan ús.
 verificationReminderFinal-subject = Lêste omtinken om jo account te befêstigjen
+verificationReminderFinal-description = In pear wiken lyn hawwe jo in { -product-firefox-account } oanmakke, mar jo hawwe it nea befêstige. Foar jo feilichheid sille wy dizze account fuortsmite as it net yn binnen folgjende 24 oeren ferifiearre is.
 confirm-account = Account befêstigje
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Unthâld om jo account te befêstigjen
 verificationReminderFirst-title-2 = Wolkom by { -brand-firefox }!
+verificationReminderFirst-description-2 = In pear dagen lyn hawwe jo in { -product-firefox-account } oanmakke, mar hawwe it nea befêstige. Befêstigje jo account binnen de folgjende 15 dagen, oars sil it automatysk fuortsmiten wurde.
 confirm-email-2 = Account befêstigje
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Account befêstigje
