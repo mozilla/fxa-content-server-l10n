@@ -495,7 +495,7 @@ rk-action-create = Crea
 rk-action-remove = Rimuovi
 rk-cannot-refresh = Si è verificato un problema durante l’aggiornamento della chiave di recupero.
 rk-key-removed-2 = Eliminata chiave di recupero account
-rk-cannot-remove-key = La chiave di recupero dell’account non può essere rimossa.
+rk-cannot-remove-key = Non è possibile rimuovere la chiave di recupero per l’account.
 rk-refresh-key = Aggiorna chiave di recupero
 rk-content-explain = Ripristina i dati in caso di password dimenticata.
 rk-content-reset-data = Perché, reimpostando la password, anche i dati vengono ripristinati?
@@ -505,7 +505,7 @@ rk-remove-modal-content =
     Nel caso in cui tu abbia reimpostato la password, non potrai
     utilizzare la chiave di recupero per accedere ai tuoi dati. Questa azione è irreversibile.
 rk-refresh-error = Si è verificato un problema durante l’aggiornamento della chiave di recupero.
-rk-remove-error-2 = La chiave di recupero dell’account non può essere rimossa
+rk-remove-error-2 = Non è possibile rimuovere la chiave di recupero per l’account.
 
 ## Secondary email sub-section on main Settings page
 
