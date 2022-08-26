@@ -308,6 +308,7 @@ postRemoveTwoStepAuthentication-description = Έχετε απενεργοποι�
 postRemoveTwoStepAuthentication-description-plaintext = Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Δεν θα απαιτείται πλέον κωδικός ασφαλείας σε κάθε σύνδεση.
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-not-required = Δεν θα απαιτούνται πλέον κωδικοί ασφαλείας σε κάθε σύνδεση.
+postVerify-title-2 = Θέλετε να δείτε την ίδια καρτέλα σε δύο συσκευές;
 postVerify-subject-3 = Καλώς ορίσατε στο { -brand-firefox }!
 postVerify-setup-2 = Σύνδεση άλλης συσκευής:
 postVerify-action-2 = Σύνδεση άλλης συσκευής
