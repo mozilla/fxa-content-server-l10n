@@ -85,6 +85,8 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Questa email è stata inviata da un servizio automatico. Se non sei stato tu ad aggiungere un nuovo dispositivo all’{ -product-firefox-account }, cambia subito la password utilizzando il link { $passwordChangeLink }
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Per ulteriori informazioni, visita il <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Questo messaggio è stato inviato da un servizio automatico. Se non sei stato tu ad autorizzare questa operazione, modifica la password per proteggere il tuo account.
 automated-email-reset =
