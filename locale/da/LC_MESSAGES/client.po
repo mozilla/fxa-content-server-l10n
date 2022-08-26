@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Accounts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-22 16:33+0000\n"
+"POT-Creation-Date: 2022-08-26 04:39+0000\n"
 "PO-Revision-Date: 2022-08-19 14:10+0000\n"
 "Last-Translator: Mikkel Herold <mikkel@mzh.dk>\n"
 "Language-Team: MozillaDanmark\n"
@@ -105,7 +105,7 @@ msgstr "Forbundet"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Ukendt konto. <a href=\"/signup\">Tilmeld dig</a>"
 
-#: .es5/views/sign_up_password.js:86
+#: .es5/views/sign_up_password.js:85
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontoen findes ikke længere. Vil du oprette en ny konto?"
 
@@ -177,11 +177,11 @@ msgstr "Åbn Outlook"
 msgid "Open Restmail"
 msgstr "Åbn Restmail"
 
-#: .es5/views/mixins/password-mixin.js:149
+#: .es5/views/mixins/password-mixin.js:152 .es5/views/mixins/password-mixin.js:153
 msgid "Hide password"
 msgstr "Skjul adgangskode"
 
-#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:175 .es5/views/mixins/password-mixin.js:176 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Vis adgangskode"
 
@@ -1517,8 +1517,8 @@ msgid "Repeat password"
 msgstr "Gentag adgangskode"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Du skal bruge denne adgangskode for at få adgang til de krypterede data, du gemmer hos os.<br/>En nulstilling kan medføre tab af data som fx adgangskoder og bogmærker."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1940,8 +1940,8 @@ msgid "Not a commonly used password"
 msgstr "Ikke en almindeligt brugt adgangskode"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr "Beskyt dig selv &mdash; genbrug ikke adgangskoder. Læs mere om, hvordan du <a %(escapedCommonPasswordLinkAttrs)s>opretter stærke adgangskoder</a>."
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
+msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -2062,8 +2062,8 @@ msgid "Pairing was successful."
 msgstr "Parring lykkedes."
 
 #: .es5/templates/pair/supp_allow.mustache:1
-msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr "Bekræft parring <small>for %(email)s</small>"
+msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
+msgstr ""
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"

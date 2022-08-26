@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-22 16:33+0000\n"
+"POT-Creation-Date: 2022-08-26 04:39+0000\n"
 "PO-Revision-Date: 2022-08-22 21:31+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgstr "З'єднано"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Невідомий обліковий запис. <a href=\"/signup\">Зареєструватись</a>"
 
-#: .es5/views/sign_up_password.js:86
+#: .es5/views/sign_up_password.js:85
 msgid "Account no longer exists. Recreate it?"
 msgstr "Обліковий запис більше не існує. Повторно створити його?"
 
@@ -177,11 +177,11 @@ msgstr "Відкрити Outlook"
 msgid "Open Restmail"
 msgstr "Відкрити Restmail"
 
-#: .es5/views/mixins/password-mixin.js:149
+#: .es5/views/mixins/password-mixin.js:152 .es5/views/mixins/password-mixin.js:153
 msgid "Hide password"
 msgstr "Сховати пароль"
 
-#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:175 .es5/views/mixins/password-mixin.js:176 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Показати пароль"
 
@@ -843,7 +843,9 @@ msgid "Invalid Token"
 msgstr "Недійсний токен"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Продовжуючи, ви погоджуєтеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами використання</a> та <a id=\"service-pp\" href=\"%(privacyUri)s\">Повідомленням про приватність</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -914,7 +916,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Введіть свій одноразовий ключ відновлення, щоб поновити доступ до облікового запису Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">ПРИМІТКА:</span> Якщо ви відновите пароль без ключа відновлення, деякі дані можуть бути стерті (включаючи історію перегляду й закладки)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1162,7 +1165,8 @@ msgid "Password"
 msgstr "Пароль"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 "Продовжуючи, ви погоджуєтесь з <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Повідомленням "
 "про приватність</a>."
@@ -1373,8 +1377,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>ПРИМІТКА:</span> При відновленні пароля ви скидаєте свій обліковий запис. Ви можете втратити деякі особисті дані, включно з історією, закладками та паролями. Це пов'язано з тим, що ми шифруємо"
-" дані за допомогою пароля для захисту вашої приватності. Усі ваші передплати буде збережено. На дані Pocket це теж не вплине."
+"<span>ПРИМІТКА:</span> При відновленні пароля ви скидаєте свій обліковий запис. Ви можете втратити деякі особисті дані, включно з історією, закладками та паролями. Це пов'язано з тим, що ми "
+"шифруємо дані за допомогою пароля для захисту вашої приватності. Усі ваші передплати буде збережено. На дані Pocket це теж не вплине."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1432,14 +1436,17 @@ msgstr "Ця адреса електронної пошти вам більше 
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              Продовжуючи, ви приймаєте:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Умови надання послуги</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Положення про приватність</a> Pocket<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положення про приватність</a> Firefox.\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Умови надання послуги</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/"
+"privacy/\">Положення про приватність</a> Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положення про приватність</a> "
+"Firefox.\n"
 "              "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1511,8 +1518,8 @@ msgid "Repeat password"
 msgstr "Повторити пароль"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Цей пароль необхідний для доступу до будь-яких зашифрованих даних, що зберігаються в нас.<br/>Відновлення означає потенційну втрату даних, наприклад, паролів та закладок."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1530,14 +1537,17 @@ msgstr "Створити обліковий запис"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Продовжуючи, ви приймаєте:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Положення про приватність</a> Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положення про приватність</a> Firefox.\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Положення про приватність</a> Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положення про приватність</a> "
+"Firefox.\n"
 "          "
 
 #: .es5/templates/support.mustache:1
@@ -1934,8 +1944,8 @@ msgid "Not a commonly used password"
 msgstr "Не часто використовуваний пароль"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr "Будьте в безпеці &mdash; не використовуйте паролі повторно. Перегляньте додаткові поради щодо <a %(escapedCommonPasswordLinkAttrs)s>створення надійних паролів</a>."
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
+msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -2056,8 +2066,8 @@ msgid "Pairing was successful."
 msgstr "Створення пари пройшло успішно."
 
 #: .es5/templates/pair/supp_allow.mustache:1
-msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr "Підтвердити зв'язок <small>для %(email)s</small>"
+msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
+msgstr ""
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"

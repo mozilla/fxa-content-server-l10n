@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-22 16:33+0000\n"
+"POT-Creation-Date: 2022-08-26 04:39+0000\n"
 "PO-Revision-Date: 2022-03-25 08:20+0000\n"
 "Last-Translator: Martin <mcmartin@gmx.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgstr "Connectà"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Conto nunenconuschent. <a href=\"/signup\">S'annunziar</a>"
 
-#: .es5/views/sign_up_password.js:86
+#: .es5/views/sign_up_password.js:85
 msgid "Account no longer exists. Recreate it?"
 msgstr "Il conto n'exista betg pli. Crear danovamain?"
 
@@ -177,11 +177,11 @@ msgstr "Avrir Outlook"
 msgid "Open Restmail"
 msgstr "Avrir Restmail"
 
-#: .es5/views/mixins/password-mixin.js:149
+#: .es5/views/mixins/password-mixin.js:152 .es5/views/mixins/password-mixin.js:153
 msgid "Hide password"
 msgstr "Zuppentar il pled-clav"
 
-#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:175 .es5/views/mixins/password-mixin.js:176 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Mussar il pled-clav"
 
@@ -1508,8 +1508,8 @@ msgid "Repeat password"
 msgstr "Repeter il pled-clav"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Ti dovras quest pled-clav per acceder a las datas criptadas che ti memoriseschas cun nus.<br/>Ina reinizialisaziun po muntar che datas sco pleds-clav e segnapaginas van a perder."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1929,7 +1929,7 @@ msgid "Not a commonly used password"
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
@@ -2048,8 +2048,8 @@ msgid "Pairing was successful."
 msgstr "Associà cun success."
 
 #: .es5/templates/pair/supp_allow.mustache:1
-msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr "Confirmar l'associaziun <small>per %(email)s</small>"
+msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
+msgstr ""
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"

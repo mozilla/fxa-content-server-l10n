@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-22 16:33+0000\n"
-"PO-Revision-Date: 2022-08-12 11:58+0000\n"
-"Last-Translator: Felicia Jongleur <felicia.jongleur@gmail.com>\n"
+"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"PO-Revision-Date: 2022-08-22 18:53+0000\n"
+"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -105,7 +105,7 @@ msgstr "Ansluten"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Okänt konto. <a href=\"/signup\">Registrera dig</a>"
 
-#: .es5/views/sign_up_password.js:86
+#: .es5/views/sign_up_password.js:85
 msgid "Account no longer exists. Recreate it?"
 msgstr "Kontot existerar inte längre. Återskapa det?"
 
@@ -177,11 +177,11 @@ msgstr "Öppna Outlook"
 msgid "Open Restmail"
 msgstr "Öppna Restmail"
 
-#: .es5/views/mixins/password-mixin.js:149
+#: .es5/views/mixins/password-mixin.js:152 .es5/views/mixins/password-mixin.js:153
 msgid "Hide password"
 msgstr "Dölj lösenord"
 
-#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:175 .es5/views/mixins/password-mixin.js:176 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Visa lösenord"
 
@@ -1519,8 +1519,8 @@ msgid "Repeat password"
 msgstr "Upprepa lösenordet"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Du behöver det här lösenordet för att få åtkomst till krypterad information som du lagrar hos oss.<br/>En återställning innebär att data som lösenord och bokmärken förloras."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1891,7 +1891,7 @@ msgstr "Varför måste jag skapa det här kontot? <a %(escapedSuggestionAttrs)s>
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "Hur gammal är du? Du måste vara minst 13 år för att skapa ett konto."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1942,8 +1942,8 @@ msgid "Not a commonly used password"
 msgstr "Inte ett vanligt använt lösenord"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
-msgstr "Håll dig säker &mdash; återanvänd inte lösenord. Se fler tips för att <a %(escapedCommonPasswordLinkAttrs)s>skapa starka lösenord</a>."
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
+msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -2064,8 +2064,8 @@ msgid "Pairing was successful."
 msgstr "Parkoppling lyckades."
 
 #: .es5/templates/pair/supp_allow.mustache:1
-msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr "Bekräfta parkoppling <small>för %(email)s</small>"
+msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
+msgstr ""
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"

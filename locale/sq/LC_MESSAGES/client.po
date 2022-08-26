@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-22 16:33+0000\n"
+"POT-Creation-Date: 2022-08-26 04:39+0000\n"
 "PO-Revision-Date: 2022-04-04 23:20+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgstr "E lidhur"
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 
-#: .es5/views/sign_up_password.js:86
+#: .es5/views/sign_up_password.js:85
 msgid "Account no longer exists. Recreate it?"
 msgstr "Llogaria s’ekziston më. Të rikrijohet?"
 
@@ -180,11 +180,11 @@ msgstr "Hap Outlook-un"
 msgid "Open Restmail"
 msgstr "Hap Restmail"
 
-#: .es5/views/mixins/password-mixin.js:149
+#: .es5/views/mixins/password-mixin.js:152 .es5/views/mixins/password-mixin.js:153
 msgid "Hide password"
 msgstr "Fshihe fjalëkalimin"
 
-#: .es5/views/mixins/password-mixin.js:169 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:175 .es5/views/mixins/password-mixin.js:176 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Shfaqe fjalëkalimin"
 
@@ -1555,8 +1555,8 @@ msgid "Repeat password"
 msgstr "Rijepeni fjalëkalimin"
 
 #: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br/>A reset means potentially losing data like passwords and bookmarks."
-msgstr "Ky fjalëkalim ju duhet për të hyrë në të dhëna të fshehtëzuara që depozitoni me ne.<br/>Një ricaktim do të thotë humbje potenciale të dhëna të tilla si fjalëkalime dhe faqerojtës."
+msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
+msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1974,7 +1974,7 @@ msgid "Not a commonly used password"
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
-msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s>create strong passwords</a>."
+msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
@@ -2093,8 +2093,8 @@ msgid "Pairing was successful."
 msgstr "Çiftimi qe i suksesshëm."
 
 #: .es5/templates/pair/supp_allow.mustache:1
-msgid "Confirm pairing <small>for %(email)s</small>"
-msgstr "Ripohoni çiftim <small>për %(email)s</small>"
+msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
+msgstr ""
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
