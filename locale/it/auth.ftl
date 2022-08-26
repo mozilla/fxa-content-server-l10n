@@ -562,6 +562,7 @@ unblockCode-report-plaintext = In caso contrario, aiutaci a tenere alla larga gl
 confirm-account = Conferma account
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ricordati di confermare il tuo account
+verificationReminderFirst-title-2 = Benvenuto in { -brand-firefox }
 verificationReminderFirst-description-2 = Hai creato un { -product-firefox-account } qualche giorno fa ma non l’hai mai confermato. Conferma il tuo account nei prossimi 15 giorni o verrà automaticamente eliminato.
 confirm-email-2 = Conferma account
 confirm-email-plaintext-2 = { confirm-email-2 }:
