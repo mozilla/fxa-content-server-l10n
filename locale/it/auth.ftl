@@ -559,13 +559,22 @@ unblockCode-prompt = In caso affermativo, questo è il codice di autorizzazione 
 unblockCode-prompt-plaintext = In caso affermativo, questo è il codice di autorizzazione da utilizzare: { $unblockCode }
 unblockCode-report = In caso contrario, aiutaci a tenere alla larga gli intrusi <a data-l10n-name="reportSignInLink">segnalandocelo</a>.
 unblockCode-report-plaintext = In caso contrario, aiutaci a tenere alla larga gli intrusi segnalandocelo.
+confirm-account = Conferma account
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Ricordati di confermare il tuo account
 verificationReminderFirst-description-2 = Hai creato un { -product-firefox-account } qualche giorno fa ma non l’hai mai confermato. Conferma il tuo account nei prossimi 15 giorni o verrà automaticamente eliminato.
 confirm-email-2 = Conferma account
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Conferma account
 verificationReminderSecond-subject-2 = Ricordati di confermare il tuo account
+verificationReminderSecond-description-3 = Hai creato un { -product-firefox-account } qualche giorno fa ma non l’hai mai confermato. Conferma il tuo account nei prossimi 10 giorni o verrà automaticamente eliminato.
+verificationReminderSecond-second-description = Il tuo { -product-firefox-account } ti consente di sincronizzare le informazioni su tutti i dispositivi e offre accesso ad altri prodotti { -brand-mozilla } dedicati alla protezione della privacy.
+verificationReminderSecond-sub-description-2 = Partecipa alla nostra missione per trasformare Internet in un luogo aperto a tutti.
+verificationReminderSecond-action-2 = Conferma account
 verify-description = Conferma il tuo account e ottieni il massimo da { -brand-firefox } su tutti i dispositivi da cui accedi, a cominciare da:
 verify-subject = Completa la creazione del tuo account
+verify-action-2 = Conferma account
+verifyLogin-subject-2 = Conferma accesso
 verifyLogin-action = Conferma accesso
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -587,4 +596,10 @@ verifySecondaryCode-action-2 = Conferma indirizzo email
 verifySecondaryCode-explainer = Il seguente { -product-firefox-account } richiede di utilizzare { $email } come indirizzo email secondario:
 verifySecondaryCode-prompt-2 = Usa questo codice di conferma:
 verifySecondaryCode-expiry-notice-2 = Il codice scadrà tra 5 minuti. Una volta confermato, il presente indirizzo email riceverà notifiche di sicurezza e messaggi di conferma.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Conferma l’account
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Conferma il tuo account e ottieni il massimo da { -brand-firefox } su tutti i dispositivi da cui accedi, a cominciare da:
+verifyShortCode-prompt-3 = Usa questo codice di conferma:
 verifyShortCode-expiry-notice = Il codice scadrà entro 5 minuti.
