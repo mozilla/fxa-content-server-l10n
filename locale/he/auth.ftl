@@ -579,6 +579,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = תזכורת לאימות החשבון שלך
 verificationReminderFirst-title-2 = ברוכים הבאים אל { -brand-firefox }!
 verificationReminderFirst-description-2 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־15 הימים הקרובים או שהוא יימחק באופן אוטומטי.
+verificationReminderFirst-sub-description-2 = אל תפספסו טכנולוגיה ששמה אותך ואת הפרטיות שלך במקום הראשון.
 confirm-email-2 = אימות החשבון
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = אימות החשבון
