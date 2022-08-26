@@ -89,7 +89,7 @@ automated-email-change-plaintext = Questa email è stata inviata da un servizio 
 automated-email-no-action = { automated-email-no-action-plaintext } Per ulteriori informazioni, visita il <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
-automated-email-not-authorized-plaintext = Questo messaggio è stato inviato da un servizio automatico. Se non sei stato tu ad autorizzare questa operazione, modifica la password per proteggere il tuo account.
+automated-email-not-authorized-plaintext = Questo messaggio è stato inviato da un servizio automatico. Se non sei stato tu ad autorizzare questa operazione, cambia la password per proteggere il tuo account.
 automated-email-reset =
     Questa email è stata inviata da un servizio automatico. Se non hai autorizzato questa azione, <a data-l10n-name="resetLink">ripristina la tua password</a>.
     Per ulteriori informazioni, visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
@@ -589,17 +589,24 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ricordati di confermare il tuo account
 verificationReminderFirst-title-2 = Benvenuto in { -brand-firefox }
 verificationReminderFirst-description-2 = Hai creato un { -product-firefox-account } qualche giorno fa ma non l’hai mai confermato. Conferma il tuo account nei prossimi 15 giorni o verrà automaticamente eliminato.
+verificationReminderFirst-sub-description-2 = Non farti sfuggire una tecnologia che mette te e la tua privacy al primo posto.
 confirm-email-2 = Conferma account
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Conferma account
 verificationReminderSecond-subject-2 = Ricordati di confermare il tuo account
+verificationReminderSecond-title-2 = Non farti sfuggire { -brand-firefox }!
 verificationReminderSecond-description-3 = Hai creato un { -product-firefox-account } qualche giorno fa ma non l’hai mai confermato. Conferma il tuo account nei prossimi 10 giorni o verrà automaticamente eliminato.
 verificationReminderSecond-second-description = Il tuo { -product-firefox-account } ti consente di sincronizzare le informazioni su tutti i dispositivi e offre accesso ad altri prodotti { -brand-mozilla } dedicati alla protezione della privacy.
 verificationReminderSecond-sub-description-2 = Partecipa alla nostra missione per trasformare Internet in un luogo aperto a tutti.
 verificationReminderSecond-action-2 = Conferma account
+verify-title-2 = Esplora Internet con { -brand-firefox }
 verify-description = Conferma il tuo account e ottieni il massimo da { -brand-firefox } su tutti i dispositivi da cui accedi, a cominciare da:
 verify-subject = Completa la creazione del tuo account
 verify-action-2 = Conferma account
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Hai effettuato tu l’accesso a { $clientName }?
+verifyLogin-description-2 = Aiutaci a mantenere il tuo account al sicuro confermando di esser stato tu ad accedere:
 verifyLogin-subject-2 = Conferma accesso
 verifyLogin-action = Conferma accesso
 # Variables:
@@ -625,6 +632,7 @@ verifySecondaryCode-expiry-notice-2 = Il codice scadrà tra 5 minuti. Una volta 
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Conferma l’account
+verifyShortCode-title-2 = Esplora Internet con { -brand-firefox }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Conferma il tuo account e ottieni il massimo da { -brand-firefox } su tutti i dispositivi da cui accedi, a cominciare da:
 verifyShortCode-prompt-3 = Usa questo codice di conferma:
