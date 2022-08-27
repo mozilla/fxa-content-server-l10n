@@ -615,6 +615,7 @@ verifyPrimary-description = Έχει υποβληθεί αίτημα για μι
 verifyPrimary-subject = Επιβεβαίωση κύριου email
 verifyPrimary-action-2 = Επιβεβαίωση email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Μόλις γίνει επιβεβαίωση, θα καταστούν δυνατές οι αλλαγές στον λογαριασμού, όπως η προσθήκη δευτερεύοντος email, από αυτήν τη συσκευή.
 verifySecondaryCode-subject = Επιβεβαίωση δευτερεύοντος email
 verifySecondaryCode-title-2 = Επιβεβαίωση δευτερεύοντος email
 verifySecondaryCode-action-2 = Επιβεβαίωση email
@@ -622,4 +623,9 @@ verifySecondaryCode-action-2 = Επιβεβαίωση email
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Έχει υποβληθεί ένα αίτημα για τη χρήση του { $email } ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο { -product-firefox-account(case: "acc", capitalization: "lower") }:
 verifySecondaryCode-prompt-2 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
+verifySecondaryCode-expiry-notice-2 = Λήγει σε 5 λεπτά. Μόλις γίνει επιβεβαίωση, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας.
+verifyShortCode-title-2 = Ανοίξτε το διαδίκτυο με το { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Επιβεβαιώστε τον λογαριασμό σας και αξιοποιήστε στο έπακρο το { -brand-firefox }, όπου κι αν συνδεθείτε, ξεκινώντας με:
+verifyShortCode-prompt-3 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
 verifyShortCode-expiry-notice = Λήγει σε 5 λεπτά.
