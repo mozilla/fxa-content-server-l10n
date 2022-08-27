@@ -218,6 +218,12 @@ newDeviceLogin-subject = Nuovo accesso a { $clientName }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Hai effettuato l’accesso con il tuo { -product-firefox-account }
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Non sei stato tu? <a data-l10n-name="passwordChangeLink">Cambia la tua password</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Non sei stato tu? Cambia la tua password:
 newDeviceLogin-action = Gestisci account
 passwordChanged-subject = Password aggiornata
 passwordChanged-title = Password modificata correttamente
@@ -240,10 +246,16 @@ passwordResetAccountRecovery-action = Crea una nuova chiave di recupero
 passwordResetAccountRecovery-regen-required = È necessario generare una nuova chiave di recupero.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Crea una nuova chiave di recupero:
+postAddAccountRecovery-subject-2 = La chiave di recupero per l’account è stata generata
+postAddAccountRecovery-title2 = Hai generato una nuova chiave di recupero per l’account
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = È stata generata una nuova chiave da:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Non sei stato tu?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Elimina la nuova chiave</a> e <a data-l10n-name="passwordChangeLink">cambia la tua password</a>
 postAddAccountRecovery-action = Gestisci account
 postAddAccountRecovery-delete-key = Elimina la nuova chiave:
+postAddAccountRecovery-changd-password = Cambia la tua password:
 postAddLinkedAccount-subject = Nuovo account collegato a { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -304,6 +316,8 @@ recovery-title-2 = Password dimenticata?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Abbiamo ricevuto una richiesta di modifica della password per il tuo { -product-firefox-account } da:
+recovery-new-password-button = Fai clic sul pulsante in basso per creare una nuova password. Questo link scadrà entro la prossima ora.
+recovery-copy-paste = Copia e incolla il seguente URL nel tuo browser per creare una nuova password. Questo link scadrà entro la prossima ora.
 recovery-action = Crea nuova password
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
