@@ -81,13 +81,7 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Tämä on automaattisesti lähtetty viesti. Jos et lisännyt uutta laitetta { -product-firefox-account }isi, vaihda salasanasi välittömästi osoitteessa { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email = Tämä on automaattisesti lähetetty viesti. Jos vastaanotit sen virheen seurauksena, sinun ei tarvitse tehdä mitään. Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }n tuesta</a>.
-automated-email-plaintext = Tämä on automaattisesti lähetetty viesti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
-automated-email-support = { automated-email-plaintext } Lisätietoja saat <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla }-tuesta</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Lisätietoja saat { -brand-mozilla }-tuesta: { $mozillaSupportUrl }.
+automated-email-no-action-plaintext = Tämä on automaattinen sähköposti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Tämä on automaattinen sähköpostiviesti; Jos et valtuuttanut tätä toimintoa, vaihda salasanasi:
 automated-email-reset =
@@ -137,9 +131,6 @@ subscriptionUpdateBillingTry-plaintext = Kokeilemme suorittaa veloituksen uudell
 subscriptionUpdatePayment = Estääksesi palvelun käytön häiriintymisen, <a data-l10n-name="updateBillingUrl">päivitä maksutietosi</a> mahdollisimman pian.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Päivitä maksutietosi mahdollisimman pian, jotta palvelusi ei keskeydy:
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Lisätietoja on osoitteessa { $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -215,9 +206,6 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Uusi kirjautuminen: { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Uusi kirjautuminen: { $clientName }
 newDeviceLogin-action = Hallinnoi tiliä
 passwordChanged-subject = Salasana päivitetty
 passwordChanged-title = Salasanan vaihtaminen onnistui
@@ -240,12 +228,8 @@ passwordResetAccountRecovery-action = Luo uusi palautusavain
 passwordResetAccountRecovery-regen-required = Uusi palautusavain tarvitsee luoda.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Luo uusi palautusavain:
-postAddAccountRecovery-subject = Tilin palautusavain luotu
-postAddAccountRecovery-title = Tilin palautusavain luotu
-postAddAccountRecovery-description = Olet luonut tilin palautusavaimen { -product-firefox-account }llesi käyttäen seuraavaa laitetta:
+postAddAccountRecovery-subject-2 = Tilin palautusavain luotu
 postAddAccountRecovery-action = Hallinnoi tiliä
-postAddAccountRecovery-recovery = Jos se et ollut sinä, <a data-l10n-name="revokeAccountRecoveryLink">napsauta tästä</a>.
-postAddAccountRecovery-revoke = Jos et tehnyt tätä, kumoa avain.
 postAddLinkedAccount-subject = Uusi tili linkitetty { -brand-firefox }iin
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -288,21 +272,13 @@ postRemoveTwoStepAuthentication-description = Olet poistanut kaksivaiheisen tode
 postRemoveTwoStepAuthentication-description-plaintext = Olet poistanut kaksivaiheisen todennuksen käytöstä { -product-firefox-account }ltäsi. Turvallisuuskoodeja ei enää vaadita jokaisella kirjautumisella.
 postRemoveTwoStepAuthentication-action = Hallinnoi tiliä
 postRemoveTwoStepAuthentication-not-required = Turvallisuuskoodeja ei enää vaadita jokaisella kirjautumisella.
-postVerify-sub-title-2 = { -product-firefox-account } on vahvistettu. Olet melkein valmis.
-postVerify-title = Seuraavaksi synkronoi laitteesi!
-postVerify-description = Sync-palvelu säilyttää kirjanmerkkisi, salasanasi ja muut { -brand-firefox }in tiedot samassa tilassa eri laitteidesi välillä.
-postVerify-subject-2 = Tili on vahvistettu. Seuraavaksi synkronoi toinen laite viimeistelläksesi asetukset
-postVerify-setup = Määritä seuraava laite
-postVerify-action = Määritä seuraava laite
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Kysymyksiä? Käy sivulla { $supportUrl }
+postVerify-setup-2 = Yhdistä toinen laite:
+postVerify-action-2 = Yhdistä toinen laite
 postVerifySecondary-subject = Toissijainen sähköpostiosoite lisätty
 postVerifySecondary-title = Toissijainen sähköpostiosoite lisätty
 postVerifySecondary-action = Hallinnoi tiliä
 recovery-subject = Nollaa salasanasi
-recovery-title = Tarvitseeko sinun nollata salasanasi?
-recovery-description = Napsauta painiketta tunnin sisään luodaksesi uuden salasanan. Pyyntö tuli seuraavasta laitteesta:
+recovery-title-2 = Unohditko salasanasi?
 recovery-action = Luo uusi salasana
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -569,29 +545,14 @@ unblockCode-prompt = Jos kirjaudut, tässä on tarvitsemasi valtuuskoodi:
 unblockCode-prompt-plaintext = Jos kyllä, tässä on tarvitsemasi valtuuskoodi: { $unblockCode }
 unblockCode-report = Jos et, auta meitä torjumaan tunkeutujia ja <a data-l10n-name="reportSignInLink">ilmoita asiasta meille</a>.
 unblockCode-report-plaintext = Jos et, auta meitä torjumaan tunkeutujia ja ilmoita asiasta meille.
-verificationReminderFirst-subject = Muistutus: viimeistele tilisi luominen
-verificationReminderFirst-title = Tervetuloa { -brand-firefox }-perheeseen
-verificationReminderFirst-description = Loit { -product-firefox-account }n muutama päivä sitten, mutta et koskaan vahvistanut sitä.
-verificationReminderFirst-sub-description = Vahvista nyt ja saat teknologian, joka taistelee yksityisyyden puolesta ja suojelee sitä, sekä varustaa sinut käytännön tiedoin sekä ansaitsemallasi kunnioituksella.
-confirm-email = Vahvista sähköposti
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Vahvista sähköposti
-verificationReminderSecond-subject = Viimeinen muistutus: aktivoi tilisi
-verificationReminderSecond-title = Oletko vielä siellä?
-verificationReminderSecond-sub-description = Vahvista tämä sähköpostiosoite aktivoidaksesi tilisi ja kuitataksesi, että kaikki on kunnossa.
-verificationReminderSecond-action = Vahvista sähköposti
-verify-title = Aktivoi { -brand-firefox }-tuoteperhe
-verify-description-plaintext = Vahvista tilisi ja ota kaikki hyöty irti { -brand-firefox }ista kaikkialla missä kirjaudut sisään.
+confirm-account = Vahvista tili
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Muista vahvistaa tilisi
+verificationReminderSecond-action-2 = Vahvista tili
 verify-description = Vahvista tilisi ja ota kaikki hyöty irti { -brand-firefox }ista kaikkialla missä kirjaudut sisään, aloittaen tästä:
 verify-subject = Viimeistele tilisi luominen
-verify-action = Vahvista sähköposti
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Uusi kirjautuminen palveluun { $clientName }
-verifyLogin-description = Vahvista tämä kirjautuminen paremman turvallisuuden vuoksi laitteella:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Vahvista uusi kirjautuminen palveluun { $clientName }
+verify-action-2 = Vahvista tili
+verifyLogin-subject-2 = Vahvista sisäänkirjautuminen
 verifyLogin-action = Vahvista kirjautuminen
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -614,7 +575,6 @@ verifySecondaryCode-prompt-2 = Käytä tätä vahvistuskoodia:
 verifySecondaryCode-expiry-notice-2 = Se vanhenee 5 minuutissa. Vahvistamisen jälkeen tämä osoite alkaa vastaanottamaan turvallisuusilmoituksia ja -vahvistuksia.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Vahvistuskoodi: { $code }
-verifyShortCode-title = Yritätkö rekisteröityä?
-verifyShortCode-prompt-2 = Jos kyllä, käytä tätä vahvistuskoodia rekisteröintilomakkeessa:
+verifyShortCode-subject-3 = Vahvista tilisi
+verifyShortCode-prompt-3 = Käytä tätä vahvistuskoodia:
 verifyShortCode-expiry-notice = Se vanhenee viidessä minuutissa.
