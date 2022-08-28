@@ -206,6 +206,12 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Uusi kirjautuminen: { $clientName }
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Etkö se ollut sinä? <a data-l10n-name="passwordChangeLink">Vaihda salasanasi</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Etkö se ollut sinä? Vaihda salasanasi:
 newDeviceLogin-action = Hallinnoi tiliä
 passwordChanged-subject = Salasana päivitetty
 passwordChanged-title = Salasanan vaihtaminen onnistui
@@ -229,7 +235,13 @@ passwordResetAccountRecovery-regen-required = Uusi palautusavain tarvitsee luoda
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Luo uusi palautusavain:
 postAddAccountRecovery-subject-2 = Tilin palautusavain luotu
+postAddAccountRecovery-title2 = Loit uuden tilin palautusavaimen
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Etkö se ollut sinä?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Poista uusi avain</a> ja <a data-l10n-name="passwordChangeLink">vaihda salasanasi</a>
 postAddAccountRecovery-action = Hallinnoi tiliä
+postAddAccountRecovery-delete-key = Poista uusi avain:
+postAddAccountRecovery-changd-password = Vaihda salasanasi:
 postAddLinkedAccount-subject = Uusi tili linkitetty { -brand-firefox }iin
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -272,6 +284,8 @@ postRemoveTwoStepAuthentication-description = Olet poistanut kaksivaiheisen tode
 postRemoveTwoStepAuthentication-description-plaintext = Olet poistanut kaksivaiheisen todennuksen käytöstä { -product-firefox-account }ltäsi. Turvallisuuskoodeja ei enää vaadita jokaisella kirjautumisella.
 postRemoveTwoStepAuthentication-action = Hallinnoi tiliä
 postRemoveTwoStepAuthentication-not-required = Turvallisuuskoodeja ei enää vaadita jokaisella kirjautumisella.
+postVerify-sub-title-3 = Mukava nähdä sinua!
+postVerify-title-2 = Haluatko nähdä saman välilehden kahdessa laitteessa?
 postVerify-setup-2 = Yhdistä toinen laite:
 postVerify-action-2 = Yhdistä toinen laite
 postVerifySecondary-subject = Toissijainen sähköpostiosoite lisätty
@@ -548,6 +562,10 @@ unblockCode-report-plaintext = Jos et, auta meitä torjumaan tunkeutujia ja ilmo
 confirm-account = Vahvista tili
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Muista vahvistaa tilisi
+confirm-email-2 = Vahvista tili
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Vahvista tili
+verificationReminderSecond-subject-2 = Muista vahvistaa tilisi
 verificationReminderSecond-action-2 = Vahvista tili
 verify-description = Vahvista tilisi ja ota kaikki hyöty irti { -brand-firefox }ista kaikkialla missä kirjaudut sisään, aloittaen tästä:
 verify-subject = Viimeistele tilisi luominen
