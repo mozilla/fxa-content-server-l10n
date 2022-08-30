@@ -252,7 +252,7 @@ postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">T�
 postAddAccountRecovery-action = Fiók kezelése
 postAddAccountRecovery-delete-key = Törölje az új kulcsot:
 postAddAccountRecovery-changd-password = Változtassa meg a jelszavát:
-postAddLinkedAccount-subject = Új fiók összekapcsolva a { -brand-firefox }szal
+postAddLinkedAccount-subject = Új fiók összekapcsolva a { -brand-firefox(case: "instrumental") }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = A(z) { $providerName }-fiókja össze lett kapcsolva a { -product-firefox-account }jával
@@ -601,7 +601,7 @@ verificationReminderSecond-description-3 = Néhány napja létrehozott egy { -pr
 verificationReminderSecond-second-description = A { -product-firefox-account }ja segítségével szinkronizálhatja adatait az eszközei között, és további { -brand-mozilla(ending: "accented", case: "lower") }s adatvédelmi eszközökhöz biztosít hozzáférést.
 verificationReminderSecond-sub-description-2 = Legyen része küldetésünknek, hogy az internetet mindenki számára nyitott hellyé alakítsuk.
 verificationReminderSecond-action-2 = Fiók megerősítése
-verify-title-2 = Tárja nyitva az internetet a { -brand-firefox }szal
+verify-title-2 = Tárja nyitva az internetet a { -brand-firefox(case: "instrumental") }
 verify-description = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik, kezdve ezzel:
 verify-subject = A fiókja létrehozásának befejezése
 verify-action-2 = Fiók megerősítése
@@ -634,7 +634,7 @@ verifySecondaryCode-expiry-notice-2 = 5 perc múlva lejár. Ha megerősíti, akk
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Fiók jóváhagyása
-verifyShortCode-title-2 = Tárja nyitva az internetet a { -brand-firefox }szal
+verifyShortCode-title-2 = Tárja nyitva az internetet a { -brand-firefox(case: "instrumental") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-firefox }ból mindenhol, ahol bejelentkezik, kezdve ezzel:
 verifyShortCode-prompt-3 = Használja ezt a megerősítő kódot:
