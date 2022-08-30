@@ -579,6 +579,10 @@ verify-title-2 = Wócyńśo internet z { -brand-firefox }
 verify-description = Wobkšuśćo swójo konto a wuwńoźćo nejlěpše z { -brand-firefox }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
 verify-subject = Dokóńcćo załožowanje swójogo konta
 verify-action-2 = Konto wobkšuśiś
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Sćo se pśizjawił pla { $clientName }?
+verifyLogin-subject-2 = Pśizjawjenje wobkšuśiś
 verifyLogin-action = Pśizjawjenje wobkšuśiś
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -600,4 +604,11 @@ verifySecondaryCode-action-2 = E-mailowu adresu wobkšuśiś
 verifySecondaryCode-explainer = Slědujuce konto { -product-firefox-account } jo pominało, { $email } ako drugu e-mailowu adresu wužywaś:
 verifySecondaryCode-prompt-2 = Toś ten wobkšuśeński kod wužywaś:
 verifySecondaryCode-expiry-notice-2 = Spadnjo za 5 minutow. Gaž jo se wobkšuśiła, toś ta adresa zachopijo wěstotne powěźeńki a wobkšuśenja dostawaś.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Wubkšuśćo swójo konto
+verifyShortCode-title-2 = Wócyńśo internet z { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Wobkšuśćo swójo konto a wuwńoźćo nejlěpše z { -brand-firefox }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
+verifyShortCode-prompt-3 = Toś ten wobkšuśeński kod wužywaś:
 verifyShortCode-expiry-notice = Spadnjo za 5 minutow.
