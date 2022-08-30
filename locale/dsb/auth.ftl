@@ -234,7 +234,16 @@ passwordResetAccountRecovery-action = Nowy wótnowjeński kluc napóraś
 passwordResetAccountRecovery-regen-required = Musyśo nowy wótnowjeński kluc napóraś.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Nowy wótnowjeński kluc napóraś:
+postAddAccountRecovery-subject-2 = Kontowy wótnowjeński kluc jo se napórał
+postAddAccountRecovery-title2 = Sćo napórał nowy kontowy wótnowjeński kluc
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Nowy kluc jo se napórał z:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Njejsćo to wy?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Wulašujśo nowy kluc</a> a <a data-l10n-name="passwordChangeLink">změńśo swójo gronidło</a>
 postAddAccountRecovery-action = Konto zastojaś
+postAddAccountRecovery-delete-key = Wulašujśo nowy kluc:
+postAddAccountRecovery-changd-password = Změńśo swójo gronidło:
 postAddLinkedAccount-subject = Nowe z { -brand-firefox } zwězane konto
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -277,6 +286,10 @@ postRemoveTwoStepAuthentication-description = Sćo wuspěšnje znjemóžnił dw�
 postRemoveTwoStepAuthentication-description-plaintext = Sćo wuspěšnje znjemóžnił dwójokšacowu awtentifikaciju na swójom konśe { -product-firefox-account }. Wěstotne kody wěcej njejsu wótněnta trěbne pśi kuždem pśizjawjenju.
 postRemoveTwoStepAuthentication-action = Konto zastojaś
 postRemoveTwoStepAuthentication-not-required = Wěstotne kody wěcej njejsu wótněnta trěbne pśi kuždym pśizjawjenju.
+postVerify-title-2 = Cośo samski rejtarik na dwěma rědoma wiźeś?
+postVerify-subject-3 = Witajśo k { -brand-firefox }!
+postVerify-setup-2 = Z drugim rědom zwězaś:
+postVerify-action-2 = Z drugim rědom zwězaś
 postVerifySecondary-subject = Druga e-mailowa adresa jo se pśidała
 postVerifySecondary-title = Druga e-mailowa adresa jo se pśidała
 # Variables:
@@ -284,6 +297,7 @@ postVerifySecondary-title = Druga e-mailowa adresa jo se pśidała
 postVerifySecondary-content-2 = Sćo wuspěšnje pśeglědał { $secondaryEmail } ako sekundarnu e-mailowu adresu za swójo konto { -product-firefox-account }. Wěstotne powěźeńki a pśizjawjeńske wobkšuśenja se něnto na wobej e-mailowej adresy sćelu.
 postVerifySecondary-action = Konto zastojaś
 recovery-subject = Stajśo swójo gronidło slědk
+recovery-title-2 = Sćo swójo gronidło zabył?
 recovery-action = Nowe gronidło napóraś
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -554,8 +568,17 @@ unblockCode-prompt = Jolic jo, how jo awtorizěrowański kod, kótaryž trjebaś
 unblockCode-prompt-plaintext = Jolic jo, how jo awtorizěrowański kod, kótaryž trjebaśo: { $unblockCode }
 unblockCode-report = Joli nic, pomagajśo nam zadobywarje wótwoboraś a <a data-l10n-name="reportSignInLink">dajśo nam to k wěsći.</a>
 unblockCode-report-plaintext = Jolic nic, pomagajśo nam zadobywarje wótwoboraś a dajśo nam to k wěsći.
+confirm-account = Konto wobkšuśiś
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-title-2 = Witajśo k { -brand-firefox }!
+confirm-email-2 = Konto wobkšuśiś
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Konto wobkšuśiś
+verificationReminderSecond-action-2 = Konto wobkšuśiś
+verify-title-2 = Wócyńśo internet z { -brand-firefox }
 verify-description = Wobkšuśćo swójo konto a wuwńoźćo nejlěpše z { -brand-firefox }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
 verify-subject = Dokóńcćo załožowanje swójogo konta
+verify-action-2 = Konto wobkšuśiś
 verifyLogin-action = Pśizjawjenje wobkšuśiś
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
