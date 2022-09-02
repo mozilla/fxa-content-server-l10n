@@ -7,7 +7,12 @@
 
 project-brand = Firefox-fiókok
 -brand-name-mozilla = Mozilla
--brand-name-firefox = Firefox
+-brand-name-firefox =
+    { $case ->
+       *[nominative] Firefox
+        [accusative] Firefoxot
+        [instrumental] Firefoxszal
+    }
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-name-google = Google
