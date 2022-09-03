@@ -308,6 +308,11 @@ postVerifySecondary-content-2 = Sće { $secondaryEmail } jako sekundarnu e-mejlo
 postVerifySecondary-action = Konto rjadować
 recovery-subject = Stajće swoje hesło wróćo
 recovery-title-2 = Sće swoje hesło zabył?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Smy próstwu wo změnjenje hesła za waše konto { -product-firefox-account } dóstali:
+recovery-new-password-button = Klikńće na slědowace tłóčatko, zo byšće nowe hesło wutworił. Tutón wotkaz za přichodnu hodźinu spadnje.
+recovery-copy-paste = Kopěrujće slědowacy URL do swojeho wobhladowaka, zo byšće hesło wutworił. Tutón wotkaz za přichodnu hodźinu spadnje.
 recovery-action = Nowe hesło wutworić
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -578,12 +583,15 @@ unblockCode-prompt = Jeli haj, tu je awtorizowanski kod, kotryž trjebaće:
 unblockCode-prompt-plaintext = Jeli haj, tu je awtorizowanski kod, kotryž trjebaće: { $unblockCode }
 unblockCode-report = Jeli nic, pomhajće nam zadobywarjow wotwobarać a <a data-l10n-name="reportSignInLink">zdźělće nam to.</a>
 unblockCode-report-plaintext = Jeli nic, pomhajće nam zadobywarjow wotwobarać a zdźělće nam to.
+verificationReminderFinal-subject = Poslednje dopomnjeće: Wobkrućće swoje konto
 confirm-account = Konto wobkrućić
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Njezabywajće swoje konto wobkrućić
 verificationReminderFirst-title-2 = Witajće k { -brand-firefox }!
 confirm-email-2 = Konto wobkrućić
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konto wobkrućić
+verificationReminderSecond-subject-2 = Njezabywajće swoje konto wobkrućić
 verificationReminderSecond-action-2 = Konto wobkrućić
 verify-title-2 = Wočińće internet z { -brand-firefox }
 verify-description = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-firefox }, wšudźe, hdźež so přizjewjeće, započinajo z:
