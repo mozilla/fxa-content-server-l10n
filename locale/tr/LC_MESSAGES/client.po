@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-26 04:39+0000\n"
-"PO-Revision-Date: 2022-09-03 22:30+0000\n"
+"PO-Revision-Date: 2022-09-03 22:33+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1008,11 +1008,11 @@ msgstr "E-postanızı onaylamak için tıkladığınız link zaman aşımına u�
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Yeni bir onay linki almak için buraya tıklayın"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Onay linki zarar görmüş"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
@@ -1028,7 +1028,7 @@ msgstr "Bu girişi onaylayın"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "%(escapedEmail)s adresine gönderdiğimiz onay bağlantısını kontrol edin"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"

@@ -516,12 +516,15 @@ se-set-primary-error-2 = Üzgünüz, birinci e-postanız değiştirilirken bir s
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } başarıyla silindi
 se-delete-email-error-2 = Üzgünüz, bu e-posta silinirken bir sorun oluştu
+se-verify-session-3 = Bu işlemi gerçekleştirmek için mevcut oturumunuzu onaylamalısınız
+se-verify-session-error-3 = Oturumunuz onaylanırken bir sorun oluştu
 # Button to remove the secondary email
 se-remove-email =
     .title = E-postayı kaldır
 # Button to refresh secondary email status
 se-refresh-email =
     .title = E-postayı yenile
+se-unverified-2 = onaylanmamış
 # Button to make secondary email the primary
 se-make-primary = Birinci yap
 se-default-content = Birinci e-postanıza ulaşamasanız bile hesabınıza erişmenizi sağlar.
@@ -558,6 +561,7 @@ tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 
 auth-error-102 = Bilinmeyen hesap
 auth-error-103 = Parola yanlış
+auth-error-105-2 = Geçersiz onay kodu
 auth-error-110 = Geçersiz jeton
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -567,6 +571,8 @@ auth-error-110 = Geçersiz jeton
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Çok fazla deneme yaptınız. { $retryAfter } sonra yeniden deneyin.
+auth-error-138-2 = Onaylanmamış oturum
 auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
 auth-error-155 = TOTP jetonu bulunamadı
+auth-error-183-2 = Geçersiz veya süresi dolmuş onay kodu
 auth-error-1008 = Yeni parolanız farklı olmalıdır
