@@ -212,6 +212,15 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe přizjewjenje pola { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Waše konto { -product-firefox-account } je so za přizjewjenje wužiło
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = To wy njejsće? <a data-l10n-name="passwordChangeLink">Změńće swoje hesło</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = To wy njejsće? Změńće swoje hesło:
 newDeviceLogin-action = Konto rjadować
 passwordChanged-subject = Hesło je so zaktualizowało
 passwordChanged-title = Hesło je so wuspěšnje změniło
@@ -286,6 +295,7 @@ postRemoveTwoStepAuthentication-description = Sće dwukročelowu awtentifikaciju
 postRemoveTwoStepAuthentication-description-plaintext = Sće dwukročelowu awtentifikaciju na swojim konće { -product-firefox-account } wuspěšnje znjemóžnił. Wěstotne kody wotnětka při kóždym přizjewjenju hižo trěbne njejsu.
 postRemoveTwoStepAuthentication-action = Konto rjadować
 postRemoveTwoStepAuthentication-not-required = Wěstotne kody wotnětka při kóždym přizjewjenju hižo trěbne njejsu.
+postVerify-sub-title-3 = Wjeselimy so was widźeć!
 postVerify-title-2 = Chceće samsny rajtark na dwěmaj gratomaj widźeć?
 postVerify-subject-3 = Witajće k { -brand-firefox }!
 postVerify-setup-2 = Z druhim gratom zwjazać:
