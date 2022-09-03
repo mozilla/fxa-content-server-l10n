@@ -592,6 +592,7 @@ confirm-email-2 = Konto wobkrućić
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konto wobkrućić
 verificationReminderSecond-subject-2 = Njezabywajće swoje konto wobkrućić
+verificationReminderSecond-title-2 = Popřejće sej { -brand-firefox }!
 verificationReminderSecond-action-2 = Konto wobkrućić
 verify-title-2 = Wočińće internet z { -brand-firefox }
 verify-description = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-firefox }, wšudźe, hdźež so přizjewjeće, započinajo z:
