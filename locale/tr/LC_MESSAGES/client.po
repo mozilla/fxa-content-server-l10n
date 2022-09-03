@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-26 04:39+0000\n"
-"PO-Revision-Date: 2022-08-12 06:49+0000\n"
-"Last-Translator: Grk <gu0townkg@relay.firefox.com>\n"
+"PO-Revision-Date: 2022-09-03 22:30+0000\n"
+"Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgstr "%(serviceName)s artık kullanıma hazır"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Hesap onaylandı"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -219,7 +219,7 @@ msgstr "Yazdırıldı"
 
 #: .es5/views/behaviors/settings.js:40
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Hesap başarıyla onaylandı"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -843,9 +843,7 @@ msgid "Invalid Token"
 msgstr "Geçersiz jeton"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Koşulları</a>'nı ve <a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimi</a>'ni kabul "
 "etmiş oluyorsunuz."
@@ -916,8 +914,7 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Firefox Hesabınıza yeniden ulaşmak için lütfen daha önce size verdiğimiz ve saklamanızı istediğimiz tek kullanımlık kurtarma anahtarını yazın."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">NOT:</span> Parolanızı sıfırlarsanız ve elinizde kurtarma anahtarınız yoksa bazı verileriniz (geçmiş ve yer imleri gibi eşitlenmiş sunucu verileri dahil) silinecektir."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1003,11 +1000,11 @@ msgstr "Giriş zaten onaylanmış"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Onay linki zaman aşımına uğramış"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "E-postanızı onaylamak için tıkladığınız link zaman aşımına uğramış."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
@@ -1019,7 +1016,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Onaylama hatası"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1096,7 +1093,7 @@ msgstr "Firefox hesabı bağlandı"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "E-posta onaylandı"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
 msgid "Complete your set-up"
@@ -1156,15 +1153,17 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          <span class=\"card-subheader\" id=\"subheader\">Firefox hesabınızın</span> parolasını yazın\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "Parola"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Devam ettiğinizde <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a>'nı ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>'ni kabul etmiş olursunuz."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1397,7 +1396,7 @@ msgstr "Olay adı"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Onaylandı"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1431,8 +1430,7 @@ msgstr "Bu e-posta adresine artık ulaşamıyor musunuz? Yeni bir hesap açın"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
@@ -1467,7 +1465,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "%(email)s adresine gönderdiğimiz kodu 5 dakika içinde girin."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1507,7 +1505,7 @@ msgstr "Parola tekrarı"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Sakladığınız şifrelenmiş verilere erişmek için bu parolaya ihtiyacınız olacak.<br class=\"mb-3\">Bu parolayı sıfırlarsanız kayıtlı parolalar ve yer imleri gibi verilerinizi kaybeceksiniz."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1525,8 +1523,7 @@ msgstr "Hesap oluştur"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1874,7 +1871,7 @@ msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "Kaç yaşındasınız? Hesap açmak için en az 13 yaşında olmalısınız."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -2013,7 +2010,7 @@ msgstr "Kurulum işlemi sonlandırıldı."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Download Firefox on your phone or tablet"
-msgstr ""
+msgstr "Firefox’u telefonunuza veya tabletinize indirin"
 
 #: .es5/templates/pair/index.mustache:2
 msgid "QR code"
@@ -2021,7 +2018,7 @@ msgstr "QR kodu"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
-msgstr ""
+msgstr "Firefox’u mobil cihazınıza indirmek için cihazın kamerasına bu kodu okutun."
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
@@ -2045,7 +2042,7 @@ msgstr "Eşleştirme başarılı."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\"><span class=\"break-all\">%(email)s</span> için</span> eşitlemeyi onaylayın"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"

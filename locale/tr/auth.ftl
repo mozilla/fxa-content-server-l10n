@@ -81,15 +81,9 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Bu otomatik bir e-postadır. { -product-firefox-account }nıza yeni bir cihaz eklemediyseniz hemen { $passwordChangeLink } adresinden parolanızı değiştirmelisiniz
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi bir işlem yapmanız gerekmez.
-    Daha fazla bilgi için lütfen <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
-automated-email-plaintext = Bu e-posta otomatik olarak gönderilmiştir. Hatalı olduğunu düşünüyorsanız bir şey yapmanıza gerek yoktur.
-automated-email-support = { automated-email-plaintext } Daha fazla bilgi için lütfen <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla } Destek</a>'i ziyaret edin.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Daha fazla bilgi için lütfen { -brand-mozilla } Destek'i ziyaret edin: { $mozillaSupportUrl }.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Daha fazla bilgi için <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
+automated-email-no-action-plaintext = Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi şey yapmanıza gerek yok.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Bu otomatik bir e-postadır. Bu eyleme siz izin vermediyseniz lütfen parolanızı değiştirin:
 automated-email-reset =
@@ -140,8 +134,8 @@ subscriptionUpdatePayment = Hizmetinizde kesinti olmaması için lütfen en kıs
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Hizmetinizde kesinti olmaması için lütfen ödeme bilgilerinizi en kısa zamanda güncelleyin:
 # Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Daha fazla bilgi için lütfen { $supportUrl } adresini ziyaret edin
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Daha fazla  bilgi için { -brand-mozilla } Destek'i ziyaret edin: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -217,7 +211,13 @@ lowRecoveryCodes-subject =
 newDeviceLogin-subject = Yeni { $clientName } girişi
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Yeni { $clientName } girişi
+newDeviceLogin-title-2 = { -product-firefox-account } hesabınıza giriş yapıldı
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Siz değil miydiniz? <a data-l10n-name="passwordChangeLink">Parolanızı değiştirin</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Siz değil miydiniz? Parolanızı değiştirin:
 newDeviceLogin-action = Hesabı yönet
 passwordChanged-subject = Parola güncellendi
 passwordChanged-title = Parola başarıyla değiştirildi
@@ -240,12 +240,16 @@ passwordResetAccountRecovery-action = Yeni kurtarma anahtarı oluştur
 passwordResetAccountRecovery-regen-required = Yeni bir kurtarma anahtarı oluşturmanız gerekecek.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Yeni kurtarma anahtarı oluştur:
-postAddAccountRecovery-subject = Hesap kurtarma anahtarı oluşturuldu
-postAddAccountRecovery-title = Hesap kurtarma anahtarı oluşturuldu
-postAddAccountRecovery-description = Aşağıdaki cihazı kullanarak { -product-firefox-account }nız için hesap kurtarma anahtarını başarıyla oluşturdunuz:
+postAddAccountRecovery-subject-2 = Hesap kurtarma anahtarı oluşturuldu
+postAddAccountRecovery-title2 = Yeni bir hesap kurtarma anahtarı oluşturdunuz
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Yeni bir anahtar oluşturuldu:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Siz değil miydiniz?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Yeni anahtarı silin</a> ve <a data-l10n-name="passwordChangeLink">parolanızı değiştirin</a>
 postAddAccountRecovery-action = Hesabı yönet
-postAddAccountRecovery-recovery = Bu siz değilseniz <a data-l10n-name="revokeAccountRecoveryLink">buraya tıklayın</a>.
-postAddAccountRecovery-revoke = Bu işlemi siz yapmadıysanız anahtarı iptal edin.
+postAddAccountRecovery-delete-key = Yeni anahtarı silin:
+postAddAccountRecovery-changd-password = Parolanızı değiştirin:
 postAddLinkedAccount-subject = { -brand-firefox }’a yeni hesap bağlandı
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -288,21 +292,15 @@ postRemoveTwoStepAuthentication-description = Aşağıdaki cihaz aracılığıyl
 postRemoveTwoStepAuthentication-description-plaintext = { -product-firefox-account }nızda iki aşamalı kimlik doğrulamayı devre dışı bıraktınız. Artık her girişte güvenlik kodları sorulmayacaktır.
 postRemoveTwoStepAuthentication-action = Hesabı yönet
 postRemoveTwoStepAuthentication-not-required = Artık her girişte güvenlik kodları sorulmayacaktır.
-postVerify-sub-title-2 = { -product-firefox-account } doğrulandı. İşimiz bitmek üzere.
-postVerify-title = Şimdi cihazlarınızı eşitleyin!
-postVerify-description = Sync özelliği; yer imlerinizin, parolalarınızın ve diğer { -brand-firefox } verilerinizin tüm cihazlarınızda aynı kalmasını sağlar.
-postVerify-subject-2 = Hesap doğrulandı. Şimdi kurulumu tamamlamak için başka bir cihazı eşitleyin
-postVerify-setup = Sonraki cihazı kur
-postVerify-action = Sonraki cihazı kur
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Sorularınız mı var? { $supportUrl } adresini ziyaret edin
+postVerify-sub-title-3 = Sizi gördüğümüze sevindik!
+postVerify-subject-3 = { -brand-firefox }’a hoş geldiniz!
+postVerify-setup-2 = Başka bir cihaz bağla:
+postVerify-action-2 = Başka bir cihaz bağla
 postVerifySecondary-subject = İkinci e-posta eklendi
 postVerifySecondary-title = İkinci e-posta eklendi
 postVerifySecondary-action = Hesabı yönet
 recovery-subject = Parolanızı sıfırlayın
-recovery-title = Parolanızı sıfırlamanız mı gerekiyor?
-recovery-description = Yeni bir parola oluşturmak için bir saat içinde bu düğmeye tıklayın. Bu istek şu cihazdan gelmiştir:
+recovery-title-2 = Parolanızı mı unuttunuz?
 recovery-action = Yeni parola oluştur
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -324,6 +322,7 @@ subscriptionAccountFinishSetup-content-create-2 = Ardından, yeni aboneliğinizi
 subscriptionAccountFinishSetup-action-2 = Başlayın
 subscriptionAccountReminderFirst-subject = Hatırlatma: Hesabınızın kurulumunu tamamlayın
 subscriptionAccountReminderFirst-title = Henüz aboneliğinize erişemezsiniz
+subscriptionAccountReminderFirst-content-select-2 = Yeni parola belirlemek için “Parola oluştur”u seçerek hesabınızı doğrulamayı tamamlayın.
 subscriptionAccountReminderFirst-action = Parola oluştur
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Son hatırlatma: Hesabınızı kurun
@@ -546,29 +545,16 @@ unblockCode-prompt = Sizseniz bu yetkilendirme kodunu kullanabilirsiniz:
 unblockCode-prompt-plaintext = Sizseniz bu yetkilendirme kodunu kullanabilirsiniz: { $unblockCode }
 unblockCode-report = Değilseniz, saldırganları kapı dışarı edebilmemiz için <a data-l10n-name="reportSignInLink">bize rapor edin</a>.
 unblockCode-report-plaintext = Değilseniz, saldırganları kapı dışarı edebilmemiz için bize rapor edin.
-verificationReminderFirst-subject = Hatırlatma: Hesabınızı oluşturmayı tamamlayın
-verificationReminderFirst-title = { -brand-firefox } ailesine hoş geldiniz
-verificationReminderFirst-description = Birkaç gün önce bir { -product-firefox-account } açtınız ama hesabınızı onaylamadınız.
-verificationReminderFirst-sub-description = Hesabınızı şimdi doğrulayın; gizliliğiniz için mücadele eden, sizi pratik bilgilerle donatan ve size hak ettiğiniz saygıyı gösteren teknolojiye kavuşun.
-confirm-email = E-postanızı doğrulayın
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = E-postanızı doğrulayın
-verificationReminderSecond-subject = Son hatırlatma: Hesabınızı etkinleştirin
-verificationReminderSecond-title = Orada mısınız?
-verificationReminderSecond-sub-description = Her şey yolundaysa hesabınızı etkinleştirmek için bu e-posta adresini onaylayın.
-verificationReminderSecond-action = E-postanızı doğrulayın
-verify-title = { -brand-firefox } ürün ailesini etkinleştirin
-verify-description-plaintext = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-firefox }’tan daha iyi şekilde yararlanın.
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-title-2 = { -brand-firefox }’a hoş geldiniz!
+confirm-email-plaintext-2 = { confirm-email-2 }:
 verify-description = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-firefox }’tan daha iyi şekilde yararlanın. İlk olarak…
 verify-subject = Hesabınızı oluşturmayı tamamlayın
-verify-action = E-postanızı doğrulayın
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Yeni { $clientName } girişi
-verifyLogin-description = Ek bir güvenlik önlemi olarak, aşağıdaki cihazdan giriş yaptığınızı onaylayın:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Yeni { $clientName } girişini onaylayın
+verifyLogin-title-2 = { $clientName } uygulamasına giriş yaptınız mı?
+verifyLogin-description-2 = Hesabınızı güvende tutabilmemiz için giriş yaptığınızı onaylayın:
+verifyLogin-subject-2 = Girişi onayla
 verifyLogin-action = Girişi onayla
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -592,7 +578,5 @@ verifySecondaryCode-prompt-2 = Bu doğrulama kodunu kullanın:
 verifySecondaryCode-expiry-notice-2 = Kodun geçerlilik süresi 5 dakikadır. Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir.
 # Variables:
 #  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Doğrulama kodu: { $code }
-verifyShortCode-title = Kaydolan siz misiniz?
-verifyShortCode-prompt-2 = Sizseniz kayıt formunda bu doğrulama kodunu kullanabilirsiniz:
+verifyShortCode-subject-3 = Hesabınızı onaylayın
 verifyShortCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.

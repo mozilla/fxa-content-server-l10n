@@ -219,14 +219,14 @@ modal-cancel-button = İptal
 
 ## Modal Verify Session
 
-mvs-verify-your-email = E-postanızı doğrulayın
-mvs-enter-verification-code = Doğrulama kodunuzu girin
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
+mvs-verify-your-email-2 = E-postanızı onaylayın
+mvs-enter-verification-code-2 = Onay kodunuzu girin
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc = Lütfen <email>{ $email }</email> adresine gönderilen doğrulama kodunu 5 dakika içinde girin.
+mvs-enter-verification-code-desc-2 = Lütfen <email>{ $email }</email> adresine gönderilen onay kodunu 5 dakika içinde girin.
 msv-cancel-button = İptal
-msv-submit-button = Doğrula
+msv-submit-button-2 = Onayla
 
 ## Settings Nav
 
@@ -380,17 +380,17 @@ add-secondary-email-save-button = Kaydet
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Adım 2/2
-verify-secondary-email-error-2 = Doğrulama kodu gönderilirken bir sorun oluştu
+verify-secondary-email-error-3 = Onay kodu gönderilirken bir sorun oluştu
 verify-secondary-email-page-title =
     .title = İkinci e-posta
-verify-secondary-email-verification-code =
-    .label = Doğrulama kodunuzu girin
+verify-secondary-email-verification-code-2 =
+    .label = Onay kodunuzu girin
 verify-secondary-email-cancel-button = İptal
-verify-secondary-email-verify-button = Doğrula
+verify-secondary-email-verify-button-2 = Onayla
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Lütfen <strong>{ $email }</strong> adresine gönderilen doğrulama kodunu 5 dakika içinde girin.
+verify-secondary-email-please-enter-code-2 = Lütfen <strong>{ $email }</strong> adresine gönderilen onay kodunu 5 dakika içinde girin.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -412,7 +412,7 @@ tfa-button-cancel = İptal
 tfa-button-finish = Bitir
 tfa-incorrect-totp = Yanlış iki aşamalı doğrulama kodu
 tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
-tfa-cannot-verify-code-2 = Kurtarma kodunuz doğrulanırken bir sorun oluştu
+tfa-cannot-verify-code-3 = Kurtarma kodunuz onaylanırken bir sorun oluştu
 tfa-incorrect-recovery-code = Yanlış kurtarma kodu
 tfa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
 tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkExternal> birini kullanarak bu QR kodunu tarayın.
@@ -494,7 +494,7 @@ rk-cannot-remove-key = Hesap kurtarma anahtarınız silinemedi.
 rk-refresh-key = Kurtarma anahtarını yenile
 rk-content-explain = Parolanızı unutursanız bilgilerinizi geri yüklemenizi sağlar.
 rk-content-reset-data = Parolamı sıfırlayınca neden verilerim de sıfırlanıyor?
-rk-cannot-verify-session-3 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu
+rk-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
 rk-remove-modal-heading = Kurtarma anahtarı kaldırılsın mı?
 rk-remove-modal-content = Parolanızı sıfırlarsanız verilerinize tekrar erişmek için kurtarma anahtarınızı kullanamayacaksınız. Bu işlemi geri alamazsınız.
 rk-refresh-error = Üzgünüz, kurtarma anahtarı yenilenirken bir sorun oluştu.
@@ -505,7 +505,7 @@ rk-remove-error-2 = Hesap kurtarma anahtarınız kaldırılamadı
 se-heading = İkinci e-posta
     .header = İkinci e-posta
 se-cannot-refresh-email = Üzgünüz, bu e-posta yenilenirken bir sorun oluştu.
-se-cannot-resend-code-2 = Doğrulama kodu yeniden gönderilirken bir sorun oluştu
+se-cannot-resend-code-3 = Onay kodu yeniden gönderilirken bir sorun oluştu
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -516,16 +516,12 @@ se-set-primary-error-2 = Üzgünüz, birinci e-postanız değiştirilirken bir s
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } başarıyla silindi
 se-delete-email-error-2 = Üzgünüz, bu e-posta silinirken bir sorun oluştu
-se-verify-session-2 = Bu işlemi gerçekleştirmek için mevcut oturumunuzu doğrulamalısınız
-se-verify-session-error-2 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu
 # Button to remove the secondary email
 se-remove-email =
     .title = E-postayı kaldır
 # Button to refresh secondary email status
 se-refresh-email =
     .title = E-postayı yenile
-se-unverified = doğrulanmamış
-se-resend-code = Doğrulama gerekiyor. Doğrulama kodu gelen kutunuzda ve spam klasörünüzde görünmüyorsa <button>tekrar gönderebilirsiniz</button>.
 # Button to make secondary email the primary
 se-make-primary = Birinci yap
 se-default-content = Birinci e-postanıza ulaşamasanız bile hesabınıza erişmenizi sağlar.
@@ -550,7 +546,6 @@ tfa-row-cannot-refresh =
     Üzgünüz, iki aşamalı doğrulama yenilenirken
     bir sorun oluştu.
 tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod isteyerek başkalarının giriş yapmasını engeller.
-tfa-row-cannot-verify-session-3 = Üzgünüz, oturumunuz doğrulanırken bir sorun oluştu
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
 tfa-row-disable-modal-explain = Bu işlemi geri alamazsınız. İsterseniz <linkExternal>kurtarma kodlarınızı değiştirebilirisiniz</linkExternal>.
@@ -563,7 +558,6 @@ tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 
 auth-error-102 = Bilinmeyen hesap
 auth-error-103 = Parola yanlış
-auth-error-105 = Geçersiz doğrulama kodu
 auth-error-110 = Geçersiz jeton
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -573,8 +567,6 @@ auth-error-110 = Geçersiz jeton
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Çok fazla deneme yaptınız. { $retryAfter } sonra yeniden deneyin.
-auth-error-138 = Doğrulanmamış oturum
 auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
 auth-error-155 = TOTP jetonu bulunamadı
-auth-error-183 = Geçersiz veya süresi dolmuş doğrulama kodu
 auth-error-1008 = Yeni parolanız farklı olmalıdır
