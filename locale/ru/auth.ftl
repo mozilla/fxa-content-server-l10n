@@ -90,20 +90,14 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Это автоматически созданное сообщение; если вы не добавляли новое устройство в ваш { -product-firefox-account(case: "accusative") }, вам следует немедленно сменить свой пароль, перейдя по ссылке { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий.
-    Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Службу поддержки { -brand-mozilla }</a>.
-automated-email-plaintext = Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий.
-automated-email-support = { automated-email-plaintext } Для получения дополнительной информации посетите <a data-l10n-name="mozillaSupportUrl">Службу поддержки { -brand-mozilla }</a>.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Для получения дополнительной информации посетите Службу поддержки { -brand-mozilla }: { $mozillaSupportUrl }.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Сайт поддержки { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Это автоматически созданное сообщение. Если вы получили его по ошибке, вам не нужно ничего делать.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Это автоматически созданное сообщение; если вы не совершали такого действия, пожалуйста, смените свой пароль:
 automated-email-reset =
     Это письмо создано автоматически; если вы не выполняли это действие, то, пожалуйста, <a data-l10n-name="resetLink">сбросьте свой пароль</a>.
-    Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Службу поддержки { -brand-mozilla }</a>.
+    Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Сайт поддержки { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Если вы его не меняли, пожалуйста, немедленно сбросьте свой пароль по ссылке { $resetLink }
@@ -149,8 +143,8 @@ subscriptionUpdatePayment = Чтобы избежать прерывания р�
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Чтобы избежать прерывания работы служб, пожалуйста, как можно скорее обновите вашу платёжную информацию:
 # Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Для получения большей информации, посетите { $supportUrl }
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Для получения дополнительной информации посетите сайт поддержки { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -229,7 +223,13 @@ lowRecoveryCodes-subject =
 newDeviceLogin-subject = Новый вход в { $clientName }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Новый вход в { $clientName }
+newDeviceLogin-title-2 = Ваш { -product-firefox-account(case: "nominative") } был использован для входа в
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Не вы? <a data-l10n-name="passwordChangeLink">Смените свой пароль</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Не вы? Смените свой пароль:
 newDeviceLogin-action = Управление аккаунтом
 passwordChanged-subject = Пароль изменён
 passwordChanged-title = Пароль успешно изменён
@@ -252,12 +252,16 @@ passwordResetAccountRecovery-action = Создать новый ключ вос�
 passwordResetAccountRecovery-regen-required = Вам нужно сгенерировать новый ключ восстановления.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Создать новый ключ восстановления:
-postAddAccountRecovery-subject = Сгенерирован ключ восстановления аккаунта
-postAddAccountRecovery-title = Сгенерирован ключ восстановления аккаунта
-postAddAccountRecovery-description = Вы успешно сгенерировали ключ восстановления для своего { -product-firefox-account(case: "genitive") } с помощью следующего устройства:
+postAddAccountRecovery-subject-2 = Ключ восстановления аккаунта создан
+postAddAccountRecovery-title2 = Вы создали новый ключ восстановления аккаунта
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Новый ключ был создан из:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Не вы?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Удалите новый ключ </a> и <a data-l10n-name="passwordChangeLink">смените пароль</a>.
 postAddAccountRecovery-action = Управление аккаунтом
-postAddAccountRecovery-recovery = Если это были не вы, <a data-l10n-name="revokeAccountRecoveryLink">щёлкните здесь</a>.
-postAddAccountRecovery-revoke = Если это были не вы, отзовите ключ.
+postAddAccountRecovery-delete-key = Удалите новый ключ:
+postAddAccountRecovery-changd-password = Смените свой пароль:
 postAddLinkedAccount-subject = Новый аккаунт, связанный с { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -300,15 +304,13 @@ postRemoveTwoStepAuthentication-description = Вы успешно отключи
 postRemoveTwoStepAuthentication-description-plaintext = Вы успешно отключили двухэтапную аутентификацию в своём { -product-firefox-account(case: "prepositional") }. Теперь не нужно будет вводить код безопасности при каждом входе.
 postRemoveTwoStepAuthentication-action = Управление аккаунтом
 postRemoveTwoStepAuthentication-not-required = Коды безопасности теперь не будут необходимы при каждом входе.
-postVerify-sub-title-2 = { -product-firefox-account(case: "nominative_uppercase") } подтверждён. Всё почти готово.
-postVerify-title = Следующая синхронизация между вашими устройствами!
-postVerify-description = Синхронизация конфиденциальна и обеспечивает единство ваших закладок, паролей и других данных { -brand-firefox } на всех ваших устройствах.
-postVerify-subject-2 = Аккаунт подтверждён. Далее выполните синхронизацию другого устройства, чтобы завершить настройку
-postVerify-setup = Настроить следующее устройство
-postVerify-action = Настроить следующее устройство
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Остались вопросы? Загляните на { $supportUrl }
+postVerify-sub-title-3 = Мы рады видеть вас!
+postVerify-title-2 = Хотите видеть одну и ту же вкладку на двух устройствах?
+postVerify-description-2 = Это просто! Просто установите { -brand-firefox } на другое устройство и войдите в аккаунт для синхронизации. Это как волшебство!
+postVerify-sub-description = (Это также означает, что вы можете получить свои закладки, пароли, и другие данные { -brand-firefox } везде, где вы вошли в аккаунт).
+postVerify-subject-3 = Добро пожаловать в { -brand-firefox }!
+postVerify-setup-2 = Подключить другое устройство:
+postVerify-action-2 = Подключить другое устройство
 postVerifySecondary-subject = Добавлена дополнительная электронная почта
 postVerifySecondary-title = Добавлена дополнительная электронная почта
 # Variables:
@@ -316,8 +318,7 @@ postVerifySecondary-title = Добавлена дополнительная эл
 postVerifySecondary-content-2 = Вы успешно подтвердили дополнительный адрес электронной почты { $secondaryEmail } для своего { -product-firefox-account(case: "genitive") }. Уведомления безопасности и подтверждения входа теперь будут отправляться на оба адреса.
 postVerifySecondary-action = Управление аккаунтом
 recovery-subject = Восстановить ваш пароль
-recovery-title = Нужно сбросить свой пароль?
-recovery-description = Щёлкните по кнопке в течение следующего часа, чтобы создать новый пароль. Запрос пришел со следующего устройства:
+recovery-title-2 = Забыли свой пароль?
 recovery-action = Создать новый пароль
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -588,30 +589,8 @@ unblockCode-prompt = Если да, вот - код авторизации, ко
 unblockCode-prompt-plaintext = Если да, вот - код авторизации, который вам понадобится: { $unblockCode }
 unblockCode-report = Если нет, помогите нам в борьбе со злоумышленниками и <a data-l10n-name="reportSignInLink">сообщите нам об этом</a>.
 unblockCode-report-plaintext = Если нет, помогите нам в борьбе со злоумышленниками и сообщите нам об этом.
-verificationReminderFirst-subject = Напоминание: Завершите создание вашего аккаунта
-verificationReminderFirst-title = Добро пожаловать в семью { -brand-firefox }
-verificationReminderFirst-description = Несколько дней назад вы создали { -product-firefox-account(case: "accusative") }, но так и не подтвердили его.
-verificationReminderFirst-sub-description = Подтвердите сейчас — и получите доступ к технологиям, которые защищают вас, сражаются за вашу конфиденциальность, вооружают вас знаниями об этом и, прежде всего, уважают вас.
-confirm-email = Подтвердить электронную почту
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Подтвердить электронную почту
-verificationReminderSecond-subject = Последнее напоминание: Активируйте ваш аккаунт
-verificationReminderSecond-title = Всё ещё здесь?
-verificationReminderSecond-description-2 = Почти неделю назад вы создали { -product-firefox-account(case: "accusative") }, но так и не подтвердили его. Мы беспокоимся о вас.
-verificationReminderSecond-sub-description = Подтвердите этот адрес электронной почты, чтобы активировать свой Аккаунт, и дайте нам знать, что вы в порядке.
-verificationReminderSecond-action = Подтвердить электронную почту
-verify-title = Активируйте семейство продуктов { -brand-firefox }
-verify-description-plaintext = Подтвердите свой аккаунт и получите максимум от { -brand-firefox } везде, где бы вы не вошли.
 verify-description = Подтвердите свой аккаунт и получите максимум от { -brand-firefox } везде, где бы вы не вошли, начиная с:
 verify-subject = Завершите создание вашего аккаунта
-verify-action = Подтвердить электронную почту
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Новый вход в { $clientName }
-verifyLogin-description = Для повышения безопасности, пожалуйста, подтвердите этот вход со следующего устройства:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Подтвердите новый вход в { $clientName }
 verifyLogin-action = Подтвердить вход
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -633,9 +612,4 @@ verifySecondaryCode-action-2 = Подтвердите электронную п�
 verifySecondaryCode-explainer = Использование { $email } в качестве дополнительного адреса электронной почты было запрошено со следующего { -product-firefox-account(case: "genitive") }:
 verifySecondaryCode-prompt-2 = Используйте этот код подтверждения:
 verifySecondaryCode-expiry-notice-2 = Срок его действия истекает через 5 минут. После подтверждения, на этот адрес станут приходить оповещения безопасности и подтверждения.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Код подтверждения: { $code }
-verifyShortCode-title = Это вы регистрируетесь?
-verifyShortCode-prompt-2 = Если да, используйте этот код подтверждения в своей регистрационной форме:
 verifyShortCode-expiry-notice = Срок его действия истечёт через 5 минут.
