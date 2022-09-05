@@ -246,6 +246,12 @@ newDeviceLogin-subject = Νέα σύνδεση στο { $clientName }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Ο { -product-firefox-account(case: "nom", capitalization: "lower") } σας χρησιμοποιήθηκε για σύνδεση
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Δεν είστε εσείς; <a data-l10n-name="passwordChangeLink">Αλλάξτε τον κωδικό πρόσβασής σας</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Δεν είστε εσείς; Αλλάξτε τον κωδικό πρόσβασής σας:
 newDeviceLogin-action = Διαχείριση λογαριασμού
 passwordChanged-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordChanged-title = Επιτυχής αλλαγή κωδικού πρόσβασης
@@ -270,6 +276,10 @@ passwordResetAccountRecovery-regen-required = Θα πρέπει να δημιο�
 passwordResetAccountRecovery-create-key = Δημιουργία νέου κλειδιού ανάκτησης:
 postAddAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Δημιουργήθηκε ένα νέο κλειδί από:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Δεν είστε εσείς;
 postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Διαγράψτε το νέο κλειδί</a> και <a data-l10n-name="passwordChangeLink">αλλάξτε τον κωδικό πρόσβασής σας</a>
 postAddAccountRecovery-action = Διαχείριση λογαριασμού
 postAddAccountRecovery-delete-key = Διαγραφή του νέου κλειδιού:
@@ -318,6 +328,7 @@ postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμ
 postRemoveTwoStepAuthentication-not-required = Δεν θα απαιτούνται πλέον κωδικοί ασφαλείας σε κάθε σύνδεση.
 postVerify-sub-title-3 = Χαιρόμαστε που σας βλέπουμε!
 postVerify-title-2 = Θέλετε να δείτε την ίδια καρτέλα σε δύο συσκευές;
+postVerify-sub-description = (Ψιτ… Αυτό σημαίνει ότι μπορείτε να λάβετε τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα σας από το { -brand-firefox }, οπουδήποτε έχετε κάνει σύνδεση.)
 postVerify-subject-3 = Καλώς ορίσατε στο { -brand-firefox }!
 postVerify-setup-2 = Σύνδεση άλλης συσκευής:
 postVerify-action-2 = Σύνδεση άλλης συσκευής
