@@ -83,6 +83,7 @@ automated-email-change =
 automated-email-change-plaintext = Denne mail er sendt automatisk; hvis du ikke tilføjede en ny enhed til din { -product-firefox-account }, bør du ændre din adgangskode med det samme på { $passwordChangeLink }
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a> for mere info.
+automated-email-no-action-plaintext = Denne mail er sendt automatisk. Hvis du har modtaget den ved en fejl, behøver du ikke foretage dig noget.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Denne mail er sendt automatisk. Hvis du ikke har godkendt denne handling, så skift din adgangskode:
 automated-email-reset =
@@ -132,6 +133,9 @@ subscriptionUpdateBillingTry-plaintext = Vi prøver at gennemføre din betaling 
 subscriptionUpdatePayment = <a data-l10n-name="updateBillingUrl">Opdater dine betalingsinformationer</a> så hurtigt som muligt for at undgå afbrydelse af din tjeneste.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Opdater dine betalingsinformationer så hurtigt som muligt for at undgå afbrydelse af din tjeneste:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Besøg { -brand-mozilla } Support på { $supportUrl } for at få mere at vide.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -305,6 +309,9 @@ postVerifySecondary-content-2 = Du har bekræftet { $secondaryEmail } som sekund
 postVerifySecondary-action = Håndter konto
 recovery-subject = Nulstil din adgangskode
 recovery-title-2 = Glemt din adgangskode?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Vi har modtaget en anmodning om at ændre adgangskoden på din { -product-firefox-account } fra:
 recovery-new-password-button = Opret en ny adgangskode ved at klikke på knappen nedenfor. Dette link udløber inden for den næste time.
 recovery-copy-paste = Opret en ny adgangskode ved at kopiere og indsætte URL'en nedenfor i din browser. Dette link udløber inden for den næste time.
 recovery-action = Opret ny adgangskode
@@ -591,6 +598,7 @@ verificationReminderFirst-action-2 = Bekræft konto
 verificationReminderSecond-subject-2 = Husk at bekræfte din konto
 verificationReminderSecond-title-2 = Gå ikke glip af { -brand-firefox }!
 verificationReminderSecond-description-3 = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 10 dage, ellers bliver den slettet automatisk.
+verificationReminderSecond-second-description = Din { -product-firefox-account } giver dig mulighed for at synkronisere dine oplysninger på tværs af enheder - og adgang til flere produkter fra { -brand-mozilla }, der beskytter dit privatliv.
 verificationReminderSecond-sub-description-2 = Vær en del af vores mission om at transformere internettet til et sted, der er åbent for alle.
 verificationReminderSecond-action-2 = Bekræft konto
 verify-title-2 = Åbn internettet med { -brand-firefox }
@@ -627,5 +635,7 @@ verifySecondaryCode-expiry-notice-2 = Den udløber om 5 minutter. Når denne mai
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Bekræft din konto
 verifyShortCode-title-2 = Åbn internettet med { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Bekræft din konto og få mest muligt ud af { -brand-firefox }, overalt hvor du logger ind:
 verifyShortCode-prompt-3 = Brug denne bekræftelseskode:
 verifyShortCode-expiry-notice = Den udløber om 5 minutter.
