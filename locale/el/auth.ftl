@@ -270,6 +270,8 @@ postAddAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογα
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
 postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Διαγράψτε το νέο κλειδί</a> και <a data-l10n-name="passwordChangeLink">αλλάξτε τον κωδικό πρόσβασής σας</a>
 postAddAccountRecovery-action = Διαχείριση λογαριασμού
+postAddAccountRecovery-delete-key = Διαγραφή του νέου κλειδιού:
+postAddAccountRecovery-changd-password = Αλλαγή κωδικού πρόσβασης:
 postAddLinkedAccount-subject = Συνδέθηκε νέος λογαριασμός με το { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
