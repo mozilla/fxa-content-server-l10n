@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-26 04:39+0000\n"
-"PO-Revision-Date: 2022-09-03 08:22+0000\n"
+"PO-Revision-Date: 2022-09-05 06:14+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1157,7 +1157,7 @@ msgstr "密码"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "继续操作则表示，您同意我们的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1961,7 +1961,7 @@ msgstr "是的，确认此设备"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "若不是您，<a id=\"change-password\" class=\"link-blue\">请立即修改密码</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1972,7 +1972,7 @@ msgid ""
 "\n"
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
-msgstr ""
+msgstr "已开始与：<span>%(deviceOS)s 上的 %(deviceFamily)s</span> 同步"
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
