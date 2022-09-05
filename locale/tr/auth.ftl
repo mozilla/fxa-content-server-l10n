@@ -293,6 +293,7 @@ postRemoveTwoStepAuthentication-description-plaintext = { -product-firefox-accou
 postRemoveTwoStepAuthentication-action = Hesabı yönet
 postRemoveTwoStepAuthentication-not-required = Artık her girişte güvenlik kodları sorulmayacaktır.
 postVerify-sub-title-3 = Sizi gördüğümüze sevindik!
+postVerify-title-2 = Aynı sekmeyi iki cihazınızda da görmek ister misiniz?
 postVerify-subject-3 = { -brand-firefox }’a hoş geldiniz!
 postVerify-setup-2 = Başka bir cihaz bağla:
 postVerify-action-2 = Başka bir cihaz bağla
@@ -545,11 +546,19 @@ unblockCode-prompt = Sizseniz bu yetkilendirme kodunu kullanabilirsiniz:
 unblockCode-prompt-plaintext = Sizseniz bu yetkilendirme kodunu kullanabilirsiniz: { $unblockCode }
 unblockCode-report = Değilseniz, saldırganları kapı dışarı edebilmemiz için <a data-l10n-name="reportSignInLink">bize rapor edin</a>.
 unblockCode-report-plaintext = Değilseniz, saldırganları kapı dışarı edebilmemiz için bize rapor edin.
+confirm-account = Hesabı onaylayın
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Hesabınızı onaylamayı unutmayın
 verificationReminderFirst-title-2 = { -brand-firefox }’a hoş geldiniz!
+confirm-email-2 = Hesabı onaylayın
 confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Hesabı onaylayın
+verificationReminderSecond-subject-2 = Hesabınızı onaylamayı unutmayın
+verificationReminderSecond-action-2 = Hesabı onaylayın
+verify-title-2 = İnternete { -brand-firefox } ile açılın
 verify-description = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-firefox }’tan daha iyi şekilde yararlanın. İlk olarak…
 verify-subject = Hesabınızı oluşturmayı tamamlayın
+verify-action-2 = Hesabı onaylayın
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = { $clientName } uygulamasına giriş yaptınız mı?
@@ -579,4 +588,8 @@ verifySecondaryCode-expiry-notice-2 = Kodun geçerlilik süresi 5 dakikadır. Ad
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Hesabınızı onaylayın
+verifyShortCode-title-2 = İnternete { -brand-firefox } ile açılın
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-firefox }’tan daha iyi şekilde yararlanın. İlk olarak…
+verifyShortCode-prompt-3 = Bu doğrulama kodunu kullanın:
 verifyShortCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.

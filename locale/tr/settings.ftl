@@ -525,6 +525,7 @@ se-remove-email =
 se-refresh-email =
     .title = E-postayı yenile
 se-unverified-2 = onaylanmamış
+se-resend-code-2 = Onay gerekiyor. Onay kodu gelen kutunuzda ve spam klasörünüzde görünmüyorsa <button>tekrar gönderebilirsiniz</button>.
 # Button to make secondary email the primary
 se-make-primary = Birinci yap
 se-default-content = Birinci e-postanıza ulaşamasanız bile hesabınıza erişmenizi sağlar.
@@ -549,6 +550,7 @@ tfa-row-cannot-refresh =
     Üzgünüz, iki aşamalı doğrulama yenilenirken
     bir sorun oluştu.
 tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod isteyerek başkalarının giriş yapmasını engeller.
+tfa-row-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
 tfa-row-disable-modal-explain = Bu işlemi geri alamazsınız. İsterseniz <linkExternal>kurtarma kodlarınızı değiştirebilirisiniz</linkExternal>.
