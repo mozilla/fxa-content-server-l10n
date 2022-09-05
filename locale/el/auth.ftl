@@ -241,6 +241,9 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Νέα σύνδεση στο { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Ο { -product-firefox-account(case: "nom", capitalization: "lower") } σας χρησιμοποιήθηκε για σύνδεση
 newDeviceLogin-action = Διαχείριση λογαριασμού
 passwordChanged-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordChanged-title = Επιτυχής αλλαγή κωδικού πρόσβασης
@@ -265,6 +268,7 @@ passwordResetAccountRecovery-regen-required = Θα πρέπει να δημιο�
 passwordResetAccountRecovery-create-key = Δημιουργία νέου κλειδιού ανάκτησης:
 postAddAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Διαγράψτε το νέο κλειδί</a> και <a data-l10n-name="passwordChangeLink">αλλάξτε τον κωδικό πρόσβασής σας</a>
 postAddAccountRecovery-action = Διαχείριση λογαριασμού
 postAddLinkedAccount-subject = Συνδέθηκε νέος λογαριασμός με το { -brand-firefox }
 #  Variables:
@@ -308,6 +312,7 @@ postRemoveTwoStepAuthentication-description = Έχετε απενεργοποι�
 postRemoveTwoStepAuthentication-description-plaintext = Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Δεν θα απαιτείται πλέον κωδικός ασφαλείας σε κάθε σύνδεση.
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-not-required = Δεν θα απαιτούνται πλέον κωδικοί ασφαλείας σε κάθε σύνδεση.
+postVerify-sub-title-3 = Χαιρόμαστε που σας βλέπουμε!
 postVerify-title-2 = Θέλετε να δείτε την ίδια καρτέλα σε δύο συσκευές;
 postVerify-subject-3 = Καλώς ορίσατε στο { -brand-firefox }!
 postVerify-setup-2 = Σύνδεση άλλης συσκευής:
