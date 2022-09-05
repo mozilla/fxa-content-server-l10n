@@ -600,6 +600,8 @@ verify-action-2 = Bekræft konto
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Har du logget ind på { $clientName }?
+verifyLogin-description-2 = Hold din konto sikker ved at bekræfte, at du loggede ind på:
+verifyLogin-subject-2 = Bekræft login
 verifyLogin-action = Bekræft login
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -621,4 +623,9 @@ verifySecondaryCode-action-2 = Bekræft mailadresse
 verifySecondaryCode-explainer = Fra følgende { -product-firefox-account } kommer en forespørgsel om at bruge { $email } som sekundær mailadresse:
 verifySecondaryCode-prompt-2 = Brug denne bekræftelseskode:
 verifySecondaryCode-expiry-notice-2 = Den udløber om 5 minutter. Når denne mailadresse er blevet bekræftet, vil den begynde at modtage sikkerhedsmeddelelser og bekræftelser.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Bekræft din konto
+verifyShortCode-title-2 = Åbn internettet med { -brand-firefox }
+verifyShortCode-prompt-3 = Brug denne bekræftelseskode:
 verifyShortCode-expiry-notice = Den udløber om 5 minutter.
