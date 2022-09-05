@@ -117,6 +117,7 @@ automated-email-change =
 automated-email-change-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· αν δεν προσθέσατε μια νέα συσκευή στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας, πρέπει να αλλάξετε άμεσα στον κωδικό πρόσβασής σας στο { $passwordChangeLink }
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Αυτό είναι ένα αυτοματοποιημένο email. Εάν το λάβατε κατά λάθος, δεν χρειάζεται να κάνετε τίποτα.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· εάν δεν εγκρίνατε εσείς αυτήν την ενέργεια, τότε παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας:
 automated-email-reset =
@@ -207,6 +208,7 @@ cadReminderFirst-action = Συγχρονισμός άλλης συσκευής
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Χρειάζονται δύο συσκευές για συγχρονισμό
+cadReminderFirst-description-1 = Μεταφέρετε τις καρτέλες σας σε όλες τις συσκευές σας. Λάβετε τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα οπουδήποτε χρησιμοποιείτε το { -brand-firefox }. Είναι σαν να κάνει μαγικά ο λογαριασμός { -brand-firefox } σας!
 cadReminderFirst-description-2 = Χρειάζεται ελάχιστος χρόνος για τον συγχρονισμό.
 cadReminderSecond-subject-2 = Μην το χάσετε! Ολοκληρώστε τη ρύθμιση του συγχρονισμού
 cadReminderSecond-action = Συγχρονισμός άλλης συσκευής
@@ -327,6 +329,8 @@ postVerifySecondary-content-2 = Έχετε επιβεβαιώσει επιτυχ
 postVerifySecondary-action = Διαχείριση λογαριασμού
 recovery-subject = Επαναφορά κωδικού πρόσβασης
 recovery-title-2 = Ξεχάσατε τον κωδικό πρόσβασής σας;
+recovery-new-password-button = Δημιουργήστε έναν νέο κωδικό πρόσβασης κάνοντας κλικ στο παρακάτω κουμπί. Αυτός ο σύνδεσμος θα λήξει εντός της επόμενης ώρας.
+recovery-copy-paste = Δημιουργήστε έναν νέο κωδικό πρόσβασης αντιγράφοντας και επικολλώντας το παρακάτω URL στο πρόγραμμα περιήγησής σας. Αυτός ο σύνδεσμος θα λήξει εντός της επόμενης ώρας.
 recovery-action = Δημιουργία νέου κωδικού πρόσβασης
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -602,6 +606,7 @@ confirm-account = Επιβεβαίωση λογαριασμού
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Θυμηθείτε να επιβεβαιώσετε τον λογαριασμό σας
 verificationReminderFirst-title-2 = Καλώς ορίσατε στο { -brand-firefox }!
+verificationReminderFirst-sub-description-2 = Μην χάσετε την τεχνολογία που έχει ως προτεραιότητα εσάς και το απόρρητό σας.
 confirm-email-2 = Επιβεβαίωση λογαριασμού
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Επιβεβαίωση λογαριασμού
