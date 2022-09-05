@@ -81,15 +81,8 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Denne mail er sendt automatisk; hvis du ikke tilføjede en ny enhed til din { -product-firefox-account }, bør du ændre din adgangskode med det samme på { $passwordChangeLink }
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget.
-    For mere information, besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
-automated-email-plaintext = Denne mail er sendt automatisk; hvis du har modtaget denne mail ved en fejl, behøver du ikke foretage dig noget.
-automated-email-support = { automated-email-plaintext } Besøg <a data-l10n-name="mozillaSupportUrl">{ -brand-mozilla }-support</a> for mere information.
-# Variables:
-#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-automated-email-support-plaintext = { automated-email-plaintext } Besøg { -brand-mozilla }-support på { $mozillaSupportUrl } for mere information.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a> for mere info.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Denne mail er sendt automatisk. Hvis du ikke har godkendt denne handling, så skift din adgangskode:
 automated-email-reset =
@@ -139,9 +132,6 @@ subscriptionUpdateBillingTry-plaintext = Vi prøver at gennemføre din betaling 
 subscriptionUpdatePayment = <a data-l10n-name="updateBillingUrl">Opdater dine betalingsinformationer</a> så hurtigt som muligt for at undgå afbrydelse af din tjeneste.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Opdater dine betalingsinformationer så hurtigt som muligt for at undgå afbrydelse af din tjeneste:
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = For mere information, besøg { $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -219,7 +209,13 @@ lowRecoveryCodes-subject =
 newDeviceLogin-subject = Nyt login til { $clientName }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Nyt login til { $clientName }
+newDeviceLogin-title-2 = Din{ -product-firefox-account } blev brugt til at logge ind
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Var det ikke dig? <a data-l10n-name="passwordChangeLink">Skift din adgangskode</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Var det ikke dig? Skift din adgangskode:
 newDeviceLogin-action = Håndter konto
 passwordChanged-subject = Adgangskode opdateret
 passwordChanged-title = Adgangskoden blev ændret
@@ -242,12 +238,16 @@ passwordResetAccountRecovery-action = Opret en ny genoprettelsesnøgle
 passwordResetAccountRecovery-regen-required = Du skal oprette en ny genoprettelsesnøgle.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Opret en ny genoprettelsesnøgle:
-postAddAccountRecovery-subject = Genoprettelsesnøgle til konto oprettet
-postAddAccountRecovery-title = Genoprettelsesnøgle til konto oprettet
-postAddAccountRecovery-description = Du har oprettet en genoprettelsesnøgle til din { -product-firefox-account } med følgende enhed:
+postAddAccountRecovery-subject-2 = Genoprettelsesnøgle til kontoen blev oprettet
+postAddAccountRecovery-title2 = Du oprettede en ny genoprettelsesnøgle til kontoen
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = En ny nøgle blev oprettet fra:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Var det ikke dig?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Slet den nye nøgle</a> og <a data-l10n-name="passwordChangeLink">skift din adgangskode</a>
 postAddAccountRecovery-action = Håndter konto
-postAddAccountRecovery-recovery = Hvis det ikke var dig, så <a data-l10n-name="revokeAccountRecoveryLink">klik her.</a>
-postAddAccountRecovery-revoke = Hvis det ikke var dig, så tilbagekald nøglen.
+postAddAccountRecovery-delete-key = Slet den nye nøgle:
+postAddAccountRecovery-changd-password = Skift din adgangskode:
 postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -290,15 +290,13 @@ postRemoveTwoStepAuthentication-description = Du har deaktiveret totrinsgodkende
 postRemoveTwoStepAuthentication-description-plaintext = Du har deaktiveret totrinsgodkendelse på din { -product-firefox-account }. Sikkerhedskoder vil ikke længere være påkrævet ved login.
 postRemoveTwoStepAuthentication-action = Håndter konto
 postRemoveTwoStepAuthentication-not-required = Sikkerhedskoder vil ikke længere være påkrævet ved login.
-postVerify-sub-title-2 = { -product-firefox-account } bekræftet. Du er næsten klar.
-postVerify-title = Synkroniser nu mellem dine enheder!
-postVerify-description = Med privat synkronisering forbliver dine bogmærker, adgangskoder og andre { -brand-firefox }-data de samme på alle dine enheder.
-postVerify-subject-2 = Konto bekræftet. Synkroniser nu en anden enhed for at afslutte opsætningen.
-postVerify-setup = Opsæt næste enhed
-postVerify-action = Opsæt næste enhed
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Har du spørgsmål? Besøg { $supportUrl }
+postVerify-sub-title-3 = Vi er glade for at se dig!
+postVerify-title-2 = Vil du se det samme faneblad på to enheder?
+postVerify-description-2 = Det er nemt! Du skal bare installere { -brand-firefox } på en anden enhed og logge ind for at synkronisere. Det er som magi!
+postVerify-sub-description = (Psst... Det betyder også, at du kan få dine bogmærker, adgangskoder og andre { -brand-firefox }-data overalt, hvor du er logget ind).
+postVerify-subject-3 = Velkommen til { -brand-firefox }!
+postVerify-setup-2 = Forbind en anden enhed:
+postVerify-action-2 = Forbind andre enheder
 postVerifySecondary-subject = Sekundær mailadresse tilføjet
 postVerifySecondary-title = Sekundær mailadresse tilføjet
 # Variables:
@@ -306,8 +304,9 @@ postVerifySecondary-title = Sekundær mailadresse tilføjet
 postVerifySecondary-content-2 = Du har bekræftet { $secondaryEmail } som sekundær mailadresse til din { -product-firefox-account }. Sikkerhedsmeddelelser og login-bekræftelser vil fremover blive sendt til begge mailadresser.
 postVerifySecondary-action = Håndter konto
 recovery-subject = Nulstil din adgangskode
-recovery-title = Har du brug for at nulstille din adgangskode?
-recovery-description = Klik på knappen inden for den næste time for at oprette en ny adgangskode. Anmodningen kom fra følgende enhed:
+recovery-title-2 = Glemt din adgangskode?
+recovery-new-password-button = Opret en ny adgangskode ved at klikke på knappen nedenfor. Dette link udløber inden for den næste time.
+recovery-copy-paste = Opret en ny adgangskode ved at kopiere og indsætte URL'en nedenfor i din browser. Dette link udløber inden for den næste time.
 recovery-action = Opret ny adgangskode
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -578,30 +577,29 @@ unblockCode-prompt = Hvis det er, skal du bruge denne godkendelseskode:
 unblockCode-prompt-plaintext = Hvis det er, skal du bruge denne godkendelseskode: { $unblockCode }
 unblockCode-report = Hvis det ikke er, så hjælp os med at afværge ubudne gæster og <a data-l10n-name="reportSignInLink">rapportér det til os.</a>
 unblockCode-report-plaintext = Hvis det ikke er, så hjælp os med at afværge ubudne gæster og rapportér det til os.
-verificationReminderFirst-subject = Påmindelse: Færdiggør oprettelsen af din konto
-verificationReminderFirst-title = Velkommen til { -brand-firefox }-familien
-verificationReminderFirst-description = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig.
-verificationReminderFirst-sub-description = Bekræft nu og få adgang til teknik, der kæmper for din ret til privatliv på nettet, giver dig nyttig viden og den respekt, du fortjener.
-confirm-email = Bekræft mailadresse
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Bekræft mailadresse
-verificationReminderSecond-subject = Sidste påmindelse: Aktivér din konto
-verificationReminderSecond-title = Er du der stadig?
-verificationReminderSecond-description-2 = For næsten en uge siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Vi bliver helt bekymrede for dig.
-verificationReminderSecond-sub-description = Bekræft denne mailadresse for at aktivere din konto - og for at lade os vide, at du er ok ;)
-verificationReminderSecond-action = Bekræft mailadresse
-verify-title = Aktiver hele { -brand-firefox }-familien
-verify-description-plaintext = Bekræft din konto og få mest muligt ud af { -brand-firefox }, hvor du logger ind.
+verificationReminderFinal-subject = Sidste påmindelse om at bekræfte din konto
+verificationReminderFinal-description = For et par uger siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Vi vil af sikkerhedsmæssige årsager slette kontoen, hvis den ikke bekræftes inden for 24 timer.
+confirm-account = Bekræft konto
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Husk at bekræfte din konto
+verificationReminderFirst-title-2 = Velkommen til { -brand-firefox }!
+verificationReminderFirst-description-2 = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 15 dage, ellers bliver den slettet automatisk.
+verificationReminderFirst-sub-description-2 = Gå ikke glip af teknologi, der sætter dig og dit privatliv i første række.
+confirm-email-2 = Bekræft konto
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Bekræft konto
+verificationReminderSecond-subject-2 = Husk at bekræfte din konto
+verificationReminderSecond-title-2 = Gå ikke glip af { -brand-firefox }!
+verificationReminderSecond-description-3 = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 10 dage, ellers bliver den slettet automatisk.
+verificationReminderSecond-sub-description-2 = Vær en del af vores mission om at transformere internettet til et sted, der er åbent for alle.
+verificationReminderSecond-action-2 = Bekræft konto
+verify-title-2 = Åbn internettet med { -brand-firefox }
 verify-description = Bekræft din konto og få mest muligt ud af { -brand-firefox }, overalt hvor du logger ind, startende med:
 verify-subject = Færdiggør oprettelsen af din konto
-verify-action = Bekræft mailadresse
+verify-action-2 = Bekræft konto
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Nyt login til { $clientName }
-verifyLogin-description = Som en ekstra sikkerhed skal du bekræfte dette login fra følgende enhed:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Bekræft nyt login til { $clientName }
+verifyLogin-title-2 = Har du logget ind på { $clientName }?
 verifyLogin-action = Bekræft login
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -623,9 +621,4 @@ verifySecondaryCode-action-2 = Bekræft mailadresse
 verifySecondaryCode-explainer = Fra følgende { -product-firefox-account } kommer en forespørgsel om at bruge { $email } som sekundær mailadresse:
 verifySecondaryCode-prompt-2 = Brug denne bekræftelseskode:
 verifySecondaryCode-expiry-notice-2 = Den udløber om 5 minutter. Når denne mailadresse er blevet bekræftet, vil den begynde at modtage sikkerhedsmeddelelser og bekræftelser.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Bekræftelseskode: { $code }
-verifyShortCode-title = Er det dig, der tilmelder dig?
-verifyShortCode-prompt-2 = Hvis det er, så brug denne bekræftelseskode i din registreringsformular:
 verifyShortCode-expiry-notice = Den udløber om 5 minutter.
