@@ -297,6 +297,7 @@ postRemoveTwoStepAuthentication-not-required = Vanaf nu zijn bij elke aanmelding
 postVerify-sub-title-3 = We zijn verheugd u te zien!
 postVerify-title-2 = Wilt u hetzelfde tabblad op twee apparaten zien?
 postVerify-description-2 = Dat is makkelijk! Installeer gewoon { -brand-firefox } op een ander apparaat en meld u aan om te synchroniseren. Het is magisch!
+postVerify-sub-description = (Psst… Het betekent ook dat u overal waar u bent aangemeld toegang hebt tot uw bladwijzers, wachtwoorden en andere { -brand-firefox }-gegevens.)
 postVerify-subject-3 = Welkom bij { -brand-firefox }!
 postVerify-setup-2 = Nog een apparaat koppelen:
 postVerify-action-2 = Een ander apparaat verbinden
@@ -308,6 +309,11 @@ postVerifySecondary-content-2 = U hebt { $secondaryEmail } met succes als secund
 postVerifySecondary-action = Account beheren
 recovery-subject = Herinitialiseer uw wachtwoord
 recovery-title-2 = Uw wachtwoord vergeten?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = We hebben een verzoek ontvangen voor een wachtwoordwijziging op uw { -product-firefox-account } van:
+recovery-new-password-button = Maak een nieuw wachtwoord aan door op onderstaande knop te klikken. Deze koppeling verloopt binnen een uur.
+recovery-copy-paste = Maak een nieuw wachtwoord aan door de onderstaande URL te kopiëren en in uw browser te plakken. Deze koppeling verloopt binnen een uur.
 recovery-action = Nieuw wachtwoord aanmaken
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -579,20 +585,30 @@ unblockCode-prompt-plaintext = Zo ja, dan is hier de benodigde autorisatiecode: 
 unblockCode-report = Zo nee, help ons dan indringers tegen te houden en <a data-l10n-name="reportSignInLink">meld het aan ons</a>.
 unblockCode-report-plaintext = Zo nee, help ons dan indringers tegen te houden en meld het aan ons.
 verificationReminderFinal-subject = Laatste herinnering om uw account te bevestigen
+verificationReminderFinal-description = U hebt een paar weken geleden een { -product-firefox-account } aangemaakt, maar deze nooit bevestigd. Voor uw veiligheid zullen we de account verwijderen als deze niet binnen 24 uur is geverifieerd.
 confirm-account = Account bevestigen
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Vergeet niet om uw account te bevestigen
 verificationReminderFirst-title-2 = Welkom bij { -brand-firefox }!
+verificationReminderFirst-description-2 = U hebt een paar dagen geleden een { -product-firefox-account } aangemaakt, maar deze nooit bevestigd. Bevestig uw account binnen de komende 15 dagen, anders wordt deze automatisch verwijderd.
+verificationReminderFirst-sub-description-2 = Mis geen technologie die u en uw privacy op de eerste plaats zet.
 confirm-email-2 = Account bevestigen
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Account bevestigen
 verificationReminderSecond-subject-2 = Vergeet niet om uw account te bevestigen
 verificationReminderSecond-title-2 = Mis niets van { -brand-firefox }!
+verificationReminderSecond-description-3 = U hebt een paar dagen geleden een { -product-firefox-account } aangemaakt, maar deze nooit bevestigd. Bevestig uw account in de komende 10 dagen, anders wordt deze automatisch verwijderd.
+verificationReminderSecond-second-description = Met uw { -product-firefox-account } kunt u uw gegevens tussen apparaten synchroniseren en krijgt u toegang tot meer privacybeschermende producten van { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Maak deel uit van onze missie om het internet om te vormen tot een plek die openstaat voor iedereen.
 verificationReminderSecond-action-2 = Account bevestigen
 verify-title-2 = Open het internet met { -brand-firefox }
 verify-description = Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit { -brand-firefox }, te beginnen met:
 verify-subject = Aanmaken van uw account voltooien
 verify-action-2 = Account bevestigen
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Hebt u zich aangemeld bij { $clientName }?
+verifyLogin-description-2 = Help ons uw account veilig te houden door te bevestigen dat u bent aangemeld op:
 verifyLogin-subject-2 = Aanmelding bevestigen
 verifyLogin-action = Aanmelding bevestigen
 # Variables:
