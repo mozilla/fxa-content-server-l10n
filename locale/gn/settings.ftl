@@ -388,6 +388,7 @@ add-secondary-email-save-button = Ñongatu
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Ku’e 2 2-gui
+verify-secondary-email-error-3 = Oiko apañuãi emondokuévo nde ayvu jehechajeyrã
 verify-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
 verify-secondary-email-verification-code-2 =
@@ -570,6 +571,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Ani emoneĩ ambue yvypóra omoñepyrũ tembiapo ojerurévo
     ayvu peteĩva ndénte eipurukuaáva.
+tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
 tfa-row-disable-modal-explain =
