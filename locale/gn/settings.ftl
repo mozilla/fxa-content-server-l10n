@@ -415,6 +415,7 @@ tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
 tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
 tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
+tfa-cannot-verify-code-3 = Oiko apañuãi emoneĩjeykuévo nde ayvu jeguerujeyrã
 tfa-incorrect-recovery-code = Ayvu jeguerujeyrã ndoikóiva
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
@@ -505,6 +506,7 @@ rk-cannot-remove-key = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba�
 rk-refresh-key = Embohekopyahu mba’eñemi jeguerujeyrã
 rk-content-explain = Emboguevijey ne marandu nderesaráirõ ne ñe’ẽñemígui.
 rk-content-reset-data = ¿Mba’ére emoĩporãvo ñe’ẽñemi oĩporãta che mba’ekuaarã?
+rk-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
 rk-remove-modal-heading = ¿Embogue mba’eñemi jeguerujeyrã?
 rk-remove-modal-content =
     Emoĩporãsejeýramo ñe’ẽñemi, ndaikatumo’ãi
@@ -517,6 +519,7 @@ rk-remove-error-2 = Noñemboguekuaái mba’eñemi jeguerujeyrã ne mba’etégu
 se-heading = Ñanduti veve mokõiháva
     .header = Ñanduti veve mokõiháva
 se-cannot-refresh-email = Ore ñyrõ oĩ apañuãi hekopyahúvo pe ñanduti veve.
+se-cannot-resend-code-3 = Ore ñyrõ, oiko apañuãi emondojeykuévo ayvu jehechajeyrã
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -527,6 +530,8 @@ se-set-primary-error-2 = Ore ñyrõ, oĩ apañuãi emoambuévo ñanduti veve eip
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } oñembogue hekopete
 se-delete-email-error-2 = Ore ñyrõ, oĩ apañuãi emboguévo ko ñanduti veve
+se-verify-session-3 = Tekotevẽ emoneĩjey ne rembiapo ag̃agua ejapo mboyve ko jeku’e
+se-verify-session-error-3 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
 # Button to remove the secondary email
 se-remove-email =
     .title = Embogue ñanduti veve
@@ -534,6 +539,9 @@ se-remove-email =
 se-refresh-email =
     .title = Embohekopyahu ñanduti veve
 se-unverified-2 = ñemoneĩ’ỹva
+se-resend-code-2 =
+    Tekotevẽ ñemoneĩ. <button>Emondojey ayvu ñemoneĩrã</button>
+    ndaipórirõ ñe’ẽmondo g̃uahẽha térã spam ñongatuhápe.
 # Button to make secondary email the primary
 se-make-primary = Ejapo peteĩháramo
 se-default-content = Eike ne mba’etépe ndaikatúirõ emoñepyrũ tembiapo ñanduti vevépe.
