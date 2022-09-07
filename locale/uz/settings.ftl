@@ -58,12 +58,15 @@ app-footer-terms-of-service = Xizmat shartlari
 
 avatar-your-avatar =
     .alt = Avataringiz
+avatar-default-avatar =
+    .alt = Joriy avatar
 
 ##
 
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } Bento menyusi
 
 ## Connect another device promo
 
