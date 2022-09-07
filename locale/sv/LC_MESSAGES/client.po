@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox account\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
-"PO-Revision-Date: 2022-08-22 18:53+0000\n"
-"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
+"POT-Creation-Date: 2022-09-07 21:29+0000\n"
+"PO-Revision-Date: 2022-08-27 06:09+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: The Swedish L10n team <community-sweden@lists.mozilla.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -217,7 +217,7 @@ msgstr "Nerladdad"
 msgid "Printed"
 msgstr "Utskriven"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr "Kontot har bekräftats"
 
@@ -284,10 +284,6 @@ msgstr "Primär e-post verifierades framgångsrikt"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Sekundär e-post bekräftades framgångsrikt"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Konto verifierat"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -522,8 +518,8 @@ msgid "Update was rejected, please try again"
 msgstr "Uppdateringen avvisades, försök igen"
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "Ogiltig eller upphörd verifieringskod"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -599,8 +595,8 @@ msgid "Valid URL required"
 msgstr "Giltig URL krävs"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Ditt verifieringsmeddelande har returnerats. Skrivit fel e-post?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -820,7 +816,7 @@ msgstr "Ogiltigt meddelande från fjärrenheten"
 
 #: .es5/lib/pairing-channel-client-errors.js:52
 msgid "Error pairing to remote device"
-msgstr "Fel vid parning med fjärrenhet"
+msgstr "Fel vid parkoppling med fjärrenhet"
 
 #: .es5/lib/pairing-channel-client-errors.js:56
 msgid "Connection to remote device closed, please try again"
@@ -1520,7 +1516,7 @@ msgstr "Upprepa lösenordet"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Du behöver det här lösenordet för att komma åt krypterad data som du lagrar hos oss.<br class=\"mb-3\">En återställning innebär potentiellt att du kan förlora data som lösenord och bokmärken."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1943,7 +1939,7 @@ msgstr "Inte ett vanligt använt lösenord"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "Håll dig säker &mdash; återanvänd inte lösenord. Se fler tips för att <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">skapa starka lösenord</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -2065,7 +2061,7 @@ msgstr "Parkoppling lyckades."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "Bekräfta parkoppling <span class=\"card-subheader\">för <span class=\"break-all\">%(email)s</span></span>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"

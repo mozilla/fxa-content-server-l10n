@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-07 21:29+0000\n"
 "PO-Revision-Date: 2021-06-25 10:17+0000\n"
 "Last-Translator: Jordi Serratosa <jordis@softcatala.cat>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -217,7 +217,7 @@ msgstr "S'ha baixat"
 msgid "Printed"
 msgstr "S'ha imprès"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr ""
 
@@ -284,10 +284,6 @@ msgstr "L'adreça electrònica principal s'ha verificat correctament"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "L'adreça electrònica secundària s'ha verificat correctament"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "El compte s'ha verificat correctament"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -522,8 +518,8 @@ msgid "Update was rejected, please try again"
 msgstr "S'ha rebutjat l'actualització; torneu-ho a provar"
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "El codi de verificació no és vàlid o ha caducat"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -599,7 +595,7 @@ msgid "Valid URL required"
 msgstr "Es necessita un URL vàlid"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
+msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:400

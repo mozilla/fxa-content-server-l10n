@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-07 21:29+0000\n"
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
@@ -248,6 +248,7 @@ msgid "Printed"
 msgstr ""
 
 #: .es5/views/behaviors/settings.js:40
+#: .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr ""
 
@@ -313,10 +314,6 @@ msgstr ""
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr ""
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
 msgstr ""
 
 #: .es5/models/auth_brokers/web.js:38
@@ -566,7 +563,7 @@ msgid "Update was rejected, please try again"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
+msgid "Invalid or expired confirmation code"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:292
@@ -653,7 +650,7 @@ msgid "Valid URL required"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
+msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:400

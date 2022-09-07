@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-07 21:29+0000\n"
 "PO-Revision-Date: 2021-11-15 14:25+0000\n"
 "Last-Translator: nandar <ia.adnan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -217,7 +217,7 @@ msgstr "Kaundeur"
 msgid "Printed"
 msgstr "Kacitak"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr ""
 
@@ -284,10 +284,6 @@ msgstr "Surélék utama ngahasil divérifikasi"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Surélék sékundér ngahasil divérifikasi"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Akun ngahasil divérifikasi"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -522,8 +518,8 @@ msgid "Update was rejected, please try again"
 msgstr "Pamutahiran ditolak, mangga cobaan deui"
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "Kodeu péripikasi henteu bener atawa kadaluwarsa"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -599,8 +595,8 @@ msgid "Valid URL required"
 msgstr "URL sah diperlukeun"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Surélék vérifikasi anjeun cik kénéh dipulangkeun deui. Salah ngetik surélék boa?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."

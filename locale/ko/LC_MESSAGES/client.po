@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-07 21:29+0000\n"
 "PO-Revision-Date: 2022-08-28 05:14+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -217,7 +217,7 @@ msgstr "다운로드됨"
 msgid "Printed"
 msgstr "인쇄됨"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr "성공적으로 계정이 확인되었습니다"
 
@@ -284,10 +284,6 @@ msgstr "기본 이메일 검증 성공"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "보조 이메일 검증 성공"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "계정 검증 성공"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -522,8 +518,8 @@ msgid "Update was rejected, please try again"
 msgstr "업데이트가 거부되었습니다, 다시 시도하세요"
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "유효하지 않거나 만료된 검증 코드"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -599,8 +595,8 @@ msgid "Valid URL required"
 msgstr "올바른 URL 입력이 필요합니다"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "검증 이메일이 반송되었습니다. 이메일을 잘못 입력하셨나요?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -843,8 +839,12 @@ msgid "Invalid Token"
 msgstr "유효하지 않은 토큰"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보처리방침</a>에 동의한 것으로 간주합니다."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보처리방침</a>에 동의한 것으로 간주합"
+"니다."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -912,7 +912,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Firefox 계정에 다시 접근하기 위해서 안전한 곳에 보관해둔 일회용 복구 키를 입력하세요."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">참고:</span> 비밀번호를 재설정하고 계정 복구 키를 저장하지 않으면, 일부 데이터가 삭제됩니다(방문기록과 북마크같은 동기화된 서버 데이터 포함)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -968,7 +969,9 @@ msgstr "새 비밀번호 생성"
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>기억하세요.</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때문입니다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
+msgstr ""
+"<span>기억하세요.</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때"
+"문입니다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1155,8 +1158,11 @@ msgid "Password"
 msgstr "비밀번호"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "계속 진행하면 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급 방침</a>에 동의하는 것으로 간주합니다."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"계속 진행하면 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급 방침</a>에 동의하는 것으"
+"로 간주합니다."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1363,7 +1369,9 @@ msgstr "이런 일이 왜 일어나나요?"
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>안내</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때문입니다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
+msgstr ""
+"<span>안내</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때문입니"
+"다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1421,13 +1429,15 @@ msgstr "더 이상 사용하고 있는 이메일이 아닌가요? 새 계정 만
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              계속하면 다음 사항에 동의하는 것으로 간주됩니다.<br />\n"
-"              Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">서비스 이용 약관</a> 및 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">개인정보 취급 방침</a><br />\n"
+"              Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">서비스 이용 약관</a> 및 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">개인정보 취급 방침</a><br />\n"
 "              Firefox의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급 방침</a>.\n"
 "            "
 
@@ -1519,7 +1529,8 @@ msgstr "계정 생성"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
