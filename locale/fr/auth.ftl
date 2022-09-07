@@ -602,6 +602,9 @@ verificationReminderSecond-action-2 = Confirmer le compte
 verify-description = Confirmez votre compte et tirez le meilleur parti de { -brand-firefox } partout où vous vous connectez, en commençant par :
 verify-subject = Terminez la création de votre compte
 verify-action-2 = Confirmer le compte
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Vous êtes-vous connecté·e via { $clientName } ?
 verifyLogin-subject-2 = Confirmer la connexion
 verifyLogin-action = Confirmer la connexion
 # Variables:
