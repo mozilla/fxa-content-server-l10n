@@ -5,6 +5,7 @@
 
 ## Alert Bar
 
+alert-bar-close-message = Xabarni yopish
 
 ## Firefox and Mozilla Brand
 ##
@@ -20,18 +21,43 @@
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
+-brand-mozilla = Mozilla
+-brand-firefox = Firefox
+-brand-google = Google
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+-product-firefox-accounts = Firefox hisoblari
+# “Account” can be localized, “Firefox” must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
+-product-firefox-account = Firefox hisobi
+product-mozilla-vpn = Mozilla VPN
+product-pocket = Pocket
+product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
+-google-play = Google Play
+-app-store = App Store
 
 ##  Application page title and footer
 
+app-default-title = { -product-firefox-accounts }
+# This string is used as the title of the page.
+# Variables:
+#   $title (String) - the name of the current page
+#                      (for example: "Two-step authentication")
+app-page-title = { $title } | { -product-firefox-accounts }
+app-footer-mozilla-logo-label = { -brand-mozilla } logotipi
+app-footer-privacy-notice = Sayt maxfiylik qaydlari
+app-footer-terms-of-service = Xizmat shartlari
 
 ##
 
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Avataringiz
 
 ##
 
@@ -47,14 +73,13 @@
 
 ## Connected services section
 
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Brauzer tarixi ({ $device }) qurilmasida qoladi,
-    lekin u hisobingizga sinxronlanmaydi.
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -87,6 +112,9 @@ cs-disconnect-sync-content =
 ## Input Password
 
 
+## Linked Accounts section
+
+
 ## Modal
 
 
@@ -115,6 +143,12 @@ avatar-page-zoom-in-button =
 ##
 
 
+## Password create page
+
+
+##
+
+
 ## Delete account page
 
 
@@ -135,10 +169,6 @@ avatar-page-zoom-in-button =
 
 ## Verify secondary email page
 
-# This string is an instruction in a form.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = <strong>{ $email }</strong> manziliga 5 daqiqa ichida yuborilgan tasdiqlash kodini kiriting.
 
 ##
 
