@@ -83,6 +83,7 @@ automated-email-change =
 automated-email-change-plaintext = Kóva ha’e ñandutiveve hekojeheguíva; nerembojoajúi rire mba’e’oka pyahu nde { -product-firefox-account }-pe, emoambue pya’eterei ne ñe’ẽñemi { $passwordChangeLink }pe
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Eñemomaranduve hag̃ua, eike <a data-l10n-name="supportLink">{ -brand-mozilla } Pytyvõme</a>.
+automated-email-no-action-plaintext = Kóva ha’e peteĩ ñanduti veve hekojeheguíva. Og̃uahẽrei rire ndéve, anínte ejapo mba’eve.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Kóva ha’e peteĩ ñanduti veve hekojeheguíva; neremoneĩriramo ko mba’e, emoambue ne ñe’ẽñemi:
 automated-email-reset =
@@ -292,6 +293,7 @@ postRemoveTwoStepAuthentication-action = Mba’ete ñangareko
 postRemoveTwoStepAuthentication-not-required = Ayvu rekorosã natekotevẽitama eñepyrũjeývo tembiapo.
 postVerify-sub-title-3 = ¡Rovy’aiterei rohecha rehe!
 postVerify-title-2 = ¿Ehechasépa tendayke mokõi mba’e’okápe?
+postVerify-description-2 = ¡Ndahasýi! Emohenda { -brand-firefox } ambue mba’e’okápe ha eñepyrũ tembiapo embojuehe hag̃ua. ¡Ha’ete hasy’ỹva!
 postVerify-subject-3 = Eg̃uahẽporã { -brand-firefox }-pe
 postVerify-setup-2 = Embojuaju ambue mba’e’oka:
 postVerify-action-2 = Embojuaju ambue mba’e’oka
