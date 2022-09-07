@@ -248,10 +248,14 @@ passwordResetAccountRecovery-action = Créer une nouvelle clé de récupération
 passwordResetAccountRecovery-regen-required = Vous devez générer une nouvelle clé de récupération.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Créer une nouvelle clé de récupération :
+postAddAccountRecovery-title2 = Vous avez créé une nouvelle clé de récupération de compte
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Une nouvelle clé a été créée à partir de :
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Ce n’est pas vous ?
 postAddAccountRecovery-action = Gérer le compte
 postAddAccountRecovery-delete-key = Supprimez la nouvelle clé :
+postAddAccountRecovery-changd-password = Changez votre mot de passe :
 postAddLinkedAccount-subject = Nouveau compte lié à { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -294,6 +298,9 @@ postRemoveTwoStepAuthentication-description = Vous avez désactivé l’authenti
 postRemoveTwoStepAuthentication-description-plaintext = Vous avez désactivé l’authentification en deux étapes pour votre { -product-firefox-account }. Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion.
 postRemoveTwoStepAuthentication-action = Gérer le compte
 postRemoveTwoStepAuthentication-not-required = Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion.
+postVerify-sub-title-3 = Nous sommes ravis de vous voir !
+postVerify-title-2 = Vous voulez consulter le même onglet sur deux appareils ?
+postVerify-description-2 = C'est facile ! Installez simplement { -brand-firefox } sur un autre appareil et connectez-vous pour synchroniser, comme par magie.
 postVerify-sub-description = (Psst… Cela signifie également que vous pouvez obtenir vos marque-pages, mots de passe et autres données de { -brand-firefox } partout où vous êtes connecté·e.)
 postVerify-subject-3 = Bienvenue dans { -brand-firefox } !
 postVerify-setup-2 = Connectez un autre appareil :
@@ -590,6 +597,7 @@ confirm-email-plaintext-2 = { confirm-email-2 } :
 verificationReminderFirst-action-2 = Confirmer le compte
 verificationReminderSecond-subject-2 = N’oubliez pas de confirmer votre compte
 verificationReminderSecond-description-3 = Il y a quelques jours, vous avez créé un { -product-firefox-account }, mais vous ne l’avez jamais confirmé. Veuillez confirmer votre compte dans les 10 prochains jours ou il sera automatiquement supprimé.
+verificationReminderSecond-second-description = Votre { -product-firefox-account } vous permet de synchroniser vos informations sur tous vos appareils et donne accès à davantage de produits de { -brand-mozilla } pour protéger votre vie privée.
 verificationReminderSecond-action-2 = Confirmer le compte
 verify-description = Confirmez votre compte et tirez le meilleur parti de { -brand-firefox } partout où vous vous connectez, en commençant par :
 verify-subject = Terminez la création de votre compte
