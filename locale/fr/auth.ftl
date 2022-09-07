@@ -605,6 +605,7 @@ verify-action-2 = Confirmer le compte
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Vous êtes-vous connecté·e via { $clientName } ?
+verifyLogin-description-2 = Aidez-nous à protéger votre compte en confirmant votre connexion via :
 verifyLogin-subject-2 = Confirmer la connexion
 verifyLogin-action = Confirmer la connexion
 # Variables:
