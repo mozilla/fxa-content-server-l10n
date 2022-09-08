@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
-"PO-Revision-Date: 2022-08-25 10:00+0000\n"
+"POT-Creation-Date: 2022-09-08 22:13+0000\n"
+"PO-Revision-Date: 2022-08-26 07:34+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy\n"
@@ -219,7 +219,7 @@ msgstr "Download"
 msgid "Printed"
 msgstr "Ofdrukt"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr "Account mei sukses befêstige"
 
@@ -286,10 +286,6 @@ msgstr "Primêr e-mailadres mei sukses ferifiearre"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Sekundêr e-mailadres mei sukses ferifiearre"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Account mei sukses ferifiearre"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -524,8 +520,8 @@ msgid "Update was rejected, please try again"
 msgstr "Fernijing waard wegere, probearje it nochris"
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "Unjildige of ferrûne ferifikaasjekoade"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -601,8 +597,8 @@ msgid "Valid URL required"
 msgstr "Jildige URL fereaske"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Jo ferifikaasje-e-mail is sakrekt werom kaam. Typflater yn e-mailadres?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -1524,6 +1520,8 @@ msgstr "Nochris it wachtwurd"
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
+"Jo hawwe dit wachtwurd nedich om tagong te krijen ta kodearre gegevens dy’t jo by ús bewarje.<br class=\"mb-3\">In nije inisjalisaasje betsjut mooglik ferlies fan gegevens lykas wachtwurden en "
+"blêdwizers."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1951,7 +1949,7 @@ msgstr "Net in faaks brûkt wachtwurd"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "Bliuw feilich &mdash; brûk wachtwurden net opnij. Besjoch mear tips om <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">sterke wachtwurden te meitsjen</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -2073,7 +2071,7 @@ msgstr "Keppeling slagge."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "Keppeljen <span class=\"card-subheader\">foar <span class=\"break-all\">%(email)s</span></span> befêstigje"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-08 22:13+0000\n"
 "PO-Revision-Date: 2022-08-27 09:19+0000\n"
 "Last-Translator: Melo46 <melo@carmu.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -216,7 +216,7 @@ msgstr "Discargate"
 msgid "Printed"
 msgstr "Imprimite"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr "Conto confirmate con successo"
 
@@ -283,10 +283,6 @@ msgstr "Adresse de e-mail primari verificate correctemente"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Adresse de e-mail secundari verificate correctemente"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Conto verificate con successo"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -521,8 +517,8 @@ msgid "Update was rejected, please try again"
 msgstr "Actualisation rejectate, retenta"
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "Codice de verification invalide o expirate"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -598,8 +594,8 @@ msgid "Valid URL required"
 msgstr "Es requirite un URL valide"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Tu message de verification ha justo essite retornate. Es le adresse de e-mail incorrecte?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -842,7 +838,9 @@ msgid "Invalid Token"
 msgstr "Token non valide"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Per continuar, tu accepta <a id=\"service-tos\" href=\"%(termsUri)s\">conditiones de servicio</a> e le <a id=\"service-pp\" href=\"%(privacyUri)s\">aviso de confidentialitate</a> de %(serviceName)s "
 "(%(serviceUri)s)."
@@ -913,7 +911,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Per favor insere le clave de recuperation a uso unic que tu ha conservate in un loco secur pro reganiar le accesso a tu conto Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTA:</span> Si tu reinitialisa tu contrasigno e non dispone de un clave de recuperation del conto, alcunes de tu datos essera radite (incluse le datos synchronisate como "
 "chronologia e marcapaginas)."
@@ -1163,8 +1162,11 @@ msgid "Password"
 msgstr "Contrasigno"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Si tu procede, tu accepta le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Si tu procede, tu accepta le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de "
+"confidentialitate</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1431,14 +1433,17 @@ msgstr "Non possede tu plus iste adresse de e-mail? Crea un nove conto"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              Si tu procede, tu concorda con le:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Aviso de confidentialitate</a> de Pocket<br />\n"
-"              Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</a> de Firefox.\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Aviso de confidentialitate</a> de Pocket<br />\n"
+"              Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de "
+"confidentialitate</a> de Firefox.\n"
 "            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1531,13 +1536,16 @@ msgstr "Crear un conto"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "            Si tu procede, tu concorda con le:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">aviso de confidentialitate</a> de Pocket<br />\n"
-"            Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</a> de Firefox\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">aviso de confidentialitate</a> de Pocket<br />\n"
+"            Le <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">conditiones de servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">aviso de confidentialitate</"
+"a> de Firefox\n"
 "          "
 
 #: .es5/templates/support.mustache:1

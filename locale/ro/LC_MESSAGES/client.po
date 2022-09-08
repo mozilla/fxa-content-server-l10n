@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-08 22:13+0000\n"
 "PO-Revision-Date: 2022-08-18 23:02+0000\n"
 "Last-Translator: snow <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -217,7 +217,7 @@ msgstr "Descărcat"
 msgid "Printed"
 msgstr "Tipărit"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr ""
 
@@ -284,10 +284,6 @@ msgstr "E-mail principal verificat cu succes"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "E-mail secundar verificat cu succes"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Cont verificat cu succes"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -529,8 +525,8 @@ msgid "Update was rejected, please try again"
 msgstr "Actualizarea a fost respinsă, te rugăm să încerci din nou"
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "Cod de verificare nevalid sau expirat"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -608,8 +604,8 @@ msgid "Valid URL required"
 msgstr "Este necesar un URL valid"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Mesajul de verificare pe e-mail tocmai a fost returnat. Sigur ai scris corect adresa?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-08 22:13+0000\n"
 "PO-Revision-Date: 2022-08-29 17:01+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -217,7 +217,7 @@ msgstr "Stiahnuté"
 msgid "Printed"
 msgstr "Vytlačené"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr "Účet bol úspešne potvrdený"
 
@@ -284,10 +284,6 @@ msgstr "Hlavná e-mailová adresa bola úspešne overená"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Alternatívna e-mailová adresa bola úspešne overená"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Účet bol úspešne overený"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -522,8 +518,8 @@ msgid "Update was rejected, please try again"
 msgstr "Aktualizácia bola odmietnutá, prosím, skúste to znova"
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "Neplatný alebo starý overovací kód"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -599,8 +595,8 @@ msgid "Valid URL required"
 msgstr "Vyžaduje sa platná URL adresa"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "E-mailová správa pre overenie sa vrátila. Zadali ste adresu správne?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -843,7 +839,9 @@ msgid "Invalid Token"
 msgstr "Neplatný token"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Pokračovaním vyjadrujete súhlas s <a id=\"service-tos\" href=\"%(termsUri)s\">Podmienkami používania služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">Zásadami ochrany osobných údajov</a> "
 "služby %(serviceName)s (%(serviceUri)s)."
@@ -914,7 +912,8 @@ msgid "Please enter the one time use recovery key you stored in a safe place to 
 msgstr "Prosím, zadajte jednorázový obnovovací kľúč, ktorý ste si uložili na bezpečné miesto a získajte tak opätovný prístup ku svojmu účtu Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">POZNÁMKA:</span> Ak obnovíte svoje heslo a nemáte obnovovací kľúč, niektoré vaše údaje uložené na serveri budú odstránené (napríklad história či záložky)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1162,8 +1161,11 @@ msgid "Password"
 msgstr "Heslo"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Pokračovaním vyjadrujete súhlas s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">podmienkami služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">zásadami ochrany súkromia</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Pokračovaním vyjadrujete súhlas s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">podmienkami služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">zásadami ochrany "
+"súkromia</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1430,13 +1432,16 @@ msgstr "Už tento účet nevlastníte? Vytvorte si nový účet"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "Pokračovaním súhlasíte s:<br />\n"
-"<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Zmluvné podmienky</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Oznámenie o ochrane osobných údajov</a> služby Pocket<br />\n"
-"<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Zmluvné podmienky</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Oznámenie o ochrane osobných údajov</a> prehliadača Firefox."
+"<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Zmluvné podmienky</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Oznámenie "
+"o ochrane osobných údajov</a> služby Pocket<br />\n"
+"<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Zmluvné podmienky</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Oznámenie o ochrane osobných údajov</a> prehliadača "
+"Firefox."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1526,13 +1531,16 @@ msgstr "Vytvoriť účet"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "Pokračovaním súhlasíte s:<br />\n"
-"<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Zmluvné podmienky</a> a <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Oznámenie o ochrane osobných údajov</a> služby Pocket<br />\n"
-"<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Zmluvné podmienky</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Oznámenie o ochrane osobných údajov</a> prehliadača Firefox."
+"<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Zmluvné podmienky</a> a <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Oznámenie "
+"o ochrane osobných údajov</a> služby Pocket<br />\n"
+"<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Zmluvné podmienky</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Oznámenie o ochrane osobných údajov</a> prehliadača "
+"Firefox."
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"

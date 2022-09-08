@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-08 22:13+0000\n"
 "PO-Revision-Date: 2022-04-29 15:31+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -216,7 +216,7 @@ msgstr "దింపుకోలు చేయబడింది"
 msgid "Printed"
 msgstr "ముద్రించబడింది"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr ""
 
@@ -283,10 +283,6 @@ msgstr "ప్రాథమిక ఇమెయిల్ విజయవంతం�
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "రెండవ ఈమెయిలు విజయవంతంగా తనిఖీ చేయబడింది"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "ఖాతా విజయవంతంగా నిర్ధారించబడింది"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -521,7 +517,7 @@ msgid "Update was rejected, please try again"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
+msgid "Invalid or expired confirmation code"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
@@ -598,8 +594,8 @@ msgid "Valid URL required"
 msgstr "చెల్లుబాటు అయ్యే URL అవసరం"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "మీ ధృవీకరణ ఇమెయిల్ తిరిగి. ఇమెయిల్ తప్పుగా టైప్ చేసారా?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."

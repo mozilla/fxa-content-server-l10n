@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-08 22:13+0000\n"
 "PO-Revision-Date: 2019-10-27 18:49+0000\n"
 "Last-Translator: Akmal <akmalxster@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -216,7 +216,7 @@ msgstr ""
 msgid "Printed"
 msgstr ""
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr ""
 
@@ -283,10 +283,6 @@ msgstr ""
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr ""
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Hisob tasdiqlandi"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -521,7 +517,7 @@ msgid "Update was rejected, please try again"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
+msgid "Invalid or expired confirmation code"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
@@ -598,7 +594,7 @@ msgid "Valid URL required"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
+msgid "Your confirmation email was just returned. Mistyped email?"
 msgstr ""
 
 #: .es5/lib/auth-errors.js:400
