@@ -302,6 +302,8 @@ postVerifySecondary-title = İkinci e-posta eklendi
 postVerifySecondary-action = Hesabı yönet
 recovery-subject = Parolanızı sıfırlayın
 recovery-title-2 = Parolanızı mı unuttunuz?
+recovery-new-password-button = Aşağıdaki düğmeye tıklayarak yeni bir parola oluşturun. Bu bağlantının kullanım süresi bir saat sonra bitecek.
+recovery-copy-paste = Aşağıdaki adresi kopyalayıp tarayıcınıza yapıştırarak yeni bir parola oluşturun. Bu bağlantının kullanım süresi bir saat sonra bitecek.
 recovery-action = Yeni parola oluştur
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -546,14 +548,17 @@ unblockCode-prompt = Sizseniz bu yetkilendirme kodunu kullanabilirsiniz:
 unblockCode-prompt-plaintext = Sizseniz bu yetkilendirme kodunu kullanabilirsiniz: { $unblockCode }
 unblockCode-report = Değilseniz, saldırganları kapı dışarı edebilmemiz için <a data-l10n-name="reportSignInLink">bize rapor edin</a>.
 unblockCode-report-plaintext = Değilseniz, saldırganları kapı dışarı edebilmemiz için bize rapor edin.
+verificationReminderFinal-subject = Hesabınızı onaylamanız için son hatırlatma
 confirm-account = Hesabı onaylayın
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Hesabınızı onaylamayı unutmayın
 verificationReminderFirst-title-2 = { -brand-firefox }’a hoş geldiniz!
+verificationReminderFirst-sub-description-2 = Sizi ve gizliliğinizi ilk sıraya koyan teknolojileri kaçırmayın.
 confirm-email-2 = Hesabı onaylayın
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Hesabı onaylayın
 verificationReminderSecond-subject-2 = Hesabınızı onaylamayı unutmayın
+verificationReminderSecond-title-2 = { -brand-firefox } sizi bekliyor!
 verificationReminderSecond-action-2 = Hesabı onaylayın
 verify-title-2 = İnternete { -brand-firefox } ile açılın
 verify-description = Hesabınız doğrulayın, giriş yaptığınız her yerde { -brand-firefox }’tan daha iyi şekilde yararlanın. İlk olarak…

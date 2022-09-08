@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-26 04:39+0000\n"
-"PO-Revision-Date: 2022-09-03 22:33+0000\n"
+"PO-Revision-Date: 2022-09-08 12:54+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -1230,7 +1230,7 @@ msgstr "Kurulumu iptal et"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm recovery code"
-msgstr "Kurtarma kodunu doğrulayın"
+msgstr "Kurtarma kodunu onaylayın"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
@@ -1461,7 +1461,7 @@ msgstr "Ekibimiz bilgilendirildi. Bu gibi raporlar, saldırganları dışarıda 
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "<span class=\"card-subheader\">Firefox hesabınızın</span> onay kodunu girin"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
@@ -1747,7 +1747,7 @@ msgstr "Parola girin"
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
 msgid "Confirm password"
-msgstr "Parolayı doğrulayın"
+msgstr "Parolayı onaylayın"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
@@ -1851,7 +1851,7 @@ msgstr "Kurtarma anahtarı al"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr "Kurtarma anahtarınızı oluşturmak için lütfen %(escapedEmail)s parolanızı doğrulayın."
+msgstr "Kurtarma anahtarınızı oluşturmak için lütfen %(escapedEmail)s parolanızı onaylayın."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your recovery key to confirm that you've saved a copy."
@@ -1983,6 +1983,9 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Artık: <span>%(deviceFamily)s - %(deviceOS)s</span> cihazıyla eşitleme yapıyorsunuz\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
