@@ -81,6 +81,8 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Tämä on automaattisesti lähtetty viesti. Jos et lisännyt uutta laitetta { -product-firefox-account }isi, vaihda salasanasi välittömästi osoitteessa { $passwordChangeLink }
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }-tuesta</a>.
 automated-email-no-action-plaintext = Tämä on automaattinen sähköposti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Tämä on automaattinen sähköpostiviesti; Jos et valtuuttanut tätä toimintoa, vaihda salasanasi:
@@ -131,6 +133,9 @@ subscriptionUpdateBillingTry-plaintext = Kokeilemme suorittaa veloituksen uudell
 subscriptionUpdatePayment = Estääksesi palvelun käytön häiriintymisen, <a data-l10n-name="updateBillingUrl">päivitä maksutietosi</a> mahdollisimman pian.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Päivitä maksutietosi mahdollisimman pian, jotta palvelusi ei keskeydy:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Lisätietoja saat { -brand-mozilla }-tuesta: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -286,6 +291,7 @@ postRemoveTwoStepAuthentication-action = Hallinnoi tiliä
 postRemoveTwoStepAuthentication-not-required = Turvallisuuskoodeja ei enää vaadita jokaisella kirjautumisella.
 postVerify-sub-title-3 = Mukava nähdä sinua!
 postVerify-title-2 = Haluatko nähdä saman välilehden kahdessa laitteessa?
+postVerify-description-2 = Se on helppoa! Asenna { -brand-firefox } toiseen laitteeseen ja kirjaudu sisään synkronointia varten. Se on kuin taikuutta!
 postVerify-setup-2 = Yhdistä toinen laite:
 postVerify-action-2 = Yhdistä toinen laite
 postVerifySecondary-subject = Toissijainen sähköpostiosoite lisätty
@@ -293,6 +299,8 @@ postVerifySecondary-title = Toissijainen sähköpostiosoite lisätty
 postVerifySecondary-action = Hallinnoi tiliä
 recovery-subject = Nollaa salasanasi
 recovery-title-2 = Unohditko salasanasi?
+recovery-new-password-button = Luo uusi salasana napsauttamalla alla olevaa painiketta. Tämä linkki vanhenee seuraavan tunnin sisällä.
+recovery-copy-paste = Luo uusi salasana kopioimalla ja liittämällä alla oleva URL-osoite selaimeesi. Tämä linkki vanhenee seuraavan tunnin sisällä.
 recovery-action = Luo uusi salasana
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -563,15 +571,19 @@ verificationReminderFinal-subject = Viimeinen muistutus tilisi vahvistamisesta
 confirm-account = Vahvista tili
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Muista vahvistaa tilisi
+verificationReminderFirst-sub-description-2 = Älä jää paitsi tekniikkasta, joka asettaa sinut ja yksityisyytesi etusijalle.
 confirm-email-2 = Vahvista tili
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Vahvista tili
 verificationReminderSecond-subject-2 = Muista vahvistaa tilisi
+verificationReminderSecond-title-2 = Älä jää paitsi { -brand-firefox }ista!
+verificationReminderSecond-sub-description-2 = Ole osa tehtäväämme muuttaa internet kaikille avoimeksi paikaksi.
 verificationReminderSecond-action-2 = Vahvista tili
 verify-title-2 = Avaa internet { -brand-firefox }illa
 verify-description = Vahvista tilisi ja ota kaikki hyöty irti { -brand-firefox }ista kaikkialla missä kirjaudut sisään, aloittaen tästä:
 verify-subject = Viimeistele tilisi luominen
 verify-action-2 = Vahvista tili
+verifyLogin-description-2 = Auta meitä pitämään tilisi turvassa vahvistamalla, että kirjauduit sisään:
 verifyLogin-subject-2 = Vahvista sisäänkirjautuminen
 verifyLogin-action = Vahvista kirjautuminen
 # Variables:
@@ -585,6 +597,7 @@ verifyPrimary-description = Tilin muutospyyntö on tehty laitteella:
 verifyPrimary-subject = Vahvista ensisijainen sähköpostiosoite
 verifyPrimary-action-2 = Vahvista sähköposti
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Vahvistuksen jälkeen tilimuutokset, kuten toissijaisen sähköpostiosoitteen lisääminen, ovat mahdollisia tällä laitteella.
 verifySecondaryCode-subject = Vahvista toissijainen sähköpostiosoite
 verifySecondaryCode-title-2 = Vahvista toissijainen sähköpostiosoite
 verifySecondaryCode-action-2 = Vahvista sähköposti
