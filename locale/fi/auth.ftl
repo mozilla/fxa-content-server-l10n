@@ -571,6 +571,7 @@ verificationReminderFinal-subject = Viimeinen muistutus tilisi vahvistamisesta
 confirm-account = Vahvista tili
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Muista vahvistaa tilisi
+verificationReminderFirst-title-2 = Tervetuloa, käytössäsi on { -brand-firefox }!
 verificationReminderFirst-sub-description-2 = Älä jää paitsi tekniikkasta, joka asettaa sinut ja yksityisyytesi etusijalle.
 confirm-email-2 = Vahvista tili
 confirm-email-plaintext-2 = { confirm-email-2 }:
