@@ -180,6 +180,8 @@ view-invoice-plaintext = Voir la facture : { $invoiceLink }
 cadReminderFirst-subject-1 = Rappel ! Procédons à la synchronisation de { -brand-firefox }
 cadReminderFirst-action = Synchroniser un autre appareil
 cadReminderFirst-action-plaintext = { cadReminderFirst-action } :
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Il en faut deux pour synchroniser
 cadReminderFirst-description-1 = Emportez vos onglets sur tous vos appareils. Retrouvez vos marque-pages, vos mots de passe et vos autres données partout où vous utilisez { -brand-firefox }. C’est la magie de votre compte { -brand-firefox } !
 cadReminderFirst-description-2 = Synchroniser ne prend qu’une seconde.
 cadReminderSecond-subject-2 = Ne passez pas à côté ! Terminons la configuration de votre synchronisation
