@@ -559,6 +559,7 @@ unblockCode-prompt = Jos kirjaudut, tässä on tarvitsemasi valtuuskoodi:
 unblockCode-prompt-plaintext = Jos kyllä, tässä on tarvitsemasi valtuuskoodi: { $unblockCode }
 unblockCode-report = Jos et, auta meitä torjumaan tunkeutujia ja <a data-l10n-name="reportSignInLink">ilmoita asiasta meille</a>.
 unblockCode-report-plaintext = Jos et, auta meitä torjumaan tunkeutujia ja ilmoita asiasta meille.
+verificationReminderFinal-subject = Viimeinen muistutus tilisi vahvistamisesta
 confirm-account = Vahvista tili
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Muista vahvistaa tilisi
@@ -567,6 +568,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Vahvista tili
 verificationReminderSecond-subject-2 = Muista vahvistaa tilisi
 verificationReminderSecond-action-2 = Vahvista tili
+verify-title-2 = Avaa internet { -brand-firefox }illa
 verify-description = Vahvista tilisi ja ota kaikki hyöty irti { -brand-firefox }ista kaikkialla missä kirjaudut sisään, aloittaen tästä:
 verify-subject = Viimeistele tilisi luominen
 verify-action-2 = Vahvista tili
@@ -594,5 +596,6 @@ verifySecondaryCode-expiry-notice-2 = Se vanhenee 5 minuutissa. Vahvistamisen j�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Vahvista tilisi
+verifyShortCode-title-2 = Avaa internet { -brand-firefox }illa
 verifyShortCode-prompt-3 = Käytä tätä vahvistuskoodia:
 verifyShortCode-expiry-notice = Se vanhenee viidessä minuutissa.
