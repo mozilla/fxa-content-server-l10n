@@ -248,11 +248,13 @@ passwordResetAccountRecovery-action = Créer une nouvelle clé de récupération
 passwordResetAccountRecovery-regen-required = Vous devez générer une nouvelle clé de récupération.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Créer une nouvelle clé de récupération :
+postAddAccountRecovery-subject-2 = Clé de récupération de compte créée
 postAddAccountRecovery-title2 = Vous avez créé une nouvelle clé de récupération de compte
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = Une nouvelle clé a été créée à partir de :
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Ce n’est pas vous ?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Supprimez la nouvelle clé</a> et <a data-l10n-name="passwordChangeLink">changez votre mot de passe</a>
 postAddAccountRecovery-action = Gérer le compte
 postAddAccountRecovery-delete-key = Supprimez la nouvelle clé :
 postAddAccountRecovery-changd-password = Changez votre mot de passe :
@@ -313,6 +315,9 @@ postVerifySecondary-content-2 = L’adresse électronique secondaire { $secondar
 postVerifySecondary-action = Gérer le compte
 recovery-subject = Réinitialiser le mot de passe
 recovery-title-2 = Mot de passe oublié ?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Nous avons reçu une demande de changement de mot de passe pour votre { -product-firefox-account } depuis :
 recovery-new-password-button = Créez un nouveau mot de passe en cliquant sur le bouton ci-dessous. Ce lien expirera dans une heure.
 recovery-copy-paste = Créez un nouveau mot de passe en copiant et collant l’URL ci-dessous dans votre navigateur. Ce lien expirera dans une heure.
 recovery-action = Créer un nouveau mot de passe
@@ -592,13 +597,17 @@ confirm-account-plaintext = { confirm-account } :
 verificationReminderFirst-subject-2 = N’oubliez pas de confirmer votre compte
 verificationReminderFirst-title-2 = Bienvenue dans { -brand-firefox } !
 verificationReminderFirst-description-2 = Il y a quelques jours, vous avez créé un { -product-firefox-account }, mais vous ne l’avez jamais confirmé. Veuillez confirmer votre compte dans les 15 prochains jours ou il sera automatiquement supprimé.
+verificationReminderFirst-sub-description-2 = Ne passez pas à côté de la technologie qui fait passer la confidentialité avant tout le reste.
 confirm-email-2 = Confirmer le compte
 confirm-email-plaintext-2 = { confirm-email-2 } :
 verificationReminderFirst-action-2 = Confirmer le compte
 verificationReminderSecond-subject-2 = N’oubliez pas de confirmer votre compte
+verificationReminderSecond-title-2 = Ne manquez rien de { -brand-firefox } !
 verificationReminderSecond-description-3 = Il y a quelques jours, vous avez créé un { -product-firefox-account }, mais vous ne l’avez jamais confirmé. Veuillez confirmer votre compte dans les 10 prochains jours ou il sera automatiquement supprimé.
 verificationReminderSecond-second-description = Votre { -product-firefox-account } vous permet de synchroniser vos informations sur tous vos appareils et donne accès à davantage de produits de { -brand-mozilla } pour protéger votre vie privée.
+verificationReminderSecond-sub-description-2 = Rejoignez notre mission pour transformer Internet en un lieu ouvert à tout le monde.
 verificationReminderSecond-action-2 = Confirmer le compte
+verify-title-2 = Accédez à Internet avec { -brand-firefox }
 verify-description = Confirmez votre compte et tirez le meilleur parti de { -brand-firefox } partout où vous vous connectez, en commençant par :
 verify-subject = Terminez la création de votre compte
 verify-action-2 = Confirmer le compte
@@ -631,6 +640,7 @@ verifySecondaryCode-expiry-notice-2 = Celui-ci expire dans 5 minutes. Une fois 
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirmez votre compte
+verifyShortCode-title-2 = Accédez à Internet avec { -brand-firefox }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Confirmez votre compte et tirez le meilleur parti de { -brand-firefox } partout où vous vous connectez, en commençant par :
 verifyShortCode-prompt-3 = Utilisez ce code de confirmation :
