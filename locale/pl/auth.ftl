@@ -375,6 +375,13 @@ postRemoveTwoStepAuthentication-description = Pomyślnie wyłączono uwierzyteln
 postRemoveTwoStepAuthentication-description-plaintext = Pomyślnie wyłączono uwierzytelnianie dwuetapowe na { -product-firefox-account(case: "loc", capitalization: "lower") }. Od teraz kody zabezpieczeń nie będą wymagane podczas każdego logowania.
 postRemoveTwoStepAuthentication-action = Zarządzaj kontem
 postRemoveTwoStepAuthentication-not-required = Od teraz kody zabezpieczeń nie będą wymagane podczas każdego logowania.
+postVerify-sub-title-3 = Cieszymy się, że Cię widzimy!
+postVerify-title-2 = Chcesz mieć tę samą kartę na dwóch urządzeniach?
+postVerify-description-2 = To łatwe! Wystarczy zainstalować { -brand-firefox(case: "acc") } na innym urządzeniu i zalogować się do synchronizacji. To jak magia!
+postVerify-sub-description = (A przy okazji… oznacza to, że możesz mieć swoje zakładki, hasła i wszystkie inne dane { -brand-firefox(case: "gen") } wszędzie tam, gdzie się zalogujesz.)
+postVerify-subject-3 = Witamy w { -brand-firefox(case: "loc") }!
+postVerify-setup-2 = Połącz inne urządzenie:
+postVerify-action-2 = Połącz inne urządzenie
 postVerifySecondary-subject = Dodano dodatkowy adres e-mail
 postVerifySecondary-title = Dodano dodatkowy adres e-mail
 # Variables:
@@ -382,6 +389,12 @@ postVerifySecondary-title = Dodano dodatkowy adres e-mail
 postVerifySecondary-content-2 = Pomyślnie potwierdzono { $secondaryEmail } jako dodatkowy adres e-mail dla { -product-firefox-account(case: "gen", capitalization: "lower") }. Powiadomienia bezpieczeństwa i potwierdzenia logowania będą teraz wysyłane na oba adresy.
 postVerifySecondary-action = Zarządzaj kontem
 recovery-subject = Zmień hasło
+recovery-title-2 = Nie pamiętasz hasła?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-firefox-account(case: "gen", capitalization: "lower") } z:
+recovery-new-password-button = Utwórz nowe hasło, klikając poniższy przycisk. Ten odnośnik wygaśnie w ciągu godziny.
+recovery-copy-paste = Utwórz nowe hasło, kopiując i wklejając poniższy adres do przeglądarki. Ten odnośnik wygaśnie w ciągu godziny.
 recovery-action = Utwórz nowe hasło
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -662,6 +675,7 @@ unblockCode-prompt = Jeśli tak, to potrzebny jest ten kod upoważnienia:
 unblockCode-prompt-plaintext = Jeśli tak, to potrzebny jest ten kod upoważnienia: { $unblockCode }
 unblockCode-report = Jeśli nie, prosimy pomóc nam odpędzić intruzów <a data-l10n-name="reportSignInLink">zgłaszając to</a>.
 unblockCode-report-plaintext = Jeśli nie, prosimy pomóc nam odpędzić intruzów zgłaszając to.
+verificationReminderFinal-subject = Ostatnie przypomnienie o potwierdzeniu konta
 verify-description = Potwierdź konto i w pełni wykorzystaj { -brand-firefox(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:
 verify-subject = Dokończ tworzenie konta
 verifyLogin-action = Potwierdź logowanie
