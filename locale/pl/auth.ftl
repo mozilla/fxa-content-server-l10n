@@ -692,8 +692,15 @@ verificationReminderSecond-description-3 = Kilka dni temu utworzono { -product-f
 verificationReminderSecond-second-description = { -product-firefox-account } umożliwia synchronizowanie swoich danych między urządzeniami i odblokowuje dostęp do innych produktów chroniących prywatność od { -brand-mozilla(case: "gen") }.
 verificationReminderSecond-sub-description-2 = Bądź częścią naszej misji przekształcania Internetu w miejsce otwarte dla wszystkich.
 verificationReminderSecond-action-2 = Potwierdź konto
+verify-title-2 = Uczyń Internet bardziej otwartym z { -brand-firefox(case: "ins") }
 verify-description = Potwierdź konto i w pełni wykorzystaj { -brand-firefox(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:
 verify-subject = Dokończ tworzenie konta
+verify-action-2 = Potwierdź konto
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Czy zalogowano do „{ $clientName }”?
+verifyLogin-description-2 = Pomóż nam zapewnić bezpieczeństwo Twojego konta, potwierdzając logowanie na:
+verifyLogin-subject-2 = Potwierdź logowanie
 verifyLogin-action = Potwierdź logowanie
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -715,4 +722,11 @@ verifySecondaryCode-action-2 = Potwierdź adres e-mail
 verifySecondaryCode-explainer = Z tego { -product-firefox-account(case: "gen", capitalization: "lower") } wysłano prośbę o dodanie { $email } jako dodatkowego adresu e-mail:
 verifySecondaryCode-prompt-2 = Użyj tego kodu potwierdzenia:
 verifySecondaryCode-expiry-notice-2 = Wygasa za 5 minut. Po potwierdzeniu ten adres będzie otrzymywał powiadomienia bezpieczeństwa i potwierdzenia.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Potwierdź konto
+verifyShortCode-title-2 = Uczyń Internet bardziej otwartym z { -brand-firefox(case: "ins") }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Potwierdź konto i w pełni wykorzystaj { -brand-firefox(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:
+verifyShortCode-prompt-3 = Użyj tego kodu potwierdzenia:
 verifyShortCode-expiry-notice = Wygasa za 5 minut.
