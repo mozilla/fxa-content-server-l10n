@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-26 04:39+0000\n"
-"PO-Revision-Date: 2022-09-11 06:58+0000\n"
-"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
+"PO-Revision-Date: 2022-09-12 01:15+0000\n"
+"Last-Translator: wxie <xiewensheng@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -1173,7 +1173,7 @@ msgstr "继续前往 Firefox 账户"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "在您使用 Firefox 的任何地方同步您的密码、页面和书签。"
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
@@ -1189,7 +1189,7 @@ msgstr "注册或登录"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "一个 Firefox 账户还能解锁更多来自 Mozilla 的隐私保护产品。"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save recovery codes"
@@ -1426,6 +1426,8 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"若继续，则代表您同意：<br />\n"
+"Pocket 的 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服务条款</a> 及 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">隐私声明</a><br /> Firefox 的 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a> 及 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter recovery code"
@@ -1519,6 +1521,9 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"若继续，则代表您同意：<br />\n"
+"Pocket 的 <a calss=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">服务条款</a> 及 <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">隐私声明</a><br />\n"
+"Firefox 的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>"
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
