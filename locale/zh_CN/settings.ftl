@@ -104,7 +104,7 @@ cs-logged-out-2 = 已退出 { $service }
 cs-refresh-button =
     .title = 刷新关联服务
 # Link text to a support page on missing or duplicate devices
-cs-missing-device-help = 缺失或者项目重复？
+cs-missing-device-help = 项目缺失或重复？
 cs-disconnect-sync-heading = 断开同步
 
 ## This string is used in a modal dialog when the user starts the disconnect from
