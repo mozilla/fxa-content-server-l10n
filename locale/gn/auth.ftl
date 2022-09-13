@@ -194,17 +194,7 @@ fraudulentAccountDeletion-contact = Eporanduséramo, eñe’ẽ ore <a data-l10n
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore aty pytyvõha ndive: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Sa’íma opyta ayvu erukuaajeýva
-codes-reminder-description = Rohechakuaa opytaha ndéve sa’íma ayvu jeguerujeyrã. Ikatúramo emoheñoijey ayvu pyahu emboyke hag̃ua apañuãi eikekuévo ne mba’etépe.
-codes-generate = Emoheñói ayvu
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Emoheñói ayvu
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] Opyta 1 ayvu jeguerujeyrã
-       *[other] { $numberRemaining } opyta ayvu jeguerujeyrã{ $numberRemaining } códigos de recuperación{ $numberRemaining } códigos de recuperación
-    }
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tembiapo ñepyrũ pyahu { $clientName }-pe
@@ -232,13 +222,6 @@ passwordChangeRequired-different-password-plaintext = Mba’eguasu: eiporavo pet
 passwordReset-subject = Ñe’ẽñemi hekopyahúva
 passwordReset-title = Ne mba’ete ñe’ẽñemi oñemoambue
 passwordReset-description = Emoingeva’erã ñe’ẽñemi pyahu ne ambue mba’e’okápe oñepyrũjey hag̃ua ñembojuehe.
-passwordResetAccountRecovery-subject = Ñe’ẽñemi hekopyahu eipurúvo mba’eñemi jeguerujeyrã
-passwordResetAccountRecovery-title = Ne mba’ete ñe’ẽñemi ojeguerujey mba’eñemi jeguerujeyrã rupi
-passwordResetAccountRecovery-description = Eguerujeýma ne ñe’ẽñemi eipurúvo mba’eñemi jeguerujeyrã tenondevegua mba’e’oka guive:
-passwordResetAccountRecovery-action = Emoheñói mba’eñemi jeguerujeyrã pyahu
-passwordResetAccountRecovery-regen-required = Emoheñóiva’erã mba’eñemi jeguerujeyrã pyahu.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Emoheñói mba’eñemi jeguerujeyrã pyahu:
 postAddAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã
 postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 # Information on the browser and device triggering this string follows.
@@ -266,19 +249,12 @@ postChangePrimary-title = Ñandutiveve pyahu mba’eguasuvéva
 #  $email (String) - A user's email address
 postChangePrimary-description = Emoambue hekopete ne ñandutiveve eipuruvéva { $email }. Ko kundaharape ha’e nde puruhára réra eñepyrũ hag̃ua tembiapo nde { -product-firefox-account }-pe og̃uahẽkuaa hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua.
 postChangePrimary-action = Mba’ete ñangareko
-postConsumeRecoveryCode-subject = Ojepuru ayvu jeguerujeyrã
-postConsumeRecoveryCode-title = Eipuru ayvu jeguerujeyrã
-postConsumeRecoveryCode-description = Eipuru porã jeguerujeyrãva amo mba’e’o’ka guive:
 postConsumeRecoveryCode-action = Mba’ete ñangareko
-postNewRecoveryCodes-subject = Oñemoheñói ayvu jeguerujeyrã pyahu
-postNewRecoveryCodes-title = Oñemoheñói ayvu jeguerujeyrã pyahu
-postNewRecoveryCodes-description = Emoheñói porã mba’eñemi jeguerujeyrã pyahu tenondevegua mba’e’oka guive:
 postNewRecoveryCodes-action = Mba’ete ñangareko
 postRemoveAccountRecovery-subject = Oguéma ayvu jeguerujeyrã mba’ete
 postRemoveAccountRecovery-title = Oguéma ayvu jeguerujeyrã mba’ete
 postRemoveAccountRecovery-description = Embogue porã pe mba’eñemi jeguerujeyrã { -product-firefox-account } pegua eipurúvo ko tenondevegua mba’e’oka:
 postRemoveAccountRecovery-action = Mba’ete ñangareko
-postRemoveAccountRecovery-invalid = Ko mba’eñemi jeguerujeyrã ndoikovéima erujey hag̃ua ne mba’ete.
 postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
 # Variables:
@@ -580,7 +556,6 @@ confirm-account = Emoneĩjey mba’ete
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
 verificationReminderFirst-title-2 = ¡Eg̃uahẽporã { -brand-firefox }-pe!
-verificationReminderFirst-sub-description-2 = Aníke ejavy umi tembipurupyahu nemomba’e ha nemohekoñemíva.
 confirm-email-2 = Emoneĩjey mba’ete
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Emoneĩjey mba’ete

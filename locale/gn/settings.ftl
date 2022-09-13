@@ -152,7 +152,7 @@ cs-sign-out-button = Emboty tembiapo
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Mboguejypyre
@@ -185,9 +185,9 @@ drop-down-menu-sign-out-error-2 = Ore ñyrõ, iñapañuãi embotykuévo ne rembi
 
 flow-container-back = Tapykue
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Ayvu jeguerujeyrã
+get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-download =
     .title = Mboguejy
 get-data-trio-copy =
@@ -243,14 +243,8 @@ nav-data-collection = Ñembyaty ha mba’ekuaarã jepuru
 nav-paid-subs = Ñemboheraguapy ñehepyme’ẽgua
 nav-email-comm = Ñemongeta ñanduti veve rupive
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Oiko apañuãi emyengoviávo nde ayvu jeguerujeyrã
-tfa-replace-code-success =
-    Oñemoheñói ayvu pyahu. Eñongatu ko’ã ayvu
-    peteĩ jeýnte ojepurukuaáva tenda hekorosãvape; eikotevéta eike hag̃ua ne mba’etépe
-    ndererekóirõ mba’e’oka oku’éva.
-tfa-replace-code-success-alert-2 = Mba’ete jeguerujey ayvu hekopyahúma
 tfa-replace-code-1-2 = Ku’e 1 2-gui
 tfa-replace-code-2-2 = Ku’e 2 2-gui
 
@@ -360,19 +354,15 @@ display-name-success-alert-2 = Téra ojehecháva hekopyahúma
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Heja
 recovery-key-close-button = Mboty
 recovery-key-continue-button = Ku’ejey
-recovery-key-created = Ne mba’eñemi guerujeyrã heñóima. Eñongatúke ne mba’eñemi tenda hekorosãvape ejuhukuaa hag̃ua upe rire: eikotevẽta mba’eñemi eikekuaajey hag̃ua ne mba’ekuaarãme nderesaráirõ ne ñe’ẽñemígui.
 recovery-key-enter-password =
     .label = Emoinge ñe’ẽñemi
-recovery-key-page-title =
-    .title = Mba’eñemi jeguerujey
 recovery-key-step-1 = Ku’e 1 2-gui
 recovery-key-step-2 = Ku’e 2 2-gui
-recovery-key-success-alert-2 = Oñemoheñói mba’eñemi jeguerujeyrã
 
 ## Add secondary email page
 
@@ -416,8 +406,6 @@ tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
 tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
 tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
-tfa-cannot-verify-code-3 = Oiko apañuãi emoneĩjeykuévo nde ayvu jeguerujeyrã
-tfa-incorrect-recovery-code = Ayvu jeguerujeyrã ndoikóiva
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
     Emoha’ãnga QR ayvu eipurúvo <linkExternal>peteĩva
@@ -437,15 +425,6 @@ tfa-enter-secret-key = Emoinge ko mba’eñemi ne rembipuru’i ñemoneĩmbýpe:
 tfa-enter-totp = Emoinge ko’ág̃a tekorosã ayvu tembipuru’i ñemoneĩmbýpe.
 tfa-input-enter-totp =
     .label = Emoinge tekorosã ayvu
-tfa-save-these-codes =
-    Eñongatu ko’ã ayvu ijepuru peteĩva tenda hekorosãvape
-    ndereguerekói jave ne pumbyry.
-tfa-enter-code-to-confirm =
-    Emoinge peteĩva nde ayvu jeguerujeyrã ko’ág̃a
-    emoneĩ hag̃ua eñongatu hague. Eikotevẽta ayvu okañýrõ nde mba’e’oka ha eikesérõ
-    ne mba’etépe.
-tfa-enter-recovery-code =
-    .label = Emoinge ayvu jeguerujeyrã
 
 ##
 
@@ -494,25 +473,19 @@ row-defaults-action-change = Moambue
 row-defaults-action-disable = Pe’a
 row-defaults-status = Avave
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Mba’eñemi guerujeyrã
+rk-header-1 = Mba’ete jeguerujey
 rk-enabled = Myandypyre
 rk-not-set = Noñembohekóiva
 rk-action-create = Moheñói
 rk-action-remove = Mboguete
-rk-cannot-refresh = Ore ñyro, oĩ apañuãi hekopyahúvo mba’eñemi jeguerujeyrã.
 rk-key-removed-2 = Oguéma ayvu jeguerujeyrã mba’ete
 rk-cannot-remove-key = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba’etégui.
-rk-refresh-key = Embohekopyahu mba’eñemi jeguerujeyrã
+rk-refresh-key-1 = Embohekopyahu mba’eñemi jeguerujeyrã
 rk-content-explain = Emboguevijey ne marandu nderesaráirõ ne ñe’ẽñemígui.
 rk-content-reset-data = ¿Mba’ére emoĩporãvo ñe’ẽñemi oĩporãta che mba’ekuaarã?
 rk-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
-rk-remove-modal-heading = ¿Embogue mba’eñemi jeguerujeyrã?
-rk-remove-modal-content =
-    Emoĩporãsejeýramo ñe’ẽñemi, ndaikatumo’ãi
-    eipuru mba’eñemi jeguerujeyrã eike hag̃ua mba’ekuaarãme. Ndaikatúi embojevyjey ko jeku’e.
-rk-refresh-error = Rombyasy, oiko apañuãi embohekopyahúvo mba’eñemi guerujeyrã.
 rk-remove-error-2 = Noñemboguekuaái mba’eñemi jeguerujeyrã ne mba’etégui
 
 ## Secondary email sub-section on main Settings page
@@ -546,9 +519,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Ejapo peteĩháramo
 se-default-content = Eike ne mba’etépe ndaikatúirõ emoñepyrũ tembiapo ñanduti vevépe.
-se-content-note =
-    Jehaipy: ñanduti veve mokõiháva nomoĩporãmo’ãi ne marandu;
-    Ejapo hag̃ua eikotevẽta <a>mba’eñemi guerujeyrã</a>.
 # Default value for the secondary email
 se-secondary-email-none = Avave
 
@@ -574,11 +544,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
-tfa-row-disable-modal-explain =
-    Nerembojevymo’ãi ko tembiapo. Nde avei
-    eguereko poravopyrã <linkExternal>emyengovia nde ayvu guerujeyrã</linkExternal>.
 tfa-row-cannot-disable-2 = Ñemoneĩrigui mokõi jeku’egua ndaikatúi eipe’a
-tfa-row-change-modal-heading = ¿Emoambue ayvu jeguerujeyrã?
 tfa-row-change-modal-confirm = Moambue
 tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 
