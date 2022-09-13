@@ -150,7 +150,7 @@ cs-sign-out-button = Abmelden
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Heruntergeladen
@@ -183,9 +183,11 @@ drop-down-menu-sign-out-error-2 = Beim Abmelden ist ein Fehler aufgetreten.
 
 flow-container-back = Zurück
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Wiederherstellungscodes
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox }-Kontowiederherstellungsschlüssel
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-Sicherungs-Authentifizierungscodes
 get-data-trio-download =
     .title = Herunterladen
 get-data-trio-copy =
@@ -245,14 +247,9 @@ nav-data-collection = Datenerfassung und -nutzung
 nav-paid-subs = Bezahlte Abonnements
 nav-email-comm = E-Mail-Kommunikation
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Beim Ersetzen Ihrer Wiederherstellungscodes ist ein Fehler aufgetreten.
-tfa-replace-code-success =
-    Neue Codes wurden erstellt. Speichern Sie diese Codes
-    zur einmaligen Verwendung an einem sicheren Ort – Sie brauchen sie, um auf Ihr
-    Konto zuzugreifen, wenn Sie Ihr Mobilgerät nicht zur Verfügung haben.
-tfa-replace-code-success-alert-2 = Kontowiederherstellungscodes aktualisiert.
+tfa-replace-code-error-3 = Beim Ersetzen Ihrer Sicherungs-Wiederherstellungscodes ist ein Fehler aufgetreten.
 tfa-replace-code-1-2 = Schritt 1 von 2
 tfa-replace-code-2-2 = Schritt 2 von 2
 
@@ -362,19 +359,15 @@ display-name-success-alert-2 = Anzeigename aktualisiert
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Abbrechen
 recovery-key-close-button = Schließen
 recovery-key-continue-button = Fortsetzen
-recovery-key-created = Ihr Wiederherstellungsschlüssel wurde erstellt. Bewahren Sie den Schlüssel an einem sicheren Ort auf, den Sie später leicht finden können. Wenn Sie Ihr Passwort vergessen haben, benötigen Sie den Schlüssel, um wieder auf Ihre Daten zugreifen zu können.
 recovery-key-enter-password =
     .label = Passwort eingeben
-recovery-key-page-title =
-    .title = Wiederherstellungs-schlüssel
 recovery-key-step-1 = Schritt 1 von 2
 recovery-key-step-2 = Schritt 2 von 2
-recovery-key-success-alert-2 = Wiederherstellungsschlüssel erstellt.
 
 ## Add secondary email page
 
@@ -422,8 +415,6 @@ tfa-button-cancel = Abbrechen
 tfa-button-finish = Abschließen
 tfa-incorrect-totp = Falscher Code für Zwei-Schritt-Authentifizierung
 tfa-cannot-retrieve-code = Beim Abrufen Ihres Codes ist ein Fehler aufgetreten.
-tfa-cannot-verify-code-3 = Beim Bestätigen Ihres Wiederherstellungscodes ist ein Fehler aufgetreten.
-tfa-incorrect-recovery-code = Falscher Wiederherstellungscode
 tfa-enabled = Zwei-Schritt-Authentifizierung aktiviert
 tfa-scan-this-code =
     Scannen Sie diesen QR-Code mit <linkExternal>diesen
@@ -441,13 +432,6 @@ tfa-enter-secret-key = Geben Sie diesen Geheimschlüssel in Ihre Authentifizieru
 tfa-enter-totp = Geben Sie nun den Sicherheitscode über die Authentifizierungs-App ein.
 tfa-input-enter-totp =
     .label = Sicherheitscode eingeben
-tfa-save-these-codes = Speichern Sie diese Einmalbenutzungscodes an einem sicheren Ort, für den Fall, dass Sie den Zugriff auf Ihr Mobilgerät verlieren.
-tfa-enter-code-to-confirm =
-    Bitte geben Sie jetzt einen Ihrer Wiederherstellungscodes ein,
-    um zu bestätigen, dass Sie ihn gespeichert haben. Sie benötigen einen Code, wenn Sie
-    Ihr Gerät verlieren und auf Ihr Konto zugreifen möchten.
-tfa-enter-recovery-code =
-    .label = Einen Wiederherstellungscode eingeben
 
 ##
 
@@ -496,25 +480,17 @@ row-defaults-action-change = Ändern
 row-defaults-action-disable = Deaktivieren
 row-defaults-status = Keine
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Wiederherstellungs-schlüssel
 rk-enabled = Aktiviert
 rk-not-set = Nicht festgelegt
 rk-action-create = Erstellen
 rk-action-remove = Entfernen
-rk-cannot-refresh = Bei der Aktualisierung des Wiederherstellungsschlüssels ist ein Fehler aufgetreten.
 rk-key-removed-2 = Kontowiederherstellungsschlüssel entfernt
 rk-cannot-remove-key = Ihr Kontowiederherstellungsschlüssel konnte nicht entfernt werden.
-rk-refresh-key = Wiederherstellungsschlüssel aktualisieren
 rk-content-explain = Stellen Sie Ihre Daten wieder her, wenn Sie Ihr Passwort vergessen haben.
 rk-content-reset-data = Warum werden meine Daten durch Zurücksetzen meines Passworts zurückgesetzt?
 rk-cannot-verify-session-4 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
-rk-remove-modal-heading = Wiederherstellungsschlüssel entfernen?
-rk-remove-modal-content =
-    Wenn Sie Ihr Passwort zurücksetzen, können Sie Ihren Wiederherstellungsschlüssel
-    nicht nutzen, um auf Ihre Daten zuzugreifen. Dies kann nicht rückgängig gemacht werden.
-rk-refresh-error = Bei der Aktualisierung des Wiederherstellungsschlüssels ist ein Fehler aufgetreten.
 rk-remove-error-2 = Ihr Kontowiederherstellungsschlüssel konnte nicht entfernt werden.
 
 ## Secondary email sub-section on main Settings page
@@ -548,9 +524,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Zur Primär-E-Mail-Adresse machen
 se-default-content = Greifen Sie auf Ihr Konto zu, wenn Sie sich nicht bei Ihrer primären E-Mail-Adresse anmelden können.
-se-content-note =
-    Hinweis: Eine Zweit-E-Mail-Adresse stellt Ihrer Daten nicht wieder her –
-    dazu benötigen Sie einen <a>Wiederherstellungsschlüssel</a>.
 # Default value for the secondary email
 se-secondary-email-none = Keine
 
@@ -576,11 +549,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
 tfa-row-disable-modal-heading = Zwei-Schritt-Authentifizierung deaktivieren?
 tfa-row-disable-modal-confirm = Deaktivieren
-tfa-row-disable-modal-explain =
-    Dies kann nicht rückgängig gemacht werden. Sie können auch
-    <linkExternal>Ihre Wiederherstellungscodes ersetzen</linkExternal>.
 tfa-row-cannot-disable-2 = Zwei-Schritt-Authentifizierung konnte nicht deaktiviert werden.
-tfa-row-change-modal-heading = Wiederherstellungscodes ändern?
 tfa-row-change-modal-confirm = Ändern
 tfa-row-change-modal-explain = Dies kann nicht rückgängig gemacht werden.
 

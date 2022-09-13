@@ -198,15 +198,20 @@ fraudulentAccountDeletion-contact = Wenden Sie sich bei Fragen bitte an unser <a
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Wenden Sie sich bei Fragen bitte an unser Hilfe-Team: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Nur noch wenige übrige Wiederherstellungscodes
-codes-reminder-description = Wir haben festgestellt, dass Sie nur noch wenige Wiederherstellungscodes besitzen. Überlegen Sie bitte, ob Sie neue Codes erzeugen möchten, um nicht aus Ihrem Konto ausgesperrt zu werden.
-codes-generate = Codes erzeugen
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Codes erzeugen
-lowRecoveryCodes-subject =
+codes-reminder-title-zero = Sie haben keine Sicherungs-Authentifizierungscodes mehr!
+codes-reminder-title-one = Sie haben nur noch einen Sicherheits-Authentifizierungscode.
+codes-reminder-title-two = Sie sollten weitere Sicherungs-Authentifizierungscodes erstellen.
+codes-reminder-description-part-one = Sicherungs-Authentifizierungscodes helfen Ihnen, Ihre Daten wiederherzustellen, wenn Sie Ihr Passwort vergessen.
+codes-reminder-description-part-two = Erstellen Sie jetzt neue Codes, damit Sie Ihre Daten später nicht verlieren.
+codes-reminder-description-two-left = Sie haben nur noch zwei Codes übrig.
+codes-reminder-description-create-codes = Erstellen Sie neue Sicherungs-Authentifizierungscodes, damit Sie wieder auf Ihr Konto zugreifen können, wenn Sie ausgesperrt sind.
+lowRecoveryCodes-action-2 = Codes erstellen
+codes-create-plaintext = { lowRecoveryCodes-action-2 }
+lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [one] Noch ein Wiederherstellungscode übrig
-       *[other] Noch { $numberRemaining } Wiederherstellungscodes übrig
+        [0] Keine Sicherungs-Authentifizierungscode vorhanden
+        [one] Nur noch ein Sicherungs-Authentifizierungscodes übrig
+       *[other] Nur noch { $numberRemaining } Sicherungs-Authentifizierungcodes übrig!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -235,13 +240,13 @@ passwordChangeRequired-different-password-plaintext = Wichtig: Wählen Sie ein a
 passwordReset-subject = Passwort aktualisiert
 passwordReset-title = Das Passwort Ihres Kontos wurde geändert
 passwordReset-description = Sie müssen Ihr neues Passwort auf den anderen Geräten eingeben, um die Synchronisation fortzusetzen.
-passwordResetAccountRecovery-subject = Passwort mit Wiederherstellungsschlüssel aktualisiert
-passwordResetAccountRecovery-title = Ihr Kontopasswort wurde mit einem Wiederherstellungsschlüssel zurückgesetzt
-passwordResetAccountRecovery-description = Sie haben Ihr Passwort erfolgreich mit einem Wiederherstellungsschlüssel von folgendem Gerät zurückgesetzt:
-passwordResetAccountRecovery-action = Neuen Wiederherstellungsschlüssel erzeugen
-passwordResetAccountRecovery-regen-required = Sie müssen einen neuen Wiederherstellungsschlüssel erzeugen.
+passwordResetAccountRecovery-subject-1 = Passwort mit Kontowiederherstellungsschlüssel aktualisiert
+passwordResetAccountRecovery-title-1 = Das Passwort Ihres Kontos wurde mit einem Kontowiederherstellungsschlüssel zurückgesetzt
+passwordResetAccountRecovery-description-1 = Sie haben Ihr Passwort mithilfe eines Kontowiederherstellungsschlüssels von folgendem Gerät erfolgreich zurückgesetzt:
+passwordResetAccountRecovery-action-1 = Neuen Kontowiederherstellungsschlüssel erzeugen
+passwordResetAccountRecovery-regen-required-1 = Sie müssen einen neuen Kontowiederherstellungsschlüssel erzeugen.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Neuen Wiederherstellungsschlüssel erzeugen:
+passwordResetAccountRecovery-create-key-1 = Neuen Kontowiederherstellungsschlüssel erstellen:
 postAddAccountRecovery-subject-2 = Kontowiederherstellungsschlüssel erstellt
 postAddAccountRecovery-title2 = Sie haben einen neuen Kontowiederherstellungsschlüssel erstellt
 # Information on the browser and device triggering this string follows.
@@ -269,19 +274,19 @@ postChangePrimary-title = Neue Primär-E-Mail-Adresse
 #  $email (String) - A user's email address
 postChangePrimary-description = Sie haben Ihre Primär-E-Mail-Adresse zu { $email } geändert. Diese Adresse ist jetzt Ihr Benutzername für die Anmeldung bei Ihrem { -product-firefox-account }, sowie zum Erhalt von Sicherheitsbenachrichtigungen
 postChangePrimary-action = Benutzerkonto verwalten
-postConsumeRecoveryCode-subject = Wiederherstellungscode verwendet
-postConsumeRecoveryCode-title = Wiederherstellungscode verwendet
-postConsumeRecoveryCode-description = Sie haben erfolgreich einen Wiederherstellungscode von folgendem Gerät verwendet:
+postConsumeRecoveryCode-subject-1 = Sicherungs-Authentifizierungscode verwendet
+postConsumeRecoveryCode-title-1 = Sicherungs-Authentifizierungscode verbraucht
+postConsumeRecoveryCode-description-1 = Sie haben erfolgreich einen Sicherungs-Authentifizierungscode von folgendem Gerät verwendet:
 postConsumeRecoveryCode-action = Benutzerkonto verwalten
-postNewRecoveryCodes-subject = Neue Wiederherstellungscode erzeugt
-postNewRecoveryCodes-title = Neue Wiederherstellungscode erzeugt
-postNewRecoveryCodes-description = Sie haben erfolgreich neue Wiederherstellungscodes von folgendem Gerät erzeugt:
+postNewRecoveryCodes-subject-1 = Neue Sicherungs-Authentifizierungscodes erzeugt
+postNewRecoveryCodes-title-1 = Neue Sicherungs-Authentifizierungscodes erzeugt
+postNewRecoveryCodes-description-1 = Sie haben erfolgreich neue Sicherungs-Authentifizierungscodes von folgendem Gerät erzeugt:
 postNewRecoveryCodes-action = Benutzerkonto verwalten
 postRemoveAccountRecovery-subject = Kontowiederherstellungsschlüssel entfernt
 postRemoveAccountRecovery-title = Kontowiederherstellungsschlüssel entfernt
 postRemoveAccountRecovery-description = Sie haben erfolgreich einen Kontowiederherstellungsschlüssel für Ihr { -product-firefox-account } mit folgendem Gerät entfernt:
 postRemoveAccountRecovery-action = Benutzerkonto verwalten
-postRemoveAccountRecovery-invalid = Dieser Wiederherstellungsschlüssel kann nicht mehr zur Wiederherstellung Ihres Kontos verwendet werden.
+postRemoveAccountRecovery-invalid-1 = Dieser Kontowiederherstellungsschlüssel kann nicht mehr verwendet werden, um Ihr Konto wiederherzustellen.
 postRemoveSecondary-subject = Zweit-E-Mail-Adresse entfernt
 postRemoveSecondary-title = Zweit-E-Mail-Adresse entfernt
 # Variables:
@@ -591,7 +596,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Denken Sie daran, Ihr Konto zu bestätigen
 verificationReminderFirst-title-2 = Willkommen bei { -brand-firefox }!
 verificationReminderFirst-description-2 = Vor ein paar Tagen haben Sie ein { -product-firefox-account } erstellt, es aber nie bestätigt. Bitte bestätigen Sie Ihr Konto in den nächsten 15 Tagen oder es wird automatisch gelöscht.
-verificationReminderFirst-sub-description-2 = Verpassen Sie keine Technologie, bei der Sie und Ihre Privatsphäre an erster Stelle stehen.
+verificationReminderFirst-sub-description-3 = Verpassen Sie nicht den Browser, bei dem Sie und Ihre Privatsphäre an erster Stelle stehen.
 confirm-email-2 = Konto bestätigen
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konto bestätigen
