@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-13 06:38+0000\n"
-"PO-Revision-Date: 2022-09-13 13:10+0000\n"
+"PO-Revision-Date: 2022-09-13 14:43+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -676,7 +676,7 @@ msgstr "Código inválido para a autenticação em duas etapas"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Necessário código de autenticação de backup"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid backup authentication code"
@@ -684,7 +684,7 @@ msgstr "Código de autenticação de backup inválido"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Necessário chave de recuperação de conta"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"

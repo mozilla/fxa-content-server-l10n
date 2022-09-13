@@ -550,7 +550,9 @@ tfa-row-content-explain = Impeça que outras pessoas entrem na sua conta, exigin
 tfa-row-cannot-verify-session-4 = Desculpe, houve um problema ao confirmar a sessão
 tfa-row-disable-modal-heading = Desativar autenticação em duas etapas?
 tfa-row-disable-modal-confirm = Desativar
+tfa-row-disable-modal-explain-1 = Esta ação não pode ser desfeita. Você também tem a opção de <linkExternal>substituir seus códigos de autenticação de backup</linkExternal>.
 tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação em duas etapas
+tfa-row-change-modal-heading-1 = Alterar códigos de autenticação de backup?
 tfa-row-change-modal-confirm = Alterar
 tfa-row-change-modal-explain = Você não poderá desfazer esta ação.
 
