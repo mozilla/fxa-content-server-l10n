@@ -201,6 +201,18 @@ fraudulentAccountDeletion-contact-plaintext = Se você tiver alguma dúvida, ent
 codes-reminder-title-zero = Você está sem códigos de autenticação de backup!
 codes-reminder-title-one = Você está com seu último código de autenticação de backup
 codes-reminder-title-two = Está na hora de criar mais códigos de autenticação de backup
+codes-reminder-description-part-one = Códigos de autenticação de backup ajudam a restaurar suas informações quando você esquece sua senha.
+codes-reminder-description-part-two = Crie novos códigos agora para não arriscar perder seus dados mais tarde.
+codes-reminder-description-two-left = Você só tem mais dois códigos.
+codes-reminder-description-create-codes = Crie novos códigos de autenticação de backup para ajudar a voltar a acessar sua conta se você estiver sem acesso.
+lowRecoveryCodes-action-2 = Criar códigos
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nenhum código de autenticação de backup restante
+        [one] Resta apenas 1 código de autenticação de backup
+       *[other] Resta apenas { $numberRemaining } códigos de autenticação de backup!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Novo acesso no { $clientName }
@@ -228,6 +240,7 @@ passwordChangeRequired-different-password-plaintext = Importante: Escolha uma se
 passwordReset-subject = Senha atualizada
 passwordReset-title = A senha da sua conta foi alterada
 passwordReset-description = Você precisa digitar sua nova senha em outros dispositivos para continuar sincronizando.
+passwordResetAccountRecovery-subject-1 = Senha atualizada usando chave de recuperação de conta
 postAddAccountRecovery-subject-2 = Criada chave de recuperação de conta
 postAddAccountRecovery-title2 = Você criou uma nova chave de recuperação de conta
 # Information on the browser and device triggering this string follows.
