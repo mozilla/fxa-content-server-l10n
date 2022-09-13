@@ -241,6 +241,12 @@ passwordReset-subject = Senha atualizada
 passwordReset-title = A senha da sua conta foi alterada
 passwordReset-description = Você precisa digitar sua nova senha em outros dispositivos para continuar sincronizando.
 passwordResetAccountRecovery-subject-1 = Senha atualizada usando chave de recuperação de conta
+passwordResetAccountRecovery-title-1 = A senha da sua conta foi redefinida com uma chave de recuperação de conta
+passwordResetAccountRecovery-description-1 = Você redefiniu sua senha com sucesso usando uma chave de recuperação de conta no seguinte dispositivo:
+passwordResetAccountRecovery-action-1 = Criar nova chave de recuperação de conta
+passwordResetAccountRecovery-regen-required-1 = Você precisará gerar uma nova chave de recuperação de conta.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-create-key-1 = Criar nova chave de recuperação de conta:
 postAddAccountRecovery-subject-2 = Criada chave de recuperação de conta
 postAddAccountRecovery-title2 = Você criou uma nova chave de recuperação de conta
 # Information on the browser and device triggering this string follows.
@@ -268,12 +274,19 @@ postChangePrimary-title = Novo email principal
 #  $email (String) - A user's email address
 postChangePrimary-description = Você alterou com sucesso seu email principal para { $email }. Este endereço é agora seu nome de usuário para entrar na sua { -product-firefox-account }, assim como receber notificações de segurança e confirmações de acesso.
 postChangePrimary-action = Gerenciar conta
+postConsumeRecoveryCode-subject-1 = Código de autenticação de backup usado
+postConsumeRecoveryCode-title-1 = Código de autenticação de backup consumido
+postConsumeRecoveryCode-description-1 = Você consumiu com sucesso um código de autenticação de backup no seguinte dispositivo:
 postConsumeRecoveryCode-action = Gerenciar conta
+postNewRecoveryCodes-subject-1 = Novos códigos de autenticação de backup gerados
+postNewRecoveryCodes-title-1 = Novos códigos de autenticação de backup gerados
+postNewRecoveryCodes-description-1 = Você gerou com sucesso novos códigos de autenticação de backup no seguinte dispositivo:
 postNewRecoveryCodes-action = Gerenciar conta
 postRemoveAccountRecovery-subject = Removida a chave de recuperação de conta
 postRemoveAccountRecovery-title = Removida a chave de recuperação de conta
 postRemoveAccountRecovery-description = Você removeu com sucesso uma chave de recuperação de conta da sua { -product-firefox-account } usando o seguinte dispositivo:
 postRemoveAccountRecovery-action = Gerenciar conta
+postRemoveAccountRecovery-invalid-1 = Esta chave de recuperação de conta não pode mais ser usada para recuperar sua conta.
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
 # Variables:
@@ -583,6 +596,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Lembre de confirmar sua conta
 verificationReminderFirst-title-2 = Boas-vindas ao { -brand-firefox }!
 verificationReminderFirst-description-2 = Há alguns dias você criou uma { -product-firefox-account }, mas nunca a confirmou. Confirme sua conta nos próximos 15 dias ou ela será excluída automaticamente.
+verificationReminderFirst-sub-description-3 = Não fique sem o navegador que coloca você e sua privacidade em primeiro lugar.
 confirm-email-2 = Confirmar conta
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar conta
