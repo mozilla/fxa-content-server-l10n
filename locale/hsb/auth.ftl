@@ -226,6 +226,13 @@ passwordChangeRequired-different-password-plaintext = Wažny: Wubjerće druhe he
 passwordReset-subject = Hesło je so zaktualizowało
 passwordReset-title = Waše kontowe hesło je so změniło
 passwordReset-description = Dyrbiće swoje nowe hesło na druhich gratach zapodać, zo byšće ze synchronizaciju pokročował.
+passwordResetAccountRecovery-subject-1 = Hesło je so z pomocu kontoweho wobnowjenskeho kluča zaktualizowało
+passwordResetAccountRecovery-title-1 = Waše kontowe hesło jo so wróćo stajiło z kontowym wobnowjenskim klučom
+passwordResetAccountRecovery-description-1 = Sće wuspěšnje swoje hesło z pomocu kontoweho wobnowjenskeho kluča ze slědowaceho grata wróćo stajił:
+passwordResetAccountRecovery-action-1 = Nowy kontowy wobnowjenski kluč wutworić
+passwordResetAccountRecovery-regen-required-1 = Dyrbiće nowy kontowy wobnowjenski kluč wutworić.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-create-key-1 = Wutworće nowy kontowy wobnowjenski kluč:
 postAddAccountRecovery-subject-2 = Kontowy wobnowjenski kluč je so wutworił
 postAddAccountRecovery-title2 = Sće nowy kontowy wobnowjenski kluč wutworił
 # Information on the browser and device triggering this string follows.
@@ -253,12 +260,15 @@ postChangePrimary-title = Nowa primarna e-mejlowa adresa
 #  $email (String) - A user's email address
 postChangePrimary-description = Sće swoju primarnu e-mejlowu adresu wuspěšnje do { $email } změnił. Tuta adresa je nětko waše wužiwarske mjeno za přizjewjenje pola wašeho konta { -product-firefox-account } a zo byšće wěstotne powěsće a přizjewjenske
 postChangePrimary-action = Konto rjadować
+postConsumeRecoveryCode-subject-1 = Awtentifikaciski kod za zawěsćenje je so wužił
+postConsumeRecoveryCode-title-1 = Awtentifikaciski kod za zawěsćenje je so přetrjebał
 postConsumeRecoveryCode-action = Konto rjadować
 postNewRecoveryCodes-action = Konto rjadować
 postRemoveAccountRecovery-subject = Kontowy wobnowjenski kluč je so wotstronił
 postRemoveAccountRecovery-title = Kontowy wobnowjenski kluč je so wotstronił
 postRemoveAccountRecovery-description = Sće wuspěšnje nowy wobnowjenski kluč za swoje konto { -product-firefox-account } z pomocu slědowaceho grata wotstronił:
 postRemoveAccountRecovery-action = Konto rjadować
+postRemoveAccountRecovery-invalid-1 = Tutón kontowy wobnowjenski kluč njeda so hižo wužiwać, zo by waše konto wobnowił.
 postRemoveSecondary-subject = Sekundarna e-mejlowa adresa wotstronjena
 postRemoveSecondary-title = Sekundarna e-mejlowa adresa wotstronjena
 # Variables:
