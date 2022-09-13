@@ -138,7 +138,7 @@ cs-sign-out-button = 退出
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = 已下载
@@ -171,9 +171,8 @@ drop-down-menu-sign-out-error-2 = 抱歉，退出登录时出现问题。
 
 flow-container-back = 返回
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = 救援码
 get-data-trio-download =
     .title = 下载
 get-data-trio-copy =
@@ -199,11 +198,11 @@ input-password-show-aria = 以纯文本形式显示密码，您的密码将显�
 
 ## Linked Accounts section
 
-la-heading = 已连接账号
-la-description = 您已授权连接下列账号。
+la-heading = 已连接账户
+la-description = 您已授权连接下列账户。
 la-unlink-button = 断开连接
 la-unlink-account-button = 断开连接
-la-unlink-heading = 断开与第三方账号的连接
+la-unlink-heading = 断开与第三方账户的连接
 la-unlink-content-3 = 您确定要断开与账户的连接吗？此操作不会自动将您从这些服务退出。为此，您需要到“关联服务”版块手动退出。
 nav-linked-accounts = { la-heading }
 
@@ -233,11 +232,8 @@ nav-data-collection = 数据收集与使用
 nav-paid-subs = 付费订阅
 nav-email-comm = 新闻通讯
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = 更新您的救援码时出现问题
-tfa-replace-code-success = 已生成新的救援码，请将它们保存在安全的地方，当您无法使用移动设备时，可用来访问账户。
-tfa-replace-code-success-alert-2 = 账户救援码已更新。
 tfa-replace-code-1-2 = 步骤（1 / 2）
 tfa-replace-code-2-2 = 步骤（2 / 2）
 
@@ -347,19 +343,15 @@ display-name-success-alert-2 = 显示名称已更新
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = 取消
 recovery-key-close-button = 关闭
 recovery-key-continue-button = 继续
-recovery-key-created = 您的救援密钥已创建。请确保将密钥保存在安全的位置，以备日后可轻易找到。如果您忘记了密码，则需要使用此密钥来重新获得对数据的访问权限。
 recovery-key-enter-password =
     .label = 请输入密码
-recovery-key-page-title =
-    .title = 救援密钥
 recovery-key-step-1 = 步骤（1 / 2）
 recovery-key-step-2 = 步骤（2 / 2）
-recovery-key-success-alert-2 = 已创建救援密钥
 
 ## Add secondary email page
 
@@ -407,8 +399,6 @@ tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 错误的两步验证码
 tfa-cannot-retrieve-code = 检索您的救援码时出现问题。
-tfa-cannot-verify-code-3 = 确认您的救援码时出现问题
-tfa-incorrect-recovery-code = 错误的救援码
 tfa-enabled = 已启用两步验证
 tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExternal>进行扫码。
 # This is the image alt text for a QR code.
@@ -424,10 +414,6 @@ tfa-enter-secret-key = 请在身份验证应用输入此安全密钥：
 tfa-enter-totp = 现在请输入验证应用的中的安全码。
 tfa-input-enter-totp =
     .label = 请输入安全码
-tfa-save-these-codes = 请妥善保管以下这些一次性救援码，以便您在没有移动设备时使用。
-tfa-enter-code-to-confirm = 请输入任意一组救援码，以确认您已将其保存。若设备不幸丢失，则可以使用救援码访问您的账户。
-tfa-enter-recovery-code =
-    .label = 请输入救援码
 
 ##
 
@@ -476,23 +462,17 @@ row-defaults-action-change = 更改
 row-defaults-action-disable = 禁用
 row-defaults-status = 无
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = 救援密钥
 rk-enabled = 已启用
 rk-not-set = 未设置
 rk-action-create = 创建
 rk-action-remove = 移除
-rk-cannot-refresh = 抱歉，刷新救援密钥时出现问题。
 rk-key-removed-2 = 已移除账户救援密钥
 rk-cannot-remove-key = 无法删除您的账户救援密钥。
-rk-refresh-key = 刷新救援密钥
 rk-content-explain = 当您忘记密码时恢复数据。
 rk-content-reset-data = 为什么重置密码时会重置我的数据？
 rk-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
-rk-remove-modal-heading = 要移除救援密钥吗？
-rk-remove-modal-content = 一旦重置密码，就无法再使用救援密钥访问您的数据。此操作不可撤销。
-rk-refresh-error = 抱歉，刷新救援密钥时出现问题。
 rk-remove-error-2 = 无法删除您的账户救援密钥
 
 ## Secondary email sub-section on main Settings page
@@ -524,7 +504,6 @@ se-resend-code-2 = 需要验证账户。如果验证邮件不在您的收件箱�
 # Button to make secondary email the primary
 se-make-primary = 设为主邮箱
 se-default-content = 主邮箱不可用时，用此访问账户。
-se-content-note = 注意：无法通过备用邮箱恢复您的数据 — 您需要使用<a>救援密钥</a>。
 # Default value for the secondary email
 se-secondary-email-none = 无
 
@@ -546,9 +525,7 @@ tfa-row-content-explain = 登录时需提供只有您有权访问的验证码，
 tfa-row-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
-tfa-row-disable-modal-explain = 您将无法撤销此操作。您也可选择<linkExternal>更新救援码</linkExternal>。
 tfa-row-cannot-disable-2 = 无法禁用两步验证
-tfa-row-change-modal-heading = 要更改救援码吗？
 tfa-row-change-modal-confirm = 更改
 tfa-row-change-modal-explain = 此操作无法撤销。
 

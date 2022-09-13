@@ -92,7 +92,7 @@ cancellationSurvey = 请填写这份<a data-l10n-name="cancellationSurveyUrl">�
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = 请填写这份简短问卷，帮助我们改善服务质量：
 change-password-plaintext = 如果您怀疑有人在试图访问您的账户，请更改您的密码。
-manage-account = 管理账号
+manage-account = 管理账户
 manage-account-plaintext = { manage-account }：
 payment-details = 付款详情：
 # Variables:
@@ -186,23 +186,13 @@ downloadSubscription-title = 欢迎使用 { $productName }
 downloadSubscription-content-2 = 准备开始使用包含在您的订阅内的所有功能吧：
 downloadSubscription-link-action-2 = 开始使用
 fraudulentAccountDeletion-subject = 已删除您的 { -product-firefox-account }
-fraudulentAccountDeletion-title = 已删除您的帐户
+fraudulentAccountDeletion-title = 已删除您的账户
 fraudulentAccountDeletion-content = 最近有人使用此电子邮箱注册 { -product-firefox-account } 并支付订阅。根据我们对所有新账户的要求，需要您先验证此电子邮箱来确认账户。
 fraudulentAccountDeletion-content-2 = 目前，该账户尚未完成验证，无法确定是否为授权的订阅行为。因此，已删除此电子邮箱注册的 { -product-firefox-account }，您的订阅也将被取消，所有费用均已退还。
 fraudulentAccountDeletion-contact = 如有疑问，请联系我们的<a data-l10n-name="mozillaSupportUrl">用户支持团队</a>。
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = 如有疑问，请联系我们的用户支持团队：{ $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = 剩余的救援码较少
-codes-reminder-description = 我们注意到您的救援码所剩不多了。请考虑生成一些新的救援码，以备无法登录账号时使用。
-codes-generate = 生成救援码
-codes-generate-plaintext = { codes-generate }：
-lowRecoveryCodes-action = 生成救援码
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-       *[other] 剩余 { $numberRemaining } 组救援码
-    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 有新的登录活动
@@ -215,7 +205,7 @@ newDeviceLogin-change-password = 不是您本人操作？<a data-l10n-name="pass
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = 不是您本人操作？请更改您的密码：
-newDeviceLogin-action = 管理账号
+newDeviceLogin-action = 管理账户
 passwordChanged-subject = 密码已更新
 passwordChanged-title = 密码更改成功
 passwordChanged-description = 已从下列设备成功更改您的 { -product-firefox-account }密码：
@@ -230,64 +220,50 @@ passwordChangeRequired-different-password-plaintext = 重要：请改用您从�
 passwordReset-subject = 密码已更新
 passwordReset-title = 您的密码已变更
 passwordReset-description = 您必须在其他设备上输入新密码才能继续同步。
-passwordResetAccountRecovery-subject = 已使用救援码更新密码
-passwordResetAccountRecovery-title = 您的密码已通过救援密钥重置
-passwordResetAccountRecovery-description = 您已使用下列设备中的救援密钥成功重置密码：
-passwordResetAccountRecovery-action = 生成新的救援密钥
-passwordResetAccountRecovery-regen-required = 现在，需要重新生成一组密钥。
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = 生成新的救援密钥：
 postAddAccountRecovery-subject-2 = 已创建账户救援密钥
-postAddAccountRecovery-title2 = 您创建了一个新的帐户救援密钥
+postAddAccountRecovery-title2 = 您创建了一个新的账户救援密钥
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = 从下列位置创建了一个新密钥：
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = 不是您本人操作？
 postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">删除新密钥</a>并<a data-l10n-name="passwordChangeLink">更改密码</a>
-postAddAccountRecovery-action = 管理账号
+postAddAccountRecovery-action = 管理账户
 postAddAccountRecovery-delete-key = 删除新密钥：
 postAddAccountRecovery-changd-password = 更改您的密码：
-postAddLinkedAccount-subject = 新账号连接到 { -brand-firefox }
+postAddLinkedAccount-subject = 新账户连接到 { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title = 您的 { $providerName } 账号已连接至 { -product-firefox-account }
+postAddLinkedAccount-title = 您的 { $providerName } 账户已连接至 { -product-firefox-account }
 postAddLinkedAccount-action = 管理账户
 postAddTwoStepAuthentication-subject = 已启用两步验证
 postAddTwoStepAuthentication-title = 已启用两步验证
 postAddTwoStepAuthentication-description-plaintext = 您已成功启用 { -product-firefox-account }的两步验证。现在起，每次登录时都会要求您输入身份验证应用上的安全码。
 postAddTwoStepAuthentication-description = 您已成功用下列设备启用 { -product-firefox-account }的两步验证：
-postAddTwoStepAuthentication-action = 管理账号
+postAddTwoStepAuthentication-action = 管理账户
 postAddTwoStepAuthentication-code-required = 现在起，每次登录时都会需要您输入身份验证应用上的安全码。
 postChangePrimary-subject = 主邮箱已更新
 postChangePrimary-title = 新的主邮箱
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = 您已成功将主邮箱更改为 { $email }。此邮箱地址现在是您用于登录 { -product-firefox-account }的用户名，以及用于接收安全通知和登录确认。
-postChangePrimary-action = 管理账号
-postConsumeRecoveryCode-subject = 已使用救援码
-postConsumeRecoveryCode-title = 救援码已被使用
-postConsumeRecoveryCode-description = 您已成功在下列设备上使用救援码登录：
-postConsumeRecoveryCode-action = 管理账号
-postNewRecoveryCodes-subject = 已生成新的救援码
-postNewRecoveryCodes-title = 已生成新的救援码
-postNewRecoveryCodes-description = 您已成功用下列设备生成新的救援码：
-postNewRecoveryCodes-action = 管理账号
+postChangePrimary-action = 管理账户
+postConsumeRecoveryCode-action = 管理账户
+postNewRecoveryCodes-action = 管理账户
 postRemoveAccountRecovery-subject = 已移除账户救援密钥
 postRemoveAccountRecovery-title = 已移除账户救援密钥
 postRemoveAccountRecovery-description = 您已使用下列设备，成功移除 { -product-firefox-account }救援密钥：
-postRemoveAccountRecovery-action = 管理账号
-postRemoveAccountRecovery-invalid = 将无法再使用该救援密钥来救援您的账户。
+postRemoveAccountRecovery-action = 管理账户
 postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = 已移除备用邮箱
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = 您已成功将备用邮箱 { $secondaryEmail } 从 { -product-firefox-account }中删除。安全通知和登录确认将不再发送到此地址。
-postRemoveSecondary-action = 管理账号
+postRemoveSecondary-action = 管理账户
 postRemoveTwoStepAuthentication-subject-line = 两步验证已关闭
 postRemoveTwoStepAuthentication-title = 已禁用两步验证
 postRemoveTwoStepAuthentication-description = 您已成功用下列设备禁用 { -product-firefox-account }的两步验证：
 postRemoveTwoStepAuthentication-description-plaintext = 您已成功禁用 { -product-firefox-account }的两步验证。现在起，无需安全码即可登录。
-postRemoveTwoStepAuthentication-action = 管理账号
+postRemoveTwoStepAuthentication-action = 管理账户
 postRemoveTwoStepAuthentication-not-required = 现在起，无需安全码即可登录。
 postVerify-sub-title-3 = 我们很高兴见到您！
 postVerify-title-2 = 想在两台设备上看到相同的标签吗？
@@ -301,7 +277,7 @@ postVerifySecondary-title = 已绑定备用邮箱
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = 您已成功将 { $secondaryEmail } 添加为您 { -product-firefox-account } 的备用邮箱。从现在起，安全通知和登录验证邮件也将发送至该邮箱。
-postVerifySecondary-action = 管理账号
+postVerifySecondary-action = 管理账户
 recovery-subject = 重置密码
 recovery-title-2 = 忘记密码？
 # Information on the browser, IP address, date and time of the request that
@@ -583,14 +559,13 @@ verificationReminderFinal-subject = 最后一次提醒：请验证您的账户
 verificationReminderFinal-description = 您于几周前注册了 { -product-firefox-account }， 但一直没有验证。为了您的安全，如果在接下来的24小时内还未通过验证，我们将删除该账户。
 confirm-account = 验证账户
 confirm-account-plaintext = { confirm-account }：
-verificationReminderFirst-subject-2 = 记得验证您的帐户
+verificationReminderFirst-subject-2 = 记得验证您的账户
 verificationReminderFirst-title-2 = 欢迎使用 { -brand-firefox }！
 verificationReminderFirst-description-2 = 您于几天前注册了 { -product-firefox-account }，但一直没有验证账户。请在 15 天内完成验证，否则该账户将被自动删除。
-verificationReminderFirst-sub-description-2 = 不要错过将您和您的隐私放在首位的技术。
 confirm-email-2 = 验证账户
 confirm-email-plaintext-2 = { confirm-email-2 }：
 verificationReminderFirst-action-2 = 验证账户
-verificationReminderSecond-subject-2 = 记得验证您的帐户
+verificationReminderSecond-subject-2 = 记得验证您的账户
 verificationReminderSecond-title-2 = 不要错过 { -brand-firefox }！
 verificationReminderSecond-description-3 = 您于几天前注册了 { -product-firefox-account }，但一直没有验证账户。请在 10 天内完成验证，否则该账户将被自动删除。
 verificationReminderSecond-second-description = 您的 { -product-firefox-account } 可以让您在不同设备之间同步信息，并解锁访问 { -brand-mozilla } 提供的更多隐私保护产品。
