@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-13 06:38+0000\n"
-"PO-Revision-Date: 2022-09-13 11:02+0000\n"
+"PO-Revision-Date: 2022-09-13 11:03+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1457,7 +1457,7 @@ msgstr "Παρακαλώ εισαγάγετε έναν από τους εφεδ�
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Εισαγάγετε 10ψήφιο εφεδρικό κωδικό ταυτοποίησης"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1625,7 +1625,7 @@ msgstr "Βήμα 1 από 2: Εκ νέου εισαγωγή κωδικού πρ�
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Εισαγάγετε τον κωδικό πρόσβασής σας για να δείτε το κλειδί ανάκτησης λογαριασμού σας."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
