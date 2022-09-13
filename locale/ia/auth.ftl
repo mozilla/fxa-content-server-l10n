@@ -207,6 +207,12 @@ codes-reminder-description-two-left = Tu ha solo duo codices restate.
 codes-reminder-description-create-codes = Crea nove codices de authentication de salvamento pro adjutar te a re-acceder in tu conto si tu ha perdite le accesso.
 lowRecoveryCodes-action-2 = Crear codices
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nulle codices de authentication de salvamento restate
+        [one] Solo 1 codice de authentication de salvamento restate
+       *[other] Solo { $numberRemaining } codices de authentication de salvamento restate!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nove accesso a { $clientName }
@@ -234,6 +240,13 @@ passwordChangeRequired-different-password-plaintext = Importante: elige un contr
 passwordReset-subject = Contrasigno actualisate
 passwordReset-title = Le contrasigno de tu conto ha essite cambiate
 passwordReset-description = Il essera necesse que tu insere tu nove contrasigno sur altere apparatos pro continuar le synchronisation.
+passwordResetAccountRecovery-subject-1 = Contrasigno actualisate per clave de recuperation del conto
+passwordResetAccountRecovery-title-1 = Tu contrasigno de conto era reinitialisar con un clave de recuperation del conto
+passwordResetAccountRecovery-description-1 = Tu ha con successo reinitialisate tu contrasigno per un clave de recuperation del conto ab le sequente apparato:
+passwordResetAccountRecovery-action-1 = Crear nove clave de recuperation del conto
+passwordResetAccountRecovery-regen-required-1 = Tu debera generar un nove clave de recuperation del conto.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-create-key-1 = Crear nove clave de recuperation del conto:
 postAddAccountRecovery-subject-2 = Clave de recuperation del conto create
 postAddAccountRecovery-title2 = Tu ha create un nove clave de recuperation del conto
 # Information on the browser and device triggering this string follows.
@@ -261,6 +274,9 @@ postChangePrimary-title = Nove e-mail primari
 #  $email (String) - A user's email address
 postChangePrimary-description = Tu ha correctemente cambiate tu adresse de e-mail primari a { $email }. Iste adresse es ora tu nomine de usator pro aperir session a tu { -product-firefox-account }, e pro reciper notificationes de securitate e confirmationes de accesso.
 postChangePrimary-action = Gerer le conto
+postConsumeRecoveryCode-subject-1 = Codice de authentication de salvamento usate
+postConsumeRecoveryCode-title-1 = Codice de authentication de salvamento consumite
+postConsumeRecoveryCode-description-1 = Tu con successo ha consumite un codice de authentication de salvamento ab le sequente apparato:
 postConsumeRecoveryCode-action = Gerer le conto
 postNewRecoveryCodes-action = Gerer le conto
 postRemoveAccountRecovery-subject = Clave de recuperation del conto removite
