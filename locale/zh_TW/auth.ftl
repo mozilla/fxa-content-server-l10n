@@ -200,6 +200,14 @@ codes-reminder-title-two = 是時候建立更多備用驗證碼了！
 codes-reminder-description-part-one = 可透過備用驗證碼，在忘記密碼時協助您救回資訊。
 codes-reminder-description-part-two = 建立新的驗證，避免未來遺失資料。
 codes-reminder-description-two-left = 只剩下兩組備用驗證碼
+codes-reminder-description-create-codes = 建立新的備用驗證碼，未來萬一無法登入帳號時，可以重新登入。
+lowRecoveryCodes-action-2 = 建立驗證碼
+codes-create-plaintext = { lowRecoveryCodes-action-2 }：
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] 已無備用驗證碼
+       *[other] 剩下 { $numberRemaining } 組備用驗證碼！
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 的新登入通知
@@ -227,6 +235,13 @@ passwordChangeRequired-different-password-plaintext = 重要：請改用您從�
 passwordReset-subject = 密碼已更新
 passwordReset-title = 您的帳號密碼已變更
 passwordReset-description = 將需要在其他裝置上輸入新密碼才能恢復同步。
+passwordResetAccountRecovery-subject-1 = 已使用帳號救援金鑰更新密碼
+passwordResetAccountRecovery-title-1 = 已使用帳號救援金鑰重設您帳號的密碼
+passwordResetAccountRecovery-description-1 = 您已自下列裝置成功使用帳號救援金鑰重設密碼：
+passwordResetAccountRecovery-action-1 = 產生新的帳號救援金鑰
+passwordResetAccountRecovery-regen-required-1 = 您必須產生新的帳號救援金鑰。
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-create-key-1 = 產生新的帳號救援金鑰：
 postAddAccountRecovery-subject-2 = 已建立救援金鑰
 postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
 # Information on the browser and device triggering this string follows.
@@ -254,6 +269,8 @@ postChangePrimary-title = 新增主要電子郵件地址
 #  $email (String) - A user's email address
 postChangePrimary-description = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 { -product-firefox-account }，也會在這個信箱中收到安全性通知、登入確認信等等。
 postChangePrimary-action = 管理帳號
+postConsumeRecoveryCode-subject-1 = 已使用備用驗證碼
+postConsumeRecoveryCode-title-1 = 已消耗備用驗證碼
 postConsumeRecoveryCode-action = 管理帳號
 postNewRecoveryCodes-action = 管理帳號
 postRemoveAccountRecovery-subject = 已刪除救援金鑰

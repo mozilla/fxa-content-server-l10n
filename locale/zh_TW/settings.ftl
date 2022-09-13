@@ -138,7 +138,7 @@ cs-sign-out-button = 登出
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = 已下載
@@ -171,9 +171,11 @@ drop-down-menu-sign-out-error-2 = 很抱歉，將您登出時發生問題
 
 flow-container-back = 上一頁
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = 救援碼
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } 帳號救援金鑰
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 備用驗證碼
 get-data-trio-download =
     .title = 下載
 get-data-trio-copy =
@@ -233,11 +235,8 @@ nav-data-collection = 資料收集與使用
 nav-paid-subs = 付費訂閱項目
 nav-email-comm = 電子郵件通訊
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = 取代您的救援碼時發生問題
-tfa-replace-code-success = 已產生新的救援碼，請將這些單次使用代碼保存在安全的地方，當您無法再使用行動裝置時，可以使用救援碼登入帳號。
-tfa-replace-code-success-alert-2 = 已更新帳號救援碼
 tfa-replace-code-1-2 = 第 1 步，共 2 步
 tfa-replace-code-2-2 = 第 2 步，共 2 步
 
@@ -347,19 +346,18 @@ display-name-success-alert-2 = 已更新顯示名稱
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = 取消
 recovery-key-close-button = 關閉
 recovery-key-continue-button = 繼續
-recovery-key-created = 已建立您的救援金鑰。請務必將金鑰儲存在安全，且之後能簡單找到的位置。若忘記密碼時，必須使用金鑰才能拿回存取權。
 recovery-key-enter-password =
     .label = 輸入密碼
-recovery-key-page-title =
-    .title = 救援金鑰
+recovery-key-page-title-1 =
+    .title = 帳號救援金鑰
 recovery-key-step-1 = 第 1 步，共 2 步
 recovery-key-step-2 = 第 2 步，共 2 步
-recovery-key-success-alert-2 = 已建立救援金鑰
+recovery-key-success-alert-3 = 已建立帳號救援金鑰
 
 ## Add secondary email page
 
@@ -407,8 +405,7 @@ tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 兩階段驗證碼不正確
 tfa-cannot-retrieve-code = 取得您的驗證碼時發生問題。
-tfa-cannot-verify-code-3 = 驗證您的救援碼時發生錯誤
-tfa-incorrect-recovery-code = 救援金鑰不正確
+tfa-incorrect-recovery-code-1 = 備用驗證碼不正確
 tfa-enabled = 已開啟兩階段驗證
 tfa-scan-this-code = 請使用下列任一種<linkExternal>驗證程式</linkExternal>來掃描這組 QR Code。
 # This is the image alt text for a QR code.
@@ -424,10 +421,9 @@ tfa-enter-secret-key = 請在驗證程式輸入下列安全金鑰：
 tfa-enter-totp = 現在請輸入驗證應用程式當中的安全碼。
 tfa-input-enter-totp =
     .label = 請輸入安全碼
-tfa-save-these-codes = 請將這些單次使用的救援碼儲存在安全的地方，以備行動裝置不在手邊時使用。
-tfa-enter-code-to-confirm = 為了確認您已正確收到救援碼，現在請輸入任一組救援碼。當您無法再使用行動裝置時，可以使用救援碼登入帳號。
-tfa-enter-recovery-code =
-    .label = 請輸入救援碼
+tfa-save-these-codes-1 = 請將這些單次使用的備用驗證碼儲存在安全的地方，以備行動裝置不在手邊時使用。
+tfa-enter-recovery-code-1 =
+    .label = 請輸入備用驗證碼
 
 ##
 
@@ -476,23 +472,21 @@ row-defaults-action-change = 變更
 row-defaults-action-disable = 停用
 row-defaults-status = 無
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = 救援金鑰
+rk-header-1 = 帳號救援金鑰
 rk-enabled = 啟用
 rk-not-set = 未設定
 rk-action-create = 建立
 rk-action-remove = 移除
-rk-cannot-refresh = 很抱歉，重新整理救援金鑰時發生問題。
+rk-cannot-refresh-1 = 很抱歉，重新整理帳號救援金鑰時發生問題。
 rk-key-removed-2 = 已刪除帳號救援金鑰
 rk-cannot-remove-key = 無法刪除您的帳號救援金鑰。
-rk-refresh-key = 重新整理救援金鑰
+rk-refresh-key-1 = 重新整理帳號救援金鑰
 rk-content-explain = 當您忘記密碼時恢復資訊。
 rk-content-reset-data = 為什麼重設密碼也會重設我的資料？
 rk-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
-rk-remove-modal-heading = 要移除救援金鑰嗎？
-rk-remove-modal-content = 若您重設密碼，就無法再使用救援金鑰來存取資料，也無法恢復此動作。
-rk-refresh-error = 很抱歉，重新整理救援金鑰時發生問題。
+rk-remove-modal-heading-1 = 要移除帳號救援金鑰嗎？
 rk-remove-error-2 = 無法刪除您的帳號救援金鑰
 
 ## Secondary email sub-section on main Settings page
@@ -524,7 +518,6 @@ se-resend-code-2 = 需要驗證帳號。若未收到驗證信或跑到垃圾信�
 # Button to make secondary email the primary
 se-make-primary = 設為主要信箱
 se-default-content = 讓您在無法使用主要電子郵件地址時，還能存取帳號。
-se-content-note = 註：只設定次要電子郵件帳號無法恢復您的資訊，還需要有<a>救援金鑰</a>才行。
 # Default value for the secondary email
 se-secondary-email-none = 無
 
@@ -546,9 +539,8 @@ tfa-row-content-explain = 透過在登入時要求提供一組只有您有權限
 tfa-row-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
-tfa-row-disable-modal-explain = 將無法還原此動作。您還可以<linkExternal>換新救援碼</linkExternal>。
 tfa-row-cannot-disable-2 = 無法停用兩階段驗證
-tfa-row-change-modal-heading = 要更改救援碼嗎？
+tfa-row-change-modal-heading-1 = 要變更備用驗證碼嗎？
 tfa-row-change-modal-confirm = 變更
 tfa-row-change-modal-explain = 將無法恢復此動作。
 
