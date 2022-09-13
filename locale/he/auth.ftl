@@ -198,17 +198,6 @@ fraudulentAccountDeletion-contact = אם יש לך שאלות כלשהן, נא �
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = אם יש לך שאלות כלשהן, נא ליצור קשר עם צוות התמיכה שלנו: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = נותרו מעט קודים לשחזור
-codes-reminder-description = שמנו לב שמפתחות השחזור שלך הולכים ואוזלים. נא לשקול לייצר קודים חדשים כדי להימנע מנעילתך מחוץ לחשבון.
-codes-generate = יצירת קודים
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = יצירת קודים
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] נותר קוד אחד לשחזור
-       *[other] נותרו { $numberRemaining } קודים לשחזור
-    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = כניסה חדשה ל־{ $clientName }
@@ -236,13 +225,13 @@ passwordChangeRequired-different-password-plaintext = חשוב: יש לבחור 
 passwordReset-subject = הססמה עודכנה
 passwordReset-title = ססמת החשבון שלך הוחלפה
 passwordReset-description = יהיה עליך להקליד את הססמה החדשה שלך בשאר המכשירים כדי להמשיך בסנכרון.
-passwordResetAccountRecovery-subject = הססמה עודכנה באמצעות מפתח שחזור
-passwordResetAccountRecovery-title = ססמת החשבון שלך אופסה עם מפתח שחזור
-passwordResetAccountRecovery-description = איפסת את הססמה שלך בהצלחה באמצעות מפתח שחזור מהמכשיר הבא:
-passwordResetAccountRecovery-action = יצירת מפתח שחזור חדש
-passwordResetAccountRecovery-regen-required = יהיה עליך לייצר מפתח שחזור חדש.
+passwordResetAccountRecovery-subject-1 = הססמה עודכנה באמצעות מפתח שחזור החשבון
+passwordResetAccountRecovery-title-1 = ססמת החשבון שלך אופסה עם מפתח שחזור חשבון
+passwordResetAccountRecovery-description-1 = איפסת את הססמה שלך בהצלחה באמצעות מפתח שחזור חשבון מהמכשיר הבא:
+passwordResetAccountRecovery-action-1 = יצירת מפתח שחזור חשבון חדש
+passwordResetAccountRecovery-regen-required-1 = יהיה עליך לייצר מפתח שחזור חשבון חדש.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = יצירת מפתח שחזור חדש:
+passwordResetAccountRecovery-create-key-1 = יצירת מפתח שחזור חשבון חדש:
 postAddAccountRecovery-subject-2 = נוצר מפתח לשחזור החשבון
 postAddAccountRecovery-title2 = יצרת מפתח חדש לשחזור חשבון
 # Information on the browser and device triggering this string follows.
@@ -270,19 +259,12 @@ postChangePrimary-title = כתובת דוא״ל ראשית חדשה
 #  $email (String) - A user's email address
 postChangePrimary-description = שינית את כתובת הדוא״ל הראשית שלך ל־{ $email }. כתובת זו היא מעכשיו שם המשתמש שלך לכניסה ל{ -product-firefox-account(case: "the") } שלך, ותשמש לקבלת התרעות אבטחה ואישורי כניסה.
 postChangePrimary-action = ניהול חשבון
-postConsumeRecoveryCode-subject = נעשה שימוש בקוד שחזור
-postConsumeRecoveryCode-title = קוד השחזור הופעל
-postConsumeRecoveryCode-description = השתמשת בהצלחה בקוד שחזור מהמכשיר הבא:
 postConsumeRecoveryCode-action = ניהול חשבון
-postNewRecoveryCodes-subject = נוצרו קודים חדשים לשחזור
-postNewRecoveryCodes-title = נוצרו קודים חדשים לשחזור
-postNewRecoveryCodes-description = ייצרת בהצלחה קודים חדשים לשחזור מהמכשיר הבא:
 postNewRecoveryCodes-action = ניהול חשבון
 postRemoveAccountRecovery-subject = מפתח לשחזור החשבון הוסר
 postRemoveAccountRecovery-title = מפתח לשחזור החשבון הוסר
 postRemoveAccountRecovery-description = הסרת בהצלחה מפתח לשחזור { -product-firefox-account(case: "the") } שלך מהמכשיר הבא:
 postRemoveAccountRecovery-action = ניהול חשבון
-postRemoveAccountRecovery-invalid = לא ניתן יותר להשתמש במפתח שחזור זה כדי לשחזר את החשבון שלך.
 postRemoveSecondary-subject = כתובת דוא״ל משנית הוסרה
 postRemoveSecondary-title = כתובת דוא״ל משנית הוסרה
 # Variables:
@@ -579,7 +561,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = תזכורת לאימות החשבון שלך
 verificationReminderFirst-title-2 = ברוכים הבאים אל { -brand-firefox }!
 verificationReminderFirst-description-2 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־15 הימים הקרובים או שהוא יימחק באופן אוטומטי.
-verificationReminderFirst-sub-description-2 = אל תפספסו טכנולוגיה ששמה אותך ואת הפרטיות שלך במקום הראשון.
 confirm-email-2 = אימות החשבון
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = אימות החשבון
