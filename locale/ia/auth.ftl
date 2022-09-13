@@ -199,6 +199,13 @@ fraudulentAccountDeletion-contact = Si tu ha ulle questiones, contacta nostre <a
 fraudulentAccountDeletion-contact-plaintext = Si tu ha ulle questiones, contacta nostre equipa de assistentia: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Tu ha terminate le codices de authentication de salvamento!
+codes-reminder-title-one = Tu es a tu ultime codice de authentication de salvamento
+codes-reminder-title-two = Tempore pro crear altere codices de authentication de salvamento
+codes-reminder-description-part-one = Le codices de authentication de salvamento te adjuta a restaurar tu informationes quando tu oblida tu contrasigno.
+codes-reminder-description-part-two = Crea nove codices ora, assi tu non perde tu datos plus tarde.
+codes-reminder-description-two-left = Tu ha solo duo codices restate.
+codes-reminder-description-create-codes = Crea nove codices de authentication de salvamento pro adjutar te a re-acceder in tu conto si tu ha perdite le accesso.
+lowRecoveryCodes-action-2 = Crear codices
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
