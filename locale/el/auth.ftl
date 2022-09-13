@@ -231,17 +231,9 @@ fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, παρ
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε με την ομάδα υποστήριξής μας: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Απομένουν λίγοι κωδικοί ανάκτησης
-codes-reminder-description = Παρατηρήσαμε ότι σας απομένουν λίγοι κωδικοί ανάκτησης. Παρακαλούμε δημιουργήστε νέους κωδικούς για να μην κλειδωθείτε έξω από τον λογαριασμό σας.
-codes-generate = Δημιουργία κωδικών
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Δημιουργία κωδικών
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] Απομένει 1 κωδικός ανάκτησης
-       *[other] Απομένουν { $numberRemaining } κωδικοί ανάκτησης
-    }
+codes-reminder-description-two-left = Σας απομένουν μόνο δύο κωδικοί.
+lowRecoveryCodes-action-2 = Δημιουργία κωδικών
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Νέα σύνδεση στο { $clientName }
@@ -269,13 +261,7 @@ passwordChangeRequired-different-password-plaintext = Σημαντικό: Επι
 passwordReset-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordReset-title = Ο κωδικός πρόσβασης του λογαριασμού σας άλλαξε
 passwordReset-description = Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό.
-passwordResetAccountRecovery-subject = Ο κωδικός πρόσβασης ενημερώθηκε με το κλειδί ανάκτησης
-passwordResetAccountRecovery-title = Έγινε επαναφορά του κωδικού πρόσβασης του λογαριασμού σας με κλειδί ανάκτησης
-passwordResetAccountRecovery-description = Έχετε επαναφέρει επιτυχώς τον κωδικό πρόσβασής σας με ένα κλειδί ανάκτησης από την ακόλουθη συσκευή:
-passwordResetAccountRecovery-action = Δημιουργία νέου κλειδιού ανάκτησης
-passwordResetAccountRecovery-regen-required = Θα πρέπει να δημιουργήσετε ένα νέο κλειδί ανάκτησης.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Δημιουργία νέου κλειδιού ανάκτησης:
+passwordResetAccountRecovery-action-1 = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
 postAddAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
 # Information on the browser and device triggering this string follows.
@@ -303,19 +289,14 @@ postChangePrimary-title = Νέο κύριο email
 #  $email (String) - A user's email address
 postChangePrimary-description = Έχετε αλλάξει επιτυχώς το κύριο email σας σε { $email }. Αυτή η διεύθυνση αποτελεί πλέον το όνομα χρήστη σας για τη σύνδεση στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας, καθώς και για τη λήψη ειδοποιήσεων ασφαλείας και επιβεβαιώσεων σύνδεσης.
 postChangePrimary-action = Διαχείριση λογαριασμού
-postConsumeRecoveryCode-subject = Χρησιμοποιήθηκε κωδικός ανάκτησης
-postConsumeRecoveryCode-title = Χρησιμοποιήθηκε κωδικός ανάκτησης
-postConsumeRecoveryCode-description = Έχετε χρησιμοποιήσει επιτυχώς έναν κωδικό ανάκτησης από την ακόλουθη συσκευή:
+postConsumeRecoveryCode-subject-1 = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης
+postConsumeRecoveryCode-title-1 = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης
 postConsumeRecoveryCode-action = Διαχείριση λογαριασμού
-postNewRecoveryCodes-subject = Δημιουργήθηκαν νέοι κωδικοί ανάκτησης
-postNewRecoveryCodes-title = Δημιουργήθηκαν νέοι κωδικοί ανάκτησης
-postNewRecoveryCodes-description = Έχετε δημιουργήσει επιτυχώς νέους κωδικούς ανάκτησης από την ακόλουθη συσκευή:
 postNewRecoveryCodes-action = Διαχείριση λογαριασμού
 postRemoveAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε
 postRemoveAccountRecovery-title = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε
 postRemoveAccountRecovery-description = Έχετε αφαιρέσει επιτυχώς ένα κλειδί ανάκτησης για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας από την ακόλουθη συσκευή:
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
-postRemoveAccountRecovery-invalid = Αυτό το κλειδί ανάκτησης δεν μπορεί να χρησιμοποιηθεί πλέον για την ανάκτηση του λογαριασμού σας.
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 # Variables:
@@ -625,7 +606,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Θυμηθείτε να επιβεβαιώσετε τον λογαριασμό σας
 verificationReminderFirst-title-2 = Καλώς ορίσατε στο { -brand-firefox }!
 verificationReminderFirst-description-2 = Πριν από μερικές ημέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Παρακαλούμε επιβεβαιώστε τον λογαριασμό σας μέσα στις επόμενες 15 ημέρες, διαφορετικά θα διαγραφεί αυτόματα.
-verificationReminderFirst-sub-description-2 = Μην χάσετε την τεχνολογία που έχει ως προτεραιότητα εσάς και το απόρρητό σας.
 confirm-email-2 = Επιβεβαίωση λογαριασμού
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Επιβεβαίωση λογαριασμού

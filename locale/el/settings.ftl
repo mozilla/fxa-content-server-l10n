@@ -186,7 +186,7 @@ cs-sign-out-button = Αποσύνδεση
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Έγινε λήψη
@@ -219,9 +219,11 @@ drop-down-menu-sign-out-error-2 = Δυστυχώς, προέκυψε πρόβλ�
 
 flow-container-back = Πίσω
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Κωδικοί ανάκτησης
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Κλειδί ανάκτησης λογαριασμού { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Εφεδρικοί κωδικοί ταυτοποίησης { -brand-firefox }
 get-data-trio-download =
     .title = Λήψη
 get-data-trio-copy =
@@ -281,14 +283,8 @@ nav-data-collection = Συλλογή και χρήση δεδομένων
 nav-paid-subs = Συνδρομές επί πληρωμή
 nav-email-comm = Επικοινωνία μέσω email
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Προέκυψε πρόβλημα κατά την αντικατάσταση των κωδικών ανάκτησής σας
-tfa-replace-code-success =
-    Δημιουργήθηκαν νέοι κωδικοί. Αποθηκεύστε αυτούς τους κωδικούς
-    μιας χρήσης σε ασφαλές μέρος — όπου θα έχετε πρόσβαση σε περίπτωση που δεν
-    έχετε την κινητή συσκευή σας.
-tfa-replace-code-success-alert-2 = Οι κωδικοί ανάκτησης του λογαριασμού ενημερώθηκαν
 tfa-replace-code-1-2 = Βήμα 1 από 2
 tfa-replace-code-2-2 = Βήμα 2 από 2
 
@@ -398,19 +394,17 @@ display-name-success-alert-2 = Το εμφανιζόμενο όνομα ενημ
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Ακύρωση
 recovery-key-close-button = Κλείσιμο
 recovery-key-continue-button = Συνέχεια
-recovery-key-created = Δημιουργήθηκε το κλειδί ανάκτησής σας. Αποθηκεύστε αυτό το κλειδί σε ασφαλές μέρος όπου θα έχετε εύκολη πρόσβαση αργότερα — χρειάζεστε αυτό το κλειδί για πρόσβαση στα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 recovery-key-enter-password =
     .label = Εισαγωγή κωδικού πρόσβασης
-recovery-key-page-title =
-    .title = Κλειδί ανάκτησης
+recovery-key-page-title-1 =
+    .title = Κλειδί ανάκτησης λογαριασμού
 recovery-key-step-1 = Βημα 1 απο 2
 recovery-key-step-2 = Βημα 2 απο 2
-recovery-key-success-alert-2 = Το κλειδί ανάκτησης δημιουργήθηκε
 
 ## Add secondary email page
 
@@ -458,8 +452,6 @@ tfa-button-cancel = Ακύρωση
 tfa-button-finish = Τέλος
 tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο παραγόντων
 tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λήψη του κωδικού σας.
-tfa-cannot-verify-code-3 = Προέκυψε πρόβλημα κατά την επιβεβαίωση του κωδικού ανάκτησής σας
-tfa-incorrect-recovery-code = Εσφαλμένος κωδικός ανάκτησης
 tfa-enabled = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 tfa-scan-this-code =
     Σαρώστε τον κωδικό QR με κάποια από <linkExternal>αυτές
@@ -479,15 +471,6 @@ tfa-enter-secret-key = Εισαγάγετε αυτό το μυστικό κλε�
 tfa-enter-totp = Τώρα, εισαγάγετε τον κωδικό ασφαλείας από την εφαρμογή ταυτοποίησης.
 tfa-input-enter-totp =
     .label = Εισαγωγή κωδικού ασφαλείας
-tfa-save-these-codes =
-    Αποθηκεύστε αυτούς τους κωδικούς μιας χρήσης σε ασφαλές μέρος
-    σε περίπτωση που δεν έχετε πρόσβαση στην κινητή συσκευή σας.
-tfa-enter-code-to-confirm =
-    Παρακαλώ εισαγάγετε τώρα έναν από τους κωδικούς ανάκτησής σας για να
-    επιβεβαιώσετε ότι τους έχετε αποθηκεύσει. Θα χρειαστείτε έναν κωδικό ανάκτησης σε περίπτωση
-    που χάσετε τη συσκευή σας και θελήσετε να αποκτήσετε πρόσβαση στον λογαριασμό σας.
-tfa-enter-recovery-code =
-    .label = Εισαγωγή κωδικού ανάκτησης
 
 ##
 
@@ -536,25 +519,22 @@ row-defaults-action-change = Αλλαγή
 row-defaults-action-disable = Απενεργοποίηση
 row-defaults-status = Κανένα
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Κλειδί ανάκτησης
+rk-header-1 = Κλειδί ανάκτησης λογαριασμού
 rk-enabled = Ενεργό
 rk-not-set = Δεν έχει οριστεί
 rk-action-create = Δημιουργία
 rk-action-remove = Αφαίρεση
-rk-cannot-refresh = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης.
+rk-cannot-refresh-1 = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης.
 rk-key-removed-2 = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε
 rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του κλειδιού ανάκτησης λογαριασμού.
-rk-refresh-key = Ανανέωση κλειδιού ανάκτησης
+rk-refresh-key-1 = Ανανέωση κλειδιού ανάκτησης λογαριασμού
 rk-content-explain = Ανακτήστε τις πληροφορίες σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 rk-content-reset-data = Γιατί η επαναφορά του κωδικού πρόσβασης διαγράφει τα δεδομένα μου;
 rk-cannot-verify-session-4 = Δυστυχώς, προέκυψε πρόβλημα με την επιβεβαίωση της συνεδρίας σας
-rk-remove-modal-heading = Αφαίρεση κλειδιού ανάκτησης;
-rk-remove-modal-content =
-    Σε περίπτωση που επαναφέρετε τον κωδικό πρόσβασής σας, δεν θα
-    μπορείτε να χρησιμοποιήσετε το κλειδί ανάκτησης για πρόσβαση στα δεδομένα σας. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.
-rk-refresh-error = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης.
+rk-remove-modal-heading-1 = Αφαίρεση κλειδιού ανάκτησης λογαριασμού;
+rk-refresh-error-1 = Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση του κλειδιού ανάκτησης λογαριασμού.
 rk-remove-error-2 = Δεν ήταν δυνατή η αφαίρεση του κλειδιού ανάκτησης του λογαριασμού σας
 
 ## Secondary email sub-section on main Settings page
@@ -588,9 +568,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Ορισμός ως κύριο
 se-default-content = Αποκτήστε πρόσβαση στον λογαριασμό σας εάν δεν μπορείτε να συνδεθείτε στο κύριο email σας.
-se-content-note =
+se-content-note-1 =
     Σημείωση: ένα δευτερεύον email δεν θα ανακτήσει τα δεδομένα σας — 
-    θα χρειαστείτε ένα <a>κλειδί ανάκτησης</a> για αυτό.
+    θα χρειαστείτε ένα <a>κλειδί ανάκτησης λογαριασμού</a> για αυτό.
 # Default value for the secondary email
 se-secondary-email-none = Κανένα
 
@@ -616,11 +596,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Δυστυχώς, προέκυψε πρόβλημα με την επιβεβαίωση της συνεδρίας σας
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο παραγόντων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
-tfa-row-disable-modal-explain =
+tfa-row-disable-modal-explain-1 =
     Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια. Έχετε επίσης
-    την επιλογή <linkExternal>αντικατάστασης των κωδικών ανάκτησής σας</linkExternal>.
+    την επιλογή <linkExternal>αντικατάστασης των εφεδρικών κωδικών ταυτοποίησής σας</linkExternal>.
 tfa-row-cannot-disable-2 = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο παραγόντων
-tfa-row-change-modal-heading = Αλλαγή κωδικών ανάκτησης;
+tfa-row-change-modal-heading-1 = Αλλαγή εφεδρικών κωδικών ταυτοποίησης;
 tfa-row-change-modal-confirm = Αλλαγή
 tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια.
 
