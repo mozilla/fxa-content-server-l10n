@@ -311,6 +311,7 @@ postRemoveTwoStepAuthentication-description-plaintext = Uspešno ste onemogočil
 postRemoveTwoStepAuthentication-action = Upravljanje računa
 postRemoveTwoStepAuthentication-not-required = Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
 postVerify-sub-title-3 = Veseli nas, da vas vidimo!
+postVerify-title-2 = Želite imeti isti zavihek na dveh napravah?
 postVerify-subject-3 = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
 postVerify-setup-2 = Povežite drugo napravo:
 postVerify-action-2 = Poveži drugo napravo
