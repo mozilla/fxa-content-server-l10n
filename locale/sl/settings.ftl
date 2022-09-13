@@ -485,6 +485,11 @@ tfa-enter-secret-key = Vnesite ta tajni ključ v svojo aplikacijo za overitev:
 tfa-enter-totp = Sedaj vnesite varnostno kodo iz aplikacije za overjanje.
 tfa-input-enter-totp =
     .label = Vnesite varnostno kodo
+tfa-save-these-codes-1 =
+    Shranite te rezervne overitvene kode za enkratno uporabo na varno mesto
+    za primere, ko nimate mobilne naprave.
+tfa-enter-recovery-code-1 =
+    .label = Vnesite rezervno overitveno kodo
 
 ##
 
@@ -613,7 +618,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Oprostite, prišlo je do težave pri potrjevanju vaše seje
 tfa-row-disable-modal-heading = Ali želite onemogočiti overitev v dveh korakih?
 tfa-row-disable-modal-confirm = Onemogoči
+tfa-row-disable-modal-explain-1 =
+    Tega dejanja ne morete razveljaviti. Imate tudi
+    možnost <linkExternal>zamenjave rezervnih overitvenih kod</linkExternal>.
 tfa-row-cannot-disable-2 = Overitve v dveh korakih ni bilo mogoče izključiti
+tfa-row-change-modal-heading-1 = Spremeni rezervne overitvene kode?
 tfa-row-change-modal-confirm = Spremeni
 tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 

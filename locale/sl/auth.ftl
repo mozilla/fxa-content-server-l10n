@@ -581,6 +581,7 @@ verify-action-2 = Potrdi račun
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Ali ste se vi prijavili v { $clientName }?
+verifyLogin-description-2 = Pomagajte nam zaščititi vaš račun, tako da potrdite, da ste se vi prijavili v:
 verifyLogin-subject-2 = Potrdi prijavo
 verifyLogin-action = Potrdite prijavo
 # Variables:
