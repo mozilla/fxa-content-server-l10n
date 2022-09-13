@@ -230,6 +230,7 @@ flow-container-back = Nazaj
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ključ za obnovitev { -brand-firefox } Računa
+get-data-trio-title-firefox-backup-verification-codes = Rezervne overitvene kode za { -brand-firefox }
 get-data-trio-download =
     .title = Prenesi
 get-data-trio-copy =
@@ -291,6 +292,7 @@ nav-email-comm = E-poštno obveščanje
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Pri menjavi rezervnih overitvenih kod je prišlo do težave
 tfa-replace-code-1-2 = Korak 1 od 2
 tfa-replace-code-2-2 = Korak 2 od 2
 
