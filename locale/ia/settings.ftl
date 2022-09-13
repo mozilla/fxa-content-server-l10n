@@ -146,7 +146,7 @@ cs-sign-out-button = Clauder session
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Discargate
@@ -179,9 +179,9 @@ drop-down-menu-sign-out-error-2 = Desolate, problema durante tu disconnexion
 
 flow-container-back = Retro
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Codices de recuperation
+get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-download =
     .title = Discargar
 get-data-trio-copy =
@@ -241,14 +241,8 @@ nav-data-collection = Recolta e uso de datos
 nav-paid-subs = Subscriptiones pagate
 nav-email-comm = Communicationes email
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Il habeva un problema a replaciar tu codices de recuperation
-tfa-replace-code-success =
-    Nove codices ha essite create. Salvar iste codices a 
-    uso unic in un loco secur: tu los besoniara pro acceder tu conto si tu non 
-    ha tu apparato mobile.
-tfa-replace-code-success-alert-2 = Codices recuperation de conto activate
 tfa-replace-code-1-2 = Passo 1de 2
 tfa-replace-code-2-2 = Passo 2 de 2
 
@@ -358,19 +352,15 @@ display-name-success-alert-2 = Nomine a monstrar actualisate
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Cancellar
 recovery-key-close-button = Clauder
 recovery-key-continue-button = Continuar
-recovery-key-created = Tu clave de recuperation ha essite create. Cura salvar le clave in un loco secur que tu pote facilemente trovar plus tarde: tu debera haber le clave pro reganiar accesso a tu datos si tu oblida tu contrasigno.
 recovery-key-enter-password =
     .label = Insere le contrasigno
-recovery-key-page-title =
-    .title = Clave de recuperation
 recovery-key-step-1 = Passo 1 de 2
 recovery-key-step-2 = Passo 2 de 2
-recovery-key-success-alert-2 = Clave de recuperation create
 
 ## Add secondary email page
 
@@ -418,8 +408,6 @@ tfa-button-cancel = Cancellar
 tfa-button-finish = Finir
 tfa-incorrect-totp = Codice de authentication a duo passos non correcte
 tfa-cannot-retrieve-code = Il ha habite un problema a retrovar tu codice.
-tfa-cannot-verify-code-3 = Il habeva un problema a confirmar tu codices de recuperation
-tfa-incorrect-recovery-code = Codice de recuperation non correcte
 tfa-enabled = Authentication a duo-grados activate
 tfa-scan-this-code =
     Scanna iste codice QR usante un de <linkExternal>iste
@@ -439,13 +427,6 @@ tfa-enter-secret-key = Insere iste clave secrete in tu app de authentication:
 tfa-enter-totp = Ora insere le codice de securitate del application de authentication.
 tfa-input-enter-totp =
     .label = Insere le codice de securitate
-tfa-save-these-codes = Salva iste codices a uso unic in un loco secur pro le caso que tu perde le accesso a tu apparato mobile.
-tfa-enter-code-to-confirm =
-    Insere un de tu codices de recuperation ora pro 
-    confirmar que tu lo ha salvate. Tu debera haber un codice si tu perde tu dispositivo 
-    e vole acceder tu conto.
-tfa-enter-recovery-code =
-    .label = Insere un codice de recuperation
 
 ##
 
@@ -494,25 +475,17 @@ row-defaults-action-change = Cambiar
 row-defaults-action-disable = Disactivar
 row-defaults-status = Nulle
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Clave de recuperation
 rk-enabled = Activate
 rk-not-set = Non definite
 rk-action-create = Crear
 rk-action-remove = Remover
-rk-cannot-refresh = Desolate, problema al actualisation le clave de recuperation.
 rk-key-removed-2 = Clave de recuperation del conto removite
 rk-cannot-remove-key = Tu clave de recuperation del conto non pote esser removite.
-rk-refresh-key = Actualisar le clave de recuperation
 rk-content-explain = Restaura tu informationes quando tu oblida tu contrasigno.
 rk-content-reset-data = Proque reinitialisar mi contrasigno elimina mi datos?
 rk-cannot-verify-session-4 = Desolate, problema a confirmar tu session
-rk-remove-modal-heading = Remover clave de recuperation?
-rk-remove-modal-content =
-    In caso que tu reinitialisa tu contrasigno, tu non potera 
-    usar tu clave de recuperation pro acceder tu datos. Tu non pote disfacer iste action.
-rk-refresh-error = Desolate, problema al actualisation del clave de recuperation.
 rk-remove-error-2 = Tu clave de recuperation del conto non pote esser removite
 
 ## Secondary email sub-section on main Settings page
@@ -546,9 +519,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Rende lo primari
 se-default-content = Accede tu conto si tu non pote acceder a tu e-mail primari.
-se-content-note =
-    Nota: un email secundari non restaurara tu informationes: tu
-    besoniara de un <a>clave de recuperation</a> pro isto.
 # Default value for the secondary email
 se-secondary-email-none = Nihil
 
@@ -572,11 +542,7 @@ tfa-row-content-explain = Impedi que altere personas accede a tu conto, exigente
 tfa-row-cannot-verify-session-4 = Desolate, problema a confirmar tu session
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
-tfa-row-disable-modal-explain =
-    Tu non potera disfacer iste action. Tu alsi
-    ha le option de <linkExternal>replaciar tu codices de recuperation</linkExternal>.
 tfa-row-cannot-disable-2 = Impossibile disactivar authentication a duo passos
-tfa-row-change-modal-heading = Cambiar codices de recuperation?
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = Tu non potera disfacer iste action.
 
