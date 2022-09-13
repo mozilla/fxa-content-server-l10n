@@ -83,6 +83,7 @@ automated-email-change =
 automated-email-change-plaintext = To je awtomatiska e-mejlka; jeli njejsće swojemu kontu{ -product-firefox-account } nowy grat přidał, změńcé prošu hnydom swoje hesło na { $passwordChangeLink }
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Za dalše informacije wopytajće <a data-l10n-name="supportLink"> pomoc { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = To je awtomatizowana mejlka. Jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = To je awtomatiska e-mejlka; jeli njejsće tutu akciju awtorizował, změńće prošu swoje hesło.
 automated-email-reset =
@@ -196,19 +197,8 @@ fraudulentAccountDeletion-contact = Jeli prašenja maće, stajće so z našim <a
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jeli prašenja maće, stajće so prošu z našim teamom pomocy do zwiska: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Mało wobnowjenskich kodow wyše
-codes-reminder-description = Smy zwěsćili, zo mało wobnowjenskich kodow wužiwaće. Prošu rozwažujćo, hač nowe kody wutworiće, zo byšće zawrjenje swojeho konta wobešoł.
-codes-generate = Kody wutworić
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Kody wutworić
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] { $numberRemaining } wobnowjenski kod wyše
-        [two] { $numberRemaining } wobnowjenskej kodaj wyše
-        [few] { $numberRemaining } wobnowjenske kody wyše
-       *[other] { $numberRemaining } wobnowjenskich kodow wyše
-    }
+lowRecoveryCodes-action-2 = Kody wutworić
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe přizjewjenje pola { $clientName }
@@ -236,13 +226,6 @@ passwordChangeRequired-different-password-plaintext = Wažny: Wubjerće druhe he
 passwordReset-subject = Hesło je so zaktualizowało
 passwordReset-title = Waše kontowe hesło je so změniło
 passwordReset-description = Dyrbiće swoje nowe hesło na druhich gratach zapodać, zo byšće ze synchronizaciju pokročował.
-passwordResetAccountRecovery-subject = Hesło je so z pomocu wobnowjenskeho kluča zaktualizowało
-passwordResetAccountRecovery-title = Waše kontowe hesło jo so wróćo stajiło z wobnowjenskim klučom
-passwordResetAccountRecovery-description = Sće wuspěšnje swoje hesło z pomocu wobnowjenskeho kluča ze slědowaceho grata wróćo stajił:
-passwordResetAccountRecovery-action = Nowy wobnowjenski kluč wutworić
-passwordResetAccountRecovery-regen-required = Dyrbiće nowy wobnowjenski kluč wutworić.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Nowy wobnowjenski kluč wutworić:
 postAddAccountRecovery-subject-2 = Kontowy wobnowjenski kluč je so wutworił
 postAddAccountRecovery-title2 = Sće nowy kontowy wobnowjenski kluč wutworił
 # Information on the browser and device triggering this string follows.
@@ -270,19 +253,12 @@ postChangePrimary-title = Nowa primarna e-mejlowa adresa
 #  $email (String) - A user's email address
 postChangePrimary-description = Sće swoju primarnu e-mejlowu adresu wuspěšnje do { $email } změnił. Tuta adresa je nětko waše wužiwarske mjeno za přizjewjenje pola wašeho konta { -product-firefox-account } a zo byšće wěstotne powěsće a přizjewjenske
 postChangePrimary-action = Konto rjadować
-postConsumeRecoveryCode-subject = Wobnowjenski kod so wužiwa
-postConsumeRecoveryCode-title = Wobnowjenski kod je so wužił
-postConsumeRecoveryCode-description = Sće wobnowjenski kod ze slědowaceho grata wuspěšnje wužił:
 postConsumeRecoveryCode-action = Konto rjadować
-postNewRecoveryCodes-subject = Nowy wobnowjenski kod wutworjeny
-postNewRecoveryCodes-title = Nowy wobnowjenski kod wutworjeny
-postNewRecoveryCodes-description = Sće nowe wobnowjenske kody ze slědowaceho grata wuspěšnje wutworił:
 postNewRecoveryCodes-action = Konto rjadować
 postRemoveAccountRecovery-subject = Kontowy wobnowjenski kluč je so wotstronił
 postRemoveAccountRecovery-title = Kontowy wobnowjenski kluč je so wotstronił
 postRemoveAccountRecovery-description = Sće wuspěšnje nowy wobnowjenski kluč za swoje konto { -product-firefox-account } z pomocu slědowaceho grata wotstronił:
 postRemoveAccountRecovery-action = Konto rjadować
-postRemoveAccountRecovery-invalid = Tutón wobnowjenski kluč njeda so hižo wužiwać, zo by waše konto wobnowił.
 postRemoveSecondary-subject = Sekundarna e-mejlowa adresa wotstronjena
 postRemoveSecondary-title = Sekundarna e-mejlowa adresa wotstronjena
 # Variables:
