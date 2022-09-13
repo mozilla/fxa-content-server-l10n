@@ -280,6 +280,7 @@ postRemoveAccountRecovery-subject = 已刪除救援金鑰
 postRemoveAccountRecovery-title = 已刪除救援金鑰
 postRemoveAccountRecovery-description = 您已使用下列裝置，成功刪除 { -product-firefox-account } 的救援金鑰：
 postRemoveAccountRecovery-action = 管理帳號
+postRemoveAccountRecovery-invalid-1 = 將無法再使用這把金鑰來救援您的帳號。
 postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = 已移除次要電子郵件地址
 # Variables:
