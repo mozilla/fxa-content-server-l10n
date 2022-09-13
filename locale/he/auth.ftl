@@ -265,6 +265,7 @@ postRemoveAccountRecovery-subject = מפתח לשחזור החשבון הוסר
 postRemoveAccountRecovery-title = מפתח לשחזור החשבון הוסר
 postRemoveAccountRecovery-description = הסרת בהצלחה מפתח לשחזור { -product-firefox-account(case: "the") } שלך מהמכשיר הבא:
 postRemoveAccountRecovery-action = ניהול חשבון
+postRemoveAccountRecovery-invalid-1 = לא ניתן יותר להשתמש במפתח שחזור חשבון זה כדי לשחזר את החשבון שלך.
 postRemoveSecondary-subject = כתובת דוא״ל משנית הוסרה
 postRemoveSecondary-title = כתובת דוא״ל משנית הוסרה
 # Variables:
