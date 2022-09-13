@@ -194,15 +194,12 @@ fraudulentAccountDeletion-contact = 若您有其他問題，請聯絡我們的<a
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = 若您有其他問題，請聯絡我們的技術支援團隊：{ $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = 剩餘的救援代碼不足
-codes-reminder-description = 我們發現您的救援碼所剩不多了。請考慮產生一些新的救援碼，以備無法登入時所需。
-codes-generate = 產生新代碼
-codes-generate-plaintext = { codes-generate }：
-lowRecoveryCodes-action = 產生新代碼
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-       *[other] 剩餘 { $numberRemaining } 組救援碼
-    }
+codes-reminder-title-zero = 您的備用驗證碼已經用完了！
+codes-reminder-title-one = 您只剩下一組備用驗證碼
+codes-reminder-title-two = 是時候建立更多備用驗證碼了！
+codes-reminder-description-part-one = 可透過備用驗證碼，在忘記密碼時協助您救回資訊。
+codes-reminder-description-part-two = 建立新的驗證，避免未來遺失資料。
+codes-reminder-description-two-left = 只剩下兩組備用驗證碼
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 的新登入通知
@@ -230,13 +227,6 @@ passwordChangeRequired-different-password-plaintext = 重要：請改用您從�
 passwordReset-subject = 密碼已更新
 passwordReset-title = 您的帳號密碼已變更
 passwordReset-description = 將需要在其他裝置上輸入新密碼才能恢復同步。
-passwordResetAccountRecovery-subject = 已使用救援金鑰更新密碼
-passwordResetAccountRecovery-title = 已使用救援金鑰重設密碼
-passwordResetAccountRecovery-description = 您已自下列裝置成功使用救援金鑰重設密碼：
-passwordResetAccountRecovery-action = 產生新的救援金鑰
-passwordResetAccountRecovery-regen-required = 您必須產生新的救援金鑰。
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = 產生新的救援金鑰：
 postAddAccountRecovery-subject-2 = 已建立救援金鑰
 postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
 # Information on the browser and device triggering this string follows.
@@ -264,19 +254,12 @@ postChangePrimary-title = 新增主要電子郵件地址
 #  $email (String) - A user's email address
 postChangePrimary-description = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 { -product-firefox-account }，也會在這個信箱中收到安全性通知、登入確認信等等。
 postChangePrimary-action = 管理帳號
-postConsumeRecoveryCode-subject = 已使用救援碼
-postConsumeRecoveryCode-title = 已使用救援碼
-postConsumeRecoveryCode-description = 您已在下列裝置上，成功使用救援碼登入：
 postConsumeRecoveryCode-action = 管理帳號
-postNewRecoveryCodes-subject = 已產生新救援碼
-postNewRecoveryCodes-title = 已產生新救援碼
-postNewRecoveryCodes-description = 您已在下列裝置上，成功產生新救援碼：
 postNewRecoveryCodes-action = 管理帳號
 postRemoveAccountRecovery-subject = 已刪除救援金鑰
 postRemoveAccountRecovery-title = 已刪除救援金鑰
 postRemoveAccountRecovery-description = 您已使用下列裝置，成功刪除 { -product-firefox-account } 的救援金鑰：
 postRemoveAccountRecovery-action = 管理帳號
-postRemoveAccountRecovery-invalid = 將無法再使用這把金鑰來救援您的帳號。
 postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = 已移除次要電子郵件地址
 # Variables:
@@ -586,7 +569,6 @@ confirm-account-plaintext = { confirm-account }：
 verificationReminderFirst-subject-2 = 請記得要確認帳號
 verificationReminderFirst-title-2 = 歡迎使用 { -brand-firefox }！
 verificationReminderFirst-description-2 = 幾天前您註冊了 { -product-firefox-account }，但並未確認過帳號身分。請在 15 天內完成確認，否則帳號將被自動刪除。
-verificationReminderFirst-sub-description-2 = 別錯過將您與您的隱私視為最優先的技術。
 confirm-email-2 = 確認帳號
 confirm-email-plaintext-2 = { confirm-email-2 }：
 verificationReminderFirst-action-2 = 確認帳號
