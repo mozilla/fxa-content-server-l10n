@@ -429,6 +429,9 @@ tfa-enter-totp = Agora digite o código de segurança do seu aplicativo de auten
 tfa-input-enter-totp =
     .label = Digite o código de segurança
 tfa-save-these-codes-1 = Guarde esses códigos de autenticação de backup de uso único em um local seguro, para quando você não estiver com seu dispositivo móvel.
+tfa-enter-code-to-confirm-1 = Digite agora um dos seus códigos de autenticação de backup para confirmar que você salvou. Você precisará de um código para entrar na conta, caso não tenha acesso ao seu dispositivo móvel.
+tfa-enter-recovery-code-1 =
+    .label = Digite um código de autenticação de backup
 
 ##
 
@@ -479,15 +482,21 @@ row-defaults-status = Nenhum
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Chave de recuperação de conta
 rk-enabled = Ativado
 rk-not-set = Não definido
 rk-action-create = Criar
 rk-action-remove = Remover
+rk-cannot-refresh-1 = Desculpe, houve um problema ao atualizar a chave de recuperação de conta.
 rk-key-removed-2 = Chave de recuperação da conta removida
 rk-cannot-remove-key = Não foi possível remover a chave de recuperação da sua conta.
+rk-refresh-key-1 = Atualizar chave de recuperação de conta
 rk-content-explain = Restaure suas informações caso esqueça sua senha.
 rk-content-reset-data = Por que redefinir minha senha redefine meus dados?
 rk-cannot-verify-session-4 = Desculpe, houve um problema ao confirmar a sessão.
+rk-remove-modal-heading-1 = Remover chave de recuperação de conta?
+rk-remove-modal-content-1 = Caso você redefina sua senha, não poderá usar sua chave de recuperação de conta para acessar seus dados. Esta ação não pode ser desfeita.
+rk-refresh-error-1 = Desculpe, houve um problema ao atualizar a chave de recuperação de conta.
 rk-remove-error-2 = Não foi possível remover a chave de recuperação da sua conta
 
 ## Secondary email sub-section on main Settings page
@@ -519,6 +528,7 @@ se-resend-code-2 = Confirmação necessária. <button>Reenvie o código de verif
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
 se-default-content = Acesse sua conta se você não conseguir entrar no seu email principal.
+se-content-note-1 = Nota: Usar um email secundário não restaura suas informações, você precisa de uma <a>chave de recuperação de conta</a> para isso.
 # Default value for the secondary email
 se-secondary-email-none = Nenhum
 
