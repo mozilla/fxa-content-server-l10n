@@ -149,7 +149,7 @@ cs-sign-out-button = Sign out
 
 ##
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
   .message = Downloaded
@@ -183,9 +183,11 @@ drop-down-menu-sign-out-error-2 = Sorry, there was a problem signing you out
 
 flow-container-back = Back
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Recovery Codes
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } account recovery key
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } backup authentication codes
 get-data-trio-download =
   .title = Download
 get-data-trio-copy =
@@ -246,13 +248,13 @@ nav-data-collection = Data Collection and Use
 nav-paid-subs = Paid Subscriptions
 nav-email-comm = Email Communications
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = There was a problem replacing your recovery codes
-tfa-replace-code-success = New codes have been created. Save these one-time use
-  codes in a safe place — you’ll need them to access your account if you don’t
+tfa-replace-code-error-3 = There was a problem replacing your backup authentication codes
+tfa-replace-code-success-1 = New codes have been created. Save these one-time use
+  backup authentication codes in a safe place — you’ll need them to access your account if you don’t
   have your mobile device.
-tfa-replace-code-success-alert-2 = Account recovery codes updated
+tfa-replace-code-success-alert-3 = Account backup authentication codes updated
 tfa-replace-code-1-2 = Step 1 of 2
 tfa-replace-code-2-2 = Step 2 of 2
 
@@ -372,19 +374,19 @@ display-name-success-alert-2 = Display name updated
 
 ##
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Cancel
 recovery-key-close-button = Close
 recovery-key-continue-button = Continue
-recovery-key-created = Your recovery key has been created. Be sure to save the key in a safe place that you can easily find later — you’ll need the key to regain access to your data if you forget your password.
+recovery-key-created-1 = Your account recovery key has been created. Be sure to save the key in a safe place that you can easily find later — you’ll need the key to regain access to your data if you forget your password.
 recovery-key-enter-password =
   .label = Enter password
-recovery-key-page-title =
-  .title = Recovery key
+recovery-key-page-title-1 =
+  .title = Account recovery key
 recovery-key-step-1 = Step 1 of 2
 recovery-key-step-2 = Step 2 of 2
-recovery-key-success-alert-2 = Recovery key created
+recovery-key-success-alert-3 = Account recovery key created
 
 ## Add secondary email page
 
@@ -435,8 +437,8 @@ tfa-button-finish = Finish
 
 tfa-incorrect-totp = Incorrect two-step authentication code
 tfa-cannot-retrieve-code = There was a problem retrieving your code.
-tfa-cannot-verify-code-3 = There was a problem confirming your recovery code
-tfa-incorrect-recovery-code = Incorrect recovery code
+tfa-cannot-verify-code-4 = There was a problem confirming your backup authentication code
+tfa-incorrect-recovery-code-1 = Incorrect backup authentication code
 tfa-enabled = Two-step authentication enabled
 
 tfa-scan-this-code = Scan this QR code using one of <linkExternal>these
@@ -457,14 +459,14 @@ tfa-enter-secret-key = Enter this secret key into your authenticator app:
 tfa-enter-totp = Now enter the security code from the authentication app.
 tfa-input-enter-totp =
  .label = Enter security code
-tfa-save-these-codes = Save these one-time use codes in a safe place for when
+tfa-save-these-codes-1 = Save these one-time use backup authentication codes in a safe place for when
   you don’t have your mobile device.
 
-tfa-enter-code-to-confirm = Please enter one of your recovery codes now to
-  confirm you’ve saved it. You’ll need a code if you lose your device and want
-  to access your account.
-tfa-enter-recovery-code =
- .label = Enter a recovery code
+tfa-enter-code-to-confirm-1 = Please enter one of your backup authentication codes now to
+  confirm you’ve saved it. You’ll need a code to login if you don’t have access to your
+  mobile device.
+tfa-enter-recovery-code-1 =
+ .label = Enter a backup authentication code
 
 ##
 
@@ -511,24 +513,24 @@ row-defaults-action-change = Change
 row-defaults-action-disable = Disable
 row-defaults-status = None
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Recovery key
+rk-header-1 = Account recovery key
 rk-enabled = Enabled
 rk-not-set = Not Set
 rk-action-create = Create
 rk-action-remove = Remove
-rk-cannot-refresh = Sorry, there was a problem refreshing the recovery key.
+rk-cannot-refresh-1 = Sorry, there was a problem refreshing the account recovery key.
 rk-key-removed-2 = Account recovery key removed
 rk-cannot-remove-key = Your account recovery key could not be removed.
-rk-refresh-key = Refresh recovery key
+rk-refresh-key-1 = Refresh account recovery key
 rk-content-explain = Restore your information when you forget your password.
 rk-content-reset-data = Why does resetting my password reset my data?
 rk-cannot-verify-session-4 = Sorry, there was a problem confirming your session
-rk-remove-modal-heading = Remove recovery key?
-rk-remove-modal-content = In the event you reset your password, you won’t be
-  able to use your recovery key to access your data. You can’t undo this action.
-rk-refresh-error = Sorry, there was a problem refreshing the recovery key.
+rk-remove-modal-heading-1 = Remove account recovery key?
+rk-remove-modal-content-1 = In the event you reset your password, you won’t be
+  able to use your account recovery key to access your data. You can’t undo this action.
+rk-refresh-error-1 = Sorry, there was a problem refreshing the account recovery key.
 rk-remove-error-2 = Your account recovery key could not be removed
 
 ## Secondary email sub-section on main Settings page
@@ -561,8 +563,8 @@ se-resend-code-2 = Confirmation needed. <button>Resend confirmation code</button
 # Button to make secondary email the primary
 se-make-primary = Make primary
 se-default-content = Access your account if you can’t log in to your primary email.
-se-content-note = Note: a secondary email won’t restore your information — you’ll
-  need a <a>recovery key</a> for that.
+se-content-note-1 = Note: a secondary email won’t restore your information — you’ll
+  need an <a>account recovery key</a> for that.
 # Default value for the secondary email
 se-secondary-email-none = None
 
@@ -587,11 +589,11 @@ tfa-row-cannot-verify-session-4 = Sorry, there was a problem confirming your ses
 
 tfa-row-disable-modal-heading = Disable two-step authentication?
 tfa-row-disable-modal-confirm = Disable
-tfa-row-disable-modal-explain = You won’t be able to undo this action. You also
-  have the option of <linkExternal>replacing your recovery codes</linkExternal>.
+tfa-row-disable-modal-explain-1 = You won’t be able to undo this action. You also
+  have the option of <linkExternal>replacing your backup authentication codes</linkExternal>.
 tfa-row-cannot-disable-2 = Two-step authentication could not be disabled
 
-tfa-row-change-modal-heading = Change recovery codes?
+tfa-row-change-modal-heading-1 = Change backup authentication codes?
 tfa-row-change-modal-confirm = Change
 tfa-row-change-modal-explain = You won’t be able to undo this action.
 

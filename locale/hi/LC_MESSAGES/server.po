@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
-"PO-Revision-Date: 2021-12-26 05:57+0000\n"
-"Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
+"POT-Creation-Date: 2022-09-13 06:38+0000\n"
+"PO-Revision-Date: 2022-08-30 06:00+0000\n"
+"Last-Translator: Mahtab Alam <mahtab.ceh@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
-msgstr "होम"
+msgstr "मुख्य पृष्ठ"
 
 #: server/templates/pages/src/500.html:2
 msgid "500 Error"

@@ -226,15 +226,22 @@ fraudulentAccountDeletion-contact = If you have any questions, please contact ou
 fraudulentAccountDeletion-contact-plaintext =  If you have any questions, please contact our support team: { $mozillaSupportUrl }
 
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Low recovery codes remaining
-codes-reminder-description = We noticed that you are running low on recovery codes. Please consider generating new codes to avoid getting locked out of your account.
-codes-generate = Generate codes
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Generate codes
-lowRecoveryCodes-subject =
+codes-reminder-title-zero = You’re out of backup authentication codes!
+codes-reminder-title-one = You’re on your last backup authentication code
+codes-reminder-title-two = Time to create more backup authentication codes
+
+codes-reminder-description-part-one = Backup authentication codes help you restore your info when you forget your password.
+codes-reminder-description-part-two = Create new codes now so you don’t lose your data later.
+codes-reminder-description-two-left = You only have two codes left.
+codes-reminder-description-create-codes = Create new backup authentication codes to help you get back into your account if you’re locked out.
+
+lowRecoveryCodes-action-2 = Create codes
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [one] 1 recovery code remaining
-       *[other] { $numberRemaining } recovery codes remaining
+        [0] No backup authentication codes left
+        [one] Only 1 backup authentication code left
+       *[other] Only { $numberRemaining } backup authentication codes left!
    }
 
 # Variables:
@@ -268,13 +275,13 @@ passwordReset-subject = Password updated
 passwordReset-title = Your account password was changed
 passwordReset-description = You will need to enter your new password on other devices to resume syncing.
 
-passwordResetAccountRecovery-subject = Password updated using recovery key
-passwordResetAccountRecovery-title = Your account password was reset with a recovery key
-passwordResetAccountRecovery-description = You have successfully reset your password using a recovery key from the following device:
-passwordResetAccountRecovery-action = Create new recovery key
-passwordResetAccountRecovery-regen-required = You will need to generate a new recovery key.
+passwordResetAccountRecovery-subject-1 = Password updated using account recovery key
+passwordResetAccountRecovery-title-1 = Your account password was reset with an account recovery key
+passwordResetAccountRecovery-description-1 = You have successfully reset your password using an account recovery key from the following device:
+passwordResetAccountRecovery-action-1 = Create new account recovery key
+passwordResetAccountRecovery-regen-required-1 = You will need to generate a new account recovery key.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Create new recovery key:
+passwordResetAccountRecovery-create-key-1 = Create new account recovery key:
 
 postAddAccountRecovery-subject-2 = Account recovery key created
 postAddAccountRecovery-title2 = You created a new account recovery key
@@ -307,21 +314,21 @@ postChangePrimary-title = New primary email
 postChangePrimary-description = You have successfully changed your primary email to { $email }. This address is now your username for signing in to your { -product-firefox-account }, as well as receiving security notifications and sign-in confirmations.
 postChangePrimary-action = Manage account
 
-postConsumeRecoveryCode-subject = Recovery code used
-postConsumeRecoveryCode-title = Recovery code consumed
-postConsumeRecoveryCode-description = You have successfully consumed a recovery code from the following device:
+postConsumeRecoveryCode-subject-1 = Backup authentication code used
+postConsumeRecoveryCode-title-1 = Backup authentication code consumed
+postConsumeRecoveryCode-description-1 = You have successfully consumed a backup authentication code from the following device:
 postConsumeRecoveryCode-action = Manage account
 
-postNewRecoveryCodes-subject = New recovery codes generated
-postNewRecoveryCodes-title = New recovery codes generated
-postNewRecoveryCodes-description = You have successfully generated new recovery codes from the following device:
+postNewRecoveryCodes-subject-1 = New backup authentication codes generated
+postNewRecoveryCodes-title-1 = New backup authentication codes generated
+postNewRecoveryCodes-description-1 = You have successfully generated new backup authentication codes from the following device:
 postNewRecoveryCodes-action = Manage account
 
 postRemoveAccountRecovery-subject = Account recovery key removed
 postRemoveAccountRecovery-title = Account recovery key removed
 postRemoveAccountRecovery-description = You have successfully removed an account recovery key for your { -product-firefox-account } using the following device:
 postRemoveAccountRecovery-action = Manage account
-postRemoveAccountRecovery-invalid = This recovery key can no longer be used to recover your account.
+postRemoveAccountRecovery-invalid-1 = This account recovery key can no longer be used to recover your account.
 
 postRemoveSecondary-subject = Secondary email removed
 postRemoveSecondary-title = Secondary email removed
@@ -658,7 +665,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Remember to confirm your account
 verificationReminderFirst-title-2 = Welcome to { -brand-firefox }!
 verificationReminderFirst-description-2 = A few days ago you created a { -product-firefox-account }, but never confirmed it. Please confirm your account in the next 15 days or it will be automatically deleted.
-verificationReminderFirst-sub-description-2 = Don’t miss out on tech that puts you and your privacy first.
+verificationReminderFirst-sub-description-3 = Don’t miss out on the browser that puts you and your privacy first.
 confirm-email-2 = Confirm account
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirm account

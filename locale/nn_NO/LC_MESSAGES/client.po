@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-13 06:38+0000\n"
 "PO-Revision-Date: 2022-06-27 13:24+0000\n"
 "Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -185,16 +185,16 @@ msgid "Show password"
 msgstr "Vis passord"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
-msgid "Firefox Recovery Codes"
-msgstr "Firefox gjenoppbyggingskodar"
+msgid "Firefox Backup Authentication Codes"
+msgstr ""
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
 msgstr "Tostegs-godkjenning aktivert"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
-msgid "Firefox Recovery Key"
-msgstr "Firefox gjenopprettingsnøkkel"
+msgid "Firefox Account Recovery Key"
+msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -216,7 +216,7 @@ msgstr "Nedlasta"
 msgid "Printed"
 msgstr "Skrive ut"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr ""
 
@@ -283,10 +283,6 @@ msgstr "Primær e-postadresse stadfesta"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Sekundær e-postadresse stadfesta"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Kontoen er stadfesta"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -473,20 +469,20 @@ msgid "TOTP token not found"
 msgstr "TOTP-token ikkje funne"
 
 #: .es5/lib/auth-errors.js:236
-msgid "Recovery code not found"
-msgstr "Fann ikkje tilbakestillingskoden"
+msgid "Backup authentication code not found"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
 msgstr "Ikkje-tilgjengeleg einingskommando"
 
 #: .es5/lib/auth-errors.js:244
-msgid "Recovery key not found"
-msgstr "Fann ikkje tilbakestillingskoden"
+msgid "Account recovery key not found"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:248
-msgid "Invalid recovery key"
-msgstr "Ugyldig gjenopprettingsnøkkel"
+msgid "Invalid account recovery key"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -521,8 +517,8 @@ msgid "Update was rejected, please try again"
 msgstr "Oppdateringa vart avvist, prøv igjen"
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "Ugyldig eller utgått stadfestingskode"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -598,8 +594,8 @@ msgid "Valid URL required"
 msgstr "Gyldig URL påkravd"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Stadfestings e-posten din kom i retur. Feil i e-postadressa?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -678,16 +674,16 @@ msgid "Invalid two-step authentication code"
 msgstr "Feil tostegs-godkjenningskode"
 
 #: .es5/lib/auth-errors.js:567
-msgid "Recovery code required"
-msgstr "Gjenopprettingskode påkravd"
+msgid "Backup authentication code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:571
-msgid "Invalid recovery code"
-msgstr "Ugyldig gjenopprettingskode"
+msgid "Invalid backup authentication code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:585
-msgid "Recovery key required"
-msgstr "Gjenopprettingsnøkkel påkravd"
+msgid "Account recovery key required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -897,8 +893,8 @@ msgid "Receive new link"
 msgstr "Få ei ny lenke"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
-msgid "Reset password with recovery key"
-msgstr "Nullstill passord med gjenopprettingsnøkkel"
+msgid "Reset password with account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -910,8 +906,8 @@ msgid "Continue to %(serviceName)s"
 msgstr "Fortset til %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Skriv inn eingongs-gjenopprettingsnøkkelen du lagra på ein trygg plass, for å få tilgang til Firefox-kontoen din igjen."
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid ""
@@ -921,17 +917,17 @@ msgstr ""
 "historikk og bokmerke)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
-msgid "Enter recovery key"
-msgstr "Skriv inn gjenopprettingsnøkkel"
+msgid "Enter account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
-msgid "Confirm recovery key"
-msgstr "Stadfest gjennopprettingsnøkkel"
+msgid "Confirm account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
-msgid "Don't have a recovery key?"
-msgstr "Har du ikkje ein gjenopprettingsnøkkel?"
+msgid "Don't have an account recovery key?"
+msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -976,8 +972,8 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Du har retta oppatt kontoen din ved hjelp av gjenopprettingsnøkkelen. Lag eit nytt passord for å sikre dataa dine, og lagre det på ein trygg stad."
+msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1197,8 +1193,8 @@ msgid "A Firefox account also unlocks access to more privacy-protecting products
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
-msgid "Save recovery codes"
-msgstr "Lagre gjenopprettingskodar"
+msgid "Save backup authentication codes"
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1228,16 +1224,16 @@ msgid "Cancel setup"
 msgstr "Avbryt konfigurasjon"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
-msgid "Confirm recovery code"
-msgstr "Stadfest gjenopprettingskode"
+msgid "Confirm backup authentication code"
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr "Skriv inn ein av dei lagra gjenopprettingskodane for å sikre at du kan få tilgang til kontoen din igjen, dersom du mistar eininga di."
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
-msgid "Recovery code"
-msgstr "Gjenopprettingskode"
+msgid "Backup authentication code"
+msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1346,8 +1342,8 @@ msgid "Your account is ready!"
 msgstr "Kontoen din er klar!"
 
 #: .es5/templates/ready.mustache:15
-msgid "Generate a new recovery key"
-msgstr "Generer ein ny gjenopprettingsnøkkel"
+msgid "Generate a new account recovery key"
+msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1434,16 +1430,16 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
-msgid "Enter recovery code"
-msgstr "Skriv inn gjenopprettingskode"
+msgid "Enter backup authentication code"
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
-msgid "Please enter a recovery code that was provided to you during setup."
-msgstr "Tast inn en gjenopprettingskoden som du fekk under installeringa."
+msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
-msgid "Enter 10-digit recovery code"
-msgstr "Skriv inn 10-sifra gjenopprettingskode"
+msgid "Enter 10-digit backup authentication code"
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1604,8 +1600,8 @@ msgid "Step 1 of 2: Re-enter password"
 msgstr "Steg 1 av 2: Skriv inn passordet på nytt"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
-msgid "Enter your password to view your recovery key."
-msgstr "Skriv inn passordet ditt for å vise gjenopprettingsnøkkelen."
+msgid "Enter your password to view your account recovery key."
+msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1831,8 +1827,8 @@ msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr "<span class=\"number\">4</span>Logg inn på kontoen din"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
-msgid "Protect your data with a recovery key"
-msgstr "Vern dine data med ein gjenopprettingsnøkkel"
+msgid "Protect your data with an account recovery key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1843,20 +1839,20 @@ msgid "Because this information is critical to your security, Firefox deletes it
 msgstr "Sidan denne informasjonen er avgjerande for sikkerheita di, slettar Firefox den for å beskytte deg når passordet ditt vert tilbakestilt, for å hindre andre i å få tilgang til den."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
-msgid "Get a Recovery Key"
-msgstr "Få ein gjenopprettingsnøkkel"
+msgid "Get an Account Recovery Key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr "Stadfest passordet ditt for %(escapedEmail)s for å generere gjenopprettingsnøkkelen din."
+msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
-msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr "Skriv inn gjenopprettingsnøkkelen for å stadfeste at du har lagra ein kopi."
+msgid "Enter your account recovery key to confirm that you've saved a copy."
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
-msgid "Save recovery key"
-msgstr "Lagre gjenopprettingsnøkkel"
+msgid "Save account recovery key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -2018,7 +2014,7 @@ msgid "To download Firefox on your mobile device, hold the device’s camera ove
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Or, send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
