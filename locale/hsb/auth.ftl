@@ -197,6 +197,7 @@ fraudulentAccountDeletion-contact = Jeli prašenja maće, stajće so z našim <a
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jeli prašenja maće, stajće so prošu z našim teamom pomocy do zwiska: { $mozillaSupportUrl }
+codes-reminder-description-two-left = Maće jenož dwaj kodaj wyše.
 lowRecoveryCodes-action-2 = Kody wutworić
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
@@ -263,6 +264,9 @@ postChangePrimary-action = Konto rjadować
 postConsumeRecoveryCode-subject-1 = Awtentifikaciski kod za zawěsćenje je so wužił
 postConsumeRecoveryCode-title-1 = Awtentifikaciski kod za zawěsćenje je so přetrjebał
 postConsumeRecoveryCode-action = Konto rjadować
+postNewRecoveryCodes-subject-1 = Nowe kody za zawěsćensku awtentifikaciju su so wutworili
+postNewRecoveryCodes-title-1 = Nowe kody za zawěsćensku awtentifikaciju su so wutworili
+postNewRecoveryCodes-description-1 = Sće nowe kody za zawěsćensku awtentifikaciju ze slědowaceho grata wuspěšnje wutworił:
 postNewRecoveryCodes-action = Konto rjadować
 postRemoveAccountRecovery-subject = Kontowy wobnowjenski kluč je so wotstronił
 postRemoveAccountRecovery-title = Kontowy wobnowjenski kluč je so wotstronił

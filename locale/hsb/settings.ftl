@@ -427,6 +427,7 @@ tfa-button-finish = Dokónčić
 tfa-incorrect-totp = Wopačny kod za dwukročelowu awtentifikaciju
 tfa-cannot-retrieve-code = Při wotwołowanju wašeho koda je problem nastał.
 tfa-cannot-verify-code-4 = Při wobkrućenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
+tfa-incorrect-recovery-code-1 = Wopačny kod za zawěsćensku awtentifikaciju
 tfa-enabled = Dwukročelowa awtentifikacija zmóžnjena
 tfa-scan-this-code = skenujće tutón QR-kod z pomocu jednoho z <linkExternal>tutych awtentifikaciskich nałoženjow</linkExternal>.
 # This is the image alt text for a QR code.
@@ -444,6 +445,9 @@ tfa-enter-secret-key = Zapodajće tutón tajny kluč do swojeho awtentifikowansk
 tfa-enter-totp = Zapodajće nětko wěstotny kod z awtentifikaciskeho nałoženja.
 tfa-input-enter-totp =
     .label = Wěstotny kod zapodać
+tfa-save-these-codes-1 = Składujće tute kody za zawěsćensku awtentifikaciju za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
+tfa-enter-recovery-code-1 =
+    .label = Zapodajće kod za zawěsćensku awtentifikaciju
 
 ##
 
@@ -494,15 +498,23 @@ row-defaults-status = Žadyn
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Kontowy wobnowjenski kluč
 rk-enabled = Zmóžnjeny
 rk-not-set = Njenastajeny
 rk-action-create = Wutworić
 rk-action-remove = Wotstronić
+rk-cannot-refresh-1 = Bohužel je při aktualizowanju kontoweho wobnowjenskeho kluča problem nastał.
 rk-key-removed-2 = Kontowy wobnowjenski kluč je so wotstronił
 rk-cannot-remove-key = Wobnowjenski kluč wašeho konta njeda so wotstronić.
+rk-refresh-key-1 = Kontowy wobnowjenski kluč aktualizować
 rk-content-explain = Wobnowće swoje informacije, hdyž sće swoje hesło zabył.
 rk-content-reset-data = Čehodla so moje daty wróćo stajeja, hdyž swoje hesło wróćo stajam?
 rk-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
+rk-remove-modal-heading-1 = Kontowy wobnowjenski kluč wotstronić?
+rk-remove-modal-content-1 =
+    Jeli waše hesło wróćo stajeće, njemóžeće swój
+    kontowy wobnowjenski kluč wužiwać, zo byšće přistup k swojim datam měł. Njemóžeće tutu akciju cofnyć.
+rk-refresh-error-1 = Bohužel je při aktualizowanju kontoweho wobnowjenskeho kluča problem nastał.
 rk-remove-error-2 = Wobnowjenski kluč wašeho konta njeda so wotstronić
 
 ## Secondary email sub-section on main Settings page
@@ -536,6 +548,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = K primarnej adresy činić
 se-default-content = Mějće přistup k swojemu kontu, jeli njemóžeće so pola swojeje primarneje e-mejloweje adresy přizjewić.
+se-content-note-1 =
+    Pokazka: Sekundarna e-mejlowa adresa waše informacije njewobnowi – trjebaće
+    <a>kontowy wobnowjenski kluč</a> za to.
 # Default value for the secondary email
 se-secondary-email-none = Žana
 
@@ -561,7 +576,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
+tfa-row-disable-modal-explain-1 =
+    Njemóžeće tutu akciju cofnyć. Maće tež
+    móžnosć <linkExternal>swoje kody za zawěsćensku awtentifikaciju wuměnić</linkExternal>.
 tfa-row-cannot-disable-2 = Dwukročelowa awtentifikacija njeda so znjemóžnić
+tfa-row-change-modal-heading-1 = Kody za zawěsćensku awtentifikaciju změnić?
 tfa-row-change-modal-confirm = Změnić
 tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.
 
