@@ -329,6 +329,7 @@ recovery-title-2 = Ali ste pozabili geslo?
 # triggered the email follows.
 recovery-request-origin = Prejeli smo zahtevo za spremembo gesla vašega { -product-firefox-account(sklon: "rodilnik") } z:
 recovery-new-password-button = Ustvarite novo geslo s klikom na spodnji gumb. Ta povezava bo potekla v naslednji uri.
+recovery-copy-paste = Ustvarite novo geslo na spodnjem naslovu, ki ga kopirajte in prilepite v brskalnik. Ta povezava bo potekla v naslednji uri.
 recovery-action = Ustvarite novo geslo
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

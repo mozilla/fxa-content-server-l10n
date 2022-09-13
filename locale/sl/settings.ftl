@@ -412,6 +412,7 @@ display-name-success-alert-2 = Prikazno ime posodobljeno
 recovery-key-cancel-button = Prekliči
 recovery-key-close-button = Zapri
 recovery-key-continue-button = Nadaljuj
+recovery-key-created-1 = Vaš ključ za obnovitev računa je bil ustvarjen. Ključ shranite na varnem mestu, kjer ga boste pozneje zlahka našli – potrebovali ga boste za ponovni dostop do svojih podatkov, če pozabite geslo.
 recovery-key-enter-password =
     .label = Vnesite geslo
 recovery-key-page-title-1 =
