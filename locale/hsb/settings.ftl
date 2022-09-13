@@ -152,7 +152,7 @@ cs-sign-out-button = Wotzjewić
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Sćehnjeny
@@ -185,9 +185,11 @@ drop-down-menu-sign-out-error-2 = Bohužel je při wotzjewjenju problem nastał
 
 flow-container-back = Wróćo
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Wobnowjenske kody
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Kontowy wobnowjenski kluč { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Zawěsćenske awtentifikaciske kody { -brand-firefox }
 get-data-trio-download =
     .title = Sćahnyć
 get-data-trio-copy =
@@ -247,14 +249,14 @@ nav-data-collection = Zběranje a wužiwanje datow
 nav-paid-subs = Zapłaćene abonementy
 nav-email-comm = E-mejlowa komunikacija
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Při wuměnjenju wašich wobnowjenskich kodow je problem nastał
-tfa-replace-code-success =
-    Nowe kody su so wutworili. Składujće je za jónkróćne wužiwanje
-    na wěstym městnje – trjebaće je za přistup k swojemu kontu, jeli nimaće
+tfa-replace-code-error-3 = Při wuměnjenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
+tfa-replace-code-success-1 =
+    Nowe kody su so wutworili. Składujće tute kody
+    za zawěsćensku awtentifikaciju za jónkróćne wužiwanje na wěstym městnje – trjebaće je za přistup k swojemu kontu, jeli nimaće
     swój mobilny grat.
-tfa-replace-code-success-alert-2 = Kontowe wobnowjenske kody su so zaktualizowali
+tfa-replace-code-success-alert-3 = Kontowe kody za zawěsćensku awtentifikaciu su so zaktualizowali
 tfa-replace-code-1-2 = Krok 1 z 2
 tfa-replace-code-2-2 = Krok 2 z 2
 
@@ -364,19 +366,19 @@ display-name-success-alert-2 = Zwobraznjenske mjeno zaktualizowane
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Přetorhnyć
 recovery-key-close-button = Začinić
 recovery-key-continue-button = Dale
-recovery-key-created = Waš wobnowjenski kluč je so wutworił. Składujće kluč na wěstym městnje, kotrež móžeće pozdźišo lochko zaso namakać – trjebaće kluč, zo byšće zaso přistup k swojim datam dóstał, jeli sće swoje hesło zabył.
+recovery-key-created-1 = Waš kontowy wobnowjenski kluč je so wutworił. Składujće kluč na wěstym městnje, kotrež móžeće pozdźišo lochko zaso namakać – trjebaće kluč, zo byšće zaso přistup k swojim datam dóstał, jeli sće swoje hesło zabył.
 recovery-key-enter-password =
     .label = Hesło zapodać
-recovery-key-page-title =
-    .title = Wobnowjenski kluč
+recovery-key-page-title-1 =
+    .title = Kontowy wobnowjenski kluč
 recovery-key-step-1 = Krok 1 z 2
 recovery-key-step-2 = Krok 2 z 2
-recovery-key-success-alert-2 = Wobnowjenski kluč je so wutworił
+recovery-key-success-alert-3 = Kontowy wobnowjenski kluč je so wutworił
 
 ## Add secondary email page
 
@@ -424,8 +426,7 @@ tfa-button-cancel = Přetorhnyć
 tfa-button-finish = Dokónčić
 tfa-incorrect-totp = Wopačny kod za dwukročelowu awtentifikaciju
 tfa-cannot-retrieve-code = Při wotwołowanju wašeho koda je problem nastał.
-tfa-cannot-verify-code-3 = Při přepruwowanju wašeho wobnowjenskeho koda je problem nastał
-tfa-incorrect-recovery-code = Wopačny wobnowjenski kod
+tfa-cannot-verify-code-4 = Při wobkrućenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
 tfa-enabled = Dwukročelowa awtentifikacija zmóžnjena
 tfa-scan-this-code = skenujće tutón QR-kod z pomocu jednoho z <linkExternal>tutych awtentifikaciskich nałoženjow</linkExternal>.
 # This is the image alt text for a QR code.
@@ -443,13 +444,6 @@ tfa-enter-secret-key = Zapodajće tutón tajny kluč do swojeho awtentifikowansk
 tfa-enter-totp = Zapodajće nětko wěstotny kod z awtentifikaciskeho nałoženja.
 tfa-input-enter-totp =
     .label = Wěstotny kod zapodać
-tfa-save-these-codes = Składujće tute kody za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
-tfa-enter-code-to-confirm =
-    Prošu zapodajće nětko jedyn ze swojich wobnowjenskich
-    kodow, zo byšće wobkrućił, zo sće jón składował. Trjebaće kod, jeli swój grat zhubjeće
-    a chceće přistup k swojemu kontu.
-tfa-enter-recovery-code =
-    .label = Wobnowjenski kod zapodać
 
 ##
 
@@ -498,25 +492,17 @@ row-defaults-action-change = Změnić
 row-defaults-action-disable = Znjemóžnić
 row-defaults-status = Žadyn
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Wobnowjenski kluč
 rk-enabled = Zmóžnjeny
 rk-not-set = Njenastajeny
 rk-action-create = Wutworić
 rk-action-remove = Wotstronić
-rk-cannot-refresh = Bohužel je při aktualizowanju wobnowjenskeho kluča problem nastał.
 rk-key-removed-2 = Kontowy wobnowjenski kluč je so wotstronił
 rk-cannot-remove-key = Wobnowjenski kluč wašeho konta njeda so wotstronić.
-rk-refresh-key = Wobnowjenski kluč aktualizować
 rk-content-explain = Wobnowće swoje informacije, hdyž sće swoje hesło zabył.
 rk-content-reset-data = Čehodla so moje daty wróćo stajeja, hdyž swoje hesło wróćo stajam?
 rk-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
-rk-remove-modal-heading = Wobnowjenski kluč wotstronić?
-rk-remove-modal-content =
-    Jeli waše hesło wróćo stajeće, njemóžeće swój
-    wobnowjenski kluč wužiwać, zo byšće přistup k swojim datam měł. Njemóžeće tutu akciju cofnyć.
-rk-refresh-error = Bohužel je při aktualizowanju wobnowjenskeho kluča problem nastał.
 rk-remove-error-2 = Wobnowjenski kluč wašeho konta njeda so wotstronić
 
 ## Secondary email sub-section on main Settings page
@@ -550,9 +536,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = K primarnej adresy činić
 se-default-content = Mějće přistup k swojemu kontu, jeli njemóžeće so pola swojeje primarneje e-mejloweje adresy přizjewić.
-se-content-note =
-    Pokazka: Sekundarna e-mejlowa adresa waše informacije njewobnowi – trjebaće
-    <a>wobnowjenski kluč</a> za to.
 # Default value for the secondary email
 se-secondary-email-none = Žana
 
@@ -578,11 +561,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
-tfa-row-disable-modal-explain =
-    Njemóžeće tutu akciju cofnyć. Maće tež
-    móžnosć <linkExternal>swój wobnowjenske kody wuměnić</linkExternal>.
 tfa-row-cannot-disable-2 = Dwukročelowa awtentifikacija njeda so znjemóžnić
-tfa-row-change-modal-heading = Wobnowjenske kody změnić?
 tfa-row-change-modal-confirm = Změnić
 tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.
 

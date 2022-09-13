@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-13 06:38+0000\n"
-"PO-Revision-Date: 2022-09-13 10:31+0000\n"
+"PO-Revision-Date: 2022-09-13 10:35+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hsb\n"
@@ -1237,7 +1237,7 @@ msgstr "Zo byšće zaso přistup k swojemu kontu dóstał, jeli sće swój grat 
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Awtentifikaciski kod zawěsćić"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1347,7 +1347,7 @@ msgstr "Waše konto je hotowe!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Nowy kontowy wobnowjenski kluč wutworić"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1441,7 +1441,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Zapodajće kod za zawěsćensku awtentifikaciju"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
@@ -1449,7 +1449,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Zapodajće 10-městnowy kod za zawěsćensku awtentifikaciju"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1615,7 +1615,7 @@ msgstr "Krok 1 z 2: Hesło znowa zapodać"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Zapodajće swoje hesło, zo byšće sej swój kontowy wobnowjenski kluč wobhladał."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1843,7 +1843,7 @@ msgstr "<span class=\"number\">4</span>Přizjewće so ze swojim kontom"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Škitajće swoje daty z kontowym wobnowjenskim klučom"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1855,19 +1855,19 @@ msgstr "Dokelž tute daty su wažne za wašu wěstotu, Firefox je zhaša, zo by 
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "Wobstarajće sej kontowy wobnowjenski kluč"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "Prošu wobkrućće swoje hesło za %(escapedEmail)s, zo byšće swój kontowy wobnowjenski kluč wutworił."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Zapodajće swój kontowy wobnowjenski kluč, zo byšće wobkrućił, zo sće kopiju składował."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "Składujće kontowy wobnowjenski kod"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -2033,7 +2033,7 @@ msgstr "Zo byšće Firefox na swojim mobilnym graće sćahnył, dźeržće kamer
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "Abo sćelće sej <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">sćehnjenski wotkaz.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
