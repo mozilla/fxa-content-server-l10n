@@ -250,6 +250,11 @@ nav-email-comm = E-Mail-Kommunikation
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Beim Ersetzen Ihrer Sicherungs-Wiederherstellungscodes ist ein Fehler aufgetreten.
+tfa-replace-code-success-1 =
+    Neue Codes wurden erstellt. Speichern Sie diese Sicherungs-Authentifizierungscodes
+    zur einmaligen Verwendung an einem sicheren Ort – Sie brauchen sie, um auf Ihr
+    Konto zuzugreifen, wenn Sie Ihr Mobilgerät nicht zur Verfügung haben.
+tfa-replace-code-success-alert-3 = Sicherungs-Authentifizierungscodes aktualisiert
 tfa-replace-code-1-2 = Schritt 1 von 2
 tfa-replace-code-2-2 = Schritt 2 von 2
 
@@ -364,10 +369,14 @@ display-name-success-alert-2 = Anzeigename aktualisiert
 recovery-key-cancel-button = Abbrechen
 recovery-key-close-button = Schließen
 recovery-key-continue-button = Fortsetzen
+recovery-key-created-1 = Ihr Kontowiederherstellungsschlüssel wurde erstellt. Bewahren Sie den Schlüssel an einem sicheren Ort auf, den Sie später leicht finden können. Wenn Sie Ihr Passwort vergessen haben, benötigen Sie den Schlüssel, um wieder auf Ihre Daten zugreifen zu können.
 recovery-key-enter-password =
     .label = Passwort eingeben
+recovery-key-page-title-1 =
+    .title = Kontowiederherstellungsschlüssel
 recovery-key-step-1 = Schritt 1 von 2
 recovery-key-step-2 = Schritt 2 von 2
+recovery-key-success-alert-3 = Kontowiederherstellungsschlüssel erstellt
 
 ## Add secondary email page
 
@@ -415,6 +424,8 @@ tfa-button-cancel = Abbrechen
 tfa-button-finish = Abschließen
 tfa-incorrect-totp = Falscher Code für Zwei-Schritt-Authentifizierung
 tfa-cannot-retrieve-code = Beim Abrufen Ihres Codes ist ein Fehler aufgetreten.
+tfa-cannot-verify-code-4 = Beim Bestätigen Ihrer Sicherungs-Wiederherstellungscodes ist ein Fehler aufgetreten.
+tfa-incorrect-recovery-code-1 = Falscher Sicherungs-Authentifizierungscode
 tfa-enabled = Zwei-Schritt-Authentifizierung aktiviert
 tfa-scan-this-code =
     Scannen Sie diesen QR-Code mit <linkExternal>diesen
@@ -432,6 +443,12 @@ tfa-enter-secret-key = Geben Sie diesen Geheimschlüssel in Ihre Authentifizieru
 tfa-enter-totp = Geben Sie nun den Sicherheitscode über die Authentifizierungs-App ein.
 tfa-input-enter-totp =
     .label = Sicherheitscode eingeben
+tfa-save-these-codes-1 = Speichern Sie diese Sicherungs-Authentifizierungscodes zur einmaligen Verwendung an einem sicheren Ort, für den Fall, dass Sie den Zugriff auf Ihr Mobilgerät verlieren.
+tfa-enter-code-to-confirm-1 =
+    Bitte geben Sie jetzt einen Ihrer Sicherungs-Authentifizierungscodes ein, um zu bestätigen, dass Sie ihn gespeichert haben.
+    Sie benötigen einen Code, um sich anzumelden, wenn Sie keinen Zugriff auf Ihr Mobilgerät haben.
+tfa-enter-recovery-code-1 =
+    .label = Sicherungs-Authentifizierungscode eingeben
 
 ##
 
@@ -482,15 +499,23 @@ row-defaults-status = Keine
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Kontowiederherstellungsschlüssel
 rk-enabled = Aktiviert
 rk-not-set = Nicht festgelegt
 rk-action-create = Erstellen
 rk-action-remove = Entfernen
+rk-cannot-refresh-1 = Bei der Aktualisierung des Kontowiederherstellungsschlüssels ist ein Fehler aufgetreten.
 rk-key-removed-2 = Kontowiederherstellungsschlüssel entfernt
 rk-cannot-remove-key = Ihr Kontowiederherstellungsschlüssel konnte nicht entfernt werden.
+rk-refresh-key-1 = Kontowiederherstellungsschlüssel aktualisieren
 rk-content-explain = Stellen Sie Ihre Daten wieder her, wenn Sie Ihr Passwort vergessen haben.
 rk-content-reset-data = Warum werden meine Daten durch Zurücksetzen meines Passworts zurückgesetzt?
 rk-cannot-verify-session-4 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
+rk-remove-modal-heading-1 = Kontowiederherstellungsschlüssel entfernen?
+rk-remove-modal-content-1 =
+    Wenn Sie Ihr Passwort zurücksetzen, können Sie Ihren Kontowiederherstellungsschlüssel
+    nicht nutzen, um auf Ihre Daten zuzugreifen. Dies kann nicht rückgängig gemacht werden.
+rk-refresh-error-1 = Bei der Aktualisierung des Kontowiederherstellungsschlüssels ist ein Fehler aufgetreten.
 rk-remove-error-2 = Ihr Kontowiederherstellungsschlüssel konnte nicht entfernt werden.
 
 ## Secondary email sub-section on main Settings page
@@ -524,6 +549,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Zur Primär-E-Mail-Adresse machen
 se-default-content = Greifen Sie auf Ihr Konto zu, wenn Sie sich nicht bei Ihrer primären E-Mail-Adresse anmelden können.
+se-content-note-1 =
+    Hinweis: Eine Zweit-E-Mail-Adresse stellt Ihre Daten nicht wieder her –
+    dazu benötigen Sie einen <a>Kontowiederherstellungsschlüssel</a>.
 # Default value for the secondary email
 se-secondary-email-none = Keine
 
@@ -549,7 +577,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
 tfa-row-disable-modal-heading = Zwei-Schritt-Authentifizierung deaktivieren?
 tfa-row-disable-modal-confirm = Deaktivieren
+tfa-row-disable-modal-explain-1 =
+    Dies kann nicht rückgängig gemacht werden. Sie können auch
+    <linkExternal>Ihre Sicherungs-Wiederherstellungscodes ersetzen</linkExternal>.
 tfa-row-cannot-disable-2 = Zwei-Schritt-Authentifizierung konnte nicht deaktiviert werden.
+tfa-row-change-modal-heading-1 = Sicherungs-Authentifizierungscodes ändern?
 tfa-row-change-modal-confirm = Ändern
 tfa-row-change-modal-explain = Dies kann nicht rückgängig gemacht werden.
 
