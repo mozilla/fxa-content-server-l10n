@@ -547,6 +547,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Rende lo primari
 se-default-content = Accede tu conto si tu non pote acceder a tu e-mail primari.
+se-content-note-1 =
+    Nota: un email secundari non restaurara tu informationes, tu 
+    besoniara de un <a>clave de recuperation del conto</a> pro isto.
 # Default value for the secondary email
 se-secondary-email-none = Nihil
 
@@ -570,7 +573,12 @@ tfa-row-content-explain = Impedi que altere personas accede a tu conto, exigente
 tfa-row-cannot-verify-session-4 = Desolate, problema a confirmar tu session
 tfa-row-disable-modal-heading = Disactivar authentication a duo passos?
 tfa-row-disable-modal-confirm = Disactivar
+tfa-row-disable-modal-explain-1 =
+    Tu non potera disfacer iste action. Tu alsi
+    ha le option de <linkExternal> reimplaciar tu codices de authentication de
+    salvamento</linkExternal>.
 tfa-row-cannot-disable-2 = Impossibile disactivar authentication a duo passos
+tfa-row-change-modal-heading-1 = Cambiar codices de authentication de salvamento?
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = Tu non potera disfacer iste action.
 
