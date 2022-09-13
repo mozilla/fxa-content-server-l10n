@@ -411,6 +411,8 @@ tfa-button-cancel = Cancelar
 tfa-button-finish = Concluir
 tfa-incorrect-totp = Código de autenticação em duas etapas incorreto
 tfa-cannot-retrieve-code = Houve um problema ao buscar seu código.
+tfa-cannot-verify-code-4 = Houve um problema ao confirmar seu código de autenticação de backup
+tfa-incorrect-recovery-code-1 = Código de autenticação de backup incorreto
 tfa-enabled = Autenticação em duas etapas ativada
 tfa-scan-this-code = Leia este código QR usando um destes <linkExternal>aplicativos de autenticação</linkExternal>.
 # This is the image alt text for a QR code.
@@ -426,6 +428,7 @@ tfa-enter-secret-key = Digite esta chave secreta no seu aplicativo de autentica�
 tfa-enter-totp = Agora digite o código de segurança do seu aplicativo de autenticação.
 tfa-input-enter-totp =
     .label = Digite o código de segurança
+tfa-save-these-codes-1 = Guarde esses códigos de autenticação de backup de uso único em um local seguro, para quando você não estiver com seu dispositivo móvel.
 
 ##
 
