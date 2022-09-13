@@ -200,6 +200,14 @@ fraudulentAccountDeletion-contact-plaintext = Jeli prašenja maće, stajće so p
 codes-reminder-description-two-left = Maće jenož dwaj kodaj wyše.
 lowRecoveryCodes-action-2 = Kody wutworić
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Žane kody za zawěsćensku awtentifikaciju wyše
+        [one] Jenož { $numberRemaining } kod za zawěsćensku awtentifikaciju wyše
+        [two] Jenož { $numberRemaining } kodaj za zawěsćensku awtentifikaciju wyše
+        [few] Jenož { $numberRemaining } kody za zawěsćensku awtentifikaciju wyše
+       *[other] Jenož { $numberRemaining } kodow za zawěsćensku awtentifikaciju wyše
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe přizjewjenje pola { $clientName }
@@ -263,6 +271,7 @@ postChangePrimary-description = Sće swoju primarnu e-mejlowu adresu wuspěšnje
 postChangePrimary-action = Konto rjadować
 postConsumeRecoveryCode-subject-1 = Awtentifikaciski kod za zawěsćenje je so wužił
 postConsumeRecoveryCode-title-1 = Awtentifikaciski kod za zawěsćenje je so přetrjebał
+postConsumeRecoveryCode-description-1 = Sće kody za zawěsćensku awtentifikaciju ze slědowaceho grata wuspěšnje přetrjebał:
 postConsumeRecoveryCode-action = Konto rjadować
 postNewRecoveryCodes-subject-1 = Nowe kody za zawěsćensku awtentifikaciju su so wutworili
 postNewRecoveryCodes-title-1 = Nowe kody za zawěsćensku awtentifikaciju su so wutworili
@@ -583,6 +592,8 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konto wobkrućić
 verificationReminderSecond-subject-2 = Njezabywajće swoje konto wobkrućić
 verificationReminderSecond-title-2 = Popřejće sej { -brand-firefox }!
+verificationReminderSecond-description-3 = Před někotrymi dnjemi sće { -product-firefox-account } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 10 dnjow abo konto so awtomatisce zhaša.
+verificationReminderSecond-sub-description-2 = Budźće dźěl našeje misije, internet do městna přetworić, kotryž je wotewrjeny za kóždeho.
 verificationReminderSecond-action-2 = Konto wobkrućić
 verify-title-2 = Wočińće internet z { -brand-firefox }
 verify-description = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-firefox }, wšudźe, hdźež so přizjewjeće, započinajo z:
@@ -591,6 +602,7 @@ verify-action-2 = Konto wobkrućić
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Sće so pola { $clientName } přizjewił?
+verifyLogin-description-2 = Wobkrućće, zo sće so přizjewił, zo byšće nam pomhał, waše konto škitać.
 verifyLogin-subject-2 = Přizjewjenje wobkrućić
 verifyLogin-action = Přizjewjenje wobkrućić
 # Variables:
