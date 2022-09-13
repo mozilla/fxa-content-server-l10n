@@ -112,6 +112,7 @@ automated-email-change =
 automated-email-change-plaintext = To sporočilo je bilo poslano samodejno. Če svojemu { -product-firefox-account(sklon: "dajalnik") } niste dodali nove naprave, takoj spremenite geslo na { $passwordChangeLink }
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = To sporočilo je bilo poslano samodejno. Če ste ga prejeli pomotoma, vam ni treba storiti ničesar.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = To je samodejno sporočilo. Če niste sprožili tega dejanja, spremenite geslo:
 automated-email-reset =
@@ -217,18 +218,14 @@ fraudulentAccountDeletion-contact = Če imate kakršnakoli vprašanja, se obrnit
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Če imate kakršnakoli vprašanja, se obrnite na našo skupino za podporo: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Zmanjkuje vam kod za obnovitev
-codes-reminder-description = Opazili smo, da vam zmanjkuje kod za obnovitev. Ustvarite nove kode, da preprečite izgubo dostopa do svojega računa.
-codes-generate = Ustvari kode
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Ustvari kode
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] 1 preostala obnovitvena koda
-        [two] { $numberRemaining } preostali obnovitveni kodi
-        [few] { $numberRemaining } preostale obnovitvene kode
-       *[other] { $numberRemaining } preostalih obnovitvenih kod
-    }
+codes-reminder-title-zero = Zmanjkalo vam je rezervnih overitvenih kod!
+codes-reminder-title-one = Ostala vam je le še ena rezervna overitvena koda
+codes-reminder-title-two = Čas, da ustvarite več rezervnih overitvenih kod
+codes-reminder-description-part-one = Rezervne overitvene kode vam omogočajo obnovitev podatkov v primeru, da pozabite geslo.
+codes-reminder-description-part-two = Ustvarite nove kode zdaj, da ne bi pozneje izgubili podatkov.
+codes-reminder-description-two-left = Ostali sta vam le še dve kodi.
+lowRecoveryCodes-action-2 = Ustvari kode
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova prijava v { $clientName }
@@ -256,15 +253,17 @@ passwordChangeRequired-different-password-plaintext = Pomembno: Izberite drugač
 passwordReset-subject = Geslo posodobljeno
 passwordReset-title = Geslo vašega računa je bilo spremenjeno
 passwordReset-description = Za nadaljevanje sinhronizacije boste morali na ostalih napravah vnesti svoje novo geslo.
-passwordResetAccountRecovery-subject = Geslo posodobljeno s pomočjo obnovitvenega ključa
-passwordResetAccountRecovery-title = Geslo vašega računa je bilo ponastavljeno z obnovitvenim ključem
-passwordResetAccountRecovery-description = Uspešno ste ponastavili svoje geslo z uporabo obnovitvenega ključa, z naslednje naprave:
-passwordResetAccountRecovery-action = Ustvari nov obnovitveni ključ
-passwordResetAccountRecovery-regen-required = Morali boste ustvariti nov obnovitveni ključ.
+passwordResetAccountRecovery-subject-1 = Geslo posodobljeno s pomočjo ključa za obnovitev računa
+passwordResetAccountRecovery-title-1 = Geslo vašega računa je bilo ponastavljeno s ključem za obnovitev računa
+passwordResetAccountRecovery-description-1 = Uspešno ste ponastavili svoje geslo z uporabo ključa za obnovitev računa, z naslednje naprave:
+passwordResetAccountRecovery-action-1 = Ustvari nov ključ za obnovitev računa
+passwordResetAccountRecovery-regen-required-1 = Morali boste ustvariti nov ključ za obnovitev računa.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Ustvari nov obnovitveni ključ:
+passwordResetAccountRecovery-create-key-1 = Ustvari nov ključ za obnovitev računa:
 postAddAccountRecovery-subject-2 = Obnovitveni ključ za račun ustvarjen
 postAddAccountRecovery-title2 = Ustvarili ste nov ključ za obnovitev računa
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Nov ključ je bil ustvarjen z naslednje naprave:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Niste bili vi?
 postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Izbrišite novi ključ</a> in <a data-l10n-name="passwordChangeLink">spremenite geslo</a>
@@ -288,19 +287,17 @@ postChangePrimary-title = Nov glavni e-poštni naslov
 #  $email (String) - A user's email address
 postChangePrimary-description = Uspešno ste spremenili glavni e-poštni naslov na { $email }. Ta e-poštni naslov je zdaj vaše uporabniško ime za prijavo v { -product-firefox-account }, kot tudi naslov za prejemanje varnostnih obvestil ter
 postChangePrimary-action = Upravljanje računa
-postConsumeRecoveryCode-subject = Uporabljene obnovitvene kode
-postConsumeRecoveryCode-title = Koda za obnovitev uporabljena
-postConsumeRecoveryCode-description = Uspešno ste uporabili obnovitveno kodo z naslednje naprave:
+postConsumeRecoveryCode-subject-1 = Rezervna overitvena koda je bila uporabljena
 postConsumeRecoveryCode-action = Upravljanje računa
-postNewRecoveryCodes-subject = Nove kode za obnovitev so ustvarjene
-postNewRecoveryCodes-title = Nove kode za obnovitev so ustvarjene
-postNewRecoveryCodes-description = Uspešno ste ustvarili nove kode za obnovitev z naslednje naprave:
+postNewRecoveryCodes-subject-1 = Ustvarjene nove rezervne overitvene kode
+postNewRecoveryCodes-title-1 = Ustvarjene nove rezervne overitvene kode
+postNewRecoveryCodes-description-1 = Uspešno ste ustvarili nove rezervne overitvene kode z naslednje naprave:
 postNewRecoveryCodes-action = Upravljanje računa
 postRemoveAccountRecovery-subject = Obnovitveni ključ za račun odstranjen
 postRemoveAccountRecovery-title = Obnovitveni ključ za račun odstranjen
 postRemoveAccountRecovery-description = Uspešno ste odstranili obnovitveni ključ za svoj { -product-firefox-account } z uporabo naslednje naprave:
 postRemoveAccountRecovery-action = Upravljanje računa
-postRemoveAccountRecovery-invalid = Tega obnovitvenega ključa ne morete več uporabiti za obnovitev svojega računa.
+postRemoveAccountRecovery-invalid-1 = Tega ključa ne morete več uporabiti za obnovitev svojega računa.
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
 # Variables:

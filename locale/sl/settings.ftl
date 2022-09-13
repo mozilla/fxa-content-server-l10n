@@ -293,6 +293,11 @@ nav-email-comm = E-poštno obveščanje
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Pri menjavi rezervnih overitvenih kod je prišlo do težave
+tfa-replace-code-success-1 =
+    Ustvarjene so bile nove kode. Te rezervne overitvene kode za
+    enkratno uporabo shranite na varno mesto – potrebovali jih boste za dostop do svojega
+    računa, če ne boste imeli mobilne naprave.
+tfa-replace-code-success-alert-3 = Rezervne overitvene kode za račun posodobljene
 tfa-replace-code-1-2 = Korak 1 od 2
 tfa-replace-code-2-2 = Korak 2 od 2
 
@@ -461,6 +466,8 @@ tfa-button-cancel = Prekliči
 tfa-button-finish = Končaj
 tfa-incorrect-totp = Nepravilna koda za overitev v dveh korakih
 tfa-cannot-retrieve-code = Prišlo je do napake pri pridobivanju vaše kode.
+tfa-cannot-verify-code-4 = Pri potrjevanju rezervne overitvene kode je prišlo do težave
+tfa-incorrect-recovery-code-1 = Nepravilna rezervna overitvena koda
 tfa-enabled = Overitev v dveh korakih je omogočena
 tfa-scan-this-code =
     Skenirajte to kodo QR z eno od <linkExternal>naslednjih
