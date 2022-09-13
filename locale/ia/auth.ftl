@@ -197,17 +197,7 @@ fraudulentAccountDeletion-contact = Si tu ha ulle questiones, contacta nostre <a
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tu ha ulle questiones, contacta nostre equipa de assistentia: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Pauc codices de recuperation restante
-codes-reminder-description = Nos ha constatate que te resta pauc codices de recuperation. Considera generar nove codices pro evitar perder le accesso a tu conto.
-codes-generate = Generar codices
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Generar codices
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] 1 codice de recuperation restante
-       *[other] { $numberRemaining } codices de recuperation restante
-    }
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nove accesso a { $clientName }
@@ -235,13 +225,6 @@ passwordChangeRequired-different-password-plaintext = Importante: elige un contr
 passwordReset-subject = Contrasigno actualisate
 passwordReset-title = Le contrasigno de tu conto ha essite cambiate
 passwordReset-description = Il essera necesse que tu insere tu nove contrasigno sur altere apparatos pro continuar le synchronisation.
-passwordResetAccountRecovery-subject = Contrasigno actualisate con clave de recuperation
-passwordResetAccountRecovery-title = Le contrasigno de tu conto ha essite reinitialisate con un clave de recuperation
-passwordResetAccountRecovery-description = Tu ha correctemente reinitialisate tu contrasigno usante un codice de recuperation ab le sequente apparato:
-passwordResetAccountRecovery-action = Crear nove clave de recuperation
-passwordResetAccountRecovery-regen-required = Tu debera generar un nove clave de recuperation.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Crear nove clave de recuperation:
 postAddAccountRecovery-subject-2 = Clave de recuperation del conto create
 postAddAccountRecovery-title2 = Tu ha create un nove clave de recuperation del conto
 # Information on the browser and device triggering this string follows.
@@ -269,19 +252,12 @@ postChangePrimary-title = Nove e-mail primari
 #  $email (String) - A user's email address
 postChangePrimary-description = Tu ha correctemente cambiate tu adresse de e-mail primari a { $email }. Iste adresse es ora tu nomine de usator pro aperir session a tu { -product-firefox-account }, e pro reciper notificationes de securitate e confirmationes de accesso.
 postChangePrimary-action = Gerer le conto
-postConsumeRecoveryCode-subject = Codice de recuperation usate
-postConsumeRecoveryCode-title = Codice de recuperation consumite
-postConsumeRecoveryCode-description = Tu ha consumite un codice de recuperation ab le sequente apparato:
 postConsumeRecoveryCode-action = Gerer le conto
-postNewRecoveryCodes-subject = Nove codices de recuperation generate
-postNewRecoveryCodes-title = Nove codices de recuperation generate
-postNewRecoveryCodes-description = Tu ha generate con successo nove codices de recuperation ab le sequente apparato:
 postNewRecoveryCodes-action = Gerer le conto
 postRemoveAccountRecovery-subject = Clave de recuperation del conto removite
 postRemoveAccountRecovery-title = Clave de recuperation del conto removite
 postRemoveAccountRecovery-description = Tu ha removite con successo un clave de recuperation de tu { -product-firefox-account } per le sequente apparato:
 postRemoveAccountRecovery-action = Gerer le conto
-postRemoveAccountRecovery-invalid = Iste clave de recuperation pote non plus esser usate pro recuperar tu conto.
 postRemoveSecondary-subject = E-mail secundari removite
 postRemoveSecondary-title = E-mail secundari removite
 # Variables:
@@ -591,7 +567,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Rememora pro confirmar tu conto
 verificationReminderFirst-title-2 = Benvenite a { -brand-firefox }!
 verificationReminderFirst-description-2 = Alcun dies retro tu ha create un { -product-firefox-account }, ma jammais confirmate illo. Confirma tu conto in le proxime 15 dies o illo sera automaticamente delite.
-verificationReminderFirst-sub-description-2 = Non perder le technologia que pone prime te e tu confidentialitate.
 confirm-email-2 = Confirmar conto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar conto
