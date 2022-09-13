@@ -197,6 +197,8 @@ fraudulentAccountDeletion-contact = Si tu ha ulle questiones, contacta nostre <a
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tu ha ulle questiones, contacta nostre equipa de assistentia: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Tu ha terminate le codices de authentication de salvamento!
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
