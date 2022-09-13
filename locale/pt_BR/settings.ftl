@@ -140,7 +140,7 @@ cs-sign-out-button = Sair
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Baixado
@@ -173,9 +173,11 @@ drop-down-menu-sign-out-error-2 = Desculpe, houve um problema ao desconectar da 
 
 flow-container-back = Voltar
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Códigos de recuperação
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Chave de recuperação de conta { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Códigos de autenticação de backup do { -brand-firefox }
 get-data-trio-download =
     .title = Baixar
 get-data-trio-copy =
@@ -235,11 +237,9 @@ nav-data-collection = Coleta e uso de dados
 nav-paid-subs = Assinaturas pagas
 nav-email-comm = Comunicações por email
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Houve um problema ao substituir seus códigos de recuperação
-tfa-replace-code-success = Novos códigos foram criados. Guarde esses códigos de uso único em um lugar seguro. Você precisará deles para acessar sua conta, se não estiver com seu dispositivo móvel.
-tfa-replace-code-success-alert-2 = Códigos de recuperação da conta atualizados
+tfa-replace-code-error-3 = Houve um problema ao substituir seus códigos de autenticação de backup
 tfa-replace-code-1-2 = Etapa 1 de 2
 tfa-replace-code-2-2 = Etapa 2 de 2
 
@@ -349,19 +349,15 @@ display-name-success-alert-2 = Nome de exibição atualizado
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Cancelar
 recovery-key-close-button = Fechar
 recovery-key-continue-button = Continuar
-recovery-key-created = Sua chave de recuperação foi criada. Certifique-se de guardar a chave num lugar seguro, que possa encontrar facilmente mais tarde. Você precisará da chave para recuperar o acesso a seus dados, caso esqueça sua senha.
 recovery-key-enter-password =
     .label = Digite a senha
-recovery-key-page-title =
-    .title = Chave de recuperação
 recovery-key-step-1 = Etapa 1 de 2
 recovery-key-step-2 = Etapa 2 de 2
-recovery-key-success-alert-2 = Chave de recuperação criada
 
 ## Add secondary email page
 
@@ -409,8 +405,6 @@ tfa-button-cancel = Cancelar
 tfa-button-finish = Concluir
 tfa-incorrect-totp = Código de autenticação em duas etapas incorreto
 tfa-cannot-retrieve-code = Houve um problema ao buscar seu código.
-tfa-cannot-verify-code-3 = Houve um problema ao confirmar o código de recuperação
-tfa-incorrect-recovery-code = Código de recuperação incorreto
 tfa-enabled = Autenticação em duas etapas ativada
 tfa-scan-this-code = Leia este código QR usando um destes <linkExternal>aplicativos de autenticação</linkExternal>.
 # This is the image alt text for a QR code.
@@ -426,10 +420,6 @@ tfa-enter-secret-key = Digite esta chave secreta no seu aplicativo de autentica�
 tfa-enter-totp = Agora digite o código de segurança do seu aplicativo de autenticação.
 tfa-input-enter-totp =
     .label = Digite o código de segurança
-tfa-save-these-codes = Guarde estes códigos de uso único em um lugar seguro para quando você não estiver com seu dispositivo móvel.
-tfa-enter-code-to-confirm = Digite agora um dos seus códigos de recuperação para confirmar que os guardou. Você precisará de um código se perder seu dispositivo e quiser acessar sua conta.
-tfa-enter-recovery-code =
-    .label = Digite um código de recuperação
 
 ##
 
@@ -478,23 +468,17 @@ row-defaults-action-change = Alterar
 row-defaults-action-disable = Desativar
 row-defaults-status = Nenhum
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Chave de recuperação
 rk-enabled = Ativado
 rk-not-set = Não definido
 rk-action-create = Criar
 rk-action-remove = Remover
-rk-cannot-refresh = Desculpe, houve um problema ao atualizar a chave de recuperação.
 rk-key-removed-2 = Chave de recuperação da conta removida
 rk-cannot-remove-key = Não foi possível remover a chave de recuperação da sua conta.
-rk-refresh-key = Atualizar chave de recuperação
 rk-content-explain = Restaure suas informações caso esqueça sua senha.
 rk-content-reset-data = Por que redefinir minha senha redefine meus dados?
 rk-cannot-verify-session-4 = Desculpe, houve um problema ao confirmar a sessão.
-rk-remove-modal-heading = Remover chave de recuperação?
-rk-remove-modal-content = Caso você redefina sua senha, você não poderá usar sua chave de recuperação para acessar seus dados. Esta ação não pode ser desfeita.
-rk-refresh-error = Desculpe, houve um problema ao atualizar a chave de recuperação.
 rk-remove-error-2 = Não foi possível remover a chave de recuperação da sua conta
 
 ## Secondary email sub-section on main Settings page
@@ -526,7 +510,6 @@ se-resend-code-2 = Confirmação necessária. <button>Reenvie o código de verif
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
 se-default-content = Acesse sua conta se você não conseguir entrar no seu email principal.
-se-content-note = Nota: Usar um email secundário não restaura suas informações, você precisa de uma <a>chave de recuperação</a> para isso.
 # Default value for the secondary email
 se-secondary-email-none = Nenhum
 
@@ -548,9 +531,7 @@ tfa-row-content-explain = Impeça que outras pessoas entrem na sua conta, exigin
 tfa-row-cannot-verify-session-4 = Desculpe, houve um problema ao confirmar a sessão
 tfa-row-disable-modal-heading = Desativar autenticação em duas etapas?
 tfa-row-disable-modal-confirm = Desativar
-tfa-row-disable-modal-explain = Esta ação não pode ser desfeita. Você também tem a opção de <linkExternal>substituir seus códigos de recuperação</linkExternal>.
 tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação em duas etapas
-tfa-row-change-modal-heading = Alterar códigos de recuperação?
 tfa-row-change-modal-confirm = Alterar
 tfa-row-change-modal-explain = Você não poderá desfazer esta ação.
 
