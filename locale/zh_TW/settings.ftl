@@ -409,6 +409,7 @@ tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 兩階段驗證碼不正確
 tfa-cannot-retrieve-code = 取得您的驗證碼時發生問題。
+tfa-cannot-verify-code-4 = 確認您的備用驗證碼時發生問題
 tfa-incorrect-recovery-code-1 = 備用驗證碼不正確
 tfa-enabled = 已開啟兩階段驗證
 tfa-scan-this-code = 請使用下列任一種<linkExternal>驗證程式</linkExternal>來掃描這組 QR Code。
@@ -426,6 +427,7 @@ tfa-enter-totp = 現在請輸入驗證應用程式當中的安全碼。
 tfa-input-enter-totp =
     .label = 請輸入安全碼
 tfa-save-these-codes-1 = 請將這些單次使用的備用驗證碼儲存在安全的地方，以備行動裝置不在手邊時使用。
+tfa-enter-code-to-confirm-1 = 請立刻輸入您的任一組備用驗證碼，以確認您已儲存該驗證碼。當您無法再使用目前的行動裝置時，需要輸入該驗證碼才能登入。
 tfa-enter-recovery-code-1 =
     .label = 請輸入備用驗證碼
 
@@ -491,6 +493,8 @@ rk-content-explain = 當您忘記密碼時恢復資訊。
 rk-content-reset-data = 為什麼重設密碼也會重設我的資料？
 rk-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
 rk-remove-modal-heading-1 = 要移除帳號救援金鑰嗎？
+rk-remove-modal-content-1 = 若您重設密碼，就無法再使用帳號救援金鑰來存取資料，也無法恢復此動作。
+rk-refresh-error-1 = 很抱歉，重新整理帳號救援金鑰時發生問題。
 rk-remove-error-2 = 無法刪除您的帳號救援金鑰
 
 ## Secondary email sub-section on main Settings page
@@ -522,6 +526,7 @@ se-resend-code-2 = 需要驗證帳號。若未收到驗證信或跑到垃圾信�
 # Button to make secondary email the primary
 se-make-primary = 設為主要信箱
 se-default-content = 讓您在無法使用主要電子郵件地址時，還能存取帳號。
+se-content-note-1 = 註：只設定次要電子郵件帳號無法恢復您的資訊，還需要有<a>帳號救援金鑰</a>才行。
 # Default value for the secondary email
 se-secondary-email-none = 無
 
@@ -543,6 +548,7 @@ tfa-row-content-explain = 透過在登入時要求提供一組只有您有權限
 tfa-row-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
+tfa-row-disable-modal-explain-1 = 將無法還原此動作。您還可以<linkExternal>換新備用救援碼</linkExternal>。
 tfa-row-cannot-disable-2 = 無法停用兩階段驗證
 tfa-row-change-modal-heading-1 = 要變更備用驗證碼嗎？
 tfa-row-change-modal-confirm = 變更
