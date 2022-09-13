@@ -143,7 +143,7 @@ cs-sign-out-button = התנתקות
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = הוּרד
@@ -176,9 +176,9 @@ drop-down-menu-sign-out-error-2 = הייתה בעיה בהתנתקות מהחש�
 
 flow-container-back = חזרה
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = קודים לשחזור
+get-data-trio-title-firefox-recovery-key = מפתח לשחזור חשבון { -brand-firefox }
 get-data-trio-download =
     .title = הורדה
 get-data-trio-copy =
@@ -234,11 +234,8 @@ nav-data-collection = איסוף ושימוש בנתונים
 nav-paid-subs = מינויים בתשלום
 nav-email-comm = תקשורת בדוא״ל
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = הייתה בעיה בהחלפת הקודים שלך לשחזור
-tfa-replace-code-success = נוצרו קודים חדשים. יש לשמור את הקודים האלו המיועדים לשימוש חד פעמי במקום בטוח — יהיה לך צורך בהם כדי לגשת לחשבון שלך במקרה שאין עליך את המכשיר הנייד שלך.
-tfa-replace-code-success-alert-2 = הקודים לשחזור החשבון עודכנו
 tfa-replace-code-1-2 = שלב 1 מתוך 2
 tfa-replace-code-2-2 = שלב 2 מתוך 2
 
@@ -348,19 +345,19 @@ display-name-success-alert-2 = שם התצוגה עודכן
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = ביטול
 recovery-key-close-button = סגירה
 recovery-key-continue-button = המשך
-recovery-key-created = מפתח השחזור שלך נוצר. יש להקפיד לשמור את המפתח במקום בטוח שתהיה לך האפשרות למצוא בקלות מאוחר יותר — יהיה לך צורך במפתח זה כדי לקבל בחזרה גישה לנתונים שלך במקרה ששכחת את הססמה שלך.
+recovery-key-created-1 = מפתח לשחזור החשבון שלך נוצר. יש להקפיד לשמור את המפתח במקום בטוח שתהיה לך האפשרות למצוא בקלות מאוחר יותר — יהיה לך צורך במפתח זה כדי לקבל בחזרה גישה לנתונים שלך במקרה ששכחת את הססמה שלך.
 recovery-key-enter-password =
     .label = נא להכניס ססמה
-recovery-key-page-title =
-    .title = מפתח שחזור
+recovery-key-page-title-1 =
+    .title = מפתח שחזור חשבון
 recovery-key-step-1 = שלב 1 מתוך 2
 recovery-key-step-2 = שלב 2 מתוך 2
-recovery-key-success-alert-2 = מפתח שחזור נוצר
+recovery-key-success-alert-3 = נוצר מפתח לשחזור החשבון
 
 ## Add secondary email page
 
@@ -408,8 +405,6 @@ tfa-button-cancel = ביטול
 tfa-button-finish = סיום
 tfa-incorrect-totp = קוד אימות דו־שלבי שגוי
 tfa-cannot-retrieve-code = אירעה שגיאה באחזור הקוד שלך.
-tfa-cannot-verify-code-3 = הייתה בעיה באימות הקוד שלך לשחזור
-tfa-incorrect-recovery-code = קוד לשחזור שגוי
 tfa-enabled = אימות דו־שלבי הופעל
 tfa-scan-this-code = יש לסרוק את קוד ה־QR הזה באמצעות אחד <linkExternal>מיישומוני האימות האלו</linkExternal>.
 # This is the image alt text for a QR code.
@@ -425,10 +420,6 @@ tfa-enter-secret-key = נא להקליד את המפתח הסודי הזה לי�
 tfa-enter-totp = כעת יש להכניס את קוד האבטחה מיישומון האימות.
 tfa-input-enter-totp =
     .label = נא להכניס קוד אבטחה
-tfa-save-these-codes = יש לשמור את הקודים האלו המיועדים לשימוש חד פעמי במקום בטוח לזמנים שבהם לא תהיה לך גישה למכשיר הנייד שלך.
-tfa-enter-code-to-confirm = נא להכניס כעת את אחד מהקודים שלך לשחזור כדי לאשר ששמרת אותו. יהיה לך צורך בקוד אם המכשיר שלך יאבד ויהיה ברצונך לגשת לחשבון שלך.
-tfa-enter-recovery-code =
-    .label = נא להכניס קוד לשחזור
 
 ##
 
@@ -476,23 +467,23 @@ row-defaults-action-change = שינוי
 row-defaults-action-disable = השבתה
 row-defaults-status = ללא
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = מפתח שחזור
+rk-header-1 = מפתח שחזור חשבון
 rk-enabled = מופעל
 rk-not-set = לא מוגדר
 rk-action-create = יצירה
 rk-action-remove = הסרה
-rk-cannot-refresh = אירעה שגיאה ברענון מפתח השחזור, עמך הסליחה.
+rk-cannot-refresh-1 = אירעה שגיאה ברענון מפתח שחזור החשבון, עמך הסליחה.
 rk-key-removed-2 = מפתח לשחזור החשבון הוסר
 rk-cannot-remove-key = לא ניתן היה להסיר את מפתח שחזור החשבון שלך.
-rk-refresh-key = רענון מפתח שחזור
+rk-refresh-key-1 = רענון מפתח שחזור חשבון
 rk-content-explain = שחזור המידע שלך כאשר הססמה שלך נשכחה.
 rk-content-reset-data = מדוע איפוס הססמה שלי מאפסת את הנתונים שלי?
 rk-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
-rk-remove-modal-heading = להסיר את מפתח השחזור?
-rk-remove-modal-content = במקרה שהססמה שלך תאופס, לא תהיה לך אפשרות להשתמש במפתח השחזור שלך כדי לגשת לנתונים שלך. לא ניתן לבטל פעולה זו.
-rk-refresh-error = הייתה בעיה ברענון מפתח השחזור, עמך הסליחה.
+rk-remove-modal-heading-1 = להסיר את מפתח שחזור החשבון?
+rk-remove-modal-content-1 = במקרה שהססמה שלך תאופס, לא תהיה לך אפשרות להשתמש במפתח שחזור החשבון שלך כדי לגשת לנתונים שלך. לא ניתן לבטל פעולה זו.
+rk-refresh-error-1 = אירעה שגיאה ברענון מפתח שחזור החשבון, עמך הסליחה.
 rk-remove-error-2 = לא ניתן היה להסיר את מפתח שחזור החשבון שלך
 
 ## Secondary email sub-section on main Settings page
@@ -524,7 +515,7 @@ se-resend-code-2 = נדרש אימות. ניתן <button>לשלוח מחדש א�
 # Button to make secondary email the primary
 se-make-primary = הפיכה לכתובת ראשית
 se-default-content = קבלת גישה לחשבון שלך אם אין באפשרותך להתחבר לדוא״ל הראשי שלך.
-se-content-note = הערה: דוא"ל משני לא ישחזר את המידע שלך — יש צורך <a>במפתח שחזור</a> לשם כך.
+se-content-note-1 = הערה: דוא"ל משני לא ישחזר את המידע שלך — יש צורך <a>במפתח שחזור חשבון</a> לשם כך.
 # Default value for the secondary email
 se-secondary-email-none = ללא
 
@@ -546,9 +537,7 @@ tfa-row-content-explain = למנוע ממישהו אחר להיכנס באמצע
 tfa-row-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 tfa-row-disable-modal-heading = להשבית אימות דו־שלבי?
 tfa-row-disable-modal-confirm = השבתה
-tfa-row-disable-modal-explain = לא יהיה ניתן לבטל פעולה זו. יש לך גם את האפשרות <linkExternal>להחליף את הקודים שלך לשחזור</linkExternal>.
 tfa-row-cannot-disable-2 = לא ניתן היה להשבית את האימות הדו־שלבי
-tfa-row-change-modal-heading = לשנות את הקודים לשחזור?
 tfa-row-change-modal-confirm = שינוי
 tfa-row-change-modal-explain = לא יהיה ניתן לבטל פעולה זו.
 
