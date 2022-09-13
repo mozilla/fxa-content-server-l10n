@@ -288,6 +288,8 @@ postChangePrimary-title = Nov glavni e-poštni naslov
 postChangePrimary-description = Uspešno ste spremenili glavni e-poštni naslov na { $email }. Ta e-poštni naslov je zdaj vaše uporabniško ime za prijavo v { -product-firefox-account }, kot tudi naslov za prejemanje varnostnih obvestil ter
 postChangePrimary-action = Upravljanje računa
 postConsumeRecoveryCode-subject-1 = Rezervna overitvena koda je bila uporabljena
+postConsumeRecoveryCode-title-1 = Rezervna overitvena koda je bila porabljena
+postConsumeRecoveryCode-description-1 = Uspešno ste porabili rezervno overitveno kodo z naslednje naprave:
 postConsumeRecoveryCode-action = Upravljanje računa
 postNewRecoveryCodes-subject-1 = Ustvarjene nove rezervne overitvene kode
 postNewRecoveryCodes-title-1 = Ustvarjene nove rezervne overitvene kode
@@ -323,6 +325,9 @@ postVerifySecondary-content-2 = Uspešno ste potrdili { $secondaryEmail } kot po
 postVerifySecondary-action = Upravljanje računa
 recovery-subject = Ponastavite vaše geslo
 recovery-title-2 = Ali ste pozabili geslo?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Prejeli smo zahtevo za spremembo gesla vašega { -product-firefox-account(sklon: "rodilnik") } z:
 recovery-new-password-button = Ustvarite novo geslo s klikom na spodnji gumb. Ta povezava bo potekla v naslednji uri.
 recovery-action = Ustvarite novo geslo
 #  Variables:

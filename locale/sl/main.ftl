@@ -269,6 +269,8 @@ account-activated = Vaš račun je aktiviran, <userEl/>
 
 ## Subscription route index
 
+sub-route-idx-reactivating = Obnovitev naročnine ni uspela
+sub-route-idx-cancel-failed = Preklic naročnine ni uspel
 sub-route-idx-contact = Obrnite se na podporo
 sub-route-idx-cancel-msg-title = Žal nam je, da odhajate
 sub-route-idx-cancel-aside = Imate vprašanja? Obiščite <a>podporo { -brand-name-mozilla }</a>.
