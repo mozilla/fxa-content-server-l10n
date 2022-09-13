@@ -197,6 +197,11 @@ fraudulentAccountDeletion-contact = Jeli prašenja maće, stajće so z našim <a
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jeli prašenja maće, stajće so prošu z našim teamom pomocy do zwiska: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Nimaće hižo kody za zawěsćensku awtentfikaciju!
+codes-reminder-title-one = Wužiwaće hižo swój posledni kod za zawěsćensku awtentifikaciju
+codes-reminder-title-two = Je čas, dalše kody za zawěsćensku awtentifikaciju wutworić
+codes-reminder-description-part-two = Wutworće nětko nowe kody, zo njebyšće so pozdźišo swoje daty zhubił
 codes-reminder-description-two-left = Maće jenož dwaj kodaj wyše.
 lowRecoveryCodes-action-2 = Kody wutworić
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
