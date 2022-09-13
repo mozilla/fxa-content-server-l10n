@@ -194,6 +194,7 @@ fraudulentAccountDeletion-contact = Eporanduséramo, eñe’ẽ ore <a data-l10n
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore aty pytyvõha ndive: { $mozillaSupportUrl }
+lowRecoveryCodes-action-2 = Emoheñói ayvu
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
