@@ -356,10 +356,14 @@ display-name-success-alert-2 = Nome de exibição atualizado
 recovery-key-cancel-button = Cancelar
 recovery-key-close-button = Fechar
 recovery-key-continue-button = Continuar
+recovery-key-created-1 = Sua chave de recuperação de conta foi criada. Certifique-se de guardar a chave em um local seguro, que você possa encontrar facilmente mais tarde. Você precisará da chave para recuperar o acesso aos seus dados, caso esqueça sua senha.
 recovery-key-enter-password =
     .label = Digite a senha
+recovery-key-page-title-1 =
+    .title = Chave de recuperação de conta
 recovery-key-step-1 = Etapa 1 de 2
 recovery-key-step-2 = Etapa 2 de 2
+recovery-key-success-alert-3 = Criada chave de recuperação de conta
 
 ## Add secondary email page
 
