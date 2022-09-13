@@ -235,9 +235,18 @@ fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσει
 codes-reminder-title-zero = Έχετε εξαντλήσει τους εφεδρικούς κωδικούς ταυτοποίησής σας!
 codes-reminder-title-one = Σας απομένει μόνο ένας εφεδρικός κωδικός ταυτοποίησης
 codes-reminder-title-two = Ώρα να δημιουργήσετε περισσότερους εφεδρικούς κωδικούς ταυτοποίησης
+codes-reminder-description-part-one = Οι εφεδρικοί κωδικοί ταυτοποίησης σάς βοηθούν να επαναφέρετε τις πληροφορίες σας όταν ξεχάσετε τον κωδικό πρόσβασής σας.
+codes-reminder-description-part-two = Δημιουργήστε νέους κωδικούς τώρα για να μην χάσετε τα δεδομένα σας αργότερα.
 codes-reminder-description-two-left = Σας απομένουν μόνο δύο κωδικοί.
+codes-reminder-description-create-codes = Δημιουργήστε νέους εφεδρικούς κωδικούς ταυτοποίησης για να σας βοηθήσουν να επιστρέψετε στον λογαριασμό σας εάν κλειδωθεί.
 lowRecoveryCodes-action-2 = Δημιουργία κωδικών
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Δεν απομένει κανένας εφεδρικός κωδικός ταυτοποίησης
+        [one] Απομένει μόνο 1 εφεδρικός κωδικός ταυτοποίησης
+       *[other] Απομένουν μόνο { $numberRemaining } εφεδρικοί κωδικοί ταυτοποίησης!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Νέα σύνδεση στο { $clientName }
@@ -265,6 +274,9 @@ passwordChangeRequired-different-password-plaintext = Σημαντικό: Επι
 passwordReset-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordReset-title = Ο κωδικός πρόσβασης του λογαριασμού σας άλλαξε
 passwordReset-description = Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό.
+passwordResetAccountRecovery-subject-1 = Ο κωδικός πρόσβασης ενημερώθηκε με το κλειδί ανάκτησης λογαριασμού
+passwordResetAccountRecovery-title-1 = Έγινε επαναφορά του κωδικού πρόσβασης του λογαριασμού σας με κλειδί ανάκτησης λογαριασμού
+passwordResetAccountRecovery-description-1 = Έχετε επαναφέρει επιτυχώς τον κωδικό πρόσβασής σας με ένα κλειδί ανάκτησης λογαριασμού από την ακόλουθη συσκευή:
 passwordResetAccountRecovery-action-1 = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
 passwordResetAccountRecovery-regen-required-1 = Θα πρέπει να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
@@ -618,6 +630,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Θυμηθείτε να επιβεβαιώσετε τον λογαριασμό σας
 verificationReminderFirst-title-2 = Καλώς ορίσατε στο { -brand-firefox }!
 verificationReminderFirst-description-2 = Πριν από μερικές ημέρες, δημιουργήσατε έναν { -product-firefox-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Παρακαλούμε επιβεβαιώστε τον λογαριασμό σας μέσα στις επόμενες 15 ημέρες, διαφορετικά θα διαγραφεί αυτόματα.
+verificationReminderFirst-sub-description-3 = Μην χάσετε το πρόγραμμα περιήγησης που έχει ως προτεραιότητα εσάς και το απόρρητό σας.
 confirm-email-2 = Επιβεβαίωση λογαριασμού
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Επιβεβαίωση λογαριασμού

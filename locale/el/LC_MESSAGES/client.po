@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-13 06:38+0000\n"
-"PO-Revision-Date: 2022-09-13 10:48+0000\n"
+"PO-Revision-Date: 2022-09-13 11:02+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -918,7 +918,7 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "Εισαγάγετε το κλειδί ανάκτησης λογαριασμού"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
@@ -1203,7 +1203,7 @@ msgstr "Ένας λογαριασμός Firefox ξεκλειδώνει επίσ�
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "Αποθήκευση εφεδρικών κωδικών ταυτοποίησης"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1234,15 +1234,17 @@ msgstr "Ακύρωση ρύθμισης"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Επιβεβαίωση εφεδρικού κωδικού ταυτοποίησης"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
 msgstr ""
+"Για να διασφαλίσετε ότι θα μπορέσετε να αποκτήσετε ξανά πρόσβαση στον λογαριασμό σας, σε περίπτωση που χάσετε τη συσκευή σας, παρακαλώ εισαγάγετε έναν από τους αποθηκευμένους εφεδρικούς κωδικούς "
+"ταυτοποίησης."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Εφεδρικός κωδικός ταυτοποίησης"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1447,11 +1449,11 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Εισαγάγετε εφεδρικό κωδικό ταυτοποίησης"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Παρακαλώ εισαγάγετε έναν από τους εφεδρικούς κωδικούς ταυτοποίησης που λάβατε κατά τη ρύθμιση της ταυτοποίησης δύο παραγόντων."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
