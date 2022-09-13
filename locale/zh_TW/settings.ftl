@@ -237,6 +237,9 @@ nav-email-comm = 電子郵件通訊
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = 取代您的備用驗證碼時發生問題
+tfa-replace-code-success-1 = 已產生新的救援碼，請將這些單次使用的備用驗證碼保存在安全的地方，當您無法再使用行動裝置時，可以使用此驗證碼登入帳號。
+tfa-replace-code-success-alert-3 = 已更新帳號備用驗證碼
 tfa-replace-code-1-2 = 第 1 步，共 2 步
 tfa-replace-code-2-2 = 第 2 步，共 2 步
 
@@ -351,6 +354,7 @@ display-name-success-alert-2 = 已更新顯示名稱
 recovery-key-cancel-button = 取消
 recovery-key-close-button = 關閉
 recovery-key-continue-button = 繼續
+recovery-key-created-1 = 已建立您的帳號救援金鑰。請務必將金鑰儲存在安全，且之後能簡單找到的位置。若忘記密碼時，必須使用此金鑰才能拿回存取權。
 recovery-key-enter-password =
     .label = 輸入密碼
 recovery-key-page-title-1 =
