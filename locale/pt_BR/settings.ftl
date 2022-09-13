@@ -240,6 +240,8 @@ nav-email-comm = Comunicações por email
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Houve um problema ao substituir seus códigos de autenticação de backup
+tfa-replace-code-success-1 = Novos códigos foram criados. Guarde esses códigos de autenticação de backup de uso único em um local seguro. Você precisará deles para acessar sua conta, se não estiver com seu dispositivo móvel.
+tfa-replace-code-success-alert-3 = Códigos de autenticação de backup da conta atualizados
 tfa-replace-code-1-2 = Etapa 1 de 2
 tfa-replace-code-2-2 = Etapa 2 de 2
 
