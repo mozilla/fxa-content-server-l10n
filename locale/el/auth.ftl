@@ -231,6 +231,10 @@ fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, παρ
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε με την ομάδα υποστήριξής μας: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Έχετε εξαντλήσει τους εφεδρικούς κωδικούς ταυτοποίησής σας!
+codes-reminder-title-one = Σας απομένει μόνο ένας εφεδρικός κωδικός ταυτοποίησης
+codes-reminder-title-two = Ώρα να δημιουργήσετε περισσότερους εφεδρικούς κωδικούς ταυτοποίησης
 codes-reminder-description-two-left = Σας απομένουν μόνο δύο κωδικοί.
 lowRecoveryCodes-action-2 = Δημιουργία κωδικών
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
@@ -262,6 +266,9 @@ passwordReset-subject = Ο κωδικός πρόσβασης ενημερώθη�
 passwordReset-title = Ο κωδικός πρόσβασης του λογαριασμού σας άλλαξε
 passwordReset-description = Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό.
 passwordResetAccountRecovery-action-1 = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
+passwordResetAccountRecovery-regen-required-1 = Θα πρέπει να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-create-key-1 = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού:
 postAddAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
 # Information on the browser and device triggering this string follows.
@@ -291,12 +298,17 @@ postChangePrimary-description = Έχετε αλλάξει επιτυχώς το 
 postChangePrimary-action = Διαχείριση λογαριασμού
 postConsumeRecoveryCode-subject-1 = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης
 postConsumeRecoveryCode-title-1 = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης
+postConsumeRecoveryCode-description-1 = Έχετε χρησιμοποιήσει επιτυχώς έναν εφεδρικό κωδικό ταυτοποίησης από την ακόλουθη συσκευή:
 postConsumeRecoveryCode-action = Διαχείριση λογαριασμού
+postNewRecoveryCodes-subject-1 = Δημιουργήθηκαν νέοι εφεδρικοί κωδικοί ταυτοποίησης
+postNewRecoveryCodes-title-1 = Δημιουργήθηκαν νέοι εφεδρικοί κωδικοί ταυτοποίησης
+postNewRecoveryCodes-description-1 = Έχετε δημιουργήσει επιτυχώς νέους εφεδρικούς κωδικούς ταυτοποίησης από την ακόλουθη συσκευή:
 postNewRecoveryCodes-action = Διαχείριση λογαριασμού
 postRemoveAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε
 postRemoveAccountRecovery-title = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε
 postRemoveAccountRecovery-description = Έχετε αφαιρέσει επιτυχώς ένα κλειδί ανάκτησης για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας από την ακόλουθη συσκευή:
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
+postRemoveAccountRecovery-invalid-1 = Αυτό το κλειδί ανάκτησης λογαριασμού δεν μπορεί να χρησιμοποιηθεί πλέον για την ανάκτηση του λογαριασμού σας.
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 # Variables:
