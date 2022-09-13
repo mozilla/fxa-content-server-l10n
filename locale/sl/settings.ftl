@@ -193,7 +193,7 @@ cs-sign-out-button = Odjava
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Preneseno
@@ -226,9 +226,10 @@ drop-down-menu-sign-out-error-2 = Oprostite, prišlo je do težave pri odjavljan
 
 flow-container-back = Nazaj
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Kode za obnovitev
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Ključ za obnovitev { -brand-firefox } Računa
 get-data-trio-download =
     .title = Prenesi
 get-data-trio-copy =
@@ -288,14 +289,8 @@ nav-data-collection = Zbiranje in uporaba podatkov
 nav-paid-subs = Plačljive naročnine
 nav-email-comm = E-poštno obveščanje
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Pri menjavi kod za obnovitev je prišlo do težave
-tfa-replace-code-success =
-    Ustvarjene so bile nove kode. Te kode za enkratno
-    uporabo shranite na varno mesto – potrebovali jih boste za dostop do svojega
-    računa, če ne boste imeli mobilne naprave.
-tfa-replace-code-success-alert-2 = Kode za obnovitev računa posodobljene
 tfa-replace-code-1-2 = Korak 1 od 2
 tfa-replace-code-2-2 = Korak 2 od 2
 
@@ -405,19 +400,18 @@ display-name-success-alert-2 = Prikazno ime posodobljeno
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Prekliči
 recovery-key-close-button = Zapri
 recovery-key-continue-button = Nadaljuj
-recovery-key-created = Vaš obnovitveni ključ je bil ustvarjen. Ključ shranite na varnem mestu, kjer ga boste pozneje zlahka našli – potrebovali ga boste za ponovni dostop do svojih podatkov, če pozabite geslo.
 recovery-key-enter-password =
     .label = Vnesite geslo
-recovery-key-page-title =
-    .title = Obnovitveni ključ
+recovery-key-page-title-1 =
+    .title = Ključ za obnovitev računa
 recovery-key-step-1 = Korak 1 od 2
 recovery-key-step-2 = Korak 2 od 2
-recovery-key-success-alert-2 = Obnovitveni ključ ustvarjen
+recovery-key-success-alert-3 = Ključ za obnovitev računa ustvarjen
 
 ## Add secondary email page
 
@@ -465,8 +459,6 @@ tfa-button-cancel = Prekliči
 tfa-button-finish = Končaj
 tfa-incorrect-totp = Nepravilna koda za overitev v dveh korakih
 tfa-cannot-retrieve-code = Prišlo je do napake pri pridobivanju vaše kode.
-tfa-cannot-verify-code-3 = Prišlo je do napake pri potrjevanju obnovitvene kode
-tfa-incorrect-recovery-code = Nepravilna koda za obnovitev
 tfa-enabled = Overitev v dveh korakih je omogočena
 tfa-scan-this-code =
     Skenirajte to kodo QR z eno od <linkExternal>naslednjih
@@ -484,15 +476,6 @@ tfa-enter-secret-key = Vnesite ta tajni ključ v svojo aplikacijo za overitev:
 tfa-enter-totp = Sedaj vnesite varnostno kodo iz aplikacije za overjanje.
 tfa-input-enter-totp =
     .label = Vnesite varnostno kodo
-tfa-save-these-codes =
-    Shranite te kode za enkratno uporabo na varno mesto za primere,
-    ko nimate mobilne naprave.
-tfa-enter-code-to-confirm =
-    Sedaj vnesite eno od kod za obnovitev, da potrdite,
-    da ste jih shranili. Kodo boste potrebovali, da ohranite dostop do računa,
-    v kolikor boste izgubili svojo napravo.
-tfa-enter-recovery-code =
-    .label = Vnesite kodo za obnovitev
 
 ##
 
@@ -541,25 +524,25 @@ row-defaults-action-change = Spremeni
 row-defaults-action-disable = Onemogoči
 row-defaults-status = Brez
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Obnovitveni ključ
+rk-header-1 = Ključ za obnovitev računa
 rk-enabled = Omogočen
 rk-not-set = Ni nastavljen
 rk-action-create = Ustvari
 rk-action-remove = Odstrani
-rk-cannot-refresh = Oprostite, prišlo je do težave pri osveževanju obnovitvenega ključa.
+rk-cannot-refresh-1 = Oprostite, prišlo je do težave pri osveževanju ključa za obnovitev računa.
 rk-key-removed-2 = Obnovitveni ključ za račun odstranjen
 rk-cannot-remove-key = Ključa za obnovitev računa ni bilo mogoče odstraniti.
-rk-refresh-key = Osveži obnovitveni ključ
+rk-refresh-key-1 = Osveži ključ za obnovitev računa
 rk-content-explain = Obnovite svoje podatke, če pozabite geslo.
 rk-content-reset-data = Zakaj ponastavitev gesla izbriše moje podatke?
 rk-cannot-verify-session-4 = Oprostite, prišlo je do težave pri potrjevanju vaše seje
-rk-remove-modal-heading = Odstrani obnovitveni ključ?
-rk-remove-modal-content =
+rk-remove-modal-heading-1 = Odstrani ključ za obnovitev računa?
+rk-remove-modal-content-1 =
     V primeru, da ponastavite geslo, obnovitvenega ključa
     ne boste mogli uporabiti za dostop do podatkov. Tega dejanja ne morete razveljaviti.
-rk-refresh-error = Oprostite, prišlo je do težave pri osveževanju obnovitvenega ključa.
+rk-refresh-error-1 = Oprostite, prišlo je do težave pri osveževanju ključa za obnovitev računa.
 rk-remove-error-2 = Ključa za obnovitev računa ni bilo mogoče odstraniti
 
 ## Secondary email sub-section on main Settings page
@@ -593,9 +576,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Nastavi kot glavno
 se-default-content = Obdržite dostop do svojega računa v primeru, da se ne morete prijaviti v glavni e-poštni naslov.
-se-content-note =
+se-content-note-1 =
     Opomba: pomožni e-poštni naslov ne bo obnovil vaših podatkov – za to
-    boste potrebovali <a>obnovitveni ključ</a>.
+    boste potrebovali <a>ključ za obnovitev računa</a>.
 # Default value for the secondary email
 se-secondary-email-none = Brez
 
@@ -621,11 +604,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Oprostite, prišlo je do težave pri potrjevanju vaše seje
 tfa-row-disable-modal-heading = Ali želite onemogočiti overitev v dveh korakih?
 tfa-row-disable-modal-confirm = Onemogoči
-tfa-row-disable-modal-explain =
-    Tega dejanja ne morete razveljaviti. Imate tudi
-    možnost <linkExternal>zemanjave kod za obnovitev</linkExternal>.
 tfa-row-cannot-disable-2 = Overitve v dveh korakih ni bilo mogoče izključiti
-tfa-row-change-modal-heading = Spremeni obnovitvene kode?
 tfa-row-change-modal-confirm = Spremeni
 tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
 
