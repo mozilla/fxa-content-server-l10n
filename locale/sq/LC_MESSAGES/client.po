@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-13 06:38+0000\n"
 "PO-Revision-Date: 2022-04-04 23:20+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,16 +189,16 @@ msgid "Show password"
 msgstr "Shfaqe fjalëkalimin"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
-msgid "Firefox Recovery Codes"
-msgstr "Kode Rimarrjeje Firefox"
+msgid "Firefox Backup Authentication Codes"
+msgstr ""
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
 msgstr "Mirëfilltësimi dyhapësh u aktivizua"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
-msgid "Firefox Recovery Key"
-msgstr "Kyç Riparimi i Firefox-it"
+msgid "Firefox Account Recovery Key"
+msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -220,7 +220,7 @@ msgstr "U shkarkua"
 msgid "Printed"
 msgstr "U shtyp"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr ""
 
@@ -287,10 +287,6 @@ msgstr "Email-i parësor u verifikua me sukses"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Email-i dytësor u verifikua me sukses"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Llogaria u verifikua me sukses"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -477,20 +473,20 @@ msgid "TOTP token not found"
 msgstr "S’u gjet token TOTP"
 
 #: .es5/lib/auth-errors.js:236
-msgid "Recovery code not found"
-msgstr "S’u gjet kod rikthimesh"
+msgid "Backup authentication code not found"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
 msgstr "Urdhër pajisje që s’gjendet"
 
 #: .es5/lib/auth-errors.js:244
-msgid "Recovery key not found"
-msgstr "S’u gjet kyç rikthimesh"
+msgid "Account recovery key not found"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:248
-msgid "Invalid recovery key"
-msgstr "Kyç rimarrjeje i pavlefshëm"
+msgid "Invalid account recovery key"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -525,8 +521,8 @@ msgid "Update was rejected, please try again"
 msgstr "Përditësimi u hodh poshtë, ju lutemi, riprovoni"
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "Kod verifikimi i pavlefshëm ose i skaduar"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -611,8 +607,8 @@ msgid "Valid URL required"
 msgstr "Lypset URL e vlefshme"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Email-i juaj i verifikimit sapo u kthye mbrapsht. E shkruat keq email-in?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -691,16 +687,16 @@ msgid "Invalid two-step authentication code"
 msgstr "Kod i pavlefshëm mirëfilltësimi dyhapësh"
 
 #: .es5/lib/auth-errors.js:567
-msgid "Recovery code required"
-msgstr "Lypset kod rikthimi"
+msgid "Backup authentication code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:571
-msgid "Invalid recovery code"
-msgstr "Kod i pavlefshëm rikthimi"
+msgid "Invalid backup authentication code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:585
-msgid "Recovery key required"
-msgstr "Lypset kyç rimarrjeje"
+msgid "Account recovery key required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -913,8 +909,8 @@ msgid "Receive new link"
 msgstr "Merrni lidhje të re"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
-msgid "Reset password with recovery key"
-msgstr "Ricaktoni fjalëkalimin me kyç rimarrjeje"
+msgid "Reset password with account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -926,8 +922,8 @@ msgid "Continue to %(serviceName)s"
 msgstr "Vazhdoni te %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Ju lutemi, që të rimerrni hyrjen te Llogaria juaj Firefox, jepni kyçin njëpërdorimsh të rimarrjes që keni depozituar në një vend të parrezik."
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid ""
@@ -937,17 +933,17 @@ msgstr ""
 "shërbyesi, të tilla si historik dhe shfletues)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
-msgid "Enter recovery key"
-msgstr "Jepni kyç rimarrjeje"
+msgid "Enter account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
-msgid "Confirm recovery key"
-msgstr "Ripohoni kyç rimarrjeje"
+msgid "Confirm account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
-msgid "Don't have a recovery key?"
-msgstr "S’keni kyç rimarrjeje?"
+msgid "Don't have an account recovery key?"
+msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -1026,8 +1022,8 @@ msgstr ""
 "i fshehtëzojmë të dhënat tuaja me fjalëkalimin tuaj, që të mbrojmë privatësinë tuaj. Do të mbani, prapëseprapë, çfarëdo pajtimesh që mund të keni dhe të dhënat në Pocket s’do të preken."
 
 #: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "E rikthyet me sukses llogarinë tuaj duke përdorur kyçin tuaj të rimarrjes. Që të siguroni të dhënat tuaja, krijoni një fjalëkalim të ri dhe ruajeni në një vend të parrezikuar."
+msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1248,8 +1244,8 @@ msgid "A Firefox account also unlocks access to more privacy-protecting products
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
-msgid "Save recovery codes"
-msgstr "Ruaj kode rikthimi"
+msgid "Save backup authentication codes"
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1279,16 +1275,16 @@ msgid "Cancel setup"
 msgstr "Anuloje ujdisjen"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
-msgid "Confirm recovery code"
-msgstr "Ripohoni kod rimarrjeje"
+msgid "Confirm backup authentication code"
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr "Që të garantohet se do të jeni në gjendje të rifitoni hyrjen në llogarinë tuaj, në rast humbjeje pajisjeje, ju lutemi, jepni një nga kodet e rikthimit të ruajtura."
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
-msgid "Recovery code"
-msgstr "Kod rikthimi"
+msgid "Backup authentication code"
+msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1397,8 +1393,8 @@ msgid "Your account is ready!"
 msgstr "Llogaria juaj është gati!"
 
 #: .es5/templates/ready.mustache:15
-msgid "Generate a new recovery key"
-msgstr "Prodho një kyç të ri rimarrjeje"
+msgid "Generate a new account recovery key"
+msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1487,16 +1483,16 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
-msgid "Enter recovery code"
-msgstr "Jepni kod rikthimi"
+msgid "Enter backup authentication code"
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
-msgid "Please enter a recovery code that was provided to you during setup."
-msgstr "Ju lutemi, jepni një kod rikthimi që ju qe dhënë gjatë rregullimit të programit."
+msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
-msgid "Enter 10-digit recovery code"
-msgstr "Jepni kod 10-shifror rikthimi"
+msgid "Enter 10-digit backup authentication code"
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1657,8 +1653,8 @@ msgid "Step 1 of 2: Re-enter password"
 msgstr "Hapi 1 nga 2: Rijepni fjalëkalimin"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
-msgid "Enter your password to view your recovery key."
-msgstr "Që të shihni kyçin tuaj të rimarrjes, jepni fjalëkalimin tuaj."
+msgid "Enter your password to view your account recovery key."
+msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1886,8 +1882,8 @@ msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr "<span class=\"number\">4</span>Hyni në llogarinë tuaj"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
-msgid "Protect your data with a recovery key"
-msgstr "Mbroni të dhënat tuaja me një kyç rimarrjeje"
+msgid "Protect your data with an account recovery key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1898,20 +1894,20 @@ msgid "Because this information is critical to your security, Firefox deletes it
 msgstr "Ngaqë këto të dhëna janë kritike për sigurinë tuaj, Firefox-i i fshin, që të mbroheni, kur fjalëkalimi ricaktohet, për të penguar persona të tjera ta përdorin."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
-msgid "Get a Recovery Key"
-msgstr "Merrni një Kyç Rimarrjeje"
+msgid "Get an Account Recovery Key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr "Ju lutemi, ripohoni fjalëkalimin tuaj për %(escapedEmail)s që të prodhohet kyçi juaj i rimarrjes."
+msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
-msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr "Që të ripohoni se keni ruajtur një kopje, jepni kyçin tuaj të rimarrjes."
+msgid "Enter your account recovery key to confirm that you've saved a copy."
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
-msgid "Save recovery key"
-msgstr "Ruaje kyçin e rikthimit"
+msgid "Save account recovery key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -2073,7 +2069,7 @@ msgid "To download Firefox on your mobile device, hold the device’s camera ove
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Or, send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7

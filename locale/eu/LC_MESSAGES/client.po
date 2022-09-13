@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-13 06:38+0000\n"
 "PO-Revision-Date: 2022-07-23 07:12+0000\n"
 "Last-Translator: Ander Elortondo <ander.elor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,16 +186,16 @@ msgid "Show password"
 msgstr "Erakutsi pasahitza"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
-msgid "Firefox Recovery Codes"
-msgstr "Firefox berreskuratze kodeak"
+msgid "Firefox Backup Authentication Codes"
+msgstr ""
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
 msgstr "Bi urratseko autentifikazioa gaitua"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
-msgid "Firefox Recovery Key"
-msgstr "Firefox berreskuratze gakoa"
+msgid "Firefox Account Recovery Key"
+msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -217,7 +217,7 @@ msgstr "Deskargatuta"
 msgid "Printed"
 msgstr "Inprimatuta"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr ""
 
@@ -284,10 +284,6 @@ msgstr "Helbide elektroniko nagusia ondo egiaztatu da"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Helbide elektroniko alternatiboa ondo egiaztatu da"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Kontua ondo egiaztatu da"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -474,20 +470,20 @@ msgid "TOTP token not found"
 msgstr "Ez da TOTP tokena aurkitu"
 
 #: .es5/lib/auth-errors.js:236
-msgid "Recovery code not found"
-msgstr "Ez da berreskuratze kodea aurkitu"
+msgid "Backup authentication code not found"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
 msgstr "Ez dago erabilgarri gailu-komandoa"
 
 #: .es5/lib/auth-errors.js:244
-msgid "Recovery key not found"
-msgstr "Ez da berreskuratze gakoa aurkitu"
+msgid "Account recovery key not found"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:248
-msgid "Invalid recovery key"
-msgstr "Berreskuratze gako baliogabea"
+msgid "Invalid account recovery key"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -522,8 +518,8 @@ msgid "Update was rejected, please try again"
 msgstr "Eguneraketa ukatu egin da, saiatu berriro mesedez"
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "Egiaztapen-kode baliogabea edo iraungia"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -599,8 +595,8 @@ msgid "Valid URL required"
 msgstr "Baliozko URLa behar da"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Zure egiaztapen-mezua itzuli egin da. Helbidea gaizki idatzi duzu?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -679,16 +675,16 @@ msgid "Invalid two-step authentication code"
 msgstr "Bi urratseko autentifikazio kode baliogabea"
 
 #: .es5/lib/auth-errors.js:567
-msgid "Recovery code required"
-msgstr "Berreskuratze kodea behar da"
+msgid "Backup authentication code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:571
-msgid "Invalid recovery code"
-msgstr "Berreskuratze kode baliogabea"
+msgid "Invalid backup authentication code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:585
-msgid "Recovery key required"
-msgstr "Berreskuratze gakoa behar da"
+msgid "Account recovery key required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -899,8 +895,8 @@ msgid "Receive new link"
 msgstr "Jaso lotura berria"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
-msgid "Reset password with recovery key"
-msgstr "Berrezarri pasahitza berreskuratze gakoaz"
+msgid "Reset password with account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -912,8 +908,8 @@ msgid "Continue to %(serviceName)s"
 msgstr "Jarraitu %(serviceName)s zerbitzura"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Mesedez sartu erabilera bakarreko berreskuratze gakoa toki seguruan gordea duzuna berriz bereganatzeko zure Firefox kontura sarrera."
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid ""
@@ -923,17 +919,17 @@ msgstr ""
 "sinkronizatutako datuak barne)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
-msgid "Enter recovery key"
-msgstr "Sartu berreskuratze gakoa"
+msgid "Enter account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
-msgid "Confirm recovery key"
-msgstr "Berretsi berreskuratze gakoa"
+msgid "Confirm account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
-msgid "Don't have a recovery key?"
-msgstr "Ez duzu berreskuratze gakorik?"
+msgid "Don't have an account recovery key?"
+msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -978,8 +974,8 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Zure kontua ondo berrezarri da berreskuratze gakoa erabiliz. Sortu pasahitza berria zure datuen segurtasunerako eta gorde ezazu babestutako lekuan."
+msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1199,8 +1195,8 @@ msgid "A Firefox account also unlocks access to more privacy-protecting products
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
-msgid "Save recovery codes"
-msgstr "Gorde berreskuratze-kodeak"
+msgid "Save backup authentication codes"
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1230,16 +1226,16 @@ msgid "Cancel setup"
 msgstr "Utzi konfigurazioa"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
-msgid "Confirm recovery code"
-msgstr "Berretsi berreskuratze-kodea"
+msgid "Confirm backup authentication code"
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
-msgid "Recovery code"
-msgstr "Berreskuratze-kodea"
+msgid "Backup authentication code"
+msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1348,8 +1344,8 @@ msgid "Your account is ready!"
 msgstr "Zure kontua prest dago!"
 
 #: .es5/templates/ready.mustache:15
-msgid "Generate a new recovery key"
-msgstr "Sortu berreskuratze gako berria"
+msgid "Generate a new account recovery key"
+msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1436,16 +1432,16 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
-msgid "Enter recovery code"
-msgstr "Sartu berreskuratze kodea"
+msgid "Enter backup authentication code"
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
-msgid "Please enter a recovery code that was provided to you during setup."
-msgstr "Mesedez sartu berreskuratze kodea, ezarpenean zehar eman zitzaizuna."
+msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
-msgid "Enter 10-digit recovery code"
-msgstr "Sartu 10 digituko berreskuratze kodea"
+msgid "Enter 10-digit backup authentication code"
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1606,8 +1602,8 @@ msgid "Step 1 of 2: Re-enter password"
 msgstr "1 pausoa 2tik: Sartu berriz pasahitza"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
-msgid "Enter your password to view your recovery key."
-msgstr "Sartu pasahitza zure berreskuratze gakoa ikusteko."
+msgid "Enter your password to view your account recovery key."
+msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1835,8 +1831,8 @@ msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr "<span class=\"number\">4</span>Hasi saioa zure kontuan"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
-msgid "Protect your data with a recovery key"
-msgstr "Babestu zure datuak berreskuratze-gako batekin"
+msgid "Protect your data with an account recovery key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1847,20 +1843,20 @@ msgid "Because this information is critical to your security, Firefox deletes it
 msgstr "Informazio hau zure segurtasunerako kritikoa denez, Firefoxek ezabatu egiten du pasahitza berrezartzen duzunean, horrela beste inork sarbidea izatea saihesteko."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
-msgid "Get a Recovery Key"
-msgstr "Lortu berreskuratze gakoa"
+msgid "Get an Account Recovery Key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr "Berretsi %(escapedEmail)s helbiderako zure pasahitza berreskuratze-gakoa sortu ahal izateko."
+msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
-msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr "Idatzi zure berreskuratze-gakoa kopia bat gorde duzula berresteko."
+msgid "Enter your account recovery key to confirm that you've saved a copy."
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
-msgid "Save recovery key"
-msgstr "Gorde berreskuratze-gakoa"
+msgid "Save account recovery key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -2022,7 +2018,7 @@ msgid "To download Firefox on your mobile device, hold the device’s camera ove
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Or, send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7

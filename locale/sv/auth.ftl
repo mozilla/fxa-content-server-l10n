@@ -81,6 +81,9 @@ automated-email-change =
 # Variables:
 #  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext = Detta är ett automatiskt e-postmeddelande; om du inte har lagt till en ny enhet i ditt { -product-firefox-account } bör du ändra ditt lösenord omedelbart på { $passwordChangeLink }
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-no-action-plaintext = Detta är ett automatiskt e-postmeddelande. Om du fick det av misstag behöver du inte göra någonting.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Detta är ett automatiskt e-postmeddelande; om du inte godkände den här åtgärden, vänligen ändra ditt lösenord:
 automated-email-reset =
@@ -130,6 +133,9 @@ subscriptionUpdateBillingTry-plaintext = Vi kommer försöka genomföra din beta
 subscriptionUpdatePayment = För att förhindra eventuella avbrott i din tjänst, vänligen <a data-l10n-name="updateBillingUrl">uppdatera din betalningsinformation</a> så snart som möjligt.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = För att förhindra avbrott i din tjänst, uppdatera din betalningsinformation så snart som möjligt:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = För mer information besök { -brand-mozilla } Support: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -205,6 +211,15 @@ lowRecoveryCodes-subject =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning till { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Ditt { -product-firefox-account } användes för att logga in
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Inte du? <a data-l10n-name="passwordChangeLink">Ändra ditt lösenord</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Inte du? Ändra ditt lösenord:
 newDeviceLogin-action = Hantera konto
 passwordChanged-subject = Lösenord uppdaterat
 passwordChanged-title = Lösenord har ändrats
@@ -227,7 +242,16 @@ passwordResetAccountRecovery-action = Skapa ny återställningsnyckel
 passwordResetAccountRecovery-regen-required = Du måste skapa en ny återställningsnyckel.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-create-key = Skapa ny återställningsnyckel:
+postAddAccountRecovery-subject-2 = Kontoåterställningsnyckel skapad
+postAddAccountRecovery-title2 = Du skapade en ny kontoåterställningsnyckel
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = En ny nyckel skapades från:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Inte du?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Ta bort den nya nyckeln</a> och <a data-l10n-name="passwordChangeLink">ändra ditt lösenord</a>
 postAddAccountRecovery-action = Hantera konto
+postAddAccountRecovery-delete-key = Ta bort den nya nyckeln:
+postAddAccountRecovery-changd-password = Ändra ditt lösenord:
 postAddLinkedAccount-subject = Nytt konto länkat till { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -270,6 +294,13 @@ postRemoveTwoStepAuthentication-description = Du har framgångsrikt inaktiverat 
 postRemoveTwoStepAuthentication-description-plaintext = Du har framgångsrikt inaktiverat tvåstegsautentisering på ditt { -product-firefox-account }. Säkerhetskoder kommer inte längre att krävas vid varje inloggning.
 postRemoveTwoStepAuthentication-action = Hantera konto
 postRemoveTwoStepAuthentication-not-required = Säkerhetskoder behövs inte längre vid varje inloggning.
+postVerify-sub-title-3 = Vi är glada att se dig!
+postVerify-title-2 = Vill du se samma flik på två enheter?
+postVerify-description-2 = Det är lätt! Installera bara { -brand-firefox } på en annan enhet och logga in för att synkronisera. Det är som magi!
+postVerify-sub-description = (Psst… Det betyder också att du kan få dina bokmärken, lösenord och annan { -brand-firefox }-data överallt där du är inloggad.)
+postVerify-subject-3 = Välkommen till { -brand-firefox }!
+postVerify-setup-2 = Anslut en annan enhet:
+postVerify-action-2 = Anslut en annan enhet
 postVerifySecondary-subject = Sekundär e-post tillagd
 postVerifySecondary-title = Sekundär e-post tillagd
 # Variables:
@@ -277,6 +308,12 @@ postVerifySecondary-title = Sekundär e-post tillagd
 postVerifySecondary-content-2 = Du har framgångsrikt bekräftat { $secondaryEmail } som en sekundär e-postadress för ditt { -product-firefox-account }. Säkerhetsmeddelanden och inloggningsbekräftelser kommer nu att levereras till båda e-postadresserna.
 postVerifySecondary-action = Hantera konto
 recovery-subject = Återställ lösenordet
+recovery-title-2 = Glömt ditt lösenord?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Vi fick en begäran om lösenordsändring på ditt { -product-firefox-account } från:
+recovery-new-password-button = Skapa ett nytt lösenord genom att klicka på knappen nedan. Den här länken upphör att gälla inom den närmaste timmen.
+recovery-copy-paste = Skapa ett nytt lösenord genom att kopiera och klistra in webbadressen nedan i din webbläsare. Den här länken upphör att gälla inom den närmaste timmen.
 recovery-action = Skapa nytt lösenord
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -547,6 +584,22 @@ unblockCode-prompt = Om ja, här behörighetskoden som du behöver:
 unblockCode-prompt-plaintext = Om ja, här är auktoriseringskoden du behöver: { $unblockCode }
 unblockCode-report = Om nej, hjälp oss att avvärja inkräktare och <a data-l10n-name="reportSignInLink">rapportera det till oss</a>.
 unblockCode-report-plaintext = Om nej, hjälp oss att avvärja inkräktare och rapportera detta till oss.
+verificationReminderFinal-subject = Sista påminnelse om att bekräfta ditt konto
+verificationReminderFinal-description = För ett par veckor sedan skapade du ett { -product-firefox-account }, men bekräftade det aldrig. För din säkerhet tar vi bort kontot om det inte verifieras inom de närmaste 24 timmarna.
+confirm-account = Bekräfta konto
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Kom ihåg att bekräfta ditt konto
+verificationReminderFirst-title-2 = Välkommen till { -brand-firefox }!
+verificationReminderFirst-description-2 = För några dagar sedan skapade du ett { -product-firefox-account }, men bekräftade det aldrig. Bekräfta ditt konto inom de närmaste 15 dagarna, annars kommer det att raderas automatiskt.
+verificationReminderFirst-sub-description-2 = Missa inte teknik som sätter dig och din integritet först.
+confirm-email-2 = Bekräfta konto
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Bekräfta konto
+verificationReminderSecond-subject-2 = Kom ihåg att bekräfta ditt konto
+verificationReminderSecond-title-2 = Missa inte { -brand-firefox }!
+verificationReminderSecond-description-3 = För några dagar sedan skapade du ett { -product-firefox-account }, men bekräftade det aldrig. Bekräfta ditt konto inom de närmaste 10 dagarna, annars kommer det att raderas automatiskt.
+verificationReminderSecond-second-description = Ditt { -product-firefox-account } låter dig synkronisera din information mellan enheter och låser upp åtkomst till mer integritetsskyddande produkter från { -brand-mozilla }
+verificationReminderSecond-sub-description-2 = Bli en del av vårt uppdrag att förvandla internet till en plats som är öppen för alla.
 verificationReminderSecond-action-2 = Bekräfta konto
 verify-title-2 = Öppna internet med { -brand-firefox }
 verify-description = Bekräfta ditt konto och få ut det mesta av { -brand-firefox } överallt du loggar in med:

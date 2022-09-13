@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-13 06:38+0000\n"
 "PO-Revision-Date: 2022-08-26 10:45+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,16 +186,16 @@ msgid "Show password"
 msgstr "Показати пароль"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
-msgid "Firefox Recovery Codes"
-msgstr "Коди відновлення Firefox"
+msgid "Firefox Backup Authentication Codes"
+msgstr ""
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
 msgstr "Двоетапну перевірку увімкнено"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
-msgid "Firefox Recovery Key"
-msgstr "Ключ відновлення Firefox"
+msgid "Firefox Account Recovery Key"
+msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -217,7 +217,7 @@ msgstr "Завантажено"
 msgid "Printed"
 msgstr "Надруковано"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr "Обліковий запис успішно підтверджено"
 
@@ -284,10 +284,6 @@ msgstr "Основна адреса електронної пошти успіш
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Альтернативна адреса електронної пошти успішно підтверджена"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Обліковий запис успішно перевірено"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -474,20 +470,20 @@ msgid "TOTP token not found"
 msgstr "TOTP-токен не знайдено"
 
 #: .es5/lib/auth-errors.js:236
-msgid "Recovery code not found"
-msgstr "Код відновлення не знайдено"
+msgid "Backup authentication code not found"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
 msgstr "Команда для недоступного пристрою"
 
 #: .es5/lib/auth-errors.js:244
-msgid "Recovery key not found"
-msgstr "Ключ відновлення не знайдено"
+msgid "Account recovery key not found"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:248
-msgid "Invalid recovery key"
-msgstr "Недійсний ключ відновлення"
+msgid "Invalid account recovery key"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -522,8 +518,8 @@ msgid "Update was rejected, please try again"
 msgstr "Оновлення було відхилено. Спробуйте знову."
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "Недійсний код підтвердження"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -599,8 +595,8 @@ msgid "Valid URL required"
 msgstr "Необхідна дійсна адреса URL"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Ваш електронний лист було повернено. Помилилися з написанням?"
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -679,16 +675,16 @@ msgid "Invalid two-step authentication code"
 msgstr "Неправильний код двоетапної перевірки"
 
 #: .es5/lib/auth-errors.js:567
-msgid "Recovery code required"
-msgstr "Необхідний код відновлення"
+msgid "Backup authentication code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:571
-msgid "Invalid recovery code"
-msgstr "Недійсний код відновлення"
+msgid "Invalid backup authentication code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:585
-msgid "Recovery key required"
-msgstr "Необхідний ключ відновлення"
+msgid "Account recovery key required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -843,7 +839,9 @@ msgid "Invalid Token"
 msgstr "Недійсний токен"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Продовжуючи, ви погоджуєтеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами використання</a> та <a id=\"service-pp\" href=\"%(privacyUri)s\">Повідомленням про приватність</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -897,8 +895,8 @@ msgid "Receive new link"
 msgstr "Отримати нове посилання"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
-msgid "Reset password with recovery key"
-msgstr "Відновити пароль за допомогою ключа"
+msgid "Reset password with account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -910,25 +908,26 @@ msgid "Continue to %(serviceName)s"
 msgstr "Продовжити в %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Введіть свій одноразовий ключ відновлення, щоб поновити доступ до облікового запису Firefox."
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">ПРИМІТКА:</span> Якщо ви відновите пароль без ключа відновлення, деякі дані можуть бути стерті (включаючи історію перегляду й закладки)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
-msgid "Enter recovery key"
-msgstr "Введіть ключ відновлення"
+msgid "Enter account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
-msgid "Confirm recovery key"
-msgstr "Підтвердьте ключ відновлення"
+msgid "Confirm account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
-msgid "Don't have a recovery key?"
-msgstr "Не маєте ключа відновлення?"
+msgid "Don't have an account recovery key?"
+msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -975,8 +974,8 @@ msgstr ""
 "шифруємо дані за допомогою пароля для захисту вашої приватності. Усі ваші передплати буде збережено. На дані Pocket це теж не вплине."
 
 #: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Ви успішно відновили обліковий запис за допомогою свого ключа. Створіть новий пароль для захисту даних і збережіть його в надійному місці."
+msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1162,7 +1161,8 @@ msgid "Password"
 msgstr "Пароль"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 "Продовжуючи, ви погоджуєтесь з <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Повідомленням "
 "про приватність</a>."
@@ -1200,8 +1200,8 @@ msgid "A Firefox account also unlocks access to more privacy-protecting products
 msgstr "Обліковий запис Firefox також відкриває доступ до більшої кількості продуктів Mozilla для захисту приватності."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
-msgid "Save recovery codes"
-msgstr "Зберегти коди відновлення"
+msgid "Save backup authentication codes"
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1231,16 +1231,16 @@ msgid "Cancel setup"
 msgstr "Скасувати налаштування"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
-msgid "Confirm recovery code"
-msgstr "Підтвердьте код відновлення"
+msgid "Confirm backup authentication code"
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr "Щоб переконатися, що у випадку втрати пристрою ви зможете отримати доступ до свого облікового запису, введіть один з ваших збережених кодів відновлення."
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
-msgid "Recovery code"
-msgstr "Код відновлення"
+msgid "Backup authentication code"
+msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1349,8 +1349,8 @@ msgid "Your account is ready!"
 msgstr "Ваш обліковий запис готовий!"
 
 #: .es5/templates/ready.mustache:15
-msgid "Generate a new recovery key"
-msgstr "Генерувати новий ключ відновлення"
+msgid "Generate a new account recovery key"
+msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1373,8 +1373,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>ПРИМІТКА:</span> При відновленні пароля ви скидаєте свій обліковий запис. Ви можете втратити деякі особисті дані, включно з історією, закладками та паролями. Це пов'язано з тим, що ми шифруємо"
-" дані за допомогою пароля для захисту вашої приватності. Усі ваші передплати буде збережено. На дані Pocket це теж не вплине."
+"<span>ПРИМІТКА:</span> При відновленні пароля ви скидаєте свій обліковий запис. Ви можете втратити деякі особисті дані, включно з історією, закладками та паролями. Це пов'язано з тим, що ми "
+"шифруємо дані за допомогою пароля для захисту вашої приватності. Усі ваші передплати буде збережено. На дані Pocket це теж не вплине."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1432,27 +1432,30 @@ msgstr "Ця адреса електронної пошти вам більше 
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              Продовжуючи, ви приймаєте:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Умови надання послуги</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Положення про приватність</a> Pocket<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положення про приватність</a> Firefox.\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Умови надання послуги</a> та <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/"
+"privacy/\">Положення про приватність</a> Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положення про приватність</a> "
+"Firefox.\n"
 "              "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
-msgid "Enter recovery code"
-msgstr "Введіть код відновлення"
+msgid "Enter backup authentication code"
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
-msgid "Please enter a recovery code that was provided to you during setup."
-msgstr "Введіть код відновлення, який ви отримали під час налаштування."
+msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
-msgid "Enter 10-digit recovery code"
-msgstr "Введіть код відновлення з 10 цифр"
+msgid "Enter 10-digit backup authentication code"
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1530,14 +1533,17 @@ msgstr "Створити обліковий запис"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Продовжуючи, ви приймаєте:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Положення про приватність</a> Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положення про приватність</a> Firefox.\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Положення про приватність</a> Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умови надання послуги</a> та <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положення про приватність</a> "
+"Firefox.\n"
 "          "
 
 #: .es5/templates/support.mustache:1
@@ -1617,8 +1623,8 @@ msgid "Step 1 of 2: Re-enter password"
 msgstr "Крок 1 з 2: Повторно введіть пароль"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
-msgid "Enter your password to view your recovery key."
-msgstr "Введіть пароль для перегляду коду відновлення."
+msgid "Enter your password to view your account recovery key."
+msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1846,8 +1852,8 @@ msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr "<span class=\"number\">4</span>Увійдіть до вашого облікового запису"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
-msgid "Protect your data with a recovery key"
-msgstr "Захистіть свої дані ключем відновлення"
+msgid "Protect your data with an account recovery key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1858,20 +1864,20 @@ msgid "Because this information is critical to your security, Firefox deletes it
 msgstr "Оскільки ця інформація критично важлива для вашої безпеки, Firefox видаляє її, щоб захистити вас при відновленні пароля та не дозволити іншим отримати до неї доступ."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
-msgid "Get a Recovery Key"
-msgstr "Отримати ключ відновлення"
+msgid "Get an Account Recovery Key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr "Підтвердьте свій пароль для %(escapedEmail)s, щоб згенерувати ваш ключ відновлення."
+msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
-msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr "Введіть свій ключ відновлення, щоб підтвердити збереження копії."
+msgid "Enter your account recovery key to confirm that you've saved a copy."
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
-msgid "Save recovery key"
-msgstr "Зберегти ключ відновлення"
+msgid "Save account recovery key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -2036,8 +2042,8 @@ msgid "To download Firefox on your mobile device, hold the device’s camera ove
 msgstr "Щоб завантажити Firefox на свій мобільний пристрій, тримайте камеру пристрою над цим кодом для сканування."
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr "Або надішліть собі <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">посилання для завантаження.</a>"
+msgid "Or, send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-26 04:39+0000\n"
+"POT-Creation-Date: 2022-09-13 06:38+0000\n"
 "PO-Revision-Date: 2022-08-29 13:09+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,16 +186,16 @@ msgid "Show password"
 msgstr "Afficher le mot de passe"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
-msgid "Firefox Recovery Codes"
-msgstr "Codes de récupération de Firefox"
+msgid "Firefox Backup Authentication Codes"
+msgstr ""
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
 msgstr "Authentification en deux étapes activée"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
-msgid "Firefox Recovery Key"
-msgstr "Clé de récupération du compte Firefox"
+msgid "Firefox Account Recovery Key"
+msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -217,7 +217,7 @@ msgstr "Téléchargés"
 msgid "Printed"
 msgstr "Imprimés"
 
-#: .es5/views/behaviors/settings.js:40
+#: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
 msgstr "Compte confirmé avec succès"
 
@@ -284,10 +284,6 @@ msgstr "Adresse électronique principale vérifiée avec succès"
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
 msgstr "Adresse électronique secondaire vérifiée avec succès"
-
-#: .es5/models/auth_brokers/web.js:35
-msgid "Account verified successfully"
-msgstr "Le compte a été confirmé"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -474,20 +470,20 @@ msgid "TOTP token not found"
 msgstr "Jeton TOTP introuvable"
 
 #: .es5/lib/auth-errors.js:236
-msgid "Recovery code not found"
-msgstr "Code de récupération introuvable"
+msgid "Backup authentication code not found"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
 msgstr "Commande de l’appareil non disponible"
 
 #: .es5/lib/auth-errors.js:244
-msgid "Recovery key not found"
-msgstr "Clé de récupération introuvable"
+msgid "Account recovery key not found"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:248
-msgid "Invalid recovery key"
-msgstr "Clé de récupération invalide"
+msgid "Invalid account recovery key"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -522,8 +518,8 @@ msgid "Update was rejected, please try again"
 msgstr "La mise à jour a été refusée. Veuillez réessayer."
 
 #: .es5/lib/auth-errors.js:288
-msgid "Invalid or expired verification code"
-msgstr "Code de vérification invalide ou expiré"
+msgid "Invalid or expired confirmation code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -599,8 +595,8 @@ msgid "Valid URL required"
 msgstr "URL valide requise"
 
 #: .es5/lib/auth-errors.js:392
-msgid "Your verification email was just returned. Mistyped email?"
-msgstr "Votre message de confirmation nous a été renvoyé. Vérifiez que votre adresse électronique est correcte."
+msgid "Your confirmation email was just returned. Mistyped email?"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -679,16 +675,16 @@ msgid "Invalid two-step authentication code"
 msgstr "Code d’authentification en deux étapes incorrect"
 
 #: .es5/lib/auth-errors.js:567
-msgid "Recovery code required"
-msgstr "Code de récupération requis"
+msgid "Backup authentication code required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:571
-msgid "Invalid recovery code"
-msgstr "Code de récupération invalide"
+msgid "Invalid backup authentication code"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:585
-msgid "Recovery key required"
-msgstr "Une clé de récupération est nécessaire"
+msgid "Account recovery key required"
+msgstr ""
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -843,7 +839,9 @@ msgid "Invalid Token"
 msgstr "Jeton invalide"
 
 #: .es5/lib/strings.js:25
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "En continuant, vous acceptez les <a id=\"service-tos\" href=\"%(termsUri)s\">Conditions d’utilisation</a> et la <a id=\"service-pp\" href=\"%(privacyUri)s\">Politique de confidentialité</a> de "
 "%(serviceName)s (%(serviceUri)s).                "
@@ -897,8 +895,8 @@ msgid "Receive new link"
 msgstr "Recevoir un nouveau lien"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
-msgid "Reset password with recovery key"
-msgstr "Réinitialiser le mot de passe avec une clé de récupération"
+msgid "Reset password with account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -910,27 +908,28 @@ msgid "Continue to %(serviceName)s"
 msgstr "Continuer vers %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Veuillez saisir la clé de récupération à usage unique que vous avez stockée en lieu sûr pour retrouver l’accès à votre compte Firefox."
+msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">Remarque :</span> si vous réinitialisez votre mot de passe et n’avez pas de clé de récupération de compte enregistrée, certaines de vos données seront effacées (y compris les "
 "données synchronisées sur les serveurs, comme l’historique et les marque-pages)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
-msgid "Enter recovery key"
-msgstr "Saisissez la clé de récupération"
+msgid "Enter account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
-msgid "Confirm recovery key"
-msgstr "Confirmez la clé de récupération"
+msgid "Confirm account recovery key"
+msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
-msgid "Don't have a recovery key?"
-msgstr "Vous n’avez pas de clé de récupération ?"
+msgid "Don't have an account recovery key?"
+msgstr ""
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -978,8 +977,8 @@ msgstr ""
 "données Pocket ne seront pas affectées."
 
 #: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Vous avez restauré avec succès votre compte en utilisant votre clé de récupération. Créez un nouveau mot de passe pour sécuriser vos données et conservez-le en lieu sûr."
+msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
+msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1162,10 +1161,11 @@ msgid "Password"
 msgstr "Mot de passe"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-"En continuant, vous acceptez les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Politique"
-" de confidentialité</a>."
+"En continuant, vous acceptez les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy"
+"\">Politique de confidentialité</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1200,8 +1200,8 @@ msgid "A Firefox account also unlocks access to more privacy-protecting products
 msgstr "Un compte Firefox donne aussi accès à plus de produits de Mozilla qui protègent votre vie privée."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
-msgid "Save recovery codes"
-msgstr "Enregistrer les codes de récupération"
+msgid "Save backup authentication codes"
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1231,16 +1231,16 @@ msgid "Cancel setup"
 msgstr "Annuler la configuration"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
-msgid "Confirm recovery code"
-msgstr "Confirmer le code de récupération"
+msgid "Confirm backup authentication code"
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved recovery codes."
-msgstr "Pour vous assurer que vous pourrez retrouver l’accès à votre compte en cas de perte d’un appareil, veuillez saisir l’un de vos codes de récupération enregistrés."
+msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
+msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
-msgid "Recovery code"
-msgstr "Code de récupération"
+msgid "Backup authentication code"
+msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1349,8 +1349,8 @@ msgid "Your account is ready!"
 msgstr "Votre compte est prêt !"
 
 #: .es5/templates/ready.mustache:15
-msgid "Generate a new recovery key"
-msgstr "Générer une nouvelle clé de récupération"
+msgid "Generate a new account recovery key"
+msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1433,25 +1433,27 @@ msgstr "Vous n’avez plus le contrôle de cette adresse électronique ? Créez
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "En poursuivant, vous acceptez :<br />\n"
-"Les <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Conditions d’utilisation</a> et la <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Politique de confidentialité</a> de Pocket<br />\n"
+"Les <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Conditions d’utilisation</a> et la <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/"
+"privacy/\">Politique de confidentialité</a> de Pocket<br />\n"
 "Les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Conditions d’utilisation</a> et l’<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Avis de confidentialité</a> de Firefox."
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
-msgid "Enter recovery code"
-msgstr "Saisissez le code de récupération"
+msgid "Enter backup authentication code"
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
-msgid "Please enter a recovery code that was provided to you during setup."
-msgstr "Veuillez saisir un code de récupération que vous avez reçu au moment de la configuration."
+msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
-msgid "Enter 10-digit recovery code"
-msgstr "Saisissez le code de récupération à 10 chiffres"
+msgid "Enter 10-digit backup authentication code"
+msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1512,8 +1514,8 @@ msgstr "Répéter le mot de passe"
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
-"Vous avez besoin de ce mot de passe pour accéder aux données chiffrées que vous stockez chez nous.<br class=\"mb-3\">Le réinitialiser peut entraîner une perte de données telles que les mots de passe"
-" ou les marque-pages."
+"Vous avez besoin de ce mot de passe pour accéder aux données chiffrées que vous stockez chez nous.<br class=\"mb-3\">Le réinitialiser peut entraîner une perte de données telles que les mots de "
+"passe ou les marque-pages."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1531,12 +1533,14 @@ msgstr "Créer un compte"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "En poursuivant, vous acceptez :<br />\n"
-"Les <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Politique de confidentialité</a> de Pocket<br />\n"
+"Les <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Conditions d’utilisation</a> et la <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
+"privacy/\">Politique de confidentialité</a> de Pocket<br />\n"
 "Les <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Conditions d’utilisation</a> et l’<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Avis de confidentialité</a> de Firefox."
 
 #: .es5/templates/support.mustache:1
@@ -1616,8 +1620,8 @@ msgid "Step 1 of 2: Re-enter password"
 msgstr "Étape 1 sur 2 : saisissez le mot de passe à nouveau"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
-msgid "Enter your password to view your recovery key."
-msgstr "Saisissez votre mot de passe pour voir votre clé de récupération."
+msgid "Enter your password to view your account recovery key."
+msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1845,8 +1849,8 @@ msgid "<span class=\"number\">4</span>Sign into your account"
 msgstr "<span class=\"number\">4</span> Connectez-vous à votre compte"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
-msgid "Protect your data with a recovery key"
-msgstr "Protégez vos données avec une clé de récupération"
+msgid "Protect your data with an account recovery key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1859,20 +1863,20 @@ msgstr ""
 "accéder."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
-msgid "Get a Recovery Key"
-msgstr "Obtenir une clé de récupération"
+msgid "Get an Account Recovery Key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
-msgid "Please confirm your password for %(escapedEmail)s to generate your recovery key."
-msgstr "Veuillez confirmer votre mot de passe pour %(escapedEmail)s afin de générer votre clé de récupération."
+msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
-msgid "Enter your recovery key to confirm that you've saved a copy."
-msgstr "Saisissez votre clé de récupération pour confirmer que vous avez enregistré une copie."
+msgid "Enter your account recovery key to confirm that you've saved a copy."
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
-msgid "Save recovery key"
-msgstr "Enregistrer la clé de récupération"
+msgid "Save account recovery key"
+msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -2037,8 +2041,8 @@ msgid "To download Firefox on your mobile device, hold the device’s camera ove
 msgstr "Pour télécharger Firefox sur votre appareil mobile, tenez son appareil photo au-dessus de ce code pour le scanner."
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr "Ou bien envoyez-vous un <a href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">lien de téléchargement</a>."
+msgid "Or, send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"
