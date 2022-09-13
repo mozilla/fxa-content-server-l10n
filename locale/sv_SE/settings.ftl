@@ -364,6 +364,7 @@ display-name-success-alert-2 = Visningsnamn uppdaterat
 recovery-key-cancel-button = Avbryt
 recovery-key-close-button = Stäng
 recovery-key-continue-button = Fortsätt
+recovery-key-created-1 = Din kontoåterställningsnyckel har skapats. Se till att spara nyckeln på ett säkert ställe som du lätt kan hitta senare — du behöver nyckeln för att återfå åtkomst till dina data om du glömmer ditt lösenord.
 recovery-key-enter-password =
     .label = Ange lösenord
 recovery-key-step-1 = Steg 1 av 2
