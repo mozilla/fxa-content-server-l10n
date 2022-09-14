@@ -144,7 +144,7 @@ cs-sign-out-button = Disconnetti
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Scaricato
@@ -177,9 +177,9 @@ drop-down-menu-sign-out-error-2 = Si è verificato un problema durante la discon
 
 flow-container-back = Indietro
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Codici di recupero
+get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-download =
     .title = Scarica
 get-data-trio-copy =
@@ -239,11 +239,8 @@ nav-data-collection = Raccolta e utilizzo dati
 nav-paid-subs = Abbonamenti a pagamento
 nav-email-comm = Comunicazioni via email
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Si è verificato un problema durante la sostituzione dei codici di recupero
-tfa-replace-code-success = Nuovi codici generati. Custodisci questi codici usa e getta in un posto sicuro e usali per accedere al tuo account quando non hai con te il tuo dispositivo mobile.
-tfa-replace-code-success-alert-2 = I codici di recupero dell’account sono stati aggiornati
 tfa-replace-code-1-2 = Passaggio 1 di 2
 tfa-replace-code-2-2 = Passaggio 2 di 2
 
@@ -353,19 +350,15 @@ display-name-success-alert-2 = Il nome visualizzato è stato aggiornato
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Annulla
 recovery-key-close-button = Chiudi
 recovery-key-continue-button = Continua
-recovery-key-created = La chiave di recupero è stata creata. Assicurati di salvare la chiave in un luogo sicuro che potrai trovare facilmente in seguito: ti servirà per riottenere l’accesso ai tuoi dati se dimentichi la password.
 recovery-key-enter-password =
     .label = Inserire la password
-recovery-key-page-title =
-    .title = Chiave di recupero
 recovery-key-step-1 = Passaggio 1 di 2
 recovery-key-step-2 = Passaggio 2 di 2
-recovery-key-success-alert-2 = La chiave di recupero è stata generata
 
 ## Add secondary email page
 
@@ -413,8 +406,6 @@ tfa-button-cancel = Annulla
 tfa-button-finish = Fine
 tfa-incorrect-totp = Codice di autenticazione in due passaggi errato
 tfa-cannot-retrieve-code = Si è verificato un problema durante il recupero del codice.
-tfa-cannot-verify-code-3 = Si è verificato un problema durante la conferma del codice di recupero
-tfa-incorrect-recovery-code = Codice di recupero errato
 tfa-enabled = Autenticazione in due passaggi attivata
 tfa-scan-this-code =
     Scansiona questo codice QR tramite una di <linkExternal>queste
@@ -434,10 +425,6 @@ tfa-enter-secret-key = Inserisci questa chiave segreta nell’app di autenticazi
 tfa-enter-totp = Inserisci ora il codice di sicurezza dall’app di autenticazione.
 tfa-input-enter-totp =
     .label = Inserisci il codice di sicurezza
-tfa-save-these-codes = Conserva questi codici usa e getta in un posto sicuro e usali quando non hai a disposizione il dispositivo mobile.
-tfa-enter-code-to-confirm = Inserisci ora uno dei codici di recupero per confermare il corretto salvataggio. In caso di smarrimento del dispositivo, ti servirà un codice per accedere all’account.
-tfa-enter-recovery-code =
-    .label = Inserisci il codice di recupero
 
 ##
 
@@ -486,25 +473,17 @@ row-defaults-action-change = Modifica
 row-defaults-action-disable = Disattiva
 row-defaults-status = Nessuno
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Chiave di recupero
 rk-enabled = Attiva
 rk-not-set = Non impostato
 rk-action-create = Crea
 rk-action-remove = Rimuovi
-rk-cannot-refresh = Si è verificato un problema durante l’aggiornamento della chiave di recupero.
 rk-key-removed-2 = Eliminata chiave di recupero account
 rk-cannot-remove-key = Non è possibile rimuovere la chiave di recupero per l’account.
-rk-refresh-key = Aggiorna chiave di recupero
 rk-content-explain = Ripristina i dati in caso di password dimenticata.
 rk-content-reset-data = Perché, reimpostando la password, anche i dati vengono ripristinati?
 rk-cannot-verify-session-4 = Si è verificato un problema durante la conferma della sessione
-rk-remove-modal-heading = Rimuovere la chiave di recupero?
-rk-remove-modal-content =
-    Nel caso in cui tu abbia reimpostato la password, non potrai
-    utilizzare la chiave di recupero per accedere ai tuoi dati. Questa azione è irreversibile.
-rk-refresh-error = Si è verificato un problema durante l’aggiornamento della chiave di recupero.
 rk-remove-error-2 = Non è possibile rimuovere la chiave di recupero per l’account.
 
 ## Secondary email sub-section on main Settings page
@@ -536,7 +515,6 @@ se-resend-code-2 = Da confermare. <button>Invia di nuovo il codice di conferma</
 # Button to make secondary email the primary
 se-make-primary = Rendi principale
 se-default-content = Usala per accedere all’account se non riesci a effettuare l’accesso con l’email principale.
-se-content-note = Attenzione: non è possibile ripristinare i dati attraverso l’email secondaria. Per questa operazione è necessaria una <a>chiave di recupero</a>.
 # Default value for the secondary email
 se-secondary-email-none = Nessuna
 
@@ -558,11 +536,7 @@ tfa-row-content-explain = Impedisci a terzi di accedere al tuo account richieden
 tfa-row-cannot-verify-session-4 = Si è verificato un problema durante la conferma della sessione
 tfa-row-disable-modal-heading = Disattivare l’autenticazione in due passaggi?
 tfa-row-disable-modal-confirm = Disattiva
-tfa-row-disable-modal-explain =
-    Questa azione è irreversibile.
-    In alternativa, puoi <linkExternal>sostituire le chiavi di recupero</linkExternal>.
 tfa-row-cannot-disable-2 = Impossibile disattivare l’autenticazione in due passaggi.
-tfa-row-change-modal-heading = Cambiare le chiavi di recupero?
 tfa-row-change-modal-confirm = Cambia
 tfa-row-change-modal-explain = Questa azione è irreversibile.
 
