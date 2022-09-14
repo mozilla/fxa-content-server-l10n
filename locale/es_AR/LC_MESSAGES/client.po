@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-13 06:38+0000\n"
-"PO-Revision-Date: 2022-08-26 05:09+0000\n"
+"PO-Revision-Date: 2022-09-14 05:49+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -189,7 +189,7 @@ msgstr "Mostrar contraseña"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Códigos de autenticación de respaldo de Firefox"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -197,7 +197,7 @@ msgstr "Se habilitó la autenticación en dos pasos"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Clave de recuperación de cuenta de Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -473,7 +473,7 @@ msgstr "Token TOTP no encontrado"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "Código de autenticación de respaldo no encontrado"
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
@@ -481,11 +481,11 @@ msgstr "Comando de dispositivo no disponible"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Clave de recuperación de cuenta no encontrada"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Clave de recuperación de cuenta no válida"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -521,7 +521,7 @@ msgstr "Se rechazó la actualización , por favor intentá de nuevo"
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "El código de confirmación no es válido o ya venció"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -841,9 +841,7 @@ msgid "Invalid Token"
 msgstr "Identificador inválido"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Al proceder, acordás con los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos de servicio</a> y<a id=\"service-pp\" href=\"%(privacyUri)s\">las notas de privacidad</a> de %(serviceName)s "
 "(%(serviceUri)s)."
@@ -914,11 +912,10 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">NOTA:</span> Si restablecés tu contraseña y no tenés una clave de recuperación de cuenta guardada, algunos de tus datos se van a eliminar (incluyendo los datos sincronizados "
-"con el servidor tales como el historial y los marcadores)."
+"<span class=\"note\">NOTA:</span> Si restablecés tu contraseña y no tenés una clave de recuperación de cuenta guardada, algunos de tus datos se van a eliminar (incluyendo los datos sincronizados con"
+" el servidor tales como el historial y los marcadores)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -1165,11 +1162,8 @@ msgid "Password"
 msgstr "Contraseña"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Al proceder, está de acuerdo con los <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Términos del servicio</a> y el <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de "
-"privacidad</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Al proceder, está de acuerdo con los <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Términos del servicio</a> y el <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidad</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1377,8 +1371,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>NOTA:</span> Cuando restablecés tu contraseña, restablecés tu cuenta. Puedes perder parte de tu información personal (incluyendo el historial, marcadores y contraseñas). Eso es porque "
-"ciframos tu información con un contraseña para proteger tu privacidad. Podrás mantener cualquier suscripción que hayas realizado y la información de Pocket no se verá afectada."
+"<span>NOTA:</span> Cuando restablecés tu contraseña, restablecés tu cuenta. Puedes perder parte de tu información personal (incluyendo el historial, marcadores y contraseñas). Eso es porque ciframos"
+" tu información con un contraseña para proteger tu privacidad. Podrás mantener cualquier suscripción que hayas realizado y la información de Pocket no se verá afectada."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1436,17 +1430,14 @@ msgstr "¿No tenés más ese correo electrónico? Creá una nueva cuenta"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              Al continuar, acepta:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Términos de servicio</a> y el <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/"
-"privacy/\">Aviso de privacidad</a> de Pocket<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Términos de servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidad</a> de "
-"Firefox.\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Términos de servicio</a> y el <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Aviso de privacidad</a> de Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Términos de servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidad</a> de Firefox.\n"
 "            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
@@ -1539,15 +1530,13 @@ msgstr "Crear cuenta"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "              Al continuar, acepta:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Términos de servicio</a> y el <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Aviso de privacidad</a> de Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Términos de servicio</a> y el <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Aviso de privacidad</a> de Pocket<br />\n"
 "              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Términos de servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidad</a> de Firefox\n"
 "            "
 

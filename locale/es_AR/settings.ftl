@@ -442,6 +442,13 @@ tfa-enter-secret-key = Ingresá esta clave secreta en tu aplicación de autentic
 tfa-enter-totp = Ahora ingresá el código de seguridad de la aplicación de autenticación.
 tfa-input-enter-totp =
     .label = Ingresá el código de seguridad
+tfa-save-these-codes-1 = Guardá estos códigos de autenticación de respaldo en un lugar seguro para cuando no tengás tu dispositivo móvil.
+tfa-enter-code-to-confirm-1 =
+    Ingresá uno de tus códigos de autenticación de respaldo ahora para
+    confirmar que los guardaste. Necesitarás un código para ingresar si no tenés acceso a tu
+    dispositivo móvil.
+tfa-enter-recovery-code-1 =
+    .label = Ingresá un código de autenticación de respaldo
 
 ##
 
@@ -492,15 +499,23 @@ row-defaults-status = Ninguno
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Clave de recuperación de cuenta
 rk-enabled = Habilitada
 rk-not-set = No establecida
 rk-action-create = Crear
 rk-action-remove = Eliminar
+rk-cannot-refresh-1 = Disculpá, hubo un problema al actualizar la clave de recuperación de cuenta.
 rk-key-removed-2 = Se eliminó la clave de recuperación de la cuenta
 rk-cannot-remove-key = No se pudo eliminar la clave de recuperación de tu cuenta.
+rk-refresh-key-1 = Actualizar clave de recuperación de cuenta
 rk-content-explain = Restaurá tu información cuando te olvides de tu contraseña.
 rk-content-reset-data = ¿Por qué restablecer mi contraseña restablece mis datos?
 rk-cannot-verify-session-4 = Disculpá, hubo un problema confirmando la sesión
+rk-remove-modal-heading-1 = ¿Eliminar clave de recuperación de cuenta?
+rk-remove-modal-content-1 =
+    En el caso de que restablezcas tu contraseña, no 
+    podrás usar tu clave de recuperación de cuenta para acceder a tus datos. No podés deshacer esta acción.
+rk-refresh-error-1 = Disculpá, hubo un problema al actualizar la clave de recuperación de cuenta.
 rk-remove-error-2 = No se pudo eliminar la clave de recuperación de tu cuenta
 
 ## Secondary email sub-section on main Settings page
@@ -534,6 +549,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Hacer principal
 se-default-content = Accedé a tu cuenta si no podés iniciar sesión en tu correo electrónico principal.
+se-content-note-1 =
+    Nota: un correo electrónico secundario no restaurará tu información; 
+    para hacerlo necesitarás una <a>clave de recuperación de cuenta</a>.
 # Default value for the secondary email
 se-secondary-email-none = Ninguno
 
@@ -559,7 +577,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Disculpá, hubo un problema confirmando la sesión
 tfa-row-disable-modal-heading = ¿Deshabilitar autenticación de dos pasos?
 tfa-row-disable-modal-confirm = Deshabilitar
+tfa-row-disable-modal-explain-1 =
+    No podrás deshacer esta acción. También
+    tenés la opción de <linkExternal>reemplazar tus códigos de autenticación de respaldo</linkExternal>.
 tfa-row-cannot-disable-2 = La autenticación de dos pasos no pudo ser deshabilitada
+tfa-row-change-modal-heading-1 = ¿Cambiar los códigos de autenticación de respaldo?
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = Esta acción no se puede deshacer.
 
