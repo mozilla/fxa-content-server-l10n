@@ -196,16 +196,12 @@ fraudulentAccountDeletion-contact = Herhangi bir sorunuz varsa lütfen <a data-l
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Sorularınız varsa lütfen destek ekibimizle iletişime geçin: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Kurtarma kodları azaldı
-codes-reminder-description = Az sayıda kurtarma kodunuzun kaldığını fark ettik. Kodlarınızın bitince hesabınızın kilitlenmemesi için lütfen yeni kodlar oluşturun.
-codes-generate = Kodları oluştur
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Kodları oluştur
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] 1 kurtarma kodu kaldı
-       *[other] { $numberRemaining } kurtarma kodu kaldı
-    }
+codes-reminder-title-zero = Yedek kimlik doğrulama kodunuz kalmadı!
+codes-reminder-title-one = Son yedek kimlik doğrulama kodunuzu kullanmak üzeresiniz
+codes-reminder-description-part-one = Yedek kimlik doğrulama kodları, parolanızı unuttuğunuzda bilgilerinizi geri yüklemenize yardımcı olur.
+codes-reminder-description-two-left = Sadece iki kodunuz kaldı.
+lowRecoveryCodes-action-2 = Kod oluşturun
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Yeni { $clientName } girişi
@@ -233,13 +229,13 @@ passwordChangeRequired-different-password-plaintext = Önemli: Daha önce kullan
 passwordReset-subject = Parola güncellendi
 passwordReset-title = Hesap parolanız değiştirildi
 passwordReset-description = Diğer cihazlarda eşitlemeye devam etmek için onlara da yeni parolanızı girmelisiniz.
-passwordResetAccountRecovery-subject = Kurtarma anahtarı kullanılarak parola güncellendi
-passwordResetAccountRecovery-title = Hesap parolanız bir kurtarma anahtarıyla sıfırlandı
-passwordResetAccountRecovery-description = Kurtarma anahtarı kullanarak parolanızı aşağıdaki cihazdan başarıyla sıfırladınız:
-passwordResetAccountRecovery-action = Yeni kurtarma anahtarı oluştur
-passwordResetAccountRecovery-regen-required = Yeni bir kurtarma anahtarı oluşturmanız gerekecek.
+passwordResetAccountRecovery-subject-1 = Hesap kurtarma anahtarı kullanılarak parola güncellendi
+passwordResetAccountRecovery-title-1 = Hesap parolanız bir hesap kurtarma anahtarıyla sıfırlandı
+passwordResetAccountRecovery-description-1 = Hesap kurtarma anahtarı kullanarak parolanızı aşağıdaki cihazdan başarıyla sıfırladınız:
+passwordResetAccountRecovery-action-1 = Yeni hesap kurtarma anahtarı oluştur
+passwordResetAccountRecovery-regen-required-1 = Yeni bir hesap kurtarma anahtarı oluşturmanız gerekecek.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Yeni kurtarma anahtarı oluştur:
+passwordResetAccountRecovery-create-key-1 = Yeni hesap kurtarma anahtarı oluştur:
 postAddAccountRecovery-subject-2 = Hesap kurtarma anahtarı oluşturuldu
 postAddAccountRecovery-title2 = Yeni bir hesap kurtarma anahtarı oluşturdunuz
 # Information on the browser and device triggering this string follows.
@@ -267,19 +263,15 @@ postChangePrimary-title = Yeni ana e-posta
 #  $email (String) - A user's email address
 postChangePrimary-description = Ana e-posta adresinizi { $email } olarak başarıyla değiştirdiniz. Bu adres artık { -product-firefox-account }nıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize gönderilecek.
 postChangePrimary-action = Hesabı yönet
-postConsumeRecoveryCode-subject = Kullanılan kurtarma kodu
-postConsumeRecoveryCode-title = Kurtarma kodu kullanıldı
-postConsumeRecoveryCode-description = Aşağıdaki cihazda bir kurtarma kodunu başarıyla kullandınız:
+postConsumeRecoveryCode-subject-1 = Kullanılan yedek kimlik doğrulama kodu
 postConsumeRecoveryCode-action = Hesabı yönet
-postNewRecoveryCodes-subject = Yeni kurtarma kodları üretildi
-postNewRecoveryCodes-title = Yeni kurtarma kodları üretildi
-postNewRecoveryCodes-description = Aşağıdaki cihaz aracılığıyla başarıyla yeni kurtarma kodları ürettiniz:
+postNewRecoveryCodes-subject-1 = Yeni yedek kimlik doğrulama kodları oluşturuldu
+postNewRecoveryCodes-title-1 = Yeni yedek kimlik doğrulama kodları oluşturuldu
 postNewRecoveryCodes-action = Hesabı yönet
 postRemoveAccountRecovery-subject = Hesap kurtarma anahtarı silindi
 postRemoveAccountRecovery-title = Hesap kurtarma anahtarı silindi
 postRemoveAccountRecovery-description = Aşağıdaki cihazı kullanarak { -product-firefox-account }nız için hesap kurtarma anahtarını başarıyla sildiniz:
 postRemoveAccountRecovery-action = Hesabı yönet
-postRemoveAccountRecovery-invalid = Bu kurtarma anahtarı artık hesabınızı kurtarmak için kullanılamaz.
 postRemoveSecondary-subject = İkinci e-posta silindi
 postRemoveSecondary-title = İkinci e-posta silindi
 # Variables:
@@ -558,7 +550,6 @@ confirm-account = Hesabı onaylayın
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Hesabınızı onaylamayı unutmayın
 verificationReminderFirst-title-2 = { -brand-firefox }’a hoş geldiniz!
-verificationReminderFirst-sub-description-2 = Sizi ve gizliliğinizi ilk sıraya koyan teknolojileri kaçırmayın.
 confirm-email-2 = Hesabı onaylayın
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Hesabı onaylayın
