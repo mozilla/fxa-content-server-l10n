@@ -152,7 +152,7 @@ cs-sign-out-button = Afmelden
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Gedownload
@@ -185,9 +185,11 @@ drop-down-menu-sign-out-error-2 = Sorry, er is een probleem opgetreden bij het a
 
 flow-container-back = Terug
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Herstelcodes
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox }-accountherstelsleutel
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-reserve-authenticatiecodes
 get-data-trio-download =
     .title = Downloaden
 get-data-trio-copy =
@@ -247,14 +249,14 @@ nav-data-collection = Gegevensverzameling en -gebruik
 nav-paid-subs = Betaalde abonnementen
 nav-email-comm = E-mailcommunicatie
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Er is een probleem opgetreden bij het vervangen van uw herstelcodes
-tfa-replace-code-success =
-    Er zijn nieuwe codes aangemaakt. Bewaar deze codes voor eenmalig gebruik
-    op een veilige plek – u hebt ze nodig om toegang te krijgen tot uw account als u uw
+tfa-replace-code-error-3 = Er is een probleem opgetreden bij het vervangen van uw reserve-authenticatiecodes
+tfa-replace-code-success-1 =
+    Er zijn nieuwe codes aangemaakt. Bewaar deze reserve-authenticatiecodes voor eenmalig
+    gebruik op een veilige plek – u hebt ze nodig om toegang te krijgen tot uw account als u uw
     mobiele apparaat niet hebt.
-tfa-replace-code-success-alert-2 = Accountherstelcodes bijgewerkt
+tfa-replace-code-success-alert-3 = Account-reserve-authenticatiecodes bijgewerkt
 tfa-replace-code-1-2 = Stap 1 van 2
 tfa-replace-code-2-2 = Stap 2 van 2
 
@@ -364,19 +366,19 @@ display-name-success-alert-2 = Schermnaam bijgewerkt
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Annuleren
 recovery-key-close-button = Sluiten
 recovery-key-continue-button = Doorgaan
-recovery-key-created = Uw herstelsleutel is aangemaakt. Zorg ervoor dat u de sleutel op een veilige plek die u later makkelijk kunt vinden bewaart – u hebt de sleutel nodig om opnieuw toegang tot uw gegevens te krijgen als u uw wachtwoord vergeet.
+recovery-key-created-1 = Uw accountherstelsleutel is aangemaakt. Zorg ervoor dat u de sleutel op een veilige plek die u later makkelijk kunt vinden bewaart – u hebt de sleutel nodig om opnieuw toegang tot uw gegevens te krijgen als u uw wachtwoord vergeet.
 recovery-key-enter-password =
     .label = Voer wachtwoord in
-recovery-key-page-title =
-    .title = Herstelsleutel
+recovery-key-page-title-1 =
+    .title = Accountherstelsleutel
 recovery-key-step-1 = Stap 1 van 2
 recovery-key-step-2 = Stap 2 van 2
-recovery-key-success-alert-2 = Herstelsleutel aangemaakt
+recovery-key-success-alert-3 = Sleutel voor accountherstel aangemaakt
 
 ## Add secondary email page
 
@@ -424,8 +426,8 @@ tfa-button-cancel = Annuleren
 tfa-button-finish = Voltooien
 tfa-incorrect-totp = Onjuiste code voor authenticatie in twee stappen
 tfa-cannot-retrieve-code = Er is een probleem opgetreden bij het ophalen van uw code.
-tfa-cannot-verify-code-3 = Er is een probleem opgetreden bij het bevestigen van uw herstelcode
-tfa-incorrect-recovery-code = Onjuiste herstelcode
+tfa-cannot-verify-code-4 = Er is een probleem opgetreden bij het bevestigen van uw reserve-authenticatiecode
+tfa-incorrect-recovery-code-1 = Onjuiste reserve-authenticatiecode
 tfa-enabled = Authenticatie in twee stappen ingeschakeld
 tfa-scan-this-code =
     Scan deze QR-code met een van <linkExternal>deze
@@ -445,15 +447,15 @@ tfa-enter-secret-key = Voer deze geheime sleutel in in uw app voor authenticatie
 tfa-enter-totp = Voer nu de beveiligingscode van de authenticatie-app in.
 tfa-input-enter-totp =
     .label = Voer beveiligingscode in
-tfa-save-these-codes =
-    Bewaar deze codes voor eenmalig gebruik op een veilige plaats voor als
+tfa-save-these-codes-1 =
+    Bewaar deze reserve-authenticatiecodes voor eenmalig gebruik op een veilige plaats voor als
     u uw mobiele apparaat niet hebt.
-tfa-enter-code-to-confirm =
-    Voer nu een van uw herstelcodes in om te
-    bevestigen dat u deze hebt opgeslagen. U hebt een code nodig als u uw apparaat kwijtraakt en toegang
-    tot uw account wilt krijgen.
-tfa-enter-recovery-code =
-    .label = Voer een herstelcode in
+tfa-enter-code-to-confirm-1 =
+    Voer nu een van uw reserve-authenticatiecodes in om te bevestigen dat u deze hebt
+    opgeslagen. U hebt een code nodig om aan te melden als u geen toegang
+    hebt tot uw mobiele apparaat.
+tfa-enter-recovery-code-1 =
+    .label = Voer een reserve-authenticatiecode in
 
 ##
 
@@ -502,25 +504,25 @@ row-defaults-action-change = Wijzigen
 row-defaults-action-disable = Uitschakelen
 row-defaults-status = Geen
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Herstelsleutel
+rk-header-1 = Accountherstelsleutel
 rk-enabled = Ingeschakeld
 rk-not-set = Niet ingesteld
 rk-action-create = Aanmaken
 rk-action-remove = Verwijderen
-rk-cannot-refresh = Sorry, er is een probleem opgetreden bij het vernieuwen van de herstelsleutel.
+rk-cannot-refresh-1 = Sorry, er is een probleem opgetreden bij het vernieuwen van de accountherstelsleutel.
 rk-key-removed-2 = Sleutel voor accountherstel verwijderd
 rk-cannot-remove-key = Uw sleutel voor accountherstel kon niet worden verwijderd.
-rk-refresh-key = Herstelsleutel vernieuwen
+rk-refresh-key-1 = Accountherstelsleutel vernieuwen
 rk-content-explain = Uw gegevens herstellen wanneer u uw wachtwoord vergeet.
 rk-content-reset-data = Waarom worden mijn gegevens opnieuw ingesteld als ik mijn wachtwoord herinitialiseer?
 rk-cannot-verify-session-4 = Sorry, er is een probleem opgetreden bij het bevestigen van uw sessie
-rk-remove-modal-heading = Herstelsleutel verwijderen?
-rk-remove-modal-content =
-    Als u uw wachtwoord herinitialiseert, kunt u uw
-    herstelsleutel niet gebruiken om toegang te krijgen tot uw gegevens. U kunt deze actie niet ongedaan maken.
-rk-refresh-error = Sorry, er is een probleem opgetreden bij het vernieuwen van de herstelsleutel.
+rk-remove-modal-heading-1 = Accountherstelsleutel verwijderen?
+rk-remove-modal-content-1 =
+    Als u uw wachtwoord herinitialiseert, kunt u uw accountherstelsleutel niet gebruiken
+    om toegang te krijgen tot uw gegevens. U kunt deze actie niet ongedaan maken.
+rk-refresh-error-1 = Sorry, er is een probleem opgetreden bij het vernieuwen van de accountherstelsleutel.
 rk-remove-error-2 = Uw sleutel voor accountherstel kon niet worden verwijderd
 
 ## Secondary email sub-section on main Settings page
@@ -554,9 +556,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Primair maken
 se-default-content = Toegang tot uw account als u niet kunt aanmelden op uw primaire e-mailadres.
-se-content-note =
+se-content-note-1 =
     Noot: een secundair e-mailadres herstelt uw gegevens niet – daarvoor
-    hebt u een <a>herstelsleutel</a> nodig.
+    hebt u een <a>accountherstelsleutel</a> nodig.
 # Default value for the secondary email
 se-secondary-email-none = Geen
 
@@ -582,11 +584,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Sorry, er is een probleem opgetreden bij het bevestigen van uw sessie
 tfa-row-disable-modal-heading = Authenticatie in twee stappen uitschakelen?
 tfa-row-disable-modal-confirm = Uitschakelen
-tfa-row-disable-modal-explain =
+tfa-row-disable-modal-explain-1 =
     U kunt deze actie niet ongedaan maken. U hebt ook
-    de optie om <linkExternal>uw herstelcodes te vervangen</linkExternal>.
+    de optie om <linkExternal>uw reserve-authenticatiecodes te vervangen</linkExternal>.
 tfa-row-cannot-disable-2 = Authenticatie in twee stappen kon niet worden uitgeschakeld
-tfa-row-change-modal-heading = Herstelcodes wijzigen?
+tfa-row-change-modal-heading-1 = Reserve-authenticatiecodes wijzigen?
 tfa-row-change-modal-confirm = Wijzigen
 tfa-row-change-modal-explain = U kunt deze actie niet ongedaan maken.
 
