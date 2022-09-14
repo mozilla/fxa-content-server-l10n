@@ -198,15 +198,20 @@ fraudulentAccountDeletion-contact = Neem bij vragen contact op met ons <a data-l
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Neem bij vragen contact op met ons ondersteuningsteam: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Weinig herstelcodes resterend
-codes-reminder-description = We hebben gemerkt dat u nog weinig herstelcodes hebt. Overweeg nieuwe codes te genereren om te voorkomen dat u geen toegang meer hebt tot uw account.
-codes-generate = Codes genereren
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Codes genereren
-lowRecoveryCodes-subject =
+codes-reminder-title-zero = U hebt geen reserve-authenticatiecodes meer!
+codes-reminder-title-one = U bent toe aan uw laatste reserve-authenticatiecode
+codes-reminder-title-two = Tijd om meer reserve-authenticatiecodes aan te maken
+codes-reminder-description-part-one = Reserve-authenticatiecodes helpen u uw gegevens te herstellen als u uw wachtwoord vergeet.
+codes-reminder-description-part-two = Maak nu nieuwe codes aan, zodat u later uw gegevens niet kwijtraakt.
+codes-reminder-description-two-left = U hebt nog maar twee codes over.
+codes-reminder-description-create-codes = Maak nieuwe reserve-authenticatiecodes aan om u te helpen weer toegang te krijgen tot uw account als u bent buitengesloten.
+lowRecoveryCodes-action-2 = Codes aanmaken
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [one] Eén herstelcode resterend
-       *[other] { $numberRemaining } herstelcodes resterend
+        [0] Geen reserve-authenticatiecodes over
+        [one] Slechts 1 reserve-authenticatiecode over
+       *[other] Slechts { $numberRemaining } reserve-authenticatiecodes over!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -235,13 +240,13 @@ passwordChangeRequired-different-password-plaintext = Belangrijk: kies een ander
 passwordReset-subject = Wachtwoord bijgewerkt
 passwordReset-title = Uw accountwachtwoord is gewijzigd
 passwordReset-description = U dient uw nieuwe wachtwoord op andere apparaten in te voeren om de synchronisatie te hervatten.
-passwordResetAccountRecovery-subject = Wachtwoord bijgewerkt met herstelsleutel
-passwordResetAccountRecovery-title = Uw accountwachtwoord is opnieuw ingesteld met een herstelsleutel
-passwordResetAccountRecovery-description = U hebt met succes uw wachtwoord opnieuw ingesteld via een herstelsleutel vanaf het volgende apparaat:
-passwordResetAccountRecovery-action = Nieuwe herstelsleutel genereren
-passwordResetAccountRecovery-regen-required = U dient een nieuwe herstelsleutel te genereren.
+passwordResetAccountRecovery-subject-1 = Wachtwoord bijgewerkt met accountherstelsleutel
+passwordResetAccountRecovery-title-1 = Uw accountwachtwoord is opnieuw ingesteld met een accountherstelsleutel
+passwordResetAccountRecovery-description-1 = U hebt met succes uw wachtwoord opnieuw ingesteld via een accountherstelsleutel vanaf het volgende apparaat:
+passwordResetAccountRecovery-action-1 = Nieuwe accountherstelsleutel aanmaken
+passwordResetAccountRecovery-regen-required-1 = U dient een nieuwe accountherstelsleutel aan te maken.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Nieuwe herstelsleutel genereren:
+passwordResetAccountRecovery-create-key-1 = Nieuwe accountherstelsleutel aanmaken:
 postAddAccountRecovery-subject-2 = Sleutel voor accountherstel aangemaakt
 postAddAccountRecovery-title2 = U hebt een nieuwe sleutel voor accountherstel aangemaakt
 # Information on the browser and device triggering this string follows.
@@ -269,19 +274,19 @@ postChangePrimary-title = Nieuw primair e-mailadres
 #  $email (String) - A user's email address
 postChangePrimary-description = U hebt uw primaire e-mailadres met succes naar { $email } gewijzigd. Dit adres is nu uw gebruikersnaam voor het aanmelden bij uw { -product-firefox-account }, evenals voor het ontvangen van beveiligingsmeldingen
 postChangePrimary-action = Account beheren
-postConsumeRecoveryCode-subject = Herstelcode gebruikt
-postConsumeRecoveryCode-title = Herstelcode verbruikt
-postConsumeRecoveryCode-description = U hebt een herstelcode verbruikt vanaf het volgende apparaat:
+postConsumeRecoveryCode-subject-1 = Reserve-authenticatiecode gebruikt
+postConsumeRecoveryCode-title-1 = Reserve-authenticatiecode verbruikt
+postConsumeRecoveryCode-description-1 = U hebt een reserve-authenticatiecode verbruikt vanaf het volgende apparaat:
 postConsumeRecoveryCode-action = Account beheren
-postNewRecoveryCodes-subject = Nieuwe herstelcodes gegenereerd
-postNewRecoveryCodes-title = Nieuwe herstelcodes gegenereerd
-postNewRecoveryCodes-description = U hebt nieuwe herstelcodes gegenereerd vanaf het volgende apparaat:
+postNewRecoveryCodes-subject-1 = Nieuwe reserve-authenticatiecodes aangemaakt
+postNewRecoveryCodes-title-1 = Nieuwe reserve-authenticatiecodes aangemaakt
+postNewRecoveryCodes-description-1 = U hebt nieuwe reserve-authenticatiecodes aangemaakt vanaf het volgende apparaat:
 postNewRecoveryCodes-action = Account beheren
 postRemoveAccountRecovery-subject = Sleutel voor accountherstel verwijderd
 postRemoveAccountRecovery-title = Sleutel voor accountherstel verwijderd
 postRemoveAccountRecovery-description = U hebt met succes een sleutel voor accountherstel voor uw { -product-firefox-account } verwijderd via het volgende apparaat:
 postRemoveAccountRecovery-action = Account beheren
-postRemoveAccountRecovery-invalid = Deze herstelsleutel kan niet meer worden gebruikt om uw account te herstellen.
+postRemoveAccountRecovery-invalid-1 = Deze accountherstelsleutel kan niet meer worden gebruikt om uw account te herstellen.
 postRemoveSecondary-subject = Secundair e-mailadres verwijderd
 postRemoveSecondary-title = Secundair e-mailadres verwijderd
 # Variables:
@@ -591,7 +596,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Vergeet niet om uw account te bevestigen
 verificationReminderFirst-title-2 = Welkom bij { -brand-firefox }!
 verificationReminderFirst-description-2 = U hebt een paar dagen geleden een { -product-firefox-account } aangemaakt, maar deze nooit bevestigd. Bevestig uw account binnen de komende 15 dagen, anders wordt deze automatisch verwijderd.
-verificationReminderFirst-sub-description-2 = Mis geen technologie die u en uw privacy op de eerste plaats zet.
+verificationReminderFirst-sub-description-3 = Mis de browser die u en uw privacy op de eerste plaats zet niet.
 confirm-email-2 = Account bevestigen
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Account bevestigen
