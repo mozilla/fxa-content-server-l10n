@@ -198,19 +198,24 @@ fraudulentAccountDeletion-contact = Os oes gennych unrhyw gwestiynau, cysylltwch
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Os oes gennych unrhyw gwestiynau, cysylltwch â'n tîm cymorth: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Prinder codau adfer
-codes-reminder-description = Rydym wedi sylwi eich bod yn brin o godau adfer. Ystyriwch greu codau newydd er mwyn osgoi cael eich cloi allan o’ch cyfrif.
-codes-generate = Creu codau
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Creu codau
-lowRecoveryCodes-subject =
+codes-reminder-title-zero = Rydych chi allan o godau dilysu wrth gefn!
+codes-reminder-title-one = Rydych chi ar eich cod dilysu wrth gefn olaf
+codes-reminder-title-two = Mae'n bryd creu mwy o godau dilysu wrth gefn
+codes-reminder-description-part-one = Mae codau dilysu wrth gefn yn eich helpu i adfer eich manylion pan fyddwch chi'n anghofio'ch cyfrinair.
+codes-reminder-description-part-two = Crëwch godau newydd nawr fel na fyddwch chi'n colli'ch data yn nes ymlaen.
+codes-reminder-description-two-left = Dim ond dau god sydd gennych ar ôl.
+codes-reminder-description-create-codes = Crëwch godau dilysu wrth gefn newydd i'ch helpu i ddychwelyd i'ch cyfrif os ydych wedi'ch cloi allan.
+lowRecoveryCodes-action-2 = Creu codau
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [zero] 0 codau adfer ar ôl
-        [one] 1 cod adfer ar ôl
-        [two] { $numberRemaining } god adfer ar ôl
-        [few] { $numberRemaining } cod adfer ar ôl
-        [many] { $numberRemaining } cod adfer ar ôl
-       *[other] { $numberRemaining } cod adfer ar ôl
+        [0] Does dim codau dilysu ar ôl!
+        [zero] Does dim codau dilysu ar ôl!
+        [one] Dim ond { $number } cod dilysu wrth gefn ar ôl!
+        [two] Dim ond { $number } god dilysu wrth gefn ar ôl!
+        [few] Dim ond { $number } cod dilysu wrth gefn ar ôl!
+        [many] Dim ond { $number } chod dilysu wrth gefn ar ôl!
+       *[other] Dim ond { $number } cod dilysu wrth gefn ar ôl!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -239,13 +244,9 @@ passwordChangeRequired-different-password-plaintext = Pwysig: Dewiswch gyfrinair
 passwordReset-subject = Diweddarwyd y cyfrinair
 passwordReset-title = Mae cyfrinair eich cyfrif wedi newid
 passwordReset-description = Bydd angen i chi roi eich cyfrinair newydd ar ddyfeisiau eraill i barhau eu cydweddu.
-passwordResetAccountRecovery-subject = Diweddarwyd y cyfrinair gan ddefnyddio’r allwedd adfer
-passwordResetAccountRecovery-title = Cafodd cyfrinair eich cyfrif ei ailosod gydag allwedd adfer
-passwordResetAccountRecovery-description = Rydych wedi ailosod eich cyfrinair yn llwyddiannus gan ddefnyddio allwedd adfer o’r ddyfais ganlynol:
-passwordResetAccountRecovery-action = Creu allwedd adfer newydd
-passwordResetAccountRecovery-regen-required = Bydd angen i chi gynhyrchu allwedd adfer newydd.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Creu allwedd adfer newydd:
+passwordResetAccountRecovery-subject-1 = Diweddarwyd y cyfrinair gan ddefnyddio'r allwedd adfer
+passwordResetAccountRecovery-title-1 = Cafodd cyfrinair eich cyfrif ei ailosod gydag allwedd adfer cyfrif
+passwordResetAccountRecovery-description-1 = Rydych wedi ailosod eich cyfrinair yn llwyddiannus gan ddefnyddio allwedd adfer cyfrif o'r ddyfais ganlynol:
 postAddAccountRecovery-subject-2 = Crëwyd yr allwedd adfer cyfrif.
 postAddAccountRecovery-title2 = Rydych chi wedi creu allwedd adfer cyfrif newydd
 # Information on the browser and device triggering this string follows.
@@ -273,19 +274,12 @@ postChangePrimary-title = Prif e-bost newydd
 #  $email (String) - A user's email address
 postChangePrimary-description = Rydych wedi newid eich prif e-bost i { $email }. Y cyfeiriad hwn yw eich enw defnyddiwr ar gyfer mewngofnodi i'ch { -product-firefox-account }, yn ogystal â derbyn eich hysbysiadau diogelwch a chadarnhau
 postChangePrimary-action = Rheoli cyfrif
-postConsumeRecoveryCode-subject = Cod adfer wedi’i ddefnyddio
-postConsumeRecoveryCode-title = Cod adfer wedi ei ddefnyddio
-postConsumeRecoveryCode-description = Rydych wedi defnyddio cod adfer yn llwyddiannus o’r ddyfais ganlynol:
 postConsumeRecoveryCode-action = Rheoli cyfrif
-postNewRecoveryCodes-subject = Wedi creu cod adfer newydd
-postNewRecoveryCodes-title = Wedi creu cod adfer newydd
-postNewRecoveryCodes-description = Rydych wedi creu cod adfer newydd yn llwyddiannus o’r ddyfais ganlynol:
 postNewRecoveryCodes-action = Rheoli cyfrif
 postRemoveAccountRecovery-subject = Tynnwyd yr allwedd adfer cyfrif
 postRemoveAccountRecovery-title = Tynnwyd yr allwedd adfer cyfrif
 postRemoveAccountRecovery-description = Rydych wedi cynhyrchu allwedd adfer ar gyfer eich { -product-firefox-account }, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:
 postRemoveAccountRecovery-action = Rheoli cyfrif
-postRemoveAccountRecovery-invalid = Nid oes modd defnyddio’r allwedd adfer hwn bellach i adfer eich cyfrif.
 postRemoveSecondary-subject = Tynnwyd yr ail e-bost
 postRemoveSecondary-title = Tynnwyd yr ail e-bost
 # Variables:
@@ -595,7 +589,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Cofiwch gadarnhau eich cyfrif
 verificationReminderFirst-title-2 = Croeso i { -brand-firefox }!
 verificationReminderFirst-description-2 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-firefox-account }, ond heb ei gadarnhau. Cadarnhewch eich cyfrif o fewn y 15 diwrnod nesaf neu bydd yn cael ei ddileu yn awtomatig.
-verificationReminderFirst-sub-description-2 = Peidiwch â cholli allan ar dechnoleg sy'n eich rhoi chi a'ch preifatrwydd yn gyntaf.
 confirm-email-2 = Cadarnhewch eich cyfrif
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Cadarnhewch eich cyfrif
