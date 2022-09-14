@@ -247,6 +247,10 @@ passwordReset-description = Bydd angen i chi roi eich cyfrinair newydd ar ddyfei
 passwordResetAccountRecovery-subject-1 = Diweddarwyd y cyfrinair gan ddefnyddio'r allwedd adfer
 passwordResetAccountRecovery-title-1 = Cafodd cyfrinair eich cyfrif ei ailosod gydag allwedd adfer cyfrif
 passwordResetAccountRecovery-description-1 = Rydych wedi ailosod eich cyfrinair yn llwyddiannus gan ddefnyddio allwedd adfer cyfrif o'r ddyfais ganlynol:
+passwordResetAccountRecovery-action-1 = Crëuwch allwedd adfer newydd
+passwordResetAccountRecovery-regen-required-1 = Bydd angen i chi gynhyrchu allwedd adfer cyfrif newydd.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-create-key-1 = Crëuwch allwedd adfer newydd:
 postAddAccountRecovery-subject-2 = Crëwyd yr allwedd adfer cyfrif.
 postAddAccountRecovery-title2 = Rydych chi wedi creu allwedd adfer cyfrif newydd
 # Information on the browser and device triggering this string follows.
@@ -274,7 +278,13 @@ postChangePrimary-title = Prif e-bost newydd
 #  $email (String) - A user's email address
 postChangePrimary-description = Rydych wedi newid eich prif e-bost i { $email }. Y cyfeiriad hwn yw eich enw defnyddiwr ar gyfer mewngofnodi i'ch { -product-firefox-account }, yn ogystal â derbyn eich hysbysiadau diogelwch a chadarnhau
 postChangePrimary-action = Rheoli cyfrif
+postConsumeRecoveryCode-subject-1 = Defnyddiwyd cod dilysu wrth gefn
+postConsumeRecoveryCode-title-1 = Defnyddiwyd cod dilysu wrth gefn
+postConsumeRecoveryCode-description-1 = Rydych wedi defnyddio cod adfer yn llwyddiannus o'r ddyfais ganlynol:
 postConsumeRecoveryCode-action = Rheoli cyfrif
+postNewRecoveryCodes-subject-1 = Cynhyrchwyd codau dilysu wrth gefn newydd
+postNewRecoveryCodes-title-1 = Cynhyrchwyd codau dilysu wrth gefn newydd
+postNewRecoveryCodes-description-1 = Rydych wedi creu cod adfer newydd yn llwyddiannus o'r ddyfais ganlynol:
 postNewRecoveryCodes-action = Rheoli cyfrif
 postRemoveAccountRecovery-subject = Tynnwyd yr allwedd adfer cyfrif
 postRemoveAccountRecovery-title = Tynnwyd yr allwedd adfer cyfrif
