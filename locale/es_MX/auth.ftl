@@ -199,17 +199,8 @@ fraudulentAccountDeletion-contact = Si tienes preguntas, por favor contacta a nu
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tienes preguntas, por favor contacta a nuestro equipo de soporte: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Quedan pocos códigos de recuperación
-codes-reminder-description = Hemos notado que te quedan pocos códigos de recuperación. Deberías replantearte generar nuevos códigos para evitar perder el acceso a tu cuenta.
-codes-generate = Generar códigos
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Generar códigos
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] Queda 1 código de recuperación
-       *[other] Quedan { $numberRemaining } códigos de recuperación
-    }
+lowRecoveryCodes-action-2 = Crear códigos
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nuevo inicio de sesión en { $clientName }
@@ -237,13 +228,7 @@ passwordChangeRequired-different-password-plaintext = Importante: elige una cont
 passwordReset-subject = Contraseña actualizada
 passwordReset-title = Se cambió la contraseña de tu cuenta
 passwordReset-description = Tienes que introducir la nueva contraseña en tus otros dispositivos para reanudar la sincronización.
-passwordResetAccountRecovery-subject = Contraseña actualizada usando la clave de recuperación
-passwordResetAccountRecovery-title = La contraseña de tu cuenta fue restablecida con una llave de recuperación
-passwordResetAccountRecovery-description = Haz restablecido exitosamente tu contraseña usando una llave de recuperación desde el siguiente dispositivo:
-passwordResetAccountRecovery-action = Crear nueva llave de recuperación
-passwordResetAccountRecovery-regen-required = Necesitarás generar una nueva llave de recuperación.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Crear nueva llave de recuperación:
+passwordResetAccountRecovery-action-1 = Crear nueva clave de recuperación de cuenta
 postAddAccountRecovery-subject-2 = Clave de recuperación de la cuenta creada
 postAddAccountRecovery-title2 = Creaste una nueva clave de recuperación de la cuenta
 # Information on the browser and device triggering this string follows.
@@ -271,19 +256,12 @@ postChangePrimary-title = Nuevo correo electrónico principal
 #  $email (String) - A user's email address
 postChangePrimary-description = Has cambiado exitosamente tu correo principal a { $email }. Este correo es ahora tu nombre de usuario para iniciar sesión en tu { -product-firefox-account }, así como para recibir notificaciones de seguridad y confirmaciones de inicio de sesión.
 postChangePrimary-action = Administrar cuenta
-postConsumeRecoveryCode-subject = Código de recuperación utilizado
-postConsumeRecoveryCode-title = Código de recuperación utilizado
-postConsumeRecoveryCode-description = Has utilizado exitosamente un código de recuperación desde el siguiente dispositivo:
 postConsumeRecoveryCode-action = Administrar cuenta
-postNewRecoveryCodes-subject = Nuevos códigos de recuperación generados
-postNewRecoveryCodes-title = Nuevos códigos de recuperación generados
-postNewRecoveryCodes-description = Has generado correctamente nuevos códigos de recuperación desde el siguiente dispositivo:
 postNewRecoveryCodes-action = Administrar cuenta
 postRemoveAccountRecovery-subject = Llave de recuperación de cuenta revocada
 postRemoveAccountRecovery-title = Llave de recuperación de cuenta revocada
 postRemoveAccountRecovery-description = Has eliminado exitosamente una clave de recuperación de cuenta para tu { -product-firefox-account } usando el siguiente dispositivo:
 postRemoveAccountRecovery-action = Administrar cuenta
-postRemoveAccountRecovery-invalid = Esta llave de recuperación ya no puede ser usada para recuperar tu cuenta.
 postRemoveSecondary-subject = Correo secundario eliminado
 postRemoveSecondary-title = Correo secundario eliminado
 # Variables:
@@ -593,7 +571,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Recuerda confirmar tu cuenta
 verificationReminderFirst-title-2 = ¡Te damos la bienvenida a { -brand-firefox }!
 verificationReminderFirst-description-2 = Hace algunos días creaste una { -product-firefox-account }, pero nunca la confirmaste. Por favor, confirma tu cuenta en los próximos 15 días o se eliminará automáticamente.
-verificationReminderFirst-sub-description-2 = No te pierdas las tecnologías que pone a tu privacidad y a ti en primer lugar.
 confirm-email-2 = Confirmar cuenta
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar cuenta
