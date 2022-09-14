@@ -290,6 +290,7 @@ postRemoveAccountRecovery-subject = Tynnwyd yr allwedd adfer cyfrif
 postRemoveAccountRecovery-title = Tynnwyd yr allwedd adfer cyfrif
 postRemoveAccountRecovery-description = Rydych wedi cynhyrchu allwedd adfer ar gyfer eich { -product-firefox-account }, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:
 postRemoveAccountRecovery-action = Rheoli cyfrif
+postRemoveAccountRecovery-invalid-1 = Nid oes modd defnyddio’r allwedd adfer cyfrif hwn bellach i adfer eich cyfrif.
 postRemoveSecondary-subject = Tynnwyd yr ail e-bost
 postRemoveSecondary-title = Tynnwyd yr ail e-bost
 # Variables:
@@ -599,6 +600,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Cofiwch gadarnhau eich cyfrif
 verificationReminderFirst-title-2 = Croeso i { -brand-firefox }!
 verificationReminderFirst-description-2 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-firefox-account }, ond heb ei gadarnhau. Cadarnhewch eich cyfrif o fewn y 15 diwrnod nesaf neu bydd yn cael ei ddileu yn awtomatig.
+verificationReminderFirst-sub-description-3 = Peidiwch â cholli allan ar y porwr sy'n eich rhoi chi a'ch preifatrwydd yn gyntaf.
 confirm-email-2 = Cadarnhewch eich cyfrif
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Cadarnhewch eich cyfrif
