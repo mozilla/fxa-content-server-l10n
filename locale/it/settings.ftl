@@ -436,6 +436,7 @@ tfa-enter-secret-key = Inserisci questa chiave segreta nell’app di autenticazi
 tfa-enter-totp = Inserisci ora il codice di sicurezza dall’app di autenticazione.
 tfa-input-enter-totp =
     .label = Inserisci il codice di sicurezza
+tfa-save-these-codes-1 = Conserva questi codici di autenticazione di backup monouso in un posto sicuro e usali quando non hai a disposizione il tuo dispositivo mobile.
 tfa-enter-code-to-confirm-1 =
     Inserisci ora uno dei tuoi codici di autenticazione di backup per
     confermare di averlo salvato. Avrai bisogno di un codice per accedere se non hai a disposizione il tuo
@@ -505,6 +506,7 @@ rk-content-explain = Ripristina i dati in caso di password dimenticata.
 rk-content-reset-data = Perché, reimpostando la password, anche i dati vengono ripristinati?
 rk-cannot-verify-session-4 = Si è verificato un problema durante la conferma della sessione
 rk-remove-modal-heading-1 = Rimuovere la chiave di recupero dell’account?
+rk-remove-modal-content-1 = Se decidi di reimpostare la password, non potrai utilizzare la chiave di recupero dell’account per accedere ai tuoi dati. Questa azione è irreversibile.
 rk-refresh-error-1 = Siamo spiacenti, si è verificato un problema durante l’aggiornamento della chiave di recupero dell’account.
 rk-remove-error-2 = Non è possibile rimuovere la chiave di recupero per l’account.
 
