@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-13 06:38+0000\n"
+"POT-Creation-Date: 2022-09-15 22:12+0000\n"
 "PO-Revision-Date: 2022-08-28 05:14+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1082,19 +1082,19 @@ msgstr "코드가 만료되었나요?"
 msgid "Email new code."
 msgstr "이메일로 새 코드를 받으세요."
 
-#: .es5/templates/connect_another_device.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
 msgstr "다른 기기 연결"
 
 #: .es5/templates/connect_another_device.mustache:2
-msgid "Firefox account connected"
-msgstr "Firefox 계정이 연결되었습니다"
+msgid "You’re signed into Firefox"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
 msgstr "이메일이 확인되었습니다"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
 msgid "Complete your set-up"
 msgstr "설정 완료"
 
@@ -1111,16 +1111,12 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "다른 기기의 Firefox에도 로그인하여 설정을 완료하세요."
 
 #: .es5/templates/connect_another_device.mustache:17
-msgid "Sync Firefox across devices"
-msgstr "기기 간 Firefox 동기화"
+msgid "Want to get your tabs, bookmarks, and passwords on another device?"
+msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:19
-msgid "Sign in everywhere you use Firefox."
-msgstr "Firefox를 사용하는 어디서나 로그인하세요."
-
-#: .es5/templates/connect_another_device.mustache:20
-msgid "We’re on Android and iOS, too!"
-msgstr "Android, iOS에서도 사용하실 수 있어요!"
+#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
+msgid "Not now"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1782,7 +1778,7 @@ msgstr "기기 간 Firefox 동기화"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "북마크, 방문 기록 및 비밀번호를 모바일 기기의 Firefox에 동기화하세요. 몇 분 밖에 걸리지 않습니다."
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:12
 msgid "Get started"
 msgstr "시작하기"
 
@@ -2014,27 +2010,32 @@ msgid "The setup process was terminated."
 msgstr "설정 과정이 종료되었습니다."
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Download Firefox on your phone or tablet"
-msgstr "스마트폰 및 태블릿용 Firefox 다운로드"
-
-#: .es5/templates/pair/index.mustache:2
-msgid "QR code"
-msgstr "QR 코드"
+msgid "Connect Firefox on another device"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
-msgstr "모바일 기기에 Firefox를 다운로드하시려면, 기기의 카메라를 이 코드 위에 두고 스캔하세요."
+msgid "Sync Firefox on your phone or tablet"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Already have Firefox on a phone or tablet?"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:5
+msgid "Sync your device"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:6
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
-msgid "I’m ready to sync devices"
-msgstr "기기를 동기화할 준비가 되었습니다."
+msgid "QR code"
+msgstr "QR 코드"
 
-#: .es5/templates/pair/index.mustache:8
-msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
+#: .es5/templates/pair/index.mustache:11
+msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
 msgstr ""
 
 #: .es5/templates/pair/success.mustache:2

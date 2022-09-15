@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-13 06:38+0000\n"
+"POT-Creation-Date: 2022-09-15 22:12+0000\n"
 "PO-Revision-Date: 2022-08-26 07:34+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
@@ -1086,19 +1086,19 @@ msgstr "Koade ferrûn?"
 msgid "Email new code."
 msgstr "Nije koade ferstjoere."
 
-#: .es5/templates/connect_another_device.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
 msgstr "Oar apparaat keppelje"
 
 #: .es5/templates/connect_another_device.mustache:2
-msgid "Firefox account connected"
-msgstr "Firefox-account ferbûn"
+msgid "You’re signed into Firefox"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
 msgstr "E-mailadres befêstige"
 
-#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:6
+#: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
 msgid "Complete your set-up"
 msgstr "Foltôgje jo ynstellingen"
 
@@ -1115,16 +1115,12 @@ msgid "Sign in to Firefox on another device to complete set-up"
 msgstr "Meld jo oan by Firefox op in oar apparaat om de ynstallaasje te foltôgjen"
 
 #: .es5/templates/connect_another_device.mustache:17
-msgid "Sync Firefox across devices"
-msgstr "Firefox oer alle apparaten syngronisearje"
+msgid "Want to get your tabs, bookmarks, and passwords on another device?"
+msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:19
-msgid "Sign in everywhere you use Firefox."
-msgstr "Meld jo oan oeral wêr't jo Firefox brûke."
-
-#: .es5/templates/connect_another_device.mustache:20
-msgid "We’re on Android and iOS, too!"
-msgstr "Wy binne ek op Android en iOS!"
+#: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
+msgid "Not now"
+msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1801,7 +1797,7 @@ msgstr "Syngronisearje Firefox tusken apparaten"
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
 msgstr "Syngronisearje blêdwizers, skiednis en wachtwurden mei Firefox op jo mobile apparaten. It duorret mar in pear minuten."
 
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
+#: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:12
 msgid "Get started"
 msgstr "Begjinne"
 
@@ -2038,28 +2034,33 @@ msgid "The setup process was terminated."
 msgstr "It ynstelproses is ôfbrutsen."
 
 #: .es5/templates/pair/index.mustache:1
-msgid "Download Firefox on your phone or tablet"
-msgstr "Download Firefox op jo telefoan of tablet"
-
-#: .es5/templates/pair/index.mustache:2
-msgid "QR code"
-msgstr "QR-koade"
+msgid "Connect Firefox on another device"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
-msgid "To download Firefox on your mobile device, hold the device’s camera over this code to scan."
-msgstr "Om Firefox op jo mobile apparaat te downloaden, hâld de kamera fan it apparaat boppe dizze koade om te scannen."
+msgid "Sync Firefox on your phone or tablet"
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:4
-msgid "Or, send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Already have Firefox on a phone or tablet?"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:5
+msgid "Sync your device"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:6
+msgid ""
+"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
-msgid "I’m ready to sync devices"
-msgstr "Ik bin ree om apparaten te syngronisearjen"
+msgid "QR code"
+msgstr "QR-koade"
 
-#: .es5/templates/pair/index.mustache:8
-msgid "Sync devices to access your tabs, passwords, and bookmarks everywhere you use Firefox."
-msgstr "Syngronisearje apparaten foar tagong ta jo ljepblêden, wachtwurden en blêdwizers oeral wêr't jo Firefox brûke."
+#: .es5/templates/pair/index.mustache:11
+msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
+msgstr ""
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"

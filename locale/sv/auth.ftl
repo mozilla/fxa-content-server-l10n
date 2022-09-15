@@ -197,17 +197,9 @@ fraudulentAccountDeletion-contact = Om du har några frågor, kontakta vårt <a 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Om du har några frågor, vänligen kontakta vårt supportteam: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Få återställningskoder återstår
-codes-reminder-description = Få återställningskoder återstår. Tänk på att generera nya koder för att undvika att bli utelåst från ditt konto.
-codes-generate = Generera koder
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Generera koder
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] 1 återställningskod kvar
-       *[other] { $numberRemaining } återställningskoder kvar
-    }
+codes-reminder-description-two-left = Du har endast två koder kvar.
+lowRecoveryCodes-action-2 = Skapa koder
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning till { $clientName }
@@ -235,13 +227,6 @@ passwordChangeRequired-different-password-plaintext = Viktigt: Välj ett annat l
 passwordReset-subject = Lösenord uppdaterat
 passwordReset-title = Ditt lösenord till kontot ändrades
 passwordReset-description = Du måste ange ditt nya lösenord på andra enheter för att återuppta synkroniseringen.
-passwordResetAccountRecovery-subject = Lösenord uppdaterat med återställningsnyckel
-passwordResetAccountRecovery-title = Lösenordet till ditt konto återställdes med en återställningsnyckel
-passwordResetAccountRecovery-description = Du har återställt ditt lösenord med hjälp av en återställningsnyckel från följande enhet:
-passwordResetAccountRecovery-action = Skapa ny återställningsnyckel
-passwordResetAccountRecovery-regen-required = Du måste skapa en ny återställningsnyckel.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Skapa ny återställningsnyckel:
 postAddAccountRecovery-subject-2 = Kontoåterställningsnyckel skapad
 postAddAccountRecovery-title2 = Du skapade en ny kontoåterställningsnyckel
 # Information on the browser and device triggering this string follows.
@@ -269,19 +254,12 @@ postChangePrimary-title = Ny primär e-post
 #  $email (String) - A user's email address
 postChangePrimary-description = Du har lyckats ändra din primära e-postadress till { $email }. Den här adressen är nu ditt användarnamn för att logga in på ditt { -product-firefox-account }, samt för att ta emot säkerhetsmeddelanden och inloggningsbekräftelser.
 postChangePrimary-action = Hantera konto
-postConsumeRecoveryCode-subject = Återställningskod använd
-postConsumeRecoveryCode-title = Återställningskod förbrukad
-postConsumeRecoveryCode-description = Du har förbrukat en återställningskod från följande enhet:
 postConsumeRecoveryCode-action = Hantera konto
-postNewRecoveryCodes-subject = Nya återställningskoder genererade
-postNewRecoveryCodes-title = Nya återställningskoder genererade
-postNewRecoveryCodes-description = Du har genererat nya återställningskoder från följande enhet:
 postNewRecoveryCodes-action = Hantera konto
 postRemoveAccountRecovery-subject = Kontoåterställningsnyckeln borttagen
 postRemoveAccountRecovery-title = Kontoåterställningsnyckeln borttagen
 postRemoveAccountRecovery-description = Du har tagit bort en kontoåterställningsnyckel för ditt { -product-firefox-account } med följande enhet:
 postRemoveAccountRecovery-action = Hantera konto
-postRemoveAccountRecovery-invalid = Den här återställningsnyckeln kan inte längre användas för att återställa ditt konto.
 postRemoveSecondary-subject = Sekundär e-postadress borttagen
 postRemoveSecondary-title = Sekundär e-postadress borttagen
 # Variables:
@@ -591,7 +569,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Kom ihåg att bekräfta ditt konto
 verificationReminderFirst-title-2 = Välkommen till { -brand-firefox }!
 verificationReminderFirst-description-2 = För några dagar sedan skapade du ett { -product-firefox-account }, men bekräftade det aldrig. Bekräfta ditt konto inom de närmaste 15 dagarna, annars kommer det att raderas automatiskt.
-verificationReminderFirst-sub-description-2 = Missa inte teknik som sätter dig och din integritet först.
 confirm-email-2 = Bekräfta konto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Bekräfta konto
