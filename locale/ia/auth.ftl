@@ -73,6 +73,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Discarga { $pr
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Discarga { $productName } de { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Installa { $productName } sur <a data-l10n-name="anotherDeviceLink">un altere apparato scriptorio</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Installa { $productName } sur <a data-l10n-name="anotherDeviceLink">un altere apparato</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Obtene { $productName } sur Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Discarga { $productName } super le App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Installa { $productName } sur un altere apparato:
+automated-email-change-2 = Si tu non interprendeva iste action, <a data-l10n-name="passwordChangeLink">cambia tu contrasigno</a> immediatemente.
+automated-email-support = Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Supporto</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Si tu non interprendeva iste action, cambia tu contrasigno immediatemente:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Pro altere informationes, visita { -brand-mozilla } Supporto:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Supporto</a>.
 automated-email-no-action-plaintext = Isto es un email automatisate. Si tu ha recipite illo per error, tu non besonia de facer alco.
@@ -234,6 +255,13 @@ passwordReset-title = Le contrasigno de tu conto ha essite cambiate
 passwordReset-description = Il essera necesse que tu insere tu nove contrasigno sur altere apparatos pro continuar le synchronisation.
 passwordResetAccountRecovery-subject-2 = Tu contrasigno ha essite remontate
 passwordResetAccountRecovery-title-2 = Contrasigno remontate con successo
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Tu ha usate tu clave recuperation del conto pro actualisar tu contrasigno ab:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Crear un nove clave recuperation del conto
+passwordResetAccountRecovery-regen-required-mjml-1 = Tu debera acceder de novo sur tote tu apparatos synchronisate. Rememora de crear un nove clave recuperation del conto pro reimplaciar illo que tu ha usate.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Tu debera acceder de novo sur tote tu apparatos synchronisate. Rememora de crear un nove clave recuperation del conto pro reimplaciar illo que tu ha usate:
 postAddAccountRecovery-subject-2 = Clave de recuperation del conto create
 postAddAccountRecovery-title2 = Tu ha create un nove clave de recuperation del conto
 # Information on the browser and device triggering this string follows.
