@@ -152,7 +152,7 @@ cs-sign-out-button = Logga ut
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Nerladdad
@@ -185,9 +185,10 @@ drop-down-menu-sign-out-error-2 = Tyvärr, det gick inte att logga ut dig
 
 flow-container-back = Tillbaka
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Återställningskoder
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } kontoåterställningsnyckel
 get-data-trio-download =
     .title = Hämta
 get-data-trio-copy =
@@ -247,14 +248,8 @@ nav-data-collection = Datainsamling och användning
 nav-paid-subs = Betalda prenumerationer
 nav-email-comm = E-postkommunikation
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Det uppstod ett problem med att ersätta dina återställningskoder
-tfa-replace-code-success =
-    Nya koder har skapats. Spara dessa engångskoder
-    på en säker plats — du behöver dem för att komma åt
-    ditt konto om du inte har din mobila enhet.
-tfa-replace-code-success-alert-2 = Koder för kontoåterställning uppdaterade
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
 
@@ -364,19 +359,16 @@ display-name-success-alert-2 = Visningsnamn uppdaterat
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Avbryt
 recovery-key-close-button = Stäng
 recovery-key-continue-button = Fortsätt
-recovery-key-created = Din återställningsnyckel har skapats. Se till att spara nyckeln på ett säkert ställe som du lätt kan hitta senare — du behöver nyckeln för att få tillbaka åtkomst till dina data om du glömmer lösenordet.
+recovery-key-created-1 = Din kontoåterställningsnyckel har skapats. Se till att spara nyckeln på ett säkert ställe som du lätt kan hitta senare — du behöver nyckeln för att återfå åtkomst till dina data om du glömmer ditt lösenord.
 recovery-key-enter-password =
     .label = Ange lösenord
-recovery-key-page-title =
-    .title = Återställningsnyckel
 recovery-key-step-1 = Steg 1 av 2
 recovery-key-step-2 = Steg 2 av 2
-recovery-key-success-alert-2 = Återställningsnyckel skapad
 
 ## Add secondary email page
 
@@ -424,8 +416,6 @@ tfa-button-cancel = Avbryt
 tfa-button-finish = Slutför
 tfa-incorrect-totp = Felaktig tvåstegsautentiseringskod
 tfa-cannot-retrieve-code = Det gick inte att hämta din kod.
-tfa-cannot-verify-code-3 = Det gick inte att bekräfta din återställningskod
-tfa-incorrect-recovery-code = Felaktig återställningskod
 tfa-enabled = Tvåstegsautentisering aktiverad
 tfa-scan-this-code =
     Skanna den här QR-koden med en av dessa
@@ -445,15 +435,6 @@ tfa-enter-secret-key = Ange den här hemliga nyckeln i din autentiseringsapp:
 tfa-enter-totp = Ange nu säkerhetskoden från autentiseringsappen.
 tfa-input-enter-totp =
     .label = Ange säkerhetskod
-tfa-save-these-codes =
-    Spara dessa engångskoder på en säker plats om
-    du inte har tillgång till din mobila enhet.
-tfa-enter-code-to-confirm =
-    Ange en av dina återställningskoder nu för att bekräfta
-    att du har sparat den. Du behöver en kod om du tappar enheten och vill
-    komma åt ditt konto.
-tfa-enter-recovery-code =
-    .label = Ange en återställningskod
 
 ##
 
@@ -502,25 +483,17 @@ row-defaults-action-change = Ändra
 row-defaults-action-disable = Inaktivera
 row-defaults-status = Ingen
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Återställningsnyckel
 rk-enabled = Aktivera
 rk-not-set = Inte inställd
 rk-action-create = Skapa
 rk-action-remove = Ta bort
-rk-cannot-refresh = Tyvärr uppstod ett problem med att uppdatera återställningsnyckeln.
 rk-key-removed-2 = Nyckeln för kontoåterställning har tagits bort
 rk-cannot-remove-key = Din kontoåterställningsnyckel kunde inte tas bort.
-rk-refresh-key = Uppdatera återställningsnyckel
 rk-content-explain = Återställ din information när du glömmer lösenordet.
 rk-content-reset-data = Varför återställs mina data när jag återställer mitt lösenord?
 rk-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
-rk-remove-modal-heading = Ta bort återställningsnyckel?
-rk-remove-modal-content =
-    Om du återställer ditt lösenord kan du inte använda din återställningsnyckel
-    för att komma åt dina data. Du kan inte ångra den här åtgärden.
-rk-refresh-error = Tyvärr uppstod ett problem med att uppdatera återställningsnyckeln.
 rk-remove-error-2 = Din kontoåterställningsnyckel kunde inte tas bort
 
 ## Secondary email sub-section on main Settings page
@@ -554,9 +527,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Gör primär
 se-default-content = Få åtkomst till ditt konto om du inte kan logga in med din primära e-postadress.
-se-content-note =
-    Obs! En sekundär e-postadress återställer inte din information — du behöver
-    en <a>återställningsnyckel</a> för det.
 # Default value for the secondary email
 se-secondary-email-none = Ingen
 
@@ -582,11 +552,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
-tfa-row-disable-modal-explain =
-    Du kan inte ångra den här åtgärden. Du har också
-    möjlighet att <linkExternal>ersätta dina återställningskoder</linkExternal>.
 tfa-row-cannot-disable-2 = Tvåstegsautentisering kunde inte inaktiveras
-tfa-row-change-modal-heading = Ändra återställningskoder?
 tfa-row-change-modal-confirm = Ändra
 tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 
