@@ -211,11 +211,11 @@ lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
         [0] Does dim codau dilysu ar ôl!
         [zero] Does dim codau dilysu ar ôl!
-        [one] Dim ond { $number } cod dilysu wrth gefn ar ôl!
-        [two] Dim ond { $number } god dilysu wrth gefn ar ôl!
-        [few] Dim ond { $number } cod dilysu wrth gefn ar ôl!
-        [many] Dim ond { $number } chod dilysu wrth gefn ar ôl!
-       *[other] Dim ond { $number } cod dilysu wrth gefn ar ôl!
+        [one] Dim ond 1 cod dilysu wrth gefn ar ôl!
+        [two] Dim ond { $numberRemaining } god dilysu wrth gefn ar ôl!
+        [few] Dim ond { $numberRemaining } cod dilysu wrth gefn ar ôl!
+        [many] Dim ond { $numberRemaining } chod dilysu wrth gefn ar ôl!
+       *[other] Dim ond { $numberRemaining } cod dilysu wrth gefn ar ôl!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
