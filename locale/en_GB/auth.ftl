@@ -73,14 +73,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Download { $pr
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Download { $productName } on the { -app-store }">
-another-desktop-device = Or, install on <a data-l10n-name="anotherDeviceLink">another desktop device</a>.
-another-device = Or, install on <a data-l10n-name="anotherDeviceLink">another device</a>.
-automated-email-change =
-    This is an automated email; if you did not authorise this action, then <a data-l10n-name="passwordChangeLink">please change your password</a>.
-    For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = This is an automated email; if you didn’t add a new device to your { -product-firefox-account }, you should change your password immediately at { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Install { $productName } on <a data-l10n-name="anotherDeviceLink">another desktop device</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Install { $productName } on <a data-l10n-name="anotherDeviceLink">another device</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Get { $productName } on Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Download { $productName } on the App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Install { $productName } on another device:
+automated-email-change-2 = If you didn’t take this action, <a data-l10n-name="passwordChangeLink">change your password</a> right away.
+automated-email-support = For more info, visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = If you didn’t take this action, change your password right away:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = For more info, visit { -brand-mozilla } Support:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } For more info, visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = This is an automated email. If you received it by mistake, you don’t need to do anything.
@@ -240,13 +253,15 @@ passwordChangeRequired-different-password-plaintext = Important: Pick a differen
 passwordReset-subject = Password updated
 passwordReset-title = Your account password was changed
 passwordReset-description = You will need to enter your new password on other devices to resume synchronisation.
-passwordResetAccountRecovery-subject-1 = Password updated using account recovery key
-passwordResetAccountRecovery-title-1 = Your account password was reset with an account recovery key
-passwordResetAccountRecovery-description-1 = You have successfully reset your password using an account recovery key from the following device:
-passwordResetAccountRecovery-action-1 = Create new account recovery key
-passwordResetAccountRecovery-regen-required-1 = You will need to generate a new account recovery key.
+passwordResetAccountRecovery-subject-2 = Your password has been reset
+passwordResetAccountRecovery-title-2 = Password reset successfully
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = You used your account recovery key to update your password from:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Create a new account recovery key
+passwordResetAccountRecovery-regen-required-mjml-1 = You’ll need to sign in again on all of your synced devices. Remember to create a new account recovery key to replace the one you used.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = Create new account recovery key:
+passwordResetAccountRecovery-regen-required-txt-1 = You’ll need to sign in again on all of your synchronised devices. Remember to create a new account recovery key to replace the one you used:
 postAddAccountRecovery-subject-2 = Account recovery key created
 postAddAccountRecovery-title2 = You created a new account recovery key
 # Information on the browser and device triggering this string follows.
@@ -274,19 +289,26 @@ postChangePrimary-title = New primary email
 #  $email (String) - A user's email address
 postChangePrimary-description = You have successfully changed your primary email to { $email }. This address is now your username for signing in to your { -product-firefox-account }, as well as receiving security notifications and sign-in confirmations.
 postChangePrimary-action = Manage account
-postConsumeRecoveryCode-subject-1 = Backup authentication code used
-postConsumeRecoveryCode-title-1 = Backup authentication code consumed
-postConsumeRecoveryCode-description-1 = You have successfully consumed a backup authentication code from the following device:
+postConsumeRecoveryCode-title-2 = You used a backup authentication code
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = It was used on:
 postConsumeRecoveryCode-action = Manage account
-postNewRecoveryCodes-subject-1 = New backup authentication codes generated
-postNewRecoveryCodes-title-1 = New backup authentication codes generated
-postNewRecoveryCodes-description-1 = You have successfully generated new backup authentication codes from the following device:
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 backup authentication code left
+       *[other] { $numberRemaining } backup authentication codes left
+    }
+postNewRecoveryCodes-subject-2 = New backup authentication codes created
+postNewRecoveryCodes-title-2 = You created new backup authentication codes
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = They were created on:
 postNewRecoveryCodes-action = Manage account
-postRemoveAccountRecovery-subject = Account recovery key removed
-postRemoveAccountRecovery-title = Account recovery key removed
-postRemoveAccountRecovery-description = You have successfully removed an account recovery key for your { -product-firefox-account } using the following device:
+postRemoveAccountRecovery-subject-2 = Account recovery key deleted
+postRemoveAccountRecovery-title-2 = You deleted your account recovery key.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = It was deleted from:
 postRemoveAccountRecovery-action = Manage account
-postRemoveAccountRecovery-invalid-1 = This account recovery key can no longer be used to recover your account.
+postRemoveAccountRecovery-invalid-2 = You need an account recovery key to recover your { -brand-firefox } data if you forget your password.
 postRemoveSecondary-subject = Secondary email removed
 postRemoveSecondary-title = Secondary email removed
 # Variables:
@@ -577,6 +599,7 @@ subscriptionUpgrade-upgrade-info = You have successfully upgraded from { $produc
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Starting with your next bill, your charge will change from { $paymentAmountOld } per { $productPaymentCycleOld } to { $paymentAmountNew } per { $productPaymentCycleNew }. At that time you will also be charged a one-time fee of { $paymentProrated } to reflect the higher charge for the remainder of this { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = You will be charged a one-time fee of { $paymentProrated } to reflect your subscription’s higher price for the remainder of this { $productPaymentCycleOld }. Starting with your next bill, your charge will change from { $paymentAmountOld } per { $productPaymentCycleOld } to { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = If there is new software for you to install in order to use { $productName }, you will receive a separate email with download instructions.
