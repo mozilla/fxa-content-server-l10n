@@ -152,7 +152,7 @@ cs-sign-out-button = Kirjaudu ulos
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Ladattu
@@ -185,9 +185,9 @@ drop-down-menu-sign-out-error-2 = Valitettavasti uloskirjautumisen kanssa ilmeni
 
 flow-container-back = Takaisin
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Palautuskoodit
+get-data-trio-title-firefox-recovery-key = { -brand-firefox }-tilin palautusavain
 get-data-trio-download =
     .title = Lataa
 get-data-trio-copy =
@@ -247,14 +247,8 @@ nav-data-collection = Tietojen keruu ja käyttö
 nav-paid-subs = Maksetut tilaukset
 nav-email-comm = Sähköpostiviestintä
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Palautuskoodien vaihtamisessa ilmeni ongelma
-tfa-replace-code-success =
-    Uudet koodit on luotu. Talleta nämä kertakäyttöiset
-    koodit turvalliseen paikkaan — tarvitset niitä päästäksesi tilillesi, jos
-    mobiililaitteesi ei ole käytettävissäsi.
-tfa-replace-code-success-alert-2 = Tilin palautuskoodit päivitetty
 tfa-replace-code-1-2 = Vaihe 1/2
 tfa-replace-code-2-2 = Vaihe 2/2
 
@@ -364,19 +358,18 @@ display-name-success-alert-2 = Näyttönimi päivitetty
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Peruuta
 recovery-key-close-button = Sulje
 recovery-key-continue-button = Jatka
-recovery-key-created = Palautusavain on luotu. Talleta avain turvalliseen paikkaan, jonka löydät vaivatta myöhemmin — tarvitset avaimen päästäksesi takaisin tietoihisi, jos unohdat salasanasi.
 recovery-key-enter-password =
     .label = Kirjoita salasana
-recovery-key-page-title =
-    .title = Palautusavain
+recovery-key-page-title-1 =
+    .title = Tilin palautusavain
 recovery-key-step-1 = Vaihe 1/2
 recovery-key-step-2 = Vaihe 2/2
-recovery-key-success-alert-2 = Palautusavain luotu
+recovery-key-success-alert-3 = Tilin palautusavain luotu
 
 ## Add secondary email page
 
@@ -424,8 +417,6 @@ tfa-button-cancel = Peruuta
 tfa-button-finish = Viimeistele
 tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
 tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
-tfa-cannot-verify-code-3 = Palautuskoodisi vahvistamisessa ilmeni ongelma
-tfa-incorrect-recovery-code = Virheellinen palautuskoodi
 tfa-enabled = Kaksivaiheinen todennus käytössä
 tfa-scan-this-code =
     Lue tämä QR-koodi käyttäen jotain <linkExternal>näistä
@@ -445,15 +436,6 @@ tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
 tfa-enter-totp = Kirjoita nyt turvallisuuskoodi todennussovelluksesta.
 tfa-input-enter-totp =
     .label = Kirjoita turvallisuuskoodi
-tfa-save-these-codes =
-    Tallenna nämä kertakäyttökoodit turvalliseen paikkaan
-    sellaista hetkeä varten, kun sinulla ei ole mobiililaitettasi.
-tfa-enter-code-to-confirm =
-    Kirjoita yksi palautuskoodeista varmistaaksesi,
-    että ne on sinulla tallennettuna. Tarvitset koodin, jos et voi käyttää
-    laitettasi ja tarvitset pääsyn tiliisi.
-tfa-enter-recovery-code =
-    .label = Kirjoita palautuskoodi
 
 ##
 
@@ -502,25 +484,22 @@ row-defaults-action-change = Muuta
 row-defaults-action-disable = Poista käytöstä
 row-defaults-status = Ei mitään
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Palautusavain
+rk-header-1 = Tilin palautusavain
 rk-enabled = Käytössä
 rk-not-set = Ei asetettu
 rk-action-create = Luo
 rk-action-remove = Poista
-rk-cannot-refresh = Palautusavaimen päivittämisessä ilmeni ongelma.
+rk-cannot-refresh-1 = Valitettavasti tilin palautusavaimen päivittämisessä oli ongelma.
 rk-key-removed-2 = Tilin palautusavain poistettu
 rk-cannot-remove-key = Tilisi palautusavainta ei voitu poistaa.
-rk-refresh-key = Päivitä palautusavain
+rk-refresh-key-1 = Päivitä tilin palautusavain
 rk-content-explain = Palauta tietosi kun unohdat salasanasi.
 rk-content-reset-data = Miksi salasanan nollaaminen nollaa myös tietoni?
 rk-cannot-verify-session-4 = Valitettavasti istunnon vahvistamisessa oli ongelma
-rk-remove-modal-heading = Poistetaanko palautusavain?
-rk-remove-modal-content =
-    Jos nollaat salasanasi, et voi käyttää palautusavainta
-    saadaksesi tietosi takaisin käyttöösi. Tätä toimintoa ei voi kumota.
-rk-refresh-error = Valitettavasti palautusavaimen päivittämisessä ilmeni ongelma.
+rk-remove-modal-heading-1 = Poistetaanko tilin palautusavain?
+rk-refresh-error-1 = Valitettavasti tilin palautusavaimen päivittämisessä oli ongelma.
 rk-remove-error-2 = Tilisi palautusavainta ei voitu poistaa
 
 ## Secondary email sub-section on main Settings page
@@ -554,9 +533,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Tee ensisijaiseksi
 se-default-content = Käytä tiliäsi, jos et voi kirjautua ensisijaiseen sähköpostiosoitteeseesi.
-se-content-note =
-    Huomio: toissijainen sähköposti ei palauta tietojasi — tarvitset
-    <a>palautusavaimen</a> sitä varten.
 # Default value for the secondary email
 se-secondary-email-none = Ei mitään
 
@@ -582,11 +558,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Valitettavasti istunnon vahvistamisessa oli ongelma
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
-tfa-row-disable-modal-explain =
-    Et voi kumota tätä toimintoa. Sinulla on myös
-    mahdollisuus <linkExternal>uusia palautuskoodisi</linkExternal>.
 tfa-row-cannot-disable-2 = Kaksivaiheista todennusta ei voitu poistaa käytöstä
-tfa-row-change-modal-heading = Vaihdetaanko palautusavaimet?
 tfa-row-change-modal-confirm = Vaihda
 tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 
