@@ -150,7 +150,7 @@ cs-sign-out-button = Allgofnodi
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Wedi eu llwytho i lawr
@@ -183,9 +183,11 @@ drop-down-menu-sign-out-error-2 = Ymddiheuriadau, bu anhawster wrth i chi allgof
 
 flow-container-back = Nôl
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Codau Adfer
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Allwedd adfer cyfrif { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Codau dilysu wrth gefn { -brand-firefox }
 get-data-trio-download =
     .title = Llwytho i Lawr
 get-data-trio-copy =
@@ -245,14 +247,9 @@ nav-data-collection = Casglu a'r Defnydd o Ddata
 nav-paid-subs = Tanysgrifiadau Taledig
 nav-email-comm = Cyfathrebu Trwy E-bost
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Bu anhawster amnewid eich codau adfer.
-tfa-replace-code-success =
-    Mae codau newydd wedi'u creu. Cadwch codau defnydd
-    un-waith hyn mewn man diogel — bydd eu hangen arnoch i gael mynediad i'ch cyfrif os nad yw
-    eich dyfais symudol gyda chi.
-tfa-replace-code-success-alert-2 = Diweddarwyd codau adfer cyfrifon.
+tfa-replace-code-error-3 = Bu anhawster wrth amnewid eich codau dilysu wrth gefn
 tfa-replace-code-1-2 = Cam 1 o 2
 tfa-replace-code-2-2 = Cam 2 o 2
 
@@ -362,19 +359,15 @@ display-name-success-alert-2 = Diweddarwyd yr enw dangos
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Diddymu
 recovery-key-close-button = Cau
 recovery-key-continue-button = Parhau
-recovery-key-created = Mae eich allwedd adfer wedi'i chreu. Gwnewch yn siŵr eich bod yn cadw'r allwedd mewn man diogel y gallwch chi ddod o hyd iddi yn hawdd yn nes ymlaen — bydd angen yr allwedd arnoch i adennill mynediad i'ch data os byddwch chi'n anghofio'ch cyfrinair.
 recovery-key-enter-password =
     .label = Rhowch gyfrinair
-recovery-key-page-title =
-    .title = Allwedd adfer
 recovery-key-step-1 = Cam 1 o 2
 recovery-key-step-2 = Cam 2 o 2
-recovery-key-success-alert-2 = Crëwyd yr allwedd adfer.
 
 ## Add secondary email page
 
@@ -422,8 +415,6 @@ tfa-button-cancel = Diddymu
 tfa-button-finish = Gorffen
 tfa-incorrect-totp = Cod dilysu dau gam annilys
 tfa-cannot-retrieve-code = Bu anhawster wrth adfer eich cod.
-tfa-cannot-verify-code-3 = Bu anhawster wrth gadarnhau eich cod adfer.
-tfa-incorrect-recovery-code = Cod adfer anghywir
 tfa-enabled = Mae dilysu dau gam wedi ei alluogi
 tfa-scan-this-code =
     Sganiwch y cod QR hwn gan ddefnyddio un o'r <linkExternal>
@@ -443,15 +434,6 @@ tfa-enter-secret-key = Rhowch yr allwedd gyfrinachol yma i'ch ap dilysu:
 tfa-enter-totp = Nawr nodwch y cod diogelwch o'r ap dilysu.
 tfa-input-enter-totp =
     .label = Rhowch y cod dilysu
-tfa-save-these-codes =
-    Cadwch y codau defnydd unwaith hyn mewn man diogel
-    pan nad yw eich dyfais symudol gennych.
-tfa-enter-code-to-confirm =
-    Rhowch un o'ch codau adfer nawr i gadarnhau
-    eich bod wedi ei gadw. Bydd angen cod arnoch os byddwch chi'n colli'ch dyfais
-    ac eisiau cael mynediad i'ch cyfrif.
-tfa-enter-recovery-code =
-    .label = Rhowch y cod adfer
 
 ##
 
@@ -500,25 +482,17 @@ row-defaults-action-change = Newid
 row-defaults-action-disable = Analluogi
 row-defaults-status = Dim
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Allwedd adfer
 rk-enabled = Galluogwyd
 rk-not-set = Heb ei Osod
 rk-action-create = Creu
 rk-action-remove = Tynnu
-rk-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer
 rk-key-removed-2 = Tynnwyd yr allwedd adfer cyfrif
 rk-cannot-remove-key = Nid oedd modd dileu allwedd adfer eich cyfrif.
-rk-refresh-key = Adnewyddu'r allwedd adfer
 rk-content-explain = Adfer eich manylion pan fyddwch yn anghofio'ch cyfrinair.
 rk-content-reset-data = Pam mae ailosod fy nghyfrinair yn ailosod fy nata?
 rk-cannot-verify-session-4 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
-rk-remove-modal-heading = Dileu'r allwedd adfer?
-rk-remove-modal-content =
-    Os byddwch yn ailosod eich cyfrinair, ni fydd modd i chi
-    defnyddio'ch allwedd adfer i gael mynediad i'ch data. Nid oes modd i chi ddadwneud y weithred hon.
-rk-refresh-error = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer
 rk-remove-error-2 = Nid oedd modd dileu allwedd adfer eich cyfrif.
 
 ## Secondary email sub-section on main Settings page
@@ -552,7 +526,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Gwneud yn brif gyfrif
 se-default-content = Cael mynediad i'ch cyfrif os na allwch fewngofnodi i'ch prif e-bost.
-se-content-note = Sylwch: Fydd eich ail e-bost ddim yn adfer eich manylion — byddwch angen <a>allwedd adfer</a> ar gyfer hynny.
 # Default value for the secondary email
 se-secondary-email-none = Dim
 
@@ -576,11 +549,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
 tfa-row-disable-modal-heading = Analluogi dilysu dau ffactor?
 tfa-row-disable-modal-confirm = Analluogi
-tfa-row-disable-modal-explain =
-    Fyddwch chi ddim yn gallu dadwneud y weithred hon.
-    Mae gennych hefyd y dewis o <linkExternal>greu codau adfer newydd</linkExternal>.
 tfa-row-cannot-disable-2 = Nid oedd modd analluogi dilysu dau gam.
-tfa-row-change-modal-heading = Newid y codau adfer?
 tfa-row-change-modal-confirm = Newid
 tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
 
