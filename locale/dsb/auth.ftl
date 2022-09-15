@@ -205,6 +205,14 @@ codes-reminder-description-part-two = Napórajśo něnto nowe kody, až njeby wy
 codes-reminder-description-two-left = Maśo jano dwa koda wušej.
 lowRecoveryCodes-action-2 = Kody napóraś
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Žedne kody za zawěsćeńsku awtentifikaciju wušej
+        [one] Jano { $numberRemaining } koda za zawěsćeńsku awtentifikaciju wušej
+        [two] Jano { $numberRemaining } kody za zawěsćeńsku awtentifikaciju wušej
+        [few] Jano { $numberRemaining } kody za zawěsćeńsku awtentifikaciju wušej
+       *[other] Jano { $numberRemaining } kody za zawěsćeńsku awtentifikaciju wušej
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe pśizjawjenje pla { $clientName }
@@ -232,6 +240,13 @@ passwordChangeRequired-different-password-plaintext = Wažny: Wubjeŕśo druge g
 passwordReset-subject = Gronidło jo se zaktualizěrowało
 passwordReset-title = Wašo kontowe gronidło jo se změniło
 passwordReset-description = Musyśo swójo nowe gronidło na drugich rědach zapódaś, aby ze synchronizaciju pókšacował.
+passwordResetAccountRecovery-subject-1 = Gronidło jo se zaktualizěrowało z pomocu kontowego wótnowjeńskego kluca
+passwordResetAccountRecovery-title-1 = Wašo kontowe gronidło jo se slědk stajiło z kontowym wótnowjeńskim klucom
+passwordResetAccountRecovery-description-1 = Sćo wuspěšnje slědk stajił swójo gronidło z pomocu kontowego wótnowjeńskego kluca ze slědujucego rěda:
+passwordResetAccountRecovery-action-1 = Nowy kontowy wótnowjeński kluc napóraś
+passwordResetAccountRecovery-regen-required-1 = Musyśo nowy kontowy wótnowjeński kluc napóraś.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-create-key-1 = Nowy kontowy wótnowjeński kluc napóraś:
 postAddAccountRecovery-subject-2 = Kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title2 = Sćo napórał nowy kontowy wótnowjeński kluc
 # Information on the browser and device triggering this string follows.
@@ -259,7 +274,13 @@ postChangePrimary-title = Nowa primarna e-mailowa adresa
 #  $email (String) - A user's email address
 postChangePrimary-description = Sćo swóju primarnu e-mailowu adresu wuspěšnje do { $email } změnił. Toś ta adresa jo něnto wašo wužywarske mě za pśizjawjenje pla wašogo konta { -product-firefox-account } a aby wy wěstotne powěsći a pśizjawjeńske
 postChangePrimary-action = Konto zastojaś
+postConsumeRecoveryCode-subject-1 = Awtentifikaciski kod za zawěsćenje jo se wužył
+postConsumeRecoveryCode-title-1 = Awtentifikaciski kod za zawěsćenje jo se pśetrjebał
+postConsumeRecoveryCode-description-1 = Sćo wuspěšnje pśetrjebał kody za zawěsćeńsku awtentifikaciju ze slědujucego rěda:
 postConsumeRecoveryCode-action = Konto zastojaś
+postNewRecoveryCodes-subject-1 = Nowy awtentifikaciski kod za zawěsćenje jo se napórał
+postNewRecoveryCodes-title-1 = Nowy awtentifikaciski kod za zawěsćenje jo se napórał
+postNewRecoveryCodes-description-1 = Sćo wuspěšnje napórał kody za zawěsćeńsku awtentifikaciju ze slědujucego rěda:
 postNewRecoveryCodes-action = Konto zastojaś
 postRemoveAccountRecovery-subject = Kontowy wótnowjeński kluc jo se wótwónoźeł
 postRemoveAccountRecovery-title = Kontowy wótnowjeński kluc jo se wótwónoźeł
