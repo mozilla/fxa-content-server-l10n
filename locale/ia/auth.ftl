@@ -73,14 +73,6 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Discarga { $pr
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Discarga { $productName } de { -app-store }">
-another-desktop-device = O, installa sur <a data-l10n-name="anotherDeviceLink">un altere apparato scriptorio</a>.
-another-device = O, installa sur <a data-l10n-name="anotherDeviceLink">un altere apparato</a>.
-automated-email-change =
-    Isto es un e-mail automatisate; si tu non autorisa iste action, alora <a data-l10n-name="passwordChangeLink">cambia tu contrasigno</a>.
-    Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
-# Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Isto es un e-mail automatisate; si tu non habeva addite un nove apparato a tu { -product-firefox-account }, tu debe cambiar tu contrasigno immediatemente a { $passwordChangeLink }
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Supporto</a>.
 automated-email-no-action-plaintext = Isto es un email automatisate. Si tu ha recipite illo per error, tu non besonia de facer alco.
@@ -240,13 +232,8 @@ passwordChangeRequired-different-password-plaintext = Importante: elige un contr
 passwordReset-subject = Contrasigno actualisate
 passwordReset-title = Le contrasigno de tu conto ha essite cambiate
 passwordReset-description = Il essera necesse que tu insere tu nove contrasigno sur altere apparatos pro continuar le synchronisation.
-passwordResetAccountRecovery-subject-1 = Contrasigno actualisate per clave de recuperation del conto
-passwordResetAccountRecovery-title-1 = Tu contrasigno de conto era reinitialisar con un clave de recuperation del conto
-passwordResetAccountRecovery-description-1 = Tu ha con successo reinitialisate tu contrasigno per un clave de recuperation del conto ab le sequente apparato:
-passwordResetAccountRecovery-action-1 = Crear nove clave de recuperation del conto
-passwordResetAccountRecovery-regen-required-1 = Tu debera generar un nove clave de recuperation del conto.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = Crear nove clave de recuperation del conto:
+passwordResetAccountRecovery-subject-2 = Tu contrasigno ha essite remontate
+passwordResetAccountRecovery-title-2 = Contrasigno remontate con successo
 postAddAccountRecovery-subject-2 = Clave de recuperation del conto create
 postAddAccountRecovery-title2 = Tu ha create un nove clave de recuperation del conto
 # Information on the browser and device triggering this string follows.
@@ -274,19 +261,10 @@ postChangePrimary-title = Nove e-mail primari
 #  $email (String) - A user's email address
 postChangePrimary-description = Tu ha correctemente cambiate tu adresse de e-mail primari a { $email }. Iste adresse es ora tu nomine de usator pro aperir session a tu { -product-firefox-account }, e pro reciper notificationes de securitate e confirmationes de accesso.
 postChangePrimary-action = Gerer le conto
-postConsumeRecoveryCode-subject-1 = Codice de authentication de salvamento usate
-postConsumeRecoveryCode-title-1 = Codice de authentication de salvamento consumite
-postConsumeRecoveryCode-description-1 = Tu con successo ha consumite un codice de authentication de salvamento ab le sequente apparato:
 postConsumeRecoveryCode-action = Gerer le conto
-postNewRecoveryCodes-subject-1 = Nove codices de authentication de salvamento generate
-postNewRecoveryCodes-title-1 = Nove codices de authentication de salvamento generate
-postNewRecoveryCodes-description-1 = Tu con successo ha generate nove codices de authentication de salvamento ab le sequente apparato:
+postNewRecoveryCodes-subject-2 = Nove codice authentication del salvamento create
 postNewRecoveryCodes-action = Gerer le conto
-postRemoveAccountRecovery-subject = Clave de recuperation del conto removite
-postRemoveAccountRecovery-title = Clave de recuperation del conto removite
-postRemoveAccountRecovery-description = Tu ha removite con successo un clave de recuperation de tu { -product-firefox-account } per le sequente apparato:
 postRemoveAccountRecovery-action = Gerer le conto
-postRemoveAccountRecovery-invalid-1 = Iste clave de recuperation de conto non plus pote esser usate pro recuperar tu conto.
 postRemoveSecondary-subject = E-mail secundari removite
 postRemoveSecondary-title = E-mail secundari removite
 # Variables:
