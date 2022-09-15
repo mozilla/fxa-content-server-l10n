@@ -289,10 +289,26 @@ postChangePrimary-title = Nove e-mail primari
 #  $email (String) - A user's email address
 postChangePrimary-description = Tu ha correctemente cambiate tu adresse de e-mail primari a { $email }. Iste adresse es ora tu nomine de usator pro aperir session a tu { -product-firefox-account }, e pro reciper notificationes de securitate e confirmationes de accesso.
 postChangePrimary-action = Gerer le conto
+postConsumeRecoveryCode-title-2 = Tu ha usate un codice de authentication de salvamento
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Illo era usate sur:
 postConsumeRecoveryCode-action = Gerer le conto
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 codice authentication de salvamento restate
+       *[other] { $numberRemaining } codices authentication de salvamento restate
+    }
 postNewRecoveryCodes-subject-2 = Nove codice authentication del salvamento create
+postNewRecoveryCodes-title-2 = Tu ha create nove codices authentication de salvamento
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Illos era create sur:
 postNewRecoveryCodes-action = Gerer le conto
+postRemoveAccountRecovery-subject-2 = Clave recuperation del conto delite
+postRemoveAccountRecovery-title-2 = Tu ha delite tu clave recuperation del conto.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Illo era delite ex:
 postRemoveAccountRecovery-action = Gerer le conto
+postRemoveAccountRecovery-invalid-2 = Te besonia un clave recuperation del conto pro recuperar tu datos de { -brand-firefox } si tu oblida tu contrasigno.
 postRemoveSecondary-subject = E-mail secundari removite
 postRemoveSecondary-title = E-mail secundari removite
 # Variables:
@@ -583,6 +599,7 @@ subscriptionUpgrade-upgrade-info = Tu ha promovite con successo ab { $productNam
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = A comenciar con tu proxime factura, tu amonta cambiara de { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }. In ille tempore te sera cargate un honorario una tantum de { $paymentProrated } pro reflecter le major amonta pro le resto de iste { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Tu sera cargate un un-vice onere de { $paymentProrated } pro reflecter tu precio de abonamento superior pro le resto de iste { $productPaymentCycleOld }. Comenciante con tu factura successive, tu carga cambiara de { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Si il habera nove software pro te a installar pro usar { $productName }, tu recipera un email separate con instructiones pro discargamentos.
