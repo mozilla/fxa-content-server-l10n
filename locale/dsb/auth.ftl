@@ -83,6 +83,7 @@ automated-email-change =
 automated-email-change-plaintext = To jo awtomatiska mejlka; jolic njejsćo swójomu kontoju { -product-firefox-account } nowy rěd pśidał, změńśo pšosym ned swójo gronidło na { $passwordChangeLink }
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink"> pomocy { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = To jo awtomatizěrowana mejlka. Jolic sćo dostał ju womylnje, njetrjebaśo nic cyniś.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = To jo awtomatizěrowana mejlka; jolic njejsćo toś tu akciju awtorizěrował, změńśo pšosym swójo gronidło.
 automated-email-reset =
@@ -197,18 +198,13 @@ fraudulentAccountDeletion-contact = Jolic pšašanja maśo, stajśo se z našym 
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jolic pšašanja maśo, stajśo se pšosym z našym teamom pomocy do zwiska: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Mało wótnowjeńskich kodow wušej
-codes-reminder-description = Smy zwěsćili, až mało wótnowjeńskich kodow wužywaśo. Pšosym rozwažujśo, lěc nowe kody napórajośo, aby se wobinuł zastajenja swójogo konta.
-codes-generate = Kody napóraś
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Kody napóraś
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] { $numberRemaining } wótnowjeński kod wušej
-        [two] { $numberRemaining } wótnowjeńskej koda wušej
-        [few] { $numberRemaining } wótnowjeńske kody wušej
-       *[other] { $numberRemaining } wótnowjeńskich kodow wušej
-    }
+codes-reminder-title-zero = Njamaśo wěcej kody za zawěsćeńsku awtentfikaciju!
+codes-reminder-title-one = Wužywaśo južo swój slědny kod za zawěsćeńsku awtentifikaciju
+codes-reminder-title-two = Jo cas, dalšne kody za zawěsćeńsku awtentifikaciju napóraś
+codes-reminder-description-part-two = Napórajśo něnto nowe kody, až njeby wy se pózdźej swóje daty zgubił
+codes-reminder-description-two-left = Maśo jano dwa koda wušej.
+lowRecoveryCodes-action-2 = Kody napóraś
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe pśizjawjenje pla { $clientName }
@@ -236,13 +232,6 @@ passwordChangeRequired-different-password-plaintext = Wažny: Wubjeŕśo druge g
 passwordReset-subject = Gronidło jo se zaktualizěrowało
 passwordReset-title = Wašo kontowe gronidło jo se změniło
 passwordReset-description = Musyśo swójo nowe gronidło na drugich rědach zapódaś, aby ze synchronizaciju pókšacował.
-passwordResetAccountRecovery-subject = Gronidło jo se zaktualizěrowało z pomocu wótnowjeńskego kluca
-passwordResetAccountRecovery-title = Wašo kontowe gronidło jo se slědk stajiło z wótnowjeńskim klucom
-passwordResetAccountRecovery-description = Sćo wuspěšnje slědk stajił swójo gronidło z pomocu wótnowjeńskego kluca ze slědujucego rěda:
-passwordResetAccountRecovery-action = Nowy wótnowjeński kluc napóraś
-passwordResetAccountRecovery-regen-required = Musyśo nowy wótnowjeński kluc napóraś.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Nowy wótnowjeński kluc napóraś:
 postAddAccountRecovery-subject-2 = Kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title2 = Sćo napórał nowy kontowy wótnowjeński kluc
 # Information on the browser and device triggering this string follows.
@@ -270,19 +259,12 @@ postChangePrimary-title = Nowa primarna e-mailowa adresa
 #  $email (String) - A user's email address
 postChangePrimary-description = Sćo swóju primarnu e-mailowu adresu wuspěšnje do { $email } změnił. Toś ta adresa jo něnto wašo wužywarske mě za pśizjawjenje pla wašogo konta { -product-firefox-account } a aby wy wěstotne powěsći a pśizjawjeńske
 postChangePrimary-action = Konto zastojaś
-postConsumeRecoveryCode-subject = Wótnowjeński kod se wužywa
-postConsumeRecoveryCode-title = Wótnowjeński kod jo se wužył
-postConsumeRecoveryCode-description = Sćo wuspěšnje wužył wótnowjeński kod ze slědujucego rěda:
 postConsumeRecoveryCode-action = Konto zastojaś
-postNewRecoveryCodes-subject = Nowy wótnowjeński kod napórany
-postNewRecoveryCodes-title = Nowy wótnowjeński kod napórany
-postNewRecoveryCodes-description = Sćo wuspěšnje napórał nowe wótnowjeńske kody ze slědujucego rěda:
 postNewRecoveryCodes-action = Konto zastojaś
 postRemoveAccountRecovery-subject = Kontowy wótnowjeński kluc jo se wótwónoźeł
 postRemoveAccountRecovery-title = Kontowy wótnowjeński kluc jo se wótwónoźeł
 postRemoveAccountRecovery-description = Sćo wuspěšnje wótwónoźeł wótnowjeński kluc za swójo konto { -product-firefox-account } z pomocu slědujucego rěda:
 postRemoveAccountRecovery-action = Konto zastojaś
-postRemoveAccountRecovery-invalid = Toś ten wótnowjeński kluc njedajo se wěcej wužywaś, aby wašo konto wótnowił.
 postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
 postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła
 # Variables:
