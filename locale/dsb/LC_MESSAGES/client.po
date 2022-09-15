@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-13 06:38+0000\n"
-"PO-Revision-Date: 2022-09-15 09:21+0000\n"
+"PO-Revision-Date: 2022-09-15 09:25+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
@@ -1233,11 +1233,11 @@ msgstr "Kod za zawěsćeńsku awtentifikaciju wobkšuśiś"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Aby zasej pśistup k swójomu kontoju dostał, jolic sćo zgubił swój rěd, zapódajśo pšosym jaden ze swójich skłaźonych kodow za zawěsćeńsku awtentifikaciju."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Kod za zawěsćeńsku awtentifikaciju"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1347,7 +1347,7 @@ msgstr "Wašo konto jo gótowo!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Nowy kontowy wótnowjeński kluc napóraś"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1441,7 +1441,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Zapódajśo kod za zawěsćeńsku awtentifikaciju"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
@@ -1449,7 +1449,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Zapódajśo 10-městnowy kod za zawěsćeńsku awtentifikaciju"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1615,7 +1615,7 @@ msgstr "Kšac 1 z 2: Gronidło znowego zapódaś"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Zapódajśo swójo gronidło, aby swój kontowy wótnowjeński kluc wiźeł."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1843,7 +1843,7 @@ msgstr "<span class=\"number\">4</span>Pśizjawśo se ze swójim kontom"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Šćitajśo swóje daty z kontowym wótnowjeńskim klucom"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1855,19 +1855,19 @@ msgstr "Dokulaž toś te daty su wažne za wašu wěstotu, Firefox je wulašujo,
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "Wobstarajśo se kontowy wótnowjeński kluc"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "Pšosym wobkšuśćo swójo gronidło za %(escapedEmail)s, aby swój kontowy wótnowjeński kluc napórał."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Zapódajśo swój kontowy wótnowjeński kluc, aby wobkšuśił, až sćo kopiju składł."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "Kontowy wótnowjeński kluc składowaś"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -2033,7 +2033,7 @@ msgstr "Aby Firefox na swójom mobilnem rěźe ześěgnuł, źaržćo kameru rě
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Or, send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "Abo sćelśo sebje <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">ześěgnjeński wótkaz.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "I’m ready to sync devices"

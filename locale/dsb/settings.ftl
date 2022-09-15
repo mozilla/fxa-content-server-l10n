@@ -152,7 +152,7 @@ cs-sign-out-button = Wótzjawiś
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Ześěgnjony
@@ -185,9 +185,11 @@ drop-down-menu-sign-out-error-2 = Bóžko jo pśi wótzjawjanju problem nastał
 
 flow-container-back = Slědk
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Wótnowjeńske kody
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Kontowy wótnowjeński kluc { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Kody za zawěsćeńsku awtentifikaciju { -brand-firefox }
 get-data-trio-download =
     .title = Ześěgnuś
 get-data-trio-copy =
@@ -247,14 +249,14 @@ nav-data-collection = Zběranje a wužywanje datow
 nav-paid-subs = Zapłaśone abonementy
 nav-email-comm = E-mailowa komunikacija
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Pśi wuměnjanju wašych wótnowjeńskich kodow jo problem nastał
-tfa-replace-code-success =
-    Nowe kody su s napórali. Składujśo je za jadnorazowe wužywanje
+tfa-replace-code-error-3 = Pśi wuměnjanju wašych kodow za zawěsćeńsku awtentifikaciju jo problem nastał
+tfa-replace-code-success-1 =
+    Nowe kody su s napórali. Składujśo toś te kody za zawěsćeńsku awtentifikaciju za jadnorazowe wužywanje
     na wěstem městnje – trjebaśo je za pśistup k swójomu kontoju, jolic njamaśo
     swój mobilny rěd.
-tfa-replace-code-success-alert-2 = Kontowe wótnowjeńske kody su se zaktualizěrowali
+tfa-replace-code-success-alert-3 = Kontowe kody za zawěsćeńsku awtentifikaciu su se zaktualizěrowali
 tfa-replace-code-1-2 = Kšac 1 z 2
 tfa-replace-code-2-2 = Kšac 2 z 2
 
@@ -364,19 +366,19 @@ display-name-success-alert-2 = Zwobraznjeńske mě zaktualizěrowane
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Pśetergnuś
 recovery-key-close-button = Zacyniś
 recovery-key-continue-button = Dalej
-recovery-key-created = Waš wótnowjeński kluc jo se napórał. Składujśo kluc na wěstem městnje, kótarež móžośo pózdźej lažko zasej namakaś – trjebaśo kluc, aby zasej pśistup k swójim datam dostał, jolic sćo zabył swójo gronidło.
+recovery-key-created-1 = Waš kontowy wótnowjeński kluc jo se napórał. Składujśo kluc na wěstem městnje, kótarež móžośo pózdźej lažko zasej namakaś – trjebaśo kluc, aby zasej pśistup k swójim datam dostał, jolic sćo zabył swójo gronidło.
 recovery-key-enter-password =
     .label = Gronidło zapódaś
-recovery-key-page-title =
-    .title = Wótnowjeński kluc
+recovery-key-page-title-1 =
+    .title = Kontowy wótnowjeński kluc
 recovery-key-step-1 = Kšac 1 z 2
 recovery-key-step-2 = Kšac 2 z 2
-recovery-key-success-alert-2 = Wótnowjeński kluc jo se napórał
+recovery-key-success-alert-3 = Kontowy wótnowjeński kluc jo se napórał
 
 ## Add secondary email page
 
@@ -424,8 +426,8 @@ tfa-button-cancel = Pśetergnuś
 tfa-button-finish = Dokóńcyś
 tfa-incorrect-totp = Wopacny kod za dwójokšacowu awtentifikaciju
 tfa-cannot-retrieve-code = Pśi wótwołowanju wašogo koda jo problem nastał.
-tfa-cannot-verify-code-3 = Pśi wobkšuśenju wašych wótnowjeńskich kodow jo problem nastał
-tfa-incorrect-recovery-code = Wopacny wótnowjeński kod
+tfa-cannot-verify-code-4 = Pśi wobkśuśenju wašych kodow za zawěsćeńsku awtentifikaciju jo problem nastał
+tfa-incorrect-recovery-code-1 = Wopacny kod za zawěsćeńsku awtentifikaciju
 tfa-enabled = Dwójokšacowa awtentifikacija jo se zmóžniła
 tfa-scan-this-code = Scannujśo toś ten QR-kod z pomocu jadnogo z <linkExternal>toś tych awtentifikaciskich nałoženjow</linkExternal>.
 # This is the image alt text for a QR code.
@@ -441,13 +443,9 @@ tfa-enter-secret-key = Zapódajśo toś ten pótajmny kluc do swójogo awtentifi
 tfa-enter-totp = Zapódajśo něnto wěstotny kod z awtentifikaciskego nałoženja.
 tfa-input-enter-totp =
     .label = Wěstotny kod zapódaś
-tfa-save-these-codes = Składujśo toś te kody za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
-tfa-enter-code-to-confirm =
-    Pšosym zapódajśo něnto jaden ze swójich wótnowjeńskich
-    kodow, aby wobkšuśił, až sćo jen składł. Trjebaśo kod, jolic swój rěd zgubijośo
-    a cośo pśistup k swójomu kontoju.
-tfa-enter-recovery-code =
-    .label = Wótnowjeński kod zapódaś
+tfa-save-these-codes-1 = Składujśo toś te kody za zawěsćeńsku awtentifikaciju za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
+tfa-enter-recovery-code-1 =
+    .label = Zapódajśo kod za zawěsćeńsku awtentifikaciju
 
 ##
 
@@ -496,25 +494,18 @@ row-defaults-action-change = Změniś
 row-defaults-action-disable = Znjemóžniś
 row-defaults-status = Žeden
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Wótnowjeński kluc
+rk-header-1 = Kontowy wótnowjeński kluc
 rk-enabled = Zmóžnjony
 rk-not-set = Njepóstajony
 rk-action-create = Napóraś
 rk-action-remove = Wótwónoźeś
-rk-cannot-refresh = Bóžko jo pśi aktualizěrowanju wótnowjeńskego kluca problem nastał
 rk-key-removed-2 = Kontowy wótnowjeński kluc jo se wótwónoźeł
 rk-cannot-remove-key = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś.
-rk-refresh-key = Wótnowjeński kluc aktualizěrowaś
 rk-content-explain = Wótnowśo swóje informacije, gaž sćo zabył swójo gronidło.
 rk-content-reset-data = Cogodla se móje daty slědk stajaju, gaž swójo gronidło slědk stajam?
 rk-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
-rk-remove-modal-heading = Wótnowjeński kluc wótwónoźeś?
-rk-remove-modal-content =
-    Jolic wašo gronidło slědk stajaśo, njamóžośo swój
-    wótnowjeński kluc wužywaś, aby pśistup k swójim datam měł. Njamóžośo toś tu akciju anulěrowaś.
-rk-refresh-error = Bóžko jo pśi aktualizěrowanju wótnowjeńskego kluca problem nastał
 rk-remove-error-2 = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś
 
 ## Secondary email sub-section on main Settings page
@@ -548,9 +539,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = K primarnej adresy cyniś
 se-default-content = Mějśo pśistup k swójomu kontoju, jolic njamóžośo se pla swójeje primarneje e-mailoweje adrese pśizjawiś.
-se-content-note =
-    Pokazka: Sekundarna e-mailowa adresa waše informacije njewótnowijo – trjebaśo
-    <a>wótnowjeński kluc</a> za to.
 # Default value for the secondary email
 se-secondary-email-none = Žedna
 
@@ -576,11 +564,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
-tfa-row-disable-modal-explain =
-    Njamóžośo toś tu akciju anulěrowaś. Maśo teke
-    móžnosć <linkExternal>swój wótnowjeńske kody wuměniś</linkExternal>.
 tfa-row-cannot-disable-2 = Dwójokšacowa awtentifikacija njedajo se znjemóžniś
-tfa-row-change-modal-heading = Wótnowjeńske kody změniś?
 tfa-row-change-modal-confirm = Změniś
 tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 
