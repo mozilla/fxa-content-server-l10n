@@ -250,6 +250,11 @@ nav-email-comm = Cyfathrebu Trwy E-bost
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Bu anhawster wrth amnewid eich codau dilysu wrth gefn
+tfa-replace-code-success-1 =
+    Mae codau newydd wedi'u creu. Cadwch y codau dilysu wrth
+    gefn defnydd un-amser hyn mewn man diogel - bydd eu hangen arnoch i gael mynediad i'ch cyfrif os nad yw
+    eich dyfais symudol gyda chi.
+tfa-replace-code-success-alert-3 = Diweddarwyd codau dilysu wrth gefn eich cyfrif
 tfa-replace-code-1-2 = Cam 1 o 2
 tfa-replace-code-2-2 = Cam 2 o 2
 
@@ -364,10 +369,14 @@ display-name-success-alert-2 = Diweddarwyd yr enw dangos
 recovery-key-cancel-button = Diddymu
 recovery-key-close-button = Cau
 recovery-key-continue-button = Parhau
+recovery-key-created-1 = Mae allwedd adfer eich cyfrif wedi'i chreu. Gwnewch yn siŵr eich bod chi'n cadw'r allwedd mewn man diogel y gallwch chi ddod o hyd iddo'n hawdd yn nes ymlaen - bydd angen yr allwedd arnoch i adennill mynediad i'ch data os byddwch chi'n anghofio'ch cyfrinair.
 recovery-key-enter-password =
     .label = Rhowch gyfrinair
+recovery-key-page-title-1 =
+    .title = Allwedd adfer cyfrif
 recovery-key-step-1 = Cam 1 o 2
 recovery-key-step-2 = Cam 2 o 2
+recovery-key-success-alert-3 = Crëwyd eich allwedd adfer cyfrif
 
 ## Add secondary email page
 
