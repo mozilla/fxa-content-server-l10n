@@ -223,6 +223,7 @@ passwordChangeRequired-different-password-plaintext = Mba’eguasu: eiporavo pet
 passwordReset-subject = Ñe’ẽñemi hekopyahúva
 passwordReset-title = Ne mba’ete ñe’ẽñemi oñemoambue
 passwordReset-description = Emoingeva’erã ñe’ẽñemi pyahu ne ambue mba’e’okápe oñepyrũjey hag̃ua ñembojuehe.
+passwordResetAccountRecovery-action-1 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 postAddAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã
 postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 # Information on the browser and device triggering this string follows.
