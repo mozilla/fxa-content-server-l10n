@@ -197,17 +197,7 @@ fraudulentAccountDeletion-contact = Jos sinulla on kysyttävää, ota yhteys <a 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jos sinulla on kysyttävää, ota yhteys tukitiimiimme: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Palautuskoodit vähissä
-codes-reminder-description = Huomasimme, että palautuskoodisi ovat vähissä. Kannattaa luoda uudet palautuskoodit, jotta sinua ei lukita ulos tililtäsi.
-codes-generate = Luo koodeja
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Luo koodeja
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] 1 palautuskoodi jäljellä
-       *[other] { $numberRemaining } palautuskoodia jäljellä
-    }
+codes-reminder-description-two-left = Sinulla on vain kaksi koodia jäljellä.
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Uusi kirjautuminen: { $clientName }
@@ -232,13 +222,9 @@ passwordChangeRequired-different-password-plaintext = Tärkeää: Valitse eri sa
 passwordReset-subject = Salasana päivitetty
 passwordReset-title = Tilisi salasana vaihdettiin
 passwordReset-description = Syötä uusi salasanasi muihin laitteisiisi jatkaaksesi synkronointia.
-passwordResetAccountRecovery-subject = Salasana päivitetty palautusavainta käyttäen
-passwordResetAccountRecovery-title = Tilisi salasana nollattiin palautusavaimella
-passwordResetAccountRecovery-description = Olet nollannut salasanasi palautusavaimella laitteella:
-passwordResetAccountRecovery-action = Luo uusi palautusavain
-passwordResetAccountRecovery-regen-required = Uusi palautusavain tarvitsee luoda.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Luo uusi palautusavain:
+passwordResetAccountRecovery-subject-1 = Salasana päivitetty tilin palautusavainta käyttäen
+passwordResetAccountRecovery-title-1 = Tilisi salasana nollattiin tilin palautusavaimella
+passwordResetAccountRecovery-action-1 = Luo uusi tilin palautusavain
 postAddAccountRecovery-subject-2 = Tilin palautusavain luotu
 postAddAccountRecovery-title2 = Loit uuden tilin palautusavaimen
 # This is asking whether the person who took the action is the recipient of the email.
@@ -264,19 +250,12 @@ postChangePrimary-title = Uusi ensisijainen sähköposti
 #  $email (String) - A user's email address
 postChangePrimary-description = Olet vaihtanut ensisijaiseksi sähköpostiosoitteeksi { $email }. Tämä osoite on nyt käyttäjätunnuksesi { -product-firefox-account }lle kirjautuessasi sekä osoite, johon tietoturvailmoitukset ja kirjautumisvahvistukset lähetetään.
 postChangePrimary-action = Hallinnoi tiliä
-postConsumeRecoveryCode-subject = Palautuskoodi käytetty
-postConsumeRecoveryCode-title = Palautuskoodi käytetty
-postConsumeRecoveryCode-description = Olet käyttänyt turvallisuuskoodin laitteella:
 postConsumeRecoveryCode-action = Hallinnoi tiliä
-postNewRecoveryCodes-subject = Uudet palautuskoodit on luotu
-postNewRecoveryCodes-title = Uudet palautuskoodit on luotu
-postNewRecoveryCodes-description = Olet luonut uudet palautuskoodit laitteella:
 postNewRecoveryCodes-action = Hallinnoi tiliä
 postRemoveAccountRecovery-subject = Tilin palautusavain poistettu
 postRemoveAccountRecovery-title = Tilin palautusavain poistettu
 postRemoveAccountRecovery-description = Olet poistanut tilin palautusavaimen { -product-firefox-account }ltäsi käyttäen seuraavaa laitetta:
 postRemoveAccountRecovery-action = Hallinnoi tiliä
-postRemoveAccountRecovery-invalid = Tätä palautusavainta ei voi enää käyttää tilisi palauttamiseen.
 postRemoveSecondary-subject = Toissijainen sähköposti poistettiin
 postRemoveSecondary-title = Toissijainen sähköposti poistettiin
 # Variables:
@@ -572,7 +551,6 @@ confirm-account = Vahvista tili
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Muista vahvistaa tilisi
 verificationReminderFirst-title-2 = Tervetuloa, käytössäsi on { -brand-firefox }!
-verificationReminderFirst-sub-description-2 = Älä jää paitsi tekniikkasta, joka asettaa sinut ja yksityisyytesi etusijalle.
 confirm-email-2 = Vahvista tili
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Vahvista tili
