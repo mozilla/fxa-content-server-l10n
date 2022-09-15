@@ -501,11 +501,18 @@ rk-enabled = Zmóžnjony
 rk-not-set = Njepóstajony
 rk-action-create = Napóraś
 rk-action-remove = Wótwónoźeś
+rk-cannot-refresh-1 = Bóžko jo pśi aktualizěrowanju kontowego wótnowjeńskego kluca problem nastał
 rk-key-removed-2 = Kontowy wótnowjeński kluc jo se wótwónoźeł
 rk-cannot-remove-key = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś.
+rk-refresh-key-1 = Kontowy wótnowjeński kluc aktualizěrowaś
 rk-content-explain = Wótnowśo swóje informacije, gaž sćo zabył swójo gronidło.
 rk-content-reset-data = Cogodla se móje daty slědk stajaju, gaž swójo gronidło slědk stajam?
 rk-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
+rk-remove-modal-heading-1 = Kontowy wótnowjeński kluc wótwónoźeś?
+rk-remove-modal-content-1 =
+    Jolic wašo gronidło slědk stajaśo, njamóžośo swój
+    kontowy wótnowjeński kluc wužywaś, aby pśistup k swójim datam měł. Njamóžośo toś tu akciju anulěrowaś.
+rk-refresh-error-1 = Bóžko jo pśi aktualizěrowanju kontowego wótnowjeńskego kluca problem nastał
 rk-remove-error-2 = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś
 
 ## Secondary email sub-section on main Settings page
@@ -539,6 +546,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = K primarnej adresy cyniś
 se-default-content = Mějśo pśistup k swójomu kontoju, jolic njamóžośo se pla swójeje primarneje e-mailoweje adrese pśizjawiś.
+se-content-note-1 =
+    Pokazka: Sekundarna e-mailowa adresa waše informacije njewótnowijo – trjebaśo
+    <a>kontowy wótnowjeński kluc</a> za to.
 # Default value for the secondary email
 se-secondary-email-none = Žedna
 
@@ -564,7 +574,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
+tfa-row-disable-modal-explain-1 =
+    Njamóžośo toś tu akciju anulěrowaś. Maśo teke
+    móžnosć <linkExternal>swóje kody za zawěsćeńsku awtentifikaciju wuměniś</linkExternal>.
 tfa-row-cannot-disable-2 = Dwójokšacowa awtentifikacija njedajo se znjemóžniś
+tfa-row-change-modal-heading-1 = Kody za zawěsćeńsku awtentifikaciju změniś?
 tfa-row-change-modal-confirm = Změniś
 tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.
 
