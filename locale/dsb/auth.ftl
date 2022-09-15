@@ -286,6 +286,7 @@ postRemoveAccountRecovery-subject = Kontowy wótnowjeński kluc jo se wótwóno�
 postRemoveAccountRecovery-title = Kontowy wótnowjeński kluc jo se wótwónoźeł
 postRemoveAccountRecovery-description = Sćo wuspěšnje wótwónoźeł wótnowjeński kluc za swójo konto { -product-firefox-account } z pomocu slědujucego rěda:
 postRemoveAccountRecovery-action = Konto zastojaś
+postRemoveAccountRecovery-invalid-1 = Toś ten kontowy wótnowjeński kluc njedajo se wěcej wužywaś, aby wašo konto wótnowił.
 postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
 postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła
 # Variables:
@@ -596,6 +597,8 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konto wobkšuśiś
 verificationReminderSecond-subject-2 = Njezabywajśo swójo konto wobkšuśiś
 verificationReminderSecond-title-2 = Njeskomuźćo { -brand-firefox }!
+verificationReminderSecond-description-3 = Pśed někotarymi dnjami sćo załožył { -product-firefox-account }, ale njejsćo jo wobkšuśił. Pšosym wobkšuśćo swójo konto w běgu 10 dnjow abo konto se awtomatiski wulašujo.
+verificationReminderSecond-sub-description-2 = Buźćo źěl našeje misije, internet do městna pśetworiś, kótaryž jo wótwórjony za kuždego.
 verificationReminderSecond-action-2 = Konto wobkšuśiś
 verify-title-2 = Wócyńśo internet z { -brand-firefox }
 verify-description = Wobkšuśćo swójo konto a wuwńoźćo nejlěpše z { -brand-firefox }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
@@ -604,6 +607,7 @@ verify-action-2 = Konto wobkšuśiś
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Sćo se pśizjawił pla { $clientName }?
+verifyLogin-description-2 = Wobkšuśćo, až sćo se pśizjawił, aby nam pomagał, wašo konto šćitaś.
 verifyLogin-subject-2 = Pśizjawjenje wobkšuśiś
 verifyLogin-action = Pśizjawjenje wobkšuśiś
 # Variables:
