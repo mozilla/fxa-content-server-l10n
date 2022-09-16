@@ -90,6 +90,10 @@ ios-download-plaintext = Instale o { $productName } pela App Store:
 another-device-plaintext = Instale o { $productName } em outro dispositivo:
 automated-email-change-2 = Se não foi você quem fez esta ação, <a data-l10n-name="passwordChangeLink">mude sua senha</a> agora mesmo.
 automated-email-support = Consulte mais informações no <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Se não foi você quem fez esta ação, mude sua senha agora mesmo:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Consulte mais informações no Suporte { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para obter mais informações, visite o <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este é um email automático. Se recebeu por engano, não precisa fazer nada.
@@ -249,6 +253,10 @@ passwordChangeRequired-different-password-plaintext = Importante: Escolha uma se
 passwordReset-subject = Senha atualizada
 passwordReset-title = A senha da sua conta foi alterada
 passwordReset-description = Você precisa digitar sua nova senha em outros dispositivos para continuar sincronizando.
+passwordResetAccountRecovery-subject-2 = Sua senha foi redefinida
+passwordResetAccountRecovery-title-2 = Senha redefinida com sucesso
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Você usou sua chave de recuperação de conta para atualizar sua senha no:
 postAddAccountRecovery-subject-2 = Criada chave de recuperação de conta
 postAddAccountRecovery-title2 = Você criou uma nova chave de recuperação de conta
 # Information on the browser and device triggering this string follows.
