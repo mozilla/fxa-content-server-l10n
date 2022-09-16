@@ -293,6 +293,9 @@ passwordResetAccountRecovery-title-2 = Επιτυχής επαναφορά κω�
 passwordResetAccountRecovery-description-2 = Χρησιμοποιήσατε το κλειδί ανάκτησης λογαριασμού σας για να ενημερώσετε τον κωδικό πρόσβασής σας από το:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
+passwordResetAccountRecovery-regen-required-mjml-1 = Θα χρειαστεί να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Θυμηθείτε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσετε αυτό που χρησιμοποιήσατε.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Θα χρειαστεί να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Θυμηθείτε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσετε αυτό που χρησιμοποιήσατε:
 postAddAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
 # Information on the browser and device triggering this string follows.
@@ -339,6 +342,7 @@ postRemoveAccountRecovery-title-2 = Διαγράψατε το κλειδί αν�
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Διαγράφηκε από το:
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
+postRemoveAccountRecovery-invalid-2 = Χρειάζεστε ένα κλειδί ανάκτησης λογαριασμού για να ανακτήσετε τα δεδομένα σας από το { -brand-firefox } εάν ξεχάσετε τον κωδικό πρόσβασής σας.
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 # Variables:
@@ -629,6 +633,7 @@ subscriptionUpgrade-upgrade-info = Κάνατε επιτυχή αναβάθμι�
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Ξεκινώντας από τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από { $paymentAmountOld } ανά { $productPaymentCycleOld } σε { $paymentAmountNew } ανά { $productPaymentCycleNew }. Θα χρεωθείτε επίσης { $paymentProrated } εφάπαξ λόγω της υψηλότερης χρέωσης για τον υπολειπόμενο χρόνο: { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Θα χρεωθείτε εφάπαξ το ποσό των { $paymentProrated } που αντιστοιχεί στην υψηλότερη τιμή της συνδρομής σας για το υπόλοιπο αυτού του { $productPaymentCycleOld }. Ξεκινώντας με τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από { $paymentAmountOld } ανά { $productPaymentCycleOld } σε { $paymentAmountNew } ανά { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Αν υπάρχει νέο λογισμικό που θα πρέπει να εγκαταστήσετε για να χρησιμοποιήσετε το { $productName }, θα λάβετε ξεχωριστό email με οδηγίες λήψης.
