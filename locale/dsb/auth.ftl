@@ -298,8 +298,16 @@ postConsumeRecoveryCode-subject-2 =
        *[other] { $numberRemaining } kody za zawěsćeńsku awtentifikaciju wušej
     }
 postNewRecoveryCodes-subject-2 = Nowy awtentifikaciski kod za zawěsćenje jo se napórał
+postNewRecoveryCodes-title-2 = Sćo napórał kod za zawěsćeńsku awtentifikaciju
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Su se napórali za:
 postNewRecoveryCodes-action = Konto zastojaś
+postRemoveAccountRecovery-subject-2 = Kontowy wótnowjeński kluc jo se wulašował
+postRemoveAccountRecovery-title-2 = Sćo wulašował kontowy wótnowjeński kluc.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Jo se wulašował z:
 postRemoveAccountRecovery-action = Konto zastojaś
+postRemoveAccountRecovery-invalid-2 = Trjebaśo kontowy wótnowjeński kluc, aby swóje daty { -brand-firefox } wótnowił, jolic sćo zabył swójo gronidło.
 postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
 postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła
 # Variables:
@@ -314,6 +322,7 @@ postRemoveTwoStepAuthentication-action = Konto zastojaś
 postRemoveTwoStepAuthentication-not-required = Wěstotne kody wěcej njejsu wótněnta trěbne pśi kuždym pśizjawjenju.
 postVerify-sub-title-3 = Wjaselimy se was wiźeś!
 postVerify-title-2 = Cośo samski rejtarik na dwěma rědoma wiźeś?
+postVerify-description-2 = To jo lažko! Instalštujśo jadnorje { -brand-firefox } na drugem rěźe a pśizawśo se za synchronizaciju. Na magisku wašnju!
 postVerify-subject-3 = Witajśo k { -brand-firefox }!
 postVerify-setup-2 = Z drugim rědom zwězaś:
 postVerify-action-2 = Z drugim rědom zwězaś
