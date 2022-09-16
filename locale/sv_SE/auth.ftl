@@ -73,14 +73,15 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Hämta { $prod
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Hämta { $productName } i { -app-store }">
-another-desktop-device = Eller installera på <a data-l10n-name="anotherDeviceLink">en annan stationär enhet</a>.
-another-device = Eller installera på <a data-l10n-name="anotherDeviceLink">annan enhet</a>.
-automated-email-change =
-    Detta är ett automatiskt e-postmeddelande; om du inte godkände den här åtgärden <a data-l10n-name="passwordChangeLink">ändra ditt lösenord</a>.
-    För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Detta är ett automatiskt e-postmeddelande; om du inte har lagt till en ny enhet i ditt { -product-firefox-account } bör du ändra ditt lösenord omedelbart på { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Installera { $productName } på <a data-l10n-name="anotherDeviceLink">en annan stationär enhet</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Installera { $productName } på <a data-l10n-name="anotherDeviceLink">en annan enhet</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Installera { $productName } på en annan enhet:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = Detta är ett automatiskt e-postmeddelande. Om du fick det av misstag behöver du inte göra någonting.
@@ -197,6 +198,7 @@ fraudulentAccountDeletion-contact = Om du har några frågor, kontakta vårt <a 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Om du har några frågor, vänligen kontakta vårt supportteam: { $mozillaSupportUrl }
+codes-reminder-description-part-two = Skapa nya koder nu så att du inte förlorar din data senare.
 codes-reminder-description-two-left = Du har endast två koder kvar.
 lowRecoveryCodes-action-2 = Skapa koder
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
@@ -227,6 +229,12 @@ passwordChangeRequired-different-password-plaintext = Viktigt: Välj ett annat l
 passwordReset-subject = Lösenord uppdaterat
 passwordReset-title = Ditt lösenord till kontot ändrades
 passwordReset-description = Du måste ange ditt nya lösenord på andra enheter för att återuppta synkroniseringen.
+passwordResetAccountRecovery-subject-2 = Ditt lösenord har återställts
+passwordResetAccountRecovery-title-2 = Lösenordet har återställts
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Du använde din kontoåterställningsnyckel för att uppdatera ditt lösenord från:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Skapa en ny kontoåterställningsnyckel
 postAddAccountRecovery-subject-2 = Kontoåterställningsnyckel skapad
 postAddAccountRecovery-title2 = Du skapade en ny kontoåterställningsnyckel
 # Information on the browser and device triggering this string follows.
@@ -254,11 +262,10 @@ postChangePrimary-title = Ny primär e-post
 #  $email (String) - A user's email address
 postChangePrimary-description = Du har lyckats ändra din primära e-postadress till { $email }. Den här adressen är nu ditt användarnamn för att logga in på ditt { -product-firefox-account }, samt för att ta emot säkerhetsmeddelanden och inloggningsbekräftelser.
 postChangePrimary-action = Hantera konto
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Den användes på:
 postConsumeRecoveryCode-action = Hantera konto
 postNewRecoveryCodes-action = Hantera konto
-postRemoveAccountRecovery-subject = Kontoåterställningsnyckeln borttagen
-postRemoveAccountRecovery-title = Kontoåterställningsnyckeln borttagen
-postRemoveAccountRecovery-description = Du har tagit bort en kontoåterställningsnyckel för ditt { -product-firefox-account } med följande enhet:
 postRemoveAccountRecovery-action = Hantera konto
 postRemoveSecondary-subject = Sekundär e-postadress borttagen
 postRemoveSecondary-title = Sekundär e-postadress borttagen
@@ -569,6 +576,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Kom ihåg att bekräfta ditt konto
 verificationReminderFirst-title-2 = Välkommen till { -brand-firefox }!
 verificationReminderFirst-description-2 = För några dagar sedan skapade du ett { -product-firefox-account }, men bekräftade det aldrig. Bekräfta ditt konto inom de närmaste 15 dagarna, annars kommer det att raderas automatiskt.
+verificationReminderFirst-sub-description-3 = Missa inte webbläsaren som sätter dig och din integritet främst.
 confirm-email-2 = Bekräfta konto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Bekräfta konto

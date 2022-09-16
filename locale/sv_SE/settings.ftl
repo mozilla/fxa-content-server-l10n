@@ -367,8 +367,11 @@ recovery-key-continue-button = Fortsätt
 recovery-key-created-1 = Din kontoåterställningsnyckel har skapats. Se till att spara nyckeln på ett säkert ställe som du lätt kan hitta senare — du behöver nyckeln för att återfå åtkomst till dina data om du glömmer ditt lösenord.
 recovery-key-enter-password =
     .label = Ange lösenord
+recovery-key-page-title-1 =
+    .title = Nyckel för kontoåterställning
 recovery-key-step-1 = Steg 1 av 2
 recovery-key-step-2 = Steg 2 av 2
+recovery-key-success-alert-3 = Kontoåterställningsnyckel skapad
 
 ## Add secondary email page
 
@@ -485,15 +488,23 @@ row-defaults-status = Ingen
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Nyckel för kontoåterställning
 rk-enabled = Aktivera
 rk-not-set = Inte inställd
 rk-action-create = Skapa
 rk-action-remove = Ta bort
+rk-cannot-refresh-1 = Det gick tyvärr inte att uppdatera nyckeln för kontoåterställning.
 rk-key-removed-2 = Nyckeln för kontoåterställning har tagits bort
 rk-cannot-remove-key = Din kontoåterställningsnyckel kunde inte tas bort.
+rk-refresh-key-1 = Uppdatera nyckel för kontoåterställning
 rk-content-explain = Återställ din information när du glömmer lösenordet.
 rk-content-reset-data = Varför återställs mina data när jag återställer mitt lösenord?
 rk-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
+rk-remove-modal-heading-1 = Ta bort nyckel för kontoåterställning?
+rk-remove-modal-content-1 =
+    Om du återställer ditt lösenord kommer du inte att kunna använda
+    din kontoåterställningsnyckel för att komma åt dina data. Du kan inte ångra den här åtgärden.
+rk-refresh-error-1 = Det gick tyvärr inte att uppdatera nyckeln för kontoåterställning.
 rk-remove-error-2 = Din kontoåterställningsnyckel kunde inte tas bort
 
 ## Secondary email sub-section on main Settings page
@@ -527,6 +538,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Gör primär
 se-default-content = Få åtkomst till ditt konto om du inte kan logga in med din primära e-postadress.
+se-content-note-1 =
+    Obs! En sekundär e-postadress kommer inte att återställa din information — du behöver
+    en <a>kontoåterställningsnyckel</a> för det.
 # Default value for the secondary email
 se-secondary-email-none = Ingen
 
