@@ -116,6 +116,7 @@ ios-download-plaintext = Λήψη του { $productName } από το App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Εγκατάσταση του { $productName } σε άλλη συσκευή:
+automated-email-support = Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Για περισσότερες πληροφορίες, επισκεφτείτε την Υποστήριξη { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
@@ -278,6 +279,8 @@ passwordReset-subject = Ο κωδικός πρόσβασης ενημερώθη�
 passwordReset-title = Ο κωδικός πρόσβασης του λογαριασμού σας άλλαξε
 passwordReset-description = Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό.
 passwordResetAccountRecovery-title-2 = Επιτυχής επαναφορά κωδικού πρόσβασης
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
 postAddAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
 # Information on the browser and device triggering this string follows.
@@ -305,8 +308,10 @@ postChangePrimary-title = Νέο κύριο email
 #  $email (String) - A user's email address
 postChangePrimary-description = Έχετε αλλάξει επιτυχώς το κύριο email σας σε { $email }. Αυτή η διεύθυνση αποτελεί πλέον το όνομα χρήστη σας για τη σύνδεση στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας, καθώς και για τη λήψη ειδοποιήσεων ασφαλείας και επιβεβαιώσεων σύνδεσης.
 postChangePrimary-action = Διαχείριση λογαριασμού
+postConsumeRecoveryCode-title-2 = Χρησιμοποιήσατε έναν εφεδρικό κωδικό ταυτοποίησης
 postConsumeRecoveryCode-action = Διαχείριση λογαριασμού
 postNewRecoveryCodes-action = Διαχείριση λογαριασμού
+postRemoveAccountRecovery-title-2 = Διαγράψατε το κλειδί ανάκτησης λογαριασμού σας.
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
