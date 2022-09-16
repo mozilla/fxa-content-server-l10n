@@ -184,6 +184,8 @@ flow-container-back = Retour
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Clé de récupération du compte { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Codes d’authentification de secours de { -brand-firefox }
 get-data-trio-download =
     .title = Télécharger
 get-data-trio-copy =
@@ -245,6 +247,11 @@ nav-email-comm = Communications électroniques
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Un problème est survenu lors du remplacement de vos codes d’authentification de secours
+tfa-replace-code-success-1 =
+    De nouveaux codes ont été créés. Enregistrez ces codes d’authentification de secours à usage unique
+    en lieu sûr — vous aurez besoin d’eux pour accéder à votre compte si vous ne
+    disposez pas de votre appareil mobile.
 tfa-replace-code-1-2 = Étape 1 sur 2
 tfa-replace-code-2-2 = Étape 2 sur 2
 
@@ -359,10 +366,14 @@ display-name-success-alert-2 = Nom d’affichage mis à jour
 recovery-key-cancel-button = Annuler
 recovery-key-close-button = Fermer
 recovery-key-continue-button = Continuer
+recovery-key-created-1 = Votre clé de récupération de compte a été créée. Assurez-vous d’enregistrer la clé dans un endroit sûr que vous pourrez facilement trouver plus tard — vous aurez besoin de la clé pour retrouver l’accès à vos données si vous oubliez votre mot de passe.
 recovery-key-enter-password =
     .label = Saisissez votre mot de passe
+recovery-key-page-title-1 =
+    .title = Clé de récupération de compte
 recovery-key-step-1 = Étape 1 sur 2
 recovery-key-step-2 = Étape 2 sur 2
+recovery-key-success-alert-3 = Clé de récupération de compte créée
 
 ## Add secondary email page
 
@@ -410,6 +421,7 @@ tfa-button-cancel = Annuler
 tfa-button-finish = Terminer
 tfa-incorrect-totp = Code d’authentification en deux étapes incorrect
 tfa-cannot-retrieve-code = Un problème est survenu lors de la récupération de votre code.
+tfa-cannot-verify-code-4 = Un problème est survenu lors de la confirmation de vos codes d’authentification de secours
 tfa-enabled = Authentification en deux étapes activée
 tfa-scan-this-code =
     Scannez ce code QR en utilisant l’une de <linkExternal>ces 
@@ -429,6 +441,9 @@ tfa-enter-secret-key = Saisissez cette clé secrète dans votre application d’
 tfa-enter-totp = Maintenant, saisissez le code de sécurité de l’application d’authentification.
 tfa-input-enter-totp =
     .label = Saisissez le code de sécurité
+tfa-save-these-codes-1 =
+    Conservez ces codes d’authentification de secours à usage unique dans un endroit sûr pour quand
+    vous n’avez pas votre appareil mobile.
 
 ##
 
@@ -479,6 +494,7 @@ row-defaults-status = Aucun
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Clé de récupération de compte
 rk-enabled = Activée
 rk-not-set = Non définie
 rk-action-create = Créer
