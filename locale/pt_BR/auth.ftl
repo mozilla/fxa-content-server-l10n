@@ -82,6 +82,9 @@ another-device-2 = Instale o { $productName } em <a data-l10n-name="anotherDevic
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Instale o { $productName } pelo Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Instale o { $productName } pela App Store:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para obter mais informações, visite o <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este é um email automático. Se recebeu por engano, não precisa fazer nada.
