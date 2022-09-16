@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-16 13:40+0000\n"
+"PO-Revision-Date: 2022-09-16 13:42+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -1121,7 +1121,7 @@ msgstr "Möchten Sie Ihre Tabs, Lesezeichen und Passwörter auf ein anderes Ger�
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
-msgstr ""
+msgstr "Nicht jetzt"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -2021,23 +2021,25 @@ msgstr "Der Einrichtungsprozess wurde abgebrochen."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "Verbinden Sie Firefox auf einem anderen Gerät"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "Synchronisieren Sie Firefox auf Ihrem Handy oder Tablet"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "Haben Sie Firefox bereits auf einem Handy oder Tablet?"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "Synchronisieren Sie Ihr Gerät"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
+"Scannen Sie den Code, um Firefox für Mobilgeräte herunterzuladen, oder senden Sie sich einen <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" "
+"class=\"link-blue\">Download-Link.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
@@ -2045,7 +2047,7 @@ msgstr "QR-Code"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Nehmen Sie Ihre Tabs, Lesezeichen und Passwörter überall hin mit, wo Sie Firefox verwenden."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
