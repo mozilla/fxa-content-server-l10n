@@ -73,6 +73,18 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Descargar { $p
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Descargar { $productName } en la { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Instalar { $productName } en <a data-l10n-name="anotherDeviceLink">otro dispositivo</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Instalar { $productName } en <a data-l10n-name="anotherDeviceLink">otro dispositivo</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Descarga { $productName } en la App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Instala { $productName } en otro dispositivo:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para más información, visita <a data-l10n-name="supportLink">Ayuda de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este es un correo automático. Si lo estás recibiendo por error, no necesitas hacer nada.
@@ -221,6 +233,7 @@ passwordReset-subject = Contraseña actualizada
 passwordReset-title = Se cambió la contraseña de tu cuenta
 passwordReset-description = Tienes que introducir la nueva contraseña en tus otros dispositivos para reanudar la sincronización.
 passwordResetAccountRecovery-subject-2 = Tu contraseña ha sido restablecida
+passwordResetAccountRecovery-title-2 = Contraseña restablecida exitosamente
 postAddAccountRecovery-subject-2 = Clave de recuperación de la cuenta creada
 postAddAccountRecovery-title2 = Creaste una nueva clave de recuperación de la cuenta
 # Information on the browser and device triggering this string follows.
