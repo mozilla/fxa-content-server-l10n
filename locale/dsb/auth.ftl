@@ -89,6 +89,11 @@ ios-download-plaintext = Ześěgniśo { $productName } z App Store:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Instalěruśoe { $productName } na drugem rěźe:
 automated-email-change-2 = Jolic njejsćo wuwjadł toś tu akciju, <a data-l10n-name="passwordChangeLink">změńśo ned swójo gronidło</a>.
+automated-email-support = Za dalšne informacije woglědajśo s k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Jolic njejsćo wuwjadł toś tu akciju, změńśo ned swójo gronidło:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Za dalšne informacije woglědajśo k pomocy { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink"> pomocy { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = To jo awtomatizěrowana mejlka. Jolic sćo dostał ju womylnje, njetrjebaśo nic cyniś.
@@ -248,6 +253,12 @@ passwordChangeRequired-different-password-plaintext = Wažny: Wubjeŕśo druge g
 passwordReset-subject = Gronidło jo se zaktualizěrowało
 passwordReset-title = Wašo kontowe gronidło jo se změniło
 passwordReset-description = Musyśo swójo nowe gronidło na drugich rědach zapódaś, aby ze synchronizaciju pókšacował.
+passwordResetAccountRecovery-subject-2 = Wašo gronidło jo se slědk stajiło
+passwordResetAccountRecovery-title-2 = Gronidło jo se wuspěšnje slědk stajiło
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Sćo wužył swój kontowy wótnowjeński kluc, aby swójo gronidło aktualizěrował wót:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Nowy kontowy wótnowjeński kluc napóraś
 postAddAccountRecovery-subject-2 = Kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title2 = Sćo napórał nowy kontowy wótnowjeński kluc
 # Information on the browser and device triggering this string follows.
@@ -275,7 +286,18 @@ postChangePrimary-title = Nowa primarna e-mailowa adresa
 #  $email (String) - A user's email address
 postChangePrimary-description = Sćo swóju primarnu e-mailowu adresu wuspěšnje do { $email } změnił. Toś ta adresa jo něnto wašo wužywarske mě za pśizjawjenje pla wašogo konta { -product-firefox-account } a aby wy wěstotne powěsći a pśizjawjeńske
 postChangePrimary-action = Konto zastojaś
+postConsumeRecoveryCode-title-2 = Sćo wužył kod za zawěsćeńsku awtentifikaciju
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Jo se wužyl na:
 postConsumeRecoveryCode-action = Konto zastojaś
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] { $numberRemaining } kod za zawěsćeńsku awtentifikaciju wušej
+        [two] { $numberRemaining } koda za zawěsćeńsku awtentifikaciju wušej
+        [few] { $numberRemaining } kody za zawěsćeńsku awtentifikaciju wušej
+       *[other] { $numberRemaining } kody za zawěsćeńsku awtentifikaciju wušej
+    }
+postNewRecoveryCodes-subject-2 = Nowy awtentifikaciski kod za zawěsćenje jo se napórał
 postNewRecoveryCodes-action = Konto zastojaś
 postRemoveAccountRecovery-action = Konto zastojaś
 postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
