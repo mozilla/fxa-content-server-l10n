@@ -489,6 +489,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes-1 =
     Shranite te rezervne overitvene kode za enkratno uporabo na varno mesto
     za primere, ko nimate mobilne naprave.
+tfa-enter-code-to-confirm-1 =
+    Vnesite eno od rezervnih overitvenih kod, da potrdite, da
+    ste si jih shranili. Kodo boste potrebovali za prijavo v primeru, da nimate dostopa
+    do svoje mobilne naprave.
 tfa-enter-recovery-code-1 =
     .label = Vnesite rezervno overitveno kodo
 
