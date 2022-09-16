@@ -21,7 +21,7 @@
 
 ## Non-email strings
 
-session-verify-send-push-title = Está iniciando sessão em { -product-firefox-accounts }?
+session-verify-send-push-title = Está entrando na conta no { -product-firefox-accounts }?
 session-verify-send-push-body-2 = Clique aqui para confirmar que é você
 
 ## Email content
@@ -290,9 +290,25 @@ postChangePrimary-title = Novo email principal
 postChangePrimary-description = Você alterou com sucesso seu email principal para { $email }. Este endereço é agora seu nome de usuário para entrar na sua { -product-firefox-account }, assim como receber notificações de segurança e confirmações de acesso.
 postChangePrimary-action = Gerenciar conta
 postConsumeRecoveryCode-title-2 = Você usou um código de autenticação de backup
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Foi usado no:
 postConsumeRecoveryCode-action = Gerenciar conta
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Resta 1 código de autenticação de backup
+       *[other] Resta { $numberRemaining } códigos de autenticação de backup
+    }
+postNewRecoveryCodes-subject-2 = Criados novos códigos de autenticação de backup
+postNewRecoveryCodes-title-2 = Você criou novos códigos de autenticação de backup
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Foram criados no:
 postNewRecoveryCodes-action = Gerenciar conta
+postRemoveAccountRecovery-subject-2 = Chave de recuperação de conta excluída
+postRemoveAccountRecovery-title-2 = Você excluiu sua chave de recuperação de conta.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Foi excluída no:
 postRemoveAccountRecovery-action = Gerenciar conta
+postRemoveAccountRecovery-invalid-2 = Você precisa de uma chave de recuperação de conta para recuperar seus dados do { -brand-firefox }, caso esqueça sua senha.
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
 # Variables:
