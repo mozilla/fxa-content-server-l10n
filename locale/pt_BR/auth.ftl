@@ -73,14 +73,15 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Baixe o { $pro
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Baixe o { $productName } na { -app-store }">
-another-desktop-device = Ou instale em <a data-l10n-name="anotherDeviceLink">outro computador</a>.
-another-device = Ou instale em <a data-l10n-name="anotherDeviceLink">outro dispositivo</a>.
-automated-email-change =
-    Este é um email automático. Se você não autorizou esta ação, <a data-l10n-name="passwordChangeLink">mude sua senha</a>.
-    Consulte mais informações no <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Este é um email automático. Se você não adicionou um novo dispositivo à sua { -product-firefox-account }, deve mudar sua senha imediatamente em { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Instale o { $productName } em <a data-l10n-name="anotherDeviceLink">outro computador</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Instale o { $productName } em <a data-l10n-name="anotherDeviceLink">outro dispositivo</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Instale o { $productName } pelo Google Play:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para obter mais informações, visite o <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este é um email automático. Se recebeu por engano, não precisa fazer nada.
@@ -240,13 +241,6 @@ passwordChangeRequired-different-password-plaintext = Importante: Escolha uma se
 passwordReset-subject = Senha atualizada
 passwordReset-title = A senha da sua conta foi alterada
 passwordReset-description = Você precisa digitar sua nova senha em outros dispositivos para continuar sincronizando.
-passwordResetAccountRecovery-subject-1 = Senha atualizada usando chave de recuperação de conta
-passwordResetAccountRecovery-title-1 = A senha da sua conta foi redefinida com uma chave de recuperação de conta
-passwordResetAccountRecovery-description-1 = Você redefiniu sua senha com sucesso usando uma chave de recuperação de conta no seguinte dispositivo:
-passwordResetAccountRecovery-action-1 = Criar nova chave de recuperação de conta
-passwordResetAccountRecovery-regen-required-1 = Você precisará gerar uma nova chave de recuperação de conta.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = Criar nova chave de recuperação de conta:
 postAddAccountRecovery-subject-2 = Criada chave de recuperação de conta
 postAddAccountRecovery-title2 = Você criou uma nova chave de recuperação de conta
 # Information on the browser and device triggering this string follows.
@@ -274,19 +268,9 @@ postChangePrimary-title = Novo email principal
 #  $email (String) - A user's email address
 postChangePrimary-description = Você alterou com sucesso seu email principal para { $email }. Este endereço é agora seu nome de usuário para entrar na sua { -product-firefox-account }, assim como receber notificações de segurança e confirmações de acesso.
 postChangePrimary-action = Gerenciar conta
-postConsumeRecoveryCode-subject-1 = Código de autenticação de backup usado
-postConsumeRecoveryCode-title-1 = Código de autenticação de backup consumido
-postConsumeRecoveryCode-description-1 = Você consumiu com sucesso um código de autenticação de backup no seguinte dispositivo:
 postConsumeRecoveryCode-action = Gerenciar conta
-postNewRecoveryCodes-subject-1 = Novos códigos de autenticação de backup gerados
-postNewRecoveryCodes-title-1 = Novos códigos de autenticação de backup gerados
-postNewRecoveryCodes-description-1 = Você gerou com sucesso novos códigos de autenticação de backup no seguinte dispositivo:
 postNewRecoveryCodes-action = Gerenciar conta
-postRemoveAccountRecovery-subject = Removida a chave de recuperação de conta
-postRemoveAccountRecovery-title = Removida a chave de recuperação de conta
-postRemoveAccountRecovery-description = Você removeu com sucesso uma chave de recuperação de conta da sua { -product-firefox-account } usando o seguinte dispositivo:
 postRemoveAccountRecovery-action = Gerenciar conta
-postRemoveAccountRecovery-invalid-1 = Esta chave de recuperação de conta não pode mais ser usada para recuperar sua conta.
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
 # Variables:
