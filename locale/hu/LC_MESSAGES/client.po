@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-16 20:11+0000\n"
+"PO-Revision-Date: 2022-09-16 20:19+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
@@ -1438,15 +1438,15 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Adjon meg egy tartalék hitelesítési kódot"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Adjon meg egy tartalék hitelesítési kódot, amelyet a kétlépcsős hitelesítés beállítása során kapott."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Adja meg a 10 számjegyű tartalék hitelesítési kódját"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1612,7 +1612,7 @@ msgstr "1. lépés / 2: Adja meg újra a jelszót"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Adja meg a jelszavát a fiók-helyreállítási kulcs megtekintéséhez."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1841,7 +1841,7 @@ msgstr "<span class=\"number\">4</span>Jelentkezzen be a fiókjába"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Védje adatait egy fiók-helyreállítási kulccsal"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1853,19 +1853,19 @@ msgstr "Mivel ezek az információk kritikus fontosságúak az Ön biztonsága s
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "Szerezzen egy fiók-helyreállítási kulcsot"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "Erősítse meg a(z) %(escapedEmail)s címhez tartozó jelszavát, hogy előállítsa a fiók-helyreállítási kulcsát."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Írja be a fiók-helyreállítási kulcsot, hogy megerősítse, hogy valóban elmentette a másolatot."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "Fiók-helyreállítási kulcs mentése"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -2019,23 +2019,25 @@ msgstr "A beállítási folyamat megszakításra került."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "A Firefox csatlakoztatása egy másik eszközön"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "Szinkronizálja a Firefoxot a telefonján vagy táblagépén"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "Már van Firefox a telefonján vagy a táblagépén?"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "Szinkronizálja az eszközét"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
+"Olvassa le, hogy letöltse a Firefoxot mobilra, vagy küldjön magának egy <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-"
+"blue\">letöltési hivatkozást.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
@@ -2043,7 +2045,7 @@ msgstr "QR-kód"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Vigye el lapjait, könyvjelzőit és jelszavait bárhová, ahol Firefoxot használ."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"

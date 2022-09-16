@@ -473,6 +473,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes-1 =
     Mentse ezeket az egyszer használatos tartalék hitelesítési kódokat biztonságos
     helyen, arra az esetre, ha nincs mobileszköze.
+tfa-enter-code-to-confirm-1 =
+    Adja meg az egyik tartalék hitelesítési kódot most,
+    hogy megerősítse, hogy elmentette. Szüksége lesz egy kódra a bejelentkezéshez,
+    ha nem fér hozzá a mobileszközéhez.
 tfa-enter-recovery-code-1 =
     .label = Adjon meg egy tartalék hitelesítési kódot
 
