@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-16 07:01+0000\n"
+"PO-Revision-Date: 2022-09-16 07:02+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
@@ -2038,7 +2038,7 @@ msgstr "Uw apparaat synchroniseren"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "Scan om Firefox voor mobiel te downloaden, of stuur uzelf een <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">downloadkoppeling.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
@@ -2046,7 +2046,7 @@ msgstr "QR-code"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Neem uw tabbladen, bladwijzers en wachtwoorden overal mee waar u Firefox gebruikt."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
