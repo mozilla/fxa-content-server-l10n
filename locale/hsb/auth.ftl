@@ -88,7 +88,10 @@ ios-download-plaintext = Sćehńće { $productName } z App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Instalujće { $productName } na druhim graće:
+automated-email-change-2 = Jeli njejsće tutu akciju wuwjedł, <a data-l10n-name="passwordChangeLink">změńće hnydom swoje hesło</a>.
 automated-email-support = Za dalše informacije wopytajće <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Jeli njejsće tutu akciju wuwjedł, změńće hnydom swoje hesło:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Za dalše informacije wopytajće pomoc { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
@@ -282,6 +285,8 @@ postChangePrimary-title = Nowa primarna e-mejlowa adresa
 postChangePrimary-description = Sće swoju primarnu e-mejlowu adresu wuspěšnje do { $email } změnił. Tuta adresa je nětko waše wužiwarske mjeno za přizjewjenje pola wašeho konta { -product-firefox-account } a zo byšće wěstotne powěsće a přizjewjenske
 postChangePrimary-action = Konto rjadować
 postConsumeRecoveryCode-title-2 = Sće kod za zawěsćensku awtentifikaciju wužił
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Je so wužil na:
 postConsumeRecoveryCode-action = Konto rjadować
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
