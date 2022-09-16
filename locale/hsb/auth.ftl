@@ -79,6 +79,18 @@ another-desktop-device-2 = Instalujće { $productName } na <a data-l10n-name="an
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-2 = Instalujće { $productName } na <a data-l10n-name="anotherDeviceLink">druhim graće</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Dóstańće { $productName } na Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Sćehńće { $productName } z App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Instalujće { $productName } na druhim graće:
+automated-email-support = Za dalše informacije wopytajće <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Za dalše informacije wopytajće pomoc { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Za dalše informacije wopytajće <a data-l10n-name="supportLink"> pomoc { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = To je awtomatizowana mejlka. Jeli sće ju zmylnje dóstał, njetrjebaće ničo činić.
@@ -279,7 +291,14 @@ postConsumeRecoveryCode-subject-2 =
        *[other] { $numberRemaining } kodow za zawěsćensku awtentifikaciju wyše
     }
 postNewRecoveryCodes-subject-2 = Nowe kody za zawěsćensku awtentifikaciju su so wutworili
+postNewRecoveryCodes-title-2 = Sće nowy kod za zawěsćensku awtentifikaciju wutworił
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Su so wutworili za:
 postNewRecoveryCodes-action = Konto rjadować
+postRemoveAccountRecovery-subject-2 = Kontowy wobnowjenski kluč je so zhašał
+postRemoveAccountRecovery-title-2 = Sće swój kontowy wobnowjenski kluč zhašał
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Je so zhašał z:
 postRemoveAccountRecovery-action = Konto rjadować
 postRemoveSecondary-subject = Sekundarna e-mejlowa adresa wotstronjena
 postRemoveSecondary-title = Sekundarna e-mejlowa adresa wotstronjena
@@ -586,6 +605,7 @@ confirm-account = Konto wobkrućić
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Njezabywajće swoje konto wobkrućić
 verificationReminderFirst-title-2 = Witajće k { -brand-firefox }!
+verificationReminderFirst-description-2 = Před někotrymi dnjemi sće { -product-firefox-account } załožił, ale njejsće jo wobkrućił. Prošu wobkrućće swoje konto w běhu 15 dnjow abo konto so awtomatisce zhaša.
 confirm-email-2 = Konto wobkrućić
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konto wobkrućić
