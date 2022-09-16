@@ -43,6 +43,7 @@ subplat-terms-policy = Умовы і палітыка адмовы ад пасл
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ануляваць падпіску
 subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate = Паўторна актываваць падпіску
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Абнавіць плацежную інфармацыю
 subplat-privacy-policy = Палітыка прыватнасці { -brand-mozilla }
@@ -53,7 +54,6 @@ subplat-legal = Прававыя звесткі
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Прыватнасць
 subplat-privacy-website-plaintext = { subplat-privacy }:
-automated-email-plaintext = Гэты электронны ліст створаны аўтаматычна; калі вы атрымалі яго памылкова, нічога не трэба рабіць.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Калі ласка, дапамажыце нам палепшыць нашы паслугі, узяўшы ўдзел у гэтым кароткім апытанні:
 change-password-plaintext = Калі вы падазраяце, што хтосьці спрабуе атрымаць доступ да вашага ўліковага запісу, калі ласка, змяніце пароль.
@@ -80,9 +80,6 @@ card-ending-in = Картка { $cardType } заканчваецца на { $las
 subscriptionSupport = Пытанні наконт вашай падпіскі? Наша <a data-l10n-name="subscriptionSupportUrl">служба падтрымкі</a> тут, каб дапамагчы вам.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:
-# Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Каб атрымаць дадатковую інфармацыю, наведайце { $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -123,24 +120,9 @@ downloadSubscription-subject = Вітаем у { $productName }
 downloadSubscription-title = Вітаем у { $productName }
 downloadSubscription-content-2 = Давайце пачнём выкарыстоўваць усе функцыі, уключаныя ў вашу падпіску:
 downloadSubscription-link-action-2 = Пачаць
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Засталося мала кодаў аднаўлення
-codes-reminder-description = Мы заўважылі, што ў вас засталося мала кодаў аднаўлення. Калі ласка, падумайце пра стварэнне новых кодаў, каб пазбегнуць блакавання вашага уліковага запісу.
-codes-generate = Згенераваць коды
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Згенераваць коды
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] Застаўся { $numberRemaining } код аднаўлення
-        [few] Засталося { $numberRemaining } коды аднаўлення
-       *[many] Засталося { $numberRemaining } кодаў аднаўлення
-    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Новы ўваход у { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Новы ўваход у { $clientName }
 newDeviceLogin-action = Кіраванне ўліковым запісам
 passwordChanged-subject = Пароль абноўлены
 passwordChanged-title = Пароль паспяхова зменены
@@ -150,17 +132,7 @@ passwordChangeRequired-signoff = Усяго найлепшага,
 passwordReset-subject = Пароль абноўлены
 passwordReset-title = Пароль вашага ўліковага запісу быў зменены
 passwordReset-description = Трэ будзе ўвесці новы пароль на іншых прыладах, каб узнавіць сінхранізацыю.
-passwordResetAccountRecovery-subject = Пароль зменены пры дапамозе ключа аднаўлення
-passwordResetAccountRecovery-title = Ваш пароль быў скінуты з дапамогай ключа аднаўлення
-passwordResetAccountRecovery-description = Вы паспяхова скінулі свой пароль з дапамогай ключа аднаўлення з наступнай прылады:
-passwordResetAccountRecovery-action = Стварыць новы ключ аднаўлення
-passwordResetAccountRecovery-regen-required = Вам трэба будзе згенераваць новы ключ аднаўлення.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Стварыць новы ключ аднаўлення:
-postAddAccountRecovery-subject = Ключ аднаўлення ўліковага запісу згенераваны
-postAddAccountRecovery-title = Ключ аднаўлення ўліковага запісу згенераваны
 postAddAccountRecovery-action = Кіраванне ўліковым запісам
-postAddAccountRecovery-revoke = Калі гэта былі не вы, адклікайце ключ.
 postAddLinkedAccount-action = Кіраваць уліковым запісам
 postAddTwoStepAuthentication-subject = Двухэтапная аўтарызацыя ўключана
 postAddTwoStepAuthentication-title = Двухэтапная аўтарызацыя ўключана
@@ -169,18 +141,9 @@ postAddTwoStepAuthentication-code-required = Цяпер пры кожным ув
 postChangePrimary-subject = Асноўны адрас эл.пошты зменены
 postChangePrimary-title = Новы асноўны адрас эл.пошты
 postChangePrimary-action = Кіраванне ўліковым запісам
-postConsumeRecoveryCode-subject = Выкарыстаны код аднаўлення
-postConsumeRecoveryCode-title = Код аднаўлення выкарыстаны
-postConsumeRecoveryCode-description = Вы паспяхова выкарысталі код аднаўлення з наступнай прылады:
 postConsumeRecoveryCode-action = Кіраванне ўліковым запісам
-postNewRecoveryCodes-subject = Згенераваны новыя коды аднаўлення
-postNewRecoveryCodes-title = Згенераваны новыя коды аднаўлення
-postNewRecoveryCodes-description = Вы паспяхова згенеравалі новыя коды аднаўлення з наступнай прылады:
 postNewRecoveryCodes-action = Кіраванне ўліковым запісам
-postRemoveAccountRecovery-subject = Ключ аднаўлення ўліковага запісу выдалены
-postRemoveAccountRecovery-title = Ключ аднаўлення ўліковага запісу выдалены
 postRemoveAccountRecovery-action = Кіраванне ўліковым запісам
-postRemoveAccountRecovery-invalid = Гэты ключ аднаўлення больш не можа быць выкарыстаны для аднаўлення ўліковага запісу.
 postRemoveSecondary-subject = Другі адрас эл.пошты выдалены
 postRemoveSecondary-title = Другі адрас эл.пошты выдалены
 postRemoveSecondary-action = Кіраванне ўліковым запісам
@@ -188,21 +151,13 @@ postRemoveTwoStepAuthentication-subject-line = Двухэтапная аўтар
 postRemoveTwoStepAuthentication-title = Двухэтапная аўтарызацыя адключана
 postRemoveTwoStepAuthentication-action = Кіраванне ўліковым запісам
 postRemoveTwoStepAuthentication-not-required = Коды бяспекі больш не будуць патрабавацца пры кожным ўваходзе.
-postVerify-sub-title-2 = { -product-firefox-account } пацверджаны. Амаль гатова.
-postVerify-title = Наступная сінхранізацыя паміж вашымі прыладамі!
-postVerify-description = Сінхранізацыя прыватна захоўвае вашыя закладкі, паролі і іншыя дадзеныя { -brand-firefox } аднолькавымі на ўсіх вашых прыладах.
-postVerify-setup = Наладзіць наступную прыладу
-postVerify-action = Наладзіць наступную прыладу
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Ёсць пытанні? Наведайце { $supportUrl }
 postVerifySecondary-subject = Дададзены другі адрас эл.пошты
 postVerifySecondary-title = Дададзены другі адрас эл.пошты
 postVerifySecondary-action = Кіраванне ўліковым запісам
 recovery-subject = Скінуць пароль
-recovery-title = Трэба скінуць пароль?
-recovery-description = Націсніце кнопку цягам наступнай гадзіны, каб стварыць новы пароль. Запыт прыйшоў з наступнай прылады:
+recovery-title-2 = Забылі свой пароль?
 recovery-action = Стварыць новы пароль
+subscriptionAccountDeletion-title = Шкада, што вы сыходзіце
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Вітаем у { $productName }: Калі ласка, усталюйце пароль.
@@ -338,30 +293,8 @@ unblockCode-prompt = Калі так, вось код аўтарызацыі, я
 unblockCode-prompt-plaintext = Калі так, вось код аўтарызацыі, які вам патрэбен: { $unblockCode }
 unblockCode-report = Калі не, дапамажыце нам стрымліваць зламыснікаў і <a data-l10n-name="reportSignInLink">паведаміце нам аб гэтым.</a>
 unblockCode-report-plaintext = Калі не, дапамажыце нам стрымліваць зламыснікаў і паведамце нам аб гэтым.
-verificationReminderFirst-subject = Напамін: Скончыце стварэнне ўліковага запісу
-verificationReminderFirst-title = Сардэчна запрашаем у сям’ю { -brand-firefox }
-verificationReminderFirst-description = Некалькі дзён таму вы стварылі { -product-firefox-account }, але так і не пацвердзілі яго.
-verificationReminderFirst-sub-description = Пацвердзіце зараз і атрымайце тэхналогію, якая абараняе і змагаецца за вашу прыватнасць, узбройвае вас практычнымі ведамі і павагай, якой вы вартыя.
-confirm-email = Пацвердзіце электронную пошту
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = Пацвердзіце электронную пошту
-verificationReminderSecond-subject = Апошні напамін: Актывуйце свой уліковы запіс
-verificationReminderSecond-title = Усё яшчэ тут?
-verificationReminderSecond-description-2 = Амаль тыдзень таму вы стварылі { -product-firefox-account }, але так і не пацвердзілі яго. Мы хвалюемся за вас.
-verificationReminderSecond-sub-description = Пацвердзіце гэты адрас электроннай пошты, каб актываваць свой уліковы запіс, і дайце нам знаць, што вы ў парадку.
-verificationReminderSecond-action = Пацвердзіце электронную пошту
-verify-title = Актываваць сямейства прадуктаў { -brand-firefox }
-verify-description-plaintext = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі.
 verify-description = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі, пачынаючы з:
 verify-subject = Скончыце стварэнне ўліковага запісу
-verify-action = Пацвердзіце электронную пошту
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = Новы ўваход у { $clientName }
-verifyLogin-description = Для дадатковай бяспекі, калі ласка, пацвердзіце гэты ўваход з наступнай прылады:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = Пацвердзіце новы ўваход у { $clientName }
 verifyLogin-action = Пацвердзіць уваход
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -380,9 +313,4 @@ verifySecondaryCode-title-2 = Пацвердзіце альтэрнатыўну�
 verifySecondaryCode-action-2 = Пацвердзіце электронную пошту
 verifySecondaryCode-prompt-2 = Выкарыстайце гэты код пацверджання:
 verifySecondaryCode-expiry-notice-2 = Яго тэрмін дзеяння мінае праз 5 хвілін. Пасля пацверджання, гэты адрас пачне атрымліваць абвесткі бяспекі і пацвярджэнні.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-2 = Код пацвярджэння: { $code }
-verifyShortCode-title = Гэта вы рэгіструецеся?
-verifyShortCode-prompt-2 = Калі так, выкарыстоўвайце гэты код пацверджання ў рэгістрацыйнай форме:
 verifyShortCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
