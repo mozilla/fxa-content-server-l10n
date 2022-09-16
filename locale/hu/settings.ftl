@@ -21,7 +21,12 @@ alert-bar-close-message = Üzenet bezárása
 ## For further details, consult:
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
--brand-mozilla = Mozilla
+-brand-mozilla =
+    { $case ->
+       *[nominative] Mozilla
+        [accusative] Mozillát
+        [instrumental] Mozillával
+    }
 -brand-firefox = Firefox
 -brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
@@ -29,10 +34,30 @@ alert-bar-close-message = Üzenet bezárása
 # “Account” can be localized, “Firefox” must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-fiók
-product-mozilla-vpn = Mozilla VPN
-product-pocket = Pocket
-product-firefox-monitor = Firefox Monitor
-product-firefox-relay = Firefox Relay
+product-mozilla-vpn =
+    { $case ->
+       *[nominative] Mozilla VPN
+        [accusative] Mozilla VPN-t
+        [instrumental] Mozilla VPN-nel
+    }
+product-pocket =
+    { $case ->
+       *[nominative] Pocket
+        [accusative] Pocketet
+        [instrumental] Pockettel
+    }
+product-firefox-monitor =
+    { $case ->
+       *[nominative] Firefox Monitor
+        [accusative] Firefox Monitort
+        [instrumental] Firefox Monitorral
+    }
+product-firefox-relay =
+    { $case ->
+       *[nominative] Firefox Relay
+        [accusative] Firefox Relay
+        [instrumental] Firefox Relay-jel
+    }
 
 ##
 
@@ -152,7 +177,7 @@ cs-sign-out-button = Kijelentkezés
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Letöltve
@@ -185,9 +210,11 @@ drop-down-menu-sign-out-error-2 = Sajnos probléma merült fel a kijelentkezése
 
 flow-container-back = Vissza
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Helyreállító kódok
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } fiók-helyreállítási kulcs
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } tartalék hitelesítési kódok
 get-data-trio-download =
     .title = Letöltés
 get-data-trio-copy =
@@ -247,14 +274,14 @@ nav-data-collection = Adatgyűjtés és -felhasználás
 nav-paid-subs = Előfizetések
 nav-email-comm = E-mail kommunikáció
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Hiba történt a helyreállítási kódok cseréjekor
-tfa-replace-code-success =
+tfa-replace-code-error-3 = Hiba történt a tartalék hitelesítési kódok cseréje során
+tfa-replace-code-success-1 =
     Új kódot lettek létrehozva. Mentse ezeket az egyszer használatos
-    kódokat egy biztonságos helyre – szüksége lesz rájuk, ha a mobileszköze
+    tartalék hitelesítési kódokat egy biztonságos helyre – szüksége lesz rájuk, ha a mobileszköze
     nélkül kell hozzáférnie a fiókjához.
-tfa-replace-code-success-alert-2 = Fiók-helyreállítási kódok frissítve
+tfa-replace-code-success-alert-3 = A fiók tartalék hitelesítési kódjai frissítve
 tfa-replace-code-1-2 = 1. / 2. lépés
 tfa-replace-code-2-2 = 2. / 2. lépés
 
@@ -364,19 +391,19 @@ display-name-success-alert-2 = A megjelenő név frissítve
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Mégse
 recovery-key-close-button = Bezárás
 recovery-key-continue-button = Folytatás
-recovery-key-created = A helyreállítási kulcs létrejött Győződjön meg róla, hogy olyan helyen tárolja biztonságosan, ahol könnyen megtalálja – a jelszó elfelejtése esetén szüksége lesz a kulcsra, hogy visszanyerje a hozzáférést az adataihoz.
+recovery-key-created-1 = A fiók-helyreállítási kulcs létrejött. Győződjön meg róla, hogy olyan helyen tárolja biztonságosan, ahol könnyen megtalálja – a jelszó elfelejtése esetén szüksége lesz a kulcsra, hogy visszanyerje a hozzáférést az adataihoz.
 recovery-key-enter-password =
     .label = Adja meg a jelszót
-recovery-key-page-title =
-    .title = Helyreállítási kulcs
+recovery-key-page-title-1 =
+    .title = Fiók-helyreállítási kulcs
 recovery-key-step-1 = 1. / 2. lépés
 recovery-key-step-2 = 2. / 2. lépés
-recovery-key-success-alert-2 = Helyreállítási kulcs létrehozva
+recovery-key-success-alert-3 = Fiók-helyreállítási kulcs létrehozva
 
 ## Add secondary email page
 
@@ -424,8 +451,8 @@ tfa-button-cancel = Mégse
 tfa-button-finish = Befejezés
 tfa-incorrect-totp = Helytelen kétlépcsős hitelesítési kód
 tfa-cannot-retrieve-code = Hiba történt a kód lekérésekor.
-tfa-cannot-verify-code-3 = Hiba történt a helyreállítási kódok megerősítésekor
-tfa-incorrect-recovery-code = Helytelen helyreállítási kód
+tfa-cannot-verify-code-4 = Hiba történt a tartalék hitelesítési kódok megerősítése során
+tfa-incorrect-recovery-code-1 = Érvénytelen tartalék hitelesítési kód
 tfa-enabled = Kétlépcsős hitelesítés engedélyezve
 tfa-scan-this-code =
     Olvassa be ezt a QR-kódot <linkExternal>ezen
@@ -443,15 +470,11 @@ tfa-enter-secret-key = Adja meg ezt a titkos kulcsot a hitelesítő alkalmazásb
 tfa-enter-totp = Most írja be a biztonsági kódot a hitelesítési alkalmazásból.
 tfa-input-enter-totp =
     .label = Adja meg a biztonsági kódot
-tfa-save-these-codes =
-    Mentse ezeket az egyszer használatos kódokat biztonságos
+tfa-save-these-codes-1 =
+    Mentse ezeket az egyszer használatos tartalék hitelesítési kódokat biztonságos
     helyen, arra az esetre, ha nincs mobileszköze.
-tfa-enter-code-to-confirm =
-    Adja meg az egyik helyreállítási kódját, hogy
-    megerősíthessük, hogy elmentette azokat. Egy kódra lesz szüksége, ha
-    elveszíti az eszközét, és hozzá akar férni a fiókjához.
-tfa-enter-recovery-code =
-    .label = Adjon meg egy helyreállítási kódot
+tfa-enter-recovery-code-1 =
+    .label = Adjon meg egy tartalék hitelesítési kódot
 
 ##
 
@@ -500,25 +523,25 @@ row-defaults-action-change = Módosítás
 row-defaults-action-disable = Letiltás
 row-defaults-status = Nincs
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Helyreállítókulcs
+rk-header-1 = Fiók-helyreállítási kulcs
 rk-enabled = Engedélyezve
 rk-not-set = Nincs beállítva
 rk-action-create = Létrehozás
 rk-action-remove = Eltávolítás
-rk-cannot-refresh = Sajnos probléma merült fel a helyreállítási kulcs frissítésekor.
+rk-cannot-refresh-1 = Sajnos probléma merült fel a fiók-helyreállítási kulcs frissítése során.
 rk-key-removed-2 = Fiók-helyreállítási kulcs eltávolítva
 rk-cannot-remove-key = A fiók-helyreállítási kulcsot nem sikerült eltávolítani.
-rk-refresh-key = Helyreállítási kulcs frissítése
+rk-refresh-key-1 = Fiók-helyreállítási kulcs frissítése
 rk-content-explain = Állítsa vissza adatait, ha elfelejtette jelszavát.
 rk-content-reset-data = A jelszó visszaállítása miért törli az adatokat?
 rk-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor
-rk-remove-modal-heading = Eltávolítja a helyreállítási kulcsot?
-rk-remove-modal-content =
+rk-remove-modal-heading-1 = Eltávolítja a fiók-helyreállítási kulcsot?
+rk-remove-modal-content-1 =
     Ha visszaállítja jelszavát, akkor nem fogja tudni használni
-    a helyreállítási kulcsot az adatai eléréséhez. Ezt a műveletet nem lehet visszavonni.
-rk-refresh-error = Sajnos probléma merült fel a helyreállítási kulcs frissítésekor.
+    a fiók-helyreállítási kulcsot az adatai eléréséhez. Ezt a műveletet nem lehet visszavonni.
+rk-refresh-error-1 = Sajnos probléma merült fel a fiók-helyreállítási kulcs frissítése során.
 rk-remove-error-2 = A fiók-helyreállítási kulcsot nem sikerült eltávolítani
 
 ## Secondary email sub-section on main Settings page
@@ -552,9 +575,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Elsődlegessé tétel
 se-default-content = Érje el a fiókját, ha nem tud bejelentkezni az elsődleges e-mail-fiókjába.
-se-content-note =
+se-content-note-1 =
     Megjegyzés: a másodlagos e-mail-címe nem fogja visszaállítani az
-    adatait – ahhoz <a>helyreállítási kulcs</a> szükséges.
+    adatait – ahhoz <a>fiók-helyreállítási kulcs</a> szükséges.
 # Default value for the secondary email
 se-secondary-email-none = Nincs
 
@@ -580,11 +603,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor
 tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
 tfa-row-disable-modal-confirm = Letiltás
-tfa-row-disable-modal-explain =
-    Ezt a műveletet nem fogja tudni visszavonni. Arra is van
-    lehetősége, hogy <linkExternal>lecserélje a helyreállítási kódjait</linkExternal>.
 tfa-row-cannot-disable-2 = A kétlépcsős hitelesítést nem lehetett letiltani
-tfa-row-change-modal-heading = Megváltoztatja a helyreállítási kódokat?
 tfa-row-change-modal-confirm = Módosítás
 tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 
