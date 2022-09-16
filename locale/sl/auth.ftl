@@ -267,6 +267,12 @@ passwordChangeRequired-different-password-plaintext = Pomembno: Izberite drugač
 passwordReset-subject = Geslo posodobljeno
 passwordReset-title = Geslo vašega računa je bilo spremenjeno
 passwordReset-description = Za nadaljevanje sinhronizacije boste morali na ostalih napravah vnesti svoje novo geslo.
+passwordResetAccountRecovery-subject-2 = Vaše geslo je bilo ponastavljeno
+passwordResetAccountRecovery-title-2 = Geslo uspešno ponastavljeno
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = S ključem za obnovitev računa ste spremenili geslo z naslednje naprave:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Ustvari nov ključ za obnovitev računa
 postAddAccountRecovery-subject-2 = Obnovitveni ključ za račun ustvarjen
 postAddAccountRecovery-title2 = Ustvarili ste nov ključ za obnovitev računa
 # Information on the browser and device triggering this string follows.
@@ -294,8 +300,19 @@ postChangePrimary-title = Nov glavni e-poštni naslov
 #  $email (String) - A user's email address
 postChangePrimary-description = Uspešno ste spremenili glavni e-poštni naslov na { $email }. Ta e-poštni naslov je zdaj vaše uporabniško ime za prijavo v { -product-firefox-account }, kot tudi naslov za prejemanje varnostnih obvestil ter
 postChangePrimary-action = Upravljanje računa
+postConsumeRecoveryCode-title-2 = Uporabili ste rezervno overitveno kodo
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Uporabljena je bila na naslednji napravi:
 postConsumeRecoveryCode-action = Upravljanje računa
+postNewRecoveryCodes-subject-2 = Ustvarjene nove rezervne overitvene kode
+postNewRecoveryCodes-title-2 = Ustvarili ste nove rezervne overitvene kode
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Ustvarjene so bile na naslednji napravi:
 postNewRecoveryCodes-action = Upravljanje računa
+postRemoveAccountRecovery-subject-2 = Ključ za obnovitev računa izbrisan
+postRemoveAccountRecovery-title-2 = Izbrisali ste svoj ključ za obnovitev računa.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Izbrisan je bil z naslednje naprave:
 postRemoveAccountRecovery-action = Upravljanje računa
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
