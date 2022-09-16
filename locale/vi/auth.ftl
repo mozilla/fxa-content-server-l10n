@@ -73,14 +73,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Tải xuống 
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Tải xuống { $productName } trên { -app-store }">
-another-desktop-device = Hoặc cài đặt trên <a data-l10n-name="anotherDeviceLink">một thiết bị máy tính để bàn khác</a>.
-another-device = Hoặc cài đặt trên <a data-l10n-name="anotherDeviceLink">một thiết bị khác</a>.
-automated-email-change =
-    Đây là email tự động; nếu bạn không nhận ra hành động này, <a data-l10n-name="passwordChangeLink">vui lòng thay đổi mật khẩu của bạn</a>.
-    Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Đây là một email tự động; nếu bạn không thêm thiết bị mới vào { -product-firefox-account } của mình, bạn nên thay đổi mật khẩu của mình ngay lập tức tại { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Cài đặt { $productName } trên <a data-l10n-name="anotherDeviceLink">một thiết bị máy tính để bàn khác</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Cài đặt { $productName } trên <a data-l10n-name="anotherDeviceLink">một thiết bị khác</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Tải xuống { $productName } trên Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Tải xuống { $productName } trên App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Cài đặt { $productName } trên một thiết bị khác:
+automated-email-change-2 = Nếu bạn không thực hiện hành động này, hãy <a data-l10n-name="passwordChangeLink">thay đổi mật khẩu của bạn</a> ngay lập tức.
+automated-email-support = Để biết thêm thông tin, hãy truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Nếu bạn không thực hiện hành động này, hãy thay đổi mật khẩu của bạn ngay lập tức:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Để biết thêm thông tin, hãy truy cập { -brand-mozilla } Support:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext }Để biết thêm thông tin, hãy truy cập <<a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = Đây là một email tự động. Nếu bạn nhận nhầm, bạn không cần phải làm gì cả.
@@ -198,14 +211,19 @@ fraudulentAccountDeletion-contact = Nếu bạn có bất kỳ câu hỏi nào, 
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với nhóm hỗ trợ của chúng tôi: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Còn ít mã phục hồi còn lại
-codes-reminder-description = Chúng tôi nhận thấy rằng bạn sắp hết mã khôi phục. Vui lòng xem xét tạo mã mới để tránh bị khóa tài khoản của bạn.
-codes-generate = Tạo mã
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Tạo mã
-lowRecoveryCodes-subject =
+codes-reminder-title-zero = Bạn đã hết mã xác thực dự phòng!
+codes-reminder-title-one = Bạn đang sử dụng mã xác thực dự phòng cuối cùng của mình
+codes-reminder-title-two = Đã đến lúc tạo thêm mã xác thực dự phòng
+codes-reminder-description-part-one = Mã xác thực dự phòng giúp bạn khôi phục thông tin khi quên mật khẩu.
+codes-reminder-description-part-two = Tạo mã mới ngay bây giờ để bạn không bị mất dữ liệu của mình sau này.
+codes-reminder-description-two-left = Bạn chỉ còn lại hai mã.
+codes-reminder-description-create-codes = Tạo mã xác thực dự phòng mới để giúp bạn vào lại tài khoản của mình nếu bạn bị khóa.
+lowRecoveryCodes-action-2 = Tạo mã
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-       *[other] { $numberRemaining } mã khôi phục còn lại
+        [0] Không còn mã xác thực dự phòng nào
+       *[other] Chỉ còn lại { $numberRemaining } mã xác thực dự phòng!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -234,13 +252,15 @@ passwordChangeRequired-different-password-plaintext = Quan trọng: Chọn một
 passwordReset-subject = Đã cập nhật mật khẩu
 passwordReset-title = Mật khẩu tài khoản của bạn đã được thay đổi
 passwordReset-description = Bạn sẽ cần nhập mật khẩu mới của mình trên các thiết bị khác để tiếp tục đồng bộ hóa.
-passwordResetAccountRecovery-subject = Đã cập nhật mật khẩu bằng khóa khôi phục
-passwordResetAccountRecovery-title = Mật khẩu tài khoản của bạn đã được đặt lại bằng khóa khôi phục
-passwordResetAccountRecovery-description = Bạn đã đặt lại mật khẩu thành công bằng cách sử dụng khóa khôi phục từ thiết bị sau:
-passwordResetAccountRecovery-action = Tạo khóa khôi phục mới
-passwordResetAccountRecovery-regen-required = Bạn sẽ cần tạo khóa khôi phục mới.
+passwordResetAccountRecovery-subject-2 = Mật khẩu của bạn đã được đặt lại
+passwordResetAccountRecovery-title-2 = Đặt lại mật khẩu thành công
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Bạn đã sử dụng khóa khôi phục tài khoản của mình để cập nhật mật khẩu của mình từ:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Tạo khóa khôi phục tài khoản mới
+passwordResetAccountRecovery-regen-required-mjml-1 = Bạn sẽ cần đăng nhập lại trên tất cả các thiết bị đã đồng bộ hóa của mình. Hãy nhớ tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Tạo khóa khôi phục mới:
+passwordResetAccountRecovery-regen-required-txt-1 = Bạn sẽ cần đăng nhập lại trên tất cả các thiết bị đã đồng bộ hóa của mình. Hãy nhớ tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng:
 postAddAccountRecovery-subject-2 = Đã tạo khóa khôi phục tài khoản
 postAddAccountRecovery-title2 = Bạn đã tạo khóa khôi phục tài khoản mới
 # Information on the browser and device triggering this string follows.
@@ -268,19 +288,25 @@ postChangePrimary-title = Email chính mới
 #  $email (String) - A user's email address
 postChangePrimary-description = Bạn đã thay đổi thành công email chính của mình thành { $email }. Địa chỉ này hiện là tên người dùng của bạn để đăng nhập vào { -product-firefox-account } của bạn, cũng như nhận thông báo bảo mật và xác nhận đăng nhập.
 postChangePrimary-action = Quản lý tài khoản
-postConsumeRecoveryCode-subject = Mã khôi phục đã sử dụng
-postConsumeRecoveryCode-title = Mã phục hồi đã được sử dụng
-postConsumeRecoveryCode-description = Bạn đã sử dụng thành công mã khôi phục từ thiết bị sau:
+postConsumeRecoveryCode-title-2 = Bạn đã sử dụng mã xác thực dự phòng
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Nó đã được sử dụng vào:
 postConsumeRecoveryCode-action = Quản lý tài khoản
-postNewRecoveryCodes-subject = Đã tạo mã khôi phục mới
-postNewRecoveryCodes-title = Đã tạo mã khôi phục mới
-postNewRecoveryCodes-description = Bạn đã tạo thành công mã khôi phục mới từ thiết bị sau:
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+       *[other] Còn lại { $numberRemaining } mã xác thực dự phòng
+    }
+postNewRecoveryCodes-subject-2 = Đã tạo mã xác thực dự phòng mới
+postNewRecoveryCodes-title-2 = Bạn đã tạo mã xác thực dự phòng mới
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Chúng được tạo vào:
 postNewRecoveryCodes-action = Quản lý tài khoản
-postRemoveAccountRecovery-subject = Đã xóa khóa khôi phục tài khoản
-postRemoveAccountRecovery-title = Đã xóa khóa khôi phục tài khoản
-postRemoveAccountRecovery-description = Bạn đã xóa thành công khóa khôi phục tài khoản cho { -product-firefox-account } của mình từ thiết bị sau:
+postRemoveAccountRecovery-subject-2 = Khóa khôi phục tài khoản đã bị xóa
+postRemoveAccountRecovery-title-2 = Bạn đã xóa khóa khôi phục tài khoản của mình.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Nó đã bị xóa vào:
 postRemoveAccountRecovery-action = Quản lý tài khoản
-postRemoveAccountRecovery-invalid = Khóa khôi phục này không còn được sử dụng để khôi phục tài khoản của bạn nữa.
+postRemoveAccountRecovery-invalid-2 = Bạn cần có khóa khôi phục tài khoản để khôi phục dữ liệu { -brand-firefox } của mình nếu bạn quên mật khẩu của mình.
 postRemoveSecondary-subject = Đã xóa email phụ
 postRemoveSecondary-title = Đã xóa email phụ
 # Variables:
@@ -571,6 +597,7 @@ subscriptionUpgrade-upgrade-info = Bạn đã nâng cấp thành công từ { $p
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Bắt đầu với hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ { $paymentAmountOld } trên { $productPaymentCycleOld } thành { $paymentAmountNew } trên { $productPaymentCycleNew }. Vào thời điểm đó, bạn cũng sẽ bị tính phí một lần là { $paymentProrated } để phản ánh mức phí cao hơn cho phần còn lại của { $productPaymentCycleOld } này.
+subscriptionUpgrade-content-charge-info-different-cycle = Bạn sẽ bị tính phí một lần { $paymentProrated } để phản ánh mức giá đăng ký cao hơn cho phần còn lại của { $productPaymentCycleOld } này. Bắt đầu với hóa đơn tiếp theo, khoản phí của bạn sẽ thay đổi từ { $paymentAmountOld } trên mỗi { $productPaymentCycleOld } thành { $paymentAmountNew } trên mỗi { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Nếu có phần mềm mới để bạn cài đặt để sử dụng { $productName }, bạn sẽ nhận được một email riêng với hướng dẫn tải xuống.
@@ -590,7 +617,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Hãy nhớ xác minh tài khoản của bạn
 verificationReminderFirst-title-2 = Chào mừng đến với { -brand-firefox }!
 verificationReminderFirst-description-2 = Vài ngày trước, bạn đã tạo { -product-firefox-account } nhưng chưa bao giờ xác minh. Vui lòng xác minh tài khoản của bạn trong 15 ngày tới, nếu không tài khoản sẽ tự động bị xóa.
-verificationReminderFirst-sub-description-2 = Đừng bỏ lỡ công nghệ đặt bạn và quyền riêng tư của bạn lên hàng đầu.
+verificationReminderFirst-sub-description-3 = Đừng bỏ lỡ trình duyệt đặt bạn và quyền riêng tư của bạn lên hàng đầu.
 confirm-email-2 = Xác minh tài khoản
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Xác minh tài khoản

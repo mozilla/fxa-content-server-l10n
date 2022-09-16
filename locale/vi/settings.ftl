@@ -152,7 +152,7 @@ cs-sign-out-button = Đăng xuất
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Đã tải xuống
@@ -185,9 +185,11 @@ drop-down-menu-sign-out-error-2 = Xin lỗi, đã xảy ra sự cố khi đăng 
 
 flow-container-back = Quay lại
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Mã khôi phục
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Khóa khôi phục tài khoản { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Mã xác thực dự phòng { -brand-firefox }
 get-data-trio-download =
     .title = Tải xuống
 get-data-trio-copy =
@@ -247,14 +249,14 @@ nav-data-collection = Thu thập và sử dụng dữ liệu
 nav-paid-subs = Thuê bao đã trả phí
 nav-email-comm = Truyền thông email
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Đã xảy ra sự cố khi thay thế mã khôi phục của bạn
-tfa-replace-code-success =
-    Đã tạo các mã mới. Lưu các mã sử dụng một lần này
-    vào nơi an toàn — bạn sẽ cần họ truy cập vào tài khoản của mình nếu bạn không
-    có di động của bạn.
-tfa-replace-code-success-alert-2 = Đã cập nhật mã khôi phục tài khoản
+tfa-replace-code-error-3 = Đã xảy ra sự cố khi thay thế mã xác thực dự phòng của bạn
+tfa-replace-code-success-1 =
+    Mã mới đã được tạo. Lưu các mã xác thực dự phòng một lần này
+    ở một nơi an toàn — bạn sẽ cần chúng để truy cập vào tài khoản của mình nếu không
+    có thiết bị di động của bạn.
+tfa-replace-code-success-alert-3 = Đã cập nhật mã xác thực dự phòng tài khoản
 tfa-replace-code-1-2 = Bước 1/2
 tfa-replace-code-2-2 = Bước 2/2
 
@@ -364,19 +366,19 @@ display-name-success-alert-2 = Đã cập nhật tên hiển thị
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Hủy bỏ
 recovery-key-close-button = Đóng
 recovery-key-continue-button = Tiếp tục
-recovery-key-created = Khóa khôi phục của bạn đã được tạo. Đảm bảo lưu khóa ở nơi an toàn mà bạn có thể dễ dàng tìm thấy sau này — bạn sẽ cần khóa này để lấy lại quyền truy cập vào dữ liệu của mình nếu bạn quên mật khẩu của mình.
+recovery-key-created-1 = Khóa khôi phục tài khoản của bạn đã được tạo. Đảm bảo lưu khóa ở nơi an toàn mà bạn có thể dễ dàng tìm thấy sau này — bạn sẽ cần khóa để lấy lại quyền truy cập vào dữ liệu của mình nếu quên mật khẩu.
 recovery-key-enter-password =
     .label = Nhập mật khẩu
-recovery-key-page-title =
-    .title = Khóa khôi phục
+recovery-key-page-title-1 =
+    .title = Khóa khôi phục tài khoản
 recovery-key-step-1 = Bước 1/2
 recovery-key-step-2 = Bước 2/2
-recovery-key-success-alert-2 = Đã tạo khóa khôi phục
+recovery-key-success-alert-3 = Đã tạo khóa khôi phục tài khoản
 
 ## Add secondary email page
 
@@ -424,8 +426,8 @@ tfa-button-cancel = Hủy bỏ
 tfa-button-finish = Hoàn thành
 tfa-incorrect-totp = Mã xác thực hai bước không đúng
 tfa-cannot-retrieve-code = Có vấn đề trong khi nhận mã của bạn.
-tfa-cannot-verify-code-3 = Đã xảy ra sự cố khi xác minh mã khôi phục của bạn
-tfa-incorrect-recovery-code = Mã khôi phục không đúng
+tfa-cannot-verify-code-4 = Đã xảy ra sự cố khi xác nhận mã xác thực dự phòng của bạn
+tfa-incorrect-recovery-code-1 = Mã xác thực dự phòng không chính xác
 tfa-enabled = Đã bật xác thực hai bước
 tfa-scan-this-code =
     Quét mã QR này sử dụng một trong <linkExternal>những
@@ -445,15 +447,15 @@ tfa-enter-secret-key = Nhập khóa bí mật này vào ứng dụng xác thực
 tfa-enter-totp = Bây giờ nhập mã từ ứng dụng xác thực.
 tfa-input-enter-totp =
     .label = Nhập mã bảo mật
-tfa-save-these-codes =
-    Lưu trữ các mã sử dụng một lần này ở nơi an toàn khi
-    bạn không có thiết bị di động.
-tfa-enter-code-to-confirm =
-    Vui lòng nhập một trong các mã khôi phục của bạn bây giờ để
-    xác nhận bạn đã lưu nó. Bạn sẽ cần mã nếu mất thiết bị và muốn
-    truy cập tài khoản của bạn.
-tfa-enter-recovery-code =
-    .label = Nhập mã khôi phục
+tfa-save-these-codes-1 =
+    Lưu các mã xác thực dự phòng sử dụng một lần này ở một nơi an toàn khi
+    bạn không có thiết bị di động của mình.
+tfa-enter-code-to-confirm-1 =
+    Vui lòng nhập một trong các mã xác thực dự phòng của bạn ngay bây giờ để
+    xác nhận bạn đã lưu nó. Bạn sẽ cần mã để đăng nhập nếu bạn không có quyền truy cập vào
+    thiết bị di động.
+tfa-enter-recovery-code-1 =
+    .label = Nhập mã xác thực dự phòng
 
 ##
 
@@ -502,25 +504,25 @@ row-defaults-action-change = Thay đổi
 row-defaults-action-disable = Vô hiệu hóa
 row-defaults-status = Không có
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Khóa khôi phục
+rk-header-1 = Khóa khôi phục tài khoản
 rk-enabled = Đã bật
 rk-not-set = Chưa tạo
 rk-action-create = Tạo
 rk-action-remove = Xóa
-rk-cannot-refresh = Xin lỗi, có vấn đề khi làm mới khóa khôi phục.
+rk-cannot-refresh-1 = Xin lỗi, đã xảy ra sự cố khi làm mới khóa khôi phục tài khoản.
 rk-key-removed-2 = Đã xóa khóa khôi phục tài khoản
 rk-cannot-remove-key = Không thể xóa khóa khôi phục tài khoản của bạn.
-rk-refresh-key = Tải lại khóa khôi phục
+rk-refresh-key-1 = Làm mới khóa khôi phục tài khoản
 rk-content-explain = Khôi phục thông tin của bạn khi bạn quên mật khẩu.
 rk-content-reset-data = Tại sao dữ liệu của tôi bị đặt lại khi thay thế mật khẩu của tôi?
 rk-cannot-verify-session-4 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
-rk-remove-modal-heading = Xóa khóa khôi phục?
-rk-remove-modal-content =
-    Trong trường hợp bạn đặt lại mật khẩu của mình, bạn sẽ không thể
-    sử dụng khóa khôi phục để truy cập dữ liệu của bạn. Bạn không thể hoàn tác hành động này.
-rk-refresh-error = Xin lỗi, có vấn đề khi làm mới khóa khôi phục.
+rk-remove-modal-heading-1 = Xóa khóa khôi phục tài khoản?
+rk-remove-modal-content-1 =
+    Trong trường hợp bạn đặt lại mật khẩu của mình, bạn sẽ không
+    có thể sử dụng khóa khôi phục tài khoản để truy cập dữ liệu của bạn. Bạn không thể hoàn tác hành động này.
+rk-refresh-error-1 = Xin lỗi, đã xảy ra sự cố khi làm mới khóa khôi phục tài khoản.
 rk-remove-error-2 = Không thể xóa khóa khôi phục của tài khoản của bạn
 
 ## Secondary email sub-section on main Settings page
@@ -554,9 +556,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Đặt làm email chính
 se-default-content = Truy cập tài khoản của bạn nếu bạn không thể đăng nhập vào email chính của mình.
-se-content-note =
+se-content-note-1 =
     Lưu ý: email phụ sẽ không khôi phục thông tin của bạn — bạn sẽ
-    cần <a>khóa khôi phục</a> cho việc đó.
+    cần có <a>khóa khôi phục tài khoản</a> cho việc đó.
 # Default value for the secondary email
 se-secondary-email-none = Không có
 
@@ -580,11 +582,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 tfa-row-disable-modal-heading = Tắt xác thực hai bước?
 tfa-row-disable-modal-confirm = Tắt
-tfa-row-disable-modal-explain =
+tfa-row-disable-modal-explain-1 =
     Bạn sẽ không thể hoàn tác hành động này. Bạn cũng
-    có tùy chọn <linkExternal>thay thế mã khôi phục của bạn</linkExternal>.
+    có tùy chọn <linkExternal>thay thế mã xác thực dự phòng của bạn</linkExternal>.
 tfa-row-cannot-disable-2 = Không thể tắt xác thực hai bước
-tfa-row-change-modal-heading = Thay đổi mã khôi phục?
+tfa-row-change-modal-heading-1 = Thay đổi mã xác thực dự phòng?
 tfa-row-change-modal-confirm = Thay đổi
 tfa-row-change-modal-explain = Bạn sẽ không thể hoàn tác hành động này.
 
