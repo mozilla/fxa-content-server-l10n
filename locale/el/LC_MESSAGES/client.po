@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-16 11:34+0000\n"
+"PO-Revision-Date: 2022-09-16 11:50+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1091,7 +1091,7 @@ msgstr "Σύνδεση μιας άλλης συσκευής"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "Συνδεθήκατε στο Firefox"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
@@ -1115,7 +1115,7 @@ msgstr "Συνδεθείτε στο Firefox σε μια άλλη συσκευή 
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "Θέλετε να λάβετε τις καρτέλες, τους σελιδοδείκτες και τους κωδικούς πρόσβασής σας σε μια άλλη συσκευή;"
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
@@ -2031,23 +2031,25 @@ msgstr "Η διαδικασία ρύθμισης τερματίστηκε."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "Συνδέστε το Firefox σε άλλη συσκευή"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "Συγχρονίστε με το Firefox στο κινητό ή το tablet σας"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "Έχετε ήδη το Firefox στο κινητό ή το tablet σας;"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "Συγχρονισμός συσκευής"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
+"Κάντε σάρωση για να λάβετε το Firefox για κινητές συσκευές ή στείλτε στον εαυτό σας έναν <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" "
+"class=\"link-blue\">σύνδεσμο λήψης</a>."
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
@@ -2055,7 +2057,7 @@ msgstr "Κωδικός QR"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Μεταφέρετε τις καρτέλες, τους σελιδοδείκτες και τους κωδικούς πρόσβασής σας οπουδήποτε χρησιμοποιείτε το Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"

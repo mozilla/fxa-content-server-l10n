@@ -109,6 +109,12 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Λήψη το�
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Λήψη του { $productName } στο { -app-store }">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Εγκαταστήστε το { $productName } σε έναν <a data-l10n-name="anotherDeviceLink">άλλο υπολογιστή</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Εγκαταστήστε το { $productName } σε μια <a data-l10n-name="anotherDeviceLink">άλλη συσκευή</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Λήψη του { $productName } από το Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -116,7 +122,10 @@ ios-download-plaintext = Λήψη του { $productName } από το App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Εγκατάσταση του { $productName } σε άλλη συσκευή:
+automated-email-change-2 = Εάν δεν εκτελέσατε αυτήν την ενέργεια, <a data-l10n-name="passwordChangeLink">αλλάξτε τον κωδικό πρόσβασής σας</a> αμέσως.
 automated-email-support = Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Εάν δεν εκτελέσατε αυτήν την ενέργεια, αλλάξτε τον κωδικό πρόσβασής σας αμέσως:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Για περισσότερες πληροφορίες, επισκεφτείτε την Υποστήριξη { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
@@ -278,7 +287,10 @@ passwordChangeRequired-different-password-plaintext = Σημαντικό: Επι
 passwordReset-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordReset-title = Ο κωδικός πρόσβασης του λογαριασμού σας άλλαξε
 passwordReset-description = Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό.
+passwordResetAccountRecovery-subject-2 = Έγινε επαναφορά του κωδικού πρόσβασής σας
 passwordResetAccountRecovery-title-2 = Επιτυχής επαναφορά κωδικού πρόσβασης
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Χρησιμοποιήσατε το κλειδί ανάκτησης λογαριασμού σας για να ενημερώσετε τον κωδικό πρόσβασής σας από το:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
 postAddAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
@@ -309,9 +321,23 @@ postChangePrimary-title = Νέο κύριο email
 postChangePrimary-description = Έχετε αλλάξει επιτυχώς το κύριο email σας σε { $email }. Αυτή η διεύθυνση αποτελεί πλέον το όνομα χρήστη σας για τη σύνδεση στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας, καθώς και για τη λήψη ειδοποιήσεων ασφαλείας και επιβεβαιώσεων σύνδεσης.
 postChangePrimary-action = Διαχείριση λογαριασμού
 postConsumeRecoveryCode-title-2 = Χρησιμοποιήσατε έναν εφεδρικό κωδικό ταυτοποίησης
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Χρησιμοποιήθηκε στο:
 postConsumeRecoveryCode-action = Διαχείριση λογαριασμού
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Απομένει 1 εφεδρικός κωδικός ταυτοποίησης
+       *[other] Απομένουν { $numberRemaining } εφεδρικοί κωδικοί ταυτοποίησης
+    }
+postNewRecoveryCodes-subject-2 = Δημιουργήθηκαν νέοι εφεδρικοί κωδικοί ταυτοποίησης
+postNewRecoveryCodes-title-2 = Δημιουργήσατε νέους εφεδρικούς κωδικούς ταυτοποίησης
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Δημιουργήθηκαν στο:
 postNewRecoveryCodes-action = Διαχείριση λογαριασμού
+postRemoveAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού διαγράφηκε
 postRemoveAccountRecovery-title-2 = Διαγράψατε το κλειδί ανάκτησης λογαριασμού σας.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Διαγράφηκε από το:
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
