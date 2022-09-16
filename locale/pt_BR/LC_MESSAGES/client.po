@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-16 14:53+0000\n"
+"PO-Revision-Date: 2022-09-16 21:14+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -2042,7 +2042,7 @@ msgstr "Código QR"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Tenha suas abas, favoritos e senhas onde quer que use o Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
