@@ -73,14 +73,14 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Emboguejy { $p
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Emboguejy { $productName } { -app-store }"> rupive
-another-desktop-device = Térã, emohenda <a data-l10n-name="anotherDeviceLink">ambue mba’e’oká PC-pe</a>.
-another-device = Térã, emohenda <a data-l10n-name="anotherDeviceLink">ambue mba’e’okápe</a>.
-automated-email-change =
-    Kóva ha’e ñandutiveve ijeheguíva; neremomeĩriramo, upéicharamo <a data-l10n-name="passwordChangeLink">emoambue ne ñe’ẽñemi</a>.
-    Eñemomaranduve hag̃ua, ikatúpa eikemi <a data-l10n-name="supportLink">{ -brand-mozilla } oipytyvõva</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Kóva ha’e ñandutiveve hekojeheguíva; nerembojoajúi rire mba’e’oka pyahu nde { -product-firefox-account }-pe, emoambue pya’eterei ne ñe’ẽñemi { $passwordChangeLink }pe
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Ereko { $productName } Google Play rupive:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Emohenda { $productName } ambue mba’e’okápe:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Eikuaave hag̃ua, eike { -brand-mozilla } pytyvõme:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Eñemomaranduve hag̃ua, eike <a data-l10n-name="supportLink">{ -brand-mozilla } Pytyvõme</a>.
 automated-email-no-action-plaintext = Kóva ha’e peteĩ ñanduti veve hekojeheguíva. Og̃uahẽrei rire ndéve, anínte ejapo mba’eve.
@@ -223,7 +223,10 @@ passwordChangeRequired-different-password-plaintext = Mba’eguasu: eiporavo pet
 passwordReset-subject = Ñe’ẽñemi hekopyahúva
 passwordReset-title = Ne mba’ete ñe’ẽñemi oñemoambue
 passwordReset-description = Emoingeva’erã ñe’ẽñemi pyahu ne ambue mba’e’okápe oñepyrũjey hag̃ua ñembojuehe.
-passwordResetAccountRecovery-action-1 = Emoheñói mba’eñemi jeguerujeyrã pyahu
+passwordResetAccountRecovery-subject-2 = Oikojeýma ne ñe’ẽñemi
+passwordResetAccountRecovery-title-2 = Ñe’ẽñemi jeguerujey apañuãi’ỹre
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 postAddAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã
 postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 # Information on the browser and device triggering this string follows.
@@ -251,11 +254,14 @@ postChangePrimary-title = Ñandutiveve pyahu mba’eguasuvéva
 #  $email (String) - A user's email address
 postChangePrimary-description = Emoambue hekopete ne ñandutiveve eipuruvéva { $email }. Ko kundaharape ha’e nde puruhára réra eñepyrũ hag̃ua tembiapo nde { -product-firefox-account }-pe og̃uahẽkuaa hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua.
 postChangePrimary-action = Mba’ete ñangareko
+postConsumeRecoveryCode-title-2 = Reipurureína auvu ñemoneĩ jeykekoha
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Ojepuru amo:
 postConsumeRecoveryCode-action = Mba’ete ñangareko
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Oñemoheñói amo:
 postNewRecoveryCodes-action = Mba’ete ñangareko
-postRemoveAccountRecovery-subject = Oguéma ayvu jeguerujeyrã mba’ete
-postRemoveAccountRecovery-title = Oguéma ayvu jeguerujeyrã mba’ete
-postRemoveAccountRecovery-description = Embogue porã pe mba’eñemi jeguerujeyrã { -product-firefox-account } pegua eipurúvo ko tenondevegua mba’e’oka:
+postRemoveAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã:
 postRemoveAccountRecovery-action = Mba’ete ñangareko
 postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
