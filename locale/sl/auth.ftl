@@ -237,6 +237,7 @@ codes-reminder-title-two = Čas, da ustvarite več rezervnih overitvenih kod
 codes-reminder-description-part-one = Rezervne overitvene kode vam omogočajo obnovitev podatkov v primeru, da pozabite geslo.
 codes-reminder-description-part-two = Ustvarite nove kode zdaj, da ne bi pozneje izgubili podatkov.
 codes-reminder-description-two-left = Ostali sta vam le še dve kodi.
+codes-reminder-description-create-codes = Ustvarite nove rezervne overitvene kode, s katerimi se boste lahko vrnili v račun, če boste zaklenjeni iz njega.
 lowRecoveryCodes-action-2 = Ustvari kode
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
