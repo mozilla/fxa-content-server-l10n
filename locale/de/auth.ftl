@@ -73,14 +73,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } im { -app-store } herunterladen">
-another-desktop-device = Oder führen Sie die Installation <a data-l10n-name="anotherDeviceLink">einem anderen Desktop-Gerät</a> durch.
-another-device = Oder führen Sie die Installation <a data-l10n-name="anotherDeviceLink">einem anderen Gerät</a> durch.
-automated-email-change =
-    Dies ist eine automatisierte E-Mail; wenn Sie diese Aktion nicht autorisiert haben, <a data-l10n-name="passwordChangeLink">ändern Sie bitte Ihr Passwort</a>.
-    Weitere Informationen finden Sie bei der <a data-l10n-name="supportLink">{ -brand-mozilla }-Hilfe</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Dies ist eine automatische E-Mail; wenn Sie Ihrem { -product-firefox-account } kein neues Gerät hinzugefügt haben, ändern Sie bitte umgehend Ihr Passwort unter { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Installieren Sie { $productName } auf <a data-l10n-name="anotherDeviceLink">einem anderen Desktop-Gerät</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Installieren Sie { $productName } auf <a data-l10n-name="anotherDeviceLink">einem anderen Gerät</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Holen Sie sich { $productName } bei Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Laden Sie { $productName } im App Store herunter:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Installieren Sie { $productName } auf einem anderen Gerät:
+automated-email-change-2 = Wenn Sie diese Maßnahme nicht ausgelöst haben, <a data-l10n-name="passwordChangeLink">ändern Sie sofort Ihr Passwort</a>.
+automated-email-support = Weitere Informationen erhalten Sie bei der <a data-l10n-name="supportLink">{ -brand-mozilla }-Hilfe</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Wenn Sie diese Maßnahme nicht ausgelöst haben, ändern Sie sofort Ihr Passwort:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Weitere Informationen erhalten Sie bei der { -brand-mozilla }-Hilfe:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Weitere Informationen erhalten Sie bei der <a data-l10n-name="supportLink">{ -brand-mozilla }-Hilfe</a>.
 automated-email-no-action-plaintext = Dies ist eine automatisierte E-Mail. Wenn Sie sie versehentlich erhalten haben, brauchen Sie nichts zu tun.
@@ -240,13 +253,15 @@ passwordChangeRequired-different-password-plaintext = Wichtig: Wählen Sie ein a
 passwordReset-subject = Passwort aktualisiert
 passwordReset-title = Das Passwort Ihres Kontos wurde geändert
 passwordReset-description = Sie müssen Ihr neues Passwort auf den anderen Geräten eingeben, um die Synchronisation fortzusetzen.
-passwordResetAccountRecovery-subject-1 = Passwort mit Kontowiederherstellungsschlüssel aktualisiert
-passwordResetAccountRecovery-title-1 = Das Passwort Ihres Kontos wurde mit einem Kontowiederherstellungsschlüssel zurückgesetzt
-passwordResetAccountRecovery-description-1 = Sie haben Ihr Passwort mithilfe eines Kontowiederherstellungsschlüssels von folgendem Gerät erfolgreich zurückgesetzt:
-passwordResetAccountRecovery-action-1 = Neuen Kontowiederherstellungsschlüssel erzeugen
-passwordResetAccountRecovery-regen-required-1 = Sie müssen einen neuen Kontowiederherstellungsschlüssel erzeugen.
+passwordResetAccountRecovery-subject-2 = Ihr Passwort wurde zurückgesetzt
+passwordResetAccountRecovery-title-2 = Passwort erfolgreich zurückgesetzt
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Sie haben Ihren Kontowiederherstellungsschlüssel verwendet, um Ihr Passwort zu aktualisieren von:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Neuen Kontowiederherstellungsschlüssel erzeugen
+passwordResetAccountRecovery-regen-required-mjml-1 = Sie müssen sich auf allen synchronisierten Geräten erneut anmelden. Denken Sie daran, einen neuen Kontowiederherstellungsschlüssel zu erstellen, um den von Ihnen verwendeten zu ersetzen.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = Neuen Kontowiederherstellungsschlüssel erstellen:
+passwordResetAccountRecovery-regen-required-txt-1 = Sie müssen sich auf allen Ihren synchronisierten Geräten erneut anmelden. Denken Sie daran, einen neuen Kontowiederherstellungsschlüssel zu erstellen, um den verwendeten zu ersetzen:
 postAddAccountRecovery-subject-2 = Kontowiederherstellungsschlüssel erstellt
 postAddAccountRecovery-title2 = Sie haben einen neuen Kontowiederherstellungsschlüssel erstellt
 # Information on the browser and device triggering this string follows.
@@ -274,19 +289,26 @@ postChangePrimary-title = Neue Primär-E-Mail-Adresse
 #  $email (String) - A user's email address
 postChangePrimary-description = Sie haben Ihre Primär-E-Mail-Adresse zu { $email } geändert. Diese Adresse ist jetzt Ihr Benutzername für die Anmeldung bei Ihrem { -product-firefox-account }, sowie zum Erhalt von Sicherheitsbenachrichtigungen
 postChangePrimary-action = Benutzerkonto verwalten
-postConsumeRecoveryCode-subject-1 = Sicherungs-Authentifizierungscode verwendet
-postConsumeRecoveryCode-title-1 = Sicherungs-Authentifizierungscode verbraucht
-postConsumeRecoveryCode-description-1 = Sie haben erfolgreich einen Sicherungs-Authentifizierungscode von folgendem Gerät verwendet:
+postConsumeRecoveryCode-title-2 = Sie haben einen Sicherungs-Authentifizierungscode verwendet
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Er wurde verwendet auf:
 postConsumeRecoveryCode-action = Benutzerkonto verwalten
-postNewRecoveryCodes-subject-1 = Neue Sicherungs-Authentifizierungscodes erzeugt
-postNewRecoveryCodes-title-1 = Neue Sicherungs-Authentifizierungscodes erzeugt
-postNewRecoveryCodes-description-1 = Sie haben erfolgreich neue Sicherungs-Authentifizierungscodes von folgendem Gerät erzeugt:
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Ein Sicherungs-Authentifizierungscode übrig
+       *[other] { $numberRemaining } Sicherungs-Authentifizierungscodes übrig
+    }
+postNewRecoveryCodes-subject-2 = Neue Sicherungs-Authentifizierungscodes erzeugt
+postNewRecoveryCodes-title-2 = Sie haben neue Sicherungs-Authentifizierungscode erzeugt
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Sie wurden erstellt auf:
 postNewRecoveryCodes-action = Benutzerkonto verwalten
-postRemoveAccountRecovery-subject = Kontowiederherstellungsschlüssel entfernt
-postRemoveAccountRecovery-title = Kontowiederherstellungsschlüssel entfernt
-postRemoveAccountRecovery-description = Sie haben erfolgreich einen Kontowiederherstellungsschlüssel für Ihr { -product-firefox-account } mit folgendem Gerät entfernt:
+postRemoveAccountRecovery-subject-2 = Kontowiederherstellungsschlüssel gelöscht
+postRemoveAccountRecovery-title-2 = Sie haben Ihren Kontowiederherstellungsschlüssel gelöscht.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Es wurde gelöscht von:
 postRemoveAccountRecovery-action = Benutzerkonto verwalten
-postRemoveAccountRecovery-invalid-1 = Dieser Kontowiederherstellungsschlüssel kann nicht mehr verwendet werden, um Ihr Konto wiederherzustellen.
+postRemoveAccountRecovery-invalid-2 = Sie benötigen einen Kontowiederherstellungsschlüssel, um Ihre { -brand-firefox }-Daten wiederherzustellen, wenn Sie Ihr Passwort vergessen.
 postRemoveSecondary-subject = Zweit-E-Mail-Adresse entfernt
 postRemoveSecondary-title = Zweit-E-Mail-Adresse entfernt
 # Variables:
@@ -577,6 +599,7 @@ subscriptionUpgrade-upgrade-info = Sie haben erfolgreich das Upgrade von { $prod
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Ab Ihrer nächsten Rechnung ändert sich Ihre Gebühr von { $paymentAmountOld } pro { $productPaymentCycleOld } auf { $paymentAmountNew } pro { $productPaymentCycleNew }. Zu diesem Zeitpunkt wird Ihnen außerdem eine einmalige Gebühr in Höhe von { $paymentProrated } abgebucht, um die höhere Gebühr für den Rest dieser { $productPaymentCycleOld } widerzuspiegeln.
+subscriptionUpgrade-content-charge-info-different-cycle = Ihnen wird eine einmalige Gebühr von { $paymentProrated } berechnet, um den höheren Preis Ihres Abonnements für den Rest dieses { $productPaymentCycleOld } widerzuspiegeln. Ab Ihrer nächsten Rechnung ändert sich Ihre Gebühr von { $paymentAmountOld } pro { $productPaymentCycleOld } zu { $paymentAmountNew } pro { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Wenn Sie neue Software installieren müssen, um { $productName } verwenden zu können, erhalten Sie eine separate E-Mail mit Anweisungen zum Herunterladen.
