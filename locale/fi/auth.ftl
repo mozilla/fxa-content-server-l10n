@@ -73,14 +73,9 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Lataa { $produ
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Lataa { $productName } { -app-store }sta">
-another-desktop-device = Tai asenna <a data-l10n-name="anotherDeviceLink">toiselle työpöytälaitteelle</a>.
-another-device = Tai asenna <a data-l10n-name="anotherDeviceLink">toiselle laitteelle</a>.
-automated-email-change =
-    Tämä on automaattinen viesti. Jos et valtuuttanut tätä toimintoa, <a data-l10n-name="passwordChangeLink">vaihda salasanasi</a>.
-    Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }n tuesta</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Tämä on automaattisesti lähtetty viesti. Jos et lisännyt uutta laitetta { -product-firefox-account }isi, vaihda salasanasi välittömästi osoitteessa { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Asenna { $productName } toiselle laitteelle:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }-tuesta</a>.
 automated-email-no-action-plaintext = Tämä on automaattinen sähköposti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
@@ -222,9 +217,10 @@ passwordChangeRequired-different-password-plaintext = Tärkeää: Valitse eri sa
 passwordReset-subject = Salasana päivitetty
 passwordReset-title = Tilisi salasana vaihdettiin
 passwordReset-description = Syötä uusi salasanasi muihin laitteisiisi jatkaaksesi synkronointia.
-passwordResetAccountRecovery-subject-1 = Salasana päivitetty tilin palautusavainta käyttäen
-passwordResetAccountRecovery-title-1 = Tilisi salasana nollattiin tilin palautusavaimella
-passwordResetAccountRecovery-action-1 = Luo uusi tilin palautusavain
+passwordResetAccountRecovery-subject-2 = Salasanasi on nollattu
+passwordResetAccountRecovery-title-2 = Salasanan nollaus onnistui
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Luo uusi tilin palautusavain
 postAddAccountRecovery-subject-2 = Tilin palautusavain luotu
 postAddAccountRecovery-title2 = Loit uuden tilin palautusavaimen
 # This is asking whether the person who took the action is the recipient of the email.
@@ -252,9 +248,8 @@ postChangePrimary-description = Olet vaihtanut ensisijaiseksi sähköpostiosoitt
 postChangePrimary-action = Hallinnoi tiliä
 postConsumeRecoveryCode-action = Hallinnoi tiliä
 postNewRecoveryCodes-action = Hallinnoi tiliä
-postRemoveAccountRecovery-subject = Tilin palautusavain poistettu
-postRemoveAccountRecovery-title = Tilin palautusavain poistettu
-postRemoveAccountRecovery-description = Olet poistanut tilin palautusavaimen { -product-firefox-account }ltäsi käyttäen seuraavaa laitetta:
+postRemoveAccountRecovery-subject-2 = Tilin palautusavain poistettu
+postRemoveAccountRecovery-title-2 = Poistit tilisi palautusavaimen.
 postRemoveAccountRecovery-action = Hallinnoi tiliä
 postRemoveSecondary-subject = Toissijainen sähköposti poistettiin
 postRemoveSecondary-title = Toissijainen sähköposti poistettiin
