@@ -255,6 +255,8 @@ passwordReset-title = Waše kontowe hesło je so změniło
 passwordReset-description = Dyrbiće swoje nowe hesło na druhich gratach zapodać, zo byšće ze synchronizaciju pokročował.
 passwordResetAccountRecovery-subject-2 = Waše hesło je so wróćo stajiło
 passwordResetAccountRecovery-title-2 = Hesło je so wuspěšnje wróćo stajiło
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Sće swój kontowy wobnowjenski kluč wužił, zo byšće swoje hesło aktualizował wot:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Nowy kontowy wobnowjenski kluč wutworić
 postAddAccountRecovery-subject-2 = Kontowy wobnowjenski kluč je so wutworił
@@ -305,6 +307,7 @@ postRemoveAccountRecovery-title-2 = Sće swój kontowy wobnowjenski kluč zhaša
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Je so zhašał z:
 postRemoveAccountRecovery-action = Konto rjadować
+postRemoveAccountRecovery-invalid-2 = Trjebaće kontowy wobnowjenski kluč, zo byšće swoje daty { -brand-firefox } wobnowił, jeli sće swoje hesło zabył.
 postRemoveSecondary-subject = Sekundarna e-mejlowa adresa wotstronjena
 postRemoveSecondary-title = Sekundarna e-mejlowa adresa wotstronjena
 # Variables:
@@ -319,6 +322,7 @@ postRemoveTwoStepAuthentication-action = Konto rjadować
 postRemoveTwoStepAuthentication-not-required = Wěstotne kody wotnětka při kóždym přizjewjenju hižo trěbne njejsu.
 postVerify-sub-title-3 = Wjeselimy so was widźeć!
 postVerify-title-2 = Chceće samsny rajtark na dwěmaj gratomaj widźeć?
+postVerify-description-2 = To je lochko! Instalujće prosće { -brand-firefox } na druhim graće a přizjewće so za synchronizaciju. Na magiske wašnje!
 postVerify-subject-3 = Witajće k { -brand-firefox }!
 postVerify-setup-2 = Z druhim gratom zwjazać:
 postVerify-action-2 = Z druhim gratom zwjazać
