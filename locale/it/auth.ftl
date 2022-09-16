@@ -77,14 +77,6 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Scarica { $pro
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Scarica { $productName } sull’{ -app-store }">
-another-desktop-device = Oppure installa su <a data-l10n-name="anotherDeviceLink">un altro dispositivo desktop</a>.
-another-device = Oppure installa su <a data-l10n-name="anotherDeviceLink">un altro dispositivo</a>.
-automated-email-change =
-    Questa email è stata inviata da un servizio automatico. Se non hai autorizzato questa azione, <a data-l10n-name="passwordChangeLink">cambia la tua password</a>.
-    Per ulteriori informazioni, visita la pagina di <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
-# Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Questa email è stata inviata da un servizio automatico. Se non sei stato tu ad aggiungere un nuovo dispositivo all’{ -product-firefox-account }, cambia subito la password utilizzando il link { $passwordChangeLink }
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Per ulteriori informazioni, visita il <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
@@ -201,17 +193,6 @@ fraudulentAccountDeletion-contact = Per qualsiasi domanda contatta il nostro <a 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Per qualsiasi domanda contatta il nostro team di supporto: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Sono rimasti pochi codici di recupero
-codes-reminder-description = Ti informiamo che ti sono rimasti pochi codici di recupero. Genera dei nuovi codici per evitare di restare tagliato fuori dal tuo account.
-codes-generate = Genera codici
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Genera codici
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] È rimasto 1 codice di recupero
-       *[other] Sono rimasti { $numberRemaining } codici di recupero
-    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nuovo accesso a { $clientName }
@@ -239,15 +220,8 @@ passwordChangeRequired-different-password-plaintext = Importante: scegli una pas
 passwordReset-subject = Password aggiornata
 passwordReset-title = La tua password è stata modificata
 passwordReset-description = Per riprendere la sincronizzazione inserisci la nuova password sugli altri dispositivi collegati.
-passwordResetAccountRecovery-subject = Password aggiornata utilizzando la chiave di recupero
-passwordResetAccountRecovery-title = La password dell’account è stata ripristinata con una chiave di recupero
-passwordResetAccountRecovery-description = La password è stata correttamente ripristinata utilizzando una chiave di recupero dal seguente dispositivo:
-passwordResetAccountRecovery-action = Crea una nuova chiave di recupero
-passwordResetAccountRecovery-regen-required = È necessario generare una nuova chiave di recupero.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Crea una nuova chiave di recupero:
-postAddAccountRecovery-subject-2 = La chiave di recupero per l’account è stata generata
-postAddAccountRecovery-title2 = Hai generato una nuova chiave di recupero per l’account
+postAddAccountRecovery-subject-2 = La chiave di recupero dell’account è stata generata
+postAddAccountRecovery-title2 = Hai generato una nuova chiave di recupero dell’account
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = È stata generata una nuova chiave da:
 # This is asking whether the person who took the action is the recipient of the email.
@@ -273,19 +247,9 @@ postChangePrimary-title = Nuovo indirizzo email primario
 #  $email (String) - A user's email address
 postChangePrimary-description = Hai modificato correttamente il tuo indirizzo email primario in { $email }. Da questo momento puoi utilizzare il nuovo indirizzo email per accedere all’{ -product-firefox-account }, ricevere notifiche di sicurezza e conferme.
 postChangePrimary-action = Gestisci account
-postConsumeRecoveryCode-subject = Codice di recupero utilizzato
-postConsumeRecoveryCode-title = Codice di recupero utilizzato
-postConsumeRecoveryCode-description = Hai utilizzato uno dei codici di recupero dal seguente dispositivo:
 postConsumeRecoveryCode-action = Gestisci account
-postNewRecoveryCodes-subject = Nuovi codici di recupero generati
-postNewRecoveryCodes-title = Nuovi codici di recupero generati
-postNewRecoveryCodes-description = Nuovi codici di recupero sono stati generati correttamente dal seguente dispositivo:
 postNewRecoveryCodes-action = Gestisci account
-postRemoveAccountRecovery-subject = Eliminata chiave di recupero account
-postRemoveAccountRecovery-title = Eliminata chiave di recupero account
-postRemoveAccountRecovery-description = La chiave di recupero per l’{ -product-firefox-account } è stata correttamente generata dal seguente dispositivo:
 postRemoveAccountRecovery-action = Gestisci account
-postRemoveAccountRecovery-invalid = Non è più possibile utilizzare questa chiave di recupero per recuperare il tuo account.
 postRemoveSecondary-subject = L’indirizzo email secondario è stato rimosso
 postRemoveSecondary-title = L’indirizzo email secondario è stato rimosso
 # Variables:
@@ -603,7 +567,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ricordati di confermare il tuo account
 verificationReminderFirst-title-2 = Benvenuto in { -brand-firefox }
 verificationReminderFirst-description-2 = Hai creato un { -product-firefox-account } qualche giorno fa ma non l’hai mai confermato. Conferma il tuo account nei prossimi 15 giorni o verrà automaticamente eliminato.
-verificationReminderFirst-sub-description-2 = Non farti sfuggire una tecnologia che mette te e la tua privacy al primo posto.
 confirm-email-2 = Conferma account
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Conferma account

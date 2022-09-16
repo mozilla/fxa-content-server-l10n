@@ -367,7 +367,7 @@ recovery-key-page-title-1 =
     .title = Chiave di recupero dell’account
 recovery-key-step-1 = Passaggio 1 di 2
 recovery-key-step-2 = Passaggio 2 di 2
-recovery-key-success-alert-3 = La chiave di recupero per l’account è stata generata
+recovery-key-success-alert-3 = La chiave di recupero dell’account è stata generata
 
 ## Add secondary email page
 
@@ -500,7 +500,7 @@ rk-action-create = Crea
 rk-action-remove = Rimuovi
 rk-cannot-refresh-1 = Siamo spiacenti, si è verificato un problema durante l’aggiornamento della chiave di recupero dell’account.
 rk-key-removed-2 = Eliminata chiave di recupero account
-rk-cannot-remove-key = Non è possibile rimuovere la chiave di recupero per l’account.
+rk-cannot-remove-key = Non è possibile rimuovere la chiave di recupero dell’account.
 rk-refresh-key-1 = Aggiorna la chiave di recupero dell’account
 rk-content-explain = Ripristina i dati in caso di password dimenticata.
 rk-content-reset-data = Perché, reimpostando la password, anche i dati vengono ripristinati?
@@ -508,7 +508,7 @@ rk-cannot-verify-session-4 = Si è verificato un problema durante la conferma de
 rk-remove-modal-heading-1 = Rimuovere la chiave di recupero dell’account?
 rk-remove-modal-content-1 = Se decidi di reimpostare la password, non potrai utilizzare la chiave di recupero dell’account per accedere ai tuoi dati. Questa azione è irreversibile.
 rk-refresh-error-1 = Siamo spiacenti, si è verificato un problema durante l’aggiornamento della chiave di recupero dell’account.
-rk-remove-error-2 = Non è possibile rimuovere la chiave di recupero per l’account.
+rk-remove-error-2 = Non è possibile rimuovere la chiave di recupero dell’account.
 
 ## Secondary email sub-section on main Settings page
 
