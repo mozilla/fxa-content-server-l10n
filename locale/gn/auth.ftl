@@ -262,6 +262,9 @@ postConsumeRecoveryCode-action = Mba’ete ñangareko
 postNewRecoveryCodes-description-2 = Oñemoheñói amo:
 postNewRecoveryCodes-action = Mba’ete ñangareko
 postRemoveAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã:
+postRemoveAccountRecovery-title-2 = Embogue pe mba’eñemi jeguerujeyrã ne mba’etégui.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Ñemboguepyre:
 postRemoveAccountRecovery-action = Mba’ete ñangareko
 postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
