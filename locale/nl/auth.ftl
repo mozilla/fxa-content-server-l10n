@@ -73,14 +73,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } downloaden in de { -app-store }">
-another-desktop-device = Of installeer op <a data-l10n-name="anotherDeviceLink">een ander desktopapparaat</a>.
-another-device = Of installeer op <a data-l10n-name="anotherDeviceLink">een ander apparaat</a>.
-automated-email-change =
-    Dit is een geautomatiseerd e-mailbericht; als u deze actie niet hebt geautoriseerd, <a data-l10n-name="passwordChangeLink">wijzig dan uw wachtwoord</a>.
-    Ga voor meer informatie naar <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Dit is een geautomatiseerd e-mailbericht; als u geen nieuw apparaat aan uw { -product-firefox-account } hebt toegevoegd, dient u onmiddellijk uw wachtwoord te wijzigen op { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = { $productName } installeren op <a data-l10n-name="anotherDeviceLink">een ander desktopapparaat</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = { $productName } installeren op <a data-l10n-name="anotherDeviceLink">een ander apparaat</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = { $productName } downloaden via Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = { $productName } downloaden via de App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = { $productName } installeren op een ander apparaat:
+automated-email-change-2 = Als u deze actie niet hebt uitgevoerd, <a data-l10n-name="passwordChangeLink">wijzig dan direct uw wachtwoord</a>.
+automated-email-support = Bezoek voor meer info <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Als u deze actie niet hebt uitgevoerd, wijzig dan direct uw wachtwoord:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Bezoek voor meer info { -brand-mozilla } Support:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Ga voor meer informatie naar <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = Dit is een geautomatiseerd bericht. Als u het per ongeluk hebt ontvangen, hoeft u niets te doen.
@@ -240,13 +253,15 @@ passwordChangeRequired-different-password-plaintext = Belangrijk: kies een ander
 passwordReset-subject = Wachtwoord bijgewerkt
 passwordReset-title = Uw accountwachtwoord is gewijzigd
 passwordReset-description = U dient uw nieuwe wachtwoord op andere apparaten in te voeren om de synchronisatie te hervatten.
-passwordResetAccountRecovery-subject-1 = Wachtwoord bijgewerkt met accountherstelsleutel
-passwordResetAccountRecovery-title-1 = Uw accountwachtwoord is opnieuw ingesteld met een accountherstelsleutel
-passwordResetAccountRecovery-description-1 = U hebt met succes uw wachtwoord opnieuw ingesteld via een accountherstelsleutel vanaf het volgende apparaat:
-passwordResetAccountRecovery-action-1 = Nieuwe accountherstelsleutel aanmaken
-passwordResetAccountRecovery-regen-required-1 = U dient een nieuwe accountherstelsleutel aan te maken.
+passwordResetAccountRecovery-subject-2 = Uw wachtwoord is opnieuw ingesteld
+passwordResetAccountRecovery-title-2 = Wachtwoord met succes opnieuw ingesteld
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = U hebt uw accountherstelsleutel gebruikt om uw wachtwoord bij te werken vanaf:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Een nieuwe accountherstelsleutel aanmaken
+passwordResetAccountRecovery-regen-required-mjml-1 = U dient opnieuw aan te melden op al uw gesynchroniseerde apparaten. Vergeet niet om een nieuwe accountherstelsleutel aan te maken om de gebruikte sleutel te vervangen.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = Nieuwe accountherstelsleutel aanmaken:
+passwordResetAccountRecovery-regen-required-txt-1 = U dient opnieuw aan te melden op al uw gesynchroniseerde apparaten. Vergeet niet om een nieuwe accountherstelsleutel aan te maken om de gebruikte sleutel te vervangen:
 postAddAccountRecovery-subject-2 = Sleutel voor accountherstel aangemaakt
 postAddAccountRecovery-title2 = U hebt een nieuwe sleutel voor accountherstel aangemaakt
 # Information on the browser and device triggering this string follows.
@@ -274,19 +289,26 @@ postChangePrimary-title = Nieuw primair e-mailadres
 #  $email (String) - A user's email address
 postChangePrimary-description = U hebt uw primaire e-mailadres met succes naar { $email } gewijzigd. Dit adres is nu uw gebruikersnaam voor het aanmelden bij uw { -product-firefox-account }, evenals voor het ontvangen van beveiligingsmeldingen
 postChangePrimary-action = Account beheren
-postConsumeRecoveryCode-subject-1 = Reserve-authenticatiecode gebruikt
-postConsumeRecoveryCode-title-1 = Reserve-authenticatiecode verbruikt
-postConsumeRecoveryCode-description-1 = U hebt een reserve-authenticatiecode verbruikt vanaf het volgende apparaat:
+postConsumeRecoveryCode-title-2 = U hebt een reserve-authenticatiecode gebruikt
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Deze is gebruikt op:
 postConsumeRecoveryCode-action = Account beheren
-postNewRecoveryCodes-subject-1 = Nieuwe reserve-authenticatiecodes aangemaakt
-postNewRecoveryCodes-title-1 = Nieuwe reserve-authenticatiecodes aangemaakt
-postNewRecoveryCodes-description-1 = U hebt nieuwe reserve-authenticatiecodes aangemaakt vanaf het volgende apparaat:
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Nog 1 reserve-authenticatiecode over
+       *[other] Nog { $numberRemaining } reserve-authenticatiecodes over
+    }
+postNewRecoveryCodes-subject-2 = Nieuwe reserve-authenticatiecodes aangemaakt
+postNewRecoveryCodes-title-2 = U hebt nieuwe reserve-authenticatiecodes aangemaakt
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Ze zijn aangemaakt op:
 postNewRecoveryCodes-action = Account beheren
-postRemoveAccountRecovery-subject = Sleutel voor accountherstel verwijderd
-postRemoveAccountRecovery-title = Sleutel voor accountherstel verwijderd
-postRemoveAccountRecovery-description = U hebt met succes een sleutel voor accountherstel voor uw { -product-firefox-account } verwijderd via het volgende apparaat:
+postRemoveAccountRecovery-subject-2 = Sleutel voor accountherstel verwijderd
+postRemoveAccountRecovery-title-2 = U hebt uw sleutel voor accountherstel verwijderd.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Deze is verwijderd vanaf:
 postRemoveAccountRecovery-action = Account beheren
-postRemoveAccountRecovery-invalid-1 = Deze accountherstelsleutel kan niet meer worden gebruikt om uw account te herstellen.
+postRemoveAccountRecovery-invalid-2 = U hebt een accountherstelsleutel nodig om uw { -brand-firefox }-gegevens te herstellen als u uw wachtwoord bent vergeten.
 postRemoveSecondary-subject = Secundair e-mailadres verwijderd
 postRemoveSecondary-title = Secundair e-mailadres verwijderd
 # Variables:
@@ -577,6 +599,7 @@ subscriptionUpgrade-upgrade-info = U bent met succes geüpgraded van { $productN
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Vanaf uw volgende factuur wijzigen uw kosten van { $paymentAmountOld } per { $productPaymentCycleOld } naar { $paymentAmountNew } per { $productPaymentCycleNew }. Er wordt u dan tevens eenmalig een bedrag van { $paymentProrated } in rekening gebracht ten gevolge van de hogere kosten voor de rest van deze { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Er wordt een eenmalige vergoeding van { $paymentProrated } in rekening gebracht om de hogere prijs van uw abonnement te weerspiegelen voor de rest van deze { $productPaymentCycleOld }. Vanaf uw volgende factuur wijzigt uw betaling van { $paymentAmountOld } per { $productPaymentCycleOld } naar { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Als u nieuwe software moet installeren om { $productName } te kunnen gebruiken, dan ontvangt u een afzonderlijk e-mailbericht met downloadinstructies.
