@@ -73,14 +73,22 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } na { -app-store } ześěgnuś">
-another-desktop-device = Abo instalujěrśo na <a data-l10n-name="anotherDeviceLink">drugem desktopowem rěźe</a>.
-another-device = Abo instalěrujśo na <a data-l10n-name="anotherDeviceLink">drugem rěźe</a>.
-automated-email-change =
-    To jo awtomatizěrowana mejlka; jolic njejsćo awtorizěrował toś tu akciju, <a data-l10n-name="passwordChangeLink">změńśo pšosym swójo gronidło.</a>.
-    Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = To jo awtomatiska mejlka; jolic njejsćo swójomu kontoju { -product-firefox-account } nowy rěd pśidał, změńśo pšosym ned swójo gronidło na { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Instalěrujśo { $productName } na <a data-l10n-name="anotherDeviceLink">drugem desktopowem rěźe</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Instalěrujśo { $productName } na <a data-l10n-name="anotherDeviceLink">drugem rěźe</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Dostańśo { $productName } na Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Ześěgniśo { $productName } z App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Instalěruśoe { $productName } na drugem rěźe:
+automated-email-change-2 = Jolic njejsćo wuwjadł toś tu akciju, <a data-l10n-name="passwordChangeLink">změńśo ned swójo gronidło</a>.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink"> pomocy { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = To jo awtomatizěrowana mejlka. Jolic sćo dostał ju womylnje, njetrjebaśo nic cyniś.
@@ -240,13 +248,6 @@ passwordChangeRequired-different-password-plaintext = Wažny: Wubjeŕśo druge g
 passwordReset-subject = Gronidło jo se zaktualizěrowało
 passwordReset-title = Wašo kontowe gronidło jo se změniło
 passwordReset-description = Musyśo swójo nowe gronidło na drugich rědach zapódaś, aby ze synchronizaciju pókšacował.
-passwordResetAccountRecovery-subject-1 = Gronidło jo se zaktualizěrowało z pomocu kontowego wótnowjeńskego kluca
-passwordResetAccountRecovery-title-1 = Wašo kontowe gronidło jo se slědk stajiło z kontowym wótnowjeńskim klucom
-passwordResetAccountRecovery-description-1 = Sćo wuspěšnje slědk stajił swójo gronidło z pomocu kontowego wótnowjeńskego kluca ze slědujucego rěda:
-passwordResetAccountRecovery-action-1 = Nowy kontowy wótnowjeński kluc napóraś
-passwordResetAccountRecovery-regen-required-1 = Musyśo nowy kontowy wótnowjeński kluc napóraś.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = Nowy kontowy wótnowjeński kluc napóraś:
 postAddAccountRecovery-subject-2 = Kontowy wótnowjeński kluc jo se napórał
 postAddAccountRecovery-title2 = Sćo napórał nowy kontowy wótnowjeński kluc
 # Information on the browser and device triggering this string follows.
@@ -274,19 +275,9 @@ postChangePrimary-title = Nowa primarna e-mailowa adresa
 #  $email (String) - A user's email address
 postChangePrimary-description = Sćo swóju primarnu e-mailowu adresu wuspěšnje do { $email } změnił. Toś ta adresa jo něnto wašo wužywarske mě za pśizjawjenje pla wašogo konta { -product-firefox-account } a aby wy wěstotne powěsći a pśizjawjeńske
 postChangePrimary-action = Konto zastojaś
-postConsumeRecoveryCode-subject-1 = Awtentifikaciski kod za zawěsćenje jo se wužył
-postConsumeRecoveryCode-title-1 = Awtentifikaciski kod za zawěsćenje jo se pśetrjebał
-postConsumeRecoveryCode-description-1 = Sćo wuspěšnje pśetrjebał kody za zawěsćeńsku awtentifikaciju ze slědujucego rěda:
 postConsumeRecoveryCode-action = Konto zastojaś
-postNewRecoveryCodes-subject-1 = Nowy awtentifikaciski kod za zawěsćenje jo se napórał
-postNewRecoveryCodes-title-1 = Nowy awtentifikaciski kod za zawěsćenje jo se napórał
-postNewRecoveryCodes-description-1 = Sćo wuspěšnje napórał kody za zawěsćeńsku awtentifikaciju ze slědujucego rěda:
 postNewRecoveryCodes-action = Konto zastojaś
-postRemoveAccountRecovery-subject = Kontowy wótnowjeński kluc jo se wótwónoźeł
-postRemoveAccountRecovery-title = Kontowy wótnowjeński kluc jo se wótwónoźeł
-postRemoveAccountRecovery-description = Sćo wuspěšnje wótwónoźeł wótnowjeński kluc za swójo konto { -product-firefox-account } z pomocu slědujucego rěda:
 postRemoveAccountRecovery-action = Konto zastojaś
-postRemoveAccountRecovery-invalid-1 = Toś ten kontowy wótnowjeński kluc njedajo se wěcej wužywaś, aby wašo konto wótnowił.
 postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
 postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła
 # Variables:
