@@ -314,6 +314,7 @@ postRemoveAccountRecovery-title-2 = Izbrisali ste svoj ključ za obnovitev raču
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Izbrisan je bil z naslednje naprave:
 postRemoveAccountRecovery-action = Upravljanje računa
+postRemoveAccountRecovery-invalid-2 = Ključ za obnovitev računa boste potrebovali za obnovitev svojih podatkov { -brand-firefox(sklon: "rodilnik") }, če pozabite geslo.
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
 # Variables:
@@ -593,6 +594,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potrdi račun
 verificationReminderSecond-subject-2 = Ne pozabite potrditi svojega računa
 verificationReminderSecond-description-3 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste potrdili. Potrdite svoj račun v naslednjih 10 dneh, sicer bo samodejno izbrisan.
+verificationReminderSecond-sub-description-2 = Bodite del našega poslanstva spreminjanja interneta v prostor, odprt za vsakogar.
 verificationReminderSecond-action-2 = Potrdi račun
 verify-title-2 = Odprite internet s { -brand-firefox(sklon: "orodnik") }
 verify-description = Potrdite svoj račun in kar najbolje izkoristite { -brand-firefox } na vseh napravah, začenši z:
