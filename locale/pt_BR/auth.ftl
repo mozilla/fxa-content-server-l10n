@@ -257,6 +257,11 @@ passwordResetAccountRecovery-subject-2 = Sua senha foi redefinida
 passwordResetAccountRecovery-title-2 = Senha redefinida com sucesso
 # Details of the device, location, IP address, and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Você usou sua chave de recuperação de conta para atualizar sua senha no:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Criar nova chave de recuperação de conta
+passwordResetAccountRecovery-regen-required-mjml-1 = Você precisa entrar novamente na conta em todos os seus dispositivos sincronizados. Lembre de criar uma nova chave de recuperação de conta para substituir a que você usou.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Você precisa entrar novamente na conta em todos os seus dispositivos sincronizados. Lembre de criar uma nova chave de recuperação de conta para substituir a que você usou:
 postAddAccountRecovery-subject-2 = Criada chave de recuperação de conta
 postAddAccountRecovery-title2 = Você criou uma nova chave de recuperação de conta
 # Information on the browser and device triggering this string follows.
@@ -284,6 +289,7 @@ postChangePrimary-title = Novo email principal
 #  $email (String) - A user's email address
 postChangePrimary-description = Você alterou com sucesso seu email principal para { $email }. Este endereço é agora seu nome de usuário para entrar na sua { -product-firefox-account }, assim como receber notificações de segurança e confirmações de acesso.
 postChangePrimary-action = Gerenciar conta
+postConsumeRecoveryCode-title-2 = Você usou um código de autenticação de backup
 postConsumeRecoveryCode-action = Gerenciar conta
 postNewRecoveryCodes-action = Gerenciar conta
 postRemoveAccountRecovery-action = Gerenciar conta
