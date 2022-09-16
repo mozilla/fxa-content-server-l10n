@@ -73,14 +73,6 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Descargar { $p
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Descargar { $productName } en la { -app-store }">
-another-desktop-device = O, instálalo en <a data-l10n-name="anotherDeviceLink">otro dispositivo de escritorio</a>.
-another-device = O, instálalo en <a data-l10n-name="anotherDeviceLink">otro dispositivo</a>.
-automated-email-change =
-    Este es un correo automático; si no autorizaste esta acción, entonces <a data-l10n-name="passwordChangeLink">por favor cambia tu contraseña</a>.
-    Para más información, por favor visita <a data-l10n-name="supportLink">el soporte de { -brand-mozilla }</a>.
-# Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Este es un email generado automáticamente; si no has añadido ningún dispositivo nuevo a tu { -product-firefox-account }, deberías cambiar inmediatamente tu contraseña en { $passwordChangeLink }
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para más información, visita <a data-l10n-name="supportLink">Ayuda de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este es un correo automático. Si lo estás recibiendo por error, no necesitas hacer nada.
@@ -228,7 +220,7 @@ passwordChangeRequired-different-password-plaintext = Importante: elige una cont
 passwordReset-subject = Contraseña actualizada
 passwordReset-title = Se cambió la contraseña de tu cuenta
 passwordReset-description = Tienes que introducir la nueva contraseña en tus otros dispositivos para reanudar la sincronización.
-passwordResetAccountRecovery-action-1 = Crear nueva clave de recuperación de cuenta
+passwordResetAccountRecovery-subject-2 = Tu contraseña ha sido restablecida
 postAddAccountRecovery-subject-2 = Clave de recuperación de la cuenta creada
 postAddAccountRecovery-title2 = Creaste una nueva clave de recuperación de la cuenta
 # Information on the browser and device triggering this string follows.
@@ -257,10 +249,9 @@ postChangePrimary-title = Nuevo correo electrónico principal
 postChangePrimary-description = Has cambiado exitosamente tu correo principal a { $email }. Este correo es ahora tu nombre de usuario para iniciar sesión en tu { -product-firefox-account }, así como para recibir notificaciones de seguridad y confirmaciones de inicio de sesión.
 postChangePrimary-action = Administrar cuenta
 postConsumeRecoveryCode-action = Administrar cuenta
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Fueron creados en:
 postNewRecoveryCodes-action = Administrar cuenta
-postRemoveAccountRecovery-subject = Llave de recuperación de cuenta revocada
-postRemoveAccountRecovery-title = Llave de recuperación de cuenta revocada
-postRemoveAccountRecovery-description = Has eliminado exitosamente una clave de recuperación de cuenta para tu { -product-firefox-account } usando el siguiente dispositivo:
 postRemoveAccountRecovery-action = Administrar cuenta
 postRemoveSecondary-subject = Correo secundario eliminado
 postRemoveSecondary-title = Correo secundario eliminado
