@@ -73,14 +73,6 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } uygulamasını { -app-store }’dan indir">
-another-desktop-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir masaüstü cihaza</a> kurun.
-another-device = Ya da <a data-l10n-name="anotherDeviceLink">başka bir cihaza</a> kurun.
-automated-email-change =
-    Bu otomatik bir e-postadır. Bu eylemi siz onaylamadıysanız <a data-l10n-name="passwordChangeLink">lütfen parolanızı değiştirin</a>.
-    Daha fazla bilgi için lütfen <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
-# Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Bu otomatik bir e-postadır. { -product-firefox-account }nıza yeni bir cihaz eklemediyseniz hemen { $passwordChangeLink } adresinden parolanızı değiştirmelisiniz
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Daha fazla bilgi için <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
 automated-email-no-action-plaintext = Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi şey yapmanıza gerek yok.
@@ -198,7 +190,9 @@ fraudulentAccountDeletion-contact-plaintext = Sorularınız varsa lütfen destek
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Yedek kimlik doğrulama kodunuz kalmadı!
 codes-reminder-title-one = Son yedek kimlik doğrulama kodunuzu kullanmak üzeresiniz
+codes-reminder-title-two = Yeni yedek doğrulama kodları oluşturmanın vakti geldi
 codes-reminder-description-part-one = Yedek kimlik doğrulama kodları, parolanızı unuttuğunuzda bilgilerinizi geri yüklemenize yardımcı olur.
+codes-reminder-description-part-two = İleride verilerinizi kaybetmemek için yeni kodlar oluşturun.
 codes-reminder-description-two-left = Sadece iki kodunuz kaldı.
 lowRecoveryCodes-action-2 = Kod oluşturun
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
@@ -229,13 +223,6 @@ passwordChangeRequired-different-password-plaintext = Önemli: Daha önce kullan
 passwordReset-subject = Parola güncellendi
 passwordReset-title = Hesap parolanız değiştirildi
 passwordReset-description = Diğer cihazlarda eşitlemeye devam etmek için onlara da yeni parolanızı girmelisiniz.
-passwordResetAccountRecovery-subject-1 = Hesap kurtarma anahtarı kullanılarak parola güncellendi
-passwordResetAccountRecovery-title-1 = Hesap parolanız bir hesap kurtarma anahtarıyla sıfırlandı
-passwordResetAccountRecovery-description-1 = Hesap kurtarma anahtarı kullanarak parolanızı aşağıdaki cihazdan başarıyla sıfırladınız:
-passwordResetAccountRecovery-action-1 = Yeni hesap kurtarma anahtarı oluştur
-passwordResetAccountRecovery-regen-required-1 = Yeni bir hesap kurtarma anahtarı oluşturmanız gerekecek.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = Yeni hesap kurtarma anahtarı oluştur:
 postAddAccountRecovery-subject-2 = Hesap kurtarma anahtarı oluşturuldu
 postAddAccountRecovery-title2 = Yeni bir hesap kurtarma anahtarı oluşturdunuz
 # Information on the browser and device triggering this string follows.
@@ -263,14 +250,8 @@ postChangePrimary-title = Yeni ana e-posta
 #  $email (String) - A user's email address
 postChangePrimary-description = Ana e-posta adresinizi { $email } olarak başarıyla değiştirdiniz. Bu adres artık { -product-firefox-account }nıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize gönderilecek.
 postChangePrimary-action = Hesabı yönet
-postConsumeRecoveryCode-subject-1 = Kullanılan yedek kimlik doğrulama kodu
 postConsumeRecoveryCode-action = Hesabı yönet
-postNewRecoveryCodes-subject-1 = Yeni yedek kimlik doğrulama kodları oluşturuldu
-postNewRecoveryCodes-title-1 = Yeni yedek kimlik doğrulama kodları oluşturuldu
 postNewRecoveryCodes-action = Hesabı yönet
-postRemoveAccountRecovery-subject = Hesap kurtarma anahtarı silindi
-postRemoveAccountRecovery-title = Hesap kurtarma anahtarı silindi
-postRemoveAccountRecovery-description = Aşağıdaki cihazı kullanarak { -product-firefox-account }nız için hesap kurtarma anahtarını başarıyla sildiniz:
 postRemoveAccountRecovery-action = Hesabı yönet
 postRemoveSecondary-subject = İkinci e-posta silindi
 postRemoveSecondary-title = İkinci e-posta silindi
