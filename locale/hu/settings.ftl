@@ -603,7 +603,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor
 tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
 tfa-row-disable-modal-confirm = Letiltás
+tfa-row-disable-modal-explain-1 =
+    Ezt a műveletet nem fogja tudni visszavonni. Arra is van
+    lehetősége, hogy <linkExternal>lecserélje a tartalék hitelesítési kódjait</linkExternal>.
 tfa-row-cannot-disable-2 = A kétlépcsős hitelesítést nem lehetett letiltani
+tfa-row-change-modal-heading-1 = Lecseréli a tartalék hitelesítési kódokat?
 tfa-row-change-modal-confirm = Módosítás
 tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.
 

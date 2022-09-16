@@ -73,14 +73,22 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } letöltése az { -app-store }ból">
-another-desktop-device = Vagy telepítse <a data-l10n-name="anotherDeviceLink">másik asztali eszközre</a>.
-another-device = Vagy telepítse <a data-l10n-name="anotherDeviceLink">másik eszközre</a>.
-automated-email-change =
-    Ez egy automatikus üzenet; ha nem engedélyezte ezt a műveletet, akkor <a data-l10n-name="passwordChangeLink">változtassa meg a jelszavát</a>.
-    További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Ez egy automatikus üzenet, ha nem adott új eszközt a { -product-firefox-account }jához, akkor azonnal változtassa meg jelszavát itt: { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = A { $productName } telepítése egy <a data-l10n-name="anotherDeviceLink">másik asztali eszközre</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = A { $productName } telepítése egy <a data-l10n-name="anotherDeviceLink">másik eszközre</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = A { $productName } beszerzése a Google Playen
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = A { $productName } letöltése az App Store-ból:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = A { $productName } telepítése egy másik eszközre:
+automated-email-change-2 = Ha nem Ön tette meg ezt a műveletet, azonnal <a data-l10n-name="passwordChangeLink">változtassa meg jelszavát</a>.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
 automated-email-no-action-plaintext = Ez egy automatizált e-mail. Ha tévedésből kapta, akkor nincs teendője.
@@ -197,17 +205,6 @@ fraudulentAccountDeletion-contact = Ha kérdése van, forduljon <a data-l10n-nam
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ha bármilyen kérdése van, forduljon támogatási csapatunkhoz: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Kevés helyreállító kód maradt
-codes-reminder-description = Észrevettük, hogy kevés helyreállító kódja maradt. Fontolja meg új kódok előállítását, hogy elkerülje azt, hogy kizárja megát a fiókjából.
-codes-generate = Kódok előállítása
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Kódok előállítása
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] 1 helyreállítási kód maradt
-       *[other] { $numberRemaining } helyreállítási kód maradt
-    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Új bejelentkezés itt: { $clientName }
@@ -235,13 +232,6 @@ passwordChangeRequired-different-password-plaintext = Fontos: Válasszon egy má
 passwordReset-subject = A jelszó frissítve
 passwordReset-title = A fiók jelszava megváltozott
 passwordReset-description = A szinkronizáció folytatásához meg kell adnia a jelszavát a többi eszközén is.
-passwordResetAccountRecovery-subject = Jelszó frissítve egy helyreállítási kulcs használatával
-passwordResetAccountRecovery-title = A fiókja jelszava helyreállításra került egy helyreállítási kulccsal
-passwordResetAccountRecovery-description = Sikeresen helyreállította a jelszavát egy helyreállítási kulccsal a következő eszközről:
-passwordResetAccountRecovery-action = Új helyreállítási kulcs létrehozása
-passwordResetAccountRecovery-regen-required = Új helyreállítási kulcsot kell előállítania.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Új helyreállítási kulcs létrehozása:
 postAddAccountRecovery-subject-2 = Fiók-helyreállítási kulcs létrehozva
 postAddAccountRecovery-title2 = Létrehozott egy új fiók-helyreállítási kulcsot
 # Information on the browser and device triggering this string follows.
@@ -269,19 +259,9 @@ postChangePrimary-title = Új elsődleges e-mail cím
 #  $email (String) - A user's email address
 postChangePrimary-description = Sikeresen megváltoztatta az elsődleges e-mail címét erre: { $email }. Ez az cím mostantól a felhasználóneve a { -product-firefox-account }ba bejelentkezéshez, illetve ide fognak érkezni a biztonsági értesítések, és a bejelentkezési visszaigazolások.
 postChangePrimary-action = Fiók kezelése
-postConsumeRecoveryCode-subject = Helyreállítási kód felhasználva
-postConsumeRecoveryCode-title = Helyreállítási kód elhasználva
-postConsumeRecoveryCode-description = Sikeresen elhasznált egy helyreállítási kódot a következő eszközön:
 postConsumeRecoveryCode-action = Fiók kezelése
-postNewRecoveryCodes-subject = Új helyreállítási kódok előállítva
-postNewRecoveryCodes-title = Új helyreállítási kódok előállítva
-postNewRecoveryCodes-description = Sikeresen állított elő új helyreállítási kódokat a következő eszközön:
 postNewRecoveryCodes-action = Fiók kezelése
-postRemoveAccountRecovery-subject = Fiók helyreállítási kulcs eltávolítva
-postRemoveAccountRecovery-title = Fiók helyreállítási kulcs eltávolítva
-postRemoveAccountRecovery-description = Sikeresen eltávolított egy fiók-helyreállítási kulcsot a { -product-firefox-account }jához a következő eszközön:
 postRemoveAccountRecovery-action = Fiók kezelése
-postRemoveAccountRecovery-invalid = Ez a helyreállítási kulcs már nem használható a fiókja helyreállításához.
 postRemoveSecondary-subject = Másodlagos e-mail cím eltávolítva
 postRemoveSecondary-title = Másodlagos e-mail cím eltávolítva
 # Variables:
@@ -591,7 +571,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Emlékeztető, hogy erősítse meg a fiókját
 verificationReminderFirst-title-2 = Üdvözli a { -brand-firefox }!
 verificationReminderFirst-description-2 = Néhány napja létrehozott egy { -product-firefox-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 24 órán belül nem igazolja vissza.
-verificationReminderFirst-sub-description-2 = Ne hagyja ki azt a technológiát, amely Önt és a magánszféráját teszi az első helyre.
 confirm-email-2 = Fiók megerősítése
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Fiók megerősítése
