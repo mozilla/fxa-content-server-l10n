@@ -214,6 +214,7 @@ fraudulentAccountDeletion-contact-plaintext = Jeli prašenja maće, stajće so p
 codes-reminder-title-zero = Nimaće hižo kody za zawěsćensku awtentfikaciju!
 codes-reminder-title-one = Wužiwaće hižo swój posledni kod za zawěsćensku awtentifikaciju
 codes-reminder-title-two = Je čas, dalše kody za zawěsćensku awtentifikaciju wutworić
+codes-reminder-description-part-one = Kody za zawěsćensku awtentifikaciju wam pomhaja, waše informacije wobnowić, hdyž sće swoje hesło zabył.
 codes-reminder-description-part-two = Wutworće nětko nowe kody, zo njebyšće so pozdźišo swoje daty zhubił
 codes-reminder-description-two-left = Maće jenož dwaj kodaj wyše.
 lowRecoveryCodes-action-2 = Kody wutworić
