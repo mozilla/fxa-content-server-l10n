@@ -107,14 +107,17 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Λήψη το�
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Λήψη του { $productName } στο { -app-store }">
-another-desktop-device = Ή κάντε εγκατάσταση σε <a data-l10n-name="anotherDeviceLink">έναν άλλο υπολογιστή</a>.
-another-device = Ή κάντε εγκατάσταση σε <a data-l10n-name="anotherDeviceLink">μια άλλη συσκευή</a>.
-automated-email-change =
-    Αυτό είναι ένα αυτοματοποιημένο email· αν δεν εξουσιοδοτήσατε αυτήν την ενέργεια, τότε <a data-l10n-name="passwordChangeLink">παρακαλούμε αλλάξτε τον κωδικό πρόσβασής σας</a>.
-    Για περισσότερες πληροφορίες, παρακαλούμε επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Αυτό είναι ένα αυτοματοποιημένο email· αν δεν προσθέσατε μια νέα συσκευή στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας, πρέπει να αλλάξετε άμεσα στον κωδικό πρόσβασής σας στο { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Λήψη του { $productName } από το Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Λήψη του { $productName } από το App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Εγκατάσταση του { $productName } σε άλλη συσκευή:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Για περισσότερες πληροφορίες, επισκεφτείτε την Υποστήριξη { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Αυτό είναι ένα αυτοματοποιημένο email. Εάν το λάβατε κατά λάθος, δεν χρειάζεται να κάνετε τίποτα.
@@ -274,13 +277,7 @@ passwordChangeRequired-different-password-plaintext = Σημαντικό: Επι
 passwordReset-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordReset-title = Ο κωδικός πρόσβασης του λογαριασμού σας άλλαξε
 passwordReset-description = Θα χρειαστεί να εισαγάγετε τον νέο κωδικό πρόσβασής σας σε άλλες συσκευές για να συνεχίσετε τον συγχρονισμό.
-passwordResetAccountRecovery-subject-1 = Ο κωδικός πρόσβασης ενημερώθηκε με το κλειδί ανάκτησης λογαριασμού
-passwordResetAccountRecovery-title-1 = Έγινε επαναφορά του κωδικού πρόσβασης του λογαριασμού σας με κλειδί ανάκτησης λογαριασμού
-passwordResetAccountRecovery-description-1 = Έχετε επαναφέρει επιτυχώς τον κωδικό πρόσβασής σας με ένα κλειδί ανάκτησης λογαριασμού από την ακόλουθη συσκευή:
-passwordResetAccountRecovery-action-1 = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού
-passwordResetAccountRecovery-regen-required-1 = Θα πρέπει να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού:
+passwordResetAccountRecovery-title-2 = Επιτυχής επαναφορά κωδικού πρόσβασης
 postAddAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού δημιουργήθηκε
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
 # Information on the browser and device triggering this string follows.
@@ -308,19 +305,9 @@ postChangePrimary-title = Νέο κύριο email
 #  $email (String) - A user's email address
 postChangePrimary-description = Έχετε αλλάξει επιτυχώς το κύριο email σας σε { $email }. Αυτή η διεύθυνση αποτελεί πλέον το όνομα χρήστη σας για τη σύνδεση στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας, καθώς και για τη λήψη ειδοποιήσεων ασφαλείας και επιβεβαιώσεων σύνδεσης.
 postChangePrimary-action = Διαχείριση λογαριασμού
-postConsumeRecoveryCode-subject-1 = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης
-postConsumeRecoveryCode-title-1 = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης
-postConsumeRecoveryCode-description-1 = Έχετε χρησιμοποιήσει επιτυχώς έναν εφεδρικό κωδικό ταυτοποίησης από την ακόλουθη συσκευή:
 postConsumeRecoveryCode-action = Διαχείριση λογαριασμού
-postNewRecoveryCodes-subject-1 = Δημιουργήθηκαν νέοι εφεδρικοί κωδικοί ταυτοποίησης
-postNewRecoveryCodes-title-1 = Δημιουργήθηκαν νέοι εφεδρικοί κωδικοί ταυτοποίησης
-postNewRecoveryCodes-description-1 = Έχετε δημιουργήσει επιτυχώς νέους εφεδρικούς κωδικούς ταυτοποίησης από την ακόλουθη συσκευή:
 postNewRecoveryCodes-action = Διαχείριση λογαριασμού
-postRemoveAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε
-postRemoveAccountRecovery-title = Το κλειδί ανάκτησης λογαριασμού αφαιρέθηκε
-postRemoveAccountRecovery-description = Έχετε αφαιρέσει επιτυχώς ένα κλειδί ανάκτησης για τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας από την ακόλουθη συσκευή:
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
-postRemoveAccountRecovery-invalid-1 = Αυτό το κλειδί ανάκτησης λογαριασμού δεν μπορεί να χρησιμοποιηθεί πλέον για την ανάκτηση του λογαριασμού σας.
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 # Variables:
