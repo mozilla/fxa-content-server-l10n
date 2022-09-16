@@ -102,14 +102,12 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Prenesite { $p
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Prenesite { $productName } iz trgovine { -app-store }">
-another-desktop-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo namizno napravo</a>.
-another-device = Ali namestite na <a data-l10n-name="anotherDeviceLink">drugo napravo</a>.
-automated-email-change =
-    To je samodejno sporočilo. Če niste sprožili tega dejanja, <a data-l10n-name="passwordChangeLink">spremenite svoje geslo</a>.
-    Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = To sporočilo je bilo poslano samodejno. Če svojemu { -product-firefox-account(sklon: "dajalnik") } niste dodali nove naprave, takoj spremenite geslo na { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Namestite { $productName } na <a data-l10n-name="anotherDeviceLink">drugo namizno napravo</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Namestite { $productName } na <a data-l10n-name="anotherDeviceLink">drugo napravo</a>.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = To sporočilo je bilo poslano samodejno. Če ste ga prejeli pomotoma, vam ni treba storiti ničesar.
@@ -253,13 +251,6 @@ passwordChangeRequired-different-password-plaintext = Pomembno: Izberite drugač
 passwordReset-subject = Geslo posodobljeno
 passwordReset-title = Geslo vašega računa je bilo spremenjeno
 passwordReset-description = Za nadaljevanje sinhronizacije boste morali na ostalih napravah vnesti svoje novo geslo.
-passwordResetAccountRecovery-subject-1 = Geslo posodobljeno s pomočjo ključa za obnovitev računa
-passwordResetAccountRecovery-title-1 = Geslo vašega računa je bilo ponastavljeno s ključem za obnovitev računa
-passwordResetAccountRecovery-description-1 = Uspešno ste ponastavili svoje geslo z uporabo ključa za obnovitev računa, z naslednje naprave:
-passwordResetAccountRecovery-action-1 = Ustvari nov ključ za obnovitev računa
-passwordResetAccountRecovery-regen-required-1 = Morali boste ustvariti nov ključ za obnovitev računa.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = Ustvari nov ključ za obnovitev računa:
 postAddAccountRecovery-subject-2 = Obnovitveni ključ za račun ustvarjen
 postAddAccountRecovery-title2 = Ustvarili ste nov ključ za obnovitev računa
 # Information on the browser and device triggering this string follows.
@@ -287,19 +278,9 @@ postChangePrimary-title = Nov glavni e-poštni naslov
 #  $email (String) - A user's email address
 postChangePrimary-description = Uspešno ste spremenili glavni e-poštni naslov na { $email }. Ta e-poštni naslov je zdaj vaše uporabniško ime za prijavo v { -product-firefox-account }, kot tudi naslov za prejemanje varnostnih obvestil ter
 postChangePrimary-action = Upravljanje računa
-postConsumeRecoveryCode-subject-1 = Rezervna overitvena koda je bila uporabljena
-postConsumeRecoveryCode-title-1 = Rezervna overitvena koda je bila porabljena
-postConsumeRecoveryCode-description-1 = Uspešno ste porabili rezervno overitveno kodo z naslednje naprave:
 postConsumeRecoveryCode-action = Upravljanje računa
-postNewRecoveryCodes-subject-1 = Ustvarjene nove rezervne overitvene kode
-postNewRecoveryCodes-title-1 = Ustvarjene nove rezervne overitvene kode
-postNewRecoveryCodes-description-1 = Uspešno ste ustvarili nove rezervne overitvene kode z naslednje naprave:
 postNewRecoveryCodes-action = Upravljanje računa
-postRemoveAccountRecovery-subject = Obnovitveni ključ za račun odstranjen
-postRemoveAccountRecovery-title = Obnovitveni ključ za račun odstranjen
-postRemoveAccountRecovery-description = Uspešno ste odstranili obnovitveni ključ za svoj { -product-firefox-account } z uporabo naslednje naprave:
 postRemoveAccountRecovery-action = Upravljanje računa
-postRemoveAccountRecovery-invalid-1 = Tega ključa ne morete več uporabiti za obnovitev svojega računa.
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
 # Variables:
