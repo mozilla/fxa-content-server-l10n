@@ -210,6 +210,22 @@ fraudulentAccountDeletion-contact = Ha kérdése van, forduljon <a data-l10n-nam
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ha bármilyen kérdése van, forduljon támogatási csapatunkhoz: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Kifogyott a tartalék hitelesítési kódokból.
+codes-reminder-title-one = Az utolsó tartalék hitelesítési kódjánál jár
+codes-reminder-title-two = Itt az ideje, hogy új tartalék hitelesítési kódokat állítson elő
+codes-reminder-description-part-one = A tartalék hitelesítési kódok segítenek helyreállítani adatait, ha elfelejti a jelszavát.
+codes-reminder-description-part-two = Hozzon létre új kódokat most, hogy később ne veszítse el adatait.
+codes-reminder-description-two-left = Már csak két kódja maradt.
+codes-reminder-description-create-codes = Hozzon létre új tartalék hitelesítési kódokat, amelyek segítenek visszajutni fiókjába, ha kizárta magát.
+lowRecoveryCodes-action-2 = Kódok létrehozása
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nem maradt tartalék hitelesítési kódja
+        [one] Csak 1 tartalék hitelesítési kódja maradt
+       *[other] Csak { $numberRemaining } tartalék hitelesítési kódja maradt
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Új bejelentkezés itt: { $clientName }
@@ -237,6 +253,15 @@ passwordChangeRequired-different-password-plaintext = Fontos: Válasszon egy má
 passwordReset-subject = A jelszó frissítve
 passwordReset-title = A fiók jelszava megváltozott
 passwordReset-description = A szinkronizáció folytatásához meg kell adnia a jelszavát a többi eszközén is.
+passwordResetAccountRecovery-subject-2 = A jelszó vissza lett állítva
+passwordResetAccountRecovery-title-2 = Jelszó sikeresen visszaállítva
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Fiók-helyreállítási kulcsával frissítette jelszavát a következőről:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Új fiók-helyreállítási kulcs létrehozása
+passwordResetAccountRecovery-regen-required-mjml-1 = Újra be kell jelentkeznie az összes szinkronizált eszközén. Ne felejtsen el létrehozni egy új fiók-helyreállítási kulcsot a most használt kulcs helyett.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Újra be kell jelentkeznie az összes szinkronizált eszközén. Ne felejtsen el létrehozni egy új fiók-helyreállítási kulcsot a most használt kulcs helyett:
 postAddAccountRecovery-subject-2 = Fiók-helyreállítási kulcs létrehozva
 postAddAccountRecovery-title2 = Létrehozott egy új fiók-helyreállítási kulcsot
 # Information on the browser and device triggering this string follows.
@@ -264,9 +289,26 @@ postChangePrimary-title = Új elsődleges e-mail cím
 #  $email (String) - A user's email address
 postChangePrimary-description = Sikeresen megváltoztatta az elsődleges e-mail címét erre: { $email }. Ez az cím mostantól a felhasználóneve a { -product-firefox-account }ba bejelentkezéshez, illetve ide fognak érkezni a biztonsági értesítések, és a bejelentkezési visszaigazolások.
 postChangePrimary-action = Fiók kezelése
+postConsumeRecoveryCode-title-2 = Egy tartalék hitelesítési kódot használt
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = A következőn használták:
 postConsumeRecoveryCode-action = Fiók kezelése
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 tartalék hitelesítési kódja maradt
+       *[other] { $numberRemaining } tartalék hitelesítési kódja maradt
+    }
+postNewRecoveryCodes-subject-2 = Új tartalék hitelesítési kódok létrehozva
+postNewRecoveryCodes-title-2 = Új tartalék hitelesítési kódokat hozott létre
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = A következőn lettek létrehozva:
 postNewRecoveryCodes-action = Fiók kezelése
+postRemoveAccountRecovery-subject-2 = Fiók-helyreállítási kulcs törölve
+postRemoveAccountRecovery-title-2 = Törölte a fiók-helyreállítási kulcsát.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = A következőn törölték:
 postRemoveAccountRecovery-action = Fiók kezelése
+postRemoveAccountRecovery-invalid-2 = Szüksége van egy fiók-helyreállítási kulcsra a { -brand-firefox } adatainak helyreállításához, ha elfelejti a jelszavát.
 postRemoveSecondary-subject = Másodlagos e-mail cím eltávolítva
 postRemoveSecondary-title = Másodlagos e-mail cím eltávolítva
 # Variables:
@@ -557,6 +599,7 @@ subscriptionUpgrade-upgrade-info = Sikeresen frissített erről: { $productNameO
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = A következő számlától fogva a levonása megváltozik { $paymentAmountOld }/{ $productPaymentCycleOld } összegről a következőre: { $paymentAmountNew }/{ $productPaymentCycleNew }. Akkor egy egyszeri { $paymentProrated } értékű levonása lesz, amely a(z) { $productPaymentCycleOld } hátralévő időszakára eső különbözet.
+subscriptionUpgrade-content-charge-info-different-cycle = Egy egyszeri { $paymentProrated } összegű díjat számítunk fel, amely a(z) { $productPaymentCycleOld } maradék részében érvényes magasabb előfizetési díjat tükrözi. A következő számlájától kezdődően a levonás megváltozik erről: { $paymentAmountOld } / { $productPaymentCycleOld }, erre: { $paymentAmountNew } / { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Ha új szoftver telepítése szükséges a { $productName } használatához, akkor külön e-mailt fog kapni a letöltési utasításokkal.
@@ -576,6 +619,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Emlékeztető, hogy erősítse meg a fiókját
 verificationReminderFirst-title-2 = Üdvözli a { -brand-firefox }!
 verificationReminderFirst-description-2 = Néhány napja létrehozott egy { -product-firefox-account }ot, de soha nem erősítette meg. Az Ön biztonsága érdekében törölni fogjuk a fiókot, ha a következő 24 órán belül nem igazolja vissza.
+verificationReminderFirst-sub-description-3 = Ne hagyja ki azt a böngészőt, amely Önt és a magánszféráját teszi az első helyre.
 confirm-email-2 = Fiók megerősítése
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Fiók megerősítése
