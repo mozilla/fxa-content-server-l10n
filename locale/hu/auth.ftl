@@ -89,6 +89,11 @@ ios-download-plaintext = A { $productName } letöltése az App Store-ból:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = A { $productName } telepítése egy másik eszközre:
 automated-email-change-2 = Ha nem Ön tette meg ezt a műveletet, azonnal <a data-l10n-name="passwordChangeLink">változtassa meg jelszavát</a>.
+automated-email-support = További információért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Ha nem Ön tette ezt a műveletet, azonnal változtassa meg a jelszavát:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = További információért keresse fel a { -brand-mozilla } Támogatást:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
 automated-email-no-action-plaintext = Ez egy automatizált e-mail. Ha tévedésből kapta, akkor nincs teendője.
