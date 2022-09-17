@@ -237,6 +237,7 @@ plan-details-total-label = Усяго
 
 ## Coupons
 
+coupon-discount = Зніжка
 coupon-submit = Прымяніць
 coupon-remove = Выдаліць
 coupon-error = Код, які вы ўвялі, несапраўдны або пратэрмінаваны.
@@ -264,6 +265,7 @@ payment-confirmation-thanks-heading-account-exists = Дзякуй, правер�
 
 payment-confirmation-order-heading = Падрабязнасці замовы
 payment-confirmation-billing-heading = Рахунак выстаўлены на
+payment-confirmation-details-heading-2 = Плацежная інфармацыя
 payment-confirmation-amount = { $amount } за { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -271,6 +273,11 @@ payment-confirmation-amount = { $amount } за { $interval }
 
 ## New user email form
 
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .label = Увядзіце сваю электронную пошту
 new-user-confirm-email =
     .label = Пацвердзіце сваю электронную пошту
 new-user-submit = Падпісацца зараз

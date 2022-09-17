@@ -325,4 +325,7 @@ verifySecondaryCode-expiry-notice-2 = Яго тэрмін дзеяння мін�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Пацвердзіце свой уліковы запіс
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі, пачынаючы з:
+verifyShortCode-prompt-3 = Выкарыстайце гэты код пацверджання:
 verifyShortCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
