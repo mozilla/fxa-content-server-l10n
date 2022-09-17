@@ -92,6 +92,12 @@ ios-download-plaintext = Scarica { $productName } dall’App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Installa { $productName } su un altro dispositivo:
+automated-email-change-2 = Se non sei stato tu, <a data-l10n-name="passwordChangeLink">cambia la tua password</a> immediatamente.
+automated-email-support = Per ulteriori informazioni, visita il <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Se non sei stato tu, cambia la tua password immediatamente.
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Per ulteriori informazioni, visita il supporto { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Per ulteriori informazioni, visita il <a data-l10n-name="supportLink">supporto { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Questa email è stata inviata da un servizio automatico. Se hai ricevuto questa email per errore, puoi semplicemente ignorarla.
@@ -211,7 +217,11 @@ fraudulentAccountDeletion-contact-plaintext = Per qualsiasi domanda contatta il 
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Hai esaurito i codici di autenticazione di backup!
 codes-reminder-title-one = Ultimo codice di autenticazione di backup rimasto
+codes-reminder-title-two = È arrivato il momento di creare nuovi codici di autenticazione di backup
+codes-reminder-description-part-one = I codici di autenticazione di backup ti permettono di ripristinare i tuoi dati nel caso in cui dimentichi la password.
+codes-reminder-description-part-two = Crea adesso nuovi codici per non perdere i tuoi dati in futuro.
 codes-reminder-description-two-left = Rimangono solo solo due codici.
+codes-reminder-description-create-codes = Crea nuovi codici di autenticazione di backup per poter accedere al tuo account nel caso in cui rimani bloccato fuori.
 lowRecoveryCodes-action-2 = Crea codici
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
@@ -254,6 +264,8 @@ passwordResetAccountRecovery-description-2 = Hai utilizzato la chiave di recuper
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Crea una nuova chiave di recupero dell’account
 passwordResetAccountRecovery-regen-required-mjml-1 = Sarà necessario accedere di nuovo su tutti i tuoi dispositivi sincronizzati. Ricordati di creare una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Sarà necessario accedere di nuovo su tutti i tuoi dispositivi sincronizzati. Ricordati di creare una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato:
 postAddAccountRecovery-subject-2 = La chiave di recupero dell’account è stata generata
 postAddAccountRecovery-title2 = Hai generato una nuova chiave di recupero dell’account
 # Information on the browser and device triggering this string follows.
@@ -290,6 +302,7 @@ postConsumeRecoveryCode-subject-2 =
         [one] 1 codice di autenticazione di backup rimasto
        *[other] { $numberRemaining } codici di autenticazione di backup rimasti
     }
+postNewRecoveryCodes-subject-2 = Sono stati creati nuovi codici di autenticazione di backup
 postNewRecoveryCodes-title-2 = Hai creato nuovi codici di autenticazione di backup
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Sono stati creati su:
