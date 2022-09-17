@@ -77,14 +77,18 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="הורדת { $
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="הורדת { $productName } ב־{ -app-store }">
-another-desktop-device = או, להתקין על <a data-l10n-name="anotherDeviceLink">מכשיר שולחני נוסף</a>.
-another-device = או, להתקין על <a data-l10n-name="anotherDeviceLink">מכשיר נוסף</a>.
-automated-email-change =
-    זוהי הודעת דוא״ל אוטומטית; אם לא אישרת או יזמת פעולה זו, יש <a data-l10n-name="passwordChangeLink">לשנות את הססמה שלך</a>.
-    למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = זוהי הודעת דוא״ל שנשלחה באופן אוטומטי; אם לא הוספת מכשיר חדש ל{ -product-firefox-account(case: "the") }, עליך לשנות את ססמתך באופן מיידי בכתובת { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = הורדת { $productName } מ־Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = הורדת { $productName } מ־App Store:
+automated-email-change-2 = אם לא ביצעת פעולה זו, יש <a data-l10n-name="passwordChangeLink">לשנות את הססמה שלך</a> מיד.
+automated-email-support = למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = אם לא ביצעת פעולה זו, יש לשנות את הססמה שלך מיד:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = למידע נוסף, ניתן לבקר בתמיכה של { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = זוהי הודעת דוא״ל אוטומטית. אם קיבלת אותה בטעות, אין צורך לעשות דבר.
@@ -198,6 +202,8 @@ fraudulentAccountDeletion-contact = אם יש לך שאלות כלשהן, נא �
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = אם יש לך שאלות כלשהן, נא ליצור קשר עם צוות התמיכה שלנו: { $mozillaSupportUrl }
+lowRecoveryCodes-action-2 = יצירת קודים
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = כניסה חדשה ל־{ $clientName }
@@ -225,13 +231,15 @@ passwordChangeRequired-different-password-plaintext = חשוב: יש לבחור 
 passwordReset-subject = הססמה עודכנה
 passwordReset-title = ססמת החשבון שלך הוחלפה
 passwordReset-description = יהיה עליך להקליד את הססמה החדשה שלך בשאר המכשירים כדי להמשיך בסנכרון.
-passwordResetAccountRecovery-subject-1 = הססמה עודכנה באמצעות מפתח שחזור החשבון
-passwordResetAccountRecovery-title-1 = ססמת החשבון שלך אופסה עם מפתח שחזור חשבון
-passwordResetAccountRecovery-description-1 = איפסת את הססמה שלך בהצלחה באמצעות מפתח שחזור חשבון מהמכשיר הבא:
-passwordResetAccountRecovery-action-1 = יצירת מפתח שחזור חשבון חדש
-passwordResetAccountRecovery-regen-required-1 = יהיה עליך לייצר מפתח שחזור חשבון חדש.
+passwordResetAccountRecovery-subject-2 = הססמה שלך אופסה
+passwordResetAccountRecovery-title-2 = ססמה אופסה בהצלחה
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = השתמש במפתח שחזור החשבון שלך כדי לעדכן את הססמה שלך מ:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = יצירת מפתח שחזור חשבון חדש
+passwordResetAccountRecovery-regen-required-mjml-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = יצירת מפתח שחזור חשבון חדש:
+passwordResetAccountRecovery-regen-required-txt-1 = יהיה עליך להתחבר שוב בכל המכשירים המסונכרנים שלך. יש לזכור ליצור מפתח שחזור חשבון חדש שיחליף את המפתח שבו השתמשת:
 postAddAccountRecovery-subject-2 = נוצר מפתח לשחזור החשבון
 postAddAccountRecovery-title2 = יצרת מפתח חדש לשחזור חשבון
 # Information on the browser and device triggering this string follows.
@@ -261,11 +269,11 @@ postChangePrimary-description = שינית את כתובת הדוא״ל הראש
 postChangePrimary-action = ניהול חשבון
 postConsumeRecoveryCode-action = ניהול חשבון
 postNewRecoveryCodes-action = ניהול חשבון
-postRemoveAccountRecovery-subject = מפתח לשחזור החשבון הוסר
-postRemoveAccountRecovery-title = מפתח לשחזור החשבון הוסר
-postRemoveAccountRecovery-description = הסרת בהצלחה מפתח לשחזור { -product-firefox-account(case: "the") } שלך מהמכשיר הבא:
+postRemoveAccountRecovery-subject-2 = מפתח לשחזור החשבון נמחק
+postRemoveAccountRecovery-title-2 = מחקת את מפתח שחזור החשבון שלך.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = הוא נמחק מהמכשיר:
 postRemoveAccountRecovery-action = ניהול חשבון
-postRemoveAccountRecovery-invalid-1 = לא ניתן יותר להשתמש במפתח שחזור חשבון זה כדי לשחזר את החשבון שלך.
 postRemoveSecondary-subject = כתובת דוא״ל משנית הוסרה
 postRemoveSecondary-title = כתובת דוא״ל משנית הוסרה
 # Variables:
