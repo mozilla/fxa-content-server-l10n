@@ -73,6 +73,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } uygulamasını { -app-store }’dan indir">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = { $productName } uygulamasını <a data-l10n-name="anotherDeviceLink">başka bir bilgisayara</a> yükleyin.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = { $productName } uygulamasını <a data-l10n-name="anotherDeviceLink">başka bir cihaza</a> yükleyin.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = { $productName } uygulamasını Google Play’den indirin:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = { $productName } uygulamasını App Store’dan indirin:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = { $productName } uygulamasını başka bir cihaza yükleyin:
+automated-email-change-2 = Bu işlemi siz yapmadıysanız hemen <a data-l10n-name="passwordChangeLink">parolanızı değiştirin</a>.
+automated-email-support = Daha fazla bilgi için <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a> sayfasını ziyaret edin.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Bu işlemi siz yapmadıysanız hemen parolanızı değiştirin:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Daha fazla bilgi için { -brand-mozilla } Destek sayfasını ziyaret edin:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Daha fazla bilgi için <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
 automated-email-no-action-plaintext = Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi şey yapmanıza gerek yok.
@@ -194,8 +215,15 @@ codes-reminder-title-two = Yeni yedek doğrulama kodları oluşturmanın vakti g
 codes-reminder-description-part-one = Yedek kimlik doğrulama kodları, parolanızı unuttuğunuzda bilgilerinizi geri yüklemenize yardımcı olur.
 codes-reminder-description-part-two = İleride verilerinizi kaybetmemek için yeni kodlar oluşturun.
 codes-reminder-description-two-left = Sadece iki kodunuz kaldı.
+codes-reminder-description-create-codes = Hesabınıza erişimi kaybederseniz hesabınızı kurtarmanızı sağlayacak yedek kimlik doğrulama kodları oluşturun.
 lowRecoveryCodes-action-2 = Kod oluşturun
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Yedek kimlik doğrulama kodunuz kalmadı
+        [one] Sadece 1 yedek kimlik doğrulama kodunuz kaldı
+       *[other] Sadece { $numberRemaining } yedek kimlik doğrulama kodunuz kaldı!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Yeni { $clientName } girişi
@@ -223,6 +251,8 @@ passwordChangeRequired-different-password-plaintext = Önemli: Daha önce kullan
 passwordReset-subject = Parola güncellendi
 passwordReset-title = Hesap parolanız değiştirildi
 passwordReset-description = Diğer cihazlarda eşitlemeye devam etmek için onlara da yeni parolanızı girmelisiniz.
+passwordResetAccountRecovery-subject-2 = Parolanız sıfırlandı
+passwordResetAccountRecovery-title-2 = Parola başarıyla sıfırlandı
 postAddAccountRecovery-subject-2 = Hesap kurtarma anahtarı oluşturuldu
 postAddAccountRecovery-title2 = Yeni bir hesap kurtarma anahtarı oluşturdunuz
 # Information on the browser and device triggering this string follows.
@@ -251,8 +281,22 @@ postChangePrimary-title = Yeni ana e-posta
 postChangePrimary-description = Ana e-posta adresinizi { $email } olarak başarıyla değiştirdiniz. Bu adres artık { -product-firefox-account }nıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize gönderilecek.
 postChangePrimary-action = Hesabı yönet
 postConsumeRecoveryCode-action = Hesabı yönet
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 yedek kimlik doğrulama kodunuz kaldı
+       *[other] { $numberRemaining } yedek kimlik doğrulama kodunuz kaldı
+    }
+postNewRecoveryCodes-subject-2 = Yeni yedek kimlik doğrulama kodları oluşturuldu
+postNewRecoveryCodes-title-2 = Yeni yedek kimlik doğrulama kodları oluşturdunuz
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Oluşturan cihaz:
 postNewRecoveryCodes-action = Hesabı yönet
+postRemoveAccountRecovery-subject-2 = Hesap kurtarma anahtarı silindi
+postRemoveAccountRecovery-title-2 = Hesap kurtarma anahtarınızı sildiniz.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Silme işleminin yapıldığı cihaz:
 postRemoveAccountRecovery-action = Hesabı yönet
+postRemoveAccountRecovery-invalid-2 = Parolanızı unutursanız { -brand-firefox } verilerinizi kurtarmak için bir hesap kurtarma anahtarına ihtiyacınız olur.
 postRemoveSecondary-subject = İkinci e-posta silindi
 postRemoveSecondary-title = İkinci e-posta silindi
 # Variables:
