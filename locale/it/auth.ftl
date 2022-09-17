@@ -211,6 +211,15 @@ fraudulentAccountDeletion-contact-plaintext = Per qualsiasi domanda contatta il 
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Hai esaurito i codici di autenticazione di backup!
 codes-reminder-title-one = Ultimo codice di autenticazione di backup rimasto
+codes-reminder-description-two-left = Rimangono solo solo due codici.
+lowRecoveryCodes-action-2 = Crea codici
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nessun codice di autenticazione di backup rimasto
+        [one] Un solo codice di autenticazione di backup rimasto
+       *[other] Rimangono solo { $numberRemaining } codici di autenticazione di backup
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nuovo accesso a { $clientName }
@@ -238,6 +247,13 @@ passwordChangeRequired-different-password-plaintext = Importante: scegli una pas
 passwordReset-subject = Password aggiornata
 passwordReset-title = La tua password è stata modificata
 passwordReset-description = Per riprendere la sincronizzazione inserisci la nuova password sugli altri dispositivi collegati.
+passwordResetAccountRecovery-subject-2 = La password è stata reimpostata
+passwordResetAccountRecovery-title-2 = Password reimpostata correttamente
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Hai utilizzato la chiave di recupero dell’account per aggiornare la password da:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Crea una nuova chiave di recupero dell’account
+passwordResetAccountRecovery-regen-required-mjml-1 = Sarà necessario accedere di nuovo su tutti i tuoi dispositivi sincronizzati. Ricordati di creare una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato.
 postAddAccountRecovery-subject-2 = La chiave di recupero dell’account è stata generata
 postAddAccountRecovery-title2 = Hai generato una nuova chiave di recupero dell’account
 # Information on the browser and device triggering this string follows.
@@ -265,9 +281,25 @@ postChangePrimary-title = Nuovo indirizzo email primario
 #  $email (String) - A user's email address
 postChangePrimary-description = Hai modificato correttamente il tuo indirizzo email primario in { $email }. Da questo momento puoi utilizzare il nuovo indirizzo email per accedere all’{ -product-firefox-account }, ricevere notifiche di sicurezza e conferme.
 postChangePrimary-action = Gestisci account
+postConsumeRecoveryCode-title-2 = Hai utilizzato un codice di autenticazione di backup
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = È stato utilizzato su:
 postConsumeRecoveryCode-action = Gestisci account
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 codice di autenticazione di backup rimasto
+       *[other] { $numberRemaining } codici di autenticazione di backup rimasti
+    }
+postNewRecoveryCodes-title-2 = Hai creato nuovi codici di autenticazione di backup
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Sono stati creati su:
 postNewRecoveryCodes-action = Gestisci account
+postRemoveAccountRecovery-subject-2 = La chiave di recupero dell’account è stata eliminata
+postRemoveAccountRecovery-title-2 = Hai eliminato la chiave di recupero dell’account.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = È stato eliminata da:
 postRemoveAccountRecovery-action = Gestisci account
+postRemoveAccountRecovery-invalid-2 = Devi utilizzare una chiave di recupero dell’account per recuperare i tuoi dati di { -brand-firefox } se dimentichi la password.
 postRemoveSecondary-subject = L’indirizzo email secondario è stato rimosso
 postRemoveSecondary-title = L’indirizzo email secondario è stato rimosso
 # Variables:
@@ -566,6 +598,7 @@ subscriptionUpgrade-upgrade-info = L’aggiornamento da { $productNameOld } a { 
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = A partire dalla prossima fattura, il tuo pagamento sarà modificato da { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }. Contestualmente ti verrà accreditato un importo una tantum di { $paymentProrated } per riflettere la tariffa più alta per il resto di questo { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Ti verrà addebitato un importo una tantum di { $paymentProrated } per riflettere la tariffa più alta del tuo abbonamento per il resto di questo { $productPaymentCycleOld }. A partire dalla prossima fattura, il tuo pagamento sarà modificato da { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Nel caso sia necessario installare software aggiuntivo per utilizzare { $productName }, riceverai in un’altra email le istruzioni per scaricarlo.
@@ -585,6 +618,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ricordati di confermare il tuo account
 verificationReminderFirst-title-2 = Benvenuto in { -brand-firefox }
 verificationReminderFirst-description-2 = Hai creato un { -product-firefox-account } qualche giorno fa ma non l’hai mai confermato. Conferma il tuo account nei prossimi 15 giorni o verrà automaticamente eliminato.
+verificationReminderFirst-sub-description-3 = Non farti sfuggire il browser che mette te e la tua privacy al primo posto.
 confirm-email-2 = Conferma account
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Conferma account
