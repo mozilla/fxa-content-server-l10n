@@ -274,6 +274,7 @@ postRemoveAccountRecovery-title-2 = מחקת את מפתח שחזור החשבו
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = הוא נמחק מהמכשיר:
 postRemoveAccountRecovery-action = ניהול חשבון
+postRemoveAccountRecovery-invalid-2 = יש צורך במפתח שחזור חשבון כדי לשחזר את נתוני ה־{ -brand-firefox } שלך אם הססמה שלך תישכח.
 postRemoveSecondary-subject = כתובת דוא״ל משנית הוסרה
 postRemoveSecondary-title = כתובת דוא״ל משנית הוסרה
 # Variables:
