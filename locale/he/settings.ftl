@@ -178,6 +178,7 @@ flow-container-back = חזרה
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = מפתח לשחזור חשבון { -brand-firefox }
 get-data-trio-download =
     .title = הורדה
