@@ -132,6 +132,7 @@ passwordChangeRequired-signoff = Усяго найлепшага,
 passwordReset-subject = Пароль абноўлены
 passwordReset-title = Пароль вашага ўліковага запісу быў зменены
 passwordReset-description = Трэ будзе ўвесці новы пароль на іншых прыладах, каб узнавіць сінхранізацыю.
+passwordResetAccountRecovery-title-2 = Пароль паспяхова скінуты
 postAddAccountRecovery-action = Кіраванне ўліковым запісам
 postAddLinkedAccount-action = Кіраваць уліковым запісам
 postAddTwoStepAuthentication-subject = Двухэтапная аўтарызацыя ўключана
@@ -151,6 +152,9 @@ postRemoveTwoStepAuthentication-subject-line = Двухэтапная аўтар
 postRemoveTwoStepAuthentication-title = Двухэтапная аўтарызацыя адключана
 postRemoveTwoStepAuthentication-action = Кіраванне ўліковым запісам
 postRemoveTwoStepAuthentication-not-required = Коды бяспекі больш не будуць патрабавацца пры кожным ўваходзе.
+postVerify-subject-3 = Вітаем у { -brand-firefox }!
+postVerify-setup-2 = Злучыць іншую прыладу:
+postVerify-action-2 = Злучыць іншую прыладу
 postVerifySecondary-subject = Дададзены другі адрас эл.пошты
 postVerifySecondary-title = Дададзены другі адрас эл.пошты
 postVerifySecondary-action = Кіраванне ўліковым запісам
@@ -166,9 +170,12 @@ subscriptionAccountFinishSetup-subject = Вітаем у { $productName }: Ка�
 subscriptionAccountFinishSetup-title = Вітаем у { $productName }
 subscriptionAccountFinishSetup-action-2 = Пачаць
 subscriptionAccountReminderFirst-action = Стварыць пароль
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Апошні напамін: Наладзьце свой уліковы запіс
 subscriptionAccountReminderSecond-title = Вітаем у { -brand-firefox }!
 subscriptionAccountReminderSecond-action = Стварыць пароль
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+subscriptionCancellation-title = Шкада, што вы сыходзіце
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Вы перайшлі на { $productName }
@@ -293,8 +300,10 @@ unblockCode-prompt = Калі так, вось код аўтарызацыі, я
 unblockCode-prompt-plaintext = Калі так, вось код аўтарызацыі, які вам патрэбен: { $unblockCode }
 unblockCode-report = Калі не, дапамажыце нам стрымліваць зламыснікаў і <a data-l10n-name="reportSignInLink">паведаміце нам аб гэтым.</a>
 unblockCode-report-plaintext = Калі не, дапамажыце нам стрымліваць зламыснікаў і паведамце нам аб гэтым.
+verificationReminderFirst-title-2 = Вітаем у { -brand-firefox }!
 verify-description = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі, пачынаючы з:
 verify-subject = Скончыце стварэнне ўліковага запісу
+verifyLogin-subject-2 = Пацвердзіць уваход
 verifyLogin-action = Пацвердзіць уваход
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -313,4 +322,7 @@ verifySecondaryCode-title-2 = Пацвердзіце альтэрнатыўну�
 verifySecondaryCode-action-2 = Пацвердзіце электронную пошту
 verifySecondaryCode-prompt-2 = Выкарыстайце гэты код пацверджання:
 verifySecondaryCode-expiry-notice-2 = Яго тэрмін дзеяння мінае праз 5 хвілін. Пасля пацверджання, гэты адрас пачне атрымліваць абвесткі бяспекі і пацвярджэнні.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Пацвердзіце свой уліковы запіс
 verifyShortCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
