@@ -155,14 +155,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Stiahnuť { $p
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Stiahnuť { $productName } z { -app-store }">
-another-desktop-device = Alebo ho nainštalujte na <a data-l10n-name="anotherDeviceLink">inom počítači</a>.
-another-device = Alebo ho nainštalujte na <a data-l10n-name="anotherDeviceLink">inom zariadení</a>.
-automated-email-change =
-    Toto je automaticky generovaná správa. Ak ste túto akciu nevykonali, <a data-l10n-name="passwordChangeLink">zmeňte si svoje heslo</a>.
-    Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Toto je automaticky generovaná e-mailová správa. Ak ste k svojmu { -product-firefox-account(case: "dat", capitalization: "lower") } nepridali žiadne nové zariadenie, mali by ste si okamžite zmeniť heslo na { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Nainštalujte si { $productName } na <a data-l10n-name="anotherDeviceLink">ďalší stolný počítač</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Nainštalujte si { $productName } na <a data-l10n-name="anotherDeviceLink">ďalšie zariadenie</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Získajte { $productName } v službe Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Stiahnite si { $productName } z App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Nainštalujte { $productName } na iné zariadenie:
+automated-email-change-2 = Ak ste túto akciu neurobili, ihneď si <a data-l10n-name="passwordChangeLink">zmeňte heslo</a>.
+automated-email-support = Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Ak ste túto akciu neurobili, okamžite si zmeňte heslo:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Ďalšie informácie nájdete na stránkach Podpory { -brand-mozilla(case: "gen") }.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
 automated-email-no-action-plaintext = Toto je automatický e-mail. Ak ste ho dostali omylom, nemusíte robiť nič.
@@ -280,17 +293,15 @@ fraudulentAccountDeletion-contact = Ak máte nejaké otázky, kontaktujte náš 
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ak máte nejaké otázky, kontaktujte náš tím podpory: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Ostáva vám malé množstvo obnovovacích kódov
-codes-reminder-description = Všimli sme si, že vám ostáva malé množstvo obnovovacích kódov. Prosím, zvážte vygenerovanie nových kódov, čím zabránite nechcenému vymknutiu sa z účtu.
-codes-generate = Vygenerovať kódy
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Vygenerovať kódy
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] 1 zostávajúci obnovovací kód
-        [few] { $numberRemaining } zostávajúce obnovovacie kódy
-       *[other] { $numberRemaining } zostávajúcich obnovovacích kódov
-    }
+codes-reminder-title-zero = Minuli sa vám záložné overovacie kódy!
+codes-reminder-title-one = Používate posledný záložný overovací kód
+codes-reminder-title-two = Je čas vytvoriť ďalšie záložné overovacie kódy
+codes-reminder-description-part-one = Záložné overovacie kódy vám pomôžu obnoviť vaše informácie, keď zabudnete heslo.
+codes-reminder-description-part-two = Vytvorte si nové kódy hneď, aby ste neskôr nestratili svoje údaje.
+codes-reminder-description-two-left = Zostávajú vám už len dva kódy.
+codes-reminder-description-create-codes = Vytvorte si nové záložné overovacie kódy, ktoré vám pomôžu dostať sa späť do účtu, ak sa z neho vymknete.
+lowRecoveryCodes-action-2 = Vytvoriť kódy
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové prihlásenie k { $clientName }
@@ -318,13 +329,8 @@ passwordChangeRequired-different-password-plaintext = Dôležité: Zvoľte si in
 passwordReset-subject = Heslo bolo aktualizované
 passwordReset-title = Heslo k vášmu účtu bolo zmenené
 passwordReset-description = Aby bolo možné pokračovať v synchronizácii na ostatných zariadeniach, musíte na nich zadať nové heslo.
-passwordResetAccountRecovery-subject = Heslo bolo obnovené pomocou obnovovacieho kľúča
-passwordResetAccountRecovery-title = Heslo k vášmu účtu bolo obnovené pomocou obnovovacieho kľúča
-passwordResetAccountRecovery-description = Úspešne ste obnovili svoje heslo pomocou obnovovacieho kľúča z nasledujúceho zariadenia:
-passwordResetAccountRecovery-action = Vytvoriť nový obnovovací kľúč
-passwordResetAccountRecovery-regen-required = Musíte si vytvoriť nový obnovovací kľúč.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Vytvoriť nový obnovovací kľúč:
+passwordResetAccountRecovery-subject-2 = Vaše heslo bolo obnovené
+passwordResetAccountRecovery-title-2 = Heslo bolo úspešne obnovené
 postAddAccountRecovery-subject-2 = Bol vytvorený kľúč na obnovenie účtu
 postAddAccountRecovery-title2 = Vytvorili ste nový kľúč na obnovenie účtu
 # Information on the browser and device triggering this string follows.
@@ -352,19 +358,9 @@ postChangePrimary-title = Nová hlavná e-mailová adresa
 #  $email (String) - A user's email address
 postChangePrimary-description = Úspešne ste zmenili svoju hlavnú e-mailovú adresu na { $email }. Táto adresa bude odteraz slúžiť ako vaše prihlasovacie meno k { -product-firefox-account(case: "dat", capitalization: "lower") } a na zasielanie bezpečnostných upozornení a potvrdení.
 postChangePrimary-action = Spravovať účet
-postConsumeRecoveryCode-subject = Bol použitý obnovovací kód
-postConsumeRecoveryCode-title = Obnovovací kód bol použitý
-postConsumeRecoveryCode-description = Úspešne ste použili obnovovací kód z nasledujúceho zariadenia:
 postConsumeRecoveryCode-action = Spravovať účet
-postNewRecoveryCodes-subject = Boli vygenerované nové obnovovacie kódy
-postNewRecoveryCodes-title = Boli vygenerované nové obnovovacie kódy
-postNewRecoveryCodes-description = Úspešne ste vygenerovali nové obnovovacie kódy z nasledujúceho zariadenia:
 postNewRecoveryCodes-action = Spravovať účet
-postRemoveAccountRecovery-subject = Obnovovací kľúč k účtu bol odstránený
-postRemoveAccountRecovery-title = Obnovovací kľúč k účtu bol odstránený
-postRemoveAccountRecovery-description = Úspešne ste odstránili obnovovací kľúč pre svoj { -product-firefox-account(case: "acc", capitalization: "lower") } z nasledujúceho zariadenia:
 postRemoveAccountRecovery-action = Spravovať účet
-postRemoveAccountRecovery-invalid = Tento obnovovací kľúč už nie je možné použiť pre obnovu vášho účtu.
 postRemoveSecondary-subject = Alternatívna e-mailová adresa bola odstránená
 postRemoveSecondary-title = Alternatívna e-mailová adresa bola odstránená
 # Variables:
@@ -674,7 +670,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Nezabudnite potvrdiť svoj účet
 verificationReminderFirst-title-2 = Víta vás { -brand-firefox }!
 verificationReminderFirst-description-2 = Pred niekoľkými dňami ste si vytvorili { -product-firefox-account(capitalization: "lower", case: "acc") }, no nikdy ste ho nepotvrdili. Potvrďte svoj účet v priebehu nasledujúcich 15 dní, inak bude automaticky vymazaný.
-verificationReminderFirst-sub-description-2 = Nepremeškajte technológiu, ktorá dáva vás a vaše súkromie na prvé miesto.
 confirm-email-2 = Potvrdiť účet
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potvrdiť účet

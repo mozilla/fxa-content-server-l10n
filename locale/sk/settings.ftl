@@ -217,7 +217,7 @@ cs-sign-out-button = Odhlásiť sa
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Stiahnuté
@@ -250,9 +250,11 @@ drop-down-menu-sign-out-error-2 = Ľutujeme, vyskytol sa problém s odhlásením
 
 flow-container-back = Naspäť
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Obnovovacie kódy
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Kľúč na obnovenie účtu { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Záložné overovacie kódy pre účet { -brand-firefox }
 get-data-trio-download =
     .title = Stiahnuť
 get-data-trio-copy =
@@ -312,14 +314,10 @@ nav-data-collection = Zbieranie údajov a ich použitie
 nav-paid-subs = Predplatné
 nav-email-comm = E-mailová komunikácia
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Pri výmene vašich overovacích kódov sa vyskytol problém
-tfa-replace-code-success =
-    Nové kódy boli vytvorené. Uložte si tieto jednorazové kódy
-    na bezpečnom mieste. Budete ich potrebovať na prístup do svojho
-    účtu v prípade, že nebudete mať svoje mobilné zariadenie.
-tfa-replace-code-success-alert-2 = Kódy na obnovenie účtu boli aktualizované
+tfa-replace-code-error-3 = Pri výmene záložných overovacích kódov sa vyskytol problém
+tfa-replace-code-success-alert-3 = Záložné overovacie kódy účtu boli aktualizované
 tfa-replace-code-1-2 = Krok 1 z 2
 tfa-replace-code-2-2 = Krok 2 z 2
 
@@ -429,19 +427,18 @@ display-name-success-alert-2 = Zobrazované meno aktualizované
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Zrušiť
 recovery-key-close-button = Zavrieť
 recovery-key-continue-button = Pokračovať
-recovery-key-created = Váš obnovovací kľúč bol vytvorený. Uistite sa, že ste kľúč uložili na bezpečnom mieste, kde ho neskôr ľahko nájdete. V prípade zabudnutia hesla budete kľúč potrebovať na opätovné získanie prístupu k svojim údajom.
 recovery-key-enter-password =
     .label = Zadajte heslo
-recovery-key-page-title =
-    .title = Obnovovací kľúč
+recovery-key-page-title-1 =
+    .title = Kľúč na obnovenie účtu
 recovery-key-step-1 = Krok 1 z 2
 recovery-key-step-2 = Krok 2 z 2
-recovery-key-success-alert-2 = Obnovovací kľúč bol vytvorený
+recovery-key-success-alert-3 = Bol vytvorený kľúč na obnovenie účtu
 
 ## Add secondary email page
 
@@ -489,8 +486,8 @@ tfa-button-cancel = Zrušiť
 tfa-button-finish = Dokončiť
 tfa-incorrect-totp = Nesprávny kód pre dvojstupňové overenie
 tfa-cannot-retrieve-code = Pri načítaní vášho kódu sa vyskytol problém.
-tfa-cannot-verify-code-3 = Pri potvrdení vášho obnovovacieho kódu sa vyskytol problém
-tfa-incorrect-recovery-code = Nesprávny obnovovací kód
+tfa-cannot-verify-code-4 = Pri potvrdení vášho záložného overovacieho kódu sa vyskytol problém
+tfa-incorrect-recovery-code-1 = Nesprávny záložný overovací kód
 tfa-enabled = Dvojstupňové overenie bolo povolené
 tfa-scan-this-code =
     Naskenujte tento QR kód pomocou jednej z <linkExternal>overovacích
@@ -510,15 +507,8 @@ tfa-enter-secret-key = Zadajte tento tajný kľúč do svojej overovacej apliká
 tfa-enter-totp = Teraz zadajte bezpečnostný kód z overovacej aplikácie.
 tfa-input-enter-totp =
     .label = Zadajte bezpečnostný kód
-tfa-save-these-codes =
-    Tieto jednorazové kódy si uložte na bezpečné miesto,
-    na ktoré sa dostanete aj bez svojho mobilného zariadenia.
-tfa-enter-code-to-confirm =
-    Potvrďte uloženie obnovovacích kódov zadaním
-    jedného z nich. Ak stratíte zariadenie, budete kódy potrebovať
-    na získanie prístupu do svojho účtu.
-tfa-enter-recovery-code =
-    .label = Zadajte obnovovací kód
+tfa-enter-recovery-code-1 =
+    .label = Zadajte záložný overovací kód
 
 ##
 
@@ -567,26 +557,26 @@ row-defaults-action-change = Zmeniť
 row-defaults-action-disable = Vypnúť
 row-defaults-status = Žiadne
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Kľúč na obnovenie účtu
+rk-header-1 = Kľúč na obnovenie účtu
 rk-enabled = Povolený
 rk-not-set = Nie je nastavený
 rk-action-create = Vytvoriť
 rk-action-remove = Odstrániť
-rk-cannot-refresh = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
+rk-cannot-refresh-1 = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
 rk-key-removed-2 = Obnovovací kľúč k účtu bol odstránený
 rk-cannot-remove-key = Kľúč na obnovenie účtu nebolo možné odstrániť.
-rk-refresh-key = Obnoviť kľúč na obnovenie účtu
+rk-refresh-key-1 = Obnoviť kľúč na obnovenie účtu
 rk-content-explain = Získajte prístup k svojim údajom v prípade, že zabudnete heslo.
 rk-content-reset-data = Prečo dôjde pri obnove hesla k odstráneniu mojich uložených údajov?
 rk-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
-rk-remove-modal-heading = Odstrániť kľúč na obnovenie účtu?
-rk-remove-modal-content =
+rk-remove-modal-heading-1 = Chcete odstrániť kľúč na obnovenie účtu?
+rk-remove-modal-content-1 =
     V prípade, že si nastavíte nové heslo, nebudete už môcť
     použiť kľúč na obnovenie účtu na prístup k vašim údajom.
     Túto akciu nie je možné vrátiť späť.
-rk-refresh-error = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
+rk-refresh-error-1 = Ľutujeme, pri obnovovaní kľúča na obnovenie účtu sa vyskytol problém.
 rk-remove-error-2 = Kľúč na obnovenie účtu nebolo možné odstrániť
 
 ## Secondary email sub-section on main Settings page
@@ -620,9 +610,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Nastaviť ako hlavnú adresu
 se-default-content = Získajte prístup k svojmu účtu, ak sa vám nepodarí prihlásiť pomocou svojej hlavnej e-mailovej adresy.
-se-content-note =
-    Poznámka: alternatívna e-mailová adresa neslúži na obnovenie vašich údajov,
-    na to budete potrebovať <a>kľúč na obnovenie účtu</a>.
 # Default value for the secondary email
 se-secondary-email-none = žiadna
 
@@ -646,11 +633,8 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
-tfa-row-disable-modal-explain =
-    Túto akciu nebudete môcť vrátiť späť. Máte tiež
-    možnosť <linkExternal>nahradiť svoje obnovovacie kódy</linkExternal>.
 tfa-row-cannot-disable-2 = Dvojstupňové overenie sa nepodarilo zakázať
-tfa-row-change-modal-heading = Zmeniť obnovovacie kódy?
+tfa-row-change-modal-heading-1 = Chcete zmeniť záložné overovacie kódy?
 tfa-row-change-modal-confirm = Zmeniť
 tfa-row-change-modal-explain = Túto akciu nebudete môcť vrátiť späť.
 
