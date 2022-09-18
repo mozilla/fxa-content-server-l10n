@@ -81,7 +81,19 @@ another-desktop-device-2 = Installera { $productName } på <a data-l10n-name="an
 another-device-2 = Installera { $productName } på <a data-l10n-name="anotherDeviceLink">en annan enhet</a>.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Skaffa { $productName } på Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Ladda ner { $productName } i App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Installera { $productName } på en annan enhet:
+automated-email-change-2 = Om du inte vidtog den här åtgärden, <a data-l10n-name="passwordChangeLink">ändra ditt lösenord</a> direkt.
+automated-email-support = För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Om du inte vidtog den här åtgärden, ändra ditt lösenord direkt:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = För mer information, besök { -brand-mozilla } Support:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = Detta är ett automatiskt e-postmeddelande. Om du fick det av misstag behöver du inte göra någonting.
