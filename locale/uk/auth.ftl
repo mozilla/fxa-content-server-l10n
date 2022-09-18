@@ -73,14 +73,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Заванта
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Завантажити { $productName } з { -app-store }">
-another-desktop-device = Або встановіть на <a data-l10n-name="anotherDeviceLink">інший настільний пристрій</a>.
-another-device = Або встановіть на <a data-l10n-name="anotherDeviceLink">інший пристрій</a>.
-automated-email-change =
-    Це автоматично надісланий лист; якщо ви не авторизували цю дію, <a data-l10n-name="passwordChangeLink">змініть свій пароль</a>.
-    Для отримання додаткових відомостей зверніться до <a data-l10n-name="supportLink">підтримки { -brand-mozilla }</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Це автоматично надісланий лист. Якщо ви не додавали новий пристрій до свого { -product-firefox-account(case: "gen", capitalization: "lower") }, вам потрібно негайно змінити свій пароль на { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Установити { $productName } на <a data-l10n-name="anotherDeviceLink">інший настільний пристрій</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Установити { $productName } на <a data-l10n-name="anotherDeviceLink">інший пристрій</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Отримати { $productName } у Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Завантажити { $productName } з App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Установити { $productName } на інший пристрій:
+automated-email-change-2 = Якщо ви цього не робили, негайно <a data-l10n-name="passwordChangeLink">змініть свій пароль</a>.
+automated-email-support = Щоб дізнатися більше, відвідайте <a data-l10n-name="supportLink">підтримку { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Якщо ви цього не робили, негайно змініть пароль:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Для отримання додаткової інформації відвідайте підтримку { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Для отримання докладнішої інформації відвідайте <a data-l10n-name="supportLink">Підтримку { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Це автоматизований електронний лист. Якщо ви отримали його помилково, нічого робити не потрібно.
@@ -198,16 +211,21 @@ fraudulentAccountDeletion-contact = Якщо у вас виникли запит
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Якщо у вас виникли запитання, зверніться до нашої служби підтримки: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Залишилося мало кодів відновлення
-codes-reminder-description = У вас залишилось мало кодів відновлення. Будь ласка, згенеруйте нові коди, щоб не втратити можливість отримання доступу до свого облікового запису.
-codes-generate = Генерувати коди
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Генерувати коди
-lowRecoveryCodes-subject =
+codes-reminder-title-zero = У вас закінчилися резервні коди автентифікації!
+codes-reminder-title-one = Ви використовуєте останній резервний код автентифікації
+codes-reminder-title-two = Час створити додаткові резервні коди автентифікації
+codes-reminder-description-part-one = Резервні коди автентифікації допомагають відновити дані, якщо ви забудете пароль.
+codes-reminder-description-part-two = Створіть нові коди зараз, щоб потім не втратити свої дані.
+codes-reminder-description-two-left = У вас залишилося лише два коди.
+codes-reminder-description-create-codes = Створіть нові резервні коди автентифікації, щоб мати змогу ввійти до свого облікового запису, якщо ви заблоковані.
+lowRecoveryCodes-action-2 = Створити коди
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [one] Залишився 1 код відновлення
-        [few] Залишилося { $numberRemaining } коди відновлення
-       *[many] Залишилося { $numberRemaining } кодів відновлення
+        [0] Не лишилося резервних кодів автентифікації
+        [one] Залишився лише 1 резервний код автентифікації!
+        [few] Залишилося лише { $numberRemaining } резервних коди автентифікації!
+       *[many] Залишилося лише { $numberRemaining } резервних кодів автентифікації!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -236,13 +254,6 @@ passwordChangeRequired-different-password-plaintext = Важливо: Вигад
 passwordReset-subject = Пароль оновлено
 passwordReset-title = Пароль вашого облікового запису було змінено
 passwordReset-description = Вам необхідно буде ввести новий пароль на своїх інших пристроях для відновлення синхронізації.
-passwordResetAccountRecovery-subject = Пароль оновлено з використанням ключа відновлення
-passwordResetAccountRecovery-title = Пароль вашого облікового запису було відновлено за допомогою ключа
-passwordResetAccountRecovery-description = Ви успішно відновили свій пароль з використанням ключа з такого пристрою:
-passwordResetAccountRecovery-action = Створити новий ключ відновлення
-passwordResetAccountRecovery-regen-required = Вам необхідно буде генерувати новий ключ відновлення.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Створити новий ключ відновлення:
 postAddAccountRecovery-subject-2 = Ключ відновлення облікового запису створено
 postAddAccountRecovery-title2 = Ви створили новий ключ відновлення облікового запису
 # Information on the browser and device triggering this string follows.
@@ -270,19 +281,9 @@ postChangePrimary-title = Нова основна адреса електрон�
 #  $email (String) - A user's email address
 postChangePrimary-description = Ви успішно змінили свою основну адресу електронної пошти на { $email }. Ця адреса відтепер є вашим ім’ям користувача для входу до { -product-firefox-account(case: "gen", capitalization: "lower") }, а також отримання сповіщень безпеки та підтверджень входу.
 postChangePrimary-action = Керування обліковим записом
-postConsumeRecoveryCode-subject = Використано код відновлення
-postConsumeRecoveryCode-title = Використано код відновлення
-postConsumeRecoveryCode-description = Ви успішно використали код відновлення з такого пристрою:
 postConsumeRecoveryCode-action = Керування обліковим записом
-postNewRecoveryCodes-subject = Нові коди відновлення згенеровано
-postNewRecoveryCodes-title = Нові коди відновлення згенеровано
-postNewRecoveryCodes-description = Ви успішно згенерували нові коди відновлення з такого пристрою:
 postNewRecoveryCodes-action = Керування обліковим записом
-postRemoveAccountRecovery-subject = Ключ відновлення облікового запису вилучено
-postRemoveAccountRecovery-title = Ключ відновлення облікового запису вилучено
-postRemoveAccountRecovery-description = Ви успішно вилучили ключ відновлення свого { -product-firefox-account(case: "gen", capitalization: "lower") } з використанням такого пристрою:
 postRemoveAccountRecovery-action = Керування обліковим записом
-postRemoveAccountRecovery-invalid = Цей ключ більше не можна використати для відновлення вашого облікового запису.
 postRemoveSecondary-subject = Альтернативну електронну пошту видалено
 postRemoveSecondary-title = Альтернативну електронну пошту видалено
 # Variables:
@@ -592,7 +593,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не забудьте підтвердити свій обліковий запис
 verificationReminderFirst-title-2 = Вітаємо у { -brand-firefox }!
 verificationReminderFirst-description-2 = Кілька днів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але так і не підтвердили його. Підтвердьте свій обліковий запис протягом наступних 15 днів, інакше його буде автоматично видалено.
-verificationReminderFirst-sub-description-2 = Не проґавте технології, які цінують вас і вашу приватність понад усе.
 confirm-email-2 = Підтвердити обліковий запис
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Підтвердити обліковий запис
