@@ -265,6 +265,7 @@ postNewRecoveryCodes-action = Hallinnoi tiliä
 postRemoveAccountRecovery-subject-2 = Tilin palautusavain poistettu
 postRemoveAccountRecovery-title-2 = Poistit tilisi palautusavaimen.
 postRemoveAccountRecovery-action = Hallinnoi tiliä
+postRemoveAccountRecovery-invalid-2 = Tarvitset tilin palautusavaimen palauttaaksesi { -brand-firefox }-tietosi, jos unohdat salasanasi.
 postRemoveSecondary-subject = Toissijainen sähköposti poistettiin
 postRemoveSecondary-title = Toissijainen sähköposti poistettiin
 # Variables:
@@ -560,6 +561,7 @@ confirm-account = Vahvista tili
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Muista vahvistaa tilisi
 verificationReminderFirst-title-2 = Tervetuloa, käytössäsi on { -brand-firefox }!
+verificationReminderFirst-sub-description-3 = Älä jää paitsi selaimesta, joka asettaa sinut ja yksityisyytesi etusijalle.
 confirm-email-2 = Vahvista tili
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Vahvista tili
