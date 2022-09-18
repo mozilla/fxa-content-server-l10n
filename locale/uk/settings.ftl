@@ -217,7 +217,7 @@ cs-sign-out-button = Вийти
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Завантажено
@@ -250,9 +250,11 @@ drop-down-menu-sign-out-error-2 = Перепрошуємо, але під час
 
 flow-container-back = Назад
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Коди відновлення
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Ключ відновлення облікового запису { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Резервні коди автентифікації { -brand-firefox }
 get-data-trio-download =
     .title = Завантажити
 get-data-trio-copy =
@@ -312,14 +314,14 @@ nav-data-collection = Збір та використання даних
 nav-paid-subs = Передплати
 nav-email-comm = Зв’язок електронною поштою
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Виникла проблема з заміною ваших кодів відновлення
-tfa-replace-code-success =
-    Створено нові коди. Збережіть ці одноразові коди
+tfa-replace-code-error-3 = Виникла проблема під час заміни ваших резервних кодів
+tfa-replace-code-success-1 =
+    Створено нові коди. Збережіть ці одноразові резервні коди автентифікації
     в надійному місці — вам вони знадобляться для доступу до облікового запису
-    при відсутності вашого мобільного пристрою.
-tfa-replace-code-success-alert-2 = Коди відновлення облікового запису оновлені
+    за відсутності вашого мобільного пристрою.
+tfa-replace-code-success-alert-3 = Резервні коди автентифікації облікового запису оновлено
 tfa-replace-code-1-2 = Крок 1 з 2
 tfa-replace-code-2-2 = Крок 2 з 2
 
@@ -429,19 +431,19 @@ display-name-success-alert-2 = Показуване ім’я оновлено
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Скасувати
 recovery-key-close-button = Закрити
 recovery-key-continue-button = Продовжити
-recovery-key-created = Ваш ключ відновлення успішно створено. Обов'язково збережіть ключ в надійному місці, яке ви згодом зможете легко знайти. Вам знадобиться цей ключ для відновлення доступу до своїх даних, якщо ви забудете пароль.
+recovery-key-created-1 = Ваш ключ відновлення облікового запису успішно створено. Обов'язково збережіть ключ у надійному місці, яке ви згодом зможете легко знайти. Вам знадобиться цей ключ для відновлення доступу до своїх даних, якщо ви забудете пароль.
 recovery-key-enter-password =
     .label = Введіть пароль
-recovery-key-page-title =
-    .title = Ключ відновлення
+recovery-key-page-title-1 =
+    .title = Ключ відновлення облікового запису
 recovery-key-step-1 = Крок 1 з 2
 recovery-key-step-2 = Крок 2 з 2
-recovery-key-success-alert-2 = Ключ відновлення створений
+recovery-key-success-alert-3 = Ключ відновлення облікового запису створено
 
 ## Add secondary email page
 
@@ -489,8 +491,8 @@ tfa-button-cancel = Скасувати
 tfa-button-finish = Завершити
 tfa-incorrect-totp = Неправильний код двоетапної перевірки
 tfa-cannot-retrieve-code = Виникла проблема при отриманні вашого коду.
-tfa-cannot-verify-code-3 = Виникла проблема під час перевірки вашого коду відновлення
-tfa-incorrect-recovery-code = Неправильний код відновлення
+tfa-cannot-verify-code-4 = Виникла проблема під час перевірки вашого резервного коду автентифікації
+tfa-incorrect-recovery-code-1 = Неправильний резервний код автентифікації
 tfa-enabled = Двоетапну перевірку увімкнено
 tfa-scan-this-code =
     Скануйте цей QR-код, використовуючи одну з  <linkExternal>цих
@@ -510,15 +512,15 @@ tfa-enter-secret-key = Введіть цей ключ у своїй програ
 tfa-enter-totp = Тепер введіть код безпеки з програми для двоетапної перевірки.
 tfa-input-enter-totp =
     .label = Введіть код безпеки
-tfa-save-these-codes =
-    Збережіть ці одноразові коди в надійному місці на випадок,
-    коли у вас не буде мобільного пристрою.
-tfa-enter-code-to-confirm =
-    Тепер введіть один зі своїх кодів відновлення,
-    щоб упевнитися, що ви їх зберегли. Вам знадобиться код у випадку втрати
-    вашого пристрою для доступу до облікового запису.
-tfa-enter-recovery-code =
-    .label = Введіть код відновлення
+tfa-save-these-codes-1 =
+    Збережіть ці одноразові резервні коди автентифікації у безпечному місці
+    на випадок відсутності мобільного пристрою.
+tfa-enter-code-to-confirm-1 =
+    Введіть один із ваших резервних кодів автентифікації зараз, щоб
+    підтвердити його збереження. Вам знадобиться код для входу, якщо
+    ви не матимете доступу до свого мобільного пристрою.
+tfa-enter-recovery-code-1 =
+    .label = Введіть резервний код автентифікації
 
 ##
 
@@ -567,25 +569,25 @@ row-defaults-action-change = Змінити
 row-defaults-action-disable = Вимкнути
 row-defaults-status = Немає
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Ключ відновлення
+rk-header-1 = Ключ відновлення облікового запису
 rk-enabled = Увімкнено
 rk-not-set = Не встановлено
 rk-action-create = Створити
 rk-action-remove = Вилучити
-rk-cannot-refresh = Перепрошуємо, але при оновленні коду відновлення виникла проблема.
+rk-cannot-refresh-1 = На жаль, під час оновлення ключа відновлення облікового запису виникла проблема.
 rk-key-removed-2 = Ключ відновлення облікового запису вилучено
 rk-cannot-remove-key = Не вдається видалити ключ відновлення вашого облікового запису.
-rk-refresh-key = Оновити ключ відновлення
+rk-refresh-key-1 = Оновити ключ відновлення облікового запису
 rk-content-explain = Відновіть інформацію, коли забудете пароль.
 rk-content-reset-data = Чому скидання пароля скидає мої дані?
 rk-cannot-verify-session-4 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
-rk-remove-modal-heading = Вилучити ключ відновлення?
-rk-remove-modal-content =
-    У випадку скидання пароля, ви не зможете використати
-    свій ключ відновлення для доступу до збережених даних. Цю дію неможливо скасувати.
-rk-refresh-error = Перепрошуємо, але при оновленні коду відновлення виникла проблема.
+rk-remove-modal-heading-1 = Вилучити ключ відновлення облікового запису?
+rk-remove-modal-content-1 =
+    У випадку скидання пароля, ви не зможете використати свій ключ відновлення
+    облікового запису для доступу до збережених даних. Цю дію неможливо скасувати.
+rk-refresh-error-1 = На жаль, під час оновлення ключа відновлення облікового запису виникла проблема.
 rk-remove-error-2 = Не вдалося видалити ключ відновлення облікового запису
 
 ## Secondary email sub-section on main Settings page
@@ -619,9 +621,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Зробити основною
 se-default-content = Доступ до облікового запису, якщо ви не можете увійти за допомогою основної е-пошти.
-se-content-note =
+se-content-note-1 =
     Примітка: додаткова адреса е-пошти не дає змогу відновити вашу інформацію.
-    Для цього вам знадобиться <a>ключ відновлення</a>.
+    Для цього вам знадобиться <a>ключ відновлення облікового запису</a>.
 # Default value for the secondary email
 se-secondary-email-none = Немає
 
@@ -647,11 +649,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 tfa-row-disable-modal-heading = Вимкнути двоетапну перевірку?
 tfa-row-disable-modal-confirm = Вимкнути
-tfa-row-disable-modal-explain =
+tfa-row-disable-modal-explain-1 =
     Ви не зможете скасувати цю дію. Ви також маєте
-    можливість <linkExternal>замінити свої коди відновлення</linkExternal>.
+    можливість <linkExternal>замінити резервні коди автентифікації</linkExternal>.
 tfa-row-cannot-disable-2 = Неможливо вимкнути двоетапну перевірку
-tfa-row-change-modal-heading = Змінити коди відновлення?
+tfa-row-change-modal-heading-1 = Змінити резервні коди автентифікації?
 tfa-row-change-modal-confirm = Змінити
 tfa-row-change-modal-explain = Ви не зможете скасувати цю дію.
 

@@ -254,6 +254,14 @@ passwordChangeRequired-different-password-plaintext = Важливо: Вигад
 passwordReset-subject = Пароль оновлено
 passwordReset-title = Пароль вашого облікового запису було змінено
 passwordReset-description = Вам необхідно буде ввести новий пароль на своїх інших пристроях для відновлення синхронізації.
+passwordResetAccountRecovery-title-2 = Пароль успішно скинуто
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Ви використали ключ відновлення облікового запису, щоб оновити пароль із:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Створити новий ключ відновлення облікового запису
+passwordResetAccountRecovery-regen-required-mjml-1 = Вам потрібно буде знову ввійти в систему на всіх синхронізованих пристроях. Не забудьте створити новий ключ відновлення облікового запису, щоб замінити той, який ви використовували.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Вам потрібно буде знову ввійти в систему на всіх синхронізованих пристроях. Не забудьте створити новий ключ відновлення облікового запису, щоб замінити той, який ви використовували:
 postAddAccountRecovery-subject-2 = Ключ відновлення облікового запису створено
 postAddAccountRecovery-title2 = Ви створили новий ключ відновлення облікового запису
 # Information on the browser and device triggering this string follows.
@@ -281,9 +289,27 @@ postChangePrimary-title = Нова основна адреса електрон�
 #  $email (String) - A user's email address
 postChangePrimary-description = Ви успішно змінили свою основну адресу електронної пошти на { $email }. Ця адреса відтепер є вашим ім’ям користувача для входу до { -product-firefox-account(case: "gen", capitalization: "lower") }, а також отримання сповіщень безпеки та підтверджень входу.
 postChangePrimary-action = Керування обліковим записом
+postConsumeRecoveryCode-title-2 = Ви використали резервний код автентифікації
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Його використано на:
 postConsumeRecoveryCode-action = Керування обліковим записом
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Залишився 1 резервний код автентифікації
+        [few] Залишилося { $numberRemaining } резервні коди автентифікації
+       *[many] Залишилося { $numberRemaining }резервних кодів автентифікації
+    }
+postNewRecoveryCodes-subject-2 = Створено нові резервні коди автентифікації
+postNewRecoveryCodes-title-2 = Ви створили нові резервні коди автентифікації
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Вони були створені на:
 postNewRecoveryCodes-action = Керування обліковим записом
+postRemoveAccountRecovery-subject-2 = Ключ відновлення облікового запису видалено
+postRemoveAccountRecovery-title-2 = Ви видалили ключ відновлення облікового запису.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Його було видалено з:
 postRemoveAccountRecovery-action = Керування обліковим записом
+postRemoveAccountRecovery-invalid-2 = Вам потрібен ключ відновлення облікового запису, щоб відновити дані { -brand-firefox }, якщо ви забудете свій пароль.
 postRemoveSecondary-subject = Альтернативну електронну пошту видалено
 postRemoveSecondary-title = Альтернативну електронну пошту видалено
 # Variables:
@@ -574,6 +600,7 @@ subscriptionUpgrade-upgrade-info = Ви успішно перейшли з { $pr
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Починаючи з вашого наступного рахунку, сума платежу зміниться з { $paymentAmountOld } за { $productPaymentCycleOld } на { $paymentAmountNew } за { $productPaymentCycleNew }. У той самий час з вас також буде стягнуто одноразовий платіж розміром { $paymentProrated } для покриття вищої вартості залишку цього { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = З вас буде стягнено одноразову комісію в розмірі { $paymentProrated }, щоб показати вищу ціну вашої передплати на решту { $productPaymentCycleOld }. Починаючи з наступної сплати рахунку, ваша плата зміниться з { $paymentAmountOld } за { $productPaymentCycleOld } на { $paymentAmountNew } за { $productPaymentCycleNew }
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = При наявності нового програмного забезпечення, яке необхідно встановити для користування { $productName }, ви отримаєте окремий лист з інструкціями щодо завантаження.
@@ -593,6 +620,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не забудьте підтвердити свій обліковий запис
 verificationReminderFirst-title-2 = Вітаємо у { -brand-firefox }!
 verificationReminderFirst-description-2 = Кілька днів тому ви створили { -product-firefox-account(case: "nom", capitalization: "lower") }, але так і не підтвердили його. Підтвердьте свій обліковий запис протягом наступних 15 днів, інакше його буде автоматично видалено.
+verificationReminderFirst-sub-description-3 = Не проґавте браузер, який цінує вас і вашу приватність понад усе.
 confirm-email-2 = Підтвердити обліковий запис
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Підтвердити обліковий запис
