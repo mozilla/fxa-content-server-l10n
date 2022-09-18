@@ -317,6 +317,10 @@ nav-email-comm = E-mailová komunikácia
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Pri výmene záložných overovacích kódov sa vyskytol problém
+tfa-replace-code-success-1 =
+    Boli vytvorené nové kódy. Tieto jednorazové záložné overovacie kódy
+    si uložte na bezpečné miesto – budete ich potrebovať na prístup k svojmu
+    účtu, ak nemáte mobilné zariadenie.
 tfa-replace-code-success-alert-3 = Záložné overovacie kódy účtu boli aktualizované
 tfa-replace-code-1-2 = Krok 1 z 2
 tfa-replace-code-2-2 = Krok 2 z 2
@@ -432,6 +436,7 @@ display-name-success-alert-2 = Zobrazované meno aktualizované
 recovery-key-cancel-button = Zrušiť
 recovery-key-close-button = Zavrieť
 recovery-key-continue-button = Pokračovať
+recovery-key-created-1 = Váš kľúč na obnovenie účtu bol vytvorený. Uistite sa, že ste kľúč uložili na bezpečnom mieste, kde ho neskôr ľahko nájdete. V prípade zabudnutia hesla budete kľúč potrebovať na opätovné získanie prístupu k svojim údajom.
 recovery-key-enter-password =
     .label = Zadajte heslo
 recovery-key-page-title-1 =
@@ -507,6 +512,12 @@ tfa-enter-secret-key = Zadajte tento tajný kľúč do svojej overovacej apliká
 tfa-enter-totp = Teraz zadajte bezpečnostný kód z overovacej aplikácie.
 tfa-input-enter-totp =
     .label = Zadajte bezpečnostný kód
+tfa-save-these-codes-1 =
+    Uložte si tieto jednorazové záložné overovacie kódy na bezpečné miesto, aby ste mali k nim prístup
+    keď nebudete mať svoje mobilné zariadenie.
+tfa-enter-code-to-confirm-1 =
+    Zadajte jeden zo svojich záložných overovacích kódov a potvrďte, že ste ho uložili.
+    Ak nebudete mať prístup k svojmu mobilnému zariadeniu, na prihlásenie budete potrebovať tento kód.
 tfa-enter-recovery-code-1 =
     .label = Zadajte záložný overovací kód
 
@@ -610,6 +621,7 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Nastaviť ako hlavnú adresu
 se-default-content = Získajte prístup k svojmu účtu, ak sa vám nepodarí prihlásiť pomocou svojej hlavnej e-mailovej adresy.
+se-content-note-1 = Poznámka: alternatívna e-mailová adresa neumožní obnoviť vaše informácie – na to budete potrebovať <a>kľúč na obnovenie účtu</a>.
 # Default value for the secondary email
 se-secondary-email-none = žiadna
 
@@ -633,6 +645,9 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 tfa-row-disable-modal-heading = Zakázať dvojstupňové overenie?
 tfa-row-disable-modal-confirm = Zakázať
+tfa-row-disable-modal-explain-1 =
+    Túto akciu nebudete môcť vrátiť späť. Máte tiež
+    možnosť <linkExternal>nahradiť svoje záložné overovacie kódy</linkExternal>.
 tfa-row-cannot-disable-2 = Dvojstupňové overenie sa nepodarilo zakázať
 tfa-row-change-modal-heading-1 = Chcete zmeniť záložné overovacie kódy?
 tfa-row-change-modal-confirm = Zmeniť

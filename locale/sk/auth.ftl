@@ -302,6 +302,13 @@ codes-reminder-description-two-left = Zostávajú vám už len dva kódy.
 codes-reminder-description-create-codes = Vytvorte si nové záložné overovacie kódy, ktoré vám pomôžu dostať sa späť do účtu, ak sa z neho vymknete.
 lowRecoveryCodes-action-2 = Vytvoriť kódy
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nezostávajú žiadne záložné overovacie kódy
+        [one] Zostáva iba { $numberRemaining } záložný overovací kód
+        [few] Zostávajú iba { $numberRemaining } záložné overovacie kódy
+       *[other] Zostáva iba { $numberRemaining } záložných overovacích kódov
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové prihlásenie k { $clientName }
@@ -331,6 +338,13 @@ passwordReset-title = Heslo k vášmu účtu bolo zmenené
 passwordReset-description = Aby bolo možné pokračovať v synchronizácii na ostatných zariadeniach, musíte na nich zadať nové heslo.
 passwordResetAccountRecovery-subject-2 = Vaše heslo bolo obnovené
 passwordResetAccountRecovery-title-2 = Heslo bolo úspešne obnovené
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Použili ste kľúč na obnovenie účtu na aktualizáciu hesla z:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Vytvoriť nový kľúč na obnovenie účtu
+passwordResetAccountRecovery-regen-required-mjml-1 = Na všetkých synchronizovaných zariadeniach sa budete musieť znova prihlásiť. Nezabudnite vytvoriť nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste použili.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Na všetkých synchronizovaných zariadeniach sa budete musieť znova prihlásiť. Nezabudnite vytvoriť nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste použili:
 postAddAccountRecovery-subject-2 = Bol vytvorený kľúč na obnovenie účtu
 postAddAccountRecovery-title2 = Vytvorili ste nový kľúč na obnovenie účtu
 # Information on the browser and device triggering this string follows.
@@ -358,9 +372,27 @@ postChangePrimary-title = Nová hlavná e-mailová adresa
 #  $email (String) - A user's email address
 postChangePrimary-description = Úspešne ste zmenili svoju hlavnú e-mailovú adresu na { $email }. Táto adresa bude odteraz slúžiť ako vaše prihlasovacie meno k { -product-firefox-account(case: "dat", capitalization: "lower") } a na zasielanie bezpečnostných upozornení a potvrdení.
 postChangePrimary-action = Spravovať účet
+postConsumeRecoveryCode-title-2 = Použili ste záložný overovací kód
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Bol použitý na:
 postConsumeRecoveryCode-action = Spravovať účet
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Zostáva { $numberRemaining } záložný overovací kód
+        [few] Zostávajú { $numberRemaining } záložné overovacie kódy
+       *[other] Zostáva { $numberRemaining } záložných overovacích kódov
+    }
+postNewRecoveryCodes-subject-2 = Boli vytvorené nové záložné overovacie kódy
+postNewRecoveryCodes-title-2 = Vytvorili ste nové záložné overovacie kódy
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Boli vytvorené na:
 postNewRecoveryCodes-action = Spravovať účet
+postRemoveAccountRecovery-subject-2 = Kľúč na obnovenie účtu bol odstránený
+postRemoveAccountRecovery-title-2 = Odstránili ste kľúč na obnovenie účtu.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Bol odstránený z:
 postRemoveAccountRecovery-action = Spravovať účet
+postRemoveAccountRecovery-invalid-2 = Ak zabudnete heslo, na obnovenie údajov { -brand-firefox(case: "gen") } potrebujete kľúč na obnovenie účtu.
 postRemoveSecondary-subject = Alternatívna e-mailová adresa bola odstránená
 postRemoveSecondary-title = Alternatívna e-mailová adresa bola odstránená
 # Variables:
@@ -651,6 +683,7 @@ subscriptionUpgrade-upgrade-info = Úspešne ste inovovali z { $productNameOld }
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Počnúc ďalšou faktúrou sa váš poplatok zmení z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }. V tom čase vám bude účtovaný aj jednorazový poplatok { $paymentProrated }, ktorý odráža vyšší poplatok za tento { $productPaymentCycleOld } (pomerná časť).
+subscriptionUpgrade-content-charge-info-different-cycle = Bude vám účtovaný jednorazový poplatok vo výške { $paymentProrated }, ktorý odráža vyššiu cenu vášho odberu oproti { $productPaymentCycleOld }. Počnúc ďalšou faktúrou sa váš poplatok zmení z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Ak je k dispozícii nový softvér potrebný na to, aby ste mohli používať { $productName }, dostanete samostatný e-mail s pokynmi na jeho stiahnutie.
@@ -670,6 +703,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Nezabudnite potvrdiť svoj účet
 verificationReminderFirst-title-2 = Víta vás { -brand-firefox }!
 verificationReminderFirst-description-2 = Pred niekoľkými dňami ste si vytvorili { -product-firefox-account(capitalization: "lower", case: "acc") }, no nikdy ste ho nepotvrdili. Potvrďte svoj účet v priebehu nasledujúcich 15 dní, inak bude automaticky vymazaný.
+verificationReminderFirst-sub-description-3 = Nenechajte si ujsť prehliadač, ktorý dáva vás a vaše súkromie na prvé miesto.
 confirm-email-2 = Potvrdiť účet
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potvrdiť účet
