@@ -259,6 +259,9 @@ passwordResetAccountRecovery-title-2 = Contraseña restablecida correctamente
 passwordResetAccountRecovery-description-2 = Usaste la clave de recuperación de cuenta para actualizar tu contraseña desde:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Crear una nueva clave de recuperación de cuenta
+passwordResetAccountRecovery-regen-required-mjml-1 = Tendrás que volver a iniciar sesión en todos tus dispositivos sincronizados. Recordá crear una nueva clave de recuperación de cuenta para reemplazar la que usaste.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Tendrás que volver a iniciar sesión en todos tus dispositivos sincronizados. Recordá crear una nueva clave de recuperación de cuenta para reemplazar la que usaste:
 postAddAccountRecovery-subject-2 = Se creó la clave de recuperación de la cuenta
 postAddAccountRecovery-title2 = Creaste una nueva clave de recuperación de cuenta
 # Information on the browser and device triggering this string follows.
@@ -286,9 +289,26 @@ postChangePrimary-title = Nuevo correo electrónico principal
 #  $email (String) - A user's email address
 postChangePrimary-description = Cambiaste correctamente tu correo principal a { $email }. Este correo es ahora tu nombre de usuario para iniciar sesión en tu { -product-firefox-account }, así como para recibir notificaciones de seguridad y confirmaciones de inicio de sesión.
 postChangePrimary-action = Administrar cuenta
+postConsumeRecoveryCode-title-2 = Usaste un código de autenticación de respaldo
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Fue usado en:
 postConsumeRecoveryCode-action = Administrar cuenta
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Queda 1 código de autenticación de respaldo
+       *[other] Quedan { $numberRemaining } códigos de autenticación de respaldo
+    }
+postNewRecoveryCodes-subject-2 = Nuevos códigos de autenticación de respaldo creados
+postNewRecoveryCodes-title-2 = Creaste nuevos códigos de autenticación de respaldo
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Fueron creados en:
 postNewRecoveryCodes-action = Administrar cuenta
+postRemoveAccountRecovery-subject-2 = Clave de recuperación de cuenta borrada
+postRemoveAccountRecovery-title-2 = Borraste tu clave de recuperación de cuenta.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Fue borrada de:
 postRemoveAccountRecovery-action = Administrar cuenta
+postRemoveAccountRecovery-invalid-2 = Necesitás una clave de recuperación de cuenta para recuperar tus datos de { -brand-firefox } si olvidás tu contraseña.
 postRemoveSecondary-subject = Correo electrónico secundario eliminado
 postRemoveSecondary-title = Correo electrónico secundario eliminado
 # Variables:
