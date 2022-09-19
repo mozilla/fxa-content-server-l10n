@@ -73,14 +73,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } downloade yn de { -app-store }">
-another-desktop-device = Of ynstallearje op <a data-l10n-name="anotherDeviceLink">in oar desktopapparaat</a>.
-another-device = Of ynstallearje op <a data-l10n-name="anotherDeviceLink">in oar apparaat</a>.
-automated-email-change =
-    Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, <a data-l10n-name="passwordChangeLink">wizigje dan jo wachtwurd</a>.
-    Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Dit is in automatisearre e-mailberjocht; as jo gjin nij apparaat oan jo { -product-firefox-account } tafoege hawwe, moatte jo daliks jo wachtwurd te wizigjen op { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = { $productName } ynstallearje op <a data-l10n-name="anotherDeviceLink">in oar desktopapparaat</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = { $productName } ynstallearje op <a data-l10n-name="anotherDeviceLink">in oar apparaat</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = { $productName } downloade fia Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = { $productName } downloade fia de App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = { $productName } ynstallearje op in oar apparaat:
+automated-email-change-2 = As jo dizze aksje net útfierd hawwe, <a data-l10n-name="passwordChangeLink">wizigje dan daliks jo wachtwurd</a>.
+automated-email-support = Besykje foar mear ynfo <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = As jo dizze aksje net útfierd hawwe, wizigje dan daliks jo wachtwurd:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Besykje foar mear ynfo { -brand-mozilla } Support:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = Dit is in automatisearre berjocht. As jo it mei fersin ûntfongen hawwe, hoege jo neat te dwaan.
@@ -198,16 +211,10 @@ fraudulentAccountDeletion-contact = As jo fragen hawwe, nim dan kontakt op mei �
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = As jo fragen hawwe, nim dan kontakt op mei ús stipeteam: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Net in protte werstelkoaden restearjend
-codes-reminder-description = Wy hawwe murken dat jo noch net in protte werstelkoaden hawwe. Oerweagje nije koaden te generearjen om te foar te kommen dat jo gjin tagong mear hawwe ta jo account.
-codes-generate = Koaden generearje
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Koaden generearje
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] Ien werstelkoade restearjend
-       *[other] { $numberRemaining } werstelkoaden restearjend
-    }
+codes-reminder-title-zero = Jo hawwe gjin reserve-autentikaasjekoaden mear!
+codes-reminder-title-one = Jo binne ta oan jo lêste reserve-autentikaasjekoade
+codes-reminder-title-two = Tiid om mear reserve-autentikaasjekoaden oan te meitsjen
+codes-reminder-description-part-one = Reserve-autentikaasjekoaden helpe jo jo gegevens te werstellen as jo jo wachtwurd ferjitte.
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nije oanmelding by { $clientName }
@@ -235,13 +242,6 @@ passwordChangeRequired-different-password-plaintext = Wichtich: kies in oar wach
 passwordReset-subject = Wachtwurd bywurke
 passwordReset-title = Jo accountwachtwurd is wizige
 passwordReset-description = Jo moatte jo nije wachtwurd op oare apparaten ynfiere om de syngronisaasje te ferfetsjen.
-passwordResetAccountRecovery-subject = Wachtwurd bywurke mei werstelkaai
-passwordResetAccountRecovery-title = Jo accountwachtwurd is opnij ynsteld mei in werstelkaai
-passwordResetAccountRecovery-description = Jo hawwe mei sukses jo wachtwurd opnij ynsteld fia in werstelkaai fan it folgjende apparaat ôf:
-passwordResetAccountRecovery-action = Nije werstelkaai generearje
-passwordResetAccountRecovery-regen-required = Jo moatte in nije werstelkaai generearje.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Nije werstelkaai generearje:
 postAddAccountRecovery-subject-2 = Kaai foar accountwerstel oanmakke
 postAddAccountRecovery-title2 = Jo hawwe in nije kaai foar accountwerstel oanmakke
 # Information on the browser and device triggering this string follows.
@@ -269,19 +269,9 @@ postChangePrimary-title = Nij primêr e-mailadres
 #  $email (String) - A user's email address
 postChangePrimary-description = Jo hawwe jo primêre e-mailadres mei sukses nei { $email } wizige. Dit adres is no jo brûkersnamme foar it oanmelden by jo { -product-firefox-account }, krekt as foar it ûntfangen fan befeiligingsmeldingen en
 postChangePrimary-action = Account beheare
-postConsumeRecoveryCode-subject = Werstelkoade brûkt
-postConsumeRecoveryCode-title = Werstelkoade brûkt
-postConsumeRecoveryCode-description = Jo hawwe mei sukses in werstelkoade brûkt fan it folgjende appaaraat ôf:
 postConsumeRecoveryCode-action = Account beheare
-postNewRecoveryCodes-subject = Nije werstelkoaden generearre
-postNewRecoveryCodes-title = Nije werstelkoaden generearre
-postNewRecoveryCodes-description = Jo hawwe mei sukses nije werstelkoaden generearre fan it folgjende apparaat ôf:
 postNewRecoveryCodes-action = Account beheare
-postRemoveAccountRecovery-subject = Kaai foar accountwerstel fuortsmiten
-postRemoveAccountRecovery-title = Kaai foar accountwerstel fuortsmiten
-postRemoveAccountRecovery-description = Jo hawwe mei sukses in kaai foar accountwerstel foar jo { -product-firefox-account } fuortsmiten fia it folgjende apparaat:
 postRemoveAccountRecovery-action = Account beheare
-postRemoveAccountRecovery-invalid = Dizze werstelkaai kin net mear brûkt wurde om jo account te werstellen.
 postRemoveSecondary-subject = Sekundêr e-mailadres fuortsmiten
 postRemoveSecondary-title = Sekundêr e-mailadres fuortsmiten
 # Variables:
@@ -591,7 +581,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Unthâld om jo account te befêstigjen
 verificationReminderFirst-title-2 = Wolkom by { -brand-firefox }!
 verificationReminderFirst-description-2 = In pear dagen lyn hawwe jo in { -product-firefox-account } oanmakke, mar hawwe it nea befêstige. Befêstigje jo account binnen de folgjende 15 dagen, oars sil it automatysk fuortsmiten wurde.
-verificationReminderFirst-sub-description-2 = Mis neat oer tech dy’t jo en jo privacy foarop stelt.
 confirm-email-2 = Account befêstigje
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Account befêstigje
