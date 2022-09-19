@@ -152,7 +152,7 @@ cs-sign-out-button = Log ud
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Hentet
@@ -185,9 +185,11 @@ drop-down-menu-sign-out-error-2 = Der opstod desværre et problem med at logge d
 
 flow-container-back = Tilbage
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Genoprettelseskoder
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Genoprettelsesnøgle til { -brand-firefox }-konto
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } reserve-godkendelseskoder
 get-data-trio-download =
     .title = Hent
 get-data-trio-copy =
@@ -247,13 +249,13 @@ nav-data-collection = Dataindsamling og -brug
 nav-paid-subs = Betalte abonnementer
 nav-email-comm = Mail-kommunikation
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Der opstod et problem med at erstatte dine genoprettelseskoder
-tfa-replace-code-success =
-    Nye koder er blevet oprettet. Opbevar disse engangskoder
+tfa-replace-code-error-3 = Der opstod et problem med at erstatte dine reserve-godkendelseskoder
+tfa-replace-code-success-1 =
+    Nye koder er blevet oprettet. Opbevar disse engangs-reserve-godkendelseskoder
     et sikkert sted. Du skal bruge dem, hvis mister adgangen til din mobile enhed.
-tfa-replace-code-success-alert-2 = Genoprettelsesnøgler til kontoen blev opdateret
+tfa-replace-code-success-alert-3 = Reserve-godkendelses tilbagekoder til kontoen opdateret
 tfa-replace-code-1-2 = Trin 1 af 2
 tfa-replace-code-2-2 = Trin 2 af 2
 
@@ -363,19 +365,19 @@ display-name-success-alert-2 = Vist navn opdateret
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Annuller
 recovery-key-close-button = Luk
 recovery-key-continue-button = Fortsæt
-recovery-key-created = Din genoprettelsesnøgle er blevet oprettet. Gem nøglen et sikkert sted, hvor du nemt kan finde den senere. Du skal bruge nøglen til at få adgang til dine data, hvis du glemmer din adgangskode.
+recovery-key-created-1 = Din genoprettelsesnøgle til kontoen er blevet oprettet. Gem nøglen et sikkert sted, hvor du nemt kan finde den senere. Du skal bruge nøglen til at få adgang til dine data, hvis du glemmer din adgangskode.
 recovery-key-enter-password =
     .label = Indtast adgangskode
-recovery-key-page-title =
-    .title = Genoprettelsesnøgle
+recovery-key-page-title-1 =
+    .title = Genoprettelsesnøgle til kontoen
 recovery-key-step-1 = Trin 1 af 2
 recovery-key-step-2 = Trin 2 af 2
-recovery-key-success-alert-2 = Genoprettelsesnøgle oprettet
+recovery-key-success-alert-3 = Genoprettelsesnøgle til kontoen blev oprettet
 
 ## Add secondary email page
 
@@ -423,8 +425,8 @@ tfa-button-cancel = Annuller
 tfa-button-finish = Afslut
 tfa-incorrect-totp = Forkert kode til totrinsgodkendelse
 tfa-cannot-retrieve-code = Der opstod et problem med at hente din kode.
-tfa-cannot-verify-code-3 = Der opstod et problem med at bekræfte din genoprettelseskode
-tfa-incorrect-recovery-code = Forkert genoprettelseskode
+tfa-cannot-verify-code-4 = Der opstod et problem med at bekræfte din reserve-godkendelseskode
+tfa-incorrect-recovery-code-1 = Forkert reserve-godkendelseskode
 tfa-enabled = Totrinsgodkendelse aktiveret
 tfa-scan-this-code =
     Skan denne QR-kode ved hjælp af en af <linkExternal>disse
@@ -444,15 +446,15 @@ tfa-enter-secret-key = Indtast denne hemmelige nøgle i din godkendelsesapp:
 tfa-enter-totp = Indtast nu sikkerhedskoden fra godkendelsesappen.
 tfa-input-enter-totp =
     .label = Indtast sikkerhedskode
-tfa-save-these-codes =
-    Gem disse engangskoder et sikkert sted. Du skal bruge dem, hvis du
-    mister adgangen til din mobile enhed.
-tfa-enter-code-to-confirm =
-    Indtast en af dine genoprettelseskoder nu for
-    at bekræfte, at du har gemt den. Du skal bruge en kode, hvis du mister din enhed og vil
-    have adgang til din konto.
-tfa-enter-recovery-code =
-    .label = Indtast en genoprettelseskode
+tfa-save-these-codes-1 =
+    Gem disse engangs-reserve-godkendelseskoder et sikkert sted,
+    til hvis du mister adgangen til din mobile enhed.
+tfa-enter-code-to-confirm-1 =
+    Indtast en af dine reserve-godkendelseskoder nu for at bekræfte,
+    at du gemte den. Du skal bruge en kode til at logge ind, hvis du mister adgangen til
+    din mobile enhed.
+tfa-enter-recovery-code-1 =
+    .label = Indtast en reserve-godkendelseskode
 
 ##
 
@@ -501,25 +503,25 @@ row-defaults-action-change = Skift
 row-defaults-action-disable = Deaktiver
 row-defaults-status = Ingen
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Genoprettelsesnøgle
+rk-header-1 = Genoprettelsesnøgle til kontoen
 rk-enabled = Aktiveret
 rk-not-set = Ikke indstillet
 rk-action-create = Opret
 rk-action-remove = Fjern
-rk-cannot-refresh = Der opstod desværre et problem med at opdatere genoprettelsesnøglen.
+rk-cannot-refresh-1 = Der opstod desværre et problem med at opdatere genoprettelsesnøglen til kontoen.
 rk-key-removed-2 = Genoprettelsesnøgle til kontoen blev fjernet
 rk-cannot-remove-key = Genoprettelsesnøglen til din konto kunne ikke fjernes.
-rk-refresh-key = Opdater genoprettelsesnøgle
+rk-refresh-key-1 = Opdater genoprettelsesnøgle til kontoen
 rk-content-explain = Gendan dine gemte informationer, når du har glemt din adgangskode.
 rk-content-reset-data = Hvorfor nulstilles mine data, når jeg nulstiller min adgangskode.
 rk-cannot-verify-session-4 = Der opstod desværre et problem med at bekræfte din session
-rk-remove-modal-heading = Fjern genoprettelsesnøgle?
-rk-remove-modal-content =
+rk-remove-modal-heading-1 = Fjern genoprettelsesnøgle til kontoen?
+rk-remove-modal-content-1 =
     Hvis du nulstiller din adgangskode, kan du ikke bruge din genoprettelsesnøgle
-    til at få adgang til dine data. Du kan ikke fortryde denne handling.
-rk-refresh-error = Der opstod desværre et problem med at opdatere genoprettelsesnøglen.
+    til kontoen til at få adgang til dine data. Du kan ikke fortryde denne handling.
+rk-refresh-error-1 = Der opstod desværre et problem med at opdatere genoprettelsesnøglen til kontoen.
 rk-remove-error-2 = Genoprettelsesnøglen til din konto kunne ikke fjernes
 
 ## Secondary email sub-section on main Settings page
@@ -553,9 +555,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Sæt som primær
 se-default-content = Få adgang til din konto, hvis du ikke kan logge ind på din primære mailkonto.
-se-content-note =
+se-content-note-1 =
     Bemærk: En sekundær mailadresse vil ikke gendanne dine gemte informationer — du
-    skal bruge en <a>genoprettelsesnøgle</a> til det.
+    skal bruge en <a>genoprettelsesnøgle til kontoen</a> til det.
 # Default value for the secondary email
 se-secondary-email-none = Ingen
 
@@ -581,11 +583,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Der opstod desværre et problem med at bekræfte din session
 tfa-row-disable-modal-heading = Deaktiver totrinsgodkendelse?
 tfa-row-disable-modal-confirm = Deaktiver
-tfa-row-disable-modal-explain =
+tfa-row-disable-modal-explain-1 =
     Du kan ikke fortryde denne handling. Du har også
-    mulighed for at <linkExternal>erstatte dine genoprettelseskoder</linkExternal>.
+    mulighed for at <linkExternal>erstatte dine reserve-godkendelseskoder</linkExternal>.
 tfa-row-cannot-disable-2 = Totrinsgodkendelse kunne ikke deaktiveres
-tfa-row-change-modal-heading = Skift genoprettelseskoder?
+tfa-row-change-modal-heading-1 = Skift reserve-godkendelseskoder?
 tfa-row-change-modal-confirm = Skift
 tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.
 

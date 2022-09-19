@@ -73,14 +73,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Hent { $produc
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Hent { $productName } i { -app-store }">
-another-desktop-device = Eller installer på <a data-l10n-name="anotherDeviceLink">en anden computer</a>.
-another-device = Eller installer på <a data-l10n-name="anotherDeviceLink">en anden enhed</a>.
-automated-email-change =
-    Denne mail er sendt automatisk. Hvis du ikke har godkendt denne handling, så <a data-l10n-name="passwordChangeLink">skift din adgangskode</a>.
-    For mere information, besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Denne mail er sendt automatisk; hvis du ikke tilføjede en ny enhed til din { -product-firefox-account }, bør du ændre din adgangskode med det samme på { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Installer { $productName } på <a data-l10n-name="anotherDeviceLink">en anden computer</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Installer { $productName } på <a data-l10n-name="anotherDeviceLink"> en anden enhed</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Hent { $productName } på Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Hent { $productName } på App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Installer { $productName } på en anden enhed:
+automated-email-change-2 = Hvis du ikke foretog denne handling, så <a data-l10n-name="passwordChangeLink">skift din adgangskode</a> med det samme.
+automated-email-support = Besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a> for at få mere at vide.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Hvis du ikke foretog denne handling, så skift din adgangskode med det samme:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Besøg { -brand-mozilla } Support for at få mere at vide:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a> for mere info.
 automated-email-no-action-plaintext = Denne mail er sendt automatisk. Hvis du har modtaget den ved en fejl, behøver du ikke foretage dig noget.
@@ -198,15 +211,20 @@ fraudulentAccountDeletion-contact = Hvis du har spørgsmål, så kontakt vores <
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Hvis du har spørgsmål, så kontakt vores support-team: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Kun få genoprettelseskoder tilbage
-codes-reminder-description = Vi har bemærket, at du ikke har så mange genoprettelseskoder tilbage. Overvej at generere nye koder for at undgå at blive låst ude af din konto.
-codes-generate = Generer koder
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Generer koder
-lowRecoveryCodes-subject =
+codes-reminder-title-zero = Du er løbet tør for reserve-godkendelseskoder!
+codes-reminder-title-one = Du hr kun én reserve-godkendelseskode tilbage
+codes-reminder-title-two = Det er tid til at oprette flere reserve-godkendelseskoder
+codes-reminder-description-part-one = Reserve-godkendelseskoder hjælper dig med at gendanne dine informationer, når du har glemt din adgangskode.
+codes-reminder-description-part-two = Opret nye koder nu, så du ikke mister dine data senere.
+codes-reminder-description-two-left = Du har kun to koder tilbage.
+codes-reminder-description-create-codes = Opret nye reserve-godkendelseskoder, så du kan få adgang til din konto igen, hvis du bliver låst ude.
+lowRecoveryCodes-action-2 = Opret koder
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [one] 1genoprettelseskode tilbage
-       *[other] { $numberRemaining } genoprettelseskoder tilbage
+        [0] Ingen reserve-godkendelseskoder tilbage
+        [one] Kun 1 reserve-godkendelseskode tilbage
+       *[other] Kun { $numberRemaining } reserve-godkendelseskoder tilbage
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -235,13 +253,15 @@ passwordChangeRequired-different-password-plaintext = Vigtigt: Vælg en anden ad
 passwordReset-subject = Adgangskode opdateret
 passwordReset-title = Adgangskoden til din konto blev er blevet ændret
 passwordReset-description = Du skal indtaste din nye adgangskode på andre enheder for at genoptage synkroniseringen.
-passwordResetAccountRecovery-subject = Adgangskode opdateret ved hjælp af genoprettelsesnøgle
-passwordResetAccountRecovery-title = Adgangskoden til din konto blev nulstillet med en genoprettelsesnøgle
-passwordResetAccountRecovery-description = Du har nulstillet din adgangskode ved hjælp af en genoprettelsesnøgle fra følgende enhed:
-passwordResetAccountRecovery-action = Opret en ny genoprettelsesnøgle
-passwordResetAccountRecovery-regen-required = Du skal oprette en ny genoprettelsesnøgle.
+passwordResetAccountRecovery-subject-2 = Din adgangskode er blevet nulstillet
+passwordResetAccountRecovery-title-2 = Adgangskoden er blevet nulstillet
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Du brugte din genoprettelsesnøgle til kontoen til at opdatere din adgangskode fra:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Opret en ny genoprettelsesnøgle til kontoen
+passwordResetAccountRecovery-regen-required-mjml-1 = Du skal logge ind igen på alle dine synkroniserede enheder. Husk at oprette en ny genoprettelsesnøgle til kontoen til erstatning for den, du brugte.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Opret en ny genoprettelsesnøgle:
+passwordResetAccountRecovery-regen-required-txt-1 = Du skal logge ind igen på alle dine synkroniserede enheder. Husk at oprette en ny genoprettelsesnøgle til kontoen til erstatning for den, du brugte:
 postAddAccountRecovery-subject-2 = Genoprettelsesnøgle til kontoen blev oprettet
 postAddAccountRecovery-title2 = Du oprettede en ny genoprettelsesnøgle til kontoen
 # Information on the browser and device triggering this string follows.
@@ -269,19 +289,26 @@ postChangePrimary-title = Ny primær mailadresse
 #  $email (String) - A user's email address
 postChangePrimary-description = Du har ændret din primære mailadresse til { $email }. Den mailadresse er nu dit brugernavn, som du skal bruge til at logge ind på din { -product-firefox-account } og til at modtage sikkerhedsmeddelelser og login-bekræftelser.
 postChangePrimary-action = Håndter konto
-postConsumeRecoveryCode-subject = Genoprettelseskode brugt
-postConsumeRecoveryCode-title = Genoprettelseskode brugt
-postConsumeRecoveryCode-description = Du har brugt en genoprettelseskode fra følgende enhed:
+postConsumeRecoveryCode-title-2 = Du har brugt en reserve-godkendelseskode
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Den blev brugt på:
 postConsumeRecoveryCode-action = Håndter konto
-postNewRecoveryCodes-subject = Nye genoprettelseskoder genereret
-postNewRecoveryCodes-title = Nye genoprettelseskoder genereret
-postNewRecoveryCodes-description = Du har genereret nye genoprettelseskoder fra følgende enhed:
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 reserve-godkendelseskode tilbage
+       *[other] { $numberRemaining } reserve-godkendelseskoder tilbage
+    }
+postNewRecoveryCodes-subject-2 = Nye reserve-godkendelseskoder oprettet
+postNewRecoveryCodes-title-2 = Du oprettede nye reserve-godkendelseskoder
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = De blev oprettet på:
 postNewRecoveryCodes-action = Håndter konto
-postRemoveAccountRecovery-subject = Genoprettelsesnøgle til kontoen blev fjernet
-postRemoveAccountRecovery-title = Genoprettelsesnøgle til kontoen blev fjernet
-postRemoveAccountRecovery-description = Du har fjernet en genoprettelsesnøgle til din { -product-firefox-account } med følgende enhed:
+postRemoveAccountRecovery-subject-2 = Genoprettelsesnøgle til kontoen blev slettet
+postRemoveAccountRecovery-title-2 = Du slettede din genoprettelsesnøgle til kontoen.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Den blev slettet fra:
 postRemoveAccountRecovery-action = Håndter konto
-postRemoveAccountRecovery-invalid = Denne genoprettelsesnøgle kan ikke længere bruges til at genoprette din konto.
+postRemoveAccountRecovery-invalid-2 = Du skal bruge en genoprettelsesnøgle til kontoen til at gendanne dine { -brand-firefox }-data, hvis du glemmer din adgangskode.
 postRemoveSecondary-subject = Sekundær mailadresse fjernet
 postRemoveSecondary-title = Sekundær mailadresse fjernet
 # Variables:
@@ -572,6 +599,7 @@ subscriptionUpgrade-upgrade-info = Du har opgraderet fra { $productNameOld } til
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycleOld } til { $paymentAmountNew } pr. { $productPaymentCycleNew }. På det tidspunkt vil du også blive opkrævet et engangsbeløb på { $paymentProrated } for at afspejle den højere opkrævning for resten af dette { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Du vil blive opkrævet et engangsgebyr på { $paymentProrated } for at afspejle dit abonnements højere pris for resten af denne { $productPaymentCycleOld }. Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycleOld } til { $paymentAmountNew } pr. { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Hvis du skal installere ny software for at bruge { $productName }, vil du modtage en separat mail med vejledning i, hvordan du henter det.
@@ -591,7 +619,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Husk at bekræfte din konto
 verificationReminderFirst-title-2 = Velkommen til { -brand-firefox }!
 verificationReminderFirst-description-2 = For et par dage siden oprettede du en { -product-firefox-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 15 dage, ellers bliver den slettet automatisk.
-verificationReminderFirst-sub-description-2 = Gå ikke glip af teknologi, der sætter dig og dit privatliv i første række.
+verificationReminderFirst-sub-description-3 = Gå ikke glip af browseren, der sætter dig og dit privatliv i første række.
 confirm-email-2 = Bekræft konto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Bekræft konto
