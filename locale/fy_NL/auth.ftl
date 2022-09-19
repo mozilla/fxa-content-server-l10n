@@ -289,6 +289,7 @@ postChangePrimary-title = Nij primêr e-mailadres
 #  $email (String) - A user's email address
 postChangePrimary-description = Jo hawwe jo primêre e-mailadres mei sukses nei { $email } wizige. Dit adres is no jo brûkersnamme foar it oanmelden by jo { -product-firefox-account }, krekt as foar it ûntfangen fan befeiligingsmeldingen en
 postChangePrimary-action = Account beheare
+postConsumeRecoveryCode-title-2 = Jo hawwe in reserve-autentikaasjekoade brûkt
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Dizze is brûkt op:
 postConsumeRecoveryCode-action = Account beheare
