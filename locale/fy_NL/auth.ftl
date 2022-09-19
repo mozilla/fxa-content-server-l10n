@@ -215,6 +215,17 @@ codes-reminder-title-zero = Jo hawwe gjin reserve-autentikaasjekoaden mear!
 codes-reminder-title-one = Jo binne ta oan jo lêste reserve-autentikaasjekoade
 codes-reminder-title-two = Tiid om mear reserve-autentikaasjekoaden oan te meitsjen
 codes-reminder-description-part-one = Reserve-autentikaasjekoaden helpe jo jo gegevens te werstellen as jo jo wachtwurd ferjitte.
+codes-reminder-description-part-two = Meitsje no nije koaden oan, sadat jo letter jo gegevens net kwytreitsje.
+codes-reminder-description-two-left = Jo hawwe mar twa koaden oer.
+codes-reminder-description-create-codes = Meitsje nije reserve-autentikaasjekoaden oan om jo te helpen wer tagong te krijen ta jo account as jo útsletten binne.
+lowRecoveryCodes-action-2 = Koaden oanmeitsje
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Gjin reserve-autentikaasjekoaden oer
+        [one] Mar 1 reserve-autentikaasjekoaden oer
+       *[other] Mar { $numberRemaining } reserve-autentikaasjekoaden oer!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nije oanmelding by { $clientName }
@@ -242,6 +253,13 @@ passwordChangeRequired-different-password-plaintext = Wichtich: kies in oar wach
 passwordReset-subject = Wachtwurd bywurke
 passwordReset-title = Jo accountwachtwurd is wizige
 passwordReset-description = Jo moatte jo nije wachtwurd op oare apparaten ynfiere om de syngronisaasje te ferfetsjen.
+passwordResetAccountRecovery-subject-2 = Jo wachtwurd is opnij ynsteld
+passwordResetAccountRecovery-title-2 = Wachtwurd mei sukses opnij ynsteld
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Jo hawwe jo accountwerstelkaai brûkt om jo wachtwurd by te wurkjen fanôf:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = In nije accountwerstelkaai oanmeitsje
+passwordResetAccountRecovery-regen-required-mjml-1 = Jo moatte opnij oanmelde op al jo syngronisearre apparaten. Ferjit net om in nije accountwerstelkaai oan te meitsjen om de brûkte kaai te ferfangen.
 postAddAccountRecovery-subject-2 = Kaai foar accountwerstel oanmakke
 postAddAccountRecovery-title2 = Jo hawwe in nije kaai foar accountwerstel oanmakke
 # Information on the browser and device triggering this string follows.
