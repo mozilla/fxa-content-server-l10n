@@ -599,6 +599,7 @@ subscriptionUpgrade-upgrade-info = Actualizaste correctamente de { $productNameO
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = A partir de tu próxima factura, tu cargo cambiará de { $paymentAmountOld } por { $productPaymentCycleOld } a { $paymentAmountNew } por { $productPaymentCycleNew }. En ese momento, también se te va a cobrar un cargo único de { $paymentProrated } para reflejar el cargo más alto por el resto de este { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Se te cobrará por única vez un monto de { $paymentProrated } para reflejar el precio más alto de tu suscripción para el resto de este { $productPaymentCycleOld }. Comenzando con la próxima factura, el cargo cambiará de { $paymentAmountOld } por { $productPaymentCycleOld } a { $paymentAmountNew } por { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Si hay que instalar un programa nuevo  para utilizar { $productName }, vas a recibir un correo electrónico por separado con instrucciones para la descarga.
