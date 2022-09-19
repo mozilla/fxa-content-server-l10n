@@ -260,6 +260,8 @@ passwordResetAccountRecovery-description-2 = Jo hawwe jo accountwerstelkaai brû
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = In nije accountwerstelkaai oanmeitsje
 passwordResetAccountRecovery-regen-required-mjml-1 = Jo moatte opnij oanmelde op al jo syngronisearre apparaten. Ferjit net om in nije accountwerstelkaai oan te meitsjen om de brûkte kaai te ferfangen.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Jo moatte opnij oanmelde op al jo syngronisearre apparaten. Ferjit net om in nije accountwerstelkaai oan te meitsjen om de brûkte kaai te ferfangen.
 postAddAccountRecovery-subject-2 = Kaai foar accountwerstel oanmakke
 postAddAccountRecovery-title2 = Jo hawwe in nije kaai foar accountwerstel oanmakke
 # Information on the browser and device triggering this string follows.
@@ -287,6 +289,8 @@ postChangePrimary-title = Nij primêr e-mailadres
 #  $email (String) - A user's email address
 postChangePrimary-description = Jo hawwe jo primêre e-mailadres mei sukses nei { $email } wizige. Dit adres is no jo brûkersnamme foar it oanmelden by jo { -product-firefox-account }, krekt as foar it ûntfangen fan befeiligingsmeldingen en
 postChangePrimary-action = Account beheare
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Dizze is brûkt op:
 postConsumeRecoveryCode-action = Account beheare
 postNewRecoveryCodes-action = Account beheare
 postRemoveAccountRecovery-action = Account beheare
