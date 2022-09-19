@@ -254,6 +254,7 @@ passwordChangeRequired-different-password-plaintext = Важливо: Вигад
 passwordReset-subject = Пароль оновлено
 passwordReset-title = Пароль вашого облікового запису було змінено
 passwordReset-description = Вам необхідно буде ввести новий пароль на своїх інших пристроях для відновлення синхронізації.
+passwordResetAccountRecovery-subject-2 = Ваш пароль було скинуто
 passwordResetAccountRecovery-title-2 = Пароль успішно скинуто
 # Details of the device, location, IP address, and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Ви використали ключ відновлення облікового запису, щоб оновити пароль із:
