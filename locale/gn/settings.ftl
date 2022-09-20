@@ -188,6 +188,8 @@ flow-container-back = Tapykue
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } Mba’ete mba’eñemi jeguerujeyrã
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } ayvu ñemoneĩ jeykekoha
 get-data-trio-download =
     .title = Mboguejy
 get-data-trio-copy =
@@ -361,8 +363,11 @@ recovery-key-close-button = Mboty
 recovery-key-continue-button = Ku’ejey
 recovery-key-enter-password =
     .label = Emoinge ñe’ẽñemi
+recovery-key-page-title-1 =
+    .title = Mba’ete mba’eñemi jeguerujeyrã
 recovery-key-step-1 = Ku’e 1 2-gui
 recovery-key-step-2 = Ku’e 2 2-gui
+recovery-key-success-alert-3 = Oñemoheñói mba’ete mba’eñemi jeguerujeyrã
 
 ## Add secondary email page
 
