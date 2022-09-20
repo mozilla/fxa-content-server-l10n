@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-20 13:02+0000\n"
+"PO-Revision-Date: 2022-09-20 18:40+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -187,7 +187,7 @@ msgstr "Ñe’ẽñemi jehechauka"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Firefox auvu ñemoneĩ jeykekoha"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -195,7 +195,7 @@ msgstr "Ijurujáma mokõi jeku’épe ñemoneĩ"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Firefox mba’ete mba’eñemi jeguerujeyrã"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -479,7 +479,7 @@ msgstr "Mba’e’oka mbohapeha ndoikóiva"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Mba’ete mba’eñemi jeguerujeyrã oĩ’ỹva"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
@@ -519,7 +519,7 @@ msgstr "Oñemboyke ñemboheko, ikatpupa eha’ãjey"
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "Ayvu ñemoneĩrã ndoikói térã hekoru’ãma"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -676,7 +676,7 @@ msgstr "Pe ayvu ñemoneĩ mokõi jeku’épe ndoikói"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Ayvu ñemoneĩrã jeykekoha jerurepyre"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid backup authentication code"
@@ -684,7 +684,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Mba’ete mba’eñemi jeguerujeyrã jerurepyre"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"

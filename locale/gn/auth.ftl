@@ -271,6 +271,11 @@ postConsumeRecoveryCode-title-2 = Reipurureína auvu ñemoneĩ jeykekoha
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Ojepuru amo:
 postConsumeRecoveryCode-action = Mba’ete ñangareko
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 auvu ñemoneĩ jeykekoha
+       *[other] Opyta { $numberRemaining } auvu ñemoneĩ jeykekoha
+    }
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Oñemoheñói amo:
 postNewRecoveryCodes-action = Mba’ete ñangareko
