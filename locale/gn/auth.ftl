@@ -75,7 +75,16 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Emboguejy { $p
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Emboguejy { $productName } { -app-store }"> rupive
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Emohenda { $productName } <a data-l10n-name="anotherDeviceLink">ambue mba’e’oka mesa ariguápe</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Emohenda { $productName } <a data-l10n-name="anotherDeviceLink">ambue mba’e’okápe</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Ereko { $productName } Google Play rupive:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Emboguejy { $productName } App Store guive:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Emohenda { $productName } ambue mba’e’okápe:
@@ -194,6 +203,10 @@ fraudulentAccountDeletion-contact = Eporanduséramo, eñe’ẽ ore <a data-l10n
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore aty pytyvõha ndive: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Ndereguerekovéima auvu ñemoneĩ jeykekoha
+codes-reminder-title-one = Reime pe auvu ñemoneĩ jeykeko pahávape
+codes-reminder-description-two-left = Opytántema mokõi ayvu.
 lowRecoveryCodes-action-2 = Emoheñói ayvu
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
