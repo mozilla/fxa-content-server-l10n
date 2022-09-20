@@ -424,6 +424,8 @@ tfa-button-cancel = Diddymu
 tfa-button-finish = Gorffen
 tfa-incorrect-totp = Cod dilysu dau gam annilys
 tfa-cannot-retrieve-code = Bu anhawster wrth adfer eich cod.
+tfa-cannot-verify-code-4 = Bu anhawster wrth gadarnhau eich cod dilysu wrth gefn
+tfa-incorrect-recovery-code-1 = Cod dilysu wrth gefn anghywir
 tfa-enabled = Mae dilysu dau gam wedi ei alluogi
 tfa-scan-this-code =
     Sganiwch y cod QR hwn gan ddefnyddio un o'r <linkExternal>
@@ -443,6 +445,15 @@ tfa-enter-secret-key = Rhowch yr allwedd gyfrinachol yma i'ch ap dilysu:
 tfa-enter-totp = Nawr nodwch y cod diogelwch o'r ap dilysu.
 tfa-input-enter-totp =
     .label = Rhowch y cod dilysu
+tfa-save-these-codes-1 =
+    Cadwch y codau defnydd unwaith hyn mewn man diogel pan nad yw eich dyfais
+    symudol gennych.
+tfa-enter-code-to-confirm-1 =
+    Rhowch un o'ch codau dilysu wrth gefn nawr i cadarnhau eich
+    bod wedi ei gadw. Bydd angen cod arnoch i fewngofnodi os nad oes gennych fynediad
+    i'ch dyfais symudol.
+tfa-enter-recovery-code-1 =
+    .label = Rhowch god dilysu wrth gefn
 
 ##
 
@@ -493,15 +504,23 @@ row-defaults-status = Dim
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Allwedd adfer cyfrif
 rk-enabled = Galluogwyd
 rk-not-set = Heb ei Osod
 rk-action-create = Creu
 rk-action-remove = Tynnu
+rk-cannot-refresh-1 = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer cyfrif
 rk-key-removed-2 = Tynnwyd yr allwedd adfer cyfrif
 rk-cannot-remove-key = Nid oedd modd dileu allwedd adfer eich cyfrif.
+rk-refresh-key-1 = Adnewyddu'r allwedd adfer cyfrif
 rk-content-explain = Adfer eich manylion pan fyddwch yn anghofio'ch cyfrinair.
 rk-content-reset-data = Pam mae ailosod fy nghyfrinair yn ailosod fy nata?
 rk-cannot-verify-session-4 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
+rk-remove-modal-heading-1 = Tynnu allwedd adfer cyfrif?
+rk-remove-modal-content-1 =
+    Os byddwch yn ailosod eich cyfrinair, ni fydd modd i chi
+    defnyddio'ch allwedd adfer cyfrif i gael mynediad i'ch data. Nid oes modd i chi ddadwneud y weithred hon.
+rk-refresh-error-1 = Ymddiheuriadau, bu anhawster wrth adnewyddu'r allwedd adfer cyfrif
 rk-remove-error-2 = Nid oedd modd dileu allwedd adfer eich cyfrif.
 
 ## Secondary email sub-section on main Settings page
@@ -535,6 +554,7 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Gwneud yn brif gyfrif
 se-default-content = Cael mynediad i'ch cyfrif os na allwch fewngofnodi i'ch prif e-bost.
+se-content-note-1 = Sylwch: Fydd eich ail e-bost ddim yn adfer eich manylion — byddwch angen <a>allwedd adfer cyfrif</a> ar gyfer hynny.
 # Default value for the secondary email
 se-secondary-email-none = Dim
 
@@ -558,7 +578,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
 tfa-row-disable-modal-heading = Analluogi dilysu dau ffactor?
 tfa-row-disable-modal-confirm = Analluogi
+tfa-row-disable-modal-explain-1 =
+    Fyddwch chi ddim yn gallu dadwneud y weithred hon.
+    Mae gennych hefyd y dewis o <linkExternal>greu codau adfer wrth gefn newydd</linkExternal>.
 tfa-row-cannot-disable-2 = Nid oedd modd analluogi dilysu dau gam.
+tfa-row-change-modal-heading-1 = Newid codau dilysu wrth gefn?
 tfa-row-change-modal-confirm = Newid
 tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
 

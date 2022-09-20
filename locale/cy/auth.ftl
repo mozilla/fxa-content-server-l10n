@@ -309,7 +309,7 @@ postConsumeRecoveryCode-subject-2 =
 postNewRecoveryCodes-subject-2 = Crëwyd codau dilysu wrth gefn newydd
 postNewRecoveryCodes-title-2 = Rydych wedi creu codau dilysu wrth gefn newydd
 # After the colon, there is information about the device that the authentication codes were created on
-postNewRecoveryCodes-description-2 = Cawsant eu creu ar:
+postNewRecoveryCodes-description-2 = Fe'u crëwyd ar:
 postNewRecoveryCodes-action = Rheoli cyfrif
 postRemoveAccountRecovery-subject-2 = Diëwyd yr allwedd adfer cyfrif.
 postRemoveAccountRecovery-title-2 = Rydych wedi dileu eich allwedd adfer cyfrif.
@@ -607,6 +607,7 @@ subscriptionUpgrade-upgrade-info = Rydych wedi symud o { $productNameOld } i { $
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = O'ch bil nesaf ymlaen, bydd eich taliad yn newid o { $paymentAmountOld } y { $productPaymentCycleOld } i { $paymentAmountNew } bob { $productPaymentCycleNew }. Bryd hynny, byddwn yn codi ffi am unwaith o { $paymentProrated } i adlewyrchu'r tâl uwch am weddill y { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Bydd ffi untro o { $paymentProrated } yn cael ei godi arnoch i adlewyrchu pris uwch eich tanysgrifiad am weddill y { $productPaymentCycleOld } hwn. Gan ddechrau gyda'ch bil nesaf, bydd eich tâl yn newid o { $paymentAmountOld } fesul { $productPaymentCycleOld } i { $paymentAmountNew } fesul { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio { $productName }, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr.
