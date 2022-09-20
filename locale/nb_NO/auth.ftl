@@ -303,6 +303,7 @@ postNewRecoveryCodes-title-2 = Du opprettet nye reserve-autentiseringskoder
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = De ble opprettet på:
 postNewRecoveryCodes-action = Behandle konto
+postRemoveAccountRecovery-subject-2 = Kontogjenopprettingsnøkkel slettet
 postRemoveAccountRecovery-action = Behandle konto
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
 postRemoveSecondary-title = Sekundær e-postadesse fjernet
