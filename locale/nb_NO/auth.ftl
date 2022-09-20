@@ -209,7 +209,7 @@ fraudulentAccountDeletion-content-2 = Foreløpig ser vi at kontoen aldri ble bek
 fraudulentAccountDeletion-contact = Hvis du har spørsmål, så kontakt <a data-l10n-name="mozillaSupportUrl">support-teamet</a> vårt.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-fraudulentAccountDeletion-contact-plaintext = Hvis du har spørsmål, så kontakt support-teamet vårt:
+fraudulentAccountDeletion-contact-plaintext = Hvis du har spørsmål, så kontakt support-teamet vårt: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Du er tom for reserve-autentiseringskoder!
 codes-reminder-title-one = Du har kun én reserve-autentiseringskode igjen
