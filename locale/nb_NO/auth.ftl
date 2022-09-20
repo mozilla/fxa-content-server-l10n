@@ -215,27 +215,93 @@ codes-reminder-title-zero = Du er tom for reserve-autentiseringskoder!
 codes-reminder-title-one = Du har kun én reserve-autentiseringskode igjen
 codes-reminder-title-two = På tide å lage flere sikkerhetskopiautentiseringskoder
 codes-reminder-description-part-one = Reserve-autentiseringskoder hjelper deg med å gjenopprette informasjonen din når du glemmer passordet ditt.
+codes-reminder-description-part-two = Opprett nye koder nå, slik at du ikke mister dine data senere.
+codes-reminder-description-two-left = Du har bare to koder igjen.
+codes-reminder-description-create-codes = Opprett nye reserve-autentiseringskoder for å hjelpe deg med å få tilgang til kontoen din hvis du blir låst ute.
+lowRecoveryCodes-action-2 = Opprett koder
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Ingen reserve-autentiseringskoder igjen
+        [one] Bare 1 reserve-autentiseringskode igjen
+       *[other] Bare { $numberRemaining } reserve-autentiseringskoder igjen!
+    }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Ny innlogging på { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Din { -product-firefox-account } ble brukt til å logge på
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Ikke deg? <a data-l10n-name="passwordChangeLink">Endre passordet ditt</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Ikke deg? Endre passordet ditt:
 newDeviceLogin-action = Behandle konto
 passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endret
+passwordChanged-description = Passordet for din { -product-firefox-account } ble endret fra følgende enhet:
 passwordChangeRequired-subject = Mistenkt aktivitet oppdaget
 passwordChangeRequired-title = Passordendring kreves
+passwordChangeRequired-suspicious-activity = Vi oppdaget mistenkelig oppførsel på din { -product-firefox-account }. For å forhindre uautorisert tilgang til din { -product-firefox-account }, har vi koblet fra alle enhetene på kontoen og krever at du endrer passordet ditt som en forholdsregel.
 passwordChangeRequired-sign-in = Logg deg tilbake på hvilken som helst enhet eller tjeneste der du bruker { -product-firefox-account }en din, og følg trinnene som vil bli presentert for deg.
 passwordChangeRequired-different-password = <b>Viktig:</b> Velg et annet passord enn det du tidligere brukte, og sørg for at det er et annet enn det du bruker på e-postkontoen din.
 passwordChangeRequired-signoff = Med vennlig hilsen
+passwordChangeRequired-signoff-name = { -product-firefox-accounts }-teamet
 passwordChangeRequired-different-password-plaintext = Viktig: Velg et annet passord enn det du tidligere brukte, og sørg for at det er et annet enn det du bruker på e-postkontoen din.
 passwordReset-subject = Passord oppdatert
 passwordReset-title = Kontopassordet ditt ble endret
 passwordReset-description = Du må skrive inn det nye passordet ditt på andre enheter for å fortsette synkroniseringen.
+passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
+passwordResetAccountRecovery-title-2 = Passordet er tilbakestilt
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Du brukte din kontogjenopprettingsnøkkel til å oppdatere passordet ditt fra:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Opprett en ny kontogjenopprettingsnøkkel
+passwordResetAccountRecovery-regen-required-mjml-1 = Du må logge på igjen på alle de synkroniserte enhetene dine. Husk å opprette en ny kontogjenopprettingsnøkkel for å erstatte den du brukte.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Du må logge på igjen på alle de synkroniserte enhetene dine. Husk å opprette en ny kontogjenopprettingsnøkkel for å erstatte den du brukte:
+postAddAccountRecovery-subject-2 = Kontogjenopprettingsnøkkel opprettet
+postAddAccountRecovery-title2 = Du opprettet en ny kontogjenopprettingsnøkkel
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = En ny nøkkel ble opprettet fra:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Ikke deg?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Slett den nye nøkkelen</a> og <a data-l10n-name="passwordChangeLink">endre passordet ditt</a>
 postAddAccountRecovery-action = Behandle konto
+postAddAccountRecovery-delete-key = Slett den nye nøkkelen:
+postAddAccountRecovery-changd-password = Endre passordet ditt:
+postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Din { $providerName }-konto er koblet til { -product-firefox-account } din
+postAddLinkedAccount-action = Behandle konto
 postAddTwoStepAuthentication-subject = Totrinns-verifisering aktivert
 postAddTwoStepAuthentication-title = Totrinns-verifisering aktivert
+postAddTwoStepAuthentication-description-plaintext = Du har aktivert totrinns-verifisering på din { -product-firefox-account }. Sikkerhetskoder fra autentiseringappen din vil nå kreves ved hver pålogging.
+postAddTwoStepAuthentication-description = Du har aktivert totrinns-verifisering på din { -product-firefox-account } fra følgende enhet:
 postAddTwoStepAuthentication-action = Behandle konto
 postAddTwoStepAuthentication-code-required = Sikkerhetskoder fra autentiseringappen din vil nå kreves ved hver pålogging.
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-post
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Du har endret den primære e-postadressen din til { $email }. Denne adressen benytter du som brukernavn for å logge inn på din { -product-firefox-account }, samt for å ta imot sikkerhetsvarsler og bekreftelser på innlogginger.
 postChangePrimary-action = Behandle konto
+postConsumeRecoveryCode-title-2 = Du brukte en reserve-autentiseringskode
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Den ble brukt på:
 postConsumeRecoveryCode-action = Behandle konto
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 reserve-autentiseringskode igjen
+       *[other] { $numberRemaining } reserve-autentiseringskoder igjen
+    }
+postNewRecoveryCodes-subject-2 = Nye reserve-autentiseringskoder opprettet
+postNewRecoveryCodes-title-2 = Du opprettet nye reserve-autentiseringskoder
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = De ble opprettet på:
 postNewRecoveryCodes-action = Behandle konto
 postRemoveAccountRecovery-action = Behandle konto
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
