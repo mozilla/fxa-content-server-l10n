@@ -253,6 +253,11 @@ passwordReset-title = Hesap parolanız değiştirildi
 passwordReset-description = Diğer cihazlarda eşitlemeye devam etmek için onlara da yeni parolanızı girmelisiniz.
 passwordResetAccountRecovery-subject-2 = Parolanız sıfırlandı
 passwordResetAccountRecovery-title-2 = Parola başarıyla sıfırlandı
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Şu cihazdan parolanızı güncellemek için hesap kurtarma anahtarınızı kullandınız:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Yeni hesap kurtarma anahtarı oluştur
+passwordResetAccountRecovery-regen-required-mjml-1 = Eşitlenen tüm cihazlarınızda tekrar oturum açmanız gerekecek. Hesap kurtarma anahtarınızı kullandıktan sonra yenisini oluşturmayı unutmayın.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Eşitlenen tüm cihazlarınızda tekrar oturum açmanız gerekecek. Hesap kurtarma anahtarınızı kullandıktan sonra yenisini oluşturmayı unutmayın:
 postAddAccountRecovery-subject-2 = Hesap kurtarma anahtarı oluşturuldu
@@ -584,6 +589,7 @@ confirm-account = Hesabı onaylayın
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Hesabınızı onaylamayı unutmayın
 verificationReminderFirst-title-2 = { -brand-firefox }’a hoş geldiniz!
+verificationReminderFirst-sub-description-3 = Sizi ve gizliliğinizi ilk sıraya koyan tarayıcıyı kaçırmayın.
 confirm-email-2 = Hesabı onaylayın
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Hesabı onaylayın

@@ -243,6 +243,9 @@ nav-email-comm = E-posta iletişimi
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Yedek kimlik doğrulama kodlarınız değiştirilirken bir sorun oluştu
+tfa-replace-code-success-1 = Yeni kodlar oluşturuldu. Bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın. Mobil cihazınıza ulaşamazsanız hesabınıza erişmek için bunlara ihtiyacınız olacak.
+tfa-replace-code-success-alert-3 = Hesap yedek kimlik doğrulama kodları güncellendi
 tfa-replace-code-1-2 = Adım 1/2
 tfa-replace-code-2-2 = Adım 2/2
 
@@ -357,10 +360,14 @@ display-name-success-alert-2 = Görünen ad güncellendi
 recovery-key-cancel-button = İptal
 recovery-key-close-button = Kapat
 recovery-key-continue-button = Devam et
+recovery-key-created-1 = Hesap kurtarma anahtarınız oluşturuldu. Anahtarı daha sonra kolayca bulabileceğiniz, güvenli bir yerde saklayın. Parolanızı unutursanız verilerinize yeniden ulaşmak için bu anahtara ihtiyacınız olacak.
 recovery-key-enter-password =
     .label = Parolanızı yazın
+recovery-key-page-title-1 =
+    .title = Hesap kurtarma anahtarı
 recovery-key-step-1 = Adım 1/2
 recovery-key-step-2 = Adım 2/2
+recovery-key-success-alert-3 = Hesap kurtarma anahtarı oluşturuldu
 
 ## Add secondary email page
 
@@ -408,6 +415,8 @@ tfa-button-cancel = İptal
 tfa-button-finish = Bitir
 tfa-incorrect-totp = Yanlış iki aşamalı doğrulama kodu
 tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
+tfa-cannot-verify-code-4 = Yedek kimlik doğrulama kodunuz onaylanırken bir sorun oluştu
+tfa-incorrect-recovery-code-1 = Yanlış yedek kimlik doğrulama kodu
 tfa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
 tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkExternal> birini kullanarak bu QR kodunu tarayın.
 # This is the image alt text for a QR code.
@@ -423,6 +432,9 @@ tfa-enter-secret-key = Bu anahtar kodunu kimlik doğrulama uygulamanıza yazın:
 tfa-enter-totp = Şimdi kimlik doğrulama uygulamasının verdiği güvenlik kodunu yazın.
 tfa-input-enter-totp =
     .label = Güvenlik kodunu yazın
+tfa-save-these-codes-1 = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın.
+tfa-enter-recovery-code-1 =
+    .label = Bir yedek kimlik doğrulama kodunu girin
 
 ##
 
@@ -473,15 +485,21 @@ row-defaults-status = Hiçbiri
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Hesap kurtarma anahtarı
 rk-enabled = Etkin
 rk-not-set = Ayarlanmamış
 rk-action-create = Oluştur
 rk-action-remove = Kaldır
+rk-cannot-refresh-1 = Hesap kurtarma anahtarı yenilenirken bir sorun oluştu.
 rk-key-removed-2 = Hesap kurtarma anahtarı silindi
 rk-cannot-remove-key = Hesap kurtarma anahtarınız silinemedi.
+rk-refresh-key-1 = Hesap kurtarma anahtarını yenile
 rk-content-explain = Parolanızı unutursanız bilgilerinizi geri yüklemenizi sağlar.
 rk-content-reset-data = Parolamı sıfırlayınca neden verilerim de sıfırlanıyor?
 rk-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
+rk-remove-modal-heading-1 = Hesap kurtarma anahtarı kaldırılsın mı?
+rk-remove-modal-content-1 = Parolanızı sıfırlarsanız verilerinize tekrar erişmek için hesap kurtarma anahtarınızı kullanamayacaksınız. Bu işlemi geri alamazsınız.
+rk-refresh-error-1 = Hesap kurtarma anahtarı yenilenirken bir sorun oluştu.
 rk-remove-error-2 = Hesap kurtarma anahtarınız kaldırılamadı
 
 ## Secondary email sub-section on main Settings page
@@ -513,6 +531,7 @@ se-resend-code-2 = Onay gerekiyor. Onay kodu gelen kutunuzda ve spam klasörün�
 # Button to make secondary email the primary
 se-make-primary = Birinci yap
 se-default-content = Birinci e-postanıza ulaşamasanız bile hesabınıza erişmenizi sağlar.
+se-content-note-1 = Not: İkinci e-postanızı kullandığınızda bilgileriniz geri yüklenmeyecektir. Bunun için <a>hesap kurtarma anahtarı</a> kullanmanız gerekiyor.
 # Default value for the secondary email
 se-secondary-email-none = Yok
 
@@ -536,7 +555,9 @@ tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod i
 tfa-row-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
+tfa-row-disable-modal-explain-1 = Bu işlemi geri alamazsınız. İsterseniz <linkExternal>yedek kimlik doğrulama kodlarınızı değiştirebilirisiniz</linkExternal>.
 tfa-row-cannot-disable-2 = İki aşamalı doğrulama devre dışı bırakılamadı
+tfa-row-change-modal-heading-1 = Yedek kimlik doğrulama kodları değiştirilsin mi?
 tfa-row-change-modal-confirm = Değiştir
 tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 
