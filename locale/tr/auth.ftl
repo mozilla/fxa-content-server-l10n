@@ -253,6 +253,8 @@ passwordReset-title = Hesap parolanız değiştirildi
 passwordReset-description = Diğer cihazlarda eşitlemeye devam etmek için onlara da yeni parolanızı girmelisiniz.
 passwordResetAccountRecovery-subject-2 = Parolanız sıfırlandı
 passwordResetAccountRecovery-title-2 = Parola başarıyla sıfırlandı
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Eşitlenen tüm cihazlarınızda tekrar oturum açmanız gerekecek. Hesap kurtarma anahtarınızı kullandıktan sonra yenisini oluşturmayı unutmayın:
 postAddAccountRecovery-subject-2 = Hesap kurtarma anahtarı oluşturuldu
 postAddAccountRecovery-title2 = Yeni bir hesap kurtarma anahtarı oluşturdunuz
 # Information on the browser and device triggering this string follows.
@@ -280,6 +282,9 @@ postChangePrimary-title = Yeni ana e-posta
 #  $email (String) - A user's email address
 postChangePrimary-description = Ana e-posta adresinizi { $email } olarak başarıyla değiştirdiniz. Bu adres artık { -product-firefox-account }nıza giriş için kullanıcı adınız olacak. Güvenlik bildirimleri ve giriş onayları da bu adresinize gönderilecek.
 postChangePrimary-action = Hesabı yönet
+postConsumeRecoveryCode-title-2 = Yedek kimlik doğrulama kodu kullandınız
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Kullanılan cihaz:
 postConsumeRecoveryCode-action = Hesabı yönet
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
@@ -311,6 +316,7 @@ postRemoveTwoStepAuthentication-action = Hesabı yönet
 postRemoveTwoStepAuthentication-not-required = Artık her girişte güvenlik kodları sorulmayacaktır.
 postVerify-sub-title-3 = Sizi gördüğümüze sevindik!
 postVerify-title-2 = Aynı sekmeyi iki cihazınızda da görmek ister misiniz?
+postVerify-description-2 = Çok kolay! Eşitlemeyi başlatmak için başka bir cihaza { -brand-firefox }’u yükleyip hesabınıza giriş yapmanız yeterli.
 postVerify-subject-3 = { -brand-firefox }’a hoş geldiniz!
 postVerify-setup-2 = Başka bir cihaz bağla:
 postVerify-action-2 = Başka bir cihaz bağla
@@ -322,6 +328,9 @@ postVerifySecondary-content-2 = { $secondaryEmail } adresini { -product-firefox-
 postVerifySecondary-action = Hesabı yönet
 recovery-subject = Parolanızı sıfırlayın
 recovery-title-2 = Parolanızı mı unuttunuz?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = { -product-firefox-account }nız için bu cihazdan bir parola değiştirme isteği aldık:
 recovery-new-password-button = Aşağıdaki düğmeye tıklayarak yeni bir parola oluşturun. Bu bağlantının kullanım süresi bir saat sonra bitecek.
 recovery-copy-paste = Aşağıdaki adresi kopyalayıp tarayıcınıza yapıştırarak yeni bir parola oluşturun. Bu bağlantının kullanım süresi bir saat sonra bitecek.
 recovery-action = Yeni parola oluştur

@@ -144,7 +144,7 @@ cs-sign-out-button = Çıkış yap
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = İndirildi
@@ -177,9 +177,11 @@ drop-down-menu-sign-out-error-2 = Üzgünüz, çıkış yapılırken bir sorun o
 
 flow-container-back = Geri dön
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Kurtarma kodları
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } hesap kurtarma anahtarı
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } yedek kimlik doğrulama kodları
 get-data-trio-download =
     .title = İndir
 get-data-trio-copy =
@@ -239,11 +241,8 @@ nav-data-collection = Veri toplanması ve kullanımı
 nav-paid-subs = Ücretli abonelikler
 nav-email-comm = E-posta iletişimi
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Kurtarma kodlarınız değiştirilirken bir sorun oluştu
-tfa-replace-code-success = Yeni kodlar oluşturuldu. Bu tek kullanımlık kodları güvenli bir yerde saklayın. Mobil cihazınıza ulaşamassanız hesabınıza erişmek için bunlara ihtiyacınız olacak.
-tfa-replace-code-success-alert-2 = Hesap kurtarma kodları güncellendi
 tfa-replace-code-1-2 = Adım 1/2
 tfa-replace-code-2-2 = Adım 2/2
 
@@ -353,19 +352,15 @@ display-name-success-alert-2 = Görünen ad güncellendi
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = İptal
 recovery-key-close-button = Kapat
 recovery-key-continue-button = Devam et
-recovery-key-created = Kurtarma anahtarınız oluşturuldu. Anahtarı daha sonra kolayca bulabileceğiniz, güvenli bir yerde saklayın. Parolanızı unutursanız verilerinize yeniden ulaşmak için bu anahtara ihtiyacınız olacak.
 recovery-key-enter-password =
     .label = Parolanızı yazın
-recovery-key-page-title =
-    .title = Kurtarma anahtarı
 recovery-key-step-1 = Adım 1/2
 recovery-key-step-2 = Adım 2/2
-recovery-key-success-alert-2 = Kurtarma anahtarı oluşturuldu
 
 ## Add secondary email page
 
@@ -413,8 +408,6 @@ tfa-button-cancel = İptal
 tfa-button-finish = Bitir
 tfa-incorrect-totp = Yanlış iki aşamalı doğrulama kodu
 tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
-tfa-cannot-verify-code-3 = Kurtarma kodunuz onaylanırken bir sorun oluştu
-tfa-incorrect-recovery-code = Yanlış kurtarma kodu
 tfa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
 tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkExternal> birini kullanarak bu QR kodunu tarayın.
 # This is the image alt text for a QR code.
@@ -430,10 +423,6 @@ tfa-enter-secret-key = Bu anahtar kodunu kimlik doğrulama uygulamanıza yazın:
 tfa-enter-totp = Şimdi kimlik doğrulama uygulamasının verdiği güvenlik kodunu yazın.
 tfa-input-enter-totp =
     .label = Güvenlik kodunu yazın
-tfa-save-these-codes = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık kodları güvenli bir yerde saklayın.
-tfa-enter-code-to-confirm = Kurtarma kodlarını kaydettiğinizi doğrulamak için şimdi lütfen bu kodlardan birini yazın. Cihazınızı kaybederseniz hesabınıza ulaşmak için bu kodlara ihtiyacınız olacak.
-tfa-enter-recovery-code =
-    .label = Bir kurtarma kodu yazın
 
 ##
 
@@ -482,23 +471,17 @@ row-defaults-action-change = Değiştir
 row-defaults-action-disable = Devre dışı bırak
 row-defaults-status = Hiçbiri
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Kurtarma anahtarı
 rk-enabled = Etkin
 rk-not-set = Ayarlanmamış
 rk-action-create = Oluştur
 rk-action-remove = Kaldır
-rk-cannot-refresh = Üzgünüz, kurtarma anahtarı yenilenirken bir sorun oluştu.
 rk-key-removed-2 = Hesap kurtarma anahtarı silindi
 rk-cannot-remove-key = Hesap kurtarma anahtarınız silinemedi.
-rk-refresh-key = Kurtarma anahtarını yenile
 rk-content-explain = Parolanızı unutursanız bilgilerinizi geri yüklemenizi sağlar.
 rk-content-reset-data = Parolamı sıfırlayınca neden verilerim de sıfırlanıyor?
 rk-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
-rk-remove-modal-heading = Kurtarma anahtarı kaldırılsın mı?
-rk-remove-modal-content = Parolanızı sıfırlarsanız verilerinize tekrar erişmek için kurtarma anahtarınızı kullanamayacaksınız. Bu işlemi geri alamazsınız.
-rk-refresh-error = Üzgünüz, kurtarma anahtarı yenilenirken bir sorun oluştu.
 rk-remove-error-2 = Hesap kurtarma anahtarınız kaldırılamadı
 
 ## Secondary email sub-section on main Settings page
@@ -530,7 +513,6 @@ se-resend-code-2 = Onay gerekiyor. Onay kodu gelen kutunuzda ve spam klasörün�
 # Button to make secondary email the primary
 se-make-primary = Birinci yap
 se-default-content = Birinci e-postanıza ulaşamasanız bile hesabınıza erişmenizi sağlar.
-se-content-note = Not: İkinci e-postanızı kullandığınızda bilgileriniz geri yüklenmeyecektir. Bunun için <a>kurtarma anahtarı</a> kullanmanız gerekiyor.
 # Default value for the secondary email
 se-secondary-email-none = Yok
 
@@ -554,9 +536,7 @@ tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod i
 tfa-row-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
-tfa-row-disable-modal-explain = Bu işlemi geri alamazsınız. İsterseniz <linkExternal>kurtarma kodlarınızı değiştirebilirisiniz</linkExternal>.
 tfa-row-cannot-disable-2 = İki aşamalı doğrulama devre dışı bırakılamadı
-tfa-row-change-modal-heading = Kurtarma kodları değiştirilsin mi?
 tfa-row-change-modal-confirm = Değiştir
 tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
 
