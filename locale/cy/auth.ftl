@@ -73,14 +73,15 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Llwytho { $pro
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Llwytho { $productName }  i lawr o { -app-store }">
-another-desktop-device = Neu, ei osod ar <a data-l10n-name="anotherDeviceLink">ddyfais bwrdd gwaith arall</a>.
-another-device = Neu, ei osod ar <a data-l10n-name="anotherDeviceLink">ddyfais arall</a>.
-automated-email-change =
-    Mae hwn yn e-bost awtomatig; os na wnaethoch chi awdurdodi'r weithred hon, yna <a data-l10n-name="passwordChangeLink"> newidiwch eich cyfrinair </a>.
-    Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cymorth { -brand-mozilla }</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Mae hwn yn e-bost awtomatig; os nad oeddech wedi ychwanegu dyfais newydd i'ch { -product-firefox-account }, dylech newid eich cyfrinair yn syth yn { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Gosod { $productName } ar <a data-l10n-name="anotherDeviceLink">ddyfais bwrdd gwaith arall</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Neu, ei osod ar <a data-l10n-name="anotherDeviceLink">ddyfais arall</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Cael { $productName } ar Google Play:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Cefnogaeth { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Mae hwn yn e-bost awtomataidd. Os gwnaethoch ei dderbyn trwy gamgymeriad, nid oes angen i chi wneud dim.
@@ -244,13 +245,6 @@ passwordChangeRequired-different-password-plaintext = Pwysig: Dewiswch gyfrinair
 passwordReset-subject = Diweddarwyd y cyfrinair
 passwordReset-title = Mae cyfrinair eich cyfrif wedi newid
 passwordReset-description = Bydd angen i chi roi eich cyfrinair newydd ar ddyfeisiau eraill i barhau eu cydweddu.
-passwordResetAccountRecovery-subject-1 = Diweddarwyd y cyfrinair gan ddefnyddio'r allwedd adfer
-passwordResetAccountRecovery-title-1 = Cafodd cyfrinair eich cyfrif ei ailosod gydag allwedd adfer cyfrif
-passwordResetAccountRecovery-description-1 = Rydych wedi ailosod eich cyfrinair yn llwyddiannus gan ddefnyddio allwedd adfer cyfrif o'r ddyfais ganlynol:
-passwordResetAccountRecovery-action-1 = Crëuwch allwedd adfer newydd
-passwordResetAccountRecovery-regen-required-1 = Bydd angen i chi gynhyrchu allwedd adfer cyfrif newydd.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = Crëuwch allwedd adfer newydd:
 postAddAccountRecovery-subject-2 = Crëwyd yr allwedd adfer cyfrif.
 postAddAccountRecovery-title2 = Rydych chi wedi creu allwedd adfer cyfrif newydd
 # Information on the browser and device triggering this string follows.
@@ -278,19 +272,9 @@ postChangePrimary-title = Prif e-bost newydd
 #  $email (String) - A user's email address
 postChangePrimary-description = Rydych wedi newid eich prif e-bost i { $email }. Y cyfeiriad hwn yw eich enw defnyddiwr ar gyfer mewngofnodi i'ch { -product-firefox-account }, yn ogystal â derbyn eich hysbysiadau diogelwch a chadarnhau
 postChangePrimary-action = Rheoli cyfrif
-postConsumeRecoveryCode-subject-1 = Defnyddiwyd cod dilysu wrth gefn
-postConsumeRecoveryCode-title-1 = Defnyddiwyd cod dilysu wrth gefn
-postConsumeRecoveryCode-description-1 = Rydych wedi defnyddio cod adfer yn llwyddiannus o'r ddyfais ganlynol:
 postConsumeRecoveryCode-action = Rheoli cyfrif
-postNewRecoveryCodes-subject-1 = Cynhyrchwyd codau dilysu wrth gefn newydd
-postNewRecoveryCodes-title-1 = Cynhyrchwyd codau dilysu wrth gefn newydd
-postNewRecoveryCodes-description-1 = Rydych wedi creu cod adfer newydd yn llwyddiannus o'r ddyfais ganlynol:
 postNewRecoveryCodes-action = Rheoli cyfrif
-postRemoveAccountRecovery-subject = Tynnwyd yr allwedd adfer cyfrif
-postRemoveAccountRecovery-title = Tynnwyd yr allwedd adfer cyfrif
-postRemoveAccountRecovery-description = Rydych wedi cynhyrchu allwedd adfer ar gyfer eich { -product-firefox-account }, yn llwyddiannus, gan ddefnyddio'r ddyfais ganlynol:
 postRemoveAccountRecovery-action = Rheoli cyfrif
-postRemoveAccountRecovery-invalid-1 = Nid oes modd defnyddio’r allwedd adfer cyfrif hwn bellach i adfer eich cyfrif.
 postRemoveSecondary-subject = Tynnwyd yr ail e-bost
 postRemoveSecondary-title = Tynnwyd yr ail e-bost
 # Variables:
