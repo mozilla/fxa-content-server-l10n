@@ -75,7 +75,7 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Last ned { $pr
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Last ned { $productName }  i { -app-store }">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-another-desktop-device-2 = Installer på <a data-l10n-name="anotherDeviceLink">en annen stasjonær enhet</a>.
+another-desktop-device-2 = Installer { $productName } på <a data-l10n-name="anotherDeviceLink">en annen stasjonær enhet</a>.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-2 = Installer { $productName } på <a data-l10n-name="anotherDeviceLink">en annen enhet</a>.
