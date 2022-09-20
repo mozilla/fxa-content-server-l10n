@@ -193,6 +193,28 @@ cadReminderSecond-subject-2 = Ikke gå glipp av det! La oss fullføre synkronise
 cadReminderSecond-action = Synkroniser en annen enhet
 cadReminderSecond-title-2 = Ikke glem å synkronisere!
 cadReminderSecond-description-sync = Synkroniser dine bokmerker, passord, åpene faner og mer — overalt hvor du bruker { -brand-firefox }.
+cadReminderSecond-description-plus = I tillegg er dine data alltid kryptert. Bare du og enheter du godkjenner kan se den.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Velkommen til { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Velkommen til { $productName }
+downloadSubscription-content-2 = La oss komme i gang med å bruke alle funksjonene som er inkludert i abonnementet ditt:
+downloadSubscription-link-action-2 = Kom i gang
+fraudulentAccountDeletion-subject = Din { -product-firefox-account } ble slettet
+fraudulentAccountDeletion-title = Kontoen din ble slettet
+fraudulentAccountDeletion-content = Nylig ble en { -product-firefox-account } opprettet og et abonnement ble belastet med denne e-postadressen. Som vi gjør med alle nye kontoer, ba vi deg bekrefte kontoen din ved først å validere denne e-postadressen.
+fraudulentAccountDeletion-content-2 = Foreløpig ser vi at kontoen aldri ble bekreftet. Siden dette trinnet ikke ble fullført, er vi ikke sikre på om dette var et autorisert abonnement. Som et resultat ble { -product-firefox-account } registrert på denne e-postadressen slettet og abonnementet ditt ble kansellert med alle kostnader refundert.
+fraudulentAccountDeletion-contact = Hvis du har spørsmål, så kontakt <a data-l10n-name="mozillaSupportUrl">support-teamet</a> vårt.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Hvis du har spørsmål, så kontakt support-teamet vårt:
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Du er tom for reserve-autentiseringskoder!
+codes-reminder-title-one = Du har kun én reserve-autentiseringskode igjen
+codes-reminder-title-two = På tide å lage flere sikkerhetskopiautentiseringskoder
+codes-reminder-description-part-one = Reserve-autentiseringskoder hjelper deg med å gjenopprette informasjonen din når du glemmer passordet ditt.
 newDeviceLogin-action = Behandle konto
 passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endret
