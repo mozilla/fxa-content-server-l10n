@@ -187,7 +187,12 @@ cadReminderFirst-action = Synkroniser en annen enhet
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Det skal to til for å synkronisere
+cadReminderFirst-description-1 = Se dine faner på alle dine enheter. Få bokmerker, passord og de andre dataene dine overalt hvor du bruker { -brand-firefox }. Det er som å ha magi i din { -brand-firefox }-konto!
+cadReminderFirst-description-2 = Det tar bare et sekund å synkronisere.
+cadReminderSecond-subject-2 = Ikke gå glipp av det! La oss fullføre synkroniseringsoppsettet
 cadReminderSecond-action = Synkroniser en annen enhet
+cadReminderSecond-title-2 = Ikke glem å synkronisere!
+cadReminderSecond-description-sync = Synkroniser dine bokmerker, passord, åpene faner og mer — overalt hvor du bruker { -brand-firefox }.
 newDeviceLogin-action = Behandle konto
 passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endret
