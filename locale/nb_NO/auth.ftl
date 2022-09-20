@@ -304,6 +304,7 @@ postNewRecoveryCodes-title-2 = Du opprettet nye reserve-autentiseringskoder
 postNewRecoveryCodes-description-2 = De ble opprettet på:
 postNewRecoveryCodes-action = Behandle konto
 postRemoveAccountRecovery-subject-2 = Kontogjenopprettingsnøkkel slettet
+postRemoveAccountRecovery-title-2 = Du slettet din kontogjenopprettingsnøkkel.
 postRemoveAccountRecovery-action = Behandle konto
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
 postRemoveSecondary-title = Sekundær e-postadesse fjernet
