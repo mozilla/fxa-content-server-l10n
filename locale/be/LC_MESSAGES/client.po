@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-21 17:19+0000\n"
+"PO-Revision-Date: 2022-09-21 17:26+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1189,7 +1189,7 @@ msgstr "Зарэгістравацца або ўвайсці"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Уліковы запіс Firefox таксама адкрывае доступ да іншых прадуктаў Mozilla, якія абараняюць прыватнасць."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1342,7 +1342,7 @@ msgstr "Ваш уліковы запіс гатовы!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Стварыць новы ключ аднаўлення ўліковага запісу"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1487,7 +1487,7 @@ msgstr "Увядзіце код аўтарызацыі"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Усталюйце пароль"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1600,7 +1600,7 @@ msgstr "Крок 1 з 2: Паўторна ўвядзіце пароль"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Увядзіце свой пароль, каб пабачыць ключ аднаўлення ўліковага запісу."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1612,7 +1612,7 @@ msgstr "Паспяхова падключана"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Калі ласка, закрыйце гэтую старонку і працягвайце на іншай прыладзе."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
@@ -1827,7 +1827,7 @@ msgstr "<span class=\"number\">4</span>Увайдзіце ў свой уліко
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Абараніце свае звесткі з дапамогай ключа аднаўлення ўліковага запісу"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1839,7 +1839,7 @@ msgstr "Паколькі гэта інфармацыя крытычна важн
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "Атрымаць ключ аднаўлення ўліковага запісу"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
