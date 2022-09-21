@@ -256,6 +256,7 @@ tfa-replace-code-success-1 =
     Nya koder har skapats. Spara dessa autentiseringskoder
     för engångsbruk på ett säkert ställe — du behöver dem för att komma åt
     ditt konto om du inte har din mobila enhet.
+tfa-replace-code-success-alert-3 = Autentiseringskoder för konto har uppdaterats
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
 
@@ -425,6 +426,8 @@ tfa-button-cancel = Avbryt
 tfa-button-finish = Slutför
 tfa-incorrect-totp = Felaktig tvåstegsautentiseringskod
 tfa-cannot-retrieve-code = Det gick inte att hämta din kod.
+tfa-cannot-verify-code-4 = Det uppstod ett problem med att bekräfta din autentiseringskod
+tfa-incorrect-recovery-code-1 = Felaktig autentiseringskod
 tfa-enabled = Tvåstegsautentisering aktiverad
 tfa-scan-this-code =
     Skanna den här QR-koden med en av dessa
@@ -444,6 +447,13 @@ tfa-enter-secret-key = Ange den här hemliga nyckeln i din autentiseringsapp:
 tfa-enter-totp = Ange nu säkerhetskoden från autentiseringsappen.
 tfa-input-enter-totp =
     .label = Ange säkerhetskod
+tfa-save-these-codes-1 =
+    Spara dessa autentiseringskoder för engångsbruk på en säker plats
+    när du inte har din mobila enhet.
+tfa-enter-code-to-confirm-1 =
+    Ange en av dina autentiseringskoder nu för att bekräfta
+    att du har sparat den. Du behöver en kod för att logga in om
+    du inte har tillgång till din mobila enhet.
 tfa-enter-recovery-code-1 =
     .label = Ange en autentiseringskod
 
