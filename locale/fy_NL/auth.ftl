@@ -293,8 +293,22 @@ postConsumeRecoveryCode-title-2 = Jo hawwe in reserve-autentikaasjekoade brûkt
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Dizze is brûkt op:
 postConsumeRecoveryCode-action = Account beheare
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Noch 1 reserve-autentikaasjekoade oer
+       *[other] Noch { $numberRemaining } reserve-autentikaasjekoaden oer
+    }
+postNewRecoveryCodes-subject-2 = Nije reserve-autentikaasjekoaden oanmakke
+postNewRecoveryCodes-title-2 = Jo hawwe nije reserve-autentikaasjekoaden oanmakke
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Se binne oanmakke op:
 postNewRecoveryCodes-action = Account beheare
+postRemoveAccountRecovery-subject-2 = Kaai foar accountwerstel fuortsmiten
+postRemoveAccountRecovery-title-2 = Jo hawwe jo kaai foar accountwerstel fuortsmiten.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Dizze is fuortsmiten fanôf:
 postRemoveAccountRecovery-action = Account beheare
+postRemoveAccountRecovery-invalid-2 = Jo hawwe in accountwerstelkaai nedich om jo { -brand-firefox }-gegevens werom te heljen as jo jo wachtwurd ferjitten binne.
 postRemoveSecondary-subject = Sekundêr e-mailadres fuortsmiten
 postRemoveSecondary-title = Sekundêr e-mailadres fuortsmiten
 # Variables:
@@ -585,6 +599,7 @@ subscriptionUpgrade-upgrade-info = Jo binne mei sukses oerskeakele fan { $produc
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Fan jo folgjende faktuer ôf wizigje jo kosten fan { $paymentAmountOld } yn ’e { $productPaymentCycleOld } nei { $paymentAmountNew } yn ’e { $productPaymentCycleNew }. Der wurdt jo dan ek ienmalich in bedrach fan { $paymentProrated } yn rekkening brocht ta gefolch fan de hegere kosten foar de rest fan dizze { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Der wurdt in ienmalige fergoeding fan { $paymentProrated } yn rekkening brocht om de hegere priis fan jo abonnemint wer te jaan foar de rest fan dizze { $productPaymentCycleOld }. Fan jo folgjende faktuer ôf wiziget jo betelling fan { $paymentAmountOld } yn de { $productPaymentCycleOld } nei { $paymentAmountNew } yn de { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = As jo nije software ynstallearje moatte om { $productName } brûke te kinnen, dan ûntfange jo in ôfsûnderlik e-mailbericht mei downloadynstruksjes.
@@ -604,6 +619,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Unthâld om jo account te befêstigjen
 verificationReminderFirst-title-2 = Wolkom by { -brand-firefox }!
 verificationReminderFirst-description-2 = In pear dagen lyn hawwe jo in { -product-firefox-account } oanmakke, mar hawwe it nea befêstige. Befêstigje jo account binnen de folgjende 15 dagen, oars sil it automatysk fuortsmiten wurde.
+verificationReminderFirst-sub-description-3 = Mis de browser dy’t jo en jo privacy op de earste plak set net.
 confirm-email-2 = Account befêstigje
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Account befêstigje
