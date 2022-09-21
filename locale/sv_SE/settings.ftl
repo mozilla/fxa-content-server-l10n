@@ -189,6 +189,7 @@ flow-container-back = Tillbaka
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } kontoåterställningsnyckel
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } autentiseringskoder
 get-data-trio-download =
     .title = Hämta
 get-data-trio-copy =
@@ -250,6 +251,11 @@ nav-email-comm = E-postkommunikation
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Det uppstod ett problem med att ersätta dina autentiseringskoder
+tfa-replace-code-success-1 =
+    Nya koder har skapats. Spara dessa autentiseringskoder
+    för engångsbruk på ett säkert ställe — du behöver dem för att komma åt
+    ditt konto om du inte har din mobila enhet.
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
 
@@ -438,6 +444,8 @@ tfa-enter-secret-key = Ange den här hemliga nyckeln i din autentiseringsapp:
 tfa-enter-totp = Ange nu säkerhetskoden från autentiseringsappen.
 tfa-input-enter-totp =
     .label = Ange säkerhetskod
+tfa-enter-recovery-code-1 =
+    .label = Ange en autentiseringskod
 
 ##
 
@@ -566,7 +574,9 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
+tfa-row-disable-modal-explain-1 = Du kommer inte att kunna ångra den här åtgärden. Du har också möjlighet att <linkExternal>byta ut dina autentiseringskoder</linkExternal>.
 tfa-row-cannot-disable-2 = Tvåstegsautentisering kunde inte inaktiveras
+tfa-row-change-modal-heading-1 = Ändra autentiseringskoder?
 tfa-row-change-modal-confirm = Ändra
 tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 

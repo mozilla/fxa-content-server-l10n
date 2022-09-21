@@ -210,10 +210,22 @@ fraudulentAccountDeletion-contact = Om du har några frågor, kontakta vårt <a 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Om du har några frågor, vänligen kontakta vårt supportteam: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Du har slut på autentiseringskoder!
+codes-reminder-title-one = Du är på din sista autentiseringskod
+codes-reminder-title-two = Dags att skapa fler autentiseringskoder
+codes-reminder-description-part-one = Autentiseringskoder hjälper dig att återställa din information när du glömmer ditt lösenord.
 codes-reminder-description-part-two = Skapa nya koder nu så att du inte förlorar din data senare.
 codes-reminder-description-two-left = Du har endast två koder kvar.
+codes-reminder-description-create-codes = Skapa nya autentiseringskoder för att hjälpa dig komma tillbaka till ditt konto om du är utelåst.
 lowRecoveryCodes-action-2 = Skapa koder
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Inga autentiseringskoder kvar
+        [one] Endast 1 autentiseringskod kvar
+       *[other] Endast { $numberRemaining } autentiseringskoder kvar!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning till { $clientName }
@@ -247,6 +259,9 @@ passwordResetAccountRecovery-title-2 = Lösenordet har återställts
 passwordResetAccountRecovery-description-2 = Du använde din kontoåterställningsnyckel för att uppdatera ditt lösenord från:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Skapa en ny kontoåterställningsnyckel
+passwordResetAccountRecovery-regen-required-mjml-1 = Du måste logga in igen på alla dina synkroniserade enheter. Kom ihåg att skapa en ny kontoåterställningsnyckel för att ersätta den du använde.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Du måste logga in igen på alla dina synkroniserade enheter. Kom ihåg att skapa en ny kontoåterställningsnyckel för att ersätta den du använde:
 postAddAccountRecovery-subject-2 = Kontoåterställningsnyckel skapad
 postAddAccountRecovery-title2 = Du skapade en ny kontoåterställningsnyckel
 # Information on the browser and device triggering this string follows.
@@ -274,9 +289,19 @@ postChangePrimary-title = Ny primär e-post
 #  $email (String) - A user's email address
 postChangePrimary-description = Du har lyckats ändra din primära e-postadress till { $email }. Den här adressen är nu ditt användarnamn för att logga in på ditt { -product-firefox-account }, samt för att ta emot säkerhetsmeddelanden och inloggningsbekräftelser.
 postChangePrimary-action = Hantera konto
+postConsumeRecoveryCode-title-2 = Du använde en autentiseringskod
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Den användes på:
 postConsumeRecoveryCode-action = Hantera konto
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 autentiseringskod kvar
+       *[other] { $numberRemaining } autentiseringskoder kvar
+    }
+postNewRecoveryCodes-subject-2 = Nya autentiseringskoder har skapats
+postNewRecoveryCodes-title-2 = Du skapade nya autentiseringskoder
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = De skapades på:
 postNewRecoveryCodes-action = Hantera konto
 postRemoveAccountRecovery-subject-2 = Nyckel för kontoåterställning har tagits bort
 postRemoveAccountRecovery-title-2 = Du raderade din kontoåterställningsnyckel.
