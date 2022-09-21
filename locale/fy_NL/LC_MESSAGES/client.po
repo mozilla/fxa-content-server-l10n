@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-21 11:11+0000\n"
+"PO-Revision-Date: 2022-09-21 11:20+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Frisian <LL@li.org>\n"
 "Language: fy_NL\n"
@@ -1232,11 +1232,11 @@ msgstr "Reserve-autentikaasjekoade befêstigje"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Fier yn gefal fan in ferlern apparaat ien fan jo bewarre reserve-autetikaasjekoaden yn, om derfoar te soargjen dat jo wer tagong krije kinne ta jo account."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Reserve-autentikaasjekoade"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1346,7 +1346,7 @@ msgstr "Jo account is ree!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "In nije accountwerstelkaai oanmeitsje"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1440,15 +1440,15 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Fier reserve-autentikaasjekoade yn"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Fier in reserve-autentikaasjekoade yn dy’t oan jo levere is wylst it ynstellen fan autentikaasje yn twa stappen."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Fier in 10-siferich reserve-autentikaasjekoade yn"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1616,7 +1616,7 @@ msgstr "Stap 1 fan 2: wachtwurd opnij ynfiere"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Fier jo wachtwurd yn om jo accountwerstelkaai te besjen."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1845,7 +1845,7 @@ msgstr "<span class=\"number\">4</span>Meld jo oan by jo account"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Beskermje jo gegevens mei in accountwerstelkaai"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1859,19 +1859,19 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "In accountwerstelkaai krije"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "Befêstigje jo wachtwurd foar %(escapedEmail)s om jo accountwerstelkaai oan te meitsjen."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Fier jo accountwerstelkaai yn om te befêstigjen dat jo in kopy bewarre hawwe."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "Accountwerstelkaai bewarje"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -2025,19 +2025,19 @@ msgstr "It ynstelproses is ôfbrutsen."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "Firefox ferbine op in oar apparaat"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "Firefox syngronisearje op jo telefoan of tablet"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "Hawwe jo al Firefox op in telefoan of tablet?"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "Jo apparaat syngronisearje"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
