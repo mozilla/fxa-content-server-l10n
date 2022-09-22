@@ -81,14 +81,12 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Télécharger 
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Télécharger { $productName } sur l’{ -app-store }">
-another-desktop-device = Ou, l’installer sur <a data-l10n-name="anotherDeviceLink">un autre ordinateur de bureau</a>.
-another-device = Ou, l’installer sur <a data-l10n-name="anotherDeviceLink">un autre appareil</a>.
-automated-email-change =
-    Il s’agit d’un courrier électronique automatisé ; si vous n’avez pas autorisé cette action, <a data-l10n-name="passwordChangeLink">veuillez changer de mot de passe</a>.
-    Pour plus d’informations, veuillez consulter <a data-l10n-name="supportLink">l’assistance de { -brand-mozilla }</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Ceci est un message automatique ; si vous n’avez pas ajouté de nouvel appareil à votre { -product-firefox-account }, vous devriez changer votre mot de passe immédiatement depuis { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Installer { $productName } sur <a data-l10n-name="anotherDeviceLink">un autre ordinateur de bureau</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Installer { $productName } sur <a data-l10n-name="anotherDeviceLink">un autre appareil</a>.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Pour davantage d’informations, veuillez consulter <a data-l10n-name="supportLink">l’assistance de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Ceci est un e-mail automatique. Si vous l’avez reçu par erreur, vous n’avez rien à faire.
@@ -263,9 +261,6 @@ postChangePrimary-description = Votre adresse électronique principale est déso
 postChangePrimary-action = Gérer le compte
 postConsumeRecoveryCode-action = Gérer le compte
 postNewRecoveryCodes-action = Gérer le compte
-postRemoveAccountRecovery-subject = La clé de récupération a été supprimée
-postRemoveAccountRecovery-title = La clé de récupération a été supprimée
-postRemoveAccountRecovery-description = Vous avez supprimé une clé de récupération de votre { -product-firefox-account } en utilisant l’appareil suivant :
 postRemoveAccountRecovery-action = Gérer le compte
 postRemoveSecondary-subject = L’adresse électronique secondaire a été supprimée
 postRemoveSecondary-title = L’adresse électronique secondaire a été supprimée

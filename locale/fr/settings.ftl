@@ -444,6 +444,8 @@ tfa-input-enter-totp =
 tfa-save-these-codes-1 =
     Conservez ces codes d’authentification de secours à usage unique dans un endroit sûr pour quand
     vous n’avez pas votre appareil mobile.
+tfa-enter-recovery-code-1 =
+    .label = Saisissez un code d’authentification de secours
 
 ##
 
@@ -499,11 +501,16 @@ rk-enabled = Activée
 rk-not-set = Non définie
 rk-action-create = Créer
 rk-action-remove = Supprimer
+rk-cannot-refresh-1 = Un problème est survenu lors de l’actualisation de la clé de récupération du compte.
 rk-key-removed-2 = La clé de récupération a été supprimée
 rk-cannot-remove-key = La clé de récupération de votre compte n’a pas pu être supprimée.
+rk-refresh-key-1 = Actualiser la clé de récupération du compte
 rk-content-explain = Restauration de vos informations lorsque vous oubliez votre mot de passe.
 rk-content-reset-data = Pourquoi la réinitialisation de mon mot de passe réinitialise-t-elle aussi mes données ?
 rk-cannot-verify-session-4 = Un problème est survenu lors de la confirmation de votre session
+rk-remove-modal-heading-1 = Supprimer la clé de récupération du compte ?
+rk-remove-modal-content-1 = Si vous réinitialisez votre mot de passe, vous ne pourrez plus utiliser la clé de récupération de votre compte pour accéder à vos données. Cette action est irréversible.
+rk-refresh-error-1 = Un problème est survenu lors de l’actualisation de la clé de récupération du compte.
 rk-remove-error-2 = La clé de récupération de votre compte n’a pas pu être supprimée
 
 ## Secondary email sub-section on main Settings page
@@ -537,6 +544,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = En faire l’adresse principale
 se-default-content = Accédez à votre compte si vous ne pouvez pas vous connecter à votre messagerie principale.
+se-content-note-1 =
+    Remarque : une adresse secondaire ne permettra pas de restaurer vos informations — vous
+    aurez besoin d’une <a>clé de récupération du compte</a> pour cela.
 # Default value for the secondary email
 se-secondary-email-none = Aucune
 
@@ -558,7 +568,11 @@ tfa-row-content-explain = Empêche quelqu’un d’autre de se connecter en exig
 tfa-row-cannot-verify-session-4 = Un problème est survenu lors de la confirmation de votre session
 tfa-row-disable-modal-heading = Désactiver l’authentification en deux étapes ?
 tfa-row-disable-modal-confirm = Désactiver
+tfa-row-disable-modal-explain-1 =
+    Vous ne pourrez pas annuler cette action. Vous avez également
+    la possibilité de <linkExternal>remplacer vos code d’authentification de secours</linkExternal>.
 tfa-row-cannot-disable-2 = L’authentification en deux étapes n’a pas pu être désactivée
+tfa-row-change-modal-heading-1 = Changer les code d’authentification de secours ?
 tfa-row-change-modal-confirm = Changer
 tfa-row-change-modal-explain = Vous ne pourrez pas annuler cette action.
 
