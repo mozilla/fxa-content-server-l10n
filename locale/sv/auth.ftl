@@ -73,14 +73,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Hämta { $prod
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Hämta { $productName } i { -app-store }">
-another-desktop-device = Eller installera på <a data-l10n-name="anotherDeviceLink">en annan stationär enhet</a>.
-another-device = Eller installera på <a data-l10n-name="anotherDeviceLink">annan enhet</a>.
-automated-email-change =
-    Detta är ett automatiskt e-postmeddelande; om du inte godkände den här åtgärden <a data-l10n-name="passwordChangeLink">ändra ditt lösenord</a>.
-    För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Detta är ett automatiskt e-postmeddelande; om du inte har lagt till en ny enhet i ditt { -product-firefox-account } bör du ändra ditt lösenord omedelbart på { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Installera { $productName } på <a data-l10n-name="anotherDeviceLink">en annan stationär enhet</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Installera { $productName } på <a data-l10n-name="anotherDeviceLink">en annan enhet</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Skaffa { $productName } på Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Ladda ner { $productName } i App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Installera { $productName } på en annan enhet:
+automated-email-change-2 = Om du inte vidtog den här åtgärden, <a data-l10n-name="passwordChangeLink">ändra ditt lösenord</a> direkt.
+automated-email-support = För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Om du inte vidtog den här åtgärden, ändra ditt lösenord direkt:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = För mer information, besök { -brand-mozilla } Support:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = Detta är ett automatiskt e-postmeddelande. Om du fick det av misstag behöver du inte göra någonting.
@@ -197,9 +210,22 @@ fraudulentAccountDeletion-contact = Om du har några frågor, kontakta vårt <a 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Om du har några frågor, vänligen kontakta vårt supportteam: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Du har slut på autentiseringskoder!
+codes-reminder-title-one = Du är på din sista autentiseringskod
+codes-reminder-title-two = Dags att skapa fler autentiseringskoder
+codes-reminder-description-part-one = Autentiseringskoder hjälper dig att återställa din information när du glömmer ditt lösenord.
+codes-reminder-description-part-two = Skapa nya koder nu så att du inte förlorar din data senare.
 codes-reminder-description-two-left = Du har endast två koder kvar.
+codes-reminder-description-create-codes = Skapa nya autentiseringskoder för att hjälpa dig komma tillbaka till ditt konto om du är utelåst.
 lowRecoveryCodes-action-2 = Skapa koder
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Inga autentiseringskoder kvar
+        [one] Endast 1 autentiseringskod kvar
+       *[other] Endast { $numberRemaining } autentiseringskoder kvar!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning till { $clientName }
@@ -227,6 +253,15 @@ passwordChangeRequired-different-password-plaintext = Viktigt: Välj ett annat l
 passwordReset-subject = Lösenord uppdaterat
 passwordReset-title = Ditt lösenord till kontot ändrades
 passwordReset-description = Du måste ange ditt nya lösenord på andra enheter för att återuppta synkroniseringen.
+passwordResetAccountRecovery-subject-2 = Ditt lösenord har återställts
+passwordResetAccountRecovery-title-2 = Lösenordet har återställts
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Du använde din kontoåterställningsnyckel för att uppdatera ditt lösenord från:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Skapa en ny kontoåterställningsnyckel
+passwordResetAccountRecovery-regen-required-mjml-1 = Du måste logga in igen på alla dina synkroniserade enheter. Kom ihåg att skapa en ny kontoåterställningsnyckel för att ersätta den du använde.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Du måste logga in igen på alla dina synkroniserade enheter. Kom ihåg att skapa en ny kontoåterställningsnyckel för att ersätta den du använde:
 postAddAccountRecovery-subject-2 = Kontoåterställningsnyckel skapad
 postAddAccountRecovery-title2 = Du skapade en ny kontoåterställningsnyckel
 # Information on the browser and device triggering this string follows.
@@ -254,12 +289,26 @@ postChangePrimary-title = Ny primär e-post
 #  $email (String) - A user's email address
 postChangePrimary-description = Du har lyckats ändra din primära e-postadress till { $email }. Den här adressen är nu ditt användarnamn för att logga in på ditt { -product-firefox-account }, samt för att ta emot säkerhetsmeddelanden och inloggningsbekräftelser.
 postChangePrimary-action = Hantera konto
+postConsumeRecoveryCode-title-2 = Du använde en autentiseringskod
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Den användes på:
 postConsumeRecoveryCode-action = Hantera konto
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 autentiseringskod kvar
+       *[other] { $numberRemaining } autentiseringskoder kvar
+    }
+postNewRecoveryCodes-subject-2 = Nya autentiseringskoder har skapats
+postNewRecoveryCodes-title-2 = Du skapade nya autentiseringskoder
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = De skapades på:
 postNewRecoveryCodes-action = Hantera konto
-postRemoveAccountRecovery-subject = Kontoåterställningsnyckeln borttagen
-postRemoveAccountRecovery-title = Kontoåterställningsnyckeln borttagen
-postRemoveAccountRecovery-description = Du har tagit bort en kontoåterställningsnyckel för ditt { -product-firefox-account } med följande enhet:
+postRemoveAccountRecovery-subject-2 = Nyckel för kontoåterställning har tagits bort
+postRemoveAccountRecovery-title-2 = Du raderade din kontoåterställningsnyckel.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Den raderades från:
 postRemoveAccountRecovery-action = Hantera konto
+postRemoveAccountRecovery-invalid-2 = Du behöver en kontoåterställningsnyckel för att återställa dina { -brand-firefox }-data om du glömmer ditt lösenord.
 postRemoveSecondary-subject = Sekundär e-postadress borttagen
 postRemoveSecondary-title = Sekundär e-postadress borttagen
 # Variables:
@@ -550,6 +599,7 @@ subscriptionUpgrade-upgrade-info = Du har uppgraderat från { $productNameOld } 
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Från och med din nästa faktura kommer din debitering att ändras från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }. Då kommer du också att debiteras en engångsavgift på { $paymentProrated } för att återspegla den högre avgiften för återstoden av denna { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Du kommer att debiteras en engångsavgift på { $paymentProrated } för att återspegla ditt abonnemangs högre pris för resten av denna { $productPaymentCycleOld }. Från och med din nästa faktura kommer din debitering att ändras från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Om det finns ny programvara för dig att installera för att använda { $productName } kommer du att få ett separat e-postmeddelande med nedladdningsinstruktioner.
@@ -569,6 +619,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Kom ihåg att bekräfta ditt konto
 verificationReminderFirst-title-2 = Välkommen till { -brand-firefox }!
 verificationReminderFirst-description-2 = För några dagar sedan skapade du ett { -product-firefox-account }, men bekräftade det aldrig. Bekräfta ditt konto inom de närmaste 15 dagarna, annars kommer det att raderas automatiskt.
+verificationReminderFirst-sub-description-3 = Missa inte webbläsaren som sätter dig och din integritet främst.
 confirm-email-2 = Bekräfta konto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Bekräfta konto

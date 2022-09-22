@@ -189,6 +189,7 @@ flow-container-back = Tillbaka
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } kontoåterställningsnyckel
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } autentiseringskoder
 get-data-trio-download =
     .title = Hämta
 get-data-trio-copy =
@@ -250,6 +251,12 @@ nav-email-comm = E-postkommunikation
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Det uppstod ett problem med att ersätta dina autentiseringskoder
+tfa-replace-code-success-1 =
+    Nya koder har skapats. Spara dessa autentiseringskoder
+    för engångsbruk på ett säkert ställe — du behöver dem för att komma åt
+    ditt konto om du inte har din mobila enhet.
+tfa-replace-code-success-alert-3 = Autentiseringskoder för konto har uppdaterats
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
 
@@ -367,8 +374,11 @@ recovery-key-continue-button = Fortsätt
 recovery-key-created-1 = Din kontoåterställningsnyckel har skapats. Se till att spara nyckeln på ett säkert ställe som du lätt kan hitta senare — du behöver nyckeln för att återfå åtkomst till dina data om du glömmer ditt lösenord.
 recovery-key-enter-password =
     .label = Ange lösenord
+recovery-key-page-title-1 =
+    .title = Nyckel för kontoåterställning
 recovery-key-step-1 = Steg 1 av 2
 recovery-key-step-2 = Steg 2 av 2
+recovery-key-success-alert-3 = Kontoåterställningsnyckel skapad
 
 ## Add secondary email page
 
@@ -416,6 +426,8 @@ tfa-button-cancel = Avbryt
 tfa-button-finish = Slutför
 tfa-incorrect-totp = Felaktig tvåstegsautentiseringskod
 tfa-cannot-retrieve-code = Det gick inte att hämta din kod.
+tfa-cannot-verify-code-4 = Det uppstod ett problem med att bekräfta din autentiseringskod
+tfa-incorrect-recovery-code-1 = Felaktig autentiseringskod
 tfa-enabled = Tvåstegsautentisering aktiverad
 tfa-scan-this-code =
     Skanna den här QR-koden med en av dessa
@@ -435,6 +447,15 @@ tfa-enter-secret-key = Ange den här hemliga nyckeln i din autentiseringsapp:
 tfa-enter-totp = Ange nu säkerhetskoden från autentiseringsappen.
 tfa-input-enter-totp =
     .label = Ange säkerhetskod
+tfa-save-these-codes-1 =
+    Spara dessa autentiseringskoder för engångsbruk på en säker plats
+    när du inte har din mobila enhet.
+tfa-enter-code-to-confirm-1 =
+    Ange en av dina autentiseringskoder nu för att bekräfta
+    att du har sparat den. Du behöver en kod för att logga in om
+    du inte har tillgång till din mobila enhet.
+tfa-enter-recovery-code-1 =
+    .label = Ange en autentiseringskod
 
 ##
 
@@ -485,15 +506,23 @@ row-defaults-status = Ingen
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Nyckel för kontoåterställning
 rk-enabled = Aktivera
 rk-not-set = Inte inställd
 rk-action-create = Skapa
 rk-action-remove = Ta bort
+rk-cannot-refresh-1 = Det gick tyvärr inte att uppdatera nyckeln för kontoåterställning.
 rk-key-removed-2 = Nyckeln för kontoåterställning har tagits bort
 rk-cannot-remove-key = Din kontoåterställningsnyckel kunde inte tas bort.
+rk-refresh-key-1 = Uppdatera nyckel för kontoåterställning
 rk-content-explain = Återställ din information när du glömmer lösenordet.
 rk-content-reset-data = Varför återställs mina data när jag återställer mitt lösenord?
 rk-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
+rk-remove-modal-heading-1 = Ta bort nyckel för kontoåterställning?
+rk-remove-modal-content-1 =
+    Om du återställer ditt lösenord kommer du inte att kunna använda
+    din kontoåterställningsnyckel för att komma åt dina data. Du kan inte ångra den här åtgärden.
+rk-refresh-error-1 = Det gick tyvärr inte att uppdatera nyckeln för kontoåterställning.
 rk-remove-error-2 = Din kontoåterställningsnyckel kunde inte tas bort
 
 ## Secondary email sub-section on main Settings page
@@ -527,6 +556,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Gör primär
 se-default-content = Få åtkomst till ditt konto om du inte kan logga in med din primära e-postadress.
+se-content-note-1 =
+    Obs! En sekundär e-postadress kommer inte att återställa din information — du behöver
+    en <a>kontoåterställningsnyckel</a> för det.
 # Default value for the secondary email
 se-secondary-email-none = Ingen
 
@@ -552,7 +584,9 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
 tfa-row-disable-modal-heading = Inaktivera tvåstegsautentisering?
 tfa-row-disable-modal-confirm = Inaktivera
+tfa-row-disable-modal-explain-1 = Du kommer inte att kunna ångra den här åtgärden. Du har också möjlighet att <linkExternal>byta ut dina autentiseringskoder</linkExternal>.
 tfa-row-cannot-disable-2 = Tvåstegsautentisering kunde inte inaktiveras
+tfa-row-change-modal-heading-1 = Ändra autentiseringskoder?
 tfa-row-change-modal-confirm = Ändra
 tfa-row-change-modal-explain = Du kan inte ångra den här åtgärden.
 
