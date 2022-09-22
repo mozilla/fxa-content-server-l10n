@@ -257,6 +257,13 @@ passwordReset-title = Se cambió la contraseña de tu cuenta
 passwordReset-description = Tienes que introducir la nueva contraseña en tus otros dispositivos para reanudar la sincronización.
 passwordResetAccountRecovery-subject-2 = Tu contraseña ha sido restablecida
 passwordResetAccountRecovery-title-2 = Contraseña restablecida exitosamente
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Usaste la clave de recuperación de tu cuenta para actualizar tu contraseña desde:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Crear una nueva clave de recuperación de cuenta
+passwordResetAccountRecovery-regen-required-mjml-1 = Tendrás que volver a iniciar sesión en todos tus dispositivos sincronizados. Recuerda crear una nueva clave de recuperación de cuenta para reemplazar la que usaste.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Tendrás que volver a iniciar sesión en todos tus dispositivos sincronizados. Recuerda crear una nueva clave de recuperación de cuenta para reemplazar la que usaste.
 postAddAccountRecovery-subject-2 = Clave de recuperación de la cuenta creada
 postAddAccountRecovery-title2 = Creaste una nueva clave de recuperación de la cuenta
 # Information on the browser and device triggering this string follows.
@@ -284,11 +291,26 @@ postChangePrimary-title = Nuevo correo electrónico principal
 #  $email (String) - A user's email address
 postChangePrimary-description = Has cambiado exitosamente tu correo principal a { $email }. Este correo es ahora tu nombre de usuario para iniciar sesión en tu { -product-firefox-account }, así como para recibir notificaciones de seguridad y confirmaciones de inicio de sesión.
 postChangePrimary-action = Administrar cuenta
+postConsumeRecoveryCode-title-2 = Usaste un código de autenticación de respaldo
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Fue utilizado en:
 postConsumeRecoveryCode-action = Administrar cuenta
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Queda 1 código de autenticación de respaldo
+       *[other] Quedan { $numberRemaining } códigos de autenticación de respaldo
+    }
+postNewRecoveryCodes-subject-2 = Nuevos códigos de autenticación de respaldo creados
+postNewRecoveryCodes-title-2 = Has creado nuevos códigos de autenticación de respaldo
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Fueron creados en:
 postNewRecoveryCodes-action = Administrar cuenta
+postRemoveAccountRecovery-subject-2 = Clave de recuperación de cuenta eliminada
+postRemoveAccountRecovery-title-2 = Borraste la clave de recuperación de tu cuenta.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Fue borrado desde:
 postRemoveAccountRecovery-action = Administrar cuenta
+postRemoveAccountRecovery-invalid-2 = Necesitas una clave de recuperación de cuenta para recuperar tus datos de { -brand-firefox } por si olvidas tu contraseña.
 postRemoveSecondary-subject = Correo secundario eliminado
 postRemoveSecondary-title = Correo secundario eliminado
 # Variables:
@@ -579,6 +601,7 @@ subscriptionUpgrade-upgrade-info = Has actualizado correctamente de { $productNa
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = A partir de tu próxima factura, tu cargo cambiará de { $paymentAmountOld } por { $productPaymentCycleOld } a { $paymentAmountNew } por { $productPaymentCycleNew }. En ese momento, también se te cobrará una cuota única de { $paymentProrated } para reflejar el cargo más alto por el resto de este { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Se te cobrará una tarifa única de { $paymentProrated } para reflejar el precio más alto de tu suscripción por el resto de este { $productPaymentCycleOld }. A partir de tu próxima factura tu cargo cambiará de { $paymentAmountOld } por { $productPaymentCycleOld } a { $paymentAmountNew } por { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Si hay un nuevo software que debes instalar para usar { $productName }, recibirás un correo electrónico por separado con instrucciones de descarga.
@@ -598,6 +621,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Recuerda confirmar tu cuenta
 verificationReminderFirst-title-2 = ¡Te damos la bienvenida a { -brand-firefox }!
 verificationReminderFirst-description-2 = Hace algunos días creaste una { -product-firefox-account }, pero nunca la confirmaste. Por favor, confirma tu cuenta en los próximos 15 días o se eliminará automáticamente.
+verificationReminderFirst-sub-description-3 = No te pierdas el navegador que pone a tu privacidad y a ti en primer lugar.
 confirm-email-2 = Confirmar cuenta
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar cuenta
