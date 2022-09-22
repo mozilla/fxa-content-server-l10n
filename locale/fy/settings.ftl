@@ -152,7 +152,7 @@ cs-sign-out-button = Ofmelde
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Download
@@ -185,9 +185,11 @@ drop-down-menu-sign-out-error-2 = Sorry, der is in probleem bard by it ôfmelden
 
 flow-container-back = Tebek
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Werstelkoaden
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox }-accountwerstelkaai
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox }-reserve-autentikaasjekoaden
 get-data-trio-download =
     .title = Downloade
 get-data-trio-copy =
@@ -247,14 +249,14 @@ nav-data-collection = Gegevenssamling en gebrûk
 nav-paid-subs = Betelle abonneminten
 nav-email-comm = E-mailkommunikaasje
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Der is in probleem bard by it ferfangen fan jo werstelkoaden
-tfa-replace-code-success =
-    Der binne nije koaden oanmakke. Bewarje dizze koaden foar ien kear gebrûk
+tfa-replace-code-error-3 = Der is in probleem bard by it ferfangen fan jo reserve-autentikaasjekoaden
+tfa-replace-code-success-1 =
+    Der binne nije koaden oanmakke. Bewarje dizze reserve-autentikaasjekoaden foar ien kear gebrûk
     op in feilich plak – jo hawwe se nedich om tagong te krijen ta jo account as jo jo
     mobile apparaat net hawwe.
-tfa-replace-code-success-alert-2 = Accountwerstel bywurke
+tfa-replace-code-success-alert-3 = Accountreserve-autentikaasjekoaden bywurke
 tfa-replace-code-1-2 = Stap 1 fan 2
 tfa-replace-code-2-2 = Stap 2 fan 2
 
@@ -364,19 +366,19 @@ display-name-success-alert-2 = Skermnamme bywurke
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Annulearje
 recovery-key-close-button = Slute
 recovery-key-continue-button = Trochgean
-recovery-key-created = Jo werstelkaai is oanmakke. Soargje derfoar dat jo de kaai op in feilich plak dy’t jo letter maklik fine kinne bewarje – jo hawwe de kaai nedich om opnij tagong ta jo gegevens te krijen as jo jo wachtwurd ferjitte.
+recovery-key-created-1 = Jo accountwerstelkaai is oanmakke. Soargje derfoar dat jo de kaai op in feilich plak dy’t jo letter maklik fine kinne bewarje – jo hawwe de kaai nedich om opnij tagong ta jo gegevens te krijen as jo jo wachtwurd ferjitte.
 recovery-key-enter-password =
     .label = Fier wachtwurd yn
-recovery-key-page-title =
-    .title = Werstelkaai
+recovery-key-page-title-1 =
+    .title = Accountwerstelkaai
 recovery-key-step-1 = Stap 1 fan 2
 recovery-key-step-2 = Stap 2 fan 2
-recovery-key-success-alert-2 = Werstelkaai oanmakke
+recovery-key-success-alert-3 = Kaai foar accountwerstel oanmakke
 
 ## Add secondary email page
 
@@ -424,8 +426,8 @@ tfa-button-cancel = Annulearje
 tfa-button-finish = Foltôgje
 tfa-incorrect-totp = Unjildige koade foar autentikaasje yn twa stappen
 tfa-cannot-retrieve-code = Der is in probleem bard by it opheljen fan jo koade.
-tfa-cannot-verify-code-3 = Der is in probleem bard by it befêstigjen fan jo werstelkoade
-tfa-incorrect-recovery-code = Unjildige werstelkoade
+tfa-cannot-verify-code-4 = Der is in probleem bard by it befêstigjen fan jo reserve-autentikaasjekoade
+tfa-incorrect-recovery-code-1 = Ferkearde reserve-autentikaasjekoade
 tfa-enabled = Autentikaasje yn twa stappen ynskeakele
 tfa-scan-this-code =
     Scan dizze QR-koade mei ien fan <linkExternal>dizze 
@@ -445,15 +447,15 @@ tfa-enter-secret-key = Fier dizze geheime kaai yn yn jo app foar autentikaasje:
 tfa-enter-totp = Fier no de befeiligingskoade fan de ferifikaasje-app yn.
 tfa-input-enter-totp =
     .label = Fier befeiligingskoade yn
-tfa-save-these-codes =
-    Bewarje dizze koaden foar ienmalich gebrûk op in feilich plak foar as
+tfa-save-these-codes-1 =
+    Bewarje dizze reserve-autentikaasjekoaden foar ienmalich gebrûk op in feilich plak foar as
     jo jo mobile apparaat net hawwe.
-tfa-enter-code-to-confirm =
-    Fier no ien fan jo werstelkoaden yn om te
-    befêstigjen dat jo dizze bewarre hawwe. Jo hawwe ien koade nedich as jo jo apparaat kwytreitsje en tagong
-    ta jo account krije wolle.
-tfa-enter-recovery-code =
-    .label = Fier in werstelkoade yn
+tfa-enter-code-to-confirm-1 =
+    Fier no ien fan jo reserve-autentikaasjekoaden yn om te befêstigjen dat jo dizze bewarre
+    hawwe. Jo hawwe in koade nedich om oan te melden as jo gjin tagong
+    hawwe ta jo mobile apparaat.
+tfa-enter-recovery-code-1 =
+    .label = Fier in reserve-autentikaasjekoade yn
 
 ##
 
@@ -502,25 +504,25 @@ row-defaults-action-change = Wizigje
 row-defaults-action-disable = Utskeakelje
 row-defaults-status = Gjin
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Werstelkaai
+rk-header-1 = Accountwerstelkaai
 rk-enabled = Ynskeakele
 rk-not-set = Net ynsteld
 rk-action-create = Oanmeitsje
 rk-action-remove = Fuortsmite
-rk-cannot-refresh = Sorry, der is in probleem bard by it fernijen fan de werstelkaai.
+rk-cannot-refresh-1 = Sorry, der is in probleem bard by it fernijen fan de accountwerstelkaai.
 rk-key-removed-2 = Kaai foar accountwerstel fuortsmiten
 rk-cannot-remove-key = Jo kaai foar accountwerstel koe net fuortsmiten wurde.
-rk-refresh-key = Werstelkaai fernije
+rk-refresh-key-1 = Accountwerstelkaai fernije
 rk-content-explain = Jo gegevens werstelle wannear’t jo jo wachtwurd ferjitte.
 rk-content-reset-data = Wêrom wurde myn gegevens opnij ynsteld as ik myn wachtwurd opnij inisjalisearje?
 rk-cannot-verify-session-4 = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
-rk-remove-modal-heading = Werstelkaai fuortsmite?
-rk-remove-modal-content =
-    As jo jo wachtwurd opnij inisjalisearje, kinne jo jo
-    werstelkaai net brûke om tagong te krijen ta jo gegevens. Jo kinne dizze aksje net ûngedien meitsje.
-rk-refresh-error = Sorry, der is in probleem bard by it fernijen fan de werstelkaai.
+rk-remove-modal-heading-1 = Accountwerstelkaai fuortsmite?
+rk-remove-modal-content-1 =
+    As jo jo wachtwurd opnij inisjalisearje, kinne jo jo accountwerstelkaai net brûke
+    om tagong te krijen ta jo gegevens. Jo kinne dizze aksje net ûngedien meitsje.
+rk-refresh-error-1 = Sorry, der is in probleem bard by it fernijen fan de accountwerstelkaai.
 rk-remove-error-2 = Jo kaai foar accountwerstel koe net fuortsmiten wurde
 
 ## Secondary email sub-section on main Settings page
@@ -554,9 +556,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Primêr meitsje
 se-default-content = Tagong ta jo account as jo net oanmelde kinne op jo primêre e-mailadres.
-se-content-note =
+se-content-note-1 =
     Noat: in sekundêr e-mailadres werstelt jo gegevens net – dêrfoar
-    hawwe jo in <a>werstelkaai</a> nedich.
+    hawwe jo in <a>accountwerstelkaai</a> nedich.
 # Default value for the secondary email
 se-secondary-email-none = Gjin
 
@@ -582,11 +584,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
 tfa-row-disable-modal-heading = Autentikaasje yn twa stappen útskeakelje?
 tfa-row-disable-modal-confirm = Utskeakelje
-tfa-row-disable-modal-explain =
+tfa-row-disable-modal-explain-1 =
     Jo kinne dizze aksje net ûngedien meitsje. Jo hawwe ek
-    de opsje <linkExternal>jo werstelkoaden te ferfangen</linkExternal>.
+    de opsje <linkExternal>jo reserve-accountwerstelkoaden te ferfangen</linkExternal>.
 tfa-row-cannot-disable-2 = Autentikaasje yn twa stappen koe net útskeakele wurde
-tfa-row-change-modal-heading = Werstelkoaden wizigje?
+tfa-row-change-modal-heading-1 = Reserve-autentikaasjekoaden wizigje?
 tfa-row-change-modal-confirm = Wizigje
 tfa-row-change-modal-explain = Jo kinne dizze aksje net ûngedien meitsje.
 
