@@ -81,11 +81,19 @@ another-desktop-device-2 = Instalar { $productName } en <a data-l10n-name="anoth
 another-device-2 = Instalar { $productName } en <a data-l10n-name="anotherDeviceLink">otro dispositivo</a>.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Consigue { $productName } en Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 ios-download-plaintext = Descarga { $productName } en la App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Instala { $productName } en otro dispositivo:
 automated-email-change-2 = Si no realizaste esta acción, <a data-l10n-name="passwordChangeLink">cambia tu contraseña</a> de inmediato.
+automated-email-support = Para obtener más información, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Soporte</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Si no realizaste esta acción, cambia tu contraseña de inmediato:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Para obtener más información, visita { -brand-mozilla } Soporte:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para más información, visita <a data-l10n-name="supportLink">Ayuda de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este es un correo automático. Si lo estás recibiendo por error, no necesitas hacer nada.
@@ -204,8 +212,22 @@ fraudulentAccountDeletion-contact = Si tienes preguntas, por favor contacta a nu
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tienes preguntas, por favor contacta a nuestro equipo de soporte: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = ¡Te has quedado sin códigos de autenticación de respaldo!
+codes-reminder-title-one = Estás en tu último código de autenticación de respaldo
+codes-reminder-title-two = Es hora de crear más códigos de autenticación de respaldo
+codes-reminder-description-part-one = Los códigos de autenticación de respaldo te ayudan a restaurar tu información cuando olvidas tu contraseña.
+codes-reminder-description-part-two = Crea nuevos códigos ahora para no perder tus datos más adelante.
+codes-reminder-description-two-left = Solo te quedan dos códigos.
+codes-reminder-description-create-codes = Crea nuevos códigos de autenticación de respaldo para ayudarte a volver a ingresar a tu cuenta si está bloqueada.
 lowRecoveryCodes-action-2 = Crear códigos
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] No quedan códigos de autenticación de respaldo
+        [one] Solo queda 1 código de autenticación de respaldo
+       *[other] ¡Solo quedan { $numberRemaining } códigos de autenticación de respaldo!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nuevo inicio de sesión en { $clientName }
