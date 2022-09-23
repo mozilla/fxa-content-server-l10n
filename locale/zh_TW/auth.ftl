@@ -256,9 +256,22 @@ postChangePrimary-title = 新增主要電子郵件地址
 #  $email (String) - A user's email address
 postChangePrimary-description = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 { -product-firefox-account }，也會在這個信箱中收到安全性通知、登入確認信等等。
 postChangePrimary-action = 管理帳號
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = 使用於：
 postConsumeRecoveryCode-action = 管理帳號
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+       *[other] 剩下 { $numberRemaining } 組備用驗證碼
+    }
+postNewRecoveryCodes-subject-2 = 已產生新的備用驗證碼
+postNewRecoveryCodes-title-2 = 您已產生新的備用驗證碼
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = 建立自：
 postNewRecoveryCodes-action = 管理帳號
 postRemoveAccountRecovery-subject-2 = 已刪除帳號救援金鑰
+postRemoveAccountRecovery-title-2 = 您已刪除帳號救援金鑰。
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = 刪除自：
 postRemoveAccountRecovery-action = 管理帳號
 postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = 已移除次要電子郵件地址
