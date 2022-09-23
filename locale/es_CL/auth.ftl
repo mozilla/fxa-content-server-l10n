@@ -88,6 +88,12 @@ ios-download-plaintext = Descarga { $productName } en la App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Instala { $productName } en otro dispositivo:
+automated-email-change-2 = Si no realizaste esta acción, <a data-l10n-name="passwordChangeLink">cambia tu contraseña</a> de inmediato.
+automated-email-support = Para obtener más información, visita el <a data-l10n-name="supportLink">Soporte de { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Si no realizaste esta acción, cambia tu contraseña de inmediato:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Para obtener más información, visita el Soporte de { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para más información, visita el <a data-l10n-name="supportLink">Soporte de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este es un correo electrónico automatizado. Si lo recibiste por error, no necesitas hacer nada.
@@ -204,9 +210,22 @@ fraudulentAccountDeletion-contact = Si tienes preguntas, por favor contacta a nu
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tienes preguntas, por favor contacta a nuestro equipo de soporte: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = ¡Te has quedado sin códigos de autenticación de respaldo!
+codes-reminder-title-one = Estás en tu último código de autenticación de respaldo
+codes-reminder-title-two = Es momento de crear más códigos de autenticación de respaldo
+codes-reminder-description-part-one = Los códigos de autenticación de respaldo te ayudan a restaurar tu información cuando olvidas tu contraseña.
+codes-reminder-description-part-two = Crea nuevos códigos ahora para que en un futuro no pierdas tus datos.
 codes-reminder-description-two-left = Solo te quedan dos códigos.
+codes-reminder-description-create-codes = Crea nuevos códigos de autenticación de respaldo para ayudarte a recuperar tu cuenta si pierdes el acceso.
 lowRecoveryCodes-action-2 = Crear códigos
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] ¡No quedan códigos de autenticación de respaldo!
+        [one] ¡Solo queda 1 código de autenticación de respaldo!
+       *[other] ¡Solo quedan { $numberRemaining } códigos de autenticación de respaldo!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nueva conexión de { $clientName }
@@ -234,6 +253,15 @@ passwordChangeRequired-different-password-plaintext = Importante: Elige una cont
 passwordReset-subject = Contraseña actualizada
 passwordReset-title = La contraseña de tu cuenta ha cambiado
 passwordReset-description = Deberás ingresar tu nueva contraseña en los otros dispositivos para seguir sincronizando.
+passwordResetAccountRecovery-subject-2 = Tu contraseña ha sido restablecida
+passwordResetAccountRecovery-title-2 = Contraseña restablecida exitosamente
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Usaste la clave de recuperación de tu cuenta para actualizar tu contraseña desde:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Crear una nueva clave de recuperación de cuenta
+passwordResetAccountRecovery-regen-required-mjml-1 = Tendrás que volver a conectarte en todos tus dispositivos sincronizados. Recuerda crear una nueva clave de recuperación de cuenta para reemplazar la que usaste.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Tendrás que volver a conectarte en todos tus dispositivos sincronizados. Recuerda crear una nueva clave de recuperación de cuenta para reemplazar la que usaste:
 postAddAccountRecovery-subject-2 = Clave de recuperación de cuenta creada
 postAddAccountRecovery-title2 = Has creado una nueva clave de recuperación de cuenta
 # Information on the browser and device triggering this string follows.
@@ -261,9 +289,26 @@ postChangePrimary-title = Nuevo correo primario
 #  $email (String) - A user's email address
 postChangePrimary-description = Has cambiado exitosamente tu correo primario a { $email }. Este correo es ahora tu nombre de usuario para conectarte a tu { -product-firefox-account }, así como para recibir notificaciones de seguridad y
 postChangePrimary-action = Administrar cuenta
+postConsumeRecoveryCode-title-2 = Usaste un código de autenticación de respaldo
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Fue usado en:
 postConsumeRecoveryCode-action = Administrar cuenta
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 código de autenticación de respaldo restante
+       *[other] { $numberRemaining } códigos de autenticación de respaldo restantes
+    }
+postNewRecoveryCodes-subject-2 = Nuevos códigos de autenticación de respaldo creados
+postNewRecoveryCodes-title-2 = Haz creado nuevos códigos de autenticación de respaldo
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Fueron creados en:
 postNewRecoveryCodes-action = Administrar cuenta
+postRemoveAccountRecovery-subject-2 = Clave de recuperación de cuenta eliminada
+postRemoveAccountRecovery-title-2 = Has eliminado tu clave de recuperación de cuenta
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Fue eliminada de:
 postRemoveAccountRecovery-action = Administrar cuenta
+postRemoveAccountRecovery-invalid-2 = Necesitas una clave de recuperación de cuenta para recuperar tus datos de { -brand-firefox } si olvidas tu contraseña.
 postRemoveSecondary-subject = Correo secundario eliminado
 postRemoveSecondary-title = Correo secundario eliminado
 # Variables:
@@ -573,6 +618,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Recuerda confirmar tu cuenta
 verificationReminderFirst-title-2 = ¡Te damos la bienvenida a { -brand-firefox }!
 verificationReminderFirst-description-2 = Hace unos días creaste una { -product-firefox-account }, pero nunca la confirmaste. Confirma tu cuenta dentro de los próximos 15 días o será eliminada automáticamente.
+verificationReminderFirst-sub-description-3 = No te pierdas el navegador que te pone a ti y a tu privacidad en primer lugar.
 confirm-email-2 = Confirmar cuenta
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar cuenta
