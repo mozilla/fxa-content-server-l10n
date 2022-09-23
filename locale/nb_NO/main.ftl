@@ -355,14 +355,18 @@ coupon-discount = Rabatt
 coupon-discount-applied = Rabatt brukt
 coupon-submit = Bruk
 coupon-remove = Fjern
+coupon-enter-code =
+    .placeholder = Skriv inn kode
 
 ## Payment processing
 
+payment-processing-message = Vent mens vi behandler betalingen din…
 
 ## Payment confirmation
 
 payment-confirmation-alert = Klikk her for å laste ned
 payment-confirmation-mobile-alert = Åpnet ikke appen? <a>Klikk her</a>
+payment-confirmation-thanks-heading = Takk skal du ha!
 
 ## Payment confirmation details
 ## $email (string) - The user's email.
