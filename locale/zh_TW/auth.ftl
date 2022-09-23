@@ -73,12 +73,6 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="到 { -google-
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="到 { -app-store } 下載 { $productName }">
-another-desktop-device = 或者到<a data-l10n-name="anotherDeviceLink">另一台桌面裝置</a>安裝。
-another-device = 或者到<a data-l10n-name="anotherDeviceLink">另一台裝置</a>安裝。
-automated-email-change = 這是由系統自動發出的郵件，若您並未授權進行此動作，<a data-l10n-name="passwordChangeLink">請立即更改密碼</a>。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
-# Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = 這是由系統自動發出的郵件，若您並未新增裝置到 { -product-firefox-account }，請立即到 { $passwordChangeLink } 更改密碼。
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } 若需更多資訊，請造訪 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
 automated-email-no-action-plaintext = 這是一封自動寄發的郵件。若您意外收到這封郵件，可直接忽略。
@@ -235,13 +229,6 @@ passwordChangeRequired-different-password-plaintext = 重要：請改用您從�
 passwordReset-subject = 密碼已更新
 passwordReset-title = 您的帳號密碼已變更
 passwordReset-description = 將需要在其他裝置上輸入新密碼才能恢復同步。
-passwordResetAccountRecovery-subject-1 = 已使用帳號救援金鑰更新密碼
-passwordResetAccountRecovery-title-1 = 已使用帳號救援金鑰重設您帳號的密碼
-passwordResetAccountRecovery-description-1 = 您已自下列裝置成功使用帳號救援金鑰重設密碼：
-passwordResetAccountRecovery-action-1 = 產生新的帳號救援金鑰
-passwordResetAccountRecovery-regen-required-1 = 您必須產生新的帳號救援金鑰。
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key-1 = 產生新的帳號救援金鑰：
 postAddAccountRecovery-subject-2 = 已建立救援金鑰
 postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
 # Information on the browser and device triggering this string follows.
@@ -269,19 +256,10 @@ postChangePrimary-title = 新增主要電子郵件地址
 #  $email (String) - A user's email address
 postChangePrimary-description = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 { -product-firefox-account }，也會在這個信箱中收到安全性通知、登入確認信等等。
 postChangePrimary-action = 管理帳號
-postConsumeRecoveryCode-subject-1 = 已使用備用驗證碼
-postConsumeRecoveryCode-title-1 = 已消耗備用驗證碼
-postConsumeRecoveryCode-description-1 = 您已在下列裝置上，成功使用一組備用驗證碼：
 postConsumeRecoveryCode-action = 管理帳號
-postNewRecoveryCodes-subject-1 = 已產生新的備用驗證碼
-postNewRecoveryCodes-title-1 = 已產生新的備用驗證碼
-postNewRecoveryCodes-description-1 = 您已在下列裝置上，成功產生新的備用驗證碼：
 postNewRecoveryCodes-action = 管理帳號
-postRemoveAccountRecovery-subject = 已刪除救援金鑰
-postRemoveAccountRecovery-title = 已刪除救援金鑰
-postRemoveAccountRecovery-description = 您已使用下列裝置，成功刪除 { -product-firefox-account } 的救援金鑰：
+postRemoveAccountRecovery-subject-2 = 已刪除帳號救援金鑰
 postRemoveAccountRecovery-action = 管理帳號
-postRemoveAccountRecovery-invalid-1 = 將無法再使用這把金鑰來救援您的帳號。
 postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = 已移除次要電子郵件地址
 # Variables:
