@@ -300,9 +300,14 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Avbryt tilgangen min og den lagrede informasjonen min for
     { $name } den { $period }
+invoice-not-found = Påfølgende faktura ble ikke funnet
+sub-item-no-such-subsequent-invoice = Finner ikke påfølgende faktura for dette abonnementet.
 
 ## Subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Kjøp i app
+sub-iap-item-apple-purchase = { -brand-name-apple }: Kjøp i app
+sub-iap-item-manage-button = Behandle
 account-activated = Kontoen din er aktivert, <userEl/>
 
 ## Subscription route index
@@ -323,7 +328,11 @@ sub-subscription-error =
     .title = Problem med å laste inn abonnement
 sub-customer-error =
     .title = Problem med å laste inn kunde
+sub-invoice-error =
+    .title = Problemer med å laste inn fakturaer
 sub-billing-update-success = Faktureringsinformasjonen din er oppdatert
+sub-route-payment-modal-heading = Ugyldig faktureringsinformasjon
+pay-update-manage-btn = Behandle
 
 ## Subscription create
 
@@ -338,9 +347,14 @@ plan-details-header = Produktdetaljer
 plan-details-show-button = Vis detaljer
 plan-details-hide-button = Skjul detaljer
 plan-details-total-label = Totalt
+plan-details-list-price = Listepris
 
 ## Coupons
 
+coupon-discount = Rabatt
+coupon-discount-applied = Rabatt brukt
+coupon-submit = Bruk
+coupon-remove = Fjern
 
 ## Payment processing
 
