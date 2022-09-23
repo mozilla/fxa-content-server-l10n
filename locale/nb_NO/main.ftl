@@ -36,6 +36,10 @@ payment-error-3b = Det oppstod en uventet feil under behandlingen av betalingen.
 payment-error-retry-button = Prøv igjen
 payment-error-manage-subscription-button = Behandle mitt abonnement
 country-currency-mismatch = Valutaen for dette abonnementet er ikke gyldig for landet som er knyttet til betalingen din.
+currency-currency-mismatch = Bekalger. Du kan ikke bytte mellom valutaer.
+no-subscription-change = Beklager. Du kan ikke endre abonnementsplanen din.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Du abonnerer allerede via { $mobileAppStore }.
 expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. Prøv et annet kort.
 insufficient-funds-error = Det ser ut som om kortet ditt ikke har tilstrekkelig med penger. Prøv et annet kort.
 withdrawal-count-limit-exceeded-error = Det ser ut til at denne transaksjonen vil overskride kredittgrensen din. Prøv et annet kort.
@@ -44,6 +48,8 @@ instant-payouts-unsupported = Det ser ut som at betalingskortet ditt ikke er kon
 duplicate-transaction = Hmm. Det ser ut som en identisk transaksjon nettopp ble utført. Sjekk betalingshistorikken.
 coupon-expired = Det ser ut som at kampanjekoden har gått ut.
 card-error = Transaksjonen din kunne ikke behandles. Kontroller betalingskortinformasjonen din og prøv igjen.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = En systemfeil førte til at { $productName }-registreringen mislyktes. Betalingsmåten din er ikke belastet. Prøv igjen.
 
 ## Settings
 
@@ -54,6 +60,7 @@ settings-subscriptions-title = Abonnementer
 
 terms = Tjenestevilkår
 privacy = Personvernerklæring
+terms-download = Vilkår for nedlasting
 
 ## Subscription titles
 
@@ -99,6 +106,7 @@ product-no-such-plan = Ingen slik plan for dette produktet.
 
 ## Payment legal blurb
 
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } personvernbestemmelser</stripePrivacyLink>
 
 ## Payment form
 
@@ -148,6 +156,7 @@ payment-confirm-with-legal-links-year =
 payment-cancel-btn = Avbryt
 payment-update-btn = Oppdater
 payment-pay-btn = Betal nå
+payment-pay-with-paypal-btn = Betal med { -brand-name-paypal }
 payment-validate-name-error = Skriv inn navnet ditt
 payment-validate-zip-required = Postnummer er påkrevd
 payment-validate-zip-short = Postnummer er for kort
@@ -165,6 +174,9 @@ input-error-is-required = { $label } er påkrevd
 
 ## Subscription upgrade
 
+product-plan-change-heading = Se gjennom endringen
+sub-change-failed = Endring av plan mislyktes
+sub-update-payment-title = Betalingsinformasjon
 sub-update-card-exp = Utløper { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
     Planen din vil endres umiddelbart, og du vil bli belastet en justert
@@ -173,6 +185,9 @@ sub-update-copy =
 
 ##
 
+sub-change-submit = Bekreft endring
+sub-change-indicator =
+    .aria-label = endringsindikator
 sub-update-current-plan-label = Gjeldende plan
 sub-update-new-plan-label = Ny plan
 sub-update-total-label = Ny sum
@@ -236,6 +251,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Neste fakturering den { $date }
+sub-expires-on = Utløper { $date }
 
 ##
 
