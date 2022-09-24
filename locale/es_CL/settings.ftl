@@ -186,6 +186,8 @@ flow-container-back = Atrás
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = clave de recuperación de cuenta de { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = códigos de autenticación de respaldo de { -brand-firefox }
 get-data-trio-download =
     .title = Descargar
 get-data-trio-copy =
@@ -247,6 +249,12 @@ nav-email-comm = Comunicaciones por correo
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Hubo un problema al reemplazar tus códigos de autenticación de respaldo
+tfa-replace-code-success-1 =
+    Se han creado nuevos códigos. Guarda estos códigos de autenticación de respaldo de
+    un solo uso en un lugar seguro; los necesitarás para acceder a tu cuenta si no
+    cuentas con tu dispositivo móvil.
+tfa-replace-code-success-alert-3 = Códigos de autenticación de respaldo de cuenta actualizados
 tfa-replace-code-1-2 = Paso 1 de 2
 tfa-replace-code-2-2 = Paso 2 de 2
 
@@ -361,10 +369,14 @@ display-name-success-alert-2 = Nombre para mostrar actualizado
 recovery-key-cancel-button = Cancelar
 recovery-key-close-button = Cerrar
 recovery-key-continue-button = Continuar
+recovery-key-created-1 = Tu clave de recuperación de cuenta ha sido creada. Asegúrate de guardar la clave en un lugar seguro donde la puedas encontrar más tarde: necesitarás la clave para recuperar el acceso a tus datos si olvidas tu contraseña.
 recovery-key-enter-password =
     .label = Ingresar contraseña
+recovery-key-page-title-1 =
+    .title = Clave de recuperación de cuenta
 recovery-key-step-1 = Paso 1 de 2
 recovery-key-step-2 = Paso 2 de 2
+recovery-key-success-alert-3 = Clave de recuperación de cuenta creada
 
 ## Add secondary email page
 
@@ -412,6 +424,8 @@ tfa-button-cancel = Cancelar
 tfa-button-finish = Finalizar
 tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
 tfa-cannot-retrieve-code = Hubo un problema al recuperar tu código.
+tfa-cannot-verify-code-4 = Hubo un problema al confirmar tu código de autenticación de respaldo
+tfa-incorrect-recovery-code-1 = Código de autenticación de respaldo incorrecto
 tfa-enabled = Autenticación en dos pasos activada
 tfa-scan-this-code =
     Escanea este código QR usando una de <linkExternal>estas
@@ -429,6 +443,12 @@ tfa-enter-secret-key = Ingresa esta clave secreta en tu aplicación de autentica
 tfa-enter-totp = Ahora ingresa el código de seguridad de la aplicación de autenticación.
 tfa-input-enter-totp =
     .label = Ingresa el código de seguridad
+tfa-save-these-codes-1 = Guarda estos códigos de autenticación de respaldo de un solo uso en un lugar seguro para cuando no tengas tu dispositivo móvil.
+tfa-enter-code-to-confirm-1 =
+    Por favor, ingresa uno de tus códigos de autenticación de respaldo ahora para
+    confirmar que los has guardado. Necesitarás un código para conectarte si es que no tienes acceso a tu dispositivo móvil.
+tfa-enter-recovery-code-1 =
+    .label = Ingresa un código de autenticación de respaldo
 
 ##
 
@@ -479,15 +499,23 @@ row-defaults-status = Ninguno
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Clave de recuperación de cuenta
 rk-enabled = Activado
 rk-not-set = No establecido
 rk-action-create = Crear
 rk-action-remove = Eliminar
+rk-cannot-refresh-1 = Lo sentimos, hubo un problema al actualizar la clave de recuperación de cuenta.
 rk-key-removed-2 = Clave de recuperación de cuenta eliminada
 rk-cannot-remove-key = No se pudo eliminar la clave de recuperación de tu cuenta.
+rk-refresh-key-1 = Actualizar clave de recuperación de cuenta
 rk-content-explain = Restaura tu información cuando olvides tu contraseña.
 rk-content-reset-data = ¿Por qué restablecer mi contraseña resetea mis datos?
 rk-cannot-verify-session-4 = Lo sentimos, hubo un problema al confirmar tu sesión
+rk-remove-modal-heading-1 = ¿Eliminar clave de recuperación de cuenta?
+rk-remove-modal-content-1 =
+    En el caso de que restablezcas tu contraseña, no podrás
+    usar tu clave de recuperación de cuenta para acceder a tus datos. No puede deshacer esta acción.
+rk-refresh-error-1 = Lo sentimos, hubo un problema al actualizar la clave de recuperación de cuenta.
 rk-remove-error-2 = No se pudo eliminar la clave de recuperación de tu cuenta
 
 ## Secondary email sub-section on main Settings page
@@ -521,6 +549,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Hacer primario
 se-default-content = Accede a tu cuenta si no puedes conectarte a tu correo principal.
+se-content-note-1 =
+    Nota: un correo secundario no restaurará tu información — 
+    necesitarás una <a>clave de recuperación de cuenta</a> para eso.
 # Default value for the secondary email
 se-secondary-email-none = Ninguno
 
@@ -544,7 +575,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Lo sentimos, hubo un problema al confirmar tu sesión
 tfa-row-disable-modal-heading = ¿Deshabilitar autenticación en dos pasos?
 tfa-row-disable-modal-confirm = Deshabilitar
+tfa-row-disable-modal-explain-1 =
+    No podrás deshacer esta acción. También
+    tienes la opción de <linkexternal>reemplazar tus códigos de autenticación de respaldo</linkexternal>.
 tfa-row-cannot-disable-2 = La autenticación en dos pasos no pudo ser deshabilitada
+tfa-row-change-modal-heading-1 = ¿Cambiar códigos de autenticación de respaldo?
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
