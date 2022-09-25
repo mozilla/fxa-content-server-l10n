@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-25 18:30+0000\n"
+"PO-Revision-Date: 2022-09-25 18:40+0000\n"
 "Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1843,7 +1843,7 @@ msgstr "Атрымаць ключ аднаўлення ўліковага зап
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "Пацвердзіце ваш пароль для %(escapedEmail)s, каб стварыць ключ аднаўлення ўліковага запісу."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
@@ -1859,11 +1859,11 @@ msgstr "Гатова"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Навошта ствараць гэты ўліковы запіс? <a %(escapedSuggestionAttrs)s>Даведайцеся тут</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "Колькі вам гадоў? Каб стварыць уліковы запіс, вам павінна быць не менш за 13 гадоў."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1915,7 +1915,7 @@ msgstr "Не часта выкарыстаны пароль"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "Заставайцеся ў бяспецы &mdash; не выкарыстоўвайце паролі паўторна. Паглядзіце іншыя парады па <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">стварэнні надзейных пароляў</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
