@@ -110,6 +110,8 @@ location-state-country = { $stateCode }, { $country } (прыблізна)
 location-country = { $country } (прыблізна)
 cadReminderFirst-action = Сінхранізаваць іншую прыладу
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Для сінхранізацыі патрэбна дзве прылады
 cadReminderSecond-action = Сінхранізаваць іншую прыладу
 cadReminderSecond-description-sync = Сінхранізуйце свае закладкі, паролі, адкрытыя карткі і многае іншае — усюды, дзе вы карыстаецеся { -brand-firefox }.
 #  Variables:
