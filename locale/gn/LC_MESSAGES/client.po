@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-20 18:44+0000\n"
+"PO-Revision-Date: 2022-09-26 15:30+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -471,7 +471,7 @@ msgstr "Token TOTP ojejuhu’ỹva"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "Ndojejuhúi ayvu ñemoneĩrã jeykekoha"
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
@@ -596,7 +596,7 @@ msgstr "Eikotevẽ URL oikóva"
 
 #: .es5/lib/auth-errors.js:392
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Ne ñanduti veve ñemoneĩrã oujey. ¿Ikatu ehaivai kundaharape?"
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -680,7 +680,7 @@ msgstr "Ayvu ñemoneĩrã jeykekoha jerurepyre"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Pe ayvu ñemoneĩrã jeykekoha ndoikói"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
@@ -892,7 +892,7 @@ msgstr "Ereko juajuha pyahu"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Erujey ñe’ẽñemi mba’ete mba’eñemi jeguerujeyrã ndive"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11

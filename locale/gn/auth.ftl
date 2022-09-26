@@ -587,6 +587,7 @@ confirm-account = Emoneĩjey mba’ete
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
 verificationReminderFirst-title-2 = ¡Eg̃uahẽporã { -brand-firefox }-pe!
+verificationReminderFirst-sub-description-3 = Aníke ejavy kundahára nemoĩva ndéve ha nde rekoñemíme tenondete.
 confirm-email-2 = Emoneĩjey mba’ete
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Emoneĩjey mba’ete
@@ -600,6 +601,7 @@ verify-action-2 = Emoneĩjey mba’ete
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = ¿Emoñepyrũ tembiapo { $clientName }-pe?
+verifyLogin-description-2 = Orepytyvõ rorekóvo ne mba’ete tekorosãme emoneĩvo tembiapo ñepyrũ amo:
 verifyLogin-subject-2 = Emoneĩ tembiapo ñepyrũ
 verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
 # Variables:
