@@ -247,6 +247,12 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Oiko apañuãi emyengoviakuévo nde ayvu jeguerujeyrã jeykekoha
+tfa-replace-code-success-1 =
+    Oñemoheñói ayvu pyahu. Eñongatu ko’ã ayvu
+    ñemoneĩrã jeykekoha tenda hekorosãvape; eikotevéta eike hag̃ua ne mba’etépe
+    ndereguerekóiramo mba’e’oka oku’éva.
+tfa-replace-code-success-alert-3 = Ayvu ñemoneĩrã jeykekoha mba’ete hekopyahúvape
 tfa-replace-code-1-2 = Ku’e 1 2-gui
 tfa-replace-code-2-2 = Ku’e 2 2-gui
 
@@ -411,6 +417,7 @@ tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
 tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
 tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
+tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã jeykekoha ndoikói
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
     Emoha’ãnga QR ayvu eipurúvo <linkExternal>peteĩva
@@ -430,6 +437,8 @@ tfa-enter-secret-key = Emoinge ko mba’eñemi ne rembipuru’i ñemoneĩmbýpe:
 tfa-enter-totp = Emoinge ko’ág̃a tekorosã ayvu tembipuru’i ñemoneĩmbýpe.
 tfa-input-enter-totp =
     .label = Emoinge tekorosã ayvu
+tfa-enter-recovery-code-1 =
+    .label = Emoinge ayvu ñemoneĩrã jeykekoha
 
 ##
 
