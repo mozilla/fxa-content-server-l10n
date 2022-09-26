@@ -78,7 +78,7 @@ body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Llwytho { $productNa
 another-desktop-device-2 = Gosod { $productName } ar <a data-l10n-name="anotherDeviceLink">ddyfais bwrdd gwaith arall</a>.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-another-device-2 = Neu, ei osod ar <a data-l10n-name="anotherDeviceLink">ddyfais arall</a>.
+another-device-2 = Gosod { $productName } ar <a data-l10n-name="anotherDeviceLink">ddyfais arall</a>.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Cael { $productName } o Google Play:
