@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-26 15:30+0000\n"
+"PO-Revision-Date: 2022-09-26 15:37+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -905,7 +905,7 @@ msgstr "Emba’apo %(serviceName)s ndive"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Emoinge mba’ete mba’eñemi jeguerujeyrã eñongatúva tenda hekorosãvape eikekuaajey hag̃ua nde Firefox mba’etépe."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -924,7 +924,7 @@ msgstr "Emoneĩ mba’ete mba’eñemi jeguerujeyrã"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "¿Ndereguerekói mba’eñemi jeguerujeyrã?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
