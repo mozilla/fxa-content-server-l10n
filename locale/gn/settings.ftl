@@ -417,6 +417,7 @@ tfa-button-cancel = Heja
 tfa-button-finish = Mbopaha
 tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
 tfa-cannot-retrieve-code = Oiko peteĩ apañuãi eguerukuévo ayvu.
+tfa-cannot-verify-code-4 = Oiko peteĩ apañuãi emoneĩnguévo nde ayvu ñemoneĩrã jeykekoha
 tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã jeykekoha ndoikói
 tfa-enabled = Ñemoneĩ mokõi jeýpe myandypyre
 tfa-scan-this-code =
@@ -500,6 +501,7 @@ rk-refresh-key-1 = Embohekopyahu mba’eñemi jeguerujeyrã
 rk-content-explain = Emboguevijey ne marandu nderesaráirõ ne ñe’ẽñemígui.
 rk-content-reset-data = ¿Mba’ére emoĩporãvo ñe’ẽñemi oĩporãta che mba’ekuaarã?
 rk-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
+rk-remove-modal-heading-1 = Embogue mba’ete mba’eñemi jeguerujeyrã
 rk-remove-error-2 = Noñemboguekuaái mba’eñemi jeguerujeyrã ne mba’etégui
 
 ## Secondary email sub-section on main Settings page
