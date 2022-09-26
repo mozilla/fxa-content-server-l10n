@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-26 15:50+0000\n"
+"PO-Revision-Date: 2022-09-26 15:51+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1222,7 +1222,7 @@ msgstr "Eheja ñemboheko"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Emoneĩ ayvu ñemoneĩrã jeykekoha"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
