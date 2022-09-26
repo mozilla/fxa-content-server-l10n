@@ -276,6 +276,8 @@ postConsumeRecoveryCode-subject-2 =
         [one] 1 auvu ñemoneĩ jeykekoha
        *[other] Opyta { $numberRemaining } auvu ñemoneĩ jeykekoha
     }
+postNewRecoveryCodes-subject-2 = Ayvu ñemoneĩrã pyahu jeykekoha moheñoimbyre
+postNewRecoveryCodes-title-2 = Emoheñói ayvu ñemoneĩrã pyahu jeykekoha
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Oñemoheñói amo:
 postNewRecoveryCodes-action = Mba’ete ñangareko
