@@ -559,6 +559,7 @@ tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo te
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
 tfa-row-cannot-disable-2 = Ñemoneĩrigui mokõi jeku’egua ndaikatúi eipe’a
+tfa-row-change-modal-heading-1 = ¿Emoambue umi ayvu ñemoneĩrã jeykekoha?
 tfa-row-change-modal-confirm = Moambue
 tfa-row-change-modal-explain = Ko ejapovahína ndaikatúi embojevy.
 

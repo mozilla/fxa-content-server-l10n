@@ -206,6 +206,7 @@ fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore at
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Ndereguerekovéima auvu ñemoneĩ jeykekoha
 codes-reminder-title-one = Reime pe auvu ñemoneĩ jeykeko pahávape
+codes-reminder-title-two = Emoheñóimake hetave ayvu ñemoneĩrã jeykekoha
 codes-reminder-description-two-left = Opytántema mokõi ayvu.
 lowRecoveryCodes-action-2 = Emoheñói ayvu
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
