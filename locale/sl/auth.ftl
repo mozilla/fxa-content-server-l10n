@@ -81,6 +81,9 @@ subplat-explainer-reminder-form = To sporočilo ste prejeli, ker je na { $email 
 subplat-explainer-multiple = To sporočilo ste prejeli, ker je na { $email } registriran { -product-firefox-account } in ste naročeni na več izdelkov.
 subplat-explainer-was-deleted = To sporočilo ste prejeli, ker je bil na { $email } registriran { -product-firefox-account }.
 subplat-manage-account = Nastavitve { -product-firefox-account(sklon: "rodilnik") } lahko upravljate na <a data-l10n-name="subplat-account-page">strani svojega računa</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Nastavitve svojega { -product-firefox-account(sklon: "rodilnik") } lahko upravljate na strani računa: { $accountSettingsUrl }
 subplat-terms-policy = Pogoji in pravila odpovedi
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Prekliči naročnino
