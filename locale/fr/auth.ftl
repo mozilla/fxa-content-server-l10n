@@ -303,8 +303,17 @@ postConsumeRecoveryCode-subject-2 =
         [one] Il reste un code d’authentification de secours
        *[other] Il reste { $numberRemaining } codes d’authentification de secours
     }
+postNewRecoveryCodes-subject-2 = Nouveaux codes d’authentification de secours créés
+postNewRecoveryCodes-title-2 = Vous avez créé de nouveaux codes d’authentification de secours
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Ils ont été créé sur :
 postNewRecoveryCodes-action = Gérer le compte
+postRemoveAccountRecovery-subject-2 = Clé de récupération de compte supprimée
+postRemoveAccountRecovery-title-2 = Vous avez supprimé votre clé de récupération de compte.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Elle a été supprimée depuis :
 postRemoveAccountRecovery-action = Gérer le compte
+postRemoveAccountRecovery-invalid-2 = Il vous faut une clé de récupération de compte pour retrouver vos données de { -brand-firefox } si vous oubliez votre mot de passe.
 postRemoveSecondary-subject = L’adresse électronique secondaire a été supprimée
 postRemoveSecondary-title = L’adresse électronique secondaire a été supprimée
 # Variables:
