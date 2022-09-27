@@ -96,6 +96,9 @@ ios-download-plaintext = Téléchargez { $productName } sur l’App Store :
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Installez { $productName } sur un autre appareil :
+automated-email-support = Pour plus d’informations, consultez <a data-l10n-name="supportLink">le site d’assistance de { -brand-mozilla }</a>.
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Pour plus d’informations, consultez le site d’assistance de { -brand-mozilla } :
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Pour davantage d’informations, veuillez consulter <a data-l10n-name="supportLink">l’assistance de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Ceci est un e-mail automatique. Si vous l’avez reçu par erreur, vous n’avez rien à faire.
@@ -212,8 +215,22 @@ fraudulentAccountDeletion-contact = Pour toute question, veuillez contacter notr
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Pour toute question, veuillez contacter notre équipe d’assistance : { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Vous n’avez plus aucun code d’authentification de secours !
+codes-reminder-title-one = Vous utilisez votre dernier code d’authentification de secours.
+codes-reminder-title-two = Le moment est venu de créer davantage de codes d’authentification de secours
+codes-reminder-description-part-one = Les codes d’authentification de secours vous aident à récupérer vos informations si vous oubliez votre mot de passe.
+codes-reminder-description-part-two = Créez de nouveaux codes maintenant pour ne pas perdre vos données plus tard.
+codes-reminder-description-two-left = Il ne vous reste que deux codes.
+codes-reminder-description-create-codes = Créez de nouveaux codes d’authentification de secours pour vous permettre de retrouver votre compte s’il est verrouillé.
 lowRecoveryCodes-action-2 = Créer des codes
 codes-create-plaintext = { lowRecoveryCodes-action-2 } :
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Il ne reste aucun code d’authentification de secours
+        [one] Il ne reste qu’un code d’authentification de secours
+       *[other] Plus que { $numberRemaining } codes d’authentification de secours !
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nouvelle connexion via { $clientName }
@@ -241,6 +258,15 @@ passwordChangeRequired-different-password-plaintext = Important : choisissez un
 passwordReset-subject = Mot de passe mis à jour
 passwordReset-title = Le mot de passe de votre compte a été changé
 passwordReset-description = Vous devrez saisir votre nouveau mot de passe sur vos autres appareils pour reprendre la synchronisation.
+passwordResetAccountRecovery-subject-2 = Votre mot de passe à été réinitialisé
+passwordResetAccountRecovery-title-2 = Mot de passe réinitialisé
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Vous avez utilisé votre clé de récupération de compte pour mettre à jour votre mot de passe depuis :
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Créer une nouvelle clé de récupération de compte
+passwordResetAccountRecovery-regen-required-mjml-1 = Vous devez reconnecter tous vos appareils synchronisés. N’oubliez pas de créer une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Vous devez reconnecter tous vos appareils synchronisés. N’oubliez pas de créer une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée :
 postAddAccountRecovery-subject-2 = Clé de récupération de compte créée
 postAddAccountRecovery-title2 = Vous avez créé une nouvelle clé de récupération de compte
 # Information on the browser and device triggering this string follows.
@@ -268,7 +294,15 @@ postChangePrimary-title = Nouvelle adresse électronique principale
 #  $email (String) - A user's email address
 postChangePrimary-description = Votre adresse électronique principale est désormais { $email }. Cette adresse est à présent votre nom d’utilisateur pour vous connecter à votre { -product-firefox-account } et elle recevra les notifications de sécurité et les confirmations de connexion.
 postChangePrimary-action = Gérer le compte
+postConsumeRecoveryCode-title-2 = Vous avez utilisé un code d’authentification de secours
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Il a été utilisé sur :
 postConsumeRecoveryCode-action = Gérer le compte
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Il reste un code d’authentification de secours
+       *[other] Il reste { $numberRemaining } codes d’authentification de secours
+    }
 postNewRecoveryCodes-action = Gérer le compte
 postRemoveAccountRecovery-action = Gérer le compte
 postRemoveSecondary-subject = L’adresse électronique secondaire a été supprimée
