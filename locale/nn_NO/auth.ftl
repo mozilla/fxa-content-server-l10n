@@ -117,7 +117,12 @@ view-invoice = <a data-l10n-name="invoiceLink">Sjå fakturaen din</a>.
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Sjå faktura: { $invoiceLink }
 cadReminderFirst-action = Synkroniser ei anna eining
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Det må to til for å synkronisere
+cadReminderFirst-description-2 = Det tar berre eit sekund å synkronisere.
 cadReminderSecond-action = Synkroniser ei anna eining
+cadReminderSecond-title-2 = Ikkje gløym å synkronisere!
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Velkomen til { $productName }
@@ -142,7 +147,13 @@ passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passo
 passwordReset-subject = Passord oppdatert
 passwordReset-title = Kontopassordet ditt vart endra
 passwordReset-description = Du må skrive inn det nye passordet ditt på andre einingar for å fortsetje synkroniseringa.
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Ein ny nøkkel vart oppretta frå:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Ikke deg?
 postAddAccountRecovery-action = Handsam kontoen
+postAddAccountRecovery-delete-key = Slett den nye nøkkelen::
+postAddAccountRecovery-changd-password = Endre passordet ditt?
 postAddLinkedAccount-action = Handsam kontoen
 postAddTwoStepAuthentication-subject = Tostegs-godkjenning aktivert
 postAddTwoStepAuthentication-title = Tostegs-godkjenning aktivert
@@ -182,12 +193,16 @@ subscriptionAccountReminderSecond-action = Opprett passord
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 subscriptionCancellation-title = Det er synd at du seier opp abonnementet ditt
 subscriptionDowngrade-content-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Du har oppgradert til { $productName }
 subscriptionUpgrade-title = Takk for at du oppgraderer!
 subscriptionUpgrade-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
 unblockCode-subject = Godkjenningskode for konto
 unblockCode-title = Er det du som loggar inn?
 unblockCode-prompt = Dersom ja, her er godkjenningskoden du treng:
 unblockCode-report-plaintext = Dersom nei, hjelp oss med å avverje inntrengarar og raporter dette til oss.
+confirm-account = Stadfest kontoen
 verify-description = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
 verify-subject = Fullfør opprettinga av kontoen din
 verifyLogin-action = Stadfest innlogging
