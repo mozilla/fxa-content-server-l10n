@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-29 10:08+0000\n"
+"PO-Revision-Date: 2022-09-29 10:11+0000\n"
 "Last-Translator: Dzmitry <dzmitry.zubialevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -2002,15 +2002,15 @@ msgstr "Працэс усталявання быў спынены."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "Падключыце Firefox на іншай прыладзе"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "Сінхранізуйце Firefox на тэлефоне або планшэце"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "Ужо маеце Firefox на тэлефоне або планшэце?"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
