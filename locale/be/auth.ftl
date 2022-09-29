@@ -118,6 +118,7 @@ cadReminderFirst-action = Сінхранізаваць іншую прыладу
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Для сінхранізацыі патрэбна дзве прылады
+cadReminderFirst-description-2 = Сінхранізацыя адбываецца імгненна
 cadReminderSecond-action = Сінхранізаваць іншую прыладу
 cadReminderSecond-description-sync = Сінхранізуйце свае закладкі, паролі, адкрытыя карткі і многае іншае — усюды, дзе вы карыстаецеся { -brand-firefox }.
 #  Variables:
@@ -160,6 +161,8 @@ postRemoveTwoStepAuthentication-subject-line = Двухэтапная аўтар
 postRemoveTwoStepAuthentication-title = Двухэтапная аўтарызацыя адключана
 postRemoveTwoStepAuthentication-action = Кіраванне ўліковым запісам
 postRemoveTwoStepAuthentication-not-required = Коды бяспекі больш не будуць патрабавацца пры кожным ўваходзе.
+postVerify-sub-title-3 = Мы рады вас бачыць!
+postVerify-title-2 = Хочаце бачыць адну і тую ж картку на дзвюх прыладах?
 postVerify-subject-3 = Вітаем у { -brand-firefox }!
 postVerify-setup-2 = Злучыць іншую прыладу:
 postVerify-action-2 = Злучыць іншую прыладу
@@ -177,6 +180,7 @@ subscriptionAccountFinishSetup-subject = Вітаем у { $productName }: Ка�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Вітаем у { $productName }
 subscriptionAccountFinishSetup-action-2 = Пачаць
+subscriptionAccountReminderFirst-subject = Напамін: Скончыце наладку вашага ўліковага запісу
 subscriptionAccountReminderFirst-action = Стварыць пароль
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Апошні напамін: Наладзьце свой уліковы запіс
