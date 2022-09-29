@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-29 10:12+0000\n"
-"Last-Translator: Dzmitry <dzmitry.zubialevich@gmail.com>\n"
+"PO-Revision-Date: 2022-09-29 18:36+0000\n"
+"Last-Translator: Mikalai Udodau <crom-a@tut.by>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
@@ -2026,7 +2026,7 @@ msgstr "QR-код"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Бярыце з сабой карткі, закладкі і паролі ўсюды, дзе вы карыстаецеся Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
