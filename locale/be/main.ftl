@@ -112,6 +112,9 @@ sub-update-card-exp = Тэрмін дзеяння канчаецца { $cardExpM
 
 ##
 
+sub-change-submit = Пацвердзіце змяненне
+sub-change-indicator =
+    .aria-label = індыкатар змянення
 sub-update-current-plan-label = Цяперашні план
 sub-update-new-plan-label = Новы план
 sub-update-total-label = Новая сума
@@ -183,6 +186,7 @@ sub-plan-price-year =
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Наступная аплата { $date }
+sub-expires-on = Дзейнічае да { $date }
 
 ##
 
