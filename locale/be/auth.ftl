@@ -129,6 +129,7 @@ downloadSubscription-subject = Вітаем у { $productName }
 downloadSubscription-title = Вітаем у { $productName }
 downloadSubscription-content-2 = Давайце пачнём выкарыстоўваць усе функцыі, уключаныя ў вашу падпіску:
 downloadSubscription-link-action-2 = Пачаць
+codes-reminder-description-two-left = У вас засталося толькі два коды.
 lowRecoveryCodes-action-2 = Стварыць коды
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
@@ -321,6 +322,7 @@ unblockCode-prompt-plaintext = Калі так, вось код аўтарыза
 unblockCode-report = Калі не, дапамажыце нам стрымліваць зламыснікаў і <a data-l10n-name="reportSignInLink">паведаміце нам аб гэтым.</a>
 unblockCode-report-plaintext = Калі не, дапамажыце нам стрымліваць зламыснікаў і паведамце нам аб гэтым.
 verificationReminderFinal-subject = Апошні напамін аб праверцы вашага ўліковага запісу
+confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-title-2 = Вітаем у { -brand-firefox }!
 verify-description = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі, пачынаючы з:
 verify-subject = Скончыце стварэнне ўліковага запісу
