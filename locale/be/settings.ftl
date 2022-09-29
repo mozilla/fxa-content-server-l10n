@@ -124,7 +124,7 @@ cs-sign-out-button = Выйсці
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Сцягнута
@@ -147,14 +147,15 @@ drop-down-menu-title = Меню { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Увайшлі як: </signin><user>{ $user }</user>
 drop-down-menu-sign-out = Выйсці
+drop-down-menu-sign-out-error-2 = На жаль, пры выхадзе ўзнікла праблема
 
 ## Flow Container
 
 flow-container-back = Назад
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Коды аднаўлення
+get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-download =
     .title = Сцягнуць
 get-data-trio-copy =
@@ -211,9 +212,8 @@ nav-data-collection = Збор і выкарыстанне звестак
 nav-paid-subs = Платныя падпіскі
 nav-email-comm = Зносіны па электроннай пошце
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Узнікла праблема пры замене вашых кодаў аднаўлення
 tfa-replace-code-1-2 = Крок 1 з 2
 tfa-replace-code-2-2 = Крок 2 з 2
 
@@ -315,18 +315,15 @@ display-name-success-alert-2 = Бачнае імя абноўлена
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Скасаваць
 recovery-key-close-button = Закрыць
 recovery-key-continue-button = Працягнуць
 recovery-key-enter-password =
     .label = Увядзіце пароль
-recovery-key-page-title =
-    .title = Ключ аднаўлення
 recovery-key-step-1 = Крок 1 з 2
 recovery-key-step-2 = Крок 2 з 2
-recovery-key-success-alert-2 = Ключ аднаўлення створаны
 
 ## Add secondary email page
 
@@ -373,8 +370,6 @@ tfa-button-cancel = Скасаваць
 tfa-button-finish = Гатова
 tfa-incorrect-totp = Няправільны код двухэтапнай аўтарызацыі
 tfa-cannot-retrieve-code = Узнікла праблема пры атрыманні вашага коду.
-tfa-cannot-verify-code-3 = Узнікла праблема пры пацверджанні вашага кода аднаўлення
-tfa-incorrect-recovery-code = Няправільны код аднаўлення
 tfa-enabled = Двухэтапная аўтарызацыя ўключана
 # This is the image alt text for a QR code.
 # Variables:
@@ -390,9 +385,6 @@ tfa-button-cant-scan-qr = Не ўдаецца сканаваць кода?
 tfa-enter-secret-key = Увядзіце гэты сакрэтны ключ у праграму аўтэнтыфікацыі:
 tfa-input-enter-totp =
     .label = Увядзіце код бяспекі
-tfa-save-these-codes = Захоўвайце гэтыя аднаразовыя коды ў бяспечным месцы, на выпадак, калі ў вас не будзе мабільнай прылады.
-tfa-enter-recovery-code =
-    .label = Увядзіце код аднаўлення
 
 ##
 
@@ -441,18 +433,15 @@ row-defaults-action-change = Змяніць
 row-defaults-action-disable = Адключыць
 row-defaults-status = Няма
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Ключ аднаўлення
 rk-enabled = Уключаны
 rk-not-set = Не ўстаноўлены
 rk-action-create = Стварыць
 rk-action-remove = Выдаліць
 rk-key-removed-2 = Ключ аднаўлення ўліковага запісу выдалены
-rk-refresh-key = Абнавіць ключ аднаўлення
 rk-content-explain = Аднавіце сваю інфармацыі, калі забудзеце пароль.
 rk-cannot-verify-session-4 = На жаль, узнікла праблема з пацвярджэннем сеансу
-rk-remove-modal-heading = Выдаліць ключ аднаўлення?
 
 ## Secondary email sub-section on main Settings page
 
@@ -496,7 +485,6 @@ tfa-row-cannot-verify-session-4 = На жаль, узнікла праблема
 tfa-row-disable-modal-heading = Адключыць двухэтапную аўтарызацыю?
 tfa-row-disable-modal-confirm = Адключыць
 tfa-row-cannot-disable-2 = Немагчыма адключыць двухэтапную аўтарызацыю
-tfa-row-change-modal-heading = Змяніць коды аднаўлення?
 tfa-row-change-modal-confirm = Змяніць
 tfa-row-change-modal-explain = Вы не зможаце адмяніць гэта дзеянне.
 
