@@ -156,6 +156,7 @@ flow-container-back = Назад
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Ключ аднаўлення ўліковага запісу { -brand-firefox }
 get-data-trio-download =
     .title = Сцягнуць
 get-data-trio-copy =
