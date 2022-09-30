@@ -73,12 +73,21 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="到 { -google-
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="到 { -app-store } 下载 { $productName }">
-another-desktop-device = 或到<a data-l10n-name="anotherDeviceLink">另一桌面设备</a>安装。
-another-device = 或到<a data-l10n-name="anotherDeviceLink">另一设备</a>安装。
-automated-email-change = 这是一封自动发送的邮件。若您并未授权进行此操作，<a data-l10n-name="passwordChangeLink">请立即更改密码</a>。更多信息请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = 这是一封自动发送的邮件。若您并未添加新设备到 { -product-firefox-account }，请立即到 { $passwordChangeLink } 更改密码。
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = 在<a data-l10n-name="anotherDeviceLink">其他桌面设备</a>上安装 { $productName }
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = 在<a data-l10n-name="anotherDeviceLink">其他设备</a>上安装 { $productName }
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = 到 Google Play 下载 { $productName }：
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = 到 App Store 下载 { $productName }：
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = 在其他设备上安装 { $productName }：
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } 获取更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } Mozilla 用户支持</a>。
 automated-email-no-action-plaintext = 这是一封自动发送的电子邮件。如果您错误地收到它，您无需执行任何操作。
@@ -249,9 +258,6 @@ postChangePrimary-description = 您已成功将主邮箱更改为 { $email }。�
 postChangePrimary-action = 管理账户
 postConsumeRecoveryCode-action = 管理账户
 postNewRecoveryCodes-action = 管理账户
-postRemoveAccountRecovery-subject = 已移除账户救援密钥
-postRemoveAccountRecovery-title = 已移除账户救援密钥
-postRemoveAccountRecovery-description = 您已使用下列设备，成功移除 { -product-firefox-account }救援密钥：
 postRemoveAccountRecovery-action = 管理账户
 postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = 已移除备用邮箱
