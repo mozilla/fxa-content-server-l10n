@@ -88,6 +88,12 @@ ios-download-plaintext = 到 App Store 下载 { $productName }：
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = 在其他设备上安装 { $productName }：
+automated-email-change-2 = 如非本人操作，请立即<a data-l10n-name="passwordChangeLink">更改密码</a>。
+automated-email-support = 如需了解更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 支持</a>。
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = 如非本人操作，请立即更改密码：
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = 如需了解更多信息，请访问 { -brand-mozilla } 支持：
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } 获取更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } Mozilla 用户支持</a>。
 automated-email-no-action-plaintext = 这是一封自动发送的电子邮件。如果您错误地收到它，您无需执行任何操作。
@@ -202,6 +208,9 @@ fraudulentAccountDeletion-contact = 如有疑问，请联系我们的<a data-l10
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = 如有疑问，请联系我们的用户支持团队：{ $mozillaSupportUrl }
+codes-reminder-description-part-one = 备用验证码可帮助您在忘记密码时恢复信息。
+lowRecoveryCodes-action-2 = 创建验证码
+codes-create-plaintext = { lowRecoveryCodes-action-2 }：
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } 有新的登录活动
@@ -229,6 +238,8 @@ passwordChangeRequired-different-password-plaintext = 重要：请改用您从�
 passwordReset-subject = 密码已更新
 passwordReset-title = 您的密码已变更
 passwordReset-description = 您必须在其他设备上输入新密码才能继续同步。
+passwordResetAccountRecovery-subject-2 = 您的密码已重置
+passwordResetAccountRecovery-title-2 = 密码重置成功
 postAddAccountRecovery-subject-2 = 已创建账户救援密钥
 postAddAccountRecovery-title2 = 您创建了一个新的账户救援密钥
 # Information on the browser and device triggering this string follows.
