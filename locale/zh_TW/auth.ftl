@@ -88,6 +88,12 @@ ios-download-plaintext = 到 App Store 下載 { $productName }：
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = 在另一台裝置安裝 { $productName }：
+automated-email-change-2 = 若您並未進行此操作，請立即<a data-l10n-name="passwordChangeLink">更改密碼</a>。
+automated-email-support = 若需更多資訊，請造訪 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = 若您並未進行此操作，請立即更改密碼：
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = 若需更多資訊，請造訪 { -brand-mozilla } 技術支援站：
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } 若需更多資訊，請造訪 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
 automated-email-no-action-plaintext = 這是一封自動寄發的郵件。若您意外收到這封郵件，可直接忽略。
@@ -244,6 +250,15 @@ passwordChangeRequired-different-password-plaintext = 重要：請改用您從�
 passwordReset-subject = 密碼已更新
 passwordReset-title = 您的帳號密碼已變更
 passwordReset-description = 將需要在其他裝置上輸入新密碼才能恢復同步。
+passwordResetAccountRecovery-subject-2 = 已重設您的密碼
+passwordResetAccountRecovery-title-2 = 成功重設密碼
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = 您已從下列位置使用帳號救援金鑰更改密碼：
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = 產生新的帳號救援金鑰
+passwordResetAccountRecovery-regen-required-mjml-1 = 您會需要在所有同步中的裝置重新登入帳號。記得要產生一把新的帳號救援金鑰來取代原本的金鑰。
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = 您會需要在所有同步中的裝置重新登入帳號。記得要產生一把新的帳號救援金鑰來取代原本的金鑰：
 postAddAccountRecovery-subject-2 = 已建立救援金鑰
 postAddAccountRecovery-title2 = 您已產生新的帳號救援金鑰
 # Information on the browser and device triggering this string follows.
@@ -271,6 +286,7 @@ postChangePrimary-title = 新增主要電子郵件地址
 #  $email (String) - A user's email address
 postChangePrimary-description = 您已成功將主要電子郵件地址更改為 { $email }。現在起，請使用此信箱來登入 { -product-firefox-account }，也會在這個信箱中收到安全性通知、登入確認信等等。
 postChangePrimary-action = 管理帳號
+postConsumeRecoveryCode-title-2 = 您使用了備用驗證碼
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = 使用於：
 postConsumeRecoveryCode-action = 管理帳號
@@ -288,6 +304,7 @@ postRemoveAccountRecovery-title-2 = 您已刪除帳號救援金鑰。
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = 刪除自：
 postRemoveAccountRecovery-action = 管理帳號
+postRemoveAccountRecovery-invalid-2 = 若您忘記密碼，需要帳號救援金鑰才可救回 { -brand-firefox } 帳號的資料。
 postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = 已移除次要電子郵件地址
 # Variables:
