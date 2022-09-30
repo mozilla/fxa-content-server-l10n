@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-30 10:07+0000\n"
+"PO-Revision-Date: 2022-09-30 10:15+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -1105,7 +1105,7 @@ msgstr "在其他裝置登入 Firefox 完成設定"
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "想要在其他台裝置上，也能獲得相同的分頁、書籤、網站密碼等資料嗎？"
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
@@ -1997,15 +1997,15 @@ msgstr "已中斷設定。"
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "連結另一台裝置上的 Firefox"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "與手機或平板電腦上的 Firefox 同步"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "手機或平板電腦上也有 Firefox 嗎？"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
@@ -2013,7 +2013,7 @@ msgstr "同步您的裝置"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "掃描即可下載 Firefox 行動版，或者是將<a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">下載鏈結</a>寄給自己。"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
@@ -2021,7 +2021,7 @@ msgstr "QR code"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "將您的 Firefox 分頁、書籤、網站密碼隨身帶著走。"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
