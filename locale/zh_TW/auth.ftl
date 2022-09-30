@@ -73,6 +73,21 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="到 { -google-
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="到 { -app-store } 下載 { $productName }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = 到<a data-l10n-name="anotherDeviceLink">另一台桌面裝置</a>安裝 { $productName }。
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = 到<a data-l10n-name="anotherDeviceLink">另一台裝置</a>安裝 { $productName }。
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = 到 Google Play 取得 { $productName }：
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = 到 App Store 下載 { $productName }：
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = 在另一台裝置安裝 { $productName }：
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } 若需更多資訊，請造訪 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
 automated-email-no-action-plaintext = 這是一封自動寄發的郵件。若您意外收到這封郵件，可直接忽略。
