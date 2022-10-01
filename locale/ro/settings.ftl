@@ -151,13 +151,14 @@ cs-sign-out-button = Deconectează-te
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 
 ## Data collection section
 
 dc-heading = Colectarea și utilizarea datelor
 dc-subheader = Ajută la îmbunătățirea { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }
+dc-subheader-content = Permite ca { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") } să trimită informații tehnice și de interacțiune către { -brand-mozilla },
 dc-opt-out-success = Dezactivare realizată cu succes. { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") } nu va trimite date tehnice sau de interacțiune către { -brand-mozilla }.
 dc-opt-in-success = Îți mulțumim! Partajarea acestor date ne ajutp să îmbunătățim { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }.
 dc-learn-more = Află mai multe
@@ -170,9 +171,8 @@ drop-down-menu-sign-out = Deconectează-te
 
 flow-container-back = Înapoi
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Coduri de recuperare
 get-data-trio-download =
     .title = Descarcă
 get-data-trio-copy =
@@ -203,14 +203,7 @@ modal-cancel-button = Anulează
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Verifică e-mailul
-mvs-enter-verification-code = Introdu codul de verificare
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Te rugăm să introduci, în termen de 5 minute, codul de verificare trimis către <email>{ $email }</email>.
 msv-cancel-button = Anulează
-msv-submit-button = Verifică
 
 ## Settings Nav
 
@@ -222,9 +215,8 @@ nav-data-collection = Colectarea și utilizarea datelor
 nav-paid-subs = Abonamente cu plată
 nav-email-comm = Comunicări prin e-mail
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-success-alert-2 = Codurile de recuperare a contului au fost actualizate
 tfa-replace-code-1-2 = Pasul 1 din 2
 tfa-replace-code-2-2 = Pasul 2 din 2
 
@@ -258,6 +250,7 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Schimbă parola
+pw-8-chars = Cel puțin 8 caractere
 pw-change-must-match = Noua parolă să se potrivească cu confirmarea
 pw-change-cancel-button = Anulează
 pw-change-save-button = Salvează
@@ -274,6 +267,7 @@ pw-change-confirm-password =
 
 ## Password create page
 
+pw-create-success-alert-2 = Parolă setată
 
 ##
 
@@ -313,14 +307,14 @@ cancel-display-name = Anulează
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Anulează
 recovery-key-continue-button = Continuă
 recovery-key-enter-password =
     .label = Introdu parola
-recovery-key-page-title =
-    .title = Cheie de recuperare
+recovery-key-page-title-1 =
+    .title = Cheie de recuperare a contului
 recovery-key-step-1 = Pasul 1 din 2
 recovery-key-step-2 = Pasul 2 din 2
 
@@ -339,14 +333,7 @@ add-secondary-email-save-button = Salvează
 add-secondary-email-step-2 = Pasul 2 din 2
 verify-secondary-email-page-title =
     .title = E-mail secundar
-verify-secondary-email-verification-code =
-    .label = Introdu codul de verificare
 verify-secondary-email-cancel-button = Anulează
-verify-secondary-email-verify-button = Verifică
-# This string is an instruction in a form.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Te rugăm să introduci, în termen de 5 minute, codul de verificare trimis către <strong>{ $email }</strong>.
 
 ##
 
@@ -364,8 +351,6 @@ tfa-button-cancel = Anulează
 tfa-button-finish = Finalizează
 tfa-incorrect-totp = Cod de autentificare în doi pași incorect
 tfa-cannot-retrieve-code = A apărut o problemă la recuperarea codului.
-tfa-cannot-verify-code-2 = A apărut o problemă la verificarea codului de recuperare
-tfa-incorrect-recovery-code = Cod de recuperare incorect
 tfa-enabled = Autentificare în doi pași activată
 tfa-scan-this-code =
     Scanează acest cod QR folosind unul dintre <linkExternal>aceste
@@ -383,8 +368,6 @@ tfa-enter-secret-key = Introdu această cheie secretă în aplicația de autenti
 tfa-enter-totp = Acum introdu codul de securitate din aplicația de autentificare.
 tfa-input-enter-totp =
     .label = Introdu codul de securitate
-tfa-enter-recovery-code =
-    .label = Introdu un cod de recuperare
 
 ##
 
@@ -405,6 +388,8 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Securitate
+security-password =
+    .header = Parolă
 # This is a string that shows when the user's password was created.
 # Variables:
 #   $date (String) - a localized date and time string
@@ -420,17 +405,16 @@ row-defaults-action-change = Modifică
 row-defaults-action-disable = Dezactivează
 row-defaults-status = Niciunul
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Cheie de recuperare
 rk-not-set = Nu este setată
 rk-action-create = Creează
 rk-action-remove = Elimină
-rk-cannot-refresh = Ne pare rău, a apărut o problemă la reîmprospătarea cheii de recuperare.
-rk-refresh-key = Reîmprospătează cheia de recuperare
+rk-cannot-refresh-1 = Ne pare rău, a apărut o problemă la reîmprospătarea cheii de recuperare a contului.
+rk-refresh-key-1 = Reîmprospătează cheia de recuperare a contului
 rk-content-explain = Restaurează-ți informațiile când uiți parola.
 rk-content-reset-data = De ce resetarea parolei îmi resetează datele?
-rk-refresh-error = Ne pare rău, a apărut o problemă la reîmprospătarea cheii de recuperare.
+rk-refresh-error-1 = Ne pare rău, a apărut o problemă la reîmprospătarea cheii de recuperare a contului.
 
 ## Secondary email sub-section on main Settings page
 
@@ -440,15 +424,9 @@ se-cannot-refresh-email = Ne pare rău, a apărut o problemă la reîmprospătar
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Reîmprospătează e-mailul
-se-resend-code =
-    Verificare necesară. <button>Retrimite codul de verificare</button>
-    dacă nu se află în dosarul de mesaje primite sau spam.
 # Button to make secondary email the primary
 se-make-primary = Desemnează ca e-mail principal
 se-default-content = Accesează contul dacă nu te poți autentifica în e-mailul principal.
-se-content-note =
-    Notă: un e-mail secundar nu îți va restabili informațiile - vei
-    avea nevoie de o <a>cheie de recuperare</a> pentru asta.
 # Default value for the secondary email
 se-secondary-email-none = Niciunul
 
@@ -471,13 +449,10 @@ tfa-row-content-explain =
     cod unic la care numai tu ai acces.
 tfa-row-disable-modal-heading = Dezactivezi autentificarea în doi pași?
 tfa-row-disable-modal-confirm = Dezactivează
-tfa-row-disable-modal-explain =
-    Nu vei putea anula această acțiune. Ai şi
-    opțiunea <linkExternal>să înlocuiești codurile de recuperare</linkExternal>.
-tfa-row-change-modal-heading = Schimbi codurile de recuperare?
 tfa-row-change-modal-confirm = Modifică
 tfa-row-change-modal-explain = Nu vei putea anula această acțiune.
 
 ## Auth-server based errors that originate from backend service
 
-auth-error-138 = Sesiune neverificată
+auth-error-103 = Parolă incorectă
+auth-error-1008 = Noua ta parolă trebuie să fie diferită
