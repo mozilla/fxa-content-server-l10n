@@ -160,7 +160,7 @@ dc-heading = Colectarea și utilizarea datelor
 dc-subheader = Ajută la îmbunătățirea { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }
 dc-subheader-content = Permite ca { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") } să trimită informații tehnice și de interacțiune către { -brand-mozilla },
 dc-opt-out-success = Dezactivare realizată cu succes. { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") } nu va trimite date tehnice sau de interacțiune către { -brand-mozilla }.
-dc-opt-in-success = Îți mulțumim! Partajarea acestor date ne ajutp să îmbunătățim { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }.
+dc-opt-in-success = Îți mulțumim! Partajarea acestor date ne ajută să îmbunătățim { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }.
 dc-learn-more = Află mai multe
 
 # DropDownAvatarMenu component
@@ -397,6 +397,10 @@ security-password-created-date = Creată în { $date }
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Oprește
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Pornește
 
 ## Sub-section row Defaults
 
