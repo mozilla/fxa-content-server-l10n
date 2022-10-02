@@ -97,8 +97,12 @@ ios-download-plaintext = Загрузите { $productName } в App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Установите { $productName } на другое устройство:
+automated-email-change-2 = Если вы не производили это действие, немедленно <a data-l10n-name="passwordChangeLink">смените свой пароль</a>.
+automated-email-support = Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Поддержку { -brand-mozilla }</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Если вы не производили это действие, немедленно измените пароль:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Для получения дополнительной информации посетите страницу поддержки { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Сайт поддержки { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Это автоматически созданное сообщение. Если вы получили его по ошибке, вам не нужно ничего делать.
@@ -215,6 +219,23 @@ fraudulentAccountDeletion-contact = Если у вас есть вопросы, 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Если у вас есть вопросы, обратитесь к нашей команде поддержки: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = У вас закончились резервные коды аутентификации!
+codes-reminder-title-one = Вы используете последний резервный код аутентификации
+codes-reminder-title-two = Время создать больше резервных кодов аутентификации
+codes-reminder-description-part-one = Резервные коды аутентификации помогут вам восстановить вашу информацию, если вы забудете свой пароль.
+codes-reminder-description-part-two = Создавайте новые коды сейчас, чтобы не потерять свои данные позже.
+codes-reminder-description-two-left = У вас осталось только два кода.
+codes-reminder-description-create-codes = Создайте новые резервные коды аутентификации, чтобы помочь вам вернуться в свой аккаунт, если вы заблокированы.
+lowRecoveryCodes-action-2 = Создать коды
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Резервных кодов аутентификации не осталось
+        [one] Остался всего { $numberRemaining } резервный код аутентификации!
+        [few] Осталось всего { $numberRemaining } резервных кода аутентификации!
+       *[many] Осталось всего { $numberRemaining } резервных кодов аутентификации!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Новый вход в { $clientName }
@@ -242,6 +263,15 @@ passwordChangeRequired-different-password-plaintext = Важно: Выберит
 passwordReset-subject = Пароль изменён
 passwordReset-title = Пароль к вашей учётной записи был изменён
 passwordReset-description = Чтобы возобновить синхронизацию, вам нужно будет ввести новый пароль на других устройствах.
+passwordResetAccountRecovery-subject-2 = Ваш пароль был сброшен
+passwordResetAccountRecovery-title-2 = Пароль успешно сброшен
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Вы использовали ключ восстановления аккаунта для обновления пароля от:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Создать новый ключ восстановления аккаунта
+passwordResetAccountRecovery-regen-required-mjml-1 = Вам нужно будет снова войти в систему на всех ваших синхронизированных устройствах. Не забудьте создать новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Вам нужно будет снова войти в систему на всех ваших синхронизированных устройствах. Не забудьте создать новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали:
 postAddAccountRecovery-subject-2 = Ключ восстановления аккаунта создан
 postAddAccountRecovery-title2 = Вы создали новый ключ восстановления аккаунта
 # Information on the browser and device triggering this string follows.
@@ -269,9 +299,27 @@ postChangePrimary-title = Новая основная электронная п�
 #  $email (String) - A user's email address
 postChangePrimary-description = Вы успешно изменили свой основной адрес электронной почты на { $email }. Этот адрес теперь будет вашим именем пользователя для входа в { -product-firefox-account(case: "accusative") }, а также использоваться для получения оповещений безопасности и подтверждений входа.
 postChangePrimary-action = Управление аккаунтом
+postConsumeRecoveryCode-title-2 = Вы использовали резервный код аутентификации
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Он был использован на:
 postConsumeRecoveryCode-action = Управление аккаунтом
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Остался { $numberRemaining } резервный код аутентификации
+        [few] Осталось { $numberRemaining } резервных кода аутентификации
+       *[many] Осталось { $numberRemaining } резервных кодов аутентификации
+    }
+postNewRecoveryCodes-subject-2 = Созданы новые резервные коды аутентификации
+postNewRecoveryCodes-title-2 = Вы создали новые резервные коды аутентификации
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Они были созданы на:
 postNewRecoveryCodes-action = Управление аккаунтом
+postRemoveAccountRecovery-subject-2 = Ключ восстановления аккаунта удалён
+postRemoveAccountRecovery-title-2 = Вы удалили свой ключ восстановления аккаунта.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Он был удалён с:
 postRemoveAccountRecovery-action = Управление аккаунтом
+postRemoveAccountRecovery-invalid-2 = Вам нужен ключ восстановления аккаунта, чтобы восстановить данные своего { -brand-firefox }, если вы забудете свой пароль.
 postRemoveSecondary-subject = Удалена дополнительная электронная почта
 postRemoveSecondary-title = Удалена дополнительная электронная почта
 # Variables:
@@ -581,6 +629,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не забудьте подтвердить свой аккаунт
 verificationReminderFirst-title-2 = Добро пожаловать в { -brand-firefox }!
 verificationReminderFirst-description-2 = Несколько дней назад вы создали { -product-firefox-account(case: "nominative_uppercase") }, Пожалуйста подтвердите ваш аккаунт в течении следующих 15 дней, иначе он будет автоматически удалён.
+verificationReminderFirst-sub-description-3 = Не пропустите браузер, который ставит вас и вашу приватность на первое место.
 confirm-email-2 = Подтвердить аккаунт
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Подтвердить аккаунт
