@@ -609,7 +609,8 @@ subscriptionUpgrade-upgrade-info = Вы успешно обновились с {
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info = Начиная со следующего периода оплаты, ваш платёж составит { $paymentAmountNew } в { $productPaymentCycleNew } вместо { $paymentAmountOld } в { $productPaymentCycleOld }. В этот раз вам также будет необходимо оплатить { $paymentProrated } для отражения более высокой стоимости за этот { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info = Начиная со следующего периода оплаты, ваш платёж составит { $paymentAmountNew } за { $productPaymentCycleNew } вместо { $paymentAmountOld } за { $productPaymentCycleOld }. В этот раз вам также будет необходимо оплатить { $paymentProrated } для отражения более высокой стоимости за этот { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Вам будет необходимо оплатить { $paymentProrated }, чтобы отразить более высокую цену вашей подписки за оставшуюся часть этого { $productPaymentCycleOld }. Начиная со следующего периода оплаты, ваш платеж составит { $paymentAmountOld } за { $productPaymentCycleOld } вместо { $paymentAmountNew } за { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Если вам будет необходимо установить новое программное обеспечение для использования { $productName }, вы получите отдельное письмо с инструкциями по загрузке.
