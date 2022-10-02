@@ -94,6 +94,9 @@ android-download-plaintext = Получите { $productName } в Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 ios-download-plaintext = Загрузите { $productName } в App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Установите { $productName } на другое устройство:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Сайт поддержки { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Это автоматически созданное сообщение. Если вы получили его по ошибке, вам не нужно ничего делать.
