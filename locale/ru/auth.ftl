@@ -97,6 +97,8 @@ ios-download-plaintext = Загрузите { $productName } в App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Установите { $productName } на другое устройство:
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Если вы не производили это действие, немедленно измените пароль:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Сайт поддержки { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Это автоматически созданное сообщение. Если вы получили его по ошибке, вам не нужно ничего делать.
