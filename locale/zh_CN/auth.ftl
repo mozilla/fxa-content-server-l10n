@@ -211,8 +211,9 @@ fraudulentAccountDeletion-contact-plaintext = 如有疑问，请联系我们的�
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = 您备用验证码已用尽！
 codes-reminder-title-one = 只剩下一枚备用验证码
-codes-reminder-title-two = 立即创建更多备用验证码
+codes-reminder-title-two = 立即生成更多备用验证码
 codes-reminder-description-part-one = 备用验证码可帮助您在忘记密码时恢复信息。
+codes-reminder-description-part-two = 生成新的验证码，避免意外丢失数据。
 codes-reminder-description-two-left = 只剩下两枚备用验证码。
 lowRecoveryCodes-action-2 = 创建验证码
 codes-create-plaintext = { lowRecoveryCodes-action-2 }：
@@ -279,11 +280,16 @@ postChangePrimary-title = 新的主邮箱
 #  $email (String) - A user's email address
 postChangePrimary-description = 您已成功将主邮箱更改为 { $email }。此邮箱地址现在是您用于登录 { -product-firefox-account }的用户名，以及用于接收安全通知和登录确认。
 postChangePrimary-action = 管理账户
+postConsumeRecoveryCode-title-2 = 您使用了备用验证码
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = 使用于：
 postConsumeRecoveryCode-action = 管理账户
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
        *[other] 剩下 { $numberRemaining } 枚备用验证码
     }
+postNewRecoveryCodes-subject-2 = 已生成新的备份验证码
+postNewRecoveryCodes-title-2 = 您已生成新的备用验证码
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = 创建于：
 postNewRecoveryCodes-action = 管理账户
@@ -292,6 +298,7 @@ postRemoveAccountRecovery-title-2 = 您已删除账户救援密钥。
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = 删除自：
 postRemoveAccountRecovery-action = 管理账户
+postRemoveAccountRecovery-invalid-2 = 若您忘记密码，需要账户救援密钥才可救回 { -brand-firefox } 账户的数据。
 postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = 已移除备用邮箱
 # Variables:
@@ -601,6 +608,7 @@ confirm-account-plaintext = { confirm-account }：
 verificationReminderFirst-subject-2 = 记得验证您的账户
 verificationReminderFirst-title-2 = 欢迎使用 { -brand-firefox }！
 verificationReminderFirst-description-2 = 您于几天前注册了 { -product-firefox-account }，但一直没有验证账户。请在 15 天内完成验证，否则该账户将被自动删除。
+verificationReminderFirst-sub-description-3 = 不要错过将您和您的隐私放在首位的浏览器。
 confirm-email-2 = 验证账户
 confirm-email-plaintext-2 = { confirm-email-2 }：
 verificationReminderFirst-action-2 = 验证账户

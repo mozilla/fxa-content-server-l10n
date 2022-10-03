@@ -237,6 +237,7 @@ nav-email-comm = 新闻通讯
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = 更换您的备用验证码时出现问题
 tfa-replace-code-success-alert-3 = 已更新账户备用验证码
 tfa-replace-code-1-2 = 步骤（1 / 2）
 tfa-replace-code-2-2 = 步骤（2 / 2）
@@ -425,6 +426,8 @@ tfa-enter-totp = 现在请输入验证应用的中的安全码。
 tfa-input-enter-totp =
     .label = 请输入安全码
 tfa-save-these-codes-1 = 请妥善保管下列一次性账户救援码，以便您在无移动设备的情况时使用。
+tfa-enter-recovery-code-1 =
+    .label = 请输入备用验证码
 
 ##
 
@@ -480,6 +483,7 @@ rk-enabled = 已启用
 rk-not-set = 未设置
 rk-action-create = 创建
 rk-action-remove = 移除
+rk-cannot-refresh-1 = 抱歉，刷新账户救援密钥时出现问题。
 rk-key-removed-2 = 已移除账户救援密钥
 rk-cannot-remove-key = 无法删除您的账户救援密钥。
 rk-refresh-key-1 = 刷新账户救援密钥
@@ -487,6 +491,8 @@ rk-content-explain = 当您忘记密码时恢复数据。
 rk-content-reset-data = 为什么重置密码时会重置我的数据？
 rk-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 rk-remove-modal-heading-1 = 要移除账户救援密钥吗？
+rk-remove-modal-content-1 = 一旦重置密码，就无法再使用账户救援密钥访问您的数据。此操作不可撤销。
+rk-refresh-error-1 = 抱歉，刷新账户救援密钥时出现问题。
 rk-remove-error-2 = 无法删除您的账户救援密钥
 
 ## Secondary email sub-section on main Settings page
@@ -540,6 +546,7 @@ tfa-row-content-explain = 登录时需提供只有您有权访问的验证码，
 tfa-row-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
+tfa-row-disable-modal-explain-1 = 您将无法撤销此操作。您也可选择<linkExternal>更换备用验证码</linkExternal>。
 tfa-row-cannot-disable-2 = 无法禁用两步验证
 tfa-row-change-modal-heading-1 = 要更改备份验证码吗？
 tfa-row-change-modal-confirm = 更改
