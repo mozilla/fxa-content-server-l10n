@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-10-03 15:36+0000\n"
+"PO-Revision-Date: 2022-10-03 15:42+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1997,15 +1997,15 @@ msgstr "设置过程已终止。"
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "连接其他设备上的 Firefox"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "与手机或平板电脑上的 Firefox 同步"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "手机或平板电脑上已安装 Firefox？"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
@@ -2021,7 +2021,7 @@ msgstr "二维码"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "将您的 Firefox 标签页、书签、密码随身携带。"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
