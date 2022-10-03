@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-10-03 15:02+0000\n"
+"PO-Revision-Date: 2022-10-03 15:10+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -685,7 +685,7 @@ msgstr "备用验证码无效"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
-msgstr ""
+msgstr "需要使用账户救援密钥"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -906,7 +906,7 @@ msgstr "以进入 %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "请输入您存放在安全位置的一次性账户救援密钥，以重新获得对 Firefox 账户的访问权限。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -1220,7 +1220,7 @@ msgstr "确认备用验证码"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "为确保您在设备丢失的情况下仍能登录您的账号，请输入此前保存的备用验证码中的任意一个。"
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
@@ -2009,11 +2009,11 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "同步您的设备"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "扫码下载 Firefox 移动版，或将<a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">下载链接</a>发送给自己。"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"

@@ -237,6 +237,7 @@ nav-email-comm = 新闻通讯
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-success-alert-3 = 已更新账户备用验证码
 tfa-replace-code-1-2 = 步骤（1 / 2）
 tfa-replace-code-2-2 = 步骤（2 / 2）
 
@@ -406,6 +407,8 @@ tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 错误的两步验证码
 tfa-cannot-retrieve-code = 检索您的救援码时出现问题。
+tfa-cannot-verify-code-4 = 确认您的备用验证码时出现问题
+tfa-incorrect-recovery-code-1 = 备份验证码不正确
 tfa-enabled = 已启用两步验证
 tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExternal>进行扫码。
 # This is the image alt text for a QR code.
@@ -421,6 +424,7 @@ tfa-enter-secret-key = 请在身份验证应用输入此安全密钥：
 tfa-enter-totp = 现在请输入验证应用的中的安全码。
 tfa-input-enter-totp =
     .label = 请输入安全码
+tfa-save-these-codes-1 = 请妥善保管下列一次性账户救援码，以便您在无移动设备的情况时使用。
 
 ##
 

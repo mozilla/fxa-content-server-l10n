@@ -211,6 +211,7 @@ fraudulentAccountDeletion-contact-plaintext = 如有疑问，请联系我们的�
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = 您备用验证码已用尽！
 codes-reminder-title-one = 只剩下一枚备用验证码
+codes-reminder-title-two = 立即创建更多备用验证码
 codes-reminder-description-part-one = 备用验证码可帮助您在忘记密码时恢复信息。
 codes-reminder-description-two-left = 只剩下两枚备用验证码。
 lowRecoveryCodes-action-2 = 创建验证码
@@ -279,6 +280,10 @@ postChangePrimary-title = 新的主邮箱
 postChangePrimary-description = 您已成功将主邮箱更改为 { $email }。此邮箱地址现在是您用于登录 { -product-firefox-account }的用户名，以及用于接收安全通知和登录确认。
 postChangePrimary-action = 管理账户
 postConsumeRecoveryCode-action = 管理账户
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+       *[other] 剩下 { $numberRemaining } 枚备用验证码
+    }
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = 创建于：
 postNewRecoveryCodes-action = 管理账户
