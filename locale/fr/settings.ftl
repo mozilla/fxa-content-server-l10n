@@ -252,6 +252,7 @@ tfa-replace-code-success-1 =
     De nouveaux codes ont été créés. Enregistrez ces codes d’authentification de secours à usage unique
     en lieu sûr — vous aurez besoin d’eux pour accéder à votre compte si vous ne
     disposez pas de votre appareil mobile.
+tfa-replace-code-success-alert-3 = Codes d’authentification de secours du compte mis à jour
 tfa-replace-code-1-2 = Étape 1 sur 2
 tfa-replace-code-2-2 = Étape 2 sur 2
 
@@ -422,6 +423,7 @@ tfa-button-finish = Terminer
 tfa-incorrect-totp = Code d’authentification en deux étapes incorrect
 tfa-cannot-retrieve-code = Un problème est survenu lors de la récupération de votre code.
 tfa-cannot-verify-code-4 = Un problème est survenu lors de la confirmation de vos codes d’authentification de secours
+tfa-incorrect-recovery-code-1 = Code d’authentification de secours incorrect
 tfa-enabled = Authentification en deux étapes activée
 tfa-scan-this-code =
     Scannez ce code QR en utilisant l’une de <linkExternal>ces 
