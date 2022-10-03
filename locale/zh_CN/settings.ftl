@@ -173,7 +173,9 @@ flow-container-back = 返回
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } 账户救援密钥
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 备用验证码
 get-data-trio-download =
     .title = 下载
 get-data-trio-copy =
@@ -535,6 +537,7 @@ tfa-row-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
 tfa-row-cannot-disable-2 = 无法禁用两步验证
+tfa-row-change-modal-heading-1 = 要更改备份验证码吗？
 tfa-row-change-modal-confirm = 更改
 tfa-row-change-modal-explain = 此操作无法撤销。
 
