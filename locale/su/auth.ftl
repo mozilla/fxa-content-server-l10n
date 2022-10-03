@@ -82,6 +82,9 @@ cancellationSurvey-plaintext = Nyungkeun kamandangna ku cara ngeusian surpéy po
 change-password-plaintext = Mun sangkaan anjeun batur aya nu nyoba ngaksés ka akun anjeun, geura robah sandi anjeun.
 manage-account = Kokolakeun akun
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Nomer Paktur: { $invoiceNumber }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Cara Mayar:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -103,6 +106,16 @@ device-browser-os = { $uaBrowser } di { $uaOS }
 user-ip = Alamat IP: { $ip }
 cadReminderFirst-action = Singkronkeun séjén alat
 cadReminderSecond-action = Singkronkeun séjén alat
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Wilujeng sumping di { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Wilujeng sumping di { $productName }
+downloadSubscription-link-action-2 = Mitembeyan
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Anyar asup ka { $clientName }
 newDeviceLogin-action = Kokolakeun akun
 passwordChanged-subject = Kecap sandi geus diropéa
 passwordChanged-title = Ngarobah sandi geus hasil
