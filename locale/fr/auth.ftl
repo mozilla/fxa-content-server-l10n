@@ -96,7 +96,10 @@ ios-download-plaintext = Téléchargez { $productName } sur l’App Store :
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Installez { $productName } sur un autre appareil :
+automated-email-change-2 = Si vous n’êtes pas à l’origine de cette action, <a data-l10n-name="passwordChangeLink">modifiez immédiatement votre mot de passe</a>.
 automated-email-support = Pour plus d’informations, consultez <a data-l10n-name="supportLink">le site d’assistance de { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Si vous n’êtes pas à l’origine de cette action, modifiez immédiatement votre mot de passe :
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Pour plus d’informations, consultez le site d’assistance de { -brand-mozilla } :
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
@@ -604,6 +607,7 @@ subscriptionUpgrade-upgrade-info = Vous avez terminé la mise à niveau de { $pr
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = À partir de votre prochaine facture, vos frais passeront de { $paymentAmountOld } par { $productPaymentCycleOld } à { $paymentAmountNew } par { $productPaymentCycleNew }. À ce moment-là, vous recevrez également un crédit unique de { $paymentProrated } pour refléter les frais supérieurs pour le reste de la période.
+subscriptionUpgrade-content-charge-info-different-cycle = Des frais uniques de { $paymentProrated } vous seront facturés pour refléter le prix plus élevé de votre abonnement pour le reste de ce { $productPaymentCycleOld }. À compter de votre prochaine facture, vos frais passeront de { $paymentAmountOld } par { $productPaymentCycleOld } à { $paymentAmountNew } par { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Si un nouveau logiciel doit être installé pour utiliser { $productName }, vous recevrez un courriel séparé avec des instructions de téléchargement.
@@ -623,6 +627,7 @@ confirm-account-plaintext = { confirm-account } :
 verificationReminderFirst-subject-2 = N’oubliez pas de confirmer votre compte
 verificationReminderFirst-title-2 = Bienvenue dans { -brand-firefox } !
 verificationReminderFirst-description-2 = Il y a quelques jours, vous avez créé un { -product-firefox-account }, mais vous ne l’avez jamais confirmé. Veuillez confirmer votre compte dans les 15 prochains jours ou il sera automatiquement supprimé.
+verificationReminderFirst-sub-description-3 = Ne passez pas à côté du navigateur qui fait passer la confidentialité avant tout le reste.
 confirm-email-2 = Confirmer le compte
 confirm-email-plaintext-2 = { confirm-email-2 } :
 verificationReminderFirst-action-2 = Confirmer le compte

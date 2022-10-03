@@ -446,6 +446,7 @@ tfa-input-enter-totp =
 tfa-save-these-codes-1 =
     Conservez ces codes d’authentification de secours à usage unique dans un endroit sûr pour quand
     vous n’avez pas votre appareil mobile.
+tfa-enter-code-to-confirm-1 = Veuillez saisir l’un de vos codes d’authentification de secours maintenant pour confirmer que vous les avez enregistrés. Vous aurez besoin d’un code pour vous connecter si vous n’avez pas accès à votre appareil mobile.
 tfa-enter-recovery-code-1 =
     .label = Saisissez un code d’authentification de secours
 
