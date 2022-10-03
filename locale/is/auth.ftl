@@ -210,6 +210,15 @@ fraudulentAccountDeletion-contact = Ef þú ert með einhverjar spurningar skalt
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ef þú ert með einhverjar spurningar skaltu hafa samband við aðstoðarteymið okkar: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Þú ert búinn með öryggisafrit auðkenningarkóða!
+codes-reminder-title-one = Þú ert á síðasta varaauðkenningarkóðanum þínum
+codes-reminder-title-two = Tími til kominn að búa til fleiri öryggisafrit af auðkenningarkóða
+codes-reminder-description-part-one = Öryggisafrit auðkenningarkóða hjálpa þér að endurheimta upplýsingarnar þínar þegar þú gleymir lykilorðinu þínu.
+codes-reminder-description-part-two = Útbúðu nýja kóða núna svo þú tapir ekki gögnunum þínum síðar.
+codes-reminder-description-two-left = Þú átt aðeins tvo kóða eftir.
+codes-reminder-description-create-codes = Búðu til nýja varaauðkenningarkóða til að hjálpa þér að komast aftur inn á reikninginn þinn ef þú lokast úti.
+lowRecoveryCodes-action-2 = Útbúa kóða
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
@@ -246,6 +255,10 @@ passwordReset-title = Lykilorð reikningsins þíns breyttist
 passwordReset-description = Þú verður að setja inn nýja lykilorðið þitt á öðrum tækjum til að halda áfram með samstillingu.
 passwordResetAccountRecovery-subject-2 = Lykilorðið þitt var endurstillt
 passwordResetAccountRecovery-title-2 = Það tókst að endurstilla lykilorð
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Þú notaðir endurheimtulykil reikningsins þíns til að uppfæra lykilorðið þitt frá:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Útbúa nýjan endurheimtarlykil fyrir reikninginn
 postAddAccountRecovery-subject-2 = Endurheimtulykill reiknings útbúinn
 postAddAccountRecovery-title2 = Þú bjóst til nýjan endurheimtarlykil fyrir reikninginn
 # Information on the browser and device triggering this string follows.
