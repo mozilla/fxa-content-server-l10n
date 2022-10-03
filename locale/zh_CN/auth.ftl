@@ -208,6 +208,8 @@ fraudulentAccountDeletion-contact = 如有疑问，请联系我们的<a data-l10
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = 如有疑问，请联系我们的用户支持团队：{ $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = 您备用验证码已用尽！
 codes-reminder-description-part-one = 备用验证码可帮助您在忘记密码时恢复信息。
 lowRecoveryCodes-action-2 = 创建验证码
 codes-create-plaintext = { lowRecoveryCodes-action-2 }：
@@ -240,6 +242,8 @@ passwordReset-title = 您的密码已变更
 passwordReset-description = 您必须在其他设备上输入新密码才能继续同步。
 passwordResetAccountRecovery-subject-2 = 您的密码已重置
 passwordResetAccountRecovery-title-2 = 密码重置成功
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = 生成新的账户救援密钥
 postAddAccountRecovery-subject-2 = 已创建账户救援密钥
 postAddAccountRecovery-title2 = 您创建了一个新的账户救援密钥
 # Information on the browser and device triggering this string follows.
@@ -269,6 +273,10 @@ postChangePrimary-description = 您已成功将主邮箱更改为 { $email }。�
 postChangePrimary-action = 管理账户
 postConsumeRecoveryCode-action = 管理账户
 postNewRecoveryCodes-action = 管理账户
+postRemoveAccountRecovery-subject-2 = 已删除账户救援密钥
+postRemoveAccountRecovery-title-2 = 您已删除账户救援密钥。
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = 删除自：
 postRemoveAccountRecovery-action = 管理账户
 postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = 已移除备用邮箱

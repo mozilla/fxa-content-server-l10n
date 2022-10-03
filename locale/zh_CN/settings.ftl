@@ -349,10 +349,14 @@ display-name-success-alert-2 = 显示名称已更新
 recovery-key-cancel-button = 取消
 recovery-key-close-button = 关闭
 recovery-key-continue-button = 继续
+recovery-key-created-1 = 您的账户救援密钥已创建。请确保将密钥保存在安全的位置，以备日后可轻易找到。如果您忘记了密码，则需要使用此密钥来重新获得对数据的访问权限。
 recovery-key-enter-password =
     .label = 请输入密码
+recovery-key-page-title-1 =
+    .title = 账户救援密钥
 recovery-key-step-1 = 步骤（1 / 2）
 recovery-key-step-2 = 步骤（2 / 2）
+recovery-key-success-alert-3 = 已创建账户救援密钥
 
 ## Add secondary email page
 
@@ -465,15 +469,18 @@ row-defaults-status = 无
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = 账户救援密钥
 rk-enabled = 已启用
 rk-not-set = 未设置
 rk-action-create = 创建
 rk-action-remove = 移除
 rk-key-removed-2 = 已移除账户救援密钥
 rk-cannot-remove-key = 无法删除您的账户救援密钥。
+rk-refresh-key-1 = 刷新账户救援密钥
 rk-content-explain = 当您忘记密码时恢复数据。
 rk-content-reset-data = 为什么重置密码时会重置我的数据？
 rk-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
+rk-remove-modal-heading-1 = 要移除账户救援密钥吗？
 rk-remove-error-2 = 无法删除您的账户救援密钥
 
 ## Secondary email sub-section on main Settings page
