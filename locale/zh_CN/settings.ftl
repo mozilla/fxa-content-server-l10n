@@ -416,7 +416,7 @@ tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExt
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = 使用恢复码 { $secret } 在支持的应用程序中设置两步验证。
+tfa-qa-code-alt = 使用安全码 { $secret } 在支持的应用程序中设置两步验证。
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = 无法扫码？
@@ -425,7 +425,7 @@ tfa-enter-secret-key = 请在身份验证应用输入此安全密钥：
 tfa-enter-totp = 现在请输入验证应用的中的安全码。
 tfa-input-enter-totp =
     .label = 请输入安全码
-tfa-save-these-codes-1 = 请妥善保管下列一次性账户恢复码，以便您在无移动设备的情况时使用。
+tfa-save-these-codes-1 = 请妥善保管下列一次性备用验证码，以便在移动设备不可用时使用。
 tfa-enter-recovery-code-1 =
     .label = 请输入备用验证码
 

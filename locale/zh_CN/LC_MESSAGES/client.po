@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-10-03 15:27+0000\n"
+"PO-Revision-Date: 2022-10-03 15:36+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1189,7 +1189,7 @@ msgstr "保存备用验证码"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr "请妥善保管以下这些仅能使用一次的恢复码，以便您在没有移动设备时使用。"
+msgstr "请妥善保管下列一次性恢复码，以便在移动设备不可用时使用。"
 
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
@@ -1240,7 +1240,7 @@ msgstr "扫描验证码"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
-msgstr "手动输入恢复码"
+msgstr "手动输入安全码"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
