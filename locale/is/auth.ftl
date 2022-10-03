@@ -73,14 +73,6 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Sæktu { $prod
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Sæktu { $productName } í { -app-store }">
-another-desktop-device = Eða settu upp á <a data-l10n-name="anotherDeviceLink">annarri vinnutölvu</a>.
-another-device = Eða settu upp á <a data-l10n-name="anotherDeviceLink">öðru tæki</a>.
-automated-email-change =
-    Þetta er sjálfvirkur tölvupóstur; ef þú heimilaðir ekki þessa aðgerð, skaltu <a data-l10n-name="passwordChangeLink">breyta lykilorðinu þínu</a>.
-    Til að sjá frekari upplýsingar, geturðu farið á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
-# Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Þetta er sjálfvirkur tölvupóstur; ef það varst ekki þú sem bættir nýju tæki á { -product-firefox-account } þinn, ættirðu að endurstilla lykilorðið þitt strax á { $passwordChangeLink }
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext }Til að sjá frekari upplýsingar, skaltu fara á <a data-l10n-name="supportLink">{ -brand-mozilla } aðstoðargáttina</a>.
 automated-email-no-action-plaintext = Þetta er sjálfvirkur tölvupóstur. Ef þú fékkst hann fyrir mistök þarftu ekki að gera neitt.
@@ -197,16 +189,12 @@ fraudulentAccountDeletion-contact = Ef þú ert með einhverjar spurningar skalt
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ef þú ert með einhverjar spurningar skaltu hafa samband við aðstoðarteymið okkar: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Fáir endurheimtukóðar eftir
-codes-reminder-description = Við tókum eftir því að þú ert að verða uppiskroppa með endurheimtarkóða. Íhugaðu að búa til nýja kóða til að forðast að læsast úti af reikningnum þínum.
-codes-generate = Útbúa kóða
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Útbúa kóða
-lowRecoveryCodes-subject =
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [one] 1 endurheimtukóði eftir
-       *[other] { $numberRemaining } endurheimtukóðar eftir
+        [0] Enginn varaauðkenningarkóði eftir
+        [one] Aðeins 1 varaauðkenningarkóði eftir
+       *[other] Aðeins { $numberRemaining } varaauðkenningarkóðar eftir!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -235,13 +223,8 @@ passwordChangeRequired-different-password-plaintext = Mikilvægt: Veldu annað l
 passwordReset-subject = Lykilorð uppfært
 passwordReset-title = Lykilorð reikningsins þíns breyttist
 passwordReset-description = Þú verður að setja inn nýja lykilorðið þitt á öðrum tækjum til að halda áfram með samstillingu.
-passwordResetAccountRecovery-subject = Lykilorð uppfært með endurheimtulykli
-passwordResetAccountRecovery-title = Lykilorð reikningsins þíns hefur verið endurstillt með endurheimtulykli
-passwordResetAccountRecovery-description = Þú hefur endurstillt lykilorðið þitt með endurheimtulykli úr eftirfarandi tæki:
-passwordResetAccountRecovery-action = Útbúðu nýjan endurheimtulykil
-passwordResetAccountRecovery-regen-required = Þú munt þurfa að útbúa nýjan endurheimtulykil.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Útbúðu nýjan endurheimtulykil:
+passwordResetAccountRecovery-subject-2 = Lykilorðið þitt var endurstillt
+passwordResetAccountRecovery-title-2 = Það tókst að endurstilla lykilorð
 postAddAccountRecovery-subject-2 = Endurheimtulykill reiknings útbúinn
 postAddAccountRecovery-title2 = Þú bjóst til nýjan endurheimtarlykil fyrir reikninginn
 # Information on the browser and device triggering this string follows.
@@ -269,19 +252,9 @@ postChangePrimary-title = Nýtt aðaltölvupóstfang
 #  $email (String) - A user's email address
 postChangePrimary-description = Þú hefur náð að breyta aðaltölvupóstfanginu þínu í { $email }. Þetta póstfang er nú notandanafnið sem þú notar til að skrá þig inn á { -product-firefox-account }, ásamt því að þarna færðu öryggistilkynningar og staðfestingar á innskráningu.
 postChangePrimary-action = Sýsla með reikning
-postConsumeRecoveryCode-subject = Endurheimtukóði sem var notaður
-postConsumeRecoveryCode-title = Endurheimtukóði notaður
-postConsumeRecoveryCode-description = Þú hefur notað endurheimtukóða úr eftirfarandi tæki:
 postConsumeRecoveryCode-action = Sýsla með reikning
-postNewRecoveryCodes-subject = Nýir endurheimtukóðar útbúnir
-postNewRecoveryCodes-title = Nýir endurheimtukóðar útbúnir
-postNewRecoveryCodes-description = Þú hefur búið til nýja endurheimtukóða úr eftirfarandi tæki:
 postNewRecoveryCodes-action = Sýsla með reikning
-postRemoveAccountRecovery-subject = Endurheimtulykill reiknings fjarlægður
-postRemoveAccountRecovery-title = Endurheimtulykill reiknings fjarlægður
-postRemoveAccountRecovery-description = Þú hefur fjarlægt endurheimtulykil fyrir { -product-firefox-account } með því að nota eftirfarandi tæki:
 postRemoveAccountRecovery-action = Sýsla með reikning
-postRemoveAccountRecovery-invalid = Þennan endurheimtulykil er ekki lengur hægt að nota til að endurheimta reikninginn þinn.
 postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
 # Variables:
@@ -591,7 +564,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Mundu að staðfesta reikninginn þinn
 verificationReminderFirst-title-2 = Velkomin í { -brand-firefox }!
 verificationReminderFirst-description-2 = Fyrir nokkrum dögum bjóstu til { -product-firefox-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 15 daga eða honum verður sjálfkrafa eytt.
-verificationReminderFirst-sub-description-2 = Ekki missa af tækni sem setur þig og friðhelgi þína í fyrsta sæti.
 confirm-email-2 = Staðfesta reikning
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Staðfesta reikning

@@ -152,7 +152,7 @@ cs-sign-out-button = Útskráning
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Sótt
@@ -185,9 +185,9 @@ drop-down-menu-sign-out-error-2 = Því miður, upp kom vandamál við að skrá
 
 flow-container-back = Til baka
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Endurheimtukóðar
+get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-download =
     .title = Sækja
 get-data-trio-copy =
@@ -247,14 +247,8 @@ nav-data-collection = Gagnasöfnun og notkunarupplýsingar
 nav-paid-subs = Greiddar áskriftir
 nav-email-comm = Tölvupóstsamskipti
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Vandamál kom upp við að skipta um endurheimtarkóðana þína
-tfa-replace-code-success =
-    Nýir kóðar hafa verið útbúnir. Geymdu þessa einnota kóða
-     á öruggum stað - þú þarft þá til að fá aðgang að reikningnum þínum ef þú ert ekki
-    með farsímann þinn við hendina.
-tfa-replace-code-success-alert-2 = Endurheimtukóðar reiknings uppfærðir
 tfa-replace-code-1-2 = Skref 1 af 2
 tfa-replace-code-2-2 = Skref 2 af 2
 
@@ -364,19 +358,15 @@ display-name-success-alert-2 = Birtingarnafn uppfært
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Hætta við
 recovery-key-close-button = Loka
 recovery-key-continue-button = Halda áfram
-recovery-key-created = Endurheimtulykillinn þinn hefur verið útbúinn. Gakktu úr skugga um að lykilinn sé vistaður á öruggum stað sem þú getur auðveldlega fundið síðar - þú munt þurfa lykilinn til að fá aftur aðgang að gögnunum þínum ef þú gleymir lykilorðinu þínu.
 recovery-key-enter-password =
     .label = Settu inn lykilorð
-recovery-key-page-title =
-    .title = Endurheimtulykill
 recovery-key-step-1 = Skref 1 af 2
 recovery-key-step-2 = Skref 2 af 2
-recovery-key-success-alert-2 = Endurheimtulykill útbúinn
 
 ## Add secondary email page
 
@@ -424,8 +414,6 @@ tfa-button-cancel = Hætta við
 tfa-button-finish = Ljúka
 tfa-incorrect-totp = Rangur tveggja-þrepa auðkenningarkóði
 tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
-tfa-cannot-verify-code-3 = Vandamál kom upp við að staðfesta endurheimtukóðann þinn
-tfa-incorrect-recovery-code = Rangur endurheimtukóði
 tfa-enabled = Tveggja-þrepa auðkenning virkjuð
 tfa-scan-this-code =
     Skannaðu þennan QR-kóða með því að nota eitt af 
@@ -443,15 +431,6 @@ tfa-enter-secret-key = Settu þennan leynilykill inn í auðkenningarforritið �
 tfa-enter-totp = Settu nú inn öryggiskóðann úr auðkenningarforritinu.
 tfa-input-enter-totp =
     .label = Settu inn öryggiskóða
-tfa-save-these-codes =
-    Geymdu þessa einnota kóða á öruggum stað til að geta notað þá
-    þegar þú ert ekki með snjalltækið þitt við hendina.
-tfa-enter-code-to-confirm =
-    Settu núna inn einn af endurheimtukóðum þínum til
-    að staðfesta að þú hafir vistað hann. Þú þarft kóða ef þú týnir tækinu þínu og vilt
-    aftur fá aðgang að reikningnum þínum.
-tfa-enter-recovery-code =
-    .label = Settu inn endurheimtukóða
 
 ##
 
@@ -500,25 +479,17 @@ row-defaults-action-change = Breyta
 row-defaults-action-disable = Gera óvirkt
 row-defaults-status = Ekkert
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Endurheimtulykill
 rk-enabled = Virkjað
 rk-not-set = Ekki stillt
 rk-action-create = Búa til
 rk-action-remove = Fjarlægja
-rk-cannot-refresh = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
 rk-key-removed-2 = Endurheimtulykill reiknings fjarlægður
 rk-cannot-remove-key = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns.
-rk-refresh-key = Endurlesa endurheimtulykil
 rk-content-explain = Endurheimtu gögnin þín ef þú gleymir lykilorðinu þínu.
 rk-content-reset-data = Af hverju mun endurstilling lykilorðsins endurstilla gögnin mín?
 rk-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
-rk-remove-modal-heading = Fjarlægja endurheimtulykil?
-rk-remove-modal-content =
-    Ef þú endurstillir lykilorðið þitt, munt þú ekki geta
-    notað endurheimtulykilinn þinn til að fá aðgang að gögnunum þínum. Þú getur ekki afturkallað þessa aðgerð.
-rk-refresh-error = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
 rk-remove-error-2 = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns
 
 ## Secondary email sub-section on main Settings page
@@ -552,9 +523,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Gera að aðal
 se-default-content = Fáðu aðgang að reikningnum þínum ef þú getur ekki skráð þig inn á aðaltölvupóstfangið þitt.
-se-content-note =
-    Athugaðu: aukatölvupóstfang mun ekki endurheimta upplýsingarnar þínar - þú
-    munt þurfa <a>endurheimtarlykil</a> til þess.
 # Default value for the secondary email
 se-secondary-email-none = Ekkert
 
@@ -580,11 +548,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
-tfa-row-disable-modal-explain =
-    Þú munt ekki geta afturkallað þessa aðgerð. Þú hefur
-    einnig möguleika á að <linkExternal>skipta um endurheimtukóðana þína</linkExternal>.
 tfa-row-cannot-disable-2 = Ekki var hægt að gera tveggja-þrepa auðkenningu óvirka
-tfa-row-change-modal-heading = Skipta um endurheimtukóða?
 tfa-row-change-modal-confirm = Breyta
 tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
 
