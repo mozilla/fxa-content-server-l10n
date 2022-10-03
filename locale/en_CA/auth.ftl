@@ -22,6 +22,7 @@
 ## Non-email strings
 
 session-verify-send-push-title = Logging in to { -product-firefox-accounts }?
+session-verify-send-push-body-2 = Click here to confirm it’s you
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -72,9 +73,30 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Download { $pr
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Download { $productName } on the { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Install { $productName } on <a data-l10n-name="anotherDeviceLink"> another desktop device</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Install { $productName } on <a data-l10n-name="anotherDeviceLink"> another device</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Get { $productName } on Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Download { $productName } on the App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Install { $productName } on another device:
+automated-email-change-2 = If you didn’t take this action, <a data-l10n-name="passwordChangeLink">change your password</a> right away.
 automated-email-support = For more info, visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = If you didn’t take this action, change your password right away:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = For more info, visit { -brand-mozilla } Support:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } For more info, visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-no-action-plaintext = This is an automated email. If you received it by mistake, you don’t need to do anything.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = This is an automated email; if you did not authorize this action, then please change your password:
 automated-email-reset =
@@ -124,6 +146,9 @@ subscriptionUpdateBillingTry-plaintext = We’ll try your payment again over the
 subscriptionUpdatePayment = To prevent any interruption to your service, please <a data-l10n-name="updateBillingUrl">update your payment information</a> as soon as possible.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = To prevent any interruption to your service, please update your payment information as soon as possible:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = For more info, visit { -brand-mozilla } Support: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -185,6 +210,22 @@ fraudulentAccountDeletion-contact = If you have any questions, please contact ou
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = If you have any questions, please contact our support team: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = You’re out of backup authentication codes!
+codes-reminder-title-one = You’re on your last backup authentication code
+codes-reminder-title-two = Time to create more backup authentication codes
+codes-reminder-description-part-one = Backup authentication codes help you restore your info when you forget your password.
+codes-reminder-description-part-two = Create new codes now so you don’t lose your data later.
+codes-reminder-description-two-left = You only have two codes left.
+codes-reminder-description-create-codes = Create new backup authentication codes to help you get back into your account if you’re locked out.
+lowRecoveryCodes-action-2 = Create codes
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] No backup authentication codes left
+        [one] Only 1 backup authentication code left
+       *[other] Only { $numberRemaining } backup authentication codes left!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = New sign-in to { $clientName }
