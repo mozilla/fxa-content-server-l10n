@@ -173,6 +173,7 @@ flow-container-back = 返回
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } 账户救援密钥
 get-data-trio-download =
     .title = 下载
 get-data-trio-copy =
@@ -504,6 +505,7 @@ se-resend-code-2 = 需要验证账户。如果验证邮件不在您的收件箱�
 # Button to make secondary email the primary
 se-make-primary = 设为主邮箱
 se-default-content = 主邮箱不可用时，用此访问账户。
+se-content-note-1 = 注意：无法通过备用邮箱恢复您的数据 — 您需要使用<a>账户救援密钥</a>。
 # Default value for the secondary email
 se-secondary-email-none = 无
 
