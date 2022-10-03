@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-10-03 15:10+0000\n"
+"PO-Revision-Date: 2022-10-03 15:27+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -196,7 +196,7 @@ msgstr "已启用两步验证"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr "Firefox 账户救援密钥"
+msgstr "Firefox 账户恢复密钥"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -292,7 +292,7 @@ msgstr "密码重置成功"
 
 #: .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
-msgstr "账户救援已启用"
+msgstr "账户恢复已启用"
 
 #: .es5/lib/auth-errors.js:26 .es5/lib/oauth-errors.js:30 .es5/lib/pairing-channel-client-errors.js:18 .es5/lib/profile-errors.js:61 .es5/lib/profile-errors.js:69
 msgid "Unexpected error"
@@ -480,11 +480,11 @@ msgstr "设备口令不可用"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
-msgstr "找不到账户救援密钥"
+msgstr "找不到账户恢复密钥"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
-msgstr "无效的账户救援密钥"
+msgstr "无效的账户恢复密钥"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -685,7 +685,7 @@ msgstr "备用验证码无效"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
-msgstr "需要使用账户救援密钥"
+msgstr "需要使用账户恢复密钥"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -893,7 +893,7 @@ msgstr "接收新链接"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr "使用账户救援密钥重置密码"
+msgstr "使用账户恢复密钥重置密码"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -906,24 +906,24 @@ msgstr "以进入 %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "请输入您存放在安全位置的一次性账户救援密钥，以重新获得对 Firefox 账户的访问权限。"
+msgstr "请输入您存放在安全位置的一次性账户恢复密钥，以重新获得对 Firefox 账户的访问权限。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr "<span class=\"note\">注意：</span>若您重置了密码并且没有保存救援密钥，您的某些数据将会被清除（包含历史记录、书签等已同步的服务器数据）。"
+msgstr "<span class=\"note\">注意：</span>若您重置了密码并且没有保存恢复密钥，您的某些数据将会被清除（包含历史记录、书签等已同步的服务器数据）。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr "请输入账户救援密钥"
+msgstr "请输入账户恢复密钥"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm account recovery key"
-msgstr "确认账户救援密钥"
+msgstr "确认账户恢复密钥"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr "没有账户救援密钥吗？"
+msgstr "没有账户恢复密钥吗？"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -969,7 +969,7 @@ msgstr "<span>牢记：</span>重置密码的同时也会重置账户。👉 您
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "已成功使用账户救援密钥恢复您的账户。请设置新的密码来加密您的数据，并将密码保存在安全的地方。"
+msgstr "已成功使用账户恢复密钥恢复您的账户。请设置新的密码来加密您的数据，并将密码保存在安全的地方。"
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1189,7 +1189,7 @@ msgstr "保存备用验证码"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr "请妥善保管以下这些仅能使用一次的救援码，以便您在没有移动设备时使用。"
+msgstr "请妥善保管以下这些仅能使用一次的恢复码，以便您在没有移动设备时使用。"
 
 #: .es5/templates/inline_recovery_setup.mustache:5 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:5
 msgid "Download"
@@ -1240,7 +1240,7 @@ msgstr "扫描验证码"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
-msgstr "手动输入救援码"
+msgstr "手动输入恢复码"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1334,7 +1334,7 @@ msgstr "您的账户准备好了！"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr "生成新的账户救援密钥"
+msgstr "生成新的账户恢复密钥"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1595,7 +1595,7 @@ msgstr "第 1 步，共 2 步：重新输入密码"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr "请输入密码以查看您的账户救援密钥。"
+msgstr "请输入密码以查看您的账户恢复密钥。"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1822,7 +1822,7 @@ msgstr "<span class=\"number\">4.</span> 登录您的账户"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr "使用账户救援密钥保护您的数据"
+msgstr "使用账户恢复密钥保护您的数据"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1834,19 +1834,19 @@ msgstr "由于这些数据相当重要，Firefox 会在重置密码后删除它�
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr "获取账户救援密钥"
+msgstr "获取账户恢复密钥"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr "请输入 %(escapedEmail)s 的密码，以生成账户救援密钥。"
+msgstr "请输入 %(escapedEmail)s 的密码，以生成账户恢复密钥。"
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr "请输入账户救援密钥以确认您已保存副本。"
+msgstr "请输入账户恢复密钥以确认您已保存副本。"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr "保存账户救援密钥"
+msgstr "保存账户恢复密钥"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"

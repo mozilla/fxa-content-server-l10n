@@ -215,6 +215,7 @@ codes-reminder-title-two = 立即生成更多备用验证码
 codes-reminder-description-part-one = 备用验证码可帮助您在忘记密码时恢复信息。
 codes-reminder-description-part-two = 生成新的验证码，避免意外丢失数据。
 codes-reminder-description-two-left = 只剩下两枚备用验证码。
+codes-reminder-description-create-codes = 生成新的备用验证码，万一被锁定，可以帮助您重新进入账户。
 lowRecoveryCodes-action-2 = 创建验证码
 codes-create-plaintext = { lowRecoveryCodes-action-2 }：
 lowRecoveryCodes-subject-2 =
@@ -252,9 +253,9 @@ passwordReset-description = 您必须在其他设备上输入新密码才能继�
 passwordResetAccountRecovery-subject-2 = 您的密码已重置
 passwordResetAccountRecovery-title-2 = 密码重置成功
 # Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = 生成新的账户救援密钥
-postAddAccountRecovery-subject-2 = 已创建账户救援密钥
-postAddAccountRecovery-title2 = 您创建了一个新的账户救援密钥
+passwordResetAccountRecovery-action-2 = 生成新的账户恢复密钥
+postAddAccountRecovery-subject-2 = 已创建账户恢复密钥
+postAddAccountRecovery-title2 = 您已生成新的账户恢复密钥
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = 从下列位置创建了一个新密钥：
 # This is asking whether the person who took the action is the recipient of the email.
@@ -293,12 +294,12 @@ postNewRecoveryCodes-title-2 = 您已生成新的备用验证码
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = 创建于：
 postNewRecoveryCodes-action = 管理账户
-postRemoveAccountRecovery-subject-2 = 已删除账户救援密钥
-postRemoveAccountRecovery-title-2 = 您已删除账户救援密钥。
+postRemoveAccountRecovery-subject-2 = 已删除账户恢复密钥
+postRemoveAccountRecovery-title-2 = 您已删除账户恢复密钥。
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = 删除自：
 postRemoveAccountRecovery-action = 管理账户
-postRemoveAccountRecovery-invalid-2 = 若您忘记密码，需要账户救援密钥才可救回 { -brand-firefox } 账户的数据。
+postRemoveAccountRecovery-invalid-2 = 若您忘记密码，需要账户恢复密钥才可救回 { -brand-firefox } 账户的数据。
 postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = 已移除备用邮箱
 # Variables:

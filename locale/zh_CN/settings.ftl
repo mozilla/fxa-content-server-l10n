@@ -174,7 +174,7 @@ flow-container-back = 返回
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
-get-data-trio-title-firefox-recovery-key = { -brand-firefox } 账户救援密钥
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } 账户恢复密钥
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } 备用验证码
 get-data-trio-download =
     .title = 下载
@@ -353,14 +353,14 @@ display-name-success-alert-2 = 显示名称已更新
 recovery-key-cancel-button = 取消
 recovery-key-close-button = 关闭
 recovery-key-continue-button = 继续
-recovery-key-created-1 = 您的账户救援密钥已创建。请确保将密钥保存在安全的位置，以备日后可轻易找到。如果您忘记了密码，则需要使用此密钥来重新获得对数据的访问权限。
+recovery-key-created-1 = 您的账户恢复密钥已创建。请确保将密钥保存在安全的位置，以备日后可轻易找到。如果您忘记了密码，则需要使用此密钥来重新获得对数据的访问权限。
 recovery-key-enter-password =
     .label = 请输入密码
 recovery-key-page-title-1 =
-    .title = 账户救援密钥
+    .title = 账户恢复密钥
 recovery-key-step-1 = 步骤（1 / 2）
 recovery-key-step-2 = 步骤（2 / 2）
-recovery-key-success-alert-3 = 已创建账户救援密钥
+recovery-key-success-alert-3 = 已创建账户恢复密钥
 
 ## Add secondary email page
 
@@ -407,7 +407,7 @@ tfa-button-continue = 继续
 tfa-button-cancel = 取消
 tfa-button-finish = 完成
 tfa-incorrect-totp = 错误的两步验证码
-tfa-cannot-retrieve-code = 检索您的救援码时出现问题。
+tfa-cannot-retrieve-code = 检索您的验证码时出现问题。
 tfa-cannot-verify-code-4 = 确认您的备用验证码时出现问题
 tfa-incorrect-recovery-code-1 = 备份验证码不正确
 tfa-enabled = 已启用两步验证
@@ -416,7 +416,7 @@ tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExt
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = 使用救援码 { $secret } 在支持的应用程序中设置两步验证。
+tfa-qa-code-alt = 使用恢复码 { $secret } 在支持的应用程序中设置两步验证。
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = 无法扫码？
@@ -425,7 +425,7 @@ tfa-enter-secret-key = 请在身份验证应用输入此安全密钥：
 tfa-enter-totp = 现在请输入验证应用的中的安全码。
 tfa-input-enter-totp =
     .label = 请输入安全码
-tfa-save-these-codes-1 = 请妥善保管下列一次性账户救援码，以便您在无移动设备的情况时使用。
+tfa-save-these-codes-1 = 请妥善保管下列一次性账户恢复码，以便您在无移动设备的情况时使用。
 tfa-enter-recovery-code-1 =
     .label = 请输入备用验证码
 
@@ -478,22 +478,22 @@ row-defaults-status = 无
 
 ## Account recovery key sub-section on main Settings page
 
-rk-header-1 = 账户救援密钥
+rk-header-1 = 账户恢复密钥
 rk-enabled = 已启用
 rk-not-set = 未设置
 rk-action-create = 创建
 rk-action-remove = 移除
-rk-cannot-refresh-1 = 抱歉，刷新账户救援密钥时出现问题。
-rk-key-removed-2 = 已移除账户救援密钥
-rk-cannot-remove-key = 无法删除您的账户救援密钥。
-rk-refresh-key-1 = 刷新账户救援密钥
+rk-cannot-refresh-1 = 抱歉，刷新账户恢复密钥时出现问题。
+rk-key-removed-2 = 已移除账户恢复密钥
+rk-cannot-remove-key = 无法删除您的账户恢复密钥。
+rk-refresh-key-1 = 刷新账户恢复密钥
 rk-content-explain = 当您忘记密码时恢复数据。
 rk-content-reset-data = 为什么重置密码时会重置我的数据？
 rk-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
-rk-remove-modal-heading-1 = 要移除账户救援密钥吗？
-rk-remove-modal-content-1 = 一旦重置密码，就无法再使用账户救援密钥访问您的数据。此操作不可撤销。
-rk-refresh-error-1 = 抱歉，刷新账户救援密钥时出现问题。
-rk-remove-error-2 = 无法删除您的账户救援密钥
+rk-remove-modal-heading-1 = 要移除账户恢复密钥吗？
+rk-remove-modal-content-1 = 一旦重置密码，就无法再使用账户恢复密钥访问您的数据。此操作不可撤销。
+rk-refresh-error-1 = 抱歉，刷新账户恢复密钥时出现问题。
+rk-remove-error-2 = 无法删除您的账户恢复密钥
 
 ## Secondary email sub-section on main Settings page
 
@@ -524,7 +524,7 @@ se-resend-code-2 = 需要验证账户。如果验证邮件不在您的收件箱�
 # Button to make secondary email the primary
 se-make-primary = 设为主邮箱
 se-default-content = 主邮箱不可用时，用此访问账户。
-se-content-note-1 = 注意：无法通过备用邮箱恢复您的数据 — 您需要使用<a>账户救援密钥</a>。
+se-content-note-1 = 注意：无法通过备用邮箱恢复您的数据 — 您需要使用<a>账户恢复密钥</a>。
 # Default value for the secondary email
 se-secondary-email-none = 无
 
