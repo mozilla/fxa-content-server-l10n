@@ -259,6 +259,9 @@ passwordResetAccountRecovery-title-2 = Það tókst að endurstilla lykilorð
 passwordResetAccountRecovery-description-2 = Þú notaðir endurheimtulykil reikningsins þíns til að uppfæra lykilorðið þitt frá:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Útbúa nýjan endurheimtarlykil fyrir reikninginn
+passwordResetAccountRecovery-regen-required-mjml-1 = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Mundu að búa til nýjan endurheimtulykil í stað þess sem þú notaðir.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Mundu að búa til nýjan endurheimtulykil í stað þess sem þú notaðir:
 postAddAccountRecovery-subject-2 = Endurheimtulykill reiknings útbúinn
 postAddAccountRecovery-title2 = Þú bjóst til nýjan endurheimtarlykil fyrir reikninginn
 # Information on the browser and device triggering this string follows.
@@ -286,9 +289,26 @@ postChangePrimary-title = Nýtt aðaltölvupóstfang
 #  $email (String) - A user's email address
 postChangePrimary-description = Þú hefur náð að breyta aðaltölvupóstfanginu þínu í { $email }. Þetta póstfang er nú notandanafnið sem þú notar til að skrá þig inn á { -product-firefox-account }, ásamt því að þarna færðu öryggistilkynningar og staðfestingar á innskráningu.
 postChangePrimary-action = Sýsla með reikning
+postConsumeRecoveryCode-title-2 = Þú notaðir öryggisafrit auðkenningarkóða
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Það var notað á:
 postConsumeRecoveryCode-action = Sýsla með reikning
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 varaauðkenningarkóði eftir
+       *[other] { $numberRemaining } varaauðkenningarkóðar eftir
+    }
+postNewRecoveryCodes-subject-2 = Ný öryggisafrit auðkenningarkóða búin til
+postNewRecoveryCodes-title-2 = Þú bjóst til öryggisafrit auðkenningarkóða
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Þau voru búin til á:
 postNewRecoveryCodes-action = Sýsla með reikning
+postRemoveAccountRecovery-subject-2 = Endurheimtulykli reiknings eytt
+postRemoveAccountRecovery-title-2 = Þú eyddir endurheimtulykli fyrir reikninginn þinn.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Honum var eytt af:
 postRemoveAccountRecovery-action = Sýsla með reikning
+postRemoveAccountRecovery-invalid-2 = Þú þarft endurheimtulykil til að endurheimta { -brand-firefox } gögnin þín ef þú gleymir lykilorðinu þínu.
 postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
 # Variables:
