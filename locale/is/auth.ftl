@@ -599,6 +599,7 @@ subscriptionUpgrade-upgrade-info = Þér hefur tekist að uppfæra úr { $produc
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Frá og með næsta reikningi þínum mun gjaldið þitt breytast úr { $paymentAmountOld } á { $productPaymentCycleOld } í { $paymentAmountNew } á { $productPaymentCycleNew }. Á þeim tímapunkti verður þú einnig krafin/n um { $paymentProrated } eins-skiptis upphæð til að endurspegla hærra gjald fyrir það sem eftir er af þessum { $productPaymentCycleOld }.
+subscriptionUpgrade-content-charge-info-different-cycle = Þú færð rukkun um eins-skiptis-greiðslu sem nemur { $paymentProrated } til að endurspegla hærra verð áskriftarinnar þinnar fyrir það sem eftir er af { $productPaymentCycleOld }. Frá og með næsta reikningi breytist gjaldið þitt úr { $paymentAmountOld } á { $productPaymentCycleOld } í { $paymentAmountNew } á { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Ef nauðsynlegt er að þú setjir upp nýjan hugbúnað til að geta notað { $productName }, munt þú fá sendan sérstakann tölvupóst með leiðbeiningum varðandi niðurhal.
@@ -618,6 +619,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Mundu að staðfesta reikninginn þinn
 verificationReminderFirst-title-2 = Velkomin í { -brand-firefox }!
 verificationReminderFirst-description-2 = Fyrir nokkrum dögum bjóstu til { -product-firefox-account }, en staðfestir hann aldrei. Staðfestu reikninginn þinn innan 15 daga eða honum verður sjálfkrafa eytt.
+verificationReminderFirst-sub-description-3 = Ekki missa af tækni sem setur þig og friðhelgi þína í fyrsta sæti.
 confirm-email-2 = Staðfesta reikning
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Staðfesta reikning
