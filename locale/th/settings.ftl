@@ -122,6 +122,11 @@ cs-disconnect-sync-opt-not-say = ไม่ระบุ
 cs-disconnect-advice-confirm = ตกลง เข้าใจแล้ว
 cs-disconnect-lost-advice-heading = อุปกรณ์ที่สูญหายหรือถูกขโมยถูกตัดการเชื่อมต่อ
 cs-disconnect-suspicious-advice-heading = อุปกรณ์ที่น่าสงสัยถูกตัดการเชื่อมต่อ
+cs-disconnect-suspicious-advice-content =
+    ถ้าอุปกรณ์ที่ตัดการเชื่อมต่อนั้นน่าสงสัยจริง ๆ
+    เพื่อรักษาข้อมูลของคุณให้ปลอดภัย คุณควรเปลี่ยนรหัสผ่าน{ -product-firefox-account }
+    ของคุณในการตั้งค่าบัญชี นอกจากนี้คุณควรเปลี่ยนรหัสผ่านอื่น ๆ
+    ที่คุณบันทึกไว้ใน { -brand-firefox } โดยพิมพ์ about:logins ลงในแถบที่อยู่
 cs-sign-out-button = ลงชื่อออก
 
 ##
@@ -138,6 +143,7 @@ datablock-print =
 
 ## Data collection section
 
+dc-heading = การเก็บรวบรวมและใช้ข้อมูล
 
 # DropDownAvatarMenu component
 
