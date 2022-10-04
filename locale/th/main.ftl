@@ -58,10 +58,13 @@ settings-subscriptions-title = การสมัครสมาชิก
 
 terms = เงื่อนไขการให้บริการ
 privacy = ประกาศความเป็นส่วนตัว
+terms-download = ดาวน์โหลดข้อกำหนด
 
 ## Subscription titles
 
+subscription-create-title = ตั้งค่าการสมัครสมาชิกของคุณ
 subscription-success-title = ยืนยันการสมัครสมาชิก
+subscription-processing-title = กำลังยืนยันการสมัครสมาชิก…
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -303,6 +306,7 @@ plan-details-total-label = รวมทั้งหมด
 
 ## Coupons
 
+coupon-submit = นำไปใช้
 
 ## Payment processing
 

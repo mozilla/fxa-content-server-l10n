@@ -23,6 +23,7 @@ alert-bar-close-message = ปิดข้อความ
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox Accounts
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -31,6 +32,7 @@ alert-bar-close-message = ปิดข้อความ
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +71,7 @@ bento-menu-firefox-title = { -brand-firefox } เป็นเทคโนโล�
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = เบราว์เซอร์ { -brand-firefox } สำหรับเดสก์ท็อป
 bento-menu-firefox-mobile = เบราว์เซอร์ { -brand-firefox } สำหรับมือถือ
 bento-menu-made-by-mozilla = สร้างโดย { -brand-mozilla }
@@ -87,27 +90,22 @@ cs-heading = บริการที่เชื่อมต่อ
 cs-description = ทุกสิ่งที่คุณใช้และลงชื่อเข้า
 cs-cannot-refresh = ขออภัย เกิดปัญหาในการรีเฟรชรายการบริการที่เชื่อมต่อ
 cs-cannot-disconnect = ไม่พบไคลเอ็นต์ ไม่สามารถยกเลิกการเชื่อมต่อได้
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = ออกจากระบบ { $service } แล้ว
 cs-refresh-button =
     .title = รีเฟรชบริการที่เชื่อมต่อ
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = รายการขาดหายหรือซ้ำ?
 cs-disconnect-sync-heading = ตัดการเชื่อมต่อจาก Sync
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    ข้อมูลการท่องเว็บของคุณจะยังคงอยู่บนอุปกรณ์ของคุณ ({ $device })
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+cs-disconnect-sync-content-2 =
+    ข้อมูลการท่องเว็บของคุณจะยังคงอยู่บน { $device }
     แต่จะไม่ซิงค์กับบัญชีของคุณอีกต่อไป
-cs-disconnect-sync-reason =
-    เหตุผลหลักที่ตัดการเชื่อมต่ออุปกรณ์นี้
-    คืออะไร?
+cs-disconnect-sync-reason-2 = เหตุผลหลักที่ตัดการเชื่อมต่อ { $device } มีอะไรบ้าง?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -129,7 +127,7 @@ cs-sign-out-button = ลงชื่อออก
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = ดาวน์โหลดแล้ว
@@ -149,15 +147,13 @@ drop-down-menu-title = เมนู { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>ลงชื่อเข้าแล้วในชื่อ</signin><user>{ $user }</user>
 drop-down-menu-sign-out = ลงชื่อออก
-drop-down-menu-sign-out-error = ขออภัย เกิดปัญหาในการลงชื่อออก
 
 ## Flow Container
 
 flow-container-back = กลับ
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = รหัสการกู้คืน
 get-data-trio-download =
     .title = ดาวน์โหลด
 get-data-trio-copy =
@@ -190,14 +186,7 @@ modal-cancel-button = ยกเลิก
 
 ## Modal Verify Session
 
-mvs-verify-your-email = ยืนยันอีเมลของคุณ
-mvs-enter-verification-code = ใส่รหัสตรวจสอบ
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = โปรดใส่รหัสตรวจสอบที่ส่งไปยัง <email>{ $email }</email> ภายใน 5 นาที
 msv-cancel-button = ยกเลิก
-msv-submit-button = ยืนยัน
 
 ## Settings Nav
 
@@ -208,10 +197,8 @@ nav-connected-services = บริการที่เชื่อมต่อ
 nav-paid-subs = การสมัครสมาชิกแบบเสียค่าใช้จ่าย
 nav-email-comm = การติดต่อสื่อสารทางอีเมล
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error = เกิดปัญหาในการเปลี่ยนรหัสกู้คืนของคุณ
-tfa-replace-code-success-alert = อัปเดตรหัสกู้คืนบัญชีแล้ว
 
 ## Avatar change page
 
@@ -239,9 +226,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = ไม่สามารถเริ่มใช้กล้องได้
 avatar-page-new-avatar =
     .alt = รูปโปรไฟล์ใหม่
-avatar-page-file-upload-error-2 = เกิดปัญหาในการอัปโหลดรูปโปรไฟล์ของคุณ
-avatar-page-delete-error-2 = เกิดปัญหาในการลบรูปโปรไฟล์ของคุณ
-avatar-page-image-too-large-error = ไฟล์ภาพมีขนาดใหญ่เกินกว่าจะอัปโหลดได้
 
 ##
 
@@ -250,14 +234,7 @@ avatar-page-image-too-large-error = ไฟล์ภาพมีขนาดใ�
 
 pw-change-header =
     .title = เปลี่ยนรหัสผ่าน
-pw-change-stay-safe = รักษาความปลอดภัยโดยอย่าใช้รหัสผ่านที่ซ้ำกัน รหัสผ่านของคุณ:
-pw-change-least-8-chars = ต้องมีอย่างน้อย 8 อักขระ
-pw-change-not-contain-email = ต้องไม่ใช่ที่อยู่อีเมลของคุณ
 pw-change-must-match = รหัสผ่านใหม่ตรงกับการยืนยัน
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    ต้องไม่ตรงกับ<linkExternal>รายการรหัสผ่าน
-    ที่พบบ่อย</linkExternal>
 pw-change-cancel-button = ยกเลิก
 pw-change-save-button = บันทึก
 pw-change-forgot-password-link = ลืมรหัสผ่าน?
@@ -267,7 +244,6 @@ pw-change-new-password =
     .label = ป้อนรหัสผ่านใหม่
 pw-change-confirm-password =
     .label = ยืนยันรหัสผ่านใหม่
-pw-change-success-alert = รหัสผ่านได้ถูกเปลี่ยนแล้ว
 
 ##
 
@@ -309,28 +285,22 @@ display-name-input =
     .label = ป้อนชื่อที่ใช้แสดง
 submit-display-name = บันทึก
 cancel-display-name = ยกเลิก
-display-name-update-error = เกิดปัญหาในการอัปเดตชื่อที่ใช้แสดงของคุณ
-display-name-success-alert = อัปเดตชื่อที่ใช้แสดงแล้ว
 
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = ยกเลิก
 recovery-key-close-button = ปิด
 recovery-key-continue-button = ดำเนินการต่อ
 recovery-key-enter-password =
     .label = ใส่รหัสผ่าน
-recovery-key-page-title =
-    .title = รหัสการกู้คืน
 recovery-key-step-1 = ขั้นตอนที่ 1 จาก 2
 recovery-key-step-2 = ขั้นตอนที่ 2 จาก 2
-recovery-key-success-alert = สร้างกุญแจการกู้คืนแล้ว
 
 ## Add secondary email page
 
-add-secondary-email-error = เกิดปัญหาในการสร้างอีเมลนี้
 add-secondary-email-page-title =
     .title = อีเมลสำรอง
 add-secondary-email-enter-address =
@@ -340,21 +310,9 @@ add-secondary-email-save-button = บันทึก
 
 ## Verify secondary email page
 
-verify-secondary-email-error = เกิดปัญหาในการส่งรหัสยืนยัน
 verify-secondary-email-page-title =
     .title = อีเมลสำรอง
-verify-secondary-email-verification-code =
-    .label = ใส่รหัสตรวจสอบ
 verify-secondary-email-cancel-button = ยกเลิก
-verify-secondary-email-verify-button = ยืนยัน
-# This string is an instruction in a form.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = โปรดใส่รหัสตรวจสอบที่ส่งไปยัง <strong>{ $email }</strong> ภายใน 5 นาที
-# This string is a confirmation message shown after verifying an email.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = เพิ่ม { $email } เรียบร้อยแล้ว
 
 ##
 
@@ -372,14 +330,10 @@ tfa-button-cancel = ยกเลิก
 tfa-button-finish = เสร็จสิ้น
 tfa-incorrect-totp = รหัสการยืนยันตัวบุคคลแบบสองขั้นตอนไม่ถูกต้อง
 tfa-cannot-retrieve-code = เกิดปัญหาในการดึงรหัสของคุณ
-tfa-cannot-verify-code = เกิดปัญหาในการตรวจสอบรหัสกู้คืนของคุณ
-tfa-incorrect-recovery-code = รหัสกู้คืนไม่ถูกต้อง
 tfa-enabled = เปิดใช้งานการยืนยันตัวบุคคลแบบสองขั้นตอนแล้ว
 tfa-button-cant-scan-qr = ไม่สามารถสแกนรหัสได้?
 tfa-input-enter-totp =
     .label = ป้อนรหัสความปลอดภัย
-tfa-enter-recovery-code =
-    .label = ใส่รหัสกู้คืน
 
 ##
 
@@ -411,26 +365,20 @@ row-defaults-action-change = เปลี่ยน
 row-defaults-action-disable = ปิดใช้งาน
 row-defaults-status = ไม่มี
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = กุญแจการกู้คืน
 rk-enabled = ถูกเปิดใช้งาน
 rk-not-set = ไม่ได้ตั้งค่า
 rk-action-create = สร้าง
 rk-action-remove = เอาออก
-rk-cannot-refresh = ขออภัย เกิดปัญหาในการรีเฟรชกุญแจการกู้คืน
-rk-key-removed = กุญแจกู้คืนบัญชีถูกเอาออกแล้ว
 rk-cannot-remove-key = ไม่สามารถลบกุญแจกู้คืนบัญชีของคุณ
-rk-refresh-key = รีเฟรชกุญแจกู้คืน
 rk-content-explain = เรียกคืนข้อมูลของคุณเมื่อคุณลืมรหัสผ่าน
-rk-remove-modal-heading = ต้องการเอากุญแจกู้คืนออกหรือไม่?
 
 ## Secondary email sub-section on main Settings page
 
 # Button to remove the secondary email
 se-remove-email =
     .title = ลบอีเมล
-se-unverified = ยังไม่ยืนยัน
 
 ##
 
@@ -449,4 +397,3 @@ tfa-row-change-modal-confirm = เปลี่ยน
 auth-error-102 = บัญชีที่ไม่รู้จัก
 auth-error-103 = รหัสผ่านไม่ถูกต้อง
 auth-error-110 = โทเคนไม่ถูกต้อง
-auth-error-138 = วาระที่ไม่ได้รับการยืนยัน
