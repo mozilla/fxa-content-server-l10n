@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-10-04 11:10+0000\n"
+"PO-Revision-Date: 2022-10-04 11:14+0000\n"
 "Last-Translator: Dzmitry <dzmitry.zubialevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -186,7 +186,7 @@ msgstr "Паказаць пароль"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Рэзервовыя коды аўтэнтыфікацыі Firefox"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -470,7 +470,7 @@ msgstr "TOTP-токен не знойдзены"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "Рэзервовы код аўтэнтыфікацыі не знойдзены"
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
@@ -675,11 +675,11 @@ msgstr "Няправільны код двухэтапнай аўтарызац�
 
 #: .es5/lib/auth-errors.js:567
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Патрэбен рэзервовы код аўтарызацыі"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Няправільны рэзервовы код аўтарызацыі"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
@@ -1193,7 +1193,7 @@ msgstr "Уліковы запіс Firefox таксама адкрывае дос
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "Захаваць рэзервовыя коды аўтэнтыфікацыі"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1224,7 +1224,7 @@ msgstr "Скасаваць наладку"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Пацвердзіць рэзервовы код аўтэнтыфікацыі"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
