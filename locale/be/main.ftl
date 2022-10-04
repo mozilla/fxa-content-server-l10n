@@ -13,6 +13,9 @@ project-brand = Уліковыя запісы Firefox
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+brand-name-google-play = { -brand-name-google } Play Store
 # App Store here refers to Apple's App Store not the generic app store.
 brand-name-apple-app-store = App Store
 document =
@@ -46,6 +49,7 @@ settings-subscriptions-title = Падпіскі
 
 terms = Умовы абслугоўвання
 privacy = Паведамленне аб прыватнасці
+terms-download = Умовы сцягвання
 
 ## Subscription titles
 
