@@ -261,7 +261,7 @@ passwordChangeRequired-different-password-plaintext = Important : choisissez un
 passwordReset-subject = Mot de passe mis à jour
 passwordReset-title = Le mot de passe de votre compte a été changé
 passwordReset-description = Vous devrez saisir votre nouveau mot de passe sur vos autres appareils pour reprendre la synchronisation.
-passwordResetAccountRecovery-subject-2 = Votre mot de passe à été réinitialisé
+passwordResetAccountRecovery-subject-2 = Votre mot de passe a été réinitialisé
 passwordResetAccountRecovery-title-2 = Mot de passe réinitialisé
 # Details of the device, location, IP address, and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Vous avez utilisé votre clé de récupération de compte pour mettre à jour votre mot de passe depuis :
