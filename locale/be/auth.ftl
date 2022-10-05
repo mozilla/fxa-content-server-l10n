@@ -140,6 +140,13 @@ codes-reminder-description-two-left = У вас засталося толькі 
 codes-reminder-description-create-codes = Стварыце новыя рэзервовыя коды аўтэнтыфікацыі, каб мець магчымасць увайсці ў свой уліковы запіс, калі вы заблакаваны.
 lowRecoveryCodes-action-2 = Стварыць коды
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Не засталося рэзервовых кодаў аўтэнтыфікацыі
+        [one] Застаўся толькі 1 рэзервовы код аўтэнтыфікацыі!
+        [few] Засталося толькі { $numberRemaining } рэзервовых кодаў аўтэнтыфікацыі!
+       *[many] Засталося толькі { $numberRemaining } рэзервовых кодаў аўтэнтыфікацыі!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Новы ўваход у { $clientName }
@@ -172,7 +179,18 @@ postAddTwoStepAuthentication-code-required = Цяпер пры кожным ув
 postChangePrimary-subject = Асноўны адрас эл.пошты зменены
 postChangePrimary-title = Новы асноўны адрас эл.пошты
 postChangePrimary-action = Кіраванне ўліковым запісам
+postConsumeRecoveryCode-title-2 = Вы выкарысталі рэзервовы код аўтэнтыфікацыі
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Ён быў выкарыстаны на:
 postConsumeRecoveryCode-action = Кіраванне ўліковым запісам
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Застаўся 1 рэзервовы код аўтэнтыфікацыі
+        [few] Засталося { $numberRemaining } рэзервовых кода аўтэнтыфікацыі
+       *[many] Засталося { $numberRemaining } рэзервовых кодаў аўтэнтыфікацыі
+    }
+postNewRecoveryCodes-subject-2 = Створаны новыя рэзервовыя коды аўтэнтыфікацыі
+postNewRecoveryCodes-title-2 = Вы стварылі новыя рэзервовыя коды аўтэнтыфікацыі
 postNewRecoveryCodes-action = Кіраванне ўліковым запісам
 postRemoveAccountRecovery-action = Кіраванне ўліковым запісам
 postRemoveSecondary-subject = Другі адрас эл.пошты выдалены
