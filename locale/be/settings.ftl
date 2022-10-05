@@ -158,6 +158,7 @@ flow-container-back = Назад
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ключ аднаўлення ўліковага запісу { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Рэзервовыя коды аўтэнтыфікацыі { -brand-firefox }
 get-data-trio-download =
     .title = Сцягнуць
 get-data-trio-copy =
@@ -216,6 +217,7 @@ nav-email-comm = Зносіны па электроннай пошце
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-success-alert-3 = Рэзервовыя коды аўтэнтыфікацыі ўліковага запісу абноўлены
 tfa-replace-code-1-2 = Крок 1 з 2
 tfa-replace-code-2-2 = Крок 2 з 2
 
@@ -372,6 +374,7 @@ tfa-button-cancel = Скасаваць
 tfa-button-finish = Гатова
 tfa-incorrect-totp = Няправільны код двухэтапнай аўтарызацыі
 tfa-cannot-retrieve-code = Узнікла праблема пры атрыманні вашага коду.
+tfa-incorrect-recovery-code-1 = Няправільны рэзервовы код аўтэнтыфікацыі
 tfa-enabled = Двухэтапная аўтарызацыя ўключана
 # This is the image alt text for a QR code.
 # Variables:
@@ -387,6 +390,8 @@ tfa-button-cant-scan-qr = Не ўдаецца сканаваць кода?
 tfa-enter-secret-key = Увядзіце гэты сакрэтны ключ у праграму аўтэнтыфікацыі:
 tfa-input-enter-totp =
     .label = Увядзіце код бяспекі
+tfa-enter-recovery-code-1 =
+    .label = Увядзіце рэзервовы код аўтарызацыі
 
 ##
 
@@ -487,6 +492,7 @@ tfa-row-cannot-verify-session-4 = На жаль, узнікла праблема
 tfa-row-disable-modal-heading = Адключыць двухэтапную аўтарызацыю?
 tfa-row-disable-modal-confirm = Адключыць
 tfa-row-cannot-disable-2 = Немагчыма адключыць двухэтапную аўтарызацыю
+tfa-row-change-modal-heading-1 = Змяніць рэзервовыя коды аўтэнтыфікацыі?
 tfa-row-change-modal-confirm = Змяніць
 tfa-row-change-modal-explain = Вы не зможаце адмяніць гэта дзеянне.
 

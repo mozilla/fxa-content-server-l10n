@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-10-04 13:59+0000\n"
+"PO-Revision-Date: 2022-10-05 10:05+0000\n"
 "Last-Translator: Dzmitry <dzmitry.zubialevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1435,11 +1435,11 @@ msgstr "Увядзіце рэзервовы код аўтарызацыі"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Калі ласка, увядзіце рэзервовы код аўтэнтыфікацыі, які быў прадастаўлены вам падчас наладжвання двухэтапнай аўтэнтыфікацыі."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Увядзіце 10-знакавы рэзервовы код аўтарызацыі"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
