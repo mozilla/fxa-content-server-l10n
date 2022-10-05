@@ -137,6 +137,7 @@ datablock-print =
 
 dc-heading = Збор і выкарыстанне дадзеных
 dc-subheader = Дапамажыце ўдасканаліць { -product-firefox-accounts }
+dc-subheader-content = Дазволіць { -product-firefox-accounts } адпраўляць тэхнічныя даныя і інфармацыя аб узаемадзеянні { -brand-mozilla }.
 dc-learn-more = Падрабязней
 
 # DropDownAvatarMenu component
