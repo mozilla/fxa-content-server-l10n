@@ -131,7 +131,13 @@ downloadSubscription-content-2 = Давайце пачнём выкарысто�
 downloadSubscription-link-action-2 = Пачаць
 fraudulentAccountDeletion-subject = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } быў выдалены
 fraudulentAccountDeletion-title = Ваш уліковы запіс быў выдалены
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = У вас скончыліся рэзервовыя коды аўтэнтыфікацыі!
+codes-reminder-title-one = Вы выкарыстоўваеце апошні рэзервовы код аўтэнтыфікацыі
+codes-reminder-title-two = Час стварыць больш рэзервовых кодаў аўтэнтыфікацыі
+codes-reminder-description-part-one = Рэзервовыя коды аўтэнтыфікацыі дапамогуць вам аднавіць вашу інфармацыю, калі вы забудзеце пароль.
 codes-reminder-description-two-left = У вас засталося толькі два коды.
+codes-reminder-description-create-codes = Стварыце новыя рэзервовыя коды аўтэнтыфікацыі, каб мець магчымасць увайсці ў свой уліковы запіс, калі вы заблакаваны.
 lowRecoveryCodes-action-2 = Стварыць коды
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
@@ -142,10 +148,14 @@ newDeviceLogin-subject = Новы ўваход у { $clientName }
 newDeviceLogin-title-2 = Ваш { -product-firefox-account } быў выкарыстаны для ўваходу
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
-newDeviceLogin-change-password = Не вы? <a data-l10n-name="passwordChangeLink">Змяніце свой пароль</a>.
+newDeviceLogin-change-password = Гэта былі не вы? <a data-l10n-name="passwordChangeLink">Змяніце свой пароль</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Гэта былі не вы? Змяніце свой пароль:
 newDeviceLogin-action = Кіраванне ўліковым запісам
 passwordChanged-subject = Пароль абноўлены
 passwordChanged-title = Пароль паспяхова зменены
+passwordChanged-description = Пароль вашага { -product-firefox-account } быў паспяхова зменены з наступнай прылады:
 passwordChangeRequired-subject = Выяўлена падазроная актыўнасць
 passwordChangeRequired-title = Патрабуецца змена пароля
 passwordChangeRequired-signoff = Усяго найлепшага,
