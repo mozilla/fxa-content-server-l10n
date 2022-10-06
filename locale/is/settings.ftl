@@ -440,6 +440,11 @@ tfa-input-enter-totp =
 tfa-save-these-codes-1 =
     Geymdu þessa einnota varaauðkenningarkóða á öruggum stað til að geta notað þá 
     þegar þú ert ekki með snjalltækið þitt við hendina.
+tfa-enter-code-to-confirm-1 =
+    Settu núna inn einn af varaauðkenningarkóðunum þínum til að
+    staðfesta að þú hafir vistað hann. Þú þarft kóða til að skrá þig inn ef þú hefur ekki aðgang að snjalltækinu þínu.
+tfa-enter-recovery-code-1 =
+    .label = Settu inn varaauðkenningarkóða
 
 ##
 
@@ -557,7 +562,11 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
+tfa-row-disable-modal-explain-1 =
+    Þú munt ekki geta afturkallað þessa aðgerð. Þú hefur
+    einnig möguleika á að <linkExternal>skipta um varaauðkenningarkóðana þína</linkExternal>.
 tfa-row-cannot-disable-2 = Ekki var hægt að gera tveggja-þrepa auðkenningu óvirka
+tfa-row-change-modal-heading-1 = Skipta um varaauðkenningarkóða?
 tfa-row-change-modal-confirm = Breyta
 tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.
 

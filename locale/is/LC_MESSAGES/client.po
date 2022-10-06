@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-10-06 10:27+0000\n"
+"PO-Revision-Date: 2022-10-06 10:50+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -197,7 +197,7 @@ msgstr "Tveggja-þrepa auðkenning virkjuð"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Endurheimtulykill fyrir Firefox-reikning"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -481,7 +481,7 @@ msgstr "Tækjaskipun ótiltæk"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Endurheimtulykill reiknings fannst ekki"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
