@@ -69,19 +69,6 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ -google-play
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ -app-store } で { $productName } をダウンロード">
-another-desktop-device = または <a data-l10n-name="anotherDeviceLink">別のデスクトップ端末</a> にインストールしてください。
-another-device = または <a data-l10n-name="anotherDeviceLink">別の端末</a> にインストールしてください。
-automated-email-change =
-    これは自動送信されたメールです。この操作に覚えがない場合は、<a data-l10n-name="passwordChangeLink">パスワードを変更してください</a>。
-    詳しい情報は <a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
-# Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = これは自動送信されたメールです。あなたが { -product-firefox-account }に新しい端末を追加したのではない場合は、{ $passwordChangeLink } で直ちにパスワードを変更してください。
-# supportLink - https://accounts.firefox.com/support (requires subscription to visit this URL)
-automated-email =
-    これは自動送信されたメールです。誤ってこのメールを受け取った場合は、何もする必要はありません。
-    詳しい情報は <a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
-automated-email-plaintext = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = これは自動送信されたメールです。この操作に覚えがない場合は、パスワードを変更してください:
 automated-email-reset =
@@ -132,9 +119,6 @@ subscriptionUpdatePayment = サービスの中断を防ぐため、できるだ�
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = サービスの中断を防ぐため、できるだけ早くお支払い情報を更新してください:
 # Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = 詳しい情報は { $supportUrl } をご覧ください。
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -183,22 +167,9 @@ downloadSubscription-title = { $productName } へようこそ。
 downloadSubscription-content-2 = サブスクリプションに含まれるすべての機能を使いましょう:
 downloadSubscription-link-action-2 = はじめに
 fraudulentAccountDeletion-title = あなたのアカウントは削除されました
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = 回復用コードが残り少なくなっています
-codes-reminder-description = あなたの回復用コードは残り少なくなっているようです。アカウントから閉め出されないように新たなコードの生成を検討してください。
-codes-generate = コードを生成
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = コードを生成
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-       *[other] 回復用コードの残り { $numberRemaining }
-    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } への新規ログイン
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = { $clientName } への新規ログイン
 newDeviceLogin-action = アカウント管理
 passwordChanged-subject = パスワードを更新しました
 passwordChanged-title = パスワード変更完了
@@ -214,19 +185,7 @@ passwordChangeRequired-different-password-plaintext = 重要: 以前に使用し
 passwordReset-subject = パスワードを更新しました
 passwordReset-title = アカウントのパスワードが変更されました
 passwordReset-description = 同期を再開するには、他の端末で新しいパスワードを入力する必要があります。
-passwordResetAccountRecovery-subject = 回復用キーでパスワードが更新されました
-passwordResetAccountRecovery-title = あなたのアカウントパスワードは回復用キーを使ってリセットされました
-passwordResetAccountRecovery-description = 次の端末から回復キーを使ったパスワードのリセットが完了しました:
-passwordResetAccountRecovery-action = 新しい回復用キーを作成
-passwordResetAccountRecovery-regen-required = 新しい回復用キーを生成する必要があります。
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = 新しい回復用キーを作成:
-postAddAccountRecovery-subject = アカウント回復用キーが生成されました
-postAddAccountRecovery-title = アカウント回復用キーが生成されました
-postAddAccountRecovery-description = 次の端末を使ってあなたの { -product-firefox-account }の回復用キーの生成が完了しました:
 postAddAccountRecovery-action = アカウント管理
-postAddAccountRecovery-recovery = これがあなたではない場合は、<a data-l10n-name="revokeAccountRecoveryLink">こちらをクリックしてください</a>。
-postAddAccountRecovery-revoke = これがあなたではない場合は、キーを無効化してください。
 postAddLinkedAccount-subject = { -brand-firefox } にリンクされた新しいアカウント
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -244,19 +203,9 @@ postChangePrimary-title = 新しい主要アドレス
 #  $email (String) - A user's email address
 postChangePrimary-description = { $email } への主要アドレス変更が完了しました。このアドレスは今後、{ -product-firefox-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
 postChangePrimary-action = アカウント管理
-postConsumeRecoveryCode-subject = 使用された回復用コード
-postConsumeRecoveryCode-title = 回復用コードが使用されました
-postConsumeRecoveryCode-description = 次の端末から回復用コードの使用が完了しました:
 postConsumeRecoveryCode-action = アカウント管理
-postNewRecoveryCodes-subject = 新しい回復用コードが生成されました
-postNewRecoveryCodes-title = 新しい回復用コードが生成されました
-postNewRecoveryCodes-description = 次の端末から新しい回復用コードの生成が完了しました:
 postNewRecoveryCodes-action = アカウント管理
-postRemoveAccountRecovery-subject = アカウント回復用キーが削除されました
-postRemoveAccountRecovery-title = アカウント回復用キーが削除されました
-postRemoveAccountRecovery-description = 次の端末を使ってあなたの { -product-firefox-account }の回復用キーの削除が完了しました:
 postRemoveAccountRecovery-action = アカウント管理
-postRemoveAccountRecovery-invalid = この回復用キーはもはやあなたのアカウントの回復には使用できません。
 postRemoveSecondary-subject = 予備アドレスが削除されました
 postRemoveSecondary-title = 予備アドレスが削除されました
 # Variables:
@@ -269,19 +218,10 @@ postRemoveTwoStepAuthentication-description = 次の端末から { -product-fire
 postRemoveTwoStepAuthentication-description-plaintext = { -product-firefox-account }上の 2 段階認証の無効化が完了しました。今後ログインのたびにセキュリティコードを入力する必要がなくなります。
 postRemoveTwoStepAuthentication-action = アカウント管理
 postRemoveTwoStepAuthentication-not-required = 今後ログインのたびにセキュリティコードを入力する必要はなくなります。
-postVerify-title = 次に、端末間で同期しましょう！
-postVerify-description = Sync は、同期したすべての端末間でブックマークやパスワード、他の { -brand-firefox } データを保護しながら同じに保ちます。
-postVerify-setup = 次の端末のセットアップ
-postVerify-action = 次の端末をセットアップする
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = ご質問はこちらから: { $supportUrl }
 postVerifySecondary-subject = 予備のメールアドレスが追加されました
 postVerifySecondary-title = 予備のメールアドレスが追加されました
 postVerifySecondary-action = アカウント管理
 recovery-subject = パスワードをリセットしました
-recovery-title = パスワード変更の必要がありますか？
-recovery-description = 1 時間以内にボタンをクリックして新しいパスワードを設定してください。このリクエストは次の端末から行われました:
 recovery-action = 新しいパスワードを設定
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -548,29 +488,8 @@ unblockCode-prompt = もしそうなら、ここに必要な認証コードが�
 unblockCode-prompt-plaintext = もしそうなら、次の認証コードが必要です: { $unblockCode }
 unblockCode-report = もし違うなら、侵入者を防ぐため <a data-l10n-name="reportSignInLink">問題を報告してください</a>。
 unblockCode-report-plaintext = もし違うなら、侵入者を防ぐため問題を報告してください。
-verificationReminderFirst-subject = 通知: アカウント作成を完了してください
-verificationReminderFirst-title = { -brand-firefox } ファミリーへようこそ
-verificationReminderFirst-description = 数日前に { -product-firefox-account }を作成されましたが、まだ確認が行われていません。
-verificationReminderFirst-sub-description = 今すぐ確認して、プライバシー保護と実践的な知識、ユーザーを尊重する技術を手に入れましょう。
-confirm-email = メールアドレス確認
-confirm-email-plaintext = { confirm-email }:
-verificationReminderFirst-action = メールアドレス確認
-verificationReminderSecond-subject = 最終通知：アカウントを有効にしてください
-verificationReminderSecond-title = まだお使いになりますか？
-verificationReminderSecond-sub-description = このメールアドレスを確認してアカウントを有効にし、問題がないことをお知らせください。
-verificationReminderSecond-action = メールアドレス確認
-verify-title = { -brand-firefox } ファミリーの製品を有効にしてください
-verify-description-plaintext = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。
 verify-description = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:
 verify-subject = アカウント作成を完了してください
-verify-action = メールアドレス確認
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title = { $clientName } への新規ログイン
-verifyLogin-description = 念のため、次の端末からのログインを確認してください:
-# Variables:
-#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-subject = { $clientName } への新規ログインを確認
 verifyLogin-action = ログインを確認
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -583,5 +502,4 @@ verifySecondaryCode-subject = 予備メールアドレスの確認
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の { -product-firefox-account }から行われました:
-verifyShortCode-title = これはあなたが登録しようとしているアカウントですか？
 verifyShortCode-expiry-notice = 5 分以内に確認コードを入力してください。
