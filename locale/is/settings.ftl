@@ -188,6 +188,7 @@ flow-container-back = Til baka
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } varaauðkenningarkóðar
 get-data-trio-download =
     .title = Sækja
 get-data-trio-copy =
@@ -249,6 +250,9 @@ nav-email-comm = Tölvupóstsamskipti
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Vandamál kom upp við að skipta um varaauðkenningarkóðana þína
+tfa-replace-code-success-1 = Nýir kóðar hafa verið útbúnir. Vistaðu þessa eins-skiptis varaauðkenningarkóða á öruggum stað - þú þarft þá til að fá aðgang að reikningnum þínum ef þú ert ekki með farsímann þinn.
+tfa-replace-code-success-alert-3 = Varaauðkenningarkóðar reiknings uppfærðir
 tfa-replace-code-1-2 = Skref 1 af 2
 tfa-replace-code-2-2 = Skref 2 af 2
 
@@ -414,6 +418,8 @@ tfa-button-cancel = Hætta við
 tfa-button-finish = Ljúka
 tfa-incorrect-totp = Rangur tveggja-þrepa auðkenningarkóði
 tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
+tfa-cannot-verify-code-4 = Vandamál kom upp við að staðfesta varaauðkenningarkóðann þinn
+tfa-incorrect-recovery-code-1 = Rangur varaauðkenningarkóði
 tfa-enabled = Tveggja-þrepa auðkenning virkjuð
 tfa-scan-this-code =
     Skannaðu þennan QR-kóða með því að nota eitt af 
