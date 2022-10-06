@@ -211,10 +211,10 @@ fraudulentAccountDeletion-contact = Ef þú ert með einhverjar spurningar skalt
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ef þú ert með einhverjar spurningar skaltu hafa samband við aðstoðarteymið okkar: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title-zero = Þú ert búinn með öryggisafrit auðkenningarkóða!
+codes-reminder-title-zero = Þú ert búinn með alla varaauðkenningarkóða!
 codes-reminder-title-one = Þú ert á síðasta varaauðkenningarkóðanum þínum
-codes-reminder-title-two = Tími til kominn að búa til fleiri öryggisafrit af auðkenningarkóða
-codes-reminder-description-part-one = Öryggisafrit auðkenningarkóða hjálpa þér að endurheimta upplýsingarnar þínar þegar þú gleymir lykilorðinu þínu.
+codes-reminder-title-two = Tími til kominn að búa til fleiri varaauðkenningarkóða
+codes-reminder-description-part-one = Varaauðkenningarkóðar hjálpa þér að endurheimta upplýsingarnar þínar þegar þú gleymir lykilorðinu þínu.
 codes-reminder-description-part-two = Útbúðu nýja kóða núna svo þú tapir ekki gögnunum þínum síðar.
 codes-reminder-description-two-left = Þú átt aðeins tvo kóða eftir.
 codes-reminder-description-create-codes = Búðu til nýja varaauðkenningarkóða til að hjálpa þér að komast aftur inn á reikninginn þinn ef þú lokast úti.
@@ -289,17 +289,17 @@ postChangePrimary-title = Nýtt aðaltölvupóstfang
 #  $email (String) - A user's email address
 postChangePrimary-description = Þú hefur náð að breyta aðaltölvupóstfanginu þínu í { $email }. Þetta póstfang er nú notandanafnið sem þú notar til að skrá þig inn á { -product-firefox-account }, ásamt því að þarna færðu öryggistilkynningar og staðfestingar á innskráningu.
 postChangePrimary-action = Sýsla með reikning
-postConsumeRecoveryCode-title-2 = Þú notaðir öryggisafrit auðkenningarkóða
+postConsumeRecoveryCode-title-2 = Þú notaðir varaauðkenningarkóða
 # After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Það var notað á:
+postConsumeRecoveryCode-description-2 = Hann var notaður á:
 postConsumeRecoveryCode-action = Sýsla með reikning
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
         [one] 1 varaauðkenningarkóði eftir
        *[other] { $numberRemaining } varaauðkenningarkóðar eftir
     }
-postNewRecoveryCodes-subject-2 = Ný öryggisafrit auðkenningarkóða búin til
-postNewRecoveryCodes-title-2 = Þú bjóst til öryggisafrit auðkenningarkóða
+postNewRecoveryCodes-subject-2 = Nýjir varaauðkenningarkóðar búnir til
+postNewRecoveryCodes-title-2 = Þú bjóst til varaauðkenningarkóða
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Þau voru búin til á:
 postNewRecoveryCodes-action = Sýsla með reikning
