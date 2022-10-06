@@ -91,6 +91,11 @@ connect-another-find-fx-mobile =
 cs-heading = Падключаныя паслугі
 cs-description = Усё, чым вы карыстаецеся і дзе ўвайшлі.
 cs-cannot-disconnect = Кліент не знойдзены, не ўдалося адключыць
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = Вы выйшлі з { $service }
 cs-refresh-button =
     .title = Абнавіць падключаныя паслугі
 # Link text to a support page on missing or duplicate devices
@@ -103,6 +108,7 @@ cs-disconnect-sync-heading = Адключыць сінхранізацыю
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-2 = Дадзеныя прагляду застануцца на { $device },але не будуць сінхранізавацца з вашым уліковым запісам.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
