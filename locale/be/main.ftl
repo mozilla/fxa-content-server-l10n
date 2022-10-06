@@ -290,6 +290,7 @@ payment-confirmation-amount = { $amount } за { $interval }
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 payment-confirmation-download-button = Працягнуць сцягванне
+payment-confirmation-cc-card-ending-in = Карта, нумар якой заканчваецца на { $last4 }
 
 ## New user email form
 
