@@ -437,6 +437,9 @@ tfa-enter-secret-key = Settu þennan leynilykill inn í auðkenningarforritið �
 tfa-enter-totp = Settu nú inn öryggiskóðann úr auðkenningarforritinu.
 tfa-input-enter-totp =
     .label = Settu inn öryggiskóða
+tfa-save-these-codes-1 =
+    Geymdu þessa einnota varaauðkenningarkóða á öruggum stað til að geta notað þá 
+    þegar þú ert ekki með snjalltækið þitt við hendina.
 
 ##
 
