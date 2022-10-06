@@ -258,12 +258,12 @@ passwordResetAccountRecovery-title-2 = Það tókst að endurstilla lykilorð
 # Details of the device, location, IP address, and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Þú notaðir endurheimtulykil reikningsins þíns til að uppfæra lykilorðið þitt frá:
 # Text for button action to initiate creating new account recovery key
-passwordResetAccountRecovery-action-2 = Útbúa nýjan endurheimtarlykil fyrir reikninginn
+passwordResetAccountRecovery-action-2 = Útbúa nýjan endurheimtulykil fyrir reikninginn
 passwordResetAccountRecovery-regen-required-mjml-1 = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Mundu að búa til nýjan endurheimtulykil í stað þess sem þú notaðir.
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Þú þarft að skrá þig inn aftur á öllum samstilltu tækjunum þínum. Mundu að búa til nýjan endurheimtulykil í stað þess sem þú notaðir:
 postAddAccountRecovery-subject-2 = Endurheimtulykill reiknings útbúinn
-postAddAccountRecovery-title2 = Þú bjóst til nýjan endurheimtarlykil fyrir reikninginn
+postAddAccountRecovery-title2 = Þú bjóst til nýjan endurheimtulykil fyrir reikninginn
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = Nýr lykill var búinn til á:
 # This is asking whether the person who took the action is the recipient of the email.

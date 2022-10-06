@@ -550,6 +550,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Gera að aðal
 se-default-content = Fáðu aðgang að reikningnum þínum ef þú getur ekki skráð þig inn á aðaltölvupóstfangið þitt.
+se-content-note-1 =
+    Athugaðu: aukatölvupóstfang mun ekki endurheimta upplýsingarnar þínar - þú
+    munt þurfa <a>endurheimtulykil reikningsins</a> til þess.
 # Default value for the secondary email
 se-secondary-email-none = Ekkert
 
