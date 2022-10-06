@@ -188,6 +188,7 @@ flow-container-back = Til baka
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Endurheimtulykill fyrir { -brand-firefox }-reikning
 get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } varaauðkenningarkóðar
 get-data-trio-download =
     .title = Sækja
@@ -367,10 +368,14 @@ display-name-success-alert-2 = Birtingarnafn uppfært
 recovery-key-cancel-button = Hætta við
 recovery-key-close-button = Loka
 recovery-key-continue-button = Halda áfram
+recovery-key-created-1 = Endurheimtulykillinn fyrir reikninginn þinn hefur verið útbúinn. Gakktu úr skugga um að lykilinn sé vistaður á öruggum stað sem þú getur auðveldlega fundið síðar - þú munt þurfa lykilinn til að fá aftur aðgang að gögnunum þínum ef þú gleymir lykilorðinu þínu.
 recovery-key-enter-password =
     .label = Settu inn lykilorð
+recovery-key-page-title-1 =
+    .title = Endurheimtulykill reiknings
 recovery-key-step-1 = Skref 1 af 2
 recovery-key-step-2 = Skref 2 af 2
+recovery-key-success-alert-3 = Endurheimtulykill reiknings útbúinn
 
 ## Add secondary email page
 
@@ -495,15 +500,23 @@ row-defaults-status = Ekkert
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Endurheimtulykill reiknings
 rk-enabled = Virkjað
 rk-not-set = Ekki stillt
 rk-action-create = Búa til
 rk-action-remove = Fjarlægja
+rk-cannot-refresh-1 = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
 rk-key-removed-2 = Endurheimtulykill reiknings fjarlægður
 rk-cannot-remove-key = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns.
+rk-refresh-key-1 = Endurlesa endurheimtulykil reiknings
 rk-content-explain = Endurheimtu gögnin þín ef þú gleymir lykilorðinu þínu.
 rk-content-reset-data = Af hverju mun endurstilling lykilorðsins endurstilla gögnin mín?
 rk-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
+rk-remove-modal-heading-1 = Fjarlægja endurheimtulykil reiknings?
+rk-remove-modal-content-1 =
+    Ef þú endurstillir lykilorðið þitt, munt þú ekki geta
+    notað endurheimtulykil reikningsins þíns til að fá aðgang að gögnunum þínum. Þú getur ekki afturkallað þessa aðgerð.
+rk-refresh-error-1 = Því miður kom upp vandamál við að endurlesa endurheimtulykilinn.
 rk-remove-error-2 = Ekki var hægt að fjarlægja endurheimtulykil reikningsins þíns
 
 ## Secondary email sub-section on main Settings page
