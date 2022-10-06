@@ -53,6 +53,7 @@ terms-download = Умовы сцягвання
 
 ## Subscription titles
 
+subscription-create-title = Наладзьце падпіску
 subscription-success-title = Пацверджанне падпіскі
 subscription-iapsubscribed-title = Ужо падпісаны
 
