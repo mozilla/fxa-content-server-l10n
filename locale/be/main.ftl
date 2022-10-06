@@ -55,6 +55,7 @@ terms-download = Умовы сцягвання
 
 subscription-create-title = Наладзьце падпіску
 subscription-success-title = Пацверджанне падпіскі
+subscription-processing-title = Пацвярджэнне падпіскі…
 subscription-iapsubscribed-title = Ужо падпісаны
 
 ## $productName (String) - The name of the subscribed product.
@@ -230,8 +231,13 @@ account-activated = Ваш уліковы запіс актываваны, <user
 
 sub-route-idx-contact = Звязацца з падтрымкай
 sub-route-idx-cancel-msg-title = Нам шкада, што вы сыходзіце
+sub-route-idx-cancel-aside = Ёсць пытанні? Наведайце <a>{ -brand-name-mozilla } службу падтрымкі</a>.
+sub-subscription-error =
+    .title = Праблема з загрузкай падпісак
 sub-customer-error =
     .title = Праблема з загрузкай кліента
+sub-invoice-error =
+    .title = Праблема з загрузкай рахункаў-фактур
 pay-update-manage-btn = Кіраваць
 
 ## Subscription create
@@ -294,6 +300,7 @@ new-user-email =
     .label = Увядзіце сваю электронную пошту
 new-user-confirm-email =
     .label = Пацвердзіце сваю электронную пошту
+new-user-card-title = Увядзіце даныя вашай карты
 new-user-submit = Падпісацца зараз
 payment-method-header = Выберыце спосаб аплаты
 # This message is used to indicate the second step in a multi step process.
