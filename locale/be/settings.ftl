@@ -448,6 +448,7 @@ row-defaults-status = Няма
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Ключ аднаўлення ўліковага запісу
 rk-enabled = Уключаны
 rk-not-set = Не ўстаноўлены
 rk-action-create = Стварыць
@@ -455,6 +456,7 @@ rk-action-remove = Выдаліць
 rk-key-removed-2 = Ключ аднаўлення ўліковага запісу выдалены
 rk-content-explain = Аднавіце сваю інфармацыі, калі забудзеце пароль.
 rk-cannot-verify-session-4 = На жаль, узнікла праблема з пацвярджэннем сеансу
+rk-remove-modal-heading-1 = Выдаліць ключ аднаўлення ўліковага запісу?
 
 ## Secondary email sub-section on main Settings page
 
