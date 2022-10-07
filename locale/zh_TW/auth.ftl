@@ -311,12 +311,12 @@ postRemoveSecondary-title = 已移除次要電子郵件地址
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = 您已成功將 { $secondaryEmail } 從 { -product-firefox-account } 的次要電子郵件信箱刪除。現在起將不會再寄送安全性通知與登入確認信到該信箱。
 postRemoveSecondary-action = 管理帳號
-postRemoveTwoStepAuthentication-subject-line = 兩階段驗證未開啟
-postRemoveTwoStepAuthentication-title = 已關閉兩階段驗證
-postRemoveTwoStepAuthentication-description = 您已從下列裝置成功為 { -product-firefox-account } 關閉兩階段驗證：
-postRemoveTwoStepAuthentication-description-plaintext = 您已成功關閉 { -product-firefox-account } 的兩階段驗證。登入時將不再要求您輸入安全碼。
+postRemoveTwoStepAuthentication-subject-line-2 = 已關閉兩階段驗證
+postRemoveTwoStepAuthentication-title-2 = 您已關閉兩階段驗證
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = 您從下列位置關閉：
 postRemoveTwoStepAuthentication-action = 管理帳號
-postRemoveTwoStepAuthentication-not-required = 登入時，將不再需要輸入安全碼。
+postRemoveTwoStepAuthentication-not-required-2 = 登入時，不再需要輸入來自驗證應用程式的安全碼。
 postVerify-sub-title-3 = 很高興能見到你！
 postVerify-title-2 = 想要在其他裝置上也能看到同個分頁嗎？
 postVerify-description-2 = 很簡單！只要在另一台裝置上也安裝 { -brand-firefox } 並且登入同步功能就好！
@@ -637,9 +637,13 @@ verifyLogin-subject-2 = 確認登入
 verifyLogin-action = 確認登入
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = { $serviceName } 的登入碼
-verifyLoginCode-title = 要登入的是您嗎？
-verifyLoginCode-prompt-2 = 有的話，請使用下列驗證碼：
+verifyLoginCode-subject-line-2 = 確認登入 { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = 您是否有登入 { $serviceName }？
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = 為了確保您的帳號安全，請確認您於下列裝置的登入紀錄：
+verifyLoginCode-prompt-3 = 是您登入的話，請使用下列驗證碼：
 verifyLoginCode-expiry-notice = 將於 5 分鐘後失效。
 verifyPrimary-title-2 = 確認主要電子郵件地址
 verifyPrimary-description = 收到來自下列裝置的帳號變更請求：
