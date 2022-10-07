@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-17 17:05+0000\n"
+"PO-Revision-Date: 2022-10-07 11:57+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -2015,11 +2015,11 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "סנכרון Firefox עם הטלפון או מחשב הלוח שלך"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "‏Firefox כבר מותקן בטלפון או במחשב הלוח שלך?"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
@@ -2027,7 +2027,7 @@ msgstr "סנכרון המכשיר שלך"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "יש לסרוק כדי להוריד את Firefox לנייד, או ניתן לשלוח לעצמך <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">קישור להורדה</a>."
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
@@ -2035,7 +2035,7 @@ msgstr "קוד QR"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "קחו את הלשוניות, הסימניות והססמאות לכל מקום שבו תשתמשו ב־Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
