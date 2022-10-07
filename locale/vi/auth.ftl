@@ -313,12 +313,12 @@ postRemoveSecondary-title = Đã xóa email phụ
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Bạn đã xóa thành công { $secondaryEmail } dưới dạng email phụ khỏi { -product-firefox-account } của mình. Thông báo bảo mật và xác nhận đăng nhập sẽ không còn được gửi đến địa chỉ này.
 postRemoveSecondary-action = Quản lý tài khoản
-postRemoveTwoStepAuthentication-subject-line = Đã tắt xác thực hai bước
-postRemoveTwoStepAuthentication-title = Đã tắt xác thực hai bước
-postRemoveTwoStepAuthentication-description = Bạn đã vô hiệu hóa thành công xác thực hai bước trên { -product-firefox-account } của mình từ thiết bị sau:
-postRemoveTwoStepAuthentication-description-plaintext = Bạn đã vô hiệu hóa thành công xác thực hai bước trên { -product-firefox-account } của mình. Mã bảo mật sẽ không còn được yêu cầu ở mỗi lần đăng nhập.
+postRemoveTwoStepAuthentication-subject-line-2 = Xác thực hai bước đã tắt
+postRemoveTwoStepAuthentication-title-2 = Bạn đã tắt xác thực hai bước
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Bạn đã tắt nó từ:
 postRemoveTwoStepAuthentication-action = Quản lý tài khoản
-postRemoveTwoStepAuthentication-not-required = Mã bảo mật sẽ không còn được yêu cầu tại mỗi lần đăng nhập.
+postRemoveTwoStepAuthentication-not-required-2 = Bạn không còn cần mã bảo mật từ ứng dụng xác thực của mình khi đăng nhập.
 postVerify-sub-title-3 = Chúng tôi rất vui được gặp bạn!
 postVerify-title-2 = Bạn muốn xem cùng một thẻ trên hai thiết bị?
 postVerify-description-2 = Dễ thôi! Chỉ cần cài đặt { -brand-firefox } trên một thiết bị khác và đăng nhập để đồng bộ hóa. Nó giống như một phép thuật!
@@ -639,9 +639,13 @@ verifyLogin-subject-2 = Xác nhận đăng nhập
 verifyLogin-action = Xác nhận lần đăng nhập này
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Mã đăng nhập cho { $serviceName }
-verifyLoginCode-title = Đây có phải là bạn đăng nhập không?
-verifyLoginCode-prompt-2 = Nếu có, đây là mã xác minh:
+verifyLoginCode-subject-line-2 = Phê duyệt đăng nhập vào { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Bạn đã đăng nhập vào { $serviceName } chưa?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Giúp chúng tôi giữ an toàn cho tài khoản của bạn bằng cách chấp thuận đăng nhập của bạn trên:
+verifyLoginCode-prompt-3 = Nếu có, đây là mã xác minh của bạn:
 verifyLoginCode-expiry-notice = Nó hết hạn sau 5 phút.
 verifyPrimary-title-2 = Xác minh email chính
 verifyPrimary-description = Yêu cầu thực hiện thay đổi tài khoản đã được thực hiện từ thiết bị sau:
