@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-19 16:21+0000\n"
+"PO-Revision-Date: 2022-10-07 07:36+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
@@ -596,7 +596,7 @@ msgstr "Verkko-osoitteen täytyy olla kelvollinen"
 
 #: .es5/lib/auth-errors.js:392
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Vahvistussähköpostisi palautui juuri. Kirjoititko sähköpostiosoitteesi väärin?"
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -1145,6 +1145,9 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Kirjoita <span class=\"card-subheader\" id=\"subheader\">Firefox-tilisi</span> salasana\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"

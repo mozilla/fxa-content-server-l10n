@@ -207,6 +207,7 @@ fraudulentAccountDeletion-contact = Jos sinulla on kysyttävää, ota yhteys <a 
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jos sinulla on kysyttävää, ota yhteys tukitiimiimme: { $mozillaSupportUrl }
 codes-reminder-description-two-left = Sinulla on vain kaksi koodia jäljellä.
+lowRecoveryCodes-action-2 = Luo koodeja
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Uusi kirjautuminen: { $clientName }
@@ -272,15 +273,13 @@ postRemoveSecondary-title = Toissijainen sähköposti poistettiin
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Olet poistanut toissijaisen sähköpostiosoitteen { $secondaryEmail } { -product-firefox-account }ltäsi. Tietoturvailmoituksia ja kirjautumisvahvistuksia ei enää lähetetä tähän osoitteeseen.
 postRemoveSecondary-action = Hallinnoi tiliä
-postRemoveTwoStepAuthentication-subject-line = Kaksivaiheinen todennus on pois käytöstä
-postRemoveTwoStepAuthentication-title = Kaksivaiheinen todennus poistettu käytöstä
-postRemoveTwoStepAuthentication-description = Olet poistanut kaksivaiheisen todennuksen käytöstä { -product-firefox-account }ltäsi seuraavalta laitteelta:
-postRemoveTwoStepAuthentication-description-plaintext = Olet poistanut kaksivaiheisen todennuksen käytöstä { -product-firefox-account }ltäsi. Turvallisuuskoodeja ei enää vaadita jokaisella kirjautumisella.
+postRemoveTwoStepAuthentication-subject-line-2 = Kaksivaiheinen todennus poistettu käytöstä
+postRemoveTwoStepAuthentication-title-2 = Poistit kaksivaiheisen todennuksen käytöstä
 postRemoveTwoStepAuthentication-action = Hallinnoi tiliä
-postRemoveTwoStepAuthentication-not-required = Turvallisuuskoodeja ei enää vaadita jokaisella kirjautumisella.
 postVerify-sub-title-3 = Mukava nähdä sinua!
 postVerify-title-2 = Haluatko nähdä saman välilehden kahdessa laitteessa?
 postVerify-description-2 = Se on helppoa! Asenna { -brand-firefox } toiseen laitteeseen ja kirjaudu sisään synkronointia varten. Se on kuin taikuutta!
+postVerify-subject-3 = Tervetuloa { -brand-firefox }iin!
 postVerify-setup-2 = Yhdistä toinen laite:
 postVerify-action-2 = Yhdistä toinen laite
 postVerifySecondary-subject = Toissijainen sähköpostiosoite lisätty
@@ -576,11 +575,9 @@ verify-action-2 = Vahvista tili
 verifyLogin-description-2 = Auta meitä pitämään tilisi turvassa vahvistamalla, että kirjauduit sisään:
 verifyLogin-subject-2 = Vahvista sisäänkirjautuminen
 verifyLogin-action = Vahvista kirjautuminen
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Kirjautumiskoodi palveluun { $serviceName }
-verifyLoginCode-title = Kirjaudutko sinä sisään?
-verifyLoginCode-prompt-2 = Jos kyllä, tässä on vahvistuskoodi:
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Auta meitä pitämään tilisi turvassa vahvistamalla, että kirjauduit sisään:
+verifyLoginCode-prompt-3 = Jos kyllä, tässä on valtuutuskoodisi:
 verifyLoginCode-expiry-notice = Se vanhenee viidessä minuutissa.
 verifyPrimary-title-2 = Vahvista ensisijainen sähköpostiosoite
 verifyPrimary-description = Tilin muutospyyntö on tehty laitteella:

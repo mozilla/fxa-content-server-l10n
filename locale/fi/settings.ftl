@@ -187,6 +187,7 @@ flow-container-back = Takaisin
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }-tilin palautusavain
 get-data-trio-download =
     .title = Lataa
