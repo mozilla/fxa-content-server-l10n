@@ -39,6 +39,7 @@ currency-currency-mismatch = Прабачце. Вы не можаце перак
 no-subscription-change = Прабачце. Вы не можаце змяніць свой план падпіскі.
 expired-card-error = Падобна на тое, што тэрмін дзеяння вашай крэдытнай карты скончыўся. Паспрабуйце іншую картку.
 insufficient-funds-error = Здаецца, на вашай картцы недастаткова сродкаў. Паспрабуйце іншую картку.
+coupon-expired = Здаецца, тэрмін дзеяння прома-кода скончыўся.
 
 ## Settings
 
@@ -333,8 +334,10 @@ new-user-email =
 new-user-confirm-email =
     .label = Пацвердзіце сваю электронную пошту
 new-user-email-validate = Адрас электроннай пошты несапраўдны
+new-user-email-validate-confirm = Адрасы электроннай пошты адрозніваюцца
 new-user-card-title = Увядзіце даныя вашай карты
 new-user-submit = Падпісацца зараз
+manage-pocket-body-2 = Каб кіраваць ім, <linkExternal>націсніце тут</linkExternal>.
 payment-method-header = Выберыце спосаб аплаты
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
