@@ -349,12 +349,7 @@ postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Έχετε αφαιρέσει επιτυχώς το { $secondaryEmail } από δευτερεύον email από τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης δεν θα αποστέλλονται πλέον σε αυτήν τη διεύθυνση.
 postRemoveSecondary-action = Διαχείριση λογαριασμού
-postRemoveTwoStepAuthentication-subject-line = Η ταυτοποίηση δύο παραγόντων είναι ανενεργή
-postRemoveTwoStepAuthentication-title = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
-postRemoveTwoStepAuthentication-description = Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας από την ακόλουθη συσκευή:
-postRemoveTwoStepAuthentication-description-plaintext = Έχετε απενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Δεν θα απαιτείται πλέον κωδικός ασφαλείας σε κάθε σύνδεση.
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
-postRemoveTwoStepAuthentication-not-required = Δεν θα απαιτούνται πλέον κωδικοί ασφαλείας σε κάθε σύνδεση.
 postVerify-sub-title-3 = Χαιρόμαστε που σας βλέπουμε!
 postVerify-title-2 = Θέλετε να δείτε την ίδια καρτέλα σε δύο συσκευές;
 postVerify-description-2 = Είναι απλό! Εγκαταστήστε απλώς το { -brand-firefox } σε μια άλλη συσκευή και συνδεθείτε για συγχρονισμό. Είναι σαν μαγεία!
@@ -675,9 +670,10 @@ verifyLogin-subject-2 = Επιβεβαίωση σύνδεσης
 verifyLogin-action = Επιβεβαίωση εισόδου
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Κωδικός σύνδεσης για το { $serviceName }
-verifyLoginCode-title = Κάνετε εσείς σύνδεση;
-verifyLoginCode-prompt-2 = Αν ναι, ορίστε ο κωδικός επιβεβαίωσης:
+verifyLoginCode-subject-line-2 = Έγκριση σύνδεσης στο { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Συνδεθήκατε στο { $serviceName };
 verifyLoginCode-expiry-notice = Λήγει σε 5 λεπτά.
 verifyPrimary-title-2 = Επιβεβαίωση κύριου email
 verifyPrimary-description = Έχει υποβληθεί αίτημα για μια αλλαγή στον λογαριασμό από την ακόλουθη συσκευή:
