@@ -56,6 +56,8 @@ terms-download = Умовы сцягвання
 subscription-create-title = Наладзьце падпіску
 subscription-success-title = Пацверджанне падпіскі
 subscription-processing-title = Пацвярджэнне падпіскі…
+subscription-error-title = Памылка пацверджання падпіскі…
+subscription-noplanchange-title = Змена гэтага плана падпіскі не падтрымліваецца
 subscription-iapsubscribed-title = Ужо падпісаны
 
 ## $productName (String) - The name of the subscribed product.
@@ -75,6 +77,12 @@ product-no-such-plan = Няма такога плана для гэтага пр
 
 ## Payment legal blurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } выкарыстоўвае { -brand-name-stripe } і { -brand-name-paypal } для бяспечнай апрацоўкі плацяжоў.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } палітыка прыватнасці</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } палітыка прыватнасці</paypalPrivacyLink>
+payment-legal-copy-paypal = { -brand-name-mozilla } выкарыстоўвае { -brand-name-paypal } для бяспечнай апрацоўкі плацяжоў.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } палітыка прыватнасці</paypalPrivacyLink>
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } выкарыстоўвае { -brand-name-stripe } для бяспечнай апрацоўкі плацяжоў.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } палітыка прыватнасці</stripePrivacyLink>
 
 ## Payment form
 
@@ -100,6 +108,7 @@ payment-zip =
 payment-cancel-btn = Скасаваць
 payment-update-btn = Абнавіць
 payment-pay-btn = Аплаціць зараз
+payment-pay-with-paypal-btn = Аплаціць праз { -brand-name-paypal }
 payment-validate-name-error = Увядзіце, калі ласка, ваша імя
 payment-validate-zip-required = Паштовы індэкс абавязковы
 payment-validate-zip-short = Паштовы індэкс надта кароткі
@@ -117,6 +126,9 @@ input-error-is-required = { $label } абавязковае
 
 ## Subscription upgrade
 
+product-plan-change-heading = Праглядзіце свае змены
+sub-change-failed = Не атрымалася змяніць план
+sub-update-payment-title = Плацежная інфармацыя
 sub-update-card-exp = Тэрмін дзеяння канчаецца { $cardExpMonth }/{ $cardExpYear }
 
 ##
@@ -210,6 +222,8 @@ reactivate-confirm-button = Падпішыцеся яшчэ раз
 
 ## $date (Date) - Last day of product access
 
+reactivate-panel-date = Вы адмянілі падпіску { $date }.
+reactivate-panel-copy = Вы страціце доступ да { $name } <strong>{ $date }</strong>.
 reactivate-success-copy = Дзякуй! Усё гатова.
 reactivate-success-button = Закрыць
 
@@ -217,10 +231,17 @@ reactivate-success-button = Закрыць
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-missing = Праблема з загрузкай падпісак
 sub-item-missing-msg = Паспрабуйце пазней, калі ласка.
 sub-item-no-such-plan = Няма такога плана для гэтай падпіскі.
 sub-item-cancel-sub = Ануляваць падпіску
 sub-item-stay-sub = Пакінуць падпіску
+sub-item-cancel-msg =
+    Вы больш не зможаце карыстацца { $name } пасля
+    { $period }, гэта апошні дзень вашага плацежнага цыкла.
+sub-item-cancel-confirm = Скасаваць мой доступ да { $name } разам з захаванай інфармацыяй { $period }
+invoice-not-found = Наступны рахунак-фактура не знойдзены
+sub-item-no-such-subsequent-invoice = Наступны рахунак-фактура для гэтай падпіскі не знойдзены.
 
 ## Subscription iap item
 
