@@ -354,6 +354,7 @@ postRemoveTwoStepAuthentication-title-2 = Απενεργοποιήσατε τη�
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Απενεργοποιήθηκε από το:
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
+postRemoveTwoStepAuthentication-not-required-2 = Δεν χρειάζεστε πλέον κωδικούς ασφαλείας από την εφαρμογή ταυτοποίησής σας κατά τη σύνδεση.
 postVerify-sub-title-3 = Χαιρόμαστε που σας βλέπουμε!
 postVerify-title-2 = Θέλετε να δείτε την ίδια καρτέλα σε δύο συσκευές;
 postVerify-description-2 = Είναι απλό! Εγκαταστήστε απλώς το { -brand-firefox } σε μια άλλη συσκευή και συνδεθείτε για συγχρονισμό. Είναι σαν μαγεία!
@@ -678,6 +679,9 @@ verifyLoginCode-subject-line-2 = Έγκριση σύνδεσης στο { $servi
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Συνδεθήκατε στο { $serviceName };
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Βοηθήστε μας να προστατέψουμε τον λογαριασμό σας εγκρίνοντας τη σύνδεσή σας στο:
+verifyLoginCode-prompt-3 = Αν ναι, ορίστε ο κωδικός ταυτοποίησής σας:
 verifyLoginCode-expiry-notice = Λήγει σε 5 λεπτά.
 verifyPrimary-title-2 = Επιβεβαίωση κύριου email
 verifyPrimary-description = Έχει υποβληθεί αίτημα για μια αλλαγή στον λογαριασμό από την ακόλουθη συσκευή:
