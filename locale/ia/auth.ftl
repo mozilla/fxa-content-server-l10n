@@ -315,12 +315,12 @@ postRemoveSecondary-title = E-mail secundari removite
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Tu ha removite con successo { $secondaryEmail }, como email secundari, de tu { -product-firefox-account }. Le notificationes de securitate e le confirmationes de authentication non sera plus livrate a iste adresse.
 postRemoveSecondary-action = Gerer le conto
-postRemoveTwoStepAuthentication-subject-line = Le authentication a duo passos es inactive
-postRemoveTwoStepAuthentication-title = Authentication a duo passos disactivate
-postRemoveTwoStepAuthentication-description = Tu ha disactivate con successo le authentication a duo passos in tu { -product-firefox-account } ab le apparato sequente:
-postRemoveTwoStepAuthentication-description-plaintext = Tu ha disactivate con successo le authentication a duo grados sur tu { -product-firefox-account }. Le codices de securitate non essera plus necessari cata authentication.
+postRemoveTwoStepAuthentication-subject-line-2 = Le authentication a duo passos es disactivate
+postRemoveTwoStepAuthentication-title-2 = Tu disactivava le authentication a duo passos
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Tu lo disactivava de:
 postRemoveTwoStepAuthentication-action = Gerer le conto
-postRemoveTwoStepAuthentication-not-required = Le codices de securitate non essera plus necessari a cata authentication.
+postRemoveTwoStepAuthentication-not-required-2 = Tu non plus besonia codices de securitate de tu app de authentication quando aperi session
 postVerify-sub-title-3 = Nos es delectate de vider te!
 postVerify-title-2 = Vole tu vider le mesme scheda sur duo apparatos?
 postVerify-description-2 = Il es facile! Solo installa { -brand-firefox } sur un altere apparato e aperi session pro synchronisar. Illo es como magic!
@@ -641,9 +641,13 @@ verifyLogin-subject-2 = Confirmar accesso
 verifyLogin-action = Confirmar apertura de session
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Codice de accesso pro { $serviceName }
-verifyLoginCode-title = Es tu qui aperi session?
-verifyLoginCode-prompt-2 = Si si, ecce le codice de confirmation:
+verifyLoginCode-subject-line-2 = Approbar accesso a { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Habeva tu accedite a { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Adjuta nos a mantener tu conto secur approbante tu accesso a illo:
+verifyLoginCode-prompt-3 = Si si, ecce tu codice de autorisation:
 verifyLoginCode-expiry-notice = Illo expira in 5 minutas.
 verifyPrimary-title-2 = Confirmar email primari
 verifyPrimary-description = Requesta de modificar le conto per le sequente apparato:
