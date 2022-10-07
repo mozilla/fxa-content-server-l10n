@@ -182,6 +182,7 @@ postAddAccountRecovery-not-you = Гэта не вы?
 postAddAccountRecovery-action = Кіраванне ўліковым запісам
 postAddAccountRecovery-delete-key = Выдаліць новы ключ:
 postAddAccountRecovery-changd-password = Зменіце ваш пароль:
+postAddLinkedAccount-subject = Новы ўліковы запіс, звязаны з { -brand-firefox }
 postAddLinkedAccount-action = Кіраваць уліковым запісам
 postAddTwoStepAuthentication-subject = Двухэтапная аўтарызацыя ўключана
 postAddTwoStepAuthentication-title = Двухэтапная аўтарызацыя ўключана
@@ -202,7 +203,13 @@ postConsumeRecoveryCode-subject-2 =
     }
 postNewRecoveryCodes-subject-2 = Створаны новыя рэзервовыя коды аўтэнтыфікацыі
 postNewRecoveryCodes-title-2 = Вы стварылі новыя рэзервовыя коды аўтэнтыфікацыі
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Яны былі створаны на:
 postNewRecoveryCodes-action = Кіраванне ўліковым запісам
+postRemoveAccountRecovery-subject-2 = Ключ аднаўлення ўліковага запісу выдалены
+postRemoveAccountRecovery-title-2 = Вы выдалілі ключ аднаўлення ўліковага запісу.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Ён быў выдалены з:
 postRemoveAccountRecovery-action = Кіраванне ўліковым запісам
 postRemoveSecondary-subject = Другі адрас эл.пошты выдалены
 postRemoveSecondary-title = Другі адрас эл.пошты выдалены
