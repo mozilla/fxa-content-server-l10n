@@ -166,11 +166,22 @@ passwordChanged-description = Пароль вашага { -product-firefox-accou
 passwordChangeRequired-subject = Выяўлена падазроная актыўнасць
 passwordChangeRequired-title = Патрабуецца змена пароля
 passwordChangeRequired-signoff = Усяго найлепшага,
+passwordChangeRequired-signoff-name = Каманда { -product-firefox-accounts }
 passwordReset-subject = Пароль абноўлены
 passwordReset-title = Пароль вашага ўліковага запісу быў зменены
 passwordReset-description = Трэ будзе ўвесці новы пароль на іншых прыладах, каб узнавіць сінхранізацыю.
+passwordResetAccountRecovery-subject-2 = Ваш пароль быў скінуты
 passwordResetAccountRecovery-title-2 = Пароль паспяхова скінуты
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Стварыць новы ключ аднаўлення ўліковага запісу
+postAddAccountRecovery-title2 = Вы стварылі новы ключ аднаўлення ўліковага запісу
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Новы ключ быў створаны з:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Гэта не вы?
 postAddAccountRecovery-action = Кіраванне ўліковым запісам
+postAddAccountRecovery-delete-key = Выдаліць новы ключ:
+postAddAccountRecovery-changd-password = Зменіце ваш пароль:
 postAddLinkedAccount-action = Кіраваць уліковым запісам
 postAddTwoStepAuthentication-subject = Двухэтапная аўтарызацыя ўключана
 postAddTwoStepAuthentication-title = Двухэтапная аўтарызацыя ўключана
@@ -196,10 +207,7 @@ postRemoveAccountRecovery-action = Кіраванне ўліковым запі�
 postRemoveSecondary-subject = Другі адрас эл.пошты выдалены
 postRemoveSecondary-title = Другі адрас эл.пошты выдалены
 postRemoveSecondary-action = Кіраванне ўліковым запісам
-postRemoveTwoStepAuthentication-subject-line = Двухэтапная аўтарызацыя выключана
-postRemoveTwoStepAuthentication-title = Двухэтапная аўтарызацыя адключана
 postRemoveTwoStepAuthentication-action = Кіраванне ўліковым запісам
-postRemoveTwoStepAuthentication-not-required = Коды бяспекі больш не будуць патрабавацца пры кожным ўваходзе.
 postVerify-sub-title-3 = Мы рады вас бачыць!
 postVerify-title-2 = Хочаце бачыць адну і тую ж картку на дзвюх прыладах?
 postVerify-subject-3 = Вітаем у { -brand-firefox }!
@@ -364,11 +372,6 @@ verify-description = Пацвердзіце свой уліковы запіс �
 verify-subject = Скончыце стварэнне ўліковага запісу
 verifyLogin-subject-2 = Пацвердзіць уваход
 verifyLogin-action = Пацвердзіць уваход
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Код уваходу для { $serviceName }
-verifyLoginCode-title = Гэта вы ўваходзіце?
-verifyLoginCode-prompt-2 = Калі так, вось код пацвярджэння:
 verifyLoginCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
 verifyPrimary-title-2 = Пацвердзіце асноўную электронную пошту
 verifyPrimary-description = Запыт на змену ўліковага запісу быў зроблены з наступнай прылады:
