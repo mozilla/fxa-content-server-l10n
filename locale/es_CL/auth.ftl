@@ -315,12 +315,12 @@ postRemoveSecondary-title = Correo secundario eliminado
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Has eliminado exitosamente { $secondaryEmail } como correo secundario de tu { -product-firefox-account }. Las notificaciones de seguridad y confirmaciones de conexión ya no serán enviadas a esta dirección.
 postRemoveSecondary-action = Administrar cuenta
-postRemoveTwoStepAuthentication-subject-line = La autenticación en dos pasos está desactivada
-postRemoveTwoStepAuthentication-title = Autenticación en dos pasos desactivada
-postRemoveTwoStepAuthentication-description = Has desactivado exitosamente la autenticación en dos pasos en tu { -product-firefox-account } desde el siguiente dispositivo:
-postRemoveTwoStepAuthentication-description-plaintext = Has desactivado exitosamente la autenticación en dos pasos en tu { -product-firefox-account }. Los códigos de seguridad ya no serán requeridos en cada conexión.
+postRemoveTwoStepAuthentication-subject-line-2 = La autenticación en dos pasos desactivada
+postRemoveTwoStepAuthentication-title-2 = Desactivaste la autenticación en dos pasos
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Lo desactivaste desde:
 postRemoveTwoStepAuthentication-action = Administrar cuenta
-postRemoveTwoStepAuthentication-not-required = Los códigos de seguridad ya no serán requeridos en cada conexión.
+postRemoveTwoStepAuthentication-not-required-2 = Ya no necesitarás los códigos de seguridad de tu aplicación de autenticación cuando te conectes.
 postVerify-sub-title-3 = ¡Estamos encantados de verte!
 postVerify-title-2 = ¿Quieres ver la misma pestaña en dos dispositivos?
 postVerify-description-2 = ¡Es fácil! Simplemente instala { -brand-firefox } en otro dispositivo y conéctate para sincronizar. ¡Es como por arte de magia!
@@ -641,9 +641,13 @@ verifyLogin-subject-2 = Confirmar conexión
 verifyLogin-action = Confirmar conexión
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Código de inicio de sesión para { $serviceName }
-verifyLoginCode-title = ¿Eres tu quien se está conectando?
-verifyLoginCode-prompt-2 = Si es así, aquí está el código de confirmación:
+verifyLoginCode-subject-line-2 = Aprobar la conexión en { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = ¿Te conectaste en { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Ayúdanos a mantener tu cuenta segura aprobando tu conexión en:
+verifyLoginCode-prompt-3 = Si es así, aquí está el código de autenticación:
 verifyLoginCode-expiry-notice = Expira en 5 minutos.
 verifyPrimary-title-2 = Confirmar correo primario
 verifyPrimary-description = Una solicitud para realizar un cambio de cuenta fue realizada desde el siguiente dispositivo:
