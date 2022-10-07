@@ -313,12 +313,12 @@ postRemoveSecondary-title = İkinci e-posta silindi
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { -product-firefox-account }nızda ikinci e-posta olarak kayıtlı { $secondaryEmail } adresini başarıyla sildiniz. Güvenlik bildirimleri ve giriş onayları artık bu adrese gönderilmeyecektir.
 postRemoveSecondary-action = Hesabı yönet
-postRemoveTwoStepAuthentication-subject-line = İki aşamalı doğrulama kapalı
-postRemoveTwoStepAuthentication-title = İki aşamalı kimlik doğrulama kapatıldı
-postRemoveTwoStepAuthentication-description = Aşağıdaki cihaz aracılığıyla { -product-firefox-account }nızda iki aşamalı doğrulamayı başarıyla kapattınız:
-postRemoveTwoStepAuthentication-description-plaintext = { -product-firefox-account }nızda iki aşamalı kimlik doğrulamayı devre dışı bıraktınız. Artık her girişte güvenlik kodları sorulmayacaktır.
+postRemoveTwoStepAuthentication-subject-line-2 = İki aşamalı doğrulama kapatıldı
+postRemoveTwoStepAuthentication-title-2 = İki aşamalı doğrulamayı kapattınız
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Bu cihazdan devre dışı bıraktınız:
 postRemoveTwoStepAuthentication-action = Hesabı yönet
-postRemoveTwoStepAuthentication-not-required = Artık her girişte güvenlik kodları sorulmayacaktır.
+postRemoveTwoStepAuthentication-not-required-2 = Artık giriş yaparken kimlik doğrulama uygulamanızın güvenlik kodlarına ihtiyacınız yok.
 postVerify-sub-title-3 = Sizi gördüğümüze sevindik!
 postVerify-title-2 = Aynı sekmeyi iki cihazınızda da görmek ister misiniz?
 postVerify-description-2 = Çok kolay! Eşitlemeyi başlatmak için başka bir cihaza { -brand-firefox }’u yükleyip hesabınıza giriş yapmanız yeterli.
@@ -609,9 +609,12 @@ verifyLogin-subject-2 = Girişi onayla
 verifyLogin-action = Girişi onayla
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = { $serviceName } giriş kodu
-verifyLoginCode-title = Giriş yapan siz misiniz?
-verifyLoginCode-prompt-2 = Doğrulama kodunuz:
+verifyLoginCode-subject-line-2 = { $serviceName } hizmetinde oturum açmayı onaylayın
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = { $serviceName } hizmetine giriş yaptınız mı?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Girişinizi onaylayarak hesabınızı güvende tutmamıza yardımcı olun:
 verifyLoginCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.
 verifyPrimary-title-2 = Ana e-posta adresinizi doğrulayın
 verifyPrimary-description = Aşağıdaki cihazdan bir hesap değiştirme isteği yapılmıştır:
