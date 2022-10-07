@@ -315,12 +315,12 @@ postRemoveSecondary-title = Zweit-E-Mail-Adresse entfernt
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Sie haben { $secondaryEmail } als Zweit-E-Mail-Adresse Ihres { -product-firefox-account } entfernt. Sicherheitshinweise und Anmeldebestätigungen werden nicht mehr an diese Adresse geschickt.
 postRemoveSecondary-action = Benutzerkonto verwalten
-postRemoveTwoStepAuthentication-subject-line = Zwei-Schritt-Authentifizierung ist deaktiviert
-postRemoveTwoStepAuthentication-title = Zwei-Schritt-Authentifizierung deaktiviert
-postRemoveTwoStepAuthentication-description = Sie haben die Zwei-Schritt-Authentifizierung für Ihr { -product-firefox-account } von folgendem Gerät erfolgreich deaktiviert:
-postRemoveTwoStepAuthentication-description-plaintext = Sie haben die Zwei-Schritt-Authentifizierung für Ihr { -product-firefox-account } erfolgreich deaktiviert. Sicherheitscodes sind bei der Anmeldung ab sofort nicht mehr erforderlich.
+postRemoveTwoStepAuthentication-subject-line-2 = Zwei-Schritt-Authentifizierung deaktiviert
+postRemoveTwoStepAuthentication-title-2 = Sie haben die Zwei-Schritt-Authentifizierung deaktiviert
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Sie haben sie deaktiviert von:
 postRemoveTwoStepAuthentication-action = Benutzerkonto verwalten
-postRemoveTwoStepAuthentication-not-required = Sicherheitscodes sind bei der Anmeldung ab sofort nicht mehr erforderlich.
+postRemoveTwoStepAuthentication-not-required-2 = Sie benötigen keine Sicherheitscodes mehr von Ihrer Authentifizierungs-App, wenn Sie sich anmelden.
 postVerify-sub-title-3 = Wir freuen uns auf Sie!
 postVerify-title-2 = Möchten Sie denselben Tab auf zwei Geräten sehen?
 postVerify-description-2 = Das geht ganz einfach! Installieren Sie einfach { -brand-firefox } auf einem anderen Gerät und melden Sie sich an, um zu synchronisieren. Es ist wie Magie!
@@ -641,9 +641,13 @@ verifyLogin-subject-2 = Anmeldung bestätigen
 verifyLogin-action = Anmeldung bestätigen
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Anmeldecode für { $serviceName }
-verifyLoginCode-title = Sind Sie das, der sich da anmeldet?
-verifyLoginCode-prompt-2 = Wenn ja, ist hier der Bestätigungscode:
+verifyLoginCode-subject-line-2 = Anmeldung bei { $serviceName } genehmigen
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Haben Sie sich bei { $serviceName } angemeldet?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Helfen Sie uns, Ihr Konto zu schützen, indem Sie Ihre Anmeldung genehmigen:
+verifyLoginCode-prompt-3 = Wenn ja, ist hier Ihr Autorisierungscode:
 verifyLoginCode-expiry-notice = Er läuft in 5 Minuten ab.
 verifyPrimary-title-2 = Primäre E-Mail-Adresse bestätigen
 verifyPrimary-description = Eine Anforderung zu einer Kontenänderung kam von folgendem Gerät:
