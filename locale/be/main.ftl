@@ -245,11 +245,16 @@ sub-item-no-such-subsequent-invoice = Наступны рахунак-факту
 
 ## Subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Купля з праграмы
+sub-iap-item-apple-purchase = { -brand-name-apple }: Купля з праграмы
 sub-iap-item-manage-button = Кіраваць
 account-activated = Ваш уліковы запіс актываваны, <userEl/>
 
 ## Subscription route index
 
+sub-route-idx-updating = Абнаўленне плацежнай інфармацыі
+sub-route-idx-reactivating = Не атрымалася паўторна актываваць падпіску
+sub-route-idx-cancel-failed = Не атрымалася скасаваць падпіску
 sub-route-idx-contact = Звязацца з падтрымкай
 sub-route-idx-cancel-msg-title = Нам шкада, што вы сыходзіце
 sub-route-idx-cancel-aside = Ёсць пытанні? Наведайце <a>{ -brand-name-mozilla } службу падтрымкі</a>.
@@ -259,6 +264,7 @@ sub-customer-error =
     .title = Праблема з загрузкай кліента
 sub-invoice-error =
     .title = Праблема з загрузкай рахункаў-фактур
+sub-billing-update-success = Ваша плацежная інфармацыя была паспяхова абноўлена
 pay-update-manage-btn = Кіраваць
 
 ## Subscription create
