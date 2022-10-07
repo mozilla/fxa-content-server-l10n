@@ -645,6 +645,9 @@ verifyLoginCode-subject-line-2 = Aprovar acesso ao { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Você se conectou no { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Ajude-nos a manter sua conta segura aprovando seu acesso em:
+verifyLoginCode-prompt-3 = Se foi você, use este código de autorização:
 verifyLoginCode-expiry-notice = Expira em 5 minutos.
 verifyPrimary-title-2 = Confirmar email principal
 verifyPrimary-description = Uma solicitação para efetuar uma alteração na conta foi feita a partir do seguinte dispositivo:
