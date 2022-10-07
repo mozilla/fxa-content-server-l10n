@@ -90,6 +90,10 @@ ios-download-plaintext = Lataa { $productName } App Storesta:
 another-device-plaintext = Asenna { $productName } toiselle laitteelle:
 automated-email-change-2 = Jos et tehnyt tätä, <a data-l10n-name="passwordChangeLink">vaihda salasanasi</a> heti.
 automated-email-support = Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }-tuesta</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Jos et tehnyt tätä, vaihda salasanasi heti:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Lisätietoja saat { -brand-mozilla }-tuesta:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }-tuesta</a>.
 automated-email-no-action-plaintext = Tämä on automaattinen sähköposti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
@@ -206,11 +210,15 @@ fraudulentAccountDeletion-contact = Jos sinulla on kysyttävää, ota yhteys <a 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jos sinulla on kysyttävää, ota yhteys tukitiimiimme: { $mozillaSupportUrl }
+codes-reminder-description-part-two = Luo uudet koodit nyt, jotta et menetä tietojasi myöhemmin.
 codes-reminder-description-two-left = Sinulla on vain kaksi koodia jäljellä.
 lowRecoveryCodes-action-2 = Luo koodeja
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Uusi kirjautuminen: { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = { -product-firefox-account }äsi käytettiin sisäänkirjautumiseen
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Etkö se ollut sinä? <a data-l10n-name="passwordChangeLink">Vaihda salasanasi</a>.
@@ -234,6 +242,8 @@ passwordReset-title = Tilisi salasana vaihdettiin
 passwordReset-description = Syötä uusi salasanasi muihin laitteisiisi jatkaaksesi synkronointia.
 passwordResetAccountRecovery-subject-2 = Salasanasi on nollattu
 passwordResetAccountRecovery-title-2 = Salasanan nollaus onnistui
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Käytit tilisi palautusavaimen päivittääksesi salasanasi:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Luo uusi tilin palautusavain
 postAddAccountRecovery-subject-2 = Tilin palautusavain luotu
@@ -276,6 +286,7 @@ postRemoveSecondary-action = Hallinnoi tiliä
 postRemoveTwoStepAuthentication-subject-line-2 = Kaksivaiheinen todennus poistettu käytöstä
 postRemoveTwoStepAuthentication-title-2 = Poistit kaksivaiheisen todennuksen käytöstä
 postRemoveTwoStepAuthentication-action = Hallinnoi tiliä
+postRemoveTwoStepAuthentication-not-required-2 = Et tarvitse enää kertakäyttökoodeja todennussovelluksestasi kirjautuessasi sisään.
 postVerify-sub-title-3 = Mukava nähdä sinua!
 postVerify-title-2 = Haluatko nähdä saman välilehden kahdessa laitteessa?
 postVerify-description-2 = Se on helppoa! Asenna { -brand-firefox } toiseen laitteeseen ja kirjaudu sisään synkronointia varten. Se on kuin taikuutta!
