@@ -281,12 +281,12 @@ postRemoveSecondary-title = כתובת דוא״ל משנית הוסרה
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = הסרת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-firefox-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה לא יישלחו יותר לכתובת זו.
 postRemoveSecondary-action = ניהול חשבון
-postRemoveTwoStepAuthentication-subject-line = אימות דו־שלבי כבוי
-postRemoveTwoStepAuthentication-title = אימות דו־שלבי הושבת
-postRemoveTwoStepAuthentication-description = השבתת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך מהמכשיר הבא:
-postRemoveTwoStepAuthentication-description-plaintext = השבתת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך. לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
+postRemoveTwoStepAuthentication-subject-line-2 = אימות דו־שלבי כבוי
+postRemoveTwoStepAuthentication-title-2 = כיבית את האימות הדו־שלבי
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = כיבית אותו מ:
 postRemoveTwoStepAuthentication-action = ניהול חשבון
-postRemoveTwoStepAuthentication-not-required = לא תופיע דרישה לקודים של אבטחה עם כל כניסה.
+postRemoveTwoStepAuthentication-not-required-2 = אין צורך עוד בקודי אבטחה מיישומון האימות שלך בעת הכניסה.
 postVerify-sub-title-3 = אנחנו שמחים לראות אותך!
 postVerify-title-2 = רוצה לראות את אותה הלשונית בשני מכשירים שונים?
 postVerify-description-2 = זה קל! צריך פשוט להתקין את { -brand-firefox } במכשיר נוסף ולהתחבר כדי לסנכרן. זה עובד כמו קסם!
@@ -591,9 +591,13 @@ verifyLogin-subject-2 = אישור התחברות
 verifyLogin-action = אישור התחברות
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = קוד כניסה ל־{ $serviceName }
-verifyLoginCode-title = האם התחברות זו מוכרת לך?
-verifyLoginCode-prompt-2 = אם כן, להלן קוד האימות:
+verifyLoginCode-subject-line-2 = אישור כניסה אל { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = האם נכנסת אל { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = באפשרותך לעזור לנו לשמור על בטיחות החשבון שלך על־ידי אישור הכניסה שלך במכשיר:
+verifyLoginCode-prompt-3 = אם כן, להלן קוד האישור שלך:
 verifyLoginCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
 verifyPrimary-title-2 = אימות כתובת דוא״ל ראשית
 verifyPrimary-description = בקשה לביצוע שינוי בחשבון נעשתה מהמכשיר הבא:
