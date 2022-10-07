@@ -48,6 +48,9 @@ subplat-explainer-specific = Está a receber esta mensagem porque { $email } tem
 subplat-explainer-reminder-form = Está a receber esta mensagem porque { $email } tem uma conta { -product-firefox-account }.
 subplat-explainer-multiple = Está a receber esta mensagem porque { $email } tem uma { -product-firefox-account } e subscreveu múltiplos produtos.
 subplat-manage-account = Faça a gestão das definições da sua { -product-firefox-account } visitando a <a data-l10n-name="subplat-account-page">página da conta</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Faça a gestão das definições da sua { -product-firefox-account } ao visitar a página da sua conta: { $accountSettingsUrl }
 subplat-terms-policy = Termos e política de cancelamento
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar subscrição
@@ -69,14 +72,6 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Descarregue{ $
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Descarregue { $productName } na { -app-store }">
-another-desktop-device = Ou instale <a data-l10n-name="anotherDeviceLink">noutro computador</a>.
-another-device = Ou instale <a data-l10n-name="anotherDeviceLink">noutro dispositivo</a>.
-automated-email-change =
-    Este é um e-mail automático; se não autorizou esta ação, <a data-l10n-name="passwordChangeLink">por favor altere a sua palavra-passe</a>.
-    Para mais informação, por favor visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
-# Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Este é um e-mail automático; se não adicionou nenhum novo dispositivo à sua { -product-firefox-account }, deve alterar imediatamente a sua palavra-passe em { $passwordChangeLink }
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Esta é uma mensagem automática; se não autorizou esta ação então, por favor, altere a sua palavra-passe.</a>
 automated-email-reset =
@@ -164,17 +159,6 @@ downloadSubscription-subject = Bem-vindo(a) ao { $productName }.
 downloadSubscription-title = Bem-vindo(a) ao { $productName }.
 downloadSubscription-link-action-2 = Começar
 fraudulentAccountDeletion-title = A sua conta foi apagada
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Restam poucos códigos de recuperação
-codes-reminder-description = Notámos que está com poucos códigos de recuperação. Por favor considere gerar novos códigos para evitar que fique sem acesso à sua conta.
-codes-generate = Gerar códigos
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Gerar códigos
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] 1 código de recuperação remanescente
-       *[other] { $numberRemaining } códigos de recuperação remanescentes
-    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Novo início de sessão para { $clientName }
@@ -193,13 +177,6 @@ passwordChangeRequired-different-password-plaintext = Importante: Escolha uma pa
 passwordReset-subject = Palavra-passe atualizada
 passwordReset-title = A palavra-passe da sua conta foi alterada
 passwordReset-description = Terá de inserir a sua nova palavra-passe nos outros dispositivos para retomar a sincronização.
-passwordResetAccountRecovery-subject = Palavra-passe atualizada utilizando o código de recuperação
-passwordResetAccountRecovery-title = A palavra-passe da sua conta foi reposta com uma chave de recuperação
-passwordResetAccountRecovery-description = Repôs a sua palavra passe utilizando uma chave de recuperação com sucesso a partir do seguinte dispositivo:
-passwordResetAccountRecovery-action = Criar nova chave de recuperação
-passwordResetAccountRecovery-regen-required = Irá necessitar de gerar uma nova chave de recuperação.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Criar nova chave de recuperação:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Não é você?
 postAddAccountRecovery-action = Gerir conta
@@ -217,31 +194,16 @@ postChangePrimary-title = Novo email primário
 #  $email (String) - A user's email address
 postChangePrimary-description = Alterou com sucesso o seu e-mail primário para { $email }. Este endereço é agora o seu nome de utilizador para iniciar sessão na sua { -product-firefox-account }, assim como para receber notificações de segurança e confirmações de autenticação.
 postChangePrimary-action = Gerir conta
-postConsumeRecoveryCode-subject = Código de recuperação utilizado
-postConsumeRecoveryCode-title = Código de recuperação consumido
-postConsumeRecoveryCode-description = Consumiu um código de recuperação com sucesso a partir do seguinte dispositivo:
 postConsumeRecoveryCode-action = Gerir conta
-postNewRecoveryCodes-subject = Novos códigos de recuperação gerados
-postNewRecoveryCodes-title = Novos códigos de recuperação gerados
-postNewRecoveryCodes-description = Gerou novos códigos de recuperação com sucesso a partir do seguinte dispositivo:
 postNewRecoveryCodes-action = Gerir conta
-postRemoveAccountRecovery-subject = Chave de recuperação de conta removida
-postRemoveAccountRecovery-title = Chave de recuperação de conta removida
-postRemoveAccountRecovery-description = Removeu com sucesso uma chave de recuperação de conta para a sua { -product-firefox-account } utilizando o seguinte dispositivo:
 postRemoveAccountRecovery-action = Gerir conta
-postRemoveAccountRecovery-invalid = Esta chave de recuperação já não pode ser utilizada para recuperar a sua conta.
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Removeu com sucesso { $secondaryEmail } como um e-mail secundário para a sua { -product-firefox-account }. Notificações de segurança e confirmações de início de sessão não serão mais entregues neste endereço.
 postRemoveSecondary-action = Gerir conta
-postRemoveTwoStepAuthentication-subject-line = A autenticação de dois passos está desligada
-postRemoveTwoStepAuthentication-title = Autenticação de dois passos desativada
-postRemoveTwoStepAuthentication-description = Desativou com sucesso a autenticação de dois passos na sua { -product-firefox-account } a partir do seguinte dispositivo:
-postRemoveTwoStepAuthentication-description-plaintext = Desativou com sucesso a autenticação de dois passos na sua { -product-firefox-account }. Os códigos de segurança da sua aplicação de autenticação não serão mais solicitados a cada início de sessão.
 postRemoveTwoStepAuthentication-action = Gerir conta
-postRemoveTwoStepAuthentication-not-required = Os códigos de segurança não serão mais requeridos a cada início de sessão.
 postVerify-subject-3 = Bem-vindo(a) ao { -brand-firefox }!
 postVerify-setup-2 = Ligue outro dispositivo:
 postVerify-action-2 = Ligar outro dispositivo
@@ -460,10 +422,6 @@ unblockCode-report-plaintext = Se não, ajude-nos a afastar os intrusos e report
 verify-description = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os lugares em que iniciar sessão, a começar por:
 verify-subject = Conclua a criação da sua conta
 verifyLogin-action = Confirmar novo início de sessão
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Código de início de sessão para { $serviceName }
-verifyLoginCode-title = É mesmo você a iniciar sessão?
 verifyLoginCode-expiry-notice = Este expira em 5 minutos.
 verifyPrimary-description = Foi realizado um pedido para executar uma alteração de conta a partir do seguinte dispositivo:
 verifyPrimary-subject = Confirmar e-mail principal
