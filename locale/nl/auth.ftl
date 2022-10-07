@@ -315,12 +315,12 @@ postRemoveSecondary-title = Secundair e-mailadres verwijderd
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = U hebt { $secondaryEmail } met succes als secundair e-mailadres van uw { -product-firefox-account } verwijderd. Beveiligingsmeldingen en aanmeldingsbevestigingen worden niet meer op dit adres afgeleverd.
 postRemoveSecondary-action = Account beheren
-postRemoveTwoStepAuthentication-subject-line = Authenticatie in twee stappen is uitgeschakeld
-postRemoveTwoStepAuthentication-title = Authenticatie in twee stappen uitgeschakeld
-postRemoveTwoStepAuthentication-description = U hebt authenticatie in twee stappen op uw { -product-firefox-account } met succes uitgeschakeld vanaf het volgende apparaat:
-postRemoveTwoStepAuthentication-description-plaintext = U hebt authenticatie in twee stappen op uw { -product-firefox-account } met succes uitgeschakeld. Vanaf nu zijn bij elke aanmelding geen beveiligingscodes meer vereist.
+postRemoveTwoStepAuthentication-subject-line-2 = Authenticatie in twee stappen is uitgeschakeld
+postRemoveTwoStepAuthentication-title-2 = U hebt authenticatie in twee stappen uitgeschakeld
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = U hebt het uitgeschakeld vanaf:
 postRemoveTwoStepAuthentication-action = Account beheren
-postRemoveTwoStepAuthentication-not-required = Vanaf nu zijn bij elke aanmelding geen beveiligingscodes meer vereist.
+postRemoveTwoStepAuthentication-not-required-2 = U hebt geen beveiligingscodes van uw authenticatie-app meer nodig wanneer u zich aanmeldt.
 postVerify-sub-title-3 = We zijn verheugd u te zien!
 postVerify-title-2 = Wilt u hetzelfde tabblad op twee apparaten zien?
 postVerify-description-2 = Dat is makkelijk! Installeer gewoon { -brand-firefox } op een ander apparaat en meld u aan om te synchroniseren. Het is magisch!
@@ -641,9 +641,13 @@ verifyLogin-subject-2 = Aanmelding bevestigen
 verifyLogin-action = Aanmelding bevestigen
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Aanmeldcode voor { $serviceName }
-verifyLoginCode-title = Bent u dit die zich aanmeldt?
-verifyLoginCode-prompt-2 = Zo ja, dan is dit de bevestigingscode:
+verifyLoginCode-subject-line-2 = Aanmelding bij { $serviceName } goedkeuren
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Hebt u zich aangemeld bij { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Help ons uw account veilig te houden door uw aanmelding goed te keuren op:
+verifyLoginCode-prompt-3 = Zo ja, dan is dit uw autorisatiecode:
 verifyLoginCode-expiry-notice = Deze verloopt over vijf minuten.
 verifyPrimary-title-2 = Primair e-mailadres bevestigen
 verifyPrimary-description = Er is een aanvraag voor het uitvoeren van een accountwijziging gedaan vanaf het volgende apparaat:
