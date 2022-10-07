@@ -265,6 +265,7 @@ sub-customer-error =
 sub-invoice-error =
     .title = Праблема з загрузкай рахункаў-фактур
 sub-billing-update-success = Ваша плацежная інфармацыя была паспяхова абноўлена
+sub-route-payment-modal-heading = Няправільная плацежная інфармацыя
 pay-update-manage-btn = Кіраваць
 
 ## Subscription create
@@ -280,10 +281,12 @@ plan-details-header = Інфармацыя аб прадукце
 plan-details-show-button = Паказаць падрабязнасці
 plan-details-hide-button = Схаваць падрабязнасці
 plan-details-total-label = Усяго
+plan-details-list-price = Базавая цана
 
 ## Coupons
 
 coupon-discount = Зніжка
+coupon-discount-applied = Ужыта зніжка
 coupon-submit = Прымяніць
 coupon-remove = Выдаліць
 coupon-error = Код, які вы ўвялі, несапраўдны або пратэрмінаваны.
