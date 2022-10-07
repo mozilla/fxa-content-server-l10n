@@ -315,12 +315,12 @@ postRemoveSecondary-title = Másodlagos e-mail cím eltávolítva
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Sikeresen eltávolította a következő másodlagos e-mail címet a { -product-firefox-account }jából: { $secondaryEmail }. A biztonsági értesítések és a bejelentkezési megerősítések többé nem lesznek elküldve erre a címre.
 postRemoveSecondary-action = Fiók kezelése
-postRemoveTwoStepAuthentication-subject-line = A kétlépcsős hitelesítés ki van kapcsolva
-postRemoveTwoStepAuthentication-title = Kétlépcsős hitelesítés letiltva
-postRemoveTwoStepAuthentication-description = Sikeresen kikapcsolta a kétlépcsős hitelesítést a { -product-firefox-account }jához a következő eszközön:
-postRemoveTwoStepAuthentication-description-plaintext = Sikeresen letiltotta a kétlépcsős hitelesítést a { -product-firefox-account }jához. A biztonsági kód már nem lesz szükséges minden bejelentkezésnél.
+postRemoveTwoStepAuthentication-subject-line-2 = Kétlépcsős hitelesítés kikapcsolva
+postRemoveTwoStepAuthentication-title-2 = Kikapcsolta a kétlépcsős hitelesítést
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Innen tiltotta le:
 postRemoveTwoStepAuthentication-action = Fiók kezelése
-postRemoveTwoStepAuthentication-not-required = A biztonsági kód már nem lesz szükséges minden bejelentkezésnél.
+postRemoveTwoStepAuthentication-not-required-2 = Már nincs szüksége biztonsági kódokra a hitelesítő alkalmazásból, amikor bejelentkezik.
 postVerify-sub-title-3 = Örülünk, hogy látjuk!
 postVerify-title-2 = Két eszközön szeretné látni ugyanazt a lapot?
 postVerify-description-2 = Könnyedén! Csak telepítse a { -brand-firefox(case: "accusative") } egy másik eszközre, és jelentkezzen be a szinkronizáláshoz. Olyan, mint a varázslat!
@@ -641,9 +641,13 @@ verifyLogin-subject-2 = Bejelentkezés megerősítése
 verifyLogin-action = Bejelentkezés megerősítése
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Bejelentkezési kód ehhez: { $serviceName }
-verifyLoginCode-title = Ez az ön bejelentkezése?
-verifyLoginCode-prompt-2 = Ha igen, akkor itt a megerősítő kód:
+verifyLoginCode-subject-line-2 = Bejelentkezés jóváhagyása a következőbe: { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Bejelentkezett a következőbe: { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Segítsen nekünk megőrizni fiókja biztonságát azzal, hogy jóváhagyja a bejelentkezését:
+verifyLoginCode-prompt-3 = Ha igen, akkor itt az engedélyezési kódja:
 verifyLoginCode-expiry-notice = 5 perc múlva lejár.
 verifyPrimary-title-2 = Elsődleges e-mail-cím megerősítése
 verifyPrimary-description = A kérés, hogy módosítsa a fiókját a következő eszközről lett elküldve:
