@@ -211,9 +211,14 @@ postRemoveAccountRecovery-title-2 = Вы выдалілі ключ аднаўл�
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Ён быў выдалены з:
 postRemoveAccountRecovery-action = Кіраванне ўліковым запісам
+postRemoveAccountRecovery-invalid-2 = Вам патрэбен ключ аднаўлення ўліковага запісу, каб аднавіць даныя { -brand-firefox }, калі вы забудзецеся свой пароль.
 postRemoveSecondary-subject = Другі адрас эл.пошты выдалены
 postRemoveSecondary-title = Другі адрас эл.пошты выдалены
 postRemoveSecondary-action = Кіраванне ўліковым запісам
+postRemoveTwoStepAuthentication-subject-line-2 = Двухэтапная аўтарызацыя выключана
+postRemoveTwoStepAuthentication-title-2 = Вы адключылі двухэтапную аўтэнтыфікацыю
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Вы адключылі яе з:
 postRemoveTwoStepAuthentication-action = Кіраванне ўліковым запісам
 postVerify-sub-title-3 = Мы рады вас бачыць!
 postVerify-title-2 = Хочаце бачыць адну і тую ж картку на дзвюх прыладах?
@@ -226,6 +231,9 @@ postVerifySecondary-action = Кіраванне ўліковым запісам
 recovery-subject = Скінуць пароль
 recovery-title-2 = Забылі свой пароль?
 recovery-action = Стварыць новы пароль
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Ваша падпіска на { $productName } была скасавана
 subscriptionAccountDeletion-title = Шкада, што вы сыходзіце
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -242,6 +250,9 @@ subscriptionAccountReminderSecond-subject = Апошні напамін: Нал�
 subscriptionAccountReminderSecond-title = Вітаем у { -brand-firefox }!
 subscriptionAccountReminderSecond-action = Стварыць пароль
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Ваша падпіска на { $productName } была скасавана
 subscriptionCancellation-title = Шкада, што вы сыходзіце
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -250,6 +261,10 @@ subscriptionDowngrade-subject = Вы перайшлі на { $productName }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Вы паспяхова перайшлі з { $productNameOld } на { $productName }.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Ваша падпіска на { $productName } была скасавана
+subscriptionFailedPaymentsCancellation-title = Ваша падпіска была скасавана
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Аплата { $productName } пацверджана
@@ -290,6 +305,10 @@ subscriptionFirstInvoiceDiscount-content-discount = Зніжка: -{ $invoiceDis
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount-one-time = Аднаразовая зніжка: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-месячная зніжка: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -297,7 +316,19 @@ subscriptionFirstInvoiceDiscount-content-charge = Спагнана { $invoiceTot
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoiceDiscount-content-next-invoice = Наступны рахунак-фактура: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Тэрмін дзеяння крэдытнай карты для { $productName } скончыўся або хутка скончыцца
 subscriptionPaymentExpired-title-1 = Тэрмін дзеяння вашай крэдытнай карты скончыўся або хутка скончыцца
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Не атрымалася аплаціць { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Падпіска на { $productName } адноўлена
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Дзякуй за аднаўленне вашай падпіскі на { $productName }!
 subscriptionRenewalReminder-content-closing = З павагай,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
