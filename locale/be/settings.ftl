@@ -486,6 +486,7 @@ se-refresh-email =
 se-unverified-2 = непацверджаны
 # Button to make secondary email the primary
 se-make-primary = Зрабіць асноўным
+se-default-content = Атрымайце доступ да свайго ўліковага запісу, калі вы не можаце ўвайсці з дапамогай асноўнага адраса электроннай пошты.
 # Default value for the secondary email
 se-secondary-email-none = Няма
 
