@@ -37,6 +37,8 @@ payment-error-retry-button = Паспрабаваць зноў
 payment-error-manage-subscription-button = Кіраваць маёй падпіскай
 currency-currency-mismatch = Прабачце. Вы не можаце пераключацца паміж валютамі.
 no-subscription-change = Прабачце. Вы не можаце змяніць свой план падпіскі.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Вы ўжо аформілі падпіску праз { $mobileAppStore }.
 expired-card-error = Падобна на тое, што тэрмін дзеяння вашай крэдытнай карты скончыўся. Паспрабуйце іншую картку.
 insufficient-funds-error = Здаецца, на вашай картцы недастаткова сродкаў. Паспрабуйце іншую картку.
 coupon-expired = Здаецца, тэрмін дзеяння прома-кода скончыўся.
@@ -293,6 +295,7 @@ coupon-remove = Выдаліць
 coupon-error = Код, які вы ўвялі, несапраўдны або пратэрмінаваны.
 coupon-error-generic = Здарылася памылка пры апрацоўцы кода. Калі ласка, паспрабуйце яшчэ раз.
 coupon-error-expired = Тэрмін дзеяння ўведзенага вамі кода скончыўся.
+coupon-error-limit-reached = Уведзены вамі код вычарпаў свой ліміт.
 coupon-error-invalid = Код, які вы ўвялі, нядзейсны.
 coupon-enter-code =
     .placeholder = Увядзіце код
@@ -335,8 +338,12 @@ new-user-confirm-email =
     .label = Пацвердзіце сваю электронную пошту
 new-user-email-validate = Адрас электроннай пошты несапраўдны
 new-user-email-validate-confirm = Адрасы электроннай пошты адрозніваюцца
+new-user-already-has-account-sign-in = У вас ужо ёсць уліковы запіс. <a>Увайсці</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Памылка ўводу адраса? { $domain } не прадстаўляе паслуг электроннай пошты.
 new-user-card-title = Увядзіце даныя вашай карты
 new-user-submit = Падпісацца зараз
+manage-pocket-title = Шукаеце сваю прэміум-падпіску на { -brand-name-pocket }?
 manage-pocket-body-2 = Каб кіраваць ім, <linkExternal>націсніце тут</linkExternal>.
 payment-method-header = Выберыце спосаб аплаты
 # This message is used to indicate the second step in a multi step process.
