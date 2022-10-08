@@ -317,6 +317,7 @@ payment-confirmation-thanks-heading = Дзякуй!
 ## $email (string) - The user's email.
 ## $productName (String) - The name of the subscribed product.
 
+payment-confirmation-thanks-subheading = На адрас { $email } быў адпраўлены электронны ліст з пацвярджэннем і інфармацыя аб тым, як пачаць працу з { $product_name }.
 payment-confirmation-thanks-heading-account-exists = Дзякуй, праверце сваю электронную пошту!
 
 ## $email (string) - The user's email.
