@@ -322,6 +322,7 @@ postRemoveTwoStepAuthentication-not-required-2 = Artık giriş yaparken kimlik d
 postVerify-sub-title-3 = Sizi gördüğümüze sevindik!
 postVerify-title-2 = Aynı sekmeyi iki cihazınızda da görmek ister misiniz?
 postVerify-description-2 = Çok kolay! Eşitlemeyi başlatmak için başka bir cihaza { -brand-firefox }’u yükleyip hesabınıza giriş yapmanız yeterli.
+postVerify-sub-description = (Ayrıca yer imlerinize, parolalarınıza ve diğer { -brand-firefox } verilerinize tüm cihazlarınızdan ulaşabilirsiniz.)
 postVerify-subject-3 = { -brand-firefox }’a hoş geldiniz!
 postVerify-setup-2 = Başka bir cihaz bağla:
 postVerify-action-2 = Başka bir cihaz bağla
@@ -585,16 +586,20 @@ unblockCode-prompt-plaintext = Sizseniz bu yetkilendirme kodunu kullanabilirsini
 unblockCode-report = Değilseniz, saldırganları kapı dışarı edebilmemiz için <a data-l10n-name="reportSignInLink">bize rapor edin</a>.
 unblockCode-report-plaintext = Değilseniz, saldırganları kapı dışarı edebilmemiz için bize rapor edin.
 verificationReminderFinal-subject = Hesabınızı onaylamanız için son hatırlatma
+verificationReminderFinal-description = Birkaç hafta önce bir { -product-firefox-account } açtınız ama hesabınızı onaylamadınız. Güvenliğiniz için, önümüzdeki 24 saat içinde onaylamazsanız bu hesabı sileceğiz.
 confirm-account = Hesabı onaylayın
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Hesabınızı onaylamayı unutmayın
 verificationReminderFirst-title-2 = { -brand-firefox }’a hoş geldiniz!
+verificationReminderFirst-description-2 = Birkaç gün önce bir { -product-firefox-account } açtınız ama hesabınızı onaylamadınız. Lütfen hesabınızı 15 gün içinde onaylayın. Aksi halde hesap otomatik olarak silinecektir.
 verificationReminderFirst-sub-description-3 = Sizi ve gizliliğinizi ilk sıraya koyan tarayıcıyı kaçırmayın.
 confirm-email-2 = Hesabı onaylayın
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Hesabı onaylayın
 verificationReminderSecond-subject-2 = Hesabınızı onaylamayı unutmayın
 verificationReminderSecond-title-2 = { -brand-firefox } sizi bekliyor!
+verificationReminderSecond-description-3 = Birkaç gün önce bir { -product-firefox-account } açtınız ama hesabınızı onaylamadınız. Lütfen hesabınızı 10 gün içinde onaylayın. Aksi halde hesap otomatik olarak silinecektir.
+verificationReminderSecond-second-description = { -product-firefox-account } sayesinde bilgilerinizi cihazlarınız arasında senkronize edebilir ve gizliliğinizi koruyan diğer { -brand-mozilla } ürünlerini kullanabilirsiniz.
 verificationReminderSecond-sub-description-2 = İnterneti herkese açık bir yere dönüştürme misyonumuzun bir parçası olun.
 verificationReminderSecond-action-2 = Hesabı onaylayın
 verify-title-2 = İnternete { -brand-firefox } ile açılın
@@ -609,12 +614,13 @@ verifyLogin-subject-2 = Girişi onayla
 verifyLogin-action = Girişi onayla
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = { $serviceName } hizmetinde oturum açmayı onaylayın
+verifyLoginCode-subject-line-2 = { $serviceName } girişinizi onaylayın
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } hizmetine giriş yaptınız mı?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Girişinizi onaylayarak hesabınızı güvende tutmamıza yardımcı olun:
+verifyLoginCode-prompt-3 = Yetkilendirme kodunuz:
 verifyLoginCode-expiry-notice = Kodun geçerlilik süresi 5 dakikadır.
 verifyPrimary-title-2 = Ana e-posta adresinizi doğrulayın
 verifyPrimary-description = Aşağıdaki cihazdan bir hesap değiştirme isteği yapılmıştır:
