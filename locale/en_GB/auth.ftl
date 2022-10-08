@@ -315,12 +315,12 @@ postRemoveSecondary-title = Secondary email removed
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = You have successfully removed { $secondaryEmail } as a secondary email from your { -product-firefox-account }. Security notifications and sign-in confirmations will no longer be delivered to this address.
 postRemoveSecondary-action = Manage account
-postRemoveTwoStepAuthentication-subject-line = Two-step authentication is off
-postRemoveTwoStepAuthentication-title = Two-step authentication disabled
-postRemoveTwoStepAuthentication-description = You have successfully disabled two-step authentication on your { -product-firefox-account } from the following device:
-postRemoveTwoStepAuthentication-description-plaintext = You have successfully disabled two-step authentication on your { -product-firefox-account }. Security codes will no longer be required at each sign-in.
+postRemoveTwoStepAuthentication-subject-line-2 = Two-step authentication turned off
+postRemoveTwoStepAuthentication-title-2 = You turned off two-step authentication
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = You disabled it from:
 postRemoveTwoStepAuthentication-action = Manage account
-postRemoveTwoStepAuthentication-not-required = Security codes will no longer be required at each sign-in.
+postRemoveTwoStepAuthentication-not-required-2 = You no longer need security codes from your authentication app when you sign in.
 postVerify-sub-title-3 = We’re delighted to see you!
 postVerify-title-2 = Want to see the same tab on two devices?
 postVerify-description-2 = It’s easy! Just install { -brand-firefox } on another device and log in to synchronise. It’s like magic!
@@ -641,9 +641,13 @@ verifyLogin-subject-2 = Confirm sign-in
 verifyLogin-action = Confirm sign-in
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Sign-in code for { $serviceName }
-verifyLoginCode-title = Is this you signing in?
-verifyLoginCode-prompt-2 = If yes, here is the confirmation code:
+verifyLoginCode-subject-line-2 = Approve sign-in to { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Did you sign in to { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Help us keep your account safe by approving your sign-in on:
+verifyLoginCode-prompt-3 = If yes, here is your authorisation code:
 verifyLoginCode-expiry-notice = It expires in 5 minutes.
 verifyPrimary-title-2 = Confirm primary email
 verifyPrimary-description = A request to perform an account change has been made from the following device:
