@@ -315,12 +315,12 @@ postRemoveSecondary-title = Sekundarna e-mejlowa adresa wotstronjena
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Sće { $secondaryEmail } jako sekundarnu e-mejlowu adresu ze swojeho konta { -product-firefox-account } wuspěšnje wotstronił. Wěstotne zdźělenki a přizjewjenske wobkrućenja njebudu so hižo na tutu adresu słać.
 postRemoveSecondary-action = Konto rjadować
-postRemoveTwoStepAuthentication-subject-line = Dwukročelowa awtentifikacija znjemóžnjena
-postRemoveTwoStepAuthentication-title = Dwukročelowa awtentifikacija znjemóžnjena
-postRemoveTwoStepAuthentication-description = Sće dwukročelowu awtentifikaciju na swojim konće { -product-firefox-account } ze slědowacym gratom wuspěšnje znjemóžnił:
-postRemoveTwoStepAuthentication-description-plaintext = Sće dwukročelowu awtentifikaciju na swojim konće { -product-firefox-account } wuspěšnje znjemóžnił. Wěstotne kody wotnětka při kóždym přizjewjenju hižo trěbne njejsu.
+postRemoveTwoStepAuthentication-subject-line-2 = Dwukročelowa awtentifikacija znjemóžnjena
+postRemoveTwoStepAuthentication-title-2 = Sće dwukročelowu awtentifikaciju znjemóžnił
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Sće ju znjemóžnił z:
 postRemoveTwoStepAuthentication-action = Konto rjadować
-postRemoveTwoStepAuthentication-not-required = Wěstotne kody wotnětka při kóždym přizjewjenju hižo trěbne njejsu.
+postRemoveTwoStepAuthentication-not-required-2 = Njetrjebaće hižo wěstotne kody ze swojeho awtentifikaciskeho nałoženja, hdyž so přizjewjeće.
 postVerify-sub-title-3 = Wjeselimy so was widźeć!
 postVerify-title-2 = Chceće samsny rajtark na dwěmaj gratomaj widźeć?
 postVerify-description-2 = To je lochko! Instalujće prosće { -brand-firefox } na druhim graće a přizjewće so za synchronizaciju. Na magiske wašnje!
@@ -634,11 +634,6 @@ verifyLogin-title-2 = Sće so pola { $clientName } přizjewił?
 verifyLogin-description-2 = Wobkrućće, zo sće so přizjewił, zo byšće nam pomhał, waše konto škitać.
 verifyLogin-subject-2 = Přizjewjenje wobkrućić
 verifyLogin-action = Přizjewjenje wobkrućić
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Přizjewjenski kod za { $serviceName }
-verifyLoginCode-title = Chceće so wy přizjewić?
-verifyLoginCode-prompt-2 = Jeli haj, tu je wobkrućenski kod:
 verifyLoginCode-expiry-notice = Spadnje za 5 mjeńšin.
 verifyPrimary-title-2 = Primarnu e-mejlowu adresu wobkrućić
 verifyPrimary-description = Slědowacy grat je požadał, kontowu změnu přewjesć:
