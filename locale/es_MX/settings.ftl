@@ -188,6 +188,7 @@ flow-container-back = Atrás
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } clave de recuperación de cuenta
 get-data-trio-download =
     .title = Descargar
 get-data-trio-copy =

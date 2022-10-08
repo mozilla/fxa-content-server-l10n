@@ -317,12 +317,7 @@ postRemoveSecondary-title = Correo secundario eliminado
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Has eliminado exitosamente { $secondaryEmail } como correo secundario de tu { -product-firefox-account }. Las notificaciones de seguridad y confirmaciones de conexión ya no serán enviadas a esta dirección.
 postRemoveSecondary-action = Administrar cuenta
-postRemoveTwoStepAuthentication-subject-line = La autenticación en dos pasos está desactivada
-postRemoveTwoStepAuthentication-title = Autenticación en dos pasos desactivada
-postRemoveTwoStepAuthentication-description = Has deshabilitado exitosamente la autenticación en dos pasos en tu { -product-firefox-account } desde el siguiente dispositivo:
-postRemoveTwoStepAuthentication-description-plaintext = Has deshabilitado exitosamente la autenticación en dos pasos en tu { -product-firefox-account }. Los códigos de seguridad ya no serán requeridos en cada conexión.
 postRemoveTwoStepAuthentication-action = Administrar cuenta
-postRemoveTwoStepAuthentication-not-required = Los códigos de seguridad ya no serán requeridos en cada inicio de sesión.
 postVerify-sub-title-3 = ¡Estamos felices de verte!
 postVerify-title-2 = ¿Quieres ver la misma pestaña en dos dispositivos?
 postVerify-description-2 = ¡Es fácil! Solo instala { -brand-firefox } en otro dispositivo e inicia sesión para sincronizar. ¡Es como magia!
@@ -643,9 +638,7 @@ verifyLogin-subject-2 = Confirmar inicio de sesión
 verifyLogin-action = Confirmar inicio de sesión
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Código de inicio de sesión para { $serviceName }
-verifyLoginCode-title = ¿Eres tú iniciando sesión?
-verifyLoginCode-prompt-2 = En caso afirmativo, aquí está el código de confirmación:
+verifyLoginCode-title-2 = ¿Iniciaste sesión en { $serviceName }?
 verifyLoginCode-expiry-notice = Caduca en 5 minutos.
 verifyPrimary-title-2 = Confirmar correo principal
 verifyPrimary-description = Hubo una petición de realizar un cambio de cuenta desde el siguiente dispositivo:
