@@ -150,7 +150,7 @@ cs-sign-out-button = 로그아웃
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = 다운로드됨
@@ -183,9 +183,8 @@ drop-down-menu-sign-out-error-2 = 로그아웃 중 문제가 발생했습니다.
 
 flow-container-back = 이전
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = 복구 코드
 get-data-trio-download =
     .title = 다운로드
 get-data-trio-copy =
@@ -215,6 +214,8 @@ la-heading = 연결된 계정
 la-description = 다음 계정에 접근 권한이 있습니다.
 la-unlink-button = 연결 끊기
 la-unlink-account-button = 연결 끊기
+la-unlink-heading = 삼자의 계정에서 연결 해제
+la-unlink-content-3 = 계정 연결을 해제하시겠습니까? 계정 연결을 해제해도 연결된 서비스에서 자동으로 로그아웃되지 않습니다. 이렇게 하려면 연결된 서비스 섹션에서 수동으로 로그아웃해야 합니다.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -243,14 +244,8 @@ nav-data-collection = 데이터 수집 및 사용
 nav-paid-subs = 유료 구독
 nav-email-comm = 이메일 설정 관리
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = 복구 코드를 대체하는 데 문제가 발생했습니다.
-tfa-replace-code-success =
-    새 코드가 생성됐습니다. 한번 만 사용할 수 있으니
-    안전한 곳에 저장하세요. — 모바일 기기 없이 계정에
-    접근하려면 이 코드가 필요합니다.
-tfa-replace-code-success-alert-2 = 계정 복구 코드가 업데이트되었습니다.
 tfa-replace-code-1-2 = 1/2 단계
 tfa-replace-code-2-2 = 2/2 단계
 
@@ -360,19 +355,15 @@ display-name-success-alert-2 = 표시 이름 갱신됨
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = 취소
 recovery-key-close-button = 닫기
 recovery-key-continue-button = 계속
-recovery-key-created = 복구 키가 생성되었습니다. 복구 키를 안전하고 찾기 쉬운 곳에 저장하십시오 — 암호를 잊어버린 경우 이 키를 통해 데이터에 다시 접근할 수 있습니다.
 recovery-key-enter-password =
     .label = 암호 입력
-recovery-key-page-title =
-    .title = 복구 키
 recovery-key-step-1 = 1/2 단계
 recovery-key-step-2 = 2/2 단계
-recovery-key-success-alert-2 = 복구 키가 생성되었습니다.
 
 ## Add secondary email page
 
@@ -420,8 +411,6 @@ tfa-button-cancel = 취소
 tfa-button-finish = 완료
 tfa-incorrect-totp = 잘못된 2단계 인증 코드
 tfa-cannot-retrieve-code = 코드를 복원하는 데 문제가 발생했습니다.
-tfa-cannot-verify-code-3 = 복구 코드를 확인하는 중 문제가 발생했습니다.
-tfa-incorrect-recovery-code = 잘못된 복구 코드
 tfa-enabled = 2단계 인증 활성화됨
 tfa-scan-this-code =
     <linkExternal>인증 앱 중 하나</linkExternal>를 사용하여
@@ -441,15 +430,6 @@ tfa-enter-secret-key = 이 비밀 키를 인증 앱에 입력하세요:
 tfa-enter-totp = 이제 인증 앱에서 비밀 코드를 입력하세요.
 tfa-input-enter-totp =
     .label = 비밀 코드 입력
-tfa-save-these-codes =
-    모바일 기기가 없을 때를 대비해
-    이 일회용 코드를 안전한 곳에 저장하세요.
-tfa-enter-code-to-confirm =
-    복구 코드 중 하나를 입력하여
-    코드를 저장했음을 확인하여 주십시오. 기기를 분실했을 때 계정에 접근하기 위해
-    필요합니다.
-tfa-enter-recovery-code =
-    .label = 복구 코드를 입력하세요
 
 ##
 
@@ -498,25 +478,17 @@ row-defaults-action-change = 변경
 row-defaults-action-disable = 비활성화
 row-defaults-status = 없음
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = 복구 키
 rk-enabled = 활성화됨
 rk-not-set = 설정되지 않음
 rk-action-create = 생성
 rk-action-remove = 제거
-rk-cannot-refresh = 죄송합니다. 복구 키를 새로고침 중에 문제가 발생했습니다.
 rk-key-removed-2 = 계정 복구 키가 삭제됨
 rk-cannot-remove-key = 계정 복구 키를 제거할 수 없습니다.
-rk-refresh-key = 복구 키 새로고침
 rk-content-explain = 비밀번호를 잊어버린 경우 정보를 복원하십시오.
 rk-content-reset-data = 비밀번호 재설정시 데이터가 재설정되는 이유는 무엇입니까?
 rk-cannot-verify-session-4 = 세션을 확인하는 중 오류가 발생했습니다.
-rk-remove-modal-heading = 복구 키를 제거하시겠습니까?
-rk-remove-modal-content =
-    비밀번호를 재설정하면
-    복구 키로 데이터에 접근하는 것이 불가능해집니다. 이 작업은 취소할 수 없습니다.
-rk-refresh-error = 죄송합니다. 복구 키를 새로고침 중에 문제가 발생했습니다.
 rk-remove-error-2 = 계정 복구 키를 제거할 수 없습니다.
 
 ## Secondary email sub-section on main Settings page
@@ -550,9 +522,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = 주 이메일로 사용
 se-default-content = 기본 이메일에 로그인할 수 없는 경우 계정에 접근하세요.
-se-content-note =
-    참고: 보조 이메일은 정보를 복원하지 않습니다.
-    이를 위해서는 <a>복구 키</a>가 필요합니다.
 # Default value for the secondary email
 se-secondary-email-none = 없음
 
@@ -578,11 +547,7 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = 세션을 확인하는 중 오류가 발생했습니다.
 tfa-row-disable-modal-heading = 2단계 인증을 비활성화하시겠습니까?
 tfa-row-disable-modal-confirm = 비활성화
-tfa-row-disable-modal-explain =
-    이 작업은 되돌릴 수 없습니다.
-    <linkExternal>복구 코드를 바꾸는</linkExternal> 옵션도 있습니다.
 tfa-row-cannot-disable-2 = 2단계 인증을 비활성화할 수 없습니다.
-tfa-row-change-modal-heading = 복구 코드를 변경하시겠습니까?
 tfa-row-change-modal-confirm = 변경
 tfa-row-change-modal-explain = 이 작업은 실행 취소 할 수 없습니다.
 
