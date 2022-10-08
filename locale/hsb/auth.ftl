@@ -634,6 +634,15 @@ verifyLogin-title-2 = Sće so pola { $clientName } přizjewił?
 verifyLogin-description-2 = Wobkrućće, zo sće so přizjewił, zo byšće nam pomhał, waše konto škitać.
 verifyLogin-subject-2 = Přizjewjenje wobkrućić
 verifyLogin-action = Přizjewjenje wobkrućić
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Přizjewjenje pola { $serviceName } schwalić
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Sće so pola { $serviceName } přizjewił?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Schwalće swoje přizjewjenje, zo byšće nam pomhał, waše konto škitać.
+verifyLoginCode-prompt-3 = Jeli haj, tu je waš awtorizowanski kod:
 verifyLoginCode-expiry-notice = Spadnje za 5 mjeńšin.
 verifyPrimary-title-2 = Primarnu e-mejlowu adresu wobkrućić
 verifyPrimary-description = Slědowacy grat je požadał, kontowu změnu přewjesć:
