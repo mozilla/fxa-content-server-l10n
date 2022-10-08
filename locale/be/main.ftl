@@ -297,11 +297,15 @@ coupon-error-generic = Здарылася памылка пры апрацоўц
 coupon-error-expired = Тэрмін дзеяння ўведзенага вамі кода скончыўся.
 coupon-error-limit-reached = Уведзены вамі код вычарпаў свой ліміт.
 coupon-error-invalid = Код, які вы ўвялі, нядзейсны.
+coupon-success = Ваш тарыфны план будзе аўтаматычна падоўжаны па базавай цане.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Ваш план будзе аўтаматычна падоўжаны пасля { $couponDurationDate } па базавай цане.
 coupon-enter-code =
     .placeholder = Увядзіце код
 
 ## Payment processing
 
+payment-processing-message = Калі ласка, пачакайце, пакуль мы апрацуем ваш плацеж...
 
 ## Payment confirmation
 
