@@ -246,6 +246,14 @@ codes-reminder-description-two-left = Ostali sta vam le še dve kodi.
 codes-reminder-description-create-codes = Ustvarite nove rezervne overitvene kode, s katerimi se boste lahko vrnili v račun, če boste zaklenjeni iz njega.
 lowRecoveryCodes-action-2 = Ustvari kode
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nimate več rezervnih overitvenih kod
+        [one] Imate samo še 1 rezervno overitveno kodo
+        [two] Imate samo še { $numberRemaining } rezervni overitveni kodi
+        [few] Imate samo še { $numberRemaining } rezervne overitvene kode
+       *[other] Imate samo še { $numberRemaining } rezervnih overitvenih kod
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova prijava v { $clientName }
@@ -279,6 +287,9 @@ passwordResetAccountRecovery-title-2 = Geslo uspešno ponastavljeno
 passwordResetAccountRecovery-description-2 = S ključem za obnovitev računa ste spremenili geslo z naslednje naprave:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Ustvari nov ključ za obnovitev računa
+passwordResetAccountRecovery-regen-required-mjml-1 = Na vseh sinhroniziranih napravah se boste morali znova prijaviti. Ne pozabite ustvariti novega ključa za obnovitev računa, ki bo nadomestil dosedanjega.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Na vseh sinhroniziranih napravah se boste morali znova prijaviti. Ne pozabite ustvariti novega ključa za obnovitev računa, ki bo nadomestil dosedanjega:
 postAddAccountRecovery-subject-2 = Obnovitveni ključ za račun ustvarjen
 postAddAccountRecovery-title2 = Ustvarili ste nov ključ za obnovitev računa
 # Information on the browser and device triggering this string follows.
@@ -310,6 +321,13 @@ postConsumeRecoveryCode-title-2 = Uporabili ste rezervno overitveno kodo
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Uporabljena je bila na naslednji napravi:
 postConsumeRecoveryCode-action = Upravljanje računa
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Imate še 1 rezervno overitveno kodo
+        [two] Imate še { $numberRemaining } rezervni overitveni kodi
+        [few] Imate še { $numberRemaining } rezervne overitvene kode
+       *[other] Imate še { $numberRemaining } rezervnih overitvenih kod
+    }
 postNewRecoveryCodes-subject-2 = Ustvarjene nove rezervne overitvene kode
 postNewRecoveryCodes-title-2 = Ustvarili ste nove rezervne overitvene kode
 # After the colon, there is information about the device that the authentication codes were created on
@@ -327,7 +345,12 @@ postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Uspešno ste odstranili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostnih obvestil in potrditev prijav ne bomo več pošiljali na ta naslov.
 postRemoveSecondary-action = Upravljanje računa
+postRemoveTwoStepAuthentication-subject-line-2 = Overitev v dveh korakih izklopljena
+postRemoveTwoStepAuthentication-title-2 = Izklopili ste overitev v dveh korakih
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Onemogočili ste jo z naslednje naprave:
 postRemoveTwoStepAuthentication-action = Upravljanje računa
+postRemoveTwoStepAuthentication-not-required-2 = Ob prijavi ne potrebujete več varnostnih kod iz aplikacije za preverjanje pristnosti.
 postVerify-sub-title-3 = Veseli nas, da vas vidimo!
 postVerify-title-2 = Želite imeti isti zavihek na dveh napravah?
 postVerify-subject-3 = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
