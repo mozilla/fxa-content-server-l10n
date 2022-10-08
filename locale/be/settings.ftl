@@ -82,6 +82,12 @@ connect-another-fx-mobile = Усталюйце { -brand-firefox } на мабі�
 connect-another-find-fx-mobile =
     Знайдзіце { -brand-firefox } у { -google-play } ці { -app-store } або
     <br /><linkExternal>адпраўце спасылку для сцягвання на сваю прыладу.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Сцягніце { -brand-firefox } з { -google-play }
+connect-another-app-store-image-2 =
+    .title = Сцягніце { -brand-firefox } з { -app-store }
 
 ##
 
