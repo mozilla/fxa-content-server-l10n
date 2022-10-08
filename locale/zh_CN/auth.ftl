@@ -306,12 +306,9 @@ postRemoveSecondary-title = 已移除备用邮箱
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = 您已成功将备用邮箱 { $secondaryEmail } 从 { -product-firefox-account }中删除。安全通知和登录确认将不再发送到此地址。
 postRemoveSecondary-action = 管理账户
-postRemoveTwoStepAuthentication-subject-line = 两步验证已关闭
-postRemoveTwoStepAuthentication-title = 已禁用两步验证
-postRemoveTwoStepAuthentication-description = 您已成功用下列设备禁用 { -product-firefox-account }的两步验证：
-postRemoveTwoStepAuthentication-description-plaintext = 您已成功禁用 { -product-firefox-account }的两步验证。现在起，无需安全码即可登录。
+postRemoveTwoStepAuthentication-subject-line-2 = 两步验证已关闭
+postRemoveTwoStepAuthentication-title-2 = 您已关闭两步验证
 postRemoveTwoStepAuthentication-action = 管理账户
-postRemoveTwoStepAuthentication-not-required = 现在起，无需安全码即可登录。
 postVerify-sub-title-3 = 我们很高兴见到您！
 postVerify-title-2 = 想在两台设备上看到相同的标签吗？
 postVerify-description-2 = 很简单！只需在另一台设备上安装 { -brand-firefox } 并登录，即可进行同步。就像魔法一样！
@@ -631,9 +628,11 @@ verifyLogin-subject-2 = 确认登录
 verifyLogin-action = 确认登录
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = { $serviceName } 的登录码
-verifyLoginCode-title = 是您在登录吗？
-verifyLoginCode-prompt-2 = 如果是，请使用此验证码：
+verifyLoginCode-subject-line-2 = 准许登录 { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = 您是否登录了 { $serviceName }？
+verifyLoginCode-prompt-3 = 如若是，请使用此验证码：
 verifyLoginCode-expiry-notice = 5 分钟内有效。
 verifyPrimary-title-2 = 验证主邮箱
 verifyPrimary-description = 下列设备请求了一项账户变更：
