@@ -172,6 +172,9 @@ subscriptionSupportContact-plaintext = Hvala, ker ste se naročili na { $product
 subscriptionUpdateBillingTry = Plačilo bomo znova poskusili izvesti v naslednjih dneh, vendar nam boste morda morali pomagati odpraviti težavo tako, da <a data-l10n-name="updateBillingUrl">posodobite podatke za plačilo</a>:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingTry-plaintext = Plačilo bomo znova poskusili izvesti v naslednjih dneh, vendar nam boste morda morali pomagati odpraviti težavo tako, da posodobite podatke za plačilo:
+subscriptionUpdatePayment = Da preprečite kakršnokoli prekinitev storitve, čim prej <a data-l10n-name="updateBillingUrl">posodobite svoje podatke za plačilo</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Da preprečite kakršnokoli prekinitev storitve, čim prej posodobite svoje podatke za plačilo:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = Za več informacij obiščite Podporo { -brand-mozilla }: { $supportUrl }.
@@ -324,12 +327,7 @@ postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Uspešno ste odstranili { $secondaryEmail } kot pomožni e-poštni naslov svojega { -product-firefox-account(sklon: "rodilnik") }. Varnostnih obvestil in potrditev prijav ne bomo več pošiljali na ta naslov.
 postRemoveSecondary-action = Upravljanje računa
-postRemoveTwoStepAuthentication-subject-line = Overitev v dveh korakih je izklopljena
-postRemoveTwoStepAuthentication-title = Overitev v dveh korakih je onemogočena
-postRemoveTwoStepAuthentication-description = Uspešno ste onemogočili overitev v dveh korakih za svoj { -product-firefox-account } z naslednje naprave:
-postRemoveTwoStepAuthentication-description-plaintext = Uspešno ste onemogočili overitev v dveh korakih za svoj { -product-firefox-account }. Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
 postRemoveTwoStepAuthentication-action = Upravljanje računa
-postRemoveTwoStepAuthentication-not-required = Varnostne kode ne bodo več zahtevane ob vsaki prijavi.
 postVerify-sub-title-3 = Veseli nas, da vas vidimo!
 postVerify-title-2 = Želite imeti isti zavihek na dveh napravah?
 postVerify-subject-3 = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
@@ -609,11 +607,6 @@ verifyLogin-title-2 = Ali ste se vi prijavili v { $clientName }?
 verifyLogin-description-2 = Pomagajte nam zaščititi vaš račun, tako da potrdite, da ste se vi prijavili v:
 verifyLogin-subject-2 = Potrdi prijavo
 verifyLogin-action = Potrdite prijavo
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Koda za prijavo v { $serviceName }
-verifyLoginCode-title = Se prijavljate vi?
-verifyLoginCode-prompt-2 = Če da, uporabite to potrditveno kodo:
 verifyLoginCode-expiry-notice = Poteče čez 5 minut.
 verifyPrimary-title-2 = Potrdi glavni e-poštni naslov
 verifyPrimary-description = Poslan je bil zahtevek za spremembo računa z naslednje naprave:
