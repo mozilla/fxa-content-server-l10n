@@ -319,12 +319,11 @@ postRemoveSecondary-title = L’indirizzo email secondario è stato rimosso
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = L’indirizzo email { $secondaryEmail } non è più configurato come indirizzo secondario per il tuo { -product-firefox-account }. Da questo momento le notifiche di sicurezza e le verifiche d’accesso non verranno più inviate a questo indirizzo.
 postRemoveSecondary-action = Gestisci account
-postRemoveTwoStepAuthentication-subject-line = L’autenticazione in due passaggi è disattivata
-postRemoveTwoStepAuthentication-title = Autenticazione in due passaggi disattivata
-postRemoveTwoStepAuthentication-description = L’autenticazione in due passaggi è stata disattivata correttamente per il tuo { -product-firefox-account } dal seguente dispositivo:
-postRemoveTwoStepAuthentication-description-plaintext = L’autenticazione in due passaggi per il tuo { -product-firefox-account } è stata disattivata correttamente. I codici di verifica non verranno più richiesti ad ogni accesso.
+postRemoveTwoStepAuthentication-subject-line-2 = Autenticazione in due passaggi disattivata
+postRemoveTwoStepAuthentication-title-2 = Hai disattivato l’autenticazione in due passaggi
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = L’hai disattivata da:
 postRemoveTwoStepAuthentication-action = Gestisci account
-postRemoveTwoStepAuthentication-not-required = I codici di verifica non verranno più richiesti ad ogni accesso.
 postVerify-sub-title-3 = Siamo felici di averti qui!
 postVerify-title-2 = Vuoi visualizzare la stessa scheda su due dispositivi?
 postVerify-description-2 = È facile! Installa { -brand-firefox } su un altro dispositivo ed effettua l’accesso per attivare la sincronizzazione. È come un tocco di magia!
@@ -651,11 +650,6 @@ verifyLogin-title-2 = Hai effettuato tu l’accesso a { $clientName }?
 verifyLogin-description-2 = Aiutaci a mantenere il tuo account al sicuro confermando di esser stato tu ad accedere:
 verifyLogin-subject-2 = Conferma accesso
 verifyLogin-action = Conferma accesso
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Codice di accesso per { $serviceName }
-verifyLoginCode-title = Hai effettuato tu questo accesso?
-verifyLoginCode-prompt-2 = Se desideri procedere, ecco il codice di conferma:
 verifyLoginCode-expiry-notice = Il codice scadrà entro 5 minuti.
 verifyPrimary-title-2 = Conferma indirizzo email primario
 verifyPrimary-description = Una richiesta di autorizzazione a modificare l’account è stata inviata dal seguente dispositivo:
