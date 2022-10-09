@@ -323,6 +323,7 @@ payment-confirmation-thanks-heading-account-exists = Дзякуй, правер�
 ## $email (string) - The user's email.
 
 payment-confirmation-order-heading = Падрабязнасці замовы
+payment-confirmation-invoice-number = Рахунак-фактура #{ $invoiceNumber }
 payment-confirmation-billing-heading = Рахунак выстаўлены на
 payment-confirmation-details-heading-2 = Плацежная інфармацыя
 payment-confirmation-amount = { $amount } за { $interval }
