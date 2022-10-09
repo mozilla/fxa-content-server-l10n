@@ -321,10 +321,12 @@ subscriptionAccountFinishSetup-content-create-2 = Luo seuraavaksi { -product-fir
 subscriptionAccountFinishSetup-action-2 = Aloitetaan
 subscriptionAccountReminderFirst-subject = Muistutus: viimeistele tilisi määrittäminen
 subscriptionAccountReminderFirst-title = Et voi käyttää tilaustasi vielä
+subscriptionAccountReminderFirst-content-select-2 = Valitse "Luo salasana" asettaaksesi uuden salasanan ja viimeistelläksesi tilisi vahvistamisen.
 subscriptionAccountReminderFirst-action = Luo salasana
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Viimeinen muistutus: määritä tilisi
 subscriptionAccountReminderSecond-title = Tervetuloa, käytössäsi on { -brand-firefox }!
+subscriptionAccountReminderSecond-content-select-2 = Valitse "Luo salasana" asettaaksesi uuden salasanan ja viimeistelläksesi tilisi vahvistamisen.
 subscriptionAccountReminderSecond-action = Luo salasana
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
