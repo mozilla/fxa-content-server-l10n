@@ -399,12 +399,12 @@ postRemoveSecondary-title = Alternatívna e-mailová adresa bola odstránená
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Úspešne ste odstránili { $secondaryEmail } ako alternatívnu e-mailovú adresu z vášho { -product-firefox-account(case: "gen", capitalization: "lower") }. Bezpečnostné upozornenia a potvrdenia prihlásenia už nebudú odosielané na túto adresu.
 postRemoveSecondary-action = Spravovať účet
-postRemoveTwoStepAuthentication-subject-line = Dvojstupňové overenie je vypnuté
-postRemoveTwoStepAuthentication-title = Dvojstupňové overenie bolo zakázané
-postRemoveTwoStepAuthentication-description = Úspešne ste zakázali dvojstupňové overenie na vašom { -product-firefox-account(case: "loc", capitalization: "lower") } z nasledujúceho zariadenia:
-postRemoveTwoStepAuthentication-description-plaintext = Úspešne ste zakázali dvojstupňové overenie na vašom { -product-firefox-account(case: "loc", capitalization: "lower") }. Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
+postRemoveTwoStepAuthentication-subject-line-2 = Dvojstupňové overenie je vypnuté
+postRemoveTwoStepAuthentication-title-2 = Vypli ste dvojstupňové overenie
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Zakázali ste ju z:
 postRemoveTwoStepAuthentication-action = Spravovať účet
-postRemoveTwoStepAuthentication-not-required = Pri prihlásení už nebude nutné zadávať bezpečnostné kódy.
+postRemoveTwoStepAuthentication-not-required-2 = Pri prihlasovaní už nepotrebujete bezpečnostné kódy z overovacej aplikácie.
 postVerify-sub-title-3 = Sme radi, že vás vidíme!
 postVerify-title-2 = Chcete vidieť rovnakú kartu na dvoch zariadeniach?
 postVerify-description-2 = Je to jednoduché! Stačí si nainštalovať { -brand-firefox } na iné zariadenie a prihlásiť sa k synchronizácii. Je to ako kúzlo!
@@ -725,9 +725,13 @@ verifyLogin-subject-2 = Potvrdenie prihlásenia
 verifyLogin-action = Potvrdiť prihlásenie
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Prihlasovací kód pre { $serviceName }
-verifyLoginCode-title = Spoznávate toto prihlásenie?
-verifyLoginCode-prompt-2 = Ak áno, tu je potvrdzovací kód:
+verifyLoginCode-subject-line-2 = Schváliť prihlásenie do { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Prihlásili ste sa do produktu { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Pomôžte nám zabezpečiť bezpečnosť vášho účtu schválením prihlásenia na zariadení:
+verifyLoginCode-prompt-3 = Ak áno, tu je váš autorizačný kód:
 verifyLoginCode-expiry-notice = Jeho platnosť vyprší po 5 minútach.
 verifyPrimary-title-2 = Potvrdenie hlavnej e-mailovej adresy
 verifyPrimary-description = Požiadavka na zmenu v účte prišla z nasledovného zariadenia:
