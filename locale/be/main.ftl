@@ -329,6 +329,20 @@ payment-confirmation-amount = { $amount } за { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } кожны { $intervalCount } тыдзень
+        [few] { $amount } кожныя { $intervalCount } тыдня
+       *[many] { $amount } кожныя { $intervalCount } тыдні
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } кожны { $intervalCount } месяц
+        [few] { $amount } кожныя { $intervalCount } месяцы
+       *[many] { $amount } кожныя { $intervalCount } месяцы
+    }
 payment-confirmation-download-button = Працягнуць сцягванне
 payment-confirmation-cc-card-ending-in = Карта, нумар якой заканчваецца на { $last4 }
 
