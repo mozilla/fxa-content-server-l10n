@@ -305,7 +305,7 @@ coupon-enter-code =
 
 ## Payment processing
 
-payment-processing-message = Калі ласка, пачакайце, пакуль мы апрацуем ваш плацеж...
+payment-processing-message = Калі ласка, пачакайце, пакуль мы апрацуем ваш плацеж…
 
 ## Payment confirmation
 
