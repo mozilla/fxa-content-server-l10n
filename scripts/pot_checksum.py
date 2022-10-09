@@ -20,17 +20,16 @@ def main():
     output = []
     for fp in file_paths:
         with open(fp) as f:
-            # Get a hash of the content without the POT-Creation-Date line
             sha256 = hashlib.sha256()
+            # Get a hash of the content without POT-Creation-Date and
+            # directives (e.g. comments `#:`)
             content = f.readlines()
+            cleaned_lines = []
+            for line in content:
+                if not line.startswith(('"POT-Creation-Date:', "#")):
+                    cleaned_lines.append(line)
 
-            for line_number, line in enumerate(content):
-                if line.startswith('"POT-Creation-Date:'):
-                    break
-
-            cleaned_content = "".join(
-                content[:line_number] + content[line_number + 1 :]
-            ).encode("utf-8")
+            cleaned_content = "".join(cleaned_lines).encode("utf-8")
             sha256.update(cleaned_content)
             rel_filename = os.path.relpath(fp.resolve(), start=src_path.resolve())
             output.append(f"{rel_filename}:{sha256.hexdigest()}")
