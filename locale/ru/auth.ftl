@@ -326,12 +326,12 @@ postRemoveSecondary-title = Удалена дополнительная элек
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Вы успешно удалили дополнительный адрес электронной почты { $secondaryEmail } из своего { -product-firefox-account(case: "genitive") }. Уведомления безопасности и подтверждения входа больше не будут отправляться на этот адрес.
 postRemoveSecondary-action = Управление аккаунтом
-postRemoveTwoStepAuthentication-subject-line = Двухэтапная аутентификация отключена
-postRemoveTwoStepAuthentication-title = Двухэтапная аутентификация отключена
-postRemoveTwoStepAuthentication-description = Вы успешно отключили двухэтапную аутентификацию в своём { -product-firefox-account(case: "prepositional") } со следующего устройства:
-postRemoveTwoStepAuthentication-description-plaintext = Вы успешно отключили двухэтапную аутентификацию в своём { -product-firefox-account(case: "prepositional") }. Теперь не нужно будет вводить код безопасности при каждом входе.
+postRemoveTwoStepAuthentication-subject-line-2 = Двухэтапная аутентификация отключена
+postRemoveTwoStepAuthentication-title-2 = Вы отключили двухэтапную аутентификацию
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Вы отключили её с:
 postRemoveTwoStepAuthentication-action = Управление аккаунтом
-postRemoveTwoStepAuthentication-not-required = Коды безопасности теперь не будут необходимы при каждом входе.
+postRemoveTwoStepAuthentication-not-required-2 = Вам больше не нужны коды безопасности из приложения для аутентификации при входе в систему.
 postVerify-sub-title-3 = Мы рады видеть вас!
 postVerify-title-2 = Хотите видеть одну и ту же вкладку на двух устройствах?
 postVerify-description-2 = Это просто! Просто установите { -brand-firefox } на другое устройство и войдите в аккаунт для синхронизации. Это как волшебство!
@@ -652,9 +652,13 @@ verifyLogin-subject-2 = Подтвердить вход
 verifyLogin-action = Подтвердить вход
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Код для входа в { $serviceName }
-verifyLoginCode-title = Это входили вы?
-verifyLoginCode-prompt-2 = Если да, то вот — код подтверждения:
+verifyLoginCode-subject-line-2 = Подтвердите вход в { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Вы вошли в { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Помогите нам обеспечить безопасность вашей учётной записи, подтвердив вход в:
+verifyLoginCode-prompt-3 = Если да, то вот ваш код авторизации:
 verifyLoginCode-expiry-notice = Срок его действия истечёт через 5 минут.
 verifyPrimary-title-2 = Подтвердите основную электронную почту
 verifyPrimary-description = Запрос на выполнение изменений в аккаунте был сделан со следующего устройства:
