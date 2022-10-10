@@ -47,7 +47,11 @@ subplat-explainer-specific = このメールは { $email } の { -product-firefo
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = このメールは { $email } の { -product-firefox-account }宛に送信されています。
 subplat-explainer-multiple = このメールは { $email } の { -product-firefox-account }で複数の製品を購読されているため送信されました。
+subplat-explainer-was-deleted = このメールは { $email } が { -product-firefox-account } に登録されたため送信されました。
 subplat-manage-account = { -product-firefox-account }の設定はあなたの <a data-l10n-name="subplat-account-page">アカウントのページ</a> で管理できます。
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = アカウントページ { $accountSettingsUrl } にアクセスして、{ -product-firefox-account } の設定を管理してください。
 subplat-terms-policy = 利用規約とキャンセルポリシー
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = 購読を解除
@@ -69,6 +73,30 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ -google-play
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ -app-store } で { $productName } をダウンロード">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = { $productName } を <a data-l10n-name="anotherDeviceLink">別のデスクトップ端末</a> にインストールしてください。
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = { $productName } を <a data-l10n-name="anotherDeviceLink">別の端末</a> にインストールしてください。
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Google Play で { $productName } を入手する:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = App Store で { $productName } を入手する:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = { $productName } を別の端末にインストールする:
+automated-email-change-2 = この操作に覚えがない場合、すぐに <a data-l10n-name="passwordChangeLink">パスワードを変更</a> してください。
+automated-email-support = 詳細については、<a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = この操作に覚えがない場合、すぐにパスワード変更をしてください:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = 詳細については、{ -brand-mozilla } サポートをご覧ください:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } 詳細については、<a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
+automated-email-no-action-plaintext = これは自動的に配信されたメールです。心当たりがない場合は、何も行わないでください。
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = これは自動送信されたメールです。この操作に覚えがない場合は、パスワードを変更してください:
 automated-email-reset =
@@ -119,6 +147,9 @@ subscriptionUpdatePayment = サービスの中断を防ぐため、できるだ�
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = サービスの中断を防ぐため、できるだけ早くお支払い情報を更新してください:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = 詳しい情報は { -brand-mozilla } サポートをご覧ください: { $supportUrl }
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -151,7 +182,9 @@ view-invoice = <a data-l10n-name="invoiceLink">請求書を表示する</a>。
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = 請求書の表示：{ $invoiceLink }
+cadReminderFirst-subject-1 = { -brand-firefox } の同期をお忘れなく
 cadReminderFirst-action = 別の端末を同期する
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderFirst-description-2 = 同期にかかる時間はわずか 1 秒です。
 cadReminderSecond-subject-2 = 忘れずに同期の設定を完了しましょう
 cadReminderSecond-action = 別の端末を同期する
@@ -166,10 +199,26 @@ downloadSubscription-subject = { $productName } へようこそ。
 downloadSubscription-title = { $productName } へようこそ。
 downloadSubscription-content-2 = サブスクリプションに含まれるすべての機能を使いましょう:
 downloadSubscription-link-action-2 = はじめに
+fraudulentAccountDeletion-subject = あなたの { -product-firefox-account } が削除されました
 fraudulentAccountDeletion-title = あなたのアカウントは削除されました
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] 残りのバックアップ認証コードがありません！
+       *[other] 残りのバックアップ認証コードは { $numberRemaining } 個です！
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } への新規ログイン
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = あなたの { -product-firefox-account } がログインに使用されました
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = 覚えがない場合は <a data-l10n-name="passwordChangeLink">パスワードを変更</a> してください。
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = 覚えがない場合はパスワードを変更してください:
 newDeviceLogin-action = アカウント管理
 passwordChanged-subject = パスワードを更新しました
 passwordChanged-title = パスワード変更完了
@@ -185,6 +234,10 @@ passwordChangeRequired-different-password-plaintext = 重要: 以前に使用し
 passwordReset-subject = パスワードを更新しました
 passwordReset-title = アカウントのパスワードが変更されました
 passwordReset-description = 同期を再開するには、他の端末で新しいパスワードを入力する必要があります。
+passwordResetAccountRecovery-subject-2 = あなたのパスワードはリセットされました
+passwordResetAccountRecovery-title-2 = パスワードのリセットが完了しました
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = 次の端末でアカウント回復用キーを使用してパスワードを更新しました:
 postAddAccountRecovery-action = アカウント管理
 postAddLinkedAccount-subject = { -brand-firefox } にリンクされた新しいアカウント
 #  Variables:
@@ -212,12 +265,7 @@ postRemoveSecondary-title = 予備アドレスが削除されました
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } があなたの { -product-firefox-account }の予備アドレスから削除されました。セキュリティ通知やログイン確認は今後このアドレスに送られなくなります。
 postRemoveSecondary-action = アカウント管理
-postRemoveTwoStepAuthentication-subject-line = 2 段階認証がオフです
-postRemoveTwoStepAuthentication-title = 2 段階認証が無効化されました
-postRemoveTwoStepAuthentication-description = 次の端末から { -product-firefox-account }上の 2 段階認証の無効化が完了しました:
-postRemoveTwoStepAuthentication-description-plaintext = { -product-firefox-account }上の 2 段階認証の無効化が完了しました。今後ログインのたびにセキュリティコードを入力する必要がなくなります。
 postRemoveTwoStepAuthentication-action = アカウント管理
-postRemoveTwoStepAuthentication-not-required = 今後ログインのたびにセキュリティコードを入力する必要はなくなります。
 postVerifySecondary-subject = 予備のメールアドレスが追加されました
 postVerifySecondary-title = 予備のメールアドレスが追加されました
 postVerifySecondary-action = アカウント管理
@@ -491,10 +539,6 @@ unblockCode-report-plaintext = もし違うなら、侵入者を防ぐため問�
 verify-description = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:
 verify-subject = アカウント作成を完了してください
 verifyLogin-action = ログインを確認
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = { $serviceName } のログインコード
-verifyLoginCode-title = ログインしようとしているのはあなた自身ですか？
 verifyLoginCode-expiry-notice = 5 分以内に確認コードを入力してください。
 verifyPrimary-description = アカウント変更を実行するリクエストが次の端末から行われました:
 verifyPrimary-subject = 優先メールアドレス確認
