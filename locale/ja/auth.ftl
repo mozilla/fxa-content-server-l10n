@@ -289,6 +289,7 @@ postVerifySecondary-subject = 予備のメールアドレスが追加されま�
 postVerifySecondary-title = 予備のメールアドレスが追加されました
 postVerifySecondary-action = アカウント管理
 recovery-subject = パスワードをリセットしました
+recovery-title-2 = パスワードを忘れた場合
 recovery-action = 新しいパスワードを設定
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -555,6 +556,7 @@ unblockCode-prompt = もしそうなら、ここに必要な認証コードが�
 unblockCode-prompt-plaintext = もしそうなら、次の認証コードが必要です: { $unblockCode }
 unblockCode-report = もし違うなら、侵入者を防ぐため <a data-l10n-name="reportSignInLink">問題を報告してください</a>。
 unblockCode-report-plaintext = もし違うなら、侵入者を防ぐため問題を報告してください。
+confirm-account = アカウントを確認
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-title-2 = { -brand-firefox } へようこそ！
 verificationReminderFirst-description-2 = 数日前に { -product-firefox-account } を作成されましたが、まだ認証が終わっていません。15 日以内に認証されない場合、アカウントが自動的に削除されます。
