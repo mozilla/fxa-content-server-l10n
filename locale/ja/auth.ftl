@@ -238,6 +238,12 @@ passwordResetAccountRecovery-subject-2 = あなたのパスワードはリセッ
 passwordResetAccountRecovery-title-2 = パスワードのリセットが完了しました
 # Details of the device, location, IP address, and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = 次の端末でアカウント回復用キーを使用してパスワードを更新しました:
+postAddAccountRecovery-subject-2 = アカウント回復用キーが生成されました
+postAddAccountRecovery-title2 = 新しいアカウント回復用キーを生成しました
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = 次の端末で新しいキーが生成されました:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = 覚えがないですか？
 postAddAccountRecovery-action = アカウント管理
 postAddAccountRecovery-delete-key = 新しいキーを削除する:
 postAddAccountRecovery-changd-password = パスワードを変更する:
@@ -277,6 +283,7 @@ postRemoveSecondary-title = 予備アドレスが削除されました
 postRemoveSecondary-description = { $secondaryEmail } があなたの { -product-firefox-account }の予備アドレスから削除されました。セキュリティ通知やログイン確認は今後このアドレスに送られなくなります。
 postRemoveSecondary-action = アカウント管理
 postRemoveTwoStepAuthentication-action = アカウント管理
+postVerify-subject-3 = { -brand-firefox } へようこそ！
 postVerifySecondary-subject = 予備のメールアドレスが追加されました
 postVerifySecondary-title = 予備のメールアドレスが追加されました
 postVerifySecondary-action = アカウント管理
@@ -547,13 +554,25 @@ unblockCode-prompt = もしそうなら、ここに必要な認証コードが�
 unblockCode-prompt-plaintext = もしそうなら、次の認証コードが必要です: { $unblockCode }
 unblockCode-report = もし違うなら、侵入者を防ぐため <a data-l10n-name="reportSignInLink">問題を報告してください</a>。
 unblockCode-report-plaintext = もし違うなら、侵入者を防ぐため問題を報告してください。
+verificationReminderFirst-title-2 = { -brand-firefox } へようこそ！
+verificationReminderFirst-description-2 = 数日前に { -product-firefox-account } を作成されましたが、まだ認証が終わっていません。15 日以内に認証されない場合、アカウントが自動的に削除されます。
+confirm-email-2 = アカウントを確認
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = アカウントを確認
+verificationReminderSecond-second-description = { -product-firefox-account } は複数の端末で情報を同期し、プライバシーが保護された { -brand-mozilla } の他の製品にもアクセスできます。
+verificationReminderSecond-action-2 = アカウントを確認
 verify-description = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:
 verify-subject = アカウント作成を完了してください
+verify-action-2 = アカウントを確認
+verifyLogin-subject-2 = ログインを確認
 verifyLogin-action = ログインを確認
 verifyLoginCode-expiry-notice = 5 分以内に確認コードを入力してください。
 verifyPrimary-description = アカウント変更を実行するリクエストが次の端末から行われました:
 verifyPrimary-subject = 優先メールアドレス確認
+verifyPrimary-action-2 = メールアドレスを確認
 verifySecondaryCode-subject = 予備メールアドレスの確認
+verifySecondaryCode-title-2 = 予備メールアドレスの確認
+verifySecondaryCode-action-2 = メールアドレスを確認
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の { -product-firefox-account }から行われました:
