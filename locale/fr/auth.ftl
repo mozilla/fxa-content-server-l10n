@@ -323,12 +323,12 @@ postRemoveSecondary-title = L’adresse électronique secondaire a été supprim
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } a été retiré des adresses électroniques secondaires de votre { -product-firefox-account }. Vous ne recevrez plus de notification ni de confirmation de connexion sur cette adresse électronique.
 postRemoveSecondary-action = Gérer le compte
-postRemoveTwoStepAuthentication-subject-line = Authentification en deux étapes désactivée
-postRemoveTwoStepAuthentication-title = Authentification en deux étapes désactivée
-postRemoveTwoStepAuthentication-description = Vous avez désactivé l’authentification en deux étapes pour votre { -product-firefox-account } à partir de l’appareil suivant :
-postRemoveTwoStepAuthentication-description-plaintext = Vous avez désactivé l’authentification en deux étapes pour votre { -product-firefox-account }. Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion.
+postRemoveTwoStepAuthentication-subject-line-2 = Authentification en deux étapes désactivée
+postRemoveTwoStepAuthentication-title-2 = Vous avez désactivé l’authentification en deux étapes
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Vous l’avez désactivée depuis :
 postRemoveTwoStepAuthentication-action = Gérer le compte
-postRemoveTwoStepAuthentication-not-required = Un code de sécurité ne sera désormais plus nécessaire au moment de la connexion.
+postRemoveTwoStepAuthentication-not-required-2 = Vous n’avez plus besoin des codes de sécurité fournis par votre application d’authentification quand vous vous connectez.
 postVerify-sub-title-3 = Nous sommes ravis de vous voir !
 postVerify-title-2 = Vous voulez consulter le même onglet sur deux appareils ?
 postVerify-description-2 = C'est facile ! Installez simplement { -brand-firefox } sur un autre appareil et connectez-vous pour synchroniser, comme par magie.
@@ -649,9 +649,10 @@ verifyLogin-subject-2 = Confirmer la connexion
 verifyLogin-action = Confirmer la connexion
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Code de connexion pour { $serviceName }
-verifyLoginCode-title = Étiez-vous à l’origine de cette connexion ?
-verifyLoginCode-prompt-2 = Si oui, voici le code de confirmation :
+verifyLoginCode-subject-line-2 = Accepter la connexion à { $serviceName }
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Aidez-nous à protéger votre compte en confirmant votre connexion sur :
+verifyLoginCode-prompt-3 = Si oui, voici le code d’autorisation :
 verifyLoginCode-expiry-notice = Il expire dans 5 minutes.
 verifyPrimary-title-2 = Confirmer l’adresse électronique principale
 verifyPrimary-description = Une requête pour modifier le compte a été effectuée depuis l’appareil suivant :
