@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-09-19 05:19+0000\n"
+"PO-Revision-Date: 2022-10-10 06:18+0000\n"
 "Last-Translator: Marcelo Poli <enzomatrix@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_AR\n"
@@ -1175,7 +1175,7 @@ msgstr "Continuar a cuentas de Firefox"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr "Sincronizá tus constraseñas, pestañas y marcadoes en cualquier lado qque uses Firefox."
+msgstr "Sincronizá tus constraseñas, pestañas y marcadores en cualquier lado que uses Firefox."
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
