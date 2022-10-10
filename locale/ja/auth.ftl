@@ -276,6 +276,7 @@ postNewRecoveryCodes-action = アカウント管理
 postRemoveAccountRecovery-subject-2 = アカウント回復用キーが削除されました
 postRemoveAccountRecovery-title-2 = アカウント回復用キーが削除されました
 postRemoveAccountRecovery-action = アカウント管理
+postRemoveAccountRecovery-invalid-2 = パスワードを忘れた場合、{ -brand-firefox } のデータを回復させるにはアカウント回復用キーが必要です。
 postRemoveSecondary-subject = 予備アドレスが削除されました
 postRemoveSecondary-title = 予備アドレスが削除されました
 # Variables:
@@ -561,6 +562,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = アカウントを確認
 verificationReminderSecond-second-description = { -product-firefox-account } は複数の端末で情報を同期し、プライバシーが保護された { -brand-mozilla } の他の製品にもアクセスできます。
 verificationReminderSecond-action-2 = アカウントを確認
+verify-title-2 = { -brand-firefox } でインターネットをオープンに
 verify-description = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:
 verify-subject = アカウント作成を完了してください
 verify-action-2 = アカウントを確認
@@ -576,4 +578,8 @@ verifySecondaryCode-action-2 = メールアドレスを確認
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = { $email } を予備アドレスとして使用するためのリクエストが以下の { -product-firefox-account }から行われました:
+verifyShortCode-title-2 = { -brand-firefox } でインターネットをオープンに
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:
+verifyShortCode-prompt-3 = この確認コードを使用してください:
 verifyShortCode-expiry-notice = 5 分以内に確認コードを入力してください。

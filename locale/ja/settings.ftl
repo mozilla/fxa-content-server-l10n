@@ -526,6 +526,7 @@ tfa-row-change-modal-explain = この操作は元に戻せません。
 
 auth-error-102 = 不明なアカウント
 auth-error-103 = パスワードが正しくありません
+auth-error-105-2 = 不正な確認コード
 auth-error-110 = トークンが正しくありません
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -537,4 +538,5 @@ auth-error-110 = トークンが正しくありません
 auth-error-114 = 何回も試したため中断されました。{ $retryAfter }後に再度試してください。
 auth-error-139 = 予備のメールアドレスはアカウントのアドレスと別でなければなりません
 auth-error-155 = TOTP トークンが見つかりません
+auth-error-183-2 = 確認コードが不正または期限切れです
 auth-error-1008 = 新しいパスワードは別のものにしてください
