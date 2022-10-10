@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-10-10 07:09+0000\n"
+"PO-Revision-Date: 2022-10-10 07:27+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -932,7 +932,7 @@ msgstr "アカウントを作成できません"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Firefox アカウントを作成するには、規定の年齢に達成する必要があります。"
 
 # リンク先などは未確認だが多分 Cookie の説明？
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
@@ -1653,7 +1653,7 @@ msgstr "後で考えます"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "5 分以内に %(escapedEmail)s に送信された確認コードを入力してください。"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1856,7 +1856,7 @@ msgstr "このアカウントを作成する必要があるのはなぜですか
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "おいくつですか？アカウントを作成するには、13 歳以上でなくてはいけません。"
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1864,7 +1864,7 @@ msgstr "あなたの年齢は何歳ですか？"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "You must be at least 13 years old to create an account."
-msgstr ""
+msgstr "アカウントを作成するには、13 歳以上でなくてはいけません。"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
