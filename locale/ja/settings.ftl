@@ -519,6 +519,7 @@ tfa-row-content-explain = あなただけがアクセスできるコードを必
 tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-disable-modal-confirm = 無効化
 tfa-row-cannot-disable-2 = 2 段階認証を無効化できませんでした
+tfa-row-change-modal-heading-1 = バックアップ認証コードを変更しますか？
 tfa-row-change-modal-confirm = 変更
 tfa-row-change-modal-explain = この操作は元に戻せません。
 

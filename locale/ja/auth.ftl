@@ -204,6 +204,11 @@ fraudulentAccountDeletion-subject = あなたの { -product-firefox-account } �
 fraudulentAccountDeletion-title = あなたのアカウントは削除されました
 fraudulentAccountDeletion-content = このメールアドレスを使って { -product-firefox-account } が作成され、サブスクリプションが請求されました。すべての新しいアカウントと同様にアカウントを確認するため、最初にこのメールアドレスを確認するようお願いします。
 fraudulentAccountDeletion-content-2 = 現時点で、このアカウントはまだ確認されていません。確認手順が完了していないため、正規のサブスクリプションかどうか判断できません。そのため、このメールアドレスに登録した { -product-firefox-account } が削除されました。また、サブスクリプションがキャンセルされ、お支払いをすべて払い戻しました。
+fraudulentAccountDeletion-contact = ご不明な点がある場合、<a data-l10n-name="mozillaSupportUrl">サポートチーム</a> までお問い合わせください。
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = ご不明な点がある場合、サポートチームまでお問い合わせください: { $mozillaSupportUrl }
+lowRecoveryCodes-action-2 = コードを生成する
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
@@ -241,6 +246,8 @@ passwordResetAccountRecovery-subject-2 = あなたのパスワードはリセッ
 passwordResetAccountRecovery-title-2 = パスワードのリセットが完了しました
 # Details of the device, location, IP address, and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = 次の端末でアカウント回復用キーを使用してパスワードを更新しました:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = 新しいアカウント回復用キーを生成する
 postAddAccountRecovery-subject-2 = アカウント回復用キーが生成されました
 postAddAccountRecovery-title2 = 新しいアカウント回復用キーを生成しました
 # Information on the browser and device triggering this string follows.
@@ -275,6 +282,7 @@ postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
        *[other] 残りバックアップ認証コードは { $numberRemaining } 個です
     }
+postNewRecoveryCodes-title-2 = 新しいバックアップ認証コードを生成しました
 postNewRecoveryCodes-action = アカウント管理
 postRemoveAccountRecovery-subject-2 = アカウント回復用キーが削除されました
 postRemoveAccountRecovery-title-2 = アカウント回復用キーが削除されました
