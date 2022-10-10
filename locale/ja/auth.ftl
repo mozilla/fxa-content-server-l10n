@@ -555,6 +555,7 @@ unblockCode-prompt = もしそうなら、ここに必要な認証コードが�
 unblockCode-prompt-plaintext = もしそうなら、次の認証コードが必要です: { $unblockCode }
 unblockCode-report = もし違うなら、侵入者を防ぐため <a data-l10n-name="reportSignInLink">問題を報告してください</a>。
 unblockCode-report-plaintext = もし違うなら、侵入者を防ぐため問題を報告してください。
+confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-title-2 = { -brand-firefox } へようこそ！
 verificationReminderFirst-description-2 = 数日前に { -product-firefox-account } を作成されましたが、まだ認証が終わっていません。15 日以内に認証されない場合、アカウントが自動的に削除されます。
 confirm-email-2 = アカウントを確認
