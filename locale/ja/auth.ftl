@@ -239,6 +239,8 @@ passwordResetAccountRecovery-title-2 = パスワードのリセットが完了�
 # Details of the device, location, IP address, and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = 次の端末でアカウント回復用キーを使用してパスワードを更新しました:
 postAddAccountRecovery-action = アカウント管理
+postAddAccountRecovery-delete-key = 新しいキーを削除する:
+postAddAccountRecovery-changd-password = パスワードを変更する:
 postAddLinkedAccount-subject = { -brand-firefox } にリンクされた新しいアカウント
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -256,8 +258,17 @@ postChangePrimary-title = 新しい主要アドレス
 #  $email (String) - A user's email address
 postChangePrimary-description = { $email } への主要アドレス変更が完了しました。このアドレスは今後、{ -product-firefox-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
 postChangePrimary-action = アカウント管理
+postConsumeRecoveryCode-title-2 = バックアップ認証コードを使用しました
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = コードを使用した端末:
 postConsumeRecoveryCode-action = アカウント管理
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+       *[other] 残りバックアップ認証コードは { $numberRemaining } 個です
+    }
 postNewRecoveryCodes-action = アカウント管理
+postRemoveAccountRecovery-subject-2 = アカウント回復用キーが削除されました
+postRemoveAccountRecovery-title-2 = アカウント回復用キーが削除されました
 postRemoveAccountRecovery-action = アカウント管理
 postRemoveSecondary-subject = 予備アドレスが削除されました
 postRemoveSecondary-title = 予備アドレスが削除されました
