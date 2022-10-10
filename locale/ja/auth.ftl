@@ -203,6 +203,7 @@ downloadSubscription-link-action-2 = はじめに
 fraudulentAccountDeletion-subject = あなたの { -product-firefox-account } が削除されました
 fraudulentAccountDeletion-title = あなたのアカウントは削除されました
 fraudulentAccountDeletion-content = このメールアドレスを使って { -product-firefox-account } が作成され、サブスクリプションが請求されました。すべての新しいアカウントと同様にアカウントを確認するため、最初にこのメールアドレスを確認するようお願いします。
+fraudulentAccountDeletion-content-2 = 現時点で、このアカウントはまだ確認されていません。確認手順が完了していないため、正規のサブスクリプションかどうか判断できません。そのため、このメールアドレスに登録した { -product-firefox-account } が削除されました。また、サブスクリプションがキャンセルされ、お支払いをすべて払い戻しました。
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
