@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-15 22:12+0000\n"
-"PO-Revision-Date: 2022-08-31 08:08+0000\n"
-"Last-Translator: tori4649 <torisan4649@gmail.com>\n"
+"PO-Revision-Date: 2022-10-10 07:09+0000\n"
+"Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -1183,7 +1183,7 @@ msgstr "ログインまたはアカウント登録"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Firefox アカウントは、プライバシーが守られた他の Mozilla の製品にもアクセスできます。"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
