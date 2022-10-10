@@ -315,12 +315,8 @@ postRemoveSecondary-title = Sekundêr e-mailadres fuortsmiten
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Jo hawwe { $secondaryEmail } mei sukses as sekundêr e-mailadres fan jo { -product-firefox-account } fuortsmiten. Befeiligingsmeldingen en oanmeldingsbefêstigingen wurde net mear op dit adres ôflevere.
 postRemoveSecondary-action = Account beheare
-postRemoveTwoStepAuthentication-subject-line = Autentikaasje yn twa stappen is útskeakele
-postRemoveTwoStepAuthentication-title = Twa-staps autentikaasje útskeakele
-postRemoveTwoStepAuthentication-description = Jo hawwe fan it folgjende apparaat ôf mei sukses twa-staps autentikaasje op jo { -product-firefox-account } útskeakele:
-postRemoveTwoStepAuthentication-description-plaintext = Jo hawwe mei sukses twa-staps autentikaasje op jo { -product-firefox-account } útskeakele. Feilichheidskoaden sille by elke oanmelding net langer nedich wêze.
+postRemoveTwoStepAuthentication-subject-line-2 = Autentikaasje yn twa stappen is útskeakele
 postRemoveTwoStepAuthentication-action = Account beheare
-postRemoveTwoStepAuthentication-not-required = Feilichheidskoaden sille by elke oanmelding net langer nedich wêze.
 postVerify-sub-title-3 = Wy binne bliid jo te sjen!
 postVerify-title-2 = Wolle jo itselde ljepblêd op twa apparaten sjen?
 postVerify-description-2 = Dat is maklik! Ynstallearje gewoanwei { -brand-firefox } op in oar apparaat en meld jo oan om te syngronisearjen. It is magysk!
@@ -639,11 +635,6 @@ verifyLogin-title-2 = Hawwe jo oanmeld mei { $clientName }?
 verifyLogin-description-2 = Help ús jo account feilich te hâlden troch te befêstigjen dat jo oanmeld binne op:
 verifyLogin-subject-2 = Oanmelding befêstigje
 verifyLogin-action = Oanmelding befêstigje
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Oanmeldkoade foar { $serviceName }
-verifyLoginCode-title = Binne jo dit, dy’t harren oanmeldt?
-verifyLoginCode-prompt-2 = Sa ja, dan is dit de befêstigingskoade:
 verifyLoginCode-expiry-notice = Dizze ferrin oer fiif minuten.
 verifyPrimary-title-2 = Primêr e-mailadres befêstigje
 verifyPrimary-description = Der is in oanfraach foar it útfieren fan in accountwiziging dien fan it folgjende apparaat ôf:
