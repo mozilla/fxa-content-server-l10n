@@ -185,6 +185,7 @@ view-invoice-plaintext = 請求書の表示：{ $invoiceLink }
 cadReminderFirst-subject-1 = { -brand-firefox } の同期をお忘れなく
 cadReminderFirst-action = 別の端末を同期する
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+cadReminderFirst-description-1 = タブをあなたの端末のすべてで使用可能に。{ -brand-firefox } を使用するところでブックマークやパスワード、その他のデータにアクセスできます。まるで { -brand-firefox } アカウントが魔法を使っているようです！
 cadReminderFirst-description-2 = 同期にかかる時間はわずか 1 秒です。
 cadReminderSecond-subject-2 = 忘れずに同期の設定を完了しましょう
 cadReminderSecond-action = 別の端末を同期する
@@ -201,6 +202,7 @@ downloadSubscription-content-2 = サブスクリプションに含まれるす�
 downloadSubscription-link-action-2 = はじめに
 fraudulentAccountDeletion-subject = あなたの { -product-firefox-account } が削除されました
 fraudulentAccountDeletion-title = あなたのアカウントは削除されました
+fraudulentAccountDeletion-content = このメールアドレスを使って { -product-firefox-account } が作成され、サブスクリプションが請求されました。すべての新しいアカウントと同様にアカウントを確認するため、最初にこのメールアドレスを確認するようお願いします。
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
