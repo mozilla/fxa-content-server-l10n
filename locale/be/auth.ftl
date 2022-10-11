@@ -63,6 +63,9 @@ ios-download-plaintext = Спампуйце { $productName } з App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Усталюйце { $productName } на іншую прыладу:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Для атрымання дадатковай інфармацыі наведайце старонку падтрымкі { -brand-mozilla }:
+automated-email-no-action-plaintext = Гэта аўтаматычна створанае паведамленне. Калі вы атрымалі яго памылкова, вам не трэба нічога рабіць.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Калі ласка, дапамажыце нам палепшыць нашы паслугі, узяўшы ўдзел у гэтым кароткім апытанні:
 change-password-plaintext = Калі вы падазраяце, што хтосьці спрабуе атрымаць доступ да вашага ўліковага запісу, калі ласка, змяніце пароль.
@@ -117,12 +120,17 @@ location-state-country = { $stateCode }, { $country } (прыблізна)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (прыблізна)
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Праглядзець рахунак-фактуру: { $invoiceLink }
 cadReminderFirst-action = Сінхранізаваць іншую прыладу
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Для сінхранізацыі патрэбна дзве прылады
 cadReminderFirst-description-2 = Сінхранізацыя адбываецца імгненна
 cadReminderSecond-action = Сінхранізаваць іншую прыладу
+cadReminderSecond-title-2 = Не забудзьцеся сінхранізаваць!
 cadReminderSecond-description-sync = Сінхранізуйце свае закладкі, паролі, адкрытыя карткі і многае іншае — усюды, дзе вы карыстаецеся { -brand-firefox }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -139,6 +147,7 @@ codes-reminder-title-zero = У вас скончыліся рэзервовыя 
 codes-reminder-title-one = Вы выкарыстоўваеце апошні рэзервовы код аўтэнтыфікацыі
 codes-reminder-title-two = Час стварыць больш рэзервовых кодаў аўтэнтыфікацыі
 codes-reminder-description-part-one = Рэзервовыя коды аўтэнтыфікацыі дапамогуць вам аднавіць вашу інфармацыю, калі вы забудзеце пароль.
+codes-reminder-description-part-two = Стварыце новыя коды зараз, каб потым не страціць свае даныя.
 codes-reminder-description-two-left = У вас засталося толькі два коды.
 codes-reminder-description-create-codes = Стварыце новыя рэзервовыя коды аўтэнтыфікацыі, каб мець магчымасць увайсці ў свой уліковы запіс, калі вы заблакаваны.
 lowRecoveryCodes-action-2 = Стварыць коды
@@ -326,18 +335,28 @@ subscriptionPaymentExpired-title-1 = Тэрмін дзеяння вашай кр
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Не атрымалася аплаціць { $productName }
+subscriptionPaymentFailed-title = На жаль, у нас узнікла праблема з вашым плацяжом
+subscriptionPaymentProviderCancelled-title = На жаль, у нас узніклі праблемы з вашым спосабам аплаты
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Падпіска на { $productName } адноўлена
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Дзякуй за аднаўленне вашай падпіскі на { $productName }!
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Паведамленне пра аўтаматычнае падаўжэнне { $productName }
+subscriptionRenewalReminder-title = Ваша падпіска хутка будзе падоўжана
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Шаноўны кліент { $productName },
 subscriptionRenewalReminder-content-closing = З павагай,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Каманда { $productName }
 subscriptionsPaymentExpired-subject-1 = Тэрмін дзеяння крэдытнай карты для вашых падпісак скончыўся або хутка скончыцца
 subscriptionsPaymentExpired-title-1 = Тэрмін дзеяння вашай крэдытнай карты скончыўся або хутка скончыцца
+subscriptionsPaymentProviderCancelled-title = На жаль, у нас узніклі праблемы з вашым спосабам аплаты
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Плацеж { $productName } атрыманы
@@ -393,6 +412,13 @@ subscriptionSubsequentInvoiceDiscount-content-discount = Зніжка: -{ $invoi
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Аднаразовая зніжка: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionSubsequentInvoiceDiscount-content-discount-repeating = { $discountDuration }-месячная зніжка: -{ $invoiceDiscountAmount }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Вы перайшлі на { $productName }
 subscriptionUpgrade-title = Дзякуй за абнаўленне!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
@@ -407,8 +433,11 @@ unblockCode-prompt-plaintext = Калі так, вось код аўтарыза
 unblockCode-report = Калі не, дапамажыце нам стрымліваць зламыснікаў і <a data-l10n-name="reportSignInLink">паведаміце нам аб гэтым.</a>
 unblockCode-report-plaintext = Калі не, дапамажыце нам стрымліваць зламыснікаў і паведамце нам аб гэтым.
 verificationReminderFinal-subject = Апошні напамін аб праверцы вашага ўліковага запісу
+confirm-account = Пацвердзіць уліковы запіс
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Не забудзьцеся пацвердзіць свой уліковы запіс
 verificationReminderFirst-title-2 = Вітаем у { -brand-firefox }!
+confirm-email-2 = Пацвердзіць уліковы запіс
 verify-description = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі, пачынаючы з:
 verify-subject = Скончыце стварэнне ўліковага запісу
 verifyLogin-subject-2 = Пацвердзіць уваход
