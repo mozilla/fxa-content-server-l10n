@@ -271,6 +271,8 @@ pw-8-chars = Мінімум 8 знакаў
 pw-not-email = Не ваш адрас электроннай пошты
 pw-change-must-match = Новы пароль адпавядае пацверджанню
 pw-commonly-used = Не часта выкарыстаны пароль
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Будзьце ў бяспецы - не выкарыстоўвайце паролі паўторна. Даведайцеся больш пра <linkExternal>стварэнне надзейных пароляў</linkExternal>.
 pw-change-cancel-button = Скасаваць
 pw-change-save-button = Захаваць
 pw-change-forgot-password-link = Забыліся на пароль?
@@ -406,6 +408,7 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Не ўдаецца сканаваць кода?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Увядзіце гэты сакрэтны ключ у праграму аўтэнтыфікацыі:
+tfa-enter-totp = Цяпер увядзіце код бяспекі з праграмы для аўтэнтыфікацыі.
 tfa-input-enter-totp =
     .label = Увядзіце код бяспекі
 tfa-enter-recovery-code-1 =
