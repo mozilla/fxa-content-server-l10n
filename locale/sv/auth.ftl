@@ -315,12 +315,12 @@ postRemoveSecondary-title = Sekundär e-postadress borttagen
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Du har tagit bort { $secondaryEmail } som en sekundär e-post från ditt { -product-firefox-account }. Säkerhetsmeddelanden och inloggningsbekräftelser kommer inte längre att levereras till den här adressen.
 postRemoveSecondary-action = Hantera konto
-postRemoveTwoStepAuthentication-subject-line = Tvåstegsautentisering är avstängd
-postRemoveTwoStepAuthentication-title = Tvåstegsautentisering inaktiverad
-postRemoveTwoStepAuthentication-description = Du har framgångsrikt inaktiverat tvåstegsautentisering på ditt { -product-firefox-account } från följande enhet:
-postRemoveTwoStepAuthentication-description-plaintext = Du har framgångsrikt inaktiverat tvåstegsautentisering på ditt { -product-firefox-account }. Säkerhetskoder kommer inte längre att krävas vid varje inloggning.
+postRemoveTwoStepAuthentication-subject-line-2 = Tvåstegsautentisering avstängd
+postRemoveTwoStepAuthentication-title-2 = Du stängde av tvåstegsautentisering
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Du inaktiverade det från:
 postRemoveTwoStepAuthentication-action = Hantera konto
-postRemoveTwoStepAuthentication-not-required = Säkerhetskoder behövs inte längre vid varje inloggning.
+postRemoveTwoStepAuthentication-not-required-2 = Du behöver inte längre säkerhetskoder från din autentiseringsapp när du loggar in.
 postVerify-sub-title-3 = Vi är glada att se dig!
 postVerify-title-2 = Vill du se samma flik på två enheter?
 postVerify-description-2 = Det är lätt! Installera bara { -brand-firefox } på en annan enhet och logga in för att synkronisera. Det är som magi!
@@ -641,9 +641,13 @@ verifyLogin-subject-2 = Bekräfta inloggning
 verifyLogin-action = Bekräfta inloggning
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Inloggningskod för { $serviceName }
-verifyLoginCode-title = Är det du som loggar in?
-verifyLoginCode-prompt-2 = Om ja, här är bekräftelsekoden:
+verifyLoginCode-subject-line-2 = Godkänn inloggning till { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Loggade du in på { $serviceName }
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Hjälp oss att hålla ditt konto säkert genom att godkänna din inloggning på:
+verifyLoginCode-prompt-3 = Om ja, här är din auktoriseringskod:
 verifyLoginCode-expiry-notice = Den upphör om 5 minuter.
 verifyPrimary-title-2 = Bekräfta primär e-postadress
 verifyPrimary-description = En begäran om att göra en kontoändring har gjorts från följande enhet:
