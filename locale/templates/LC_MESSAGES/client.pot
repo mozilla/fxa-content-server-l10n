@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-09-15 22:12+0000\n"
+"POT-Creation-Date: 2022-10-11 20:52+0000\n"
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
@@ -2125,7 +2125,9 @@ msgid ""
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? You must be at least 13 years old to create an account."
+msgid ""
+"How old are you? To learn why we ask for your age, follow the “why do we "
+"ask” link below."
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
@@ -2133,7 +2135,7 @@ msgid "How old are you?"
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "You must be at least 13 years old to create an account."
+msgid "Why do we ask?"
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-15 22:12+0000\n"
+"POT-Creation-Date: 2022-10-11 20:52+0000\n"
 "PO-Revision-Date: 2022-03-25 05:30+0000\n"
 "Last-Translator: Sander Lepik <mozilla@lepik.io>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1863,7 +1863,7 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr "Miks ma pean selle konto looma? <a %(escapedSuggestionAttrs)s>Vaata teavet siit</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? You must be at least 13 years old to create an account."
+msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
 msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
@@ -1871,7 +1871,7 @@ msgid "How old are you?"
 msgstr "Kui vana sa oled?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "You must be at least 13 years old to create an account."
+msgid "Why do we ask?"
 msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2

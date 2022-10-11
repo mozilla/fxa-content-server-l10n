@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-15 22:12+0000\n"
+"POT-Creation-Date: 2022-10-11 20:52+0000\n"
 "PO-Revision-Date: 2022-09-11 11:55+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -1888,16 +1888,16 @@ msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find 
 msgstr "Dlaczego muszę utworzyć to konto? <a %(escapedSuggestionAttrs)s>Dowiedz się tutaj</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? You must be at least 13 years old to create an account."
-msgstr "Ile masz lat? Aby utworzyć konto, musisz mieć co najmniej 13 lat."
+msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
+msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
 msgstr "Ile masz lat?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "You must be at least 13 years old to create an account."
-msgstr "Aby utworzyć konto, musisz mieć co najmniej 13 lat."
+msgid "Why do we ask?"
+msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
