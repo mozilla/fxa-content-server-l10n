@@ -438,10 +438,24 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не забудзьцеся пацвердзіць свой уліковы запіс
 verificationReminderFirst-title-2 = Вітаем у { -brand-firefox }!
 confirm-email-2 = Пацвердзіць уліковы запіс
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Пацвердзіць уліковы запіс
+verificationReminderSecond-subject-2 = Не забудзьцеся пацвердзіць свой уліковы запіс
+verificationReminderSecond-title-2 = Не прапусціце { -brand-firefox }!
+verificationReminderSecond-action-2 = Пацвердзіць уліковы запіс
+verify-title-2 = Адкрыйце Інтэрнэт з дапамогай { -brand-firefox }
 verify-description = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі, пачынаючы з:
 verify-subject = Скончыце стварэнне ўліковага запісу
+verify-action-2 = Пацвердзіць уліковы запіс
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Вы ўваходзілі ў { $clientName }?
 verifyLogin-subject-2 = Пацвердзіць уваход
 verifyLogin-action = Пацвердзіць уваход
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Вы ўваходзілі ў { $serviceName }?
+verifyLoginCode-prompt-3 = Калі так, вось ваш код аўтарызацыі:
 verifyLoginCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
 verifyPrimary-title-2 = Пацвердзіце асноўную электронную пошту
 verifyPrimary-description = Запыт на змену ўліковага запісу быў зроблены з наступнай прылады:
@@ -457,6 +471,7 @@ verifySecondaryCode-expiry-notice-2 = Яго тэрмін дзеяння мін�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Пацвердзіце свой уліковы запіс
+verifyShortCode-title-2 = Адкрыйце Інтэрнэт з дапамогай { -brand-firefox }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі, пачынаючы з:
 verifyShortCode-prompt-3 = Выкарыстайце гэты код пацверджання:
