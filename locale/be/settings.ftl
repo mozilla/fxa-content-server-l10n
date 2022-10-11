@@ -473,6 +473,7 @@ rk-action-remove = Выдаліць
 rk-key-removed-2 = Ключ аднаўлення ўліковага запісу выдалены
 rk-refresh-key-1 = Абнавіць ключ аднаўлення ўліковага запісу
 rk-content-explain = Аднавіце сваю інфармацыі, калі забудзеце пароль.
+rk-content-reset-data = Чаму пры скідзе пароля выдаляюцца мае даныя?
 rk-cannot-verify-session-4 = На жаль, узнікла праблема з пацвярджэннем сеансу
 rk-remove-modal-heading-1 = Выдаліць ключ аднаўлення ўліковага запісу?
 
@@ -518,6 +519,9 @@ tfa-row-action-add = Дадаць
 tfa-row-action-disable = Адключыць
 tfa-row-button-refresh =
     .title = Абнавіць двухэтапную аўтарызацыю
+tfa-row-content-explain =
+    Забараніце ўваход іншым, запатрабаваўшы 
+    унікальны код, які ёсць толькі ў вас.
 tfa-row-cannot-verify-session-4 = На жаль, узнікла праблема з пацвярджэннем сеансу
 tfa-row-disable-modal-heading = Адключыць двухэтапную аўтарызацыю?
 tfa-row-disable-modal-confirm = Адключыць
