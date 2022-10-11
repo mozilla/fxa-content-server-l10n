@@ -338,8 +338,11 @@ recovery-key-close-button = Закрыць
 recovery-key-continue-button = Працягнуць
 recovery-key-enter-password =
     .label = Увядзіце пароль
+recovery-key-page-title-1 =
+    .title = Ключ аднаўлення ўліковага запісу
 recovery-key-step-1 = Крок 1 з 2
 recovery-key-step-2 = Крок 2 з 2
+recovery-key-success-alert-3 = Ключ аднаўлення ўліковага запісу створаны
 
 ## Add secondary email page
 
@@ -388,6 +391,9 @@ tfa-incorrect-totp = Няправільны код двухэтапнай аўт
 tfa-cannot-retrieve-code = Узнікла праблема пры атрыманні вашага коду.
 tfa-incorrect-recovery-code-1 = Няправільны рэзервовы код аўтэнтыфікацыі
 tfa-enabled = Двухэтапная аўтарызацыя ўключана
+tfa-scan-this-code =
+    Адсканіруйце гэты QR-код, выкарыстоўваючы адзну з <linkExternal>гэтых
+    праграм для аўтэнтыфікацыі</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -460,6 +466,7 @@ rk-not-set = Не ўстаноўлены
 rk-action-create = Стварыць
 rk-action-remove = Выдаліць
 rk-key-removed-2 = Ключ аднаўлення ўліковага запісу выдалены
+rk-refresh-key-1 = Абнавіць ключ аднаўлення ўліковага запісу
 rk-content-explain = Аднавіце сваю інфармацыі, калі забудзеце пароль.
 rk-cannot-verify-session-4 = На жаль, узнікла праблема з пацвярджэннем сеансу
 rk-remove-modal-heading-1 = Выдаліць ключ аднаўлення ўліковага запісу?
