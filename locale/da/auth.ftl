@@ -315,12 +315,12 @@ postRemoveSecondary-title = Sekundær mailadresse fjernet
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Du har fjernet { $secondaryEmail } som sekundær mailadresse fra din { -product-firefox-account }. Sikkerhedsmeddelelser og login-bekræftelser vil ikke længere blive sendt til denne mailadresse.
 postRemoveSecondary-action = Håndter konto
-postRemoveTwoStepAuthentication-subject-line = Totrinsgodkendelse er slået fra
-postRemoveTwoStepAuthentication-title = Totrinsgodkendelse deaktiveret
-postRemoveTwoStepAuthentication-description = Du har deaktiveret totrinsgodkendelse på din { -product-firefox-account } fra følgende enhed:
-postRemoveTwoStepAuthentication-description-plaintext = Du har deaktiveret totrinsgodkendelse på din { -product-firefox-account }. Sikkerhedskoder vil ikke længere være påkrævet ved login.
+postRemoveTwoStepAuthentication-subject-line-2 = Totrinsgodkendelse er slået fra
+postRemoveTwoStepAuthentication-title-2 = Du har slået totrinsgodkendelse fra
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Du har deaktiveret det fra:
 postRemoveTwoStepAuthentication-action = Håndter konto
-postRemoveTwoStepAuthentication-not-required = Sikkerhedskoder vil ikke længere være påkrævet ved login.
+postRemoveTwoStepAuthentication-not-required-2 = Du behøver ikke længere sikkerhedskoder fra din godkendelsesapp, når du logger ind.
 postVerify-sub-title-3 = Vi er glade for at se dig!
 postVerify-title-2 = Vil du se det samme faneblad på to enheder?
 postVerify-description-2 = Det er nemt! Du skal bare installere { -brand-firefox } på en anden enhed og logge ind for at synkronisere. Det er som magi!
@@ -641,9 +641,13 @@ verifyLogin-subject-2 = Bekræft login
 verifyLogin-action = Bekræft login
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Login-kode til { $serviceName }
-verifyLoginCode-title = Er det dig, der logger ind?
-verifyLoginCode-prompt-2 = Hvis det er, så er bekræftelseskoden her:
+verifyLoginCode-subject-line-2 = Godkend login på { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Har du logget ind på { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Hold din konto sikker ved at bekræfte dit login på:
+verifyLoginCode-prompt-3 = Hvis du har, så er din godkendelseskode her:
 verifyLoginCode-expiry-notice = Den udløber om 5 minutter.
 verifyPrimary-title-2 = Bekræft primær mailadresse
 verifyPrimary-description = Følgende enhed har anmodet om at foretage en ændring af kontoen:
