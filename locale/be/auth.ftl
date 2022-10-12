@@ -196,10 +196,7 @@ postAddAccountRecovery-delete-key = Выдаліць новы ключ:
 postAddAccountRecovery-changd-password = Зменіце ваш пароль:
 postAddLinkedAccount-subject = Новы ўліковы запіс, звязаны з { -brand-firefox }
 postAddLinkedAccount-action = Кіраваць уліковым запісам
-postAddTwoStepAuthentication-subject = Двухэтапная аўтарызацыя ўключана
-postAddTwoStepAuthentication-title = Двухэтапная аўтарызацыя ўключана
 postAddTwoStepAuthentication-action = Кіраванне ўліковым запісам
-postAddTwoStepAuthentication-code-required = Цяпер пры кожным уваходзе спатрэбіцца код бяспекі ад вашай праграмы аўтэнтыфікацыі.
 postChangePrimary-subject = Асноўны адрас эл.пошты зменены
 postChangePrimary-title = Новы асноўны адрас эл.пошты
 postChangePrimary-action = Кіраванне ўліковым запісам
@@ -452,6 +449,9 @@ verify-action-2 = Пацвердзіць уліковы запіс
 verifyLogin-title-2 = Вы ўваходзілі ў { $clientName }?
 verifyLogin-subject-2 = Пацвердзіць уваход
 verifyLogin-action = Пацвердзіць уваход
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Пацвердзіце ўваход у { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Вы ўваходзілі ў { $serviceName }?

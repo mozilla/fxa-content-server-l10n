@@ -102,12 +102,7 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Паштовы індэкс
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-##
-
+payment-confirm-with-legal-links-static = Я дазваляю { -brand-name-mozilla }, вытворцу прадуктаў { -brand-name-firefox } збіраць з майго метаду аплаты паказаную суму ў адпаведнасці з <termsOfServiceLink>Умовамі абслугоўвання</termsOfServiceLink> і <privacyNoticeLink>Паведамленнем аб прыватнасці </privacyNoticeLink>, пакуль я не скасую сваю падпіску.
 payment-cancel-btn = Скасаваць
 payment-update-btn = Абнавіць
 payment-pay-btn = Аплаціць зараз
