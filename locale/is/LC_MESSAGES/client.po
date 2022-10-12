@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-12 13:01+0000\n"
+"PO-Revision-Date: 2022-10-12 13:09+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: is\n"
@@ -1880,7 +1880,7 @@ msgstr "Af hverju þarf ég að búa til þennan reikning? <a %(escapedSuggestio
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "Hvað ertu gamall? Til að sjá hvers vegna við biðjum um aldur þinn skaltu fylgja tenglinum „Hvers vegna spyrjum við“ hér að neðan."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"

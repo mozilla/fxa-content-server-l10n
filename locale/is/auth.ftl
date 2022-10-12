@@ -277,12 +277,12 @@ postAddLinkedAccount-subject = Nýr reikningur tengdur við { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = { $providerName } reikningurinn þinn hefur verið tengdur við { -product-firefox-account }
 postAddLinkedAccount-action = Sýsla með aðgang
-postAddTwoStepAuthentication-subject = Tveggja-þrepa auðkenning virkjuð
-postAddTwoStepAuthentication-title = Tveggja-þrepa auðkenning virkjuð
-postAddTwoStepAuthentication-description-plaintext = Þú hefur virkjað tveggja-þrepa auðkenningu á { -product-firefox-account }. Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu.
-postAddTwoStepAuthentication-description = Þú hefur virkjað tveggja-þrepa auðkenningu á { -product-firefox-account } úr eftirfarandi tæki:
+postAddTwoStepAuthentication-subject-2 = Kveikt er á tveggja-þrepa auðkenningu
+postAddTwoStepAuthentication-title-2 = Þú kveiktir á tveggja-þrepa auðkenningu
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Þú virkjaðir hana frá:
 postAddTwoStepAuthentication-action = Sýsla með reikning
-postAddTwoStepAuthentication-code-required = Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu.
+postAddTwoStepAuthentication-code-required-2 = Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu.
 postChangePrimary-subject = Aðaltölvupóstfang uppfært
 postChangePrimary-title = Nýtt aðaltölvupóstfang
 # Variables:
@@ -315,12 +315,12 @@ postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Þú hefur fjarlægt { $secondaryEmail } sem aukapóstfang fyrir { -product-firefox-account }. Öryggistilkynningar og staðfestingar á innskráningu verða ekki lengur sendar á þetta tölvupóstfang.
 postRemoveSecondary-action = Sýsla með reikning
-postRemoveTwoStepAuthentication-subject-line = Slökkt er á tveggja-þrepa auðkenningu
-postRemoveTwoStepAuthentication-title = Tveggja-þrepa auðkenning óvirk
-postRemoveTwoStepAuthentication-description = Þú hefur gert óvirka tveggja-þrepa auðkenningu á { -product-firefox-account } þínum úr eftirfarandi tæki:
-postRemoveTwoStepAuthentication-description-plaintext = Þú hefur gert óvirka tveggja-þrepa auðkenningu á { -product-firefox-account }-reikningnum þínum. Öryggiskóða frá auðkenningarforritinu þínu verður ekki lengur krafist við hverja innskráningu.
+postRemoveTwoStepAuthentication-subject-line-2 = Slökkt er á tveggja-þrepa auðkenningu
+postRemoveTwoStepAuthentication-title-2 = Þú slökktir á tveggja-þrepa auðkenningu
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Þú gerðir hana óvirka frá:
 postRemoveTwoStepAuthentication-action = Sýsla með reikning
-postRemoveTwoStepAuthentication-not-required = Ekki verður lengur krafist öryggiskóða við hverja innskráningu.
+postRemoveTwoStepAuthentication-not-required-2 = Þú þarft ekki lengur öryggiskóða úr auðkenningarforritinu þínu þegar þú skráir þig inn.
 postVerify-sub-title-3 = Við erum ánægð að sjá þig!
 postVerify-title-2 = Viltu sjá sama flipa á tveimur tækjum?
 postVerify-description-2 = Það er einfalt! Settu bara { -brand-firefox } upp á öðru tæki og skráðu þig inn til að samstilla. Það virkar eins og galdrar!
@@ -641,9 +641,13 @@ verifyLogin-subject-2 = Staðfestu innskráningu
 verifyLogin-action = Staðfesta innskráningu
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Innskráningarkóði fyrir { $serviceName }
-verifyLoginCode-title = Er þetta þú að skrá þig inn?
-verifyLoginCode-prompt-2 = Ef já, þá er hérna staðfestingarkóðinn:
+verifyLoginCode-subject-line-2 = Samþykkja innskráningu á { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Skráðir þú þig inn á { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Hjálpaðu okkur að halda reikningnum þínum öruggum með því að staðfesta innskráninguna þína á:
+verifyLoginCode-prompt-3 = Ef já, þá er hérna auðkenningarkóðinn:
 verifyLoginCode-expiry-notice = Hann rennur út eftir 5 mínútur.
 verifyPrimary-title-2 = Staðfestu aðaltölvupóstfangið
 verifyPrimary-description = Beiðni um að breyta reikningi hefur verið gerð úr eftirfarandi tæki:
