@@ -277,12 +277,12 @@ postAddLinkedAccount-subject = Nije account keppele oan { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Jo { $providerName }-account is keppele oan jo { -product-firefox-account }
 postAddLinkedAccount-action = Account beheare
-postAddTwoStepAuthentication-subject = Twa-staps autentikaasje ynskeakele
-postAddTwoStepAuthentication-title = Twa-staps autentikaasje ynskeakele
-postAddTwoStepAuthentication-description-plaintext = Jo hawwe mei sukses twa-staps autentikaasje op jo { -product-firefox-account } ynskeakele. Fan no ôf binne by elke oanmelding de feilichheidskoaden fan jo autentikaasje-app fereaske.
-postAddTwoStepAuthentication-description = Jo hawwe fan it folgjende apparaat ôf mei sukses twa-staps autentikaasje op jo { -product-firefox-account } ynskeakele:
+postAddTwoStepAuthentication-subject-2 = Autentikaasje yn twa stappen is ynskeakele
+postAddTwoStepAuthentication-title-2 = Jo hawwe autentikaasje yn twa stappen ynskeakele
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Jo hawwe it ynskeakele fanôf:
 postAddTwoStepAuthentication-action = Account beheare
-postAddTwoStepAuthentication-code-required = Fan no ôf binne by elke oanmelding de feilichheidskoaden fan jo autentikaasje-app fereaske.
+postAddTwoStepAuthentication-code-required-2 = Hieltyd as jo jo oanmelde binne no befeiligingskoaden fan jo autentikaasje-app ôf fereaske.
 postChangePrimary-subject = Primêr e-mailadres fernijd
 postChangePrimary-title = Nij primêr e-mailadres
 # Variables:
