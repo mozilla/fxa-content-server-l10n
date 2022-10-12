@@ -285,12 +285,12 @@ postAddLinkedAccount-subject = Nouveau compte lié à { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Votre compte { $providerName } a été lié à votre { -product-firefox-account }
 postAddLinkedAccount-action = Gérer le compte
-postAddTwoStepAuthentication-subject = Authentification en deux étapes activée
-postAddTwoStepAuthentication-title = Authentification en deux étapes activée
-postAddTwoStepAuthentication-description-plaintext = Vous avez activé l’authentification en deux étapes pour votre { -product-firefox-account }. Un code de sécurité de votre application d’authentification vous sera désormais demandé à chaque connexion.
-postAddTwoStepAuthentication-description = Vous avez activé l’authentification en deux étapes pour votre { -product-firefox-account } à partir de l’appareil suivant :
+postAddTwoStepAuthentication-subject-2 = Authentification en deux étapes activée
+postAddTwoStepAuthentication-title-2 = Vous avez activé l’authentification en deux étapes
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Vous l’avez activée depuis :
 postAddTwoStepAuthentication-action = Gérer le compte
-postAddTwoStepAuthentication-code-required = Un code de sécurité issu de votre application d’authentification sera désormais requis à chaque connexion.
+postAddTwoStepAuthentication-code-required-2 = Un code de sécurité issu de votre application d’authentification est désormais requis à chaque connexion.
 postChangePrimary-subject = Adresse électronique principale mise à jour
 postChangePrimary-title = Nouvelle adresse électronique principale
 # Variables:
@@ -650,6 +650,9 @@ verifyLogin-action = Confirmer la connexion
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line-2 = Accepter la connexion à { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Vous êtes-vous connecté·e via { $serviceName } ?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Aidez-nous à protéger votre compte en confirmant votre connexion sur :
 verifyLoginCode-prompt-3 = Si oui, voici le code d’autorisation :
