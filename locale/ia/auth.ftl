@@ -277,12 +277,12 @@ postAddLinkedAccount-subject = Nove conto ligate a { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Tu conto { $providerName } ha essite ligate a tu { -product-firefox-account }
 postAddLinkedAccount-action = Gerer le conto
-postAddTwoStepAuthentication-subject = Authentication a duo passos activate
-postAddTwoStepAuthentication-title = Authentication a duo passos activate
-postAddTwoStepAuthentication-description-plaintext = Tu ha correctemente activate le authentication a duo passos sur tu conto { -product-firefox-account }. Le codices de securitate ab tu application de authentication essera ora requirite a cata apertura de session.
-postAddTwoStepAuthentication-description = Tu ha activate con successo le authentication a duo passos in tu { -product-firefox-account } ab le apparato sequente:
+postAddTwoStepAuthentication-subject-2 = Le authentication a duo passos es activate
+postAddTwoStepAuthentication-title-2 = Tu activava le authentication a duo passos
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Tu lo activava de:
 postAddTwoStepAuthentication-action = Gerer le conto
-postAddTwoStepAuthentication-code-required = Le codices de securitate ab tu application de authentication essera ora requirite a cata apertura de session.
+postAddTwoStepAuthentication-code-required-2 = Le codices de securitate ab tu application de authentication es ora requirite a cata apertura de session.
 postChangePrimary-subject = E-mail primari actualisate
 postChangePrimary-title = Nove e-mail primari
 # Variables:
