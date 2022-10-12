@@ -266,6 +266,8 @@ postAddLinkedAccount-subject = { -brand-firefox } にリンクされた新しい
 postAddLinkedAccount-title = { $providerName } のアカウントが { -product-firefox-account }にリンクされています
 postAddLinkedAccount-action = アカウント管理
 postAddTwoStepAuthentication-title-2 = 2 段階認証をオンにしました
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = 次の端末から有効にしました:
 postAddTwoStepAuthentication-action = アカウント管理
 postChangePrimary-subject = 主要アドレスが更新されました
 postChangePrimary-title = 新しい主要アドレス
@@ -297,6 +299,9 @@ postRemoveSecondary-title = 予備アドレスが削除されました
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } があなたの { -product-firefox-account }の予備アドレスから削除されました。セキュリティ通知やログイン確認は今後このアドレスに送られなくなります。
 postRemoveSecondary-action = アカウント管理
+postRemoveTwoStepAuthentication-title-2 = 2 段階認証をオフにしました
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = 次の端末から無効にしました:
 postRemoveTwoStepAuthentication-action = アカウント管理
 postVerify-title-2 = 2 台の端末で同じタブを表示したいですか？
 postVerify-description-2 = 簡単です！別の端末に { -brand-firefox } をインストールして同期するだけです。まるで魔法のようです！
@@ -608,6 +613,12 @@ verify-subject = アカウント作成を完了してください
 verify-action-2 = アカウントを確認
 verifyLogin-subject-2 = ログインを確認
 verifyLogin-action = ログインを確認
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = { $serviceName } へのログインを承認
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = { $serviceName } にログインしましたか？
 verifyLoginCode-expiry-notice = 5 分以内に確認コードを入力してください。
 verifyPrimary-description = アカウント変更を実行するリクエストが次の端末から行われました:
 verifyPrimary-subject = 優先メールアドレス確認
