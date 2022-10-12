@@ -280,6 +280,7 @@ postAddTwoStepAuthentication-title-2 = İki aşamalı doğrulamayı açtınız
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Bu cihazdan etkinleştirdiniz:
 postAddTwoStepAuthentication-action = Hesabı yönet
+postAddTwoStepAuthentication-code-required-2 = Artık her girişinizde kimlik doğrulama uygulamanızdaki güvenlik kodları gerekecektir.
 postChangePrimary-subject = Ana e-posta güncellendi
 postChangePrimary-title = Yeni ana e-posta
 # Variables:
