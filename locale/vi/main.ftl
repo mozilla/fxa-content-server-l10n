@@ -132,32 +132,7 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Mã bưu chính (ZIP)
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } ngày</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } tuần</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } tháng</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-       *[other] Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, để tính phí phương thức thanh toán của tôi <strong>{ $amount } mỗi { $intervalCount } năm</strong>, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>chính sách riêng tư</privacyNoticeLink>, cho đến khi tôi hủy đăng ký.
-    }
-
-##
-
+payment-confirm-with-legal-links-static = Tôi ủy quyền cho { -brand-name-mozilla }, nhà sản xuất các sản phẩm { -brand-name-firefox }, dùng phương thức thanh toán của tôi để tính phí cho số tiền được hiển thị, theo <termsOfServiceLink>điều khoản dịch vụ</termsOfServiceLink> và <privacyNoticeLink>thông báo quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao của mình.
 payment-cancel-btn = Hủy bỏ
 payment-update-btn = Cập nhật
 payment-pay-btn = Thanh toán ngay
@@ -168,7 +143,7 @@ payment-validate-zip-short = Mã bưu chính quá ngắn
 
 ## Subscription redirect
 
-sub-redirect-ready = Đăng ký của bạn đã sẵn sàng
+sub-redirect-ready = Thuê bao của bạn đã sẵn sàng
 sub-redirect-copy = Hãy dành một chút thời gian để cho chúng tôi biết kinh nghiệm của bạn.
 sub-redirect-skip-survey = Không, cảm ơn, chỉ cần đưa tôi đến sản phẩm của tôi.
 
@@ -310,14 +285,14 @@ account-activated = Tài khoản của bạn đã được kích hoạt, <userEl
 ## Subscription route index
 
 sub-route-idx-updating = Đang cập nhật thông tin thanh toán…
-sub-route-idx-reactivating = Không thể kích hoạt lại đăng ký
-sub-route-idx-cancel-failed = Không thể hủy kích hoạt đăng ký
+sub-route-idx-reactivating = Không thể kích hoạt lại thuê bao
+sub-route-idx-cancel-failed = Không thể hủy kích hoạt thuê bao
 sub-route-idx-contact = Liên hệ hỗ trợ
 sub-route-idx-cancel-msg-title = Chúng tôi rất tiếc khi bạn rời đi
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
-    Đăng ký { $name } của bạn đã bị hủy.
+    Thuê bao { $name } của bạn đã bị hủy.
           <br />
           Bạn vẫn sẽ có quyền truy cập vào { $name } cho đến { $date }.
 sub-route-idx-cancel-aside = Có một vài câu hỏi? Truy cập <a>Hỗ trợ { -brand-name-mozilla }</a>.
@@ -430,7 +405,7 @@ new-user-email =
 new-user-confirm-email =
     .label = Xác nhận email của bạn
 new-user-subscribe-product-updates = Tôi muốn nhận các cập nhật sản phẩm từ { -brand-name-firefox }
-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email của bạn để tạo tài khoản của bạn. Chúng tôi sẽ không bao giờ bán nó cho bên thứ ba.
+new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email của bạn để tạo tài khoản cho bạn. Chúng tôi sẽ không bao giờ cung cấp nó cho bên thứ ba.
 new-user-email-validate = Email không hợp lệ
 new-user-email-validate-confirm = Email không khớp
 new-user-already-has-account-sign-in = Nếu bạn đã có tài khoản, hãy <a>đăng nhập</a>

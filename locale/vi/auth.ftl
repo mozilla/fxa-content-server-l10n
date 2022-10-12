@@ -276,12 +276,12 @@ postAddLinkedAccount-subject = Tài khoản mới được liên kết với { -
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Tài khoản { $providerName } của bạn đã được liên kết với { -product-firefox-account } của bạn
 postAddLinkedAccount-action = Quản lý tài khoản
-postAddTwoStepAuthentication-subject = Đã bật xác thực hai bước
-postAddTwoStepAuthentication-title = Đã bật xác thực hai bước
-postAddTwoStepAuthentication-description-plaintext = Bạn đã bật thành công xác thực hai bước trên { -product-firefox-account } của mình. Mã bảo mật từ ứng dụng xác thực của bạn hiện sẽ được yêu cầu mỗi lần đăng nhập.
-postAddTwoStepAuthentication-description = Bạn đã bật thành công xác thực hai bước trên { -product-firefox-account } của mình từ thiết bị sau:
+postAddTwoStepAuthentication-subject-2 = Đã bật xác thực hai bước
+postAddTwoStepAuthentication-title-2 = Bạn đã bật xác thực hai bước
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Bạn đã bật nó từ:
 postAddTwoStepAuthentication-action = Quản lý tài khoản
-postAddTwoStepAuthentication-code-required = Bây giờ, mã bảo mật từ ứng dụng xác thực của bạn sẽ được yêu cầu tại mỗi lần đăng nhập.
+postAddTwoStepAuthentication-code-required-2 = Mã bảo mật từ ứng dụng xác thực của bạn hiện được yêu cầu mỗi khi bạn đăng nhập.
 postChangePrimary-subject = Email chính đã xác minh
 postChangePrimary-title = Email chính mới
 # Variables:
