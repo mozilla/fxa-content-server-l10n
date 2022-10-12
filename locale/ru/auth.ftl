@@ -287,12 +287,12 @@ postAddLinkedAccount-subject = Новый аккаунт, связанный с 
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Ваш аккаунт { $providerName } был связан с вашим { -product-firefox-account(case: "instrumental") }
 postAddLinkedAccount-action = Управлять аккаунтом
-postAddTwoStepAuthentication-subject = Двухэтапная аутентификация включена
-postAddTwoStepAuthentication-title = Двухэтапная аутентификация включена
-postAddTwoStepAuthentication-description-plaintext = Вы успешно включили двухэтапную аутентификацию в своём { -product-firefox-account(case: "prepositional") }. Теперь при каждом входе необходимо будет ввести код безопасности из вашего приложения аутентификации.
-postAddTwoStepAuthentication-description = Вы успешно включили двухэтапную аутентификацию в своём { -product-firefox-account(case: "prepositional") } со следующего устройства:
+postAddTwoStepAuthentication-subject-2 = Двухэтапная аутентификация включена
+postAddTwoStepAuthentication-title-2 = Вы включили двухэтапную аутентификацию
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Вы включили её с:
 postAddTwoStepAuthentication-action = Управление аккаунтом
-postAddTwoStepAuthentication-code-required = Коды безопасности от вашего приложения аутентификации теперь будут необходимы вам при каждом входе.
+postAddTwoStepAuthentication-code-required-2 = Коды безопасности от вашего приложения аутентификации теперь требуются каждый раз, когда вы входите в систему.
 postChangePrimary-subject = Основная электронная почта изменена
 postChangePrimary-title = Новая основная электронная почта
 # Variables:

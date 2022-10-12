@@ -140,40 +140,7 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Почтовый индекс
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждый { $intervalCount } день</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-        [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } дня</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-       *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } дней</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждую { $intervalCount } неделю</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-        [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } недели</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-       *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } недель</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждый { $intervalCount } месяц</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-        [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } месяца</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-       *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } месяцев</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждый { $intervalCount } год</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-        [few] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } года</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-       *[many] Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты <strong>{ $amount } каждые { $intervalCount } лет</strong>, в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
-    }
-
-##
-
+payment-confirm-with-legal-links-static = Я разрешаю { -brand-name-mozilla }, производителю продуктов { -brand-name-firefox }, взимать с моего метода оплаты указанную сумму в соответствии с <termsOfServiceLink>Условиями использования</termsOfServiceLink> и <privacyNoticeLink>Уведомлением о конфиденциальности</privacyNoticeLink>, пока я не отменю подписку.
 payment-cancel-btn = Отмена
 payment-update-btn = Обновить
 payment-pay-btn = Оплатить
