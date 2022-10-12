@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-12 14:08+0000\n"
+"PO-Revision-Date: 2022-10-12 14:20+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -188,7 +188,7 @@ msgstr "パスワードを表示"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Firefox バックアップ認証コード"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -472,7 +472,7 @@ msgstr "TOTP トークンが見つかりません"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "バックアップ認証コードが見つかりませんでした"
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
@@ -677,15 +677,15 @@ msgstr "不正な 2 段階認証コード"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "バックアップ認証コードが必要です"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "バックアップ認証コードが正しくありません"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
-msgstr ""
+msgstr "アカウント回復用キーが必要です"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -893,7 +893,7 @@ msgstr "新しいリンクを受け取る"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "アカウント回復用キーでパスワードをリセット"
 
 # %(serviceName)s を利用できるようになりました。だと「た。」だけ2行目になって残念だったので短めに
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
@@ -907,7 +907,7 @@ msgstr "%(serviceName)s の利用を続ける"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "あなたが安全な場所に保管した 1 度だけ使用可能なアカウント回復用キーを入力して、Firefox アカウントへのアクセスを取り戻しましょう。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -915,7 +915,7 @@ msgstr "<span class=\"note\">注:</span> パスワードのリセット行い、
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "アカウント回復用キーを入力してください"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6

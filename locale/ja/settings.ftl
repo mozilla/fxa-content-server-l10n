@@ -175,6 +175,9 @@ flow-container-back = 戻る
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } アカウント回復用キー
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } バックアップ認証コード
 get-data-trio-download =
     .title = ダウンロード
 get-data-trio-copy =
@@ -215,12 +218,14 @@ modal-cancel-button = キャンセル
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = メールアドレスを確認
 mvs-enter-verification-code-2 = 確認コードを入力してください
 # This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
 mvs-enter-verification-code-desc-2 = 5 分以内に <email>{ $email }</email> に送信された確認コードを入力してください。
 msv-cancel-button = キャンセル
+msv-submit-button-2 = 確認
 
 ## Settings Nav
 
@@ -234,6 +239,8 @@ nav-email-comm = メールの設定管理
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = バックアップ認証コードの差し替え時に問題が発生しました
+tfa-replace-code-success-alert-3 = アカウントのバックアップ認証コードが更新されました
 tfa-replace-code-1-2 = ステップ 1/2
 tfa-replace-code-2-2 = ステップ 2/2
 
@@ -350,8 +357,11 @@ recovery-key-close-button = 閉じる
 recovery-key-continue-button = 続ける
 recovery-key-enter-password =
     .label = パスワードを入力してください
+recovery-key-page-title-1 =
+    .title = アカウント回復用キー
 recovery-key-step-1 = ステップ 1/2
 recovery-key-step-2 = ステップ 2/2
+recovery-key-success-alert-3 = アカウント回復用キーが生成されました
 
 ## Add secondary email page
 
@@ -367,11 +377,13 @@ add-secondary-email-save-button = 保存
 ## Verify secondary email page
 
 add-secondary-email-step-2 = ステップ 2/2
+verify-secondary-email-error-3 = 確認コードの送信に問題がありました
 verify-secondary-email-page-title =
     .title = 予備アドレス
 verify-secondary-email-verification-code-2 =
     .label = 確認コードを入力してください
 verify-secondary-email-cancel-button = キャンセル
+verify-secondary-email-verify-button-2 = 確認
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -397,6 +409,8 @@ tfa-button-cancel = キャンセル
 tfa-button-finish = 完了
 tfa-incorrect-totp = 2 段階認証コードが正しくありません
 tfa-cannot-retrieve-code = コードの取得中に問題が発生しました。
+tfa-cannot-verify-code-4 = バックアップ認証コードの確認時に問題が発生しました
+tfa-incorrect-recovery-code-1 = バックアップ認証コードが正しくありません
 tfa-enabled = 2 段階認証が有効化されました
 tfa-scan-this-code =
     この QR コードを読み取って<linkExternal>この
@@ -414,6 +428,8 @@ tfa-enter-secret-key = この秘密キーを認証アプリに入力してくだ
 tfa-enter-totp = 次に、認証アプリからのセキュリティーコードを入力してください。
 tfa-input-enter-totp =
     .label = セキュリティコードを入力
+tfa-enter-recovery-code-1 =
+    .label = バックアップ認証コードを入力してください
 
 ##
 
@@ -464,14 +480,23 @@ row-defaults-status = なし
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = アカウント回復用キー
 rk-enabled = 有効
 rk-not-set = 未設定
 rk-action-create = 作成
 rk-action-remove = 削除
+rk-cannot-refresh-1 = 申し訳ありませんが、アカウント回復用キーのリフレッシュ中に問題が発生しました。
 rk-key-removed-2 = アカウント回復用キーが削除されました
 rk-cannot-remove-key = アカウントの回復用キーを削除できませんでした。
+rk-refresh-key-1 = アカウント回復用キーをリフレッシュ
 rk-content-explain = パスワードを忘れたときに、あなたの情報を復元します。
 rk-content-reset-data = パスワードをリセットするとデータがリセットされるのはなぜですか？
+rk-cannot-verify-session-4 = 申し訳ありませんが、セッションの確認中に問題が発生しました
+rk-remove-modal-heading-1 = アカウント回復用キーを削除しますか？
+rk-remove-modal-content-1 =
+    パスワードをリセットした場合、
+    アカウント回復用キーを使用してあなたのデータにアクセスできなくなります。この操作は元に戻せません。
+rk-refresh-error-1 = 申し訳ありませんが、アカウント回復用キーのリフレッシュ中に問題が発生しました。
 rk-remove-error-2 = アカウントの回復用キーを削除できませんでした
 
 ## Secondary email sub-section on main Settings page
@@ -479,6 +504,7 @@ rk-remove-error-2 = アカウントの回復用キーを削除できませんで
 se-heading = 予備アドレス
     .header = 予備アドレス
 se-cannot-refresh-email = メールアドレスのリフレッシュ中に問題が発生しました。
+se-cannot-resend-code-3 = 申し訳ありませんが、確認コードの再送信中に問題が発生しました
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -489,15 +515,22 @@ se-set-primary-error-2 = 主要アドレスの変更時に問題が発生しま�
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } の削除が完了しました
 se-delete-email-error-2 = 申し訳ありませんが、メールアドレスの削除中に問題が発生しました
+se-verify-session-3 = この処理を実行するために、現在のセッションを確認する必要があります
+se-verify-session-error-3 = 申し訳ありませんが、セッションの確認中に問題が発生しました
 # Button to remove the secondary email
 se-remove-email =
     .title = メールアドレスを削除
 # Button to refresh secondary email status
 se-refresh-email =
     .title = メールアドレス設定をリフレッシュ
+se-unverified-2 = 未確認
+se-resend-code-2 = 確認が必要です。受信トレイまたは迷惑メールフォルダーに見つからない場合は、<button>確認コードを再送</button> してください。
 # Button to make secondary email the primary
 se-make-primary = 主要アドレスに設定
 se-default-content = 主要アドレスでログインできない場合の予備アカウントです。
+se-content-note-1 =
+    注記: 予備アドレスは情報を復元しません — 復元するには、
+    <a>アカウント回復用キー</a> が必要です。
 # Default value for the secondary email
 se-secondary-email-none = なし
 
@@ -516,8 +549,12 @@ tfa-row-button-refresh =
     .title = 2 段階認証をリフレッシュ
 tfa-row-cannot-refresh = 申し訳ありませんが、2 段階認証のリフレッシュ中に問題が発生しました。
 tfa-row-content-explain = あなただけがアクセスできるコードを必須にすることにより、他の誰かがログインするのを防ぎます。
+tfa-row-cannot-verify-session-4 = 申し訳ありませんが、セッションの確認中に問題が発生しました
 tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-disable-modal-confirm = 無効化
+tfa-row-disable-modal-explain-1 =
+    この操作は元に戻せません。
+    <linkExternal>バックアップ認証コードを差し替える</linkExternal> オプションもあります。
 tfa-row-cannot-disable-2 = 2 段階認証を無効化できませんでした
 tfa-row-change-modal-heading-1 = バックアップ認証コードを変更しますか？
 tfa-row-change-modal-confirm = 変更
@@ -537,6 +574,7 @@ auth-error-110 = トークンが正しくありません
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = 何回も試したため中断されました。{ $retryAfter }後に再度試してください。
+auth-error-138-2 = 未確認のセッション
 auth-error-139 = 予備のメールアドレスはアカウントのアドレスと別でなければなりません
 auth-error-155 = TOTP トークンが見つかりません
 auth-error-183-2 = 確認コードが不正または期限切れです
