@@ -277,12 +277,12 @@ postAddLinkedAccount-subject = Nieuwe account gekoppeld aan { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Uw { $providerName }-account is gekoppeld aan uw { -product-firefox-account }
 postAddLinkedAccount-action = Account beheren
-postAddTwoStepAuthentication-subject = Authenticatie in twee stappen ingeschakeld
-postAddTwoStepAuthentication-title = Authenticatie in twee stappen ingeschakeld
-postAddTwoStepAuthentication-description-plaintext = U hebt authenticatie in twee stappen op uw { -product-firefox-account } ingeschakeld. Vanaf nu zijn bij elke aanmelding beveiligingscodes vanaf uw authenticatie-app vereist.
-postAddTwoStepAuthentication-description = U hebt authenticatie in twee stappen op uw { -product-firefox-account } ingeschakeld vanaf het volgende apparaat:
+postAddTwoStepAuthentication-subject-2 = Authenticatie in twee stappen ingeschakeld
+postAddTwoStepAuthentication-title-2 = U hebt authenticatie in twee stappen ingeschakeld
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = U hebt het ingeschakeld vanaf:
 postAddTwoStepAuthentication-action = Account beheren
-postAddTwoStepAuthentication-code-required = Vanaf nu zijn bij elke aanmelding beveiligingscodes vanaf uw authenticatie-app vereist.
+postAddTwoStepAuthentication-code-required-2 = Telkens als u zich aanmeldt zijn nu beveiligingscodes vanaf uw authenticatie-app vereist.
 postChangePrimary-subject = Primair e-mailadres bijgewerkt
 postChangePrimary-title = Nieuw primair e-mailadres
 # Variables:
