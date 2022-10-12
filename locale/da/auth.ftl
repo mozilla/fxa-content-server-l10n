@@ -277,12 +277,12 @@ postAddLinkedAccount-subject = Ny konto knyttet til { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Din { $providerName }-konto er blevet knyttet til din { -product-firefox-account }
 postAddLinkedAccount-action = Håndter konto
-postAddTwoStepAuthentication-subject = Totrinsgodkendelse aktiveret
-postAddTwoStepAuthentication-title = Totrinsgodkendelse aktiveret
-postAddTwoStepAuthentication-description-plaintext = Du har aktiveret totrinsgodkendelse på din { -product-firefox-account }. Sikkerhedskoder fra din godkendelsesapp vil nu være påkrævet ved hvert login.
-postAddTwoStepAuthentication-description = Du har aktiveret totrinsgodkendelse på din { -product-firefox-account } fra følgende enhed:
+postAddTwoStepAuthentication-subject-2 = Totrinsbekræftelse er slået til
+postAddTwoStepAuthentication-title-2 = Du har slået totrinsgodkendelse til
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Du har aktiveret det fra:
 postAddTwoStepAuthentication-action = Håndter konto
-postAddTwoStepAuthentication-code-required = Sikkerhedskoder fra din godkendelsesapp vil nu være påkrævet ved hvert login.
+postAddTwoStepAuthentication-code-required-2 = Sikkerhedskoder fra din godkendelsesapp vil nu være påkrævet, hver gang du logger ind.
 postChangePrimary-subject = Primær mailadresse opdateret
 postChangePrimary-title = Ny primær mailadresse
 # Variables:
