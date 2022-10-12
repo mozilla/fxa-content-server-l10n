@@ -255,12 +255,12 @@ postAddLinkedAccount-subject = חשבון חדש מקושר אל { -brand-firefo
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = חשבון ה־{ $providerName } קושר אל { -product-firefox-account(case: "the") } שלך
 postAddLinkedAccount-action = ניהול חשבון
-postAddTwoStepAuthentication-subject = אימות דו־שלבי הופעל
-postAddTwoStepAuthentication-title = אימות דו־שלבי הופעל
-postAddTwoStepAuthentication-description-plaintext = הפעלת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך. מעתה יש להשתמש בקודים של האבטחה מיישומון האימות שלך בכל כניסה.
-postAddTwoStepAuthentication-description = הפעלת בהצלחה אימות דו־שלבי ב{ -product-firefox-account(case: "the") } שלך מהמכשיר הבא:
+postAddTwoStepAuthentication-subject-2 = אימות דו־שלבי הופעל
+postAddTwoStepAuthentication-title-2 = הפעלת את האימות הדו־שלבי
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = הפעלת אותו מ:
 postAddTwoStepAuthentication-action = ניהול חשבון
-postAddTwoStepAuthentication-code-required = מעתה יש להשתמש בקודים של האבטחה מיישומון האימות שלך בכל כניסה.
+postAddTwoStepAuthentication-code-required-2 = מעתה יש להשתמש בקודים של האבטחה מיישומון האימות שלך בכל כניסה.
 postChangePrimary-subject = כתובת הדוא״ל הראשית עודכנה
 postChangePrimary-title = כתובת דוא״ל ראשית חדשה
 # Variables:
