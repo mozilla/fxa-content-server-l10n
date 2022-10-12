@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-12 19:40+0000\n"
+"PO-Revision-Date: 2022-10-12 19:43+0000\n"
 "Last-Translator: 你我皆凡人 <yuanbingyan@mail.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -1858,7 +1858,7 @@ msgstr "我为何需要创建此账户？<a %(escapedSuggestionAttrs)s>点此了
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "您的年龄是？要了解我们询问年龄的原因，请点击下方的“我们为何要询问”链接。"
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
