@@ -278,12 +278,12 @@ postAddLinkedAccount-subject = Новий обліковий запис, пов�
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Обліковий запис { $providerName } було пов’язано з вашим { -product-firefox-account(case: "abl", capitalization: "lower") }
 postAddLinkedAccount-action = Керувати обліковим записом
-postAddTwoStepAuthentication-subject = Двоетапну перевірку увімкнено
-postAddTwoStepAuthentication-title = Двоетапну перевірку увімкнено
-postAddTwoStepAuthentication-description-plaintext = Ви успішно увімкнули двоетапну перевірку в { -product-firefox-account(case: "loc", capitalization: "lower") }. Відтепер за кожного входу необхідно вводити коди безпеки з вашого застосунку автентифікації.
-postAddTwoStepAuthentication-description = Ви успішно увімкнули двоетапну перевірку в { -product-firefox-account(case: "loc", capitalization: "lower") } з такого пристрою:
+postAddTwoStepAuthentication-subject-2 = Двоетапну перевірку увімкнено
+postAddTwoStepAuthentication-title-2 = Ви увімкнули двоетапну перевірку
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Ви увімкнули її на:
 postAddTwoStepAuthentication-action = Керування обліковим записом
-postAddTwoStepAuthentication-code-required = Відтепер при кожному вході необхідно вводити коди безпеки з вашої програми автентифікації.
+postAddTwoStepAuthentication-code-required-2 = Відтепер під час кожного входу необхідно вводити коди безпеки з вашої програми автентифікації.
 postChangePrimary-subject = Основну адресу електронної пошти оновлено
 postChangePrimary-title = Нова основна адреса електронної пошти
 # Variables:

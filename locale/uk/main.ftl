@@ -140,40 +140,7 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Поштовий індекс
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } щодня</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-        [few] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } дні</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-       *[many] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } днів</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } щотижня</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-        [few] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } тижні</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-       *[many] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } тижнів</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } щомісяця</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-        [few] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } місяці</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-       *[many] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } місяців</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } щороку</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-        [few] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } роки</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-       *[many] Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати оплату з мого рахунку розміром <strong>{ $amount } кожні { $intervalCount } років</strong>, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> та <privacyNoticeLink>Примітки про приватність</privacyNoticeLink>, доки я не скасую передплату.
-    }
-
-##
-
+payment-confirm-with-legal-links-static = Я дозволяю { -brand-name-mozilla }, розробнику продуктів { -brand-name-firefox }, стягувати плату з мого рахунку зазначену суму, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> і <privacyNoticeLink>Примітки щодо приватності</privacyNoticeLink>, доки я не скасую передплату.
 payment-cancel-btn = Скасувати
 payment-update-btn = Оновити
 payment-pay-btn = Сплатити зараз
