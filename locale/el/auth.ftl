@@ -311,12 +311,9 @@ postAddLinkedAccount-subject = Συνδέθηκε νέος λογαριασμό�
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Ο λογαριασμός { $providerName } σας έχει συνδεθεί με τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας
 postAddLinkedAccount-action = Διαχείριση λογαριασμού
-postAddTwoStepAuthentication-subject = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
-postAddTwoStepAuthentication-title = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
-postAddTwoStepAuthentication-description-plaintext = Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας. Θα απαιτείται πλέον κωδικός ασφαλείας από την εφαρμογή ταυτοποίησής σας σε κάθε σύνδεση.
-postAddTwoStepAuthentication-description = Έχετε ενεργοποιήσει επιτυχώς την ταυτοποίηση δύο παραγόντων στον { -product-firefox-account(case: "acc", capitalization: "lower") } σας από την ακόλουθη συσκευή:
+postAddTwoStepAuthentication-subject-2 = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
+postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
 postAddTwoStepAuthentication-action = Διαχείριση λογαριασμού
-postAddTwoStepAuthentication-code-required = Θα απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή ταυτοποίησής σας σε κάθε σύνδεση.
 postChangePrimary-subject = Το κύριο email ενημερώθηκε
 postChangePrimary-title = Νέο κύριο email
 # Variables:
