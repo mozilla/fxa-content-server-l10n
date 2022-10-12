@@ -277,12 +277,12 @@ postAddLinkedAccount-subject = New account linked to { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Your { $providerName } account has been linked to your { -product-firefox-account }
 postAddLinkedAccount-action = Manage account
-postAddTwoStepAuthentication-subject = Two-step authentication enabled
-postAddTwoStepAuthentication-title = Two-step authentication enabled
-postAddTwoStepAuthentication-description-plaintext = You have successfully enabled two-step authentication on your { -product-firefox-account }. Security codes from your authentication app will now be required at each sign-in.
-postAddTwoStepAuthentication-description = You have successfully enabled two-step authentication on your { -product-firefox-account } from the following device:
+postAddTwoStepAuthentication-subject-2 = Two-step authentication turned on
+postAddTwoStepAuthentication-title-2 = You turned on two-step authentication
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = You enabled it from:
 postAddTwoStepAuthentication-action = Manage account
-postAddTwoStepAuthentication-code-required = Security codes from your authentication app will now be required at each sign-in.
+postAddTwoStepAuthentication-code-required-2 = Security codes from your authentication app are now required every time you sign in.
 postChangePrimary-subject = Primary email updated
 postChangePrimary-title = New primary email
 # Variables:
