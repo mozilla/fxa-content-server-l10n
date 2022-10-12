@@ -136,36 +136,7 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Postleitzahl
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>täglich mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Tage mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>pro Woche mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Wochen mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>pro Monat mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Monate mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>pro Jahr mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-       *[other] Ich autorisiere { -brand-name-mozilla }, den Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode <strong>alle { $intervalCount } Jahre mit { $amount }</strong> gemäß der <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> zu belasten, bis ich meinen Dauerauftrag kündige.
-    }
-
-##
-
+payment-confirm-with-legal-links-static = Ich ermächtige { -brand-name-mozilla }, Entwickler der { -brand-name-firefox }-Produkte, meine Zahlungsmethode gemäß den <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> mit dem angezeigten Betrag zu belasten, bis ich meinen Dauerauftrag kündige.
 payment-cancel-btn = Abonnement kündigen
 payment-update-btn = Aktualisieren
 payment-pay-btn = Jetzt bezahlen
