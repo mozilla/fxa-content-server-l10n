@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-12 16:34+0000\n"
+"PO-Revision-Date: 2022-10-12 16:53+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -1086,7 +1086,7 @@ msgstr "Connecte un altere apparato"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "You’re signed into Firefox"
-msgstr "Tu ha aperite session in Firefox"
+msgstr "Tu session de Firefox es aperte"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
