@@ -274,12 +274,12 @@ postAddLinkedAccount-subject = 新帳號連結到 { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = 您的 { $providerName } 帳號已連結到 { -product-firefox-account }
 postAddLinkedAccount-action = 管理帳號
-postAddTwoStepAuthentication-subject = 已開啟兩階段驗證
-postAddTwoStepAuthentication-title = 已開啟兩階段驗證
-postAddTwoStepAuthentication-description-plaintext = 您已成功開啟 { -product-firefox-account } 的兩階段驗證。每次登入時將會要求您輸入驗證程式中的安全碼。
-postAddTwoStepAuthentication-description = 您已從下列裝置成功為 { -product-firefox-account } 開啟兩階段驗證：
+postAddTwoStepAuthentication-subject-2 = 已開啟兩階段驗證
+postAddTwoStepAuthentication-title-2 = 您已開啟兩階段驗證
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = 您從下列位置開啟：
 postAddTwoStepAuthentication-action = 管理帳號
-postAddTwoStepAuthentication-code-required = 現在起，每次登入時都會要求您輸入驗證程式中的安全碼。
+postAddTwoStepAuthentication-code-required-2 = 現在起，每次登入時都會要求您輸入驗證程式中的安全碼。
 postChangePrimary-subject = 已更改主要電子郵件地址
 postChangePrimary-title = 新增主要電子郵件地址
 # Variables:
