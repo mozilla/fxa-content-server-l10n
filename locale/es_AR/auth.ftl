@@ -277,12 +277,12 @@ postAddLinkedAccount-subject = Nueva cuenta vinculada a { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Tu cuenta de { $providerName } se ha vinculado a tu { -product-firefox-account }
 postAddLinkedAccount-action = Administrar cuenta
-postAddTwoStepAuthentication-subject = Se habilitó la autenticación en dos pasos
-postAddTwoStepAuthentication-title = Se habilitó la autenticación en dos pasos
-postAddTwoStepAuthentication-description-plaintext = Activaste correctamente la autenticación en dos pasos en tu { -product-firefox-account }. Ahora los códigos de seguridad de tu aplicación de autenticación serán requeridos en cada conexión.
-postAddTwoStepAuthentication-description = Activaste correctamente la autenticación en dos pasos en tu { -product-firefox-account } desde el siguiente dispositivo:
+postAddTwoStepAuthentication-subject-2 = La autenticación de dos pasos está activada
+postAddTwoStepAuthentication-title-2 = Activaste la autenticación en dos pasos
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = La habilitaste desde:
 postAddTwoStepAuthentication-action = Administrar cuenta
-postAddTwoStepAuthentication-code-required = A partir de ahora se te van a pedir los códigos de seguridad de tu aplicación de autenticación cada vez que inicies una sesión.
+postAddTwoStepAuthentication-code-required-2 = A partir de ahora se te van a pedir los códigos de seguridad de tu aplicación de autenticación cada vez que inicies una sesión.
 postChangePrimary-subject = Correo electrónico principal actualizado
 postChangePrimary-title = Nuevo correo electrónico principal
 # Variables:

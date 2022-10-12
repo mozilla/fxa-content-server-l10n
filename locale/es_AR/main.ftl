@@ -136,36 +136,7 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Código postal
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } diariamente</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } cada { $intervalCount } días</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } semanalmente</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } cada { $intervalCount } semanas</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } mensualmente</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } cada { $intervalCount } meses</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } anualmente</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago <strong>{ $amount } cada { $intervalCount } años</strong>. según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink>. hasta que cancele mi suscripción.
-    }
-
-##
-
+payment-confirm-with-legal-links-static = Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago por la suma exhibida<strong>{ $amount } cada { $intervalCount } días</strong>, según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink> hasta que cancele mi suscripción.
 payment-cancel-btn = Cancelar
 payment-update-btn = Actualizar
 payment-pay-btn = Pagar ahora
