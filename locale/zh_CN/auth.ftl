@@ -252,6 +252,8 @@ passwordReset-title = 您的密码已变更
 passwordReset-description = 您必须在其他设备上输入新密码才能继续同步。
 passwordResetAccountRecovery-subject-2 = 您的密码已重置
 passwordResetAccountRecovery-title-2 = 密码重置成功
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = 您已从下列位置使用账户恢复密钥更改密码：
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = 生成新的账户恢复密钥
 postAddAccountRecovery-subject-2 = 已创建账户恢复密钥
@@ -269,12 +271,12 @@ postAddLinkedAccount-subject = 新账户连接到 { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = 您的 { $providerName } 账户已连接至 { -product-firefox-account }
 postAddLinkedAccount-action = 管理账户
-postAddTwoStepAuthentication-subject = 已启用两步验证
-postAddTwoStepAuthentication-title = 已启用两步验证
-postAddTwoStepAuthentication-description-plaintext = 您已成功启用 { -product-firefox-account }的两步验证。现在起，每次登录时都会要求您输入身份验证应用上的安全码。
-postAddTwoStepAuthentication-description = 您已成功用下列设备启用 { -product-firefox-account }的两步验证：
+postAddTwoStepAuthentication-subject-2 = 两步验证已开启
+postAddTwoStepAuthentication-title-2 = 您已开启两步验证
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = 您已从下列位置启用：
 postAddTwoStepAuthentication-action = 管理账户
-postAddTwoStepAuthentication-code-required = 现在起，每次登录时都会需要您输入身份验证应用上的安全码。
+postAddTwoStepAuthentication-code-required-2 = 现在起，每次登录时都会要求您输入身份验证应用上的安全码。
 postChangePrimary-subject = 主邮箱已更新
 postChangePrimary-title = 新的主邮箱
 # Variables:
@@ -308,7 +310,10 @@ postRemoveSecondary-description = 您已成功将备用邮箱 { $secondaryEmail 
 postRemoveSecondary-action = 管理账户
 postRemoveTwoStepAuthentication-subject-line-2 = 两步验证已关闭
 postRemoveTwoStepAuthentication-title-2 = 您已关闭两步验证
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = 您已从下列位置禁用：
 postRemoveTwoStepAuthentication-action = 管理账户
+postRemoveTwoStepAuthentication-not-required-2 = 登录时，不会再要求您输入身份验证应用上的安全码。
 postVerify-sub-title-3 = 我们很高兴见到您！
 postVerify-title-2 = 想在两台设备上看到相同的标签吗？
 postVerify-description-2 = 很简单！只需在另一台设备上安装 { -brand-firefox } 并登录，即可进行同步。就像魔法一样！
