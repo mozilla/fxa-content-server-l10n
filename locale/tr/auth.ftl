@@ -275,12 +275,11 @@ postAddLinkedAccount-subject = { -brand-firefox }’a yeni hesap bağlandı
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = { $providerName } hesabınız { -product-firefox-account }na bağlandı
 postAddLinkedAccount-action = Hesabı yönet
-postAddTwoStepAuthentication-subject = İki aşamalı kimlik doğrulama etkinleştirildi
-postAddTwoStepAuthentication-title = İki aşamalı kimlik doğrulama etkinleştirildi
-postAddTwoStepAuthentication-description-plaintext = { -product-firefox-account }nızda iki aşamalı doğrulamayı başarıyla etkinleştirdiniz. Bundan sonra her girişte kimlik doğrulama uygulamanızın ürettiği güvenlik kodları sorulacaktır.
-postAddTwoStepAuthentication-description = Aşağıdaki cihaz aracılığıyla { -product-firefox-account }nızda iki aşamalı doğrulamayı başarıyla etkinleştirdiniz:
+postAddTwoStepAuthentication-subject-2 = İki aşamalı doğrulama açıldı
+postAddTwoStepAuthentication-title-2 = İki aşamalı doğrulamayı açtınız
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Bu cihazdan etkinleştirdiniz:
 postAddTwoStepAuthentication-action = Hesabı yönet
-postAddTwoStepAuthentication-code-required = Bundan sonra her girişinizde kimlik doğrulama uygulamanızın ürettiği güvenlik kodları gerekecektir.
 postChangePrimary-subject = Ana e-posta güncellendi
 postChangePrimary-title = Yeni ana e-posta
 # Variables:
