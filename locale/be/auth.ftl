@@ -39,6 +39,15 @@ subplat-automated-email = Гэты электронны ліст створан�
 subplat-privacy-notice = Паведамленне аб прыватнасці
 subplat-privacy-plaintext = Паведамленне аб прыватнасці:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-firefox-account } і вы зарэгістраваліся ў { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-firefox-account }.
+subplat-explainer-multiple = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-firefox-account } і вы падпісаліся на некалькі прадуктаў.
+subplat-explainer-was-deleted = Вы атрымалі гэты ліст, таму што на { $email } быў зарэгістраваны { -product-firefox-account }.
 subplat-terms-policy = Умовы і палітыка адмовы ад паслуг
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ануляваць падпіску
