@@ -256,6 +256,9 @@ passwordResetAccountRecovery-title-2 = 密码重置成功
 passwordResetAccountRecovery-description-2 = 您已从下列位置使用账户恢复密钥更改密码：
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = 生成新的账户恢复密钥
+passwordResetAccountRecovery-regen-required-mjml-1 = 您需要在所有同步的设备上重新登录。请记得生成新的账户恢复密钥替换已用密钥。
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = 您需要在所有同步的设备上重新登录。请记得生成新的账户恢复密钥替换已用密钥：
 postAddAccountRecovery-subject-2 = 已创建账户恢复密钥
 postAddAccountRecovery-title2 = 您已生成新的账户恢复密钥
 # Information on the browser and device triggering this string follows.
@@ -592,6 +595,7 @@ subscriptionUpgrade-upgrade-info = 您已成功从 { $productNameOld } 升级至
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = 从下一期账单开始，我们就会从每 { $productPaymentCycleOld } 收费 { $paymentAmountOld } 调整为每 { $productPaymentCycleNew } 收费 { $paymentAmountNew } 。届时我们会将该 { $productPaymentCycleOld } 的差额 { $paymentProrated } 从您的账户余额中一次性扣取，以反映较高的收费金额。
+subscriptionUpgrade-content-charge-info-different-cycle = 我们将向您一次性扣取 { $paymentProrated }，以反映余下时间 { $productPaymentCycleOld }，订阅项目较高的收费金额。从下一期账单开始，我们就会从每 { $productPaymentCycleOld } 收费 { $paymentAmountOld } 调整为每 { $productPaymentCycleNew } 收费 { $paymentAmountNew }。
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = 若需要安装新软件才能使用 { $productName }，我们会将下载方式用另一封电子邮件发送予您。
