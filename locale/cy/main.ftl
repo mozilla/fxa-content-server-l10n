@@ -152,7 +152,6 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Cod post
-payment-confirm-with-legal-links-static = Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } diwrnod</strong>, yn ôl <termOfServiceLink>Amodau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
 payment-cancel-btn = Diddymu
 payment-update-btn = Diweddaru
 payment-pay-btn = Talu nawr
