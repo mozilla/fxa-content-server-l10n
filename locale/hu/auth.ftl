@@ -277,12 +277,12 @@ postAddLinkedAccount-subject = Új fiók összekapcsolva a { -brand-firefox(case
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = A(z) { $providerName }-fiókja össze lett kapcsolva a { -product-firefox-account }jával
 postAddLinkedAccount-action = Fiók kezelése
-postAddTwoStepAuthentication-subject = Kétlépcsős hitelesítés engedélyezve
-postAddTwoStepAuthentication-title = Kétlépcsős hitelesítés engedélyezve
-postAddTwoStepAuthentication-description-plaintext = Sikeresen engedélyezte a kétlépcsős hitelesítést a { -product-firefox-account }jához. A hitelesítő alkalmazásból származó biztonsági kód minden bejelentkezésnél szükséges lesz.
-postAddTwoStepAuthentication-description = Sikeresen engedélyezte a kétlépcsős hitelesítést a { -product-firefox-account }jához a következő eszközön:
+postAddTwoStepAuthentication-subject-2 = Kétlépcsős hitelesítés bekapcsolva
+postAddTwoStepAuthentication-title-2 = Bekapcsolta a kétlépcsős hitelesítést
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Innen engedélyezte:
 postAddTwoStepAuthentication-action = Fiók kezelése
-postAddTwoStepAuthentication-code-required = A hitelesítő alkalmazásból származó biztonsági kód minden bejelentkezésnél szükséges lesz.
+postAddTwoStepAuthentication-code-required-2 = A hitelesítő alkalmazásból származó biztonsági kódokra minden bejelentkezésnél szükség lesz.
 postChangePrimary-subject = Elsődleges e-mail frissítve
 postChangePrimary-title = Új elsődleges e-mail cím
 # Variables:
