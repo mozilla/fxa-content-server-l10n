@@ -75,6 +75,14 @@ another-device-plaintext = Усталюйце { $productName } на іншую �
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Для атрымання дадатковай інфармацыі наведайце старонку падтрымкі { -brand-mozilla }:
 automated-email-no-action-plaintext = Гэта аўтаматычна створанае паведамленне. Калі вы атрымалі яго памылкова, вам не трэба нічога рабіць.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Гэта аўтаматычна створаны ліст; калі вы не здзяйснялі гэтага дзеяння, калі ласка, змяніце свой пароль:
+automated-email-reset =
+    Гэта аўтаматычна створаны ліст; калі вы не здзяйснялі гэтага дзеяння, калі ласка, <a data-l10n-name="resetLink">скіньце свой пароль</a>.
+    Для атрымання дадатковай інфармацыі наведайце <a data-l10n-name="supportLink">Сайт падтрымкі { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Калі вы не змянялі яго, калі ласка, скіньце пароль зараз па спасылцы { $resetLink }
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Калі ласка, дапамажыце нам палепшыць нашы паслугі, узяўшы ўдзел у гэтым кароткім апытанні:
 change-password-plaintext = Калі вы падазраяце, што хтосьці спрабуе атрымаць доступ да вашага ўліковага запісу, калі ласка, змяніце пароль.
@@ -129,10 +137,12 @@ location-state-country = { $stateCode }, { $country } (прыблізна)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (прыблізна)
+view-invoice = <a data-l10n-name="invoiceLink">Праглядзіце ваш рахунак-фактуру</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Праглядзець рахунак-фактуру: { $invoiceLink }
+cadReminderFirst-subject-1 = Напамін! Давайце сінхранізуем { -brand-firefox }
 cadReminderFirst-action = Сінхранізаваць іншую прыладу
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
@@ -195,6 +205,7 @@ passwordResetAccountRecovery-subject-2 = Ваш пароль быў скінут
 passwordResetAccountRecovery-title-2 = Пароль паспяхова скінуты
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Стварыць новы ключ аднаўлення ўліковага запісу
+postAddAccountRecovery-subject-2 = Ключ аднаўлення ўліковага запісу створаны
 postAddAccountRecovery-title2 = Вы стварылі новы ключ аднаўлення ўліковага запісу
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = Новы ключ быў створаны з:
@@ -205,6 +216,10 @@ postAddAccountRecovery-delete-key = Выдаліць новы ключ:
 postAddAccountRecovery-changd-password = Зменіце ваш пароль:
 postAddLinkedAccount-subject = Новы ўліковы запіс, звязаны з { -brand-firefox }
 postAddLinkedAccount-action = Кіраваць уліковым запісам
+postAddTwoStepAuthentication-subject-2 = Двухэтапная аўтарызацыя ўключана
+postAddTwoStepAuthentication-title-2 = Вы ўключылі двухэтапную аўтэнтыфікацыю
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Вы ўключылі яе з:
 postAddTwoStepAuthentication-action = Кіраванне ўліковым запісам
 postChangePrimary-subject = Асноўны адрас эл.пошты зменены
 postChangePrimary-title = Новы асноўны адрас эл.пошты
