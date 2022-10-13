@@ -123,36 +123,7 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Postnummer
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } daglig</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-       *[other] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } hver { $intervalCount } dag</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } ukentlig</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-       *[other] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } hver { $intervalCount } uke</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } månedlig</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-       *[other] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } hver { $intervalCount } måned</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } årlig</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-       *[other] Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min med <strong>{ $amount } hvert { $intervalCount } år</strong>, i henhold til <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringen</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
-    }
-
-##
-
+payment-confirm-with-legal-links-static = Jeg autoriserer { -brand-name-mozilla }, utvikler av { -brand-name-firefox }-produkter, til å belaste betalingsmåten min for beløpet som vises, i henhold til <termsOfServiceLink>Vilkår for bruk</termsOfServiceLink> og <privacyNoticeLink>Personvernbestemmelser</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
 payment-cancel-btn = Avbryt
 payment-update-btn = Oppdater
 payment-pay-btn = Betal nå
