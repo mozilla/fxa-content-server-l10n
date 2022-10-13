@@ -360,12 +360,12 @@ postAddLinkedAccount-subject = Nový účet prepojený s { -brand-firefox(case: 
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Váš účet { $providerName } bol prepojený s vaším { -product-firefox-account(case: "ins") }
 postAddLinkedAccount-action = Spravovať účet
-postAddTwoStepAuthentication-subject = Dvojstupňové overenie bolo povolené
-postAddTwoStepAuthentication-title = Dvojstupňové overenie bolo povolené
-postAddTwoStepAuthentication-description-plaintext = Úspešne ste povolili dvojstupňové overenie na vašom { -product-firefox-account(case: "loc", capitalization: "lower") }. Pri každom prihlásení bude odteraz nutné zadať bezpečnostný kód z vašej overovacej aplikácie.
-postAddTwoStepAuthentication-description = Úspešne ste povolili dvojstupňové overenie na vašom { -product-firefox-account(case: "loc", capitalization: "lower") } z nasledujúceho zariadenia:
+postAddTwoStepAuthentication-subject-2 = Dvojstupňové overenie je zapnuté
+postAddTwoStepAuthentication-title-2 = Zapli ste dvojstupňové overenie
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Povolili ste ho z:
 postAddTwoStepAuthentication-action = Spravovať účet
-postAddTwoStepAuthentication-code-required = Pri každom prihlásení bude odteraz nutné zadať bezpečnostný kód z vašej overovacej aplikácie.
+postAddTwoStepAuthentication-code-required-2 = Pri každom prihlásení sa teraz vyžadujú bezpečnostné kódy z vašej overovacej aplikácie.
 postChangePrimary-subject = Hlavná e-mailová adresa bola aktualizovaná
 postChangePrimary-title = Nová hlavná e-mailová adresa
 # Variables:
