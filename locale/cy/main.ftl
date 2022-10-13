@@ -152,52 +152,7 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Cod post
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [zero] sRwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } diwrnod</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [one] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } diwrnod</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [two] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } ddiwrnod</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [few] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } diwrnod</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [many] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } niwrnod</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-       *[other] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } diwrnod</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [zero] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } wythnos</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [one] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } wythnos</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [two] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } wythnos</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [few] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } wythnos</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [many] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } wythnos</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-       *[other] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } wythnos</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [zero] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } mis</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [one] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } mis</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [two] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } mis</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [few] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } mis</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [many] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } mis</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-       *[other] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } mis</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [zero] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } blwyddyn</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [one] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } blwyddyn</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [two] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } flynedd</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [few] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } blynedd</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-        [many] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } mlynedd</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-       *[other] Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } blynedd</strong>, yn ôl <termsOfServiceLink> Telerau Gwasanaeth </termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
-    }
-
-##
-
+payment-confirm-with-legal-links-static = Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu <strong> { $amount } bob { $intervalCount } diwrnod</strong>, yn ôl <termOfServiceLink>Amodau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
 payment-cancel-btn = Diddymu
 payment-update-btn = Diweddaru
 payment-pay-btn = Talu nawr

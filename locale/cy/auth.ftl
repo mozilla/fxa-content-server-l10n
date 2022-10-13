@@ -326,7 +326,7 @@ postRemoveSecondary-action = Rheoli cyfrif
 postRemoveTwoStepAuthentication-subject-line-2 = Mae dilysu dau gam wedi'i ddiffodd
 postRemoveTwoStepAuthentication-title-2 = Rydych wedi diffodd dilysu dau gam
 # After the colon is a description of the device the user used to disable two-step authentication
-postRemoveTwoStepAuthentication-from-device = Rydych chi wedi'i analluogi o:
+postRemoveTwoStepAuthentication-from-device = Rydych wedi'i analluogi o:
 postRemoveTwoStepAuthentication-action = Rheoli cyfrif
 postRemoveTwoStepAuthentication-not-required-2 = Nid oes angen codau diogelwch arnoch o'ch ap dilysu mwyach pan fyddwch yn mewngofnodi.
 postVerify-sub-title-3 = Rydym wrth ein bodd eich gweld!
@@ -655,6 +655,7 @@ verifyLoginCode-subject-line-2 = Cymeradwyo mewngofnodi i { $serviceName }
 verifyLoginCode-title-2 = A wnaethoch chi fewngofnodi i { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Helpwch ni i gadw'ch cyfrif yn ddiogel trwy gymeradwyo eich mewngofnodi:
+verifyLoginCode-prompt-3 = Os ydych, dyma eich cod awdurdodi:
 verifyLoginCode-expiry-notice = Daw i ben mewn 5 munud.
 verifyPrimary-title-2 = Cadarnhau'r prif e-bost
 verifyPrimary-description = Mae cais wedi ei wneud o’r ddyfais ganlynol i newid cyfrif:
