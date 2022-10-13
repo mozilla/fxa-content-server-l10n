@@ -136,7 +136,6 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Código postal
-payment-confirm-with-legal-links-static = Autorizo a { -brand-name-mozilla }, fabricante de los productos { -brand-name-firefox }, a cargar mi método de pago por la suma exhibida<strong>{ $amount } cada { $intervalCount } días</strong>, según los <termsOfServiceLink>términos de servicio</termsOfServiceLink> y <privacyNoticeLink>notas de privacidad</privacyNoticeLink> hasta que cancele mi suscripción.
 payment-cancel-btn = Cancelar
 payment-update-btn = Actualizar
 payment-pay-btn = Pagar ahora
