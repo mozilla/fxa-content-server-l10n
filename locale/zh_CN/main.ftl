@@ -135,36 +135,7 @@ payment-cvc =
     .label = CVC 验证码
 payment-zip =
     .label = 邮政编码
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每天持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-       *[other] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每 { $intervalCount } 天持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每周持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-       *[other] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每 { $intervalCount } 周持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每月持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-       *[other] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每 { $intervalCount } 个月持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每年持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-       *[other] 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，<strong>每 { $intervalCount } 年持续从我的付款方式收取 { $amount }</strong>，直到我主动取消订阅为止。
-    }
-
-##
-
+payment-confirm-with-legal-links-static = 我授权 { -brand-name-firefox } 产品的开发商 { -brand-name-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，从我的付款方式收取此费用，直到我主动取消订阅为止。
 payment-cancel-btn = 取消
 payment-update-btn = 更新
 payment-pay-btn = 立即付款

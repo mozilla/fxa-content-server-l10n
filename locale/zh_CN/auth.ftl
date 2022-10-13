@@ -637,6 +637,8 @@ verifyLoginCode-subject-line-2 = 准许登录 { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = 您是否登录了 { $serviceName }？
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = 请确认您的登录活动，以确保账户安全：
 verifyLoginCode-prompt-3 = 如若是，请使用此验证码：
 verifyLoginCode-expiry-notice = 5 分钟内有效。
 verifyPrimary-title-2 = 验证主邮箱
