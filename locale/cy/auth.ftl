@@ -281,12 +281,12 @@ postAddLinkedAccount-subject = Cyfrif newydd yn gysylltiedig â { -brand-firefox
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Mae eich cyfrif { $providerName } wedi'i gysylltu â'ch { -product-firefox-account }
 postAddLinkedAccount-action = Rheoli cyfrif
-postAddTwoStepAuthentication-subject = Mae dilysu dau gam wedi ei alluogi
-postAddTwoStepAuthentication-title = Mae dilysu dau gam wedi ei alluogi
-postAddTwoStepAuthentication-description-plaintext = Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account } o'r ddyfais ganlynol. Bydd angen codau diogel o'ch ap dilysu bob tro fyddwch yn mewngofnodi.
-postAddTwoStepAuthentication-description = Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account } o'r ddyfais ganlynol:
+postAddTwoStepAuthentication-subject-2 = Mae dilysu dau gam wedi ei droi ymlaen
+postAddTwoStepAuthentication-title-2 = Rydych chi wedi troi dilysu dau gam ymlaen
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Rydych chi wedi'i alluogi o:
 postAddTwoStepAuthentication-action = Rheoli cyfrif
-postAddTwoStepAuthentication-code-required = Bydd angen codau diogel o’ch ap dilysu bob tro fyddwch yn mewngofnodi.
+postAddTwoStepAuthentication-code-required-2 = Bellach bydd angen codau diogelwch o'ch ap dilysu bob tro y byddwch chi'n mewngofnodi.
 postChangePrimary-subject = Diweddarwyd y prif e-bost
 postChangePrimary-title = Prif e-bost newydd
 # Variables:
@@ -323,12 +323,12 @@ postRemoveSecondary-title = Tynnwyd yr ail e-bost
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Rydych wedi tynnu { $secondaryEmail } yn llwyddiannus fel ail e-bost o'ch { -product-firefox-account }. Ni fydd hysbysiadau diogelwch na chadarnhad mewngofnodi yn cael eu hanfon i'r cyfeiriad hwn.
 postRemoveSecondary-action = Rheoli cyfrif
-postRemoveTwoStepAuthentication-subject-line = Mae dilysu dau gam wedi ei ddiffodd
-postRemoveTwoStepAuthentication-title = Mae dilysu dau gam wedi ei analluogi
-postRemoveTwoStepAuthentication-description = Rydych wedi galluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account } o'r ddyfais ganlynol:
-postRemoveTwoStepAuthentication-description-plaintext = Rydych wedi analluogi dilysu dau gam yn llwyddiannus ar eich { -product-firefox-account }. Ni fydd angen codau diogel bob tro fyddwch yn mewngofnodi.
+postRemoveTwoStepAuthentication-subject-line-2 = Mae dilysu dau gam wedi'i ddiffodd
+postRemoveTwoStepAuthentication-title-2 = Rydych wedi diffodd dilysu dau gam
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Rydych chi wedi'i analluogi o:
 postRemoveTwoStepAuthentication-action = Rheoli cyfrif
-postRemoveTwoStepAuthentication-not-required = Ni fydd angen codau diogel bellach wrth fewngofnodi.
+postRemoveTwoStepAuthentication-not-required-2 = Nid oes angen codau diogelwch arnoch o'ch ap dilysu mwyach pan fyddwch yn mewngofnodi.
 postVerify-sub-title-3 = Rydym wrth ein bodd eich gweld!
 postVerify-title-2 = Eisiau gweld yr un tab ar ddwy ddyfais?
 postVerify-description-2 = Mae'n hawdd! Gosodwch { -brand-firefox } ar ddyfais arall a mewngofnodi i gydyweddu. Mae fel hud a lledrith!
@@ -649,9 +649,12 @@ verifyLogin-subject-2 = Cadarnhewch eich mewngofnodi
 verifyLogin-action = Cadarnhau eich mewngofnodi
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Cod mewngofnodi ar gyfer { $serviceName }
-verifyLoginCode-title = Ai hwn yw chi’n allgofnodi?
-verifyLoginCode-prompt-2 = Os ydyw, defnyddiwch y cod cadarnhau yma:
+verifyLoginCode-subject-line-2 = Cymeradwyo mewngofnodi i { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = A wnaethoch chi fewngofnodi i { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Helpwch ni i gadw'ch cyfrif yn ddiogel trwy gymeradwyo eich mewngofnodi:
 verifyLoginCode-expiry-notice = Daw i ben mewn 5 munud.
 verifyPrimary-title-2 = Cadarnhau'r prif e-bost
 verifyPrimary-description = Mae cais wedi ei wneud o’r ddyfais ganlynol i newid cyfrif:
