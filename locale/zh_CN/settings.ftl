@@ -238,6 +238,7 @@ nav-email-comm = 新闻通讯
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = 更换您的备用验证码时出现问题
+tfa-replace-code-success-1 = 已生成新的验证码，请将这些一次性代码保存在安全的地方，当您的移动设备不可用时，可以使用验证码访问账户。
 tfa-replace-code-success-alert-3 = 已更新账户备用验证码
 tfa-replace-code-1-2 = 步骤（1 / 2）
 tfa-replace-code-2-2 = 步骤（2 / 2）
