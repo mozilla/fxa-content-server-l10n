@@ -136,36 +136,7 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Postkoade
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong>deistich { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } dagen { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong>wykliks { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } wiken { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong>moanliks { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-producten, om myn betelmetoade mei <strong> elke { $intervalCount }{ $intervalCount } moannen { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Servicebetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betelmetoade mei <strong>jierliks { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-       *[other] Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betelmetoade <strong>elke { $intervalCount } jier mei { $amount }</strong> te belesten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
-    }
-
-##
-
+payment-confirm-with-legal-links-static = Ik autorisearje { -brand-name-mozilla }, makker fan { -brand-name-firefox }-produkten, om myn betelmetoade foar it toande bedrach te belêsten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
 payment-cancel-btn = Annulearje
 payment-update-btn = Bywurkje
 payment-pay-btn = No betelje
