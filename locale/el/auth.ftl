@@ -313,6 +313,8 @@ postAddLinkedAccount-title = Ο λογαριασμός { $providerName } σας 
 postAddLinkedAccount-action = Διαχείριση λογαριασμού
 postAddTwoStepAuthentication-subject-2 = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Ενεργοποιήθηκε από το:
 postAddTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postChangePrimary-subject = Το κύριο email ενημερώθηκε
 postChangePrimary-title = Νέο κύριο email
