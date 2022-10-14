@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-14 09:14+0000\n"
+"PO-Revision-Date: 2022-10-14 09:16+0000\n"
 "Last-Translator: Dzmitry <dzmitry.zubialevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1632,7 +1632,7 @@ msgstr "Адправіць push-паведамленне пра ўваход"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Праверце адпраўленую картку для пацверджання ўваходу на сваіх падлучаных прыладах Firefox."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
