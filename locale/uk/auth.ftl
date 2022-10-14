@@ -129,6 +129,35 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = Картка { $cardType }, що закінчується на { $lastFour }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Номер рахунку: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Номер рахунку: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Зміна тарифного плану: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Проміжний підсумок: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Знижка: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Одноразова знижка: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } місячна знижка: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Податки та збори: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
 subscriptionSupport = Маєте питання щодо передплати? Наша <a data-l10n-name="subscriptionSupportUrl">команда підтримки</a> з радістю вам допоможе.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Маєте питання щодо передплати? Наша команда підтримки з радістю допоможе вам:
@@ -421,55 +450,8 @@ subscriptionFirstInvoice-content-processing = Ваш платіж обробля
 subscriptionFirstInvoice-content-install-2 = Ви отримаєте окремий електронний лист про те, як почати користуватися { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
 # Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Номер рахунку: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Номер рахунку: { $invoiceNumber }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoice-content-charge = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
-# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-subject = Платіж за { $productName } підтверджено
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-title = Дякуємо вам за передплату { $productName }
-subscriptionFirstInvoiceDiscount-content-processing = Ваш платіж обробляється і його завершення може тривати до чотирьох робочих днів.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install-2 = Ви отримаєте окремий електронний лист про те, як почати користуватися { $productName }.
-subscriptionFirstInvoiceDiscount-content-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoiceDiscount-content-invoice-number = Номер рахунку: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Номер рахунку: { $invoiceNumber }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoiceDiscount-content-subtotal = Проміжний підсумок: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount = Знижка: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount-one-time = Одноразова знижка: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } місячна знижка: -{ $invoiceDiscountAmount }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-subscriptionFirstInvoiceDiscount-content-charge = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoiceDiscount-content-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-1 = Термін дії кредитної картки для { $productName } завершився, або невдовзі завершиться
@@ -535,57 +517,8 @@ subscriptionSubsequentInvoice-title = Ми вдячні вам за передп
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Ми отримали ваш останній платіж для { $productName }.
 # Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number = Номер рахунку: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number-plaintext = Номер рахунку: { $invoiceNumber }
-# Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-plan-change = Зміна тарифного плану: { $paymentProrated }
-# Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-charged = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
-# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-subject = Платіж за { $productName } отримано
-subscriptionSubsequentInvoiceDiscount-title = Ми вдячні вам за передплату!
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-content-received = Ми отримали ваш останній платіж за { $productName }.
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number = Номер рахунку: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Номер рахунку: { $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-plan-change = Зміна тарифного плану: { $paymentProrated }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charge = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoiceDiscount-content-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-subtotal = Проміжний підсумок: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionSubsequentInvoiceDiscount-content-discount = Знижка: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Одноразова знижка: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionSubsequentInvoiceDiscount-content-discount-repeating = { $discountDuration }-місячна знижка: -{ $invoiceDiscountAmount }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Ви перейшли на { $productName }
