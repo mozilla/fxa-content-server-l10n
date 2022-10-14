@@ -1428,11 +1428,6 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
-"\n"
-"              Працягваючы, вы згаджаецеся з:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Умовы абслугоўвання</a> і <a id=\"pocket-pp\" Pocket \" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Паведамленне аб прыватнасці</a><br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовы выкарыстання</a> і <a class=\"link-grey\" id=\"fxa-pp\" Firefox href=\"/legal/privacy\">Паведамленне аб прыватнасці</a>.\n"
-"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
@@ -1526,11 +1521,6 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
-"\n"
-"              Працягваючы, вы згаджаецеся з:<br />\n"
-"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Умовы абслугоўвання</a> і <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Паведамленне аб прыватнасці</a><br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовы выкарыстання</a> і <a class=\"link-grey\" id=\"fxa-pp\" Firefox href=\"/legal/privacy\">Паведамленне аб прыватнасці</a>.\n"
-"            "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
