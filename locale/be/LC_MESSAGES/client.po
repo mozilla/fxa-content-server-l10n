@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-14 09:03+0000\n"
+"PO-Revision-Date: 2022-10-14 09:14+0000\n"
 "Last-Translator: Dzmitry <dzmitry.zubialevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -1791,7 +1791,7 @@ msgstr "Гатовы да сканавання"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Злучыце мабільную прыладу</h1><p>з дапамогай QR-кода, які мы стварылі спецыяльна для вас</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
@@ -1863,7 +1863,7 @@ msgstr "Навошта ствараць гэты ўліковы запіс? <a %
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "Колькі вам гадоў? Каб даведацца, чаму мы пытаем ваш узрост, перайдзіце па спасылцы ніжэй «Чаму мы пытаем»."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
