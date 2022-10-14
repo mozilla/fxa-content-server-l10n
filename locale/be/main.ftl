@@ -81,7 +81,7 @@ product-no-such-plan = Няма такога плана для гэтага пр
 ## Payment legal blurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } выкарыстоўвае { -brand-name-stripe } і { -brand-name-paypal } для бяспечнай апрацоўкі плацяжоў.
-payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } палітыка прыватнасці</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } палітыка прыватнасці</paypalPrivacyLink>
+payment-legal-link-stripe-paypal = <stripePrivacyLink>Палітыка прыватнасці { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Палітыка прыватнасці { -brand-name-paypal }</paypalPrivacyLink>.
 payment-legal-copy-paypal = { -brand-name-mozilla } выкарыстоўвае { -brand-name-paypal } для бяспечнай апрацоўкі плацяжоў.
 payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } палітыка прыватнасці</paypalPrivacyLink>
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } выкарыстоўвае { -brand-name-stripe } для бяспечнай апрацоўкі плацяжоў.

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-13 12:27+0000\n"
+"PO-Revision-Date: 2022-10-14 08:22+0000\n"
 "Last-Translator: Dzmitry <dzmitry.zubialevich@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
@@ -535,7 +535,7 @@ msgstr "Сістэма недаступная, паспрабуйце яшчэ �
 
 #: .es5/lib/auth-errors.js:308
 msgid "This endpoint is no longer supported"
-msgstr "Гэты пункт доступу больш не падтрымліваецца"
+msgstr "Гэты адрас запыту больш не падтрымліваецца"
 
 #: .es5/lib/auth-errors.js:316
 msgid "Login attempt cancelled"
