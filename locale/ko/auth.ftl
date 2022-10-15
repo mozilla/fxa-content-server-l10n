@@ -209,12 +209,7 @@ postAddLinkedAccount-subject = { -brand-firefox }에 연결된 새 계정
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = { $providerName } 계정이 { -product-firefox-account } 계정에 연결되었습니다.
 postAddLinkedAccount-action = 계정 관리
-postAddTwoStepAuthentication-subject = 2단계 인증을 사용합니다
-postAddTwoStepAuthentication-title = 2단계 인증을 사용합니다
-postAddTwoStepAuthentication-description-plaintext = { -product-firefox-account } 계정의 2단계 인증을 성공적으로 활성화했습니다. 로그인할 때마다 인증 앱의 보안 코드가 필요합니다.
-postAddTwoStepAuthentication-description = 다음 기기에서 { -product-firefox-account } 계정의 2단계 인증을 성공적으로 활성화했습니다:
 postAddTwoStepAuthentication-action = 계정 관리
-postAddTwoStepAuthentication-code-required = 이제 로그인할 때 인증 앱의 보안 코드가 필요합니다.
 postChangePrimary-subject = 기본 이메일 수정 완료
 postChangePrimary-title = 새 기본 이메일
 # Variables:
@@ -298,18 +293,6 @@ subscriptionFirstInvoice-content-install-2 = { $productName }를 사용하기 �
 subscriptionFirstInvoice-content-auto-renew = 구독은 구독을 취소하지 않는 한 매 결제 시기마다 자동으로 갱신됩니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-subject = { $productName } 결제 확인됨
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-title = { $productName }를 구독해주셔셔 감사합니다.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install-2 = { $productName }를 사용하기 위한 방법을 별도의 이메일로 받게 됩니다.
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoiceDiscount-content-invoice-number = 청구서 번호: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content-1 = { $productName } 결제에 사용하는 신용카드가 곧 만료되거나 이미 만료되었습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -347,42 +330,6 @@ subscriptionSubsequentInvoice-subject = { $productName } 결제 수신됨
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = 다음 청구일자: { $nextInvoiceDateOnly }
 # Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-subject = { $productName } 결제 수신됨
-subscriptionSubsequentInvoiceDiscount-title = 구독자가 되어주셔서 감사합니다!
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-content-received = { $productName }에 대한 최근 결제를 받았습니다.
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number = 청구서 번호: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = 청구서 번호: { $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-plan-change = 요금제 변경: { $paymentProrated }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charge = { $invoiceDateOnly }에 { $invoiceTotal } 금액이 청구됩니다
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoiceDiscount-content-next-invoice = 다음 청구일자: { $nextInvoiceDateOnly }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-subtotal = 소계: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionSubsequentInvoiceDiscount-content-discount = 할인: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionSubsequentInvoiceDiscount-content-discount-one-time = 일회성 할인: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionSubsequentInvoiceDiscount-content-discount-repeating = { $discountDuration }개월 할인: -{ $invoiceDiscountAmount }
-# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productName }로 업그레이드 완료
 subscriptionUpgrade-title = 업그레이드 해주셔서 감사합니다!
@@ -409,8 +356,16 @@ unblockCode-prompt = 그렇다면 인증 코드를 사용하세요:
 unblockCode-prompt-plaintext = 그렇다면 인증 코드를 사용하세요: { $unblockCode }
 unblockCode-report = 그렇지 않은 경우, 침입자를 차단할 수 있도록 <a data-l10n-name="reportSignInLink">신고</a>바랍니다.
 unblockCode-report-plaintext = 그렇지 않다면 침입자를 방어할 수 있도록 우리에게 알려 주세요.
+confirm-account = 계정 확인
+confirm-account-plaintext = { confirm-account }:
+confirm-email-2 = 계정 확인
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = 계정 확인
+verificationReminderSecond-action-2 = 계정 확인
 verify-description = 계정을 확인하고, 모든 곳에서 { -brand-firefox }를 최대한 활용하세요.
 verify-subject = 계정 생성 완료
+verify-action-2 = 계정 확인
+verifyLogin-subject-2 = 로그인 확인
 verifyLogin-action = 로그인 확인
 verifyLoginCode-expiry-notice = 5분 후에 만료됩니다.
 verifyPrimary-title-2 = 기본 이메일 확인
@@ -427,4 +382,8 @@ verifySecondaryCode-action-2 = 이메일 확인
 verifySecondaryCode-explainer = 다음 { -product-firefox-account }으로부터 { $email } 이메일을 보조 이메일 주소로 사용하기 위한 요청이 왔습니다:
 verifySecondaryCode-prompt-2 = 인증 코드 사용:
 verifySecondaryCode-expiry-notice-2 = 5분 후에 만료됩니다. 확인되면 이 주소는 보안 알림 및 확인을 받기 시작합니다.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = 계정 확인
+verifyShortCode-prompt-3 = 인증 코드 사용:
 verifyShortCode-expiry-notice = 5분 후에 만료됩니다.
