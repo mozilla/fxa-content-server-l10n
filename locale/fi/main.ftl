@@ -142,36 +142,7 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Postinumero
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } päivittäin</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
-       *[other] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } { $intervalCount } päivän välein</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } viikoittain</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
-       *[other] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } { $intervalCount } viikon välein</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } kuukausittain</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
-       *[other] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } { $intervalCount } kuukauden välein</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } vuosittain</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
-       *[other] Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani <strong>{ $amount } { $intervalCount } vuoden välein</strong>, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
-    }
-
-##
-
+payment-confirm-with-legal-links-static = Valtuutan { -brand-name-mozilla }n, { -brand-name-firefox }-tuotteiden tekijän, veloittaa maksutapaani näytetyn summan verran, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
 payment-cancel-btn = Peruuta
 payment-update-btn = Päivitä
 payment-pay-btn = Maksa nyt
