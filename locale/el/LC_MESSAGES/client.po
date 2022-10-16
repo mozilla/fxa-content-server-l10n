@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-14 07:01+0000\n"
+"PO-Revision-Date: 2022-10-16 09:13+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -1887,7 +1887,7 @@ msgstr "Γιατί πρέπει να δημιουργήσω λογαριασμό
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "Πόσων ετών είστε; Για να μάθετε γιατί ρωτάμε την ηλικία σας, ακολουθήστε τον σύνδεσμο «Γιατί ρωτάμε;»."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"

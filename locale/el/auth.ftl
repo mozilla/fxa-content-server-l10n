@@ -345,6 +345,7 @@ postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την τα�
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Ενεργοποιήθηκε από το:
 postAddTwoStepAuthentication-action = Διαχείριση λογαριασμού
+postAddTwoStepAuthentication-code-required-2 = Απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή ταυτοποίησής σας σε κάθε σύνδεση.
 postChangePrimary-subject = Το κύριο email ενημερώθηκε
 postChangePrimary-title = Νέο κύριο email
 # Variables:
