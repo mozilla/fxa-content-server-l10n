@@ -401,6 +401,10 @@ verify-secondary-email-verification-code-2 =
     .label = Introduce tu código de confirmación
 verify-secondary-email-cancel-button = Cancelar
 verify-secondary-email-verify-button-2 = Confirmar
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Por favor, escribe antes de 5 minutos el código de confirmacion que ha sido enviado a <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -422,6 +426,8 @@ tfa-button-cancel = Cancelar
 tfa-button-finish = Finalizar
 tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
 tfa-cannot-retrieve-code = Ha surgido un problema al recuperar tu código.
+tfa-cannot-verify-code-4 = Ha habido un problema al confirmar tu código de autenticación de respaldo
+tfa-incorrect-recovery-code-1 = Código de autenticación de respaldo incorrecto
 tfa-enabled = Autenticación en dos pasos activada
 tfa-scan-this-code =
     Escanea este código QR usando una de <linkExternal>estas
@@ -439,6 +445,14 @@ tfa-enter-secret-key = Escribe esta clave secreta en tu aplicación de autentica
 tfa-enter-totp = Ahora introduce el código de seguridad de la aplicación de autenticación.
 tfa-input-enter-totp =
     .label = Introduce el código de seguridad
+tfa-save-these-codes-1 =
+    Guarda estos códigos de autenticación de respaldo de un solo uso en un lugar seguro para cuando
+    no tengas tu dispositivo móvil.
+tfa-enter-code-to-confirm-1 =
+    Por favor, introduce uno de tus códigos de autenticación de respaldo ahora para
+    confirmar que los has guardado. Necesitarás un código para conectarte si no tienes acceso a tu dispositivo móvil.
+tfa-enter-recovery-code-1 =
+    .label = Introduce un código de autenticación de respaldo
 
 ##
 
@@ -489,14 +503,23 @@ row-defaults-status = Ninguno
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Clave de recuperación de cuenta
 rk-enabled = Activado
 rk-not-set = No establecido
 rk-action-create = Crear
 rk-action-remove = Eliminar
+rk-cannot-refresh-1 = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación de cuenta.
 rk-key-removed-2 = Clave de recuperación de cuenta eliminada
 rk-cannot-remove-key = No se ha podido eliminar la clave de recuperación de tu cuenta.
+rk-refresh-key-1 = Actualizar clave de recuperación de cuenta
 rk-content-explain = Restaura tu información cuando olvides tu contraseña.
 rk-content-reset-data = ¿Por qué restablecer mi contraseña restablece mis datos?
+rk-cannot-verify-session-4 = Lo sentimos, ha surgido un problema al confirmar tu sesión
+rk-remove-modal-heading-1 = ¿Eliminar clave de recuperación de cuenta?
+rk-remove-modal-content-1 =
+    En caso de que restablezcas tu contraseña, no podrás
+    usar tu clave de recuperación de cuenta para acceder a tus datos. No puedes deshacer esta acción.
+rk-refresh-error-1 = Lo sentimos, ha surgido un problema al actualizar la clave de recuperación de cuenta.
 rk-remove-error-2 = No se ha podido eliminar la clave de recuperación de tu cuenta
 
 ## Secondary email sub-section on main Settings page
@@ -504,6 +527,7 @@ rk-remove-error-2 = No se ha podido eliminar la clave de recuperación de tu cue
 se-heading = Correo electrónico secundario
     .header = Correo electrónico secundario
 se-cannot-refresh-email = Lo sentimos, ha surgido un problema al actualizar ese correo.
+se-cannot-resend-code-3 = Lo sentimos, ha surgido un problema al enviar el código de confirmación
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -514,15 +538,24 @@ se-set-primary-error-2 = Lo sentimos, ha surgido un problema al cambiar tu corre
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } eliminado correctamente
 se-delete-email-error-2 = Lo sentimos, ha surgido un problema al eliminar este correo
+se-verify-session-3 = Deberás confirmar tu sesión actual para realizar esta acción
+se-verify-session-error-3 = Lo sentimos, ha surgido un problema al confirmar tu sesión
 # Button to remove the secondary email
 se-remove-email =
     .title = Eliminar correo electrónico
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Actualizar correo electrónico
+se-unverified-2 = sin confirmar
+se-resend-code-2 =
+    Se requiere confirmación. <button>Reenviar código de confirmación</button>,
+    en caso de que no esté en tu bandeja de entrada o carpeta de spam.
 # Button to make secondary email the primary
 se-make-primary = Hacer principal
 se-default-content = Accede a tu cuenta si no puedes conectarte a tu correo principal.
+se-content-note-1 =
+    Nota: un correo electrónico secundario no restaurará tu información — 
+    necesitarás una <a>clave de recuperación de cuenta</a> para eso.
 # Default value for the secondary email
 se-secondary-email-none = Ninguno
 
@@ -543,9 +576,14 @@ tfa-row-cannot-refresh = Lo sentimos, ha surgido un problema al actualizar la au
 tfa-row-content-explain =
     Evita que otra persona se conecte solicitando un
     código único al que solo tú tienes acceso.
+tfa-row-cannot-verify-session-4 = Lo sentimos, ha surgido un problema al confirmar tu sesión
 tfa-row-disable-modal-heading = ¿Desactivar la autenticación en dos pasos?
 tfa-row-disable-modal-confirm = Desactivar
+tfa-row-disable-modal-explain-1 =
+    No podrás deshacer esta acción. También
+    tienes la opción de <linkExternal>reemplazar tus códigos de autenticación de respaldo</linkExternal>.
 tfa-row-cannot-disable-2 = La autenticación en dos pasos no ha podido ser desactivada
+tfa-row-change-modal-heading-1 = ¿Cambiar los códigos de autenticación de respaldo?
 tfa-row-change-modal-confirm = Cambiar
 tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
@@ -553,6 +591,7 @@ tfa-row-change-modal-explain = No podrás deshacer esta acción.
 
 auth-error-102 = Cuenta desconocida
 auth-error-103 = Contraseña incorrecta
+auth-error-105-2 = Código de confirmación no válido
 auth-error-110 = Token no válido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -562,6 +601,8 @@ auth-error-110 = Token no válido
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Has probado demasiadas veces. Vuelve a intentarlo en { $retryAfter }.
+auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo electrónico secundario debe ser diferente del correo electrónico de tu cuenta
 auth-error-155 = Token TOTP no encontrado
+auth-error-183-2 = Código de confirmación no válido o caducado
 auth-error-1008 = La nueva contraseña debe ser diferente
