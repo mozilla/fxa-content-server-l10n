@@ -115,6 +115,7 @@ cs-disconnect-sync-heading = Адключыць сінхранізацыю
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-2 = Дадзеныя прагляду застануцца на { $device },але не будуць сінхранізавацца з вашым уліковым запісам.
+cs-disconnect-sync-reason-2 = Якая галоўная прычына адлучэння { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -262,6 +263,7 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Немагчыма ініцыялізаваць камеру
 avatar-page-new-avatar =
     .alt = новая выява профілю
+avatar-page-image-too-large-error-2 = Памер файла выявы занадта вялікі для зацягвання
 
 ##
 
@@ -295,6 +297,7 @@ pw-change-success-alert-2 = Пароль абноўлены
 pw-create-header =
     .title = Стварыць пароль
 pw-create-success-alert-2 = Пароль усталяваны
+pw-create-error-2 = На жаль, падчас усталявання вашага пароля узнікла праблема
 
 ##
 
@@ -352,6 +355,7 @@ recovery-key-success-alert-3 = Ключ аднаўлення ўліковага 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Крок 1 з 2
+add-secondary-email-error-2 = Узнікла праблема падчас дадання гэтага адраса электроннай пошты
 add-secondary-email-page-title =
     .title = Дадатковая пошта
 add-secondary-email-enter-address =
@@ -472,6 +476,7 @@ rk-not-set = Не ўстаноўлены
 rk-action-create = Стварыць
 rk-action-remove = Выдаліць
 rk-key-removed-2 = Ключ аднаўлення ўліковага запісу выдалены
+rk-cannot-remove-key = Ключ аднаўлення вашага уліковага запісу не можа быць выдалены.
 rk-refresh-key-1 = Абнавіць ключ аднаўлення ўліковага запісу
 rk-content-explain = Аднавіце сваю інфармацыі, калі забудзеце пароль.
 rk-content-reset-data = Чаму пры скідзе пароля выдаляюцца мае даныя?
@@ -487,10 +492,12 @@ se-heading = Дадатковая пошта
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email } цяпер ваш асноўны адрас электроннай пошты
+se-set-primary-error-2 = На жаль, пры змене вашага асноўнага адраса электроннай пошты ўзнікла праблема
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } паспяхова выдалены
+se-delete-email-error-2 = На жаль, пры выдаленні гэтага адраса электроннай пошты ўзнікла праблема
 se-verify-session-error-3 = На жаль, узнікла праблема з пацвярджэннем сеансу
 # Button to remove the secondary email
 se-remove-email =
