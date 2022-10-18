@@ -98,7 +98,7 @@ cs-heading = Падключаныя паслугі
 cs-description = Усё, чым вы карыстаецеся і дзе ўвайшлі.
 cs-cannot-refresh =
     На жаль, пры абнаўленні спіса
-    падлучаных службаў узнікла праблема
+    падключаных паслуг узнікла праблема
 cs-cannot-disconnect = Кліент не знойдзены, не ўдалося адключыць
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -208,6 +208,7 @@ la-description = Вы дазволілі доступ да наступных у
 la-unlink-button = Адвязаць
 la-unlink-account-button = Адвязаць
 la-unlink-heading = Адвязаць ад старонняга ўліковага запісу
+la-unlink-content-3 = Вы ўпэўнены, што хочаце адвязаць свой акаўнт? Адвязванне ўліковага запісу не прывядзе да аўтаматычнага выхаду з падключаных паслуг. Для гэтага вам трэба будзе ўручную выйсці ў раздзела «Падключаныя паслугі».
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -358,6 +359,7 @@ display-name-success-alert-2 = Бачнае імя абноўлена
 recovery-key-cancel-button = Скасаваць
 recovery-key-close-button = Закрыць
 recovery-key-continue-button = Працягнуць
+recovery-key-created-1 = Ключ аднаўлення ўліковага запісу паспяхова створаны. Абавязкова захавайце ключ у бяспечным месцы, да якога вы потым зможаце лёгка атрымаць доступ — ключ спатрэбіцца вам, каб аднавіць доступ да вашых даных, калі вы забудзеце пароль.
 recovery-key-enter-password =
     .label = Увядзіце пароль
 recovery-key-page-title-1 =
