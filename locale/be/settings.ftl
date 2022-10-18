@@ -96,6 +96,9 @@ connect-another-app-store-image-2 =
 
 cs-heading = Падключаныя паслугі
 cs-description = Усё, чым вы карыстаецеся і дзе ўвайшлі.
+cs-cannot-refresh =
+    На жаль, пры абнаўленні спіса
+    падлучаных службаў узнікла праблема
 cs-cannot-disconnect = Кліент не знойдзены, не ўдалося адключыць
 # This string is used in a notification message near the top of the page.
 # Variables:
