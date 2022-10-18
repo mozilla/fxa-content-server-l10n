@@ -269,6 +269,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Немагчыма ініцыялізаваць камеру
 avatar-page-new-avatar =
     .alt = новая выява профілю
+avatar-page-file-upload-error-3 = Узнікла праблема з зацягваннем выявы профілю
+avatar-page-delete-error-3 = Узнікла праблема з выдаленнем выявы профілю
 avatar-page-image-too-large-error-2 = Памер файла выявы занадта вялікі для зацягвання
 
 ##
