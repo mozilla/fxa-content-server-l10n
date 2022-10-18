@@ -239,6 +239,10 @@ nav-email-comm = Зносіны па электроннай пошце
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Узнікла праблема пры замене вашых рэзервовых кодаў аўтэнтыфікацыі
+tfa-replace-code-success-1 =
+    Створаны новыя коды. Захоўвайце гэтыя аднаразовыя рэзервовыя
+    коды аўтэнтыфікацыі ў бяспечным месцы — яны спатрэбяцца вам для доступу да вашага ўліковага запісу,
+    калі ў вас не будзе доступу да мабільнай прылады.
 tfa-replace-code-success-alert-3 = Рэзервовыя коды аўтэнтыфікацыі ўліковага запісу абноўлены
 tfa-replace-code-1-2 = Крок 1 з 2
 tfa-replace-code-2-2 = Крок 2 з 2
@@ -429,6 +433,9 @@ tfa-enter-secret-key = Увядзіце гэты сакрэтны ключ у п
 tfa-enter-totp = Цяпер увядзіце код бяспекі з праграмы для аўтэнтыфікацыі.
 tfa-input-enter-totp =
     .label = Увядзіце код бяспекі
+tfa-save-these-codes-1 =
+    Захоўвайце гэтыя аднаразовыя рэзервовыя коды аўтэнтыфікацыі ў бяспечным месцы,
+    на выпадак, калі ў вас не будзе мабільнай прылады.
 tfa-enter-recovery-code-1 =
     .label = Увядзіце рэзервовы код аўтарызацыі
 
@@ -522,6 +529,9 @@ se-remove-email =
 se-refresh-email =
     .title = Абнавіць электронную пошту
 se-unverified-2 = непацверджаны
+se-resend-code-2 =
+    Патрабуецца пацверджанне. <button>Паўторна адправіць код пацверджання</button>
+    калі яго няма ў вашай папцы «Уваходныя» ці «Спам».
 # Button to make secondary email the primary
 se-make-primary = Зрабіць асноўным
 se-default-content = Атрымайце доступ да свайго ўліковага запісу, калі вы не можаце ўвайсці з дапамогай асноўнага адраса электроннай пошты.
@@ -553,6 +563,9 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = На жаль, узнікла праблема з пацвярджэннем сеансу
 tfa-row-disable-modal-heading = Адключыць двухэтапную аўтарызацыю?
 tfa-row-disable-modal-confirm = Адключыць
+tfa-row-disable-modal-explain-1 =
+    Вы не зможаце скасаваць гэта дзеянне. У вас таксама
+    ёсць магчымасць <linkExternal>замяніць рэзервовыя коды аўтэнтыфікацыі</linkExternal>.
 tfa-row-cannot-disable-2 = Немагчыма адключыць двухэтапную аўтарызацыю
 tfa-row-change-modal-heading-1 = Змяніць рэзервовыя коды аўтэнтыфікацыі?
 tfa-row-change-modal-confirm = Змяніць
