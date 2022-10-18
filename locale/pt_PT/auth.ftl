@@ -47,6 +47,7 @@ subplat-explainer-specific = Está a receber esta mensagem porque { $email } tem
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Está a receber esta mensagem porque { $email } tem uma conta { -product-firefox-account }.
 subplat-explainer-multiple = Está a receber esta mensagem porque { $email } tem uma { -product-firefox-account } e subscreveu múltiplos produtos.
+subplat-explainer-was-deleted = Está a receber esta mensagem porque { $email } foi registado para uma { -product-firefox-account }.
 subplat-manage-account = Faça a gestão das definições da sua { -product-firefox-account } visitando a <a data-l10n-name="subplat-account-page">página da conta</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
@@ -72,6 +73,29 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Descarregue{ $
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Descarregue { $productName } na { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Instale o { $productName } <a data-l10n-name="anotherDeviceLink">noutro computador</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Instale o { $productName } <a data-l10n-name="anotherDeviceLink">noutro dispositivo</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Obtenha o { $productName } no Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Transfira o { $productName } na App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Instale o { $productName } noutro dispositivo:
+automated-email-change-2 = Se não executou esta ação, <a data-l10n-name="passwordChangeLink">altere a sua palavra-passe</a> imediatamente.
+automated-email-support = Para mais informação, visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Se não executou esta ação, altere a sua palavra-passe imediatamente:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Para mais informação, visite o apoio da { -brand-mozilla }:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Para mais informação, visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Esta é uma mensagem automática; se não autorizou esta ação então, por favor, altere a sua palavra-passe.</a>
 automated-email-reset =
@@ -104,6 +128,28 @@ payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = cartão { $cardType } que termina com { $lastFour }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Número da fatura: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Número da fatura: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Mudança de plano: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Desconto: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Desconto único: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Debitado { $invoiceTotal } em { $invoiceDateOnly }
 subscriptionSupport = Dúvidas sobre a sua subscrição? A nossa <a data-l10n-name="subscriptionSupportUrl">equipa de apoio</a> está aqui para ajudar.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Dúvidas sobre a sua subscrição? A nossa equipa de apoio está aqui para ajudar.
@@ -182,12 +228,7 @@ postAddAccountRecovery-not-you = Não é você?
 postAddAccountRecovery-action = Gerir conta
 postAddLinkedAccount-subject = Nova conta vinculada ao { -brand-firefox }
 postAddLinkedAccount-action = Gerir conta
-postAddTwoStepAuthentication-subject = Autenticação de dois passos ativada
-postAddTwoStepAuthentication-title = Autenticação de dois passos ativada
-postAddTwoStepAuthentication-description-plaintext = Ativou com sucesso a autenticação de dois passos na sua { -product-firefox-account }. Os códigos de segurança da sua aplicação de autenticação serão agora solicitados a cada início de sessão.
-postAddTwoStepAuthentication-description = Ativou com sucesso a autenticação de dois passos na sua { -product-firefox-account } a partir do seguinte dispositivo:
 postAddTwoStepAuthentication-action = Gerir conta
-postAddTwoStepAuthentication-code-required = Os códigos de segurança da sua aplicação de autenticação serão agora requeridos a cada início de sessão.
 postChangePrimary-subject = E-mail principal atualizado
 postChangePrimary-title = Novo email primário
 # Variables:
@@ -270,42 +311,8 @@ subscriptionFirstInvoice-title = Obrigado por subscrever ao { $productName }
 subscriptionFirstInvoice-content-processing = O seu pagamento está a ser processado e pode demorar até quatro dias úteis a ser concluído.
 subscriptionFirstInvoice-content-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
 # Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Número da fatura: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Número da fatura: { $invoiceNumber }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoice-content-charge = Debitado { $invoiceTotal } em { $invoiceDateOnly }
-# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Próxima fatura: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-subject = Pagamento do(a) { $productName } confirmado
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-title = Obrigado por subscrever ao(à) { $productName }
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoiceDiscount-content-invoice-number = Número da fatura: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Número da fatura: { $invoiceNumber }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount = Desconto: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount-one-time = Desconto único: -{ $invoiceDiscountAmount }
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoiceDiscount-content-next-invoice = Próxima Fatura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = O pagamento de { $productName } falhou
@@ -352,53 +359,8 @@ subscriptionSubsequentInvoice-title = Obrigado por ser um subscritor!
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Recebemos o seu último pagamento de { $productName }.
 # Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number = Número da fatura: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number-plaintext = Número da fatura: { $invoiceNumber }
-# Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-plan-change = Mudança de plano: { $paymentProrated }
-# Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-charged = Debitado { $invoiceTotal } em { $invoiceDateOnly }
-# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Próxima Fatura: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-subject = O pagamento de { $productName } foi recebido
-subscriptionSubsequentInvoiceDiscount-title = Obrigado por ser um subscritor!
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-content-received = Recebemos o seu último pagamento de { $productName }.
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number = Número da fatura: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Número da fatura: { $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-plan-change = Mudança de plano: { $paymentProrated }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charge = Debitado { $invoiceTotal } em { $invoiceDateOnly }
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoiceDiscount-content-next-invoice = Próxima Fatura: { $nextInvoiceDateOnly }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionSubsequentInvoiceDiscount-content-discount = Desconto: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Desconto único: -{ $invoiceDiscountAmount }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Atualizou para { $productName }
