@@ -134,6 +134,11 @@ cs-disconnect-sync-opt-not-say = Не хачу ўказваць
 
 cs-disconnect-advice-confirm = Зразумела
 cs-disconnect-lost-advice-heading = Згубленая або скрадзеная прылада адлучана
+cs-disconnect-lost-advice-content-2 =
+    Паколькі ваша прылада была страчана або скрадзена,
+    для захавання вашай інфармацыі ў бяспецы, вам варта змяніць пароль свайго { -product-firefox-account(case: "singular_genitive") }
+    у наладах. Вам таксама варта азнаёміцца з парадамі вытворцы
+    сваёй прылады па аддаленым выдаленні даных.
 cs-disconnect-suspicious-advice-heading = Падазроная прылада адлучана
 cs-sign-out-button = Выйсці
 
