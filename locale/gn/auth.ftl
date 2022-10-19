@@ -529,6 +529,9 @@ verifyLogin-title-2 = ¿Emoñepyrũ tembiapo { $clientName }-pe?
 verifyLogin-description-2 = Orepytyvõ rorekóvo ne mba’ete tekorosãme emoneĩvo tembiapo ñepyrũ amo:
 verifyLogin-subject-2 = Emoneĩ tembiapo ñepyrũ
 verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Emoneĩ tembiapo ñepyrũ { $serviceName } rupive
 verifyLoginCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
 verifyPrimary-title-2 = Emoneĩ ñanduti veve eipuruvéva
 verifyPrimary-description = Ojejerure oñemoambue hag̃ua mba’ete amo mba’e’oka guive:
