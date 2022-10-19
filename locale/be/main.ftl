@@ -344,6 +344,8 @@ payment-confirmation-cc-card-ending-in = Карта, нумар якой зак�
 
 ## New user email form
 
+new-user-sign-in-link = У вас ужо ёсць уліковы запіс { -brand-name-firefox }? <a>Увайсці</a>
+new-user-step-1 = 1. Стварыце ўліковы запіс { -brand-name-firefox }
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -351,6 +353,8 @@ new-user-email =
     .label = Увядзіце сваю электронную пошту
 new-user-confirm-email =
     .label = Пацвердзіце сваю электронную пошту
+new-user-subscribe-product-updates = Я хачу атрымліваць навіны пра прадукт ад { -brand-name-firefox }
+new-user-subscribe-product-assurance = Мы выкарыстоўваем вашу электронную пошту толькі для стварэння вашага ўліковага запісу. Мы ніколі не прададзім яго староннім асобам.
 new-user-email-validate = Адрас электроннай пошты несапраўдны
 new-user-email-validate-confirm = Адрасы электроннай пошты адрозніваюцца
 new-user-already-has-account-sign-in = У вас ужо ёсць уліковы запіс. <a>Увайсці</a>
