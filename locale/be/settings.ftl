@@ -133,7 +133,7 @@ cs-disconnect-sync-opt-not-say = Не хачу ўказваць
 ##
 
 cs-disconnect-advice-confirm = Зразумела
-cs-disconnect-lost-advice-heading = Згубленая або скрадзеная прылада адключана
+cs-disconnect-lost-advice-heading = Згубленая або скрадзеная прылада адлучана
 cs-disconnect-suspicious-advice-heading = Падазроная прылада адлучана
 cs-sign-out-button = Выйсці
 
