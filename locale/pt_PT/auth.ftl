@@ -165,7 +165,7 @@ subscriptionSupport-plaintext = Dúvidas sobre a sua subscrição? A nossa equip
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSupportContact = Obrigado pela subscrição no(a) { $productName }. Se tiver dúvidas sobre a sua subscrição ou precisar de mais informações sobre o(a) { $productName }, por favor, <a data-l10n-name="subscriptionSupportUrl">contacte-nos</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
-subscriptionSupportContact-plaintext = Obrigado por subscrever para o %(productName)s. Se tiver dúvidas sobre a sua subscrição ou precisar de mais informação sobre o %(productName)s, por favor, contacte-nos:
+subscriptionSupportContact-plaintext = Obrigado por subscrever para o { $productName }. Se tiver dúvidas sobre a sua subscrição ou precisar de mais informação sobre o { $productName }, por favor, contacte-nos:
 subscriptionUpdateBillingEnsure = Pode verificar se o seu método de pagamento e a informação da conta estão atualizados <a data-l10n-name="updateBillingUrl">aqui</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Pode verificar se o seu método de pagamento e a informação da conta estão atualizados, aqui:
