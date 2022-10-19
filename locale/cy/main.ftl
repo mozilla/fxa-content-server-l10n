@@ -152,6 +152,7 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Cod post
+payment-confirm-with-legal-links-static = Rwy'n awdurdodi { -brand-name-mozilla }, gwneuthurwr cynnyrch { -brand-name-firefox }, i godi tâl ar fy null talu y swm sy'n cael ei ddangos, yn ôl <termOfServiceLink>Amodau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
 payment-cancel-btn = Diddymu
 payment-update-btn = Diweddaru
 payment-pay-btn = Talu nawr
