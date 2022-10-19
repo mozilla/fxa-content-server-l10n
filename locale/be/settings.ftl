@@ -109,7 +109,7 @@ cs-refresh-button =
     .title = Абнавіць падключаныя паслугі
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Адсутнічаюць або дублююцца элементы?
-cs-disconnect-sync-heading = Адключыць сінхранізацыю
+cs-disconnect-sync-heading = Адлучыцца ад Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
@@ -117,7 +117,7 @@ cs-disconnect-sync-heading = Адключыць сінхранізацыю
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
-cs-disconnect-sync-content-2 = Дадзеныя прагляду застануцца на { $device },але не будуць сінхранізавацца з вашым уліковым запісам.
+cs-disconnect-sync-content-2 = Дадзеныя прагляду застануцца на { $device }, але не будуць сінхранізавацца з вашым уліковым запісам.
 cs-disconnect-sync-reason-2 = Якая галоўная прычына адлучэння { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
