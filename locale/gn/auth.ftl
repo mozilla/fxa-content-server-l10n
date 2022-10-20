@@ -148,6 +148,9 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Tepyguejy peteĩje�
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = Tepyguejy heta { $discountDuration } jasýpe: -{ $invoiceDiscountAmount }
 # Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Jehepyme’ẽrã: { $invoiceTaxAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = Hepyme’ẽmbyre { $invoiceTotal } { $invoiceDateOnly } rehegua
