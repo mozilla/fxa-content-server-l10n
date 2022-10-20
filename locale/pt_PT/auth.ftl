@@ -543,9 +543,15 @@ verifyLogin-title-2 = Iniciou a sessão com o(a) { $clientName }?
 verifyLogin-description-2 = Ajude-nos a manter a sua conta segura confirmando que iniciou a sessão em:
 verifyLogin-subject-2 = Confirmar início de sessão
 verifyLogin-action = Confirmar novo início de sessão
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Aprovar início de sessão para { $serviceName }
 verifyLoginCode-expiry-notice = Este expira em 5 minutos.
+verifyPrimary-title-2 = Confirmar e-mail principal
 verifyPrimary-description = Foi realizado um pedido para executar uma alteração de conta a partir do seguinte dispositivo:
 verifyPrimary-subject = Confirmar e-mail principal
+verifyPrimary-action-2 = Confirmar email
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Confirmar e-mail secundário
 # Variables:
 #  $email (string) A user's unverified secondary email address
