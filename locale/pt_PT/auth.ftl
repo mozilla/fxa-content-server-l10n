@@ -416,6 +416,13 @@ subscriptionDowngrade-subject = Mudou para { $productName }
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Mudou com sucesso de { $productNameOld } para { $productName }.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = A partir da sua próxima fatura, a cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycle } para { $paymentAmountNew } por { $productPaymentCycleNew }. Nessa altura também irá receber um crédito único de { $paymentProrated } para refletir a cobrança mais baixa para o restante deste { $productPaymentCycle }.
+# Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Se existir um novo software para instalar de forma a utilizar o { $productName }, irá receber um e-mail separado com as instruções para a transferência.
 subscriptionDowngrade-content-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
@@ -423,6 +430,9 @@ subscriptionDowngrade-content-auto-renew = As sua subscrição irá ser renovada
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = A sua subscrição { $productName } foi cancelada
 subscriptionFailedPaymentsCancellation-title = A sua subscrição foi cancelada
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Nós cancelamos a sua subscrição do(a) { $productName } porque falharam várias tentativas de pagamento. Para obter novamente acesso, inicie uma nova subscrição com um método de pagamento atualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Pagamento de { $productName } confirmado
@@ -430,10 +440,20 @@ subscriptionFirstInvoice-subject = Pagamento de { $productName } confirmado
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Obrigado por subscrever ao { $productName }
 subscriptionFirstInvoice-content-processing = O seu pagamento está a ser processado e pode demorar até quatro dias úteis a ser concluído.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Irá receber uma mensagem separada sobre como começar a utilizar o(a) { $productName }.
 subscriptionFirstInvoice-content-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Próxima fatura: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = O cartão de crédito para o(a) { $productName } expirou ou expira em breve
+subscriptionPaymentExpired-title-1 = O seu cartão de crédito expirou ou está prestes a expirar
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = O cartão de crédito que está a utilizar para efetuar os pagamentos para o(a) { $productName } expirou ou está prestes a expirar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = O pagamento de { $productName } falhou
@@ -460,6 +480,9 @@ subscriptionReactivation-title = Obrigado por reativar a sua subscrição de { $
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = O seu ciclo de faturação e de pagamento irão permanecer como estão. O seu próximo débito será de { $invoiceTotal } a { $nextInvoiceDateOnly }. A sua subscrição será renovada automaticamente em cada período de débito exceto se optar por cancelar.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Aviso de renovação automática do(a) { $productName }
 subscriptionRenewalReminder-title = A sua subscrição será renovada em breve
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -502,8 +525,23 @@ unblockCode-prompt = Se sim, aqui está o código de autorização de que necess
 unblockCode-prompt-plaintext = Se sim, aqui está o código de autorização que precisa: { $unblockCode }
 unblockCode-report = Se não, ajude-nos a afastar os intrusos e <a data-l10n-name="reportSignInLink">reporte a situação à nossa equipa</a>.
 unblockCode-report-plaintext = Se não, ajude-nos a afastar os intrusos e reporte a situação à nossa equipa.
+confirm-account = Confirmar conta
+confirm-account-plaintext = { confirm-account }:
+confirm-email-2 = Confirmar conta
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Confirmar conta
+verificationReminderSecond-subject-2 = Lembre-se de confirmar a sua conta
+verificationReminderSecond-title-2 = Não perca o { -brand-firefox }!
+verificationReminderSecond-action-2 = Confirmar conta
+verify-title-2 = Aceda à Internet com o { -brand-firefox }
 verify-description = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os lugares em que iniciar sessão, a começar por:
 verify-subject = Conclua a criação da sua conta
+verify-action-2 = Confirmar conta
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Iniciou a sessão com o(a) { $clientName }?
+verifyLogin-description-2 = Ajude-nos a manter a sua conta segura confirmando que iniciou a sessão em:
+verifyLogin-subject-2 = Confirmar início de sessão
 verifyLogin-action = Confirmar novo início de sessão
 verifyLoginCode-expiry-notice = Este expira em 5 minutos.
 verifyPrimary-description = Foi realizado um pedido para executar uma alteração de conta a partir do seguinte dispositivo:
