@@ -66,6 +66,27 @@ subscription-iapsubscribed-title = Ужо падпісаны
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+day-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Падпіска на { $productName } коштам { $amount } аплачваецца штодзень
+        [few] Падпіска на { $productName } коштам { $amount } аплачваецца кожныя { $intervalCount } дні
+       *[many] Падпіска на { $productName } коштам { $amount } аплачваецца кожныя { $intervalCount } дзён
+    }
+# $intervalCount (Number) - The interval between payments, in weeks.
+week-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Падпіска на { $productName } коштам { $amount } аплачваецца штотыдзень
+        [few] Падпіска на { $productName } коштам { $amount } аплачваецца кожныя { $intervalCount } тыдні
+       *[many] Падпіска на { $productName } коштам { $amount } аплачваецца кожныя { $intervalCount } тыдняў
+    }
+# $intervalCount (Number) - The interval between payments, in months.
+month-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Падпіска на { $productName } коштам { $amount } аплачваецца штомесяц
+        [few] Падпіска на { $productName } коштам { $amount } кожныя { $intervalCount } месяцы
+       *[many] Падпіска на { $productName } коштам { $amount } кожныя { $intervalCount } месяцаў
+    }
 
 ## Product route
 
@@ -325,6 +346,13 @@ payment-confirmation-amount = { $amount } за { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } штодзень
+        [few] { $amount } кожныя { $intervalCount } дні
+       *[many] { $amount } кожныя { $intervalCount } дзён
+    }
 #  $intervalCount (Number) - The interval between payments, in weeks.
 payment-confirmation-amount-week =
     { $intervalCount ->
@@ -338,6 +366,13 @@ payment-confirmation-amount-month =
         [one] { $amount } кожны { $intervalCount } месяц
         [few] { $amount } кожныя { $intervalCount } месяцы
        *[many] { $amount } кожныя { $intervalCount } месяцы
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } штогод
+        [few] { $amount } кожныя { $intervalCount } гады
+       *[many] { $amount } кожныя { $intervalCount } гадоў
     }
 payment-confirmation-download-button = Працягнуць сцягванне
 payment-confirmation-cc-card-ending-in = Карта, нумар якой заканчваецца на { $last4 }
