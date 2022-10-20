@@ -261,6 +261,9 @@ newDeviceLogin-title-2 = A sua { -product-firefox-account } foi utilizada para i
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Não é você? <a data-l10n-name="passwordChangeLink">Altere a sua palavra-passe</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Não é você? Altere a sua palavra-passe:
 newDeviceLogin-action = Gerir conta
 passwordChanged-subject = Palavra-passe atualizada
 passwordChanged-title = Palavra-passe alterada com sucesso
@@ -276,11 +279,32 @@ passwordChangeRequired-different-password-plaintext = Importante: Escolha uma pa
 passwordReset-subject = Palavra-passe atualizada
 passwordReset-title = A palavra-passe da sua conta foi alterada
 passwordReset-description = Terá de inserir a sua nova palavra-passe nos outros dispositivos para retomar a sincronização.
+passwordResetAccountRecovery-subject-2 = A sua palavra-passe foi redefinida
+passwordResetAccountRecovery-title-2 = Palavra-passe redefinida com sucesso
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Utilizou a sua chave de recuperação da conta para atualizar a sua palavra-passe de:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Criar uma nova chave de recuperação da conta
+passwordResetAccountRecovery-regen-required-mjml-1 = Terá de iniciar a sessão novamente em todos os seus dispositivos sincronizados. Lembre-se de criar uma nova chave de recuperação da conta para substituir a que utilizou.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Terá de iniciar a sessão novamente em todos os seus dispositivos sincronizados. Lembre-se de criar uma nova chave de recuperação da conta para substituir a que utilizou:
+postAddAccountRecovery-subject-2 = Chave de recuperação da conta criada
+postAddAccountRecovery-title2 = Criou uma nova chave de recuperação da conta
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Uma nova chave foi criada a partir de:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Não é você?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Elimine a nova chave</a> e <a data-l10n-name="passwordChangeLink">altere a sua palavra-passe</a>
 postAddAccountRecovery-action = Gerir conta
+postAddAccountRecovery-delete-key = Eliminar a nova chave:
+postAddAccountRecovery-changd-password = Alterar a sua palavra-passe:
 postAddLinkedAccount-subject = Nova conta vinculada ao { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = A sua conta { $providerName } foi associada à sua { -product-firefox-account }
 postAddLinkedAccount-action = Gerir conta
+postAddTwoStepAuthentication-subject-2 = Autenticação de dois passos ativada
+postAddTwoStepAuthentication-title-2 = Ativou a autenticação de dois passos
 postAddTwoStepAuthentication-action = Gerir conta
 postChangePrimary-subject = E-mail principal atualizado
 postChangePrimary-title = Novo email primário
