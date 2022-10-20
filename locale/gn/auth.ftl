@@ -236,6 +236,7 @@ fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore at
 codes-reminder-title-zero = Ndereguerekovéima auvu ñemoneĩ jeykekoha
 codes-reminder-title-one = Reime pe auvu ñemoneĩ jeykeko pahávape
 codes-reminder-title-two = Emoheñóimake hetave ayvu ñemoneĩrã jeykekoha
+codes-reminder-description-part-two = Emoheñói ayvu pyahu ko’ág̃a ani hag̃ua okañy ne mba’ekuaarã.
 codes-reminder-description-two-left = Opytántema mokõi ayvu.
 lowRecoveryCodes-action-2 = Emoheñói ayvu
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
@@ -285,6 +286,8 @@ postAddLinkedAccount-subject = Mba’ete pyahu oĩva { -brand-firefox } ndive
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Ne mba’ete { $providerName } pegua ojuajúma nde { -product-firefox-account } rehe
 postAddLinkedAccount-action = Eñangareko mba’etére
+postAddTwoStepAuthentication-subject-2 = Ñemoneĩ mokõi jeýpe myandypyre
+postAddTwoStepAuthentication-title-2 = Embojuruja ñemoneĩ mokõi jeku’egua
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Embojuruja upe guive:
 postAddTwoStepAuthentication-action = Mba’ete ñangareko
@@ -319,6 +322,8 @@ postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Emboguéma hekopete { $secondaryEmail } ñanduti veve mokõiguáva nde { -product-firefox-account } pegua. Umi marandu’i tekorosãrãva ha ñemoneĩ tembiapo ñepyrũ rehegua nog̃uahẽmo’ãvéima ko kundaharapépe.
 postRemoveSecondary-action = Mba’ete ñangareko
+postRemoveTwoStepAuthentication-subject-line-2 = Ñemoneĩ mokõi jeygua myandypyre
+postRemoveTwoStepAuthentication-title-2 = Oñembogue ñemoneĩ mokõi jeygua
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Oñembojuruja upe guive:
 postRemoveTwoStepAuthentication-action = Mba’ete ñangareko
