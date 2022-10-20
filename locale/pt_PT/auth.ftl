@@ -305,31 +305,68 @@ postAddLinkedAccount-title = A sua conta { $providerName } foi associada à sua 
 postAddLinkedAccount-action = Gerir conta
 postAddTwoStepAuthentication-subject-2 = Autenticação de dois passos ativada
 postAddTwoStepAuthentication-title-2 = Ativou a autenticação de dois passos
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Ativou-a de:
 postAddTwoStepAuthentication-action = Gerir conta
+postAddTwoStepAuthentication-code-required-2 = Os códigos de segurança da sua aplicação de autenticação são agora obrigatórios em cada início de sessão.
 postChangePrimary-subject = E-mail principal atualizado
 postChangePrimary-title = Novo email primário
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Alterou com sucesso o seu e-mail primário para { $email }. Este endereço é agora o seu nome de utilizador para iniciar sessão na sua { -product-firefox-account }, assim como para receber notificações de segurança e confirmações de autenticação.
 postChangePrimary-action = Gerir conta
+postConsumeRecoveryCode-title-2 = Utilizou um código de autenticação de recuperação
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Este foi utilizado em:
 postConsumeRecoveryCode-action = Gerir conta
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Resta 1 código de autenticação de recuperação
+       *[other] Restam { $numberRemaining } códigos de autenticação de recuperação
+    }
+postNewRecoveryCodes-subject-2 = Novos códigos de autenticação de recuperação criados
+postNewRecoveryCodes-title-2 = Criou novos códigos de autenticação de recuperação
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Foram criados em:
 postNewRecoveryCodes-action = Gerir conta
+postRemoveAccountRecovery-subject-2 = Chave de recuperação da conta eliminada
+postRemoveAccountRecovery-title-2 = Eliminou a sua chave de recuperação da conta.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Esta foi eliminada de:
 postRemoveAccountRecovery-action = Gerir conta
+postRemoveAccountRecovery-invalid-2 = Precisa de uma chave de recuperação da conta para recuperar os seus dados do { -brand-firefox } se esquecer a sua palavra-passe.
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Removeu com sucesso { $secondaryEmail } como um e-mail secundário para a sua { -product-firefox-account }. Notificações de segurança e confirmações de início de sessão não serão mais entregues neste endereço.
 postRemoveSecondary-action = Gerir conta
+postRemoveTwoStepAuthentication-subject-line-2 = Autenticação de dois passos está desativada
+postRemoveTwoStepAuthentication-title-2 = Desativou a autenticação de dois passos
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Desativou-a de:
 postRemoveTwoStepAuthentication-action = Gerir conta
+postRemoveTwoStepAuthentication-not-required-2 = Já não precisa de códigos de segurança da sua aplicação de autenticação quando inicia a sessão.
+postVerify-sub-title-3 = Nós estamos felizes por vê-lo!
+postVerify-title-2 = Quer ver o mesmo separador em dois dispositivos?
+postVerify-description-2 = É fácil! Basta instalar o { -brand-firefox } noutro dispositivo e iniciar a sessão para sincronizar. É como se fosse magia!
+postVerify-sub-description = (Psst… Isto também significa que pode obter os seus marcadores, palavras-passe e outros dados do { -brand-firefox } em todos os sítios em que estiver autenticado.)
 postVerify-subject-3 = Bem-vindo(a) ao { -brand-firefox }!
 postVerify-setup-2 = Ligue outro dispositivo:
 postVerify-action-2 = Ligar outro dispositivo
 postVerifySecondary-subject = Email secundário adicionado
 postVerifySecondary-title = Email secundário adicionado
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Confirmou com sucesso { $secondaryEmail } como um endereço de correio eletrónico secundário para a sua { -product-firefox-account }. As notificações de segurança e as confirmações de início de sessão serão agora entregues em ambos os endereços de correio eletrónico.
 postVerifySecondary-action = Gerir conta
 recovery-subject = Repor a sua palavra-passe
 recovery-title-2 = Esqueceu-se da sua palavra-passe?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-firefox-account } de:
+recovery-new-password-button = Crie uma nova palavra-passe clicando no botão abaixo. Esta ligação irá expirar daqui a uma hora.
+recovery-copy-paste = Crie uma nova palavra-passe copiando e colando o endereço abaixo no seu navegador. Esta ligação irá expirar daqui a uma hora.
 recovery-action = Criar nova palavra-passe
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -346,6 +383,7 @@ subscriptionAccountFinishSetup-subject = Bem-vindo(a) a { $productName }: Por fa
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bem-vindo(a) ao { $productName }.
+subscriptionAccountFinishSetup-content-processing = O seu pagamento está a ser processado e pode demorar até quatro dias úteis para ser concluído. A sua subscrição será renovada automaticamente a cada período de faturação, a menos que opte por cancelar.
 subscriptionAccountFinishSetup-action-2 = Começar
 subscriptionAccountReminderFirst-subject = Lembrete: termine a configuração da sua conta
 subscriptionAccountReminderFirst-title = Ainda não pode aceder à sua subscrição
