@@ -272,6 +272,8 @@ passwordReset-title = Ne mba’ete ñe’ẽñemi oñemoambue
 passwordReset-description = Emoingeva’erã ñe’ẽñemi pyahu ne ambue mba’e’okápe oñepyrũjey hag̃ua ñembojuehe.
 passwordResetAccountRecovery-subject-2 = Oikojeýma ne ñe’ẽñemi
 passwordResetAccountRecovery-title-2 = Ñe’ẽñemi jeguerujey apañuãi’ỹre
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Eipuru ayvu jeguerujeyrã embohekopyahu hag̃ua ne ñe’ẽñemi tenda guive:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 postAddAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã
@@ -543,6 +545,11 @@ verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line-2 = Emoneĩ tembiapo ñepyrũ { $serviceName } rupive
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = ¿Emoñepyrũ tembiapo { $serviceName } ndive?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Orepytyvõ rorekóvo ne mba’ete tekorosãme emoneĩvo tembiapo ñepyrũ amo:
 verifyLoginCode-prompt-3 = Upéicharõ, eipuru ko ayvu ñemoneĩrã:
 verifyLoginCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
 verifyPrimary-title-2 = Emoneĩ ñanduti veve eipuruvéva
