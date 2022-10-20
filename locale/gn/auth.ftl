@@ -540,6 +540,7 @@ verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line-2 = Emoneĩ tembiapo ñepyrũ { $serviceName } rupive
+verifyLoginCode-prompt-3 = Upéicharõ, eipuru ko ayvu ñemoneĩrã:
 verifyLoginCode-expiry-notice = Ndoikovéima 5 aravo’ípe.
 verifyPrimary-title-2 = Emoneĩ ñanduti veve eipuruvéva
 verifyPrimary-description = Ojejerure oñemoambue hag̃ua mba’ete amo mba’e’oka guive:

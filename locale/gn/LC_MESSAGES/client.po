@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-20 16:20+0000\n"
+"PO-Revision-Date: 2022-10-20 16:29+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1109,7 +1109,7 @@ msgstr "Emoñepyrũ tembiapo ambue mba’e’okápe embohekopa hag̃ua"
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "¿Erekose ne tendayke, techaukaha ha ñe’ẽñemi ambue mba’e’okápe?"
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
@@ -1598,7 +1598,7 @@ msgstr "Ku’e 1 2 gui: Emoingejey ñe’ẽñemi"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Emoinge ne ñe’ẽñemi ehecha hag̃ua ne mba’eñemi jeguerujeyrã."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1659,7 +1659,7 @@ msgstr "Ikatu ag̃amieve"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Imoinge ñemoneĩrã ayvu oñemondóva %(escapedEmail)s-pe 5 aravo’i oútavape."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1825,7 +1825,7 @@ msgstr "<span class=\"number\">4</span>Eike ne mba’etépe"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Emo’ã ne mba’ekuaarã mba’eñemi jeguerujeyrã ndive"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
