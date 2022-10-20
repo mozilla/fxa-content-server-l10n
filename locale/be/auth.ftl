@@ -48,6 +48,7 @@ subplat-explainer-specific = Вы атрымалі гэты ліст, таму �
 subplat-explainer-reminder-form = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-firefox-account }.
 subplat-explainer-multiple = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-firefox-account } і вы падпісаліся на некалькі прадуктаў.
 subplat-explainer-was-deleted = Вы атрымалі гэты ліст, таму што на { $email } быў зарэгістраваны { -product-firefox-account }.
+subplat-manage-account = Кіруйце наладамі { -product-firefox-account }, са сваёй <a data-l10n-name="subplat-account-page">старонкі ўліковага запісу</a>.
 subplat-terms-policy = Умовы і палітыка адмовы ад паслуг
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ануляваць падпіску
