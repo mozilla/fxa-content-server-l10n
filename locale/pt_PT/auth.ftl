@@ -384,14 +384,20 @@ subscriptionAccountFinishSetup-subject = Bem-vindo(a) a { $productName }: Por fa
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bem-vindo(a) ao { $productName }.
 subscriptionAccountFinishSetup-content-processing = O seu pagamento está a ser processado e pode demorar até quatro dias úteis para ser concluído. A sua subscrição será renovada automaticamente a cada período de faturação, a menos que opte por cancelar.
+subscriptionAccountFinishSetup-content-create-2 = A seguir, irá criar uma palavra-passe da { -product-firefox-account } para começar a utilizar a sua nova subscrição.
 subscriptionAccountFinishSetup-action-2 = Começar
 subscriptionAccountReminderFirst-subject = Lembrete: termine a configuração da sua conta
 subscriptionAccountReminderFirst-title = Ainda não pode aceder à sua subscrição
+subscriptionAccountReminderFirst-content-info-2 = Criou uma { -product-firefox-account } há alguns dias, mas nunca a confirmou. Nós gostaríamos que concluísse a configuração da sua conta para que possa utilizar a sua nova subscrição.
+subscriptionAccountReminderFirst-content-select-2 = Selecione “Criar Palavra-passe” para definir uma nova palavra-passe e concluir a confirmação da sua conta.
 subscriptionAccountReminderFirst-action = Criar palavra-passe
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Lembrete final: configure a sua conta
 subscriptionAccountReminderSecond-title = Bem-vindo(a) ao { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info-2 = Criou uma { -product-firefox-account } há alguns dias, mas nunca a confirmou. Nós gostaríamos que concluísse a configuração da sua conta, para que possa utilizar a sua nova subscrição.
+subscriptionAccountReminderSecond-content-select-2 = Selecione “Criar Palavra-passe” para definir uma nova palavra-passe e concluir a confirmação da sua conta.
 subscriptionAccountReminderSecond-action = Criar palavra-passe
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = A sua subscrição { $productName } foi cancelada
