@@ -88,6 +88,9 @@ ios-download-plaintext = Emboguejy { $productName } App Store guive:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Emohenda { $productName } ambue mba’e’okápe:
+automated-email-support = Eñemomaranduve hag̃ua, eike <a data-l10n-name="supportLink">{ -brand-mozilla } Pytyvõha</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Nandéiramo ejapo, emoambue ne ñe’ẽñemi pya’e:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Eikuaave hag̃ua, eike { -brand-mozilla } pytyvõme:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
