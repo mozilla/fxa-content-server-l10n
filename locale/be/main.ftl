@@ -42,6 +42,7 @@ iap-already-subscribed = Вы ўжо аформілі падпіску праз 
 expired-card-error = Падобна на тое, што тэрмін дзеяння вашай крэдытнай карты скончыўся. Паспрабуйце іншую картку.
 insufficient-funds-error = Здаецца, на вашай картцы недастаткова сродкаў. Паспрабуйце іншую картку.
 coupon-expired = Здаецца, тэрмін дзеяння прома-кода скончыўся.
+fxa-post-passwordless-sub-error = Падпіска пацверджана, але не ўдалося загрузіць старонку пацверджання. Праверце сваю электронную пошту, каб завяршыць наладжванне ўліковага запісу.
 
 ## Settings
 
@@ -86,6 +87,13 @@ month-based-plan-details-amount =
         [one] Падпіска на { $productName } коштам { $amount } аплачваецца штомесяц
         [few] Падпіска на { $productName } коштам { $amount } кожныя { $intervalCount } месяцы
        *[many] Падпіска на { $productName } коштам { $amount } кожныя { $intervalCount } месяцаў
+    }
+# $intervalCount (Number) - The interval between payments, in years.
+year-based-plan-details-amount =
+    { $intervalCount ->
+        [one] Падпіска на { $productName } коштам { $amount } аплачваецца штогод
+        [few] Падпіска на { $productName } коштам { $amount } аплачваецца кожные { $intervalCount } гады
+       *[many] Падпіска на { $productName } коштам { $amount } аплачваецца кожные { $intervalCount } гадоў
     }
 
 ## Product route
