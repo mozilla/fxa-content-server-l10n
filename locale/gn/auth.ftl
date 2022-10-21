@@ -245,6 +245,12 @@ codes-reminder-description-part-two = Emoheñói ayvu pyahu ko’ág̃a ani hag�
 codes-reminder-description-two-left = Opytántema mokõi ayvu.
 lowRecoveryCodes-action-2 = Emoheñói ayvu
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Ndopytái ayvu ñemoneĩ jeykekoha
+        [one] Opyta 1 ayvu ñemoneĩ jeykekoha
+       *[other] Opyta { $numberRemaining } ayvu ñemoneĩ jeykekoha
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tembiapo ñepyrũ pyahu { $clientName }-pe
