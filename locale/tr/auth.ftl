@@ -233,6 +233,7 @@ downloadSubscription-content-2 = Aboneliğinize dahil olan tüm özellikleri kul
 downloadSubscription-link-action-2 = Başlayın
 fraudulentAccountDeletion-subject = { -product-firefox-account }nız silindi
 fraudulentAccountDeletion-title = Hesabınız silindi
+fraudulentAccountDeletion-content = Yakın zamanda bu e-posta adresiyle bir { -product-firefox-account } oluşturuldu ve abonelik ücreti alındı. Tüm yeni hesaplarda yaptığımız gibi, öncelikle bu e-posta adresini doğrulayarak hesabınızı onaylamanızı istemiştik.
 fraudulentAccountDeletion-contact = Herhangi bir sorunuz varsa lütfen <a data-l10n-name="mozillaSupportUrl">destek ekibimizle</a> iletişime geçin.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
