@@ -396,6 +396,10 @@ verify-secondary-email-verification-code-2 =
     .label = Emoinge nde ayvu jehechajeyrã
 verify-secondary-email-cancel-button = Heja
 verify-secondary-email-verify-button-2 = Moneĩ
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Ikatúpa ehai 5 aravo’i mboyve pe ayvu ñemoneĩrã emondóva <strong>{ $email }</strong>-pe.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -438,6 +442,9 @@ tfa-enter-secret-key = Emoinge ko mba’eñemi ne rembipuru’i ñemoneĩmbýpe:
 tfa-enter-totp = Emoinge ko’ág̃a tekorosã ayvu tembipuru’i ñemoneĩmbýpe.
 tfa-input-enter-totp =
     .label = Emoinge tekorosã ayvu
+tfa-save-these-codes-1 =
+    Eñongatu ko’ã ayvu ñemoneĩrã ijepuru peteĩva tenda hekorosãvévape
+    ndereguerekói jave ne pumbyry jeheguáva.
 tfa-enter-recovery-code-1 =
     .label = Emoinge ayvu ñemoneĩrã jeykekoha
 
@@ -495,11 +502,11 @@ rk-enabled = Myandypyre
 rk-not-set = Noñembohekóiva
 rk-action-create = Moheñói
 rk-action-remove = Mboguete
+rk-cannot-refresh-1 = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba’eñemi jeguerujeyrã.
 rk-key-removed-2 = Oguéma ayvu jeguerujeyrã mba’ete
 rk-cannot-remove-key = Ndaikatúi oñembogue mba’eñemi jeguerujeyrã ne mba’etégui.
 rk-refresh-key-1 = Embohekopyahu mba’eñemi jeguerujeyrã
 rk-content-explain = Emboguevijey ne marandu nderesaráirõ ne ñe’ẽñemígui.
-rk-content-reset-data = ¿Mba’ére emoĩporãvo ñe’ẽñemi oĩporãta che mba’ekuaarã?
 rk-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
 rk-remove-modal-heading-1 = Embogue mba’ete mba’eñemi jeguerujeyrã
 rk-refresh-error-1 = Ore ñyro, oĩ apañuãi hekopyahúvo ne mba’eñemi jeguerujeyrã.

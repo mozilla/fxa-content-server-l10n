@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-20 16:29+0000\n"
+"PO-Revision-Date: 2022-10-21 11:39+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -2024,7 +2024,7 @@ msgstr "QR ayvu"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Egueraha tendayke, techaukaha ha ñe’ẽñemi eipuruhápe Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
