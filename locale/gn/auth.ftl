@@ -88,6 +88,7 @@ ios-download-plaintext = Emboguejy { $productName } App Store guive:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Emohenda { $productName } ambue mba’e’okápe:
+automated-email-change-2 = Nandéiramo ejapo, <a data-l10n-name="passwordChangeLink">emoambue ne ñe’ẽñemi</a> pya’eporã.
 automated-email-support = Eñemomaranduve hag̃ua, eike <a data-l10n-name="supportLink">{ -brand-mozilla } Pytyvõha</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Nandéiramo ejapo, emoambue ne ñe’ẽñemi pya’e:
@@ -239,6 +240,7 @@ fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore at
 codes-reminder-title-zero = Ndereguerekovéima auvu ñemoneĩ jeykekoha
 codes-reminder-title-one = Reime pe auvu ñemoneĩ jeykeko pahávape
 codes-reminder-title-two = Emoheñóimake hetave ayvu ñemoneĩrã jeykekoha
+codes-reminder-description-part-one = Umi ayvu ñemoneĩ jeykekoha nepytyvõta erujey hag̃ua marandu nderesaráirõ ne ñe’ẽñemi.
 codes-reminder-description-part-two = Emoheñói ayvu pyahu ko’ág̃a ani hag̃ua okañy ne mba’ekuaarã.
 codes-reminder-description-two-left = Opytántema mokõi ayvu.
 lowRecoveryCodes-action-2 = Emoheñói ayvu
