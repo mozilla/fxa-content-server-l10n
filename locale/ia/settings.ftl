@@ -277,9 +277,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Impossibile initialisar le camera
 avatar-page-new-avatar =
     .alt = nove imagine del profilo
-avatar-page-file-upload-error-3 = Problema durante le cargamento de tu photo de profilo
+avatar-page-file-upload-error-3 = Problema durante le incargamento de tu imagine de profilo
 avatar-page-delete-error-3 = Problema durante le deletion de tu photo de profilo
-avatar-page-image-too-large-error-2 = Le dimension del file imagine es trop grande pro esser cargate
+avatar-page-image-too-large-error-2 = Le file de imagine es troppo grande pro esser incargate
 
 ##
 
@@ -507,7 +507,6 @@ rk-key-removed-2 = Clave de recuperation del conto removite
 rk-cannot-remove-key = Tu clave de recuperation del conto non pote esser removite.
 rk-refresh-key-1 = Actualisar le clave de recuperation del conto
 rk-content-explain = Restaura tu informationes quando tu oblida tu contrasigno.
-rk-content-reset-data = Proque reinitialisar mi contrasigno elimina mi datos?
 rk-cannot-verify-session-4 = Desolate, problema a confirmar tu session
 rk-remove-modal-heading-1 = Remover clave de recuperation del conto?
 rk-remove-modal-content-1 =

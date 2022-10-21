@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-12 16:53+0000\n"
+"PO-Revision-Date: 2022-10-21 23:36+0000\n"
 "Last-Translator: Martijn Dekker <martijn@inlv.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
@@ -699,7 +699,7 @@ msgstr "Adresse mal scribite? %(domain)s non offere servicio e-mail."
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
-msgstr "Le dimension del file imagine es trop grande pro esser cargate."
+msgstr "Le file de imagine es troppo grande pro esser incargate."
 
 #: .es5/lib/config-loader.js:117
 msgid "Missing configuration"
