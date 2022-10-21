@@ -93,6 +93,7 @@ automated-email-support = დამატებით, იხილეთ <a dat
 automated-email-change-plaintext-2 = თუ ეს თქვენი ნამოქმედარი არაა, შეცვალეთ პაროლი დაუყოვნებლივ:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = დამატებით იხილეთ { -brand-mozilla }-ს მხარდაჭერის გვერდი:
+automated-email-no-action-plaintext = ეს წერილი ავტომატურად იგზავნება. თუ შეცდომით მიიღეთ, საჭირო არაა რამე მოიმოქმედოთ.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = ეს ავტომატური შეტყობინებაა; თუ ეს მოქმედება თქვენს უნებართვოდ შესრულდა, მაშინ გთხოვთ, შეცვალოთ პაროლი:
 automated-email-reset =
@@ -211,9 +212,19 @@ downloadSubscription-subject = მოგესალმებათ { $productNa
 downloadSubscription-title = მოგესალმებათ { $productName }
 downloadSubscription-content-2 = დავიწყოთ, თქვენ მიერ გამოწერილი მომსახურების სრულყოფილად გამოყენება:
 downloadSubscription-link-action-2 = დაწყება
+fraudulentAccountDeletion-title = თქვენი ანგარიში წაიშალა
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = ახალი შესვლა { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = თქვენი { -product-firefox-account } გამოყენებულია შესვლისთვის
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = თქვენ არ ყოფილხართ? <a data-l10n-name="passwordChangeLink">შეცვალეთ პაროლი</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = თქვენ არ ყოფილხართ? შეცვალეთ პაროლი:
 newDeviceLogin-action = ანგარიშის მართვა
 passwordChanged-subject = პაროლი განახლდა
 passwordChanged-title = პაროლი წარმატებით შეიცვალა
@@ -229,6 +240,8 @@ passwordChangeRequired-different-password-plaintext = მნიშვნელ�
 passwordReset-subject = პაროლი განახლდა
 passwordReset-title = თქვენი ანგარიშის პაროლი შეიცვალა
 passwordReset-description = სინქრონიზაციის გასაგრძელებლად, საჭიროა ახალი პაროლის შეყვანა სხვა მოწყობილობებზეც.
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = თქვენ არ ყოფილხართ?
 postAddAccountRecovery-action = ანგარიშის მართვა
 postAddLinkedAccount-subject = ახალ ანგარიშს დაუკავშირდა { -brand-firefox }
 #  Variables:
