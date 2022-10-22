@@ -290,6 +290,12 @@ sub-route-idx-reactivating = Не атрымалася паўторна акты
 sub-route-idx-cancel-failed = Не атрымалася скасаваць падпіску
 sub-route-idx-contact = Звязацца з падтрымкай
 sub-route-idx-cancel-msg-title = Нам шкада, што вы сыходзіце
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Ваша падпіска на { $name } была скасавана.
+          <br />
+          У вас па-ранейшаму будзе доступ да { $name } да { $date }.
 sub-route-idx-cancel-aside = Ёсць пытанні? Наведайце <a>{ -brand-name-mozilla } службу падтрымкі</a>.
 sub-subscription-error =
     .title = Праблема з загрузкай падпісак
@@ -299,6 +305,8 @@ sub-invoice-error =
     .title = Праблема з загрузкай рахункаў-фактур
 sub-billing-update-success = Ваша плацежная інфармацыя была паспяхова абноўлена
 sub-route-payment-modal-heading = Няправільная плацежная інфармацыя
+sub-route-missing-billing-agreement-payment-alert = Недапушчальная плацежная інфармацыя; узнікла памылка з вашым уліковым запісам. <div>Кіраваць</div>
+sub-route-funding-source-payment-alert = Недапушчальная плацежная інфармацыя; узнікла памылка з вашым уліковым запісам. Гэта папярэджанне можа адлюстроўвацца цягам пэўнага часу пасля паспяховага абнаўлення вамі сваёй інфармацыі. <div>Кіраваць</div>
 pay-update-manage-btn = Кіраваць
 
 ## Subscription create
