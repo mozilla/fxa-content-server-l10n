@@ -278,6 +278,7 @@ postAddTwoStepAuthentication-title-2 = Вы ўключылі двухэтапн�
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Вы ўключылі яе з:
 postAddTwoStepAuthentication-action = Кіраванне ўліковым запісам
+postAddTwoStepAuthentication-code-required-2 = Цяпер пры кожным уваходзе неабходна ўводзіць коды бяспекі з вашай праграмы аўтэнтыфікацыі.
 postChangePrimary-subject = Асноўны адрас эл.пошты зменены
 postChangePrimary-title = Новы асноўны адрас эл.пошты
 postChangePrimary-action = Кіраванне ўліковым запісам
@@ -310,6 +311,7 @@ postRemoveTwoStepAuthentication-title-2 = Вы адключылі двухэта
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Вы адключылі яе з:
 postRemoveTwoStepAuthentication-action = Кіраванне ўліковым запісам
+postRemoveTwoStepAuthentication-not-required-2 = Вам больш не трэба будзе ўводзіць коды бяспекі з праграмы аўтэнтыфікацыі пры ўваходзе.
 postVerify-sub-title-3 = Мы рады вас бачыць!
 postVerify-title-2 = Хочаце бачыць адну і тую ж картку на дзвюх прыладах?
 postVerify-subject-3 = Вітаем у { -brand-firefox }!
