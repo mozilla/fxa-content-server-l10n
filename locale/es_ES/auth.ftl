@@ -89,6 +89,12 @@ ios-download-plaintext = Descarga { $productName } en la App Store:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Instala { $productName } en otro dispositivo:
 automated-email-change-2 = Si no realizaste esta acción, <a data-l10n-name="passwordChangeLink">cambia tu contraseña</a> inmediatamente.
+automated-email-support = Para más información, visita <a data-l10n-name="supportLink">Ayuda de { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Si no realizaste esta acción, cambia tu contraseña inmediatamente:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Para más información, visita la ayuda de { -brand-mozilla }:
+automated-email-no-action-plaintext = Este es un correo electrónico automatizado. Si lo recibiste por error, no necesitas hacer nada.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Este es un correo electrónico enviado de forma automática; si no has autorizado esta acción, por favor, cambia tu contraseña:
 automated-email-reset =
@@ -144,6 +150,9 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Descuento único: -
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = Descuento durante { $discountDuration } meses: -{ $invoiceDiscountAmount }
 # Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Impuestos y cargos: { $invoiceTaxAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = Cobrado { $invoiceTotal } el { $invoiceDateOnly }
@@ -197,8 +206,12 @@ view-invoice = <a data-l10n-name="invoiceLink">Ver tu factura</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Ver factura: { $invoiceLink }
+cadReminderFirst-subject-1 = ¡No lo olvides! Sincronicemos { -brand-firefox }
 cadReminderFirst-action = Sincronizar otro dispositivo
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Se necesitan dos para sincronizar
+cadReminderFirst-description-2 = Sincronizar solo te llevará un segundo.
 cadReminderSecond-subject-2 = ¡No te pierdas nada! Completa la configuración para empezar a sincronizar
 cadReminderSecond-action = Sincronizar otro dispositivo
 cadReminderSecond-title-2 = ¡No te olvides de sincronizar!
