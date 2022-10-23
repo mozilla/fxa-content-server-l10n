@@ -487,10 +487,19 @@ subscriptionRenewalReminder-title = A sua subscrição será renovada em breve
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Caro(a) cliente de { $productName },
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = A sua subscrição atual está configurada para ser renovada automaticamente em { $reminderLength } dias. Nessa altura, a { -brand-mozilla } irá renovar a sua subscrição de { $planIntervalCount } { $planInterval } e será efetuada uma cobrança de { $invoiceTotal } no método de pagamento da sua conta.
 subscriptionRenewalReminder-content-closing = Com os melhores cumprimentos,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A equipa do(a) { $productName }
+subscriptionsPaymentExpired-subject-1 = O cartão de crédito para as suas subscrições expirou ou expira em breve
+subscriptionsPaymentExpired-title-1 = O seu cartão de crédito expirou ou está prestes a expirar
+subscriptionsPaymentExpired-content-1 = O cartão de crédito que está a utilizar para efetuar os pagamentos das seguintes subscrições expirou ou está quase a expirar.
 subscriptionsPaymentProviderCancelled-subject = É necessária uma atualização das informações de pagamento para as subscrições de { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Desculpe, estamos a ter problemas com o seu método de pagamento
 subscriptionsPaymentProviderCancelled-content-detected = Detetámos um problema com o seu método de pagamento para as seguintes subscrições.
@@ -525,13 +534,21 @@ unblockCode-prompt = Se sim, aqui está o código de autorização de que necess
 unblockCode-prompt-plaintext = Se sim, aqui está o código de autorização que precisa: { $unblockCode }
 unblockCode-report = Se não, ajude-nos a afastar os intrusos e <a data-l10n-name="reportSignInLink">reporte a situação à nossa equipa</a>.
 unblockCode-report-plaintext = Se não, ajude-nos a afastar os intrusos e reporte a situação à nossa equipa.
+verificationReminderFinal-subject = Lembrete final para configurar a sua conta
 confirm-account = Confirmar conta
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Lembre-se de confirmar a sua conta
+verificationReminderFirst-title-2 = Bem-vindo ao { -brand-firefox }!
+verificationReminderFirst-description-2 = Há alguns dias criou uma { -product-firefox-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 15 dias ou esta será eliminada automaticamente.
+verificationReminderFirst-sub-description-3 = Não perca o navegador que o coloca a si e a sua privacidade, em primeiro lugar.
 confirm-email-2 = Confirmar conta
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar conta
 verificationReminderSecond-subject-2 = Lembre-se de confirmar a sua conta
 verificationReminderSecond-title-2 = Não perca o { -brand-firefox }!
+verificationReminderSecond-description-3 = Há alguns dias criou uma { -product-firefox-account }, mas nunca a confirmou. Por favor, confirme a sua conta nos próximos 10 dias ou esta será eliminada automaticamente.
+verificationReminderSecond-second-description = A sua { -product-firefox-account } deixa-o sincronizar a sua informação entre os dispositivos e desbloqueia o acesso a mais produtos de proteção de privacidade da { -brand-mozilla }.
+verificationReminderSecond-sub-description-2 = Faça parte da nossa missão para transformar a Internet num lugar aberto para todos.
 verificationReminderSecond-action-2 = Confirmar conta
 verify-title-2 = Aceda à Internet com o { -brand-firefox }
 verify-description = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os lugares em que iniciar sessão, a começar por:
@@ -546,14 +563,24 @@ verifyLogin-action = Confirmar novo início de sessão
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line-2 = Aprovar início de sessão para { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Iniciou a sessão com { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Ajude-nos a manter a sua conta segura aprovando o seu início de sessão em:
+verifyLoginCode-prompt-3 = Se sim, aqui está o seu código de autorização:
 verifyLoginCode-expiry-notice = Este expira em 5 minutos.
 verifyPrimary-title-2 = Confirmar e-mail principal
 verifyPrimary-description = Foi realizado um pedido para executar uma alteração de conta a partir do seguinte dispositivo:
 verifyPrimary-subject = Confirmar e-mail principal
 verifyPrimary-action-2 = Confirmar email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Depois de confirmado, alterações à conta, como adicionar um endereço de correio eletrónico secundário, irão ficar disponíveis a partir deste dispositivo.
 verifySecondaryCode-subject = Confirmar e-mail secundário
+verifySecondaryCode-title-2 = Confirmar e-mail secundário
+verifySecondaryCode-action-2 = Confirmar e-mail
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Uma solicitação para utilizar { $email } como endereço de email secundário foi feito a partir da seguinte { -product-firefox-account }:
+verifySecondaryCode-prompt-2 = Utilizar este código de confirmação:
 verifyShortCode-expiry-notice = Este expira em 5 minutos.
