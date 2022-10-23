@@ -264,6 +264,8 @@ downloadSubscription-content-2 = Začnimo uporabljati vse funkcije, vključene v
 downloadSubscription-link-action-2 = Začnite
 fraudulentAccountDeletion-subject = Vaš { -product-firefox-account } je bil izbrisan
 fraudulentAccountDeletion-title = Vaš račun je bil izbrisan
+fraudulentAccountDeletion-content = Pred kratkim je bil na ta e-poštni naslov ustvarjen { -product-firefox-account } in zaračunana naročnina. Kot to storimo z vsemi novimi računi, smo vas prosili, da svoj račun potrdite s potrditvijo tega e-poštnega naslova.
+fraudulentAccountDeletion-content-2 = Trenutno vidimo, da račun ni bil nikoli potrjen. Ker ta korak ni bil opravljen, nismo prepričani, ali ste to naročnino resnično nakazali vi. Zato je bil { -product-firefox-account }, registriran na ta e-poštni naslov, izbrisan, naročnina pa preklicana, pri čemer so bili vsi stroški povrnjeni.
 fraudulentAccountDeletion-contact = Če imate kakršnakoli vprašanja, se obrnite na našo <a data-l10n-name="mozillaSupportUrl">skupino za podporo</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -337,7 +339,12 @@ postAddLinkedAccount-subject = Nov račun je povezan s { -brand-firefox(sklon: "
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Vaš račun { $providerName } je povezan z vašim { -product-firefox-account(sklon: "orodnik") }
 postAddLinkedAccount-action = Upravljanje računa
+postAddTwoStepAuthentication-subject-2 = Overitev v dveh korakih vklopljena
+postAddTwoStepAuthentication-title-2 = Vklopili ste overitev v dveh korakih
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Omogočili ste jo z naslednje naprave:
 postAddTwoStepAuthentication-action = Upravljanje računa
+postAddTwoStepAuthentication-code-required-2 = Varnostne kode iz vaše aplikacije za overitev so odslej zahtevane ob vsaki prijavi.
 postChangePrimary-subject = Glavni e-poštni naslov posodobljen
 postChangePrimary-title = Nov glavni e-poštni naslov
 # Variables:
@@ -567,6 +574,15 @@ verifyLogin-title-2 = Ali ste se vi prijavili v { $clientName }?
 verifyLogin-description-2 = Pomagajte nam zaščititi vaš račun, tako da potrdite, da ste se vi prijavili v:
 verifyLogin-subject-2 = Potrdi prijavo
 verifyLogin-action = Potrdite prijavo
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Odobrite prijavo v { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Ali ste se vi prijavili v { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Pomagajte nam zaščititi vaš račun, tako da odobrite prijavo na naslednji napravi:
+verifyLoginCode-prompt-3 = Če da, uporabite to overitveno kodo:
 verifyLoginCode-expiry-notice = Poteče čez 5 minut.
 verifyPrimary-title-2 = Potrdi glavni e-poštni naslov
 verifyPrimary-description = Poslan je bil zahtevek za spremembo računa z naslednje naprave:
