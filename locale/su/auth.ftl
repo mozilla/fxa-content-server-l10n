@@ -75,6 +75,10 @@ android-download-plaintext = Undeur { $productName } di Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 ios-download-plaintext = Undeur { $productName } di App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Pasang { $productName } dina séjén parabot:
+automated-email-support = PIkeun leuwih teleb, buka <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ieu surél otomatis; upama anjeun henteu nyatujuan, mangga ganti kecap konci anjeun:
 automated-email-reset =
@@ -91,6 +95,9 @@ manage-account-plaintext = { manage-account }:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Nomer Paktur: { $invoiceNumber }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Paktur salajengna: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Cara Mayar:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
