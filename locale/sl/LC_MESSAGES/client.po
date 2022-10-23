@@ -1871,7 +1871,7 @@ msgstr "Zakaj moram ustvariti ta račun? <a %(escapedSuggestionAttrs)s>Izvedite 
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr "Koliko ste stari? Zakaj zahtevamo vašo starost, lahko preberete na spodnji povezavi \"Zakaj sprašujemo\"."
+msgstr "Koliko ste stari? Zakaj zahtevamo vašo starost, lahko preberete na spodnji povezavi “Zakaj sprašujemo”."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1879,7 +1879,7 @@ msgstr "Koliko ste stari?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "Zakaj sprašujemo?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
