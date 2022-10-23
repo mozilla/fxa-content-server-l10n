@@ -72,6 +72,12 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Сцягнуц
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Сцягнуць { $productName } з { -app-store }">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Усталюйце { $productName } на <a data-l10n-name="anotherDeviceLink">іншы камп'ютар</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Усталюйце { $productName } на <a data-l10n-name="anotherDeviceLink">іншую прыладу</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Атрымайце { $productName } у Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -139,12 +145,17 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Аднаразов�
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-месячная зніжка: -{ $invoiceDiscountAmount }
 # Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Падаткі і зборы: { $invoiceTaxAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = Спагнана { $invoiceTotal } { $invoiceDateOnly }
 subscriptionSupport = Пытанні наконт вашай падпіскі? Наша <a data-l10n-name="subscriptionSupportUrl">служба падтрымкі</a> тут, каб дапамагчы вам.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Вы можаце праверыць актуальнасць вашага спосабу аплаты і даных уліковага запісу тут:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = Для атрымання дадатковай інфармацыі наведайце старонку падтрымкі { -brand-mozilla }: { $supportUrl }.
@@ -187,6 +198,7 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Для сінхранізацыі патрэбна дзве прылады
 cadReminderFirst-description-2 = Сінхранізацыя адбываецца імгненна
+cadReminderSecond-subject-2 = Не прапусціце! Давайце скончым наладку сінхранізацыі
 cadReminderSecond-action = Сінхранізаваць іншую прыладу
 cadReminderSecond-title-2 = Не забудзьцеся сінхранізаваць!
 cadReminderSecond-description-sync = Сінхранізуйце свае закладкі, паролі, адкрытыя карткі і многае іншае — усюды, дзе вы карыстаецеся { -brand-firefox }.
@@ -200,6 +212,9 @@ downloadSubscription-content-2 = Давайце пачнём выкарысто�
 downloadSubscription-link-action-2 = Пачаць
 fraudulentAccountDeletion-subject = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } быў выдалены
 fraudulentAccountDeletion-title = Ваш уліковы запіс быў выдалены
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Калі ў вас ёсць пытанні, звярніцеся да нашай каманды падтрымкі: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = У вас скончыліся рэзервовыя коды аўтэнтыфікацыі!
 codes-reminder-title-one = Вы выкарыстоўваеце апошні рэзервовы код аўтэнтыфікацыі
@@ -254,6 +269,9 @@ postAddAccountRecovery-action = Кіраванне ўліковым запіса
 postAddAccountRecovery-delete-key = Выдаліць новы ключ:
 postAddAccountRecovery-changd-password = Змяніць ваш пароль:
 postAddLinkedAccount-subject = Новы ўліковы запіс, звязаны з { -brand-firefox }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Уліковы запіс { $providerName } быў звязаны з вашім { -product-firefox-account }
 postAddLinkedAccount-action = Кіраваць уліковым запісам
 postAddTwoStepAuthentication-subject-2 = Двухэтапная аўтарызацыя ўключана
 postAddTwoStepAuthentication-title-2 = Вы ўключылі двухэтапную аўтэнтыфікацыю
