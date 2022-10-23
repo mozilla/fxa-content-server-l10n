@@ -69,6 +69,12 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Undeur  { $pro
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Undeur { $productName } di { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Undeur { $productName } di Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Undeur { $productName } di App Store:
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ieu surél otomatis; upama anjeun henteu nyatujuan, mangga ganti kecap konci anjeun:
 automated-email-reset =
@@ -127,10 +133,7 @@ passwordReset-subject = Kecap sandi geus diropéa
 passwordReset-title = Sandi akun anjeun geus dirobah
 passwordReset-description = Anjeun bakal perlu ngasupkeun sandi anyar anjeun na parangkat séjén pikeun ngahanca singkronan.
 postAddAccountRecovery-action = Kokolakeun akun
-postAddTwoStepAuthentication-subject = Oténtikasi dua léngkah dihurungkeun
-postAddTwoStepAuthentication-title = Oténtikasi dua léngkah dihurungkeun
 postAddTwoStepAuthentication-action = Kokolakeun akun
-postAddTwoStepAuthentication-code-required = Perlu kodeu kaamanan ti aplikasi oténtikasi anjeun mun arék asup téh.
 postChangePrimary-subject = Surélék utama geus diropéa
 postChangePrimary-title = Surélék utama anyar
 postChangePrimary-action = Kokolakeun akun
@@ -140,9 +143,7 @@ postRemoveAccountRecovery-action = Kokolakeun akun
 postRemoveSecondary-subject = Surélék sékunder geus dilaan
 postRemoveSecondary-title = Surélék sékunder geus dilaan
 postRemoveSecondary-action = Kokolakeun akun
-postRemoveTwoStepAuthentication-title = Oténtikasi dua léngkah dipareuman
 postRemoveTwoStepAuthentication-action = Kokolakeun akun
-postRemoveTwoStepAuthentication-not-required = Geus teu perlu deui kodeu kaamanan mun arék asup téh.
 postVerifySecondary-subject = Surélék sékundér ditambahkeun
 postVerifySecondary-title = Surélék sékundér ditambahkeun
 postVerifySecondary-action = Kokolakeun akun
@@ -159,7 +160,6 @@ unblockCode-report-plaintext = Mun henteu, bantuan kami nyingkahan nu ngaganggu 
 verify-description = Puguhkeun akun anjeun sarta meunangkeun hasil maksimal ti { -brand-firefox } di mana baé anjeun asup dimimitian ku:
 verify-subject = Réngsékeun nyieun akun anjeun
 verifyLogin-action = Konfirmasi peta asup
-verifyLoginCode-title = Nu asup téh anjeun lin?
 verifyLoginCode-expiry-notice = Bakal kadaluwarsa dina 5 menit.
 verifyPrimary-description = Pamundut pikeun milampah parobahan akun geus dijieun ti perangkat di handap:
 verifyPrimary-subject = Puguhkeun surél utama
