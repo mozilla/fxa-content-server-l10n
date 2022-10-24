@@ -166,6 +166,10 @@ product-plan-change-heading = Праглядзіце свае змены
 sub-change-failed = Не атрымалася змяніць план
 sub-update-payment-title = Плацежная інфармацыя
 sub-update-card-exp = Тэрмін дзеяння канчаецца { $cardExpMonth }/{ $cardExpYear }
+sub-update-copy =
+    Ваш тарыфны план неадкладна зменіцца,  і з вас будзе спісана скарэкціраваная
+    сума за астатнюю частку плацежнага цыкла. Пачынаючы з { $startingDate }
+    з вас будзе здымацца поўная сума.
 
 ##
 
