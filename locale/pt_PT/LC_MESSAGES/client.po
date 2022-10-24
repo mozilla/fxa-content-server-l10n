@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-24 00:13+0000\n"
+"PO-Revision-Date: 2022-10-24 00:17+0000\n"
 "Last-Translator: Cláudio Esperança <cesperanc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_PT\n"
@@ -1465,7 +1465,7 @@ msgstr "Insira o código de confirmação <span class=\"card-subheader\">para a 
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Insira nos próximos 5 minutos o código que foi enviado para %(email)s."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1506,6 +1506,8 @@ msgstr "Repita a palavra-passe"
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
+"Precisa desta palavra-passe para aceder a quaisquer dados encriptados que guarde connosco.<br class=\"mb-3\">Uma reposição significa a perda potencial dos dados, tais como palavras-passe e "
+"marcadores."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1527,6 +1529,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Ao continuar, concorda com os:<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Termos do serviço</a> e a <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Informação de privacidade</a> de Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termos do serviço</a> e  a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informação de privacidade</a> do Firefox\n"
+"          "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1606,7 +1613,7 @@ msgstr "Passo 1 de 2: Reintroduzir palavra-passe"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Insira a sua palavra-passe para ver a sua chave de recuperação da conta."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1667,7 +1674,7 @@ msgstr "Talvez mais tarde"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Por favor, insira nos próximos 5 minutos o código de confirmação que foi enviado para %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1835,7 +1842,7 @@ msgstr "<span class=\"number\">4</span>Entrar na sua conta"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Proteja os seus dados com uma chave de recuperação da conta"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1848,19 +1855,19 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "Obter uma Chave de recuperação da conta"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "Por favor, confirme a sua palavra-passe para %(escapedEmail)s para gerar a sua chave de recuperação da conta."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Insira a sua chave de recuperação da conta para confirmar que guardou uma cópia."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "Guardar chave de recuperação da conta"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
