@@ -254,6 +254,20 @@ pay-update-change-btn = Змяніць
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Хочаце працягваць карыстацца { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Ваш доступ да { $name } будзе працягвацца, а ваш плацежны цыкл
+    і сума аплата застанецца ранейшай. Ваша наступная плата адбудзецца
+    { $endDate } і складзе { $amount } з карткі, што канчаецца на { $last }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Ваш доступ да { $name } будзе працягвацца, а ваш плацежны цыкл
+    і сума аплата застанецца ранейшай. Ваша наступная плата адбудзецца
+    { $endDate } і складзе { $amount }.
 reactivate-confirm-button = Падпішыцеся яшчэ раз
 
 ## $date (Date) - Last day of product access
