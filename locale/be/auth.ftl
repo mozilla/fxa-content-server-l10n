@@ -217,6 +217,7 @@ downloadSubscription-content-2 = Давайце пачнём выкарысто�
 downloadSubscription-link-action-2 = Пачаць
 fraudulentAccountDeletion-subject = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } быў выдалены
 fraudulentAccountDeletion-title = Ваш уліковы запіс быў выдалены
+fraudulentAccountDeletion-contact = Калі ў вас ёсць пытанні, звярніцеся да нашай <a data-l10n-name="mozillaSupportUrl">каманды падтрымкі</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Калі ў вас ёсць пытанні, звярніцеся да нашай каманды падтрымкі: { $mozillaSupportUrl }
@@ -379,6 +380,9 @@ subscriptionPaymentExpired-title-1 = Тэрмін дзеяння вашай кр
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Не атрымалася аплаціць { $productName }
 subscriptionPaymentFailed-title = На жаль, у нас узнікла праблема з вашым плацяжом
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = У нас узніклі праблемы з вашым апошнім плацяжом за { $productName }.
 subscriptionPaymentProviderCancelled-title = На жаль, у нас узніклі праблемы з вашым спосабам аплаты
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -431,6 +435,7 @@ confirm-account = Пацвердзіць уліковы запіс
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не забудзьцеся пацвердзіць свой уліковы запіс
 verificationReminderFirst-title-2 = Вітаем у { -brand-firefox }!
+verificationReminderFirst-sub-description-3 = Не прапусціце браўзер, які ставіць вас і вашу прыватнасць на першае месца.
 confirm-email-2 = Пацвердзіць уліковы запіс
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Пацвердзіць уліковы запіс
@@ -444,6 +449,7 @@ verify-action-2 = Пацвердзіць уліковы запіс
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Вы ўваходзілі ў { $clientName }?
+verifyLogin-description-2 = Дапамажыце нам захаваць ваш уліковы запіс у бяспецы, пацвердзіўшы, што вы ўвайшлі ў сістэму:
 verifyLogin-subject-2 = Пацвердзіць уваход
 verifyLogin-action = Пацвердзіць уваход
 # Variables:
@@ -452,6 +458,8 @@ verifyLoginCode-subject-line-2 = Пацвердзіце ўваход у { $servi
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Вы ўвайшлі ў { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Дапамажыце нам захаваць ваш уліковы запіс у бяспецы, пацвердзіўшы, што вы ўвайшлі ў сістэму:
 verifyLoginCode-prompt-3 = Калі так, вось ваш код аўтарызацыі:
 verifyLoginCode-expiry-notice = Тэрмін яго дзеяння скончыцца праз 5 хвілін.
 verifyPrimary-title-2 = Пацвердзіце асноўную электронную пошту
