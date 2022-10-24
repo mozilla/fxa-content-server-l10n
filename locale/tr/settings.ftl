@@ -433,6 +433,10 @@ tfa-enter-totp = Şimdi kimlik doğrulama uygulamasının verdiği güvenlik kod
 tfa-input-enter-totp =
     .label = Güvenlik kodunu yazın
 tfa-save-these-codes-1 = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın.
+tfa-enter-code-to-confirm-1 =
+    Lütfen kaydettiğinizi onaylamak için yedek kimlik doğrulama kodlarınızdan
+    birini girin. Mobil cihazınıza erişemediğinizde giriş yapmak için bir koda
+    ihtiyacınız olacak.
 tfa-enter-recovery-code-1 =
     .label = Bir yedek kimlik doğrulama kodunu girin
 
@@ -495,7 +499,6 @@ rk-key-removed-2 = Hesap kurtarma anahtarı silindi
 rk-cannot-remove-key = Hesap kurtarma anahtarınız silinemedi.
 rk-refresh-key-1 = Hesap kurtarma anahtarını yenile
 rk-content-explain = Parolanızı unutursanız bilgilerinizi geri yüklemenizi sağlar.
-rk-content-reset-data = Parolamı sıfırlayınca neden verilerim de sıfırlanıyor?
 rk-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
 rk-remove-modal-heading-1 = Hesap kurtarma anahtarı kaldırılsın mı?
 rk-remove-modal-content-1 = Parolanızı sıfırlarsanız verilerinize tekrar erişmek için hesap kurtarma anahtarınızı kullanamayacaksınız. Bu işlemi geri alamazsınız.
