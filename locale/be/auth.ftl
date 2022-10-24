@@ -86,6 +86,8 @@ ios-download-plaintext = Спампуйце { $productName } з App Store:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Усталюйце { $productName } на іншую прыладу:
 automated-email-support = Для атрымання дадатковай інфармацыі наведайце <a data-l10n-name="supportLink">падтрымку { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Калі вы не рабілі гэтага дзеяння, неадкладна змяніце пароль:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Для атрымання дадатковай інфармацыі наведайце старонку падтрымкі { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
@@ -156,6 +158,8 @@ subscriptionSupport = Пытанні наконт вашай падпіскі? �
 subscriptionSupport-plaintext = Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Вы можаце праверыць актуальнасць вашага спосабу аплаты і даных уліковага запісу тут:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Каб пазбегнуць перарыванняў у рабоце вашай службы, абнавіце сваю плацежную інфармацыю як мага хутчэй:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = Для атрымання дадатковай інфармацыі наведайце старонку падтрымкі { -brand-mozilla }: { $supportUrl }.
@@ -202,6 +206,7 @@ cadReminderSecond-subject-2 = Не прапусціце! Давайце скон
 cadReminderSecond-action = Сінхранізаваць іншую прыладу
 cadReminderSecond-title-2 = Не забудзьцеся сінхранізаваць!
 cadReminderSecond-description-sync = Сінхранізуйце свае закладкі, паролі, адкрытыя карткі і многае іншае — усюды, дзе вы карыстаецеся { -brand-firefox }.
+cadReminderSecond-description-plus = Акрамя таго, вашы даныя заўсёды зашыфраваны. Толькі вы і вашы давераныя прылады змогуць іх убачыць.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Вітаем у { $productName }
