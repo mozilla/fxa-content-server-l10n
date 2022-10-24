@@ -583,4 +583,12 @@ verifySecondaryCode-action-2 = Confirmar e-mail
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Uma solicitação para utilizar { $email } como endereço de email secundário foi feito a partir da seguinte { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Utilizar este código de confirmação:
+verifySecondaryCode-expiry-notice-2 = Este expira em 5 minutos. Depois de confirmado, este endereço irá começar a receber notificações e confirmações de segurança.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Confirmar a sua conta
+verifyShortCode-title-2 = Aceda à Internet com o { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Confirme a sua conta e aproveite ao máximo o { -brand-firefox } em todos os sítios em que iniciar sessão, a começar com:
+verifyShortCode-prompt-3 = Utilizar este código de confirmação:
 verifyShortCode-expiry-notice = Este expira em 5 minutos.
