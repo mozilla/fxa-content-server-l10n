@@ -267,6 +267,8 @@ passwordReset-title = Пароль вашага ўліковага запісу 
 passwordReset-description = Трэ будзе ўвесці новы пароль на іншых прыладах, каб узнавіць сінхранізацыю.
 passwordResetAccountRecovery-subject-2 = Ваш пароль быў скінуты
 passwordResetAccountRecovery-title-2 = Пароль паспяхова скінуты
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Вы выкарысталі ключ аднаўлення ўліковага запісу, каб абнавіць свой пароль з:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Стварыць новы ключ аднаўлення ўліковага запісу
 postAddAccountRecovery-subject-2 = Ключ аднаўлення ўліковага запісу створаны
@@ -275,6 +277,7 @@ postAddAccountRecovery-title2 = Вы стварылі новы ключ адна
 postAddAccountRecovery-description-2 = Новы ключ быў створаны з:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Гэта не вы?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Выдаліць новы ключ</a> і <a data-l10n-name="passwordChangeLink">змяніць пароль</a>
 postAddAccountRecovery-action = Кіраванне ўліковым запісам
 postAddAccountRecovery-delete-key = Выдаліць новы ключ:
 postAddAccountRecovery-changd-password = Змяніць ваш пароль:
@@ -324,6 +327,8 @@ postRemoveTwoStepAuthentication-action = Кіраванне ўліковым з�
 postRemoveTwoStepAuthentication-not-required-2 = Вам больш не трэба будзе ўводзіць коды бяспекі з праграмы аўтэнтыфікацыі пры ўваходзе.
 postVerify-sub-title-3 = Мы рады вас бачыць!
 postVerify-title-2 = Хочаце бачыць адну і тую ж картку на дзвюх прыладах?
+postVerify-description-2 = Гэта лёгка! Проста ўсталюйце { -brand-firefox } на іншую прыладу і ўвайдзіце ў свой уліковы запіс для сінхранізацыі. Гэта як магія!
+postVerify-sub-description = (Псст… Гэта таксама азначае, што вы можаце атрымаць свае закладкі, паролі і іншыя даныя { -brand-firefox } усюды, дзе вы ўвайшлі ў свой уліковы запіс.)
 postVerify-subject-3 = Вітаем у { -brand-firefox }!
 postVerify-setup-2 = Злучыць іншую прыладу:
 postVerify-action-2 = Злучыць іншую прыладу
@@ -445,6 +450,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Пацвердзіць уліковы запіс
 verificationReminderSecond-subject-2 = Не забудзьцеся пацвердзіць свой уліковы запіс
 verificationReminderSecond-title-2 = Не прапусціце { -brand-firefox }!
+verificationReminderSecond-sub-description-2 = Станьце часткай нашай місіі па пераўтварэнні Інтэрнэту ў месца, адкрытае для ўсіх.
 verificationReminderSecond-action-2 = Пацвердзіць уліковы запіс
 verify-title-2 = Адкрыйце Інтэрнэт з дапамогай { -brand-firefox }
 verify-description = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-firefox } усюды, дзе ўвайшлі, пачынаючы з:
