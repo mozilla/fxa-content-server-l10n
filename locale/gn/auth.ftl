@@ -361,6 +361,7 @@ recovery-title-2 = ¿Nderesarái ñe’ẽñemígui?
 # Information on the browser, IP address, date and time of the request that
 # triggered the email follows.
 recovery-request-origin = Og̃uahẽ oréve jerure ñe’ẽñemi moambuerã nde { -product-firefox-account }-pe:
+recovery-new-password-button = Emoheñói ñe’ẽñemi pyahu eikutúvo amo votõ. Ko juajuha hekopáta peteĩ aravo rire.
 recovery-action = Emoheñói ñe’ẽñemi pyahu
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -546,6 +547,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Emoneĩjey mba’ete
 verificationReminderSecond-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
 verificationReminderSecond-title-2 = ¡Aníke ejavy { -brand-firefox }!
+verificationReminderSecond-sub-description-2 = Eike ore rembipotápe emoambuekuaa hag̃ua ñanduti peteĩ tenda ijurujáva opavavépe g̃uarã.
 verificationReminderSecond-action-2 = Emoneĩjey mba’ete
 verify-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
 verify-description = Emoneĩ ne mba’ete ha eipuruporã { -brand-firefox } eike eikehápe eñepyrũvo amo:
@@ -580,6 +582,7 @@ verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Ojejerure ojepuru hag̃ua { $email } ñanduti veve mokõháva ambue { -product-firefox-account } peg̃uarã:
 verifySecondaryCode-prompt-2 = Eipuru ko ayvu rechajeyrã:
+verifySecondaryCode-expiry-notice-2 = Opáta 5 aravo’ípe. Ojehechajey vove, ko kundaharapépe og̃uahẽta marandu’i tekorosã ha ñemoneĩ rehegua.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Emoneĩjey ne mba’ete
