@@ -47,7 +47,11 @@ subplat-explainer-specific = Anjeun nampa ieu surélék kusabab { $email } boga 
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Anjeun narima ieu surélék kusabab { $email } boga { -product-firefox-account }.
 subplat-explainer-multiple = Anjeun nampa ieu surélék kusabab { $email } boga { -product-firefox-account } sarta anjeun geus kadaptar kana rupa-rupa produk.
+subplat-explainer-was-deleted = Anjeun narima ieu surélék kusabab { $email } kadaptar pikeun { -product-firefox-account }.
 subplat-manage-account = Atur setélan { -product-firefox-account } anjeun ku sindang ka <a data-l10n-name="subplat-account-page">kaca akun</a> anjeun.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Kokolakeun setélan { -product-firefox-account } anjeun ku di kaca akun anjeun: { $accountSettingsUrl }
 subplat-terms-policy = Sarat jeung kawijakan bolay
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Bolay daptar
@@ -69,6 +73,12 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Undeur  { $pro
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Undeur { $productName } di { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Pasang { $productName } dina <a data-l10n-name="anotherDeviceLink">parabot déstop lianna</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Pasang { $productName } dina <a data-l10n-name="anotherDeviceLink">séjén parabot</a>.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Undeur { $productName } di Google Play:
