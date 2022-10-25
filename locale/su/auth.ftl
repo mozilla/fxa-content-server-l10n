@@ -88,7 +88,14 @@ ios-download-plaintext = Undeur { $productName } di App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Pasang { $productName } dina séjén parabot:
+automated-email-change-2 = Upama anjeun teu migawé ieu, geuwat <a data-l10n-name="passwordChangeLink">ganti kecap sandi anjeun</a>.
 automated-email-support = PIkeun leuwih teleb, buka <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Upama anjeun teu migawé ieu, geuwat ganti kecap sandi anjeun:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Pikeun leuwih teleb, buka Pangrojong { -brand-mozilla }:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Pikeun leuwih teleb, buka <a data-l10n-name="supportLink">Pangrojong { -brand-mozilla }</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ieu surél otomatis; upama anjeun henteu nyatujuan, mangga ganti kecap konci anjeun:
 automated-email-reset =
@@ -102,6 +109,7 @@ cancellationSurvey-plaintext = Nyungkeun kamandangna ku cara ngeusian surpéy po
 change-password-plaintext = Mun sangkaan anjeun batur aya nu nyoba ngaksés ka akun anjeun, geura robah sandi anjeun.
 manage-account = Kokolakeun akun
 manage-account-plaintext = { manage-account }:
+payment-details = Wincikan babayar:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Nomer Paktur: { $invoiceNumber }
@@ -111,6 +119,22 @@ payment-plan-next-invoice = Paktur salajengna: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Cara Mayar:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Nomer Paktur: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Nomer Paktur: { $invoiceNumber }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Diskon: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Diskon sakalieun: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = Diskon { $discountDuration }-bulan: -{ $invoiceDiscountAmount }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Patalekan ngeunaan pendaptaran anjeun? Tim pangdeudeul kami siap ngabantu:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -136,6 +160,8 @@ downloadSubscription-subject = Wilujeng sumping di { $productName }
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Wilujeng sumping di { $productName }
 downloadSubscription-link-action-2 = Mitembeyan
+fraudulentAccountDeletion-subject = { -product-firefox-account } anjeun geus dihapus
+fraudulentAccountDeletion-title = Akun anjeun dihapus
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Anyar asup ka { $clientName }
