@@ -152,7 +152,7 @@ cs-sign-out-button = Terminar sessão
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Transferido
@@ -185,9 +185,10 @@ drop-down-menu-sign-out-error-2 = Pedimos desculpa, mas ocorreu um problema ao t
 
 flow-container-back = Voltar
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Códigos de recuperação
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Chave de recuperação da conta { -brand-firefox }
 get-data-trio-download =
     .title = Transferir
 get-data-trio-copy =
@@ -228,14 +229,8 @@ modal-cancel-button = Cancelar
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Confirmar o seu e-mail
-mvs-enter-verification-code = Introduzir o seu código de confirmação
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Por favor, introduza o código de confirmação que foi enviado para <email>{ $email }</email> nos próximos 5 minutos.
+mvs-verify-your-email-2 = Confirmar o seu endereço de correio eletrónico
 msv-cancel-button = Cancelar
-msv-submit-button = Confirmar
 
 ## Settings Nav
 
@@ -247,14 +242,8 @@ nav-data-collection = Recolha e utilização de dados
 nav-paid-subs = Subscrições pagas
 nav-email-comm = Comunicações por e-mail
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Houve um problema ao substituir os seus códigos de recuperação
-tfa-replace-code-success =
-    Foram criados novos códigos. Guarde estes códigos 
-    de utilização única num lugar seguro - precisará dos mesmos para aceder à sua conta, caso não
-    tenha o seu dispositivo móvel.
-tfa-replace-code-success-alert-2 = Códigos de recuperação de conta atualizados
 tfa-replace-code-1-2 = Passo 1 de 2
 tfa-replace-code-2-2 = Passo 2 de 2
 
@@ -362,19 +351,15 @@ display-name-success-alert-2 = Nome de apresentação atualizado
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Cancelar
 recovery-key-close-button = Fechar
 recovery-key-continue-button = Continuar
-recovery-key-created = A sua chave de recuperação foi criada. Certifique-se que guardou a chave num local seguro que consiga encontrar com facilidade mais tarde - irá precisar da chave para recuperar o acesso aos seus dados na eventualidade de se esquecer da sua palavra-passe.
 recovery-key-enter-password =
     .label = Inserir palavra-passe
-recovery-key-page-title =
-    .title = Chave de recuperação
 recovery-key-step-1 = Passo 1 de 2
 recovery-key-step-2 = Passo 2 de 2
-recovery-key-success-alert-2 = Chave de recuperação criada
 
 ## Add secondary email page
 
@@ -390,17 +375,9 @@ add-secondary-email-save-button = Guardar
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Passo 2 de 2
-verify-secondary-email-error-2 = Ocorreu um problema ao enviar o código de confirmação
 verify-secondary-email-page-title =
     .title = E-mail secundário
-verify-secondary-email-verification-code =
-    .label = Introduzir o seu código de confirmação
 verify-secondary-email-cancel-button = Cancelar
-verify-secondary-email-verify-button = Verificar
-# This string is an instruction in a form.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Por favor, introduza nos próximos 5 minutos o código de confirmação que foi enviado para <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -422,8 +399,6 @@ tfa-button-cancel = Cancelar
 tfa-button-finish = Concluir
 tfa-incorrect-totp = Código de autenticação de dois passos inválido
 tfa-cannot-retrieve-code = Houve um problema ao obter o seu código.
-tfa-cannot-verify-code-2 = Houve um problema ao confirmar o seu código de recuperação
-tfa-incorrect-recovery-code = Código de recuperação inválido
 tfa-enabled = Autenticação de dois passos ativada
 tfa-scan-this-code = Digitalize este código QR utilizando uma das seguintes <linkExternal>aplicações de autenticação</linkExternal>.
 # This is the image alt text for a QR code.
@@ -441,15 +416,6 @@ tfa-enter-secret-key = Introduza esta chave secreta na sua aplicação de autent
 tfa-enter-totp = Agora introduza o código de segurança da aplicação de autenticação.
 tfa-input-enter-totp =
     .label = Introduzir código de segurança
-tfa-save-these-codes =
-    Guarde estes códigos de utilização única num local seguro para 
-    quando não tiver o seu dispositivo móvel consigo.
-tfa-enter-code-to-confirm =
-    Por favor, introduza agora um dos seus códigos de recuperação para 
-    confirmar que os guardou. Irá precisar de um código se perder o seu dispositivo e quiser
-    aceder à sua conta.
-tfa-enter-recovery-code =
-    .label = Introduza um código de recuperação
 
 ##
 
@@ -498,25 +464,15 @@ row-defaults-action-change = Alterar
 row-defaults-action-disable = Desativar
 row-defaults-status = Nenhum
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Chave de recuperação
 rk-enabled = Ativada
 rk-not-set = Não definida
 rk-action-create = Criar
 rk-action-remove = Remover
-rk-cannot-refresh = Pedimos desculpa, mas ocorreu um problema ao atualizar a chave de recuperação.
 rk-key-removed-2 = Chave de recuperação de conta removida
 rk-cannot-remove-key = Não foi possível remover a sua chave de recuperação de conta.
-rk-refresh-key = Atualizar chave de recuperação
 rk-content-explain = Restaurar os seus dados quando se esquecer da sua palavra-passe.
-rk-content-reset-data = Porque redefinir a minha palavra-passe reinicializa os meus dados?
-rk-cannot-verify-session-3 = Pedimos desculpa, mas ocorreu um problema ao confirmar a sua sessão
-rk-remove-modal-heading = Remover chave de recuperação?
-rk-remove-modal-content =
-    Na eventualidade de redefinir a sua palavra-passe, não conseguirá
-    utilizar a sua chave de recuperação para aceder aos seus dados. Você não pode desfazer esta ação.
-rk-refresh-error = Pedimos desculpa, mas ocorreu um problema ao atualizar a chave de recuperação.
 rk-remove-error-2 = Não foi possível remover a sua chave de recuperação de conta
 
 ## Secondary email sub-section on main Settings page
@@ -524,7 +480,6 @@ rk-remove-error-2 = Não foi possível remover a sua chave de recuperação de c
 se-heading = E-mail secundário
     .header = E-mail secundário
 se-cannot-refresh-email = Pedimos desculpa, mas ocorreu um problema ao atualizar esse e-mail.
-se-cannot-resend-code-2 = Pedimos desculpa, mas ocorreu um problema ao reenviar o código de confirmação
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -535,24 +490,15 @@ se-set-primary-error-2 = Pedimos desculpa, mas ocorreu um problema ao alterar o 
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } eliminado com sucesso
 se-delete-email-error-2 = Pedimos desculpa, mas ocorreu um problema ao eliminar este e-mail
-se-verify-session-2 = Precisa de confirmar a sua sessão atual para realizar esta ação
-se-verify-session-error-2 = Pedimos desculpa, mas ocorreu um problema ao confirmar a sua sessão
 # Button to remove the secondary email
 se-remove-email =
     .title = Remover e-mail
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Atualizar e-mail
-se-unverified = não verificado
-se-resend-code =
-    Verificação necessária. <button>Reenvie o código de verificação</button>
-    se não estiver na sua caixa de entrada ou na pasta de correio não-solicitado.
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
 se-default-content = Aceda à sua conta se não conseguir iniciar sessão no seu e-mail principal.
-se-content-note =
-    Nota: um e-mail secundário não irá restaurar os seus dados - irá 
-    necessitar de uma <a>chave de recuperação</a> para isto.
 # Default value for the secondary email
 se-secondary-email-none = Nenhum
 
@@ -575,14 +521,9 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Impedir que outra pessoa inicie sessão exigindo um
     código único ao qual apenas você tem acesso.
-tfa-row-cannot-verify-session-3 = Pedimos desculpa, mas ocorreu um problema ao confirmar a sua sessão
 tfa-row-disable-modal-heading = Desativar a autenticação de dois passos?
 tfa-row-disable-modal-confirm = Desativar
-tfa-row-disable-modal-explain =
-    Não poderá desfazer esta ação. Também
-    tem a opção de <linkExternal>substituir os seus códigos de recuperação</linkExternal>.
 tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação de dois passos
-tfa-row-change-modal-heading = Alterar códigos de recuperação?
 tfa-row-change-modal-confirm = Alterar
 tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 
@@ -590,7 +531,6 @@ tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 
 auth-error-102 = Conta desconhecida
 auth-error-103 = Palavra-passe incorreta
-auth-error-105 = Código de verificação inválido
 auth-error-110 = Código inválido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -600,8 +540,6 @@ auth-error-110 = Código inválido
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Tentou demasiadas vezes. Tente novamente depois de { $retryAfter }.
-auth-error-138 = Sessão não-confirmada
 auth-error-139 = O e-mail secundário tem de ser diferente do e-mail da sua conta
 auth-error-155 = Código TOTP não encontrado
-auth-error-183 = Código de confirmação inválido ou expirado
 auth-error-1008 = A sua nova palavra-passe tem de ser diferente
