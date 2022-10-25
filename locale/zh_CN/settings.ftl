@@ -104,7 +104,7 @@ cs-logged-out-2 = 已退出 { $service }
 cs-refresh-button =
     .title = 刷新关联服务
 # Link text to a support page on missing or duplicate devices
-cs-missing-device-help = 项目缺失或重复？
+cs-missing-device-help = 有缺失或重复？
 cs-disconnect-sync-heading = 断开同步
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -490,7 +490,6 @@ rk-key-removed-2 = 已移除账户恢复密钥
 rk-cannot-remove-key = 无法删除您的账户恢复密钥。
 rk-refresh-key-1 = 刷新账户恢复密钥
 rk-content-explain = 当您忘记密码时恢复数据。
-rk-content-reset-data = 为什么重置密码时会重置我的数据？
 rk-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 rk-remove-modal-heading-1 = 要移除账户恢复密钥吗？
 rk-remove-modal-content-1 = 一旦重置密码，就无法再使用账户恢复密钥访问您的数据。此操作不可撤销。
