@@ -49,6 +49,9 @@ subplat-explainer-reminder-form = Вы атрымалі гэты ліст, та�
 subplat-explainer-multiple = Вы атрымалі гэты ліст, таму што { $email } звязаны з { -product-firefox-account } і вы падпісаліся на некалькі прадуктаў.
 subplat-explainer-was-deleted = Вы атрымалі гэты ліст, таму што на { $email } быў зарэгістраваны { -product-firefox-account }.
 subplat-manage-account = Кіруйце наладамі { -product-firefox-account }, са сваёй <a data-l10n-name="subplat-account-page">старонкі ўліковага запісу</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Кіруйце наладамі { -product-firefox-account }, наведаўшы старонку свайго ўліковага запісу: { $accountSettingsUrl }
 subplat-terms-policy = Умовы і палітыка адмовы ад паслуг
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Ануляваць падпіску
@@ -101,6 +104,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = Калі вы не змянялі яго, калі ласка, скіньце пароль зараз па спасылцы { $resetLink }
+cancellationSurvey = Калі ласка, дапамажыце нам палепшыць нашы паслугі, прыняўшы ўдзел у гэтым <a data-l10n-name="cancellationSurveyUrl">кароткім апытанні</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Калі ласка, дапамажыце нам палепшыць нашы паслугі, узяўшы ўдзел у гэтым кароткім апытанні:
 change-password-plaintext = Калі вы падазраяце, што хтосьці спрабуе атрымаць доступ да вашага ўліковага запісу, калі ласка, змяніце пароль.
