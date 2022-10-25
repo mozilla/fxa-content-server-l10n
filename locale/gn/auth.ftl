@@ -346,6 +346,7 @@ postRemoveTwoStepAuthentication-not-required-2 = Natekotevẽvéima ayvu rekoros
 postVerify-sub-title-3 = ¡Rovy’aiterei rohecha rehe!
 postVerify-title-2 = ¿Ehechasépa tendayke mokõi mba’e’okápe?
 postVerify-description-2 = ¡Ndahasýi! Emohenda { -brand-firefox } ambue mba’e’okápe ha eñepyrũ tembiapo embojuehe hag̃ua. ¡Ha’ete hasy’ỹva!
+postVerify-sub-description = (Psst… he’ise avei erekokuaaha techaukaha, ñe’ẽñemi ha ambue mba’ekuaarã { -brand-firefox } guive emoñepyrũhápe tembiapo).
 postVerify-subject-3 = Eg̃uahẽporã { -brand-firefox }-pe
 postVerify-setup-2 = Embojuaju ambue mba’e’oka:
 postVerify-action-2 = Embojuaju ambue mba’e’oka
@@ -357,6 +358,9 @@ postVerifySecondary-content-2 = Emoneĩ hekopete { $secondaryEmail } ñanduti ve
 postVerifySecondary-action = Mba’ete ñangareko
 recovery-subject = Embojevyjey ne ñe’ẽñemi
 recovery-title-2 = ¿Nderesarái ñe’ẽñemígui?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Og̃uahẽ oréve jerure ñe’ẽñemi moambuerã nde { -product-firefox-account }-pe:
 recovery-action = Emoheñói ñe’ẽñemi pyahu
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
