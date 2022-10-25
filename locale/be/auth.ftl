@@ -88,6 +88,7 @@ ios-download-plaintext = Спампуйце { $productName } з App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Усталюйце { $productName } на іншую прыладу:
+automated-email-change-2 = Калі вы гэтага не рабілі, неадкладна <a data-l10n-name="passwordChangeLink">змяніце свой пароль</a>.
 automated-email-support = Для атрымання дадатковай інфармацыі наведайце <a data-l10n-name="supportLink">падтрымку { -brand-mozilla }</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Калі вы не рабілі гэтага дзеяння, неадкладна змяніце пароль:
@@ -160,6 +161,7 @@ subscriptionFirstInvoice-content-charge = Спагнана { $invoiceTotal } { $
 subscriptionSupport = Пытанні наконт вашай падпіскі? Наша <a data-l10n-name="subscriptionSupportUrl">служба падтрымкі</a> тут, каб дапамагчы вам.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:
+subscriptionUpdateBillingEnsure = Вы можаце праверыць актуальнасць вашага спосабу аплаты і інфармацыі ўліковага запісу <a data-l10n-name="updateBillingUrl">тут</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Вы можаце праверыць актуальнасць вашага спосабу аплаты і даных уліковага запісу тут:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -337,6 +339,11 @@ postVerifySecondary-title = Дададзены другі адрас эл.пош
 postVerifySecondary-action = Кіраванне ўліковым запісам
 recovery-subject = Скінуць пароль
 recovery-title-2 = Забылі свой пароль?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Мы атрымалі запыт на змену пароля для вашага { -product-firefox-account } ад:
+recovery-new-password-button = Стварыце новы пароль, націснуўшы кнопку ніжэй. Тэрмін дзеяння гэтай спасылкі скончыцца на працягу наступнай гадзіны.
+recovery-copy-paste = Стварыце новы пароль, скапіраваўшы і ўставіўшы прыведзены ніжэй URL-адрас у свой браўзер. Тэрмін дзеяння гэтай спасылкі скончыцца на працягу наступнай гадзіны.
 recovery-action = Стварыць новы пароль
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
