@@ -330,6 +330,7 @@ postRemoveAccountRecovery-title-2 = Embogue pe mba’eñemi jeguerujeyrã ne mba
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Ñemboguepyre:
 postRemoveAccountRecovery-action = Mba’ete ñangareko
+postRemoveAccountRecovery-invalid-2 = Eikotevẽ ayvu mba’ete jeguerujeyrã erekojey hag̃ua mba’ekuaarã { -brand-firefox } guive nderesaáirõ ñe’ẽñemígui.
 postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
 # Variables:
@@ -341,6 +342,7 @@ postRemoveTwoStepAuthentication-title-2 = Oñembogue ñemoneĩ mokõi jeygua
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Oñembojuruja upe guive:
 postRemoveTwoStepAuthentication-action = Mba’ete ñangareko
+postRemoveTwoStepAuthentication-not-required-2 = Natekotevẽvéima ayvu rekorosãrã tembipuru’i emoñepyrũnguévo tembiapo.
 postVerify-sub-title-3 = ¡Rovy’aiterei rohecha rehe!
 postVerify-title-2 = ¿Ehechasépa tendayke mokõi mba’e’okápe?
 postVerify-description-2 = ¡Ndahasýi! Emohenda { -brand-firefox } ambue mba’e’okápe ha eñepyrũ tembiapo embojuehe hag̃ua. ¡Ha’ete hasy’ỹva!
