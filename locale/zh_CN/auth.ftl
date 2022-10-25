@@ -95,7 +95,7 @@ automated-email-change-plaintext-2 = 如非本人操作，请立即更改密码�
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = 如需了解更多信息，请访问 { -brand-mozilla } 支持：
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-automated-email-no-action = { automated-email-no-action-plaintext } 获取更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } Mozilla 用户支持</a>。
+automated-email-no-action = { automated-email-no-action-plaintext } 获取更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 用户支持</a>。
 automated-email-no-action-plaintext = 这是一封自动发送的电子邮件。如果您错误地收到它，您无需执行任何操作。
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = 这是一封自动发送的邮件。若您并未授权此操作，请立即更改密码。
@@ -175,7 +175,7 @@ subscriptionUpdatePayment = 为避免服务中断，请您及时<a data-l10n-nam
 subscriptionUpdatePayment-plaintext = 为避免服务中断，请您及时更新付款信息：
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = 获取更多信息，请访问 { -brand-mozilla } Mozilla 用户支持：{ $supportUrl }。
+support-message-2 = 获取更多信息，请访问 { -brand-mozilla } 用户支持：{ $supportUrl }。
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -257,7 +257,7 @@ lowRecoveryCodes-subject-2 =
 newDeviceLogin-subject = { $clientName } 有新的登录活动
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title-2 = 您的 { -product-firefox-account } 已用于登录
+newDeviceLogin-title-2 = 您的 { -product-firefox-account }已用于登录
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = 不是您本人操作？<a data-l10n-name="passwordChangeLink">请更改您的密码</a>。
