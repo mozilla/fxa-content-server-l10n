@@ -304,6 +304,7 @@ postAddTwoStepAuthentication-title-2 = Embojuruja ñemoneĩ mokõi jeku’egua
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Embojuruja upe guive:
 postAddTwoStepAuthentication-action = Mba’ete ñangareko
+postAddTwoStepAuthentication-code-required-2 = Ko’ág̃a guive ojejeruréta ne rembipuru’i ayvu rekorosã ñemoneĩrã eñepyrũjeývo tembiapo.
 postChangePrimary-subject = Ñanduti veve tuichavéva hekopyahúva
 postChangePrimary-title = Ñandutiveve pyahu mba’eguasuvéva
 # Variables:
