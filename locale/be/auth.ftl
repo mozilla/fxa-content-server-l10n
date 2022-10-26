@@ -517,6 +517,9 @@ verifyPrimary-post-verify-2 = Пасля пацверджання з гэтай
 verifySecondaryCode-subject = Пацвердзіце альтэрнатыўную электронную пошту
 verifySecondaryCode-title-2 = Пацвердзіце альтэрнатыўную электронную пошту
 verifySecondaryCode-action-2 = Пацвердзіце электронную пошту
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Запыт на выкарыстанне { $email } у якасці другога адрасу электроннай пошты быў зроблены з наступнага { -product-firefox-account }:
 verifySecondaryCode-prompt-2 = Выкарыстайце гэты код пацверджання:
 verifySecondaryCode-expiry-notice-2 = Яго тэрмін дзеяння мінае праз 5 хвілін. Пасля пацверджання, гэты адрас пачне атрымліваць абвесткі бяспекі і пацвярджэнні.
 # Variables:
