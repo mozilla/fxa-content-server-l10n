@@ -236,6 +236,8 @@ fraudulentAccountDeletion-contact = ご不明な点がある場合、<a data-l10
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = ご不明な点がある場合、サポートチームまでお問い合わせください: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = バックアップ認証コードが足りません！
 codes-reminder-title-one = バックアップ認証コードが残り 1 つになりました
 codes-reminder-title-two = バックアップ認証コードをもっと生成しましょう
 codes-reminder-description-part-one = バックアップ認証コードは、パスワードを忘れたときに情報を復元するのに使います。
