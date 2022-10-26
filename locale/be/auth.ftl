@@ -401,6 +401,9 @@ subscriptionDowngrade-subject = Вы перайшлі на { $productName }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Вы паспяхова перайшлі з { $productNameOld } на { $productName }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Калі вам будзе неабходна ўсталяваць новае праграмнае забеспячэнне, каб выкарыстоўваць { $productName }, вы атрымаеце асобны ліст з інструкцыямі па сцягванні.
 subscriptionDowngrade-content-auto-renew = Ваша падпіска будзе аўтаматычна падаўжацца кожны плацежны перыяд, пакуль вы не вырашыце яе адмяніць.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
