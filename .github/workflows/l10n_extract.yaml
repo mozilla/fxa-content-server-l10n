@@ -36,7 +36,7 @@ jobs:
         run: |
           cd fxa-code
           yarn workspaces focus fxa-content-server fxa-auth-server fxa-payments-server fxa-settings
-          yarn workspace fxa-settings build
+          yarn workspace fxa-settings grunt merge-ftl
           yarn workspace fxa-auth-server grunt merge-ftl
 
           NODE_ENV=development ../fxa-l10n/scripts/extract_strings.sh \
