@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-16 16:43+0000\n"
-"Last-Translator: hokonch <preacca@protonmail.ch>\n"
+"PO-Revision-Date: 2022-10-20 18:14+0000\n"
+"Last-Translator: tori4649 <torisan4649@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -484,7 +484,7 @@ msgstr "アカウントの回復用キーが見つかりませんでした"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "無効なアカウント回復用キー"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -597,7 +597,7 @@ msgstr "正しい URL を入力してください"
 
 #: .es5/lib/auth-errors.js:392
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "確認メールが宛先不明で戻ってきました。アドレスを間違えていませんか？"
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -903,7 +903,7 @@ msgstr "アカウント回復用キーでパスワードをリセット"
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/confirm_password.mustache:2
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:2 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)s の利用を続ける"
+msgstr "%(serviceName)s へ進む"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
@@ -920,11 +920,11 @@ msgstr "アカウント回復用キーを入力してください"
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm account recovery key"
-msgstr ""
+msgstr "アカウント回復用キーを再入力"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "アカウント回復用キーを持っていませんか？"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -971,7 +971,7 @@ msgstr "<span>注意:</span> パスワードをリセットすると、アカウ
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "回復用キーを使ったアカウントの回復に成功しました。データを守るために新しいパスワードを作成し、それを安全な場所に保管してください。"
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -995,11 +995,11 @@ msgstr "ログインは既に確認されています"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "確認リンクの有効期限が切れています"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "クリックされたメールアドレス確認リンクの有効期限が切れています。"
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
@@ -1183,7 +1183,7 @@ msgstr "ログインまたはアカウント登録"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Firefox アカウントは、プライバシーが守られた他の Mozilla の製品にもアクセスできます。"
+msgstr "Firefox アカウントを使用すると、さらにプライバシーを保護する他の Mozilla 製品にもアクセスできます。"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1479,7 +1479,7 @@ msgstr "認証コードを入力"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "パスワードを設定"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1669,7 +1669,7 @@ msgstr "パスワードを変更してください"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr "%(serviceName)s の利用を続ける"
+msgstr "%(serviceName)s へ進む"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
@@ -1723,7 +1723,7 @@ msgstr "Firefox アカウントの作成"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr "%(productName)s の利用を続ける"
+msgstr "%(productName)s へ進む"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
@@ -1864,7 +1864,7 @@ msgstr "あなたの年齢は何歳ですか？"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "この質問の理由"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"

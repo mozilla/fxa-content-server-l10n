@@ -236,6 +236,12 @@ fraudulentAccountDeletion-contact = ご不明な点がある場合、<a data-l10
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = ご不明な点がある場合、サポートチームまでお問い合わせください: { $mozillaSupportUrl }
+codes-reminder-title-one = バックアップ認証コードが残り 1 つになりました
+codes-reminder-title-two = バックアップ認証コードをもっと生成しましょう
+codes-reminder-description-part-one = バックアップ認証コードは、パスワードを忘れたときに情報を復元するのに使います。
+codes-reminder-description-part-two = 後でデータを失わないように、今すぐに新しいコードを生成しましょう。
+codes-reminder-description-two-left = コードは残り 2 つです。
+codes-reminder-description-create-codes = アカウントへのアクセスがロックアウトされた場合に再度アクセスできるようにするため、新しいバックアップ認証コードを生成しましょう。
 lowRecoveryCodes-action-2 = コードを生成する
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
@@ -276,6 +282,9 @@ passwordResetAccountRecovery-title-2 = パスワードのリセットが完了�
 passwordResetAccountRecovery-description-2 = 次の端末でアカウント回復用キーを使用してパスワードを更新しました:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = 新しいアカウント回復用キーを生成する
+passwordResetAccountRecovery-regen-required-mjml-1 = 同期されたすべての端末で再度ログインする必要があります。アカウント回復用キーが使用済みになるため、必ず新しいアカウント回復用キーを生成してください。
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = 同期されたすべての端末で再度ログインする必要があります。アカウント回復用キーが使用済みになるため、必ず新しいアカウント回復用キーを生成してください:
 postAddAccountRecovery-subject-2 = アカウント回復用キーが生成されました
 postAddAccountRecovery-title2 = 新しいアカウント回復用キーを生成しました
 # Information on the browser and device triggering this string follows.
