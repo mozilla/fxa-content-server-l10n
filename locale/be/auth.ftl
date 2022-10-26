@@ -303,6 +303,9 @@ postAddTwoStepAuthentication-action = Кіраванне ўліковым зап
 postAddTwoStepAuthentication-code-required-2 = Цяпер пры кожным уваходзе неабходна ўводзіць коды бяспекі з вашай праграмы аўтэнтыфікацыі.
 postChangePrimary-subject = Асноўны адрас эл.пошты зменены
 postChangePrimary-title = Новы асноўны адрас эл.пошты
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Вы паспяхова змянілі свой асноўны адрас электроннай пошты на { $email }. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс { -product-firefox-account }, а таксама для атрымання абвестак бяспекі
 postChangePrimary-action = Кіраванне ўліковым запісам
 postConsumeRecoveryCode-title-2 = Вы выкарысталі рэзервовы код аўтэнтыфікацыі
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -327,6 +330,9 @@ postRemoveAccountRecovery-action = Кіраванне ўліковым запі�
 postRemoveAccountRecovery-invalid-2 = Вам патрэбен ключ аднаўлення ўліковага запісу, каб аднавіць даныя { -brand-firefox }, калі вы забудзецеся свой пароль.
 postRemoveSecondary-subject = Другі адрас эл.пошты выдалены
 postRemoveSecondary-title = Другі адрас эл.пошты выдалены
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Вы паспяхова выдалілі другі адрас { $secondaryEmail } з вашага ўліковага запісу { -product-firefox-account }. Абвесткі бяспекі і пацвярджэнні ўваходу больш на гэты адрас дасылацца не будуць.
 postRemoveSecondary-action = Кіраванне ўліковым запісам
 postRemoveTwoStepAuthentication-subject-line-2 = Двухэтапная аўтарызацыя выключана
 postRemoveTwoStepAuthentication-title-2 = Вы адключылі двухэтапную аўтэнтыфікацыю
@@ -343,6 +349,9 @@ postVerify-setup-2 = Злучыць іншую прыладу:
 postVerify-action-2 = Злучыць іншую прыладу
 postVerifySecondary-subject = Дададзены другі адрас эл.пошты
 postVerifySecondary-title = Дададзены другі адрас эл.пошты
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Вы паспяхова пацвердзілі другі адрас { $secondaryEmail } для вашага ўліковага запісу { -product-firefox-account }. Абвесткі бяспекі і пацвярджэнні ўваходу цяпер будуць дасылацца на абодва адрасы электроннай пошты.
 postVerifySecondary-action = Кіраванне ўліковым запісам
 recovery-subject = Скінуць пароль
 recovery-title-2 = Забылі свой пароль?
@@ -356,6 +365,11 @@ recovery-action = Стварыць новы пароль
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Ваша падпіска на { $productName } была скасавана
 subscriptionAccountDeletion-title = Шкада, што вы сыходзіце
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Вы нядаўняе выдалілі свой { -product-firefox-account }. У выніку, мы скасавалі вашу падпіску на { $productName }. Ваш апошні плацёж ў памеры { $invoiceTotal } быў здзейснены { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Вітаем у { $productName }: Калі ласка, усталюйце пароль.
@@ -366,11 +380,13 @@ subscriptionAccountFinishSetup-content-create-2 = Далей вы створыц
 subscriptionAccountFinishSetup-action-2 = Пачаць
 subscriptionAccountReminderFirst-subject = Напамін: Скончыце наладку вашага ўліковага запісу
 subscriptionAccountReminderFirst-title = Вы пакуль не можаце атрымаць доступ да сваёй падпіскі
+subscriptionAccountReminderFirst-content-info-2 = Некалькі дзён таму вы стварылі { -product-firefox-account }, але гэтак і не пацвердзілі яго. Мы спадзяемся, што вы скончыце наладу свайго ўліковага запісу, каб мець магчымасць карыстацца новай падпіскай.
 subscriptionAccountReminderFirst-content-select-2 = Выберыце «Стварыць пароль», каб усталяваць новы пароль і скончыць пацвярджэнне ўліковага запісу.
 subscriptionAccountReminderFirst-action = Стварыць пароль
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Апошні напамін: Наладзьце свой уліковы запіс
 subscriptionAccountReminderSecond-title = Вітаем у { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info-2 = Некалькі дзён таму вы стварылі { -product-firefox-account }, але гэтак і не пацвердзілі яго. Мы спадзяемся, што вы скончыце наладу свайго ўліковага запісу, каб мець магчымасць карыстацца новай падпіскай.
 subscriptionAccountReminderSecond-content-select-2 = Выберыце «Стварыць пароль», каб усталяваць новы пароль і скончыць пацвярджэнне ўліковага запісу.
 subscriptionAccountReminderSecond-action = Стварыць пароль
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
