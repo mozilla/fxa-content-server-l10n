@@ -355,6 +355,7 @@ subscriptionAccountFinishSetup-subject = Вітаем у { $productName }: Ка�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Вітаем у { $productName }
+subscriptionAccountFinishSetup-content-create-2 = Далей вы створыце пароль для { -product-firefox-account }, каб пачаць выкарыстоўваць сваю новую падпіску.
 subscriptionAccountFinishSetup-action-2 = Пачаць
 subscriptionAccountReminderFirst-subject = Напамін: Скончыце наладку вашага ўліковага запісу
 subscriptionAccountReminderFirst-title = Вы пакуль не можаце атрымаць доступ да сваёй падпіскі
@@ -388,6 +389,7 @@ subscriptionFirstInvoice-subject = Аплата { $productName } пацверд�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Дзякуй за падпіску на { $productName }
+subscriptionFirstInvoice-content-processing = Ваш плацеж зараз апрацоўваецца і гэта можа заняць да чатырох працоўных дзён.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-content-install-2 = Вы атрымаеце асобны электронны ліст аб тым, як пачаць выкарыстоўваць { $productName }.
@@ -406,6 +408,7 @@ subscriptionPaymentFailed-title = На жаль, у нас узнікла пра
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = У нас узніклі праблемы з вашым апошнім плацяжом за { $productName }.
+subscriptionPaymentFailed-content-outdated = Магчыма, тэрмін дзеяння вашай крэдытнай карты скончыўся або ваш бягучы спосаб аплаты састарэў.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Неабходна абнавіць плацежную інфармацыю для { $productName }
@@ -413,6 +416,7 @@ subscriptionPaymentProviderCancelled-title = На жаль, у нас узнік
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Мы выявілі праблему з вашым спосабам аплаты для { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Магчыма, тэрмін дзеяння вашай крэдытнай карты скончыўся або ваш бягучы спосаб аплаты састарэў.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Падпіска на { $productName } адноўлена
@@ -432,8 +436,11 @@ subscriptionRenewalReminder-content-closing = З павагай,
 subscriptionRenewalReminder-content-signature = Каманда { $productName }
 subscriptionsPaymentExpired-subject-1 = Тэрмін дзеяння крэдытнай карты для вашых падпісак скончыўся або хутка скончыцца
 subscriptionsPaymentExpired-title-1 = Тэрмін дзеяння вашай крэдытнай карты скончыўся або хутка скончыцца
+subscriptionsPaymentExpired-content-1 = Тэрмін дзеяння крэдытнай карты, якую вы выкарыстоўваеце для аплаты наступных падпісак, скончыўся або хутка скончыцца.
 subscriptionsPaymentProviderCancelled-subject = Неабходна абнавіць плацежную інфармацыю для падпісак { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = На жаль, у нас узніклі праблемы з вашым спосабам аплаты
+subscriptionsPaymentProviderCancelled-content-detected = Мы выявілі праблему з вашым спосабам аплаты для наступных падпісак.
+subscriptionsPaymentProviderCancelled-content-payment = Магчыма, тэрмін дзеяння вашай крэдытнай карты скончыўся або ваш бягучы спосаб аплаты састарэў.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Плацеж { $productName } атрыманы
@@ -452,6 +459,7 @@ subscriptionUpgrade-title = Дзякуй за абнаўленне!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Вы паспяхова перайшлі з { $productNameOld } на { $productName }.
+subscriptionUpgrade-auto-renew = Ваша падпіска будзе аўтаматычна падаўжацца кожны плацежны перыяд, пакуль вы не вырашыце яе адмяніць.
 unblockCode-subject = Код аўтарызацыі ўліковага запісу
 unblockCode-title = Гэта вы ўваходзіце?
 unblockCode-prompt = Калі так, вось код аўтарызацыі, які вам патрэбен:
