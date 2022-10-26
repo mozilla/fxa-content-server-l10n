@@ -152,6 +152,9 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = 今回のみの割�
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } か月間の割引: -{ $invoiceDiscountAmount }
 # Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = 税金と手数料: { $invoiceTaxAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = { $invoiceDateOnly } に { $invoiceTotal } の請求があります
@@ -320,6 +323,7 @@ postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
        *[other] 残りバックアップ認証コードは { $numberRemaining } 個です
     }
+postNewRecoveryCodes-subject-2 = 新しいバックアップ認証コードが生成されました
 postNewRecoveryCodes-title-2 = 新しいバックアップ認証コードを生成しました
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = 次の端末で生成されました:
