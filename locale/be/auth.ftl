@@ -406,7 +406,13 @@ subscriptionPaymentFailed-title = На жаль, у нас узнікла пра
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = У нас узніклі праблемы з вашым апошнім плацяжом за { $productName }.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Неабходна абнавіць плацежную інфармацыю для { $productName }
 subscriptionPaymentProviderCancelled-title = На жаль, у нас узніклі праблемы з вашым спосабам аплаты
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Мы выявілі праблему з вашым спосабам аплаты для { $productName }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Падпіска на { $productName } адноўлена
@@ -426,6 +432,7 @@ subscriptionRenewalReminder-content-closing = З павагай,
 subscriptionRenewalReminder-content-signature = Каманда { $productName }
 subscriptionsPaymentExpired-subject-1 = Тэрмін дзеяння крэдытнай карты для вашых падпісак скончыўся або хутка скончыцца
 subscriptionsPaymentExpired-title-1 = Тэрмін дзеяння вашай крэдытнай карты скончыўся або хутка скончыцца
+subscriptionsPaymentProviderCancelled-subject = Неабходна абнавіць плацежную інфармацыю для падпісак { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = На жаль, у нас узніклі праблемы з вашым спосабам аплаты
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
