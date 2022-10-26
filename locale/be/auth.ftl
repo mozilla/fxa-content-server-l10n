@@ -161,11 +161,14 @@ subscriptionFirstInvoice-content-charge = Спагнана { $invoiceTotal } { $
 subscriptionSupport = Пытанні наконт вашай падпіскі? Наша <a data-l10n-name="subscriptionSupportUrl">служба падтрымкі</a> тут, каб дапамагчы вам.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Дзякуй за падпіску на { $productName }. Калі ў вас ёсць якія-небудзь пытанні аб вашай падпісцы або патрэбна дадатковая інфармацыя аб { $productName }, калі ласка, звяжыцеся з намі:
 subscriptionUpdateBillingEnsure = Вы можаце праверыць актуальнасць вашага спосабу аплаты і інфармацыі ўліковага запісу <a data-l10n-name="updateBillingUrl">тут</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Вы можаце праверыць актуальнасць вашага спосабу аплаты і даных уліковага запісу тут:
+subscriptionUpdatePayment = Каб прадухіліць перарыванні ў рабоце вашай службы, <a data-l10n-name="updateBillingUrl">абнавіце сваю плацежную інфармацыю</a> як мага хутчэй:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
-subscriptionUpdatePayment-plaintext = Каб пазбегнуць перарыванняў у рабоце вашай службы, абнавіце сваю плацежную інфармацыю як мага хутчэй:
+subscriptionUpdatePayment-plaintext = Каб прадухіліць перарыванні ў рабоце вашай службы, абнавіце сваю плацежную інфармацыю як мага хутчэй:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = Для атрымання дадатковай інфармацыі наведайце старонку падтрымкі { -brand-mozilla }: { $supportUrl }.
@@ -264,6 +267,7 @@ passwordChangeRequired-subject = Выяўлена падазроная акты�
 passwordChangeRequired-title = Патрабуецца змена пароля
 passwordChangeRequired-signoff = Усяго найлепшага,
 passwordChangeRequired-signoff-name = Каманда { -product-firefox-accounts }
+passwordChangeRequired-different-password-plaintext = Важна: Выберыце пароль адрозны ад выкарыстаных раней і пераканайцеся, што ён адрозніваецца ад пароля для вашага ўліковага запісу электроннай пошты.
 passwordReset-subject = Пароль абноўлены
 passwordReset-title = Пароль вашага ўліковага запісу быў зменены
 passwordReset-description = Трэ будзе ўвесці новы пароль на іншых прыладах, каб узнавіць сінхранізацыю.
@@ -401,6 +405,9 @@ subscriptionFirstInvoice-content-next-invoice = Наступны рахунак-
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-1 = Тэрмін дзеяння крэдытнай карты для { $productName } скончыўся або хутка скончыцца
 subscriptionPaymentExpired-title-1 = Тэрмін дзеяння вашай крэдытнай карты скончыўся або хутка скончыцца
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = Тэрмін дзеяння крэдытнай карты, якую вы выкарыстоўваеце для { $productName }, скончыўся або хутка скончыцца.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Не атрымалася аплаціць { $productName }
