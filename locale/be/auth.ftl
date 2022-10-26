@@ -278,6 +278,8 @@ passwordResetAccountRecovery-title-2 = Пароль паспяхова скін�
 passwordResetAccountRecovery-description-2 = Вы выкарысталі ключ аднаўлення ўліковага запісу, каб абнавіць свой пароль з:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Стварыць новы ключ аднаўлення ўліковага запісу
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Вам трэба будзе зноў увайсці ў сістэму на ўсіх вашых сінхранізаваных прыладах. Не забудзьцеся стварыць новы ключ аднаўлення ўліковага запісу, каб замяніць той, які вы скарысталі:
 postAddAccountRecovery-subject-2 = Ключ аднаўлення ўліковага запісу створаны
 postAddAccountRecovery-title2 = Вы стварылі новы ключ аднаўлення ўліковага запісу
 # Information on the browser and device triggering this string follows.
