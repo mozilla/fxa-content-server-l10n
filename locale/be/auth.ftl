@@ -166,6 +166,8 @@ subscriptionSupportContact-plaintext = Дзякуй за падпіску на {
 subscriptionUpdateBillingEnsure = Вы можаце праверыць актуальнасць вашага спосабу аплаты і інфармацыі ўліковага запісу <a data-l10n-name="updateBillingUrl">тут</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Вы можаце праверыць актуальнасць вашага спосабу аплаты і даных уліковага запісу тут:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Мы паспрабуем здзейсніць ваш плацеж зноў на працягу наступных некалькіх дзён, але вам, магчыма, давядзецца дапамагчы нам выправіць гэта, абнавіўшы вашу плацежную інфармацыю:
 subscriptionUpdatePayment = Каб прадухіліць перарыванні ў рабоце вашай службы, <a data-l10n-name="updateBillingUrl">абнавіце сваю плацежную інфармацыю</a> як мага хутчэй:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Каб прадухіліць перарыванні ў рабоце вашай службы, абнавіце сваю плацежную інфармацыю як мага хутчэй:
