@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-03-25 00:27+0000\n"
-"Last-Translator: Bund10z <abu.avila@gmail.com>\n"
+"PO-Revision-Date: 2022-10-24 18:33+0000\n"
+"Last-Translator: Bryan Olsson <bolsson@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgstr "Ya puedes hacer cambios en tu cuenta de Firefox."
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Correo electrónico principal confirmado"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -82,7 +82,7 @@ msgstr "Las notificaciones de la cuenta también se enviarán ahora a %(secondar
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Correo electrónico secundario confirmado"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,7 +94,7 @@ msgstr "Ya tienes todo listo para usar %(serviceName)s"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Cuenta confirmada"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -187,7 +187,7 @@ msgstr "Mostrar contraseña"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Códigos de autenticación de respaldo de Firefox"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -195,7 +195,7 @@ msgstr "Autenticación en dos pasos activada"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Clave de recuperación de la cuenta de Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -219,7 +219,7 @@ msgstr "Imprimido"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Cuenta confirmada correctamente"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
@@ -471,7 +471,7 @@ msgstr "Token TOTP no encontrado"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "Código de autenticación de respaldo no encontrado"
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
@@ -479,11 +479,11 @@ msgstr "Comando de dispositivo no disponible"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Clave de recuperación de cuenta no encontrada"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Clave de recuperación de cuenta no válida"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -519,7 +519,7 @@ msgstr "La actualización fue rechazada, vuelve a intentarlo"
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "Código de confirmación no válido o caducado"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -596,7 +596,7 @@ msgstr "Introduce una URL válida"
 
 #: .es5/lib/auth-errors.js:392
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Se ha devuelto el correo de confirmación. ¿Estaba mal escrito?"
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -676,15 +676,15 @@ msgstr "Código de autenticación en dos pasos incorrecto"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Se requiere un código de autenticación de respaldo"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Código de autenticación de respaldo no válido"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Se requiere clave de recuperación de cuenta"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -839,12 +839,8 @@ msgid "Invalid Token"
 msgstr "Token no válido"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Si continúas, aceptas los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidad</a> de %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Si continúas, aceptas los <a id=\"service-tos\" href=\"%(termsUri)s\">Términos del servicio</a> y el <a id=\"service-pp\" href=\"%(privacyUri)s\">Aviso de privacidad</a> de %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -896,7 +892,7 @@ msgstr "Recibir nuevo enlace"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Restablecer contraseña con clave de recuperación de cuenta"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -909,27 +905,26 @@ msgstr "Continuar en %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Escribe la clave de un solo uso de recuperación de cuenta que guardaste en un lugar seguro para recuperar el acceso a tu cuenta de Firefox."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTA:</span> si reinicias tu contraseña y no tienes guardada la clave de recuperación de la cuenta, algunos de tus datos serán borrados (incluyendo datos sincronizados del "
 "servidor como historial y marcadores)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "Introducir clave de recuperación de cuenta"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm account recovery key"
-msgstr ""
+msgstr "Confirmar clave de recuperación de cuenta"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "¿No tienes una clave de recuperación de cuenta?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -937,7 +932,7 @@ msgstr "No se pudo crear la cuenta"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Debes cumplir unos requisitos de edad para crear una cuenta de&nbsp;Firefox."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -977,7 +972,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Has restaurado correctamente tu cuenta usando tu clave de recuperación de cuenta. Crea una nueva contraseña para asegurar tus datos y guárdala en un lugar seguro."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1001,23 +996,23 @@ msgstr "Inicio de sesión ya confirmado"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Enlace de confirmación expirado"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "El enlace que seleccionaste para confirmar la cuenta ha expirado."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Haz clic aquí para recibir un nuevo enlace de confirmación"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Enlace de confirmación dañado"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Error de confirmación"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1029,7 +1024,7 @@ msgstr "Confirmar este inicio de sesión"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Comprueba en tu correo electrónico el enlace de confirmación enviado&nbsp;a %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1056,15 +1051,15 @@ msgstr "Para crear una nueva contraseña, haz clic en el enlace que se envió a 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Introduce el código de confirmación"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "for your Firefox account"
-msgstr ""
+msgstr "para tu cuenta de Firefox"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Introduce en menos de 5 minutos el código que fue enviado a %(escapedEmail)s."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1078,11 +1073,11 @@ msgstr "Confirmar"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "¿Código caducado?"
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "Enviar código nuevo por correo electrónico."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1090,11 +1085,11 @@ msgstr "Conectar otro dispositivo"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "Has iniciado sesión en Firefox"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "Correo electrónico confirmado"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
 msgid "Complete your set-up"
@@ -1114,11 +1109,11 @@ msgstr "Inicia sesión en Firefox en otro dispositivo para completar la configur
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "¿Quieres tener tus pestañas, marcadores y contraseñas en otro dispositivo?"
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
-msgstr ""
+msgstr "Ahora no"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Still adding devices? Sign in to Firefox on another device to complete set-up"
@@ -1150,15 +1145,17 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Introduce tu contraseña <span class=\"card-subheader\" id=\"subheader\">para tu cuenta de Firefox</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "Contraseña"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Si continúas, estás de acuerdo con los <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Términos del servicio</a> y el <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Aviso de privacidad</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1170,11 +1167,11 @@ msgstr "¿Has olvidado la contraseña?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
-msgstr ""
+msgstr "Continuar a cuentas de Firefox"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Sincroniza tus contraseñas, pestañas y marcadores donde sea que uses Firefox."
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
@@ -1186,15 +1183,15 @@ msgstr "Continuar a <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Regístrate o inicia sesión"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Una cuenta de Firefox también desbloquea el acceso a más productos de protección de privacidad de Mozilla."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "Guardar códigos de autenticación de respaldo"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1225,15 +1222,15 @@ msgstr "Cancelar configuración"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Confirmar código de autenticación de respaldo"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Para asegurarte de poder recuperar el acceso a tu cuenta si pierdes un dispositivo, introduce uno de los códigos de autenticación de respaldo."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Código de autenticación de respaldo"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1343,7 +1340,7 @@ msgstr "¡Tu cuenta está lista!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Generar una nueva clave de recuperación de cuenta"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1391,7 +1388,7 @@ msgstr "Nombre del evento"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Confirmado"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1425,23 +1422,27 @@ msgstr "¿Ese correo electrónico ya no es tuyo? Crea una cuenta nueva"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"              Al continuar, aceptas:<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Términos de servicio</a> y <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">nota de privacidad</a> de Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Términos de servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">nota de privacidad</a> de Firefox\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Introduce el código de autenticación de respaldo"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Por favor, introduce un código de autenticación de respaldo que se te proporcionó durante la configuración de la autenticación de dos pasos."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Introduce un código de autenticación de respaldo de 10 dígitos"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1457,11 +1458,11 @@ msgstr "Se ha notificado a nuestro equipo. Informes como este nos permiten mante
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Introduce el código de confirmación <span class=\"card-subheader\">para tu cuenta de Firefox</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Introduce en menos de 5 minutos el código que fue enviado a %(email)s."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1489,7 +1490,7 @@ msgstr "Introducir código de autorización"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Establece tu contraseña"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1502,6 +1503,7 @@ msgstr "Repetir contraseña"
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
+"Necesitas esta contraseña para acceder a cualquier dato cifrado que almacenes con nosotros.<br class=\"mb-3\">Un restablecimiento podría provocar la pérdida de datos, como contraseñas y marcadores."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1519,11 +1521,15 @@ msgstr "Crear cuenta"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"              Al continuar, aceptas:<br />\n"
+"              <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Términos de servicio</a> y <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">nota de privacidad</a> de Pocket<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Términos de servicio</a> y <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">nota de privacidad</a> de Firefox\n"
+"            "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1603,7 +1609,7 @@ msgstr "Paso 1 de 2: reintroducir contraseña"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Introduce tu contraseña para ver tu clave de recuperación de cuenta."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1664,7 +1670,7 @@ msgstr "Quizás más tarde"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Por favor, escribe en menos de 5 minutos el código de confirmación que fue enviado a %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1686,8 +1692,8 @@ msgstr "para continuar en %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
 msgstr ""
-"Detectamos un comportamiento sospechoso en tu cuenta de Firefox. Para proteger tu cuenta, crea una nueva contraseña. Utilizarás esta contraseña para volver a iniciar sesión en todos los servicios "
-"de tu cuenta de Firefox."
+"Detectamos un comportamiento sospechoso en tu cuenta de Firefox. Para proteger tu cuenta, crea una nueva contraseña. Utilizarás esta contraseña para volver a iniciar sesión en todos los servicios de"
+" tu cuenta de Firefox."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1832,7 +1838,7 @@ msgstr "<span class=\"number\">4</span>Conéctate a tu cuenta"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Protege tus datos con una clave de recuperación de cuenta"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1844,19 +1850,19 @@ msgstr "Debido a que esta información es crítica para tu seguridad, Firefox la
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "Obtener una clave de recuperación de cuenta"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "Por favor, confirma tu contraseña para %(escapedEmail)s para generar tu clave de recuperación de cuenta."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Introduce la clave de recuperación de tu cuenta para confirmar que has guardado una copia."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "Guardar clave de recuperación de cuenta"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -1868,7 +1874,7 @@ msgstr "¿Por qué necesito crear esta cuenta? <a %(escapedSuggestionAttrs)s>Des
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "¿Cuántos años tienes? Para saber por qué preguntamos tu edad, sigue el enlace “por qué preguntamos” a continuación."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1876,7 +1882,7 @@ msgstr "¿Qué edad tienes?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "¿Por qué preguntamos?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1904,23 +1910,23 @@ msgstr "Dirección IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Requisitos de contraseña"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Al menos 8 caracteres"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Diferente a tu dirección de correo electrónico"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Que no sea una contraseña de uso común"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "Mantente a salvo: no reutilices las contraseñas. Consulta más sugerencias para <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">crear contraseñas seguras</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1952,23 +1958,23 @@ msgstr "Continuar con Apple"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "¿Acabas de iniciar sesión en Firefox?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "globo de ubicación"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "Sí, aprobar dispositivo"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "Si no eres tú, <a id=\"change-password\" class=\"link-blue\">cambia tu contraseña</a> "
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1980,14 +1986,17 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Ahora estás sincronizando con: <span>%(deviceFamily)s en %(deviceOS)s</span>\n"
+"     "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Ahora puedes acceder a tus pestañas abiertas, contraseñas y marcadores en todos tus dispositivos."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Ver pestañas de dispositivos sincronizados"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -2007,32 +2016,31 @@ msgstr "Finalizó el proceso de configuración."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "Conectar Firefox en otro dispositivo"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "Sincronizar Firefox en tu teléfono o tableta"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "¿Ya tienes Firefox en un teléfono o tableta?"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "Sincroniza tu dispositivo"
 
 #: .es5/templates/pair/index.mustache:6
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgstr "Escanea para descargar Firefox para móviles, o envíate un <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">enlace de descarga</a>."
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
-msgstr ""
+msgstr "Código QR"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Lleva tus pestañas, marcadores y contraseñas a cualquier lugar donde uses Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2044,7 +2052,7 @@ msgstr "Conexión establecida correctamente."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "Confirma el emparejamiento <span class=\"card-subheader\">para <span class=\"break-all\">%(email)s</span></span>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"

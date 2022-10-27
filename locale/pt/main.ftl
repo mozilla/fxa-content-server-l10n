@@ -136,37 +136,6 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Código postal
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } diariamente</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } dias</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todas as semanas</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todas as { $intervalCount } semanas</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os meses</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } meses</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os anos</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-       *[other] Eu autorizo a { -brand-name-mozilla }, produtora dos produtos { -brand-name-firefox }, a cobrar no meu método de pagamento <strong>{ $amount } todos os { $intervalCount } anos</strong>, de acordo com os <termsOfServiceLink>termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>nota de privacidade</privacyNoticeLink>, até que eu cancele a minha subscrição.
-    }
-payment-confirm = Eu autorizo a Mozilla, criadora dos produtos Firefox, a cobrar o meu método de pagamento <strong>${ $amount } por { $interval }</strong>, de acordo com as condições de pagamento, até eu cancelar a minha subscrição.
-
-##
-
 payment-cancel-btn = Cancelar
 payment-update-btn = Atualizar
 payment-pay-btn = Pagar agora
@@ -315,6 +284,7 @@ sub-item-cancel-confirm =
     Cancelar o meu acesso e a minha informação guardada em
     { $name } em { $period }
 invoice-not-found = Fatura subsequente não encontrada
+sub-item-no-such-subsequent-invoice = Fatura subsequente não encontrada para esta subscrição.
 
 ## Subscription iap item
 
@@ -341,6 +311,8 @@ sub-subscription-error =
     .title = Problema em carregar as subscrições
 sub-customer-error =
     .title = Problema em carregar o cliente
+sub-invoice-error =
+    .title = Problema ao carregar as faturas
 sub-billing-update-success = A sua informação de pagamento foi atualizada com sucesso
 sub-route-payment-modal-heading = Informação de faturação inválida
 sub-route-payment-modal-message = Parece haver um erro com a sua conta { -brand-name-paypal }, precisamos que execute os passos necessários para resolver este problema de pagamento.
@@ -361,16 +333,20 @@ plan-details-header = Detalhes do produto
 plan-details-show-button = Mostrar detalhes
 plan-details-hide-button = Ocultar detalhes
 plan-details-total-label = Total
+plan-details-list-price = Preço de tabela
 
 ## Coupons
 
 coupon-discount = Desconto
+coupon-discount-applied = Prémio de desconto aplicado
 coupon-submit = Aplicar
 coupon-remove = Remover
 coupon-error = O código que inseriu é inválido ou expirou.
+coupon-error-generic = Ocorreu um erro ao processar o código. Por favor, tente novamente.
 coupon-error-expired = O código que introduziu expirou.
 coupon-error-limit-reached = O código que introduziu chegou ao seu limite.
 coupon-error-invalid = O código que introduziu é inválido.
+coupon-success = O seu plano será renovado automaticamente pelo preço de tabela.
 coupon-enter-code =
     .placeholder = Introduzir código
 
@@ -446,9 +422,12 @@ new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail para 
 new-user-email-validate = O e-mail não é válido
 new-user-email-validate-confirm = Os e-mails não coincidem
 new-user-already-has-account-sign-in = Já tem uma conta. <a>Inicie sessão</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = E-mail incorreto? { $domain } não fornece e-mail.
 new-user-card-title = Introduza a informação do seu cartão
 new-user-submit = Subscrever agora
 manage-pocket-title = A procurar pela sua subscrição premium do { -brand-name-pocket }?
+manage-pocket-body-2 = Para gerir o mesmo, <linkExternal>clique aqui</linkExternal>.
 payment-method-header = Escolha o seu método de pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
