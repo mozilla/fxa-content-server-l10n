@@ -2,10 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Alert Bar
-
-alert-bar-close-message = Close message
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -51,6 +47,10 @@ app-footer-privacy-notice = Website Privacy Notice
 app-footer-terms-of-service = Terms of Service
 
 ##
+
+## Alert Bar
+
+alert-bar-close-message = Close message
 
 ## User's avatar
 
