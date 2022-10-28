@@ -53,6 +53,9 @@ fxa-account-signup-error-2 = Bir sistem hatası nedeniyle { $productName } kayd�
 newsletter-signup-error = Ürün güncelleme e-postalarına kayıtlı değilsiniz. Hesap ayarlarınızda tekrar deneyebilirsiniz.
 fxa-post-passwordless-sub-error = Abonelik onaylandı, ancak onay sayfası yüklenemedi. Hesabınızı ayarlamak için lütfen e-postanızı kontrol edin.
 
+## IAP upgrade errors
+
+
 ## Settings
 
 settings-home = Hesap ana sayfası
@@ -321,11 +324,16 @@ plan-details-show-button = Ayrıntıları göster
 plan-details-hide-button = Ayrıntıları gizle
 plan-details-total-label = Toplam
 plan-details-list-price = Liste fiyatı
+plan-details-tax = Vergiler ve ücretler
 
 ## Coupons
 
 coupon-discount = İndirim
 coupon-discount-applied = İndirim uygulandı
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Promosyon kodu
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Promosyon kodu uygulandı
 coupon-submit = Uygula
 coupon-remove = Kaldır
 coupon-error = Girdiğiniz kod geçersiz veya süresi dolmuş.
