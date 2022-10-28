@@ -53,6 +53,12 @@ fxa-account-signup-error-2 = Системна помилка призвела д
 newsletter-signup-error = Ви не підписалися на сповіщення про оновлення продукту. Ви можете спробувати знову зробити це в налаштуваннях облікового запису.
 fxa-post-passwordless-sub-error = Передплату підтверджено, але не вдалося завантажити сторінку підтвердження. Перевірте свою електронну пошту для завершення налаштування облікового запису.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = У вас вже є передплата { $productName } через магазин { -brand-name-google } або { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Наразі не підтримується підвищення рівня для цих передплат, але невдовзі буде така можливість.
+
 ## Settings
 
 settings-home = Головна сторінка облікового запису
