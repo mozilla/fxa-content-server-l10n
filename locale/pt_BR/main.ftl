@@ -53,6 +53,14 @@ fxa-account-signup-error-2 = Um erro de sistema causou falha na sua assinatura d
 newsletter-signup-error = Você não se inscreveu para receber emails de novidades do produto. Pode tentar novamente nas configurações da sua conta.
 fxa-post-passwordless-sub-error = Assinatura confirmada, mas houve falha no carregamento da página de confirmação. Verifique seu email para configurar sua conta.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Você já tem uma assinatura do { $productName } na loja de aplicativos do { -brand-name-google } ou da { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Não oferecemos suporte a mudanças nessas assinaturas, mas faremos isso em breve.
+iap-upgrade-contact-support = Você ainda pode obter este produto. Entre em contato com o suporte para podermos te ajudar.
+iap-upgrade-get-help-button = Obter ajuda
+
 ## Settings
 
 settings-home = Página inicial da conta
@@ -72,6 +80,7 @@ subscription-processing-title = Confirmando assinatura…
 subscription-error-title = Erro ao confirmar assinatura…
 subscription-noplanchange-title = Esta mudança de plano de assinatura não é aceita
 subscription-iapsubscribed-title = Já tem assinatura
+subscription-iaperrorupgrade-title = Ainda não podemos mudar sua assinatura
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -324,11 +333,16 @@ plan-details-show-button = Mostra detalhes
 plan-details-hide-button = Ocultar detalhes
 plan-details-total-label = Total
 plan-details-list-price = Preço de tabela
+plan-details-tax = Impostos e taxas
 
 ## Coupons
 
 coupon-discount = Desconto
 coupon-discount-applied = Recompensa de desconto aplicada
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Código promocional
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Código promocional aplicado
 coupon-submit = Aplicar
 coupon-remove = Remover
 coupon-error = O código inserido é inválido ou expirou.
