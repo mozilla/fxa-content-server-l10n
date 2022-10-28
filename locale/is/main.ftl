@@ -53,6 +53,14 @@ fxa-account-signup-error-2 = Kerfisvilla olli því að skráningin þín fyrir 
 newsletter-signup-error = Þú ert ekki skráður fyrir póstum um uppfærslur á hugbúnaði/þjónustum. Þú getur reynt aftur í stillingum reikningsins þíns.
 fxa-post-passwordless-sub-error = Áskriftin er staðfest, en ekki tókst að hlaða inn staðfestingarsíðunni. Athugaðu tölvupóstinn þinn til að setja upp reikninginn þinn.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Þú ert nú þegar með { $productName }-áskrift í gegnum { -brand-name-google } eða { -brand-name-apple } forritaverslanir.
+iap-upgrade-no-bundle-support = Við styðjum ekki uppfærslur fyrir þessar áskriftir, en munum gera það fljótlega.
+iap-upgrade-contact-support = Þú getur samt fengið þennan hugbúnað - hafðu samband við aðstoðargáttina svo við getum hjálpað þér.
+iap-upgrade-get-help-button = Fá aðstoð
+
 ## Settings
 
 settings-home = Forsíða reiknings
@@ -72,6 +80,7 @@ subscription-processing-title = Staðfesti áskrift…
 subscription-error-title = Villa við að staðfesta áskrift…
 subscription-noplanchange-title = Þessi breyting áskriftarleiða er ekki studd
 subscription-iapsubscribed-title = Nú þegar áskrifandi
+subscription-iaperrorupgrade-title = Við getum ekki ennþá uppfært fyrir þig
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -355,11 +364,16 @@ plan-details-show-button = Sjá nánari upplýsingar
 plan-details-hide-button = Fela ítarupplýsingar
 plan-details-total-label = Samtals
 plan-details-list-price = Listaverð
+plan-details-tax = Skattar og gjöld
 
 ## Coupons
 
 coupon-discount = Afsláttur
 coupon-discount-applied = Afsláttarbónus virkjaður
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Kynningarkóði
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Kynningarkóði notaður
 coupon-submit = Virkja
 coupon-remove = Fjarlægja
 coupon-error = Kóðinn sem þú settir inn er ógildur eða útrunninn.
