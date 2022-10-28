@@ -272,6 +272,7 @@ passwordChanged-title = Пароль паспяхова зменены
 passwordChanged-description = Пароль вашага { -product-firefox-account } быў паспяхова зменены з наступнай прылады:
 passwordChangeRequired-subject = Выяўлена падазроная актыўнасць
 passwordChangeRequired-title = Патрабуецца змена пароля
+passwordChangeRequired-sign-in = Увайдзіце зноў на любой прыладзе або ў службе, дзе вы выкарыстоўваеце свой { -product-firefox-account }, і выканайце крокі, якія будуць вам прапанаваны.
 passwordChangeRequired-different-password = <b>Важна</b>: Выберыце пароль адрозны ад выкарыстаных раней і пераканайцеся, што ён адрозніваецца ад пароля для вашага ўліковага запісу электроннай пошты.
 passwordChangeRequired-signoff = Усяго найлепшага,
 passwordChangeRequired-signoff-name = Каманда { -product-firefox-accounts }
