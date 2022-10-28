@@ -53,6 +53,9 @@ fxa-account-signup-error-2 = Un error del sistema ha provocado que tu registro d
 newsletter-signup-error = No estás registrado para recibir correos de actualización de productos. Puedes volver a intentarlo en la configuración de tu cuenta.
 fxa-post-passwordless-sub-error = Se ha confirmado la suscripción, pero no se ha podido cargar la página de confirmación. Revisa tu correo electrónico para configurar tu cuenta.
 
+## IAP upgrade errors
+
+
 ## Settings
 
 settings-home = Página principal de la cuenta
@@ -136,36 +139,6 @@ payment-cvc =
     .label = CVV
 payment-zip =
     .label = Código postal
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, desarrollador de los productos { -brand-name-firefox }, para que cargue a mi método de pago <strong>{ $amount } por día</strong>, de acuerdo con los <termsOfServiceLink >términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, desarrollador de los productos { -brand-name-firefox }, para que cargue a mi método de pago <strong>{ $amount } cada { $intervalCount } días</strong>, de acuerdo con los <termsOfServiceLink >términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, desarrollador de los productos { -brand-name-firefox }, para que cargue a mi método de pago <strong>{ $amount } por semana</strong>, de acuerdo con los <termsOfServiceLink >términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, desarrollador de los productos { -brand-name-firefox }, para que cargue a mi método de pago <strong>{ $amount } cada { $intervalCount } semanas</strong>, de acuerdo con los <termsOfServiceLink >términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, desarrollador de los productos { -brand-name-firefox }, para que cargue a mi método de pago <strong>{ $amount } por mes</strong>, de acuerdo con los <termsOfServiceLink >términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, desarrollador de los productos { -brand-name-firefox }, para que cargue a mi método de pago <strong>{ $amount } cada { $intervalCount } meses</strong>, de acuerdo con los <termsOfServiceLink >términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Autorizo a { -brand-name-mozilla }, desarrollador de los productos { -brand-name-firefox }, para que cargue a mi método de pago <strong>{ $amount } por año</strong>, de acuerdo con los <termsOfServiceLink >términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
-       *[other] Autorizo a { -brand-name-mozilla }, desarrollador de los productos { -brand-name-firefox }, para que cargue a mi método de pago <strong>{ $amount } cada { $intervalCount } años</strong>, de acuerdo con los <termsOfServiceLink >términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
-    }
-
-##
-
 payment-cancel-btn = Cancelar
 payment-update-btn = Actualizar
 payment-pay-btn = Pagar ahora
@@ -369,6 +342,10 @@ plan-details-list-price = Precio de lista
 
 coupon-discount = Descuento
 coupon-discount-applied = Recompensa de descuento aplicada
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Código promocional
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Código promocional aplicado
 coupon-submit = Aplicar
 coupon-remove = Eliminar
 coupon-error = El código ingresado no es válido o está vencido.

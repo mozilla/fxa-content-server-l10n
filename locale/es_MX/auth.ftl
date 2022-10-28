@@ -570,6 +570,9 @@ verifyLogin-subject-2 = Confirmar inicio de sesión
 verifyLogin-action = Confirmar inicio de sesión
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Aprobar el inicio de sesión en { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = ¿Iniciaste sesión en { $serviceName }?
 verifyLoginCode-expiry-notice = Caduca en 5 minutos.
 verifyPrimary-title-2 = Confirmar correo principal
