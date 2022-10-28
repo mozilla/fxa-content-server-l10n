@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Chiudi messaggio
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -57,6 +53,10 @@ app-footer-terms-of-service = Condizioni di utilizzo del servizio
 
 ##
 
+
+## Alert Bar
+
+alert-bar-close-message = Chiudi messaggio
 
 ## User's avatar
 
@@ -134,7 +134,7 @@ cs-disconnect-sync-opt-not-say = Preferisco non rispondere
 
 ##
 
-cs-disconnect-advice-confirm = Ho capito
+cs-disconnect-advice-confirm = OK
 cs-disconnect-lost-advice-heading = Dispositivo perso o rubato disconnesso
 cs-disconnect-lost-advice-content-2 = Poiché il tuo dispositivo è stato smarrito o rubato, per mantenere le tue informazioni al sicuro è consigliato cambiare la password dell’{ -product-firefox-account } nelle impostazioni. Dovresti anche verificare con il produttore del tuo dispositivo come cancellare i dati da remoto.
 cs-disconnect-suspicious-advice-heading = Dispositivo sospetto disconnesso
@@ -503,7 +503,6 @@ rk-key-removed-2 = Eliminata chiave di recupero account
 rk-cannot-remove-key = Non è possibile rimuovere la chiave di recupero dell’account.
 rk-refresh-key-1 = Aggiorna la chiave di recupero dell’account
 rk-content-explain = Ripristina i dati in caso di password dimenticata.
-rk-content-reset-data = Perché, reimpostando la password, anche i dati vengono ripristinati?
 rk-cannot-verify-session-4 = Si è verificato un problema durante la conferma della sessione
 rk-remove-modal-heading-1 = Rimuovere la chiave di recupero dell’account?
 rk-remove-modal-content-1 = Se decidi di reimpostare la password, non potrai utilizzare la chiave di recupero dell’account per accedere ai tuoi dati. Questa azione è irreversibile.
