@@ -57,6 +57,8 @@ fxa-post-passwordless-sub-error = 订阅已确认，但确认页面加载失败�
 
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed = 您已通过 { -brand-name-google } 或 { -brand-name-apple } 应用商店订阅 { $productName }。
+iap-upgrade-no-bundle-support = 我们暂时无法升级这类方式的订阅，不久后可能会支持。
+iap-upgrade-contact-support = 您仍可获得此产品，请联系用户支持为您提供帮助。
 iap-upgrade-get-help-button = 获取帮助
 
 ## Settings
