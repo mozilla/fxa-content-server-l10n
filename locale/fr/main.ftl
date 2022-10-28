@@ -53,6 +53,10 @@ fxa-account-signup-error-2 = Une erreur système a entraîné l’échec de votr
 newsletter-signup-error = Vous n’avez pas d’abonnement aux notifications par courriel de mise à jour du produit. Vous pouvez réessayer dans les paramètres de votre compte.
 fxa-post-passwordless-sub-error = Votre abonnement est confirmé, mais la page de confirmation n’a pas pu être chargée. Veuillez vérifier votre courrier électronique pour configurer votre compte.
 
+## IAP upgrade errors
+
+iap-upgrade-get-help-button = Obtenir de l’aide
+
 ## Settings
 
 settings-home = Accueil du compte
@@ -327,11 +331,16 @@ plan-details-show-button = Afficher les détails
 plan-details-hide-button = Masquer les détails
 plan-details-total-label = Total
 plan-details-list-price = Liste des prix
+plan-details-tax = Taxes et frais
 
 ## Coupons
 
 coupon-discount = Remise
 coupon-discount-applied = Remise appliquée
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Code promo
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Code promo appliqué
 coupon-submit = Appliquer
 coupon-remove = Supprimer
 coupon-error = Le code que vous avez saisi est invalide ou a expiré.
