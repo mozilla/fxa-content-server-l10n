@@ -161,11 +161,15 @@ subscriptionFirstInvoice-content-charge = Спагнана { $invoiceTotal } { $
 subscriptionSupport = Пытанні наконт вашай падпіскі? Наша <a data-l10n-name="subscriptionSupportUrl">служба падтрымкі</a> тут, каб дапамагчы вам.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Дзякуй за падпіску на { $productName }. Калі ў вас ёсць якія-небудзь пытанні адносна вашай падпісцы або патрэбна дадатковая інфармацыя пра { $productName }, калі ласка, <a data-l10n-name="subscriptionSupportUrl">звяжыцеся з намі</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
-subscriptionSupportContact-plaintext = Дзякуй за падпіску на { $productName }. Калі ў вас ёсць якія-небудзь пытанні аб вашай падпісцы або патрэбна дадатковая інфармацыя аб { $productName }, калі ласка, звяжыцеся з намі:
+subscriptionSupportContact-plaintext = Дзякуй за падпіску на { $productName }. Калі ў вас ёсць якія-небудзь пытанні адносна вашай падпісцы або патрэбна дадатковая інфармацыя пра { $productName }, калі ласка, звяжыцеся з намі:
 subscriptionUpdateBillingEnsure = Вы можаце праверыць актуальнасць вашага спосабу аплаты і інфармацыі ўліковага запісу <a data-l10n-name="updateBillingUrl">тут</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Вы можаце праверыць актуальнасць вашага спосабу аплаты і даных уліковага запісу тут:
+subscriptionUpdateBillingTry = Мы паспрабуем здзейсніць ваш плацеж зноў на працягу наступных некалькіх дзён, але вам, магчыма, давядзецца дапамагчы нам выправіць гэта, <a data-l10n-name="updateBillingUrl">абнавіўшы вашу плацежную інфармацыю</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingTry-plaintext = Мы паспрабуем здзейсніць ваш плацеж зноў на працягу наступных некалькіх дзён, але вам, магчыма, давядзецца дапамагчы нам выправіць гэта, абнавіўшы вашу плацежную інфармацыю:
 subscriptionUpdatePayment = Каб прадухіліць перарыванні ў рабоце вашай службы, <a data-l10n-name="updateBillingUrl">абнавіце сваю плацежную інфармацыю</a> як мага хутчэй:
@@ -212,6 +216,7 @@ cadReminderFirst-action = Сінхранізаваць іншую прыладу
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Для сінхранізацыі патрэбна дзве прылады
+cadReminderFirst-description-1 = Атрымайце доступ да сваіх картак на ўсіх сваіх прыладах. Карыстайцеся сваімі закладкамі, паролямі і іншымі данымі ўсюды, дзе вы карыстаецеся { -brand-firefox }. Гэта магія працуе дзякуючы ўліковаму запісу { -brand-firefox }!
 cadReminderFirst-description-2 = Сінхранізацыя адбываецца імгненна
 cadReminderSecond-subject-2 = Не прапусціце! Давайце скончым наладку сінхранізацыі
 cadReminderSecond-action = Сінхранізаваць іншую прыладу

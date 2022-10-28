@@ -55,6 +55,8 @@ fxa-post-passwordless-sub-error = Падпіска пацверджана, ал�
 
 ## IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = У вас ужо ёсць падпіска на { $productName } праз краму { -brand-name-google } або { -brand-name-apple }.
 iap-upgrade-no-bundle-support = Мы не падтрымліваем абнаўленні для гэтых падпісак, але ў бліжэйшы час будзем.
 iap-upgrade-contact-support = Вы ўсё яшчэ можаце атрымаць гэты прадукт — звярніцеся ў службу падтрымкі, каб мы маглі вам дапамагчы.
 iap-upgrade-get-help-button = Атрымаць дапамогу
