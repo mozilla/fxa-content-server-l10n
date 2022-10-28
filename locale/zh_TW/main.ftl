@@ -53,6 +53,10 @@ fxa-account-signup-error-2 = 系統發生錯誤，導致您的 { $productName } 
 newsletter-signup-error = 您並未註冊接收產品更新郵件，可以到帳戶設定頁面中再試一次。
 fxa-post-passwordless-sub-error = 已確認訂閱完成，但無法載入確認頁面。請到您的電子郵件信箱收信，繼續設定帳號。
 
+## IAP upgrade errors
+
+iap-upgrade-get-help-button = 取得幫助
+
 ## Settings
 
 settings-home = 帳號首頁
@@ -72,6 +76,7 @@ subscription-processing-title = 正在確認訂閱…
 subscription-error-title = 確認訂閱時發生錯誤…
 subscription-noplanchange-title = 不支援更改此訂閱方案
 subscription-iapsubscribed-title = 已經訂閱
+subscription-iaperrorupgrade-title = 我們暫時無法為您升級
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -319,11 +324,14 @@ plan-details-show-button = 顯示詳細資訊
 plan-details-hide-button = 隱藏詳細資訊
 plan-details-total-label = 總計
 plan-details-list-price = 原價
+plan-details-tax = 稅費
 
 ## Coupons
 
 coupon-discount = 折扣
 coupon-discount-applied = 已套用折扣獎勵
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = 折扣碼
 coupon-submit = 套用
 coupon-remove = 移除
 coupon-error = 您輸入的折扣碼無效或已過期。
