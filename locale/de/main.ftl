@@ -53,6 +53,14 @@ fxa-account-signup-error-2 = Ein Systemfehler hat dazu geführt, dass Ihre Anmel
 newsletter-signup-error = Sie haben keine Produktneuigkeiten per E-Mail abonniert. Sie können es in Ihren Kontoeinstellungen erneut versuchen.
 fxa-post-passwordless-sub-error = Abonnement bestätigt, aber die Bestätigungsseite konnte nicht geladen werden. Bitte sehen Sie nach Ihren E-Mails, um Ihr Konto einzurichten.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Sie haben bereits ein { $productName }-Abonnement über die App Stores von { -brand-name-google } oder { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Wir unterstützen keine Upgrades für diese Abonnements, dies folgt aber bald.
+iap-upgrade-contact-support = Sie können dieses Produkt weiterhin erhalten – wenden Sie sich bitte an den Support, damit wir Ihnen helfen können.
+iap-upgrade-get-help-button = Unterstützung erhalten
+
 ## Settings
 
 settings-home = Startseite des Kontos
@@ -72,6 +80,7 @@ subscription-processing-title = Abonnement wird bestätigt…
 subscription-error-title = Fehler beim Bestätigen des Abonnements…
 subscription-noplanchange-title = Diese Änderung des Abonnementplans wird nicht unterstützt
 subscription-iapsubscribed-title = Bereits abonniert
+subscription-iaperrorupgrade-title = Wir können Sie noch nicht upgraden
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -335,11 +344,16 @@ plan-details-show-button = Details anzeigen
 plan-details-hide-button = Details ausblenden
 plan-details-total-label = Gesamt
 plan-details-list-price = Listenpreis
+plan-details-tax = Steuern und Gebühren
 
 ## Coupons
 
 coupon-discount = Rabatt
 coupon-discount-applied = Rabattprämie angewendet
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Aktionscode
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Aktionscode angewendet
 coupon-submit = Anwenden
 coupon-remove = Entfernen
 coupon-error = Der eingegebene Code ist ungültig oder abgelaufen.
