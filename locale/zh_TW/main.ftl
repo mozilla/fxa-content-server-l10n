@@ -55,6 +55,8 @@ fxa-post-passwordless-sub-error = 已確認訂閱完成，但無法載入確認�
 
 ## IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = 您已透過 { -brand-name-google } 或 { -brand-name-apple } 應用程式商店訂閱 { $productName }。
 iap-upgrade-get-help-button = 取得幫助
 
 ## Settings
@@ -332,6 +334,8 @@ coupon-discount = 折扣
 coupon-discount-applied = 已套用折扣獎勵
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = 折扣碼
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = 已套用折扣碼
 coupon-submit = 套用
 coupon-remove = 移除
 coupon-error = 您輸入的折扣碼無效或已過期。
