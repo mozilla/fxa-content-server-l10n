@@ -55,6 +55,8 @@ fxa-post-passwordless-sub-error = Падпіска пацверджана, ал�
 
 ## IAP upgrade errors
 
+iap-upgrade-no-bundle-support = Мы не падтрымліваем абнаўленні для гэтых падпісак, але ў бліжэйшы час будзем.
+iap-upgrade-contact-support = Вы ўсё яшчэ можаце атрымаць гэты прадукт — звярніцеся ў службу падтрымкі, каб мы маглі вам дапамагчы.
 iap-upgrade-get-help-button = Атрымаць дапамогу
 
 ## Settings
@@ -357,9 +359,9 @@ plan-details-tax = Падаткі і зборы
 coupon-discount = Зніжка
 coupon-discount-applied = Ужыта зніжка
 # Title of container where a user can input a coupon code to get a discount on a subscription.
-coupon-promo-code = Прома-код
+coupon-promo-code = Прамакод
 # Title of container showing discount coupon code applied to a subscription.
-coupon-promo-code-applied = Прома-код ужыты
+coupon-promo-code-applied = Прамакод ужыты
 coupon-submit = Прымяніць
 coupon-remove = Выдаліць
 coupon-error = Код, які вы ўвялі, несапраўдны або пратэрмінаваны.
