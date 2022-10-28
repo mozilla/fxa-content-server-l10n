@@ -53,6 +53,10 @@ fxa-account-signup-error-2 = Ένα σφάλμα συστήματος προκά
 newsletter-signup-error = Δεν έχετε εγγραφεί για email ενημέρωσης προϊόντων. Μπορείτε να δοκιμάσετε ξανά στις ρυθμίσεις του λογαριασμού σας.
 fxa-post-passwordless-sub-error = Η συνδρομή επιβεβαιώθηκε, αλλά η φόρτωση της σελίδας επιβεβαίωσης απέτυχε. Παρακαλούμε ελέγξτε το email σας για να ρυθμίσετε τον λογαριασμό σας.
 
+## IAP upgrade errors
+
+iap-upgrade-get-help-button = Λήψη βοήθειας
+
 ## Settings
 
 settings-home = Αρχική σελίδα λογαριασμού
@@ -335,11 +339,16 @@ plan-details-show-button = Εμφάνιση λεπτομερειών
 plan-details-hide-button = Απόκρυψη λεπτομερειών
 plan-details-total-label = Σύνολο
 plan-details-list-price = Τιμή καταλόγου
+plan-details-tax = Φόροι και τέλη
 
 ## Coupons
 
 coupon-discount = Έκπτωση
 coupon-discount-applied = Εφαρμόστηκε έκπτωση
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Κωδικός προσφοράς
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Εφαρμόστηκε κωδικός προσφοράς
 coupon-submit = Εφαρμογή
 coupon-remove = Αφαίρεση
 coupon-error = Ο κωδικός που καταχωρίσατε δεν είναι έγκυρος ή έχει λήξει.
