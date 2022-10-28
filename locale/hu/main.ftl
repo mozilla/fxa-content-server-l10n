@@ -58,6 +58,14 @@ fxa-account-signup-error-2 = Rendszerhiba miatt a(z) { $productName } regisztrá
 newsletter-signup-error = Nem regisztrált a termékhíreket tartalmazó e-mailekre. Megpróbálhatja újra a fiókbeállításokban.
 fxa-post-passwordless-sub-error = Az előfizetés megerősítve, de a megerősítő oldal betöltése nem sikerült. Ellenőrizze az e-mail-címét a fiók beállításához.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Már van { $productName } előfizetése a { -brand-name-google } vagy az { -brand-name-apple } alkalmazásboltján keresztül.
+iap-upgrade-no-bundle-support = Jelenleg nem támogatjuk a frissítést ezekről az előfizetésekről, de hamarosan fogjuk.
+iap-upgrade-contact-support = Továbbra is beszerezheti ezt a terméket – lépjen kapcsolatba a támogatással, hogy segíthessünk.
+iap-upgrade-get-help-button = Segítség kérése
+
 ## Settings
 
 settings-home = Fiók kezdőlapja
@@ -77,6 +85,7 @@ subscription-processing-title = Feliratkozás megerősítése…
 subscription-error-title = Hiba a feliratkozás megerősítésekor…
 subscription-noplanchange-title = Az előfizetési csomag ezen módosítása nem támogatott
 subscription-iapsubscribed-title = Már előfizető
+subscription-iaperrorupgrade-title = Jelenleg nem tudjuk frissíteni
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -340,11 +349,16 @@ plan-details-show-button = Részletek megjelenítése
 plan-details-hide-button = Részletek elrejtése
 plan-details-total-label = Összesen
 plan-details-list-price = Listaár
+plan-details-tax = Adók és díjak
 
 ## Coupons
 
 coupon-discount = Kedvezmény
 coupon-discount-applied = Kedvezményes jutalom alkalmazva
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Promóciós kód
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Promóciós kód alkalmazva
 coupon-submit = Alkalmaz
 coupon-remove = Eltávolítás
 coupon-error = A megadott kód érvénytelen vagy lejárt.
