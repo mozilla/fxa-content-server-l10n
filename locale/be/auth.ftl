@@ -272,6 +272,7 @@ passwordChanged-title = Пароль паспяхова зменены
 passwordChanged-description = Пароль вашага { -product-firefox-account } быў паспяхова зменены з наступнай прылады:
 passwordChangeRequired-subject = Выяўлена падазроная актыўнасць
 passwordChangeRequired-title = Патрабуецца змена пароля
+passwordChangeRequired-suspicious-activity = Мы выявілі падазроную актыўнасць у вашым { -product-firefox-account }. Каб прадухіліць несанкцыянаваны доступ да { -product-firefox-account }, мы адлучылі ўсе прылады вашага ўліковага запісу і патрабуем ад вас змяніць пароль у якасці меры засцярогі.
 passwordChangeRequired-sign-in = Увайдзіце зноў на любой прыладзе або ў службе, дзе вы выкарыстоўваеце свой { -product-firefox-account }, і выканайце крокі, якія будуць вам прапанаваны.
 passwordChangeRequired-different-password = <b>Важна</b>: Выберыце пароль адрозны ад выкарыстаных раней і пераканайцеся, што ён адрозніваецца ад пароля для вашага ўліковага запісу электроннай пошты.
 passwordChangeRequired-signoff = Усяго найлепшага,
@@ -462,6 +463,10 @@ subscriptionReactivation-subject = Падпіска на { $productName } адн
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Дзякуй за аднаўленне вашай падпіскі на { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Ваш плацежны цыкл і памер плацяжу застануцца ранейшымі. Ваш наступны плацеж складзе { $invoiceTotal } і здзейсніцца { $nextInvoiceDateOnly }. Ваша падпіска будзе аўтаматычна падаўжацца кожны разліковы перыяд, пакуль вы не вырашыце яе скасаваць.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Паведамленне пра аўтаматычнае падаўжэнне { $productName }
