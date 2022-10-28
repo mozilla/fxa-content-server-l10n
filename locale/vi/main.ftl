@@ -53,6 +53,14 @@ fxa-account-signup-error-2 = Lỗi hệ thống khiến quá trình đăng ký {
 newsletter-signup-error = Bạn chưa đăng ký nhận email cập nhật sản phẩm. Bạn có thể thử lại trong cài đặt tài khoản của mình.
 fxa-post-passwordless-sub-error = Thuê bao đã được xác nhận, nhưng trang xác nhận không tải được. Vui lòng kiểm tra email của bạn để thiết lập tài khoản của bạn.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Bạn đã có thuê bao { $productName } qua cửa hàng ứng dụng { -brand-name-google } hoặc { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Chúng tôi không hỗ trợ nâng cấp cho các thuê bao này, nhưng chúng tôi sẽ sớm thực hiện.
+iap-upgrade-contact-support = Bạn vẫn có thể nhận được sản phẩm này — vui lòng liên hệ với bộ phận hỗ trợ để chúng tôi có thể giúp bạn.
+iap-upgrade-get-help-button = Nhận trợ giúp
+
 ## Settings
 
 settings-home = Trang chủ tài khoản
@@ -72,6 +80,7 @@ subscription-processing-title = Đang xác nhận thuê bao…
 subscription-error-title = Lỗi khi xác nhận thuê bao…
 subscription-noplanchange-title = Thay đổi gói thuê bao này không được hỗ trợ
 subscription-iapsubscribed-title = Đã đăng ký
+subscription-iaperrorupgrade-title = Chúng tôi chưa thể nâng cấp cho bạn
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -323,11 +332,16 @@ plan-details-show-button = Hiện chi tiết
 plan-details-hide-button = Ẩn chi tiết
 plan-details-total-label = Tổng
 plan-details-list-price = Bảng giá
+plan-details-tax = Thuế và phí
 
 ## Coupons
 
 coupon-discount = Giảm giá
 coupon-discount-applied = Đã áp dụng phần thưởng chiết khấu
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Mã khuyến mãi
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Đã áp dụng mã khuyến mãi
 coupon-submit = Áp dụng
 coupon-remove = Xóa
 coupon-error = Mã bạn nhập không hợp lệ hoặc đã hết hạn.
