@@ -53,6 +53,10 @@ fxa-account-signup-error-2 = Сістэмная памылка прывяла д
 newsletter-signup-error = Вы не падпісаліся на лісты з навінамі пра прадукт. Вы можаце паспрабаваць яшчэ раз у наладах свайго ўліковага запісу.
 fxa-post-passwordless-sub-error = Падпіска пацверджана, але не ўдалося загрузіць старонку пацверджання. Праверце сваю электронную пошту, каб завяршыць наладжванне ўліковага запісу.
 
+## IAP upgrade errors
+
+iap-upgrade-get-help-button = Атрымаць дапамогу
+
 ## Settings
 
 settings-home = Галоўная старонка ўліковага запісу
@@ -72,6 +76,7 @@ subscription-processing-title = Пацвярджэнне падпіскі…
 subscription-error-title = Памылка пацверджання падпіскі…
 subscription-noplanchange-title = Змена гэтага плана падпіскі не падтрымліваецца
 subscription-iapsubscribed-title = Ужо падпісаны
+subscription-iaperrorupgrade-title = Мы пакуль не можам абнавіць вас
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -345,11 +350,16 @@ plan-details-show-button = Паказаць падрабязнасці
 plan-details-hide-button = Схаваць падрабязнасці
 plan-details-total-label = Усяго
 plan-details-list-price = Базавая цана
+plan-details-tax = Падаткі і зборы
 
 ## Coupons
 
 coupon-discount = Зніжка
 coupon-discount-applied = Ужыта зніжка
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Прома-код
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Прома-код ужыты
 coupon-submit = Прымяніць
 coupon-remove = Выдаліць
 coupon-error = Код, які вы ўвялі, несапраўдны або пратэрмінаваны.
