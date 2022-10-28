@@ -58,6 +58,7 @@ fxa-post-passwordless-sub-error = Передплату підтверджено,
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed = У вас вже є передплата { $productName } через магазин { -brand-name-google } або { -brand-name-apple }.
 iap-upgrade-no-bundle-support = Наразі не підтримується підвищення рівня для цих передплат, але невдовзі буде така можливість.
+iap-upgrade-get-help-button = Отримати допомогу
 
 ## Settings
 
@@ -351,11 +352,16 @@ plan-details-show-button = Докладніше
 plan-details-hide-button = Сховати подробиці
 plan-details-total-label = Всього
 plan-details-list-price = Базова ціна
+plan-details-tax = Податки та збори
 
 ## Coupons
 
 coupon-discount = Знижка
 coupon-discount-applied = Застосована знижка
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Промокод
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Промокод застосовано
 coupon-submit = Застосувати
 coupon-remove = Вилучити
 coupon-error = Введений код недійсний або прострочений.
