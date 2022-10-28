@@ -53,6 +53,10 @@ fxa-account-signup-error-2 = 系统出错，导致 { $productName } 订阅失败
 newsletter-signup-error = 您并未订阅接收产品更新邮件，可到账户设置页面中重试。
 fxa-post-passwordless-sub-error = 订阅已确认，但确认页面加载失败。请查收邮件，继续设置账户。
 
+## IAP upgrade errors
+
+iap-upgrade-get-help-button = 获取帮助
+
 ## Settings
 
 settings-home = 账户首页
@@ -72,6 +76,7 @@ subscription-processing-title = 正在确认订阅…
 subscription-error-title = 确认订阅时出现错误…
 subscription-noplanchange-title = 不支持更改此订阅方案
 subscription-iapsubscribed-title = 已经订阅
+subscription-iaperrorupgrade-title = 我们暂时无法为您升级
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
