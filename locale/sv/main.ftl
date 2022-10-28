@@ -53,6 +53,14 @@ fxa-account-signup-error-2 = Ett systemfel orsakade att registreringen för { $p
 newsletter-signup-error = Du har inte registrerat dig för produktuppdateringsmeddelanden. Du kan försöka igen i dina kontoinställningar.
 fxa-post-passwordless-sub-error = Prenumerationen bekräftades, men bekräftelsesidan kunde inte laddas. Kontrollera din e-post för att konfigurera ditt konto.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Du har redan en prenumeration på { $productName } via appbutikerna { -brand-name-google } eller { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Vi stöder inte uppgraderingar för dessa prenumerationer, men vi kommer att göra det snart.
+iap-upgrade-contact-support = Du kan fortfarande få den här produkten — kontakta supporten så att vi kan hjälpa dig.
+iap-upgrade-get-help-button = Få hjälp
+
 ## Settings
 
 settings-home = Startsida för konton
@@ -72,6 +80,7 @@ subscription-processing-title = Bekräftar prenumerationen…
 subscription-error-title = Fel vid bekräftelse av prenumeration…
 subscription-noplanchange-title = Ändringen av prenumerationsplanen stöds inte
 subscription-iapsubscribed-title = Har redan prenumererat
+subscription-iaperrorupgrade-title = Vi kan inte uppgradera dig riktigt än
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -335,11 +344,16 @@ plan-details-show-button = Visa detaljer
 plan-details-hide-button = Dölj detaljer
 plan-details-total-label = Totalt
 plan-details-list-price = Listpris
+plan-details-tax = Skatter och avgifter
 
 ## Coupons
 
 coupon-discount = Rabatt
 coupon-discount-applied = Rabattbonus tillämpas
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Kampanjkod
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Kampanjkod tillämpas
 coupon-submit = Tillämpa
 coupon-remove = Ta bort
 coupon-error = Koden du angav är ogiltig eller har upphört.
