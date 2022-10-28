@@ -57,6 +57,8 @@ fxa-post-passwordless-sub-error = 已確認訂閱完成，但無法載入確認�
 
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed = 您已透過 { -brand-name-google } 或 { -brand-name-apple } 應用程式商店訂閱 { $productName }。
+iap-upgrade-no-bundle-support = 我們目前暫時無法升級透過這些方式訂閱的方案，但此功能正在開發中。
+iap-upgrade-contact-support = 您還是可以獲得此產品，請聯絡支援團隊，讓我們來協助。
 iap-upgrade-get-help-button = 取得幫助
 
 ## Settings
