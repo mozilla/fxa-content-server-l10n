@@ -49,6 +49,12 @@ fxa-account-signup-error-2 = שגיאת מערכת גרמה לכשל בהרשמ�
 newsletter-signup-error = לא נרשמת להודעות דוא״ל עבור עדכוני מוצר. באפשרותך לנסות שוב בהגדרות החשבון שלך.
 fxa-post-passwordless-sub-error = המינוי אושר, אך טעינת עמוד האישור נכשלה. נא לחפש בתיבת הדוא״ל שלך אם יש הודעה להקמת חשבון.
 
+## IAP upgrade errors
+
+iap-upgrade-no-bundle-support = איננו תומכים בשדרוגים עבור המינויים האלה, אבל נתמוך בכך בקרוב.
+iap-upgrade-contact-support = באפשרותך עדיין להשיג את המוצר הזה — נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
+iap-upgrade-get-help-button = קבלת עזרה
+
 ## Settings
 
 settings-subscriptions-title = מינויים
@@ -65,6 +71,7 @@ subscription-create-title = הגדרת המינוי שלך
 subscription-processing-title = המינוי מועבר לאישור…
 subscription-noplanchange-title = שינוי תוכנית המינוי הזה אינו נתמך
 subscription-iapsubscribed-title = כבר רשום כמינוי
+subscription-iaperrorupgrade-title = אנחנו לא יכולים לשדרג אותך עדיין
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -133,12 +140,6 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = מיקוד
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-##
-
 payment-cancel-btn = ביטול
 payment-update-btn = עדכון
 payment-pay-btn = לשלם כעת
@@ -339,11 +340,16 @@ plan-details-header = פרטי מוצר
 plan-details-show-button = הצגת פרטים
 plan-details-hide-button = הסתרת פרטים
 plan-details-total-label = סה״כ
+plan-details-tax = מיסים ועמלות
 
 ## Coupons
 
 coupon-discount = הנחה
 coupon-discount-applied = תגמול הנחה הוחל
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = קוד קופון
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = קוד הקופון הוחל
 coupon-submit = החלה
 coupon-remove = הסרה
 coupon-error = הקוד שהזנת אינו חוקי או שפג תוקפו.

@@ -3,24 +3,37 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts = Firefox accounts
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
        *[a] חשבון Firefox
         [the] חשבון ה־Firefox
     }
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
@@ -233,6 +246,8 @@ fraudulentAccountDeletion-contact = אם יש לך שאלות כלשהן, נא �
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = אם יש לך שאלות כלשהן, נא ליצור קשר עם צוות התמיכה שלנו: { $mozillaSupportUrl }
+codes-reminder-description-part-two = מומלץ ליצור קודים חדשים עכשיו כדי שהנתונים שלך לא יאבדו מאוחר יותר.
+codes-reminder-description-two-left = נשארו לך רק שני קודים.
 lowRecoveryCodes-action-2 = יצירת קודים
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
@@ -505,6 +520,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = תזכורת לאימות החשבון שלך
 verificationReminderFirst-title-2 = ברוכים הבאים אל { -brand-firefox }!
 verificationReminderFirst-description-2 = לפני מספר ימים יצרת { -product-firefox-account(case: "a") }, אך מעולם לא אימתת אותו. נא לאמת את החשבון שלך ב־15 הימים הקרובים או שהוא יימחק באופן אוטומטי.
+verificationReminderFirst-sub-description-3 = לא כדאי לפספס את הדפדפן ששם אותך ואת הפרטיות שלך במקום הראשון.
 confirm-email-2 = אימות החשבון
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = אימות החשבון
@@ -521,6 +537,7 @@ verify-action-2 = אימות החשבון
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = האם התחברת ל־{ $clientName }?
+verifyLogin-description-2 = באפשרותך לעזור לנו לשמור על בטיחות החשבון שלך על־ידי אישור הכניסה שלך במכשיר:
 verifyLogin-subject-2 = אישור התחברות
 verifyLogin-action = אישור התחברות
 # Variables:
