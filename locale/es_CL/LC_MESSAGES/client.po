@@ -1877,7 +1877,7 @@ msgstr "¿Por qué necesito crear esta cuenta? <a %(escapedSuggestionAttrs)s>Ave
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "¿Cuantos años tienes? Para saber por qué preguntamos tu edad, sigue el enlace \"por qué preguntamos\" a continuación."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
