@@ -58,6 +58,7 @@ fxa-post-passwordless-sub-error = Передплату підтверджено,
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed = У вас вже є передплата { $productName } через магазин { -brand-name-google } або { -brand-name-apple }.
 iap-upgrade-no-bundle-support = Наразі не підтримується підвищення рівня для цих передплат, але невдовзі буде така можливість.
+iap-upgrade-contact-support = Ви все одно можете отримати цей продукт — зверніться до служби підтримки по допомогу.
 iap-upgrade-get-help-button = Отримати допомогу
 
 ## Settings
@@ -79,6 +80,7 @@ subscription-processing-title = Підтвердження передплати�
 subscription-error-title = Помилка підтвердження передплати…
 subscription-noplanchange-title = Зміна цього тарифного плану не підтримується
 subscription-iapsubscribed-title = Уже передплачено
+subscription-iaperrorupgrade-title = Поки що ми не можемо підвищити рівень вашої передплати
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
