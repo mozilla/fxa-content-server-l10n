@@ -55,6 +55,10 @@ fxa-post-passwordless-sub-error = Subscription confirmate, ma es impossibile car
 
 ## IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Tu jam ha un subscription a { $productName }  via le magazines de apps de { -brand-name-google } o de { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Nos non supporta promotiones pro iste subscriptiones, ma nos los supportara tosto.
+iap-upgrade-contact-support = Tu pote ancora obtener iste producto, contacta le supporto assi nos pote adjutar te.
 iap-upgrade-get-help-button = Obtener auxilio
 
 ## Settings
@@ -76,6 +80,7 @@ subscription-processing-title = Confirmation del subscription…
 subscription-error-title = Error in confirmation de subscription…
 subscription-noplanchange-title = Iste cambiamento de plano de subscription non es supportate
 subscription-iapsubscribed-title = Jam abonate
+subscription-iaperrorupgrade-title = Nos non pote promover te ancora
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -329,6 +334,7 @@ plan-details-show-button = Monstrar le detalios
 plan-details-hide-button = Celar le detalios
 plan-details-total-label = Total
 plan-details-list-price = Lista precio
+plan-details-tax = Taxas e oneres
 
 ## Coupons
 
