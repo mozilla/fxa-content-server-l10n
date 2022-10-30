@@ -59,6 +59,7 @@ fxa-post-passwordless-sub-error = Se ha confirmado la suscripción, pero no se h
 iap-upgrade-already-subscribed = Ya tienes una suscripción a { $productName } a través de las tiendas de aplicaciones { -brand-name-google } o { -brand-name-apple }.
 iap-upgrade-no-bundle-support = No admitimos actualizaciones para estas suscripciones, pero lo haremos pronto.
 iap-upgrade-contact-support = Todavía puedes obtener este producto — por favor contacta con el equipo de soporte para que podamos ayudarte.
+iap-upgrade-get-help-button = Obtener ayuda
 
 ## Settings
 
@@ -79,6 +80,7 @@ subscription-processing-title = Confirmando la suscripción…
 subscription-error-title = Error al confirmar la suscripción…
 subscription-noplanchange-title = Este cambio del plan de suscripción no está soportado
 subscription-iapsubscribed-title = Ya tienes una suscripción
+subscription-iaperrorupgrade-title = Todavía no podemos actualizarte
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -342,11 +344,16 @@ plan-details-show-button = Mostrar detalles
 plan-details-hide-button = Ocultar detalles
 plan-details-total-label = Total
 plan-details-list-price = Lista de precios
+plan-details-tax = Impuestos y tasas
 
 ## Coupons
 
 coupon-discount = Descuento
 coupon-discount-applied = Recompensa de descuento aplicada
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Código promocional
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Código promocional aplicado
 coupon-submit = Aplicar
 coupon-remove = Eliminar
 coupon-error = El código que has introducido no es válido o ha caducado.
