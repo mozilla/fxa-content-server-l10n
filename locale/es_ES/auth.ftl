@@ -107,6 +107,8 @@ automated-email-support = Para más información, visita <a data-l10n-name="supp
 automated-email-change-plaintext-2 = Si no realizaste esta acción, cambia tu contraseña inmediatamente:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Para más información, visita la ayuda de { -brand-mozilla }:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Para más información, visita <a data-l10n-name="supportLink">Ayuda de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este es un correo electrónico automatizado. Si lo recibiste por error, no necesitas hacer nada.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Este es un correo electrónico enviado de forma automática; si no has autorizado esta acción, por favor, cambia tu contraseña:
@@ -187,6 +189,9 @@ subscriptionUpdatePayment = Para evitar cualquier interrupción en tu servicio, 
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, por favor actualiza tu información de pago lo antes posible:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Para más información, visita Ayuda de { -brand-mozilla }: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -224,6 +229,7 @@ cadReminderFirst-action = Sincronizar otro dispositivo
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Se necesitan dos para sincronizar
+cadReminderFirst-description-1 = Lleva tus pestañas en todos tus dispositivos. Lleva tus marcadores, contraseñas y otros datos donde sea que uses { -brand-firefox }. ¡Es como un toque de magia en tu cuenta de { -brand-firefox }!
 cadReminderFirst-description-2 = Sincronizar solo te llevará un segundo.
 cadReminderSecond-subject-2 = ¡No te pierdas nada! Completa la configuración para empezar a sincronizar
 cadReminderSecond-action = Sincronizar otro dispositivo
@@ -535,14 +541,42 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar cuenta
 verificationReminderSecond-subject-2 = Recuerda confirmar tu cuenta
 verificationReminderSecond-action-2 = Confirmar cuenta
+verify-title-2 = Abre internet con { -brand-firefox }
 verify-description = Confirma tu cuenta y sácale el máximo partido a { -brand-firefox } cada vez que inicies sesión, empezando por:
 verify-subject = Termina de crear tu cuenta
+verify-action-2 = Confirmar cuenta
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = ¿Has iniciado sesión en { $clientName }?
+verifyLogin-subject-2 = Confirmar inicio de sesión
 verifyLogin-action = Confirmar inicio de sesión
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Aprobar el inicio de sesión en { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = ¿Has iniciado sesión en { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Ayúdanos a mantener tu cuenta segura aprobando tu inicio de sesión en:
+verifyLoginCode-prompt-3 = En caso afirmativo, aquí está tu código de autorización:
 verifyLoginCode-expiry-notice = Caduca en 5 minutos.
+verifyPrimary-title-2 = Confirmar correo electrónico principal
 verifyPrimary-description = Se ha solicitado un cambio en la cuenta desde el siguiente dispositivo:
 verifyPrimary-subject = Confirmar correo electrónico principal
+verifyPrimary-action-2 = Confirmar correo electrónico
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Confirmar correo electrónico secundario
+verifySecondaryCode-title-2 = Confirmar correo electrónico secundario
+verifySecondaryCode-action-2 = Confirmar correo electrónico
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Se ha registrado una solicitud para utilizar { $email } como cuenta secundaria desde la siguiente { -product-firefox-account }:
+verifySecondaryCode-prompt-2 = Utiliza este código de confirmación:
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Confirma tu cuenta
+verifyShortCode-title-2 = Abre internet con { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Confirma tu cuenta y sácale el máximo partido a { -brand-firefox } cada vez que inicies sesión, empezando por:
+verifyShortCode-prompt-3 = Utiliza este código de confirmación:
 verifyShortCode-expiry-notice = Caduca en 5 minutos.
