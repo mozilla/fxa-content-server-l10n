@@ -53,6 +53,13 @@ fxa-account-signup-error-2 = Un error del sistema ha provocado que tu registro d
 newsletter-signup-error = No estás registrado para recibir correos de actualización de productos. Puedes volver a intentarlo en la configuración de tu cuenta.
 fxa-post-passwordless-sub-error = Se ha confirmado la suscripción, pero no se ha podido cargar la página de confirmación. Revisa tu correo electrónico para configurar tu cuenta.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Ya tienes una suscripción a { $productName } a través de las tiendas de aplicaciones { -brand-name-google } o { -brand-name-apple }.
+iap-upgrade-no-bundle-support = No admitimos actualizaciones para estas suscripciones, pero lo haremos pronto.
+iap-upgrade-contact-support = Todavía puedes obtener este producto — por favor contacta con el equipo de soporte para que podamos ayudarte.
+
 ## Settings
 
 settings-home = Página principal de la cuenta
