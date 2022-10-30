@@ -53,6 +53,14 @@ fxa-account-signup-error-2 = Системная ошибка привела к �
 newsletter-signup-error = Вы не подписались на письма с новостями о продукте. Вы можете попробовать ещё раз в настройках своего аккаунта.
 fxa-post-passwordless-sub-error = Подписка подтверждена, но страница подтверждения не загрузилась. Пожалуйста, проверьте свою электронную почту, чтобы создать аккаунт.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = У вас уже есть подписка на { $productName } в магазинах приложений { -brand-name-google } или { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Мы не поддерживаем обновления для этих подписок, но скоро будем поддерживать.
+iap-upgrade-contact-support = Вы всё ещё можете получить этот продукт — обратитесь, пожалуйста, в службу поддержки, чтобы мы могли вам помочь.
+iap-upgrade-get-help-button = Получить помощь
+
 ## Settings
 
 settings-home = Главная страница аккаунта
@@ -72,6 +80,7 @@ subscription-processing-title = Подтверждение подписки…
 subscription-error-title = Ошибка подтверждения подписки…
 subscription-noplanchange-title = Это изменение плана подписки не поддерживается
 subscription-iapsubscribed-title = Уже подписаны
+subscription-iaperrorupgrade-title = Мы пока не можем провести обновление
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -347,11 +356,16 @@ plan-details-show-button = Показать подробности
 plan-details-hide-button = Скрыть подробности
 plan-details-total-label = Всего
 plan-details-list-price = Прейскурант
+plan-details-tax = Налоги и сборы
 
 ## Coupons
 
 coupon-discount = Скидка
 coupon-discount-applied = Применено вознаграждение со скидкой
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Промокод
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Промокод применён
 coupon-submit = Применить
 coupon-remove = Удалить
 coupon-error = Введённый вами код некорректен или просрочен.
