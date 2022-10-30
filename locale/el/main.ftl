@@ -55,6 +55,8 @@ fxa-post-passwordless-sub-error = Η συνδρομή επιβεβαιώθηκε
 
 ## IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Διαθέτετε ήδη συνδρομή { $productName } μέσω του { -brand-name-google } Play Store ή του { -brand-name-apple } App Store.
 iap-upgrade-get-help-button = Λήψη βοήθειας
 
 ## Settings
