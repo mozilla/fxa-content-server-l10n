@@ -55,6 +55,9 @@ fxa-post-passwordless-sub-error = Abonelik onaylandı, ancak onay sayfası yükl
 
 ## IAP upgrade errors
 
+iap-upgrade-no-bundle-support = Bu abonelikler için yükseltmeleri desteklemiyoruz ancak yakında destekleyeceğiz.
+iap-upgrade-contact-support = Bu ürünü yine de alabilirsiniz. Size yardımcı olabilmemiz için lütfen destek ile iletişime geçin.
+iap-upgrade-get-help-button = Yardım alın
 
 ## Settings
 
@@ -75,6 +78,7 @@ subscription-processing-title = Abonelik onaylanıyor…
 subscription-error-title = Abonelik onaylanırken hata oluştu…
 subscription-noplanchange-title = Bu abonelik planı değişikliği desteklemiyor
 subscription-iapsubscribed-title = Zaten abonesiniz
+subscription-iaperrorupgrade-title = Sizi henüz yükseltemiyoruz
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
