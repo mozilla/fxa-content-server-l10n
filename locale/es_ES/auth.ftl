@@ -240,9 +240,19 @@ downloadSubscription-content-2 = Comienza a usar todas las funciones incluidas e
 downloadSubscription-link-action-2 = Comenzar
 fraudulentAccountDeletion-subject = Tu { -product-firefox-account } fue eliminada
 fraudulentAccountDeletion-title = Tu cuenta fue eliminada
+fraudulentAccountDeletion-content = Recientemente, se creó una { -product-firefox-account } y se cobró una suscripción con esta dirección de correo electrónico. Como hacemos con todas las cuentas nuevas, te pedimos que confirmes tu cuenta validando primero esta dirección de correo electrónico.
+fraudulentAccountDeletion-content-2 = Actualmente, vemos que la cuenta nunca fue confirmada. Dado que este paso no se completó, no estamos seguros de si se trataba de una suscripción autorizada. Como resultado, la { -product-firefox-account } registrada con esta dirección de correo electrónico fue eliminada y tu suscripción cancelada con todos los cargos reembolsados.
+lowRecoveryCodes-action-2 = Crear códigos
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nuevo inicio de sesión en { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Tu { -product-firefox-account } se usó para iniciar sesión
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = ¿No fuiste tú? Cambia tu contraseña:
 newDeviceLogin-action = Administrar cuenta
 passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Has cambiado la contraseña correctamente
@@ -258,21 +268,54 @@ passwordChangeRequired-different-password-plaintext = Importante: elige una cont
 passwordReset-subject = Contraseña actualizada
 passwordReset-title = Se cambió la contraseña de tu cuenta
 passwordReset-description = Tienes que introducir la nueva contraseña en tus otros dispositivos para reanudar la sincronización.
+passwordResetAccountRecovery-subject-2 = Se ha restablecido tu contraseña
+passwordResetAccountRecovery-title-2 = Contraseña restablecida correctamente
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Has usado la clave de recuperación de tu cuenta para actualizar tu contraseña desde:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Crear una nueva clave de recuperación de cuenta
+postAddAccountRecovery-subject-2 = Clave de recuperación de cuenta creada
+postAddAccountRecovery-title2 = Has creado una nueva clave de recuperación de cuenta
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Se ha creado una nueva clave a partir de:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = ¿No has sido tú?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Elimina la nueva clave</a> y <a data-l10n-name="passwordChangeLink">cambia tu contraseña</a>
 postAddAccountRecovery-action = Administrar cuenta
+postAddAccountRecovery-delete-key = Eliminar la nueva clave:
+postAddAccountRecovery-changd-password = Cambia tu contraseña:
 postAddLinkedAccount-subject = Nueva cuenta vinculada a { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Tu cuenta de { $providerName } ha sido vinculada a tu { -product-firefox-account }
 postAddLinkedAccount-action = Administrar cuenta
+postAddTwoStepAuthentication-subject-2 = Autenticación en dos pasos activada
+postAddTwoStepAuthentication-title-2 = Has activado la autenticación en dos pasos
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Lo has activado desde:
 postAddTwoStepAuthentication-action = Administrar cuenta
+postAddTwoStepAuthentication-code-required-2 = Los códigos de seguridad de tu aplicación de autenticación ahora se requieren cada vez que inicies sesión.
 postChangePrimary-subject = Correo electrónico principal actualizado
 postChangePrimary-title = Nuevo correo principal
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Has cambiado con éxito tu correo principal a { $email }. Esta dirección es ahora tu nombre de usuario para iniciar sesión en tu { -product-firefox-account } así como para recibir notificaciones de seguridad y confirmaciones de inicio de sesión
 postChangePrimary-action = Administrar cuenta
+postConsumeRecoveryCode-title-2 = Has usado un código de autenticación de respaldo
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Ha sido utilizado en:
 postConsumeRecoveryCode-action = Administrar cuenta
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Queda 1 código de autenticación de respaldo
+       *[other] Quedan { $numberRemaining } códigos de autenticación de respaldo
+    }
+postNewRecoveryCodes-subject-2 = Nuevos códigos de autenticación de respaldo creados
+postNewRecoveryCodes-title-2 = Has creado nuevos códigos de autenticación de respaldo
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Han sido creados en:
 postNewRecoveryCodes-action = Administrar cuenta
+postRemoveAccountRecovery-subject-2 = Clave de recuperación de cuenta eliminada
 postRemoveAccountRecovery-action = Administrar cuenta
 postRemoveSecondary-subject = Se eliminó el correo secundario
 postRemoveSecondary-title = Se eliminó el correo secundario
