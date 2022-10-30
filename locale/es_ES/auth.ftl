@@ -316,18 +316,39 @@ postNewRecoveryCodes-title-2 = Has creado nuevos códigos de autenticación de r
 postNewRecoveryCodes-description-2 = Han sido creados en:
 postNewRecoveryCodes-action = Administrar cuenta
 postRemoveAccountRecovery-subject-2 = Clave de recuperación de cuenta eliminada
+postRemoveAccountRecovery-title-2 = Has borrado la clave de recuperación de tu cuenta.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Ha sido borrado de:
 postRemoveAccountRecovery-action = Administrar cuenta
+postRemoveAccountRecovery-invalid-2 = Necesitas una clave de recuperación de cuenta para recuperar tus datos de { -brand-firefox } si olvidas tu contraseña.
 postRemoveSecondary-subject = Se eliminó el correo secundario
 postRemoveSecondary-title = Se eliminó el correo secundario
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Has eliminado correctamente { $secondaryEmail } como correo electrónico secundario de tu { -product-firefox-account }. Las notificaciones de seguridad y confirmaciones de inicio de sesión ya no se entregarán a esta dirección.
 postRemoveSecondary-action = Administrar cuenta
+postRemoveTwoStepAuthentication-subject-line-2 = Autenticación en dos pasos desactivada
+postRemoveTwoStepAuthentication-title-2 = Has desactivado la autenticación en dos pasos
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Lo has desactivado desde:
 postRemoveTwoStepAuthentication-action = Administrar cuenta
+postRemoveTwoStepAuthentication-not-required-2 = Ya no necesitas los códigos de seguridad de tu aplicación de autenticación cuando inicies sesión.
+postVerify-sub-title-3 = ¡Estamos encantados de verte!
+postVerify-title-2 = ¿Quieres ver la misma pestaña en dos dispositivos?
+postVerify-description-2 = ¡Es fácil! Simplemente instala { -brand-firefox } en otro dispositivo e inicia sesión para sincronizar. ¡Parece magia!
+postVerify-subject-3 = ¡Te damos la bienvenida a { -brand-firefox }!
+postVerify-setup-2 = Conectar otro dispositivo:
+postVerify-action-2 = Conectar otro dispositivo
 postVerifySecondary-subject = Se agregó una cuenta secundaria
 postVerifySecondary-title = Se agregó una cuenta secundaria
 postVerifySecondary-action = Administrar cuenta
 recovery-subject = Restablecer tu contraseña
+recovery-title-2 = ¿Has olvidado tu contraseña?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Hemos recibido una solicitud para cambiar la contraseña en tu { -product-firefox-account } desde:
+recovery-new-password-button = Crea una nueva contraseña haciendo clic en el botón de abajo. Este enlace caducará en una hora.
+recovery-copy-paste = Crea una nueva contraseña copiando y pegando la siguiente URL en tu navegador. Este enlace caducará en una hora.
 recovery-action = Crear nueva contraseña
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -349,10 +370,14 @@ subscriptionAccountFinishSetup-content-create-2 = A continuación, crearás una 
 subscriptionAccountFinishSetup-action-2 = Comenzar
 subscriptionAccountReminderFirst-subject = Recordatorio: termina de configurar tu cuenta
 subscriptionAccountReminderFirst-title = Todavía no puedes acceder a tu suscripción
+subscriptionAccountReminderFirst-content-info-2 = Hace unos días creaste una { -product-firefox-account } pero nunca la confirmaste. Esperamos que termines de configurar tu cuenta para que puedas usar tu nueva suscripción.
+subscriptionAccountReminderFirst-content-select-2 = Selecciona “Crear contraseña” para configurar una nueva contraseña y terminar de confirmar tu cuenta.
 subscriptionAccountReminderFirst-action = Crear contraseña
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Último recordatorio: configura tu cuenta
 subscriptionAccountReminderSecond-title = ¡Bienvenido a { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info-2 = Hace unos días creaste una { -product-firefox-account } pero nunca la confirmaste. Esperamos que termines de configurar tu cuenta para que puedas usar tu nueva suscripción.
+subscriptionAccountReminderSecond-content-select-2 = Selecciona “Crear contraseña” para configurar una nueva contraseña y terminar de confirmar tu cuenta.
 subscriptionAccountReminderSecond-action = Crear contraseña
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -498,6 +523,18 @@ unblockCode-prompt = Si es así, el código de autorización que necesitas es es
 unblockCode-prompt-plaintext = Si es así, el código de autorización que necesitas es este: { $unblockCode }
 unblockCode-report = En caso contrario, ayúdanos a mantener a raya a los intrusos e <a data-l10n-name="reportSignInLink">infórmanos.</a>
 unblockCode-report-plaintext = Si no es así, ayúdanos a mantener a raya a los intrusos e infórmanos.
+verificationReminderFinal-subject = Último recordatorio para confirmar tu cuenta
+confirm-account = Confirmar cuenta
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Recuerda confirmar tu cuenta
+verificationReminderFirst-title-2 = ¡Te damos la bienvenida a { -brand-firefox }!
+verificationReminderFirst-description-2 = Hace unos días creaste una { -product-firefox-account }, pero nunca la confirmaste. Confirma tu cuenta en los próximos 15 días o se eliminará automáticamente.
+verificationReminderFirst-sub-description-3 = No te pierdas el navegador que te pone a ti y a tu privacidad en primer lugar.
+confirm-email-2 = Confirmar cuenta
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Confirmar cuenta
+verificationReminderSecond-subject-2 = Recuerda confirmar tu cuenta
+verificationReminderSecond-action-2 = Confirmar cuenta
 verify-description = Confirma tu cuenta y sácale el máximo partido a { -brand-firefox } cada vez que inicies sesión, empezando por:
 verify-subject = Termina de crear tu cuenta
 verifyLogin-action = Confirmar inicio de sesión
