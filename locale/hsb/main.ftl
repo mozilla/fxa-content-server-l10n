@@ -53,6 +53,10 @@ fxa-account-signup-error-2 = Systemowy zmylk je zawinował, zo waše registrowan
 newsletter-signup-error = Njejsće so za e-mejle wo produktowych aktualizacijach registrował. Móžeće to w swojich kontowych nastajenjach hišće raz spytać.
 fxa-post-passwordless-sub-error = Abonement je wobkrućeny, ale wobkrućenska strona njeda so začitać. Prošu přepruwujće swoje mejlki, zo byšće swoje konto konfigurował.
 
+## IAP upgrade errors
+
+iap-upgrade-get-help-button = Pomoc wobstarać
+
 ## Settings
 
 settings-home = Startowa strona konta
@@ -144,44 +148,6 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Póstowe wodźenske čisło
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-payment-confirm-with-legal-links-day =
-    { $intervalCount ->
-        [one] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóždy dźeń</strong> poćežić, doniž swój abonement njewupowědźu.
-        [two] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóždej { $intervalCount } dnjej</strong> poćežić, doniž swój abonement njewupowědźu.
-        [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } dny</strong> poćežić, doniž swój abonement njewupowědźu.
-       *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } dnjow</strong> poćežić, doniž swój abonement njewupowědźu.
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirm-with-legal-links-week =
-    { $intervalCount ->
-        [one] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóždy tydźeń</strong> poćežić, doniž swój abonement njewupowědźu.
-        [two] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóždej { $intervalCount } njedźeli</strong> poćežić, doniž swój abonement njewupowědźu.
-        [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } njedźele</strong> poćežić, doniž swój abonement njewupowědźu.
-       *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } njedźel</strong> poćežić, doniž swój abonement njewupowědźu.
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-payment-confirm-with-legal-links-month =
-    { $intervalCount ->
-        [one] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóždy měsac</strong> poćežić, doniž swój abonement njewupowědźu.
-        [two] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóždej { $intervalCount } měsacaj</strong> poćežić, doniž swój abonement njewupowědźu.
-        [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } měsacy</strong> poćežić, doniž swój abonement njewupowědźu.
-       *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } měsacow</strong> poćežić, doniž swój abonement njewupowědźu.
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-payment-confirm-with-legal-links-year =
-    { $intervalCount ->
-        [one] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóždy lěto</strong> poćežić, doniž swój abonement njewupowědźu.
-        [two] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóždej { $intervalCount } lěće</strong> poćežić, doniž swój abonement njewupowědźu.
-        [few] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } lěta</strong> poćežić, doniž swój abonement njewupowědźu.
-       *[other] Awtorizuju { -brand-name-mozilla }, zhotowjerja produktow { -brand-name-firefox }, po <termsOfServiceLink>płaćenskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>rozłoženju wo škiće datow</privacyNoticeLink> swoju płaćensku metodu z <strong>{ $amount } kóžde { $intervalCount } lět</strong> poćežić, doniž swój abonement njewupowědźu.
-    }
-
-##
-
 payment-cancel-btn = Přetorhnyć
 payment-update-btn = Aktualizować
 payment-pay-btn = Nětko płaćić
@@ -396,6 +362,7 @@ plan-details-show-button = Podrobnosće pokazać
 plan-details-hide-button = Podrobnosće schować
 plan-details-total-label = Dohromady
 plan-details-list-price = Lisćinowa płaćizna
+plan-details-tax = Dawki a popłatki
 
 ## Coupons
 
