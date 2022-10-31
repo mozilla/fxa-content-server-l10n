@@ -53,6 +53,14 @@ fxa-account-signup-error-2 = Achosodd gwall system i'ch mewngofnodi i { $product
 newsletter-signup-error = Nid ydych wedi cofrestru ar gyfer e-byst newyddion am ein cynnyrch. Gallwch geisio eto yn eich gosodiadau cyfrif.
 fxa-post-passwordless-sub-error = Cadarnhawyd eich tanysgrifiad, ond methodd y dudalen gadarnhau â llwytho. Gwiriwch eich e-bost i greu eich cyfrif.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Mae gennych danysgrifiad { $productName } eisoes trwy siopau apiau { -brand-name-google } neu { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Nid ydym yn cefnogi uwchraddio'r tanysgrifiadau hyn ar hyn o bryd, ond byddwn yn gwneud hynny'n fuan.
+iap-upgrade-contact-support = Gallwch gael y cynnyrch hwn o hyd - cysylltwch â chymorth fel y gallwn ni eich helpu.
+iap-upgrade-get-help-button = Cael cymorth
+
 ## Settings
 
 settings-home = Cartref Cyfrif
@@ -72,6 +80,7 @@ subscription-processing-title = Yn cadarnhau eich tanysgrifiad…
 subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad…
 subscription-noplanchange-title = Nid yw newid cynllun tanysgrifio yn cael ei gynnal
 subscription-iapsubscribed-title = Eisoes wedi tanysgrifio
+subscription-iaperrorupgrade-title = Nid ydym yn gallu eich uwchraddio eto
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -383,11 +392,16 @@ plan-details-show-button = Dangos manylion
 plan-details-hide-button = Cuddio manylion
 plan-details-total-label = Cyfanswm
 plan-details-list-price = Rhestr Prisiau
+plan-details-tax = Trethi a Ffioedd
 
 ## Coupons
 
 coupon-discount = Gostyngiad
 coupon-discount-applied = Gwobr Gostyngiad wedi'i Gynnwys
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Cod Hyrwyddo
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Cod Hyrwyddo wedi'i Osod
 coupon-submit = Gosod
 coupon-remove = Tynnu
 coupon-error = Mae'r cod a roesoch yn annilys neu wedi dod i ben.
