@@ -53,6 +53,14 @@ fxa-account-signup-error-2 = Un error de sistema causó que fallara el registro 
 newsletter-signup-error = No estás registrado para los correos de actualización de producto. Podés volver a intentarlo en la configuración de tu cuenta.
 fxa-post-passwordless-sub-error = Suscripción confirmada, pero la página de confirmación no se pudo cargar. Revisá tu correo para configurar tu cuenta.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Ya tenés una suscripción a { $productName } a través de las tiendas de aplicaciones { -brand-name-google } o { -brand-name-apple }.
+iap-upgrade-no-bundle-support = No admitimos actualizaciones para estas suscripciones, pero lo haremos pronto.
+iap-upgrade-contact-support = Todavía podés obtener este producto; comunicate con la ayuda para que podamos ayudarte.
+iap-upgrade-get-help-button = Obtener ayuda
+
 ## Settings
 
 settings-home = Inicio de Cuentas
@@ -72,6 +80,7 @@ subscription-processing-title = Confirmando suscripción…
 subscription-error-title = Error al confirmar la suscripción…
 subscription-noplanchange-title = Este cambio de plan de suscripción no está soportado
 subscription-iapsubscribed-title = Ya suscripto
+subscription-iaperrorupgrade-title = Todavía no podemos actualizarte
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -335,11 +344,16 @@ plan-details-show-button = Mostrar detalles
 plan-details-hide-button = Ocultar detalles
 plan-details-total-label = Total
 plan-details-list-price = Precio de lista
+plan-details-tax = Impuestos y tarifas
 
 ## Coupons
 
 coupon-discount = Descuento
 coupon-discount-applied = Recompensa de descuento aplicada
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Código promocional
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Código promocional aplicado
 coupon-submit = Aplicar
 coupon-remove = Eliminar
 coupon-error = El código ingresado es inválido o ha expirado.
