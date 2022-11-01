@@ -3,20 +3,33 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts = Firefox-kontoar
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-konto
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
@@ -79,6 +92,12 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = { $cardType }-kort som sluttar på { $lastFour }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Fakturanummer: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Fakturanummer: { $invoiceNumber }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Har du spørsmål om abonnementet ditt? Supportteamet vårt står klar til å hjelpe deg:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -131,6 +150,7 @@ downloadSubscription-subject = Velkomen til { $productName }
 downloadSubscription-title = Velkomen til { $productName }
 downloadSubscription-content-2 = La oss kome i gang med å bruke alle funksjonane i abonementet ditt.
 downloadSubscription-link-action-2 = Kom i gang
+fraudulentAccountDeletion-title = Kontoen din vart sletta
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning på { $clientName }
@@ -147,6 +167,11 @@ passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passo
 passwordReset-subject = Passord oppdatert
 passwordReset-title = Kontopassordet ditt vart endra
 passwordReset-description = Du må skrive inn det nye passordet ditt på andre einingar for å fortsetje synkroniseringa.
+passwordResetAccountRecovery-title-2 = Passordet er tilbakestilt
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Opprett ein ny kontogjenopprettingsnøkkel
+postAddAccountRecovery-subject-2 = Kontogjenopprettingsnøkkel oppretta
+postAddAccountRecovery-title2 = Du oppretta ein ny kontogjenopprettingsnøkkel
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = Ein ny nøkkel vart oppretta frå:
 # This is asking whether the person who took the action is the recipient of the email.
@@ -154,11 +179,9 @@ postAddAccountRecovery-not-you = Ikke deg?
 postAddAccountRecovery-action = Handsam kontoen
 postAddAccountRecovery-delete-key = Slett den nye nøkkelen::
 postAddAccountRecovery-changd-password = Endre passordet ditt?
+postAddLinkedAccount-subject = Ny konto knytt til { -brand-firefox }
 postAddLinkedAccount-action = Handsam kontoen
-postAddTwoStepAuthentication-subject = Tostegs-godkjenning aktivert
-postAddTwoStepAuthentication-title = Tostegs-godkjenning aktivert
 postAddTwoStepAuthentication-action = Handsam kontoen
-postAddTwoStepAuthentication-code-required = Sikkerheitskodar frå autentiseringappen din vil no krevjast for kvar pålogging.
 postChangePrimary-subject = Primær e-postadresse oppdatert
 postChangePrimary-title = Ny primær e-postadresse
 postChangePrimary-action = Handsam kontoen
@@ -168,14 +191,15 @@ postRemoveAccountRecovery-action = Handsam kontoen
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
 postRemoveSecondary-action = Handsam kontoen
-postRemoveTwoStepAuthentication-subject-line = Tostegs-godkjenning er av
-postRemoveTwoStepAuthentication-title = Tostegs-godkjenning deaktivert
 postRemoveTwoStepAuthentication-action = Handsam kontoen
-postRemoveTwoStepAuthentication-not-required = Sikkerheitskodar vil ikkje lenger krevjast ved kvar pålogging.
+postVerify-subject-3 = Velkomen til { -brand-firefox }!
+postVerify-setup-2 = Kople til ei anna eining:
+postVerify-action-2 = Kople til ei anna eining
 postVerifySecondary-subject = Sekundær e-post lagt til
 postVerifySecondary-title = Sekundær e-post lagt til
 postVerifySecondary-action = Handsam kontoen
 recovery-subject = Tilbakestill passord
+recovery-title-2 = Gløymt passordet ditt?
 recovery-action = Lag nytt passord
 subscriptionAccountDeletion-title = Det er synd at du seier opp abonnementet ditt
 # Variables:
@@ -213,7 +237,6 @@ verificationReminderSecond-subject-2 = Hugs å stadfeste kontoen din
 verify-description = Stadfest kontoen din og få mest muleg ut av { -brand-firefox } overalt der du loggar inn, startande med:
 verify-subject = Fullfør opprettinga av kontoen din
 verifyLogin-action = Stadfest innlogging
-verifyLoginCode-title = Er det du som loggar inn?
 verifyLoginCode-expiry-notice = Den går ut om 5 minutt.
 verifyPrimary-description = Ein førespurnad om å utføre ei kontoendring er gjort frå følgjande eining:
 verifyPrimary-subject = Stadfest primær e-postadresse
