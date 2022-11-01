@@ -63,6 +63,14 @@ fxa-account-signup-error-2 = Systémová chyba spôsobila zlyhanie vašej regist
 newsletter-signup-error = Nie ste zaregistrovaný na odber e-mailov s novinkami v produkte. Môžete to skúsiť znova v nastaveniach účtu.
 fxa-post-passwordless-sub-error = Predplatné bolo potvrdené, ale nepodarilo sa načítať stránku s potvrdením. Skontrolujte svoj e-mail a nastavte si účet.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Už máte predplatné produktu { $productName } prostredníctvom cez obchod s aplikáciami { -brand-name-google } alebo { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Inovácie týchto predplatných zatiaľ nepodporujeme, čoskoro však budeme.
+iap-upgrade-contact-support = Tento produkt stále môžete získať – kontaktujte podporu, aby sme vám mohli pomôcť.
+iap-upgrade-get-help-button = Získať pomoc
+
 ## Settings
 
 settings-home = Domovská stránka účtu
@@ -82,6 +90,7 @@ subscription-processing-title = Potvrdzuje sa odber…
 subscription-error-title = Chyba pri potvrdzovaní predplatného…
 subscription-noplanchange-title = Táto zmena plánu predplatného nie je podporovaná
 subscription-iapsubscribed-title = Už máte predplatné
+subscription-iaperrorupgrade-title = Zatiaľ vás nemôžeme inovovať
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -370,11 +379,16 @@ plan-details-show-button = Zobraziť podrobnosti
 plan-details-hide-button = Skryť podrobnosti
 plan-details-total-label = Celkom
 plan-details-list-price = Cenník
+plan-details-tax = Dane a poplatky
 
 ## Coupons
 
 coupon-discount = Zľava
 coupon-discount-applied = Zľava bola uplatnená
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Promo kód
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Promo kód bol použitý
 coupon-submit = Použiť
 coupon-remove = Odstrániť
 coupon-error = Zadaný kód je neplatný alebo jeho platnosť vypršala.
