@@ -368,6 +368,8 @@ plan-details-tax = Dawki a popłatki
 
 coupon-discount = Rabat
 coupon-discount-applied = Rabatowa premija je so nałožiła
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Akciski kod
 coupon-submit = Nałožić
 coupon-remove = Wotstronić
 coupon-error = Kod, kotryž sće zapodał, je njepłaćiwy abo spadnył.
