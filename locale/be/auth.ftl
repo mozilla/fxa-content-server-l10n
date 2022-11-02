@@ -247,6 +247,7 @@ downloadSubscription-link-action-2 = Пачаць
 fraudulentAccountDeletion-subject = Ваш { -product-firefox-account(case: "nom", capitalization: "lower") } быў выдалены
 fraudulentAccountDeletion-title = Ваш уліковы запіс быў выдалены
 fraudulentAccountDeletion-content = Нядаўна з дапамогай гэтага адраса электроннай пошты быў створаны { -product-firefox-account } і знята аплата за падпіску. Як і для ўсіх новых уліковых запісаў, мы папрасілі вас пацвердзіць адрас электроннай пошты.
+fraudulentAccountDeletion-content-2 = Зараз мы бачым, што ўліковы запіс яшчэ не быў пацверджаны. Паколькі гэты крок не быў завершаны, мы не можам быць упэўненымі, што гэта была аўтарызаваная падпіска. У выніку гэтага { -product-firefox-account }, зарэгістраваны на гэты адрас электроннай пошты, быў выдалены, а ваша падпіска — скасавана са зваротам усіх сродкаў.
 fraudulentAccountDeletion-contact = Калі ў вас ёсць пытанні, звярніцеся да нашай <a data-l10n-name="mozillaSupportUrl">каманды падтрымкі</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
