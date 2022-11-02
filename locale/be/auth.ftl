@@ -420,6 +420,12 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Ваша падпіска на { $productName } была скасавана
 subscriptionCancellation-title = Шкада, што вы сыходзіце
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Мы адмянілі вашу падпіску на { $productName }. Ваш апошні плацеж на суму { $invoiceTotal } быў выплачаны { $invoiceDateOnly }. Ваша паслуга будзе заставацца актыўнай на працягу бягучага аплачанага перыяду, які заканчваецца { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Вы перайшлі на { $productName }
@@ -492,6 +498,12 @@ subscriptionRenewalReminder-title = Ваша падпіска хутка буд�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Шаноўны кліент { $productName },
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Ваша бягучая падпіска наладжана на аўтаматычнае падаўжэнне праз { $reminderLength } дзён. У азначаны час { -brand-mozilla } падоўжыць вашу падпіску на { $planIntervalCount } { $planInterval }, і спіша суму ў памеры { $invoiceTotal } з выкарыстаннем спосабу аплаты, абранага ў вашым уліковым запісе.
 subscriptionRenewalReminder-content-closing = З павагай,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
