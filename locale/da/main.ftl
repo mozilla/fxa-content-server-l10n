@@ -57,6 +57,7 @@ fxa-post-passwordless-sub-error = Abonnementet er bekræftet, men bekræftelsess
 
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed = Du har allerede et { $productName }-abonnement via { -brand-name-google }s  eller { -brand-name-apple }s appbutikker.
+iap-upgrade-no-bundle-support = Vi understøtter ikke opgraderinger til disse abonnementer, men det kommer vi til at gøre snart.
 iap-upgrade-contact-support = Du kan stadig få dette produkt. Kontakt supporten, så vi kan hjælpe dig.
 iap-upgrade-get-help-button = Få hjælp
 
