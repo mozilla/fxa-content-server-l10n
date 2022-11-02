@@ -434,6 +434,13 @@ subscriptionDowngrade-subject = Вы перайшлі на { $productName }
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Вы паспяхова перайшлі з { $productNameOld } на { $productName }.
 # Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Пачынаючы з наступнага перыяду аплаты, ваш плацеж складзе { $paymentAmountNew } за { $productPaymentCycleNew } замест { $paymentAmountOld } за { $productPaymentCycleOld }. Адначасова вы таксама атрымаеце аднаразовы бонус у памеры { $paymentProrated } для пакрыцця ніжэйшага кошту за гэты { $productPaymentCycleOld }.
+# Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Калі вам будзе неабходна ўсталяваць новае праграмнае забеспячэнне, каб выкарыстоўваць { $productName }, вы атрымаеце асобны ліст з інструкцыямі па сцягванні.
 subscriptionDowngrade-content-auto-renew = Ваша падпіска будзе аўтаматычна падаўжацца кожны плацежны перыяд, пакуль вы не вырашыце яе скасаваць.
@@ -533,6 +540,13 @@ subscriptionUpgrade-title = Дзякуй за абнаўленне!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Вы паспяхова перайшлі з { $productNameOld } на { $productName }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info = Пачынаючы з наступнага перыяду аплаты, ваш плацеж складзе { $paymentAmountNew } за { $productPaymentCycleNew } замест { $paymentAmountOld } за { $productPaymentCycleOld }. Пры гэтым з вас таксама здымаецца аднаразовая плата ў памеры { $paymentProrated } для пакрыцця больш высокага кошту за гэты { $productPaymentCycleOld }.
 subscriptionUpgrade-content-charge-info-different-cycle = Вам будзе патрэбна аплаціць { $paymentProrated }, каб адбіць больш высокую цану вашай падпіскі за астатнюю частку гэтага { $productPaymentCycleOld }. Пачынаючы з наступнага перыяду аплаты, ваш плацеж зменіцца з { $paymentAmountOld } за { $productPaymentCycleOld } на { $paymentAmountNew } за { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
