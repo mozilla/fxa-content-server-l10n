@@ -433,6 +433,9 @@ subscriptionDowngrade-content-auto-renew = Ваша падпіска будзе 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Ваша падпіска на { $productName } была скасавана
 subscriptionFailedPaymentsCancellation-title = Ваша падпіска была скасавана
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Мы скасавалі вашу падпіску на { $productName }, таму што некалькі спроб аплаты не ўдаліся. Каб зноў атрымаць доступ, стварыце новую падпіску з абноўленым спосабам аплаты.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Аплата { $productName } пацверджана
