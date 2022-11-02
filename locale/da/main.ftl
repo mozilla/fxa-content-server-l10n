@@ -57,6 +57,8 @@ fxa-post-passwordless-sub-error = Abonnementet er bekræftet, men bekræftelsess
 
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed = Du har allerede et { $productName }-abonnement via { -brand-name-google }s  eller { -brand-name-apple }s appbutikker.
+iap-upgrade-contact-support = Du kan stadig få dette produkt. Kontakt supporten, så vi kan hjælpe dig.
+iap-upgrade-get-help-button = Få hjælp
 
 ## Settings
 
@@ -77,6 +79,7 @@ subscription-processing-title = Bekræfter abonnement…
 subscription-error-title = Der opstod en fejl under bekræftelse af abonnement…
 subscription-noplanchange-title = Denne ændring af abonnementsplan understøttes ikke
 subscription-iapsubscribed-title = Abonnerer allerede
+subscription-iaperrorupgrade-title = Vi kan ikke opgradere dig helt endnu
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -340,11 +343,16 @@ plan-details-show-button = Vis detaljer
 plan-details-hide-button = Skjul detaljer
 plan-details-total-label = I alt
 plan-details-list-price = Listepris
+plan-details-tax = Skatter og gebyrer
 
 ## Coupons
 
 coupon-discount = Rabat
 coupon-discount-applied = Rabat anvendt
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Rabatkode
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Rabatkode anvendt
 coupon-submit = Anvend
 coupon-remove = Fjern
 coupon-error = Den angivne kode er ugyldig eller udløbet.
