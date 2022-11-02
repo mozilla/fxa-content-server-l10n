@@ -53,6 +53,12 @@ fxa-account-signup-error-2 = Un errore di sistema ha impedito l’abbonamento a 
 newsletter-signup-error = Non sei iscritto alle notifiche via mail relative agli aggiornamenti dei prodotti. Puoi riprovare nelle impostazioni del tuo account.
 fxa-post-passwordless-sub-error = La sottoscrizione dell’abbonamento è confermata ma il caricamento della pagina di conferma non è riuscito. Verifica la tua email per configurare il tuo account.
 
+## IAP upgrade errors
+
+iap-upgrade-no-bundle-support = Gli aggiornamenti non sono disponibili per questi abbonamenti, ma lo saranno presto.
+iap-upgrade-contact-support = Puoi ancora ottenere questo prodotto: contatta l’assistenza per ricevere supporto.
+iap-upgrade-get-help-button = Ottieni assistenza
+
 ## Settings
 
 settings-home = Pagina principale dell’account
@@ -72,6 +78,7 @@ subscription-processing-title = Conferma abbonamento…
 subscription-error-title = Errore durante la conferma dell’abbonamento…
 subscription-noplanchange-title = Questa modifica al piano di abbonamento non è supportata
 subscription-iapsubscribed-title = Già abbonato
+subscription-iaperrorupgrade-title = Non è ancora possibile effettuare l’aggiornamento
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -328,11 +335,16 @@ plan-details-show-button = Mostra dettagli
 plan-details-hide-button = Nascondi dettagli
 plan-details-total-label = Totale
 plan-details-list-price = Prezzo di listino
+plan-details-tax = Tasse e commissioni
 
 ## Coupons
 
 coupon-discount = Sconto
 coupon-discount-applied = Sconto applicato
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Codice promozionale
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Codice promozionale applicato
 coupon-submit = Applica
 coupon-remove = Rimuovi
 coupon-error = Il codice inserito non è valido o è scaduto.
