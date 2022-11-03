@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-03 17:02+0000\n"
+"PO-Revision-Date: 2022-11-03 17:04+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1074,7 +1074,7 @@ msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:7 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "Pošalji e-mailom novi kod."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:18
 msgid "Connect another device"
@@ -1086,7 +1086,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "E-mail adresa potvrđena"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
 msgid "Complete your set-up"
@@ -1360,7 +1360,7 @@ msgstr ""
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
-msgstr "E-pošta"
+msgstr "E-mail adresa"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1941,7 +1941,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
