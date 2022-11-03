@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-03 13:51+0000\n"
+"PO-Revision-Date: 2022-11-03 16:50+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -74,7 +74,7 @@ msgstr "Sada možeš promijeniti svoj Firefox račun."
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Primarna e-mail adresa potvrđena"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -82,7 +82,7 @@ msgstr "Obavijesti o računu sada će se slati i na %(secondaryEmailVerified)s."
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Sekundarna e-mail adresa potvrđena"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -198,7 +198,7 @@ msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "E-pošta je ponovo poslana. Dodaj accounts@firefox.com u svoje kontakte za siguran primanje isporuke."
+msgstr "E-mail poruka je ponovo poslana. Dodaj accounts@firefox.com u svoje kontakte za sigurnu isporuku."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -278,11 +278,11 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr "Primarna e-pošta uspješno je potvrđena"
+msgstr "Primarna e-mail adresa uspješno potvrđena"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr "Sekundarna e-pošta uspješno je potvrđena"
+msgstr "Sekundarna e-mail adresa uspješno potvrđena"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -298,7 +298,7 @@ msgstr "Neočekivana greška"
 
 #: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
-msgstr "Pritisnuta poveznica za potvrdu e-pošte je istekla."
+msgstr "Pritisnuta poveznica za potvrđivanje e-mail adrese je istekla."
 
 #: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
@@ -330,7 +330,7 @@ msgstr "Nepoznati račun"
 
 #: .es5/lib/auth-errors.js:60
 msgid "Incorrect email case"
-msgstr "Neispravan upis adrese e-pošte"
+msgstr "Neispravan način zapisa e-mail adrese"
 
 #: .es5/lib/auth-errors.js:64
 msgid "Incorrect password"
@@ -390,19 +390,19 @@ msgstr "Nije bilo moguće poslati poruku na ovaj broj"
 
 #: .es5/lib/auth-errors.js:144
 msgid "Your email was just returned"
-msgstr "Upravo je vraćena vaša poruka e-pošte"
+msgstr "Tvoj e-mail je upravo vraćen"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Your email was just returned. Mistyped email?"
-msgstr "Upravo je vraćena vaša poruka e-pošte. Pogrešna adresa e-pošte?"
+msgstr "Tvoj e-mail je upravo vraćen. Pogrešna e-mail adresa?"
 
 #: .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
-msgstr "Nije moguće dostaviti e-poštu"
+msgstr "Nije moguće dostaviti e-mail"
 
 #: .es5/lib/auth-errors.js:156
 msgid "This email was already verified by another user"
-msgstr "Ova e-pošta se već koristi od strane drugog korisnika"
+msgstr "Ova e-mail adresa je već potvrđena od jednog drugog korisnika"
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
