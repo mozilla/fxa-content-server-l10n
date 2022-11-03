@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-03 12:10+0000\n"
+"PO-Revision-Date: 2022-11-03 13:50+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -42,7 +42,7 @@ msgstr "%(permissionName)s (obavezno)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
-msgstr "Adresa e-pošte"
+msgstr "E-mail adresa"
 
 #: .es5/views/permissions.js:49
 msgid "Display name"
@@ -426,7 +426,7 @@ msgstr "Za prijavu potrebna je primarna adresa e-pošte"
 
 #: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
-msgstr "Adresa se koristi od strane drugog računa"
+msgstr "Adresu koristi jedan drugi račun"
 
 #: .es5/lib/auth-errors.js:192
 msgid "Primary account email required for reset"
@@ -599,7 +599,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "Unesite ispravnu adresu e-pošte. firefox.com ne nudi e-poštu."
+msgstr "Upiši ispravnu e-mail adresu. firefox.com ne nudi e-mail adrese."
 
 #: .es5/lib/auth-errors.js:408
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -1897,7 +1897,7 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Nije tvoja e-mail adresa"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"

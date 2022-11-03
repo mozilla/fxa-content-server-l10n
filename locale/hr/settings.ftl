@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Zatvori poruku
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -52,6 +48,10 @@ app-footer-terms-of-service = Uvjeti korištenja
 ##
 
 
+## Alert Bar
+
+alert-bar-close-message = Zatvori poruku
+
 ## User's avatar
 
 avatar-your-avatar =
@@ -91,27 +91,18 @@ cs-cannot-refresh =
     Žao nam je. Došlo je do greške prilikom osvježavanja popisa
     povezanih usluga.
 cs-cannot-disconnect = Klijent nije pronađen; nije moguće prekinuti vezu
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = Odjavljeno iz { $service }.
 cs-refresh-button =
     .title = Osvježi povezane usluge
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Nedostajuće ili duplicirane stavke?
 cs-disconnect-sync-heading = Prekini vezu sa Syncom
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content =
-    Tvoji podatci o pregledavanju ostat će na tvom uređaju ({ $device }),
-     ali više neće biti sinkronizirani s tvojim računom.
-cs-disconnect-sync-reason =
-    Koji je glavni razlog za prekidanje veze
-    ovog uređaja?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -133,7 +124,7 @@ cs-sign-out-button = Odjava
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Preuzeto
@@ -142,23 +133,24 @@ datablock-copy =
 datablock-print =
     .message = Ispisano
 
+## Data collection section
+
+
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Izbornik za { -product-firefox-account }
 # This string is used to show the current user's name or email in the settings page menu.
 # Variables:
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
-drop-down-menu-signed-in-as = <signin>Prijavljeni kao</signin><user>{ $user }</user>
+drop-down-menu-signed-in-as = <signin>Prijavljen/a kao</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odjava
-drop-down-menu-sign-out-error = Oprosti, dogodila se greška kod odjave.
 
 ## Flow Container
 
 flow-container-back = Natrag
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Kodovi za oporavak
 get-data-trio-download =
     .title = Preuzmi
 get-data-trio-copy =
@@ -182,6 +174,9 @@ input-password-show = Prikaži lozinku
 input-password-hide-aria = Sakrij lozinku sa zaslona.
 input-password-show-aria = Prikaži lozinku kao obični tekst. Tvoja lozinka bit će vidljiva na zaslonu.
 
+## Linked Accounts section
+
+
 ## Modal
 
 modal-close-title = Zatvori
@@ -189,14 +184,7 @@ modal-cancel-button = Odustani
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Potvrdi svoju e-poštu
-mvs-enter-verification-code = Unesi svoj verifikacijski kôd
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Molimo unesi verifikacijski kôd poslan na <email>{ $email }</email> unutar 5 minuta.
 msv-cancel-button = Odustani
-msv-submit-button = Potvrdi
 
 ## Settings Nav
 
@@ -207,10 +195,8 @@ nav-connected-services = Povezane usluge
 nav-paid-subs = Plaćene pretplate
 nav-email-comm = Komunikacija e-poštom
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error = Došlo je do greške prilikom zamjene tvojim kôdova za oporavak.
-tfa-replace-code-success-alert = Ažurirani su kodovi za oporavak računa.
 
 ## Avatar change page
 
@@ -238,9 +224,6 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Nije moguće inicijalizirati kameru
 avatar-page-new-avatar =
     .alt = nova profilna slika
-avatar-page-file-upload-error-2 = Dogodila se greška tijekom prijenosa tvoje profilne slike.
-avatar-page-delete-error-2 = Dogodila se greška tijekom brisanja tvoje profilne slike.
-avatar-page-image-too-large-error = Slika je prevelika za prijenos.
 
 ##
 
@@ -249,14 +232,8 @@ avatar-page-image-too-large-error = Slika je prevelika za prijenos.
 
 pw-change-header =
     .title = Promijeni lozinku
-pw-change-stay-safe = Održi svoju sigurnost — ne koristi ponovno iste lozinke. Tvoja lozinka:
-pw-change-least-8-chars = Mora sadržati barem 8 znakova
-pw-change-not-contain-email = Ne smije biti tvoja adresa e-pošte
+pw-not-email = Nije tvoja e-mail adresa
 pw-change-must-match = Nova lozinka podudara se s potvrdom
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    Ne smije se podudarati s ovim <linkExternal>popisom čestih
-    lozinki</linkExternal>
 pw-change-cancel-button = Odustani
 pw-change-save-button = Spremi
 pw-change-forgot-password-link = Zaboravljena lozinka?
@@ -266,7 +243,12 @@ pw-change-new-password =
     .label = Unesi novu lozinku
 pw-change-confirm-password =
     .label = Potvrdi novu lozinku
-pw-change-success-alert = Lozinka je ažurirana.
+
+##
+
+
+## Password create page
+
 
 ##
 
@@ -278,8 +260,6 @@ delete-account-header =
 delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
 delete-account-acknowledge = Brisanjem računa potvrđuješ da će:
-delete-account-chk-box-1 =
-    .label = Sve plaćene pretplate biti otkazane
 delete-account-chk-box-3 =
     .label = Ponovna aktivacija ovom e-poštom možda neće vratiti tvoje spremljene informacije
 delete-account-chk-box-4 =
@@ -301,55 +281,42 @@ display-name-input =
     .label = Unesi prikazano ime
 submit-display-name = Spremi
 cancel-display-name = Odustani
-display-name-update-error = Došlo je do greške prilikom ažuriranja tvojeg prikazanog imena
-display-name-success-alert = Prikazano ime je ažurirano.
 
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Odustani
 recovery-key-close-button = Zatvori
 recovery-key-continue-button = Nastavi
 recovery-key-enter-password =
     .label = Unesi lozinku
-recovery-key-page-title =
-    .title = Ključ za oporavak
 recovery-key-step-1 = Korak 1 od 2
 recovery-key-step-2 = Korak 2 od 2
-recovery-key-success-alert = Ključ za oporavak je stvoren.
 
 ## Add secondary email page
 
-add-secondary-email-error = Došlo je do greške prilikom stvaranja ove e-pošte.
 add-secondary-email-page-title =
     .title = Sekundarna adresa e-pošte
 add-secondary-email-enter-address =
-    .label = Unesi adresu e-pošte
+    .label = Upiši e-mail adresu
 add-secondary-email-cancel-button = Odustani
 add-secondary-email-save-button = Spremi
 
-##
-
-
 ## Verify secondary email page
 
-verify-secondary-email-error = Došlo je do greške prilikom slanja verifikacijskom kôda.
 verify-secondary-email-page-title =
     .title = Sekundarna adresa e-pošte
-verify-secondary-email-verification-code =
-    .label = Unesi verifikacijski kôd
 verify-secondary-email-cancel-button = Odustani
-verify-secondary-email-verify-button = Potvrdi
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Unesi verifikacijski kôd poslan na adresu <strong>{ $email }</strong> unutar 5 minuta.
+verify-secondary-email-please-enter-code-2 = Upiši kȏd za potvrdu koji je poslan na <strong>{ $email }</strong> u roku od 5 minuta.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = Adresa { $email } uspješno je dodana.
+verify-secondary-email-success-alert-2 = Adresa { $email } je uspješno dodana
 
 ##
 
@@ -367,8 +334,6 @@ tfa-button-cancel = Odustani
 tfa-button-finish = Završi
 tfa-incorrect-totp = Neispravan kôd za dvofaktorsku autentifikaciju
 tfa-cannot-retrieve-code = Došlo je do greške prilikom dohvaćanja tvog kôda.
-tfa-cannot-verify-code = Došlo je do greške prilikom potvrtde tvog kôda za oporavak.
-tfa-incorrect-recovery-code = Neispravan kôd za oporavak
 tfa-enabled = Dvofaktorska autentifikacija je omogućena
 tfa-scan-this-code =
     Skeniraj ovaj QR kôd pomoću jedne od <linkExternal>ovih
@@ -376,6 +341,7 @@ tfa-scan-this-code =
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
     Koristi kôd { $secret } za postavljanje dvofaktorske autentifikacije u
     podržanim aplikacijama.
@@ -385,11 +351,6 @@ tfa-enter-secret-key = Unesi ovaj tajni ključ u svoju aplikaciju za provjeru au
 tfa-enter-totp = Sada unesi sigurnosni kôd iz aplikacije za provjeru autentičnosti.
 tfa-input-enter-totp =
     .label = Unesi sigurnosni kôd
-tfa-save-these-codes =
-    Spremi ove jednokratne kôdove na sigurnom mjestu kada
-    nemaš pristup svom mobilnom uređaju.
-tfa-enter-recovery-code =
-    .label = Unesi kôd za oporavak
 
 ##
 
@@ -401,12 +362,6 @@ profile-picture =
     .header = Slika
 profile-display-name =
     .header = Prikazano ime
-profile-password =
-    .header = Lozinka
-# This is a string that shows when the user's password was created.
-# Variables:
-#   $date (String) - a localized date and time string
-profile-password-created-date = Stvoreno { $date }
 profile-primary-email =
     .header = Primarna adresa e-pošte
 
@@ -417,6 +372,9 @@ profile-primary-email =
 
 security-heading = Sigurnost
 
+## Switch component
+
+
 ## Sub-section row Defaults
 
 row-defaults-action-add = Dodaj
@@ -424,20 +382,14 @@ row-defaults-action-change = Promijeni
 row-defaults-action-disable = Onemogući
 row-defaults-status = Ništa
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Ključ za oporavak
 rk-enabled = Omogućeno
 rk-not-set = Nije postavljeno
 rk-action-create = Stvori
 rk-action-remove = Ukloni
-rk-key-removed = Ključ za oporavak računa je uklonjen.
 rk-cannot-remove-key = Nije moguće ukloniti tvoj ključ za oporavak računa.
-rk-refresh-key = Osvježi ključ za oporavak
 rk-content-explain = Vrati svoje informacije kada zaboraviš svoju lozinku.
-rk-content-reset-data = Zašto ponovno postavljanje lozinke briše moje podatke?
-rk-remove-modal-heading = Ukloniti ključ za oporavak računa?
-rk-remove-error = Nije moguće ukloniti tvoj ključ za oporavak računa.
 
 ## Secondary email sub-section on main Settings page
 
@@ -446,28 +398,20 @@ se-heading = Sekundarna adresa e-pošte
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } je sada tvoja primarna e-pošta.
-se-set-primary-error = Žao nam je, došlo je do greške prilikom promjene tvoje primarne e-pošte.
+se-set-primary-successful-2 = { $email } je sada tvoja primarna e-mail adresa
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = E-pošta { $email } uspješno izbrisana.
-se-delete-email-error = Oprosti, dogodila se greška kod brisanja ove e-pošte.
-se-verify-session = Moraš potvrditi svoju trenutnu sesiju za izvršenje ove radnje.
-se-verify-session-error = Žao nam je, došlo je do greške tijekom provjere tvoje sesije.
+se-delete-email-successful-2 = Adresa { $email } je uspješno izrisana
 # Button to remove the secondary email
 se-remove-email =
     .title = Ukloni e-poštu
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Osvježi e-poštu
-se-unverified = nepotvrđeno
 # Button to make secondary email the primary
 se-make-primary = Učini primarnom
 se-default-content = Pristupi svom računu kada se ne možeš prijaviti na svoju primarnu e-poštu.
-se-content-note =
-    Napomena: sekundarna e-pošta ne može vratiti tvoje informacije — za to će ti
-    trebati <a>ključ za oporavak</a>.
 
 ##
 
@@ -475,7 +419,6 @@ se-content-note =
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dvofaktorska autentifikacija
-tfa-row-disabled = Dvofaktorska autentifikacija je onemogućena.
 tfa-row-enabled = Omogućeno
 tfa-row-not-set = Nije postavljeno
 tfa-row-action-add = Dodaj
@@ -485,11 +428,8 @@ tfa-row-button-refresh =
 tfa-row-content-explain =
     Spriječi da se netko drugi prijavi na tvoj račun tako da
     zahtijevamo jedinstveni kôd kojem samo ti imaš pristup.
-tfa-row-cannot-verify-session-2 = Žao nam je, došlo je do greške tijekom provjere tvoje sesije.
 tfa-row-disable-modal-heading = Onemogućiti dvofaktorsku autentifikaciju?
 tfa-row-disable-modal-confirm = Onemogući
-tfa-row-cannot-disable = Nije moguće onemogućiti dvofaktorsku autentifikaciju.
-tfa-row-change-modal-heading = Promijeniti kôdove za oporavak?
 tfa-row-change-modal-confirm = Promijeni
 tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
 
@@ -498,6 +438,5 @@ tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
 auth-error-102 = Nepoznati račun
 auth-error-103 = Netočna lozinka
 auth-error-110 = Nevažeći token
-auth-error-138 = Nepotvrđena sesija
 auth-error-155 = TOTP token nije pronađen
 auth-error-1008 = Tvoja nova lozinka mora biti drugačija
