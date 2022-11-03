@@ -51,6 +51,8 @@ fxa-post-passwordless-sub-error = המינוי אושר, אך טעינת עמו�
 
 ## IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = כבר יש לך מינוי ל־{ $productName } דרך חנויות האפליקציות { -brand-name-google } או { -brand-name-apple }.
 iap-upgrade-no-bundle-support = איננו תומכים בשדרוגים עבור המינויים האלה, אבל נתמוך בכך בקרוב.
 iap-upgrade-contact-support = באפשרותך עדיין להשיג את המוצר הזה — נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
 iap-upgrade-get-help-button = קבלת עזרה
