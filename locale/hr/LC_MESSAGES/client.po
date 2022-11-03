@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-03 13:50+0000\n"
+"PO-Revision-Date: 2022-11-03 13:51+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1404,7 +1404,7 @@ msgstr "Potvrdni e-mail koji smo poslali na %(email)s je vraćen i zaključali s
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Ako se radi o valjanoj e-adresi, <a %(escapedSupportLinkAttrs)s>javi nam</a> i pomoći ćemo ti otključati tvoj račun."
+msgstr "Ako se radi o valjanoj e-mail adresi, <a %(escapedSupportLinkAttrs)s>javi nam</a> i pomoći ćemo ti otključati tvoj račun."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
@@ -1634,7 +1634,7 @@ msgstr "Kartica ne stiže? Pošalji e-mail umjesto toga"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr "Dodaj sekundarnu adresu e-pošte"
+msgstr "Dodaj sekundarnu e-mail adresu"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."

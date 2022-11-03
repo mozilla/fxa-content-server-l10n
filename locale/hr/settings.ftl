@@ -316,7 +316,7 @@ verify-secondary-email-please-enter-code-2 = Upiši kȏd za potvrdu koji je posl
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert-2 = Adresa { $email } je uspješno dodana
+verify-secondary-email-success-alert-2 = E-mail adresa { $email } je uspješno dodana
 
 ##
 
@@ -402,7 +402,7 @@ se-set-primary-successful-2 = { $email } je sada tvoja primarna e-mail adresa
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful-2 = Adresa { $email } je uspješno izrisana
+se-delete-email-successful-2 = E-mail adresa { $email } je uspješno izrisana
 # Button to remove the secondary email
 se-remove-email =
     .title = Ukloni e-poštu
