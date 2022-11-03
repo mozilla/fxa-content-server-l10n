@@ -37,6 +37,9 @@ duplicate-transaction = Hmm. Izgleda da je identična transakcija upravo poslana
 coupon-expired = Čini se da je taj promotivni kôd istekao.
 card-error = Neuspjela obrada tvoje transakcije. Provjeri podatke za kreditnu karticu i pokušaj ponovo.
 
+## IAP upgrade errors
+
+
 ## Settings
 
 settings-home = Početna stranica računa
@@ -117,12 +120,6 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Poštanski broj
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-##
-
 payment-cancel-btn = Odustani
 payment-update-btn = Aktualiziraj
 payment-pay-btn = Plati sada
@@ -340,6 +337,7 @@ payment-confirmation-thanks-subheading = Potvrdni e-mail poslan je na adresu { $
 payment-confirmation-order-heading = Podaci narudžbe
 payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
 payment-confirmation-billing-heading = Naplata za
+payment-confirmation-details-heading-2 = Informacije o plaćanju
 payment-confirmation-amount = { $amount } / { $interval }
 
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -377,3 +375,13 @@ payment-confirmation-cc-card-ending-in = Kartica koja završava na { $last4 }
 
 ## New user email form
 
+new-user-sign-in-link = Već imaš { -brand-name-firefox } račun? <a>Prijavi se</a>
+new-user-step-1 = 1. Otvori { -brand-name-firefox } račun
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .label = Upiši svoju e-mail adresu
+new-user-confirm-email =
+    .label = Potvrdi svoju e-mail adresu
+new-user-email-validate = E-mail adresa nije ispravna
