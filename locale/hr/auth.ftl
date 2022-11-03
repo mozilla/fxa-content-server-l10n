@@ -149,15 +149,70 @@ subscriptionFirstInvoice-content-invoice-number-plaintext = Broj računa: { $inv
 # Variables:
 #  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoice-content-plan-change = Promjena plana: { $paymentProrated }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Popust: −{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Jednokratni popust: −{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-mjesečni popust: −{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Porezi i naknade: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Naplaćeno { $invoiceTotal }, { $invoiceDateOnly }
+subscriptionSupport = Imaš pitanja o tvojoj pretplati? Naš <a data-l10n-name="subscriptionSupportUrl">tim za podršku</a> ti može pomoći.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Pitanja o tvojoj pretplati? Naš tim za podršku spreman je pomoći:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Za sprečavanje prekida korištenja usluge, aktualiziraj podatke naplate što je prije:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Za više informacija posjeti stranicu { -brand-mozilla } podrške: { $supportUrl }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } na { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } na { $uaOS }
+# Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP adresa: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (procijenjeno)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (procijenjeno)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (procijenjeno)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (procijenjeno)
+view-invoice = <a data-l10n-name="invoiceLink">Pogledaj svoj račun</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Pogledaj račun: { $invoiceLink }
+cadReminderFirst-subject-1 = Podsjetnik! Sinkronizirajmo { -brand-firefox }
 cadReminderFirst-action = Sinkroniziraj jedan drugi uređaj
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-action = Sinkroniziraj jedan drugi uređaj
+fraudulentAccountDeletion-subject = Tvoj { -product-firefox-account } račun je izbrisan
+fraudulentAccountDeletion-title = Tvoj račun je izbrisan
 newDeviceLogin-action = Upravljanje računom
 passwordChanged-subject = Lozinka aktualizirana
 passwordChanged-title = Lozinka je uspješno promijenjena
@@ -166,6 +221,7 @@ passwordChangeRequired-title = Potrebna promjena lozinke
 passwordChangeRequired-sign-in = Ponovo se prijavi na bilo koji uređaj ili uslugu na kojima koristiš svoj { -product-firefox-account } račun i slijedi korake koji će ti biti predstavljeni.
 passwordChangeRequired-different-password = <b>Važno:</b> odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte.
 passwordChangeRequired-signoff = Lijep pozdrav,
+passwordChangeRequired-signoff-name = { -product-firefox-accounts } tim
 passwordChangeRequired-different-password-plaintext = Važno: odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte.
 passwordReset-subject = Lozinka aktualizirana
 passwordReset-title = Lozinka tvog računa je promijenjena
