@@ -226,7 +226,17 @@ passwordChangeRequired-different-password-plaintext = Važno: odaberi lozinku ko
 passwordReset-subject = Lozinka aktualizirana
 passwordReset-title = Lozinka tvog računa je promijenjena
 passwordReset-description = Za nastavak sinkronizacije morat ćeš unijeti novu lozinku na drugim uređajima.
+passwordResetAccountRecovery-subject-2 = Tvoja lozinka je resetirana
+passwordResetAccountRecovery-title-2 = Resetiranje lozinke je uspjelo
 postAddAccountRecovery-action = Upravljanje računom
+postAddAccountRecovery-delete-key = Izbriši novi ključ:
+postAddAccountRecovery-changd-password = Promijeni svoju lozinku:
+postAddLinkedAccount-subject = Novi račun je povezan na { -brand-firefox }
+postAddLinkedAccount-action = Upravljaj računom
+postAddTwoStepAuthentication-subject-2 = Dvofaktorska autentifikacija aktivirana
+postAddTwoStepAuthentication-title-2 = Aktivirao/la si dvofaktorsku autentifikaciju
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Aktivirao/la si je s:
 postAddTwoStepAuthentication-action = Upravljanje računom
 postChangePrimary-subject = Primarna e-mail adresa aktualizirana
 postChangePrimary-title = Nova primarna adresa e-pošte
@@ -237,12 +247,21 @@ postRemoveAccountRecovery-action = Upravljanje računom
 postRemoveSecondary-subject = Sekundarna adresa e-pošte je uklonjena
 postRemoveSecondary-title = Sekundarna adresa e-pošte je uklonjena
 postRemoveSecondary-action = Upravljanje računom
+postRemoveTwoStepAuthentication-subject-line-2 = Dvofaktorska autentifikacija je deaktivirana
+postRemoveTwoStepAuthentication-title-2 = Deaktivirao/la si dvofaktorsku autentifikaciju
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Dektivirao/la si je s:
 postRemoveTwoStepAuthentication-action = Upravljanje računom
-postVerifySecondary-subject = Dodana je sekundarna adresa e-pošte
-postVerifySecondary-title = Dodana je sekundarna adresa e-pošte
+postVerify-setup-2 = Poveži jedan drugi uređaj:
+postVerify-action-2 = Poveži jedan drugi uređaj
+postVerifySecondary-subject = Dodana je sekundarna e-mail adresa
+postVerifySecondary-title = Dodana je sekundarna e-mail adresa
 postVerifySecondary-action = Upravljanje računom
 recovery-subject = Ponovo postavi svoju lozinku
 recovery-action = Stvori novu lozinku
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Tvoja pretplata na { $productName } je otkazana
 subscriptionAccountDeletion-title = Žao nam je što odlaziš
 subscriptionCancellation-title = Žao nam je što odlaziš
 subscriptionDowngrade-content-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
