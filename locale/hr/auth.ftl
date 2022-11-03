@@ -34,13 +34,20 @@
 
 ## Non-email strings
 
+session-verify-send-push-title = Želiš se prijaviti na { -product-firefox-accounts }?
+session-verify-send-push-body-2 = Pritisni ovdje da potvrdiš da si to ti
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-firefox-logo = <img data-l10n-name="fxa-logo" alt="{ -brand-firefox } logotip">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sinkroniziraj uređaje">
+body-devices-image = <img data-l10n-name="devices-image" alt="Uređaji">
 fxa-privacy-url = { -brand-mozilla } - politika privatnosti
 fxa-service-url = Uvjeti pružanja usluge { -product-firefox-cloud }
+subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logotip">
+subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logotip">
 subplat-automated-email = Ovo je automatski e-mail; ako si ga dobio/la greškom, nije potrebna nikakva radnja.
 subplat-privacy-plaintext = Napomena o privatnosti:
 subplat-terms-policy = Uvjeti i politika otkazivanja
