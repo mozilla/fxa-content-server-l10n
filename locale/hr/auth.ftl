@@ -49,7 +49,9 @@ fxa-service-url = Uvjeti pružanja usluge { -product-firefox-cloud }
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } logotip">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logotip">
 subplat-automated-email = Ovo je automatski e-mail; ako si ga dobio/la greškom, nije potrebna nikakva radnja.
+subplat-privacy-notice = Napomena o privatnosti
 subplat-privacy-plaintext = Napomena o privatnosti:
+subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = Uvjeti i politika otkazivanja
 subplat-cancel = Otkaži pretplatu
 subplat-reactivate = Ponovno aktiviranje pretplate
