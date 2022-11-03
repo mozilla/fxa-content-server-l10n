@@ -60,12 +60,48 @@ subplat-explainer-specific = Dobivaš ovaj e-mail jer { $email } ima { -product-
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Dobivaš ovaj e-mail jer { $email } ima { -product-firefox-account }.
 subplat-explainer-multiple = Dobivaš ovaj e-mail jer { $email } ima { -product-firefox-account } i pretplatio/la si se za više proizvoda.
+subplat-explainer-was-deleted = Dobivaš ovaj e-mail jer je { $email } registriran za jedan { -product-firefox-account }.
+subplat-manage-account = Upravljaj svojim { -product-firefox-account } postavkama na <a data-l10n-name="subplat-account-page">stranici računa</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Upravljaj svojim { -product-firefox-account } postavkama na stranici računa: { $accountSettingsUrl }
 subplat-terms-policy = Uvjeti i politika otkazivanja
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Otkaži pretplatu
-subplat-reactivate = Ponovno aktiviranje pretplate
+subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate = Ponovo aktiviraj pretplatu
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Aktualiziraj podatke naplate
+subplat-privacy-policy = { -brand-mozilla } politika privatnosti
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-cloud-terms = { -product-firefox-cloud } uvjeti pružanja usluge
+subplat-cloud-terms-plaintext = { subplat-cloud-terms }:
 subplat-legal = Pravno
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatnost
+subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Preuzmi { $productName } na { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Preuzmi { $productName } na { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Instaliraj { $productName } na <a data-l10n-name="anotherDeviceLink">jedan drugi desktop uređaj</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Instaliraj { $productName } na <a data-l10n-name="anotherDeviceLink">jedan drugi uređaj</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Preuzmi { $productName } na Google Playu:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Preuzmi { $productName } na App Storeu:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Instaliraj { $productName } na jedan drugi uređaj:
+automated-email-change-2 = Ako nisi poduzeo/la ovu radnju, odmah <a data-l10n-name="passwordChangeLink">promijeni svoju lozinku</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Pomogni nam u poboljšanju naših usluga ispunjavanjem ove kratke ankete:
 change-password-plaintext = Ako sumnjaš da netko pokušava pristupiti tvom računu, promijeni svoju lozinku.
@@ -74,6 +110,9 @@ manage-account = Upravljanje računom
 subscriptionSupport-plaintext = Pitanja o tvojoj pretplati? Naš tim za podršku spreman je pomoći:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Za sprečavanje prekida korištenja usluge, aktualiziraj podatke naplate što je prije:
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP adresa: { $ip }
 cadReminderFirst-action = Sinkroniziraj jedan drugi uređaj
 cadReminderSecond-action = Sinkroniziraj jedan drugi uređaj
 newDeviceLogin-action = Upravljanje računom
