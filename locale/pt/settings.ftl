@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Fechar mensagem
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -53,6 +49,10 @@ app-footer-terms-of-service = Condições de utilização
 
 ##
 
+
+## Alert Bar
+
+alert-bar-close-message = Fechar mensagem
 
 ## User's avatar
 
@@ -230,7 +230,9 @@ modal-cancel-button = Cancelar
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Confirmar o seu endereço de correio eletrónico
+mvs-enter-verification-code-2 = Introduza o seu código de confirmação
 msv-cancel-button = Cancelar
+msv-submit-button-2 = Confirmar
 
 ## Settings Nav
 
@@ -378,6 +380,7 @@ add-secondary-email-step-2 = Passo 2 de 2
 verify-secondary-email-page-title =
     .title = E-mail secundário
 verify-secondary-email-cancel-button = Cancelar
+verify-secondary-email-verify-button-2 = Confirmar
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
