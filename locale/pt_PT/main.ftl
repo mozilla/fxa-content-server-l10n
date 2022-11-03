@@ -53,6 +53,9 @@ fxa-account-signup-error-2 = Um erro de sistema fez com que a sua subscrição n
 newsletter-signup-error = Não subscreveu a quaisquer e-mails de atualizações do produto. Pode tentar novamente nas definições da sua conta.
 fxa-post-passwordless-sub-error = Subscrição confirmada, mas o carregamento da página de confirmação falhou. Por favor, consulte o seu e-mail para configurar a sua conta.
 
+## IAP upgrade errors
+
+
 ## Settings
 
 settings-home = Página inicial da conta
@@ -339,6 +342,10 @@ plan-details-list-price = Preço de tabela
 
 coupon-discount = Desconto
 coupon-discount-applied = Prémio de desconto aplicado
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Código promocional
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Código promocional aplicado
 coupon-submit = Aplicar
 coupon-remove = Remover
 coupon-error = O código que inseriu é inválido ou expirou.
