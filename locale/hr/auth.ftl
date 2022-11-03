@@ -264,19 +264,78 @@ recovery-action = Stvori novu lozinku
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Tvoja pretplata na { $productName } je otkazana
 subscriptionAccountDeletion-title = Žao nam je što odlaziš
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Dobro došao, dobro došla u { $productName }: Postavi svoju lozinku.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Dobro došao, dobro došla u { $productName }
+subscriptionAccountFinishSetup-action-2 = Započni
+subscriptionAccountReminderFirst-subject = Podsjetnik: dovrši postavljanje računa
+subscriptionAccountReminderFirst-title = Još ne možeš pristupiti svojoj pretplati
+subscriptionAccountReminderFirst-action = Stvori lozinku
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Posljednji podsjetnik: postavi svoj račun
+subscriptionAccountReminderSecond-title = Dobro došao, dobro došla u { -brand-firefox }!
+subscriptionAccountReminderSecond-action = Stvori lozinku
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Tvoja pretplata na { $productName } je otkazana
 subscriptionCancellation-title = Žao nam je što odlaziš
 subscriptionDowngrade-content-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Tvoja pretplata na { $productName } je otkazana
+subscriptionFailedPaymentsCancellation-title = Tvoja pretplata je otkazana
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Sljedeći račun: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Kreditna kartica za { $productName } je istekla ili uskoro isteče
+subscriptionPaymentExpired-title-1 = Tvoja kreditna kartica je istekla ili će uskoro isteći
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = Kreditna kartica koju koristiš za plaćanja za { $productName } je istekla ili će uskoro isteći.
+subscriptionRenewalReminder-content-closing = S poštovanjem,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = { $productName } tim
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Sljedeći račun: { $nextInvoiceDateOnly }
 subscriptionUpgrade-title = Hvala na nadogradnji!
 subscriptionUpgrade-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
 unblockCode-subject = Kod za autorizaciju računa
 unblockCode-title = Je li ovo tvoja prijava?
 unblockCode-prompt = Ako da, ovo je potrebni autorizacijski kôd:
 unblockCode-report-plaintext = Ako ne, pomozi nam u sprječavanju neovlaštene prijave pomoću prijave problema.
+confirm-account = Potvrdi račun
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Ne zaboravi potvrditi svoj račun
+verificationReminderFirst-title-2 = Dobro došao, dobro došla u { -brand-firefox }
+confirm-email-2 = Potvrdi račun
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Potvrdi račun
+verificationReminderSecond-subject-2 = Ne zaboravi potvrditi svoj račun
+verificationReminderSecond-action-2 = Potvrdi račun
+verify-title-2 = Otvori internet s { -brand-firefox }
 verify-description = Potvrdi tvoj račun i koristi { -brand-firefox } na najbolji način neovisno o mjestu prijave, počevši od:
 verify-subject = Završi stvaranje računa
+verify-action-2 = Potvrdi račun
 verifyLogin-action = Potvrdi prijavu
 verifyLoginCode-expiry-notice = Istječe za 5 minuta.
+verifyPrimary-title-2 = Potvrdi primarnu e-mail adresu
 verifyPrimary-description = Zahtjev za izvršavanje promjene računa upućen je sa sljedećeg uređaja:
 verifyPrimary-subject = Potvrdi primarnu e-mail adresu
-verifySecondaryCode-subject = Potvrdi sekundarnu e-poštu
+verifyPrimary-action-2 = Potvrdi e-mail adresu
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifySecondaryCode-subject = Potvrdi sekundarnu e-mail adresu
+verifySecondaryCode-title-2 = Potvrdi sekundarnu e-mail adresu
+verifySecondaryCode-action-2 = Potvrdi e-mail adresu
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Potvrdi svoj račun
+verifyShortCode-title-2 = Otvori internet s { -brand-firefox }
 verifyShortCode-expiry-notice = Istječe za 5 minuta.
