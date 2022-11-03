@@ -105,10 +105,24 @@ automated-email-change-2 = Ako nisi poduzeo/la ovu radnju, odmah <a data-l10n-na
 automated-email-support = Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }„Podrška”</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Ako nisi poduzeo/la ovu radnju, odmah promijeni lozinku:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Za više informacija posjeti stranicu { -brand-mozilla } podrške:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla } podrške</a>.
+automated-email-no-action-plaintext = Ovo je automatizirana e-mail poruka. Ako si je primio/la greškom, ne moraš ništa učiniti.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Ovo je automatizirana e-mail poruka; ako nisi odobrio/la ovu radnju, promijeni lozinku:
+automated-email-reset = Ovo je automatizirana e-mail poruka; ako nisi odobrio/la ovu radnju, <a data-l10n-name="resetLink">promijeni lozinku</a>. Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }podrške</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Ako je nisi promijenio/la, resetiraj lozinku sada na { $resetLink }
+cancellationSurvey = Pomogni nam poboljšati naše usluge ispunjavanjem ove <a data-l10n-name="cancellationSurveyUrl">kratke ankete</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Pomogni nam u poboljšanju naših usluga ispunjavanjem ove kratke ankete:
 change-password-plaintext = Ako sumnjaš da netko pokušava pristupiti tvom računu, promijeni svoju lozinku.
 manage-account = Upravljanje računom
+manage-account-plaintext = { manage-account }:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Pitanja o tvojoj pretplati? Naš tim za podršku spreman je pomoći:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
