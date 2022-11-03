@@ -53,6 +53,14 @@ fxa-account-signup-error-2 = Door een systeemfout is uw registratie bij { $produ
 newsletter-signup-error = U bent niet ingeschreven voor e-mailberichten over productupdates. U kunt het opnieuw proberen in uw accountinstellingen.
 fxa-post-passwordless-sub-error = Abonnement bevestigd, maar de bevestigingspagina kan niet worden geladen. Controleer uw e-mail om uw account in te stellen.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = U hebt al een abonnement op { $productName } via de appstore van { -brand-name-google } of { -brand-name-apple }.
+iap-upgrade-no-bundle-support = We ondersteunen geen upgrades voor deze abonnementen, maar dat doen we binnenkort wel.
+iap-upgrade-contact-support = U kunt dit product nog steeds verkrijgen – neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
+iap-upgrade-get-help-button = Hulp verkrijgen
+
 ## Settings
 
 settings-home = Account-startpagina
@@ -72,6 +80,7 @@ subscription-processing-title = Abonnement bevestigen…
 subscription-error-title = Fout bij bevestigen abonnement…
 subscription-noplanchange-title = Deze abonnementswijziging wordt niet ondersteund
 subscription-iapsubscribed-title = Al geabonneerd
+subscription-iaperrorupgrade-title = We kunnen u nog niet upgraden
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -335,11 +344,16 @@ plan-details-show-button = Details tonen
 plan-details-hide-button = Details verbergen
 plan-details-total-label = Totaal
 plan-details-list-price = Normale prijs
+plan-details-tax = Belastingen en heffingen
 
 ## Coupons
 
 coupon-discount = Korting
 coupon-discount-applied = Kortingsbeloning toegepast
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Promotiecode
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Promotiecode toegepast
 coupon-submit = Toepassen
 coupon-remove = Verwijderen
 coupon-error = De ingevoerde kortingscode is ongeldig of verlopen.
