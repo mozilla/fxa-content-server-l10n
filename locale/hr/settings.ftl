@@ -184,6 +184,7 @@ modal-cancel-button = Odustani
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Potvrdi svoju e-mail adresu
 msv-cancel-button = Odustani
 
 ## Settings Nav
@@ -297,6 +298,7 @@ recovery-key-step-2 = Korak 2 od 2
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Korak 1 od 2
 add-secondary-email-page-title =
     .title = Sekundarna adresa e-pošte
 add-secondary-email-enter-address =
@@ -306,9 +308,14 @@ add-secondary-email-save-button = Spremi
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Korak 2 od 2
+verify-secondary-email-error-3 = Došlo je do problema pri slanju potvrdnog koda
 verify-secondary-email-page-title =
     .title = Sekundarna adresa e-pošte
+verify-secondary-email-verification-code-2 =
+    .label = Upiši svoj kod za potvrdu
 verify-secondary-email-cancel-button = Odustani
+verify-secondary-email-verify-button-2 = Potvrdi
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -409,8 +416,9 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Osvježi e-poštu
+se-unverified-2 = nepotvrđeno
 # Button to make secondary email the primary
-se-make-primary = Učini primarnom
+se-make-primary = Postavi primarnom
 se-default-content = Pristupi svom računu kada se ne možeš prijaviti na svoju primarnu e-poštu.
 
 ##
@@ -438,5 +446,6 @@ tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
 auth-error-102 = Nepoznati račun
 auth-error-103 = Netočna lozinka
 auth-error-110 = Nevažeći token
+auth-error-139 = Sekundarna e-mail adresa mora biti drugačija od e-mail adrese računa
 auth-error-155 = TOTP token nije pronađen
 auth-error-1008 = Tvoja nova lozinka mora biti drugačija

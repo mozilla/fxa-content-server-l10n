@@ -385,3 +385,11 @@ new-user-email =
 new-user-confirm-email =
     .label = Potvrdi svoju e-mail adresu
 new-user-email-validate = E-mail adresa nije ispravna
+new-user-email-validate-confirm = E-mail adrese se ne poklapaju
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Je li e-mail adresa ispravna? { $domain } ne nudi e-mail adrese.
+new-user-card-title = Upiši podatke tvoje kartice
+new-user-submit = Pretplati se sada
+payment-method-header = Odaberi način plaćanja
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
