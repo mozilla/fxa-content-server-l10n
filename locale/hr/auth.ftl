@@ -52,6 +52,14 @@ subplat-automated-email = Ovo je automatski e-mail; ako si ga dobio/la greškom,
 subplat-privacy-notice = Napomena o privatnosti
 subplat-privacy-plaintext = Napomena o privatnosti:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Dobivaš ovaj e-mail jer { $email } ima { -product-firefox-account } i prijavio/la si se za { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Dobivaš ovaj e-mail jer { $email } ima { -product-firefox-account }.
+subplat-explainer-multiple = Dobivaš ovaj e-mail jer { $email } ima { -product-firefox-account } i pretplatio/la si se za više proizvoda.
 subplat-terms-policy = Uvjeti i politika otkazivanja
 subplat-cancel = Otkaži pretplatu
 subplat-reactivate = Ponovno aktiviranje pretplate
