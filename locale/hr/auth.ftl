@@ -256,8 +256,9 @@ postVerify-setup-2 = Poveži jedan drugi uređaj:
 postVerify-action-2 = Poveži jedan drugi uređaj
 postVerifySecondary-subject = Dodana je sekundarna e-mail adresa
 postVerifySecondary-title = Dodana je sekundarna e-mail adresa
-postVerifySecondary-action = Upravljanje računom
+postVerifySecondary-action = Upravljaj računom
 recovery-subject = Ponovo postavi svoju lozinku
+recovery-title-2 = Zaboravio/la si lozinku?
 recovery-action = Stvori novu lozinku
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
