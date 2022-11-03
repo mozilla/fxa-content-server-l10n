@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-03 16:50+0000\n"
+"PO-Revision-Date: 2022-11-03 17:02+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -410,19 +410,19 @@ msgstr "Neprovjerena sesija"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
-msgstr "Sekundarna e-pošta mora biti različita od e-pošte računa"
+msgstr "Sekundarna e-mail adresa mora biti drugačija od e-mail adrese računa"
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr "Dostignut je maksimalan broj sekundarnih adresa e-pošte"
+msgstr "Dostignut je maksimalan broj dozvoljenih sekundarnih e-mail adresa"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
-msgstr "Ova adresa e-pošte već postoji na tvom računu"
+msgstr "Ova e-mail adresa već postoji u tvom računu"
 
 #: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
-msgstr "Za prijavu potrebna je primarna adresa e-pošte"
+msgstr "Za prijavu je potrebna je primarna e-mail adresa"
 
 #: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
@@ -430,7 +430,7 @@ msgstr "Adresu koristi jedan drugi račun"
 
 #: .es5/lib/auth-errors.js:192
 msgid "Primary account email required for reset"
-msgstr "Za ponovno postavljanje potrebna je primarna e-pošta računa"
+msgstr "Za ponovno postavljanje je potrebna primarna e-mail adresa računa"
 
 #: .es5/lib/auth-errors.js:196
 msgid "Invalid signin code"
@@ -438,19 +438,19 @@ msgstr "Netočan kȏd za prijavu"
 
 #: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an unverified email"
-msgstr "Nije moguće izmijeniti primarnu e-poštu u neprovjerenu adresu e-pošte"
+msgstr "Nije moguće promijeniti primarnu e-mail adresu u neprovjerenu e-mail adresu"
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "Nije moguće izmijeniti primarnu e-poštu u adresu e-pošte koja ne pripada ovom računu"
+msgstr "Nije moguće promijeniti primarnu e-mail adresu u e-mail adresu koja ne pripada ovom računu"
 
 #: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
-msgstr "Ova e-pošta se trenutno ne može koristiti za prijavu"
+msgstr "Ova se e-mail adresa trenutačno ne može koristiti za prijavu"
 
 #: .es5/lib/auth-errors.js:216
 msgid "Failed to send email"
-msgstr "Slanje e-pošte nije uspjelo"
+msgstr "Neuspjelo slanje e-mail poruke"
 
 #: .es5/lib/auth-errors.js:220
 msgid "Valid code required"
@@ -579,7 +579,7 @@ msgstr "Potrebna je važeća lozinka"
 
 #: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
 msgid "Valid email required"
-msgstr "Potrebna je važeća adresa e-pošte"
+msgstr "Potrebna je važeća e-mail adresa"
 
 #: .es5/lib/auth-errors.js:368
 msgid "A usable image was not found"
@@ -595,7 +595,7 @@ msgstr "Potreban je važeći URL"
 
 #: .es5/lib/auth-errors.js:392
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Tvoj potvrdni e-mail je upravo vraćen. Je li e-mail adresa ispravna?"
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -695,7 +695,7 @@ msgstr "Neispravno preusmjeravanje"
 
 #: .es5/lib/auth-errors.js:613
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr "Pogrešna adresa e-pošte? %(domain)s ne nudi e-poštu."
+msgstr "Je li e-mail adresa ispravna? %(domain)s ne nudi e-mail adrese."
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
@@ -711,7 +711,7 @@ msgstr "Neispravna konfiguracija"
 
 #: .es5/lib/email-domain-validator.js:40
 msgid "Mistyped email?"
-msgstr "Pogrešno upisana adresa e-pošte?"
+msgstr "Je li e-mail adresa ispravna?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
@@ -985,7 +985,7 @@ msgstr "Sjećaš se lozinke? Prijavi se"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "Primarna adresa e-pošte već je potvrđena"
+msgstr "Primarna e-mail adresa je već potvrđena"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -997,7 +997,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Pritisnuta poveznica za potvrđivanje e-mail adrese je istekla."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
@@ -1056,7 +1056,7 @@ msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Upiši kod koji je poslan na %(escapedEmail)s u roku od 5 minuta."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
