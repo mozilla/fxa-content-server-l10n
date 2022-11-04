@@ -3,20 +3,33 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts = Firefox accounts
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox 帳號
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
@@ -407,6 +420,7 @@ subscriptionCancellation-title = 很遺憾看見您離開
 #   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = 您的 { $productName } 訂閱已經取消，最後一次付款日期在 { $invoiceDateOnly }，金額為 { $invoiceTotal }。您可繼續使用訂閱服務到目前的帳務週期結束為止，也就是 { $serviceLastActiveDateOnly }。
+subscriptionCancellation-outstanding-content = 您的 { $productName } 訂閱已經取消，最後一次付款日期將於 { $invoiceDateOnly }，金額為 { $invoiceTotal }。您可繼續使用訂閱服務到目前的帳務週期結束為止，也就是 { $serviceLastActiveDateOnly }。
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = 您已切換到 { $productName }
