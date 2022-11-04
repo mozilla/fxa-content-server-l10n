@@ -59,6 +59,14 @@ fxa-account-signup-error-2 = Järjestelmävirhe aiheutti { $productName } -rekis
 newsletter-signup-error = Et ole tilannut tuotepäivityksiin liittyviä sähköposteja. Voit yrittää uudelleen tilisi asetuksista.
 fxa-post-passwordless-sub-error = Tilaus on vahvistettu, mutta vahvistussivun lataaminen epäonnistui. Tarkista sähköpostistasi ohjeet, kuinka määrität tilin valmiiksi.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Sinulla on jo { $productName }-tilaus { -brand-name-google }n tai { -brand-name-apple }n sovelluskaupan kautta.
+iap-upgrade-no-bundle-support = Emme tue päivityksiä näille tilauksille tällä hetkellä, mutta tuemme pian.
+iap-upgrade-contact-support = Voit edelleen hankkia tämän tuotteen — ota yhteyttä tukeen, jotta voimme auttaa sinua.
+iap-upgrade-get-help-button = Tuki
+
 ## Settings
 
 settings-home = Tilin koti
@@ -78,6 +86,7 @@ subscription-processing-title = Vahvistetaan tilausta…
 subscription-error-title = Virhe tilausta vahvistaessa…
 subscription-noplanchange-title = Tämä tilaustyypin vaihtaminen ei ole tuettu
 subscription-iapsubscribed-title = Tilattu jo aiemmin
+subscription-iaperrorupgrade-title = Emme voi päivittää sinua vielä
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -338,11 +347,16 @@ plan-details-show-button = Näytä tiedot
 plan-details-hide-button = Piilota tiedot
 plan-details-total-label = Yhteensä
 plan-details-list-price = Listahinta
+plan-details-tax = Verot ja maksut
 
 ## Coupons
 
 coupon-discount = Alennus
 coupon-discount-applied = Alennuspalkkio sovellettu
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Tarjouskoodi
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Tarjouskoodi sovellettu
 coupon-submit = Käytä
 coupon-remove = Poista
 coupon-error = Antamasi koodi on virheellinen tai vanhentunut.
