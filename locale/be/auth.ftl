@@ -426,6 +426,7 @@ subscriptionCancellation-title = Шкада, што вы сыходзіце
 #   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = Мы адмянілі вашу падпіску на { $productName }. Ваш апошні плацеж на суму { $invoiceTotal } быў выплачаны { $invoiceDateOnly }. Ваша паслуга будзе заставацца актыўнай на працягу бягучага аплачанага перыяду, які заканчваецца { $serviceLastActiveDateOnly }.
+subscriptionCancellation-outstanding-content = Мы адмянілі вашу падпіску на { $productName }. Ваш апошні плацеж на суму { $invoiceTotal } будзе выплачаны { $invoiceDateOnly }. Ваша паслуга будзе заставацца актыўнай на працягу бягучага аплачанага перыяду, які заканчваецца { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Вы перайшлі на { $productName }
