@@ -3,9 +3,18 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla =
     { $case ->
        *[nom] Mozilla
@@ -26,7 +35,8 @@
         [ins] Firefoxom
     }
     .gender = masculine
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts =
     { $case ->
        *[nom]
@@ -60,7 +70,8 @@
                 [lower] účtom Firefox
             }
     }
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
        *[nom]
@@ -94,11 +105,13 @@
                 [lower] účtom Firefox
             }
     }
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
@@ -495,6 +508,7 @@ subscriptionCancellation-title = Mrzí nás, že odchádzate
 #   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = Zrušili sme vaše predplatné produktu { $productName }. Vaša posledná platba vo výške { $invoiceTotal } bola zaplatená dňa { $invoiceDateOnly }. Vaša služba bude pokračovať až do konca vášho aktuálneho fakturačného obdobia, čo je { $serviceLastActiveDateOnly }.
+subscriptionCancellation-outstanding-content = Zrušili sme vaše predplatné produktu { $productName }. Vaša posledná platba vo výške { $invoiceTotal } bude zaplatená dňa { $invoiceDateOnly }. Vaša služba bude pokračovať až do konca vášho aktuálneho fakturačného obdobia, čo je { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Úspešne ste prešli na { $productName }
