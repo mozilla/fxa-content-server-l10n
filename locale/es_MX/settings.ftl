@@ -189,6 +189,7 @@ flow-container-back = Atrás
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } clave de recuperación de cuenta
+get-data-trio-title-firefox-backup-verification-codes = Códigos de autenticación de respaldo de { -brand-firefox }
 get-data-trio-download =
     .title = Descargar
 get-data-trio-copy =
@@ -250,6 +251,10 @@ nav-email-comm = Comunicaciones por correo electrónico
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Hubo un problema al reemplazar tus códigos de autenticación de respaldo
+tfa-replace-code-success-1 =
+    Se han creado nuevos códigos. Guarda estos códigos de autenticación de respaldo de un solo uso
+    en un lugar seguro, los necesitarás para acceder a tu cuenta si no tienes tu dispositivo móvil.
 tfa-replace-code-success-alert-3 = Códigos de autenticación de respaldo de cuenta actualizados
 tfa-replace-code-1-2 = Paso 1 de 2
 tfa-replace-code-2-2 = Paso 2 de 2
@@ -365,6 +370,7 @@ display-name-success-alert-2 = Nombre para mostrar actualizado
 recovery-key-cancel-button = Cancelar
 recovery-key-close-button = Cerrar
 recovery-key-continue-button = Continuar
+recovery-key-created-1 = Se ha creado la clave de recuperación de tu cuenta. Asegúrate de guardar la clave en un lugar seguro que puedas encontrar fácilmente más tarde; necesitarás la clave para recuperar el acceso a tus datos si olvida su contraseña.
 recovery-key-enter-password =
     .label = Ingresar contraseña
 recovery-key-page-title-1 =
