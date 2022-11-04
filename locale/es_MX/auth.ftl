@@ -3,20 +3,33 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts = Firefox accounts
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Cuenta de Firefox
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
@@ -310,7 +323,10 @@ postAddLinkedAccount-title = Tu cuenta de { $providerName } ha sido vinculada a 
 postAddLinkedAccount-action = Administrar cuenta
 postAddTwoStepAuthentication-subject-2 = Autenticación en dos pasos activada
 postAddTwoStepAuthentication-title-2 = Activaste la autenticación en dos pasos
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Lo activaste desde:
 postAddTwoStepAuthentication-action = Administrar cuenta
+postAddTwoStepAuthentication-code-required-2 = Los códigos de seguridad de tu aplicación de autenticación ahora se requieren cada vez que inicies sesión.
 postChangePrimary-subject = Correo principal actualizado
 postChangePrimary-title = Nuevo correo electrónico principal
 # Variables:
@@ -345,7 +361,10 @@ postRemoveSecondary-description = Has eliminado exitosamente { $secondaryEmail }
 postRemoveSecondary-action = Administrar cuenta
 postRemoveTwoStepAuthentication-subject-line-2 = Autenticación en dos pasos desactivada
 postRemoveTwoStepAuthentication-title-2 = Se desactivo la autenticación en dos pasos
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Lo deshabilitaste desde:
 postRemoveTwoStepAuthentication-action = Administrar cuenta
+postRemoveTwoStepAuthentication-not-required-2 = Ya no necesitas los códigos de seguridad de tu aplicación de autenticación cuando inicies sesión.
 postVerify-sub-title-3 = ¡Estamos felices de verte!
 postVerify-title-2 = ¿Quieres ver la misma pestaña en dos dispositivos?
 postVerify-description-2 = ¡Es fácil! Solo instala { -brand-firefox } en otro dispositivo e inicia sesión para sincronizar. ¡Es como magia!
@@ -407,6 +426,7 @@ subscriptionCancellation-title = Lamentamos que te vayas
 #   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = Hemos cancelado tu suscripción a { $productName }. Tu pago final de { $invoiceTotal } fue pagado el { $invoiceDateOnly }. Tu servicio continuará hasta el final del período de facturación actual, que es { $serviceLastActiveDateOnly }.
+subscriptionCancellation-outstanding-content = Hemos cancelado tu suscripción a { $productName }. Tu pago final de { $invoiceTotal } se pagará el { $invoiceDateOnly }. Tu servicio continuará hasta el final de tu período de facturación actual, que es { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Has cambiado a { $productName }
@@ -574,6 +594,9 @@ verifyLoginCode-subject-line-2 = Aprobar el inicio de sesión en { $serviceName 
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = ¿Iniciaste sesión en { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Ayúdanos a mantener tu cuenta segura autorizando tu inicio de sesión en:
+verifyLoginCode-prompt-3 = Si es así, aquí está tu código de autorización:
 verifyLoginCode-expiry-notice = Caduca en 5 minutos.
 verifyPrimary-title-2 = Confirmar correo principal
 verifyPrimary-description = Hubo una petición de realizar un cambio de cuenta desde el siguiente dispositivo:

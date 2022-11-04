@@ -55,6 +55,7 @@ fxa-post-passwordless-sub-error = Se ha confirmado la suscripción, pero no se h
 
 ## IAP upgrade errors
 
+iap-upgrade-get-help-button = Obtener ayuda
 
 ## Settings
 
