@@ -144,7 +144,9 @@ datablock-print =
 
 ## Data collection section
 
+dc-heading = Prikupljanje i upotreba podataka
 dc-subheader = Pomogni poboljšati { -product-firefox-accounts }
+dc-subheader-content = Dozvoli da { -product-firefox-accounts } šalju tehničke podatke i podatke o interakciji prema { -brand-mozilla }.
 dc-learn-more = Saznaj više
 
 # DropDownAvatarMenu component
@@ -165,6 +167,7 @@ flow-container-back = Natrag
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ključ za obnavljanje { -brand-firefox } računa
+get-data-trio-title-firefox-backup-verification-codes = Autentifikacijski kodovi za sigurnosne kopije za { -brand-firefox }
 get-data-trio-download =
     .title = Preuzmi
 get-data-trio-copy =
@@ -191,6 +194,7 @@ input-password-show-aria = Prikaži lozinku kao obični tekst. Tvoja lozinka bit
 ## Linked Accounts section
 
 la-heading = Povezani računi
+la-description = Autorizirao/la si pristup sljedećim računima.
 la-unlink-button = Odspoji
 la-unlink-account-button = Odspoji
 nav-linked-accounts = { la-heading }
@@ -223,6 +227,8 @@ nav-email-comm = Komunikacija e-poštom
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-1-2 = Korak 1 od 2
+tfa-replace-code-2-2 = Korak 2 od 2
 
 ## Avatar change page
 
