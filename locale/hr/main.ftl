@@ -36,6 +36,9 @@ instant-payouts-unsupported = Čini se da tvoja debitna kartica nije postavljena
 duplicate-transaction = Hmm. Izgleda da je identična transakcija upravo poslana. Provjeri povijest plaćanja.
 coupon-expired = Čini se da je taj promotivni kôd istekao.
 card-error = Neuspjela obrada tvoje transakcije. Provjeri podatke za kreditnu karticu i pokušaj ponovo.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Greška sustava je uzrok neuspjele registracije za { $productName }. Tvoj način plaćanja nije terećen. Pokušaj ponovo.
+newsletter-signup-error = Nisi registriran/a za primanje e-mailova o aktualiziranjima proizvoda. Možeš pokušati ponovo u postavkama računa.
 
 ## IAP upgrade errors
 

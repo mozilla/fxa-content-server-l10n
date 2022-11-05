@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-05 13:40+0000\n"
+"PO-Revision-Date: 2022-11-05 13:50+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -839,7 +839,7 @@ msgstr "Nevažeći token"
 
 #: .es5/lib/strings.js:25
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Nastavkom prihvaćate <a id=\"service-tos\" href=\"%(termsUri)s\">Uvjete pružanja usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">Obavijest o privatnosti</a> od %(serviceName)s (%(serviceUri)s)."
+msgstr "Ako nastaviš, prihvaćaš <a id=\"service-tos\" href=\"%(termsUri)s\">uvjete usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">obavijest o privatnosti</a> od %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -1118,11 +1118,11 @@ msgstr "Još uvijek dodajete uređaj? Prijavite se u Firefox na drugom uređaju 
 
 #: .es5/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Prijavi se u Firefox za Android za završavanje postavljanja"
+msgstr "Prijavi se u Firefoxu za Android za završavanje postavljanja"
 
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
-msgstr "Prijavite se u Firefox za iOS kako biste završili postavljanje"
+msgstr "Prijavi se u Firefoxu za iOS za završavanje postavljanja"
 
 #: .es5/templates/cookies_disabled.mustache:1
 msgid "Cookies and local storage are required"
@@ -1152,7 +1152,7 @@ msgstr "Lozinka"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Ako nastaviš, prihvaćaš <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">uvjete usluge</a> i <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">obavijest o privatnosti</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1180,11 +1180,11 @@ msgstr ""
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Registriraj se ili se prijavi"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Firefox račun također otključava pristup Mozillinim proizvodima za zaštitu privatnosti."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1496,7 +1496,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Praktično znanje stiže u tvoju dolaznu poštu. Prijavi se za više:"
+msgstr "Praktično znanje stiže u tvoju dolaznu poštu. Registriraj se za više:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"

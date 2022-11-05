@@ -336,6 +336,7 @@ confirm-email-2 = Potvrdi račun
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potvrdi račun
 verificationReminderSecond-subject-2 = Ne zaboravi potvrditi svoj račun
+verificationReminderSecond-second-description = Tvoj { -product-firefox-account } omogućuje sinkronizaciju podataka na svim uređajima i otključava pristup daljnjim { -brand-mozilla } proizvodima za zaštitu privatnosti.
 verificationReminderSecond-action-2 = Potvrdi račun
 verify-title-2 = Otvori internet s { -brand-firefox }
 verify-description = Potvrdi tvoj račun i koristi { -brand-firefox } na najbolji način neovisno o mjestu prijave, počevši od:
