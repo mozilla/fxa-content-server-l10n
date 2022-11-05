@@ -228,8 +228,13 @@ passwordReset-title = Lozinka tvog računa je promijenjena
 passwordReset-description = Za nastavak sinkronizacije morat ćeš upisati svoju novu lozinku na drugim uređajima.
 passwordResetAccountRecovery-subject-2 = Tvoja lozinka je resetirana
 passwordResetAccountRecovery-title-2 = Resetiranje lozinke je uspjelo
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Koristio/la si svoj ključ za obnavljanje računa za aktualiziranje lozinke od:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Stvori novi ključ za obnavljanje računa
+passwordResetAccountRecovery-regen-required-mjml-1 = Morat ćeš se ponovo prijaviti na svim tvojim sinkroniziranim uređajima. Nemoj zaboraviti izraditi novi ključ za obnavljanje računa koji će zamijeniti prethodno korišteni.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Morat ćeš se ponovo prijaviti na svim tvojim sinkroniziranim uređajima. Nemoj zaboraviti izraditi novi ključ za obnavljanje računa koji će zamijeniti prethodno korišteni:
 postAddAccountRecovery-subject-2 = Ključ za obnavljanje računa je stvoren
 postAddAccountRecovery-title2 = Stvorio/la si novi ključ za obnavljanje računa
 # Information on the browser and device triggering this string follows.

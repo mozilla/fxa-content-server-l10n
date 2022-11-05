@@ -292,6 +292,7 @@ cancel-display-name = Odustani
 recovery-key-cancel-button = Odustani
 recovery-key-close-button = Zatvori
 recovery-key-continue-button = Nastavi
+recovery-key-created-1 = Tvoj ključ za obnavljanje računa je stvoren. Spremi ključ na sigurno mjesto koje kasnije možeš lako pronaći – ključ će ti trebati za ponovni pristup tvojim podacima ako zaboraviš lozinku.
 recovery-key-enter-password =
     .label = Unesi lozinku
 recovery-key-page-title-1 =
@@ -400,11 +401,15 @@ rk-enabled = Omogućeno
 rk-not-set = Nije postavljeno
 rk-action-create = Stvori
 rk-action-remove = Ukloni
-rk-key-removed-2 = Ključ za obnavljanje računa uklonjen
+rk-cannot-refresh-1 = Žao nam je. Došlo je do greške prilikom aktualiziranja ključa za obnavljanje računa.
+rk-key-removed-2 = Ključ za obnavljanje računa je uklonjen
 rk-cannot-remove-key = Nije moguće ukloniti tvoj ključ za obnavljanje računa.
 rk-refresh-key-1 = Aktualiziraj ključ za obnavljanje računa
 rk-content-explain = Obnovi tvoje informacije kada zaboraviš svoju lozinku.
+rk-cannot-verify-session-4 = Žao nam je. Došlo je do greške prilikom potvrđivanja tvoje sesije
 rk-remove-modal-heading-1 = Ukloniti ključ za obnavljanje računa?
+rk-remove-modal-content-1 = U slučaju da ponovo postaviš lozinku, nećeš moćikoristiti ključ za oporavak računa za pristup vašim podacima. Ne možete poništiti ovu radnju.
+rk-refresh-error-1 = Žao nam je. Došlo je do greške prilikom aktualiziranja ključa za obnavljanje računa.
 rk-remove-error-2 = Nije moguće ukloniti tvoj ključ za obnavljanje računa
 
 ## Secondary email sub-section on main Settings page

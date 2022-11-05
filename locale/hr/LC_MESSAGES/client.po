@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-05 13:09+0000\n"
+"PO-Revision-Date: 2022-11-05 13:11+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -904,7 +904,7 @@ msgstr "Nastavi na %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Unesite ključ za oporavak koji ste pohranili na sigurnom mjestu da biste ponovno dobili pristup svom Firefox računu."
+msgstr "Za dobivanje pristupa svom Firefox računu upiši jednokratni ključ za obnavljanje računa koji si spremio/la na sigurno mjesto."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
