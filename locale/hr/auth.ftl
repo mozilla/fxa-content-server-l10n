@@ -255,6 +255,7 @@ postRemoveAccountRecovery-title-2 = Izbrisao/la si tvoj ključ za obnavljanje ra
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Izbrisan je od:
 postRemoveAccountRecovery-action = Upravljanje računom
+postRemoveAccountRecovery-invalid-2 = Za obnavljanje tvojih { -brand-firefox } podataka trebaš ključ za obnavljanje računa ako si zaboravio/la lozinku.
 postRemoveSecondary-subject = Sekundarna adresa e-pošte je uklonjena
 postRemoveSecondary-title = Sekundarna adresa e-pošte je uklonjena
 postRemoveSecondary-action = Upravljanje računom
