@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-05 14:05+0000\n"
+"PO-Revision-Date: 2022-11-05 14:41+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1030,7 +1030,7 @@ msgstr "Provjerite svoju e-poštu za poveznicu za potvrdu poslanu na %(escapedEm
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr "Nije ni u pristigloj, ni neželjenoj pošti? Pošalji ponovo"
+msgstr "Nije u ulaznom sandučiću niti u sandučiću neželjenih e-mailova? Pošalji ponovo"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/tos.mustache:2 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:8
@@ -1501,7 +1501,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr "Praktično znanje stiže u tvoju dolaznu poštu. Registriraj se za više:"
+msgstr "Praktično znanje stiže u tvoj ulazni sandučić. Registriraj se za više:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
@@ -1713,11 +1713,11 @@ msgstr "Prijavi se za daljnje informacije"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr "Praktično znanje stiže u tvoju ulaznu poštu."
+msgstr "Praktično znanje stiže u tvoj ulazni sandučić."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr "U svoju ulaznu poštu primi praktično znanje o:"
+msgstr "Primaj praktično znanje u tvoj ulazni sandučić o:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
