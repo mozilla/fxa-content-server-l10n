@@ -55,7 +55,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific = Dobivaš ovaj e-mail jer { $email } ima { -product-firefox-account } i prijavio/la si se za { $productName }.
+subplat-explainer-specific = Dobivaš ovaj e-mail jer { $email } ima { -product-firefox-account } i registrirao/la si se za { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Dobivaš ovaj e-mail jer { $email } ima { -product-firefox-account }.

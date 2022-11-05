@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-05 13:30+0000\n"
+"PO-Revision-Date: 2022-11-05 13:40+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -615,7 +615,7 @@ msgstr "Dimenzije slike moraju biti barem 100 ✕ 100 px"
 
 #: .es5/lib/auth-errors.js:440
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr "Prijava uskoro stiže u Firefox za iOS"
+msgstr "Registracija uskoro stiže u Firefox za iOS"
 
 #: .es5/lib/auth-errors.js:452
 msgid "You must enter your age to sign up"
@@ -1118,7 +1118,7 @@ msgstr "Još uvijek dodajete uređaj? Prijavite se u Firefox na drugom uređaju 
 
 #: .es5/templates/connect_another_device.mustache:24
 msgid "Sign in to Firefox for Android to complete set-up"
-msgstr "Prijavite se u Firefox za Android kako biste završili postavljanje"
+msgstr "Prijavi se u Firefox za Android za završavanje postavljanja"
 
 #: .es5/templates/connect_another_device.mustache:26
 msgid "Sign in to Firefox for iOS to complete set-up"
@@ -1828,7 +1828,7 @@ msgstr "Tvoji sinkronizirani podaci mogu uključivati lozinke koje si spremio/la
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
-msgstr "Budući da su ove informacije ključne za tvoju sigurnost, Firefox ih briše kako bi te zaštitio prilikom ponovnog postavljanja lozinke kako bi spriječio druge ljude da im pristupe."
+msgstr "Budući da su ove informacije ključne za tvoju sigurnost, Firefox ih briše kako bi te zaštitio prilikom resetiranja lozinke te spriječio druge ljude da im pristupe."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
