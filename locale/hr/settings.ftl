@@ -256,6 +256,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Nije moguće inicijalizirati kameru
 avatar-page-new-avatar =
     .alt = nova profilna slika
+avatar-page-file-upload-error-3 = Dogodila se greška tijekom prijenosa tvoje slike profila
+avatar-page-delete-error-3 = Dogodila se greška tijekom brisanja tvoje slike profila
+avatar-page-image-too-large-error-2 = Slika je prevelika za prijenos
 
 ##
 
@@ -393,6 +396,8 @@ tfa-scan-this-code =
 tfa-qa-code-alt =
     Koristi kôd { $secret } za postavljanje dvofaktorske autentifikacije u
     podržanim aplikacijama.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Ne možeš skenirati kôd?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Unesi ovaj tajni ključ u svoju aplikaciju za provjeru autentičnosti:
@@ -498,6 +503,7 @@ se-content-note-1 = Napomena: sekundarna e-mail adresa neće obnoviti tvoje poda
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dvofaktorska autentifikacija
+tfa-row-disabled-2 = Autentifikacija u dva koraka je deaktivirana
 tfa-row-enabled = Omogućeno
 tfa-row-not-set = Nije postavljeno
 tfa-row-action-add = Dodaj
@@ -509,6 +515,7 @@ tfa-row-content-explain =
     zahtijevamo jedinstveni kôd kojem samo ti imaš pristup.
 tfa-row-disable-modal-heading = Onemogućiti dvofaktorsku autentifikaciju?
 tfa-row-disable-modal-confirm = Onemogući
+tfa-row-cannot-disable-2 = Nije bilo moguće deaktivirati autentifikaciju u dva koraka
 tfa-row-change-modal-confirm = Promijeni
 tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
 
