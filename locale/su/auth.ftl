@@ -176,6 +176,7 @@ downloadSubscription-title = Wilujeng sumping di { $productName }
 downloadSubscription-link-action-2 = Mitembeyan
 fraudulentAccountDeletion-subject = { -product-firefox-account } anjeun geus dihapus
 fraudulentAccountDeletion-title = Akun anjeun dihapus
+lowRecoveryCodes-action-2 = Jieun kode
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -190,7 +191,12 @@ passwordChangeRequired-signoff = Panghadéna
 passwordReset-subject = Kecap sandi geus diropéa
 passwordReset-title = Sandi akun anjeun geus dirobah
 passwordReset-description = Anjeun bakal perlu ngasupkeun sandi anyar anjeun na parangkat séjén pikeun ngahanca singkronan.
+passwordResetAccountRecovery-subject-2 = Sandi anjeun geus disetél ulang
+passwordResetAccountRecovery-title-2 = Nyetél ulang sandi geus hasil
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Lain anjeun?
 postAddAccountRecovery-action = Kokolakeun akun
+postAddLinkedAccount-action = Kokolakeun akun
 postAddTwoStepAuthentication-action = Kokolakeun akun
 postChangePrimary-subject = Surélék utama geus diropéa
 postChangePrimary-title = Surélék utama anyar
