@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-05 13:57+0000\n"
+"PO-Revision-Date: 2022-11-05 14:05+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -502,7 +502,7 @@ msgstr "Nepoznata pretplata."
 
 #: .es5/lib/auth-errors.js:272
 msgid "Unknown plan for subscription."
-msgstr "Nepoznata tarifa za pretplatu."
+msgstr "Nepoznat plan za pretplatu."
 
 #: .es5/lib/auth-errors.js:276
 msgid "Invalid payment token for subscription."

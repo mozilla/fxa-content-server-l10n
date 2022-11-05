@@ -28,6 +28,7 @@ payment-error-retry-button = Pokušaj ponovno
 payment-error-manage-subscription-button = Upravljaj mojom pretplatom
 country-currency-mismatch = Valuta ove pretplate ne vrijedi za zemlju povezanu s tvojom plaćanjem.
 currency-currency-mismatch = Žao nam je. Ne možeš se prebacivati između valuta.
+no-subscription-change = Žao nam je. Ne možeš promijeniti tvoj plan pretplate.
 expired-card-error = Čini se da je tvoja kreditna kartica istekla. Pokušaj s drugom karticom.
 insufficient-funds-error = Čini se da tvoja kartica nema dovoljno sredstava. Pokušaj s drugom karticom.
 withdrawal-count-limit-exceeded-error = Čini se da ćeš ovom transakcijom prijeći kreditni limit. Pokušaj s drugom karticom.
@@ -59,6 +60,7 @@ subscription-create-title = Postavi svoju pretplatu
 subscription-success-title = Potvrda pretplate
 subscription-processing-title = Potvrđivanje pretplate…
 subscription-error-title = Pogreška pri potvrđivanju pretplate…
+subscription-noplanchange-title = Ova promjena plana pretplate nije podržana
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -95,13 +97,13 @@ year-based-plan-details-amount =
 ## Product route
 
 product-plan-error =
-    .title = Problem s učitavanjem tarifa
+    .title = Problem pri učitavanju planova
 product-profile-error =
     .title = Problem s učitavanjem profila
 product-customer-error =
     .title = Problem s učitavanjem kupca
-product-plan-not-found = Tarifa nije pronađena
-product-no-such-plan = Za ovaj proizvod ne postoji takva tarifa.
+product-plan-not-found = Plan nije pronađen
+product-no-such-plan = Za ovaj proizvod ne postoji takav plan.
 
 ## Payment legal blurb
 
