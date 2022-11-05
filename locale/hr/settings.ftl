@@ -151,6 +151,7 @@ flow-container-back = Natrag
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox-recovery-key = Ključ za obnavljanje { -brand-firefox } računa
 get-data-trio-download =
     .title = Preuzmi
 get-data-trio-copy =
@@ -293,8 +294,11 @@ recovery-key-close-button = Zatvori
 recovery-key-continue-button = Nastavi
 recovery-key-enter-password =
     .label = Unesi lozinku
+recovery-key-page-title-1 =
+    .title = Ključ za obnavljanje računa
 recovery-key-step-1 = Korak 1 od 2
 recovery-key-step-2 = Korak 2 od 2
+recovery-key-success-alert-3 = Ključ za obnavljanje računa stvoren
 
 ## Add secondary email page
 
@@ -391,12 +395,17 @@ row-defaults-status = Ništa
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Ključ za obnavljanje računa
 rk-enabled = Omogućeno
 rk-not-set = Nije postavljeno
 rk-action-create = Stvori
 rk-action-remove = Ukloni
-rk-cannot-remove-key = Nije moguće ukloniti tvoj ključ za oporavak računa.
-rk-content-explain = Vrati svoje informacije kada zaboraviš svoju lozinku.
+rk-key-removed-2 = Ključ za obnavljanje računa uklonjen
+rk-cannot-remove-key = Nije moguće ukloniti tvoj ključ za obnavljanje računa.
+rk-refresh-key-1 = Aktualiziraj ključ za obnavljanje računa
+rk-content-explain = Obnovi tvoje informacije kada zaboraviš svoju lozinku.
+rk-remove-modal-heading-1 = Ukloniti ključ za obnavljanje računa?
+rk-remove-error-2 = Nije moguće ukloniti tvoj ključ za obnavljanje računa
 
 ## Secondary email sub-section on main Settings page
 

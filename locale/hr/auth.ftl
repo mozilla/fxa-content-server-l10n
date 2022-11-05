@@ -228,6 +228,13 @@ passwordReset-title = Lozinka tvog računa je promijenjena
 passwordReset-description = Za nastavak sinkronizacije morat ćeš upisati svoju novu lozinku na drugim uređajima.
 passwordResetAccountRecovery-subject-2 = Tvoja lozinka je resetirana
 passwordResetAccountRecovery-title-2 = Resetiranje lozinke je uspjelo
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Stvori novi ključ za obnavljanje računa
+postAddAccountRecovery-subject-2 = Ključ za obnavljanje računa je stvoren
+postAddAccountRecovery-title2 = Stvorio/la si novi ključ za obnavljanje računa
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Novi ključ je stvoren od:
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Izbriši novi ključ</a> i <a data-l10n-name="passwordChangeLink">promijeni lozinku</a>
 postAddAccountRecovery-action = Upravljanje računom
 postAddAccountRecovery-delete-key = Izbriši novi ključ:
 postAddAccountRecovery-changd-password = Promijeni svoju lozinku:
@@ -243,6 +250,10 @@ postChangePrimary-title = Nova primarna adresa e-pošte
 postChangePrimary-action = Upravljanje računom
 postConsumeRecoveryCode-action = Upravljanje računom
 postNewRecoveryCodes-action = Upravljanje računom
+postRemoveAccountRecovery-subject-2 = Ključ za obnavljanje računa je izbrisan
+postRemoveAccountRecovery-title-2 = Izbrisao/la si tvoj ključ za obnavljanje računa.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Izbrisan je od:
 postRemoveAccountRecovery-action = Upravljanje računom
 postRemoveSecondary-subject = Sekundarna adresa e-pošte je uklonjena
 postRemoveSecondary-title = Sekundarna adresa e-pošte je uklonjena
