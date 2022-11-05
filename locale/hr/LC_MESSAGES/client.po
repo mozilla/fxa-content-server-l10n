@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-05 13:11+0000\n"
+"PO-Revision-Date: 2022-11-05 13:30+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
-msgstr "Ponovno postavljanje lozinke"
+msgstr "Lozinka je resetirana"
 
 #: .es5/views/confirm_reset_password.js:217
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Lozinka je uspješno ponovno postavljena. Prijavite se za nastavak."
+msgstr "Lozinka je uspješno resetirana. Prijavi se za nastavljanje."
 
 #. submit button
 #: .es5/views/force_auth.js:199 .es5/lib/strings.js:44 .es5/templates/connect_another_device.mustache:11 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
@@ -62,7 +62,7 @@ msgstr "Firefox sinkronizacija će odmah nastaviti"
 
 #: .es5/views/ready.js:63 .es5/views/ready.js:68
 msgid "Your password has been reset"
-msgstr "Tvoja je lozinka ponovno postavljena"
+msgstr "Tvoja je lozinka resetirana"
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -146,7 +146,7 @@ msgstr "Tvoj je račun zaključan iz sigurnosnih razloga"
 
 #: .es5/views/mixins/account-reset-mixin.js:47 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr "Ponovo postavi lozinku"
+msgstr "Resetiraj lozinku"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:38
 msgid "none"
@@ -286,7 +286,7 @@ msgstr "Sekundarna e-mail adresa uspješno potvrđena"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
-msgstr "Lozinka je uspješno ponovno postavljena"
+msgstr "Lozinka je uspješno resetirana"
 
 #: .es5/models/auth_brokers/web.js:45
 msgid "Account recovery enabled"
@@ -430,7 +430,7 @@ msgstr "Adresu koristi jedan drugi račun"
 
 #: .es5/lib/auth-errors.js:192
 msgid "Primary account email required for reset"
-msgstr "Za ponovno postavljanje je potrebna primarna e-mail adresa računa"
+msgstr "Za resetiranje je potrebna primarna e-mail adresa računa"
 
 #: .es5/lib/auth-errors.js:196
 msgid "Invalid signin code"
@@ -879,11 +879,11 @@ msgstr "Joj, došlo je do neke greške. Dobili smo obavijest o grešci i pokuša
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr "Poveznica za ponovno postavljanje lozinke je istekla"
+msgstr "Poveznica za resetiranje lozinke je istekla"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "Poveznica na koju ste kliknuli kako biste ponovno postavili svoju lozinku je istekla."
+msgstr "Poveznica na koju si pritisnuo/la za resetiranje lozinke je istekla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
@@ -891,7 +891,7 @@ msgstr "Primi novu poveznicu"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr "Obnovi lozinku pomoću ključa za obnavljanje računa"
+msgstr "Resetiraj lozinku pomoću ključa za obnavljanje računa"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -951,7 +951,7 @@ msgstr "Ne sinkroniziraj ovaj uređaj"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr "Poveznica za ponovno postavljanje lozinke je oštećena"
+msgstr "Poveznica za resetiranje lozinke je oštećena"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -1039,7 +1039,7 @@ msgstr "Natrag"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "Poslana je e-pošta za ponovno postavljanje"
+msgstr "Poslan je e-mail za resetiranje"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
@@ -1367,7 +1367,7 @@ msgstr "E-mail adresa"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
-msgstr "Započni ponovno postavljanje"
+msgstr "Započni resetiranje"
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"

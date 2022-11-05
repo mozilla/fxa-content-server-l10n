@@ -274,7 +274,7 @@ postVerify-action-2 = Poveži jedan drugi uređaj
 postVerifySecondary-subject = Dodana je sekundarna e-mail adresa
 postVerifySecondary-title = Dodana je sekundarna e-mail adresa
 postVerifySecondary-action = Upravljaj računom
-recovery-subject = Ponovo postavi svoju lozinku
+recovery-subject = Resetiraj lozinku
 recovery-title-2 = Zaboravio/la si lozinku?
 recovery-action = Stvori novu lozinku
 #  Variables:

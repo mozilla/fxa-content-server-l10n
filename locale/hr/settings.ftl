@@ -408,7 +408,7 @@ rk-refresh-key-1 = Aktualiziraj ključ za obnavljanje računa
 rk-content-explain = Obnovi tvoje informacije kada zaboraviš svoju lozinku.
 rk-cannot-verify-session-4 = Žao nam je. Došlo je do greške prilikom potvrđivanja tvoje sesije
 rk-remove-modal-heading-1 = Ukloniti ključ za obnavljanje računa?
-rk-remove-modal-content-1 = U slučaju da ponovo postaviš lozinku, nećeš moćikoristiti ključ za oporavak računa za pristup vašim podacima. Ne možete poništiti ovu radnju.
+rk-remove-modal-content-1 = U slučaju da resetiraš lozinku, nećeš moći koristiti ključ za oporavak računa za pristup tvojim podacima. Ovo je nepovratna radnja.
 rk-refresh-error-1 = Žao nam je. Došlo je do greške prilikom aktualiziranja ključa za obnavljanje računa.
 rk-remove-error-2 = Nije moguće ukloniti tvoj ključ za obnavljanje računa
 
@@ -434,6 +434,7 @@ se-unverified-2 = nepotvrđeno
 # Button to make secondary email the primary
 se-make-primary = Postavi primarnom
 se-default-content = Pristupi svom računu kada se ne možeš prijaviti na svoju primarnu e-poštu.
+se-content-note-1 = Napomena: sekundarna e-mail adresa neće obnoviti tvoje podatke – za to ćeš trebati <a>ključ za obnavljanje računa</a>.
 
 ##
 
