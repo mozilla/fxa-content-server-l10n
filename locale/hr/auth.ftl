@@ -315,6 +315,19 @@ subscriptionPaymentExpired-title-1 = Tvoja kreditna kartica je istekla ili će u
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content-1 = Kreditna kartica koju koristiš za plaćanja za { $productName } je istekla ili će uskoro isteći.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = { $productName } plaćanje nije uspjelo
+subscriptionPaymentFailed-title = Žao nam je, imamo problem s tvojim plaćanjem
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Imali smo problema s tvojim zadnjim plaćanjem za { $productName }.
+subscriptionPaymentFailed-content-outdated = Možda je tvoja kreditna kartica istekla ili je tvoj trenutačni način plaćanja zastario.
+subscriptionPaymentProviderCancelled-title = Žao nam je, imamo problem s tvojim načinom plaćanja
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Otkrili smo problem s tvojim načinom plaćanja za { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Tvoja kreditna kartica je možda istekla ili je tvoj trenutačni način plaćanja zastario.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2

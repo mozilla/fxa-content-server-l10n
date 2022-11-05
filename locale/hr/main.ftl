@@ -343,6 +343,7 @@ payment-confirmation-thanks-heading = Hvala ti!
 ## $productName (String) - The name of the subscribed product.
 
 payment-confirmation-thanks-subheading = Potvrdni e-mail poslan je na adresu { $email } s detaljima o tome kako početi koristiti { $product_name }.
+payment-confirmation-thanks-heading-account-exists = Hvala, sada provjeri svoju e-poštu!
 
 ## $email (string) - The user's email.
 
@@ -405,3 +406,4 @@ new-user-submit = Pretplati se sada
 payment-method-header = Odaberi način plaćanja
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Obavezno
