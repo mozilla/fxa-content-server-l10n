@@ -146,10 +146,12 @@ input-error-is-required = Polje { $label } je obavezno
 
 ## Subscription upgrade
 
+product-plan-change-heading = Pregledaj svoju promjenu
+sub-change-failed = Promjena plana nije uspjela
 sub-update-payment-title = Informacije o plaćanju
 sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
 sub-update-copy =
-    Tvoju ćemo tarifu odmah promijeniti i naplatiti prilagođen iznos
+    Tvoj plan će se odmah promijeniti i naplatit ćemo prilagođeni iznos
     za ostatak obračunskog razdoblja. Počevši od { $startingDate }
     naplatit ćemo puni iznos.
 
@@ -158,8 +160,8 @@ sub-update-copy =
 sub-change-submit = Potvrdi promjenu
 sub-change-indicator =
     .aria-label = indikator promjene
-sub-update-current-plan-label = Trenutačna tarifa
-sub-update-new-plan-label = Nova tarifa
+sub-update-current-plan-label = Aktualni plan
+sub-update-new-plan-label = Novi plan
 sub-update-total-label = Nov ukupni iznos
 
 ## Subscription upgrade plan details
@@ -268,7 +270,7 @@ reactivate-success-button = Zatvori
 
 sub-item-missing = Problem s učitavanjem pretplata
 sub-item-missing-msg = Pokušaj ponovo kasnije.
-sub-item-no-such-plan = Ne postoji takva tarifa za ovu pretplatu.
+sub-item-no-such-plan = Ne postoji takav plan za ovu pretplatu.
 sub-item-cancel-sub = Otkaži pretplatu
 sub-item-stay-sub = Zadrži pretplatu
 sub-item-cancel-msg =
@@ -317,10 +319,14 @@ plan-details-header = Podaci proizvoda
 plan-details-show-button = Pokaži podatke
 plan-details-hide-button = Sakrij podatke
 plan-details-total-label = Ukupno
+plan-details-list-price = Cjenik
 plan-details-tax = Porezi i naknade
 
 ## Coupons
 
+coupon-success = Tvoj plan će se automatski obnoviti prema cjeniku.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Tvoj plan će se automatski obnoviti nakon { $couponDurationDate } prema cjeniku.
 
 ## Payment processing
 
