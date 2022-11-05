@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-03 17:04+0000\n"
+"PO-Revision-Date: 2022-11-05 12:50+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -66,7 +66,7 @@ msgstr "Tvoja je lozinka ponovno postavljena"
 
 #: .es5/views/ready.js:64 .es5/views/ready.js:69
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Dovrši postavljanje unosom nove lozinke na tvojim drugim uređajima s Firefoxom."
+msgstr "Dovrši postavljanje upisom nove lozinke na tvojim drugim uređajima s Firefoxom."
 
 #: .es5/views/ready.js:72
 msgid "You are now ready to make changes to your Firefox Account."
@@ -1142,6 +1142,9 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Upiši lozinku <span class=\"card-subheader\" id=\"subheader\">za tvoj Firefox račun</span>\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1590,7 +1593,7 @@ msgstr "Korak 1 od 2: ponovno unesi lozinku"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Upiši lozinku za prikaz tvog ključa za obnavljanje računa."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1817,7 +1820,7 @@ msgstr "<span class=\"number\">4</span>Prijavi se na svoj račun"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Zaštiti tvoje podatke ključem za obnavljanje računa"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1829,7 +1832,7 @@ msgstr "Budući da su ove informacije ključne za tvoju sigurnost, Firefox ih br
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "Nabavi ključ za obnavljanje računa"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
