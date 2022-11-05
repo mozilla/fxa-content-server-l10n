@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-05 13:50+0000\n"
+"PO-Revision-Date: 2022-11-05 13:57+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -34,7 +34,7 @@ msgstr "Račun je uspješno izbrisan"
 
 #: .es5/views/inline_totp_setup.js:156
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Upotrijebi kȏd %(code)s za postavljanje dvofaktorske autentikacije u podržanim programima."
+msgstr "Koristi kȏd %(code)s za postavljanje dvofaktorske autentikacije u podržanim programima."
 
 #: .es5/views/permissions.js:41
 msgid "%(permissionName)s (required)"
@@ -1156,11 +1156,11 @@ msgstr "Ako nastaviš, prihvaćaš <a class=\"link-grey\" id=\"fxa-tos\" href=\"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
-msgstr "Upotrijebi drugi račun"
+msgstr "Koristi jedan drugi račun"
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15
 msgid "Forgot password?"
-msgstr "Zaboravljena lozinka?"
+msgstr "Zaboravio/la si lozinku?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to Firefox accounts"
@@ -1421,6 +1421,11 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"              Ako nastaviš, prihvaćaš:<br />\n"
+"              Pocketove <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">uvjete usluge</a> i <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">obavijest o privatnosti</a><br />\n"
+"              Firefoxove <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">uvjete usluge</a> i <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">obavijest o privatnosti</a>.\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
@@ -1514,6 +1519,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Ako nastaviš, prihvaćaš::<br />\n"
+"            Pocketove <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">uvjete usluge</a> i <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">obavijest o privatnosti</a><br />\n"
+"            Firefoxove <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">uvjete usluge</a> i <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">obavijest o privatnosti</a>\n"
+"          "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1675,7 +1685,7 @@ msgstr "za nastavak na %(serviceName)s"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "Otkrili smo sumnjivo ponašanje na tvom računu za Firefox. Za zaštitu tvog računa, stvori novu lozinku. Koristit ćeš ovu lozinku za ponovno prijavu na sve tvoje servise računa za Firefox."
+msgstr "Otkrili smo sumnjivo ponašanje na tvom računu za Firefox. Za zaštitu tvog računa, stvori novu lozinku. Koristit ćeš ovu lozinku za ponovnu prijavu na sve tvoje usluge Firefox računa."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."

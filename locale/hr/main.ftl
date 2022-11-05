@@ -315,6 +315,7 @@ plan-details-header = Podaci proizvoda
 plan-details-show-button = Pokaži podatke
 plan-details-hide-button = Sakrij podatke
 plan-details-total-label = Ukupno
+plan-details-tax = Porezi i naknade
 
 ## Coupons
 
