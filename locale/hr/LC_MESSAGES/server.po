@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2021-07-27 16:40+0000\n"
+"PO-Revision-Date: 2022-11-05 14:50+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -44,6 +44,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Joj, došlo je do neke greške. Dobili smo obavijest o grešci i\n"
+"          pokušat ćemo je ispraviti."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"

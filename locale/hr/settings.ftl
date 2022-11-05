@@ -19,6 +19,7 @@
 
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
+-brand-google = Google
 # “Accounts” can be localized, “Firefox” must be treated as a brand.
 -product-firefox-accounts = Firefox računi
 # “Account” can be localized, “Firefox” must be treated as a brand.
@@ -27,6 +28,7 @@
 product-mozilla-vpn = Mozilla VPN
 product-pocket = Pocket
 product-firefox-monitor = Firefox Monitor
+product-firefox-relay = Firefox Relay
 
 ##
 
@@ -69,6 +71,7 @@ bento-menu-firefox-title = { -brand-firefox } je tehnologija koja se bori za tvo
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
+bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Preglednik { -brand-firefox } za računala
 bento-menu-firefox-mobile = Preglednik { -brand-firefox } za mobilne uređaje
 bento-menu-made-by-mozilla = Stvorila { -brand-mozilla }
@@ -79,6 +82,12 @@ connect-another-fx-mobile = Nabavi { -brand-firefox } na mobitelu ili tabletu
 connect-another-find-fx-mobile =
     Pronađi { -brand-firefox } u { -google-play }u i { -app-store }u ili
     <br /><linkExternal>pošalji poveznicu za preuzimanje na svoj uređaj.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Preuzmi { -brand-firefox } na { -google-play }
+connect-another-app-store-image-2 =
+    .title = Preuzmi { -brand-firefox } na { -app-store }
 
 ##
 
@@ -135,6 +144,8 @@ datablock-print =
 
 ## Data collection section
 
+dc-subheader = Pomogni poboljšati { -product-firefox-accounts }
+dc-learn-more = Saznaj više
 
 # DropDownAvatarMenu component
 
@@ -144,6 +155,7 @@ drop-down-menu-title = Izbornik za { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Prijavljen/a kao</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odjava
+drop-down-menu-sign-out-error-2 = Žao nam je. Došlo je do greške prilikom odjave
 
 ## Flow Container
 
@@ -151,6 +163,7 @@ flow-container-back = Natrag
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ključ za obnavljanje { -brand-firefox } računa
 get-data-trio-download =
     .title = Preuzmi
@@ -177,6 +190,10 @@ input-password-show-aria = Prikaži lozinku kao obični tekst. Tvoja lozinka bit
 
 ## Linked Accounts section
 
+la-heading = Povezani računi
+la-unlink-button = Odspoji
+la-unlink-account-button = Odspoji
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
@@ -186,7 +203,13 @@ modal-cancel-button = Odustani
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Potvrdi svoju e-mail adresu
+mvs-enter-verification-code-2 = Upiši svoj kod za potvrdu
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Upiši svoj kod za potvrdu koji je poslan na <email>{ $email }</email> u roku od 5 minuta.
 msv-cancel-button = Odustani
+msv-submit-button-2 = Potvrdi
 
 ## Settings Nav
 
@@ -194,6 +217,7 @@ nav-settings = Postavke
 nav-profile = Profil
 nav-security = Sigurnost
 nav-connected-services = Povezane usluge
+nav-data-collection = Prikupljanje i uportreba podataka
 nav-paid-subs = Plaćene pretplate
 nav-email-comm = Komunikacija e-poštom
 
@@ -234,6 +258,7 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Promijeni lozinku
+pw-8-chars = Barem 8 znakova
 pw-not-email = Nije tvoja e-mail adresa
 pw-change-must-match = Nova lozinka podudara se s potvrdom
 pw-change-cancel-button = Odustani
@@ -245,12 +270,17 @@ pw-change-new-password =
     .label = Unesi novu lozinku
 pw-change-confirm-password =
     .label = Potvrdi novu lozinku
+pw-change-success-alert-2 = Lozinka je aktualizirana
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = Stvori lozinku
+pw-create-success-alert-2 = Lozinka je postavljena
+pw-create-error-2 = Žao nam je. Došlo je do greške prilikom postavljanja tvoje lozinke
 
 ##
 
@@ -383,9 +413,26 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Sigurnost
+security-password =
+    .header = Lozinka
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Stvoreno { $date }
+security-not-set = Nije postavljeno
+security-action-create = Stvori
+security-set-password = Postavi lozinku za sinkronizaciju i korištenje određenih sigurnosnih funkcija računa.
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Isključi
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Uključi
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Slanje …
+switch-is-on = uključeno
+switch-is-off = isključeno
 
 ## Sub-section row Defaults
 
@@ -463,7 +510,18 @@ tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
 
 auth-error-102 = Nepoznati račun
 auth-error-103 = Netočna lozinka
+auth-error-105-2 = Neispravan kod za potvrdu
 auth-error-110 = Nevažeći token
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Previše pokušaja. Pokušaj ponovo { $retryAfter }.
+auth-error-138-2 = Nepotvrđena sesija
 auth-error-139 = Sekundarna e-mail adresa mora biti drugačija od e-mail adrese računa
 auth-error-155 = TOTP token nije pronađen
+auth-error-183-2 = Neispravan ili istekao potvrdni kod
 auth-error-1008 = Tvoja nova lozinka mora biti drugačija
