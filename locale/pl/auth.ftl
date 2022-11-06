@@ -181,6 +181,12 @@ ios-download-plaintext = Pobierz program { $productName } z App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Zainstaluj program { $productName } na innym urządzeniu:
+automated-email-change-2 = Jeśli to nie Twoje działanie, natychmiast <a data-l10n-name="passwordChangeLink">zmień hasło</a>.
+automated-email-support = Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Jeśli to nie Twoje działanie, natychmiast zmień hasło:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Więcej informacji można znaleźć w pomocy { -brand-mozilla(case: "gen") }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
 automated-email-no-action-plaintext = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
@@ -243,6 +249,9 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating =
         [few] Zniżka na { $discountDuration } miesiące: -{ $invoiceDiscountAmount }
        *[many] Zniżka na { $discountDuration } miesięcy: -{ $invoiceDiscountAmount }
     }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Podatki i opłaty: { $invoiceTaxAmount }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
