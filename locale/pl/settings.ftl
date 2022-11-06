@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Zamknij komunikat
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -134,6 +130,10 @@ app-footer-terms-of-service = Regulamin usługi
 ##
 
 
+## Alert Bar
+
+alert-bar-close-message = Zamknij komunikat
+
 ## User's avatar
 
 avatar-your-avatar =
@@ -232,7 +232,7 @@ cs-sign-out-button = Wyloguj się
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Pobrano
@@ -265,9 +265,11 @@ drop-down-menu-sign-out-error-2 = Przepraszamy, wystąpił problem z wylogowani
 
 flow-container-back = Wstecz
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Kody odzyskiwania
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Klucz odzyskiwania konta { -brand-firefox(case: "gen") }
+get-data-trio-title-firefox-backup-verification-codes = Zapasowe kody uwierzytelniania { -brand-firefox(case: "gen") }
 get-data-trio-download =
     .title = Pobierz
 get-data-trio-copy =
@@ -327,11 +329,14 @@ nav-data-collection = Zbieranie i wykorzystywanie danych
 nav-paid-subs = Płatne subskrypcje
 nav-email-comm = Ustawienia poczty
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Wystąpił problem podczas zastępowania kodów odzyskiwania
-tfa-replace-code-success = Utworzono nowe kody. Zachowaj te kody jednorazowego użytku w bezpiecznym miejscu &mdash; będą one potrzebne do uzyskania dostępu do konta, jeśli nie masz swojego telefonu.
-tfa-replace-code-success-alert-2 = Zaktualizowano kody odzyskiwania konta
+tfa-replace-code-error-3 = Wystąpił problem podczas zastępowania zapasowych kodów uwierzytelniania
+tfa-replace-code-success-1 =
+    Utworzono nowe kody. Zachowaj te zapasowe kody uwierzytelniania
+    jednorazowego użytku w bezpiecznym miejscu — będą one potrzebne
+    do uzyskania dostępu do konta, jeśli nie masz swojego telefonu.
+tfa-replace-code-success-alert-3 = Zaktualizowano zapasowe kody uwierzytelniania konta
 tfa-replace-code-1-2 = 1. krok z 2
 tfa-replace-code-2-2 = 2. krok z 2
 
@@ -441,19 +446,19 @@ display-name-success-alert-2 = Zaktualizowano wyświetlaną nazwę
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Anuluj
 recovery-key-close-button = Zamknij
 recovery-key-continue-button = Kontynuuj
-recovery-key-created = Utworzono klucz odzyskiwania. Pamiętaj, aby zachować klucz w bezpiecznym miejscu, które będzie można później łatwo znaleźć &mdash; będzie on potrzebny do odzyskania dostępu do swoich danych, jeśli zapomnisz hasła.
+recovery-key-created-1 = Utworzono klucz odzyskiwania konta. Pamiętaj, aby zachować klucz w bezpiecznym miejscu, które będzie można później łatwo znaleźć — będzie on potrzebny do odzyskania dostępu do swoich danych, jeśli zapomnisz hasła.
 recovery-key-enter-password =
     .label = Wpisz hasło
-recovery-key-page-title =
-    .title = Klucz odzyskiwania
+recovery-key-page-title-1 =
+    .title = Klucz odzyskiwania konta
 recovery-key-step-1 = 1. krok z 2
 recovery-key-step-2 = 2. krok z 2
-recovery-key-success-alert-2 = Utworzono klucz odzyskiwania
+recovery-key-success-alert-3 = Utworzono klucz odzyskiwania konta
 
 ## Add secondary email page
 
@@ -501,8 +506,8 @@ tfa-button-cancel = Anuluj
 tfa-button-finish = Dokończ
 tfa-incorrect-totp = Niepoprawny kod uwierzytelniania dwuetapowego
 tfa-cannot-retrieve-code = Wystąpił problem podczas uzyskiwania kodu.
-tfa-cannot-verify-code-3 = Wystąpił problem podczas potwierdzania kodu odzyskiwania
-tfa-incorrect-recovery-code = Niepoprawny kod odzyskiwania
+tfa-cannot-verify-code-4 = Wystąpił problem podczas potwierdzania zapasowego kodu uwierzytelniania
+tfa-incorrect-recovery-code-1 = Niepoprawny zapasowy kod uwierzytelniania
 tfa-enabled = Włączono uwierzytelnianie dwuetapowe
 tfa-scan-this-code =
     Zeskanuj ten kod QR za pomocą jednej
@@ -522,15 +527,6 @@ tfa-enter-secret-key = Wpisz ten tajny klucz do swojej aplikacji uwierzytelniaj�
 tfa-enter-totp = Wpisz teraz kod zabezpieczeń z aplikacji uwierzytelniającej.
 tfa-input-enter-totp =
     .label = Wpisz kod zabezpieczeń
-tfa-save-these-codes =
-    Przechowuj te kody jednorazowego użytku w bezpiecznym miejscu
-    na wypadek sytuacji, w której nie masz swojego telefonu.
-tfa-enter-code-to-confirm =
-    Wpisz teraz jeden z kodów odzyskiwania, aby potwierdzić,
-    że je zachowano. Kod będzie potrzebny w razie zgubienia
-    urządzenia, aby odzyskać dostęp do konta.
-tfa-enter-recovery-code =
-    .label = Wpisz kod odzyskiwania
 
 ##
 
@@ -579,25 +575,16 @@ row-defaults-action-change = Zmień
 row-defaults-action-disable = Wyłącz
 row-defaults-status = Brak
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Klucz odzyskiwania
 rk-enabled = Włączony
 rk-not-set = Nieustawiony
 rk-action-create = Utwórz
 rk-action-remove = Usuń
-rk-cannot-refresh = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania.
 rk-key-removed-2 = Usunięto klucz odzyskiwania konta
 rk-cannot-remove-key = Nie można usunąć klucza odzyskiwania konta.
-rk-refresh-key = Odśwież klucz odzyskiwania
 rk-content-explain = Przywróć swoje dane, gdy zapomnisz hasła.
-rk-content-reset-data = Dlaczego zmiana hasła powoduje usunięcie moich danych?
 rk-cannot-verify-session-4 = Przepraszamy, wystąpił problem podczas potwierdzania sesji
-rk-remove-modal-heading = Usunąć klucz odzyskiwania?
-rk-remove-modal-content =
-    W przypadku zmiany hasła nie będzie można użyć klucza odzyskiwania
-    do uzyskania dostępu do swoich danych. Tego działania nie można cofnąć.
-rk-refresh-error = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania.
 rk-remove-error-2 = Nie można usunąć klucza odzyskiwania konta
 
 ## Secondary email sub-section on main Settings page
@@ -631,9 +618,6 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Ustaw jako główny
 se-default-content = Uzyskaj dostęp do konta, jeśli nie możesz zalogować się na główny adres e-mail.
-se-content-note =
-    Uwaga: dodatkowy adres e-mail nie przywróci danych &mdash; do tego
-    potrzebny będzie <a>klucz odzyskiwania</a>.
 # Default value for the secondary email
 se-secondary-email-none = Brak
 
@@ -657,9 +641,7 @@ tfa-row-content-explain = Logowanie do konta wymaga podania unikalnego kodu, do 
 tfa-row-cannot-verify-session-4 = Przepraszamy, wystąpił problem podczas potwierdzania sesji
 tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
-tfa-row-disable-modal-explain = Tego działania nie będzie można cofnąć. Można zamiast tego <linkExternal>zastąpić kody odzyskiwania</linkExternal>.
 tfa-row-cannot-disable-2 = Nie można wyłączyć uwierzytelniania dwuetapowego
-tfa-row-change-modal-heading = Zmienić kody odzyskiwania?
 tfa-row-change-modal-confirm = Zmień
 tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
 

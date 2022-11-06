@@ -71,6 +71,11 @@ fxa-post-passwordless-sub-error = Subskrypcja została potwierdzona, ale wczytan
 
 ## IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Masz już subskrypcję { $productName } w sklepie z aplikacjami { -brand-name-google } lub { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Nie obsługujemy przełączania z tych subskrypcji, ale wkrótce się to zmieni.
+iap-upgrade-contact-support = Nadal możesz otrzymać ten produkt — prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
+iap-upgrade-get-help-button = Wsparcie
 
 ## Settings
 
@@ -91,6 +96,7 @@ subscription-processing-title = Potwierdzanie subskrypcji…
 subscription-error-title = Błąd podczas potwierdzania subskrypcji…
 subscription-noplanchange-title = Ta zmiana planu subskrypcji nie jest obsługiwana
 subscription-iapsubscribed-title = Już subskrybowane
+subscription-iaperrorupgrade-title = Jeszcze nie możemy Cię przełączyć
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -365,11 +371,16 @@ plan-details-show-button = Wyświetl informacje
 plan-details-hide-button = Ukryj informacje
 plan-details-total-label = Razem
 plan-details-list-price = Cena katalogowa
+plan-details-tax = Podatki i opłaty
 
 ## Coupons
 
 coupon-discount = Zniżka
 coupon-discount-applied = Zastosowano zniżkę
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Kod promocyjny
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Zastosowano kod promocyjny
 coupon-submit = Zastosuj
 coupon-remove = Usuń
 coupon-error = Wpisany kod jest nieprawidłowy lub wygasł.
