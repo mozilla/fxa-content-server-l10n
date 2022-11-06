@@ -341,9 +341,19 @@ fraudulentAccountDeletion-contact-plaintext = W razie pytań prosimy o kontakt
 codes-reminder-title-zero = Zapasowe kody uwierzytelniania się skończyły!
 codes-reminder-title-one = Został ostatni zapasowy kod uwierzytelniania
 codes-reminder-title-two = Czas utworzyć więcej zapasowych kodów uwierzytelniania
+codes-reminder-description-part-one = Zapasowe kody uwierzytelniania pomogą przywrócić Twoje dane, kiedy zapomnisz hasła.
+codes-reminder-description-part-two = Utwórz nowe kody teraz, aby później nie utracić swoich danych.
 codes-reminder-description-two-left = Zostały tylko dwa kody.
+codes-reminder-description-create-codes = Utwórz nowe zapasowe kody uwierzytelniania, które pomogą Ci wrócić do konta, jeśli zostanie ono zablokowane.
 lowRecoveryCodes-action-2 = Utwórz kody
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nie ma więcej zapasowych kodów uwierzytelniania
+        [one] Został tylko { $numberRemaining } zapasowy kod uwierzytelniania!
+        [few] Zostały tylko { $numberRemaining } zapasowe kody uwierzytelniania!
+       *[many] Zostało tylko { $numberRemaining } zapasowych kodów uwierzytelniania!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe logowanie do „{ $clientName }”
@@ -373,8 +383,13 @@ passwordReset-title = Hasło konta zostało zmienione
 passwordReset-description = Wznowienie synchronizacji wymaga wprowadzenia nowego hasła na pozostałych urządzeniach.
 passwordResetAccountRecovery-subject-2 = Zmieniono hasło
 passwordResetAccountRecovery-title-2 = Pomyślnie zmieniono hasło
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Użyto klucza odzyskiwania konta, aby zaktualizować hasło na urządzeniu:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Utwórz nowy klucz odzyskiwania konta
+passwordResetAccountRecovery-regen-required-mjml-1 = Musisz ponownie zalogować się na wszystkich synchronizowanych urządzeniach. Pamiętaj o utworzeniu nowego klucza odzyskiwania konta, aby zastąpić ten użyty.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Musisz ponownie zalogować się na wszystkich synchronizowanych urządzeniach. Pamiętaj o utworzeniu nowego klucza odzyskiwania konta, aby zastąpić ten użyty:
 postAddAccountRecovery-subject-2 = Klucz odzyskiwania konta został utworzony
 postAddAccountRecovery-title2 = Utworzono nowy klucz odzyskiwania konta
 # Information on the browser and device triggering this string follows.
@@ -406,6 +421,12 @@ postConsumeRecoveryCode-title-2 = Użyto zapasowy kod uwierzytelniania
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Użyto go na urządzeniu:
 postConsumeRecoveryCode-action = Zarządzaj kontem
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Został { $numberRemaining } zapasowy kod uwierzytelniania
+        [few] Zostały { $numberRemaining } zapasowe kody uwierzytelniania
+       *[many] Zostało { $numberRemaining } zapasowych kodów uwierzytelniania
+    }
 postNewRecoveryCodes-subject-2 = Nowe zapasowe kody uwierzytelniania zostały utworzone
 postNewRecoveryCodes-title-2 = Utworzono nowe zapasowe kody uwierzytelniania
 # After the colon, there is information about the device that the authentication codes were created on
@@ -416,6 +437,7 @@ postRemoveAccountRecovery-title-2 = Usunięto klucz odzyskiwania konta.
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Usunięto go na urządzeniu:
 postRemoveAccountRecovery-action = Zarządzaj kontem
+postRemoveAccountRecovery-invalid-2 = Potrzebujesz klucza odzyskiwania konta, aby odzyskać swoje dane { -brand-firefox(case: "gen") }, jeśli zapomnisz hasła.
 postRemoveSecondary-subject = Usunięto dodatkowy adres e-mail
 postRemoveSecondary-title = Usunięto dodatkowy adres e-mail
 # Variables:
