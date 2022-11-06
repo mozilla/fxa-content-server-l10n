@@ -424,6 +424,7 @@ subscriptionCancellation-title = Lamentamos que te vayas
 #   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = Hemos cancelado tu suscripción a { $productName }. Tu último pago de { $invoiceTotal } fue realizado el { $invoiceDateOnly }. Tu servicio continuará hasta el término del periodo de facturación actual, que es { $serviceLastActiveDateOnly }.
+subscriptionCancellation-outstanding-content = Hemos cancelado tu suscripción a { $productName }. Tu último pago de { $invoiceTotal } será efectuado el { $invoiceDateOnly }. Tu servicio continuará hasta el término del periodo de facturación actual, que es { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Has cambiado a { $productName }
