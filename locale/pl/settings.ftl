@@ -528,6 +528,12 @@ tfa-input-enter-totp =
 tfa-save-these-codes-1 =
     Przechowuj te zapasowe kody uwierzytelniania jednorazowego użytku w bezpiecznym miejscu
     na wypadek sytuacji, w której nie masz swojego telefonu.
+tfa-enter-code-to-confirm-1 =
+    Proszę teraz wpisać jeden z zapasowych kodów uwierzytelniania, aby potwierdzić,
+    że zostały zachowane. Kod będzie potrzebny do logowania, jeśli nie masz dostępu
+    do swojego telefonu.
+tfa-enter-recovery-code-1 =
+    .label = Wpisz zapasowy kod uwierzytelniania
 
 ##
 
@@ -578,14 +584,22 @@ row-defaults-status = Brak
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Klucz odzyskiwania konta
 rk-enabled = Włączony
 rk-not-set = Nieustawiony
 rk-action-create = Utwórz
 rk-action-remove = Usuń
+rk-cannot-refresh-1 = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania konta.
 rk-key-removed-2 = Usunięto klucz odzyskiwania konta
 rk-cannot-remove-key = Nie można usunąć klucza odzyskiwania konta.
+rk-refresh-key-1 = Odśwież klucz odzyskiwania konta
 rk-content-explain = Przywróć swoje dane, gdy zapomnisz hasła.
 rk-cannot-verify-session-4 = Przepraszamy, wystąpił problem podczas potwierdzania sesji
+rk-remove-modal-heading-1 = Usunąć klucz odzyskiwania konta?
+rk-remove-modal-content-1 =
+    W przypadku zmiany hasła nie będzie można użyć klucza odzyskiwania konta
+    do uzyskania dostępu do swoich danych. Tego działania nie można cofnąć.
+rk-refresh-error-1 = Przepraszamy, wystąpił problem podczas odświeżania klucza odzyskiwania konta.
 rk-remove-error-2 = Nie można usunąć klucza odzyskiwania konta
 
 ## Secondary email sub-section on main Settings page
@@ -619,6 +633,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Ustaw jako główny
 se-default-content = Uzyskaj dostęp do konta, jeśli nie możesz zalogować się na główny adres e-mail.
+se-content-note-1 =
+    Uwaga: dodatkowy adres e-mail nie przywróci danych — do tego
+    potrzebny będzie <a>klucz odzyskiwania konta</a>.
 # Default value for the secondary email
 se-secondary-email-none = Brak
 
@@ -642,7 +659,11 @@ tfa-row-content-explain = Logowanie do konta wymaga podania unikalnego kodu, do 
 tfa-row-cannot-verify-session-4 = Przepraszamy, wystąpił problem podczas potwierdzania sesji
 tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
+tfa-row-disable-modal-explain-1 =
+    Tego działania nie będzie można cofnąć. Można zamiast tego
+    <linkExternal>zastąpić zapasowe kody uwierzytelniania</linkExternal>.
 tfa-row-cannot-disable-2 = Nie można wyłączyć uwierzytelniania dwuetapowego
+tfa-row-change-modal-heading-1 = Zmienić zapasowe kody uwierzytelniania?
 tfa-row-change-modal-confirm = Zmień
 tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.
 

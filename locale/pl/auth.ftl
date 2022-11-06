@@ -3,9 +3,18 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla =
     { $case ->
        *[nom] Mozilla
@@ -24,7 +33,8 @@
         [ins] Firefoksem
         [loc] Firefoksie
     }
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts =
     { $case ->
        *[nom]
@@ -58,7 +68,8 @@
                 [lower] kontach Firefoksa
             }
     }
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
        *[nom]
@@ -92,11 +103,13 @@
                 [lower] koncie Firefoksa
             }
     }
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
@@ -153,14 +166,15 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Pobierz progra
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Pobierz program { $productName } na { -app-store }">
-another-desktop-device = Albo zainstaluj na <a data-l10n-name="anotherDeviceLink">innym komputerze</a>.
-another-device = Albo zainstaluj na <a data-l10n-name="anotherDeviceLink">innym urządzeniu</a>.
-automated-email-change =
-    Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania tej czynności, to należy <a data-l10n-name="passwordChangeLink">zmienić hasło</a>.
-    Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Wiadomość wygenerowana automatycznie. Jeśli nie dodano nowego urządzenia do { -product-firefox-account(case: "gen", capitalization: "lower") }, to należy natychmiast zmienić hasło pod adresem { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Zainstaluj program { $productName } na <a data-l10n-name="anotherDeviceLink">innym komputerze</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Zainstaluj program { $productName } na <a data-l10n-name="anotherDeviceLink">innym urządzeniu</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Pobierz program { $productName } z Google Play:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
 automated-email-no-action-plaintext = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
@@ -196,6 +210,37 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = Karta { $cardType } kończąca się na { $lastFour }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Numer faktury: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Numer faktury: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Zmiana planu: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Suma częściowa: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Zniżka: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Jednorazowa zniżka: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating =
+    { $discountDuration ->
+        [one] Zniżka na { $discountDuration } miesiąc: -{ $invoiceDiscountAmount }
+        [few] Zniżka na { $discountDuration } miesiące: -{ $invoiceDiscountAmount }
+       *[many] Zniżka na { $discountDuration } miesięcy: -{ $invoiceDiscountAmount }
+    }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Obciążono { $invoiceTotal } w dniu { $invoiceDateOnly }
 subscriptionSupport = Masz pytania dotyczące subskrypcji? Nasz <a data-l10n-name="subscriptionSupportUrl">zespół wsparcia</a> Ci pomoże.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Masz pytania dotyczące subskrypcji? Nasz zespół wsparcia Ci pomoże:
@@ -277,18 +322,6 @@ fraudulentAccountDeletion-contact = W razie pytań prosimy o kontakt z naszym
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = W razie pytań prosimy o kontakt z naszym zespołem wsparcia: { $mozillaSupportUrl }
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Pozostało mało kodów odzyskiwania
-codes-reminder-description = Zauważyliśmy, że pozostało mało kodów odzyskiwania. Prosimy rozważyć utworzenie nowych, aby uniknąć zablokowania konta.
-codes-generate = Utwórz kody
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Utwórz kody
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] Pozostał jeden kod odzyskiwania
-        [few] Pozostał { $numberRemaining } kody odzyskiwania
-       *[many] Pozostało { $numberRemaining } kodów odzyskiwania
-    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe logowanie do „{ $clientName }”
@@ -316,13 +349,6 @@ passwordChangeRequired-different-password-plaintext = Ważne: wybierz inne hasł
 passwordReset-subject = Zaktualizowano hasło
 passwordReset-title = Hasło konta zostało zmienione
 passwordReset-description = Wznowienie synchronizacji wymaga wprowadzenia nowego hasła na pozostałych urządzeniach.
-passwordResetAccountRecovery-subject = Zaktualizowano hasło za pomocą klucza odzyskiwania
-passwordResetAccountRecovery-title = Hasło konta zostało zmienione za pomocą klucza odzyskiwania
-passwordResetAccountRecovery-description = Pomyślnie zmieniono hasło za pomocą klucza odzyskiwania z tego urządzenia:
-passwordResetAccountRecovery-action = Utwórz nowy klucz odzyskiwania
-passwordResetAccountRecovery-regen-required = Będzie trzeba utworzyć nowy klucz odzyskiwania.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Utwórz nowy klucz odzyskiwania:
 postAddAccountRecovery-subject-2 = Utworzono klucz odzyskiwania konta
 postAddAccountRecovery-title2 = Utworzono nowy klucz odzyskiwania konta
 # Information on the browser and device triggering this string follows.
@@ -338,43 +364,23 @@ postAddLinkedAccount-subject = Nowe konto powiązane z { -brand-firefox(case: "
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Konto { $providerName } zostało powiązane z { -product-firefox-account(case: "ins", capitalization: "lower") }
 postAddLinkedAccount-action = Zarządzaj kontem
-postAddTwoStepAuthentication-subject = Włączono uwierzytelnianie dwuetapowe
-postAddTwoStepAuthentication-title = Włączono uwierzytelnianie dwuetapowe
-postAddTwoStepAuthentication-description-plaintext = Pomyślnie włączono uwierzytelnianie dwuetapowe na { -product-firefox-account(case: "loc", capitalization: "lower") }. Od teraz podczas każdego logowania wymagane będą kody zabezpieczeń z aplikacji do uwierzytelniania.
-postAddTwoStepAuthentication-description = Pomyślnie włączono uwierzytelnianie dwuetapowe na { -product-firefox-account(case: "loc", capitalization: "lower") } z tego urządzenia:
 postAddTwoStepAuthentication-action = Zarządzaj kontem
-postAddTwoStepAuthentication-code-required = Od teraz podczas każdego logowania wymagane będą kody zabezpieczeń z aplikacji do uwierzytelniania.
 postChangePrimary-subject = Zaktualizowano główny adres e-mail
 postChangePrimary-title = Nowy główny adres e-mail
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Pomyślnie zmieniono główny adres e-mail na { $email }. Ten adres jest teraz nazwą użytkownika do logowania na { -product-firefox-account(case: "loc", capitalization: "lower") }, a także adresem odbierającym powiadomienia bezpieczeństwa
 postChangePrimary-action = Zarządzaj kontem
-postConsumeRecoveryCode-subject = Użyto kod odzyskiwania
-postConsumeRecoveryCode-title = Zużyto kod odzyskiwania
-postConsumeRecoveryCode-description = Pomyślnie zużyto kod odzyskiwania z tego urządzenia:
 postConsumeRecoveryCode-action = Zarządzaj kontem
-postNewRecoveryCodes-subject = Utworzono nowe kody odzyskiwania
-postNewRecoveryCodes-title = Utworzono nowe kody odzyskiwania
-postNewRecoveryCodes-description = Pomyślnie utworzono nowe kody odzyskiwania z tego urządzenia:
 postNewRecoveryCodes-action = Zarządzaj kontem
-postRemoveAccountRecovery-subject = Usunięto klucz odzyskiwania konta
-postRemoveAccountRecovery-title = Usunięto klucz odzyskiwania konta
-postRemoveAccountRecovery-description = Pomyślnie usunięto klucz odzyskiwania { -product-firefox-account(case: "gen", capitalization: "lower") } za pomocą tego urządzenia:
 postRemoveAccountRecovery-action = Zarządzaj kontem
-postRemoveAccountRecovery-invalid = Tego klucza odzyskiwania nie będzie już można użyć do odzyskania konta.
 postRemoveSecondary-subject = Usunięto dodatkowy adres e-mail
 postRemoveSecondary-title = Usunięto dodatkowy adres e-mail
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Pomyślnie usunięto dodatkowy adres e-mail { $secondaryEmail } z { -product-firefox-account(case: "gen", capitalization: "lower") }. Powiadomienia bezpieczeństwa i potwierdzenia logowania nie będą już wysyłane na ten adres.
 postRemoveSecondary-action = Zarządzaj kontem
-postRemoveTwoStepAuthentication-subject-line = Uwierzytelnianie dwuetapowe jest wyłączone
-postRemoveTwoStepAuthentication-title = Wyłączono uwierzytelnianie dwuetapowe
-postRemoveTwoStepAuthentication-description = Pomyślnie wyłączono uwierzytelnianie dwuetapowe na { -product-firefox-account(case: "loc", capitalization: "lower") } z tego urządzenia:
-postRemoveTwoStepAuthentication-description-plaintext = Pomyślnie wyłączono uwierzytelnianie dwuetapowe na { -product-firefox-account(case: "loc", capitalization: "lower") }. Od teraz kody zabezpieczeń nie będą wymagane podczas każdego logowania.
 postRemoveTwoStepAuthentication-action = Zarządzaj kontem
-postRemoveTwoStepAuthentication-not-required = Od teraz kody zabezpieczeń nie będą wymagane podczas każdego logowania.
 postVerify-sub-title-3 = Cieszymy się, że Cię widzimy!
 postVerify-title-2 = Chcesz mieć tę samą kartę na dwóch urządzeniach?
 postVerify-description-2 = To łatwe! Wystarczy zainstalować { -brand-firefox(case: "acc") } na innym urządzeniu i zalogować się do synchronizacji. To jak magia!
@@ -473,60 +479,8 @@ subscriptionFirstInvoice-content-processing = Płatność jest obecnie przetwarz
 subscriptionFirstInvoice-content-install-2 = Otrzymasz oddzielną wiadomość z informacjami o tym, jak zacząć korzystać z { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
 # Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Numer faktury: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Numer faktury: { $invoiceNumber }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoice-content-charge = Obciążono { $invoiceTotal } w dniu { $invoiceDateOnly }
-# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Następna faktura: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-subject = Potwierdzono płatność za { $productName }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-title = Dziękujemy za subskrypcję { $productName }
-subscriptionFirstInvoiceDiscount-content-processing = Płatność jest obecnie przetwarzana, co może zająć do czterech dni roboczych.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install-2 = Otrzymasz oddzielną wiadomość z informacjami o tym, jak zacząć korzystać z { $productName }.
-subscriptionFirstInvoiceDiscount-content-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoiceDiscount-content-invoice-number = Numer faktury: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Numer faktury: { $invoiceNumber }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoiceDiscount-content-subtotal = Suma częściowa: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount = Zniżka: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount-one-time = Jednorazowa zniżka: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionFirstInvoiceDiscount-content-discount-repeating =
-    { $discountDuration ->
-        [one] Zniżka na { $discountDuration } miesiąc: -{ $invoiceDiscountAmount }
-        [few] Zniżka na { $discountDuration } miesiące: -{ $invoiceDiscountAmount }
-       *[many] Zniżka na { $discountDuration } miesięcy: -{ $invoiceDiscountAmount }
-    }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-subscriptionFirstInvoiceDiscount-content-charge = Obciążono { $invoiceTotal } w dniu { $invoiceDateOnly }
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoiceDiscount-content-next-invoice = Następna faktura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-1 = Karta płatnicza dla { $productName } wygasła lub wkrótce wygaśnie
@@ -592,62 +546,8 @@ subscriptionSubsequentInvoice-title = Dziękujemy za subskrypcję!
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Otrzymaliśmy ostatnią płatność za { $productName }.
 # Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number = Numer faktury: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number-plaintext = Numer faktury: { $invoiceNumber }
-# Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-plan-change = Zmiana planu: { $paymentProrated }
-# Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-charged = Obciążono { $invoiceTotal } w dniu { $invoiceDateOnly }
-# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Następna faktura: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-subject = Otrzymano płatność za { $productName }
-subscriptionSubsequentInvoiceDiscount-title = Dziękujemy za subskrypcję!
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-content-received = Otrzymaliśmy ostatnią płatność za { $productName }.
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number = Numer faktury: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Numer faktury: { $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-plan-change = Zmiana planu: { $paymentProrated }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charge = Obciążono { $invoiceTotal } w dniu { $invoiceDateOnly }
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoiceDiscount-content-next-invoice = Następna faktura: { $nextInvoiceDateOnly }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-subtotal = Suma częściowa: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionSubsequentInvoiceDiscount-content-discount = Zniżka: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Jednorazowa zniżka: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionSubsequentInvoiceDiscount-content-discount-repeating =
-    { $discountDuration ->
-        [one] Zniżka na { $discountDuration } miesiąc: -{ $invoiceDiscountAmount }
-        [few] Zniżka na { $discountDuration } miesiące: -{ $invoiceDiscountAmount }
-       *[many] Zniżka na { $discountDuration } miesięcy: -{ $invoiceDiscountAmount }
-    }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Przełączono na { $productName }
@@ -682,7 +582,6 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Pamiętaj o potwierdzeniu konta
 verificationReminderFirst-title-2 = Witamy w { -brand-firefox(case: "loc") }!
 verificationReminderFirst-description-2 = Kilka dni temu utworzono { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Potwierdź je w ciągu najbliższych 15 dni, w przeciwnym razie zostanie ono automatycznie usunięte.
-verificationReminderFirst-sub-description-2 = Nie przegap technologii, która stawia Ciebie i Twoją prywatność na pierwszym miejscu.
 confirm-email-2 = Potwierdź konto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potwierdź konto
@@ -702,11 +601,6 @@ verifyLogin-title-2 = Czy zalogowano do „{ $clientName }”?
 verifyLogin-description-2 = Pomóż nam zapewnić bezpieczeństwo Twojego konta, potwierdzając logowanie na:
 verifyLogin-subject-2 = Potwierdź logowanie
 verifyLogin-action = Potwierdź logowanie
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Kod logowania usługi { $serviceName }
-verifyLoginCode-title = Czy to Ty się logujesz?
-verifyLoginCode-prompt-2 = Jeśli tak, oto kod potwierdzenia:
 verifyLoginCode-expiry-notice = Wygasa za 5 minut.
 verifyPrimary-title-2 = Potwierdź główny adres e-mail
 verifyPrimary-description = Z tego urządzenia zażądano wykonania zmiany na koncie:
