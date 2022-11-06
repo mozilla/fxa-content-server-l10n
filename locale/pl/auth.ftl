@@ -449,6 +449,7 @@ postRemoveTwoStepAuthentication-title-2 = Wyłączono uwierzytelnianie dwuetapow
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Wyłączono je z urządzenia:
 postRemoveTwoStepAuthentication-action = Zarządzaj kontem
+postRemoveTwoStepAuthentication-not-required-2 = Nie potrzebujesz już kodów zabezpieczeń z aplikacji do uwierzytelniania podczas logowania.
 postVerify-sub-title-3 = Cieszymy się, że Cię widzimy!
 postVerify-title-2 = Chcesz mieć tę samą kartę na dwóch urządzeniach?
 postVerify-description-2 = To łatwe! Wystarczy zainstalować { -brand-firefox(case: "acc") } na innym urządzeniu i zalogować się do synchronizacji. To jak magia!
@@ -632,6 +633,7 @@ subscriptionUpgrade-upgrade-info = Pomyślnie przełączono z { $productNameOld
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Zaczynając od następnego rachunku, opłata zostanie zmieniona z { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }. Wtedy też zostanie naliczona jednorazowa opłata w wysokości { $paymentProrated }, aby odzwierciedlić wyższą opłatę przez pozostały czas tego okresu ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-info-different-cycle = Zostanie naliczona jednorazowa opłata w wysokości { $paymentProrated }, aby odzwierciedlić wyższą cenę subskrypcji przez pozostały czas tego okresu ({ $productPaymentCycleOld }). Zaczynając od następnego rachunku, opłata zostanie zmieniona z { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Jeśli do korzystania z { $productName } będzie potrzebna instalacja nowego oprogramowania, to otrzymasz oddzielną wiadomość z instrukcjami pobierania.
