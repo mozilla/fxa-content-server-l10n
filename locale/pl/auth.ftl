@@ -175,6 +175,12 @@ another-device-2 = Zainstaluj program { $productName } na <a data-l10n-name="ano
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Pobierz program { $productName } z Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Pobierz program { $productName } z App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Zainstaluj program { $productName } na innym urządzeniu:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
 automated-email-no-action-plaintext = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
@@ -322,6 +328,13 @@ fraudulentAccountDeletion-contact = W razie pytań prosimy o kontakt z naszym
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = W razie pytań prosimy o kontakt z naszym zespołem wsparcia: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Zapasowe kody uwierzytelniania się skończyły!
+codes-reminder-title-one = Został ostatni zapasowy kod uwierzytelniania
+codes-reminder-title-two = Czas utworzyć więcej zapasowych kodów uwierzytelniania
+codes-reminder-description-two-left = Zostały tylko dwa kody.
+lowRecoveryCodes-action-2 = Utwórz kody
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nowe logowanie do „{ $clientName }”
@@ -349,7 +362,11 @@ passwordChangeRequired-different-password-plaintext = Ważne: wybierz inne hasł
 passwordReset-subject = Zaktualizowano hasło
 passwordReset-title = Hasło konta zostało zmienione
 passwordReset-description = Wznowienie synchronizacji wymaga wprowadzenia nowego hasła na pozostałych urządzeniach.
-postAddAccountRecovery-subject-2 = Utworzono klucz odzyskiwania konta
+passwordResetAccountRecovery-subject-2 = Zmieniono hasło
+passwordResetAccountRecovery-title-2 = Pomyślnie zmieniono hasło
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Utwórz nowy klucz odzyskiwania konta
+postAddAccountRecovery-subject-2 = Klucz odzyskiwania konta został utworzony
 postAddAccountRecovery-title2 = Utworzono nowy klucz odzyskiwania konta
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = Utworzono nowy klucz z:
@@ -364,15 +381,31 @@ postAddLinkedAccount-subject = Nowe konto powiązane z { -brand-firefox(case: "
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Konto { $providerName } zostało powiązane z { -product-firefox-account(case: "ins", capitalization: "lower") }
 postAddLinkedAccount-action = Zarządzaj kontem
+postAddTwoStepAuthentication-subject-2 = Uwierzytelnianie dwuetapowe zostało włączone
+postAddTwoStepAuthentication-title-2 = Włączono uwierzytelnianie dwuetapowe
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Włączono je z urządzenia:
 postAddTwoStepAuthentication-action = Zarządzaj kontem
+postAddTwoStepAuthentication-code-required-2 = Podczas każdego logowania wymagane są teraz kody zabezpieczeń z aplikacji do uwierzytelniania.
 postChangePrimary-subject = Zaktualizowano główny adres e-mail
 postChangePrimary-title = Nowy główny adres e-mail
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Pomyślnie zmieniono główny adres e-mail na { $email }. Ten adres jest teraz nazwą użytkownika do logowania na { -product-firefox-account(case: "loc", capitalization: "lower") }, a także adresem odbierającym powiadomienia bezpieczeństwa
 postChangePrimary-action = Zarządzaj kontem
+postConsumeRecoveryCode-title-2 = Użyto zapasowy kod uwierzytelniania
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Użyto go na urządzeniu:
 postConsumeRecoveryCode-action = Zarządzaj kontem
+postNewRecoveryCodes-subject-2 = Nowe zapasowe kody uwierzytelniania zostały utworzone
+postNewRecoveryCodes-title-2 = Utworzono nowe zapasowe kody uwierzytelniania
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Utworzono je na urządzeniu:
 postNewRecoveryCodes-action = Zarządzaj kontem
+postRemoveAccountRecovery-subject-2 = Klucz odzyskiwania konta został usunięty
+postRemoveAccountRecovery-title-2 = Usunięto klucz odzyskiwania konta.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Usunięto go na urządzeniu:
 postRemoveAccountRecovery-action = Zarządzaj kontem
 postRemoveSecondary-subject = Usunięto dodatkowy adres e-mail
 postRemoveSecondary-title = Usunięto dodatkowy adres e-mail
@@ -380,6 +413,10 @@ postRemoveSecondary-title = Usunięto dodatkowy adres e-mail
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Pomyślnie usunięto dodatkowy adres e-mail { $secondaryEmail } z { -product-firefox-account(case: "gen", capitalization: "lower") }. Powiadomienia bezpieczeństwa i potwierdzenia logowania nie będą już wysyłane na ten adres.
 postRemoveSecondary-action = Zarządzaj kontem
+postRemoveTwoStepAuthentication-subject-line-2 = Uwierzytelnianie dwuetapowe zostało wyłączone
+postRemoveTwoStepAuthentication-title-2 = Wyłączono uwierzytelnianie dwuetapowe
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Wyłączono je z urządzenia:
 postRemoveTwoStepAuthentication-action = Zarządzaj kontem
 postVerify-sub-title-3 = Cieszymy się, że Cię widzimy!
 postVerify-title-2 = Chcesz mieć tę samą kartę na dwóch urządzeniach?
