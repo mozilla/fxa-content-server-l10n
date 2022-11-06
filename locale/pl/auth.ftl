@@ -479,6 +479,7 @@ subscriptionCancellation-title = Przykro nam, że chcesz się z nami pożegnać
 #   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = Anulowaliśmy subskrypcję { $productName }. Ostatnia płatność w wysokości { $invoiceTotal } została opłacona w dniu { $invoiceDateOnly }. Możesz korzystać z usługi do końca bieżącego okresu rozliczeniowego, czyli { $serviceLastActiveDateOnly }.
+subscriptionCancellation-outstanding-content = Anulowaliśmy subskrypcję { $productName }. Ostatnia płatność w wysokości { $invoiceTotal } zostanie opłacona w dniu { $invoiceDateOnly }. Możesz korzystać z usługi do końca bieżącego okresu rozliczeniowego, czyli { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Przełączono na { $productName }
@@ -619,6 +620,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Pamiętaj o potwierdzeniu konta
 verificationReminderFirst-title-2 = Witamy w { -brand-firefox(case: "loc") }!
 verificationReminderFirst-description-2 = Kilka dni temu utworzono { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Potwierdź je w ciągu najbliższych 15 dni, w przeciwnym razie zostanie ono automatycznie usunięte.
+verificationReminderFirst-sub-description-3 = Nie przegap przeglądarki, która stawia Ciebie i Twoją prywatność na pierwszym miejscu.
 confirm-email-2 = Potwierdź konto
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potwierdź konto
@@ -638,6 +640,15 @@ verifyLogin-title-2 = Czy zalogowano do „{ $clientName }”?
 verifyLogin-description-2 = Pomóż nam zapewnić bezpieczeństwo Twojego konta, potwierdzając logowanie na:
 verifyLogin-subject-2 = Potwierdź logowanie
 verifyLogin-action = Potwierdź logowanie
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Zatwierdź logowanie do „{ $serviceName }”
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Czy zalogowano do „{ $serviceName }”?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Pomóż nam zapewnić bezpieczeństwo Twojego konta, zatwierdzając logowanie na:
+verifyLoginCode-prompt-3 = Jeśli tak, oto kod upoważnienia:
 verifyLoginCode-expiry-notice = Wygasa za 5 minut.
 verifyPrimary-title-2 = Potwierdź główny adres e-mail
 verifyPrimary-description = Z tego urządzenia zażądano wykonania zmiany na koncie:
