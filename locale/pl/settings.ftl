@@ -516,9 +516,7 @@ tfa-scan-this-code =
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Użyj kodu { $secret }, aby skonfigurować uwierzytelnianie
-    dwuetapowe w obsługiwanych aplikacjach.
+tfa-qa-code-alt = Użyj kodu { $secret }, aby skonfigurować uwierzytelnianie dwuetapowe w obsługiwanych aplikacjach.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Nie możesz zeskanować kodu?
@@ -527,6 +525,9 @@ tfa-enter-secret-key = Wpisz ten tajny klucz do swojej aplikacji uwierzytelniaj�
 tfa-enter-totp = Wpisz teraz kod zabezpieczeń z aplikacji uwierzytelniającej.
 tfa-input-enter-totp =
     .label = Wpisz kod zabezpieczeń
+tfa-save-these-codes-1 =
+    Przechowuj te zapasowe kody uwierzytelniania jednorazowego użytku w bezpiecznym miejscu
+    na wypadek sytuacji, w której nie masz swojego telefonu.
 
 ##
 
