@@ -318,10 +318,12 @@ postAddLinkedAccount-subject = { -brand-firefox } にリンクされた新しい
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = { $providerName } のアカウントが { -product-firefox-account }にリンクされています
 postAddLinkedAccount-action = アカウント管理
+postAddTwoStepAuthentication-subject-2 = 2 段階認証がオンになりました
 postAddTwoStepAuthentication-title-2 = 2 段階認証をオンにしました
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = 次の端末から有効にしました:
 postAddTwoStepAuthentication-action = アカウント管理
+postAddTwoStepAuthentication-code-required-2 = 今後はログインのたびに認証アプリに表示されるセキュリティコードが必要となります。
 postChangePrimary-subject = 主要アドレスが更新されました
 postChangePrimary-title = 新しい主要アドレス
 # Variables:
@@ -353,10 +355,12 @@ postRemoveSecondary-title = 予備アドレスが削除されました
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } があなたの { -product-firefox-account }の予備アドレスから削除されました。セキュリティ通知やログイン確認は今後このアドレスに送られなくなります。
 postRemoveSecondary-action = アカウント管理
+postRemoveTwoStepAuthentication-subject-line-2 = 2 段階認証がオフになりました
 postRemoveTwoStepAuthentication-title-2 = 2 段階認証をオフにしました
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = 次の端末から無効にしました:
 postRemoveTwoStepAuthentication-action = アカウント管理
+postRemoveTwoStepAuthentication-not-required-2 = 今後はログイン時に認証アプリからのセキュリティコードを必要としません。
 postVerify-title-2 = 2 台の端末で同じタブを表示したいですか？
 postVerify-description-2 = 簡単です！別の端末に { -brand-firefox } をインストールして同期するだけです。まるで魔法のようです！
 postVerify-sub-description = （ログインしたどの端末からでも、ブックマークやパスワード、{ -brand-firefox } の他のデータにアクセスできます。）
@@ -570,6 +574,10 @@ verify-title-2 = { -brand-firefox } でインターネットをオープンに
 verify-description = アカウントを確認すると、ログインしたどの端末からでも { -brand-firefox } を最大限に活用できます。まずこちらから:
 verify-subject = アカウント作成を完了してください
 verify-action-2 = アカウントを確認
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = { $clientName } にログインしましたか？
+verifyLogin-description-2 = アカウントを安全に保つために、次の端末からのログインを確認してください:
 verifyLogin-subject-2 = ログインを確認
 verifyLogin-action = ログインを確認
 # Variables:
@@ -578,6 +586,8 @@ verifyLoginCode-subject-line-2 = { $serviceName } へのログインを承認
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } にログインしましたか？
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = アカウントを安全に保つために、次の端末からのログインを承認してください：
 verifyLoginCode-expiry-notice = 5 分以内に確認コードを入力してください。
 verifyPrimary-description = アカウント変更を実行するリクエストが次の端末から行われました:
 verifyPrimary-subject = 優先メールアドレス確認
