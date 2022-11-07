@@ -52,6 +52,19 @@ subplat-automated-email = Dette er ei automatisk e-postmelding: Dersom du har mo
 subplat-privacy-notice = Personvernmerknad
 subplat-privacy-plaintext = Personvernmerknad:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific = Du får denne e-posten fordi { $email } har ein { -product-firefox-account }, og du har registrert deg for { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form = Du får denne e-posten fordi { $email } har ein { -product-firefox-account }.
+subplat-explainer-multiple = Du får denne e-posten fordi { $email } har ein { -product-firefox-account }, og du abonnerer på fleire produkt.
+subplat-explainer-was-deleted = Du får denne e-posten fordi { $email } vart registrert for ein { -product-firefox-account }.
+subplat-manage-account = Handsam { -product-firefox-account }innstillingane dine ved å gå til <a data-l10n-name="subplat-account-page">konto-sida</a> di.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Handsam { -product-firefox-account }-innstillingane dine ved å gå til kontosida di: { $accountSettingsUrl }
 subplat-terms-policy = Vilkår og avbestillingsreglar
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Avbryt abonnement
@@ -75,11 +88,21 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Last ned { $pr
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Last ned { $productName }  i { -app-store }">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Installer { $productName } på <a data-l10n-name="anotherDeviceLink">ei anna datamaskin</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Installer { $productName } på <a data-l10n-name="anotherDeviceLink">ei anna eining</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Last ned { $productName } frå Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 ios-download-plaintext = Last ned { $productName } frå App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Installer { $productName } på ei anna eining:
 automated-email-change-2 = Om du ikkje gjorde denne handlinga, <a data-l10n-name="passwordChangeLink">endre passordet ditt</a> med ein gong.
+automated-email-support = Gå til <a data-l10n-name="supportLink">{ -brand-mozilla } brukarstøtte</a> for meir informasjon.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Om du ikkje gjorde denne handlinga, endre passordet ditt med ein gong:
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -107,6 +130,9 @@ subscriptionFirstInvoice-content-invoice-number = Fakturanummer: <b>{ $invoiceNu
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number-plaintext = Fakturanummer: { $invoiceNumber }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Skattar og gebyr: { $invoiceTaxAmount }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Har du spørsmål om abonnementet ditt? Supportteamet vårt står klar til å hjelpe deg:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
