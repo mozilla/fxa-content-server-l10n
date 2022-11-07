@@ -155,12 +155,21 @@ subscriptionSubsequentInvoice-content-plan-change = Planendring: { $paymentProra
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Delsum: { $invoiceSubtotal }
 # Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Rabatt: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Eingongsrabatt: -{ $invoiceDiscountAmount }
+# Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Skattar og gebyr: { $invoiceTaxAmount }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Har du spørsmål om abonnementet ditt? Supportteamet vårt står klar til å hjelpe deg:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Oppdater betalingsinformasjonen din snarast råd for å unngå avbrot i tenesta di:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = For meir informasjon, gå til { -brand-mozilla } brukarstøtte: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -194,6 +203,7 @@ view-invoice = <a data-l10n-name="invoiceLink">Sjå fakturaen din</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Sjå faktura: { $invoiceLink }
+cadReminderFirst-subject-1 = Påminning! Byrje å synkronisere { -brand-firefox }
 cadReminderFirst-action = Synkroniser ei anna eining
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
@@ -209,7 +219,10 @@ downloadSubscription-subject = Velkomen til { $productName }
 downloadSubscription-title = Velkomen til { $productName }
 downloadSubscription-content-2 = La oss kome i gang med å bruke alle funksjonane i abonementet ditt.
 downloadSubscription-link-action-2 = Kom i gang
+fraudulentAccountDeletion-subject = { -product-firefox-account } din vart sletta
 fraudulentAccountDeletion-title = Kontoen din vart sletta
+lowRecoveryCodes-action-2 = Lag kodar
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Ny inloggning på { $clientName }
@@ -226,6 +239,7 @@ passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passo
 passwordReset-subject = Passord oppdatert
 passwordReset-title = Kontopassordet ditt vart endra
 passwordReset-description = Du må skrive inn det nye passordet ditt på andre einingar for å fortsetje synkroniseringa.
+passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
 passwordResetAccountRecovery-title-2 = Passordet er tilbakestilt
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Opprett ein ny kontogjenopprettingsnøkkel
