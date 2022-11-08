@@ -255,9 +255,31 @@ fraudulentAccountDeletion-contact-plaintext = En cas da dumondas, contactescha p
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Ti n'has pli nagins codes d'autentificaziun da backup!
 codes-reminder-title-one = Ti dovras tes ultim code d'autentificaziun da backup
+codes-reminder-title-two = Temp da crear ulteriurs codes d'autentificaziun da backup
+codes-reminder-description-part-one = Codes d'autentificaziun da backup ta gidan da restaurar tias datas en cas che ti emblidas tes pled-clav.
+codes-reminder-description-part-two = Creescha ussa novs codes per che ti na perdias pli tard betg tias datas.
+codes-reminder-description-two-left = Ti has mo pli dus codes.
+codes-reminder-description-create-codes = Creescha novs codes d'autentificaziun da backup per puspè pudair acceder a tes conto en cas che ti vegns in bel di exclus da tes conto.
+lowRecoveryCodes-action-2 = Crear codes
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nagins codes d'autentificaziun da backup pli
+        [one] Mo pli 1 code d'autentificaziun da backup
+       *[other] Mo pli { $numberRemaining } codes d'autentificaziun da backup!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova annunzia a { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Tes { -product-firefox-account } è vegnì duvrà per s'annunziar
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Qua n'es betg ti? <a data-l10n-name="passwordChangeLink">Mida tes pled-clav</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Qua n'es betg ti? Mida tes pled-clav:
 newDeviceLogin-action = Administrar il conto
 passwordChanged-subject = Actualisà il pled-clav
 passwordChanged-title = Midà cun success il pled-clav
@@ -273,6 +295,12 @@ passwordChangeRequired-different-password-plaintext = Impurtant: Tscherna in ple
 passwordReset-subject = Actualisà il pled-clav
 passwordReset-title = Il pled-clav da tes conto è vegnì midà
 passwordReset-description = Ti stos endatar tes nov pled-clav sin tes auters apparats per pudair cuntinuar cun la sincronisaziun.
+passwordResetAccountRecovery-subject-2 = Tes pled-clav è vegnì reinizialisà
+passwordResetAccountRecovery-title-2 = Redefinì cun success tes pled-clav
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Ti has duvrà tia clav da recuperaziun dal conto per actualisar tes pled-clav:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Crear ina nova clav da recuperaziun dal conto
 postAddAccountRecovery-action = Administrar il conto
 postAddLinkedAccount-subject = Nov conto collià cun { -brand-firefox }
 #  Variables:
