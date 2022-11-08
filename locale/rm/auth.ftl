@@ -3,20 +3,33 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts = Contos da Firefox
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Conto da Firefox
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
@@ -73,14 +86,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Telechargiar {
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Telechargiar { $productName } da l'{ -app-store }">
-another-desktop-device = U installescha sin in <a data-l10n-name="anotherDeviceLink">auter computer desktop</a>.
-another-device = U installescha sin in <a data-l10n-name="anotherDeviceLink">auter apparat</a>.
-automated-email-change =
-    Quai è in e-mail automatic; sche ti n'has betg autorisà questa acziun, <a data-l10n-name="passwordChangeLink">mida per plaschair tes pled-clav</a>.
-    Per ulteriuras infurmaziuns, per plaschair visitar il <a data-l10n-name="supportLink">support da { -brand-mozilla }</a>.
 # Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Quai è in e-mail automatic. Sche ti n'has betg agiuntà in nov apparat a tes { -product-firefox-account }, duessas ti immediat midar tes pled-clav sin { $passwordChangeLink }
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Installar { $productName } sin in <a data-l10n-name="anotherDeviceLink">auter computer</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Installar { $productName } sin in <a data-l10n-name="anotherDeviceLink">auter apparat</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Ir per { $productName } sin Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Telechargiar { $productName } dal App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Installar { $productName } sin in auter apparat:
+automated-email-change-2 = Sche ti n'has betg effectuà questa acziun, <a data-l10n-name="passwordChangeLink">mida subit tes pled-clav</a>.
+automated-email-support = Per ulteriuras infurmaziuns, visita <a data-l10n-name="supportLink">l'agid da { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Sche ti n'has betg effectuà questa acziun, mida subit tes pled-clav:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Per ulteriuras infurmaziuns, visita l'agid da { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Per ulteriuras infurmaziuns, visita l'<a data-l10n-name="supportLink">agid da { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Quai è in e-mail automatic. Sche ti al has survegnì per sbagl na stos ti far nagut.
@@ -116,6 +142,35 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = La carta { $cardType } chala cun { $lastFour }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Numer da quint: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Numer da quint: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Midada dal plan: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Summa intermediara: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Rabat: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Rabat unic: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = Rabat ({ $discountDuration } mais): -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Taglia e taxas: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Debità { $invoiceTotal } ils { $invoiceDateOnly }
 subscriptionSupport = Dumondas davart tes abunament? Noss <a data-l10n-name="subscriptionSupportUrl">team d'agid</a> stat a tia disposiziun.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Dumondas davart tes abunament? Noss team d’agid stat a tia disposiziun:
@@ -191,17 +246,15 @@ downloadSubscription-content-2 = Entschaiva ad utilisar tut las funcziuns inclus
 downloadSubscription-link-action-2 = Emprims pass
 fraudulentAccountDeletion-subject = Tes { -product-firefox-account } è vegnì stizzà
 fraudulentAccountDeletion-title = Tes conto è vegnì stizzà
+fraudulentAccountDeletion-content = Dacurt è vegnì creà cun agid da questa adressa dad e-mail in { -product-firefox-account } cun in abunament che custa. Nus avain ta dumandà – uschia faschain nus quai cun tut ils contos novs – da confermar il conto cun validar questa adressa dad e-mail.
+fraudulentAccountDeletion-content-2 = Ussa avain nus constatà ch'il conto n'è mai vegnì confermà. Cunquai che quest pass manca, na savain nus betg segir sch'i sa tracta dad in abunament autorisà. En consequenza è il { -product-firefox-account } registrà cun questa adressa dad e-mail vegnì stizzà e tes abunament è vegnì annullà e tut las debitaziuns restituidas.
+fraudulentAccountDeletion-contact = En cas da dumondas, contactescha per plaschair noss <a data-l10n-name="mozillaSupportUrl">team d'agid</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = En cas da dumondas, contactescha per plaschair noss team d'agid: { $mozillaSupportUrl }
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = I restan paucs codes da recuperaziun
-codes-reminder-description = Nus avain percurschì che ti possedas mo pli paucs codes da recuperaziun. Ti duessas generar novs codes per evitar da perder l’access a tes conto.
-codes-generate = Generar codes
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Generar codes
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] I resta 1 code da recuperaziun
-       *[other] I restan { $numberRemaining } codes da recuperaziun
-    }
+codes-reminder-title-zero = Ti n'has pli nagins codes d'autentificaziun da backup!
+codes-reminder-title-one = Ti dovras tes ultim code d'autentificaziun da backup
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova annunzia a { $clientName }
@@ -220,56 +273,29 @@ passwordChangeRequired-different-password-plaintext = Impurtant: Tscherna in ple
 passwordReset-subject = Actualisà il pled-clav
 passwordReset-title = Il pled-clav da tes conto è vegnì midà
 passwordReset-description = Ti stos endatar tes nov pled-clav sin tes auters apparats per pudair cuntinuar cun la sincronisaziun.
-passwordResetAccountRecovery-subject = Il pled-clav è vegnì actualisà cun agid dad ina clav da recuperaziun
-passwordResetAccountRecovery-title = Il pled-clav da tes conto è vegnì reinizialisà cun ina clav da recuperaziun
-passwordResetAccountRecovery-description = Ti has redefinì cun success tes pled-clav cun agid dad ina clav da recuperaziun dal suandant apparat:
-passwordResetAccountRecovery-action = Crear ina nova clav da recuperaziun
-passwordResetAccountRecovery-regen-required = Igl è necessari da generar ina nova clav da recuperaziun.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Crear ina nova clav da recuperaziun:
 postAddAccountRecovery-action = Administrar il conto
 postAddLinkedAccount-subject = Nov conto collià cun { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Tes conto da { $providerName } è vegnì collià cun tes conto da { -product-firefox-account }
 postAddLinkedAccount-action = Administrar il conto
-postAddTwoStepAuthentication-subject = Autentificaziun en dus pass activada
-postAddTwoStepAuthentication-title = Autentificaziun en dus pass activada
-postAddTwoStepAuthentication-description-plaintext = Ti has activà cun success l'autentificaziun en dus pass per tes { -product-firefox-account }. A partir dad ussa è necessari per mintga annunzia in code da segirezza furnì da tia applicaziun d'autentificaziun.
-postAddTwoStepAuthentication-description = Ti has activà cun success l'autentificaziun en dus pass per tes { -product-firefox-account } cun agid da suandant apparat:
 postAddTwoStepAuthentication-action = Administrar il conto
-postAddTwoStepAuthentication-code-required = A partir dad ussa è necessari per mintga annunzia in code da segirezza furnì da tia applicaziun d’autentificaziun.
 postChangePrimary-subject = Adressa dad e-mail principala actualisada
 postChangePrimary-title = Nova adressa dad e-mail principala
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Tia nova adressa principala è ussa { $email }. Questa adressa è ussa tes num d'utilisader per t'annunziar a tes { -product-firefox-account }. En pli serva ella per retschaiver communicaziuns da segirezza e confermas d'annunzia.
 postChangePrimary-action = Administrar il conto
-postConsumeRecoveryCode-subject = Code da recuperaziun utilisà
-postConsumeRecoveryCode-title = Code da recuperaziun utilisà
-postConsumeRecoveryCode-description = Ti has utilisà in code da recuperaziun cun agid dal suandant apparat:
 postConsumeRecoveryCode-action = Administrar il conto
-postNewRecoveryCodes-subject = Generà novs codes da recuperaziun
-postNewRecoveryCodes-title = Generà novs codes da recuperaziun
-postNewRecoveryCodes-description = Ti has generà cun success novs codes da recuperaziun cun agid dal suandant apparat:
 postNewRecoveryCodes-action = Administrar il conto
-postRemoveAccountRecovery-subject = Stizzà la clav da recuperaziun
-postRemoveAccountRecovery-title = Stizzà la clav da recuperaziun
-postRemoveAccountRecovery-description = Ti has stizzà cun success ina clav da recuperaziun per tes { -product-firefox-account } cun agid da suandant apparat:
 postRemoveAccountRecovery-action = Administrar il conto
-postRemoveAccountRecovery-invalid = I n’è betg pli pussaivel dad utilisar questa clav da recuperaziun per recuperar tes conto.
 postRemoveSecondary-subject = Allontanà l’adressa dad e-mail alternativa
 postRemoveSecondary-title = Allontanà l’adressa dad e-mail alternativa
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Ti has allontanà cun success { $secondaryEmail } sco adressa dad e-mail alternativa da tes { -product-firefox-account }. Avis da segirezza e confermas d'annunzia na vegnan betg pli tramessas a questa adressa.
 postRemoveSecondary-action = Administrar il conto
-postRemoveTwoStepAuthentication-subject-line = L'autentificaziun en dus pass è deactivada
-postRemoveTwoStepAuthentication-title = Autentificaziun en dus pass deactivada
-postRemoveTwoStepAuthentication-description = Ti has deactivà cun success l'autentificaziun en dus pass per tes { -product-firefox-account } cun agid da suandant apparat:
-postRemoveTwoStepAuthentication-description-plaintext = Ti has deactivà cun success l'autentificaziun en dus pass per tes { -product-firefox-account }. A partir dad ussa n'è betg pli necessari in code da segirezza per mintga annunzia.
 postRemoveTwoStepAuthentication-action = Administrar il conto
-postRemoveTwoStepAuthentication-not-required = A partir dad ussa n’è betg pli necessari in code da segirezza per mintga annunzia.
 postVerifySecondary-subject = Agiuntà ina adressa dad e-mail alternativa
 postVerifySecondary-title = Agiuntà ina adressa dad e-mail alternativa
 postVerifySecondary-action = Administrar il conto
@@ -348,55 +374,8 @@ subscriptionFirstInvoice-content-processing = Tes pajament vegn actualmain elavu
 subscriptionFirstInvoice-content-install-2 = Ti vegns a retschaiver in e-mail separà che declera co utilisar { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l’annullar.
 # Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Numer da quint: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Numer da quint: { $invoiceNumber }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoice-content-charge = Debità { $invoiceTotal } ils { $invoiceDateOnly }
-# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Proxim quint: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-subject = Pajament per { $productName } confermà
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-title = Grazia per abunar { $productName }
-subscriptionFirstInvoiceDiscount-content-processing = Tes pajament vegn actualmain elavurà. Quai po durar enfin quatter lavurdis.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install-2 = Ti vegns a retschaiver in e-mail separà che declera co utilisar { $productName }.
-subscriptionFirstInvoiceDiscount-content-auto-renew = Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l’annullar.
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoiceDiscount-content-invoice-number = Numer da quint: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Numer da quint: { $invoiceNumber }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoiceDiscount-content-subtotal = Summa intermediara: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount = Rabat: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount-one-time = Rabat unic: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionFirstInvoiceDiscount-content-discount-repeating = Rabat ({ $discountDuration } mais): -{ $invoiceDiscountAmount }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-subscriptionFirstInvoiceDiscount-content-charge = Debità { $invoiceTotal } ils { $invoiceDateOnly }
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoiceDiscount-content-next-invoice = Proxim quint: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Pajament per { $productName } betg reussì
@@ -452,57 +431,8 @@ subscriptionSubsequentInvoice-title = Grazia per tes abunament!
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Nus avain retschavì tes ultim pajament per { $productName }.
 # Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number = Numer da quint: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number-plaintext = Numer da quint: { $invoiceNumber }
-# Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-plan-change = Midada dal plan: { $paymentProrated }
-# Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-charged = Debità { $invoiceTotal } ils { $invoiceDateOnly }
-# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Proxim quint: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-subject = Retschavì il pajament per { $productName }
-subscriptionSubsequentInvoiceDiscount-title = Grazia per tes abunament!
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-content-received = Nus avain retschavì tes ultim pajament per { $productName }.
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number = Numer da quint: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Numer da quint: { $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-plan-change = Midada dal plan: { $paymentProrated }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charge = Debità { $invoiceTotal } ils { $invoiceDateOnly }
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoiceDiscount-content-next-invoice = Proxim quint: { $nextInvoiceDateOnly }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-subtotal = Summa intermediara: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionSubsequentInvoiceDiscount-content-discount = Rabat: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionSubsequentInvoiceDiscount-content-discount-one-time = Rabat unic: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionSubsequentInvoiceDiscount-content-discount-repeating = Rabat ({ $discountDuration } mais): -{ $invoiceDiscountAmount }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Ti has midà a { $productName }
@@ -533,10 +463,6 @@ unblockCode-report-plaintext = Sche na ans pos ti gidar d’ans defender encunte
 verify-description = Conferma tes conto e profitescha al maximum da { -brand-firefox } – dapertut là nua che ti t’annunzias. L‘emprim pass:
 verify-subject = Finir la creaziun da tes conto
 verifyLogin-action = Confermar l’annunzia
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Code d'annunzia per { $serviceName }
-verifyLoginCode-title = Emprovas ti da t’annunziar?
 verifyLoginCode-expiry-notice = El scada en 5 minutas.
 verifyPrimary-description = Il suandant apparat ha dumandà da pudair modifitgar il conto:
 verifyPrimary-subject = Confermar l’adressa dad e-mail principala
