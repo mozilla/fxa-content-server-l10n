@@ -118,7 +118,7 @@ sed -i'' -e 's/Language: sv_SE/Language: sv/g' "$L10N_DIR/locale/sv/LC_MESSAGES/
 
 # Fluent extraction
 cp $PAYMENTS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
-cp $SETTINGS_DIR/public/locales/en-US/*.ftl $L10N_DIR/locale/templates
+cp $SETTINGS_DIR/public/locales/en/*.ftl $L10N_DIR/locale/templates
 cp $MAILER_DIR/public/locales/en/*.ftl $L10N_DIR/locale/templates
 
 # Pontoon will read from the "templates" directory but we must copy the FTL files
