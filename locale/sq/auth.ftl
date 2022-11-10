@@ -331,6 +331,8 @@ subscriptionAccountReminderFirst-action = Krijoni Fjalëkalim
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Kujtues përfundimtar: Ujdisni llogarinë tuaj
 subscriptionAccountReminderSecond-title = Mirë se vini në { -brand-firefox }
+subscriptionAccountReminderSecond-content-info-2 = Ca ditë më parë krijuar një { -product-firefox-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
+subscriptionAccountReminderSecond-content-select-2 = Që të ujdisni një fjalëkalim të ri dhe të përfundoni ripohimin e llogarisë tuaj, përzgjidhni “Krijoni Fjalëkalim”.
 subscriptionAccountReminderSecond-action = Krijoni Fjalëkalim
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -343,6 +345,7 @@ subscriptionCancellation-title = Ju shohim me keqardhje teksa ikni
 #   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = Anuluam pajtimin tuaj { $productName }. Pagesa juaj e fundit prej { $invoiceTotal } qe paguar më { $invoiceDateOnly }. Shërbimi juaj do të vazhdojë deri në fund të periudhës së faturuar, që është { $serviceLastActiveDateOnly }.
+subscriptionCancellation-outstanding-content = Anuluam pajtimin tuaj { $productName }. Pagesa juaj e fundit prej { $invoiceTotal } do të paguhet më { $invoiceDateOnly }. Shërbimi juaj do të vazhdojë deri në fund të periudhës së faturuar, që është { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = U hodhët në { $productName }
@@ -382,6 +385,9 @@ subscriptionFirstInvoice-content-auto-renew = Pajtimi juaj do të rinovohet auto
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Fatura Pasuese: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Kartë krediti për { $productName } që ka skaduar ose skadon së shpejti
 subscriptionPaymentExpired-title-1 = Karta juaj e kreditit ka skaduar ose është afër skadimit
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -429,6 +435,9 @@ subscriptionRenewalReminder-content-closing = Sinqerisht,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Ekipi i { $productName }
+subscriptionsPaymentExpired-subject-1 = Karta e kreditit për pajtimet tuaja ka skaduar, ose skadon së shpejti
+subscriptionsPaymentExpired-title-1 = Karta juaj e kreditit ka skaduar ose është afër skadimit
+subscriptionsPaymentExpired-content-1 = Karta e kreditit që po përdorni për të bërë pagesa për pajtimet vijuese ka skaduar, ose është afër skadimit.
 subscriptionsPaymentProviderCancelled-subject = Lypset përditësim të dhënash pagese për pajtime { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Na ndjeni, po kemi probleme me metodën tuaj të pagesave
 subscriptionsPaymentProviderCancelled-content-detected = Pikasëm një problem me metodën tuaj të pagesës për pajtimet vijuese.
@@ -470,20 +479,42 @@ unblockCode-prompt = Nëse po, ja ku keni kodin e autorizimit që ju duhet:
 unblockCode-prompt-plaintext = Nëse po, ja ku keni kodin e autorizimit që ju duhet: { $unblockCode }
 unblockCode-report = Nëse jo, ndihmonani të mbajmë jashtë të padëshiruarit dhe <a data-l10n-name="reportSignInLink">na e raportoni këtë.</a>
 unblockCode-report-plaintext = Nëse jo, na ndihmoni të mbajmë jashtë të padëshiruarit dhe raportojeni këtë te ne.
+verificationReminderFinal-subject = Kujtuesi i fundit për të ripohuar llogarinë tuaj
+verificationReminderFinal-description = Nja dy javë më parë krijuat një { -product-firefox-account }, por s’e ripohuat kurrë këtë. Për sigurinë tuaj, do ta fshijmë llogarinë, po s’u verifikua brenda 24 orëve të ardhshme.
 confirm-account = Ripohoni llogarinë
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Mos harroni të ripohoni llogarinë tuaj
 verificationReminderFirst-title-2 = Mirë se vini në { -brand-firefox }
+verificationReminderFirst-description-2 = Ca ditë më parë krijuat një { -product-firefox-account }, por s’e ripohuat kurrë këtë. Ju lutemi, ripohoni llogarinë tuaj brenda 15 ditëve të ardhshme, ose do të fshihet automatikisht.
+verificationReminderFirst-sub-description-3 = Mos humbi lajme nga shfletuesi që vë ju dhe privatësinë tuaj mbi të gjitha.
 confirm-email-2 = Ripohoni llogarinë
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Ripohoni llogarinë
 verificationReminderSecond-subject-2 = Mos harroni të ripohoni llogarinë tuaj
+verificationReminderSecond-title-2 = Mos humbni lajmet mbi { -brand-firefox }-in!
+verificationReminderSecond-description-3 = Ca ditë më parë krijuat një { -product-firefox-account }, por s’e ripohuat kurrë këtë. Ju lutemi, ripohoni llogarinë tuaj brenda 10 ditëve të ardhshme, ose do të fshihet automatikisht.
+verificationReminderSecond-second-description = { -product-firefox-account } juaj ju lejon të njëkohësoni informacionin tuaj nëpër pajisje dhe shkyç portën për më tepër produkte { -brand-mozilla } që mbrojnë privatësinë.
+verificationReminderSecond-sub-description-2 = Bëhuni pjesë e misionit tonë për të shndërruar internetin në një vend që është i hapët për këdo.
 verificationReminderSecond-action-2 = Ripohoni llogarinë
+verify-title-2 = Hapeni internetin me { -brand-firefox }
 verify-description = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-firefox }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verify-subject = Përfundoni krijimin e llogarisë tuaj
 verify-action-2 = Ripohoni llogarinë
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = A bëtë hyrjen te { $clientName }?
+verifyLogin-description-2 = Ndihmonani ta mbajmë llogarinë tuaj të parrezik, duke ripohuar se keni hyrë në:
 verifyLogin-subject-2 = Ripohoni hyrjen
 verifyLogin-action = Ripohoni hyrjen
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Miratoni hyrje te { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = A bëtë hyrjen te { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Ndihmonani ta mbajmë llogarinë tuaj të parrezik, duke miratuar hyrjen në:
+verifyLoginCode-prompt-3 = Nëse po, ja kodi juaj i autorizimit:
 verifyLoginCode-expiry-notice = Skadon për 5 minuta.
 verifyPrimary-title-2 = Ripohoni email parësor
 verifyPrimary-description = Nga pajisja vijuese u bë një kërkesë për kryerjen e një ndryshimi llogarie:
@@ -498,8 +529,12 @@ verifySecondaryCode-action-2 = Ripohoni email-in
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Prej llogarisë vijuese { -product-firefox-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
 verifySecondaryCode-prompt-2 = Përdor këtë kod ripohimi:
+verifySecondaryCode-expiry-notice-2 = Skadon për 5 minuta. Pas ripohimit, kjo adresë do të fillojë të marrë njoftime sigurie dhe ripohime.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Ripohoni llogarinë tuaj
+verifyShortCode-title-2 = Hapeni internetin me { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-firefox }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verifyShortCode-prompt-3 = Përdor këtë kod ripohimi:
 verifyShortCode-expiry-notice = Skadon për 5 minuta.
