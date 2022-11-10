@@ -98,6 +98,8 @@ automated-email-support = Për më tepër hollësi, vizitoni <a data-l10n-name="
 automated-email-change-plaintext-2 = Nëse s’e kryet ju këtë veprim, ndryshoni fjalëkalimin tuaj pa humbur një çast:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Për më tepër hollësi, vizitoniAsistencën { -brand-mozilla }:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Për më tepër hollësi, vizitoni <a data-l10n-name="supportLink">Asistencën { -brand-mozilla }</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ky është një email i automatizuar; nëse s’e autorizoni këtë veprim, atëherë, ju lutemi, ndryshoni fjalëkalimin tuaj:
 automated-email-reset =
@@ -153,6 +155,9 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Zbritje Për Një H
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = Zbritje { $discountDuration } muaj: -{ $invoiceDiscountAmount }
 # Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Taksa & tarifa: { $invoiceTaxAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = U faturuan { $invoiceTotal } më { $invoiceDateOnly }
@@ -173,6 +178,9 @@ subscriptionUpdateBillingTry-plaintext = Do të riprovojmë kryerjen e pagesës 
 subscriptionUpdatePayment = Që të parandalohet çfarëdo ndërprerje në shërbimin tuaj, ju lutemi, <a data-l10n-name="updateBillingUrl">përditësoni të dhënat tuaja të pagesës</a> sa më shpejt të jetë e mundur.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Që të parandalohet çfarëdo ndërprerje në shërbimin tuaj, ju lutemi, përditësoni të dhënat tuaja të pagesës sa më shpejt të jetë e mundur:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Për më tepër hollësi, vizitoni Asistencën { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -216,9 +224,20 @@ downloadSubscription-subject = Mirë se vini te { $productName }.
 downloadSubscription-title = Mirë se vini te { $productName }.
 downloadSubscription-content-2 = Le t’ia fillojmë duke përdorur krejt veçoritë e përfshira te pajtimi juaj:
 downloadSubscription-link-action-2 = Fillojani
+fraudulentAccountDeletion-subject = { -product-firefox-account } juaj u fshi
+fraudulentAccountDeletion-title = Llogaria juaj u fshi
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Nëse keni ndonjë pyetje, ju lutemi, lidhuni me ekipin tonë të asistencës: { $mozillaSupportUrl }
+codes-reminder-description-two-left = Ju kanë mbetur vetëm dy kode.
+lowRecoveryCodes-action-2 = Krijoni kode
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Hyrje e re te { $clientName }
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Jo ju? Ndryshoni fjalëkalimin tuaj:
 newDeviceLogin-action = Administroni llogarinë
 passwordChanged-subject = Fjalëkalimi u përditësua
 passwordChanged-title = Fjalëkalimi u ndryshua me sukses
@@ -234,7 +253,12 @@ passwordChangeRequired-different-password-plaintext = E rëndësishme: zgjidhni 
 passwordReset-subject = Fjalëkalimi u përditësua
 passwordReset-title = Fjalëkalimi juaj për llogarinë ka ndryshuar
 passwordReset-description = Do t’ju duhet të jepni fjalëkalimin tuaj të ri në pajisje të tjera që të rimerret njëkohësimi.
+passwordResetAccountRecovery-subject-2 = Fjalëkalimi juaj u ricaktua
+passwordResetAccountRecovery-title-2 = Fjalëkalimi u ricaktua me sukses
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Nuk jeni ju?
 postAddAccountRecovery-action = Administroni llogarinë
+postAddAccountRecovery-changd-password = Ndryshoni fjalëkalimin tuaj:
 postAddLinkedAccount-subject = Llogari e re e lidhur me { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
@@ -257,10 +281,14 @@ postRemoveSecondary-title = Email-i dytësor u hoq
 postRemoveSecondary-description = Hoqët me sukses { $secondaryEmail } si email dytësor prej { -product-firefox-account } tuajën. Te kjo adresë s’do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
 postRemoveSecondary-action = Administroni llogarinë
 postRemoveTwoStepAuthentication-action = Administroni llogarinë
+postVerify-subject-3 = Mirë se vini në { -brand-firefox }
+postVerify-setup-2 = Lidhni një tjetër pajisje:
+postVerify-action-2 = Lidhni pajisje tjetër
 postVerifySecondary-subject = Email-i dytësor u shtua
 postVerifySecondary-title = Email-i dytësor u shtua
 postVerifySecondary-action = Administroni llogarinë
 recovery-subject = Ricaktoni fjalëkalimin tuaj
+recovery-title-2 = Harruat fjalëkalimin tuaj?
 recovery-action = Krijoni fjalëkalim të ri
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -337,6 +365,10 @@ subscriptionFirstInvoice-content-auto-renew = Pajtimi juaj do të rinovohet auto
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Fatura Pasuese: { $nextInvoiceDateOnly }
+subscriptionPaymentExpired-title-1 = Karta juaj e kreditit ka skaduar ose është afër skadimit
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = Karta e kreditit që po përdorni për të bërë pagesa për { $productName } ka skaduar ose është afër skadimit.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Pagesa për { $productName } dështoi
@@ -421,14 +453,36 @@ unblockCode-prompt = Nëse po, ja ku keni kodin e autorizimit që ju duhet:
 unblockCode-prompt-plaintext = Nëse po, ja ku keni kodin e autorizimit që ju duhet: { $unblockCode }
 unblockCode-report = Nëse jo, ndihmonani të mbajmë jashtë të padëshiruarit dhe <a data-l10n-name="reportSignInLink">na e raportoni këtë.</a>
 unblockCode-report-plaintext = Nëse jo, na ndihmoni të mbajmë jashtë të padëshiruarit dhe raportojeni këtë te ne.
+confirm-account = Ripohoni llogarinë
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Mos harroni të ripohoni llogarinë tuaj
+verificationReminderFirst-title-2 = Mirë se vini në { -brand-firefox }
+confirm-email-2 = Ripohoni llogarinë
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Ripohoni llogarinë
+verificationReminderSecond-subject-2 = Mos harroni të ripohoni llogarinë tuaj
+verificationReminderSecond-action-2 = Ripohoni llogarinë
 verify-description = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-firefox }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verify-subject = Përfundoni krijimin e llogarisë tuaj
+verify-action-2 = Ripohoni llogarinë
+verifyLogin-subject-2 = Ripohoni hyrjen
 verifyLogin-action = Ripohoni hyrjen
 verifyLoginCode-expiry-notice = Skadon për 5 minuta.
+verifyPrimary-title-2 = Ripohoni email parësor
 verifyPrimary-description = Nga pajisja vijuese u bë një kërkesë për kryerjen e një ndryshimi llogarie:
 verifyPrimary-subject = Ripohoni email parësor
+verifyPrimary-action-2 = Ripohoni email-in
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Pasi të jetë ripohuar, prej kësaj pajisje do të jenë të mundshme ndryshime llogarie, të tillë si shtimi i një email-i dytësor.
 verifySecondaryCode-subject = Ripohoni email dytësor
+verifySecondaryCode-title-2 = Ripohoni email dytësor
+verifySecondaryCode-action-2 = Ripohoni email-in
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Prej llogarisë vijuese { -product-firefox-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
+verifySecondaryCode-prompt-2 = Përdor këtë kod ripohimi:
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Ripohoni llogarinë tuaj
+verifyShortCode-prompt-3 = Përdor këtë kod ripohimi:
 verifyShortCode-expiry-notice = Skadon për 5 minuta.
