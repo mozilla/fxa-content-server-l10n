@@ -514,4 +514,5 @@ auth-error-114 = E provuat shumë herë. Ju lutemi, riprovoni pas { $retryAfter 
 auth-error-138-2 = Sesion i paripohuar
 auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj email
 auth-error-155 = S’u gjet token TOTP
+auth-error-183-2 = Kod ripohim i pavlefshëm ose i skaduar
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm

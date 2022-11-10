@@ -280,15 +280,30 @@ postRemoveSecondary-title = Email-i dytësor u hoq
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Hoqët me sukses { $secondaryEmail } si email dytësor prej { -product-firefox-account } tuajën. Te kjo adresë s’do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
 postRemoveSecondary-action = Administroni llogarinë
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = E çaktivizuat që nga:
 postRemoveTwoStepAuthentication-action = Administroni llogarinë
+postRemoveTwoStepAuthentication-not-required-2 = Nuk ju duhen më kode sigurie prej aplikacionit tuaj të mirëfilltësimeve, kur bëni hyrjen.
+postVerify-sub-title-3 = Jemi të ngazëllyer t’ju shohim!
+postVerify-title-2 = Doni të shihni të njëjtën skedë në dy pajisje?
+postVerify-description-2 = Është kollaj! Thjesht instaloni { -brand-firefox }-in në pajisjen tjetër dhe bëni hyrjen që t’i njëkohësoni. Si me magji!
+postVerify-sub-description = (Eeej… Kjo do të thotë gjithashtu se mund të merrni faqerojtësit tuaj, fjalëkalime dhe të tjera të dhëna { -brand-firefox } kudo ku keni bërë hyrjen.)
 postVerify-subject-3 = Mirë se vini në { -brand-firefox }
 postVerify-setup-2 = Lidhni një tjetër pajisje:
 postVerify-action-2 = Lidhni pajisje tjetër
 postVerifySecondary-subject = Email-i dytësor u shtua
 postVerifySecondary-title = Email-i dytësor u shtua
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Keni ripohuar me sukses { $secondaryEmail } si një email dytësor për { -product-firefox-account } tuajën. Njoftimet e sigurisë dhe ripohime hyrjesh tanimë do të dërgohen te të dy adresat.
 postVerifySecondary-action = Administroni llogarinë
 recovery-subject = Ricaktoni fjalëkalimin tuaj
 recovery-title-2 = Harruat fjalëkalimin tuaj?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-firefox-account } tuaj nga:
+recovery-new-password-button = Krijoni një fjalëkalim të ri duke klikuar butonin më poshtë. Kjo lidhje do të skadojë brenda orës së ardhshme.
+recovery-copy-paste = Krijoni një fjalëkalim të ri duke kopjuar dhe ngjitur në shfletuesin tuaj URL-në më poshtë. Kjo lidhje do të skadojë brenda orës së ardhshme.
 recovery-action = Krijoni fjalëkalim të ri
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -310,6 +325,8 @@ subscriptionAccountFinishSetup-content-create-2 = Më pas do të krijoni një fj
 subscriptionAccountFinishSetup-action-2 = Fillojani
 subscriptionAccountReminderFirst-subject = Kujtues: Përfundoni ujdisjen e llogarisë tuaj
 subscriptionAccountReminderFirst-title = S’mund të përdorni ende pajtimin tuaj
+subscriptionAccountReminderFirst-content-info-2 = Ca ditë më parë krijuar një { -product-firefox-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.
+subscriptionAccountReminderFirst-content-select-2 = Që të ujdisni një fjalëkalim të ri dhe të përfundoni ripohimin e llogarisë tuaj, përzgjidhni “Krijoni Fjalëkalim”.
 subscriptionAccountReminderFirst-action = Krijoni Fjalëkalim
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Kujtues përfundimtar: Ujdisni llogarinë tuaj
