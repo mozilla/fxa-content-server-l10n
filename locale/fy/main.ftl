@@ -53,6 +53,14 @@ fxa-account-signup-error-2 = Troch in systeemflater is jo registraasje by { $pro
 newsletter-signup-error = Jo binne net ynskreaun foar e-mailberjochten oer produktupdates. Jo kinne it opnij probearje yn jo accountynstellingen.
 fxa-post-passwordless-sub-error = Abonnemint befêstige, mar de befêstigingsside kin net laden wurde. Kontrolearje jo e-mail om jo account yn te stellen.
 
+## IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Jo hawwe al in abonnemint op { $productName } fia de appstore { -brand-name-google } of { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Wy stypje gjin upwurdearringen foar dizze abonneminten, mar dat dogge wy ynkoarten wol.
+iap-upgrade-contact-support = Jo kinne dit produkt noch hieltyd krije – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
+iap-upgrade-get-help-button = Help krije
+
 ## Settings
 
 settings-home = Account-startside
@@ -72,6 +80,7 @@ subscription-processing-title = Abonnemint befêstigje…
 subscription-error-title = Flater by befêstigjen abonnemint…
 subscription-noplanchange-title = Dizze abonnemintswiziging wurdt net stipe
 subscription-iapsubscribed-title = Al abonnearre
+subscription-iaperrorupgrade-title = Wy kinne jo noch net opwurdearje
 
 ## $productName (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -335,11 +344,16 @@ plan-details-show-button = Details toane
 plan-details-hide-button = Details ferstopje
 plan-details-total-label = Totaal
 plan-details-list-price = Normale priis
+plan-details-tax = Belestingen en heffingen
 
 ## Coupons
 
 coupon-discount = Koarting
 coupon-discount-applied = Koartingsbeleaning tapast
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Promoasjekoade
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Promoasjekoade tapast
 coupon-submit = Tapasse
 coupon-remove = Fuortsmite
 coupon-error = De ynfierde koartingskoade is ûnjildich of ferrûn.
