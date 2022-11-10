@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Mbylle mesazhin
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -54,6 +50,10 @@ app-footer-terms-of-service = Kushte Shërbimi
 ##
 
 
+## Alert Bar
+
+alert-bar-close-message = Mbylle mesazhin
+
 ## User's avatar
 
 avatar-your-avatar =
@@ -98,25 +98,19 @@ cs-heading = Shërbime të Lidhura
 cs-description = Gjithçka që po përdorni dhe ku keni bërë hyrje.
 cs-cannot-refresh = Na ndjeni, pati një problem me rifreskimin e listës së shërbimeve të lidhura.
 cs-cannot-disconnect = S’u gjet klient, s’arrihet të bëhet shkëputje
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = U dol nga { $service }.
 cs-refresh-button =
     .title = Rifresko shërbime të lidhura
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Elementë që mungojnë apo të përsëdytur?
 cs-disconnect-sync-heading = Shkëputu prej Sync-u
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content = Të dhënat mbi shfletimin tuaj do të mbeten në pajisjen tuaj ({ $device }), por s’do të njëkohësohen më me llogarinë tuaj.
-cs-disconnect-sync-reason =
-    Cila është arsyeja kryesore për shkëputjen e kësaj
-    pajisjeje?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+cs-disconnect-sync-reason-2 = Cila është arsyeja kryesore për shkëputjen e { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -148,7 +142,7 @@ cs-sign-out-button = Dilni
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = U shkarkua
@@ -164,7 +158,7 @@ dc-subheader = Ndihmoni të përmirësohet { -product-firefox-accounts }
 dc-subheader-content = Lejoje { -product-firefox-accounts } të dërgojë te { -brand-mozilla } të dhëna teknike dhe ndërveprimesh.
 dc-opt-out-success = Lënie jashtë e suksesshme. { -product-firefox-accounts } s’do të dërgojë e { -brand-mozilla } të dhëna teknike ose ndërveprimesh.
 dc-opt-in-success = Faleminderit! Ndarja e këtyre të dhënave na ndihmon të përmirësojmë { -product-firefox-accounts }.
-dc-opt-in-out-error = Na ndjeni, pati një problem në ndryshimin e parapëlqimit tuaj për grumbullim të dhënash.
+dc-opt-in-out-error-2 = Na ndjeni, pati një problem në ndryshimin e parapëlqimit tuaj për grumbullim të dhënash
 dc-learn-more = Mësoni më tepër
 
 # DropDownAvatarMenu component
@@ -175,15 +169,15 @@ drop-down-menu-title = Menu { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Futur si</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Dilni
-drop-down-menu-sign-out-error = Na ndjeni, pati një problem me futjen tuaj.
+drop-down-menu-sign-out-error-2 = Na ndjeni, pati një problem me daljen tuaj nga llogaria
 
 ## Flow Container
 
 flow-container-back = Mbrapsht
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Kode Rimarrjeje
+get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-download =
     .title = Shkarkoje
 get-data-trio-copy =
@@ -214,8 +208,6 @@ la-description = Keni autorizuar hyrje te llogaritë vijuese.
 la-unlink-button = Shkëpute
 la-unlink-account-button = Shkëpute
 la-unlink-heading = Shkëpute prej llogarie palësh të treta
-la-unlink-content = Jeni i sigurt se doni të shkëputet llogaria juaj { -brand-google }? Shkëputja e llogarisë tuaj nuk do të thotë nxjerrje juaj automatikisht jashtë llogarive në këto shërbime. Për ta bërë këtë do t’ju duhet të dilni dorazi që nga ndarja Shërbime të Lidhura.
-la-unlink-content-2 = Jeni i sigurt se doni të shkëputet llogaria juaj? Shkëputja e llogarisë tuaj nuk do të thotë nxjerrje juaj automatikisht jashtë llogarive në këto shërbime. Për ta bërë këtë do t’ju duhet të dilni dorazi që nga ndarja shërbime të Lidhura.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -225,14 +217,9 @@ modal-cancel-button = Anuloje
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Verifikoni email-in tuaj
-mvs-enter-verification-code = Jepni kodin tuaj të verifikimit
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Ju lutemi, jepni brenda 5 minutash kodin e verifikimit që u dërgua te <email>{ $email }</email>.
+mvs-verify-your-email-2 = Ripohoni email-in tuaj
 msv-cancel-button = Anuloje
-msv-submit-button = Verifikoje
+msv-submit-button-2 = Ripohojeni
 
 ## Settings Nav
 
@@ -244,13 +231,8 @@ nav-data-collection = Grumbullim dhe Përdorim të Dhënash
 nav-paid-subs = Pajtime Me Pagesë
 nav-email-comm = Komunikime Me Email
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error = Pati një problem me zëvendësimin e kodeve tuaj të rimarrjes.
-tfa-replace-code-success =
-    U krijuan kode të reja. Ruajini këto kode njëpërdorimsh në një vend të sigurt — do t’ju duhen për të hyrë në llogarinë tuaj nëse s’keni
-    pajisjen tuaj celulare.
-tfa-replace-code-success-alert = Kodet e rikthimit të llogarisë u përditësuan.
 tfa-replace-code-1-2 = Hapi 1 nga 2
 tfa-replace-code-2-2 = Hapi 2 nga 2
 
@@ -280,9 +262,7 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Nuk u gatit dot kamera
 avatar-page-new-avatar =
     .alt = foto e re profili
-avatar-page-file-upload-error-2 = Pati një problem gjatë ngarkimit të fotos tuaj të profilit.
-avatar-page-delete-error-2 = Pati një problem gjatë fshirjes së fotos tuaj të profilit.
-avatar-page-image-too-large-error = Madhësia e kartelës figurë është shumë e madhe për t’u ngarkuar.
+avatar-page-image-too-large-error-2 = Madhësi e kartelës së figurës është shumë e madhe për ngarkim
 
 ##
 
@@ -291,14 +271,10 @@ avatar-page-image-too-large-error = Madhësia e kartelës figurë është shumë
 
 pw-change-header =
     .title = Ndryshoni Fjalëkalimin
-pw-change-stay-safe = Rrini pa rrezik — mos ripërdori fjalëkalime. Fjalëkalimi juaj:
-pw-change-least-8-chars = Duhet të jetë të paktën 8 shenja
-pw-change-not-contain-email = S’duhet të jetë adresa juaj email
+pw-8-chars = Të paktën 8 shenja
+pw-not-email = Jo adresën tuaj email
 pw-change-must-match = Fjalëkalimi i ri përputhet me të ripohuarin
-# linkExternal is a link to a mozilla.org support article on password strength
-pw-change-common-passwords =
-    S’duhet të ketë përputhje me këtë <linkExternal>listë fjalëkalimesh
-    të rëndomtë</linkExternal>
+pw-commonly-used = Jo në fjalëkalim të përdorur rëndom
 pw-change-cancel-button = Anuloje
 pw-change-save-button = Ruaje
 pw-change-forgot-password-link = Harruat  fjalëkalimin?
@@ -308,7 +284,16 @@ pw-change-new-password =
     .label = Jepni fjalëkalimin e ri
 pw-change-confirm-password =
     .label = Ripohoni fjalëkalimin e ri
-pw-change-success-alert = Fjalëkalimi u përditësua.
+pw-change-success-alert-2 = Fjalëkalimi u përditësua
+
+##
+
+
+## Password create page
+
+pw-create-header =
+    .title = Krijoni fjalëkalim
+pw-create-success-alert-2 = Fjalëkalimi u caktua
 
 ##
 
@@ -346,30 +331,24 @@ display-name-input =
     .label = Jepni emër për në ekran
 submit-display-name = Ruaje
 cancel-display-name = Anuloje
-display-name-update-error = Pati një problem me përditësimin e emrit tuaj në ekran.
-display-name-success-alert = Emri për në ekran u përditësua.
+display-name-success-alert-2 = Emri për në ekran u përditësua
 
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Anuloje
 recovery-key-close-button = Mbylle
 recovery-key-continue-button = Vazhdo
-recovery-key-created = Kyçi juaj i rimarrjeve u krijua. Sigurohuni se e ruani kyçin në një vend të parrezik, që të mund të gjeni kollaj më vonë — kyçi do t’ju duhet të rifitoni hyrje në të dhënat tuaja, nëse harroni fjalëkalimin tuaj.
 recovery-key-enter-password =
     .label = Jepni fjalëkalimin
-recovery-key-page-title =
-    .title = Kyç rimarrjeje
 recovery-key-step-1 = Hapi 1 nga 2
 recovery-key-step-2 = Hapi 2 nga 2
-recovery-key-success-alert = U krijua kyç rimarrjeje.
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Hapi 1 nga 2
-add-secondary-email-error = Pati një problem me krijimin e këtij email-i.
 add-secondary-email-page-title =
     .title = Email dytësor
 add-secondary-email-enter-address =
@@ -380,21 +359,16 @@ add-secondary-email-save-button = Ruaje
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Hapi 2 nga 2
-verify-secondary-email-error = Pati një problem me dërgimin e kodit të verifikimit.
 verify-secondary-email-page-title =
     .title = Email dytësor
-verify-secondary-email-verification-code =
-    .label = Jepni kod verifikimi
+verify-secondary-email-verification-code-2 =
+    .label = Jepni kodin tuaj të ripohimit
 verify-secondary-email-cancel-button = Anuloje
-verify-secondary-email-verify-button = Verifikoje
-# This string is an instruction in a form.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code = Ju lutemi, jepni brenda 5 minutash kodin e verifikimit që u dërgua te <strong>{ $email }</strong>.
+verify-secondary-email-verify-button-2 = Ripohojeni
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-success-alert = { $email } u shtua me sukses.
+verify-secondary-email-success-alert-2 = { $email } u shtua me sukses
 
 ##
 
@@ -412,8 +386,6 @@ tfa-button-cancel = Anuloje
 tfa-button-finish = Përfundoje
 tfa-incorrect-totp = Kod i pasaktë mirëfilltësimi dyhapësh
 tfa-cannot-retrieve-code = Pati një problem me marrjen e kodit tuaj.
-tfa-cannot-verify-code = Pati një problem me verifikimin e kodit tuaj të rimarrjes.
-tfa-incorrect-recovery-code = Kod rimarrjeje i pasaktë
 tfa-enabled = Mirëfilltësimi dyhapësh u aktivizua
 tfa-scan-this-code =
     Skanojeni këtë kod QR duke përdorur një nga <linkExternal>këto
@@ -431,13 +403,6 @@ tfa-enter-secret-key = Jepeni këtë kyç të fshehtë te aplikacioni juaj i mir
 tfa-enter-totp = Tani jepni kodin e sigurisë prej aplikacionit të mirëfilltësimeve.
 tfa-input-enter-totp =
     .label = Jepni kod sigurie
-tfa-save-these-codes = Ruajini këta kode njëpërdorimsh në një vend të sigurt, për kur të mos keni pajisjen tuaj celulare.
-tfa-enter-code-to-confirm =
-    Ju lutemi, jepni tani një nga kodet tuaj të rimarrjes që
-    të ripohoni se i keni ruajtur. Do t’ju duhet një kod, nëse humbni pajisjen tuaj dhe doni
-    të hyni në llogarinë tuaj.
-tfa-enter-recovery-code =
-    .label = Jepni kod rikthimi
 
 ##
 
@@ -483,61 +448,29 @@ row-defaults-action-change = Ndryshoje
 row-defaults-action-disable = Çaktivizoje
 row-defaults-status = Asnjë
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Kyç rimarrjeje
 rk-enabled = E aktivizuar
 rk-not-set = S’është caktuar
 rk-action-create = Krijoje
 rk-action-remove = Hiqe
-rk-cannot-refresh = Na ndjeni, pati një problem me rifreskimin e kyçit të rimarrjes
-rk-key-removed = Kyçi i rimarrjes së llogarisë u hoq.
 rk-cannot-remove-key = Kyçi juaj i rimarrjes së llogarisë s’u hoq dot.
-rk-refresh-key = Rifreskoni kyç rikthimi
 rk-content-explain = Riktheni të dhënat tuaja, kur harroni fjalëkalimin tuaj.
-rk-content-reset-data = Pse ricaktimi i fjalëkalimit tim shkakton zerimin e të dhënave të mia?
-rk-cannot-verify-session-2 = Na ndjeni, pati një problem në verifikimin e sesionit tuaj.
-rk-remove-modal-heading = Të hiqet kyçi i rikthimit?
-rk-remove-modal-content =
-    Për rastet kur ricaktoni fjalëkalimin tuaj, s’do të jeni
-    në gjendje të përdorni kyçin tuaj të rimarrjeve për të hyrë në të dhënat tuaja. S’mund ta zhbëni këtë veprim.
-rk-refresh-error = Na ndjeni, pati një problem me rifreskimin e kyçit të rimarrjes
-rk-remove-error = Kyçi juaj i rimarrjes së llogarisë s’u hoq dot.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Email dytësor
     .header = Email Dytësor
 se-cannot-refresh-email = Na ndjeni, pati një problem në rifreskimin e këtij email-i
-se-cannot-resend-code = Na ndjeni, pati një problem me ridërgimin e kodit të verifikimit.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful = { $email } është tani e tutje email-i juaj parësor.
-se-set-primary-error = Na ndjeni, pati një problem në ndryshimin e email-it tuaj parësor.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful = { $email } u fshi me sukses.
-se-delete-email-error = Na ndjeni, pati një problem në fshirjen e këtij email-i.
-se-verify-session = Që të kryhet ky veprim, do t’ju duhet të verifikoni sesionin tuaj të tanishëm.
-se-verify-session-error = Na ndjeni, pati një problem në verifikimin e sesionit tuaj.
 # Button to remove the secondary email
 se-remove-email =
     .title = Hiqe email-in
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Rifreskoni email-in
-se-unverified = i paverifikuar
-se-resend-code =
-    Lypset verifikim. Kërkoni <button>Ridërgim kod verifikimi</button>,
-    nëse s’gjendet te Të marrët, ose te dosja juaj e të padëshiruarve.
 # Button to make secondary email the primary
 se-make-primary = Kaloje si parësor
 se-default-content = Hyni në llogarinë tuaj, nëse s’përdorni dot email-n tuaj parësor.
-se-content-note =
-    Shënim: një email dytësor s’do t’ju rikthejë të dhëna tuaja — për
-    këtë punë do t’ju duhet një <a>kyç rimarrjesh</a>.
 # Default value for the secondary email
 se-secondary-email-none = Asnjë
 
@@ -547,7 +480,6 @@ se-secondary-email-none = Asnjë
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Mirëfilltësim dyhapësh
-tfa-row-disabled = Mirëfilltësimi dyhapësh u çaktivizua.
 tfa-row-enabled = I aktivizuar
 tfa-row-not-set = I paujdisur
 tfa-row-action-add = Shtoje
@@ -560,14 +492,8 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Pengojini hyrjen dikujt, duke kërkuar doemos një
     kod unik, të cilin e dini vetëm ju.
-tfa-row-cannot-verify-session-2 = Na ndjeni, pati një problem në verifikimin e sesionit tuaj.
 tfa-row-disable-modal-heading = Të çktivizoni mirëfilltësim dyhapësh?
 tfa-row-disable-modal-confirm = Çaktivizoje
-tfa-row-disable-modal-explain =
-    S’do të jeni në gjendje ta zhbëni këtë veprim. Keni
-    edhe mundësinë e <linkExternal>zëvendësimit të kodeve tuaj të rimarrjeve</linkExternal>.
-tfa-row-cannot-disable = Mirëfilltësimi dyhapësh s’u çaktivizua dot.
-tfa-row-change-modal-heading = Të ndryshohen kode rikthimi?
 tfa-row-change-modal-confirm = Ndryshoji
 tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë veprim.
 
@@ -575,7 +501,7 @@ tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë vep
 
 auth-error-102 = Llogari e panjohur
 auth-error-103 = Fjalëkalim i pasaktë
-auth-error-105 = Kod verifikimi i pavlefshëm
+auth-error-105-2 = Kod i pavlefshëm ripohimi
 auth-error-110 = Token i pavlefshëm
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -585,8 +511,7 @@ auth-error-110 = Token i pavlefshëm
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = E provuat shumë herë. Ju lutemi, riprovoni pas { $retryAfter }
-auth-error-138 = Sesion i paverifikuar
+auth-error-138-2 = Sesion i paripohuar
 auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj email
 auth-error-155 = S’u gjet token TOTP
-auth-error-183 = Kod verifikimi i pavlefshëm ose i skaduar
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm

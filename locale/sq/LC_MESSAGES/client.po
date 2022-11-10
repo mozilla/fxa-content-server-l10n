@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-10 11:01+0000\n"
+"PO-Revision-Date: 2022-11-10 11:03+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -1885,15 +1885,15 @@ msgstr "Ngaqë këto të dhëna janë kritike për sigurinë tuaj, Firefox-i i f
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "Merrni një Kyç Rimarrjeje Llogarie"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "Ju lutemi, ripohoni fjalëkalimin tuaj për %(escapedEmail)s që të prodhohet kyçi juaj i rimarrjes së llogarisë."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Që të ripohoni se keni ruajtur një kopje, jepni kyçin tuaj të rimarrjes së llogarisë."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
@@ -1945,19 +1945,19 @@ msgstr "Adresë IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Domosdoshmëri fjalëkalimi"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Të paktën 8 shenja"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Jo adresën tuaj email"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Jo në fjalëkalim të përdorur rëndom"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
@@ -2060,7 +2060,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "Njëkohësoni pajisjen tuaj"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
@@ -2068,7 +2068,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
-msgstr ""
+msgstr "Kod QR"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
