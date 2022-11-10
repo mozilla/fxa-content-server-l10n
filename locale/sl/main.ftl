@@ -54,6 +54,9 @@ card-error = Vaše transakcije ni bilo mogoče obdelati. Preverite podatke o svo
 newsletter-signup-error = Niste naročeni na e-poštna obvestila o posodobitvah izdelkov. Poskusite lahko znova v nastavitvah računa.
 fxa-post-passwordless-sub-error = Naročnina je potrjena, vendar se stran za potrditev ni naložila. Preverite svojo e-pošto in nastavite račun.
 
+## IAP upgrade errors
+
+
 ## Settings
 
 settings-home = Domača stran računa
@@ -113,12 +116,6 @@ payment-cvc =
     .label = CVC
 payment-zip =
     .label = Poštna številka
-
-##  $amount (Number) - The amount billed. It will be formatted as currency.
-
-
-##
-
 payment-cancel-btn = Prekliči
 payment-update-btn = Posodobi
 payment-pay-btn = Plačaj zdaj
