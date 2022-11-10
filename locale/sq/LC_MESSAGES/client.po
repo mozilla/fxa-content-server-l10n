@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-10 16:40+0000\n"
+"PO-Revision-Date: 2022-11-10 16:45+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -1475,18 +1475,23 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"              Duke vazhduar, pajtoheni me:<br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Shënim Privatësie</a><br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Firefox-it.\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Jepni kod mirëfilltësimi kopjeruajtjeje"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Ju lutemi, jepni një kod mirëfilltësimi kopjeruajtjeje që ju qe dhënë gjatë ujdisjes së mirëfilltësimit dyhapësh."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Jepni kod dhjetë-shifror mirëfilltësimi kopjeruajtjeje"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1502,11 +1507,11 @@ msgstr "Ekipi ynë i njoftua. Raporte si ky na ndihmojnë të mbajmë jashtë t�
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Jepni kod ripohimi <span class=\"card-subheader\">për llogarinë tuaj Firefox</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Jepni brenda 5 minutash kodin që u dërgua te %(email)s."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1547,6 +1552,8 @@ msgstr "Rijepeni fjalëkalimin"
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
+"Ky fjalëkalim ju duhet për të hyrë në çfarëdo të dhënash të fshehtëzuara që depozitoni me ne.<br class=\"mb-3\">Ricaktimi do të thotë humbje potenciale të dhënash të tilla si fjalëkalime dhe "
+"faqerojtës."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
