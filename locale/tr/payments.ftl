@@ -3,123 +3,154 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Branding
+### Terms and messages used in fxa-payments-server
 
-project-brand = Firefox Hesapları
+
+## Firefox and Mozilla must be treated as a brand.
+##
+## They cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+# 'Firefox Accounts' refers to the service
+project-brand = Firefox Hesapları
+
+## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
+
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
-document =
-    .title = Firefox Hesapları
 
-## General aria-label
+## Component - AppLayout
 
-close-aria =
-    .aria-label = Kutuyu kapat
+settings-home = Hesap ana sayfası
 
-## App error dialog
+## Component - CouponForm
 
-general-error-heading = Genel uygulama hatası
-basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
-payment-error-1 = Ödemeniz onaylanırken bir sorun oluştu. Tekrar deneyin ya da kartınızı veren kuruluşla iletişime geçin.
-payment-error-2 = Ödemeniz onaylanırken bir sorun oluştu. Kartınızı veren kuruluşla iletişime geçin.
-payment-error-3b = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen tekrar deneyin.
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Promosyon kodu uygulandı
+coupon-submit = Uygula
+coupon-remove = Kaldır
+coupon-error = Girdiğiniz kod geçersiz veya süresi dolmuş.
+coupon-error-generic = Kod işlenirken bir hata oluştu. Lütfen tekrar deneyin.
+coupon-error-expired = Girdiğiniz kodun süresi dolmuş.
+coupon-error-limit-reached = Girdiğiniz kodun kullanım limiti doldu.
+coupon-error-invalid = Girdiğiniz kod geçersiz.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-enter-code =
+    .placeholder = Kodu yazın
+
+## Component - Fields
+
+default-input-error = Bu alan gereklidir
+input-error-is-required = { $label } gereklidir
+
+## Component - Header
+
+brand-name-firefox-logo = { -brand-name-firefox } logosu
+
+## Component - NewUserEmailForm
+
+new-user-sign-in-link = { -brand-name-firefox } hesabınız var mı? <a>Giriş yapın</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = E-postanızı yazın
+new-user-confirm-email =
+    .label = E-postanızı doğrulayın
+new-user-subscribe-product-updates = { -brand-name-firefox } ile ilgili yeniliklerden haberdar olmak istiyorum
+new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınızı açmak için kullanıyoruz. Asla üçüncü şahıslara satmıyoruz.
+new-user-email-validate = E-posta geçerli değil
+new-user-email-validate-confirm = E-postalar eşleşmiyor
+new-user-already-has-account-sign-in = Zaten bir hesabınız var. <a>Giriş yapın</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = E-postanızı yanlış mı yazdınız? { $domain } e-posta hizmeti vermiyor.
+
+## Component - PaymentConfirmation
+
+payment-confirmation-thanks-heading = Teşekkürler!
+payment-confirmation-thanks-heading-account-exists = Teşekkürler, şimdi e-postanızı kontrol edin!
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = { $email } adresine { $product_name } ürününü kullanmaya nasıl başlayacağınızla ilgili ayrıntıları içeren bir onay e-postası gönderildi.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = { $email } adresine, hesabınızın kurulumuna ilişkin talimatların yanı sıra ödeme ayrıntılarınızı içeren bir e-posta göndereceğiz.
+payment-confirmation-order-heading = Sipariş ayrıntıları
+payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
+payment-confirmation-details-heading-2 = Ödeme bilgileri
+payment-confirmation-amount = { $interval } { $amount }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] Günlük { $amount }
+       *[other] { $intervalCount } günde bir { $amount }
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] Haftalık { $amount }
+       *[other] { $intervalCount } haftada bir { $amount }
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] Aylık { $amount }
+       *[other] { $intervalCount } ayda bir { $amount }
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] Yıllık { $amount }
+       *[other] { $intervalCount } yılda bir { $amount }
+    }
+payment-confirmation-download-button = İndirmeye devam et
+
+## Component - PaymentConsentCheckbox
+
+payment-confirm-with-legal-links-static = { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
+
+## Component - PaymentErrorView
+
 payment-error-retry-button = Tekrar dene
 payment-error-manage-subscription-button = Aboneliğimi yönet
-country-currency-mismatch = Bu aboneliğin para birimi, ödemenizle ilişkili ülke için geçerli değil.
-currency-currency-mismatch = Üzgünüz, para birimleri arasında geçiş yapamazsınız.
-no-subscription-change = Maalesef abonelik planınızı değiştiremezsiniz.
-# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
-iap-already-subscribed = { $mobileAppStore } üzerinden zaten abone oldunuz.
-expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
-insufficient-funds-error = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
-withdrawal-count-limit-exceeded-error = Bu işlem kredi limitinizi aşacak gibi görünüyor. Başka bir kart deneyin.
-charge-exceeds-source-limit = Bu işlem günlük kredi limitinizi aşacak gibi görünüyor. 24 saat sonra ya da başka bir kart deneyin.
-instant-payouts-unsupported = Banka kartınız anında ödeme için ayarlanmamış. Başka bir banka veya kredi kartı deneyin.
-duplicate-transaction = Benzer bir işlem yeni gönderilmiş gibi görünüyor. Ödeme geçmişinizi kontrol edin.
-coupon-expired = Promosyon kodunun süresi dolmuş.
-card-error = İşleminiz gerçekleştirilemedi. Lütfen kredi kartı bilgilerinizi kontrol edip tekrar deneyin.
-# $productName (String) - The name of the subscribed product.
-fxa-account-signup-error-2 = Bir sistem hatası nedeniyle { $productName } kaydınız başarısız oldu. Ödeme yönteminizden ücret alınmadı. Lütfen tekrar deneyin.
-newsletter-signup-error = Ürün güncelleme e-postalarına kayıtlı değilsiniz. Hesap ayarlarınızda tekrar deneyebilirsiniz.
-fxa-post-passwordless-sub-error = Abonelik onaylandı, ancak onay sayfası yüklenemedi. Hesabınızı ayarlamak için lütfen e-postanızı kontrol edin.
 
-## IAP upgrade errors
+## Component - PaymentErrorView - IAP upgrade errors
 
 iap-upgrade-no-bundle-support = Bu abonelikler için yükseltmeleri desteklemiyoruz ancak yakında destekleyeceğiz.
 iap-upgrade-contact-support = Bu ürünü yine de alabilirsiniz. Size yardımcı olabilmemiz için lütfen destek ile iletişime geçin.
 iap-upgrade-get-help-button = Yardım alın
 
-## Settings
+## Component - PaymentForm
 
-settings-home = Hesap ana sayfası
-settings-subscriptions-title = Abonelikler
+payment-name =
+    .placeholder = Adınız ve soyadınız
+    .label = Kartınızda göründüğü şekliyle adınız
+payment-cc =
+    .label = Kartınız
+payment-cancel-btn = İptal et
+payment-update-btn = Güncelle
+payment-pay-btn = Ödeme yap
+payment-pay-with-paypal-btn = { -brand-name-paypal } ile öde
+payment-validate-name-error = Lütfen adınızı girin
 
-## Legal footer
-
-terms = Kullanım Koşulları
-privacy = Gizlilik Bildirimi
-terms-download = İndirme koşulları
-
-## Subscription titles
-
-subscription-create-title = Aboneliğinizi ayarlayın
-subscription-success-title = Abonelik onayı
-subscription-processing-title = Abonelik onaylanıyor…
-subscription-error-title = Abonelik onaylanırken hata oluştu…
-subscription-noplanchange-title = Bu abonelik planı değişikliği desteklemiyor
-subscription-iapsubscribed-title = Zaten abonesiniz
-subscription-iaperrorupgrade-title = Sizi henüz yükseltemiyoruz
-
-## $productName (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-day-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } her gün { $amount }
-       *[other] { $productName } { $intervalCount } günde bir { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-week-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } her hafta { $amount }
-       *[other] { $productName } { $intervalCount } haftada bir { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-month-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } her ay { $amount }
-       *[other] { $productName } { $intervalCount } ayda bir { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-year-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } her yıl { $amount }
-       *[other] { $productName } { $intervalCount } yılda bir { $amount }
-    }
-
-## Product route
-
-product-plan-error =
-    .title = Planlar yüklenirken sorun oluştu
-product-profile-error =
-    .title = Profil yüklenirken sorun oluştu
-product-customer-error =
-    .title = Müşteri yüklenirken sorun oluştu
-product-plan-not-found = Plan bulunamadı
-product-no-such-plan = Bu ürün için böyle bir plan yok.
-
-## Payment legal blurb
+## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } ve { -brand-name-paypal } kullanır.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkeleri</stripePrivacyLink> ve <paypalPrivacyLink>{ -brand-name-paypal } gizlilik ilkeleri</paypalPrivacyLink>
@@ -128,58 +159,64 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } gizlilik
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } kullanır.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } gizlilik ilkeleri</stripePrivacyLink>
 
-## Payment form
+## Component - PaymentMethodHeader
 
-payment-name =
-    .placeholder = Adınız ve soyadınız
-    .label = Kartınızda göründüğü şekliyle adınız
-payment-cc =
-    .label = Kartınız
-payment-ccn =
-    .label = Kart numarası
-payment-exp =
-    .label = Son kullanma tarihi
-payment-cvc =
-    .label = CVC
-payment-zip =
-    .label = Posta kodu
-payment-confirm-with-legal-links-static = { -brand-name-firefox } ürünülerinin yapımcısı { -brand-name-mozilla }'nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
-payment-cancel-btn = İptal et
-payment-update-btn = Güncelle
-payment-pay-btn = Ödeme yap
-payment-pay-with-paypal-btn = { -brand-name-paypal } ile öde
-payment-validate-name-error = Lütfen adınızı girin
-payment-validate-zip-required = Posta kodu gerekli
-payment-validate-zip-short = Posta kodu çok kısa
+payment-method-header = Ödeme yönteminizi seçin
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Gerekli
 
-## Subscription redirect
+## Component - PaymentProcessing
 
-sub-redirect-ready = Aboneliğiniz hazır
-sub-redirect-copy = Bize deneyiminizden bahsetmek ister misiniz?
-sub-redirect-skip-survey = İstemiyorum, beni ürünüme götür.
+payment-processing-message = Ödemeniz işleme alınıyor. Lütfen bekleyin…
 
-## Fields
+## Component - PaymentProviderDetails
 
-default-input-error = Bu alan gereklidir
-input-error-is-required = { $label } gereklidir
+payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 
-## Subscription upgrade
+## Component - PlanDetails
 
-product-plan-change-heading = Değişikliğinizi gözden geçirin
-sub-change-failed = Plan değişikliği başarısız oldu
-sub-update-payment-title = Ödeme bilgileri
-sub-update-card-exp = Son kullanma: { $cardExpMonth }/{ $cardExpYear }
+plan-details-header = Ürün ayrıntıları
+plan-details-list-price = Liste fiyatı
+plan-details-show-button = Ayrıntıları göster
+plan-details-hide-button = Ayrıntıları gizle
+plan-details-total-label = Toplam
+plan-details-tax = Vergiler ve ücretler
 
-##
+## Component - PlanErrorDialog
 
-sub-change-submit = Değişikliği onaylayın
-sub-change-indicator =
-    .aria-label = değişim göstergesi
-sub-update-current-plan-label = Geçerli plan
-sub-update-new-plan-label = Yeni plan
-sub-update-total-label = Yeni toplam
+product-no-such-plan = Bu ürün için böyle bir plan yok.
 
-## Subscription upgrade plan details
+## Component - SubscriptionTitle
+
+subscription-create-title = Aboneliğinizi ayarlayın
+subscription-success-title = Abonelik onayı
+subscription-processing-title = Abonelik onaylanıyor…
+subscription-error-title = Abonelik onaylanırken hata oluştu…
+subscription-noplanchange-title = Bu abonelik planı değişikliği desteklemiyor
+subscription-iapsubscribed-title = Zaten abonesiniz
+sub-guarantee = 30 gün para iade garantisi
+
+## Component - TermsAndPrivacy
+
+terms = Kullanım Koşulları
+privacy = Gizlilik Bildirimi
+terms-download = İndirme koşulları
+
+## App-level string(s) and messages shared by multiple components or routes
+
+document =
+    .title = Firefox Hesapları
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Kutuyu kapat
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = Yükleniyor…
+settings-subscriptions-title = Abonelikler
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Promosyon kodu
+
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
@@ -206,6 +243,91 @@ plan-price-year =
         [one] Yıllık { $amount }
        *[other] { $intervalCount } yılda bir { $amount }
     }
+
+## Error messages
+
+# App error dialog
+general-error-heading = Genel uygulama hatası
+basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
+payment-error-1 = Ödemeniz onaylanırken bir sorun oluştu. Tekrar deneyin ya da kartınızı veren kuruluşla iletişime geçin.
+payment-error-2 = Ödemeniz onaylanırken bir sorun oluştu. Kartınızı veren kuruluşla iletişime geçin.
+payment-error-3b = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen tekrar deneyin.
+expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
+insufficient-funds-error = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
+withdrawal-count-limit-exceeded-error = Bu işlem kredi limitinizi aşacak gibi görünüyor. Başka bir kart deneyin.
+charge-exceeds-source-limit = Bu işlem günlük kredi limitinizi aşacak gibi görünüyor. 24 saat sonra ya da başka bir kart deneyin.
+instant-payouts-unsupported = Banka kartınız anında ödeme için ayarlanmamış. Başka bir banka veya kredi kartı deneyin.
+duplicate-transaction = Benzer bir işlem yeni gönderilmiş gibi görünüyor. Ödeme geçmişinizi kontrol edin.
+coupon-expired = Promosyon kodunun süresi dolmuş.
+card-error = İşleminiz gerçekleştirilemedi. Lütfen kredi kartı bilgilerinizi kontrol edip tekrar deneyin.
+country-currency-mismatch = Bu aboneliğin para birimi, ödemenizle ilişkili ülke için geçerli değil.
+currency-currency-mismatch = Üzgünüz, para birimleri arasında geçiş yapamazsınız.
+no-subscription-change = Maalesef abonelik planınızı değiştiremezsiniz.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = { $mobileAppStore } üzerinden zaten abone oldunuz.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Bir sistem hatası nedeniyle { $productName } kaydınız başarısız oldu. Ödeme yönteminizden ücret alınmadı. Lütfen tekrar deneyin.
+fxa-post-passwordless-sub-error = Abonelik onaylandı, ancak onay sayfası yüklenemedi. Hesabınızı ayarlamak için lütfen e-postanızı kontrol edin.
+newsletter-signup-error = Ürün güncelleme e-postalarına kayıtlı değilsiniz. Hesap ayarlarınızda tekrar deneyebilirsiniz.
+product-plan-error =
+    .title = Planlar yüklenirken sorun oluştu
+product-profile-error =
+    .title = Profil yüklenirken sorun oluştu
+product-customer-error =
+    .title = Müşteri yüklenirken sorun oluştu
+product-plan-not-found = Plan bulunamadı
+
+## Hooks - coupons
+
+coupon-success = Planınız liste fiyatı üzerinden otomatik olarak yenilenecektir.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Planınız { $couponDurationDate } tarihinden sonra liste fiyatı üzerinden otomatik olarak yenilenecek.
+
+## Routes - Checkout - New user
+
+new-user-step-1 = 1. { -brand-name-firefox } hesabı açın
+new-user-card-title = Kart bilgilerinizi girin
+new-user-submit = Şimdi abone ol
+
+## Routes - Product and Subscriptions
+
+sub-update-payment-title = Ödeme bilgileri
+
+## Routes - Checkout and Product/Subscription create
+
+pay-with-heading-card-or = veya kartla ödeyin
+pay-with-heading-card-only = Kartla öde
+
+## Routes - Product - IapRoadblock
+
+subscription-iaperrorupgrade-title = Sizi henüz yükseltemiyoruz
+
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
+
+## Routes - Product - Subscription upgrade
+
+product-plan-change-heading = Değişikliğinizi gözden geçirin
+sub-change-failed = Plan değişikliği başarısız oldu
+sub-change-submit = Değişikliği onaylayın
+sub-update-current-plan-label = Geçerli plan
+sub-update-new-plan-label = Yeni plan
+sub-update-total-label = Yeni toplam
+
+## Routes - Subscriptions - Cancel
+
+sub-item-cancel-sub = Aboneliği iptal et
+sub-item-stay-sub = Aboneliğimi sürdür
+
+## $name (String) - The name of the subscribed product.
+## $period (Date) - The last day of product access
+
+sub-item-cancel-msg = Faturanızın son günü olan { $period } tarihinden sonra { $name } ürününü kullanamayacaksınız.
+sub-item-cancel-confirm = { $name } ürününe erişimimi ve kayıtlı bilgilerimi { $period } tarihinde iptal et
 
 ## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -235,17 +357,63 @@ sub-plan-price-year =
        *[other] { $intervalCount } yılda bir { $amount }
     }
 
+## Routes - Subscription
+
+sub-route-idx-reactivating = Aboneliği yeniden etkinleştirme başarısız oldu
+sub-route-idx-cancel-failed = Abonelik iptal edilemedi
+sub-route-idx-contact = Destek birimine ulaş
+sub-route-idx-cancel-msg-title = Gitmenize üzüldük
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    { $name } aboneliğiniz iptal edildi.
+          <br />
+          { $date } tarihine kadar { $name } ürününe erişmeye devam edeceksiniz.
+sub-route-idx-cancel-aside = Sorularınız mı var? <a>{ -brand-name-mozilla } Destek sayfasını</a> ziyaret edin.
+
+## Routes - Subscriptions - Errors
+
+sub-customer-error =
+    .title = Müşteri yüklenirken sorun oluştu
+sub-invoice-error =
+    .title = Faturalar yüklenirken sorun oluştu
+sub-billing-update-success = Fatura bilgileriniz başarıyla güncellendi
+
+## Routes - Subscription - ActionButton
+
+pay-update-change-btn = Değiştir
+pay-update-manage-btn = Yönet
+
+## Routes - Subscriptions - Cancel and IapItem
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Bir sonraki faturalandırma: { $date }
 sub-expires-on = Son geçerlilik tarihi: { $date }
 
-##
+## Routes - Subscription - PaymentUpdate
+
+
+# $expirationDate (Date) - The payment card's expiration date.
 
 pay-update-card-exp = Son kullanım: { $expirationDate }
-pay-update-change-btn = Değiştir
+sub-route-idx-updating = Fatura bilgileri güncelleniyor…
+sub-route-payment-modal-heading = Geçersiz fatura bilgileri
+sub-route-payment-modal-message = { -brand-name-paypal } hesabınızda bir sorun var gibi görünüyor. Bu ödeme sorununu çözmek için gerekli adımları atmanız gerekiyor.
+sub-route-missing-billing-agreement-payment-alert = Geçersiz ödeme bilgileri: Hesabınızla ilgili bir sorun var. <div>Yönet</div>
+sub-route-funding-source-payment-alert = Geçersiz ödeme bilgisi: Hesabınızla ilgili bir hata var. Bilgilerinizi güncelledikten sonra bu uyarının temizlenmesi biraz zaman alabilir. <div>Yönet</div>
 
-## reactivate
+## Routes - Subscription - SubscriptionItem
+
+sub-item-no-such-plan = Bu abonelik için böyle bir plan yok.
+invoice-not-found = Sonraki fatura bulunamadı
+sub-item-no-such-subsequent-invoice = Bu abonelik için sonraki fatura bulunamadı.
+
+## Routes - Subscriptions - Pocket Subscription
+
+manage-pocket-title = { -brand-name-pocket } premium aboneliğinizi mi arıyorsunuz?
+manage-pocket-body-2 = Yönetmek için <linkExternal>buraya tıklayın</linkExternal>.
+
+## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = { $name } ürününü kullanmaya devam etmek ister misiniz?
@@ -261,175 +429,12 @@ reactivate-confirm-button = Yeniden abone ol
 
 ## $date (Date) - Last day of product access
 
-reactivate-panel-date = Aboneliğinizi { $date } tarihinde iptal ettiniz.
 reactivate-panel-copy = <strong>{ $date }</strong> tarihinde { $name } ürününe erişiminiz sona erecek.
 reactivate-success-copy = Teşekkürler! Artık hazırsınız.
 reactivate-success-button = Kapat
 
-## Subscription item
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
-sub-item-missing = Abonelikler yüklenirken sorun oluştu
-sub-item-missing-msg = Lütfen daha sonra tekrar deneyin.
-sub-item-no-such-plan = Bu abonelik için böyle bir plan yok.
-sub-item-cancel-sub = Aboneliği iptal et
-sub-item-stay-sub = Aboneliğimi sürdür
-sub-item-cancel-msg = Faturanızın son günü olan { $period } tarihinden sonra { $name } ürününü kullanamayacaksınız.
-sub-item-cancel-confirm = { $name } ürününe erişimimi ve kayıtlı bilgilerimi { $period } tarihinde iptal et
-invoice-not-found = Sonraki fatura bulunamadı
-sub-item-no-such-subsequent-invoice = Bu abonelik için sonraki fatura bulunamadı.
-
-## Subscription iap item
+## Routes - Subscriptions - Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: Uygulama içi satın alma
 sub-iap-item-apple-purchase = { -brand-name-apple }: Uygulama içi satın alma
 sub-iap-item-manage-button = Yönet
-account-activated = <userEl/>, hesabınız etkinleştirildi
-
-## Subscription route index
-
-sub-route-idx-updating = Fatura bilgileri güncelleniyor…
-sub-route-idx-reactivating = Aboneliği yeniden etkinleştirme başarısız oldu
-sub-route-idx-cancel-failed = Abonelik iptal edilemedi
-sub-route-idx-contact = Destek birimine ulaş
-sub-route-idx-cancel-msg-title = Gitmenize üzüldük
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-sub-route-idx-cancel-msg =
-    { $name } aboneliğiniz iptal edildi.
-          <br />
-          { $date } tarihine kadar { $name } ürününe erişmeye devam edeceksiniz.
-sub-route-idx-cancel-aside = Sorularınız mı var? <a>{ -brand-name-mozilla } Destek sayfasını</a> ziyaret edin.
-sub-subscription-error =
-    .title = Abonelikler yüklenirken sorun oluştu
-sub-customer-error =
-    .title = Müşteri yüklenirken sorun oluştu
-sub-invoice-error =
-    .title = Faturalar yüklenirken sorun oluştu
-sub-billing-update-success = Fatura bilgileriniz başarıyla güncellendi
-sub-route-payment-modal-heading = Geçersiz fatura bilgileri
-sub-route-payment-modal-message = { -brand-name-paypal } hesabınızda bir sorun var gibi görünüyor. Bu ödeme sorununu çözmek için gerekli adımları atmanız gerekiyor.
-sub-route-missing-billing-agreement-payment-alert = Geçersiz ödeme bilgileri: Hesabınızla ilgili bir sorun var. <div>Yönet</div>
-sub-route-funding-source-payment-alert = Geçersiz ödeme bilgisi: Hesabınızla ilgili bir hata var. Bilgilerinizi güncelledikten sonra bu uyarının temizlenmesi biraz zaman alabilir. <div>Yönet</div>
-pay-update-manage-btn = Yönet
-
-## Subscription create
-
-sub-guarantee = 30 gün para iade garantisi
-pay-with-heading-other = Ödeme yöntemini seçin
-pay-with-heading-card-or = veya kartla ödeyin
-pay-with-heading-card-only = Kartla öde
-
-## Plan details
-
-plan-details-header = Ürün ayrıntıları
-plan-details-show-button = Ayrıntıları göster
-plan-details-hide-button = Ayrıntıları gizle
-plan-details-total-label = Toplam
-plan-details-list-price = Liste fiyatı
-plan-details-tax = Vergiler ve ücretler
-
-## Coupons
-
-coupon-discount = İndirim
-coupon-discount-applied = İndirim uygulandı
-# Title of container where a user can input a coupon code to get a discount on a subscription.
-coupon-promo-code = Promosyon kodu
-# Title of container showing discount coupon code applied to a subscription.
-coupon-promo-code-applied = Promosyon kodu uygulandı
-coupon-submit = Uygula
-coupon-remove = Kaldır
-coupon-error = Girdiğiniz kod geçersiz veya süresi dolmuş.
-coupon-error-generic = Kod işlenirken bir hata oluştu. Lütfen tekrar deneyin.
-coupon-error-expired = Girdiğiniz kodun süresi dolmuş.
-coupon-error-limit-reached = Girdiğiniz kodun kullanım limiti doldu.
-coupon-error-invalid = Girdiğiniz kod geçersiz.
-coupon-success = Planınız liste fiyatı üzerinden otomatik olarak yenilenecektir.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-coupon-success-repeating = Planınız { $couponDurationDate } tarihinden sonra liste fiyatı üzerinden otomatik olarak yenilenecek.
-coupon-enter-code =
-    .placeholder = Kodu yazın
-
-## Payment processing
-
-payment-processing-message = Ödemeniz işleme alınıyor. Lütfen bekleyin…
-
-## Payment confirmation
-
-payment-confirmation-alert = İndirmek için buraya tıklayın
-payment-confirmation-mobile-alert = Uygulama açılmadı mı? <a>Buraya tıklayın</a>
-payment-confirmation-thanks-heading = Teşekkürler!
-
-## Payment confirmation details
-## $email (string) - The user's email.
-## $productName (String) - The name of the subscribed product.
-
-payment-confirmation-thanks-subheading = { $email } adresine { $product_name } ürününü kullanmaya nasıl başlayacağınızla ilgili ayrıntıları içeren bir onay e-postası gönderildi.
-payment-confirmation-thanks-heading-account-exists = Teşekkürler, şimdi e-postanızı kontrol edin!
-
-## $email (string) - The user's email.
-
-payment-confirmation-thanks-subheading-account-exists = { $email } adresine, hesabınızın kurulumuna ilişkin talimatların yanı sıra ödeme ayrıntılarınızı içeren bir e-posta göndereceğiz.
-payment-confirmation-order-heading = Sipariş ayrıntıları
-payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
-payment-confirmation-billing-heading = Ödeyen
-payment-confirmation-details-heading-2 = Ödeme bilgileri
-payment-confirmation-amount = { $interval } { $amount }
-
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-payment-confirmation-amount-day =
-    { $intervalCount ->
-        [one] Günlük { $amount }
-       *[other] { $intervalCount } günde bir { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirmation-amount-week =
-    { $intervalCount ->
-        [one] Haftalık { $amount }
-       *[other] { $intervalCount } haftada bir { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-payment-confirmation-amount-month =
-    { $intervalCount ->
-        [one] Aylık { $amount }
-       *[other] { $intervalCount } ayda bir { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-payment-confirmation-amount-year =
-    { $intervalCount ->
-        [one] Yıllık { $amount }
-       *[other] { $intervalCount } yılda bir { $amount }
-    }
-payment-confirmation-download-button = İndirmeye devam et
-payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
-
-## New user email form
-
-new-user-sign-in-link = { -brand-name-firefox } hesabınız var mı? <a>Giriş yapın</a>
-new-user-step-1 = 1. { -brand-name-firefox } hesabı açın
-# "Required" to indicate that the user must use the checkbox below this text to
-# agree to a payment method's terms of service and privacy notice in order to
-# continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = E-postanızı yazın
-new-user-confirm-email =
-    .label = E-postanızı doğrulayın
-new-user-subscribe-product-updates = { -brand-name-firefox } ile ilgili yeniliklerden haberdar olmak istiyorum
-new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınızı açmak için kullanıyoruz. Asla üçüncü şahıslara satmıyoruz.
-new-user-email-validate = E-posta geçerli değil
-new-user-email-validate-confirm = E-postalar eşleşmiyor
-new-user-already-has-account-sign-in = Zaten bir hesabınız var. <a>Giriş yapın</a>
-# $domain (String) - the email domain provided by the user during sign up
-new-user-invalid-email-domain = E-postanızı yanlış mı yazdınız? { $domain } e-posta hizmeti vermiyor.
-new-user-card-title = Kart bilgilerinizi girin
-new-user-submit = Şimdi abone ol
-manage-pocket-title = { -brand-name-pocket } premium aboneliğinizi mi arıyorsunuz?
-manage-pocket-body-2 = Yönetmek için <linkExternal>buraya tıklayın</linkExternal>.
-payment-method-header = Ödeme yönteminizi seçin
-# This message is used to indicate the second step in a multi step process.
-payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Gerekli
