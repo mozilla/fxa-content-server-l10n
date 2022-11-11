@@ -3,57 +3,135 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Branding
+### Terms and messages used in fxa-payments-server
 
-project-brand = Firefox Accounts
+
+## Firefox and Mozilla must be treated as a brand.
+##
+## They cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+# 'Firefox Accounts' refers to the service
+project-brand = Firefox Accounts
+
+## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
+
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
-document =
-    .title = Firefox Accounts
 
-## General aria-label
+## Component - AppLayout
 
-close-aria =
-    .aria-label = Modal sluiten
+settings-home = Account-startpagina
 
-## App error dialog
+## Component - CouponForm
 
-general-error-heading = Algemene toepassingsfout
-basic-error-message = Er is iets misgegaan. Probeer het later opnieuw.
-payment-error-1 = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Probeer het opnieuw of neem contact op met uw kaartverstrekker.
-payment-error-2 = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Neem contact op met uw kaartverstrekker.
-payment-error-3b = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Promotiecode toegepast
+coupon-submit = Toepassen
+coupon-remove = Verwijderen
+coupon-error = De ingevoerde kortingscode is ongeldig of verlopen.
+coupon-error-generic = Er is een fout opgetreden bij het verwerken van de code. Probeer het opnieuw.
+coupon-error-expired = De ingevoerde code is verlopen.
+coupon-error-limit-reached = De ingevoerde code heeft zijn limiet bereikt.
+coupon-error-invalid = De ingevoerde code is ongeldig.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-enter-code =
+    .placeholder = Code invoeren
+
+## Component - Fields
+
+default-input-error = Dit veld is verplicht
+input-error-is-required = { $label } is verplicht
+
+## Component - Header
+
+brand-name-firefox-logo = { -brand-name-firefox }-logo
+
+## Component - NewUserEmailForm
+
+new-user-sign-in-link = Hebt u al een { -brand-name-firefox }-account? <a>Aanmelden</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Voer uw e-mailadres in
+new-user-confirm-email =
+    .label = Bevestig uw e-mailadres
+new-user-subscribe-product-updates = Ik wil graag productupdates van { -brand-name-firefox } ontvangen
+new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen om uw account aan te maken. We zullen het nooit aan een derde partij verkopen.
+new-user-email-validate = E-mailadres is niet geldig
+new-user-email-validate-confirm = E-mailadressen komen niet overeen
+new-user-already-has-account-sign-in = U hebt al een account. <a>Aanmelden</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Hebt u het e-mailadres verkeerd getypt? { $domain } biedt geen e-mail aan.
+
+## Component - PaymentConfirmation
+
+payment-confirmation-thanks-heading = Bedankt!
+payment-confirmation-thanks-heading-account-exists = Bedankt, controleer nu uw e-mail!
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = Er is een bevestigingsbericht verzonden naar { $email } met details over hoe u aan de slag kunt met { $product_name }.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = U ontvangt een e-mailbericht op { $email } met instructies over het instellen van uw account, evenals uw betalingsgegevens.
+payment-confirmation-order-heading = Bestelgegevens
+payment-confirmation-invoice-number = Factuurnr. { $invoiceNumber }
+payment-confirmation-details-heading-2 = Betalingsgegevens
+payment-confirmation-amount = { $amount } per { $interval }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] dagelijks { $amount }
+       *[other] elke { $intervalCount } dagen { $amount }
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] wekelijks { $amount }
+       *[other] elke { $intervalCount } weken { $amount }
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] maandelijks { $amount }
+       *[other] elke { $intervalCount } maanden { $amount }
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] jaarlijks { $amount }
+       *[other] elke { $intervalCount } jaar { $amount }
+    }
+payment-confirmation-download-button = Doorgaan naar download
+
+## Component - PaymentConsentCheckbox
+
+payment-confirm-with-legal-links-static = Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode voor het getoonde bedrag te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
+
+## Component - PaymentErrorView
+
 payment-error-retry-button = Opnieuw proberen
 payment-error-manage-subscription-button = Mijn abonnement beheren
-country-currency-mismatch = De valuta van dit abonnement is niet geldig voor het land dat aan uw betaling is gekoppeld.
-currency-currency-mismatch = Sorry. U kunt niet tussen valuta wisselen.
-no-subscription-change = Sorry. U kunt uw abonnement niet wijzigen.
-# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
-iap-already-subscribed = U bent al geabonneerd via de { $mobileAppStore }.
-expired-card-error = Het lijkt erop dat uw creditcard is verlopen. Probeer een andere kaart.
-insufficient-funds-error = Het lijkt erop dat uw kaart onvoldoende saldo heeft. Probeer een andere kaart.
-withdrawal-count-limit-exceeded-error = Het lijkt erop dat u met deze transactie uw kredietlimiet overschrijdt. Probeer een andere kaart.
-charge-exceeds-source-limit = Het lijkt erop dat u met deze transactie uw dagelijkse kredietlimiet overschrijdt. Probeer een andere kaart of wacht 24 uur.
-instant-payouts-unsupported = Het lijkt erop dat uw bankpas niet is ingesteld voor directe betalingen. Probeer een andere bankpas of creditcard.
-duplicate-transaction = Hmm. Het lijkt erop dat zojuist een identieke transactie is verzonden. Controleer uw betalingsgeschiedenis.
-coupon-expired = Het lijkt erop dat die promotiecode is verlopen.
-card-error = Uw transactie kon niet worden verwerkt. Controleer uw creditcardgegevens en probeer het opnieuw.
-# $productName (String) - The name of the subscribed product.
-fxa-account-signup-error-2 = Door een systeemfout is uw registratie bij { $productName } mislukt. Er zijn geen kosten in rekening gebracht bij uw betaalmethode. Probeer het opnieuw.
-newsletter-signup-error = U bent niet ingeschreven voor e-mailberichten over productupdates. U kunt het opnieuw proberen in uw accountinstellingen.
-fxa-post-passwordless-sub-error = Abonnement bevestigd, maar de bevestigingspagina kan niet worden geladen. Controleer uw e-mail om uw account in te stellen.
 
-## IAP upgrade errors
+## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed = U hebt al een abonnement op { $productName } via de appstore van { -brand-name-google } of { -brand-name-apple }.
@@ -61,67 +139,20 @@ iap-upgrade-no-bundle-support = We ondersteunen geen upgrades voor deze abonneme
 iap-upgrade-contact-support = U kunt dit product nog steeds verkrijgen – neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
 iap-upgrade-get-help-button = Hulp verkrijgen
 
-## Settings
+## Component - PaymentForm
 
-settings-home = Account-startpagina
-settings-subscriptions-title = Abonnementen
+payment-name =
+    .placeholder = Volledige naam
+    .label = Naam zoals weergegeven op uw kaart
+payment-cc =
+    .label = Uw kaart
+payment-cancel-btn = Annuleren
+payment-update-btn = Bijwerken
+payment-pay-btn = Nu betalen
+payment-pay-with-paypal-btn = Betalen met { -brand-name-paypal }
+payment-validate-name-error = Voer uw naam in
 
-## Legal footer
-
-terms = Servicevoorwaarden
-privacy = Privacyverklaring
-terms-download = Voorwaarden downloaden
-
-## Subscription titles
-
-subscription-create-title = Uw abonnement instellen
-subscription-success-title = Abonnementsbevestiging
-subscription-processing-title = Abonnement bevestigen…
-subscription-error-title = Fout bij bevestigen abonnement…
-subscription-noplanchange-title = Deze abonnementswijziging wordt niet ondersteund
-subscription-iapsubscribed-title = Al geabonneerd
-subscription-iaperrorupgrade-title = We kunnen u nog niet upgraden
-
-## $productName (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-# $intervalCount (Number) - The interval between payments, in days.
-day-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } heeft dagelijks { $amount } in rekening gebracht
-       *[other] { $productName } heeft elke { $intervalCount } dagen { $amount } in rekening gebracht
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-week-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } heeft wekelijks { $amount } in rekening gebracht
-       *[other] { $productName } heeft elke { $intervalCount } weken { $amount } in rekening gebracht
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-month-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } heeft maandelijks { $amount } in rekening gebracht
-       *[other] { $productName } heeft elke { $intervalCount } maanden { $amount } in rekening gebracht
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-year-based-plan-details-amount =
-    { $intervalCount ->
-        [one] { $productName } heeft jaarlijks { $amount } in rekening gebracht
-       *[other] { $productName } heeft elke { $intervalCount } jaar { $amount } in rekening gebracht
-    }
-
-## Product route
-
-product-plan-error =
-    .title = Probleem bij het laden van de schema’s
-product-profile-error =
-    .title = Probleem bij het laden van het profiel
-product-customer-error =
-    .title = Probleem bij het laden van de klant
-product-plan-not-found = Schema niet gevonden
-product-no-such-plan = Een dergelijk schema bestaat niet voor dit product.
-
-## Payment legal blurb
+## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } gebruikt { -brand-name-stripe } en { -brand-name-paypal } voor veilig betalingsverkeer.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe }-privacybeleid</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal }-privacybeleid</paypalPrivacyLink>.
@@ -130,62 +161,64 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal }-privacyb
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } gebruikt { -brand-name-stripe } voor veilig betalingsverkeer.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe }-privacybeleid</stripePrivacyLink>.
 
-## Payment form
+## Component - PaymentMethodHeader
 
-payment-name =
-    .placeholder = Volledige naam
-    .label = Naam zoals weergegeven op uw kaart
-payment-cc =
-    .label = Uw kaart
-payment-ccn =
-    .label = Kaartnummer
-payment-exp =
-    .label = Vervaldatum
-payment-cvc =
-    .label = CVC
-payment-zip =
-    .label = Postcode
-payment-confirm-with-legal-links-static = Ik autoriseer { -brand-name-mozilla }, maker van { -brand-name-firefox }-producten, om mijn betaalmethode voor het getoonde bedrag te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
-payment-cancel-btn = Annuleren
-payment-update-btn = Bijwerken
-payment-pay-btn = Nu betalen
-payment-pay-with-paypal-btn = Betalen met { -brand-name-paypal }
-payment-validate-name-error = Voer uw naam in
-payment-validate-zip-required = Postcode is vereist
-payment-validate-zip-short = Postcode is te kort
+payment-method-header = Kies uw betalingsmethode
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Vereist
 
-## Subscription redirect
+## Component - PaymentProcessing
 
-sub-redirect-ready = Uw abonnement is klaar
-sub-redirect-copy = Neem een ogenblik om ons te vertellen over uw ervaring.
-sub-redirect-skip-survey = Nee bedankt, breng me naar mijn product.
+payment-processing-message = Een ogenblik terwijl we uw betaling verwerken…
 
-## Fields
+## Component - PaymentProviderDetails
 
-default-input-error = Dit veld is verplicht
-input-error-is-required = { $label } is verplicht
+payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
 
-## Subscription upgrade
+## Component - PlanDetails
 
-product-plan-change-heading = Uw wijziging bekijken
-sub-change-failed = Abonnementswijziging mislukt
-sub-update-payment-title = Betalingsgegevens
-sub-update-card-exp = Vervalt { $cardExpMonth }/{ $cardExpYear }
-sub-update-copy =
-    Uw schema wijzigt direct, en er wordt een aangepast bedrag in rekening
-    gebracht voor het restant van uw facturatieperiode. Vanaf { $startingDate }
-    wordt u het volledige bedrag in rekening gebracht.
+plan-details-header = Productdetails
+plan-details-list-price = Normale prijs
+plan-details-show-button = Details tonen
+plan-details-hide-button = Details verbergen
+plan-details-total-label = Totaal
+plan-details-tax = Belastingen en heffingen
 
-##
+## Component - PlanErrorDialog
 
-sub-change-submit = Wijziging bevestigen
-sub-change-indicator =
-    .aria-label = wijzigingsindicator
-sub-update-current-plan-label = Huidig schema
-sub-update-new-plan-label = Nieuw schema
-sub-update-total-label = Nieuw totaalbedrag
+product-no-such-plan = Een dergelijk schema bestaat niet voor dit product.
 
-## Subscription upgrade plan details
+## Component - SubscriptionTitle
+
+subscription-create-title = Uw abonnement instellen
+subscription-success-title = Abonnementsbevestiging
+subscription-processing-title = Abonnement bevestigen…
+subscription-error-title = Fout bij bevestigen abonnement…
+subscription-noplanchange-title = Deze abonnementswijziging wordt niet ondersteund
+subscription-iapsubscribed-title = Al geabonneerd
+sub-guarantee = 30-dagen-geldteruggarantie
+
+## Component - TermsAndPrivacy
+
+terms = Servicevoorwaarden
+privacy = Privacyverklaring
+terms-download = Voorwaarden downloaden
+
+## App-level string(s) and messages shared by multiple components or routes
+
+document =
+    .title = Firefox Accounts
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Modal sluiten
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = Laden…
+settings-subscriptions-title = Abonnementen
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Promotiecode
+
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
@@ -212,6 +245,99 @@ plan-price-year =
         [one] jaarlijks { $amount }
        *[other] elke { $intervalCount } jaar { $amount }
     }
+
+## Error messages
+
+# App error dialog
+general-error-heading = Algemene toepassingsfout
+basic-error-message = Er is iets misgegaan. Probeer het later opnieuw.
+payment-error-1 = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Probeer het opnieuw of neem contact op met uw kaartverstrekker.
+payment-error-2 = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Neem contact op met uw kaartverstrekker.
+payment-error-3b = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
+expired-card-error = Het lijkt erop dat uw creditcard is verlopen. Probeer een andere kaart.
+insufficient-funds-error = Het lijkt erop dat uw kaart onvoldoende saldo heeft. Probeer een andere kaart.
+withdrawal-count-limit-exceeded-error = Het lijkt erop dat u met deze transactie uw kredietlimiet overschrijdt. Probeer een andere kaart.
+charge-exceeds-source-limit = Het lijkt erop dat u met deze transactie uw dagelijkse kredietlimiet overschrijdt. Probeer een andere kaart of wacht 24 uur.
+instant-payouts-unsupported = Het lijkt erop dat uw bankpas niet is ingesteld voor directe betalingen. Probeer een andere bankpas of creditcard.
+duplicate-transaction = Hmm. Het lijkt erop dat zojuist een identieke transactie is verzonden. Controleer uw betalingsgeschiedenis.
+coupon-expired = Het lijkt erop dat die promotiecode is verlopen.
+card-error = Uw transactie kon niet worden verwerkt. Controleer uw creditcardgegevens en probeer het opnieuw.
+country-currency-mismatch = De valuta van dit abonnement is niet geldig voor het land dat aan uw betaling is gekoppeld.
+currency-currency-mismatch = Sorry. U kunt niet tussen valuta wisselen.
+no-subscription-change = Sorry. U kunt uw abonnement niet wijzigen.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = U bent al geabonneerd via de { $mobileAppStore }.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Door een systeemfout is uw registratie bij { $productName } mislukt. Er zijn geen kosten in rekening gebracht bij uw betaalmethode. Probeer het opnieuw.
+fxa-post-passwordless-sub-error = Abonnement bevestigd, maar de bevestigingspagina kan niet worden geladen. Controleer uw e-mail om uw account in te stellen.
+newsletter-signup-error = U bent niet ingeschreven voor e-mailberichten over productupdates. U kunt het opnieuw proberen in uw accountinstellingen.
+product-plan-error =
+    .title = Probleem bij het laden van de schema’s
+product-profile-error =
+    .title = Probleem bij het laden van het profiel
+product-customer-error =
+    .title = Probleem bij het laden van de klant
+product-plan-not-found = Schema niet gevonden
+
+## Hooks - coupons
+
+coupon-success = Uw abonnement wordt automatisch verlengd tegen de normale prijs.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Uw abonnement wordt na { $couponDurationDate } automatisch verlengd tegen de standaardprijs.
+
+## Routes - Checkout - New user
+
+new-user-step-1 = 1. Maak een { -brand-name-firefox }-account aan
+new-user-card-title = Voer uw kaartgegevens in
+new-user-submit = Nu abonneren
+
+## Routes - Product and Subscriptions
+
+sub-update-payment-title = Betalingsgegevens
+
+## Routes - Checkout and Product/Subscription create
+
+pay-with-heading-card-or = Of betaal met kaart
+pay-with-heading-card-only = Betalen met kaart
+
+## Routes - Product - IapRoadblock
+
+subscription-iaperrorupgrade-title = We kunnen u nog niet upgraden
+
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
+
+## Routes - Product - Subscription upgrade
+
+product-plan-change-heading = Uw wijziging bekijken
+sub-change-failed = Abonnementswijziging mislukt
+sub-update-copy =
+    Uw schema wijzigt direct, en er wordt een aangepast bedrag in rekening
+    gebracht voor het restant van uw facturatieperiode. Vanaf { $startingDate }
+    wordt u het volledige bedrag in rekening gebracht.
+sub-change-submit = Wijziging bevestigen
+sub-update-current-plan-label = Huidig schema
+sub-update-new-plan-label = Nieuw schema
+sub-update-total-label = Nieuw totaalbedrag
+
+## Routes - Subscriptions - Cancel
+
+sub-item-cancel-sub = Abonnement opzeggen
+sub-item-stay-sub = Abonnement behouden
+
+## $name (String) - The name of the subscribed product.
+## $period (Date) - The last day of product access
+
+sub-item-cancel-msg =
+    U kunt { $name } niet meer gebruiken na
+    { $period }, de laatste dag van uw betalingscyclus.
+sub-item-cancel-confirm =
+    Mijn toegang tot en opgeslagen gegevens in { $name }
+    op { $period } opzeggen
 
 ## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -241,17 +367,63 @@ sub-plan-price-year =
        *[other] elke { $intervalCount } jaar { $amount }
     }
 
+## Routes - Subscription
+
+sub-route-idx-reactivating = Opnieuw activeren van abonnement is mislukt
+sub-route-idx-cancel-failed = Opzeggen van abonnement is mislukt
+sub-route-idx-contact = Contact opnemen
+sub-route-idx-cancel-msg-title = We vinden het jammer dat u weggaat.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Uw abonnement op { $name } is opgezegd.
+          <br />
+          U hebt nog tot { $date } toegang tot { $name }.
+sub-route-idx-cancel-aside = Vragen? Bezoek <a>{ -brand-name-mozilla } Support</a>.
+
+## Routes - Subscriptions - Errors
+
+sub-customer-error =
+    .title = Probleem bij het laden van klant
+sub-invoice-error =
+    .title = Probleem bij het laden van facturen
+sub-billing-update-success = Uw betalingsgegevens zijn met succes bijgewerkt
+
+## Routes - Subscription - ActionButton
+
+pay-update-change-btn = Wijzigen
+pay-update-manage-btn = Beheren
+
+## Routes - Subscriptions - Cancel and IapItem
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Volgende incasso op { $date }
 sub-expires-on = Vervalt op { $date }
 
-##
+## Routes - Subscription - PaymentUpdate
+
+
+# $expirationDate (Date) - The payment card's expiration date.
 
 pay-update-card-exp = Vervalt op { $expirationDate }
-pay-update-change-btn = Wijzigen
+sub-route-idx-updating = Facturatiegegevens bijwerken…
+sub-route-payment-modal-heading = Ongeldige facturatiegegevens
+sub-route-payment-modal-message = Er lijkt een fout op te treden met uw { -brand-name-paypal }-account, u dient de noodzakelijke stappen te nemen om dit betalingsprobleem op te lossen.
+sub-route-missing-billing-agreement-payment-alert = Ongeldige betalingsgegevens; er is een fout opgetreden met uw account. <div>Beheren</div>
+sub-route-funding-source-payment-alert = Ongeldige betalingsgegevens; er is een fout opgetreden met uw account. Deze waarschuwing verdwijnt mogelijk pas enige tijd nadat u met succes uw gegevens hebt bijgewerkt. <div>Beheren</div>
 
-## reactivate
+## Routes - Subscription - SubscriptionItem
+
+sub-item-no-such-plan = Abonnementschema bestaat niet.
+invoice-not-found = Volgende factuur niet gevonden
+sub-item-no-such-subsequent-invoice = Volgende factuur niet gevonden voor dit abonnement.
+
+## Routes - Subscriptions - Pocket Subscription
+
+manage-pocket-title = Op zoek naar uw abonnement op { -brand-name-pocket } premium?
+manage-pocket-body-2 = <linkExternal>Klik hier</linkExternal> om dit te beheren.
+
+## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Wilt u { $name } blijven gebruiken?
@@ -273,179 +445,12 @@ reactivate-confirm-button = Opnieuw inschrijven
 
 ## $date (Date) - Last day of product access
 
-reactivate-panel-date = U hebt uw abonnement op { $date } opgezegd.
 reactivate-panel-copy = U verliest op <strong>{ $date }</strong> toegang tot { $name }.
 reactivate-success-copy = Bedankt! U bent helemaal klaar.
 reactivate-success-button = Sluiten
 
-## Subscription item
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
-sub-item-missing = Probleem bij het laden van abonnementen
-sub-item-missing-msg = Probeer het later opnieuw.
-sub-item-no-such-plan = Abonnementschema bestaat niet.
-sub-item-cancel-sub = Abonnement opzeggen
-sub-item-stay-sub = Abonnement behouden
-sub-item-cancel-msg =
-    U kunt { $name } niet meer gebruiken na
-    { $period }, de laatste dag van uw betalingscyclus.
-sub-item-cancel-confirm =
-    Mijn toegang tot en opgeslagen gegevens in { $name }
-    op { $period } opzeggen
-invoice-not-found = Volgende factuur niet gevonden
-sub-item-no-such-subsequent-invoice = Volgende factuur niet gevonden voor dit abonnement.
-
-## Subscription iap item
+## Routes - Subscriptions - Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google }: in-app-aankoop
 sub-iap-item-apple-purchase = { -brand-name-apple }: in-app-aankoop
 sub-iap-item-manage-button = Beheren
-account-activated = Uw account is geactiveerd, <userEl/>
-
-## Subscription route index
-
-sub-route-idx-updating = Facturatiegegevens bijwerken…
-sub-route-idx-reactivating = Opnieuw activeren van abonnement is mislukt
-sub-route-idx-cancel-failed = Opzeggen van abonnement is mislukt
-sub-route-idx-contact = Contact opnemen
-sub-route-idx-cancel-msg-title = We vinden het jammer dat u weggaat.
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-sub-route-idx-cancel-msg =
-    Uw abonnement op { $name } is opgezegd.
-          <br />
-          U hebt nog tot { $date } toegang tot { $name }.
-sub-route-idx-cancel-aside = Vragen? Bezoek <a>{ -brand-name-mozilla } Support</a>.
-sub-subscription-error =
-    .title = Probleem bij het laden van abonnementen
-sub-customer-error =
-    .title = Probleem bij het laden van klant
-sub-invoice-error =
-    .title = Probleem bij het laden van facturen
-sub-billing-update-success = Uw betalingsgegevens zijn met succes bijgewerkt
-sub-route-payment-modal-heading = Ongeldige facturatiegegevens
-sub-route-payment-modal-message = Er lijkt een fout op te treden met uw { -brand-name-paypal }-account, u dient de noodzakelijke stappen te nemen om dit betalingsprobleem op te lossen.
-sub-route-missing-billing-agreement-payment-alert = Ongeldige betalingsgegevens; er is een fout opgetreden met uw account. <div>Beheren</div>
-sub-route-funding-source-payment-alert = Ongeldige betalingsgegevens; er is een fout opgetreden met uw account. Deze waarschuwing verdwijnt mogelijk pas enige tijd nadat u met succes uw gegevens hebt bijgewerkt. <div>Beheren</div>
-pay-update-manage-btn = Beheren
-
-## Subscription create
-
-sub-guarantee = 30-dagen-geldteruggarantie
-pay-with-heading-other = Selecteer betalingsoptie
-pay-with-heading-card-or = Of betaal met kaart
-pay-with-heading-card-only = Betalen met kaart
-
-## Plan details
-
-plan-details-header = Productdetails
-plan-details-show-button = Details tonen
-plan-details-hide-button = Details verbergen
-plan-details-total-label = Totaal
-plan-details-list-price = Normale prijs
-plan-details-tax = Belastingen en heffingen
-
-## Coupons
-
-coupon-discount = Korting
-coupon-discount-applied = Kortingsbeloning toegepast
-# Title of container where a user can input a coupon code to get a discount on a subscription.
-coupon-promo-code = Promotiecode
-# Title of container showing discount coupon code applied to a subscription.
-coupon-promo-code-applied = Promotiecode toegepast
-coupon-submit = Toepassen
-coupon-remove = Verwijderen
-coupon-error = De ingevoerde kortingscode is ongeldig of verlopen.
-coupon-error-generic = Er is een fout opgetreden bij het verwerken van de code. Probeer het opnieuw.
-coupon-error-expired = De ingevoerde code is verlopen.
-coupon-error-limit-reached = De ingevoerde code heeft zijn limiet bereikt.
-coupon-error-invalid = De ingevoerde code is ongeldig.
-coupon-success = Uw abonnement wordt automatisch verlengd tegen de normale prijs.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-coupon-success-repeating = Uw abonnement wordt na { $couponDurationDate } automatisch verlengd tegen de standaardprijs.
-coupon-enter-code =
-    .placeholder = Code invoeren
-
-## Payment processing
-
-payment-processing-message = Een ogenblik terwijl we uw betaling verwerken…
-
-## Payment confirmation
-
-payment-confirmation-alert = Klik hier om te downloaden
-payment-confirmation-mobile-alert = App niet geopend? <a>Klik hier</a>
-payment-confirmation-thanks-heading = Bedankt!
-
-## Payment confirmation details
-## $email (string) - The user's email.
-## $productName (String) - The name of the subscribed product.
-
-payment-confirmation-thanks-subheading = Er is een bevestigingsbericht verzonden naar { $email } met details over hoe u aan de slag kunt met { $product_name }.
-payment-confirmation-thanks-heading-account-exists = Bedankt, controleer nu uw e-mail!
-
-## $email (string) - The user's email.
-
-payment-confirmation-thanks-subheading-account-exists = U ontvangt een e-mailbericht op { $email } met instructies over het instellen van uw account, evenals uw betalingsgegevens.
-payment-confirmation-order-heading = Bestelgegevens
-payment-confirmation-invoice-number = Factuurnr. { $invoiceNumber }
-payment-confirmation-billing-heading = Rekening voor
-payment-confirmation-details-heading-2 = Betalingsgegevens
-payment-confirmation-amount = { $amount } per { $interval }
-
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-payment-confirmation-amount-day =
-    { $intervalCount ->
-        [one] dagelijks { $amount }
-       *[other] elke { $intervalCount } dagen { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirmation-amount-week =
-    { $intervalCount ->
-        [one] wekelijks { $amount }
-       *[other] elke { $intervalCount } weken { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-payment-confirmation-amount-month =
-    { $intervalCount ->
-        [one] maandelijks { $amount }
-       *[other] elke { $intervalCount } maanden { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-payment-confirmation-amount-year =
-    { $intervalCount ->
-        [one] jaarlijks { $amount }
-       *[other] elke { $intervalCount } jaar { $amount }
-    }
-payment-confirmation-download-button = Doorgaan naar download
-payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
-
-## New user email form
-
-new-user-sign-in-link = Hebt u al een { -brand-name-firefox }-account? <a>Aanmelden</a>
-new-user-step-1 = 1. Maak een { -brand-name-firefox }-account aan
-# "Required" to indicate that the user must use the checkbox below this text to
-# agree to a payment method's terms of service and privacy notice in order to
-# continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = Voer uw e-mailadres in
-new-user-confirm-email =
-    .label = Bevestig uw e-mailadres
-new-user-subscribe-product-updates = Ik wil graag productupdates van { -brand-name-firefox } ontvangen
-new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen om uw account aan te maken. We zullen het nooit aan een derde partij verkopen.
-new-user-email-validate = E-mailadres is niet geldig
-new-user-email-validate-confirm = E-mailadressen komen niet overeen
-new-user-already-has-account-sign-in = U hebt al een account. <a>Aanmelden</a>
-# $domain (String) - the email domain provided by the user during sign up
-new-user-invalid-email-domain = Hebt u het e-mailadres verkeerd getypt? { $domain } biedt geen e-mail aan.
-new-user-card-title = Voer uw kaartgegevens in
-new-user-submit = Nu abonneren
-manage-pocket-title = Op zoek naar uw abonnement op { -brand-name-pocket } premium?
-manage-pocket-body-2 = <linkExternal>Klik hier</linkExternal> om dit te beheren.
-payment-method-header = Kies uw betalingsmethode
-# This message is used to indicate the second step in a multi step process.
-payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Vereist
