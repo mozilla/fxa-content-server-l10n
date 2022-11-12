@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = 메시지 닫기
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -53,6 +49,10 @@ app-footer-terms-of-service = 이용 약관
 
 ##
 
+
+## Alert Bar
+
+alert-bar-close-message = 메시지 닫기
 
 ## User's avatar
 
@@ -350,7 +350,7 @@ display-name-input =
 submit-display-name = 저장
 cancel-display-name = 취소
 display-name-update-error-2 = 표시 이름을 업데이트하는 데 문제가 발생했습니다.
-display-name-success-alert-2 = 표시 이름 갱신됨
+display-name-success-alert-2 = 표시 이름 업데이트됨
 
 ##
 
@@ -442,7 +442,7 @@ profile-picture =
 profile-display-name =
     .header = 표시 이름
 profile-primary-email =
-    .header = 기본 메일
+    .header = 기본 이메일
 
 ##
 
@@ -487,21 +487,20 @@ rk-action-remove = 제거
 rk-key-removed-2 = 계정 복구 키가 삭제됨
 rk-cannot-remove-key = 계정 복구 키를 제거할 수 없습니다.
 rk-content-explain = 비밀번호를 잊어버린 경우 정보를 복원하십시오.
-rk-content-reset-data = 비밀번호 재설정시 데이터가 재설정되는 이유는 무엇입니까?
 rk-cannot-verify-session-4 = 세션을 확인하는 중 오류가 발생했습니다.
 rk-remove-error-2 = 계정 복구 키를 제거할 수 없습니다.
 
 ## Secondary email sub-section on main Settings page
 
-se-heading = 보조 메일
-    .header = 보조 메일
+se-heading = 보조 이메일
+    .header = 보조 이메일
 se-cannot-refresh-email = 이메일을 새로고침하는 중에 문제가 발생했습니다.
 se-cannot-resend-code-3 = 인증 코드를 재전송하는 중에 문제가 발생했습니다.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email }이 이제 기본 이메일입니다.
-se-set-primary-error-2 = 죄송합니다. 기본 메일을 변경하는 중에 문제가 발생했습니다.
+se-set-primary-error-2 = 죄송합니다. 기본 이메일을 변경하는 중에 문제가 발생했습니다.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -521,7 +520,10 @@ se-resend-code-2 =
     <button>인증 코드를 재전송하세요.</button>
 # Button to make secondary email the primary
 se-make-primary = 주 이메일로 사용
-se-default-content = 기본 이메일에 로그인할 수 없는 경우 계정에 접근하세요.
+se-default-content = 기본 이메일로 로그인할 수 없는 경우 계정에 접근합니다.
+se-content-note-1 =
+    참고: 보조 이메일은 정보를 복원하지 않습니다.
+    이를 위해서는 <a>계정 복구 키</a>가 필요합니다.
 # Default value for the secondary email
 se-secondary-email-none = 없음
 
