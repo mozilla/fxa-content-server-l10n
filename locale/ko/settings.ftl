@@ -185,6 +185,7 @@ flow-container-back = 이전
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } 계정 복구 키
 get-data-trio-download =
     .title = 다운로드
 get-data-trio-copy =
@@ -362,8 +363,11 @@ recovery-key-close-button = 닫기
 recovery-key-continue-button = 계속
 recovery-key-enter-password =
     .label = 암호 입력
+recovery-key-page-title-1 =
+    .title = 계정 복구 키
 recovery-key-step-1 = 1/2 단계
 recovery-key-step-2 = 2/2 단계
+recovery-key-success-alert-3 = 계정 복구 키 생성됨
 
 ## Add secondary email page
 
@@ -456,7 +460,7 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = { $date }에 생성됨
-security-not-set = 설정 안됨
+security-not-set = 설정되지 않음
 security-action-create = 생성
 security-set-password = 특정 계정 보안 기능을 사용하고 동기화하려면 비밀번호를 설정하세요.
 
@@ -480,14 +484,18 @@ row-defaults-status = 없음
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = 계정 복구 키
 rk-enabled = 활성화됨
 rk-not-set = 설정되지 않음
 rk-action-create = 생성
 rk-action-remove = 제거
 rk-key-removed-2 = 계정 복구 키가 삭제됨
 rk-cannot-remove-key = 계정 복구 키를 제거할 수 없습니다.
-rk-content-explain = 비밀번호를 잊어버린 경우 정보를 복원하십시오.
+rk-refresh-key-1 = 계정 복구 키 새로 고침
+rk-content-explain = 비밀번호를 잊어버린 경우 정보를 복원합니다.
 rk-cannot-verify-session-4 = 세션을 확인하는 중 오류가 발생했습니다.
+rk-remove-modal-heading-1 = 계정 복구 키를 삭제하시겠습니까?
+rk-refresh-error-1 = 죄송합니다. 계정 복구 키를 새로 고침하는 중에 문제가 발생했습니다.
 rk-remove-error-2 = 계정 복구 키를 제거할 수 없습니다.
 
 ## Secondary email sub-section on main Settings page
@@ -535,7 +543,7 @@ se-secondary-email-none = 없음
 tfa-row-header = 2단계 인증
 tfa-row-disabled-2 = 2단계 인증 비활성화됨
 tfa-row-enabled = 활성화됨
-tfa-row-not-set = 설정 안됨
+tfa-row-not-set = 설정되지 않음
 tfa-row-action-add = 추가
 tfa-row-action-disable = 비활성화
 tfa-row-button-refresh =

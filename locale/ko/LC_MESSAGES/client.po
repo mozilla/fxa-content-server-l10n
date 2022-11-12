@@ -1,11 +1,11 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-08-31 04:01+0000\n"
-"Last-Translator: Jonathan Joseph Chiarella <jonathan.chiarella@gmail.com>\n"
+"PO-Revision-Date: 2022-11-12 01:47+0000\n"
+"Last-Translator: Kim YoungCheon <circcc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -195,7 +195,7 @@ msgstr "2단계 인증을 사용합니다"
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Firefox 계정 복구 키"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -479,11 +479,11 @@ msgstr "사용할 수 없는 기기 명령"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "계정 복구 키를 찾을 수 없음"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "잘못된 계정 복구 키"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -684,7 +684,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
-msgstr ""
+msgstr "계정 복구 키 필요"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -839,12 +839,8 @@ msgid "Invalid Token"
 msgstr "유효하지 않은 토큰"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보처리방침</a>에 동의한 것으로 간주합"
-"니다."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보처리방침</a>에 동의한 것으로 간주합니다."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -896,7 +892,7 @@ msgstr "새 링크 받기"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "계정 복구 키로 비밀번호 재설정"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -912,22 +908,21 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">참고:</span> 비밀번호를 재설정하고 계정 복구 키를 저장하지 않으면, 일부 데이터가 삭제됩니다(방문기록과 북마크같은 동기화된 서버 데이터 포함)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "계정 복구 키 입력"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm account recovery key"
-msgstr ""
+msgstr "계정 복구 키 확인"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "계정 복구 키가 없습니까?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -969,9 +964,7 @@ msgstr "새 비밀번호 생성"
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr ""
-"<span>기억하세요.</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때"
-"문입니다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
+msgstr "<span>기억하세요.</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때문입니다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1157,11 +1150,8 @@ msgid "Password"
 msgstr "비밀번호"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"계속 진행하면 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급 방침</a>에 동의하는 것으"
-"로 간주합니다."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "계속 진행하면 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급 방침</a>에 동의하는 것으로 간주합니다."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1368,9 +1358,7 @@ msgstr "이런 일이 왜 일어나나요?"
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr ""
-"<span>안내</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때문입니"
-"다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
+msgstr "<span>안내</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때문입니다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1428,15 +1416,13 @@ msgstr "더 이상 사용하고 있는 이메일이 아닌가요? 새 계정 만
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              계속하면 다음 사항에 동의하는 것으로 간주됩니다.<br />\n"
-"              Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">서비스 이용 약관</a> 및 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">개인정보 취급 방침</a><br />\n"
+"              Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">서비스 이용 약관</a> 및 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">개인정보 취급 방침</a><br />\n"
 "              Firefox의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 취급 방침</a>.\n"
 "            "
 
@@ -1528,8 +1514,7 @@ msgstr "계정 생성"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1863,7 +1848,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "계정 복구 키 저장"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -2029,8 +2014,7 @@ msgid "Sync your device"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:6
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7

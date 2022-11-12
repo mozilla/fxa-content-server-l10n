@@ -3,20 +3,33 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts = Firefox 계정
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox 계정
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
@@ -201,6 +214,9 @@ passwordChangeRequired-different-password-plaintext = 중요: 이전에 사용�
 passwordReset-subject = 비밀번호 수정 완료
 passwordReset-title = 계정 비밀번호가 변경됨
 passwordReset-description = 동기화를 다시 시작하려면 다른 기기에서 새 비밀번호를 입력해야 합니다.
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = 새 계정 복구 키 생성
+postAddAccountRecovery-subject-2 = 계정 복구 키 생성됨
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = 다른 분이십니까?
 postAddAccountRecovery-action = 계정 관리
@@ -218,6 +234,8 @@ postChangePrimary-description = 기본 이메일을 { $email }으로 성공적�
 postChangePrimary-action = 계정 관리
 postConsumeRecoveryCode-action = 계정 관리
 postNewRecoveryCodes-action = 계정 관리
+postRemoveAccountRecovery-subject-2 = 계정 복구 키 삭제됨
+postRemoveAccountRecovery-title-2 = 계정 복구 키를 삭제했습니다.
 postRemoveAccountRecovery-action = 계정 관리
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = 보조 이메일 삭제됨
