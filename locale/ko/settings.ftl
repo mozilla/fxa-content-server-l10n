@@ -95,7 +95,7 @@ connect-another-app-store-image-2 =
 ## Connected services section
 
 cs-heading = 연결된 서비스
-cs-description = 사용하고 있거나 로그인 한 모든것입니다.
+cs-description = 사용하고 있거나 로그인 한 모든 서비스입니다.
 cs-cannot-refresh = 죄송합니다. 연결된 서비스 목록은 다시 불러오는데 문제가 발생하였습니다.
 cs-cannot-disconnect = 클라이언트를 찾지 못해 연결할 수 없음
 # This string is used in a notification message near the top of the page.
