@@ -163,8 +163,8 @@ datablock-print =
 
 dc-heading = 데이터 수집 및 사용
 dc-subheader = { -product-firefox-accounts } 개선에 참여
-dc-subheader-content = { -product-firefox-accounts }가 기술 및 상호작용 데이터를 { -brand-mozilla }에 보낼 수 있도록 허용합니다.
-dc-opt-out-success = 동의 철회에 성공헀습니다. { -product-firefox-accounts }는 기술 또는 상호작용 데이터를 { -brand-mozilla }에 보내지 않습니다.
+dc-subheader-content = { -product-firefox-accounts }이 기술 및 상호작용 데이터를 { -brand-mozilla }에 보낼 수 있도록 허용합니다.
+dc-opt-out-success = 동의 철회에 성공헀습니다. { -product-firefox-accounts }은 기술 또는 상호작용 데이터를 { -brand-mozilla }에 보내지 않습니다.
 dc-opt-in-success = 감사합니다! 이 데이터를 공유하면 { -product-firefox-accounts } 개선에 도움이 됩니다.
 dc-opt-in-out-error-2 = 데이터 수집 설정을 변경하는 중 문제가 발생했습니다.
 dc-learn-more = 자세히 알아보기
