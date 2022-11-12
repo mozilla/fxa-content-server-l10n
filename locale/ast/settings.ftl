@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -51,6 +48,9 @@ app-footer-privacy-notice = Avisu de privacidá del sitiu web
 app-footer-terms-of-service = Términos del Serviciu
 
 ##
+
+
+## Alert Bar
 
 
 ## User's avatar
@@ -111,11 +111,12 @@ cs-sign-out-button = Zarrar sesión
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 
 ## Data collection section
 
+dc-subheader-content = Permitir a { -product-firefox-accounts } qu'unvie datos téunicos y d'interaición a { -brand-mozilla }.
 
 # DropDownAvatarMenu component
 
@@ -126,9 +127,8 @@ drop-down-menu-sign-out-error-2 = Sentímoslo, hebo un problema al zarrar la ses
 
 flow-container-back = Atrás
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Códigos de recuperación
 
 # HeaderLockup component
 
@@ -148,12 +148,7 @@ modal-cancel-button = Encaboxar
 
 ## Modal Verify Session
 
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Introduz el códigu de verificación que s'unvió a <email>{ $email }</email> en 5 minutos, por favor.
 msv-cancel-button = Encaboxar
-msv-submit-button = Verificar
 
 ## Settings Nav
 
@@ -163,9 +158,8 @@ nav-security = Seguranza
 nav-connected-services = Servicios conectaos
 nav-email-comm = Comunicaciones per corréu
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-2 = Hebo un problema al trocar los códigos de recuperación
 tfa-replace-code-1-2 = Pasu 1 de 2
 tfa-replace-code-2-2 = Pasu 2 de 2
 
@@ -237,13 +231,11 @@ cancel-display-name = Encaboxar
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Encaboxar
 recovery-key-close-button = Zarrar
 recovery-key-continue-button = Siguir
-recovery-key-page-title =
-    .title = Clave de recuperación
 recovery-key-step-1 = Pasu 1 de 2
 recovery-key-step-2 = Pasu 2 de 2
 
@@ -256,9 +248,7 @@ add-secondary-email-save-button = Guardar
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Pasu 2 de 2
-verify-secondary-email-error-2 = Hebo un problema al unviar el códigu de verificación
 verify-secondary-email-cancel-button = Encaboxar
-verify-secondary-email-verify-button = Verificar
 
 ##
 
@@ -276,8 +266,6 @@ tfa-button-cancel = Encaboxar
 tfa-button-finish = Finar
 tfa-incorrect-totp = El códigu de l'autenticación en dos pasos ye incorreutu
 tfa-cannot-retrieve-code = Hebo un problema al recuperar el códigu.
-tfa-cannot-verify-code-2 = Hebo un problema al verificar el códigu de recuperación
-tfa-incorrect-recovery-code = El códigu de recuperación ye incorreutu
 tfa-enabled = Activóse l'autenticación en dos pasos
 tfa-scan-this-code =
     Escania esti códigu QR con <linkExternal>estes
@@ -322,23 +310,16 @@ switch-submitting = Unviando…
 row-defaults-action-add = Amestar
 row-defaults-action-change = Camudar
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Clave de recuperación
 rk-not-set = Nun s'afitó
 rk-action-create = Crear
 rk-action-remove = Quitar
-rk-cannot-refresh = Sentímoslo, hebo un problema al refrescar la clave de recuperación.
 rk-cannot-remove-key = La clave de recuperación de la cuenta nun pudo quitase.
-rk-remove-modal-heading = Quitar la clave de recuperación?
-rk-refresh-error = Sentímoslo, hebo un problema al refrescar la clave de recuperación.
 
 ## Secondary email sub-section on main Settings page
 
-se-cannot-resend-code-2 = Sentímoslo, hebo un problema al volver unviar el códigu de verificación
 se-delete-email-error-2 = Sentímoslo, hebo un problema al desaniciar esta direición de corréu electrónicu
-se-verify-session-error-2 = Sentímoslo, hebo un problema al verificar la sesión
-se-unverified = ensin verificar
 
 ##
 
@@ -356,12 +337,7 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Evita que daquién más anicie sesión pidiendo un
     códigu únicu que namás sabes tu.
-tfa-row-cannot-verify-session-3 = Sentímoslo, hebo un problema al verificar la sesión
 tfa-row-disable-modal-heading = ¿Desactivar l'autenticación en dos pasos?
-tfa-row-disable-modal-explain =
-    Nun vas ser a desfacer esta aición. Tamién
-    tienes la opción de <linkExternal>trocar los códigos de recuperación</linkExternal>.
-tfa-row-change-modal-heading = ¿Camudar los códigos de recuperación?
 tfa-row-change-modal-confirm = Camudar
 tfa-row-change-modal-explain = Nun vas ser a desfacer esta aición.
 
