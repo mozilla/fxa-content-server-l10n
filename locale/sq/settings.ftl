@@ -98,6 +98,11 @@ cs-heading = Shërbime të Lidhura
 cs-description = Gjithçka që po përdorni dhe ku keni bërë hyrje.
 cs-cannot-refresh = Na ndjeni, pati një problem me rifreskimin e listës së shërbimeve të lidhura.
 cs-cannot-disconnect = S’u gjet klient, s’arrihet të bëhet shkëputje
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = U dol nga { $service }
 cs-refresh-button =
     .title = Rifresko shërbime të lidhura
 # Link text to a support page on missing or duplicate devices
@@ -110,6 +115,9 @@ cs-disconnect-sync-heading = Shkëputu prej Sync-u
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-2 =
+    Të dhënat mbi shfletimin tuaj do të mbeten në këtë { $device },
+    por s’do të njëkohësohen më me llogarinë tuaj.
 cs-disconnect-sync-reason-2 = Cila është arsyeja kryesore për shkëputjen e { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
@@ -178,6 +186,8 @@ flow-container-back = Mbrapsht
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Kyç rimarrjeje llogarie { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Kode mirëfilltësimi kopjeruajtje { -brand-firefox }-i
 get-data-trio-download =
     .title = Shkarkoje
 get-data-trio-copy =
@@ -208,6 +218,7 @@ la-description = Keni autorizuar hyrje te llogaritë vijuese.
 la-unlink-button = Shkëpute
 la-unlink-account-button = Shkëpute
 la-unlink-heading = Shkëpute prej llogarie palësh të treta
+la-unlink-content-3 = Jeni i sigurt se doni të shkëputet llogaria juaj? Shkëputja e llogarisë tuaj nuk do të thotë nxjerrje juaj automatikisht jashtë Shërbimesh tuaja të Lidhura. Për ta bërë këtë, do t’ju duhet të dilni dorazi që nga ndarja Shërbime të Lidhura.
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -218,6 +229,11 @@ modal-cancel-button = Anuloje
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Ripohoni email-in tuaj
+mvs-enter-verification-code-2 = Jepni kodin tuaj të ripohimit
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Ju lutemi, jepni brenda 5 minutash kodin e ripohimit që u dërgua te <email>{ $email }</email>.
 msv-cancel-button = Anuloje
 msv-submit-button-2 = Ripohojeni
 
@@ -233,6 +249,7 @@ nav-email-comm = Komunikime Me Email
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Pati një problem me zëvendësimin e kodeve tuaj të mirëfilltësimit kopjeruajtje.
 tfa-replace-code-1-2 = Hapi 1 nga 2
 tfa-replace-code-2-2 = Hapi 2 nga 2
 

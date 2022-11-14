@@ -38,6 +38,8 @@ settings-home = Kreu i Llogarive
 
 ## Component - CouponForm
 
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = U aplikua Kod Promocional
 coupon-submit = Zbatoje
 coupon-remove = Hiqe
 coupon-error = Kodi që dhatë është i pavlefshëm, ose ka skaduar.
@@ -56,6 +58,7 @@ input-error-is-required = { $label } është i domosdoshëm
 
 ## Component - Header
 
+brand-name-firefox-logo = Stemë e { -brand-name-firefox }-it
 
 ## Component - NewUserEmailForm
 
@@ -73,6 +76,8 @@ new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm për të
 new-user-email-validate = Email-i s’është i vlefshëm
 new-user-email-validate-confirm = Email-et nuk përputhen
 new-user-already-has-account-sign-in = Keni tashmë një llogar. <a>Hyni</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Shkruat keq email-in? { $domain } nuk ofron email.
 
 ## Component - PaymentConfirmation
 
@@ -178,6 +183,7 @@ plan-details-list-price = Çmim Liste
 plan-details-show-button = Shfaq hollësi
 plan-details-hide-button = Fshihi hollësitë
 plan-details-total-label = Gjithsej
+plan-details-tax = Taksa dhe Tarifa
 
 ## Component - PlanErrorDialog
 
@@ -206,7 +212,11 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Mbylle dritaren modale
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = Po ngarkohet…
 settings-subscriptions-title = Pajtime
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Kod Promocional
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -406,6 +416,7 @@ sub-item-no-such-subsequent-invoice = S’u gjet fatura pasuese për këtë pajt
 ## Routes - Subscriptions - Pocket Subscription
 
 manage-pocket-title = Po shihni për pajtimin tuaj me pagesë në { -brand-name-pocket }?
+manage-pocket-body-2 = Për ta administruar, <linkExternal>klikoni këtu</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
