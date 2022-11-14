@@ -446,6 +446,10 @@ tfa-input-enter-totp =
 tfa-save-these-codes-1 =
     Ruajini këta kode njëpërdorimsh mirëfilltësimi kopjeruajtje në një vend të sigurt, për kur
     të mos keni pajisjen tuaj celulare.
+tfa-enter-code-to-confirm-1 =
+    Ju lutemi, jepni tani një nga kodet tuaj të mirëfilltësimit kopjeruajtje që
+    të ripohoni se e ruajtët. Do t’ju duhet një kod për të bërë hyrjen, nëse s’keni hyrje
+    në pajisjen tuaj celulare.
 tfa-enter-recovery-code-1 =
     .label = Jepni një kod mirëfilltësimi kopjeruajtje
 

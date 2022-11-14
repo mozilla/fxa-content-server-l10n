@@ -229,6 +229,7 @@ cadReminderFirst-action = Njëkohësoni pajisje tjetër
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Njëkohësimi lyp dy anë
+cadReminderFirst-description-1 = Merrini skedat tuaja në krejt pajisjet tuaja. Merrni faqerojtësit tuaj, fjalëkalimet dhe të tjera të dhëna kudo që përdorni { -brand-firefox }-in. Njësoj si të kishit fuqi magjike në llogarinë tuaj { -brand-firefox }!
 cadReminderFirst-description-2 = Njëkohësimi lyp vetëm një sekondë.
 cadReminderSecond-subject-2 = Mos humbni rastin! Le të përfundojmë ujdisjen e njëkohësimit tuaj
 cadReminderSecond-action = Njëkohësoni pajisje tjetër
@@ -262,6 +263,9 @@ codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 newDeviceLogin-subject = Hyrje e re te { $clientName }
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
+newDeviceLogin-change-password = S’jeni ju? <a data-l10n-name="passwordChangeLink">Ndryshoni fjalëkalimin tuaj</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = Jo ju? Ndryshoni fjalëkalimin tuaj:
 newDeviceLogin-action = Administroni llogarinë
 passwordChanged-subject = Fjalëkalimi u përditësua
@@ -280,6 +284,13 @@ passwordReset-title = Fjalëkalimi juaj për llogarinë ka ndryshuar
 passwordReset-description = Do t’ju duhet të jepni fjalëkalimin tuaj të ri në pajisje të tjera që të rimerret njëkohësimi.
 passwordResetAccountRecovery-subject-2 = Fjalëkalimi juaj u ricaktua
 passwordResetAccountRecovery-title-2 = Fjalëkalimi u ricaktua me sukses
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Përdorët kyçin tuaj të rimarrjes së llogarisë për të përditësuar fjalëkalimin tuaj nga:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Krijo një kyç të ri rimarrjeje llogarie
+passwordResetAccountRecovery-regen-required-mjml-1 = Do t’ju duhet të bëni sërish hyrjen në krejt pajisjet tuaja të njëkohësuara. Mos harroni të krijoni një kyç të ri rimarrjeje llogarie për të zëvendësuar atë që përdorët.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Do t’ju duhet të bëni sërish hyrjen në krejt pajisjet tuaja të njëkohësuara. Mos harroni të krijoni një kyç të ri rimarrjeje llogarie për të zëvendësuar atë që përdorët:
 postAddAccountRecovery-subject-2 = U krijua kyç rimarrjeje llogarie
 postAddAccountRecovery-title2 = Krijuat një kyç të ri rimarrjeje llogarie
 # Information on the browser and device triggering this string follows.
