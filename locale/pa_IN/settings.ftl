@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = ਸੁਨੇਹਾ ਬੰਦ ਕਰੋ
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -53,6 +49,10 @@ app-footer-terms-of-service = ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 
 ##
 
+
+## Alert Bar
+
+alert-bar-close-message = ਸੁਨੇਹਾ ਬੰਦ ਕਰੋ
 
 ## User's avatar
 
@@ -134,7 +134,7 @@ cs-sign-out-button = ਸਾਈਨ ਆਉਟ
 ##
 
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = ਡਾਊਨਲੋਡ ਕੀਤਾ
@@ -163,9 +163,8 @@ drop-down-menu-sign-out-error-2 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾ�
 
 flow-container-back = ਪਿੱਛੇ
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = ਰਿਕਵਰੀ ਕੋਡ
 get-data-trio-download =
     .title = ਡਾਊਨਲੋਡ ਕਰੋ
 get-data-trio-copy =
@@ -205,6 +204,7 @@ modal-cancel-button = ਰੱਦ ਕਰੋ
 ## Modal Verify Session
 
 msv-cancel-button = ਰੱਦ ਕਰੋ
+msv-submit-button-2 = ਤਸਦੀਕ
 
 ## Settings Nav
 
@@ -216,7 +216,7 @@ nav-data-collection = ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋ�
 nav-paid-subs = ਭੁਗਤਾਨ ਕੀਤੀਆਂ ਮੈਂਬਰੀਆਂ
 nav-email-comm = ਈਮੇਲ ਪੱਤਰ-ਵਿਹਾਰ
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-1-2 = 2 ਚੋਂ 1 ਪੜਾਅ
 tfa-replace-code-2-2 = 2 ਚੋਂ 2 ਪੜਾਅ
@@ -309,18 +309,15 @@ display-name-success-alert-2 = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱ�
 ##
 
 
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = ਰੱਦ ਕਰੋ
 recovery-key-close-button = ਬੰਦ ਕਰੋ
 recovery-key-continue-button = ਜਾਰੀ ਰੱਖੋ
 recovery-key-enter-password =
     .label = ਪਾਸਵਰਡ ਭਰੋ
-recovery-key-page-title =
-    .title = ਬਹਾਲੀ ਕੁੰਜੀ
 recovery-key-step-1 = 2 ਚੋਂ 1 ਪੜਾਅ
 recovery-key-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
-recovery-key-success-alert-2 = ਬਹਾਲੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
 
 ## Add secondary email page
 
@@ -366,8 +363,6 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ?
 tfa-input-enter-totp =
     .label = ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ
-tfa-enter-recovery-code =
-    .label = ਬਹਾਲੀ ਕੋਡ ਦਿਓ
 
 ##
 
@@ -415,14 +410,12 @@ row-defaults-action-change = ਬਦਲੋ
 row-defaults-action-disable = ਅਸਮਰੱਥ ਕਰੋ
 row-defaults-status = ਕੋਈ ਨਹੀਂ
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = ਬਹਾਲੀ ਕੁੰਜੀ
 rk-enabled = ਸਮਰੱਥ ਹੈ
 rk-not-set = ਸੈੱਟ ਨਹੀਂ
 rk-action-create = ਬਣਾਓ
 rk-action-remove = ਹਟਾਓ
-rk-refresh-key = ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਾਜ਼ਾ ਕਰੋ
 
 ## Secondary email sub-section on main Settings page
 
@@ -438,6 +431,7 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = ਈਮੇਲ ਤਾਜ਼ਾ ਕਰੋ
+se-unverified-2 = ਤਸਦੀਕ ਨਹੀਂ
 # Button to make secondary email the primary
 se-make-primary = ਮੁੱਢਲਾ ਬਣਾਓ
 # Default value for the secondary email
@@ -457,7 +451,6 @@ tfa-row-action-disable = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-button-refresh =
     .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਤਾਜ਼ਾ ਕਰੋ
 tfa-row-disable-modal-confirm = ਅਸਮਰੱਥ ਕਰੋ
-tfa-row-change-modal-heading = ਬਹਾਲੀ ਕੋਡ ਬਦਲਣੇ ਹਨ?
 tfa-row-change-modal-confirm = ਬਦਲੋ
 
 ## Auth-server based errors that originate from backend service
