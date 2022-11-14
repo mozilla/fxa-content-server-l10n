@@ -227,7 +227,14 @@ view-invoice-plaintext = Shihni Faturën: { $invoiceLink }
 cadReminderFirst-subject-1 = Për kujtesë! Le të njëkohësojmë { -brand-firefox }-in
 cadReminderFirst-action = Njëkohësoni pajisje tjetër
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Njëkohësimi lyp dy anë
+cadReminderFirst-description-2 = Njëkohësimi lyp vetëm një sekondë.
+cadReminderSecond-subject-2 = Mos humbni rastin! Le të përfundojmë ujdisjen e njëkohësimit tuaj
 cadReminderSecond-action = Njëkohësoni pajisje tjetër
+cadReminderSecond-title-2 = Mos harroni të bëni njëkohësim!
+cadReminderSecond-description-sync = Njëkohësoni faqerojtësit tuaj, fjalëkalimet, skeda të hapura, etj — kudo ku përdorni { -brand-firefox }-in.
+cadReminderSecond-description-plus = Plus, të dhënat tuaja janë përherë të fshehtëzuara. Vetëm ju dhe pajisjet që miratoni ju mund t’i shihni.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Mirë se vini te { $productName }.
@@ -241,6 +248,12 @@ fraudulentAccountDeletion-title = Llogaria juaj u fshi
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Nëse keni ndonjë pyetje, ju lutemi, lidhuni me ekipin tonë të asistencës: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Keni mbetur pa kode mirëfilltësimi kopjeruajtje!
+codes-reminder-title-one = Keni mbetur me kodin e fundit mirëfilltësimi kopjeruajtje!
+codes-reminder-title-two = Ka ardhur koha për të krijuar më tepër kode mirëfilltësimi kopjeruajtje
+codes-reminder-description-part-one = Kodet e mirëfilltësimit kopjeruajtje ju ndihmojnë të riktheni informacionin tuaj, kur harroni fjalëkalimin.
+codes-reminder-description-part-two = Krijoni kode të rinj tani, që të mos humbni të dhëna më vonë.
 codes-reminder-description-two-left = Ju kanë mbetur vetëm dy kode.
 lowRecoveryCodes-action-2 = Krijoni kode
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
@@ -267,23 +280,43 @@ passwordReset-title = Fjalëkalimi juaj për llogarinë ka ndryshuar
 passwordReset-description = Do t’ju duhet të jepni fjalëkalimin tuaj të ri në pajisje të tjera që të rimerret njëkohësimi.
 passwordResetAccountRecovery-subject-2 = Fjalëkalimi juaj u ricaktua
 passwordResetAccountRecovery-title-2 = Fjalëkalimi u ricaktua me sukses
+postAddAccountRecovery-subject-2 = U krijua kyç rimarrjeje llogarie
+postAddAccountRecovery-title2 = Krijuat një kyç të ri rimarrjeje llogarie
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Një kyç i ri u krijua nga:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Nuk jeni ju?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Fshijeni kyçin e ri</a> dhe <a data-l10n-name="passwordChangeLink">ndryshoni fjalëkalimin tuaj</a>
 postAddAccountRecovery-action = Administroni llogarinë
+postAddAccountRecovery-delete-key = Fshini kyçin e ri:
 postAddAccountRecovery-changd-password = Ndryshoni fjalëkalimin tuaj:
 postAddLinkedAccount-subject = Llogari e re e lidhur me { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Llogaria juaj { $providerName } është lidhura me { -product-firefox-account } tuaj
 postAddLinkedAccount-action = Administroni llogarinë
+postAddTwoStepAuthentication-subject-2 = Mirëfilltësimi dyhapësh u aktivizua
+postAddTwoStepAuthentication-title-2 = Aktivizuat mirëfilltësim dyhapësh
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = E aktivizuat që nga:
 postAddTwoStepAuthentication-action = Administroni llogarinë
+postAddTwoStepAuthentication-code-required-2 = Tani e tutje, sa herë që bëni hyrjen, kërkohet kod sigurie nga aplikacioni juaj i mirëfilltësimeve.
 postChangePrimary-subject = Email-i parësor u përditësua
 postChangePrimary-title = Email parësor i ri
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = E ndryshuar me sukses email-in në { $email }. Kjo adresë përbën tani emrin tuaj të përdoruesit për hyrje te { -product-firefox-account } e juaja, si edhe për të marrë njoftime sigurie dhe konfirmime hyrjesh.
 postChangePrimary-action = Administroni llogarinë
+postConsumeRecoveryCode-title-2 = Përdorët një kod mirëfilltësimi kopjeruajtje
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Qe përdorur në:
 postConsumeRecoveryCode-action = Administroni llogarinë
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Edhe 1 kod mirëfilltësimi kopjeruajtje
+       *[other] Edhe { $numberRemaining } kode mirëfilltësimi kopjeruajtje
+    }
+postNewRecoveryCodes-subject-2 = U krijuan kode mirëfilltësimi kopjeruajtje të rinj
 postNewRecoveryCodes-title-2 = Krijuat kode mirëfilltësimi kopjeruajtje të rinj
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = U krijuan në:
