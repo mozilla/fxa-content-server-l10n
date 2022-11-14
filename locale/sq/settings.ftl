@@ -250,6 +250,11 @@ nav-email-comm = Komunikime Me Email
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Pati një problem me zëvendësimin e kodeve tuaj të mirëfilltësimit kopjeruajtje.
+tfa-replace-code-success-1 =
+    U krijuan kode të reja. Ruajini këto kode njëpërdorimsh
+    mirëfilltësimi kopjeruajtje në një vend të sigurt — do t’ju duhen për të hyrë në llogarinë tuaj nëse s’keni
+    pajisjen tuaj celulare.
+tfa-replace-code-success-alert-3 = U përditësuan kode mirëfilltësimi kopjeruajtje llogarie
 tfa-replace-code-1-2 = Hapi 1 nga 2
 tfa-replace-code-2-2 = Hapi 2 nga 2
 
@@ -279,6 +284,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Nuk u gatit dot kamera
 avatar-page-new-avatar =
     .alt = foto e re profili
+avatar-page-file-upload-error-3 = Pati një problem gjatë ngarkimit të fotos tuaj të profilit.
+avatar-page-delete-error-3 = Pati një problem gjatë fshirjes së fotos tuaj të profilit
 avatar-page-image-too-large-error-2 = Madhësi e kartelës së figurës është shumë e madhe për ngarkim
 
 ##
@@ -292,6 +299,8 @@ pw-8-chars = Të paktën 8 shenja
 pw-not-email = Jo adresën tuaj email
 pw-change-must-match = Fjalëkalimi i ri përputhet me të ripohuarin
 pw-commonly-used = Jo në fjalëkalim të përdorur rëndom
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Jini të parrezik — mos ripërdorni fjalëkalime. Shihni më tepër ndihmëza se si të  <linkExternal>krijohen fjalëkalime të fuqishëm</linkExternal>.
 pw-change-cancel-button = Anuloje
 pw-change-save-button = Ruaje
 pw-change-forgot-password-link = Harruat  fjalëkalimin?
@@ -311,6 +320,7 @@ pw-change-success-alert-2 = Fjalëkalimi u përditësua
 pw-create-header =
     .title = Krijoni fjalëkalim
 pw-create-success-alert-2 = Fjalëkalimi u caktua
+pw-create-error-2 = Na ndjeni, pati një problem me ujdisjen e fjalëkalimit tuaj
 
 ##
 
@@ -348,6 +358,7 @@ display-name-input =
     .label = Jepni emër për në ekran
 submit-display-name = Ruaje
 cancel-display-name = Anuloje
+display-name-update-error-2 = Pati një problem me përditësimin e emrit tuaj në ekran
 display-name-success-alert-2 = Emri për në ekran u përditësua
 
 ##
@@ -358,14 +369,19 @@ display-name-success-alert-2 = Emri për në ekran u përditësua
 recovery-key-cancel-button = Anuloje
 recovery-key-close-button = Mbylle
 recovery-key-continue-button = Vazhdo
+recovery-key-created-1 = Kyçi i rimarrjes së llogarisë tuaj u krijua. Sigurohuni se e ruani kyçin në një vend të parrezik, që të mund të gjeni kollaj më vonë — kyçi do t’ju duhet të rifitoni hyrje në të dhënat tuaja, nëse harroni fjalëkalimin tuaj.
 recovery-key-enter-password =
     .label = Jepni fjalëkalimin
+recovery-key-page-title-1 =
+    .title = Kyç rimarrjeje llogarie
 recovery-key-step-1 = Hapi 1 nga 2
 recovery-key-step-2 = Hapi 2 nga 2
+recovery-key-success-alert-3 = U krijua kyç rimarrjeje llogarie
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Hapi 1 nga 2
+add-secondary-email-error-2 = Pati një problem me krijimin e këtij email-i
 add-secondary-email-page-title =
     .title = Email dytësor
 add-secondary-email-enter-address =
@@ -376,12 +392,17 @@ add-secondary-email-save-button = Ruaje
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Hapi 2 nga 2
+verify-secondary-email-error-3 = Pati një problem me dërgimin e kodit të ripohimit
 verify-secondary-email-page-title =
     .title = Email dytësor
 verify-secondary-email-verification-code-2 =
     .label = Jepni kodin tuaj të ripohimit
 verify-secondary-email-cancel-button = Anuloje
 verify-secondary-email-verify-button-2 = Ripohojeni
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Ju lutemi, jepni brenda 5 minutash kodin e ripohimit që u dërgua te <strong>{ $email }</strong>.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -403,6 +424,8 @@ tfa-button-cancel = Anuloje
 tfa-button-finish = Përfundoje
 tfa-incorrect-totp = Kod i pasaktë mirëfilltësimi dyhapësh
 tfa-cannot-retrieve-code = Pati një problem me marrjen e kodit tuaj.
+tfa-cannot-verify-code-4 = Pati një problem me ripohimin e kodit tuaj të mirëfilltësimit kopjeruajtje.
+tfa-incorrect-recovery-code-1 = Kod mirëfilltësimi kopjeruajtje i pasaktë
 tfa-enabled = Mirëfilltësimi dyhapësh u aktivizua
 tfa-scan-this-code =
     Skanojeni këtë kod QR duke përdorur një nga <linkExternal>këto
@@ -420,6 +443,11 @@ tfa-enter-secret-key = Jepeni këtë kyç të fshehtë te aplikacioni juaj i mir
 tfa-enter-totp = Tani jepni kodin e sigurisë prej aplikacionit të mirëfilltësimeve.
 tfa-input-enter-totp =
     .label = Jepni kod sigurie
+tfa-save-these-codes-1 =
+    Ruajini këta kode njëpërdorimsh mirëfilltësimi kopjeruajtje në një vend të sigurt, për kur
+    të mos keni pajisjen tuaj celulare.
+tfa-enter-recovery-code-1 =
+    .label = Jepni një kod mirëfilltësimi kopjeruajtje
 
 ##
 
@@ -446,6 +474,8 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Krijuar më { $date }
+security-not-set = I paujdisur
+security-action-create = Krijoje
 
 ## Switch component
 
