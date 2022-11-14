@@ -58,6 +58,7 @@ input-error-is-required = Oñeikotevẽ { $label }
 
 ## Component - Header
 
+brand-name-firefox-logo = { -brand-name-firefox } ra’ãnga’i
 
 ## Component - NewUserEmailForm
 
@@ -131,6 +132,8 @@ payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Eñemboheraguapýma { $productName } tembipuru’i ñemuha rupive { -brand-name-google } térã { -brand-name-apple }.
 iap-upgrade-no-bundle-support = Noromoneĩri ñembohekopyahu ko’ã ñemoheraguapýpe, hákatu vokóinte rojapóta.
 iap-upgrade-contact-support = Erekokuaa gueteri ko apopyre — eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃ua.
 iap-upgrade-get-help-button = Eipota pytyvõ
@@ -208,6 +211,8 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Emboty modal
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = Henyhẽhína…
 settings-subscriptions-title = Mboheraguapy
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Ayvu ñemoherakuãgua
