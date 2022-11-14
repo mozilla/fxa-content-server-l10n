@@ -246,6 +246,9 @@ downloadSubscription-content-2 = Le t’ia fillojmë duke përdorur krejt veçor
 downloadSubscription-link-action-2 = Fillojani
 fraudulentAccountDeletion-subject = { -product-firefox-account } juaj u fshi
 fraudulentAccountDeletion-title = Llogaria juaj u fshi
+fraudulentAccountDeletion-content = Tani së fundi u krijua një { -product-firefox-account } dhe u bë një faturim pajtimi duke përdorur këtë adresë email. Siç bëjmë me krejt llogaritë e reja, ju kërkuam të ripohoni llogarinë tuaj, duke dëshmuar së pari se kjo adresë email është e vlefshme.
+fraudulentAccountDeletion-content-2 = Hëpërhë shohim se llogaria q’e ripohuar kurrë. Ngaqë s’qe plotësuar ky hap, s’jemi të sigurt nëse ky qe një pajtim i autorizuar. Si pasojë, { -product-firefox-account } e regjistruar me këtë adresë email qe fshirë dhe pajtimi juaj u anulua me rimbursim të gjithë ç’qe faturuar.
+fraudulentAccountDeletion-contact = Nëse keni ndonjë pyetje, ju lutemi, lidhuni me  <a data-l10n-name="mozillaSupportUrl">ekipin tonë të asistencës</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Nëse keni ndonjë pyetje, ju lutemi, lidhuni me ekipin tonë të asistencës: { $mozillaSupportUrl }
@@ -256,11 +259,21 @@ codes-reminder-title-two = Ka ardhur koha për të krijuar më tepër kode mirë
 codes-reminder-description-part-one = Kodet e mirëfilltësimit kopjeruajtje ju ndihmojnë të riktheni informacionin tuaj, kur harroni fjalëkalimin.
 codes-reminder-description-part-two = Krijoni kode të rinj tani, që të mos humbni të dhëna më vonë.
 codes-reminder-description-two-left = Ju kanë mbetur vetëm dy kode.
+codes-reminder-description-create-codes = Krijoni kode të rinj mirëfilltësimi kopjeruajtje, për të ndihmuar veten të riktheheni te llogaria juaj, nëse mbeteni jashtë saj.
 lowRecoveryCodes-action-2 = Krijoni kode
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Pa kode mirëfilltësimi kopjeruajtje të tjerë
+        [one] Ka mbetur vetëm 1 kod mirëfilltësimi kopjeruajtje
+       *[other] Kanë mbetur vetëm { $numberRemaining } kode mirëfilltësimi kopjeruajtje!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Hyrje e re te { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Për të bërë hyrjen qe përdorur { -product-firefox-account } e juaja
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = S’jeni ju? <a data-l10n-name="passwordChangeLink">Ndryshoni fjalëkalimin tuaj</a>.
