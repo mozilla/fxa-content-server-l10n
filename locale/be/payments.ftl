@@ -216,7 +216,7 @@ document =
 close-aria =
     .aria-label = Закрыць акно
 # Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Загрузка...
+app-loading-spinner-aria-label-loading = Загрузка…
 settings-subscriptions-title = Падпіскі
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Прамакод
