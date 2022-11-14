@@ -119,6 +119,7 @@ payment-confirmation-download-button = Vazhdoni te shkarkimi
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = E autorizoj { -brand-name-mozilla }-n, prodhuesen e produkteve { -brand-name-firefox }, të më faturojë sipas metodës sime të pagesës vlerën e shfaqur, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënimit mbi Privatësinë</privacyNoticeLink>, derisa ta anuloj pajtimin tim.
 
 ## Component - PaymentErrorView
 

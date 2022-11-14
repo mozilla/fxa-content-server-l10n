@@ -272,14 +272,24 @@ postChangePrimary-title = Email parësor i ri
 postChangePrimary-description = E ndryshuar me sukses email-in në { $email }. Kjo adresë përbën tani emrin tuaj të përdoruesit për hyrje te { -product-firefox-account } e juaja, si edhe për të marrë njoftime sigurie dhe konfirmime hyrjesh.
 postChangePrimary-action = Administroni llogarinë
 postConsumeRecoveryCode-action = Administroni llogarinë
+postNewRecoveryCodes-title-2 = Krijuat kode mirëfilltësimi kopjeruajtje të rinj
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = U krijuan në:
 postNewRecoveryCodes-action = Administroni llogarinë
+postRemoveAccountRecovery-subject-2 = U fshi kyç rimarrjeje llogarie
+postRemoveAccountRecovery-title-2 = Fshitë kyçin tuaj të rimarrjes së llogarisë.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = U fshi nga:
 postRemoveAccountRecovery-action = Administroni llogarinë
+postRemoveAccountRecovery-invalid-2 = Ju duhet një kyç rimarrjeje llogarie që të rimerrni të dhënat tuaja { -brand-firefox }, nëse harroni fjalëkalimin tuaj.
 postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = Email-i dytësor u hoq
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = Hoqët me sukses { $secondaryEmail } si email dytësor prej { -product-firefox-account } tuajën. Te kjo adresë s’do të dërgohen më njoftime sigurie dhe ripohime hyrjesh.
 postRemoveSecondary-action = Administroni llogarinë
+postRemoveTwoStepAuthentication-subject-line-2 = Mirëfilltësimi dyhapësh u çaktivizua
+postRemoveTwoStepAuthentication-title-2 = Çaktivizuar mirëfilltësim dyhapësh
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = E çaktivizuat që nga:
 postRemoveTwoStepAuthentication-action = Administroni llogarinë
