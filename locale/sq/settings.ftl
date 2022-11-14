@@ -476,6 +476,7 @@ security-password =
 security-password-created-date = Krijuar më { $date }
 security-not-set = I paujdisur
 security-action-create = Krijoje
+security-set-password = Caktoni një fjalëkalim për të njëkohësuar dhe përdorur disa veçori sigurie llogarie.
 
 ## Switch component
 
@@ -497,27 +498,58 @@ row-defaults-status = Asnjë
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Kyç rimarrjeje llogarie
 rk-enabled = E aktivizuar
 rk-not-set = S’është caktuar
 rk-action-create = Krijoje
 rk-action-remove = Hiqe
+rk-cannot-refresh-1 = Na ndjeni, pati një problem me rifreskimin e kyçit të rimarrjes së llogarisë.
+rk-key-removed-2 = Kyçi i rimarrjes së llogarisë u hoq
 rk-cannot-remove-key = Kyçi juaj i rimarrjes së llogarisë s’u hoq dot.
+rk-refresh-key-1 = Rifreskoni kyç rimarrjeje llogarie
 rk-content-explain = Riktheni të dhënat tuaja, kur harroni fjalëkalimin tuaj.
+rk-cannot-verify-session-4 = Na ndjeni, pati një problem në ripohimin e sesionit tuaj
+rk-remove-modal-heading-1 = Të hiqet kyç rimarrjeje llogarie?
+rk-remove-modal-content-1 =
+    Për rastet kur ricaktoni fjalëkalimin tuaj, s’do të jeni
+    në gjendje të përdorni kyçin tuaj të rimarrjeve të llogarisë për të hyrë në të dhënat tuaja. Këtë veprim s’mund ta zhbëni.
+rk-refresh-error-1 = Na ndjeni, pati një problem me rifreskimin e kyçit të rimarrjes së llogarisë.
+rk-remove-error-2 = Kyçi juaj i rimarrjes së llogarisë s’u hoq dot
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Email dytësor
     .header = Email Dytësor
 se-cannot-refresh-email = Na ndjeni, pati një problem në rifreskimin e këtij email-i
+se-cannot-resend-code-3 = Na ndjeni, pati një problem me ridërgimin e kodit të ripohimit.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } është tani e tutje email-i juaj parësor
+se-set-primary-error-2 = Na ndjeni, pati një problem në ndryshimin e email-it tuaj parësor
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } u fshi me sukses
+se-delete-email-error-2 = Na ndjeni, pati një problem në fshirjen e këtij email-i
+se-verify-session-3 = Që të kryhet ky veprim, do t’ju duhet të ripohoni sesionin tuaj të tanishëm
+se-verify-session-error-3 = Na ndjeni, pati një problem në ripohimin e sesionit tuaj
 # Button to remove the secondary email
 se-remove-email =
     .title = Hiqe email-in
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Rifreskoni email-in
+se-unverified-2 = i paripohuar
+se-resend-code-2 =
+    Lypset ripohim. <button>Ridërgo kod ripohimi</button>,
+    nëse s’gjendet te Të marrët, ose te dosja juaj e të padëshiruarve.
 # Button to make secondary email the primary
 se-make-primary = Kaloje si parësor
 se-default-content = Hyni në llogarinë tuaj, nëse s’përdorni dot email-n tuaj parësor.
+se-content-note-1 =
+    Shënim: një email dytësor s’do t’ju rikthejë të dhënat tuaja — për
+    këtë punë do t’ju duhet një <a>kyç rimarrjeje llogarie</a>.
 # Default value for the secondary email
 se-secondary-email-none = Asnjë
 
@@ -527,6 +559,7 @@ se-secondary-email-none = Asnjë
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Mirëfilltësim dyhapësh
+tfa-row-disabled-2 = Mirëfilltësimi dyhapësh u çaktivizua
 tfa-row-enabled = I aktivizuar
 tfa-row-not-set = I paujdisur
 tfa-row-action-add = Shtoje
@@ -539,8 +572,14 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Pengojini hyrjen dikujt, duke kërkuar doemos një
     kod unik, të cilin e dini vetëm ju.
+tfa-row-cannot-verify-session-4 = Na ndjeni, pati një problem në ripohimin e sesionit tuaj
 tfa-row-disable-modal-heading = Të çktivizoni mirëfilltësim dyhapësh?
 tfa-row-disable-modal-confirm = Çaktivizoje
+tfa-row-disable-modal-explain-1 =
+    S’do të jeni në gjendje ta zhbëni këtë veprim. Keni
+    edhe mundësinë e <linkExternal>zëvendësimit të kodeve tuaj të mirëfilltësimit kopjeruajtje</linkExternal>.
+tfa-row-cannot-disable-2 = Mirëfilltësimi dyhapësh s’u çaktivizua dot
+tfa-row-change-modal-heading-1 = Të ndryshohen kode mirëfilltësimi kopjeruajtjeje?
 tfa-row-change-modal-confirm = Ndryshoji
 tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë veprim.
 

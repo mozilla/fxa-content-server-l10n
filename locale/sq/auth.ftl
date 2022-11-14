@@ -62,6 +62,9 @@ subplat-explainer-reminder-form = Këtë email po e merrni, ngaqë për { $email
 subplat-explainer-multiple = Këtë email po e merrni ngaqë { $email } ka një { -product-firefox-account } dhe jeni pajtuar te disa produkte.
 subplat-explainer-was-deleted = Këtë email po e merrni, ngaqë { $email } qe regjistruar për një { -product-firefox-account }.
 subplat-manage-account = Administroni rregullimet tuaja { -product-firefox-account }, duke vizituar <a data-l10n-name="subplat-account-page">faqen e llogarisë tuaj</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Administroni rregullimet për { -product-firefox-account } tuajën, duke vizituar faqen e llogarisë tuaj: { $accountSettingsUrl }
 subplat-terms-policy = Kushte dhe rregulla anulimi
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Anulojeni pajtimin
@@ -85,6 +88,12 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Shkarkojeni { 
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Shkarkojeni { $productName } nga { -app-store }">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Instalojeni { $productName } në <a data-l10n-name="anotherDeviceLink">tjetër pajisje desktop</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Instalojeni { $productName } në <a data-l10n-name="anotherDeviceLink">tjetër pajisje</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Merrni { $productName } në Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -100,6 +109,7 @@ automated-email-change-plaintext-2 = Nëse s’e kryet ju këtë veprim, ndrysho
 automated-email-support-plaintext = Për më tepër hollësi, vizitoniAsistencën { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Për më tepër hollësi, vizitoni <a data-l10n-name="supportLink">Asistencën { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Ky është një email i automatizuar. Nëse e morët gabimisht, s’ju duhet të bëni gjë.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ky është një email i automatizuar; nëse s’e autorizoni këtë veprim, atëherë, ju lutemi, ndryshoni fjalëkalimin tuaj:
 automated-email-reset =
@@ -214,7 +224,9 @@ view-invoice = <a data-l10n-name="invoiceLink">Shihni faturën tuaj</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Shihni Faturën: { $invoiceLink }
+cadReminderFirst-subject-1 = Për kujtesë! Le të njëkohësojmë { -brand-firefox }-in
 cadReminderFirst-action = Njëkohësoni pajisje tjetër
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-action = Njëkohësoni pajisje tjetër
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
