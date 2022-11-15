@@ -3,20 +3,33 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts = Firefox accounts
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox Account
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
@@ -243,6 +256,7 @@ codes-reminder-title-two = Emoheñóimake hetave ayvu ñemoneĩrã jeykekoha
 codes-reminder-description-part-one = Umi ayvu ñemoneĩ jeykekoha nepytyvõta erujey hag̃ua marandu nderesaráirõ ne ñe’ẽñemi.
 codes-reminder-description-part-two = Emoheñói ayvu pyahu ko’ág̃a ani hag̃ua okañy ne mba’ekuaarã.
 codes-reminder-description-two-left = Opytántema mokõi ayvu.
+codes-reminder-description-create-codes = Emoheñói ayvu ñemoneĩrã jeykekoha pyahu ne pytyvõta eikekuaa hag̃ua ne mba’etépe ojejokóramo.
 lowRecoveryCodes-action-2 = Emoheñói ayvu
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
