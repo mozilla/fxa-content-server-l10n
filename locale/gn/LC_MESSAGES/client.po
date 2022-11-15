@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-15 14:40+0000\n"
+"PO-Revision-Date: 2022-11-15 14:55+0000\n"
 "Last-Translator: Abelardo Ayala Rodríguez <abe_aya@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gn\n"
@@ -1497,7 +1497,7 @@ msgstr "Emoingejey ñe’ẽñemi"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Eikotevẽ ñe’ẽñemi eike hag̃ua mba’ekuaarã ipapapýva embyatýva orendivépe.<br class=\"mb-3\">Erujeýramo oguekuaa ndehegui mba’ekuaarã ikatúva ñe’ẽñemi ha techaukaha."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1519,6 +1519,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+" \n"
+"              Eku’ejeývo, emoneĩ:<br />\n"
+"              Pocket’s <a id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Temiñemi purureko</a> ha <a id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Ñemigua jehaipy</a><br />\n"
+"              <a id=\"fxa-tos\" href=\"/legal/terms\">Mba’epuru purureko</a> ha <a id=\"fxa-pp\" href=\"/legal/privacy\">ñemigua jehaipy</a> Firefox mba’éva\n"
+"            "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
