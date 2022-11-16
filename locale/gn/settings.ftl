@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Emboty ñe’ẽmondo
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -53,6 +49,10 @@ app-footer-terms-of-service = Mba’epytyvõrã ñemboguata
 
 ##
 
+
+## Alert Bar
+
+alert-bar-close-message = Emboty ñe’ẽmondo
 
 ## User's avatar
 
@@ -547,6 +547,9 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Ejapo peteĩháramo
 se-default-content = Eike ne mba’etépe ndaikatúirõ emoñepyrũ tembiapo ñanduti vevépe.
+se-content-note-1 =
+    Jehaipy: ñanduti veve mokõiháva nomoĩporãmo’ãi ne marandu —
+    ejapo hag̃ua eikotevẽta <a>mba’eñemi guerujeyrã</a>.
 # Default value for the secondary email
 se-secondary-email-none = Avave
 
@@ -572,6 +575,9 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
+tfa-row-disable-modal-explain-1 =
+    Jehaipy: ñanduti veve mokõiháva nomoĩporãmo’ãi ne marandu —
+    ejapo hag̃ua eikotevẽta <a>mba’eñemi guerujeyrã</a>.
 tfa-row-cannot-disable-2 = Ñemoneĩrigui mokõi jeku’egua ndaikatúi eipe’a
 tfa-row-change-modal-heading-1 = ¿Emoambue umi ayvu ñemoneĩrã jeykekoha?
 tfa-row-change-modal-confirm = Moambue
