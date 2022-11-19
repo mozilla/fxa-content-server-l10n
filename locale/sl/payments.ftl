@@ -46,6 +46,8 @@ settings-home = Domača stran računa
 
 ## Component - CouponForm
 
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Promocijska koda uveljavljena
 coupon-submit = Uveljavi
 coupon-remove = Odstrani
 coupon-error = Koda, ki ste jo vnesli, je neveljavna ali pretečena.
@@ -145,6 +147,9 @@ payment-error-manage-subscription-button = Upravljaj z naročnino
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+iap-upgrade-no-bundle-support = Za te naročnine ne podpiramo nadgradenj, vendar jih bomo kmalu.
+iap-upgrade-contact-support = Ta izdelek je še vedno na voljo – obrnite se na podporo, da vam lahko pomagamo.
+iap-upgrade-get-help-button = Poišči pomoč
 
 ## Component - PaymentForm
 
@@ -190,6 +195,7 @@ plan-details-list-price = Cenik
 plan-details-show-button = Pokaži podrobnosti
 plan-details-hide-button = Skrij podrobnosti
 plan-details-total-label = Skupaj
+plan-details-tax = Davki in pristojbine
 
 ## Component - PlanErrorDialog
 
@@ -218,6 +224,8 @@ document =
 # Aria label for spinner image indicating data is loading
 app-loading-spinner-aria-label-loading = Nalaganje …
 settings-subscriptions-title = Naročnine
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Promocijska koda
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -303,6 +311,7 @@ pay-with-heading-card-only = Plačajte s kartico
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Nadgradnje še ni mogoče izvesti
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.

@@ -459,6 +459,7 @@ subscriptionCancellation-title = Žal nam je, ker odhajate
 #   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content = Preklicali smo vašo naročnino za { $productName }. Zadnje plačilo { $invoiceTotal } je bilo nakazano { $invoiceDateOnly }. Storitev se bo nadaljevala do konca trenutnega obračunskega obdobja, to je { $serviceLastActiveDateOnly }.
+subscriptionCancellation-outstanding-content = Preklicali smo vašo naročnino na { $productName }. Vaše zadnje plačilo { $invoiceTotal } bo nakazano { $invoiceDateOnly }. Storitev vam bo na voljo do konca trenutnega obračunskega obdobja, ki je { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Preklopili ste na { $productName }
