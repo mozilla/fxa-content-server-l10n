@@ -575,9 +575,6 @@ tfa-row-content-explain =
 tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuãiguasu emoneĩjeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
-tfa-row-disable-modal-explain-1 =
-    Jehaipy: ñanduti veve mokõiháva nomoĩporãmo’ãi ne marandu —
-    ejapo hag̃ua eikotevẽta <a>mba’eñemi guerujeyrã</a>.
 tfa-row-cannot-disable-2 = Ñemoneĩrigui mokõi jeku’egua ndaikatúi eipe’a
 tfa-row-change-modal-heading-1 = ¿Emoambue umi ayvu ñemoneĩrã jeykekoha?
 tfa-row-change-modal-confirm = Moambue
