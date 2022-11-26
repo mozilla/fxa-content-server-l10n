@@ -120,7 +120,7 @@ cancellationSurvey = Pomogni nam poboljšati naše usluge ispunjavanjem ove <a d
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Pomogni nam u poboljšanju naših usluga ispunjavanjem ove kratke ankete:
 change-password-plaintext = Ako sumnjaš da netko pokušava pristupiti tvom računu, promijeni svoju lozinku.
-manage-account = Upravljanje računom
+manage-account = Upravljaj računom
 manage-account-plaintext = { manage-account }:
 payment-details = Podaci o plaćanju:
 # Variables:
@@ -222,7 +222,7 @@ newDeviceLogin-change-password = To nisi ti? <a data-l10n-name="passwordChangeLi
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = To nisi ti? Promijeni lozinku:
-newDeviceLogin-action = Upravljanje računom
+newDeviceLogin-action = Upravljaj računom
 passwordChanged-subject = Lozinka aktualizirana
 passwordChanged-title = Lozinka je uspješno promijenjena
 passwordChanged-description = Tvoja { -product-firefox-account } lozinka je uspješno promijenjena sa sljedećeg uređaja:
@@ -252,7 +252,7 @@ postAddAccountRecovery-description-2 = Novi ključ je stvoren od:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Nisi ti?
 postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Izbriši novi ključ</a> i <a data-l10n-name="passwordChangeLink">promijeni lozinku</a>
-postAddAccountRecovery-action = Upravljanje računom
+postAddAccountRecovery-action = Upravljaj računom
 postAddAccountRecovery-delete-key = Izbriši novi ključ:
 postAddAccountRecovery-changd-password = Promijeni svoju lozinku:
 postAddLinkedAccount-subject = Novi račun je povezan na { -brand-firefox }
@@ -261,26 +261,26 @@ postAddTwoStepAuthentication-subject-2 = Dvofaktorska autentifikacija aktivirana
 postAddTwoStepAuthentication-title-2 = Aktivirao/la si dvofaktorsku autentifikaciju
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Aktivirao/la si je s:
-postAddTwoStepAuthentication-action = Upravljanje računom
+postAddTwoStepAuthentication-action = Upravljaj računom
 postChangePrimary-subject = Primarna e-mail adresa aktualizirana
 postChangePrimary-title = Nova primarna adresa e-pošte
-postChangePrimary-action = Upravljanje računom
-postConsumeRecoveryCode-action = Upravljanje računom
-postNewRecoveryCodes-action = Upravljanje računom
+postChangePrimary-action = Upravljaj računom
+postConsumeRecoveryCode-action = Upravljaj računom
+postNewRecoveryCodes-action = Upravljaj računom
 postRemoveAccountRecovery-subject-2 = Ključ za obnavljanje računa je izbrisan
 postRemoveAccountRecovery-title-2 = Izbrisao/la si tvoj ključ za obnavljanje računa.
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Izbrisan je od:
-postRemoveAccountRecovery-action = Upravljanje računom
+postRemoveAccountRecovery-action = Upravljaj računom
 postRemoveAccountRecovery-invalid-2 = Za obnavljanje tvojih { -brand-firefox } podataka trebaš ključ za obnavljanje računa ako si zaboravio/la lozinku.
 postRemoveSecondary-subject = Sekundarna adresa e-pošte je uklonjena
 postRemoveSecondary-title = Sekundarna adresa e-pošte je uklonjena
-postRemoveSecondary-action = Upravljanje računom
+postRemoveSecondary-action = Upravljaj računom
 postRemoveTwoStepAuthentication-subject-line-2 = Dvofaktorska autentifikacija je deaktivirana
 postRemoveTwoStepAuthentication-title-2 = Deaktivirao/la si dvofaktorsku autentifikaciju
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Dektivirao/la si je s:
-postRemoveTwoStepAuthentication-action = Upravljanje računom
+postRemoveTwoStepAuthentication-action = Upravljaj računom
 postVerify-setup-2 = Poveži jedan drugi uređaj:
 postVerify-action-2 = Poveži jedan drugi uređaj
 postVerifySecondary-subject = Dodana je sekundarna e-mail adresa
