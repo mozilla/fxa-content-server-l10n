@@ -135,6 +135,8 @@ payment-error-manage-subscription-button = Διαχείριση συνδρομή
 
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed = Διαθέτετε ήδη συνδρομή { $productName } μέσω του { -brand-name-google } Play Store ή του { -brand-name-apple } App Store.
+iap-upgrade-no-bundle-support = Δεν υποστηρίζουμε αναβαθμίσεις για αυτές τις συνδρομές, αλλά θα το κάνουμε σύντομα.
+iap-upgrade-contact-support = Μπορείτε ακόμα να αποκτήσετε αυτό το προϊόν — παρακαλούμε επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
 iap-upgrade-get-help-button = Λήψη βοήθειας
 
 ## Component - PaymentForm
@@ -300,6 +302,7 @@ pay-with-heading-card-only = Πληρωμή με κάρτα
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Δεν μπορεί να γίνει αναβάθμιση ακόμα
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
