@@ -58,6 +58,7 @@ input-error-is-required = Απαιτείται το { $label }
 
 ## Component - Header
 
+brand-name-firefox-logo = Λογότυπο { -brand-name-firefox }
 
 ## Component - NewUserEmailForm
 
