@@ -216,9 +216,16 @@ fraudulentAccountDeletion-title = Tvoj račun je izbrisan
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Za prijavu je korišten tvoj { -product-firefox-account } račun
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = To nisi ti? <a data-l10n-name="passwordChangeLink">Promijeni lozinku</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = To nisi ti? Promijeni lozinku:
 newDeviceLogin-action = Upravljanje računom
 passwordChanged-subject = Lozinka aktualizirana
 passwordChanged-title = Lozinka je uspješno promijenjena
+passwordChanged-description = Tvoja { -product-firefox-account } lozinka je uspješno promijenjena sa sljedećeg uređaja:
 passwordChangeRequired-subject = Otkrivena je sumnjiva aktivnost
 passwordChangeRequired-title = Potrebna promjena lozinke
 passwordChangeRequired-sign-in = Ponovo se prijavi na bilo koji uređaj ili uslugu na kojima koristiš svoj { -product-firefox-account } račun i slijedi korake koji će ti biti predstavljeni.
@@ -242,6 +249,8 @@ postAddAccountRecovery-subject-2 = Ključ za obnavljanje računa je stvoren
 postAddAccountRecovery-title2 = Stvorio/la si novi ključ za obnavljanje računa
 # Information on the browser and device triggering this string follows.
 postAddAccountRecovery-description-2 = Novi ključ je stvoren od:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Nisi ti?
 postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Izbriši novi ključ</a> i <a data-l10n-name="passwordChangeLink">promijeni lozinku</a>
 postAddAccountRecovery-action = Upravljanje računom
 postAddAccountRecovery-delete-key = Izbriši novi ključ:
