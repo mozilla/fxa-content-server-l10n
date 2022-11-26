@@ -213,6 +213,9 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-action = Sinkroniziraj jedan drugi uređaj
 fraudulentAccountDeletion-subject = Tvoj { -product-firefox-account } račun je izbrisan
 fraudulentAccountDeletion-title = Tvoj račun je izbrisan
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Za prijavu je korišten tvoj { -product-firefox-account } račun
 newDeviceLogin-action = Upravljanje računom
 passwordChanged-subject = Lozinka aktualizirana
 passwordChanged-title = Lozinka je uspješno promijenjena
