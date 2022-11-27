@@ -3,9 +3,18 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla =
     { $case ->
        *[nom] Mozilla
@@ -28,7 +37,8 @@
         [ins] Firefoxem
     }
     .gender = masculine
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts =
     { $case ->
        *[nom]
@@ -67,7 +77,8 @@
                 [lower] účtem Firefoxu
             }
     }
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
        *[nom]
@@ -106,7 +117,7 @@
                 [lower] účtem Firefoxu
             }
     }
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud =
     { $case ->
        *[nom] Firefox Cloud
@@ -118,7 +129,7 @@
         [ins] Firefox Cloudem
     }
     .gender = masculine
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal =
     { $case ->
        *[nom] PayPal
@@ -130,6 +141,7 @@
         [ins] PayPalem
     }
     .gender = masculine
+# Should should be treated as a brand.
 -app-store =
     { $case ->
        *[nom] App Store
@@ -141,12 +153,12 @@
         [ins] App Storem
     }
     .gender = masculine
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
 
 session-verify-send-push-title = Přihlašujete se k { -product-firefox-accounts(case: "dat", capitalization: "lower") }?
-session-verify-send-push-body = Klepněte zde pro ověření
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -193,18 +205,6 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Stáhnout apli
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Stáhnout aplikaci { $productName } z { -app-store(case: "gen") }">
-another-desktop-device = Nebo nainstalujte na <a data-l10n-name="anotherDeviceLink">jiný počítač</a>.
-another-device = Nebo nainstalujte na <a data-l10n-name="anotherDeviceLink">jiné zařízení</a>.
-automated-email-change =
-    Toto je automatický e-mail; pokud jste tuto akci neschválili, tak si prosím <a data-l10n-name="passwordChangeLink">změňte heslo</a>.
-    Pro více informací prosím navštivte <a data-l10n-name="supportLink">podporu { -brand-mozilla(case: "gen") }</a>.
-# Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Toto je automatický e-mail; pokud jste k { -product-firefox-account(case: "dat", capitalization: "lower") } nepřidali žádné zařízení, okamžitě si změňte heslo na { $passwordChangeLink }
-automated-email =
-    Toto je automatický e-mail; pokud jste jej obdrželi omylem, není vyžadována žádná akce.
-    Pro více informací prosím navštivte <a data-l10n-name="supportLink">podporu { -brand-mozilla(case: "gen") }</a>.
-automated-email-plaintext = Toto je automaticky zaslaný e-mail – pokud jste si ho nevyžádali, můžete ho ignorovat.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Toto je automatický e-mail; pokud jste tuto akci neprovedli, změňte si své heslo:
 automated-email-reset =
@@ -255,9 +255,6 @@ subscriptionUpdatePayment = Abyste zabránili jakémukoliv přerušení předpla
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Abyste zabránili jakémukoliv přerušení předplatného služeb, aktualizujte včas své platební údaje:
 # Variables:
-#  $supportUrl (String) - Link to https://accounts.firefox.com/support
-support-message = Pro více informací prosím navštivte stránku { $supportUrl }
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -290,14 +287,8 @@ view-invoice = <a data-l10n-name="invoiceLink">Zobrazit fakturu</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Zobrazit fakturu: { $invoiceLink }
-cadReminderFirst-subject = Přátelsky připomínáme: Jak dokončit nastavení synchronizace
 cadReminderFirst-action = Synchronizovat další zařízení
-cadReminderFirst-title = Připomínáme nastavení synchronizace dalších zařízení.
-cadReminderFirst-description = Pro synchronizaci potřebujete alespoň dvě zařízení. Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data všude tam, kde používáte { -brand-firefox(case: "acc") }.
-cadReminderSecond-subject = Poslední připomenutí: Nezapomeňte si nastavit synchronizaci
 cadReminderSecond-action = Synchronizovat další zařízení
-cadReminderSecond-title = Poslední připomenutí na synchronizaci dalšího zařízení.
-cadReminderSecond-description = Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data na všech zařízeních, kde používáte { -brand-firefox(case: "acc") }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Vítá vás { $productName }
@@ -305,24 +296,9 @@ downloadSubscription-subject = Vítá vás { $productName }
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Vítá vás { $productName }
 downloadSubscription-link-action-2 = Začít
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Zbývá malé množství záložních kódů
-codes-reminder-description = Všimli jsme si, že vám zbývá malé množství záložních kódů. Abyste předešli nechtěnému uzamčení vašeho účtu, zvažte prosím vytvoření nových kódů.
-codes-generate = Vygenerovat kódy
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Vygenerovat kódy
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] Zbývá jeden záložní kód
-        [few] Zbývají { $numberRemaining } záložní kódy
-       *[other] Zbývá { $numberRemaining } záložních kódů
-    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové přihlášení skrze { $clientName }
-# Variables:
-# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-title = Nové přihlášení skrze { $clientName }
 newDeviceLogin-action = Správa účtu
 passwordChanged-subject = Heslo změněno
 passwordChanged-title = Heslo bylo úspěšně změněno
@@ -337,60 +313,24 @@ passwordChangeRequired-different-password-plaintext = Důležité: Jako nové he
 passwordReset-subject = Heslo změněno
 passwordReset-title = Heslo k vašemu účtu bylo změněno
 passwordReset-description = Aby bylo možné pokračovat v synchronizaci na ostatních zařízeních, je třeba na nich zadat nové heslo.
-passwordResetAccountRecovery-subject = Heslo bylo obnoveno pomocí obnovovacího klíče
-passwordResetAccountRecovery-title = Heslo k vašemu účtu bylo obnoveno pomocí obnovovacího klíče
-passwordResetAccountRecovery-description = Úspěšně jste obnovili své heslo pomocí obnovovacího klíče z následujícího zařízení:
-passwordResetAccountRecovery-action = Vytvořit nový obnovovací klíč
-passwordResetAccountRecovery-regen-required = Bude třeba vygenerovat nový obnovovací klíč.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Vytvořit nový obnovovací klíč:
-postAddAccountRecovery-subject = Obnovovací klíč k účtu byl vygenerován
-postAddAccountRecovery-title = Obnovovací klíč k účtu byl vygenerován
 postAddAccountRecovery-action = Správa účtu
-postAddAccountRecovery-recovery = Pokud jste to nebyli vy, <a data-l10n-name="revokeAccountRecoveryLink">klikněte zde</a>.
-postAddAccountRecovery-revoke = Pokud jste to nebyli vy, zrušte platnost klíče.
 postAddLinkedAccount-action = Správa účtu
-postAddTwoStepAuthentication-subject = Dvoufázové ověřování je zapnuto
-postAddTwoStepAuthentication-title = Dvoufázové ověřování je zapnuto
 postAddTwoStepAuthentication-action = Správa účtu
-postAddTwoStepAuthentication-code-required = Při každém přihlášení teď bude nutné zadat bezpečnostní kód z vaší ověřovací aplikace.
 postChangePrimary-subject = Hlavní e-mailová adresa aktualizována
 postChangePrimary-title = Nová hlavní e-mailová adresa
 postChangePrimary-action = Správa účtu
-postConsumeRecoveryCode-subject = Obnovovací kód byl použit
-postConsumeRecoveryCode-title = Obnovovací kód byl použit
-postConsumeRecoveryCode-description = Úspěšně jste použili obnovovací kód z následujícího zařízení:
 postConsumeRecoveryCode-action = Správa účtu
-postNewRecoveryCodes-subject = Byly vygenerovány nové obnovovací kódy
-postNewRecoveryCodes-title = Byly vygenerovány nové obnovovací kódy
-postNewRecoveryCodes-description = Úspěšně jste vygenerovali nové obnovovací kódy z následujícího zařízení:
 postNewRecoveryCodes-action = Správa účtu
-postRemoveAccountRecovery-subject = Obnovovací klíč k účtu byl odstraněn
-postRemoveAccountRecovery-title = Obnovovací klíč k účtu byl odstraněn
 postRemoveAccountRecovery-action = Správa účtu
-postRemoveAccountRecovery-invalid = Tento obnovovací klíč už není možné použít pro obnovení vašeho účtu.
 postRemoveSecondary-subject = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-action = Správa účtu
-postRemoveTwoStepAuthentication-subject-line = Dvoufázové ověřování je vypnuto
-postRemoveTwoStepAuthentication-title = Dvoufázové ověřování je vypnuto
 postRemoveTwoStepAuthentication-action = Správa účtu
-postRemoveTwoStepAuthentication-not-required = Při přihlášení už nebude třeba zadávat bezpečnostní kódy.
-postVerify-sub-title = { -product-firefox-account } byl ověřen, už je to skoro hotovo.
-postVerify-title = Nyní si nastavte synchronizaci svých zařízení.
-postVerify-description = Synchronizace sjednotí bez narušení vašeho soukromí vaše záložky, hesla a další data { -brand-firefox(case: "gen") } na všech vašich zařízení.
-postVerify-subject = Účet byl ověřen. Nyní si nastavte synchronizaci na dalším zařízení
-postVerify-setup = Nastavit další zařízení
-postVerify-action = Nastavit další zařízení
-# Variables:
-#  $email (String) - Link to https://accounts.firefox.com/support
-postVerify-support = Máte otázky? Navštivte { $supportUrl }
 postVerifySecondary-subject = Záložní e-mailová adresa byla přidána
 postVerifySecondary-title = Záložní e-mailová adresa byla přidána
 postVerifySecondary-action = Správa účtu
 recovery-subject = Obnovit heslo
-recovery-title = Potřebujete obnovit své heslo?
-recovery-description = Pro vytvoření nového hesla klepněte během jedné hodiny na tlačítko níže. Požadavek přišel z následujícího zařízení:
+recovery-title-2 = Zapomněli jste heslo?
 recovery-action = Vytvořit nové heslo
 subscriptionAccountDeletion-title = Je nám líto, že odcházíte
 # Variables:
@@ -406,46 +346,17 @@ subscriptionCancellation-subject = Vaše předplatné produktu { $productName } 
 subscriptionCancellation-title = Je nám líto, že odcházíte
 subscriptionDowngrade-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 subscriptionFirstInvoice-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
-subscriptionFirstInvoiceDiscount-content-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
-subscriptionPaymentExpired-title = Platnost vaší platební karty brzy vyprší
-subscriptionsPaymentExpired-subject = Platnost platební karty pro úhradu vašich předplatných brzy vyprší
-subscriptionsPaymentExpired-title = Platnost vaší platební karty brzy vyprší
-subscriptionsPaymentExpired-content = Platnost platební karty, kterou hradíte následující předplatné, brzy vyprší.
 subscriptionUpgrade-title = Děkujeme za povýšení vašeho předplatného.
 subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 unblockCode-subject = Autorizační kód účtu
 unblockCode-title = Jste to vy, kdo se přihlašuje?
 unblockCode-prompt = Pokud ano, zde je váš autorizační kód, který potřebujete:
 unblockCode-report-plaintext = Pokud ne, pomozte nám odrazit útočníky a nahlaste nám to.
-verificationReminderFirst-subject = Připomínka: Dokončete vytvoření svého účtu
-verificationReminderFirst-title = Vítejte v rodině { -brand-firefox(case: "gen") }
-verificationReminderFirst-description = Před několika dny jste si vytvořili { -product-firefox-account(case: "acc", capitalization: "lower") }, ale nikdy jste ho nepotvrdili.
-verificationReminderFirst-sub-description = Potvrďte ho nyní a získejte technologii, která bojuje za vaše soukromí a chrání ho, vyzbrojuje vás praktickými znalostmi a projevuje vám zasloužený respekt.
-confirm-email = Potvrdit e-mailovou adresu
-verificationReminderFirst-action = Potvrdit e-mailovou adresu
-verificationReminderSecond-subject = Poslední připomenutí: Aktivujte svůj účet
-verificationReminderSecond-title = Jste tu ještě?
-verificationReminderSecond-sub-description = Pro aktivaci svého účtu potvrďte tuto e-mailovou adresu. Dáte nám tím vědět, že je vše v pořádku.
-verificationReminderSecond-action = Potvrdit e-mailovou adresu
-verify-title = Aktivujte si celou rodinu produktů { -brand-firefox }
-verify-description-plaintext = Potvrďte svůj účet a využívejte výhody { -brand-firefox(case: "gen") } všude, kde se přihlásíte.
 verify-description = Potvrďte svůj účet a využívejte výhody { -brand-firefox(case: "gen") } všude, kde se přihlásíte, počínaje:
 verify-subject = Dokončit vytváření účtu
-verify-action = Potvrdit e-mailovou adresu
-verifyLogin-description = Pro větší bezpečnost prosím potvrďte toto přihlášení z následujícího zařízení:
 verifyLogin-action = Potvrdit přihlášení
-verifyLoginCode-title = Jste to vy, kdo se přihlašuje?
-verifyLoginCode-prompt = Pokud ano, tady je ověřovací kód:
 verifyLoginCode-expiry-notice = Platnost vyprší za 5 minut.
-verifyPrimary-title = Ověřte svou hlavní e-mailovou adresu
 verifyPrimary-description = Požadavek na změnu vašeho účtu byl odeslán z tohoto zařízení:
 verifyPrimary-subject = Ověřit hlavní e-mailovou adresu
-verifyPrimary-action = Ověřit e-mailovou adresu
-verifyPrimary-post-verify = Jakmile bude ověření dokončeno, bude možné z tohoto zařízení měnit některé údaje týkající se vašeho účtu, jako je třeba záložní e-mailová adresa.
 verifySecondaryCode-subject = Ověřit záložní e-mailovou adresu
-verifySecondaryCode-title = Ověřte svou záložní e-mailovou adresu
-verifySecondaryCode-prompt = Použít ověřovací kód:
-verifySecondaryCode-expiry-notice = Platnost vyprší za 5 minut. Po ověření budete na tuto e-mailovou adresu dostávat bezpečnostní oznámení a potvrzení.
-verifyShortCode-title = Jste to vy, kdo se přihlašuje?
-verifyShortCode-prompt = Pokud ano, použijte v registračním formuláři tento ověřovací kód:
 verifyShortCode-expiry-notice = Platnost vyprší za 5 minut.
