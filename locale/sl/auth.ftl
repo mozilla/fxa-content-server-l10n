@@ -578,6 +578,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potrdi račun
 verificationReminderSecond-subject-2 = Ne pozabite potrditi svojega računa
 verificationReminderSecond-description-3 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste potrdili. Potrdite svoj račun v naslednjih 10 dneh, sicer bo samodejno izbrisan.
+verificationReminderSecond-second-description = { -product-firefox-account } vam omogoča sinhronizacijo podatkov med napravami in dostop do več izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki ščitijo zasebnost.
 verificationReminderSecond-sub-description-2 = Bodite del našega poslanstva spreminjanja interneta v prostor, odprt za vsakogar.
 verificationReminderSecond-action-2 = Potrdi račun
 verify-title-2 = Odprite internet s { -brand-firefox(sklon: "orodnik") }
