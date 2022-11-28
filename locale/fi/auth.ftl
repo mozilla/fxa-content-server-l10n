@@ -3,20 +3,33 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts = Firefox-tilit
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox-tili
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
@@ -522,9 +535,18 @@ verify-title-2 = Avaa internet { -brand-firefox }illa
 verify-description = Vahvista tilisi ja ota kaikki hyöty irti { -brand-firefox }ista kaikkialla missä kirjaudut sisään, aloittaen tästä:
 verify-subject = Viimeistele tilisi luominen
 verify-action-2 = Vahvista tili
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Kirjauduitko palveluun { $clientName }?
 verifyLogin-description-2 = Auta meitä pitämään tilisi turvassa vahvistamalla, että kirjauduit sisään:
 verifyLogin-subject-2 = Vahvista sisäänkirjautuminen
 verifyLogin-action = Vahvista kirjautuminen
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Hyväksy sisäänkirjautuminen palveluun { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Kirjauduitko palveluun { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Auta meitä pitämään tilisi turvassa vahvistamalla, että kirjauduit sisään:
 verifyLoginCode-prompt-3 = Jos kyllä, tässä on valtuutuskoodisi:
