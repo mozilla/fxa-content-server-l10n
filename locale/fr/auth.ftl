@@ -408,7 +408,7 @@ subscriptionAccountFinishSetup-subject = Bienvenue dans { $productName } : veui
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bienvenue sur { $productName }
 subscriptionAccountFinishSetup-content-processing = Votre paiement est en cours de traitement, ce qui peut prendre jusqu’à quatre jours ouvrables. Votre abonnement se renouvellera automatiquement à chaque période de facturation, sauf si vous choisissez de l’annuler.
-subscriptionAccountFinishSetup-content-create-2 = Ensuite, vous allez créer un mot de passe de { -product-firefox-account } pour commencer à utiliser votre nouvel abonnement.
+subscriptionAccountFinishSetup-content-create-2 = Veuillez maintenant créer un mot de passe de { -product-firefox-account } pour commencer à utiliser votre nouvel abonnement.
 subscriptionAccountFinishSetup-action-2 = Commencer
 subscriptionAccountReminderFirst-subject = Rappel : terminez la configuration de votre compte
 subscriptionAccountReminderFirst-title = Vous ne pouvez pas encore accéder à votre abonnement

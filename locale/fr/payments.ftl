@@ -3,120 +3,154 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Branding
+### Terms and messages used in fxa-payments-server
 
-project-brand = Comptes Firefox
+
+## Firefox and Mozilla must be treated as a brand.
+##
+## They cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+# 'Firefox Accounts' refers to the service
+project-brand = Comptes Firefox
+
+## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
+
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-name-google = Google
 -brand-name-apple = Apple
 -brand-name-pocket = Pocket
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-brand-name-google-play = { -brand-name-google } Play Store
-# App Store here refers to Apple's App Store not the generic app store.
-brand-name-apple-app-store = App Store
-document =
-    .title = Comptes Firefox
 
-## General aria-label
-
-close-aria =
-    .aria-label = Fermer le dialogue
-
-## App error dialog
-
-general-error-heading = Erreur générale de l’application
-basic-error-message = Une erreur est survenue. Merci de réessayer plus tard.
-payment-error-1 = Hum, une erreur s’est produite lors de l’autorisation du paiement. Réessayez ou contactez l’émetteur de votre carte.
-payment-error-2 = Hum, une erreur s’est produite lors de l’autorisation du paiement. Contactez l’émetteur de votre carte.
-payment-error-3b = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
-payment-error-retry-button = Veuillez réessayer
-payment-error-manage-subscription-button = Gérer mon abonnement
-country-currency-mismatch = La devise de cet abonnement n’est pas valide pour le pays associé à votre paiement.
-currency-currency-mismatch = Désolé. Vous ne pouvez pas basculer d’une devise à l’autre.
-no-subscription-change = Désolé. Vous ne pouvez pas modifier votre forfait d’abonnement.
-# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
-iap-already-subscribed = Vous êtes déjà abonné·e via { $mobileAppStore }.
-expired-card-error = Il semble que votre carte bancaire ait expiré. Essayez avec une autre carte.
-insufficient-funds-error = Il semble que votre carte bancaire ne dispose pas de fonds suffisants. Essayez avec une autre carte.
-withdrawal-count-limit-exceeded-error = Il semble que cette transaction dépasse votre limite de paiement. Essayez avec une autre carte.
-charge-exceeds-source-limit = Il semble que cette transaction vous fera dépasser votre limite de paiement quotidienne. Réessayez avec une autre carte ou dans 24 heures.
-instant-payouts-unsupported = Il semble que votre carte de débit n’est pas configurée pour les paiements instantanés. Essayez une autre carte de débit ou de crédit.
-duplicate-transaction = Hum. Il semblerait qu’une transaction identique vienne d’être envoyée. Vérifiez votre historique de paiements.
-coupon-expired = Il semble que ce code promotionnel a expiré.
-card-error = La transaction n’a pas pu être traitée. Veuillez vérifier les informations relatives à votre carte de crédit et réessayez.
-# $productName (String) - The name of the subscribed product.
-fxa-account-signup-error-2 = Une erreur système a entraîné l’échec de votre inscription à { $productName }. Votre mode de paiement n’a pas été débité. Veuillez réessayer.
-newsletter-signup-error = Vous n’avez pas d’abonnement aux notifications par courriel de mise à jour du produit. Vous pouvez réessayer dans les paramètres de votre compte.
-fxa-post-passwordless-sub-error = Votre abonnement est confirmé, mais la page de confirmation n’a pas pu être chargée. Veuillez vérifier votre courrier électronique pour configurer votre compte.
-
-## IAP upgrade errors
-
-iap-upgrade-get-help-button = Obtenir de l’aide
-
-## Settings
+## Component - AppLayout
 
 settings-home = Accueil du compte
-settings-subscriptions-title = Abonnements
 
-## Legal footer
+## Component - CouponForm
 
-terms = Conditions d’utilisation
-privacy = Politique de confidentialité
-terms-download = Télécharger les conditions
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Code promo appliqué
+coupon-submit = Appliquer
+coupon-remove = Supprimer
+coupon-error = Le code que vous avez saisi est invalide ou a expiré.
+coupon-error-generic = Une erreur s’est produite lors du traitement du code. Veuillez réessayer.
+coupon-error-expired = Le code que vous avez saisi a expiré.
+coupon-error-limit-reached = Le code saisi a dépassé sa limite d’utilisation.
+coupon-error-invalid = Le code que vous avez saisi est invalide.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-enter-code =
+    .placeholder = Saisissez le code
 
-## Subscription titles
+## Component - Fields
 
-subscription-create-title = Configuration de votre abonnement
-subscription-success-title = Confirmation d’abonnement
-subscription-processing-title = Confirmation de l’abonnement…
-subscription-error-title = Erreur lors de la confirmation de l’abonnement…
-subscription-noplanchange-title = Ce changement de forfait d’abonnement n’est pas pris en charge
-subscription-iapsubscribed-title = Déjà abonné·e
+default-input-error = Ce champ est requis.
+input-error-is-required = Le champ « { $label } » est nécessaire
 
-## $productName (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## Component - Header
 
+brand-name-firefox-logo = Logo { -brand-name-firefox }
+
+## Component - NewUserEmailForm
+
+new-user-sign-in-link = Vous avez déjà un compte { -brand-name-firefox } ? <a>Connectez-vous</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .placeholder = foxy@mozilla.com
+    .label = Entrez votre adresse électronique
+new-user-confirm-email =
+    .label = Confirmez votre adresse électronique
+new-user-subscribe-product-updates = J’aimerais recevoir l’actualité des produits { -brand-name-firefox }
+new-user-subscribe-product-assurance = Nous utilisons votre adresse électronique uniquement pour créer votre compte. Nous ne la vendrons jamais à un tiers.
+new-user-email-validate = L’adresse électronique n’est pas valide
+new-user-email-validate-confirm = Les adresses électroniques ne correspondent pas
+new-user-already-has-account-sign-in = Vous avez déjà un compte. <a>Connectez-vous</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Faute de frappe dans l’adresse e-mail ? { $domain } ne propose pas d’adresses e-mail.
+
+## Component - PaymentConfirmation
+
+payment-confirmation-thanks-heading = Merci !
+payment-confirmation-thanks-heading-account-exists = Merci, vérifiez à présent votre courriel !
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = Un courriel de confirmation a été envoyé à { $email } avec les détails nécessaires pour savoir comment démarrer avec { $product_name }.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = Vous recevrez un message à l’adresse { $email } avec des instructions pour configurer votre compte, ainsi que vos informations de paiement.
+payment-confirmation-order-heading = Détails de la commande
+payment-confirmation-invoice-number = Facture n°{ $invoiceNumber }
+payment-confirmation-details-heading-2 = Informations de paiement
+payment-confirmation-amount = { $amount } par { $interval }
+# $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in days.
-day-based-plan-details-amount =
+payment-confirmation-amount-day =
     { $intervalCount ->
-        [one] { $productName } facturé { $amount } par jour
-       *[other] { $productName } facturé { $amount } tous les { $intervalCount } jours
+        [one] { $amount } par jour
+       *[other] { $amount } tous les { $intervalCount } jours
     }
+# $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in weeks.
-week-based-plan-details-amount =
+payment-confirmation-amount-week =
     { $intervalCount ->
-        [one] { $productName } facturé { $amount } par semaine
-       *[other] { $productName } facturé { $amount } toutes les { $intervalCount } semaines
+        [one] { $amount } par semaine
+       *[other] { $amount } toutes les { $intervalCount } semaines
     }
+# $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in months.
-month-based-plan-details-amount =
+payment-confirmation-amount-month =
     { $intervalCount ->
-        [one] { $productName } facturé { $amount } par mois
-       *[other] { $productName } facturé { $amount } tous les { $intervalCount } mois
+        [one] { $amount } par mois
+       *[other] { $amount } tous les { $intervalCount } mois
     }
+# $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in years.
-year-based-plan-details-amount =
+payment-confirmation-amount-year =
     { $intervalCount ->
-        [one] { $productName } facturé { $amount } par an
-       *[other] { $productName } facturé { $amount } tous les { $intervalCount } ans
+        [one] { $amount } par an
+       *[other] { $amount } tous les { $intervalCount } ans
     }
+payment-confirmation-download-button = Continuer vers le téléchargement
 
-## Product route
+## Component - PaymentConsentCheckbox
 
-product-plan-error =
-    .title = Erreur de chargement des forfaits
-product-profile-error =
-    .title = Erreur de chargement de votre profil
-product-customer-error =
-    .title = Erreur de chargement du client
-product-plan-not-found = Forfait introuvable
-product-no-such-plan = Aucun forfait de ce type pour ce produit.
+payment-confirm-with-legal-links-static = J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement le montant affiché, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
 
-## Payment legal blurb
+## Component - PaymentErrorView
+
+payment-error-retry-button = Veuillez réessayer
+payment-error-manage-subscription-button = Gérer mon abonnement
+
+## Component - PaymentErrorView - IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Vous avez déjà un abonnement à { $productName } sur l’App Store de { -brand-name-google } ou d’{ -brand-name-apple }.
+iap-upgrade-get-help-button = Obtenir de l’aide
+
+## Component - PaymentForm
+
+payment-name =
+    .placeholder = Nom complet
+    .label = Nom apparaissant sur votre carte bancaire
+payment-cc =
+    .label = Votre carte bancaire
+payment-cancel-btn = Annuler
+payment-update-btn = Mettre à jour
+payment-pay-btn = Payer
+payment-pay-with-paypal-btn = Payer avec { -brand-name-paypal }
+payment-validate-name-error = Veuillez saisir votre nom
+
+## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } utilise { -brand-name-stripe } et { -brand-name-paypal } pour le traitement sécurisé des paiements.
 payment-legal-link-stripe-paypal = <stripePrivacyLink>Politique de confidentialité de { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Politique de confidentialité de { -brand-name-paypal }</paypalPrivacyLink>.
@@ -125,62 +159,62 @@ payment-legal-link-paypal-2 = <paypalPrivacyLink>Politique de confidentialité d
 payment-legal-copy-stripe-2 = { -brand-name-mozilla } utilise { -brand-name-stripe } pour le traitement sécurisé des paiements.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Politique de confidentialité de { -brand-name-stripe }</stripePrivacyLink>.
 
-## Payment form
+## Component - PaymentMethodHeader
 
-payment-name =
-    .placeholder = Nom complet
-    .label = Nom apparaissant sur votre carte bancaire
-payment-cc =
-    .label = Votre carte bancaire
-payment-ccn =
-    .label = Numéro de carte
-payment-exp =
-    .label = Date d’expiration
-payment-cvc =
-    .label = Cryptogramme visuel
-payment-zip =
-    .label = Code postal
-payment-confirm-with-legal-links-static = J’autorise { -brand-name-mozilla }, éditeur des produits { -brand-name-firefox }, à prélever via mon moyen de paiement le montant affiché, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
-payment-cancel-btn = Annuler
-payment-update-btn = Mettre à jour
-payment-pay-btn = Payer
-payment-pay-with-paypal-btn = Payer avec { -brand-name-paypal }
-payment-validate-name-error = Veuillez saisir votre nom
-payment-validate-zip-required = Un code postal est nécessaire.
-payment-validate-zip-short = Le code postal est trop court
+payment-method-header = Choisissez votre mode de paiement
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Obligatoire
 
-## Subscription redirect
+## Component - PaymentProcessing
 
-sub-redirect-ready = Votre abonnement est prêt
-sub-redirect-copy = Avez-vous un moment pour nous parler de votre expérience ?
-sub-redirect-skip-survey = Non merci, montrez-moi simplement mon produit.
+payment-processing-message = Veuillez patienter pendant le traitement de votre paiement…
 
-## Fields
+## Component - PaymentProviderDetails
 
-default-input-error = Ce champ est requis.
-input-error-is-required = Le champ « { $label } » est nécessaire
+payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
 
-## Subscription upgrade
+## Component - PlanDetails
 
-product-plan-change-heading = Examinez vos modifications
-sub-change-failed = La modification de votre forfait a échoué
-sub-update-payment-title = Informations de paiement
-sub-update-card-exp = Expiration : { $cardExpMonth }/{ $cardExpYear }
-sub-update-copy =
-    Votre forfait changera immédiatement et le montant de votre facture sera
-    ajusté pour le reste de votre cycle de facturation. À partir du { $startingDate },
-    le montant total vous sera facturé.
+plan-details-header = Détails du produit
+plan-details-list-price = Liste des prix
+plan-details-show-button = Afficher les détails
+plan-details-hide-button = Masquer les détails
+plan-details-total-label = Total
+plan-details-tax = Taxes et frais
 
-##
+## Component - PlanErrorDialog
 
-sub-change-submit = Confirmer la modification
-sub-change-indicator =
-    .aria-label = indicateur de modification
-sub-update-current-plan-label = Forfait actuel
-sub-update-new-plan-label = Nouveau forfait
-sub-update-total-label = Nouveau total
+product-no-such-plan = Aucun forfait de ce type pour ce produit.
 
-## Subscription upgrade plan details
+## Component - SubscriptionTitle
+
+subscription-create-title = Configuration de votre abonnement
+subscription-success-title = Confirmation d’abonnement
+subscription-processing-title = Confirmation de l’abonnement…
+subscription-error-title = Erreur lors de la confirmation de l’abonnement…
+subscription-noplanchange-title = Ce changement de forfait d’abonnement n’est pas pris en charge
+subscription-iapsubscribed-title = Déjà abonné·e
+sub-guarantee = Garantie de remboursement de 30 jours
+
+## Component - TermsAndPrivacy
+
+terms = Conditions d’utilisation
+privacy = Politique de confidentialité
+terms-download = Télécharger les conditions
+
+## App-level string(s) and messages shared by multiple components or routes
+
+document =
+    .title = Comptes Firefox
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Fermer le dialogue
+settings-subscriptions-title = Abonnements
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Code promo
+
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
@@ -207,6 +241,96 @@ plan-price-year =
         [one] { $amount } chaque année
        *[other] { $amount } tous les { $intervalCount } ans
     }
+
+## Error messages
+
+# App error dialog
+general-error-heading = Erreur générale de l’application
+basic-error-message = Une erreur est survenue. Merci de réessayer plus tard.
+payment-error-1 = Hum, une erreur s’est produite lors de l’autorisation du paiement. Réessayez ou contactez l’émetteur de votre carte.
+payment-error-2 = Hum, une erreur s’est produite lors de l’autorisation du paiement. Contactez l’émetteur de votre carte.
+payment-error-3b = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
+expired-card-error = Il semble que votre carte bancaire ait expiré. Essayez avec une autre carte.
+insufficient-funds-error = Il semble que votre carte bancaire ne dispose pas de fonds suffisants. Essayez avec une autre carte.
+withdrawal-count-limit-exceeded-error = Il semble que cette transaction dépasse votre limite de paiement. Essayez avec une autre carte.
+charge-exceeds-source-limit = Il semble que cette transaction vous fera dépasser votre limite de paiement quotidienne. Réessayez avec une autre carte ou dans 24 heures.
+instant-payouts-unsupported = Il semble que votre carte de débit n’est pas configurée pour les paiements instantanés. Essayez une autre carte de débit ou de crédit.
+duplicate-transaction = Hum. Il semblerait qu’une transaction identique vienne d’être envoyée. Vérifiez votre historique de paiements.
+coupon-expired = Il semble que ce code promotionnel a expiré.
+card-error = La transaction n’a pas pu être traitée. Veuillez vérifier les informations relatives à votre carte de crédit et réessayez.
+country-currency-mismatch = La devise de cet abonnement n’est pas valide pour le pays associé à votre paiement.
+currency-currency-mismatch = Désolé. Vous ne pouvez pas basculer d’une devise à l’autre.
+no-subscription-change = Désolé. Vous ne pouvez pas modifier votre forfait d’abonnement.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Vous êtes déjà abonné·e via { $mobileAppStore }.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Une erreur système a entraîné l’échec de votre inscription à { $productName }. Votre mode de paiement n’a pas été débité. Veuillez réessayer.
+fxa-post-passwordless-sub-error = Votre abonnement est confirmé, mais la page de confirmation n’a pas pu être chargée. Veuillez vérifier votre courrier électronique pour configurer votre compte.
+newsletter-signup-error = Vous n’avez pas d’abonnement aux notifications par courriel de mise à jour du produit. Vous pouvez réessayer dans les paramètres de votre compte.
+product-plan-error =
+    .title = Erreur de chargement des forfaits
+product-profile-error =
+    .title = Erreur de chargement de votre profil
+product-customer-error =
+    .title = Erreur de chargement du client
+product-plan-not-found = Forfait introuvable
+
+## Hooks - coupons
+
+coupon-success = Votre forfait sera automatiquement renouvelé au prix courant.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Votre forfait sera automatiquement renouvelé au bout de { $couponDurationDate } au prix courant.
+
+## Routes - Checkout - New user
+
+new-user-step-1 = 1. Créez un compte { -brand-name-firefox }
+new-user-card-title = Saisissez les informations de votre carte
+new-user-submit = S’abonner maintenant
+
+## Routes - Product and Subscriptions
+
+sub-update-payment-title = Informations de paiement
+
+## Routes - Checkout and Product/Subscription create
+
+pay-with-heading-card-or = Ou payer par carte
+pay-with-heading-card-only = Payer par carte
+
+## Routes - Product - IapRoadblock
+
+
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
+
+## Routes - Product - Subscription upgrade
+
+product-plan-change-heading = Examinez vos modifications
+sub-change-failed = La modification de votre forfait a échoué
+sub-update-copy =
+    Votre forfait changera immédiatement et le montant de votre facture sera
+    ajusté pour le reste de votre cycle de facturation. À partir du { $startingDate },
+    le montant total vous sera facturé.
+sub-change-submit = Confirmer la modification
+sub-update-current-plan-label = Forfait actuel
+sub-update-new-plan-label = Nouveau forfait
+sub-update-total-label = Nouveau total
+
+## Routes - Subscriptions - Cancel
+
+sub-item-cancel-sub = Annuler l’abonnement
+sub-item-stay-sub = Conserver l’abonnement
+
+## $name (String) - The name of the subscribed product.
+## $period (Date) - The last day of product access
+
+sub-item-cancel-msg = Vous ne pourrez plus utiliser { $name } après le { $period }, le dernier jour de votre cycle de facturation.
+sub-item-cancel-confirm =
+    Annuler mon accès et mes informations enregistrées dans
+    { $name } le { $period }
 
 ## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -236,17 +360,63 @@ sub-plan-price-year =
        *[other] { $amount } tous les { $intervalCount } ans
     }
 
+## Routes - Subscription
+
+sub-route-idx-reactivating = Échec de la réactivation de l’abonnement
+sub-route-idx-cancel-failed = Échec de l’annulation de l’abonnement
+sub-route-idx-contact = Contacter l’assistance
+sub-route-idx-cancel-msg-title = C’est triste de vous voir partir…
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Votre abonnement à { $name } a été résilié.
+    <br />
+    Vous aurez encore accès à { $name } jusqu’au { $date }.
+sub-route-idx-cancel-aside = Vous avez des questions ? Consultez <a>l’assistance de { -brand-name-mozilla }</a>.
+
+## Routes - Subscriptions - Errors
+
+sub-customer-error =
+    .title = Erreur de chargement du client
+sub-invoice-error =
+    .title = Erreur de chargement des factures
+sub-billing-update-success = Vos informations de facturation ont bien été mises à jour
+
+## Routes - Subscription - ActionButton
+
+pay-update-change-btn = Changer
+pay-update-manage-btn = Gérer
+
+## Routes - Subscriptions - Cancel and IapItem
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Prochaine facturation le { $date }
 sub-expires-on = Date d’expiration : { $date }
 
-##
+## Routes - Subscription - PaymentUpdate
+
+
+# $expirationDate (Date) - The payment card's expiration date.
 
 pay-update-card-exp = Expiration : { $expirationDate }
-pay-update-change-btn = Changer
+sub-route-idx-updating = Mise à jour des informations de facturation…
+sub-route-payment-modal-heading = Informations de facturation invalides
+sub-route-payment-modal-message = Il semble y avoir une erreur avec votre compte { -brand-name-paypal }, veuillez prendre les mesures nécessaires pour résoudre ce problème de paiement.
+sub-route-missing-billing-agreement-payment-alert = Informations de paiement invalides ; une erreur s’est produite avec votre compte. <div>Gérer</div>
+sub-route-funding-source-payment-alert = Informations de paiement invalides ; une erreur s’est produite avec votre compte. Cette alerte peut prendre un certain temps à disparaitre après la mise à jour de vos informations. <div>Gérer</div>
 
-## reactivate
+## Routes - Subscription - SubscriptionItem
+
+sub-item-no-such-plan = Offre tarifaire inconnue pour cet abonnement.
+invoice-not-found = Facture suivante introuvable
+sub-item-no-such-subsequent-invoice = Facture suivante introuvable pour cet abonnement.
+
+## Routes - Subscriptions - Pocket Subscription
+
+manage-pocket-title = Vous recherchez votre abonnement premium { -brand-name-pocket } ?
+manage-pocket-body-2 = Pour le gérer, <linkExternal>cliquez ici</linkExternal>.
+
+## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vous voulez continuer à utiliser { $name } ?
@@ -262,177 +432,12 @@ reactivate-confirm-button = Se réabonner
 
 ## $date (Date) - Last day of product access
 
-reactivate-panel-date = Vous avez annulé votre abonnement le { $date }.
 reactivate-panel-copy = Vous perdrez l’accès à { $name } le <strong>{ $date }</strong>.
 reactivate-success-copy = Merci ! Tout est prêt.
 reactivate-success-button = Fermer
 
-## Subscription item
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
-sub-item-missing = Erreur de chargement des abonnements
-sub-item-missing-msg = Veuillez réessayer plus tard.
-sub-item-no-such-plan = Offre tarifaire inconnue pour cet abonnement.
-sub-item-cancel-sub = Annuler l’abonnement
-sub-item-stay-sub = Conserver l’abonnement
-sub-item-cancel-msg = Vous ne pourrez plus utiliser { $name } après le { $period }, le dernier jour de votre cycle de facturation.
-sub-item-cancel-confirm =
-    Annuler mon accès et mes informations enregistrées dans
-    { $name } le { $period }
-invoice-not-found = Facture suivante introuvable
-sub-item-no-such-subsequent-invoice = Facture suivante introuvable pour cet abonnement.
-
-## Subscription iap item
+## Routes - Subscriptions - Subscription iap item
 
 sub-iap-item-google-purchase = { -brand-name-google } : achats via l’application
 sub-iap-item-apple-purchase = { -brand-name-apple } : inclut des achats intégrés
 sub-iap-item-manage-button = Gérer
-account-activated = Votre compte est activé, <userEl />
-
-## Subscription route index
-
-sub-route-idx-updating = Mise à jour des informations de facturation…
-sub-route-idx-reactivating = Échec de la réactivation de l’abonnement
-sub-route-idx-cancel-failed = Échec de l’annulation de l’abonnement
-sub-route-idx-contact = Contacter l’assistance
-sub-route-idx-cancel-msg-title = C’est triste de vous voir partir…
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-sub-route-idx-cancel-msg =
-    Votre abonnement à { $name } a été résilié.
-    <br />
-    Vous aurez encore accès à { $name } jusqu’au { $date }.
-sub-route-idx-cancel-aside = Vous avez des questions ? Consultez <a>l’assistance de { -brand-name-mozilla }</a>.
-sub-subscription-error =
-    .title = Erreur de chargement des abonnements
-sub-customer-error =
-    .title = Erreur de chargement du client
-sub-invoice-error =
-    .title = Erreur de chargement des factures
-sub-billing-update-success = Vos informations de facturation ont bien été mises à jour
-sub-route-payment-modal-heading = Informations de facturation invalides
-sub-route-payment-modal-message = Il semble y avoir une erreur avec votre compte { -brand-name-paypal }, veuillez prendre les mesures nécessaires pour résoudre ce problème de paiement.
-sub-route-missing-billing-agreement-payment-alert = Informations de paiement invalides ; une erreur s’est produite avec votre compte. <div>Gérer</div>
-sub-route-funding-source-payment-alert = Informations de paiement invalides ; une erreur s’est produite avec votre compte. Cette alerte peut prendre un certain temps à disparaitre après la mise à jour de vos informations. <div>Gérer</div>
-pay-update-manage-btn = Gérer
-
-## Subscription create
-
-sub-guarantee = Garantie de remboursement de 30 jours
-pay-with-heading-other = Sélectionnez un moyen de paiement
-pay-with-heading-card-or = Ou payer par carte
-pay-with-heading-card-only = Payer par carte
-
-## Plan details
-
-plan-details-header = Détails du produit
-plan-details-show-button = Afficher les détails
-plan-details-hide-button = Masquer les détails
-plan-details-total-label = Total
-plan-details-list-price = Liste des prix
-plan-details-tax = Taxes et frais
-
-## Coupons
-
-coupon-discount = Remise
-coupon-discount-applied = Remise appliquée
-# Title of container where a user can input a coupon code to get a discount on a subscription.
-coupon-promo-code = Code promo
-# Title of container showing discount coupon code applied to a subscription.
-coupon-promo-code-applied = Code promo appliqué
-coupon-submit = Appliquer
-coupon-remove = Supprimer
-coupon-error = Le code que vous avez saisi est invalide ou a expiré.
-coupon-error-generic = Une erreur s’est produite lors du traitement du code. Veuillez réessayer.
-coupon-error-expired = Le code que vous avez saisi a expiré.
-coupon-error-limit-reached = Le code saisi a dépassé sa limite d’utilisation.
-coupon-error-invalid = Le code que vous avez saisi est invalide.
-coupon-success = Votre forfait sera automatiquement renouvelé au prix courant.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-coupon-success-repeating = Votre forfait sera automatiquement renouvelé au bout de { $couponDurationDate } au prix courant.
-coupon-enter-code =
-    .placeholder = Saisissez le code
-
-## Payment processing
-
-payment-processing-message = Veuillez patienter pendant le traitement de votre paiement…
-
-## Payment confirmation
-
-payment-confirmation-alert = Cliquez ici pour télécharger
-payment-confirmation-mobile-alert = L’application ne s’est pas ouverte ? <a>Cliquez ici</a>
-payment-confirmation-thanks-heading = Merci !
-
-## Payment confirmation details
-## $email (string) - The user's email.
-## $productName (String) - The name of the subscribed product.
-
-payment-confirmation-thanks-subheading = Un courriel de confirmation a été envoyé à { $email } avec les détails nécessaires pour savoir comment démarrer avec { $product_name }.
-payment-confirmation-thanks-heading-account-exists = Merci, vérifiez à présent votre courriel !
-
-## $email (string) - The user's email.
-
-payment-confirmation-thanks-subheading-account-exists = Vous recevrez un message à l’adresse { $email } avec des instructions pour configurer votre compte, ainsi que vos informations de paiement.
-payment-confirmation-order-heading = Détails de la commande
-payment-confirmation-invoice-number = Facture n°{ $invoiceNumber }
-payment-confirmation-billing-heading = Facturé à
-payment-confirmation-details-heading-2 = Informations de paiement
-payment-confirmation-amount = { $amount } par { $interval }
-
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-payment-confirmation-amount-day =
-    { $intervalCount ->
-        [one] { $amount } par jour
-       *[other] { $amount } tous les { $intervalCount } jours
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirmation-amount-week =
-    { $intervalCount ->
-        [one] { $amount } par semaine
-       *[other] { $amount } toutes les { $intervalCount } semaines
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-payment-confirmation-amount-month =
-    { $intervalCount ->
-        [one] { $amount } par mois
-       *[other] { $amount } tous les { $intervalCount } mois
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-payment-confirmation-amount-year =
-    { $intervalCount ->
-        [one] { $amount } par an
-       *[other] { $amount } tous les { $intervalCount } ans
-    }
-payment-confirmation-download-button = Continuer vers le téléchargement
-payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
-
-## New user email form
-
-new-user-sign-in-link = Vous avez déjà un compte { -brand-name-firefox } ? <a>Connectez-vous</a>
-new-user-step-1 = 1. Créez un compte { -brand-name-firefox }
-# "Required" to indicate that the user must use the checkbox below this text to
-# agree to a payment method's terms of service and privacy notice in order to
-# continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = Entrez votre adresse électronique
-new-user-confirm-email =
-    .label = Confirmez votre adresse électronique
-new-user-subscribe-product-updates = J’aimerais recevoir l’actualité des produits { -brand-name-firefox }
-new-user-subscribe-product-assurance = Nous utilisons votre adresse électronique uniquement pour créer votre compte. Nous ne la vendrons jamais à un tiers.
-new-user-email-validate = L’adresse électronique n’est pas valide
-new-user-email-validate-confirm = Les adresses électroniques ne correspondent pas
-new-user-already-has-account-sign-in = Vous avez déjà un compte. <a>Connectez-vous</a>
-# $domain (String) - the email domain provided by the user during sign up
-new-user-invalid-email-domain = Faute de frappe dans l’adresse e-mail ? { $domain } ne propose pas d’adresses e-mail.
-new-user-card-title = Saisissez les informations de votre carte
-new-user-submit = S’abonner maintenant
-manage-pocket-title = Vous recherchez votre abonnement premium { -brand-name-pocket } ?
-manage-pocket-body-2 = Pour le gérer, <linkExternal>cliquez ici</linkExternal>.
-payment-method-header = Choisissez votre mode de paiement
-# This message is used to indicate the second step in a multi step process.
-payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Obligatoire
