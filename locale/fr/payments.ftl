@@ -135,6 +135,8 @@ payment-error-manage-subscription-button = Gérer mon abonnement
 
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed = Vous avez déjà un abonnement à { $productName } sur l’App Store de { -brand-name-google } ou d’{ -brand-name-apple }.
+iap-upgrade-no-bundle-support = À présent, nous n’offrons pas de mises à niveau pour ces abonnements, mais nous le ferons bientôt.
+iap-upgrade-contact-support = Vous pouvez tout de même obtenir ce produit ; veuillez contacter notre équipe d’assistance afin que nous puissions vous aider.
 iap-upgrade-get-help-button = Obtenir de l’aide
 
 ## Component - PaymentForm
@@ -177,7 +179,7 @@ payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
 ## Component - PlanDetails
 
 plan-details-header = Détails du produit
-plan-details-list-price = Liste des prix
+plan-details-list-price = Prix courant
 plan-details-show-button = Afficher les détails
 plan-details-hide-button = Masquer les détails
 plan-details-total-label = Total
@@ -210,6 +212,8 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Fermer le dialogue
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = Chargement…
 settings-subscriptions-title = Abonnements
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Code promo
@@ -298,6 +302,7 @@ pay-with-heading-card-only = Payer par carte
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Nous n’offrons pas encore cette mise à niveau
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
