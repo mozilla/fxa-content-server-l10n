@@ -299,6 +299,8 @@ passwordResetAccountRecovery-description-2 = Eipuru ayvu jeguerujeyrã embohekop
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 passwordResetAccountRecovery-regen-required-mjml-1 = Emoñeperũjey tembiapo opaite ne mba’e’oka mbojuehepyrépe. Emoheñoijey mba’ete ñemigua guerujeyrã pyahu emyengovia hag̃ua eipuruva’ekue.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Emoñeperũjey tembiapo opaite mba’e’oka mbojuehepyrépe. Emoheñoijey tembiapo mba’e’oka mbojuehepyrépe. Emoheñói mba’ete ñemigua guerujeyrã emyengovia hag̃ua eipuruva’ekue.
 postAddAccountRecovery-subject-2 = Oñemoheñói mba’eñemi jeguerujeyrã
 postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 # Information on the browser and device triggering this string follows.
