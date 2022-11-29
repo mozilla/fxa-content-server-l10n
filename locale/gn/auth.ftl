@@ -556,6 +556,7 @@ unblockCode-prompt-plaintext = Upéicharõ, ayvu jeguerujeyrã reikotevẽva ha�
 unblockCode-report = Ndaupéichairõ, orepytyvõ romboyke hag̃ua tapicha ñaña <a data-l10n-name="reportSignInLink">oremomarandu</a>.
 unblockCode-report-plaintext = Ndoikóirõ péicha, orepytyvõ romboyke hag̃ua hekovaíva ha oremomarandúna.
 verificationReminderFinal-subject = Nemandu’áke emoneĩ hag̃ua ne mba’ete
+verificationReminderFinal-description = Mokõi arapokõindy emoheñoihague ko { -product-firefox-account }, hákatu araka’eve neremoneĩri. Nde rekorosãrã, romboguéta ko mba’ete neremoneĩriramo 24 aravo mboyve.
 confirm-account = Emoneĩjey mba’ete
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
@@ -566,6 +567,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Emoneĩjey mba’ete
 verificationReminderSecond-subject-2 = Nemandu’áke emoneĩ hag̃ua mba’ete
 verificationReminderSecond-title-2 = ¡Aníke ejavy { -brand-firefox }!
+verificationReminderSecond-second-description = Nde { -product-firefox-account } ombojuehekuaa ne marandu mba’e’oka pa’ũme ha oipe’a okẽ heta { -brand-mozilla } apopyrépe omo’ãkuaa hag̃ua tekoñemíme.
 verificationReminderSecond-sub-description-2 = Eike ore rembipotápe emoambuekuaa hag̃ua ñanduti peteĩ tenda ijurujáva opavavépe g̃uarã.
 verificationReminderSecond-action-2 = Emoneĩjey mba’ete
 verify-title-2 = Embojuruja ñanduti { -brand-firefox } ndive
