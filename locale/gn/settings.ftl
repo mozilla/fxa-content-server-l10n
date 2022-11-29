@@ -371,6 +371,7 @@ display-name-success-alert-2 = Téra ojehecháva hekopyahúma
 recovery-key-cancel-button = Heja
 recovery-key-close-button = Mboty
 recovery-key-continue-button = Ku’ejey
+recovery-key-created-1 = Ne mba’ete mba’eñemi guerujeyrã heñóima. Eñongatúke ne mba’eñemi tenda hekorosãvape ejuhukuaa hag̃ua upe rire: eikotevẽta mba’eñemi eikekuaajey hag̃ua ne mba’ekuaarãme nderesaráirõ ne ñe’ẽñemígui.
 recovery-key-enter-password =
     .label = Emoinge ñe’ẽñemi
 recovery-key-page-title-1 =
