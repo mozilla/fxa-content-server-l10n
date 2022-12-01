@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-10-11 20:52+0000\n"
+"POT-Creation-Date: 2022-12-01 22:11+0000\n"
 
 #: .es5/views/confirm_reset_password.js:199
 msgid "Password reset"
@@ -137,6 +137,13 @@ msgid ""
 "Thank you for reaching out to Mozilla Support about "
 "<b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. "
 "We'll contact you via email as soon as possible."
+msgstr ""
+
+#: .es5/views/tooltip.js:85
+#: .es5/templates/partial/account-suggestion.mustache:2
+#: .es5/templates/partial/sync-suggestion.mustache:2
+#. aria label for banner/tooltip dismiss button
+msgid "Close"
 msgstr ""
 
 #: .es5/views/post_verify/verified.js:53
