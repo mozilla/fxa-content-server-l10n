@@ -130,6 +130,8 @@ payment-error-manage-subscription-button = Administrar mi suscripción
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+iap-upgrade-no-bundle-support = No admitimos actualizaciones para estas suscripciones, pero pronto lo haremos.
+iap-upgrade-contact-support = Todavía puedes obtener este producto —  por favor, pónte en contacto con el soporte para poder ayudarte.
 iap-upgrade-get-help-button = Obtener ayuda
 
 ## Component - PaymentForm
