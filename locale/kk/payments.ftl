@@ -123,18 +123,36 @@ payment-method-required = Міндетті
 ## Component - PlanDetails
 
 plan-details-header = Өнім мәліметтері
+plan-details-show-button = Мәліметтерді көрсету
+plan-details-hide-button = Мәліметтерді жасыру
+plan-details-total-label = Барлығы
+plan-details-tax = Салықтар мен алымдар
 
 ## Component - PlanErrorDialog
 
+product-no-such-plan = Бұл өнім үшін мұндай жоспар жоқ.
 
 ## Component - SubscriptionTitle
 
 
 ## Component - TermsAndPrivacy
 
+terms = Қолдану шарттары
+privacy = Жекелік ескертуі
+terms-download = Жүктеп алу шарттары
 
 ## App-level string(s) and messages shared by multiple components or routes
 
+document =
+    .title = Firefox тіркелгілері
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Терезені жабу
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = Жүктелуде…
+settings-subscriptions-title = Жазылулар
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Промокод
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -142,12 +160,15 @@ plan-details-header = Өнім мәліметтері
 
 ## Error messages
 
+# App error dialog
+general-error-heading = Жалпы қолданба қатесі
 
 ## Hooks - coupons
 
 
 ## Routes - Checkout - New user
 
+new-user-step-1 = 1. { -brand-name-firefox } тіркелгісін жасау
 
 ## Routes - Product and Subscriptions
 
