@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-12-03 14:21+0000\n"
+"PO-Revision-Date: 2022-12-03 14:27+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -29,7 +29,7 @@ msgid ""
 "          will fix any links that may be broken."
 msgstr ""
 "Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық,\n"
-" және қате бола алатын сілтемелерді жөндейміз."
+"          және қате бола алатын сілтемелерді жөндейміз."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -45,7 +45,7 @@ msgid ""
 "          will get working on a fix."
 msgstr ""
 "Әттеген-ай, бірнәрсе қате кетіп қалды. Ол туралы біз хабарды алдық,\n"
-" және оны түзетуге кірістік."
+"          және оны түзетуге кірістік."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
@@ -60,10 +60,12 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "          the system to normal as soon as possible."
 msgstr ""
+"Біз ағымдағы уақытта тым көп сұраным алудамыз, жүйемізді\n"
+"          мүмкіндігінше тезірек қалыпты жұмыс жасауға қайтарамыз."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Жүктелу"
 
 #: server/templates/pages/src/index.html:3
 msgid "Firefox Accounts requires JavaScript."
@@ -79,7 +81,7 @@ msgstr "Қолдану шарттары"
 
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Firefox update required"
-msgstr ""
+msgstr "Firefox жаңартуы қажет"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid ""
@@ -88,7 +90,11 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Firefox тіркелгілері сіздің ағымдағы Firefox нұсқасы қолдау\n"
+"                        көрсетпейтін мүмкіндіктерді қолданады.\n"
+"                        Жалғастыру үшін Firefox соңғы нұсқасын жүктеп алып,\n"
+"                        орнатыңыз."
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid "Download latest"
-msgstr ""
+msgstr "Соңғы нұсқасын жүктеп алу"
