@@ -75,9 +75,13 @@ new-user-subscribe-product-assurance = Біз эл. поштаңызды тек 
 new-user-email-validate = Эл. пошта жарамсыз
 new-user-email-validate-confirm = Эл. пошталар өзара сәйкес келмейді
 new-user-already-has-account-sign-in = Сізде тіркелгі бар болып тұр. <a>Жүйеге кіру</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Қате тердіңіз бе? { $domain } эл. поштаны ұсынбайды.
 
 ## Component - PaymentConfirmation
 
+payment-confirmation-thanks-heading = Рахмет!
+payment-confirmation-thanks-heading-account-exists = Рахмет, енді эл. поштаңызды тексеріңіз!
 
 ## Component - PaymentConsentCheckbox
 
