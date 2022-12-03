@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2018-06-21 17:05+0000\n"
+"PO-Revision-Date: 2022-12-03 14:21+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -28,6 +28,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық,\n"
+" және қате бола алатын сілтемелерді жөндейміз."
 
 #: server/templates/pages/src/404.html:4 server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4 server/templates/pages/src/503.html:4
 msgid "Home"
@@ -42,6 +44,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"Әттеген-ай, бірнәрсе қате кетіп қалды. Ол туралы біз хабарды алдық,\n"
+" және оны түзетуге кірістік."
 
 #: server/templates/pages/src/502.html:2
 msgid "502 Error"
