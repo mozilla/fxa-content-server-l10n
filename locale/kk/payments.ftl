@@ -185,6 +185,7 @@ new-user-step-1 = 1. { -brand-name-firefox } тіркелгісін жасау
 
 ## Routes - Product - Subscription upgrade
 
+sub-update-new-plan-label = Жаңа жоспар
 
 ## Routes - Subscriptions - Cancel
 
@@ -205,6 +206,8 @@ new-user-step-1 = 1. { -brand-name-firefox } тіркелгісін жасау
 
 ## Routes - Subscription - ActionButton
 
+pay-update-change-btn = Өзгерту
+pay-update-manage-btn = Басқару
 
 ## Routes - Subscriptions - Cancel and IapItem
 ## $date (Date) - The date for the next time a charge will occur.
