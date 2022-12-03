@@ -174,9 +174,17 @@ modal-cancel-button = Бас тарту
 
 mvs-verify-your-email-2 = Эл. пошта адресіңізді растаңыз
 mvs-enter-verification-code-2 = Растау кодын енгізіңіз
+msv-cancel-button = Бас тарту
+msv-submit-button-2 = Растау
 
 ## Settings Nav
 
+nav-settings = Баптаулар
+nav-profile = Профиль
+nav-security = Қауіпсіздік
+nav-connected-services = Байланыстырылған қызметтер
+nav-data-collection = Деректерді жинау және қолдану
+nav-paid-subs = Ақылы жазылулар
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -189,18 +197,40 @@ mvs-enter-verification-code-2 = Растау кодын енгізіңіз
 
 ## Password change page
 
+pw-change-cancel-button = Бас тарту
+pw-change-save-button = Сақтау
+pw-change-forgot-password-link = Пароліңізді ұмыттыңыз ба?
+pw-change-current-password =
+    .label = Ағымдағы парольді енгізіңіз
+pw-change-new-password =
+    .label = Жаңа парольді енгізіңіз
+pw-change-confirm-password =
+    .label = Жаңа парольді растау
+pw-change-success-alert-2 = Пароль жаңартылды
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = Парольді жасау
+pw-create-success-alert-2 = Пароль орнатылды
+pw-create-error-2 = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Тіркелгіні өшіру
+delete-account-step-1-2 = Қадам 1, барлығы 2
+delete-account-step-2-2 = Қадам 2, барлығы 2
+delete-account-continue-button = Жалғастыру
+delete-account-password-input =
+    .label = Парольді енгізіңіз
+delete-account-cancel-button = Бас тарту
 
 ##
 

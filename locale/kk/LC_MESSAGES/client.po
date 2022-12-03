@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2021-05-25 08:13+0000\n"
+"PO-Revision-Date: 2022-12-03 14:44+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -74,7 +74,7 @@ msgstr "Сіз өз Firefox тіркелгіңізге өзгерістерді 
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Біріншілік эл. пошта адресі расталды"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -82,7 +82,7 @@ msgstr "Тіркелгі хабарламалары енді %(secondaryEmailVer
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Екіншілік эл. пошта адресі расталды"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -94,7 +94,7 @@ msgstr "Сіз енді %(serviceName)s қолдануға дайынсыз"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Тіркелгі расталды"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -135,7 +135,7 @@ msgstr "Шолуды бастау"
 
 #: .es5/views/post_verify/verified.js:58
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
+msgstr "Тіркелгі хабарламалары енді %(secondaryEmail)s адресіне де жіберілетін болады."
 
 #: .es5/views/post_verify/verified.js:59
 msgid "Continue to %(serviceName)s "
@@ -187,7 +187,7 @@ msgstr "Парольді көрсету"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Firefox аутентификацияның сақтық кодтары"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -195,11 +195,11 @@ msgstr "Екі қадамды аутентификация іске қосылд
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Firefox тіркелгісін қалпына келтіру коды"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "Эл. пошта қайта жіберілді. Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге accounts@firefox.com қосыңыз."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -219,27 +219,27 @@ msgstr "Басып шығарылды"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Тіркелгі сәтті расталды"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "төлем және есеп айырысу"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
-msgstr ""
+msgstr "тіркелгі мәселелері"
 
 #: .es5/models/support-form.js:25
 msgid "technical issues"
-msgstr ""
+msgstr "техникалық мәселелер"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
-msgstr ""
+msgstr "кері байланыс беру / мүмкіндіктерді сұрау"
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
-msgstr ""
+msgstr "тізімде жоқ"
 
 #: .es5/models/sync-engines.js:58
 msgid "Bookmarks"
@@ -407,7 +407,7 @@ msgstr "Бұл эл. пошта хатын басқа пайдаланушы р�
 
 #: .es5/lib/auth-errors.js:160
 msgid "Unverified session"
-msgstr ""
+msgstr "Расталмаған сессия"
 
 #: .es5/lib/auth-errors.js:164
 msgid "Secondary email must be different than your account email"
@@ -839,9 +839,7 @@ msgid "Invalid Token"
 msgstr "Қате токен"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз %(serviceName)s (%(serviceUri)s) қызметінің <a id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id=\"service-pp\" href=\"%(privacyUri)s\">Жекелік "
 "ескертуімен</a> келісесіз."
@@ -912,8 +910,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1152,8 +1149,7 @@ msgid "Password"
 msgstr "Пароль"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
@@ -1419,8 +1415,7 @@ msgstr "Ол эл. пошта адресіне енді ие емессіз бе
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
@@ -1513,8 +1508,7 @@ msgstr "Тіркелгіні жасау"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -2014,8 +2008,7 @@ msgid "Sync your device"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:6
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
