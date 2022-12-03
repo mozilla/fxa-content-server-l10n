@@ -231,60 +231,158 @@ delete-account-continue-button = Жалғастыру
 delete-account-password-input =
     .label = Парольді енгізіңіз
 delete-account-cancel-button = Бас тарту
+delete-account-delete-button-2 = Өшіру
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = Көрсетілетін аты
+display-name-input =
+    .label = Көрсетілетін атыңызды енгізіңіз
+submit-display-name = Сақтау
+cancel-display-name = Бас тарту
+display-name-update-error-2 = Көрсетілетін атыңызды жаңарту кезінде мәселе туындады
+display-name-success-alert-2 = Көрсетілетін атыңыз жаңартылды
 
 ##
 
 
 # Account recovery key setup page
 
+recovery-key-cancel-button = Бас тарту
+recovery-key-close-button = Жабу
+recovery-key-continue-button = Жалғастыру
+recovery-key-created-1 = Тіркелгіңізді қалпына келтіру кілті жасалды. Кілтті кейін оңай табуға болатын қауіпсіз жерде сақтауды ұмытпаңыз — парольді ұмытып қалсаңыз, деректеріңізге қайта кіру үшін кілт қажет болады.
+recovery-key-enter-password =
+    .label = Парольді енгізіңіз
+recovery-key-page-title-1 =
+    .title = Тіркелгіні қалпына келтіру кілті
+recovery-key-step-1 = Қадам 1, барлығы 2
+recovery-key-step-2 = Қадам 2, барлығы 2
+recovery-key-success-alert-3 = Тіркелгіні қалпына келтіру кілті жасалды
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Қадам 1, барлығы 2
+add-secondary-email-error-2 = Осы эл. поштаны жасау кезінде мәселе орын алды
+add-secondary-email-page-title =
+    .title = Екіншілік эл. пошта адресі
+add-secondary-email-enter-address =
+    .label = Эл. пошта адресін енгізіңіз
+add-secondary-email-cancel-button = Бас тарту
+add-secondary-email-save-button = Сақтау
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Қадам 2, барлығы 2
+verify-secondary-email-error-3 = Растау кодын жіберу кезінде мәселе орын алды
+verify-secondary-email-page-title =
+    .title = Екіншілік эл. пошта адресі
+verify-secondary-email-verification-code-2 =
+    .label = Растау кодын енгізіңіз
+verify-secondary-email-cancel-button = Бас тарту
+verify-secondary-email-verify-button-2 = Растау
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = <strong>{ $email }</strong> адресіне жіберілген растау кодын 5 минут ішінде енгізіңіз.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } сәтті қосылды
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Тіркелгіні өшіру
 
 ## Two Step Authentication
 
+tfa-title = Екі қадамды аутентификация
+tfa-step-1-3 = Қадам 1, барлығы 3
+tfa-step-2-3 = Қадам 2, барлығы 3
+tfa-step-3-3 = Қадам 3, барлығы 3
+tfa-button-continue = Жалғастыру
+tfa-button-cancel = Бас тарту
+tfa-button-finish = Дайын
+tfa-incorrect-totp = Екі қадамды аутентификация коды жарамсыз
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 
 ##
 
 
 ## Profile section
 
+profile-heading = Профиль
+profile-picture =
+    .header = Сурет
+profile-display-name =
+    .header = Көрсетілетін аты
+profile-primary-email =
+    .header = Біріншілік эл. пошта адресі
 
 ##
 
 
 ## Security section of Setting
 
+security-heading = Қауіпсіздік
+security-password =
+    .header = Пароль
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = { $date } күні жасалған
+security-not-set = Орнатылмаған
+security-action-create = Жасау
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Сөндіру
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Іске қосу
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Жіберілуде…
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Қосу
+row-defaults-action-change = Өзгерту
+row-defaults-action-disable = Сөндіру
+row-defaults-status = Ешнәрсе
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Тіркелгіні қалпына келтіру кілті
+rk-enabled = Іске қосулы
+rk-not-set = Орнатылмаған
+rk-action-create = Жасау
+rk-action-remove = Өшіру
+rk-cannot-refresh-1 = Кешіріңіз, тіркелгіні қалпына келтіру кілтін жаңарту кезінде мәселе орын алды.
 
 ## Secondary email sub-section on main Settings page
 
+# Default value for the secondary email
+se-secondary-email-none = Ешнәрсе
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Екі қадамды аутентификация
+tfa-row-disabled-2 = Екі қадамды аутентификация сөндірілді
+tfa-row-enabled = Іске қосулы
+tfa-row-not-set = Орнатылмаған
+tfa-row-action-add = Қосу
+tfa-row-action-disable = Сөндіру
+tfa-row-button-refresh =
+    .title = Екі қадамды аутентификацияны жаңарту
 
 ## Auth-server based errors that originate from backend service
 
