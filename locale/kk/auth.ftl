@@ -119,8 +119,54 @@ subscriptionAccountReminderSecond-subject = Соңғы ескерту: тірк�
 subscriptionAccountReminderSecond-title = { -brand-firefox } ішіне қош келдіңіз!
 subscriptionAccountReminderSecond-action = Парольді жасау
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = { $productName } төлемі расталды
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = { $productName } төлемі алынды
+subscriptionSubsequentInvoice-title = Жазылушы болғаныңыз үшін рахмет!
 unblockCode-title = Кірем деген сіз бе?
 unblockCode-prompt = Иә болса, міне, сізге керек авторизация коды:
 unblockCode-report-plaintext = Жоқ болса, алаяқтылармен күресуге көмектесу үшін ол туралы бізге хабарлаңыз.
+confirm-account = Тіркелгіні растау
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Тіркелгіңізді растауды ұмытпаңыз
+verificationReminderFirst-title-2 = { -brand-firefox } ішіне қош келдіңіз!
+verificationReminderFirst-description-2 = Бірнеше күн бұрын сіз { -product-firefox-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 15 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
+verificationReminderFirst-sub-description-3 = Сізді және сіздің жекелігіңізді бірінші орынға қоятын браузерді жіберіп алмаңыз.
+confirm-email-2 = Тіркелгіні растау
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Тіркелгіні растау
+verificationReminderSecond-subject-2 = Тіркелгіңізді растауды ұмытпаңыз
+verificationReminderSecond-title-2 = { -brand-firefox } жіберіп алмаңыз!
+verificationReminderSecond-description-3 = Бірнеше күн бұрын сіз { -product-firefox-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 10 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
+verificationReminderSecond-action-2 = Тіркелгіні растау
+verify-title-2 = { -brand-firefox } көмегімен Интернетті ашыңыз
+verify-subject = Тіркелгіні жасауды аяқтаңыз
+verify-action-2 = Тіркелгіні растау
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = { $clientName } ішіне кірдіңіз бе?
+verifyLogin-description-2 = Жүйеге кіргеніңізді растау арқылы тіркелгіңізді қорғауға көмектесіңіз:
+verifyLogin-subject-2 = Кіруді растау
 verifyLogin-action = Кіруді растау
+verifyLoginCode-prompt-3 = Иә болса, міне, сіздің авторизация кодыңыз:
+verifyLoginCode-expiry-notice = Оның мерзімі 5 минутта бітеді.
+verifyPrimary-title-2 = Біріншілік эл. поштаңызды растау
 verifyPrimary-description = Тіркелгіде өзгерістерді жасау сұратуы келесі құрылғыдан жасалған:
+verifyPrimary-subject = Біріншілік эл. поштаңызды растау
+verifyPrimary-action-2 = Эл. поштаны растау
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Расталғаннан кейін, екіншілік эл. поштаны қосу сияқты тіркелгіні өзгерту бұл тіркелгіден қолжетерлік болады.
+verifySecondaryCode-subject = Екіншілік эл. поштаңызды растау
+verifySecondaryCode-title-2 = Екіншілік эл. поштаңызды растау
+verifySecondaryCode-action-2 = Эл. поштаны растау
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Тіркелгіңізді растаңыз
+verifyShortCode-title-2 = { -brand-firefox } көмегімен Интернетті ашыңыз
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Тіркелгіңізді растаңыз және { -brand-firefox } мүмкіндігін барлық жүйеге кірген жерлерде пайдаланыңыз, келесіден бастап:
+verifyShortCode-prompt-3 = Бұл растау кодын пайдалану:
+verifyShortCode-expiry-notice = Оның мерзімі 5 минутта бітеді.
