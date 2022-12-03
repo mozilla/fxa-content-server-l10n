@@ -70,6 +70,11 @@ new-user-email =
     .label = Эл. пошта адресіңізді енгізіңіз
 new-user-confirm-email =
     .label = Эл. пошта адресіңізді растаңыз
+new-user-subscribe-product-updates = Мен { -brand-name-firefox } өнім жаңалықтарын алғым келеді
+new-user-subscribe-product-assurance = Біз эл. поштаңызды тек тіркелгіңізді жасау үшін пайдаланамыз. Біз оны ешқашан үшінші тарапқа сатпаймыз.
+new-user-email-validate = Эл. пошта жарамсыз
+new-user-email-validate-confirm = Эл. пошталар өзара сәйкес келмейді
+new-user-already-has-account-sign-in = Сізде тіркелгі бар болып тұр. <a>Жүйеге кіру</a>
 
 ## Component - PaymentConfirmation
 
@@ -79,18 +84,31 @@ new-user-confirm-email =
 
 ## Component - PaymentErrorView
 
+payment-error-retry-button = Қайтадан көру
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+iap-upgrade-get-help-button = Көмек алу
 
 ## Component - PaymentForm
 
+payment-cc =
+    .label = Сіздің картаңыз
+payment-cancel-btn = Бас тарту
+payment-update-btn = Жаңарту
+payment-pay-btn = Қазір төлеу
+payment-pay-with-paypal-btn = { -brand-name-paypal } көмегімен төлеу
+payment-validate-name-error = Атыңызды енгізіңіз
 
 ## Component - PaymentLegalBlurb
 
 
 ## Component - PaymentMethodHeader
 
+payment-method-header = Төлем әдісін таңдаңыз
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Міндетті
 
 ## Component - PaymentProcessing
 
@@ -100,6 +118,7 @@ new-user-confirm-email =
 
 ## Component - PlanDetails
 
+plan-details-header = Өнім мәліметтері
 
 ## Component - PlanErrorDialog
 
@@ -181,9 +200,15 @@ new-user-confirm-email =
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = Қайта жазылу
 
 ## $date (Date) - Last day of product access
 
+reactivate-success-copy = Рахмет! Барлығы дайын.
+reactivate-success-button = Жабу
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: Қолданбада сатып алу
+sub-iap-item-apple-purchase = { -brand-name-apple }: Қолданбада сатып алу
+sub-iap-item-manage-button = Басқару
