@@ -3,25 +3,39 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts = Firefox accounts
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox account
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
 
 session-verify-send-push-title = გსურთ, შეხვიდეთ ანგარიშზე { -product-firefox-accounts }?
+session-verify-send-push-body-2 = დაწკაპეთ აქ ვინაობის დასამოწმებლად
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -149,6 +163,9 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = ერთჯერ�
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-თვიანი ფასდაკლება: -{ $invoiceDiscountAmount }
 # Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = გადასახადები და მოსაკრებლები: { $invoiceTaxAmount }
+# Variables:
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = ჩამოიჭრა { $invoiceTotal } თარიღზე { $invoiceDateOnly }
@@ -169,6 +186,9 @@ subscriptionUpdateBillingTry-plaintext = შევეცდებით გა�
 subscriptionUpdatePayment = მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ <a data-l10n-name="updateBillingUrl">განაახლოთ გადახდის მონაცემები</a> რაც შეიძლება მალე.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ განაახლოთ გადახდის მონაცემები, რაც შეიძლება მალე:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = დამატებით იხილეთ { -brand-mozilla }-ს მხარდაჭერის გვერდი: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -202,8 +222,17 @@ view-invoice = <a data-l10n-name="invoiceLink">იხილეთ თქვე�
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = იხილეთ ზედნადები: { $invoiceLink }
+cadReminderFirst-subject-1 = შეხსენება! დაასინქრონეთ { -brand-firefox }
 cadReminderFirst-action = სხვა მოწყობილობის დასინქრონება
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = სინქრონიზაცია ორს შორისაა
+cadReminderFirst-description-2 = სინქრონიზაციას მხოლოდ წამი სჭირდება.
+cadReminderSecond-subject-2 = არ გამოგრჩეთ! დაასრულეთ სინქრონიზაციის გამართვა
 cadReminderSecond-action = სხვა მოწყობილობის დასინქრონება
+cadReminderSecond-title-2 = არ დაგავიწყდეთ სინქრონიზაცია!
+cadReminderSecond-description-sync = დაასინქრონეთ თქვენი სანიშნები, პაროლები, გახსნილი ჩანართები და ა.შ. — ყველგან, სადაც გიყენიათ { -brand-firefox }.
+cadReminderSecond-description-plus = ამასთან ერთად, თქვენი მონაცემები ყოველთვის დაშიფრულია. მხოლოდ თქვენსა და თქვენ მიერ დამოწმებულ მოწყობილობებზე შეიძლება ნახვა.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = მოგესალმებათ { $productName }
@@ -212,7 +241,24 @@ downloadSubscription-subject = მოგესალმებათ { $productNa
 downloadSubscription-title = მოგესალმებათ { $productName }
 downloadSubscription-content-2 = დავიწყოთ, თქვენ მიერ გამოწერილი მომსახურების სრულყოფილად გამოყენება:
 downloadSubscription-link-action-2 = დაწყება
+fraudulentAccountDeletion-subject = თქვენი { -product-firefox-account } წაიშალა
 fraudulentAccountDeletion-title = თქვენი ანგარიში წაიშალა
+fraudulentAccountDeletion-contact = თუ თქვენ გაქვთ შეკითხვები, გთხოვთ, დაუკავშირდეთ ჩვენი <a data-l10n-name="mozillaSupportUrl">მხარდაჭერის გუნდს</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = თუ გაქვთ კითხვები, გთხოვთ, დაუკავშირდეთ ჩვენი მხარდაჭერის გუნდს: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = ამოიწურა სამარქაფო კოდები შესვლის დასამოწმებლად!
+codes-reminder-title-one = ბოლო სამარქაფო კოდია შესვლის დასამოწმებლად
+codes-reminder-title-two = დროა, კიდევ შექმნათ სამარქაფო კოდები შესვლის დასამოწმებლად
+lowRecoveryCodes-action-2 = კოდების შექმნა
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] აღარაა სამარქაფო კოდები შესვლის დასამოწმებლად
+        [one] მხოლოდ 1 სამარქაფო კოდია დარჩენილი შესვლის დასამოწმებლად
+       *[other] მხოლოდ { $numberRemaining } სამარქაფო კოდია დარჩენილი შესვლის დასამოწმებლად
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = ახალი შესვლა { $clientName }
