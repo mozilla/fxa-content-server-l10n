@@ -128,6 +128,39 @@ manage-account-plaintext = { manage-account }:
 subscriptionSupport-plaintext = Имате питања о претплати? Наш тим за подршку је ту да вам помогне:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Да бисте избегли било какве прекиде услуге, ажурирајте ваше податке о плаћању што је пре могуће:
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } за { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } за { $uaOS }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP адреса: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (процењено)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (процењено)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (процењено)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (процењено)
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+downloadSubscription-link-action-2 = Започните
+fraudulentAccountDeletion-subject = Ваш { -product-firefox-account } је обрисан
+fraudulentAccountDeletion-title = Ваш налог је обрисан
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 newDeviceLogin-action = Управљајте налогом
 passwordChanged-subject = Лозинка је ажурирана
 passwordChanged-title = Лозинка је успешно промењена
@@ -153,10 +186,27 @@ postVerifySecondary-subject = Секундарна адреса додата
 postVerifySecondary-title = Секундарна адреса додата
 postVerifySecondary-action = Управљајте налогом
 recovery-subject = Ресетујте лозинку
+recovery-title-2 = Заборавили сте лозинку?
 recovery-action = Направи нову лозинку
 subscriptionAccountDeletion-title = Тужни смо што одлазите
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Добродошли у { $productName }: Поставите вашу лозинку.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Добродошли у { $productName }
+subscriptionAccountFinishSetup-action-2 = Започните
+subscriptionAccountReminderFirst-action = Направи лозинку
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-title = Добродошли у { -brand-firefox }!
+subscriptionAccountReminderSecond-action = Направи лозинку
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 subscriptionCancellation-title = Тужни смо што одлазите
 subscriptionDowngrade-content-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
+subscriptionRenewalReminder-content-closing = Срдачно,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = { $productName } тим
 subscriptionUpgrade-title = Хвала што сте ажурирали!
 subscriptionUpgrade-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
 unblockCode-subject = Код за ауторизацију налога
@@ -173,6 +223,10 @@ confirm-account = Потврдите налог
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не заборавите да потврдите налог
 verificationReminderFirst-title-2 = Добродошли у { -brand-firefox }!
+confirm-email-2 = Потврдите налог
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Потврдите налог
+verificationReminderSecond-subject-2 = Не заборавите да потврдите налог
 verificationReminderSecond-action-2 = Потврдите налог
 verify-title-2 = Отворите интернет уз { -brand-firefox }
 verify-description = Потврдите свој налог и извуците максимум из { -brand-firefox }-а пријављивањем на било ком уређају:
