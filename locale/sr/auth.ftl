@@ -157,6 +157,12 @@ location-state-country = { $stateCode }, { $country } (процењено)
 #  $country (stateCode) - User's country
 location-country = { $country } (процењено)
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Добродошли у { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Добродошли у { $productName }
 downloadSubscription-link-action-2 = Започните
 fraudulentAccountDeletion-subject = Ваш { -product-firefox-account } је обрисан
 fraudulentAccountDeletion-title = Ваш налог је обрисан
