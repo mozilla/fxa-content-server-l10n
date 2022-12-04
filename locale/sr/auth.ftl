@@ -109,10 +109,21 @@ automated-email-change-plaintext-2 = Ако ово нисте ви урадил�
 automated-email-support-plaintext = За више информација, посетите { -brand-mozilla } подршку.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } За више информација, посетите <a data-l10n-name="supportLink">{ -brand-mozilla } подршку</a>.
+automated-email-no-action-plaintext = Ово је аутоматизована е-порука. Ако сте грешком је примили, не морате ништа да учините.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Ово је аутоматизована е-порука; ако нисте затражили ову акцију, онда промените лозинку:
+automated-email-reset =
+    Ово је аутоматизована е-порука. Ако нисте затражили ову акцију, онда <a data-l10n-name="resetLink">ресетујте лозинку</a>.
+    За више информација, посетите <a data-l10n-name="supportLink">{ -brand-mozilla } подршку</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Ако је нисте променили, одмах ресетујте лозинку на { $resetLink }
+cancellationSurvey = Помозите нам да побољшамо наше услуге одговарањем на овај <a data-l10n-name="cancellationSurveyUrl">кратак упитник</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Помозите нам да побољшамо наше услуге одговарањем на овај кратак упитник:
 change-password-plaintext = Ако сумњате да неко покушава да приступи вашем налогу, промените лозинку.
 manage-account = Управљајте налогом
+manage-account-plaintext = { manage-account }:
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Имате питања о претплати? Наш тим за подршку је ту да вам помогне:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -154,9 +165,28 @@ unblockCode-prompt = Ако јесте, ево ауторизационог ко
 unblockCode-report-plaintext = Ако нисте, помозите нам да одбијемо уљеза и пријавите нам то.
 verify-description = Потврдите свој налог и извуците максимум из { -brand-firefox }-а пријављивањем на било ком уређају:
 verify-subject = Завршите прављење вашег налога
+verifyLogin-subject-2 = Потврдите пријаву
 verifyLogin-action = Потврдите пријаву
 verifyLoginCode-expiry-notice = Истиче за 5 минута.
+verifyPrimary-title-2 = Потврдите примарну адресу е-поште
 verifyPrimary-description = Захтев за измене налога је послат са следећег уређаја:
 verifyPrimary-subject = Потврдите примарну адресу е-поште
+verifyPrimary-action-2 = Потврдите адресу е-поште
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Једном када потврдите, измене налога као што је додавање секундарне адресе, ће бити могуће и са овог уређаја.
 verifySecondaryCode-subject = Потврдите секундарну адресу е-поште
+verifySecondaryCode-title-2 = Потврдите секундарну адресу е-поште
+verifySecondaryCode-action-2 = Потврдите адресу е-поште
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = Захтев за коришћење { $email } као секундарне адресе је послат са следећег { -product-firefox-account }-а:
+verifySecondaryCode-prompt-2 = Искористите овај верификациони код:
+verifySecondaryCode-expiry-notice-2 = Истиче за 5 минута. Једном када верификујете, адреса ће добијати безбедносна обавештења и потврде о пријавама.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Потврдите налог
+verifyShortCode-title-2 = Отворите интернет уз { -brand-firefox }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext = Потврдите ваш налог и максимално искористите { -brand-firefox } где год да се пријавите почевши са:
+verifyShortCode-prompt-3 = Искористите овај верификациони код:
 verifyShortCode-expiry-notice = Истиче за 5 минута.
