@@ -172,6 +172,7 @@ verificationReminderFinal-description = Пре неколико недеља с�
 confirm-account = Потврдите налог
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не заборавите да потврдите налог
+verificationReminderFirst-title-2 = Добродошли у { -brand-firefox }!
 verificationReminderSecond-action-2 = Потврдите налог
 verify-title-2 = Отворите интернет уз { -brand-firefox }
 verify-description = Потврдите свој налог и извуците максимум из { -brand-firefox }-а пријављивањем на било ком уређају:
