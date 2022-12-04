@@ -162,11 +162,32 @@ subscriptionUpgrade-auto-renew = Ваша претплата ће се ауто�
 unblockCode-subject = Код за ауторизацију налога
 unblockCode-title = Да ли сте се ово ви пријавили?
 unblockCode-prompt = Ако јесте, ево ауторизационог кода који вам је потребан:
-unblockCode-report-plaintext = Ако нисте, помозите нам да одбијемо уљеза и пријавите нам то.
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Ако да, ево кода за ауторизацију који вам је потребан: { $unblockCode }
+unblockCode-report = Ако не, помозите нам да одбијемо уљезе и <a data-l10n-name="reportSignInLink">пријавите нам то</a>.
+unblockCode-report-plaintext = Ако не, помозите нам да одбијемо уљезе и пријавите нам то.
+verificationReminderFinal-subject = Последњи подсетник да потврдите налог
+verificationReminderSecond-action-2 = Потврдите налог
+verify-title-2 = Отворите интернет уз { -brand-firefox }
 verify-description = Потврдите свој налог и извуците максимум из { -brand-firefox }-а пријављивањем на било ком уређају:
 verify-subject = Завршите прављење вашег налога
+verify-action-2 = Потврдите налог
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Да ли сте се пријавили у { $clientName }?
+verifyLogin-description-2 = Помозите нам да заштитимо ваш налог тако што ћете потврдити пријаву на:
 verifyLogin-subject-2 = Потврдите пријаву
 verifyLogin-action = Потврдите пријаву
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Одобри пријаву у { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Да ли сте се пријавили у { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Помозите нам да заштитимо ваш налог тако што ћете потврдити пријаву на:
+verifyLoginCode-prompt-3 = Ако да, ево вашег кода за ауторизацију:
 verifyLoginCode-expiry-notice = Истиче за 5 минута.
 verifyPrimary-title-2 = Потврдите примарну адресу е-поште
 verifyPrimary-description = Захтев за измене налога је послат са следећег уређаја:
