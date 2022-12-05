@@ -3,20 +3,33 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-### Localization for server-rendered Firefox accounts strings, from `fxa-auth-server`
+## Brands used in fxa-auth-server.
+##
+## Brands cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
-# Firefox and Mozilla Brand
 -brand-mozilla = Mozilla
 -brand-firefox = Firefox
-# "Accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "accounts" can be localized, "Firefox" must be treated as a brand.
+# 'Firefox accounts' refers to the service
 -product-firefox-accounts = Imiḍanen Firefox
-# "Account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
+# This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Amiḍan Firefox
-# "Firefox Cloud" should be treated as a brand.
+# This product should be treated as a brand.
 -product-firefox-cloud = Firefox Cloud
-# Other brands
+# Should should be treated as a brand.
 -brand-paypal = PayPal
+# Should should be treated as a brand.
 -app-store = App Store
+# Should should be treated as a brand.
 -google-play = Google Play
 
 ## Non-email strings
@@ -69,11 +82,6 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Sader { $produ
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Sader { $productName } seg { -app-store }">
-another-desktop-device = Neɣ, sebded ɣef <a data-l10n-name="anotherDeviceLink">yibenk-nniḍen n tnarit</a>.
-another-device = Neɣ, sebded ɣef <a data-l10n-name="anotherDeviceLink">yibenk-nniḍen</a>.
-# Variables:
-#  $passwordChangeLink (String) - Link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext = Wagi d izen awurman ; ma yella ur terniḍ ara ibenk amaynut ɣer { -product-firefox-account }, yessefk ad tesnifleḍ awal-ik·im uffir tura kan deg { $passwordChangeLink }
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Wagi d imayl awurman; ma yella ur tessirgeḍ ara tigawt-a, ttxil-k·m beddel awal-ik·im uffir:
 # Variables:
@@ -103,6 +111,22 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = Takarḍa { $cardType } tettfak s { $lastFour }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Uṭṭun n tfaturt: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Uṭṭun n tfaturt: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Abeddel n uɣawas: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Asemday-arnaw: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Yettwafter { $invoiceTotal } deg { $invoiceDateOnly }
 subscriptionSupport = Isteqsiyen ɣer ujerred-ik? <a data-l10n-name="subscriptionSupportUrl">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tallelt a-tt-a da ad ak-d-efk afus:
@@ -159,17 +183,7 @@ downloadSubscription-content-2 = Aha bdu aseqdec n meṛṛa timahilin yeddan de
 downloadSubscription-link-action-2 = Bdu
 fraudulentAccountDeletion-subject = { -product-firefox-account } inek yettwakkes
 fraudulentAccountDeletion-title = Amiḍan-ik•im yettwakkes
-# The user has a low number of valid recovery codes remaining for use
-codes-reminder-title = Qqiment-d kan kra n tigalin n usellek
-codes-reminder-description = Nwala d akken qqiment-d kan kra ntingalin n usellek. Yessefk ad tsirweḍ tingalin timaynutin akken ur k-yettruḥu ara umiḍan-ik.
-codes-generate = Sirew tingalin
-codes-generate-plaintext = { codes-generate }:
-lowRecoveryCodes-action = Sirew tingalin
-lowRecoveryCodes-subject =
-    { $numberRemaining ->
-        [one] 1 n tangalt n tririt i d-yeqqimen
-       *[other] { $numberRemaining } n tengalt n tririt i d-yeqqimen
-    }
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Tuqqna tamaynut ɣer { $clientName }
@@ -191,13 +205,6 @@ passwordChangeRequired-different-password-plaintext = Axatar: Fren awal uffir ye
 passwordReset-subject = Awal uffir yettuleqqem
 passwordReset-title = Awal uffir n umiḍan inek ibeddel
 passwordReset-description = Isefk ad teskecmeḍ awal-ik uffir amaynut akken ad tesfesxeḍ amtawi.
-passwordResetAccountRecovery-subject = Awal uffir ibeddel s tsarut n tririt
-passwordResetAccountRecovery-title = Awal uffir n umiḍa-ik/im ittuwennez s tsarutt n tririt
-passwordResetAccountRecovery-description = Twennzeḍ akken iwata awal uffir-ik/im s tsarutt n tririt seg yibenk-agi:
-passwordResetAccountRecovery-action = Rnu tasarutt n tririt tamaynut
-passwordResetAccountRecovery-regen-required = Nesra asirew n tsarutt n tririt tamaynut.
-# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
-passwordResetAccountRecovery-create-key = Rnu tasarutt n tririt tamaynut:
 postAddAccountRecovery-subject-2 = Tasarut n tririt n umiḍan tettwarna
 postAddAccountRecovery-title2 = Terniḍ tasarut n tririt n umiḍani tamaynut
 # Information on the browser and device triggering this string follows.
@@ -212,37 +219,17 @@ postAddLinkedAccount-subject = Amiḍan amaynut yeqqnen ɣer { -brand-firefox }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = Amiḍan-ik·im { $providerName } yettwaqqen ɣer { -product-firefox-account }-ik·im
 postAddLinkedAccount-action = Sefrek amiḍan
-postAddTwoStepAuthentication-subject = Asesteb s snat n tarrayin yermed
-postAddTwoStepAuthentication-title = Asesteb s snat n tarrayin yermed
-postAddTwoStepAuthentication-description-plaintext = Tremdeḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik·im { -product-firefox-account }. Tingalin n tɣelllist n usnas-ik·im n usesteb ad ak·am-d-ttusutrent deg yal tuqqna.
-postAddTwoStepAuthentication-description = Tremdeḍ akken iwata asesteb s snat tarrayin deg umiḍan-ik·im { -product-firefox-account } seg yibenk-a:
 postAddTwoStepAuthentication-action = Sefrek amiḍan
-postAddTwoStepAuthentication-code-required = Tingalin n tɣellist seg usnas-ik n usesteb ad yili yal tuqqna tamaynut.
 postChangePrimary-subject = Imayl amezwaru ittuleqqem
 postChangePrimary-title = Imayl amezwaru amaynut
 postChangePrimary-action = Sefrek amiḍan
-postConsumeRecoveryCode-subject = Tangalt n usellek tettwaseqdec
-postConsumeRecoveryCode-title = Tangalt n tririt tettwaseqdec yakan
-postConsumeRecoveryCode-description = Tesqedceḍ akken iwata tangalt n tririt seg yibenk-agi:
 postConsumeRecoveryCode-action = Sefrek amiḍan
-postNewRecoveryCodes-subject = Tiririt tamaynut n tengalin timaynutin teḍra-d
-postNewRecoveryCodes-title = Tiririt tamaynut n tengalin timaynutin teḍra-d
-postNewRecoveryCodes-description = Tesluleḍ-d akken iwata tingalin n tririt seg yibenk-agi:
 postNewRecoveryCodes-action = Sefrek amiḍan
-postRemoveAccountRecovery-subject = Tasarutt n tririt n umiḍan tettwakkes
-postRemoveAccountRecovery-title = Tasarutt n tririt n umiḍan tettwakkes
-postRemoveAccountRecovery-description = Tekkseḍ akken iwata tasarut n tririt n umiḍan i umiḍan-ik·im { -product-firefox-account } s useqdec n yibenk-a:
 postRemoveAccountRecovery-action = Sefrek amiḍan
-postRemoveAccountRecovery-invalid = Tasarutt-a n tririt dayen ur tezmir ara ad tettwaseqdec akken ad d-terr amiḍan-ik/im.
 postRemoveSecondary-subject = Imay wis sin ittwakkes
 postRemoveSecondary-title = Imay wis sin ittwakkes
 postRemoveSecondary-action = Sefrek amiḍan
-postRemoveTwoStepAuthentication-subject-line = Asesteb s snat n tarrayin yensa
-postRemoveTwoStepAuthentication-title = Asesteb s snat n tarrayin yensa
-postRemoveTwoStepAuthentication-description = Tsenseḍ akken iwata asesteb s snat tarrayin deg umiḍan-ik·im { -product-firefox-account } seg yibenk-a:
-postRemoveTwoStepAuthentication-description-plaintext = Tsenseḍ akken iwata asesteb s snat n tarrayin i umiḍan-ik·im { -product-firefox-account }. Tingalin n tɣelllist ur laqent ara yal tuqqna.
 postRemoveTwoStepAuthentication-action = Sefrek amiḍan
-postRemoveTwoStepAuthentication-not-required = Tingalin n tririt uir zgint laqent yal tuqqna.
 postVerify-title-2 = Tebɣiḍ kifkif iccer ara twaliḍ ɣef sin yibenkan?
 postVerify-subject-3 = Ansuf γer { -brand-firefox }!
 postVerify-setup-2 = Qqen ibenk-nniḍen:
@@ -321,45 +308,8 @@ subscriptionFirstInvoice-content-processing = Lexlaṣ-ik iteddu akka tura daɣe
 subscriptionFirstInvoice-content-install-2 = Ad teṭṭfeḍ imayl iεezlen ideg yella wamek ara tebduḍ aseqdec n { $productName }
 subscriptionFirstInvoice-content-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
 # Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Uṭṭun n tfaturt: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Uṭṭun n tfaturt: { $invoiceNumber }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoice-content-charge = Yettwafter { $invoiceTotal } deg { $invoiceDateOnly }
-# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-subject = Lexlaṣ n { $productName } yettwasentem
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-title = Tanemmirt ɣef ujerred ɣer { $productName }
-subscriptionFirstInvoiceDiscount-content-processing = Lexlaṣ-ik iteddu akka tura daɣen izmer ad yaweḍ arma d kuẓ n wussan yeldin.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoiceDiscount-content-install-2 = Ad teṭṭfeḍ imayl iεezlen ideg yella wamek ara tebduḍ aseqdec n { $productName }
-subscriptionFirstInvoiceDiscount-content-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoiceDiscount-content-invoice-number = Uṭṭun n tfaturt: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoiceDiscount-content-invoice-number-plaintext = Uṭṭun n tfaturt: { $invoiceNumber }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoiceDiscount-content-subtotal = Asemday-arnaw: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-subscriptionFirstInvoiceDiscount-content-charge = Yettwafter { $invoiceTotal } deg { $invoiceDateOnly }
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoiceDiscount-content-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Axelleṣ n { $productName } yecceḍ
@@ -406,47 +356,8 @@ subscriptionSubsequentInvoice-title = Tanemmirt imi telliḍ d ameltaɣ!
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Nnermes-d lexlaṣ-ik anaggaru i { $productName }.
 # Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number = Uṭṭun n tfaturt: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoice-content-invoice-number-plaintext = Uṭṭun n tfaturt: { $invoiceNumber }
-# Variables:
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-plan-change = Abeddel n uɣawas: { $paymentProrated }
-# Variables:
-# $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-charged = Yettwafter { $invoiceTotal } deg { $invoiceDateOnly }
-# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-subject = Lexlaṣ n { $productName } yettwarmes
-subscriptionSubsequentInvoiceDiscount-title = Tanemmirt imi telliḍ d ameltaɣ!
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSubsequentInvoiceDiscount-content-received = Nnermes-d lexlaṣ-ik anaggaru i { $productName }.
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number = Uṭṭun n tfaturt: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionSubsequentInvoiceDiscount-content-invoice-number-plaintext = Uṭṭun n tfaturt: { $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-plan-change = Abeddel n uɣawas: { $paymentProrated }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-charge = Yettwafter { $invoiceTotal } deg { $invoiceDateOnly }
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoiceDiscount-content-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionSubsequentInvoiceDiscount-content-subtotal = Asemday-arnaw: { $invoiceSubtotal }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Tuliḍ ɣer { $productName }
@@ -486,11 +397,6 @@ verify-action-2 = Sentem amiḍan
 verifyLogin-title-2 = Teqqneḍ ɣer { $clientName }?
 verifyLogin-subject-2 = Sentem tuqqna
 verifyLogin-action = Sentem tuqqna
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line = Tangalt n tuqqna i { $serviceName }
-verifyLoginCode-title = D kečč i d-yessutren tuqqna agi?
-verifyLoginCode-prompt-2 = Ma ih, ha-tt-a tengalt n usentem:
 verifyLoginCode-expiry-notice = Ad immet deg 5 n tseddatin.
 verifyPrimary-title-2 = Sentem tansa tagejdant
 verifyPrimary-description = Asuter i usnifel n umiḍan tettwag seg ibenk agi:
