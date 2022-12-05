@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-12-05 02:32+0000\n"
+"PO-Revision-Date: 2022-12-05 02:45+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -187,7 +187,7 @@ msgstr "ਪਾਸਵਰਡ ਵੇਖੋ"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr "Firefox ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ"
+msgstr "Firefox ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -668,19 +668,19 @@ msgstr "ਫੋਨ ਨੰਬਰ ਚਾਹੀਦਾ ਹੈ"
 
 #: .es5/lib/auth-errors.js:559
 msgid "Two-step authentication code required"
-msgstr "ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਚਾਹੀਦਾ ਹੈ"
+msgstr "ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ"
 
 #: .es5/lib/auth-errors.js:563
 msgid "Invalid two-step authentication code"
-msgstr "ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣਕਿਤਾ ਕੋਡ"
+msgstr "ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ"
 
 #: .es5/lib/auth-errors.js:567
 msgid "Backup authentication code required"
-msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਚਾਹੀਦਾ ਹੈ"
+msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid backup authentication code"
-msgstr "ਗਲਤ ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ"
+msgstr "ਗਲਤ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
@@ -1189,7 +1189,7 @@ msgstr "Firefox ਖਾਤਾ Mozilla ਵਲੋਂ ਹੋਰ ਪਰਦੇਦਾ�
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਸੰਭਾਲੋ"
+msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਸੰਭਾਲੋ"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1220,7 +1220,7 @@ msgstr "ਸੈੱਟ ਅੱਪ ਰੱਦ ਕਰੋ"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਦੀ ਤਸਦੀਕ ਕਰੋ"
+msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦੀ ਤਸਦੀਕ ਕਰੋ"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
@@ -1232,7 +1232,7 @@ msgstr "ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਾ ਬੈਕਅੱਪ ਲਵ�
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr "ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਸਮਰੱਥ ਕਰੋ"
+msgstr "ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਸਮਰੱਥ ਕਰੋ"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1425,7 +1425,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਦਿਓ"
+msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
@@ -1461,7 +1461,7 @@ msgstr "ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "ਆਪਣੀ ਪਰਮਾਣਕਿਤਾ ਐਪ ਖੋਲ੍ਹੋ ਅਤੇ ਇਸ ਵਲੋਂ ਦਿੱਤੇ ਸੁਰੱਖਿਆ ਕੋਡ ਲਿਖੋ।"
+msgstr "ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਖੋਲ੍ਹੋ ਅਤੇ ਇਸ ਵਲੋਂ ਦਿੱਤੇ ਸੁਰੱਖਿਆ ਕੋਡ ਲਿਖੋ।"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
@@ -1473,11 +1473,11 @@ msgstr "ਇਸ ਸਾਇਨ ਇਨ ਨੂੰ ਪਰਮਾਣਿਤ ਕਰੋ"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "%(email)s ਨੂੰ ਭੇਜੇ ਗਏ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ।"
+msgstr "%(email)s ਨੂੰ ਭੇਜੇ ਗਏ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਲਈ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ।"
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr "ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਦਿਓ"
+msgstr "ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"

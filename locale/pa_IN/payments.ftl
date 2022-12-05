@@ -73,6 +73,34 @@ payment-confirmation-thanks-heading-account-exists = ਧੰਨਵਾਦ, ਹੁ�
 payment-confirmation-order-heading = ਆਡਰ ਦੇ ਵੇਰਵੇ
 payment-confirmation-details-heading-2 = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 payment-confirmation-amount = { $amount } ਪ੍ਰਤੀ { $interval }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } ਰੋਜਾਨਾ
+       *[other] { $amount } ਹਰ { $intervalCount } ਦਿਨ
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } ਹਫ਼਼ਤੇ
+       *[other] { $amount } ਹਰ { $intervalCount } ਹਫ਼਼ਤੇ
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } ਮਹੀਨੇਵਾਰ
+       *[other] { $amount } ਹਰ { $intervalCount } ਮਹੀਨੇ
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } ਸਾਲਨਾ
+       *[other] { $amount } ਹਰ { $intervalCount } ਸਾਲ
+    }
 payment-confirmation-download-button = ਡਾਉਨਲੋਡ ਕਰਨਾ ਜਾਰੀ ਰੱਖੋ
 
 ## Component - PaymentConsentCheckbox
@@ -85,6 +113,7 @@ payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ ਦ�
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+iap-upgrade-get-help-button = ਮਦਦ ਲਵੋ
 
 ## Component - PaymentForm
 
@@ -117,6 +146,7 @@ payment-method-required = ਲੋੜੀਂਦਾ
 
 ## Component - PaymentProcessing
 
+payment-processing-message = ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਉੱਤੇ ਸਾਡੇ ਵਲੋਂ ਕਾਰਵਾਈ ਕੀਤੇ ਤੱਕ ਉਡੀਕੋ…
 
 ## Component - PaymentProviderDetails
 
@@ -128,6 +158,7 @@ plan-details-header = ਉਤਪਾਦ ਦੇ ਵੇਰਵੇ
 plan-details-show-button = ਵੇਰਵੇ ਦਿਖਾਓ
 plan-details-hide-button = ਵੇਰਵੇ ਲੁਕਾਓ
 plan-details-total-label = ਕੁੱਲ ਜੋੜ
+plan-details-tax = ਟੈਕਸ ਅਤੇ ਫ਼ੀਸਾਂ
 
 ## Component - PlanErrorDialog
 
@@ -156,7 +187,11 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = ਮਾਡਲ ਬੰਦ ਕਰੋ
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
 settings-subscriptions-title = ਮੈਂਬਰੀਆਂ
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = ਪਰਚਾਰ ਕੋਡ
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -171,6 +206,17 @@ plan-price-day =
         { $intervalCount ->
             [one] { $amount } ਦਿਨ
            *[other] { $amount } ਹਰ { $intervalCount } ਦਿਨ
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } ਹਫ਼ਤੇਵਾਰ
+       *[other] { $amount } ਹਰ { $intervalCount } ਹਫ਼਼ਤੇ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ਹਫ਼਼ਤੇਵਾਰ
+           *[other] { $amount } ਹਰ { $intervalCount } ਹਫ਼਼ਤੇ
         }
 
 ## Error messages

@@ -244,8 +244,8 @@ postAddLinkedAccount-subject = { -brand-firefox } ਨਾਲ ਨਵਾਂ ਖਾ�
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = ਤੁਹਾਡਾ { $providerName } ਖਾਤਾ ਤੁਹਾਡੇ { -product-firefox-account } ਨਾਲ ਲਿੰਕ ਕੀਤਾ ਜਾ ਚੁੱਕਾ ਹੈ
 postAddLinkedAccount-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
-postAddTwoStepAuthentication-subject-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਚਾਲੂ ਕੀਤੀ ਹੈ
-postAddTwoStepAuthentication-title-2 = ਤੁਸੀਂ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਚਾਲੂ ਕੀਤੀ
+postAddTwoStepAuthentication-subject-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਚਾਲੂ ਕੀਤੀ ਹੈ
+postAddTwoStepAuthentication-title-2 = ਤੁਸੀਂ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਚਾਲੂ ਕੀਤੀ
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = ਤੁਸੀ ਇਸ ਨੂੰ ਇੱਥੋਂ ਸਮਰੱਥ ਕੀਤਾ:
 postAddTwoStepAuthentication-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
@@ -257,11 +257,11 @@ postConsumeRecoveryCode-title-2 = ਤੁਸੀਂ ਇੱਕ ਬੈਕਅੱਪ �
 postConsumeRecoveryCode-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
-        [one] 1 ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਬਚਿਆ
-       *[other] { $numberRemaining } ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਬਚੇ ਹਨ
+        [one] 1 ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਚਿਆ
+       *[other] { $numberRemaining } ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਚੇ ਹਨ
     }
-postNewRecoveryCodes-subject-2 = ਨਵੇਂ ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਬਣਾਏ
-postNewRecoveryCodes-title-2 = ਤੁਸੀਂ ਨਵੇਂ ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਬਣਾਏ
+postNewRecoveryCodes-subject-2 = ਨਵੇਂ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਏ
+postNewRecoveryCodes-title-2 = ਤੁਸੀਂ ਨਵੇਂ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਏ
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = ਇਹਨਾਂ ਨੂੰ ਇੱਥੇ ਬਣਾਇਆ ਗਿਆ ਸੀ:
 postNewRecoveryCodes-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
@@ -273,8 +273,8 @@ postRemoveAccountRecovery-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰ
 postRemoveSecondary-subject = ਸੈਕੰਡਰੀ ਈਮੇਲ ਹਟਾਈ
 postRemoveSecondary-title = ਸੈਕੰਡਰੀ ਈਮੇਲ ਹਟਾਈ
 postRemoveSecondary-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
-postRemoveTwoStepAuthentication-subject-line-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਬੰਦ ਹੈ
-postRemoveTwoStepAuthentication-title-2 = ਤੁਸੀਂ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਬੰਦ ਕੀਤੀ
+postRemoveTwoStepAuthentication-subject-line-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਬੰਦ ਹੈ
+postRemoveTwoStepAuthentication-title-2 = ਤੁਸੀਂ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਬੰਦ ਕੀਤੀ
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = ਤੁਸੀ ਇਸ ਨੂੰ ਇੱਥੋਂ ਅਸਮਰੱਥ ਕੀਤਾ:
 postRemoveTwoStepAuthentication-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
@@ -360,9 +360,9 @@ subscriptionUpgrade-title = ਅੱਪਗਰੇਡ ਕਰਨ ਲਈ ਤੁਹਾ�
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = ਤੁਸੀਂ { $productNameOld } ਤੋਂ { $productName } ਲਈ ਕਾਮਯਾਬੀ ਨਾਲ ਅੱਪਗਰੇਡ ਕਰ ਚੁੱਕੇ ਹੋ।
-unblockCode-subject = ਖਾਤਾ ਪਰਮਾਣਕਿਤਾ ਕੋਡ
+unblockCode-subject = ਖਾਤਾ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 unblockCode-title = ਕੀ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕੀਤਾ ਹੈ?
-unblockCode-prompt = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਤੁਹਾਨੂੰ ਚਾਹੀਦਾ ਹੈ:
+unblockCode-prompt = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤੁਹਾਨੂੰ ਚਾਹੀਦਾ ਹੈ:
 confirm-account = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰਨਾ ਯਾਦ ਰੱਖੋ
@@ -389,7 +389,7 @@ verifyLoginCode-subject-line-2 = { $serviceName } ਲਈ ਸਾਈਨ-ਇਨ ਨ
 verifyLoginCode-title-2 = ਕੀ ਤੁਸੀਂ { $serviceName } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕੀਤਾ ਸੀ?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਸਾਡੀ ਮਦਦ ਵਾਸਤੇ ਆਪਣੇ ਸਾਈਨ-ਇਨ ਨੂੰ ਇਸ ਤੋਂ ਮਨਜ਼ੂਰ ਕਰੋ:
-verifyLoginCode-prompt-3 = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਤੁਹਾਡਾ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਹੈ:
+verifyLoginCode-prompt-3 = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਤੁਹਾਡਾ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਹੈ:
 verifyLoginCode-expiry-notice = ਇਸ ਦੀ ਮਿਆਦ 5 ਮਿੰਟ ਹੈ।
 verifyPrimary-title-2 = ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 verifyPrimary-description = ਅੱਗੇ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਖਾਤੇ ਨੂੰ ਬਦਲਣ ਲਈ ਬੇਨਤੀ ਕੀਤੀ ਜਾ ਚੁੱਕੀ ਹੈ:

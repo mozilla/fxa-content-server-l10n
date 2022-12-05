@@ -165,6 +165,9 @@ flow-container-back = ਪਿੱਛੇ
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 get-data-trio-download =
     .title = ਡਾਊਨਲੋਡ ਕਰੋ
 get-data-trio-copy =
@@ -203,6 +206,8 @@ modal-cancel-button = ਰੱਦ ਕਰੋ
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = ਆਪਣੇ ਈਮੇਲ ਦੀ ਤਸਦੀਕ ਕਰੋ
+mvs-enter-verification-code-2 = ਆਪਣਾ ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ
 msv-cancel-button = ਰੱਦ ਕਰੋ
 msv-submit-button-2 = ਤਸਦੀਕ
 
@@ -350,14 +355,14 @@ delete-account-link = ਖਾਤਾ ਹਟਾਓ
 
 ## Two Step Authentication
 
-tfa-title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ
+tfa-title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ
 tfa-step-1-3 = 3 ਚੋਂ 1 ਪੜਾਅ
 tfa-step-2-3 = 3 ਚੋਂ 2 ਪੜਾਅ
 tfa-step-3-3 = 3 ਚੋਂ 3 ਪੜਾਅ
 tfa-button-continue = ਜਾਰੀ ਰੱਖੋ
 tfa-button-cancel = ਰੱਦ ਕਰੋ
 tfa-button-finish = ਮੁਕੰਮਲ
-tfa-incorrect-totp = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣਕਿਤਾ ਕੋਡ
+tfa-incorrect-totp = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ?
@@ -442,14 +447,14 @@ se-secondary-email-none = ਕੋਈ ਨਹੀਂ
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-header = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ
-tfa-row-disabled-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਅਸਮਰੱਥ ਹੈ
+tfa-row-header = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ
+tfa-row-disabled-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਅਸਮਰੱਥ ਹੈ
 tfa-row-enabled = ਸਮਰੱਥ ਹੈ
 tfa-row-not-set = ਸੈੱਟ ਨਹੀਂ
 tfa-row-action-add = ਜੋੜੋ
 tfa-row-action-disable = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-button-refresh =
-    .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਤਾਜ਼ਾ ਕਰੋ
+    .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਤਾਜ਼ਾ ਕਰੋ
 tfa-row-disable-modal-confirm = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-change-modal-confirm = ਬਦਲੋ
 
