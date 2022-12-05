@@ -51,9 +51,11 @@ input-error-is-required = { $label } ਲੋੜੀਂਦਾ ਹੈ
 
 ## Component - Header
 
+brand-name-firefox-logo = { -brand-name-firefox } ਲੋਗੋ
 
 ## Component - NewUserEmailForm
 
+new-user-sign-in-link = ਪਹਿਲਾਂ ਹੀ { -brand-name-firefox } ਖਾਤਾ ਹੈ? <a>ਸਾਈਨ ਇਨ ਕਰੋ</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -62,9 +64,11 @@ new-user-email =
 new-user-confirm-email =
     .label = ਆਪਣਾ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 new-user-subscribe-product-updates = ਮੈਂ { -brand-name-firefox } ਤੋਂ ਉਤਪਾਦ ਅੱਪਡੇਟ ਹਾਸਲ ਕਰਨੇ ਚਾਹਾਂਗਾ/ਚਾਹਾਂਗੀ
+new-user-already-has-account-sign-in = ਤੁਹਾਡੇ ਕੋਲ ਪਹਿਲਾਂ ਹੀ ਖਾਤਾ ਹੈ। <a>ਸਾਈਨ ਇਨ ਕਰੋ</a>
 
 ## Component - PaymentConfirmation
 
+payment-confirmation-thanks-heading = ਤੁਹਾਡਾ ਧੰਨਵਾਦ!
 payment-confirmation-thanks-heading-account-exists = ਧੰਨਵਾਦ, ਹੁਣ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ!
 payment-confirmation-order-heading = ਆਡਰ ਦੇ ਵੇਰਵੇ
 payment-confirmation-details-heading-2 = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ

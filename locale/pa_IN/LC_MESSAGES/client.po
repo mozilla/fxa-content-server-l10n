@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-12-05 02:30+0000\n"
+"PO-Revision-Date: 2022-12-05 02:32+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -1969,14 +1969,17 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        ਹੁਣ ਤੁਸੀਂ ਸਿੰਕ ਕਰ ਰਹੇ ਹੋ: <span>%(deviceFamily)s ਨੂੰ %(deviceOS)s ਤੋਂ</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "ਤੁਸੀਂ ਆਪਣੀਆਂ ਖੋਲ੍ਹੀਆਂ ਤੈਬਾਂ, ਪਾਸਵਰਡ ਅਤੇ ਬੁੱਕਮਾਰਕਾਂ ਨੂੰ ਆਪਣੇ ਸਾਰੇ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਵਰਤ ਸਕਦੇ ਹੋ।"
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "ਸਿੰਕ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਤੋਂ ਟੈਬਾਂ ਵੇਖੋ"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -1996,15 +1999,15 @@ msgstr "ਸੈਟਅਪ ਕਾਰਵਾਈ ਨੂੰ ਸਮਾਪਤ ਕੀਤ�
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ Firefox ਕਨੈਕਟ ਕਰੋ"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "ਆਪਣੇ ਫ਼਼ੋਨ ਜਾਂ ਟੇਬਲੇਟ ਉੱਤੇ Firefox ਸਿੰਕ ਕਰੋ"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "ਫ਼਼ੋਨ ਜਾਂ ਟੇਬਲੇਟ ਉੱਤੇ ਪਹਿਲਾਂ ਹੀ Firefox ਹੈ?"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
