@@ -336,9 +336,19 @@ subscriptionRenewalReminder-title = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਨੂ
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = ਸਤਿਕਾਰਯੋਗ { $productName } ਗਾਹਕ,
+subscriptionRenewalReminder-content-closing = ਤਹਿ ਦਿਲੋਂ,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } ਟੀਮ
+subscriptionsPaymentExpired-subject-1 = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਲਈ ਵਰਤੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
+subscriptionsPaymentExpired-title-1 = ਤੁਹਾਡੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = { $productName } ਭੁਗਤਾਨ ਮਿਲਿਆ
+subscriptionSubsequentInvoice-title = ਮੈਂਬਰ ਬਣਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = ਅਸੀਂ { $productName } ਲਈ ਤੁਹਾਡਾ ਨਵਾਂ ਭੁਗਤਾਨ ਪ੍ਰਾਪਤ ਕਰ ਲਿਆ ਹੈ।
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = ਅਗਲਾ ਭੁਗਤਾਨ: { $nextInvoiceDateOnly }
@@ -346,6 +356,10 @@ subscriptionSubsequentInvoice-content-next-invoice = ਅਗਲਾ ਭੁਗਤ�
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = ਤੁਸੀਂ { $productName } ਲਈ ਅੱਪਗਰੇਡ ਕਰ ਲਿਆ ਹੈ
 subscriptionUpgrade-title = ਅੱਪਗਰੇਡ ਕਰਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = ਤੁਸੀਂ { $productNameOld } ਤੋਂ { $productName } ਲਈ ਕਾਮਯਾਬੀ ਨਾਲ ਅੱਪਗਰੇਡ ਕਰ ਚੁੱਕੇ ਹੋ।
 unblockCode-subject = ਖਾਤਾ ਪਰਮਾਣਕਿਤਾ ਕੋਡ
 unblockCode-title = ਕੀ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕੀਤਾ ਹੈ?
 unblockCode-prompt = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਤੁਹਾਨੂੰ ਚਾਹੀਦਾ ਹੈ:
@@ -367,6 +381,15 @@ verifyLogin-title-2 = ਕੀ ਤੁਸੀਂ { $clientName } ਵਿੱਚ ਸਾ
 verifyLogin-description-2 = ਤੁਹਾਡੇ ਵਲੋਂ ਸਾਈਨ ਇਨ ਕਰਨ ਦੀ ਤਸਦੀਕ ਕਰਕੇ ਸਾਨੂੰ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਮਦਦ ਕਰੋ:
 verifyLogin-subject-2 = ਸਾਈਨ ਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 verifyLogin-action = ਸਾਈਨ ਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = { $serviceName } ਲਈ ਸਾਈਨ-ਇਨ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰੋ
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = ਕੀ ਤੁਸੀਂ { $serviceName } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕੀਤਾ ਸੀ?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਸਾਡੀ ਮਦਦ ਵਾਸਤੇ ਆਪਣੇ ਸਾਈਨ-ਇਨ ਨੂੰ ਇਸ ਤੋਂ ਮਨਜ਼ੂਰ ਕਰੋ:
+verifyLoginCode-prompt-3 = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਤੁਹਾਡਾ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਹੈ:
 verifyLoginCode-expiry-notice = ਇਸ ਦੀ ਮਿਆਦ 5 ਮਿੰਟ ਹੈ।
 verifyPrimary-title-2 = ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 verifyPrimary-description = ਅੱਗੇ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਖਾਤੇ ਨੂੰ ਬਦਲਣ ਲਈ ਬੇਨਤੀ ਕੀਤੀ ਜਾ ਚੁੱਕੀ ਹੈ:

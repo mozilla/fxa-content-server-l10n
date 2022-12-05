@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-11-14 20:42+0000\n"
+"PO-Revision-Date: 2022-12-05 02:30+0000\n"
 "Last-Translator: Aman Alam <amanpreet.alam@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pa_IN\n"
@@ -187,7 +187,7 @@ msgstr "ਪਾਸਵਰਡ ਵੇਖੋ"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Firefox ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -195,7 +195,7 @@ msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਯੋਗ ਕਰਨ ਦੇ ਦੋ-ਕਦ�
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Firefox ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -471,7 +471,7 @@ msgstr "TOTP ਟੋਕ ਨਹੀਂ ਲੱਭਿਆ"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣਿਕਤਾ ਕੋਡ ਨਹੀ ਲੱਭਿਆ"
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
@@ -479,11 +479,11 @@ msgstr "ਡਿਵਾਈਸ ਕਮਾਂਡ ਉਪਲਬਧ ਨਹੀਂ ਹੈ"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਹੀਂ ਲੱਭੀ"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "ਗਲਤ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -519,7 +519,7 @@ msgstr "ਅੱਪਡੇਟ ਨੂੰ ਰੱਦ ਕੀਤਾ ਗਿਆ, ਮੁੜ
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "ਤਸਦੀਕੀ ਕੋਡ ਗਲਤ ਹੈ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -676,15 +676,15 @@ msgstr "ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣਕਿਤਾ �
 
 #: .es5/lib/auth-errors.js:567
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਚਾਹੀਦਾ ਹੈ"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "ਗਲਤ ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
-msgstr ""
+msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਚਾਹੀਦੀ ਹੈ"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -915,16 +915,16 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਿਓ"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm account recovery key"
-msgstr ""
+msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਤਸਦੀਕ ਕਰੋ"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨਹੀਂ ਹੈ?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -1083,7 +1083,7 @@ msgstr "ਹੋਰ ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰੋ"
 
 #: .es5/templates/connect_another_device.mustache:2
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "ਤੁਸੀਂ Firefox ਵਿੱਚ ਸਾਈਨ ਕੀਤਾ ਹੈ"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
@@ -1107,7 +1107,7 @@ msgstr "ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹੋਰ ਡ
 
 #: .es5/templates/connect_another_device.mustache:17
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "ਆਪਣੀਆਂ ਟੈਬਾਂ, ਬੁੱਕਮਾਰਕਾਂ ਅਤੇ ਪਾਸਵਰਡਾਂ ਨੂੰ ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ ਵੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: .es5/templates/connect_another_device.mustache:19 .es5/templates/pair/index.mustache:8
 msgid "Not now"
@@ -1143,6 +1143,9 @@ msgid ""
 "          Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Firefox account</span>\n"
 "        "
 msgstr ""
+"\n"
+"          <span class=\"card-subheader\" id=\"subheader\">ਆਪਣੇ Firefox ਖਾਤੇ ਲਈ</span> ਆਪਣਾ ਪਾਸਵਰਡ ਭਰੋ\n"
+"        "
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1150,7 +1153,7 @@ msgstr "ਪਾਸਵਰਡ"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
 msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "ਜਾਰੀ ਰੱਖ ਕੇ ਤੁਸੀਂ <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਅਤੇ <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</a> ਨਾਲ ਸਹਿਮਤ ਹੁੰਦੇ ਹੋ।"
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1166,7 +1169,7 @@ msgstr "Firefox ਖਾਤਿਆਂ ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ Firefox ਵਰਤੋਂ, ਆਪਣੇ ਪਾਸਵਰਡ, ਟੈਬਾਂ ਤੇ ਬੁੱਕਮਾਰਕਾਂ ਨੂੰ ਸਿੰਕ ਕਰੋ।"
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
@@ -1186,7 +1189,7 @@ msgstr "Firefox ਖਾਤਾ Mozilla ਵਲੋਂ ਹੋਰ ਪਰਦੇਦਾ�
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਸੰਭਾਲੋ"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1217,7 +1220,7 @@ msgstr "ਸੈੱਟ ਅੱਪ ਰੱਦ ਕਰੋ"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਦੀ ਤਸਦੀਕ ਕਰੋ"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
@@ -1422,7 +1425,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "ਬੈਕਅੱਪ ਪਰਮਾਣਕਿਤਾ ਕੋਡ ਦਿਓ"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
@@ -1830,7 +1833,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਲਵੋ"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
@@ -1842,7 +1845,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਸੰਭਾਲੋ"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -1850,7 +1853,7 @@ msgstr "ਮੁਕੰਮਲ"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "ਮੈਨੂੰ ਖਾਤਾ ਬਣਾਉਣ ਦੀ ਲੋੜ ਕਿਉਂ ਹੈ? <a %(escapedSuggestionAttrs)s>ਇੱਥੋਂ ਜਾਣੋ</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
@@ -1938,7 +1941,7 @@ msgstr "Apple ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "ਕੀ ਤੁਸੀਂ ਹੁਣੇ ਹੀ Firefox ਵਿੱਚ ਸਾਈਨ ਇਨ ਕੀਤਾ ਸੀ?"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
@@ -1946,7 +1949,7 @@ msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "ਟਿਕਾਣਾ ਝਾਤੀ"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
@@ -1954,7 +1957,7 @@ msgstr "ਹਾਂ, ਡਿਵਾਈਸ ਮਨਜ਼ੂਰ"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "ਜੇ ਇਹ ਤੁਸੀਂ ਨਹੀਂ ਸੀ ਤਾਂ <a id=\"change-password\" class=\"link-blue\">ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
