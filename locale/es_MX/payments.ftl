@@ -58,6 +58,7 @@ input-error-is-required = Se requiere { $label }
 
 ## Component - Header
 
+brand-name-firefox-logo = Logo de { -brand-name-firefox }
 
 ## Component - NewUserEmailForm
 
@@ -122,6 +123,7 @@ payment-confirmation-download-button = Continuar para descargar
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = Autorizo a { -brand-name-mozilla }, fabricante de productos { -brand-name-firefox }, a cargar mi método de pago por el monto que se muestra, de acuerdo con <termsOfServiceLink>Términos del servicio</termsOfServiceLink> y <privacyNoticeLink>Aviso de Privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
 
 ## Component - PaymentErrorView
 
@@ -130,6 +132,8 @@ payment-error-manage-subscription-button = Administrar mi suscripción
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Ya tienes una suscripción a { $productName } a través de las tiendas de aplicaciones { -brand-name-google } o { -brand-name-apple }.
 iap-upgrade-no-bundle-support = No admitimos actualizaciones para estas suscripciones, pero pronto lo haremos.
 iap-upgrade-contact-support = Todavía puedes obtener este producto —  por favor, pónte en contacto con el soporte para poder ayudarte.
 iap-upgrade-get-help-button = Obtener ayuda
@@ -178,6 +182,7 @@ plan-details-list-price = Precio de lista
 plan-details-show-button = Mostrar detalles
 plan-details-hide-button = Ocultar detalles
 plan-details-total-label = Total
+plan-details-tax = Impuestos y comisiones
 
 ## Component - PlanErrorDialog
 
@@ -296,6 +301,7 @@ pay-with-heading-card-only = Pagar con tarjeta
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Todavía no podemos actualizarte
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
