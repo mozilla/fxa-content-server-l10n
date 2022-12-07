@@ -313,6 +313,7 @@ pay-with-heading-card-only = Z kartu płaćić
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Hišće njemóžemy was aktualizować
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
