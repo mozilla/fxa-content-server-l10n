@@ -140,6 +140,10 @@ payment-error-manage-subscription-button = Abonement zrjadować
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Maće hižo abonement { $productName } přez app-wobchodaj { -brand-name-google } abo { -brand-name-apple }.
+iap-upgrade-no-bundle-support = Njepodpěrujemy aktualizacije za tute abonementy, ale budźemy to bórze činić.
+iap-upgrade-contact-support = Móžeće tutón produkt hišće dóstać – stajće so z teamom pomocy do zwiska, zo bychu móhli wam pomhać.
 iap-upgrade-get-help-button = Pomoc wobstarać
 
 ## Component - PaymentForm
