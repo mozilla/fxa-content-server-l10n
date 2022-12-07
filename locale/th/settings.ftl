@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = ปิดข้อความ
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -53,6 +49,10 @@ app-footer-terms-of-service = เงื่อนไขการให้บร�
 
 ##
 
+
+## Alert Bar
+
+alert-bar-close-message = ปิดข้อความ
 
 ## User's avatar
 
@@ -144,6 +144,8 @@ datablock-print =
 ## Data collection section
 
 dc-heading = การเก็บรวบรวมและใช้ข้อมูล
+dc-subheader = ช่วยปรับปรุง { -product-firefox-accounts }
+dc-subheader-content = อนุญาตให้ { -product-firefox-accounts } ส่งข้อมูลทางเทคนิคและการโต้ตอบไปยัง { -brand-mozilla }
 
 # DropDownAvatarMenu component
 
