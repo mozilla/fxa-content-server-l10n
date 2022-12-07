@@ -146,6 +146,10 @@ datablock-print =
 dc-heading = การเก็บรวบรวมและใช้ข้อมูล
 dc-subheader = ช่วยปรับปรุง { -product-firefox-accounts }
 dc-subheader-content = อนุญาตให้ { -product-firefox-accounts } ส่งข้อมูลทางเทคนิคและการโต้ตอบไปยัง { -brand-mozilla }
+dc-opt-out-success = ยกเลิกสำเร็จ { -product-firefox-accounts } จะไม่ส่งข้อมูลทางเทคนิคหรือการโต้ตอบไปยัง { -brand-mozilla }
+dc-opt-in-success = ขอบคุณ! การแบ่งปันข้อมูลนี้ช่วยเราปรับปรุง { -product-firefox-accounts }
+dc-opt-in-out-error-2 = ขออภัย มีปัญหาในการเปลี่ยนการกำหนดลักษณะการรวบรวมข้อมูลของคุณ
+dc-learn-more = เรียนรู้เพิ่มเติม
 
 # DropDownAvatarMenu component
 
@@ -186,6 +190,7 @@ input-password-hide-aria = ซ่อนรหัสผ่านจากหน�
 
 ## Linked Accounts section
 
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
@@ -194,7 +199,14 @@ modal-cancel-button = ยกเลิก
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = ยืนยันอีเมลของคุณ
+mvs-enter-verification-code-2 = ใส่รหัสยืนยันของคุณ
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = โปรดใส่รหัสยืนยันที่ส่งไปยัง <email>{ $email }</email> ภายใน 5 นาที
 msv-cancel-button = ยกเลิก
+msv-submit-button-2 = ยืนยัน
 
 ## Settings Nav
 
@@ -202,11 +214,14 @@ nav-settings = การตั้งค่า
 nav-profile = โปรไฟล์
 nav-security = ความปลอดภัย
 nav-connected-services = บริการที่เชื่อมต่อ
+nav-data-collection = การเก็บรวบรวมและใช้ข้อมูล
 nav-paid-subs = การสมัครสมาชิกแบบเสียค่าใช้จ่าย
 nav-email-comm = การติดต่อสื่อสารทางอีเมล
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-1-2 = ขั้นตอนที่ 1 จาก 2
+tfa-replace-code-2-2 = ขั้นตอนที่ 2 จาก 2
 
 ## Avatar change page
 
@@ -234,6 +249,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = ไม่สามารถเริ่มใช้กล้องได้
 avatar-page-new-avatar =
     .alt = รูปโปรไฟล์ใหม่
+avatar-page-file-upload-error-3 = เกิดปัญหาในการอัปโหลดรูปโปรไฟล์ของคุณ
+avatar-page-delete-error-3 = เกิดปัญหาในการลบรูปโปรไฟล์ของคุณ
+avatar-page-image-too-large-error-2 = ไฟล์ภาพมีขนาดใหญ่เกินกว่าจะอัปโหลดได้
 
 ##
 
@@ -242,7 +260,10 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = เปลี่ยนรหัสผ่าน
+pw-8-chars = อย่างน้อย 8 ตัวอักษร
+pw-not-email = ไม่ใช่ที่อยู่อีเมลของคุณ
 pw-change-must-match = รหัสผ่านใหม่ตรงกับการยืนยัน
+pw-commonly-used = ไม่ใช่รหัสผ่านที่พบบ่อย
 pw-change-cancel-button = ยกเลิก
 pw-change-save-button = บันทึก
 pw-change-forgot-password-link = ลืมรหัสผ่าน?
@@ -252,12 +273,17 @@ pw-change-new-password =
     .label = ป้อนรหัสผ่านใหม่
 pw-change-confirm-password =
     .label = ยืนยันรหัสผ่านใหม่
+pw-change-success-alert-2 = ปรับปรุงรหัสผ่านแล้ว
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = สร้างรหัสผ่าน
+pw-create-success-alert-2 = ตั้งรหัสผ่านแล้ว
+pw-create-error-2 = ขออภัย เกิดปัญหาในการตั้งรหัสผ่านของคุณ
 
 ##
 
@@ -293,6 +319,8 @@ display-name-input =
     .label = ป้อนชื่อที่ใช้แสดง
 submit-display-name = บันทึก
 cancel-display-name = ยกเลิก
+display-name-update-error-2 = เกิดปัญหาในการปรับปรุงชื่อที่ใช้แสดงของคุณ
+display-name-success-alert-2 = ปรับปรุงชื่อที่ใช้แสดงแล้ว
 
 ##
 
@@ -304,11 +332,16 @@ recovery-key-close-button = ปิด
 recovery-key-continue-button = ดำเนินการต่อ
 recovery-key-enter-password =
     .label = ใส่รหัสผ่าน
+recovery-key-page-title-1 =
+    .title = คีย์กู้คืนบัญชี
 recovery-key-step-1 = ขั้นตอนที่ 1 จาก 2
 recovery-key-step-2 = ขั้นตอนที่ 2 จาก 2
+recovery-key-success-alert-3 = สร้างคีย์กู้คืนบัญชีแล้ว
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = ขั้นตอนที่ 1 จาก 2
+add-secondary-email-error-2 = เกิดปัญหาในการสร้างอีเมลนี้
 add-secondary-email-page-title =
     .title = อีเมลสำรอง
 add-secondary-email-enter-address =
@@ -318,9 +351,22 @@ add-secondary-email-save-button = บันทึก
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = ขั้นตอนที่ 2 จาก 2
+verify-secondary-email-error-3 = เกิดปัญหาในการส่งรหัสยืนยัน
 verify-secondary-email-page-title =
     .title = อีเมลสำรอง
+verify-secondary-email-verification-code-2 =
+    .label = ใส่รหัสยืนยันของคุณ
 verify-secondary-email-cancel-button = ยกเลิก
+verify-secondary-email-verify-button-2 = ยืนยัน
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = โปรดใส่รหัสยืนยันที่ส่งไปยัง <strong>{ $email }</strong> ภายใน 5 นาที
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = เพิ่ม { $email } เรียบร้อยแล้ว
 
 ##
 
