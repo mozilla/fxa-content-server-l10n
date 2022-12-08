@@ -449,7 +449,7 @@ subscriptionDowngrade-content-switch = Votre passage de { $productNameOld } à {
 subscriptionDowngrade-content-charge-info = À partir de votre prochaine facture, vos frais passeront de { $paymentAmountOld } par { $productPaymentCycleOld } à { $paymentAmountNew } par { $productPaymentCycleNew }. À ce moment-là, vous recevrez également un crédit unique de { $paymentProrated } pour refléter les frais inférieurs pour le reste de la période.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-install = Si un nouveau logiciel doit être installé pour utiliser { $productName }, vous recevrez un courriel séparé avec des instructions de téléchargement.
+subscriptionDowngrade-content-install = Si un nouveau logiciel doit être installé pour utiliser { $productName }, vous recevrez un e-mail séparé avec des instructions de téléchargement.
 subscriptionDowngrade-content-auto-renew = Votre abonnement sera automatiquement renouvelé à chaque période de facturation, sauf si vous choisissez de l’annuler.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -557,7 +557,7 @@ subscriptionUpgrade-content-charge-info = À partir de votre prochaine facture, 
 subscriptionUpgrade-content-charge-info-different-cycle = Des frais uniques de { $paymentProrated } vous seront facturés pour refléter le prix plus élevé de votre abonnement pour le reste de ce { $productPaymentCycleOld }. À compter de votre prochaine facture, vos frais passeront de { $paymentAmountOld } par { $productPaymentCycleOld } à { $paymentAmountNew } par { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Si un nouveau logiciel doit être installé pour utiliser { $productName }, vous recevrez un courriel séparé avec des instructions de téléchargement.
+subscriptionUpgrade-install = Si un nouveau logiciel doit être installé pour utiliser { $productName }, vous recevrez un e-mail séparé avec des instructions de téléchargement.
 subscriptionUpgrade-auto-renew = Votre abonnement sera automatiquement renouvelé à chaque période de facturation, sauf si vous choisissez de l’annuler.
 unblockCode-subject = Code d’autorisation du compte
 unblockCode-title = Étiez-vous à l’origine de cette connexion ?
