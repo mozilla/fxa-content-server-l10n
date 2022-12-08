@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-11 20:52+0000\n"
+"POT-Creation-Date: 2022-12-08 22:10+0000\n"
 "PO-Revision-Date: 2021-11-21 01:02+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,6 +120,11 @@ msgstr "با تشکر از شما برای اتصال به پشتیبانی مو
 #: .es5/views/support.js:272
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "از اینکه با پشتیبانی Mozilla در مورد <b>%(escapedLowercaseTopic)s</b> برای <b>%(escapedSelectedProduct)s</b> تماس گرفتید متشکریم. ما در اسرع وقت از طریق ایمیل با شما تماس خواهیم گرفت."
+
+#. aria label for banner/tooltip dismiss button
+#: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+msgid "Close"
+msgstr ""
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
