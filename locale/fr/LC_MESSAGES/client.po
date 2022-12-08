@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-12-08 10:21+0000\n"
+"PO-Revision-Date: 2022-12-08 10:22+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -199,7 +199,7 @@ msgstr "Clé de récupération du compte Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "Courriel renvoyé. Ajoutez accounts@firefox.com à vos contacts pour assurer la bonne réception des messages."
+msgstr "E-mail renvoyé. Ajoutez accounts@firefox.com à vos contacts pour assurer la bonne réception des messages."
 
 #: .es5/views/mixins/save-options-mixin.js:59
 msgid "Copied"
@@ -451,7 +451,7 @@ msgstr "Cette adresse électronique ne peut pas être utilisée pour vous connec
 
 #: .es5/lib/auth-errors.js:216
 msgid "Failed to send email"
-msgstr "Échec de l’envoi du courriel"
+msgstr "Échec de l’envoi de l’e-mail"
 
 #: .es5/lib/auth-errors.js:220
 msgid "Valid code required"
@@ -1045,7 +1045,7 @@ msgstr "Retour"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "Courriel de réinitialisation envoyé"
+msgstr "E-mail de réinitialisation envoyé"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
@@ -1350,7 +1350,7 @@ msgstr "Signaler une connexion non autorisée ?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Vous avez reçu un courriel concernant une tentative d’accès à votre compte. Voulez-vous signaler cette activité comme suspecte ?"
+msgstr "Vous avez reçu un e-mail concernant une tentative d’accès à votre compte. Voulez-vous signaler cette activité comme suspecte ?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -1649,7 +1649,7 @@ msgstr "Renvoyer l’onglet"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr "L’onglet n’arrive pas ? Envoyez plutôt un courriel"
+msgstr "L’onglet n’arrive pas ? Envoyez plutôt un e-mail"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1725,7 +1725,7 @@ msgstr "Recevez des connaissances utiles directement dans votre boîte de récep
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr "Recevez par courriel des connaissances pratiques sur :"
+msgstr "Recevez par e-mail des connaissances pratiques sur :"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"

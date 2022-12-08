@@ -82,10 +82,10 @@ new-user-invalid-email-domain = Faute de frappe dans l’adresse e-mail ? { $do
 ## Component - PaymentConfirmation
 
 payment-confirmation-thanks-heading = Merci !
-payment-confirmation-thanks-heading-account-exists = Merci, vérifiez à présent votre courriel !
+payment-confirmation-thanks-heading-account-exists = Merci, consultez à présent vos e-mails !
 # $email (string) - The user's email.
 # $productName (String) - The name of the subscribed product.
-payment-confirmation-thanks-subheading = Un courriel de confirmation a été envoyé à { $email } avec les détails nécessaires pour savoir comment démarrer avec { $product_name }.
+payment-confirmation-thanks-subheading = Un e-mail de confirmation a été envoyé à { $email } avec les détails nécessaires pour savoir comment démarrer avec { $product_name }.
 # $email (string) - The user's email.
 payment-confirmation-thanks-subheading-account-exists = Vous recevrez un message à l’adresse { $email } avec des instructions pour configurer votre compte, ainsi que vos informations de paiement.
 payment-confirmation-order-heading = Détails de la commande
@@ -270,7 +270,7 @@ iap-already-subscribed = Vous êtes déjà abonné·e via { $mobileAppStore }.
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Une erreur système a entraîné l’échec de votre inscription à { $productName }. Votre mode de paiement n’a pas été débité. Veuillez réessayer.
 fxa-post-passwordless-sub-error = Votre abonnement est confirmé, mais la page de confirmation n’a pas pu être chargée. Veuillez vérifier votre courrier électronique pour configurer votre compte.
-newsletter-signup-error = Vous n’avez pas d’abonnement aux notifications par courriel de mise à jour du produit. Vous pouvez réessayer dans les paramètres de votre compte.
+newsletter-signup-error = Vous n’avez pas d’abonnement aux notifications par e-mail de mise à jour du produit. Vous pouvez réessayer dans les paramètres de votre compte.
 product-plan-error =
     .title = Erreur de chargement des forfaits
 product-profile-error =

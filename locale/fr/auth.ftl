@@ -254,8 +254,8 @@ downloadSubscription-content-2 = Commençons à utiliser toutes les fonctionnali
 downloadSubscription-link-action-2 = Lancez-vous
 fraudulentAccountDeletion-subject = Votre { -product-firefox-account } a été supprimé
 fraudulentAccountDeletion-title = Votre compte a été supprimé
-fraudulentAccountDeletion-content = Récemment, un { -product-firefox-account } a été créé avec cette adresse électronique et un abonnement facturé. Ainsi que nous le faisons pour tous les nouveaux comptes, nous vous demandons de confirmer votre compte en commençant par valider cette adresse électronique.
-fraudulentAccountDeletion-content-2 = Présentement, nous remarquons que ce compte n’a jamais été confirmé. Comme cette étape n’a pas été effectuée, nous ne pouvons être certains que l’abonnement était autorisé. En conséquence, le { -product-firefox-account } enregistré à cette adresse électronique a été supprimé, votre abonnement annulé et tous les frais remboursés.
+fraudulentAccountDeletion-content = Récemment, un { -product-firefox-account } a été créé avec cette adresse e-mail et un abonnement facturé. Ainsi que nous le faisons pour tous les nouveaux comptes, nous vous demandons de confirmer votre compte en commençant par valider cette adresse e-mail.
+fraudulentAccountDeletion-content-2 = Présentement, nous remarquons que ce compte n’a jamais été confirmé. Comme cette étape n’a pas été effectuée, nous ne pouvons être certains que l’abonnement était autorisé. En conséquence, le { -product-firefox-account } enregistré à cette adresse e-mail a été supprimé, votre abonnement annulé et tous les frais remboursés.
 fraudulentAccountDeletion-contact = Pour toute question, veuillez contacter notre <a data-l10n-name="mozillaSupportUrl">équipe d’assistance</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -333,11 +333,11 @@ postAddTwoStepAuthentication-title-2 = Vous avez activé l’authentification en
 postAddTwoStepAuthentication-from-device = Vous l’avez activée depuis :
 postAddTwoStepAuthentication-action = Gérer le compte
 postAddTwoStepAuthentication-code-required-2 = Un code de sécurité issu de votre application d’authentification est désormais requis à chaque connexion.
-postChangePrimary-subject = Adresse électronique principale mise à jour
-postChangePrimary-title = Nouvelle adresse électronique principale
+postChangePrimary-subject = Adresse e-mail principale mise à jour
+postChangePrimary-title = Nouvelle adresse e-mail principale
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description = Votre adresse électronique principale est désormais { $email }. Cette adresse est à présent votre nom d’utilisateur pour vous connecter à votre { -product-firefox-account } et elle recevra les notifications de sécurité et les confirmations de connexion.
+postChangePrimary-description = Votre adresse e-mail principale est désormais { $email }. Cette adresse est à présent votre nom d’utilisateur pour vous connecter à votre { -product-firefox-account } et elle recevra les notifications de sécurité et les confirmations de connexion.
 postChangePrimary-action = Gérer le compte
 postConsumeRecoveryCode-title-2 = Vous avez utilisé un code d’authentification de secours
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -359,11 +359,11 @@ postRemoveAccountRecovery-title-2 = Vous avez supprimé votre clé de récupéra
 postRemoveAccountRecovery-description-2 = Elle a été supprimée depuis :
 postRemoveAccountRecovery-action = Gérer le compte
 postRemoveAccountRecovery-invalid-2 = Il vous faut une clé de récupération de compte pour retrouver vos données de { -brand-firefox } si vous oubliez votre mot de passe.
-postRemoveSecondary-subject = L’adresse électronique secondaire a été supprimée
-postRemoveSecondary-title = L’adresse électronique secondaire a été supprimée
+postRemoveSecondary-subject = L’adresse e-mail secondaire a été supprimée
+postRemoveSecondary-title = L’adresse e-mail secondaire a été supprimée
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description = { $secondaryEmail } a été retiré des adresses électroniques secondaires de votre { -product-firefox-account }. Vous ne recevrez plus de notification ni de confirmation de connexion sur cette adresse électronique.
+postRemoveSecondary-description = { $secondaryEmail } a été retiré des adresses e-mail secondaires de votre { -product-firefox-account }. Vous ne recevrez plus de notification ni de confirmation de connexion sur cette adresse e-mail.
 postRemoveSecondary-action = Gérer le compte
 postRemoveTwoStepAuthentication-subject-line-2 = Authentification en deux étapes désactivée
 postRemoveTwoStepAuthentication-title-2 = Vous avez désactivé l’authentification en deux étapes
@@ -378,11 +378,11 @@ postVerify-sub-description = (Psst… Cela signifie également que vous pouvez o
 postVerify-subject-3 = Bienvenue dans { -brand-firefox } !
 postVerify-setup-2 = Connectez un autre appareil :
 postVerify-action-2 = Connecter un autre appareil
-postVerifySecondary-subject = Adresse électronique secondaire ajoutée
-postVerifySecondary-title = Adresse électronique secondaire ajoutée
+postVerifySecondary-subject = Adresse e-mail secondaire ajoutée
+postVerifySecondary-title = Adresse e-mail secondaire ajoutée
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-2 = L’adresse électronique secondaire { $secondaryEmail } de votre { -product-firefox-account } a été confirmée avec succès. Les notifications de sécurité et les confirmations de connexion seront désormais envoyées aux deux adresses électroniques.
+postVerifySecondary-content-2 = L’adresse e-mail secondaire { $secondaryEmail } de votre { -product-firefox-account } a été confirmée avec succès. Les notifications de sécurité et les confirmations de connexion seront désormais envoyées aux deux adresses e-mail.
 postVerifySecondary-action = Gérer le compte
 recovery-subject = Réinitialiser le mot de passe
 recovery-title-2 = Mot de passe oublié ?
