@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-10-12 07:21+0000\n"
+"PO-Revision-Date: 2022-12-08 10:04+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -399,7 +399,7 @@ msgstr "Le message nous a été renvoyé. Vérifiez que votre adresse électroni
 
 #: .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
-msgstr "Échec de l’envoi du message électronique"
+msgstr "Échec de l’envoi de l’e-mail"
 
 #: .es5/lib/auth-errors.js:156
 msgid "This email was already verified by another user"
