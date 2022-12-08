@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-12-08 10:22+0000\n"
+"PO-Revision-Date: 2022-12-08 10:32+0000\n"
 "Last-Translator: Théo Chevalier <theochevalier@pm.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -43,7 +43,7 @@ msgstr "%(permissionName)s (obligatoire)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
-msgstr "Adresse électronique"
+msgstr "Adresse e-mail"
 
 #: .es5/views/permissions.js:49
 msgid "Display name"
@@ -75,7 +75,7 @@ msgstr "Vous pouvez désormais effectuer des modifications à votre compte Firef
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr "Adresse électronique principale confirmée"
+msgstr "Adresse e-mail principale confirmée"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -83,7 +83,7 @@ msgstr "Les notifications du compte seront également envoyées à %(secondaryEm
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr "Adresse électronique secondaire confirmée"
+msgstr "Adresse e-mail secondaire confirmée"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -279,11 +279,11 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr "Adresse électronique principale vérifiée avec succès"
+msgstr "Adresse e-mail principale vérifiée avec succès"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr "Adresse électronique secondaire vérifiée avec succès"
+msgstr "Adresse e-mail secondaire vérifiée avec succès"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -299,7 +299,7 @@ msgstr "Erreur inattendue"
 
 #: .es5/lib/auth-errors.js:27
 msgid "The link you clicked to verify your email is expired."
-msgstr "Le lien de confirmation de l’adresse électronique sur lequel vous venez de cliquer a expiré."
+msgstr "Le lien de confirmation de l’adresse e-mail sur lequel vous venez de cliquer a expiré."
 
 #: .es5/lib/auth-errors.js:28 .es5/lib/profile-errors.js:21
 msgid "You've tried too many times. Try again later."
@@ -395,7 +395,7 @@ msgstr "Le message nous a été renvoyé"
 
 #: .es5/lib/auth-errors.js:148
 msgid "Your email was just returned. Mistyped email?"
-msgstr "Le message nous a été renvoyé. Vérifiez que votre adresse électronique est correcte."
+msgstr "Le message nous a été renvoyé. Vérifiez que votre adresse e-mail est correcte."
 
 #: .es5/lib/auth-errors.js:152
 msgid "Unable to deliver email"
@@ -415,7 +415,7 @@ msgstr "L’adresse alternative doit être différente de l’adresse de votre c
 
 #: .es5/lib/auth-errors.js:172
 msgid "You have reached the maximum allowed secondary emails"
-msgstr "Vous avez atteint le nombre maximal d’adresses électroniques secondaires autorisé"
+msgstr "Vous avez atteint le nombre maximal d’adresses e-mail secondaires autorisé"
 
 #: .es5/lib/auth-errors.js:176
 msgid "This email already exists on your account"
@@ -439,15 +439,15 @@ msgstr "Code de connexion non valide"
 
 #: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an unverified email"
-msgstr "Il est impossible de modifier l’adresse électronique principale lorsque la nouvelle adresse n’est pas vérifiée"
+msgstr "Il est impossible de modifier l’adresse e-mail principale lorsque la nouvelle adresse n’est pas vérifiée"
 
 #: .es5/lib/auth-errors.js:204 .es5/lib/auth-errors.js:212
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr "Il est impossible de modifier l’adresse électronique principale lorsque la nouvelle adresse n’est pas associée à ce compte"
+msgstr "Il est impossible de modifier l’adresse e-mail principale lorsque la nouvelle adresse n’est pas associée à ce compte"
 
 #: .es5/lib/auth-errors.js:208
 msgid "This email can not currently be used to login"
-msgstr "Cette adresse électronique ne peut pas être utilisée pour vous connecter pour le moment"
+msgstr "Cette adresse e-mail ne peut pas être utilisée pour vous connecter pour le moment"
 
 #: .es5/lib/auth-errors.js:216
 msgid "Failed to send email"
@@ -580,7 +580,7 @@ msgstr "Mot de passe valide requis"
 
 #: .es5/lib/auth-errors.js:356 .es5/lib/auth-errors.js:396 .es5/lib/auth-errors.js:412
 msgid "Valid email required"
-msgstr "Adresse électronique valide requise"
+msgstr "Adresse e-mail valide requise"
 
 #: .es5/lib/auth-errors.js:368
 msgid "A usable image was not found"
@@ -600,7 +600,7 @@ msgstr "Votre message de confirmation nous a été renvoyé. Vérifiez que votre
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "Veuillez saisir une adresse électronique valide. firefox.com ne fournit pas d’adresses électroniques."
+msgstr "Veuillez saisir une adresse e-mail valide. firefox.com ne fournit pas d’adresses e-mail."
 
 #: .es5/lib/auth-errors.js:408
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -696,7 +696,7 @@ msgstr "Redirection invalide"
 
 #: .es5/lib/auth-errors.js:613
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr "Faute de frappe dans l’adresse électronique ? %(domain)s ne propose pas d’adresses électroniques."
+msgstr "Faute de frappe dans l’adresse e-mail ? %(domain)s ne propose pas d’adresses e-mail."
 
 #: .es5/lib/auth-errors.js:617
 msgid "The image file size is too large to be uploaded."
@@ -712,7 +712,7 @@ msgstr "Configuration invalide"
 
 #: .es5/lib/email-domain-validator.js:40
 msgid "Mistyped email?"
-msgstr "Y a-t-il une faute de frappe dans l’adresse électronique ?"
+msgstr "Y a-t-il une faute de frappe dans l’adresse e-mail ?"
 
 #: .es5/lib/newsletters.js:25
 msgid "Test new Firefox products"
@@ -991,7 +991,7 @@ msgstr "Vous vous souvenez de votre mot de passe ? Connectez-vous"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "Adresse électronique principale déjà confirmée"
+msgstr "Adresse e-mail principale déjà confirmée"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
@@ -1003,7 +1003,7 @@ msgstr "Lien de confirmation expiré"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr "Le lien de confirmation de l’adresse électronique sur lequel vous venez de cliquer a expiré."
+msgstr "Le lien de confirmation de l’adresse e-mail sur lequel vous venez de cliquer a expiré."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
@@ -1092,7 +1092,7 @@ msgstr "Connexion à Firefox établie"
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr "Adresse électronique confirmée"
+msgstr "Adresse e-mail confirmée"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
 msgid "Complete your set-up"
@@ -1177,7 +1177,7 @@ msgstr "Synchronisez onglets, mots de passe et marque-pages partout où vous uti
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:8
 msgid "Enter your email"
-msgstr "Saisissez votre adresse électronique"
+msgstr "Saisissez votre adresse e-mail"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
@@ -1371,7 +1371,7 @@ msgstr ""
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
-msgstr "Adresse électronique"
+msgstr "Adresse e-mail"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1415,11 +1415,11 @@ msgstr "Le message de confirmation que nous avons envoyé à %(email)s a été r
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Si cette adresse électronique est valide, <a %(escapedSupportLinkAttrs)s>dites-le-nous</a> et nous pourrons vous aider à débloquer votre compte."
+msgstr "Si cette adresse e-mail est valide, <a %(escapedSupportLinkAttrs)s>dites-le-nous</a> et nous pourrons vous aider à débloquer votre compte."
 
 #: .es5/templates/sign_in_bounced.mustache:5
 msgid "No longer own that email? Create a new account"
-msgstr "Vous n’avez plus le contrôle de cette adresse électronique ? Créez un nouveau compte"
+msgstr "Vous n’avez plus le contrôle de cette adresse e-mail ? Créez un nouveau compte"
 
 #: .es5/templates/sign_in_password.mustache:11
 msgid ""
@@ -1495,7 +1495,7 @@ msgstr "Définissez votre mot de passe"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
-msgstr "Changer d’adresse électronique"
+msgstr "Changer d’adresse e-mail"
 
 #: .es5/templates/sign_up_password.mustache:5
 msgid "Repeat password"
@@ -1653,15 +1653,15 @@ msgstr "L’onglet n’arrive pas ? Envoyez plutôt un e-mail"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr "Ajouter une adresse électronique secondaire"
+msgstr "Ajouter une adresse e-mail secondaire"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "Une adresse électronique secondaire vous permet de regagner accès à votre compte si vous ne parvenez plus à vous connecter et que vous n’avez plus accès à %(escapedEmail)s."
+msgstr "Une adresse e-mail secondaire vous permet de regagner accès à votre compte si vous ne parvenez plus à vous connecter et que vous n’avez plus accès à %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
-msgstr "Adresse électronique secondaire"
+msgstr "Adresse e-mail secondaire"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:8 .es5/templates/post_verify/account_recovery/confirm_password.mustache:8
@@ -1678,7 +1678,7 @@ msgstr "Besoin d’un autre code ? Renvoyer"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr "Utiliser une adresse électronique différente"
+msgstr "Utiliser une adresse e-mail différente"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"

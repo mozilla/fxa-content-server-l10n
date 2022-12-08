@@ -67,14 +67,13 @@ new-user-sign-in-link = Vous avez déjà un compte { -brand-name-firefox } ? <a
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
 new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = Entrez votre adresse électronique
+    .label = Saisissez votre adresse e-mail
 new-user-confirm-email =
-    .label = Confirmez votre adresse électronique
+    .label = Confirmez votre adresse e-mail
 new-user-subscribe-product-updates = J’aimerais recevoir l’actualité des produits { -brand-name-firefox }
-new-user-subscribe-product-assurance = Nous utilisons votre adresse électronique uniquement pour créer votre compte. Nous ne la vendrons jamais à un tiers.
-new-user-email-validate = L’adresse électronique n’est pas valide
-new-user-email-validate-confirm = Les adresses électroniques ne correspondent pas
+new-user-subscribe-product-assurance = Nous utilisons votre adresse e-mail uniquement pour créer votre compte. Nous ne la vendrons jamais à un tiers.
+new-user-email-validate = L’adresse e-mail n’est pas valide
+new-user-email-validate-confirm = Les adresses e-mail ne correspondent pas
 new-user-already-has-account-sign-in = Vous avez déjà un compte. <a>Connectez-vous</a>
 # $domain (String) - the email domain provided by the user during sign up
 new-user-invalid-email-domain = Faute de frappe dans l’adresse e-mail ? { $domain } ne propose pas d’adresses e-mail.
@@ -269,7 +268,7 @@ no-subscription-change = Désolé. Vous ne pouvez pas modifier votre forfait d�
 iap-already-subscribed = Vous êtes déjà abonné·e via { $mobileAppStore }.
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Une erreur système a entraîné l’échec de votre inscription à { $productName }. Votre mode de paiement n’a pas été débité. Veuillez réessayer.
-fxa-post-passwordless-sub-error = Votre abonnement est confirmé, mais la page de confirmation n’a pas pu être chargée. Veuillez vérifier votre courrier électronique pour configurer votre compte.
+fxa-post-passwordless-sub-error = Votre abonnement est confirmé, mais la page de confirmation n’a pas pu être chargée. Veuillez consulter vos e-mails pour configurer votre compte.
 newsletter-signup-error = Vous n’avez pas d’abonnement aux notifications par e-mail de mise à jour du produit. Vous pouvez réessayer dans les paramètres de votre compte.
 product-plan-error =
     .title = Erreur de chargement des forfaits

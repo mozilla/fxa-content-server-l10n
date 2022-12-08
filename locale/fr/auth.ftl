@@ -604,15 +604,15 @@ verifyLoginCode-title-2 = Vous êtes-vous connecté·e via { $serviceName } ?
 verifyLoginCode-safe = Aidez-nous à protéger votre compte en confirmant votre connexion sur :
 verifyLoginCode-prompt-3 = Si oui, voici le code d’autorisation :
 verifyLoginCode-expiry-notice = Il expire dans 5 minutes.
-verifyPrimary-title-2 = Confirmer l’adresse électronique principale
+verifyPrimary-title-2 = Confirmer l’adresse e-mail principale
 verifyPrimary-description = Une requête pour modifier le compte a été effectuée depuis l’appareil suivant :
 verifyPrimary-subject = Confirmer l’adresse principale
-verifyPrimary-action-2 = Confirmez votre adresse électronique
+verifyPrimary-action-2 = Confirmez votre adresse e-mail
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 } :
-verifyPrimary-post-verify-2 = Une fois le compte confirmé, il sera possible de le modifier à partir de cet appareil pour, entre autres, ajouter une adresse électronique secondaire.
+verifyPrimary-post-verify-2 = Une fois le compte confirmé, il sera possible de le modifier à partir de cet appareil pour, entre autres, ajouter une adresse e-mail secondaire.
 verifySecondaryCode-subject = Confirmer l’adresse secondaire
-verifySecondaryCode-title-2 = Confirmer l’adresse électronique secondaire
-verifySecondaryCode-action-2 = Confirmez votre adresse électronique
+verifySecondaryCode-title-2 = Confirmer l’adresse e-mail secondaire
+verifySecondaryCode-action-2 = Confirmez votre adresse e-mail
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = Une demande d’utilisation de l’adresse { $email } en tant qu’adresse secondaire a été effectuée depuis le { -product-firefox-account } suivant :

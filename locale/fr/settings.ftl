@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Fermer le message
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -61,6 +57,10 @@ app-footer-terms-of-service = Conditions d’utilisation
 
 ##
 
+
+## Alert Bar
+
+alert-bar-close-message = Fermer le message
 
 ## User's avatar
 
@@ -226,7 +226,7 @@ modal-cancel-button = Annuler
 
 ## Modal Verify Session
 
-mvs-verify-your-email-2 = Confirmez votre adresse électronique
+mvs-verify-your-email-2 = Confirmez votre adresse e-mail
 mvs-enter-verification-code-2 = Saisissez votre code de confirmation
 # This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
@@ -336,7 +336,7 @@ delete-account-chk-box-1-v2 =
 delete-account-chk-box-2 =
     .label = Vous risquez de perdre des informations enregistrées et des fonctionnalités dans les produits { -brand-mozilla }
 delete-account-chk-box-3 =
-    .label = Réactiver le compte avec cette adresse électronique peut ne pas restaurer vos informations enregistrées
+    .label = Réactiver le compte avec cette adresse e-mail peut ne pas restaurer vos informations enregistrées
 delete-account-chk-box-4 =
     .label = Toutes les extensions et tous les thèmes que vous avez publiés sur addons.mozilla.org seront supprimés
 delete-account-continue-button = Continuer
@@ -381,9 +381,9 @@ recovery-key-success-alert-3 = Clé de récupération de compte créée
 add-secondary-email-step-1 = Étape 1 sur 2
 add-secondary-email-error-2 = Un problème est survenu lors de la création de cette adresse e-mail
 add-secondary-email-page-title =
-    .title = Adresse électronique secondaire
+    .title = Adresse e-mail secondaire
 add-secondary-email-enter-address =
-    .label = Saisissez votre adresse électronique
+    .label = Saisissez votre adresse e-mail
 add-secondary-email-cancel-button = Annuler
 add-secondary-email-save-button = Enregistrer
 
@@ -392,7 +392,7 @@ add-secondary-email-save-button = Enregistrer
 add-secondary-email-step-2 = Étape 2 sur 2
 verify-secondary-email-error-3 = Un problème est survenu lors de l’envoi du code de confirmation
 verify-secondary-email-page-title =
-    .title = Adresse électronique secondaire
+    .title = Adresse e-mail secondaire
 verify-secondary-email-verification-code-2 =
     .label = Saisissez votre code de confirmation
 verify-secondary-email-cancel-button = Annuler
@@ -461,7 +461,7 @@ profile-picture =
 profile-display-name =
     .header = Nom d’affichage
 profile-primary-email =
-    .header = Adresse électronique principale
+    .header = Adresse e-mail principale
 
 ##
 
@@ -509,7 +509,6 @@ rk-key-removed-2 = La clé de récupération a été supprimée
 rk-cannot-remove-key = La clé de récupération de votre compte n’a pas pu être supprimée.
 rk-refresh-key-1 = Actualiser la clé de récupération du compte
 rk-content-explain = Restauration de vos informations lorsque vous oubliez votre mot de passe.
-rk-content-reset-data = Pourquoi la réinitialisation de mon mot de passe réinitialise-t-elle aussi mes données ?
 rk-cannot-verify-session-4 = Un problème est survenu lors de la confirmation de votre session
 rk-remove-modal-heading-1 = Supprimer la clé de récupération du compte ?
 rk-remove-modal-content-1 = Si vous réinitialisez votre mot de passe, vous ne pourrez plus utiliser la clé de récupération de votre compte pour accéder à vos données. Cette action est irréversible.
@@ -518,15 +517,15 @@ rk-remove-error-2 = La clé de récupération de votre compte n’a pas pu être
 
 ## Secondary email sub-section on main Settings page
 
-se-heading = Adresse électronique secondaire
-    .header = Adresse électronique secondaire
+se-heading = Adresse e-mail secondaire
+    .header = Adresse e-mail secondaire
 se-cannot-refresh-email = Un problème est survenu lors de l’actualisation de cette adresse.
 se-cannot-resend-code-3 = Un problème est survenu lors de la réexpédition du code de confirmation
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-set-primary-successful-2 = { $email } est désormais votre adresse électronique principale
-se-set-primary-error-2 = Un problème est survenu lors de la modification de votre adresse électronique principale
+se-set-primary-successful-2 = { $email } est désormais votre adresse e-mail principale
+se-set-primary-error-2 = Un problème est survenu lors de la modification de votre adresse e-mail principale
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
