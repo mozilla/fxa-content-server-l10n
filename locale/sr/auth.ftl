@@ -407,12 +407,33 @@ subscriptionAccountFinishSetup-action-2 = Започните
 subscriptionAccountReminderFirst-subject = Подсећамо: довршите постављање вашег налога
 subscriptionAccountReminderFirst-title = Још не можете да приступите вашим претплатама
 subscriptionAccountReminderFirst-content-info-2 = { -product-firefox-account } који сте направили пре неколико дана још увек није верификован. Довршите поставку вашег налога што је пре могуће да бисте користили нове претплате.
+subscriptionAccountReminderFirst-content-select-2 = Изаберите „Направи лозинку“ да поставите нову лозинку и завршите верификацију налога.
 subscriptionAccountReminderFirst-action = Направи лозинку
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Последњи подсетник: поставите налог
 subscriptionAccountReminderSecond-title = Добродошли у { -brand-firefox }!
+subscriptionAccountReminderSecond-content-info-2 = { -product-firefox-account } који сте направили пре неколико дана још увек није верификован. Довршите поставку вашег налога што је пре могуће да бисте користили нове претплате.
+subscriptionAccountReminderSecond-content-select-2 = Изаберите „Направи лозинку“ да поставите нову лозинку и завршите верификацију налога.
 subscriptionAccountReminderSecond-action = Направи лозинку
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Ваша { $productName } претплата је отказана
 subscriptionCancellation-title = Тужни смо што одлазите
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content = Отказали смо вашу претплату на { $productName }. Ваша коначна уплата у износу { $invoiceTotal } је извршена { $invoiceDateOnly }. Услуга ће се наставити до краја тренутног обрачунског периода, што је { $serviceLastActiveDateOnly }.
+subscriptionCancellation-outstanding-content = Отказали смо вашу претплату на { $productName }. Ваша коначна уплата у износу { $invoiceTotal } је извршена { $invoiceDateOnly }. Услуга ће се наставити до краја тренутног обрачунског периода, што је { $serviceLastActiveDateOnly }.
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Пребацили сте се на { $productName }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Успешно сте се пребацили са { $productNameOld } на { $productName }.
 subscriptionDowngrade-content-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
 subscriptionRenewalReminder-content-closing = Срдачно,
 # Variables
