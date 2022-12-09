@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Κλείσιμο μηνύματος
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -73,20 +69,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts(case: "nom", capitalization: "upper") }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts(case: "nom", capitalization: "upper") }
-app-footer-mozilla-logo-label = Λογότυπο { -brand-mozilla }
-app-footer-privacy-notice = Σημείωση απορρήτου ιστοτόπου
-app-footer-terms-of-service = Όροι υπηρεσίας
+ready-continue = Συνέχεια
 
-##
+## Alert Bar
 
+alert-bar-close-message = Κλείσιμο μηνύματος
 
 ## User's avatar
 
@@ -550,7 +539,6 @@ rk-key-removed-2 = Το κλειδί ανάκτησης λογαριασμού �
 rk-cannot-remove-key = Δεν ήταν δυνατή η κατάργηση του κλειδιού ανάκτησης λογαριασμού.
 rk-refresh-key-1 = Ανανέωση κλειδιού ανάκτησης λογαριασμού
 rk-content-explain = Ανακτήστε τις πληροφορίες σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
-rk-content-reset-data = Γιατί η επαναφορά του κωδικού πρόσβασης διαγράφει τα δεδομένα μου;
 rk-cannot-verify-session-4 = Δυστυχώς, προέκυψε πρόβλημα με την επιβεβαίωση της συνεδρίας σας
 rk-remove-modal-heading-1 = Αφαίρεση κλειδιού ανάκτησης λογαριασμού;
 rk-remove-modal-content-1 =

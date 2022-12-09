@@ -1,5 +1,7 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
+app-general-err-heading = Γενικό σφάλμα εφαρμογής
+
 ## FxA React - Strings shared between multiple FxA products for application footer
 
 app-footer-mozilla-logo-label = Λογότυπο { -brand-mozilla }
@@ -17,7 +19,15 @@ app-page-title = { $title } | { -product-firefox-accounts(case: "nom", capitaliz
 
 ## FxA React - Strings shared between multiple FxA products for external link
 
+# Message for screen readers, to announce that external link will open in new window
+link-sr-new-window = Ανοίγει σε νέο παράθυρο
+
 ## FxA React - Strings shared between multiple FxA products for loading spinner
+
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = Φόρτωση…
 
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
+app-logo-alt =
+    .alt = Λογότυπο { -brand-firefox }
