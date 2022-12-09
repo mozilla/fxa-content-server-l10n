@@ -71,6 +71,10 @@ product-firefox-relay = Firefox Relay
 
 ## Ready component
 
+# This is a string that tells the user they can use whatever service prompted them to reset their password
+# Variables:
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Μπορείτε τώρα να χρησιμοποιήσετε το { $serviceName }
 ready-continue = Συνέχεια
 
 ## Alert Bar
