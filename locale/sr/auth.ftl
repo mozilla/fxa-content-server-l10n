@@ -449,6 +449,23 @@ subscriptionDowngrade-content-auto-renew = Ваша претплата ће се
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Ваша { $productName } претплата је отказана
 subscriptionFailedPaymentsCancellation-title = Ваша претплата је отказана
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Због вишеструких неуспешних плаћања, отказали смо вашу претплату на { $productName }. Да бисте добили приступ, поново се претплатите новим начином плаћања.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = { $productName } плаћање је одобрено
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Хвала што сте се претплатили на { $productName }
+subscriptionFirstInvoice-content-processing = Ваша уплата се тренутно обрађује и може потрајати до четири радна дана.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = У засебној е-поруци добићете упутства како да користите { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Следећи рачун: { $nextInvoiceDateOnly }
 subscriptionRenewalReminder-content-closing = Срдачно,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
