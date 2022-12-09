@@ -28,6 +28,8 @@ MAILER_DIR="./fxa-auth-server"
 CONTENT_DIR="./fxa-content-server"
 PAYMENTS_DIR="./fxa-payments-server"
 SETTINGS_DIR="./fxa-settings"
+REACT_DIR="./fxa-react"
+SHARED_DIR="./fxa-shared"
 L10N_DIR="./fxa-content-server-l10n"
 
 while [[ $# > 1 ]]
@@ -51,6 +53,14 @@ case $param in
     SETTINGS_DIR="$2"
     shift 2
     ;;
+    --react-repo)
+    REACT_DIR="$2"
+    shift 2
+    ;;
+    --shared-repo)
+    SHARED_DIR="$2"
+    shift 2
+    ;;
     --l10n-repo)
     L10N_DIR="$2"
     shift 2
@@ -69,6 +79,10 @@ printf "Checking $PAYMENTS_DIR.. "
 check_folder $PAYMENTS_DIR
 printf "Checking $SETTINGS_DIR.. "
 check_folder $SETTINGS_DIR
+printf "Checking $REACT_DIR.. "
+check_folder $REACT_DIR
+printf "Checking $SHARED_DIR.. "
+check_folder $SHARED_DIR
 printf "Checking $L10N_DIR.. "
 check_folder $L10N_DIR
 
@@ -118,9 +132,11 @@ sed -i'' -e 's/Language: sv_SE/Language: sv/g' "$L10N_DIR/locale/sv/LC_MESSAGES/
 
 # Fluent extraction
 
-cp $PAYMENTS_DIR/public/locales/en/*.ftl $L10N_DIR/locale/templates
-cp $SETTINGS_DIR/public/locales/en/*.ftl $L10N_DIR/locale/templates
-cp $MAILER_DIR/public/locales/en/*.ftl $L10N_DIR/locale/templates
+cp $PAYMENTS_DIR/public/locales/en/payments.ftl $L10N_DIR/locale/templates
+cp $SETTINGS_DIR/public/locales/en/settings.ftl $L10N_DIR/locale/templates
+cp $MAILER_DIR/public/locales/en/auth.ftl $L10N_DIR/locale/templates
+cp $REACT_DIR/public/locales/en/react.ftl $L10N_DIR/locale/templates
+cp $SHARED_DIR/l10n/branding.ftl $L10N_DIR/locale/templates
 
 # Pontoon will read from the "templates" directory but we must copy the FTL files
 # into "en" to ensure users with English will always see good fallback text.
