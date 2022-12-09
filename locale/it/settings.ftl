@@ -45,7 +45,7 @@ ready-confirmation = La password è stata reimpostata
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
 # $serviceName (String) - the service which caused the user to reset their password
-ready-use-service = Ora sei pronto per utilizzare { $serviceName }
+ready-use-service = Ora puoi utilizzare { $serviceName }
 ready-continue = Continua
 
 ## Alert Bar

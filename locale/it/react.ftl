@@ -31,4 +31,4 @@ app-loading-spinner-aria-label-loading = Caricamento in corso…
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
 app-logo-alt =
-    .alt = logo { -brand-firefox }
+    .alt = Logo di { -brand-firefox }

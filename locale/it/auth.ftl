@@ -398,7 +398,7 @@ subscriptionCancellation-content-2 = Abbiamo annullato il tuo abbonamento a { $p
 subscriptionCancellation-outstanding-content-2 = Abbiamo annullato il tuo abbonamento a { $productName }. Il pagamento finale di { $invoiceTotal } verrà effettuato il { $invoiceDateOnly }.
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
-subscriptionCancellation-content-continue = Il servizio continuerà fino alla fine del periodo di fatturazione corrente, che è { $serviceLastActiveDateOnly }.
+subscriptionCancellation-content-continue = Il servizio continuerà fino alla fine del periodo di fatturazione corrente ({ $serviceLastActiveDateOnly }).
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Sei passato a { $productName }
