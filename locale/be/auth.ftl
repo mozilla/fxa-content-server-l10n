@@ -1,37 +1,3 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
-
-## Brands used in fxa-auth-server.
-##
-## Brands cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
-# "accounts" can be localized, "Firefox" must be treated as a brand.
-# 'Firefox accounts' refers to the service
--product-firefox-accounts = Уліковыя запісы Firefox
-# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Уліковы запіс Firefox
-# This product should be treated as a brand.
--product-firefox-cloud = Firefox Cloud
-# Should should be treated as a brand.
--brand-paypal = PayPal
-# Should should be treated as a brand.
--app-store = App Store
-# Should should be treated as a brand.
--google-play = Google Play
-
 ## Non-email strings
 
 session-verify-send-push-title = Уваходзіце ў { -product-firefox-accounts }?
@@ -394,7 +360,7 @@ subscriptionAccountDeletion-title = Шкада, што вы сыходзіце
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled = Вы нядаўняе выдалілі свой { -product-firefox-account }. У выніку, мы скасавалі вашу падпіску на { $productName }. Ваш апошні плацёж ў памеры { $invoiceTotal } быў здзейснены { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled = Вы нядаўняе выдалілі свой { -product-firefox-account }. У выніку, мы скасавалі вашу падпіску на { $productName }. Ваш апошні плацеж у памеры { $invoiceTotal } быў здзейснены { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Вітаем у { $productName }: Калі ласка, усталюйце пароль.
@@ -420,13 +386,17 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Ваша падпіска на { $productName } была скасавана
 subscriptionCancellation-title = Шкада, што вы сыходзіце
+
+## Variables
+##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+
+subscriptionCancellation-content-2 = Мы скасавалі вашу падпіску на { $productName }. Ваш апошні плацеж у памеры { $invoiceTotal } быў выплачаны { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Мы скасавалі вашу падпіску на { $productName }. Ваш апошні плацеж у памеры { $invoiceTotal } будзе выплачаны { $invoiceDateOnly }.
 # Variables
-#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
-subscriptionCancellation-content = Мы адмянілі вашу падпіску на { $productName }. Ваш апошні плацеж на суму { $invoiceTotal } быў выплачаны { $invoiceDateOnly }. Ваша паслуга будзе заставацца актыўнай на працягу бягучага аплачанага перыяду, які заканчваецца { $serviceLastActiveDateOnly }.
-subscriptionCancellation-outstanding-content = Мы адмянілі вашу падпіску на { $productName }. Ваш апошні плацеж на суму { $invoiceTotal } будзе выплачаны { $invoiceDateOnly }. Ваша паслуга будзе заставацца актыўнай на працягу бягучага аплачанага перыяду, які заканчваецца { $serviceLastActiveDateOnly }.
+subscriptionCancellation-content-continue = Ваша абслугоўванне будзе працягвацца да канца вашага бягучага разліковага перыяду, да { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Вы перайшлі на { $productName }
