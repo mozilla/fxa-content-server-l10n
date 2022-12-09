@@ -328,14 +328,43 @@ postAddTwoStepAuthentication-action = Управљајте налогом
 postAddTwoStepAuthentication-code-required-2 = Од сада, од вас ће се тражити да унесете код из апликације за аутентификацију сваки пут када се пријавите.
 postChangePrimary-subject = Примарна адреса е-поште је ажурирана
 postChangePrimary-title = Нова примарна адреса е-поште
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Успешно сте променили своју примарну адресу е-поште у { $email }. Ова адреса је сада ваше корисничко име за пријављивање на { -product-firefox-account } и за примање безбедносних обавештења и потврда за пријаву.
 postChangePrimary-action = Управљајте налогом
+postConsumeRecoveryCode-title-2 = Искористили сте резервни приступни код
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Искоришћен је на:
 postConsumeRecoveryCode-action = Управљајте налогом
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] Остао је 1 резервни приступни код
+        [few] Остала су { $numberRemaining } резервна приступна кода
+       *[other] Остало је { $numberRemaining } резервних приступних кодова
+    }
+postNewRecoveryCodes-subject-2 = Нови резервни приступни кодови су направљени
+postNewRecoveryCodes-title-2 = Направили сте нове резервне приступне кодове
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Направљени су на:
 postNewRecoveryCodes-action = Управљајте налогом
+postRemoveAccountRecovery-subject-2 = Кључ за опоравак налога је обрисан
+postRemoveAccountRecovery-title-2 = Обрисали сте кључ за опоравак налога.
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Обрисан је са:
 postRemoveAccountRecovery-action = Управљајте налогом
+postRemoveAccountRecovery-invalid-2 = Ако заборавите лозинку, биће вам потребан кључ за опоравак налога да опоравите ваше { -brand-firefox } податке.
 postRemoveSecondary-subject = Уклоњена је секундарна адреса е-поште
 postRemoveSecondary-title = Уклоњена је секундарна адреса е-поште
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description = Успешно сте уклонили { $secondaryEmail }, секундарну адресу вашег { -product-firefox-account }-а. Безбедносна обавештења и потврде пријаве се неће више слати на ову адресу е-поште.
 postRemoveSecondary-action = Управљајте налогом
+postRemoveTwoStepAuthentication-subject-line-2 = Верификација у два корака је искључена
+postRemoveTwoStepAuthentication-title-2 = Искључили сте верификацију у два корака
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Онемогућили сте је са:
 postRemoveTwoStepAuthentication-action = Управљајте налогом
+postRemoveTwoStepAuthentication-not-required-2 = Када се пријавите, од вас се више неће тражити да унесете код из апликације за аутентификацију.
 postVerifySecondary-subject = Секундарна адреса додата
 postVerifySecondary-title = Секундарна адреса додата
 postVerifySecondary-action = Управљајте налогом
