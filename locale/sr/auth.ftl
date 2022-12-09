@@ -365,13 +365,36 @@ postRemoveTwoStepAuthentication-title-2 = Искључили сте верифи
 postRemoveTwoStepAuthentication-from-device = Онемогућили сте је са:
 postRemoveTwoStepAuthentication-action = Управљајте налогом
 postRemoveTwoStepAuthentication-not-required-2 = Када се пријавите, од вас се више неће тражити да унесете код из апликације за аутентификацију.
+postVerify-sub-title-3 = Драго нам је што вас видимо!
+postVerify-title-2 = Желите да видите исте картице на два уређаја?
+postVerify-description-2 = Једноставно је! Само инсталирајте { -brand-firefox } на други уређај и пријавите се да бисте синхронизовали. Чиста магија!
+postVerify-sub-description = (Псст… ово такође значи да се можете пријавити било где да видите ваше обележиваче, лозинке и друге { -brand-firefox } податке.)
+postVerify-subject-3 = Добродошли у { -brand-firefox }!
+postVerify-setup-2 = Повежите други уређај:
+postVerify-action-2 = Повежи други уређај
 postVerifySecondary-subject = Секундарна адреса додата
 postVerifySecondary-title = Секундарна адреса додата
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Успешно сте додали { $secondaryEmail } као секундарну адресу е-поште за { -product-firefox-account }. Од сада ће се на ову адресу слати безбедносна обавештења и е-поруке за потврде пријава.
 postVerifySecondary-action = Управљајте налогом
 recovery-subject = Ресетујте лозинку
 recovery-title-2 = Заборавили сте лозинку?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Примили смо захтев за промену ваше { -product-firefox-account } лозинке са:
+recovery-new-password-button = Направите нову лозинку кликом на дугме испод. Ова веза истиче за један сат.
+recovery-copy-paste = Направите нову лозинку тако што ћете копирати и налепити URL испод у ваш прегледач. Ова веза истиче за један сат.
 recovery-action = Направи нову лозинку
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Ваша { $productName } претплата је отказана
 subscriptionAccountDeletion-title = Тужни смо што одлазите
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Недавно сте избрисали ваш { -product-firefox-account }. Стога смо отказали вашу претплату на { $productName }. Ваша коначна уплата у износу { $invoiceTotal } извршена је { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Добродошли у { $productName }: Поставите вашу лозинку.
