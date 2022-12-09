@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-12-09 11:41+0000\n"
+"PO-Revision-Date: 2022-12-09 11:50+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -1184,15 +1184,15 @@ msgstr "Настави на <div class=\"graphic %(serviceLogo)s\">%(serviceName
 
 #: .es5/templates/index.mustache:9
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Пријави или региструј се"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Firefox налог такође откључава приступ Mozilla производима за заштиту приватности."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "Сачувај резервне приступне кодове"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1223,15 +1223,15 @@ msgstr "Откажите постављање"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Потврди резервни приступни код"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Да будете сигурни да и даље можете да се пријавите на свој налог ако изгубите уређај, унесите било који од претходно сачуваних резервних приступних кодова."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Резервни приступни код"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1329,7 +1329,7 @@ msgstr "Успешно"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Спремни сте да користите <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1341,7 +1341,7 @@ msgstr "Ваш налог је спреман!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Направи нови кључ за опоравак налога"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1364,6 +1364,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>НАПОМЕНА:</span> Ресетовање лозинке ресетује ваш цели налог. Неки од ваших личних података, укључујући историју, обележиваче и лозинке, могу бити изгубљени. То је због тога што ваше податке "
+"шифрујемо лозинком да бисмо заштитили вашу приватност. Ваше претплате и Pocket подаци неће бити погођени."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1387,7 +1389,7 @@ msgstr "Назив догађаја"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Потврђено"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1425,18 +1427,23 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"              Ако наставите, прихватате:<br />\n"
+"              Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">услове коришћења</a> и <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">политику приватности</a><br />\n"
+"              Firefox <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">услове коришћења</a> и <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">политику приватности</a>.\n"
+"            "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Унеси резервни приступни код"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Унесите резервни код који сте добили када сте подесили верификацију у два корака."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Унесите 10-цифрени резервни приступни код"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1452,11 +1459,11 @@ msgstr "Наш тим је обавештен. Овакви извешаји н�
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Firefox account</span>"
-msgstr ""
+msgstr "Унесите верификациони код за <span class=\"card-subheader\">ваш Firefox налог</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Унесите код који је послан на %(email)s у року од 5 минута."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1484,7 +1491,7 @@ msgstr "Унесите ауторизациони код"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Поставите лозинку"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1496,7 +1503,7 @@ msgstr "Поновите лозинку"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Ова лозинка вам је потребна за приступ свим шифрованим подацима које чувате код нас.<br class=\"mb-3\">Ресетовање може довести до губитка података као што су лозинке или обележивачи."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
