@@ -1,40 +1,3 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
-## Brands used in fxa-auth-server.
-##
-## Brands cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
-
-# "accounts" can be localized, "Firefox" must be treated as a brand.
-# 'Firefox accounts' refers to the service
--product-firefox-accounts = Firefox accounts
-
-# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox account
-
-# This product should be treated as a brand.
--product-firefox-cloud = Firefox Cloud
-
-# Should should be treated as a brand.
--brand-paypal = PayPal
-# Should should be treated as a brand.
--app-store = App Store
-# Should should be treated as a brand.
--google-play = Google Play
-
 ## Non-email strings
 
 session-verify-send-push-title = Logging in to { -product-firefox-accounts }?
@@ -470,15 +433,20 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionCancellation-subject = Your { $productName } subscription has been cancelled
+subscriptionCancellation-subject = Your { $productName } subscription has been canceled
 subscriptionCancellation-title = Sorry to see you go
+
+## Variables
+##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+
+subscriptionCancellation-content-2 = We’ve canceled your { $productName } subscription. Your final payment of { $invoiceTotal } was paid on { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = We’ve canceled your { $productName } subscription. Your final payment of { $invoiceTotal } will be paid on { $invoiceDateOnly }.
+
 # Variables
-#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
-subscriptionCancellation-content = We’ve cancelled your { $productName } subscription. Your final payment of { $invoiceTotal } was paid on { $invoiceDateOnly }. Your service will continue until the end of your current billing period, which is { $serviceLastActiveDateOnly }.
-subscriptionCancellation-outstanding-content = We’ve cancelled your { $productName } subscription. Your final payment of { $invoiceTotal } will be paid on { $invoiceDateOnly }. Your service will continue until the end of your current billing period, which is { $serviceLastActiveDateOnly }.
+subscriptionCancellation-content-continue = Your service will continue until the end of your current billing period, which is { $serviceLastActiveDateOnly }.
 
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

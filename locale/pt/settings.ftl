@@ -419,6 +419,8 @@ tfa-enter-secret-key = Introduza esta chave secreta na sua aplicação de autent
 tfa-enter-totp = Agora introduza o código de segurança da aplicação de autenticação.
 tfa-input-enter-totp =
     .label = Introduzir código de segurança
+tfa-enter-recovery-code-1 =
+    .label = Insira um código de autenticação de recuperação
 
 ##
 
@@ -499,6 +501,7 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Atualizar e-mail
+se-unverified-2 = não confirmado
 # Button to make secondary email the primary
 se-make-primary = Tornar principal
 se-default-content = Aceda à sua conta se não conseguir iniciar sessão no seu e-mail principal.
@@ -534,6 +537,7 @@ tfa-row-change-modal-explain = Não poderá desfazer esta ação.
 
 auth-error-102 = Conta desconhecida
 auth-error-103 = Palavra-passe incorreta
+auth-error-105-2 = Código de confirmação inválido
 auth-error-110 = Código inválido
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
@@ -543,6 +547,7 @@ auth-error-110 = Código inválido
 #                          as part of the string.
 #                           (for example: "in 15 minutes")
 auth-error-114 = Tentou demasiadas vezes. Tente novamente depois de { $retryAfter }.
+auth-error-138-2 = Sessão não confirmada
 auth-error-139 = O e-mail secundário tem de ser diferente do e-mail da sua conta
 auth-error-155 = Código TOTP não encontrado
 auth-error-1008 = A sua nova palavra-passe tem de ser diferente
