@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-12-09 11:21+0000\n"
+"PO-Revision-Date: 2022-12-09 11:30+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -907,7 +907,7 @@ msgstr "Наставите на %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr ""
+msgstr "Унесите једнократни кључ за опоравак, који сте претходно сачували, како би повратили приступ вашем Firefox налогу."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -916,16 +916,16 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "Унеси кључ за опоравак налога"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:4 .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:6
 msgid "Confirm account recovery key"
-msgstr ""
+msgstr "Потврди кључ за опоравак налога"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "Немате кључ за опоравак налога?"
 
 #: .es5/templates/cannot_create_account.mustache:1
 msgid "Cannot create account"
@@ -933,7 +933,7 @@ msgstr "Налог се не може направити"
 
 #: .es5/templates/cannot_create_account.mustache:2
 msgid "You must meet certain age requirements to create a Firefox&nbsp;account."
-msgstr ""
+msgstr "Морате да испуните добне услове да бисте направили Firefox&nbsp;налог."
 
 #: .es5/templates/cannot_create_account.mustache:4 .es5/templates/cookies_disabled.mustache:3
 msgid "Learn more"
@@ -968,10 +968,12 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>НАПОМЕНА:</span> Ресетовање лозинке ресетује ваш цели налог. Неки од ваших личних података, укључујући историју, обележиваче и лозинке, могу бити изгубљени. То је због тога што ваше податке "
+"шифрујемо лозинком да бисмо заштитили вашу приватност. Ваше претплате и Pocket подаци неће бити погођени."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Ваш налог је успешно враћен помоћу кључа за опоравак налога. Поставите нову лозинку да бисте шифровали податке и чувајте је на безбедном месту."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -995,23 +997,23 @@ msgstr "Пријава је већ потврђена"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Веза за потврду је истекла"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Веза коју сте кликнули за потврду е-поште је истекла."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Кликните овде да примите нову везу за потврду"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Веза за потврду је оштећена"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Грешка при потврди"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
