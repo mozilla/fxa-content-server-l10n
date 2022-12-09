@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-12-09 12:01+0000\n"
+"PO-Revision-Date: 2022-12-09 12:10+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -1744,7 +1744,7 @@ msgstr "Настави на %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
-msgstr ""
+msgstr "Унеси лозинку"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:9 .es5/templates/post_verify/account_recovery/confirm_password.mustache:1
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:4
@@ -1753,7 +1753,7 @@ msgstr "Потврдите лозинку"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "Create Password"
-msgstr ""
+msgstr "Направи лозинку"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -1837,7 +1837,7 @@ msgstr "<span class=\"number\">4</span>Пријавите се у ваш нал�
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Заштите ваше податке путем кључа за опоравак налога"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
@@ -1849,19 +1849,19 @@ msgstr "Будући да је ова информација пресудна з
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "Прибави кључ за опоравак налога"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "Потврдите лозинку за %(escapedEmail)s да бисте створили кључ за опоравак налога."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Унесите кључ за опоравак налога да потврдите да сте сачували копију."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "Сачувај кључ за опоравак налога"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -1869,11 +1869,11 @@ msgstr "Готово"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Зашто морам да направим овај налог? <a %(escapedSuggestionAttrs)s>Сазнајте овде</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "Колико имате година? Да сазнате зашто вас то питамо, пратите „зашто питамо” везу испод."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1881,7 +1881,7 @@ msgstr "Колико имате година?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "Зашто питамо?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
