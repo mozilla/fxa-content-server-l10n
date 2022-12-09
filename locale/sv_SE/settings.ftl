@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Stäng meddelande
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +35,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Ditt lösenord har återställts
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla } logotyp
-app-footer-privacy-notice = Webbplatsens sekretesspolicy
-app-footer-terms-of-service = Användarvillkor
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Du kan nu använda { $serviceName }
+ready-continue = Fortsätt
 
-##
+## Alert Bar
 
+alert-bar-close-message = Stäng meddelande
 
 ## User's avatar
 
@@ -516,7 +510,6 @@ rk-key-removed-2 = Nyckeln för kontoåterställning har tagits bort
 rk-cannot-remove-key = Din kontoåterställningsnyckel kunde inte tas bort.
 rk-refresh-key-1 = Uppdatera nyckel för kontoåterställning
 rk-content-explain = Återställ din information när du glömmer lösenordet.
-rk-content-reset-data = Varför återställs mina data när jag återställer mitt lösenord?
 rk-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session
 rk-remove-modal-heading-1 = Ta bort nyckel för kontoåterställning?
 rk-remove-modal-content-1 =
