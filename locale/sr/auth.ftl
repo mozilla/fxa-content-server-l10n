@@ -401,7 +401,12 @@ subscriptionAccountFinishSetup-subject = Добродошли у { $productName 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Добродошли у { $productName }
+subscriptionAccountFinishSetup-content-processing = Ваша уплата се обрађује и може потрајати до 4 радна дана да се заврши. Претплата ће се аутоматски обновити на крају сваког обрачунског циклуса осим ако је ви не откажете.
+subscriptionAccountFinishSetup-content-create-2 = Даље, направите { -product-firefox-account } лозинку да почнете са коришћењем ваше нове претплате.
 subscriptionAccountFinishSetup-action-2 = Започните
+subscriptionAccountReminderFirst-subject = Подсећамо: довршите постављање вашег налога
+subscriptionAccountReminderFirst-title = Још не можете да приступите вашим претплатама
+subscriptionAccountReminderFirst-content-info-2 = { -product-firefox-account } који сте направили пре неколико дана још увек није верификован. Довршите поставку вашег налога што је пре могуће да бисте користили нове претплате.
 subscriptionAccountReminderFirst-action = Направи лозинку
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-title = Добродошли у { -brand-firefox }!
