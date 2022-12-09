@@ -466,6 +466,43 @@ subscriptionFirstInvoice-content-auto-renew = Ваша претплата ће �
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Следећи рачун: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Кредитна картица за { $productName } је истекла или ће ускоро истећи
+subscriptionPaymentExpired-title-1 = Ваша кредитна картица је истекла или ће ускоро истећи.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = Кредитна картица коју користите за плаћање за { $productName } је истекла или ће ускоро истећи.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = { $productName } плаћање није успело
+subscriptionPaymentFailed-title = Жао нам је, имамо проблема с вашом уплатом
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Имали смо проблем с вашом последњом уплатом за { $productName }.
+subscriptionPaymentFailed-content-outdated = Могуће је да је ваша кредитна картица истекла или је тренутни начин плаћања застарео.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Потребно је ажурирање информација о плаћању за { $productName }
+subscriptionPaymentProviderCancelled-title = Жао нам је, имамо проблема са вашим начином плаћања
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Открили смо проблем са вашим начином плаћања за { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Могуће је да је ваша кредитна картица истекла или је тренутни начин плаћања застарео.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = { $productName } претплата је поново активирана
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Хвала што сте поново активирали вашу { $productName } претплату!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Ваш циклус наплате и плаћања остаће исти. Следећи рачун ће износити { $invoiceTotal }, { $nextInvoiceDateOnly }. Ваша претплата ће се аутоматски обнављати сваки циклус наплате уколико га претходно не откажете.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Обавештење у аутоматском обнављању { $productName }-а
+subscriptionRenewalReminder-title = Ваша претплата ће бити ускоро обновљена
 subscriptionRenewalReminder-content-closing = Срдачно,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
