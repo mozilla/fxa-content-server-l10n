@@ -302,7 +302,20 @@ passwordResetAccountRecovery-title-2 = Успешно ресетовање ло�
 passwordResetAccountRecovery-description-2 = Променили сте лозинку користећи кључ за опоравак налога са:
 # Text for button action to initiate creating new account recovery key
 passwordResetAccountRecovery-action-2 = Направи нови кључ за опоравак налога
+passwordResetAccountRecovery-regen-required-mjml-1 = Мораћете поново да се пријавите на свим синхронизованим уређајима. Не заборавите да направите нови кључ за опоравак налога да замените већ коришћени.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Мораћете поново да се пријавите на свим синхронизованим уређајима. Не заборавите да направите нови кључ за опоравак налога да замените већ коришћени:
+postAddAccountRecovery-subject-2 = Кључ за опоравак налога је направљен
+postAddAccountRecovery-title2 = Направили сте нови кључ за опоравак налога
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Нови кључ је направљен са:
+# This is asking whether the person who took the action is the recipient of the email.
+postAddAccountRecovery-not-you = Нисте ви?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Обришите нови кључ</a> и <a data-l10n-name="passwordChangeLink">промените лозинку</a>
 postAddAccountRecovery-action = Управљајте налогом
+postAddAccountRecovery-delete-key = Обриши нови кључ:
+postAddAccountRecovery-changd-password = Промени лозинку:
+postAddLinkedAccount-subject = Нови налог је повезан на { -brand-firefox }
 postAddTwoStepAuthentication-action = Управљајте налогом
 postChangePrimary-subject = Примарна адреса е-поште је ажурирана
 postChangePrimary-title = Нова примарна адреса е-поште
