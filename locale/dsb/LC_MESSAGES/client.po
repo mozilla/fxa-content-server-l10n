@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-11 20:52+0000\n"
+"POT-Creation-Date: 2022-12-09 18:10+0000\n"
 "PO-Revision-Date: 2022-09-16 12:29+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,6 +121,11 @@ msgstr "Wjeliki źěk, až sćo se wobrośił pśez <b>%(escapedLowercaseTopic)s
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 "Wjeliki źěk, až sćo se wobrośił pśez <b>%(escapedLowercaseTopic)s</b> za <b>%(escapedSelectedProduct)s</b> na pomoc Mozilla. Stajijomy se pśez wašu e-mailowu adresu tak skóro ako móžno do zwiska."
+
+#. aria label for banner/tooltip dismiss button
+#: .es5/views/tooltip.js:85 .es5/templates/partial/account-suggestion.mustache:2 .es5/templates/partial/sync-suggestion.mustache:2
+msgid "Close"
+msgstr ""
 
 #: .es5/views/post_verify/verified.js:53
 msgid "Your sync data is protected"
