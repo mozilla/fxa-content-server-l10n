@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-12-02 15:05+0000\n"
+"PO-Revision-Date: 2022-12-09 11:21+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -43,7 +43,7 @@ msgstr "%(permissionName)s (обавезно)"
 
 #: .es5/views/permissions.js:45
 msgid "Email address"
-msgstr "Имејл-адреса"
+msgstr "Адреса е-поште"
 
 #: .es5/views/permissions.js:49
 msgid "Display name"
@@ -75,7 +75,7 @@ msgstr "Сада сте спремни за прављење измена у в�
 
 #: .es5/views/ready.js:74
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Примарна е-пошта је потврђена"
 
 #: .es5/views/ready.js:77
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -83,7 +83,7 @@ msgstr "Обавештења о налогу ће сада такође бити
 
 #: .es5/views/ready.js:79 .es5/views/post_verify/verified.js:61
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Секундарна е-пошта је потврђена"
 
 #: .es5/views/ready.js:84 .es5/templates/connect_another_device.mustache:6 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -95,7 +95,7 @@ msgstr "Сада сте спремни да користите %(serviceName)s"
 
 #: .es5/views/ready.js:89
 msgid "Account confirmed"
-msgstr ""
+msgstr "Налог је потврђен"
 
 #: .es5/views/ready.js:94
 msgid "Connected"
@@ -187,7 +187,7 @@ msgstr "Прикажи лозинку"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:77
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Firefox резервни приступни кодови"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:142
 msgid "Two-step authentication enabled"
@@ -195,7 +195,7 @@ msgstr "Аутентификација у два корака је омогућ�
 
 #: .es5/views/mixins/recovery-key-mixin.js:30
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Firefox кључ за опоравак налога"
 
 #: .es5/views/mixins/resend-mixin.js:53
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -219,11 +219,11 @@ msgstr "Одштампано"
 
 #: .es5/views/behaviors/settings.js:40 .es5/models/auth_brokers/web.js:35
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Налог је успешно потврђен"
 
 #: .es5/models/support-form.js:25
 msgid "payment & billing"
-msgstr ""
+msgstr "плаћање и наплата"
 
 #: .es5/models/support-form.js:25
 msgid "account issues"
@@ -235,7 +235,7 @@ msgstr "технички проблеми"
 
 #: .es5/models/support-form.js:25
 msgid "provide feedback / request features"
-msgstr ""
+msgstr "шаљи повратне информације / затражи функције"
 
 #: .es5/models/support-form.js:25
 msgid "not listed"
@@ -279,11 +279,11 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:110
 msgid "Primary email verified successfully"
-msgstr "Примарна имејл-адреса је потврђена"
+msgstr "Примарна е-пошта је успешно потврђена"
 
 #: .es5/models/auth_brokers/base.js:114
 msgid "Secondary email verified successfully"
-msgstr "Секундарна имејл-адреса је потврђена"
+msgstr "Секундарна е-пошта је успешно потврђена"
 
 #: .es5/models/auth_brokers/web.js:38
 msgid "Password reset successfully"
@@ -471,7 +471,7 @@ msgstr "TOTP токен није пронађен"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "Резервни приступни код није пронађен"
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
@@ -479,11 +479,11 @@ msgstr "Наредба уређаја није доступна"
 
 #: .es5/lib/auth-errors.js:244
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Кључ за опоравак налога није пронађен"
 
 #: .es5/lib/auth-errors.js:248
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Неисправан кључ за опоравак налога"
 
 #: .es5/lib/auth-errors.js:252 .es5/lib/auth-errors.js:260
 msgid "This request requires two step authentication enabled on your account."
@@ -519,7 +519,7 @@ msgstr "Ажурирање је одбијено, покушајте понов�
 
 #: .es5/lib/auth-errors.js:288
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "Неисправан или неважећи верификациони код"
 
 #: .es5/lib/auth-errors.js:292 .es5/lib/auth-errors.js:493
 msgid "Server busy, try again soon"
@@ -596,7 +596,7 @@ msgstr "Потребна је исправна URL адреса"
 
 #: .es5/lib/auth-errors.js:392
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Верификациона е-пошта је управо враћена. Погрешна адреса?"
 
 #: .es5/lib/auth-errors.js:400
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -676,15 +676,15 @@ msgstr "Неисправан код за аутентификацију у дв�
 
 #: .es5/lib/auth-errors.js:567
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Потребан је резервни приступни код"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Неисправан резервни приступни код"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Потребан је кључ за опоравак налога"
 
 #: .es5/lib/auth-errors.js:589
 msgid "Please enter verification code"
@@ -846,7 +846,7 @@ msgstr ""
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Помоћ</a>"
 
 #: .es5/lib/strings.js:34
 msgid "Get the latest news about Mozilla and Firefox."
@@ -894,7 +894,7 @@ msgstr "Примите нову везу"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Ресетуј лозинку кључем за опоравак налога"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
