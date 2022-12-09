@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Zapri sporočilo
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -80,20 +76,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Vaše geslo je ponastavljeno
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Logotip { -brand-mozilla(sklon: "rodilnik") }
-app-footer-privacy-notice = Obvestilo o zasebnosti spletnega mesta
-app-footer-terms-of-service = Pogoji storitve
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Zdaj ste pripravljeni na uporabo { $serviceName }
+ready-continue = Nadaljuj
 
-##
+## Alert Bar
 
+alert-bar-close-message = Zapri sporočilo
 
 ## User's avatar
 
@@ -555,7 +549,6 @@ rk-key-removed-2 = Obnovitveni ključ za račun odstranjen
 rk-cannot-remove-key = Ključa za obnovitev računa ni bilo mogoče odstraniti.
 rk-refresh-key-1 = Osveži ključ za obnovitev računa
 rk-content-explain = Obnovite svoje podatke, če pozabite geslo.
-rk-content-reset-data = Zakaj ponastavitev gesla izbriše moje podatke?
 rk-cannot-verify-session-4 = Oprostite, prišlo je do težave pri potrjevanju vaše seje
 rk-remove-modal-heading-1 = Odstrani ključ za obnovitev računa?
 rk-remove-modal-content-1 =

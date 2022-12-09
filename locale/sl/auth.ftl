@@ -1,69 +1,3 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
-
-## Brands used in fxa-auth-server.
-##
-## Brands cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla =
-    { $sklon ->
-       *[imenovalnik] Mozilla
-        [rodilnik] Mozille
-        [dajalnik] Mozilli
-        [tozilnik] Mozillo
-        [mestnik] Mozilli
-        [orodnik] Mozillo
-    }
--brand-firefox =
-    { $sklon ->
-       *[imenovalnik] Firefox
-        [rodilnik] Firefoxa
-        [dajalnik] Firefoxu
-        [tozilnik] Firefox
-        [mestnik] Firefoxu
-        [orodnik] Firefoxom
-    }
-# "accounts" can be localized, "Firefox" must be treated as a brand.
-# 'Firefox accounts' refers to the service
--product-firefox-accounts =
-    { $sklon ->
-       *[imenovalnik] Firefox Računi
-        [rodilnik] Firefox Računov
-        [dajalnik] Firefox Računom
-        [tozilnik] Firefox Račune
-        [mestnik] Firefox Računih
-        [orodnik] Firefox Računi
-    }
-# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account =
-    { $sklon ->
-       *[imenovalnik] Firefox Račun
-        [rodilnik] Firefox Računa
-        [dajalnik] Firefox Računu
-        [tozilnik] Firefox Račun
-        [mestnik] Firefox Računu
-        [orodnik] Firefox Računom
-    }
-# This product should be treated as a brand.
--product-firefox-cloud = Firefox Cloud
-# Should should be treated as a brand.
--brand-paypal = PayPal
-# Should should be treated as a brand.
--app-store = App Store
-# Should should be treated as a brand.
--google-play = Google Play
-
 ## Non-email strings
 
 session-verify-send-push-title = Se prijavljate v { -product-firefox-accounts(sklon: "tozilnik") }?
@@ -453,13 +387,17 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Vaša naročnina za { $productName } je preklicana
 subscriptionCancellation-title = Žal nam je, ker odhajate
+
+## Variables
+##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+
+subscriptionCancellation-content-2 = Preklicali smo vašo naročnino na { $productName }. Vaše zadnje plačilo { $invoiceTotal } je bilo nakazano { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Preklicali smo vašo naročnino na { $productName }. Vaše zadnje plačilo { $invoiceTotal } bo nakazano { $invoiceDateOnly }.
 # Variables
-#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
-subscriptionCancellation-content = Preklicali smo vašo naročnino za { $productName }. Zadnje plačilo { $invoiceTotal } je bilo nakazano { $invoiceDateOnly }. Storitev se bo nadaljevala do konca trenutnega obračunskega obdobja, to je { $serviceLastActiveDateOnly }.
-subscriptionCancellation-outstanding-content = Preklicali smo vašo naročnino na { $productName }. Vaše zadnje plačilo { $invoiceTotal } bo nakazano { $invoiceDateOnly }. Storitev vam bo na voljo do konca trenutnega obračunskega obdobja, ki je { $serviceLastActiveDateOnly }.
+subscriptionCancellation-content-continue = Vaša storitev bo na voljo do konca trenutnega obračunskega obdobja, ki je { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Preklopili ste na { $productName }
