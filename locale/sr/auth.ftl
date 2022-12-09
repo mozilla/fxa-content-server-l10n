@@ -548,6 +548,10 @@ subscriptionUpgrade-upgrade-info = Успешно сте надоградили 
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Од следећег плаћања, накнаде ће се променити из { $paymentAmountOld } по { $productPaymentCycleOld } у { $paymentAmountNew } по { $productPaymentCycleNew }. Тада ћете добити и једнократни кредит у износу од { $paymentProrated } који ће одразити ниже накнаде за остатак овог { $productPaymentCycleOld } периода.
+subscriptionUpgrade-content-charge-info-different-cycle = Наплатићемо вам једнократну наплату од { $paymentProrated } да би се одразила већа цена ваше претплате за остатак овог { $productPaymentCycleOld } периода. Почевши од следећег обрачунског периода, прећи ћемо са наплате { $paymentAmountOld } по { $productPaymentCycleOld } на { $paymentAmountNew } по { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = Ако је за коришћење { $productName } потребно инсталирати нови софтвер, добићете засебну е-пошту са упутством за преузимање.
 subscriptionUpgrade-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
 unblockCode-subject = Код за ауторизацију налога
 unblockCode-title = Да ли сте се ово ви пријавили?
@@ -563,10 +567,16 @@ confirm-account = Потврдите налог
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не заборавите да потврдите налог
 verificationReminderFirst-title-2 = Добродошли у { -brand-firefox }!
+verificationReminderFirst-description-2 = Регистровали сте се за { -product-firefox-account } пре неколико дана, али нисте верификовали ваш налог. Верификујте га у року од 15 дана, иначе ће бити аутоматски обрисан.
+verificationReminderFirst-sub-description-3 = Не пропустите прегледач који вас и вашу приватност ставља на прво место.
 confirm-email-2 = Потврдите налог
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Потврдите налог
 verificationReminderSecond-subject-2 = Не заборавите да потврдите налог
+verificationReminderSecond-title-2 = Не пропустите ништа од { -brand-firefox }-а!
+verificationReminderSecond-description-3 = Регистровали сте се за { -product-firefox-account } пре неколико дана, али нисте верификовали ваш налог. Верификујте га у року од 10 дана, иначе ће бити аутоматски обрисан.
+verificationReminderSecond-second-description = Ваш { -product-firefox-account } ће вам омогућити да синхронизујете податке на свим уређајима и откључате приступ { -brand-mozilla } производима који штите приватност.
+verificationReminderSecond-sub-description-2 = Будите део наше мисије да интернет учинимо местом отвореним за све.
 verificationReminderSecond-action-2 = Потврдите налог
 verify-title-2 = Отворите интернет уз { -brand-firefox }
 verify-description = Потврдите свој налог и извуците максимум из { -brand-firefox }-а пријављивањем на било ком уређају:
