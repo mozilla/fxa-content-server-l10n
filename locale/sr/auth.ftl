@@ -124,6 +124,33 @@ cancellationSurvey-plaintext = Помозите нам да побољшамо �
 change-password-plaintext = Ако сумњате да неко покушава да приступи вашем налогу, промените лозинку.
 manage-account = Управљајте налогом
 manage-account-plaintext = { manage-account }:
+payment-details = Подаци о плаћању:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Број рачуна: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Наплаћено: { $invoiceTotal }, { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Следећи рачун: { $nextInvoiceDateOnly }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Начин плаћања:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $cardType (String) - The type of the credit card, e.g. Visa
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+card-ending-in = { $cardType } картица која завршава са { $lastFour }
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Број рачуна: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Број рачуна: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Промена плана: { $paymentProrated }
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Имате питања о претплати? Наш тим за подршку је ту да вам помогне:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-12-09 12:20+0000\n"
+"PO-Revision-Date: 2022-12-09 12:23+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -2031,15 +2031,15 @@ msgstr "Синхронизуј уређај"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
-msgstr ""
+msgstr "Скенирајте да преузмете Firefox за мобилне или пошаљите себи <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">везу за преузимање.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
-msgstr ""
+msgstr "QR код"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Take your tabs, bookmarks, and passwords anywhere you use Firefox."
-msgstr ""
+msgstr "Понесите своје картице, обележиваче и лозинке свуда где користите Firefox."
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2051,7 +2051,7 @@ msgstr "Упаривање је успело."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "Потврдите упаривање <span class=\"card-subheader\">за <span class=\"break-all\">%(email)s</span></span>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
