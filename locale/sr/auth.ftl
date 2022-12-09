@@ -503,11 +503,51 @@ subscriptionReactivation-content = Ваш циклус наплате и пла�
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Обавештење у аутоматском обнављању { $productName }-а
 subscriptionRenewalReminder-title = Ваша претплата ће бити ускоро обновљена
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Цењена { $productName } муштеријо,
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Ваша тренутна претплата постављена је на аутоматско обнављање за { $reminderLength } дана. У то ће време { -brand-mozilla } аутоматски да обнови вашу { $planIntervalCount } { $planInterval } претплату и наплатити { $invoiceTotal } на начин плаћања на вашем налогу.
 subscriptionRenewalReminder-content-closing = Срдачно,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } тим
+subscriptionsPaymentExpired-subject-1 = Кредитна картица за ваше претплате је истекла или ће ускоро истећи
+subscriptionsPaymentExpired-title-1 = Ваша кредитна картица је истекла или ће ускоро истећи.
+subscriptionsPaymentExpired-content-1 = Кредитна картица коју користите за плаћање за следеће претплате је истекла или ће ускоро истећи.
+subscriptionsPaymentProviderCancelled-subject = Потребно је ажурирање информација о плаћању за { -brand-mozilla } претплате
+subscriptionsPaymentProviderCancelled-title = Жао нам је, имамо проблема са вашим начином плаћања
+subscriptionsPaymentProviderCancelled-content-detected = Открили смо проблем са вашим начином плаћања за следеће претплате.
+subscriptionsPaymentProviderCancelled-content-payment = Могуће је да је ваша кредитна картица истекла или је тренутни начин плаћања застарео.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = { $productName } уплата је примљена
+subscriptionSubsequentInvoice-title = Хвала што сте се претплатили!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Примили смо вашу последњу уплату за { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Следећи рачун: { $nextInvoiceDateOnly }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Надоградили сте на { $productName }
 subscriptionUpgrade-title = Хвала што сте ажурирали!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Успешно сте надоградили са { $productNameOld } на { $productName }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info = Од следећег плаћања, накнаде ће се променити из { $paymentAmountOld } по { $productPaymentCycleOld } у { $paymentAmountNew } по { $productPaymentCycleNew }. Тада ћете добити и једнократни кредит у износу од { $paymentProrated } који ће одразити ниже накнаде за остатак овог { $productPaymentCycleOld } периода.
 subscriptionUpgrade-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
 unblockCode-subject = Код за ауторизацију налога
 unblockCode-title = Да ли сте се ово ви пријавили?
