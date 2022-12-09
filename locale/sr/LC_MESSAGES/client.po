@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-11 20:52+0000\n"
-"PO-Revision-Date: 2022-12-09 11:50+0000\n"
+"PO-Revision-Date: 2022-12-09 12:01+0000\n"
 "Last-Translator: Isidora Jukić <barad.dur@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -1525,6 +1525,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Ако наставите, прихватате:<br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">услове коришћења</a> и <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">политику приватности</a><br />\n"
+"            Firefox <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">услове коришћења</a> и <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">политику приватности</a>\n"
+"          "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1532,7 +1537,7 @@ msgstr "Firefox налози"
 
 #: .es5/templates/support.mustache:2
 msgid "Account Home"
-msgstr ""
+msgstr "Почетна страница налога"
 
 #: .es5/templates/support.mustache:3
 msgid "Subscriptions"
@@ -1548,7 +1553,7 @@ msgstr "Због чега нас контактирате?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Изаберите једно"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
@@ -1604,7 +1609,7 @@ msgstr "Корак 1 од 2: Унесите поново лозинку"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Унесите вашу лозинку да видите кључ за опоравак налога."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1616,11 +1621,11 @@ msgstr "Успешно повезано"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Затворите ову страницу и наставите на другом уређају."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Нова Firefox пријава"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
@@ -1628,23 +1633,23 @@ msgstr "Потврди пријаву"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "Ако сумњате да неко покушава да приступи вашем налогу, <a id=\"change-password\" href=\"/settings/change_password\">промените лозинку.</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Пошаљи обавештење за пријаву"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Проверите картицу за потврду пријаве коју смо послали на ваше уређаје повезане на Firefox."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Поново пошаљи картицу"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Картица није стигла? Пошаљи е-поруку уместо тога"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1665,7 +1670,7 @@ msgstr "Можда касније"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Унесите верификациони код који је послан на %(escapedEmail)s у наредних 5 минута."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1727,7 +1732,7 @@ msgstr "Претплатите се за %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Вези на који сте кликнули недостају знакови и могуће је да ју је оштетио ваш клијент е-поште."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"
@@ -1735,7 +1740,7 @@ msgstr "Направи Firefox налог"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "Настави на %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
