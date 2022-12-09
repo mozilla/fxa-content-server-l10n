@@ -247,16 +247,61 @@ downloadSubscription-link-action-2 = Започните
 fraudulentAccountDeletion-subject = Ваш { -product-firefox-account } је обрисан
 fraudulentAccountDeletion-title = Ваш налог је обрисан
 fraudulentAccountDeletion-content = Неко је недавно направио { -product-firefox-account } са овом адресом е-поште и платио претплату. Пошто тако захтевамо за све нове налоге, мораћете прво да верификујете ову адресу е-поште да бисте потврдили ваш налог.
+fraudulentAccountDeletion-content-2 = Налог тренутно није верификован и немогуће је утврдити да ли се ради о овлашћеној претплати. Сходно томе, { -product-firefox-account } регистрован на овој адреси е-поште је уклоњен и ваша претплата је отказана, а сви трошкови ће бити враћени.
+fraudulentAccountDeletion-contact = Ако имате питања, обратите се нашем <a data-l10n-name="mozillaSupportUrl">тиму за подршку</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Ако имате питања, обратите се нашем тиму за подршку: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Немате више резервних приступних кодова!
+codes-reminder-title-one = Остао вам је само један резервни приступни код
+codes-reminder-title-two = Време је да направите још резервних приступних кодова
+codes-reminder-description-part-one = Резервни приступни кодови вам помажу да повратите ваше податке ако заборавите лозинку.
+codes-reminder-description-part-two = Направите нове кодова сада да не изгубите ваше податке после.
+codes-reminder-description-two-left = Имате још само два кода.
+codes-reminder-description-create-codes = Направите нове резервне приступне кодове који ће вам помоћи да се вратите на ваш налог у случају да изгубите приступ.
+lowRecoveryCodes-action-2 = Направи кодове
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Немате више резервних приступних кодова
+        [one] Остао вам је само 1 резервни приступни код
+        [few] Имате само { $numberRemaining } резервна приступна кода
+       *[other] Имате само { $numberRemaining } резервних приступних кодова
+    }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Нова пријава на { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Ваш { -product-firefox-account } је коришћен за пријаву
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Нисте били ви? <a data-l10n-name="passwordChangeLink">Мењајте лозинку</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Нисте били ви? Мењајте лозинку:
 newDeviceLogin-action = Управљајте налогом
 passwordChanged-subject = Лозинка је ажурирана
 passwordChanged-title = Лозинка је успешно промењена
+passwordChanged-description = Ваша { -product-firefox-account } лозинка је успешно промењена са следећег уређаја:
 passwordChangeRequired-subject = Откривена је сумњива радња
+passwordChangeRequired-title = Потребна је промена лозинке
+passwordChangeRequired-suspicious-activity = Открили смо сумњиву активност на вашем { -product-firefox-account }-у. Да бисмо спречили неовлашћени приступ вашем { -product-firefox-account }-у, искључили смо све уређаје са вашим налогом и тражимо од вас да промените лозинку из предострожности.
+passwordChangeRequired-sign-in = Пријавите се поново на { -product-firefox-account } са уређаја или услуге које уобичајено користите и пратите приказане кораке.
+passwordChangeRequired-different-password = <b>Важно:</b> користите нову лозинку коју никада раније нисте користили и уверите се да није иста као лозинка вашег налога е-поште.
 passwordChangeRequired-signoff = Све најбоље,
 passwordChangeRequired-signoff-name = { -product-firefox-accounts } тим
+passwordChangeRequired-different-password-plaintext = Важно: користите нову лозинку коју никада раније нисте користили и уверите се да није иста као лозинка вашег налога е-поште.
 passwordReset-subject = Лозинка је ажурирана
 passwordReset-title = Лозинка вашег налога је промењена
 passwordReset-description = Морате да унесете нову лозинку на осталим уређајима да бисте наставили синхронизацију.
+passwordResetAccountRecovery-subject-2 = Ваша лозинка је ресетована
+passwordResetAccountRecovery-title-2 = Успешно ресетовање лозинке
+# Details of the device, location, IP address, and date/time that used account recovery key follow.
+passwordResetAccountRecovery-description-2 = Променили сте лозинку користећи кључ за опоравак налога са:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Направи нови кључ за опоравак налога
 postAddAccountRecovery-action = Управљајте налогом
 postAddTwoStepAuthentication-action = Управљајте налогом
 postChangePrimary-subject = Примарна адреса е-поште је ажурирана
