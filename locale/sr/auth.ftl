@@ -246,6 +246,7 @@ downloadSubscription-content-2 = Хајде да почнемо да корис�
 downloadSubscription-link-action-2 = Започните
 fraudulentAccountDeletion-subject = Ваш { -product-firefox-account } је обрисан
 fraudulentAccountDeletion-title = Ваш налог је обрисан
+fraudulentAccountDeletion-content = Неко је недавно направио { -product-firefox-account } са овом адресом е-поште и платио претплату. Пошто тако захтевамо за све нове налоге, мораћете прво да верификујете ову адресу е-поште да бисте потврдили ваш налог.
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 newDeviceLogin-action = Управљајте налогом
 passwordChanged-subject = Лозинка је ажурирана
