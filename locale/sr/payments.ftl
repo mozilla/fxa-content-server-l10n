@@ -173,12 +173,20 @@ payment-method-required = Обавезно
 
 ## Component - PaymentProcessing
 
+payment-processing-message = Сачекајте док обрадимо вашу уплату…
 
 ## Component - PaymentProviderDetails
 
+payment-confirmation-cc-card-ending-in = Картица завршава са { $last4 }
 
 ## Component - PlanDetails
 
+plan-details-header = Детаљи производа
+plan-details-list-price = Ценовник
+plan-details-show-button = Прикажи детаље
+plan-details-hide-button = Сакриј детаље
+plan-details-total-label = Укупно
+plan-details-tax = Порези и надокнаде
 
 ## Component - PlanErrorDialog
 
@@ -186,11 +194,19 @@ product-no-such-plan = Не постоји такав план за овај п�
 
 ## Component - SubscriptionTitle
 
+subscription-create-title = Подесите вашу претплату
+subscription-success-title = Потврда претплате
+subscription-processing-title = Потврђујемо претплату…
+subscription-error-title = Грешка при потврди претплате…
+subscription-noplanchange-title = Ова промена плана претплате није подржана
+subscription-iapsubscribed-title = Већ сте претплаћени
+sub-guarantee = 30-дневна гаранција поврата новца
 
 ## Component - TermsAndPrivacy
 
 terms = Услови коришћења
 privacy = Обавештење о приватности
+terms-download = Услови преузимања
 
 ## App-level string(s) and messages shared by multiple components or routes
 
@@ -200,6 +216,8 @@ document =
 close-aria =
     .aria-label = Затвори модал
 settings-subscriptions-title = Претплате
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Промотивни код
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -240,6 +258,7 @@ general-error-heading = Општа грешка апликације
 basic-error-message = Нешто није у реду. Покушајте поново касније.
 payment-error-1 = Дошло је до проблема приликом одобравања плаћања. Покушајте поново или контактирајте издавача картице.
 payment-error-2 = Дошло је до проблема приликом одобравања плаћања. Контактирајте издавача картице.
+payment-error-3b = Дошло је до неочекиване грешке приликом обраде ваше уплате. Покушајте поново касније.
 expired-card-error = Изгледа да је ваша кредитна картица истекла. Покушајте са другом.
 insufficient-funds-error = Изгледа да је стање на вашој кредитној картици недовољно. Покушајте са другом.
 withdrawal-count-limit-exceeded-error = Изгледа да ће ова трансакција премашити ограничење ваше картице. Покушајте са другом.
@@ -248,6 +267,13 @@ instant-payouts-unsupported = Изгледа да ваша дебитна кар
 duplicate-transaction = Изгледа да је идентична трансакција управо послана. Проверите вашу историју плаћања.
 coupon-expired = Изгледа да је тај промотивни код истекао.
 card-error = Ваша трансакција није могла бити обрађена. Проверите податке ваше кредитне картице и покушајте поново.
+country-currency-mismatch = Валута ове претплате не вреди за земљу повезану са вашим плаћањем.
+currency-currency-mismatch = Жао нам је. Не можете да мењате валуте.
+no-subscription-change = Жао нам је. Не можете да мењате план претплате.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Већ сте претплаћени преко { $mobileAppStore }-а.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Пријава на { $productName } није успела због системске грешке. Ваш начин плаћања није наплаћен. Покушајте поново.
 product-plan-error =
     .title = Проблем при учитавању планова
 product-profile-error =
