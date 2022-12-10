@@ -193,19 +193,45 @@ postRemoveSecondary-title = Екіншілік эл. пошта адресі ө�
 postRemoveSecondary-action = Тіркелгіні басқару
 postRemoveTwoStepAuthentication-action = Тіркелгіні басқару
 postVerify-subject-3 = { -brand-firefox } ішіне қош келдіңіз!
+postVerify-setup-2 = Басқа құрылғыны байланыстыру:
+postVerify-action-2 = Басқа құрылғыны байланыстыру
 postVerifySecondary-subject = Екіншілік эл. пошта адресі қосылған
 postVerifySecondary-title = Екіншілік эл. пошта адресі қосылған
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-2 = Сіз { $secondaryEmail } адресін { -product-firefox-account } үшін екіншілік эл. пошта ретінде сәтті растадыңыз. Қауіпсіздік хабарландырулары мен кіру растаулары енді екі эл. пошта адресіне де жеткізіледі.
 postVerifySecondary-action = Тіркелгіні басқару
 recovery-subject = Парольді тастау
 recovery-title-2 = Пароліңізді ұмыттыңыз ба?
 recovery-action = Жаңа парольді жасау
+subscriptionAccountDeletion-title = Кеткеніңізге өкінеміз
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled = Сіз жақында { -product-firefox-account } тіркелгіңізді өшірдіңіз. Нәтижесінде { $productName } жазылуыңызды тоқтаттық. Соңғы { $invoiceTotal } төлеміңіз { $invoiceDateOnly } күні төленді.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = { $productName } ішіне қош келдіңіз: пароліңізді орнатыңыз.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = { $productName } ішіне қош келдіңіз
+subscriptionAccountFinishSetup-content-processing = Төлеміңіз өңделуде және оның аяқталуына төрт жұмыс күні кетуі мүмкін. Бас тартуды таңдамасаңыз, жазылуыңыз әр есеп айырысу кезеңінде автоматты түрде жаңартылады.
+subscriptionAccountFinishSetup-content-create-2 = Содан кейін жаңа жазылуды пайдалануды бастау үшін { -product-firefox-account } паролін жасайсыз.
 subscriptionAccountFinishSetup-action-2 = Бастау
+subscriptionAccountReminderFirst-subject = Еске салғыш: тіркелгіңізді баптауды аяқтаңыз
+subscriptionAccountReminderFirst-title = Жазылуыңызға әлі қол жеткізе алмайсыз
+subscriptionAccountReminderFirst-content-info-2 = Бірнеше күн бұрын сіз { -product-firefox-account } тіркелгісін жасадыңыз, бірақ оны ешқашан растамадыңыз. Жаңа жазылуды пайдалана алуыңыз үшін тіркелгіңізді баптауды аяқтайсыз деп үміттенеміз.
 subscriptionAccountReminderFirst-action = Парольді жасау
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Соңғы ескерту: тіркелгіңізді баптаңыз
 subscriptionAccountReminderSecond-title = { -brand-firefox } ішіне қош келдіңіз!
 subscriptionAccountReminderSecond-action = Парольді жасау
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Сіздің { $productName } жазылуыңыз тоқтатылды
+subscriptionCancellation-title = Кеткеніңізге өкінеміз
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -216,12 +242,28 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = { $productName } төлемі расталды
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
+subscriptionRenewalReminder-content-closing = Құрметпен,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = { $productName } командасы
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } төлемі алынды
 subscriptionSubsequentInvoice-title = Жазылушы болғаныңыз үшін рахмет!
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
+unblockCode-subject = Тіркелгіні авторизациялау коды
 unblockCode-title = Кірем деген сіз бе?
 unblockCode-prompt = Иә болса, міне, сізге керек авторизация коды:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Иә болса, міне, сізге керек авторизация коды: { $unblockCode }
+unblockCode-report = Жоқ болса, алаяқтылармен күресуге көмектесу үшін <a data-l10n-name="reportSignInLink">ол туралы бізге хабарлаңыз.</a>
 unblockCode-report-plaintext = Жоқ болса, алаяқтылармен күресуге көмектесу үшін ол туралы бізге хабарлаңыз.
+verificationReminderFinal-subject = Тіркелгіңізді растау үшін соңғы еске салғыш
 confirm-account = Тіркелгіні растау
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Тіркелгіңізді растауды ұмытпаңыз
@@ -244,6 +286,14 @@ verifyLogin-title-2 = { $clientName } ішіне кірдіңіз бе?
 verifyLogin-description-2 = Жүйеге кіргеніңізді растау арқылы тіркелгіңізді қорғауға көмектесіңіз:
 verifyLogin-subject-2 = Кіруді растау
 verifyLogin-action = Кіруді растау
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = { $serviceName } жүйесіне кіруді растау
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = { $serviceName } ішіне кірдіңіз бе?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Жүйеге кіргеніңізді растау арқылы тіркелгіңізді қорғауға көмектесіңіз:
 verifyLoginCode-prompt-3 = Иә болса, міне, сіздің авторизация кодыңыз:
 verifyLoginCode-expiry-notice = Оның мерзімі 5 минутта бітеді.
 verifyPrimary-title-2 = Біріншілік эл. поштаңызды растау
