@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-10 15:41+0000\n"
+"PO-Revision-Date: 2022-12-10 15:57+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1604,15 +1604,15 @@ msgstr "Парольді енгізіңіз"
 
 #: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Сәтті байланыстырылды"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Бұл бетті жауып, басқа құрылғыда жалғастырыңыз."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Firefox-қа жаңа кіру"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
@@ -1775,11 +1775,11 @@ msgstr ""
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "Камера қолданбасымен Firefox жүктеп алыңыз"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "Firefox орнату және кем дегенде екі құрылғы арасында синхрондау сонымен қатар, деректеріңізді жоғалтудан қорғайды."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
@@ -1835,7 +1835,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
-msgstr ""
+msgstr "Тіркелгіні қалпына келтіру кілтін алу"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
@@ -1875,11 +1875,11 @@ msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(region)s, %(country)s (шамамен)"
 
 #: .es5/templates/partial/device-being-paired.mustache:7
 msgid "%(region)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(region)s, %(country)s (шамамен)"
 
 #: .es5/templates/partial/device-being-paired.mustache:9
 msgid "%(country)s"
@@ -1919,11 +1919,11 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
-msgstr ""
+msgstr "Хабарламаңыз қолдау қызметіне жіберілді"
 
 #: .es5/templates/partial/support-form-success.mustache:2
 msgid "Back to Subscriptions"
-msgstr ""
+msgstr "Жазылуларға оралу"
 
 #: .es5/templates/partial/sync-suggestion.mustache:1
 msgid "Looking for Firefox Sync? <a %(escapedSyncSuggestionAttrs)s>Get started here</a>"
@@ -1931,7 +1931,7 @@ msgstr "Firefox синхрондауын іздедіңіз бе? <a %(escapedSy
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
-msgstr ""
+msgstr "немесе"
 
 #: .es5/templates/partial/third-party-auth.mustache:2
 msgid "Continue with Google"
@@ -1951,7 +1951,7 @@ msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "сіздің орналасуыңыз"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
@@ -1959,7 +1959,7 @@ msgstr "Да, подтвердить устройство"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "Бұл сіз болмасаңыз, <a id=\"change-password\" class=\"link-blue\">пароліңізді өзгертіңіз</a>"
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1998,19 +1998,19 @@ msgstr "Баптау әрекеті үзілген."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
-msgstr ""
+msgstr "Басқа құрылғыдағы Firefox-қа байланысу"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Sync Firefox on your phone or tablet"
-msgstr ""
+msgstr "Телефонда немесе планшетте Firefox-ты синхрондаңыз"
 
 #: .es5/templates/pair/index.mustache:4
 msgid "Already have Firefox on a phone or tablet?"
-msgstr ""
+msgstr "Телефонда немесе планшетте Firefox бар ма?"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Sync your device"
-msgstr ""
+msgstr "Құрылғыңызды синхрондаңыз"
 
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
@@ -2038,12 +2038,12 @@ msgstr ""
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr ""
+msgstr "Жұптастыруды растау"
 
 #: .es5/templates/pair/unsupported.mustache:1
 msgid "Pair using an app"
-msgstr ""
+msgstr "Қолданба арқылы жұптастыру"
 
 #: .es5/templates/pair/unsupported.mustache:2
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
+msgstr "Жүйелік камераны пайдаландыңыз ба? Firefox қолданбасынан жұптастыру керек."

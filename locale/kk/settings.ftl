@@ -35,20 +35,14 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Пароліңіз тасталды
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla } логотипі
-app-footer-privacy-notice = Веб-сайттың құпиялылығы туралы ескерту
-app-footer-terms-of-service = Қолдану шарттары
-
-##
-
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Сіз енді %(serviceName)s қолдануға дайынсыз
+ready-continue = Жалғастыру
 
 ## Alert Bar
 
@@ -66,6 +60,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title = { -brand-firefox } өнімдер мәзірі
 bento-menu-firefox-title = { -brand-firefox } — желідегі жекелігіңіз үшін күресетін технологиялар.
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
@@ -77,6 +72,10 @@ bento-menu-made-by-mozilla = { -brand-mozilla } жасаған
 
 ## Connect another device promo
 
+connect-another-fx-mobile = { -brand-firefox } өнімін телефон немесе планшетіңізге алыңыз
+connect-another-find-fx-mobile =
+    { -brand-firefox } өнімін { -google-play } және { -app-store } ішінен табыңыз немесе 
+    <br /><linkExternal>құрылғыңызга жүктеп алу сілтемесін жіберіңіз.</linkExternal>
 
 ##
 
@@ -311,6 +310,12 @@ tfa-button-finish = Дайын
 tfa-incorrect-totp = Екі қадамды аутентификация коды жарамсыз
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
+tfa-button-cant-scan-qr = Кодты сканерлеу мүмкін емес пе?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Осы құпия кілтті аутентификация қолданбасына енгізіңіз:
+tfa-enter-totp = Енді аутентификация қолданбасынан қауіпсіздік кодын енгізіңіз.
+tfa-input-enter-totp =
+    .label = Қауіпсіздік кодын енгізіңіз
 
 ##
 
@@ -364,6 +369,7 @@ rk-not-set = Орнатылмаған
 rk-action-create = Жасау
 rk-action-remove = Өшіру
 rk-cannot-refresh-1 = Кешіріңіз, тіркелгіні қалпына келтіру кілтін жаңарту кезінде мәселе орын алды.
+rk-key-removed-2 = Тіркелгіні қалпына келтіру кілті өшірілді
 
 ## Secondary email sub-section on main Settings page
 
