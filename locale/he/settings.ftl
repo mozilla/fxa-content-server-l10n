@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = סגירת הודעה
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -43,20 +39,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = הססמה שלך אופסה
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = ‏{ $title } | ‏{ -product-firefox-accounts }
-app-footer-mozilla-logo-label = הסמל של { -brand-mozilla }
-app-footer-privacy-notice = הצהרת הפרטיות של האתר
-app-footer-terms-of-service = תנאי השירות
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = כעת ניתן להשתמש ב־%(serviceName)s
+ready-continue = המשך
 
-##
+## Alert Bar
 
+alert-bar-close-message = סגירת הודעה
 
 ## User's avatar
 
@@ -480,7 +474,6 @@ rk-key-removed-2 = מפתח לשחזור החשבון הוסר
 rk-cannot-remove-key = לא ניתן היה להסיר את מפתח שחזור החשבון שלך.
 rk-refresh-key-1 = רענון מפתח שחזור חשבון
 rk-content-explain = שחזור המידע שלך כאשר הססמה שלך נשכחה.
-rk-content-reset-data = מדוע איפוס הססמה שלי מאפסת את הנתונים שלי?
 rk-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 rk-remove-modal-heading-1 = להסיר את מפתח שחזור החשבון?
 rk-remove-modal-content-1 = במקרה שהססמה שלך תאופס, לא תהיה לך אפשרות להשתמש במפתח שחזור החשבון שלך כדי לגשת לנתונים שלך. לא ניתן לבטל פעולה זו.
