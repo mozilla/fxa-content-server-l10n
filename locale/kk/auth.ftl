@@ -76,6 +76,76 @@ subscriptionFirstInvoice-content-invoice-number = Шот нөмірі: <b>{ $inv
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number-plaintext = Шот нөмірі: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Жоспарды өзгерту: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Аралық сома: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Жеңілдік: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Бір реттік жеңілдік: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-айлық жеңілдік: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Салықтар мен алымдар: { $invoiceTaxAmount }
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Қосымша ақпарат алу үшін { -brand-mozilla } қолдау бөлімін шолыңыз: { $supportUrl }.
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser }, { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser }, { $uaOS }
+# Variables:
+#  $ip (Number) - User's IP address
+user-ip = IP адресі: { $ip }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (шамамен)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (шамамен)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (шамамен)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (шамамен)
+view-invoice = <a data-l10n-name="invoiceLink">Шот-фактураңызды қараңыз</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Шот-фактураны қарау: { $invoiceLink }
+cadReminderFirst-subject-1 = Еске салғыш! { -brand-firefox } синхрондайық
+cadReminderFirst-action = Басқа құрылғыны синхрондау
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Синхрондау үшін екі құрылғы қажет
+cadReminderSecond-action = Басқа құрылғыны синхрондау
+cadReminderSecond-title-2 = Синхрондауды ұмытпаңыз!
+cadReminderSecond-description-sync = Бетбелгілер, парольдер, ашық беттер және т.б. синхрондаңыз — { -brand-firefox } пайдаланатын барлық жерде.
+cadReminderSecond-description-plus = Сонымен қатар, деректеріңіз әрқашан шифрленеді. Оны тек сіз және сіз растаған құрылғылар ғана көре алады.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = { $productName } ішіне қош келдіңіз
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = { $productName } ішіне қош келдіңіз
 downloadSubscription-link-action-2 = Бастау
 lowRecoveryCodes-action-2 = Кодтарды жасау
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
@@ -104,8 +174,16 @@ postAddAccountRecovery-action = Тіркелгіні басқару
 postAddAccountRecovery-delete-key = Жаңа кілтті өшіру:
 postAddAccountRecovery-changd-password = Пароліңізді өзгертіңіз:
 postAddLinkedAccount-action = Тіркелгіні басқару
+postAddTwoStepAuthentication-subject-2 = Екі қадамды аутентификация іске қосылды
+postAddTwoStepAuthentication-title-2 = Сіз екі қадамды аутентификацияны іске қостыңыз
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Сіз оны келесі жерден іске қостыңыз:
 postAddTwoStepAuthentication-action = Тіркелгіні басқару
+postChangePrimary-subject = Біріншілік эл. пошта адресі жаңартылды
 postChangePrimary-title = Жаңа біріншілік эл. поштасы
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description = Сіз біріншілік электрондық поштаңызды { $email } етіп өзгерттіңіз. Бұл аджрес енді { -product-firefox-account } тіркелгіңізге кіруге, сондай-ақ қауіпсіздік хабарландыруларын және жүйеге кіру растауларын алуға арналған пайдаланушы атыңыз болып табылады.
 postChangePrimary-action = Тіркелгіні басқару
 postConsumeRecoveryCode-action = Тіркелгіні басқару
 postNewRecoveryCodes-action = Тіркелгіні басқару
@@ -114,6 +192,7 @@ postRemoveSecondary-subject = Екіншілік эл. пошта адресі �
 postRemoveSecondary-title = Екіншілік эл. пошта адресі өшірілді
 postRemoveSecondary-action = Тіркелгіні басқару
 postRemoveTwoStepAuthentication-action = Тіркелгіні басқару
+postVerify-subject-3 = { -brand-firefox } ішіне қош келдіңіз!
 postVerifySecondary-subject = Екіншілік эл. пошта адресі қосылған
 postVerifySecondary-title = Екіншілік эл. пошта адресі қосылған
 postVerifySecondary-action = Тіркелгіні басқару

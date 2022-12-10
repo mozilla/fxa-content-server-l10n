@@ -457,3 +457,16 @@ auth-error-102 = Белгісіз тіркелгі
 auth-error-103 = Пароль қате
 auth-error-105-2 = Жарамсыз растау коды
 auth-error-110 = Жарамсыз токен
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. This text is localized
+#                          by our server based on accept language in request. Our timestamp
+#                          formatting library (momentjs) will automatically add the word `in`
+#                          as part of the string.
+#                           (for example: "in 15 minutes")
+auth-error-114 = Тым көп талаптар санын жасадыңыз. { $retryAfter } кейін қайталап көріңіз.
+auth-error-138-2 = Расталмаған сессия
+auth-error-139 = Екіншілік эл. пошта адресі негізгі адрестен басқа болуы тиіс
+auth-error-155 = TOTP токені табылмады
+auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
+auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
