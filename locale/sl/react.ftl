@@ -31,4 +31,4 @@ app-loading-spinner-aria-label-loading = Nalaganje …
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
 app-logo-alt =
-    .alt = { -brand-firefox } logotip
+    .alt = Logotip { -brand-firefox(sklon: "rodilnik") }
