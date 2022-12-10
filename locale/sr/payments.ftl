@@ -91,15 +91,56 @@ payment-confirmation-order-heading = Детаљи поруџбине
 payment-confirmation-invoice-number = Рачун #{ $invoiceNumber }
 payment-confirmation-details-heading-2 = Подаци о плаћању
 payment-confirmation-amount = { $amount } по { $interval }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } дневно
+        [few] { $amount } свака { $intervalCount } дана
+       *[other] { $amount } сваких { $intervalCount } дана
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } недељно
+        [few] { $amount } сваке { $intervalCount } недеље
+       *[other] { $amount } сваких { $intervalCount } недеља
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } месечно
+        [few] { $amount } свака { $intervalCount } месеца
+       *[other] { $amount } сваких { $intervalCount } месеци
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } годишње
+        [few] { $amount } сваке { $intervalCount } године
+       *[other] { $amount } сваких { $intervalCount } година
+    }
+payment-confirmation-download-button = Идите на преузимање
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = Овлашћујем { -brand-name-mozilla }-у, творца { -brand-name-firefox } производа, да наплати мој начин плаћања за ове трошкове, у складу са <termsOfServiceLink>условима коришћења</termsOfServiceLink> и <privacyNoticeLink>политиком приватности</privacyNoticeLink>, док добровољно не откажем претплату.
 
 ## Component - PaymentErrorView
 
+payment-error-retry-button = Покушај поново
+payment-error-manage-subscription-button = Управљај претплатом
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Већ имате { $productName } претплату преко { -brand-name-google } или { -brand-name-apple } продавнице.
+iap-upgrade-no-bundle-support = Сада нисмо у могућности да надоградимо на ове претплате, али радимо на томе.
+iap-upgrade-contact-support = Овај производ вам је и даље доступан — контактирајте подршку да вам помогне.
+iap-upgrade-get-help-button = Потражите помоћ
 
 ## Component - PaymentForm
 
@@ -111,13 +152,24 @@ payment-cc =
 payment-cancel-btn = Откажи
 payment-update-btn = Ажурирај
 payment-pay-btn = Плати сад
+payment-pay-with-paypal-btn = Платите { -brand-name-paypal }-ом
 payment-validate-name-error = Унесите ваше име
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } користи { -brand-name-stripe } и { -brand-name-paypal } за безбедна плаћања.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } политика приватности</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } политика приватности</paypalPrivacyLink>
+payment-legal-copy-paypal = { -brand-name-mozilla } користи { -brand-name-paypal } за безбедна плаћања.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } политика приватности</paypalPrivacyLink>
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } користи { -brand-name-stripe } за безбедна плаћања.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } политика приватности</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
+payment-method-header = Изаберите начин плаћања
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Обавезно
 
 ## Component - PaymentProcessing
 
