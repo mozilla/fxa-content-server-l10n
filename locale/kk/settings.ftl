@@ -373,6 +373,8 @@ rk-key-removed-2 = Тіркелгіні қалпына келтіру кілті
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Екіншілік эл. пошта адресі
+    .header = Екіншілік эл. пошта адресі
 # Default value for the secondary email
 se-secondary-email-none = Ешнәрсе
 
