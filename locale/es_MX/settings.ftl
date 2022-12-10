@@ -35,20 +35,14 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Tu contraseña ha sido restablecida
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Logo de { -brand-mozilla }
-app-footer-privacy-notice = Aviso de privacidad del sitio web
-app-footer-terms-of-service = Términos del servicio
-
-##
-
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Ahora estas listo para usar { $serviceName }
+ready-continue = Continuar
 
 ## Alert Bar
 
