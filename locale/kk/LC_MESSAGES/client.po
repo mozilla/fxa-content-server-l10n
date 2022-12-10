@@ -1499,7 +1499,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
-msgstr ""
+msgstr "Практикалық білім сіздің кіріс жәшігіңізге келеді. Қосымша ақпарат алу үшін тіркеліңіз:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
@@ -1584,11 +1584,11 @@ msgstr "Жіберу"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Бұл құрылғыны тіркелгіңізбен синхрондауды қалайсыз ба?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
+msgstr "Бұл құрылғыны синхрондау"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
