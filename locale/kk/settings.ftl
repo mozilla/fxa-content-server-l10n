@@ -242,6 +242,14 @@ avatar-page-new-avatar =
 
 ## Password change page
 
+pw-change-header =
+    .title = Парольді өзгерту
+pw-8-chars = Кемінде 8 таңба
+pw-not-email = Сіздің эл. пошта адресіңіз емес
+pw-change-must-match = Жаңа пароль растауға сәйкес келеді
+pw-commonly-used = Жиі қолданылатын пароль емес
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Қауіпсіз болыңыз — парольдерді қайта қолданбаңыз. <linkExternal>Мықты парольдерді жасау</linkExternal> бойынша қосымша кеңестерді қараңыз.
 pw-change-cancel-button = Бас тарту
 pw-change-save-button = Сақтау
 pw-change-forgot-password-link = Пароліңізді ұмыттыңыз ба?

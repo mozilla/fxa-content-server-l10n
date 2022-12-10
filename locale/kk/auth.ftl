@@ -293,7 +293,7 @@ verifyLoginCode-subject-line-2 = { $serviceName } жүйесіне кіруді 
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } ішіне кірдіңіз бе?
 # After the colon is a description of the device used to sign in to the service
-verifyLoginCode-safe = Жүйеге кіргеніңізді растау арқылы тіркелгіңізді қорғауға көмектесіңіз:
+verifyLoginCode-safe = Жүйеге келесі кіргеніңізді растау арқылы тіркелгіңізді қорғауға көмектесіңіз:
 verifyLoginCode-prompt-3 = Иә болса, міне, сіздің авторизация кодыңыз:
 verifyLoginCode-expiry-notice = Оның мерзімі 5 минутта бітеді.
 verifyPrimary-title-2 = Біріншілік эл. поштаңызды растау
@@ -305,6 +305,8 @@ verifyPrimary-post-verify-2 = Расталғаннан кейін, екінші�
 verifySecondaryCode-subject = Екіншілік эл. поштаңызды растау
 verifySecondaryCode-title-2 = Екіншілік эл. поштаңызды растау
 verifySecondaryCode-action-2 = Эл. поштаны растау
+verifySecondaryCode-prompt-2 = Бұл растау кодын пайдалану:
+verifySecondaryCode-expiry-notice-2 = Оның мерзімі 5 минутта бітеді. Расталғаннан кейін бұл адрес қауіпсіздік хабарландырулары мен растауларын ала бастайды.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Тіркелгіңізді растаңыз
