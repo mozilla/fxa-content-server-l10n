@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-10 06:11+0000\n"
+"PO-Revision-Date: 2022-12-10 06:14+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1092,7 +1092,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:4
 msgid "Email confirmed"
-msgstr ""
+msgstr "Эл. пошта расталды"
 
 #: .es5/templates/connect_another_device.mustache:9 .es5/templates/pair/index.mustache:10
 msgid "Complete your set-up"
@@ -1536,15 +1536,15 @@ msgstr "Кері байланыс"
 
 #: .es5/templates/support.mustache:6
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Бізге не жөнінде хабарласып тұрсыз?"
 
 #: .es5/templates/support.mustache:7 .es5/templates/support.mustache:11 .es5/templates/support.mustache:18
 msgid "Please select one"
-msgstr ""
+msgstr "Біреуін таңдаңыз"
 
 #: .es5/templates/support.mustache:10
 msgid "What do you need help with?"
-msgstr ""
+msgstr "Сізге қандай көмек керек?"
 
 #: .es5/templates/support.mustache:12
 msgid "Payment & billing"
@@ -1632,15 +1632,15 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Бетті қайта жіберу"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Бет келмей жатыр ма? Оның орнына эл. поштаны жіберіңіз"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "Екіншілік эл. пошта адресін қосу"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
@@ -1665,15 +1665,15 @@ msgstr "Басқа код керек пе? Қайта жіберу"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "Басқа эл. поштаны пайдалану"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "Пароліңізді өзгертіңіз"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "%(serviceName)s қызметіне жалғастыру үшін"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
@@ -1702,15 +1702,15 @@ msgstr "Бұл Firefox байланысқан"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "Қосымша ақпарат алу үшін тіркеліңіз"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "Практикалық білім сіздің кіріс жәшігіңізге келеді."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "Кіріс жәшігінде келесілер туралы практикалық білім алыңыз:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
@@ -1978,11 +1978,11 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Синхрондалған құрылғылардан беттерді қарау"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
-msgstr ""
+msgstr "Құрылғыларды басқару"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
@@ -1990,11 +1990,11 @@ msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
-msgstr ""
+msgstr "Жұптау сәтсіз аяқталды"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup process was terminated."
-msgstr ""
+msgstr "Баптау әрекеті үзілген."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Connect Firefox on another device"
@@ -2026,11 +2026,11 @@ msgstr ""
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
-msgstr ""
+msgstr "Құрылғы сәтті жұптастырылды"
 
 #: .es5/templates/pair/success.mustache:3
 msgid "Pairing was successful."
-msgstr ""
+msgstr "Жұптау сәтті аяқталды."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
