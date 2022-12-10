@@ -82,6 +82,19 @@ connect-another-find-fx-mobile =
 
 ## Connected services section
 
+cs-heading = Байланыстырылған қызметтер
+cs-description = Сіз пайдаланып жатқан және кірген барлық нәрсе.
+cs-cannot-disconnect = Клиент табылмады, ажырату мүмкін емес
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = { $service } жүйесінен шықтыңыз
+cs-refresh-button =
+    .title = Байланыстырылған қызметтерді жаңарту
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Жоқ немесе қайталанған элемент?
+cs-disconnect-sync-heading = Синхрондаумен байланысты үзу
 
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
@@ -159,9 +172,16 @@ header-help = Көмек
 
 input-password-hide = Парольді жасыру
 input-password-show = Парольді көрсету
+input-password-hide-aria = Парольді экраннан жасыру.
+input-password-show-aria = Парольді қарапайым мәтін ретінде көрсету. Пароліңіз экранда көрінеді.
 
 ## Linked Accounts section
 
+la-heading = Байланыстырылған тіркелгілер
+la-description = Сіз келесі тіркелгілерге рұқсат бердіңіз.
+la-unlink-button = Байланысты үзу
+la-unlink-account-button = Байланысты үзу
+la-unlink-heading = Үшінші жақ тіркелгісімен байланысты үзу
 nav-linked-accounts = { la-heading }
 
 ## Modal
@@ -187,9 +207,35 @@ nav-paid-subs = Ақылы жазылулар
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-1-2 = Қадам 1, барлығы 2
+tfa-replace-code-2-2 = Қадам 2, барлығы 2
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Профиль суреті
+avatar-page-add-photo = Фото қосу
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Фото түсіру
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Фото өшіру
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Фото қайта түсіру
+avatar-page-cancel-button = Бас тарту
+avatar-page-save-button = Сақтау
+avatar-page-saving-button = Сақтау…
+avatar-page-zoom-out-button =
+    .title = Кішірейту
+avatar-page-zoom-in-button =
+    .title = Үлкейту
+avatar-page-rotate-button =
+    .title = Бұру
+avatar-page-camera-error = Камераны іске қосу мүмкін емес
+avatar-page-new-avatar =
+    .alt = жаңа профиль суреті
 
 ##
 
@@ -375,6 +421,15 @@ rk-key-removed-2 = Тіркелгіні қалпына келтіру кілті
 
 se-heading = Екіншілік эл. пошта адресі
     .header = Екіншілік эл. пошта адресі
+# Button to remove the secondary email
+se-remove-email =
+    .title = Эл. поштаны өшіру
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Эл. поштаны жаңарту
+se-unverified-2 = расталмаған
+# Button to make secondary email the primary
+se-make-primary = Біріншілік ету
 # Default value for the secondary email
 se-secondary-email-none = Ешнәрсе
 
@@ -391,6 +446,14 @@ tfa-row-action-add = Қосу
 tfa-row-action-disable = Сөндіру
 tfa-row-button-refresh =
     .title = Екі қадамды аутентификацияны жаңарту
+tfa-row-disable-modal-heading = Екі қадамды аутентификацияны сөндіру керек пе?
+tfa-row-disable-modal-confirm = Сөндіру
+tfa-row-change-modal-confirm = Өзгерту
+tfa-row-change-modal-explain = Бұл әрекетті кері қайтара алмайсыз.
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Белгісіз тіркелгі
+auth-error-103 = Пароль қате
+auth-error-105-2 = Жарамсыз растау коды
+auth-error-110 = Жарамсыз токен
