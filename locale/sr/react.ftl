@@ -1,5 +1,8 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
+app-general-err-heading = Општа грешка апликације
+app-general-err-message = Нешто није у реду. Покушајте поново касније.
+
 ## FxA React - Strings shared between multiple FxA products for application footer
 
 app-footer-mozilla-logo-label = { -brand-mozilla } логотип
@@ -17,7 +20,9 @@ app-page-title = { $title } | { -product-firefox-accounts }
 
 ## FxA React - Strings shared between multiple FxA products for external link
 
+
 ## FxA React - Strings shared between multiple FxA products for loading spinner
+
 
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
