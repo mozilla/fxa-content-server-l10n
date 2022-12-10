@@ -20,9 +20,15 @@ app-page-title = { $title } | { -product-firefox-accounts }
 
 ## FxA React - Strings shared between multiple FxA products for external link
 
+# Message for screen readers, to announce that external link will open in new window
+link-sr-new-window = Отвара у новом прозору
 
 ## FxA React - Strings shared between multiple FxA products for loading spinner
 
+# Aria label for spinner image indicating data is loading
+app-loading-spinner-aria-label-loading = Учитавање…
 
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
+app-logo-alt =
+    .alt = { -brand-firefox } лого

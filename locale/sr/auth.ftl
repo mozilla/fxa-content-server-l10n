@@ -1,37 +1,3 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
-
-## Brands used in fxa-auth-server.
-##
-## Brands cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--brand-mozilla = Mozilla
--brand-firefox = Firefox
-# "accounts" can be localized, "Firefox" must be treated as a brand.
-# 'Firefox accounts' refers to the service
--product-firefox-accounts = Firefox налози
-# "account" can be localized and should be lowercase, "Firefox" must be treated as a brand.
-# This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox налог
-# This product should be treated as a brand.
--product-firefox-cloud = Firefox Cloud
-# Should should be treated as a brand.
--brand-paypal = PayPal
-# Should should be treated as a brand.
--app-store = App Store
-# Should should be treated as a brand.
--google-play = Google Play
-
 ## Non-email strings
 
 session-verify-send-push-title = Пријављујете се на { -product-firefox-accounts }?
@@ -420,13 +386,17 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Ваша { $productName } претплата је отказана
 subscriptionCancellation-title = Тужни смо што одлазите
+
+## Variables
+##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+
+subscriptionCancellation-content-2 = Отказали смо вашу претплату на { $productName }. Последња уплата у износу од { $invoiceTotal } је извршена { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Отказали смо вашу претплату на { $productName }. Коначна уплата у износу од { $invoiceTotal } биће извршена { $invoiceDateOnly }.
 # Variables
-#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
-subscriptionCancellation-content = Отказали смо вашу претплату на { $productName }. Ваша коначна уплата у износу { $invoiceTotal } је извршена { $invoiceDateOnly }. Услуга ће се наставити до краја тренутног обрачунског периода, што је { $serviceLastActiveDateOnly }.
-subscriptionCancellation-outstanding-content = Отказали смо вашу претплату на { $productName }. Ваша коначна уплата у износу { $invoiceTotal } је извршена { $invoiceDateOnly }. Услуга ће се наставити до краја тренутног обрачунског периода, што је { $serviceLastActiveDateOnly }.
+subscriptionCancellation-content-continue = Услуга ће да настави до краја вашег тренутног обрачунског циклуса, односно до { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Пребацили сте се на { $productName }
