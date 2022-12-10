@@ -82,6 +82,15 @@ new-user-invalid-email-domain = Нетачно унета адреса? { $domai
 
 payment-confirmation-thanks-heading = Хвала!
 payment-confirmation-thanks-heading-account-exists = Хвала, сада проверите вашу е-пошту!
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = Е-порука са потврдом је послана на { $email } са детаљима о томе како да почнете да користите { $product_name }.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = Добићете е-поруку на { $email } са упутствима за подешавање налога и детаљима о плаћању.
+payment-confirmation-order-heading = Детаљи поруџбине
+payment-confirmation-invoice-number = Рачун #{ $invoiceNumber }
+payment-confirmation-details-heading-2 = Подаци о плаћању
+payment-confirmation-amount = { $amount } по { $interval }
 
 ## Component - PaymentConsentCheckbox
 
@@ -267,16 +276,23 @@ sub-plan-price-year =
 
 ## Routes - Subscription - ActionButton
 
+pay-update-change-btn = Промени
+pay-update-manage-btn = Управљај
 
 ## Routes - Subscriptions - Cancel and IapItem
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Следећи обрачун { $date }
+sub-expires-on = Истиче { $date }
 
 ## Routes - Subscription - PaymentUpdate
 
 
 # $expirationDate (Date) - The payment card's expiration date.
 
+pay-update-card-exp = Истиче { $expirationDate }
+sub-route-idx-updating = Ажурирам податке о плаћању…
+sub-route-payment-modal-heading = Неваћежи подаци о плаћању
 
 ## Routes - Subscription - SubscriptionItem
 
@@ -290,8 +306,12 @@ sub-plan-price-year =
 
 ## $date (Date) - Last day of product access
 
+reactivate-panel-copy = Изгубићете приступ { $name }-у <strong>{ $date }</strong>.
 reactivate-success-copy = Хвала! Све је спремно.
 reactivate-success-button = Затвори
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase = { -brand-name-google }: куповина у апликацији
+sub-iap-item-apple-purchase = { -brand-name-apple }: куповина у апликацији
+sub-iap-item-manage-button = Управљај
