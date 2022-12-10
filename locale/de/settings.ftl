@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Nachricht schließen
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +35,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Ihr Passwort wurde zurückgesetzt.
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla }-Logo
-app-footer-privacy-notice = Datenschutzhinweis zu dieser Website
-app-footer-terms-of-service = Nutzungsbedingungen
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Sie können jetzt { $serviceName } verwenden
+ready-continue = Weiter
 
-##
+## Alert Bar
 
+alert-bar-close-message = Nachricht schließen
 
 ## User's avatar
 
@@ -509,7 +503,6 @@ rk-key-removed-2 = Kontowiederherstellungsschlüssel entfernt
 rk-cannot-remove-key = Ihr Kontowiederherstellungsschlüssel konnte nicht entfernt werden.
 rk-refresh-key-1 = Kontowiederherstellungsschlüssel aktualisieren
 rk-content-explain = Stellen Sie Ihre Daten wieder her, wenn Sie Ihr Passwort vergessen haben.
-rk-content-reset-data = Warum werden meine Daten durch Zurücksetzen meines Passworts zurückgesetzt?
 rk-cannot-verify-session-4 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
 rk-remove-modal-heading-1 = Kontowiederherstellungsschlüssel entfernen?
 rk-remove-modal-content-1 =
