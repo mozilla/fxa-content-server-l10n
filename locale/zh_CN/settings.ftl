@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = 关闭消息
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +35,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = 您的密码已重置
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla } 徽标
-app-footer-privacy-notice = 网站隐私声明
-app-footer-terms-of-service = 服务条款
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = 您可以使用 { $serviceName } 了
+ready-continue = 继续
 
-##
+## Alert Bar
 
+alert-bar-close-message = 关闭消息
 
 ## User's avatar
 
