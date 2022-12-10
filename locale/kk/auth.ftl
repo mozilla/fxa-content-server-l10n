@@ -25,9 +25,17 @@ subplat-explainer-specific = Бұл электрондық поштаны алы
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-firefox-account } бар.
+subplat-explainer-multiple = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресінде { -product-firefox-account } бар және сіз бірнеше өнімге жазылғансыз.
+subplat-explainer-was-deleted = Бұл электрондық поштаны алып отырсыз, себебі { $email } адресі { -product-firefox-account } өніміне тіркелген.
+subplat-manage-account = <a data-l10n-name="subplat-account-page">Тіркелгі парағын</a> шолу арқылы өз { -product-firefox-account } баптауларын басқарыңыз.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext = Тіркелгі парағын шолу арқылы өз { -product-firefox-account } баптауларын басқарыңыз: { $accountSettingsUrl }
 subplat-terms-policy = Шарттар мен бас тарту саясаты
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
+subplat-cancel = Жазылудан бас тарту
 subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate = Жазылуды қайта белсендіру
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Төлем ақпаратын жаңарту
 subplat-privacy-policy = { -brand-mozilla } жекелік саясаты
@@ -41,6 +49,10 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 change-password-plaintext = Егер сіздің тіркелгіңізге біреу қолың жеткізгісі келіп жүр деген күмәніңіз бар болса, пароліңізді өзгертіңіз.
 manage-account = Тіркелгіні басқару
 manage-account-plaintext = { manage-account }:
+payment-details = Төлем мәліметтері:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Шот нөмірі: { $invoiceNumber }
 downloadSubscription-link-action-2 = Бастау
 lowRecoveryCodes-action-2 = Кодтарды жасау
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
