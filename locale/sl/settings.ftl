@@ -82,7 +82,7 @@ ready-confirmation = Vaše geslo je ponastavljeno
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
 # $serviceName (String) - the service which caused the user to reset their password
-ready-use-service = Zdaj ste pripravljeni na uporabo { $serviceName }
+ready-use-service = Zdaj ste pripravljeni na uporabo storitve { $serviceName }
 ready-continue = Nadaljuj
 
 ## Alert Bar
