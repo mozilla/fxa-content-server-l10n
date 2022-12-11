@@ -275,6 +275,7 @@ iap-already-subscribed = Већ сте претплаћени преко { $mobi
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Пријава на { $productName } није успела због системске грешке. Ваш начин плаћања није наплаћен. Покушајте поново.
 fxa-post-passwordless-sub-error = Претплата је потврђена, али страница за потврду се није учитала. Проверите вашу адресу е-поште да подесите налог.
+newsletter-signup-error = Нисте претплаћени на е-поруке о ажурирању производа. Можете да покушате поново у подешавањима налога.
 product-plan-error =
     .title = Проблем при учитавању планова
 product-profile-error =
@@ -285,31 +286,53 @@ product-plan-not-found = План није пронађен
 
 ## Hooks - coupons
 
+coupon-success = Ваш план ће се аутоматски обновити по основној цени.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Ваш план ће се аутоматски обновити после { $couponDurationDate } по основној цени.
 
 ## Routes - Checkout - New user
 
+new-user-step-1 = 1. Направите { -brand-name-firefox } налог
+new-user-card-title = Унесите податке са картице
+new-user-submit = Претплати се
 
 ## Routes - Product and Subscriptions
 
+sub-update-payment-title = Подаци о плаћању
 
 ## Routes - Checkout and Product/Subscription create
 
+pay-with-heading-card-or = Или платите картицом
+pay-with-heading-card-only = Платите картицом
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Још не можемо да вас надоградимо
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
+product-plan-change-heading = Прегледајте промену
+sub-change-failed = Промена плана није успела
+sub-update-copy =
+    Ваш план ће се одмах променити и биће вам наплаћена прилагођен
+    износ за остатак циклуса наплате. Почевши од { $startingDate }
+    биће вам наплаћен пун износ.
+sub-change-submit = Потврди промене
 sub-update-current-plan-label = Тренутни план
 sub-update-new-plan-label = Нови план
 sub-update-total-label = Нови укупни износ
 
 ## Routes - Subscriptions - Cancel
 
+sub-item-cancel-sub = Откажи претплату
+sub-item-stay-sub = Задржи претплату
 
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
