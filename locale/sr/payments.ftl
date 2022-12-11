@@ -435,6 +435,22 @@ manage-pocket-body-2 = Да управљате, <linkExternal>кликните �
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Желите ли и даље да користите { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    Приступ на { $name } ће се наставити и циклус наплате
+    и плаћања ће остати исти. Ваше следећа наплата износиће
+    { $amount } на картици која завршава са { $last } на { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    Приступ на { $name } ће се наставити и циклус наплате
+    и плаћања ће остати исти. Ваша следећа наплата износиће
+    { $amount } на { $endDate }.
+reactivate-confirm-button = Поново се претплати
 
 ## $date (Date) - Last day of product access
 
