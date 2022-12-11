@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Clauder message
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +35,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Tu contrasigno ha essite remontate
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Logo { -brand-mozilla }
-app-footer-privacy-notice = Aviso de confidentialitate del sito web
-app-footer-terms-of-service = Terminos de servicio
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Tu es preste a usar %(serviceName)s
+ready-continue = Continuar
 
-##
+## Alert Bar
 
+alert-bar-close-message = Clauder message
 
 ## User's avatar
 
