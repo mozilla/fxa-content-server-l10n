@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Berjocht slute
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +35,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Jo wachtwurd is opnij ynsteld
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla }-logo
-app-footer-privacy-notice = Privacyferklearring foar website
-app-footer-terms-of-service = Tsjinstbetingsten
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Jo kinne { $serviceName } no brûke
+ready-continue = Trochgean
 
-##
+## Alert Bar
 
+alert-bar-close-message = Berjocht slute
 
 ## User's avatar
 
@@ -516,7 +510,6 @@ rk-key-removed-2 = Kaai foar accountwerstel fuortsmiten
 rk-cannot-remove-key = Jo kaai foar accountwerstel koe net fuortsmiten wurde.
 rk-refresh-key-1 = Accountwerstelkaai fernije
 rk-content-explain = Jo gegevens werstelle wannear’t jo jo wachtwurd ferjitte.
-rk-content-reset-data = Wêrom wurde myn gegevens opnij ynsteld as ik myn wachtwurd opnij inisjalisearje?
 rk-cannot-verify-session-4 = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
 rk-remove-modal-heading-1 = Accountwerstelkaai fuortsmite?
 rk-remove-modal-content-1 =
