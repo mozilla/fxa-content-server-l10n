@@ -292,7 +292,11 @@ avatar-page-image-too-large-error-2 = Величина датотеке слик
 pw-change-header =
     .title = Промени лозинку
 pw-8-chars = Најмање 8 знакова
+pw-not-email = Није ваша адреса е-поште
 pw-change-must-match = Нова лозинка одговара потврди
+pw-commonly-used = Није често употребљавана лозинка
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Будите безбедни — немојте да дуплирате лозинке. Погледајте савете за <linkExternal>прављење јаких лозинки</linkExternal>.
 pw-change-cancel-button = Откажи
 pw-change-save-button = Сачувај
 pw-change-forgot-password-link = Заборавили сте лозинку?
@@ -302,12 +306,17 @@ pw-change-new-password =
     .label = Унесите нову лозинку
 pw-change-confirm-password =
     .label = Потврдите нову лозинку
+pw-change-success-alert-2 = Лозинка је ажурирана
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = Направи лозинку
+pw-create-success-alert-2 = Лозинка је постављена
+pw-create-error-2 = Жао нам је, дошло је до грешке при постављању лозинке
 
 ##
 
@@ -320,6 +329,8 @@ delete-account-step-1-2 = Корак 1 од 2
 delete-account-step-2-2 = Корак 2 од 2
 delete-account-confirm-title-2 = Ваш { -product-firefox-account } повезан је са { -brand-mozilla } производима који вам омогућавају сигурно прегледање и бољу продуктивност на мрежи:
 delete-account-acknowledge = Брисањем налога признајете да:
+delete-account-chk-box-1-v2 =
+    .label = Све плаћене претплате које имате биће отказане (осим { product-pocket }-а)
 delete-account-chk-box-2 =
     .label = Можете изгубити податке и функције сачуване на { -brand-mozilla } производима
 delete-account-chk-box-3 =
@@ -343,6 +354,8 @@ display-name-input =
     .label = Унесите име за приказ
 submit-display-name = Сачувај
 cancel-display-name = Откажи
+display-name-update-error-2 = Дошло је до грешке при ажурирању вашег имена за приказ
+display-name-success-alert-2 = Име за приказ је ажурирано
 
 ##
 
