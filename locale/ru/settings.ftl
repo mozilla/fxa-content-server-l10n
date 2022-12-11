@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Закрыть сообщение
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -50,20 +46,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Ваш пароль был сброшен
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts(case: "plural") }
-app-footer-mozilla-logo-label = Логотип { -brand-mozilla }
-app-footer-privacy-notice = Уведомление о конфиденциальности веб-сайта
-app-footer-terms-of-service = Условия использования
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Теперь вы готовы к использованию { $serviceName }
+ready-continue = Продолжить
 
-##
+## Alert Bar
 
+alert-bar-close-message = Закрыть сообщение
 
 ## User's avatar
 
@@ -525,7 +519,6 @@ rk-key-removed-2 = Ключ восстановления аккаунта уда
 rk-cannot-remove-key = Ключ восстановления вашего аккаунта не может быть удалён.
 rk-refresh-key-1 = Обновить ключ восстановления аккаунта
 rk-content-explain = Восстановите свою информацию, если вы забудете свой пароль.
-rk-content-reset-data = Почему при сбросе пароля удаляются мои данные?
 rk-cannot-verify-session-4 = К сожалению, при подтверждении вашей сессии возникла проблема
 rk-remove-modal-heading-1 = Удалить ключ восстановления аккаунта?
 rk-remove-modal-content-1 =
