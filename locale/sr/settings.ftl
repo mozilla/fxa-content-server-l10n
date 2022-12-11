@@ -226,6 +226,12 @@ modal-cancel-button = Откажи
 
 mvs-verify-your-email-2 = Потврди адресу е-поште
 mvs-enter-verification-code-2 = Унеси верификациони код
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Унесите верификациони код који је послан на <email>{ $email }</email> у наредних 5 минута.
+msv-cancel-button = Откажи
+msv-submit-button-2 = Потврди
 
 ## Settings Nav
 
@@ -233,11 +239,20 @@ nav-settings = Подешавања
 nav-profile = Профил
 nav-security = Безбедност
 nav-connected-services = Повезане услуге
+nav-data-collection = Сакупљање и коришћење података
 nav-paid-subs = Плаћене претплате
 nav-email-comm = Комуникација путем е-поште
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Дошло је до грешке при мењању ваших резервних приступних кодова
+tfa-replace-code-success-1 =
+    Нови кодови су направљени. Чувајте ове једнократне
+    резервне приступне кодове на безбедном — могу се користити за приступ вашем налогу
+    ако вам мобилни уређај није доступан.
+tfa-replace-code-success-alert-3 = Резервни приступни кодови налога су ажурирани
+tfa-replace-code-1-2 = Корак 1 од 2
+tfa-replace-code-2-2 = Корак 2 од 2
 
 ## Avatar change page
 
@@ -253,7 +268,9 @@ avatar-page-remove-photo = Уклони фотографију
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
 avatar-page-retake-photo = Сними фотографију поново
+avatar-page-cancel-button = Откажи
 avatar-page-save-button = Сачувај
+avatar-page-saving-button = Чувам…
 avatar-page-zoom-out-button =
     .title = Умањи
 avatar-page-zoom-in-button =
@@ -263,6 +280,9 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Није могуће покренути камеру
 avatar-page-new-avatar =
     .alt = нова слика профила
+avatar-page-file-upload-error-3 = Дошло је до грешке при отпремању ваше слике профила.
+avatar-page-delete-error-3 = Дошло је до грешке при брисању ваше слике профила
+avatar-page-image-too-large-error-2 = Величина датотеке слике је превелика за отпремање
 
 ##
 
@@ -271,6 +291,7 @@ avatar-page-new-avatar =
 
 pw-change-header =
     .title = Промени лозинку
+pw-8-chars = Најмање 8 знакова
 pw-change-must-match = Нова лозинка одговара потврди
 pw-change-cancel-button = Откажи
 pw-change-save-button = Сачувај
