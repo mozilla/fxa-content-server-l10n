@@ -147,6 +147,7 @@ downloadSubscription-subject = { $productName } ішіне қош келдіңі
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName } ішіне қош келдіңіз
 downloadSubscription-link-action-2 = Бастау
+fraudulentAccountDeletion-title = Сіздің тіркелгіңіз өшірілді
 lowRecoveryCodes-action-2 = Кодтарды жасау
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # The "Not you?" question is asking whether the recipient of the email is the
