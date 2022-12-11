@@ -337,6 +337,12 @@ sub-item-stay-sub = Задржи претплату
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-cancel-msg =
+    Више нећете моћи да користите { $name } након
+    { $period }, последњег дана вашег обрачунског циклуса.
+sub-item-cancel-confirm =
+    Откажи мој приступ и сачуване податке на услузи
+    { $name }, { $period }
 
 ## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -372,9 +378,25 @@ sub-plan-price-year =
 
 ## Routes - Subscription
 
+sub-route-idx-reactivating = Поновно активирање претплате није успело
+sub-route-idx-cancel-failed = Отказивање претплате није успело
+sub-route-idx-contact = Контактирајте подршку
+sub-route-idx-cancel-msg-title = Жао нам је што одлазите
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Ваша { $name } претплата је отказана.
+          <br />
+          Још увек имате приступ { $name } услузи до { $date }.
+sub-route-idx-cancel-aside = Имате питања? Посетите <a>{ -brand-name-mozilla } подршку</a>.
 
 ## Routes - Subscriptions - Errors
 
+sub-customer-error =
+    .title = Проблем при учитавању купца
+sub-invoice-error =
+    .title = Проблем при учитавању рачуна
+sub-billing-update-success = Ваши подаци о плаћању су успешно ажурирани
 
 ## Routes - Subscription - ActionButton
 
@@ -395,12 +417,20 @@ sub-expires-on = Истиче { $date }
 pay-update-card-exp = Истиче { $expirationDate }
 sub-route-idx-updating = Ажурирам податке о плаћању…
 sub-route-payment-modal-heading = Неваћежи подаци о плаћању
+sub-route-payment-modal-message = Изгледа да је дошло до грешке са вашим { -brand-name-paypal } налогом. Морате да следите неопходне кораке да решите проблем са овом уплатом.
+sub-route-missing-billing-agreement-payment-alert = Неважећи подаци о плаћању; дошло је до грешке са вашим налогом. <div>Управљај</div>
+sub-route-funding-source-payment-alert = Неважећи подаци о плаћању; дошло је до грешке са вашим налогом. Ово упозорење се може задржати неко време након што сте успешно ажурирали своје податке. <div>Управљај</div>
 
 ## Routes - Subscription - SubscriptionItem
 
+sub-item-no-such-plan = Не постоји такав план за ову претплату.
+invoice-not-found = Накнадни рачун није пронађен
+sub-item-no-such-subsequent-invoice = Накнадни рачун није пронађен за ову претплату.
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title = Тражите вашу { -brand-name-pocket } премијум претплату?
+manage-pocket-body-2 = Да управљате, <linkExternal>кликните овде</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
