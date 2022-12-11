@@ -159,9 +159,20 @@ datablock-print =
 
 dc-heading = Сакупљање и коришћење података
 dc-subheader = Помозите да побољшамо { -product-firefox-accounts }
+dc-subheader-content = Дозволите { -product-firefox-accounts } да шаље техничке и податке употребе { -brand-mozilla }-и.
+dc-opt-out-success = Одбијање је успешно. { -product-firefox-accounts } неће слати техничке или податке употребе { -brand-mozilla }-и.
+dc-opt-in-success = Хвала! Дељење ових података нам помаже у побољшању { -product-firefox-accounts }.
+dc-opt-in-out-error-2 = Жао нам је, дошло је до грешке при мењању ваших подешавања за прикупљање података
+dc-learn-more = Сазнајте више
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title = { -product-firefox-account } мени
+# This string is used to show the current user's name or email in the settings page menu.
+# Variables:
+#   $user (String) - the user's name (or email address, if they haven't added their name to their account)
+drop-down-menu-signed-in-as = <signin>Пријављени сте као</signin><user>{ $user }</user>
+drop-down-menu-sign-out = Одјави се
 
 ## Flow Container
 
