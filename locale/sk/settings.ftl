@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Zavrieť správu
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -103,20 +99,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Vaše heslo bolo obnovené
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Logo { -brand-mozilla(case: "gen") }
-app-footer-privacy-notice = Zásady ochrany súkromia webovej stránky
-app-footer-terms-of-service = Podmienky používania služby
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Odteraz môžete využívať službu { $serviceName }
+ready-continue = Pokračovať
 
-##
+## Alert Bar
 
+alert-bar-close-message = Zavrieť správu
 
 ## User's avatar
 
@@ -580,7 +574,6 @@ rk-key-removed-2 = Obnovovací kľúč k účtu bol odstránený
 rk-cannot-remove-key = Kľúč na obnovenie účtu nebolo možné odstrániť.
 rk-refresh-key-1 = Obnoviť kľúč na obnovenie účtu
 rk-content-explain = Získajte prístup k svojim údajom v prípade, že zabudnete heslo.
-rk-content-reset-data = Prečo dôjde pri obnove hesla k odstráneniu mojich uložených údajov?
 rk-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 rk-remove-modal-heading-1 = Chcete odstrániť kľúč na obnovenie účtu?
 rk-remove-modal-content-1 =
