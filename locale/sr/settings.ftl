@@ -365,13 +365,19 @@ display-name-success-alert-2 = Име за приказ је ажурирано
 recovery-key-cancel-button = Откажи
 recovery-key-close-button = Затвори
 recovery-key-continue-button = Настави
+recovery-key-created-1 = Ваш кључ за опоравак налога је направљен. Обавезно чувајте кључ на безбедном месту где га касније можете лако наћи. Ако заборавите лозинку, биће вам потребан кључ да повратите приступ вашим подацима.
 recovery-key-enter-password =
     .label = Унесите лозинку
+recovery-key-page-title-1 =
+    .title = Кључ за опоравак налога
 recovery-key-step-1 = Корак 1 од 2
 recovery-key-step-2 = Корак 2 од 2
+recovery-key-success-alert-3 = Кључ за опоравак налога је направљен
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Корак 1 од 2
+add-secondary-email-error-2 = Дошло је до грешке при стварању ове е-поште
 add-secondary-email-page-title =
     .title = Секундарна е-пошта
 add-secondary-email-enter-address =
@@ -381,9 +387,22 @@ add-secondary-email-save-button = Сачувај
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Корак 2 од 2
+verify-secondary-email-error-3 = Дошло је до грешке при слању верификационог кода
 verify-secondary-email-page-title =
     .title = Секундарна е-пошта
+verify-secondary-email-verification-code-2 =
+    .label = Унеси верификациони код
 verify-secondary-email-cancel-button = Откажи
+verify-secondary-email-verify-button-2 = Потврди
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Унесите верификациони код који вам је послан на <strong>{ $email }</strong> у наредних 5 минута.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } је успешно додан.
 
 ##
 
@@ -401,6 +420,8 @@ tfa-button-cancel = Откажи
 tfa-button-finish = Доврши
 tfa-incorrect-totp = Неисправан код за аутентификацију
 tfa-cannot-retrieve-code = Дошло је до проблема приликом добављања вашег кода.
+tfa-cannot-verify-code-4 = Дошло је до грешке при потврђивању вашег резервног приступног кода
+tfa-incorrect-recovery-code-1 = Неисправан резервни приступни код
 tfa-enabled = Аутентификација у два корака омогућена
 tfa-scan-this-code =
     Скенирајте овај QR код помоћу једне од <linkExternal>ових
@@ -412,12 +433,23 @@ tfa-scan-this-code =
 tfa-qa-code-alt =
     Искористите код { $secret } да поставите аутентификацију у два корака у
     подржаним апликацијама.
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Не можете скенирати код?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Унесите овај тајни кључ у вашу апликацију за аутентификацију:
 tfa-enter-totp = Сада унесите безбедносни код из апликације за аутентификацију.
 tfa-input-enter-totp =
     .label = Унесите безбедносни код
+tfa-save-these-codes-1 =
+    Чувајте ове једнократне кодове на сигурном месту,
+    у случају да изгубите приступ мобилном уређају.
+tfa-enter-code-to-confirm-1 =
+    Унесите један од резервних приступних кодова да
+    потврдите да сте их сачували. Требаће вам код за пријаву у случају да изгубите приступ
+    вашем мобилном уређају.
+tfa-enter-recovery-code-1 =
+    .label = Унеси резервни приступни код
 
 ##
 
@@ -425,6 +457,8 @@ tfa-input-enter-totp =
 ## Profile section
 
 profile-heading = Профил
+profile-picture =
+    .header = Слика
 profile-display-name =
     .header = Име за приказ
 profile-primary-email =
@@ -436,9 +470,24 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Безбедност
+security-password =
+    .header = Лозинка
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Створено { $date }
+security-not-set = Није постављено
+security-action-create = Направи
+security-set-password = Поставите лозинку да омогућите синхронизацију и безбедносне функција налога.
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Искључи
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Укључи
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Слање…
 
 ## Sub-section row Defaults
 
