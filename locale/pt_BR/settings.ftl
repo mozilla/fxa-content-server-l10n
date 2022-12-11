@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Fechar mensagem
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +35,13 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Logotipo da { -brand-mozilla }
-app-footer-privacy-notice = Aviso de privacidade do site
-app-footer-terms-of-service = Termos de serviço
+ready-confirmation = Sua senha foi redefinida
 
-##
+## Alert Bar
 
+alert-bar-close-message = Fechar mensagem
 
 ## User's avatar
 
@@ -492,7 +481,6 @@ rk-key-removed-2 = Chave de recuperação da conta removida
 rk-cannot-remove-key = Não foi possível remover a chave de recuperação da sua conta.
 rk-refresh-key-1 = Atualizar chave de recuperação de conta
 rk-content-explain = Restaure suas informações caso esqueça sua senha.
-rk-content-reset-data = Por que redefinir minha senha redefine meus dados?
 rk-cannot-verify-session-4 = Desculpe, houve um problema ao confirmar a sessão.
 rk-remove-modal-heading-1 = Remover chave de recuperação de conta?
 rk-remove-modal-content-1 = Caso você redefina sua senha, não poderá usar sua chave de recuperação de conta para acessar seus dados. Esta ação não pode ser desfeita.
