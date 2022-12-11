@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Đóng thông báo
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +35,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Mật khẩu của bạn đã được đặt lại
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Biểu tượng { -brand-mozilla }
-app-footer-privacy-notice = Thông báo bảo mật trang web
-app-footer-terms-of-service = Điều khoản dịch vụ
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Bạn hiện đã sẵn sàng sử dụng { $serviceName }
+ready-continue = Tiếp tục
 
-##
+## Alert Bar
 
+alert-bar-close-message = Đóng thông báo
 
 ## User's avatar
 
@@ -516,7 +510,6 @@ rk-key-removed-2 = Đã xóa khóa khôi phục tài khoản
 rk-cannot-remove-key = Không thể xóa khóa khôi phục tài khoản của bạn.
 rk-refresh-key-1 = Làm mới khóa khôi phục tài khoản
 rk-content-explain = Khôi phục thông tin của bạn khi bạn quên mật khẩu.
-rk-content-reset-data = Tại sao dữ liệu của tôi bị đặt lại khi thay thế mật khẩu của tôi?
 rk-cannot-verify-session-4 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 rk-remove-modal-heading-1 = Xóa khóa khôi phục tài khoản?
 rk-remove-modal-content-1 =
