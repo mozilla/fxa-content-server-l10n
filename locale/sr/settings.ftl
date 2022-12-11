@@ -487,7 +487,9 @@ switch-turn-off = Искључи
 # Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
 switch-turn-on = Укључи
 # Used as "title" attribute when switch has been interacted with and form is submitting
-switch-submitting = Слање…
+switch-submitting = Шаљем…
+switch-is-on = укључено
+switch-is-off = искључено
 
 ## Sub-section row Defaults
 
@@ -498,11 +500,18 @@ row-defaults-status = Ништа
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Кључ за опоравак налога
+rk-enabled = Омогућено
 rk-not-set = Није постављено
 rk-action-create = Направи
 rk-action-remove = Уклони
+rk-cannot-refresh-1 = Жао нам је, дошло је до грешке при освежавању кључа за опоравак налога.
+rk-key-removed-2 = Кључ за опоравак налога је уклоњен
 rk-cannot-remove-key = Није могуће уклонити ваш кључ за опоравак налога.
+rk-refresh-key-1 = Освежи кључ за опоравак налога
 rk-content-explain = Вратите ваше податке када заборавите лозинку.
+rk-cannot-verify-session-4 = Жао нам је, дошло је до грешке при потврђивању ваше сесије
+rk-remove-modal-heading-1 = Уклонити кључ за опоравак налога?
 
 ## Secondary email sub-section on main Settings page
 
