@@ -274,6 +274,7 @@ no-subscription-change = Жао нам је. Не можете да мењате
 iap-already-subscribed = Већ сте претплаћени преко { $mobileAppStore }-а.
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Пријава на { $productName } није успела због системске грешке. Ваш начин плаћања није наплаћен. Покушајте поново.
+fxa-post-passwordless-sub-error = Претплата је потврђена, али страница за потврду се није учитала. Проверите вашу адресу е-поште да подесите налог.
 product-plan-error =
     .title = Проблем при учитавању планова
 product-profile-error =
