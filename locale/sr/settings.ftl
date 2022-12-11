@@ -76,6 +76,12 @@ connect-another-fx-mobile = Преузмите { -brand-firefox } на теле�
 connect-another-find-fx-mobile =
     Пронађите { -brand-firefox } у { -google-play } и { -app-store }-у или
     <br /><linkExternal>пошаљите везу за преузимање на ваш уређај.</linkExternal>
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Преузмите { -brand-firefox } на { -google-play }-у
+connect-another-app-store-image-2 =
+    .title = Преузмите { -brand-firefox } на { -app-store }-у
 
 ##
 
@@ -88,6 +94,11 @@ cs-cannot-refresh =
     Жао нам је, дошло је до проблема при освежавању листе повезаних
     услуга.
 cs-cannot-disconnect = Клијент није пронађен, није могуће прекинути везу
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Firefox Accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = Одјављени сте из { $service }-а
 cs-refresh-button =
     .title = Освежите повезане услуге
 # Link text to a support page on missing or duplicate devices
@@ -100,6 +111,10 @@ cs-disconnect-sync-heading = Прекини везу са Sync-ом
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-2 =
+    Ваши подаци прегледања ће остати на { $device },
+    али више неће бити синхронизовани на ваш налог.
+cs-disconnect-sync-reason-2 = Који је главни разлог прекида везе са { $device }?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -142,6 +157,8 @@ datablock-print =
 
 ## Data collection section
 
+dc-heading = Сакупљање и коришћење података
+dc-subheader = Помозите да побољшамо { -product-firefox-accounts }
 
 # DropDownAvatarMenu component
 
