@@ -173,12 +173,17 @@ drop-down-menu-title = { -product-firefox-account } мени
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Пријављени сте као</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Одјави се
+drop-down-menu-sign-out-error-2 = Жао нам је, дошло је до грешке при одјављивању
 
 ## Flow Container
 
+flow-container-back = Назад
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } кључ за опоравак налога
+get-data-trio-title-firefox-backup-verification-codes = { -brand-firefox } резервни приступни кодови
 get-data-trio-download =
     .title = Преузми
 get-data-trio-copy =
@@ -197,15 +202,30 @@ header-help = Помоћ
 
 ## Input Password
 
+input-password-hide = Сакриј лозинку
+input-password-show = Прикажи лозинку
+input-password-hide-aria = Сакриј лозинку са екрана.
+input-password-show-aria = Прикажи лозинку као обични текст. Ваша лозинка ће бити видљива на екрану.
 
 ## Linked Accounts section
 
+la-heading = Повезани налози
+la-description = Овластили сте приступ следећим повезаним налозима.
+la-unlink-button = Уклони
+la-unlink-account-button = Уклони
+la-unlink-heading = Уклоните везу са налогом треће стране
+la-unlink-content-3 = Јесте ли сигурни да желите да уклоните везу на свом налогу? Ова радња вас неће аутоматски одјавити са ових услуга. Да бисте то урадили, морате се ручно одјавити у одељку „Повезане услуге“.
+nav-linked-accounts = { la-heading }
 
 ## Modal
 
+modal-close-title = Затвори
+modal-cancel-button = Откажи
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Потврди адресу е-поште
+mvs-enter-verification-code-2 = Унеси верификациони код
 
 ## Settings Nav
 
