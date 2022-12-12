@@ -151,7 +151,7 @@ subscriptionUpdateBillingEnsure-plaintext = Можете да проверите
 subscriptionUpdateBillingTry = Покушаћемо поново да обрадимо вашу уплату у наредним данима, а можда ће нам затребати ваша помоћ око <a data-l10n-name="updateBillingUrl">ажурирања података о плаћању</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingTry-plaintext = Покушаћемо поново да обрадимо вашу уплату у наредним данима, а можда ће нам затребати ваша помоћ око ажурирања података о плаћању:
-subscriptionUpdatePayment = Да бисте избегли било какве прекиде услуге, <a href="%(updateBillingUrl)s">ажурирајте ваше податке о плаћању</a> што је пре могуће.
+subscriptionUpdatePayment = Да бисте избегли било какве прекиде услуге, <a data-l10n-name="updateBillingUrl">ажурирајте ваше податке о плаћању</a> што је пре могуће.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Да бисте избегли било какве прекиде услуге, ажурирајте ваше податке о плаћању што је пре могуће:
 # Variables:
