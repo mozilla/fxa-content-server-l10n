@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Cau neges
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +35,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Mae eich cyfrinair wedi ei ailosod
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Logo { -brand-mozilla }
-app-footer-privacy-notice = Hysbysiad Preifatrwydd Gwefan
-app-footer-terms-of-service = Amodau Gwasanaeth
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Rydych nawr yn barod i ddefnyddio %(serviceName)s
+ready-continue = Parhau
 
-##
+## Alert Bar
 
+alert-bar-close-message = Cau neges
 
 ## User's avatar
 
@@ -514,7 +508,6 @@ rk-key-removed-2 = Tynnwyd yr allwedd adfer cyfrif
 rk-cannot-remove-key = Nid oedd modd dileu allwedd adfer eich cyfrif.
 rk-refresh-key-1 = Adnewyddu'r allwedd adfer cyfrif
 rk-content-explain = Adfer eich manylion pan fyddwch yn anghofio'ch cyfrinair.
-rk-content-reset-data = Pam mae ailosod fy nghyfrinair yn ailosod fy nata?
 rk-cannot-verify-session-4 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
 rk-remove-modal-heading-1 = Tynnu allwedd adfer cyfrif?
 rk-remove-modal-content-1 =
