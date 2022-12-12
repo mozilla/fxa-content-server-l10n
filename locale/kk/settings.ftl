@@ -41,7 +41,7 @@ ready-confirmation = Пароліңіз тасталды
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
 # $serviceName (String) - the service which caused the user to reset their password
-ready-use-service = Сіз енді %(serviceName)s қолдануға дайынсыз
+ready-use-service = Сіз енді { $serviceName } қолдануға дайынсыз
 ready-continue = Жалғастыру
 
 ## Alert Bar
