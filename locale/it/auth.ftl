@@ -131,8 +131,8 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Sconto una tantum: 
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating =
     { $discountDuration ->
-        [one] Sconto (1 mese): -{ $invoiceDiscountAmount }
-       *[other] Sconto (2 mesi): -{ $invoiceDiscountAmount }
+        [one] Sconto ({ $discountDuration } mese): -{ $invoiceDiscountAmount }
+       *[other] Sconto ({ $discountDuration } mesi): -{ $invoiceDiscountAmount }
     }
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
