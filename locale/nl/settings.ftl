@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Bericht sluiten
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +35,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
+ready-confirmation = Uw wachtwoord is opnieuw ingesteld
+# This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla }-logo
-app-footer-privacy-notice = Privacyverklaring voor website
-app-footer-terms-of-service = Servicevoorwaarden
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = U kunt { $serviceName } nu gebruiken
+ready-continue = Doorgaan
 
-##
+## Alert Bar
 
+alert-bar-close-message = Bericht sluiten
 
 ## User's avatar
 
@@ -516,7 +510,6 @@ rk-key-removed-2 = Sleutel voor accountherstel verwijderd
 rk-cannot-remove-key = Uw sleutel voor accountherstel kon niet worden verwijderd.
 rk-refresh-key-1 = Accountherstelsleutel vernieuwen
 rk-content-explain = Uw gegevens herstellen wanneer u uw wachtwoord vergeet.
-rk-content-reset-data = Waarom worden mijn gegevens opnieuw ingesteld als ik mijn wachtwoord herinitialiseer?
 rk-cannot-verify-session-4 = Sorry, er is een probleem opgetreden bij het bevestigen van uw sessie
 rk-remove-modal-heading-1 = Accountherstelsleutel verwijderen?
 rk-remove-modal-content-1 =
