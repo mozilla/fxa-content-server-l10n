@@ -45,7 +45,7 @@ ready-confirmation = הססמה שלך אופסה
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
 # $serviceName (String) - the service which caused the user to reset their password
-ready-use-service = כעת ניתן להשתמש ב־%(serviceName)s
+ready-use-service = כעת ניתן להשתמש ב־{ $serviceName }
 ready-continue = המשך
 
 ## Alert Bar
