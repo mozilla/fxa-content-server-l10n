@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Alert Bar
-
-alert-bar-close-message = Mesajı kapat
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +35,14 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla } logosu
-app-footer-privacy-notice = Web Sitesi Gizlilik Bildirimi
-app-footer-terms-of-service = Hizmet Koşulları
+ready-confirmation = Parolanız sıfırlandı
+ready-continue = Devam et
 
-##
+## Alert Bar
 
+alert-bar-close-message = Mesajı kapat
 
 ## User's avatar
 
