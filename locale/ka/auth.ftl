@@ -3,7 +3,6 @@
 session-verify-send-push-title = გსურთ, შეხვიდეთ ანგარიშზე { -product-firefox-accounts }?
 session-verify-send-push-body-2 = დაწკაპეთ აქ ვინაობის დასამოწმებლად
 
-
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
@@ -13,7 +12,6 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="�
 body-devices-image = <img data-l10n-name="devices-image" alt="მოწყობილობები">
 fxa-privacy-url = { -brand-mozilla } – პირადულობის დებულება
 fxa-service-url = { -product-firefox-cloud } – მომსახურების პირობები
-
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox }-ლოგო">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla }-ლოგო">
 subplat-automated-email = ეს ავტომატური შეტყობინებაა; თუ შეცდომით მიიღეთ, საპასუხო მოქმედება არაა საჭირო.
@@ -48,7 +46,6 @@ subplat-legal = სამართლებრივი
 subplat-legal-plaintext = { subplat-legal }
 subplat-privacy = პირადულობა
 subplat-privacy-website-plaintext = { subplat-privacy }
-
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="ჩამოტვირთეთ { $productName } { -google-play }-იდან">
@@ -70,35 +67,29 @@ ios-download-plaintext = ჩამოტვირთეთ { $productName } App 
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = დააყენეთ { $productName } სხვა მოწყობილობაზე:
-
 automated-email-change-2 = თუ ეს თქვენი ნამოქმედარი არაა, <a data-l10n-name="passwordChangeLink">შეცვალეთ პაროლი</a> დაუყოვნებლივ.
 automated-email-support = დამატებით, იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla }-ს მხარდაჭერის გვერდი</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = თუ ეს თქვენი ნამოქმედარი არაა, შეცვალეთ პაროლი დაუყოვნებლივ:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = დამატებით იხილეთ { -brand-mozilla }-ს მხარდაჭერის გვერდი:
-
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } ვრცლად იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla }-მხარდაჭერა</a>.
 automated-email-no-action-plaintext = ეს წერილი ავტომატურად იგზავნება. თუ შეცდომით მიიღეთ, საჭირო არაა რამე მოიმოქმედოთ.
-
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = ეს ავტომატური შეტყობინებაა; თუ ეს მოქმედება თქვენს უნებართვოდ შესრულდა, მაშინ გთხოვთ, შეცვალოთ პაროლი:
-
 automated-email-reset =
     ეს ავტომატური შეტყობინებაა; თუ მოცემული მოქმედება, თქვენი ნებართვის გარეშე შესრულდა, მაშინ <a data-l10n-name="resetLink">გთხოვთ, გაანულოთ პაროლი.</a>.
     ვრცლად იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla } მხარდაჭერის გვერდი</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext = თუ თქვენ არ შეგიცვლიათ, გთხოვთ, ახლავე გაანულოთ პაროლი ბმულზე { $resetLink }
-
 cancellationSurvey = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს <a data-l10n-name="cancellationSurveyUrl">მცირე კითხვარი</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს მცირე კითხვარი:
-
 change-password-plaintext = თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშთან წვდომის მოპოვებას ცდილობს, გთხოვთ, შეცვალეთ თქვენი პაროლი.
-
 manage-account = ანგარიშის მართვა
 manage-account-plaintext = { manage-account }:
-
 payment-details = გადახდის მონაცემები:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -110,7 +101,6 @@ payment-plan-charged = ჩამოიჭრა: { $invoiceTotal } თარი�
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = შემდეგი ზედნადები: { $nextInvoiceDateOnly }
-
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = გადახდის საშუალება:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -118,7 +108,6 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = { $cardType } ბარათი დაბოლოებით { $lastFour }
-
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = ზედნადების ნომერი: <b>{ $invoiceNumber }</b>
@@ -148,33 +137,26 @@ subscriptionCharges-content-tax = გადასახადები და �
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = ჩამოიჭრა { $invoiceTotal } თარიღზე { $invoiceDateOnly }
-
 subscriptionSupport = კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი <a data-l10n-name="subscriptionSupportUrl">მხარდაჭერის გუნდი</a> მზადაა თქვენ დასახმარებლად.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი მხარდაჭერის გუნდი მზადაა თქვენ დასახმარებლად:
-
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSupportContact = გმადლობთ, რომ გამოწერილი გაქვთ { $productName }. თუ გექნებათ კითხვა, თქვენი გამოწერის შესახებ ან ისურვებთ უკეთ გაიცნოთ { $productName }, გთხოვთ <a data-l10n-name="subscriptionSupportUrl">დაგვიკავშირდეთ</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = გმადლობთ, რომ გამოწერილი გაქვთ { $productName }. თუ გექნებათ კითხვა, თქვენი გამოწერის შესახებ ან ისურვებთ უკეთ გაიცნოთ { $productName }, გთხოვთ დაგვიკავშირდეთ.
-
 subscriptionUpdateBillingEnsure = შეგიძლიათ გადაამოწმოთ, თქვენი გადახდის საშუალებისა და ანგარიშის მონაცემების სისწორე, <a data-l10n-name="updateBillingUrl">აქედან</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = შეგიძლიათ გადაამოწმოთ, თქვენი გადახდის საშუალებისა და ანგარიშის მონაცემების სისწორე, აქედან:
-
 subscriptionUpdateBillingTry = შევეცდებით გადახდა გავიმეოროთ მომდევნო რამდენიმე დღის განმავლობაში, მაგრამ გასასწორებლად, შეიძლება საჭირო იყოს თქვენი დახმარებაც, <a data-l10n-name="updateBillingUrl">გადახდის მონაცემების განახლებით</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingTry-plaintext = შევეცდებით გადახდა გავიმეოროთ მომდევნო რამდენიმე დღის განმავლობაში, მაგრამ გასასწორებლად, შეიძლება საჭირო იყოს თქვენი დახმარებაც, გადახდის მონაცემების განახლებით:
-
 subscriptionUpdatePayment = მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ <a data-l10n-name="updateBillingUrl">განაახლოთ გადახდის მონაცემები</a> რაც შეიძლება მალე.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ განაახლოთ გადახდის მონაცემები, რაც შეიძლება მალე:
-
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = დამატებით იხილეთ { -brand-mozilla }-ს მხარდაჭერის გვერდი: { $supportUrl }.
-
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -184,11 +166,9 @@ device-all = { $uaBrowser }, { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser }, { $uaOS }
-
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP-მისამართი: { $ip }
-
 # Variables:
 #  $city (String) - User's city
 #  $stateCode (String) - User's state
@@ -205,26 +185,23 @@ location-state-country = { $stateCode }, { $country } (მიახლოებ�
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (მიახლოებით)
-
 view-invoice = <a data-l10n-name="invoiceLink">იხილეთ თქვენი ზედნადები</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = იხილეთ ზედნადები: { $invoiceLink }
-
 cadReminderFirst-subject-1 = შეხსენება! დაასინქრონეთ { -brand-firefox }
 cadReminderFirst-action = სხვა მოწყობილობის დასინქრონება
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = სინქრონიზაცია ორს შორისაა
+cadReminderFirst-description-1 = წაიყოლეთ თქვენი ჩანართები სხვა მოწყობილობებზეც. თან იქონიეთ ჩანართები, პაროლები და სხვა მონაცემები ყველგან, სადაც გიყენიათ { -brand-firefox }. ესაა თქვენი { -brand-firefox }-ანგარიშის ჯადოქრობა!
 cadReminderFirst-description-2 = სინქრონიზაციას მხოლოდ წამი სჭირდება.
-
 cadReminderSecond-subject-2 = არ გამოგრჩეთ! დაასრულეთ სინქრონიზაციის გამართვა
 cadReminderSecond-action = სხვა მოწყობილობის დასინქრონება
 cadReminderSecond-title-2 = არ დაგავიწყდეთ სინქრონიზაცია!
 cadReminderSecond-description-sync = დაასინქრონეთ თქვენი სანიშნები, პაროლები, გახსნილი ჩანართები და ა.შ. — ყველგან, სადაც გიყენიათ { -brand-firefox }.
 cadReminderSecond-description-plus = ამასთან ერთად, თქვენი მონაცემები ყოველთვის დაშიფრულია. მხოლოდ თქვენსა და თქვენ მიერ დამოწმებულ მოწყობილობებზე შეიძლება ნახვა.
-
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = მოგესალმებათ { $productName }
@@ -233,24 +210,20 @@ downloadSubscription-subject = მოგესალმებათ { $productNa
 downloadSubscription-title = მოგესალმებათ { $productName }
 downloadSubscription-content-2 = დავიწყოთ, თქვენ მიერ გამოწერილი მომსახურების სრულყოფილად გამოყენება:
 downloadSubscription-link-action-2 = დაწყება
-
 fraudulentAccountDeletion-subject = თქვენი { -product-firefox-account } წაიშალა
 fraudulentAccountDeletion-title = თქვენი ანგარიში წაიშალა
 fraudulentAccountDeletion-contact = თუ თქვენ გაქვთ შეკითხვები, გთხოვთ, დაუკავშირდეთ ჩვენი <a data-l10n-name="mozillaSupportUrl">მხარდაჭერის გუნდს</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = თუ გაქვთ კითხვები, გთხოვთ, დაუკავშირდეთ ჩვენი მხარდაჭერის გუნდს: { $mozillaSupportUrl }
-
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ამოიწურა სამარქაფო კოდები შესვლის დასამოწმებლად!
 codes-reminder-title-one = ბოლო სამარქაფო კოდია შესვლის დასამოწმებლად
 codes-reminder-title-two = დროა, კიდევ შექმნათ სამარქაფო კოდები შესვლის დასამოწმებლად
-
 codes-reminder-description-part-one = სამარქაფო კოდები შესვლის დასამოწმებლად დაგეხმარებათ მონაცემების აღდგენაში, თუ პაროლი დაგავიწყდებათ.
 codes-reminder-description-part-two = შექმენით ახალი კოდები ახლავე, რათა მოგვიანებით არ დაკარგოთ თქვენი მონაცემები.
 codes-reminder-description-two-left = მხოლოდ ორი კოდიღა გაქვთ დარჩენილი.
 codes-reminder-description-create-codes = შექმენით ახალი სამარქაფო კოდები შესვლის დასამოწმებლად, რომ გამოიყენოთ თქვენს ანგარიშთან წვდომის დასაბრუნებლად, თუ ჩაიკეტება.
-
 lowRecoveryCodes-action-2 = კოდების შექმნა
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
@@ -259,7 +232,6 @@ lowRecoveryCodes-subject-2 =
         [one] მხოლოდ 1 სამარქაფო კოდია დარჩენილი შესვლის დასამოწმებლად
        *[other] მხოლოდ { $numberRemaining } სამარქაფო კოდია დარჩენილი შესვლის დასამოწმებლად
     }
-
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = ახალი შესვლა { $clientName }
@@ -273,11 +245,9 @@ newDeviceLogin-change-password = თქვენ არ ყოფილხარ
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = თქვენ არ ყოფილხართ? შეცვალეთ პაროლი:
 newDeviceLogin-action = ანგარიშის მართვა
-
 passwordChanged-subject = პაროლი განახლდა
 passwordChanged-title = პაროლი წარმატებით შეიცვალა
 passwordChanged-description = თქვენი { -product-firefox-account(case: "gen") } პაროლი წარმატებით შეიცვალა ამ მოწყობილობიდან:
-
 passwordChangeRequired-subject = აღმოჩენილია საეჭვო მოქმედება
 passwordChangeRequired-title = პაროლის შეცვლა აუცილებელია
 passwordChangeRequired-suspicious-activity = თქვენს { -product-firefox-account(case: "add") } დაკავშირებით საეჭვო მოქმედება შევნიშნეთ. ამ { -product-firefox-account(case: "ins") } უნებართვო სარგებლობის აღსაკვეთად, ყველა მოწყობილობა გამოერთებულია და საჭიროა ახალი პაროლის შექმნა, უსაფრთხოების ზომების მისაღებად.
@@ -286,52 +256,39 @@ passwordChangeRequired-different-password = <b>მნიშვნელოვა
 passwordChangeRequired-signoff = საუკეთესო სურვილებით,
 passwordChangeRequired-signoff-name = { -product-firefox-accounts } გუნდი
 passwordChangeRequired-different-password-plaintext = მნიშვნელოვანია: შეარჩიეთ ადრინდელისგან განსხვავებული პაროლი და დარწმუნდით, რომ არ ემთხვევა ელფოსტის ანგარიშს.
-
 passwordReset-subject = პაროლი განახლდა
 passwordReset-title = თქვენი ანგარიშის პაროლი შეიცვალა
 passwordReset-description = სინქრონიზაციის გასაგრძელებლად, საჭიროა ახალი პაროლის შეყვანა სხვა მოწყობილობებზეც.
-
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = თქვენ არ ყოფილხართ?
 postAddAccountRecovery-action = ანგარიშის მართვა
-
 postAddLinkedAccount-subject = ახალ ანგარიშს დაუკავშირდა { -brand-firefox }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title = თქვენი { $providerName } ანგარიში დაუკავშირდა თქვენს { -product-firefox-account(case: "dat") }
 postAddLinkedAccount-action = ანგარიშის მართვა
-
 postAddTwoStepAuthentication-action = ანგარიშის მართვა
-
 postChangePrimary-subject = მთავარი ელფოსტა განახლებულია
 postChangePrimary-title = ახალი მთავარი ელფოსტა
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = მთავარი ელფოსტა წარმატებით შეიცვალა მისამართით { $email }. უკვე შეგიძლიათ მისი გამოყენება { -product-firefox-account(case: "loc") } შესასვლელად, ასევე უსაფრთხოების შესახებ ცნობების მისაღებად და ანგარიშზე შესვლების დასამოწმებლად.
 postChangePrimary-action = ანგარიშის მართვა
-
 postConsumeRecoveryCode-action = ანგარიშის მართვა
-
 postNewRecoveryCodes-action = ანგარიშის მართვა
-
 postRemoveAccountRecovery-action = ანგარიშის მართვა
-
 postRemoveSecondary-subject = დამატებითი ელფოსტა მოცილებულია
 postRemoveSecondary-title = დამატებითი ელფოსტა მოცილებულია
 # Variables:
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description = { $secondaryEmail } მოცილებულია { -product-firefox-account(case: "gen") } დამატებითი ელფოსტის მისამართებიდან. ამიერიდან, უსაფრთხოების შეტყობინებებისა და შესვლების დასადასტურებელი მოთხოვნები ამ მისამართზე აღარ გამოიგზავნება.
 postRemoveSecondary-action = ანგარიშის მართვა
-
 postRemoveTwoStepAuthentication-action = ანგარიშის მართვა
-
 postVerifySecondary-subject = ელფოსტის დამატებითი მისამართი დამახსოვრებულია
 postVerifySecondary-title = ელფოსტის დამატებითი მისამართი დამახსოვრებულია
 postVerifySecondary-action = ანგარიშის მართვა
-
 recovery-subject = პაროლის განულება
 recovery-action = შეიყვანეთ ახალი პაროლი
-
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = თქვენ მიერ გამოწერილი { $productName } გაუქმებულია
@@ -341,7 +298,6 @@ subscriptionAccountDeletion-title = სამწუხაროა, რომ �
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = თქვენ ახლახანს წაშალეთ თქვენი { -product-firefox-account }. შედეგად, ჩვენ გავაუქმეთ თქვენ მიერ გამოწერილი { $productName }. ბოლო გადახდაა { $invoiceTotal }, თარიღით { $invoiceDateOnly }.
-
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = მოგესალმებათ { $productName }: გთხოვთ, დააყენოთ პაროლი.
@@ -351,17 +307,14 @@ subscriptionAccountFinishSetup-title = მოგესალმებათ { $p
 subscriptionAccountFinishSetup-content-processing = გადახდა მუშავდება და შეიძლება გასტანოს ოთხ სამუშაო დღემდე. თქვენი გამოწერა თავისით განახლდება თითოეულ სააგარიშო პერიოდში, სანამ არ გააუქმებთ.
 subscriptionAccountFinishSetup-content-create-2 = შემდეგ, შექმნით { -product-firefox-account(case: "gen") } პაროლს, გამოწერით სარგებლობის დასაწყებად.
 subscriptionAccountFinishSetup-action-2 = დაიწყეთ
-
 subscriptionAccountReminderFirst-subject = შეხსენება: დაასრულეთ ანგარიშის შექმნა
 subscriptionAccountReminderFirst-title = თქვენ ჯერ არ გაქვთ წვდომა თქვენს გამოწერაზე
 subscriptionAccountReminderFirst-action = პაროლის შექმნა
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
-
 subscriptionAccountReminderSecond-subject = საბოლოო შეხსენება: გამართეთ თქვენი ანგარიში
 subscriptionAccountReminderSecond-title = მოგესალმებათ { -brand-firefox }!
 subscriptionAccountReminderSecond-action = პაროლის შექმნა
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
-
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = თქვენ მიერ გამოწერილი { $productName } გაუქმებულია
@@ -390,7 +343,6 @@ subscriptionDowngrade-content-charge-info = შემდეგი გადა�
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = თუ იქნება ახალი პროგრამა თქვენთვის, რომ შეძლოთ გამოიყენოთ { $productName }, მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით.
 subscriptionDowngrade-content-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
-
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = თქვენი { $productName } გამოწერა გაუქმებულია
@@ -398,7 +350,6 @@ subscriptionFailedPaymentsCancellation-title = თქვენი გამო�
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-content = თქვენ მიერ გამოწერილი { $productName } გაუქმდა, ვინაიდან გადახდის რამდენიმე მცდელობა წარუმატებლად დასრულდა. წვდომის ახლიდან მისაღებად, ხელახლა გამოიწერეთ ან განაახლეთ გადახდის საშუალება.
-
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = { $productName } გადახდა დამოწმებულია
@@ -413,7 +364,6 @@ subscriptionFirstInvoice-content-auto-renew = თქვენი გამოწ
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = შემდეგი ზედნადები: { $nextInvoiceDateOnly }
-
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } გადახდა ვერ მოხერხდა
@@ -422,7 +372,6 @@ subscriptionPaymentFailed-title = სამწუხაროდ ხარვე
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = ხარვეზი იყო, თქვენი ბოლო გადახდისას პროდუქტისთვის { $productName }
 subscriptionPaymentFailed-content-outdated = შესაძლოა იმიტომ, რომ თქვენი საკრედიტო ბარათის ვადა ამოიწურა ან გადახდის საშუალებაა ვადაგასული.
-
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = გადახდის ინფორმაციის განახლებას საჭიროებს { $productName }
@@ -431,7 +380,6 @@ subscriptionPaymentProviderCancelled-title = სამწუხაროდ ხ�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = ხარვეზი აღმოაჩნდა თქვენი გადახდის საშუალებას პროდუქტისთვის { $productName }.
 subscriptionPaymentProviderCancelled-content-reason = შესაძლოა იმიტომ, რომ თქვენი საკრედიტო ბარათის ვადა ამოიწურა ან გადახდის საშუალებაა ვადაგასული.
-
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = გამოწერილი { $productName } კვლავ ამოქმედებულია
@@ -442,7 +390,6 @@ subscriptionReactivation-title = გმადლობთ, რომ კვლ�
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = თქვენი საანგარიშო და საგადასახადო დროის შუალედი რჩება იგივე. მომდევნო ჩამოსაჭრელი თანხა იქნება { $invoiceTotal }, თარიღით { $nextInvoiceDateOnly }. თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საგადასახადო პერიოდში, სანამ არ გააუქმებთ.
-
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = { $productName } გამოწერის თვითგანახლების უწყება
@@ -460,12 +407,10 @@ subscriptionRenewalReminder-content-closing = პატივისცემი�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } პროდუქტის გუნდი
-
 subscriptionsPaymentProviderCancelled-subject = გადახდის ინფორმაციის განახლებას საჭიროებს { -brand-mozilla }-გამოწერები
 subscriptionsPaymentProviderCancelled-title = სამწუხაროდ ხარვეზია გადახდის თქვენს საშუალებასთან დაკავშირებით
 subscriptionsPaymentProviderCancelled-content-detected = ხარვეზს წავაწყდით თქვენს ბოლო გადახდაზე მოცემული გამოწერებისთვის.
 subscriptionsPaymentProviderCancelled-content-payment = შესაძლოა იმიტომ, რომ თქვენი საკრედიტო ბარათის ვადა ამოიწურა ან გადახდის საშუალებაა ვადაგასული.
-
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } გადახდა მიღებულია
@@ -476,7 +421,6 @@ subscriptionSubsequentInvoice-content-received = მიღებულია თ
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = შემდეგი ზედნადები: { $nextInvoiceDateOnly }
-
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = განახლების შედეგად მიიღეთ { $productName }
@@ -496,7 +440,6 @@ subscriptionUpgrade-content-charge-info = შემდეგი გადახ�
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = თუ იქნება ახალი პროგრამა თქვენთვის, რომ შეძლოთ გამოიყენოთ { $productName }, მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით.
 subscriptionUpgrade-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
-
 unblockCode-subject = ანგარიშზე დაშვების კოდი
 unblockCode-title = ეს თქვენი შესვლაა?
 unblockCode-prompt = თუ კი, მაშინ გესაჭიროებათ დაშვების კოდი:
@@ -505,20 +448,14 @@ unblockCode-prompt = თუ კი, მაშინ გესაჭიროე�
 unblockCode-prompt-plaintext = თუ კი, მაშინ გესაჭიროებათ დაშვების კოდი: { $unblockCode }
 unblockCode-report = თუ არა, დაგვეხმარეთ დამრღვევების გამოვლენასა და მოგერიებაში და <a data-l10n-name="reportSignInLink">გამოგზავნეთ მოხსენება.</a>
 unblockCode-report-plaintext = თუ არა, დაგვეხმარეთ დამრღვევების გამოვლენასა და მოგერიებაში და გამოგზავნეთ მოხსენება.
-
 verify-description = დაამოწმეთ თქვენი ანგარიში და მისი მეშვეობით სრულად ისარგებლეთ { -brand-firefox }-ის შესაძლებლობებით:
 verify-subject = დაასრულეთ ანგარიშის შექმნა
-
 verifyLogin-action = შესვლის დადასტურება
-
 verifyLoginCode-expiry-notice = ვადა გაუვა 5 წუთში.
-
 verifyPrimary-description = მოთხოვნა ანგარიშის შეცვლის თაობაზე, გამოგზავნილია შემდეგი მოწყობილობიდან:
 verifyPrimary-subject = მთავარი ელფოსტის დამოწმება
-
 verifySecondaryCode-subject = დამატებითი ელფოსტის დამოწმება
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer = მოთხოვნის წყარო, რომ { $email } მიეთითოს დამატებით ელფოსტად, არის შემდეგი { -product-firefox-account }:
-
 verifyShortCode-expiry-notice = ვადა გაუვა 5 წუთში.

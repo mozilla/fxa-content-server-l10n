@@ -133,6 +133,11 @@ payment-error-manage-subscription-button = გამოწერების მ
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = უკვე გამოწერილი გაქვთ { $productName } ან { -brand-name-google }-ის, ან { -brand-name-apple }-ის მაღაზიიდან.
+iap-upgrade-no-bundle-support = ჯერ არაა მხარდაჭერილი ამ გამოწერების გაუმჯობესება, მაგრამ მუშავდება.
+iap-upgrade-contact-support = კვლავ შეგიძლიათ ამ პროდუქტის მიღება — გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ შევძლოთ დახმარება.
+iap-upgrade-get-help-button = დახმარების მიღება
 
 ## Component - PaymentForm
 
@@ -178,6 +183,7 @@ plan-details-list-price = ფასების ნუსხა
 plan-details-show-button = ვრცლად ჩვენება
 plan-details-hide-button = მოკლედ ჩვენება
 plan-details-total-label = სულ
+plan-details-tax = გადასახადები და მოსაკრებლები
 
 ## Component - PlanErrorDialog
 
@@ -294,6 +300,7 @@ pay-with-heading-card-only = ბარათით გადახდა
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = ჯერ ვერ მოხერხდება გაუმჯობესება
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
