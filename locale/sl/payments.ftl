@@ -459,6 +459,14 @@ manage-pocket-body-2 = Za upravljanje <linkExternal>kliknite tukaj</linkExternal
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Želite še naprej uporabljati { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy = Vaš dostop do { $name } se bo nadaljeval, vaše obračunsko obdobje in plačilo pa bosta ostali nespremenjeni. Vaša naslednja bremenitev v vrednosti { $amount } bo opravljena dne { $endDate } na kartico, ki se konča s številkami { $last }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy = Vaš dostop do { $name } se bo nadaljeval, vaše obračunsko obdobje in plačilo pa bosta ostali nespremenjeni. Vaša naslednja bremenitev v vrednosti { $amount } bo opravljena dne { $endDate }.
 reactivate-confirm-button = Obnovi naročnino
 
 ## $date (Date) - Last day of product access
