@@ -221,8 +221,6 @@ terms-download = Pogoji prenosa
 
 document =
     .title = Firefox Računi
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Nalaganje …
 settings-subscriptions-title = Naročnine
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Promocijska koda

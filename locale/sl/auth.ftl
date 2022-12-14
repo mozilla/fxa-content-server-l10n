@@ -520,6 +520,7 @@ subscriptionUpgrade-upgrade-info = Uspešno ste nadgradili z { $productNameOld }
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Od naslednjega računa naprej se bo vaša zaračunana vrednost spremenila iz { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }. Takrat vam bomo zaračunali tudi enkratni strošek { $paymentProrated }, ki bo odražal višjo porabo do konca tega obdobja.
+subscriptionUpgrade-content-charge-info-different-cycle = Zaračunali vam bomo enkraten znesek { $paymentProrated }, ki odraža višjo ceno vaše naročnine do konca tega obdobja ({ $productPaymentCycleOld }). Od naslednjega računa naprej se bo vaša zaračunana vrednost spremenila iz { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = V kolikor morate za uporabo { $productName } namestiti novo programsko opremo, boste po e-pošti prejeli ločeno sporočilo z navodili za prenos.
@@ -539,6 +540,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ne pozabite potrditi svojega računa
 verificationReminderFirst-title-2 = Dobrodošli v { -brand-firefox(sklon: "mestnik") }!
 verificationReminderFirst-description-2 = Pred nekaj dnevi ste ustvarili { -product-firefox-account }, vendar ga niste potrdili. Potrdite svoj račun v naslednjih 15 dneh, sicer bo samodejno izbrisan.
+verificationReminderFirst-sub-description-3 = Ne zamudite brskalnika, ki postavlja vas in vašo zasebnost na prvo mesto.
 confirm-email-2 = Potrdi račun
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potrdi račun
