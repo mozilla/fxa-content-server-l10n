@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-14 11:42+0000\n"
+"PO-Revision-Date: 2022-12-14 13:26+0000\n"
 "Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -1565,7 +1565,7 @@ msgstr "S čim potrebujete pomoč?"
 
 #: .es5/templates/support.mustache:12
 msgid "Payment & billing"
-msgstr "Plačilo in računi"
+msgstr "Plačilo in obračun"
 
 #: .es5/templates/support.mustache:13
 msgid "Account issues"

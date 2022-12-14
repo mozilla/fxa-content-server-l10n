@@ -405,6 +405,12 @@ sub-route-idx-reactivating = Obnovitev naročnine ni uspela
 sub-route-idx-cancel-failed = Preklic naročnine ni uspel
 sub-route-idx-contact = Obrnite se na podporo
 sub-route-idx-cancel-msg-title = Žal nam je, da odhajate
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Vaša naročnina na { $name } je preklicana.
+          <br />
+          Do { $date } boste lahko še vedno uporabljali { $name }.
 sub-route-idx-cancel-aside = Imate vprašanja? Obiščite <a>podporo { -brand-name-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
@@ -413,6 +419,7 @@ sub-customer-error =
     .title = Napaka pri nalaganju stranke
 sub-invoice-error =
     .title = Napaka pri nalaganju računov
+sub-billing-update-success = Vaši podatki za obračun so bili uspešno posodobljeni
 
 ## Routes - Subscription - ActionButton
 
@@ -431,13 +438,21 @@ sub-expires-on = Preteče { $date }
 # $expirationDate (Date) - The payment card's expiration date.
 
 pay-update-card-exp = Poteče { $expirationDate }
+sub-route-idx-updating = Posodabljanje podatkov za obračun …
+sub-route-payment-modal-heading = Neveljavni podatki za obračun
+sub-route-payment-modal-message = Videti je, da je na vašem { -brand-name-paypal } računu prišlo do napake. Za razrešitev težave s plačilom po potrebi ukrepajte.
+sub-route-missing-billing-agreement-payment-alert = Neveljavni podatki o plačilu; pri uporabi vašega računa je prišlo do napake. <div>Upravljaj</div>
+sub-route-funding-source-payment-alert = Neveljavni podatki o plačilu; pri uporabi vašega računa je prišlo do napake. Po uspešni posodobitvi podatkov lahko traja nekaj časa, da se to opozorilo izbriše. <div>Upravljaj</div>
 
 ## Routes - Subscription - SubscriptionItem
 
 sub-item-no-such-plan = Za to naročnino ni takega načrta.
+invoice-not-found = Naknadnega računa ni mogoče najti
+sub-item-no-such-subsequent-invoice = Naknadnega računa za to naročnino ni mogoče najti.
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title = Iščete svojo premium naročnino na { -brand-name-pocket }?
 manage-pocket-body-2 = Za upravljanje <linkExternal>kliknite tukaj</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
