@@ -1,10 +1,12 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+## Non-email strings
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
--brand-mozilla = Mozilla
--brand-firefox = Firefox
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
+## Variables
+##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 

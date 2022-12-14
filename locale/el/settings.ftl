@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -90,17 +89,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Μενού Bento του { -brand-firefox }
 bento-menu-firefox-title = Το { -brand-firefox } είναι τεχνολογία που μάχεται για το απόρρητό σας στο διαδίκτυο.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } για υπολογιστές
 bento-menu-firefox-mobile = { -brand-firefox } για κινητές συσκευές
+
 bento-menu-made-by-mozilla = Από τη { -brand-mozilla }
 
 ## Connect another device promo
@@ -109,6 +109,7 @@ connect-another-fx-mobile = Αποκτήστε το { -brand-firefox } για κ
 connect-another-find-fx-mobile =
     Βρείτε το { -brand-firefox } στο { -google-play } και στο { -app-store } ή
     <br /><linkExternal>στείλτε έναν σύνδεσμο λήψης στη συσκευή σας.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -117,7 +118,6 @@ connect-another-app-store-image-2 =
     .title = Λήψη του { -brand-firefox } στο { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -132,10 +132,13 @@ cs-cannot-disconnect = Η εφαρμογή πελάτη δεν βρέθηκε, �
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Έγινε αποσύνδεση από το { $service }
+
 cs-refresh-button =
     .title = Ανανέωση συνδεδεμένων υπηρεσιών
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Απουσία ή διπλή παρουσία στοιχείων;
+
 cs-disconnect-sync-heading = Αποσύνδεση από το Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -174,10 +177,10 @@ cs-disconnect-suspicious-advice-content =
     για την προστασία των δεδομένων σας, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του
     { -product-firefox-account(case: "gen", capitalization: "lower") } σας. Θα πρέπει επίσης να αλλάξετε
     όλους τους άλλους αποθηκευμένους κωδικούς πρόσβασης του { -brand-firefox } στη σελίδα about:logins.
+
 cs-sign-out-button = Αποσύνδεση
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -206,6 +209,7 @@ drop-down-menu-title = Μενού { -product-firefox-account(case: "gen", capita
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Έγινε σύνδεση ως</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Αποσύνδεση
+
 drop-down-menu-sign-out-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την αποσύνδεση
 
 ## Flow Container
@@ -239,6 +243,7 @@ input-password-hide = Απόκρυψη κωδικού πρόσβασης
 input-password-show = Εμφάνιση κωδικού πρόσβασης
 input-password-hide-aria = Απόκρυψη κωδικού πρόσβασης από την οθόνη.
 input-password-show-aria = Εμφάνιση κωδικού πρόσβασης ως απλό κείμενο. Θα είναι ορατός στην οθόνη.
+
 
 ## Linked Accounts section
 
@@ -319,11 +324,11 @@ avatar-page-image-too-large-error-2 = Το μέγεθος του αρχείου 
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Αλλαγή κωδικού πρόσβασης
+
 pw-8-chars = Τουλάχιστον 8 χαρακτήρες
 pw-not-email = Όχι τη διεύθυνση email σας
 pw-change-must-match = Ο νέος κωδικός πρόσβασης αντιστοιχεί στην επιβεβαίωση
@@ -333,35 +338,40 @@ pw-tips = Μείνετε ασφαλείς — μην επαναχρησιμοπ�
 pw-change-cancel-button = Ακύρωση
 pw-change-save-button = Αποθήκευση
 pw-change-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
+
 pw-change-current-password =
     .label = Εισαγάγετε τον τρέχοντα κωδικό πρόσβασης
 pw-change-new-password =
     .label = Εισαγωγή νέου κωδικού πρόσβασης
 pw-change-confirm-password =
     .label = Επιβεβαίωση νέου κωδικού πρόσβασης
+
 pw-change-success-alert-2 = Ο κωδικός πρόσβασης ενημερώθηκε
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Δημιουργία κωδικού πρόσβασης
+
 pw-create-success-alert-2 = Ο κωδικός πρόσβασης ορίστηκε
 pw-create-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Διαγραφή λογαριασμού
+
 delete-account-step-1-2 = Βημα 1 απο 2
 delete-account-step-2-2 = Βημα 2 απο 2
+
 delete-account-confirm-title-2 = Έχετε συνδέσει τον { -product-firefox-account(case: "acc", capitalization: "lower") } σας με προϊόντα της { -brand-mozilla } που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
+
 delete-account-acknowledge = Παρακαλούμε σημειώστε ότι η διαγραφή του λογαριασμού σας:
+
 delete-account-chk-box-1-v2 =
     .label = Θα ακυρωθούν τυχόν επί πληρωμή συνδρομές σας (εκτός του { product-pocket })
 delete-account-chk-box-2 =
@@ -370,28 +380,33 @@ delete-account-chk-box-3 =
     .label = Η εκ νέου ενεργοποίηση με το ίδιο email ενδέχεται να μην επαναφέρει τις αποθηκευμένες πληροφορίες σας
 delete-account-chk-box-4 =
     .label = Όλες οι επεκτάσεις και τα θέματα που έχετε δημοσιεύει στο addons.mozilla.org θα διαγραφούν
+
+
 delete-account-continue-button = Συνέχεια
+
 delete-account-password-input =
     .label = Εισαγωγή κωδικού πρόσβασης
+
 delete-account-cancel-button = Ακύρωση
 delete-account-delete-button-2 = Διαγραφή
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Εμφανιζόμενο όνομα
+
 display-name-input =
     .label = Εισαγάγετε το εμφανιζόμενο όνομα
 submit-display-name = Αποθήκευση
 cancel-display-name = Ακύρωση
+
 display-name-update-error-2 = Προέκυψε πρόβλημα κατά την ενημέρωση του εμφανιζόμενου ονόματός σας
+
 display-name-success-alert-2 = Το εμφανιζόμενο όνομα ενημερώθηκε
 
 ##
-
 
 # Account recovery key setup page
 
@@ -445,20 +460,25 @@ delete-account-link = Διαγραφή λογαριασμού
 ## Two Step Authentication
 
 tfa-title = Ταυτοποίηση δύο παραγόντων
+
 tfa-step-1-3 = Βημα 1 απο 3
 tfa-step-2-3 = Βημα 2 απο 3
 tfa-step-3-3 = Βημα 3 απο 3
+
 tfa-button-continue = Συνέχεια
 tfa-button-cancel = Ακύρωση
 tfa-button-finish = Τέλος
+
 tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο παραγόντων
 tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λήψη του κωδικού σας.
 tfa-cannot-verify-code-4 = Προέκυψε πρόβλημα κατά την επιβεβαίωση του εφεδρικού κωδικού ταυτοποίησής σας
 tfa-incorrect-recovery-code-1 = Εσφαλμένος εφεδρικός κωδικός ταυτοποίησης
 tfa-enabled = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
+
 tfa-scan-this-code =
     Σαρώστε τον κωδικό QR με κάποια από <linkExternal>αυτές
     τις εφαρμογές ταυτοποίησης</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -469,14 +489,17 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Αδυναμία σάρωσης κωδικού;
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Εισαγάγετε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησής σας:
+
 tfa-enter-totp = Τώρα, εισαγάγετε τον κωδικό ασφαλείας από την εφαρμογή ταυτοποίησης.
 tfa-input-enter-totp =
     .label = Εισαγωγή κωδικού ασφαλείας
 tfa-save-these-codes-1 =
     Αποθηκεύστε αυτούς τους εφεδρικούς κωδικούς ταυτοποίησης μιας χρήσης σε ένα ασφαλές μέρος,
     σε περίπτωση που δεν έχετε πρόσβαση στην κινητή συσκευή σας.
+
 tfa-enter-code-to-confirm-1 =
     Παρακαλώ εισαγάγετε τώρα έναν από τους εφεδρικούς κωδικούς ταυτοποίησης για να
     επιβεβαιώσετε ότι το έχετε αποθηκεύσει. Θα χρειαστείτε έναν κωδικό για σύνδεση εάν δεν έχετε
@@ -485,7 +508,6 @@ tfa-enter-recovery-code-1 =
     .label = Εισαγάγετε έναν εφεδρικό κωδικό ταυτοποίησης
 
 ##
-
 
 ## Profile section
 
@@ -498,7 +520,6 @@ profile-primary-email =
     .header = Κύριο email
 
 ##
-
 
 ## Security section of Setting
 
@@ -590,7 +611,6 @@ se-secondary-email-none = Κανένα
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Ταυτοποίηση δύο παραγόντων
@@ -599,6 +619,7 @@ tfa-row-enabled = Ενεργή
 tfa-row-not-set = Δεν έχει οριστεί
 tfa-row-action-add = Προσθήκη
 tfa-row-action-disable = Απενεργοποίηση
+
 tfa-row-button-refresh =
     .title = Ανανέωση ταυτοποίησης δύο παραγόντων
 tfa-row-cannot-refresh =
@@ -608,12 +629,14 @@ tfa-row-content-explain =
     Εμποδίστε τη σύνδεση τρίτων στον λογαριασμό σας με έναν
     μοναδικό κωδικό στον οποίο θα έχετε μόνο εσείς πρόσβαση.
 tfa-row-cannot-verify-session-4 = Δυστυχώς, προέκυψε πρόβλημα με την επιβεβαίωση της συνεδρίας σας
+
 tfa-row-disable-modal-heading = Απενεργοποίηση ταυτοποίησης δύο παραγόντων;
 tfa-row-disable-modal-confirm = Απενεργοποίηση
 tfa-row-disable-modal-explain-1 =
     Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια. Έχετε επίσης
     την επιλογή <linkExternal>αντικατάστασης των εφεδρικών κωδικών ταυτοποίησής σας</linkExternal>.
 tfa-row-cannot-disable-2 = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο παραγόντων
+
 tfa-row-change-modal-heading-1 = Αλλαγή εφεδρικών κωδικών ταυτοποίησης;
 tfa-row-change-modal-confirm = Αλλαγή
 tfa-row-change-modal-explain = Δεν θα μπορείτε να αναιρέσετε αυτή την ενέργεια.

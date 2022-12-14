@@ -2,11 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Alert Bar
-
-alert-bar-close-message = შეტყობინების დახურვა
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -57,20 +52,11 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla } ლოგო
-app-footer-privacy-notice = საიტის პირადი მონაცემების დაცვის განაცხადი
-app-footer-terms-of-service = გამოყენების პირობები
+## Alert Bar
 
-##
-
+alert-bar-close-message = შეტყობინების დახურვა
 
 ## User's avatar
 
@@ -81,17 +67,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-მენიუ
 bento-menu-firefox-title = { -brand-firefox } არის ტექკომპანია, რომელიც იბრძვის ინტერნეტში თქვენი პირადულობისთვის.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-ბრაუზერი კომპიუტერისთვის
 bento-menu-firefox-mobile = { -brand-firefox }-ბრაუზერი მობილურისთვის
+
 bento-menu-made-by-mozilla = ქმნის { -brand-mozilla }
 
 ## Connect another device promo
@@ -100,6 +87,7 @@ connect-another-fx-mobile = მიიღეთ { -brand-firefox } მობი�
 connect-another-find-fx-mobile =
     მონახეთ { -brand-firefox } მაღაზიებში { -google-play } და { -app-store } ან
     <br /><linkExternal>გაგზავნეთ ჩამოსატვირთი ბმული თქვენს მოწყობილობაზე.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -108,7 +96,6 @@ connect-another-app-store-image-2 =
     .title = ჩამოტვირთეთ { -brand-firefox } { -app-store }-იდან
 
 ##
-
 
 ## Connected services section
 
@@ -123,10 +110,13 @@ cs-cannot-disconnect = კლიენტი ვერ მოიძებნა,
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = გამოთიშულია { $service }
+
 cs-refresh-button =
     .title = დაკავშირებული მომსახურებების განახლება
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = აკლია რამე ან გამეორებულია?
+
 cs-disconnect-sync-heading = გამოთიშვა სინქრონიზაციიდან
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -165,10 +155,10 @@ cs-disconnect-suspicious-advice-content =
     საეჭვოა, თქვენი მონაცემების უსაფრთხოებისთვის, უმჯობესია შეცვალოთ { -product-firefox-account(case: "gen") }
     პაროლი თქვენი პარამეტრებიდან. აგრეთვე, სასურველია შეცვალოთ ყველა სხვა
     პაროლიც, რომელსაც ინახავს { -brand-firefox }, მისამართების ველში, about:logins აკრეფით.
+
 cs-sign-out-button = გამოსვლა
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -197,6 +187,7 @@ drop-down-menu-title = { -product-firefox-account(case: "gen") } მენიუ
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>შემოსული, როგორც</signin><user>{ $user }</user>
 drop-down-menu-sign-out = გამოსვლა
+
 drop-down-menu-sign-out-error-2 = სამწუხაროდ, ხარვეზი წარმოიშვა გამოსვლისას.
 
 ## Flow Container
@@ -230,6 +221,7 @@ input-password-hide = პაროლის დამალვა
 input-password-show = პაროლის ჩვენება
 input-password-hide-aria = პაროლის დამალვა ეკრანიდან.
 input-password-show-aria = პაროლის მარტივ ტექსტად ჩვენება. თქვენი პაროლი ეკრანზე ხილული იქნება.
+
 
 ## Linked Accounts section
 
@@ -305,11 +297,11 @@ avatar-page-image-too-large-error-2 = სურათის ფაილის �
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = პაროლის შეცვლა
+
 pw-8-chars = სულ მცირე 8 სიმბოლო
 pw-not-email = თქვენი ელფოსტის გარდა
 pw-change-must-match = ახალი პაროლი ემთხვევა დასადასტურებელს
@@ -319,35 +311,40 @@ pw-tips = დაიცავით უსაფრთხოება – ნუ 
 pw-change-cancel-button = გაუქმება
 pw-change-save-button = შენახვა
 pw-change-forgot-password-link = დაგავიწყდათ პაროლი?
+
 pw-change-current-password =
     .label = მიუთითეთ არსებული პაროლი
 pw-change-new-password =
     .label = მიუთითეთ ახალი პაროლი
 pw-change-confirm-password =
     .label = დაადასტურეთ პაროლი
+
 pw-change-success-alert-2 = პაროლი განახლდა
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = პაროლის შექმნა
+
 pw-create-success-alert-2 = პაროლი დაყენებულია
 pw-create-error-2 = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის დაყენებისას
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = ანგარიშის წაშლა
+
 delete-account-step-1-2 = 1-ელი ნაბიჯი 2-დან
 delete-account-step-2-2 = მე-2 ნაბიჯი 2-დან
+
 delete-account-confirm-title-2 = თქვენ დაუკავშირეთ თქვენი { -product-firefox-account } { -brand-mozilla }-ს პროდუქტებს, რომლებიც უზრუნველყოფს თქვენს უსაფრთხოებასა და შედეგიანობას ვებსივრცეში:
+
 delete-account-acknowledge = გთხოვთ, გაითვალისწინოთ, რომ თქვენი ანგარიშის წაშლით:
+
 delete-account-chk-box-1-v2 =
     .label = ყველა ფასიანი გამოწერა გაუქმდება (გარდა { product-pocket }-ისა)
 delete-account-chk-box-2 =
@@ -356,28 +353,33 @@ delete-account-chk-box-3 =
     .label = ამ ელფოსტის ხელახლა ამოქმედებით, თქვენი შენახული ინფორმაცია შეიძლება არ აღდგეს
 delete-account-chk-box-4 =
     .label = ყველა გაფართოება და თემა, რომელიც addons.mozilla.org-ზე გამოგიქვეყნებიათ, წაიშლება
+
+
 delete-account-continue-button = გაგრძელება
+
 delete-account-password-input =
     .label = შეიყვანეთ პაროლი
+
 delete-account-cancel-button = გაუქმება
 delete-account-delete-button-2 = წაშლა
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = გამოსაჩენი სახელი
+
 display-name-input =
     .label = შეიყვანეთ გამოსაჩენი სახელი
 submit-display-name = შენახვა
 cancel-display-name = გაუქმება
+
 display-name-update-error-2 = ხარვეზი წარმოიშვა თქვენი გამოსაჩენი სახელის განახლებისას
+
 display-name-success-alert-2 = გამოსაჩენი სახელი განახლებულია
 
 ##
-
 
 # Account recovery key setup page
 
@@ -430,18 +432,23 @@ delete-account-link = ანგარიშის წაშლა
 ## Two Step Authentication
 
 tfa-title = ორბიჯიანი დამოწმება
+
 tfa-step-1-3 = 1-ელი ნაბიჯი 3-დან
 tfa-step-2-3 = მე-2 ნაბიჯი 3-დან
 tfa-step-3-3 = მე-3 ნაბიჯი 3-დან
+
 tfa-button-continue = გაგრძელება
 tfa-button-cancel = გაუქმება
 tfa-button-finish = დასრულება
+
 tfa-incorrect-totp = ორბიჯიანი დამოწმების კოდი არასწორია
 tfa-cannot-retrieve-code = ხარვეზი წარმოიშვა თქვენი კოდის მიღებისას.
 tfa-enabled = ორბიჯიანი დამოწმება შესვლისას ჩართულია
+
 tfa-scan-this-code =
     წააკითხეთ ეს QR-კოდი შესვლის <linkExternal>დამოწმების
     რომელიმე ამ პროგრამას</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -452,14 +459,15 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ვერ კითხულობს კოდს?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = შეიყვანეთ საიდუმლო გასაღები შესვლის დასამოწმებელ პროგრამაში:
+
 tfa-enter-totp = ახლა კი შეიყვანეთ უსაფრთხოების კოდი დამოწმების პროგრამიდან.
 tfa-input-enter-totp =
     .label = შეიყვანეთ უსაფრთხოების კოდი
 
 ##
-
 
 ## Profile section
 
@@ -472,7 +480,6 @@ profile-primary-email =
     .header = მთავარი ელფოსტა
 
 ##
-
 
 ## Security section of Setting
 
@@ -545,7 +552,6 @@ se-secondary-email-none = ცარიელი
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = ორბიჯიანი დამოწმება
@@ -554,15 +560,18 @@ tfa-row-enabled = ჩართულია
 tfa-row-not-set = არაა დაყენებული
 tfa-row-action-add = დამატება
 tfa-row-action-disable = ამორთვა
+
 tfa-row-button-refresh =
     .title = ორბიჯიანი დამოწმების განახლება
 tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორბიჯიანი დამოწმების განახლებისას.
 tfa-row-content-explain =
     დაიცავით ანგარიში უცხო პირთა შესვლისგან
     თქვენს ხელთ არსებული უნიკალური კოდის მოთხოვნით.
+
 tfa-row-disable-modal-heading = გამოირთოს შესვლისას ორბიჯიანი დამოწმება?
 tfa-row-disable-modal-confirm = გამორთვა
 tfa-row-cannot-disable-2 = ორბიჯიანი დამოწმება ვერ გამოირთვება
+
 tfa-row-change-modal-confirm = შეცვლა
 tfa-row-change-modal-explain = ეს ქმედება შეუქცევადია.
 

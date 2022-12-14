@@ -2,11 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Alert Bar
-
-alert-bar-close-message = Powěźeńku zacyniś
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +34,11 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Logo { -brand-mozilla }
-app-footer-privacy-notice = Pšawidła priwatnosći websedła
-app-footer-terms-of-service = Wužywańske wuměnjenja
+## Alert Bar
 
-##
-
+alert-bar-close-message = Powěźeńku zacyniś
 
 ## User's avatar
 
@@ -63,17 +49,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Bento-meni { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } jo technologija, kótaraž za wašu priwatnosć online wójujo.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Wobglědowak { -brand-firefox } za desktop
 bento-menu-firefox-mobile = Wobglědowak { -brand-firefox } za mobilne rědy
+
 bento-menu-made-by-mozilla = Wót { -brand-mozilla } wuwity
 
 ## Connect another device promo
@@ -82,6 +69,7 @@ connect-another-fx-mobile = Wobstarajśo se { -brand-firefox } za mobilny telefo
 connect-another-find-fx-mobile =
     Namakajśo { -brand-firefox } w { -google-play } a { -app-store } abo
     <br /><linkExternal>sćelśo ześěgnjeński wótkaz na swój rěd.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -90,7 +78,6 @@ connect-another-app-store-image-2 =
     .title = Ześěgniśo { -brand-firefox } wót { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -105,10 +92,13 @@ cs-cannot-disconnect = Klient njejo sr namakał, zwisk njedajo se źěliś
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Wót { $service } wótzjawjony
+
 cs-refresh-button =
     .title = Zwězane słužby aktualizěrowaś
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Felujuce abo dwójne elementy?
+
 cs-disconnect-sync-heading = Ze Sync źěliś
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -147,10 +137,10 @@ cs-disconnect-suspicious-advice-content =
     suspektny, wy dejał swójo gronidło { -product-firefox-account } w swójich nastajenjach
     změniś, aby swóje informacije wěste źaržał. Wy dejał teke about:logins do
     adresowego póla zapódaś, aby druge gronidła změnił, kótarež sćo składł w { -brand-firefox }.
+
 cs-sign-out-button = Wótzjawiś
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -179,6 +169,7 @@ drop-down-menu-title = Meni { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Pśizjawjony ako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Wótzjawiś
+
 drop-down-menu-sign-out-error-2 = Bóžko jo pśi wótzjawjanju problem nastał
 
 ## Flow Container
@@ -212,6 +203,7 @@ input-password-hide = Gronidła schowaś
 input-password-show = Gronidło pokazaś
 input-password-hide-aria = Gronidło na wobrazowce schowaś.
 input-password-show-aria = Gronidło ako lutny tekst pokazaś. Wašo gronidło buźo widobne na wobrazowce.
+
 
 ## Linked Accounts section
 
@@ -292,11 +284,11 @@ avatar-page-image-too-large-error-2 = Wobrazowa dataja jo pśewjelika za nagraś
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Gronidło změniś
+
 pw-8-chars = Nanejmjenjej 8 znamuškow
 pw-not-email = Nic waša e-mailowa adresa
 pw-change-must-match = Nowe gronidło wobkšuśenjeju wótpowědujo
@@ -306,35 +298,40 @@ pw-tips = Wóstańśo wěsty – njewužywajśo gronidła wěcej raz. Glejśo da
 pw-change-cancel-button = Pśetergnuś
 pw-change-save-button = Składowaś
 pw-change-forgot-password-link = Sćo gronidło zabył?
+
 pw-change-current-password =
     .label = Aktualne gronidło zapódaś
 pw-change-new-password =
     .label = Nowe gronidło zapódaś
 pw-change-confirm-password =
     .label = Nowe gronidło wobkšuśiś
+
 pw-change-success-alert-2 = Gronidło jo se zaktualizěrowało
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Gronidło napóraś
+
 pw-create-success-alert-2 = Gronidło jo se nastajiło
 pw-create-error-2 = Bóžko jo nastał problem pśi stajanju wašogo gronidła
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Konto wulašowaś
+
 delete-account-step-1-2 = Kšac 1 z 2
 delete-account-step-2-2 = Kšac 2 z 2
+
 delete-account-confirm-title-2 = Sćo zwězał swójo konto { -product-firefox-account } z produktami { -brand-mozilla }, kótarež was wěsty a produktiwny we webje źaržy:
+
 delete-account-acknowledge = Pšosym lašujśo swójo konto, aby to wobkšuśił:
+
 delete-account-chk-box-1-v2 =
     .label = Někotare z wašych abonementow se anulěruju (mimo { product-pocket })
 delete-account-chk-box-2 =
@@ -343,28 +340,33 @@ delete-account-chk-box-3 =
     .label = Waše skłaźone informacije njedaju se snaź wótnowiś, gaž toś tu e-mailowu adresu znowego aktiwěrujośo
 delete-account-chk-box-4 =
     .label = Rozšyrjenja, kótarež sćo wózjawił na addons.mozilla.org, se wulašuju.
+
+
 delete-account-continue-button = Dalej
+
 delete-account-password-input =
     .label = Gronidło zapódaś
+
 delete-account-cancel-button = Pśetergnuś
 delete-account-delete-button-2 = Lašowaś
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Zwobraznjeńske mě
+
 display-name-input =
     .label = Zapódajśo zwobraznjeńske mě
 submit-display-name = Składowaś
 cancel-display-name = Pśetergnuś
+
 display-name-update-error-2 = Pśi aktualizěrowanju wašogo zwobraznjeńskego mjenja jo problem nastał
+
 display-name-success-alert-2 = Zwobraznjeńske mě zaktualizěrowane
 
 ##
-
 
 # Account recovery key setup page
 
@@ -418,18 +420,23 @@ delete-account-link = Konto wulašowaś
 ## Two Step Authentication
 
 tfa-title = Dwójokšacowa awtentifikacija
+
 tfa-step-1-3 = Kšac 1 z 3
 tfa-step-2-3 = Kšac 2 z 3
 tfa-step-3-3 = Kšac 3 z 3
+
 tfa-button-continue = Dalej
 tfa-button-cancel = Pśetergnuś
 tfa-button-finish = Dokóńcyś
+
 tfa-incorrect-totp = Wopacny kod za dwójokšacowu awtentifikaciju
 tfa-cannot-retrieve-code = Pśi wótwołowanju wašogo koda jo problem nastał.
 tfa-cannot-verify-code-4 = Pśi wobkśuśenju wašych kodow za zawěsćeńsku awtentifikaciju jo problem nastał
 tfa-incorrect-recovery-code-1 = Wopacny kod za zawěsćeńsku awtentifikaciju
 tfa-enabled = Dwójokšacowa awtentifikacija jo se zmóžniła
+
 tfa-scan-this-code = Scannujśo toś ten QR-kod z pomocu jadnogo z <linkExternal>toś tych awtentifikaciskich nałoženjow</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -438,17 +445,19 @@ tfa-qa-code-alt = Wužywajśo kod { $secret }, aby zarědował dwukšacowu awten
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Njamóžośo kod skannowaś?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zapódajśo toś ten pótajmny kluc do swójogo awtentificěrowańskego nałoženja:
+
 tfa-enter-totp = Zapódajśo něnto wěstotny kod z awtentifikaciskego nałoženja.
 tfa-input-enter-totp =
     .label = Wěstotny kod zapódaś
 tfa-save-these-codes-1 = Składujśo toś te kody za zawěsćeńsku awtentifikaciju za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
+
 tfa-enter-recovery-code-1 =
     .label = Zapódajśo kod za zawěsćeńsku awtentifikaciju
 
 ##
-
 
 ## Profile section
 
@@ -461,7 +470,6 @@ profile-primary-email =
     .header = Primarna e-mailowa adresa
 
 ##
-
 
 ## Security section of Setting
 
@@ -506,7 +514,6 @@ rk-key-removed-2 = Kontowy wótnowjeński kluc jo se wótwónoźeł
 rk-cannot-remove-key = Wótnowjeński kluc wašogo konta njedajo se wótwónoźeś.
 rk-refresh-key-1 = Kontowy wótnowjeński kluc aktualizěrowaś
 rk-content-explain = Wótnowśo swóje informacije, gaž sćo zabył swójo gronidło.
-rk-content-reset-data = Cogodla se móje daty slědk stajaju, gaž swójo gronidło slědk stajam?
 rk-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
 rk-remove-modal-heading-1 = Kontowy wótnowjeński kluc wótwónoźeś?
 rk-remove-modal-content-1 =
@@ -554,7 +561,6 @@ se-secondary-email-none = Žedna
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dwójokšacowa awtentifikacija
@@ -563,6 +569,7 @@ tfa-row-enabled = Zmóžnjony
 tfa-row-not-set = Njepóstajony
 tfa-row-action-add = Pśidaś
 tfa-row-action-disable = Znjemóžniś
+
 tfa-row-button-refresh =
     .title = Dwójokšacowu awtentifikaciju aktualizěrowaś
 tfa-row-cannot-refresh =
@@ -572,12 +579,14 @@ tfa-row-content-explain =
     Pominajśo jadnorazowy kod, ku kótaremuž jano wy maśo pśistup,
     aby zajźował tomu, až se něchten drugi pśizjawja.
 tfa-row-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
+
 tfa-row-disable-modal-heading = Dwójokšacowu awtentifikaciju znjemóžniś?
 tfa-row-disable-modal-confirm = Znjemóžniś
 tfa-row-disable-modal-explain-1 =
     Njamóžośo toś tu akciju anulěrowaś. Maśo teke
     móžnosć <linkExternal>swóje kody za zawěsćeńsku awtentifikaciju wuměniś</linkExternal>.
 tfa-row-cannot-disable-2 = Dwójokšacowa awtentifikacija njedajo se znjemóžniś
+
 tfa-row-change-modal-heading-1 = Kody za zawěsćeńsku awtentifikaciju změniś?
 tfa-row-change-modal-confirm = Změniś
 tfa-row-change-modal-explain = Njamóźośo toś tu akciju anulěrowaś.

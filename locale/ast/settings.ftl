@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -35,33 +34,18 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
-
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Logotipu de { -brand-mozilla }
-app-footer-privacy-notice = Avisu de privacidá del sitiu web
-app-footer-terms-of-service = Términos del Serviciu
-
-##
-
+## Ready component
 
 ## Alert Bar
 
-
 ## User's avatar
 
-
 ##
-
 
 # BentoMenu component
 
 bento-menu-firefox-title = { -brand-firefox } ye teunoloxía que llucha pola to privacidá en llinia.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
@@ -77,7 +61,6 @@ connect-another-find-fx-mobile =
     <br /><linkExternal>unvia un enllaz de descarga al to preséu</linkExternal>.
 
 ##
-
 
 ## Connected services section
 
@@ -110,9 +93,7 @@ cs-sign-out-button = Zarrar sesión
 
 ##
 
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
 
 ## Data collection section
 
@@ -121,6 +102,7 @@ dc-subheader-content = Permitir a { -product-firefox-accounts } qu'unvie datos t
 # DropDownAvatarMenu component
 
 drop-down-menu-title = Menú de { -product-firefox-account }
+
 drop-down-menu-sign-out-error-2 = Sentímoslo, hebo un problema al zarrar la sesión
 
 ## Flow Container
@@ -128,7 +110,6 @@ drop-down-menu-sign-out-error-2 = Sentímoslo, hebo un problema al zarrar la ses
 flow-container-back = Atrás
 
 # GetDataTrio component, part of Account Recovery Key flow
-
 
 # HeaderLockup component
 
@@ -192,7 +173,6 @@ avatar-page-delete-error-3 = Hebo un problema al desaniciar la semeya del perfil
 
 ##
 
-
 ## Password change page
 
 pw-change-cancel-button = Encaboxar
@@ -201,27 +181,28 @@ pw-change-forgot-password-link = ¿Escaeciesti la contraseña?
 
 ##
 
-
 ## Password create page
 
-
 ##
-
 
 ## Delete account page
 
 delete-account-header =
     .title = Desaniciu de la cuenta
+
 delete-account-step-1-2 = Pasu 1 de 2
 delete-account-step-2-2 = Pasu 2 de 2
+
 delete-account-chk-box-4 =
     .label = Van desaniciase toles estensiones y estilos qu'espublizares n'addons.mozilla.org
+
+
 delete-account-continue-button = Siguir
+
 delete-account-cancel-button = Encaboxar
 delete-account-delete-button-2 = Desaniciar
 
 ##
-
 
 ## Display name page
 
@@ -229,7 +210,6 @@ submit-display-name = Guardar
 cancel-display-name = Encaboxar
 
 ##
-
 
 # Account recovery key setup page
 
@@ -258,18 +238,23 @@ delete-account-link = Desaniciar la cuenta
 ## Two Step Authentication
 
 tfa-title = Autenticación en dos pasos
+
 tfa-step-1-3 = Pasu 1 de 3
 tfa-step-2-3 = Pasu 2 de 3
 tfa-step-3-3 = Pasu 3 de 3
+
 tfa-button-continue = Siguir
 tfa-button-cancel = Encaboxar
 tfa-button-finish = Finar
+
 tfa-incorrect-totp = El códigu de l'autenticación en dos pasos ye incorreutu
 tfa-cannot-retrieve-code = Hebo un problema al recuperar el códigu.
 tfa-enabled = Activóse l'autenticación en dos pasos
+
 tfa-scan-this-code =
     Escania esti códigu QR con <linkExternal>estes
     aplicaciones d'autenticación</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -280,10 +265,10 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ¿Nun pues escaniar el códigu?
+
 tfa-enter-totp = Agora introduz el códigu de seguranza de l'aplicación d'autenticación.
 
 ##
-
 
 ## Profile section
 
@@ -292,7 +277,6 @@ profile-picture =
     .header = Semeya
 
 ##
-
 
 ## Security section of Setting
 
@@ -323,12 +307,12 @@ se-delete-email-error-2 = Sentímoslo, hebo un problema al desaniciar esta direi
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticación en dos pasos
 tfa-row-not-set = Nun s'afitó
 tfa-row-action-add = Amestar
+
 tfa-row-button-refresh =
     .title = Refrescar l'autenticación en dos pasos
 tfa-row-cannot-refresh =
@@ -337,7 +321,9 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Evita que daquién más anicie sesión pidiendo un
     códigu únicu que namás sabes tu.
+
 tfa-row-disable-modal-heading = ¿Desactivar l'autenticación en dos pasos?
+
 tfa-row-change-modal-confirm = Camudar
 tfa-row-change-modal-explain = Nun vas ser a desfacer esta aición.
 

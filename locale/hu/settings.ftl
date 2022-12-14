@@ -2,11 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Alert Bar
-
-alert-bar-close-message = Üzenet bezárása
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -64,20 +59,11 @@ product-firefox-relay =
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla } logó
-app-footer-privacy-notice = Webhely adatvédelmi nyilatkozata
-app-footer-terms-of-service = A szolgáltatás feltételei
+## Alert Bar
 
-##
-
+alert-bar-close-message = Üzenet bezárása
 
 ## User's avatar
 
@@ -88,17 +74,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } bentó menü
 bento-menu-firefox-title = A { -brand-firefox } olyan technológia, amely az Ön online adatvédelméért harcol.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } asztali böngésző
 bento-menu-firefox-mobile = { -brand-firefox } mobil böngésző
+
 bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
 
 ## Connect another device promo
@@ -107,6 +94,7 @@ connect-another-fx-mobile = Töltse le a { -brand-firefox }ot mobilra vagy tábl
 connect-another-find-fx-mobile =
     Keresse meg a { -brand-firefox }ot a { -google-play }en és az { -app-store }-on, vagy
     <br /><linkExternal>küldjön letöltési hivatkozást az eszközére.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -115,7 +103,6 @@ connect-another-app-store-image-2 =
     .title = A { -brand-firefox } letöltése az { -app-store }-ból
 
 ##
-
 
 ## Connected services section
 
@@ -130,10 +117,13 @@ cs-cannot-disconnect = A kliens nem található, a leválasztás sikertelen
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Kijelentkezett innen: { $service }
+
 cs-refresh-button =
     .title = Kapcsolódó szolgáltatások frissítése
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Hiányzó vagy ismétlődő elemek?
+
 cs-disconnect-sync-heading = Leválás a Syncről
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -172,10 +162,10 @@ cs-disconnect-suspicious-advice-content =
     akkor hogy biztonságban tartsa az információt, változtassa meg a { -product-firefox-account }ja
     jelszavát a fiókbeállításokban. Érdemes módosítania az összes, a { -brand-firefox }ban mentett
     jelszavát is, az about:logins beírásával a címsávba.
+
 cs-sign-out-button = Kijelentkezés
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -204,6 +194,7 @@ drop-down-menu-title = { -product-firefox-account } menü
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Bejelentkezve mint</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Kijelentkezés
+
 drop-down-menu-sign-out-error-2 = Sajnos probléma merült fel a kijelentkezésekor
 
 ## Flow Container
@@ -237,6 +228,7 @@ input-password-hide = Jelszó elrejtése
 input-password-show = Jelszó megjelenítése
 input-password-hide-aria = Jelszó elrejtése a képernyőn.
 input-password-show-aria = Jelszó megjelenítése egyszerű szövegként. A jelszava látható lesz a képernyőn.
+
 
 ## Linked Accounts section
 
@@ -317,11 +309,11 @@ avatar-page-image-too-large-error-2 = A képfájl mérete túl nagy a feltölté
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Jelszó módosítása
+
 pw-8-chars = Legalább 8 karakter
 pw-not-email = Nem az Ön e-mail-címe
 pw-change-must-match = Az új jelszó megegyezik a megerősítő szöveggel
@@ -331,35 +323,40 @@ pw-tips = Maradjon biztonságban – ne használja újra a jelszavakat. Nézzen 
 pw-change-cancel-button = Mégse
 pw-change-save-button = Mentés
 pw-change-forgot-password-link = Elfelejtette a jelszót?
+
 pw-change-current-password =
     .label = Írja be a jelenlegi jelszavát
 pw-change-new-password =
     .label = Írja be az új jelszót
 pw-change-confirm-password =
     .label = Erősítse meg az új jelszót
+
 pw-change-success-alert-2 = Jelszó frissítve
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Jelszó létrehozása
+
 pw-create-success-alert-2 = Jelszó megadva
 pw-create-error-2 = Sajnos probléma merült fel a jelszó megadásakor
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Fiók törlése
+
 delete-account-step-1-2 = 1. / 2. lépés
 delete-account-step-2-2 = 2. / 2. lépés
+
 delete-account-confirm-title-2 = Összekapcsolta a { -product-firefox-account }ját a { -brand-mozilla } termékekkel, így nagyobb biztonságban lehet, és hatékonyabb lehet a weben:
+
 delete-account-acknowledge = Erősítse meg ezt a fiókja a törlésével:
+
 delete-account-chk-box-1-v2 =
     .label = Minden fizetős előfizetését törölni fogjuk (kivéve a { product-pocket }et)
 delete-account-chk-box-2 =
@@ -368,28 +365,33 @@ delete-account-chk-box-3 =
     .label = Az ezzel az e-mail címmel történő újraaktiválás nem biztos, hogy visszaállítja a mentett információit
 delete-account-chk-box-4 =
     .label = Az addons.mozilla.org-on közzétett kiegészítők és témák törölve lesznek
+
+
 delete-account-continue-button = Folytatás
+
 delete-account-password-input =
     .label = Adja meg a jelszót
+
 delete-account-cancel-button = Mégse
 delete-account-delete-button-2 = Törlés
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Megjelenő név
+
 display-name-input =
     .label = Írja be a megjelenő nevet
 submit-display-name = Mentés
 cancel-display-name = Mégse
+
 display-name-update-error-2 = Hiba történt a megjelenő név frissítésekor
+
 display-name-success-alert-2 = A megjelenő név frissítve
 
 ##
-
 
 # Account recovery key setup page
 
@@ -443,20 +445,25 @@ delete-account-link = Fiók törlése
 ## Two Step Authentication
 
 tfa-title = Kétlépcsős hitelesítés
+
 tfa-step-1-3 = 1. / 3. lépés
 tfa-step-2-3 = 2. / 3. lépés
 tfa-step-3-3 = 3. / 3. lépés
+
 tfa-button-continue = Folytatás
 tfa-button-cancel = Mégse
 tfa-button-finish = Befejezés
+
 tfa-incorrect-totp = Helytelen kétlépcsős hitelesítési kód
 tfa-cannot-retrieve-code = Hiba történt a kód lekérésekor.
 tfa-cannot-verify-code-4 = Hiba történt a tartalék hitelesítési kódok megerősítése során
 tfa-incorrect-recovery-code-1 = Érvénytelen tartalék hitelesítési kód
 tfa-enabled = Kétlépcsős hitelesítés engedélyezve
+
 tfa-scan-this-code =
     Olvassa be ezt a QR-kódot <linkExternal>ezen
     hitelesítő alkalmazások egyikével</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -465,14 +472,17 @@ tfa-qa-code-alt = Használja a(z) { $secret } kódot a kétlépcsős hitelesít�
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Nem tudja leolvasni a kódot?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Adja meg ezt a titkos kulcsot a hitelesítő alkalmazásban:
+
 tfa-enter-totp = Most írja be a biztonsági kódot a hitelesítési alkalmazásból.
 tfa-input-enter-totp =
     .label = Adja meg a biztonsági kódot
 tfa-save-these-codes-1 =
     Mentse ezeket az egyszer használatos tartalék hitelesítési kódokat biztonságos
     helyen, arra az esetre, ha nincs mobileszköze.
+
 tfa-enter-code-to-confirm-1 =
     Adja meg az egyik tartalék hitelesítési kódot most,
     hogy megerősítse, hogy elmentette. Szüksége lesz egy kódra a bejelentkezéshez,
@@ -481,7 +491,6 @@ tfa-enter-recovery-code-1 =
     .label = Adjon meg egy tartalék hitelesítési kódot
 
 ##
-
 
 ## Profile section
 
@@ -494,7 +503,6 @@ profile-primary-email =
     .header = Elsődleges e-mail
 
 ##
-
 
 ## Security section of Setting
 
@@ -539,7 +547,6 @@ rk-key-removed-2 = Fiók-helyreállítási kulcs eltávolítva
 rk-cannot-remove-key = A fiók-helyreállítási kulcsot nem sikerült eltávolítani.
 rk-refresh-key-1 = Fiók-helyreállítási kulcs frissítése
 rk-content-explain = Állítsa vissza adatait, ha elfelejtette jelszavát.
-rk-content-reset-data = A jelszó visszaállítása miért törli az adatokat?
 rk-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor
 rk-remove-modal-heading-1 = Eltávolítja a fiók-helyreállítási kulcsot?
 rk-remove-modal-content-1 =
@@ -587,7 +594,6 @@ se-secondary-email-none = Nincs
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kétlépcsős hitelesítés
@@ -596,6 +602,7 @@ tfa-row-enabled = Engedélyezve
 tfa-row-not-set = Nincs beállítva
 tfa-row-action-add = Hozzáadás
 tfa-row-action-disable = Letiltás
+
 tfa-row-button-refresh =
     .title = Kétlépcsős hitelesítés frissítése
 tfa-row-cannot-refresh =
@@ -605,12 +612,14 @@ tfa-row-content-explain =
     Akadályozza meg, hogy valaki más lépjen be, követeljen meg
     egy egyedi kódot, amelyhez csak Ön fér hozzá.
 tfa-row-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor
+
 tfa-row-disable-modal-heading = Letiltja a kétlépcsős hitelesítést?
 tfa-row-disable-modal-confirm = Letiltás
 tfa-row-disable-modal-explain-1 =
     Ezt a műveletet nem fogja tudni visszavonni. Arra is van
     lehetősége, hogy <linkExternal>lecserélje a tartalék hitelesítési kódjait</linkExternal>.
 tfa-row-cannot-disable-2 = A kétlépcsős hitelesítést nem lehetett letiltani
+
 tfa-row-change-modal-heading-1 = Lecseréli a tartalék hitelesítési kódokat?
 tfa-row-change-modal-confirm = Módosítás
 tfa-row-change-modal-explain = Ezt a műveletet nem fogja tudni visszavonni.

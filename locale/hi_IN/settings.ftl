@@ -2,10 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Alert Bar
-
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,20 +33,9 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla } लोगो
-app-footer-privacy-notice = वेबसाइट गोपनीयता सूचना
-app-footer-terms-of-service = सेवा की शर्तें
-
-##
-
+## Alert Bar
 
 ## User's avatar
 
@@ -58,7 +43,6 @@ avatar-your-avatar =
     .alt = आपका अवतार
 
 ##
-
 
 # BentoMenu component
 
@@ -68,6 +52,7 @@ bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = डेस्कटॉप के लिए { -brand-firefox } ब्राउज़र
 bento-menu-firefox-mobile = मोबाइल के लिए { -brand-firefox } ब्राउज़र
+
 bento-menu-made-by-mozilla = { -brand-mozilla } द्वारा निर्मित
 
 ## Connect another device promo
@@ -81,13 +66,16 @@ connect-another-app-store-image-2 =
 
 ##
 
-
 ## Connected services section
 
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
-
 
 ##
 
@@ -95,8 +83,7 @@ cs-sign-out-button = साइन आउट करें
 
 ##
 
-
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = डाउनलोड की गई
@@ -113,8 +100,7 @@ drop-down-menu-title = { -product-firefox-account } मेन्यू
 
 ## Flow Container
 
-
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-download =
     .title = डाउनलोड करें
@@ -134,6 +120,9 @@ input-password-hide = पासवर्ड छिपाएं
 input-password-show = पासवर्ड दिखाएं
 input-password-hide-aria = स्क्रीन से पासवर्ड छिपाएं।
 
+
+## Linked Accounts section
+
 ## Modal
 
 modal-close-title = बंद करें
@@ -141,7 +130,6 @@ modal-cancel-button = रद्द करें
 
 ## Modal Verify Session
 
-mvs-enter-verification-code = अपना सत्यापन कोड दर्ज करें
 msv-cancel-button = रद्द करें
 
 ## Settings Nav
@@ -149,8 +137,7 @@ msv-cancel-button = रद्द करें
 nav-settings = सेटिंग
 nav-profile = प्रोफाइल
 
-## Two Step Authentication - replace recovery code
-
+## Two Step Authentication - replace backup authentication code
 
 ## Avatar change page
 
@@ -165,40 +152,46 @@ avatar-page-save-button = सहेजें
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = पासवर्ड बदलें
+
 pw-change-cancel-button = रद्द करें
 pw-change-save-button = सहेजें
 pw-change-forgot-password-link = पासवर्ड भूल गए?
+
 pw-change-current-password =
     .label = वर्तमान पासवर्ड दर्ज करें
 pw-change-new-password =
     .label = नया पासवर्ड दर्ज करें
 pw-change-confirm-password =
     .label = नए पासवर्ड की पुष्टि करें
-pw-change-success-alert = पासवर्ड अपडेट किया गया
 
 ##
 
+## Password create page
+
+##
 
 ## Delete account page
 
+
 delete-account-continue-button = जारी रखें
+
 delete-account-password-input =
     .label = पासवर्ड दर्ज करें
+
 delete-account-cancel-button = रद्द करें
 delete-account-delete-button-2 = मिटाएं
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = प्रदर्शित होने वाला नाम
+
 display-name-input =
     .label = प्रदर्शित होने वाला नाम दर्ज करें
 submit-display-name = सहेजें
@@ -206,8 +199,7 @@ cancel-display-name = रद्द करें
 
 ##
 
-
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = रद्द करें
 recovery-key-close-button = बंद करें
@@ -227,38 +219,30 @@ verify-secondary-email-cancel-button = रद्द करें
 
 ##
 
-
 ## Two Step Authentication
 
 tfa-button-cancel = रद्द करें
 
 ##
 
-
 ## Profile section
 
 profile-heading = प्रोफाइल
 profile-display-name =
     .header = प्रदर्शित होने वाला नाम
-profile-password =
-    .header = पासवर्ड
 
 ##
 
-
 ## Security section of Setting
 
-
 ## Switch component
-
 
 ## Sub-section row Defaults
 
 row-defaults-action-add = जोड़ें
 row-defaults-action-change = बदलें
 
-## Recovery key sub-section on main Settings page
-
+## Account recovery key sub-section on main Settings page
 
 ## Secondary email sub-section on main Settings page
 
@@ -267,7 +251,6 @@ se-remove-email =
     .title = ईमेल हटाएं
 
 ##
-
 
 ## Two Step Auth sub-section on Settings main page
 

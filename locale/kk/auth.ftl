@@ -3,6 +3,7 @@
 session-verify-send-push-title = { -product-firefox-accounts } ішіне кіріп отырсыз ба?
 session-verify-send-push-body-2 = Сіз екеніңізді растау үшін осында шертіңіз
 
+
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
@@ -12,6 +13,7 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Қ
 body-devices-image = <img data-l10n-name="devices-image" alt="Құрылғылар">
 fxa-privacy-url = { -brand-mozilla }-ның жекелік саясаты
 fxa-service-url = { -product-firefox-cloud } Қолдану шарттары
+
 subplat-header-firefox-logo = <img data-l10n-name="fxa-logo-firefox" alt="{ -brand-firefox } логотипі">
 subplat-footer-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } логотипі">
 subplat-automated-email = Бұл автоматтандырылған эл. пошта хаты; осыны алғаныңыз қате деп ойласаңыз, еш әрекетті жасау керек емес.
@@ -46,12 +48,16 @@ subplat-legal = Құқықтық ақпарат
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Жекелік
 subplat-privacy-website-plaintext = { subplat-privacy }:
+
 cancellationSurvey = Осы <a data-l10n-name="cancellationSurveyUrl">қысқа сауалнамаға</a> қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Осы қысқа сауалнамаға қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз:
+
 change-password-plaintext = Егер сіздің тіркелгіңізге біреу қолың жеткізгісі келіп жүр деген күмәніңіз бар болса, пароліңізді өзгертіңіз.
+
 manage-account = Тіркелгіні басқару
 manage-account-plaintext = { manage-account }:
+
 payment-details = Төлем мәліметтері:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
@@ -63,6 +69,7 @@ payment-plan-charged = Төлем: { $invoiceDateOnly } күні { $invoiceTotal
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
+
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Төлем тәсілі:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -70,6 +77,7 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $cardType (String) - The type of the credit card, e.g. Visa
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 card-ending-in = { $lastFour } аяқталатын { $cardType } картасы
+
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Шот нөмірі: <b>{ $invoiceNumber }</b>
@@ -95,9 +103,11 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuratio
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Салықтар мен алымдар: { $invoiceTaxAmount }
+
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = Қосымша ақпарат алу үшін { -brand-mozilla } қолдау бөлімін шолыңыз: { $supportUrl }.
+
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -107,9 +117,11 @@ device-all = { $uaBrowser }, { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser }, { $uaOS }
+
 # Variables:
 #  $ip (Number) - User's IP address
 user-ip = IP адресі: { $ip }
+
 # Variables:
 #  $city (String) - User's city
 #  $stateCode (String) - User's state
@@ -126,20 +138,24 @@ location-state-country = { $stateCode }, { $country } (шамамен)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (шамамен)
+
 view-invoice = <a data-l10n-name="invoiceLink">Шот-фактураңызды қараңыз</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Шот-фактураны қарау: { $invoiceLink }
+
 cadReminderFirst-subject-1 = Еске салғыш! { -brand-firefox } синхрондайық
 cadReminderFirst-action = Басқа құрылғыны синхрондау
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Синхрондау үшін екі құрылғы қажет
+
 cadReminderSecond-action = Басқа құрылғыны синхрондау
 cadReminderSecond-title-2 = Синхрондауды ұмытпаңыз!
 cadReminderSecond-description-sync = Бетбелгілер, парольдер, ашық беттер және т.б. синхрондаңыз — { -brand-firefox } пайдаланатын барлық жерде.
 cadReminderSecond-description-plus = Сонымен қатар, деректеріңіз әрқашан шифрленеді. Оны тек сіз және сіз растаған құрылғылар ғана көре алады.
+
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = { $productName } ішіне қош келдіңіз
@@ -147,70 +163,91 @@ downloadSubscription-subject = { $productName } ішіне қош келдіңі
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName } ішіне қош келдіңіз
 downloadSubscription-link-action-2 = Бастау
+
 fraudulentAccountDeletion-title = Сіздің тіркелгіңіз өшірілді
+
 lowRecoveryCodes-action-2 = Кодтарды жасау
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = Сен емес пе? Пароліңізді өзгертіңіз:
 newDeviceLogin-action = Тіркелгіні басқару
+
 passwordChanged-subject = Пароль жаңартылды
 passwordChanged-title = Пароль сәтті өзгертілді
+
 passwordChangeRequired-subject = Күдікті әрекет анықталды
 passwordChangeRequired-title = Парольді өзгерту керек
 passwordChangeRequired-signoff = Құрметпен,
 passwordChangeRequired-signoff-name = { -product-firefox-accounts } тобы
 passwordChangeRequired-different-password-plaintext = Маңызды: Бұрын пайдаланған парольден басқа парольді таңдап, оның эл. пошта тіркелгісінен басқа екеніне көз жеткізіңіз.
+
 passwordReset-subject = Пароль жаңартылды
 passwordReset-title = Тіркелгіңіздің паролі өзгертілді
 passwordReset-description = Синхрондауды жалғастыру үшін басқа құрылғыларда жаңа парольді енгізу қажет.
+
 passwordResetAccountRecovery-subject-2 = Пароліңіз тасталды
 passwordResetAccountRecovery-title-2 = Парольді тастау сәтті аяқталды
 # Details of the device, location, IP address, and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Пароліңізді жаңарту үшін тіркелгіні қалпына келтіру кілтін келесі жерден пайдаландыңыз:
+
 postAddAccountRecovery-subject-2 = Тіркелгіні қалпына келтіру кілті жасалды
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Сен емессіз бе?
 postAddAccountRecovery-action = Тіркелгіні басқару
 postAddAccountRecovery-delete-key = Жаңа кілтті өшіру:
 postAddAccountRecovery-changd-password = Пароліңізді өзгертіңіз:
+
 postAddLinkedAccount-action = Тіркелгіні басқару
+
 postAddTwoStepAuthentication-subject-2 = Екі қадамды аутентификация іске қосылды
 postAddTwoStepAuthentication-title-2 = Сіз екі қадамды аутентификацияны іске қостыңыз
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Сіз оны келесі жерден іске қостыңыз:
 postAddTwoStepAuthentication-action = Тіркелгіні басқару
+
 postChangePrimary-subject = Біріншілік эл. пошта адресі жаңартылды
 postChangePrimary-title = Жаңа біріншілік эл. поштасы
 # Variables:
 #  $email (String) - A user's email address
 postChangePrimary-description = Сіз біріншілік электрондық поштаңызды { $email } етіп өзгерттіңіз. Бұл аджрес енді { -product-firefox-account } тіркелгіңізге кіруге, сондай-ақ қауіпсіздік хабарландыруларын және жүйеге кіру растауларын алуға арналған пайдаланушы атыңыз болып табылады.
 postChangePrimary-action = Тіркелгіні басқару
+
 postConsumeRecoveryCode-action = Тіркелгіні басқару
+
 postNewRecoveryCodes-action = Тіркелгіні басқару
+
 postRemoveAccountRecovery-action = Тіркелгіні басқару
+
 postRemoveSecondary-subject = Екіншілік эл. пошта адресі өшірілді
 postRemoveSecondary-title = Екіншілік эл. пошта адресі өшірілді
 postRemoveSecondary-action = Тіркелгіні басқару
+
 postRemoveTwoStepAuthentication-action = Тіркелгіні басқару
+
 postVerify-subject-3 = { -brand-firefox } ішіне қош келдіңіз!
 postVerify-setup-2 = Басқа құрылғыны байланыстыру:
 postVerify-action-2 = Басқа құрылғыны байланыстыру
+
 postVerifySecondary-subject = Екіншілік эл. пошта адресі қосылған
 postVerifySecondary-title = Екіншілік эл. пошта адресі қосылған
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-2 = Сіз { $secondaryEmail } адресін { -product-firefox-account } үшін екіншілік эл. пошта ретінде сәтті растадыңыз. Қауіпсіздік хабарландырулары мен кіру растаулары енді екі эл. пошта адресіне де жеткізіледі.
 postVerifySecondary-action = Тіркелгіні басқару
+
 recovery-subject = Парольді тастау
 recovery-title-2 = Пароліңізді ұмыттыңыз ба?
 recovery-action = Жаңа парольді жасау
+
 subscriptionAccountDeletion-title = Кеткеніңізге өкінеміз
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled = Сіз жақында { -product-firefox-account } тіркелгіңізді өшірдіңіз. Нәтижесінде { $productName } жазылуыңызды тоқтаттық. Соңғы { $invoiceTotal } төлеміңіз { $invoiceDateOnly } күні төленді.
+
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = { $productName } ішіне қош келдіңіз: пароліңізді орнатыңыз.
@@ -220,15 +257,18 @@ subscriptionAccountFinishSetup-title = { $productName } ішіне қош кел
 subscriptionAccountFinishSetup-content-processing = Төлеміңіз өңделуде және оның аяқталуына төрт жұмыс күні кетуі мүмкін. Бас тартуды таңдамасаңыз, жазылуыңыз әр есеп айырысу кезеңінде автоматты түрде жаңартылады.
 subscriptionAccountFinishSetup-content-create-2 = Содан кейін жаңа жазылуды пайдалануды бастау үшін { -product-firefox-account } паролін жасайсыз.
 subscriptionAccountFinishSetup-action-2 = Бастау
+
 subscriptionAccountReminderFirst-subject = Еске салғыш: тіркелгіңізді баптауды аяқтаңыз
 subscriptionAccountReminderFirst-title = Жазылуыңызға әлі қол жеткізе алмайсыз
 subscriptionAccountReminderFirst-content-info-2 = Бірнеше күн бұрын сіз { -product-firefox-account } тіркелгісін жасадыңыз, бірақ оны ешқашан растамадыңыз. Жаңа жазылуды пайдалана алуыңыз үшін тіркелгіңізді баптауды аяқтайсыз деп үміттенеміз.
 subscriptionAccountReminderFirst-action = Парольді жасау
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+
 subscriptionAccountReminderSecond-subject = Соңғы ескерту: тіркелгіңізді баптаңыз
 subscriptionAccountReminderSecond-title = { -brand-firefox } ішіне қош келдіңіз!
 subscriptionAccountReminderSecond-action = Парольді жасау
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Сіздің { $productName } жазылуыңыз тоқтатылды
@@ -245,10 +285,12 @@ subscriptionFirstInvoice-subject = { $productName } төлемі расталд�
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
+
 subscriptionRenewalReminder-content-closing = Құрметпен,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } командасы
+
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } төлемі алынды
@@ -256,6 +298,7 @@ subscriptionSubsequentInvoice-title = Жазылушы болғаныңыз үш
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
+
 unblockCode-subject = Тіркелгіні авторизациялау коды
 unblockCode-title = Кірем деген сіз бе?
 unblockCode-prompt = Иә болса, міне, сізге керек авторизация коды:
@@ -264,9 +307,11 @@ unblockCode-prompt = Иә болса, міне, сізге керек автор
 unblockCode-prompt-plaintext = Иә болса, міне, сізге керек авторизация коды: { $unblockCode }
 unblockCode-report = Жоқ болса, алаяқтылармен күресуге көмектесу үшін <a data-l10n-name="reportSignInLink">ол туралы бізге хабарлаңыз.</a>
 unblockCode-report-plaintext = Жоқ болса, алаяқтылармен күресуге көмектесу үшін ол туралы бізге хабарлаңыз.
+
 verificationReminderFinal-subject = Тіркелгіңізді растау үшін соңғы еске салғыш
 confirm-account = Тіркелгіні растау
 confirm-account-plaintext = { confirm-account }:
+
 verificationReminderFirst-subject-2 = Тіркелгіңізді растауды ұмытпаңыз
 verificationReminderFirst-title-2 = { -brand-firefox } ішіне қош келдіңіз!
 verificationReminderFirst-description-2 = Бірнеше күн бұрын сіз { -product-firefox-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 15 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
@@ -274,19 +319,23 @@ verificationReminderFirst-sub-description-3 = Сізді және сіздің �
 confirm-email-2 = Тіркелгіні растау
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Тіркелгіні растау
+
 verificationReminderSecond-subject-2 = Тіркелгіңізді растауды ұмытпаңыз
 verificationReminderSecond-title-2 = { -brand-firefox } жіберіп алмаңыз!
 verificationReminderSecond-description-3 = Бірнеше күн бұрын сіз { -product-firefox-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 10 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
 verificationReminderSecond-action-2 = Тіркелгіні растау
+
 verify-title-2 = { -brand-firefox } көмегімен Интернетті ашыңыз
 verify-subject = Тіркелгіні жасауды аяқтаңыз
 verify-action-2 = Тіркелгіні растау
+
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = { $clientName } ішіне кірдіңіз бе?
 verifyLogin-description-2 = Жүйеге кіргеніңізді растау арқылы тіркелгіңізді қорғауға көмектесіңіз:
 verifyLogin-subject-2 = Кіруді растау
 verifyLogin-action = Кіруді растау
+
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-subject-line-2 = { $serviceName } жүйесіне кіруді растау
@@ -297,17 +346,20 @@ verifyLoginCode-title-2 = { $serviceName } ішіне кірдіңіз бе?
 verifyLoginCode-safe = Жүйеге келесі кіргеніңізді растау арқылы тіркелгіңізді қорғауға көмектесіңіз:
 verifyLoginCode-prompt-3 = Иә болса, міне, сіздің авторизация кодыңыз:
 verifyLoginCode-expiry-notice = Оның мерзімі 5 минутта бітеді.
+
 verifyPrimary-title-2 = Біріншілік эл. поштаңызды растау
 verifyPrimary-description = Тіркелгіде өзгерістерді жасау сұратуы келесі құрылғыдан жасалған:
 verifyPrimary-subject = Біріншілік эл. поштаңызды растау
 verifyPrimary-action-2 = Эл. поштаны растау
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Расталғаннан кейін, екіншілік эл. поштаны қосу сияқты тіркелгіні өзгерту бұл тіркелгіден қолжетерлік болады.
+
 verifySecondaryCode-subject = Екіншілік эл. поштаңызды растау
 verifySecondaryCode-title-2 = Екіншілік эл. поштаңызды растау
 verifySecondaryCode-action-2 = Эл. поштаны растау
 verifySecondaryCode-prompt-2 = Бұл растау кодын пайдалану:
 verifySecondaryCode-expiry-notice-2 = Оның мерзімі 5 минутта бітеді. Расталғаннан кейін бұл адрес қауіпсіздік хабарландырулары мен растауларын ала бастайды.
+
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Тіркелгіңізді растаңыз

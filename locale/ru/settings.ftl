@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -68,17 +67,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Меню продуктов { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } — технологии, которые борются за вашу приватность в Интернете.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Браузер { -brand-firefox } для компьютеров
 bento-menu-firefox-mobile = Браузер { -brand-firefox } для мобильных
+
 bento-menu-made-by-mozilla = Создано { -brand-mozilla }
 
 ## Connect another device promo
@@ -87,6 +87,7 @@ connect-another-fx-mobile = Установите { -brand-firefox } на сво�
 connect-another-find-fx-mobile =
     Найдите { -brand-firefox } в { -google-play } и { -app-store } или
     <br /><linkExternal>отправьте ссылку для загрузки на своё устройство.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -95,7 +96,6 @@ connect-another-app-store-image-2 =
     .title = Загрузите { -brand-firefox } в { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -110,10 +110,13 @@ cs-cannot-disconnect = Клиент не найден, отключить не �
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Вы вышли из { $service }.
+
 cs-refresh-button =
     .title = Обновить подключённые службы
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Отсутствующие или повторяющиеся элементы?
+
 cs-disconnect-sync-heading = Отсоединиться от Синхронизации
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -150,10 +153,10 @@ cs-disconnect-suspicious-advice-content =
     подозрительно, для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-firefox-account(case: "singular_genitive") }
     в настройках. Вам также следует сменить любые другие
     пароли, которые вы сохраняли в { -brand-firefox }, набрав about:logins в адресной строке.
+
 cs-sign-out-button = Выйти
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -182,6 +185,7 @@ drop-down-menu-title = Меню { -product-firefox-account(case: "singular_genit
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Вы вошли как:</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = Выйти
+
 drop-down-menu-sign-out-error-2 = К сожалению, при выходе возникла проблема
 
 ## Flow Container
@@ -215,6 +219,7 @@ input-password-hide = Скрыть пароль
 input-password-show = Показать пароль
 input-password-hide-aria = Скрыть пароль с экрана.
 input-password-show-aria = Показать пароль в виде обычного текста. Ваш пароль будет виден на экране.
+
 
 ## Linked Accounts section
 
@@ -295,11 +300,11 @@ avatar-page-image-too-large-error-2 = Размер файла изображен
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Сменить пароль
+
 pw-8-chars = Не менее 8 символов
 pw-not-email = Не ваш адрес электронной почты
 pw-change-must-match = Новый пароль совпадает с подтверждением
@@ -309,35 +314,40 @@ pw-tips = Будьте в безопасности — не используйт
 pw-change-cancel-button = Отмена
 pw-change-save-button = Сохранить
 pw-change-forgot-password-link = Забыли пароль?
+
 pw-change-current-password =
     .label = Введите текущий пароль
 pw-change-new-password =
     .label = Введите новый пароль
 pw-change-confirm-password =
     .label = Подтвердите новый пароль
+
 pw-change-success-alert-2 = Пароль изменён
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Создать пароль
+
 pw-create-success-alert-2 = Пароль установлен
 pw-create-error-2 = К сожалению, при установке вашего пароля возникла проблема
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Удалить аккаунт
+
 delete-account-step-1-2 = Шаг 1 из 2
 delete-account-step-2-2 = Шаг 2 из 2
+
 delete-account-confirm-title-2 = Вы подключили свой { -product-firefox-account(case: "singular_nominative") } к продуктам { -brand-mozilla }, которые обеспечивают безопасность и продуктивность в Интернете:
+
 delete-account-acknowledge = Пожалуйста, подтвердите, что при удалении вашего аккаунта:
+
 delete-account-chk-box-1-v2 =
     .label = Все имеющиеся у вас платные подписки будут отменены (кроме { product-pocket })
 delete-account-chk-box-2 =
@@ -346,28 +356,33 @@ delete-account-chk-box-3 =
     .label = Повторная активация с использованием этого адреса электронной почты может не восстановить вашу сохранённую информацию
 delete-account-chk-box-4 =
     .label = Все расширения и темы, опубликованные вами на addons.mozilla.org, будут удалены
+
+
 delete-account-continue-button = Продолжить
+
 delete-account-password-input =
     .label = Введите пароль
+
 delete-account-cancel-button = Отмена
 delete-account-delete-button-2 = Удалить
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Отображаемое имя
+
 display-name-input =
     .label = Введите отображаемое имя
 submit-display-name = Сохранить
 cancel-display-name = Отмена
+
 display-name-update-error-2 = При обновлении вашего отображаемого имени возникла проблема
+
 display-name-success-alert-2 = Отображаемое имя обновлено
 
 ##
-
 
 # Account recovery key setup page
 
@@ -421,20 +436,25 @@ delete-account-link = Удалить аккаунт
 ## Two Step Authentication
 
 tfa-title = Двухэтапная аутентификация
+
 tfa-step-1-3 = Шаг 1 из 3
 tfa-step-2-3 = Шаг 2 из 3
 tfa-step-3-3 = Шаг 3 из 3
+
 tfa-button-continue = Продолжить
 tfa-button-cancel = Отмена
 tfa-button-finish = Готово
+
 tfa-incorrect-totp = Неверный код двухэтапной аутентификации
 tfa-cannot-retrieve-code = При запрашивании вашего кода произошла ошибка.
 tfa-cannot-verify-code-4 = При подтверждении вашего резервного кода аутентификации возникла проблема
 tfa-incorrect-recovery-code-1 = Некорректный резервный код аутентификации
 tfa-enabled = Двухэтапная аутентификация включена
+
 tfa-scan-this-code =
     Отсканируйте QR-код с помощью одного из <linkExternal>этих
     приложений для аутентификации</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -445,14 +465,17 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Не можете отсканировать код?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Введите этот секретный ключ в своё приложение для аутентификации:
+
 tfa-enter-totp = Теперь введите защитный код из приложения для аутентификации.
 tfa-input-enter-totp =
     .label = Введите защитный код
 tfa-save-these-codes-1 =
     Храните эти одноразовые резервные коды аутентификации в безопасном месте, на случай, если
     у вас не будет доступа к мобильному устройству.
+
 tfa-enter-code-to-confirm-1 =
     Пожалуйста, введите один из ваших резервных кодов аутентификации сейчас, чтобы
     подтвердите, что вы сохранили его. Вам понадобится код для входа, если у вас не будет доступа к
@@ -461,7 +484,6 @@ tfa-enter-recovery-code-1 =
     .label = Введите резервный код аутентификации
 
 ##
-
 
 ## Profile section
 
@@ -474,7 +496,6 @@ profile-primary-email =
     .header = Основной адрес электронной почты
 
 ##
-
 
 ## Security section of Setting
 
@@ -564,7 +585,6 @@ se-secondary-email-none = Нет
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двухэтапная аутентификация
@@ -573,6 +593,7 @@ tfa-row-enabled = Включена
 tfa-row-not-set = Не настроена
 tfa-row-action-add = Добавить
 tfa-row-action-disable = Отключить
+
 tfa-row-button-refresh =
     .title = Обновить двухэтапную аутентификацию
 tfa-row-cannot-refresh =
@@ -582,12 +603,14 @@ tfa-row-content-explain =
     Запретите вход другим, затребовав 
     уникальный код, доступ к которому есть только у вас.
 tfa-row-cannot-verify-session-4 = К сожалению, при подтверждении вашей сессии возникла проблема
+
 tfa-row-disable-modal-heading = Отключить двухэтапную аутентификацию?
 tfa-row-disable-modal-confirm = Отключить
 tfa-row-disable-modal-explain-1 =
     Вы не сможете отменить это действие. У вас также
     есть возможность <linkExternal>заменить свои резервные коды аутентификации</linkExternal>.
 tfa-row-cannot-disable-2 = Двухэтапная аутентификация не может быть отключена
+
 tfa-row-change-modal-heading-1 = Сменить резервные коды аутентификации?
 tfa-row-change-modal-confirm = Сменить
 tfa-row-change-modal-explain = Вы не сможете отменить это действие.

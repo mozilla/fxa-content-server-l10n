@@ -2,11 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Alert Bar
-
-alert-bar-close-message = Luk besked
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +34,11 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla }-logo
-app-footer-privacy-notice = Privatlivspolitik
-app-footer-terms-of-service = Tjenestevilkår
+## Alert Bar
 
-##
-
+alert-bar-close-message = Luk besked
 
 ## User's avatar
 
@@ -63,17 +49,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-menu
 bento-menu-firefox-title = { -brand-firefox } er teknologi, der kæmper for din ret til privatliv på nettet.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser til din computer
 bento-menu-firefox-mobile = { -brand-firefox } Browser til din telefon
+
 bento-menu-made-by-mozilla = Lavet af { -brand-mozilla }
 
 ## Connect another device promo
@@ -82,6 +69,7 @@ connect-another-fx-mobile = Få { -brand-firefox } på mobil eller tablet
 connect-another-find-fx-mobile =
     Find { -brand-firefox } i { -google-play } og { -app-store } eller
     <br /><linkExternal>send et link til at hente appen på din enhed.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -90,7 +78,6 @@ connect-another-app-store-image-2 =
     .title = Hent { -brand-firefox } på { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -105,10 +92,13 @@ cs-cannot-disconnect = Klienten blev ikke fundet, kunne ikke afbryde forbindelse
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Logget ud af { $service }
+
 cs-refresh-button =
     .title = Opdater forbundne tjenester
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manglende eller gentagne elementer?
+
 cs-disconnect-sync-heading = Afbryd forbindelsen til Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -147,10 +137,10 @@ cs-disconnect-suspicious-advice-content =
     skal du ændre adgangskoden til din { -product-firefox-account }
     i dine kontoindstillinger for at beskytte dine data. Du skal også ændre de andre
     adgangskoder, du har gemt i { -brand-firefox }, ved at skrive about:logins i adressefeltet.
+
 cs-sign-out-button = Log ud
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -179,6 +169,7 @@ drop-down-menu-title = { -product-firefox-account }-menu
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Logget ind som</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Log ud
+
 drop-down-menu-sign-out-error-2 = Der opstod desværre et problem med at logge dig ud
 
 ## Flow Container
@@ -212,6 +203,7 @@ input-password-hide = Skjul adgangskode
 input-password-show = Vis adgangskode
 input-password-hide-aria = Skjul adgangskode fra skærmen.
 input-password-show-aria = Vis adgangskode som almindelig tekst. Din adgangskode vil være synlig på skærmen.
+
 
 ## Linked Accounts section
 
@@ -291,11 +283,11 @@ avatar-page-image-too-large-error-2 = Billedfilen er for stor til at blive uploa
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Skift adgangskode
+
 pw-8-chars = Mindst 8 tegn
 pw-not-email = Ikke din mailadresse
 pw-change-must-match = Ny adgangskode matcher bekræftelsen
@@ -305,35 +297,40 @@ pw-tips = Beskyt dig selv — genbrug ikke adgangskoder. Læs mere om, hvordan d
 pw-change-cancel-button = Annuller
 pw-change-save-button = Gem
 pw-change-forgot-password-link = Glemt adgangskode?
+
 pw-change-current-password =
     .label = Indtast nuværende adgangskode
 pw-change-new-password =
     .label = Indtast ny adgangskode
 pw-change-confirm-password =
     .label = Bekræft ny adgangskode
+
 pw-change-success-alert-2 = Adgangskode opdateret
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Opret adgangskode
+
 pw-create-success-alert-2 = Adgangskode oprettet
 pw-create-error-2 = Der opstod desværre et problem med at oprette din adgangskode
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Slet konto
+
 delete-account-step-1-2 = Trin 1 af 2
 delete-account-step-2-2 = Trin 2 af 2
+
 delete-account-confirm-title-2 = Du har knyttet din { -product-firefox-account } til { -brand-mozilla }-produkter, der sikrer dit privatliv og øger din produktivitet på nettet:
+
 delete-account-acknowledge = Bekræft venligst, at når du sletter din konto:
+
 delete-account-chk-box-1-v2 =
     .label = Alle dine betalte abonnementer vil blive annulleret (undtagen { product-pocket })
 delete-account-chk-box-2 =
@@ -342,28 +339,33 @@ delete-account-chk-box-3 =
     .label = Vil genaktivering med denne mailadresse muligvis ikke gendanne dine gemte oplysninger
 delete-account-chk-box-4 =
     .label = Bliver alle udvidelser og temaer, du har udgivet via addons.mozilla.org, slettet
+
+
 delete-account-continue-button = Fortsæt
+
 delete-account-password-input =
     .label = Indtast adgangskode
+
 delete-account-cancel-button = Annuller
 delete-account-delete-button-2 = Slet
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Vist navn
+
 display-name-input =
     .label = Indtast vist navn
 submit-display-name = Gem
 cancel-display-name = Annuller
+
 display-name-update-error-2 = Der opstod et problem med at opdatere dit vist navn
+
 display-name-success-alert-2 = Vist navn opdateret
 
 ##
-
 
 # Account recovery key setup page
 
@@ -417,20 +419,25 @@ delete-account-link = Slet konto
 ## Two Step Authentication
 
 tfa-title = Totrinsgodkendelse
+
 tfa-step-1-3 = Trin 1 af 3
 tfa-step-2-3 = Trin 2 af 3
 tfa-step-3-3 = Trin 3 af 3
+
 tfa-button-continue = Fortsæt
 tfa-button-cancel = Annuller
 tfa-button-finish = Afslut
+
 tfa-incorrect-totp = Forkert kode til totrinsgodkendelse
 tfa-cannot-retrieve-code = Der opstod et problem med at hente din kode.
 tfa-cannot-verify-code-4 = Der opstod et problem med at bekræfte din reserve-godkendelseskode
 tfa-incorrect-recovery-code-1 = Forkert reserve-godkendelseskode
 tfa-enabled = Totrinsgodkendelse aktiveret
+
 tfa-scan-this-code =
     Skan denne QR-kode ved hjælp af en af <linkExternal>disse
     godkendelsesapps</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -441,14 +448,17 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kan du ikke skanne koden?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Indtast denne hemmelige nøgle i din godkendelsesapp:
+
 tfa-enter-totp = Indtast nu sikkerhedskoden fra godkendelsesappen.
 tfa-input-enter-totp =
     .label = Indtast sikkerhedskode
 tfa-save-these-codes-1 =
     Gem disse engangs-reserve-godkendelseskoder et sikkert sted,
     til hvis du mister adgangen til din mobile enhed.
+
 tfa-enter-code-to-confirm-1 =
     Indtast en af dine reserve-godkendelseskoder nu for at bekræfte,
     at du gemte den. Du skal bruge en kode til at logge ind, hvis du mister adgangen til
@@ -457,7 +467,6 @@ tfa-enter-recovery-code-1 =
     .label = Indtast en reserve-godkendelseskode
 
 ##
-
 
 ## Profile section
 
@@ -470,7 +479,6 @@ profile-primary-email =
     .header = Primær mailadresse
 
 ##
-
 
 ## Security section of Setting
 
@@ -515,7 +523,6 @@ rk-key-removed-2 = Genoprettelsesnøgle til kontoen blev fjernet
 rk-cannot-remove-key = Genoprettelsesnøglen til din konto kunne ikke fjernes.
 rk-refresh-key-1 = Opdater genoprettelsesnøgle til kontoen
 rk-content-explain = Gendan dine gemte informationer, når du har glemt din adgangskode.
-rk-content-reset-data = Hvorfor nulstilles mine data, når jeg nulstiller min adgangskode.
 rk-cannot-verify-session-4 = Der opstod desværre et problem med at bekræfte din session
 rk-remove-modal-heading-1 = Fjern genoprettelsesnøgle til kontoen?
 rk-remove-modal-content-1 =
@@ -563,7 +570,6 @@ se-secondary-email-none = Ingen
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Totrinsgodkendelse
@@ -572,6 +578,7 @@ tfa-row-enabled = Aktiveret
 tfa-row-not-set = Ikke indstillet
 tfa-row-action-add = Tilføj
 tfa-row-action-disable = Deaktiver
+
 tfa-row-button-refresh =
     .title = Opdater totrinsgodkendelse
 tfa-row-cannot-refresh =
@@ -581,12 +588,14 @@ tfa-row-content-explain =
     Undgå at en anden logger ind ved at kræve en
     unik kode, kun du har adgang til.
 tfa-row-cannot-verify-session-4 = Der opstod desværre et problem med at bekræfte din session
+
 tfa-row-disable-modal-heading = Deaktiver totrinsgodkendelse?
 tfa-row-disable-modal-confirm = Deaktiver
 tfa-row-disable-modal-explain-1 =
     Du kan ikke fortryde denne handling. Du har også
     mulighed for at <linkExternal>erstatte dine reserve-godkendelseskoder</linkExternal>.
 tfa-row-cannot-disable-2 = Totrinsgodkendelse kunne ikke deaktiveres
+
 tfa-row-change-modal-heading-1 = Skift reserve-godkendelseskoder?
 tfa-row-change-modal-confirm = Skift
 tfa-row-change-modal-explain = Du kan ikke fortryde denne handling.

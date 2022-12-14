@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -115,20 +114,7 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
-
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Logo { -brand-mozilla(case: "gen") }
-app-footer-privacy-notice = Zasady ochrony prywatności
-app-footer-terms-of-service = Regulamin usługi
-
-##
-
+## Ready component
 
 ## Alert Bar
 
@@ -143,17 +129,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Menu { -brand-firefox(case: "gen") }
 bento-menu-firefox-title = { -brand-firefox } to technologia walcząca o Twoją prywatność w Internecie.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Przeglądarka { -brand-firefox } na komputery
 bento-menu-firefox-mobile = Przeglądarka { -brand-firefox } na telefon
+
 bento-menu-made-by-mozilla = Tworzone przez { -brand-mozilla(case: "acc") }
 
 ## Connect another device promo
@@ -162,6 +149,7 @@ connect-another-fx-mobile = Pobierz { -brand-firefox(case: "acc") } na telefon l
 connect-another-find-fx-mobile =
     Znajdź { -brand-firefox(case: "acc") } w sklepie { -google-play } lub { -app-store } albo
     <br /><linkExternal>wyślij odnośnik do pobrania na swoje urządzenie.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -170,7 +158,6 @@ connect-another-app-store-image-2 =
     .title = Pobierz { -brand-firefox(case: "acc") } na { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -185,10 +172,13 @@ cs-cannot-disconnect = Nie odnaleziono klienta, nie można rozłączyć
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Wylogowano z usługi { $service }
+
 cs-refresh-button =
     .title = Odśwież połączone usługi
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Brak elementu lub jakieś są podwójne?
+
 cs-disconnect-sync-heading = Rozłącz synchronizację
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -227,10 +217,10 @@ cs-disconnect-suspicious-advice-content =
     bezpieczeństwa swoich danych należy zmienić hasło { -product-firefox-account(case: "acc", capitalization: "lower") }
     w ustawieniach konta. Należy także zmienić wszystkie inne hasła zachowane
     w { -brand-firefox(case: "loc") }, wpisując about:logins na pasku adresu.
+
 cs-sign-out-button = Wyloguj się
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -259,6 +249,7 @@ drop-down-menu-title = Menu { -product-firefox-account(case: "gen", capitalizati
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Zalogowano jako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Wyloguj się
+
 drop-down-menu-sign-out-error-2 = Przepraszamy, wystąpił problem z wylogowaniem
 
 ## Flow Container
@@ -292,6 +283,7 @@ input-password-hide = Ukryj hasło
 input-password-show = Pokaż hasło
 input-password-hide-aria = Ukryj hasło z ekranu.
 input-password-show-aria = Pokaż hasło jako zwykły test. Twoje hasło będzie widoczne na ekranie.
+
 
 ## Linked Accounts section
 
@@ -372,11 +364,11 @@ avatar-page-image-too-large-error-2 = Rozmiar pliku obrazu jest za duży, aby mo
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Zmień hasło
+
 pw-8-chars = Musi mieć co najmniej 8 znaków
 pw-not-email = Nie może być Twoim adresem e-mail
 pw-change-must-match = Nowe hasło zgadza się z potwierdzeniem
@@ -386,35 +378,40 @@ pw-tips = Zachowaj bezpieczeństwo — każdego hasła używaj tylko w jednym m
 pw-change-cancel-button = Anuluj
 pw-change-save-button = Zachowaj
 pw-change-forgot-password-link = Nie pamiętasz hasła?
+
 pw-change-current-password =
     .label = Wpisz obecne hasło
 pw-change-new-password =
     .label = Wpisz nowe hasło
 pw-change-confirm-password =
     .label = Potwierdź nowe hasło
+
 pw-change-success-alert-2 = Zaktualizowano hasło
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Utwórz hasło
+
 pw-create-success-alert-2 = Ustawiono hasło
 pw-create-error-2 = Przepraszamy, wystąpił problem z ustawieniem hasła
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Usuń konto
+
 delete-account-step-1-2 = 1. krok z 2
 delete-account-step-2-2 = 2. krok z 2
+
 delete-account-confirm-title-2 = { -product-firefox-account } jest połączone z produktami { -brand-mozilla(case: "gen") }, które zapewniają bezpieczeństwo i produktywność w Internecie:
+
 delete-account-acknowledge = Proszę potwierdzić, że usuwając konto:
+
 delete-account-chk-box-1-v2 =
     .label = Wszystkie posiadane płatne subskrypcje zostaną anulowane (z wyjątkiem { product-pocket })
 delete-account-chk-box-2 =
@@ -423,28 +420,33 @@ delete-account-chk-box-3 =
     .label = Ponowna aktywacja za pomocą tego adresu e-mail może nie przywrócić zachowanych informacji
 delete-account-chk-box-4 =
     .label = Wszystkie rozszerzenia i motywy opublikowane przez Ciebie w serwisie addons.mozilla.org zostaną usunięte
+
+
 delete-account-continue-button = Kontynuuj
+
 delete-account-password-input =
     .label = Wpisz hasło
+
 delete-account-cancel-button = Anuluj
 delete-account-delete-button-2 = Usuń
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Wyświetlana nazwa
+
 display-name-input =
     .label = Wpisz wyświetlaną nazwę
 submit-display-name = Zachowaj
 cancel-display-name = Anuluj
+
 display-name-update-error-2 = Wystąpił problem podczas aktualizacji wyświetlanej nazwy
+
 display-name-success-alert-2 = Zaktualizowano wyświetlaną nazwę
 
 ##
-
 
 # Account recovery key setup page
 
@@ -498,20 +500,25 @@ delete-account-link = Usuń konto
 ## Two Step Authentication
 
 tfa-title = Uwierzytelnianie dwuetapowe
+
 tfa-step-1-3 = 1. krok z 3
 tfa-step-2-3 = 2. krok z 3
 tfa-step-3-3 = 3. krok z 3
+
 tfa-button-continue = Kontynuuj
 tfa-button-cancel = Anuluj
 tfa-button-finish = Dokończ
+
 tfa-incorrect-totp = Niepoprawny kod uwierzytelniania dwuetapowego
 tfa-cannot-retrieve-code = Wystąpił problem podczas uzyskiwania kodu.
 tfa-cannot-verify-code-4 = Wystąpił problem podczas potwierdzania zapasowego kodu uwierzytelniania
 tfa-incorrect-recovery-code-1 = Niepoprawny zapasowy kod uwierzytelniania
 tfa-enabled = Włączono uwierzytelnianie dwuetapowe
+
 tfa-scan-this-code =
     Zeskanuj ten kod QR za pomocą jednej
     z <linkExternal>tych aplikacji uwierzytelniania</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -520,14 +527,17 @@ tfa-qa-code-alt = Użyj kodu { $secret }, aby skonfigurować uwierzytelnianie dw
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Nie możesz zeskanować kodu?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Wpisz ten tajny klucz do swojej aplikacji uwierzytelniającej:
+
 tfa-enter-totp = Wpisz teraz kod zabezpieczeń z aplikacji uwierzytelniającej.
 tfa-input-enter-totp =
     .label = Wpisz kod zabezpieczeń
 tfa-save-these-codes-1 =
     Przechowuj te zapasowe kody uwierzytelniania jednorazowego użytku w bezpiecznym miejscu
     na wypadek sytuacji, w której nie masz swojego telefonu.
+
 tfa-enter-code-to-confirm-1 =
     Proszę teraz wpisać jeden z zapasowych kodów uwierzytelniania, aby potwierdzić,
     że zostały zachowane. Kod będzie potrzebny do logowania, jeśli nie masz dostępu
@@ -536,7 +546,6 @@ tfa-enter-recovery-code-1 =
     .label = Wpisz zapasowy kod uwierzytelniania
 
 ##
-
 
 ## Profile section
 
@@ -549,7 +558,6 @@ profile-primary-email =
     .header = Główny adres e-mail
 
 ##
-
 
 ## Security section of Setting
 
@@ -641,7 +649,6 @@ se-secondary-email-none = Brak
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Uwierzytelnianie dwuetapowe
@@ -650,6 +657,7 @@ tfa-row-enabled = Włączone
 tfa-row-not-set = Nieustawione
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Wyłącz
+
 tfa-row-button-refresh =
     .title = Odśwież uwierzytelnianie dwuetapowe
 tfa-row-cannot-refresh =
@@ -657,12 +665,14 @@ tfa-row-cannot-refresh =
     uwierzytelniania dwuetapowego.
 tfa-row-content-explain = Logowanie do konta wymaga podania unikalnego kodu, do którego tylko Ty masz dostęp, co uniemożliwia innym zalogowanie się.
 tfa-row-cannot-verify-session-4 = Przepraszamy, wystąpił problem podczas potwierdzania sesji
+
 tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
 tfa-row-disable-modal-explain-1 =
     Tego działania nie będzie można cofnąć. Można zamiast tego
     <linkExternal>zastąpić zapasowe kody uwierzytelniania</linkExternal>.
 tfa-row-cannot-disable-2 = Nie można wyłączyć uwierzytelniania dwuetapowego
+
 tfa-row-change-modal-heading-1 = Zmienić zapasowe kody uwierzytelniania?
 tfa-row-change-modal-confirm = Zmień
 tfa-row-change-modal-explain = Tego działania nie będzie można cofnąć.

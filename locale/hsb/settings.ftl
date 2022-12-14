@@ -2,11 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Alert Bar
-
-alert-bar-close-message = Zdźělenku začinić
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +34,11 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Logo { -brand-mozilla }
-app-footer-privacy-notice = Prawidła priwatnosće websydła
-app-footer-terms-of-service = Wužiwanske wuměnjenja
+## Alert Bar
 
-##
-
+alert-bar-close-message = Zdźělenku začinić
 
 ## User's avatar
 
@@ -63,17 +49,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Bento-meni { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } je technologija, kotraž za wašu priwatnosć online wojuje.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Wobhladowak { -brand-firefox } za desktop
 bento-menu-firefox-mobile = Wobhladowak { -brand-firefox } za mobilne graty
+
 bento-menu-made-by-mozilla = Wot { -brand-mozilla } wuwity
 
 ## Connect another device promo
@@ -82,6 +69,7 @@ connect-another-fx-mobile = Wobstarajće sej { -brand-firefox } za mobilny telef
 connect-another-find-fx-mobile =
     Namakajće { -brand-firefox } w { -google-play } a { -app-store } abo
     <br /><linkExternal>sćelće sćehnjenski wotkaz na swój grat.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -90,7 +78,6 @@ connect-another-app-store-image-2 =
     .title = Sćehńće { -brand-firefox } wot { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -105,10 +92,13 @@ cs-cannot-disconnect = Klient njeje so namakał, zwisk njeda so dźělić
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Wot { $service } wotzjewjeny
+
 cs-refresh-button =
     .title = Zwjazane słužby aktualizować
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Falowace abo dwójne elementy?
+
 cs-disconnect-sync-heading = Ze Sync dźělić
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -147,10 +137,10 @@ cs-disconnect-suspicious-advice-content =
     podhladny, wy dyrbjał swoje hesło { -product-firefox-account } w swojich nastajenjach
     změnić, zo byšće swoje informacije wěste dźeržał. Wy dyrbjał tež about:logins do
     adresoweho pola zapodać, zo byšće druhe hesła změnił, kotrež sće w { -brand-firefox } składował.
+
 cs-sign-out-button = Wotzjewić
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -179,6 +169,7 @@ drop-down-menu-title = Meni { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Přizjewjeny jako</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Wotzjewić
+
 drop-down-menu-sign-out-error-2 = Bohužel je při wotzjewjenju problem nastał
 
 ## Flow Container
@@ -212,6 +203,7 @@ input-password-hide = Hesło schować
 input-password-show = Hesło pokazać
 input-password-hide-aria = Hesło na wobrazowce schować.
 input-password-show-aria = Hesło jako luty tekst pokazać. Waše hesło budźe widźomne na wobrazowce.
+
 
 ## Linked Accounts section
 
@@ -292,11 +284,11 @@ avatar-page-image-too-large-error-2 = Wobrazowa dataja je přewulka za nahraće
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Hesło změnić
+
 pw-8-chars = Znajmjeńša 8 znamješkow
 pw-not-email = Nic waša e-mejlowa adresa
 pw-change-must-match = Nowe hesło wobkrućenju wotpowěduje
@@ -306,35 +298,40 @@ pw-tips = Wostańće wěsty – njewužiwajće hesła wjacekróć. Hlejće dalš
 pw-change-cancel-button = Přetorhnyć
 pw-change-save-button = Składować
 pw-change-forgot-password-link = Sće hesło zabył?
+
 pw-change-current-password =
     .label = Aktualne hesło zapodać
 pw-change-new-password =
     .label = Nowe hesło zapodać
 pw-change-confirm-password =
     .label = Nowe hesło wobkrućić
+
 pw-change-success-alert-2 = Hesło je so zaktualizowało
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Hesło wutworić
+
 pw-create-success-alert-2 = Hesło je so nastajiło
 pw-create-error-2 = Bohužel je při stajenju wašeho hesła problem nastał
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Konto zhašeć
+
 delete-account-step-1-2 = Krok 1 z 2
 delete-account-step-2-2 = Krok 2 z 2
+
 delete-account-confirm-title-2 = Sće swoje konto { -product-firefox-account } z produktami { -brand-mozilla } zwjazał, kotrež was wěsty a produktiwny we webje dźerža:
+
 delete-account-acknowledge = Prošu zhašejće swoje konto, zo byšće to wobkrućił:
+
 delete-account-chk-box-1-v2 =
     .label = Někotre z wašich abonementow so anuluja (nimo { product-pocket })
 delete-account-chk-box-2 =
@@ -343,28 +340,33 @@ delete-account-chk-box-3 =
     .label = Waše składowane informacije njedadźa so snano wobnowić, hdyž tutu e-mejlowu adresu znowa aktiwizujeće
 delete-account-chk-box-4 =
     .label = Rozšěrjenja, kotrež sće na addons.mozilla.org wozjewił, so zhašeja.
+
+
 delete-account-continue-button = Dale
+
 delete-account-password-input =
     .label = Hesło zapodać
+
 delete-account-cancel-button = Přetorhnyć
 delete-account-delete-button-2 = Zhašeć
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Zwobraznjenske mjeno
+
 display-name-input =
     .label = Zapodajće zwobraznjenske mjeno
 submit-display-name = Składować
 cancel-display-name = Přetorhnyć
+
 display-name-update-error-2 = Při aktualizowanju wašeho zwobraznjenskeho mjena je problem nastał
+
 display-name-success-alert-2 = Zwobraznjenske mjeno zaktualizowane
 
 ##
-
 
 # Account recovery key setup page
 
@@ -418,18 +420,23 @@ delete-account-link = Konto zhašeć
 ## Two Step Authentication
 
 tfa-title = Dwukročelowa awtentifikacija
+
 tfa-step-1-3 = Krok 1 z 3
 tfa-step-2-3 = Krok 2 z 3
 tfa-step-3-3 = Krok 3 z 3
+
 tfa-button-continue = Dale
 tfa-button-cancel = Přetorhnyć
 tfa-button-finish = Dokónčić
+
 tfa-incorrect-totp = Wopačny kod za dwukročelowu awtentifikaciju
 tfa-cannot-retrieve-code = Při wotwołowanju wašeho koda je problem nastał.
 tfa-cannot-verify-code-4 = Při wobkrućenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
 tfa-incorrect-recovery-code-1 = Wopačny kod za zawěsćensku awtentifikaciju
 tfa-enabled = Dwukročelowa awtentifikacija zmóžnjena
+
 tfa-scan-this-code = skenujće tutón QR-kod z pomocu jednoho z <linkExternal>tutych awtentifikaciskich nałoženjow</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -440,17 +447,19 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Njemóžeće kod skenować?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Zapodajće tutón tajny kluč do swojeho awtentifikowanskeho nałoženja:
+
 tfa-enter-totp = Zapodajće nětko wěstotny kod z awtentifikaciskeho nałoženja.
 tfa-input-enter-totp =
     .label = Wěstotny kod zapodać
 tfa-save-these-codes-1 = Składujće tute kody za zawěsćensku awtentifikaciju za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
+
 tfa-enter-recovery-code-1 =
     .label = Zapodajće kod za zawěsćensku awtentifikaciju
 
 ##
-
 
 ## Profile section
 
@@ -463,7 +472,6 @@ profile-primary-email =
     .header = Primarna e-mejlowa adresa
 
 ##
-
 
 ## Security section of Setting
 
@@ -508,7 +516,6 @@ rk-key-removed-2 = Kontowy wobnowjenski kluč je so wotstronił
 rk-cannot-remove-key = Wobnowjenski kluč wašeho konta njeda so wotstronić.
 rk-refresh-key-1 = Kontowy wobnowjenski kluč aktualizować
 rk-content-explain = Wobnowće swoje informacije, hdyž sće swoje hesło zabył.
-rk-content-reset-data = Čehodla so moje daty wróćo stajeja, hdyž swoje hesło wróćo stajam?
 rk-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 rk-remove-modal-heading-1 = Kontowy wobnowjenski kluč wotstronić?
 rk-remove-modal-content-1 =
@@ -556,7 +563,6 @@ se-secondary-email-none = Žana
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dwukročelowa awtentifikacija
@@ -565,6 +571,7 @@ tfa-row-enabled = Zmóžnjeny
 tfa-row-not-set = Njenastajeny
 tfa-row-action-add = Přidać
 tfa-row-action-disable = Znjemóžnić
+
 tfa-row-button-refresh =
     .title = Dwukročelowu awtentifikaciju aktualizować
 tfa-row-cannot-refresh =
@@ -574,12 +581,14 @@ tfa-row-content-explain =
     Požadajće jónkróćny kod, ke kotremuž jenož wy maće přistup,
     zo byšće zadźěwał tomu, zo so něchtó druhi přizjewja.
 tfa-row-cannot-verify-session-4 = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
+
 tfa-row-disable-modal-heading = Dwukročelowu awtentifikaciju znjemóžnić?
 tfa-row-disable-modal-confirm = Znjemóžnić
 tfa-row-disable-modal-explain-1 =
     Njemóžeće tutu akciju cofnyć. Maće tež
     móžnosć <linkExternal>swoje kody za zawěsćensku awtentifikaciju wuměnić</linkExternal>.
 tfa-row-cannot-disable-2 = Dwukročelowa awtentifikacija njeda so znjemóžnić
+
 tfa-row-change-modal-heading-1 = Kody za zawěsćensku awtentifikaciju změnić?
 tfa-row-change-modal-confirm = Změnić
 tfa-row-change-modal-explain = Njemóžeće tutu akciju cofnyć.

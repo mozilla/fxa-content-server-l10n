@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -35,20 +34,7 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = Shitore Aplikacionesh
 
-##  Application page title and footer
-
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Stemë { -brand-mozilla }
-app-footer-privacy-notice = Njoftim Privatësie Sajti
-app-footer-terms-of-service = Kushte Shërbimi
-
-##
-
+## Ready component
 
 ## Alert Bar
 
@@ -63,17 +49,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Menu { -brand-firefox } Bento
 bento-menu-firefox-title = { -brand-firefox }-i është eknologjike që lufton për privatësinë tuaj internetore.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Shfletuesi { -brand-firefox } për Desktop
 bento-menu-firefox-mobile = Shfletuesi { -brand-firefox } për Celular
+
 bento-menu-made-by-mozilla = Krijuar nga { -brand-mozilla }
 
 ## Connect another device promo
@@ -82,6 +69,7 @@ connect-another-fx-mobile = Merreni { -brand-firefox }-in për celular ose table
 connect-another-find-fx-mobile =
     Gjejeni { -brand-firefox }-in te { -google-play } dhe { -app-store } ose
     <br /><linkExternal>dërgoni një lidhje shkarkimi te pajisja juaj.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -90,7 +78,6 @@ connect-another-app-store-image-2 =
     .title = Shkarkojeni { -brand-firefox } nga { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -103,10 +90,13 @@ cs-cannot-disconnect = S’u gjet klient, s’arrihet të bëhet shkëputje
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = U dol nga { $service }
+
 cs-refresh-button =
     .title = Rifresko shërbime të lidhura
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Elementë që mungojnë apo të përsëdytur?
+
 cs-disconnect-sync-heading = Shkëputu prej Sync-u
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -145,10 +135,10 @@ cs-disconnect-suspicious-advice-content =
     e dyshimtë, për t’i mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-firefox-account }
     tuaj, te rregullimet e llogarisë tuaj. Duhet të ndryshoni edhe çfarëdo fjalëkalimi
     tjetër që keni ruajtur në { -brand-firefox } duke shtypur about:logins te shtylla e adresave.
+
 cs-sign-out-button = Dilni
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -177,6 +167,7 @@ drop-down-menu-title = Menu { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Futur si</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Dilni
+
 drop-down-menu-sign-out-error-2 = Na ndjeni, pati një problem me daljen tuaj nga llogaria
 
 ## Flow Container
@@ -210,6 +201,7 @@ input-password-hide = Fshihe fjalëkalimin
 input-password-show = Shfaqe fjalëkalimin
 input-password-hide-aria = Fshihe fjalëkalimin nga ekrani.
 input-password-show-aria = Shfaqe fjalëkalimin si tekst të thjeshtë. Fjalëkalimi juaj do të jetë i dukshëm në ekran.
+
 
 ## Linked Accounts section
 
@@ -290,11 +282,11 @@ avatar-page-image-too-large-error-2 = Madhësi e kartelës së figurës është 
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Ndryshoni Fjalëkalimin
+
 pw-8-chars = Të paktën 8 shenja
 pw-not-email = Jo adresën tuaj email
 pw-change-must-match = Fjalëkalimi i ri përputhet me të ripohuarin
@@ -304,35 +296,40 @@ pw-tips = Jini të parrezik — mos ripërdorni fjalëkalime. Shihni më tepër 
 pw-change-cancel-button = Anuloje
 pw-change-save-button = Ruaje
 pw-change-forgot-password-link = Harruat  fjalëkalimin?
+
 pw-change-current-password =
     .label = Jepni fjalëkalimin e tanishëm
 pw-change-new-password =
     .label = Jepni fjalëkalimin e ri
 pw-change-confirm-password =
     .label = Ripohoni fjalëkalimin e ri
+
 pw-change-success-alert-2 = Fjalëkalimi u përditësua
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Krijoni fjalëkalim
+
 pw-create-success-alert-2 = Fjalëkalimi u caktua
 pw-create-error-2 = Na ndjeni, pati një problem me ujdisjen e fjalëkalimit tuaj
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Fshijeni Llogarinë
+
 delete-account-step-1-2 = Hapi 1 nga 2
 delete-account-step-2-2 = Hapi 2 nga 2
+
 delete-account-confirm-title-2 = E keni lidhur { -product-firefox-account } tuaj me produkte { -brand-mozilla } që ju mbajnë në internet të parrezikuar dhe prodhimtar në internet:
+
 delete-account-acknowledge = Ju lutemi, dijeni që duke fshirë llogarinë tuaj:
+
 delete-account-chk-box-1-v2 =
     .label = Çfarëdo pajtimesh të paguara do të anulohen (Hiq { product-pocket })
 delete-account-chk-box-2 =
@@ -341,28 +338,33 @@ delete-account-chk-box-3 =
     .label = Riaktivizimi me këtë email mund të mos rikthejë të dhënat tuaja të ruajtura
 delete-account-chk-box-4 =
     .label = Çfarëdo zgjerimi dhe teme që keni botuar te addons.mozilla.org do të fshihet
+
+
 delete-account-continue-button = Vazhdo
+
 delete-account-password-input =
     .label = Jepni fjalëkalimin
+
 delete-account-cancel-button = Anuloje
 delete-account-delete-button-2 = Fshije
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Emër në ekran
+
 display-name-input =
     .label = Jepni emër për në ekran
 submit-display-name = Ruaje
 cancel-display-name = Anuloje
+
 display-name-update-error-2 = Pati një problem me përditësimin e emrit tuaj në ekran
+
 display-name-success-alert-2 = Emri për në ekran u përditësua
 
 ##
-
 
 # Account recovery key setup page
 
@@ -416,20 +418,25 @@ delete-account-link = Fshijeni Llogarinë
 ## Two Step Authentication
 
 tfa-title = Mirëfilltësim Dyhapësh
+
 tfa-step-1-3 = Hapi 1 nga 3
 tfa-step-2-3 = Hapi 2 nga 3
 tfa-step-3-3 = Hapi 3 nga 3
+
 tfa-button-continue = Vazhdo
 tfa-button-cancel = Anuloje
 tfa-button-finish = Përfundoje
+
 tfa-incorrect-totp = Kod i pasaktë mirëfilltësimi dyhapësh
 tfa-cannot-retrieve-code = Pati një problem me marrjen e kodit tuaj.
 tfa-cannot-verify-code-4 = Pati një problem me ripohimin e kodit tuaj të mirëfilltësimit kopjeruajtje.
 tfa-incorrect-recovery-code-1 = Kod mirëfilltësimi kopjeruajtje i pasaktë
 tfa-enabled = Mirëfilltësimi dyhapësh u aktivizua
+
 tfa-scan-this-code =
     Skanojeni këtë kod QR duke përdorur një nga <linkExternal>këto
     aplikacione mirëfilltësimi</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -438,14 +445,17 @@ tfa-qa-code-alt = Përdoreni kodin { $secret } që të rregulloni mirëfilltësi
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = S’e skanoni dot kodin?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Jepeni këtë kyç të fshehtë te aplikacioni juaj i mirëfilltësimeve:
+
 tfa-enter-totp = Tani jepni kodin e sigurisë prej aplikacionit të mirëfilltësimeve.
 tfa-input-enter-totp =
     .label = Jepni kod sigurie
 tfa-save-these-codes-1 =
     Ruajini këta kode njëpërdorimsh mirëfilltësimi kopjeruajtje në një vend të sigurt, për kur
     të mos keni pajisjen tuaj celulare.
+
 tfa-enter-code-to-confirm-1 =
     Ju lutemi, jepni tani një nga kodet tuaj të mirëfilltësimit kopjeruajtje që
     të ripohoni se e ruajtët. Do t’ju duhet një kod për të bërë hyrjen, nëse s’keni hyrje
@@ -454,7 +464,6 @@ tfa-enter-recovery-code-1 =
     .label = Jepni një kod mirëfilltësimi kopjeruajtje
 
 ##
-
 
 ## Profile section
 
@@ -467,7 +476,6 @@ profile-primary-email =
     .header = Email parësor
 
 ##
-
 
 ## Security section of Setting
 
@@ -559,7 +567,6 @@ se-secondary-email-none = Asnjë
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Mirëfilltësim dyhapësh
@@ -568,6 +575,7 @@ tfa-row-enabled = I aktivizuar
 tfa-row-not-set = I paujdisur
 tfa-row-action-add = Shtoje
 tfa-row-action-disable = Çaktivizoje
+
 tfa-row-button-refresh =
     .title = Rifreskoni mirëfilltësim dyhapësh
 tfa-row-cannot-refresh =
@@ -577,12 +585,14 @@ tfa-row-content-explain =
     Pengojini hyrjen dikujt, duke kërkuar doemos një
     kod unik, të cilin e dini vetëm ju.
 tfa-row-cannot-verify-session-4 = Na ndjeni, pati një problem në ripohimin e sesionit tuaj
+
 tfa-row-disable-modal-heading = Të çktivizoni mirëfilltësim dyhapësh?
 tfa-row-disable-modal-confirm = Çaktivizoje
 tfa-row-disable-modal-explain-1 =
     S’do të jeni në gjendje ta zhbëni këtë veprim. Keni
     edhe mundësinë e <linkExternal>zëvendësimit të kodeve tuaj të mirëfilltësimit kopjeruajtje</linkExternal>.
 tfa-row-cannot-disable-2 = Mirëfilltësimi dyhapësh s’u çaktivizua dot
+
 tfa-row-change-modal-heading-1 = Të ndryshohen kode mirëfilltësimi kopjeruajtjeje?
 tfa-row-change-modal-confirm = Ndryshoji
 tfa-row-change-modal-explain = S’do të jeni në gjendje ta zhbëni këtë veprim.

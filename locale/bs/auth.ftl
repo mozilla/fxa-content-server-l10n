@@ -1,63 +1,61 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+## Non-email strings
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
--brand-mozilla = Mozilla
--brand-firefox = Firefox
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
 fxa-privacy-url = { -brand-mozilla } polica privatnosti
+
 subplat-automated-email = Ovo je automatski email; ako ste ga dobili greškom, nije potrebna nikakva akcija.
-automated-email-plaintext = Ovo je automatski email; ako ste ga dobili greškom, nije potrebna nikakva akcija.
+
 change-password-plaintext = Ako sumnjate da neko pokušava dobiti pristup vašem računu, molimo promijenite vašu lozinku.
+
 manage-account = Upravljanje računom
-codes-reminder-title = Preostalo još nekoliko kodova za oporavak
-codes-reminder-description = Primjetili smo da vam je preostalo još nekoliko kodova za oporavak. Molimo razmislite o generisanju novih kodova da izbjegnete zaključavanje vašeg računa.
-codes-generate = Generiši kodove
-lowRecoveryCodes-action = Generiši kodove
+
 newDeviceLogin-action = Upravljanje računom
+
 passwordChanged-title = Promjena lozinke uspješna
+
 passwordChangeRequired-signoff = Najbolje,
+
 passwordReset-title = Lozinka vašeg računa je promijenjena
+
 postAddAccountRecovery-action = Upravljanje računom
-postAddTwoStepAuthentication-subject = Autentifikacija u dva koraka je omogućena
-postAddTwoStepAuthentication-title = Autentifikacija u dva koraka je omogućena
+
 postAddTwoStepAuthentication-action = Upravljanje računom
-postAddTwoStepAuthentication-code-required = Sigurnosni kodovi iz vaše aplikacije za autentifikaciju će sada biti traženi pri svakoj prijavi.
+
 postChangePrimary-title = Novi primarni email
 postChangePrimary-action = Upravljanje računom
-postConsumeRecoveryCode-title = Kod za oporavak je potrošen
-postConsumeRecoveryCode-description = Uspješno ste potrošili kod za oporavak sa sljedećeg uređaja:
+
 postConsumeRecoveryCode-action = Upravljanje računom
-postNewRecoveryCodes-subject = Novi kodovi za oporavak su generisani
-postNewRecoveryCodes-title = Novi kodovi za oporavak su generisani
-postNewRecoveryCodes-description = Uspješno ste generisali nove kodove za oporavak sa sljedećeg uređaja:
+
 postNewRecoveryCodes-action = Upravljanje računom
+
 postRemoveAccountRecovery-action = Upravljanje računom
+
 postRemoveSecondary-subject = Sekundarni email uklonjen
 postRemoveSecondary-title = Sekundarni email uklonjen
 postRemoveSecondary-action = Upravljanje računom
-postRemoveTwoStepAuthentication-title = Autentifikacija u dva koraka je onemogućena
+
 postRemoveTwoStepAuthentication-action = Upravljanje računom
-postRemoveTwoStepAuthentication-not-required = Sigurnosni kodovi se više neće tražiti pri svakoj prijavi.
+
 postVerifySecondary-subject = Dodan sekundarni email
 postVerifySecondary-title = Dodan sekundarni email
 postVerifySecondary-action = Upravljanje računom
-recovery-title = Trebate resetovati vašu lozinku?
-recovery-description = Kliknite dugme u sljedećih sat vremena da kreirate novu lozinku. Zahtjev je došao sa sljedećeg uređaja:
+
 recovery-action = Napravite novu lozinku
+
+## Variables
+##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+
 unblockCode-title = Da li se ovo vi prijavljujete?
 unblockCode-prompt = Ako da, ovdje je autorizacijski kod kojeg trebate:
 unblockCode-report-plaintext = Ako ne, pomozite nam braniti se od uljeza i prijavite nam to.
-verificationReminderSecond-title = Još ste tu?
-verifyLogin-description = Za dodatnu sigurnost, molimo potvrdite ovu prijavu sa sljedećeg uređaja:
+
 verifyLogin-action = Potvrdi prijavu
-verifyLoginCode-title = Da li se ovo vi prijavljujete?
-verifyPrimary-title = Verifikujte primarni email
+
 verifyPrimary-description = Zahtjev za izvođenje promjena računa je napravljen sa sljedećeg uređaja:
-verifyPrimary-post-verify = Nakon verifikacije, promjene računa kao što je dodavanje sekundarnog emaila će biti moguće sa ovog uređaja.
-verifySecondary-title = Verifikuj sekundarni email
-verifySecondary-post-verification = Nakon verifikacije, ova adresa će početi primati sigurnosna obavještenja i potvrde.
-verifySecondaryCode-title = Verifikuj sekundarni email
 

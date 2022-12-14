@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -57,17 +56,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-menu
 bento-menu-firefox-title = { -brand-firefox } is technologie die vecht voor uw online privacy.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser voor desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser voor mobiel
+
 bento-menu-made-by-mozilla = Gemaakt door { -brand-mozilla }
 
 ## Connect another device promo
@@ -76,6 +76,7 @@ connect-another-fx-mobile = Download { -brand-firefox } op mobiel of tablet
 connect-another-find-fx-mobile =
     { -brand-firefox } in { -google-play } en de { -app-store } zoeken of
     <br /><linkExternal>een downloadkoppeling naar uw apparaat sturen.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -84,7 +85,6 @@ connect-another-app-store-image-2 =
     .title = Download { -brand-firefox } in de { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -99,10 +99,13 @@ cs-cannot-disconnect = Client niet gevonden, verbinding kan niet worden verbroke
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Afgemeld bij { $service }
+
 cs-refresh-button =
     .title = Verbonden services vernieuwen
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Ontbrekende of dubbele items?
+
 cs-disconnect-sync-heading = Verbinding met Sync verbreken
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -141,10 +144,10 @@ cs-disconnect-suspicious-advice-content =
     verdacht is, dient u, om uw gegevens veilig te houden, het wachtwoord van uw { -product-firefox-account }
     te wijzigen in uw accountinstellingen. U kunt het beste ook alle overige wachtwoorden die
     u in { -brand-firefox } hebt opgeslagen wijzigen door in de adresbalk about:logins in te typen.
+
 cs-sign-out-button = Afmelden
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -173,6 +176,7 @@ drop-down-menu-title = { -product-firefox-account }menu
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Aangemeld als </signin><user>{ $user }</user>
 drop-down-menu-sign-out = Afmelden
+
 drop-down-menu-sign-out-error-2 = Sorry, er is een probleem opgetreden bij het afmelden
 
 ## Flow Container
@@ -206,6 +210,7 @@ input-password-hide = Wachtwoord verbergen
 input-password-show = Wachtwoord tonen
 input-password-hide-aria = Wachtwoord op scherm verbergen
 input-password-show-aria = Wachtwoord als platte tekst tonen. Uw wachtwoord zal zichtbaar zijn op het scherm.
+
 
 ## Linked Accounts section
 
@@ -286,11 +291,11 @@ avatar-page-image-too-large-error-2 = De afbeeldingsbestandsgrootte is te groot 
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Wachtwoord wijzigen
+
 pw-8-chars = Ten minste 8 tekens
 pw-not-email = Niet uw e-mailadres
 pw-change-must-match = Nieuw wachtwoord komt overeen met bevestiging
@@ -300,35 +305,40 @@ pw-tips = Blijf veilig – gebruik wachtwoorden niet opnieuw. Meer tips om <link
 pw-change-cancel-button = Annuleren
 pw-change-save-button = Opslaan
 pw-change-forgot-password-link = Wachtwoord vergeten?
+
 pw-change-current-password =
     .label = Voer huidig wachtwoord in
 pw-change-new-password =
     .label = Voer nieuw wachtwoord in
 pw-change-confirm-password =
     .label = Bevestig nieuw wachtwoord
+
 pw-change-success-alert-2 = Wachtwoord bijgewerkt
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Wachtwoord aanmaken
+
 pw-create-success-alert-2 = Wachtwoord ingesteld
 pw-create-error-2 = Sorry, er is een probleem opgetreden bij het instellen van uw wachtwoord
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Account verwijderen
+
 delete-account-step-1-2 = Stap 1 van 2
 delete-account-step-2-2 = Stap 2 van 2
+
 delete-account-confirm-title-2 = U hebt uw { -product-firefox-account } verbonden met { -brand-mozilla }-producten die u veilig en productief houden op internet:
+
 delete-account-acknowledge = Bevestig dat door uw account te verwijderen:
+
 delete-account-chk-box-1-v2 =
     .label = Al uw betaalde abonnementen worden opgezegd (behalve { product-pocket })
 delete-account-chk-box-2 =
@@ -337,28 +347,33 @@ delete-account-chk-box-3 =
     .label = Uw opgeslagen informatie mogelijk niet hersteld kan worden, als u dit e-mailadres opnieuw activeert
 delete-account-chk-box-4 =
     .label = Alle extensies en thema’s die u op addons.mozilla.org hebt gepubliceerd zullen worden verwijderd
+
+
 delete-account-continue-button = Doorgaan
+
 delete-account-password-input =
     .label = Voer wachtwoord in
+
 delete-account-cancel-button = Annuleren
 delete-account-delete-button-2 = Verwijderen
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Weergavenaam
+
 display-name-input =
     .label = Voer schermnaam in
 submit-display-name = Opslaan
 cancel-display-name = Annuleren
+
 display-name-update-error-2 = Er is een probleem opgetreden bij het bijwerken van uw schermnaam
+
 display-name-success-alert-2 = Schermnaam bijgewerkt
 
 ##
-
 
 # Account recovery key setup page
 
@@ -412,20 +427,25 @@ delete-account-link = Account verwijderen
 ## Two Step Authentication
 
 tfa-title = Authenticatie in twee stappen
+
 tfa-step-1-3 = Stap 1 van 3
 tfa-step-2-3 = Stap 2 van 3
 tfa-step-3-3 = Stap 3 van 3
+
 tfa-button-continue = Doorgaan
 tfa-button-cancel = Annuleren
 tfa-button-finish = Voltooien
+
 tfa-incorrect-totp = Onjuiste code voor authenticatie in twee stappen
 tfa-cannot-retrieve-code = Er is een probleem opgetreden bij het ophalen van uw code.
 tfa-cannot-verify-code-4 = Er is een probleem opgetreden bij het bevestigen van uw reserve-authenticatiecode
 tfa-incorrect-recovery-code-1 = Onjuiste reserve-authenticatiecode
 tfa-enabled = Authenticatie in twee stappen ingeschakeld
+
 tfa-scan-this-code =
     Scan deze QR-code met een van <linkExternal>deze
     authenticatie-apps</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -436,14 +456,17 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kunt u de code niet scannen?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Voer deze geheime sleutel in in uw app voor authenticatie:
+
 tfa-enter-totp = Voer nu de beveiligingscode van de authenticatie-app in.
 tfa-input-enter-totp =
     .label = Voer beveiligingscode in
 tfa-save-these-codes-1 =
     Bewaar deze reserve-authenticatiecodes voor eenmalig gebruik op een veilige plaats voor als
     u uw mobiele apparaat niet hebt.
+
 tfa-enter-code-to-confirm-1 =
     Voer nu een van uw reserve-authenticatiecodes in om te bevestigen dat u deze hebt
     opgeslagen. U hebt een code nodig om aan te melden als u geen toegang
@@ -452,7 +475,6 @@ tfa-enter-recovery-code-1 =
     .label = Voer een reserve-authenticatiecode in
 
 ##
-
 
 ## Profile section
 
@@ -465,7 +487,6 @@ profile-primary-email =
     .header = Primair e-mailadres
 
 ##
-
 
 ## Security section of Setting
 
@@ -557,7 +578,6 @@ se-secondary-email-none = Geen
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Authenticatie in twee stappen
@@ -566,6 +586,7 @@ tfa-row-enabled = Ingeschakeld
 tfa-row-not-set = Niet ingesteld
 tfa-row-action-add = Toevoegen
 tfa-row-action-disable = Uitschakelen
+
 tfa-row-button-refresh =
     .title = Authenticatie in twee stappen vernieuwen
 tfa-row-cannot-refresh =
@@ -575,12 +596,14 @@ tfa-row-content-explain =
     Voorkom dat iemand anders aanmeldt door een
     unieke code waar alleen u toegang toe hebt te vereisen.
 tfa-row-cannot-verify-session-4 = Sorry, er is een probleem opgetreden bij het bevestigen van uw sessie
+
 tfa-row-disable-modal-heading = Authenticatie in twee stappen uitschakelen?
 tfa-row-disable-modal-confirm = Uitschakelen
 tfa-row-disable-modal-explain-1 =
     U kunt deze actie niet ongedaan maken. U hebt ook
     de optie om <linkExternal>uw reserve-authenticatiecodes te vervangen</linkExternal>.
 tfa-row-cannot-disable-2 = Authenticatie in twee stappen kon niet worden uitgeschakeld
+
 tfa-row-change-modal-heading-1 = Reserve-authenticatiecodes wijzigen?
 tfa-row-change-modal-confirm = Wijzigen
 tfa-row-change-modal-explain = U kunt deze actie niet ongedaan maken.

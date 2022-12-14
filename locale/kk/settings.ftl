@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -57,17 +56,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } өнімдер мәзірі
 bento-menu-firefox-title = { -brand-firefox } — желідегі жекелігіңіз үшін күресетін технологиялар.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Компьютер үшін { -brand-firefox } браузері
 bento-menu-firefox-mobile = Мобильді { -brand-firefox } браузері
+
 bento-menu-made-by-mozilla = { -brand-mozilla } жасаған
 
 ## Connect another device promo
@@ -79,7 +79,6 @@ connect-another-find-fx-mobile =
 
 ##
 
-
 ## Connected services section
 
 cs-heading = Байланыстырылған қызметтер
@@ -90,10 +89,13 @@ cs-cannot-disconnect = Клиент табылмады, ажырату мүмк�
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service } жүйесінен шықтыңыз
+
 cs-refresh-button =
     .title = Байланыстырылған қызметтерді жаңарту
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Жоқ немесе қайталанған элемент?
+
 cs-disconnect-sync-heading = Синхрондаумен байланысты үзу
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -101,7 +103,6 @@ cs-disconnect-sync-heading = Синхрондаумен байланысты ү�
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -117,10 +118,10 @@ cs-disconnect-sync-opt-not-say = Айтпауды қалаймын
 
 cs-disconnect-advice-confirm = Жақсы, түсіндім
 cs-disconnect-lost-advice-heading = Жоғалған немесе ұрланған құрылғы ажыратылған
+
 cs-sign-out-button = Шығу
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -141,6 +142,7 @@ dc-learn-more = Көбірек білу
 
 drop-down-menu-title = { -product-firefox-account } мәзірі
 drop-down-menu-sign-out = Шығу
+
 drop-down-menu-sign-out-error-2 = Кешіріңіз, жүйеден шығу кезінде мәселе туындады
 
 ## Flow Container
@@ -174,6 +176,7 @@ input-password-hide = Парольді жасыру
 input-password-show = Парольді көрсету
 input-password-hide-aria = Парольді экраннан жасыру.
 input-password-show-aria = Парольді қарапайым мәтін ретінде көрсету. Пароліңіз экранда көрінеді.
+
 
 ## Linked Accounts section
 
@@ -239,11 +242,11 @@ avatar-page-new-avatar =
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Парольді өзгерту
+
 pw-8-chars = Кемінде 8 таңба
 pw-not-email = Сіздің эл. пошта адресіңіз емес
 pw-change-must-match = Жаңа пароль растауға сәйкес келеді
@@ -253,55 +256,62 @@ pw-tips = Қауіпсіз болыңыз — парольдерді қайта 
 pw-change-cancel-button = Бас тарту
 pw-change-save-button = Сақтау
 pw-change-forgot-password-link = Пароліңізді ұмыттыңыз ба?
+
 pw-change-current-password =
     .label = Ағымдағы парольді енгізіңіз
 pw-change-new-password =
     .label = Жаңа парольді енгізіңіз
 pw-change-confirm-password =
     .label = Жаңа парольді растау
+
 pw-change-success-alert-2 = Пароль жаңартылды
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Парольді жасау
+
 pw-create-success-alert-2 = Пароль орнатылды
 pw-create-error-2 = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Тіркелгіні өшіру
+
 delete-account-step-1-2 = Қадам 1, барлығы 2
 delete-account-step-2-2 = Қадам 2, барлығы 2
+
+
 delete-account-continue-button = Жалғастыру
+
 delete-account-password-input =
     .label = Парольді енгізіңіз
+
 delete-account-cancel-button = Бас тарту
 delete-account-delete-button-2 = Өшіру
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Көрсетілетін аты
+
 display-name-input =
     .label = Көрсетілетін атыңызды енгізіңіз
 submit-display-name = Сақтау
 cancel-display-name = Бас тарту
+
 display-name-update-error-2 = Көрсетілетін атыңызды жаңарту кезінде мәселе туындады
+
 display-name-success-alert-2 = Көрсетілетін атыңыз жаңартылды
 
 ##
-
 
 # Account recovery key setup page
 
@@ -355,24 +365,29 @@ delete-account-link = Тіркелгіні өшіру
 ## Two Step Authentication
 
 tfa-title = Екі қадамды аутентификация
+
 tfa-step-1-3 = Қадам 1, барлығы 3
 tfa-step-2-3 = Қадам 2, барлығы 3
 tfa-step-3-3 = Қадам 3, барлығы 3
+
 tfa-button-continue = Жалғастыру
 tfa-button-cancel = Бас тарту
 tfa-button-finish = Дайын
+
 tfa-incorrect-totp = Екі қадамды аутентификация коды жарамсыз
+
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Кодты сканерлеу мүмкін емес пе?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Осы құпия кілтті аутентификация қолданбасына енгізіңіз:
+
 tfa-enter-totp = Енді аутентификация қолданбасынан қауіпсіздік кодын енгізіңіз.
 tfa-input-enter-totp =
     .label = Қауіпсіздік кодын енгізіңіз
 
 ##
-
 
 ## Profile section
 
@@ -385,7 +400,6 @@ profile-primary-email =
     .header = Біріншілік эл. пошта адресі
 
 ##
-
 
 ## Security section of Setting
 
@@ -443,7 +457,6 @@ se-secondary-email-none = Ешнәрсе
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Екі қадамды аутентификация
@@ -452,10 +465,13 @@ tfa-row-enabled = Іске қосулы
 tfa-row-not-set = Орнатылмаған
 tfa-row-action-add = Қосу
 tfa-row-action-disable = Сөндіру
+
 tfa-row-button-refresh =
     .title = Екі қадамды аутентификацияны жаңарту
+
 tfa-row-disable-modal-heading = Екі қадамды аутентификацияны сөндіру керек пе?
 tfa-row-disable-modal-confirm = Сөндіру
+
 tfa-row-change-modal-confirm = Өзгерту
 tfa-row-change-modal-explain = Бұл әрекетті кері қайтара алмайсыз.
 

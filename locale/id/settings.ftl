@@ -2,11 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Alert Bar
-
-alert-bar-close-message = Tutup pesan
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,20 +32,11 @@ product-firefox-monitor = Firefox Monitor
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Logo { -brand-mozilla }
-app-footer-privacy-notice = Pemberitahuan Privasi Situs Web
-app-footer-terms-of-service = Ketentuan Layanan
+## Alert Bar
 
-##
-
+alert-bar-close-message = Tutup pesan
 
 ## User's avatar
 
@@ -61,16 +47,17 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Menu Bento { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } adalah teknologi yang memperjuangkan privasi daring Anda.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-desktop = Peramban { -brand-firefox } untuk Desktop
 bento-menu-firefox-mobile = Peramban { -brand-firefox } untuk Seluler
+
 bento-menu-made-by-mozilla = Dibuat oleh { -brand-mozilla }
 
 ## Connect another device promo
@@ -82,30 +69,26 @@ connect-another-find-fx-mobile =
 
 ##
 
-
 ## Connected services section
 
 cs-heading = Layanan Tersambung
 cs-description = Semua yang Anda gunakan dan masuki.
 cs-cannot-refresh = Maaf, terjadi masalah saat menyegarkan daftar sambungan layanan.
 cs-cannot-disconnect = Klien tidak ditemukan, tidak dapat memutuskan sambungan
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = Keluar dari { $service }.
+
 cs-refresh-button =
     .title = Segarkan layanan tersambung
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Item hilang atau terduplikasi?
+
 cs-disconnect-sync-heading = Putuskan dari Sync
-# This string is used in a modal dialog when the user starts the disconnect from
-# Sync process.
-# Variables:
-#   $device (String) - the name of a device using Firefox Accounts
-#                      (for example: "Firefox Nightly on Google Pixel 4a")
-cs-disconnect-sync-content = Data penjelajahan Anda akan tetap berada di perangkat { $device }, namun tidak tersinkronisasi lagi dengan akun Anda.
-cs-disconnect-sync-reason = Apa alasan utama untuk memutuskan perangkat ini?
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -132,12 +115,12 @@ cs-disconnect-suspicious-advice-content =
     mencurigakan, untuk menjaga informasi Anda agar tetap aman, Anda perlu mengubah kata sandi
     { -product-firefox-account } di pengaturan akun. Anda juga disarankan untuk mengubah
     kata sandi lainnya yang Anda simpan pada { -brand-firefox } dengan mengetikkan tentang:logins pada bilah alamat.
+
 cs-sign-out-button = Keluar
 
 ##
 
-
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Diunduh
@@ -145,6 +128,8 @@ datablock-copy =
     .message = Disalin
 datablock-print =
     .message = Dicetak
+
+## Data collection section
 
 # DropDownAvatarMenu component
 
@@ -154,15 +139,13 @@ drop-down-menu-title = Menu { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Masuk sebagai</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Keluar
-drop-down-menu-sign-out-error = Maaf, terjadi masalah saat mengeluarkan Anda.
 
 ## Flow Container
 
 flow-container-back = Kembali
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Kode Pemulihan
 get-data-trio-download =
     .title = Unduh
 get-data-trio-copy =
@@ -186,6 +169,9 @@ input-password-show = Tampilkan sandi
 input-password-hide-aria = Sembunyikan sandi dari layar.
 input-password-show-aria = Tampilkan sandi sebagai teks biasa. Sandi Anda akan terlihat di layar.
 
+
+## Linked Accounts section
+
 ## Modal
 
 modal-close-title = Tutup
@@ -193,14 +179,7 @@ modal-cancel-button = Batalkan
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Verifikasi surel Anda
-mvs-enter-verification-code = Masukkan kode verifikasi Anda
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Masukkan kode verifikasi yang telah dikirim ke <email>{ $email }</email> dalam 5 menit.
 msv-cancel-button = Batalkan
-msv-submit-button = Verifikasi
 
 ## Settings Nav
 
@@ -211,9 +190,7 @@ nav-connected-services = Layanan Tersambung
 nav-paid-subs = Langganan Berbayar
 nav-email-comm = Komunikasi Email
 
-## Two Step Authentication - replace recovery code
-
-tfa-replace-code-error = Terjadi masalah saat mengganti kode pemulihan Anda.
+## Two Step Authentication - replace backup authentication code
 
 ## Avatar change page
 
@@ -239,94 +216,78 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Tidak dapat menginisialisasi kamera
 avatar-page-new-avatar =
     .alt = gambar profil baru
-avatar-page-file-upload-error-2 = Terjadi kesalahan saat mengunggah gambar profil Anda.
-avatar-page-delete-error-2 = Terjadi kesalahan saat menghapus gambar profil Anda.
-avatar-page-image-too-large-error = Ukuran berkas gambar terlalu besar untuk diunggah.
 
 ##
-
 
 ## Password change page
 
 pw-change-header =
     .title = Ubah kata sandi
+
 pw-change-save-button = Simpan
 pw-change-forgot-password-link = Lupa kata sandi?
+
 pw-change-current-password =
     .label = Masukkan kata sandi lama
 pw-change-new-password =
     .label = Masukkan kata sandi baru
 pw-change-confirm-password =
     .label = Konfirmasi kata sandi baru
-pw-change-success-alert = Kata sandi telah diperbarui.
 
 ##
 
+## Password create page
+
+##
 
 ## Delete account page
 
 delete-account-header =
     .title = Hapus akun
+
 delete-account-step-1-2 = Langkah 1 dari 2
 delete-account-step-2-2 = Langkah 2 dari 2
+
 delete-account-confirm-title-2 = Anda telah menyambungkan { -product-firefox-account } Anda ke produk { -brand-mozilla } yang membuat Anda tetap aman dan produktif di web:
+
 delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
-delete-account-chk-box-1 =
-    .label = Semua langganan berbayar yang Anda miliki akan dibatalkan
+
 
 ##
-
 
 ## Display name page
 
-
 ##
 
-
-# Recovery key setup page
-
+# Account recovery key setup page
 
 ## Add secondary email page
 
-
-##
-
-
 ## Verify secondary email page
 
-
 ##
-
 
 ## Two Step Authentication
 
-
 ##
-
 
 ## Profile section
 
-
 ##
-
 
 ## Security section of Setting
 
+## Switch component
 
 ## Sub-section row Defaults
 
-
-## Recovery key sub-section on main Settings page
-
+## Account recovery key sub-section on main Settings page
 
 ## Secondary email sub-section on main Settings page
 
-
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
-
 
 ## Auth-server based errors that originate from backend service
 
