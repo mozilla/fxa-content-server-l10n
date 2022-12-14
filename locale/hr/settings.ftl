@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -35,20 +34,7 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
-
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla } logotip
-app-footer-privacy-notice = Napomena o privatnosti web stranice
-app-footer-terms-of-service = Uvjeti korištenja
-
-##
-
+## Ready component
 
 ## Alert Bar
 
@@ -63,17 +49,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento izbornik
 bento-menu-firefox-title = { -brand-firefox } je tehnologija koja se bori za tvoju privatnost na mreži.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Preglednik { -brand-firefox } za računala
 bento-menu-firefox-mobile = Preglednik { -brand-firefox } za mobilne uređaje
+
 bento-menu-made-by-mozilla = Stvorila { -brand-mozilla }
 
 ## Connect another device promo
@@ -82,6 +69,7 @@ connect-another-fx-mobile = Nabavi { -brand-firefox } na mobitelu ili tabletu
 connect-another-find-fx-mobile =
     Pronađi { -brand-firefox } u { -google-play }u i { -app-store }u ili
     <br /><linkExternal>pošalji poveznicu za preuzimanje na svoj uređaj.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -91,7 +79,6 @@ connect-another-app-store-image-2 =
 
 ##
 
-
 ## Connected services section
 
 cs-heading = Povezane usluge
@@ -100,10 +87,13 @@ cs-cannot-refresh =
     Žao nam je. Došlo je do greške prilikom osvježavanja popisa
     povezanih usluga.
 cs-cannot-disconnect = Klijent nije pronađen; nije moguće prekinuti vezu
+
 cs-refresh-button =
     .title = Osvježi povezane usluge
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Nedostajuće ili duplicirane stavke?
+
 cs-disconnect-sync-heading = Prekini vezu sa Syncom
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -111,7 +101,6 @@ cs-disconnect-sync-heading = Prekini vezu sa Syncom
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -128,10 +117,10 @@ cs-disconnect-sync-opt-not-say = Ne želim reći
 cs-disconnect-advice-confirm = U redu, razumijem
 cs-disconnect-lost-advice-heading = Prekinuta veza s izgubljenim ili ukradenim uređajem
 cs-disconnect-suspicious-advice-heading = Prekinuta veza sa sumnjivim uređajem
+
 cs-sign-out-button = Odjava
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -157,6 +146,7 @@ drop-down-menu-title = Izbornik za { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Prijavljen/a kao</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odjava
+
 drop-down-menu-sign-out-error-2 = Žao nam je. Došlo je do greške prilikom odjave
 
 ## Flow Container
@@ -190,6 +180,7 @@ input-password-hide = Sakrij lozinku
 input-password-show = Prikaži lozinku
 input-password-hide-aria = Sakrij lozinku sa zaslona.
 input-password-show-aria = Prikaži lozinku kao obični tekst. Tvoja lozinka bit će vidljiva na zaslonu.
+
 
 ## Linked Accounts section
 
@@ -262,69 +253,76 @@ avatar-page-image-too-large-error-2 = Slika je prevelika za prijenos
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Promijeni lozinku
+
 pw-8-chars = Barem 8 znakova
 pw-not-email = Nije tvoja e-mail adresa
 pw-change-must-match = Nova lozinka podudara se s potvrdom
 pw-change-cancel-button = Odustani
 pw-change-save-button = Spremi
 pw-change-forgot-password-link = Zaboravio/la si lozinku?
+
 pw-change-current-password =
     .label = Unesi trenutnu lozinku
 pw-change-new-password =
     .label = Unesi novu lozinku
 pw-change-confirm-password =
     .label = Potvrdi novu lozinku
+
 pw-change-success-alert-2 = Lozinka je aktualizirana
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Stvori lozinku
+
 pw-create-success-alert-2 = Lozinka je postavljena
 pw-create-error-2 = Žao nam je. Došlo je do greške prilikom postavljanja tvoje lozinke
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Izbriši račun
+
 delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
+
 delete-account-acknowledge = Brisanjem računa potvrđuješ da će:
+
 delete-account-chk-box-3 =
     .label = Ponovna aktivacija ovom e-poštom možda neće vratiti tvoje spremljene informacije
 delete-account-chk-box-4 =
     .label = Sva proširenja i teme objavljene na addons.mozilla.org bit će izbrisane
+
+
 delete-account-continue-button = Nastavi
+
 delete-account-password-input =
     .label = Unesi lozinku
+
 delete-account-cancel-button = Odustani
 delete-account-delete-button-2 = Izbriši
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Prikazano ime
+
 display-name-input =
     .label = Unesi prikazano ime
 submit-display-name = Spremi
 cancel-display-name = Odustani
 
 ##
-
 
 # Account recovery key setup page
 
@@ -377,18 +375,23 @@ delete-account-link = Izbriši račun
 ## Two Step Authentication
 
 tfa-title = Dvofaktorska autentifikacija
+
 tfa-step-1-3 = Korak 1 od 3
 tfa-step-2-3 = Korak 2 od 3
 tfa-step-3-3 = Korak 3 od 3
+
 tfa-button-continue = Nastavi
 tfa-button-cancel = Odustani
 tfa-button-finish = Završi
+
 tfa-incorrect-totp = Neispravan kôd za dvofaktorsku autentifikaciju
 tfa-cannot-retrieve-code = Došlo je do greške prilikom dohvaćanja tvog kôda.
 tfa-enabled = Dvofaktorska autentifikacija je omogućena
+
 tfa-scan-this-code =
     Skeniraj ovaj QR kôd pomoću jedne od <linkExternal>ovih
     aplikacija za provjeru autentičnosti</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -399,14 +402,15 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Ne možeš skenirati kôd?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Unesi ovaj tajni ključ u svoju aplikaciju za provjeru autentičnosti:
+
 tfa-enter-totp = Sada unesi sigurnosni kôd iz aplikacije za provjeru autentičnosti.
 tfa-input-enter-totp =
     .label = Unesi sigurnosni kôd
 
 ##
-
 
 ## Profile section
 
@@ -419,7 +423,6 @@ profile-primary-email =
     .header = Primarna adresa e-pošte
 
 ##
-
 
 ## Security section of Setting
 
@@ -499,7 +502,6 @@ se-content-note-1 = Napomena: sekundarna e-mail adresa neće obnoviti tvoje poda
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dvofaktorska autentifikacija
@@ -508,14 +510,17 @@ tfa-row-enabled = Omogućeno
 tfa-row-not-set = Nije postavljeno
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogući
+
 tfa-row-button-refresh =
     .title = Osvježi dvofaktorsku autentifikaciju
 tfa-row-content-explain =
     Spriječi da se netko drugi prijavi na tvoj račun tako da
     zahtijevamo jedinstveni kôd kojem samo ti imaš pristup.
+
 tfa-row-disable-modal-heading = Onemogućiti dvofaktorsku autentifikaciju?
 tfa-row-disable-modal-confirm = Onemogući
 tfa-row-cannot-disable-2 = Nije bilo moguće deaktivirati autentifikaciju u dva koraka
+
 tfa-row-change-modal-confirm = Promijeni
 tfa-row-change-modal-explain = Nećeš moći poništiti ovu radnju.
 

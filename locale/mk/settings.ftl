@@ -2,10 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Alert Bar
-
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -37,20 +33,9 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = Лого на { -brand-mozilla }
-app-footer-privacy-notice = Известување за приватност на веб-страница
-app-footer-terms-of-service = Услови за употреба
-
-##
-
+## Alert Bar
 
 ## User's avatar
 
@@ -61,16 +46,17 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Мени Бенто
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Прелистувач за работен компјутер
 bento-menu-firefox-mobile = { -brand-firefox } Прелистувач за мобилен телефон
+
 bento-menu-made-by-mozilla = Направено од { -brand-mozilla }
 
 ## Connect another device promo
@@ -82,7 +68,6 @@ connect-another-find-fx-mobile =
 
 ##
 
-
 ## Connected services section
 
 cs-heading = Поврзани услуги
@@ -91,10 +76,13 @@ cs-cannot-refresh =
     За жал, се појави проблем при освежување на списокот на поврзани
     услуги.
 cs-cannot-disconnect = Клиентот не е пронајден, не може да се исклучи
+
 cs-refresh-button =
     .title = Освежете ги поврзаните услуги
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Недостасуваат или се дуплираат ставки?
+
 cs-disconnect-sync-heading = Исклучете се од Синхронизација
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -102,7 +90,6 @@ cs-disconnect-sync-heading = Исклучете се од Синхронизац
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -129,12 +116,12 @@ cs-disconnect-suspicious-advice-content =
     сомнителен, за да ги зачувате вашите информации безбедни, треба да ја смените вашата { -product-firefox-account }
     лозинка во поставките на вашата сметка. Треба да ги смените и другите 
     лозинки што ги зачувавте во { -brand-firefox } со внесување на „about:logins“ во лентата за адреси.
+
 cs-sign-out-button = Одјавете се
 
 ##
 
-
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Преземено
@@ -144,7 +131,6 @@ datablock-print =
     .message = Испечатено
 
 ## Data collection section
-
 
 # DropDownAvatarMenu component
 
@@ -159,9 +145,8 @@ drop-down-menu-sign-out = Одјави се
 
 flow-container-back = Назад
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Кодови за обновување
 get-data-trio-download =
     .title = Преземи
 get-data-trio-copy =
@@ -182,6 +167,7 @@ header-help = Помош
 
 input-password-show = Прикажи лозинка
 
+
 ## Linked Accounts section
 
 nav-linked-accounts = { la-heading }
@@ -193,14 +179,7 @@ modal-cancel-button = Откажи
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Потврдете ја вашата е-пошта
-mvs-enter-verification-code = Внесете го вашиот код за верификација
-# This string is used to show a notification to the user for them to enter verification code to verify their email.
-# Variables:
-#   email (String) - the user's email
-mvs-enter-verification-code-desc = Внесете го кодот за потврда што е испратен до <email>{ $email }</email> во рок од 5 минути.
 msv-cancel-button = Откажи
-msv-submit-button = Потврди
 
 ## Settings Nav
 
@@ -211,7 +190,7 @@ nav-connected-services = Поврзани услуги
 nav-paid-subs = Платени претплати
 nav-email-comm = Комуникации по е-пошта
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-1-2 = Чекор 1 од 2
 tfa-replace-code-2-2 = Чекор 2 од 2
@@ -223,7 +202,6 @@ avatar-page-save-button = Зачувај
 
 ##
 
-
 ## Password change page
 
 pw-change-cancel-button = Откажи
@@ -231,26 +209,20 @@ pw-change-save-button = Зачувај
 
 ##
 
-
 ## Password create page
 
-
 ##
-
 
 ## Delete account page
 
 
 ##
 
-
 ## Display name page
-
 
 ##
 
-
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Откажи
 recovery-key-close-button = Затвори
@@ -267,23 +239,20 @@ verify-secondary-email-cancel-button = Откажи
 
 ##
 
-
 ## Two Step Authentication
 
 tfa-button-continue = Продолжи
 tfa-button-cancel = Откажи
 tfa-button-finish = Крај
+
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 
 ##
 
-
 ## Profile section
 
-
 ##
-
 
 ## Security section of Setting
 
@@ -292,24 +261,20 @@ security-password =
 
 ## Switch component
 
-
 ## Sub-section row Defaults
 
 row-defaults-action-add = Додај
 row-defaults-action-disable = Оневозможи
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
 rk-action-remove = Отстрани
 
 ## Secondary email sub-section on main Settings page
 
-
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
-
 
 ## Auth-server based errors that originate from backend service
 

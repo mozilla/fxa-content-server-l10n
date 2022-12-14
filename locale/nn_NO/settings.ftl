@@ -2,11 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Alert Bar
-
-alert-bar-close-message = Lat att melding
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -38,20 +33,11 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla }-logo
-app-footer-privacy-notice = Personvernmerknadar for nettstaden
-app-footer-terms-of-service = Tenestevilkår
+## Alert Bar
 
-##
-
+alert-bar-close-message = Lat att melding
 
 ## User's avatar
 
@@ -62,15 +48,16 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-meny
 bento-menu-firefox-title = { -brand-firefox } er teknologi som kjempar for din rett til privatliv på nettet.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
+
 bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 
 ## Connect another device promo
@@ -79,6 +66,7 @@ connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
 connect-another-find-fx-mobile =
     Finn { -brand-firefox } på { -google-play } og { -app-store } eller
     <br /><linkExternal>send ei nedlastingslenke til eininga.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -88,16 +76,18 @@ connect-another-app-store-image-2 =
 
 ##
 
-
 ## Connected services section
 
 cs-heading = Tilkopla tenester
 cs-description = Alt du brukar og er innlogga på.
 cs-cannot-disconnect = Fann ikkje klienten, klarte ikkje å kople frå
+
 cs-refresh-button =
     .title = Oppdater tilkopla tenester
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manglande- eller duplikatelement?
+
 cs-disconnect-sync-heading = Kople frå Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -105,7 +95,6 @@ cs-disconnect-sync-heading = Kople frå Sync
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -122,12 +111,12 @@ cs-disconnect-sync-opt-not-say = Vil helst ikkje fortelje det
 cs-disconnect-advice-confirm = Ok, eg forstår
 cs-disconnect-lost-advice-heading = Mista eller stolen eining fråkopla
 cs-disconnect-suspicious-advice-heading = Mistenkjeleg eining fråkopla
+
 cs-sign-out-button = Logg ut
 
 ##
 
-
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Nedlasta
@@ -155,9 +144,8 @@ drop-down-menu-sign-out = Logg ut
 
 flow-container-back = Tilbake
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Gjenopprettingskodar
 get-data-trio-download =
     .title = Last ned
 get-data-trio-copy =
@@ -181,8 +169,8 @@ input-password-show = Vis passord
 input-password-hide-aria = Gøym passord frå skjermen.
 input-password-show-aria = Vis passord som rein tekst. Passordet ditt vil visast på skjermen.
 
-## Linked Accounts section
 
+## Linked Accounts section
 
 ## Modal
 
@@ -202,7 +190,7 @@ nav-connected-services = Tilkopla tenester
 nav-paid-subs = Betalte abonnement
 nav-email-comm = E-postkommunikasjon
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
@@ -236,15 +224,16 @@ avatar-page-new-avatar =
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Endra passord
+
 pw-change-must-match = Nytt passord samsvarar med stadfestinga
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Lagre
 pw-change-forgot-password-link = Gløymt passordet?
+
 pw-change-current-password =
     .label = Skriv inn gjeldande passord
 pw-change-new-password =
@@ -254,7 +243,6 @@ pw-change-confirm-password =
 
 ##
 
-
 ## Password create page
 
 pw-create-header =
@@ -262,26 +250,30 @@ pw-create-header =
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Slett kontoen
+
 delete-account-step-1-2 = Steg 1 av 2
 delete-account-step-2-2 = Steg 2 av 2
+
+
 delete-account-continue-button = Fortset
+
 delete-account-password-input =
     .label = Skriv inn passord
+
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Slett
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Visingsnamn
+
 display-name-input =
     .label = Skriv inn visingsnamn
 submit-display-name = Lagre
@@ -289,16 +281,13 @@ cancel-display-name = Avbryt
 
 ##
 
-
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Avbryt
 recovery-key-close-button = Lat att
 recovery-key-continue-button = Fortset
 recovery-key-enter-password =
     .label = Skriv inn passord
-recovery-key-page-title =
-    .title = Gjenopprettingsnøkkel
 recovery-key-step-1 = Steg 1 av 2
 recovery-key-step-2 = Steg 2 av 2
 
@@ -325,14 +314,18 @@ delete-account-link = Slett kontoen
 ## Two Step Authentication
 
 tfa-title = Tostegs-godkjenning
+
 tfa-step-1-3 = Steg 1 av 3
 tfa-step-2-3 = Steg 2 av 3
 tfa-step-3-3 = Steg 3 av 3
+
 tfa-button-continue = Fortset
 tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
+
 tfa-incorrect-totp = Feil tostegs-godkjenningskode
 tfa-enabled = Tostegs-godkjenning aktivert
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -341,13 +334,11 @@ tfa-qa-code-alt =
     Bruk koden { $secret } for å setje opp tostegs-godkjenning i
     støtta appar.
 tfa-button-cant-scan-qr = Klarer du ikkje å skanne koden?
+
 tfa-input-enter-totp =
     .label = Skriv inn sikkerheitskode
-tfa-enter-recovery-code =
-    .label = Skriv inn ein gjenopprettingskode
 
 ##
-
 
 ## Profile section
 
@@ -360,7 +351,6 @@ profile-primary-email =
     .header = Primær e-postadresse
 
 ##
-
 
 ## Security section of Setting
 
@@ -386,16 +376,13 @@ row-defaults-action-change = Endre
 row-defaults-action-disable = Slå av
 row-defaults-status = Ingen
 
-## Recovery key sub-section on main Settings page
+## Account recovery key sub-section on main Settings page
 
-rk-header = Gjenopprettingsnøkkel
 rk-enabled = Aktivert
 rk-not-set = Ikkje innstilt
 rk-action-create = Opprett
 rk-action-remove = Fjern
 rk-content-explain = Gjenopprett informasjonen din når du gløymer passordet ditt.
-rk-content-reset-data = Kvifor vert dataa mine tilbakestilte når eg tilbakestiller passordet mitt?
-rk-remove-modal-heading = Fjerne gjenopprettingsnøkkel?
 
 ## Secondary email sub-section on main Settings page
 
@@ -414,7 +401,6 @@ se-secondary-email-none = Ingen
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tostegs-godkjenning
@@ -422,11 +408,13 @@ tfa-row-enabled = Aktivert
 tfa-row-not-set = Ikkje innstilt
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
+
 tfa-row-button-refresh =
     .title = Oppdater tostegs-godkjenning
+
 tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
-tfa-row-change-modal-heading = Endre gjenopprettingskodar?
+
 tfa-row-change-modal-confirm = Endre
 
 ## Auth-server based errors that originate from backend service

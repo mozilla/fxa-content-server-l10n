@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -57,23 +56,25 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } 产品菜单
 bento-menu-firefox-title = { -brand-firefox } 用技术为您的隐私而战。
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } 桌面浏览器
 bento-menu-firefox-mobile = { -brand-firefox } 移动浏览器
+
 bento-menu-made-by-mozilla = { -brand-mozilla } 出品
 
 ## Connect another device promo
 
 connect-another-fx-mobile = 下载适用于手机或平板电脑的 { -brand-firefox }
 connect-another-find-fx-mobile = 到 { -google-play } 或 { -app-store } 搜索 { -brand-firefox }，或<br /><linkExternal>将下载链接发送至您的移动设备。</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -82,7 +83,6 @@ connect-another-app-store-image-2 =
     .title = 到 { -app-store } 下载 { -brand-firefox }
 
 ##
-
 
 ## Connected services section
 
@@ -95,10 +95,13 @@ cs-cannot-disconnect = 找不到客户端，无法断开连接
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = 已退出 { $service }
+
 cs-refresh-button =
     .title = 刷新关联服务
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 有缺失或重复？
+
 cs-disconnect-sync-heading = 断开同步
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -127,10 +130,10 @@ cs-disconnect-lost-advice-heading = 丢失或被盗的设备已断开连接
 cs-disconnect-lost-advice-content-2 = 鉴于您的设备丢失或被盗，为了确保信息安全，您应在账户设置中更改您的 { -product-firefox-account }密码，并从设备制造商处了解如何远程抹除数据。
 cs-disconnect-suspicious-advice-heading = 可疑设备已断开连接
 cs-disconnect-suspicious-advice-content = 若断开连接的设备确实可疑，为了确保您的信息安全，应及时到“账户设置”中更改 { -product-firefox-account }密码，并在地址栏输入 about:logins，更改存放在 { -brand-firefox } 的所有网站密码。
+
 cs-sign-out-button = 退出
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -159,6 +162,7 @@ drop-down-menu-title = { -product-firefox-account } 菜单
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>已登录为</signin> <user>{ $user }</user>
 drop-down-menu-sign-out = 退出
+
 drop-down-menu-sign-out-error-2 = 抱歉，退出登录时出现问题。
 
 ## Flow Container
@@ -192,6 +196,7 @@ input-password-hide = 隐藏密码
 input-password-show = 显示密码
 input-password-hide-aria = 在屏幕上隐藏密码。
 input-password-show-aria = 以纯文本形式显示密码，您的密码将显示在屏幕上。
+
 
 ## Linked Accounts section
 
@@ -269,11 +274,11 @@ avatar-page-image-too-large-error-2 = 图片太大，无法上传
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = 更改密码
+
 pw-8-chars = 至少 8 个字符
 pw-not-email = 不可以与邮箱地址相同
 pw-change-must-match = 新密码和确认密码输入需一致
@@ -283,35 +288,40 @@ pw-tips = 安全无小事，杜绝复用密码。更多创建高强度密码的�
 pw-change-cancel-button = 取消
 pw-change-save-button = 保存
 pw-change-forgot-password-link = 忘记密码？
+
 pw-change-current-password =
     .label = 输入当前密码
 pw-change-new-password =
     .label = 输入新密码
 pw-change-confirm-password =
     .label = 确认新密码
+
 pw-change-success-alert-2 = 密码已更新
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = 创建密码
+
 pw-create-success-alert-2 = 密码已设置
 pw-create-error-2 = 抱歉，设置密码时出现问题
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = 删除账户
+
 delete-account-step-1-2 = 步骤（1 / 2）
 delete-account-step-2-2 = 步骤（2 / 2）
+
 delete-account-confirm-title-2 = 您已将 { -product-firefox-account }关联至可让您更安全、更高效地畅游网络的 { -brand-mozilla } 产品：
+
 delete-account-acknowledge = 请确认，若您真要删除账户：
+
 delete-account-chk-box-1-v2 =
     .label = 将取消所有付费订阅项目（{ product-pocket } 除外）
 delete-account-chk-box-2 =
@@ -320,28 +330,33 @@ delete-account-chk-box-3 =
     .label = 用此邮箱地址重新激活，也无法恢复您保存的信息
 delete-account-chk-box-4 =
     .label = 您发布到 addons.mozilla.org 的所有扩展和主题都将被删除。
+
+
 delete-account-continue-button = 继续
+
 delete-account-password-input =
     .label = 请输入密码
+
 delete-account-cancel-button = 取消
 delete-account-delete-button-2 = 删除
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = 显示名称
+
 display-name-input =
     .label = 请输入显示名称
 submit-display-name = 保存
 cancel-display-name = 取消
+
 display-name-update-error-2 = 更新您的显示名称时出现问题
+
 display-name-success-alert-2 = 显示名称已更新
 
 ##
-
 
 # Account recovery key setup page
 
@@ -395,18 +410,23 @@ delete-account-link = 删除账户
 ## Two Step Authentication
 
 tfa-title = 两步验证
+
 tfa-step-1-3 = 步骤（1 / 3）
 tfa-step-2-3 = 步骤（2 / 3）
 tfa-step-3-3 = 步骤（3 / 3）
+
 tfa-button-continue = 继续
 tfa-button-cancel = 取消
 tfa-button-finish = 完成
+
 tfa-incorrect-totp = 错误的两步验证码
 tfa-cannot-retrieve-code = 检索您的验证码时出现问题。
 tfa-cannot-verify-code-4 = 确认您的备用验证码时出现问题
 tfa-incorrect-recovery-code-1 = 备份验证码不正确
 tfa-enabled = 已启用两步验证
+
 tfa-scan-this-code = 使用以下任一<linkExternal>身份验证应用</linkExternal>进行扫码。
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -415,18 +435,20 @@ tfa-qa-code-alt = 使用安全码 { $secret } 在支持的应用程序中设置�
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = 无法扫码？
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = 请在身份验证应用输入此安全密钥：
+
 tfa-enter-totp = 现在请输入验证应用的中的安全码。
 tfa-input-enter-totp =
     .label = 请输入安全码
 tfa-save-these-codes-1 = 请妥善保管下列一次性备用验证码，以便在移动设备不可用时使用。
+
 tfa-enter-code-to-confirm-1 = 请输入其中一枚备用验证码以确认您已进行保存。当移动设备不可用时，可以使用验证码访问账户。
 tfa-enter-recovery-code-1 =
     .label = 请输入备用验证码
 
 ##
-
 
 ## Profile section
 
@@ -439,7 +461,6 @@ profile-primary-email =
     .header = 主邮箱
 
 ##
-
 
 ## Security section of Setting
 
@@ -525,7 +546,6 @@ se-secondary-email-none = 无
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 两步验证
@@ -534,15 +554,18 @@ tfa-row-enabled = 已启用
 tfa-row-not-set = 未设置
 tfa-row-action-add = 添加
 tfa-row-action-disable = 禁用
+
 tfa-row-button-refresh =
     .title = 刷新两步验证状态
 tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
 tfa-row-content-explain = 登录时需提供只有您有权访问的验证码，防止他人恶意登录。
 tfa-row-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
+
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
 tfa-row-disable-modal-explain-1 = 您将无法撤销此操作。您也可选择<linkExternal>更换备用验证码</linkExternal>。
 tfa-row-cannot-disable-2 = 无法禁用两步验证
+
 tfa-row-change-modal-heading-1 = 要更改备份验证码吗？
 tfa-row-change-modal-confirm = 更改
 tfa-row-change-modal-explain = 此操作无法撤销。

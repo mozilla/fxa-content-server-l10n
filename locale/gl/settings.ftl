@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -32,20 +31,9 @@ product-firefox-monitor = Firefox Monitor
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = logo { -brand-mozilla }
-app-footer-privacy-notice = Norma de privacidade do sitio
-app-footer-terms-of-service = Termos de uso
-
-##
-
+## Alert Bar
 
 ## User's avatar
 
@@ -56,6 +44,7 @@ avatar-default-avatar =
 
 ##
 
+# BentoMenu component
 
 ## Connect another device promo
 
@@ -66,120 +55,109 @@ connect-another-find-fx-mobile =
 
 ##
 
-
 ## Connected services section
 
 cs-heading = Servizos conectados
 cs-description = Todo o que está a utilizar e para o que asinou.
 cs-cannot-refresh = Desculpe, a recarga da lista de servizos conectados sufriu un problema.
 cs-cannot-disconnect = Non se atopou o cliente, non foi posíbel desconectar.
-# This string is used in a notification message near the top of the page.
-# Variables:
-#   $service (String) - the name of a device or service that uses Firefox Accounts
-#                       (for example: "Firefox Lockwise")
-cs-logged-out = A sesión en { $service } está cerrada.
+
 cs-refresh-button =
     .title = Recargar os servizos conectados
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Elementos que faltan ou están duplicados?
+
 cs-disconnect-sync-heading = Desconectar de Sync
+
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Firefox Accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+##
 
 ##
 
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
-##
+## Data collection section
 
+# DropDownAvatarMenu component
 
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Flow Container
 
-
-# GetDataTrio component, part of Recovery Key flow
-
+# GetDataTrio component, part of Account Recovery Key flow
 
 # HeaderLockup component
 
+## Input Password
+
+
+## Linked Accounts section
+
+## Modal
+
+## Modal Verify Session
 
 ## Settings Nav
 
-
-## Two Step Authentication - replace recovery code
-
+## Two Step Authentication - replace backup authentication code
 
 ## Avatar change page
 
-
 ##
-
 
 ## Password change page
 
-
 ##
 
+## Password create page
+
+##
 
 ## Delete account page
 
 
 ##
 
-
 ## Display name page
-
 
 ##
 
-
-# Recovery key setup page
-
+# Account recovery key setup page
 
 ## Add secondary email page
 
-
-##
-
-
 ## Verify secondary email page
 
-
 ##
-
 
 ## Two Step Authentication
 
-
 ##
-
 
 ## Profile section
 
-
 ##
-
 
 ## Security section of Setting
 
+## Switch component
 
 ## Sub-section row Defaults
 
-
-## Recovery key sub-section on main Settings page
-
+## Account recovery key sub-section on main Settings page
 
 ## Secondary email sub-section on main Settings page
 
-
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
-
-
-## Avatar sub-section on main Settings page
-
 
 ## Auth-server based errors that originate from backend service
 

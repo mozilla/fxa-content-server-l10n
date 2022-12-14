@@ -1,74 +1,61 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+## Non-email strings
 
--product-firefox-accounts = Firefox accounts
--product-firefox-account = Firefox account
--product-firefox-cloud = Firefox Cloud
--brand-mozilla = Mozilla
--brand-firefox = Firefox
+
+## Email content
+## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
+## version. The strings are usually identical but sometimes they differ slightly.
+
 fxa-privacy-url = Polisi Privasi { -brand-mozilla }
+
 subplat-automated-email = Ini adalah emel automatik; jika anda tersilap terima, tiada tindakan diperlukan.
-automated-email-plaintext = Ini adalah emel automatik; jika anda tersilap terima, tiada tindakan diperlukan.
+
 change-password-plaintext = Jika anda mengesyaki bahawa seseorang sedang cuba untuk mendapatkan akses ke akaun anda, sila tukar kata laluan anda.
+
 manage-account = Urus akaun
-codes-reminder-title = Kod pemulihan semakin habis
-codes-reminder-description = Kami mengesan bahawa kod pemulihan anda semakin habis. Sila jana kod baru untuk mengelakkan anda terkunci di luar akaun.
-codes-generate = Jana kod
-lowRecoveryCodes-action = Jana kod
+
 newDeviceLogin-action = Urus akaun
+
 passwordChanged-title = Kata laluan berjaya diubah
+
 passwordChangeRequired-signoff = Terbaik,
+
 passwordReset-title = Kata laluan anda telah diubah
-passwordResetAccountRecovery-title = Kata laluan akaun anda telah ditetapkan semula menggunakan kekunci pemulihan
-passwordResetAccountRecovery-description = Anda telah berjaya menetapkan semula kata laluan menggunakan kekunci pemulihan dari peranti berikut:
-passwordResetAccountRecovery-action = Cipta kekunci pemulihan baru
-passwordResetAccountRecovery-regen-required = Anda perlu jana kekunci pemulihan baru.
-passwordResetAccountRecovery-create-key = Cipta kekunci pemulihan baru:
-postAddAccountRecovery-subject = Kekunci pemulihan akaun telah dijana
-postAddAccountRecovery-title = Kekunci pemulihan akaun telah dijana
+
 postAddAccountRecovery-action = Urus akaun
-postAddAccountRecovery-revoke = Jika ini bukan anda, batalkan kekunci.
-postAddTwoStepAuthentication-subject = Pengesahan dwi-langkah telah didayakan
-postAddTwoStepAuthentication-title = Pengesahan dwi-langkah telah didayakan
+
 postAddTwoStepAuthentication-action = Urus akaun
-postAddTwoStepAuthentication-code-required = Kod keselamatan dari aplikasi pengesahan akan diperlukan setiap kali anda mendaftar-masuk.
+
 postChangePrimary-title = E-mel utama baru
 postChangePrimary-action = Urus akaun
-postConsumeRecoveryCode-title = Kod pemulihan telah digunakan
-postConsumeRecoveryCode-description = Anda telah berjaya menggunakan kod pemulihan dari peranti berikut:
+
 postConsumeRecoveryCode-action = Urus akaun
-postNewRecoveryCodes-subject = Kod pemulihan baru telah dijana
-postNewRecoveryCodes-title = Kod pemulihan baru telah dijana
-postNewRecoveryCodes-description = Anda telah berjaya menjana kod pemulihan baru dari peranti berikut:
+
 postNewRecoveryCodes-action = Urus akaun
-postRemoveAccountRecovery-subject = Kekunci pemulihan akaun telah dibuang
-postRemoveAccountRecovery-title = Kekunci pemulihan akaun telah dibuang
+
 postRemoveAccountRecovery-action = Urus akaun
-postRemoveAccountRecovery-invalid = Kekunci pemulihan ini tidak lagi boleh digunakan untuk memulihkan akaun anda.
+
 postRemoveSecondary-subject = E-mel sekunder dibuang
 postRemoveSecondary-title = E-mel sekunder dibuang
 postRemoveSecondary-action = Urus akaun
-postRemoveTwoStepAuthentication-title = Pengesahan dwi-langkah telah dinyahdayakan
+
 postRemoveTwoStepAuthentication-action = Urus akaun
-postRemoveTwoStepAuthentication-not-required = Kod keselamatan tidak akan diperlukan lagi ketika daftar masuk.
+
 postVerifySecondary-subject = E-mel sekunder ditambah
 postVerifySecondary-title = E-mel sekunder ditambah
 postVerifySecondary-action = Urus akaun
-recovery-title = Perlu set semula kata laluan anda?
-recovery-description = Klik butang dalam tempoh sejam berikut untuk mencipta kata laluan baru. Permintaan ini dibuat daripada peranti berikut:
+
 recovery-action = Cipta kata laluan baru
+
+## Variables
+##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+
 unblockCode-title = Anda mendaftar masuk?
 unblockCode-prompt = Jika ya, ini adalah kod pengesahan yang anda perlukan:
 unblockCode-report-plaintext = Jika tidak, bantu kami menangkis penceroboh dan laporkan kepada kami.
-verificationReminderSecond-title = Masih di sini?
-verifyLogin-description = Untuk keselamatan tambahan, sila sahkan daftar masuk daripada peranti ini:
+
 verifyLogin-action = Sahkan daftar masuk
-verifyLoginCode-title = Anda mendaftar masuk?
-verifyPrimary-title = Sahkan e-mel utama
+
 verifyPrimary-description = Permintaan untuk melaksanakan pertukaran akaun telah dibuat dari peranti berikut:
-verifyPrimary-post-verify = Setelah disahkan, pertukaran akaun seperti menambah e-mel sekunder akan dibolehkan dari peranti ini.
-verifySecondary-title = Sahkan e-mel sekunder
-verifySecondary-post-verification = Apabila disahkan, alamat ini akan mula menerima notifikasi dan pengesahan.
-verifySecondaryCode-title = Sahkan e-mel sekunder
 

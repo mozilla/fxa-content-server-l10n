@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -57,17 +56,18 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento-valmynd
 bento-menu-firefox-title = { -brand-firefox } er tækni sem berst fyrir friðhelgi þinni á netinu.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-vafri fyrir vinnutölvur
 bento-menu-firefox-mobile = { -brand-firefox }-vafri fyrir farsíma
+
 bento-menu-made-by-mozilla = Gert af { -brand-mozilla }
 
 ## Connect another device promo
@@ -76,6 +76,7 @@ connect-another-fx-mobile = Fáðu þér { -brand-firefox } í farsíma eða spj
 connect-another-find-fx-mobile =
     Finndu { -brand-firefox } í { -google-play } og { -app-store } eða
     <br /><linkExternal>sendu niðurhalstengil í tækið þitt.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -84,7 +85,6 @@ connect-another-app-store-image-2 =
     .title = Sæktu { -brand-firefox } í { -app-store }
 
 ##
-
 
 ## Connected services section
 
@@ -99,10 +99,13 @@ cs-cannot-disconnect = Biðlaraforrit fannst ekki, get ekki aftengst
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Skráð út af { $service }
+
 cs-refresh-button =
     .title = Endurnýja tengdar þjónustur
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Atriði sem vantar eða eru tvítekin?
+
 cs-disconnect-sync-heading = Aftengjast frá Sync-samstillingu
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -141,10 +144,10 @@ cs-disconnect-suspicious-advice-content =
     grunsamlegt, þá ættirðu til að halda upplýsingum þínum öruggum að breyta { -product-firefox-account }
     lykilorðinu þínu í stillingum reikningsins þíns. Þú ættir líka að breyta öllum öðrum
     lykilorðum sem þú hefur vistað í { -brand-firefox } með því að skrifa about:logins á veffangastikuna.
+
 cs-sign-out-button = Útskráning
 
 ##
-
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -173,6 +176,7 @@ drop-down-menu-title = { -product-firefox-account } valmynd
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Skráð inn sem</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Skrá út
+
 drop-down-menu-sign-out-error-2 = Því miður, upp kom vandamál við að skrá þig út
 
 ## Flow Container
@@ -206,6 +210,7 @@ input-password-hide = Fela lykilorð
 input-password-show = Birta lykilorð
 input-password-hide-aria = Fela lykilorð af skjánum.
 input-password-show-aria = Sýna lykilorð sem ósniðinn texta. Lykilorðið þitt verður sýnilegt á skjánum.
+
 
 ## Linked Accounts section
 
@@ -283,11 +288,11 @@ avatar-page-image-too-large-error-2 = Stærð myndarinnar er of mikil til að h�
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Breyta lykilorði
+
 pw-8-chars = Að minnsta kosti 8 stafir
 pw-not-email = Ekki tölvupóstfangið þitt
 pw-change-must-match = Nýtt lykilorð passar við staðfestingu
@@ -297,35 +302,40 @@ pw-tips = Vertu öruggur - ekki endurnýta lykilorð. Sjáðu fleiri ráð til a
 pw-change-cancel-button = Hætta við
 pw-change-save-button = Vista
 pw-change-forgot-password-link = Gleymt lykilorð?
+
 pw-change-current-password =
     .label = Sláðu inn núverandi lykilorð
 pw-change-new-password =
     .label = Settu inn nýja lykilorðið
 pw-change-confirm-password =
     .label = Staðfestu nýja lykilorðið
+
 pw-change-success-alert-2 = Lykilorð uppfært
 
 ##
-
 
 ## Password create page
 
 pw-create-header =
     .title = Búa til lykilorð
+
 pw-create-success-alert-2 = Lykilorð stillt
 pw-create-error-2 = Því miður kom upp vandamál við að stilla lykilorðið þitt
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Eyða reikningi
+
 delete-account-step-1-2 = Skref 1 af 2
 delete-account-step-2-2 = Skref 2 af 2
+
 delete-account-confirm-title-2 = Þú hefur tengt { -product-firefox-account } við { -brand-mozilla } þjónustur sem tryggja öryggi þitt og afköst á vefnum:
+
 delete-account-acknowledge = Staðfestu að þú sért upplýst/ur um að með því að eyða reikningnum þínum:
+
 delete-account-chk-box-1-v2 =
     .label = Öllum greiddum áskriftum sem þú ert með verður sagt upp (nema { product-pocket })
 delete-account-chk-box-2 =
@@ -334,28 +344,33 @@ delete-account-chk-box-3 =
     .label = Endurvirkjun með þessum tölvupósti gæti ekki endurheimt upplýsingar sem þú hefur vistað
 delete-account-chk-box-4 =
     .label = Öllum forritsaukum og þemum sem þú gefur út á addons.mozilla.org verður eytt
+
+
 delete-account-continue-button = Halda áfram
+
 delete-account-password-input =
     .label = Settu inn lykilorð
+
 delete-account-cancel-button = Hætta við
 delete-account-delete-button-2 = Eyða
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Birtingarnafn
+
 display-name-input =
     .label = Settu inn birtingarnafn
 submit-display-name = Vista
 cancel-display-name = Hætta við
+
 display-name-update-error-2 = Vandamál kom upp við að uppfæra birtingarnafnið þitt
+
 display-name-success-alert-2 = Birtingarnafn uppfært
 
 ##
-
 
 # Account recovery key setup page
 
@@ -409,20 +424,25 @@ delete-account-link = Eyða reikningi
 ## Two Step Authentication
 
 tfa-title = Tveggja-þrepa auðkenning
+
 tfa-step-1-3 = Skref 1 af 3
 tfa-step-2-3 = Skref 2 af 3
 tfa-step-3-3 = Skref 3 af 3
+
 tfa-button-continue = Halda áfram
 tfa-button-cancel = Hætta við
 tfa-button-finish = Ljúka
+
 tfa-incorrect-totp = Rangur tveggja-þrepa auðkenningarkóði
 tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
 tfa-cannot-verify-code-4 = Vandamál kom upp við að staðfesta varaauðkenningarkóðann þinn
 tfa-incorrect-recovery-code-1 = Rangur varaauðkenningarkóði
 tfa-enabled = Tveggja-þrepa auðkenning virkjuð
+
 tfa-scan-this-code =
     Skannaðu þennan QR-kóða með því að nota eitt af 
     <linkExternal>þessum auðkenningarforritum</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -431,14 +451,17 @@ tfa-qa-code-alt = Notaðu kóðann { $secret } til að setja upp tveggja-þrepa 
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Geturðu ekki skannað kóða?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Settu þennan leynilykill inn í auðkenningarforritið þitt:
+
 tfa-enter-totp = Settu nú inn öryggiskóðann úr auðkenningarforritinu.
 tfa-input-enter-totp =
     .label = Settu inn öryggiskóða
 tfa-save-these-codes-1 =
     Geymdu þessa einnota varaauðkenningarkóða á öruggum stað til að geta notað þá 
     þegar þú ert ekki með snjalltækið þitt við hendina.
+
 tfa-enter-code-to-confirm-1 =
     Settu núna inn einn af varaauðkenningarkóðunum þínum til að
     staðfesta að þú hafir vistað hann. Þú þarft kóða til að skrá þig inn ef þú hefur ekki aðgang að snjalltækinu þínu.
@@ -446,7 +469,6 @@ tfa-enter-recovery-code-1 =
     .label = Settu inn varaauðkenningarkóða
 
 ##
-
 
 ## Profile section
 
@@ -459,7 +481,6 @@ profile-primary-email =
     .header = Aðaltölvupóstfang
 
 ##
-
 
 ## Security section of Setting
 
@@ -551,7 +572,6 @@ se-secondary-email-none = Ekkert
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Tveggja-þrepa auðkenning
@@ -560,6 +580,7 @@ tfa-row-enabled = Virkjað
 tfa-row-not-set = Ekki stillt
 tfa-row-action-add = Bæta við
 tfa-row-action-disable = Gera óvirkt
+
 tfa-row-button-refresh =
     .title = Endurnýja tveggja-þrepa auðkenningu
 tfa-row-cannot-refresh =
@@ -569,12 +590,14 @@ tfa-row-content-explain =
     Komdu í veg fyrir að einhver annar skrái sig inn með því að krefjast
     einstaks kóða sem aðeins þú hefur aðgang að.
 tfa-row-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
+
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
 tfa-row-disable-modal-explain-1 =
     Þú munt ekki geta afturkallað þessa aðgerð. Þú hefur
     einnig möguleika á að <linkExternal>skipta um varaauðkenningarkóðana þína</linkExternal>.
 tfa-row-cannot-disable-2 = Ekki var hægt að gera tveggja-þrepa auðkenningu óvirka
+
 tfa-row-change-modal-heading-1 = Skipta um varaauðkenningarkóða?
 tfa-row-change-modal-confirm = Breyta
 tfa-row-change-modal-explain = Þú munt ekki geta afturkallað þessa aðgerð.

@@ -2,11 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Alert Bar
-
-alert-bar-close-message = Lukk melding
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -39,20 +34,11 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts }
-app-footer-mozilla-logo-label = { -brand-mozilla }-logo
-app-footer-privacy-notice = Nettstedets personvernbestemmelser
-app-footer-terms-of-service = Tjenestevilkår
+## Alert Bar
 
-##
-
+alert-bar-close-message = Lukk melding
 
 ## User's avatar
 
@@ -62,7 +48,6 @@ avatar-default-avatar =
     .alt = Standardavatar
 
 ##
-
 
 # BentoMenu component
 
@@ -79,6 +64,7 @@ connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
 connect-another-find-fx-mobile =
     Finn { -brand-firefox } på { -google-play } og { -app-store } eller
     <br /><linkExternal>send en nedlastingslenke til enheten.</linkExternal>
+
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -88,15 +74,17 @@ connect-another-app-store-image-2 =
 
 ##
 
-
 ## Connected services section
 
 cs-heading = Tilknyttede tjenester
 cs-description = Alt du bruker og er innlogget på.
+
 cs-refresh-button =
     .title = Oppdater tilkoblede tjenester
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manglende eller duplikatelement?
+
 cs-disconnect-sync-heading = Koble fra Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -104,7 +92,6 @@ cs-disconnect-sync-heading = Koble fra Sync
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -121,12 +108,12 @@ cs-disconnect-sync-opt-not-say = Vil helst ikke fortelle
 cs-disconnect-advice-confirm = Ok, jeg forstår
 cs-disconnect-lost-advice-heading = Tapt eller stjålet enhet frakoblet
 cs-disconnect-suspicious-advice-heading = Mistenkelig enhet frakoblet
+
 cs-sign-out-button = Logg ut
 
 ##
 
-
-## Tooltip notifications for actions performed on recovery keys or one-time use codes
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
     .message = Lastet ned
@@ -149,9 +136,8 @@ drop-down-menu-sign-out = Logg ut
 
 flow-container-back = Tilbake
 
-# GetDataTrio component, part of Recovery Key flow
+# GetDataTrio component, part of Account Recovery Key flow
 
-get-data-trio-title = Gjenopprettingskoder
 get-data-trio-copy =
     .title = Kopier
 get-data-trio-print =
@@ -171,6 +157,7 @@ input-password-hide = Skjul passord
 input-password-show = Vis passord
 input-password-hide-aria = Skjul passord fra skjermen.
 
+
 ## Linked Accounts section
 
 la-heading = Tilknyttede kontoer
@@ -185,9 +172,7 @@ modal-cancel-button = Avbryt
 
 ## Modal Verify Session
 
-mvs-verify-your-email = Bekreft e-postadressen din
 msv-cancel-button = Avbryt
-msv-submit-button = Bekreft
 
 ## Settings Nav
 
@@ -197,7 +182,7 @@ nav-security = Sikkerhet
 nav-connected-services = Tilknyttede tjenester
 nav-data-collection = Datainnsamling og -bruk
 
-## Two Step Authentication - replace recovery code
+## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-1-2 = Trinn 1 av 2
 tfa-replace-code-2-2 = Trinn 2 av 2
@@ -227,14 +212,15 @@ avatar-page-rotate-button =
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Endre passord
+
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Lagre
 pw-change-forgot-password-link = Glemt passord?
+
 pw-change-current-password =
     .label = Skriv inn nåværende passord
 pw-change-new-password =
@@ -244,27 +230,28 @@ pw-change-confirm-password =
 
 ##
 
-
 ## Password create page
 
-
 ##
-
 
 ## Delete account page
 
 delete-account-header =
     .title = Slett konto
+
 delete-account-step-1-2 = Trinn 1 av 2
 delete-account-step-2-2 = Trinn 2 av 2
+
+
 delete-account-continue-button = Fortsett
+
 delete-account-password-input =
     .label = Skriv inn passord
+
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Slett
 
 ##
-
 
 ## Display name page
 
@@ -273,8 +260,7 @@ cancel-display-name = Avbryt
 
 ##
 
-
-# Recovery key setup page
+# Account recovery key setup page
 
 recovery-key-cancel-button = Avbryt
 recovery-key-close-button = Lukk
@@ -287,42 +273,29 @@ add-secondary-email-step-1 = Trinn 1 av 2
 
 ## Verify secondary email page
 
-
 ##
-
 
 ## Two Step Authentication
 
-
 ##
-
 
 ## Profile section
 
-
 ##
-
 
 ## Security section of Setting
 
-
 ## Switch component
-
 
 ## Sub-section row Defaults
 
-
-## Recovery key sub-section on main Settings page
-
+## Account recovery key sub-section on main Settings page
 
 ## Secondary email sub-section on main Settings page
 
-
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
-
 
 ## Auth-server based errors that originate from backend service
 

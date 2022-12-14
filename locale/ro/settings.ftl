@@ -2,11 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Alert Bar
-
-alert-bar-close-message = Închide mesajul
-
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -70,20 +65,11 @@ product-firefox-monitor = Firefox Monitor
 -google-play = Google Play
 -app-store = App Store
 
-##  Application page title and footer
+## Ready component
 
-app-default-title = { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }
-# This string is used as the title of the page.
-# Variables:
-#   $title (String) - the name of the current page
-#                      (for example: "Two-step authentication")
-app-page-title = { $title } | { -product-firefox-accounts(case: "indefinite-article", capitalization: "upper") }
-app-footer-mozilla-logo-label = Sigla { -brand-mozilla }
-app-footer-privacy-notice = Notificare privind confidențialitatea site-ului web
-app-footer-terms-of-service = Termenii de utilizare a serviciului
+## Alert Bar
 
-##
-
+alert-bar-close-message = Închide mesajul
 
 ## User's avatar
 
@@ -94,16 +80,17 @@ avatar-default-avatar =
 
 ##
 
-
 # BentoMenu component
 
 bento-menu-title = Meniu bento { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } este tehnologia care luptă pentru confidențialitatea ta online.
+
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-desktop = Browserul { -brand-firefox } pentru desktop
 bento-menu-firefox-mobile = Browserul { -brand-firefox } pentru dispozitiv mobil
+
 bento-menu-made-by-mozilla = Realizat de { -brand-mozilla }
 
 ## Connect another device promo
@@ -112,7 +99,6 @@ connect-another-fx-mobile = Obține { -brand-firefox } pe dispozitivul mobil sau
 
 ##
 
-
 ## Connected services section
 
 cs-heading = Servicii conectate
@@ -120,10 +106,13 @@ cs-description = Tot ce folosești și în care ești autentificat.
 cs-cannot-refresh =
     Ne pare rău, a apărut o problemă la actualizarea listei de servicii
     conectate.
+
 cs-refresh-button =
     .title = Reîmprospătează serviciile conectate
+
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Obiecte lipsă sau duplicate?
+
 cs-disconnect-sync-heading = Deconectare de la Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -131,7 +120,6 @@ cs-disconnect-sync-heading = Deconectare de la Sync
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -146,13 +134,12 @@ cs-disconnect-sync-opt-not-say = Prefer să nu spun
 ##
 
 cs-disconnect-advice-confirm = OK, am înțeles
+
 cs-sign-out-button = Deconectează-te
 
 ##
 
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
-
 
 ## Data collection section
 
@@ -193,8 +180,8 @@ input-password-hide = Ascunde parola
 input-password-show = Afișează parola
 input-password-hide-aria = Ascunde parola de pe ecran.
 
-## Linked Accounts section
 
+## Linked Accounts section
 
 ## Modal
 
@@ -245,16 +232,17 @@ avatar-page-new-avatar =
 
 ##
 
-
 ## Password change page
 
 pw-change-header =
     .title = Schimbă parola
+
 pw-8-chars = Cel puțin 8 caractere
 pw-change-must-match = Noua parolă să se potrivească cu confirmarea
 pw-change-cancel-button = Anulează
 pw-change-save-button = Salvează
 pw-change-forgot-password-link = Ți-ai uitat parola?
+
 pw-change-current-password =
     .label = Introdu parola actuală
 pw-change-new-password =
@@ -264,48 +252,53 @@ pw-change-confirm-password =
 
 ##
 
-
 ## Password create page
 
 pw-create-success-alert-2 = Parolă setată
 
 ##
 
-
 ## Delete account page
 
 delete-account-header =
     .title = Șterge contul
+
 delete-account-step-1-2 = Pasul 1 din 2
 delete-account-step-2-2 = Pasul 2 din 2
+
 delete-account-confirm-title-2 = Ai conectat { -product-firefox-account(case: "definite-article") } la produsele { -brand-mozilla } care îți asigură siguranța și productivitatea pe web:
+
 delete-account-acknowledge = Te rugăm să iei la cunoștință că prin ștergerea contului:
+
 delete-account-chk-box-2 =
     .label = Este posibil să pierzi informațiile și funcțiile salvate în cadrul produselor { -brand-mozilla }
 delete-account-chk-box-3 =
     .label = Reactivarea cu acest e-mail este posibil să nu îți restabilească informațiile salvate
 delete-account-chk-box-4 =
     .label = Orice extensie și temă pe care le-ai publicat pe addons.mozilla.org vor fi șterse
+
+
 delete-account-continue-button = Continuă
+
 delete-account-password-input =
     .label = Introdu parola
+
 delete-account-cancel-button = Anulează
 delete-account-delete-button-2 = Șterge
 
 ##
 
-
 ## Display name page
 
 display-name-page-title =
     .title = Nume afișat
+
 display-name-input =
     .label = Introdu numele afișat
 submit-display-name = Salvează
 cancel-display-name = Anulează
 
 ##
-
 
 # Account recovery key setup page
 
@@ -343,18 +336,23 @@ delete-account-link = Șterge contul
 ## Two Step Authentication
 
 tfa-title = Autentificare în doi pași
+
 tfa-step-1-3 = Pasul 1 din 3
 tfa-step-2-3 = Pasul 2 din 3
 tfa-step-3-3 = Pasul 3 din 3
+
 tfa-button-continue = Continuă
 tfa-button-cancel = Anulează
 tfa-button-finish = Finalizează
+
 tfa-incorrect-totp = Cod de autentificare în doi pași incorect
 tfa-cannot-retrieve-code = A apărut o problemă la recuperarea codului.
 tfa-enabled = Autentificare în doi pași activată
+
 tfa-scan-this-code =
     Scanează acest cod QR folosind unul dintre <linkExternal>aceste
     aplicații de autentificare</linkExternal>.
+
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -363,14 +361,15 @@ tfa-qa-code-alt =
     Folosește codul { $secret } pentru a configura autentificarea în doi pași
     în aplicațiile suportate.
 tfa-button-cant-scan-qr = Nu poți scana codul?
+
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Introdu această cheie secretă în aplicația de autentificare:
+
 tfa-enter-totp = Acum introdu codul de securitate din aplicația de autentificare.
 tfa-input-enter-totp =
     .label = Introdu codul de securitate
 
 ##
-
 
 ## Profile section
 
@@ -383,7 +382,6 @@ profile-primary-email =
     .header = E-mail principal
 
 ##
-
 
 ## Security section of Setting
 
@@ -417,7 +415,6 @@ rk-action-remove = Elimină
 rk-cannot-refresh-1 = Ne pare rău, a apărut o problemă la reîmprospătarea cheii de recuperare a contului.
 rk-refresh-key-1 = Reîmprospătează cheia de recuperare a contului
 rk-content-explain = Restaurează-ți informațiile când uiți parola.
-rk-content-reset-data = De ce resetarea parolei îmi resetează datele?
 rk-refresh-error-1 = Ne pare rău, a apărut o problemă la reîmprospătarea cheii de recuperare a contului.
 
 ## Secondary email sub-section on main Settings page
@@ -436,13 +433,13 @@ se-secondary-email-none = Niciunul
 
 ##
 
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autentificare în doi pași
 tfa-row-not-set = Nu este setată
 tfa-row-action-add = Adaugă
 tfa-row-action-disable = Dezactivează
+
 tfa-row-button-refresh =
     .title = Reîmprospătează autentificarea în doi pași
 tfa-row-cannot-refresh =
@@ -451,8 +448,10 @@ tfa-row-cannot-refresh =
 tfa-row-content-explain =
     Împiedică pe altcineva să se autentifice solicitând un
     cod unic la care numai tu ai acces.
+
 tfa-row-disable-modal-heading = Dezactivezi autentificarea în doi pași?
 tfa-row-disable-modal-confirm = Dezactivează
+
 tfa-row-change-modal-confirm = Modifică
 tfa-row-change-modal-explain = Nu vei putea anula această acțiune.
 
