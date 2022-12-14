@@ -195,6 +195,7 @@ cadReminderFirst-action = Sinhroniziraj drugo napravo
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Za sinhronizacijo sta potrebna dva
+cadReminderFirst-description-1 = Imejte svoje zavihke na vseh svojih napravah. Uporabljajte zaznamke, gesla in druge podatke povsod, kjer uporabljate { -brand-firefox }. { -brand-firefox } Račun je kot čarovnija!
 cadReminderFirst-description-2 = Sinhronizacija vzame le sekundo.
 cadReminderSecond-subject-2 = Ne zamudite dogajanja! Končajmo nastavitev sinhronizacije
 cadReminderSecond-action = Sinhroniziraj drugo napravo
