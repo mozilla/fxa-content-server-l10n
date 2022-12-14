@@ -344,6 +344,7 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Preglejte spremembo
 sub-change-failed = Sprememba načrta ni uspela
+sub-update-copy = Vaš paket se bo spremenil takoj in za preostanek obračunskega obdobja vam bomo zaračunali prilagojen znesek. Od { $startingDate } naprej vam bomo zaračunali celoten znesek.
 sub-change-submit = Potrdite spremembo
 sub-update-current-plan-label = Trenutni načrt
 sub-update-new-plan-label = Nov načrt
@@ -357,6 +358,7 @@ sub-item-stay-sub = Ostanite naročnik
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-cancel-msg = Od zadnjega dne vašega obračunskega obdobja naprej ({ $period }) ne boste mogli več uporabljati izdelka { $name }.
 sub-item-cancel-confirm =
     Prekliči moj dostop in shranjene podatke v storitvi
     { $name } z dnem { $period }
