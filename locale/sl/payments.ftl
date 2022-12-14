@@ -156,6 +156,8 @@ payment-error-manage-subscription-button = Upravljaj z naročnino
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Ste že naročeni na { $productName } v trgovinah z aplikacijami { -brand-name-google } ali { -brand-name-apple }.
 iap-upgrade-no-bundle-support = Za te naročnine ne podpiramo nadgradenj, vendar jih bomo kmalu.
 iap-upgrade-contact-support = Ta izdelek je še vedno na voljo – obrnite se na podporo, da vam lahko pomagamo.
 iap-upgrade-get-help-button = Poišči pomoč
@@ -230,6 +232,9 @@ terms-download = Pogoji prenosa
 
 document =
     .title = Firefox Računi
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Zapri modalno okno
 settings-subscriptions-title = Naročnine
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Promocijska koda
@@ -275,6 +280,8 @@ plan-price-year =
 # App error dialog
 general-error-heading = Splošna napaka aplikacije
 basic-error-message = Prišlo je do napake. Poskusite znova pozneje.
+payment-error-1 = Hmm. Pri avtorizaciji vašega plačila je prišlo do težave. Poskusite znova ali se obrnite na izdajatelja kartice.
+payment-error-2 = Hmm. Pri avtorizaciji vašega plačila je prišlo do težave. Obrnite se na izdajatelja kartice.
 payment-error-3b = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
 expired-card-error = Videti je, da se je vaši kreditni kartici iztekla veljavnost. Poskusite z drugo kartico.
 insufficient-funds-error = Videti je, da na vaši kartici ni dovolj sredstev. Poskusite z drugo kartico.
@@ -286,8 +293,11 @@ coupon-expired = Videti je, da je promocijska koda potekla.
 card-error = Vaše transakcije ni bilo mogoče obdelati. Preverite podatke o svoji kreditni kartici in poskusite znova.
 country-currency-mismatch = Valuta te naročnine ni veljavna za državo, povezano z vašim plačilom.
 currency-currency-mismatch = Oprostite. Med valutami ne morete preklapljati.
+no-subscription-change = Oprostite. Naročniškega paketa ni mogoče spremeniti.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Že ste naročeni preko { $mobileAppStore }.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Vaša prijava v { $productName } je bila neuspešna zaradi sistemske napake. Vašega plačilnega sredstva nismo bremenili. Poskusite znova.
 fxa-post-passwordless-sub-error = Naročnina je potrjena, vendar se stran za potrditev ni naložila. Preverite svojo e-pošto in nastavite račun.
 newsletter-signup-error = Niste naročeni na e-poštna obvestila o posodobitvah izdelkov. Poskusite lahko znova v nastavitvah računa.
 product-plan-error =
@@ -300,6 +310,9 @@ product-plan-not-found = Načrta ni mogoče najti
 
 ## Hooks - coupons
 
+coupon-success = Vaš paket se bo samodejno podaljšal po maloprodajni ceni.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Vaš paket se bo po { $couponDurationDate } samodejno obnovil po maloprodajni ceni.
 
 ## Routes - Checkout - New user
 
