@@ -442,6 +442,13 @@ subscriptionCancellation-title = Ledsen att se dig sluta
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Vi har sagt upp din prenumeration på { $productName }. Din sista betalning på { $invoiceTotal } betalades den { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Vi har sagt upp din prenumeration på { $productName }. Din slutbetalning på { $invoiceTotal } kommer att betalas den { $invoiceDateOnly }.
+
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Din tjänst kommer att fortsätta till slutet av din nuvarande faktureringsperiod, som är { $serviceLastActiveDateOnly }.
+
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Du har bytt till { $productName }

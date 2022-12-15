@@ -36,6 +36,13 @@ product-firefox-relay = Firefox Relay
 
 ## Ready component
 
+ready-confirmation = Ditt lösenord har återställts
+# This is a string that tells the user they can use whatever service prompted them to reset their password
+# Variables:
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Du kan nu använda { $serviceName }
+ready-continue = Fortsätt
+
 ## Alert Bar
 
 alert-bar-close-message = Stäng meddelande

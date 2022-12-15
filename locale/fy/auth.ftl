@@ -442,6 +442,13 @@ subscriptionCancellation-title = Spitich dat jo ôfsette
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Wy hawwe jo { $productName }-abonnemint annulearre. Jo lêste betelling fan { $invoiceTotal } is betelle op { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Wy hawwe jo { $productName }-abonnemint annulearre. Jo lêste betelling fan { $invoiceTotal } wurdt betelle op { $invoiceDateOnly }.
+
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Jo tsjinst sil trochgean oant it ein fan jo aktuele fakturearringperioade, dat is { $serviceLastActiveDateOnly }.
+
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Jo binne oerskeakele nei { $productName }
