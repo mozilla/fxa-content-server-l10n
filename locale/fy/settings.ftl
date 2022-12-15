@@ -36,6 +36,13 @@ product-firefox-relay = Firefox Relay
 
 ## Ready component
 
+ready-confirmation = Jo wachtwurd is opnij ynsteld
+# This is a string that tells the user they can use whatever service prompted them to reset their password
+# Variables:
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Jo kinne { $serviceName } no brûke
+ready-continue = Trochgean
+
 ## Alert Bar
 
 alert-bar-close-message = Berjocht slute
