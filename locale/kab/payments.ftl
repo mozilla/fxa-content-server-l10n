@@ -73,6 +73,8 @@ new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nern
 new-user-email-validate = Imayl-a d arameɣtu
 new-user-email-validate-confirm = Ur mṣadan ara yimaylen-a
 new-user-already-has-account-sign-in = Tesɛiḍ yakan amiḍan. <a>Qqen</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Imayl d arameɣtu? { $domain } ur d-yettak ara imayl.
 
 ## Component - PaymentConfirmation
 

@@ -227,6 +227,9 @@ postRemoveSecondary-title = Imay wis sin ittwakkes
 postRemoveSecondary-description = Tekkseḍ akken iwata { $secondaryEmail } imayl-ik asnawan seg umiḍan-ik { -product-firefox-account }. Ilɣa n tɣellistakked isentam n tuqqna ur d-ttwaznan ara ar tensa-agi imayl.
 postRemoveSecondary-action = Sefrek amiḍan
 postRemoveTwoStepAuthentication-subject-line-2 = Asesteb s snat n tarrayin yensa
+postRemoveTwoStepAuthentication-title-2 = Tessenseḍ asesteb s snat tarrayin
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Tessenseḍ-t seg:
 postRemoveTwoStepAuthentication-action = Sefrek amiḍan
 postVerify-title-2 = Tebɣiḍ kifkif iccer ara twaliḍ ɣef sin yibenkan?
 postVerify-subject-3 = Ansuf γer { -brand-firefox }!
