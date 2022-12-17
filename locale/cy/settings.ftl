@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -40,7 +41,7 @@ ready-confirmation = Mae eich cyfrinair wedi ei ailosod
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
 # $serviceName (String) - the service which caused the user to reset their password
-ready-use-service = Rydych nawr yn barod i ddefnyddio %(serviceName)s
+ready-use-service = Rydych nawr yn barod i ddefnyddio { $serviceName }
 ready-continue = Parhau
 
 ## Alert Bar
@@ -56,18 +57,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = Dewislen Bento { -brand-firefox }
 bento-menu-firefox-title = Mae { -brand-firefox } yn dechnoleg sy'n brwydro dros eich preifatrwydd ar-lein.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Porwr { -brand-firefox } ar gyfer y Bwrdd Gwaith
 bento-menu-firefox-mobile = Porwr { -brand-firefox } ar gyfer Symudol
-
 bento-menu-made-by-mozilla = Gwnaed gan { -brand-mozilla }
 
 ## Connect another device promo
@@ -76,7 +76,6 @@ connect-another-fx-mobile = Cael { -brand-firefox } ar ffôn symudol neu dabled
 connect-another-find-fx-mobile =
     Canfod { -brand-firefox } yn y { -google-play } a { -app-store } neu
     <br /><linkExternal> anfon dolen llwytho i lawr i'ch dyfais. </linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -85,6 +84,7 @@ connect-another-app-store-image-2 =
     .title = Llwytho { -brand-firefox } i lawr ar yr { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -97,13 +97,10 @@ cs-cannot-disconnect = Cleient heb ei ddarganfod, yn methu â datgysylltu
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Wedi allgofnodi o { $service }.
-
 cs-refresh-button =
     .title = Adnewyddu gwasanaethau cysylltiedig
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Eitemau coll neu ddyblyg?
-
 cs-disconnect-sync-heading = Datgysylltu o Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -142,10 +139,10 @@ cs-disconnect-suspicious-advice-content =
     yn amheus, er mwyn cadw'ch manylion yn ddiogel, dylech newid cyfrinair eich { -product-firefox-account }
     yng ngosodiadau eich cyfrif. Dylech hefyd newid unrhyw gyfrinair arall
     a gadwyd gennych yn { -brand-firefox } trwy deipio about:logins i'r bar cyfeiriad.
-
 cs-sign-out-button = Allgofnodi
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -174,7 +171,6 @@ drop-down-menu-title = Dewislen { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Mewngofnodwyd fel </signin><user>{ $user }</user>
 drop-down-menu-sign-out = Allgofnodi
-
 drop-down-menu-sign-out-error-2 = Ymddiheuriadau, bu anhawster wrth i chi allgofnodi.
 
 ## Flow Container
@@ -208,7 +204,6 @@ input-password-hide = Cuddio cyfrinair
 input-password-show = Dangos cyfrinair
 input-password-hide-aria = Cuddio cyfrinair o'r sgrin.
 input-password-show-aria = Dangos cyfrinair fel testun plaen. Bydd eich cyfrinair i'w weld ar y sgrin.
-
 
 ## Linked Accounts section
 
@@ -289,11 +284,11 @@ avatar-page-image-too-large-error-2 = Mae'r ffeil delwedd yn rhy fawr i'w llwyth
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Newid Cyfrinair
-
 pw-8-chars = O leiaf 8 nod
 pw-not-email = Nid eich cyfeiriad e-bost
 pw-change-must-match = Mae cyfrinair newydd yn cyd-fynd â'r cadarnhad
@@ -303,40 +298,35 @@ pw-tips = Cadwch yn ddiogel - peidiwch ag ailddefnyddio cyfrineiriau. Dyma ragor
 pw-change-cancel-button = Diddymu
 pw-change-save-button = Cadw
 pw-change-forgot-password-link = Wedi anghofio'r cyfrinair?
-
 pw-change-current-password =
     .label = Rhowch eich cyfrinair cyfredol
 pw-change-new-password =
     .label = Rhowch gyfrinair newydd
 pw-change-confirm-password =
     .label = Cadarnhau'r cyfrinair newydd
-
 pw-change-success-alert-2 = Diweddarwyd y cyfrinair
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Crëwch gyfrinair
-
 pw-create-success-alert-2 = Gosodwyd y cyfrinair
 pw-create-error-2 = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Dileu Cyfrif
-
 delete-account-step-1-2 = Cam 1 o 2
 delete-account-step-2-2 = Cam 2 o 2
-
 delete-account-confirm-title-2 = Rydych wedi cysylltu'ch { -product-firefox-account } â chynnyrch { -brand-mozilla } sy'n eich cadw'n ddiogel ac yn gynhyrchiol ar y we:
-
 delete-account-acknowledge = Cydnabyddwch hynny trwy ddileu eich cyfrif:
-
 delete-account-chk-box-1-v2 =
     .label = Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu( Ac eithrio { product-pocket })
 delete-account-chk-box-2 =
@@ -345,33 +335,28 @@ delete-account-chk-box-3 =
     .label = Efallai na fydd ail gychwyn gyda'r e-bost hwn yn adfer eich manylion a gadwyd
 delete-account-chk-box-4 =
     .label = Bydd unrhyw estyniadau a themâu rydych wedi'u cyhoeddi yn addons.mozilla.org yn cael eu dileu
-
-
 delete-account-continue-button = Parhau
-
 delete-account-password-input =
     .label = Rhowch gyfrinair
-
 delete-account-cancel-button = Diddymu
 delete-account-delete-button-2 = Dileu
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Enw dangos
-
 display-name-input =
     .label = Rhowch enw dangos
 submit-display-name = Cadw
 cancel-display-name = Diddymu
-
 display-name-update-error-2 = Bu anhawster wrth ddiweddaru eich enw dangos
-
 display-name-success-alert-2 = Diweddarwyd yr enw dangos
 
 ##
+
 
 # Account recovery key setup page
 
@@ -425,25 +410,20 @@ delete-account-link = Dileu Cyfrif
 ## Two Step Authentication
 
 tfa-title = Dilysu Dau Gam
-
 tfa-step-1-3 = Cam 1 o 2
 tfa-step-2-3 = Cam 1 o 2
 tfa-step-3-3 = Cam 3 o 3
-
 tfa-button-continue = Parhau
 tfa-button-cancel = Diddymu
 tfa-button-finish = Gorffen
-
 tfa-incorrect-totp = Cod dilysu dau gam annilys
 tfa-cannot-retrieve-code = Bu anhawster wrth adfer eich cod.
 tfa-cannot-verify-code-4 = Bu anhawster wrth gadarnhau eich cod dilysu wrth gefn
 tfa-incorrect-recovery-code-1 = Cod dilysu wrth gefn anghywir
 tfa-enabled = Mae dilysu dau gam wedi ei alluogi
-
 tfa-scan-this-code =
     Sganiwch y cod QR hwn gan ddefnyddio un o'r <linkExternal>
     apiau dilysu hyn</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -454,17 +434,14 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Methu sganio codau?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Rhowch yr allwedd gyfrinachol yma i'ch ap dilysu:
-
 tfa-enter-totp = Nawr nodwch y cod diogelwch o'r ap dilysu.
 tfa-input-enter-totp =
     .label = Rhowch y cod dilysu
 tfa-save-these-codes-1 =
     Cadwch y codau defnydd unwaith hyn mewn man diogel pan nad yw eich dyfais
     symudol gennych.
-
 tfa-enter-code-to-confirm-1 =
     Rhowch un o'ch codau dilysu wrth gefn nawr i cadarnhau eich
     bod wedi ei gadw. Bydd angen cod arnoch i fewngofnodi os nad oes gennych fynediad
@@ -473,6 +450,7 @@ tfa-enter-recovery-code-1 =
     .label = Rhowch god dilysu wrth gefn
 
 ##
+
 
 ## Profile section
 
@@ -485,6 +463,7 @@ profile-primary-email =
     .header = Prif e-bost
 
 ##
+
 
 ## Security section of Setting
 
@@ -574,6 +553,7 @@ se-secondary-email-none = Dim
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Dilysu dau gam
@@ -582,7 +562,6 @@ tfa-row-enabled = Galluogwyd
 tfa-row-not-set = Heb ei Osod
 tfa-row-action-add = Ychwanegu
 tfa-row-action-disable = Analluogi
-
 tfa-row-button-refresh =
     .title = Adnewyddu dilysu dau gam
 tfa-row-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r dilysu dau gam.
@@ -590,14 +569,12 @@ tfa-row-content-explain =
     Atal rhywun arall rhag mewngofnodi trwy fynnu
     cod unigryw dim ond chi sydd â mynediad iddo.
 tfa-row-cannot-verify-session-4 = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
-
 tfa-row-disable-modal-heading = Analluogi dilysu dau ffactor?
 tfa-row-disable-modal-confirm = Analluogi
 tfa-row-disable-modal-explain-1 =
     Fyddwch chi ddim yn gallu dadwneud y weithred hon.
     Mae gennych hefyd y dewis o <linkExternal>greu codau adfer wrth gefn newydd</linkExternal>.
 tfa-row-cannot-disable-2 = Nid oedd modd analluogi dilysu dau gam.
-
 tfa-row-change-modal-heading-1 = Newid codau dilysu wrth gefn?
 tfa-row-change-modal-confirm = Newid
 tfa-row-change-modal-explain = Fydd dim modd dadwneud y weithred hon.
