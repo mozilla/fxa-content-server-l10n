@@ -483,6 +483,8 @@ tfa-row-button-refresh =
 tfa-row-cannot-verify-session-4 = Кешіріңіз, сеансыңызды растау кезінде мәселе туындады
 tfa-row-disable-modal-heading = Екі қадамды аутентификацияны сөндіру керек пе?
 tfa-row-disable-modal-confirm = Сөндіру
+tfa-row-cannot-disable-2 = Екі қадамды аутентификацияны сөндіру мүмкін емес
+tfa-row-change-modal-heading-1 = Қор көшірме аутентификация кодтарын ауыстыру керек пе?
 tfa-row-change-modal-confirm = Өзгерту
 tfa-row-change-modal-explain = Бұл әрекетті кері қайтара алмайсыз.
 

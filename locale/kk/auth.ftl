@@ -46,6 +46,12 @@ subplat-legal = Құқықтық ақпарат
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Жекелік
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } өнімін { -google-play } ішінен жүктеп алу">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } өнімін { -app-store } ішінен жүктеп алу">
 cancellationSurvey = Осы <a data-l10n-name="cancellationSurveyUrl">қысқа сауалнамаға</a> қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Осы қысқа сауалнамаға қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз:
