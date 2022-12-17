@@ -449,6 +449,7 @@ se-heading = Екіншілік эл. пошта адресі
 se-delete-email-successful-2 = { $email } сәтті өшірілді
 se-delete-email-error-2 = Осы эл. поштаны өшіру кезінде мәселе орын алды
 se-verify-session-3 = Бұл әрекетті орындау үшін сізге ағымдағы сеансты растау қажет
+se-verify-session-error-3 = Кешіріңіз, сеансыңызды растау кезінде мәселе туындады
 # Button to remove the secondary email
 se-remove-email =
     .title = Эл. поштаны өшіру
