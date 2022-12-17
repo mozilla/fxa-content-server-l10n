@@ -446,6 +446,11 @@ se-heading = Екіншілік эл. пошта адресі
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } енді сіздің негізгі электрондық поштаңыз
+se-set-primary-error-2 = Кешіріңіз, біріншілік электрондық поштаңызды өзгерту кезінде мәселе орын алды
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } сәтті өшірілді
 se-delete-email-error-2 = Осы эл. поштаны өшіру кезінде мәселе орын алды
 se-verify-session-3 = Бұл әрекетті орындау үшін сізге ағымдағы сеансты растау қажет
@@ -475,6 +480,7 @@ tfa-row-action-add = Қосу
 tfa-row-action-disable = Сөндіру
 tfa-row-button-refresh =
     .title = Екі қадамды аутентификацияны жаңарту
+tfa-row-cannot-verify-session-4 = Кешіріңіз, сеансыңызды растау кезінде мәселе туындады
 tfa-row-disable-modal-heading = Екі қадамды аутентификацияны сөндіру керек пе?
 tfa-row-disable-modal-confirm = Сөндіру
 tfa-row-change-modal-confirm = Өзгерту
