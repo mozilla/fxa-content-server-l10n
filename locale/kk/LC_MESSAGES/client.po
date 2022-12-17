@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-17 11:11+0000\n"
+"PO-Revision-Date: 2022-12-17 11:13+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1627,7 +1627,7 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Жүйеге кіру туралы push-хабарландыруын жіберу"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
@@ -1717,7 +1717,7 @@ msgstr "Кіріс жәшігінде келесілер туралы практ
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "%(email)s жазылу"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
@@ -1729,7 +1729,7 @@ msgstr "Firefox тіркелгісін жасау"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:5
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "%(productName)s ішіне жалғастыру"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Enter a password"
@@ -1766,7 +1766,7 @@ msgstr "Firefox-ты құрылғылар арасында синхрондау"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "Мобильді құрылғыларыңызда бетбелгілер, тарих және парольдерді Firefox көмегімен синхрондаңыз. Бұл бірнеше минутты алады."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3 .es5/templates/pair/index.mustache:12
 msgid "Get started"
@@ -1774,7 +1774,7 @@ msgstr "Бастау"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "Мен мұны кейінірек жасаймын, маған еске салғыш жіберіңіз"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
