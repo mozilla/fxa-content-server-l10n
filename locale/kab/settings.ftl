@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -36,6 +37,13 @@ product-firefox-relay = Firefox Relay
 
 ## Ready component
 
+ready-confirmation = Awla inek uffir yettuwennez
+# This is a string that tells the user they can use whatever service prompted them to reset their password
+# Variables:
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Aqla-k tura twejdeḍ i useqdec n { $serviceName }
+ready-continue = Kemmel
+
 ## Alert Bar
 
 alert-bar-close-message = Mdel izen
@@ -49,18 +57,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = Umuɣ Bento n { -brand-firefox }
 bento-menu-firefox-title = { -brand-firefox } d tatiknulijit yettennaɣen ɣef tbaḍnit-ik srid.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Iminig { -brand-firefox } i tnarit
 bento-menu-firefox-mobile = Iminig { -brand-firefox } i uziraz
-
 bento-menu-made-by-mozilla = Texdem-it { -brand-mozilla }
 
 ## Connect another device promo
@@ -69,7 +76,6 @@ connect-another-fx-mobile = Awi { -brand-firefox } uziraz akked tfelwit n uselki
 connect-another-find-fx-mobile =
     Af-d { -brand-firefox } deg { -google-play } akked { -app-store } neɣ
     <br /><linkExternal>azen aseɣwen n usadar ɣer yibenk-ik·im.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -78,6 +84,7 @@ connect-another-app-store-image-2 =
     .title = Sader-d { -brand-firefox } seg { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -92,13 +99,10 @@ cs-cannot-disconnect = Ur yettwaf ara umsaɣ, d awezɣi ad teffɣeḍ seg tuqqna
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Tuffɣa n { $service }
-
 cs-refresh-button =
     .title = Smiren ibenan yeqqnen
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Iferdisen ttwakksen neɣ d usligen?
-
 cs-disconnect-sync-heading = Ffeɣ seg Syn
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -135,10 +139,10 @@ cs-disconnect-suspicious-advice-content =
     deg-s ccekk, akken ad tḥerzeḍ tilɣa-k•m, ilaq ad tbeddleḍ { -product-firefox-account }
     awal-ik•im uffir deg yiɣewwaren n umiḍan-ik•im. Ilaq daɣen ad tbeddleḍ kra n
     wawal uffir i teskelseḍ deg { -brand-firefox } s tira n about:logins into the address bar.
-
 cs-sign-out-button = Ffeɣ
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -167,7 +171,6 @@ drop-down-menu-title = Umuɣ { -product-firefox-account }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Yeqqen am</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Ffeɣ
-
 drop-down-menu-sign-out-error-2 = Suref-aɣ, yella-d wugur mi tetteffɣeḍ seg tuqqna
 
 ## Flow Container
@@ -176,6 +179,9 @@ flow-container-back = Uɣal ɣer deffir
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Tasarut n tririt n umiḍan n { -brand-firefox }
+get-data-trio-title-firefox-backup-verification-codes = Tingalin n usesteb n uḥraz n { -brand-firefox }
 get-data-trio-download =
     .title = Sader
 get-data-trio-copy =
@@ -199,7 +205,6 @@ input-password-show = Sken awal uffir
 input-password-hide-aria = Ffer awal uffir deg ugdil.
 input-password-show-aria = Sken awal uffir am uḍris aččuran. Awal-ik·im uffir ad d-iban ɣef ugdil.
 
-
 ## Linked Accounts section
 
 la-heading = Imiḍanen yemcudden
@@ -218,6 +223,10 @@ modal-cancel-button = Sefsex
 
 mvs-verify-your-email-2 = Sentem imayl-inek·inem
 mvs-enter-verification-code-2 = Sekcem tangalt-ik·im n usentem
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Ttxil sekcem tangalt n usentem i yettwaznen ɣer <email>{ $email }</email> deg 5 n tesdatin.
 msv-cancel-button = Sefsex
 msv-submit-button-2 = Sentem
 
@@ -233,6 +242,7 @@ nav-email-comm = Taywalt s yimayl
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-success-alert-3 = Tingalin n usesteb n uḥraz n umiḍan ttwaleqqment
 tfa-replace-code-1-2 = Asurif 1 seg 2
 tfa-replace-code-2-2 = Asurif 2 seg 2
 
@@ -262,53 +272,51 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Ur izmir ara ad iwennez takamiṛat
 avatar-page-new-avatar =
     .alt = tugna n umaɣnu tamaynut
+avatar-page-file-upload-error-3 = Yella-d wugur deg usali n tugna n umaɣnu-inek·inem
+avatar-page-delete-error-3 = Yella-d wugur deg tukksa n tugna n umaɣnu-inek·inem
+avatar-page-image-too-large-error-2 = Teɣzi n ufaylu n tugniwin meqqer nezzeh i usali
 
 ##
+
 
 ## Password change page
 
 pw-change-header =
     .title = Beddel awal uffir
-
 pw-8-chars = Ma drus 8 yisekkilen
 pw-not-email = Mačči d tansa-k·m n yimayl
 pw-change-must-match = Awal uffir amaynut yemṣada d usentem
 pw-change-cancel-button = Sefsex
 pw-change-save-button = Sekles
 pw-change-forgot-password-link = Tettuḍ awal uffir?
-
 pw-change-current-password =
     .label = Sekcem awal uffir amiran
 pw-change-new-password =
     .label = Sekcem awal uffir amaynut
 pw-change-confirm-password =
     .label = Sentem awal uffir amaynut
-
 pw-change-success-alert-2 = Awal uffir yettuleqqem
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Rnu awal uffir
-
 pw-create-success-alert-2 = Awal uffir yettusbadu
 
 ##
+
 
 ## Delete account page
 
 delete-account-header =
     .title = Kkes amiḍan
-
 delete-account-step-1-2 = Asurif 1 seg 2
 delete-account-step-2-2 = Asurif 2 seg 2
-
 delete-account-confirm-title-2 = Teqqneḍ { -product-firefox-account }-inek•inem ɣer { -brand-mozilla } yifarisen ara k•kem-iḥerzen daɣen ara k•kem-yeǧǧen ad tesnerniḍ tiffursa-k•m deg web:
-
 delete-account-acknowledge = Ttxil ḥṣu dakken ma tekkseḍ amiḍan-ik•im:
-
 delete-account-chk-box-1-v2 =
     .label = Aerred akk n lexlaṣ i tesεiḍ ttwasfesxen (slid { product-pocket }{ product-pocket })
 delete-account-chk-box-2 =
@@ -317,41 +325,42 @@ delete-account-chk-box-3 =
     .label = Armad n umiḍan s tensa-a izmer ur d-yettarra ara talɣut-ik yettwaskelsen
 delete-account-chk-box-4 =
     .label = Akk isiɣzaf d yisental i d-tessufɣeḍ deg addons.mozilla.org ad ttwakksen
-
-
 delete-account-continue-button = Kemmel
-
 delete-account-password-input =
     .label = Sekcem awal uffir
-
 delete-account-cancel-button = Sefsex
 delete-account-delete-button-2 = Kkes
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Isem yettwaskanen
-
 display-name-input =
     .label = Sekcem isem yettwaskanen
 submit-display-name = Sekles
 cancel-display-name = Sefsex
-
+display-name-update-error-2 = Yella-d wugur deg uleqqem n yisem-ik·im yettwaskanen
 display-name-success-alert-2 = Isem n uskan yettusnifel
 
 ##
+
 
 # Account recovery key setup page
 
 recovery-key-cancel-button = Sefsex
 recovery-key-close-button = Mdel
 recovery-key-continue-button = Kemmel
+recovery-key-created-1 = Tasarut-ik·im n tririt n umiḍan tettwarna. Ḍmen teskelseḍ tasarut-a deg wadeg aɣellsan i tzemreḍ ad tafeḍ s sshala ticki — Tesriḍ tasarut-a i wakken ad d-terreḍ anekcum ɣer yisefka-inek·inem ma yella tettuḍ awal-ik·im uffir.
 recovery-key-enter-password =
     .label = Sekcem awal uffir
+recovery-key-page-title-1 =
+    .title = Tasarut n tririt n umiḍan
 recovery-key-step-1 = Asurif 1 seg 2
 recovery-key-step-2 = Asurif 2 seg 2
+recovery-key-success-alert-3 = Tasarut n tririt n umiḍan tettwarna
 
 ## Add secondary email page
 
@@ -367,6 +376,7 @@ add-secondary-email-save-button = Sekles
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Asurif 2 seg 2
+verify-secondary-email-error-3 = Yella-d wugur deg tuzzna n tengalt n usentem
 verify-secondary-email-page-title =
     .title = Imayl wis sin
 verify-secondary-email-verification-code-2 =
@@ -390,23 +400,19 @@ delete-account-link = Kkes amiḍan
 ## Two Step Authentication
 
 tfa-title = Asesteb s snat n tarrayin
-
 tfa-step-1-3 = Asurif 1 seg 3
 tfa-step-2-3 = Asurif 2 seg 3
 tfa-step-3-3 = Asurif 3 seg 3
-
 tfa-button-continue = Kemmel
 tfa-button-cancel = Sefsex
 tfa-button-finish = Fakk
-
 tfa-incorrect-totp = Tangalt n usesteb s snat n tarrayin d tarameɣtut
 tfa-cannot-retrieve-code = Yella wugur deg tririt n tengalt-ik·im.
+tfa-incorrect-recovery-code-1 = Tangalt n usesteb n uḥraz d tarameɣtut
 tfa-enabled = Asesteb s snat n tarrayin yermed
-
 tfa-scan-this-code =
     Smiḍen tangalt-a QR s useqdec n yiwen seg <linkExternal>
     yisnasen-a n usesteb</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -417,15 +423,19 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Ur tezmireḍ ara ad tesmiḍneḍ tangalt?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Sekcem tasarut-a tabaḍnit ɣer usnas-ik·im n usestab:
-
 tfa-enter-totp = Tura sekcem tangalt n tɣellist seg usnas n usesteb.
 tfa-input-enter-totp =
     .label = Sekcem tangalt n tɣellist
+tfa-save-these-codes-1 =
+    Sekles tingalin n usesteb n uḥraz n useqdec asuf deg umḍiq aɣelsan i wass ma yili
+    ur teḥwaǧeḍara ibenk-ik·im aziraz.
+tfa-enter-recovery-code-1 =
+    .label = Sekcem tangalt n usesteb n uḥraz
 
 ##
+
 
 ## Profile section
 
@@ -438,6 +448,7 @@ profile-primary-email =
     .header = Imayl amezwaru
 
 ##
+
 
 ## Security section of Setting
 
@@ -471,14 +482,22 @@ row-defaults-status = Ulac
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Tasarut n tririt n umiḍan
 rk-enabled = Yettwarmed
 rk-not-set = Ur ittusbadu ara
 rk-action-create = Rnu
 rk-action-remove = Kkes
+rk-cannot-refresh-1 = Suref-aɣ, yella-d wugur deg usmiren n tsarut n tririt n umiḍan.
 rk-key-removed-2 = Tasarutt n tririt n umiḍan tettwakkes
 rk-cannot-remove-key = Tasarut n tririt n umiḍan ulamek ad tettwakkes.
+rk-refresh-key-1 = Smiren tasarut n tririt n umiḍan
 rk-content-explain = Err-d tilɣa-inek•inem mi tettuḍ awal-ik•im uffir.
 rk-cannot-verify-session-4 = Suref-aɣ, yella-d wugur deg usentem n tɣimit-ik•im.
+rk-remove-modal-heading-1 = Kkes tasarut n tririt n umiḍan
+rk-remove-modal-content-1 =
+    Ma yella twennzeḍ awal-ik·im uffir, ur tettizmireḍ ara
+    ad tesqedceḍ tasarut-ik·im n tririt n umian i wakken ad tkecmeḍ ɣer yisefka-inek·inem. Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
+rk-refresh-error-1 = Suref-aɣ, yella-d wugur deg usmiren n tsarut n tririt n umiḍan.
 rk-remove-error-2 = Tasarut n tririt n umiḍan ulamek ad tettwakkes
 
 ## Secondary email sub-section on main Settings page
@@ -512,10 +531,14 @@ se-resend-code-2 =
 # Button to make secondary email the primary
 se-make-primary = Err tansa-a d tamezwarut
 se-default-content = Kcem ɣer umiḍan-ik•im ma ur tezmireḍ ara ad teqqneḍ ɣer yimayl-ik•im amezwaru.
+se-content-note-1 =
+    Tamawt: imayl wis sin ur d-yettarra ara talɣut-ik·im — tesriḍ
+    <a>tasarut n tririt n umidan</a> i waya.
 # Default value for the secondary email
 se-secondary-email-none = Ula yiwen
 
 ##
+
 
 ## Two Step Auth sub-section on Settings main page
 
@@ -525,7 +548,6 @@ tfa-row-enabled = Yettwarmed
 tfa-row-not-set = Ur yettusbadu ara
 tfa-row-action-add = Rnu
 tfa-row-action-disable = Sens
-
 tfa-row-button-refresh =
     .title = Smiren asesteb s snat n tarrayin
 tfa-row-cannot-refresh =
@@ -535,11 +557,13 @@ tfa-row-content-explain =
     Ur ttaǧǧa yiwen ad yeqqen, ssuter 
     tangalt tasuft i tzemreḍ ad tesqedceḍ kečč/kemm kan.
 tfa-row-cannot-verify-session-4 = Suref-aɣ, yella-d wugur deg usentem n tɣimit-ik•im.
-
 tfa-row-disable-modal-heading = Ad tessenseḍ asesteb s snat n tarrayin?
 tfa-row-disable-modal-confirm = Sens
+tfa-row-disable-modal-explain-1 =
+    Ur tzemmreḍ ara aṭas tesfesxeḍ tigawt-a. Daɣen
+    tesɛiḍ taxtirt n <linkExternal> usenkez n tengalin-ik•im n usesteb n uḥraz </linkExternal>.
 tfa-row-cannot-disable-2 = Asesteb s snat n tarrayin ulamek ad yens
-
+tfa-row-change-modal-heading-1 = Senfel tangalt n usesteb n uḥraz?
 tfa-row-change-modal-confirm = Senfel
 tfa-row-change-modal-explain = Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 
