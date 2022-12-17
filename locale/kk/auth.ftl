@@ -52,6 +52,27 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="{ $productName } өнімін { -app-store } ішінен жүктеп алу">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = { $productName } қолданбасын <a data-l10n-name="anotherDeviceLink">басқа жұмыс үстелі құрылғысына</a> орнату.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = { $productName } қолданбасын <a data-l10n-name="anotherDeviceLink">басқа құрылғыға</a> орнату.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = { $productName } өнімін Google Play ішінен алу:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = { $productName } өнімін App Store ішінен алу:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = { $productName } басқа құрылғыға орнату:
+automated-email-change-2 = Егер сіз бұл әрекетті жасамасаңыз, <a data-l10n-name="passwordChangeLink">пароліңізді дереу өзгертіңіз</a>.
+automated-email-support = Көбірек ақпарат алу үшін, <a data-l10n-name="supportLink">{ -brand-mozilla } қолдау сайтын</a> шолыңыз.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Егер сіз бұл әрекетті жасамасаңыз, пароліңізді дереу өзгертіңіз:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Көбірек ақпарат алу үшін, { -brand-mozilla } қолдау сайтын шолыңыз:
 cancellationSurvey = Осы <a data-l10n-name="cancellationSurveyUrl">қысқа сауалнамаға</a> қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Осы қысқа сауалнамаға қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз:
@@ -142,6 +163,8 @@ cadReminderFirst-action = Басқа құрылғыны синхрондау
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Синхрондау үшін екі құрылғы қажет
+cadReminderFirst-description-2 = Синхрондау үшін бар болғаны секунд қажет.
+cadReminderSecond-subject-2 = Жіберіп алмаңыз! Синхрондауды баптауды аяқтайық.
 cadReminderSecond-action = Басқа құрылғыны синхрондау
 cadReminderSecond-title-2 = Синхрондауды ұмытпаңыз!
 cadReminderSecond-description-sync = Бетбелгілер, парольдер, ашық беттер және т.б. синхрондаңыз — { -brand-firefox } пайдаланатын барлық жерде.
@@ -154,6 +177,9 @@ downloadSubscription-subject = { $productName } ішіне қош келдіңі
 downloadSubscription-title = { $productName } ішіне қош келдіңіз
 downloadSubscription-link-action-2 = Бастау
 fraudulentAccountDeletion-title = Сіздің тіркелгіңіз өшірілді
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Сұрақтарыңыз болса, біздің қолдау көрсету тобымызға хабарласыңыз: { $mozillaSupportUrl }
 lowRecoveryCodes-action-2 = Кодтарды жасау
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
@@ -195,13 +221,30 @@ postChangePrimary-title = Жаңа біріншілік эл. поштасы
 #  $email (String) - A user's email address
 postChangePrimary-description = Сіз біріншілік электрондық поштаңызды { $email } етіп өзгерттіңіз. Бұл аджрес енді { -product-firefox-account } тіркелгіңізге кіруге, сондай-ақ қауіпсіздік хабарландыруларын және жүйеге кіру растауларын алуға арналған пайдаланушы атыңыз болып табылады.
 postChangePrimary-action = Тіркелгіні басқару
+postConsumeRecoveryCode-title-2 = Сіз қор көшірме аутентификация кодын пайдаландыңыз
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Ол келесі жерде пайдаланылды:
 postConsumeRecoveryCode-action = Тіркелгіні басқару
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] 1 қор көшірме аутентификация коды қалды
+       *[other] { $numberRemaining } қор көшірме аутентификация коды қалды
+    }
 postNewRecoveryCodes-action = Тіркелгіні басқару
+# After the colon, there is information about the device that the account recovery key was deleted from
+postRemoveAccountRecovery-description-2 = Ол келесі жерден өшірілді:
 postRemoveAccountRecovery-action = Тіркелгіні басқару
 postRemoveSecondary-subject = Екіншілік эл. пошта адресі өшірілді
 postRemoveSecondary-title = Екіншілік эл. пошта адресі өшірілді
 postRemoveSecondary-action = Тіркелгіні басқару
+postRemoveTwoStepAuthentication-subject-line-2 = Екі қадамды аутентификация сөндірілді
+postRemoveTwoStepAuthentication-title-2 = Сіз екі қадамды аутентификацияны сөндірдіңіз
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Сіз оны келесі жерден сөндірдіңіз:
 postRemoveTwoStepAuthentication-action = Тіркелгіні басқару
+postVerify-sub-title-3 = Біз сізді көруге қуаныштымыз!
+postVerify-title-2 = Бір бетті екі құрылғыда көргіңіз келе ме?
+postVerify-description-2 = Бұл оңай! Басқа құрылғыға { -brand-firefox } орнатып, синхрондау үшін тіркелгіңізге кіріңіз. Бұл сиқыр сияқты!
 postVerify-subject-3 = { -brand-firefox } ішіне қош келдіңіз!
 postVerify-setup-2 = Басқа құрылғыны байланыстыру:
 postVerify-action-2 = Басқа құрылғыны байланыстыру
