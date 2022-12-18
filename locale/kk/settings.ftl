@@ -424,6 +424,9 @@ tfa-cannot-retrieve-code = Кодыңызды сұрау кезінде мәсе
 tfa-cannot-verify-code-4 = Сақтық көшірме аутентификация кодын растау кезінде мәселе орын алды
 tfa-incorrect-recovery-code-1 = Жарамсыз сақтық аутентификация коды
 tfa-enabled = Екі қадамды аутентификация іске қосылды
+tfa-scan-this-code =
+    <linkExternal>осы аутентификация қолданбаларының</linkExternal>
+    біреуін пайдаланып, осы QR кодын сканерлеңіз.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Кодты сканерлеу мүмкін емес пе?

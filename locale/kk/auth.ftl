@@ -137,6 +137,23 @@ subscriptionCharges-content-tax = Салықтар мен алымдар: { $inv
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } сомасы { $invoiceDateOnly } күні төленді
+subscriptionSupport = Жазылуыңыз туралы сұрақтарыңыз бар ма? Біздің <a data-l10n-name="subscriptionSupportUrl">қолдау тобы</a> сізге көмектесе алады.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupport-plaintext = Жазылуыңыз туралы сұрақтарыңыз бар ма? Біздің қолдау тобы сізге көмектесе алады:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = { $productName } қызметіне жазылғаныңыз үшін рақмет. Жазылуыңыз туралы сұрақтарыңыз болса немесе { $productName } туралы қосымша ақпарат қажет болса, <a data-l10n-name="subscriptionSupportUrl">бізге хабарласыңыз</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = { $productName } қызметіне жазылғаныңыз үшін рақмет. Жазылуыңыз туралы сұрақтарыңыз болса немесе { $productName } туралы қосымша ақпарат қажет болса, бізге хабарласыңыз
+subscriptionUpdateBillingEnsure = Төлем әдісіңіз бен шот ақпаратыңыздың ескірмегеніне <a data-l10n-name="updateBillingUrl">осы жерде</a> көз жеткізе аласыз.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Төлем әдісіңіз бен шот ақпаратыңыздың ескірмегеніне осы жерде көз жеткізе аласыз:
+subscriptionUpdateBillingTry = Төлеміңізді келесі бірнеше күнде қайталап көреміз, бірақ сізге <a data-l10n-name="updateBillingUrl">төлем ақпаратын жаңарту</a> арқылы оны түзетуге көмектесу қажет болуы мүмкін.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Төлеміңізді келесі бірнеше күнде қайталап көреміз, бірақ сізге төлем ақпаратын жаңарту арқылы оны түзетуге көмектесу қажет болуы мүмкін:
+subscriptionUpdatePayment = Қызметіңіздің үзілуіне жол бермеу үшін, мүмкіндігінше тезірек <a data-l10n-name="updateBillingUrl">төлем ақпаратыңызды жаңартыңыз</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Қызметіңіздің үзілуіне жол бермеу үшін, мүмкіндігінше тезірек төлем ақпаратыңызды жаңартыңыз:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = Қосымша ақпарат алу үшін { -brand-mozilla } қолдау бөлімін шолыңыз: { $supportUrl }.
@@ -216,12 +233,19 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } ішіне жаңа кіру
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-title-2 = Сіздің { -product-firefox-account } жүйеге кіру үшін пайдаланылды
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Сіз емессіз бе? <a data-l10n-name="passwordChangeLink">Пароліңізді өзгертіңіз</a>.
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = Сен емес пе? Пароліңізді өзгертіңіз:
 newDeviceLogin-action = Тіркелгіні басқару
 passwordChanged-subject = Пароль жаңартылды
 passwordChanged-title = Пароль сәтті өзгертілді
+passwordChanged-description = Сіздің { -product-firefox-account } тіркелгісінің паролі келесі құрылғыдан сәтті өзгертілді:
 passwordChangeRequired-subject = Күдікті әрекет анықталды
 passwordChangeRequired-title = Парольді өзгерту керек
 passwordChangeRequired-signoff = Құрметпен,
