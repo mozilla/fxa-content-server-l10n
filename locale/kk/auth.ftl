@@ -197,9 +197,22 @@ fraudulentAccountDeletion-contact = Сұрақтарыңыз болса, біз�
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Сұрақтарыңыз болса, біздің қолдау көрсету тобымызға хабарласыңыз: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Сізде сақтық аутентификация кодтары аяқталды!
+codes-reminder-title-one = Сіз соңғы сақтық көшірме аутентификация кодындасыз
+codes-reminder-title-two = Қосымша сақтық көшірме аутентификация кодтарын жасау уақыты келді
+codes-reminder-description-part-one = Сақтық көшірме аутентификация кодтары парольді ұмытқан кезде ақпаратты қалпына келтіруге көмектеседі.
+codes-reminder-description-part-two = Деректеріңізді кейін жоғалтпау үшін жаңа кодтарды қазір жасаңыз.
 codes-reminder-description-two-left = Сізде тек екі код қалды.
+codes-reminder-description-create-codes = Құлыптаулы болсаңыз, тіркелгіңізге қайта кіруге көмектесетін жаңа резервтік аутентификация кодтарын жасаңыз.
 lowRecoveryCodes-action-2 = Кодтарды жасау
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Бірде-бір сақтық аутентификация коды қалмады
+        [one] Тек 1 сақтық аутентификация коды қалды
+       *[other] Тек { $numberRemaining } сақтық аутентификация коды қалды!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } ішіне жаңа кіру
@@ -239,14 +252,14 @@ postChangePrimary-title = Жаңа біріншілік эл. поштасы
 #  $email (String) - A user's email address
 postChangePrimary-description = Сіз біріншілік электрондық поштаңызды { $email } етіп өзгерттіңіз. Бұл аджрес енді { -product-firefox-account } тіркелгіңізге кіруге, сондай-ақ қауіпсіздік хабарландыруларын және жүйеге кіру растауларын алуға арналған пайдаланушы атыңыз болып табылады.
 postChangePrimary-action = Тіркелгіні басқару
-postConsumeRecoveryCode-title-2 = Сіз қор көшірме аутентификация кодын пайдаландыңыз
+postConsumeRecoveryCode-title-2 = Сіз сақтық аутентификация кодын пайдаландыңыз
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Ол келесі жерде пайдаланылды:
 postConsumeRecoveryCode-action = Тіркелгіні басқару
 postConsumeRecoveryCode-subject-2 =
     { $numberRemaining ->
-        [one] 1 қор көшірме аутентификация коды қалды
-       *[other] { $numberRemaining } қор көшірме аутентификация коды қалды
+        [one] 1 сақтық аутентификация коды қалды
+       *[other] { $numberRemaining } сақтық аутентификация коды қалды
     }
 postNewRecoveryCodes-action = Тіркелгіні басқару
 # After the colon, there is information about the device that the account recovery key was deleted from

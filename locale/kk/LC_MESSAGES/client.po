@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-18 06:19+0000\n"
+"PO-Revision-Date: 2022-12-18 06:47+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -476,7 +476,7 @@ msgstr "TOTP токені табылмады"
 
 #: .es5/lib/auth-errors.js:236
 msgid "Backup authentication code not found"
-msgstr "Қор көшірме аутентификация коды табылмады"
+msgstr "Сақтық аутентификация коды табылмады"
 
 #: .es5/lib/auth-errors.js:240
 msgid "Unavailable device command"
@@ -681,7 +681,7 @@ msgstr "Екі қадамды аутентификация коды жарамс
 
 #: .es5/lib/auth-errors.js:567
 msgid "Backup authentication code required"
-msgstr "Қор көшірме аутентификация коды қажет"
+msgstr "Сақтық аутентификация коды қажет"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid backup authentication code"
