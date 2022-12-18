@@ -73,6 +73,17 @@ automated-email-support = Көбірек ақпарат алу үшін, <a data
 automated-email-change-plaintext-2 = Егер сіз бұл әрекетті жасамасаңыз, пароліңізді дереу өзгертіңіз:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Көбірек ақпарат алу үшін, { -brand-mozilla } қолдау сайтын шолыңыз:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Көбірек білу үшін, <a data-l10n-name="supportLink">{ -brand-mozilla } қолдау</a> сайтын шолыңыз.
+automated-email-no-action-plaintext = Бұл автоматтандырылған электрондық пошта. Егер сіз оны қателесіп алсаңыз, сізге ештеңе істеудің қажеті жоқ.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Бұл автоматтандырылған электрондық пошта; егер сіз бұл әрекетке рұқсат бермеген болсаңыз, пароліңізді өзгертіңіз:
+automated-email-reset =
+    Бұл автоматтандырылған электрондық пошта; егер сіз бұл әрекетке рұқсат бермеген болсаңыз, <a data-l10n-name="resetLink">пароліңізді қалпына келтіріңіз</a>.
+    Көбірек білу үшін, <a data-l10n-name="supportLink">{ -brand-mozilla } қолдау</a> сайтын шолыңыз.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext = Егер сіз оны өзгертпесеңіз, { $resetLink } адресі бойынша пароліңізді қалпына келтіріңіз
 cancellationSurvey = Осы <a data-l10n-name="cancellationSurveyUrl">қысқа сауалнамаға</a> қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Осы қысқа сауалнамаға қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз:
@@ -122,6 +133,10 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuratio
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Салықтар мен алымдар: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = { $invoiceTotal } сомасы { $invoiceDateOnly } күні төленді
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = Қосымша ақпарат алу үшін { -brand-mozilla } қолдау бөлімін шолыңыз: { $supportUrl }.
@@ -176,10 +191,12 @@ downloadSubscription-subject = { $productName } ішіне қош келдіңі
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName } ішіне қош келдіңіз
 downloadSubscription-link-action-2 = Бастау
+fraudulentAccountDeletion-subject = Сіздің { -product-firefox-account } өшірілді
 fraudulentAccountDeletion-title = Сіздің тіркелгіңіз өшірілді
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Сұрақтарыңыз болса, біздің қолдау көрсету тобымызға хабарласыңыз: { $mozillaSupportUrl }
+codes-reminder-description-two-left = Сізде тек екі код қалды.
 lowRecoveryCodes-action-2 = Кодтарды жасау
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:

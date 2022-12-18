@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-17 14:11+0000\n"
+"PO-Revision-Date: 2022-12-18 06:19+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -912,7 +912,7 @@ msgstr "%(serviceName)s қызметіне жалғастыру"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Firefox Account."
-msgstr "Firefox тіркелгіңізге қайта кіру үшін қауіпсіз жерде сақталған бір реттік тіркелгіні қалпына келтіру кілтін енгізіңіз."
+msgstr "Firefox тіркелгіңізге қайта кіру үшін қауіпсіз жерде сақталған тіркелгіні қалпына келтіру бір реттік кілтін енгізіңіз."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
