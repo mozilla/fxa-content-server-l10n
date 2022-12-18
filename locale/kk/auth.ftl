@@ -248,6 +248,9 @@ passwordChanged-title = Пароль сәтті өзгертілді
 passwordChanged-description = Сіздің { -product-firefox-account } тіркелгісінің паролі келесі құрылғыдан сәтті өзгертілді:
 passwordChangeRequired-subject = Күдікті әрекет анықталды
 passwordChangeRequired-title = Парольді өзгерту керек
+passwordChangeRequired-suspicious-activity = { -product-firefox-account } тіркелгіңізде күмәнді әрекетті анықтадық. { -product-firefox-account } тіркелгіңізге рұқсатсыз кіруді болдырмау үшін тіркелгіңізден барлық құрылғыларды ажыраттық және сақтық шарасы ретінде пароліңізді өзгертуді талап етеміз.
+passwordChangeRequired-sign-in = { -product-firefox-account } пайдаланатын кез келген құрылғыға немесе қызметке қайта кіріп, сізге ұсынылатын қадамдарды орындаңыз.
+passwordChangeRequired-different-password = <b>Маңызды:</b> Бұрын пайдаланған парольден басқа парольді таңдап, оның эл. пошта тіркелгісінен басқа екеніне көз жеткізіңіз.
 passwordChangeRequired-signoff = Құрметпен,
 passwordChangeRequired-signoff-name = { -product-firefox-accounts } тобы
 passwordChangeRequired-different-password-plaintext = Маңызды: Бұрын пайдаланған парольден басқа парольді таңдап, оның эл. пошта тіркелгісінен басқа екеніне көз жеткізіңіз.
@@ -258,6 +261,11 @@ passwordResetAccountRecovery-subject-2 = Пароліңіз тасталды
 passwordResetAccountRecovery-title-2 = Парольді тастау сәтті аяқталды
 # Details of the device, location, IP address, and date/time that used account recovery key follow.
 passwordResetAccountRecovery-description-2 = Пароліңізді жаңарту үшін тіркелгіні қалпына келтіру кілтін келесі жерден пайдаландыңыз:
+# Text for button action to initiate creating new account recovery key
+passwordResetAccountRecovery-action-2 = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
+passwordResetAccountRecovery-regen-required-mjml-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз.
+# After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
+passwordResetAccountRecovery-regen-required-txt-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз:
 postAddAccountRecovery-subject-2 = Тіркелгіні қалпына келтіру кілті жасалды
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Сен емессіз бе?
@@ -347,11 +355,31 @@ subscriptionCancellation-title = Кеткеніңізге өкінеміз
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
 # Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Сіз { $productName } өніміне ауыстыңыз
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Сіз { $productNameOld } өнімінен { $productName } өніміне сәтті ауыстыңыз.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = { $productName } төлемі расталды
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = { $productName } жазылуы қайта белсендірілді
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = { $productName } жазылуын қайта белсендіргеніңіз үшін рақмет!
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = { $productName } автоматты жаңарту туралы хабарлама
+subscriptionRenewalReminder-title = Сіздің жазылуыңыз жақында жаңартылады
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Құрметті { $productName } пайдаланушысы,
 subscriptionRenewalReminder-content-closing = Құрметпен,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
