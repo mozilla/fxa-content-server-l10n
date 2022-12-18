@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -36,6 +37,13 @@ product-firefox-relay = Firefox Relay
 
 ## Ready component
 
+ready-confirmation = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
+# This is a string that tells the user they can use whatever service prompted them to reset their password
+# Variables:
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = ਤੁਸੀਂ ਹੁਣ { $serviceName } ਵਰਤਣ ਲਈ ਤਿਆਰ ਹੋ
+ready-continue = ਜਾਰੀ ਰੱਖੋ
+
 ## Alert Bar
 
 alert-bar-close-message = ਸੁਨੇਹਾ ਬੰਦ ਕਰੋ
@@ -49,25 +57,23 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } ਬੇਂਟੋ ਮੇਨੂ
 bento-menu-firefox-title = { -brand-firefox } ਤਕਨੀਕ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੀ ਆਨਲਾਈਨ ਪਰਦੇਦਾਰੀ ਨਾਲ ਸਿੱਝਣਾ ਸਿਖਾਉਂਦੀ ਹੈ।
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } ਡੈਸਕਟਾਪ ਲਈ ਬਰਾਊਜ਼ਰ
 bento-menu-firefox-mobile = { -brand-firefox } ਮੋਬਾਈਲ ਲਈ ਬਰਾਊਜ਼ਰ
-
 bento-menu-made-by-mozilla = { -brand-mozilla } ਵਲੋਂ ਬਣਾਏ
 
 ## Connect another device promo
 
 connect-another-fx-mobile = ਮੋਬਾਈਲ ਜਾਂ ਟੈਬਲੇਟ ਲਈ { -brand-firefox } ਲਵੋ
 connect-another-find-fx-mobile = { -google-play } ਅਤੇ { -app-store } ਵਿੱਚ { -brand-firefox } ਲੱਭੋ ਜਾਂ <br /><linkExternal>ਆਪਣੇ ਮੋਬਾਈਲ ਲਈ ਡਾਊਨਲੋਡ ਲਿੰਕ ਭੇਜੋ।</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -76,6 +82,7 @@ connect-another-app-store-image-2 =
     .title = { -app-store } ਤੋਂ { -brand-firefox } ਡਾਊਨਲੋਡ ਕਰੋ
 
 ##
+
 
 ## Connected services section
 
@@ -88,13 +95,10 @@ cs-cannot-disconnect = ਕਲਾਈਂਟ ਨਹੀਂ ਲੱਭਿਆ, ਡਿ�
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service } ਚੋਂ ਲਾਗ ਆਉਟ ਕੀਤਾ
-
 cs-refresh-button =
     .title = ਕਨੈਕਟ ਹੋਈਆਂ ਸੇਵਾਵਾਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ਗੁੰਮ ਜਾਂ ਡੁਪਲੀਕੇਟ ਚੀਜ਼ਾਂ ਹਨ?
-
 cs-disconnect-sync-heading = ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰੋ
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -102,6 +106,7 @@ cs-disconnect-sync-heading = ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ �
 ## Variables:
 ##   $device (String) - the name of a device using Firefox Accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -118,10 +123,10 @@ cs-disconnect-sync-opt-not-say = ਦੱਸਣਾ ਨਹੀਂ ਹੈ
 cs-disconnect-advice-confirm = ਠੀਕ, ਸਮਝ ਗਏ
 cs-disconnect-lost-advice-heading = ਗੁਆਚਿਆ ਜਾਂ ਚੋਰੀ ਹੋਇਆ ਡਿਵਾਈਸ ਡਿਸਕਨੈਕਟ ਕੀਤਾ
 cs-disconnect-suspicious-advice-heading = ਸ਼ੱਕੀ ਡਿਵਾਈਸ ਡਿਸਕਨੈਕਟ ਕੀਤਾ
-
 cs-sign-out-button = ਸਾਈਨ ਆਉਟ
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -146,7 +151,6 @@ drop-down-menu-title = { -product-firefox-account } ਮੇਨੂ
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <user>{ $user }</user> ਵਜੋਂ <signin>ਸਾਈਨ ਇਨ ਕੀਤਾ</signin>
 drop-down-menu-sign-out = ਸਾਈਨ ਆਉਟ
-
 drop-down-menu-sign-out-error-2 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਸਾਈਨ ਆਉਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 
 ## Flow Container
@@ -180,7 +184,6 @@ input-password-hide = ਪਾਸਵਰਡ ਲੁਕਾਓ
 input-password-show = ਪਾਸਵਰਡ ਵੇਖਾਓ
 input-password-hide-aria = ਸਕਰੀਨ ਤੋਂ ਪਾਸਵਰਡ ਨੂੰ ਓਹਲੇ ਕਰੋ।
 input-password-show-aria = ਪਾਸਵਰਡ ਨੂੰ ਸਰਲ ਲਿਖਤ ਵਜੋਂ ਵੇਖਾਓ। ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਸਕਰੀਨ ਉੱਤੇ ਦਿਖਾਈ ਦੇਵੇਗਾ।
-
 
 ## Linked Accounts section
 
@@ -246,70 +249,68 @@ avatar-page-new-avatar =
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = ਪਾਸਵਰਡ ਬਦਲੋ
-
 pw-8-chars = ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ
 pw-not-email = ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਹੈ
 pw-change-must-match = ਨਵੇਂ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹੋਣ ਦੀ ਤਸਦੀਕ ਕਰੋ
+pw-commonly-used = ਕੋਈ ਆਮ ਵਰਤਿਆ ਪਾਸਵਰਡ ਨਹੀਂ ਹੈ
 pw-change-cancel-button = ਰੱਦ ਕਰੋ
 pw-change-save-button = ਸੰਭਾਲੋ
 pw-change-forgot-password-link = ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
-
 pw-change-current-password =
     .label = ਮੌਜੂਦਾ ਪਾਸਵਰਡ ਦਿਓ
 pw-change-new-password =
     .label = ਨਵਾਂ ਪਾਸਵਰਡ ਦਿਓ
 pw-change-confirm-password =
     .label = ਨਵੇਂ ਪਾਸਵਰਡ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
-
 pw-change-success-alert-2 = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = ਪਾਸਵਰਡ ਬਣਾਓ
-
 pw-create-success-alert-2 = ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ
+pw-create-error-2 = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਸੈਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 
 ##
+
 
 ## Delete account page
 
 delete-account-header =
     .title = ਖਾਤਾ ਹਟਾਓ
-
 delete-account-step-1-2 = 2 ਚੋਂ 1 ਪੜਾਅ
 delete-account-step-2-2 = 2 ਚੋਂ 2 ਪੜਾਅ
-
-
+delete-account-confirm-title-2 = ਤੁਸੀਂ ਆਪਣੇ { -product-firefox-account } ਨੂੰ { -brand-mozilla } ਉਤਪਾਦਾਂ ਨਾਲ ਕਨੈਕਟ ਕਰ ਲਿਆ ਹੈ, ਜੋ ਕਿ ਤੁਹਾਨੂੰ ਵੈੱਬ ਉੱਤੇ ਸੁਰੱਖਿਅਤ ਅਤੇ ਕੰਮ ਕਰਨ ਦੇ ਸਮਰੱਥ ਕਰਦੇ ਹਨ:
+delete-account-acknowledge = ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਹਟਾਉਣ ਦੀ ਤਸਦੀਕ ਕਰੋ:
 delete-account-continue-button = ਜਾਰੀ ਰੱਖੋ
-
 delete-account-password-input =
     .label = ਪਾਸਵਰਡ ਭਰੋ
-
 delete-account-cancel-button = ਰੱਦ ਕਰੋ
 delete-account-delete-button-2 = ਹਟਾਓ
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ
-
 display-name-input =
     .label = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ
 submit-display-name = ਸੰਭਾਲੋ
 cancel-display-name = ਰੱਦ ਕਰੋ
-
 display-name-success-alert-2 = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤਾ
 
 ##
+
 
 # Account recovery key setup page
 
@@ -318,12 +319,16 @@ recovery-key-close-button = ਬੰਦ ਕਰੋ
 recovery-key-continue-button = ਜਾਰੀ ਰੱਖੋ
 recovery-key-enter-password =
     .label = ਪਾਸਵਰਡ ਭਰੋ
+recovery-key-page-title-1 =
+    .title = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
 recovery-key-step-1 = 2 ਚੋਂ 1 ਪੜਾਅ
 recovery-key-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
+recovery-key-success-alert-3 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = 2 ਚੋਂ 1 ਪੜਾਅ
+add-secondary-email-error-2 = ਇਹ ਈਮੇਲ ਬਣਾਉਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 add-secondary-email-page-title =
     .title = ਸੈਕੰਡਰੀ ਈਮੇਲ
 add-secondary-email-enter-address =
@@ -353,25 +358,21 @@ delete-account-link = ਖਾਤਾ ਹਟਾਓ
 ## Two Step Authentication
 
 tfa-title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ
-
 tfa-step-1-3 = 3 ਚੋਂ 1 ਪੜਾਅ
 tfa-step-2-3 = 3 ਚੋਂ 2 ਪੜਾਅ
 tfa-step-3-3 = 3 ਚੋਂ 3 ਪੜਾਅ
-
 tfa-button-continue = ਜਾਰੀ ਰੱਖੋ
 tfa-button-cancel = ਰੱਦ ਕਰੋ
 tfa-button-finish = ਮੁਕੰਮਲ
-
 tfa-incorrect-totp = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
-
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ?
-
 tfa-input-enter-totp =
     .label = ਸੁਰੱਖਿਆ ਕੋਡ ਦਿਓ
 
 ##
+
 
 ## Profile section
 
@@ -384,6 +385,7 @@ profile-primary-email =
     .header = ਮੁੱਢਲਾ ਈਮੇਲ
 
 ##
+
 
 ## Security section of Setting
 
@@ -417,6 +419,7 @@ row-defaults-status = ਕੋਈ ਨਹੀਂ
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
 rk-enabled = ਸਮਰੱਥ ਹੈ
 rk-not-set = ਸੈੱਟ ਨਹੀਂ
 rk-action-create = ਬਣਾਓ
@@ -444,6 +447,7 @@ se-secondary-email-none = ਕੋਈ ਨਹੀਂ
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ
@@ -452,12 +456,9 @@ tfa-row-enabled = ਸਮਰੱਥ ਹੈ
 tfa-row-not-set = ਸੈੱਟ ਨਹੀਂ
 tfa-row-action-add = ਜੋੜੋ
 tfa-row-action-disable = ਅਸਮਰੱਥ ਕਰੋ
-
 tfa-row-button-refresh =
     .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਤਾਜ਼ਾ ਕਰੋ
-
 tfa-row-disable-modal-confirm = ਅਸਮਰੱਥ ਕਰੋ
-
 tfa-row-change-modal-confirm = ਬਦਲੋ
 
 ## Auth-server based errors that originate from backend service
