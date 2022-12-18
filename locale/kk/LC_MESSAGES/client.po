@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-18 13:39+0000\n"
+"PO-Revision-Date: 2022-12-18 14:17+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1062,7 +1062,7 @@ msgstr "Firefox тіркелгіңіз үшін"
 
 #: .es5/templates/confirm_signup_code.mustache:3
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "%(escapedEmail)s адресіне жіберілген кодты 5 минут ішінде енгізіңіз."
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1458,7 +1458,7 @@ msgstr "<span class=\"card-subheader\">Firefox тіркелгіңіз үшін</
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr "%(email)s адресіне жіберілген коды 5 минут ішінде енгізіңіз."
+msgstr "%(email)s адресіне жіберілген кодты 5 минут ішінде енгізіңіз."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
