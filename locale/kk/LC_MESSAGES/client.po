@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-18 14:17+0000\n"
+"PO-Revision-Date: 2022-12-18 14:25+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1049,7 +1049,7 @@ msgstr "Тастау эл. пошта хаты жіберілді"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr ""
+msgstr "Жаңа парольді жасау үшін келесі сағат ішінде %(email)s электрондық поштасына жіберілген сілтемені басыңыз."
 
 #: .es5/templates/confirm_signup_code.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
@@ -1190,7 +1190,7 @@ msgstr "Тіркелгіні жасау немесе кіру"
 
 #: .es5/templates/index.mustache:11
 msgid "A Firefox account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Firefox тіркелгісі Mozilla-дан құпиялылықты қорғайтын көбірек өнімдерге кіруге мүмкіндік береді."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1826,7 +1826,7 @@ msgstr "<span class=\"number\">4</span>Тіркелгіңізге кіріңіз
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:4
 msgid "Protect your data with an account recovery key"
-msgstr ""
+msgstr "Тіркелгіні қалпына келтіру кілтімен деректеріңізді қорғаңыз"
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."

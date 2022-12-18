@@ -439,13 +439,26 @@ subscriptionsPaymentExpired-content-1 = Келесі жазылулар үшін
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } жазылулары үшін төлем ақпаратын жаңарту қажет
 subscriptionsPaymentProviderCancelled-title = Кешіріңіз, төлем әдісіңізге қатысты мәселе орын алды
 subscriptionsPaymentProviderCancelled-content-detected = Келесі жазылулар үшін төлем әдісіңізге қатысты мәселелер анықтадық.
+subscriptionsPaymentProviderCancelled-content-payment = Несие картаңыздың мерзімі өтіп кеткен немесе ағымдағы төлем әдісіңіз ескірген болуы мүмкін.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } төлемі алынды
 subscriptionSubsequentInvoice-title = Жазылушы болғаныңыз үшін рахмет!
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = { $productName }үшін соңғы төлеміңізді алдық.
+# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Сіз { $productName } нұсқасына жаңартылдыңыз
+subscriptionUpgrade-title = Жаңартылғаныңыз үшін рахмет!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = Сіз { $productNameOld } өнімінен { $productName } өніміне сәтті жаңартылдыңыз.
+subscriptionUpgrade-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
 unblockCode-subject = Тіркелгіні авторизациялау коды
 unblockCode-title = Кірем деген сіз бе?
 unblockCode-prompt = Иә болса, міне, сізге керек авторизация коды:
@@ -455,6 +468,7 @@ unblockCode-prompt-plaintext = Иә болса, міне, сізге керек 
 unblockCode-report = Жоқ болса, алаяқтылармен күресуге көмектесу үшін <a data-l10n-name="reportSignInLink">ол туралы бізге хабарлаңыз.</a>
 unblockCode-report-plaintext = Жоқ болса, алаяқтылармен күресуге көмектесу үшін ол туралы бізге хабарлаңыз.
 verificationReminderFinal-subject = Тіркелгіңізді растау үшін соңғы еске салғыш
+verificationReminderFinal-description = Бірнеше апта бұрын сіз { -product-firefox-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Сіздің қауіпсіздігіңіз үшін, тіркелгіңіз келесі 24 сағат ішінде расталмаса, оны өшіреміз.
 confirm-account = Тіркелгіні растау
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Тіркелгіңізді растауды ұмытпаңыз
