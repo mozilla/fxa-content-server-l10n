@@ -227,6 +227,10 @@ modal-cancel-button = Бас тарту
 
 mvs-verify-your-email-2 = Эл. пошта адресіңізді растаңыз
 mvs-enter-verification-code-2 = Растау кодын енгізіңіз
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = <email>{ $email }</email> адресіне жіберілген растау кодын 5 минут ішінде енгізіңіз.
 msv-cancel-button = Бас тарту
 msv-submit-button-2 = Растау
 
@@ -238,9 +242,16 @@ nav-security = Қауіпсіздік
 nav-connected-services = Байланыстырылған қызметтер
 nav-data-collection = Деректерді жинау және қолдану
 nav-paid-subs = Ақылы жазылулар
+nav-email-comm = Эл. пошта хабарландырулары
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Сақтық көшірме аутентификация кодтарын ауыстыру кезінде мәселе орын алды
+tfa-replace-code-success-1 =
+    Жаңа кодтар жасалды. Осы бір рет қолданылатын сақтық көшірме
+    аутентификация кодтарын қауіпсіз жерде сақтаңыз — мобильді құрылғыңыз болмаса,
+    олар тіркелгіңізге кіру үшін қажет болады.
+tfa-replace-code-success-alert-3 = Тіркелгінің сақтық көшірме аутентификация кодтары жаңартылды
 tfa-replace-code-1-2 = Қадам 1, барлығы 2
 tfa-replace-code-2-2 = Қадам 2, барлығы 2
 
@@ -270,6 +281,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Камераны іске қосу мүмкін емес
 avatar-page-new-avatar =
     .alt = жаңа профиль суреті
+avatar-page-file-upload-error-3 = Профиль суретіңізді жүктеп салу кезінде мәселе орын алды
+avatar-page-delete-error-3 = Профиль суретіңізді өшіру кезінде мәселе орын алды
 
 ##
 
