@@ -283,6 +283,7 @@ avatar-page-new-avatar =
     .alt = жаңа профиль суреті
 avatar-page-file-upload-error-3 = Профиль суретіңізді жүктеп салу кезінде мәселе орын алды
 avatar-page-delete-error-3 = Профиль суретіңізді өшіру кезінде мәселе орын алды
+avatar-page-image-too-large-error-2 = Сурет файлының өлшемі жүктеп жіберу үшін тым үлкен.
 
 ##
 
@@ -327,6 +328,16 @@ delete-account-header =
     .title = Тіркелгіні өшіру
 delete-account-step-1-2 = Қадам 1, барлығы 2
 delete-account-step-2-2 = Қадам 2, барлығы 2
+delete-account-confirm-title-2 = Сіз өзіңіздің { -product-firefox-account } тіркелгіңізді сізді интернетте қауіпсіз және өнімді қылатын { -brand-mozilla } өнімдеріне қостыңыз:
+delete-account-acknowledge = Тіркелгіңізді өшіру кезінде мынаны растаңыз:
+delete-account-chk-box-1-v2 =
+    .label = Сізде бар ақылы жазылулар өшіріледі ({ product-pocket } басқа)
+delete-account-chk-box-2 =
+    .label = { -brand-mozilla }өнімдерінде сақталған ақпаратты және мүмкіндіктерді жоғалтуыңыз мүмкін
+delete-account-chk-box-3 =
+    .label = Осы электрондық пошта арқылы қайта белсендіру сақталған ақпаратты қалпына келтірмеуі мүмкін
+delete-account-chk-box-4 =
+    .label = Сіз addons.mozilla.org сайтына жарияланған кез келген кеңейтулер мен темалар өшіріледі
 delete-account-continue-button = Жалғастыру
 delete-account-password-input =
     .label = Парольді енгізіңіз
@@ -409,6 +420,10 @@ tfa-button-continue = Жалғастыру
 tfa-button-cancel = Бас тарту
 tfa-button-finish = Дайын
 tfa-incorrect-totp = Екі қадамды аутентификация коды жарамсыз
+tfa-cannot-retrieve-code = Кодыңызды сұрау кезінде мәселе орын алды.
+tfa-cannot-verify-code-4 = Сақтық көшірме аутентификация кодын растау кезінде мәселе орын алды
+tfa-incorrect-recovery-code-1 = Жарамсыз сақтық аутентификация коды
+tfa-enabled = Екі қадамды аутентификация іске қосылды
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Кодты сканерлеу мүмкін емес пе?
