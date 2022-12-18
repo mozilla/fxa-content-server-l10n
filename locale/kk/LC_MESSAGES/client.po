@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-18 06:47+0000\n"
+"PO-Revision-Date: 2022-12-18 06:53+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -685,7 +685,7 @@ msgstr "Сақтық аутентификация коды қажет"
 
 #: .es5/lib/auth-errors.js:571
 msgid "Invalid backup authentication code"
-msgstr "Қор көшірме аутентификация коды жарамсыз"
+msgstr "Сақтық аутентификация коды жарамсыз"
 
 #: .es5/lib/auth-errors.js:585
 msgid "Account recovery key required"
@@ -1194,7 +1194,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr "Қор көшірме аутентификация кодтарын сақтау"
+msgstr "Сақтық аутентификация кодтарын сақтау"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1225,15 +1225,15 @@ msgstr "Баптаудан бас тарту"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr "Қор көшірме аутентификация кодын растау"
+msgstr "Сақтық аутентификация кодын растау"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr "Құрылғы жоғалған жағдайда тіркелгіңізге қайта кіру мүмкіндігіне ие болу үшін сақталған қор көшірме аутентификация кодтарының бірін енгізіңіз."
+msgstr "Құрылғы жоғалған жағдайда тіркелгіңізге қайта кіру мүмкіндігіне ие болу үшін сақталған сақтық аутентификация кодтарының бірін енгізіңіз."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr "Қор көшірме аутентификация коды"
+msgstr "Сақтық аутентификация коды"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1409,7 +1409,7 @@ msgstr "Кешіріңіз. Біз сіздің тіркелгіңізді&nbsp;
 
 #: .es5/templates/sign_in_bounced.mustache:2
 msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "%(email)s адресіне жіберілген растау хаты қайтарылды, сондықтан біз сіздің Firefox деректерін қорғау мақсатында тіркелгіңізді блоктадық."
+msgstr "%(email)s адресіне жіберілген растау хаты қайтарылды, сондықтан біз сіздің Firefox деректерін қорғау мақсатында тіркелгіңізді құлыптадық."
 
 #: .es5/templates/sign_in_bounced.mustache:3
 msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."

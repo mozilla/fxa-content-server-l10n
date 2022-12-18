@@ -82,6 +82,44 @@ new-user-invalid-email-domain = Қате тердіңіз бе? { $domain } эл
 
 payment-confirmation-thanks-heading = Рахмет!
 payment-confirmation-thanks-heading-account-exists = Рахмет, енді эл. поштаңызды тексеріңіз!
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = { $email } адресіне { $product_name } өнімімен жұмысты қалай бастау керектігі туралы мәліметтері бар растау электрондық хаты жіберілді.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = Сіз { $email } адресіне тіркелгіңізді баптау нұсқаулары, сондай-ақ төлем мәліметтері көрсетілген электрондық хат аласыз.
+payment-confirmation-order-heading = Тапсырыс мәліметтері
+payment-confirmation-invoice-number = №{ $invoiceNumber } шот-фактура
+payment-confirmation-details-heading-2 = Төлем ақпараты
+payment-confirmation-amount = { $amount }, { $interval } үшін
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } күнде
+       *[other] { $amount } әр { $intervalCount } күнде
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } апта сайын
+       *[other] { $amount } әр { $intervalCount } аптада
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } ай сайын
+       *[other] { $amount } әр { $intervalCount } айда
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } жыл сайын
+       *[other] { $amount } әр { $intervalCount } жылда
+    }
+payment-confirmation-download-button = Жүктеп алуды жалғастыру
 
 ## Component - PaymentConsentCheckbox
 
@@ -89,6 +127,7 @@ payment-confirmation-thanks-heading-account-exists = Рахмет, енді эл
 ## Component - PaymentErrorView
 
 payment-error-retry-button = Қайтадан көру
+payment-error-manage-subscription-button = Менің жазылуымды басқару
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
@@ -148,8 +187,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Терезені жабу
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Жүктелуде…
 settings-subscriptions-title = Жазылулар
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Промокод
