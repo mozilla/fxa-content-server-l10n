@@ -547,6 +547,10 @@ se-resend-code-2 =
     <button>Растау кодын қайта жіберіңіз</button>.
 # Button to make secondary email the primary
 se-make-primary = Біріншілік ету
+se-default-content = Негізгі электрондық поштаңызға кіре алмасаңыз, тіркелгіңізге қол жеткізіңіз.
+se-content-note-1 =
+    Ескерту: қосымша эл. пошта ақпаратыңызды қалпына келтірмейді — ол үшін
+    сізге <a>тіркелгіні қалпына келтіру кілті</a> қажет.
 # Default value for the secondary email
 se-secondary-email-none = Ешнәрсе
 
@@ -563,9 +567,18 @@ tfa-row-action-add = Қосу
 tfa-row-action-disable = Сөндіру
 tfa-row-button-refresh =
     .title = Екі қадамды аутентификацияны жаңарту
+tfa-row-cannot-refresh =
+    Кешіріңіз, екі қадамды аутентификацияны жаңарту кезінде
+    мәселе орын алды.
+tfa-row-content-explain =
+    Сіз ғана қол жеткізе алатын бірегей кодты талап ету арқылы
+    басқа біреудің жүйеге кіруіне жол бермеңіз.
 tfa-row-cannot-verify-session-4 = Кешіріңіз, сеансыңызды растау кезінде мәселе туындады
 tfa-row-disable-modal-heading = Екі қадамды аутентификацияны сөндіру керек пе?
 tfa-row-disable-modal-confirm = Сөндіру
+tfa-row-disable-modal-explain-1 =
+    Бұл әрекетті кері қайтара алмайсыз. Сондай-ақ, <linkExternal>сақтық көшірме
+    аутентификация кодтарын ауыстыру</linkExternal> опциясы бар.
 tfa-row-cannot-disable-2 = Екі қадамды аутентификацияны сөндіру мүмкін емес
 tfa-row-change-modal-heading-1 = Сақтық аутентификация кодтарын ауыстыру керек пе?
 tfa-row-change-modal-confirm = Өзгерту
