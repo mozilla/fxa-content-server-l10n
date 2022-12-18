@@ -195,6 +195,7 @@ cadReminderFirst-action = Басқа құрылғыны синхрондау
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Синхрондау үшін екі құрылғы қажет
+cadReminderFirst-description-1 = Барлық құрылғыларда браузер беттерін алыңыз. Бетбелгілер, парольдер және басқа деректерді { -brand-firefox } пайдаланатын барлық жерде алыңыз. Бұл сіздің { -brand-firefox } тіркелгіңіздегі сиқырға ұқсайды!
 cadReminderFirst-description-2 = Синхрондау үшін бар болғаны секунд қажет.
 cadReminderSecond-subject-2 = Жіберіп алмаңыз! Синхрондауды баптауды аяқтайық.
 cadReminderSecond-action = Басқа құрылғыны синхрондау
@@ -207,6 +208,7 @@ downloadSubscription-subject = { $productName } ішіне қош келдіңі
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName } ішіне қош келдіңіз
+downloadSubscription-content-2 = Жазылуыңыздағы барлық мүмкіндіктерді пайдалануды бастайық:
 downloadSubscription-link-action-2 = Бастау
 fraudulentAccountDeletion-subject = Сіздің { -product-firefox-account } өшірілді
 fraudulentAccountDeletion-title = Сіздің тіркелгіңіз өшірілді
@@ -267,17 +269,25 @@ passwordResetAccountRecovery-regen-required-mjml-1 = Барлық синхрон
 # After the colon, there's a link to https://accounts.firefox.com/settings/account_recovery
 passwordResetAccountRecovery-regen-required-txt-1 = Барлық синхрондалған құрылғыларда жүйеге қайта кіру қажет болады. Пайдаланылған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз:
 postAddAccountRecovery-subject-2 = Тіркелгіні қалпына келтіру кілті жасалды
+postAddAccountRecovery-title2 = Сіз тіркелгіні қалпына келтіру жаңа кілтін жасадыңыз
+# Information on the browser and device triggering this string follows.
+postAddAccountRecovery-description-2 = Жаңа кілт келесі жерден жасалды:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Сен емессіз бе?
 postAddAccountRecovery-action = Тіркелгіні басқару
 postAddAccountRecovery-delete-key = Жаңа кілтті өшіру:
 postAddAccountRecovery-changd-password = Пароліңізді өзгертіңіз:
+postAddLinkedAccount-subject = { -brand-firefox } ішіне жаңа тіркелгі байланыстырылды
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title = Сіздің { $providerName } тіркелгіңіз { -product-firefox-account } ішіне байланыстырылды.
 postAddLinkedAccount-action = Тіркелгіні басқару
 postAddTwoStepAuthentication-subject-2 = Екі қадамды аутентификация іске қосылды
 postAddTwoStepAuthentication-title-2 = Сіз екі қадамды аутентификацияны іске қостыңыз
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Сіз оны келесі жерден іске қостыңыз:
 postAddTwoStepAuthentication-action = Тіркелгіні басқару
+postAddTwoStepAuthentication-code-required-2 = Аутентификация қолданбасының қауіпсіздік кодтары енді жүйеге әр рет кірген сайын керек болады.
 postChangePrimary-subject = Біріншілік эл. пошта адресі жаңартылды
 postChangePrimary-title = Жаңа біріншілік эл. поштасы
 # Variables:
@@ -293,7 +303,13 @@ postConsumeRecoveryCode-subject-2 =
         [one] 1 сақтық аутентификация коды қалды
        *[other] { $numberRemaining } сақтық аутентификация коды қалды
     }
+postNewRecoveryCodes-subject-2 = Жаңа сақтық көшірме аутентификация кодтары жасалды
+postNewRecoveryCodes-title-2 = Сіз жаңа сақтық көшірме аутентификация кодтарын жасадыңыз
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Олар келесі жерде жасалды:
 postNewRecoveryCodes-action = Тіркелгіні басқару
+postRemoveAccountRecovery-subject-2 = Тіркелгіні қалпына келтіру коды өшірілді
+postRemoveAccountRecovery-title-2 = Сіз тіркелгіні қалпына келтіру кілтін өшірдіңіз.
 # After the colon, there is information about the device that the account recovery key was deleted from
 postRemoveAccountRecovery-description-2 = Ол келесі жерден өшірілді:
 postRemoveAccountRecovery-action = Тіркелгіні басқару
