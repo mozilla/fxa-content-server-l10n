@@ -427,6 +427,11 @@ tfa-enabled = Екі қадамды аутентификация іске қос
 tfa-scan-this-code =
     <linkExternal>осы аутентификация қолданбаларының</linkExternal>
     біреуін пайдаланып, осы QR кодын сканерлеңіз.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
+tfa-qa-code-alt = Қолдауы бар қолданбаларда екі қадамды аутентификацияны орнату үшін { $secret } кодын пайдаланыңыз.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Кодты сканерлеу мүмкін емес пе?
@@ -435,6 +440,7 @@ tfa-enter-secret-key = Осы құпия кілтті аутентификаци
 tfa-enter-totp = Енді аутентификация қолданбасынан қауіпсіздік кодын енгізіңіз.
 tfa-input-enter-totp =
     .label = Қауіпсіздік кодын енгізіңіз
+tfa-save-these-codes-1 = Мобильді құрылғыңыз болмаған кезде осы бір рет қолданылатын сақтық көшірмеаутентификация кодтарын қауіпсіз жерде сақтаңыз.
 
 ##
 
