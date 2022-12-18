@@ -440,7 +440,15 @@ tfa-enter-secret-key = Осы құпия кілтті аутентификаци
 tfa-enter-totp = Енді аутентификация қолданбасынан қауіпсіздік кодын енгізіңіз.
 tfa-input-enter-totp =
     .label = Қауіпсіздік кодын енгізіңіз
-tfa-save-these-codes-1 = Мобильді құрылғыңыз болмаған кезде осы бір рет қолданылатын сақтық көшірмеаутентификация кодтарын қауіпсіз жерде сақтаңыз.
+tfa-save-these-codes-1 =
+    Мобильді құрылғыңыз болмаған кездері үшін осы бір рет қолданылатын сақтық көшірме
+    аутентификация кодтарын қауіпсіз жерде сақтаңыз.
+tfa-enter-code-to-confirm-1 =
+    Сақтағаныңызды растау үшін қазір сақтық көшірме аутентификация
+    кодтарының бірін енгізіңіз. Мобильді құрылғыға кіру мүмкіндігіңіз болмаса,
+    жүйеге кіру үшін код қажет болады.
+tfa-enter-recovery-code-1 =
+    .label = Сақтық көшірме аутентификация кодын енгізіңіз
 
 ##
 
@@ -469,6 +477,7 @@ security-password =
 security-password-created-date = { $date } күні жасалған
 security-not-set = Орнатылмаған
 security-action-create = Жасау
+security-set-password = Синхрондау және белгілі бір тіркелгінің қауіпсіздік мүмкіндіктерін пайдалану үшін парольді орнатыңыз.
 
 ## Switch component
 
@@ -478,6 +487,8 @@ switch-turn-off = Сөндіру
 switch-turn-on = Іске қосу
 # Used as "title" attribute when switch has been interacted with and form is submitting
 switch-submitting = Жіберілуде…
+switch-is-on = іске қосылған
+switch-is-off = сөндірілген
 
 ## Sub-section row Defaults
 
@@ -495,11 +506,23 @@ rk-action-create = Жасау
 rk-action-remove = Өшіру
 rk-cannot-refresh-1 = Кешіріңіз, тіркелгіні қалпына келтіру кілтін жаңарту кезінде мәселе орын алды.
 rk-key-removed-2 = Тіркелгіні қалпына келтіру кілті өшірілді
+rk-cannot-remove-key = Тіркелгіңізді қалпына келтіру кілтін өшіру мүмкін болмады.
+rk-refresh-key-1 = Тіркелгіні қалпына келтіру кілтін жаңартыңыз
+rk-content-explain = Парольді ұмытқан кезде ақпаратты қалпына келтіріңіз.
+rk-cannot-verify-session-4 = Кешіріңіз, сеансыңызды растау кезінде мәселе туындады
+rk-remove-modal-heading-1 = Тіркелгіні қалпына келтіру кілтін өшіру керек пе?
+rk-remove-modal-content-1 =
+    Парольді қалпына келтірген жағдайда, деректерге кіру үшін тіркелгіні
+    қалпына келтіру кілтін пайдалана алмайсыз. Бұл әрекетті кері қайтара алмайсыз.
+rk-refresh-error-1 = Кешіріңіз, тіркелгіні қалпына келтіру кілтін жаңарту кезінде мәселе орын алды.
+rk-remove-error-2 = Тіркелгіңізді қалпына келтіру кілтін өшіру мүмкін болмады.
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Екіншілік эл. пошта адресі
     .header = Екіншілік эл. пошта адресі
+se-cannot-refresh-email = Кешіріңіз, электрондық поштаны жаңарту кезінде мәселе орын алды.
+se-cannot-resend-code-3 = Кешіріңіз, растау кодын қайта жіберу кезінде мәселе орын алды
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -519,6 +542,9 @@ se-remove-email =
 se-refresh-email =
     .title = Эл. поштаны жаңарту
 se-unverified-2 = расталмаған
+se-resend-code-2 =
+    Растау қажет. Кіріс немесе спам бумасында болмаса,
+    <button>Растау кодын қайта жіберіңіз</button>.
 # Button to make secondary email the primary
 se-make-primary = Біріншілік ету
 # Default value for the secondary email
