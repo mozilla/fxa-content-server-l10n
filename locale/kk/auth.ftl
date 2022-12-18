@@ -193,6 +193,7 @@ downloadSubscription-title = { $productName } ішіне қош келдіңіз
 downloadSubscription-link-action-2 = Бастау
 fraudulentAccountDeletion-subject = Сіздің { -product-firefox-account } өшірілді
 fraudulentAccountDeletion-title = Сіздің тіркелгіңіз өшірілді
+fraudulentAccountDeletion-contact = Сұрақтарыңыз болса, біздің <a data-l10n-name="mozillaSupportUrl">қолдау көрсету тобымызға</a> хабарласыңыз.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Сұрақтарыңыз болса, біздің қолдау көрсету тобымызға хабарласыңыз: { $mozillaSupportUrl }
