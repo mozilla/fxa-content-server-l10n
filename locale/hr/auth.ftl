@@ -181,6 +181,9 @@ fraudulentAccountDeletion-subject = Tvoj { -product-firefox-account } račun je 
 fraudulentAccountDeletion-title = Tvoj račun je izbrisan
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Nova prijava na { $clientName }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-title-2 = Za prijavu je korišten tvoj { -product-firefox-account }
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -232,6 +235,10 @@ postChangePrimary-subject = Primarna e-mail adresa aktualizirana
 postChangePrimary-title = Nova primarna adresa e-pošte
 postChangePrimary-action = Upravljaj računom
 postConsumeRecoveryCode-action = Upravljaj računom
+postNewRecoveryCodes-subject-2 = Stvoreni su novi kodovi autentifikacije za spremanje sigurnosnih kopija
+postNewRecoveryCodes-title-2 = Stvorio/la si nove kodove autentifikacije za spremanje sigurnosnih kopija
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Stvoreni su:
 postNewRecoveryCodes-action = Upravljaj računom
 postRemoveAccountRecovery-subject-2 = Ključ za obnavljanje računa je izbrisan
 postRemoveAccountRecovery-title-2 = Izbrisao/la si tvoj ključ za obnavljanje računa.
@@ -312,6 +319,13 @@ subscriptionPaymentProviderCancelled-title = Žao nam je, imamo problem s tvojim
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Otkrili smo problem s tvojim načinom plaćanja za { $productName }.
 subscriptionPaymentProviderCancelled-content-reason = Tvoja kreditna kartica je možda istekla ili je tvoj trenutačni način plaćanja zastario.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = { $productName } obavijest o automatskoj obnovi
+subscriptionRenewalReminder-title = Tvoja će se pretplata uskoro obnoviti
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Poštovani { $productName } kupac,
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2

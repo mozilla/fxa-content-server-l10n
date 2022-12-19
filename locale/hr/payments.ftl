@@ -3,168 +3,189 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Branding
+### Terms and messages used in fxa-payments-server
 
-project-brand = Firefox računi
+
+## Firefox and Mozilla must be treated as a brand.
+##
+## They cannot be:
+## - Transliterated.
+## - Translated.
+##
+## Declension should be avoided where possible, leaving the original
+## brand unaltered in prominent UI positions.
+##
+## For further details, consult:
+## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
+
 -brand-name-mozilla = Mozilla
 -brand-name-firefox = Firefox
+# “Accounts” can be localized, “Firefox” must be treated as a brand.
+# 'Firefox Accounts' refers to the service
+project-brand = Firefox računi
+
+## Brands cannot be transliterated or translated. Decelension should be avoided where possible.
+
 -brand-name-paypal = PayPal
 -brand-name-stripe = Stripe
-document =
-    .title = Firefox računi
 
-## General aria-label
-
-close-aria =
-    .aria-label = Zatvori modal
-
-## App error dialog
-
-general-error-heading = Opća greška programa
-basic-error-message = Nešto je pošlo po zlu. Pokušaj ponovo kasnije.
-payment-error-1 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Pokušaj ponovo ili kontaktiraj izdavatelja kartice.
-payment-error-2 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Kontaktiraj svog izdavatelja kartice.
-payment-error-retry-button = Pokušaj ponovno
-payment-error-manage-subscription-button = Upravljaj mojom pretplatom
-country-currency-mismatch = Valuta ove pretplate ne vrijedi za zemlju povezanu s tvojom plaćanjem.
-currency-currency-mismatch = Žao nam je. Ne možeš se prebacivati između valuta.
-no-subscription-change = Žao nam je. Ne možeš promijeniti tvoj plan pretplate.
-expired-card-error = Čini se da je tvoja kreditna kartica istekla. Pokušaj s drugom karticom.
-insufficient-funds-error = Čini se da tvoja kartica nema dovoljno sredstava. Pokušaj s drugom karticom.
-withdrawal-count-limit-exceeded-error = Čini se da ćeš ovom transakcijom prijeći kreditni limit. Pokušaj s drugom karticom.
-charge-exceeds-source-limit = Čini se da ćeš ovom transakcijom prijeći svoj dnevni kreditni limit. Pokušaj s drugom karticom ili za 24 sata.
-instant-payouts-unsupported = Čini se da tvoja debitna kartica nije postavljena za trenutna plaćanja. Pokušaj s drugom debitnom ili kreditnom karticom.
-duplicate-transaction = Hmm. Izgleda da je identična transakcija upravo poslana. Provjeri povijest plaćanja.
-coupon-expired = Čini se da je taj promotivni kôd istekao.
-card-error = Neuspjela obrada tvoje transakcije. Provjeri podatke za kreditnu karticu i pokušaj ponovo.
-# $productName (String) - The name of the subscribed product.
-fxa-account-signup-error-2 = Greška sustava je uzrok neuspjele registracije za { $productName }. Tvoj način plaćanja nije terećen. Pokušaj ponovo.
-newsletter-signup-error = Nisi registriran/a za primanje e-mailova o aktualiziranjima proizvoda. Možeš pokušati ponovo u postavkama računa.
-
-## IAP upgrade errors
-
-
-## Settings
+## Component - AppLayout
 
 settings-home = Početna stranica računa
-settings-subscriptions-title = Pretplate
 
-## Legal footer
+## Component - CouponForm
 
-terms = Uvjeti usluge
-privacy = Napomena o privatnosti
 
-## Subscription titles
+## Component - Fields
 
-subscription-create-title = Postavi svoju pretplatu
-subscription-success-title = Potvrda pretplate
-subscription-processing-title = Potvrđivanje pretplate…
-subscription-error-title = Pogreška pri potvrđivanju pretplate…
-subscription-noplanchange-title = Ova promjena plana pretplate nije podržana
+default-input-error = Ovo je obavezno polje
+input-error-is-required = Polje { $label } je obavezno
 
-## $productName (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed. It will be formatted as currency.
+## Component - Header
 
+
+## Component - NewUserEmailForm
+
+new-user-sign-in-link = Već imaš { -brand-name-firefox } račun? <a>Prijavi se</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-email =
+    .label = Upiši svoju e-mail adresu
+new-user-confirm-email =
+    .label = Potvrdi svoju e-mail adresu
+new-user-email-validate = E-mail adresa nije ispravna
+new-user-email-validate-confirm = E-mail adrese se ne poklapaju
+new-user-already-has-account-sign-in = Već imaš račun. <a>Prijavi se</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Je li e-mail adresa ispravna? { $domain } ne nudi e-mail adrese.
+
+## Component - PaymentConfirmation
+
+payment-confirmation-thanks-heading = Hvala ti!
+payment-confirmation-thanks-heading-account-exists = Hvala, sada provjeri svoju e-poštu!
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = Potvrdni e-mail poslan je na adresu { $email } s detaljima o tome kako početi koristiti { $product_name }.
+payment-confirmation-order-heading = Podaci narudžbe
+payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
+payment-confirmation-details-heading-2 = Informacije o plaćanju
+payment-confirmation-amount = { $amount } / { $interval }
+# $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in days.
-day-based-plan-details-amount =
+payment-confirmation-amount-day =
     { $intervalCount ->
-        [one] { $productName } se naplaćuje { $amount } dnevno
-        [few] { $productName } se naplaćuje { $amount } svaka { $intervalCount } dana
-       *[other] { $productName } se naplaćuje { $amount } svakih { $intervalCount } dana
+        [one] { $amount } dnevno
+        [few] { $amount } svaka { $intervalCount } dana
+       *[other] { $amount } svakih { $intervalCount } dana
     }
+# $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in weeks.
-week-based-plan-details-amount =
+payment-confirmation-amount-week =
     { $intervalCount ->
-        [one] { $productName } se naplaćuje { $amount } tjedno
-        [few] { $productName } se naplaćuje { $amount } svaka { $intervalCount } tjedna
-       *[other] { $productName } se naplaćuje { $amount } svakih { $intervalCount } tjedana
+        [one] { $amount } tjedno
+        [few] { $amount } svaka { $intervalCount } tjenda
+       *[other] { $amount } svakih { $intervalCount } tjedna
     }
+# $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in months.
-month-based-plan-details-amount =
+payment-confirmation-amount-month =
     { $intervalCount ->
-        [one] { $productName } se naplaćuje { $amount } mjesečno
-        [few] { $productName } se naplaćuje { $amount } svaka { $intervalCount } mjeseca
-       *[other] { $productName } se naplaćuje { $amount } svakih { $intervalCount } mjeseci
+        [one] { $amount } mjesečno
+        [few] { $amount } svaka { $intervalCount } mjeseca
+       *[other] { $amount } svakih { $intervalCount } mjeseci
     }
+# $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in years.
-year-based-plan-details-amount =
+payment-confirmation-amount-year =
     { $intervalCount ->
-        [one] { $productName } se naplaćuje { $amount } godišnje
-        [few] { $productName } se naplaćuje { $amount } svake { $intervalCount } godine
-       *[other] { $productName } se naplaćuje { $amount } svakih { $intervalCount } godina
+        [one] { $amount } godišnje
+        [few] { $amount } svake { $intervalCount } godine
+       *[other] { $amount } svakih { $intervalCount } godina
     }
+payment-confirmation-download-button = Nastavi s preuzimanjem
 
-## Product route
+## Component - PaymentConsentCheckbox
 
-product-plan-error =
-    .title = Problem pri učitavanju planova
-product-profile-error =
-    .title = Problem s učitavanjem profila
-product-customer-error =
-    .title = Problem s učitavanjem kupca
-product-plan-not-found = Plan nije pronađen
-product-no-such-plan = Za ovaj proizvod ne postoji takav plan.
 
-## Payment legal blurb
+## Component - PaymentErrorView
 
-payment-legal-copy-paypal = { -brand-name-mozilla } koristi { -brand-name-paypal } za sigurnu obradu plaćanja.
-payment-legal-copy-stripe-2 = { -brand-name-mozilla } koristi { -brand-name-stripe } za sigurnu obradu plaćanja.
+payment-error-retry-button = Pokušaj ponovno
+payment-error-manage-subscription-button = Upravljaj mojom pretplatom
 
-## Payment form
+## Component - PaymentErrorView - IAP upgrade errors
+
+
+## Component - PaymentForm
 
 payment-name =
     .placeholder = Potpuno ime
     .label = Prikazano ime na kartici
 payment-cc =
     .label = Tvoja kartica
-payment-ccn =
-    .label = Broj kartice
-payment-exp =
-    .label = Datum isteka
-payment-cvc =
-    .label = CVC
-payment-zip =
-    .label = Poštanski broj
 payment-cancel-btn = Odustani
 payment-update-btn = Aktualiziraj
 payment-pay-btn = Plati sada
 payment-pay-with-paypal-btn = Plati s { -brand-name-paypal }
 payment-validate-name-error = Upiši tvoje ime
-payment-validate-zip-required = Moraš zadati poštanski broj
-payment-validate-zip-short = Poštanski broj je prekratak
 
-## Subscription redirect
+## Component - PaymentLegalBlurb
 
-sub-redirect-ready = Tvoja pretplata je spremna
-sub-redirect-copy = Odvoji malo vremena i reci nam nešto o vlastitom iskustvu.
-sub-redirect-skip-survey = Ne hvala, samo me odvedite do mog proizvoda.
+payment-legal-copy-paypal = { -brand-name-mozilla } koristi { -brand-name-paypal } za sigurnu obradu plaćanja.
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } koristi { -brand-name-stripe } za sigurnu obradu plaćanja.
 
-## Fields
+## Component - PaymentMethodHeader
 
-default-input-error = Ovo je obavezno polje
-input-error-is-required = Polje { $label } je obavezno
+payment-method-header = Odaberi način plaćanja
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-required = Obavezno
 
-## Subscription upgrade
+## Component - PaymentProcessing
 
-product-plan-change-heading = Pregledaj svoju promjenu
-sub-change-failed = Promjena plana nije uspjela
-sub-update-payment-title = Informacije o plaćanju
-sub-update-card-exp = Isteče { $cardExpMonth }/{ $cardExpYear }
-sub-update-copy =
-    Tvoj plan će se odmah promijeniti i naplatit ćemo prilagođeni iznos
-    za ostatak obračunskog razdoblja. Počevši od { $startingDate }
-    naplatit ćemo puni iznos.
+payment-processing-message = Pričekaj dok obradimo tvoju uplatu…
 
-##
+## Component - PaymentProviderDetails
 
-sub-change-submit = Potvrdi promjenu
-sub-change-indicator =
-    .aria-label = indikator promjene
-sub-update-current-plan-label = Aktualni plan
-sub-update-new-plan-label = Novi plan
-sub-update-total-label = Nov ukupni iznos
+payment-confirmation-cc-card-ending-in = Kartica koja završava na { $last4 }
 
-## Subscription upgrade plan details
+## Component - PlanDetails
+
+plan-details-header = Podaci proizvoda
+plan-details-list-price = Cjenik
+plan-details-show-button = Pokaži podatke
+plan-details-hide-button = Sakrij podatke
+plan-details-total-label = Ukupno
+plan-details-tax = Porezi i naknade
+
+## Component - PlanErrorDialog
+
+product-no-such-plan = Za ovaj proizvod ne postoji takav plan.
+
+## Component - SubscriptionTitle
+
+subscription-create-title = Postavi svoju pretplatu
+subscription-success-title = Potvrda pretplate
+subscription-processing-title = Potvrđivanje pretplate…
+subscription-error-title = Pogreška pri potvrđivanju pretplate…
+subscription-noplanchange-title = Ova promjena plana pretplate nije podržana
+sub-guarantee = 30-dnevno jamstvo povrata novca
+
+## Component - TermsAndPrivacy
+
+terms = Uvjeti usluge
+privacy = Napomena o privatnosti
+
+## App-level string(s) and messages shared by multiple components or routes
+
+document =
+    .title = Firefox računi
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Zatvori modal
+settings-subscriptions-title = Pretplate
+
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
@@ -195,6 +216,91 @@ plan-price-year =
         [few] { $amount } svake { $intervalCount } godine
        *[other] { $amount } svakih { $intervalCount } godina
     }
+
+## Error messages
+
+# App error dialog
+general-error-heading = Opća greška programa
+basic-error-message = Nešto je pošlo po zlu. Pokušaj ponovo kasnije.
+payment-error-1 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Pokušaj ponovo ili kontaktiraj izdavatelja kartice.
+payment-error-2 = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Kontaktiraj svog izdavatelja kartice.
+expired-card-error = Čini se da je tvoja kreditna kartica istekla. Pokušaj s drugom karticom.
+insufficient-funds-error = Čini se da tvoja kartica nema dovoljno sredstava. Pokušaj s drugom karticom.
+withdrawal-count-limit-exceeded-error = Čini se da ćeš ovom transakcijom prijeći kreditni limit. Pokušaj s drugom karticom.
+charge-exceeds-source-limit = Čini se da ćeš ovom transakcijom prijeći svoj dnevni kreditni limit. Pokušaj s drugom karticom ili za 24 sata.
+instant-payouts-unsupported = Čini se da tvoja debitna kartica nije postavljena za trenutna plaćanja. Pokušaj s drugom debitnom ili kreditnom karticom.
+duplicate-transaction = Hmm. Izgleda da je identična transakcija upravo poslana. Provjeri povijest plaćanja.
+coupon-expired = Čini se da je taj promotivni kôd istekao.
+card-error = Neuspjela obrada tvoje transakcije. Provjeri podatke za kreditnu karticu i pokušaj ponovo.
+country-currency-mismatch = Valuta ove pretplate ne vrijedi za zemlju povezanu s tvojom plaćanjem.
+currency-currency-mismatch = Žao nam je. Ne možeš se prebacivati između valuta.
+no-subscription-change = Žao nam je. Ne možeš promijeniti tvoj plan pretplate.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Greška sustava je uzrok neuspjele registracije za { $productName }. Tvoj način plaćanja nije terećen. Pokušaj ponovo.
+newsletter-signup-error = Nisi registriran/a za primanje e-mailova o aktualiziranjima proizvoda. Možeš pokušati ponovo u postavkama računa.
+product-plan-error =
+    .title = Problem pri učitavanju planova
+product-profile-error =
+    .title = Problem s učitavanjem profila
+product-customer-error =
+    .title = Problem s učitavanjem kupca
+product-plan-not-found = Plan nije pronađen
+
+## Hooks - coupons
+
+coupon-success = Tvoj plan će se automatski obnoviti prema cjeniku.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Tvoj plan će se automatski obnoviti nakon { $couponDurationDate } prema cjeniku.
+
+## Routes - Checkout - New user
+
+new-user-step-1 = 1. Otvori { -brand-name-firefox } račun
+new-user-card-title = Upiši podatke tvoje kartice
+new-user-submit = Pretplati se sada
+
+## Routes - Product and Subscriptions
+
+sub-update-payment-title = Informacije o plaćanju
+
+## Routes - Checkout and Product/Subscription create
+
+pay-with-heading-card-or = Ili plati karticom
+pay-with-heading-card-only = Plati karticom
+
+## Routes - Product - IapRoadblock
+
+
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+
+
+## Routes - Product - Subscription upgrade
+
+product-plan-change-heading = Pregledaj svoju promjenu
+sub-change-failed = Promjena plana nije uspjela
+sub-update-copy =
+    Tvoj plan će se odmah promijeniti i naplatit ćemo prilagođeni iznos
+    za ostatak obračunskog razdoblja. Počevši od { $startingDate }
+    naplatit ćemo puni iznos.
+sub-change-submit = Potvrdi promjenu
+sub-update-current-plan-label = Aktualni plan
+sub-update-new-plan-label = Novi plan
+sub-update-total-label = Nov ukupni iznos
+
+## Routes - Subscriptions - Cancel
+
+sub-item-cancel-sub = Otkaži pretplatu
+sub-item-stay-sub = Zadrži pretplatu
+
+## $name (String) - The name of the subscribed product.
+## $period (Date) - The last day of product access
+
+sub-item-cancel-msg =
+    Nakon zadnjeg dana ciklusa naplate { $period }
+    više nećeš moći koristiti { $name }.
+sub-item-cancel-confirm =
+    Otkaži moj pristup i moje spremljene podatke na usluzi
+    { $name } { $period }
 
 ## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -228,16 +334,53 @@ sub-plan-price-year =
        *[other] { $amount } svakih { $intervalCount } godina
     }
 
+## Routes - Subscription
+
+sub-route-idx-reactivating = Ponovno aktiviranje pretplate nije uspjelo
+sub-route-idx-cancel-failed = Otkazivanje pretplate nije uspjelo
+sub-route-idx-contact = Obrati se podršci
+sub-route-idx-cancel-msg-title = Žao nam je što nas napuštaš
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    Tvoja pretplata na { $name } je otkazana.
+          <br />
+          I dalje imaš pristup usluzi { $name } do { $date }.
+sub-route-idx-cancel-aside = Imaš pitanja? Posjeti <a>{ -brand-name-mozilla } podršku</a>.
+
+## Routes - Subscriptions - Errors
+
+sub-customer-error =
+    .title = Problem s učitavanjem kupca
+sub-billing-update-success = Podaci naplate uspješno su aktualizirani
+
+## Routes - Subscription - ActionButton
+
+pay-update-change-btn = Promijeni
+pay-update-manage-btn = Upravljaj
+
+## Routes - Subscriptions - Cancel and IapItem
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Sljedeće naplaćivanje { $date }
 
-##
+## Routes - Subscription - PaymentUpdate
+
+
+# $expirationDate (Date) - The payment card's expiration date.
 
 pay-update-card-exp = Isteče { $expirationDate }
-pay-update-change-btn = Promijeni
+sub-route-idx-updating = Aktualiziranje podataka naplate …
+sub-route-payment-modal-heading = Nevaljane informacije o plaćanju
 
-## reactivate
+## Routes - Subscription - SubscriptionItem
+
+sub-item-no-such-plan = Ne postoji takav plan za ovu pretplatu.
+
+## Routes - Subscriptions - Pocket Subscription
+
+
+## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Želiš li i dalje upotrebljavati { $name }?
@@ -259,151 +402,9 @@ reactivate-confirm-button = Obnovi pretplatu
 
 ## $date (Date) - Last day of product access
 
-reactivate-panel-date = Pretplata je otkazana { $date }.
 reactivate-panel-copy = Izgubit ćeš pristup usluzi { $name } <strong>{ $date }</strong>
 reactivate-success-copy = Hvala! Spremno je.
 reactivate-success-button = Zatvori
 
-## Subscription item
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
+## Routes - Subscriptions - Subscription iap item
 
-sub-item-missing = Problem s učitavanjem pretplata
-sub-item-missing-msg = Pokušaj ponovo kasnije.
-sub-item-no-such-plan = Ne postoji takav plan za ovu pretplatu.
-sub-item-cancel-sub = Otkaži pretplatu
-sub-item-stay-sub = Zadrži pretplatu
-sub-item-cancel-msg =
-    Nakon zadnjeg dana ciklusa naplate { $period }
-    više nećeš moći koristiti { $name }.
-sub-item-cancel-confirm =
-    Otkaži moj pristup i moje spremljene podatke na usluzi
-    { $name } { $period }
-
-## Subscription iap item
-
-account-activated = Tvoj je račun aktiviran, <userEl/>
-
-## Subscription route index
-
-sub-route-idx-updating = Aktualiziranje podataka naplate …
-sub-route-idx-reactivating = Ponovno aktiviranje pretplate nije uspjelo
-sub-route-idx-cancel-failed = Otkazivanje pretplate nije uspjelo
-sub-route-idx-contact = Obrati se podršci
-sub-route-idx-cancel-msg-title = Žao nam je što nas napuštaš
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-sub-route-idx-cancel-msg =
-    Tvoja pretplata na { $name } je otkazana.
-          <br />
-          I dalje imaš pristup usluzi { $name } do { $date }.
-sub-route-idx-cancel-aside = Imaš pitanja? Posjeti <a>{ -brand-name-mozilla } podršku</a>.
-sub-subscription-error =
-    .title = Problem s učitavanjem pretplata
-sub-customer-error =
-    .title = Problem s učitavanjem kupca
-sub-billing-update-success = Podaci naplate uspješno su aktualizirani
-sub-route-payment-modal-heading = Nevaljane informacije o plaćanju
-pay-update-manage-btn = Upravljaj
-
-## Subscription create
-
-sub-guarantee = 30-dnevno jamstvo povrata novca
-pay-with-heading-other = Odaberi opciju plaćanja
-pay-with-heading-card-or = Ili plati karticom
-pay-with-heading-card-only = Plati karticom
-
-## Plan details
-
-plan-details-header = Podaci proizvoda
-plan-details-show-button = Pokaži podatke
-plan-details-hide-button = Sakrij podatke
-plan-details-total-label = Ukupno
-plan-details-list-price = Cjenik
-plan-details-tax = Porezi i naknade
-
-## Coupons
-
-coupon-success = Tvoj plan će se automatski obnoviti prema cjeniku.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-coupon-success-repeating = Tvoj plan će se automatski obnoviti nakon { $couponDurationDate } prema cjeniku.
-
-## Payment processing
-
-payment-processing-message = Pričekaj dok obradimo tvoju uplatu…
-
-## Payment confirmation
-
-payment-confirmation-alert = Pritisni ovdje za preuzimanje
-payment-confirmation-mobile-alert = Program se nije otvorio? <a>Pritisni ovdje</a>
-payment-confirmation-thanks-heading = Hvala ti!
-
-## Payment confirmation details
-## $email (string) - The user's email.
-## $productName (String) - The name of the subscribed product.
-
-payment-confirmation-thanks-subheading = Potvrdni e-mail poslan je na adresu { $email } s detaljima o tome kako početi koristiti { $product_name }.
-payment-confirmation-thanks-heading-account-exists = Hvala, sada provjeri svoju e-poštu!
-
-## $email (string) - The user's email.
-
-payment-confirmation-order-heading = Podaci narudžbe
-payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
-payment-confirmation-billing-heading = Naplata za
-payment-confirmation-details-heading-2 = Informacije o plaćanju
-payment-confirmation-amount = { $amount } / { $interval }
-
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-payment-confirmation-amount-day =
-    { $intervalCount ->
-        [one] { $amount } dnevno
-        [few] { $amount } svaka { $intervalCount } dana
-       *[other] { $amount } svakih { $intervalCount } dana
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-payment-confirmation-amount-week =
-    { $intervalCount ->
-        [one] { $amount } tjedno
-        [few] { $amount } svaka { $intervalCount } tjenda
-       *[other] { $amount } svakih { $intervalCount } tjedna
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-payment-confirmation-amount-month =
-    { $intervalCount ->
-        [one] { $amount } mjesečno
-        [few] { $amount } svaka { $intervalCount } mjeseca
-       *[other] { $amount } svakih { $intervalCount } mjeseci
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-payment-confirmation-amount-year =
-    { $intervalCount ->
-        [one] { $amount } godišnje
-        [few] { $amount } svake { $intervalCount } godine
-       *[other] { $amount } svakih { $intervalCount } godina
-    }
-payment-confirmation-download-button = Nastavi s preuzimanjem
-payment-confirmation-cc-card-ending-in = Kartica koja završava na { $last4 }
-
-## New user email form
-
-new-user-sign-in-link = Već imaš { -brand-name-firefox } račun? <a>Prijavi se</a>
-new-user-step-1 = 1. Otvori { -brand-name-firefox } račun
-# "Required" to indicate that the user must use the checkbox below this text to
-# agree to a payment method's terms of service and privacy notice in order to
-# continue.
-new-user-email =
-    .label = Upiši svoju e-mail adresu
-new-user-confirm-email =
-    .label = Potvrdi svoju e-mail adresu
-new-user-email-validate = E-mail adresa nije ispravna
-new-user-email-validate-confirm = E-mail adrese se ne poklapaju
-# $domain (String) - the email domain provided by the user during sign up
-new-user-invalid-email-domain = Je li e-mail adresa ispravna? { $domain } ne nudi e-mail adrese.
-new-user-card-title = Upiši podatke tvoje kartice
-new-user-submit = Pretplati se sada
-payment-method-header = Odaberi način plaćanja
-# This message is used to indicate the second step in a multi step process.
-payment-method-header-second-step = 2. { payment-method-header }
-payment-method-required = Obavezno
