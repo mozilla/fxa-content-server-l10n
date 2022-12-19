@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-11-05 14:41+0000\n"
+"PO-Revision-Date: 2022-12-19 19:19+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -427,7 +427,7 @@ msgstr "Ova e-mail adresa već postoji u tvom računu"
 
 #: .es5/lib/auth-errors.js:184
 msgid "Primary account email required for sign-in"
-msgstr "Za prijavu je potrebna je primarna e-mail adresa"
+msgstr "Za prijavu je potrebna primarna e-mail adresa"
 
 #: .es5/lib/auth-errors.js:188
 msgid "Address in use by another account"
@@ -439,7 +439,7 @@ msgstr "Za resetiranje je potrebna primarna e-mail adresa računa"
 
 #: .es5/lib/auth-errors.js:196
 msgid "Invalid signin code"
-msgstr "Netočan kȏd za prijavu"
+msgstr "Neispravan kȏd za prijavu"
 
 #: .es5/lib/auth-errors.js:200
 msgid "Can not change primary email to an unverified email"
@@ -628,7 +628,7 @@ msgstr "Morate unijeti svoju dob kako biste se prijavili"
 
 #: .es5/lib/auth-errors.js:456
 msgid "You must enter a valid age to sign up"
-msgstr "Morate unijeti valjanu dob za prijavu"
+msgstr "Za registraciju moraš upisati ispravnu starost"
 
 #: .es5/lib/auth-errors.js:472
 msgid "Account no longer exists."
@@ -843,11 +843,8 @@ msgid "Invalid Token"
 msgstr "Nevažeći token"
 
 #: .es5/lib/strings.js:25
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
-msgstr ""
-"Ako nastaviš, prihvaćaš <a id=\"service-tos\" href=\"%(termsUri)s\">uvjete usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">obavijest o privatnosti</a> od %(serviceName)s (%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgstr "Ako nastaviš, prihvaćaš <a id=\"service-tos\" href=\"%(termsUri)s\">uvjete usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">obavijest o privatnosti</a> od %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:31
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -871,7 +868,7 @@ msgstr "IP adresa: %(ip)s"
 
 #: .es5/lib/strings.js:39 .es5/templates/push/confirm_login.mustache:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "Zbog dodatne sigurnosti potvrdite ovu prijavu kako biste započeli sinkronizaciju s ovim uređajem:"
+msgstr "U smislu dodatne sigurnosti potvrdi ovu prijavu za pokretanje sinkronizacije s ovim uređajem:"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -915,8 +912,7 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Za dobivanje pristupa svom Firefox računu upiši jednokratni ključ za obnavljanje računa koji si spremio/la na sigurno mjesto."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid ""
-"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NAPOMENA:</span> Ukoliko resetirate vašu lozinku, a nemate ključ za oporavak računa spremljen, dio vaših podataka će biti obrisan (uključujući sinkronizirane podatke sa "
 "poslužitelja kao povijest i zabilješke)."
@@ -1160,10 +1156,8 @@ msgid "Password"
 msgstr "Lozinka"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:17 .es5/templates/post_verify/finish_account_setup/set_password.mustache:11
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
-"Ako nastaviš, prihvaćaš <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">uvjete usluge</a> i <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">obavijest o privatnosti</a>."
+msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr "Ako nastaviš, prihvaćaš <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">uvjete usluge</a> i <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">obavijest o privatnosti</a>."
 
 #: .es5/templates/force_auth.mustache:9 .es5/templates/sign_in_password.mustache:14 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1428,15 +1422,13 @@ msgstr "Više ne posjeduješ tu e-adresu? Otvori novi račun"
 msgid ""
 "\n"
 "              By proceeding, you agree to:<br />\n"
-"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
-"en/privacy/\">Privacy Notice</a><br />\n"
+"              Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
 "\n"
 "              Ako nastaviš, prihvaćaš:<br />\n"
-"              Pocketove <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">uvjete usluge</a> i <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/"
-"privacy/\">obavijest o privatnosti</a><br />\n"
+"              Pocketove <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">uvjete usluge</a> i <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">obavijest o privatnosti</a><br />\n"
 "              Firefoxove <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">uvjete usluge</a> i <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">obavijest o privatnosti</a>.\n"
 "            "
 
@@ -1528,15 +1520,13 @@ msgstr "Otvori račun"
 msgid ""
 "\n"
 "            By proceeding, you agree to:<br />\n"
-"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">Privacy Notice</a><br />\n"
+"            Pocket’s <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Terms of Service</a> and <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Privacy Notice</a><br />\n"
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Ako nastaviš, prihvaćaš::<br />\n"
-"            Pocketove <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">uvjete usluge</a> i <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/"
-"privacy/\">obavijest o privatnosti</a><br />\n"
+"            Pocketove <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">uvjete usluge</a> i <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">obavijest o privatnosti</a><br />\n"
 "            Firefoxove <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">uvjete usluge</a> i <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">obavijest o privatnosti</a>\n"
 "          "
 
@@ -1700,7 +1690,7 @@ msgstr "za nastavak na %(serviceName)s"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr "Otkrili smo sumnjivo ponašanje na tvom računu za Firefox. Za zaštitu tvog računa, stvori novu lozinku. Koristit ćeš ovu lozinku za ponovnu prijavu na sve tvoje usluge Firefox računa."
+msgstr "Otkrili smo sumnjivo ponašanje na tvom Firefox računu. Za zaštitu tvog računa, stvori novu lozinku. Koristit ćeš ovu lozinku za ponovnu prijavu na sve tvoje usluge Firefox računa."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -2035,8 +2025,7 @@ msgid "Sync your device"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:6
-msgid ""
-"Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
+msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:7
