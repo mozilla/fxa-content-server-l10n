@@ -213,6 +213,7 @@ downloadSubscription-link-action-2 = Бастау
 fraudulentAccountDeletion-subject = Сіздің { -product-firefox-account } өшірілді
 fraudulentAccountDeletion-title = Сіздің тіркелгіңіз өшірілді
 fraudulentAccountDeletion-content = { -product-firefox-account } жуырда жасалды және осы эл. пошта адресі арқылы жазылым ақысы алынды. Барлық жаңа тіркелгілермен сияқты, алдымен осы эл. пошта адресін растау арқылы тіркелгіңізді растауыңызды сұрадық.
+fraudulentAccountDeletion-content-2 = Қазіргі уақытта біз тіркелгінің ешқашан расталмағанын көріп отырмыз. Бұл қадам аяқталмағандықтан, бұл рұқсат етілген жазылу болғанына сенімді емеспіз. Нәтижесінде, осы эл. пошта адресіне тіркелген { -product-firefox-account } өшірілді және барлық төлемдер қайтарылып, жазылуыңыздан бас тартылды.
 fraudulentAccountDeletion-contact = Сұрақтарыңыз болса, біздің <a data-l10n-name="mozillaSupportUrl">қолдау көрсету тобымызға</a> хабарласыңыз.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -275,6 +276,7 @@ postAddAccountRecovery-title2 = Сіз тіркелгіні қалпына ке�
 postAddAccountRecovery-description-2 = Жаңа кілт келесі жерден жасалды:
 # This is asking whether the person who took the action is the recipient of the email.
 postAddAccountRecovery-not-you = Сен емессіз бе?
+postAddAccountRecovery-change = <a data-l10n-name="revokeAccountRecoveryLink">Жана кілтті өшіріңіз</a> және <a data-l10n-name="passwordChangeLink">өз пароліңізді өзгертіңіз</a>
 postAddAccountRecovery-action = Тіркелгіні басқару
 postAddAccountRecovery-delete-key = Жаңа кілтті өшіру:
 postAddAccountRecovery-changd-password = Пароліңізді өзгертіңіз:
@@ -342,6 +344,10 @@ postVerifySecondary-content-2 = Сіз { $secondaryEmail } адресін { -pro
 postVerifySecondary-action = Тіркелгіні басқару
 recovery-subject = Парольді тастау
 recovery-title-2 = Пароліңізді ұмыттыңыз ба?
+# Information on the browser, IP address, date and time of the request that
+# triggered the email follows.
+recovery-request-origin = Біз сіздің { -product-firefox-account } тіркелгіңізді паролін өзгерту туралы сұрауды алдық:
+recovery-new-password-button = Төмендегі батырманы басу арқылы жаңа парольді жасаңыз. Бұл сілтеме мерзімі келесі сағат ішінде аяқталады.
 recovery-copy-paste = Төмендегі URL адресін көшіріп, браузерге кірістіру арқылы жаңа парольді жасаңыз. Бұл сілтеме мерзімі келесі сағатта аяқталады.
 recovery-action = Жаңа парольді жасау
 #  Variables:
@@ -384,6 +390,8 @@ subscriptionCancellation-title = Кеткеніңізге өкінеміз
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Біз сіздің { $productName } жазылуыңызды тоқтаттық. { $invoiceTotal } соңғы төлеміңіз { $invoiceDateOnly } күні төленді.
+subscriptionCancellation-outstanding-content-2 = Біз сіздің { $productName } жазылуыңызды тоқтаттық. { $invoiceTotal } соңғы төлеміңіз { $invoiceDateOnly } күні төленеді.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Сіз { $productName } өніміне ауыстыңыз
