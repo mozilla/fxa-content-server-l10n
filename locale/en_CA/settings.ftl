@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -36,6 +37,9 @@ product-firefox-relay = Firefox Relay
 
 ## Ready component
 
+ready-confirmation = Your password has been reset
+ready-continue = Continue
+
 ## Alert Bar
 
 alert-bar-close-message = Close message
@@ -49,18 +53,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } Bento Menu
 bento-menu-firefox-title = { -brand-firefox } is tech that fights for your online privacy.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser for Desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser for Mobile
-
 bento-menu-made-by-mozilla = Made by { -brand-mozilla }
 
 ## Connect another device promo
@@ -69,7 +72,6 @@ connect-another-fx-mobile = Get { -brand-firefox } on mobile or tablet
 connect-another-find-fx-mobile =
     Find { -brand-firefox } in the { -google-play } and { -app-store } or
     <br /><linkExternal>send a download link to your device.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -78,6 +80,7 @@ connect-another-app-store-image-2 =
     .title = Download { -brand-firefox } on the { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -90,13 +93,10 @@ cs-cannot-disconnect = Client not found, unable to disconnect
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Logged out of { $service }
-
 cs-refresh-button =
     .title = Refresh connected services
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Missing or duplicate items?
-
 cs-disconnect-sync-heading = Disconnect from Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -127,10 +127,10 @@ cs-disconnect-lost-advice-heading = Lost or stolen device disconnected
 cs-disconnect-lost-advice-content-2 = Since your device was lost or stolen, to keep your information safe, you should change your { -product-firefox-account } password in your account settings. You should also look for information from your device manufacturer about erasing your data remotely.
 cs-disconnect-suspicious-advice-heading = Suspicious device disconnected
 cs-disconnect-suspicious-advice-content = If the disconnected device is indeed suspicious, to keep your information safe, you should change your { -product-firefox-account } password in your account settings. You should also change any other passwords you saved in { -brand-firefox } by typing about:logins into the address bar.
-
 cs-sign-out-button = Sign out
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -159,7 +159,6 @@ drop-down-menu-title = { -product-firefox-account } menu
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Signed in as</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Sign out
-
 drop-down-menu-sign-out-error-2 = Sorry, there was a problem signing you out
 
 ## Flow Container
@@ -193,7 +192,6 @@ input-password-hide = Hide password
 input-password-show = Show password
 input-password-hide-aria = Hide password from screen.
 input-password-show-aria = Show password as plain text. Your password will be visible on screen.
-
 
 ## Linked Accounts section
 
@@ -274,11 +272,11 @@ avatar-page-image-too-large-error-2 = The image file size is too large to be upl
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Change password
-
 pw-8-chars = At least 8 characters
 pw-not-email = Not your email address
 pw-change-must-match = New password matches confirmation
@@ -288,40 +286,35 @@ pw-tips = Stay safe — don’t reuse passwords. See more tips to <linkExternal>
 pw-change-cancel-button = Cancel
 pw-change-save-button = Save
 pw-change-forgot-password-link = Forgot password?
-
 pw-change-current-password =
     .label = Enter current password
 pw-change-new-password =
     .label = Enter new password
 pw-change-confirm-password =
     .label = Confirm new password
-
 pw-change-success-alert-2 = Password updated
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Create password
-
 pw-create-success-alert-2 = Password set
 pw-create-error-2 = Sorry, there was a problem setting your password
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Delete account
-
 delete-account-step-1-2 = Step 1 of 2
 delete-account-step-2-2 = Step 2 of 2
-
 delete-account-confirm-title-2 = You’ve connected your { -product-firefox-account } to { -brand-mozilla } products that keep you secure and productive on the web:
-
 delete-account-acknowledge = Please acknowledge that by deleting your account:
-
 delete-account-chk-box-1-v2 =
     .label = Any paid subscriptions you have will be cancelled (Except { product-pocket })
 delete-account-chk-box-2 =
@@ -330,33 +323,28 @@ delete-account-chk-box-3 =
     .label = Reactivating with this email may not restore your saved information
 delete-account-chk-box-4 =
     .label = Any extensions and themes that you published to addons.mozilla.org will be deleted
-
-
 delete-account-continue-button = Continue
-
 delete-account-password-input =
     .label = Enter password
-
 delete-account-cancel-button = Cancel
 delete-account-delete-button-2 = Delete
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Display name
-
 display-name-input =
     .label = Enter display name
 submit-display-name = Save
 cancel-display-name = Cancel
-
 display-name-update-error-2 = There was a problem updating your display name
-
 display-name-success-alert-2 = Display name updated
 
 ##
+
 
 # Account recovery key setup page
 
@@ -410,23 +398,18 @@ delete-account-link = Delete account
 ## Two Step Authentication
 
 tfa-title = Two-step authentication
-
 tfa-step-1-3 = Step 1 of 3
 tfa-step-2-3 = Step 2 of 3
 tfa-step-3-3 = Step 3 of 3
-
 tfa-button-continue = Continue
 tfa-button-cancel = Cancel
 tfa-button-finish = Finish
-
 tfa-incorrect-totp = Incorrect two-step authentication code
 tfa-cannot-retrieve-code = There was a problem retrieving your code.
 tfa-cannot-verify-code-4 = There was a problem confirming your backup authentication code
 tfa-incorrect-recovery-code-1 = Incorrect backup authentication code
 tfa-enabled = Two-step authentication enabled
-
 tfa-scan-this-code = Scan this QR code using one of <linkExternal>these authentication apps</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -435,17 +418,14 @@ tfa-qa-code-alt = Use the code { $secret } to set up two-step authentication in 
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Can't scan code?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Enter this secret key into your authenticator app:
-
 tfa-enter-totp = Now enter the security code from the authentication app.
 tfa-input-enter-totp =
     .label = Enter security code
 tfa-save-these-codes-1 =
     Save these one-time use backup authentication codes in a safe place for when
     you don’t have your mobile device.
-
 tfa-enter-code-to-confirm-1 =
     Please enter one of your backup authentication codes now to
     confirm you’ve saved it. You’ll need a code to login if you don’t have access to your
@@ -454,6 +434,7 @@ tfa-enter-recovery-code-1 =
     .label = Enter a backup authentication code
 
 ##
+
 
 ## Profile section
 
@@ -466,6 +447,7 @@ profile-primary-email =
     .header = Primary email
 
 ##
+
 
 ## Security section of Setting
 
@@ -557,6 +539,7 @@ se-secondary-email-none = None
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Two-step authentication
@@ -565,20 +548,17 @@ tfa-row-enabled = Enabled
 tfa-row-not-set = Not set
 tfa-row-action-add = Add
 tfa-row-action-disable = Disable
-
 tfa-row-button-refresh =
     .title = Refresh two-step authentication
 tfa-row-cannot-refresh = Sorry, there was a problem refreshing two-step authentication.
 tfa-row-content-explain = Prevent someone else from logging in by requiring a unique code only you have access to.
 tfa-row-cannot-verify-session-4 = Sorry, there was a problem confirming your session
-
 tfa-row-disable-modal-heading = Disable two-step authentication?
 tfa-row-disable-modal-confirm = Disable
 tfa-row-disable-modal-explain-1 =
     You won’t be able to undo this action. You also
     have the option of <linkExternal>replacing your backup authentication codes</linkExternal>.
 tfa-row-cannot-disable-2 = Two-step authentication could not be disabled
-
 tfa-row-change-modal-heading-1 = Change backup authentication codes?
 tfa-row-change-modal-confirm = Change
 tfa-row-change-modal-explain = You won’t be able to undo this action.
