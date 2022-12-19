@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-18 14:25+0000\n"
+"PO-Revision-Date: 2022-12-19 15:30+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -1830,11 +1830,12 @@ msgstr "Тіркелгіні қалпына келтіру кілтімен де
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:5
 msgid "Your synced data can include passwords you've saved."
-msgstr ""
+msgstr "Синхрондалған деректерде сіз сақтаған парольдер болуы мүмкін."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:6
 msgid "Because this information is critical to your security, Firefox deletes it to protect you when your password is reset to prevent other people from accessing it."
 msgstr ""
+"Бұл ақпарат сіздің қауіпсіздігіңіз үшін маңызды болғандықтан, басқа адамдардың оған қол жеткізуге жол бермеу үшін пароліңізді қалпына келтіру кезінде сізді қорғау үшін Firefox ол ақпаратты өшіреді."
 
 #: .es5/templates/post_verify/account_recovery/add_recovery_key.mustache:7
 msgid "Get an Account Recovery Key"
@@ -1842,15 +1843,15 @@ msgstr "Тіркелгіні қалпына келтіру кілтін алу"
 
 #: .es5/templates/post_verify/account_recovery/confirm_password.mustache:5
 msgid "Please confirm your password for %(escapedEmail)s to generate your account recovery key."
-msgstr ""
+msgstr "Тіркелгіні қалпына келтіру кілтін жасау үшін %(escapedEmail)s үшін парольді растаңыз."
 
 #: .es5/templates/post_verify/account_recovery/confirm_recovery_key.mustache:5
 msgid "Enter your account recovery key to confirm that you've saved a copy."
-msgstr ""
+msgstr "Көшірмені сақтағаныңызды растау үшін тіркелгіні қалпына келтіру кілтін енгізіңіз."
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:1 .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:4
 msgid "Save account recovery key"
-msgstr ""
+msgstr "Тіркелгіні қалпына келтіру кілтін сақтау"
 
 #: .es5/templates/post_verify/account_recovery/save_recovery_key.mustache:10
 msgid "Done"
@@ -1858,11 +1859,11 @@ msgstr "Дайын"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Маған бұл тіркелгіні неліктен жасау керек? <a %(escapedSuggestionAttrs)s>Осы жерден біліңіз</a>"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "Сіздің жасыңыз нешеде? Неліктен жасыңызды сұрайтынымызды білу үшін төмендегі \"Неліктен сұраймыз\" сілтемесін ашыңыз."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1874,7 +1875,7 @@ msgstr "Оны неліктен сұраймыз?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
-msgstr ""
+msgstr "%(OS)s жүйесінде %(family)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
@@ -1918,7 +1919,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Қап, біздің жүйеде ақау бар. Біз оны жөндеу үстіндеміз және қолайсыздық үшін кешірім сұраймыз. Кейінірек қайталап көріңіз."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
@@ -1977,7 +1978,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Енді сіз барлық құрылғыларда өзіңіздің ашық беттер, парольдер және бетбелгілерге қол жеткізе аласыз."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"

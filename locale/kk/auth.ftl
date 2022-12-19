@@ -421,8 +421,19 @@ subscriptionFirstInvoice-subject = { $productName } төлемі расталд�
 subscriptionFirstInvoice-title = { $productName } қызметіне жазылғаныңыз үшін рахмет
 subscriptionFirstInvoice-content-processing = Сіздің төлеміңіз қазір өңделуде және оған төрт жұмыс күні кетуі мүмкін.
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Сіз { $productName } пайдалануды қалай бастау керектігі туралы бөлек электрондық хат аласыз.
+subscriptionFirstInvoice-content-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
+# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = { $productName } үшін несие картасының мерзімі бітті немесе жақында аяқталады
+subscriptionPaymentExpired-title-1 = Сіздің несие картаңыздың мерзімі бітті немесе аяқталуға жақын
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = { $productName } қызметіне төлем жасау үшін пайдаланып жатқан несие картасының мерзімі бітті немесе аяқталуға жақын.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } төлемі сәтсіз аяқталды
@@ -485,6 +496,9 @@ subscriptionUpgrade-title = Жаңартылғаныңыз үшін рахмет
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info = Сіз { $productNameOld } өнімінен { $productName } өніміне сәтті жаңартылдыңыз.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-install = { $productName } пайдалану үшін жаңа бағдарламалық қамтаманы орнату керек болса, жүктеп алу нұсқаулары бар бөлек электрондық хат аласыз.
 subscriptionUpgrade-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
 unblockCode-subject = Тіркелгіні авторизациялау коды
 unblockCode-title = Кірем деген сіз бе?
@@ -508,8 +522,11 @@ verificationReminderFirst-action-2 = Тіркелгіні растау
 verificationReminderSecond-subject-2 = Тіркелгіңізді растауды ұмытпаңыз
 verificationReminderSecond-title-2 = { -brand-firefox } жіберіп алмаңыз!
 verificationReminderSecond-description-3 = Бірнеше күн бұрын сіз { -product-firefox-account } жасадыңыз, бірақ оны ешқашан растамадыңыз. Тіркелгіңізді келесі 10 күнде растаңыз, болмаса ол автоматты түрде өшіріледі.
+verificationReminderSecond-second-description = { -product-firefox-account } ақпаратыңызды құрылғылар арасында синхрондауға мүмкіндік береді және { -brand-mozilla } ұсынған басқа да құпиялылықты қорғайтын өнімдерге қол жеткізу мүмкіндігін береді.
+verificationReminderSecond-sub-description-2 = Интернетті әркім үшін ашық жерге айналдыру миссиямыздың бір бөлігі болыңыз.
 verificationReminderSecond-action-2 = Тіркелгіні растау
 verify-title-2 = { -brand-firefox } көмегімен Интернетті ашыңыз
+verify-description = Тіркелгіңізді растаңыз және { -brand-firefox } мүмкіндігін барлық жүйеге кірген жерлерде пайдаланыңыз, келесіден бастап:
 verify-subject = Тіркелгіні жасауды аяқтаңыз
 verify-action-2 = Тіркелгіні растау
 # Variables:
@@ -537,6 +554,9 @@ verifyPrimary-post-verify-2 = Расталғаннан кейін, екінші�
 verifySecondaryCode-subject = Екіншілік эл. поштаңызды растау
 verifySecondaryCode-title-2 = Екіншілік эл. поштаңызды растау
 verifySecondaryCode-action-2 = Эл. поштаны растау
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer = { $email } адресін екіншілік эл. пошта адресі ретінде қолдану сұранымы келесі { -product-firefox-account } тіркелгісінен жасалған:
 verifySecondaryCode-prompt-2 = Бұл растау кодын пайдалану:
 verifySecondaryCode-expiry-notice-2 = Оның мерзімі 5 минутта бітеді. Расталғаннан кейін бұл адрес қауіпсіздік хабарландырулары мен растауларын ала бастайды.
 # Variables:
