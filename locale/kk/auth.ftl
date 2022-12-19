@@ -392,6 +392,9 @@ subscriptionCancellation-title = Кеткеніңізге өкінеміз
 
 subscriptionCancellation-content-2 = Біз сіздің { $productName } жазылуыңызды тоқтаттық. { $invoiceTotal } соңғы төлеміңіз { $invoiceDateOnly } күні төленді.
 subscriptionCancellation-outstanding-content-2 = Біз сіздің { $productName } жазылуыңызды тоқтаттық. { $invoiceTotal } соңғы төлеміңіз { $invoiceDateOnly } күні төленеді.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Сіздің қызмет көрсету ағымдағы төлем кезеңіңіздің соңына дейін жалғасады, яғни { $serviceLastActiveDateOnly } дейін.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Сіз { $productName } өніміне ауыстыңыз
@@ -400,8 +403,23 @@ subscriptionDowngrade-subject = Сіз { $productName } өніміне ауыс�
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Сіз { $productNameOld } өнімінен { $productName } өніміне сәтті ауыстыңыз.
 # Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = { $productName } пайдалану үшін жаңа бағдарламалық қамтаманы орнату керек болса, жүктеп алу нұсқаулары бар бөлек электрондық хат аласыз.
+subscriptionDowngrade-content-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Сіздің { $productName } жазылуыңыз тоқтатылды
+subscriptionFailedPaymentsCancellation-title = Сіздің жазылуыңыз тоқтатылды
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Бірнеше төлем әрекеті сәтсіз аяқталатындықтан, сіздің { $productName } жазылуыңызды тоқтаттық. Қайта қол жеткізу үшін, жаңартылған төлем әдісімен жаңа жазылуды бастаңыз.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = { $productName } төлемі расталды
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = { $productName } қызметіне жазылғаныңыз үшін рахмет
+subscriptionFirstInvoice-content-processing = Сіздің төлеміңіз қазір өңделуде және оған төрт жұмыс күні кетуі мүмкін.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
