@@ -155,13 +155,16 @@ payment-method-required = Міндетті
 
 ## Component - PaymentProcessing
 
+payment-processing-message = Төлеміңізді өңделгенше күтіңіз…
 
 ## Component - PaymentProviderDetails
 
+payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын карта
 
 ## Component - PlanDetails
 
 plan-details-header = Өнім мәліметтері
+plan-details-list-price = Прейскурант
 plan-details-show-button = Мәліметтерді көрсету
 plan-details-hide-button = Мәліметтерді жасыру
 plan-details-total-label = Барлығы
@@ -199,33 +202,59 @@ coupon-promo-code = Промокод
 
 # App error dialog
 general-error-heading = Жалпы қолданба қатесі
+product-plan-error =
+    .title = Жоспарларды жүктеу мәселесі
+product-profile-error =
+    .title = Профильді жүктеу мәселесі
+product-customer-error =
+    .title = Тұтынушыны жүктеу мәселесі
+product-plan-not-found = Жоспар табылмады
 
 ## Hooks - coupons
 
+coupon-success = Сіздің жоспарыңыз тізімдік баға бойынша автоматты түрде жаңартылады.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Жоспарыңыз тізім бағасы бойынша { $couponDurationDate } кейін автоматты түрде жаңартылады.
 
 ## Routes - Checkout - New user
 
 new-user-step-1 = 1. { -brand-name-firefox } тіркелгісін жасау
+new-user-card-title = Карта ақпаратын енгізіңіз
+new-user-submit = Қазір жазылу
 
 ## Routes - Product and Subscriptions
 
+sub-update-payment-title = Төлем ақпараты
 
 ## Routes - Checkout and Product/Subscription create
 
+pay-with-heading-card-or = Немесе картамен төлеңіз
+pay-with-heading-card-only = Картамен төлеу
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Біз сізді әлі толықтай жаңарта алмаймыз
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play = { -brand-name-google } Play Store
+# App Store here refers to Apple's App Store not the generic app store.
+brand-name-apple-app-store = App Store
 
 ## Routes - Product - Subscription upgrade
 
+product-plan-change-heading = Өзгерісіңізді қарап шығыңыз
+sub-change-failed = Жоспарды өзгерту сәтсіз аяқталды
+sub-change-submit = Өзгерісті растау
+sub-update-current-plan-label = Ағымдағы жоспар
 sub-update-new-plan-label = Жаңа жоспар
+sub-update-total-label = Жаңа толық сома
 
 ## Routes - Subscriptions - Cancel
 
+sub-item-cancel-sub = Жазылудан бас тарту
+sub-item-stay-sub = Жазылуда қала беру
 
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
@@ -237,9 +266,18 @@ sub-update-new-plan-label = Жаңа жоспар
 
 ## Routes - Subscription
 
+sub-route-idx-reactivating = Жазылуды қайта белсендіру сәтсіз аяқталды
+sub-route-idx-cancel-failed = Жазылудан бас тарту сәтсіз аяқталды
+sub-route-idx-contact = Қолдау қызметіне хабарласу
+sub-route-idx-cancel-msg-title = Кетіп қалуыңыздан өкінеміз
 
 ## Routes - Subscriptions - Errors
 
+sub-customer-error =
+    .title = Тұтынушыны жүктеу мәселесі
+sub-invoice-error =
+    .title = Шот-фактураларды жүктеу мәселесі
+sub-billing-update-success = Төлем ақпаратыңыз сәтті жаңартылды
 
 ## Routes - Subscription - ActionButton
 
@@ -249,15 +287,24 @@ pay-update-manage-btn = Басқару
 ## Routes - Subscriptions - Cancel and IapItem
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Келесі төлем { $date } күні
+sub-expires-on = Мерзімі { $date } күні аяқталады
 
 ## Routes - Subscription - PaymentUpdate
 
 
 # $expirationDate (Date) - The payment card's expiration date.
 
+pay-update-card-exp = Мерзімі { $expirationDate } күні аяқталады
+sub-route-idx-updating = Төлем ақпаратын жаңарту…
+sub-route-payment-modal-heading = Төлем ақпараты жарамсыз
+sub-route-payment-modal-message = { -brand-name-paypal } тіркелгіңізде қате бар сияқты, бұл төлем мәселесін шешу үшін сізге қажетті қадамдарды орындау қажет.
 
 ## Routes - Subscription - SubscriptionItem
 
+sub-item-no-such-plan = Бұл жазылу үшін мұндай жоспар жоқ.
+invoice-not-found = Кейінгі шот-фактура табылмады
+sub-item-no-such-subsequent-invoice = Бұл жазылу үшін келесі шот-фактура табылмады.
 
 ## Routes - Subscriptions - Pocket Subscription
 
