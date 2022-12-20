@@ -447,10 +447,18 @@ reactivate-confirm-copy =
     { $name } ішіне қатынау мүмкіндігіңіз жалғасады және төлем
     цикліңіз бен төлеміңіз өзгеріссіз қалады. Келесі төлем шамасы { $amount },
     ол { $endDate } күні { $last } деп аяқталатын картадан алынады.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy =
+    { $name } ішіне қатынау мүмкіндігіңіз жалғасады және төлем
+    цикліңіз бен төлеміңіз өзгеріссіз қалады. Келесі төлем
+    шамасы { $amount }, ол { $endDate } күні алынады.
 reactivate-confirm-button = Қайта жазылу
 
 ## $date (Date) - Last day of product access
 
+reactivate-panel-copy = { $name } ішіне қол жеткізу рұқсатын <strong>{ $date }</strong> күні жоғалтасыз.
 reactivate-success-copy = Рахмет! Барлығы дайын.
 reactivate-success-button = Жабу
 
