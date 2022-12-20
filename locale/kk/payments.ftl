@@ -400,6 +400,7 @@ sub-route-idx-updating = Төлем ақпаратын жаңарту…
 sub-route-payment-modal-heading = Төлем ақпараты жарамсыз
 sub-route-payment-modal-message = { -brand-name-paypal } тіркелгіңізде қате бар сияқты, бұл төлем мәселесін шешу үшін сізге қажетті қадамдарды орындау қажет.
 sub-route-missing-billing-agreement-payment-alert = Төлем ақпараты жарамсыз; тіркелгіңізде қате бар. <div>Басқару</div>
+sub-route-funding-source-payment-alert = Төлем ақпараты жарамсыз; тіркелгіңізде қате бар.  Ақпаратты сәтті жаңартқаннан кейін бұл ескертудің жойылуы біраз уақыт алуы мүмкін. <div>Басқару</div>
 
 ## Routes - Subscription - SubscriptionItem
 
@@ -409,6 +410,8 @@ sub-item-no-such-subsequent-invoice = Бұл жазылу үшін келесі 
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title = { -brand-name-pocket } премиум жазылeын іздедіңіз бе?
+manage-pocket-body-2 = Оны басқару үшін <linkExternal>осы жерді басыңыз</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
