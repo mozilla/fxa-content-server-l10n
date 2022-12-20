@@ -176,6 +176,11 @@ product-no-such-plan = Бұл өнім үшін мұндай жоспар жоқ
 
 ## Component - SubscriptionTitle
 
+subscription-create-title = Жазылуыңызды реттеу
+subscription-success-title = Жазылуды растау
+subscription-processing-title = Жазылуды растау…
+subscription-error-title = Жазылуды растау қатесі…
+sub-guarantee = Ақшаны қайтарудың 30-күндік кепілдігі
 
 ## Component - TermsAndPrivacy
 
@@ -197,11 +202,39 @@ coupon-promo-code = Промокод
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } күнде
+       *[other] { $amount } әр { $intervalCount } күн сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } күнде
+           *[other] { $amount } әр { $intervalCount } күн сайын
+        }
 
 ## Error messages
 
 # App error dialog
 general-error-heading = Жалпы қолданба қатесі
+basic-error-message = Бірнәрсе қате кетті. Кейінірек қайталап көріңіз.
+payment-error-1 = Төлеміңізді авторизациялау кезінде мәселе орын алды. Қайталап көріңіз немесе карта шығарушысымен байланысыңыз.
+payment-error-2 = Төлеміңізді авторизациялау кезінде мәселе орын алды. Карта шығарушысымен байланысыңыз.
+payment-error-3b = Төлеміңізді өңдеу кезінде күтпеген қате орын алды, әрекетті қайталаңыз.
+expired-card-error = Несие картаңыздың мерзімі өтіп кеткен сияқты. Басқа картаны қолданып көріңіз.
+insufficient-funds-error = Сіздің картаңызда қаражат жеткіліксіз сияқты. Басқа картаны қолданып көріңіз.
+withdrawal-count-limit-exceeded-error = Бұл транзакция сізді несие шегінен асырып жіберетін сияқты. Басқа картаны қолданып көріңіз.
+charge-exceeds-source-limit = Бұл транзакция сізді күнделікті несие шегінен асырып жіберетін сияқты. Басқа картаны қолданып көріңіз немесе 24 сағат күтіңіз.
+instant-payouts-unsupported = Дебеттік картаңыз жедел төлемдер үшін бапталмаған сияқты. Басқа дебеттік немесе несиелік картаны қолданып көріңіз.
+duplicate-transaction = Бірдей транзакция жаңа ғана жіберілген сияқты. Төлем тарихын тексеріңіз.
+coupon-expired = Бұл промокодтың мерзімі өтіп кеткен сияқты.
+card-error = Транзакцияны өңдеу мүмкін болмады. Несие карта ақпаратын тексеріп, әрекетті қайталаңыз.
+country-currency-mismatch = Бұл жазылымның валютасы төлеміңізге байланысты ел үшін жарамсыз.
+currency-currency-mismatch = Кешіріңіз. Сіз валюталар арасында ауыса алмайсыз.
+no-subscription-change = Кешіріңіз. Жазылу жоспарын өзгерте алмайсыз.
+fxa-post-passwordless-sub-error = Жазылу расталды, бірақ растау беті жүктелмеді. Тіркелгіңізді баптау үшін электрондық поштаңызды тексеріңіз.
+newsletter-signup-error = Сіз өнім жаңалықтары хаттарына тіркелмегенсіз. Тіркелгі баптауларында әрекетті қайталауға болады.
 product-plan-error =
     .title = Жоспарларды жүктеу мәселесі
 product-profile-error =
