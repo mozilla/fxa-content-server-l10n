@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-20 13:30+0000\n"
+"PO-Revision-Date: 2022-12-20 13:40+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -979,7 +979,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Сіз тіркелгіні қалпына келтіру кілті арқылы тіркелгіңізді қалпына сәтті келтірдіңіз. Деректеріңізді қорғау үшін жаңа парольді жасаңыз және оны қауіпсіз жерде сақтаңыз."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1245,7 +1245,7 @@ msgstr "Екі қадамды аутентификацияны іске қосу
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr ""
+msgstr "<a %(escapedTotpSupportAttributes)s>Осы аутентификация қолданбаларының</a> бірінен қауіпсіздік кодтарын талап ету арқылы тіркелгіңізге қауіпсіздік деңгейін қосыңыз."
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
@@ -1265,7 +1265,7 @@ msgstr "Кодты сканерлеу мүмкін емес пе?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Аяқтағаннан кейін ол сізге енгізу үшін қауіпсіздік кодтарын жасай бастайды."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
@@ -1370,6 +1370,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>ЕСКЕРТУ:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - "
+"құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол Pocket деректеріне әсер етпейді."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1431,6 +1433,11 @@ msgid ""
 "              Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>.\n"
 "            "
 msgstr ""
+"\n"
+"            Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
+"            Pocket компаниясының <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/en/privacy/\">Жекелік ескертуі</a><br />\n"
+"            Firefox-тың <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>.\n"
+"          "
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
@@ -1632,7 +1639,7 @@ msgstr "Кіруді растау"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "Егер біреу сіздің тіркелгіңізге кіруге әрекеттеніп жатыр деп күмәндансаңыз, <a id=\"change-password\" href=\"/settings/change_password\">парольді өзгертіңіз.</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
@@ -1640,7 +1647,7 @@ msgstr "Жүйеге кіру туралы push-хабарландыруын ж�
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Біз жіберген кіруді растау беті үшін байланысқан Firefox құрылғыларын тексеріңіз."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
@@ -1656,7 +1663,7 @@ msgstr "Екіншілік эл. пошта адресін қосу"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Қосымша электрондық поштаны қосу тіркелгіңізге қайта кіруге көмектеседі, егер сіз бұғатталған болсаңыз және %(escapedEmail)s адресіне кіре алмасаңыз."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
@@ -1669,7 +1676,7 @@ msgstr "Мүмкін, кейінірек"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "%(escapedEmail)s адресіне жіберілген растау кодын 5 минут ішінде енгізіңіз."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1690,11 +1697,11 @@ msgstr "%(serviceName)s қызметіне жалғастыру үшін"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Firefox account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Firefox account services."
-msgstr ""
+msgstr "Firefox тіркелгіңізде күмәнді әрекетті анықтадық. Тіркелгіңізді қорғау үшін жаңа паролді жасаңыз. Бұл парольді барлық Firefox тіркелгісі қызметтеріне қайта кіру үшін пайдаланасыз."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "Синхрондалған тарих, бетбелгілер, логиндер және басқа жеке деректер жоғалмайды."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
@@ -1799,7 +1806,7 @@ msgstr "Сканерлеуге дайын"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Модильді құрылғыңызды байланыстырыңыз</h1><p>тек сіз үшін жасалған QR кодымен</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
@@ -1924,7 +1931,7 @@ msgstr "Жиі қолданылатын пароль емес"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "Қауіпсіз болыңыз &mdash; парольдерді қайта қолданбаңыз. <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">Мықты парольдерді жасау</a> бойынша қосымша кеңестерді қараңыз."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1984,6 +1991,9 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Сіз қазір синхрондаудасыз: <span>%(deviceFamily)s, %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
@@ -1999,7 +2009,7 @@ msgstr "Құрылғыларды басқару"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small>from your other device</small>"
-msgstr ""
+msgstr "Енді сіздің <small>басқа құрылғыңыздан</small> растау керек болып тұр"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Pairing not successful"
@@ -2028,6 +2038,8 @@ msgstr "Құрылғыңызды синхрондаңыз"
 #: .es5/templates/pair/index.mustache:6
 msgid "Scan to download Firefox for mobile, or send yourself a <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" class=\"link-blue\">download link.</a>"
 msgstr ""
+"Мобильдік құрылғыларға арналған Firefox қолданбасын жүктеп алу үшін сканерлеңіз немесе өзіңізге <a id=\"get-fx-mobile\" href=\"https://www.mozilla.org/firefox/mobile/get-app/\" target=\"_blank\" "
+"class=\"link-blue\">жүктеп алу сілтемесін жіберіңіз.</a>"
 
 #: .es5/templates/pair/index.mustache:7
 msgid "QR code"
