@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-09 18:10+0000\n"
-"PO-Revision-Date: 2022-12-19 15:30+0000\n"
+"PO-Revision-Date: 2022-12-20 13:30+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -496,7 +496,7 @@ msgstr "Бұл сұрау тіркелгіңізде іске қосылған �
 
 #: .es5/lib/auth-errors.js:256
 msgid "Failed due to a conflicting request, please try again."
-msgstr ""
+msgstr "Шиеленіскен сұраным салдарынан сәтсіз аяқталды, қайталап көріңіз."
 
 #: .es5/lib/auth-errors.js:264
 msgid "Unknown customer for subscription."
@@ -917,6 +917,8 @@ msgstr "Firefox тіркелгіңізге қайта кіру үшін қауі
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
+"<span class=\"note\">ЕСКЕРТУ:</span> Парольді қалпына келтірсеңіз және тіркелгіні қалпына келтіру кілті сақталмаса, кейбір деректеріңіз (соның ішінде тарих және бетбелгілер сияқты синхрондалған "
+"сервер деректері) өшіріледі."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -972,6 +974,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>ЕСІҢІЗДЕ БОЛСЫН:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның "
+"себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол Pocket деректеріне әсер етпейді."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1498,7 +1502,7 @@ msgstr "Парольді қайталау"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Бұл пароль бізде сақтайтын кез келген шифрленген деректерге қол жеткізу үшін қажет.<br class=\"mb-3\">Қалпына келтіру парольдер мен бетбелгілер сияқты деректерді жоғалту мүмкіндігін білдіреді."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Practical knowledge is coming to your inbox. Sign up for more:"
@@ -1520,6 +1524,11 @@ msgid ""
 "            Firefox’s <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
+"            Pocket компаниясының <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/en/tos/\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"pocket-pp\" href=\"https://getpocket.com/en/privacy/\">Жекелік ескертуі</a><br />\n"
+"            Firefox-тың <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
+"          "
 
 #: .es5/templates/support.mustache:1
 msgid "Firefox Accounts"
@@ -1599,7 +1608,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Тіркелгіні қалпына келтіру кілтін көру үшін парольді енгізіңіз."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3 .es5/templates/post_verify/account_recovery/confirm_password.mustache:6
 msgid "Enter Password"
@@ -1721,7 +1730,7 @@ msgstr "%(email)s жазылу"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Сіз шерткен сілтемеде таңбалар жоқ еді, оны электрондық пошта клиенті зақымдаған болуы мүмкін."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4 .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Create a Firefox Account"

@@ -516,6 +516,7 @@ subscriptionUpgrade-upgrade-info = Сіз { $productNameOld } өнімінен {
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info = Келесі шотыңыздан бастап төлеміңіз әр { $productPaymentCycleOld } сайын { $paymentAmountOld } болса, әр { $productPaymentCycleNew } сайын { $paymentAmountNew } болып өзгереді. Сол кезде сізден осы { $productPaymentCycleOld } қалған бөлігі үшін үлкенірек төлемді сипаттау үшін { $paymentProrated } бір реттік алым алынады.
+subscriptionUpgrade-content-charge-info-different-cycle = Осы { $productPaymentCycleOld } қалғанына жазылуңыздың үлкенірек бағасын сипаттау үшін сізден бір реттік { $paymentProrated } алым алынады. Келесі шотыңыздан бастап төлеміңіз әр { $productPaymentCycleOld } сайын { $paymentAmountOld } болса, енді әр { $productPaymentCycleNew } сайын { $paymentAmountNew } болып өзгереді.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = { $productName } пайдалану үшін жаңа бағдарламалық қамтаманы орнату керек болса, жүктеп алу нұсқаулары бар бөлек электрондық хат аласыз.
