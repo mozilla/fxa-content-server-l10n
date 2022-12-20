@@ -188,6 +188,8 @@ subscription-create-title = Жазылуыңызды реттеу
 subscription-success-title = Жазылуды растау
 subscription-processing-title = Жазылуды растау…
 subscription-error-title = Жазылуды растау қатесі…
+subscription-noplanchange-title = Бұл жазылу жоспарын өзгертуге қолдау көрсетілмейді
+subscription-iapsubscribed-title = Жазылып қойған
 sub-guarantee = Ақшаны қайтарудың 30-күндік кепілдігі
 
 ## Component - TermsAndPrivacy
@@ -220,6 +222,39 @@ plan-price-day =
         { $intervalCount ->
             [one] { $amount } күнде
            *[other] { $amount } әр { $intervalCount } күн сайын
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } апта сайын
+       *[other] { $amount } әр { $intervalCount } апта сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } апта сайын
+           *[other] { $amount } әр { $intervalCount } апта сайын
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } ай сайын
+       *[other] { $amount } әр { $intervalCount } ай сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ай сайын
+           *[other] { $amount } әр { $intervalCount } ай сайын
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } жыл сайын
+       *[other] { $amount } әр { $intervalCount } жыл сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } жыл сайын
+           *[other] { $amount } әр { $intervalCount } жыл сайын
         }
 
 ## Error messages
@@ -304,6 +339,30 @@ sub-item-stay-sub = Жазылуда қала беру
 ## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+#  $intervalCount (Number) - The interval between payments, in days.
+sub-plan-price-day =
+    { $intervalCount ->
+        [one] { $amount } күн сайын
+       *[other] { $amount } әр { $intervalCount } күн сайын
+    }
+#  $intervalCount (Number) - The interval between payments, in weeks.
+sub-plan-price-week =
+    { $intervalCount ->
+        [one] { $amount } апта сайын
+       *[other] { $amount } әр { $intervalCount } апта сайын
+    }
+#  $intervalCount (Number) - The interval between payments, in months.
+sub-plan-price-month =
+    { $intervalCount ->
+        [one] { $amount } ай сайын
+       *[other] { $amount } әр { $intervalCount } ай сайын
+    }
+#  $intervalCount (Number) - The interval between payments, in years.
+sub-plan-price-year =
+    { $intervalCount ->
+        [one] { $amount } жыл сайын
+       *[other] { $amount } әр { $intervalCount } жыл сайын
+    }
 
 ## Routes - Subscription
 
@@ -340,6 +399,7 @@ pay-update-card-exp = Мерзімі { $expirationDate } күні аяқтала
 sub-route-idx-updating = Төлем ақпаратын жаңарту…
 sub-route-payment-modal-heading = Төлем ақпараты жарамсыз
 sub-route-payment-modal-message = { -brand-name-paypal } тіркелгіңізде қате бар сияқты, бұл төлем мәселесін шешу үшін сізге қажетті қадамдарды орындау қажет.
+sub-route-missing-billing-agreement-payment-alert = Төлем ақпараты жарамсыз; тіркелгіңізде қате бар. <div>Басқару</div>
 
 ## Routes - Subscription - SubscriptionItem
 
