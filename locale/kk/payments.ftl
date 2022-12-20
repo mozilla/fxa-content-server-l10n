@@ -153,6 +153,11 @@ payment-validate-name-error = Атыңызды енгізіңіз
 ## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-stripe } және { -brand-name-paypal } пайдаланады.
+payment-legal-link-stripe-paypal = <stripePrivacyLink>{ -brand-name-stripe } жекелік саясаты</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-name-paypal } жекелік саясаты</paypalPrivacyLink>
+payment-legal-copy-paypal = { -brand-name-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-paypal } пайдаланады.
+payment-legal-link-paypal-2 = <paypalPrivacyLink>{ -brand-name-paypal } жекелік саясаты</paypalPrivacyLink>
+payment-legal-copy-stripe-2 = { -brand-name-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-stripe } пайдаланады.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } жекелік саясаты</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
@@ -370,6 +375,7 @@ sub-route-idx-reactivating = Жазылуды қайта белсендіру с
 sub-route-idx-cancel-failed = Жазылудан бас тарту сәтсіз аяқталды
 sub-route-idx-contact = Қолдау қызметіне хабарласу
 sub-route-idx-cancel-msg-title = Кетіп қалуыңыздан өкінеміз
+sub-route-idx-cancel-aside = Сұрақтарыңыз бар ма? <a>{ -brand-name-mozilla } Қолдау</a> сайтын шолыңыз.
 
 ## Routes - Subscriptions - Errors
 
@@ -416,6 +422,7 @@ manage-pocket-body-2 = Оны басқару үшін <linkExternal>осы же�
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = { $name } пайдалануды жалғастырғыңыз келе ме?
 reactivate-confirm-button = Қайта жазылу
 
 ## $date (Date) - Last day of product access
