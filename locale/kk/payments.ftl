@@ -131,10 +131,17 @@ payment-error-manage-subscription-button = Менің жазылуымды ба�
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed = Сізде { $productName } жазылуы { -brand-name-google } немесе { -brand-name-apple } қолданба дүкендері арқылы бар болып тұр.
+iap-upgrade-no-bundle-support = Біз бұл жазылуларды жаңартуға қолдау көрсетпейміз, бірақ жақын арада оны бастаймыз.
+iap-upgrade-contact-support = Сіз бұл өнімді әлі де ала аласыз — көмек алу үшін қолдау қызметіне хабарласыңыз.
 iap-upgrade-get-help-button = Көмек алу
 
 ## Component - PaymentForm
 
+payment-name =
+    .placeholder = Толық атыңыз
+    .label = Картаңызда көрсетілгендей толық атыңыз
 payment-cc =
     .label = Сіздің картаңыз
 payment-cancel-btn = Бас тарту
@@ -145,6 +152,7 @@ payment-validate-name-error = Атыңызды енгізіңіз
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-2 = { -brand-name-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-stripe } және { -brand-name-paypal } пайдаланады.
 
 ## Component - PaymentMethodHeader
 
