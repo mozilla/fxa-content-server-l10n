@@ -123,6 +123,7 @@ payment-confirmation-download-button = Жүктеп алуды жалғасты�
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-with-legal-links-static = Мен { -brand-name-firefox } өнімдерін өндірушісі, { -brand-name-mozilla } компаниясына, оның <termsOfServiceLink>Қызмет көрсету шарттары</termsOfServiceLink> және <privacyNoticeLink>Жекелік ескертуіне</privacyNoticeLink> сәйкес, мен жазылудан бас тартқанша дейін, көрсетілген сома үшін төлем әдісімнен ақы алуға рұқсат беремін.
 
 ## Component - PaymentErrorView
 
@@ -281,6 +282,10 @@ card-error = Транзакцияны өңдеу мүмкін болмады. Н
 country-currency-mismatch = Бұл жазылымның валютасы төлеміңізге байланысты ел үшін жарамсыз.
 currency-currency-mismatch = Кешіріңіз. Сіз валюталар арасында ауыса алмайсыз.
 no-subscription-change = Кешіріңіз. Жазылу жоспарын өзгерте алмайсыз.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Сіз { $mobileAppStore } арқылы әлдеқашан жазылғансыз.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Жүйелік қатесі { $productName } тіркелуінің сәтсіз аяқталуына себеп болды. Төлем әдісіңізден ақы алынбады. Қайталап көріңіз.
 fxa-post-passwordless-sub-error = Жазылу расталды, бірақ растау беті жүктелмеді. Тіркелгіңізді баптау үшін электрондық поштаңызды тексеріңіз.
 newsletter-signup-error = Сіз өнім жаңалықтары хаттарына тіркелмегенсіз. Тіркелгі баптауларында әрекетті қайталауға болады.
 product-plan-error =
@@ -327,6 +332,10 @@ brand-name-apple-app-store = App Store
 
 product-plan-change-heading = Өзгерісіңізді қарап шығыңыз
 sub-change-failed = Жоспарды өзгерту сәтсіз аяқталды
+sub-update-copy =
+    Сіздің жоспарыңыз бірден өзгереді және сізден төлем циклінің
+    қалған бөлігі үшін түзетілген сома алынады.
+    { $startingDate } күнінен бастап сізден толық сома алынады.
 sub-change-submit = Өзгерісті растау
 sub-update-current-plan-label = Ағымдағы жоспар
 sub-update-new-plan-label = Жаңа жоспар
@@ -340,6 +349,8 @@ sub-item-stay-sub = Жазылуда қала беру
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-cancel-msg = Төлем циклінің соңғы күнінен, яғни { $period } кейін, { $name } бұдан былай пайдалана алмайсыз.
+sub-item-cancel-confirm = { $period } күні { $name } ішіне кіру рұқсатымды және сақталған ақпаратымды тоқтатыңыз
 
 ## Subscription billing details
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -375,6 +386,12 @@ sub-route-idx-reactivating = Жазылуды қайта белсендіру с
 sub-route-idx-cancel-failed = Жазылудан бас тарту сәтсіз аяқталды
 sub-route-idx-contact = Қолдау қызметіне хабарласу
 sub-route-idx-cancel-msg-title = Кетіп қалуыңыздан өкінеміз
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    { $name } жазылуыңыздан бас тартылды.
+          <br />
+          { $date } дейін { $name } ішіне әлі де қол жеткізе аласыз.
 sub-route-idx-cancel-aside = Сұрақтарыңыз бар ма? <a>{ -brand-name-mozilla } Қолдау</a> сайтын шолыңыз.
 
 ## Routes - Subscriptions - Errors
@@ -423,6 +440,13 @@ manage-pocket-body-2 = Оны басқару үшін <linkExternal>осы же�
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = { $name } пайдалануды жалғастырғыңыз келе ме?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy =
+    { $name } ішіне қатынау мүмкіндігіңіз жалғасады және төлем
+    цикліңіз бен төлеміңіз өзгеріссіз қалады. Келесі төлем шамасы { $amount },
+    ол { $endDate } күні { $last } деп аяқталатын картадан алынады.
 reactivate-confirm-button = Қайта жазылу
 
 ## $date (Date) - Last day of product access
