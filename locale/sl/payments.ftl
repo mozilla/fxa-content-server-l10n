@@ -82,8 +82,8 @@ new-user-sign-in-link = Že imate { -brand-name-firefox } Račun? <a>Prijava</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .label = Vnesite e-poštni naslov
+new-user-enter-email =
+    .label = Vnesite svoj e-poštni naslov
 new-user-confirm-email =
     .label = Potrdite e-poštni naslov
 new-user-subscribe-product-updates = Želim prejemati { -brand-name-firefox }ove novice o izdelkih
@@ -212,6 +212,101 @@ plan-details-tax = Davki in pristojbine
 
 product-no-such-plan = Za ta izdelek ni takšnega načrta.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } davek
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } na dan
+       *[other] { $priceAmount } vsakih { $intervalCount } dni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } na dan
+           *[other] { $priceAmount } vsakih { $intervalCount } dni
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } na teden
+       *[other] { $priceAmount } vsakih { $intervalCount } tednov
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } na teden
+           *[other] { $priceAmount } vsakih { $intervalCount } tednov
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } mesečno
+       *[other] { $priceAmount } vsakih { $intervalCount } mesecev
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } mesečno
+           *[other] { $priceAmount } vsakih { $intervalCount } mesecev
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } letno
+       *[other] { $priceAmount } vsakih { $intervalCount } let
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } letno
+           *[other] { $priceAmount } vsakih { $intervalCount } let
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } davka dnevno
+       *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } dni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } davka dnevno
+           *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } dni
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } davka na teden
+       *[other] { $priceAmount } + { $taxAmount } davka vsakih { $intervalCount } tednov
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } davka na teden
+           *[other] { $priceAmount } + { $taxAmount } davka vsakih { $intervalCount } tednov
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } davka mesečno
+       *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } mesecev
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } davka mesečno
+           *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } mesecev
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } davka letno
+       *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } let
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } davka letno
+           *[other] { $priceAmount } + { $taxAmount } davek vsakih { $intervalCount } let
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Nastavite svojo naročnino
@@ -243,37 +338,49 @@ coupon-promo-code = Promocijska koda
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
+plan-price-interval-day =
     { $intervalCount ->
-        [one] { $amount } dnevno
-        [two] { $amount } vsaka { $intervalCount } dneva
-        [few] { $amount } vsake { $intervalCount } dni
+        [one] { $amount } na dan
        *[other] { $amount } vsakih { $intervalCount } dni
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } na dan
+           *[other] { $amount } vsakih { $intervalCount } dni
+        }
 # $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
+plan-price-interval-week =
     { $intervalCount ->
-        [one] { $amount } tedensko
-        [two] { $amount } vsaka { $intervalCount } tedna
-        [few] { $amount } vsake { $intervalCount } tedne
+        [one] { $amount } na teden
        *[other] { $amount } vsakih { $intervalCount } tednov
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } na teden
+           *[other] { $amount } vsakih { $intervalCount } tednov
+        }
 # $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
+plan-price-interval-month =
     { $intervalCount ->
         [one] { $amount } mesečno
-        [two] { $amount } vsaka { $intervalCount } meseca
-        [few] { $amount } vsake { $intervalCount } mesece
        *[other] { $amount } vsakih { $intervalCount } mesecev
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mesečno
+           *[other] { $amount } vsakih { $intervalCount } mesecev
+        }
 # $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
+plan-price-interval-year =
     { $intervalCount ->
         [one] { $amount } letno
-        [two] { $amount } vsaki { $intervalCount } leti
-        [few] { $amount } vsaka { $intervalCount } leta
        *[other] { $amount } vsakih { $intervalCount } let
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } letno
+           *[other] { $amount } vsakih { $intervalCount } let
+        }
 
 ## Error messages
 
@@ -363,42 +470,6 @@ sub-item-cancel-confirm =
     Prekliči moj dostop in shranjene podatke v storitvi
     { $name } z dnem { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } dnevno
-        [two] { $amount } vsaka { $intervalCount } dneva
-        [few] { $amount } vsake { $intervalCount } dni
-       *[other] { $amount } vsakih { $intervalCount } dni
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } tedensko
-        [two] { $amount } vsaka { $intervalCount } tedna
-        [few] { $amount } vsake { $intervalCount } tedne
-       *[other] { $amount } vsakih { $intervalCount } tednov
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } mesečno
-        [two] { $amount } vsaka { $intervalCount } meseca
-        [few] { $amount } vsake { $intervalCount } mesece
-       *[other] { $amount } vsakih { $intervalCount } mesecev
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } letno
-        [two] { $amount } vsaki { $intervalCount } leti
-        [few] { $amount } vsaka { $intervalCount } leta
-       *[other] { $amount } vsakih { $intervalCount } let
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Obnovitev naročnine ni uspela
@@ -420,6 +491,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Napaka pri nalaganju računov
 sub-billing-update-success = Vaši podatki za obračun so bili uspešno posodobljeni
+sub-invoice-previews-error-title = Težava pri nalaganju predogledov računov
+sub-invoice-previews-error-text = Predogledov računov ni bilo mogoče naložiti
 
 ## Routes - Subscription - ActionButton
 
@@ -427,9 +500,13 @@ pay-update-change-btn = Spremeni
 pay-update-manage-btn = Upravljaj
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Naslednji obračun { $date }
+sub-next-bill-no-tax = Vaš naslednji račun v višini <strong>{ $priceAmount }</strong> zapade v plačilo <strong>{ $date }</strong>
+sub-next-bill-tax = Vaš naslednji račun v višini <strong>{ $priceAmount } + { $taxAmount }</strong> davka zapade <strong>{ $date }</strong>
 sub-expires-on = Preteče { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -449,6 +526,8 @@ sub-route-funding-source-payment-alert = Neveljavni podatki o plačilu; pri upor
 sub-item-no-such-plan = Za to naročnino ni takega načrta.
 invoice-not-found = Naknadnega računa ni mogoče najti
 sub-item-no-such-subsequent-invoice = Naknadnega računa za to naročnino ni mogoče najti.
+sub-invoice-preview-error-title = Predogleda računa ni bilo mogoče najti
+sub-invoice-preview-error-text = Predogleda računa ni bilo mogoče najti za to naročnino
 
 ## Routes - Subscriptions - Pocket Subscription
 

@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -75,6 +76,12 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+Remember-pw-link = Se spomnite gesla? Prijavite se
+
 ## Ready component
 
 ready-confirmation = Vaše geslo je ponastavljeno
@@ -97,18 +104,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox }ov meni
 bento-menu-firefox-title = { -brand-firefox } je tehnologija, ki se bori za vašo zasebnost na spletu.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Brskalnik { -brand-firefox } za namizja
 bento-menu-firefox-mobile = Mobilni brskalnik { -brand-firefox }
-
 bento-menu-made-by-mozilla = Izpod rok { -brand-mozilla(sklon: "rodilnik") }
 
 ## Connect another device promo
@@ -117,7 +123,6 @@ connect-another-fx-mobile = Prenesite si { -brand-firefox } na telefon ali tabli
 connect-another-find-fx-mobile =
     Poiščite { -brand-firefox } v trgovini { -google-play } ali { -app-store } ali
     <br /><linkExternal>si pošlite povezavo za prenos na napravo</linkExternal>.
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -126,6 +131,7 @@ connect-another-app-store-image-2 =
     .title = Prenesite { -brand-firefox } iz trgovine { -app-store }
 
 ##
+
 
 ## Connected services section
 
@@ -140,13 +146,10 @@ cs-cannot-disconnect = Odjemalec ni najden, povezave ni bilo mogoče prekiniti
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Odjavljeno iz storitve { $service }
-
 cs-refresh-button =
     .title = Osveži povezane storitve
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manjkajoči ali podvojeni elementi?
-
 cs-disconnect-sync-heading = Odklopi od Synca
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -185,10 +188,10 @@ cs-disconnect-suspicious-advice-content =
     morate zaradi varnosti svojih podatkov spremeniti geslo { -product-firefox-account(sklon: "rodilnik") }
     v nastavitvah računa. Spremeniti bi morali tudi vsa gesla, ki ste jih shranili
     v { -brand-firefox }, tako da v naslovno vrstico vtipkate about:logins.
-
 cs-sign-out-button = Odjava
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -217,7 +220,6 @@ drop-down-menu-title = Meni { -product-firefox-account(sklon: "rodilnik") }
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Prijavljeni kot</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Odjava
-
 drop-down-menu-sign-out-error-2 = Oprostite, prišlo je do težave pri odjavljanju
 
 ## Flow Container
@@ -251,7 +253,6 @@ input-password-hide = Skrij geslo
 input-password-show = Pokaži geslo
 input-password-hide-aria = Skrij geslo z zaslona.
 input-password-show-aria = Prikaži geslo kot navadno besedilo. Vaše geslo bo vidno na zaslonu.
-
 
 ## Linked Accounts section
 
@@ -332,11 +333,11 @@ avatar-page-image-too-large-error-2 = Datoteka s sliko je prevelika za nalaganje
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Spremeni geslo
-
 pw-8-chars = vsaj 8 znakov
 pw-not-email = ni vaš e-poštni naslov
 pw-change-must-match = se mora ujemati s potrditvijo
@@ -346,40 +347,35 @@ pw-tips = Ostanite varni – ne reciklirajte gesel. Oglejte si več nasvetov za 
 pw-change-cancel-button = Prekliči
 pw-change-save-button = Shrani
 pw-change-forgot-password-link = Ste pozabili geslo?
-
 pw-change-current-password =
     .label = Vnesite trenutno geslo
 pw-change-new-password =
     .label = Vnesite novo geslo
 pw-change-confirm-password =
     .label = Potrdite novo geslo
-
 pw-change-success-alert-2 = Geslo posodobljeno
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Ustvari geslo
-
 pw-create-success-alert-2 = Geslo nastavljeno
 pw-create-error-2 = Oprostite, prišlo je do težave pri nastavljanju gesla
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Izbriši račun
-
 delete-account-step-1-2 = Korak 1 od 2
 delete-account-step-2-2 = Korak 2 od 2
-
 delete-account-confirm-title-2 = Svoj { -product-firefox-account(sklon: "tozilnik") } ste povezali z izdelki { -brand-mozilla(sklon: "rodilnik") }, ki vam zagotavljajo varnost in produktivnost na spletu:
-
 delete-account-acknowledge = Zavedajte se, da boste z izbrisom računa:
-
 delete-account-chk-box-1-v2 =
     .label = Vse morebitne plačljive naročnine bodo preklicane (razen { product-pocket })
 delete-account-chk-box-2 =
@@ -388,33 +384,28 @@ delete-account-chk-box-3 =
     .label = pri ponovni aktivaciji tega e-poštnega računa morda ne boste mogli obnoviti shranjenih podatkov
 delete-account-chk-box-4 =
     .label = izbrisali vse razširitve in teme, ki ste jih objavili na addons.mozilla.org
-
-
 delete-account-continue-button = Nadaljuj
-
 delete-account-password-input =
     .label = Vnesite geslo
-
 delete-account-cancel-button = Prekliči
 delete-account-delete-button-2 = Izbriši
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Prikazno ime
-
 display-name-input =
     .label = Vnesite prikazno ime
 submit-display-name = Shrani
 cancel-display-name = Prekliči
-
 display-name-update-error-2 = Prišlo je do napake pri spremembi prikaznega imena
-
 display-name-success-alert-2 = Prikazno ime posodobljeno
 
 ##
+
 
 # Account recovery key setup page
 
@@ -468,25 +459,20 @@ delete-account-link = Izbriši račun
 ## Two Step Authentication
 
 tfa-title = Overitev v dveh korakih
-
 tfa-step-1-3 = Korak 1 od 3
 tfa-step-2-3 = Korak 2 od 3
 tfa-step-3-3 = Korak 3 od 3
-
 tfa-button-continue = Nadaljuj
 tfa-button-cancel = Prekliči
 tfa-button-finish = Končaj
-
 tfa-incorrect-totp = Nepravilna koda za overitev v dveh korakih
 tfa-cannot-retrieve-code = Prišlo je do napake pri pridobivanju vaše kode.
 tfa-cannot-verify-code-4 = Pri potrjevanju rezervne overitvene kode je prišlo do težave
 tfa-incorrect-recovery-code-1 = Nepravilna rezervna overitvena koda
 tfa-enabled = Overitev v dveh korakih je omogočena
-
 tfa-scan-this-code =
     Skenirajte to kodo QR z eno od <linkExternal>naslednjih
     aplikacij za overjanje</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -495,17 +481,14 @@ tfa-qa-code-alt = Uporabite kodo { $secret } za nastavitev dvostopenjskega overj
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Ne morete prebrati kode?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Vnesite ta tajni ključ v svojo aplikacijo za overitev:
-
 tfa-enter-totp = Sedaj vnesite varnostno kodo iz aplikacije za overjanje.
 tfa-input-enter-totp =
     .label = Vnesite varnostno kodo
 tfa-save-these-codes-1 =
     Shranite te rezervne overitvene kode za enkratno uporabo na varno mesto
     za primere, ko nimate mobilne naprave.
-
 tfa-enter-code-to-confirm-1 =
     Vnesite eno od rezervnih overitvenih kod, da potrdite, da
     ste si jih shranili. Kodo boste potrebovali za prijavo v primeru, da nimate dostopa
@@ -514,6 +497,7 @@ tfa-enter-recovery-code-1 =
     .label = Vnesite rezervno overitveno kodo
 
 ##
+
 
 ## Profile section
 
@@ -526,6 +510,7 @@ profile-primary-email =
     .header = Glavna e-pošta
 
 ##
+
 
 ## Security section of Setting
 
@@ -617,6 +602,7 @@ se-secondary-email-none = Brez
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Overitev v dveh korakih
@@ -625,7 +611,6 @@ tfa-row-enabled = Omogočena
 tfa-row-not-set = Ni nastavljena
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogoči
-
 tfa-row-button-refresh =
     .title = Osveži overitev v dveh korakih
 tfa-row-cannot-refresh =
@@ -635,14 +620,12 @@ tfa-row-content-explain =
     Preprečite, da bi se v vaš račun prijavil kdo drug, z
     zahtevanjem edinstvene kode, do katere imate dostop samo vi.
 tfa-row-cannot-verify-session-4 = Oprostite, prišlo je do težave pri potrjevanju vaše seje
-
 tfa-row-disable-modal-heading = Ali želite onemogočiti overitev v dveh korakih?
 tfa-row-disable-modal-confirm = Onemogoči
 tfa-row-disable-modal-explain-1 =
     Tega dejanja ne morete razveljaviti. Imate tudi
     možnost <linkExternal>zamenjave rezervnih overitvenih kod</linkExternal>.
 tfa-row-cannot-disable-2 = Overitve v dveh korakih ni bilo mogoče izključiti
-
 tfa-row-change-modal-heading-1 = Spremeni rezervne overitvene kode?
 tfa-row-change-modal-confirm = Spremeni
 tfa-row-change-modal-explain = Tega dejanja ne boste mogli razveljaviti.
@@ -666,3 +649,18 @@ auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova račun
 auth-error-155 = Žetona TOTP ni mogoče najti
 auth-error-183-2 = Neveljavna ali pretečena potrditvena koda
 auth-error-1008 = Novo geslo mora biti drugačno
+
+## ResetPassword page
+
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Ponastavite geslo <span>za nadaljevanje v nastavitvah računa</span>
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Ponastavite geslo <span>za nadaljevanje na { $serviceName }</span>
+reset-password-warning-message = <span>Opomba:</span> Ko ponastavite svoje geslo, ponastavite svoj račun. Morda boste izgubili nekatere osebne podatke (vključno z zgodovino, zaznamki in gesli). To je zato, ker za zaščito vaše zasebnosti vaše podatke šifriramo z vašim geslom. Morebitne naročnine boste še vedno obdržali in to ne bo vplivalo na podatke v { product-pocket }.
+reset-password-button = Začni ponastavitev
+reset-password-success-alert = Ponastavitev gesla
+reset-password-error-general = Pri ponastavitvi vašega gesla je žal prišlo do težave
+reset-password-error-unknown-account = Neznan račun
+reset-password-with-recovery-key-verified-generate-new-key = Ustvari nov ključ za obnovitev računa
+reset-password-with-recovery-key-verified-continue-to-account = Naprej na moj račun
