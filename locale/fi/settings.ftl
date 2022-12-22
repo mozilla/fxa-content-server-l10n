@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -36,6 +37,13 @@ product-firefox-relay = Firefox Relay
 
 ## Ready component
 
+ready-confirmation = Salasanasi on nollattu
+# This is a string that tells the user they can use whatever service prompted them to reset their password
+# Variables:
+# $serviceName (String) - the service which caused the user to reset their password
+ready-use-service = Voit nyt aloittaa palvelun { $serviceName } käyttämisen
+ready-continue = Jatka
+
 ## Alert Bar
 
 alert-bar-close-message = Sulje viesti
@@ -49,18 +57,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox }-valikko
 bento-menu-firefox-title = { -brand-firefox } on teknologia, joka taistelee yksityisyytesi puolesta.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-selain työpöydälle
 bento-menu-firefox-mobile = { -brand-firefox }-selain mobiililaitteille
-
 bento-menu-made-by-mozilla = { -brand-mozilla }lta
 
 ## Connect another device promo
@@ -69,7 +76,6 @@ connect-another-fx-mobile = Hanki { -brand-firefox } puhelimeen tai tablettiin
 connect-another-find-fx-mobile =
     Löydä { -brand-firefox } { -google-play }sta ja { -app-store }sta tai
     <br /><linkExternal>lähetä latauslinkki laitteellesi.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -78,6 +84,7 @@ connect-another-app-store-image-2 =
     .title = Lataa { -brand-firefox } { -app-store }sta
 
 ##
+
 
 ## Connected services section
 
@@ -92,13 +99,10 @@ cs-cannot-disconnect = Asiakasta ei löydy, yhteyttä ei voi katkaista
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = Kirjautunut ulos palvelusta { $service }
-
 cs-refresh-button =
     .title = Päivitä yhdistetyt palvelut
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Puuttuuko jokin tai onko jokin kahteen kertaan?
-
 cs-disconnect-sync-heading = Katkaise yhteys Sync-palveluun
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -137,10 +141,10 @@ cs-disconnect-suspicious-advice-content =
     sinun tulisi vaihtaa { -product-firefox-account }n salasana
     tilin asetuksissa. Sinun kannattaa vaihtaa myös muut
     salasanat, jotka olet tallentanut { -brand-firefox }iin kirjoittamalla osoitepalkkiin about:logins.
-
 cs-sign-out-button = Kirjaudu ulos
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -169,7 +173,6 @@ drop-down-menu-title = { -product-firefox-account } -valikko
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>Kirjautunut sisään käyttäjänä</signin><user>{ $user }</user>
 drop-down-menu-sign-out = Kirjaudu ulos
-
 drop-down-menu-sign-out-error-2 = Valitettavasti uloskirjautumisen kanssa ilmeni ongelma
 
 ## Flow Container
@@ -202,7 +205,6 @@ input-password-hide = Piilota salasana
 input-password-show = Näytä salasana
 input-password-hide-aria = Piilota salasana näytöltä.
 input-password-show-aria = Näytä salasana raakatekstinä. Salasanasi näkyy näytöllä.
-
 
 ## Linked Accounts section
 
@@ -277,11 +279,11 @@ avatar-page-image-too-large-error-2 = Kuvatiedoston koko on liian suuri lähetet
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Vaihda salasana
-
 pw-8-chars = Vähintään 8 merkkiä
 pw-not-email = Ei sinun sähköpostiosoite
 pw-change-must-match = Uusi salasana vastaa vahvistusta
@@ -291,40 +293,35 @@ pw-tips = Pysy turvassa — älä käytä samoja salasanoja uudelleen. Katso lis
 pw-change-cancel-button = Peruuta
 pw-change-save-button = Tallenna
 pw-change-forgot-password-link = Unohditko salasanan?
-
 pw-change-current-password =
     .label = Kirjoita nykyinen salasana
 pw-change-new-password =
     .label = Kirjoita uusi salasana
 pw-change-confirm-password =
     .label = Vahvista uusi salasana
-
 pw-change-success-alert-2 = Salasana päivitetty
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Luo salasana
-
 pw-create-success-alert-2 = Salasana asetettu
 pw-create-error-2 = Valitettavasti salasanaa asettaessa ilmeni ongelma
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Poista tili
-
 delete-account-step-1-2 = Vaihe 1/2
 delete-account-step-2-2 = Vaihe 2/2
-
 delete-account-confirm-title-2 = Olet yhdistänyt { -product-firefox-account }si { -brand-mozilla }n tuotteisiin, jotka pitävät sinut tuotteliaana ja turvassa verkossa:
-
 delete-account-acknowledge = Huomioi, että tilisi poistamalla:
-
 delete-account-chk-box-1-v2 =
     .label = Kaikki käytössäsi olevat maksulliset tilaukset perutaan (lukuun ottamatta { product-pocket })
 delete-account-chk-box-2 =
@@ -333,33 +330,28 @@ delete-account-chk-box-3 =
     .label = Aktivointi uudelleen tällä sähköpostiosoitteella ei välttämättä palauta tallentamiasi tietoja
 delete-account-chk-box-4 =
     .label = Kaikki addons.mozilla.org-palveluun julkaisemasi laajennukset ja teemat poistetaan
-
-
 delete-account-continue-button = Jatka
-
 delete-account-password-input =
     .label = Kirjoita salasana
-
 delete-account-cancel-button = Peruuta
 delete-account-delete-button-2 = Poista
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Näyttönimi
-
 display-name-input =
     .label = Kirjoita näyttönimi
 submit-display-name = Tallenna
 cancel-display-name = Peruuta
-
 display-name-update-error-2 = Näyttönimeäsi päivitettäessä tapahtui virhe
-
 display-name-success-alert-2 = Näyttönimi päivitetty
 
 ##
+
 
 # Account recovery key setup page
 
@@ -412,23 +404,18 @@ delete-account-link = Poista tili
 ## Two Step Authentication
 
 tfa-title = Kaksivaiheinen todennus
-
 tfa-step-1-3 = Vaihe 1/3
 tfa-step-2-3 = Vaihe 2/3
 tfa-step-3-3 = Vaihe 3/3
-
 tfa-button-continue = Jatka
 tfa-button-cancel = Peruuta
 tfa-button-finish = Viimeistele
-
 tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
 tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
 tfa-enabled = Kaksivaiheinen todennus käytössä
-
 tfa-scan-this-code =
     Lue tämä QR-koodi käyttäen jotain <linkExternal>näistä
     todennussovelluksista</linkExternal>.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -439,15 +426,14 @@ tfa-qa-code-alt =
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Etkö voi lukea QR-koodia?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
-
 tfa-enter-totp = Kirjoita nyt turvallisuuskoodi todennussovelluksesta.
 tfa-input-enter-totp =
     .label = Kirjoita turvallisuuskoodi
 
 ##
+
 
 ## Profile section
 
@@ -460,6 +446,7 @@ profile-primary-email =
     .header = Ensisijainen sähköposti
 
 ##
+
 
 ## Security section of Setting
 
@@ -545,6 +532,7 @@ se-secondary-email-none = Ei mitään
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Kaksivaiheinen todennus
@@ -553,7 +541,6 @@ tfa-row-enabled = Käytössä
 tfa-row-not-set = Ei asetettu
 tfa-row-action-add = Lisää
 tfa-row-action-disable = Poista käytöstä
-
 tfa-row-button-refresh =
     .title = Päivitä kaksivaiheinen todennus
 tfa-row-cannot-refresh =
@@ -563,11 +550,9 @@ tfa-row-content-explain =
     Estä muita kirjautumasta vaatimalla
     yksilöllinen koodi, jonka vain sinä saat tietää.
 tfa-row-cannot-verify-session-4 = Valitettavasti istunnon vahvistamisessa oli ongelma
-
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
 tfa-row-cannot-disable-2 = Kaksivaiheista todennusta ei voitu poistaa käytöstä
-
 tfa-row-change-modal-confirm = Vaihda
 tfa-row-change-modal-explain = Et voi kumota tätä toimintoa.
 
