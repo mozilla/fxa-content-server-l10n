@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -34,6 +35,12 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = 記得密碼嗎？請登入
+
 ## Ready component
 
 ready-confirmation = 已重設您的密碼
@@ -56,25 +63,23 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } 產品選單
 bento-menu-firefox-title = { -brand-firefox } 的各種技術，為您的線上隱私而戰。
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser 桌面版
 bento-menu-firefox-mobile = { -brand-firefox } Browser 行動版
-
 bento-menu-made-by-mozilla = 由 { -brand-mozilla } 打造
 
 ## Connect another device promo
 
 connect-another-fx-mobile = 下載行動裝置或平板電腦版本的 { -brand-firefox }
 connect-another-find-fx-mobile = 到 { -google-play } 或 { -app-store } 尋找 { -brand-firefox }，或是<br /><linkExternal>傳送下載鏈結到您的行動裝置上。</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -83,6 +88,7 @@ connect-another-app-store-image-2 =
     .title = 到 { -app-store } 下載 { -brand-firefox }
 
 ##
+
 
 ## Connected services section
 
@@ -95,13 +101,10 @@ cs-cannot-disconnect = 找不到客戶端，無法取消連線
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = 已登出 { $service }
-
 cs-refresh-button =
     .title = 重新整理已連結的服務
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 少了什麼東西，或有重複項目嗎？
-
 cs-disconnect-sync-heading = 中斷與 Sync 的連結
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -130,10 +133,10 @@ cs-disconnect-lost-advice-heading = 遭竊或遺失的裝置已離線
 cs-disconnect-lost-advice-content-2 = 由於您的裝置遺失或遭竊，為了確保資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該洽詢裝置製造商，了解要如何從遠端清除裝置中的資料。
 cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
 cs-disconnect-suspicious-advice-content = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-firefox-account } 密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
-
 cs-sign-out-button = 登出
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -162,7 +165,6 @@ drop-down-menu-title = { -product-firefox-account } 選單
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <signin>已登入為</signin><user>{ $user }</user>
 drop-down-menu-sign-out = 登出
-
 drop-down-menu-sign-out-error-2 = 很抱歉，將您登出時發生問題
 
 ## Flow Container
@@ -196,7 +198,6 @@ input-password-hide = 隱藏密碼
 input-password-show = 顯示密碼
 input-password-hide-aria = 在畫面上隱藏密碼。
 input-password-show-aria = 用明文顯示密碼在螢幕上。
-
 
 ## Linked Accounts section
 
@@ -274,11 +275,11 @@ avatar-page-image-too-large-error-2 = 圖片檔案太大，無法上傳
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = 更改密碼
-
 pw-8-chars = 至少八個字元長
 pw-not-email = 不可以與您的電子郵件地址相同
 pw-change-must-match = 「新密碼」與「確認新密碼」輸入內容相符
@@ -288,40 +289,35 @@ pw-tips = 確保安全 — 請勿重複使用密碼。若需有關於建立高�
 pw-change-cancel-button = 取消
 pw-change-save-button = 儲存
 pw-change-forgot-password-link = 忘記密碼？
-
 pw-change-current-password =
     .label = 請輸入您目前的密碼
 pw-change-new-password =
     .label = 輸入新密碼
 pw-change-confirm-password =
     .label = 確認新密碼
-
 pw-change-success-alert-2 = 已更新密碼
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = 設定密碼
-
 pw-create-success-alert-2 = 已設定密碼
 pw-create-error-2 = 很抱歉，設定您的密碼時發生問題
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = 刪除帳號
-
 delete-account-step-1-2 = 第 1 步，共 2 步
 delete-account-step-2-2 = 第 2 步，共 2 步
-
 delete-account-confirm-title-2 = 您已將 { -product-firefox-account } 連結到可讓您在網路世界中更加安全、做事更有效率的 { -brand-mozilla } 產品：
-
 delete-account-acknowledge = 請確認若刪除帳號：
-
 delete-account-chk-box-1-v2 =
     .label = 將取消所有付費訂閱項目（{ product-pocket } 除外）
 delete-account-chk-box-2 =
@@ -330,33 +326,28 @@ delete-account-chk-box-3 =
     .label = 就算重新啟用此信箱，也不會恢復原存的資訊
 delete-account-chk-box-4 =
     .label = 將刪除您所有發佈到 addons.mozilla.org 的擴充套件與佈景主題
-
-
 delete-account-continue-button = 繼續
-
 delete-account-password-input =
     .label = 輸入密碼
-
 delete-account-cancel-button = 取消
 delete-account-delete-button-2 = 刪除
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = 顯示名稱
-
 display-name-input =
     .label = 輸入顯示名稱
 submit-display-name = 儲存
 cancel-display-name = 取消
-
 display-name-update-error-2 = 更新您的顯示名稱時發生錯誤
-
 display-name-success-alert-2 = 已更新顯示名稱
 
 ##
+
 
 # Account recovery key setup page
 
@@ -410,23 +401,18 @@ delete-account-link = 刪除帳號
 ## Two Step Authentication
 
 tfa-title = 兩階段驗證
-
 tfa-step-1-3 = 第 1 步，共 3 步
 tfa-step-2-3 = 第 2 步，共 3 步
 tfa-step-3-3 = 第 3 步，共 3 步
-
 tfa-button-continue = 繼續
 tfa-button-cancel = 取消
 tfa-button-finish = 完成
-
 tfa-incorrect-totp = 兩階段驗證碼不正確
 tfa-cannot-retrieve-code = 取得您的驗證碼時發生問題。
 tfa-cannot-verify-code-4 = 確認您的備用驗證碼時發生問題
 tfa-incorrect-recovery-code-1 = 備用驗證碼不正確
 tfa-enabled = 已開啟兩階段驗證
-
 tfa-scan-this-code = 請使用下列任一種<linkExternal>驗證程式</linkExternal>來掃描這組 QR Code。
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -435,20 +421,18 @@ tfa-qa-code-alt = 使用代碼 { $secret } 在支援的應用程式中設定兩�
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = 無法掃描條碼？
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = 請在驗證程式輸入下列安全金鑰：
-
 tfa-enter-totp = 現在請輸入驗證應用程式當中的安全碼。
 tfa-input-enter-totp =
     .label = 請輸入安全碼
 tfa-save-these-codes-1 = 請將這些單次使用的備用驗證碼儲存在安全的地方，以備行動裝置不在手邊時使用。
-
 tfa-enter-code-to-confirm-1 = 請立刻輸入您的任一組備用驗證碼，以確認您已儲存該驗證碼。當您無法再使用目前的行動裝置時，需要輸入該驗證碼才能登入。
 tfa-enter-recovery-code-1 =
     .label = 請輸入備用驗證碼
 
 ##
+
 
 ## Profile section
 
@@ -461,6 +445,7 @@ profile-primary-email =
     .header = 主要電子郵件地址
 
 ##
+
 
 ## Security section of Setting
 
@@ -546,6 +531,7 @@ se-secondary-email-none = 無
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = 兩階段驗證
@@ -554,18 +540,15 @@ tfa-row-enabled = 啟用
 tfa-row-not-set = 未設定
 tfa-row-action-add = 新增
 tfa-row-action-disable = 停用
-
 tfa-row-button-refresh =
     .title = 重新整理兩階段驗證狀態
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
 tfa-row-content-explain = 透過在登入時要求提供一組只有您有權限存取的代碼，防止他人登入您的帳號。
 tfa-row-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題
-
 tfa-row-disable-modal-heading = 要停用兩階段驗證嗎？
 tfa-row-disable-modal-confirm = 停用
 tfa-row-disable-modal-explain-1 = 將無法還原此動作。您還可以<linkExternal>換新備用救援碼</linkExternal>。
 tfa-row-cannot-disable-2 = 無法停用兩階段驗證
-
 tfa-row-change-modal-heading-1 = 要變更備用驗證碼嗎？
 tfa-row-change-modal-confirm = 變更
 tfa-row-change-modal-explain = 將無法恢復此動作。
@@ -589,3 +572,12 @@ auth-error-139 = 次要信箱必須與您的帳號信箱不同
 auth-error-155 = 找不到 TOTP token
 auth-error-183-2 = 驗證碼無效或失效
 auth-error-1008 = 您的新密碼必須與舊密碼不同
+
+## ResetPassword page
+
+reset-password-button = 開始重設
+reset-password-success-alert = 密碼重設
+reset-password-error-general = 很抱歉，重設您的密碼時發生問題
+reset-password-error-unknown-account = 未知帳號
+reset-password-with-recovery-key-verified-generate-new-key = 產生新的帳號救援金鑰
+reset-password-with-recovery-key-verified-continue-to-account = 繼續前往我的帳號
