@@ -236,6 +236,17 @@ coupon-promo-code = Código promocional
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } diario
+       *[other] { $amount } cada { $intervalCount } días
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } diario
+           *[other] { $amount } cada { $intervalCount } días
+        }
 # $intervalCount (Number) - The interval between payments, in years.
 plan-price-interval-year =
     { $intervalCount ->

@@ -608,6 +608,8 @@ auth-error-1008 = Tu nueva contraseña debe ser diferente
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = Restablecer contraseña <span>para continuar a los ajustes de la cuenta</span>
 # If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Restablecer contraseña <span>para continuar a { $serviceName }</span>
