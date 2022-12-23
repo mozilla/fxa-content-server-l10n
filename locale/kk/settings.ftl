@@ -35,6 +35,12 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Пароліңіз есіңізде бар ма? Кіріңіз
+
 ## Ready component
 
 ready-confirmation = Пароліңіз тасталды
@@ -603,3 +609,18 @@ auth-error-139 = Екіншілік эл. пошта адресі негізгі
 auth-error-155 = TOTP токені табылмады
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
+
+## ResetPassword page
+
+# If more appropriate in a locale, this can stand alone as "Continue to account settings"
+reset-password-heading-w-default-service = <span>Тіркелгі баптауларына өту үшін</span> парольді қалпына келтіріңіз
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = <span>{ $serviceName } қызметіне өту үшін</span> парольді қалпына келтіріңіз
+reset-password-warning-message = <span>Ескерту:</span> Парольді қалпына келтіргенде, тіркелгіні қалпына келтіресіз. Жеке ақпаратыңыздың кейбірін (соның ішінде тарих, бетбелгілер және парольдер) жоғалтуыңыз мүмкін. Оның себебі - құпиялылығыңызды қорғау үшін деректеріңізді пароліңізбен шифрлейміз. Ал жазылуларыңыз болса, сақталады және ол { product-pocket } деректеріне әсер етпейді.
+reset-password-button = Қалпына келтіруді бастау
+reset-password-success-alert = Парольді қалпына келтіру
+reset-password-error-general = Кешіріңіз, пароліңізді қалпына келтіру кезінде мәселе орын алды
+reset-password-error-unknown-account = Белгісіз тіркелгі
+reset-password-with-recovery-key-verified-generate-new-key = Тіркелгіні қалпына келтірудің жаңа кілтін жасау
+reset-password-with-recovery-key-verified-continue-to-account = Менің тіркелгіме жалғастыру

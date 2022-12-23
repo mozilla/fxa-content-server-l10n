@@ -205,6 +205,39 @@ price-details-no-tax-day =
             [one] { $priceAmount } күн сайын
            *[other] { $priceAmount } әр { $intervalCount } күн сайын
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } апта сайын
+       *[other] { $priceAmount } әр { $intervalCount } апта сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } апта сайын
+           *[other] { $priceAmount } әр { $intervalCount } апта сайын
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } ай сайын
+       *[other] { $priceAmount } әр { $intervalCount } ай сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ай сайын
+           *[other] { $priceAmount } әр { $intervalCount } ай сайын
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } жыл сайын
+       *[other] { $priceAmount } әр { $intervalCount } жыл сайын
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } жыл сайын
+           *[other] { $priceAmount } әр { $intervalCount } жыл сайын
+        }
 
 ## Component - SubscriptionTitle
 
@@ -361,6 +394,8 @@ pay-update-manage-btn = Басқару
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Келесі төлем { $date } күні
+sub-next-bill-no-tax = Келесі <strong>{ $priceAmount }</strong> шотыңыздың мерзімі <strong>{ $date }</strong>
+sub-next-bill-tax = Келесі <strong>{ $priceAmount } + { $taxAmount }</strong> салық шотыңыздың мерзімі <strong>{ $date }</strong>
 sub-expires-on = Мерзімі { $date } күні аяқталады
 
 ## Routes - Subscription - PaymentUpdate
