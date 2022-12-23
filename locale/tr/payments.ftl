@@ -66,9 +66,8 @@ new-user-sign-in-link = { -brand-name-firefox } hesabınız var mı? <a>Giriş y
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = E-postanızı yazın
+new-user-enter-email =
+    .label = E-posta adresinizi yazın
 new-user-confirm-email =
     .label = E-postanızı doğrulayın
 new-user-subscribe-product-updates = { -brand-name-firefox } ile ilgili yeniliklerden haberdar olmak istiyorum
@@ -187,6 +186,11 @@ plan-details-tax = Vergiler ve ücretler
 
 product-no-such-plan = Bu ürün için böyle bir plan yok.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Aboneliğinizi ayarlayın
@@ -210,8 +214,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Kutuyu kapat
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Yükleniyor…
 settings-subscriptions-title = Abonelikler
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Promosyon kodu
@@ -219,30 +221,6 @@ coupon-promo-code = Promosyon kodu
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] Günlük { $amount }
-       *[other] { $intervalCount } günde bir { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] Haftalık { $amount }
-       *[other] { $intervalCount } haftada bir { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] Aylık { $amount }
-       *[other] { $intervalCount } ayda bir { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] Yıllık { $amount }
-       *[other] { $intervalCount } yılda bir { $amount }
-    }
 
 ## Error messages
 
@@ -329,34 +307,6 @@ sub-item-stay-sub = Aboneliğimi sürdür
 sub-item-cancel-msg = Faturanızın son günü olan { $period } tarihinden sonra { $name } ürününü kullanamayacaksınız.
 sub-item-cancel-confirm = { $name } ürününe erişimimi ve kayıtlı bilgilerimi { $period } tarihinde iptal et
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] Günde { $amount }
-       *[other] { $intervalCount } günde bir { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] Haftada { $amount }
-       *[other] { $intervalCount } haftada bir { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] Ayda { $amount }
-       *[other] { $intervalCount } ayda bir { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] Yılda { $amount }
-       *[other] { $intervalCount } yılda bir { $amount }
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Aboneliği yeniden etkinleştirme başarısız oldu
@@ -385,6 +335,8 @@ pay-update-change-btn = Değiştir
 pay-update-manage-btn = Yönet
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Bir sonraki faturalandırma: { $date }

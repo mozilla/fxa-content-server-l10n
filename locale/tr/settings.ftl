@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
 ## Firefox and Mozilla Brand
 ##
 ## Firefox and Mozilla must be treated as a brand.
@@ -34,6 +35,9 @@ product-firefox-relay = Firefox Relay
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+
 ## Ready component
 
 ready-confirmation = Parolanız sıfırlandı
@@ -56,18 +60,17 @@ avatar-default-avatar =
 
 ##
 
+
 # BentoMenu component
 
 bento-menu-title = { -brand-firefox } bento menüsü
 bento-menu-firefox-title = { -brand-firefox } çevrimiçi gizliliğiniz için savaşır.
-
 bento-menu-vpn = { product-mozilla-vpn }
 bento-menu-monitor = { product-firefox-monitor }
 bento-menu-pocket = { product-pocket }
 bento-menu-firefox-relay = { product-firefox-relay }
 bento-menu-firefox-desktop = Bilgisayarlar için { -brand-firefox } tarayıcısı
 bento-menu-firefox-mobile = Mobil cihazlar için { -brand-firefox } tarayıcısı
-
 bento-menu-made-by-mozilla = { -brand-mozilla } güvencesiyle
 
 ## Connect another device promo
@@ -76,7 +79,6 @@ connect-another-fx-mobile = { -brand-firefox }’u mobil cihazınıza veya table
 connect-another-find-fx-mobile =
     { -google-play }’de ve { -app-store }’da { -brand-firefox }’u arayabilir veya
     <br /><linkExternal>cihazınıza indirme bağlantısı gönderebilirsiniz.</linkExternal>
-
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -85,6 +87,7 @@ connect-another-app-store-image-2 =
     .title = { -brand-firefox }’u { -app-store }’dan indir
 
 ##
+
 
 ## Connected services section
 
@@ -99,13 +102,10 @@ cs-cannot-disconnect = İstemci bulunamadı, bağlantı kesilemiyor
 #   $service (String) - the name of a device or service that uses Firefox Accounts
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = { $service } oturumu kapatıldı
-
 cs-refresh-button =
     .title = Bağlı hizmetleri yenile
-
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Eksik veya çift kayıtlar mı var?
-
 cs-disconnect-sync-heading = Sync bağlantısını kes
 
 ## This string is used in a modal dialog when the user starts the disconnect from
@@ -136,10 +136,10 @@ cs-disconnect-lost-advice-heading = Kayıp veya çalınan cihazın bağlantısı
 cs-disconnect-lost-advice-content-2 = Cihazınız kaybolduysa veya çalındıysa bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. Ayrıca verilerinizi uzaktan silme konusunda cihaz üreticinizden bilgi almanızı öneririz.
 cs-disconnect-suspicious-advice-heading = Şüpheli cihazın bağlantısı kesildi
 cs-disconnect-suspicious-advice-content = Bağlantısını kestiğiniz cihaz gerçekten şüpheliyse bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-firefox-account } parolanızı değiştirmelisiniz. { -brand-firefox } tarayıcınıza kaydettiğiniz ve adres çubuğuna about:logins yazarak görebileceğiniz parolaları da değiştirmenizi öneririz.
-
 cs-sign-out-button = Çıkış yap
 
 ##
+
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -168,7 +168,6 @@ drop-down-menu-title = { -product-firefox-account } menüsü
 #   $user (String) - the user's name (or email address, if they haven't added their name to their account)
 drop-down-menu-signed-in-as = <user>{ $user }</user><signin>olarak giriş yaptınız</signin>
 drop-down-menu-sign-out = Çıkış yap
-
 drop-down-menu-sign-out-error-2 = Üzgünüz, çıkış yapılırken bir sorun oluştu
 
 ## Flow Container
@@ -202,7 +201,6 @@ input-password-hide = Parolayı gizle
 input-password-show = Parolayı göster
 input-password-hide-aria = Parolayı ekrandan gizle.
 input-password-show-aria = Parolayı düz metin olarak göster. Parolanız ekranda görünecektir.
-
 
 ## Linked Accounts section
 
@@ -280,11 +278,11 @@ avatar-page-image-too-large-error-2 = Resim dosyası boyutu yüklenemeyecek kada
 
 ##
 
+
 ## Password change page
 
 pw-change-header =
     .title = Parolayı değiştir
-
 pw-8-chars = En az 8 karakter olmalı
 pw-not-email = E-posta adresiniz olmamalı
 pw-change-must-match = Yeni parola eşleşme onayı
@@ -294,40 +292,35 @@ pw-tips = Güvende kalın: Aynı parolaları farklı yerlerde kullanmayın. <lin
 pw-change-cancel-button = İptal
 pw-change-save-button = Kaydet
 pw-change-forgot-password-link = Parolanızı unuttunuz mu?
-
 pw-change-current-password =
     .label = Mevcut parolanızı yazın
 pw-change-new-password =
     .label = Yeni parolanızı yazın
 pw-change-confirm-password =
     .label = Yeni parolanızı doğrulayın
-
 pw-change-success-alert-2 = Parola güncellendi
 
 ##
+
 
 ## Password create page
 
 pw-create-header =
     .title = Parola oluştur
-
 pw-create-success-alert-2 = Parola ayarlandı
 pw-create-error-2 = Üzgünüz, parolanız ayarlanırken bir sorun oluştu
 
 ##
 
+
 ## Delete account page
 
 delete-account-header =
     .title = Hesabı sil
-
 delete-account-step-1-2 = Adım 1/2
 delete-account-step-2-2 = Adım 2/2
-
 delete-account-confirm-title-2 = { -product-firefox-account }nızı, internette güvende ve üretken kalmanızı sağlayan { -brand-mozilla } ürünlerine bağladınız:
-
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
-
 delete-account-chk-box-1-v2 =
     .label = Tüm ücretli abonelikleriniz iptal edilecektir ({ product-pocket } hariç)
 delete-account-chk-box-2 =
@@ -336,33 +329,28 @@ delete-account-chk-box-3 =
     .label = Bu e-postayı yeniden etkinleştirseniz bile kayıtlı bilgileriniz geri gelmeyecektir
 delete-account-chk-box-4 =
     .label = addons.mozilla.org’da yayımladığınız tüm eklentiler ve temalar silinecektir
-
-
 delete-account-continue-button = Devam
-
 delete-account-password-input =
     .label = Parolanızı yazın
-
 delete-account-cancel-button = İptal
 delete-account-delete-button-2 = Sil
 
 ##
 
+
 ## Display name page
 
 display-name-page-title =
     .title = Görünen ad
-
 display-name-input =
     .label = Görünen adı yazın
 submit-display-name = Kaydet
 cancel-display-name = İptal
-
 display-name-update-error-2 = Görünen adınız güncellenirken bir sorun oluştu
-
 display-name-success-alert-2 = Görünen ad güncellendi
 
 ##
+
 
 # Account recovery key setup page
 
@@ -416,23 +404,18 @@ delete-account-link = Hesabı sil
 ## Two Step Authentication
 
 tfa-title = İki aşamalı doğrulama
-
 tfa-step-1-3 = Adım 1/3
 tfa-step-2-3 = Adım 2/3
 tfa-step-3-3 = Adım 3/3
-
 tfa-button-continue = Devam et
 tfa-button-cancel = İptal
 tfa-button-finish = Bitir
-
 tfa-incorrect-totp = Yanlış iki aşamalı doğrulama kodu
 tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
 tfa-cannot-verify-code-4 = Yedek kimlik doğrulama kodunuz onaylanırken bir sorun oluştu
 tfa-incorrect-recovery-code-1 = Yanlış yedek kimlik doğrulama kodu
 tfa-enabled = İki aşamalı kimlik doğrulama etkinleştirildi
-
 tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkExternal> birini kullanarak bu QR kodunu tarayın.
-
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -441,15 +424,12 @@ tfa-qa-code-alt = Desteklenen uygulamalarda iki aşamalı doğrulamayı kurmak i
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kodu tarayamıyor musunuz?
-
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Bu anahtar kodunu kimlik doğrulama uygulamanıza yazın:
-
 tfa-enter-totp = Şimdi kimlik doğrulama uygulamasının verdiği güvenlik kodunu yazın.
 tfa-input-enter-totp =
     .label = Güvenlik kodunu yazın
 tfa-save-these-codes-1 = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın.
-
 tfa-enter-code-to-confirm-1 =
     Lütfen kaydettiğinizi onaylamak için yedek kimlik doğrulama kodlarınızdan
     birini girin. Mobil cihazınıza erişemediğinizde giriş yapmak için bir koda
@@ -458,6 +438,7 @@ tfa-enter-recovery-code-1 =
     .label = Bir yedek kimlik doğrulama kodunu girin
 
 ##
+
 
 ## Profile section
 
@@ -470,6 +451,7 @@ profile-primary-email =
     .header = Birinci e-posta
 
 ##
+
 
 ## Security section of Setting
 
@@ -555,6 +537,7 @@ se-secondary-email-none = Yok
 
 ##
 
+
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = İki aşamalı doğrulama
@@ -563,7 +546,6 @@ tfa-row-enabled = Etkin
 tfa-row-not-set = Ayarlanmamış
 tfa-row-action-add = Ekle
 tfa-row-action-disable = Devre dışı bırak
-
 tfa-row-button-refresh =
     .title = İki aşamalı doğrulamayı yenile
 tfa-row-cannot-refresh =
@@ -571,12 +553,10 @@ tfa-row-cannot-refresh =
     bir sorun oluştu.
 tfa-row-content-explain = Yalnızca sizin erişebileceğiniz benzersiz bir kod isteyerek başkalarının giriş yapmasını engeller.
 tfa-row-cannot-verify-session-4 = Oturumunuz onaylanırken bir sorun oluştu
-
 tfa-row-disable-modal-heading = İki aşamalı doğrulama devre dışı bırakılsın mı?
 tfa-row-disable-modal-confirm = Devre dışı bırak
 tfa-row-disable-modal-explain-1 = Bu işlemi geri alamazsınız. İsterseniz <linkExternal>yedek kimlik doğrulama kodlarınızı değiştirebilirisiniz</linkExternal>.
 tfa-row-cannot-disable-2 = İki aşamalı doğrulama devre dışı bırakılamadı
-
 tfa-row-change-modal-heading-1 = Yedek kimlik doğrulama kodları değiştirilsin mi?
 tfa-row-change-modal-confirm = Değiştir
 tfa-row-change-modal-explain = Bu işlemi geri alamazsınız.
@@ -600,3 +580,12 @@ auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
 auth-error-155 = TOTP jetonu bulunamadı
 auth-error-183-2 = Geçersiz veya süresi dolmuş onay kodu
 auth-error-1008 = Yeni parolanız farklı olmalıdır
+
+## ResetPassword page
+
+reset-password-button = Sıfırlamayı başlat
+reset-password-success-alert = Parola sıfırlama
+reset-password-error-general = Parolanız sıfırlanırken bir sorun oluştu
+reset-password-error-unknown-account = Bilinmeyen hesap
+reset-password-with-recovery-key-verified-generate-new-key = Yeni bir hesap kurtarma anahtarı oluşturun
+reset-password-with-recovery-key-verified-continue-to-account = Hesabıma devam et
