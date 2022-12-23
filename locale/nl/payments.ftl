@@ -66,8 +66,7 @@ new-user-sign-in-link = Hebt u al een { -brand-name-firefox }-account? <a>Aanmel
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Voer uw e-mailadres in
 new-user-confirm-email =
     .label = Bevestig uw e-mailadres
@@ -189,6 +188,12 @@ plan-details-tax = Belastingen en heffingen
 
 product-no-such-plan = Een dergelijk schema bestaat niet voor dit product.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Uw abonnement instellen
@@ -212,8 +217,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Modal sluiten
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Laden…
 settings-subscriptions-title = Abonnementen
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Promotiecode
@@ -221,30 +224,6 @@ coupon-promo-code = Promotiecode
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] dagelijks { $amount }
-       *[other] elke { $intervalCount } dagen { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] wekelijks { $amount }
-       *[other] elke { $intervalCount } weken { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] maandelijks { $amount }
-       *[other] elke { $intervalCount } maanden { $amount }
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] jaarlijks { $amount }
-       *[other] elke { $intervalCount } jaar { $amount }
-    }
 
 ## Error messages
 
@@ -339,34 +318,6 @@ sub-item-cancel-confirm =
     Mijn toegang tot en opgeslagen gegevens in { $name }
     op { $period } opzeggen
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] dagelijks { $amount }
-       *[other] elke { $intervalCount } dagen { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] wekelijks { $amount }
-       *[other] elke { $intervalCount } weken { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] maandelijks { $amount }
-       *[other] elke { $intervalCount } maanden { $amount }
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] jaarlijks { $amount }
-       *[other] elke { $intervalCount } jaar { $amount }
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Opnieuw activeren van abonnement is mislukt
@@ -395,6 +346,8 @@ pay-update-change-btn = Wijzigen
 pay-update-manage-btn = Beheren
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Volgende incasso op { $date }
