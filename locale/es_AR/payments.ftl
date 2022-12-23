@@ -313,6 +313,50 @@ coupon-promo-code = Código promocional
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } diario
+       *[other] { $amount } cada { $intervalCount } días
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } diario
+           *[other] { $amount } cada { $intervalCount } días
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } semanal
+       *[other] { $amount } cada { $intervalCount } semanas
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } semanal
+           *[other] { $amount } cada { $intervalCount } semanas
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } mensual
+       *[other] { $amount } cada { $intervalCount } meses
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } mensual
+           *[other] { $amount } cada { $intervalCount } meses
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } anual
+       *[other] { $amount } cada { $intervalCount } años
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } anual
+           *[other] { $amount } cada { $intervalCount } años
+        }
 
 ## Error messages
 
@@ -428,6 +472,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problema cargando las facturas
 sub-billing-update-success = La información de facturación se ha actualizado correctamente.
+sub-invoice-previews-error-title = Problema cargando vistas previas de facturas
+sub-invoice-previews-error-text = No se pudieron cargar vistas previas de facturas
 
 ## Routes - Subscription - ActionButton
 
@@ -440,6 +486,8 @@ pay-update-manage-btn = Administrar
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima facturación el { $date }
+sub-next-bill-no-tax = La próxima factura de <strong>{ $priceAmount }</strong> vence el <strong>{ $date }</strong>
+sub-next-bill-tax = La próxima factura de <strong>{ $priceAmount } + impuestos { $taxAmount }</strong> vence el <strong>{ $date }</strong>
 sub-expires-on = Expira el { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -459,6 +507,8 @@ sub-route-funding-source-payment-alert = Información de pago no válida; hay un
 sub-item-no-such-plan = No existe tal plan para esta suscripción.
 invoice-not-found = Factura posterior no encontrada
 sub-item-no-such-subsequent-invoice = Factura posterior no encontrada para esta suscripción.
+sub-invoice-preview-error-title = Vista previa de factura no encontrada
+sub-invoice-preview-error-text = Vista previa de factura no encontrada para esta suscripción
 
 ## Routes - Subscriptions - Pocket Subscription
 
