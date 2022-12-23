@@ -66,8 +66,7 @@ new-user-sign-in-link = Already have a { -brand-name-firefox } account? <a>Sign 
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
+new-user-enter-email =
     .label = Enter your email
 new-user-confirm-email =
     .label = Confirm your email
@@ -189,6 +188,101 @@ plan-details-tax = Taxes and Fees
 
 product-no-such-plan = No such plan for this product.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } tax
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } daily
+       *[other] { $priceAmount } every { $intervalCount } days
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } daily
+           *[other] { $priceAmount } every { $intervalCount } days
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } weekly
+       *[other] { $priceAmount } every { $intervalCount } weeks
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } weekly
+           *[other] { $priceAmount } every { $intervalCount } weeks
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } monthly
+       *[other] { $priceAmount } every { $intervalCount } months
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } monthly
+           *[other] { $priceAmount } every { $intervalCount } months
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } yearly
+       *[other] { $priceAmount } every { $intervalCount } years
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } yearly
+           *[other] { $priceAmount } every { $intervalCount } years
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } tax daily
+       *[other] { $priceAmount } + { $taxAmount } tax every { $intervalCount } days
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } tax daily
+           *[other] { $priceAmount } + { $taxAmount } tax every { $intervalCount } days
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } tax weekly
+       *[other] { $priceAmount } + { $taxAmount } tax every { $intervalCount } weeks
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } tax weekly
+           *[other] { $priceAmount } + { $taxAmount } tax every { $intervalCount } weeks
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } tax monthly
+       *[other] { $priceAmount } + { $taxAmount } tax every { $intervalCount } months
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } tax monthly
+           *[other] { $priceAmount } + { $taxAmount } tax every { $intervalCount } months
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } tax yearly
+       *[other] { $priceAmount } + { $taxAmount } tax every { $intervalCount } years
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } tax yearly
+           *[other] { $priceAmount } + { $taxAmount } tax every { $intervalCount } years
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Set up your subscription
@@ -212,8 +306,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Close modal
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Loading…
 settings-subscriptions-title = Subscriptions
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Promo Code
@@ -222,29 +314,49 @@ coupon-promo-code = Promo Code
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
+plan-price-interval-day =
     { $intervalCount ->
         [one] { $amount } daily
        *[other] { $amount } every { $intervalCount } days
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } daily
+           *[other] { $amount } every { $intervalCount } days
+        }
 # $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
+plan-price-interval-week =
     { $intervalCount ->
         [one] { $amount } weekly
        *[other] { $amount } every { $intervalCount } weeks
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } weekly
+           *[other] { $amount } every { $intervalCount } weeks
+        }
 # $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
+plan-price-interval-month =
     { $intervalCount ->
         [one] { $amount } monthly
        *[other] { $amount } every { $intervalCount } months
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } monthly
+           *[other] { $amount } every { $intervalCount } months
+        }
 # $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
+plan-price-interval-year =
     { $intervalCount ->
         [one] { $amount } yearly
        *[other] { $amount } every { $intervalCount } years
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } yearly
+           *[other] { $amount } every { $intervalCount } years
+        }
 
 ## Error messages
 
@@ -339,34 +451,6 @@ sub-item-cancel-confirm =
     Cancel my access and my saved information within
     { $name } on { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } daily
-       *[other] { $amount } every { $intervalCount } days
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } weekly
-       *[other] { $amount } every { $intervalCount } weeks
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } monthly
-       *[other] { $amount } every { $intervalCount } months
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } yearly
-       *[other] { $amount } every { $intervalCount } years
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Reactivating subscription failed
@@ -388,6 +472,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problem loading invoices
 sub-billing-update-success = Your billing information has been updated successfully
+sub-invoice-previews-error-title = Problem loading invoice previews
+sub-invoice-previews-error-text = Could not load invoice previews
 
 ## Routes - Subscription - ActionButton
 
@@ -395,6 +481,8 @@ pay-update-change-btn = Change
 pay-update-manage-btn = Manage
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Next billed on { $date }
