@@ -60,13 +60,16 @@ product-firefox-relay =
 -google-play = Google Play
 -app-store = App Store
 
+## LinkRememberPassword component
+
+
 ## Ready component
 
 ready-confirmation = A jelszó alaphelyzetbe lett állítva
 # This is a string that tells the user they can use whatever service prompted them to reset their password
 # Variables:
 # $serviceName (String) - the service which caused the user to reset their password
-ready-use-service = Most már készen áll a %(serviceName)s használatára
+ready-use-service = Most már készen áll a { $serviceName } használatára
 ready-continue = Folytatás
 
 ## Alert Bar
@@ -627,3 +630,6 @@ auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail
 auth-error-155 = A TOTP token nem található
 auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
 auth-error-1008 = Az új jelszónak különbözőnek kell lennie
+
+## ResetPassword page
+
