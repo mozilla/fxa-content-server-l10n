@@ -193,7 +193,7 @@ product-no-such-plan = Nessun piano di questo tipo per questo prodotto.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
-price-details-tax = { $priceAmount } + { $taxAmount } tax
+price-details-tax = { $priceAmount } + { $taxAmount } tasse
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-no-tax-day =
     { $intervalCount ->
@@ -323,6 +323,39 @@ plan-price-interval-day =
         { $intervalCount ->
             [one] { $amount } al giorno
            *[other] { $amount } ogni { $intervalCount } giorni
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } settimanalmente
+       *[other] { $amount } ogni { $intervalCount } settimane
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } settimanalmente
+           *[other] { $amount } ogni { $intervalCount } settimane
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } al mese
+       *[other] { $amount } ogni { $intervalCount } mesi
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } al mese
+           *[other] { $amount } ogni { $intervalCount } mesi
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } all’anno
+       *[other] { $amount } ogni { $intervalCount } anni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } all’anno
+           *[other] { $amount } ogni { $intervalCount } anni
         }
 
 ## Error messages

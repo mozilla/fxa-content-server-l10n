@@ -43,7 +43,7 @@ product-firefox-relay = Firefox Relay
 
 # Link that users can follow to sign in to their account
 # This link exits the Reset Password flow
-Remember-pw-link = Ricordi la password? Accedi
+remember-pw-link = Ricordi la tua password? Accedi
 
 ## Ready component
 
