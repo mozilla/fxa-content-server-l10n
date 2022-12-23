@@ -332,6 +332,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problema a cargar le facturas
 sub-billing-update-success = Tu informationes de facturation ha essite  actualisate con successo!
+sub-invoice-previews-error-title = Problemas a cargar vistas previe de factura
+sub-invoice-previews-error-text = Impossibile cargar vistas previe de factura
 
 ## Routes - Subscription - ActionButton
 
@@ -364,6 +366,7 @@ sub-item-no-such-plan = Nulle tal plano pro iste subscription.
 invoice-not-found = Factura posterior no trovate
 sub-item-no-such-subsequent-invoice = Factura posterior non trovate pro iste abonamento.
 sub-invoice-preview-error-title = Vista previe de factura non trovate
+sub-invoice-preview-error-text = Vista previe de factura non trovate pro iste abonamento
 
 ## Routes - Subscriptions - Pocket Subscription
 

@@ -37,6 +37,9 @@ product-firefox-relay = Firefox Relay
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = Memora tu contrasigno? Accede.
 
 ## Ready component
 
@@ -600,6 +603,10 @@ auth-error-1008 = Tu nove contrasigno debe esser differente
 
 ## ResetPassword page
 
+reset-password-warning-message = <span>Nota:</span> Quando tu reinitialisa tu contrasigno, tu reinitialisa tu conto. Tu pote perder parte de tu informationes personal (includite chronologia, marcapaginas, e contrasignos). I.e. perque nos cifra tu datos con tu contrasigno pro proteger tu confidentialitate. Totevia tu retenera tote le abonamentos que tu ha e tu datos { product-pocket } non sera afficite.
+reset-password-button = Initiar reinitialisation
+reset-password-success-alert = Remontar contrasigno
+reset-password-error-general = Desolate, problema durante le remontage de tu contrasigno
 reset-password-error-unknown-account = Conto incognite
 reset-password-with-recovery-key-verified-generate-new-key = Generar un nove clave de recuperation del conto
 reset-password-with-recovery-key-verified-continue-to-account = Continuar a mi conto
