@@ -194,6 +194,17 @@ product-no-such-plan = No existe ese plan para este producto
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } impuestos
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } anual
+       *[other] { $priceAmount } cada { $intervalCount } años
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } anual
+           *[other] { $priceAmount } cada { $intervalCount } años
+        }
 
 ## Component - SubscriptionTitle
 
@@ -225,6 +236,17 @@ coupon-promo-code = Código promocional
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } anual
+       *[other] { $amount } cada { $intervalCount } años
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } anual
+           *[other] { $amount } cada { $intervalCount } años
+        }
 
 ## Error messages
 
@@ -340,6 +362,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problema al cargar facturas
 sub-billing-update-success = Tus datos de facturación han sido actualizados correctamente
+sub-invoice-previews-error-title = Problema al cargar vistas previas de facturas
+sub-invoice-previews-error-text = No se pudieron cargar vistas previas de facturas
 
 ## Routes - Subscription - ActionButton
 
@@ -352,6 +376,8 @@ pay-update-manage-btn = Administrar
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Próxima facturación el { $date }
+sub-next-bill-no-tax = Tu próxima factura de <strong>{ $priceAmount }</strong> vence el <strong>{ $date }
+sub-next-bill-tax = Tu próxima factura de <strong>{ $priceAmount } + { $taxAmount }</strong> vence el <strong>{ $date }</strong>
 sub-expires-on = Expira el { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -371,6 +397,8 @@ sub-route-funding-source-payment-alert = Información de pago no válida; hay un
 sub-item-no-such-plan = No existe ese plan para esta suscripción.
 invoice-not-found = Factura posterior no encontrada
 sub-item-no-such-subsequent-invoice = No se encontró la factura posterior para esta suscripción.
+sub-invoice-preview-error-title = Vista previa de la factura no encontrada
+sub-invoice-preview-error-text = Vista previa de la factura no encontrada para esta suscripción
 
 ## Routes - Subscriptions - Pocket Subscription
 

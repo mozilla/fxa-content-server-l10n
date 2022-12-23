@@ -37,6 +37,9 @@ product-firefox-relay = Firefox Relay
 
 ## LinkRememberPassword component
 
+# Link that users can follow to sign in to their account
+# This link exits the Reset Password flow
+remember-pw-link = ¿Recuerdas tu contraseña? Inicia sesión
 
 ## Ready component
 
@@ -605,6 +608,10 @@ auth-error-1008 = Tu nueva contraseña debe ser diferente
 
 ## ResetPassword page
 
+# If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+reset-password-heading-w-custom-service = Restablecer contraseña <span>para continuar a { $serviceName }</span>
+reset-password-button = Comenzar restablecimiento
 reset-password-success-alert = Restablecer contraseña
 reset-password-error-general = Lo sentimos, hubo un problema al restablecer tu contraseña
 reset-password-error-unknown-account = Cuenta desconocida
