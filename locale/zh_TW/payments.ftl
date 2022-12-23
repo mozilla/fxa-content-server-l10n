@@ -249,6 +249,39 @@ price-details-tax-day =
             [one] 每天 { $priceAmount } + 稅金 { $taxAmount }
            *[other] 每 { $intervalCount } 天 { $priceAmount } + 稅金 { $taxAmount }
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] 每週 { $priceAmount } + 稅金 { $taxAmount }
+       *[other] 每 { $intervalCount } 週 { $priceAmount }  + 稅金 { $taxAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每週 { $priceAmount } + 稅金 { $taxAmount }
+           *[other] 每 { $intervalCount } 週 { $priceAmount } + 稅金 { $taxAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] 每個月 { $priceAmount } + 稅金 { $taxAmount }
+       *[other] 每 { $intervalCount } 個月 { $priceAmount } + 稅金 { $taxAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每個月 { $priceAmount } + 稅金 { $taxAmount }
+           *[other] 每 { $intervalCount } 個月 { $priceAmount } + 稅金 { $taxAmount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] 每年 { $priceAmount } + 稅金 { $taxAmount }
+       *[other] 每 { $intervalCount } 年 { $priceAmount } + 稅金 { $taxAmount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每年 { $priceAmount } + 稅金 { $taxAmount }
+           *[other] 每 { $intervalCount } 年 { $priceAmount } + 稅金 { $taxAmount }
+        }
 
 ## Component - SubscriptionTitle
 
@@ -280,6 +313,50 @@ coupon-promo-code = 折扣碼
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] 每天 { $amount }
+       *[other] 每 { $intervalCount } 天 { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每天 { $amount }
+           *[other] 每 { $intervalCount } 天 { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] 每週 { $amount }
+       *[other] 每 { $intervalCount } 週 { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每週 { $amount }
+           *[other] 每 { $intervalCount } 週 { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] 每月 { $amount }
+       *[other] 每 { $intervalCount } 個月 { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每月 { $amount }
+           *[other] 每 { $intervalCount } 個月 { $amount }
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] 每年 { $amount }
+       *[other] 每 { $intervalCount } 年 { $amount }
+    }
+    .title =
+        { $intervalCount ->
+            [one] 每年 { $amount }
+           *[other] 每 { $intervalCount } 年 { $amount }
+        }
 
 ## Error messages
 
