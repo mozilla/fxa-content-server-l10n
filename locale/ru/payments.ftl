@@ -66,9 +66,8 @@ new-user-sign-in-link = У вас уже есть аккаунт { -brand-name-f
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.com
-    .label = Введите адрес своей эл. почты
+new-user-enter-email =
+    .label = Введите ваш адрес эл. почты
 new-user-confirm-email =
     .label = Подтвердите свою электронную почту
 new-user-subscribe-product-updates = Я хочу получать новости о продукте от { -brand-name-firefox }
@@ -193,6 +192,12 @@ plan-details-tax = Налоги и сборы
 
 product-no-such-plan = Нет такого плана для этого продукта.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Настройка вашей подписки
@@ -216,8 +221,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Закрыть окно
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Загрузка…
 settings-subscriptions-title = Подписки
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Промокод
@@ -225,34 +228,6 @@ coupon-promo-code = Промокод
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
-# $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } каждый { $intervalCount } день
-        [few] { $amount } каждые { $intervalCount } дня
-       *[many] { $amount } каждые { $intervalCount } дней
-    }
-# $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } каждую { $intervalCount } неделю
-        [few] { $amount } каждые { $intervalCount } недели
-       *[many] { $amount } каждые { $intervalCount } недель
-    }
-# $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } каждый { $intervalCount } месяц
-        [few] { $amount } каждые { $intervalCount } месяца
-       *[many] { $amount } каждые { $intervalCount } месяцев
-    }
-# $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } каждый { $intervalCount } год
-        [few] { $amount } каждые { $intervalCount } года
-       *[many] { $amount } каждые { $intervalCount } лет
-    }
 
 ## Error messages
 
@@ -347,38 +322,6 @@ sub-item-cancel-confirm =
     Отменить мой доступ и мою сохранённую информацию в
     { $name } { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } каждый { $intervalCount } день
-        [few] { $amount } каждые { $intervalCount } дня
-       *[many] { $amount } каждые { $intervalCount } дней
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } каждую { $intervalCount } неделю
-        [few] { $amount } каждые { $intervalCount } недели
-       *[many] { $amount } каждые { $intervalCount } недель
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } каждый { $intervalCount } месяц
-        [few] { $amount } каждые { $intervalCount } месяца
-       *[many] { $amount } каждые { $intervalCount } месяцев
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } каждый { $intervalCount } год
-        [few] { $amount } каждые { $intervalCount } года
-       *[many] { $amount } каждые { $intervalCount } лет
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Не удалось повторно активировать подписку
@@ -407,6 +350,8 @@ pay-update-change-btn = Изменить
 pay-update-manage-btn = Управление
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Следующий счёт будет выставлен { $date }
