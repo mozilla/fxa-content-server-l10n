@@ -618,6 +618,7 @@ reset-password-heading-w-default-service = Stel uw wachtwoord opnieuw in <span>o
 # If more appropriate in a locale, this can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 reset-password-heading-w-custom-service = Stel uw wachtwoord opnieuw in <span>om door te gaan naar { $serviceName }</span>
+reset-password-warning-message = <span>Noot:</span> wanneer u uw wachtwoord opnieuw instelt, stelt u uw account opnieuw in. Bepaalde persoonlijke gegevens (waaronder geschiedenis, bladwijzers en wachtwoorden) kunnen verloren gaan. Dit komt doordat we uw gegevens met uw wachtwoord versleutelen om uw privacy te beschermen. U behoudt al uw eventuele abonnementen en { product-pocket }-gegevens worden niet beïnvloed.
 reset-password-button = Herinitialisatie beginnen
 reset-password-success-alert = Wachtwoord opnieuw instellen
 reset-password-error-general = Sorry, er is een probleem opgetreden bij het opnieuw instellen van uw wachtwoord
