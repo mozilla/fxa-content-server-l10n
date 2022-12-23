@@ -66,9 +66,8 @@ new-user-sign-in-link = У вас уже є обліковий запис { -bra
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
-new-user-email =
-    .placeholder = foxy@mozilla.comfoxy@mozilla.com
-    .label = Введіть адресу своєї е-пошти
+new-user-enter-email =
+    .label = Введіть адресу е-пошти
 new-user-confirm-email =
     .label = Підтвердьте електронну адресу
 new-user-subscribe-product-updates = Я хочу отримувати новини про продукти від { -brand-name-firefox }
@@ -193,6 +192,117 @@ plan-details-tax = Податки та збори
 
 product-no-such-plan = Такого тарифного плану для цього продукту не існує.
 
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + податок { $taxAmount }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } щодня
+        [few] { $priceAmount } кожні { $intervalCount } дні
+       *[many] { $priceAmount } кожні { $intervalCount } днів
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } щодня
+            [few] { $priceAmount } кожні { $intervalCount } дні
+           *[many] { $priceAmount } кожні { $intervalCount } днів
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } щотижня
+        [few] { $priceAmount } кожні { $intervalCount } тижні
+       *[many] { $priceAmount } кожні { $intervalCount } тижнів
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } щотижня
+            [few] { $priceAmount } кожні { $intervalCount } тижні
+           *[many] { $priceAmount } кожні { $intervalCount } тижнів
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } щомісяця
+        [few] { $priceAmount } кожні { $intervalCount } місяці
+       *[many] { $priceAmount } кожні { $intervalCount } місяців
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } *щомісяця
+            [few] { $priceAmount } кожні { $intervalCount } місяці
+           *[many] { $priceAmount } кожні { $intervalCount } місяців
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } щороку
+        [few] { $priceAmount } кожні { $intervalCount } роки
+       *[many] { $priceAmount } кожні { $intervalCount } років
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } щороку
+            [few] { $priceAmount } кожні { $intervalCount } роки
+           *[many] { $priceAmount } кожні { $intervalCount } років
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } податок щодня
+        [few] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } дні
+       *[many] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } днів
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + податок { $taxAmount } щодня
+            [few] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } дні
+           *[many] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } днів
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + податок { $taxAmount } щотижня
+        [few] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } тижні
+       *[many] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } тижнів
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + податок { $taxAmount } щотижня
+            [few] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } тижні
+           *[many] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } тижнів
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + податок { $taxAmount } щомісяця
+        [few] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } місяці
+       *[many] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } місяців
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + податок { $taxAmount } щомісяця
+            [few] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } місяці
+           *[many] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } місяців
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + податок { $taxAmount } щороку
+        [few] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } роки
+       *[many] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } років
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + податок { $taxAmount } щороку
+            [few] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } роки
+           *[many] { $priceAmount } + податок { $taxAmount } кожні { $intervalCount } років
+        }
+
 ## Component - SubscriptionTitle
 
 subscription-create-title = Налаштуйте передплату
@@ -216,8 +326,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Закрити вікно
-# Aria label for spinner image indicating data is loading
-app-loading-spinner-aria-label-loading = Завантаження…
 settings-subscriptions-title = Передплати
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Промокод
@@ -226,33 +334,57 @@ coupon-promo-code = Промокод
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 # $intervalCount (Number) - The interval between payments, in days.
-plan-price-day =
+plan-price-interval-day =
     { $intervalCount ->
         [one] { $amount } щодня
         [few] { $amount } кожні { $intervalCount } дні
        *[many] { $amount } кожні { $intervalCount } днів
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } щодня
+            [few] { $amount } кожні { $intervalCount } дні
+           *[many] { $amount } кожні { $intervalCount } днів
+        }
 # $intervalCount (Number) - The interval between payments, in weeks.
-plan-price-week =
+plan-price-interval-week =
     { $intervalCount ->
         [one] { $amount } щотижня
         [few] { $amount } кожні { $intervalCount } тижні
        *[many] { $amount } кожні { $intervalCount } тижнів
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } щотижня
+            [few] { $amount } кожні { $intervalCount } тижні
+           *[many] { $amount } кожні { $intervalCount } тижнів
+        }
 # $intervalCount (Number) - The interval between payments, in months.
-plan-price-month =
+plan-price-interval-month =
     { $intervalCount ->
         [one] { $amount } щомісяця
         [few] { $amount } кожні { $intervalCount } місяці
        *[many] { $amount } кожні { $intervalCount } місяців
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } щомісяця
+            [few] { $amount } кожні { $intervalCount } місяці
+           *[many] { $amount } кожні { $intervalCount } місяців
+        }
 # $intervalCount (Number) - The interval between payments, in years.
-plan-price-year =
+plan-price-interval-year =
     { $intervalCount ->
         [one] { $amount } щороку
         [few] { $amount } кожні { $intervalCount } роки
        *[many] { $amount } кожні { $intervalCount } років
     }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } щороку
+            [few] { $amount } кожні { $intervalCount } роки
+           *[many] { $amount } кожні { $intervalCount } років
+        }
 
 ## Error messages
 
@@ -345,38 +477,6 @@ sub-item-cancel-msg =
     { $period }, останній день вашого платіжного циклу.
 sub-item-cancel-confirm = Скасувати мій доступ до { $name } разом зі збереженими даними { $period }
 
-## Subscription billing details
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-#  $intervalCount (Number) - The interval between payments, in days.
-sub-plan-price-day =
-    { $intervalCount ->
-        [one] { $amount } щодня
-        [few] { $amount } кожні { $intervalCount } дні
-       *[many] { $amount } кожні { $intervalCount } днів
-    }
-#  $intervalCount (Number) - The interval between payments, in weeks.
-sub-plan-price-week =
-    { $intervalCount ->
-        [one] { $amount } кожні щотижня
-        [few] { $amount } кожні { $intervalCount } тижні
-       *[many] { $amount } кожні { $intervalCount } тижнів
-    }
-#  $intervalCount (Number) - The interval between payments, in months.
-sub-plan-price-month =
-    { $intervalCount ->
-        [one] { $amount } щомісяця
-        [few] { $amount } кожні { $intervalCount } місяці
-       *[many] { $amount } кожні { $intervalCount } місяців
-    }
-#  $intervalCount (Number) - The interval between payments, in years.
-sub-plan-price-year =
-    { $intervalCount ->
-        [one] { $amount } щороку
-        [few] { $amount } кожні { $intervalCount } роки
-       *[many] { $amount } кожні { $intervalCount } років
-    }
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Не вдалося поновити передплату
@@ -398,6 +498,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Проблема із завантаженням рахунків-фактур
 sub-billing-update-success = Ваші платіжні дані успішно оновлено
+sub-invoice-previews-error-title = Проблема із завантаженням попереднього перегляду рахунків-фактур
+sub-invoice-previews-error-text = Не вдається завантажити попередній перегляд рахунків-фактур
 
 ## Routes - Subscription - ActionButton
 
@@ -405,9 +507,13 @@ pay-update-change-btn = Змінити
 pay-update-manage-btn = Керувати
 
 ## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Наступна оплата { $date }
+sub-next-bill-no-tax = Ваш наступний рахунок на суму <strong>{ $priceAmount }</strong> має бути сплачений до <strong>{ $date }</strong>
+sub-next-bill-tax = Ваш наступний рахунок на суму <strong>{ $priceAmount } + податок { $taxAmount }</strong> має бути сплачений до <strong>{ $date }</strong>
 sub-expires-on = Чинний до { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -427,6 +533,8 @@ sub-route-funding-source-payment-alert = Недійсні платіжні да�
 sub-item-no-such-plan = Такого тарифного плану для цієї передплати не існує.
 invoice-not-found = Наступний рахунок-фактуру не знайдено
 sub-item-no-such-subsequent-invoice = Наступний рахунок-фактуру для цієї передплати не знайдено.
+sub-invoice-preview-error-title = Попередній перегляд рахунка-фактури не знайдено
+sub-invoice-preview-error-text = Не знайдено попередній перегляд рахунка-фактури для цієї передплати
 
 ## Routes - Subscriptions - Pocket Subscription
 
